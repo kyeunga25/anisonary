@@ -1,0 +1,51 @@
+---
+import Header from "@/components/common/Header.astro";
+import Footer from "@/components/common/Footer.astro";
+import "@/styles/global.css";
+
+interface Props {
+  title?: string;
+  description?: string;
+  noIndex?: boolean;
+}
+
+const {
+  title = "Anisonary｜動畫歌典",
+  description = "按季度與動畫，找到每一首 OP／ED 的官方入口。",
+  noIndex = false
+} = Astro.props;
+const pageTitle = title === "Anisonary｜動畫歌典" ? title : `${title}｜Anisonary 動畫歌典`;
+const canonical = new URL(Astro.url.pathname, Astro.site ?? "https://anisonary.k-y.cc");
+---
+
+<!doctype html>
+<html lang="zh-Hant" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={description} />
+    {noIndex && <meta name="robots" content="noindex" />}
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+    <meta name="theme-color" content="#fbfcff" />
+    <title>{pageTitle}</title>
+    <script is:inline>
+      (() => {
+        const saved = localStorage.getItem("anisonary-theme");
+        const preferred = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        document.documentElement.dataset.theme = saved || preferred;
+      })();
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">跳到主要內容</a>
+    <Header />
+    <main id="main-content"><slot /></main>
+    <Footer />
+  </body>
+</html>

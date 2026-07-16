@@ -1,0 +1,145 @@
+---
+import SourceList from "@/components/anime/SourceList.astro";
+import MockNotice from "@/components/common/MockNotice.astro";
+import ThemeCard from "@/components/theme/ThemeCard.astro";
+import ThemeEmptyState from "@/components/theme/ThemeEmptyState.astro";
+import { getDataProvider } from "@/data/provider";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import type { PublicAnimeDetail, PublicSeasonSummary } from "@/types/public-api";
+import { animeStatusLabel } from "@/utils/theme";
+import { formatBroadcastLabel, weekdayShortLabel } from "@/utils/weekday";
+
+interface AnimePageProps {
+  anime: PublicAnimeDetail;
+  season: PublicSeasonSummary;
+}
+
+export async function getStaticPaths() {
+  const provider = getDataProvider();
+  const seasons = await provider.getSeasons();
+  const pages = await Promise.all(seasons.flatMap(async (season) => {
+    const detail = await provider.getSeason(season.id);
+    if (!detail) return [];
+
+    const anime = await Promise.all(detail.anime.map((item) => provider.getAnime(item.slug)));
+    return anime.filter((item): item is PublicAnimeDetail => item !== null).map((item) => ({
+      params: { slug: item.slug },
+      props: { anime: item, season }
+    }));
+  }));
+
+  return pages.flat();
+}
+
+const { anime, season } = Astro.props as AnimePageProps;
+const seasonLabel = `${season.year} ${season.titleZhHant}`;
+const broadcastLabel = formatBroadcastLabel(anime);
+const externalReferences = [
+  anime.officialSiteUrl && { label: "動畫官方網站", url: anime.officialSiteUrl },
+  anime.bangumiUrl && { label: "Bangumi", url: anime.bangumiUrl },
+  anime.anilistUrl && { label: "AniList", url: anime.anilistUrl }
+].filter((item): item is { label: string; url: string } => Boolean(item));
+---
+
+<BaseLayout
+  title={`${anime.titleJa}／${anime.titleZhHant ?? anime.titleRomaji ?? "主題曲"}`}
+  description={`${anime.titleJa} 的 OP／ED、演唱者、製作 Credits 與已驗證資料來源。`}
+>
+  <article class="anime-detail page-shell">
+    <nav class="breadcrumb" aria-label="麵包屑">
+      <a href={`/seasons/${season.id}/`}>{seasonLabel}</a>
+      <span aria-hidden="true">/</span>
+      <span>{anime.editorialWeekday ? weekdayShortLabel(anime.editorialWeekday).replace("週", "星期") : "不定期"}</span>
+    </nav>
+
+    <header class:list={["anime-hero", { "anime-hero--no-poster": !anime.posterUrl }]}>
+      {anime.posterUrl && (
+        <figure class="anime-hero__poster">
+          <img src={anime.posterUrl} alt={anime.posterAlt} decoding="async" fetchpriority="high" />
+        </figure>
+      )}
+
+      <div class="anime-hero__content">
+        <h1 lang="ja">{anime.titleJa}</h1>
+        {anime.titleZhHant && <p class="anime-hero__zh">{anime.titleZhHant}</p>}
+        {anime.titleRomaji && <p class="anime-hero__romaji">{anime.titleRomaji}</p>}
+
+        <dl class="anime-hero__meta">
+          <div><dt>季度</dt><dd>{season.year} {season.titleZhHant.replace("動畫", "")}</dd></div>
+          <div><dt>播出</dt><dd>{broadcastLabel}</dd></div>
+          <div><dt>狀態</dt><dd>{animeStatusLabel(anime.status)}</dd></div>
+        </dl>
+
+        <MockNotice compact />
+
+        {externalReferences.length > 0 && (
+          <nav class="reference-links" aria-label="作品外部參考">
+            {externalReferences.map((reference) => (
+              <a href={reference.url} target="_blank" rel="noopener noreferrer">
+                {reference.label}<span aria-hidden="true">↗</span>
+              </a>
+            ))}
+          </nav>
+        )}
+      </div>
+    </header>
+
+    <section class="detail-section" aria-labelledby="themes-title">
+      <h2 id="themes-title">主題曲</h2>
+      {anime.themes.length > 0 ? (
+        <div>{anime.themes.map((theme) => <ThemeCard theme={theme} />)}</div>
+      ) : (
+        <ThemeEmptyState seasonId={season.id} seasonLabel={seasonLabel} />
+      )}
+    </section>
+
+    <section class="detail-section" aria-labelledby="sources-title">
+      <h2 id="sources-title">資料來源</h2>
+      {anime.sources.length > 0 ? <SourceList sources={anime.sources} /> : <p class="state-message">資料來源待補充。</p>}
+    </section>
+  </article>
+</BaseLayout>
+
+<style>
+  .anime-detail { padding-bottom: clamp(4rem, 8vw, 7rem); padding-top: 2rem; }
+  .breadcrumb { align-items: center; color: var(--color-muted); display: flex; font-size: 0.83rem; gap: 0.7rem; margin-bottom: 1.6rem; }
+  .breadcrumb a { color: var(--color-accent); font-weight: 720; text-decoration: none; }
+  .breadcrumb a:hover { text-decoration: underline; text-underline-offset: 0.22em; }
+  .anime-hero { align-items: start; display: grid; gap: clamp(2rem, 5vw, 4rem); grid-template-columns: minmax(13rem, 22rem) 1fr; }
+  .anime-hero--no-poster { grid-template-columns: minmax(0, 1fr); }
+  .anime-hero__poster { aspect-ratio: 2 / 3; border: 1px solid var(--color-border-strong); border-radius: var(--radius-card); margin: 0; overflow: hidden; }
+  .anime-hero__poster img { height: 100%; object-fit: cover; width: 100%; }
+  .anime-hero__content { min-width: 0; padding-top: 0.2rem; }
+  .anime-hero__content h1 { font-size: clamp(2.2rem, 5vw, 4.2rem); letter-spacing: -0.045em; line-height: 1.08; margin: 0; }
+  .anime-hero__zh { font-size: clamp(1.35rem, 2.5vw, 2.1rem); font-weight: 760; margin: 0.65rem 0 0; }
+  .anime-hero__romaji { color: var(--color-muted); font-size: clamp(1rem, 1.8vw, 1.35rem); margin: 0.35rem 0 0; }
+  .anime-hero__meta { display: flex; flex-wrap: wrap; margin: 2rem 0 0; }
+  .anime-hero__meta div { align-items: baseline; display: flex; gap: 0.45rem; padding: 0.25rem 1.15rem; }
+  .anime-hero__meta div:first-child { padding-left: 0; }
+  .anime-hero__meta div + div { border-left: 1px solid var(--color-border-strong); }
+  .anime-hero__meta dt { color: var(--color-muted); font-size: 0.7rem; }
+  .anime-hero__meta dd { font-size: 0.86rem; font-weight: 680; margin: 0; }
+  .reference-links { display: flex; flex-wrap: wrap; gap: 0; margin-top: clamp(2.4rem, 7vw, 5.4rem); }
+  .reference-links a { align-items: center; color: var(--color-ink); display: flex; font-size: 0.85rem; font-weight: 680; gap: 0.45rem; padding: 0.35rem 1.5rem; text-decoration: none; }
+  .reference-links a:first-child { padding-left: 0; }
+  .reference-links a + a { border-left: 1px solid var(--color-border-strong); }
+  .reference-links a:hover { color: var(--color-accent); }
+  .detail-section { margin-top: clamp(3.3rem, 7vw, 5.8rem); }
+  .detail-section h2 { font-size: clamp(1.35rem, 2.5vw, 1.75rem); margin: 0 0 1.25rem; padding-bottom: 0.65rem; position: relative; }
+  .detail-section h2::after { background: var(--color-accent); bottom: 0; content: ""; height: 3px; left: 0; position: absolute; width: 4.3rem; }
+
+  @media (max-width: 760px) {
+    .anime-hero { grid-template-columns: 8rem 1fr; }
+    .anime-hero__content h1 { font-size: clamp(1.8rem, 8vw, 2.7rem); }
+    .anime-hero__meta { flex-direction: column; }
+    .anime-hero__meta div, .anime-hero__meta div:first-child { border-left: 0; padding: 0.2rem 0; }
+    .reference-links { margin-top: 2rem; }
+  }
+
+  @media (max-width: 520px) {
+    .anime-hero { grid-template-columns: 1fr; }
+    .anime-hero__poster { max-width: 13rem; }
+    .reference-links { align-items: flex-start; flex-direction: column; gap: 0.75rem; }
+    .reference-links a, .reference-links a:first-child { border-left: 0; padding: 0; }
+  }
+</style>

@@ -1,0 +1,83 @@
+---
+interface Props {
+  compact?: boolean;
+}
+
+const { compact = false } = Astro.props;
+---
+
+<a class:list={["brand", { "brand--compact": compact }]} href="/" aria-label="Anisonary 動畫歌典首頁">
+  <svg class="brand__mark" viewBox="0 0 58 48" aria-hidden="true">
+    <circle cx="19" cy="19" r="15" fill="none" stroke="currentColor" stroke-width="2.4" />
+    <circle cx="19" cy="19" r="9" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".48" />
+    <circle cx="19" cy="19" r="3.6" fill="var(--color-accent)" />
+    <path d="M29 13.5c7-4.3 13-4.3 18-2.5v25.5c-5-1.8-11-1.8-18 2.5V13.5Z" fill="var(--color-canvas)" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+    <path d="M29 13.5c-3.1-1.9-6.1-2.9-9-3.1" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+    <path d="M29 39c-7-4.3-13-4.3-18-2.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+  </svg>
+  <span class="brand__copy">
+    <strong>Anisonary</strong>
+    <small>動畫歌典</small>
+  </span>
+</a>
+
+<style>
+  .brand {
+    align-items: center;
+    color: var(--color-ink);
+    display: inline-flex;
+    gap: 0.72rem;
+    min-width: max-content;
+    text-decoration: none;
+  }
+
+  .brand__mark {
+    height: 2.9rem;
+    width: 3.5rem;
+  }
+
+  .brand__copy {
+    display: grid;
+    line-height: 1.05;
+  }
+
+  .brand strong {
+    font-size: 1.26rem;
+    letter-spacing: -0.025em;
+  }
+
+  .brand small {
+    font-size: 0.76rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    margin-top: 0.36rem;
+  }
+
+  .brand--compact .brand__mark {
+    height: 2.3rem;
+    width: 2.8rem;
+  }
+
+  .brand--compact strong {
+    font-size: 1rem;
+  }
+
+  .brand--compact small {
+    font-size: 0.66rem;
+  }
+
+  @media (max-width: 440px) {
+    .brand__mark {
+      height: 2.45rem;
+      width: 2.95rem;
+    }
+
+    .brand strong {
+      font-size: 1.04rem;
+    }
+
+    .brand small {
+      font-size: 0.64rem;
+    }
+  }
+</style>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Anisonary">
+  <rect width="64" height="64" rx="14" fill="#07143f"/>
+  <circle cx="26" cy="27" r="17" fill="none" stroke="#f0645a" stroke-width="4"/>
+  <circle cx="26" cy="27" r="5" fill="#f0645a"/>
+  <path d="M35 20c7-4 13-4 18-2v27c-5-2-11-2-18 2V20Z" fill="#fff"/>
+  <path d="M35 20c-7-4-13-4-18-2v27c5-2 11-2 18 2V20Z" fill="#fff" fill-opacity=".84"/>
+</svg>

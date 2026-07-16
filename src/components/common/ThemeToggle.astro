@@ -1,0 +1,81 @@
+<button class="theme-toggle" type="button" data-theme-toggle aria-label="切換深色模式" title="切換深色模式">
+  <svg class="theme-toggle__sun" viewBox="0 0 24 24" aria-hidden="true">
+    <circle cx="12" cy="12" r="3.5" />
+    <path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42" />
+  </svg>
+  <span class="theme-toggle__track"><span class="theme-toggle__knob"></span></span>
+  <svg class="theme-toggle__moon" viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M20.5 14.3A8 8 0 0 1 9.7 3.5 8.4 8.4 0 1 0 20.5 14.3Z" />
+  </svg>
+</button>
+
+<script>
+  const updateThemeButtons = () => {
+    const isDark = document.documentElement.dataset.theme === "dark";
+    document.querySelectorAll<HTMLButtonElement>("[data-theme-toggle]").forEach((button) => {
+      button.setAttribute("aria-label", isDark ? "切換淺色模式" : "切換深色模式");
+      button.title = isDark ? "切換淺色模式" : "切換深色模式";
+    });
+  };
+
+  document.querySelectorAll<HTMLButtonElement>("[data-theme-toggle]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+      document.documentElement.dataset.theme = next;
+      localStorage.setItem("anisonary-theme", next);
+      updateThemeButtons();
+    });
+  });
+  updateThemeButtons();
+</script>
+
+<style>
+  .theme-toggle {
+    align-items: center;
+    background: transparent;
+    border: 0;
+    color: var(--color-muted);
+    cursor: pointer;
+    display: inline-flex;
+    gap: 0.45rem;
+    padding: 0.45rem;
+  }
+
+  .theme-toggle svg {
+    fill: none;
+    height: 1.05rem;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.6;
+    width: 1.05rem;
+  }
+
+  .theme-toggle__track {
+    background: var(--color-ink);
+    border: 1px solid var(--color-ink);
+    border-radius: 999px;
+    display: block;
+    height: 1.32rem;
+    padding: 0.14rem;
+    width: 2.45rem;
+  }
+
+  .theme-toggle__knob {
+    background: var(--color-canvas);
+    border-radius: 50%;
+    display: block;
+    height: 0.92rem;
+    transform: translateX(0);
+    transition: transform 180ms ease;
+    width: 0.92rem;
+  }
+
+  :global([data-theme="dark"]) .theme-toggle__knob {
+    transform: translateX(1.1rem);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .theme-toggle__knob { transition: none; }
+  }
+</style>

@@ -1,0 +1,138 @@
+---
+import type { PublicAnimeCard } from "@/types/public-api";
+import { formatBroadcastLabel } from "@/utils/weekday";
+
+interface Props {
+  anime: PublicAnimeCard;
+  eager?: boolean;
+  variant?: "home" | "directory";
+}
+
+const { anime, eager = false, variant = "home" } = Astro.props;
+const completion = anime.completionPercent ?? 0;
+---
+
+<article
+  class:list={["anime-card", `anime-card--${variant}`]}
+  data-anime-card
+  data-has-op={anime.opCount > 0 ? "true" : "false"}
+  data-has-ed={anime.edCount > 0 ? "true" : "false"}
+  data-has-video={anime.hasOfficialVideo ? "true" : "false"}
+>
+  <a href={`/anime/${anime.slug}/`} aria-label={`查看 ${anime.titleJa}（${anime.titleZhHant ?? anime.titleRomaji ?? "未有中文名稱"}）`}>
+    <div class="anime-card__media">
+      {anime.posterUrl ? (
+        <img src={anime.posterUrl} alt={anime.posterAlt} loading={eager ? "eager" : "lazy"} decoding="async" />
+      ) : (
+        <div class="anime-card__placeholder" role="img" aria-label={anime.posterAlt}>
+          <svg viewBox="0 0 64 64" aria-hidden="true">
+            <circle cx="25" cy="26" r="17" />
+            <circle cx="25" cy="26" r="4" />
+            <path d="M38 21c7-4 13-3 18-1v27c-5-2-11-3-18 1V21Z" />
+          </svg>
+          <span>Poster<br />待公布</span>
+        </div>
+      )}
+    </div>
+    <div class="anime-card__body">
+      <div class="anime-card__broadcast">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3v3M17 3v3M4 9h16M5 5h14v15H5z" /></svg>
+        <span>{formatBroadcastLabel(anime)}</span>
+      </div>
+      <h3 lang="ja">{anime.titleJa}</h3>
+      <p>{anime.titleZhHant ?? anime.titleRomaji ?? "繁中名稱待公布"}</p>
+      <div class="anime-card__status" aria-label={`OP ${anime.opCount} 首，ED ${anime.edCount} 首`}>
+        <span>OP {anime.opCount}</span><span>ED {anime.edCount}</span>
+        {anime.hasOfficialVideo && (
+          <span class="anime-card__video">
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="m8 6 5 4-5 4V6Z" /></svg>
+            官方影片
+          </span>
+        )}
+      </div>
+      <div class="anime-card__completion">
+        <span>資料完整度 {completion}%</span>
+        <span class="anime-card__rail" aria-hidden="true"><span style={`width:${completion}%`}></span></span>
+      </div>
+    </div>
+  </a>
+</article>
+
+<style>
+  .anime-card {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border-strong);
+    border-radius: var(--radius-card);
+    min-width: 0;
+    overflow: hidden;
+    transition: border-color 160ms ease, transform 160ms ease, box-shadow 160ms ease;
+  }
+
+  .anime-card:hover {
+    border-color: var(--color-accent);
+    box-shadow: 0 16px 32px color-mix(in srgb, var(--color-ink) 10%, transparent);
+    transform: translateY(-3px);
+  }
+
+  .anime-card a { color: inherit; display: block; height: 100%; text-decoration: none; }
+  .anime-card__media { aspect-ratio: 2 / 3; background: var(--color-subtle); overflow: hidden; }
+  .anime-card__media img { height: 100%; object-fit: cover; width: 100%; }
+  .anime-card__body { display: flex; flex-direction: column; min-height: 12.2rem; padding: 0.85rem 0.9rem 0.75rem; }
+
+  .anime-card__placeholder {
+    align-items: center;
+    background: linear-gradient(145deg, var(--color-subtle), var(--color-surface));
+    color: var(--color-muted);
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    gap: 0.8rem;
+    height: 100%;
+    justify-content: center;
+    letter-spacing: 0.12em;
+    text-align: center;
+  }
+
+  .anime-card__placeholder svg { fill: none; height: 3.25rem; stroke: currentColor; stroke-width: 1.4; width: 3.25rem; }
+
+  .anime-card__broadcast {
+    align-items: center;
+    color: var(--color-muted);
+    display: flex;
+    font-size: 0.72rem;
+    gap: 0.32rem;
+    margin-bottom: 0.62rem;
+  }
+
+  .anime-card__broadcast svg { fill: none; height: 0.9rem; stroke: currentColor; stroke-width: 1.5; width: 0.9rem; }
+  .anime-card h3 { font-size: 0.98rem; line-height: 1.35; margin: 0; }
+  .anime-card p { color: var(--color-muted); font-size: 0.79rem; margin: 0.2rem 0 0; }
+
+  .anime-card__status {
+    align-items: center;
+    color: var(--color-ink);
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.72rem;
+    gap: 0.3rem 0.75rem;
+    margin-top: 0.82rem;
+  }
+
+  .anime-card__video { align-items: center; color: var(--color-accent); display: flex; gap: 0.22rem; width: 100%; }
+  .anime-card__video svg { border: 1px solid currentColor; fill: currentColor; height: 0.9rem; width: 0.9rem; }
+
+  .anime-card__completion { color: var(--color-muted); font-size: 0.66rem; margin-top: auto; padding-top: 0.9rem; }
+  .anime-card__rail { background: var(--color-border); display: block; height: 2px; margin-top: 0.32rem; overflow: hidden; }
+  .anime-card__rail span { background: var(--color-accent); display: block; height: 100%; }
+
+  :global(.anime-card--home) .anime-card__media { aspect-ratio: 1 / 1.12; }
+  :global(.anime-card--home) .anime-card__body { min-height: 10.6rem; }
+  :global(.anime-card--directory) .anime-card__media { aspect-ratio: 3 / 1.72; }
+  :global(.anime-card--directory) .anime-card__body { min-height: 10.1rem; }
+  :global(.anime-card--directory) .anime-card__media img { object-position: 50% 34%; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .anime-card { transition: none; }
+    .anime-card:hover { transform: none; }
+  }
+</style>

@@ -1,0 +1,57 @@
+---
+import MockNotice from "@/components/common/MockNotice.astro";
+import SeasonDirectory from "@/components/season/SeasonDirectory.astro";
+import { getDataProvider } from "@/data/provider";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import type { PublicSeasonDetail } from "@/types/public-api";
+
+export async function getStaticPaths() {
+  const provider = getDataProvider();
+  const seasons = await provider.getSeasons();
+  const details = await Promise.all(seasons.map((season) => provider.getSeason(season.id)));
+
+  return details.filter((season): season is PublicSeasonDetail => season !== null).map((season) => ({
+    params: { season: season.id },
+    props: { season }
+  }));
+}
+
+interface Props { season: PublicSeasonDetail; }
+const { season } = Astro.props;
+const title = `${season.year} ${season.titleZhHant}`;
+---
+
+<BaseLayout title={title} description={`${title} OP／ED 動畫歌典，按日本編輯播出日整理。`}>
+  <div class="season-page page-shell">
+    <header class="season-header">
+      <div>
+        <h1>{title}</h1>
+        <p lang="ja">{season.titleJa}</p>
+        <p>按日本編輯播出日整理，共 8 個播出分組。</p>
+        {season.isMockData && <MockNotice compact />}
+      </div>
+      <nav class="season-switcher" aria-label="切換季度">
+        <a href="/seasons/2026-summer/" aria-current={season.id === "2026-summer" ? "page" : undefined}>2026 夏季</a>
+        <a href="/seasons/2026-spring/" aria-current={season.id === "2026-spring" ? "page" : undefined}>2026 春季</a>
+      </nav>
+    </header>
+    <SeasonDirectory anime={season.anime} />
+  </div>
+</BaseLayout>
+
+<style>
+  .season-page { padding-top: clamp(3rem, 6vw, 5.2rem); }
+  .season-header { align-items: start; display: flex; gap: 2rem; justify-content: space-between; }
+  .season-header h1 { font-size: clamp(2.35rem, 5vw, 4.15rem); letter-spacing: -0.045em; line-height: 1; margin: 0; }
+  .season-header > div > p { color: var(--color-muted); margin: 0.65rem 0 0; }
+  .season-header > div > p[lang="ja"] { font-size: 0.78rem; letter-spacing: 0.08em; margin-top: 0.8rem; }
+  .season-switcher { display: flex; gap: 2rem; padding-top: 1.2rem; }
+  .season-switcher a { color: var(--color-ink); font-size: 0.94rem; font-weight: 720; padding: 0.75rem 0; position: relative; text-decoration: none; white-space: nowrap; }
+  .season-switcher a[aria-current="page"] { color: var(--color-accent); }
+  .season-switcher a[aria-current="page"]::after { background: currentColor; bottom: 0; content: ""; height: 2px; left: 0; position: absolute; width: 100%; }
+
+  @media (max-width: 680px) {
+    .season-header { flex-direction: column; }
+    .season-switcher { padding-top: 0; }
+  }
+</style>

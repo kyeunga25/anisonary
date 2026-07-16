@@ -1,0 +1,34 @@
+---
+interface Props { compact?: boolean; }
+const { compact = false } = Astro.props;
+---
+
+<p class:list={["mock-notice", { "mock-notice--compact": compact }]} role="note">
+  <span aria-hidden="true"></span>
+  <strong>開發用 Mock Data</strong>
+  <span class="mock-notice__detail">並非真實 production 資料</span>
+</p>
+
+<style>
+  .mock-notice {
+    align-items: center;
+    color: var(--color-muted);
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.88rem;
+    gap: 0.46rem;
+    margin: 1.35rem 0 0;
+  }
+
+  .mock-notice > span:first-child {
+    background: var(--color-accent);
+    border: 4px solid color-mix(in srgb, var(--color-accent) 20%, transparent);
+    background-clip: padding-box;
+    border-radius: 50%;
+    height: 0.86rem;
+    width: 0.86rem;
+  }
+
+  .mock-notice strong { color: var(--color-accent); }
+  .mock-notice--compact { margin-top: 0.65rem; }
+</style>

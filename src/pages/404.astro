@@ -1,0 +1,20 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="找不到頁面" description="這個 Anisonary 頁面不存在。" noIndex>
+  <section class="not-found page-shell">
+    <p>404</p>
+    <h1>這一頁還未收錄。</h1>
+    <p>動畫詳情頁會在 Phase 1 的下一輪里程碑加入；你可以先回到季度歌典。</p>
+    <a class="button button--primary" href="/seasons/2026-summer/">瀏覽 2026 夏季</a>
+  </section>
+</BaseLayout>
+
+<style>
+  .not-found { min-height: 55vh; padding-block: clamp(5rem, 12vw, 10rem); text-align: center; }
+  .not-found > p:first-child { color: var(--color-accent); font-size: 0.84rem; font-weight: 800; letter-spacing: 0.2em; }
+  .not-found h1 { font-size: clamp(2.4rem, 6vw, 5rem); letter-spacing: -0.05em; margin: 1rem 0; }
+  .not-found p { color: var(--color-muted); margin-inline: auto; max-width: 35rem; }
+  .not-found .button { margin-top: 1.3rem; }
+</style>

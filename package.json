@@ -1,0 +1,22 @@
+{
+  "name": "anisonary",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "lint": "astro check",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.9",
+    "astro": "^7.0.8",
+    "typescript": "^6.0.3"
+  },
+  "devDependencies": {
+    "vitest": "^4.1.10"
+  }
+}

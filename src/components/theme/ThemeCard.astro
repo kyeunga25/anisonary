@@ -1,0 +1,80 @@
+---
+import type { PublicTheme } from "@/types/public-api";
+import { creditRoleLabel } from "@/utils/theme";
+
+interface Props { theme: PublicTheme; }
+const { theme } = Astro.props;
+const credits = theme.credits.filter((credit) => credit.role !== "vocals");
+---
+
+<article class="theme-card">
+  <div class:list={["theme-card__type", `theme-card__type--${theme.type.toLowerCase()}`]} aria-label={`${theme.type} ${theme.sequence}`}>
+    <strong>{theme.type}{theme.sequence}</strong>
+    <svg viewBox="0 0 48 48" aria-hidden="true">
+      {theme.type === "OP" ? (
+        <><circle cx="24" cy="24" r="7" /><path d="M24 4v8M24 36v8M4 24h8M36 24h8M10 10l6 6M32 32l6 6M38 10l-6 6M16 32l-6 6" /></>
+      ) : (
+        <><path d="M10 30c14-2 20-11 28-21 1 18-8 29-23 30" /><path d="M13 37c8-8 14-13 25-20" /></>
+      )}
+    </svg>
+  </div>
+
+  <div class="theme-card__identity">
+    <h3 lang="ja">{theme.titleJa}</h3>
+    {theme.titleZhHant && <p class="theme-card__translation">{theme.titleZhHant}</p>}
+    <p class="theme-card__artist">{theme.artistDisplayName}</p>
+    {theme.versionLabel && <p class="theme-card__version">{theme.versionLabel}</p>}
+  </div>
+
+  <dl class="theme-card__credits">
+    {credits.length > 0 ? credits.map((credit) => (
+      <div><dt>{creditRoleLabel(credit.role)}</dt><dd>{credit.name}</dd></div>
+    )) : (
+      <div><dt>Credits</dt><dd>待確認</dd></div>
+    )}
+  </dl>
+
+  <div class="theme-card__verification">
+    <p>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6zM14 3v5h5M9 13h7M9 17h7" /></svg>
+      <span>來源：{theme.sourceLabels.join("、") || "待確認"}</span>
+    </p>
+    <p>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path d="M12 7v6l4 2" /></svg>
+      <span>最後驗證：{theme.lastVerifiedAt ?? "待確認"}</span>
+    </p>
+  </div>
+</article>
+
+<style>
+  .theme-card { background: var(--color-surface); border: 1px solid var(--color-border-strong); border-radius: var(--radius-card); display: grid; grid-template-columns: 6.2rem minmax(13rem, 1.3fr) minmax(12rem, 1fr) minmax(14rem, 0.95fr); min-height: 9rem; overflow: hidden; }
+  .theme-card + .theme-card { margin-top: 0.8rem; }
+  .theme-card__type { align-items: center; background: var(--color-accent); color: #fff; display: flex; flex-direction: column; justify-content: center; padding: 1rem; }
+  .theme-card__type--ed { background: color-mix(in srgb, var(--color-accent) 86%, var(--color-ink)); }
+  .theme-card__type strong { font-size: 1.35rem; }
+  .theme-card__type svg { fill: none; height: 2.25rem; margin-top: 0.45rem; stroke: currentColor; stroke-linecap: round; stroke-width: 1.5; width: 2.25rem; }
+  .theme-card__identity, .theme-card__credits, .theme-card__verification { align-self: stretch; padding: 1.35rem 1.5rem; }
+  .theme-card__identity { display: flex; flex-direction: column; justify-content: center; }
+  .theme-card__identity h3 { font-size: clamp(1.25rem, 2vw, 1.7rem); line-height: 1.25; margin: 0; }
+  .theme-card__translation { color: var(--color-muted); font-size: 0.82rem; margin: 0.25rem 0 0; }
+  .theme-card__artist { font-size: 1rem; font-weight: 720; margin: 0.8rem 0 0; }
+  .theme-card__version { color: var(--color-muted); font-size: 0.75rem; margin: 0.35rem 0 0; }
+  .theme-card__credits { border-left: 1px solid var(--color-border); display: flex; flex-direction: column; justify-content: center; margin: 1.1rem 0; padding-block: 0.2rem; }
+  .theme-card__credits div { display: grid; font-size: 0.82rem; gap: 0.55rem; grid-template-columns: 3.2rem 1fr; line-height: 1.55; }
+  .theme-card__credits dt { color: var(--color-muted); }
+  .theme-card__credits dd { margin: 0; }
+  .theme-card__verification { border-left: 1px solid var(--color-border); display: flex; flex-direction: column; font-size: 0.78rem; justify-content: center; margin: 1.1rem 0; padding-block: 0.2rem; }
+  .theme-card__verification p { align-items: center; display: flex; gap: 0.55rem; margin: 0.3rem 0; }
+  .theme-card__verification svg { fill: none; flex: 0 0 auto; height: 1.15rem; stroke: currentColor; stroke-width: 1.5; width: 1.15rem; }
+
+  @media (max-width: 940px) {
+    .theme-card { grid-template-columns: 5rem 1fr 1fr; }
+    .theme-card__verification { border-left: 0; border-top: 1px solid var(--color-border); grid-column: 2 / -1; margin: 0; padding-block: 1rem; }
+  }
+
+  @media (max-width: 660px) {
+    .theme-card { grid-template-columns: 4.6rem 1fr; }
+    .theme-card__identity { padding: 1.15rem; }
+    .theme-card__credits, .theme-card__verification { border-left: 0; border-top: 1px solid var(--color-border); grid-column: 1 / -1; margin: 0; padding: 1rem 1.15rem; }
+  }
+</style>
