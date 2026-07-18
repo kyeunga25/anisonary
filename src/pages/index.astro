@@ -2,6 +2,7 @@
 import AnimeCard from "@/components/anime/AnimeCard.astro";
 import ErrorState from "@/components/common/ErrorState.astro";
 import MockNotice from "@/components/common/MockNotice.astro";
+import PosterImage from "@/components/common/PosterImage.astro";
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import { getDataProvider, shouldRequireApiData } from "@/data/provider";
 import { loadHomePageData } from "@/data/page-data";
@@ -73,7 +74,14 @@ const site = Astro.site ?? new URL("https://anisonary.k-y.cc");
           <div class="previous-season__list">
             {data.previous.anime.slice(0, 4).map((anime) => (
               <a href={`/anime/${anime.slug}/`}>
-                {anime.posterUrl && <img src={anime.posterUrl} alt="" width="768" height="1152" loading="lazy" decoding="async" />}
+                <PosterImage
+                  src={anime.posterUrl}
+                  alt=""
+                  width={768}
+                  height={1152}
+                  className="previous-season__poster"
+                  decorative
+                />
                 <span><strong lang="ja">{anime.titleJa}</strong><small>{anime.titleZhHant}</small></span>
               </a>
             ))}
@@ -134,7 +142,7 @@ const site = Astro.site ?? new URL("https://anisonary.k-y.cc");
   .previous-season__list { display: grid; gap: 1rem; grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .previous-season__list a { align-items: center; border-right: 1px solid var(--color-border); color: inherit; display: grid; gap: 0.7rem; grid-template-columns: 4rem 1fr; min-width: 0; padding-right: 1rem; text-decoration: none; }
   .previous-season__list a:last-child { border: 0; }
-  .previous-season__list img { aspect-ratio: 1; border-radius: 5px; height: 4rem; object-fit: cover; width: 4rem; }
+  :global(.previous-season__poster) { aspect-ratio: 1; border-radius: 5px; height: 4rem; width: 4rem; }
   .previous-season__list span { display: grid; min-width: 0; }
   .previous-season__list strong, .previous-season__list small { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .previous-season__list strong { font-size: 0.78rem; }

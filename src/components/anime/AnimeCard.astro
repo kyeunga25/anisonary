@@ -1,4 +1,5 @@
 ---
+import PosterImage from "@/components/common/PosterImage.astro";
 import type { PublicAnimeCard } from "@/types/public-api";
 import { formatBroadcastLabel } from "@/utils/weekday";
 
@@ -21,18 +22,14 @@ const completion = anime.completionPercent ?? 0;
 >
   <a href={`/anime/${anime.slug}/`} aria-label={`查看 ${anime.titleJa}（${anime.titleZhHant ?? anime.titleRomaji ?? "未有中文名稱"}）`}>
     <div class="anime-card__media">
-      {anime.posterUrl ? (
-        <img src={anime.posterUrl} alt={anime.posterAlt} width="768" height="1152" loading={eager ? "eager" : "lazy"} decoding="async" />
-      ) : (
-        <div class="anime-card__placeholder" role="img" aria-label={anime.posterAlt}>
-          <svg viewBox="0 0 64 64" aria-hidden="true">
-            <circle cx="25" cy="26" r="17" />
-            <circle cx="25" cy="26" r="4" />
-            <path d="M38 21c7-4 13-3 18-1v27c-5-2-11-3-18 1V21Z" />
-          </svg>
-          <span>Poster<br />待公布</span>
-        </div>
-      )}
+      <PosterImage
+        src={anime.posterUrl}
+        alt={anime.posterAlt}
+        width={768}
+        height={1152}
+        loading={eager ? "eager" : "lazy"}
+        objectPosition={variant === "directory" ? "50% 34%" : "50% 50%"}
+      />
     </div>
     <div class="anime-card__body">
       <div class="anime-card__broadcast">
@@ -76,24 +73,7 @@ const completion = anime.completionPercent ?? 0;
 
   .anime-card a { color: inherit; display: block; height: 100%; text-decoration: none; }
   .anime-card__media { aspect-ratio: 2 / 3; background: var(--color-subtle); overflow: hidden; }
-  .anime-card__media img { height: 100%; object-fit: cover; width: 100%; }
   .anime-card__body { display: flex; flex-direction: column; min-height: 12.2rem; padding: 0.85rem 0.9rem 0.75rem; }
-
-  .anime-card__placeholder {
-    align-items: center;
-    background: linear-gradient(145deg, var(--color-subtle), var(--color-surface));
-    color: var(--color-muted);
-    display: flex;
-    flex-direction: column;
-    font-size: 0.8rem;
-    gap: 0.8rem;
-    height: 100%;
-    justify-content: center;
-    letter-spacing: 0.12em;
-    text-align: center;
-  }
-
-  .anime-card__placeholder svg { fill: none; height: 3.25rem; stroke: currentColor; stroke-width: 1.4; width: 3.25rem; }
 
   .anime-card__broadcast {
     align-items: center;
@@ -129,7 +109,6 @@ const completion = anime.completionPercent ?? 0;
   :global(.anime-card--home) .anime-card__body { min-height: 10.6rem; }
   :global(.anime-card--directory) .anime-card__media { aspect-ratio: 3 / 1.72; }
   :global(.anime-card--directory) .anime-card__body { min-height: 10.1rem; }
-  :global(.anime-card--directory) .anime-card__media img { object-position: 50% 34%; }
 
   @media (prefers-reduced-motion: reduce) {
     .anime-card { transition: none; }
