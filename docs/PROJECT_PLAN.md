@@ -12,14 +12,17 @@
 - Mock/API Provider 抽象；
 - Cloudflare Pages 靜態部署。
 
-## 第一輪：M0–M3
+## 目前完成：M0–M6
 
-本輪只實作：
+目前公開前端已實作：
 
 1. M0：Astro、TypeScript、測試與 build 基礎；
 2. M1：公開資料契約、Mock Provider、API Provider；
 3. M2：Layout、Header、Footer、深淺色主題；
-4. M3：首頁、季度頁、星期分組、篩選與 25:00+ 日本深夜時間顯示。
+4. M3：首頁、季度頁、星期分組、篩選與 25:00+ 日本深夜時間顯示；
+5. M4：動畫詳細頁、OP／ED、Credits、來源與空狀態；
+6. M5：thumbnail-first YouTube lazy embed、不 autoplay、不可嵌入 fallback；
+7. M6：Direct／Search／Official／Purchase 平台連結分類與 external-link safety。
 
 不在本輪加入資料庫、爬蟲、帳戶、Admin Panel、AI、音訊託管或真實 production data。
 
@@ -32,6 +35,8 @@
 - 深夜 `25:30` 保持在編輯播出日而不移到次日；
 - Responsive、鍵盤 Focus、Poster Alt、Reduced Motion；
 - `npm run lint`、`npm test`、`npm run build` 通過；
+- YouTube iframe 只在使用者按下後建立，並使用 privacy-enhanced domain；
+- 同頁不同播放器擁有獨立載入狀態；
 - 不包含 secret、真實 DB dump 或 private crawler code。
 
 完整 Phase 1 後續工作見 `docs/TODO_PHASE1.md`。

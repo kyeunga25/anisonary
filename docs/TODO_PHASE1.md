@@ -7,12 +7,12 @@
 - [x] Sources 與 Last Verified；
 - [x] Empty state 與未知 slug 的靜態 404。
 
-## Remaining — M5–M6 YouTube and links
+## Completed — M5–M6 YouTube and links
 
-- Thumbnail-first lazy YouTube embed；
-- 不 autoplay、獨立 Player state；
-- 不可 embed 時外部 Link；
-- Direct/Search/Official/Purchase Link 標籤。
+- [x] Thumbnail-first lazy YouTube embed；
+- [x] 不 autoplay、privacy-enhanced embed、獨立 Player state；
+- [x] 不可 embed 時外部 Link；
+- [x] Direct/Search/Official/Purchase Link 標籤與 external-link safety。
 
 ## Remaining — M7 Quality
 
