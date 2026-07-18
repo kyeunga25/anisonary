@@ -13,8 +13,9 @@
     "test:e2e": "playwright test",
     "test:all": "npm test && npm run test:e2e",
     "check": "npm run lint && npm test && npm run build && npm run test:e2e",
-    "cf:dev": "npm run build && wrangler pages dev dist",
-    "cf:deploy": "npm run build && wrangler pages deploy dist --project-name anisonary"
+    "cf:dev": "npm run build && wrangler dev",
+    "cf:preview": "npm run build && wrangler versions upload",
+    "cf:deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.9",

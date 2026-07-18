@@ -1,7 +1,23 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "anisonary",
-  "pages_build_output_dir": "./dist",
-  "compatibility_date": "2026-07-18",
+  "compatibility_date": "2026-07-19",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true,
+  "preview_urls": true,
+  "assets": {
+    "directory": "./dist",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  "routes": [
+    {
+      "pattern": "anisonary.k-y.cc",
+      "custom_domain": true
+    }
+  ],
+  "observability": {
+    "enabled": true
+  },
   "send_metrics": false
 }
