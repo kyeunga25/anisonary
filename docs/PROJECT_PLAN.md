@@ -12,7 +12,7 @@
 - Mock/API Provider 抽象；
 - Cloudflare Pages 靜態部署。
 
-## 目前進度：M0–M7 repository implementation 完成；M8–M9 接入中
+## 目前進度：M0–M7 與 M9 repository implementation 完成；M8 部署收尾中
 
 目前公開前端已實作：
 
@@ -25,9 +25,9 @@
 7. M6：Direct／Search／Official／Purchase 平台連結分類與 external-link safety。
 8. M7：canonical／Open Graph／JSON-LD、accessible loading/error/empty states、Astro component tests、Playwright E2E 與靜態圖片最佳化。
 
-M8 已完成 repository-side Cloudflare Pages／GitHub CI 配置、公開 PR merge 與 `main` branch protection；尚待 Cloudflare authentication、Pages deployment、custom domain、production smoke／rollback。M9 的公開 API contract handoff 與 fail-closed frontend integration 已完成；私有 backend 實作仍是獨立接入工作。
+M8 已完成 repository-side Cloudflare Pages／GitHub CI 配置、公開 PR merge、`main` branch protection、Cloudflare Pages Git project 及首次 Mock production deployment；`anisonary.pages.dev` 的主要 route、SEO files、404、security headers 與 noindex 已通過線上 smoke。尚待 custom domain DNS／TLS、PR preview、自動 production deployment 與 rollback drill。M9 的公開 API contract handoff 與 fail-closed frontend integration 已完成；私有 backend 實作仍是獨立接入工作。
 
-以 M0–M9 milestone 的實際交付狀態估算，目前 Phase 1 約完成 **92%**。這是進度估算，不把尚未執行的 Cloudflare deployment、custom domain 或 Lighthouse 分數算作完成。
+以 M0–M9 milestone 的實際交付狀態估算，目前 Phase 1 約完成 **97%**。這是進度估算，不把尚未通過的 custom domain、Git preview／自動 production deployment、rollback 或 Lighthouse 數值算作完成。
 
 M7 尚待配置 Chrome DevTools MCP 後補上 Core Web Vitals／Lighthouse 數值稽核；目前不虛構任何效能分數。
 

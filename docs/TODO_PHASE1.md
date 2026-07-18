@@ -33,9 +33,11 @@
 - [x] GitHub／Cloudflare 接入需求表、環境與 rollback／smoke runbook；
 - [x] 透過 PR #1 push／merge 到 public GitHub repository；
 - [x] GitHub `main` branch protection 要求 PR、`quality`、linear history；
-- [ ] Cloudflare Pages Git integration 與首次 preview；
-- [ ] Production API、custom domain、Bulk Redirect；
-- [ ] Production smoke test 與 rollback drill。
+- [x] Cloudflare Pages Git integration 與首次 Mock production deployment；
+- [x] Pages URL production smoke、security headers、robots、sitemap 與 404；
+- [ ] PR preview 與 merge 後自動 production deployment；
+- [ ] Custom domain DNS／TLS validation；
+- [ ] Private production API、`pages.dev` redirect 與 rollback drill。
 
 ## Repository complete — M9 Private API handoff
 
@@ -46,4 +48,5 @@
 ## Final M7–M9 validation
 
 - [ ] 配置 Chrome DevTools MCP 後完成 Core Web Vitals／Lighthouse 數值稽核；
-- [ ] Cloudflare OAuth、Pages、custom domain、production smoke 與 rollback。
+- [ ] Custom domain、Git preview／production automation 與 rollback；
+- [ ] Private API 上線後執行 fail-closed production data smoke。

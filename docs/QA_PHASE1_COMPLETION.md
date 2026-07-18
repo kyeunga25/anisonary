@@ -39,10 +39,23 @@ Production data guard 另行驗證：
 - `.DS_Store`；
 - `dist`、`node_modules`、Playwright reports、Wrangler local state。
 
-## External validation still blocked
+## Cloudflare Pages gate
 
-- Cloudflare Wrangler OAuth 兩次未收到瀏覽器 callback，尚未建立／部署 Pages project；
-- `chrome-devtools` MCP 尚未配置，因此未產生 Lighthouse／Core Web Vitals 數值；
-- custom domain、production smoke、rollback drill 必須在 Cloudflare authentication 完成後執行。
+- Wrangler OAuth：authenticated；
+- Pages project：`anisonary`，Git provider enabled，production branch `main`；
+- Build：`npm run build` → `dist`，Node 22；
+- 首次 production deployment：`d199c88b-34fb-4107-adee-670a9cc4e700`；
+- Source：`main@caa977e`；
+- Build result：38 pages、51 assets uploaded、deploy success；
+- Pages URL：<https://anisonary.pages.dev>；
+- Initial environment：明確使用 Mock Data，`ANISONARY_REQUIRE_API_DATA=false`，沒有 production API URL。
+
+線上 smoke 已確認首頁、兩個季度、動畫頁、About、Sources、robots、sitemap 回應 `200`，未知 route 回應 `404`，Mock Data notice 可見，security headers 與 `pages.dev` noindex 生效。
+
+## Remaining external validation
+
+- `anisonary.k-y.cc` 已加入 Pages，但 DNS CNAME 尚待建立及驗證；
+- 下一個 PR 會驗證 Git-integrated preview，再於 merge 後驗證自動 production deployment；
+- `chrome-devtools` MCP 尚未配置，因此未產生 Lighthouse／Core Web Vitals 數值。
 
 以上未完成項目不可標示為通過，也不以本機結果代替 production evidence。
