@@ -83,3 +83,13 @@ test("API failures render a public error state without leaking upstream details"
   await expect(page.locator("body")).not.toContainText("ECONNREFUSED");
   await expect(page.locator("body")).not.toContainText("127.0.0.1:9");
 });
+
+test("broken remote posters show an accessible fallback", async ({ page }) => {
+  await page.route("**/mock-posters/afterglow-platform.webp", (route) => route.abort());
+  await page.goto("/anime/yoake-no-polaris/");
+
+  const poster = page.locator("[data-poster]").first();
+  await expect(poster).toHaveAttribute("data-poster-state", "unavailable");
+  await expect(page.getByRole("img", { name: /圖片暫時無法載入/ })).toBeVisible();
+  await expect(poster.getByText("暫時無法顯示")).toBeVisible();
+});
