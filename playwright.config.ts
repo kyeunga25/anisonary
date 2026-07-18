@@ -21,7 +21,7 @@ export default defineConfig({
   },
   webServer: [
     {
-      command: `npm run dev -- --host ${host} --port ${port}`,
+      command: `node node_modules/astro/bin/astro.mjs build --outDir /tmp/anisonary-playwright-main && node tests/support/static-server.mjs /tmp/anisonary-playwright-main ${port}`,
       url: baseURL,
       reuseExistingServer: !isCI,
       timeout: 120_000
