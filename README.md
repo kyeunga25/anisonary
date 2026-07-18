@@ -2,7 +2,7 @@
 
 Anisonary is an Astro + strict TypeScript frontend for browsing anime music by season and Japanese editorial broadcast weekday.
 
-This repository implements the Phase 1 frontend and public API handoff: project foundation, public data contract, provider abstraction, site shell, season directory, anime detail pages, theme credits, thumbnail-first YouTube loading, classified platform links, SEO/JSON-LD, accessible loading/error/empty states, component/E2E coverage, Cloudflare Pages delivery, and the private API handoff contract. All bundled records are explicitly fictional Mock Data.
+This repository implements the Phase 1 frontend and public API handoff: project foundation, public data contract, provider abstraction, site shell, season directory, anime detail pages, theme credits, thumbnail-first YouTube loading, classified platform links, SEO/JSON-LD, accessible loading/error/empty states, component/E2E coverage, Cloudflare Workers Static Assets delivery, and the private API handoff contract. All bundled records are explicitly fictional Mock Data.
 
 ## Local development
 
@@ -40,21 +40,29 @@ ANISONARY_REQUIRE_API_DATA=false
 
 Once the private production API is connected, production must set `ANISONARY_REQUIRE_API_DATA=true` so an unavailable API fails the build instead of publishing an incomplete static site. Until then, the deployed frontend intentionally remains in clearly labelled Mock Data mode.
 
-## Cloudflare Pages
+## Cloudflare Workers
 
-The intended delivery path is Cloudflare Pages Git integration: `main` is production and pull requests receive preview deployments. GitHub Actions is a quality gate only and does not deploy.
+The primary delivery path is Cloudflare Workers Static Assets. `main` is the production branch; non-production branches use version uploads for preview validation. GitHub Actions remains an independent quality gate and does not deploy.
 
 ```text
-Project: anisonary
+Worker: anisonary
 Build: npm run build
 Output: dist
 Node: 22
 Domain: anisonary.k-y.cc
 ```
 
-See `docs/DEPLOYMENT_CLOUDFLARE.md` before connecting GitHub or performing the first deployment.
+Local preview and explicit deployment commands:
 
-Current Pages deployment: <https://anisonary.pages.dev> (Mock Data mode). The custom domain is being validated.
+```bash
+npm run cf:dev
+npm run cf:preview
+npm run cf:deploy
+```
+
+See `docs/DEPLOYMENT_CLOUDFLARE.md` before changing build ownership or production settings.
+
+Current production: <https://anisonary.k-y.cc> (Mock Data mode). The `workers.dev` and retained `pages.dev` fallback hosts are marked `noindex`.
 
 ## Project notes
 
