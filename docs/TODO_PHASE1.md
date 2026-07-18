@@ -26,18 +26,20 @@
 
 ## In progress — M8 Cloudflare delivery
 
-- [x] `.nvmrc`、Wrangler Pages config、build／output 固定；
+- [x] `.nvmrc`、Wrangler Workers Static Assets config、build／output 固定；
 - [x] GitHub CI 加入 unit、component、Playwright、build artifact 與 merge queue event；
-- [x] `robots.txt`、sitemap、static security headers、`pages.dev` noindex；
+- [x] `robots.txt`、sitemap、static security headers、`workers.dev`／`pages.dev` noindex；
 - [x] Production API fail-closed build guard；
 - [x] GitHub／Cloudflare 接入需求表、環境與 rollback／smoke runbook；
 - [x] 透過 PR #1 push／merge 到 public GitHub repository；
 - [x] GitHub `main` branch protection 要求 PR、`quality`、linear history；
-- [x] Cloudflare Pages Git integration 與首次 Mock production deployment；
-- [x] Pages URL production smoke、security headers、robots、sitemap 與 404；
-- [ ] PR preview 與 merge 後自動 production deployment；
-- [ ] Custom domain DNS／TLS validation；
-- [ ] Private production API、`pages.dev` redirect 與 rollback drill。
+- [x] Cloudflare Pages 首次 Mock production deployment，保留作遷移 fallback；
+- [x] Workers Static Assets direct deployment 與版本記錄；
+- [x] Worker custom domain DNS route／TLS validation；
+- [x] Custom domain、`workers.dev`、`pages.dev` 的 routes、security headers、robots、sitemap 與 404 smoke；
+- [ ] Workers Git Builds、PR preview 與 merge 後自動 production deployment；
+- [ ] Worker version rollback drill；
+- [ ] Private production API 接入；`pages.dev` 在 fallback 退役時再 redirect 或移除。
 
 ## Repository complete — M9 Private API handoff
 
@@ -48,5 +50,5 @@
 ## Final M7–M9 validation
 
 - [ ] 配置 Chrome DevTools MCP 後完成 Core Web Vitals／Lighthouse 數值稽核；
-- [ ] Custom domain、Git preview／production automation 與 rollback；
+- [ ] Workers Git preview／production automation 與 rollback；
 - [ ] Private API 上線後執行 fail-closed production data smoke。
