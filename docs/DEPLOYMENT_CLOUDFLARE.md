@@ -29,7 +29,7 @@
 |---|---|---|---|
 | DEP-001 | Node／build／output 可重現 | Passed | Node 22、`npm run build`、`dist` |
 | DEP-002 | GitHub CI 阻止不合格變更 | Passed | `main` branch protection 要求 `quality` check |
-| DEP-003 | PR 可先驗證 | Connected | Workers Builds 已連接；待本次 push 驗證 `versions upload` non-production preview |
+| DEP-003 | PR 可先驗證 | Passed | Workers Builds 以 `versions upload` 建立並通過 non-production preview |
 | DEP-004 | Production API 失敗不可發布殘缺網站 | Ready | Private API 上線時設 `ANISONARY_REQUIRE_API_DATA=true` |
 | DEP-005 | Static SEO discovery | Passed | `/robots.txt` 及 `/sitemap-index.xml` 回應 `200` |
 | DEP-006 | 非正式 hostname 不被索引 | Passed | `workers.dev` 與 `pages.dev` response 有 `X-Robots-Tag: noindex` |
@@ -102,7 +102,19 @@ ANISONARY_REQUIRE_API_DATA=false
 | Non-production branch builds | Enabled |
 | Root directory | `/` |
 
-連線已於 Cloudflare dashboard 完成。首次 non-production preview、merge 後 production deployment 與 rollback／roll-forward 仍以實際 build 和 version evidence 為驗收依據。
+連線已於 Cloudflare dashboard 完成。
+
+### First Workers Builds preview
+
+| 項目 | 結果 |
+|---|---|
+| Git source | `codex/phase1-status@0f05162` |
+| Build ID | `f8ea2e1d-69b1-4511-b824-a6a45698dbfc` |
+| Worker version | `46e4a86b-1fba-406e-93a0-20b4324cb5cd` |
+| Preview URL | <https://46e4a86b-anisonary.kyeunga25.workers.dev> |
+| Indexing | `X-Robots-Tag: noindex` |
+
+Preview 已驗證首頁、季度頁、動畫頁、robots、sitemap、custom 404、Mock Data notice 與 security headers。Merge 後 production deployment 與 rollback／roll-forward 仍以實際 build 和 version evidence 為驗收依據。
 
 ## Workers Builds 接入流程
 

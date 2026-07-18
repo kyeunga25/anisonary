@@ -27,7 +27,7 @@ Production data guard 另行驗證：
 - Merge：`main` production source `caa977e`；
 - Branch protection：PR required、`quality` required、strict／linear history、admin enforcement、force-push／delete disabled。
 
-Workers migration follow-up 使用 [PR #2 Document Phase 1 delivery status](https://github.com/kyeunga25/anisonary/pull/2)。`a2546bc` 的 GitHub `quality` 與 retained Cloudflare Pages preview checks 均通過；PR 尚未 merge，不能把它列作 `main` production source。
+Workers migration follow-up 使用 [PR #2 Migrate Phase 1 delivery to Cloudflare Workers](https://github.com/kyeunga25/anisonary/pull/2)。`0f05162` 的 GitHub `quality`、Workers Builds preview 與 retained Cloudflare Pages preview checks 均通過；PR 尚未 merge，不能把它列作 `main` production source。
 
 ## Public repository audit
 
@@ -68,9 +68,17 @@ Workers migration follow-up 使用 [PR #2 Document Phase 1 delivery status](http
 
 線上 smoke 已確認 HTTP/1.1／HTTP/2、首頁、季度、動畫、About、Sources、robots、sitemap、custom 404 與 security headers。Custom domain 建立後的初始 edge propagation 曾短暫回應 Cloudflare `1104`；傳播完成後，custom domain 與 `workers.dev` 根目錄各連續 20 次回應 `200`，多 route 測試也未再重現。
 
+Workers Builds non-production preview：
+
+- Build：`f8ea2e1d-69b1-4511-b824-a6a45698dbfc`；
+- Source：`codex/phase1-status@0f05162`；
+- Version：`46e4a86b-1fba-406e-93a0-20b4324cb5cd`；
+- Preview：<https://46e4a86b-anisonary.kyeunga25.workers.dev>；
+- Result：首頁、季度、動畫、SEO files 回應 `200`，未知 route 回應 `404`，security headers、Mock Data notice 與 `X-Robots-Tag: noindex` 生效。
+
 ## Remaining external validation
 
-- Workers Builds 已連接 GitHub；待驗證 non-production preview 與 merge 後自動 production deployment；
+- Workers Builds 已連接 GitHub 且 non-production preview 通過；待驗證 merge 後自動 production deployment；
 - 產生第二個已驗證 Worker version 後執行 rollback／roll-forward drill；
 - `chrome-devtools` MCP 尚未配置，因此未產生 Lighthouse／Core Web Vitals 數值。
 
