@@ -1,6 +1,7 @@
 ---
 import SourceList from "@/components/anime/SourceList.astro";
 import MockNotice from "@/components/common/MockNotice.astro";
+import PosterImage from "@/components/common/PosterImage.astro";
 import ThemeCard from "@/components/theme/ThemeCard.astro";
 import ThemeEmptyState from "@/components/theme/ThemeEmptyState.astro";
 import { getDataProvider, shouldRequireApiData } from "@/data/provider";
@@ -67,7 +68,14 @@ const isMockData = !import.meta.env.PUBLIC_API_BASE_URL?.trim();
     <header class:list={["anime-hero", { "anime-hero--no-poster": !anime.posterUrl }]}>
       {anime.posterUrl && (
         <figure class="anime-hero__poster">
-          <img src={anime.posterUrl} alt={anime.posterAlt} width="768" height="1152" decoding="async" fetchpriority="high" />
+          <PosterImage
+            src={anime.posterUrl}
+            alt={anime.posterAlt}
+            width={768}
+            height={1152}
+            loading="eager"
+            fetchpriority="high"
+          />
         </figure>
       )}
 
@@ -121,7 +129,6 @@ const isMockData = !import.meta.env.PUBLIC_API_BASE_URL?.trim();
   .anime-hero { align-items: start; display: grid; gap: clamp(2rem, 5vw, 4rem); grid-template-columns: minmax(13rem, 22rem) 1fr; }
   .anime-hero--no-poster { grid-template-columns: minmax(0, 1fr); }
   .anime-hero__poster { aspect-ratio: 2 / 3; border: 1px solid var(--color-border-strong); border-radius: var(--radius-card); margin: 0; overflow: hidden; }
-  .anime-hero__poster img { height: 100%; object-fit: cover; width: 100%; }
   .anime-hero__content { min-width: 0; padding-top: 0.2rem; }
   .anime-hero__content h1 { font-size: clamp(2.2rem, 5vw, 4.2rem); letter-spacing: -0.045em; line-height: 1.08; margin: 0; }
   .anime-hero__zh { font-size: clamp(1.35rem, 2.5vw, 2.1rem); font-weight: 760; margin: 0.65rem 0 0; }

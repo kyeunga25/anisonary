@@ -1,0 +1,135 @@
+---
+interface Props {
+  src?: string | undefined;
+  alt: string;
+  width: number;
+  height: number;
+  loading?: "eager" | "lazy";
+  decoding?: "async" | "auto" | "sync";
+  fetchpriority?: "high" | "low" | "auto";
+  className?: string;
+  decorative?: boolean;
+  objectPosition?: string;
+}
+
+const {
+  src,
+  alt,
+  width,
+  height,
+  loading = "lazy",
+  decoding = "async",
+  fetchpriority,
+  className,
+  decorative = false,
+  objectPosition = "50% 50%"
+} = Astro.props;
+const fallbackLabel = alt ? `${alt}（圖片暫時無法載入）` : "圖片暫時無法載入";
+---
+
+<div
+  class:list={["poster-image", className]}
+  data-poster
+  data-poster-state={src ? "loading" : "unavailable"}
+  style={`--poster-position:${objectPosition}`}
+>
+  {src && (
+    <img
+      src={src}
+      alt={alt}
+      width={width}
+      height={height}
+      loading={loading}
+      decoding={decoding}
+      fetchpriority={fetchpriority}
+      data-poster-image
+    />
+  )}
+  <div
+    class="poster-image__fallback"
+    data-poster-fallback
+    hidden={Boolean(src)}
+    role={decorative ? undefined : "img"}
+    aria-label={decorative ? undefined : fallbackLabel}
+    aria-hidden={decorative ? "true" : undefined}
+  >
+    <svg viewBox="0 0 64 64" aria-hidden="true">
+      <circle cx="25" cy="26" r="17"></circle>
+      <circle cx="25" cy="26" r="4"></circle>
+      <path d="M38 21c7-4 13-3 18-1v27c-5-2-11-3-18 1V21Z"></path>
+    </svg>
+    <span>Poster<br />暫時無法顯示</span>
+  </div>
+</div>
+
+<script>
+  function activatePosterFallback(root: HTMLElement) {
+    if (root.dataset.posterBound === "true") return;
+    root.dataset.posterBound = "true";
+
+    const image = root.querySelector<HTMLImageElement>("[data-poster-image]");
+    const fallback = root.querySelector<HTMLElement>("[data-poster-fallback]");
+    const showFallback = () => {
+      image?.setAttribute("hidden", "");
+      if (fallback) fallback.hidden = false;
+      root.dataset.posterState = "unavailable";
+    };
+
+    if (!image) {
+      showFallback();
+      return;
+    }
+
+    image.addEventListener("load", () => {
+      root.dataset.posterState = "ready";
+    }, { once: true });
+    image.addEventListener("error", showFallback, { once: true });
+
+    if (image.complete) {
+      if (image.naturalWidth > 0) root.dataset.posterState = "ready";
+      else showFallback();
+    }
+  }
+
+  document.querySelectorAll<HTMLElement>("[data-poster]").forEach(activatePosterFallback);
+</script>
+
+<style>
+  .poster-image {
+    background: var(--color-subtle);
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+
+  .poster-image img {
+    height: 100%;
+    object-fit: cover;
+    object-position: var(--poster-position);
+    width: 100%;
+  }
+
+  .poster-image__fallback {
+    align-items: center;
+    background: linear-gradient(145deg, var(--color-subtle), var(--color-surface));
+    color: var(--color-muted);
+    flex-direction: column;
+    font-size: 0.75rem;
+    gap: 0.65rem;
+    height: 100%;
+    justify-content: center;
+    letter-spacing: 0.08em;
+    text-align: center;
+    width: 100%;
+  }
+
+  .poster-image__fallback:not([hidden]) { display: flex; }
+  .poster-image__fallback svg {
+    fill: none;
+    height: clamp(2rem, 30%, 3.25rem);
+    stroke: currentColor;
+    stroke-width: 1.4;
+    width: clamp(2rem, 30%, 3.25rem);
+  }
+</style>
