@@ -4,24 +4,35 @@ import SeasonDirectory from "@/components/season/SeasonDirectory.astro";
 import { getDataProvider } from "@/data/provider";
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import type { PublicSeasonDetail } from "@/types/public-api";
+import { buildSeasonJsonLd } from "@/utils/seo";
 
 export async function getStaticPaths() {
-  const provider = getDataProvider();
-  const seasons = await provider.getSeasons();
-  const details = await Promise.all(seasons.map((season) => provider.getSeason(season.id)));
+  try {
+    const provider = getDataProvider();
+    const seasons = await provider.getSeasons();
+    const details = await Promise.all(seasons.map((season) => provider.getSeason(season.id)));
 
-  return details.filter((season): season is PublicSeasonDetail => season !== null).map((season) => ({
-    params: { season: season.id },
-    props: { season }
-  }));
+    return details.filter((season): season is PublicSeasonDetail => season !== null).map((season) => ({
+      params: { season: season.id },
+      props: { season }
+    }));
+  } catch {
+    console.error("Anisonary season data is unavailable; no season pages were generated.");
+    return [];
+  }
 }
 
 interface Props { season: PublicSeasonDetail; }
 const { season } = Astro.props;
 const title = `${season.year} ${season.titleZhHant}`;
+const site = Astro.site ?? new URL("https://anisonary.k-y.cc");
 ---
 
-<BaseLayout title={title} description={`${title} OP／ED 動畫歌典，按日本編輯播出日整理。`}>
+<BaseLayout
+  title={title}
+  description={`${title} OP／ED 動畫歌典，按日本編輯播出日整理。`}
+  jsonLd={buildSeasonJsonLd(season, site)}
+>
   <div class="season-page page-shell">
     <header class="season-header">
       <div>

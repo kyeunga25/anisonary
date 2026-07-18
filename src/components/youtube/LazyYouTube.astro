@@ -13,7 +13,7 @@ const canEmbed = video.embeddable && thumbnailUrl && embedUrl;
 <div class:list={["youtube-media", { "youtube-media--fallback": !canEmbed }]} data-youtube-player>
   {canEmbed ? (
     <div class="youtube-media__layout">
-      <div class="youtube-media__frame" data-youtube-frame>
+      <div class="youtube-media__frame" data-youtube-frame aria-busy="false">
         <button
           class="youtube-media__load"
           type="button"
@@ -22,11 +22,12 @@ const canEmbed = video.embeddable && thumbnailUrl && embedUrl;
           data-video-title={video.title}
           aria-label={`載入 YouTube 影片：${video.title}`}
         >
-          <img src={thumbnailUrl} alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+          <img src={thumbnailUrl} alt="" width="480" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
           <span class="youtube-media__play" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="m20 15 14 9-14 9V15Z" /></svg></span>
           <span class="youtube-media__consent">影片載入後才連線至 YouTube</span>
         </button>
       </div>
+      <p class="sr-only" aria-live="polite" data-youtube-status></p>
 
       <div class="youtube-media__details">
         <dl>
@@ -34,7 +35,7 @@ const canEmbed = video.embeddable && thumbnailUrl && embedUrl;
           <div><dt>頻道</dt><dd>{video.channelName}</dd></div>
           <div><dt>狀態</dt><dd>{video.officialStatus === "official" ? "官方影片" : "授權影片"}</dd></div>
         </dl>
-        {watchUrl && <a class="youtube-media__external" href={watchUrl} target="_blank" rel="noopener noreferrer external">在 YouTube 開啟<svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7 4h9v9M16 4 4 16" /></svg></a>}
+        {watchUrl && <a class="youtube-media__external" href={watchUrl} target="_blank" rel="noopener noreferrer external">在 YouTube 開啟<span class="sr-only">（在新分頁開啟外部網站）</span><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7 4h9v9M16 4 4 16" /></svg></a>}
       </div>
     </div>
   ) : (
@@ -43,7 +44,7 @@ const canEmbed = video.embeddable && thumbnailUrl && embedUrl;
         <svg viewBox="0 0 28 28" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2" /><path d="m10 10 6 3-6 3v-6ZM18 19l7 7M25 19l-7 7" /></svg>
         {watchUrl ? "此官方影片不可嵌入" : "影片 ID 無效，無法載入"}
       </span>
-      {watchUrl && <a class="youtube-media__external" href={watchUrl} target="_blank" rel="noopener noreferrer external">在 YouTube 開啟<svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7 4h9v9M16 4 4 16" /></svg></a>}
+      {watchUrl && <a class="youtube-media__external" href={watchUrl} target="_blank" rel="noopener noreferrer external">在 YouTube 開啟<span class="sr-only">（在新分頁開啟外部網站）</span><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7 4h9v9M16 4 4 16" /></svg></a>}
     </div>
   )}
 </div>
@@ -54,9 +55,14 @@ const canEmbed = video.embeddable && thumbnailUrl && embedUrl;
     button.dataset.ready = "true";
     button.addEventListener("click", () => {
       const frame = button.closest<HTMLElement>("[data-youtube-frame]");
+      const player = button.closest<HTMLElement>("[data-youtube-player]");
+      const status = player?.querySelector<HTMLElement>("[data-youtube-status]");
       const embedUrl = button.dataset.embedUrl;
       const title = button.dataset.videoTitle;
       if (!frame || !embedUrl || !title) return;
+
+      frame.setAttribute("aria-busy", "true");
+      if (status) status.textContent = `正在載入 YouTube 影片：${title}`;
 
       const iframe = document.createElement("iframe");
       iframe.src = embedUrl;
@@ -65,6 +71,10 @@ const canEmbed = video.embeddable && thumbnailUrl && embedUrl;
       iframe.allow = "accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
       iframe.referrerPolicy = "strict-origin-when-cross-origin";
       iframe.setAttribute("allowfullscreen", "");
+      iframe.addEventListener("load", () => {
+        frame.setAttribute("aria-busy", "false");
+        if (status) status.textContent = `YouTube 影片已載入：${title}`;
+      }, { once: true });
       frame.replaceChildren(iframe);
     }, { once: true });
   });

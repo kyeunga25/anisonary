@@ -27,6 +27,7 @@ function platformKey(platform: string): "apple" | "spotify" | "youtube" | "disc"
           {platformKey(link.platform) === "generic" && <><path d="M10 14 20 4M13 4h7v7" /><path d="M18 13v6H5V6h6" /></>}
         </svg>
         <span>{link.platform} · {externalLinkTypeLabel(link.linkType)}</span>
+        <span class="sr-only">（在新分頁開啟外部網站）</span>
         <svg class="external-links__arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M7 4h9v9M16 4 4 16" /></svg>
       </a>
     </li>

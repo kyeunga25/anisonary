@@ -14,10 +14,10 @@ export const mockSeasons: PublicSeasonSummary[] = [
 ];
 
 const poster = {
-  platform: "/mock-posters/afterglow-platform.png",
-  sky: "/mock-posters/sky-cartographer.png",
-  lantern: "/mock-posters/lantern-rain.png",
-  whale: "/mock-posters/whale-observatory.png"
+  platform: "/mock-posters/afterglow-platform.webp",
+  sky: "/mock-posters/sky-cartographer.webp",
+  lantern: "/mock-posters/lantern-rain.webp",
+  whale: "/mock-posters/whale-observatory.webp"
 } as const;
 
 const summerCoreAnime: PublicAnimeCard[] = [

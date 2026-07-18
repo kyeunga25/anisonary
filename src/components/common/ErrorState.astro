@@ -1,0 +1,62 @@
+---
+interface Props {
+  title?: string;
+  message?: string;
+  retryHref?: string;
+}
+
+const {
+  title = "暫時無法載入資料",
+  message = "資料服務目前未能回應，請稍後再試。",
+  retryHref = "/"
+} = Astro.props;
+---
+
+<section class="error-state" role="alert" aria-labelledby="error-state-title">
+  <svg viewBox="0 0 48 48" aria-hidden="true">
+    <circle cx="24" cy="24" r="20" />
+    <path d="M24 13v14M24 34v1" />
+  </svg>
+  <div>
+    <p class="error-state__eyebrow">DATA UNAVAILABLE</p>
+    <h2 id="error-state-title">{title}</h2>
+    <p>{message}</p>
+    <a class="button button--outline" href={retryHref}>重新載入</a>
+  </div>
+</section>
+
+<style>
+  .error-state {
+    align-items: center;
+    border: 1px solid var(--color-border-strong);
+    border-radius: var(--radius-card);
+    display: flex;
+    gap: clamp(1.3rem, 4vw, 3rem);
+    margin-block: 2rem;
+    padding: clamp(1.5rem, 4vw, 3rem);
+  }
+
+  .error-state > svg {
+    fill: none;
+    flex: 0 0 clamp(3.5rem, 8vw, 5.5rem);
+    stroke: var(--color-accent);
+    stroke-linecap: round;
+    stroke-width: 2;
+  }
+
+  .error-state__eyebrow {
+    color: var(--color-accent) !important;
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 0.16em;
+    margin: 0 0 0.55rem !important;
+  }
+
+  .error-state h2 { font-size: clamp(1.45rem, 3vw, 2rem); margin: 0; }
+  .error-state p { color: var(--color-muted); line-height: 1.7; margin: 0.6rem 0 1.2rem; }
+  .error-state .button { min-height: 2.8rem; }
+
+  @media (max-width: 560px) {
+    .error-state { align-items: flex-start; flex-direction: column; }
+  }
+</style>

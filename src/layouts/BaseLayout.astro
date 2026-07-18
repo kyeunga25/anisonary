@@ -1,21 +1,32 @@
 ---
 import Header from "@/components/common/Header.astro";
 import Footer from "@/components/common/Footer.astro";
+import type { JsonLd } from "@/utils/seo";
+import { serializeJsonLd } from "@/utils/seo";
 import "@/styles/global.css";
 
 interface Props {
   title?: string;
   description?: string;
   noIndex?: boolean;
+  image?: string | undefined;
+  ogType?: "website" | "video.tv_show";
+  jsonLd?: JsonLd | JsonLd[];
 }
 
 const {
   title = "Anisonary｜動畫歌典",
   description = "按季度與動畫，找到每一首 OP／ED 的官方入口。",
-  noIndex = false
+  noIndex = false,
+  image,
+  ogType = "website",
+  jsonLd
 } = Astro.props;
 const pageTitle = title === "Anisonary｜動畫歌典" ? title : `${title}｜Anisonary 動畫歌典`;
-const canonical = new URL(Astro.url.pathname, Astro.site ?? "https://anisonary.k-y.cc");
+const site = Astro.site ?? new URL("https://anisonary.k-y.cc");
+const canonical = new URL(Astro.url.pathname, site);
+const socialImage = image ? new URL(image, site) : undefined;
+const serializedJsonLd = jsonLd ? serializeJsonLd(jsonLd) : undefined;
 ---
 
 <!doctype html>
@@ -25,15 +36,23 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? "https://anisonary.k
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content={description} />
-    {noIndex && <meta name="robots" content="noindex" />}
+    <meta name="robots" content={noIndex ? "noindex, follow" : "index, follow"} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="canonical" href={canonical} />
+    <meta property="og:site_name" content="Anisonary 動畫歌典" />
+    <meta property="og:locale" content="zh_HK" />
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={description} />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={ogType} />
     <meta property="og:url" content={canonical} />
+    {socialImage && <meta property="og:image" content={socialImage} />}
+    <meta name="twitter:card" content={socialImage ? "summary_large_image" : "summary"} />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={description} />
+    {socialImage && <meta name="twitter:image" content={socialImage} />}
     <meta name="theme-color" content="#fbfcff" />
     <title>{pageTitle}</title>
+    {serializedJsonLd && <script is:inline type="application/ld+json" set:html={serializedJsonLd} />}
     <script is:inline>
       (() => {
         const saved = localStorage.getItem("anisonary-theme");
