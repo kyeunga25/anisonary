@@ -21,8 +21,8 @@
 - [x] Loading、Error、Empty state 及 external-link accessibility 說明；
 - [x] Desktop／390px Mobile rendered accessibility 與 console review；
 - [x] Hero／Mock poster 轉為尺寸化 WebP，總資產由 12,603,441 bytes 降至 831,018 bytes；
+- [x] 遠端 poster 載入失敗時提供 accessible fallback 與 E2E；
 - [ ] 配置 Chrome DevTools MCP 後完成 Core Web Vitals／Lighthouse 數值稽核；
-- [ ] Production API smoke test 時確認遠端 poster broken-image fallback。
 
 ## In progress — M8 Cloudflare delivery
 
@@ -31,19 +31,19 @@
 - [x] `robots.txt`、sitemap、static security headers、`pages.dev` noindex；
 - [x] Production API fail-closed build guard；
 - [x] GitHub／Cloudflare 接入需求表、環境與 rollback／smoke runbook；
-- [ ] Push 已提交 commits 到 public GitHub repository；
-- [ ] GitHub `main` branch protection 要求 `quality` check；
+- [x] 透過 PR #1 push／merge 到 public GitHub repository；
+- [x] GitHub `main` branch protection 要求 PR、`quality`、linear history；
 - [ ] Cloudflare Pages Git integration 與首次 preview；
 - [ ] Production API、custom domain、Bulk Redirect；
 - [ ] Production smoke test 與 rollback drill。
 
-## In progress — M9 Private API handoff
+## Repository complete — M9 Private API handoff
 
 - [x] 公開 endpoint、payload、error 與 build-time integration contract；
-- [ ] 私有 `anisonary-api` 實作及 contract fixture 驗證；
-- [ ] Production API network／cache smoke test。
+- [x] Production fail-closed integration 與 contract fixture coverage；
+- [ ] 私有 `anisonary-api` 實作與 production network／cache smoke 屬 backend 接入工作。
 
 ## Final M7–M9 validation
 
 - [ ] 配置 Chrome DevTools MCP 後完成 Core Web Vitals／Lighthouse 數值稽核；
-- [ ] Production API smoke test 時確認遠端 poster broken-image fallback。
+- [ ] Cloudflare OAuth、Pages、custom domain、production smoke 與 rollback。

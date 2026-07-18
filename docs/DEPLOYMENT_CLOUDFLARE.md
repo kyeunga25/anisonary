@@ -2,6 +2,8 @@
 
 本文件把 Phase 1 M8 的 repository-side 準備、外部平台設定與驗收條件分開。完成此文件的程式碼準備不代表網站已實際部署。
 
+目前 GitHub public merge、Actions quality gate 與 `main` protection 已完成。Cloudflare Wrangler 尚未 authenticated，因此本文件中的 Pages／domain／production 項目仍未執行。
+
 ## 固定拓撲
 
 | 項目 | 設定 |

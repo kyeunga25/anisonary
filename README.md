@@ -61,6 +61,7 @@ See `docs/DEPLOYMENT_CLOUDFLARE.md` before connecting GitHub or performing the f
 - Visual system and accepted concepts: `docs/DESIGN_SYSTEM.md`
 - M0–M6 QA evidence: `docs/QA_PHASE1_M0_M6.md`
 - M7 quality QA evidence: `docs/QA_PHASE1_M7.md`
+- Phase 1 completion gate and external blockers: `docs/QA_PHASE1_COMPLETION.md`
 - GitHub and Cloudflare delivery requirements: `docs/DEPLOYMENT_CLOUDFLARE.md`
 - Private API public contract handoff: `docs/API_HANDOFF.md`
 
