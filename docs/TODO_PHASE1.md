@@ -14,12 +14,15 @@
 - [x] 不可 embed 時外部 Link；
 - [x] Direct/Search/Official/Purchase Link 標籤與 external-link safety。
 
-## Remaining — M7 Quality
+## In progress — M7 Quality
 
-- SEO metadata、canonical、JSON-LD；
-- 完整 accessibility/performance review；
-- Component 與 Playwright E2E tests；
-- Loading/Error/Empty state 完整化。
+- [x] SEO metadata、canonical、Open Graph、季度與動畫 JSON-LD；
+- [x] Component tests 與 Playwright 主流程／Mobile／404／API error E2E；
+- [x] Loading、Error、Empty state 及 external-link accessibility 說明；
+- [x] Desktop／390px Mobile rendered accessibility 與 console review；
+- [x] Hero／Mock poster 轉為尺寸化 WebP，總資產由 12,603,441 bytes 降至 831,018 bytes；
+- [ ] 配置 Chrome DevTools MCP 後完成 Core Web Vitals／Lighthouse 數值稽核；
+- [ ] Production API smoke test 時確認遠端 poster broken-image fallback。
 
 ## Remaining — M8–M9 Delivery
 

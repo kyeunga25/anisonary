@@ -2,7 +2,7 @@
 
 Anisonary is an Astro + strict TypeScript frontend for browsing anime music by season and Japanese editorial broadcast weekday.
 
-This repository currently implements Phase 1 milestones M0–M6: project foundation, public data contract, provider abstraction, site shell, season directory, anime detail pages, theme credits, thumbnail-first YouTube loading, non-embeddable video fallbacks, classified platform links, source verification, and empty states. All bundled records are explicitly fictional Mock Data.
+This repository currently implements Phase 1 milestones M0–M6 plus the M7 quality implementation: project foundation, public data contract, provider abstraction, site shell, season directory, anime detail pages, theme credits, thumbnail-first YouTube loading, classified platform links, SEO/JSON-LD, accessible loading/error/empty states, component tests, and Playwright E2E coverage. All bundled records are explicitly fictional Mock Data.
 
 ## Local development
 
@@ -17,6 +17,8 @@ Quality checks:
 npm run lint
 npm test
 npm run build
+npx playwright install chromium
+npm run test:e2e
 ```
 
 ## Data providers
@@ -40,5 +42,6 @@ PUBLIC_TIMEZONE=Asia/Tokyo
 - Remaining Phase 1 milestones: `docs/TODO_PHASE1.md`
 - Visual system and accepted concepts: `docs/DESIGN_SYSTEM.md`
 - M0–M6 QA evidence: `docs/QA_PHASE1_M0_M6.md`
+- M7 quality QA evidence: `docs/QA_PHASE1_M7.md`
 
 The public repository must not contain crawlers, database dumps, unpublished data, secrets, private source adapters, allowlists, or internal confidence rules.

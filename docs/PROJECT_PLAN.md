@@ -12,7 +12,7 @@
 - Mock/API Provider 抽象；
 - Cloudflare Pages 靜態部署。
 
-## 目前完成：M0–M6
+## 目前完成：M0–M6；M7 quality implementation 已完成
 
 目前公開前端已實作：
 
@@ -23,6 +23,9 @@
 5. M4：動畫詳細頁、OP／ED、Credits、來源與空狀態；
 6. M5：thumbnail-first YouTube lazy embed、不 autoplay、不可嵌入 fallback；
 7. M6：Direct／Search／Official／Purchase 平台連結分類與 external-link safety。
+8. M7：canonical／Open Graph／JSON-LD、accessible loading/error/empty states、Astro component tests、Playwright E2E 與靜態圖片最佳化。
+
+M7 尚待配置 Chrome DevTools MCP 後補上 Core Web Vitals／Lighthouse 數值稽核；目前不虛構任何效能分數。
 
 不在本輪加入資料庫、爬蟲、帳戶、Admin Panel、AI、音訊託管或真實 production data。
 
@@ -34,9 +37,12 @@
 - 日文名稱為主、繁中為輔；
 - 深夜 `25:30` 保持在編輯播出日而不移到次日；
 - Responsive、鍵盤 Focus、Poster Alt、Reduced Motion；
-- `npm run lint`、`npm test`、`npm run build` 通過；
+- `npm run lint`、`npm test`、`npm run build`、`npm run test:e2e` 通過；
 - YouTube iframe 只在使用者按下後建立，並使用 privacy-enhanced domain；
 - 同頁不同播放器擁有獨立載入狀態；
+- 首頁、季度頁與動畫頁提供 canonical；動畫頁提供 `TVSeries` JSON-LD；
+- API build-time failure 產生公開錯誤狀態，不暴露 upstream detail；
+- Hero 與 Mock posters 使用尺寸化 WebP，五項資產合計減少約 93.4%；
 - 不包含 secret、真實 DB dump 或 private crawler code。
 
 完整 Phase 1 後續工作見 `docs/TODO_PHASE1.md`。
