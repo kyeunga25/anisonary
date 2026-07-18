@@ -10,5 +10,13 @@ export interface PublicDataProvider {
 
 export function getDataProvider(): PublicDataProvider {
   const apiBaseUrl = import.meta.env.PUBLIC_API_BASE_URL?.trim();
-  return apiBaseUrl ? new ApiProvider(apiBaseUrl) : new MockProvider();
+  if (apiBaseUrl) return new ApiProvider(apiBaseUrl);
+  if (shouldRequireApiData()) {
+    throw new Error("PUBLIC_API_BASE_URL is required when production API data is enforced");
+  }
+  return new MockProvider();
+}
+
+export function shouldRequireApiData(): boolean {
+  return import.meta.env.ANISONARY_REQUIRE_API_DATA === "true";
 }

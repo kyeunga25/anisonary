@@ -1,7 +1,7 @@
 ---
 import MockNotice from "@/components/common/MockNotice.astro";
 import SeasonDirectory from "@/components/season/SeasonDirectory.astro";
-import { getDataProvider } from "@/data/provider";
+import { getDataProvider, shouldRequireApiData } from "@/data/provider";
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import type { PublicSeasonDetail } from "@/types/public-api";
 import { buildSeasonJsonLd } from "@/utils/seo";
@@ -16,7 +16,8 @@ export async function getStaticPaths() {
       params: { season: season.id },
       props: { season }
     }));
-  } catch {
+  } catch (error) {
+    if (shouldRequireApiData()) throw error;
     console.error("Anisonary season data is unavailable; no season pages were generated.");
     return [];
   }
