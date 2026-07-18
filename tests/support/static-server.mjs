@@ -15,6 +15,8 @@ const contentTypes = {
   ".html": "text/html; charset=utf-8",
   ".js": "text/javascript; charset=utf-8",
   ".svg": "image/svg+xml",
+  ".txt": "text/plain; charset=utf-8",
+  ".xml": "application/xml; charset=utf-8",
   ".webp": "image/webp"
 };
 
@@ -37,6 +39,11 @@ createServer(async (request, response) => {
     const contentType = contentTypes[extname(filePath)] ?? "application/octet-stream";
     response.writeHead(200, { "Content-Type": contentType }).end(body);
   } catch {
-    response.writeHead(404, { "Content-Type": "text/plain; charset=utf-8" }).end("Not found");
+    try {
+      const notFound = await readFile(resolve(root, "404.html"));
+      response.writeHead(404, { "Content-Type": contentTypes[".html"] }).end(notFound);
+    } catch {
+      response.writeHead(404, { "Content-Type": contentTypes[".txt"] }).end("Not found");
+    }
   }
 }).listen(port, "127.0.0.1");
