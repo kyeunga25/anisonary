@@ -158,8 +158,31 @@ export const mockSeasonDetails: PublicSeasonDetail[] = [
 ];
 
 const verifiedAt = "2026-07-14";
+const youtubeDemoId = "M7lc1UVf-VE";
+
+function makeMockVideo(anime: PublicAnimeCard, type: "OP" | "ED", sequence: number, embeddable = true) {
+  return {
+    youtubeVideoId: youtubeDemoId,
+    title: `${anime.titleJa} ${type}${sequence}・Mock YouTube 互動示範`,
+    type: type === "OP" ? "creditless_op" as const : "creditless_ed" as const,
+    channelName: "Google for Developers",
+    officialStatus: "official" as const,
+    embeddable
+  };
+}
+
+const mockLink = (
+  platform: string,
+  label: string,
+  path: string,
+  linkType: PublicTheme["links"][number]["linkType"],
+  region: PublicTheme["links"][number]["region"] = "GLOBAL"
+) => ({ platform, label, url: `https://example.com/anisonary-mock/${path}`, linkType, region });
 
 function makeGenericTheme(anime: PublicAnimeCard, type: "OP" | "ED", sequence: number): PublicTheme {
+  const hasVideo =
+    (anime.hasOfficialVideo && type === "OP" && sequence === 1) ||
+    (anime.slug === "tomoshibi-no-yakusoku" && type === "ED" && sequence === 1);
   return {
     id: `${anime.id}-${type.toLowerCase()}-${sequence}`,
     type,
@@ -168,8 +191,10 @@ function makeGenericTheme(anime: PublicAnimeCard, type: "OP" | "ED", sequence: n
     titleZhHant: `${anime.titleZhHant ?? anime.titleJa}・${type}${sequence}`,
     artistDisplayName: "Anisonary Mock Ensemble",
     credits: [{ name: "Anisonary Mock Ensemble", role: "vocals" }],
-    videos: [],
-    links: [],
+    videos: hasVideo ? [makeMockVideo(anime, type, sequence)] : [],
+    links: hasVideo
+      ? [mockLink("YouTube Music", "Mock 官方頁面", `${anime.slug}/${type.toLowerCase()}-${sequence}/youtube-music`, "official_landing_page")]
+      : [],
     sourceLabels: ["Mock 動畫官網"],
     lastVerifiedAt: verifiedAt
   };
@@ -189,8 +214,12 @@ const yoakeThemes: PublicTheme[] = [
       { name: "水瀬 透", role: "composition" },
       { name: "Lumen Note", role: "arrangement" }
     ],
-    videos: [],
-    links: [],
+    videos: [makeMockVideo(summerCoreAnime[0]!, "OP", 1)],
+    links: [
+      mockLink("Apple Music", "Mock 直接歌曲", "yoake-no-polaris/op-1/apple-music", "direct_track", "JP"),
+      mockLink("Spotify", "Mock 搜尋結果", "yoake-no-polaris/op-1/spotify", "search_result"),
+      mockLink("YouTube Music", "Mock 官方頁面", "yoake-no-polaris/op-1/youtube-music", "official_landing_page")
+    ],
     sourceLabels: ["Mock 動畫官網"],
     lastVerifiedAt: verifiedAt
   },
@@ -206,8 +235,11 @@ const yoakeThemes: PublicTheme[] = [
       { name: "Aoi Kisaragi", role: "lyrics" },
       { name: "Aoi Kisaragi", role: "composition" }
     ],
-    videos: [],
-    links: [],
+    videos: [makeMockVideo(summerCoreAnime[0]!, "ED", 1, false)],
+    links: [
+      mockLink("Spotify", "Mock 搜尋結果", "yoake-no-polaris/ed-1/spotify", "search_result"),
+      mockLink("CDJapan", "Mock 實體購買", "yoake-no-polaris/ed-1/cdjapan", "physical_purchase", "JP")
+    ],
     sourceLabels: ["Mock 唱片公司"],
     lastVerifiedAt: verifiedAt
   }
