@@ -2,7 +2,7 @@
 
 Anisonary is an Astro + strict TypeScript frontend for browsing anime music by season and Japanese editorial broadcast weekday.
 
-This repository currently implements Phase 1 milestones M0–M7 and the repository-side preparation for M8–M9: project foundation, public data contract, provider abstraction, site shell, season directory, anime detail pages, theme credits, thumbnail-first YouTube loading, classified platform links, SEO/JSON-LD, accessible loading/error/empty states, component/E2E coverage, Cloudflare Pages configuration, and the private API handoff contract. All bundled records are explicitly fictional Mock Data.
+This repository implements the Phase 1 frontend and public API handoff: project foundation, public data contract, provider abstraction, site shell, season directory, anime detail pages, theme credits, thumbnail-first YouTube loading, classified platform links, SEO/JSON-LD, accessible loading/error/empty states, component/E2E coverage, Cloudflare Pages delivery, and the private API handoff contract. All bundled records are explicitly fictional Mock Data.
 
 ## Local development
 
@@ -38,7 +38,7 @@ PUBLIC_TIMEZONE=Asia/Tokyo
 ANISONARY_REQUIRE_API_DATA=false
 ```
 
-Production must set `ANISONARY_REQUIRE_API_DATA=true` so an unavailable API fails the build instead of publishing an incomplete static site.
+Once the private production API is connected, production must set `ANISONARY_REQUIRE_API_DATA=true` so an unavailable API fails the build instead of publishing an incomplete static site. Until then, the deployed frontend intentionally remains in clearly labelled Mock Data mode.
 
 ## Cloudflare Pages
 
@@ -53,6 +53,8 @@ Domain: anisonary.k-y.cc
 ```
 
 See `docs/DEPLOYMENT_CLOUDFLARE.md` before connecting GitHub or performing the first deployment.
+
+Current Pages deployment: <https://anisonary.pages.dev> (Mock Data mode). The custom domain is being validated.
 
 ## Project notes
 
