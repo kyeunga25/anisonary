@@ -24,7 +24,7 @@
 - [x] 遠端 poster 載入失敗時提供 accessible fallback 與 E2E；
 - [ ] 配置 Chrome DevTools MCP 後完成 Core Web Vitals／Lighthouse 數值稽核；
 
-## In progress — M8 Cloudflare delivery
+## Completed — M8 Cloudflare delivery
 
 - [x] `.nvmrc`、Wrangler Workers Static Assets config、build／output 固定；
 - [x] GitHub CI 加入 unit、component、Playwright、build artifact 與 merge queue event；
@@ -37,9 +37,10 @@
 - [x] Workers Static Assets direct deployment 與版本記錄；
 - [x] Worker custom domain DNS route／TLS validation；
 - [x] Custom domain、`workers.dev`、`pages.dev` 的 routes、security headers、robots、sitemap 與 404 smoke；
-- [ ] Workers Git Builds、PR preview 與 merge 後自動 production deployment；
-- [ ] Worker version rollback drill；
-- [ ] Private production API 接入；`pages.dev` 在 fallback 退役時再 redirect 或移除。
+- [x] Workers Git Builds、PR preview 與 merge 後自動 production deployment；
+- [x] Worker version rollback／roll-forward drill；
+- [ ] Private production API 接入；
+- [ ] 使用者確認後刪除已完成遷移用途的 `anisonary` Pages project。
 
 ## Repository complete — M9 Private API handoff
 
@@ -50,5 +51,5 @@
 ## Final M7–M9 validation
 
 - [ ] 配置 Chrome DevTools MCP 後完成 Core Web Vitals／Lighthouse 數值稽核；
-- [ ] Workers Git preview／production automation 與 rollback；
+- [x] Workers Git preview／production automation 與 rollback；
 - [ ] Private API 上線後執行 fail-closed production data smoke。

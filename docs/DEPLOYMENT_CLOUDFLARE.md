@@ -2,7 +2,7 @@
 
 本文件把 Phase 1 M8 的 repository-side 準備、外部平台設定與驗收條件分開。
 
-正式入口已由 Cloudflare Workers Static Assets 提供。原有 Pages Git project 與 `pages.dev` deployment 暫時保留為遷移 fallback；它不是長期 production owner，而且已設 `noindex`。
+正式入口已由 Cloudflare Workers Static Assets 提供。原有 Pages Git project 已完成遷移用途，沒有綁定 custom domain；現列為待確認退役項目，而且 `pages.dev` 已設 `noindex`。
 
 ## 固定拓撲
 
@@ -19,7 +19,7 @@
 | Node | `.nvmrc` 所指定的 Node 22 |
 | Target deployment owner | Cloudflare Workers Builds Git integration |
 | GitHub Actions | Quality gate 與 build artifact，不直接部署 |
-| Migration fallback | `anisonary.pages.dev`，保留且 `noindex` |
+| Retained migration artifact | `anisonary.pages.dev`，待確認刪除且現有 response 為 `noindex` |
 
 連接 Workers Builds 後，它是唯一自動部署來源。請勿同時加入會執行 `wrangler deploy` 的 GitHub workflow，以免同一 commit 產生競爭 deployment。`npm run cf:deploy` 只作初次接入或 break-glass 手動路徑。
 
@@ -35,8 +35,8 @@
 | DEP-006 | 非正式 hostname 不被索引 | Passed | `workers.dev` 與 `pages.dev` response 有 `X-Robots-Tag: noindex` |
 | DEP-007 | 基本 static security headers | Passed | Worker custom domain、`workers.dev`、`pages.dev` 通過 smoke |
 | DEP-008 | Custom domain 與 canonical 一致 | Passed | `anisonary.k-y.cc` custom-domain route、DNS、TLS 均正常 |
-| DEP-009 | Pages fallback 不形成重複正式入口 | Passed for migration | fallback 保留且 `noindex`；退役時再 redirect 或移除 |
-| DEP-010 | 可回復上一個穩定 Worker 版本 | Ready | 待第二個 production version 後執行 rollback／roll-forward drill |
+| DEP-009 | Pages fallback 不形成重複正式入口 | Passed | Pages 沒有 custom domain；Workers 驗證完成後建議刪除 Pages project |
+| DEP-010 | 可回復上一個穩定 Worker 版本 | Passed | rollback 至 `59b2269a…`、roll forward 至 `52fa8d29…` 均通過 |
 | DEP-011 | Production API contract | Documented | 私有 `anisonary-api` 實作並通過 smoke test |
 | DEP-012 | Production 數值化品質稽核 | Pending | 配置 Chrome DevTools MCP 後執行 Lighthouse／Core Web Vitals |
 
@@ -115,6 +115,48 @@ ANISONARY_REQUIRE_API_DATA=false
 | Indexing | `X-Robots-Tag: noindex` |
 
 Preview 已驗證首頁、季度頁、動畫頁、robots、sitemap、custom 404、Mock Data notice 與 security headers。Merge 後 production deployment 與 rollback／roll-forward 仍以實際 build 和 version evidence 為驗收依據。
+
+### First Workers Builds production and recovery drill
+
+| 項目 | 結果 |
+|---|---|
+| Git source | `main@57778d3` |
+| Build ID | `6671270c-eb35-422a-b8b6-3a7d35fbb9a1` |
+| Production version | `52fa8d29-763a-4110-8a77-27bed70eb5f9` |
+| Rollback target | `59b2269a-d315-42ad-8aa4-37e842ff333a` |
+| Active after drill | `52fa8d29-763a-4110-8a77-27bed70eb5f9` at 100% |
+
+`main` merge 後自動 production deployment 通過。正式 custom domain 在 production、rollback 及 roll-forward 後均通過首頁、季度、動畫、About、Sources、robots、sitemap、custom 404、HTTP/1.1、HTTP/2 與 security headers smoke。
+
+## Build Token 命名與最小權限
+
+建議每個 project 使用獨立 token，名稱格式為：
+
+```text
+k-y.cc · <Project> · Workers Builds
+```
+
+Anisonary 使用 `k-y.cc · Anisonary · Workers Builds`。如果刻意讓同一 token 管理帳戶內所有 `k-y.cc` projects，才使用 `k-y.cc · Shared Workers Builds`；共享 token 的故障與撤銷範圍較大，不是預設方案。
+
+Anisonary 現階段所需範圍：
+
+- Account：指定目前 Cloudflare account；
+- Account permissions：Account Settings Read、Workers Scripts Edit；
+- Zone：只包括 `k-y.cc`；
+- Zone permissions：Workers Routes Edit；
+- User：User Details Read、Memberships Read；
+- 不加入 Workers KV Storage、Workers R2 Storage 或其他未使用產品權限；
+- 不在 repository、build variables 或公開文件保存 token secret。
+
+Cloudflare 的 Workers Scripts 權限以 account 為資源範圍，不能靠 token 名稱限制至單一 Worker。每個 project 使用獨立 token 的價值在於可獨立輪替、停用、審計與降低共用憑證影響面。
+
+安全更換流程：
+
+1. 在 My Profile → API Tokens 建立或編輯上述名稱與權限的 user token；
+2. 在 Worker → Settings → Builds → API token 選擇新 token 並儲存；
+3. 推送 non-production commit，確認 `versions upload` preview 成功；
+4. 合併後確認 `main` production deployment 成功；
+5. 完成兩層驗證後才停用、roll 或刪除舊 token。
 
 ## Workers Builds 接入流程
 
