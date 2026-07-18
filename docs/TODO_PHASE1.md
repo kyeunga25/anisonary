@@ -14,7 +14,7 @@
 - [x] 不可 embed 時外部 Link；
 - [x] Direct/Search/Official/Purchase Link 標籤與 external-link safety。
 
-## In progress — M7 Quality
+## Repository complete — M7 Quality
 
 - [x] SEO metadata、canonical、Open Graph、季度與動畫 JSON-LD；
 - [x] Component tests 與 Playwright 主流程／Mobile／404／API error E2E；
@@ -24,8 +24,26 @@
 - [ ] 配置 Chrome DevTools MCP 後完成 Core Web Vitals／Lighthouse 數值稽核；
 - [ ] Production API smoke test 時確認遠端 poster broken-image fallback。
 
-## Remaining — M8–M9 Delivery
+## In progress — M8 Cloudflare delivery
 
-- Cloudflare Pages deployment；
-- `anisonary-api` contract handoff；
-- Production smoke test 與 README deployment guide。
+- [x] `.nvmrc`、Wrangler Pages config、build／output 固定；
+- [x] GitHub CI 加入 unit、component、Playwright、build artifact 與 merge queue event；
+- [x] `robots.txt`、sitemap、static security headers、`pages.dev` noindex；
+- [x] Production API fail-closed build guard；
+- [x] GitHub／Cloudflare 接入需求表、環境與 rollback／smoke runbook；
+- [ ] Push 已提交 commits 到 public GitHub repository；
+- [ ] GitHub `main` branch protection 要求 `quality` check；
+- [ ] Cloudflare Pages Git integration 與首次 preview；
+- [ ] Production API、custom domain、Bulk Redirect；
+- [ ] Production smoke test 與 rollback drill。
+
+## In progress — M9 Private API handoff
+
+- [x] 公開 endpoint、payload、error 與 build-time integration contract；
+- [ ] 私有 `anisonary-api` 實作及 contract fixture 驗證；
+- [ ] Production API network／cache smoke test。
+
+## Final M7–M9 validation
+
+- [ ] 配置 Chrome DevTools MCP 後完成 Core Web Vitals／Lighthouse 數值稽核；
+- [ ] Production API smoke test 時確認遠端 poster broken-image fallback。

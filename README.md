@@ -2,7 +2,7 @@
 
 Anisonary is an Astro + strict TypeScript frontend for browsing anime music by season and Japanese editorial broadcast weekday.
 
-This repository currently implements Phase 1 milestones M0–M6 plus the M7 quality implementation: project foundation, public data contract, provider abstraction, site shell, season directory, anime detail pages, theme credits, thumbnail-first YouTube loading, classified platform links, SEO/JSON-LD, accessible loading/error/empty states, component tests, and Playwright E2E coverage. All bundled records are explicitly fictional Mock Data.
+This repository currently implements Phase 1 milestones M0–M7 and the repository-side preparation for M8–M9: project foundation, public data contract, provider abstraction, site shell, season directory, anime detail pages, theme credits, thumbnail-first YouTube loading, classified platform links, SEO/JSON-LD, accessible loading/error/empty states, component/E2E coverage, Cloudflare Pages configuration, and the private API handoff contract. All bundled records are explicitly fictional Mock Data.
 
 ## Local development
 
@@ -19,6 +19,7 @@ npm test
 npm run build
 npx playwright install chromium
 npm run test:e2e
+npm run check
 ```
 
 ## Data providers
@@ -34,7 +35,24 @@ PUBLIC_API_BASE_URL=https://api.anisonary.k-y.cc/v1
 PUBLIC_SITE_URL=https://anisonary.k-y.cc
 PUBLIC_DEFAULT_SEASON=2026-summer
 PUBLIC_TIMEZONE=Asia/Tokyo
+ANISONARY_REQUIRE_API_DATA=false
 ```
+
+Production must set `ANISONARY_REQUIRE_API_DATA=true` so an unavailable API fails the build instead of publishing an incomplete static site.
+
+## Cloudflare Pages
+
+The intended delivery path is Cloudflare Pages Git integration: `main` is production and pull requests receive preview deployments. GitHub Actions is a quality gate only and does not deploy.
+
+```text
+Project: anisonary
+Build: npm run build
+Output: dist
+Node: 22
+Domain: anisonary.k-y.cc
+```
+
+See `docs/DEPLOYMENT_CLOUDFLARE.md` before connecting GitHub or performing the first deployment.
 
 ## Project notes
 
@@ -43,5 +61,7 @@ PUBLIC_TIMEZONE=Asia/Tokyo
 - Visual system and accepted concepts: `docs/DESIGN_SYSTEM.md`
 - M0–M6 QA evidence: `docs/QA_PHASE1_M0_M6.md`
 - M7 quality QA evidence: `docs/QA_PHASE1_M7.md`
+- GitHub and Cloudflare delivery requirements: `docs/DEPLOYMENT_CLOUDFLARE.md`
+- Private API public contract handoff: `docs/API_HANDOFF.md`
 
 The public repository must not contain crawlers, database dumps, unpublished data, secrets, private source adapters, allowlists, or internal confidence rules.
