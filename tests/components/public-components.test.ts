@@ -2,6 +2,7 @@ import { experimental_AstroContainer as AstroContainer } from "astro/container";
 import { beforeAll, describe, expect, it } from "vitest";
 import AnimeCard from "@/components/anime/AnimeCard.astro";
 import ErrorState from "@/components/common/ErrorState.astro";
+import PosterImage from "@/components/common/PosterImage.astro";
 import SourceList from "@/components/anime/SourceList.astro";
 import ExternalLinkList from "@/components/links/ExternalLinkList.astro";
 import ThemeCard from "@/components/theme/ThemeCard.astro";
@@ -25,6 +26,20 @@ describe("Phase 1 public components", () => {
     expect(html).toContain('lang="ja"');
     expect(html).toContain("查看 夜明けのポラリス");
     expect(html).toContain(anime.posterAlt);
+  });
+
+  it("renders an accessible fallback when a poster is unavailable", async () => {
+    const html = await container.renderToString(PosterImage, {
+      props: {
+        alt: "測試動畫海報",
+        width: 768,
+        height: 1152
+      }
+    });
+
+    expect(html).toContain('data-poster-state="unavailable"');
+    expect(html).toContain("測試動畫海報（圖片暫時無法載入）");
+    expect(html).toContain("暫時無法顯示");
   });
 
   it("renders theme identity, credits and source verification", async () => {
