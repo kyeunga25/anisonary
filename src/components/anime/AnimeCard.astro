@@ -22,7 +22,7 @@ const completion = anime.completionPercent ?? 0;
   <a href={`/anime/${anime.slug}/`} aria-label={`查看 ${anime.titleJa}（${anime.titleZhHant ?? anime.titleRomaji ?? "未有中文名稱"}）`}>
     <div class="anime-card__media">
       {anime.posterUrl ? (
-        <img src={anime.posterUrl} alt={anime.posterAlt} loading={eager ? "eager" : "lazy"} decoding="async" />
+        <img src={anime.posterUrl} alt={anime.posterAlt} width="768" height="1152" loading={eager ? "eager" : "lazy"} decoding="async" />
       ) : (
         <div class="anime-card__placeholder" role="img" aria-label={anime.posterAlt}>
           <svg viewBox="0 0 64 64" aria-hidden="true">

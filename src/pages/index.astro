@@ -1,16 +1,22 @@
 ---
 import AnimeCard from "@/components/anime/AnimeCard.astro";
+import ErrorState from "@/components/common/ErrorState.astro";
 import MockNotice from "@/components/common/MockNotice.astro";
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import { getDataProvider } from "@/data/provider";
+import { loadHomePageData } from "@/data/page-data";
+import { buildWebsiteJsonLd } from "@/utils/seo";
 
 const provider = getDataProvider();
-const seasons = await provider.getSeasons();
-const current = await provider.getSeason(import.meta.env.PUBLIC_DEFAULT_SEASON ?? "2026-summer");
-const previous = await provider.getSeason("2026-spring");
+const data = await loadHomePageData(
+  provider,
+  import.meta.env.PUBLIC_DEFAULT_SEASON ?? "2026-summer",
+  "2026-spring"
+);
+const site = Astro.site ?? new URL("https://anisonary.k-y.cc");
 ---
 
-<BaseLayout>
+<BaseLayout image="/assets/anisonary-hero.webp" jsonLd={buildWebsiteJsonLd(site)}>
   <section class="hero page-shell">
     <div class="hero__copy">
       <h1>按季度與動畫，<br /><span class="hero-title-line">找到每一首 <span>OP／ED</span> 的官方入口。</span></h1>
@@ -28,45 +34,57 @@ const previous = await provider.getSeason("2026-spring");
       <MockNotice />
     </div>
     <div class="hero__visual">
-      <img src="/assets/anisonary-hero.png" alt="唱片從歌典中展開，樂譜連接至日本鐵路月台的原創插畫" width="1536" height="1024" decoding="async" />
+      <img src="/assets/anisonary-hero.webp" alt="唱片從歌典中展開，樂譜連接至日本鐵路月台的原創插畫" width="1200" height="800" decoding="async" />
     </div>
   </section>
 
-  <section class="season-preview page-shell" aria-labelledby="current-season-title">
-    <div class="section-heading">
-      <h2 id="current-season-title">2026 夏季動畫</h2>
-      <a href="/seasons/2026-summer/">查看全部 2026 夏季動畫 <span aria-hidden="true">→</span></a>
+  {data.status === "error" ? (
+    <div class="page-shell">
+      <ErrorState
+        message="季度與動畫資料暫時無法取得。網站其他說明頁仍可正常瀏覽，請稍後重新載入。"
+      />
     </div>
-    {current ? (
-      <div class="home-poster-grid">
-        {current.anime.slice(0, 6).map((anime, index) => <AnimeCard anime={anime} eager={index < 3} variant="home" />)}
-      </div>
-    ) : (
-      <p class="state-message">目前未能載入季度資料。</p>
-    )}
-  </section>
+  ) : (
+    <>
+      <section class="season-preview page-shell" aria-labelledby="current-season-title">
+        <div class="section-heading">
+          <h2 id="current-season-title">2026 夏季動畫</h2>
+          <a href="/seasons/2026-summer/">查看全部 2026 夏季動畫 <span aria-hidden="true">→</span></a>
+        </div>
+        {data.current ? (
+          <div class="home-poster-grid">
+            {data.current.anime.slice(0, 6).map((anime, index) => <AnimeCard anime={anime} eager={index < 3} variant="home" />)}
+          </div>
+        ) : (
+          <p class="state-message">目前沒有可顯示的季度資料。</p>
+        )}
+      </section>
 
-  <section class="previous-season page-shell" aria-labelledby="previous-season-title">
-    <div class="section-heading section-heading--small">
-      <div>
-        <h2 id="previous-season-title">2026 春季動畫</h2>
-        <p lang="ja">2026年春アニメ</p>
-      </div>
-      <a href="/seasons/2026-spring/">查看季度 <span aria-hidden="true">→</span></a>
-    </div>
-    {previous && (
-      <div class="previous-season__list">
-        {previous.anime.slice(0, 4).map((anime) => (
-          <a href={`/anime/${anime.slug}/`}>
-            {anime.posterUrl && <img src={anime.posterUrl} alt="" loading="lazy" decoding="async" />}
-            <span><strong lang="ja">{anime.titleJa}</strong><small>{anime.titleZhHant}</small></span>
-          </a>
-        ))}
-      </div>
-    )}
-  </section>
+      <section class="previous-season page-shell" aria-labelledby="previous-season-title">
+        <div class="section-heading section-heading--small">
+          <div>
+            <h2 id="previous-season-title">2026 春季動畫</h2>
+            <p lang="ja">2026年春アニメ</p>
+          </div>
+          <a href="/seasons/2026-spring/">查看季度 <span aria-hidden="true">→</span></a>
+        </div>
+        {data.previous ? (
+          <div class="previous-season__list">
+            {data.previous.anime.slice(0, 4).map((anime) => (
+              <a href={`/anime/${anime.slug}/`}>
+                {anime.posterUrl && <img src={anime.posterUrl} alt="" width="768" height="1152" loading="lazy" decoding="async" />}
+                <span><strong lang="ja">{anime.titleJa}</strong><small>{anime.titleZhHant}</small></span>
+              </a>
+            ))}
+          </div>
+        ) : (
+          <p class="state-message">上一季度資料尚未提供。</p>
+        )}
+      </section>
 
-  <p class="sr-only">可用季度：{seasons.map((season) => season.titleZhHant).join("、")}</p>
+      <p class="sr-only">可用季度：{data.seasons.map((season) => season.titleZhHant).join("、")}</p>
+    </>
+  )}
 </BaseLayout>
 
 <style>

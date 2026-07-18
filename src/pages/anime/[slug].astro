@@ -6,6 +6,7 @@ import ThemeEmptyState from "@/components/theme/ThemeEmptyState.astro";
 import { getDataProvider } from "@/data/provider";
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import type { PublicAnimeDetail, PublicSeasonSummary } from "@/types/public-api";
+import { buildAnimeJsonLd } from "@/utils/seo";
 import { animeStatusLabel } from "@/utils/theme";
 import { formatBroadcastLabel, weekdayShortLabel } from "@/utils/weekday";
 
@@ -15,20 +16,25 @@ interface AnimePageProps {
 }
 
 export async function getStaticPaths() {
-  const provider = getDataProvider();
-  const seasons = await provider.getSeasons();
-  const pages = await Promise.all(seasons.flatMap(async (season) => {
-    const detail = await provider.getSeason(season.id);
-    if (!detail) return [];
+  try {
+    const provider = getDataProvider();
+    const seasons = await provider.getSeasons();
+    const pages = await Promise.all(seasons.flatMap(async (season) => {
+      const detail = await provider.getSeason(season.id);
+      if (!detail) return [];
 
-    const anime = await Promise.all(detail.anime.map((item) => provider.getAnime(item.slug)));
-    return anime.filter((item): item is PublicAnimeDetail => item !== null).map((item) => ({
-      params: { slug: item.slug },
-      props: { anime: item, season }
+      const anime = await Promise.all(detail.anime.map((item) => provider.getAnime(item.slug)));
+      return anime.filter((item): item is PublicAnimeDetail => item !== null).map((item) => ({
+        params: { slug: item.slug },
+        props: { anime: item, season }
+      }));
     }));
-  }));
 
-  return pages.flat();
+    return pages.flat();
+  } catch {
+    console.error("Anisonary anime data is unavailable; no anime pages were generated.");
+    return [];
+  }
 }
 
 const { anime, season } = Astro.props as AnimePageProps;
@@ -39,11 +45,16 @@ const externalReferences = [
   anime.bangumiUrl && { label: "Bangumi", url: anime.bangumiUrl },
   anime.anilistUrl && { label: "AniList", url: anime.anilistUrl }
 ].filter((item): item is { label: string; url: string } => Boolean(item));
+const site = Astro.site ?? new URL("https://anisonary.k-y.cc");
+const isMockData = !import.meta.env.PUBLIC_API_BASE_URL?.trim();
 ---
 
 <BaseLayout
   title={`${anime.titleJa}／${anime.titleZhHant ?? anime.titleRomaji ?? "主題曲"}`}
   description={`${anime.titleJa} 的 OP／ED、演唱者、製作 Credits 與已驗證資料來源。`}
+  image={anime.posterUrl}
+  ogType="video.tv_show"
+  jsonLd={buildAnimeJsonLd(anime, season, site)}
 >
   <article class="anime-detail page-shell">
     <nav class="breadcrumb" aria-label="麵包屑">
@@ -55,7 +66,7 @@ const externalReferences = [
     <header class:list={["anime-hero", { "anime-hero--no-poster": !anime.posterUrl }]}>
       {anime.posterUrl && (
         <figure class="anime-hero__poster">
-          <img src={anime.posterUrl} alt={anime.posterAlt} decoding="async" fetchpriority="high" />
+          <img src={anime.posterUrl} alt={anime.posterAlt} width="768" height="1152" decoding="async" fetchpriority="high" />
         </figure>
       )}
 
@@ -70,13 +81,14 @@ const externalReferences = [
           <div><dt>狀態</dt><dd>{animeStatusLabel(anime.status)}</dd></div>
         </dl>
 
-        <MockNotice compact />
+        {isMockData && <MockNotice compact />}
 
         {externalReferences.length > 0 && (
           <nav class="reference-links" aria-label="作品外部參考">
             {externalReferences.map((reference) => (
               <a href={reference.url} target="_blank" rel="noopener noreferrer">
                 {reference.label}<span aria-hidden="true">↗</span>
+                <span class="sr-only">（在新分頁開啟外部網站）</span>
               </a>
             ))}
           </nav>

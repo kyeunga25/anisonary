@@ -8,13 +8,14 @@ const { sources } = Astro.props;
 <ul class="source-list">
   {sources.map((source) => (
     <li>
-      <a href={source.url} target="_blank" rel="noopener noreferrer">
+      <a href={source.url} target="_blank" rel="noopener noreferrer external">
         <span class="source-list__label">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6zM14 3v5h5M9 13h7M9 17h7" /></svg>
           {source.label}
         </span>
         <span class="source-list__verified">最後驗證：{source.verifiedAt ?? "待確認"}</span>
         <span aria-hidden="true">↗</span>
+        <span class="sr-only">（在新分頁開啟外部網站）</span>
       </a>
     </li>
   ))}
