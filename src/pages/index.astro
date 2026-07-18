@@ -3,7 +3,7 @@ import AnimeCard from "@/components/anime/AnimeCard.astro";
 import ErrorState from "@/components/common/ErrorState.astro";
 import MockNotice from "@/components/common/MockNotice.astro";
 import BaseLayout from "@/layouts/BaseLayout.astro";
-import { getDataProvider } from "@/data/provider";
+import { getDataProvider, shouldRequireApiData } from "@/data/provider";
 import { loadHomePageData } from "@/data/page-data";
 import { buildWebsiteJsonLd } from "@/utils/seo";
 
@@ -11,7 +11,8 @@ const provider = getDataProvider();
 const data = await loadHomePageData(
   provider,
   import.meta.env.PUBLIC_DEFAULT_SEASON ?? "2026-summer",
-  "2026-spring"
+  "2026-spring",
+  shouldRequireApiData()
 );
 const site = Astro.site ?? new URL("https://anisonary.k-y.cc");
 ---

@@ -3,7 +3,7 @@ import SourceList from "@/components/anime/SourceList.astro";
 import MockNotice from "@/components/common/MockNotice.astro";
 import ThemeCard from "@/components/theme/ThemeCard.astro";
 import ThemeEmptyState from "@/components/theme/ThemeEmptyState.astro";
-import { getDataProvider } from "@/data/provider";
+import { getDataProvider, shouldRequireApiData } from "@/data/provider";
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import type { PublicAnimeDetail, PublicSeasonSummary } from "@/types/public-api";
 import { buildAnimeJsonLd } from "@/utils/seo";
@@ -31,7 +31,8 @@ export async function getStaticPaths() {
     }));
 
     return pages.flat();
-  } catch {
+  } catch (error) {
+    if (shouldRequireApiData()) throw error;
     console.error("Anisonary anime data is unavailable; no anime pages were generated.");
     return [];
   }

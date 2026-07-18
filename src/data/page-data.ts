@@ -18,7 +18,8 @@ export type HomePageData =
 export async function loadHomePageData(
   provider: PublicDataProvider,
   currentSeasonId = "2026-summer",
-  previousSeasonId = "2026-spring"
+  previousSeasonId = "2026-spring",
+  failOnError = false
 ): Promise<HomePageData> {
   try {
     const [seasons, current, previous] = await Promise.all([
@@ -28,7 +29,8 @@ export async function loadHomePageData(
     ]);
 
     return { status: "ready", seasons, current, previous };
-  } catch {
+  } catch (error) {
+    if (failOnError) throw error;
     return { status: "error", seasons: [], current: null, previous: null };
   }
 }
