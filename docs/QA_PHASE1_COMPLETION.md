@@ -70,7 +70,7 @@ Workers migration follow-up 使用 [PR #2 Document Phase 1 delivery status](http
 
 ## Remaining external validation
 
-- 連接 Workers Builds 至 GitHub，驗證 non-production preview 與 merge 後自動 production deployment；
+- Workers Builds 已連接 GitHub；待驗證 non-production preview 與 merge 後自動 production deployment；
 - 產生第二個已驗證 Worker version 後執行 rollback／roll-forward drill；
 - `chrome-devtools` MCP 尚未配置，因此未產生 Lighthouse／Core Web Vitals 數值。
 

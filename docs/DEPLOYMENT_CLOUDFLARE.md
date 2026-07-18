@@ -29,7 +29,7 @@
 |---|---|---|---|
 | DEP-001 | Node／build／output 可重現 | Passed | Node 22、`npm run build`、`dist` |
 | DEP-002 | GitHub CI 阻止不合格變更 | Passed | `main` branch protection 要求 `quality` check |
-| DEP-003 | PR 可先驗證 | Ready | 待 Workers Builds 連接後，以 `versions upload` 建 non-production preview |
+| DEP-003 | PR 可先驗證 | Connected | Workers Builds 已連接；待本次 push 驗證 `versions upload` non-production preview |
 | DEP-004 | Production API 失敗不可發布殘缺網站 | Ready | Private API 上線時設 `ANISONARY_REQUIRE_API_DATA=true` |
 | DEP-005 | Static SEO discovery | Passed | `/robots.txt` 及 `/sitemap-index.xml` 回應 `200` |
 | DEP-006 | 非正式 hostname 不被索引 | Passed | `workers.dev` 與 `pages.dev` response 有 `X-Robots-Tag: noindex` |
@@ -89,6 +89,20 @@ ANISONARY_REQUIRE_API_DATA=false
 | Data mode | Explicit Mock Data |
 
 線上驗證包括首頁、兩個季度、動畫、About、Sources、SEO files、custom 404、HTTP/1.1、HTTP/2、TLS、security headers 與 non-production hostname noindex。Custom domain 與 `workers.dev` 根目錄各連續 20 次回應 `200`。
+
+### Workers Builds Git connection
+
+| 項目 | 結果 |
+|---|---|
+| Git repository | `kyeunga25/anisonary` |
+| Production branch | `main` |
+| Build command | `npm run build` |
+| Production deploy command | `npx wrangler deploy` |
+| Non-production deploy command | `npx wrangler versions upload` |
+| Non-production branch builds | Enabled |
+| Root directory | `/` |
+
+連線已於 Cloudflare dashboard 完成。首次 non-production preview、merge 後 production deployment 與 rollback／roll-forward 仍以實際 build 和 version evidence 為驗收依據。
 
 ## Workers Builds 接入流程
 
