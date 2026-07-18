@@ -1,6 +1,8 @@
-import { defineConfig } from "vitest/config";
+/// <reference types="vitest/config" />
 
-export default defineConfig({
+import { getViteConfig } from "astro/config";
+
+export default getViteConfig({
   resolve: {
     alias: {
       "@": decodeURIComponent(new URL("./src", import.meta.url).pathname)
@@ -8,7 +10,7 @@ export default defineConfig({
   },
   test: {
     environment: "node",
-    include: ["tests/unit/**/*.test.ts"],
+    include: ["tests/{unit,components}/**/*.test.ts"],
     coverage: {
       reporter: ["text", "html"]
     }
