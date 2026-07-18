@@ -35,4 +35,23 @@ describe("home page data states", () => {
     });
     expect(JSON.stringify(result)).not.toContain("private upstream detail");
   });
+
+  it("fails the build when production requires API data", async () => {
+    const failure = new Error("production API unavailable");
+    const failingProvider: PublicDataProvider = {
+      getSeasons: async () => {
+        throw failure;
+      },
+      getSeason: async () => {
+        throw failure;
+      },
+      getAnime: async () => {
+        throw failure;
+      }
+    };
+
+    await expect(
+      loadHomePageData(failingProvider, "2026-summer", "2026-spring", true)
+    ).rejects.toBe(failure);
+  });
 });
