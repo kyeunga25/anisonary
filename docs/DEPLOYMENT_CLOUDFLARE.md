@@ -2,7 +2,7 @@
 
 本文件把 Phase 1 M8 的 repository-side 準備、外部平台設定與驗收條件分開。
 
-正式入口已由 Cloudflare Workers Static Assets 提供。原有 Pages Git project 已完成遷移用途，沒有綁定 custom domain；現列為待確認退役項目，而且 `pages.dev` 已設 `noindex`。
+正式入口已由 Cloudflare Workers Static Assets 提供。原有 Pages Git project 在 Workers preview、production、rollback 與 roll-forward 均驗證後，已於 2026-07-23 永久退役；`anisonary.pages.dev` 不再解析。
 
 ## 固定拓撲
 
@@ -19,7 +19,7 @@
 | Node | `.nvmrc` 所指定的 Node 22 |
 | Target deployment owner | Cloudflare Workers Builds Git integration |
 | GitHub Actions | Quality gate 與 build artifact，不直接部署 |
-| Retained migration artifact | `anisonary.pages.dev`，待確認刪除且現有 response 為 `noindex` |
+| Retired migration artifact | `anisonary.pages.dev`，2026-07-23 已刪除 |
 
 連接 Workers Builds 後，它是唯一自動部署來源。請勿同時加入會執行 `wrangler deploy` 的 GitHub workflow，以免同一 commit 產生競爭 deployment。`npm run cf:deploy` 只作初次接入或 break-glass 手動路徑。
 
@@ -32,10 +32,10 @@
 | DEP-003 | PR 可先驗證 | Passed | Workers Builds 以 `versions upload` 建立並通過 non-production preview |
 | DEP-004 | Production API 失敗不可發布殘缺網站 | Ready | Private API 上線時設 `ANISONARY_REQUIRE_API_DATA=true` |
 | DEP-005 | Static SEO discovery | Passed | `/robots.txt` 及 `/sitemap-index.xml` 回應 `200` |
-| DEP-006 | 非正式 hostname 不被索引 | Passed | `workers.dev` 與 `pages.dev` response 有 `X-Robots-Tag: noindex` |
-| DEP-007 | 基本 static security headers | Passed | Worker custom domain、`workers.dev`、`pages.dev` 通過 smoke |
+| DEP-006 | 非正式 hostname 不被索引 | Passed | `workers.dev` response 有 `X-Robots-Tag: noindex`；歷史 Pages fallback 退役前亦通過 |
+| DEP-007 | 基本 static security headers | Passed | Worker custom domain 與 `workers.dev` 通過 smoke；Pages 歷史 evidence 保留於下方 |
 | DEP-008 | Custom domain 與 canonical 一致 | Passed | `anisonary.k-y.cc` custom-domain route、DNS、TLS 均正常 |
-| DEP-009 | Pages fallback 不形成重複正式入口 | Passed | Pages 沒有 custom domain；Workers 驗證完成後建議刪除 Pages project |
+| DEP-009 | Pages fallback 不形成重複正式入口 | Passed | Pages 沒有 custom domain，並於 Workers 驗證完成後在 2026-07-23 刪除 |
 | DEP-010 | 可回復上一個穩定 Worker 版本 | Passed | rollback 至 `59b2269a…`、roll forward 至 `52fa8d29…` 均通過 |
 | DEP-011 | Production API contract | Documented | 私有 `anisonary-api` 實作並通過 smoke test |
 | DEP-012 | Production 數值化品質稽核 | Pending | 配置 Chrome DevTools MCP 後執行 Lighthouse／Core Web Vitals |
@@ -64,7 +64,7 @@ ANISONARY_REQUIRE_API_DATA=false
 
 ## 遷移與 production evidence
 
-### Retained Pages fallback
+### Retired Pages migration fallback
 
 | 項目 | 結果 |
 |---|---|
@@ -74,6 +74,9 @@ ANISONARY_REQUIRE_API_DATA=false
 | Upload | 51 files |
 | URL | <https://anisonary.pages.dev> |
 | Indexing | `X-Robots-Tag: noindex` |
+| Retirement | 2026-07-23 透過 Wrangler 精確刪除 `anisonary` project；刪除後 hostname 不再解析 |
+
+這一節只保留 migration evidence，不代表現行 deployment target。獨立的 `wallpect` Pages project 未被修改，刪除後仍可正常回應。
 
 ### First Workers Static Assets deployment
 
@@ -168,7 +171,7 @@ Cloudflare 的 Workers Scripts 權限以 account 為資源範圍，不能靠 tok
 6. Initial Mock build 不設 API URL，並保留 `ANISONARY_REQUIRE_API_DATA=false`。
 7. 先驗證 PR preview；merge 後驗證 `main` 自動 production deployment。
 8. 記錄新 version ID，執行 rollback 至上一個穩定版本，再 roll forward。
-9. Worker Git delivery 穩定後才決定何時退役 Pages fallback。
+9. Worker Git delivery 穩定後退役 Pages fallback；Anisonary 已於 2026-07-23 完成。
 
 ## Production smoke checklist
 
@@ -178,7 +181,7 @@ Cloudflare 的 Workers Scripts 權限以 account 為資源範圍，不能靠 tok
 - canonical、Open Graph、JSON-LD；
 - `/robots.txt`、`/sitemap-index.xml`；
 - custom domain security headers；
-- `workers.dev` 與 retained `pages.dev` 的 `X-Robots-Tag: noindex`；
+- `workers.dev` 的 `X-Robots-Tag: noindex`，以及退役的 `anisonary.pages.dev` 不再解析；
 - YouTube 按下前沒有 iframe，按下後使用 privacy-enhanced domain；
 - Initial Mock production 清楚顯示 Mock Data 提示；
 - Private API production 不再顯示 Mock Data 提示；

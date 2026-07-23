@@ -40,7 +40,7 @@
 - [x] Workers Git Builds、PR preview 與 merge 後自動 production deployment；
 - [x] Worker version rollback／roll-forward drill；
 - [ ] Private production API 接入；
-- [ ] 使用者確認後刪除已完成遷移用途的 `anisonary` Pages project。
+- [x] 使用者確認後刪除已完成遷移用途的 `anisonary` Pages project；2026-07-23 完成並驗證 Worker production 不受影響。
 
 ## Repository complete — M9 Private API handoff
 
