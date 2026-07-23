@@ -250,7 +250,7 @@ const summerAnime: PublicAnimeDetail[] = [
     broadcastTimeJst: "24:00",
     opCount: 2,
     edCount: 1,
-    hasOfficialVideo: false,
+    hasOfficialVideo: true,
     completionPercent: 94,
     officialSiteUrl: "https://mushokutensei.jp/",
     anilistUrl: "https://anilist.co/anime/178789",
@@ -280,6 +280,12 @@ const summerAnime: PublicAnimeDetail[] = [
         artist: "中島美嘉",
         sourceLabel: "動畫官方消息",
         sourceUrl: "https://mushokutensei.jp/news/260604_1/",
+        video: officialVideo(
+          "UKcJqQqiXq0",
+          "『無職転生Ⅲ ～異世界行ったら本気だす～』ノンクレジットED映像",
+          "TOHO animation チャンネル",
+          "creditless_ed"
+        ),
         extraCredits: [
           { name: "シノダ", role: "lyrics" },
           { name: "シノダ", role: "composition" }
@@ -289,6 +295,7 @@ const summerAnime: PublicAnimeDetail[] = [
     sources: [
       source("動畫官方消息：2026-07-05 起播", "https://mushokutensei.jp/news/260327_1/"),
       source("動畫官方消息：片尾曲資料", "https://mushokutensei.jp/news/260604_1/"),
+      source("動畫官方消息：片尾曲無字幕影片", "https://mushokutensei.jp/news/260713_1/"),
       source("AniList：公開圖像與作品識別", "https://anilist.co/anime/178789")
     ]
   }
