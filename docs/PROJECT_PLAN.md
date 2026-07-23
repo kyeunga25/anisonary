@@ -25,7 +25,7 @@
 7. M6：Direct／Search／Official／Purchase 平台連結分類與 external-link safety。
 8. M7：canonical／Open Graph／JSON-LD、accessible loading/error/empty states、Astro component tests、Playwright E2E 與靜態圖片最佳化。
 
-M8 已完成 repository-side Workers Static Assets／GitHub CI 配置、公開 PR merge、`main` branch protection、Workers Builds Git 連接、PR preview、merge 後自動 production deployment，以及 Worker rollback／roll-forward drill。`anisonary.k-y.cc` 已透過 Worker custom domain 上線；主要 route、SEO files、404、security headers、TLS、`workers.dev` noindex 均通過線上 smoke。原有 `anisonary` Pages project 沒有 custom domain，並已於 2026-07-23 在 Workers 驗證後永久退役；同日亦把失效的共用 build credential 換成 Anisonary 專用最小權限 token，輪替後 preview build 已通過。M9 的公開 API contract handoff 與 fail-closed frontend integration 已完成；私有 backend 實作仍是獨立接入工作。
+M8 已完成 repository-side Workers Static Assets／GitHub CI 配置、公開 PR merge、`main` branch protection、Workers Builds Git 連接、PR preview、merge 後自動 production deployment，以及 Worker rollback／roll-forward drill。`anisonary.k-y.cc` 已透過 Worker custom domain 上線；主要 route、SEO files、404、security headers、TLS、`workers.dev` noindex 均通過線上 smoke。原有 `anisonary` Pages project 沒有 custom domain，並已於 2026-07-23 在 Workers 驗證後永久退役；同日亦把失效的共用 build credential 換成 Anisonary 專用最小權限 token，輪替後 preview 與 production builds 均已通過。M9 的公開 API contract handoff 與 fail-closed frontend integration 已完成；私有 backend 實作仍是獨立接入工作。
 
 以 M0–M9 milestone 的實際交付狀態估算，目前 Phase 1 約完成 **99%**。Repository implementation、Workers delivery 與 Pages 退役已完成；剩餘 1% 是 private API 上線後 smoke，以及尚未配置工具的 Lighthouse／Core Web Vitals 數值稽核。
 

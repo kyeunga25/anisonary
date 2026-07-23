@@ -120,16 +120,17 @@ ANISONARY_REQUIRE_API_DATA=false
 
 Preview 已驗證首頁、季度頁、動畫頁、robots、sitemap、custom 404、Mock Data notice 與 security headers。Merge 後 production deployment 與 rollback／roll-forward 仍以實際 build 和 version evidence 為驗收依據。
 
-### Build Token rotation preview
+### Build Token rotation validation
 
 | 項目 | 結果 |
 |---|---|
 | Token name | `k-y.cc · Anisonary · Workers Builds` |
-| Git source | `codex/retire-pages-rotate-build-token@cebdc93` |
-| Build ID | `d4755e74-1c51-45de-b710-d52f29bd9b64` |
-| Worker version | `7b3bbd48-c57c-4f78-ba19-20110aa5ae1d` |
+| Preview source | `codex/retire-pages-rotate-build-token@cebdc93` |
+| Preview build / version | `d4755e74-1c51-45de-b710-d52f29bd9b64` / `7b3bbd48-c57c-4f78-ba19-20110aa5ae1d` |
 | Preview URL | <https://7b3bbd48-anisonary.kyeunga25.workers.dev> |
-| Result | Workers Build success；主要 routes、SEO files、custom 404、security headers 及 `X-Robots-Tag: noindex` 通過 |
+| Production source | `main@17761935` |
+| Production build / version | `e58989bc-5847-4911-a1d0-ac9a3fd1607d` / `8e98b7c3-18c7-4912-9899-a830d4125007` |
+| Result | Preview 與 production Workers Builds success；主要 routes、SEO files、custom 404、security headers 及非正式 hostname `X-Robots-Tag: noindex` 通過 |
 
 先前共用的 build credential 已失效，Anisonary 已改用 project 專用 token。Cloudflare 建立 token 時附帶的未使用產品權限已在首次 build 前移除；目前只保留 Account Settings Read、Workers Scripts Edit、Workers Routes Edit、User Details Read 及 Memberships Read，zone 只包括 `k-y.cc`。Token secret 沒有複製、輸出或保存於 repository。
 

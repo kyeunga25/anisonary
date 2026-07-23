@@ -39,7 +39,7 @@
 - [x] Custom domain、`workers.dev`、`pages.dev` 的 routes、security headers、robots、sitemap 與 404 smoke；
 - [x] Workers Git Builds、PR preview 與 merge 後自動 production deployment；
 - [x] Worker version rollback／roll-forward drill；
-- [x] 把失效的共用 build credential 換成 Anisonary 專用最小權限 token，並以 non-production preview 驗證；
+- [x] 把失效的共用 build credential 換成 Anisonary 專用最小權限 token，並以 non-production preview 與 `main` production build 驗證；
 - [ ] Private production API 接入；
 - [x] 使用者確認後刪除已完成遷移用途的 `anisonary` Pages project；2026-07-23 完成並驗證 Worker production 不受影響。
 
