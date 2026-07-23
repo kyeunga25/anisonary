@@ -97,6 +97,15 @@ Workers Builds credential rotation：
 - Version：`7b3bbd48-c57c-4f78-ba19-20110aa5ae1d`；
 - Result：Workers Build success；首頁、兩季、動畫、About、Sources、robots、sitemap 回應 `200`，未知 route 回應 `404`，security headers 與 preview noindex 生效。
 
+輪替後 production validation：
+
+- Source：`main@17761935`；
+- Build：`e58989bc-5847-4911-a1d0-ac9a3fd1607d`；
+- Version：`8e98b7c3-18c7-4912-9899-a830d4125007`；
+- GitHub `quality` 與 Workers Builds checks 均為 success；
+- `anisonary.k-y.cc` 主要 routes 與 SEO files 回應 `200`，未知 route 回應 `404`，security headers 正常；
+- `workers.dev` 回應 `200` 並帶有 `X-Robots-Tag: noindex`；`anisonary.pages.dev` 不再解析；`wallpect.k-y.cc` 維持 `200`。
+
 ## Remaining external validation
 
 - Private production API 上線後執行 network、cache 與 fail-closed production data smoke；
