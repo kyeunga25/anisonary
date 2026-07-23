@@ -12,7 +12,7 @@
 - Mock/API Provider 抽象；
 - Cloudflare Workers Static Assets 靜態部署。
 
-## 目前進度：M0–M9 repository implementation 與 M8 Workers 交付完成
+## 目前進度：Phase 1 完成；Phase 2 可追溯季度目錄開發中
 
 目前公開前端已實作：
 
@@ -31,7 +31,7 @@ M8 已完成 repository-side Workers Static Assets／GitHub CI 配置、公開 P
 
 M7 尚待配置 Chrome DevTools MCP 後補上 Core Web Vitals／Lighthouse 數值稽核；目前不虛構任何效能分數。
 
-不在本輪加入資料庫、爬蟲、帳戶、Admin Panel、AI、音訊託管或真實 production data。
+Phase 2 第一個切片加入兩季各四套經人工核對的公開資料、原圖來源、Annict／Bangumi 固定季度來源 registry、GitHub 修正表單、catalogue test 及 Workers dry-run gate。不在公開 repository 加入資料庫、爬蟲、帳戶、Admin Panel、AI 圖像、音訊託管或 private source adapter。
 
 ## Phase 1 驗收摘要
 
