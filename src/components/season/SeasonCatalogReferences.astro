@@ -1,0 +1,53 @@
+---
+import type { PublicCatalogReference } from "@/types/public-api";
+
+interface Props { references: PublicCatalogReference[]; }
+const { references } = Astro.props;
+---
+
+{references.length > 0 && (
+  <aside class="catalog-references" aria-labelledby="catalog-reference-title">
+    <div class="catalog-references__heading">
+      <div>
+        <p>Coverage reference</p>
+        <h2 id="catalog-reference-title">季度全集參考</h2>
+      </div>
+      <a href="/sources/#season-catalogs">使用規則 <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="catalog-references__grid">
+      {references.map((reference) => (
+        <article lang={reference.locale === "ja" ? "ja" : "zh-Hant"}>
+          <span>{reference.languageLabel}</span>
+          <h3>{reference.name}</h3>
+          <p>{reference.role}</p>
+          <nav aria-label={`${reference.name} 參考連結`}>
+            <a href={reference.catalogUrl} target="_blank" rel="noopener noreferrer">季度目錄 ↗</a>
+            <a href={reference.documentationUrl} target="_blank" rel="noopener noreferrer">API 文件 ↗</a>
+          </nav>
+        </article>
+      ))}
+    </div>
+    <p class="catalog-references__note">先用兩邊做全集盤點與缺口檢查；作品播出、譯名及 OP／ED 仍以官網或台港正式授權來源為準。</p>
+  </aside>
+)}
+
+<style>
+  .catalog-references { border-top: 1px solid var(--color-border-strong); margin-top: 4.5rem; padding-top: 1.5rem; }
+  .catalog-references__heading { align-items: end; display: flex; gap: 2rem; justify-content: space-between; }
+  .catalog-references__heading p { color: var(--color-accent); font-size: 0.68rem; font-weight: 760; letter-spacing: 0.12em; margin: 0; text-transform: uppercase; }
+  .catalog-references__heading h2 { font-size: clamp(1.45rem, 2.5vw, 1.9rem); margin: 0.25rem 0 0; }
+  .catalog-references__heading > a { color: var(--color-accent); font-size: 0.78rem; font-weight: 720; text-decoration: none; }
+  .catalog-references__grid { display: grid; gap: 0.85rem; grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 1.2rem; }
+  .catalog-references article { background: var(--color-surface); border: 1px solid var(--color-border-strong); border-radius: var(--radius-control); min-width: 0; padding: 1.1rem 1.2rem; }
+  .catalog-references article > span { color: var(--color-muted); font-size: 0.68rem; }
+  .catalog-references h3 { font-size: 1.05rem; margin: 0.28rem 0 0; }
+  .catalog-references article > p { color: var(--color-muted); font-size: 0.78rem; margin: 0.35rem 0 0; }
+  .catalog-references nav { display: flex; flex-wrap: wrap; gap: 1.1rem; margin-top: 0.9rem; }
+  .catalog-references nav a { color: var(--color-ink); font-size: 0.75rem; font-weight: 720; text-decoration: none; }
+  .catalog-references nav a:hover { color: var(--color-accent); }
+  .catalog-references__note { color: var(--color-muted); font-size: 0.74rem; line-height: 1.7; margin: 0.9rem 0 0; }
+
+  @media (max-width: 620px) {
+    .catalog-references__grid { grid-template-columns: 1fr; }
+  }
+</style>

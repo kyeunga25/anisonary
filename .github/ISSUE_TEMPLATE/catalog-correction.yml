@@ -1,0 +1,56 @@
+name: 動畫／主題曲資料修正
+description: 提交可由公開來源核對的季度、譯名、播出或 OP／ED 修正
+title: "資料修正："
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感謝協助校正 Anisonary。請附上動畫官網、唱片公司或其他可公開核對的來源；只提供推測的提交不會直接改動目錄。
+  - type: input
+    id: anime
+    attributes:
+      label: 動畫原文名稱
+      placeholder: 例如：幼女戦記Ⅱ
+    validations:
+      required: true
+  - type: dropdown
+    id: field
+    attributes:
+      label: 要修正的欄位
+      options:
+        - 季度／播出時間
+        - 原文／繁體中文名稱
+        - OP／ED 曲名或演唱者
+        - 作詞／作曲／編曲 Credits
+        - 官方影片／音樂連結
+        - 圖像／圖像來源
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: 建議修正
+      description: 請清楚寫出目前資料及建議改成的內容。
+      placeholder: 現在顯示……；建議改為……
+    validations:
+      required: true
+  - type: input
+    id: official_source
+    attributes:
+      label: 官方或第一方來源 URL
+      placeholder: https://...
+    validations:
+      required: true
+  - type: textarea
+    id: additional_sources
+    attributes:
+      label: 其他交叉核對來源
+      description: 繁中譯名或圖片來源可以在這裡補充。
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: 提交確認
+      options:
+        - label: 我已開啟並核對上述來源，內容不是 AI 推測或未標示的生成資料。
+          required: true

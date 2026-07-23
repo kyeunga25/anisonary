@@ -1,5 +1,6 @@
 ---
 import AnimeCard from "@/components/anime/AnimeCard.astro";
+import CatalogStatus from "@/components/common/CatalogStatus.astro";
 import ErrorState from "@/components/common/ErrorState.astro";
 import MockNotice from "@/components/common/MockNotice.astro";
 import PosterImage from "@/components/common/PosterImage.astro";
@@ -16,6 +17,7 @@ const data = await loadHomePageData(
   shouldRequireApiData()
 );
 const site = Astro.site ?? new URL("https://anisonary.k-y.cc");
+const isMockData = data.status === "ready" && Boolean(data.current?.isMockData || data.previous?.isMockData);
 ---
 
 <BaseLayout image="/assets/anisonary-hero.webp" jsonLd={buildWebsiteJsonLd(site)}>
@@ -33,7 +35,7 @@ const site = Astro.site ?? new URL("https://anisonary.k-y.cc");
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M14 7l5 5-5 5" /></svg>
         </a>
       </div>
-      <MockNotice />
+      {isMockData ? <MockNotice /> : <CatalogStatus />}
     </div>
     <div class="hero__visual">
       <img src="/assets/anisonary-hero.webp" alt="唱片從歌典中展開，樂譜連接至日本鐵路月台的原創插畫" width="1200" height="800" decoding="async" />
@@ -55,7 +57,7 @@ const site = Astro.site ?? new URL("https://anisonary.k-y.cc");
         </div>
         {data.current ? (
           <div class="home-poster-grid">
-            {data.current.anime.slice(0, 6).map((anime, index) => <AnimeCard anime={anime} eager={index < 3} variant="home" />)}
+            {data.current.anime.slice(0, 4).map((anime, index) => <AnimeCard anime={anime} eager={index < 2} variant="home" />)}
           </div>
         ) : (
           <p class="state-message">目前沒有可顯示的季度資料。</p>
@@ -133,7 +135,7 @@ const site = Astro.site ?? new URL("https://anisonary.k-y.cc");
   .section-heading h2 { font-size: clamp(1.6rem, 2.8vw, 2.2rem); margin: 0; padding-bottom: 0.75rem; }
   .section-heading a { color: var(--color-ink); font-size: 0.82rem; font-weight: 720; text-decoration: none; }
   .section-heading a:hover { color: var(--color-accent); }
-  .home-poster-grid { display: grid; gap: clamp(0.7rem, 1.4vw, 1.15rem); grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .home-poster-grid { display: grid; gap: clamp(0.8rem, 1.6vw, 1.35rem); grid-template-columns: repeat(2, minmax(0, 1fr)); }
 
   .previous-season { background: var(--color-subtle); border: 1px solid var(--color-border); border-radius: var(--radius-card); margin-top: 2.5rem; padding-block: 1rem 1.3rem; }
   .section-heading--small { margin-bottom: 1rem; }
@@ -150,7 +152,6 @@ const site = Astro.site ?? new URL("https://anisonary.k-y.cc");
 
   @media (max-width: 1100px) {
     .hero { grid-template-columns: 1fr 1fr; }
-    .home-poster-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
     .previous-season__list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .previous-season__list a:nth-child(2) { border: 0; }
   }
@@ -166,5 +167,9 @@ const site = Astro.site ?? new URL("https://anisonary.k-y.cc");
     .home-poster-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .previous-season__list { grid-template-columns: 1fr; }
     .previous-season__list a { border-bottom: 1px solid var(--color-border); border-right: 0; padding-bottom: 1rem; }
+  }
+
+  @media (max-width: 560px) {
+    .home-poster-grid { grid-template-columns: 1fr; }
   }
 </style>

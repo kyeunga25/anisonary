@@ -1,5 +1,5 @@
 import { ApiProvider } from "@/data/api-provider";
-import { MockProvider } from "@/data/mock-provider";
+import { CuratedProvider } from "@/data/curated-provider";
 import type { PublicAnimeDetail, PublicSeasonDetail, PublicSeasonSummary } from "@/types/public-api";
 
 export interface PublicDataProvider {
@@ -14,7 +14,7 @@ export function getDataProvider(): PublicDataProvider {
   if (shouldRequireApiData()) {
     throw new Error("PUBLIC_API_BASE_URL is required when production API data is enforced");
   }
-  return new MockProvider();
+  return new CuratedProvider();
 }
 
 export function shouldRequireApiData(): boolean {

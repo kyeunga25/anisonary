@@ -1,6 +1,8 @@
 ---
 import MockNotice from "@/components/common/MockNotice.astro";
+import CatalogStatus from "@/components/common/CatalogStatus.astro";
 import SeasonDirectory from "@/components/season/SeasonDirectory.astro";
+import SeasonCatalogReferences from "@/components/season/SeasonCatalogReferences.astro";
 import { getDataProvider, shouldRequireApiData } from "@/data/provider";
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import type { PublicSeasonDetail } from "@/types/public-api";
@@ -41,6 +43,7 @@ const site = Astro.site ?? new URL("https://anisonary.k-y.cc");
         <p lang="ja">{season.titleJa}</p>
         <p>按日本編輯播出日整理，共 8 個播出分組。</p>
         {season.isMockData && <MockNotice compact />}
+        {!season.isMockData && <CatalogStatus compact />}
       </div>
       <nav class="season-switcher" aria-label="切換季度">
         <a href="/seasons/2026-summer/" aria-current={season.id === "2026-summer" ? "page" : undefined}>2026 夏季</a>
@@ -48,6 +51,7 @@ const site = Astro.site ?? new URL("https://anisonary.k-y.cc");
       </nav>
     </header>
     <SeasonDirectory anime={season.anime} />
+    <SeasonCatalogReferences references={season.catalogReferences ?? []} />
   </div>
 </BaseLayout>
 
