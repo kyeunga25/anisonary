@@ -8,6 +8,19 @@ export interface PublicSeasonSummary {
   titleJa: string;
 }
 
+export interface PublicCatalogReference {
+  id: "annict" | "bangumi";
+  name: string;
+  locale: "ja" | "zh";
+  languageLabel: string;
+  role: string;
+  catalogUrl: string;
+  documentationUrl: string;
+  apiQueryUrl: string;
+  accessNote: string;
+  limitations: string;
+}
+
 export interface PublicAnimeCard {
   id: string;
   slug: string;
@@ -16,6 +29,10 @@ export interface PublicAnimeCard {
   titleRomaji?: string;
   posterUrl?: string;
   posterAlt: string;
+  bannerUrl?: string;
+  bannerAlt?: string;
+  imageSourceUrl?: string;
+  imageSourceLabel?: string;
   editorialWeekday?: number;
   broadcastTimeJst?: string;
   broadcastLabel?: string;
@@ -94,5 +111,6 @@ export interface PublicAnimeDetail extends PublicAnimeCard {
 
 export interface PublicSeasonDetail extends PublicSeasonSummary {
   anime: PublicAnimeCard[];
+  catalogReferences?: PublicCatalogReference[];
   isMockData?: boolean;
 }

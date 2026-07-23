@@ -11,6 +11,8 @@ interface Props {
 
 const { anime, eager = false, variant = "home" } = Astro.props;
 const completion = anime.completionPercent ?? 0;
+const mediaUrl = anime.bannerUrl ?? anime.posterUrl;
+const mediaAlt = anime.bannerAlt ?? anime.posterAlt;
 ---
 
 <article
@@ -23,10 +25,10 @@ const completion = anime.completionPercent ?? 0;
   <a href={`/anime/${anime.slug}/`} aria-label={`查看 ${anime.titleJa}（${anime.titleZhHant ?? anime.titleRomaji ?? "未有中文名稱"}）`}>
     <div class="anime-card__media">
       <PosterImage
-        src={anime.posterUrl}
-        alt={anime.posterAlt}
-        width={768}
-        height={1152}
+        src={mediaUrl}
+        alt={mediaAlt}
+        width={anime.bannerUrl ? 1280 : 768}
+        height={anime.bannerUrl ? 720 : 1152}
         loading={eager ? "eager" : "lazy"}
         objectPosition={variant === "directory" ? "50% 34%" : "50% 50%"}
       />
@@ -105,7 +107,7 @@ const completion = anime.completionPercent ?? 0;
   .anime-card__rail { background: var(--color-border); display: block; height: 2px; margin-top: 0.32rem; overflow: hidden; }
   .anime-card__rail span { background: var(--color-accent); display: block; height: 100%; }
 
-  :global(.anime-card--home) .anime-card__media { aspect-ratio: 1 / 1.12; }
+  :global(.anime-card--home) .anime-card__media { aspect-ratio: 16 / 9; }
   :global(.anime-card--home) .anime-card__body { min-height: 10.6rem; }
   :global(.anime-card--directory) .anime-card__media { aspect-ratio: 3 / 1.72; }
   :global(.anime-card--directory) .anime-card__body { min-height: 10.1rem; }

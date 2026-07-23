@@ -1,19 +1,80 @@
 ---
+import { buildSeasonCatalogReferences, catalogSourceDefinitions } from "@/data/catalog-sources";
 import BaseLayout from "@/layouts/BaseLayout.astro";
+
+const summerReferences = buildSeasonCatalogReferences(2026, "summer");
+const registeredSources = catalogSourceDefinitions.map((source) => ({
+  ...source,
+  reference: summerReferences.find((reference) => reference.id === source.id)
+}));
 ---
 
 <BaseLayout title="資料來源" description="Anisonary 動畫歌典的資料來源優先級與驗證原則。">
   <article class="prose page-shell">
     <h1>資料來源</h1>
-    <p>Phase 1 優先使用日本官方原始資料，並以結構化來源交叉確認名稱、季度與播出資訊。</p>
+    <p>Phase 2 的公開季度目錄以日本官方原始資料為主，並以可追溯的公開頁面交叉確認名稱、季度、播出資訊及主題曲。每筆資料保留核對日期，不把推測當作已確認事實。</p>
     <h2>來源優先級</h2>
     <ol>
       <li>動畫官方網站、唱片公司、藝人官方網站與官方 YouTube；</li>
-      <li>Annict、しょぼいカレンダー等日文結構化來源；</li>
-      <li>Bangumi 等中文名稱參考；</li>
-      <li>AniList、MusicBrainz 等國際交叉確認。</li>
+      <li>Annict 日文季度目錄與結構化資料，用作日本新番全集盤點；</li>
+      <li>Bangumi 中文條目用作缺口與別名交叉核對，台港正式出版資料才是繁中譯名依據；</li>
+      <li>AniList、MusicBrainz 等國際交叉確認及公開媒體識別。</li>
     </ol>
+    <h2 id="season-catalogs">固定季度全集參考</h2>
+    <p>每個季度頁會由同一份來源 registry 產生對應目錄連結。兩邊只負責盤點和交叉核對；網站使用 repository 內已人工審核的 snapshot，不會在 build 或使用者瀏覽時即時請求外部 API。</p>
+    <div class="source-registry">
+      {registeredSources.map((source) => (
+        <article lang={source.locale === "ja" ? "ja" : "zh-Hant"}>
+          <div class="source-registry__heading">
+            <span>{source.languageLabel}</span>
+            <strong>{source.authMode === "public-read" ? "公開讀取" : "API 需 OAuth"}</strong>
+          </div>
+          <h3>{source.name}</h3>
+          <p>{source.role}</p>
+          <dl>
+            <div>
+              <dt>核對欄位</dt>
+              <dd>{source.fields.join("、")}</dd>
+            </div>
+            <div>
+              <dt>使用限制</dt>
+              <dd>{source.limitations}</dd>
+            </div>
+          </dl>
+          {source.reference && (
+            <nav aria-label={`${source.name} 固定參考連結`}>
+              <a href={source.reference.catalogUrl} target="_blank" rel="noopener noreferrer">2026 夏季目錄 ↗</a>
+              <a href={source.documentationUrl} target="_blank" rel="noopener noreferrer">官方 API 文件 ↗</a>
+            </nav>
+          )}
+        </article>
+      ))}
+    </div>
+    <p>更新季度資料時，先取兩邊的聯集找出缺口，再逐套返回動畫官網和台港正式授權來源確認。完整查詢方式、分頁規則與繁中名稱政策記錄在 repository 的 <a href="https://github.com/kyeunga25/anisonary/blob/main/docs/DATA_SOURCES.md" target="_blank" rel="noopener noreferrer">DATA_SOURCES.md</a>。</p>
+    <h2>圖片原則</h2>
+    <p>目錄不使用 AI 生成圖片，也不從動畫官網下載後重新託管素材。目前作品圖像使用可追溯至公開媒體頁的原始作品視覺，詳情頁會顯示圖像來源；來源無法載入時只顯示無圖 fallback。</p>
     <h2>目前資料狀態</h2>
-    <p>本 repository 的 Development 頁面只顯示清楚標示的 Mock Data，不應被引用為真實動畫資料。</p>
+    <p>預設目錄收錄經人工核對的 2026 夏季與春季精選作品，最後核對日期為 2026-07-24。開發用 Mock Data 仍只保留在測試 fixture，不再是網站預設內容。</p>
+    <p>如發現播出時間、譯名、主題曲或來源需要修正，可用 <a href="https://github.com/kyeunga25/anisonary/issues/new?template=catalog-correction.yml" target="_blank" rel="noopener noreferrer">GitHub 資料修正表單</a> 提交公開來源。</p>
   </article>
 </BaseLayout>
+
+<style>
+  .source-registry { display: grid; gap: 1rem; grid-template-columns: repeat(2, minmax(0, 1fr)); margin: 1.5rem 0; }
+  .source-registry article { background: var(--color-surface); border: 1px solid var(--color-border-strong); border-radius: var(--radius-control); min-width: 0; padding: 1.2rem; }
+  .source-registry__heading { align-items: center; display: flex; gap: 0.75rem; justify-content: space-between; }
+  .source-registry__heading span { color: var(--color-muted); font-size: 0.72rem; }
+  .source-registry__heading strong { color: var(--color-accent); font-size: 0.68rem; }
+  .source-registry h3 { font-size: 1.25rem; margin: 0.35rem 0 0; }
+  .source-registry article > p { color: var(--color-muted); font-size: 0.82rem; margin: 0.4rem 0 0; }
+  .source-registry dl { border-top: 1px solid var(--color-border); display: grid; gap: 0.8rem; margin: 1rem 0 0; padding-top: 1rem; }
+  .source-registry dl div { display: grid; gap: 0.25rem; }
+  .source-registry dt { color: var(--color-muted); font-size: 0.68rem; font-weight: 720; }
+  .source-registry dd { font-size: 0.76rem; line-height: 1.65; margin: 0; }
+  .source-registry nav { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1rem; }
+  .source-registry nav a { font-size: 0.75rem; font-weight: 720; text-decoration: none; }
+
+  @media (max-width: 680px) {
+    .source-registry { grid-template-columns: 1fr; }
+  }
+</style>

@@ -14,6 +14,7 @@ import { formatBroadcastLabel, weekdayShortLabel } from "@/utils/weekday";
 interface AnimePageProps {
   anime: PublicAnimeDetail;
   season: PublicSeasonSummary;
+  isMockData: boolean;
 }
 
 export async function getStaticPaths() {
@@ -27,7 +28,7 @@ export async function getStaticPaths() {
       const anime = await Promise.all(detail.anime.map((item) => provider.getAnime(item.slug)));
       return anime.filter((item): item is PublicAnimeDetail => item !== null).map((item) => ({
         params: { slug: item.slug },
-        props: { anime: item, season }
+        props: { anime: item, season, isMockData: Boolean(detail.isMockData) }
       }));
     }));
 
@@ -39,7 +40,7 @@ export async function getStaticPaths() {
   }
 }
 
-const { anime, season } = Astro.props as AnimePageProps;
+const { anime, season, isMockData } = Astro.props as AnimePageProps;
 const seasonLabel = `${season.year} ${season.titleZhHant}`;
 const broadcastLabel = formatBroadcastLabel(anime);
 const externalReferences = [
@@ -48,7 +49,9 @@ const externalReferences = [
   anime.anilistUrl && { label: "AniList", url: anime.anilistUrl }
 ].filter((item): item is { label: string; url: string } => Boolean(item));
 const site = Astro.site ?? new URL("https://anisonary.k-y.cc");
-const isMockData = !import.meta.env.PUBLIC_API_BASE_URL?.trim();
+const catalogCorrectionUrl = new URL("https://github.com/kyeunga25/anisonary/issues/new");
+catalogCorrectionUrl.searchParams.set("template", "catalog-correction.yml");
+catalogCorrectionUrl.searchParams.set("title", `資料修正：${anime.titleJa}`);
 ---
 
 <BaseLayout
@@ -68,14 +71,24 @@ const isMockData = !import.meta.env.PUBLIC_API_BASE_URL?.trim();
     <header class:list={["anime-hero", { "anime-hero--no-poster": !anime.posterUrl }]}>
       {anime.posterUrl && (
         <figure class="anime-hero__poster">
-          <PosterImage
-            src={anime.posterUrl}
-            alt={anime.posterAlt}
-            width={768}
-            height={1152}
-            loading="eager"
-            fetchpriority="high"
-          />
+          <div class="anime-hero__poster-frame">
+            <PosterImage
+              src={anime.posterUrl}
+              alt={anime.posterAlt}
+              width={768}
+              height={1152}
+              loading="eager"
+              fetchpriority="high"
+            />
+          </div>
+          {anime.imageSourceUrl && (
+            <figcaption>
+              公開視覺來源：
+              <a href={anime.imageSourceUrl} target="_blank" rel="noopener noreferrer">
+                {anime.imageSourceLabel ?? "來源頁"}<span aria-hidden="true">↗</span>
+              </a>
+            </figcaption>
+          )}
         </figure>
       )}
 
@@ -115,7 +128,14 @@ const isMockData = !import.meta.env.PUBLIC_API_BASE_URL?.trim();
     </section>
 
     <section class="detail-section" aria-labelledby="sources-title">
-      <h2 id="sources-title">資料來源</h2>
+      <div class="detail-section__heading">
+        <h2 id="sources-title">資料來源</h2>
+        {!isMockData && (
+          <a class="correction-link" href={catalogCorrectionUrl.toString()} target="_blank" rel="noopener noreferrer">
+            回報資料問題 <span aria-hidden="true">↗</span>
+          </a>
+        )}
+      </div>
       {anime.sources.length > 0 ? <SourceList sources={anime.sources} /> : <p class="state-message">資料來源待補充。</p>}
     </section>
   </article>
@@ -128,7 +148,11 @@ const isMockData = !import.meta.env.PUBLIC_API_BASE_URL?.trim();
   .breadcrumb a:hover { text-decoration: underline; text-underline-offset: 0.22em; }
   .anime-hero { align-items: start; display: grid; gap: clamp(2rem, 5vw, 4rem); grid-template-columns: minmax(13rem, 22rem) 1fr; }
   .anime-hero--no-poster { grid-template-columns: minmax(0, 1fr); }
-  .anime-hero__poster { aspect-ratio: 2 / 3; border: 1px solid var(--color-border-strong); border-radius: var(--radius-card); margin: 0; overflow: hidden; }
+  .anime-hero__poster { margin: 0; min-width: 0; }
+  .anime-hero__poster-frame { aspect-ratio: 2 / 3; border: 1px solid var(--color-border-strong); border-radius: var(--radius-card); overflow: hidden; }
+  .anime-hero__poster figcaption { color: var(--color-muted); font-size: 0.68rem; line-height: 1.5; margin-top: 0.55rem; }
+  .anime-hero__poster figcaption a { color: var(--color-accent); text-decoration: none; }
+  .anime-hero__poster figcaption a:hover { text-decoration: underline; text-underline-offset: 0.2em; }
   .anime-hero__content { min-width: 0; padding-top: 0.2rem; }
   .anime-hero__content h1 { font-size: clamp(2.2rem, 5vw, 4.2rem); letter-spacing: -0.045em; line-height: 1.08; margin: 0; }
   .anime-hero__zh { font-size: clamp(1.35rem, 2.5vw, 2.1rem); font-weight: 760; margin: 0.65rem 0 0; }
@@ -145,8 +169,11 @@ const isMockData = !import.meta.env.PUBLIC_API_BASE_URL?.trim();
   .reference-links a + a { border-left: 1px solid var(--color-border-strong); }
   .reference-links a:hover { color: var(--color-accent); }
   .detail-section { margin-top: clamp(3.3rem, 7vw, 5.8rem); }
+  .detail-section__heading { align-items: end; display: flex; gap: 1.5rem; justify-content: space-between; }
   .detail-section h2 { font-size: clamp(1.35rem, 2.5vw, 1.75rem); margin: 0 0 1.25rem; padding-bottom: 0.65rem; position: relative; }
   .detail-section h2::after { background: var(--color-accent); bottom: 0; content: ""; height: 3px; left: 0; position: absolute; width: 4.3rem; }
+  .correction-link { color: var(--color-accent); font-size: 0.8rem; font-weight: 720; margin-bottom: 1.55rem; text-decoration: none; white-space: nowrap; }
+  .correction-link:hover { text-decoration: underline; text-underline-offset: 0.2em; }
 
   @media (max-width: 760px) {
     .anime-hero { grid-template-columns: 8rem 1fr; }
