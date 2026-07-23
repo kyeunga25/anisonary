@@ -41,7 +41,7 @@ Workers migration follow-up 使用 [PR #2 Migrate Phase 1 delivery to Cloudflare
 - `.DS_Store`；
 - `dist`、`node_modules`、Playwright reports、Wrangler local state。
 
-## Cloudflare Pages migration fallback
+## Cloudflare Pages migration fallback（已退役）
 
 - Wrangler OAuth：authenticated；
 - Pages project：`anisonary`，Git provider enabled，production branch `main`；
@@ -53,6 +53,8 @@ Workers migration follow-up 使用 [PR #2 Migrate Phase 1 delivery to Cloudflare
 - Initial environment：明確使用 Mock Data，`ANISONARY_REQUIRE_API_DATA=false`，沒有 production API URL。
 
 線上 smoke 已確認首頁、兩個季度、動畫頁、About、Sources、robots、sitemap 回應 `200`，未知 route 回應 `404`，Mock Data notice 可見，security headers 與 `pages.dev` noindex 生效。
+
+Workers preview、production 與 recovery drill 均通過後，使用者於 2026-07-23 確認永久退役。已透過 Wrangler 精確刪除 `anisonary` Pages project；刪除後 Pages 清單只保留獨立的 `wallpect` project，`anisonary.pages.dev` 不再解析，Worker custom domain、`workers.dev` 與 `wallpect.k-y.cc` 均維持 `200`。
 
 ## Cloudflare Workers gate
 
@@ -88,7 +90,6 @@ Workers Builds production 與 recovery drill：
 ## Remaining external validation
 
 - Private production API 上線後執行 network、cache 與 fail-closed production data smoke；
-- `anisonary` Pages project 已符合退役條件，待使用者確認永久刪除；
 - `chrome-devtools` MCP 尚未配置，因此未產生 Lighthouse／Core Web Vitals 數值。
 
 以上未完成項目不可標示為通過，也不以本機結果代替 production evidence。
