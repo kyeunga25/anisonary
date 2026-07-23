@@ -11,8 +11,10 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:e2e": "playwright test",
+    "catalog:check": "vitest run tests/unit/curated-catalog.test.ts tests/unit/catalog-sources.test.ts",
     "test:all": "npm test && npm run test:e2e",
-    "check": "npm run lint && npm test && npm run build && npm run test:e2e",
+    "check": "npm run lint && npm test && npm run build && npm run cf:check && npm run test:e2e",
+    "cf:check": "WRANGLER_LOG_PATH=/tmp/anisonary-wrangler-logs wrangler deploy --dry-run",
     "cf:dev": "npm run build && wrangler dev",
     "cf:preview": "npm run build && wrangler versions upload",
     "cf:deploy": "npm run build && wrangler deploy"
