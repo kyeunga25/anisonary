@@ -6,8 +6,8 @@ const { compact = false } = Astro.props;
 <aside class:list={["catalog-status", { "catalog-status--compact": compact }]} aria-label="季度資料狀態">
   <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6" /><circle cx="12" cy="12" r="10" /></svg>
   <p>
-    <strong>已核對季度目錄</strong>
-    <span>資料依日本官方頁面整理，繁中名稱另作交叉確認；最後核對 2026-07-24。</span>
+    <strong>已核對精選目錄</strong>
+    <span>本輪為每季 4 部人工收錄，資料依日本官方頁面整理；最後核對 2026-07-24。</span>
   </p>
   {!compact && <a href="/sources/">檢視來源準則 <span aria-hidden="true">→</span></a>}
 </aside>

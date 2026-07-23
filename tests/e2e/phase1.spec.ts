@@ -69,7 +69,7 @@ test("mobile season filters remain keyboard-operable", async ({ page }) => {
   await videoFilter.focus();
   await page.keyboard.press("Space");
   await expect(videoFilter).toBeChecked();
-  await expect(page.locator("[data-result-count]")).toHaveText("2");
+  await expect(page.locator("[data-result-count]")).toHaveText("3");
   await expect(page.getByRole("heading", { name: "2026 夏季動畫" })).toBeVisible();
 });
 

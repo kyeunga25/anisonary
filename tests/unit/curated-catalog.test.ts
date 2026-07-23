@@ -45,6 +45,8 @@ describe("curated public catalogue", () => {
         expect(item.lastVerifiedAt).toBe("2026-07-24");
         expect(item.sourceLabels[0]).not.toMatch(/mock/i);
       }
+
+      expect(anime.hasOfficialVideo).toBe(anime.themes.some((item) => item.videos.length > 0));
     }
   });
 
@@ -62,6 +64,18 @@ describe("curated public catalogue", () => {
       { name: "中野雅之", role: "composition" },
       { name: "中野雅之", role: "arrangement" }
     ]));
+  });
+
+  it("includes the verified Mushoku Tensei III creditless ending", () => {
+    const anime = curatedAnimeDetails.find((item) => item.slug === "mushoku-tensei-3");
+    const ending = anime?.themes.find((item) => item.id === "mushoku-tensei-3-ed-1");
+
+    expect(anime?.hasOfficialVideo).toBe(true);
+    expect(ending?.videos).toContainEqual(expect.objectContaining({
+      youtubeVideoId: "UKcJqQqiXq0",
+      type: "creditless_ed",
+      officialStatus: "official"
+    }));
   });
 
   it("returns defensive copies from the default repository provider", async () => {
