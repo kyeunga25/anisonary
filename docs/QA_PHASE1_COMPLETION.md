@@ -87,6 +87,16 @@ Workers Builds production 與 recovery drill：
 - Roll forward：`52fa8d29-763a-4110-8a77-27bed70eb5f9` at 100%，smoke 通過；
 - GitHub `quality`、Workers Builds 及 retained Cloudflare Pages checks 均為 success。
 
+Workers Builds credential rotation：
+
+- 專用 token：`k-y.cc · Anisonary · Workers Builds`；
+- 權限：Account Settings Read、Workers Scripts Edit、Workers Routes Edit、User Details Read、Memberships Read；
+- 資源：指定 Cloudflare account 及 `k-y.cc` zone，不包括 KV、R2 或其他未使用產品；
+- Preview build：`d4755e74-1c51-45de-b710-d52f29bd9b64`；
+- Source：`codex/retire-pages-rotate-build-token@cebdc93`；
+- Version：`7b3bbd48-c57c-4f78-ba19-20110aa5ae1d`；
+- Result：Workers Build success；首頁、兩季、動畫、About、Sources、robots、sitemap 回應 `200`，未知 route 回應 `404`，security headers 與 preview noindex 生效。
+
 ## Remaining external validation
 
 - Private production API 上線後執行 network、cache 與 fail-closed production data smoke；

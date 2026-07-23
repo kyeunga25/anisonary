@@ -39,6 +39,7 @@
 | DEP-010 | 可回復上一個穩定 Worker 版本 | Passed | rollback 至 `59b2269a…`、roll forward 至 `52fa8d29…` 均通過 |
 | DEP-011 | Production API contract | Documented | 私有 `anisonary-api` 實作並通過 smoke test |
 | DEP-012 | Production 數值化品質稽核 | Pending | 配置 Chrome DevTools MCP 後執行 Lighthouse／Core Web Vitals |
+| DEP-013 | Workers Builds 使用 project 專用最小權限 token | Passed | Anisonary token 只保留 5 個必要權限及 `k-y.cc` zone；輪替後 preview build 通過 |
 
 暫不加入 CSP。正式 poster、API 與媒體來源的 allowlist 尚未固定；來源契約穩定後才把 CSP 作為獨立 hardening 變更。
 
@@ -119,6 +120,19 @@ ANISONARY_REQUIRE_API_DATA=false
 
 Preview 已驗證首頁、季度頁、動畫頁、robots、sitemap、custom 404、Mock Data notice 與 security headers。Merge 後 production deployment 與 rollback／roll-forward 仍以實際 build 和 version evidence 為驗收依據。
 
+### Build Token rotation preview
+
+| 項目 | 結果 |
+|---|---|
+| Token name | `k-y.cc · Anisonary · Workers Builds` |
+| Git source | `codex/retire-pages-rotate-build-token@cebdc93` |
+| Build ID | `d4755e74-1c51-45de-b710-d52f29bd9b64` |
+| Worker version | `7b3bbd48-c57c-4f78-ba19-20110aa5ae1d` |
+| Preview URL | <https://7b3bbd48-anisonary.kyeunga25.workers.dev> |
+| Result | Workers Build success；主要 routes、SEO files、custom 404、security headers 及 `X-Robots-Tag: noindex` 通過 |
+
+先前共用的 build credential 已失效，Anisonary 已改用 project 專用 token。Cloudflare 建立 token 時附帶的未使用產品權限已在首次 build 前移除；目前只保留 Account Settings Read、Workers Scripts Edit、Workers Routes Edit、User Details Read 及 Memberships Read，zone 只包括 `k-y.cc`。Token secret 沒有複製、輸出或保存於 repository。
+
 ### First Workers Builds production and recovery drill
 
 | 項目 | 結果 |
@@ -155,8 +169,8 @@ Cloudflare 的 Workers Scripts 權限以 account 為資源範圍，不能靠 tok
 
 安全更換流程：
 
-1. 在 My Profile → API Tokens 建立或編輯上述名稱與權限的 user token；
-2. 在 Worker → Settings → Builds → API token 選擇新 token 並儲存；
+1. 在 Worker → Settings → Builds → API token 建立 project 專用 user token；
+2. 到 My Profile → API Tokens 把自動建立 token 的權限與 zone 收窄至上述範圍；
 3. 推送 non-production commit，確認 `versions upload` preview 成功；
 4. 合併後確認 `main` production deployment 成功；
 5. 完成兩層驗證後才停用、roll 或刪除舊 token。
