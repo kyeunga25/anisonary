@@ -1,4 +1,4 @@
-import { readFile } from "node:fs/promises";
+import { access, readFile } from "node:fs/promises";
 import { describe, expect, it } from "vitest";
 
 type WranglerConfig = {
@@ -22,8 +22,8 @@ type WranglerConfig = {
   };
 };
 
-const projectFile = async (relativePath: string) =>
-  readFile(new URL(`../../${relativePath}`, import.meta.url), "utf8");
+const projectPath = (relativePath: string) => new URL(`../../${relativePath}`, import.meta.url);
+const projectFile = async (relativePath: string) => readFile(projectPath(relativePath), "utf8");
 
 describe("Cloudflare Workers deployment config", () => {
   it("serves the static build with an explicit 404 and production domain", async () => {
@@ -59,5 +59,9 @@ describe("Cloudflare Workers deployment config", () => {
     expect(headers).toContain("https://:version.:project.pages.dev/*");
     expect(headers).toContain("https://:version.:subdomain.workers.dev/*");
     expect(headers).toContain("X-Robots-Tag: noindex");
+  });
+
+  it("keeps macOS Finder metadata out of public assets", async () => {
+    await expect(access(projectPath("public/.DS_Store"))).rejects.toMatchObject({ code: "ENOENT" });
   });
 });
