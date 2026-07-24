@@ -20,6 +20,10 @@ type WranglerConfig = {
   observability?: {
     enabled?: boolean;
   };
+  dependencies_instrumentation?: {
+    enabled?: boolean;
+  };
+  send_metrics?: boolean;
 };
 
 const projectPath = (relativePath: string) => new URL(`../../${relativePath}`, import.meta.url);
@@ -47,18 +51,55 @@ describe("Cloudflare Workers deployment config", () => {
         },
       ],
       observability: {
-        enabled: true,
+        enabled: false,
       },
+      dependencies_instrumentation: {
+        enabled: false,
+      },
+      send_metrics: false,
     });
     expect(config.pages_build_output_dir).toBeUndefined();
+  });
+
+  it("keeps Wrangler telemetry and error reporting disabled in deployment scripts", async () => {
+    const packageJson = JSON.parse(await projectFile("package.json")) as {
+      scripts?: Record<string, string>;
+    };
+    const cloudflareScripts = Object.entries(packageJson.scripts ?? {}).filter(([name]) =>
+      name.startsWith("cf:"),
+    );
+
+    expect(cloudflareScripts).not.toHaveLength(0);
+    for (const [, command] of cloudflareScripts) {
+      expect(command).toContain("WRANGLER_SEND_METRICS=false");
+      expect(command).toContain("WRANGLER_SEND_ERROR_REPORTS=false");
+    }
   });
 
   it("keeps Cloudflare preview hostnames out of search indexes", async () => {
     const headers = await projectFile("public/_headers");
 
-    expect(headers).toContain("https://:version.:project.pages.dev/*");
     expect(headers).toContain("https://:version.:subdomain.workers.dev/*");
     expect(headers).toContain("X-Robots-Tag: noindex");
+    expect(headers).not.toContain("pages.dev");
+  });
+
+  it("uses long-lived caching only for fingerprinted and repository assets", async () => {
+    const headers = await projectFile("public/_headers");
+
+    expect(headers).toContain("/_astro/*");
+    expect(headers).toContain("Cache-Control: public, max-age=31536000, immutable");
+    expect(headers).toContain("/assets/*");
+    expect(headers).toContain(
+      "Cache-Control: public, max-age=86400, stale-while-revalidate=604800",
+    );
+  });
+
+  it("does not disclose the current page URL to external media hosts", async () => {
+    const headers = await projectFile("public/_headers");
+
+    expect(headers).toContain("Referrer-Policy: no-referrer");
+    expect(headers).not.toContain("Referrer-Policy: strict-origin-when-cross-origin");
   });
 
   it("keeps macOS Finder metadata out of public assets", async () => {

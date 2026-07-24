@@ -5,6 +5,7 @@ import PosterImage from "@/components/common/PosterImage.astro";
 import ThemeCard from "@/components/theme/ThemeCard.astro";
 import ThemeEmptyState from "@/components/theme/ThemeEmptyState.astro";
 import { getDataProvider, shouldRequireApiData } from "@/data/provider";
+import { loadCatalogSearchData } from "@/data/page-data";
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import type { PublicAnimeDetail, PublicSeasonSummary } from "@/types/public-api";
 import { buildAnimeJsonLd } from "@/utils/seo";
@@ -20,19 +21,16 @@ interface AnimePageProps {
 export async function getStaticPaths() {
   try {
     const provider = getDataProvider();
-    const seasons = await provider.getSeasons();
-    const pages = await Promise.all(seasons.flatMap(async (season) => {
-      const detail = await provider.getSeason(season.id);
-      if (!detail) return [];
+    const data = await loadCatalogSearchData(provider, shouldRequireApiData());
+    if (data.status === "error") {
+      console.error("Anisonary anime data is unavailable; no anime pages were generated.");
+      return [];
+    }
 
-      const anime = await Promise.all(detail.anime.map((item) => provider.getAnime(item.slug)));
-      return anime.filter((item): item is PublicAnimeDetail => item !== null).map((item) => ({
-        params: { slug: item.slug },
-        props: { anime: item, season, isMockData: Boolean(detail.isMockData) }
-      }));
+    return data.entries.map(({ anime, season, isMockData }) => ({
+      params: { slug: anime.slug },
+      props: { anime, season, isMockData }
     }));
-
-    return pages.flat();
   } catch (error) {
     if (shouldRequireApiData()) throw error;
     console.error("Anisonary anime data is unavailable; no anime pages were generated.");

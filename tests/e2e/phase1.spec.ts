@@ -1,6 +1,14 @@
 import { expect, test } from "@playwright/test";
 
 test("curated catalogue flow reaches verified themes, lazy video and an official page", async ({ page, context }) => {
+  const youtubeRequests: string[] = [];
+  page.on("request", (request) => {
+    const hostname = new URL(request.url()).hostname;
+    if (hostname === "i.ytimg.com" || hostname === "www.youtube-nocookie.com") {
+      youtubeRequests.push(request.url());
+    }
+  });
+
   await context.route("https://www.youtube-nocookie.com/**", (route) =>
     route.fulfill({ status: 200, contentType: "text/html", body: "<!doctype html><title>Mock YouTube</title>" })
   );
@@ -30,9 +38,12 @@ test("curated catalogue flow reaches verified themes, lazy video and an official
 
   const player = page.locator("[data-youtube-player]").first();
   await expect(player.locator("iframe")).toHaveCount(0);
+  expect(youtubeRequests).toEqual([]);
   await player.getByRole("button", { name: /載入 YouTube 影片/ }).click();
   await expect(player.locator("iframe")).toHaveAttribute("src", /youtube-nocookie\.com/);
   await expect(player.locator("[data-youtube-frame]")).toHaveAttribute("aria-busy", "false");
+  expect(youtubeRequests.some((url) => url.includes("youtube-nocookie.com"))).toBe(true);
+  expect(youtubeRequests.some((url) => url.includes("i.ytimg.com"))).toBe(false);
 
   const platformLink = page.locator('a[href="https://nex-tone.link/GPsD8PYbf"]');
   await expect(platformLink).toHaveCount(1);
@@ -41,6 +52,39 @@ test("curated catalogue flow reaches verified themes, lazy video and an official
   const popup = await popupPromise;
   await expect(popup).toHaveURL(/nex-tone\.link\/GPsD8PYbf/);
   await popup.close();
+});
+
+test("cross-season search stays local and matches anime, songs, and artists", async ({ page }) => {
+  const externalRequests: string[] = [];
+  page.on("request", (request) => {
+    if (new URL(request.url()).origin !== "http://127.0.0.1:4321") {
+      externalRequests.push(request.url());
+    }
+  });
+
+  await page.goto("/search/");
+  await expect(page.getByRole("heading", { name: "跨季度搜尋" })).toBeVisible();
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("8");
+
+  const search = page.getByRole("searchbox", { name: "搜尋動畫或歌曲" });
+  await search.fill("ＭＹＴＨ & ＲＯＩＤ");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("2");
+  await expect(page.locator("[data-catalog-theme-count]")).toHaveText("2");
+  await expect(page.getByRole("link", { name: "幼女戦記Ⅱ" })).toBeVisible();
+  await expect(page.getByText("Why? RED induction")).toBeVisible();
+  await expect(page.getByRole("link", { name: "Re:ゼロから始める異世界生活 4th season" })).toBeVisible();
+
+  await search.fill("幼女戰記");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1");
+  await expect(page.locator("[data-catalog-theme-count]")).toHaveText("2");
+
+  await search.fill("找不到的作品名稱");
+  await expect(page.locator("[data-catalog-search-empty]")).toBeVisible();
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("0");
+
+  await search.press("Escape");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("8");
+  expect(externalRequests).toEqual([]);
 });
 
 test("season and anime pages expose canonical metadata and JSON-LD", async ({ page }) => {

@@ -1,0 +1,227 @@
+---
+import ErrorState from "@/components/common/ErrorState.astro";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getDataProvider, shouldRequireApiData } from "@/data/provider";
+import { loadCatalogSearchData } from "@/data/page-data";
+import { buildAnimeSearchText, buildThemeSearchText } from "@/utils/catalog-search";
+
+const data = await loadCatalogSearchData(getDataProvider(), shouldRequireApiData());
+const animeCount = data.status === "ready" ? data.entries.length : 0;
+const themeCount = data.status === "ready"
+  ? data.entries.reduce((total, entry) => total + entry.anime.themes.length, 0)
+  : 0;
+---
+
+<BaseLayout
+  title="跨季度搜尋｜Catalogue Search"
+  description="在瀏覽器本機搜尋 Anisonary 已核對的動畫、OP／ED 與歌手，不會傳送搜尋字詞。"
+>
+  <div class="catalog-search page-shell" data-catalog-search>
+    <header class="catalog-search__header">
+      <div>
+        <h1>跨季度搜尋</h1>
+        <p lang="en">Catalogue Search</p>
+      </div>
+      <p>搜尋已核對的動畫、OP／ED 與歌手。所有比對只在這個頁面完成，不會傳送搜尋字詞或建立查詢紀錄。</p>
+    </header>
+
+    {data.status === "error" ? (
+      <ErrorState message="搜尋目錄暫時無法取得。其他公開頁面仍可正常瀏覽。" />
+    ) : (
+      <section class="catalog-search__workspace" aria-labelledby="catalog-search-label">
+        <form class="catalog-search__form" role="search" data-catalog-search-form>
+          <label id="catalog-search-label" for="catalog-query">搜尋動畫或歌曲</label>
+          <div class="catalog-search__control">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" /><path d="m15.5 15.5 5 5" /></svg>
+            <input
+              id="catalog-query"
+              type="search"
+              placeholder="例如：幼女戦記、Blue、ReoNa"
+              maxlength="80"
+              autocomplete="off"
+              autocapitalize="off"
+              spellcheck="false"
+              aria-describedby="catalog-search-privacy catalog-search-summary"
+              data-catalog-search-input
+            />
+            <button type="button" data-catalog-search-clear disabled>清除</button>
+          </div>
+          <p id="catalog-search-privacy" class="catalog-search__privacy">
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4.5 8.5h11v8h-11v-8Z" /><path d="M7 8.5V6a3 3 0 0 1 6 0v2.5" /></svg>
+            Local-only search · 不使用 analytics，不連線至搜尋服務。
+          </p>
+        </form>
+
+        <p id="catalog-search-summary" class="catalog-search__summary" aria-live="polite">
+          顯示 <strong data-catalog-anime-count>{animeCount}</strong> 套動畫、<strong data-catalog-theme-count>{themeCount}</strong> 首主題曲
+        </p>
+
+        <p class="catalog-search__empty" data-catalog-search-empty hidden>
+          找不到符合的動畫或歌曲。可嘗試日文、繁體中文、羅馬字、歌名或歌手名稱。
+        </p>
+
+        <div class="catalog-search__results" id="catalog-search-results">
+          {data.entries.map(({ anime, season }) => (
+            <article
+              class="catalog-result"
+              data-catalog-result
+              data-anime-search={buildAnimeSearchText(anime, season)}
+            >
+              <div class="catalog-result__heading">
+                <div>
+                  <a class="catalog-result__season" href={`/seasons/${season.id}/`}>
+                    {season.year} {season.titleZhHant}
+                  </a>
+                  <h2>
+                    <a href={`/anime/${anime.slug}/`} lang="ja">{anime.titleJa}</a>
+                  </h2>
+                  {anime.titleZhHant && <p>{anime.titleZhHant}</p>}
+                  {anime.titleRomaji && <p lang="en">{anime.titleRomaji}</p>}
+                </div>
+                <a class="catalog-result__open" href={`/anime/${anime.slug}/`}>
+                  查看詳情
+                  <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h12M11 5l5 5-5 5" /></svg>
+                </a>
+              </div>
+
+              {anime.themes.length > 0 ? (
+                <ol class="theme-index" aria-label={`${anime.titleJa} 主題曲`}>
+                  {anime.themes.map((theme) => (
+                    <li data-theme-result data-theme-search={buildThemeSearchText(theme)}>
+                      <span class="theme-index__type">{theme.type}{theme.sequence}</span>
+                      <span class="theme-index__title" lang="ja">{theme.titleJa}</span>
+                      <span class="theme-index__artist">{theme.artistDisplayName}</span>
+                    </li>
+                  ))}
+                </ol>
+              ) : (
+                <p class="catalog-result__pending">主題曲資料尚待官方公布。</p>
+              )}
+            </article>
+          ))}
+        </div>
+      </section>
+    )}
+  </div>
+</BaseLayout>
+
+<script>
+  import { normalizeCatalogSearchText } from "@/utils/catalog-search";
+
+  const root = document.querySelector<HTMLElement>("[data-catalog-search]");
+
+  if (root) {
+    const form = root.querySelector<HTMLFormElement>("[data-catalog-search-form]");
+    const input = root.querySelector<HTMLInputElement>("[data-catalog-search-input]");
+    const clear = root.querySelector<HTMLButtonElement>("[data-catalog-search-clear]");
+    const results = Array.from(root.querySelectorAll<HTMLElement>("[data-catalog-result]"));
+    const animeCount = root.querySelector<HTMLElement>("[data-catalog-anime-count]");
+    const themeCount = root.querySelector<HTMLElement>("[data-catalog-theme-count]");
+    const empty = root.querySelector<HTMLElement>("[data-catalog-search-empty]");
+
+    const applySearch = () => {
+      const query = normalizeCatalogSearchText(input?.value ?? "");
+      let visibleAnime = 0;
+      let visibleThemes = 0;
+
+      results.forEach((result) => {
+        const animeMatches = query.length === 0 || (result.dataset.animeSearch ?? "").includes(query);
+        const themes = Array.from(result.querySelectorAll<HTMLElement>("[data-theme-result]"));
+        let matchingThemes = 0;
+
+        themes.forEach((theme) => {
+          const themeMatches = query.length === 0 || (theme.dataset.themeSearch ?? "").includes(query);
+          const showTheme = animeMatches || themeMatches;
+          theme.hidden = !showTheme;
+          if (showTheme) matchingThemes += 1;
+        });
+
+        const showResult = animeMatches || matchingThemes > 0;
+        result.hidden = !showResult;
+        if (showResult) {
+          visibleAnime += 1;
+          visibleThemes += matchingThemes;
+        }
+      });
+
+      if (animeCount) animeCount.textContent = String(visibleAnime);
+      if (themeCount) themeCount.textContent = String(visibleThemes);
+      if (empty) empty.hidden = visibleAnime !== 0;
+      if (clear) clear.disabled = query.length === 0;
+    };
+
+    form?.addEventListener("submit", (event) => event.preventDefault());
+    input?.addEventListener("input", applySearch);
+    input?.addEventListener("keydown", (event) => {
+      if (event.key !== "Escape" || !input.value) return;
+      input.value = "";
+      applySearch();
+    });
+    clear?.addEventListener("click", () => {
+      if (!input) return;
+      input.value = "";
+      applySearch();
+      input.focus();
+    });
+
+    root.dataset.searchReady = "true";
+  }
+</script>
+
+<style>
+  .catalog-search { padding-bottom: clamp(5rem, 10vw, 9rem); padding-top: clamp(3.2rem, 7vw, 6rem); }
+  .catalog-search__header { align-items: end; display: grid; gap: clamp(2rem, 7vw, 8rem); grid-template-columns: minmax(17rem, 0.9fr) minmax(20rem, 1.1fr); }
+  .catalog-search__header h1 { font-size: clamp(2.8rem, 6vw, 5.6rem); letter-spacing: -0.055em; line-height: 0.95; margin: 0; }
+  .catalog-search__header div > p { color: var(--color-accent); font-size: 0.78rem; font-weight: 760; letter-spacing: 0.12em; margin: 1rem 0 0; text-transform: uppercase; }
+  .catalog-search__header > p { color: var(--color-muted); font-size: clamp(1rem, 1.7vw, 1.24rem); line-height: 1.8; margin: 0; max-width: 43rem; }
+  .catalog-search__workspace { margin-top: clamp(3rem, 7vw, 6rem); }
+
+  .catalog-search__form { border-block: 1px solid var(--color-border-strong); padding-block: 1.4rem; }
+  .catalog-search__form > label { display: block; font-size: 0.78rem; font-weight: 760; margin-bottom: 0.65rem; }
+  .catalog-search__control { align-items: center; display: grid; gap: 0.8rem; grid-template-columns: auto 1fr auto; }
+  .catalog-search__control > svg { fill: none; height: 1.35rem; stroke: var(--color-muted); stroke-linecap: round; stroke-width: 1.7; width: 1.35rem; }
+  .catalog-search__control input { background: transparent; border: 0; color: var(--color-ink); font-size: clamp(1.25rem, 2.4vw, 2rem); font-weight: 650; min-width: 0; outline: 0; padding: 0.35rem 0; width: 100%; }
+  .catalog-search__control input::placeholder { color: color-mix(in srgb, var(--color-muted) 72%, transparent); }
+  .catalog-search__control button { background: transparent; border: 0; color: var(--color-accent); cursor: pointer; font-size: 0.82rem; font-weight: 720; padding: 0.7rem; }
+  .catalog-search__control button:disabled { color: var(--color-muted); cursor: default; opacity: 0.5; }
+  .catalog-search__privacy { align-items: center; color: var(--color-muted); display: flex; font-size: 0.72rem; gap: 0.45rem; margin: 0.8rem 0 0 2.15rem; }
+  .catalog-search__privacy svg { fill: none; height: 0.95rem; stroke: currentColor; stroke-width: 1.4; width: 0.95rem; }
+  .catalog-search__summary { color: var(--color-muted); font-size: 0.8rem; margin: 1.2rem 0 2.4rem; text-align: right; }
+  .catalog-search__summary strong { color: var(--color-ink); }
+  .catalog-search__empty { border-block: 1px solid var(--color-border); color: var(--color-muted); line-height: 1.8; margin: 0; padding: 3rem 0; text-align: center; }
+
+  .catalog-result { border-top: 1px solid var(--color-border-strong); padding: clamp(1.8rem, 4vw, 3.2rem) 0; }
+  .catalog-result:last-child { border-bottom: 1px solid var(--color-border-strong); }
+  .catalog-result__heading { align-items: start; display: grid; gap: 2rem; grid-template-columns: 1fr auto; }
+  .catalog-result__season { color: var(--color-accent); font-size: 0.72rem; font-weight: 760; letter-spacing: 0.06em; text-decoration: none; }
+  .catalog-result h2 { font-size: clamp(1.35rem, 2.8vw, 2.2rem); line-height: 1.25; margin: 0.55rem 0 0; }
+  .catalog-result h2 a { color: var(--color-ink); text-decoration: none; }
+  .catalog-result h2 a:hover, .catalog-result__season:hover { color: var(--color-accent); }
+  .catalog-result__heading div > p { color: var(--color-muted); font-size: 0.8rem; margin: 0.42rem 0 0; }
+  .catalog-result__open { align-items: center; border-bottom: 1px solid var(--color-ink); color: var(--color-ink); display: inline-flex; font-size: 0.8rem; font-weight: 720; gap: 0.7rem; padding: 0.45rem 0; text-decoration: none; white-space: nowrap; }
+  .catalog-result__open:hover { border-color: var(--color-accent); color: var(--color-accent); }
+  .catalog-result__open svg { fill: none; height: 1rem; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5; width: 1rem; }
+  .catalog-result__pending { color: var(--color-muted); font-size: 0.84rem; margin: 1.6rem 0 0; }
+
+  .theme-index { display: grid; list-style: none; margin: 2rem 0 0; padding: 0; }
+  .theme-index li { align-items: baseline; border-top: 1px solid var(--color-border); display: grid; gap: 1rem; grid-template-columns: 4rem minmax(12rem, 1.4fr) minmax(10rem, 1fr); padding: 0.9rem 0; }
+  .theme-index__type { color: var(--color-accent); font-size: 0.72rem; font-weight: 780; }
+  .theme-index__title { font-size: 0.9rem; font-weight: 720; }
+  .theme-index__artist { color: var(--color-muted); font-size: 0.82rem; }
+
+  @media (max-width: 720px) {
+    .catalog-search__header { align-items: start; grid-template-columns: 1fr; }
+    .catalog-search__header > p { max-width: 36rem; }
+    .catalog-search__privacy { align-items: flex-start; margin-left: 0; }
+    .catalog-search__summary { text-align: left; }
+    .catalog-result__heading { grid-template-columns: 1fr; }
+    .catalog-result__open { justify-self: start; }
+    .theme-index li { grid-template-columns: 3.2rem 1fr; }
+    .theme-index__artist { grid-column: 2; }
+  }
+
+  @media (max-width: 420px) {
+    .catalog-search__control { grid-template-columns: auto 1fr; }
+    .catalog-search__control button { grid-column: 2; justify-self: start; padding-left: 0; }
+  }
+</style>
