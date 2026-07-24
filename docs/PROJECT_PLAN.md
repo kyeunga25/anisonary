@@ -12,7 +12,7 @@
 - Mock/API Provider 抽象；
 - Cloudflare Workers Static Assets 靜態部署。
 
-## 目前進度：Phase 1 完成；Phase 2 可追溯季度目錄開發中
+## 目前進度：Phase 1 完成；Phase 2 可追溯季度目錄與 API gate 開發中
 
 目前公開前端已實作：
 
@@ -31,11 +31,11 @@ M8 已完成 repository-side Workers Static Assets／GitHub CI 配置、公開 P
 
 M7 尚待配置 Chrome DevTools MCP 後補上 Core Web Vitals／Lighthouse 數值稽核；目前不虛構任何效能分數。
 
-Phase 2 第一個切片加入兩季各四套經人工核對的公開資料、原圖來源、Annict／Bangumi 固定季度來源 registry、GitHub 修正表單、catalogue test 及 Workers dry-run gate。不在公開 repository 加入資料庫、爬蟲、帳戶、Admin Panel、AI 圖像、音訊託管或 private source adapter。
+Phase 2 第一個切片加入兩季各四套經人工核對的公開資料、原圖來源、Annict／Bangumi 固定季度來源 registry、GitHub 修正表單、catalogue test 及 Workers dry-run gate。第二個切片完成 production API 的 nested contract parsing、公開欄位淨化、URL／identity／cardinality gate、request timeout 與 production-like fixtures。兩個切片都不在公開 repository 加入資料庫、爬蟲、帳戶、Admin Panel、AI 圖像、音訊託管或 private source adapter。
 
 ## Phase 1 驗收摘要
 
-- Mock Provider 在沒有 production database 時可獨立使用；
+- 沒有 private API 時使用 repository-reviewed `CuratedProvider`；`MockProvider` 只供測試與 UI fixture；
 - `PUBLIC_API_BASE_URL` 存在時切換至私有 API Provider；
 - 兩個季度均可瀏覽；
 - 日文名稱為主、繁中為輔；
