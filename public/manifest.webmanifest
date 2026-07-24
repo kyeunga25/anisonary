@@ -1,0 +1,41 @@
+{
+  "id": "/",
+  "name": "Anisonary 動畫歌典",
+  "short_name": "Anisonary",
+  "description": "按季度與動畫，找到每一首 OP／ED 的官方入口。",
+  "lang": "zh-Hant",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fbfcff",
+  "theme_color": "#07143f",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "跨季度搜尋",
+      "short_name": "搜尋",
+      "description": "本機搜尋動畫、OP／ED 與歌手",
+      "url": "/search/"
+    },
+    {
+      "name": "2026 夏季動畫",
+      "short_name": "2026 夏季",
+      "description": "瀏覽已核對的 2026 夏季目錄",
+      "url": "/seasons/2026-summer/"
+    },
+    {
+      "name": "資料來源",
+      "short_name": "來源",
+      "description": "查看資料核對與來源準則",
+      "url": "/sources/"
+    }
+  ]
+}

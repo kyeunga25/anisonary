@@ -87,6 +87,40 @@ test("cross-season search stays local and matches anime, songs, and artists", as
   expect(externalRequests).toEqual([]);
 });
 
+test("public catalogue remains readable offline without caching personal input", async ({ page, context }) => {
+  await page.goto("/search/");
+  await expect(page.locator('link[rel="manifest"]')).toHaveAttribute("href", "/manifest.webmanifest");
+
+  const registrationScope = await page.evaluate(async () => {
+    const registration = await navigator.serviceWorker.ready;
+    return registration.scope;
+  });
+  expect(registrationScope).toBe("http://127.0.0.1:4321/");
+  await expect.poll(() => page.evaluate(() => Boolean(navigator.serviceWorker.controller))).toBe(true);
+
+  const cachedUrls = await page.evaluate(async () => {
+    const names = await caches.keys();
+    const requests = await Promise.all(names.map(async (name) => (await caches.open(name)).keys()));
+    return requests.flat().map((request) => request.url);
+  });
+  expect(cachedUrls.length).toBeGreaterThan(0);
+  expect(cachedUrls.every((url) => url.startsWith("http://127.0.0.1:4321/"))).toBe(true);
+  expect(cachedUrls.some((url) => url.includes("mock-posters"))).toBe(false);
+  expect(cachedUrls.some((url) => new URL(url).search.length > 0)).toBe(false);
+
+  await context.setOffline(true);
+  try {
+    await page.reload({ waitUntil: "domcontentloaded" });
+    await expect(page.getByRole("heading", { name: "跨季度搜尋" })).toBeVisible();
+
+    await page.goto("/not-cached-while-offline/", { waitUntil: "domcontentloaded" });
+    await expect(page.getByRole("heading", { name: "目前沒有網絡連線。" })).toBeVisible();
+    await expect(page.locator('meta[name="robots"]')).toHaveAttribute("content", "noindex, follow");
+  } finally {
+    await context.setOffline(false);
+  }
+});
+
 test("season and anime pages expose canonical metadata and JSON-LD", async ({ page }) => {
   await page.goto("/seasons/2026-summer/");
   await expect(page.locator('link[rel="canonical"]')).toHaveAttribute(

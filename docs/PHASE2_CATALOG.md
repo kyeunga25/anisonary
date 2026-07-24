@@ -62,6 +62,18 @@ Phase 2 第三個切片以 `/search/` 提供靜態、可鍵盤操作的跨季度
 
 自動化測試涵蓋跨季度完整性、安全 error state、Unicode 正規化、動畫／歌曲／歌手比對、零搜尋外傳、明確影片同意與 mobile keyboard flow。QA 證據見 [`QA_PHASE2_SEARCH_PRIVACY.md`](./QA_PHASE2_SEARCH_PRIVACY.md)。
 
+## 離線公開目錄
+
+Phase 2 第四個切片利用 Workers Static Assets 已發布的公開檔案提供有限離線閱讀，不新增 application Worker、資料庫或追蹤服務：
+
+- build 完成後依實際檔案內容產生版本化 precache，避免手動清單與網站內容脫節；
+- 只保存同源公開 route 與靜態資產，排除 test-only poster、404、query string、私人 response 及第三方媒體；
+- navigation 採 network-first，離線才退回相同 route 或繁中／英文 `/offline/` 說明頁；
+- 搜尋仍只操作 build-time HTML，不把輸入加入 URL、request 或 Cache Storage；
+- 舊版 app cache 在新 Service Worker 啟用後移除，不影響其他 origin 或其他 cache namespace。
+
+自動化測試驗證 precache 邊界、內容 revision、manifest、header、離線搜尋、fallback 與 `noindex`。QA 證據見 [`QA_PHASE2_OFFLINE_STATIC.md`](./QA_PHASE2_OFFLINE_STATIC.md)。
+
 ## 公開資料收錄政策
 
 預設目錄只接受小批次人工核對的公開資料：官方網站為主，正式繁中出版資料或公共資料庫作交叉對照，並經 catalogue test 與 PR review。私有 API 的 hostname、TLS、cache、帳戶及部署細節不在本公開 repository 記錄。

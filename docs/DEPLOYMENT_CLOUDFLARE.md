@@ -21,6 +21,8 @@ Workers Builds 是自動部署來源；repository 不另設第二套 production 
 - 正式網站只發布 build 後的靜態資產，沒有 application Worker script、D1、KV、R2、Queues 或 Analytics binding。
 - Wrangler observability、dependency instrumentation、metrics 與 error reporting 在 repository 設定中停用。
 - 搜尋在瀏覽器內完成，不使用 server endpoint、query parameter、cookie、analytics 或 persistent storage。
+- production build 產生 `/sw.js`；precache 只含無 query string 的公開同源頁面與資產，並排除測試 poster、404、私人 API response 及第三方媒體。
+- navigation 採 network-first；只有連線失敗才讀取已發布內容，Service Worker 不把使用者後續瀏覽或輸入寫入 runtime cache。
 - `_astro` 指紋資產可長期快取；repository-owned `/assets` 使用較短快取和 stale revalidation；HTML 不設長期快取。
 - 非正式 Workers preview hostname 回應 `X-Robots-Tag: noindex`。
 - 正式頁面使用 `Referrer-Policy: no-referrer`；外部海報來源只限經審核的 HTTPS origin，YouTube 只在使用者明確啟動後連線。
@@ -78,6 +80,7 @@ npm run cf:deploy
 - `X-Frame-Options`、`X-Content-Type-Options`、`Referrer-Policy`、`Permissions-Policy`；
 - preview hostname 有 `X-Robots-Tag: noindex`；
 - `_astro` 與 `/assets` 使用預期 cache policy，HTML 不被長期固定；
+- `/manifest.webmanifest` 可讀取，`/sw.js` 使用 revalidation 與根 scope；離線搜尋不產生帶 query string 的 cache key；
 - 搜尋結果沒有 remote poster request，搜尋字詞不離開瀏覽器；
 - YouTube 啟動前沒有 iframe 或 thumbnail request，啟動後使用 privacy-enhanced domain；
 - repository catalogue 顯示「已核對精選目錄」，不顯示 Mock Data notice；

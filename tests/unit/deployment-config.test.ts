@@ -93,6 +93,26 @@ describe("Cloudflare Workers deployment config", () => {
     expect(headers).toContain(
       "Cache-Control: public, max-age=86400, stale-while-revalidate=604800",
     );
+    expect(headers).toContain("/sw.js");
+    expect(headers).toContain("Cache-Control: public, max-age=0, must-revalidate");
+    expect(headers).toContain("Service-Worker-Allowed: /");
+  });
+
+  it("keeps the offline manifest public, scoped, and free of tracking endpoints", async () => {
+    const manifest = JSON.parse(await projectFile("public/manifest.webmanifest")) as {
+      lang?: string;
+      start_url?: string;
+      scope?: string;
+      shortcuts?: Array<{ url?: string }>;
+    };
+
+    expect(manifest).toMatchObject({ lang: "zh-Hant", start_url: "/", scope: "/" });
+    expect(manifest.shortcuts?.map(({ url }) => url)).toEqual([
+      "/search/",
+      "/seasons/2026-summer/",
+      "/sources/",
+    ]);
+    expect(JSON.stringify(manifest)).not.toMatch(/analytics|telemetry|account[_-]?id|database[_-]?id/i);
   });
 
   it("does not disclose the current page URL to external media hosts", async () => {

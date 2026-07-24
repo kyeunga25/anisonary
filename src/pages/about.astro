@@ -13,5 +13,8 @@ import BaseLayout from "@/layouts/BaseLayout.astro";
     <h2>第三方媒體私隱</h2>
     <p>首頁、季度頁及動畫詳情的作品圖像由已核對的 AniList media CDN 提供；瀏覽這些頁面時，瀏覽器會直接連線至該 CDN，但不傳送本頁網址。跨季度搜尋頁不載入外部作品圖像；YouTube 亦只會在按下明確同意按鈕後連線。</p>
     <p lang="en">External poster media uses a reviewed AniList CDN with no referrer. Catalogue Search loads no remote posters, and YouTube connects only after explicit consent.</p>
+    <h2>離線與本機資料</h2>
+    <p>網站可在瀏覽器保存公開的同源頁面與靜態資產，供網絡中斷時閱讀。離線快取不保存搜尋字詞、私人 API response 或第三方圖像；瀏覽器亦只在本機保存你的深淺色主題偏好。</p>
+    <p lang="en">Offline mode stores only public same-origin pages and static assets. Search terms, private API responses, and third-party media are not cached.</p>
   </article>
 </BaseLayout>

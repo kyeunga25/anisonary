@@ -10,5 +10,12 @@
 /assets/*
   Cache-Control: public, max-age=86400, stale-while-revalidate=604800
 
+/sw.js
+  Cache-Control: public, max-age=0, must-revalidate
+  Service-Worker-Allowed: /
+
+/manifest.webmanifest
+  Cache-Control: public, max-age=86400
+
 https://:version.:subdomain.workers.dev/*
   X-Robots-Tag: noindex
