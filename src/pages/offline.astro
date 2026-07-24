@@ -1,0 +1,67 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="離線閱讀｜Offline"
+  description="網絡中斷時，繼續閱讀已儲存的 Anisonary 公開目錄。"
+  noIndex
+>
+  <section class="offline-state page-shell" aria-labelledby="offline-title">
+    <div class="offline-state__mark" aria-hidden="true">
+      <svg viewBox="0 0 64 64">
+        <circle cx="25" cy="27" r="17" />
+        <circle cx="25" cy="27" r="4" />
+        <path d="M35 20c7-4 13-4 18-2v27c-5-2-11-2-18 2V20Z" />
+        <path d="m10 52 44-40" class="offline-state__slash" />
+      </svg>
+    </div>
+    <div class="offline-state__copy">
+      <h1 id="offline-title">目前沒有網絡連線。</h1>
+      <p>你仍可閱讀這部裝置已儲存的公開動畫與主題曲頁面。重新連線後，網站會優先取得最新內容。</p>
+      <p lang="en">You are offline. Previously stored public catalogue pages remain available, and fresh content is preferred when the connection returns.</p>
+      <div class="offline-state__actions">
+        <a class="button button--primary" href="/">返回首頁</a>
+        <a class="button button--outline" href="/search/">開啟離線搜尋</a>
+      </div>
+      <p class="offline-state__privacy">只保存公開同源內容，不保存搜尋字詞、私人 API response 或第三方媒體。</p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .offline-state {
+    align-items: center;
+    display: grid;
+    gap: clamp(2.5rem, 8vw, 8rem);
+    grid-template-columns: minmax(12rem, 0.65fr) minmax(18rem, 1.35fr);
+    min-height: calc(100vh - 12rem);
+    padding-block: clamp(4rem, 10vw, 8rem);
+  }
+
+  .offline-state__mark {
+    color: var(--color-accent);
+    width: min(100%, 20rem);
+  }
+
+  .offline-state__mark svg {
+    fill: none;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2.2;
+  }
+
+  .offline-state__mark circle:nth-child(2) { fill: currentColor; stroke: none; }
+  .offline-state__slash { stroke: var(--color-ink); stroke-width: 3; }
+  .offline-state__copy { max-width: 48rem; }
+  .offline-state h1 { font-size: clamp(2.7rem, 7vw, 5.8rem); letter-spacing: -0.055em; line-height: 0.98; margin: 0 0 2rem; }
+  .offline-state p { color: var(--color-muted); line-height: 1.9; margin: 0.8rem 0 0; }
+  .offline-state__actions { display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: 2.2rem; }
+  .offline-state__privacy { border-top: 1px solid var(--color-border); font-size: 0.78rem; margin-top: 2.8rem !important; padding-top: 1.2rem; }
+
+  @media (max-width: 720px) {
+    .offline-state { align-items: start; grid-template-columns: 1fr; min-height: auto; }
+    .offline-state__mark { width: 9rem; }
+  }
+</style>

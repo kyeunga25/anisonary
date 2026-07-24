@@ -6,7 +6,10 @@ export default defineConfig({
   output: "static",
   integrations: [
     sitemap({
-      filter: (page) => !new URL(page).pathname.startsWith("/404")
+      filter: (page) => {
+        const pathname = new URL(page).pathname;
+        return !pathname.startsWith("/404") && !pathname.startsWith("/offline");
+      }
     })
   ],
   build: {
