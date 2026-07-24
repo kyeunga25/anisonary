@@ -32,6 +32,18 @@ E2E 覆蓋跨季度搜尋、全形輸入、同一歌手多作品、繁中動畫�
 - Media consent：點擊前沒有 iframe 或 YouTube thumbnail，點擊後只建立 `www.youtube-nocookie.com` iframe；
 - Browser console：0 error／warning。
 
+## Production validation
+
+2026-07-25（Asia/Hong_Kong）完成公開 v0.2.0 驗收：
+
+- PR #8 的 GitHub `quality` 與 Cloudflare preview build checks 通過後才合併至 `main`；
+- `npm run cf:deploy` 成功發布 48 個 Static Assets，沒有 application binding；公開記錄不保存平台部署或版本識別碼；
+- 首頁、搜尋、兩個季度、動畫詳情、About、Sources、robots 及 sitemap 回應 `200`，未知 route 回應 `404`；
+- custom domain 回應 `X-Frame-Options: DENY`、`X-Content-Type-Options: nosniff`、`Referrer-Policy: no-referrer` 及最小化的 `Permissions-Policy`；
+- HTML 使用 revalidation，`/_astro` 指紋資產使用 immutable 長期快取，repository-owned `/assets` 使用一天快取及一週 stale revalidation；
+- production browser 在 1280px 顯示 8 套動畫與 17 首主題曲，搜尋全形 `ＭＹＴＨ & ＲＯＩＤ` 後為 2 套／2 首；搜尋頁 remote image count 與 console error／warning 均為 0；
+- 390 × 844 production viewport 的 document width 與 scroll width 同為 390px，標題、搜尋控制及結果均正常顯示。
+
 ## Security and privacy boundary
 
 - UI 不使用 `innerHTML` 處理搜尋字詞，只切換預先產生元素的 `hidden` state；
