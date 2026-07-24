@@ -26,7 +26,7 @@ npm run check
 ## Data providers
 
 - With no `PUBLIC_API_BASE_URL`, the site uses the repository's reviewed `CuratedProvider` records.
-- When `PUBLIC_API_BASE_URL` is set, `ApiProvider` requests the private read-only Anisonary API.
+- When `PUBLIC_API_BASE_URL` is set, `ApiProvider` requests the private read-only Anisonary API through a fail-closed nested contract, URL, identity and timeout gate.
 - `MockProvider` remains available only for isolated tests and UI fixtures.
 - Copy `.env.example` to `.env` for local configuration. Never commit secrets.
 

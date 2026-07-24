@@ -55,15 +55,17 @@ PUBLIC_TIMEZONE=Asia/Tokyo
 ANISONARY_REQUIRE_API_DATA=true
 ```
 
-在 API 尚未可用的 initial production／preview，把 `PUBLIC_API_BASE_URL` 留空及使用：
+在 private API 尚未可用的 production／preview，把 `PUBLIC_API_BASE_URL` 留空，由 repository-reviewed `CuratedProvider` 提供可追溯目錄，並使用：
 
 ```text
 ANISONARY_REQUIRE_API_DATA=false
 ```
 
-`ANISONARY_REQUIRE_API_DATA=true` 會令任何必要 API request failure 終止 build，避免殘缺版本取代 production。未接入 private API 前必須保留明確 Mock Data notice。公開唯讀 API 契約不要求前端 secret；任何未來 build secret 只可存於 Cloudflare，不得 commit。
+`ANISONARY_REQUIRE_API_DATA=true` 會令任何必要 API request failure 終止 build，避免殘缺版本取代 production。現時未接入 private API 的網站必須顯示「已核對精選目錄」狀態；`MockProvider` 只供測試與 UI fixture，不可成為 production fallback。公開唯讀 API 契約不要求前端 secret；任何未來 build secret 只可存於 Cloudflare，不得 commit。
 
 ## 遷移與 production evidence
+
+以下 Mock Data 記錄是 Phase 1 初次部署與遷移的歷史 evidence；現行預設資料來源已改為 repository-reviewed `CuratedProvider`，不得把歷史狀態當作目前 production data mode。
 
 ### Retired Pages migration fallback
 
@@ -183,7 +185,7 @@ Cloudflare 的 Workers Scripts 權限以 account 為資源範圍，不能靠 tok
 3. Production branch 設為 `main`，build command 設 `npm run build`。
 4. Production deploy command 使用 `npx wrangler deploy`。
 5. 啟用 non-production branch builds，deploy command 使用 `npx wrangler versions upload`。
-6. Initial Mock build 不設 API URL，並保留 `ANISONARY_REQUIRE_API_DATA=false`。
+6. Repository catalogue build 不設 API URL，並保留 `ANISONARY_REQUIRE_API_DATA=false`；頁面顯示「已核對精選目錄」。
 7. 先驗證 PR preview；merge 後驗證 `main` 自動 production deployment。
 8. 記錄新 version ID，執行 rollback 至上一個穩定版本，再 roll forward。
 9. Worker Git delivery 穩定後退役 Pages fallback；Anisonary 已於 2026-07-23 完成。
@@ -198,8 +200,8 @@ Cloudflare 的 Workers Scripts 權限以 account 為資源範圍，不能靠 tok
 - custom domain security headers；
 - `workers.dev` 的 `X-Robots-Tag: noindex`，以及退役的 `anisonary.pages.dev` 不再解析；
 - YouTube 按下前沒有 iframe，按下後使用 privacy-enhanced domain；
-- Initial Mock production 清楚顯示 Mock Data 提示；
-- Private API production 不再顯示 Mock Data 提示；
+- Repository catalogue production 清楚顯示「已核對精選目錄」，不顯示 Mock Data 提示；
+- Private API production 同樣不得顯示 Mock Data 提示；
 - fail-closed 測試 deployment 失敗時現有 production 不被取代；
 - 遠端 poster failure fallback 與 Lighthouse／Core Web Vitals。
 

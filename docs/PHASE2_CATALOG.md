@@ -34,6 +34,18 @@ Phase 2 先建立一個可公開審核的真實資料切片，而不是把 crawl
 - GitHub Actions 先完成型別、目錄、瀏覽器及 production build 檢查；
 - `npm run cf:check` 以 `wrangler deploy --dry-run` 驗證同一份 Workers Static Assets 設定，但不部署；Wrangler diagnostic log 只寫入暫存目錄。
 
+## Private API 接入 gate
+
+Phase 2 第二個切片完成前端的 production API contract boundary：
+
+- `ApiProvider` 對 response 做 nested parsing，不再信任 top-level cast；
+- 只保留 `Public*` 契約欄位，backend 額外 metadata 不會進入頁面資料；
+- base URL、公開 URL、ID／slug、ISO 日期、array cardinality、OP／ED count 及 list/detail identity 全部 fail closed；
+- build request 有 10 秒 timeout、禁止 redirect，並檢查 JSON content type；
+- repository 內兩季與八套 reviewed records 全部作 production-like response fixtures，另有不安全 URL、identity drift、重複資料、非 JSON、404 及 stalled request 測試。
+
+完整 backend handoff 見 [`API_HANDOFF.md`](./API_HANDOFF.md)。此切片只加固公開 read-only boundary，沒有把 private API、crawler、資料庫或 secret 加入 repository。
+
 ## 後續擴充
 
-新增作品時沿用小批次人工核對：官方網站為主，正式繁中出版資料或公共資料庫作交叉對照，最後經 catalogue test 與 PR review 才進入預設目錄。私有 API 日後仍可透過既有 `ApiProvider` 接管 production data。
+新增作品時沿用小批次人工核對：官方網站為主，正式繁中出版資料或公共資料庫作交叉對照，最後經 catalogue test 與 PR review 才進入預設目錄。私有 API 日後仍可透過已加固的 `ApiProvider` 接管 production data；正式切換前仍需完成 API hostname、TLS、cache policy 及 Cloudflare Workers Builds network smoke。
