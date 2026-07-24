@@ -44,3 +44,14 @@ E2E 覆蓋 Service Worker 註冊、只含同源公開 URL 的 cache、零 query 
 ## Delivery record boundary／交付記錄邊界
 
 公開文件只會在 GitHub checks、production deployment 與正式 route smoke 完成後補上通過狀態；不記錄平台帳戶識別碼、資料庫識別碼、非公開資源名稱、部署版本識別碼、憑證或營運資料。
+
+## Production validation
+
+2026-07-25（Asia/Hong_Kong）完成公開 v0.3.0 驗收：
+
+- PR #10 的 GitHub `quality` 與 Cloudflare preview build checks 通過後才合併至 `main`；
+- 由合併後 `main` 重新 build 16 個靜態頁面，`npm run cf:check` 確認 52 個 Static Assets 及 0 bindings，然後完成明確手動發布；
+- 首頁、離線頁、搜尋、兩個季度、動畫詳情、About、Sources、robots、sitemap、manifest 及 Service Worker 均回應 `200`，未知 route 回應 `404`；
+- `/sw.js` 使用 revalidation、`Service-Worker-Allowed: /` 與 JavaScript content type；manifest 使用 `application/manifest+json` 及一天 public cache；
+- 正式 Service Worker 維持 same-origin gate，沒有 test poster 或 runtime `cache.put`；`/offline/` 不在 sitemap，並帶 `noindex, follow`；
+- 正式回應保留 `X-Frame-Options: DENY`、`X-Content-Type-Options: nosniff`、`Referrer-Policy: no-referrer` 及最小化 `Permissions-Policy`。
