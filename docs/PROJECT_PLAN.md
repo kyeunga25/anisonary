@@ -16,6 +16,7 @@
 
 - **v0.1.x**：季度與動畫詳情頁、OP／ED credits、來源、平台連結、深淺色主題、SEO、無障礙狀態及 Workers Static Assets delivery；
 - **v0.2.0**：可追溯精選目錄、加固的公開 API contract boundary、跨季度本機搜尋，以及 YouTube 明確同意與 `no-referrer` 媒體私隱設定；
+- **v0.3.0**：私隱邊界明確的離線目錄、繁中 Web App Manifest，以及 build-time 同源靜態 precache；不加入 application Worker 或 stateful binding；
 - 正式網站使用 custom domain；非正式 Cloudflare hostname 不在公開文檔記錄；
 - 私有 backend、資料庫、crawler、帳戶設定、憑證與內部規則不屬於本公開 repository。
 
@@ -37,5 +38,6 @@
 - Production 可用 `ANISONARY_REQUIRE_API_DATA=true` fail closed，避免殘缺靜態網站被發布；
 - Hero 與 Mock posters 使用尺寸化 WebP，五項資產合計減少約 93.4%；
 - 不包含 secret、真實 DB dump 或 private crawler code。
+- 離線功能只保存 build 已公開的同源靜態內容，不保存搜尋輸入、query string、私人 API response 或第三方媒體。
 
 GitHub／Cloudflare 接入與驗收見 `docs/DEPLOYMENT_CLOUDFLARE.md`；API handoff 見 `docs/API_HANDOFF.md`。
