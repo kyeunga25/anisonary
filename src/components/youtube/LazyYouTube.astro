@@ -1,13 +1,12 @@
 ---
 import type { PublicVideo } from "@/types/public-api";
-import { videoTypeLabel, youtubeEmbedUrl, youtubeThumbnailUrl, youtubeWatchUrl } from "@/utils/youtube";
+import { videoTypeLabel, youtubeEmbedUrl, youtubeWatchUrl } from "@/utils/youtube";
 
 interface Props { video: PublicVideo; }
 const { video } = Astro.props;
-const thumbnailUrl = youtubeThumbnailUrl(video.youtubeVideoId);
 const embedUrl = youtubeEmbedUrl(video.youtubeVideoId);
 const watchUrl = youtubeWatchUrl(video.youtubeVideoId);
-const canEmbed = video.embeddable && thumbnailUrl && embedUrl;
+const canEmbed = video.embeddable && embedUrl;
 ---
 
 <div class:list={["youtube-media", { "youtube-media--fallback": !canEmbed }]} data-youtube-player>
@@ -22,9 +21,11 @@ const canEmbed = video.embeddable && thumbnailUrl && embedUrl;
           data-video-title={video.title}
           aria-label={`載入 YouTube 影片：${video.title}`}
         >
-          <img src={thumbnailUrl} alt="" width="480" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+          <span class="youtube-media__privacy-art" aria-hidden="true">
+            <svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="42" /><circle cx="60" cy="60" r="7" /><path d="M21 48h18M81 72h18M31 84l13-13M76 44l13-13" /></svg>
+          </span>
           <span class="youtube-media__play" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="m20 15 14 9-14 9V15Z" /></svg></span>
-          <span class="youtube-media__consent">影片載入後才連線至 YouTube</span>
+          <span class="youtube-media__consent">按下後才連線至 YouTube · No request before consent</span>
         </button>
       </div>
       <p class="sr-only" aria-live="polite" data-youtube-status></p>
@@ -69,7 +70,7 @@ const canEmbed = video.embeddable && thumbnailUrl && embedUrl;
       iframe.title = `YouTube 影片：${title}`;
       iframe.loading = "lazy";
       iframe.allow = "accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
-      iframe.referrerPolicy = "strict-origin-when-cross-origin";
+      iframe.referrerPolicy = "no-referrer";
       iframe.setAttribute("allowfullscreen", "");
       iframe.addEventListener("load", () => {
         frame.setAttribute("aria-busy", "false");
@@ -85,10 +86,11 @@ const canEmbed = video.embeddable && thumbnailUrl && embedUrl;
   .youtube-media__layout { align-items: center; display: grid; gap: clamp(1.3rem, 4vw, 3rem); grid-template-columns: minmax(18rem, 1.05fr) minmax(15rem, 1.55fr); }
   .youtube-media__frame { aspect-ratio: 16 / 9; background: var(--color-ink); border-radius: var(--radius-control); overflow: hidden; }
   .youtube-media__frame :global(iframe) { border: 0; height: 100%; width: 100%; }
-  .youtube-media__load { background: var(--color-ink); border: 0; color: #fff; cursor: pointer; height: 100%; overflow: hidden; padding: 0; position: relative; width: 100%; }
-  .youtube-media__load::after { background: linear-gradient(180deg, transparent 40%, rgba(2, 8, 28, 0.72)); content: ""; inset: 0; position: absolute; }
-  .youtube-media__load img { height: 100%; object-fit: cover; opacity: 0.86; transition: opacity 160ms ease, transform 220ms ease; width: 100%; }
-  .youtube-media__load:hover img { opacity: 1; transform: scale(1.015); }
+  .youtube-media__load { background: linear-gradient(145deg, #07143f, #15265b); border: 0; color: #fff; cursor: pointer; height: 100%; overflow: hidden; padding: 0; position: relative; width: 100%; }
+  .youtube-media__load::after { background: linear-gradient(180deg, transparent 35%, rgba(2, 8, 28, 0.76)); content: ""; inset: 0; position: absolute; }
+  .youtube-media__privacy-art { display: grid; inset: 0; opacity: 0.42; place-items: center; position: absolute; transition: opacity 160ms ease, transform 220ms ease; }
+  .youtube-media__privacy-art svg { fill: none; height: min(58%, 9rem); stroke: rgba(255, 255, 255, 0.8); stroke-linecap: round; stroke-width: 1.5; width: min(58%, 9rem); }
+  .youtube-media__load:hover .youtube-media__privacy-art { opacity: 0.62; transform: scale(1.025); }
   .youtube-media__play { align-items: center; background: color-mix(in srgb, var(--color-ink) 82%, transparent); border: 2px solid #fff; border-radius: 50%; display: flex; height: 4.5rem; inset: 50% auto auto 50%; justify-content: center; position: absolute; transform: translate(-50%, -50%); width: 4.5rem; z-index: 1; }
   .youtube-media__play svg { fill: #fff; height: 2.2rem; stroke: none; width: 2.2rem; }
   .youtube-media__consent { bottom: 1rem; font-size: 0.74rem; font-weight: 680; left: 1rem; position: absolute; right: 1rem; text-align: center; z-index: 1; }
@@ -110,7 +112,7 @@ const canEmbed = video.embeddable && thumbnailUrl && embedUrl;
   }
 
   @media (prefers-reduced-motion: reduce) {
-    .youtube-media__load img { transition: none; }
-    .youtube-media__load:hover img { transform: none; }
+    .youtube-media__privacy-art { transition: none; }
+    .youtube-media__load:hover .youtube-media__privacy-art { transform: none; }
   }
 </style>

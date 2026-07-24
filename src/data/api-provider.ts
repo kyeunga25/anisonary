@@ -14,6 +14,7 @@ import type {
 
 const DEFAULT_TIMEOUT_MS = 10_000;
 const MAX_TIMEOUT_MS = 60_000;
+const MAX_RESPONSE_BYTES = 4 * 1024 * 1024;
 const MAX_TEXT_LENGTH = 500;
 const seasonIdPattern = /^\d{4}-(winter|spring|summer|fall)$/;
 const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -41,6 +42,19 @@ const linkTypes = [
 ] as const;
 const linkRegions = ["JP", "HK", "TW", "GLOBAL", "UNKNOWN"] as const;
 const animeStatuses = ["upcoming", "airing", "finished", "unknown"] as const;
+const allowedImageOrigins = new Set(["https://s4.anilist.co"]);
+const catalogReferenceOrigins = {
+  annict: {
+    catalogUrl: "https://annict.com",
+    documentationUrl: "https://docs.annict.com",
+    apiQueryUrl: "https://api.annict.com"
+  },
+  bangumi: {
+    catalogUrl: "https://bgm.tv",
+    documentationUrl: "https://bangumi.github.io",
+    apiQueryUrl: "https://api.bgm.tv"
+  }
+} as const;
 
 class ContractError extends Error {}
 
@@ -108,6 +122,16 @@ function optionalHttpsUrl(value: unknown): string | undefined {
   return value === undefined ? undefined : httpsUrl(value);
 }
 
+function imageHttpsUrl(value: unknown): string {
+  const candidate = httpsUrl(value);
+  if (!allowedImageOrigins.has(new URL(candidate).origin)) invalidContract();
+  return candidate;
+}
+
+function optionalImageHttpsUrl(value: unknown): string | undefined {
+  return value === undefined ? undefined : imageHttpsUrl(value);
+}
+
 function iso8601(value: unknown): string {
   const candidate = text(value, 40);
   const [year, month, day] = candidate.slice(0, 10).split("-").map(Number);
@@ -156,15 +180,28 @@ function parseSeasonSummary(value: unknown): PublicSeasonSummary {
 
 function parseCatalogReference(value: unknown): PublicCatalogReference {
   const item = record(value);
+  const id = oneOf(item.id, ["annict", "bangumi"] as const);
+  const catalogUrl = httpsUrl(item.catalogUrl);
+  const documentationUrl = httpsUrl(item.documentationUrl);
+  const apiQueryUrl = httpsUrl(item.apiQueryUrl);
+  const expectedOrigins = catalogReferenceOrigins[id];
+  if (
+    new URL(catalogUrl).origin !== expectedOrigins.catalogUrl ||
+    new URL(documentationUrl).origin !== expectedOrigins.documentationUrl ||
+    new URL(apiQueryUrl).origin !== expectedOrigins.apiQueryUrl
+  ) {
+    invalidContract();
+  }
+
   return {
-    id: oneOf(item.id, ["annict", "bangumi"] as const),
+    id,
     name: text(item.name),
     locale: oneOf(item.locale, ["ja", "zh"] as const),
     languageLabel: text(item.languageLabel),
     role: text(item.role, 1_000),
-    catalogUrl: httpsUrl(item.catalogUrl),
-    documentationUrl: httpsUrl(item.documentationUrl),
-    apiQueryUrl: httpsUrl(item.apiQueryUrl),
+    catalogUrl,
+    documentationUrl,
+    apiQueryUrl,
     accessNote: text(item.accessNote, 1_000),
     limitations: text(item.limitations, 1_000)
   };
@@ -184,8 +221,8 @@ function parseAnimeCard(value: unknown): PublicAnimeCard {
 
   const titleZhHant = optionalText(item.titleZhHant);
   const titleRomaji = optionalText(item.titleRomaji);
-  const posterUrl = optionalHttpsUrl(item.posterUrl);
-  const bannerUrl = optionalHttpsUrl(item.bannerUrl);
+  const posterUrl = optionalImageHttpsUrl(item.posterUrl);
+  const bannerUrl = optionalImageHttpsUrl(item.bannerUrl);
   const bannerAlt = optionalText(item.bannerAlt, 1_000);
   const imageSourceUrl = optionalHttpsUrl(item.imageSourceUrl);
   const imageSourceLabel = optionalText(item.imageSourceLabel);
@@ -365,15 +402,38 @@ function normalizeBaseUrl(value: string): string {
   return parsed.href.replace(/\/$/, "");
 }
 
-async function readJson(response: Response): Promise<unknown> {
+async function readJson(response: Response, maxResponseBytes: number): Promise<unknown> {
   if (!response.ok) throw new Error(`Anisonary API request failed (${response.status})`);
   const contentType = response.headers.get("content-type")?.toLowerCase() ?? "";
   if (!/^(?:application\/json|[^;\s]+\/[^;\s]+\+json)(?:\s*;|$)/.test(contentType)) {
     throw new Error("Anisonary API returned an invalid content type");
   }
+  const declaredLength = Number(response.headers.get("content-length"));
+  if (Number.isFinite(declaredLength) && declaredLength > maxResponseBytes) {
+    throw new Error("Anisonary API response is too large");
+  }
+
+  const reader = response.body?.getReader();
+  if (!reader) throw new Error("Anisonary API returned invalid JSON");
+
+  const decoder = new TextDecoder();
+  let bytesRead = 0;
+  let body = "";
   try {
-    return await response.json();
-  } catch {
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      bytesRead += value.byteLength;
+      if (bytesRead > maxResponseBytes) {
+        await reader.cancel();
+        throw new Error("Anisonary API response is too large");
+      }
+      body += decoder.decode(value, { stream: true });
+    }
+    body += decoder.decode();
+    return JSON.parse(body) as unknown;
+  } catch (error) {
+    if (error instanceof Error && error.message === "Anisonary API response is too large") throw error;
     throw new Error("Anisonary API returned invalid JSON");
   }
 }
@@ -381,19 +441,29 @@ async function readJson(response: Response): Promise<unknown> {
 export interface ApiProviderOptions {
   fetch?: typeof fetch;
   timeoutMs?: number;
+  maxResponseBytes?: number;
 }
 
 export class ApiProvider implements PublicDataProvider {
   private readonly baseUrl: string;
   private readonly fetchImpl: typeof fetch;
   private readonly timeoutMs: number;
+  private readonly maxResponseBytes: number;
 
   constructor(baseUrl: string, options: ApiProviderOptions = {}) {
     this.baseUrl = normalizeBaseUrl(baseUrl);
     this.fetchImpl = options.fetch ?? globalThis.fetch;
     this.timeoutMs = options.timeoutMs ?? DEFAULT_TIMEOUT_MS;
+    this.maxResponseBytes = options.maxResponseBytes ?? MAX_RESPONSE_BYTES;
     if (!Number.isInteger(this.timeoutMs) || this.timeoutMs < 1 || this.timeoutMs > MAX_TIMEOUT_MS) {
       throw new Error("Anisonary API has an invalid request timeout");
+    }
+    if (
+      !Number.isInteger(this.maxResponseBytes) ||
+      this.maxResponseBytes < 1 ||
+      this.maxResponseBytes > MAX_RESPONSE_BYTES
+    ) {
+      throw new Error("Anisonary API has an invalid response size limit");
     }
   }
 
@@ -413,7 +483,7 @@ export class ApiProvider implements PublicDataProvider {
         throw new Error("Anisonary API request failed");
       }
       if (allowNotFound && response.status === 404) return null;
-      return await readJson(response);
+      return await readJson(response, this.maxResponseBytes);
     } finally {
       clearTimeout(timeout);
     }

@@ -2,113 +2,53 @@
 
 記錄日期：2026-07-19（Asia/Hong_Kong）
 
-## Local gate
+本文件只保留可公開的完成證據；非公開基礎設施、憑證和私有營運資料不會保存在公開 repository。
 
-Repository gate 已執行；Chromium 因 macOS sandbox 拒絕 Mach port 而無法在受限 process 內啟動，因此 Playwright 按同一 commit 在允許瀏覽器啟動的環境重跑：
+## Local gate／本機驗收
 
-- Astro／TypeScript：49 files，0 errors、0 warnings、0 hints；
-- Unit／component：9 test files，33 tests passed；
-- Static build：38 pages；
-- Playwright：6 tests passed；
-- broken remote poster、API error、404、mobile filter、SEO／JSON-LD、YouTube lazy-load 主流程均有 browser coverage。
+- Astro／TypeScript：0 errors、0 warnings、0 hints；
+- Unit／component tests：passed；
+- Static build：passed；
+- Chromium Playwright：passed；
+- broken remote poster、API error、404、mobile filter、SEO／JSON-LD、YouTube consent flow 均有 browser coverage。
 
 Production data guard 另行驗證：
 
-- `ANISONARY_REQUIRE_API_DATA=true` 且沒有 `PUBLIC_API_BASE_URL`：build 按預期失敗；
-- API URL 無法連線：build 按預期失敗；
-- 預設 Mock／preview 模式：build 成功且不暴露 upstream details。
+- `ANISONARY_REQUIRE_API_DATA=true` 且沒有 `PUBLIC_API_BASE_URL` 時，build 按預期失敗；
+- API URL 無法連線時，build 按預期失敗；
+- repository-reviewed catalogue 模式可在沒有 private API 時完成 build；
+- provider error 不向公開頁面輸出 upstream detail。
 
-## Public GitHub gate
+## Public repository audit／公開 repository 稽核
 
-- Public repository：`kyeunga25/anisonary`；
-- PR：[#1 Complete Phase 1 frontend and delivery readiness](https://github.com/kyeunga25/anisonary/pull/1)；
-- GitHub Actions：[quality run 29657484247](https://github.com/kyeunga25/anisonary/actions/runs/29657484247)；
-- Result：success；
-- Merge：`main` production source `caa977e`；
-- Branch protection：PR required、`quality` required、strict／linear history、admin enforcement、force-push／delete disabled。
+Tracked files 不包含：
 
-Workers migration follow-up 使用 [PR #2 Migrate Phase 1 delivery to Cloudflare Workers](https://github.com/kyeunga25/anisonary/pull/2)。`0f05162` 的 GitHub `quality`、Workers Builds preview 與 retained Cloudflare Pages preview checks 均通過。PR 已 rebase merge，`main` production source 為 `57778d3`。
-
-## Public repository audit
-
-沒有 tracked：
-
-- secrets 或 private keys；
-- `.env`；
+- secrets、private keys 或 `.env`；
 - DB／SQLite dump；
 - crawler 或 private source adapter；
 - internal confidence rules；
-- `.DS_Store`；
-- `dist`、`node_modules`、Playwright reports、Wrangler local state。
+- 非公開基礎設施或憑證資料；
+- private operational or planning records；
+- macOS Finder metadata、build output、dependency directory、browser report 或 local Wrangler state。
 
-## Cloudflare Pages migration fallback（已退役）
+## GitHub gate／GitHub 驗收
 
-- Wrangler OAuth：authenticated；
-- Pages project：`anisonary`，Git provider enabled，production branch `main`；
-- Build：`npm run build` → `dist`，Node 22；
-- 首次 production deployment：`d199c88b-34fb-4107-adee-670a9cc4e700`；
-- Source：`main@caa977e`；
-- Build result：38 pages、51 assets uploaded、deploy success；
-- Pages URL：<https://anisonary.pages.dev>；
-- Initial environment：明確使用 Mock Data，`ANISONARY_REQUIRE_API_DATA=false`，沒有 production API URL。
+- `main` 只能經 pull request 更新；
+- `quality` 是 required check；
+- strict／linear history、admin enforcement、force-push 和 branch deletion protection 已啟用；
+- 合併後以正式 branch SHA、GitHub remote SHA 和 production delivery source 一致為完成條件。
 
-線上 smoke 已確認首頁、兩個季度、動畫頁、About、Sources、robots、sitemap 回應 `200`，未知 route 回應 `404`，Mock Data notice 可見，security headers 與 `pages.dev` noindex 生效。
+## Cloudflare Workers gate／Cloudflare 驗收
 
-Workers preview、production 與 recovery drill 均通過後，使用者於 2026-07-23 確認永久退役。已透過 Wrangler 精確刪除 `anisonary` Pages project；刪除後 Pages 清單只保留獨立的 `wallpect` project，`anisonary.pages.dev` 不再解析，Worker custom domain、`workers.dev` 與 `wallpect.k-y.cc` 均維持 `200`。
+- Runtime 使用 Workers Static Assets，不配置 application Worker binding；
+- custom domain、TLS、canonical、主要 routes、SEO files、custom 404 與 security headers 已驗證；
+- non-production Workers preview hostname 有 `X-Robots-Tag: noindex`；
+- 舊 Pages delivery 已退役，不再是 fallback 或正式入口；
+- Workers Builds 以 `main` 作 production source，preview branch 可先驗證；
+- 公開 repository 只保存部署命令、輸入環境契約和驗收條件；私有營運資料不進入 source 或 build output。
 
-## Cloudflare Workers gate
+## Current release follow-up／目前版本後續
 
-- Worker：`anisonary`；
-- Runtime：Workers Static Assets，沒有 application Worker bindings；
-- Compatibility date：`2026-07-19`；
-- First version：`59b2269a-d315-42ad-8aa4-37e842ff333a`；
-- Worker tag：`73711e63a497409081a4425342e153c4`；
-- Source：`codex/phase1-status@a2546bc` direct deployment；
-- Worker URL：<https://anisonary.kyeunga25.workers.dev>，response 有 `X-Robots-Tag: noindex`；
-- Custom domain：<https://anisonary.k-y.cc>，DNS route、TLS 與 canonical 一致；
-- Initial environment：明確使用 Mock Data，沒有 production API URL。
+v0.2.0 的本機測試與私隱驗收記錄見 `QA_PHASE2_SEARCH_PRIVACY.md`。完成 PR、production deployment 和正式 route smoke 後，公開文檔只補充通過狀態，不記錄私有營運細節。
 
-線上 smoke 已確認 HTTP/1.1／HTTP/2、首頁、季度、動畫、About、Sources、robots、sitemap、custom 404 與 security headers。Custom domain 建立後的初始 edge propagation 曾短暫回應 Cloudflare `1104`；傳播完成後，custom domain 與 `workers.dev` 根目錄各連續 20 次回應 `200`，多 route 測試也未再重現。
-
-Workers Builds non-production preview：
-
-- Build：`f8ea2e1d-69b1-4511-b824-a6a45698dbfc`；
-- Source：`codex/phase1-status@0f05162`；
-- Version：`46e4a86b-1fba-406e-93a0-20b4324cb5cd`；
-- Preview：<https://46e4a86b-anisonary.kyeunga25.workers.dev>；
-- Result：首頁、季度、動畫、SEO files 回應 `200`，未知 route 回應 `404`，security headers、Mock Data notice 與 `X-Robots-Tag: noindex` 生效。
-
-Workers Builds production 與 recovery drill：
-
-- Build：`6671270c-eb35-422a-b8b6-3a7d35fbb9a1`；
-- Source：`main@57778d3`；
-- Production version：`52fa8d29-763a-4110-8a77-27bed70eb5f9`；
-- Rollback：`59b2269a-d315-42ad-8aa4-37e842ff333a` at 100%，smoke 通過；
-- Roll forward：`52fa8d29-763a-4110-8a77-27bed70eb5f9` at 100%，smoke 通過；
-- GitHub `quality`、Workers Builds 及 retained Cloudflare Pages checks 均為 success。
-
-Workers Builds credential rotation：
-
-- 專用 token：`k-y.cc · Anisonary · Workers Builds`；
-- 權限：Account Settings Read、Workers Scripts Edit、Workers Routes Edit、User Details Read、Memberships Read；
-- 資源：指定 Cloudflare account 及 `k-y.cc` zone，不包括 KV、R2 或其他未使用產品；
-- Preview build：`d4755e74-1c51-45de-b710-d52f29bd9b64`；
-- Source：`codex/retire-pages-rotate-build-token@cebdc93`；
-- Version：`7b3bbd48-c57c-4f78-ba19-20110aa5ae1d`；
-- Result：Workers Build success；首頁、兩季、動畫、About、Sources、robots、sitemap 回應 `200`，未知 route 回應 `404`，security headers 與 preview noindex 生效。
-
-輪替後 production validation：
-
-- Source：`main@17761935`；
-- Build：`e58989bc-5847-4911-a1d0-ac9a3fd1607d`；
-- Version：`8e98b7c3-18c7-4912-9899-a830d4125007`；
-- GitHub `quality` 與 Workers Builds checks 均為 success；
-- `anisonary.k-y.cc` 主要 routes 與 SEO files 回應 `200`，未知 route 回應 `404`，security headers 正常；
-- `workers.dev` 回應 `200` 並帶有 `X-Robots-Tag: noindex`；`anisonary.pages.dev` 不再解析；`wallpect.k-y.cc` 維持 `200`。
-
-## Remaining external validation
-
-- Private production API 上線後執行 network、cache 與 fail-closed production data smoke；
-- `chrome-devtools` MCP 尚未配置，因此未產生 Lighthouse／Core Web Vitals 數值。
-
-以上未完成項目不可標示為通過，也不以本機結果代替 production evidence。
+尚未量度的項目不得標示為通過。目前沒有可用的 Chrome DevTools performance integration，因此不提供 Lighthouse 或 Core Web Vitals 數值；這不以一般 browser smoke 代替。

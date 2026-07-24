@@ -2,7 +2,9 @@
 
 Anisonary is an Astro + strict TypeScript frontend for browsing anime music by season and Japanese editorial broadcast weekday.
 
-This repository contains the completed Phase 1 frontend and the Phase 2 curated catalogue foundation: season directory, anime detail pages, traceable OP／ED credits and links, source and image provenance, a GitHub correction flow, and Cloudflare Workers Static Assets delivery. The default catalogue contains manually reviewed public records; fictional Mock Data remains test-only.
+This repository contains the completed Phase 1 frontend and the Phase 2 curated catalogue foundation: season directory, anime detail pages, traceable OP／ED credits and links, source and image provenance, local-only cross-season search, a GitHub correction flow, and Cloudflare Workers Static Assets delivery. The default catalogue contains manually reviewed public records; fictional Mock Data remains test-only.
+
+Current public version: **v0.2.0**. The search page matches Japanese, Traditional Chinese, Romaji, song, artist, and credit names entirely in the browser. Search terms are not sent to a server or analytics service. YouTube embeds no longer request a remote thumbnail before explicit consent.
 
 ## Local development
 
@@ -31,6 +33,14 @@ npm run check
 - Copy `.env.example` to `.env` for local configuration. Never commit secrets.
 
 Season coverage uses a repository-owned source registry: Annict is the Japanese seasonal inventory baseline, while Bangumi provides a Chinese-entry cross-check. Both are editorial inputs only; production builds use reviewed local snapshots and never require these external APIs at runtime. See `docs/DATA_SOURCES.md` for URL builders, pagination, authentication boundaries, and Traditional Chinese naming rules.
+
+## Catalogue search
+
+- `/search/` renders the reviewed anime and theme-song index as static HTML;
+- filtering runs locally without query parameters, analytics, cookies, or a search API;
+- the text-only result list does not load remote poster media;
+- YouTube connects only after the user activates a clearly labelled consent button;
+- Japanese and Traditional Chinese remain the primary visible languages, with English／Romaji support where available.
 
 ## Environment
 
@@ -67,14 +77,14 @@ npm run cf:deploy
 
 See `docs/DEPLOYMENT_CLOUDFLARE.md` before changing build ownership or production settings.
 
-Production domain: <https://anisonary.k-y.cc>. The `workers.dev` host is marked `noindex`; the retired Pages project is no longer part of the delivery path.
+Production domain: <https://anisonary.k-y.cc>. Non-production Cloudflare hostnames are marked `noindex` and are not recorded in public documentation; the retired Pages project is no longer part of the delivery path.
 
 ## Project notes
 
-- Product and Phase 1 scope: `docs/PROJECT_PLAN.md`
+- Public product scope and release status: `docs/PROJECT_PLAN.md`
 - Phase 2 catalogue scope and source ledger: `docs/PHASE2_CATALOG.md`
+- v0.2.0 search and media privacy QA: `docs/QA_PHASE2_SEARCH_PRIVACY.md`
 - Stable Japanese and Chinese seasonal source registry: `docs/DATA_SOURCES.md`
-- Remaining Phase 1 milestones: `docs/TODO_PHASE1.md`
 - Visual system and accepted concepts: `docs/DESIGN_SYSTEM.md`
 - M0–M6 QA evidence: `docs/QA_PHASE1_M0_M6.md`
 - M7 quality QA evidence: `docs/QA_PHASE1_M7.md`
@@ -82,4 +92,4 @@ Production domain: <https://anisonary.k-y.cc>. The `workers.dev` host is marked 
 - GitHub and Cloudflare delivery requirements: `docs/DEPLOYMENT_CLOUDFLARE.md`
 - Private API public contract handoff: `docs/API_HANDOFF.md`
 
-The public repository must not contain crawlers, database dumps, unpublished data, secrets, private source adapters, allowlists, or internal confidence rules.
+The public repository must not contain crawlers, database dumps, unpublished data, secrets, private source adapters, private source-selection rules, or internal confidence rules.

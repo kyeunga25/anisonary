@@ -42,6 +42,19 @@ describe("Phase 1 public components", () => {
     expect(html).toContain("暫時無法顯示");
   });
 
+  it("does not send a referrer when loading a reviewed remote poster", async () => {
+    const html = await container.renderToString(PosterImage, {
+      props: {
+        src: "https://media.example.test/poster.webp",
+        alt: "測試動畫海報",
+        width: 768,
+        height: 1152
+      }
+    });
+
+    expect(html).toContain('referrerpolicy="no-referrer"');
+  });
+
   it("renders theme identity, credits and source verification", async () => {
     const html = await container.renderToString(ThemeCard, { props: { theme: anime.themes[0] } });
 
@@ -57,6 +70,9 @@ describe("Phase 1 public components", () => {
 
     expect(html).toContain("載入 YouTube 影片");
     expect(html).toContain("youtube-nocookie.com");
+    expect(html).toContain("No request before consent");
+    expect(html).not.toContain("i.ytimg.com");
+    expect(html).not.toContain("<img");
     expect(html).not.toContain("<iframe");
   });
 

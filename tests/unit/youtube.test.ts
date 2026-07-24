@@ -3,7 +3,6 @@ import {
   isValidYouTubeVideoId,
   videoTypeLabel,
   youtubeEmbedUrl,
-  youtubeThumbnailUrl,
   youtubeWatchUrl
 } from "@/utils/youtube";
 
@@ -14,14 +13,12 @@ describe("YouTube helpers", () => {
     expect(isValidYouTubeVideoId("invalid/id!" )).toBe(false);
   });
 
-  it("builds thumbnail, privacy-enhanced embed, and watch URLs", () => {
-    expect(youtubeThumbnailUrl("M7lc1UVf-VE")).toBe("https://i.ytimg.com/vi/M7lc1UVf-VE/hqdefault.jpg");
+  it("builds privacy-enhanced embed and watch URLs", () => {
     expect(youtubeEmbedUrl("M7lc1UVf-VE")).toBe("https://www.youtube-nocookie.com/embed/M7lc1UVf-VE?autoplay=0&rel=0");
     expect(youtubeWatchUrl("M7lc1UVf-VE")).toBe("https://www.youtube.com/watch?v=M7lc1UVf-VE");
   });
 
   it("does not generate URLs for malformed ids", () => {
-    expect(youtubeThumbnailUrl("bad")).toBeNull();
     expect(youtubeEmbedUrl("bad")).toBeNull();
     expect(youtubeWatchUrl("bad")).toBeNull();
   });

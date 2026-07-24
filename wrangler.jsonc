@@ -17,7 +17,10 @@
     }
   ],
   "observability": {
-    "enabled": true
+    "enabled": false
+  },
+  "dependencies_instrumentation": {
+    "enabled": false
   },
   "send_metrics": false
 }

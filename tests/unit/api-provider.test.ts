@@ -73,6 +73,24 @@ describe("ApiProvider public contract", () => {
     ).rejects.toThrow("invalid season payload");
   });
 
+  it("allows only reviewed image and catalogue reference origins", async () => {
+    const trackingImagePayload = structuredClone(curatedSeasonDetails[0]!);
+    trackingImagePayload.anime[0]!.posterUrl = "https://tracker.example.test/poster.jpg";
+    await expect(
+      new ApiProvider("https://api.anisonary.k-y.cc/v1", {
+        fetch: vi.fn<typeof fetch>().mockResolvedValue(jsonResponse(trackingImagePayload))
+      }).getSeason(trackingImagePayload.id)
+    ).rejects.toThrow("invalid season payload");
+
+    const spoofedReferencePayload = structuredClone(curatedSeasonDetails[0]!);
+    spoofedReferencePayload.catalogReferences![0]!.catalogUrl = "https://example.test/fake-annict";
+    await expect(
+      new ApiProvider("https://api.anisonary.k-y.cc/v1", {
+        fetch: vi.fn<typeof fetch>().mockResolvedValue(jsonResponse(spoofedReferencePayload))
+      }).getSeason(spoofedReferencePayload.id)
+    ).rejects.toThrow("invalid season payload");
+  });
+
   it("validates and sanitizes complete anime details", async () => {
     const payload = structuredClone(curatedAnimeDetails[0]!) as typeof curatedAnimeDetails[number] & {
       privateSourceAdapter?: string;
@@ -140,6 +158,16 @@ describe("ApiProvider public contract", () => {
     await expect(
       new ApiProvider("https://api.anisonary.k-y.cc/v1", { fetch: htmlFetch }).getSeasons()
     ).rejects.toThrow("invalid content type");
+  });
+
+  it("stops reading API responses that exceed the configured byte limit", async () => {
+    const fetchMock = vi.fn<typeof fetch>().mockResolvedValue(jsonResponse(curatedSeasons));
+    const provider = new ApiProvider("https://api.anisonary.k-y.cc/v1", {
+      fetch: fetchMock,
+      maxResponseBytes: 32
+    });
+
+    await expect(provider.getSeasons()).rejects.toThrow("response is too large");
   });
 
   it("rejects invalid request identities before making a network request", async () => {

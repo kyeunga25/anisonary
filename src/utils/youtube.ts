@@ -15,10 +15,6 @@ export function isValidYouTubeVideoId(value: string): boolean {
   return youtubeIdPattern.test(value);
 }
 
-export function youtubeThumbnailUrl(videoId: string): string | null {
-  return isValidYouTubeVideoId(videoId) ? `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg` : null;
-}
-
 export function youtubeEmbedUrl(videoId: string): string | null {
   if (!isValidYouTubeVideoId(videoId)) return null;
   return `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=0&rel=0`;
