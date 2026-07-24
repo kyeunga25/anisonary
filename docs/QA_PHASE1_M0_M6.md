@@ -10,7 +10,7 @@ Verified on 2026-07-17 against the local Astro development server and the produc
 
 ## Browser environment and target flow
 
-- Browser: Codex in-app browser.
+- Browser: Chromium browser validation.
 - Desktop concept-native viewport: `1536 × 1024`.
 - Mobile viewport: `390 × 844`.
 - Flow: anime detail loads → no iframe exists → user activates one thumbnail → only that privacy-enhanced iframe is created → other player/fallback states remain unchanged.

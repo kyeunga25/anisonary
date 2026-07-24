@@ -35,7 +35,7 @@ Playwright 覆蓋：
 
 ## Rendered QA
 
-- Browser：Codex in-app browser；
+- Browser：Chromium browser validation；
 - Desktop：1280px；
 - Mobile：390 × 844；
 - Page identity、meaningful DOM、framework overlay、console、interaction 均通過；

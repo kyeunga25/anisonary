@@ -41,11 +41,27 @@ Phase 2 第二個切片完成前端的 production API contract boundary：
 - `ApiProvider` 對 response 做 nested parsing，不再信任 top-level cast；
 - 只保留 `Public*` 契約欄位，backend 額外 metadata 不會進入頁面資料；
 - base URL、公開 URL、ID／slug、ISO 日期、array cardinality、OP／ED count 及 list/detail identity 全部 fail closed；
-- build request 有 10 秒 timeout、禁止 redirect，並檢查 JSON content type；
+- build request 有 10 秒 timeout、4 MiB streaming response 上限、禁止 redirect，並檢查 JSON content type；
+- poster／banner 只接受核准 AniList media origin；Annict／Bangumi catalog reference 必須綁定各自官方 origin；
 - repository 內兩季與八套 reviewed records 全部作 production-like response fixtures，另有不安全 URL、identity drift、重複資料、非 JSON、404 及 stalled request 測試。
 
 完整 backend handoff 見 [`API_HANDOFF.md`](./API_HANDOFF.md)。此切片只加固公開 read-only boundary，沒有把 private API、crawler、資料庫或 secret 加入 repository。
 
-## 後續擴充
+## 跨季度搜尋與媒體私隱
 
-新增作品時沿用小批次人工核對：官方網站為主，正式繁中出版資料或公共資料庫作交叉對照，最後經 catalogue test 與 PR review 才進入預設目錄。私有 API 日後仍可透過已加固的 `ApiProvider` 接管 production data；正式切換前仍需完成 API hostname、TLS、cache policy 及 Cloudflare Workers Builds network smoke。
+Phase 2 第三個切片以 `/search/` 提供靜態、可鍵盤操作的跨季度索引：
+
+- 搜尋日文、繁體中文、羅馬字、OP／ED 歌名、歌手與公開 Credits；
+- 使用 Unicode NFKC 正規化，令全形／半形及羅馬數字輸入得到一致結果；
+- 所有結果先在 build-time 由現有 Provider 契約生成，production API 缺資料時沿用 fail-closed gate；
+- build-time season／detail request concurrency 上限為 8，跨季度索引最多 2,000 套動畫，避免合法但極端 payload 壓垮 build；
+- 搜尋字詞只用於目前頁面的 DOM filtering，不寫入 URL、不發送 request、不使用 analytics；
+- 結果採文字型列表，不載入 AniList poster，減少不必要的第三方媒體 request；
+- YouTube 不再於點擊前載入 `i.ytimg.com` thumbnail，只有使用者按下明確按鈕後才建立 privacy-enhanced iframe；
+- 遠端 poster 與使用者啟動的 iframe 都使用 `no-referrer`。
+
+自動化測試涵蓋跨季度完整性、安全 error state、Unicode 正規化、動畫／歌曲／歌手比對、零搜尋外傳、明確影片同意與 mobile keyboard flow。QA 證據見 [`QA_PHASE2_SEARCH_PRIVACY.md`](./QA_PHASE2_SEARCH_PRIVACY.md)。
+
+## 公開資料收錄政策
+
+預設目錄只接受小批次人工核對的公開資料：官方網站為主，正式繁中出版資料或公共資料庫作交叉對照，並經 catalogue test 與 PR review。私有 API 的 hostname、TLS、cache、帳戶及部署細節不在本公開 repository 記錄。

@@ -4,7 +4,7 @@
 
 - Home concept: `docs/design/home-concept.png` at 1435 × 1096.
 - Season concept: `docs/design/season-concept.png` at 1373 × 1146.
-- Browser verification: Codex in-app Browser against `http://127.0.0.1:4321`.
+- Browser verification: Chromium against the local development server.
 - Responsive verification: 390 × 844 viewport.
 
 ## Fidelity ledger

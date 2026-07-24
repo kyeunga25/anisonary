@@ -1,6 +1,6 @@
-# Anisonary｜動畫歌典 — Project Plan
+# Anisonary｜動畫歌典 — 公開範圍與版本狀態
 
-本文件是 `ANISONARY_MASTER_PLAN_AND_PHASE1_SPEC.md` 的 repository-side 執行摘要。產品以動畫為入口，按季度與日本編輯播出日整理 OP／ED 資料，並把使用者導向官方或正版渠道；不託管音訊或影片。
+本文件只記錄已公開交付的產品範圍與可驗證狀態。產品以動畫為入口，按季度與日本編輯播出日整理 OP／ED 資料，並把使用者導向官方或正版渠道；不託管音訊或影片。
 
 ## Phase 1 範圍
 
@@ -12,26 +12,14 @@
 - Mock/API Provider 抽象；
 - Cloudflare Workers Static Assets 靜態部署。
 
-## 目前進度：Phase 1 完成；Phase 2 可追溯季度目錄與 API gate 開發中
+## 公開版本狀態
 
-目前公開前端已實作：
+- **v0.1.x**：季度與動畫詳情頁、OP／ED credits、來源、平台連結、深淺色主題、SEO、無障礙狀態及 Workers Static Assets delivery；
+- **v0.2.0**：可追溯精選目錄、加固的公開 API contract boundary、跨季度本機搜尋，以及 YouTube 明確同意與 `no-referrer` 媒體私隱設定；
+- 正式網站使用 custom domain；非正式 Cloudflare hostname 不在公開文檔記錄；
+- 私有 backend、資料庫、crawler、帳戶設定、憑證與內部規則不屬於本公開 repository。
 
-1. M0：Astro、TypeScript、測試與 build 基礎；
-2. M1：公開資料契約、Mock Provider、API Provider；
-3. M2：Layout、Header、Footer、深淺色主題；
-4. M3：首頁、季度頁、星期分組、篩選與 25:00+ 日本深夜時間顯示；
-5. M4：動畫詳細頁、OP／ED、Credits、來源與空狀態；
-6. M5：thumbnail-first YouTube lazy embed、不 autoplay、不可嵌入 fallback；
-7. M6：Direct／Search／Official／Purchase 平台連結分類與 external-link safety。
-8. M7：canonical／Open Graph／JSON-LD、accessible loading/error/empty states、Astro component tests、Playwright E2E 與靜態圖片最佳化。
-
-M8 已完成 repository-side Workers Static Assets／GitHub CI 配置、公開 PR merge、`main` branch protection、Workers Builds Git 連接、PR preview、merge 後自動 production deployment，以及 Worker rollback／roll-forward drill。`anisonary.k-y.cc` 已透過 Worker custom domain 上線；主要 route、SEO files、404、security headers、TLS、`workers.dev` noindex 均通過線上 smoke。原有 `anisonary` Pages project 沒有 custom domain，並已於 2026-07-23 在 Workers 驗證後永久退役；同日亦把失效的共用 build credential 換成 Anisonary 專用最小權限 token，輪替後 preview 與 production builds 均已通過。M9 的公開 API contract handoff 與 fail-closed frontend integration 已完成；私有 backend 實作仍是獨立接入工作。
-
-以 M0–M9 milestone 的實際交付狀態估算，目前 Phase 1 約完成 **99%**。Repository implementation、Workers delivery 與 Pages 退役已完成；剩餘 1% 是 private API 上線後 smoke，以及尚未配置工具的 Lighthouse／Core Web Vitals 數值稽核。
-
-M7 尚待配置 Chrome DevTools MCP 後補上 Core Web Vitals／Lighthouse 數值稽核；目前不虛構任何效能分數。
-
-Phase 2 第一個切片加入兩季各四套經人工核對的公開資料、原圖來源、Annict／Bangumi 固定季度來源 registry、GitHub 修正表單、catalogue test 及 Workers dry-run gate。第二個切片完成 production API 的 nested contract parsing、公開欄位淨化、URL／identity／cardinality gate、request timeout 與 production-like fixtures。兩個切片都不在公開 repository 加入資料庫、爬蟲、帳戶、Admin Panel、AI 圖像、音訊託管或 private source adapter。
+未配置的 Lighthouse／Core Web Vitals 稽核不會被標示為已通過，也不會虛構分數。
 
 ## Phase 1 驗收摘要
 
@@ -50,5 +38,4 @@ Phase 2 第一個切片加入兩季各四套經人工核對的公開資料、原
 - Hero 與 Mock posters 使用尺寸化 WebP，五項資產合計減少約 93.4%；
 - 不包含 secret、真實 DB dump 或 private crawler code。
 
-完整 Phase 1 後續工作見 `docs/TODO_PHASE1.md`。
 GitHub／Cloudflare 接入與驗收見 `docs/DEPLOYMENT_CLOUDFLARE.md`；API handoff 見 `docs/API_HANDOFF.md`。
