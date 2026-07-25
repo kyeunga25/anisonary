@@ -25,6 +25,12 @@ npm run test:e2e
 npm run check
 ```
 
+Public API production check（live API availability required）：
+
+```bash
+PUBLIC_API_BASE_URL=https://api.anisonary.k-y.cc/v1 npm run api:check
+```
+
 ## Data providers
 
 - With no `PUBLIC_API_BASE_URL`, the site uses the repository's reviewed `CuratedProvider` records.
@@ -100,5 +106,6 @@ Production domain: <https://anisonary.k-y.cc>. Non-production Cloudflare hostnam
 - Phase 1 completion gate and external blockers: `docs/QA_PHASE1_COMPLETION.md`
 - GitHub and Cloudflare delivery requirements: `docs/DEPLOYMENT_CLOUDFLARE.md`
 - Private API public contract handoff: `docs/API_HANDOFF.md`
+- v0.4.0 public API production check: `docs/API_PRODUCTION_CHECK.md`
 
 The public repository must not contain crawlers, database dumps, unpublished data, secrets, private source adapters, private source-selection rules, or internal confidence rules.

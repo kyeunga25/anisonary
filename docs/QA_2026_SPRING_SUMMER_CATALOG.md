@@ -46,4 +46,13 @@ npm run test:e2e
 
 驗收涵蓋：兩季數量、唯一 slug、季節與詳情關聯、298 首 OP／ED、232 個 YouTube 網域直連、HTTPS 圖像與來源、API fail-closed contract、跨季度本機搜尋、離線 precache、SEO／JSON-LD、404、圖片 fallback、手機鍵盤操作及 Workers Static Assets dry-run。
 
-Production publish 後仍須按 [`DEPLOYMENT_CLOUDFLARE.md`](./DEPLOYMENT_CLOUDFLARE.md) 核對 custom domain、security headers、深層路由、Service Worker、搜尋私隱及 GitHub／Cloudflare 版本一致性。
+## Production validation
+
+2026-07-26（Asia/Hong_Kong）重新核對 v0.4.0 正式版本：
+
+- PR #12 已合併，GitHub quality 與 Cloudflare build checks 均通過；
+- custom domain 的首頁、搜尋、季度頁、Service Worker、manifest 及 404 response 與本次 v0.4.0 build 逐 byte 相同；
+- 首頁、搜尋、2026 夏季頁、`/sw.js` 及 `/manifest.webmanifest` 回應 `200`，未知 route 回應 `404`；
+- 正式搜尋索引顯示 139 個唯一作品，頁面顯示 298 首 OP／ED；
+- HTML、manifest 及 Service Worker 保留正確 content type、cache policy、根 scope、`DENY` frame policy、`nosniff`、`no-referrer` 及最小化 Permissions Policy；
+- 公開驗收記錄不包含 Cloudflare account、deployment／version identifier、非公開資源名稱、credential 或私有營運資料。

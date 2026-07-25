@@ -42,3 +42,5 @@
 - 離線功能只保存 build 已公開的同源靜態內容，不保存搜尋輸入、query string、私人 API response 或第三方媒體。
 
 GitHub／Cloudflare 接入與驗收見 `docs/DEPLOYMENT_CLOUDFLARE.md`；API handoff 見 `docs/API_HANDOFF.md`。
+
+Public API 的 live contract 與 fail-closed build 命令見 `docs/API_PRODUCTION_CHECK.md`。目前正式公開版本維持 v0.4.0；驗收工具本身不代表尚未連通的外部 API 已通過。
