@@ -8,7 +8,11 @@ export default defineConfig({
     sitemap({
       filter: (page) => {
         const pathname = new URL(page).pathname;
-        return !pathname.startsWith("/404") && !pathname.startsWith("/offline");
+        return (
+          !pathname.startsWith("/404") &&
+          !pathname.startsWith("/api/") &&
+          !pathname.startsWith("/offline")
+        );
       }
     })
   ],

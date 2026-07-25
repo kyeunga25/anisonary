@@ -37,7 +37,7 @@ describe("ApiProvider public contract", () => {
     expect(seasons).toEqual(curatedSeasons);
     expect(seasons[0]).not.toHaveProperty("internalConfidence");
     expect(fetchMock).toHaveBeenCalledWith(
-      "https://api.anisonary.k-y.cc/v1/seasons",
+      "https://api.anisonary.k-y.cc/v1/seasons.json",
       expect.objectContaining({
         headers: { Accept: "application/json" },
         redirect: "error",

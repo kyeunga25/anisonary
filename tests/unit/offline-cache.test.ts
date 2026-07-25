@@ -12,10 +12,12 @@ describe("offline static catalogue", () => {
   it("pre-caches only public same-origin build files with content revisions", async () => {
     const directory = await mkdtemp(join(tmpdir(), "anisonary-offline-"));
     await mkdir(join(directory, "search"), { recursive: true });
+    await mkdir(join(directory, "api", "v1"), { recursive: true });
     await mkdir(join(directory, "mock-posters"), { recursive: true });
     await writeFile(join(directory, "index.html"), "home");
     await writeFile(join(directory, "search", "index.html"), "search");
     await writeFile(join(directory, "manifest.webmanifest"), "{}");
+    await writeFile(join(directory, "api", "v1", "seasons.json"), "[]");
     await writeFile(join(directory, "404.html"), "not found");
     await writeFile(join(directory, "_headers"), "headers");
     await writeFile(join(directory, "mock-posters", "fixture.webp"), "fixture");

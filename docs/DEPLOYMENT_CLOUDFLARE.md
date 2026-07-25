@@ -19,16 +19,18 @@ Workers Builds 是自動部署來源；repository 不另設第二套 production 
 ## Privacy and cost boundary／私隱與額度邊界
 
 - 正式網站只發布 build 後的靜態資產，沒有 application Worker script、D1、KV、R2、Queues 或 Analytics binding。
+- `/api/v1/*.json` 與 HTML 使用同一份 reviewed snapshot，在 build-time 產生並由 Static Assets 直接提供；沒有 runtime function invocation。
 - Wrangler observability、dependency instrumentation、metrics 與 error reporting 在 repository 設定中停用。
 - 搜尋在瀏覽器內完成，不使用 server endpoint、query parameter、cookie、analytics 或 persistent storage。
 - production build 產生 `/sw.js`；precache 只含無 query string 的公開同源頁面與資產，並排除測試 poster、404、私人 API response 及第三方媒體。
 - navigation 採 network-first；只有連線失敗才讀取已發布內容，Service Worker 不把使用者後續瀏覽或輸入寫入 runtime cache。
 - `_astro` 指紋資產可長期快取；repository-owned `/assets` 使用較短快取和 stale revalidation；HTML 不設長期快取。
 - production build 會掃描最終 HTML，為可執行 inline script 與 inline style element 產生 SHA-256 Content Security Policy；inline event／style attributes 及未批准的 remote media origin 會令 build 失敗。
+- static API 使用 revalidation 與 `X-Robots-Tag: noindex`，不加入 sitemap、Service Worker precache 或 permissive CORS。
 - 非正式 Workers preview hostname 回應 `X-Robots-Tag: noindex`。
 - 正式頁面使用 `Referrer-Policy: no-referrer`；外部海報來源只限經審核的 HTTPS origin，YouTube 只在使用者明確啟動後連線。
 
-Static Assets 的現行收費與限制可能變動，發佈前應以 Cloudflare 官方文件為準。沒有具體產品需求前，不加入 stateful 或 tracking service，以免增加私隱、成本和攻擊面。
+Cloudflare 官方文件目前說明 Static Assets request 免費且不限量；限制仍可能變動，發佈前應重新核對。沒有具體產品需求前，不加入 runtime、stateful 或 tracking service，以免增加私隱、成本和攻擊面。
 
 ## Environment／環境設定
 
@@ -41,7 +43,7 @@ PUBLIC_TIMEZONE=Asia/Tokyo
 ANISONARY_REQUIRE_API_DATA=false
 ```
 
-連接 private read-only API 後才設定 `PUBLIC_API_BASE_URL`，並在 production 設 `ANISONARY_REQUIRE_API_DATA=true`。這會令必要 API request 失敗時中止 build，避免殘缺版本取代 production。前端契約不需要 secret；任何未來 build secret 只可儲存在 Cloudflare 的私有環境，不得 commit。
+正常 production build 不設定 `PUBLIC_API_BASE_URL`，直接由 reviewed snapshot 同時產生 HTML 與 JSON。只有執行 production API gate 時才設定 `PUBLIC_API_BASE_URL=https://anisonary.k-y.cc/api/v1` 及 `ANISONARY_REQUIRE_API_DATA=true`；任何 endpoint 失敗或不一致都會中止驗收。這個契約不需要 secret。
 
 ## Local verification／本機驗證
 
@@ -86,6 +88,7 @@ npm run cf:deploy
 - 搜尋結果沒有 remote poster request，搜尋字詞不離開瀏覽器；
 - YouTube 啟動前沒有 iframe 或 thumbnail request，啟動後使用 privacy-enhanced domain；
 - repository catalogue 顯示「已核對季度完整目錄」，不顯示 Mock Data notice；
+- season list、兩個 season detail、139 個 anime detail JSON assets 通過 live contract，未知 API route 回應 `404`；
 - secrets、非公開基礎設施資料和私有營運記錄沒有進入 tracked files 或 build output。
 
 ## Public record boundary／公開記錄邊界

@@ -1,22 +1,15 @@
-# `anisonary-api` Public Contract Handoff
+# Anisonary Public Static API Contract
 
-本文件是 Phase 1 M9 的公開 handoff。私有 backend 可以使用任何內部模型、來源與審核流程，但公開 response 必須符合 `src/types/public-api.ts`，不得回傳 crawler、private source adapter、internal confidence rules 或未公開候選資料。
+本文件定義 v1.0.0 同源靜態 JSON API。它由 repository-reviewed snapshot 在 Astro build-time 產生，公開 response 必須符合 `src/types/public-api.ts`，不得包含 crawler、private source adapter、internal confidence rules 或未公開候選資料。
 
 ## Build-time integration
 
-Astro static build 透過 `PUBLIC_API_BASE_URL` 呼叫唯讀 API。這些 request 在 build-time 發生，不是瀏覽器 runtime request，因此 Phase 1 不需要把 API credential 或寬鬆 CORS policy 發送到使用者端。API response 內容最終會成為公開 HTML，必須視作 public data。
+正常 production build 直接由 `CuratedProvider` 產生 HTML 與 JSON assets，不需要網絡 API、credential、application Worker 或寬鬆 CORS。JSON 內容與公開 HTML 來自同一份 reviewed snapshot，必須全部視作 public data。
 
-Production 必須同時設定：
-
-```text
-PUBLIC_API_BASE_URL=https://api.anisonary.k-y.cc/v1
-ANISONARY_REQUIRE_API_DATA=true
-```
-
-Backend 上線後，frontend 可用同一個 public contract 及 fail-closed build 完成 live 驗收：
+部署後用以下命令以 `ApiProvider` 重新讀取 production assets，完成 fail-closed live 驗收：
 
 ```bash
-PUBLIC_API_BASE_URL=https://api.anisonary.k-y.cc/v1 npm run api:check
+PUBLIC_API_BASE_URL=https://anisonary.k-y.cc/api/v1 npm run api:check
 ```
 
 這個 gate 會逐一核對 season list、season detail、anime detail、跨 endpoint 公開欄位一致性、Mock Data 禁止條件及未知 identity 的 `404`。它不會把 response payload 或 upstream detail 寫入 repository。
@@ -25,11 +18,11 @@ PUBLIC_API_BASE_URL=https://api.anisonary.k-y.cc/v1 npm run api:check
 
 | Method | Path | Success | Not found |
 |---|---|---|---|
-| `GET` | `/seasons` | `PublicSeasonSummary[]` | 不適用 |
-| `GET` | `/seasons/:seasonId` | `PublicSeasonDetail` | `404` |
-| `GET` | `/anime/:slug` | `PublicAnimeDetail` | `404` |
+| `GET` | `/seasons.json` | `PublicSeasonSummary[]` | 不適用 |
+| `GET` | `/seasons/:seasonId.json` | `PublicSeasonDetail` | `404` |
+| `GET` | `/anime/:slug.json` | `PublicAnimeDetail` | `404` |
 
-所有 success response 使用 `Content-Type: application/json`。非 `2xx`／`404` response、無效 JSON 或不符合契約的 payload 會令 production build 失敗。
+所有 success response 使用 `Content-Type: application/json`。API assets 使用 revalidation、`X-Robots-Tag: noindex`，並排除於 sitemap 與 Service Worker precache。非 `2xx`／`404` response、無效 JSON 或不符合契約的 payload 會令 production gate 失敗。
 
 ## Frontend contract gate
 
@@ -44,7 +37,7 @@ PUBLIC_API_BASE_URL=https://api.anisonary.k-y.cc/v1 npm run api:check
 - 跨季度索引最多接收 2,000 個動畫條目，season/detail request concurrency 固定上限為 8；動畫靜態頁亦共用相同完整性與 concurrency gate；
 - provider 只重建公開契約欄位，未知欄位不會穿過 data layer，避免 private adapter、內部 confidence 或其他 backend metadata 意外進入頁面資料。
 
-相同 gate 以 repository 內全部 reviewed fixtures 及失敗案例測試。Backend 可以加入自己的內部欄位，但不應依賴前端保留任何公開契約以外的資料。
+相同 gate 以 repository 內全部 reviewed fixtures 及失敗案例測試。任何替代資料服務都必須維持相同公開契約，且不應依賴前端保留契約以外的資料。
 
 ## Public contract rules
 
@@ -55,12 +48,12 @@ PUBLIC_API_BASE_URL=https://api.anisonary.k-y.cc/v1 npm run api:check
 - poster／banner 使用核准 AniList media origin；其他 external link 使用無 credential 的絕對 HTTPS URL；
 - YouTube 只回傳 video ID，不回傳任意 embed HTML；
 - `verifiedAt`／`lastVerifiedAt` 使用 ISO 8601；
-- `404` 只代表資源不存在，upstream failure 必須使用適當 `5xx`；
+- 缺少的靜態 identity 回傳 `404`，任何其他非 `2xx` response 都令 live gate 失敗；
 - response 不得包含 secret、私人備註、confidence score 或未審核 candidate。
 
-TypeScript interface 是欄位層面的 source of truth；backend 合併前要以相同 fixtures 驗證三個 endpoint。
+TypeScript interface 是欄位層面的 source of truth；endpoint 改動前要以相同 fixtures 驗證三種 response。
 
-## Handoff acceptance
+## Release acceptance
 
 - 三個 endpoint 以 production-like fixture 通過；
 - success response 通過 nested contract、content-type、timeout、response-size、origin binding 及 URL safety 測試；
@@ -68,5 +61,6 @@ TypeScript interface 是欄位層面的 source of truth；backend 合併前要�
 - 任一季節／動畫 payload failure 會令 fail-closed build 失敗；
 - unknown season／slug 回傳 `404`；
 - production build 無 Mock Data notice；
-- response cache policy 已定義，更新後可在可接受時間內觸發新 build；
-- API hostname、TLS 與 Cloudflare Workers Builds network 均完成 smoke test。
+- response cache policy 已定義，API 不在 sitemap 或 offline precache；
+- custom domain、TLS、JSON content type 與 Cloudflare Workers Builds production assets 均完成 smoke test；
+- Wrangler dry-run 保持 0 application bindings。

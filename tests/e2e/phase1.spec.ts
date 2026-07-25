@@ -1,5 +1,29 @@
 import { expect, test } from "@playwright/test";
 
+test("static public API mirrors the reviewed catalogue without a runtime binding", async ({ request }) => {
+  const seasonsResponse = await request.get("/api/v1/seasons.json");
+  expect(seasonsResponse.status()).toBe(200);
+  expect(seasonsResponse.headers()["content-type"]).toContain("application/json");
+  const seasons = await seasonsResponse.json();
+  expect(seasons).toHaveLength(2);
+
+  const seasonResponse = await request.get("/api/v1/seasons/2026-summer.json");
+  expect(seasonResponse.status()).toBe(200);
+  const season = await seasonResponse.json();
+  expect(season).toMatchObject({ id: "2026-summer" });
+  expect(season.isMockData).not.toBe(true);
+  expect(season.anime).toHaveLength(70);
+
+  const animeResponse = await request.get("/api/v1/anime/mushoku-tensei-3.json");
+  expect(animeResponse.status()).toBe(200);
+  const anime = await animeResponse.json();
+  expect(anime).toMatchObject({ slug: "mushoku-tensei-3" });
+  expect(anime.themes.length).toBeGreaterThan(0);
+
+  expect((await request.get("/api/v1/seasons/2099-winter.json")).status()).toBe(404);
+  expect((await request.get("/api/v1/anime/not-a-real-anime.json")).status()).toBe(404);
+});
+
 test("static responses enforce the generated Content Security Policy", async ({ page }) => {
   const policyViolations: string[] = [];
   page.on("console", (message) => {

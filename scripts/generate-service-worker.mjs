@@ -4,7 +4,7 @@ import { resolve, relative, sep } from "node:path";
 import { pathToFileURL } from "node:url";
 
 const excludedFiles = new Set(["404.html", "_headers", "sw.js"]);
-const excludedDirectories = new Set(["mock-posters"]);
+const excludedDirectories = new Set(["api", "mock-posters"]);
 
 async function listFiles(directory) {
   const entries = await readdir(directory, { withFileTypes: true });

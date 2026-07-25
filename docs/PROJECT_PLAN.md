@@ -18,6 +18,7 @@
 - **v0.2.0**：可追溯精選目錄、加固的公開 API contract boundary、跨季度本機搜尋，以及 YouTube 明確同意與 `no-referrer` 媒體私隱設定；
 - **v0.3.0**：私隱邊界明確的離線目錄、繁中 Web App Manifest，以及 build-time 同源靜態 precache；不加入 application Worker 或 stateful binding；
 - **v0.4.0**：補齊 2026 春夏完整季度範圍，建立 139 個唯一作品頁及 298 首已公布 OP／ED 的可追溯靜態快照；
+- **v1.0.0**：把相同 reviewed snapshot 發布為同源靜態 JSON API，完成自包含的公開產品；仍維持 Workers Static Assets、0 application bindings 及本機搜尋／離線私隱邊界；
 - 正式網站使用 custom domain；非正式 Cloudflare hostname 不在公開文檔記錄；
 - 私有 backend、資料庫、crawler、帳戶設定、憑證與內部規則不屬於本公開 repository。
 
@@ -25,8 +26,9 @@
 
 ## Phase 1 驗收摘要
 
-- 沒有 private API 時使用 repository-reviewed `CuratedProvider`；`MockProvider` 只供測試與 UI fixture；
-- `PUBLIC_API_BASE_URL` 存在時切換至私有 API Provider；
+- 預設 build 使用 repository-reviewed `CuratedProvider`；`MockProvider` 只供測試與 UI fixture；
+- `/api/v1/*.json` 由同一份 reviewed snapshot 在 build-time 產生，不加入 runtime backend、資料庫或 credential；
+- `PUBLIC_API_BASE_URL` 存在時切換至經契約限制的唯讀 `ApiProvider`；
 - 兩個季度均可瀏覽；
 - 日文名稱為主、繁中為輔；
 - 深夜 `25:30` 保持在編輯播出日而不移到次日；
@@ -41,6 +43,6 @@
 - 不包含 secret、真實 DB dump 或 private crawler code。
 - 離線功能只保存 build 已公開的同源靜態內容，不保存搜尋輸入、query string、私人 API response 或第三方媒體。
 
-GitHub／Cloudflare 接入與驗收見 `docs/DEPLOYMENT_CLOUDFLARE.md`；API handoff 見 `docs/API_HANDOFF.md`。
+GitHub／Cloudflare 接入與驗收見 `docs/DEPLOYMENT_CLOUDFLARE.md`；public static API contract 見 `docs/API_HANDOFF.md`。
 
-Public API 的 live contract 與 fail-closed build 命令見 `docs/API_PRODUCTION_CHECK.md`。目前正式公開版本維持 v0.4.0；驗收工具本身不代表尚未連通的外部 API 已通過。
+Public API 的 live contract 與 fail-closed build 命令見 `docs/API_PRODUCTION_CHECK.md`。v1.0.0 的 production 驗收必須由已合併 `main` 的實際 JSON assets 通過後才記錄完成。

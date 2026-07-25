@@ -37,7 +37,7 @@ Phase 2 先建立一個可公開審核的真實資料切片，而不是把 crawl
 - GitHub Actions 先完成型別、目錄、瀏覽器及 production build 檢查；
 - `npm run cf:check` 以 `wrangler deploy --dry-run` 驗證同一份 Workers Static Assets 設定，但不部署；Wrangler diagnostic log 只寫入暫存目錄。
 
-## Private API 接入 gate
+## Public API contract gate
 
 Phase 2 第二個切片完成前端的 production API contract boundary：
 
@@ -48,7 +48,7 @@ Phase 2 第二個切片完成前端的 production API contract boundary：
 - poster／banner 只接受核准 AniList media origin；Annict／Bangumi catalog reference 必須綁定各自官方 origin；
 - repository 內兩季與 139 套 reviewed records 全部作 production-like response fixtures，另有不安全 URL、identity drift、重複資料、非 JSON、404 及 stalled request 測試。
 
-完整 backend handoff 見 [`API_HANDOFF.md`](./API_HANDOFF.md)。此切片只加固公開 read-only boundary，沒有把 private API、crawler、資料庫或 secret 加入 repository。
+完整 contract 見 [`API_HANDOFF.md`](./API_HANDOFF.md)。v1.0.0 由相同 reviewed snapshot 產生同源靜態 JSON assets，沒有加入 runtime backend、crawler、資料庫或 secret。
 
 ## 跨季度搜尋與媒體私隱
 
@@ -79,4 +79,4 @@ Phase 2 第四個切片利用 Workers Static Assets 已發布的公開檔案提�
 
 ## 公開資料收錄政策
 
-預設目錄只接受小批次人工核對的公開資料：官方網站為主，正式繁中出版資料或公共資料庫作交叉對照，並經 catalogue test 與 PR review。私有 API 的 hostname、TLS、cache、帳戶及部署細節不在本公開 repository 記錄。
+預設目錄只接受小批次人工核對的公開資料：官方網站為主，正式繁中出版資料或公共資料庫作交叉對照，並經 catalogue test 與 PR review。平台帳戶、非公開資源及部署細節不在本公開 repository 記錄。

@@ -16,7 +16,7 @@ Production data guard 另行驗證：
 
 - `ANISONARY_REQUIRE_API_DATA=true` 且沒有 `PUBLIC_API_BASE_URL` 時，build 按預期失敗；
 - API URL 無法連線時，build 按預期失敗；
-- repository-reviewed catalogue 模式可在沒有 private API 時完成 build；
+- repository-reviewed catalogue 模式可在沒有外部 API 時完成 build；
 - provider error 不向公開頁面輸出 upstream detail。
 
 ## Public repository audit／公開 repository 稽核
@@ -47,8 +47,8 @@ Tracked files 不包含：
 - Workers Builds 以 `main` 作 production source，preview branch 可先驗證；
 - 公開 repository 只保存部署命令、輸入環境契約和驗收條件；私有營運資料不進入 source 或 build output。
 
-## Current release follow-up／目前版本後續
+## Historical release follow-up／歷史版本後續
 
-v0.2.0 的本機測試與私隱驗收記錄見 `QA_PHASE2_SEARCH_PRIVACY.md`。完成 PR、production deployment 和正式 route smoke 後，公開文檔只補充通過狀態，不記錄私有營運細節。
+本段保留 v0.2.0 當時的驗收邊界；相關本機測試與私隱記錄見 `QA_PHASE2_SEARCH_PRIVACY.md`。目前穩定版本的正式驗收以 `QA_V1_STATIC_API.md` 為準，公開文檔只記錄可核對的通過狀態，不保存私有營運細節。
 
 尚未量度的項目不得標示為通過。目前沒有可用的 Chrome DevTools performance integration，因此不提供 Lighthouse 或 Core Web Vitals 數值；這不以一般 browser smoke 代替。

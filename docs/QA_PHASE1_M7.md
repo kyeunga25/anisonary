@@ -52,6 +52,6 @@ Playwright 覆蓋：
 
 減少 11,772,423 bytes，約 93.4%。最終 `dist/` 約 1.7 MB，沒有大於 500 KB 的單一檔案。
 
-## Remaining
+## Historical measurement boundary
 
-本環境沒有配置 Chrome DevTools MCP，因此未執行 Core Web Vitals trace，也不記錄未量測的 Lighthouse 分數。配置工具後需補做 LCP、CLS、network dependency 與 accessibility snapshot；Production API smoke test 時亦需驗證遠端 broken-poster 行為。
+本次 2026-07-19 驗收環境沒有配置 Chrome DevTools MCP，因此沒有記錄未量測的 Lighthouse 或 Core Web Vitals 分數。後續版本仍只會在取得正式 trace 後記錄 LCP、CLS、network dependency 與 accessibility snapshot，不以一般 browser smoke 代替。

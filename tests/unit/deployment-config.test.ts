@@ -73,6 +73,7 @@ describe("Cloudflare Workers deployment config", () => {
     for (const [, command] of cloudflareScripts) {
       expect(command).toContain("WRANGLER_SEND_METRICS=false");
       expect(command).toContain("WRANGLER_SEND_ERROR_REPORTS=false");
+      expect(command).toContain("WRANGLER_LOG_PATH=/tmp/anisonary-wrangler-logs");
     }
   });
 
@@ -96,6 +97,10 @@ describe("Cloudflare Workers deployment config", () => {
     expect(headers).toContain("/sw.js");
     expect(headers).toContain("Cache-Control: public, max-age=0, must-revalidate");
     expect(headers).toContain("Service-Worker-Allowed: /");
+    expect(headers).toContain("/api/v1/*");
+    expect(headers).toContain("Cache-Control: public, max-age=0, must-revalidate");
+    expect(headers).toContain("X-Robots-Tag: noindex");
+    expect(headers).not.toContain("Access-Control-Allow-Origin");
   });
 
   it("keeps the offline manifest public, scoped, and free of tracking endpoints", async () => {

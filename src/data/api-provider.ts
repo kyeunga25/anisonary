@@ -500,7 +500,7 @@ export class ApiProvider implements PublicDataProvider {
   }
 
   async getSeasons(): Promise<PublicSeasonSummary[]> {
-    const data = await this.request("/seasons");
+    const data = await this.request("/seasons.json");
     try {
       return parseSeasonList(data);
     } catch {
@@ -510,7 +510,7 @@ export class ApiProvider implements PublicDataProvider {
 
   async getSeason(seasonId: string): Promise<PublicSeasonDetail | null> {
     if (!seasonIdPattern.test(seasonId)) throw new Error("Anisonary API received an invalid season ID");
-    const data = await this.request(`/seasons/${encodeURIComponent(seasonId)}`, true);
+    const data = await this.request(`/seasons/${encodeURIComponent(seasonId)}.json`, true);
     if (data === null) return null;
     try {
       const season = parseSeasonDetail(data);
@@ -525,7 +525,7 @@ export class ApiProvider implements PublicDataProvider {
     if (!slugPattern.test(requestedSlug) || requestedSlug.length > 160) {
       throw new Error("Anisonary API received an invalid anime slug");
     }
-    const data = await this.request(`/anime/${encodeURIComponent(requestedSlug)}`, true);
+    const data = await this.request(`/anime/${encodeURIComponent(requestedSlug)}.json`, true);
     if (data === null) return null;
     try {
       const anime = parseAnimeDetail(data);

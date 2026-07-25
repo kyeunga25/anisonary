@@ -1,6 +1,6 @@
-# v0.4.0｜Public API production check
+# v1.0.0｜Public static API production check
 
-本文件記錄 Anisonary v0.4.0 repository 提供的 public API 驗收命令。它只驗證已公開的 read-only contract，不包含 backend 實作、資料來源流程、credential 或 Cloudflare 資源資料。
+本文件記錄 Anisonary v1.0.0 build-time JSON assets 的 production 驗收命令。它只驗證已公開的 read-only contract，不包含 runtime backend、資料來源流程、credential 或 Cloudflare 資源資料。
 
 ## 驗收範圍
 
@@ -16,15 +16,15 @@
 執行 live API smoke 與 fail-closed static build：
 
 ```bash
-PUBLIC_API_BASE_URL=https://api.anisonary.k-y.cc/v1 npm run api:check
+PUBLIC_API_BASE_URL=https://anisonary.k-y.cc/api/v1 npm run api:check
 ```
 
-API hostname、TLS、endpoint 或 contract 未通過時，本命令必須失敗；不得回退至 repository data 後標示成功。一般 `npm test` 不會呼叫 live API，避免把外部服務可用性混入 deterministic CI。
+Production domain、TLS、endpoint 或 contract 未通過時，本命令必須失敗；不得回退至 repository data 後標示成功。一般 `npm test` 不會呼叫 live API，避免把部署可用性混入 deterministic CI。
 
 ## 公開與私隱邊界
 
 - smoke failure 只輸出公開 identity 或分類後錯誤，不保存 response payload 或 upstream detail；
-- repository 不保存 API credential、Cloudflare account／database identifier、非公開資源名稱或部署 identifier；
+- API 由與 HTML 相同的 reviewed snapshot 產生，沒有 API credential、Cloudflare account／database identifier、非公開資源名稱或部署 identifier；
 - API response 最終會進入公開 HTML，因此只可包含 `src/types/public-api.ts` 定義且已審核的公開資料；
-- 本命令不加入 crawler、private source adapter、database、analytics 或 stateful binding；
+- 本命令不加入 crawler、private source adapter、database、analytics、CORS wildcard 或 stateful binding；
 - 此 gate 不量測 Lighthouse／Core Web Vitals，亦不以 build 時間或 asset 大小代替瀏覽器 performance trace。
