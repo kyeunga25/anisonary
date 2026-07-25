@@ -1,5 +1,26 @@
 import { expect, test } from "@playwright/test";
 
+test("static responses enforce the generated Content Security Policy", async ({ page }) => {
+  const policyViolations: string[] = [];
+  page.on("console", (message) => {
+    if (message.text().includes("Content Security Policy")) policyViolations.push(message.text());
+  });
+
+  const response = await page.goto("/");
+  const policy = response?.headers()["content-security-policy"] ?? "";
+
+  expect(policy).toContain("default-src 'self'");
+  expect(policy).toContain("script-src-attr 'none'");
+  expect(policy).toContain("style-src-attr 'none'");
+  expect(policy).toContain("img-src 'self' https://s4.anilist.co");
+  expect(policy).toContain("frame-src https://www.youtube-nocookie.com");
+  expect(policy).not.toMatch(/unsafe-inline|unsafe-eval/);
+
+  await page.getByRole("button", { name: "切換深色模式" }).click();
+  await expect(page.locator("html")).toHaveAttribute("data-theme", "dark");
+  expect(policyViolations).toEqual([]);
+});
+
 test("curated catalogue flow reaches verified themes, lazy video and an official page", async ({ page, context }) => {
   const youtubeRequests: string[] = [];
   page.on("request", (request) => {

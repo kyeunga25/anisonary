@@ -24,6 +24,7 @@ Workers Builds 是自動部署來源；repository 不另設第二套 production 
 - production build 產生 `/sw.js`；precache 只含無 query string 的公開同源頁面與資產，並排除測試 poster、404、私人 API response 及第三方媒體。
 - navigation 採 network-first；只有連線失敗才讀取已發布內容，Service Worker 不把使用者後續瀏覽或輸入寫入 runtime cache。
 - `_astro` 指紋資產可長期快取；repository-owned `/assets` 使用較短快取和 stale revalidation；HTML 不設長期快取。
+- production build 會掃描最終 HTML，為可執行 inline script 與 inline style element 產生 SHA-256 Content Security Policy；inline event／style attributes 及未批准的 remote media origin 會令 build 失敗。
 - 非正式 Workers preview hostname 回應 `X-Robots-Tag: noindex`。
 - 正式頁面使用 `Referrer-Policy: no-referrer`；外部海報來源只限經審核的 HTTPS origin，YouTube 只在使用者明確啟動後連線。
 
@@ -77,7 +78,8 @@ npm run cf:deploy
 - 首頁、搜尋、兩個季度頁、至少一個動畫頁、About、Sources 與未知 route；
 - mobile viewport、keyboard focus、theme toggle 及無水平 overflow；
 - canonical、Open Graph、JSON-LD、`robots.txt` 與 `sitemap-index.xml`；
-- `X-Frame-Options`、`X-Content-Type-Options`、`Referrer-Policy`、`Permissions-Policy`；
+- `Content-Security-Policy`、`X-Frame-Options`、`X-Content-Type-Options`、`Referrer-Policy`、`Permissions-Policy`；
+- CSP 不包含 `unsafe-inline`、`unsafe-eval` 或 wildcard，並保持 `script-src-attr 'none'`、`style-src-attr 'none'`；
 - preview hostname 有 `X-Robots-Tag: noindex`；
 - `_astro` 與 `/assets` 使用預期 cache policy，HTML 不被長期固定；
 - `/manifest.webmanifest` 可讀取，`/sw.js` 使用 revalidation 與根 scope；離線搜尋不產生帶 query string 的 cache key；
@@ -90,4 +92,4 @@ npm run cf:deploy
 
 公開 release 記錄只包含產品版本、可重現的測試摘要與正式 route 驗收結果。非公開基礎設施、憑證和復原操作記錄均留在私有營運環境。
 
-Content Security Policy 尚未啟用。未來加入時需先為 Astro inline scripts 建立 nonce 或 hash 策略，並只開放實際使用的 image、frame 和 connect origins；這應作為可獨立測試的 hardening 變更。
+Content Security Policy 由 `scripts/generate-security-headers.mjs` 在 `astro build` 後寫入 `dist/_headers`。不要在 `public/_headers` 手動複製 build-specific hashes；Astro 改變 inline output 時，下一次 build 會重新計算。策略、限制與驗證步驟見 [`QA_CONTENT_SECURITY_POLICY.md`](./QA_CONTENT_SECURITY_POLICY.md)。

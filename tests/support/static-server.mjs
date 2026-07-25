@@ -21,6 +21,29 @@ const contentTypes = {
   ".webp": "image/webp"
 };
 
+async function readGlobalHeaders() {
+  try {
+    const source = await readFile(resolve(root, "_headers"), "utf8");
+    const lines = source.replaceAll("\r\n", "\n").split("\n");
+    const globalRule = lines.findIndex((line) => line.trim() === "/*");
+    if (globalRule === -1) return {};
+
+    const headers = {};
+    for (let index = globalRule + 1; index < lines.length; index += 1) {
+      const line = lines[index];
+      if (!/^\s+\S/.test(line)) break;
+      const separator = line.indexOf(":");
+      if (separator === -1) continue;
+      headers[line.slice(0, separator).trim()] = line.slice(separator + 1).trim();
+    }
+    return headers;
+  } catch {
+    return {};
+  }
+}
+
+const globalHeaders = await readGlobalHeaders();
+
 createServer(async (request, response) => {
   const pathname = decodeURIComponent(new URL(request.url ?? "/", "http://localhost").pathname);
   const relativePath = pathname === "/"
@@ -38,13 +61,13 @@ createServer(async (request, response) => {
   try {
     const body = await readFile(filePath);
     const contentType = contentTypes[extname(filePath)] ?? "application/octet-stream";
-    response.writeHead(200, { "Content-Type": contentType }).end(body);
+    response.writeHead(200, { ...globalHeaders, "Content-Type": contentType }).end(body);
   } catch {
     try {
       const notFound = await readFile(resolve(root, "404.html"));
-      response.writeHead(404, { "Content-Type": contentTypes[".html"] }).end(notFound);
+      response.writeHead(404, { ...globalHeaders, "Content-Type": contentTypes[".html"] }).end(notFound);
     } catch {
-      response.writeHead(404, { "Content-Type": contentTypes[".txt"] }).end("Not found");
+      response.writeHead(404, { ...globalHeaders, "Content-Type": contentTypes[".txt"] }).end("Not found");
     }
   }
 }).listen(port, "127.0.0.1");

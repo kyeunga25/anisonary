@@ -9,7 +9,7 @@ interface Props {
   fetchpriority?: "high" | "low" | "auto";
   className?: string;
   decorative?: boolean;
-  objectPosition?: string;
+  position?: "center" | "upper";
 }
 
 const {
@@ -22,16 +22,15 @@ const {
   fetchpriority,
   className,
   decorative = false,
-  objectPosition = "50% 50%"
+  position = "center"
 } = Astro.props;
 const fallbackLabel = alt ? `${alt}（圖片暫時無法載入）` : "圖片暫時無法載入";
 ---
 
 <div
-  class:list={["poster-image", className]}
+  class:list={["poster-image", `poster-image--${position}`, className]}
   data-poster
   data-poster-state={src ? "loading" : "unavailable"}
-  style={`--poster-position:${objectPosition}`}
 >
   {src && (
     <img
@@ -107,9 +106,11 @@ const fallbackLabel = alt ? `${alt}（圖片暫時無法載入）` : "圖片暫�
   .poster-image img {
     height: 100%;
     object-fit: cover;
-    object-position: var(--poster-position);
+    object-position: 50% 50%;
     width: 100%;
   }
+
+  .poster-image--upper img { object-position: 50% 34%; }
 
   .poster-image__fallback {
     align-items: center;

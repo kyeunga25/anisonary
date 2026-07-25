@@ -21,13 +21,13 @@ export default defineConfig({
   },
   webServer: [
     {
-      command: `node node_modules/astro/bin/astro.mjs build --outDir /tmp/anisonary-playwright-main && node scripts/generate-service-worker.mjs /tmp/anisonary-playwright-main && node tests/support/static-server.mjs /tmp/anisonary-playwright-main ${port}`,
+      command: `node node_modules/astro/bin/astro.mjs build --outDir /tmp/anisonary-playwright-main && node scripts/generate-security-headers.mjs /tmp/anisonary-playwright-main && node scripts/generate-service-worker.mjs /tmp/anisonary-playwright-main && node tests/support/static-server.mjs /tmp/anisonary-playwright-main ${port}`,
       url: baseURL,
       reuseExistingServer: !isCI,
       timeout: 120_000
     },
     {
-      command: `PUBLIC_API_BASE_URL=http://127.0.0.1:9 npx astro build --outDir /tmp/anisonary-playwright-error && node scripts/generate-service-worker.mjs /tmp/anisonary-playwright-error && node tests/support/static-server.mjs /tmp/anisonary-playwright-error ${errorStatePort}`,
+      command: `PUBLIC_API_BASE_URL=http://127.0.0.1:9 npx astro build --outDir /tmp/anisonary-playwright-error && node scripts/generate-security-headers.mjs /tmp/anisonary-playwright-error && node scripts/generate-service-worker.mjs /tmp/anisonary-playwright-error && node tests/support/static-server.mjs /tmp/anisonary-playwright-error ${errorStatePort}`,
       url: errorStateURL,
       reuseExistingServer: !isCI,
       timeout: 120_000
