@@ -317,6 +317,16 @@ function parseTheme(value: unknown): PublicTheme {
   return theme;
 }
 
+function themeHasOfficialVideo(theme: PublicTheme): boolean {
+  if (theme.videos.length > 0) return true;
+
+  return theme.links.some((link) => {
+    if (link.platform !== "YouTube" || link.linkType !== "direct_track") return false;
+    const hostname = new URL(link.url).hostname;
+    return hostname === "youtube.com" || hostname === "www.youtube.com" || hostname === "youtu.be";
+  });
+}
+
 function parseSource(value: unknown): PublicAnimeDetail["sources"][number] {
   const item = record(value);
   const source: PublicAnimeDetail["sources"][number] = {
@@ -357,7 +367,7 @@ function parseAnimeDetail(value: unknown): PublicAnimeDetail {
 
   if (themes.filter((theme) => theme.type === "OP").length !== card.opCount) invalidContract();
   if (themes.filter((theme) => theme.type === "ED").length !== card.edCount) invalidContract();
-  if (themes.some((theme) => theme.videos.length > 0) !== card.hasOfficialVideo) invalidContract();
+  if (themes.some(themeHasOfficialVideo) !== card.hasOfficialVideo) invalidContract();
 
   const detail: PublicAnimeDetail = {
     ...card,

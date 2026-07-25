@@ -83,7 +83,7 @@ npm run cf:deploy
 - `/manifest.webmanifest` 可讀取，`/sw.js` 使用 revalidation 與根 scope；離線搜尋不產生帶 query string 的 cache key；
 - 搜尋結果沒有 remote poster request，搜尋字詞不離開瀏覽器；
 - YouTube 啟動前沒有 iframe 或 thumbnail request，啟動後使用 privacy-enhanced domain；
-- repository catalogue 顯示「已核對精選目錄」，不顯示 Mock Data notice；
+- repository catalogue 顯示「已核對季度完整目錄」，不顯示 Mock Data notice；
 - secrets、非公開基礎設施資料和私有營運記錄沒有進入 tracked files 或 build output。
 
 ## Public record boundary／公開記錄邊界

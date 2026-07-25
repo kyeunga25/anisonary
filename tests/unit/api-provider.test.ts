@@ -119,6 +119,20 @@ describe("ApiProvider public contract", () => {
     }
   });
 
+  it("accepts a reviewed direct YouTube track link as an official video", async () => {
+    const payload = structuredClone(
+      curatedAnimeDetails.find((anime) =>
+        anime.themes.some((theme) =>
+          theme.videos.length === 0 && theme.links.some((link) => link.platform === "YouTube")
+        )
+      )!
+    );
+    const fetchMock = vi.fn<typeof fetch>().mockResolvedValue(jsonResponse(payload));
+    const provider = new ApiProvider("https://api.anisonary.k-y.cc/v1", { fetch: fetchMock });
+
+    await expect(provider.getAnime(payload.slug)).resolves.toEqual(payload);
+  });
+
   it("rejects unsafe nested links and list/detail count drift", async () => {
     const unsafeLinkPayload = structuredClone(curatedAnimeDetails[0]!);
     unsafeLinkPayload.themes[0]!.links[0]!.url = "http://tracker.example.test/song";

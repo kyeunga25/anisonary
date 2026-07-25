@@ -64,15 +64,16 @@ test("cross-season search stays local and matches anime, songs, and artists", as
 
   await page.goto("/search/");
   await expect(page.getByRole("heading", { name: "跨季度搜尋" })).toBeVisible();
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("8");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("139");
 
   const search = page.getByRole("searchbox", { name: "搜尋動畫或歌曲" });
   await search.fill("ＭＹＴＨ & ＲＯＩＤ");
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("2");
-  await expect(page.locator("[data-catalog-theme-count]")).toHaveText("2");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("3");
+  await expect(page.locator("[data-catalog-theme-count]")).toHaveText("3");
   await expect(page.getByRole("link", { name: "幼女戦記Ⅱ" })).toBeVisible();
   await expect(page.getByText("Why? RED induction")).toBeVisible();
   await expect(page.getByRole("link", { name: "Re:ゼロから始める異世界生活 4th season" })).toBeVisible();
+  await expect(page.getByRole("link", { name: "クレバテスⅡ-魔獣の王と偽りの勇者伝承-" })).toBeVisible();
 
   await search.fill("幼女戰記");
   await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1");
@@ -83,7 +84,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
   await expect(page.locator("[data-catalog-anime-count]")).toHaveText("0");
 
   await search.press("Escape");
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("8");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("139");
   expect(externalRequests).toEqual([]);
 });
 
@@ -147,7 +148,7 @@ test("mobile season filters remain keyboard-operable", async ({ page }) => {
   await videoFilter.focus();
   await page.keyboard.press("Space");
   await expect(videoFilter).toBeChecked();
-  await expect(page.locator("[data-result-count]")).toHaveText("3");
+  await expect(page.locator("[data-result-count]")).toHaveText("57");
   await expect(page.getByRole("heading", { name: "2026 夏季動畫" })).toBeVisible();
 });
 

@@ -2,9 +2,9 @@
 
 Anisonary 是以 Astro + strict TypeScript 建立的動畫歌曲目錄，按季度與日本編輯播出日瀏覽作品、OP 與 ED；下方同時保留 English technical notes。
 
-This repository contains the completed Phase 1 frontend and the Phase 2 curated catalogue foundation: season directory, anime detail pages, traceable OP／ED credits and links, source and image provenance, local-only cross-season search, privacy-bounded offline reading, a GitHub correction flow, and Cloudflare Workers Static Assets delivery. The default catalogue contains manually reviewed public records; fictional Mock Data remains test-only.
+This repository contains the completed Phase 1 frontend and the Phase 2 curated catalogue: season directory, anime detail pages, traceable OP／ED credits and links, source and image provenance, local-only cross-season search, privacy-bounded offline reading, a GitHub correction flow, and Cloudflare Workers Static Assets delivery. The default catalogue covers 70 spring and 70 summer 2026 TV／WEB anime, with 139 unique titles and 298 known OP／ED records; fictional Mock Data remains test-only.
 
-目前公開版本：**v0.3.0**。搜尋在瀏覽器內比對日文、繁體中文、Romaji、歌曲、歌手與 credit；搜尋字詞不會傳送到 server 或 analytics。Service Worker 只預先保存 build 產生的公開同源頁面與靜態資產，不保存搜尋字詞、私人 API response 或第三方媒體。
+目前公開版本：**v0.4.0**。搜尋在瀏覽器內比對日文、繁體中文、Romaji、歌曲、歌手與 credit；搜尋字詞不會傳送到 server 或 analytics。Service Worker 只預先保存 build 產生的公開同源頁面與靜態資產，不保存搜尋字詞、私人 API response 或第三方媒體。
 
 ## Local development
 
@@ -32,7 +32,7 @@ npm run check
 - `MockProvider` remains available only for isolated tests and UI fixtures.
 - Copy `.env.example` to `.env` for local configuration. Never commit secrets.
 
-Season coverage uses a repository-owned source registry: Annict is the Japanese seasonal inventory baseline, while Bangumi provides a Chinese-entry cross-check. Both are editorial inputs only; production builds use reviewed local snapshots and never require these external APIs at runtime. See `docs/DATA_SOURCES.md` for URL builders, pagination, authentication boundaries, and Traditional Chinese naming rules.
+Season coverage uses a repository-owned source registry: Annict is the Japanese seasonal inventory baseline, while Bangumi provides a Chinese-entry cross-check. The 2026 spring／summer snapshot additionally cross-checks a Traditional Chinese calendar inventory, AniList identifiers and media, AnimeThemes records, public theme-song indexes, official sites, and Taiwan／Hong Kong licensing pages. These are editorial inputs only; production builds use the reviewed static snapshot and never require external APIs at runtime. See `docs/DATA_SOURCES.md` for the exact scope and naming rules.
 
 ## Catalogue search
 
@@ -90,6 +90,7 @@ Production domain: <https://anisonary.k-y.cc>. Non-production Cloudflare hostnam
 
 - Public product scope and release status: `docs/PROJECT_PLAN.md`
 - Phase 2 catalogue scope and source ledger: `docs/PHASE2_CATALOG.md`
+- v0.4.0 complete 2026 spring／summer catalogue QA: `docs/QA_2026_SPRING_SUMMER_CATALOG.md`
 - v0.2.0 search and media privacy QA: `docs/QA_PHASE2_SEARCH_PRIVACY.md`
 - v0.3.0 offline static catalogue QA: `docs/QA_PHASE2_OFFLINE_STATIC.md`
 - Stable Japanese and Chinese seasonal source registry: `docs/DATA_SOURCES.md`

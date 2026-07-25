@@ -4,7 +4,7 @@
 
 ## Phase 1 範圍
 
-- 2026 夏季與 2026 春季；
+- 2026 夏季與 2026 春季的非成人 TV／WEB 周播動畫，各 70 套；
 - 星期一至星期日及不定期分組；
 - 動畫海報 Grid；
 - 動畫詳情、OP／ED、官方 YouTube、基本 Links、來源與驗證時間；
@@ -17,6 +17,7 @@
 - **v0.1.x**：季度與動畫詳情頁、OP／ED credits、來源、平台連結、深淺色主題、SEO、無障礙狀態及 Workers Static Assets delivery；
 - **v0.2.0**：可追溯精選目錄、加固的公開 API contract boundary、跨季度本機搜尋，以及 YouTube 明確同意與 `no-referrer` 媒體私隱設定；
 - **v0.3.0**：私隱邊界明確的離線目錄、繁中 Web App Manifest，以及 build-time 同源靜態 precache；不加入 application Worker 或 stateful binding；
+- **v0.4.0**：補齊 2026 春夏完整季度範圍，建立 139 個唯一作品頁及 298 首已公布 OP／ED 的可追溯靜態快照；
 - 正式網站使用 custom domain；非正式 Cloudflare hostname 不在公開文檔記錄；
 - 私有 backend、資料庫、crawler、帳戶設定、憑證與內部規則不屬於本公開 repository。
 
