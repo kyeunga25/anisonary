@@ -122,6 +122,20 @@ describe("Cloudflare Workers deployment config", () => {
     expect(headers).not.toContain("Referrer-Policy: strict-origin-when-cross-origin");
   });
 
+  it("generates CSP from the final static HTML before packaging the service worker", async () => {
+    const packageJson = JSON.parse(await projectFile("package.json")) as {
+      scripts?: Record<string, string>;
+    };
+    const build = packageJson.scripts?.build ?? "";
+
+    expect(build).toContain("astro build");
+    expect(build).toContain("node scripts/generate-security-headers.mjs dist");
+    expect(build).toContain("node scripts/generate-service-worker.mjs dist");
+    expect(build.indexOf("generate-security-headers")).toBeLessThan(
+      build.indexOf("generate-service-worker"),
+    );
+  });
+
   it("keeps macOS Finder metadata out of public assets", async () => {
     await expect(access(projectPath("public/.DS_Store"))).rejects.toMatchObject({ code: "ENOENT" });
   });

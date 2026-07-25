@@ -6,6 +6,8 @@ This repository contains the completed Phase 1 frontend and the Phase 2 curated 
 
 目前公開版本：**v0.4.0**。搜尋在瀏覽器內比對日文、繁體中文、Romaji、歌曲、歌手與 credit；搜尋字詞不會傳送到 server 或 analytics。Service Worker 只預先保存 build 產生的公開同源頁面與靜態資產，不保存搜尋字詞、私人 API response 或第三方媒體。
 
+Production build 會從最終 HTML 自動產生 hash-based Content Security Policy。政策不使用 `unsafe-inline` 或 `unsafe-eval`，禁止 inline event／style attributes，只開放同源資產、已核對的海報來源及使用者啟動後的 YouTube privacy-enhanced iframe。任何未批准的 media origin 會令 build fail closed。
+
 ## Local development
 
 ```bash
@@ -93,6 +95,7 @@ Production domain: <https://anisonary.k-y.cc>. Non-production Cloudflare hostnam
 - v0.4.0 complete 2026 spring／summer catalogue QA: `docs/QA_2026_SPRING_SUMMER_CATALOG.md`
 - v0.2.0 search and media privacy QA: `docs/QA_PHASE2_SEARCH_PRIVACY.md`
 - v0.3.0 offline static catalogue QA: `docs/QA_PHASE2_OFFLINE_STATIC.md`
+- Content Security Policy build 與 browser QA: `docs/QA_CONTENT_SECURITY_POLICY.md`
 - Stable Japanese and Chinese seasonal source registry: `docs/DATA_SOURCES.md`
 - Visual system and accepted concepts: `docs/DESIGN_SYSTEM.md`
 - M0–M6 QA evidence: `docs/QA_PHASE1_M0_M6.md`

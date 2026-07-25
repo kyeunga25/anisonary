@@ -30,7 +30,7 @@ const mediaAlt = anime.bannerAlt ?? anime.posterAlt;
         width={anime.bannerUrl ? 1280 : 768}
         height={anime.bannerUrl ? 720 : 1152}
         loading={eager ? "eager" : "lazy"}
-        objectPosition={variant === "directory" ? "50% 34%" : "50% 50%"}
+        position={variant === "directory" ? "upper" : "center"}
       />
     </div>
     <div class="anime-card__body">
@@ -51,7 +51,7 @@ const mediaAlt = anime.bannerAlt ?? anime.posterAlt;
       </div>
       <div class="anime-card__completion">
         <span>資料完整度 {completion}%</span>
-        <span class="anime-card__rail" aria-hidden="true"><span style={`width:${completion}%`}></span></span>
+        <progress class="anime-card__rail" max="100" value={completion} aria-hidden="true"></progress>
       </div>
     </div>
   </a>
@@ -104,8 +104,19 @@ const mediaAlt = anime.bannerAlt ?? anime.posterAlt;
   .anime-card__video svg { border: 1px solid currentColor; fill: currentColor; height: 0.9rem; width: 0.9rem; }
 
   .anime-card__completion { color: var(--color-muted); font-size: 0.66rem; margin-top: auto; padding-top: 0.9rem; }
-  .anime-card__rail { background: var(--color-border); display: block; height: 2px; margin-top: 0.32rem; overflow: hidden; }
-  .anime-card__rail span { background: var(--color-accent); display: block; height: 100%; }
+  .anime-card__rail {
+    appearance: none;
+    background: var(--color-border);
+    border: 0;
+    display: block;
+    height: 2px;
+    margin-top: 0.32rem;
+    overflow: hidden;
+    width: 100%;
+  }
+  .anime-card__rail::-webkit-progress-bar { background: var(--color-border); }
+  .anime-card__rail::-webkit-progress-value { background: var(--color-accent); }
+  .anime-card__rail::-moz-progress-bar { background: var(--color-accent); }
 
   :global(.anime-card--home) .anime-card__media { aspect-ratio: 16 / 9; }
   :global(.anime-card--home) .anime-card__body { min-height: 10.6rem; }
