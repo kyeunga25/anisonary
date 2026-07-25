@@ -34,6 +34,20 @@ E2E 覆蓋 static API、generated CSP、完整目錄、YouTube 明確同意、�
 - [Workers platform limits](https://developers.cloudflare.com/workers/platform/limits/)
 - [Astro static file endpoints](https://docs.astro.build/en/guides/endpoints/)
 
-## Production acceptance boundary
+## Production 驗收
 
-Production 記錄只會在 GitHub checks、已合併 `main` 的 Workers Build、custom-domain JSON contract、主要 routes、security headers 與未知 route 全部通過後補充；不以 preview、local build 或命令意圖代替正式驗收。
+已合併 `main` 的 required CI 與 Workers Build 均通過，並在 custom domain 完成以下獨立驗收：
+
+- `PUBLIC_API_BASE_URL=https://anisonary.k-y.cc/api/v1 npm run api:check` 通過 2 個季度、139 個動畫、跨 endpoint 一致性、未知 identity `404` 及 fail-closed production build；
+- 首頁、搜尋、2026 夏季、動畫詳情、關於、來源、Web App Manifest、Service Worker、robots、sitemap 及三個代表 API route 均回應 `200`；
+- 未知季度 API、未知動畫 API 及未知頁面均回應 `404`；
+- API 回應為 JSON，使用 revalidation 與 `X-Robots-Tag: noindex`，沒有 permissive CORS；
+- 正式頁面提供 generated CSP、`nosniff`、`no-referrer` 及限制 browser capabilities 的 policy；
+- production Service Worker 與 sitemap 均沒有收錄 `/api/`；
+- Chromium 實際載入首頁、深色模式與跨季度搜尋；搜尋由 139 個作品收斂至 1 個結果，期間沒有外站 request，亦沒有 console 或 page error。
+
+以上記錄不包含平台帳戶、部署 identifier 或非公開資源資料，亦不以 preview、local build 或命令意圖代替正式驗收。
+
+## Measurement boundary
+
+本環境沒有可用的 Chrome DevTools performance trace integration，因此本版本不聲稱 Lighthouse 或 Core Web Vitals 數值；功能與 deployment 驗收不會冒充未量度的效能證據。
