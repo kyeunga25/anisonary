@@ -13,6 +13,14 @@ PUBLIC_API_BASE_URL=https://api.anisonary.k-y.cc/v1
 ANISONARY_REQUIRE_API_DATA=true
 ```
 
+Backend 上線後，frontend 可用同一個 public contract 及 fail-closed build 完成 live 驗收：
+
+```bash
+PUBLIC_API_BASE_URL=https://api.anisonary.k-y.cc/v1 npm run api:check
+```
+
+這個 gate 會逐一核對 season list、season detail、anime detail、跨 endpoint 公開欄位一致性、Mock Data 禁止條件及未知 identity 的 `404`。它不會把 response payload 或 upstream detail 寫入 repository。
+
 ## Required endpoints
 
 | Method | Path | Success | Not found |
