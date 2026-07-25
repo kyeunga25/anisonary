@@ -3,11 +3,19 @@ import { curatedAnimeDetails, curatedSeasonDetails, curatedSeasons } from "@/dat
 import { CuratedProvider } from "@/data/curated-provider";
 
 describe("curated public catalogue", () => {
-  it("publishes the reviewed spring and summer 2026 slices", () => {
+  it("publishes the complete reviewed spring and summer 2026 scope", () => {
     expect(curatedSeasons.map((season) => season.id)).toEqual(["2026-summer", "2026-spring"]);
     expect(curatedSeasonDetails).toHaveLength(2);
-    expect(curatedSeasonDetails.map((season) => season.anime.length)).toEqual([4, 4]);
-    expect(curatedAnimeDetails).toHaveLength(8);
+    expect(curatedSeasonDetails.map((season) => season.anime.length)).toEqual([70, 70]);
+    expect(curatedAnimeDetails).toHaveLength(139);
+    expect(curatedAnimeDetails.filter((anime) => anime.themes.length > 0)).toHaveLength(133);
+    expect(curatedAnimeDetails.flatMap((anime) => anime.themes)).toHaveLength(298);
+    const youtubeLinks = curatedAnimeDetails
+      .flatMap((anime) => anime.themes)
+      .flatMap((theme) => theme.links)
+      .filter((link) => link.platform === "YouTube");
+    expect(youtubeLinks).toHaveLength(232);
+    expect(youtubeLinks.every((link) => new URL(link.url).hostname === "www.youtube.com")).toBe(true);
   });
 
   it("keeps every season card connected to one complete detail record", () => {
@@ -28,7 +36,7 @@ describe("curated public catalogue", () => {
   it("uses traceable HTTPS artwork and reviewed public sources", () => {
     for (const anime of curatedAnimeDetails) {
       expect(anime.posterUrl).toMatch(/^https:\/\/s4\.anilist\.co\//);
-      expect(anime.bannerUrl).toMatch(/^https:\/\/s4\.anilist\.co\//);
+      if (anime.bannerUrl) expect(anime.bannerUrl).toMatch(/^https:\/\/s4\.anilist\.co\//);
       expect(anime.imageSourceUrl).toMatch(/^https:\/\/anilist\.co\/anime\//);
       expect(anime.posterAlt).toContain(anime.titleJa);
       expect(anime.sources.length).toBeGreaterThanOrEqual(2);
@@ -36,17 +44,20 @@ describe("curated public catalogue", () => {
       for (const item of anime.sources) {
         expect(item.url).toMatch(/^https:\/\//);
         expect(item.url).not.toContain("example.com");
-        expect(item.verifiedAt).toBe("2026-07-24");
+        expect(item.verifiedAt).toBe("2026-07-25");
       }
 
       for (const item of anime.themes) {
         expect(item.titleJa).toBeTruthy();
         expect(item.artistDisplayName).toBeTruthy();
-        expect(item.lastVerifiedAt).toBe("2026-07-24");
+        expect(item.lastVerifiedAt).toBe("2026-07-25");
         expect(item.sourceLabels[0]).not.toMatch(/mock/i);
+        for (const link of item.links) expect(link.url).toMatch(/^https:\/\//);
       }
 
-      expect(anime.hasOfficialVideo).toBe(anime.themes.some((item) => item.videos.length > 0));
+      expect(anime.hasOfficialVideo).toBe(anime.themes.some((item) =>
+        item.videos.length > 0 || item.links.some((link) => link.platform === "YouTube")
+      ));
     }
   });
 

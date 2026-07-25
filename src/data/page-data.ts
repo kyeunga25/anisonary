@@ -99,13 +99,14 @@ export async function loadCatalogSearchData(
       throw new Error(`Season detail is missing for ${missingSeason.season.id}`);
     }
 
-    const cards = seasonDetails.flatMap(({ season, detail }) =>
+    const seasonalCards = seasonDetails.flatMap(({ season, detail }) =>
       (detail?.anime ?? []).map((card) => ({
         card,
         season,
         isMockData: Boolean(detail?.isMockData)
       }))
     );
+    const cards = [...new Map(seasonalCards.map((entry) => [entry.card.slug, entry])).values()];
     if (cards.length > MAX_CATALOG_SEARCH_ENTRIES) {
       throw new Error("Catalogue search entry limit exceeded");
     }

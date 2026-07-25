@@ -17,8 +17,9 @@ const registeredSources = catalogSourceDefinitions.map((source) => ({
     <ol>
       <li>動畫官方網站、唱片公司、藝人官方網站與官方 YouTube；</li>
       <li>Annict 日文季度目錄與結構化資料，用作日本新番全集盤點；</li>
-      <li>Bangumi 中文條目用作缺口與別名交叉核對，台港正式出版資料才是繁中譯名依據；</li>
-      <li>AniList、MusicBrainz 等國際交叉確認及公開媒體識別。</li>
+      <li>Bangumi、繁中年度動畫列表與台港正式授權頁，用作缺口、日期與譯名交叉核對；</li>
+      <li>AnimeThemes 與季度主題曲清單交叉確認 OP／ED；連結只有指向官方 YouTube 時才標記為官方影片；</li>
+      <li>AniList 等國際資料庫只作作品識別、官方網站指標及公開媒體來源。</li>
     </ol>
     <h2 id="season-catalogs">固定季度全集參考</h2>
     <p>每個季度頁會由同一份來源 registry 產生對應目錄連結。兩邊只負責盤點和交叉核對；網站使用 repository 內已人工審核的 snapshot，不會在 build 或使用者瀏覽時即時請求外部 API。</p>
@@ -50,11 +51,20 @@ const registeredSources = catalogSourceDefinitions.map((source) => ({
         </article>
       ))}
     </div>
-    <p>更新季度資料時，先取兩邊的聯集找出缺口，再逐套返回動畫官網和台港正式授權來源確認。完整查詢方式、分頁規則與繁中名稱政策記錄在 repository 的 <a href="https://github.com/kyeunga25/anisonary/blob/main/docs/DATA_SOURCES.md" target="_blank" rel="noopener noreferrer">DATA_SOURCES.md</a>。</p>
+    <h2>2026 春夏公開快照</h2>
+    <p>本輪以 2026 年繁中日本動畫列表的 4–6 月、7–9 月首播表作日曆基準，再與 Annict／Bangumi、AniList、AnimeThemes、UZUREA 及每套作品官網交叉核對。網站不會在 build 或瀏覽時即時呼叫這些來源。</p>
+    <ul>
+      <li><a href="https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8" target="_blank" rel="noopener noreferrer">2026 年日本動畫繁中列表 ↗</a></li>
+      <li><a href="https://animethemes.moe/year/2026/spring" target="_blank" rel="noopener noreferrer">AnimeThemes 2026 春季 ↗</a>／<a href="https://animethemes.moe/year/2026/summer" target="_blank" rel="noopener noreferrer">夏季 ↗</a></li>
+      <li><a href="https://uzurea.net/spring-2026-anime-theme-songs/" target="_blank" rel="noopener noreferrer">UZUREA 2026 春季主題曲 ↗</a>／<a href="https://uzurea.net/summer-2026-anime-theme-songs/" target="_blank" rel="noopener noreferrer">夏季 ↗</a></li>
+      <li><a href="https://ani.gamer.com.tw/seasonal.php?c=2026_S2" target="_blank" rel="noopener noreferrer">動畫瘋 2026 春季授權資料 ↗</a>／<a href="https://ani.gamer.com.tw/seasonal.php" target="_blank" rel="noopener noreferrer">夏季 ↗</a></li>
+    </ul>
+    <p>更新季度資料時，先取多個目錄的聯集找出缺口，再逐套返回動畫官網和台港正式授權來源確認。完整查詢方式、分頁規則與繁中名稱政策記錄在 repository 的 <a href="https://github.com/kyeunga25/anisonary/blob/main/docs/DATA_SOURCES.md" target="_blank" rel="noopener noreferrer">DATA_SOURCES.md</a>。</p>
     <h2>圖片原則</h2>
     <p>目錄不使用 AI 生成圖片，也不從動畫官網下載後重新託管素材。目前作品圖像使用可追溯至公開媒體頁的原始作品視覺，詳情頁會顯示圖像來源；來源無法載入時只顯示無圖 fallback。</p>
     <h2>目前資料狀態</h2>
-    <p>預設目錄收錄經人工核對的 2026 夏季與春季精選作品，最後核對日期為 2026-07-24。開發用 Mock Data 仍只保留在測試 fixture，不再是網站預設內容。</p>
+    <p>預設目錄收錄 2026 春季 70 套與夏季 70 套非成人 TV／WEB 周播動畫；《Re:從零開始的異世界生活》第四季跨兩季，因此共有 139 個唯一作品頁。已整合 298 首 OP／ED；6 套只有未分類「主題歌」或尚未公布 OP／ED，詳情頁會明確顯示待公布。最後核對日期為 2026-07-25。</p>
+    <p>收錄包含短篇、新季度及分割 cour；不包含劇場版、OVA、單次特別篇、宣傳短片或 18+ 作品。開發用 Mock Data 仍只保留在測試 fixture，不是網站預設內容。</p>
     <p>如發現播出時間、譯名、主題曲或來源需要修正，可用 <a href="https://github.com/kyeunga25/anisonary/issues/new?template=catalog-correction.yml" target="_blank" rel="noopener noreferrer">GitHub 資料修正表單</a> 提交公開來源。</p>
   </article>
 </BaseLayout>

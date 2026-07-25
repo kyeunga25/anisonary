@@ -2,6 +2,12 @@
 
 這份文件是 Anisonary 的長期季度盤點基準。目標是用兩個公開、可重複查詢的中日資料來源找齊季度作品，再以動畫官網及正式授權資料完成最終核對。
 
+## 目前收錄範圍
+
+季度完整性定義為：在日本於該季度日曆月份首播的非成人 `TV`／`WEB` 周播動畫，包含短篇、新季度與分割 cour；排除劇場版、OVA、單次特別篇、宣傳短片及 18+ 作品。2026 春季與夏季各收錄 70 套；同一作品跨季時共用一個詳情頁。
+
+2026 春夏快照先以繁中年度動畫表的 4–6 月、7–9 月首播表建立日曆清單，再與 Annict、Bangumi 及 AniList identifier 取聯集核對。OP／ED 以作品官網和官方 YouTube 為主，並用 AnimeThemes 與 UZUREA 的季度主題曲表交叉確認。台港正式代理、串流或出版社名稱優先；未有正式繁中名稱時保留可追溯的繁中編輯名稱，不宣稱為正式授權譯名。
+
 ## 固定來源
 
 ### Annict｜日本語季度全集基準
@@ -53,7 +59,7 @@ curl -H 'User-Agent: Anisonary/0.1 (https://github.com/kyeunga25/anisonary)' \
 1. 由 `src/data/catalog-sources.ts` 產生目標季度的 Annict 目錄和兩個 API query。
 2. 完成 Annict 50 筆分頁與 Bangumi `total`／`offset` 分頁，取得兩邊聯集。
 3. 以原文標題、日期、官網及 ID 人工比對，列出新增、缺口及衝突。
-4. 返回官方來源核對後，才更新 `src/data/curated-data.ts`；每筆保留來源及 `verifiedAt`。
+4. 返回官方來源核對後，才更新 `src/data/curated-seeds.ts` 與少量明確的 credit override；每筆保留來源及 `verifiedAt`。
 5. 執行 `npm run catalog:check`、`npm run lint` 及完整 `npm run check`，經 PR review 後合併。
 
 ## Repository 邊界
@@ -61,4 +67,5 @@ curl -H 'User-Agent: Anisonary/0.1 (https://github.com/kyeunga25/anisonary)' \
 - 網站 build 和瀏覽器不即時依賴 Annict 或 Bangumi；production 使用 repository 內已審核的 snapshot。
 - 不提交 access token、API 回應 dump、crawler、private source adapter 或內部信心規則。
 - 外部來源失效不應令現有季度頁無法 build；更新工作可以延後，但不可用猜測補資料。
+- repository 只保存人工審核後的靜態 seed，不保存原始 API response、抓取器或私有比對規則。
 - API schema 或 endpoint 改動時，只修改集中式 `src/data/catalog-sources.ts` 及對應契約測試。
