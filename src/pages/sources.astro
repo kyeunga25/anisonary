@@ -51,19 +51,20 @@ const registeredSources = catalogSourceDefinitions.map((source) => ({
         </article>
       ))}
     </div>
-    <h2>2026 春夏公開快照</h2>
-    <p>本輪以 2026 年繁中日本動畫列表的 4–6 月、7–9 月首播表作日曆基準，再與 Annict／Bangumi、AniList、AnimeThemes、UZUREA 及每套作品官網交叉核對。網站不會在 build 或瀏覽時即時呼叫這些來源。</p>
+    <h2>2025–2026 四季公開快照</h2>
+    <p>已發布的四個季度以繁中日本動畫年度列表的對應月份作日曆基準，再與 Annict／Bangumi、AniList、AnimeThemes、UZUREA 及每套作品官網交叉核對。網站不會在 build 或瀏覽時即時呼叫這些來源。</p>
     <ul>
       <li><a href="https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8" target="_blank" rel="noopener noreferrer">2026 年日本動畫繁中列表 ↗</a></li>
-      <li><a href="https://animethemes.moe/year/2026/spring" target="_blank" rel="noopener noreferrer">AnimeThemes 2026 春季 ↗</a>／<a href="https://animethemes.moe/year/2026/summer" target="_blank" rel="noopener noreferrer">夏季 ↗</a></li>
-      <li><a href="https://uzurea.net/spring-2026-anime-theme-songs/" target="_blank" rel="noopener noreferrer">UZUREA 2026 春季主題曲 ↗</a>／<a href="https://uzurea.net/summer-2026-anime-theme-songs/" target="_blank" rel="noopener noreferrer">夏季 ↗</a></li>
+      <li><a href="https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8" target="_blank" rel="noopener noreferrer">2025 年日本動畫繁中列表 ↗</a></li>
+      <li><a href="https://animethemes.moe/year/2026/winter" target="_blank" rel="noopener noreferrer">AnimeThemes 2026 冬季 ↗</a>／<a href="https://animethemes.moe/year/2026/spring" target="_blank" rel="noopener noreferrer">春季 ↗</a>／<a href="https://animethemes.moe/year/2026/summer" target="_blank" rel="noopener noreferrer">夏季 ↗</a>／<a href="https://animethemes.moe/year/2025/summer" target="_blank" rel="noopener noreferrer">2025 夏季 ↗</a></li>
+      <li><a href="https://uzurea.net/winter-2026-anime-theme-songs/" target="_blank" rel="noopener noreferrer">UZUREA 2026 冬季主題曲 ↗</a>／<a href="https://uzurea.net/spring-2026-anime-theme-songs/" target="_blank" rel="noopener noreferrer">春季 ↗</a>／<a href="https://uzurea.net/summer-2026-anime-theme-songs/" target="_blank" rel="noopener noreferrer">夏季 ↗</a>／<a href="https://uzurea.net/summer-2025-anime-themes-and-picks/" target="_blank" rel="noopener noreferrer">2025 夏季 ↗</a></li>
       <li><a href="https://ani.gamer.com.tw/seasonal.php?c=2026_S2" target="_blank" rel="noopener noreferrer">動畫瘋 2026 春季授權資料 ↗</a>／<a href="https://ani.gamer.com.tw/seasonal.php" target="_blank" rel="noopener noreferrer">夏季 ↗</a></li>
     </ul>
     <p>更新季度資料時，先取多個目錄的聯集找出缺口，再逐套返回動畫官網和台港正式授權來源確認。完整查詢方式、分頁規則與繁中名稱政策記錄在 repository 的 <a href="https://github.com/kyeunga25/anisonary/blob/main/docs/DATA_SOURCES.md" target="_blank" rel="noopener noreferrer">DATA_SOURCES.md</a>。</p>
     <h2>圖片原則</h2>
     <p>目錄不使用 AI 生成圖片，也不從動畫官網下載後重新託管素材。目前作品圖像使用可追溯至公開媒體頁的原始作品視覺，詳情頁會顯示圖像來源；來源無法載入時只顯示無圖 fallback。</p>
     <h2>目前資料狀態</h2>
-    <p>預設目錄收錄 2026 春季 70 套與夏季 70 套非成人 TV／WEB 周播動畫；《Re:從零開始的異世界生活》第四季跨兩季，因此共有 139 個唯一作品頁。已整合 298 首 OP／ED；6 套只有未分類「主題歌」或尚未公布 OP／ED，詳情頁會明確顯示待公布。最後核對日期為 2026-07-25。</p>
+    <p>預設目錄收錄 2026 夏季 70 套、春季 70 套、冬季 66 套與 2025 夏季 75 套非成人 TV／WEB 連載動畫；跨季作品共用詳情頁，因此共有 280 個唯一作品頁。已整合 615 首 OP／ED 與 392 個官方 YouTube 連結；未能由公開來源確認歌曲的短篇會明確顯示待公布。最新季度核對日期為 2026-07-28。</p>
     <p>收錄包含短篇、新季度及分割 cour；不包含劇場版、OVA、單次特別篇、宣傳短片或 18+ 作品。開發用 Mock Data 仍只保留在測試 fixture，不是網站預設內容。</p>
     <p>如發現播出時間、譯名、主題曲或來源需要修正，可用 <a href="https://github.com/kyeunga25/anisonary/issues/new?template=catalog-correction.yml" target="_blank" rel="noopener noreferrer">GitHub 資料修正表單</a> 提交公開來源。</p>
   </article>

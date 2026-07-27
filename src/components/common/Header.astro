@@ -7,6 +7,8 @@ const links = [
   { href: "/", label: "首頁" },
   { href: "/seasons/2026-summer/", label: "2026 夏季" },
   { href: "/seasons/2026-spring/", label: "2026 春季" },
+  { href: "/seasons/2026-winter/", label: "2026 冬季" },
+  { href: "/seasons/2025-summer/", label: "2025 夏季" },
   { href: "/search/", label: "搜尋" },
   { href: "/about/", label: "關於" },
   { href: "/sources/", label: "資料來源" }
@@ -48,7 +50,7 @@ const isActive = (href: string) => href === "/" ? pathname === "/" : pathname.st
   .site-nav {
     align-items: stretch;
     display: flex;
-    gap: clamp(1.2rem, 3vw, 3.25rem);
+    gap: clamp(0.8rem, 1.8vw, 2rem);
     height: 5.35rem;
   }
 

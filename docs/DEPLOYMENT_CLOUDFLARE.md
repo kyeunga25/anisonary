@@ -88,7 +88,7 @@ npm run cf:deploy
 - 搜尋結果沒有 remote poster request，搜尋字詞不離開瀏覽器；
 - YouTube 啟動前沒有 iframe 或 thumbnail request，啟動後使用 privacy-enhanced domain；
 - repository catalogue 顯示「已核對季度完整目錄」，不顯示 Mock Data notice；
-- season list、兩個 season detail、139 個 anime detail JSON assets 通過 live contract，未知 API route 回應 `404`；
+- season list、四個 season detail、280 個 anime detail JSON assets 通過 live contract，未知 API route 回應 `404`；
 - secrets、非公開基礎設施資料和私有營運記錄沒有進入 tracked files 或 build output。
 
 ## Public record boundary／公開記錄邊界
