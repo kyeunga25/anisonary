@@ -3,24 +3,31 @@ import { curatedAnimeDetails, curatedSeasonDetails, curatedSeasons } from "@/dat
 import { CuratedProvider } from "@/data/curated-provider";
 
 describe("curated public catalogue", () => {
-  it("publishes the complete reviewed spring and summer 2026 scope", () => {
-    expect(curatedSeasons.map((season) => season.id)).toEqual(["2026-summer", "2026-spring"]);
-    expect(curatedSeasonDetails).toHaveLength(2);
-    expect(curatedSeasonDetails.map((season) => season.anime.length)).toEqual([70, 70]);
-    expect(curatedAnimeDetails).toHaveLength(139);
-    expect(curatedAnimeDetails.filter((anime) => anime.themes.length > 0)).toHaveLength(133);
-    expect(curatedAnimeDetails.flatMap((anime) => anime.themes)).toHaveLength(298);
+  it("publishes all four reviewed seasonal snapshots", () => {
+    expect(curatedSeasons.map((season) => season.id)).toEqual([
+      "2026-summer",
+      "2026-spring",
+      "2026-winter",
+      "2025-summer"
+    ]);
+    expect(curatedSeasonDetails).toHaveLength(4);
+    expect(curatedSeasonDetails.map((season) => season.anime.length)).toEqual([70, 70, 66, 75]);
+    expect(curatedAnimeDetails).toHaveLength(280);
+    expect(curatedAnimeDetails.filter((anime) => anime.themes.length > 0)).toHaveLength(269);
+    expect(curatedAnimeDetails.flatMap((anime) => anime.themes)).toHaveLength(615);
     const youtubeLinks = curatedAnimeDetails
       .flatMap((anime) => anime.themes)
       .flatMap((theme) => theme.links)
       .filter((link) => link.platform === "YouTube");
-    expect(youtubeLinks).toHaveLength(232);
+    expect(youtubeLinks).toHaveLength(392);
     expect(youtubeLinks.every((link) => new URL(link.url).hostname === "www.youtube.com")).toBe(true);
   });
 
   it("keeps every season card connected to one complete detail record", () => {
     const slugs = curatedAnimeDetails.map((anime) => anime.slug);
+    const ids = curatedAnimeDetails.map((anime) => anime.id);
     expect(new Set(slugs).size).toBe(slugs.length);
+    expect(new Set(ids).size).toBe(ids.length);
 
     for (const season of curatedSeasonDetails) {
       for (const card of season.anime) {
@@ -34,6 +41,12 @@ describe("curated public catalogue", () => {
   });
 
   it("uses traceable HTTPS artwork and reviewed public sources", () => {
+    const newlyReviewedIds = new Set(
+      curatedSeasonDetails
+        .filter((season) => season.id === "2026-winter" || season.id === "2025-summer")
+        .flatMap((season) => season.anime.map((anime) => anime.id))
+    );
+
     for (const anime of curatedAnimeDetails) {
       expect(anime.posterUrl).toMatch(/^https:\/\/s4\.anilist\.co\//);
       if (anime.bannerUrl) expect(anime.bannerUrl).toMatch(/^https:\/\/s4\.anilist\.co\//);
@@ -44,13 +57,13 @@ describe("curated public catalogue", () => {
       for (const item of anime.sources) {
         expect(item.url).toMatch(/^https:\/\//);
         expect(item.url).not.toContain("example.com");
-        expect(item.verifiedAt).toBe("2026-07-25");
+        expect(item.verifiedAt).toBe(newlyReviewedIds.has(anime.id) ? "2026-07-28" : "2026-07-25");
       }
 
       for (const item of anime.themes) {
         expect(item.titleJa).toBeTruthy();
         expect(item.artistDisplayName).toBeTruthy();
-        expect(item.lastVerifiedAt).toBe("2026-07-25");
+        expect(item.lastVerifiedAt).toBe(newlyReviewedIds.has(anime.id) ? "2026-07-28" : "2026-07-25");
         expect(item.sourceLabels[0]).not.toMatch(/mock/i);
         for (const link of item.links) expect(link.url).toMatch(/^https:\/\//);
       }
@@ -58,6 +71,26 @@ describe("curated public catalogue", () => {
       expect(anime.hasOfficialVideo).toBe(anime.themes.some((item) =>
         item.videos.length > 0 || item.links.some((link) => link.platform === "YouTube")
       ));
+    }
+  });
+
+  it("includes manually verified themes missed by the seasonal song indexes", () => {
+    const expectedThemes = [
+      ["choppers", "OP", "トニートニートニーチョッパー", "ももすももす"],
+      ["enen-no-shouboutai-san-no-shou-part-2", "OP", "Ignis -イグニス-", "西川貴教"],
+      ["trigun-stargaze", "ED", "スターダスト", "FOMARE"],
+      ["prism-rondo", "ED", "star flower", "Chilli Beans."],
+      ["ginga-tokkyuu-milky-subway", "OP", "Altair and Vega", "MindaRyn"],
+      ["poke-mon-concierge-part-2", "ED", "オノマトペ ISLAND", "山下達郎"],
+      ["chikyuu-no-latair", "ED", "地球のオーケストラ", "アースセイバーズ"]
+    ] as const;
+
+    for (const [slug, type, titleJa, artist] of expectedThemes) {
+      const theme = curatedAnimeDetails
+        .find((anime) => anime.slug === slug)
+        ?.themes.find((item) => item.type === type && item.titleJa === titleJa);
+      expect(theme, `${slug}:${type}:${titleJa}`).toBeDefined();
+      expect(theme?.artistDisplayName).toContain(artist);
     }
   });
 

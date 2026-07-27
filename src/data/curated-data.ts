@@ -16,7 +16,7 @@ import type {
   PublicVideo
 } from "@/types/public-api";
 
-const verifiedAt = "2026-07-25";
+const defaultVerifiedAt = "2026-07-25";
 
 const themeOverrides: Record<string, Partial<CuratedThemeSeed>> = {
   "147105:ED:2": { titleJa: "夜に浮かぶ", titleRomaji: "Yoru ni Ukabu" },
@@ -206,7 +206,7 @@ function toTheme(seed: CuratedAnimeSeed, originalTheme: CuratedThemeSeed): Publi
     videos: videoOverrides[key] ?? [],
     links: [...themeLink(seed, theme), ...(linkOverrides[key] ?? [])],
     sourceLabels: sources,
-    lastVerifiedAt: verifiedAt
+    lastVerifiedAt: seed.verifiedAt ?? defaultVerifiedAt
   };
 }
 
@@ -221,7 +221,10 @@ function buildSources(seed: CuratedAnimeSeed): PublicAnimeDetail["sources"] {
   ].filter((item): item is { label: string; url: string } => Boolean(item?.url?.startsWith("https://")));
   const normalized = candidates.map((item) => ({ ...item, url: canonicalHttpsUrl(item.url) }));
   const unique = new Map(normalized.map((item) => [item.url, item]));
-  return [...unique.values()].map((item) => ({ ...item, verifiedAt }));
+  return [...unique.values()].map((item) => ({
+    ...item,
+    verifiedAt: seed.verifiedAt ?? defaultVerifiedAt
+  }));
 }
 
 function toDetail(seed: CuratedAnimeSeed): PublicAnimeDetail {
@@ -289,7 +292,9 @@ function toCard(anime: PublicAnimeDetail): PublicAnimeCard {
 
 export const curatedSeasons: PublicSeasonSummary[] = [
   { id: "2026-summer", year: 2026, quarter: "summer", titleZhHant: "夏季動畫", titleJa: "2026年夏アニメ" },
-  { id: "2026-spring", year: 2026, quarter: "spring", titleZhHant: "春季動畫", titleJa: "2026年春アニメ" }
+  { id: "2026-spring", year: 2026, quarter: "spring", titleZhHant: "春季動畫", titleJa: "2026年春アニメ" },
+  { id: "2026-winter", year: 2026, quarter: "winter", titleZhHant: "冬季動畫", titleJa: "2026年冬アニメ" },
+  { id: "2025-summer", year: 2025, quarter: "summer", titleZhHant: "夏季動畫", titleJa: "2025年夏アニメ" }
 ];
 
 export const curatedAnimeDetails = curatedAnimeSeeds.map(toDetail);
@@ -306,15 +311,8 @@ function cardsForSeason(seasonId: keyof typeof curatedSeasonAnimeIds): PublicAni
   });
 }
 
-export const curatedSeasonDetails: PublicSeasonDetail[] = [
-  {
-    ...curatedSeasons[0]!,
-    anime: cardsForSeason("2026-summer"),
-    catalogReferences: buildSeasonCatalogReferences(2026, "summer")
-  },
-  {
-    ...curatedSeasons[1]!,
-    anime: cardsForSeason("2026-spring"),
-    catalogReferences: buildSeasonCatalogReferences(2026, "spring")
-  }
-];
+export const curatedSeasonDetails: PublicSeasonDetail[] = curatedSeasons.map((season) => ({
+  ...season,
+  anime: cardsForSeason(season.id as keyof typeof curatedSeasonAnimeIds),
+  catalogReferences: buildSeasonCatalogReferences(season.year, season.quarter)
+}));

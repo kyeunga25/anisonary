@@ -5,7 +5,7 @@ test("static public API mirrors the reviewed catalogue without a runtime binding
   expect(seasonsResponse.status()).toBe(200);
   expect(seasonsResponse.headers()["content-type"]).toContain("application/json");
   const seasons = await seasonsResponse.json();
-  expect(seasons).toHaveLength(2);
+  expect(seasons).toHaveLength(4);
 
   const seasonResponse = await request.get("/api/v1/seasons/2026-summer.json");
   expect(seasonResponse.status()).toBe(200);
@@ -13,6 +13,12 @@ test("static public API mirrors the reviewed catalogue without a runtime binding
   expect(season).toMatchObject({ id: "2026-summer" });
   expect(season.isMockData).not.toBe(true);
   expect(season.anime).toHaveLength(70);
+
+  const winterResponse = await request.get("/api/v1/seasons/2026-winter.json");
+  expect(winterResponse.status()).toBe(200);
+  const winter = await winterResponse.json();
+  expect(winter).toMatchObject({ id: "2026-winter" });
+  expect(winter.anime).toHaveLength(66);
 
   const animeResponse = await request.get("/api/v1/anime/mushoku-tensei-3.json");
   expect(animeResponse.status()).toBe(200);
@@ -109,7 +115,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
 
   await page.goto("/search/");
   await expect(page.getByRole("heading", { name: "跨季度搜尋" })).toBeVisible();
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("139");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("280");
 
   const search = page.getByRole("searchbox", { name: "搜尋動畫或歌曲" });
   await search.fill("ＭＹＴＨ & ＲＯＩＤ");
@@ -129,8 +135,24 @@ test("cross-season search stays local and matches anime, songs, and artists", as
   await expect(page.locator("[data-catalog-anime-count]")).toHaveText("0");
 
   await search.press("Escape");
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("139");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("280");
   expect(externalRequests).toEqual([]);
+});
+
+test("added seasonal pages render their reviewed theme records", async ({ page }) => {
+  await page.goto("/seasons/2026-winter/");
+  await expect(page.getByRole("heading", { name: "2026 冬季動畫" })).toBeVisible();
+  await page.getByRole("link", { name: /查看 CHOPPER's/ }).click();
+  await expect(page).toHaveURL(/\/anime\/choppers\/$/);
+  await expect(page.getByRole("heading", { name: "トニートニートニーチョッパー" })).toBeVisible();
+  await expect(page.getByText("ももすももす")).toBeVisible();
+
+  await page.goto("/seasons/2025-summer/");
+  await expect(page.getByRole("heading", { name: "2025 夏季動畫" })).toBeVisible();
+  await page.getByRole("link", { name: /查看 銀河特急 ミルキー☆サブウェイ/ }).click();
+  await expect(page).toHaveURL(/\/anime\/ginga-tokkyuu-milky-subway\/$/);
+  await expect(page.getByRole("heading", { name: "Altair and Vega" })).toBeVisible();
+  await expect(page.getByText("MindaRyn")).toBeVisible();
 });
 
 test("public catalogue remains readable offline without caching personal input", async ({ page, context }) => {

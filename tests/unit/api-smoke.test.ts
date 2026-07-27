@@ -15,8 +15,8 @@ function providerWith(overrides: Partial<PublicDataProvider>): PublicDataProvide
 describe("production API smoke gate", () => {
   it("accepts the complete reviewed catalogue and its not-found behavior", async () => {
     await expect(smokePublicApi(new CuratedProvider())).resolves.toEqual({
-      seasonCount: 2,
-      animeCount: 139
+      seasonCount: 4,
+      animeCount: 280
     });
   });
 

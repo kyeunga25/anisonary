@@ -4,9 +4,11 @@
 
 ## 目前收錄範圍
 
-季度完整性定義為：在日本於該季度日曆月份首播的非成人 `TV`／`WEB` 周播動畫，包含短篇、新季度與分割 cour；排除劇場版、OVA、單次特別篇、宣傳短片及 18+ 作品。2026 春季與夏季各收錄 70 套；同一作品跨季時共用一個詳情頁。
+季度完整性定義為：在日本於該季度日曆月份首播的非成人 `TV`／`WEB` 連載動畫，包含短篇、新季度與分割 cour；排除劇場版、OVA、單次特別篇、宣傳短片及 18+ 作品。若作品在季度開始前數日先行發布，只有同時被 AnimeThemes 與 UZUREA 歸入該季才收錄。同一作品跨季時共用一個詳情頁。
 
-2026 春夏快照先以繁中年度動畫表的 4–6 月、7–9 月首播表建立日曆清單，再與 Annict、Bangumi 及 AniList identifier 取聯集核對。OP／ED 以作品官網和官方 YouTube 為主，並用 AnimeThemes 與 UZUREA 的季度主題曲表交叉確認。台港正式代理、串流或出版社名稱優先；未有正式繁中名稱時保留可追溯的繁中編輯名稱，不宣稱為正式授權譯名。
+目前已發布的審核快照為：2026 夏季 70 套、2026 春季 70 套、2026 冬季 66 套、2025 夏季 75 套，共 280 個作品詳情、615 筆 OP／ED 與 392 個官方 YouTube 連結。
+
+每季先以繁中年度動畫表的對應月份建立日曆清單，再與 Annict、Bangumi 及 AniList identifier 取聯集核對。OP／ED 以作品官網和官方 YouTube 為主，並用 AnimeThemes 與 UZUREA 的季度主題曲表交叉確認；季度歌曲索引未收錄的作品，須返回 Netflix、唱片公司、IP 官網或製作公司等第一方頁面補證。台港正式代理、串流或出版社名稱優先；未有可確認的繁中名稱時保留原文，不宣稱為正式授權譯名。
 
 ## 固定來源
 
@@ -59,7 +61,7 @@ curl -H 'User-Agent: Anisonary/0.1 (https://github.com/kyeunga25/anisonary)' \
 1. 由 `src/data/catalog-sources.ts` 產生目標季度的 Annict 目錄和兩個 API query。
 2. 完成 Annict 50 筆分頁與 Bangumi `total`／`offset` 分頁，取得兩邊聯集。
 3. 以原文標題、日期、官網及 ID 人工比對，列出新增、缺口及衝突。
-4. 返回官方來源核對後，才更新 `src/data/curated-seeds.ts` 與少量明確的 credit override；每筆保留來源及 `verifiedAt`。
+4. 返回官方來源核對後，才更新 `src/data/curated-seeds.ts` 或對應的季度 seed 檔案，以及少量明確的 credit override；每筆保留來源及 `verifiedAt`。
 5. 執行 `npm run catalog:check`、`npm run lint` 及完整 `npm run check`，經 PR review 後合併。
 
 ## Repository 邊界
