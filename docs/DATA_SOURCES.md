@@ -8,7 +8,9 @@
 
 目前已發布的審核快照為：2026 夏季 70 套、2026 春季 70 套、2026 冬季 66 套、2025 夏季 75 套，共 280 個作品詳情、615 筆 OP／ED 與 392 個官方 YouTube 連結。
 
-每季先以繁中年度動畫表的對應月份建立日曆清單，再與 Annict、Bangumi 及 AniList identifier 取聯集核對。OP／ED 以作品官網和官方 YouTube 為主，並用 AnimeThemes 與 UZUREA 的季度主題曲表交叉確認；季度歌曲索引未收錄的作品，須返回 Netflix、唱片公司、IP 官網或製作公司等第一方頁面補證。台港正式代理、串流或出版社名稱優先；未有可確認的繁中名稱時保留原文，不宣稱為正式授權譯名。
+每季先以繁中年度動畫表的對應月份建立日曆清單，再與 Annict、Bangumi 及 AniList identifier 取聯集核對。OP／ED 以作品官網和官方 YouTube 為主，並用 AnimeThemes 與 UZUREA 的季度主題曲表交叉確認；季度歌曲索引未收錄的作品，須返回 Netflix、唱片公司、IP 官網、正式播出機構或製作公司等第一方頁面補證。台港正式代理、串流或出版社名稱優先；未有可確認的繁中名稱時保留原文，不宣稱為正式授權譯名。
+
+每首已發布歌曲在 `PublicTheme.sources[]` 留下 URL、語言、`first_party`／`cross_check` 角色及核對日期。四季快照的 615 筆歌曲都必須同時具備兩種角色；這是公開 provenance gate，不是 confidence score。完整欄位與媒體邊界見 [`DATA_PROVENANCE.md`](./DATA_PROVENANCE.md)。
 
 ## 固定來源
 
@@ -61,7 +63,7 @@ curl -H 'User-Agent: Anisonary/0.1 (https://github.com/kyeunga25/anisonary)' \
 1. 由 `src/data/catalog-sources.ts` 產生目標季度的 Annict 目錄和兩個 API query。
 2. 完成 Annict 50 筆分頁與 Bangumi `total`／`offset` 分頁，取得兩邊聯集。
 3. 以原文標題、日期、官網及 ID 人工比對，列出新增、缺口及衝突。
-4. 返回官方來源核對後，才更新 `src/data/curated-seeds.ts` 或對應的季度 seed 檔案，以及少量明確的 credit override；每筆保留來源及 `verifiedAt`。
+4. 返回官方來源核對後，才更新 `src/data/curated-seeds.ts` 或對應的季度 seed 檔案，以及少量明確的 credit／source override；每筆保留結構化來源及 `verifiedAt`。
 5. 執行 `npm run catalog:check`、`npm run lint` 及完整 `npm run check`，經 PR review 後合併。
 
 ## Repository 邊界
@@ -70,4 +72,5 @@ curl -H 'User-Agent: Anisonary/0.1 (https://github.com/kyeunga25/anisonary)' \
 - 不提交 access token、API 回應 dump、crawler、private source adapter 或內部信心規則。
 - 外部來源失效不應令現有季度頁無法 build；更新工作可以延後，但不可用猜測補資料。
 - repository 只保存人工審核後的靜態 seed，不保存原始 API response、抓取器或私有比對規則。
+- 公開 UI／API 不輸出內部完整度、信心或來源評分；缺口以空狀態或未發布欄位表示。
 - API schema 或 endpoint 改動時，只修改集中式 `src/data/catalog-sources.ts` 及對應契約測試。

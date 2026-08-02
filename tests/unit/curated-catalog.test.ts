@@ -12,6 +12,12 @@ describe("curated public catalogue", () => {
     ]);
     expect(curatedSeasonDetails).toHaveLength(4);
     expect(curatedSeasonDetails.map((season) => season.anime.length)).toEqual([70, 70, 66, 75]);
+    expect(curatedSeasonDetails.map((season) => [season.id, season.reviewState, season.verifiedAt])).toEqual([
+      ["2026-summer", "reviewed", "2026-08-02"],
+      ["2026-spring", "reviewed", "2026-08-02"],
+      ["2026-winter", "reviewed", "2026-07-28"],
+      ["2025-summer", "reviewed", "2026-08-02"]
+    ]);
     expect(curatedAnimeDetails).toHaveLength(280);
     expect(curatedAnimeDetails.filter((anime) => anime.themes.length > 0)).toHaveLength(269);
     expect(curatedAnimeDetails.flatMap((anime) => anime.themes)).toHaveLength(615);
@@ -52,19 +58,36 @@ describe("curated public catalogue", () => {
       if (anime.bannerUrl) expect(anime.bannerUrl).toMatch(/^https:\/\/s4\.anilist\.co\//);
       expect(anime.imageSourceUrl).toMatch(/^https:\/\/anilist\.co\/anime\//);
       expect(anime.posterAlt).toContain(anime.titleJa);
+      expect(anime.reviewState).toBe("reviewed");
       expect(anime.sources.length).toBeGreaterThanOrEqual(2);
+      expect(anime.sources.some((source) => source.role === "first_party")).toBe(true);
+      expect(anime.sources.some((source) => source.role !== "first_party")).toBe(true);
 
       for (const item of anime.sources) {
         expect(item.url).toMatch(/^https:\/\//);
         expect(item.url).not.toContain("example.com");
-        expect(item.verifiedAt).toBe(newlyReviewedIds.has(anime.id) ? "2026-07-28" : "2026-07-25");
+        expect(["zh-Hant", "zh-Hans", "ja", "en", "multi"]).toContain(item.language);
+        expect(item.verifiedAt).toBe(anime.verifiedAt);
       }
 
       for (const item of anime.themes) {
+        const expectedVerifiedAt = item.id === "hyakki-yakou-shou-ed-1" || item.id === "chikyuu-daisuki-kikkun-ed-1"
+          ? "2026-08-02"
+          : newlyReviewedIds.has(anime.id) ? "2026-07-28" : "2026-07-25";
         expect(item.titleJa).toBeTruthy();
         expect(item.artistDisplayName).toBeTruthy();
-        expect(item.lastVerifiedAt).toBe(newlyReviewedIds.has(anime.id) ? "2026-07-28" : "2026-07-25");
-        expect(item.sourceLabels[0]).not.toMatch(/mock/i);
+        expect(item.reviewState).toBe("reviewed");
+        expect(item.sources.length).toBeGreaterThanOrEqual(2);
+        expect(item.sources.some((source) => source.role === "first_party")).toBe(true);
+        expect(item.sources.some((source) => source.role === "cross_check")).toBe(true);
+        expect(item.sourceLabels).toEqual([...new Set(item.sources.map((source) => source.label))]);
+        expect(item.lastVerifiedAt).toBe(expectedVerifiedAt);
+        for (const source of item.sources) {
+          expect(source.url).toMatch(/^https:\/\//);
+          expect(source.url).not.toContain("example.com");
+          expect(["zh-Hant", "zh-Hans", "ja", "en", "multi"]).toContain(source.language);
+          expect(source.verifiedAt).toBe(expectedVerifiedAt);
+        }
         for (const link of item.links) expect(link.url).toMatch(/^https:\/\//);
       }
 

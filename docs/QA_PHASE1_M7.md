@@ -2,6 +2,8 @@
 
 日期：2026-07-19
 
+> 歷史記錄：本頁資產數字描述當時的 M7 build。首頁與 Mock raster assets 已在 v1.2.0 移除，不代表目前 production asset tree。
+
 ## 實作範圍
 
 - `BaseLayout` 統一產生 description、robots、canonical、Open Graph 與 Twitter metadata；

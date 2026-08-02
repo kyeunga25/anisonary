@@ -2,9 +2,9 @@
 
 Anisonary 是以 Astro + strict TypeScript 建立的動畫歌曲目錄，按季度與日本編輯播出日瀏覽作品、OP 與 ED；下方同時保留 English technical notes。
 
-This repository contains the completed Phase 1 frontend and the Phase 2 curated catalogue: season directory, anime detail pages, traceable OP／ED credits and links, source and image provenance, local-only cross-season search, privacy-bounded offline reading, a GitHub correction flow, and Cloudflare Workers Static Assets delivery. The default catalogue covers four reviewed snapshots across 2025 and 2026, with 280 unique titles and 615 known OP／ED records; fictional Mock Data remains test-only.
+This repository contains the completed static product: season directory, anime detail pages, traceable OP／ED credits and links, per-song source ledgers, source-attributed media, local-only cross-season search, privacy-bounded offline reading, a GitHub correction flow, and Cloudflare Workers Static Assets delivery. The default catalogue covers four reviewed snapshots across 2025 and 2026, with 280 unique titles and 615 known OP／ED records; fictional Mock Data remains test-only.
 
-目前公開版本：**v1.1.0**。搜尋在瀏覽器內比對日文、繁體中文、Romaji、歌曲、歌手與 credit；搜尋字詞不會傳送到 server 或 analytics。Build 同時輸出與頁面相同資料來源的同源唯讀 JSON API，不需要 application Worker、D1、KV 或 secret。Service Worker 只預先保存公開頁面與必要靜態資產，不保存搜尋字詞、API JSON 或第三方媒體。
+目前公開版本：**v1.2.0**。每個季度、作品及已發布歌曲都保留結構化來源、來源語言、審閱狀態及核對日期；每首歌曲另同時具備可點擊的第一方與交叉核對來源。公開 UI／API 不發布內部完整度或 confidence score。搜尋在瀏覽器內比對日文、繁體中文、Romaji、歌曲、歌手與 credit；搜尋字詞不會傳送到 server 或 analytics。Build 同時輸出與頁面相同資料來源的同源唯讀 JSON API，不需要 application Worker、D1、KV 或 secret。Service Worker 只預先保存公開頁面與必要靜態資產，不保存搜尋字詞、API JSON 或第三方媒體。
 
 Production build 會從最終 HTML 自動產生 hash-based Content Security Policy。政策不使用 `unsafe-inline` 或 `unsafe-eval`，禁止 inline event／style attributes，只開放同源資產、已核對的海報來源及使用者啟動後的 YouTube privacy-enhanced iframe。任何未批准的 media origin 會令 build fail closed。
 
@@ -37,10 +37,10 @@ PUBLIC_API_BASE_URL=https://anisonary.k-y.cc/api/v1 npm run api:check
 
 - With no `PUBLIC_API_BASE_URL`, the site builds from the repository's reviewed `CuratedProvider` records and publishes the same public fields as static JSON assets.
 - When `PUBLIC_API_BASE_URL` is set, `ApiProvider` requests that public read-only contract through a fail-closed nested contract, URL, identity and timeout gate.
-- `MockProvider` remains available only for isolated tests and UI fixtures.
+- `MockProvider` remains available only for isolated unit and component tests; its fixtures are not production assets.
 - Copy `.env.example` to `.env` for local configuration. Never commit secrets.
 
-Season coverage uses a repository-owned source registry: Annict is the Japanese seasonal inventory baseline, while Bangumi provides a Chinese-entry cross-check. The four published snapshots additionally cross-check Traditional Chinese calendar inventories, AniList identifiers and media, AnimeThemes records, public theme-song indexes, official sites, and Taiwan／Hong Kong licensing pages. These are editorial inputs only; production builds use the reviewed static snapshot and never require external APIs at runtime. See `docs/DATA_SOURCES.md` for the exact scope and naming rules.
+Season coverage uses a repository-owned source registry: Annict is the Japanese seasonal inventory baseline, while Bangumi provides a Chinese-entry cross-check. The four published snapshots additionally cross-check Traditional Chinese calendar inventories, AniList identifiers and media, AnimeThemes records, public theme-song indexes, official sites, and Taiwan／Hong Kong licensing pages. These are editorial inputs only; production builds use the reviewed static snapshot and never require external APIs at runtime. See `docs/DATA_SOURCES.md` for the inventory rules and `docs/DATA_PROVENANCE.md` for the per-song ledger and media boundary.
 
 ## Catalogue search
 
@@ -55,7 +55,7 @@ Season coverage uses a repository-owned source registry: Annict is the Japanese 
 - production build 產生具內容版本的 `/sw.js`，只預先保存公開、同源、無 query string 的靜態內容；
 - navigation 維持 network-first，連線失敗時才讀取同一路徑快取或 `/offline/`；
 - 不建立 runtime cache entry，因此搜尋字詞、私人 response 與瀏覽路徑不會因操作而被寫入 Cache Storage；
-- `/api/`、`/mock-posters/` 測試 fixture、404、第三方 poster 及 YouTube 媒體不在 precache 內；
+- `/api/`、404、第三方 poster 及 YouTube 媒體不在 precache 內；舊 Mock raster assets 已從 repository 移除；
 - `/manifest.webmanifest` 提供繁體中文 app metadata 與英文名稱支援。
 
 ## Environment
@@ -105,7 +105,10 @@ Production domain: <https://anisonary.k-y.cc>. Non-production Cloudflare hostnam
 ## Project notes
 
 - Public product scope and release status: `docs/PROJECT_PLAN.md`
+- Static architecture and trust boundaries: `docs/ARCHITECTURE.md`
+- Song and media provenance contract: `docs/DATA_PROVENANCE.md`
 - Version history: `CHANGELOG.md`
+- v1.2.0 theme-source and public-score-removal QA: `docs/QA_V1_2_PROVENANCE.md`
 - v1.1.0 2026 winter／2025 summer catalogue QA: `docs/QA_V1_1_SEASON_EXPANSION.md`
 - v1.0.0 static API and stable release QA: `docs/QA_V1_STATIC_API.md`
 - Phase 2 catalogue scope and source ledger: `docs/PHASE2_CATALOG.md`
@@ -120,6 +123,6 @@ Production domain: <https://anisonary.k-y.cc>. Non-production Cloudflare hostnam
 - Phase 1 completion gate and historical measurement boundary: `docs/QA_PHASE1_COMPLETION.md`
 - GitHub and Cloudflare delivery requirements: `docs/DEPLOYMENT_CLOUDFLARE.md`
 - Public static API contract: `docs/API_HANDOFF.md`
-- v1.0.0 public API production check: `docs/API_PRODUCTION_CHECK.md`
+- Public static API v1 production check: `docs/API_PRODUCTION_CHECK.md`
 
 The public repository must not contain crawlers, database dumps, unpublished data, secrets, private source adapters, private source-selection rules, or internal confidence rules.

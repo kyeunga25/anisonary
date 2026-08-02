@@ -26,7 +26,7 @@ No unapproved marketing eyebrow, metric, product claim, search control, account 
 
 ## Intentional deviations
 
-- Generated concept poster titles and characters were not reused as production UI. The repository uses separate original, no-text Mock poster assets and code-native fictional titles.
+- Generated concept poster titles and characters were not reused as production UI. M0–M3 當時使用獨立無字 Mock poster；這些 raster assets 已在 v1.2.0 移除，現時 isolated Mock tests 重用 repository icon。
 - Filters default to unchecked so the initial state shows the complete directory; the concept depicted checked boxes as a visual state.
 - Only M0–M3 are implemented. Anime detail, theme cards, YouTube and platform links remain documented M4–M6 work.
 

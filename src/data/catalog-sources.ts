@@ -5,7 +5,9 @@ export interface CatalogSourceDefinition {
   name: string;
   locale: PublicCatalogReference["locale"];
   languageLabel: string;
+  language: PublicCatalogReference["language"];
   role: string;
+  sourceRole: PublicCatalogReference["sourceRole"];
   documentationUrl: string;
   authMode: "public-read" | "oauth-token";
   fields: string[];
@@ -18,7 +20,9 @@ export const catalogSourceDefinitions: CatalogSourceDefinition[] = [
     name: "Annict",
     locale: "ja",
     languageLabel: "日本語",
+    language: "ja",
     role: "日本季度全集基準",
+    sourceRole: "inventory",
     documentationUrl: "https://docs.annict.com/docs/ja/api/v1/works",
     authMode: "oauth-token",
     fields: ["季度作品範圍", "原文標題", "媒體類型", "首播日", "動畫官方網站"],
@@ -29,7 +33,9 @@ export const catalogSourceDefinitions: CatalogSourceDefinition[] = [
     name: "Bangumi 番組計劃",
     locale: "zh",
     languageLabel: "中文",
+    language: "zh-Hans",
     role: "中文條目與季度缺口交叉核對",
+    sourceRole: "cross_check",
     documentationUrl: "https://bangumi.github.io/api/",
     authMode: "public-read",
     fields: ["原文標題", "中文名初步對照", "首播日期", "媒體類型", "條目圖像"],
@@ -43,6 +49,19 @@ const quarterStartMonth: Record<Quarter, 1 | 4 | 7 | 10> = {
   summer: 7,
   fall: 10
 };
+
+export const seasonSnapshotVerifiedAt = {
+  "2026-summer": "2026-08-02",
+  "2026-spring": "2026-08-02",
+  "2026-winter": "2026-07-28",
+  "2025-summer": "2026-08-02"
+} as const;
+
+export function getSeasonSnapshotVerifiedAt(year: number, quarter: Quarter): string {
+  const verifiedAt = seasonSnapshotVerifiedAt[`${year}-${quarter}` as keyof typeof seasonSnapshotVerifiedAt];
+  if (!verifiedAt) throw new Error(`No reviewed catalogue snapshot for ${year}-${quarter}`);
+  return verifiedAt;
+}
 
 export function buildAnnictSeasonUrl(year: number, quarter: Quarter): string {
   return `https://annict.com/works/${year}-${quarter}?display=list_detailed`;
@@ -72,6 +91,7 @@ export function buildBangumiApiQueryUrl(year: number, quarter: Quarter): string 
 }
 
 export function buildSeasonCatalogReferences(year: number, quarter: Quarter): PublicCatalogReference[] {
+  const verifiedAt = getSeasonSnapshotVerifiedAt(year, quarter);
   return catalogSourceDefinitions.map((source): PublicCatalogReference => {
     if (source.id === "annict") {
       return {
@@ -79,7 +99,11 @@ export function buildSeasonCatalogReferences(year: number, quarter: Quarter): Pu
         name: source.name,
         locale: source.locale,
         languageLabel: source.languageLabel,
+        language: source.language,
         role: source.role,
+        sourceRole: source.sourceRole,
+        reviewState: "reviewed",
+        verifiedAt,
         catalogUrl: buildAnnictSeasonUrl(year, quarter),
         documentationUrl: source.documentationUrl,
         apiQueryUrl: buildAnnictApiQueryUrl(year, quarter),
@@ -93,7 +117,11 @@ export function buildSeasonCatalogReferences(year: number, quarter: Quarter): Pu
       name: source.name,
       locale: source.locale,
       languageLabel: source.languageLabel,
+      language: source.language,
       role: source.role,
+      sourceRole: source.sourceRole,
+      reviewState: "reviewed",
+      verifiedAt,
       catalogUrl: buildBangumiCatalogUrl(year),
       documentationUrl: source.documentationUrl,
       apiQueryUrl: buildBangumiApiQueryUrl(year, quarter),

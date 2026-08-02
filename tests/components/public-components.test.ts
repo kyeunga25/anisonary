@@ -60,7 +60,10 @@ describe("Phase 1 public components", () => {
 
     expect(html).toContain("OP1");
     expect(html).toContain("作詞");
+    expect(html).toContain("審閱狀態：已審閱");
     expect(html).toContain("最後驗證：2026-07-14");
+    expect(html).toContain("第一方");
+    expect(html).toContain("歌曲核對來源");
   });
 
   it("keeps YouTube iframe unloaded until an explicit button action", async () => {
@@ -97,6 +100,8 @@ describe("Phase 1 public components", () => {
     ]);
 
     expect(sources).toContain("最後驗證");
+    expect(sources).toContain("第一方");
+    expect(sources).toContain("日文");
     expect(empty).toContain("主題曲資料尚未公布");
     expect(error).toContain('role="alert"');
     expect(error).toContain("暫時無法載入資料");

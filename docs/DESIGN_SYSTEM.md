@@ -22,14 +22,14 @@ Accepted concept references:
 
 - Quiet header with record/book mark, essential navigation, theme toggle.
 - Primary and outline buttons with arrow SVG.
-- Poster cards with 2:3 media, title hierarchy, broadcast metadata, OP/ED status and completion rail.
+- Poster cards with 2:3 media, title hierarchy, broadcast metadata and OP／ED status; no public completeness score.
 - Weekday jump rail and checkbox filters.
 - Anime identity header with poster, multilingual titles, broadcast metadata, status, and reference links.
-- OP／ED data rows with credits, source labels, and last-verified dates.
+- OP／ED data rows with credits, reviewed source links, language／role metadata, and last-verified dates.
 - 16:9 thumbnail-first video panels with an explicit load action, compact metadata, and independent player state.
 - Horizontal platform-link rails with visible Direct／Search／Official／Purchase destination labels.
 - Non-embeddable video fallback rows that preserve a safe external YouTube path.
 - Quiet illustrated empty state that returns readers to the season directory.
 - Mock-data notice using a coral cue dot, not a decorative marketing badge.
 
-All UI text is code-native. The hero and fictional posters are generated project assets; none depict a real title or franchise.
+All UI text is code-native. The homepage catalogue visual is built from semantic HTML and CSS, with no raster artwork or extra remote origin. Fictional Mock records reuse the repository icon in isolated tests; legacy Mock raster artwork is no longer kept in the repository.

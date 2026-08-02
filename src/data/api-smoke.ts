@@ -50,8 +50,7 @@ function animeCardMatches(card: PublicAnimeCard, detail: PublicAnimeCard): boole
     card.broadcastLabel === detail.broadcastLabel &&
     card.opCount === detail.opCount &&
     card.edCount === detail.edCount &&
-    card.hasOfficialVideo === detail.hasOfficialVideo &&
-    card.completionPercent === detail.completionPercent
+    card.hasOfficialVideo === detail.hasOfficialVideo
   );
 }
 

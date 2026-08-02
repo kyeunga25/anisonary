@@ -1,8 +1,10 @@
-# Phase 2｜可追溯季度目錄
+# Phase 2｜可追溯季度目錄（歷史基線）
 
-Phase 2 先建立一個可公開審核的真實資料切片，而不是把 crawler、private source adapter 或未驗證資料加入 repository。
+本文件保留 2026 春／夏第一個完整資料切片的歷史範圍。現行產品已擴展至四季、280 個唯一作品及 615 筆 OP／ED；目前架構見 [`ARCHITECTURE.md`](./ARCHITECTURE.md)，來源契約見 [`DATA_PROVENANCE.md`](./DATA_PROVENANCE.md)。
 
-## 本輪收錄
+Phase 2 當時先建立一個可公開審核的真實資料切片，而不是把 crawler、private source adapter 或未驗證資料加入 repository。
+
+## 當時收錄
 
 - 2026 春季：70 套非成人 TV／WEB 周播動畫；
 - 2026 夏季：70 套非成人 TV／WEB 周播動畫；
@@ -48,7 +50,7 @@ Phase 2 第二個切片完成前端的 production API contract boundary：
 - poster／banner 只接受核准 AniList media origin；Annict／Bangumi catalog reference 必須綁定各自官方 origin；
 - repository 內兩季與 139 套 reviewed records 全部作 production-like response fixtures，另有不安全 URL、identity drift、重複資料、非 JSON、404 及 stalled request 測試。
 
-完整 contract 見 [`API_HANDOFF.md`](./API_HANDOFF.md)。v1.0.0 由相同 reviewed snapshot 產生同源靜態 JSON assets，沒有加入 runtime backend、crawler、資料庫或 secret。
+完整 contract 見 [`API_HANDOFF.md`](./API_HANDOFF.md)。v1.0.0 由相同 reviewed snapshot 產生同源靜態 JSON assets，沒有加入 runtime backend、crawler、資料庫或 secret；v1.2.0 再加入每首歌曲的結構化公開 source ledger。
 
 ## 跨季度搜尋與媒體私隱
 

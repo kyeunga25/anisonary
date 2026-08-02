@@ -2,6 +2,28 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.2.0] - 2026-08-02
+
+### Added
+
+- structured provenance for all season and anime details, plus clickable source records for all 615 reviewed OP／ED entries, including language, role, review state, and verification date;
+- public architecture, data-provenance, and v1.2.0 QA documentation;
+- fail-closed API contract coverage for theme source roles, URL safety, label consistency, and verification-date consistency.
+
+### Changed
+
+- replaced public data-completeness percentages with explicit reviewed source evidence and empty states;
+- corrected the reviewed title and artist for the `地球大好き！きっくん` theme, added first-party evidence for the final two theme gaps and four work-level gaps;
+- replaced the homepage raster illustration with a bespoke HTML／CSS catalogue visual;
+- removed the unreferenced legacy homepage／Mock raster assets while keeping Mock Data test-only;
+- synchronized four-season project, API, deployment, source, design, and release documentation.
+
+### Preserved
+
+- four reviewed seasons, 280 unique anime pages, 615 OP／ED records, and 392 official YouTube links;
+- local-only search, explicit YouTube consent, generated CSP, and privacy-bounded offline reading;
+- Cloudflare Workers Static Assets delivery with no application Worker or stateful binding.
+
 ## [1.1.0] - 2026-07-28
 
 ### Added
