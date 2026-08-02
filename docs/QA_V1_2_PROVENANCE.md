@@ -45,4 +45,15 @@
 - 1440 × 900 本機 cold-load Chrome CDP trace：TTFB 3.5 ms、FCP 52 ms、LCP 452 ms、CLS 0；深色模式單次互動觀察值 24 ms。這是本機 lab evidence，不是 CrUX field data，單次互動亦不標示為 production INP。
 - 首頁 network／accessibility inspection：沒有 console error、沒有無名稱互動元件、沒有缺少 `alt` 的圖片；第三方圖片 request 只到既有 AniList media origin。
 
-GitHub checks、Workers Builds、live routes／headers／API 與 production trace 要在固定 release SHA 合併後獨立驗證，結果不由本機數字推定。
+## GitHub 與 production 驗證結果（2026-08-02）
+
+- PR #18 以固定 head `93150709fcbeceb0e578d6370de5d819f8cbba98` 完成 quality 與 Workers preview checks，再 squash merge 為 `1069ee957c93cebb7805b2d22572a9c96b3c5c42`；合併前後沒有改寫 head 或刪除 branch；
+- `main` push 的 GitHub quality 與 Workers Build checks 成功；官方 checkout、Node setup 及 artifact actions 隨後更新至 Node 24-compatible v7 majors，以清除平台 runtime annotation；
+- `PUBLIC_API_BASE_URL=https://anisonary.k-y.cc/api/v1 npm run api:check`：live smoke 讀回完整 public contract，`ANISONARY_REQUIRE_API_DATA=true` 再成功產生 290 頁，沒有 curated fallback；
+- no-cache route check：首頁、搜尋、四個季度、代表動畫、About、Sources、Manifest、Service Worker、robots 與 sitemap 全部 `200`；未知頁面與未知 API route 為 `404`；
+- live `2026-summer` JSON 為 `reviewed`、核對日期 `2026-08-02`、70 筆 card 及 2 個 catalog references；`地球大好き！きっくん` 詳情回傳已修正曲名／演唱者及兩種 source roles；
+- production HTML 保留 hash-based CSP、`X-Frame-Options: DENY`、`X-Content-Type-Options: nosniff`、`Referrer-Policy: no-referrer` 與收窄的 Permissions Policy；HTML／API 均使用 revalidation，hashed CSS 使用一年 immutable cache；
+- live hashed CSS 與 release build 逐 byte 相同；首頁不再引用舊 raster hero、完整度文字或 `completionPercent`；
+- 1440 × 900 production cold-load Chrome CDP trace：TTFB 77 ms、FCP 400 ms、LCP 760 ms、CLS 0；深色模式單次互動觀察值 32 ms。沒有 console error、request failure、無名稱互動元件或缺少 `alt` 的圖片；這是一次 lab trace，不標示為 CrUX field INP。
+
+Production 結果由 live response 與 Chrome trace 取得，不由 local build、queued check 或 preview 推定。
