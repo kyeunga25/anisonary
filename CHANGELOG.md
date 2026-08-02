@@ -16,6 +16,7 @@ All notable public product changes are recorded here. Release notes contain only
 - corrected the reviewed title and artist for the `地球大好き！きっくん` theme, added first-party evidence for the final two theme gaps and four work-level gaps;
 - replaced the homepage raster illustration with a bespoke HTML／CSS catalogue visual;
 - removed the unreferenced legacy homepage／Mock raster assets while keeping Mock Data test-only;
+- updated the official GitHub checkout, Node setup, and artifact actions to their Node 24-compatible v7 majors;
 - synchronized four-season project, API, deployment, source, design, and release documentation.
 
 ### Preserved
