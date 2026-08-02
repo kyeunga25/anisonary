@@ -1,4 +1,6 @@
 export type Quarter = "winter" | "spring" | "summer" | "fall";
+export type PublicSourceLanguage = "zh-Hant" | "zh-Hans" | "ja" | "en" | "multi";
+export type PublicReviewState = "reviewed";
 
 export interface PublicSeasonSummary {
   id: string;
@@ -13,7 +15,11 @@ export interface PublicCatalogReference {
   name: string;
   locale: "ja" | "zh";
   languageLabel: string;
+  language: PublicSourceLanguage;
   role: string;
+  sourceRole: "inventory" | "cross_check";
+  reviewState: PublicReviewState;
+  verifiedAt: string;
   catalogUrl: string;
   documentationUrl: string;
   apiQueryUrl: string;
@@ -39,7 +45,6 @@ export interface PublicAnimeCard {
   opCount: number;
   edCount: number;
   hasOfficialVideo: boolean;
-  completionPercent?: number;
 }
 
 export interface PublicCreatorCredit {
@@ -79,6 +84,14 @@ export interface PublicExternalLink {
   region: "JP" | "HK" | "TW" | "GLOBAL" | "UNKNOWN";
 }
 
+export interface PublicThemeSource {
+  label: string;
+  url: string;
+  language: PublicSourceLanguage;
+  role: "first_party" | "cross_check";
+  verifiedAt: string;
+}
+
 export interface PublicTheme {
   id: string;
   type: "OP" | "ED";
@@ -92,7 +105,11 @@ export interface PublicTheme {
   releaseDate?: string;
   videos: PublicVideo[];
   links: PublicExternalLink[];
+  sources: PublicThemeSource[];
+  reviewState: PublicReviewState;
+  // API v1 compatibility alias. New consumers should use sources.
   sourceLabels: string[];
+  // API v1 compatibility alias. New consumers should use sources[].verifiedAt.
   lastVerifiedAt?: string;
 }
 
@@ -101,16 +118,27 @@ export interface PublicAnimeDetail extends PublicAnimeCard {
   anilistUrl?: string;
   bangumiUrl?: string;
   status: "upcoming" | "airing" | "finished" | "unknown";
+  reviewState: PublicReviewState;
+  verifiedAt: string;
   themes: PublicTheme[];
   sources: {
     label: string;
     url: string;
-    verifiedAt?: string;
+    language: PublicSourceLanguage;
+    role:
+      | "first_party"
+      | "identifier"
+      | "localized_cross_check"
+      | "theme_cross_check"
+      | "broadcast_cross_check";
+    verifiedAt: string;
   }[];
 }
 
 export interface PublicSeasonDetail extends PublicSeasonSummary {
   anime: PublicAnimeCard[];
-  catalogReferences?: PublicCatalogReference[];
+  reviewState: PublicReviewState;
+  verifiedAt: string;
+  catalogReferences: PublicCatalogReference[];
   isMockData?: boolean;
 }

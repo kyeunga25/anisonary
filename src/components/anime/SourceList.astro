@@ -3,6 +3,20 @@ import type { PublicAnimeDetail } from "@/types/public-api";
 
 interface Props { sources: PublicAnimeDetail["sources"]; }
 const { sources } = Astro.props;
+const languageLabels = {
+  "zh-Hant": "繁中",
+  "zh-Hans": "簡中",
+  ja: "日文",
+  en: "英文",
+  multi: "多語"
+} as const;
+const roleLabels = {
+  first_party: "第一方",
+  identifier: "作品識別",
+  localized_cross_check: "譯名交叉核對",
+  theme_cross_check: "歌曲交叉核對",
+  broadcast_cross_check: "首播交叉核對"
+} as const;
 ---
 
 <ul class="source-list">
@@ -13,7 +27,9 @@ const { sources } = Astro.props;
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6zM14 3v5h5M9 13h7M9 17h7" /></svg>
           {source.label}
         </span>
-        <span class="source-list__verified">最後驗證：{source.verifiedAt ?? "待確認"}</span>
+        <span class="source-list__verified">
+          {languageLabels[source.language]} · {roleLabels[source.role]} · 最後驗證：{source.verifiedAt}
+        </span>
         <span aria-hidden="true">↗</span>
         <span class="sr-only">（在新分頁開啟外部網站）</span>
       </a>

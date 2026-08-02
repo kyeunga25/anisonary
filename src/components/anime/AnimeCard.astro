@@ -10,7 +10,6 @@ interface Props {
 }
 
 const { anime, eager = false, variant = "home" } = Astro.props;
-const completion = anime.completionPercent ?? 0;
 const mediaUrl = anime.bannerUrl ?? anime.posterUrl;
 const mediaAlt = anime.bannerAlt ?? anime.posterAlt;
 ---
@@ -48,10 +47,6 @@ const mediaAlt = anime.bannerAlt ?? anime.posterAlt;
             官方影片
           </span>
         )}
-      </div>
-      <div class="anime-card__completion">
-        <span>資料完整度 {completion}%</span>
-        <progress class="anime-card__rail" max="100" value={completion} aria-hidden="true"></progress>
       </div>
     </div>
   </a>
@@ -102,21 +97,6 @@ const mediaAlt = anime.bannerAlt ?? anime.posterAlt;
 
   .anime-card__video { align-items: center; color: var(--color-accent); display: flex; gap: 0.22rem; width: 100%; }
   .anime-card__video svg { border: 1px solid currentColor; fill: currentColor; height: 0.9rem; width: 0.9rem; }
-
-  .anime-card__completion { color: var(--color-muted); font-size: 0.66rem; margin-top: auto; padding-top: 0.9rem; }
-  .anime-card__rail {
-    appearance: none;
-    background: var(--color-border);
-    border: 0;
-    display: block;
-    height: 2px;
-    margin-top: 0.32rem;
-    overflow: hidden;
-    width: 100%;
-  }
-  .anime-card__rail::-webkit-progress-bar { background: var(--color-border); }
-  .anime-card__rail::-webkit-progress-value { background: var(--color-accent); }
-  .anime-card__rail::-moz-progress-bar { background: var(--color-accent); }
 
   :global(.anime-card--home) .anime-card__media { aspect-ratio: 16 / 9; }
   :global(.anime-card--home) .anime-card__body { min-height: 10.6rem; }

@@ -8,6 +8,7 @@ import type {
   PublicSeasonDetail,
   PublicSeasonSummary,
   PublicTheme,
+  PublicThemeSource,
   PublicVideo,
   Quarter
 } from "@/types/public-api";
@@ -42,17 +43,31 @@ const linkTypes = [
 ] as const;
 const linkRegions = ["JP", "HK", "TW", "GLOBAL", "UNKNOWN"] as const;
 const animeStatuses = ["upcoming", "airing", "finished", "unknown"] as const;
+const sourceLanguages = ["zh-Hant", "zh-Hans", "ja", "en", "multi"] as const;
+const themeSourceRoles = ["first_party", "cross_check"] as const;
+const animeSourceRoles = [
+  "first_party",
+  "identifier",
+  "localized_cross_check",
+  "theme_cross_check",
+  "broadcast_cross_check"
+] as const;
+const catalogSourceRoles = ["inventory", "cross_check"] as const;
 const allowedImageOrigins = new Set(["https://s4.anilist.co"]);
 const catalogReferenceOrigins = {
   annict: {
     catalogUrl: "https://annict.com",
     documentationUrl: "https://docs.annict.com",
-    apiQueryUrl: "https://api.annict.com"
+    apiQueryUrl: "https://api.annict.com",
+    language: "ja",
+    sourceRole: "inventory"
   },
   bangumi: {
     catalogUrl: "https://bgm.tv",
     documentationUrl: "https://bangumi.github.io",
-    apiQueryUrl: "https://api.bgm.tv"
+    apiQueryUrl: "https://api.bgm.tv",
+    language: "zh-Hans",
+    sourceRole: "cross_check"
   }
 } as const;
 
@@ -188,7 +203,9 @@ function parseCatalogReference(value: unknown): PublicCatalogReference {
   if (
     new URL(catalogUrl).origin !== expectedOrigins.catalogUrl ||
     new URL(documentationUrl).origin !== expectedOrigins.documentationUrl ||
-    new URL(apiQueryUrl).origin !== expectedOrigins.apiQueryUrl
+    new URL(apiQueryUrl).origin !== expectedOrigins.apiQueryUrl ||
+    item.language !== expectedOrigins.language ||
+    item.sourceRole !== expectedOrigins.sourceRole
   ) {
     invalidContract();
   }
@@ -198,7 +215,11 @@ function parseCatalogReference(value: unknown): PublicCatalogReference {
     name: text(item.name),
     locale: oneOf(item.locale, ["ja", "zh"] as const),
     languageLabel: text(item.languageLabel),
+    language: oneOf(item.language, sourceLanguages),
     role: text(item.role, 1_000),
+    sourceRole: oneOf(item.sourceRole, catalogSourceRoles),
+    reviewState: oneOf(item.reviewState, ["reviewed"] as const),
+    verifiedAt: iso8601(item.verifiedAt),
     catalogUrl,
     documentationUrl,
     apiQueryUrl,
@@ -229,7 +250,6 @@ function parseAnimeCard(value: unknown): PublicAnimeCard {
   const editorialWeekday = optionalInteger(item.editorialWeekday, 1, 7);
   const broadcastTimeJst = optionalText(item.broadcastTimeJst, 5);
   const broadcastLabel = optionalText(item.broadcastLabel, 1_000);
-  const completionPercent = optionalInteger(item.completionPercent, 0, 100);
 
   if (broadcastTimeJst !== undefined && !broadcastTimePattern.test(broadcastTimeJst)) invalidContract();
   if ((bannerUrl === undefined) !== (bannerAlt === undefined)) invalidContract();
@@ -245,8 +265,6 @@ function parseAnimeCard(value: unknown): PublicAnimeCard {
   if (editorialWeekday !== undefined) card.editorialWeekday = editorialWeekday;
   if (broadcastTimeJst !== undefined) card.broadcastTimeJst = broadcastTimeJst;
   if (broadcastLabel !== undefined) card.broadcastLabel = broadcastLabel;
-  if (completionPercent !== undefined) card.completionPercent = completionPercent;
-
   return card;
 }
 
@@ -286,6 +304,17 @@ function parseExternalLink(value: unknown): PublicExternalLink {
   };
 }
 
+function parseThemeSource(value: unknown): PublicThemeSource {
+  const item = record(value);
+  return {
+    label: text(item.label, 1_000),
+    url: httpsUrl(item.url),
+    language: oneOf(item.language, sourceLanguages),
+    role: oneOf(item.role, themeSourceRoles),
+    verifiedAt: iso8601(item.verifiedAt)
+  };
+}
+
 function parseTheme(value: unknown): PublicTheme {
   const item = record(value);
   const theme: PublicTheme = {
@@ -297,11 +326,23 @@ function parseTheme(value: unknown): PublicTheme {
     credits: array(item.credits, 0, 50).map(parseCreatorCredit),
     videos: array(item.videos, 0, 50).map(parseVideo),
     links: array(item.links, 0, 50).map(parseExternalLink),
+    sources: array(item.sources, 1, 50).map(parseThemeSource),
+    reviewState: oneOf(item.reviewState, ["reviewed"] as const),
     sourceLabels: array(item.sourceLabels, 1, 50).map((label) => text(label))
   };
 
   unique(theme.sourceLabels);
   unique(theme.videos.map((video) => video.youtubeVideoId));
+  unique(theme.sources.map((source) => source.url));
+  const sourceLabelSet = new Set(theme.sources.map((source) => source.label));
+  if (
+    sourceLabelSet.size !== theme.sourceLabels.length ||
+    theme.sourceLabels.some((label) => !sourceLabelSet.has(label)) ||
+    !theme.sources.some((source) => source.role === "first_party") ||
+    !theme.sources.some((source) => source.role === "cross_check")
+  ) {
+    invalidContract();
+  }
 
   const titleRomaji = optionalText(item.titleRomaji);
   const titleZhHant = optionalText(item.titleZhHant);
@@ -312,7 +353,13 @@ function parseTheme(value: unknown): PublicTheme {
   if (titleZhHant !== undefined) theme.titleZhHant = titleZhHant;
   if (versionLabel !== undefined) theme.versionLabel = versionLabel;
   if (releaseDate !== undefined) theme.releaseDate = releaseDate;
-  if (lastVerifiedAt !== undefined) theme.lastVerifiedAt = lastVerifiedAt;
+  if (lastVerifiedAt !== undefined) {
+    const latestSourceVerification = theme.sources
+      .map((source) => source.verifiedAt)
+      .sort((left, right) => right.localeCompare(left))[0];
+    if (lastVerifiedAt !== latestSourceVerification) invalidContract();
+    theme.lastVerifiedAt = lastVerifiedAt;
+  }
 
   return theme;
 }
@@ -329,13 +376,13 @@ function themeHasOfficialVideo(theme: PublicTheme): boolean {
 
 function parseSource(value: unknown): PublicAnimeDetail["sources"][number] {
   const item = record(value);
-  const source: PublicAnimeDetail["sources"][number] = {
+  return {
     label: text(item.label, 1_000),
-    url: httpsUrl(item.url)
+    url: httpsUrl(item.url),
+    language: oneOf(item.language, sourceLanguages),
+    role: oneOf(item.role, animeSourceRoles),
+    verifiedAt: iso8601(item.verifiedAt)
   };
-  const verifiedAt = optionalIso8601(item.verifiedAt);
-  if (verifiedAt !== undefined) source.verifiedAt = verifiedAt;
-  return source;
 }
 
 function parseSeasonDetail(value: unknown): PublicSeasonDetail {
@@ -345,12 +392,23 @@ function parseSeasonDetail(value: unknown): PublicSeasonDetail {
   unique(anime.map((card) => card.id));
   unique(anime.map((card) => card.slug));
 
-  const detail: PublicSeasonDetail = { ...summary, anime };
-  if (item.catalogReferences !== undefined) {
-    const catalogReferences = array(item.catalogReferences, 0, 10).map(parseCatalogReference);
-    unique(catalogReferences.map((reference) => reference.id));
-    detail.catalogReferences = catalogReferences;
+  const verifiedAt = iso8601(item.verifiedAt);
+  const catalogReferences = array(item.catalogReferences, 2, 10).map(parseCatalogReference);
+  unique(catalogReferences.map((reference) => reference.id));
+  if (
+    !catalogReferences.some((reference) => reference.sourceRole === "inventory") ||
+    !catalogReferences.some((reference) => reference.sourceRole === "cross_check") ||
+    catalogReferences.some((reference) => reference.verifiedAt !== verifiedAt)
+  ) {
+    invalidContract();
   }
+  const detail: PublicSeasonDetail = {
+    ...summary,
+    anime,
+    reviewState: oneOf(item.reviewState, ["reviewed"] as const),
+    verifiedAt,
+    catalogReferences
+  };
   const isMockData = optionalBool(item.isMockData);
   if (isMockData !== undefined) detail.isMockData = isMockData;
   return detail;
@@ -369,9 +427,23 @@ function parseAnimeDetail(value: unknown): PublicAnimeDetail {
   if (themes.filter((theme) => theme.type === "ED").length !== card.edCount) invalidContract();
   if (themes.some(themeHasOfficialVideo) !== card.hasOfficialVideo) invalidContract();
 
+  const verifiedAt = iso8601(item.verifiedAt);
+  const latestSourceVerification = sources
+    .map((source) => source.verifiedAt)
+    .sort((left, right) => right.localeCompare(left))[0];
+  if (
+    !sources.some((source) => source.role === "first_party") ||
+    !sources.some((source) => source.role !== "first_party") ||
+    latestSourceVerification !== verifiedAt
+  ) {
+    invalidContract();
+  }
+
   const detail: PublicAnimeDetail = {
     ...card,
     status: oneOf(item.status, animeStatuses),
+    reviewState: oneOf(item.reviewState, ["reviewed"] as const),
+    verifiedAt,
     themes,
     sources
   };

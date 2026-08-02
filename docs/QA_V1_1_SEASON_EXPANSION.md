@@ -29,12 +29,13 @@
 - `npm run cf:check`：890 個靜態資產完成 Wrangler dry-run，沒有 application binding；
 - `npm run test:e2e`：11 項靜態 API、兩個新增季度頁、歌曲詳情、搜尋、CSP、離線、手機操作、404 與圖像 fallback 測試通過。
 
-## Production 驗收
+## Production 驗收結果
 
-合併固定 SHA 後，由既有 GitHub `main` 流程觸發 Cloudflare Workers Static Assets build。完成條件包括：
+v1.1.0 以已 review 的固定 SHA 合併至 `main` 後完成以下驗收：
 
-1. GitHub checks 全部成功，PR 合併 SHA 與 `origin/main` 一致；
-2. Cloudflare production deployment 狀態為 active，來源 revision 等於合併 SHA；
+1. GitHub quality 與 Workers Build checks 成功，local `main`、`origin/main`、GitHub `main`、tag 及 release 指向同一合併 revision；
+2. Cloudflare production traffic 已使用該合併 revision；
 3. `/seasons/2026-winter/`、`/seasons/2025-summer/` 及代表作品詳情頁回應 `200`；
-4. production 靜態 API 回傳 4 個季度與 280 個唯一作品，未知 route 回應 `404`；
-5. production header 保留 CSP、`X-Content-Type-Options`、`Referrer-Policy` 與 `Permissions-Policy`。
+4. production 靜態 API 回傳 4 個季度與 280 個唯一作品，未知 route 回應 `404`，完整 live API smoke／fail-closed build 通過；
+5. production header 保留 CSP、`X-Content-Type-Options`、`Referrer-Policy` 與 `Permissions-Policy`；
+6. annotated tag／GitHub Release `v1.1.0` 已發布，最終 worktree clean。

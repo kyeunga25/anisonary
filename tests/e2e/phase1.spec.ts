@@ -10,9 +10,13 @@ test("static public API mirrors the reviewed catalogue without a runtime binding
   const seasonResponse = await request.get("/api/v1/seasons/2026-summer.json");
   expect(seasonResponse.status()).toBe(200);
   const season = await seasonResponse.json();
-  expect(season).toMatchObject({ id: "2026-summer" });
+  expect(season).toMatchObject({ id: "2026-summer", reviewState: "reviewed", verifiedAt: "2026-08-02" });
   expect(season.isMockData).not.toBe(true);
   expect(season.anime).toHaveLength(70);
+  expect(season.catalogReferences).toEqual(expect.arrayContaining([
+    expect.objectContaining({ sourceRole: "inventory", reviewState: "reviewed" }),
+    expect.objectContaining({ sourceRole: "cross_check", reviewState: "reviewed" })
+  ]));
 
   const winterResponse = await request.get("/api/v1/seasons/2026-winter.json");
   expect(winterResponse.status()).toBe(200);
@@ -23,8 +27,13 @@ test("static public API mirrors the reviewed catalogue without a runtime binding
   const animeResponse = await request.get("/api/v1/anime/mushoku-tensei-3.json");
   expect(animeResponse.status()).toBe(200);
   const anime = await animeResponse.json();
-  expect(anime).toMatchObject({ slug: "mushoku-tensei-3" });
+  expect(anime).toMatchObject({ slug: "mushoku-tensei-3", reviewState: "reviewed" });
   expect(anime.themes.length).toBeGreaterThan(0);
+  expect(anime.sources.some((source: { role: string }) => source.role === "first_party")).toBe(true);
+  expect(anime.themes[0]).toMatchObject({ reviewState: "reviewed" });
+  expect(anime.themes[0].sources.some((source: { role: string }) => source.role === "first_party")).toBe(true);
+  expect(anime.themes[0].sources.some((source: { role: string }) => source.role === "cross_check")).toBe(true);
+  expect(anime).not.toHaveProperty("completionPercent");
 
   expect((await request.get("/api/v1/seasons/2099-winter.json")).status()).toBe(404);
   expect((await request.get("/api/v1/anime/not-a-real-anime.json")).status()).toBe(404);
@@ -84,6 +93,9 @@ test("curated catalogue flow reaches verified themes, lazy video and an official
   await page.getByRole("link", { name: /查看 幼女戦記Ⅱ/ }).click();
   await expect(page).toHaveURL(/\/anime\/youjo-senki-2\/$/);
   await expect(page.getByRole("heading", { name: "主題曲" })).toBeVisible();
+  await expect(page.getByText("審閱狀態：已審閱").first()).toBeVisible();
+  await expect(page.getByRole("list", { name: "歌曲核對來源" }).first()).toBeVisible();
+  await expect(page.getByText(/資料完整度/)).toHaveCount(0);
   await expect(page.getByText("公開視覺來源：")).toBeVisible();
   await expect(page.getByRole("link", { name: /回報資料問題/ })).toHaveAttribute("href", /catalog-correction\.yml/);
 
@@ -96,7 +108,9 @@ test("curated catalogue flow reaches verified themes, lazy video and an official
   expect(youtubeRequests.some((url) => url.includes("youtube-nocookie.com"))).toBe(true);
   expect(youtubeRequests.some((url) => url.includes("i.ytimg.com"))).toBe(false);
 
-  const platformLink = page.locator('a[href="https://nex-tone.link/GPsD8PYbf"]');
+  const platformLink = page
+    .getByRole("list", { name: "音樂平台與購買連結" })
+    .locator('a[href="https://nex-tone.link/GPsD8PYbf"]');
   await expect(platformLink).toHaveCount(1);
   const popupPromise = page.waitForEvent("popup");
   await platformLink.click();

@@ -1,6 +1,6 @@
-# v1.0.0｜Public static API production check
+# Public static API v1｜Production check
 
-本文件記錄 Anisonary v1.0.0 build-time JSON assets 的 production 驗收命令。它只驗證已公開的 read-only contract，不包含 runtime backend、資料來源流程、credential 或 Cloudflare 資源資料。
+本文件記錄 Anisonary build-time JSON assets 的 production 驗收命令。它只驗證已公開的 read-only v1 contract，不包含 runtime backend、資料來源流程、credential 或 Cloudflare 資源資料。
 
 ## 驗收範圍
 
@@ -12,6 +12,7 @@
 - production season 不得標記為 Mock Data；
 - 保留給 smoke 的未知 season／slug 必須回傳 `404`；
 - catalogue 最多驗證 2,000 套作品，同時 request 上限為 8。
+- anime detail 的每筆歌曲都必須通過 reviewed source ledger，包括第一方／交叉核對角色、語言、HTTPS 及核對日期。
 
 執行 live API smoke 與 fail-closed static build：
 

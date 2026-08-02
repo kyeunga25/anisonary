@@ -12,7 +12,7 @@ const registeredSources = catalogSourceDefinitions.map((source) => ({
 <BaseLayout title="資料來源" description="Anisonary 動畫歌典的資料來源優先級與驗證原則。">
   <article class="prose page-shell">
     <h1>資料來源</h1>
-    <p>Phase 2 的公開季度目錄以日本官方原始資料為主，並以可追溯的公開頁面交叉確認名稱、季度、播出資訊及主題曲。每筆資料保留核對日期，不把推測當作已確認事實。</p>
+    <p>公開季度目錄以日本官方原始資料為主，並以可追溯的公開頁面交叉確認名稱、季度、播出資訊及主題曲。季度、作品及歌曲都公開來源語言、角色、審閱狀態與核對日期；每首歌曲另保留第一方及交叉核對來源，不把推測當作已確認事實。</p>
     <h2>來源優先級</h2>
     <ol>
       <li>動畫官方網站、唱片公司、藝人官方網站與官方 YouTube；</li>
@@ -21,6 +21,8 @@ const registeredSources = catalogSourceDefinitions.map((source) => ({
       <li>AnimeThemes 與季度主題曲清單交叉確認 OP／ED；連結只有指向官方 YouTube 時才標記為官方影片；</li>
       <li>AniList 等國際資料庫只作作品識別、官方網站指標及公開媒體來源。</li>
     </ol>
+    <h2>歌曲來源 ledger</h2>
+    <p>每筆已發布 OP／ED 都會在歌曲卡直接列出可點擊來源。「第一方」表示動畫、發行、藝人、正式播出機構或官方影片頁；「交叉核對」表示公開歌曲／季度索引。這些標籤只描述來源角色，不是分數或信心評級。未完成兩邊核對的候選不進入公開目錄。</p>
     <h2 id="season-catalogs">固定季度全集參考</h2>
     <p>每個季度頁會由同一份來源 registry 產生對應目錄連結。兩邊只負責盤點和交叉核對；網站使用 repository 內已人工審核的 snapshot，不會在 build 或使用者瀏覽時即時請求外部 API。</p>
     <div class="source-registry">
@@ -41,6 +43,12 @@ const registeredSources = catalogSourceDefinitions.map((source) => ({
               <dt>使用限制</dt>
               <dd>{source.limitations}</dd>
             </div>
+            {source.reference && (
+              <div>
+                <dt>公開審閱</dt>
+                <dd>已審閱 · {source.reference.verifiedAt} · {source.reference.sourceRole === "inventory" ? "全集盤點" : "交叉核對"}</dd>
+              </div>
+            )}
           </dl>
           {source.reference && (
             <nav aria-label={`${source.name} 固定參考連結`}>
@@ -60,12 +68,12 @@ const registeredSources = catalogSourceDefinitions.map((source) => ({
       <li><a href="https://uzurea.net/winter-2026-anime-theme-songs/" target="_blank" rel="noopener noreferrer">UZUREA 2026 冬季主題曲 ↗</a>／<a href="https://uzurea.net/spring-2026-anime-theme-songs/" target="_blank" rel="noopener noreferrer">春季 ↗</a>／<a href="https://uzurea.net/summer-2026-anime-theme-songs/" target="_blank" rel="noopener noreferrer">夏季 ↗</a>／<a href="https://uzurea.net/summer-2025-anime-themes-and-picks/" target="_blank" rel="noopener noreferrer">2025 夏季 ↗</a></li>
       <li><a href="https://ani.gamer.com.tw/seasonal.php?c=2026_S2" target="_blank" rel="noopener noreferrer">動畫瘋 2026 春季授權資料 ↗</a>／<a href="https://ani.gamer.com.tw/seasonal.php" target="_blank" rel="noopener noreferrer">夏季 ↗</a></li>
     </ul>
-    <p>更新季度資料時，先取多個目錄的聯集找出缺口，再逐套返回動畫官網和台港正式授權來源確認。完整查詢方式、分頁規則與繁中名稱政策記錄在 repository 的 <a href="https://github.com/kyeunga25/anisonary/blob/main/docs/DATA_SOURCES.md" target="_blank" rel="noopener noreferrer">DATA_SOURCES.md</a>。</p>
+    <p>更新季度資料時，先取多個目錄的聯集找出缺口，再逐套返回動畫官網和台港正式授權來源確認。完整查詢方式、分頁規則與繁中名稱政策記錄在 repository 的 <a href="https://github.com/kyeunga25/anisonary/blob/main/docs/DATA_SOURCES.md" target="_blank" rel="noopener noreferrer">DATA_SOURCES.md</a>；歌曲 ledger 與媒體邊界見 <a href="https://github.com/kyeunga25/anisonary/blob/main/docs/DATA_PROVENANCE.md" target="_blank" rel="noopener noreferrer">DATA_PROVENANCE.md</a>。</p>
     <h2>圖片原則</h2>
-    <p>目錄不使用 AI 生成圖片，也不從動畫官網下載後重新託管素材。目前作品圖像使用可追溯至公開媒體頁的原始作品視覺，詳情頁會顯示圖像來源；來源無法載入時只顯示無圖 fallback。</p>
+    <p>目錄不使用 AI 生成圖片，也不從動畫官網下載後重新託管素材。首頁識別視覺只使用 HTML／CSS；作品圖像由已核對的 AniList media origin 直接載入，詳情頁會顯示公開媒體頁來源。來源連結提供追溯但不代表本站擁有圖像權利；來源無法載入時只顯示無圖 fallback。</p>
     <h2>目前資料狀態</h2>
-    <p>預設目錄收錄 2026 夏季 70 套、春季 70 套、冬季 66 套與 2025 夏季 75 套非成人 TV／WEB 連載動畫；跨季作品共用詳情頁，因此共有 280 個唯一作品頁。已整合 615 首 OP／ED 與 392 個官方 YouTube 連結；未能由公開來源確認歌曲的短篇會明確顯示待公布。最新季度核對日期為 2026-07-28。</p>
-    <p>收錄包含短篇、新季度及分割 cour；不包含劇場版、OVA、單次特別篇、宣傳短片或 18+ 作品。開發用 Mock Data 仍只保留在測試 fixture，不是網站預設內容。</p>
+    <p>預設目錄收錄 2026 夏季 70 套、春季 70 套、冬季 66 套與 2025 夏季 75 套非成人 TV／WEB 連載動畫；跨季作品共用詳情頁，因此共有 280 個唯一作品頁。已整合 615 首 OP／ED 與 392 個官方 YouTube 連結；615 首歌曲都具備第一方與交叉核對來源。新增歌曲來源的最新核對日期為 2026-08-02。</p>
+    <p>收錄包含短篇、新季度及分割 cour；不包含劇場版、OVA、單次特別篇、宣傳短片或 18+ 作品。開發用 Mock Data 只保留在 unit／component tests，並非 production 內容或公開靜態素材。</p>
     <p>如發現播出時間、譯名、主題曲或來源需要修正，可用 <a href="https://github.com/kyeunga25/anisonary/issues/new?template=catalog-correction.yml" target="_blank" rel="noopener noreferrer">GitHub 資料修正表單</a> 提交公開來源。</p>
   </article>
 </BaseLayout>

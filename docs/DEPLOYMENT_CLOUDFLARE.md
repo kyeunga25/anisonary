@@ -29,8 +29,9 @@ Workers Builds 是自動部署來源；repository 不另設第二套 production 
 - static API 使用 revalidation 與 `X-Robots-Tag: noindex`，不加入 sitemap、Service Worker precache 或 permissive CORS。
 - 非正式 Workers preview hostname 回應 `X-Robots-Tag: noindex`。
 - 正式頁面使用 `Referrer-Policy: no-referrer`；外部海報來源只限經審核的 HTTPS origin，YouTube 只在使用者明確啟動後連線。
+- 首頁主視覺由 HTML／CSS 組成；Mock tests 重用 repository icon，舊 Mock raster assets 已移除，兩者都不增加 production remote media origin。
 
-Cloudflare 官方文件目前說明 Static Assets request 免費且不限量；限制仍可能變動，發佈前應重新核對。沒有具體產品需求前，不加入 runtime、stateful 或 tracking service，以免增加私隱、成本和攻擊面。
+Cloudflare 官方文件目前說明 Static Assets request 免費且不限量；Workers Static Assets 的公開限制包括 Free plan 20,000 個檔案、Paid plan 100,000 個檔案、單檔 25 MiB、`_headers` 最多 100 條規則且每行 2,000 字元。限制仍可能變動，發佈前應重新核對 [billing and limitations](https://developers.cloudflare.com/workers/static-assets/billing-and-limitations/)、[platform limits](https://developers.cloudflare.com/workers/platform/limits/) 及 [`_headers` rules](https://developers.cloudflare.com/workers/static-assets/headers/)。沒有具體產品需求前，不加入 runtime、stateful 或 tracking service，以免增加私隱、成本和攻擊面。
 
 ## Environment／環境設定
 
@@ -74,10 +75,19 @@ npm run cf:preview
 npm run cf:deploy
 ```
 
+## Release sequence／發佈次序
+
+1. 在隔離 branch 完成 public-egress scan、完整 local gate 與 Workers dry-run。
+2. Push 後以 draft PR 固定 reviewed head SHA；等待 GitHub quality 與 Workers preview checks 成功。
+3. Merge 前再次確認 PR head SHA 未變；合併後 fast-forward 本機 `main`，不重寫或猜測 release identity。
+4. Workers Builds 以 `main` 作 production branch；其他 branch 預設只建立 preview／version。設定原則見 [Workers Builds configuration](https://developers.cloudflare.com/workers/ci-cd/builds/configuration/)。
+5. 獨立驗證 live routes、static API、security／cache headers、搜尋／影片同意 flow 及 production source revision。
+6. 驗收通過後才建立 annotated tag／GitHub Release；失敗時保持 fail closed，按 [Workers rollback](https://developers.cloudflare.com/workers/versions-and-deployments/rollbacks/) 或上一個已核對版本處理。
+
 ## Production smoke checklist／正式環境驗收
 
 - GitHub `quality` check 通過；
-- 首頁、搜尋、兩個季度頁、至少一個動畫頁、About、Sources 與未知 route；
+- 首頁、搜尋、四個季度頁、至少一個動畫頁、About、Sources 與未知 route；
 - mobile viewport、keyboard focus、theme toggle 及無水平 overflow；
 - canonical、Open Graph、JSON-LD、`robots.txt` 與 `sitemap-index.xml`；
 - `Content-Security-Policy`、`X-Frame-Options`、`X-Content-Type-Options`、`Referrer-Policy`、`Permissions-Policy`；
@@ -88,6 +98,7 @@ npm run cf:deploy
 - 搜尋結果沒有 remote poster request，搜尋字詞不離開瀏覽器；
 - YouTube 啟動前沒有 iframe 或 thumbnail request，啟動後使用 privacy-enhanced domain；
 - repository catalogue 顯示「已核對季度完整目錄」，不顯示 Mock Data notice；
+- 歌曲顯示 reviewed source ledger，static API 每筆 theme 同時有第一方及交叉核對來源，且不包含完整度百分比；
 - season list、四個 season detail、280 個 anime detail JSON assets 通過 live contract，未知 API route 回應 `404`；
 - secrets、非公開基礎設施資料和私有營運記錄沒有進入 tracked files 或 build output。
 

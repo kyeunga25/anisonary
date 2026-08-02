@@ -13,6 +13,8 @@ describe("season catalogue source registry", () => {
   it("keeps one Japanese and one Chinese coverage source", () => {
     expect(catalogSourceDefinitions.map((source) => source.id)).toEqual(["annict", "bangumi"]);
     expect(catalogSourceDefinitions.map((source) => source.locale)).toEqual(["ja", "zh"]);
+    expect(catalogSourceDefinitions.map((source) => source.language)).toEqual(["ja", "zh-Hans"]);
+    expect(catalogSourceDefinitions.map((source) => source.sourceRole)).toEqual(["inventory", "cross_check"]);
     expect(catalogSourceDefinitions.find((source) => source.id === "bangumi")?.limitations).toContain("簡體中文");
   });
 
@@ -48,6 +50,8 @@ describe("season catalogue source registry", () => {
     for (const season of curatedSeasonDetails) {
       expect(season.catalogReferences).toEqual(buildSeasonCatalogReferences(season.year, season.quarter));
       expect(season.catalogReferences?.map((reference) => reference.id)).toEqual(["annict", "bangumi"]);
+      expect(season.catalogReferences?.every((reference) => reference.reviewState === "reviewed")).toBe(true);
+      expect(season.catalogReferences?.every((reference) => reference.verifiedAt === season.verifiedAt)).toBe(true);
     }
   });
 });

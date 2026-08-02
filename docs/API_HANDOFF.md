@@ -1,6 +1,6 @@
-# Anisonary Public Static API Contract
+# Anisonary Public Static API v1 Contract
 
-本文件定義 v1.0.0 同源靜態 JSON API。它由 repository-reviewed snapshot 在 Astro build-time 產生，公開 response 必須符合 `src/types/public-api.ts`，不得包含 crawler、private source adapter、internal confidence rules 或未公開候選資料。
+本文件定義同源靜態 JSON API v1。它由 repository-reviewed snapshot 在 Astro build-time 產生，公開 response 必須符合 `src/types/public-api.ts`，不得包含 crawler、private source adapter、internal confidence rules 或未公開候選資料。v1.2.0 在既有 endpoint 加入結構化歌曲來源，沒有新增 runtime API。
 
 ## Build-time integration
 
@@ -36,6 +36,8 @@ PUBLIC_API_BASE_URL=https://anisonary.k-y.cc/api/v1 npm run api:check
 - poster／banner 只接受已核對的 `https://s4.anilist.co` media origin；Annict／Bangumi catalog reference identity 必須對應各自固定的 catalog、documentation 及 API origin；
 - 跨季度索引最多接收 2,000 個動畫條目，season/detail request concurrency 固定上限為 8；動畫靜態頁亦共用相同完整性與 concurrency gate；
 - provider 只重建公開契約欄位，未知欄位不會穿過 data layer，避免 private adapter、內部 confidence 或其他 backend metadata 意外進入頁面資料。
+- 每筆 theme 必須是 `reviewed`，並同時有 `first_party` 與 `cross_check` 來源；來源 URL、語言、角色、核對日期、唯一性及 legacy labels 一致性全部 fail closed。
+- season detail／catalog reference 及 anime detail／source 同樣必須是 `reviewed`，公開 checked date、language、role，且 parent／nested 日期保持一致。
 
 相同 gate 以 repository 內全部 reviewed fixtures 及失敗案例測試。任何替代資料服務都必須維持相同公開契約，且不應依賴前端保留契約以外的資料。
 
@@ -47,7 +49,9 @@ PUBLIC_API_BASE_URL=https://anisonary.k-y.cc/api/v1 npm run api:check
 - `broadcastTimeJst` 保留 `25:00+` 的編輯播出時間；
 - poster／banner 使用核准 AniList media origin；其他 external link 使用無 credential 的絕對 HTTPS URL；
 - YouTube 只回傳 video ID，不回傳任意 embed HTML；
-- `verifiedAt`／`lastVerifiedAt` 使用 ISO 8601；
+- `theme.sources[]` 公開 `label`、HTTPS `url`、`language`、`role` 及 ISO 8601 `verifiedAt`；
+- `sourceLabels`／`lastVerifiedAt` 是 API v1 相容欄位，新 consumer 使用 `sources[]`；
+- anime card 不回傳資料完整度或 confidence score；缺資料使用明確欄位／空狀態；
 - 缺少的靜態 identity 回傳 `404`，任何其他非 `2xx` response 都令 live gate 失敗；
 - response 不得包含 secret、私人備註、confidence score 或未審核 candidate。
 
@@ -57,7 +61,7 @@ TypeScript interface 是欄位層面的 source of truth；endpoint 改動前要�
 
 - 三個 endpoint 以 production-like fixture 通過；
 - success response 通過 nested contract、content-type、timeout、response-size、origin binding 及 URL safety 測試；
-- 兩個季度及所有 card slug 均可解析；
+- 四個季度、280 個唯一 card slug 及 615 筆歌曲來源 ledger 均可解析；
 - 任一季節／動畫 payload failure 會令 fail-closed build 失敗；
 - unknown season／slug 回傳 `404`；
 - production build 無 Mock Data notice；

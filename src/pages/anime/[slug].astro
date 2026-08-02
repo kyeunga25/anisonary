@@ -42,7 +42,7 @@ const { anime, season, isMockData } = Astro.props as AnimePageProps;
 const seasonLabel = `${season.year} ${season.titleZhHant}`;
 const broadcastLabel = formatBroadcastLabel(anime);
 const externalReferences = [
-  anime.officialSiteUrl && { label: "動畫官方網站", url: anime.officialSiteUrl },
+  anime.officialSiteUrl && { label: "動畫官方來源", url: anime.officialSiteUrl },
   anime.bangumiUrl && { label: "Bangumi", url: anime.bangumiUrl },
   anime.anilistUrl && { label: "AniList", url: anime.anilistUrl }
 ].filter((item): item is { label: string; url: string } => Boolean(item));
@@ -99,6 +99,7 @@ catalogCorrectionUrl.searchParams.set("title", `資料修正：${anime.titleJa}`
           <div><dt>季度</dt><dd>{season.year} {season.titleZhHant.replace("動畫", "")}</dd></div>
           <div><dt>播出</dt><dd>{broadcastLabel}</dd></div>
           <div><dt>狀態</dt><dd>{animeStatusLabel(anime.status)}</dd></div>
+          <div><dt>資料審閱</dt><dd>已審閱 · {anime.verifiedAt}</dd></div>
         </dl>
 
         {isMockData && <MockNotice compact />}

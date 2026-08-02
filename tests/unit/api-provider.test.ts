@@ -141,6 +141,14 @@ describe("ApiProvider public contract", () => {
       new ApiProvider("https://api.anisonary.k-y.cc/v1", { fetch: unsafeFetch }).getAnime(unsafeLinkPayload.slug)
     ).rejects.toThrow("invalid anime payload");
 
+    const unreviewedSourcePayload = structuredClone(curatedAnimeDetails[0]!);
+    Object.assign(unreviewedSourcePayload.themes[0]!.sources[0]!, { role: "unknown" });
+    const unreviewedSourceFetch = vi.fn<typeof fetch>().mockResolvedValue(jsonResponse(unreviewedSourcePayload));
+    await expect(
+      new ApiProvider("https://api.anisonary.k-y.cc/v1", { fetch: unreviewedSourceFetch })
+        .getAnime(unreviewedSourcePayload.slug)
+    ).rejects.toThrow("invalid anime payload");
+
     const countDriftPayload = structuredClone(curatedAnimeDetails[0]!);
     countDriftPayload.opCount = 2;
     const countFetch = vi.fn<typeof fetch>().mockResolvedValue(jsonResponse(countDriftPayload));
