@@ -2,6 +2,35 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.3.0] - 2026-08-11
+
+### Added
+
+- source-backed release, performer, credit, official-link, and video metadata for the previously incomplete 2025 summer and 2026 winter／summer theme-song records;
+- explicit `not_used` states for reviewed works that do not use an OP or ED, instead of presenting them as unknown;
+- a public-boundary gate that rejects likely secrets, private paths, cloud resource identifiers, private implementation details, and generated-image metadata before build or CI;
+- privacy-safe self-deployment, technology, AI-use, legal-boundary, and Cloudflare validation documentation.
+
+### Changed
+
+- reorganized desktop navigation as a persistent grouped left sidebar, with a compact accessible menu on smaller screens;
+- improved catalogue search coverage for song titles, performers, credits, theme type, and normalized multilingual terms while reducing the shipped search index;
+- corrected duplicate, reused, variant, sequel, finale, and character-song classifications where the reviewed public sources distinguished them;
+- updated Astro, Playwright, Node type definitions, Wrangler, and the patched `fast-uri` override while keeping the supported TypeScript major;
+- removed unpublished private release-pipeline implementation details and historical generated raster concepts from the public release tree.
+
+### Security
+
+- restored the public application to its static `CuratedProvider`／bounded public `ApiProvider` boundary with no private source adapter, database schema, runtime secret, or stateful binding;
+- upgraded dependencies until `npm audit` reported zero known vulnerabilities;
+- retained generated hash-based CSP, allowlisted media origins, bounded offline navigation, explicit YouTube consent, and fail-closed API validation.
+
+### Preserved
+
+- four reviewed seasons, 280 unique anime pages, 615 OP／ED records, and 392 official YouTube links;
+- one first-party and one cross-check source for every published song record;
+- Cloudflare Workers Static Assets delivery with no application Worker or stateful binding.
+
 ## [1.2.0] - 2026-08-02
 
 ### Added

@@ -1,12 +1,6 @@
 # Phase 1 Design System
 
-Accepted concept references:
-
-- `docs/design/home-concept.png` (1435 × 1096)
-- `docs/design/season-concept.png` (1373 × 1146)
-- `docs/design/anime-detail-concept.png` (1272 × 1237)
-- `docs/design/anime-empty-state-concept.png` (1628 × 971)
-- `docs/design/theme-media-links-concept.png` (1536 × 1024)
+The source components, design tokens, responsive Playwright checks, and current browser rendering are the accepted design evidence. Historical raster concepts are not retained in the public repository.
 
 ## Tokens
 
@@ -29,7 +23,7 @@ Accepted concept references:
 - 16:9 thumbnail-first video panels with an explicit load action, compact metadata, and independent player state.
 - Horizontal platform-link rails with visible Direct／Search／Official／Purchase destination labels.
 - Non-embeddable video fallback rows that preserve a safe external YouTube path.
-- Quiet illustrated empty state that returns readers to the season directory.
+- Quiet code-native empty state that returns readers to the season directory.
 - Mock-data notice using a coral cue dot, not a decorative marketing badge.
 
 All UI text is code-native. The homepage catalogue visual is built from semantic HTML and CSS, with no raster artwork or extra remote origin. Fictional Mock records reuse the repository icon in isolated tests; legacy Mock raster artwork is no longer kept in the repository.

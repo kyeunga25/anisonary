@@ -25,6 +25,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Public privacy and secret boundary
+        run: npm run public:check
+
       - name: Type and Astro checks
         run: npm run lint
 

@@ -21,6 +21,7 @@
 - **v1.0.0**：把相同 reviewed snapshot 發布為同源靜態 JSON API，完成自包含的公開產品；仍維持 Workers Static Assets、0 application bindings 及本機搜尋／離線私隱邊界；
 - **v1.1.0**：加入 2026 冬季及 2025 夏季，擴展至四季、280 個唯一作品、615 筆 OP／ED 及 392 個官方 YouTube 連結；
 - **v1.2.0**：加入每首歌曲的結構化來源 ledger，移除公開完整度分數，以 code-native 首頁視覺取代來源未能證實的 raster asset，並補齊架構／資料治理／發佈文件；
+- **v1.3.0**：補齊並修正 2025 夏季、2026 冬季／夏季歌曲的發行、credits、重用／變體分類及正版連結，把桌面導覽改為左側分組 sidebar，強化多語歌曲搜尋、公開邊界 gate 與依賴安全，並維持純靜態、0 application binding 的交付方式；
 - 正式網站使用 custom domain；非正式 Cloudflare hostname 不在公開文檔記錄；
 - 私有 backend、資料庫、crawler、帳戶設定、憑證與內部規則不屬於本公開 repository。
 

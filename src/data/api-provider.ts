@@ -8,6 +8,7 @@ import type {
   PublicSeasonDetail,
   PublicSeasonSummary,
   PublicTheme,
+  PublicThemeAvailability,
   PublicThemeSource,
   PublicVideo,
   Quarter
@@ -24,7 +25,15 @@ const iso8601Pattern = /^\d{4}-\d{2}-\d{2}(?:T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+
 const youtubeVideoIdPattern = /^[A-Za-z0-9_-]{11}$/;
 
 const quarters = ["winter", "spring", "summer", "fall"] as const;
-const creatorRoles = ["vocals", "lyrics", "composition", "arrangement", "other"] as const;
+const creatorRoles = [
+  "vocals",
+  "lyrics",
+  "translation",
+  "composition",
+  "songwriting",
+  "arrangement",
+  "other"
+] as const;
 const videoTypes = [
   "creditless_op",
   "creditless_ed",
@@ -43,6 +52,7 @@ const linkTypes = [
 ] as const;
 const linkRegions = ["JP", "HK", "TW", "GLOBAL", "UNKNOWN"] as const;
 const animeStatuses = ["upcoming", "airing", "finished", "unknown"] as const;
+const themeAvailabilities = ["documented", "not_announced", "not_used"] as const satisfies readonly PublicThemeAvailability[];
 const sourceLanguages = ["zh-Hant", "zh-Hans", "ja", "en", "multi"] as const;
 const themeSourceRoles = ["first_party", "cross_check"] as const;
 const animeSourceRoles = [
@@ -418,6 +428,9 @@ function parseAnimeDetail(value: unknown): PublicAnimeDetail {
   const item = record(value);
   const card = parseAnimeCard(item);
   const themes = array(item.themes, 0, 100).map(parseTheme);
+  const themeAvailability = item.themeAvailability === undefined
+    ? themes.length > 0 ? "documented" : "not_announced"
+    : oneOf(item.themeAvailability, themeAvailabilities);
   const sources = array(item.sources, 1, 100).map(parseSource);
   unique(themes.map((theme) => theme.id));
   unique(themes.map((theme) => `${theme.type}-${theme.sequence}`));
@@ -426,6 +439,7 @@ function parseAnimeDetail(value: unknown): PublicAnimeDetail {
   if (themes.filter((theme) => theme.type === "OP").length !== card.opCount) invalidContract();
   if (themes.filter((theme) => theme.type === "ED").length !== card.edCount) invalidContract();
   if (themes.some(themeHasOfficialVideo) !== card.hasOfficialVideo) invalidContract();
+  if ((themes.length > 0) !== (themeAvailability === "documented")) invalidContract();
 
   const verifiedAt = iso8601(item.verifiedAt);
   const latestSourceVerification = sources
@@ -444,6 +458,7 @@ function parseAnimeDetail(value: unknown): PublicAnimeDetail {
     status: oneOf(item.status, animeStatuses),
     reviewState: oneOf(item.reviewState, ["reviewed"] as const),
     verifiedAt,
+    themeAvailability,
     themes,
     sources
   };

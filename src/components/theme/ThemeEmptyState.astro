@@ -1,6 +1,13 @@
 ---
-interface Props { seasonId: string; seasonLabel: string; }
-const { seasonId, seasonLabel } = Astro.props;
+import type { PublicThemeAvailability } from "@/types/public-api";
+
+interface Props {
+  seasonId: string;
+  seasonLabel: string;
+  themeAvailability: PublicThemeAvailability;
+}
+const { seasonId, seasonLabel, themeAvailability } = Astro.props;
+const isNotUsed = themeAvailability === "not_used";
 ---
 
 <div class="theme-empty" role="status">
@@ -11,8 +18,12 @@ const { seasonId, seasonLabel } = Astro.props;
     <path class="theme-empty__note" d="M80 5v18M80 5l13-3v18M80 23c-7-2-11 1-10 5 1 3 8 3 10-1M93 20c-7-2-11 1-10 5 1 3 8 3 10-1" />
   </svg>
   <div>
-    <h3>主題曲資料尚未公布</h3>
-    <p>OP／ED 公開後會在這裡整理歌曲、演唱者與官方資料來源。</p>
+    <h3>{isNotUsed ? "本作不設獨立 OP／ED" : "主題曲資料尚未公布"}</h3>
+    <p>
+      {isNotUsed
+        ? "已核對官方正片與製作資料；背景配樂不會當作 OP／ED 收錄。"
+        : "OP／ED 公開後會在這裡整理歌曲、演唱者與官方資料來源。"}
+    </p>
     <a href={`/seasons/${seasonId}/`}>← 返回 {seasonLabel}</a>
   </div>
 </div>

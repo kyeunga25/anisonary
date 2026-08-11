@@ -75,8 +75,34 @@ const serializedJsonLd = jsonLd ? serializeJsonLd(jsonLd) : undefined;
   </head>
   <body>
     <a class="skip-link" href="#main-content">跳到主要內容</a>
-    <Header />
-    <main id="main-content"><slot /></main>
-    <Footer />
+    <div class="site-layout">
+      <Header />
+      <div class="site-layout__content">
+        <main id="main-content"><slot /></main>
+        <Footer />
+      </div>
+    </div>
   </body>
 </html>
+
+<style>
+  .site-layout {
+    display: grid;
+    grid-template-columns: 15rem minmax(0, 1fr);
+    min-height: 100vh;
+  }
+
+  .site-layout__content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 0;
+  }
+
+  main { flex: 1; }
+
+  @media (max-width: 959px) {
+    .site-layout { display: block; }
+    .site-layout__content { min-height: calc(100vh - 4.5rem); }
+  }
+</style>

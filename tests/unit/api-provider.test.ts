@@ -105,6 +105,19 @@ describe("ApiProvider public contract", () => {
     expect(anime).not.toHaveProperty("privateSourceAdapter");
   });
 
+  it("derives a safe availability value for legacy anime details", async () => {
+    const {
+      themeAvailability: _legacyAvailability,
+      ...legacyPayload
+    } = structuredClone(curatedAnimeDetails[0]!);
+    const fetchMock = vi.fn<typeof fetch>().mockResolvedValue(jsonResponse(legacyPayload));
+    const provider = new ApiProvider("https://api.anisonary.k-y.cc/v1", { fetch: fetchMock });
+
+    await expect(provider.getAnime(legacyPayload.slug)).resolves.toMatchObject({
+      themeAvailability: "documented"
+    });
+  });
+
   it("accepts every reviewed repository fixture as a production-like API response", async () => {
     for (const season of curatedSeasonDetails) {
       const fetchMock = vi.fn<typeof fetch>().mockResolvedValue(jsonResponse(season));
@@ -154,6 +167,14 @@ describe("ApiProvider public contract", () => {
     const countFetch = vi.fn<typeof fetch>().mockResolvedValue(jsonResponse(countDriftPayload));
     await expect(
       new ApiProvider("https://api.anisonary.k-y.cc/v1", { fetch: countFetch }).getAnime(countDriftPayload.slug)
+    ).rejects.toThrow("invalid anime payload");
+
+    const availabilityDriftPayload = structuredClone(curatedAnimeDetails[0]!);
+    Object.assign(availabilityDriftPayload, { themeAvailability: "not_used" });
+    const availabilityFetch = vi.fn<typeof fetch>().mockResolvedValue(jsonResponse(availabilityDriftPayload));
+    await expect(
+      new ApiProvider("https://api.anisonary.k-y.cc/v1", { fetch: availabilityFetch })
+        .getAnime(availabilityDriftPayload.slug)
     ).rejects.toThrow("invalid anime payload");
 
     const invalidDatePayload = structuredClone(curatedAnimeDetails[0]!);

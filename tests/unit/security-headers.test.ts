@@ -44,6 +44,16 @@ describe("generated Content Security Policy", () => {
       .toThrow("fixture.html contains prohibited inline style attribute");
     expect(() => inspectHtmlForPolicy('<img src="https://media.example/poster.webp">', "fixture.html"))
       .toThrow("fixture.html uses an unapproved remote image origin");
+    expect(() => inspectHtmlForPolicy('<img src="//media.example/poster.webp">', "fixture.html"))
+      .toThrow("fixture.html uses an unapproved remote image origin");
+    expect(() => inspectHtmlForPolicy(
+      '<img src="/poster.webp" srcset="/poster.webp 1x, https://media.example/poster@2x.webp 2x">',
+      "fixture.html",
+    )).toThrow("fixture.html uses an unapproved remote image origin");
+    expect(() => inspectHtmlForPolicy(
+      '<picture><source srcset="https://media.example/poster.webp 800w"><img src="/poster.webp"></picture>',
+      "fixture.html",
+    )).toThrow("fixture.html uses an unapproved remote image origin");
   });
 
   it("injects one generated header into the global Static Assets rule", () => {

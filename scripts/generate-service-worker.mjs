@@ -60,7 +60,18 @@ export function renderServiceWorker(manifest) {
 
   return `const CACHE_PREFIX = "anisonary-public-";
 const CACHE_NAME = \`\${CACHE_PREFIX}${signature}\`;
+const NAVIGATION_TIMEOUT_MS = 5000;
 const PRECACHE_URLS = ${JSON.stringify(urls, null, 2)};
+
+async function fetchNavigation(request) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), NAVIGATION_TIMEOUT_MS);
+  try {
+    return await fetch(request, { signal: controller.signal });
+  } finally {
+    clearTimeout(timeout);
+  }
+}
 
 self.addEventListener("install", (event) => {
   event.waitUntil((async () => {
@@ -90,7 +101,7 @@ self.addEventListener("fetch", (event) => {
   if (request.mode === "navigate") {
     event.respondWith((async () => {
       try {
-        return await fetch(request);
+        return await fetchNavigation(request);
       } catch {
         const cachedPage = await caches.match(url.pathname);
         return cachedPage ?? await caches.match("/offline/") ?? Response.error();

@@ -44,6 +44,18 @@ describe("offline static catalogue", () => {
     expect(source).not.toContain("searchParams");
   });
 
+  it("bounds network-first navigations so stalled connections reach the offline fallback", () => {
+    const source = renderServiceWorker([
+      { url: "/", revision: "1111111111111111" },
+      { url: "/offline/", revision: "2222222222222222" },
+    ]);
+
+    expect(source).toContain("const NAVIGATION_TIMEOUT_MS = 5000;");
+    expect(source).toContain("const controller = new AbortController();");
+    expect(source).toContain("fetch(request, { signal: controller.signal })");
+    expect(source).toContain("clearTimeout(timeout)");
+  });
+
   it("writes the generated worker into the selected static output directory", async () => {
     const directory = await mkdtemp(join(tmpdir(), "anisonary-worker-"));
     await writeFile(join(directory, "index.html"), "home");

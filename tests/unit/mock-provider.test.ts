@@ -42,6 +42,7 @@ describe("MockProvider anime details", () => {
     const anime = await new MockProvider().getAnime("signal-nocturne");
 
     expect(anime?.status).toBe("upcoming");
+    expect(anime?.themeAvailability).toBe("not_announced");
     expect(anime?.themes).toEqual([]);
   });
 
