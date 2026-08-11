@@ -19,9 +19,9 @@ Browser checks used the app's native in-app browser at desktop `1440 × 1000` an
 - Mobile header navigation remains fully visible; document width equals viewport width at 390px.
 - Browser console reported no errors during the return-navigation check.
 
-## Concept comparison
+## Design comparison
 
-The implementation follows `anime-detail-concept.png` and `anime-empty-state-concept.png` for the poster/identity split, coral section rules, compact theme records, source verification rows, and illustrated empty state.
+The implementation follows the repository design tokens and current component contract for the poster／identity split, coral section rules, compact theme records, source verification rows, and code-native empty state.
 
 Intentional implementation differences:
 

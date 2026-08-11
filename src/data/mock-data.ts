@@ -301,6 +301,7 @@ function makeMockAnimeDetail(anime: PublicAnimeCard): PublicAnimeDetail {
     status: anime.slug === "signal-nocturne" ? "upcoming" : "airing",
     reviewState: "reviewed",
     verifiedAt,
+    themeAvailability: themes.length > 0 ? "documented" : "not_announced",
     themes,
     sources: [
       {

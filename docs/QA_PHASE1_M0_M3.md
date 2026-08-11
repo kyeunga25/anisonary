@@ -2,14 +2,13 @@
 
 ## Visual references
 
-- Home concept: `docs/design/home-concept.png` at 1435 × 1096.
-- Season concept: `docs/design/season-concept.png` at 1373 × 1146.
+- Repository-owned HTML／CSS and the tokens in `docs/DESIGN_SYSTEM.md`.
 - Browser verification: Chromium against the local development server.
 - Responsive verification: 390 × 844 viewport.
 
 ## Fidelity ledger
 
-| Comparison point | Concept evidence | Render evidence | Resolution |
+| Comparison point | Design contract | Render evidence | Resolution |
 |---|---|---|---|
 | Header and navigation | Quiet logo, five essential links, theme toggle | Same link order, active coral underline, compact record/book mark | Matched; mobile uses a second horizontal nav row |
 | Homepage first viewport | Two-line headline, paired CTA, editorial book/record illustration | Headline locked to two desktop lines, exact CTA copy, standalone matching hero asset | Fixed initial three-line wrap and excess hero height |

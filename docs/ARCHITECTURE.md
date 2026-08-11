@@ -52,16 +52,16 @@ Astro output ──► generated CSP ──► bounded service worker ──► 
 - Service Worker 只 precache 已公開的同源 app shell；不建立 runtime cache entry，不保存 `/api/` JSON、query string 或第三方媒體。
 - 作品圖像使用核准 HTTPS origin 並加上頁面來源連結及 `no-referrer`；不下載後重新託管。
 - YouTube iframe 只在使用者明確啟動後建立，使用 privacy-enhanced domain。
-- 首頁識別視覺由 HTML／CSS 組成，不依賴來源不明的 raster artwork。
+- 首頁識別視覺由 HTML／CSS 組成，不依賴來源不明或生成式 raster artwork。
 
 ## Cloudflare 邊界
 
-`wrangler.jsonc` 只指定 `dist` Static Assets、404 行為、custom domain 及停用的 telemetry 設定。加入 D1、KV、R2、Queues、Durable Objects、application Worker、analytics 或身份系統都屬架構變更，必須先有公開產品需求、成本／私隱分析、測試與遷移／回復方案。
+`wrangler.jsonc` 只指定 `dist` Static Assets、404 行為、custom domain 及停用的 telemetry 設定。公開網站沒有 D1、KV、R2、Queues、Durable Objects、application Worker、analytics 或身份系統 binding；任何非公開內容系統都不屬於本 repository 的公開設計或交付範圍。
 
 ## 變更 gate
 
 1. 資料變更先通過 season／anime／theme source ledger 與 catalogue invariants。
-2. 公開 schema 變更先更新 TypeScript、fail-closed parser、static API、component 及 browser tests。
+2. 公開 schema 改動先更新 TypeScript、fail-closed parser、static API、component 及 browser tests。
 3. 新 media origin 必須同時更新來源政策、CSP allowlist、privacy 文案與測試。
 4. 合併前執行完整品質、build、Workers dry-run、browser、audit 與 public-egress 檢查。
 5. 發佈只接受已 review 的固定 SHA；production 驗收需獨立核對 live routes、API、headers 與 Git／release 一致性。

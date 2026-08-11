@@ -3,7 +3,9 @@ import type { PublicAnimeDetail, PublicCreatorCredit } from "@/types/public-api"
 const roleLabels: Record<PublicCreatorCredit["role"], string> = {
   vocals: "演唱",
   lyrics: "作詞",
+  translation: "譯詞",
   composition: "作曲",
+  songwriting: "詞曲",
   arrangement: "編曲",
   other: "其他"
 };

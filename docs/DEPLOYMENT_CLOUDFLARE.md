@@ -2,6 +2,8 @@
 
 Anisonary 以 Cloudflare Workers Static Assets 發布靜態網站。`main` 是正式來源；GitHub Actions 只執行品質檢查，不直接部署。公開文檔只保存可重現的設定與驗收結果，非公開基礎設施及憑證資料留在私有營運環境。
 
+本文件描述專案維護者的正式交付流程。Fork／clone 使用者必須先替換 Worker `name`、production hostname、`PUBLIC_SITE_URL` 及 `robots.txt` sitemap，不能沿用本專案的 production route；完整安全自部署步驟見 [`SELF_HOSTING.md`](./SELF_HOSTING.md)。
+
 ## Current topology／目前拓撲
 
 | 項目 | 公開設定 |

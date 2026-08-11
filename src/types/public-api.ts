@@ -1,6 +1,7 @@
 export type Quarter = "winter" | "spring" | "summer" | "fall";
 export type PublicSourceLanguage = "zh-Hant" | "zh-Hans" | "ja" | "en" | "multi";
 export type PublicReviewState = "reviewed";
+export type PublicThemeAvailability = "documented" | "not_announced" | "not_used";
 
 export interface PublicSeasonSummary {
   id: string;
@@ -49,7 +50,14 @@ export interface PublicAnimeCard {
 
 export interface PublicCreatorCredit {
   name: string;
-  role: "vocals" | "lyrics" | "composition" | "arrangement" | "other";
+  role:
+    | "vocals"
+    | "lyrics"
+    | "translation"
+    | "composition"
+    | "songwriting"
+    | "arrangement"
+    | "other";
   creatorSlug?: string;
 }
 
@@ -120,6 +128,7 @@ export interface PublicAnimeDetail extends PublicAnimeCard {
   status: "upcoming" | "airing" | "finished" | "unknown";
   reviewState: PublicReviewState;
   verifiedAt: string;
+  themeAvailability: PublicThemeAvailability;
   themes: PublicTheme[];
   sources: {
     label: string;

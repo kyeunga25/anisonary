@@ -61,6 +61,8 @@ test("static responses enforce the generated Content Security Policy", async ({ 
 });
 
 test("curated catalogue flow reaches verified themes, lazy video and an official page", async ({ page, context }) => {
+  await page.emulateMedia({ reducedMotion: "reduce" });
+
   const youtubeRequests: string[] = [];
   page.on("request", (request) => {
     const hostname = new URL(request.url()).hostname;
@@ -140,6 +142,19 @@ test("cross-season search stays local and matches anime, songs, and artists", as
   await expect(page.getByRole("link", { name: "Re:ゼロから始める異世界生活 4th season" })).toBeVisible();
   await expect(page.getByRole("link", { name: "クレバテスⅡ-魔獣の王と偽りの勇者伝承-" })).toBeVisible();
 
+  await search.fill("幼女 myth");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1");
+  await expect(page.locator("[data-catalog-theme-count]")).toHaveText("1");
+  await expect(page.getByRole("link", { name: "幼女戦記Ⅱ" })).toBeVisible();
+  await expect(page.getByText("Why? RED induction")).toBeVisible();
+  await expect(page.getByText("Weiter! Weiter!")).toBeHidden();
+  expect(new URL(page.url()).search).toBe("");
+
+  await search.fill("片頭曲 myth");
+  await expect(page.getByRole("link", { name: "幼女戦記Ⅱ" })).toBeVisible();
+  await expect(page.getByText("Why? RED induction")).toBeVisible();
+  await expect(page.getByText("Awake Anew")).toBeHidden();
+
   await search.fill("幼女戰記");
   await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1");
   await expect(page.locator("[data-catalog-theme-count]")).toHaveText("2");
@@ -166,7 +181,7 @@ test("added seasonal pages render their reviewed theme records", async ({ page }
   await page.getByRole("link", { name: /查看 銀河特急 ミルキー☆サブウェイ/ }).click();
   await expect(page).toHaveURL(/\/anime\/ginga-tokkyuu-milky-subway\/$/);
   await expect(page.getByRole("heading", { name: "Altair and Vega" })).toBeVisible();
-  await expect(page.getByText("MindaRyn")).toBeVisible();
+  await expect(page.getByText("MindaRyn", { exact: true })).toBeVisible();
 });
 
 test("public catalogue remains readable offline without caching personal input", async ({ page, context }) => {
@@ -229,8 +244,50 @@ test("mobile season filters remain keyboard-operable", async ({ page }) => {
   await videoFilter.focus();
   await page.keyboard.press("Space");
   await expect(videoFilter).toBeChecked();
-  await expect(page.locator("[data-result-count]")).toHaveText("57");
+  await expect(page.locator("[data-result-count]")).toHaveText("58");
   await expect(page.getByRole("heading", { name: "2026 夏季動畫" })).toBeVisible();
+});
+
+test("responsive navigation uses a desktop sidebar and a compact mobile menu", async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 900 });
+  await page.goto("/seasons/2025-summer/");
+
+  const navigation = page.getByRole("navigation", { name: "主要導覽" });
+  const desktopHeader = page.locator(".site-header");
+  const desktopHeaderBox = await desktopHeader.boundingBox();
+
+  expect(desktopHeaderBox).not.toBeNull();
+  expect(desktopHeaderBox!.width).toBeLessThanOrEqual(280);
+  expect(desktopHeaderBox!.height).toBeGreaterThanOrEqual(850);
+  await expect(navigation).toBeVisible();
+  await expect(navigation.getByText("探索", { exact: true })).toBeVisible();
+  await expect(navigation.getByText("季度", { exact: true })).toBeVisible();
+  await expect(navigation.getByText("資訊", { exact: true })).toBeVisible();
+  await expect(navigation.getByRole("link", { name: "2025 夏季" })).toHaveAttribute("aria-current", "page");
+  await expect(page.getByRole("navigation", { name: "切換季度" })).toHaveCount(0);
+  await expect(page.getByRole("button", { name: "選單" })).toBeHidden();
+
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.reload();
+
+  const menuButton = page.getByRole("button", { name: "選單" });
+  const mobileHeaderBox = await desktopHeader.boundingBox();
+  expect(mobileHeaderBox).not.toBeNull();
+  expect(mobileHeaderBox!.height).toBeLessThanOrEqual(80);
+  await expect(menuButton).toBeVisible();
+  await expect(menuButton).toHaveAttribute("aria-expanded", "false");
+  await expect(navigation).toBeHidden();
+
+  await menuButton.click();
+  await expect(menuButton).toHaveAttribute("aria-expanded", "true");
+  await expect(navigation).toBeVisible();
+  await expect(navigation.getByRole("link", { name: "2025 夏季" })).toHaveAttribute("aria-current", "page");
+
+  await menuButton.press("Escape");
+  await expect(menuButton).toHaveAttribute("aria-expanded", "false");
+  await expect(navigation).toBeHidden();
+  await expect(menuButton).toBeFocused();
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
 });
 
 test("unknown routes render the public 404 state and stay out of the index", async ({ page }) => {

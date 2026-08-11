@@ -1,12 +1,12 @@
 # Anisonary Public Static API v1 Contract
 
-本文件定義同源靜態 JSON API v1。它由 repository-reviewed snapshot 在 Astro build-time 產生，公開 response 必須符合 `src/types/public-api.ts`，不得包含 crawler、private source adapter、internal confidence rules 或未公開候選資料。v1.2.0 在既有 endpoint 加入結構化歌曲來源，沒有新增 runtime API。
+本文件定義同源靜態 JSON API v1。它由 repository-reviewed snapshot 在 Astro build-time 產生，公開 response 必須符合 `src/types/public-api.ts`，不得包含 crawler、private source adapter、internal confidence rules 或未公開候選資料。v1.3.0 延續既有 endpoint 與結構化歌曲來源，沒有新增 runtime API。
 
 ## Build-time integration
 
 正常 production build 直接由 `CuratedProvider` 產生 HTML 與 JSON assets，不需要網絡 API、credential、application Worker 或寬鬆 CORS。JSON 內容與公開 HTML 來自同一份 reviewed snapshot，必須全部視作 public data。
 
-部署後用以下命令以 `ApiProvider` 重新讀取 production assets，完成 fail-closed live 驗收：
+部署後仍用 `ApiProvider` 重新讀取 production assets，完成 fail-closed live 驗收：
 
 ```bash
 PUBLIC_API_BASE_URL=https://anisonary.k-y.cc/api/v1 npm run api:check

@@ -33,6 +33,27 @@ function hashSource(content) {
   return `'sha256-${createHash("sha256").update(content).digest("base64")}'`;
 }
 
+function assertApprovedImageSource(source, sourceName) {
+  try {
+    const absoluteSource = source.startsWith("//") ? `https:${source}` : source;
+    const origin = new URL(absoluteSource).origin;
+    if (!approvedImageOrigins.has(origin)) {
+      throw new Error(`${sourceName} uses an unapproved remote image origin: ${origin}`);
+    }
+  } catch (error) {
+    if (error instanceof TypeError) return;
+    throw error;
+  }
+}
+
+function srcsetSources(attributes) {
+  const srcset = attributeValue(attributes, "srcset");
+  if (!srcset) return [];
+  return srcset.split(",")
+    .map((candidate) => candidate.trim().split(/\s+/, 1)[0])
+    .filter(Boolean);
+}
+
 export function inspectHtmlForPolicy(html, sourceName = "HTML output") {
   const scriptHashes = new Set();
   const styleHashes = new Set();
@@ -64,15 +85,15 @@ export function inspectHtmlForPolicy(html, sourceName = "HTML output") {
 
   for (const match of html.matchAll(/<img\b([^>]*)>/gi)) {
     const source = attributeValue(match[1], "src");
-    if (!source) continue;
-    try {
-      const origin = new URL(source).origin;
-      if (!approvedImageOrigins.has(origin)) {
-        throw new Error(`${sourceName} uses an unapproved remote image origin: ${origin}`);
-      }
-    } catch (error) {
-      if (error instanceof TypeError) continue;
-      throw error;
+    if (source) assertApprovedImageSource(source, sourceName);
+    for (const candidate of srcsetSources(match[1])) {
+      assertApprovedImageSource(candidate, sourceName);
+    }
+  }
+
+  for (const match of html.matchAll(/<source\b([^>]*)>/gi)) {
+    for (const candidate of srcsetSources(match[1])) {
+      assertApprovedImageSource(candidate, sourceName);
     }
   }
 

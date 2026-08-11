@@ -22,7 +22,7 @@ const themeCount = data.status === "ready"
         <h1>跨季度搜尋</h1>
         <p lang="en">Catalogue Search</p>
       </div>
-      <p>搜尋已核對的動畫、OP／ED 與歌手。所有比對只在這個頁面完成，不會傳送搜尋字詞或建立查詢紀錄。</p>
+      <p>搜尋已核對的動畫、OP／ED 與歌手；可同時輸入作品、歌曲、歌手或「片頭曲／片尾曲」等多個關鍵字。所有比對只在這個頁面完成，不會傳送搜尋字詞或建立查詢紀錄。</p>
     </header>
 
     {data.status === "error" ? (
@@ -36,7 +36,7 @@ const themeCount = data.status === "ready"
             <input
               id="catalog-query"
               type="search"
-              placeholder="例如：幼女戦記、Blue、ReoNa"
+              placeholder="例如：幼女 myth、片頭曲 ReoNa"
               maxlength="80"
               autocomplete="off"
               autocapitalize="off"
@@ -95,7 +95,11 @@ const themeCount = data.status === "ready"
                   ))}
                 </ol>
               ) : (
-                <p class="catalog-result__pending">主題曲資料尚待官方公布。</p>
+                <p class="catalog-result__pending">
+                  {anime.themeAvailability === "not_used"
+                    ? "本作經核對不設獨立 OP／ED。"
+                    : "主題曲資料尚待官方公布。"}
+                </p>
               )}
             </article>
           ))}
@@ -106,7 +110,10 @@ const themeCount = data.status === "ready"
 </BaseLayout>
 
 <script>
-  import { normalizeCatalogSearchText } from "@/utils/catalog-search";
+  import {
+    matchesCatalogSearchTokens,
+    tokenizeCatalogSearchQuery
+  } from "@/utils/catalog-search";
 
   const root = document.querySelector<HTMLElement>("[data-catalog-search]");
 
@@ -120,17 +127,19 @@ const themeCount = data.status === "ready"
     const empty = root.querySelector<HTMLElement>("[data-catalog-search-empty]");
 
     const applySearch = () => {
-      const query = normalizeCatalogSearchText(input?.value ?? "");
+      const queryTokens = tokenizeCatalogSearchQuery(input?.value ?? "");
       let visibleAnime = 0;
       let visibleThemes = 0;
 
       results.forEach((result) => {
-        const animeMatches = query.length === 0 || (result.dataset.animeSearch ?? "").includes(query);
+        const animeSearch = result.dataset.animeSearch ?? "";
+        const animeMatches = matchesCatalogSearchTokens(animeSearch, queryTokens);
         const themes = Array.from(result.querySelectorAll<HTMLElement>("[data-theme-result]"));
         let matchingThemes = 0;
 
         themes.forEach((theme) => {
-          const themeMatches = query.length === 0 || (theme.dataset.themeSearch ?? "").includes(query);
+          const themeSearch = `${animeSearch} ${theme.dataset.themeSearch ?? ""}`;
+          const themeMatches = matchesCatalogSearchTokens(themeSearch, queryTokens);
           const showTheme = animeMatches || themeMatches;
           theme.hidden = !showTheme;
           if (showTheme) matchingThemes += 1;
@@ -147,7 +156,7 @@ const themeCount = data.status === "ready"
       if (animeCount) animeCount.textContent = String(visibleAnime);
       if (themeCount) themeCount.textContent = String(visibleThemes);
       if (empty) empty.hidden = visibleAnime !== 0;
-      if (clear) clear.disabled = query.length === 0;
+      if (clear) clear.disabled = queryTokens.length === 0;
     };
 
     form?.addEventListener("submit", (event) => event.preventDefault());

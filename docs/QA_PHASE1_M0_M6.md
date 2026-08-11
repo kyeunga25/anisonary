@@ -31,7 +31,7 @@ Verified on 2026-07-17 against the local Astro development server and the produc
 
 ## Fidelity ledger
 
-The accepted reference is `docs/design/theme-media-links-concept.png`.
+The accepted references are the repository design tokens, component source, and responsive browser behavior.
 
 1. Palette: true near-white, deep navy, coral accents, and cool thin borders match the reference.
 2. Container model: theme identity, media area, fallback row, and platform rail remain one continuous record rather than nested card grids.
@@ -41,9 +41,7 @@ The accepted reference is `docs/design/theme-media-links-concept.png`.
 6. Responsive behavior: media and metadata stack into a readable single column at 390px; link rails become full-width rows.
 7. Interaction: the implementation adds real independent lazy state while preserving the reference's pre-load and fallback visuals.
 
-Intentional difference: the concept uses a fictional night-platform thumbnail, while the implementation uses the real thumbnail of the documented Google for Developers iframe demo fixture. This keeps the Mock interaction truthful and verifiable.
-
-The implementation was inspected against the accepted concept using `view_image` on both the concept and the latest Browser screenshots. No material visual mismatch remains.
+The implementation uses the documented Google for Developers iframe demo fixture so the Mock interaction remains truthful and verifiable. Current source and browser checks replace the removed historical raster reference.
 
 ## References
 

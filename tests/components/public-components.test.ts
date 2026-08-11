@@ -91,10 +91,21 @@ describe("Phase 1 public components", () => {
   });
 
   it("renders source, empty and error states", async () => {
-    const [sources, empty, error] = await Promise.all([
+    const [sources, pending, notUsed, error] = await Promise.all([
       container.renderToString(SourceList, { props: { sources: anime.sources } }),
       container.renderToString(ThemeEmptyState, {
-        props: { seasonId: "2026-summer", seasonLabel: "2026 夏季動畫" }
+        props: {
+          seasonId: "2026-summer",
+          seasonLabel: "2026 夏季動畫",
+          themeAvailability: "not_announced"
+        }
+      }),
+      container.renderToString(ThemeEmptyState, {
+        props: {
+          seasonId: "2026-winter",
+          seasonLabel: "2026 冬季動畫",
+          themeAvailability: "not_used"
+        }
       }),
       container.renderToString(ErrorState)
     ]);
@@ -102,7 +113,9 @@ describe("Phase 1 public components", () => {
     expect(sources).toContain("最後驗證");
     expect(sources).toContain("第一方");
     expect(sources).toContain("日文");
-    expect(empty).toContain("主題曲資料尚未公布");
+    expect(pending).toContain("主題曲資料尚未公布");
+    expect(notUsed).toContain("本作不設獨立 OP／ED");
+    expect(notUsed).toContain("背景配樂不會當作 OP／ED 收錄");
     expect(error).toContain('role="alert"');
     expect(error).toContain("暫時無法載入資料");
   });

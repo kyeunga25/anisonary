@@ -41,6 +41,9 @@ export async function getStaticPaths() {
 const { anime, season, isMockData } = Astro.props as AnimePageProps;
 const seasonLabel = `${season.year} ${season.titleZhHant}`;
 const broadcastLabel = formatBroadcastLabel(anime);
+const pageDescription = anime.themeAvailability === "not_used"
+  ? `${anime.titleJa} 經官方正片與製作資料核對，不設獨立 OP／ED；可查看作品資料與驗證來源。`
+  : `${anime.titleJa} 的 OP／ED、演唱者、製作 Credits 與已驗證資料來源。`;
 const externalReferences = [
   anime.officialSiteUrl && { label: "動畫官方來源", url: anime.officialSiteUrl },
   anime.bangumiUrl && { label: "Bangumi", url: anime.bangumiUrl },
@@ -54,7 +57,7 @@ catalogCorrectionUrl.searchParams.set("title", `資料修正：${anime.titleJa}`
 
 <BaseLayout
   title={`${anime.titleJa}／${anime.titleZhHant ?? anime.titleRomaji ?? "主題曲"}`}
-  description={`${anime.titleJa} 的 OP／ED、演唱者、製作 Credits 與已驗證資料來源。`}
+  description={pageDescription}
   image={anime.posterUrl}
   ogType="video.tv_show"
   jsonLd={buildAnimeJsonLd(anime, season, site)}
@@ -122,7 +125,11 @@ catalogCorrectionUrl.searchParams.set("title", `資料修正：${anime.titleJa}`
       {anime.themes.length > 0 ? (
         <div>{anime.themes.map((theme) => <ThemeCard theme={theme} />)}</div>
       ) : (
-        <ThemeEmptyState seasonId={season.id} seasonLabel={seasonLabel} />
+        <ThemeEmptyState
+          seasonId={season.id}
+          seasonLabel={seasonLabel}
+          themeAvailability={anime.themeAvailability}
+        />
       )}
     </section>
 
