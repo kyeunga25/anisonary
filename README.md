@@ -8,16 +8,20 @@ This repository contains the completed static product: season directory, anime d
 
 Production build 會從最終 HTML 自動產生 hash-based Content Security Policy。政策不使用 `unsafe-inline` 或 `unsafe-eval`，禁止 inline event／style attributes，只開放同源資產、已核對的海報來源及使用者啟動後的 YouTube privacy-enhanced iframe。任何未批准的 media origin 會令 build fail closed。
 
+| 可用性 / Availability                  | 成熟度 / Maturity                      | 證據 / Evidence                                                                                                                                                  |
+| -------------------------------------- | -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 公開靜態目錄 / Public static catalogue | Source 與 GitHub release 均為 `v1.3.0` | [入口網站 / Live](https://anisonary.k-y.cc) · [資料來源 / Sources](docs/DATA_SOURCES.md) · [安全政策 / Security](SECURITY.md) · [版權 / Copyright](COPYRIGHT.md) |
+
 ## 技術棧｜Technology stack
 
-| Layer | Technology and responsibility |
-|---|---|
-| Application | Astro 7 static output、semantic HTML、repository-owned CSS 與少量 browser JavaScript |
-| Language／tooling | TypeScript 6（Astro `strictest`）、Node.js 22、npm lockfile |
-| Delivery | Cloudflare Workers Static Assets、Wrangler 4、optional Workers Builds Git integration |
-| Build safeguards | Generated hash-based CSP、bounded Service Worker、same-origin static JSON API、sitemap |
-| Testing | Astro check、Vitest 4、Playwright 1.62、Wrangler deployment dry-run |
-| Runtime services | 無 application Worker、database、object storage、analytics、authentication、payment 或 AI model |
+| Layer             | Technology and responsibility                                                                   |
+| ----------------- | ----------------------------------------------------------------------------------------------- |
+| Application       | Astro 7 static output、semantic HTML、repository-owned CSS 與少量 browser JavaScript            |
+| Language／tooling | TypeScript 6（Astro `strictest`）、Node.js 22、npm lockfile                                     |
+| Delivery          | Cloudflare Workers Static Assets、Wrangler 4、optional Workers Builds Git integration           |
+| Build safeguards  | Generated hash-based CSP、bounded Service Worker、same-origin static JSON API、sitemap          |
+| Testing           | Astro check、Vitest 4、Playwright 1.62、Wrangler deployment dry-run                             |
+| Runtime services  | 無 application Worker、database、object storage、analytics、authentication、payment 或 AI model |
 
 完整用途、版本來源與官方技術參考見 [`docs/TECHNOLOGY_REFERENCES.md`](docs/TECHNOLOGY_REFERENCES.md)；公開資料流與信任邊界見 [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md)。
 
@@ -117,7 +121,9 @@ Production domain: <https://anisonary.k-y.cc>. Non-production Cloudflare hostnam
 
 ## 自行部署到 Cloudflare Workers｜Self-deployment
 
-> 本 repository 目前沒有附帶開源軟件或內容 license。以下只記錄可重現的技術步驟，不授予複製、修改、再散布或部署程式及目錄內容的權利；只有在權利人另行明確授權或 repository 日後加入適用 license 時才可依其範圍使用。
+> 本 repository 沒有授予開源軟件或內容 license；權利與第三方內容邊界見
+> [`COPYRIGHT.md`](COPYRIGHT.md)。以下只記錄可重現的技術步驟，不授予複製、
+> 修改、再散布或部署程式及目錄內容的權利。
 >
 > `wrangler.jsonc` 目前指向本專案的正式 Worker 名稱與 custom domain。Fork 或 clone 後，**不要直接執行 `npm run cf:deploy`**；先換成你自己的公開 Worker 名稱與 hostname，或移除 `routes` 只使用自己的 `workers.dev` hostname。
 
