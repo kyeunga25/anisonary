@@ -27,7 +27,9 @@ Astro output ──► generated CSP ──► bounded service worker ──► 
 
 | 位置 | 責任 |
 |---|---|
-| `src/data/curated-seeds*.ts` | 已審閱的季度、作品與歌曲原始快照 |
+| `src/data/curated-seeds/<year>/<quarter>.ts` | 按年份／季度分檔的已審閱作品與歌曲原始快照；每個作品只由一個季度檔案擁有 |
+| `src/data/curated-season-registry.ts` | 集中登記季度顯示順序、季度索引與擁有者模組，並在載入時拒絕重複、缺失或跨季度漂移 |
+| `src/data/curated-seeds.ts` | 保留既有匯入介面及作品順序的相容聚合層 |
 | `src/data/curated-data.ts` | 少量可審核 override、來源 ledger、公開 record 派生 |
 | `src/types/public-api.ts` | HTML 與 static API 共用的公開契約 |
 | `src/data/api-provider.ts` | 外部 JSON 的 fail-closed parser 與 request boundary |
@@ -36,6 +38,8 @@ Astro output ──► generated CSP ──► bounded service worker ──► 
 | `scripts/generate-security-headers.mjs` | 由 build output 產生 hash-based CSP |
 | `scripts/generate-service-worker.mjs` | 由 build output 產生同源、無 runtime write 的離線清單 |
 | `tests/` | catalogue、contract、component、browser、CSP 與 offline gates |
+
+季度索引可重複引用跨季播放的同一作品，但 seed record 不會跨檔案複製。新增季度時，必須先建立對應年份／季度模組，再加入 registry；registry 的 season identity、owner、index membership 與唯一性檢查會在 build 及 catalogue test 中共同執行。現有公開資料量仍適合由 Git 審閱的靜態 snapshot，因此本輪不引入 D1 或其他 runtime database，亦不改變 production 的純 Static Assets 邊界。
 
 ## 公開資料邊界
 
