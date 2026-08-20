@@ -11,7 +11,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:e2e": "playwright test",
-    "catalog:check": "vitest run tests/unit/curated-catalog.test.ts tests/unit/catalog-sources.test.ts tests/unit/curated-season-registry.test.ts",
+    "catalog:check": "vitest run tests/unit/curated-catalog.test.ts tests/unit/catalog-sources.test.ts tests/unit/curated-season-registry.test.ts tests/unit/curated-theme-source-registry.test.ts",
     "api:smoke": "vitest run --config vitest.live.config.ts",
     "api:check": "npm run api:smoke && ANISONARY_REQUIRE_API_DATA=true npm run build",
     "public:check": "node scripts/check-public-boundary.mjs",
