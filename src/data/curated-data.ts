@@ -1,4 +1,5 @@
 import { buildSeasonCatalogReferences, getSeasonSnapshotVerifiedAt } from "@/data/catalog-sources";
+import { curatedSeasonRegistry } from "@/data/curated-season-registry";
 import {
   curatedAnimeSeeds,
   curatedSeasonAnimeIds,
@@ -12778,12 +12779,13 @@ function toCard(anime: PublicAnimeDetail): PublicAnimeCard {
   return card;
 }
 
-export const curatedSeasons: PublicSeasonSummary[] = [
-  { id: "2026-summer", year: 2026, quarter: "summer", titleZhHant: "夏季動畫", titleJa: "2026年夏アニメ" },
-  { id: "2026-spring", year: 2026, quarter: "spring", titleZhHant: "春季動畫", titleJa: "2026年春アニメ" },
-  { id: "2026-winter", year: 2026, quarter: "winter", titleZhHant: "冬季動畫", titleJa: "2026年冬アニメ" },
-  { id: "2025-summer", year: 2025, quarter: "summer", titleZhHant: "夏季動畫", titleJa: "2025年夏アニメ" }
-];
+export const curatedSeasons: PublicSeasonSummary[] = curatedSeasonRegistry.map(({
+  id,
+  year,
+  quarter,
+  titleZhHant,
+  titleJa
+}) => ({ id, year, quarter, titleZhHant, titleJa }));
 
 export const curatedAnimeDetails = curatedAnimeSeeds.map(toDetail);
 

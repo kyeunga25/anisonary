@@ -1,0 +1,126 @@
+import {
+  curated2025SummerAnimeIds,
+  curated2025SummerSeeds
+} from "@/data/curated-seeds/2025/summer";
+import {
+  curated2026SpringAnimeIds,
+  curated2026SpringSeeds
+} from "@/data/curated-seeds/2026/spring";
+import {
+  curated2026SummerAnimeIds,
+  curated2026SummerSeeds
+} from "@/data/curated-seeds/2026/summer";
+import {
+  curated2026WinterAnimeIds,
+  curated2026WinterSeeds
+} from "@/data/curated-seeds/2026/winter";
+import type {
+  CuratedAnimeSeed,
+  CuratedSeasonRegistryEntry
+} from "@/data/curated-seeds/types";
+
+export function validateCuratedSeasonRegistry<
+  const Entries extends readonly CuratedSeasonRegistryEntry[]
+>(entries: Entries): Entries {
+  const entryById = new Map<string, CuratedSeasonRegistryEntry>();
+  const seedByAniListId = new Map<number, CuratedAnimeSeed>();
+
+  for (const entry of entries) {
+    if (entry.id !== `${entry.year}-${entry.quarter}`) {
+      throw new Error(`Curated season identity mismatch: ${entry.id}`);
+    }
+    if (entryById.has(entry.id)) {
+      throw new Error(`Duplicate curated season: ${entry.id}`);
+    }
+    entryById.set(entry.id, entry);
+
+    const animeIds = new Set<number>();
+    for (const anilistId of entry.animeIds) {
+      if (animeIds.has(anilistId)) {
+        throw new Error(`Duplicate season anime ID: ${entry.id}:${anilistId}`);
+      }
+      animeIds.add(anilistId);
+    }
+
+    for (const seed of entry.seeds) {
+      if (seed.seasonIds[0] !== entry.id) {
+        throw new Error(`Curated seed owner mismatch: ${seed.anilistId}`);
+      }
+      if (seedByAniListId.has(seed.anilistId)) {
+        throw new Error(`Duplicate curated seed: ${seed.anilistId}`);
+      }
+      seedByAniListId.set(seed.anilistId, seed);
+    }
+  }
+
+  for (const entry of entries) {
+    for (const anilistId of entry.animeIds) {
+      const seed = seedByAniListId.get(anilistId);
+      if (!seed) {
+        throw new Error(`Missing curated seed: ${entry.id}:${anilistId}`);
+      }
+      if (!seed.seasonIds.includes(entry.id)) {
+        throw new Error(`Season membership mismatch: ${entry.id}:${anilistId}`);
+      }
+    }
+  }
+
+  for (const seed of seedByAniListId.values()) {
+    for (const seasonId of seed.seasonIds) {
+      const entry = entryById.get(seasonId);
+      if (!entry) {
+        throw new Error(`Unregistered curated season: ${seasonId}`);
+      }
+      if (!entry.animeIds.includes(seed.anilistId)) {
+        throw new Error(`Missing season index entry: ${seasonId}:${seed.anilistId}`);
+      }
+    }
+  }
+
+  return entries;
+}
+
+export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
+  {
+    id: "2026-summer",
+    year: 2026,
+    quarter: "summer",
+    titleZhHant: "夏季動畫",
+    titleJa: "2026年夏アニメ",
+    seeds: curated2026SummerSeeds,
+    animeIds: curated2026SummerAnimeIds
+  },
+  {
+    id: "2026-spring",
+    year: 2026,
+    quarter: "spring",
+    titleZhHant: "春季動畫",
+    titleJa: "2026年春アニメ",
+    seeds: curated2026SpringSeeds,
+    animeIds: curated2026SpringAnimeIds
+  },
+  {
+    id: "2026-winter",
+    year: 2026,
+    quarter: "winter",
+    titleZhHant: "冬季動畫",
+    titleJa: "2026年冬アニメ",
+    seeds: curated2026WinterSeeds,
+    animeIds: curated2026WinterAnimeIds
+  },
+  {
+    id: "2025-summer",
+    year: 2025,
+    quarter: "summer",
+    titleZhHant: "夏季動畫",
+    titleJa: "2025年夏アニメ",
+    seeds: curated2025SummerSeeds,
+    animeIds: curated2025SummerAnimeIds
+  }
+] as const);
+
+export type PublishedCuratedSeasonId = (typeof curatedSeasonRegistry)[number]["id"];
+
+export const curatedSeasonAnimeIds = Object.fromEntries(
+  curatedSeasonRegistry.map(({ id, animeIds }) => [id, animeIds])
+) as unknown as Readonly<Record<PublishedCuratedSeasonId, readonly number[]>>;
