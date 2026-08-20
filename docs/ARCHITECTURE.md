@@ -32,7 +32,9 @@ Astro output ──► generated CSP ──► bounded service worker ──► 
 | `src/data/curated-seeds.ts` | 保留既有匯入介面及作品順序的相容聚合層 |
 | `src/data/curated-theme-sources/<year>/<quarter>.ts` | 按作品 owner 季度分檔的逐歌曲公開來源 ledger；只保存未加入核對日期的來源 seed |
 | `src/data/curated-theme-sources.ts` | 合併四季來源 ledger，拒絕錯誤 owner、重複 key、非 HTTPS、URL credentials、未知語言／角色及私人核對欄位 |
-| `src/data/curated-data.ts` | 少量可審核 override、來源 ledger、公開 record 派生 |
+| `src/data/curated-theme-videos/<year>/<quarter>.ts` | 按作品 owner 季度分檔的已審閱官方影片 metadata；保留影片種類、頻道、官方狀態及嵌入設定 |
+| `src/data/curated-theme-videos.ts` | 合併四季影片 override，拒絕錯誤 owner、重複 key、無效或同曲重複的 YouTube ID、空欄位及未知欄位 |
+| `src/data/curated-data.ts` | 其餘少量可審核 override 與公開 record 派生 |
 | `src/types/public-api.ts` | HTML 與 static API 共用的公開契約 |
 | `src/data/api-provider.ts` | 外部 JSON 的 fail-closed parser 與 request boundary |
 | `src/data/page-data.ts` | 頁面需要的 provider 查詢與錯誤狀態 |
@@ -41,7 +43,7 @@ Astro output ──► generated CSP ──► bounded service worker ──► 
 | `scripts/generate-service-worker.mjs` | 由 build output 產生同源、無 runtime write 的離線清單 |
 | `tests/` | catalogue、contract、component、browser、CSP 與 offline gates |
 
-季度索引可重複引用跨季播放的同一作品，但 seed record 與逐歌曲來源 ledger 不會跨季度檔案複製。新增季度時，必須先建立對應年份／季度模組，再加入 registry；registry 的 season identity、owner、index membership、source transport 與唯一性檢查會在 build 及 catalogue test 中共同執行。來源 override key 保留 metadata 變換前的 reviewed theme identity，避免修正 OP／ED 類型時令既有證據失聯。現有公開資料量仍適合由 Git 審閱的靜態 snapshot，因此本輪不引入 D1 或其他 runtime database，亦不改變 production 的純 Static Assets 邊界。
+季度索引可重複引用跨季播放的同一作品，但 seed record、逐歌曲來源 ledger 與影片 override 不會跨季度檔案複製。新增季度時，必須先建立對應年份／季度模組，再加入 registry；registry 的 season identity、owner、index membership、source transport、影片欄位與唯一性檢查會在 build 及 catalogue test 中共同執行。來源及影片 override key 保留 metadata 變換前的 reviewed theme identity，避免修正 OP／ED 類型時令既有證據或媒體失聯。現有公開資料量仍適合由 Git 審閱的靜態 snapshot，因此本輪不引入 D1 或其他 runtime database，亦不改變 production 的純 Static Assets 邊界。
 
 ## 公開資料邊界
 
@@ -66,7 +68,7 @@ Astro output ──► generated CSP ──► bounded service worker ──► 
 
 ## 變更 gate
 
-1. 資料變更先通過 season／anime／theme source ledger 與 catalogue invariants。
+1. 資料變更先通過 season／anime／theme source／theme video registry 與 catalogue invariants。
 2. 公開 schema 改動先更新 TypeScript、fail-closed parser、static API、component 及 browser tests。
 3. 新 media origin 必須同時更新來源政策、CSP allowlist、privacy 文案與測試。
 4. 合併前執行完整品質、build、Workers dry-run、browser、audit 與 public-egress 檢查。
