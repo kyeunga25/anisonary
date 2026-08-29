@@ -31,9 +31,9 @@ Astro output ──► generated CSP ──► bounded service worker ──► 
 | `src/data/curated-season-registry.ts` | 集中登記季度顯示順序、季度索引與擁有者模組，並在載入時拒絕重複、缺失或跨季度漂移 |
 | `src/data/curated-seeds.ts` | 保留既有匯入介面及作品順序的相容聚合層 |
 | `src/data/curated-theme-sources/<year>/<quarter>.ts` | 按作品 owner 季度分檔的逐歌曲公開來源 ledger；只保存未加入核對日期的來源 seed |
-| `src/data/curated-theme-sources.ts` | 合併四季來源 ledger，拒絕錯誤 owner、重複 key、非 HTTPS、URL credentials、未知語言／角色及私人核對欄位 |
+| `src/data/curated-theme-sources.ts` | 合併五季來源 ledger，拒絕錯誤 owner、重複 key、非 HTTPS、URL credentials、未知語言／角色及私人核對欄位 |
 | `src/data/curated-theme-videos/<year>/<quarter>.ts` | 按作品 owner 季度分檔的已審閱官方影片 metadata；保留影片種類、頻道、官方狀態及嵌入設定 |
-| `src/data/curated-theme-videos.ts` | 合併四季影片 override，拒絕錯誤 owner、重複 key、無效或同曲重複的 YouTube ID、空欄位及未知欄位 |
+| `src/data/curated-theme-videos.ts` | 合併五季影片 override，拒絕錯誤 owner、重複 key、無效或同曲重複的 YouTube ID、空欄位及未知欄位 |
 | `src/data/curated-data.ts` | 其餘少量可審核 override 與公開 record 派生 |
 | `src/types/public-api.ts` | HTML 與 static API 共用的公開契約 |
 | `src/data/api-provider.ts` | 外部 JSON 的 fail-closed parser 與 request boundary |

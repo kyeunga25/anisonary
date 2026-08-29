@@ -355,6 +355,229 @@ const themeOverrides: Record<string, Partial<CuratedThemeSeed>> = {
     titleJa: "防衛ライン（だいたい平和です）",
     titleRomaji: "Bouei Line (Daitai Heiwa Desu)",
     artistDisplayName: "まめぞう合唱団"
+  },
+  "143598:OP:2": { artistDisplayName: "[Alexandros]" },
+  "178701:ED:1": {
+    titleJa: "花咲く道で",
+    titleRomaji: "Hanasaku Michi de",
+    artistDisplayName: "手嶌葵"
+  },
+  "167142:ED:1": { artistDisplayName: "9Lana" },
+  "184279:ED:1": {
+    titleJa: "ボールパークでShake! Don't Shake!",
+    titleRomaji: "Ballpark de Shake! Don't Shake!",
+    artistDisplayName: "内田真礼、長谷川育美、ファイルーズあい、相良茉優、瀬戸桃子"
+  },
+  "184279:ED:2": {
+    titleJa: "コントラスト",
+    titleRomaji: "Contrast",
+    artistDisplayName: "松室政哉"
+  },
+  "184279:ED:3": {
+    titleJa: "諦められないのさ",
+    titleRomaji: "Akiramerarenai no sa"
+  },
+  "179694:ED:1": {
+    titleJa: "夢じゃないならなんなのさ",
+    titleRomaji: "Yume ja Nai nara Nannano sa"
+  },
+  "175872:OP:1": { artistDisplayName: "bokula." },
+  "186313:ED:1": { artistDisplayName: "荒井麻珠" },
+  "143337:ED:1": {
+    titleJa: "イニミニマニモ",
+    titleRomaji: "Ini Mini Mani Mo",
+    artistDisplayName: "大西亜玖璃"
+  },
+  "143337:ED:2": {
+    titleJa: "生まれ変わろうと",
+    titleRomaji: "Umarekawarou to",
+    artistDisplayName: "悠木碧"
+  },
+  "182814:ED:1": {
+    titleJa: "恋のレトロニム",
+    titleRomaji: "Koi no Retronym"
+  },
+  "182814:ED:2": {
+    titleJa: "私だけのポラリス",
+    titleRomaji: "Watashi dake no Polaris"
+  },
+  "185259:OP:1": {
+    titleJa: "僕達のギャグマンガ日和",
+    titleRomaji: "Bokutachi no Gag Manga Biyori",
+    artistDisplayName: "うえだゆうじ",
+    youtubeUrl: "https://www.youtube.com/watch?v=cE8S1n9XPPo"
+  },
+  "185584:OP:1": { artistDisplayName: "えぶホスPlayers" },
+  "185584:ED:1": {
+    titleJa: "夏はテイクアウト",
+    titleRomaji: "Natsu wa Take-out",
+    artistDisplayName: "リョーイチ（CV：畠中祐）"
+  },
+  "185584:ED:2": { artistDisplayName: "下野紘" },
+  "185584:ED:3": {
+    titleJa: "道頓堀",
+    titleRomaji: "Doutonbori",
+    artistDisplayName: "木内秀信"
+  },
+  "185584:ED:4": {
+    titleJa: "暴＆力",
+    titleRomaji: "Bou & Ryoku",
+    artistDisplayName: "岡本信彦"
+  },
+  "185584:ED:5": {
+    titleJa: "アポリア因果世界",
+    titleRomaji: "Aporia Inga Sekai",
+    artistDisplayName: "梅原裕一郎"
+  },
+  "178052:OP:1": {
+    titleJa: "ゼッタイ歌姫宣言ッ！",
+    titleRomaji: "Zettai Utahime Sengen!",
+    artistDisplayName: "オルケリア"
+  },
+  "178052:OP:2": { artistDisplayName: "オルケリア" },
+  "178052:OP:3": { artistDisplayName: "オルケリア" },
+  "178052:ED:1": {
+    titleJa: "君とつなぐオーケストラ",
+    titleRomaji: "Kimi to Tsunagu Orchestra",
+    artistDisplayName: "オルケリア"
+  },
+  "178052:ED:2": {
+    titleJa: "人生は流星だ☆彡",
+    titleRomaji: "Jinsei wa Ryuusei da☆彡",
+    artistDisplayName: "橘杏咲"
+  },
+  "178052:ED:3": {
+    titleJa: "使命は赤きセレナーデ",
+    titleRomaji: "Shimei wa Akaki Serenade",
+    artistDisplayName: "BAND SNATCH"
+  },
+  "178052:ED:4": {
+    titleJa: "真紅のイバラ",
+    titleRomaji: "Shinku no Ibara",
+    artistDisplayName: "水樹奈々"
+  },
+  "178052:ED:5": { artistDisplayName: "オルケリア" },
+  "178052:ED:6": { artistDisplayName: "オルケリア" },
+  "178052:ED:7": { artistDisplayName: "オルケリア" },
+  "178052:ED:8": { artistDisplayName: "オルケリア" },
+  "178052:ED:9": { artistDisplayName: "BAND SNATCH" },
+  "178052:ED:10": { artistDisplayName: "鬼頭明里、伊藤美来" },
+  "180367:ED:1": { titleJa: "魔法はスパイス" },
+  "180367:OP:3": { titleJa: "Bitter end" },
+  "180367:ED:3": { titleJa: "FLASHBACK SYNDROME" },
+  "181182:OP:1": {
+    titleJa: "火星人",
+    titleRomaji: "Kaseijin",
+    artistDisplayName: "ヨルシカ"
+  },
+  "181182:ED:1": { artistDisplayName: "やなぎなぎ" },
+  "184470:OP:1": {
+    titleJa: "Ring Ring Ring feat. ひまり",
+    artistDisplayName: "P丸様。"
+  },
+  "184470:ED:1": {
+    titleJa: "ひみつのふふふ",
+    titleRomaji: "Himitsu no Fufufu",
+    artistDisplayName: "超ときめき♡宣伝部"
+  },
+  "143200:ED:1": { artistDisplayName: "鈴木このみ" },
+  "143200:ED:2": {
+    titleJa: "魔法の絵日記",
+    titleRomaji: "Mahou no Enikki",
+    artistDisplayName: "田中あいみ、小原好美"
+  },
+  "143200:ED:3": {
+    titleJa: "羽のゆりかご",
+    titleRomaji: "Hane no Yurikago",
+    artistDisplayName: "水谷瑠奈"
+  },
+  "165445:OP:1": {
+    titleJa: "旅しよ！don't you?",
+    titleRomaji: "Tabi Shiyo! don't you?"
+  },
+  "165445:ED:1": { artistDisplayName: "Sizuk feat. 春茶" },
+  "180829:OP:1": {
+    titleJa: "オモイアイ",
+    titleRomaji: "Omoi Ai",
+    artistDisplayName: "破天荒夫婦"
+  },
+  "182419:OP:1": {
+    titleJa: "彼女は今、迷宮の中。",
+    titleRomaji: "Kanojo wa Ima, Meikyuu no Naka.",
+    artistDisplayName: "HoneyWorks feat. 花譜"
+  },
+  "182419:ED:1": {
+    titleJa: "君の知らないこと",
+    titleRomaji: "Kimi no Shiranai Koto"
+  },
+  "158287:ED:1": {
+    titleJa: "ハートエイク",
+    titleRomaji: "Heartache",
+    artistDisplayName: "内田雄馬"
+  },
+  "158287:ED:2": {
+    titleJa: "パーフェクト・パルフェ・パレード",
+    titleRomaji: "Perfect Parfait Parade",
+    artistDisplayName: "雨宮天、石上静香"
+  },
+  "180675:ED:1": {
+    titleJa: "カプセル",
+    titleRomaji: "Capsule"
+  },
+  "180675:ED:2": {
+    titleJa: "アポカリプス",
+    titleRomaji: "Apocalypse",
+    artistDisplayName: "朴璐美"
+  },
+  "185213:OP:1": { artistDisplayName: "米津玄師" },
+  "185213:ED:1": {
+    titleJa: "もうどうなってもいいや",
+    titleRomaji: "Mou Dou Natte mo Ii ya",
+    artistDisplayName: "星街すいせい"
+  },
+  "185213:ED:2": {
+    titleJa: "BEYOND THE TIME ～メビウスの宇宙を越えて～"
+  },
+  "185213:ED:3": {
+    titleJa: "水槽の街から",
+    titleRomaji: "Suisou no Machi Kara",
+    artistDisplayName: "美樹マリア"
+  },
+  "150654:ED:1": {
+    titleJa: "大丈夫",
+    titleRomaji: "Daijoubu",
+    artistDisplayName: "アイナ・ジ・エンド"
+  },
+  "185070:OP:1": {
+    titleJa: "ふしぎなきみ",
+    titleRomaji: "Fushigi na Kimi",
+    artistDisplayName: "サバシスター"
+  },
+  "185070:OP:2": { artistDisplayName: "ako" },
+  "185070:ED:1": {
+    titleJa: "さよなら人類",
+    titleRomaji: "Sayonara Jinrui",
+    artistDisplayName: "小桜エツコ、桃河りか"
+  },
+  "185070:ED:2": {
+    titleJa: "素晴らしい日々",
+    titleRomaji: "Subarashii Hibi",
+    artistDisplayName: "小桜エツコ、桃河りか"
+  },
+  "178781:ED:1": {
+    titleJa: "正偽",
+    titleRomaji: "Seigi",
+    artistDisplayName: "梟note"
+  },
+  "178781:ED:2": {
+    titleJa: "次回予告",
+    titleRomaji: "Jikai Yokoku",
+    artistDisplayName: "キタニタツヤ"
+  },
+  "179706:ED:1": {
+    titleJa: "花の塔",
+    titleRomaji: "Hana no Tou",
+    artistDisplayName: "さユり"
   }
 };
 
@@ -553,6 +776,15 @@ const extraThemes: Record<number, CuratedThemeSeed[]> = {
       titleRomaji: "Gakkou de wa Oshiete Kurenai Koto",
       artistDisplayName: "OCHA NORMA",
       youtubeUrl: "https://www.youtube.com/watch?v=5E4EprwFUEY"
+    }
+  ],
+  185259: [
+    {
+      type: "ED",
+      sequence: 1,
+      titleJa: "ハッピーゴーゴーラッキーエンディング",
+      titleRomaji: "Happy Go Go Lucky Ending",
+      artistDisplayName: "冠徹弥"
     }
   ]
 };
@@ -4285,6 +4517,22 @@ const animeOfficialSourceOverrides: Record<number, { label: string; url: string 
   198408: {
     label: "作品官方網站：作品與播出資料",
     url: "https://latair.jp/"
+  },
+  187998: {
+    label: "關西電視台與製作方公告：作品、播出與主題歌資料",
+    url: "https://www.atpress.ne.jp/news/429240"
+  },
+  189891: {
+    label: "動畫官方公告：迷你動畫與公開方式",
+    url: "https://kanchigai-pr.com/news/20250405_158/"
+  },
+  193413: {
+    label: "Bushiroad 官方公告：短篇動畫與公開入口",
+    url: "https://bushiroad.com/media/b0383ec4f051ff18"
+  },
+  185778: {
+    label: "《明日方舟》官方頻道：短篇動畫導演訪談與作品資料",
+    url: "https://www.youtube.com/watch?v=c__si5qf0N0"
   }
 };
 
@@ -4589,8 +4837,8 @@ function toDetail(seed: CuratedAnimeSeed): PublicAnimeDetail {
         ? left.sequence - right.sequence
         : left.type === "OP" ? -1 : 1
     );
-  const hasOfficialVideo = themeSeeds.some((theme) =>
-    Boolean(theme.youtubeUrl) || Boolean(videoOverrides[themeKey(seed.anilistId, theme)]?.length)
+  const hasOfficialVideo = themes.some((theme) =>
+    theme.videos.length > 0 || theme.links.some((link) => link.platform === "YouTube")
   );
   const animeVerifiedAt = animeVerifiedAtOverrides[seed.anilistId];
   const verifiedAt = [
