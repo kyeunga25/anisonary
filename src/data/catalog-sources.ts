@@ -54,7 +54,8 @@ export const seasonSnapshotVerifiedAt = {
   "2026-summer": "2026-08-02",
   "2026-spring": "2026-08-02",
   "2026-winter": "2026-07-28",
-  "2025-summer": "2026-08-10"
+  "2025-summer": "2026-08-10",
+  "2025-spring": "2026-08-30"
 } as const;
 
 export function getSeasonSnapshotVerifiedAt(year: number, quarter: Quarter): string {

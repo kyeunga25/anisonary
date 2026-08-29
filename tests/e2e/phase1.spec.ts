@@ -5,7 +5,7 @@ test("static public API mirrors the reviewed catalogue without a runtime binding
   expect(seasonsResponse.status()).toBe(200);
   expect(seasonsResponse.headers()["content-type"]).toContain("application/json");
   const seasons = await seasonsResponse.json();
-  expect(seasons).toHaveLength(4);
+  expect(seasons).toHaveLength(5);
 
   const seasonResponse = await request.get("/api/v1/seasons/2026-summer.json");
   expect(seasonResponse.status()).toBe(200);
@@ -86,7 +86,7 @@ test("curated catalogue flow reaches verified themes, lazy video and an official
   await page.getByRole("link", { name: "週三" }).click();
   await expect(page).toHaveURL(/#weekday-3$/);
 
-  const videoFilter = page.getByRole("checkbox", { name: "有官方影片" });
+  const videoFilter = page.getByRole("checkbox", { name: "有正版影片" });
   await videoFilter.check();
   await expect(videoFilter).toBeChecked();
   await page.getByRole("button", { name: "清除篩選" }).click();
@@ -131,7 +131,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
 
   await page.goto("/search/");
   await expect(page.getByRole("heading", { name: "跨季度搜尋" })).toBeVisible();
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("280");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("362");
 
   const search = page.getByRole("searchbox", { name: "搜尋動畫或歌曲" });
   await search.fill("ＭＹＴＨ & ＲＯＩＤ");
@@ -164,7 +164,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
   await expect(page.locator("[data-catalog-anime-count]")).toHaveText("0");
 
   await search.press("Escape");
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("280");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("362");
   expect(externalRequests).toEqual([]);
 });
 
@@ -182,6 +182,13 @@ test("added seasonal pages render their reviewed theme records", async ({ page }
   await expect(page).toHaveURL(/\/anime\/ginga-tokkyuu-milky-subway\/$/);
   await expect(page.getByRole("heading", { name: "Altair and Vega" })).toBeVisible();
   await expect(page.getByText("MindaRyn", { exact: true })).toBeVisible();
+
+  await page.goto("/seasons/2025-spring/");
+  await expect(page.getByRole("heading", { name: "2025 春季動畫" })).toBeVisible();
+  await page.locator('a[href="/anime/oideyo-mahou-shoujo-mura-fuhou-senkyo/"]').first().click();
+  await expect(page).toHaveURL(/\/anime\/oideyo-mahou-shoujo-mura-fuhou-senkyo\/$/);
+  await expect(page.getByRole("heading", { name: "化け物集う村" })).toBeVisible();
+  await expect(page.getByText("釧路（CV：小原莉子）", { exact: true })).toBeVisible();
 });
 
 test("public catalogue remains readable offline without caching personal input", async ({ page, context }) => {
@@ -240,7 +247,7 @@ test("mobile season filters remain keyboard-operable", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto("/seasons/2026-summer/");
 
-  const videoFilter = page.getByRole("checkbox", { name: "有官方影片" });
+  const videoFilter = page.getByRole("checkbox", { name: "有正版影片" });
   await videoFilter.focus();
   await page.keyboard.press("Space");
   await expect(videoFilter).toBeChecked();
@@ -250,7 +257,7 @@ test("mobile season filters remain keyboard-operable", async ({ page }) => {
 
 test("responsive navigation uses a desktop sidebar and a compact mobile menu", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 });
-  await page.goto("/seasons/2025-summer/");
+  await page.goto("/seasons/2025-spring/");
 
   const navigation = page.getByRole("navigation", { name: "主要導覽" });
   const desktopHeader = page.locator(".site-header");
@@ -263,7 +270,7 @@ test("responsive navigation uses a desktop sidebar and a compact mobile menu", a
   await expect(navigation.getByText("探索", { exact: true })).toBeVisible();
   await expect(navigation.getByText("季度", { exact: true })).toBeVisible();
   await expect(navigation.getByText("資訊", { exact: true })).toBeVisible();
-  await expect(navigation.getByRole("link", { name: "2025 夏季" })).toHaveAttribute("aria-current", "page");
+  await expect(navigation.getByRole("link", { name: "2025 春季" })).toHaveAttribute("aria-current", "page");
   await expect(page.getByRole("navigation", { name: "切換季度" })).toHaveCount(0);
   await expect(page.getByRole("button", { name: "選單" })).toBeHidden();
 
@@ -281,7 +288,7 @@ test("responsive navigation uses a desktop sidebar and a compact mobile menu", a
   await menuButton.click();
   await expect(menuButton).toHaveAttribute("aria-expanded", "true");
   await expect(navigation).toBeVisible();
-  await expect(navigation.getByRole("link", { name: "2025 夏季" })).toHaveAttribute("aria-current", "page");
+  await expect(navigation.getByRole("link", { name: "2025 春季" })).toHaveAttribute("aria-current", "page");
 
   await menuButton.press("Escape");
   await expect(menuButton).toHaveAttribute("aria-expanded", "false");

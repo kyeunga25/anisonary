@@ -4,8 +4,8 @@
 
 ## Current product scope
 
-- 2026 夏季 70 套、2026 春季 70 套、2026 冬季 66 套、2025 夏季 75 套非成人 TV／WEB 連載動畫；
-- 跨季作品共用詳情頁，共 280 個唯一作品及 615 筆已審閱 OP／ED；
+- 2026 夏季 70 套、2026 春季 70 套、2026 冬季 66 套、2025 夏季 75 套及 2025 春季 82 套非成人 TV／WEB 連載動畫；
+- 跨季作品共用詳情頁，共 362 個唯一作品及 768 筆已審閱 OP／ED；
 - 星期一至星期日及不定期分組、跨季度本機搜尋、動畫詳情與同源 static JSON API；
 - 每個季度、作品及歌曲公開來源、語言、review state 及核對日期；每首歌曲同時具備第一方／交叉核對來源；
 - 官方／licensed YouTube 導航、明確第三方連線同意、來源歸屬及無圖 fallback；
@@ -22,6 +22,7 @@
 - **v1.1.0**：加入 2026 冬季及 2025 夏季，擴展至四季、280 個唯一作品、615 筆 OP／ED 及 392 個官方 YouTube 連結；
 - **v1.2.0**：加入每首歌曲的結構化來源 ledger，移除公開完整度分數，以 code-native 首頁視覺取代來源未能證實的 raster asset，並補齊架構／資料治理／發佈文件；
 - **v1.3.0**：補齊並修正 2025 夏季、2026 冬季／夏季歌曲的發行、credits、重用／變體分類及正版連結，把桌面導覽改為左側分組 sidebar，強化多語歌曲搜尋、公開邊界 gate 與依賴安全，並維持純靜態、0 application binding 的交付方式；
+- **v1.4.0**：加入 2025 春季 82 套動畫及其已核對歌曲、來源與官方／正式授權影片，擴展至五季、362 個唯一作品與 768 筆 OP／ED，並把新季度納入既有 sidebar／手機收合導覽；
 - 正式網站使用 custom domain；非正式 Cloudflare hostname 不在公開文檔記錄；
 - 私有 backend、資料庫、crawler、帳戶設定、憑證與內部規則不屬於本公開 repository。
 
@@ -32,7 +33,7 @@
 - 預設 build 使用 repository-reviewed `CuratedProvider`；`MockProvider` 只供測試與 UI fixture；
 - `/api/v1/*.json` 由同一份 reviewed snapshot 在 build-time 產生，不加入 runtime backend、資料庫或 credential；
 - `PUBLIC_API_BASE_URL` 存在時切換至經契約限制的唯讀 `ApiProvider`；
-- 四個季度均可瀏覽，list／detail／static API identity 保持一致；
+- 五個季度均可瀏覽，list／detail／static API identity 保持一致；
 - 日文名稱為主、繁中為輔；
 - 每筆歌曲通過第一方及交叉核對來源 gate，未審閱候選不發布；
 - 公開資料不包含完整度百分比、confidence score 或內部選源規則；

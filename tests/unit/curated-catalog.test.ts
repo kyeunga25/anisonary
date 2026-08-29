@@ -4,32 +4,34 @@ import { CuratedProvider } from "@/data/curated-provider";
 import { creditRoleLabel } from "@/utils/theme";
 
 describe("curated public catalogue", () => {
-  it("publishes all four reviewed seasonal snapshots", () => {
+  it("publishes all five reviewed seasonal snapshots", () => {
     expect(curatedSeasons.map((season) => season.id)).toEqual([
       "2026-summer",
       "2026-spring",
       "2026-winter",
-      "2025-summer"
+      "2025-summer",
+      "2025-spring"
     ]);
-    expect(curatedSeasonDetails).toHaveLength(4);
-    expect(curatedSeasonDetails.map((season) => season.anime.length)).toEqual([70, 70, 66, 75]);
+    expect(curatedSeasonDetails).toHaveLength(5);
+    expect(curatedSeasonDetails.map((season) => season.anime.length)).toEqual([70, 70, 66, 75, 82]);
     expect(curatedSeasonDetails.map((season) => [season.id, season.reviewState, season.verifiedAt])).toEqual([
       ["2026-summer", "reviewed", "2026-08-02"],
       ["2026-spring", "reviewed", "2026-08-02"],
       ["2026-winter", "reviewed", "2026-07-28"],
-      ["2025-summer", "reviewed", "2026-08-10"]
+      ["2025-summer", "reviewed", "2026-08-10"],
+      ["2025-spring", "reviewed", "2026-08-30"]
     ]);
-    expect(curatedAnimeDetails).toHaveLength(280);
-    expect(curatedAnimeDetails.filter((anime) => anime.themes.length > 0)).toHaveLength(278);
-    expect(curatedAnimeDetails.flatMap((anime) => anime.themes)).toHaveLength(615);
-    expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "documented")).toHaveLength(278);
+    expect(curatedAnimeDetails).toHaveLength(362);
+    expect(curatedAnimeDetails.filter((anime) => anime.themes.length > 0)).toHaveLength(337);
+    expect(curatedAnimeDetails.flatMap((anime) => anime.themes)).toHaveLength(768);
+    expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "documented")).toHaveLength(337);
     expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "not_used")).toHaveLength(2);
-    expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "not_announced")).toHaveLength(0);
+    expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "not_announced")).toHaveLength(23);
     const youtubeLinks = curatedAnimeDetails
       .flatMap((anime) => anime.themes)
       .flatMap((theme) => theme.links)
       .filter((link) => link.platform === "YouTube");
-    expect(youtubeLinks).toHaveLength(454);
+    expect(youtubeLinks).toHaveLength(533);
     expect(youtubeLinks.every((link) => new URL(link.url).hostname === "www.youtube.com")).toBe(true);
   });
 
@@ -51,6 +53,11 @@ describe("curated public catalogue", () => {
   });
 
   it("uses traceable HTTPS artwork and reviewed public sources", () => {
+    const currentCycleIds = new Set(
+      curatedSeasonDetails
+        .find((season) => season.id === "2025-spring")
+        ?.anime.map((anime) => anime.id) ?? []
+    );
     const newlyReviewedIds = new Set(
       curatedSeasonDetails
         .filter((season) => season.id === "2026-winter" || season.id === "2025-summer")
@@ -308,7 +315,9 @@ describe("curated public catalogue", () => {
       }
 
       for (const item of anime.themes) {
-        const expectedVerifiedAt = latestReviewedThemeIds.has(item.id)
+        const expectedVerifiedAt = currentCycleIds.has(anime.id)
+          ? "2026-08-30"
+          : latestReviewedThemeIds.has(item.id)
           ? "2026-08-11"
           : freshlyReviewedThemeIds.has(item.id)
           ? "2026-08-10"
@@ -356,6 +365,57 @@ describe("curated public catalogue", () => {
       expect(theme, `${slug}:${type}:${titleJa}`).toBeDefined();
       expect(theme?.artistDisplayName).toContain(artist);
     }
+  });
+
+  it("publishes corrected 2025 spring theme identities and conservative gaps", () => {
+    const spring = curatedSeasonDetails.find((season) => season.id === "2025-spring");
+    const springSlugs = new Set(spring?.anime.map((anime) => anime.slug));
+    const springDetails = curatedAnimeDetails.filter((anime) => springSlugs.has(anime.slug));
+
+    expect(springDetails).toHaveLength(82);
+    expect(springDetails.flatMap((anime) => anime.themes)).toHaveLength(153);
+    expect(springDetails.filter((anime) => anime.themeAvailability === "not_announced")).toHaveLength(23);
+    expect(springDetails.flatMap((anime) => anime.themes).every((theme) =>
+      !/ノンクレジット|オープニングテーマ|エンディングテーマ|TOY.S FACTORY/.test(theme.artistDisplayName)
+    )).toBe(true);
+
+    const village = springDetails.find((anime) => anime.slug === "oideyo-mahou-shoujo-mura-fuhou-senkyo");
+    expect(village?.themes).toContainEqual(expect.objectContaining({
+      type: "OP",
+      titleJa: "化け物集う村",
+      artistDisplayName: "釧路（CV：小原莉子）"
+    }));
+    expect(village?.themes[0]?.sources.some((source) => source.role === "first_party")).toBe(true);
+    expect(village?.themes[0]?.sources.some((source) => source.role === "cross_check")).toBe(true);
+
+    const gag = springDetails.find((anime) => anime.slug === "masuda-kousuke-gekijou-gag-manga-biyori-go");
+    expect(gag?.themes.map(({ type, titleJa, artistDisplayName }) =>
+      [type, titleJa, artistDisplayName]
+    )).toEqual([
+      ["OP", "僕達のギャグマンガ日和", "うえだゆうじ"],
+      ["ED", "ハッピーゴーゴーラッキーエンディング", "冠徹弥"]
+    ]);
+    expect(gag?.themes[0]?.videos).toContainEqual(expect.objectContaining({
+      youtubeVideoId: "cE8S1n9XPPo",
+      type: "creditless_op",
+      officialStatus: "official",
+      embeddable: true
+    }));
+
+    const witchWatch = springDetails.find((anime) => anime.slug === "witch-watch");
+    expect(witchWatch?.themes).toEqual(expect.arrayContaining([
+      expect.objectContaining({ type: "OP", sequence: 3, titleJa: "Bitter end", artistDisplayName: "Who-ya Extended" }),
+      expect.objectContaining({ type: "ED", sequence: 3, titleJa: "FLASHBACK SYNDROME", artistDisplayName: "ALI" })
+    ]));
+
+    expect(springDetails.find((anime) => anime.slug === "moonrise")).toMatchObject({
+      officialSiteUrl: "https://about.netflix.com/ja/news/moonrise-premieres-april-10",
+      themes: [expect.objectContaining({ titleJa: "大丈夫", artistDisplayName: "アイナ・ジ・エンド" })]
+    });
+    expect(springDetails.find((anime) => anime.slug === "tsurezure-popipa")).toMatchObject({
+      themeAvailability: "not_announced",
+      themes: []
+    });
   });
 
   it("adds reviewed 2025 summer song details from first-party releases", () => {
