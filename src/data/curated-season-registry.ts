@@ -1,4 +1,8 @@
 import {
+  curated2024SummerAnimeIds,
+  curated2024SummerSeeds
+} from "@/data/curated-seeds/2024/summer";
+import {
   curated2024FallAnimeIds,
   curated2024FallSeeds
 } from "@/data/curated-seeds/2024/fall";
@@ -155,6 +159,15 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     titleJa: "2024年秋アニメ",
     seeds: curated2024FallSeeds,
     animeIds: curated2024FallAnimeIds
+  },
+  {
+    id: "2024-summer",
+    year: 2024,
+    quarter: "summer",
+    titleZhHant: "夏季動畫",
+    titleJa: "2024年夏アニメ",
+    seeds: curated2024SummerSeeds,
+    animeIds: curated2024SummerAnimeIds
   }
 ] as const);
 

@@ -2,6 +2,26 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.7.0] - 2026-08-30
+
+### Added
+
+- a reviewed 2024 summer snapshot with 68 anime and 181 OP／ED records;
+- quarterly source and official-video modules for the added works, including 154 reviewed, public, embeddable video records;
+- a public v1.7 data-quality, responsive-navigation, and release QA record.
+
+### Changed
+
+- expanded the public catalogue to eight seasons, 577 unique anime pages, 1,245 OP／ED records, 536 unique direct YouTube links, and 826 official or licensed video metadata records;
+- added 2024 summer to the year-grouped persistent sidebar and compact mobile menu;
+- synchronized the reviewed snapshot across pages, local search, static JSON API, source ledgers, and offline assets.
+
+### Preserved
+
+- one first-party and one cross-check source for every published song record, while 11 unresolved summer works remain explicitly unannounced;
+- local-only search, explicit YouTube consent, generated CSP, and privacy-bounded offline reading;
+- Cloudflare Workers Static Assets delivery with no application Worker or stateful binding.
+
 ## [1.6.0] - 2026-08-30
 
 ### Added

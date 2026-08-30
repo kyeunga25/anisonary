@@ -10,7 +10,7 @@ test("static public API mirrors the reviewed catalogue without a runtime binding
   expect(seasonsResponse.status()).toBe(200);
   expect(seasonsResponse.headers()["content-type"]).toContain("application/json");
   const seasons = await seasonsResponse.json();
-  expect(seasons).toHaveLength(7);
+  expect(seasons).toHaveLength(8);
 
   const seasonResponse = await request.get("/api/v1/seasons/2026-summer.json");
   expect(seasonResponse.status()).toBe(200);
@@ -137,7 +137,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
 
   await page.goto("/search/");
   await expect(page.getByRole("heading", { name: "跨季度搜尋" })).toBeVisible();
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("509");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("577");
 
   const search = page.getByRole("searchbox", { name: "搜尋動畫或歌曲" });
   await search.fill("ＭＹＴＨ & ＲＯＩＤ");
@@ -170,7 +170,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
   await expect(page.locator("[data-catalog-anime-count]")).toHaveText("0");
 
   await search.press("Escape");
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("509");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("577");
   expect(externalRequests).toEqual([]);
 });
 
@@ -214,6 +214,15 @@ test("added seasonal pages render their reviewed theme records", async ({ page }
   await expect(page.getByRole("heading", { name: "オトノケ", exact: true })).toBeVisible();
   await expect(page.getByRole("heading", { name: "TAIDADA", exact: true })).toBeVisible();
   await expect(page.locator(".theme-card__artist", { hasText: "Creepy Nuts" })).toBeVisible();
+
+  await page.goto("/seasons/2024-summer/");
+  await expect(page.getByRole("heading", { name: "2024 夏季動畫" })).toBeVisible();
+  await page.locator('a[href="/anime/kami-no-tou-tower-of-god-2nd-season/"]').first().click();
+  await expect(page).toHaveURL(/\/anime\/kami-no-tou-tower-of-god-2nd-season\/$/);
+  await expect(page.getByRole("heading", { name: "RISE UP", exact: true })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "NIGHT", exact: true })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "BELIEVE", exact: true })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Falling Up", exact: true })).toBeVisible();
 });
 
 test("public catalogue remains readable offline without caching personal input", async ({ page, context }) => {
