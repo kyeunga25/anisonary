@@ -4490,6 +4490,26 @@ const themeVerifiedAtOverrides: Record<string, string> = {
 };
 
 const animeOfficialSourceOverrides: Record<number, { label: string; url: string }> = {
+  111314: {
+    label: "VIZ 官方授權作品頁：動畫作品資料",
+    url: "https://www.viz.com/uzumaki"
+  },
+  182417: {
+    label: "動畫官方 YouTube：第 3 期小動畫播放清單",
+    url: "https://www.youtube.com/playlist?list=PL3ongWuaWwZOX4Mkl0Zm_ciTd5Qs5uhH3"
+  },
+  183473: {
+    label: "Hulu 官方授權作品頁：配信作品資料",
+    url: "https://www.hulu.jp/nui-story-2"
+  },
+  178084: {
+    label: "作品官方 YouTube 頻道：公開作品資料",
+    url: "https://www.youtube.com/@animetoman"
+  },
+  184099: {
+    label: "作者官方 YouTube：公開動畫作品",
+    url: "https://www.youtube.com/watch?v=WWh5M8luzxM"
+  },
   181867: {
     label: "動畫製作公司：第 3 期作品與播出資料",
     url: "https://fanworks.co.jp/news/cn_20250614/"

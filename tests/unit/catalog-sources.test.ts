@@ -22,12 +22,18 @@ describe("season catalogue source registry", () => {
     expect(buildAnnictSeasonUrl(2026, "summer")).toBe(
       "https://annict.com/works/2026-summer?display=list_detailed"
     );
+    expect(buildAnnictSeasonUrl(2024, "fall")).toBe(
+      "https://annict.com/works/2024-autumn?display=list_detailed"
+    );
 
     const url = new URL(buildAnnictApiQueryUrl(2026, "spring"));
     expect(url.origin + url.pathname).toBe("https://api.annict.com/v1/works");
     expect(url.searchParams.get("filter_season")).toBe("2026-spring");
     expect(url.searchParams.get("per_page")).toBe("50");
     expect(url.search).not.toMatch(/access_token|bearer|secret/i);
+
+    const fallUrl = new URL(buildAnnictApiQueryUrl(2024, "fall"));
+    expect(fallUrl.searchParams.get("filter_season")).toBe("2024-autumn");
   });
 
   it("uses Bangumi's stable browse endpoint and maps quarters to start months", () => {

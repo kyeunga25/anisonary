@@ -70,7 +70,9 @@ const canEmbed = video.embeddable && embedUrl;
       iframe.title = `YouTube 影片：${title}`;
       iframe.loading = "lazy";
       iframe.allow = "accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
-      iframe.referrerPolicy = "no-referrer";
+      // YouTube requires an origin-level Referer for embedded-player identity.
+      // Keep the site-wide no-referrer policy for every other remote request.
+      iframe.referrerPolicy = "strict-origin-when-cross-origin";
       iframe.setAttribute("allowfullscreen", "");
       iframe.addEventListener("load", () => {
         frame.setAttribute("aria-busy", "false");

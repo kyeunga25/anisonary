@@ -5,37 +5,101 @@ import { CuratedProvider } from "@/data/curated-provider";
 import { creditRoleLabel } from "@/utils/theme";
 
 describe("curated public catalogue", () => {
-  it("publishes all six reviewed seasonal snapshots", () => {
+  it("publishes all seven reviewed seasonal snapshots", () => {
     expect(curatedSeasons.map((season) => season.id)).toEqual([
       "2026-summer",
       "2026-spring",
       "2026-winter",
       "2025-summer",
       "2025-spring",
-      "2025-winter"
+      "2025-winter",
+      "2024-fall"
     ]);
-    expect(curatedSeasonDetails).toHaveLength(6);
-    expect(curatedSeasonDetails.map((season) => season.anime.length)).toEqual([70, 70, 66, 75, 82, 59]);
+    expect(curatedSeasonDetails).toHaveLength(7);
+    expect(curatedSeasonDetails.map((season) => season.anime.length)).toEqual([70, 70, 66, 75, 82, 59, 88]);
     expect(curatedSeasonDetails.map((season) => [season.id, season.reviewState, season.verifiedAt])).toEqual([
       ["2026-summer", "reviewed", "2026-08-02"],
       ["2026-spring", "reviewed", "2026-08-02"],
       ["2026-winter", "reviewed", "2026-07-28"],
       ["2025-summer", "reviewed", "2026-08-10"],
       ["2025-spring", "reviewed", "2026-08-30"],
-      ["2025-winter", "reviewed", "2026-08-30"]
+      ["2025-winter", "reviewed", "2026-08-30"],
+      ["2024-fall", "reviewed", "2026-08-30"]
     ]);
-    expect(curatedAnimeDetails).toHaveLength(421);
-    expect(curatedAnimeDetails.filter((anime) => anime.themes.length > 0)).toHaveLength(390);
-    expect(curatedAnimeDetails.flatMap((anime) => anime.themes)).toHaveLength(904);
-    expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "documented")).toHaveLength(390);
+    expect(curatedAnimeDetails).toHaveLength(509);
+    expect(curatedAnimeDetails.filter((anime) => anime.themes.length > 0)).toHaveLength(453);
+    expect(curatedAnimeDetails.flatMap((anime) => anime.themes)).toHaveLength(1064);
+    expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "documented")).toHaveLength(453);
     expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "not_used")).toHaveLength(2);
-    expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "not_announced")).toHaveLength(29);
+    expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "not_announced")).toHaveLength(54);
     const youtubeLinks = curatedAnimeDetails
       .flatMap((anime) => anime.themes)
       .flatMap((theme) => theme.links)
       .filter((link) => link.platform === "YouTube");
     expect(youtubeLinks).toHaveLength(538);
     expect(youtubeLinks.every((link) => new URL(link.url).hostname === "www.youtube.com")).toBe(true);
+  });
+
+  it("keeps the reviewed 2024 fall boundary and theme data conservative", () => {
+    const fall = curatedSeasonDetails.find((season) => season.id === "2024-fall");
+    expect(fall?.anime).toHaveLength(88);
+    const fallSeeds = curatedAnimeSeeds.filter((seed) => seed.seasonIds.includes("2024-fall"));
+    expect(fallSeeds).toHaveLength(88);
+    expect(new Set(fallSeeds.map(({ anilistId }) => anilistId)).size).toBe(88);
+    expect(new Set(fallSeeds.map(({ slug }) => slug)).size).toBe(88);
+
+    for (const seed of fallSeeds) {
+      expect(seed.startDate).toMatch(/^2024-(?:09|10|11|12)-\d{2}$/);
+      expect(seed.startDate >= "2024-09-27" && seed.startDate <= "2024-12-21").toBe(true);
+      const weekday = new Date(`${seed.startDate}T00:00:00Z`).getUTCDay() || 7;
+      expect(seed.editorialWeekday, `${seed.anilistId} weekday`).toBe(weekday);
+      expect(seed.titleJa.trim()).not.toBe("");
+      expect(seed.titleZhHant.trim()).not.toBe("");
+      expect(seed.titleRomaji.trim()).not.toBe("");
+
+      for (const type of ["OP", "ED"] as const) {
+        const sequences = seed.themes.filter((theme) => theme.type === type).map(({ sequence }) => sequence);
+        expect(sequences, `${seed.anilistId}:${type}`).toEqual(
+          Array.from({ length: sequences.length }, (_, index) => index + 1)
+        );
+      }
+    }
+
+    const fallIds = new Set(fall?.anime.map((anime) => anime.id));
+    expect(curatedAnimeDetails.filter((anime) => (
+      fallIds.has(anime.id) && anime.themeAvailability === "not_announced"
+    ))).toHaveLength(25);
+
+    for (const excludedAniListId of [138522, 176369, 182434, 183383, 189834, 199479, 202422, 207031]) {
+      expect(fallIds.has(`curated-${excludedAniListId}`)).toBe(false);
+    }
+
+    const dandadan = curatedAnimeDetails.find((anime) => anime.slug === "dandadan");
+    expect(dandadan?.themes.map(({ type, titleJa, artistDisplayName }) => ({
+      type,
+      titleJa,
+      artistDisplayName
+    }))).toEqual([
+      { type: "OP", titleJa: "オトノケ", artistDisplayName: "Creepy Nuts" },
+      { type: "ED", titleJa: "TAIDADA", artistDisplayName: "Zutto Mayonaka de Ii no ni." }
+    ]);
+    expect(dandadan?.themes.flatMap((theme) => theme.videos).map(({ youtubeVideoId }) => youtubeVideoId)).toEqual([
+      "tRwHpyOq4P4",
+      "s8SSPUQvUzI"
+    ]);
+
+    const mechaUde = curatedAnimeDetails.find((anime) => anime.slug === "mecha-ude-tv");
+    expect(mechaUde?.themes.map(({ type, sequence, titleJa }) => ({ type, sequence, titleJa }))).toEqual([
+      { type: "OP", sequence: 1, titleJa: "VORTEX" },
+      { type: "ED", sequence: 1, titleJa: "karma" },
+      { type: "ED", sequence: 2, titleJa: "arma" }
+    ]);
+
+    const uzumaki = curatedAnimeDetails.find((anime) => anime.slug === "uzumaki");
+    expect(uzumaki?.themes[0]?.sources).toEqual(expect.arrayContaining([
+      expect.objectContaining({ url: "https://www.viz.com/uzumaki", role: "first_party" }),
+      expect.objectContaining({ url: "https://animethemes.moe/anime/uzumaki", role: "cross_check" })
+    ]));
   });
 
   it("keeps the reviewed 2025 winter boundary conservative", () => {
@@ -122,7 +186,11 @@ describe("curated public catalogue", () => {
   it("uses traceable HTTPS artwork and reviewed public sources", () => {
     const currentCycleIds = new Set(
       curatedSeasonDetails
-        .filter((season) => season.id === "2025-spring" || season.id === "2025-winter")
+        .filter((season) => (
+          season.id === "2025-spring"
+          || season.id === "2025-winter"
+          || season.id === "2024-fall"
+        ))
         .flatMap((season) => season.anime.map((anime) => anime.id))
     );
     const newlyReviewedIds = new Set(

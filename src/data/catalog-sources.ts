@@ -56,8 +56,13 @@ export const seasonSnapshotVerifiedAt = {
   "2026-winter": "2026-07-28",
   "2025-summer": "2026-08-10",
   "2025-spring": "2026-08-30",
-  "2025-winter": "2026-08-30"
+  "2025-winter": "2026-08-30",
+  "2024-fall": "2026-08-30"
 } as const;
+
+function annictQuarterName(quarter: Quarter): Quarter | "autumn" {
+  return quarter === "fall" ? "autumn" : quarter;
+}
 
 export function getSeasonSnapshotVerifiedAt(year: number, quarter: Quarter): string {
   const verifiedAt = seasonSnapshotVerifiedAt[`${year}-${quarter}` as keyof typeof seasonSnapshotVerifiedAt];
@@ -66,12 +71,12 @@ export function getSeasonSnapshotVerifiedAt(year: number, quarter: Quarter): str
 }
 
 export function buildAnnictSeasonUrl(year: number, quarter: Quarter): string {
-  return `https://annict.com/works/${year}-${quarter}?display=list_detailed`;
+  return `https://annict.com/works/${year}-${annictQuarterName(quarter)}?display=list_detailed`;
 }
 
 export function buildAnnictApiQueryUrl(year: number, quarter: Quarter): string {
   const url = new URL("https://api.annict.com/v1/works");
-  url.searchParams.set("filter_season", `${year}-${quarter}`);
+  url.searchParams.set("filter_season", `${year}-${annictQuarterName(quarter)}`);
   url.searchParams.set("per_page", "50");
   url.searchParams.set("sort_season", "asc");
   return url.toString();

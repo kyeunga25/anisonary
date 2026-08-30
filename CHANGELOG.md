@@ -2,6 +2,26 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.6.0] - 2026-08-30
+
+### Added
+
+- a reviewed 2024 fall snapshot with 88 anime and 160 OP／ED records;
+- quarterly source and official-video modules for the added works, including 128 reviewed, public, embeddable video records;
+- a public v1.6 data-quality, responsive-navigation, and release QA record.
+
+### Changed
+
+- expanded the public catalogue to seven seasons, 509 unique anime pages, 1,064 OP／ED records, 536 unique direct YouTube links, and 672 official or licensed video metadata records;
+- grouped the persistent left sidebar by year so older quarters remain scannable as coverage grows;
+- corrected Annict fall-season references to its public `autumn` identifier and synchronized the reviewed snapshot across pages, search, static JSON API, source ledgers, and offline assets.
+
+### Preserved
+
+- one first-party and one cross-check source for every published song record, while unresolved songs remain explicitly unannounced;
+- local-only search, explicit YouTube consent, generated CSP, and privacy-bounded offline reading;
+- Cloudflare Workers Static Assets delivery with no application Worker or stateful binding.
+
 ## [1.5.0] - 2026-08-30
 
 ### Added
