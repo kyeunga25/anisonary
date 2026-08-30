@@ -1,38 +1,105 @@
 import { describe, expect, it } from "vitest";
 import { curatedAnimeDetails, curatedSeasonDetails, curatedSeasons } from "@/data/curated-data";
+import { curatedAnimeSeeds } from "@/data/curated-seeds";
 import { CuratedProvider } from "@/data/curated-provider";
 import { creditRoleLabel } from "@/utils/theme";
 
 describe("curated public catalogue", () => {
-  it("publishes all five reviewed seasonal snapshots", () => {
+  it("publishes all six reviewed seasonal snapshots", () => {
     expect(curatedSeasons.map((season) => season.id)).toEqual([
       "2026-summer",
       "2026-spring",
       "2026-winter",
       "2025-summer",
-      "2025-spring"
+      "2025-spring",
+      "2025-winter"
     ]);
-    expect(curatedSeasonDetails).toHaveLength(5);
-    expect(curatedSeasonDetails.map((season) => season.anime.length)).toEqual([70, 70, 66, 75, 82]);
+    expect(curatedSeasonDetails).toHaveLength(6);
+    expect(curatedSeasonDetails.map((season) => season.anime.length)).toEqual([70, 70, 66, 75, 82, 59]);
     expect(curatedSeasonDetails.map((season) => [season.id, season.reviewState, season.verifiedAt])).toEqual([
       ["2026-summer", "reviewed", "2026-08-02"],
       ["2026-spring", "reviewed", "2026-08-02"],
       ["2026-winter", "reviewed", "2026-07-28"],
       ["2025-summer", "reviewed", "2026-08-10"],
-      ["2025-spring", "reviewed", "2026-08-30"]
+      ["2025-spring", "reviewed", "2026-08-30"],
+      ["2025-winter", "reviewed", "2026-08-30"]
     ]);
-    expect(curatedAnimeDetails).toHaveLength(362);
-    expect(curatedAnimeDetails.filter((anime) => anime.themes.length > 0)).toHaveLength(337);
-    expect(curatedAnimeDetails.flatMap((anime) => anime.themes)).toHaveLength(768);
-    expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "documented")).toHaveLength(337);
+    expect(curatedAnimeDetails).toHaveLength(421);
+    expect(curatedAnimeDetails.filter((anime) => anime.themes.length > 0)).toHaveLength(390);
+    expect(curatedAnimeDetails.flatMap((anime) => anime.themes)).toHaveLength(904);
+    expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "documented")).toHaveLength(390);
     expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "not_used")).toHaveLength(2);
-    expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "not_announced")).toHaveLength(23);
+    expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "not_announced")).toHaveLength(29);
     const youtubeLinks = curatedAnimeDetails
       .flatMap((anime) => anime.themes)
       .flatMap((theme) => theme.links)
       .filter((link) => link.platform === "YouTube");
-    expect(youtubeLinks).toHaveLength(533);
+    expect(youtubeLinks).toHaveLength(538);
     expect(youtubeLinks.every((link) => new URL(link.url).hostname === "www.youtube.com")).toBe(true);
+  });
+
+  it("keeps the reviewed 2025 winter boundary conservative", () => {
+    const winter = curatedSeasonDetails.find((season) => season.id === "2025-winter");
+    expect(winter?.anime).toHaveLength(59);
+
+    const behemoth = curatedAnimeDetails.find((anime) => anime.id === "curated-176158");
+    expect(curatedAnimeSeeds.find((anime) => anime.id === behemoth?.id)?.startDate).toBe("2024-12-28");
+    expect(winter?.anime.some((anime) => anime.id === behemoth?.id)).toBe(true);
+
+    const winterIds = new Set(winter?.anime.map((anime) => anime.id));
+    expect(curatedAnimeDetails
+      .filter((anime) => winterIds.has(anime.id) && anime.themeAvailability === "not_announced")
+      .map((anime) => anime.slug)
+      .sort()
+    ).toEqual([
+      "haai-myakumyaku-desu",
+      "kankin-kuiki-level-x-2nd-season",
+      "maomao-no-hitorigoto-2nd-season",
+      "lets-roll-cinnamoroll",
+      "monpoke",
+      "sora-iro-utility-birdie-wing-golf-girls-story-mini-anime"
+    ].sort());
+  });
+
+  it("preserves the manually resolved 2025 winter song credits", () => {
+    const company = curatedAnimeDetails.find((anime) => anime.slug === "kono-kaisha-ni-suki-na-hito-ga-imasu");
+    expect(company?.themes.find((theme) => theme.type === "ED")).toMatchObject({
+      titleJa: "ふたりじめ",
+      artistDisplayName: "pachae",
+      videos: [expect.objectContaining({ youtubeVideoId: "C6fZ9BET0Z0", type: "creditless_ed" })]
+    });
+
+    const infant = curatedAnimeDetails.find((anime) => anime.slug === "0-saiji-start-dash-monogatari-season-2");
+    expect(infant?.themes[0]).toMatchObject({
+      titleJa: "Beyond the Trajectory",
+      artistDisplayName: "Chata"
+    });
+    expect(infant?.themes[0]?.sources).toEqual(expect.arrayContaining([
+      expect.objectContaining({ url: "https://x.com/shusuisha/status/1875376613787128118", role: "first_party" }),
+      expect.objectContaining({ url: "https://ascii.jp/elem/000/004/243/4243811/4/", role: "cross_check" })
+    ]));
+
+    const wataru = curatedAnimeDetails.find((anime) => anime.slug === "mashin-souzouden-wataru");
+    expect(wataru?.themes.map(({ type, sequence, titleJa, artistDisplayName }) => ({
+      type,
+      sequence,
+      titleJa,
+      artistDisplayName
+    }))).toEqual([
+      { type: "OP", sequence: 1, titleJa: "POP UP!", artistDisplayName: "lol -エルオーエル-" },
+      { type: "OP", sequence: 2, titleJa: "創", artistDisplayName: "SANTA" },
+      { type: "ED", sequence: 1, titleJa: "ポケット", artistDisplayName: "FANTASTICS" }
+    ]);
+    expect(wataru?.themes.flatMap((theme) => theme.videos).map((video) => video.youtubeVideoId)).toEqual([
+      "d7b7oVxFm-0",
+      "woGuV1Wcspg",
+      "zPeU84Fk73I"
+    ]);
+
+    expect(curatedAnimeDetails.find((anime) => anime.slug === "yami-shibai-14")?.themes[0]?.titleJa).toBe("飴と鞭");
+    expect(curatedAnimeDetails.find((anime) => anime.slug === "unnamed-memory-act-2")?.themes[0]?.artistDisplayName).toBe("TRUE");
+    expect(curatedAnimeDetails.find((anime) => anime.slug === "akuyaku-reijou-tensei-oji-san")?.themes
+      .map((theme) => theme.titleJa)).toEqual(["Choose!!!", "マツケンサンバⅡ", "銀河鉄道999"]);
   });
 
   it("keeps every season card connected to one complete detail record", () => {
@@ -55,8 +122,8 @@ describe("curated public catalogue", () => {
   it("uses traceable HTTPS artwork and reviewed public sources", () => {
     const currentCycleIds = new Set(
       curatedSeasonDetails
-        .find((season) => season.id === "2025-spring")
-        ?.anime.map((anime) => anime.id) ?? []
+        .filter((season) => season.id === "2025-spring" || season.id === "2025-winter")
+        .flatMap((season) => season.anime.map((anime) => anime.id))
     );
     const newlyReviewedIds = new Set(
       curatedSeasonDetails

@@ -2,6 +2,46 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.5.0] - 2026-08-30
+
+### Added
+
+- a reviewed 2025 winter snapshot with 59 anime and 136 OP／ED records;
+- quarterly source and official-video modules for the added works, including 49 reviewed video records;
+- a public v1.5 data-quality and responsive-navigation QA record.
+
+### Changed
+
+- expanded the public catalogue to six seasons, 421 unique anime pages, 904 OP／ED records, 536 unique clickable YouTube links, and 544 official or licensed video metadata records;
+- added 2025 winter to the persistent desktop sidebar and compact mobile menu;
+- synchronized the same reviewed snapshot across catalogue pages, local search, static JSON API, source ledgers, offline assets, and release documentation.
+
+### Preserved
+
+- one first-party and one cross-check source for every published song record;
+- local-only search, explicit YouTube consent, generated CSP, and privacy-bounded offline reading;
+- Cloudflare Workers Static Assets delivery with no application Worker or stateful binding.
+
+## [1.4.0] - 2026-08-20
+
+### Added
+
+- a reviewed 2025 spring snapshot with 82 anime and 153 OP／ED records;
+- quarterly source and official-video modules for the added works, including 79 reviewed video records;
+- a public data-quality and responsive-navigation QA record for the five-season snapshot.
+
+### Changed
+
+- expanded the public catalogue to five seasons, 362 unique anime pages, 768 OP／ED records, 531 unique clickable YouTube links, and 495 official or licensed video metadata records;
+- added 2025 spring to the persistent desktop sidebar and compact mobile menu;
+- split the theme-video registry into reviewable year／quarter modules without changing its public static contract.
+
+### Preserved
+
+- one first-party and one cross-check source for every published song record;
+- local-only search, explicit YouTube consent, generated CSP, and privacy-bounded offline reading;
+- Cloudflare Workers Static Assets delivery with no application Worker or stateful binding.
+
 ## [1.3.0] - 2026-08-11
 
 ### Added
