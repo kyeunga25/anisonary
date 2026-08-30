@@ -1,16 +1,24 @@
 ---
+import { curatedAnimeDetails, curatedSeasons } from "@/data/curated-data";
+
 interface Props {
   compact?: boolean;
   verifiedAt: string;
 }
 const { compact = false, verifiedAt } = Astro.props;
+const numberFormat = new Intl.NumberFormat("en-US");
+const seasonCount = curatedSeasons.length;
+const animeCount = curatedAnimeDetails.length;
+const themeCount = curatedAnimeDetails.reduce((total, anime) => total + anime.themes.length, 0);
 ---
 
 <aside class:list={["catalog-status", { "catalog-status--compact": compact }]} aria-label="季度資料狀態">
   <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6" /><circle cx="12" cy="12" r="10" /></svg>
   <p>
     <strong>已核對季度完整目錄</strong>
-    <span>已發布 9 個季度、653 個作品頁與 1,403 首 OP／ED；本頁季度核對 {verifiedAt}。</span>
+    <span>
+      已發布 {numberFormat.format(seasonCount)} 個季度、{numberFormat.format(animeCount)} 個作品頁與 {numberFormat.format(themeCount)} 首 OP／ED；本頁季度核對 {verifiedAt}。
+    </span>
   </p>
   {!compact && <a href="/sources/">檢視來源準則 <span aria-hidden="true">→</span></a>}
 </aside>

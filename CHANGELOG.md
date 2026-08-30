@@ -2,6 +2,26 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.9.0] - 2026-08-30
+
+### Added
+
+- a reviewed 2024 winter snapshot with 75 anime and 130 OP／ED records;
+- quarterly source and official-video modules for the added works, including 125 reviewed, public, embeddable video records;
+- a public v1.9 data-quality, responsive-navigation, and release QA record.
+
+### Changed
+
+- expanded the public catalogue to ten seasons, 728 unique anime pages, 1,533 OP／ED records, 536 unique direct YouTube links, and 1,085 official or licensed video metadata records;
+- added 2024 winter to the year-grouped persistent sidebar and compact mobile menu;
+- corrected duplicate and variant theme identities for Solo Leveling, Wonderful Precure, Moonlit Fantasy, Snack Basue, and other multi-song works.
+
+### Preserved
+
+- one first-party and one cross-check source for every published song record, while 26 unresolved winter works remain explicitly unannounced;
+- local-only search, explicit YouTube consent, generated CSP, and privacy-bounded offline reading;
+- Cloudflare Workers Static Assets delivery with no application Worker or stateful binding.
+
 ## [1.8.0] - 2026-08-30
 
 ### Added

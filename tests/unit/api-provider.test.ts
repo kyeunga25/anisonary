@@ -128,7 +128,10 @@ describe("ApiProvider public contract", () => {
     for (const anime of curatedAnimeDetails) {
       const fetchMock = vi.fn<typeof fetch>().mockResolvedValue(jsonResponse(anime));
       const provider = new ApiProvider("https://api.anisonary.k-y.cc/v1", { fetch: fetchMock });
-      await expect(provider.getAnime(anime.slug)).resolves.toEqual(anime);
+      const parsed = await provider.getAnime(anime.slug).catch((cause: unknown) => {
+        throw new Error(`Fixture failed the public API contract: ${anime.slug}`, { cause });
+      });
+      expect(parsed).toEqual(anime);
     }
   });
 
