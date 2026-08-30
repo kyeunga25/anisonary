@@ -17,7 +17,8 @@ describe("curated theme source registry", () => {
       "2025-spring",
       "2025-winter",
       "2024-fall",
-      "2024-summer"
+      "2024-summer",
+      "2024-spring"
     ]);
     expect(curatedThemeSourceRegistry.map(({ overrides }) => Object.keys(overrides).length)).toEqual([
       2,
@@ -27,7 +28,8 @@ describe("curated theme source registry", () => {
       1,
       4,
       1,
-      4
+      4,
+      0
     ]);
 
     const keys = curatedThemeSourceRegistry.flatMap(({ overrides }) => Object.keys(overrides));
