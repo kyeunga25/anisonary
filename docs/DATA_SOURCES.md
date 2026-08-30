@@ -6,11 +6,11 @@
 
 季度完整性定義為：在日本於該季度日曆月份首播的非成人 `TV`／`WEB` 連載動畫，包含短篇、新季度與分割 cour；排除劇場版、OVA、單次特別篇、宣傳短片及 18+ 作品。若作品在季度開始前數日先行發布，須由至少兩個季度目錄或主題曲索引一致歸入該季才收錄。同一作品跨季時共用一個詳情頁。
 
-目前已發布的審核快照為：2026 夏季 70 套、2026 春季 70 套、2026 冬季 66 套、2025 夏季 75 套、2025 春季 82 套、2025 冬季 59 套、2024 秋季 88 套，共 509 個作品詳情、1,064 筆 OP／ED 與 536 個唯一歌曲層 YouTube 直連；其中 672 筆已保留官方或正式授權影片 metadata。
+目前已發布的審核快照為：2026 夏季 70 套、2026 春季 70 套、2026 冬季 66 套、2025 夏季 75 套、2025 春季 82 套、2025 冬季 59 套、2024 秋季 88 套及 2024 夏季 68 套，共 577 個作品詳情、1,245 筆 OP／ED 與 536 個唯一歌曲層 YouTube 直連；其中 826 筆已保留官方或正式授權影片 metadata。
 
 每季先以繁中年度動畫表的對應月份建立日曆清單，再與 Annict、Bangumi 及 AniList identifier 取聯集核對。OP／ED 以作品官網和官方 YouTube 為主，並用 AnimeThemes、UZUREA 與 UtaTen 等季度主題曲表交叉確認；季度歌曲索引未收錄的作品，須返回 Netflix、唱片公司、IP 官網、正式播出機構或製作公司等第一方頁面補證。台港正式代理、串流或出版社名稱優先；未有可確認的繁中名稱時保留原文，不宣稱為正式授權譯名。
 
-每首已發布歌曲在 `PublicTheme.sources[]` 留下 URL、語言、`first_party`／`cross_check` 角色及核對日期。七季快照的 1,064 筆歌曲都必須同時具備兩種角色；這是公開 provenance gate，不是 confidence score。完整欄位與媒體邊界見 [`DATA_PROVENANCE.md`](./DATA_PROVENANCE.md)。
+每首已發布歌曲在 `PublicTheme.sources[]` 留下 URL、語言、`first_party`／`cross_check` 角色及核對日期。八季快照的 1,245 筆歌曲都必須同時具備兩種角色；這是公開 provenance gate，不是 confidence score。完整欄位與媒體邊界見 [`DATA_PROVENANCE.md`](./DATA_PROVENANCE.md)。
 
 ## 固定來源
 
