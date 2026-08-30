@@ -5,7 +5,7 @@ test("static public API mirrors the reviewed catalogue without a runtime binding
   expect(seasonsResponse.status()).toBe(200);
   expect(seasonsResponse.headers()["content-type"]).toContain("application/json");
   const seasons = await seasonsResponse.json();
-  expect(seasons).toHaveLength(5);
+  expect(seasons).toHaveLength(6);
 
   const seasonResponse = await request.get("/api/v1/seasons/2026-summer.json");
   expect(seasonResponse.status()).toBe(200);
@@ -131,7 +131,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
 
   await page.goto("/search/");
   await expect(page.getByRole("heading", { name: "跨季度搜尋" })).toBeVisible();
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("362");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("421");
 
   const search = page.getByRole("searchbox", { name: "搜尋動畫或歌曲" });
   await search.fill("ＭＹＴＨ & ＲＯＩＤ");
@@ -164,7 +164,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
   await expect(page.locator("[data-catalog-anime-count]")).toHaveText("0");
 
   await search.press("Escape");
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("362");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("421");
   expect(externalRequests).toEqual([]);
 });
 
@@ -189,6 +189,17 @@ test("added seasonal pages render their reviewed theme records", async ({ page }
   await expect(page).toHaveURL(/\/anime\/oideyo-mahou-shoujo-mura-fuhou-senkyo\/$/);
   await expect(page.getByRole("heading", { name: "化け物集う村" })).toBeVisible();
   await expect(page.getByText("釧路（CV：小原莉子）", { exact: true })).toBeVisible();
+
+  await page.goto("/seasons/2025-winter/");
+  await expect(page.getByRole("heading", { name: "2025 冬季動畫" })).toBeVisible();
+  await page.locator('a[href="/anime/mashin-souzouden-wataru/"]').first().click();
+  await expect(page).toHaveURL(/\/anime\/mashin-souzouden-wataru\/$/);
+  await expect(page.getByRole("heading", { name: "POP UP!", exact: true })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "創", exact: true })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "ポケット", exact: true })).toBeVisible();
+  await expect(page.getByText("lol -エルオーエル-", { exact: true })).toBeVisible();
+  await expect(page.getByText("SANTA", { exact: true })).toBeVisible();
+  await expect(page.getByText("FANTASTICS", { exact: true })).toBeVisible();
 });
 
 test("public catalogue remains readable offline without caching personal input", async ({ page, context }) => {
