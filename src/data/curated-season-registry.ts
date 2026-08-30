@@ -3,6 +3,10 @@ import {
   curated2024SpringSeeds
 } from "@/data/curated-seeds/2024/spring";
 import {
+  curated2024WinterAnimeIds,
+  curated2024WinterSeeds
+} from "@/data/curated-seeds/2024/winter";
+import {
   curated2024SummerAnimeIds,
   curated2024SummerSeeds
 } from "@/data/curated-seeds/2024/summer";
@@ -181,6 +185,15 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     titleJa: "2024年春アニメ",
     seeds: curated2024SpringSeeds,
     animeIds: curated2024SpringAnimeIds
+  },
+  {
+    id: "2024-winter",
+    year: 2024,
+    quarter: "winter",
+    titleZhHant: "冬季動畫",
+    titleJa: "2024年冬アニメ",
+    seeds: curated2024WinterSeeds,
+    animeIds: curated2024WinterAnimeIds
   }
 ] as const);
 

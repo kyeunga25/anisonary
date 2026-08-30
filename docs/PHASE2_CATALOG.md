@@ -1,6 +1,6 @@
 # Phase 2｜可追溯季度目錄（歷史基線）
 
-本文件保留 2026 春／夏第一個完整資料切片的歷史範圍。現行產品已擴展至九季、653 個唯一作品及 1,403 筆 OP／ED；目前架構見 [`ARCHITECTURE.md`](./ARCHITECTURE.md)，來源契約見 [`DATA_PROVENANCE.md`](./DATA_PROVENANCE.md)。
+本文件保留 2026 春／夏第一個完整資料切片的歷史範圍。現行產品已擴展至十季、728 個唯一作品及 1,533 筆 OP／ED；目前架構見 [`ARCHITECTURE.md`](./ARCHITECTURE.md)，來源契約見 [`DATA_PROVENANCE.md`](./DATA_PROVENANCE.md)。
 
 Phase 2 當時先建立一個可公開審核的真實資料切片，而不是把 crawler、private source adapter 或未驗證資料加入 repository。
 
