@@ -10,7 +10,7 @@ test("static public API mirrors the reviewed catalogue without a runtime binding
   expect(seasonsResponse.status()).toBe(200);
   expect(seasonsResponse.headers()["content-type"]).toContain("application/json");
   const seasons = await seasonsResponse.json();
-  expect(seasons).toHaveLength(8);
+  expect(seasons).toHaveLength(9);
 
   const seasonResponse = await request.get("/api/v1/seasons/2026-summer.json");
   expect(seasonResponse.status()).toBe(200);
@@ -137,7 +137,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
 
   await page.goto("/search/");
   await expect(page.getByRole("heading", { name: "跨季度搜尋" })).toBeVisible();
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("577");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("653");
 
   const search = page.getByRole("searchbox", { name: "搜尋動畫或歌曲" });
   await search.fill("ＭＹＴＨ & ＲＯＩＤ");
@@ -170,7 +170,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
   await expect(page.locator("[data-catalog-anime-count]")).toHaveText("0");
 
   await search.press("Escape");
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("577");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("653");
   expect(externalRequests).toEqual([]);
 });
 
@@ -223,6 +223,15 @@ test("added seasonal pages render their reviewed theme records", async ({ page }
   await expect(page.getByRole("heading", { name: "NIGHT", exact: true })).toBeVisible();
   await expect(page.getByRole("heading", { name: "BELIEVE", exact: true })).toBeVisible();
   await expect(page.getByRole("heading", { name: "Falling Up", exact: true })).toBeVisible();
+
+  await page.goto("/seasons/2024-spring/");
+  await expect(page.getByRole("heading", { name: "2024 春季動畫" })).toBeVisible();
+  await page.locator('a[href="/anime/ookami-to-koushinryou-merchant-meets-the-wise-wolf/"]').first().click();
+  await expect(page).toHaveURL(/\/anime\/ookami-to-koushinryou-merchant-meets-the-wise-wolf\/$/);
+  await expect(page.getByRole("heading", { name: "Tabi no Yukue", exact: true })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Sign", exact: true })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Andante", exact: true })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Ringo to Kimi", exact: true })).toBeVisible();
 });
 
 test("public catalogue remains readable offline without caching personal input", async ({ page, context }) => {
@@ -310,6 +319,7 @@ test("responsive navigation uses a desktop sidebar and a compact mobile menu", a
   await expect(navigation.getByText("2025", { exact: true })).toBeVisible();
   await expect(navigation.getByText("2024", { exact: true })).toBeVisible();
   await expect(year2024.getByRole("link", { name: "秋季" })).toBeVisible();
+  await expect(year2024.getByRole("link", { name: "春季" })).toBeVisible();
   await expect(year2025.getByRole("link", { name: "春季" })).toHaveAttribute("aria-current", "page");
   await expect(page.getByRole("navigation", { name: "切換季度" })).toHaveCount(0);
   await expect(page.getByRole("button", { name: "選單" })).toBeHidden();
