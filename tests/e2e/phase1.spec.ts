@@ -1,11 +1,16 @@
 import { expect, test } from "@playwright/test";
 
+const e2ePort = process.env.ANISONARY_E2E_PORT ?? "4321";
+const e2eOrigin = `http://127.0.0.1:${e2ePort}`;
+const e2eErrorPort = process.env.ANISONARY_E2E_ERROR_PORT ?? String(Number(e2ePort) + 1);
+const e2eErrorOrigin = `http://127.0.0.1:${e2eErrorPort}`;
+
 test("static public API mirrors the reviewed catalogue without a runtime binding", async ({ request }) => {
   const seasonsResponse = await request.get("/api/v1/seasons.json");
   expect(seasonsResponse.status()).toBe(200);
   expect(seasonsResponse.headers()["content-type"]).toContain("application/json");
   const seasons = await seasonsResponse.json();
-  expect(seasons).toHaveLength(6);
+  expect(seasons).toHaveLength(7);
 
   const seasonResponse = await request.get("/api/v1/seasons/2026-summer.json");
   expect(seasonResponse.status()).toBe(200);
@@ -106,6 +111,7 @@ test("curated catalogue flow reaches verified themes, lazy video and an official
   expect(youtubeRequests).toEqual([]);
   await player.getByRole("button", { name: /載入 YouTube 影片/ }).click();
   await expect(player.locator("iframe")).toHaveAttribute("src", /youtube-nocookie\.com/);
+  await expect(player.locator("iframe")).toHaveAttribute("referrerpolicy", "strict-origin-when-cross-origin");
   await expect(player.locator("[data-youtube-frame]")).toHaveAttribute("aria-busy", "false");
   expect(youtubeRequests.some((url) => url.includes("youtube-nocookie.com"))).toBe(true);
   expect(youtubeRequests.some((url) => url.includes("i.ytimg.com"))).toBe(false);
@@ -124,19 +130,19 @@ test("curated catalogue flow reaches verified themes, lazy video and an official
 test("cross-season search stays local and matches anime, songs, and artists", async ({ page }) => {
   const externalRequests: string[] = [];
   page.on("request", (request) => {
-    if (new URL(request.url()).origin !== "http://127.0.0.1:4321") {
+    if (new URL(request.url()).origin !== e2eOrigin) {
       externalRequests.push(request.url());
     }
   });
 
   await page.goto("/search/");
   await expect(page.getByRole("heading", { name: "跨季度搜尋" })).toBeVisible();
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("421");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("509");
 
   const search = page.getByRole("searchbox", { name: "搜尋動畫或歌曲" });
   await search.fill("ＭＹＴＨ & ＲＯＩＤ");
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("3");
-  await expect(page.locator("[data-catalog-theme-count]")).toHaveText("3");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("4");
+  await expect(page.locator("[data-catalog-theme-count]")).toHaveText("4");
   await expect(page.getByRole("link", { name: "幼女戦記Ⅱ" })).toBeVisible();
   await expect(page.getByText("Why? RED induction")).toBeVisible();
   await expect(page.getByRole("link", { name: "Re:ゼロから始める異世界生活 4th season" })).toBeVisible();
@@ -164,7 +170,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
   await expect(page.locator("[data-catalog-anime-count]")).toHaveText("0");
 
   await search.press("Escape");
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("421");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("509");
   expect(externalRequests).toEqual([]);
 });
 
@@ -200,6 +206,14 @@ test("added seasonal pages render their reviewed theme records", async ({ page }
   await expect(page.getByText("lol -エルオーエル-", { exact: true })).toBeVisible();
   await expect(page.getByText("SANTA", { exact: true })).toBeVisible();
   await expect(page.getByText("FANTASTICS", { exact: true })).toBeVisible();
+
+  await page.goto("/seasons/2024-fall/");
+  await expect(page.getByRole("heading", { name: "2024 秋季動畫" })).toBeVisible();
+  await page.locator('a[href="/anime/dandadan/"]').first().click();
+  await expect(page).toHaveURL(/\/anime\/dandadan\/$/);
+  await expect(page.getByRole("heading", { name: "オトノケ", exact: true })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "TAIDADA", exact: true })).toBeVisible();
+  await expect(page.locator(".theme-card__artist", { hasText: "Creepy Nuts" })).toBeVisible();
 });
 
 test("public catalogue remains readable offline without caching personal input", async ({ page, context }) => {
@@ -210,7 +224,7 @@ test("public catalogue remains readable offline without caching personal input",
     const registration = await navigator.serviceWorker.ready;
     return registration.scope;
   });
-  expect(registrationScope).toBe("http://127.0.0.1:4321/");
+  expect(registrationScope).toBe(`${e2eOrigin}/`);
   await expect.poll(() => page.evaluate(() => Boolean(navigator.serviceWorker.controller))).toBe(true);
 
   const cachedUrls = await page.evaluate(async () => {
@@ -219,7 +233,7 @@ test("public catalogue remains readable offline without caching personal input",
     return requests.flat().map((request) => request.url);
   });
   expect(cachedUrls.length).toBeGreaterThan(0);
-  expect(cachedUrls.every((url) => url.startsWith("http://127.0.0.1:4321/"))).toBe(true);
+  expect(cachedUrls.every((url) => url.startsWith(`${e2eOrigin}/`))).toBe(true);
   expect(cachedUrls.some((url) => url.includes("mock-posters"))).toBe(false);
   expect(cachedUrls.some((url) => new URL(url).search.length > 0)).toBe(false);
 
@@ -273,6 +287,8 @@ test("responsive navigation uses a desktop sidebar and a compact mobile menu", a
   const navigation = page.getByRole("navigation", { name: "主要導覽" });
   const desktopHeader = page.locator(".site-header");
   const desktopHeaderBox = await desktopHeader.boundingBox();
+  const year2025 = navigation.locator('[aria-labelledby="site-nav-seasons-2025"]');
+  const year2024 = navigation.locator('[aria-labelledby="site-nav-seasons-2024"]');
 
   expect(desktopHeaderBox).not.toBeNull();
   expect(desktopHeaderBox!.width).toBeLessThanOrEqual(280);
@@ -281,7 +297,11 @@ test("responsive navigation uses a desktop sidebar and a compact mobile menu", a
   await expect(navigation.getByText("探索", { exact: true })).toBeVisible();
   await expect(navigation.getByText("季度", { exact: true })).toBeVisible();
   await expect(navigation.getByText("資訊", { exact: true })).toBeVisible();
-  await expect(navigation.getByRole("link", { name: "2025 春季" })).toHaveAttribute("aria-current", "page");
+  await expect(navigation.getByText("2026", { exact: true })).toBeVisible();
+  await expect(navigation.getByText("2025", { exact: true })).toBeVisible();
+  await expect(navigation.getByText("2024", { exact: true })).toBeVisible();
+  await expect(year2024.getByRole("link", { name: "秋季" })).toBeVisible();
+  await expect(year2025.getByRole("link", { name: "春季" })).toHaveAttribute("aria-current", "page");
   await expect(page.getByRole("navigation", { name: "切換季度" })).toHaveCount(0);
   await expect(page.getByRole("button", { name: "選單" })).toBeHidden();
 
@@ -299,7 +319,7 @@ test("responsive navigation uses a desktop sidebar and a compact mobile menu", a
   await menuButton.click();
   await expect(menuButton).toHaveAttribute("aria-expanded", "true");
   await expect(navigation).toBeVisible();
-  await expect(navigation.getByRole("link", { name: "2025 春季" })).toHaveAttribute("aria-current", "page");
+  await expect(year2025.getByRole("link", { name: "春季" })).toHaveAttribute("aria-current", "page");
 
   await menuButton.press("Escape");
   await expect(menuButton).toHaveAttribute("aria-expanded", "false");
@@ -317,7 +337,7 @@ test("unknown routes render the public 404 state and stay out of the index", asy
 });
 
 test("API failures render a public error state without leaking upstream details", async ({ page }) => {
-  await page.goto("http://127.0.0.1:4322/");
+  await page.goto(`${e2eErrorOrigin}/`);
 
   await expect(page.getByRole("alert")).toContainText("暫時無法載入資料");
   await expect(page.getByRole("alert")).toContainText("季度與動畫資料暫時無法取得");

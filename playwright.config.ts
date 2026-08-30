@@ -1,9 +1,9 @@
 import { defineConfig } from "@playwright/test";
 
 const host = "127.0.0.1";
-const port = 4321;
+const port = Number(process.env.ANISONARY_E2E_PORT ?? "4321");
 const baseURL = `http://${host}:${port}`;
-const errorStatePort = 4322;
+const errorStatePort = Number(process.env.ANISONARY_E2E_ERROR_PORT ?? String(port + 1));
 const errorStateURL = `http://${host}:${errorStatePort}`;
 const isCI = Boolean(process.env.CI);
 

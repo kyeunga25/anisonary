@@ -15,13 +15,29 @@ const navigationGroups = [
   {
     id: "seasons",
     label: "季度",
-    links: [
-      { href: "/seasons/2026-summer/", label: "2026 夏季" },
-      { href: "/seasons/2026-spring/", label: "2026 春季" },
-      { href: "/seasons/2026-winter/", label: "2026 冬季" },
-      { href: "/seasons/2025-summer/", label: "2025 夏季" },
-      { href: "/seasons/2025-spring/", label: "2025 春季" },
-      { href: "/seasons/2025-winter/", label: "2025 冬季" }
+    sections: [
+      {
+        label: "2026",
+        links: [
+          { href: "/seasons/2026-summer/", label: "夏季" },
+          { href: "/seasons/2026-spring/", label: "春季" },
+          { href: "/seasons/2026-winter/", label: "冬季" }
+        ]
+      },
+      {
+        label: "2025",
+        links: [
+          { href: "/seasons/2025-summer/", label: "夏季" },
+          { href: "/seasons/2025-spring/", label: "春季" },
+          { href: "/seasons/2025-winter/", label: "冬季" }
+        ]
+      },
+      {
+        label: "2024",
+        links: [
+          { href: "/seasons/2024-fall/", label: "秋季" }
+        ]
+      }
     ]
   },
   {
@@ -48,13 +64,26 @@ const isActive = (href: string) => {
       {navigationGroups.map((group) => (
         <div class="site-nav__group">
           <p class="site-nav__label" id={`site-nav-${group.id}`}>{group.label}</p>
-          <ul aria-labelledby={`site-nav-${group.id}`}>
-            {group.links.map((link) => (
-              <li>
-                <a href={link.href} aria-current={isActive(link.href) ? "page" : undefined}>{link.label}</a>
-              </li>
-            ))}
-          </ul>
+          {"sections" in group ? group.sections.map((section) => (
+            <div class="site-nav__year-group">
+              <p class="site-nav__year" id={`site-nav-${group.id}-${section.label}`}>{section.label}</p>
+              <ul aria-labelledby={`site-nav-${group.id}-${section.label}`}>
+                {section.links.map((link) => (
+                  <li>
+                    <a href={link.href} aria-current={isActive(link.href) ? "page" : undefined}>{link.label}</a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )) : (
+            <ul aria-labelledby={`site-nav-${group.id}`}>
+              {group.links.map((link) => (
+                <li>
+                  <a href={link.href} aria-current={isActive(link.href) ? "page" : undefined}>{link.label}</a>
+                </li>
+              ))}
+            </ul>
+          )}
         </div>
       ))}
     </nav>
@@ -156,6 +185,17 @@ const isActive = (href: string) => {
     list-style: none;
     margin: 0;
     padding: 0;
+  }
+
+  .site-nav__year-group + .site-nav__year-group { margin-top: 0.7rem; }
+
+  .site-nav__year {
+    color: var(--color-muted);
+    font-size: 0.66rem;
+    font-variant-numeric: tabular-nums;
+    font-weight: 720;
+    letter-spacing: 0.08em;
+    margin: 0 0 0.15rem 0.78rem;
   }
 
   .site-nav a {

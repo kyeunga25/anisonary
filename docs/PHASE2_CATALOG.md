@@ -1,6 +1,6 @@
 # Phase 2｜可追溯季度目錄（歷史基線）
 
-本文件保留 2026 春／夏第一個完整資料切片的歷史範圍。現行產品已擴展至六季、421 個唯一作品及 904 筆 OP／ED；目前架構見 [`ARCHITECTURE.md`](./ARCHITECTURE.md)，來源契約見 [`DATA_PROVENANCE.md`](./DATA_PROVENANCE.md)。
+本文件保留 2026 春／夏第一個完整資料切片的歷史範圍。現行產品已擴展至七季、509 個唯一作品及 1,064 筆 OP／ED；目前架構見 [`ARCHITECTURE.md`](./ARCHITECTURE.md)，來源契約見 [`DATA_PROVENANCE.md`](./DATA_PROVENANCE.md)。
 
 Phase 2 當時先建立一個可公開審核的真實資料切片，而不是把 crawler、private source adapter 或未驗證資料加入 repository。
 
@@ -63,7 +63,7 @@ Phase 2 第三個切片以 `/search/` 提供靜態、可鍵盤操作的跨季度
 - 搜尋字詞只用於目前頁面的 DOM filtering，不寫入 URL、不發送 request、不使用 analytics；
 - 結果採文字型列表，不載入 AniList poster，減少不必要的第三方媒體 request；
 - YouTube 不再於點擊前載入 `i.ytimg.com` thumbnail，只有使用者按下明確按鈕後才建立 privacy-enhanced iframe；
-- 遠端 poster 與使用者啟動的 iframe 都使用 `no-referrer`。
+- 遠端 poster 使用 `no-referrer`；YouTube iframe 只在使用者啟動後建立，並以 `strict-origin-when-cross-origin` 提供播放器要求的網站 origin，不傳送作品頁完整路徑。
 
 自動化測試涵蓋跨季度完整性、安全 error state、Unicode 正規化、動畫／歌曲／歌手比對、零搜尋外傳、明確影片同意與 mobile keyboard flow。QA 證據見 [`QA_PHASE2_SEARCH_PRIVACY.md`](./QA_PHASE2_SEARCH_PRIVACY.md)。
 
