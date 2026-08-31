@@ -4,17 +4,17 @@
 
 ## 技術棧與責任
 
-| 範圍 | 技術 | 本專案用途 |
-|---|---|---|
-| UI／site generation | Astro 7 | 由 reviewed snapshot 產生 static HTML、static JSON routes、canonical 與 sitemap |
-| Language | TypeScript 6、Astro `strictest` | 公開資料契約、provider boundary、build-time validation 與 browser logic |
-| Runtime baseline | Node.js 22、npm | 可重現安裝、build、test 與 Wrangler CLI 執行環境 |
-| Delivery | Cloudflare Workers Static Assets | 直接提供 `dist`，沒有 application Worker entrypoint 或 stateful binding |
-| Deployment tool | Wrangler 4 | local Workers preview、dry-run、version upload 與 explicit deploy |
-| Offline | Standard Service Worker／Cache API | build-time precache 公開同源內容；沒有 runtime cache write |
-| Security | Generated CSP、static `_headers` | hash inline build output、限制 frame／media／referrer／browser capabilities |
-| Testing | Astro check、Vitest 4、Playwright 1.62 | type／contract／catalogue／component／browser／deployment config gates |
-| SEO／metadata | `@astrojs/sitemap` 3 | sitemap generation；排除 API、offline 與 404 |
+| 範圍                | 技術                                   | 本專案用途                                                                      |
+| ------------------- | -------------------------------------- | ------------------------------------------------------------------------------- |
+| UI／site generation | Astro 7                                | 由 reviewed snapshot 產生 static HTML、static JSON routes、canonical 與 sitemap |
+| Language            | TypeScript 6、Astro `strictest`        | 公開資料契約、provider boundary、build-time validation 與 browser logic         |
+| Runtime baseline    | Node.js 22、npm                        | 可重現安裝、build、test 與 Wrangler CLI 執行環境                                |
+| Delivery            | Cloudflare Workers Static Assets       | 直接提供 `dist`，沒有 application Worker entrypoint 或 stateful binding         |
+| Deployment tool     | Wrangler 4                             | local Workers preview、dry-run、version upload 與 explicit deploy               |
+| Offline             | Standard Service Worker／Cache API     | build-time precache 公開同源內容；沒有 runtime cache write                      |
+| Security            | Generated CSP、static `_headers`       | hash inline build output、限制 frame／media／referrer／browser capabilities     |
+| Testing             | Astro check、Vitest 4、Playwright 1.62 | type／contract／catalogue／component／browser／deployment config gates          |
+| SEO／metadata       | `@astrojs/sitemap` 3                   | sitemap generation；排除 API、offline 與 404                                    |
 
 Major／minor version 取自 `package.json`；實際 resolved dependency 以 `package-lock.json` 為準。`wrangler.jsonc` 是 Workers packaging 與 routing 的公開 source of truth，`.nvmrc` 是 Node major 的 source of truth。
 
@@ -39,14 +39,14 @@ GitHub Actions 執行 quality gate，不直接部署。專案維護者可使用 
 
 ## AI disclosure／AI 使用聲明
 
-| 階段 | AI model／service |
-|---|---|
-| Production runtime | 無 |
-| Static build | 無 |
-| Browser search | 無；只做本機字串正規化與 filter |
-| Static API | 無；只發布 build-time reviewed JSON |
-| Catalogue generation | 無；不接受 AI 生成記錄作來源 |
-| Public imagery | 無；不使用 AI 生成圖片 |
+| 階段                 | AI model／service                   |
+| -------------------- | ----------------------------------- |
+| Production runtime   | 無                                  |
+| Static build         | 無                                  |
+| Browser search       | 無；只做本機字串正規化與 filter     |
+| Static API           | 無；只發布 build-time reviewed JSON |
+| Catalogue generation | 無；不接受 AI 生成記錄作來源        |
+| Public imagery       | 無；不使用 AI 生成圖片              |
 
 因此自行部署不需要 AI model identifier、provider account、AI API key、prompt template、embedding store 或 inference budget。開發輔助產生的任何草稿（如有）都不能當作作品、歌曲、譯名、日期或權利狀態的證據；公開內容仍必須通過人工審閱、結構化來源 ledger、tests 與可點擊公開來源核對。
 
@@ -56,14 +56,14 @@ GitHub Actions 執行 quality gate，不直接部署。專案維護者可使用 
 
 資料來源是 editorial evidence，不是 production runtime dependency：
 
-| 類別 | 例子 | 角色 |
-|---|---|---|
-| First party | 動畫官網、製作委員會、電視台、串流／發行／唱片公司、藝人官方頁 | 作品身份、播出、歌曲、credits 與正式公告的最終核對 |
-| Japanese inventory | [Annict](https://annict.com/) | 日本季度作品 inventory、原文 identity 與日期基準 |
-| Chinese cross-check | [Bangumi 番組計劃](https://bgm.tv/) | 中文條目、日期、媒體類型與缺口交叉核對；不自動視作正式繁中譯名 |
-| Public identity／media | [AniList](https://anilist.co/) | 公開 identifier、作品頁與已核對 remote media origin |
-| Theme cross-check | [AnimeThemes](https://animethemes.moe/) 、[UZUREA](https://uzurea.net/) | OP／ED inventory 與季度歸類交叉核對 |
-| Traditional Chinese references | 台灣／香港正式代理、串流、出版社、播出機構及公開季度表 | 正式繁中名稱與地區發行資訊核對 |
+| 類別                           | 例子                                                                    | 角色                                                           |
+| ------------------------------ | ----------------------------------------------------------------------- | -------------------------------------------------------------- |
+| First party                    | 動畫官網、製作委員會、電視台、串流／發行／唱片公司、藝人官方頁          | 作品身份、播出、歌曲、credits 與正式公告的最終核對             |
+| Japanese inventory             | [Annict](https://annict.com/)                                           | 日本季度作品 inventory、原文 identity 與日期基準               |
+| Chinese cross-check            | [Bangumi 番組計劃](https://bgm.tv/)                                     | 中文條目、日期、媒體類型與缺口交叉核對；不自動視作正式繁中譯名 |
+| Public identity／media         | [AniList](https://anilist.co/)                                          | 公開 identifier、作品頁與已核對 remote media origin            |
+| Theme cross-check              | [AnimeThemes](https://animethemes.moe/) 、[UZUREA](https://uzurea.net/) | OP／ED inventory 與季度歸類交叉核對                            |
+| Traditional Chinese references | 台灣／香港正式代理、串流、出版社、播出機構及公開季度表                  | 正式繁中名稱與地區發行資訊核對                                 |
 
 每首公開歌曲至少需要一個 `first_party` 與一個 `cross_check` 來源；source role 只是可驗證 provenance，不是 confidence score。詳細 inventory、繁中命名與更新規則見 [`DATA_SOURCES.md`](./DATA_SOURCES.md)，欄位、媒體與權利邊界見 [`DATA_PROVENANCE.md`](./DATA_PROVENANCE.md)。
 
@@ -76,7 +76,8 @@ Repository 不保存 raw API dump、crawler、private adapter、候選資料、�
 - 搜尋字詞只留在目前頁面，不進 URL、request、analytics、cookie 或 persistent storage；
 - Service Worker 不快取 query string、static API JSON、第三方 media 或後續瀏覽資料；
 - remote poster 與 YouTube 仍受各自權利人及平台條款約束；source attribution 不代表本站擁有或重新授權內容；
-- repository 目前沒有附帶開源 license；self-deployment steps 是技術文件，不是對 code、catalogue、trademark、image、video 或第三方資料的授權聲明；
+- repository 的專案自有軟件部分依 Apache-2.0 提供；curated catalogue、來源 ledger、品牌、圖片、影片及第三方資料明確排除，完整範圍見 [`../LICENSING.md`](../LICENSING.md)；
+- Annict、Bangumi、AniList、AnimeThemes、UZUREA、YouTube 及第一方頁面只按 [`SOURCE_TERMS.md`](./SOURCE_TERMS.md) 作有界核對，不作 raw dataset、backup、mirror 或 tracker；
 - 公開 commit／PR／release 只應包含可重現的產品事實，不包含私隱資料、操作對話、平台 metadata 或 private roadmap。
 
 ## Official technical references／官方技術參考

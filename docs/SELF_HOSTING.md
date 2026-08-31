@@ -12,7 +12,7 @@
 - optional：一個由你管理、已加入 Cloudflare 的 zone，用於 custom domain；
 - optional：Chromium，用於完整 Playwright browser gate。
 
-自部署步驟只說明技術操作，不改變 repository 本身或第三方動畫資料、商標、圖片、影片的授權條款。截至 v1.10.0，repository 沒有附帶開源軟件或內容 license；公開可讀不等於獲准複製、修改、再散布或部署。只有在權利人另行明確授權或 repository 日後加入適用 license 時才可依其範圍使用，第三方來源權利仍需另外核對。來源連結不等於重用授權。
+Repository 的專案自有軟件部分依 Apache-2.0 提供；curated catalogue records、來源 ledger、目錄編排、Anisonary 品牌及第三方動畫資料、商標、圖片與影片不在該授權範圍內。自部署者須先閱讀 [`../LICENSING.md`](../LICENSING.md) 及 [`SOURCE_TERMS.md`](./SOURCE_TERMS.md)，移除或替換自己無權使用的排除資料，並另外核對來源、API、媒體 hotlink、商業使用與平台條款。來源連結不等於重用授權。
 
 ## 2. 安裝與本機設定
 
