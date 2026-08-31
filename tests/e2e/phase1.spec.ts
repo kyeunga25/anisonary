@@ -10,7 +10,7 @@ test("static public API mirrors the reviewed catalogue without a runtime binding
   expect(seasonsResponse.status()).toBe(200);
   expect(seasonsResponse.headers()["content-type"]).toContain("application/json");
   const seasons = await seasonsResponse.json();
-  expect(seasons).toHaveLength(10);
+  expect(seasons).toHaveLength(11);
 
   const seasonResponse = await request.get("/api/v1/seasons/2026-summer.json");
   expect(seasonResponse.status()).toBe(200);
@@ -28,6 +28,34 @@ test("static public API mirrors the reviewed catalogue without a runtime binding
   const winter = await winterResponse.json();
   expect(winter).toMatchObject({ id: "2026-winter" });
   expect(winter.anime).toHaveLength(66);
+
+  const fall2023Response = await request.get("/api/v1/seasons/2023-fall.json");
+  expect(fall2023Response.status()).toBe(200);
+  const fall2023 = await fall2023Response.json();
+  expect(fall2023).toMatchObject({ id: "2023-fall", reviewState: "reviewed", verifiedAt: "2026-09-01" });
+  expect(fall2023.anime).toHaveLength(100);
+
+  const scottPilgrimResponse = await request.get("/api/v1/anime/scott-pilgrim-takes-off.json");
+  expect(scottPilgrimResponse.status()).toBe(200);
+  const scottPilgrim = await scottPilgrimResponse.json();
+  expect(scottPilgrim.themes).toEqual(expect.arrayContaining([
+    expect.objectContaining({
+      type: "OP",
+      titleJa: "bloom",
+      artistDisplayName: "ネクライトーキー",
+      videos: [expect.objectContaining({ youtubeVideoId: "QjQym1J9Qtw", officialStatus: "official" })]
+    })
+  ]));
+
+  const pokemonConciergeResponse = await request.get("/api/v1/anime/pokemon-concierge.json");
+  expect(pokemonConciergeResponse.status()).toBe(200);
+  const pokemonConcierge = await pokemonConciergeResponse.json();
+  expect(pokemonConcierge.themes[0]).toMatchObject({
+    type: "ED",
+    titleJa: "君の居場所（Have a Good Time Here）",
+    artistDisplayName: "竹内まりや",
+    videos: [expect.objectContaining({ youtubeVideoId: "pQR4xBEM11Q", officialStatus: "official" })]
+  });
 
   const animeResponse = await request.get("/api/v1/anime/mushoku-tensei-3.json");
   expect(animeResponse.status()).toBe(200);
@@ -137,16 +165,17 @@ test("cross-season search stays local and matches anime, songs, and artists", as
 
   await page.goto("/search/");
   await expect(page.getByRole("heading", { name: "跨季度搜尋" })).toBeVisible();
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("728");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("828");
 
   const search = page.getByRole("searchbox", { name: "搜尋動畫或歌曲" });
   await search.fill("ＭＹＴＨ & ＲＯＩＤ");
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("4");
-  await expect(page.locator("[data-catalog-theme-count]")).toHaveText("4");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("5");
+  await expect(page.locator("[data-catalog-theme-count]")).toHaveText("5");
   await expect(page.getByRole("link", { name: "幼女戦記Ⅱ" })).toBeVisible();
   await expect(page.getByText("Why? RED induction")).toBeVisible();
   await expect(page.getByRole("link", { name: "Re:ゼロから始める異世界生活 4th season" })).toBeVisible();
   await expect(page.getByRole("link", { name: "クレバテスⅡ-魔獣の王と偽りの勇者伝承-" })).toBeVisible();
+  await expect(page.getByRole("link", { name: "アークナイツ 冬隠帰路" })).toBeVisible();
 
   await search.fill("幼女 myth");
   await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1");
@@ -170,7 +199,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
   await expect(page.locator("[data-catalog-anime-count]")).toHaveText("0");
 
   await search.press("Escape");
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("728");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("828");
   expect(externalRequests).toEqual([]);
 });
 
@@ -240,6 +269,20 @@ test("added seasonal pages render their reviewed theme records", async ({ page }
   await expect(page.getByRole("heading", { name: "Uraomote Aquarium feat. RIRIKO, Ryohei Sataka", exact: true })).toBeVisible();
   await expect(page.getByRole("heading", { name: "Kassai", exact: true })).toBeVisible();
   await expect(page.getByRole("heading", { name: "Koi no Vacation", exact: true })).toBeVisible();
+
+  await page.goto("/seasons/2023-fall/");
+  await expect(page.getByRole("heading", { name: "2023 秋季動畫" })).toBeVisible();
+  await page.locator('a[href="/anime/sousou-no-frieren/"]').first().click();
+  await expect(page).toHaveURL(/\/anime\/sousou-no-frieren\/$/);
+  await expect(page.getByRole("heading", { name: "Yuusha", exact: true })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Haru", exact: true })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Anytime Anywhere", exact: true })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "bliss", exact: true })).toBeVisible();
+
+  await page.goto("/anime/scott-pilgrim-takes-off/");
+  await expect(page.getByRole("heading", { name: "bloom", exact: true })).toBeVisible();
+  await expect(page.locator(".theme-card__artist", { hasText: "ネクライトーキー" })).toBeVisible();
+  await expect(page.getByRole("button", { name: /載入 YouTube 影片.*bloom/ })).toBeVisible();
 });
 
 test("public catalogue remains readable offline without caching personal input", async ({ page, context }) => {
@@ -315,6 +358,7 @@ test("responsive navigation uses a desktop sidebar and a compact mobile menu", a
   const desktopHeaderBox = await desktopHeader.boundingBox();
   const year2025 = navigation.locator('[aria-labelledby="site-nav-seasons-2025"]');
   const year2024 = navigation.locator('[aria-labelledby="site-nav-seasons-2024"]');
+  const year2023 = navigation.locator('[aria-labelledby="site-nav-seasons-2023"]');
 
   expect(desktopHeaderBox).not.toBeNull();
   expect(desktopHeaderBox!.width).toBeLessThanOrEqual(280);
@@ -326,12 +370,14 @@ test("responsive navigation uses a desktop sidebar and a compact mobile menu", a
   await expect(navigation.getByText("2026", { exact: true })).toBeVisible();
   await expect(navigation.getByText("2025", { exact: true })).toBeVisible();
   await expect(navigation.getByText("2024", { exact: true })).toBeVisible();
+  await expect(navigation.getByText("2023", { exact: true })).toBeVisible();
   await expect(year2024.getByRole("link", { name: "秋季" })).toBeVisible();
   await expect(year2024.getByRole("link", { name: "春季" })).toBeVisible();
   await expect(year2024.getByRole("link", { name: "冬季" })).toBeVisible();
-  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(10);
+  await expect(year2023.getByRole("link", { name: "秋季" })).toBeVisible();
+  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(11);
   await expect(page.getByLabel("季度資料狀態")).toContainText(
-    "已發布 10 個季度、728 個作品頁與 1,533 首 OP／ED"
+    "已發布 11 個季度、828 個作品頁與 1,733 首 OP／ED"
   );
   await expect(year2025.getByRole("link", { name: "春季" })).toHaveAttribute("aria-current", "page");
   await expect(page.getByRole("navigation", { name: "切換季度" })).toHaveCount(0);
@@ -352,7 +398,7 @@ test("responsive navigation uses a desktop sidebar and a compact mobile menu", a
   await expect(menuButton).toHaveAttribute("aria-expanded", "true");
   await expect(navigation).toBeVisible();
   await expect(year2025.getByRole("link", { name: "春季" })).toHaveAttribute("aria-current", "page");
-  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(10);
+  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(11);
 
   await menuButton.press("Escape");
   await expect(menuButton).toHaveAttribute("aria-expanded", "false");

@@ -1,8 +1,25 @@
 ---
 import Logo from "@/components/common/Logo.astro";
 import ThemeToggle from "@/components/common/ThemeToggle.astro";
+import { curatedSeasons } from "@/data/curated-data";
 
 const pathname = Astro.url.pathname;
+const quarterLabels = {
+  winter: "冬季",
+  spring: "春季",
+  summer: "夏季",
+  fall: "秋季"
+} as const;
+const seasonSections = [...curatedSeasons.reduce((groups, season) => {
+  const links = groups.get(season.year) ?? [];
+  links.push({
+    href: `/seasons/${season.id}/`,
+    label: quarterLabels[season.quarter]
+  });
+  groups.set(season.year, links);
+  return groups;
+}, new Map<number, Array<{ href: string; label: string }>>())]
+  .map(([year, links]) => ({ label: String(year), links }));
 const navigationGroups = [
   {
     id: "explore",
@@ -15,33 +32,7 @@ const navigationGroups = [
   {
     id: "seasons",
     label: "季度",
-    sections: [
-      {
-        label: "2026",
-        links: [
-          { href: "/seasons/2026-summer/", label: "夏季" },
-          { href: "/seasons/2026-spring/", label: "春季" },
-          { href: "/seasons/2026-winter/", label: "冬季" }
-        ]
-      },
-      {
-        label: "2025",
-        links: [
-          { href: "/seasons/2025-summer/", label: "夏季" },
-          { href: "/seasons/2025-spring/", label: "春季" },
-          { href: "/seasons/2025-winter/", label: "冬季" }
-        ]
-      },
-      {
-        label: "2024",
-        links: [
-          { href: "/seasons/2024-fall/", label: "秋季" },
-          { href: "/seasons/2024-summer/", label: "夏季" },
-          { href: "/seasons/2024-spring/", label: "春季" },
-          { href: "/seasons/2024-winter/", label: "冬季" }
-        ]
-      }
-    ]
+    sections: seasonSections
   },
   {
     id: "information",
