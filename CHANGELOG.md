@@ -2,6 +2,26 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.10.0] - 2026-09-01
+
+### Added
+
+- a reviewed 2023 fall snapshot with 100 anime and 200 OP／ED records;
+- quarterly source modules for the added works and two reviewed official Netflix Japan video records;
+- a public v1.10 data-quality, responsive-navigation, and release QA record.
+
+### Changed
+
+- expanded the public catalogue to eleven seasons, 828 unique anime pages, 1,733 OP／ED records, 536 unique direct YouTube links, and 1,087 official or licensed video metadata records;
+- generated the year-grouped desktop sidebar and compact mobile menu from the reviewed season registry, removing duplicated quarter lists;
+- filled source-backed music gaps for Bikkurimen, Good Night World, Gundam Build Metaverse, Rail Romanesque 2, Pokémon Concierge, and Scott Pilgrim Takes Off.
+
+### Preserved
+
+- one first-party and one cross-check source for every published song record, while 34 unresolved fall works remain explicitly unannounced;
+- local-only search, explicit YouTube consent, generated CSP, and privacy-bounded offline reading;
+- Cloudflare Workers Static Assets delivery with no application Worker or stateful binding.
+
 ## [1.9.0] - 2026-08-30
 
 ### Added
