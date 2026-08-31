@@ -2,6 +2,11 @@
 
 這份文件是 Anisonary 的長期季度盤點基準。目標是用兩個公開、可重複查詢的中日資料來源找齊季度作品，再以動畫官網及正式授權資料完成最終核對。
 
+公開可查詢不等於可任意重用。所有查詢、最少欄位、署名、媒體及停止條件均須符合
+[`SOURCE_TERMS.md`](./SOURCE_TERMS.md)；curated records 與來源 ledger 不在
+repository 的 Apache-2.0 軟件授權範圍內，詳見
+[`../LICENSING.md`](../LICENSING.md)。
+
 ## 目前收錄範圍
 
 季度完整性定義為：在日本於該季度日曆月份首播的非成人 `TV`／`WEB` 連載動畫，包含短篇、新季度與分割 cour；排除劇場版、OVA、單次特別篇、宣傳短片及 18+ 作品。若作品在季度開始前數日先行發布，須由至少兩個季度目錄或主題曲索引一致歸入該季才收錄。同一作品跨季時共用一個詳情頁。
@@ -19,6 +24,7 @@
 - 季度頁：`https://annict.com/works/{year}-{quarter}?display=list_detailed`；秋季的 Annict 參數使用 `autumn`
 - Works API：`GET https://api.annict.com/v1/works`
 - API 文件：<https://docs.annict.com/docs/ja/api/v1/works>
+- 利用規約：<https://api.annict.com/terms>
 - 季度參數：`filter_season=2026-summer`
 - 用途：盤點日本季度作品範圍、原文標題、媒體類型、首播日及動畫官網。
 - 限制：API 使用 OAuth 2.0 access token，每頁最多 50 筆；社群維護資料仍可能較官網更新稍遲。
@@ -35,9 +41,10 @@ curl -H 'Authorization: Bearer <ANNICT_ACCESS_TOKEN>' \
 - 年度日本動畫目錄：`https://bgm.tv/anime/browser/日本/airtime/{year}`
 - 穩定 browse API：`GET https://api.bgm.tv/v0/subjects`
 - API 文件：<https://bangumi.github.io/api/>
+- 版權及開發者平台聲明：<https://bgm.tv/about/copyright>
 - 季度參數：`type=2&year=2026&month=7&sort=date&limit=100&offset=0`
 - 用途：交叉核對原文標題、中文別名、首播日期、媒體類型與條目圖像，找出 Annict 可能遺漏的條目。
-- 限制：`name_cn` 通常是簡體中文及社群維護資料，不可直接當作台灣或香港正式繁中譯名；月份結果亦須再確認是否日本新番。
+- 限制：`name_cn` 通常是簡體中文及社群維護資料，不可直接當作台灣或香港正式繁中譯名；月份結果亦須再確認是否日本新番。只使用文件化 API、必要欄位及可識別 User-Agent，不以 crawler 或 raw dump 代替 API。條目信息的 Bangumi 衍生部分維持其版權聲明所列 CC BY-SA 條款及來源連結，使用者內容不得收集或再散布。
 
 程式化存取要使用可識別的 User-Agent，並按回傳的 `total` 以 `offset` 完成分頁：
 
@@ -70,6 +77,8 @@ curl -H 'User-Agent: Anisonary/0.1 (https://github.com/kyeunga25/anisonary)' \
 
 - 網站 build 和瀏覽器不即時依賴 Annict 或 Bangumi；production 使用 repository 內已審核的 snapshot。
 - 不提交 access token、API 回應 dump、crawler、private source adapter 或內部信心規則。
+- 不收集來源使用者資料，不把來源作 backup／mirror／批量資料集，也不向第三方提供
+  raw 平台資料；來源終止或要求刪除時，先停止更新並移除受影響資料。
 - 外部來源失效不應令現有季度頁無法 build；更新工作可以延後，但不可用猜測補資料。
 - repository 只保存人工審核後的靜態 seed，不保存原始 API response、抓取器或私有比對規則。
 - 公開 UI／API 不輸出內部完整度、信心或來源評分；缺口以空狀態或未發布欄位表示。

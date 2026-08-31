@@ -2,6 +2,12 @@
 
 本文件定義 Anisonary 公開資料如何留下可由讀者核對的證據。它只記錄公開規則，不公開候選資料、內部選源細節或 confidence 計算。
 
+本文件描述的 curated records、來源 ledger、選取／編排、審閱註記及第三方媒體
+不在 repository 的 Apache-2.0 軟件授權範圍內。來源 URL 只提供追溯，不授予
+API、資料庫、商標或媒體重用權。完整授權邊界見
+[`../LICENSING.md`](../LICENSING.md)，逐來源條款與停止條件見
+[`SOURCE_TERMS.md`](./SOURCE_TERMS.md)。
+
 ## 三層公開 ledger
 
 - `PublicSeasonDetail` 公開 `reviewState`、`verifiedAt`，而每個 `catalogReferences[]` 記錄來源語言、`inventory`／`cross_check` 角色及相同核對日期。
@@ -14,14 +20,14 @@
 
 每筆 `PublicTheme` 必須包含：
 
-| 欄位 | 公開含義 |
-|---|---|
-| `reviewState` | 只接受 `reviewed`；未完成審閱的候選不發布 |
-| `sources[].label` | 使用者可辨識的來源名稱 |
-| `sources[].url` | 無 credential 的絕對 HTTPS 頁面 |
-| `sources[].language` | `zh-Hant`、`zh-Hans`、`ja`、`en` 或 `multi` |
-| `sources[].role` | `first_party` 或 `cross_check` |
-| `sources[].verifiedAt` | 該來源最後人工核對的 ISO 8601 日期 |
+| 欄位                   | 公開含義                                    |
+| ---------------------- | ------------------------------------------- |
+| `reviewState`          | 只接受 `reviewed`；未完成審閱的候選不發布   |
+| `sources[].label`      | 使用者可辨識的來源名稱                      |
+| `sources[].url`        | 無 credential 的絕對 HTTPS 頁面             |
+| `sources[].language`   | `zh-Hant`、`zh-Hans`、`ja`、`en` 或 `multi` |
+| `sources[].role`       | `first_party` 或 `cross_check`              |
+| `sources[].verifiedAt` | 該來源最後人工核對的 ISO 8601 日期          |
 
 `first_party` 表示動畫製作／發行方、唱片公司、藝人官方渠道、官方影片或正式播出機構的公開頁面。`cross_check` 表示用於發現缺口及交叉比對的公開索引。兩種角色都是來源分類，不代表數值信心或內容評分。
 
@@ -30,7 +36,9 @@
 ## 欄位決策
 
 - 日文曲名、演唱者、credits、影片及發行頁以第一方公開資料作最終核對。
-- AnimeThemes、UZUREA、Annict、Bangumi、AniList 與年度動畫列表用於盤點及交叉核對，不單獨取代第一方證據。
+- AnimeThemes、UZUREA、Annict、Bangumi、AniList 與年度動畫列表只按
+  [來源條款閘門](./SOURCE_TERMS.md)用於有界盤點及交叉核對，不單獨取代第一方
+  證據，也不作 raw dataset、backup、mirror 或 tracker。
 - 繁中作品名稱優先採用台灣／香港正式代理、串流、出版社或官方社群；沒有可確認名稱時保留原文，不把自動轉換或社群欄位標示為正式譯名。
 - 不生成曲名、譯名、credits、來源或影片；衝突未解決時保留原有 reviewed record 或不發布新欄位。
 - `sourceLabels`／`lastVerifiedAt` 暫留於 API v1 作相容欄位，不供新 UI 作唯一證據。

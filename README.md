@@ -8,9 +8,9 @@ This repository contains the completed static product: season directory, anime d
 
 Production build 會從最終 HTML 自動產生 hash-based Content Security Policy。政策不使用 `unsafe-inline` 或 `unsafe-eval`，禁止 inline event／style attributes，只開放同源資產、已核對的海報來源及使用者啟動後的 YouTube privacy-enhanced iframe。任何未批准的 media origin 會令 build fail closed。
 
-| 可用性 / Availability                  | 成熟度 / Maturity                      | 證據 / Evidence                                                                                                                                                  |
-| -------------------------------------- | -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 公開靜態目錄 / Public static catalogue | Source 與 GitHub release 均為 `v1.10.0` | [入口網站 / Live](https://anisonary.k-y.cc) · [資料來源 / Sources](docs/DATA_SOURCES.md) · [v1.10 QA](docs/QA_V1_10_2023_FALL.md) · [安全政策 / Security](SECURITY.md) · [版權 / Copyright](COPYRIGHT.md) |
+| 可用性 / Availability                  | 成熟度 / Maturity                       | 證據 / Evidence                                                                                                                                                                                                                                                     |
+| -------------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 公開靜態目錄 / Public static catalogue | Source 與 GitHub release 均為 `v1.10.0` | [入口網站 / Live](https://anisonary.k-y.cc) · [資料來源 / Sources](docs/DATA_SOURCES.md) · [v1.10 QA](docs/QA_V1_10_2023_FALL.md) · [安全政策 / Security](SECURITY.md) · [授權 / Licence](LICENSING.md) · [版權 / Copyright](COPYRIGHT.md) |
 
 ## 技術棧｜Technology stack
 
@@ -121,9 +121,10 @@ Production domain: <https://anisonary.k-y.cc>. Non-production Cloudflare hostnam
 
 ## 自行部署到 Cloudflare Workers｜Self-deployment
 
-> 本 repository 沒有授予開源軟件或內容 license；權利與第三方內容邊界見
-> [`COPYRIGHT.md`](COPYRIGHT.md)。以下只記錄可重現的技術步驟，不授予複製、
-> 修改、再散布或部署程式及目錄內容的權利。
+> 本 repository 的專案自有**軟件部分**依 [Apache License 2.0](LICENSE) 提供；
+> curated catalogue records、來源 ledger、目錄編排、品牌及第三方內容不在該授權
+> 範圍內。自行部署前先閱讀 [`LICENSING.md`](LICENSING.md)，並移除或替換你沒有
+> 權利使用的目錄資料與媒體。
 >
 > `wrangler.jsonc` 目前指向本專案的正式 Worker 名稱與 custom domain。Fork 或 clone 後，**不要直接執行 `npm run cf:deploy`**；先換成你自己的公開 Worker 名稱與 hostname，或移除 `routes` 只使用自己的 `workers.dev` hostname。
 
@@ -136,7 +137,28 @@ Production domain: <https://anisonary.k-y.cc>. Non-production Cloudflare hostnam
 5. 以 `npx wrangler login` 登入，私下確認 `npx wrangler whoami` 的 account 正確，再執行 `npm run cf:deploy`。不要把登入輸出、API token 或 account metadata 貼到 issue、commit 或公開 log。
 6. 部署後核對首頁、搜尋、季度頁、動畫詳情、未知 `404`、security headers 與 `/api/v1/seasons.json`；最後以自己的 URL 執行 live API contract gate。
 
-完整的 `workers.dev`、custom domain、Workers Builds、驗收、rollback 與私隱檢查步驟見 [`docs/SELF_HOSTING.md`](docs/SELF_HOSTING.md)。專案維護者的 production release 流程另見 [`docs/DEPLOYMENT_CLOUDFLARE.md`](docs/DEPLOYMENT_CLOUDFLARE.md)。自行部署的技術步驟不會授予第三方動畫資料、商標、圖片或影片的重用權；公開前仍須自行核對 repository 及各來源的授權與使用條款。
+完整的 `workers.dev`、custom domain、Workers Builds、驗收、rollback 與私隱檢查步驟見 [`docs/SELF_HOSTING.md`](docs/SELF_HOSTING.md)。專案維護者的 production release 流程另見 [`docs/DEPLOYMENT_CLOUDFLARE.md`](docs/DEPLOYMENT_CLOUDFLARE.md)。Apache-2.0 只授權軟件部分，不授予 curated catalogue 或第三方動畫資料、商標、圖片及影片的重用權；來源條款閘門見 [`docs/SOURCE_TERMS.md`](docs/SOURCE_TERMS.md)。
+
+## 授權範圍｜Licensing scope
+
+由 `kyeunga25` 擁有或有權授權的應用程式原始碼、元件、樣式、通用 provider／
+schema、建置／驗證腳本、測試邏輯及通用技術文件，依
+[`Apache-2.0`](LICENSE) 提供。
+
+Curated catalogue records、來源 ledger、目錄選取／編排、審閱註記及其在測試、
+文件、建置產物、static API 或頁面中的複本，**沒有**由 Apache-2.0 或開放資料
+授權覆蓋。動畫、歌曲、錄音、海報／圖片、影片、credits、商標、外部內容及
+Anisonary 品牌亦不在授權內。
+
+Repository-owned application code, components, styles, generic provider and
+schema code, build and validation scripts, test logic, and generic technical
+documentation are licensed under Apache-2.0. Curated catalogue records,
+source ledgers, editorial selection and arrangement, embedded copies,
+third-party anime or music material, and Anisonary branding are excluded.
+
+完整路徑與重用規則見 [`LICENSING.md`](LICENSING.md)、
+[`COPYRIGHT.md`](COPYRIGHT.md)、[`NOTICE`](NOTICE) 及
+[`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md)。
 
 ## Project notes
 
@@ -171,4 +193,5 @@ The public repository must not contain crawlers, database dumps, unpublished dat
 - **Core stack／核心技術：** [Astro static output](https://docs.astro.build/en/reference/configuration-reference/#output)、[TypeScript](https://www.typescriptlang.org/docs/)、[Node.js](https://nodejs.org/docs/latest-v22.x/api/)、[Vitest](https://vitest.dev/guide/) 及 [Playwright](https://playwright.dev/docs/intro)。Browser 功能使用標準 HTML／CSS／JavaScript、[Service Worker](https://developer.mozilla.org/docs/Web/API/Service_Worker_API) 與 [Content Security Policy](https://developer.mozilla.org/docs/Web/HTTP/CSP)。
 - **AI model／AI 模型：** **無（None）**。Production、build、搜尋、static API、目錄資料及圖片流程都不呼叫或綁定 AI 模型，也不需要 AI API key；AI 生成的目錄記錄與圖片不作公開資料來源。
 - **Catalogue references／目錄參考：** 動畫官網、製作／發行／播出單位等第一方資料是最終核對基準；Annict、Bangumi、AniList、AnimeThemes、UZUREA、公開繁中季度表及台灣／香港正式授權頁只作 inventory、identity、media 或交叉核對。完整角色、限制與更新規則見 [`DATA_SOURCES.md`](docs/DATA_SOURCES.md) 及 [`DATA_PROVENANCE.md`](docs/DATA_PROVENANCE.md)。這些來源不會在 production runtime 被即時查詢。
+- **Source terms／來源條款：** 只使用文件化 API 或一般公開頁面，不保存 raw API dump、不收集 user data、不建立 mirror／backup／tracker，也不下載或重新託管第三方媒體；逐來源限制及停止條件見 [`SOURCE_TERMS.md`](docs/SOURCE_TERMS.md)。
 - **Disclosure boundary／披露邊界：** 公開文件只列可重現的技術與公開來源，不記錄 prompts、對話、個人資料、真實 account／resource identifiers、keys、database 結構、private adapters 或內部評分規則。更完整的依賴與參考索引見 [`TECHNOLOGY_REFERENCES.md`](docs/TECHNOLOGY_REFERENCES.md)。
