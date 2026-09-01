@@ -10,7 +10,7 @@ test("static public API mirrors the reviewed catalogue without a runtime binding
   expect(seasonsResponse.status()).toBe(200);
   expect(seasonsResponse.headers()["content-type"]).toContain("application/json");
   const seasons = await seasonsResponse.json();
-  expect(seasons).toHaveLength(20);
+  expect(seasons).toHaveLength(21);
 
   const seasonResponse = await request.get("/api/v1/seasons/2026-summer.json");
   expect(seasonResponse.status()).toBe(200);
@@ -86,6 +86,29 @@ test("static public API mirrors the reviewed catalogue without a runtime binding
     verifiedAt: "2026-09-02"
   });
   expect(summer2021.anime).toHaveLength(46);
+
+  const spring2021Response = await request.get("/api/v1/seasons/2021-spring.json");
+  expect(spring2021Response.status()).toBe(200);
+  const spring2021 = await spring2021Response.json();
+  expect(spring2021).toMatchObject({
+    id: "2021-spring",
+    reviewState: "reviewed",
+    verifiedAt: "2026-09-02"
+  });
+  expect(spring2021.anime).toHaveLength(73);
+
+  const vivyResponse = await request.get("/api/v1/anime/vivy-fluorite-eye-s-song.json");
+  expect(vivyResponse.status()).toBe(200);
+  const vivy = await vivyResponse.json();
+  expect(vivy.themes).toEqual([
+    expect.objectContaining({
+      type: "OP",
+      sequence: 1,
+      titleJa: "Sing My Pleasure",
+      artistDisplayName: "ヴィヴィ（Vo. 八木海莉）",
+      videos: [expect.objectContaining({ youtubeVideoId: "2p8ig-TrYPY", officialStatus: "official" })]
+    })
+  ]);
 
   const spyFamilyResponse = await request.get("/api/v1/anime/spy-x-family.json");
   expect(spyFamilyResponse.status()).toBe(200);
@@ -339,7 +362,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
 
   await page.goto("/search/");
   await expect(page.getByRole("heading", { name: "跨季度搜尋" })).toBeVisible();
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1451");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1524");
 
   const search = page.getByRole("searchbox", { name: "搜尋動畫或歌曲" });
   await search.fill("ＭＹＴＨ & ＲＯＩＤ");
@@ -379,7 +402,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
   await expect(page.locator("[data-catalog-anime-count]")).toHaveText("0");
 
   await search.press("Escape");
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1451");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1524");
   expect(externalRequests).toEqual([]);
 });
 
@@ -573,6 +596,15 @@ test("added seasonal pages render their reviewed theme records", async ({ page }
   await expect(page.getByText("未来予報ハレルヤ", { exact: true })).toHaveCount(0);
   await expect(page.getByText("Wish Song", { exact: true })).toHaveCount(0);
   await expect(page.getByRole("button", { name: /載入 YouTube 影片/ })).toHaveCount(2);
+  await page.goto("/seasons/2021-spring/");
+  await expect(page.getByRole("heading", { name: "2021 春季動畫" })).toBeVisible();
+  await page.getByRole("checkbox", { name: "有正版影片" }).check();
+  await expect(page.locator("[data-result-count]")).toHaveText("39");
+  await page.locator('a[href="/anime/vivy-fluorite-eye-s-song/"]').first().click();
+  await expect(page).toHaveURL(/\/anime\/vivy-fluorite-eye-s-song\/$/);
+  await expect(page.getByRole("heading", { name: "Sing My Pleasure", exact: true })).toBeVisible();
+  await expect(page.locator(".theme-card")).toHaveCount(1);
+  await expect(page.getByRole("button", { name: /載入 YouTube 影片/ })).toHaveCount(1);
 });
 
 test("public catalogue remains readable offline without caching personal input", async ({ page, context }) => {
@@ -678,9 +710,10 @@ test("responsive navigation uses a desktop sidebar and a compact mobile menu", a
   await expect(year2022.getByRole("link", { name: "冬季" })).toBeVisible();
   await expect(year2021.getByRole("link", { name: "秋季" })).toBeVisible();
   await expect(year2021.getByRole("link", { name: "夏季" })).toBeVisible();
-  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(20);
+  await expect(year2021.getByRole("link", { name: "春季" })).toBeVisible();
+  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(21);
   await expect(page.getByLabel("季度資料狀態")).toContainText(
-    "已發布 20 個季度、1,451 個作品頁與 3,039 首 OP／ED"
+    "已發布 21 個季度、1,524 個作品頁與 3,170 首 OP／ED"
   );
   await expect(year2025.getByRole("link", { name: "春季" })).toHaveAttribute("aria-current", "page");
   await expect(page.getByRole("navigation", { name: "切換季度" })).toHaveCount(0);
@@ -701,7 +734,7 @@ test("responsive navigation uses a desktop sidebar and a compact mobile menu", a
   await expect(menuButton).toHaveAttribute("aria-expanded", "true");
   await expect(navigation).toBeVisible();
   await expect(year2025.getByRole("link", { name: "春季" })).toHaveAttribute("aria-current", "page");
-  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(20);
+  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(21);
 
   await menuButton.press("Escape");
   await expect(menuButton).toHaveAttribute("aria-expanded", "false");
