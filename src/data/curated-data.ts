@@ -656,6 +656,7 @@ const themeVersionLabelOverrides: Record<string, string> = {
   "137378:ED:1": "主題歌（官方分類）",
   "143415:OP:1": "主題歌（官方分類）",
   "137227:ED:1": "主題歌（官方分類）",
+  "128703:ED:1": "主題歌（官方分類）",
   "148401:ED:7": "最終話版本（全 38 名）",
   "167152:OP:1": "主題歌（官方分類）",
   "148819:OP:1": "主題歌（官方分類）",
@@ -4821,7 +4822,7 @@ function animeOfficialSource(seed: CuratedAnimeSeed): { label: string; url: stri
 function referenceLanguage(url: string): PublicAnimeDetail["sources"][number]["language"] {
   const hostname = new URL(url).hostname;
   if (hostname === "bgm.tv") return "zh-Hans";
-  if (hostname === "youranimes.tw" || hostname === "zh.wikipedia.org") return "zh-Hant";
+  if (hostname === "youranimes.tw" || hostname === "acgsecrets.hk" || hostname === "zh.wikipedia.org") return "zh-Hant";
   if (hostname === "about.netflix.com") return "multi";
   return "ja";
 }
