@@ -34,7 +34,7 @@ const navigation = [...editorialWeekdays, irregularWeekday];
         <section class="weekday-section" id={`weekday-${day.value || "irregular"}`} data-weekday-section>
           <div class="weekday-section__heading">
             <h2>{day.sectionLabel}</h2>
-            <span>{items.length} 套</span>
+            <span data-weekday-count>{items.length} 套</span>
           </div>
           {items.length ? (
             <div class="poster-grid">
@@ -75,7 +75,10 @@ const navigation = [...editorialWeekdays, irregularWeekday];
 
       sections.forEach((section) => {
         const sectionCards = Array.from(section.querySelectorAll<HTMLElement>("[data-anime-card]"));
-        section.hidden = sectionCards.length > 0 && sectionCards.every((card) => card.hidden);
+        const visibleSectionCards = sectionCards.filter((card) => !card.hidden).length;
+        const sectionCount = section.querySelector<HTMLElement>("[data-weekday-count]");
+        section.hidden = sectionCards.length === 0 ? active.size > 0 : visibleSectionCards === 0;
+        if (sectionCount) sectionCount.textContent = `${visibleSectionCards} 套`;
       });
 
       if (count) count.textContent = String(visible);

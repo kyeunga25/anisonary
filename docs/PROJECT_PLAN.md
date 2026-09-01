@@ -4,8 +4,8 @@
 
 ## Current product scope
 
-- 2026 夏季 70 套、2026 春季 70 套、2026 冬季 66 套、2025 夏季 75 套、2025 春季 82 套、2025 冬季 59 套、2024 秋季 88 套、2024 夏季 68 套、2024 春季 76 套、2024 冬季 75 套及 2023 秋季 100 套非成人 TV／WEB 連載動畫；
-- 跨季作品共用詳情頁，共 828 個唯一作品及 1,733 筆已審閱 OP／ED；
+- 2026 夏季 70 套、2026 春季 70 套、2026 冬季 66 套、2025 夏季 75 套、2025 春季 82 套、2025 冬季 59 套、2024 秋季 88 套、2024 夏季 68 套、2024 春季 76 套、2024 冬季 75 套、2023 秋季 100 套及 2023 夏季 75 套非成人 TV／WEB 連載動畫；
+- 跨季作品共用詳情頁，共 903 個唯一作品及 1,859 筆已審閱 OP／ED；
 - 星期一至星期日及不定期分組、跨季度本機搜尋、動畫詳情與同源 static JSON API；
 - 每個季度、作品及歌曲公開來源、語言、review state 及核對日期；每首歌曲同時具備第一方／交叉核對來源；
 - 官方／licensed YouTube 導航、明確第三方連線同意、來源歸屬及無圖 fallback；
@@ -29,6 +29,7 @@
 - **v1.8.0**：加入 2024 春季 76 套動畫、158 筆已核對 OP／ED 及 134 筆官方影片 metadata，擴展至九季、653 個唯一作品與 1,403 筆 OP／ED；
 - **v1.9.0**：加入 2024 冬季 75 套動畫、130 筆已核對 OP／ED 及 125 筆官方影片 metadata，擴展至十季、728 個唯一作品與 1,533 筆 OP／ED；
 - **v1.10.0**：加入 2023 秋季 100 套動畫、200 筆已核對 OP／ED 及 2 筆官方影片 metadata，擴展至十一季、828 個唯一作品與 1,733 筆 OP／ED，並由季度 registry 產生按年份分組的 sidebar／手機選單；
+- **v1.11.0**：加入 2023 夏季 75 套動畫、126 筆已核對 OP／ED 及 4 筆官方影片 metadata，擴展至十二季、903 個唯一作品與 1,859 筆 OP／ED，並修正共用 AniList identity 的本篇／第 0 話主題曲選擇；
 - 正式網站使用 custom domain；非正式 Cloudflare hostname 不在公開文檔記錄；
 - 私有 backend、資料庫、crawler、帳戶設定、憑證與內部規則不屬於本公開 repository。
 
@@ -39,7 +40,7 @@
 - 預設 build 使用 repository-reviewed `CuratedProvider`；`MockProvider` 只供測試與 UI fixture；
 - `/api/v1/*.json` 由同一份 reviewed snapshot 在 build-time 產生，不加入 runtime backend、資料庫或 credential；
 - `PUBLIC_API_BASE_URL` 存在時切換至經契約限制的唯讀 `ApiProvider`；
-- 十一個季度均可瀏覽，list／detail／static API identity 保持一致；
+- 十二個季度均可瀏覽，list／detail／static API identity 保持一致；
 - 日文名稱為主、繁中為輔；
 - 每筆歌曲通過第一方及交叉核對來源 gate，未審閱候選不發布；
 - 公開資料不包含完整度百分比、confidence score 或內部選源規則；
