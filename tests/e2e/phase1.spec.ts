@@ -10,7 +10,7 @@ test("static public API mirrors the reviewed catalogue without a runtime binding
   expect(seasonsResponse.status()).toBe(200);
   expect(seasonsResponse.headers()["content-type"]).toContain("application/json");
   const seasons = await seasonsResponse.json();
-  expect(seasons).toHaveLength(13);
+  expect(seasons).toHaveLength(14);
 
   const seasonResponse = await request.get("/api/v1/seasons/2026-summer.json");
   expect(seasonResponse.status()).toBe(200);
@@ -46,6 +46,30 @@ test("static public API mirrors the reviewed catalogue without a runtime binding
   const spring2023 = await spring2023Response.json();
   expect(spring2023).toMatchObject({ id: "2023-spring", reviewState: "reviewed", verifiedAt: "2026-09-01" });
   expect(spring2023.anime).toHaveLength(79);
+
+  const winter2023Response = await request.get("/api/v1/seasons/2023-winter.json");
+  expect(winter2023Response.status()).toBe(200);
+  const winter2023 = await winter2023Response.json();
+  expect(winter2023).toMatchObject({ id: "2023-winter", reviewState: "reviewed", verifiedAt: "2026-09-01" });
+  expect(winter2023.anime).toHaveLength(72);
+
+  const gokushufudouResponse = await request.get("/api/v1/anime/gokushufudou-season-2.json");
+  expect(gokushufudouResponse.status()).toBe(200);
+  const gokushufudou = await gokushufudouResponse.json();
+  expect(gokushufudou.themes).toEqual([
+    expect.objectContaining({
+      type: "OP",
+      titleJa: "シュフノミチ",
+      artistDisplayName: "打首獄門同好会",
+      videos: [expect.objectContaining({ youtubeVideoId: "wGliHwjmSxc", officialStatus: "official" })]
+    }),
+    expect.objectContaining({
+      type: "ED",
+      titleJa: "極・夫婦街道",
+      artistDisplayName: "打首獄門同好会",
+      videos: [expect.objectContaining({ youtubeVideoId: "O5rWQF5BOWI", officialStatus: "official" })]
+    })
+  ]);
 
   const kaguyaResponse = await request.get("/api/v1/anime/kaguya-sama-wa-kokurasetai-first-kiss-wa-owaranai.json");
   expect(kaguyaResponse.status()).toBe(200);
@@ -207,7 +231,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
 
   await page.goto("/search/");
   await expect(page.getByRole("heading", { name: "跨季度搜尋" })).toBeVisible();
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("982");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1054");
 
   const search = page.getByRole("searchbox", { name: "搜尋動畫或歌曲" });
   await search.fill("ＭＹＴＨ & ＲＯＩＤ");
@@ -241,7 +265,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
   await expect(page.locator("[data-catalog-anime-count]")).toHaveText("0");
 
   await search.press("Escape");
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("982");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1054");
   expect(externalRequests).toEqual([]);
 });
 
@@ -354,6 +378,18 @@ test("added seasonal pages render their reviewed theme records", async ({ page }
   await expect(page.getByText("鈴木愛理", { exact: true })).toBeVisible();
   await expect(page.getByRole("button", { name: /載入 YouTube 影片.*Love is Show/ })).toBeVisible();
   await expect(page.getByRole("button", { name: /載入 YouTube 影片.*heart notes/ })).toBeVisible();
+
+  await page.goto("/seasons/2023-winter/");
+  await expect(page.getByRole("heading", { name: "2023 冬季動畫" })).toBeVisible();
+  await page.getByRole("checkbox", { name: "有正版影片" }).check();
+  await expect(page.locator("[data-result-count]")).toHaveText("5");
+  await page.locator('a[href="/anime/gokushufudou-season-2/"]').first().click();
+  await expect(page).toHaveURL(/\/anime\/gokushufudou-season-2\/$/);
+  await expect(page.getByRole("heading", { name: "シュフノミチ", exact: true })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "極・夫婦街道", exact: true })).toBeVisible();
+  await expect(page.getByText("打首獄門同好会", { exact: true })).toHaveCount(2);
+  await expect(page.getByRole("button", { name: /載入 YouTube 影片.*シュフノミチ/ })).toBeVisible();
+  await expect(page.getByRole("button", { name: /載入 YouTube 影片.*極・夫婦街道/ })).toBeVisible();
 });
 
 test("public catalogue remains readable offline without caching personal input", async ({ page, context }) => {
@@ -448,9 +484,10 @@ test("responsive navigation uses a desktop sidebar and a compact mobile menu", a
   await expect(year2023.getByRole("link", { name: "秋季" })).toBeVisible();
   await expect(year2023.getByRole("link", { name: "夏季" })).toBeVisible();
   await expect(year2023.getByRole("link", { name: "春季" })).toBeVisible();
-  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(13);
+  await expect(year2023.getByRole("link", { name: "冬季" })).toBeVisible();
+  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(14);
   await expect(page.getByLabel("季度資料狀態")).toContainText(
-    "已發布 13 個季度、982 個作品頁與 2,027 首 OP／ED"
+    "已發布 14 個季度、1,054 個作品頁與 2,186 首 OP／ED"
   );
   await expect(year2025.getByRole("link", { name: "春季" })).toHaveAttribute("aria-current", "page");
   await expect(page.getByRole("navigation", { name: "切換季度" })).toHaveCount(0);
@@ -471,7 +508,7 @@ test("responsive navigation uses a desktop sidebar and a compact mobile menu", a
   await expect(menuButton).toHaveAttribute("aria-expanded", "true");
   await expect(navigation).toBeVisible();
   await expect(year2025.getByRole("link", { name: "春季" })).toHaveAttribute("aria-current", "page");
-  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(13);
+  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(14);
 
   await menuButton.press("Escape");
   await expect(menuButton).toHaveAttribute("aria-expanded", "false");

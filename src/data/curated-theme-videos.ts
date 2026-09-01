@@ -2,6 +2,7 @@ import { curatedSeasonRegistry } from "@/data/curated-season-registry";
 import { curated2023FallThemeVideos } from "@/data/curated-theme-videos/2023/fall";
 import { curated2023SpringThemeVideos } from "@/data/curated-theme-videos/2023/spring";
 import { curated2023SummerThemeVideos } from "@/data/curated-theme-videos/2023/summer";
+import { curated2023WinterThemeVideos } from "@/data/curated-theme-videos/2023/winter";
 import { curated2024FallThemeVideos } from "@/data/curated-theme-videos/2024/fall";
 import { curated2024SpringThemeVideos } from "@/data/curated-theme-videos/2024/spring";
 import { curated2024SummerThemeVideos } from "@/data/curated-theme-videos/2024/summer";
@@ -129,6 +130,7 @@ export const curatedThemeVideoRegistry = validateCuratedThemeVideoRegistry([
   { seasonId: "2023-fall", overrides: curated2023FallThemeVideos },
   { seasonId: "2023-summer", overrides: curated2023SummerThemeVideos },
   { seasonId: "2023-spring", overrides: curated2023SpringThemeVideos },
+  { seasonId: "2023-winter", overrides: curated2023WinterThemeVideos },
 ] as const);
 
 export const curatedThemeVideoOverrides: CuratedThemeVideoOverrideMap =
