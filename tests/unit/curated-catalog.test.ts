@@ -5,7 +5,7 @@ import { CuratedProvider } from "@/data/curated-provider";
 import { creditRoleLabel } from "@/utils/theme";
 
 describe("curated public catalogue", () => {
-  it("publishes all fourteen reviewed seasonal snapshots", () => {
+  it("publishes all fifteen reviewed seasonal snapshots", () => {
     expect(curatedSeasons.map((season) => season.id)).toEqual([
       "2026-summer",
       "2026-spring",
@@ -20,10 +20,11 @@ describe("curated public catalogue", () => {
       "2023-fall",
       "2023-summer",
       "2023-spring",
-      "2023-winter"
+      "2023-winter",
+      "2022-fall"
     ]);
-    expect(curatedSeasonDetails).toHaveLength(14);
-    expect(curatedSeasonDetails.map((season) => season.anime.length)).toEqual([70, 70, 66, 75, 82, 59, 88, 68, 76, 75, 100, 75, 79, 72]);
+    expect(curatedSeasonDetails).toHaveLength(15);
+    expect(curatedSeasonDetails.map((season) => season.anime.length)).toEqual([70, 70, 66, 75, 82, 59, 88, 68, 76, 75, 100, 75, 79, 72, 80]);
     expect(curatedSeasonDetails.map((season) => [season.id, season.reviewState, season.verifiedAt])).toEqual([
       ["2026-summer", "reviewed", "2026-08-02"],
       ["2026-spring", "reviewed", "2026-08-02"],
@@ -38,20 +39,113 @@ describe("curated public catalogue", () => {
       ["2023-fall", "reviewed", "2026-09-01"],
       ["2023-summer", "reviewed", "2026-09-01"],
       ["2023-spring", "reviewed", "2026-09-01"],
-      ["2023-winter", "reviewed", "2026-09-01"]
+      ["2023-winter", "reviewed", "2026-09-01"],
+      ["2022-fall", "reviewed", "2026-09-01"]
     ]);
-    expect(curatedAnimeDetails).toHaveLength(1054);
-    expect(curatedAnimeDetails.filter((anime) => anime.themes.length > 0)).toHaveLength(857);
-    expect(curatedAnimeDetails.flatMap((anime) => anime.themes)).toHaveLength(2186);
-    expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "documented")).toHaveLength(857);
+    expect(curatedAnimeDetails).toHaveLength(1134);
+    expect(curatedAnimeDetails.filter((anime) => anime.themes.length > 0)).toHaveLength(911);
+    expect(curatedAnimeDetails.flatMap((anime) => anime.themes)).toHaveLength(2383);
+    expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "documented")).toHaveLength(911);
     expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "not_used")).toHaveLength(2);
-    expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "not_announced")).toHaveLength(195);
+    expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "not_announced")).toHaveLength(221);
     const youtubeLinks = curatedAnimeDetails
       .flatMap((anime) => anime.themes)
       .flatMap((theme) => theme.links)
       .filter((link) => link.platform === "YouTube");
     expect(youtubeLinks).toHaveLength(538);
     expect(youtubeLinks.every((link) => new URL(link.url).hostname === "www.youtube.com")).toBe(true);
+  });
+
+  it("keeps the reviewed 2022 fall serial boundary and multi-ending identities conservative", () => {
+    const fall = curatedSeasonDetails.find((season) => season.id === "2022-fall");
+    expect(fall?.anime).toHaveLength(80);
+    const fallSeeds = curatedAnimeSeeds.filter((seed) => seed.seasonIds.includes("2022-fall"));
+    expect(fallSeeds).toHaveLength(80);
+    expect(new Set(fallSeeds.map(({ anilistId }) => anilistId)).size).toBe(80);
+    expect(new Set(fallSeeds.map(({ slug }) => slug)).size).toBe(80);
+    expect(fallSeeds.flatMap(({ themes }) => themes)).toHaveLength(197);
+
+    for (const seed of fallSeeds) {
+      expect(seed.startDate).toMatch(/^2022-(?:09|10|11|12)-\d{2}$/);
+      expect(seed.startDate >= "2022-09-01" && seed.startDate <= "2022-12-26").toBe(true);
+      const editorialWeekday = new Date(`${seed.startDate}T00:00:00Z`).getUTCDay() || 7;
+      expect(seed.editorialWeekday, `${seed.anilistId} weekday`).toBe(editorialWeekday);
+      expect(seed.titleJa.trim()).not.toBe("");
+      expect(seed.titleZhHant.trim()).not.toBe("");
+      expect(seed.titleRomaji.trim()).not.toBe("");
+
+      for (const type of ["OP", "ED"] as const) {
+        const sequences = seed.themes.filter((theme) => theme.type === type).map(({ sequence }) => sequence);
+        expect(sequences, `${seed.anilistId}:${type}`).toEqual(
+          Array.from({ length: sequences.length }, (_, index) => index + 1)
+        );
+      }
+    }
+
+    const fallIds = new Set(fall?.anime.map((anime) => anime.id));
+    for (const excludedAniListId of [
+      210071, 175347, 157062, 157653, 139376, 187775, 141352, 158923,
+      155767, 159680, 120377, 137819, 139643, 154955, 153412
+    ]) {
+      expect(fallIds.has(`curated-${excludedAniListId}`)).toBe(false);
+    }
+    expect(curatedAnimeDetails.filter((anime) => (
+      fallIds.has(anime.id) && anime.themeAvailability === "not_announced"
+    ))).toHaveLength(26);
+    expect(curatedAnimeDetails.filter((anime) => fallIds.has(anime.id))
+      .flatMap((anime) => anime.themes)
+      .flatMap((theme) => theme.videos)).toHaveLength(28);
+
+    const reviewedMusic = new Map([
+      ["curated-146722", ["STONE OCEAN", "Heaven's falling down", "Distant Dreamer", "Roundabout"]],
+      ["curated-127230", ["KICK BACK", "CHAINSAW BLOOD", "残機", "刃渡り2億センチ", "錠剤", "インザバックルーム", "大脳的なランデブー", "ちゅ、多様性。", "first death", "Deep down", "DOGLAND", "バイオレンス", "ファイトソング"]],
+      ["curated-130003", ["青春コンプレックス", "Distortion!!", "カラカラ", "なにが悪い", "転がる岩、君に朝が降る"]],
+      ["curated-139274", ["祝福", "君よ 気高くあれ"]],
+      ["curated-140439", ["１", "コバルト", "Exist"]],
+      ["curated-116674", ["スカー", "Rapport", "最果て", "Number One - Bankai"]],
+      ["curated-138565", ["PINK BLOOD", "Roots"]],
+      ["curated-148401", ["ゆるパカHAPPY DAYS！", "ミッドナイト・エピローグ", "Dance 2 Endless Beat", "#ウマRAP", "Bright Melody", "永遠の色彩", "うまぴょい伝説"]],
+      ["curated-146676", ["Love? Reason why!!", "Flop Around", "Flop Around", "Flop Around", "Flop Around", "Flop Around", "Flop Around", "lost in the white"]]
+    ]);
+    for (const [animeId, titles] of reviewedMusic) {
+      const anime = curatedAnimeDetails.find(({ id }) => id === animeId);
+      expect(anime?.themes.map(({ titleJa }) => titleJa), animeId).toEqual(titles);
+      for (const theme of anime?.themes ?? []) {
+        expect(theme.sources.some(({ role }) => role === "first_party"), theme.id).toBe(true);
+        expect(theme.sources.some(({ role }) => role === "cross_check"), theme.id).toBe(true);
+      }
+    }
+
+    const jojo = curatedAnimeDetails.find(({ id }) => id === "curated-146722");
+    expect(jojo?.themes.flatMap(({ videos }) => videos).map(({ youtubeVideoId }) => youtubeVideoId))
+      .toEqual(["mgxDyrEnnoE", "RTacFlYONhY", "4nEiPvPrH_M"]);
+    expect(jojo?.themes.find(({ titleJa }) => titleJa === "Distant Dreamer")?.sources)
+      .toContainEqual(expect.objectContaining({
+        url: "https://www.universal-music.co.jp/duffy/news/2021-12-01/",
+        role: "first_party"
+      }));
+    expect(curatedAnimeDetails.find(({ id }) => id === "curated-127230")
+      ?.themes.flatMap(({ videos }) => videos)).toHaveLength(13);
+    expect(curatedAnimeDetails.find(({ id }) => id === "curated-130003")
+      ?.themes.flatMap(({ videos }) => videos)).toHaveLength(4);
+    expect(curatedAnimeDetails.find(({ id }) => id === "curated-146676")
+      ?.themes.find(({ type, sequence }) => type === "ED" && sequence === 6)?.artistDisplayName)
+      .toBe("和泉沢愛生（CV.伊藤美来）、アメリア・アーヴィング（CV.竹達彩奈）、イリヤ・イリューヒン（CV.高橋李依）、白夢華（CV.金元寿子）、カリン・イステル（CV.高野麻里佳）");
+    const umayuruFinale = curatedAnimeDetails.find(({ id }) => id === "curated-148401")
+      ?.themes.find(({ type, sequence }) => type === "ED" && sequence === 7);
+    expect(umayuruFinale).toMatchObject({
+      titleJa: "うまぴょい伝説",
+      artistDisplayName: "ウマ娘 プリティーダービー（全38名）",
+      versionLabel: "最終話版本（全 38 名）"
+    });
+    expect(umayuruFinale?.sources).toContainEqual(expect.objectContaining({
+      url: "https://umamusume.lantis.jp/discography/%E3%82%A2%E3%83%AB%E3%83%90%E3%83%A0-2/",
+      role: "first_party"
+    }));
+
+    const shadow = curatedAnimeDetails.find(({ id }) => id === "curated-130298");
+    expect(shadow?.themes.filter(({ type }) => type === "ED")).toHaveLength(7);
+    expect(shadow?.themes.map(({ titleJa }) => titleJa)).not.toContain("Moonlight Sonata");
   });
 
   it("keeps the reviewed 2023 winter serial boundary and multi-ending identities conservative", () => {
@@ -689,6 +783,7 @@ describe("curated public catalogue", () => {
           || season.id === "2023-summer"
           || season.id === "2023-spring"
           || season.id === "2023-winter"
+          || season.id === "2022-fall"
         ))
         .flatMap((season) => season.anime.map((anime) => anime.id))
     );
