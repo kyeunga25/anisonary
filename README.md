@@ -2,15 +2,15 @@
 
 Anisonary 是以 Astro + strict TypeScript 建立的動畫歌曲目錄，按季度與日本編輯播出日瀏覽作品、OP 與 ED。網站輸出為純靜態資產，正式交付使用 **Cloudflare Workers Static Assets**；它不是 Cloudflare Pages，也沒有 application Worker backend。下方同時保留 English technical notes。
 
-This repository contains the completed static product: season directory, anime detail pages, traceable OP／ED credits and links, per-song source ledgers, source-attributed media, local-only cross-season search, privacy-bounded offline reading, a GitHub correction flow, and deployment through Cloudflare Workers Static Assets. The default catalogue covers eighteen reviewed snapshots across 2022–2026, with 1,340 unique titles and 2,790 known OP／ED records; fictional Mock Data remains test-only.
+This repository contains the completed static product: season directory, anime detail pages, traceable OP／ED credits and links, per-song source ledgers, source-attributed media, local-only cross-season search, privacy-bounded offline reading, a GitHub correction flow, and deployment through Cloudflare Workers Static Assets. The default catalogue covers nineteen reviewed snapshots across 2021–2026, with 1,405 unique titles and 2,935 known OP／ED records; fictional Mock Data remains test-only.
 
-目前公開版本：**v1.17.0**。每個季度、作品及已發布歌曲都保留結構化來源、來源語言、審閱狀態及核對日期；每首歌曲另同時具備可點擊的第一方與交叉核對來源。v1.17.0 加入 2022 冬季 58 套動畫、111 筆已核對 OP／ED 與 26 筆官方影片 metadata，包括《擅長捉弄人的高木同學 第三季》的八首輪替 ED、《CUE!》前後半歌曲、《JOJO的奇妙冒險：石之海》第一批次，以及《進擊的巨人 The Final Season Part 2》、《戀上換裝娃娃》和《明日同學的水手服》。後續批次歌曲、官方列作插曲的版本及失效／不可嵌入影片不會混入本季度；只被第一方列作一般「主題歌」的作品會保留明確分類標籤，不額外虛構官方 OP／ED 用途。單集電影、OVA、成人作品、企業／觀光宣傳短片及無足夠季度證據的網路短篇維持在公開季度範圍外。未有可靠主題曲或官方影片證據的欄位維持明確空狀態，不以推測補值。公開 UI／API 不發布內部完整度或 confidence score。搜尋在瀏覽器內比對日文、繁體中文、Romaji、歌曲、歌手與 credit；搜尋字詞不會傳送到 server 或 analytics。Build 同時輸出與頁面相同資料來源的同源唯讀 JSON API，不需要 application Worker、D1、KV 或 secret。Service Worker 只預先保存公開頁面與必要靜態資產，不保存搜尋字詞、API JSON 或第三方媒體。
+目前公開版本：**v1.18.0**。每個季度、作品及已發布歌曲都保留結構化來源、來源語言、審閱狀態及核對日期；每首歌曲另同時具備可點擊的第一方與交叉核對來源。v1.18.0 加入 2021 秋季 65 套動畫、145 筆已核對 OP／ED 與 28 筆官方影片 metadata，包括《鬼滅之刃：遊郭篇》、《86─不存在的戰區─ 第二季》、《國王排名》及《銀翼殺手：黑蓮花》的季度歌曲身份。第三方索引列作 OP／ED、但第一方證據只列作插曲、劇中歌或 Victory Dance 的版本不會發布為 OP／ED；只被第一方列作一般「主題歌」的《女孩遇見男孩》保留明確分類標籤，不額外虛構官方用途。單集電影、OVA、成人作品、企業／觀光宣傳短片及無足夠季度證據的網路短篇維持在公開季度範圍外。未有可靠主題曲或官方影片證據的欄位維持明確空狀態，不以推測補值。公開 UI／API 不發布內部完整度或 confidence score。搜尋在瀏覽器內比對日文、繁體中文、Romaji、歌曲、歌手與 credit；搜尋字詞不會傳送到 server 或 analytics。Build 同時輸出與頁面相同資料來源的同源唯讀 JSON API，不需要 application Worker、D1、KV 或 secret。Service Worker 只預先保存公開頁面與必要靜態資產，不保存搜尋字詞、API JSON 或第三方媒體。
 
 Production build 會從最終 HTML 自動產生 hash-based Content Security Policy。政策不使用 `unsafe-inline` 或 `unsafe-eval`，禁止 inline event／style attributes，只開放同源資產、已核對的海報來源及使用者啟動後的 YouTube privacy-enhanced iframe。任何未批准的 media origin 會令 build fail closed。
 
 | 可用性 / Availability                  | 成熟度 / Maturity                       | 證據 / Evidence                                                                                                                                                                                                                                                     |
 | -------------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 公開靜態目錄 / Public static catalogue | Source 版本為 `v1.17.0`；正式站狀態以 QA 記錄為準 | [入口網站 / Live](https://anisonary.k-y.cc) · [資料來源 / Sources](docs/DATA_SOURCES.md) · [v1.17 QA](docs/QA_V1_17_2022_WINTER.md) · [安全政策 / Security](SECURITY.md) · [授權 / Licence](LICENSING.md) · [版權 / Copyright](COPYRIGHT.md) |
+| 公開靜態目錄 / Public static catalogue | Source 版本為 `v1.18.0`；正式站狀態以 QA 記錄為準 | [入口網站 / Live](https://anisonary.k-y.cc) · [資料來源 / Sources](docs/DATA_SOURCES.md) · [v1.18 QA](docs/QA_V1_18_2021_FALL.md) · [安全政策 / Security](SECURITY.md) · [授權 / Licence](LICENSING.md) · [版權 / Copyright](COPYRIGHT.md) |
 
 ## 技術棧｜Technology stack
 
@@ -57,7 +57,7 @@ PUBLIC_API_BASE_URL=https://anisonary.k-y.cc/api/v1 npm run api:check
 - `MockProvider` remains available only for isolated unit and component tests; its fixtures are not production assets.
 - Copy `.env.example` to `.env` for local configuration. Never commit secrets.
 
-Season coverage uses a repository-owned source registry: Annict is the Japanese seasonal inventory baseline, while Bangumi provides a Chinese-entry cross-check. The eighteen published snapshots additionally cross-check Traditional Chinese calendar inventories, AniList identifiers and media, AnimeThemes records, public theme-song indexes, official sites, and Taiwan／Hong Kong licensing pages. These are editorial inputs only; production builds use the reviewed static snapshot and never require external APIs at runtime. See `docs/DATA_SOURCES.md` for the inventory rules and `docs/DATA_PROVENANCE.md` for the per-song ledger and media boundary.
+Season coverage uses a repository-owned source registry: Annict is the Japanese seasonal inventory baseline, while Bangumi provides a Chinese-entry cross-check. The nineteen published snapshots additionally cross-check Traditional Chinese calendar inventories, AniList identifiers and media, AnimeThemes records, public theme-song indexes, official sites, and Taiwan／Hong Kong licensing pages. These are editorial inputs only; production builds use the reviewed static snapshot and never require external APIs at runtime. See `docs/DATA_SOURCES.md` for the inventory rules and `docs/DATA_PROVENANCE.md` for the per-song ledger and media boundary.
 
 ## Catalogue search
 
@@ -168,6 +168,7 @@ third-party anime or music material, and Anisonary branding are excluded.
 - Technology, AI and reference disclosure: `docs/TECHNOLOGY_REFERENCES.md`
 - Song and media provenance contract: `docs/DATA_PROVENANCE.md`
 - Version history: `CHANGELOG.md`
+- v1.18.0 2021 fall catalogue QA: `docs/QA_V1_18_2021_FALL.md`
 - v1.2.0 theme-source and public-score-removal QA: `docs/QA_V1_2_PROVENANCE.md`
 - v1.1.0 2026 winter／2025 summer catalogue QA: `docs/QA_V1_1_SEASON_EXPANSION.md`
 - v1.0.0 static API and stable release QA: `docs/QA_V1_STATIC_API.md`

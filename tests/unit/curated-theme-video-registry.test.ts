@@ -29,19 +29,20 @@ describe("curated theme video registry", () => {
       "2022-summer",
       "2022-spring",
       "2022-winter",
+      "2021-fall",
     ]);
     expect(
       curatedThemeVideoRegistry.map(
         ({ overrides }) => Object.keys(overrides).length,
       ),
-    ).toEqual([4, 10, 44, 178, 79, 48, 128, 154, 134, 125, 2, 4, 6, 7, 27, 28, 26, 26]);
+    ).toEqual([4, 10, 44, 178, 79, 48, 128, 154, 134, 125, 2, 4, 6, 7, 27, 28, 26, 26, 28]);
 
     const entries = curatedThemeVideoRegistry.flatMap(({ overrides }) =>
       Object.entries(overrides),
     );
-    expect(entries).toHaveLength(1030);
+    expect(entries).toHaveLength(1058);
     expect(new Set(entries.map(([key]) => key)).size).toBe(entries.length);
-    expect(entries.flatMap(([, videos]) => videos)).toHaveLength(1212);
+    expect(entries.flatMap(([, videos]) => videos)).toHaveLength(1240);
     expect(Object.keys(curatedThemeVideoOverrides)).toHaveLength(
       entries.length,
     );
