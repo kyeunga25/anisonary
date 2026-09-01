@@ -10,7 +10,7 @@ test("static public API mirrors the reviewed catalogue without a runtime binding
   expect(seasonsResponse.status()).toBe(200);
   expect(seasonsResponse.headers()["content-type"]).toContain("application/json");
   const seasons = await seasonsResponse.json();
-  expect(seasons).toHaveLength(21);
+  expect(seasons).toHaveLength(22);
 
   const seasonResponse = await request.get("/api/v1/seasons/2026-summer.json");
   expect(seasonResponse.status()).toBe(200);
@@ -96,6 +96,35 @@ test("static public API mirrors the reviewed catalogue without a runtime binding
     verifiedAt: "2026-09-02"
   });
   expect(spring2021.anime).toHaveLength(73);
+
+  const winter2021Response = await request.get("/api/v1/seasons/2021-winter.json");
+  expect(winter2021Response.status()).toBe(200);
+  const winter2021 = await winter2021Response.json();
+  expect(winter2021).toMatchObject({
+    id: "2021-winter",
+    reviewState: "reviewed",
+    verifiedAt: "2026-09-02"
+  });
+  expect(winter2021.anime).toHaveLength(67);
+
+  const hokusaiResponse = await request.get("/api/v1/anime/oshiete-hokusai-the-animation.json");
+  expect(hokusaiResponse.status()).toBe(200);
+  const hokusai = await hokusaiResponse.json();
+  expect(hokusai.themes).toEqual([
+    expect.objectContaining({
+      type: "OP",
+      sequence: 1,
+      titleJa: "てんこりんのテーマ",
+      artistDisplayName: "CHAI、岡倉てんこりん（CV：和氣あず未）、雷神（CV：小西克幸）"
+    }),
+    expect.objectContaining({
+      type: "ED",
+      sequence: 1,
+      titleJa: "おしえて北斎！",
+      artistDisplayName: "上鈴木兄弟（P.O.P）＆YMCK",
+      videos: [expect.objectContaining({ youtubeVideoId: "3V_5OFSBr0M", officialStatus: "official" })]
+    })
+  ]);
 
   const vivyResponse = await request.get("/api/v1/anime/vivy-fluorite-eye-s-song.json");
   expect(vivyResponse.status()).toBe(200);
@@ -362,7 +391,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
 
   await page.goto("/search/");
   await expect(page.getByRole("heading", { name: "跨季度搜尋" })).toBeVisible();
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1524");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1591");
 
   const search = page.getByRole("searchbox", { name: "搜尋動畫或歌曲" });
   await search.fill("ＭＹＴＨ & ＲＯＩＤ");
@@ -402,7 +431,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
   await expect(page.locator("[data-catalog-anime-count]")).toHaveText("0");
 
   await search.press("Escape");
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1524");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1591");
   expect(externalRequests).toEqual([]);
 });
 
@@ -605,6 +634,16 @@ test("added seasonal pages render their reviewed theme records", async ({ page }
   await expect(page.getByRole("heading", { name: "Sing My Pleasure", exact: true })).toBeVisible();
   await expect(page.locator(".theme-card")).toHaveCount(1);
   await expect(page.getByRole("button", { name: /載入 YouTube 影片/ })).toHaveCount(1);
+  await page.goto("/seasons/2021-winter/");
+  await expect(page.getByRole("heading", { name: "2021 冬季動畫" })).toBeVisible();
+  await page.getByRole("checkbox", { name: "有正版影片" }).check();
+  await expect(page.locator("[data-result-count]")).toHaveText("34");
+  await page.locator('a[href="/anime/oshiete-hokusai-the-animation/"]').first().click();
+  await expect(page).toHaveURL(/\/anime\/oshiete-hokusai-the-animation\/$/);
+  await expect(page.getByRole("heading", { name: "てんこりんのテーマ", exact: true })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "おしえて北斎！", exact: true })).toBeVisible();
+  await expect(page.locator(".theme-card")).toHaveCount(2);
+  await expect(page.getByRole("button", { name: /載入 YouTube 影片/ })).toHaveCount(1);
 });
 
 test("public catalogue remains readable offline without caching personal input", async ({ page, context }) => {
@@ -711,9 +750,10 @@ test("responsive navigation uses a desktop sidebar and a compact mobile menu", a
   await expect(year2021.getByRole("link", { name: "秋季" })).toBeVisible();
   await expect(year2021.getByRole("link", { name: "夏季" })).toBeVisible();
   await expect(year2021.getByRole("link", { name: "春季" })).toBeVisible();
-  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(21);
+  await expect(year2021.getByRole("link", { name: "冬季" })).toBeVisible();
+  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(22);
   await expect(page.getByLabel("季度資料狀態")).toContainText(
-    "已發布 21 個季度、1,524 個作品頁與 3,170 首 OP／ED"
+    "已發布 22 個季度、1,591 個作品頁與 3,336 首 OP／ED"
   );
   await expect(year2025.getByRole("link", { name: "春季" })).toHaveAttribute("aria-current", "page");
   await expect(page.getByRole("navigation", { name: "切換季度" })).toHaveCount(0);
@@ -734,7 +774,7 @@ test("responsive navigation uses a desktop sidebar and a compact mobile menu", a
   await expect(menuButton).toHaveAttribute("aria-expanded", "true");
   await expect(navigation).toBeVisible();
   await expect(year2025.getByRole("link", { name: "春季" })).toHaveAttribute("aria-current", "page");
-  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(21);
+  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(22);
 
   await menuButton.press("Escape");
   await expect(menuButton).toHaveAttribute("aria-expanded", "false");
