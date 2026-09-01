@@ -1,3 +1,4 @@
+import { curated2021FallSeeds } from "@/data/curated-seeds/2021/fall";
 import { curated2022FallSeeds } from "@/data/curated-seeds/2022/fall";
 import { curated2022SpringSeeds } from "@/data/curated-seeds/2022/spring";
 import { curated2022SummerSeeds } from "@/data/curated-seeds/2022/summer";
@@ -47,5 +48,6 @@ export const curatedAnimeSeeds: CuratedAnimeSeed[] = [
   ...curated2022FallSeeds,
   ...curated2022SummerSeeds,
   ...curated2022SpringSeeds,
-  ...curated2022WinterSeeds
+  ...curated2022WinterSeeds,
+  ...curated2021FallSeeds
 ];

@@ -633,7 +633,21 @@ const excludedThemeKeys = new Set([
   // The season-two soundtrack classifies GRAVITY as an insert song rather than an opening.
   // Keep the catalogue contract limited to explicitly classified OP/ED themes:
   // https://miabyss.com/2nd_music.html
-  "114745:OP:1"
+  "114745:OP:1",
+  // The official soundtrack and announcement classify My Beloved as an insert song,
+  // despite its final-episode placement in a third-party ending registry:
+  // https://tsuki-laika-nosferatu.com/news/?p=725
+  "131019:ED:2",
+  // The official disc and Blu-ray pages classify these as in-story Victory Dance songs,
+  // while listing only Faiou Fight! and Orange as the anime OP and ED:
+  // https://puraore.com/goods/disc.html
+  // https://puraore.com/blu-ray.html
+  "126793:ED:2",
+  "126793:ED:3",
+  // The official interview describes Kotori's songs as in-story music. Keep the
+  // public catalogue to the separately released OP and ED rather than promote it:
+  // https://taisho-otome.com/special/interview/relay_serialization07/
+  "127412:ED:2"
 ]);
 
 const themeVersionLabelOverrides: Record<string, string> = {
@@ -641,6 +655,7 @@ const themeVersionLabelOverrides: Record<string, string> = {
   "130389:OP:1": "主題歌（官方分類）",
   "137378:ED:1": "主題歌（官方分類）",
   "143415:OP:1": "主題歌（官方分類）",
+  "137227:ED:1": "主題歌（官方分類）",
   "148401:ED:7": "最終話版本（全 38 名）",
   "167152:OP:1": "主題歌（官方分類）",
   "148819:OP:1": "主題歌（官方分類）",

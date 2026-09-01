@@ -1,6 +1,6 @@
 # 資料來源條款與使用閘門 / Source Terms and Use Gates
 
-最後核對 / Last reviewed: **2026-09-01**
+最後核對 / Last reviewed: **2026-09-02**
 
 本文件把公開資料來源的條款轉成 Anisonary 的最小使用規則。它不是法律意見，
 也不表示來源方背書或已向 Anisonary 授予其全部資料。來源條款變更、用途商業化、

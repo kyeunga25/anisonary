@@ -2,6 +2,26 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.18.0] - 2026-09-02
+
+### Added
+
+- a reviewed 2021 fall snapshot with 65 anime and 145 published OP／ED records;
+- quarterly source modules for 145 reviewed song identities and 28 official, embeddable video records;
+- a public v1.18 data-quality, responsive-navigation, and release QA record.
+
+### Changed
+
+- expanded the public catalogue to nineteen seasons, 1,405 unique anime pages, 2,935 OP／ED records, 538 unique direct YouTube links, and 1,240 official or licensed video metadata records;
+- added 2021 to the registry-generated desktop sidebar and compact mobile menu;
+- preferred first-party use labels over conflicting index mappings, excluding four insert, in-story, or Victory Dance candidates from the OP／ED contract and keeping Deji Meets Girl's generic theme label explicit.
+
+### Preserved
+
+- one first-party and one cross-check source for every published song record, while 11 fall works without reliable OP／ED evidence remain explicitly unannounced;
+- local-only search, explicit YouTube consent, generated CSP, and privacy-bounded offline reading;
+- Cloudflare Workers Static Assets delivery with no application Worker or stateful binding.
+
 ## [1.17.0] - 2026-09-01
 
 ### Added

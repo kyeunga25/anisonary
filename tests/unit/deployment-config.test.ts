@@ -35,7 +35,7 @@ describe("Cloudflare Workers deployment config", () => {
 
     expect(config).toMatchObject({
       name: "anisonary",
-      compatibility_date: "2026-07-19",
+      compatibility_date: "2026-09-02",
       compatibility_flags: ["nodejs_compat"],
       workers_dev: true,
       preview_urls: true,
