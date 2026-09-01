@@ -2,6 +2,26 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.16.0] - 2026-09-01
+
+### Added
+
+- a reviewed 2022 spring snapshot with 79 anime and 150 published OP／ED records;
+- quarterly source modules for 63 manually reviewed song identities and 26 official, embeddable video records;
+- a public v1.16 data-quality, responsive-navigation, and release QA record.
+
+### Changed
+
+- expanded the public catalogue to seventeen seasons, 1,282 unique anime pages, 2,679 OP／ED records, 538 unique direct YouTube links, and 1,186 official or licensed video metadata records;
+- normalized source-backed Japanese song and artist display names, including the rotating endings for Kunoichi Tsubaki, the special endings for Paripi Koumei and Kaguya-sama, and the two-cour identities for Summer Time Rendering and Aoashi;
+- exposed Nana Lucky's single officially classified theme under OP1 with an explicit generic-theme label instead of inventing a separate OP／ED claim.
+
+### Preserved
+
+- one first-party and one cross-check source for every published song record, while 23 spring works without reliable OP／ED evidence remain explicitly unannounced;
+- local-only search, explicit YouTube consent, generated CSP, and privacy-bounded offline reading;
+- Cloudflare Workers Static Assets delivery with no application Worker or stateful binding.
+
 ## [1.15.0] - 2026-09-01
 
 ### Added
