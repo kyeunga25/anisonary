@@ -2,6 +2,26 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.21.0] - 2026-09-02
+
+### Added
+
+- a reviewed 2021 winter snapshot with 67 anime and 166 published OP／ED records;
+- quarterly source modules for all 166 reviewed song identities and 53 official or licensed, embeddable video records;
+- a public v1.21 data-quality, responsive-navigation, and release QA record.
+
+### Changed
+
+- expanded the public catalogue to twenty-two seasons, 1,591 unique anime pages, 3,336 OP／ED records, 538 unique direct YouTube links, and 1,424 official or licensed video metadata records;
+- restored official Japanese performer and episode-version labels for character, ensemble, regional, rotating, and special-ending themes;
+- preferred first-party use labels over conflicting indexes, excluding insert songs, prior-series reuse, and non-Japanese premiere candidates from the winter OP／ED contract.
+
+### Preserved
+
+- one first-party and one independent cross-check source for every published song record, while 5 winter works without reliable OP／ED evidence remain explicitly unannounced;
+- the registry-generated desktop sidebar and scrollable compact mobile menu, now covering all four published 2021 quarters;
+- local-only search, explicit YouTube consent, generated CSP, privacy-bounded offline reading, and Cloudflare Workers Static Assets delivery with no application Worker or stateful binding.
+
 ## [1.20.0] - 2026-09-02
 
 ### Added

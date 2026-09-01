@@ -71,7 +71,8 @@ export const seasonSnapshotVerifiedAt = {
   "2022-winter": "2026-09-01",
   "2021-fall": "2026-09-02",
   "2021-summer": "2026-09-02",
-  "2021-spring": "2026-09-02"
+  "2021-spring": "2026-09-02",
+  "2021-winter": "2026-09-02"
 } as const;
 
 function annictQuarterName(quarter: Quarter): Quarter | "autumn" {
