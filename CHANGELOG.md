@@ -2,6 +2,26 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.12.0] - 2026-09-01
+
+### Added
+
+- a reviewed 2023 spring snapshot with 79 anime and 168 OP／ED records;
+- quarterly source modules for 17 manually recovered song identities and six official, embeddable video records;
+- a public v1.12 data-quality, responsive-navigation, and release QA record.
+
+### Changed
+
+- expanded the public catalogue to thirteen seasons, 982 unique anime pages, 2,027 OP／ED records, 536 unique direct YouTube links, and 1,097 official or licensed video metadata records;
+- preserved all reviewed OP／ED records for ongoing series while keeping each local type sequence contiguous;
+- preferred explicit first-party usage over a conflicting third-party song index, leaving the animation record empty when a song belongs to a later live-action adaptation.
+
+### Preserved
+
+- one first-party and one cross-check source for every published song record, while 22 works without reliable OP／ED evidence remain explicitly unannounced;
+- local-only search, explicit YouTube consent, generated CSP, and privacy-bounded offline reading;
+- Cloudflare Workers Static Assets delivery with no application Worker or stateful binding.
+
 ## [1.11.0] - 2026-09-01
 
 ### Added
