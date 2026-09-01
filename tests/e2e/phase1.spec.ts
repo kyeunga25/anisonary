@@ -10,7 +10,7 @@ test("static public API mirrors the reviewed catalogue without a runtime binding
   expect(seasonsResponse.status()).toBe(200);
   expect(seasonsResponse.headers()["content-type"]).toContain("application/json");
   const seasons = await seasonsResponse.json();
-  expect(seasons).toHaveLength(22);
+  expect(seasons).toHaveLength(23);
 
   const seasonResponse = await request.get("/api/v1/seasons/2026-summer.json");
   expect(seasonResponse.status()).toBe(200);
@@ -106,6 +106,33 @@ test("static public API mirrors the reviewed catalogue without a runtime binding
     verifiedAt: "2026-09-02"
   });
   expect(winter2021.anime).toHaveLength(67);
+
+  const fall2020Response = await request.get("/api/v1/seasons/2020-fall.json");
+  expect(fall2020Response.status()).toBe(200);
+  const fall2020 = await fall2020Response.json();
+  expect(fall2020).toMatchObject({
+    id: "2020-fall",
+    reviewState: "reviewed",
+    verifiedAt: "2026-09-02"
+  });
+  expect(fall2020.anime).toHaveLength(67);
+
+  const kamizmodeResponse = await request.get("/api/v1/anime/saikyou-kamizmode.json");
+  expect(kamizmodeResponse.status()).toBe(200);
+  const kamizmode = await kamizmodeResponse.json();
+  expect(kamizmode.themes).toEqual([
+    expect.objectContaining({
+      type: "OP",
+      sequence: 1,
+      titleJa: "カ！カ！カ！カミズモード！",
+      videos: [expect.objectContaining({ youtubeVideoId: "R_ikYBHPdqg", officialStatus: "official" })]
+    }),
+    expect.objectContaining({
+      type: "ED",
+      sequence: 1,
+      titleJa: "笑顔でBYE！～カミズモ音頭～"
+    })
+  ]);
 
   const hokusaiResponse = await request.get("/api/v1/anime/oshiete-hokusai-the-animation.json");
   expect(hokusaiResponse.status()).toBe(200);
@@ -391,7 +418,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
 
   await page.goto("/search/");
   await expect(page.getByRole("heading", { name: "跨季度搜尋" })).toBeVisible();
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1591");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1658");
 
   const search = page.getByRole("searchbox", { name: "搜尋動畫或歌曲" });
   await search.fill("ＭＹＴＨ & ＲＯＩＤ");
@@ -431,7 +458,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
   await expect(page.locator("[data-catalog-anime-count]")).toHaveText("0");
 
   await search.press("Escape");
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1591");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1658");
   expect(externalRequests).toEqual([]);
 });
 
@@ -644,6 +671,18 @@ test("added seasonal pages render their reviewed theme records", async ({ page }
   await expect(page.getByRole("heading", { name: "おしえて北斎！", exact: true })).toBeVisible();
   await expect(page.locator(".theme-card")).toHaveCount(2);
   await expect(page.getByRole("button", { name: /載入 YouTube 影片/ })).toHaveCount(1);
+  await page.goto("/seasons/2020-fall/");
+  await expect(page.getByRole("heading", { name: "2020 秋季動畫" })).toBeVisible();
+  await page.getByRole("checkbox", { name: "有正版影片" }).check();
+  await expect(page.locator("[data-result-count]")).toHaveText("31");
+  await page.locator('a[href="/anime/jujutsu-kaisen/"]').first().click();
+  await expect(page).toHaveURL(/\/anime\/jujutsu-kaisen\/$/);
+  await expect(page.getByRole("heading", { name: "廻廻奇譚", exact: true })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "VIVID VICE", exact: true })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "LOST IN PARADISE feat. AKLO", exact: true })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "give it back", exact: true })).toBeVisible();
+  await expect(page.locator(".theme-card")).toHaveCount(4);
+  await expect(page.getByRole("button", { name: /載入 YouTube 影片/ })).toHaveCount(4);
 });
 
 test("public catalogue remains readable offline without caching personal input", async ({ page, context }) => {
@@ -722,6 +761,7 @@ test("responsive navigation uses a desktop sidebar and a compact mobile menu", a
   const year2023 = navigation.locator('[aria-labelledby="site-nav-seasons-2023"]');
   const year2022 = navigation.locator('[aria-labelledby="site-nav-seasons-2022"]');
   const year2021 = navigation.locator('[aria-labelledby="site-nav-seasons-2021"]');
+  const year2020 = navigation.locator('[aria-labelledby="site-nav-seasons-2020"]');
 
   expect(desktopHeaderBox).not.toBeNull();
   expect(desktopHeaderBox!.width).toBeLessThanOrEqual(280);
@@ -736,6 +776,7 @@ test("responsive navigation uses a desktop sidebar and a compact mobile menu", a
   await expect(navigation.getByText("2023", { exact: true })).toBeVisible();
   await expect(navigation.getByText("2022", { exact: true })).toBeVisible();
   await expect(navigation.getByText("2021", { exact: true })).toBeVisible();
+  await expect(navigation.getByText("2020", { exact: true })).toBeVisible();
   await expect(year2024.getByRole("link", { name: "秋季" })).toBeVisible();
   await expect(year2024.getByRole("link", { name: "春季" })).toBeVisible();
   await expect(year2024.getByRole("link", { name: "冬季" })).toBeVisible();
@@ -751,9 +792,10 @@ test("responsive navigation uses a desktop sidebar and a compact mobile menu", a
   await expect(year2021.getByRole("link", { name: "夏季" })).toBeVisible();
   await expect(year2021.getByRole("link", { name: "春季" })).toBeVisible();
   await expect(year2021.getByRole("link", { name: "冬季" })).toBeVisible();
-  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(22);
+  await expect(year2020.getByRole("link", { name: "秋季" })).toBeVisible();
+  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(23);
   await expect(page.getByLabel("季度資料狀態")).toContainText(
-    "已發布 22 個季度、1,591 個作品頁與 3,336 首 OP／ED"
+    "已發布 23 個季度、1,658 個作品頁與 3,516 首 OP／ED"
   );
   await expect(year2025.getByRole("link", { name: "春季" })).toHaveAttribute("aria-current", "page");
   await expect(page.getByRole("navigation", { name: "切換季度" })).toHaveCount(0);
@@ -774,7 +816,7 @@ test("responsive navigation uses a desktop sidebar and a compact mobile menu", a
   await expect(menuButton).toHaveAttribute("aria-expanded", "true");
   await expect(navigation).toBeVisible();
   await expect(year2025.getByRole("link", { name: "春季" })).toHaveAttribute("aria-current", "page");
-  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(22);
+  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(23);
 
   await menuButton.press("Escape");
   await expect(menuButton).toHaveAttribute("aria-expanded", "false");
