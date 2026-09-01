@@ -2,6 +2,26 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.15.0] - 2026-09-01
+
+### Added
+
+- a reviewed 2022 summer snapshot with 69 anime and 146 published OP／ED records;
+- quarterly source modules for 47 manually reviewed song identities and 28 official, embeddable video records;
+- a public v1.15 data-quality, responsive-navigation, and release QA record.
+
+### Changed
+
+- expanded the public catalogue to sixteen seasons, 1,203 unique anime pages, 2,529 OP／ED records, 536 unique direct YouTube links, and 1,160 official or licensed video metadata records;
+- preserved the six rotating openings and ending for Hanabi-chan, the seven character endings for Prima Doll, and source-backed video identities for Lycoris Recoil, Made in Abyss, Call of the Night, and other reviewed works;
+- excluded the Made in Abyss soundtrack insert song GRAVITY from the OP／ED contract and exposed the officially classified opening かたち as OP1.
+
+### Preserved
+
+- one first-party and one cross-check source for every published song record, while 20 summer works without reliable OP／ED evidence remain explicitly unannounced;
+- local-only search, explicit YouTube consent, generated CSP, and privacy-bounded offline reading;
+- Cloudflare Workers Static Assets delivery with no application Worker or stateful binding.
+
 ## [1.14.0] - 2026-09-01
 
 ### Added

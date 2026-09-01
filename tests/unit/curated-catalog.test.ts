@@ -5,7 +5,7 @@ import { CuratedProvider } from "@/data/curated-provider";
 import { creditRoleLabel } from "@/utils/theme";
 
 describe("curated public catalogue", () => {
-  it("publishes all fifteen reviewed seasonal snapshots", () => {
+  it("publishes all sixteen reviewed seasonal snapshots", () => {
     expect(curatedSeasons.map((season) => season.id)).toEqual([
       "2026-summer",
       "2026-spring",
@@ -21,10 +21,11 @@ describe("curated public catalogue", () => {
       "2023-summer",
       "2023-spring",
       "2023-winter",
-      "2022-fall"
+      "2022-fall",
+      "2022-summer"
     ]);
-    expect(curatedSeasonDetails).toHaveLength(15);
-    expect(curatedSeasonDetails.map((season) => season.anime.length)).toEqual([70, 70, 66, 75, 82, 59, 88, 68, 76, 75, 100, 75, 79, 72, 80]);
+    expect(curatedSeasonDetails).toHaveLength(16);
+    expect(curatedSeasonDetails.map((season) => season.anime.length)).toEqual([70, 70, 66, 75, 82, 59, 88, 68, 76, 75, 100, 75, 79, 72, 80, 69]);
     expect(curatedSeasonDetails.map((season) => [season.id, season.reviewState, season.verifiedAt])).toEqual([
       ["2026-summer", "reviewed", "2026-08-02"],
       ["2026-spring", "reviewed", "2026-08-02"],
@@ -40,20 +41,82 @@ describe("curated public catalogue", () => {
       ["2023-summer", "reviewed", "2026-09-01"],
       ["2023-spring", "reviewed", "2026-09-01"],
       ["2023-winter", "reviewed", "2026-09-01"],
-      ["2022-fall", "reviewed", "2026-09-01"]
+      ["2022-fall", "reviewed", "2026-09-01"],
+      ["2022-summer", "reviewed", "2026-09-01"]
     ]);
-    expect(curatedAnimeDetails).toHaveLength(1134);
-    expect(curatedAnimeDetails.filter((anime) => anime.themes.length > 0)).toHaveLength(911);
-    expect(curatedAnimeDetails.flatMap((anime) => anime.themes)).toHaveLength(2383);
-    expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "documented")).toHaveLength(911);
+    expect(curatedAnimeDetails).toHaveLength(1203);
+    expect(curatedAnimeDetails.filter((anime) => anime.themes.length > 0)).toHaveLength(960);
+    expect(curatedAnimeDetails.flatMap((anime) => anime.themes)).toHaveLength(2529);
+    expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "documented")).toHaveLength(960);
     expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "not_used")).toHaveLength(2);
-    expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "not_announced")).toHaveLength(221);
+    expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "not_announced")).toHaveLength(241);
     const youtubeLinks = curatedAnimeDetails
       .flatMap((anime) => anime.themes)
       .flatMap((theme) => theme.links)
       .filter((link) => link.platform === "YouTube");
     expect(youtubeLinks).toHaveLength(538);
     expect(youtubeLinks.every((link) => new URL(link.url).hostname === "www.youtube.com")).toBe(true);
+  });
+
+  it("keeps the reviewed 2022 summer boundary and official OP/ED classifications conservative", () => {
+    const summer = curatedSeasonDetails.find((season) => season.id === "2022-summer");
+    expect(summer?.anime).toHaveLength(69);
+    const summerSeeds = curatedAnimeSeeds.filter((seed) => seed.seasonIds.includes("2022-summer"));
+    expect(summerSeeds).toHaveLength(69);
+    expect(new Set(summerSeeds.map(({ anilistId }) => anilistId)).size).toBe(69);
+    expect(new Set(summerSeeds.map(({ slug }) => slug)).size).toBe(69);
+    expect(summerSeeds.flatMap(({ themes }) => themes)).toHaveLength(147);
+
+    for (const seed of summerSeeds) {
+      expect(seed.startDate).toMatch(/^2022-(?:06|07|08|09)-\d{2}$/);
+      expect(seed.startDate >= "2022-06-29" && seed.startDate <= "2022-09-17").toBe(true);
+      const editorialWeekday = new Date(`${seed.startDate}T00:00:00Z`).getUTCDay() || 7;
+      expect(seed.editorialWeekday, `${seed.anilistId} weekday`).toBe(editorialWeekday);
+      expect(seed.titleJa.trim()).not.toBe("");
+      expect(seed.titleZhHant.trim()).not.toBe("");
+      expect(seed.titleRomaji.trim()).not.toBe("");
+
+      for (const type of ["OP", "ED"] as const) {
+        const sequences = seed.themes.filter((theme) => theme.type === type).map(({ sequence }) => sequence);
+        expect(sequences, `${seed.anilistId}:${type}`).toEqual(
+          Array.from({ length: sequences.length }, (_, index) => index + 1)
+        );
+      }
+    }
+
+    const summerIds = new Set(summer?.anime.map((anime) => anime.id));
+    for (const excludedAniListId of [139643, 149073, 150583, 152603, 153348, 156865, 157648]) {
+      expect(summerIds.has(`curated-${excludedAniListId}`)).toBe(false);
+    }
+    for (const includedAniListId of [120377, 137819, 153412, 154955]) {
+      expect(summerIds.has(`curated-${includedAniListId}`)).toBe(true);
+    }
+
+    const madeInAbyss = curatedAnimeDetails.find((anime) => anime.id === "curated-114745");
+    expect(madeInAbyss?.themes.map(({ type, sequence, titleJa }) => [type, sequence, titleJa])).toEqual([
+      ["OP", 1, "かたち"],
+      ["ED", 1, "Endless Embrace"]
+    ]);
+    expect(madeInAbyss?.themes.flatMap(({ videos }) => videos).map(({ youtubeVideoId }) => youtubeVideoId)).toEqual([
+      "o_RG03t7cVE",
+      "KkSBdRFWnnI"
+    ]);
+
+    const hanabi = curatedAnimeDetails.find((anime) => anime.id === "curated-137621");
+    expect(hanabi?.themes.map(({ titleJa }) => titleJa)).toEqual([
+      "カグヤ",
+      "炎上アリス",
+      "水曜日に御用心",
+      "枯れ木に花を",
+      "ビタいちもんめ",
+      "リビングデッド・フィーバー",
+      "パラレルラルラ"
+    ]);
+    expect(hanabi?.themes.every(({ videos }) => videos.length === 1)).toBe(true);
+
+    const primaDoll = curatedAnimeDetails.find((anime) => anime.id === "curated-144509");
+    expect(primaDoll?.themes).toHaveLength(8);
+    expect(primaDoll?.themes[0]?.videos[0]?.youtubeVideoId).toBe("Dx3nvcC54Hc");
   });
 
   it("keeps the reviewed 2022 fall serial boundary and multi-ending identities conservative", () => {
@@ -784,6 +847,7 @@ describe("curated public catalogue", () => {
           || season.id === "2023-spring"
           || season.id === "2023-winter"
           || season.id === "2022-fall"
+          || season.id === "2022-summer"
         ))
         .flatMap((season) => season.anime.map((anime) => anime.id))
     );
