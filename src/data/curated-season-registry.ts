@@ -1,4 +1,8 @@
 import {
+  curated2020FallAnimeIds,
+  curated2020FallSeeds
+} from "@/data/curated-seeds/2020/fall";
+import {
   curated2021FallAnimeIds,
   curated2021FallSeeds
 } from "@/data/curated-seeds/2021/fall";
@@ -350,6 +354,15 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     titleJa: "2021年冬アニメ",
     seeds: curated2021WinterSeeds,
     animeIds: curated2021WinterAnimeIds
+  },
+  {
+    id: "2020-fall",
+    year: 2020,
+    quarter: "fall",
+    titleZhHant: "秋季動畫",
+    titleJa: "2020年秋アニメ",
+    seeds: curated2020FallSeeds,
+    animeIds: curated2020FallAnimeIds
   }
 ] as const);
 
