@@ -2,6 +2,26 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.17.0] - 2026-09-01
+
+### Added
+
+- a reviewed 2022 winter snapshot with 58 anime and 111 published OP／ED records;
+- quarterly source modules for 66 manually reviewed song identities and 26 official, embeddable video records;
+- a public v1.17 data-quality, responsive-navigation, and release QA record.
+
+### Changed
+
+- expanded the public catalogue to eighteen seasons, 1,340 unique anime pages, 2,790 OP／ED records, 538 unique direct YouTube links, and 1,212 official or licensed video metadata records;
+- preserved the eight rotating endings for Karakai Jouzu no Takagi-san 3, both cours of CUE!, and the first released Stone Ocean batch without importing later-batch songs;
+- kept first-party generic-theme labels explicit for Mahouka Tsuioku-hen, Chikyuugai Shounen Shoujo, Eien no 831, and Ohiru no Shocker-san instead of inventing official OP／ED terminology.
+
+### Preserved
+
+- one first-party and one cross-check source for every published song record, while 11 winter works without reliable OP／ED evidence remain explicitly unannounced;
+- local-only search, explicit YouTube consent, generated CSP, and privacy-bounded offline reading;
+- Cloudflare Workers Static Assets delivery with no application Worker or stateful binding.
+
 ## [1.16.0] - 2026-09-01
 
 ### Added
