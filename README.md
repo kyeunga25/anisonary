@@ -2,15 +2,15 @@
 
 Anisonary 是以 Astro + strict TypeScript 建立的動畫歌曲目錄，按季度與日本編輯播出日瀏覽作品、OP 與 ED。網站輸出為純靜態資產，正式交付使用 **Cloudflare Workers Static Assets**；它不是 Cloudflare Pages，也沒有 application Worker backend。下方同時保留 English technical notes。
 
-This repository contains the completed static product: season directory, anime detail pages, traceable OP／ED credits and links, per-song source ledgers, source-attributed media, local-only cross-season search, privacy-bounded offline reading, a GitHub correction flow, and deployment through Cloudflare Workers Static Assets. The default catalogue covers twenty reviewed snapshots across 2021–2026, with 1,451 unique titles and 3,039 known OP／ED records; fictional Mock Data remains test-only.
+This repository contains the completed static product: season directory, anime detail pages, traceable OP／ED credits and links, per-song source ledgers, source-attributed media, local-only cross-season search, privacy-bounded offline reading, a GitHub correction flow, and deployment through Cloudflare Workers Static Assets. The default catalogue covers twenty-one reviewed snapshots across 2021–2026, with 1,524 unique titles and 3,170 known OP／ED records; fictional Mock Data remains test-only.
 
-目前公開版本：**v1.19.0**。每個季度、作品及已發布歌曲都保留結構化來源、來源語言、審閱狀態及核對日期；每首歌曲另同時具備可點擊的第一方與交叉核對來源。v1.19.0 加入 2021 夏季 46 套動畫、104 筆已核對 OP／ED 與 65 筆官方或正式授權影片 metadata，包括《Love Live！Superstar!!》、《小林家的龍女僕 S》、《歌劇少女！！》、《月光下的異世界之旅》及《白沙的 Aquatope》的季度歌曲身份。第三方索引列作 OP／ED、但第一方證據顯示為插曲、舊季度歌曲、其他節目用途或未獲支持的重用版本不會發布為 OP／ED；只被第一方列作一般「主題歌」的《突擊莉莉 Fruits》保留明確分類標籤，不額外虛構官方用途。單集電影、OVA、成人作品、宣傳短片及無足夠季度證據的網路內容維持在公開季度範圍外。未有可靠主題曲或官方影片證據的欄位維持明確空狀態，不以推測補值。公開 UI／API 不發布內部完整度或 confidence score。搜尋在瀏覽器內比對日文、繁體中文、Romaji、歌曲、歌手與 credit；搜尋字詞不會傳送到 server 或 analytics。Build 同時輸出與頁面相同資料來源的同源唯讀 JSON API，不需要 application Worker、D1、KV 或 secret。Service Worker 只預先保存公開頁面與必要靜態資產，不保存搜尋字詞、API JSON 或第三方媒體。
+目前公開版本：**v1.20.0**。每個季度、作品及已發布歌曲都保留結構化來源、來源語言、審閱狀態及核對日期；每首歌曲另同時具備可點擊的第一方與交叉核對來源。v1.20.0 加入 2021 春季 73 套動畫、131 筆已核對 OP／ED 與 66 筆官方或正式授權影片 metadata，包括《Vivy -Fluorite Eye's Song-》、《佐賀偶像是傳奇 捲土重來》、《通靈王（2021）》、《奇巧計程車》、《美麗新世界 The Animation》及《新幹線變形機器人 Z》的季度歌曲身份。第三方索引列作 OP／ED、但第一方證據顯示為插曲、劇中歌、配樂或未獲支持的重用版本不會發布為 OP／ED；輪替與單集特別片尾只在第一方證據明確時保留。單集電影、OVA、成人作品、宣傳短片及無足夠季度證據的網路內容維持在公開季度範圍外。未有可靠主題曲或官方影片證據的欄位維持明確空狀態，不以推測補值。公開 UI／API 不發布內部完整度或 confidence score。搜尋在瀏覽器內比對日文、繁體中文、Romaji、歌曲、歌手與 credit；搜尋字詞不會傳送到 server 或 analytics。Build 同時輸出與頁面相同資料來源的同源唯讀 JSON API，不需要 application Worker、D1、KV 或 secret。Service Worker 只預先保存公開頁面與必要靜態資產，不保存搜尋字詞、API JSON 或第三方媒體。
 
 Production build 會從最終 HTML 自動產生 hash-based Content Security Policy。政策不使用 `unsafe-inline` 或 `unsafe-eval`，禁止 inline event／style attributes，只開放同源資產、已核對的海報來源及使用者啟動後的 YouTube privacy-enhanced iframe。任何未批准的 media origin 會令 build fail closed。
 
 | 可用性 / Availability                  | 成熟度 / Maturity                       | 證據 / Evidence                                                                                                                                                                                                                                                     |
 | -------------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 公開靜態目錄 / Public static catalogue | Source 版本為 `v1.19.0`；正式站狀態以 QA 記錄為準 | [入口網站 / Live](https://anisonary.k-y.cc) · [資料來源 / Sources](docs/DATA_SOURCES.md) · [v1.19 QA](docs/QA_V1_19_2021_SUMMER.md) · [安全政策 / Security](SECURITY.md) · [授權 / Licence](LICENSING.md) · [版權 / Copyright](COPYRIGHT.md) |
+| 公開靜態目錄 / Public static catalogue | Source 版本為 `v1.20.0`；正式站狀態以 QA 記錄為準 | [入口網站 / Live](https://anisonary.k-y.cc) · [資料來源 / Sources](docs/DATA_SOURCES.md) · [v1.20 QA](docs/QA_V1_20_2021_SPRING.md) · [安全政策 / Security](SECURITY.md) · [授權 / Licence](LICENSING.md) · [版權 / Copyright](COPYRIGHT.md) |
 
 ## 技術棧｜Technology stack
 
@@ -57,7 +57,7 @@ PUBLIC_API_BASE_URL=https://anisonary.k-y.cc/api/v1 npm run api:check
 - `MockProvider` remains available only for isolated unit and component tests; its fixtures are not production assets.
 - Copy `.env.example` to `.env` for local configuration. Never commit secrets.
 
-Season coverage uses a repository-owned source registry: Annict is the Japanese seasonal inventory baseline, while Bangumi provides a Chinese-entry cross-check. The twenty published snapshots additionally cross-check Traditional Chinese calendar inventories, AniList identifiers and media, AnimeThemes records, public theme-song indexes, official sites, and Taiwan／Hong Kong licensing pages. These are editorial inputs only; production builds use the reviewed static snapshot and never require external APIs at runtime. See `docs/DATA_SOURCES.md` for the inventory rules and `docs/DATA_PROVENANCE.md` for the per-song ledger and media boundary.
+Season coverage uses a repository-owned source registry: Annict is the Japanese seasonal inventory baseline, while Bangumi provides a Chinese-entry cross-check. The twenty-one published snapshots additionally cross-check Traditional Chinese calendar inventories, AniList identifiers and media, AnimeThemes records, public theme-song indexes, official sites, and Taiwan／Hong Kong licensing pages. These are editorial inputs only; production builds use the reviewed static snapshot and never require external APIs at runtime. See `docs/DATA_SOURCES.md` for the inventory rules and `docs/DATA_PROVENANCE.md` for the per-song ledger and media boundary.
 
 ## Catalogue search
 
@@ -168,6 +168,7 @@ third-party anime or music material, and Anisonary branding are excluded.
 - Technology, AI and reference disclosure: `docs/TECHNOLOGY_REFERENCES.md`
 - Song and media provenance contract: `docs/DATA_PROVENANCE.md`
 - Version history: `CHANGELOG.md`
+- v1.20.0 2021 spring catalogue QA: `docs/QA_V1_20_2021_SPRING.md`
 - v1.19.0 2021 summer catalogue QA: `docs/QA_V1_19_2021_SUMMER.md`
 - v1.18.0 2021 fall catalogue QA: `docs/QA_V1_18_2021_FALL.md`
 - v1.2.0 theme-source and public-score-removal QA: `docs/QA_V1_2_PROVENANCE.md`
