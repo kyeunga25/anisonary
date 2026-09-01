@@ -25,11 +25,12 @@ describe("curated season registry", () => {
       "2022-summer",
       "2022-spring",
       "2022-winter",
-      "2021-fall"
+      "2021-fall",
+      "2021-summer"
     ]);
 
     const ownedSeeds = curatedSeasonRegistry.flatMap(({ seeds }) => seeds);
-    expect(ownedSeeds).toHaveLength(1405);
+    expect(ownedSeeds).toHaveLength(1451);
     expect(new Set(ownedSeeds.map(({ anilistId }) => anilistId)).size).toBe(ownedSeeds.length);
 
     for (const entry of curatedSeasonRegistry) {
