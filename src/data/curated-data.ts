@@ -24,6 +24,9 @@ const defaultVerifiedAt = "2026-07-25";
 type AnimeSourceSeed = Omit<PublicAnimeDetail["sources"][number], "verifiedAt">;
 
 const themeOverrides: Record<string, Partial<CuratedThemeSeed>> = {
+  // AnimeThemes numbers the soundtrack insert GRAVITY as OP1. After excluding
+  // that insert below, expose the official opening かたち as the public OP1.
+  "114745:OP:2": { sequence: 1 },
   "185753:OP:1": {
     artistDisplayName: "芹澤 優",
     youtubeUrl: "https://www.youtube.com/watch?v=M1Nj1mcgBns"
@@ -626,7 +629,11 @@ const excludedThemeKeys = new Set([
   "184237:OP:2",
   // The anime officially classifies this as an insert song, outside this public OP/ED contract:
   // https://kaoruhana-anime.com/news/?article_id=69692
-  "181444:ED:2"
+  "181444:ED:2",
+  // The season-two soundtrack classifies GRAVITY as an insert song rather than an opening.
+  // Keep the catalogue contract limited to explicitly classified OP/ED themes:
+  // https://miabyss.com/2nd_music.html
+  "114745:OP:1"
 ]);
 
 const themeVersionLabelOverrides: Record<string, string> = {

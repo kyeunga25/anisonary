@@ -10,7 +10,7 @@ test("static public API mirrors the reviewed catalogue without a runtime binding
   expect(seasonsResponse.status()).toBe(200);
   expect(seasonsResponse.headers()["content-type"]).toContain("application/json");
   const seasons = await seasonsResponse.json();
-  expect(seasons).toHaveLength(15);
+  expect(seasons).toHaveLength(16);
 
   const seasonResponse = await request.get("/api/v1/seasons/2026-summer.json");
   expect(seasonResponse.status()).toBe(200);
@@ -58,6 +58,32 @@ test("static public API mirrors the reviewed catalogue without a runtime binding
   const fall2022 = await fall2022Response.json();
   expect(fall2022).toMatchObject({ id: "2022-fall", reviewState: "reviewed", verifiedAt: "2026-09-01" });
   expect(fall2022.anime).toHaveLength(80);
+
+  const summer2022Response = await request.get("/api/v1/seasons/2022-summer.json");
+  expect(summer2022Response.status()).toBe(200);
+  const summer2022 = await summer2022Response.json();
+  expect(summer2022).toMatchObject({ id: "2022-summer", reviewState: "reviewed", verifiedAt: "2026-09-01" });
+  expect(summer2022.anime).toHaveLength(69);
+
+  const madeInAbyssResponse = await request.get("/api/v1/anime/made-in-abyss-retsujitsu-no-ougonkyou.json");
+  expect(madeInAbyssResponse.status()).toBe(200);
+  const madeInAbyss = await madeInAbyssResponse.json();
+  expect(madeInAbyss.themes).toEqual([
+    expect.objectContaining({
+      type: "OP",
+      sequence: 1,
+      titleJa: "かたち",
+      artistDisplayName: "安月名莉子",
+      videos: [expect.objectContaining({ youtubeVideoId: "o_RG03t7cVE", officialStatus: "official" })]
+    }),
+    expect.objectContaining({
+      type: "ED",
+      sequence: 1,
+      titleJa: "Endless Embrace",
+      artistDisplayName: "MYTH & ROID",
+      videos: [expect.objectContaining({ youtubeVideoId: "KkSBdRFWnnI", officialStatus: "official" })]
+    })
+  ]);
 
   const chainsawManResponse = await request.get("/api/v1/anime/chainsaw-man.json");
   expect(chainsawManResponse.status()).toBe(200);
@@ -255,12 +281,12 @@ test("cross-season search stays local and matches anime, songs, and artists", as
 
   await page.goto("/search/");
   await expect(page.getByRole("heading", { name: "跨季度搜尋" })).toBeVisible();
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1134");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1203");
 
   const search = page.getByRole("searchbox", { name: "搜尋動畫或歌曲" });
   await search.fill("ＭＹＴＨ & ＲＯＩＤ");
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("5");
-  await expect(page.locator("[data-catalog-theme-count]")).toHaveText("5");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("6");
+  await expect(page.locator("[data-catalog-theme-count]")).toHaveText("6");
   await expect(page.getByRole("link", { name: "幼女戦記Ⅱ" })).toBeVisible();
   await expect(page.getByText("Why? RED induction")).toBeVisible();
   await expect(page.getByRole("link", { name: "Re:ゼロから始める異世界生活 4th season" })).toBeVisible();
@@ -295,7 +321,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
   await expect(page.locator("[data-catalog-anime-count]")).toHaveText("0");
 
   await search.press("Escape");
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1134");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1203");
   expect(externalRequests).toEqual([]);
 });
 
@@ -431,6 +457,17 @@ test("added seasonal pages render their reviewed theme records", async ({ page }
   await expect(page.getByRole("heading", { name: "ファイトソング", exact: true })).toBeVisible();
   await expect(page.locator(".theme-card")).toHaveCount(13);
   await expect(page.getByRole("button", { name: /載入 YouTube 影片/ })).toHaveCount(13);
+
+  await page.goto("/seasons/2022-summer/");
+  await expect(page.getByRole("heading", { name: "2022 夏季動畫" })).toBeVisible();
+  await page.getByRole("checkbox", { name: "有正版影片" }).check();
+  await expect(page.locator("[data-result-count]")).toHaveText("13");
+  await page.locator('a[href="/anime/made-in-abyss-retsujitsu-no-ougonkyou/"]').first().click();
+  await expect(page).toHaveURL(/\/anime\/made-in-abyss-retsujitsu-no-ougonkyou\/$/);
+  await expect(page.getByRole("heading", { name: "かたち", exact: true })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Endless Embrace", exact: true })).toBeVisible();
+  await expect(page.getByText("GRAVITY", { exact: true })).toHaveCount(0);
+  await expect(page.getByRole("button", { name: /載入 YouTube 影片/ })).toHaveCount(2);
 });
 
 test("public catalogue remains readable offline without caching personal input", async ({ page, context }) => {
@@ -529,9 +566,10 @@ test("responsive navigation uses a desktop sidebar and a compact mobile menu", a
   await expect(year2023.getByRole("link", { name: "春季" })).toBeVisible();
   await expect(year2023.getByRole("link", { name: "冬季" })).toBeVisible();
   await expect(year2022.getByRole("link", { name: "秋季" })).toBeVisible();
-  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(15);
+  await expect(year2022.getByRole("link", { name: "夏季" })).toBeVisible();
+  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(16);
   await expect(page.getByLabel("季度資料狀態")).toContainText(
-    "已發布 15 個季度、1,134 個作品頁與 2,383 首 OP／ED"
+    "已發布 16 個季度、1,203 個作品頁與 2,529 首 OP／ED"
   );
   await expect(year2025.getByRole("link", { name: "春季" })).toHaveAttribute("aria-current", "page");
   await expect(page.getByRole("navigation", { name: "切換季度" })).toHaveCount(0);
@@ -552,7 +590,7 @@ test("responsive navigation uses a desktop sidebar and a compact mobile menu", a
   await expect(menuButton).toHaveAttribute("aria-expanded", "true");
   await expect(navigation).toBeVisible();
   await expect(year2025.getByRole("link", { name: "春季" })).toHaveAttribute("aria-current", "page");
-  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(15);
+  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(16);
 
   await menuButton.press("Escape");
   await expect(menuButton).toHaveAttribute("aria-expanded", "false");
