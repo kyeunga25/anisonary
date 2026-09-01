@@ -2,6 +2,27 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.11.0] - 2026-09-01
+
+### Added
+
+- a reviewed 2023 summer snapshot with 75 anime and 126 OP／ED records;
+- quarterly source modules for 19 manually reviewed song identities and four official, embeddable video records;
+- a public v1.11 data-quality, responsive-navigation, and release QA record.
+
+### Changed
+
+- expanded the public catalogue to twelve seasons, 903 unique anime pages, 1,859 OP／ED records, 536 unique direct YouTube links, and 1,091 official or licensed video metadata records;
+- preserved sequel and story-arc qualifiers in reviewed Traditional Chinese titles;
+- selected the complete main-series AnimeThemes record when one AniList identity also matches a separate episode-zero entry;
+- synchronized weekday subtotals with active season filters and hid empty weekday groups while a filter is active.
+
+### Preserved
+
+- one first-party and one cross-check source for every published song record, while 20 works without reliable OP／ED evidence remain explicitly unannounced;
+- local-only search, explicit YouTube consent, generated CSP, and privacy-bounded offline reading;
+- Cloudflare Workers Static Assets delivery with no application Worker or stateful binding.
+
 ## [1.10.0] - 2026-09-01
 
 ### Added

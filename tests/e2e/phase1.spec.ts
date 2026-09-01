@@ -10,7 +10,7 @@ test("static public API mirrors the reviewed catalogue without a runtime binding
   expect(seasonsResponse.status()).toBe(200);
   expect(seasonsResponse.headers()["content-type"]).toContain("application/json");
   const seasons = await seasonsResponse.json();
-  expect(seasons).toHaveLength(11);
+  expect(seasons).toHaveLength(12);
 
   const seasonResponse = await request.get("/api/v1/seasons/2026-summer.json");
   expect(seasonResponse.status()).toBe(200);
@@ -34,6 +34,24 @@ test("static public API mirrors the reviewed catalogue without a runtime binding
   const fall2023 = await fall2023Response.json();
   expect(fall2023).toMatchObject({ id: "2023-fall", reviewState: "reviewed", verifiedAt: "2026-09-01" });
   expect(fall2023.anime).toHaveLength(100);
+
+  const summer2023Response = await request.get("/api/v1/seasons/2023-summer.json");
+  expect(summer2023Response.status()).toBe(200);
+  const summer2023 = await summer2023Response.json();
+  expect(summer2023).toMatchObject({ id: "2023-summer", reviewState: "reviewed", verifiedAt: "2026-09-01" });
+  expect(summer2023.anime).toHaveLength(75);
+
+  const youjoShachouResponse = await request.get("/api/v1/anime/youjo-shachou-r.json");
+  expect(youjoShachouResponse.status()).toBe(200);
+  const youjoShachou = await youjoShachouResponse.json();
+  expect(youjoShachou.themes).toEqual(expect.arrayContaining([
+    expect.objectContaining({ type: "OP", titleJa: "鳴らせ！むじなシンフォニー", artistDisplayName: "其原有沙" }),
+    expect.objectContaining({
+      type: "ED",
+      titleJa: "オ・ヒ・メ・サ・マ！",
+      videos: [expect.objectContaining({ youtubeVideoId: "zUNn0CsuZg4", officialStatus: "official" })]
+    })
+  ]));
 
   const scottPilgrimResponse = await request.get("/api/v1/anime/scott-pilgrim-takes-off.json");
   expect(scottPilgrimResponse.status()).toBe(200);
@@ -165,7 +183,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
 
   await page.goto("/search/");
   await expect(page.getByRole("heading", { name: "跨季度搜尋" })).toBeVisible();
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("828");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("903");
 
   const search = page.getByRole("searchbox", { name: "搜尋動畫或歌曲" });
   await search.fill("ＭＹＴＨ & ＲＯＩＤ");
@@ -199,7 +217,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
   await expect(page.locator("[data-catalog-anime-count]")).toHaveText("0");
 
   await search.press("Escape");
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("828");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("903");
   expect(externalRequests).toEqual([]);
 });
 
@@ -283,6 +301,22 @@ test("added seasonal pages render their reviewed theme records", async ({ page }
   await expect(page.getByRole("heading", { name: "bloom", exact: true })).toBeVisible();
   await expect(page.locator(".theme-card__artist", { hasText: "ネクライトーキー" })).toBeVisible();
   await expect(page.getByRole("button", { name: /載入 YouTube 影片.*bloom/ })).toBeVisible();
+
+  await page.goto("/seasons/2023-summer/");
+  await expect(page.getByRole("heading", { name: "2023 夏季動畫" })).toBeVisible();
+  await page.getByRole("checkbox", { name: "有正版影片" }).check();
+  await expect(page.locator("[data-result-count]")).toHaveText("4");
+  await expect(page.locator("[data-weekday-section]:visible [data-weekday-count]")).toHaveText([
+    "1 套",
+    "1 套",
+    "2 套"
+  ]);
+  await page.locator('a[href="/anime/youjo-shachou-r/"]').first().click();
+  await expect(page).toHaveURL(/\/anime\/youjo-shachou-r\/$/);
+  await expect(page.getByRole("heading", { name: "鳴らせ！むじなシンフォニー", exact: true })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "オ・ヒ・メ・サ・マ！", exact: true })).toBeVisible();
+  await expect(page.getByText("其原有沙", { exact: true })).toBeVisible();
+  await expect(page.getByRole("button", { name: /載入 YouTube 影片.*オ・ヒ・メ・サ・マ/ })).toBeVisible();
 });
 
 test("public catalogue remains readable offline without caching personal input", async ({ page, context }) => {
@@ -375,9 +409,10 @@ test("responsive navigation uses a desktop sidebar and a compact mobile menu", a
   await expect(year2024.getByRole("link", { name: "春季" })).toBeVisible();
   await expect(year2024.getByRole("link", { name: "冬季" })).toBeVisible();
   await expect(year2023.getByRole("link", { name: "秋季" })).toBeVisible();
-  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(11);
+  await expect(year2023.getByRole("link", { name: "夏季" })).toBeVisible();
+  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(12);
   await expect(page.getByLabel("季度資料狀態")).toContainText(
-    "已發布 11 個季度、828 個作品頁與 1,733 首 OP／ED"
+    "已發布 12 個季度、903 個作品頁與 1,859 首 OP／ED"
   );
   await expect(year2025.getByRole("link", { name: "春季" })).toHaveAttribute("aria-current", "page");
   await expect(page.getByRole("navigation", { name: "切換季度" })).toHaveCount(0);
@@ -398,7 +433,7 @@ test("responsive navigation uses a desktop sidebar and a compact mobile menu", a
   await expect(menuButton).toHaveAttribute("aria-expanded", "true");
   await expect(navigation).toBeVisible();
   await expect(year2025.getByRole("link", { name: "春季" })).toHaveAttribute("aria-current", "page");
-  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(11);
+  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(12);
 
   await menuButton.press("Escape");
   await expect(menuButton).toHaveAttribute("aria-expanded", "false");
