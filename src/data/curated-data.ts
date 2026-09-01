@@ -630,6 +630,7 @@ const excludedThemeKeys = new Set([
 ]);
 
 const themeVersionLabelOverrides: Record<string, string> = {
+  "148401:ED:7": "最終話版本（全 38 名）",
   "167152:OP:1": "主題歌（官方分類）",
   "178005:ED:2": "第 5 話特別 ED",
   "182255:ED:2": "第 38 話特別 ED"
@@ -4778,6 +4779,13 @@ function toTheme(seed: CuratedAnimeSeed, originalTheme: CuratedThemeSeed): Publi
 
 function animeOfficialSource(seed: CuratedAnimeSeed): { label: string; url: string } | undefined {
   if (seed.officialSiteUrl) {
+    const hostname = new URL(seed.officialSiteUrl).hostname;
+    if (hostname === "www.youtube.com" || hostname === "youtube.com") {
+      return { label: "作品官方影片：作品身份與公開資料", url: seed.officialSiteUrl };
+    }
+    if (hostname === "x.com" || hostname === "twitter.com") {
+      return { label: "動畫官方社群：作品身份與公開資料", url: seed.officialSiteUrl };
+    }
     return { label: "動畫官方網站：作品與播出資料", url: seed.officialSiteUrl };
   }
   return animeOfficialSourceOverrides[seed.anilistId];
@@ -4786,6 +4794,7 @@ function animeOfficialSource(seed: CuratedAnimeSeed): { label: string; url: stri
 function referenceLanguage(url: string): PublicAnimeDetail["sources"][number]["language"] {
   const hostname = new URL(url).hostname;
   if (hostname === "bgm.tv") return "zh-Hans";
+  if (hostname === "youranimes.tw" || hostname === "zh.wikipedia.org") return "zh-Hant";
   if (hostname === "about.netflix.com") return "multi";
   return "ja";
 }

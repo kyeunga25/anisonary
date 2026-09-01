@@ -2,6 +2,45 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.14.0] - 2026-09-01
+
+### Added
+
+- a reviewed 2022 fall snapshot with 80 anime and 197 OP／ED records;
+- quarterly source modules for 46 manually reviewed song identities and 28 official, embeddable video records;
+- a public v1.14 data-quality, responsive-navigation, and release QA record.
+
+### Changed
+
+- expanded the public catalogue to fifteen seasons, 1,134 unique anime pages, 2,383 OP／ED records, 536 unique direct YouTube links, and 1,132 official or licensed video metadata records;
+- added 2022 to the registry-generated desktop sidebar and compact mobile menu;
+- preserved the complete twelve-ending sequence for Chainsaw Man, the rotating endings for Bocchi the Rock!, the seven reviewed Umayuru endings, and the split-release music identity for JoJo's Bizarre Adventure: Stone Ocean.
+
+### Preserved
+
+- one first-party and one cross-check source for every published song record, while 26 works without reliable OP／ED evidence remain explicitly unannounced;
+- local-only search, explicit YouTube consent, generated CSP, and privacy-bounded offline reading;
+- Cloudflare Workers Static Assets delivery with no application Worker or stateful binding.
+
+## [1.13.0] - 2026-09-01
+
+### Added
+
+- a reviewed 2023 winter snapshot with 72 anime and 159 OP／ED records;
+- quarterly source modules for 19 manually reviewed song identities and seven official, embeddable video records;
+- a public v1.13 data-quality, responsive-navigation, and release QA record.
+
+### Changed
+
+- expanded the public catalogue to fourteen seasons, 1,054 unique anime pages, 2,186 OP／ED records, 536 unique direct YouTube links, and 1,104 official or licensed video metadata records;
+- kept multi-ending identities contiguous while excluding one-off films, pilots, promotional shorts, and cross-season duplicates.
+
+### Preserved
+
+- one first-party and one cross-check source for every published song record, while 12 works without reliable OP／ED evidence remain explicitly unannounced;
+- local-only search, explicit YouTube consent, generated CSP, and privacy-bounded offline reading;
+- Cloudflare Workers Static Assets delivery with no application Worker or stateful binding.
+
 ## [1.12.0] - 2026-09-01
 
 ### Added
