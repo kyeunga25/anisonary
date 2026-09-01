@@ -639,6 +639,7 @@ const excludedThemeKeys = new Set([
 const themeVersionLabelOverrides: Record<string, string> = {
   "148401:ED:7": "最終話版本（全 38 名）",
   "167152:OP:1": "主題歌（官方分類）",
+  "148819:OP:1": "主題歌（官方分類）",
   "178005:ED:2": "第 5 話特別 ED",
   "182255:ED:2": "第 38 話特別 ED"
 };

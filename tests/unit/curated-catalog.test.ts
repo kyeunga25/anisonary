@@ -5,7 +5,7 @@ import { CuratedProvider } from "@/data/curated-provider";
 import { creditRoleLabel } from "@/utils/theme";
 
 describe("curated public catalogue", () => {
-  it("publishes all sixteen reviewed seasonal snapshots", () => {
+  it("publishes all seventeen reviewed seasonal snapshots", () => {
     expect(curatedSeasons.map((season) => season.id)).toEqual([
       "2026-summer",
       "2026-spring",
@@ -22,10 +22,11 @@ describe("curated public catalogue", () => {
       "2023-spring",
       "2023-winter",
       "2022-fall",
-      "2022-summer"
+      "2022-summer",
+      "2022-spring"
     ]);
-    expect(curatedSeasonDetails).toHaveLength(16);
-    expect(curatedSeasonDetails.map((season) => season.anime.length)).toEqual([70, 70, 66, 75, 82, 59, 88, 68, 76, 75, 100, 75, 79, 72, 80, 69]);
+    expect(curatedSeasonDetails).toHaveLength(17);
+    expect(curatedSeasonDetails.map((season) => season.anime.length)).toEqual([70, 70, 66, 75, 82, 59, 88, 68, 76, 75, 100, 75, 79, 72, 80, 69, 79]);
     expect(curatedSeasonDetails.map((season) => [season.id, season.reviewState, season.verifiedAt])).toEqual([
       ["2026-summer", "reviewed", "2026-08-02"],
       ["2026-spring", "reviewed", "2026-08-02"],
@@ -42,20 +43,103 @@ describe("curated public catalogue", () => {
       ["2023-spring", "reviewed", "2026-09-01"],
       ["2023-winter", "reviewed", "2026-09-01"],
       ["2022-fall", "reviewed", "2026-09-01"],
-      ["2022-summer", "reviewed", "2026-09-01"]
+      ["2022-summer", "reviewed", "2026-09-01"],
+      ["2022-spring", "reviewed", "2026-09-01"]
     ]);
-    expect(curatedAnimeDetails).toHaveLength(1203);
-    expect(curatedAnimeDetails.filter((anime) => anime.themes.length > 0)).toHaveLength(960);
-    expect(curatedAnimeDetails.flatMap((anime) => anime.themes)).toHaveLength(2529);
-    expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "documented")).toHaveLength(960);
+    expect(curatedAnimeDetails).toHaveLength(1282);
+    expect(curatedAnimeDetails.filter((anime) => anime.themes.length > 0)).toHaveLength(1016);
+    expect(curatedAnimeDetails.flatMap((anime) => anime.themes)).toHaveLength(2679);
+    expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "documented")).toHaveLength(1016);
     expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "not_used")).toHaveLength(2);
-    expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "not_announced")).toHaveLength(241);
+    expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "not_announced")).toHaveLength(264);
     const youtubeLinks = curatedAnimeDetails
       .flatMap((anime) => anime.themes)
       .flatMap((theme) => theme.links)
       .filter((link) => link.platform === "YouTube");
     expect(youtubeLinks).toHaveLength(538);
     expect(youtubeLinks.every((link) => new URL(link.url).hostname === "www.youtube.com")).toBe(true);
+  });
+
+  it("keeps the reviewed 2022 spring serial boundary and complex OP/ED identities conservative", () => {
+    const spring = curatedSeasonDetails.find((season) => season.id === "2022-spring");
+    expect(spring?.anime).toHaveLength(79);
+    const springSeeds = curatedAnimeSeeds.filter((seed) => seed.seasonIds.includes("2022-spring"));
+    expect(springSeeds).toHaveLength(79);
+    expect(new Set(springSeeds.map(({ anilistId }) => anilistId)).size).toBe(79);
+    expect(new Set(springSeeds.map(({ slug }) => slug)).size).toBe(79);
+    expect(springSeeds.flatMap(({ themes }) => themes)).toHaveLength(150);
+
+    for (const seed of springSeeds) {
+      expect(seed.startDate).toMatch(/^2022-(?:03|04|05|06)-\d{2}$/);
+      expect(seed.startDate >= "2022-03-01" && seed.startDate <= "2022-06-28").toBe(true);
+      expect(seed.seasonIds[0]).toBe("2022-spring");
+      expect(seed.verifiedAt).toBe("2026-09-01");
+      const editorialWeekday = new Date(`${seed.startDate}T00:00:00Z`).getUTCDay() || 7;
+      expect(seed.editorialWeekday, `${seed.anilistId} weekday`).toBe(editorialWeekday);
+      expect(seed.titleJa.trim()).not.toBe("");
+      expect(seed.titleZhHant.trim()).not.toBe("");
+      expect(seed.titleRomaji.trim()).not.toBe("");
+      expect(seed.officialSiteUrl).toMatch(/^https:\/\//);
+
+      for (const type of ["OP", "ED"] as const) {
+        const sequences = seed.themes.filter((theme) => theme.type === type).map(({ sequence }) => sequence);
+        expect(sequences, `${seed.anilistId}:${type}`).toEqual(
+          Array.from({ length: sequences.length }, (_, index) => index + 1)
+        );
+      }
+    }
+
+    const springIds = new Set(spring?.anime.map((anime) => anime.id));
+    for (const includedAniListId of [143289, 124032, 125447, 141774, 140960, 141350, 148819, 108353]) {
+      expect(springIds.has(`curated-${includedAniListId}`)).toBe(true);
+    }
+    expect(curatedAnimeDetails.filter((anime) => (
+      springIds.has(anime.id) && anime.themeAvailability === "not_announced"
+    ))).toHaveLength(23);
+    expect(curatedAnimeDetails.filter((anime) => springIds.has(anime.id))
+      .flatMap((anime) => anime.themes)
+      .flatMap((theme) => theme.videos)).toHaveLength(26);
+
+    const reviewedMusic = new Map([
+      ["curated-140960", ["ミックスナッツ", "喜劇"]],
+      ["curated-141774", ["チキチキバンバン", "気分上々↑↑", "六本木うどん屋（仮）", "気分上々↑↑", "気分上々↑↑"]],
+      ["curated-125367", ["GIRI GIRI", "ハートはお手上げ", "My Nonfiction"]],
+      ["curated-129201", ["星が泳ぐ", "夏夢ノイジー", "回夏", "失恋ソング沢山聴いて 泣いてばかりの私はもう。", "失恋ソング沢山聴いて 泣いてばかりの私はもう。（acoustic ver.）"]],
+      ["curated-134732", ["無心拍数", "Presence", "Blue Diary", "カラー・リリィの恋文"]],
+      ["curated-136080", ["ケアレス", "Lapis", "オルゴール"]]
+    ]);
+    for (const [animeId, titles] of reviewedMusic) {
+      const anime = curatedAnimeDetails.find(({ id }) => id === animeId);
+      expect(anime?.themes.map(({ titleJa }) => titleJa), animeId).toEqual(titles);
+      for (const theme of anime?.themes ?? []) {
+        expect(theme.sources.some(({ role }) => role === "first_party"), theme.id).toBe(true);
+        expect(theme.sources.some(({ role }) => role === "cross_check"), theme.id).toBe(true);
+      }
+    }
+
+    const spyFamily = curatedAnimeDetails.find(({ id }) => id === "curated-140960");
+    expect(spyFamily?.themes.flatMap(({ videos }) => videos).map(({ youtubeVideoId }) => youtubeVideoId))
+      .toEqual(["U_rWZK_8vUY", "nRKJBpFFsuI"]);
+    const kunoichi = curatedAnimeDetails.find(({ id }) => id === "curated-141350");
+    expect(kunoichi?.themes).toHaveLength(14);
+    expect(kunoichi?.themes.slice(1, 3).map(({ titleJa }) => titleJa)).toEqual([
+      "あかね組活動日誌 ～戌班～",
+      "あかね組活動日誌 ～未班～"
+    ]);
+    expect(kunoichi?.themes.at(-1)?.artistDisplayName).toContain("リンドウ");
+
+    const nanaLucky = curatedAnimeDetails.find(({ id }) => id === "curated-148819");
+    expect(nanaLucky?.themes[0]).toMatchObject({
+      type: "OP",
+      sequence: 1,
+      titleJa: "Lucky Boy, Lucky Girl",
+      artistDisplayName: "呂布カルマ",
+      versionLabel: "主題歌（官方分類）"
+    });
+    expect(nanaLucky?.themes[0]?.sources).toContainEqual(expect.objectContaining({
+      role: "first_party",
+      url: expect.stringContaining("izanagigames.co.jp")
+    }));
   });
 
   it("keeps the reviewed 2022 summer boundary and official OP/ED classifications conservative", () => {
@@ -848,6 +932,7 @@ describe("curated public catalogue", () => {
           || season.id === "2023-winter"
           || season.id === "2022-fall"
           || season.id === "2022-summer"
+          || season.id === "2022-spring"
         ))
         .flatMap((season) => season.anime.map((anime) => anime.id))
     );

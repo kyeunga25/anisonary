@@ -3,6 +3,10 @@ import {
   curated2022SummerSeeds
 } from "@/data/curated-seeds/2022/summer";
 import {
+  curated2022SpringAnimeIds,
+  curated2022SpringSeeds
+} from "@/data/curated-seeds/2022/spring";
+import {
   curated2022FallAnimeIds,
   curated2022FallSeeds
 } from "@/data/curated-seeds/2022/fall";
@@ -272,6 +276,15 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     titleJa: "2022年夏アニメ",
     seeds: curated2022SummerSeeds,
     animeIds: curated2022SummerAnimeIds
+  },
+  {
+    id: "2022-spring",
+    year: 2022,
+    quarter: "spring",
+    titleZhHant: "春季動畫",
+    titleJa: "2022年春アニメ",
+    seeds: curated2022SpringSeeds,
+    animeIds: curated2022SpringAnimeIds
   }
 ] as const);
 
