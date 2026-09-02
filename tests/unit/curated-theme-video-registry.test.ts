@@ -37,6 +37,7 @@ describe("curated theme video registry", () => {
       "2020-summer",
       "2020-spring",
       "2020-winter",
+      "2019-fall",
     ]);
     expect(
       curatedThemeVideoRegistry.map(
@@ -44,15 +45,15 @@ describe("curated theme video registry", () => {
       ),
     ).toEqual([
       4, 10, 44, 178, 79, 48, 128, 154, 134, 125, 2, 4, 6, 7, 27, 28, 26, 26,
-      28, 65, 66, 53, 62, 52, 102, 43,
+      28, 65, 66, 53, 62, 52, 102, 43, 62,
     ]);
 
     const entries = curatedThemeVideoRegistry.flatMap(({ overrides }) =>
       Object.entries(overrides),
     );
-    expect(entries).toHaveLength(1501);
+    expect(entries).toHaveLength(1563);
     expect(new Set(entries.map(([key]) => key)).size).toBe(entries.length);
-    expect(entries.flatMap(([, videos]) => videos)).toHaveLength(1683);
+    expect(entries.flatMap(([, videos]) => videos)).toHaveLength(1745);
     expect(Object.keys(curatedThemeVideoOverrides)).toHaveLength(
       entries.length,
     );

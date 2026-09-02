@@ -10,7 +10,7 @@ test("static public API mirrors the reviewed catalogue without a runtime binding
   expect(seasonsResponse.status()).toBe(200);
   expect(seasonsResponse.headers()["content-type"]).toContain("application/json");
   const seasons = await seasonsResponse.json();
-  expect(seasons).toHaveLength(26);
+  expect(seasons).toHaveLength(27);
 
   const seasonResponse = await request.get("/api/v1/seasons/2026-summer.json");
   expect(seasonResponse.status()).toBe(200);
@@ -126,6 +126,32 @@ test("static public API mirrors the reviewed catalogue without a runtime binding
     verifiedAt: "2026-09-02"
   });
   expect(summer2020.anime).toHaveLength(31);
+
+  const fall2019Response = await request.get("/api/v1/seasons/2019-fall.json");
+  expect(fall2019Response.status()).toBe(200);
+  const fall2019 = await fall2019Response.json();
+  expect(fall2019).toMatchObject({
+    id: "2019-fall",
+    reviewState: "reviewed",
+    verifiedAt: "2026-09-02"
+  });
+  expect(fall2019.anime).toHaveLength(67);
+
+  const kenganResponse = await request.get("/api/v1/anime/kengan-ashura-part-2.json");
+  expect(kenganResponse.status()).toBe(200);
+  const kengan = await kenganResponse.json();
+  expect(kengan.themes).toEqual([
+    expect.objectContaining({
+      type: "OP",
+      titleJa: "哀紫電一閃",
+      videos: [expect.objectContaining({ youtubeVideoId: "3oWHMoFohuM", officialStatus: "official" })]
+    }),
+    expect.objectContaining({
+      type: "ED",
+      titleJa: "ASHURA",
+      videos: [expect.objectContaining({ youtubeVideoId: "jjjfr8jizCs", officialStatus: "official" })]
+    })
+  ]);
 
   const kamizmodeResponse = await request.get("/api/v1/anime/saikyou-kamizmode.json");
   expect(kamizmodeResponse.status()).toBe(200);
@@ -428,12 +454,12 @@ test("cross-season search stays local and matches anime, songs, and artists", as
 
   await page.goto("/search/");
   await expect(page.getByRole("heading", { name: "跨季度搜尋" })).toBeVisible();
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1808");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1875");
 
   const search = page.getByRole("searchbox", { name: "搜尋動畫或歌曲" });
   await search.fill("ＭＹＴＨ & ＲＯＩＤ");
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("6");
-  await expect(page.locator("[data-catalog-theme-count]")).toHaveText("6");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("7");
+  await expect(page.locator("[data-catalog-theme-count]")).toHaveText("7");
   await expect(page.getByRole("link", { name: "幼女戦記Ⅱ" })).toBeVisible();
   await expect(page.getByText("Why? RED induction")).toBeVisible();
   await expect(page.getByRole("link", { name: "Re:ゼロから始める異世界生活 4th season" })).toBeVisible();
@@ -468,7 +494,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
   await expect(page.locator("[data-catalog-anime-count]")).toHaveText("0");
 
   await search.press("Escape");
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1808");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1875");
   expect(externalRequests).toEqual([]);
 });
 
@@ -746,6 +772,24 @@ test("added seasonal pages render their reviewed theme records", async ({ page }
   await expect(
     page.getByRole("button", { name: /載入 YouTube 影片/ }),
   ).toHaveCount(7);
+  await page.goto("/seasons/2019-fall/");
+  await expect(
+    page.getByRole("heading", { name: "2019 秋季動畫" }),
+  ).toBeVisible();
+  await page.getByRole("checkbox", { name: "有正版影片" }).check();
+  await expect(page.locator("[data-result-count]")).toHaveText("19");
+  await page.locator('a[href="/anime/kengan-ashura-part-2/"]').first().click();
+  await expect(page).toHaveURL(/\/anime\/kengan-ashura-part-2\/$/);
+  await expect(
+    page.getByRole("heading", { name: "哀紫電一閃", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("heading", { name: "ASHURA", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator(".theme-card")).toHaveCount(2);
+  await expect(
+    page.getByRole("button", { name: /載入 YouTube 影片/ }),
+  ).toHaveCount(2);
 });
 
 test("public catalogue remains readable offline without caching personal input", async ({ page, context }) => {
@@ -825,6 +869,7 @@ test("responsive navigation uses a desktop sidebar and a compact mobile menu", a
   const year2022 = navigation.locator('[aria-labelledby="site-nav-seasons-2022"]');
   const year2021 = navigation.locator('[aria-labelledby="site-nav-seasons-2021"]');
   const year2020 = navigation.locator('[aria-labelledby="site-nav-seasons-2020"]');
+  const year2019 = navigation.locator('[aria-labelledby="site-nav-seasons-2019"]');
 
   expect(desktopHeaderBox).not.toBeNull();
   expect(desktopHeaderBox!.width).toBeLessThanOrEqual(280);
@@ -840,6 +885,7 @@ test("responsive navigation uses a desktop sidebar and a compact mobile menu", a
   await expect(navigation.getByText("2022", { exact: true })).toBeVisible();
   await expect(navigation.getByText("2021", { exact: true })).toBeVisible();
   await expect(navigation.getByText("2020", { exact: true })).toBeVisible();
+  await expect(navigation.getByText("2019", { exact: true })).toBeVisible();
   await expect(year2024.getByRole("link", { name: "秋季" })).toBeVisible();
   await expect(year2024.getByRole("link", { name: "春季" })).toBeVisible();
   await expect(year2024.getByRole("link", { name: "冬季" })).toBeVisible();
@@ -859,9 +905,10 @@ test("responsive navigation uses a desktop sidebar and a compact mobile menu", a
   await expect(year2020.getByRole("link", { name: "夏季" })).toBeVisible();
   await expect(year2020.getByRole("link", { name: "春季" })).toBeVisible();
   await expect(year2020.getByRole("link", { name: "冬季" })).toBeVisible();
-  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(26);
+  await expect(year2019.getByRole("link", { name: "秋季" })).toBeVisible();
+  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(27);
   await expect(page.getByLabel("季度資料狀態")).toContainText(
-    "已發布 26 個季度、1,808 個作品頁與 3,965 首 OP／ED"
+    "已發布 27 個季度、1,875 個作品頁與 4,124 首 OP／ED"
   );
   await expect(year2025.getByRole("link", { name: "春季" })).toHaveAttribute("aria-current", "page");
   await expect(page.getByRole("navigation", { name: "切換季度" })).toHaveCount(0);
@@ -882,7 +929,7 @@ test("responsive navigation uses a desktop sidebar and a compact mobile menu", a
   await expect(menuButton).toHaveAttribute("aria-expanded", "true");
   await expect(navigation).toBeVisible();
   await expect(year2025.getByRole("link", { name: "春季" })).toHaveAttribute("aria-current", "page");
-  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(26);
+  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(27);
 
   await menuButton.press("Escape");
   await expect(menuButton).toHaveAttribute("aria-expanded", "false");
