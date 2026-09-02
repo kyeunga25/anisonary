@@ -33,7 +33,8 @@ describe("curated theme source registry", () => {
       "2021-spring",
       "2021-winter",
       "2020-fall",
-      "2020-summer"
+      "2020-summer",
+      "2020-spring"
     ]);
     expect(curatedThemeSourceRegistry.map(({ overrides }) => Object.keys(overrides).length)).toEqual([
       2,
@@ -59,11 +60,12 @@ describe("curated theme source registry", () => {
       131,
       166,
       180,
-      61
+      61,
+      208
     ]);
 
     const keys = curatedThemeSourceRegistry.flatMap(({ overrides }) => Object.keys(overrides));
-    expect(keys).toHaveLength(1315);
+    expect(keys).toHaveLength(1523);
     expect(new Set(keys).size).toBe(keys.length);
     expect(Object.keys(curatedThemeSourceOverrides)).toHaveLength(keys.length);
   });

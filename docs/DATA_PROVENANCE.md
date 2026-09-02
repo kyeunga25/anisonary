@@ -31,7 +31,7 @@ API、資料庫、商標或媒體重用權。完整授權邊界見
 
 `first_party` 表示動畫製作／發行方、唱片公司、藝人官方渠道、官方影片或正式播出機構的公開頁面。`cross_check` 表示用於發現缺口及交叉比對的公開索引。兩種角色都是來源分類，不代表數值信心或內容評分。
 
-目前二十四季快照的 season references、1,689 個作品及 3,577 筆 OP／ED 都有結構化 provenance；3,577 筆歌曲全部至少保留一個 `first_party` 與一個 `cross_check` 來源。`tests/unit/curated-catalog.test.ts` 鎖定來源數量、角色、語言、HTTPS、核對日期、Mock URL 禁止條件，以及 legacy labels 與結構化 ledger 的一致性。
+目前二十五季快照的 season references、1,750 個作品及 3,785 筆 OP／ED 都有結構化 provenance；3,785 筆歌曲全部至少保留一個 `first_party` 與一個 `cross_check` 來源。`tests/unit/curated-catalog.test.ts` 鎖定來源數量、角色、語言、HTTPS、核對日期、Mock URL 禁止條件，以及 legacy labels 與結構化 ledger 的一致性。
 
 ## 欄位決策
 

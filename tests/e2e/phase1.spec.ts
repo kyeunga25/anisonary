@@ -10,7 +10,7 @@ test("static public API mirrors the reviewed catalogue without a runtime binding
   expect(seasonsResponse.status()).toBe(200);
   expect(seasonsResponse.headers()["content-type"]).toContain("application/json");
   const seasons = await seasonsResponse.json();
-  expect(seasons).toHaveLength(24);
+  expect(seasons).toHaveLength(25);
 
   const seasonResponse = await request.get("/api/v1/seasons/2026-summer.json");
   expect(seasonResponse.status()).toBe(200);
@@ -428,7 +428,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
 
   await page.goto("/search/");
   await expect(page.getByRole("heading", { name: "跨季度搜尋" })).toBeVisible();
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1689");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1750");
 
   const search = page.getByRole("searchbox", { name: "搜尋動畫或歌曲" });
   await search.fill("ＭＹＴＨ & ＲＯＩＤ");
@@ -468,7 +468,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
   await expect(page.locator("[data-catalog-anime-count]")).toHaveText("0");
 
   await search.press("Escape");
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1689");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1750");
   expect(externalRequests).toEqual([]);
 });
 
@@ -703,6 +703,29 @@ test("added seasonal pages render their reviewed theme records", async ({ page }
   await expect(page.getByRole("heading", { name: "プラネタリウム", exact: true })).toBeVisible();
   await expect(page.locator(".theme-card")).toHaveCount(5);
   await expect(page.getByRole("button", { name: /載入 YouTube 影片/ })).toHaveCount(5);
+  await page.goto("/seasons/2020-spring/");
+  await expect(
+    page.getByRole("heading", { name: "2020 春季動畫" }),
+  ).toBeVisible();
+  await page.getByRole("checkbox", { name: "有正版影片" }).check();
+  await expect(page.locator("[data-result-count]")).toHaveText("40");
+  await page
+    .locator('a[href="/anime/bungou-to-alchemist-shinpan-no-haguruma/"]')
+    .first()
+    .click();
+  await expect(page).toHaveURL(
+    /\/anime\/bungou-to-alchemist-shinpan-no-haguruma\/$/,
+  );
+  await expect(
+    page.getByRole("heading", { name: "グッド・バイ", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("heading", { name: "藪の中のジンテーゼ", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator(".theme-card")).toHaveCount(2);
+  await expect(
+    page.getByRole("button", { name: /載入 YouTube 影片/ }),
+  ).toHaveCount(2);
 });
 
 test("public catalogue remains readable offline without caching personal input", async ({ page, context }) => {
@@ -814,9 +837,10 @@ test("responsive navigation uses a desktop sidebar and a compact mobile menu", a
   await expect(year2021.getByRole("link", { name: "冬季" })).toBeVisible();
   await expect(year2020.getByRole("link", { name: "秋季" })).toBeVisible();
   await expect(year2020.getByRole("link", { name: "夏季" })).toBeVisible();
-  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(24);
+  await expect(year2020.getByRole("link", { name: "春季" })).toBeVisible();
+  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(25);
   await expect(page.getByLabel("季度資料狀態")).toContainText(
-    "已發布 24 個季度、1,689 個作品頁與 3,577 首 OP／ED"
+    "已發布 25 個季度、1,750 個作品頁與 3,785 首 OP／ED"
   );
   await expect(year2025.getByRole("link", { name: "春季" })).toHaveAttribute("aria-current", "page");
   await expect(page.getByRole("navigation", { name: "切換季度" })).toHaveCount(0);
@@ -837,7 +861,7 @@ test("responsive navigation uses a desktop sidebar and a compact mobile menu", a
   await expect(menuButton).toHaveAttribute("aria-expanded", "true");
   await expect(navigation).toBeVisible();
   await expect(year2025.getByRole("link", { name: "春季" })).toHaveAttribute("aria-current", "page");
-  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(24);
+  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(25);
 
   await menuButton.press("Escape");
   await expect(menuButton).toHaveAttribute("aria-expanded", "false");

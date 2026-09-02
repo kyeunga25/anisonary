@@ -89,7 +89,7 @@ npm run cf:deploy
 ## Production smoke checklist／正式環境驗收
 
 - GitHub `quality` check 通過；
-- 首頁、搜尋、二十四個季度頁、至少一個動畫頁、About、Sources 與未知 route；
+- 首頁、搜尋、二十五個季度頁、至少一個動畫頁、About、Sources 與未知 route；
 - mobile viewport、keyboard focus、theme toggle 及無水平 overflow；
 - canonical、Open Graph、JSON-LD、`robots.txt` 與 `sitemap-index.xml`；
 - `Content-Security-Policy`、`X-Frame-Options`、`X-Content-Type-Options`、`Referrer-Policy`、`Permissions-Policy`；
@@ -101,7 +101,7 @@ npm run cf:deploy
 - YouTube 啟動前沒有 iframe 或 thumbnail request，啟動後使用 privacy-enhanced domain；
 - repository catalogue 顯示「已核對季度完整目錄」，不顯示 Mock Data notice；
 - 歌曲顯示 reviewed source ledger，static API 每筆 theme 同時有第一方及交叉核對來源，且不包含完整度百分比；
-- season list、二十四個 season detail、1,689 個 anime detail JSON assets 通過 live contract，未知 API route 回應 `404`；
+- season list、二十五個 season detail、1,750 個 anime detail JSON assets 通過 live contract，未知 API route 回應 `404`；
 - secrets、非公開基礎設施資料和私有營運記錄沒有進入 tracked files 或 build output。
 
 ## Public record boundary／公開記錄邊界
