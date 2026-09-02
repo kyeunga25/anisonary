@@ -2,6 +2,26 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.24.0] - 2026-09-02
+
+### Added
+
+- a reviewed 2020 spring snapshot with 61 anime and 208 published OP／ED records;
+- quarterly source modules for all 208 reviewed song identities and 102 official or licensed, embeddable video records;
+- a public v1.24 data-quality, responsive-navigation, and release QA record.
+
+### Changed
+
+- expanded the public catalogue to twenty-five seasons, 1,750 unique anime pages, 3,785 OP／ED records, 538 unique direct YouTube links, and 1,640 official or licensed video metadata records;
+- added 2020 spring to the registry-generated desktop sidebar and compact mobile menu;
+- replaced several retired programme links with stable broadcaster, producer, label, or corporate first-party references.
+
+### Preserved
+
+- one first-party and one cross-check source for every published song record, while 2 spring works without reliable OP／ED placement remain explicitly unannounced;
+- insert songs, generic themes without proven opening or ending placement, unavailable videos, and non-official uploads remain outside the public OP／ED and video contracts;
+- local-only search, explicit YouTube consent, generated CSP, privacy-bounded offline reading, and Cloudflare Workers Static Assets delivery with no application Worker or stateful binding.
+
 ## [1.23.0] - 2026-09-02
 
 ### Added
