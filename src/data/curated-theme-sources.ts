@@ -1,4 +1,5 @@
 import { curatedSeasonRegistry } from "@/data/curated-season-registry";
+import { curated2019FallThemeSources } from "@/data/curated-theme-sources/2019/fall";
 import { curated2020FallThemeSources } from "@/data/curated-theme-sources/2020/fall";
 import { curated2020SpringThemeSources } from "@/data/curated-theme-sources/2020/spring";
 import { curated2020SummerThemeSources } from "@/data/curated-theme-sources/2020/summer";
@@ -129,7 +130,8 @@ export const curatedThemeSourceRegistry = validateCuratedThemeSourceRegistry([
   { seasonId: "2020-fall", overrides: curated2020FallThemeSources },
   { seasonId: "2020-summer", overrides: curated2020SummerThemeSources },
   { seasonId: "2020-spring", overrides: curated2020SpringThemeSources },
-  { seasonId: "2020-winter", overrides: curated2020WinterThemeSources }
+  { seasonId: "2020-winter", overrides: curated2020WinterThemeSources },
+  { seasonId: "2019-fall", overrides: curated2019FallThemeSources }
 ] as const);
 
 export const curatedThemeSourceOverrides: CuratedThemeSourceOverrideMap = Object.assign(
