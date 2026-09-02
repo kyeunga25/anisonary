@@ -2,6 +2,45 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.23.0] - 2026-09-02
+
+### Added
+
+- a reviewed 2020 summer snapshot with 31 anime and 61 published OP／ED records;
+- quarterly source modules for all 61 reviewed song identities and 52 official or licensed, embeddable video records;
+- a public v1.23 data-quality, responsive-navigation, and release QA record.
+
+### Changed
+
+- expanded the public catalogue to twenty-four seasons, 1,689 unique anime pages, 3,577 OP／ED records, 538 unique direct YouTube links, and 1,538 official or licensed video metadata records;
+- added 2020 summer to the registry-generated desktop sidebar and compact mobile menu;
+- recorded China-first releases under their first public season with explicit regional labels, while keeping the Japanese broadcast date visible.
+
+### Preserved
+
+- one first-party and one cross-check source for every published song record, while 5 summer works without reliable OP／ED evidence remain explicitly unannounced;
+- indexed insert songs and generic themes without proven opening or ending placement remain outside the OP／ED contract;
+- local-only search, explicit YouTube consent, generated CSP, privacy-bounded offline reading, and Cloudflare Workers Static Assets delivery with no application Worker or stateful binding.
+
+## [1.22.0] - 2026-09-02
+
+### Added
+
+- a reviewed 2020 fall snapshot with 67 anime and 180 published OP／ED records;
+- quarterly source modules for all 180 reviewed song identities and 62 official or licensed, embeddable video records;
+- a public v1.22 data-quality, responsive-navigation, and release QA record.
+
+### Changed
+
+- expanded the public catalogue to twenty-three seasons, 1,658 unique anime pages, 3,516 OP／ED records, 538 unique direct YouTube links, and 1,486 official or licensed video metadata records;
+- added 2020 to the registry-generated desktop sidebar and compact mobile menu;
+- preferred first-party use labels over conflicting indexes, excluding insert songs, character songs, and unrelated new tracks from the OP／ED contract.
+
+### Preserved
+
+- one first-party and one cross-check source for every published song record, while 9 fall works without reliable OP／ED evidence remain explicitly unannounced;
+- local-only search, explicit YouTube consent, generated CSP, privacy-bounded offline reading, and Cloudflare Workers Static Assets delivery with no application Worker or stateful binding.
+
 ## [1.21.0] - 2026-09-02
 
 ### Added
