@@ -2,15 +2,15 @@
 
 Anisonary 是以 Astro + strict TypeScript 建立的動畫歌曲目錄，按季度與日本編輯播出日瀏覽作品、OP 與 ED。網站輸出為純靜態資產，正式交付使用 **Cloudflare Workers Static Assets**；它不是 Cloudflare Pages，也沒有 application Worker backend。下方同時保留 English technical notes。
 
-This repository contains the completed static product: season directory, anime detail pages, traceable OP／ED credits and links, per-song source ledgers, source-attributed media, local-only cross-season search, privacy-bounded offline reading, a GitHub correction flow, and deployment through Cloudflare Workers Static Assets. The default catalogue covers twenty-five reviewed snapshots across 2020–2026, with 1,750 unique titles and 3,785 known OP／ED records; fictional Mock Data remains test-only.
+This repository contains the completed static product: season directory, anime detail pages, traceable OP／ED credits and links, per-song source ledgers, source-attributed media, local-only cross-season search, privacy-bounded offline reading, a GitHub correction flow, and deployment through Cloudflare Workers Static Assets. The default catalogue covers twenty-six reviewed snapshots across 2020–2026, with 1,808 unique titles and 3,965 known OP／ED records; fictional Mock Data remains test-only.
 
-目前公開版本：**v1.24.0**。每個季度、作品及已發布歌曲都保留結構化來源、來源語言、審閱狀態及核對日期；每首歌曲另同時具備可點擊的第一方與交叉核對來源。v1.24.0 加入 2020 春季 61 套動畫、208 筆已核對 OP／ED 與 102 筆現時可嵌入的官方或正式授權影片 metadata，包括《輝夜姬想讓人告白？》、《神之塔》、《魔法水果籃 第二季》、《數碼寶貝：》、《LISTENERS 聆聽者》及《遊戲王SEVENS》的季度歌曲身份。第一方只列作插曲或一般主題歌、而沒有足夠 OP／ED 用途證據的項目不會升格；《全力狗！Animation》與《香蕉怪大叔 吶吶～吶 北海妖怪追追追！》因此維持明確空狀態。已失效的候選影片、非官方上載及季度外作品不會進入公開 registry。單集電影、OVA、成人作品、宣傳短片及季度前已首播作品維持在公開季度範圍外。未有可靠主題曲或官方影片證據的欄位維持明確空狀態，不以推測補值。公開 UI／API 不發布內部完整度或 confidence score。搜尋在瀏覽器內比對日文、繁體中文、Romaji、歌曲、歌手與 credit；搜尋字詞不會傳送到 server 或 analytics。Build 同時輸出與頁面相同資料來源的同源唯讀 JSON API，不需要 application Worker、D1、KV 或 secret。Service Worker 只預先保存公開頁面與必要靜態資產，不保存搜尋字詞、API JSON 或第三方媒體。
+目前公開版本：**v1.25.0**。每個季度、作品及已發布歌曲都保留結構化來源、來源語言、審閱狀態及核對日期；每首歌曲另同時具備可點擊的第一方與交叉核對來源。v1.25.0 加入 2020 冬季 58 套動畫、180 筆已核對 OP／ED 與 43 筆現時可嵌入的官方或正式授權影片 metadata，包括《異獸魔都》、《22/7》、《科學超電磁砲T》、《魔法紀錄 魔法少女小圓外傳》、《寶石商人理察的謎鑑定》及《妖怪學園Y》的季度歌曲身份。第一方只列作插曲、配樂或一般主題歌、而沒有足夠 OP／ED 用途證據的項目不會升格；《齊木楠雄的災難 Ψ始動篇》、《Breakers》、《破曉之翼》、《大家先生與我》等 7 套作品因此維持明確空狀態。《ZENONZARD THE ANIMATION》的〈WakeUp〉按第一方分類留在插曲範圍，影片亦排除不可公開嵌入、Premium-only 或非官方上載。單集電影、OVA、成人作品、宣傳短片及季度外首播作品維持在公開季度範圍外。未有可靠主題曲或官方影片證據的欄位維持明確空狀態，不以推測補值。公開 UI／API 不發布內部完整度或 confidence score。搜尋在瀏覽器內比對日文、繁體中文、Romaji、歌曲、歌手與 credit；搜尋字詞不會傳送到 server 或 analytics。Build 同時輸出與頁面相同資料來源的同源唯讀 JSON API，不需要 application Worker、D1、KV 或 secret。Service Worker 只預先保存公開頁面與必要靜態資產，不保存搜尋字詞、API JSON 或第三方媒體。
 
 Production build 會從最終 HTML 自動產生 hash-based Content Security Policy。政策不使用 `unsafe-inline` 或 `unsafe-eval`，禁止 inline event／style attributes，只開放同源資產、已核對的海報來源及使用者啟動後的 YouTube privacy-enhanced iframe。任何未批准的 media origin 會令 build fail closed。
 
 | 可用性 / Availability                  | 成熟度 / Maturity                       | 證據 / Evidence                                                                                                                                                                                                                                                     |
 | -------------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 公開靜態目錄 / Public static catalogue | Source 版本為 `v1.24.0`；正式站狀態以 QA 記錄為準 | [入口網站 / Live](https://anisonary.k-y.cc) · [資料來源 / Sources](docs/DATA_SOURCES.md) · [v1.24 QA](docs/QA_V1_24_2020_SPRING.md) · [安全政策 / Security](SECURITY.md) · [授權 / Licence](LICENSING.md) · [版權 / Copyright](COPYRIGHT.md) |
+| 公開靜態目錄 / Public static catalogue | Source 版本為 `v1.25.0`；正式站狀態以 QA 記錄為準 | [入口網站 / Live](https://anisonary.k-y.cc) · [資料來源 / Sources](docs/DATA_SOURCES.md) · [v1.25 QA](docs/QA_V1_25_2020_WINTER.md) · [安全政策 / Security](SECURITY.md) · [授權 / Licence](LICENSING.md) · [版權 / Copyright](COPYRIGHT.md) |
 
 ## 技術棧｜Technology stack
 
@@ -57,7 +57,7 @@ PUBLIC_API_BASE_URL=https://anisonary.k-y.cc/api/v1 npm run api:check
 - `MockProvider` remains available only for isolated unit and component tests; its fixtures are not production assets.
 - Copy `.env.example` to `.env` for local configuration. Never commit secrets.
 
-Season coverage uses a repository-owned source registry: Annict is the Japanese seasonal inventory baseline, while Bangumi provides a Chinese-entry cross-check. The twenty-five published snapshots additionally cross-check Traditional Chinese calendar inventories, AniList identifiers and media, AnimeThemes records, public theme-song indexes, official sites, and Taiwan／Hong Kong licensing pages. These are editorial inputs only; production builds use the reviewed static snapshot and never require external APIs at runtime. See `docs/DATA_SOURCES.md` for the inventory rules and `docs/DATA_PROVENANCE.md` for the per-song ledger and media boundary.
+Season coverage uses a repository-owned source registry: Annict is the Japanese seasonal inventory baseline, while Bangumi provides a Chinese-entry cross-check. The twenty-six published snapshots additionally cross-check Traditional Chinese calendar inventories, AniList identifiers and media, AnimeThemes records, public theme-song indexes, official sites, and Taiwan／Hong Kong licensing pages. These are editorial inputs only; production builds use the reviewed static snapshot and never require external APIs at runtime. See `docs/DATA_SOURCES.md` for the inventory rules and `docs/DATA_PROVENANCE.md` for the per-song ledger and media boundary.
 
 ## Catalogue search
 
@@ -168,6 +168,7 @@ third-party anime or music material, and Anisonary branding are excluded.
 - Technology, AI and reference disclosure: `docs/TECHNOLOGY_REFERENCES.md`
 - Song and media provenance contract: `docs/DATA_PROVENANCE.md`
 - Version history: `CHANGELOG.md`
+- v1.25.0 2020 winter catalogue QA: `docs/QA_V1_25_2020_WINTER.md`
 - v1.24.0 2020 spring catalogue QA: `docs/QA_V1_24_2020_SPRING.md`
 - v1.23.0 2020 summer catalogue QA: `docs/QA_V1_23_2020_SUMMER.md`
 - v1.22.0 2020 fall catalogue QA: `docs/QA_V1_22_2020_FALL.md`
