@@ -1,6 +1,6 @@
 {
   "name": "anisonary",
-  "version": "1.26.0",
+  "version": "1.26.1",
   "private": true,
   "license": "SEE LICENSE IN LICENSING.md",
   "type": "module",
@@ -18,7 +18,7 @@
     "public:check": "node scripts/check-public-boundary.mjs",
     "public:artifact-check": "node scripts/check-public-boundary.mjs dist",
     "test:all": "npm test && npm run test:e2e",
-    "check": "npm run public:check && npm run lint && npm test && npm run build && npm run cf:check && npm run test:e2e",
+    "check": "npm run public:check && npm audit --audit-level=low && npm run lint && npm test && npm run build && npm run cf:check && npm run test:e2e",
     "cf:check": "WRANGLER_SEND_METRICS=false WRANGLER_SEND_ERROR_REPORTS=false WRANGLER_LOG_PATH=/tmp/anisonary-wrangler-logs wrangler deploy --dry-run",
     "cf:dev": "npm run build && WRANGLER_SEND_METRICS=false WRANGLER_SEND_ERROR_REPORTS=false WRANGLER_LOG_PATH=/tmp/anisonary-wrangler-logs wrangler dev",
     "cf:preview": "npm run build && WRANGLER_SEND_METRICS=false WRANGLER_SEND_ERROR_REPORTS=false WRANGLER_LOG_PATH=/tmp/anisonary-wrangler-logs wrangler versions upload",
@@ -37,6 +37,6 @@
     "wrangler": "^4.120.1"
   },
   "overrides": {
-    "fast-uri": "3.1.5"
+    "fast-uri": "3.1.6"
   }
 }

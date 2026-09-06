@@ -2,6 +2,14 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.26.1] - 2026-09-07
+
+### Security
+
+- upgraded the development dependency `fast-uri` from 3.1.5 to 3.1.6 to address GHSA-5jgf-p345-68v8, GHSA-fph4-wmhf-6fwf, GHSA-f65p-4m7j-42xc, and GHSA-jqff-g426-hqxp;
+- added dependency auditing to local and CI quality gates, including development dependencies;
+- preserved the reviewed catalogue and the static production architecture with no runtime database or application binding.
+
 ## [1.26.0] - 2026-09-02
 
 ### Added
