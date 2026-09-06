@@ -1,11 +1,12 @@
 ---
 import MockNotice from "@/components/common/MockNotice.astro";
 import CatalogStatus from "@/components/common/CatalogStatus.astro";
+import Breadcrumbs from "@/components/common/Breadcrumbs.astro";
 import SeasonDirectory from "@/components/season/SeasonDirectory.astro";
 import SeasonCatalogReferences from "@/components/season/SeasonCatalogReferences.astro";
 import { getDataProvider, shouldRequireApiData } from "@/data/provider";
 import BaseLayout from "@/layouts/BaseLayout.astro";
-import type { PublicSeasonDetail } from "@/types/public-api";
+import type { PublicSeasonDetail, PublicSeasonSummary } from "@/types/public-api";
 import { buildSeasonJsonLd } from "@/utils/seo";
 
 export async function getStaticPaths() {
@@ -16,7 +17,7 @@ export async function getStaticPaths() {
 
     return details.filter((season): season is PublicSeasonDetail => season !== null).map((season) => ({
       params: { season: season.id },
-      props: { season }
+      props: { season, siblings: seasons.filter((entry) => entry.year === season.year) }
     }));
   } catch (error) {
     if (shouldRequireApiData()) throw error;
@@ -25,8 +26,8 @@ export async function getStaticPaths() {
   }
 }
 
-interface Props { season: PublicSeasonDetail; }
-const { season } = Astro.props;
+interface Props { season: PublicSeasonDetail; siblings: PublicSeasonSummary[]; }
+const { season, siblings } = Astro.props;
 const title = `${season.year} ${season.titleZhHant}`;
 const site = Astro.site ?? new URL("https://anisonary.k-y.cc");
 ---
@@ -37,6 +38,7 @@ const site = Astro.site ?? new URL("https://anisonary.k-y.cc");
   jsonLd={buildSeasonJsonLd(season, site)}
 >
   <div class="season-page page-shell">
+    <Breadcrumbs items={[{ label: "動畫目錄", href: "/catalog/" }, { label: String(season.year), href: `/catalog/${season.year}/` }, { label: season.titleZhHant }]} />
     <header class="season-header">
       <div>
         <h1>{title}</h1>
@@ -47,12 +49,19 @@ const site = Astro.site ?? new URL("https://anisonary.k-y.cc");
         {!season.isMockData && <CatalogStatus compact verifiedAt={season.verifiedAt} />}
       </div>
     </header>
+    <nav class="season-siblings" aria-label={`${season.year} 年季度導覽`}>
+      {siblings.map((entry) => <a href={`/seasons/${entry.id}/`} aria-current={entry.id === season.id ? "page" : undefined}>{entry.titleZhHant.replace("動畫", "")}</a>)}
+      <a href="/catalog/">其他年份</a>
+    </nav>
     <SeasonDirectory anime={season.anime} />
     <SeasonCatalogReferences references={season.catalogReferences} />
   </div>
 </BaseLayout>
 
 <style>
+  .season-siblings { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1.25rem; }
+  .season-siblings a { border: 1px solid var(--color-border-strong); border-radius: var(--radius-control); color: var(--color-muted); font-size: 0.85rem; padding: 0.7rem 1rem; text-decoration: none; }
+  .season-siblings a[aria-current], .season-siblings a:hover { color: var(--color-accent); border-color: var(--color-accent); }
   .season-page { padding-top: clamp(3rem, 6vw, 5.2rem); }
   .season-header h1 { font-size: clamp(2.35rem, 5vw, 4.15rem); letter-spacing: -0.045em; line-height: 1; margin: 0; }
   .season-header > div > p { color: var(--color-muted); margin: 0.65rem 0 0; }

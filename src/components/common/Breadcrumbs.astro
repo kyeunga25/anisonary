@@ -1,0 +1,22 @@
+---
+interface Props { items: Array<{ label: string; href?: string }>; }
+const { items } = Astro.props;
+---
+<nav class="breadcrumbs" aria-label="所在位置">
+  <ol>
+    {items.map((item, index) => (
+      <li>
+        {index > 0 && <span aria-hidden="true">/</span>}
+        {item.href ? <a href={item.href}>{item.label}</a> : <span aria-current="page">{item.label}</span>}
+      </li>
+    ))}
+  </ol>
+</nav>
+<style>
+  .breadcrumbs { margin-bottom: 1.5rem; }
+  ol { display: flex; flex-wrap: wrap; gap: 0.5rem 0.75rem; list-style: none; margin: 0; padding: 0; }
+  li { align-items: baseline; color: var(--color-muted); display: flex; font-size: 0.85rem; gap: 0.75rem; line-height: 1.6; min-width: 0; }
+  a { color: var(--color-muted); text-underline-offset: 0.2em; }
+  a:hover { color: var(--color-accent); }
+  [aria-current] { color: var(--color-ink); }
+</style>

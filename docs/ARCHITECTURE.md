@@ -37,7 +37,12 @@ Astro output ──► generated CSP ──► bounded service worker ──► 
 | `src/data/curated-data.ts` | 其餘少量可審核 override 與公開 record 派生 |
 | `src/types/public-api.ts` | HTML 與 static API 共用的公開契約 |
 | `src/data/api-provider.ts` | 外部 JSON 的 fail-closed parser 與 request boundary |
-| `src/data/page-data.ts` | 頁面需要的 provider 查詢與錯誤狀態 |
+| `src/data/page-data.ts` | 頁面需要的有界 provider 查詢、季度 membership 與錯誤狀態 |
+| `src/data/catalog-limits.ts` | 目錄、搜尋與 live smoke 共用的作品、引用與 concurrency 上限 |
+| `src/utils/catalog-directory.ts` | 從既有快照派生年代／年份／季度分類，不建立另一份資料來源 |
+| `src/utils/catalog-search-index.ts` | 有 UTF-8 byte budget 的公開文字索引、跨季 membership、歌曲與 creator 篩選 |
+| `src/pages/catalog/` | 固定入口下的年代目錄與年份靜態頁 |
+| `src/scripts/catalog-search.ts` | 本機搜尋、每頁最多 12 套作品的 DOM，以及歌曲 anchor 導航 |
 | `src/pages/api/v1/` | build-time 靜態 JSON routes |
 | `scripts/generate-security-headers.mjs` | 由 build output 產生 hash-based CSP |
 | `scripts/generate-service-worker.mjs` | 由 build output 產生同源、無 runtime write 的離線清單 |

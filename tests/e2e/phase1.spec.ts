@@ -456,7 +456,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
   await expect(page.getByRole("heading", { name: "跨季度搜尋" })).toBeVisible();
   await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1875");
 
-  const search = page.getByRole("searchbox", { name: "搜尋動畫或歌曲" });
+  const search = page.getByRole("searchbox", { name: "搜尋動畫、歌曲或創作者" });
   await search.fill("ＭＹＴＨ & ＲＯＩＤ");
   await expect(page.locator("[data-catalog-anime-count]")).toHaveText("7");
   await expect(page.locator("[data-catalog-theme-count]")).toHaveText("7");
@@ -856,86 +856,117 @@ test("mobile season filters remain keyboard-operable", async ({ page }) => {
   await expect(page.getByRole("heading", { name: "2026 夏季動畫" })).toBeVisible();
 });
 
-test("responsive navigation uses a desktop sidebar and a compact mobile menu", async ({ page }) => {
+test("catalogue navigation stays compact and drills down through published years and quarters", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 });
-  await page.goto("/seasons/2025-spring/");
-
+  await page.goto("/catalog/");
   const navigation = page.getByRole("navigation", { name: "主要導覽" });
-  const desktopHeader = page.locator(".site-header");
-  const desktopHeaderBox = await desktopHeader.boundingBox();
-  const year2025 = navigation.locator('[aria-labelledby="site-nav-seasons-2025"]');
-  const year2024 = navigation.locator('[aria-labelledby="site-nav-seasons-2024"]');
-  const year2023 = navigation.locator('[aria-labelledby="site-nav-seasons-2023"]');
-  const year2022 = navigation.locator('[aria-labelledby="site-nav-seasons-2022"]');
-  const year2021 = navigation.locator('[aria-labelledby="site-nav-seasons-2021"]');
-  const year2020 = navigation.locator('[aria-labelledby="site-nav-seasons-2020"]');
-  const year2019 = navigation.locator('[aria-labelledby="site-nav-seasons-2019"]');
-
-  expect(desktopHeaderBox).not.toBeNull();
-  expect(desktopHeaderBox!.width).toBeLessThanOrEqual(280);
-  expect(desktopHeaderBox!.height).toBeGreaterThanOrEqual(850);
-  await expect(navigation).toBeVisible();
-  await expect(navigation.getByText("探索", { exact: true })).toBeVisible();
-  await expect(navigation.getByText("季度", { exact: true })).toBeVisible();
-  await expect(navigation.getByText("資訊", { exact: true })).toBeVisible();
-  await expect(navigation.getByText("2026", { exact: true })).toBeVisible();
-  await expect(navigation.getByText("2025", { exact: true })).toBeVisible();
-  await expect(navigation.getByText("2024", { exact: true })).toBeVisible();
-  await expect(navigation.getByText("2023", { exact: true })).toBeVisible();
-  await expect(navigation.getByText("2022", { exact: true })).toBeVisible();
-  await expect(navigation.getByText("2021", { exact: true })).toBeVisible();
-  await expect(navigation.getByText("2020", { exact: true })).toBeVisible();
-  await expect(navigation.getByText("2019", { exact: true })).toBeVisible();
-  await expect(year2024.getByRole("link", { name: "秋季" })).toBeVisible();
-  await expect(year2024.getByRole("link", { name: "春季" })).toBeVisible();
-  await expect(year2024.getByRole("link", { name: "冬季" })).toBeVisible();
-  await expect(year2023.getByRole("link", { name: "秋季" })).toBeVisible();
-  await expect(year2023.getByRole("link", { name: "夏季" })).toBeVisible();
-  await expect(year2023.getByRole("link", { name: "春季" })).toBeVisible();
-  await expect(year2023.getByRole("link", { name: "冬季" })).toBeVisible();
-  await expect(year2022.getByRole("link", { name: "秋季" })).toBeVisible();
-  await expect(year2022.getByRole("link", { name: "夏季" })).toBeVisible();
-  await expect(year2022.getByRole("link", { name: "春季" })).toBeVisible();
-  await expect(year2022.getByRole("link", { name: "冬季" })).toBeVisible();
-  await expect(year2021.getByRole("link", { name: "秋季" })).toBeVisible();
-  await expect(year2021.getByRole("link", { name: "夏季" })).toBeVisible();
-  await expect(year2021.getByRole("link", { name: "春季" })).toBeVisible();
-  await expect(year2021.getByRole("link", { name: "冬季" })).toBeVisible();
-  await expect(year2020.getByRole("link", { name: "秋季" })).toBeVisible();
-  await expect(year2020.getByRole("link", { name: "夏季" })).toBeVisible();
-  await expect(year2020.getByRole("link", { name: "春季" })).toBeVisible();
-  await expect(year2020.getByRole("link", { name: "冬季" })).toBeVisible();
-  await expect(year2019.getByRole("link", { name: "秋季" })).toBeVisible();
-  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(27);
-  await expect(page.getByLabel("季度資料狀態")).toContainText(
-    "已發布 27 個季度、1,875 個作品頁與 4,124 首 OP／ED"
-  );
-  await expect(year2025.getByRole("link", { name: "春季" })).toHaveAttribute("aria-current", "page");
-  await expect(page.getByRole("navigation", { name: "切換季度" })).toHaveCount(0);
+  await expect(navigation.getByRole("link")).toHaveCount(5);
+  await expect(navigation.getByRole("link", { name: /動畫目錄/ })).toHaveAttribute("aria-current", "page");
+  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(0);
   await expect(page.getByRole("button", { name: "選單" })).toBeHidden();
+  await expect(page.locator('.catalog-decade').first()).toHaveAttribute("open", "");
+  const olderDecade = page.locator('.catalog-decade').last();
+  await expect(olderDecade).not.toHaveAttribute("open");
+  await olderDecade.locator("summary").focus();
+  await page.keyboard.press("Enter");
+  await expect(olderDecade.getByRole("link", { name: /2019/ })).toBeVisible();
+  await page.getByRole("link", { name: /2025.*3 個季度/ }).click();
+  await expect(page.getByRole("heading", { name: "2025 動畫目錄" })).toBeVisible();
+  const quarters = page.getByRole("list", { name: "2025 已收錄季度" });
+  await expect(quarters.getByRole("link")).toHaveCount(3);
+  await expect(quarters.locator('a[href="/seasons/2025-fall/"]')).toHaveCount(0);
+  await quarters.getByRole("link", { name: /春季動畫/ }).click();
+  await expect(page).toHaveURL(/\/seasons\/2025-spring\/$/);
+  await expect(navigation.getByRole("link", { name: /動畫目錄/ })).toHaveAttribute("aria-current", "true");
+  await expect(page.getByRole("navigation", { name: "2025 年季度導覽" }).getByRole("link", { name: "春季" })).toHaveAttribute("aria-current", "page");
+  await expect(page.getByRole("navigation", { name: "所在位置" }).getByRole("link", { name: "2025", exact: true })).toHaveAttribute("href", "/catalog/2025/");
+  await expect(page.getByLabel("季度資料狀態")).toContainText("已發布 27 個季度、1,875 個作品頁與 4,124 首 OP／ED");
 
   await page.setViewportSize({ width: 390, height: 844 });
   await page.reload();
-
-  const menuButton = page.getByRole("button", { name: "選單" });
-  const mobileHeaderBox = await desktopHeader.boundingBox();
-  expect(mobileHeaderBox).not.toBeNull();
-  expect(mobileHeaderBox!.height).toBeLessThanOrEqual(80);
-  await expect(menuButton).toBeVisible();
-  await expect(menuButton).toHaveAttribute("aria-expanded", "false");
+  const menu = page.getByRole("button", { name: "選單" });
+  expect((await page.locator(".site-header").boundingBox())!.height).toBeLessThanOrEqual(80);
   await expect(navigation).toBeHidden();
-
-  await menuButton.click();
-  await expect(menuButton).toHaveAttribute("aria-expanded", "true");
-  await expect(navigation).toBeVisible();
-  await expect(year2025.getByRole("link", { name: "春季" })).toHaveAttribute("aria-current", "page");
-  await expect(navigation.locator('a[href^="/seasons/"]')).toHaveCount(27);
-
-  await menuButton.press("Escape");
-  await expect(menuButton).toHaveAttribute("aria-expanded", "false");
+  await menu.focus();
+  await menu.press("Enter");
+  await expect(menu).toHaveAttribute("aria-expanded", "true");
+  await expect(navigation.getByRole("link").first()).toBeFocused();
+  await page.keyboard.press("Tab");
+  await expect(navigation.getByRole("link", { name: /動畫目錄/ })).toBeFocused();
+  await page.keyboard.press("Escape");
+  await expect(menu).toBeFocused();
   await expect(navigation).toBeHidden();
-  await expect(menuButton).toBeFocused();
-  expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+  await menu.click();
+  await navigation.getByRole("link", { name: /動畫目錄/ }).click();
+  await expect(page).toHaveURL(/\/catalog\/$/);
+  await expect(menu).toHaveAttribute("aria-expanded", "false");
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+});
+
+test("search paginates a bounded DOM and combines year, quarter, creator, and song filters", async ({ page }) => {
+  await page.goto("/search/");
+  await expect(page.locator("[data-catalog-search]")).toHaveAttribute("data-search-ready", "true");
+  const results = page.locator("[data-catalog-result]");
+  await expect(results).toHaveCount(12);
+  const firstTitle = await results.first().locator("h2").textContent();
+  await page.getByRole("button", { name: "下一頁" }).click();
+  await expect(page.locator("[data-search-page]")).toContainText("第 2／157 頁");
+  await expect(page.locator("#catalog-search-results")).toBeFocused();
+  await expect(results).toHaveCount(12);
+  expect(await results.first().locator("h2").textContent()).not.toBe(firstTitle);
+  const input = page.getByRole("searchbox", { name: "搜尋動畫、歌曲或創作者" });
+  await page.getByLabel("年份", { exact: true }).selectOption("2026");
+  await page.getByLabel("季度", { exact: true }).selectOption("summer");
+  await input.fill("ゼロから");
+  await expect(results).toHaveCount(1);
+  await expect(results.locator('a[href="/anime/re-zero-season-4/"]').first()).toBeVisible();
+  await expect(results.locator(".catalog-result__season")).toHaveAttribute("href", "/seasons/2026-summer/");
+  await page.getByLabel("季度", { exact: true }).selectOption("spring");
+  await expect(results.locator(".catalog-result__season")).toHaveAttribute("href", "/seasons/2026-spring/");
+  await input.fill("");
+  await page.getByLabel("年份", { exact: true }).selectOption("2025");
+  await page.getByLabel("季度", { exact: true }).selectOption("fall");
+  await expect(page.locator("[data-catalog-search-empty]")).toBeVisible();
+  await expect(page.getByRole("navigation", { name: "搜尋結果分頁" })).toBeHidden();
+  await page.getByRole("button", { name: "重設" }).click();
+  await expect(input).toBeFocused();
+  await expect(results).toHaveCount(12);
+  await page.getByLabel("搜尋範圍").selectOption("creators");
+  await input.fill("米津玄師");
+  await expect(page.getByRole("link", { name: "KICK BACK", exact: true })).toBeVisible();
+  await page.getByLabel("搜尋範圍").selectOption("songs");
+  await page.getByLabel("歌曲用途").selectOption("ED");
+  await input.fill("KICK BACK");
+  await expect(results).toHaveCount(0);
+  await page.getByLabel("歌曲用途").selectOption("OP");
+  await expect(results).toHaveCount(1);
+  expect(new URL(page.url()).search).toBe("");
+  await page.getByRole("link", { name: "KICK BACK", exact: true }).click();
+  expect(new URL(page.url()).hash).toMatch(/^#theme-/);
+  const target = page.locator(`[id="${decodeURIComponent(new URL(page.url()).hash.slice(1))}"]`);
+  await expect(target.getByRole("heading", { name: "KICK BACK", exact: true })).toBeVisible();
+  await expect(target.locator("iframe")).toHaveCount(0);
+});
+
+test("catalogue and search fit narrow devices, with native browsing available without JavaScript", async ({ page, browser }) => {
+  await page.setViewportSize({ width: 320, height: 740 });
+  for (const path of ["/catalog/", "/catalog/2025/", "/search/"]) {
+    await page.goto(path);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  }
+  await page.getByRole("searchbox", { name: "搜尋動畫、歌曲或創作者" }).fill("KICK BACK");
+  await expect(page.getByRole("link", { name: "KICK BACK", exact: true })).toBeVisible();
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  const context = await browser.newContext({ javaScriptEnabled: false, viewport: { width: 390, height: 844 } });
+  const nativePage = await context.newPage();
+  await nativePage.goto(`${e2eOrigin}/catalog/`);
+  await expect(nativePage.getByRole("navigation", { name: "主要導覽" }).getByRole("link")).toHaveCount(5);
+  await expect(nativePage.getByRole("navigation", { name: "主要導覽" })).toBeVisible();
+  await nativePage.locator(".catalog-decade").last().locator("summary").click();
+  await nativePage.getByRole("link", { name: /2019.*1 個季度/ }).click();
+  await nativePage.getByRole("link", { name: /秋季動畫.*67 套動畫/ }).click();
+  await expect(nativePage.getByRole("heading", { name: "2019 秋季動畫" })).toBeVisible();
+  await context.close();
 });
 
 test("unknown routes render the public 404 state and stay out of the index", async ({ page }) => {

@@ -23,7 +23,7 @@ const sourceRoleLabels = {
 } as const;
 ---
 
-<article class="theme-card">
+<article class="theme-card" id={`theme-${theme.id}`}>
   <div class="theme-card__summary">
     <div class:list={["theme-card__type", `theme-card__type--${theme.type.toLowerCase()}`]} aria-label={`${theme.type} ${theme.sequence}`}>
       <strong>{theme.type}{theme.sequence}</strong>
@@ -85,6 +85,7 @@ const sourceRoleLabels = {
 </article>
 
 <style>
+  .theme-card { scroll-margin-top: 6rem; }
   .theme-card { background: var(--color-surface); border: 1px solid var(--color-border-strong); border-radius: var(--radius-card); overflow: hidden; }
   .theme-card + .theme-card { margin-top: 0.8rem; }
   .theme-card__summary { display: grid; grid-template-columns: 6.2rem minmax(13rem, 1.3fr) minmax(12rem, 1fr) minmax(14rem, 0.95fr); min-height: 9rem; }
