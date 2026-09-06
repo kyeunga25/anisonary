@@ -1,12 +1,12 @@
 import type { PublicDataProvider } from "@/data/provider";
+import { CATALOG_FETCH_CONCURRENCY, MAX_CATALOG_ANIME, MAX_CATALOG_REFERENCES } from "@/data/catalog-limits";
 import type {
   PublicAnimeCard,
   PublicSeasonDetail,
   PublicSeasonSummary
 } from "@/types/public-api";
 
-const MAX_SMOKE_ANIME = 2_000;
-const SMOKE_CONCURRENCY = 8;
+const SMOKE_CONCURRENCY = CATALOG_FETCH_CONCURRENCY;
 
 export interface ApiSmokeResult {
   seasonCount: number;
@@ -88,7 +88,7 @@ export async function smokePublicApi(
   });
 
   const cards = seasonDetails.flatMap((season) => season.anime);
-  if (cards.length > MAX_SMOKE_ANIME) fail("catalogue exceeds the 2,000-entry smoke limit");
+  if (cards.length > MAX_CATALOG_REFERENCES) fail("catalogue exceeds the season reference limit");
 
   const cardsBySlug = new Map<string, PublicAnimeCard>();
   for (const card of cards) {
@@ -98,6 +98,7 @@ export async function smokePublicApi(
     }
     cardsBySlug.set(card.slug, card);
   }
+  if (cardsBySlug.size > MAX_CATALOG_ANIME) fail("catalogue exceeds the unique anime limit");
 
   await mapWithConcurrency([...cardsBySlug.values()], async (card) => {
     const detail = await provider.getAnime(card.slug);

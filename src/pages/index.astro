@@ -31,11 +31,12 @@ const isMockData = data.status === "ready" && Boolean(data.current?.isMockData |
           瀏覽 2026 夏季
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M14 7l5 5-5 5" /></svg>
         </a>
-        <a class="button button--outline" href="/seasons/2026-spring/">
-          查看 2026 春季
+        <a class="button button--outline" href="/catalog/">
+          按年份瀏覽
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M14 7l5 5-5 5" /></svg>
         </a>
       </div>
+      <p class="hero__search"><a href="/search/">搜尋動畫、歌曲與創作者</a></p>
       {isMockData ? <MockNotice /> : data.current && <CatalogStatus verifiedAt={data.current.verifiedAt} />}
     </div>
     <div class="hero__visual">
@@ -100,6 +101,7 @@ const isMockData = data.status === "ready" && Boolean(data.current?.isMockData |
 </BaseLayout>
 
 <style>
+  .hero__search a { color: var(--color-accent); font-size: 0.95rem; text-underline-offset: 0.2em; }
   .hero {
     align-items: center;
     display: grid;

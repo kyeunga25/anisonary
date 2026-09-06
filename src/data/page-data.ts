@@ -1,4 +1,5 @@
 import type { PublicDataProvider } from "@/data/provider";
+import { CATALOG_FETCH_CONCURRENCY, MAX_CATALOG_ANIME, MAX_CATALOG_REFERENCES } from "@/data/catalog-limits";
 import type {
   PublicAnimeDetail,
   PublicSeasonDetail,
@@ -25,6 +26,7 @@ export type CatalogSearchData =
       entries: Array<{
         anime: PublicAnimeDetail;
         season: PublicSeasonSummary;
+        seasons: PublicSeasonSummary[];
         isMockData: boolean;
       }>;
     }
@@ -33,8 +35,9 @@ export type CatalogSearchData =
       entries: [];
     };
 
-const CATALOG_FETCH_CONCURRENCY = 8;
-const MAX_CATALOG_SEARCH_ENTRIES = 2_000;
+export type CatalogDirectoryData =
+  | { status: "ready"; seasons: PublicSeasonDetail[] }
+  | { status: "error"; seasons: [] };
 
 async function mapWithConcurrency<T, Result>(
   values: readonly T[],
@@ -106,9 +109,17 @@ export async function loadCatalogSearchData(
         isMockData: Boolean(detail?.isMockData)
       }))
     );
+    if (seasonalCards.length > MAX_CATALOG_REFERENCES) {
+      throw new Error("Catalogue season reference limit exceeded");
+    }
     const cards = [...new Map(seasonalCards.map((entry) => [entry.card.slug, entry])).values()];
-    if (cards.length > MAX_CATALOG_SEARCH_ENTRIES) {
+    if (cards.length > MAX_CATALOG_ANIME) {
       throw new Error("Catalogue search entry limit exceeded");
+    }
+
+    const memberships = new Map<string, PublicSeasonSummary[]>();
+    for (const { card, season } of seasonalCards) {
+      memberships.set(card.slug, [...(memberships.get(card.slug) ?? []), season]);
     }
 
     const entries = await mapWithConcurrency(
@@ -117,7 +128,7 @@ export async function loadCatalogSearchData(
       async ({ card, season, isMockData }) => {
         const anime = await provider.getAnime(card.slug);
         if (!anime) throw new Error(`Anime detail is missing for ${card.slug}`);
-        return { anime, season, isMockData };
+        return { anime, season, seasons: memberships.get(card.slug) ?? [season], isMockData };
       }
     );
 
@@ -125,5 +136,27 @@ export async function loadCatalogSearchData(
   } catch (error) {
     if (failOnError) throw error;
     return { status: "error", entries: [] };
+  }
+}
+
+export async function loadCatalogDirectoryData(
+  provider: PublicDataProvider,
+  failOnError = false
+): Promise<CatalogDirectoryData> {
+  try {
+    const summaries = await provider.getSeasons();
+    const seasons = await mapWithConcurrency(summaries, CATALOG_FETCH_CONCURRENCY, async (summary) => {
+      const detail = await provider.getSeason(summary.id);
+      if (!detail || detail.id !== summary.id) throw new Error("Catalogue season detail is missing or inconsistent");
+      return detail;
+    });
+    const cards = seasons.flatMap((season) => season.anime);
+    if (cards.length > MAX_CATALOG_REFERENCES || new Set(cards.map((card) => card.slug)).size > MAX_CATALOG_ANIME) {
+      throw new Error("Catalogue directory limit exceeded");
+    }
+    return { status: "ready", seasons };
+  } catch (error) {
+    if (failOnError) throw error;
+    return { status: "error", seasons: [] };
   }
 }

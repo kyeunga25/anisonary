@@ -1,0 +1,49 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import Breadcrumbs from "@/components/common/Breadcrumbs.astro";
+import { getDataProvider, shouldRequireApiData } from "@/data/provider";
+import { loadCatalogDirectoryData } from "@/data/page-data";
+import { groupCatalogYears } from "@/utils/catalog-directory";
+import "@/styles/catalog.css";
+
+export async function getStaticPaths() {
+  const data = await loadCatalogDirectoryData(getDataProvider(), shouldRequireApiData());
+  const years = groupCatalogYears(data.seasons);
+  return years.map((entry, index) => ({
+    params: { year: String(entry.year) },
+    props: { entry, newerYear: years[index - 1]?.year, olderYear: years[index + 1]?.year }
+  }));
+}
+interface Props {
+  entry: ReturnType<typeof groupCatalogYears>[number];
+  newerYear?: number;
+  olderYear?: number;
+}
+const { entry, newerYear, olderYear } = Astro.props;
+---
+<BaseLayout title={`${entry.year} 動畫目錄`} description={`${entry.year} 年已收錄的動畫季度與 OP／ED 目錄。選擇季度查看動畫與歌曲來源。`}>
+  <div class="catalog-page page-shell">
+    <Breadcrumbs items={[{ label: "動畫目錄", href: "/catalog/" }, { label: String(entry.year) }]} />
+    <header class="catalog-heading">
+      <div>
+        <h1>{entry.year} 動畫目錄</h1>
+        <p lang="en">Choose a season</p>
+        <p>已收錄 {entry.seasons.length} 個季度、{entry.animeCount} 套動畫。選擇季度後，可按播出日、作品名稱或正版影片篩選。</p>
+      </div>
+      <a class="button button--outline" href="/search/">搜尋動畫與歌曲</a>
+    </header>
+    <ul class="catalog-quarters" aria-label={`${entry.year} 已收錄季度`}>
+      {entry.seasons.map((season) => (
+        <li><a href={`/seasons/${season.id}/`}>
+          <span><strong>{season.titleZhHant}</strong><small>{season.anime.length} 套動畫 · {season.anime.reduce((sum, anime) => sum + anime.opCount + anime.edCount, 0)} 筆 OP／ED</small></span>
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 10h14M11 4l6 6-6 6" /></svg>
+        </a></li>
+      ))}
+    </ul>
+    <p class="catalog-meta">只顯示已發布的季度；未列出的季度尚未收錄。</p>
+    <nav class="catalog-adjacent" aria-label="切換年份">
+      {newerYear && <a href={`/catalog/${newerYear}/`}>較新一年：{newerYear}</a>}
+      {olderYear && <a href={`/catalog/${olderYear}/`}>較早一年：{olderYear}</a>}
+    </nav>
+  </div>
+</BaseLayout>

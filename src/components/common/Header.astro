@@ -1,51 +1,30 @@
 ---
 import Logo from "@/components/common/Logo.astro";
 import ThemeToggle from "@/components/common/ThemeToggle.astro";
-import { curatedSeasons } from "@/data/curated-data";
-
 const pathname = Astro.url.pathname;
-const quarterLabels = {
-  winter: "冬季",
-  spring: "春季",
-  summer: "夏季",
-  fall: "秋季"
-} as const;
-const seasonSections = [...curatedSeasons.reduce((groups, season) => {
-  const links = groups.get(season.year) ?? [];
-  links.push({
-    href: `/seasons/${season.id}/`,
-    label: quarterLabels[season.quarter]
-  });
-  groups.set(season.year, links);
-  return groups;
-}, new Map<number, Array<{ href: string; label: string }>>())]
-  .map(([year, links]) => ({ label: String(year), links }));
 const navigationGroups = [
   {
     id: "explore",
     label: "探索",
     links: [
-      { href: "/", label: "首頁" },
-      { href: "/search/", label: "搜尋" }
+      { href: "/", label: "首頁", english: "Home" },
+      { href: "/catalog/", label: "動畫目錄", english: "Browse by year" },
+      { href: "/search/", label: "搜尋", english: "Anime · Songs · Creators" }
     ]
-  },
-  {
-    id: "seasons",
-    label: "季度",
-    sections: seasonSections
   },
   {
     id: "information",
     label: "資訊",
     links: [
-      { href: "/sources/", label: "資料來源" },
-      { href: "/about/", label: "關於" }
+      { href: "/sources/", label: "資料來源", english: "Sources" },
+      { href: "/about/", label: "關於", english: "About" }
     ]
   }
 ];
 
 const isActive = (href: string) => {
   if (href === "/") return pathname === "/";
+  if (href === "/catalog/") return /^\/(catalog|seasons|anime)(\/|$)/.test(pathname);
   const base = href.replace(/\/$/, "");
   return pathname === base || pathname.startsWith(`${base}/`);
 };
@@ -58,26 +37,16 @@ const isActive = (href: string) => {
       {navigationGroups.map((group) => (
         <div class="site-nav__group">
           <p class="site-nav__label" id={`site-nav-${group.id}`}>{group.label}</p>
-          {"sections" in group ? group.sections.map((section) => (
-            <div class="site-nav__year-group">
-              <p class="site-nav__year" id={`site-nav-${group.id}-${section.label}`}>{section.label}</p>
-              <ul aria-labelledby={`site-nav-${group.id}-${section.label}`}>
-                {section.links.map((link) => (
-                  <li>
-                    <a href={link.href} aria-current={isActive(link.href) ? "page" : undefined}>{link.label}</a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )) : (
-            <ul aria-labelledby={`site-nav-${group.id}`}>
-              {group.links.map((link) => (
-                <li>
-                  <a href={link.href} aria-current={isActive(link.href) ? "page" : undefined}>{link.label}</a>
-                </li>
-              ))}
-            </ul>
-          )}
+          <ul aria-labelledby={`site-nav-${group.id}`}>
+            {group.links.map((link) => (
+              <li>
+                <a href={link.href} aria-current={isActive(link.href) ? (pathname === link.href ? "page" : "true") : undefined}>
+                  <span>{link.label}</span>
+                  <small lang="en">{link.english}</small>
+                </a>
+              </li>
+            ))}
+          </ul>
         </div>
       ))}
     </nav>
@@ -98,6 +67,15 @@ const isActive = (href: string) => {
       </button>
     </div>
   </div>
+  <noscript>
+  <style is:inline>
+    @media (max-width: 959px) {
+      .site-layout > .site-header { position: static; }
+      .site-header .site-nav { display: grid; position: static; max-height: none; box-shadow: none; }
+      .site-header .site-header__actions { display: none; }
+    }
+  </style>
+  </noscript>
 </header>
 
 <script>
@@ -115,7 +93,15 @@ const isActive = (href: string) => {
     };
 
     button.addEventListener("click", () => {
-      setOpen(button.getAttribute("aria-expanded") !== "true");
+      const open = button.getAttribute("aria-expanded") !== "true";
+      setOpen(open);
+      if (open) navigation.querySelector<HTMLAnchorElement>("a")?.focus();
+    });
+
+    header.addEventListener("focusout", () => {
+      requestAnimationFrame(() => {
+        if (!header.contains(document.activeElement)) setOpen(false);
+      });
     });
 
     navigation.querySelectorAll("a").forEach((link) => {
@@ -181,17 +167,6 @@ const isActive = (href: string) => {
     padding: 0;
   }
 
-  .site-nav__year-group + .site-nav__year-group { margin-top: 0.7rem; }
-
-  .site-nav__year {
-    color: var(--color-muted);
-    font-size: 0.66rem;
-    font-variant-numeric: tabular-nums;
-    font-weight: 720;
-    letter-spacing: 0.08em;
-    margin: 0 0 0.15rem 0.78rem;
-  }
-
   .site-nav a {
     border-left: 2px solid transparent;
     color: var(--color-muted);
@@ -209,11 +184,13 @@ const isActive = (href: string) => {
     color: var(--color-ink);
   }
 
-  .site-nav a[aria-current="page"] {
+  .site-nav a[aria-current] {
     background: color-mix(in srgb, var(--color-accent) 9%, transparent);
     border-left-color: var(--color-accent);
     color: var(--color-accent);
   }
+
+  .site-nav small { display: block; font-size: 0.7rem; font-weight: 450; line-height: 1.5; margin-top: 0.2rem; }
 
   .site-header__actions {
     align-items: center;

@@ -113,7 +113,7 @@ describe("Phase 1 public components", () => {
     expect(sources).toContain("最後驗證");
     expect(sources).toContain("第一方");
     expect(sources).toContain("日文");
-    expect(pending).toContain("主題曲資料尚未公布");
+    expect(pending).toContain("主題曲資料尚待補充");
     expect(notUsed).toContain("本作不設獨立 OP／ED");
     expect(notUsed).toContain("背景配樂不會當作 OP／ED 收錄");
     expect(error).toContain('role="alert"');

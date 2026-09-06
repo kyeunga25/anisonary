@@ -4,6 +4,7 @@ import { CuratedProvider } from "@/data/curated-provider";
 import { curatedAnimeDetails, curatedSeasonDetails, curatedSeasons } from "@/data/curated-data";
 import { MockProvider } from "@/data/mock-provider";
 import type { PublicDataProvider } from "@/data/provider";
+import { MAX_CATALOG_ANIME } from "@/data/catalog-limits";
 
 describe("home page data states", () => {
   it("returns a ready state when the provider responds", async () => {
@@ -138,7 +139,7 @@ describe("catalogue search data states", () => {
   });
 
   it("fails closed before detail requests when the search catalogue is too large", async () => {
-    const cards = Array.from({ length: 2_001 }, (_, index) => ({
+    const cards = Array.from({ length: MAX_CATALOG_ANIME + 1 }, (_, index) => ({
       ...structuredClone(curatedSeasonDetails[0]!.anime[0]!),
       id: `oversized-${index}`,
       slug: `oversized-${index}`

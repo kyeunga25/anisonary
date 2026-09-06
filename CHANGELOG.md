@@ -2,6 +2,18 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.27.0] - 2026-09-07
+
+### Changed
+
+- replaced the expanding quarterly sidebar with five stable navigation links and a decade → year → quarter catalogue;
+- added breadcrumbs and navigation between published years and quarters, preserving every existing anime and season URL;
+- added local search filters for anime, songs, creators, year, quarter, and OP／ED, with direct links to the matching song and credits;
+- render at most 12 anime search results per page instead of the complete catalogue DOM, while retaining multilingual matching and cross-season memberships;
+- share bounded limits for 10,000 unique works, 20,000 seasonal references, eight concurrent provider requests, and an 8 MiB search index;
+- improve mobile keyboard focus, JavaScript-free catalogue navigation, and wording for theme records awaiting sufficient evidence;
+- preserve all 27 seasonal snapshots, 1,875 unique works, 4,124 OP／ED records, and public API v1 content; production remains Cloudflare Workers Static Assets with no application or database binding.
+
 ## [1.26.1] - 2026-09-07
 
 ### Security

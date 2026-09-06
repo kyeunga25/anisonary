@@ -1,6 +1,6 @@
 # Anisonary Public Static API v1 Contract
 
-本文件定義同源靜態 JSON API v1。它由 repository-reviewed snapshot 在 Astro build-time 產生，公開 response 必須符合 `src/types/public-api.ts`，不得包含 crawler、private source adapter、internal confidence rules 或未公開候選資料。v1.26.0 延續既有 endpoint 與結構化歌曲來源，沒有新增 runtime API。
+本文件定義同源靜態 JSON API v1。它由 repository-reviewed snapshot 在 Astro build-time 產生，公開 response 必須符合 `src/types/public-api.ts`，不得包含 crawler、private source adapter、internal confidence rules 或未公開候選資料。v1.27.0 的目錄與搜尋重組延續既有 endpoint、JSON 內容及結構化歌曲來源，沒有新增 runtime API。
 
 ## Build-time integration
 
@@ -34,7 +34,7 @@ PUBLIC_API_BASE_URL=https://anisonary.k-y.cc/api/v1 npm run api:check
 - ID／slug、季度 identity、星期、深夜時間、數字範圍、array 上限、HTTPS URL、YouTube ID 及 ISO 8601 日期均需合法；
 - season list 不可重複，detail response identity 必須與 request path 一致，動畫的 OP／ED 數量及影片狀態必須與 theme 內容相符；
 - poster／banner 只接受已核對的 `https://s4.anilist.co` media origin；Annict／Bangumi catalog reference identity 必須對應各自固定的 catalog、documentation 及 API origin；
-- 跨季度索引最多接收 2,000 個動畫條目，season/detail request concurrency 固定上限為 8；動畫靜態頁亦共用相同完整性與 concurrency gate；
+- 跨季度索引與 live smoke 共用最多 10,000 個唯一作品、20,000 筆季度引用的上限，先檢查引用數量再按 slug 去重；season/detail request concurrency 固定上限為 8，動畫靜態頁亦共用 gate；搜尋的公開文字索引另有 8 MiB UTF-8 上限，超出即停止 build；
 - provider 只重建公開契約欄位，未知欄位不會穿過 data layer，避免 private adapter、內部 confidence 或其他 backend metadata 意外進入頁面資料。
 - 每筆 theme 必須是 `reviewed`，並同時有 `first_party` 與 `cross_check` 來源；來源 URL、語言、角色、核對日期、唯一性及 legacy labels 一致性全部 fail closed。
 - season detail／catalog reference 及 anime detail／source 同樣必須是 `reviewed`，公開 checked date、language、role，且 parent／nested 日期保持一致。
