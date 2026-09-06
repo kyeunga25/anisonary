@@ -25,6 +25,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Audit all dependencies
+        run: npm audit --audit-level=low
+
       - name: Public privacy and secret boundary
         run: npm run public:check
 
