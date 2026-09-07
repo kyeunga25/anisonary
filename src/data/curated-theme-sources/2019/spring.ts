@@ -2,6 +2,29 @@ import { curated2019SpringSeeds } from "@/data/curated-seeds/2019/spring";
 import type { CuratedThemeSourceOverrideMap, CuratedThemeSourceSeed } from "@/data/curated-theme-sources/types";
 
 const firstPartyUrlsByTheme: Readonly<Record<string, readonly string[]>> = {
+  "100112:OP:1": [
+    "https://kenja-no-mago.jp/products/",
+    "https://iris.dive2ent.com/discography/detail.php?id=1016413",
+    "https://iris.dive2ent.com/discography/detail.php?id=1017265"
+  ],
+  "100112:ED:1": [
+    "https://avex.jp/yoshinanami/discography/detail.php?id=1016506",
+    "https://kenja-no-mago.jp/news/?id=20190510&mode=detail"
+  ],
+  "101597:OP:1": [
+    "https://www.teichiku.co.jp/artist/fu-danjuku/discography/TECI-681.html",
+    "https://www.teichiku.co.jp/artist/fu-danjuku/discography/D-C494.html"
+  ],
+  "101597:ED:1": [
+    "https://www.teichiku.co.jp/artist/a-flood-of-circle/discography/TECI-678.html",
+    "https://gunjyo-magumeru.com/cd.html"
+  ],
+  "101814:OP:1": [
+    "https://shoumetsutoshi-anime.com/products/cd/op.php",
+    "https://news.ponycanyon.co.jp/2019/04/31416",
+    "https://shoumetsutoshi-anime.com/special/"
+  ],
+  "101814:ED:2": ["https://shoumetsutoshi-anime.com/products/cd/ed.php"],
   "106051:OP:1": ["https://www.mbs.jp/senryu-girl/", "https://www.youtube.com/watch?v=AR5gokS91wg"],
   "106051:ED:1": [
     "https://rikakoaida.com/discography/71/",
@@ -44,6 +67,16 @@ const firstPartyUrlsByTheme: Readonly<Record<string, readonly string[]>> = {
 };
 
 const sourceLabelsByUrl: Readonly<Record<string, string>> = {
+  "https://iris.dive2ent.com/discography/detail.php?id=1016413": "i☆Ris 官方：OP 單曲與發行日期",
+  "https://iris.dive2ent.com/discography/detail.php?id=1017265": "i☆Ris 官方：OP 收錄與製作署名核對",
+  "https://avex.jp/yoshinanami/discography/detail.php?id=1016506": "avex 官方：ED 歌曲、發行日期與製作資料",
+  "https://kenja-no-mago.jp/news/?id=20190510&mode=detail": "動畫官方：第 6 話限定的 ED 畫面版本",
+  "https://www.teichiku.co.jp/artist/fu-danjuku/discography/TECI-681.html": "Teichiku 官方：OP 完整版、製作資料與影片",
+  "https://www.teichiku.co.jp/artist/fu-danjuku/discography/D-C494.html": "Teichiku 官方：OP TV Size 先行配信日期",
+  "https://www.teichiku.co.jp/artist/a-flood-of-circle/discography/TECI-678.html": "Teichiku 官方：ED 與動畫剪輯版、製作資料及影片",
+  "https://gunjyo-magumeru.com/cd.html": "動畫官方：OP／ED 用途及藝人資料",
+  "https://news.ponycanyon.co.jp/2019/04/31416": "Pony Canyon 官方：OP TV Size 與單曲發行日期",
+  "https://shoumetsutoshi-anime.com/special/": "動畫官方：OP 映像公開來源",
   "https://www.mbs.jp/senryu-girl/": "MBS 官方：OP／ED 曲名與藝人",
   "https://www.youtube.com/watch?v=AR5gokS91wg": "Universal Music Japan：官方 OP 音樂影片",
   "https://rikakoaida.com/discography/71/": "逢田梨香子官方：ED 歌曲與製作資料",
