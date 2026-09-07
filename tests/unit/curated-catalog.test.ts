@@ -37,7 +37,7 @@ describe("curated public catalogue", () => {
       "2019-summer"
     ]);
     expect(curatedSeasonDetails).toHaveLength(28);
-    expect(curatedSeasonDetails.map((season) => season.anime.length)).toEqual([70, 70, 66, 75, 82, 59, 88, 68, 76, 75, 100, 75, 79, 72, 80, 69, 79, 58, 65, 46, 73, 67, 67, 31, 61, 58, 67, 32]);
+    expect(curatedSeasonDetails.map((season) => season.anime.length)).toEqual([70, 70, 66, 75, 82, 59, 88, 68, 76, 75, 100, 75, 79, 72, 80, 69, 79, 58, 65, 46, 73, 67, 67, 31, 61, 58, 67, 36]);
     expect(curatedSeasonDetails.map((season) => [season.id, season.reviewState, season.verifiedAt])).toEqual([
       ["2026-summer", "reviewed", "2026-08-02"],
       ["2026-spring", "reviewed", "2026-08-02"],
@@ -68,10 +68,10 @@ describe("curated public catalogue", () => {
       ["2019-fall", "reviewed", "2026-09-02"],
       ["2019-summer", "reviewed", "2026-09-07"]
     ]);
-    expect(curatedAnimeDetails).toHaveLength(1907);
-    expect(curatedAnimeDetails.filter((anime) => anime.themes.length > 0)).toHaveLength(1547);
-    expect(curatedAnimeDetails.flatMap((anime) => anime.themes)).toHaveLength(4214);
-    expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "documented")).toHaveLength(1547);
+    expect(curatedAnimeDetails).toHaveLength(1911);
+    expect(curatedAnimeDetails.filter((anime) => anime.themes.length > 0)).toHaveLength(1551);
+    expect(curatedAnimeDetails.flatMap((anime) => anime.themes)).toHaveLength(4225);
+    expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "documented")).toHaveLength(1551);
     expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "not_used")).toHaveLength(2);
     expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "not_announced")).toHaveLength(358);
     const youtubeLinks = curatedAnimeDetails
@@ -530,7 +530,7 @@ describe("curated public catalogue", () => {
     expect(fallSeeds).toHaveLength(67);
     expect(new Set(fallSeeds.map(({ anilistId }) => anilistId)).size).toBe(67);
     expect(new Set(fallSeeds.map(({ slug }) => slug)).size).toBe(67);
-    expect(fallSeeds.flatMap(({ themes }) => themes)).toHaveLength(159);
+    expect(fallSeeds.flatMap(({ themes }) => themes)).toHaveLength(161);
 
     for (const seed of fallSeeds) {
       expect(seed.startDate >= "2019-09-25" && seed.startDate <= "2019-12-03").toBe(true);
@@ -565,7 +565,7 @@ describe("curated public catalogue", () => {
       .map(({ id }) => Number(id.replace("curated-", ""))).sort((left, right) => left - right)).toEqual(
         [104979, 109639, 110089, 110382, 110881, 111728, 111964, 113655, 114234, 116222, 131741, 138953, 177229, 187054]
       );
-    expect(fallDetails.flatMap((anime) => anime.themes)).toHaveLength(159);
+    expect(fallDetails.flatMap((anime) => anime.themes)).toHaveLength(161);
     expect(fallDetails.flatMap((anime) => anime.themes).flatMap((theme) => theme.videos)).toHaveLength(62);
     expect(new Set(fallDetails.flatMap((anime) => anime.themes)
       .flatMap((theme) => theme.videos.map(({ youtubeVideoId }) => youtubeVideoId))).size).toBe(62);
@@ -599,7 +599,9 @@ describe("curated public catalogue", () => {
       ]);
     expect(curatedAnimeDetails.find(({ id }) => id === "curated-111048")?.themes
       .map(({ type, titleJa, artistDisplayName }) => [type, titleJa, artistDisplayName])).toEqual([
+        ["OP", "KING & ASHLEY", "MY FIRST STORY"],
         ["OP", "哀紫電一閃", "オメでたい頭でなにより"],
+        ["ED", "Born This Way", "BAD HOP"],
         ["ED", "ASHURA", "TAEYO"]
       ]);
     expect(curatedAnimeDetails.find(({ id }) => id === "curated-112153")?.themes
@@ -2174,7 +2176,8 @@ describe("curated public catalogue", () => {
       }
 
       for (const item of anime.themes) {
-        const expectedVerifiedAt = curatedSeasonDetails.find(({ id }) => id === "2019-summer")?.anime.some(({ id }) => id === anime.id)
+        const expectedVerifiedAt = anime.id === "curated-111048"
+          || curatedSeasonDetails.find(({ id }) => id === "2019-summer")?.anime.some(({ id }) => id === anime.id)
           ? "2026-09-07"
           : newestCycleIds.has(anime.id)
           ? "2026-09-02"

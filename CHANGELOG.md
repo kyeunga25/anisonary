@@ -2,6 +2,24 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.29.0] - 2026-09-07
+
+### Added
+
+- four reviewed 2019 summer titles: Hakata Mentai! Pirikarako-chan, Yami Shibai 7, Kengan Ashura and Cardfight!! Vanguard: Shinemon-hen;
+- nine summer OP／ED records and four official video metadata records, preserving a streaming-only opening, rotating endings and a next-year replacement ending;
+- two original Netflix songs for Kengan Ashura Part 2, with separate vocal credits for YZERR, Vingo and Bark.
+
+### Fixed
+
+- distinguish Kengan Ashura Part 2's 2019 Netflix music (OP1／ED1) from its 2020 television replacements (OP2／ED2), moving existing official videos with the corrected song sequences while preserving anime and season URLs;
+- allow a scoped song review to preserve earlier verification dates for unchanged anime metadata and artwork, without changing API v1 fields or other records.
+
+### Changed
+
+- the catalogue now contains 28 snapshots, 1,911 unique works, 4,225 OP／ED records and 1,753 official or licensed video metadata records;
+- the partial 2019 summer snapshot contains 36 works and 99 songs; 2025 fall remains outside the registry.
+
 ## [1.28.0] - 2026-09-07
 
 ### Added

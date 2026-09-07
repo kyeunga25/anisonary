@@ -4798,7 +4798,7 @@ function toTheme(seed: CuratedAnimeSeed, originalTheme: CuratedThemeSeed): Publi
   const theme = { ...originalTheme, ...themeOverrides[key] };
   const releaseDate = themeReleaseDateOverrides[key] ?? theme.releaseDate;
   const versionLabel = themeVersionLabelOverrides[key] ?? theme.versionLabel;
-  const verifiedAt = themeVerifiedAtOverrides[key] ?? seed.verifiedAt ?? defaultVerifiedAt;
+  const verifiedAt = themeVerifiedAtOverrides[key] ?? theme.lastVerifiedAt ?? seed.verifiedAt ?? defaultVerifiedAt;
   const sources = buildThemeSources(seed, theme, key, verifiedAt);
 
   return {
@@ -4918,7 +4918,8 @@ function toDetail(seed: CuratedAnimeSeed): PublicAnimeDetail {
     theme.videos.length > 0 || theme.links.some((link) => link.platform === "YouTube")
   );
   const animeVerifiedAt = animeVerifiedAtOverrides[seed.anilistId];
-  const verifiedAt = [
+  // A scoped song correction can preserve unchanged metadata and artwork review dates.
+  const verifiedAt = seed.metadataVerifiedAt ?? [
     ...(animeVerifiedAt ? [animeVerifiedAt] : []),
     seed.verifiedAt ?? defaultVerifiedAt,
     ...themes.flatMap((theme) => theme.sources.map((source) => source.verifiedAt))

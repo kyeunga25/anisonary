@@ -32,10 +32,21 @@ const firstPartyUrlById: Readonly<Partial<Record<number, string>>> = {
   "104723": "https://okaasan-online.com/music/",
   "101167": "https://danmachi.com/danmachi2/music/",
   "107876": "https://newbem.jp/music/index.html",
-  "108444": "https://www.ntv.co.jp/tryknights/music/"
+  "108444": "https://www.ntv.co.jp/tryknights/music/",
+  "109929": "https://prtimes.jp/main/html/rd/p/000000004.000044099.html",
+  "109603": "https://www.tv-tokyo.co.jp/anime/yamishibai7/staff/"
 };
 
 const firstPartyUrlsByTheme: Readonly<Partial<Record<string, readonly string[]>>> = {
+  "109929:ED:2": [
+    "https://prtimes.jp/main/html/rd/p/000000004.000044099.html",
+    "https://prtimes.jp/main/html/rd/p/000000006.000044099.html"
+  ],
+  "100891:OP:1": ["https://myfirststory.net/contents/254098"],
+  "100891:ED:1": ["https://kengan.net/music/ed.html", "https://kengan.net/music/anthems.html"],
+  "111144:OP:1": ["https://bushiroad-music.com/musics/brmm-10211/"],
+  "111144:ED:1": ["https://argo-bdp.com/music/post-2702/"],
+  "111144:ED:2": ["https://www.youtube.com/watch?v=jlX_8QPjZmY"],
   "107663:OP:1": [
     "https://astra-anime.com/products/music.html"
   ],
@@ -133,7 +144,12 @@ export const curated2019SummerThemeSources: CuratedThemeSourceOverrideMap = Obje
         language: "ja",
         role: "first_party"
       })),
-      {
+      seed.anilistId === 109929 ? {
+        label: "アニソン調べる：配信版 OP と輪替 ED 交叉核對",
+        url: "https://anison.online/anime/1159",
+        language: "ja",
+        role: "cross_check"
+      } : {
         label: "AnimeThemes：OP／ED 次序與演唱版本交叉核對",
         url: seed.animeThemesUrl,
         language: "en",

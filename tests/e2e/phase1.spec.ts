@@ -141,13 +141,17 @@ test("static public API mirrors the reviewed catalogue without a runtime binding
   expect(kenganResponse.status()).toBe(200);
   const kengan = await kenganResponse.json();
   expect(kengan.themes).toEqual([
+    expect.objectContaining({ type: "OP", sequence: 1, titleJa: "KING & ASHLEY", versionLabel: "2019 年 Netflix 配信版", videos: [] }),
     expect.objectContaining({
       type: "OP",
+      sequence: 2,
       titleJa: "哀紫電一閃",
       videos: [expect.objectContaining({ youtubeVideoId: "3oWHMoFohuM", officialStatus: "official" })]
     }),
+    expect.objectContaining({ type: "ED", sequence: 1, titleJa: "Born This Way", versionLabel: "2019 年 Netflix 配信版", videos: [] }),
     expect.objectContaining({
       type: "ED",
+      sequence: 2,
       titleJa: "ASHURA",
       videos: [expect.objectContaining({ youtubeVideoId: "jjjfr8jizCs", officialStatus: "official" })]
     })
@@ -454,7 +458,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
 
   await page.goto("/search/");
   await expect(page.getByRole("heading", { name: "跨季度搜尋" })).toBeVisible();
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1907");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1911");
 
   const search = page.getByRole("searchbox", { name: "搜尋動畫、歌曲或創作者" });
   await search.fill("ＭＹＴＨ & ＲＯＩＤ");
@@ -494,7 +498,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
   await expect(page.locator("[data-catalog-anime-count]")).toHaveText("0");
 
   await search.press("Escape");
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1907");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1911");
   expect(externalRequests).toEqual([]);
 });
 
@@ -786,7 +790,7 @@ test("added seasonal pages render their reviewed theme records", async ({ page }
   await expect(
     page.getByRole("heading", { name: "ASHURA", exact: true }),
   ).toBeVisible();
-  await expect(page.locator(".theme-card")).toHaveCount(2);
+  await expect(page.locator(".theme-card")).toHaveCount(4);
   await expect(
     page.getByRole("button", { name: /載入 YouTube 影片/ }),
   ).toHaveCount(2);
@@ -880,7 +884,7 @@ test("catalogue navigation stays compact and drills down through published years
   await expect(navigation.getByRole("link", { name: /動畫目錄/ })).toHaveAttribute("aria-current", "true");
   await expect(page.getByRole("navigation", { name: "2025 年季度導覽" }).getByRole("link", { name: "春季" })).toHaveAttribute("aria-current", "page");
   await expect(page.getByRole("navigation", { name: "所在位置" }).getByRole("link", { name: "2025", exact: true })).toHaveAttribute("href", "/catalog/2025/");
-  await expect(page.getByLabel("季度資料狀態")).toContainText("已發布 28 個季度、1,907 個作品頁與 4,214 首 OP／ED");
+  await expect(page.getByLabel("季度資料狀態")).toContainText("已發布 28 個季度、1,911 個作品頁與 4,225 首 OP／ED");
 
   await page.setViewportSize({ width: 390, height: 844 });
   await page.reload();
@@ -910,7 +914,7 @@ test("search paginates a bounded DOM and combines year, quarter, creator, and so
   await expect(results).toHaveCount(12);
   const firstTitle = await results.first().locator("h2").textContent();
   await page.getByRole("button", { name: "下一頁" }).click();
-  await expect(page.locator("[data-search-page]")).toContainText("第 2／159 頁");
+  await expect(page.locator("[data-search-page]")).toContainText("第 2／160 頁");
   await expect(page.locator("#catalog-search-results")).toBeFocused();
   await expect(results).toHaveCount(12);
   expect(await results.first().locator("h2").textContent()).not.toBe(firstTitle);
@@ -973,10 +977,10 @@ test("2019 summer exposes its coverage, searchable credits and image-free respon
   for (const width of [1280, 390]) {
     await page.setViewportSize({ width, height: 844 });
     await page.goto("/catalog/2019/");
-    await page.getByRole("link", { name: /夏季動畫.*32 套動畫/ }).click();
+    await page.getByRole("link", { name: /夏季動畫.*36 套動畫/ }).click();
     await expect(page.getByRole("heading", { name: "2019 夏季動畫" })).toBeVisible();
-    await expect(page.getByText("本季正在補充，目前收錄 32 套 TV 作品。其餘作品、網絡連載及特殊歌曲版本仍待核對。", { exact: true })).toBeVisible();
-    await expect(page.locator("[data-anime-card]")).toHaveCount(32);
+    await expect(page.getByText("本季正在補充，目前收錄 36 套作品，包括 35 套 TV 與 1 套網絡連載。其餘作品及特殊歌曲版本仍待核對。", { exact: true })).toBeVisible();
+    await expect(page.locator("[data-anime-card]")).toHaveCount(36);
     await expect(page.locator("[data-anime-card] img")).toHaveCount(0);
     await expect(page.locator("iframe")).toHaveCount(0);
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
@@ -998,6 +1002,28 @@ test("2019 summer exposes its coverage, searchable credits and image-free respon
   await page.getByRole("button", { name: /載入 YouTube 影片/ }).first().click();
   await expect(page.locator("iframe")).toHaveCount(1);
   await expect(page.locator("iframe")).toHaveAttribute("src", /youtube-nocookie\.com\/embed\/mgympfbOgqw/);
+});
+
+test("Kengan search reaches the requested release version and keeps its official video attached", async ({ page }) => {
+  for (const width of [1280, 390]) {
+    await page.setViewportSize({ width, height: 844 });
+    await page.goto("/search/");
+    await page.getByLabel("年份", { exact: true }).selectOption("2019");
+    await page.getByLabel("季度", { exact: true }).selectOption("fall");
+    await page.getByRole("searchbox", { name: "搜尋動畫、歌曲或創作者" }).fill("KING & ASHLEY");
+    await page.getByRole("link", { name: "KING & ASHLEY", exact: true }).click();
+    await expect(page).toHaveURL(/\/anime\/kengan-ashura-part-2\/#theme-kengan-ashura-part-2-op-1$/);
+    const original = page.locator("#theme-kengan-ashura-part-2-op-1");
+    await expect(original).toContainText("2019 年 Netflix 配信版");
+    await expect(original.getByRole("button", { name: /載入 YouTube 影片/ })).toHaveCount(0);
+    const replacement = page.locator("#theme-kengan-ashura-part-2-op-2");
+    await expect(replacement).toContainText("哀紫電一閃");
+    await expect(replacement).toContainText("2020 年電視播出版（第 13 話起）");
+    await expect(replacement.getByRole("button", { name: /載入 YouTube 影片/ })).toHaveCount(1);
+    await expect(page.locator(".theme-card")).toHaveCount(4);
+    await expect(page.locator("iframe")).toHaveCount(0);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  }
 });
 
 test("unknown routes render the public 404 state and stay out of the index", async ({ page }) => {

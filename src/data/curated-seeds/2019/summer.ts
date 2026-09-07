@@ -4,7 +4,7 @@ type Summer2019SeedInput = Omit<
   CuratedAnimeSeed,
   | "id" | "seasonIds" | "editorialWeekday" | "status" | "anilistUrl"
   | "wikipediaUrl" | "sourceReferenceUrls" | "verifiedAt"
->;
+> & Partial<Pick<CuratedAnimeSeed, "sourceReferenceUrls">>;
 
 function summer2019Seed(row: Summer2019SeedInput): CuratedAnimeSeed {
   const weekday = new Date(`${row.startDate}T00:00:00Z`).getUTCDay();
@@ -18,7 +18,8 @@ function summer2019Seed(row: Summer2019SeedInput): CuratedAnimeSeed {
     wikipediaUrl: "https://youranimes.tw/bangumi/201907",
     sourceReferenceUrls: [
       "https://acgsecrets.hk/bangumi/201907/",
-      "https://www.kansou.me/archive/2019_summer.html"
+      "https://www.kansou.me/archive/2019_summer.html",
+      ...(row.sourceReferenceUrls ?? [])
     ],
     verifiedAt: "2026-09-07"
   };
@@ -2046,6 +2047,181 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
         titleJa: "模様",
         artistDisplayName: "Ivy to Fraudulent Game",
         releaseDate: "2019-07-24"
+      }
+    ]
+  },
+  {
+    anilistId: 109929,
+    slug: "hakata-mentai-pirikarako-chan",
+    sourceReferenceUrls: ["https://prtimes.jp/main/html/rd/p/000000004.000044099.html"],
+    startDate: "2019-07-07",
+    titleJa: "博多明太！ぴりからこちゃん",
+    titleZhHant: "博多明太！麻辣子醬",
+    titleRomaji: "Hakata Mentai! Pirikarako-chan",
+    officialSiteUrl: "https://pirikarakochan.jp/",
+    animeThemesUrl: "https://animethemes.moe/anime/hakata_mentai_pirikarako_chan",
+    identifierSource: {
+      label: "AnimeThemes：作品識別交叉連結",
+      url: "https://api.animethemes.moe/anime/hakata_mentai_pirikarako_chan?include=resources",
+      language: "en"
+    },
+    broadcastTimeJst: "06:15",
+    themes: [
+      {
+        type: "OP",
+        sequence: 1,
+        titleJa: "博多明太！ぴりからこちゃん",
+        artistDisplayName: "ぴりからこちゃん（CV：河野ひより）",
+        versionLabel: "配信版片頭曲",
+        credits: [
+          { name: "河野ひより", role: "vocals" },
+          { name: "松隈ケンタ", role: "lyrics" },
+          { name: "松隈ケンタ", role: "composition" },
+          { name: "SCRAMBLES", role: "arrangement" }
+        ]
+      },
+      {
+        type: "ED",
+        sequence: 1,
+        titleJa: "ぴっぴぴりから、ぴりからこ。 feat. 鳴花ヒメ・ミコト",
+        artistDisplayName: "mathru@かにみそP",
+        versionLabel: "第 1～6 話片尾曲",
+        credits: [
+          { name: "鳴花ヒメ・ミコト", role: "vocals" },
+          { name: "mathru@かにみそP", role: "lyrics" },
+          { name: "mathru@かにみそP", role: "composition" },
+          { name: "mathru@かにみそP", role: "arrangement" }
+        ]
+      },
+      {
+        type: "ED",
+        sequence: 2,
+        titleJa: "ピリッと大スキ♡",
+        artistDisplayName: "fumika",
+        versionLabel: "第 7～12 話片尾曲",
+        releaseDate: "2019-08-14",
+        credits: [
+          { name: "fumika", role: "vocals" },
+          { name: "YADAKO", role: "lyrics" },
+          { name: "YADAKO", role: "composition" },
+          { name: "Keita Ishizuka", role: "arrangement" }
+        ]
+      }
+    ]
+  },
+  {
+    anilistId: 109603,
+    slug: "yami-shibai-7",
+    sourceReferenceUrls: ["https://www.tv-tokyo.co.jp/anime/yamishibai7/onair/"],
+    startDate: "2019-07-07",
+    titleJa: "闇芝居 七期",
+    titleZhHant: "闇芝居 第七季",
+    titleRomaji: "Yami Shibai 7",
+    officialSiteUrl: "https://www.tv-tokyo.co.jp/anime/yamishibai7/",
+    animeThemesUrl: "https://animethemes.moe/anime/yami_shibai_7",
+    identifierSource: {
+      label: "AnimeThemes：作品識別交叉連結",
+      url: "https://api.animethemes.moe/anime/yami_shibai_7?include=resources",
+      language: "en"
+    },
+    broadcastTimeJst: "27:05",
+    themes: [
+      {
+        type: "ED",
+        sequence: 1,
+        titleJa: "決壊",
+        artistDisplayName: "betcover!!"
+      }
+    ]
+  },
+  {
+    anilistId: 100891,
+    slug: "kengan-ashura",
+    sourceReferenceUrls: ["https://shogakukan-comic.jp/news/19676"],
+    startDate: "2019-07-31",
+    titleJa: "ケンガンアシュラ",
+    titleZhHant: "拳願阿修羅",
+    titleRomaji: "Kengan Ashura",
+    officialSiteUrl: "https://kengan.net/",
+    animeThemesUrl: "https://animethemes.moe/anime/kengan_ashura",
+    identifierSource: {
+      label: "AnimeThemes：作品識別交叉連結",
+      url: "https://api.animethemes.moe/anime/kengan_ashura?include=resources",
+      language: "en"
+    },
+    broadcastLabel: "日本網絡首播／時間未整理",
+    themes: [
+      {
+        type: "OP",
+        sequence: 1,
+        titleJa: "KING & ASHLEY",
+        artistDisplayName: "MY FIRST STORY",
+        releaseDate: "2019-07-04"
+      },
+      {
+        type: "ED",
+        sequence: 1,
+        titleJa: "Born This Way",
+        artistDisplayName: "BAD HOP",
+        versionLabel: "YZERR・Vingo・Bark 演唱版",
+        credits: [
+          { name: "YZERR", role: "vocals" },
+          { name: "Vingo", role: "vocals" },
+          { name: "Bark", role: "vocals" }
+        ]
+      }
+    ]
+  },
+  {
+    anilistId: 111144,
+    slug: "cardfight-vanguard-shinemon-hen",
+    sourceReferenceUrls: ["https://prtimes.jp/main/html/rd/p/000002051.000014827.html"],
+    startDate: "2019-08-24",
+    titleJa: "カードファイト!! ヴァンガード 新右衛門編",
+    titleZhHant: "卡片戰鬥先導者 新右衛門篇",
+    titleRomaji: "Cardfight!! Vanguard: Shinemon-hen",
+    officialSiteUrl: "https://anime.cf-vanguard.com/",
+    animeThemesUrl: "https://animethemes.moe/anime/cardfight_vanguard_shinemon_hen",
+    identifierSource: {
+      label: "AnimeThemes：作品識別交叉連結",
+      url: "https://api.animethemes.moe/anime/cardfight_vanguard_shinemon_hen?include=resources",
+      language: "en"
+    },
+    broadcastTimeJst: "08:00",
+    themes: [
+      {
+        type: "OP",
+        sequence: 1,
+        titleJa: "Lead the way",
+        artistDisplayName: "相羽あいな",
+        releaseDate: "2019-10-16"
+      },
+      {
+        type: "ED",
+        sequence: 1,
+        titleJa: "ギフト",
+        artistDisplayName: "Argonavis",
+        releaseDate: "2019-08-21",
+        credits: [
+          { name: "Argonavis", role: "vocals" },
+          { name: "中村航", role: "lyrics" },
+          { name: "白神真志朗", role: "composition" },
+          { name: "廣澤優也", role: "arrangement" }
+        ]
+      },
+      {
+        type: "ED",
+        sequence: 2,
+        titleJa: "ぼくらのターン",
+        artistDisplayName: "虹のコンキスタドール",
+        versionLabel: "2020-01-11 起片尾曲",
+        releaseDate: "2020-01-22",
+        credits: [
+          { name: "虹のコンキスタドール", role: "vocals" },
+          { name: "浅野尚志", role: "lyrics" },
+          { name: "浅野尚志", role: "composition" },
+          { name: "浅野尚志", role: "arrangement" }
+        ]
       }
     ]
   }
