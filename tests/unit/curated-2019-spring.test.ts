@@ -11,9 +11,9 @@ const anime = (id: number) => curatedAnimeDetails.find((item) => item.id === `cu
 
 describe("2019 spring reviewed TV catalogue", () => {
   it("publishes a partial quarter with reviewed identity and song evidence, without unverified artwork", () => {
-    expect(spring.anime).toHaveLength(8);
+    expect(spring.anime).toHaveLength(11);
     expect(spring.coverageNote).toContain("跨季延續及特殊歌曲版本仍待核對");
-    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(18);
+    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(24);
     expect(curatedSeasonDetails.some(({ id }) => id === "2025-fall")).toBe(false);
     for (const seed of curated2019SpringSeeds) {
       expect(seed.seasonIds).toEqual(["2019-spring"]);
@@ -163,5 +163,71 @@ describe("2019 spring reviewed TV catalogue", () => {
     expect(results.map(({ anime: item }) => item.slug)).toEqual(["hitoribocchi-no-marumaru-seikatsu"]);
     expect(results[0]?.themes.map(({ titleJa }) => titleJa)).toEqual(["爆笑ぼっち塾 校歌"]);
     expect(searchCatalog(index, { ...filters, quarter: "summer" })).toEqual([]);
+  });
+  it("keeps original spring TV premieres separate from later rebroadcasts and overseas distribution", () => {
+    const expected = [
+      [100112, "2019-04-10", 3, "23:30"],
+      [101597, "2019-04-07", 7, "22:00"],
+      [101814, "2019-04-07", 7, "23:30"]
+    ] as const;
+    for (const [id, startDate, editorialWeekday, broadcastTimeJst] of expected) {
+      expect(curated2019SpringSeeds.find(({ anilistId }) => anilistId === id)?.startDate).toBe(startDate);
+      expect(anime(id)).toMatchObject({ editorialWeekday, broadcastTimeJst });
+    }
+    expect(anime(101597).titleZhHant).toBe("拾又之國");
+    expect(anime(101597).sources).toContainEqual(expect.objectContaining({
+      url: "https://www.netflix.com/tw/title/81019771", language: "zh-Hant", role: "first_party"
+    }));
+  });
+
+  it("records an episode-six visual change without inventing another Wise Man's Grandchild ending", () => {
+    const kenja = anime(100112);
+    expect(kenja.themes.map(({ type, sequence, titleJa }) => [type, sequence, titleJa])).toEqual([
+      ["OP", 1, "アルティメット☆MAGIC"], ["ED", 1, "圧倒的 Vivid Days"]
+    ]);
+    expect(kenja.themes[1]).toMatchObject({ artistDisplayName: "吉七味。", versionLabel: "第6話使用 MV 畫面" });
+    expect(kenja.themes[1]?.sources).toContainEqual(expect.objectContaining({
+      url: "https://kenja-no-mago.jp/news/?id=20190510&mode=detail", role: "first_party"
+    }));
+    expect(kenja.themes[0]?.credits).toContainEqual({ name: "久下真音", role: "arrangement" });
+    expect(kenja.themes[0]?.credits.some(({ name }) => name === "金子麻友美")).toBe(false);
+  });
+
+  it("preserves SPR5's ending sequence and five vocal credits without promoting unverified theme uses", async () => {
+    const city = anime(101814);
+    expect(city.themes.map(({ type, sequence, titleJa }) => [type, sequence, titleJa])).toEqual([
+      ["OP", 1, "答"], ["ED", 2, "With Your Breath"]
+    ]);
+    const ending = city.themes[1]!;
+    expect(ending.artistDisplayName).toBe("SPR5");
+    expect(ending.credits.filter(({ role }) => role === "vocals").map(({ name }) => name)).toEqual([
+      "社本悠", "岩井映美里", "直田姫奈", "大西亜玖璃", "園山ひかり"
+    ]);
+    expect(ending.credits.filter(({ role }) => role === "lyrics").map(({ name }) => name)).toEqual(["太田彩華", "俊龍"]);
+    const index = buildCatalogSearchIndex((await loadCatalogSearchData(new CuratedProvider(), true)).entries);
+    const results = searchCatalog(index, {
+      query: "園山ひかり", scope: "creators", year: "2019", quarter: "spring", type: "ED"
+    });
+    expect(results.map(({ anime: item }) => item.slug)).toEqual(["shoumetsu-toshi"]);
+    expect(results[0]?.themes.map(({ titleJa }) => titleJa)).toEqual(["With Your Breath"]);
+  });
+
+  it("distinguishes TV-size releases, full-song releases and short official video previews", () => {
+    expect(anime(101597).themes[0]).toMatchObject({
+      releaseDate: "2019-06-19", versionLabel: "TV Size：2019-06-05；完整版：2019-06-19"
+    });
+    expect(anime(101814).themes[0]).toMatchObject({
+      releaseDate: "2019-05-08", versionLabel: "TV Size：2019-04-08；完整版：2019-05-08"
+    });
+    expect(anime(101597).themes[1]?.versionLabel).toBe("動畫片尾剪輯版另收錄為 The Key -群青のマグメルver.-");
+    for (const id of [100112, 101597, 101814]) {
+      for (const theme of anime(id).themes) {
+        expect(theme.videos).toHaveLength(1);
+        expect(theme.videos[0]?.officialStatus).toBe("official");
+      }
+    }
+    expect(anime(100112).themes[0]?.videos[0]).toMatchObject({ youtubeVideoId: "3PblQhyRoF4", type: "other" });
+    expect(anime(101597).themes[0]?.videos[0]).toMatchObject({ youtubeVideoId: "361yH_xuBfg", type: "other" });
+    expect(anime(101814).themes[1]?.videos[0]).toMatchObject({ youtubeVideoId: "wZ3Fe1JeecE", type: "other" });
   });
 });

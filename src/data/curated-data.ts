@@ -4605,6 +4605,39 @@ const animeOfficialSourceOverrides: Record<number, { label: string; url: string 
 };
 
 const animeSourceOverrides: Record<number, AnimeSourceSeed[]> = {
+  100112: [{
+    label: "動畫官方：TV 首播日期與播出時段",
+    url: "https://kenja-no-mago.jp/onair/",
+    language: "ja",
+    role: "first_party"
+  }, {
+    label: "YourAnimes：繁中名稱與春季作品交叉核對",
+    url: "https://youranimes.tw/animes/4706",
+    language: "zh-Hant",
+    role: "localized_cross_check"
+  }],
+  101597: [{
+    label: "Netflix 正式配信：繁中動畫名稱與 TV 作品",
+    url: "https://www.netflix.com/tw/title/81019771",
+    language: "zh-Hant",
+    role: "first_party"
+  }, {
+    label: "動畫官方：2019 年原始 TV 首播日期與時段",
+    url: "https://gunjyo-magumeru.com/news/category/onair/",
+    language: "ja",
+    role: "first_party"
+  }],
+  101814: [{
+    label: "動畫官方：TV 首播日期與播出時段",
+    url: "https://shoumetsutoshi-anime.com/onair/",
+    language: "ja",
+    role: "first_party"
+  }, {
+    label: "YourAnimes：繁中名稱與春季作品交叉核對",
+    url: "https://youranimes.tw/animes/4708",
+    language: "zh-Hant",
+    role: "localized_cross_check"
+  }],
   106051: [{
     label: "DMM 官方公告：TV 首播日期、通常時段與首話異動",
     url: "https://prtimes.jp/main/html/rd/p/000003320.000002581.html",

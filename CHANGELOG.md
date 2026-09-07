@@ -2,6 +2,20 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.34.0] - 2026-09-07
+
+### Added
+
+- three reviewed 2019 spring TV series: Kenja no Mago, Gunjou no Magmel and Shoumetsu Toshi;
+- six OP／ED records and six official video metadata records, retaining SPR5's five vocalists and the original ending sequence;
+- separate TV-size and full-song release dates, and the episode-six music-video ending presentation in Wise Man's Grandchild without duplicating the song.
+
+### Changed
+
+- the partial spring snapshot now contains eleven works and twenty-four songs; the full catalogue contains 29 snapshots, 1,928 unique works, 4,253 OP／ED records and 1,768 official or licensed video metadata records;
+- use original Japanese TV premiere dates, keeping later reruns and overseas distribution separate;
+- retain only supported credits and theme uses, distinguish short official previews, and preserve existing API v1 fields and other quarter data.
+
 ## [1.33.0] - 2026-09-07
 
 ### Added

@@ -1,6 +1,54 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2019SpringThemeVideos = {
+  "100112:OP:1": [{
+    youtubeVideoId: "3PblQhyRoF4",
+    title: "i☆Ris /  「アルティメット☆MAGIC」-Music Video-(Short Ver.)",
+    type: "other",
+    channelName: "avex",
+    officialStatus: "official",
+    embeddable: true
+  }],
+  "100112:ED:1": [{
+    youtubeVideoId: "z-Jxu8p3iSY",
+    title: "吉七味。 / 「圧倒的 Vivid Days」 Music Video（TVアニメ「賢者の孫」ED主題歌）",
+    type: "other",
+    channelName: "avex",
+    officialStatus: "official",
+    embeddable: true
+  }],
+  "101597:OP:1": [{
+    youtubeVideoId: "361yH_xuBfg",
+    title: "風男塾 (Fudanjuku) / Dash&Daaash!!（Short Ver.）",
+    type: "other",
+    channelName: "Fudanjuku Official Channel",
+    officialStatus: "official",
+    embeddable: true
+  }],
+  "101597:ED:1": [{
+    youtubeVideoId: "ALzdd-M-DWA",
+    title: "【Music Video】The Key [群青のマグメル ED ver.] - a flood of circle",
+    type: "other",
+    channelName: "a flood of circle Official Channel",
+    officialStatus: "official",
+    embeddable: true
+  }],
+  "101814:OP:1": [{
+    youtubeVideoId: "SYMNL0dIfx4",
+    title: "TVアニメ「消滅都市」オープニング映像【特別公開】",
+    type: "other",
+    channelName: "ぽにきゃん-Anime PONY CANYON",
+    officialStatus: "official",
+    embeddable: true
+  }],
+  "101814:ED:2": [{
+    youtubeVideoId: "wZ3Fe1JeecE",
+    title: "SPR5／With Your Breath  Music Video(2chorus)　TVアニメ「消滅都市」ED主題歌",
+    type: "other",
+    channelName: "ぽにきゃん-Anime PONY CANYON",
+    officialStatus: "official",
+    embeddable: true
+  }],
   "106051:OP:1": [{
     youtubeVideoId: "AR5gokS91wg",
     title: "井上苑子 - アニメ「川柳少女」オープニング曲「コトノハノオモイ」Music Video",

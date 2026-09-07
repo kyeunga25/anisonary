@@ -23,6 +23,154 @@ function spring2019Seed(row: Spring2019SeedInput): CuratedAnimeSeed {
 
 const curated2019SpringSeedRows: Spring2019SeedInput[] = [
   {
+    anilistId: 100112,
+    slug: "kenja-no-mago",
+    startDate: "2019-04-10",
+    titleJa: "賢者の孫",
+    titleZhHant: "賢者之孫",
+    titleRomaji: "Kenja no Mago",
+    officialSiteUrl: "https://kenja-no-mago.jp/",
+    animeThemesUrl: "https://animethemes.moe/anime/kenja_no_mago",
+    identifierSource: {
+      label: "AnimeThemes：作品識別交叉連結",
+      url: "https://api.animethemes.moe/anime/kenja_no_mago?include=resources",
+      language: "en"
+    },
+    broadcastTimeJst: "23:30",
+    broadcastLabel: "AT-X 每週三 23:30（日本時間）",
+    themes: [
+      {
+        type: "OP",
+        sequence: 1,
+        titleJa: "アルティメット☆MAGIC",
+        artistDisplayName: "i☆Ris",
+        youtubeUrl: "https://www.youtube.com/watch?v=3PblQhyRoF4",
+        releaseDate: "2019-05-22",
+        credits: [
+          { name: "廣瀬祐輝", role: "lyrics" },
+          { name: "廣瀬祐輝", role: "composition" },
+          { name: "久下真音", role: "arrangement" }
+        ]
+      },
+      {
+        type: "ED",
+        sequence: 1,
+        titleJa: "圧倒的 Vivid Days",
+        artistDisplayName: "吉七味。",
+        versionLabel: "第6話使用 MV 畫面",
+        youtubeUrl: "https://www.youtube.com/watch?v=z-Jxu8p3iSY",
+        releaseDate: "2019-06-19",
+        credits: [
+          { name: "吉七味。", role: "vocals" },
+          { name: "織田あすか", role: "lyrics" },
+          { name: "都丸椋太", role: "composition" },
+          { name: "都丸椋太", role: "arrangement" }
+        ]
+      }
+    ]
+  },
+  {
+    anilistId: 101597,
+    slug: "gunjou-no-magmel",
+    startDate: "2019-04-07",
+    titleJa: "群青のマグメル",
+    titleZhHant: "拾又之國",
+    titleRomaji: "Gunjou no Magmel",
+    officialSiteUrl: "https://gunjyo-magumeru.com/",
+    animeThemesUrl: "https://animethemes.moe/anime/gunjou_no_magmel",
+    identifierSource: {
+      label: "AnimeThemes：作品識別交叉連結",
+      url: "https://api.animethemes.moe/anime/gunjou_no_magmel?include=resources",
+      language: "en"
+    },
+    broadcastTimeJst: "22:00",
+    broadcastLabel: "TOKYO MX 每週日 22:00（日本時間）",
+    themes: [
+      {
+        type: "OP",
+        sequence: 1,
+        titleJa: "Dash&Daaash!!",
+        artistDisplayName: "風男塾",
+        versionLabel: "TV Size：2019-06-05；完整版：2019-06-19",
+        youtubeUrl: "https://www.youtube.com/watch?v=361yH_xuBfg",
+        releaseDate: "2019-06-19",
+        credits: [
+          { name: "Q-MHz", role: "lyrics" },
+          { name: "Q-MHz", role: "composition" },
+          { name: "Q-MHz", role: "arrangement" }
+        ]
+      },
+      {
+        type: "ED",
+        sequence: 1,
+        titleJa: "The Key",
+        artistDisplayName: "a flood of circle",
+        versionLabel: "動畫片尾剪輯版另收錄為 The Key -群青のマグメルver.-",
+        youtubeUrl: "https://www.youtube.com/watch?v=ALzdd-M-DWA",
+        releaseDate: "2019-04-24",
+        credits: [
+          { name: "佐々木亮介", role: "vocals" },
+          { name: "佐々木亮介", role: "lyrics" },
+          { name: "佐々木亮介", role: "composition" },
+          { name: "a flood of circle", role: "arrangement" }
+        ]
+      }
+    ]
+  },
+  {
+    anilistId: 101814,
+    slug: "shoumetsu-toshi",
+    startDate: "2019-04-07",
+    titleJa: "消滅都市",
+    titleZhHant: "消滅都市",
+    titleRomaji: "Shoumetsu Toshi",
+    officialSiteUrl: "https://shoumetsutoshi-anime.com/",
+    animeThemesUrl: "https://animethemes.moe/anime/shoumetsu_toshi",
+    identifierSource: {
+      label: "AnimeThemes：作品識別交叉連結",
+      url: "https://api.animethemes.moe/anime/shoumetsu_toshi?include=resources",
+      language: "en"
+    },
+    broadcastTimeJst: "23:30",
+    broadcastLabel: "TOKYO MX 每週日 23:30（日本時間）",
+    themes: [
+      {
+        type: "OP",
+        sequence: 1,
+        titleJa: "答",
+        artistDisplayName: "阿部真央",
+        versionLabel: "TV Size：2019-04-08；完整版：2019-05-08",
+        youtubeUrl: "https://www.youtube.com/watch?v=SYMNL0dIfx4",
+        releaseDate: "2019-05-08",
+        credits: [
+          { name: "阿部真央", role: "vocals" },
+          { name: "阿部真央", role: "lyrics" },
+          { name: "阿部真央", role: "composition" },
+          { name: "akkin", role: "arrangement" }
+        ]
+      },
+      {
+        type: "ED",
+        sequence: 2,
+        titleJa: "With Your Breath",
+        artistDisplayName: "SPR5",
+        youtubeUrl: "https://www.youtube.com/watch?v=wZ3Fe1JeecE",
+        releaseDate: "2019-04-24",
+        credits: [
+          { name: "社本悠", role: "vocals" },
+          { name: "岩井映美里", role: "vocals" },
+          { name: "直田姫奈", role: "vocals" },
+          { name: "大西亜玖璃", role: "vocals" },
+          { name: "園山ひかり", role: "vocals" },
+          { name: "太田彩華", role: "lyrics" },
+          { name: "俊龍", role: "lyrics" },
+          { name: "俊龍", role: "composition" },
+          { name: "山口高始", role: "arrangement" }
+        ]
+      }
+    ]
+  },
+  {
     anilistId: 106051,
     slug: "senryuu-shoujo",
     startDate: "2019-04-05",
