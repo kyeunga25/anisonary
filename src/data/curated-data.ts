@@ -4605,6 +4605,12 @@ const animeOfficialSourceOverrides: Record<number, { label: string; url: string 
 };
 
 const animeSourceOverrides: Record<number, AnimeSourceSeed[]> = {
+  97995: [{
+    label: "動畫官方：2019 年 TV 版首播日期與各台播出時段",
+    url: "https://yuno-anime.com/onair/",
+    language: "ja",
+    role: "first_party"
+  }],
   104989: [{
     label: "東京電視台：2019 年原始首播日期及編輯播出時段",
     url: "https://www.tv-tokyo.co.jp/anime/hachinai/onair/",

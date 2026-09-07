@@ -23,6 +23,81 @@ function spring2019Seed(row: Spring2019SeedInput): CuratedAnimeSeed {
 
 const curated2019SpringSeedRows: Spring2019SeedInput[] = [
   {
+    anilistId: 97995,
+    slug: "kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no",
+    startDate: "2019-04-02",
+    titleJa: "この世の果てで恋を唄う少女YU-NO",
+    titleZhHant: "YU-NO 在這世界盡頭詠唱愛的少女",
+    titleRomaji: "Kono Yo no Hate de Koi wo Utau Shoujo YU-NO",
+    officialSiteUrl: "https://yuno-anime.com/top/",
+    wikipediaUrl: "https://youranimes.tw/animes/4694",
+    identifierSource: {
+      label: "AniList 公開作品頁：2019 年 TV 版識別與季度",
+      url: "https://anilist.co/anime/97995/Kono-Yo-no-Hate-de-Koi-wo-Utau-Shoujo-YUNO",
+      language: "en"
+    },
+    broadcastTimeJst: "23:00",
+    broadcastLabel: "AT-X 每週二 23:00（日本時間；2019 年 TV 版）",
+    themes: [
+      {
+        type: "OP",
+        sequence: 1,
+        titleJa: "この世の果てで恋を唄う少女",
+        artistDisplayName: "亜咲花",
+        versionLabel: "現世編 OP，完整版高解析音源；TV Size 於 2019-04-02、CD 於 2019-04-24 發行",
+        releaseDate: "2019-04-17",
+        credits: [
+          { name: "亜咲花", role: "vocals" },
+          { name: "志倉千代丸", role: "lyrics" },
+          { name: "志倉千代丸", role: "composition" },
+          { name: "悠木真一", role: "arrangement" }
+        ]
+      },
+      {
+        type: "OP",
+        sequence: 2,
+        titleJa: "MOTHER",
+        artistDisplayName: "鈴木このみ",
+        versionLabel: "異世界編 OP，完整版專輯收錄；TV Size 於 2019-08-07 先行配信",
+        releaseDate: "2019-11-06",
+        credits: [
+          { name: "鈴木このみ", role: "vocals" },
+          { name: "志倉千代丸", role: "lyrics" },
+          { name: "志倉千代丸", role: "composition" },
+          { name: "高木龍一（Dream Monster）", role: "arrangement" }
+        ]
+      },
+      {
+        type: "ED",
+        sequence: 1,
+        titleJa: "真理の鏡、剣乃ように",
+        artistDisplayName: "鈴木このみ",
+        versionLabel: "現世編 ED，完整版單曲；官方影片為 TV Size MV",
+        releaseDate: "2019-05-08",
+        credits: [
+          { name: "鈴木このみ", role: "vocals" },
+          { name: "志倉千代丸", role: "lyrics" },
+          { name: "志倉千代丸", role: "composition" },
+          { name: "白戸佑輔", role: "arrangement" }
+        ]
+      },
+      {
+        type: "ED",
+        sequence: 2,
+        titleJa: "神の数式",
+        artistDisplayName: "亜咲花",
+        versionLabel: "異世界編 ED，完整版專輯收錄；TV Size 於 2019-08-07 先行配信",
+        releaseDate: "2019-10-07",
+        credits: [
+          { name: "亜咲花", role: "vocals" },
+          { name: "志倉千代丸", role: "lyrics" },
+          { name: "志倉千代丸", role: "composition" },
+          { name: "悠木真一", role: "arrangement" }
+        ]
+      }
+    ]
+  },
+  {
     anilistId: 104989,
     slug: "hachigatsu-no-cinderella-nine",
     startDate: "2019-04-07",
