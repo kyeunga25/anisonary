@@ -1,6 +1,22 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2019SpringThemeVideos = {
+  "catalog-strike-witches-501-2019:OP:1": [{
+    youtubeVideoId: "h4Ckhm3c6d0",
+    title: "石田燿子 / 空が呼ぶほうへ(TVアニメ「ストライクウィッチーズ 501部隊発進しますっ！」オープニング・テーマ)",
+    type: "other",
+    channelName: "日本コロムビア 公式YouTubeチャンネル",
+    officialStatus: "official",
+    embeddable: true
+  }],
+  "catalog-strike-witches-501-2019:ED:12": [{
+    youtubeVideoId: "63fWLXw7ylY",
+    title: "アルバム『TVアニメ「ストライクウィッチーズ 501部隊発進しますっ!」エンディング・テーマ・コレクション』より「Treasure of life #12」楽曲試聴",
+    type: "official_audio",
+    channelName: "日本コロムビア 公式YouTubeチャンネル",
+    officialStatus: "official",
+    embeddable: true
+  }],
   "catalog-gonjiro-2019:ED:1": [{
     youtubeVideoId: "GrWK6BJwziI",
     title: "TVアニメ『けだまのゴンじろー』ノンクレジットED / デーモン閣下「わさわさわさ！」",

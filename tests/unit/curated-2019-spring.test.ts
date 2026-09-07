@@ -10,6 +10,96 @@ const spring = curatedSeasonDetails.find(({ id }) => id === "2019-spring")!;
 const anime = (id: number) => curatedAnimeDetails.find((item) => item.id === `curated-${id}`)!;
 
 describe("2019 spring reviewed TV catalogue", () => {
+  it("identifies 501 Takeoff as the 2019 TV short on its Tuesday editorial premiere without borrowing a sequel identity", async () => {
+    const seed = curated2019SpringSeeds.find(({ id }) => id === "catalog-strike-witches-501-2019")!;
+    expect(seed).toMatchObject({ startDate: "2019-04-09", seasonIds: ["2019-spring"], verifiedAt: "2026-09-07" });
+    const detail = curatedAnimeDetails.find(({ id }) => id === seed.id)!;
+    expect(detail).toMatchObject({ slug: "strike-witches-501-takeoff-2019", titleJa: "ストライクウィッチーズ 501部隊発進しますっ！", titleZhHant: "強襲魔女 501部隊出動！", editorialWeekday: 2, broadcastTimeJst: "24:45" });
+    for (const omitted of ["anilistId", "anilistUrl", "titleRomaji", "posterUrl", "bannerUrl", "imageSourceUrl"]) {
+      expect(seed).not.toHaveProperty(omitted);
+      expect(detail).not.toHaveProperty(omitted);
+    }
+    expect(detail.sources).toContainEqual(expect.objectContaining({ url: "https://w-witch.jp/501_takeoff/onair/", role: "identifier", language: "ja" }));
+    expect(detail.sources).toContainEqual(expect.objectContaining({ url: "https://youranimes.tw/bangumi/201904", role: "localized_cross_check", language: "zh-Hant" }));
+    expect(detail.sources).toContainEqual(expect.objectContaining({ url: "https://youranimes.tw/animes/1192", language: "zh-Hant" }));
+    expect(spring.anime.filter(({ id }) => id === seed.id)).toHaveLength(1);
+    expect(anime(121681).slug).toBe("world-witches-hasshin-shimasu");
+    expect(spring.anime.some(({ id }) => id === "curated-121681")).toBe(false);
+    const provider = new ApiProvider("https://anisonary.k-y.cc/api/v1", {
+      fetch: vi.fn<typeof fetch>().mockResolvedValue(new Response(JSON.stringify(detail), { headers: { "Content-Type": "application/json" } }))
+    });
+    expect(await provider.getAnime(detail.slug)).toEqual(detail);
+  });
+
+  it("keeps the 501 Takeoff opening CD date, full credits and short music-video edition separate", () => {
+    const themes = curatedAnimeDetails.find(({ id }) => id === "catalog-strike-witches-501-2019")!.themes;
+    expect(themes.filter(({ type }) => type === "OP")).toHaveLength(1);
+    expect(themes[0]).toMatchObject({ type: "OP", sequence: 1, titleJa: "空が呼ぶほうへ", artistDisplayName: "石田燿子", releaseDate: "2019-04-24" });
+    expect(themes[0]?.versionLabel).toContain("短版 MV");
+    expect(themes[0]?.credits).toEqual([
+      { name: "石田燿子", role: "vocals" }, { name: "ミズノゲンキ", role: "lyrics" },
+      { name: "睦月周平", role: "composition" }, { name: "睦月周平", role: "arrangement" }
+    ]);
+    expect(themes[0]?.videos[0]).toMatchObject({ youtubeVideoId: "h4Ckhm3c6d0", type: "other", officialStatus: "official" });
+  });
+
+  it("retains all twelve 501 Takeoff TV ending performers without adding film, instrumental or medley tracks or disputed composition", () => {
+    const themes = curatedAnimeDetails.find(({ id }) => id === "catalog-strike-witches-501-2019")!.themes;
+    const endings = themes.filter(({ type }) => type === "ED");
+    expect(themes).toHaveLength(13);
+    expect(endings.map(({ sequence, titleJa, artistDisplayName }) => [sequence, titleJa, artistDisplayName])).toEqual([
+      [1, "Treasure of life #1", "宮藤芳佳（CV：福圓美里）"],
+      [2, "Treasure of life #2", "エーリカ・ハルトマン（CV：野川さくら）"],
+      [3, "Treasure of life #3", "ミーナ・ディートリンデ・ヴィルケ（CV：田中理恵）"],
+      [4, "Treasure of life #4", "ゲルトルート・バルクホルン（CV：園崎未恵）"],
+      [5, "Treasure of life #5", "坂本美緒（CV：世戸さおり）"],
+      [6, "Treasure of life #6", "シャーロット・E・イェーガー（CV：小清水亜美）"],
+      [7, "Treasure of life #7", "フランチェスカ・ルッキーニ（CV：斎藤千和）"],
+      [8, "Treasure of life #8", "サーニャ・V・リトヴャク（CV：門脇舞以）"],
+      [9, "Treasure of life #9", "エイラ・イルマタル・ユーティライネン（CV：大橋歩夕）"],
+      [10, "Treasure of life #10", "リネット・ビショップ（CV：名塚佳織）"],
+      [11, "Treasure of life #11", "ペリーヌ・クロステルマン（CV：沢城みゆき）"],
+      [12, "Treasure of life #12", "第501統合戦闘航空団"]
+    ]);
+    for (const ending of endings) {
+      expect(ending.releaseDate).toBe("2019-06-26");
+      expect(ending.versionLabel).toContain(`TV 輪替 ED #${ending.sequence}／CD 完整版`);
+      expect(ending.versionLabel).toContain("作曲署名待核對");
+      expect(ending.credits.filter(({ role }) => role === "composition")).toEqual([]);
+      expect(ending.credits).toContainEqual({ name: "荘野ジュリ", role: "lyrics" });
+      expect(ending.credits).toContainEqual({ name: "滝澤俊輔", role: "arrangement" });
+    }
+    expect(endings[1]?.credits.filter(({ role }) => role === "vocals")).toEqual([{ name: "野川さくら", role: "vocals" }]);
+    expect(endings[11]?.credits.filter(({ role }) => role === "vocals")).toEqual([{ name: "第501統合戦闘航空団", role: "vocals" }]);
+  });
+
+  it("ties the 501 Takeoff ending preview only to version twelve and preserves dated first-party and cross-check evidence", () => {
+    const themes = curatedAnimeDetails.find(({ id }) => id === "catalog-strike-witches-501-2019")!.themes;
+    expect(themes.slice(1, 12).flatMap(({ videos }) => videos)).toEqual([]);
+    expect(themes[12]?.videos).toEqual([expect.objectContaining({ youtubeVideoId: "63fWLXw7ylY", type: "official_audio", channelName: "日本コロムビア 公式YouTubeチャンネル", officialStatus: "official", embeddable: true })]);
+    expect(themes[12]?.versionLabel).toContain("官方影片為試聽短版");
+    for (const theme of themes) {
+      expect(theme.lastVerifiedAt).toBe("2026-09-07");
+      expect(theme.sources.every(({ verifiedAt }) => verifiedAt === "2026-09-07")).toBe(true);
+      expect(theme.sources).toContainEqual(expect.objectContaining({ url: "https://www.animatetimes.com/tag/details.php?id=15506", role: "cross_check", language: "ja" }));
+      expect(theme.sources).toContainEqual(expect.objectContaining({ url: "https://columbia.jp/artist-info/ishidayoko/info/64416.html", role: "first_party", language: "ja" }));
+      if (theme.type === "ED") expect(theme.sources).toContainEqual(expect.objectContaining({ url: "https://columbia.jp/prod-info/COCX-40890/", role: "first_party" }));
+    }
+  });
+
+  it("finds the 501 Takeoff TV work by Chinese title and narrows an individual actor to the correct ending version", async () => {
+    const index = buildCatalogSearchIndex((await loadCatalogSearchData(new CuratedProvider(), true)).entries);
+    const options = { year: "2019", quarter: "spring", type: "all" } as const;
+    const byTitle = searchCatalog(index, { ...options, query: "強襲魔女 501部隊出動", scope: "anime" });
+    expect(byTitle.map(({ anime: item }) => item.slug)).toEqual(["strike-witches-501-takeoff-2019"]);
+    const actorOptions = { ...options, query: "野川さくら", scope: "creators", type: "ED" } as const;
+    const byActor = searchCatalog(index, actorOptions);
+    expect(byActor.map(({ anime: item }) => item.slug)).toEqual(["strike-witches-501-takeoff-2019"]);
+    expect(byActor[0]?.themes.map(({ titleJa }) => titleJa)).toEqual(["Treasure of life #2"]);
+    expect(searchCatalog(index, { ...actorOptions, quarter: "summer" })).toEqual([]);
+    expect(searchCatalog(index, { ...actorOptions, query: "服部静夏" })).toEqual([]);
+  });
+
   it("identifies Gonjiro's April TV premiere with independent evidence and no invented external ID or romanized title", async () => {
     const seed = curated2019SpringSeeds.find(({ id }) => id === "catalog-gonjiro-2019")!;
     expect(seed).toMatchObject({ startDate: "2019-04-06", seasonIds: ["2019-spring"], verifiedAt: "2026-09-07" });
@@ -505,9 +595,9 @@ describe("2019 spring reviewed TV catalogue", () => {
   });
 
   it("publishes a partial quarter with reviewed identity and song evidence, without unverified artwork", () => {
-    expect(spring.anime).toHaveLength(30);
+    expect(spring.anime).toHaveLength(31);
     expect(spring.coverageNote).toContain("跨季延續及特殊歌曲版本仍待核對");
-    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(78);
+    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(91);
     expect(curatedSeasonDetails.some(({ id }) => id === "2025-fall")).toBe(false);
     for (const seed of curated2019SpringSeeds) {
       expect(seed.seasonIds).toEqual(["2019-spring"]);

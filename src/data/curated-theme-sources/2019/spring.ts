@@ -3,6 +3,14 @@ import { getCuratedAnimeKey, getCuratedThemeKey } from "@/data/curated-seeds/ide
 import type { CuratedThemeSourceOverrideMap, CuratedThemeSourceSeed } from "@/data/curated-theme-sources/types";
 
 const firstPartyUrlsByTheme: Readonly<Record<string, readonly string[]>> = {
+  "catalog-strike-witches-501-2019:OP:1": [
+    "https://columbia.jp/artist-info/ishidayoko/info/64416.html",
+    "https://w-witch.jp/news/20190226_2"
+  ],
+  ...Object.fromEntries(Array.from({ length: 12 }, (_, index) => [
+    `catalog-strike-witches-501-2019:ED:${index + 1}`,
+    ["https://columbia.jp/prod-info/COCX-40890/", "https://columbia.jp/artist-info/ishidayoko/info/64416.html"]
+  ])),
   "catalog-gonjiro-2019:OP:1": ["https://www.tv-tokyo.co.jp/anime/gonjiro/staff/", "https://www.sonymusic.co.jp/artist/DemonKakka/info/507323"],
   "catalog-gonjiro-2019:ED:1": ["https://www.tv-tokyo.co.jp/anime/gonjiro/staff/", "https://www.sonymusic.co.jp/artist/DemonKakka/info/507323", "https://www.sonymusic.co.jp/artist/DemonKakka/info/505719"],
   "108039:OP:1": ["https://www.sunrise-music.co.jp/list/detail.php?id=447", "https://www.universal-music.co.jp/luna-sea/news/2019-04-15/"],
@@ -231,6 +239,9 @@ const firstPartyUrlsByTheme: Readonly<Record<string, readonly string[]>> = {
 };
 
 const sourceLabelsByUrl: Readonly<Record<string, string>> = {
+  "https://columbia.jp/prod-info/COCX-40890/": "日本 Columbia：TV 片尾 12 個演唱版本、CD 完整版日期與 #12 試聽",
+  "https://columbia.jp/artist-info/ishidayoko/info/64416.html": "日本 Columbia：OP／ED 用途、OP 製作資料、ED 作詞與編曲；ED 作曲署名待核對",
+  "https://w-witch.jp/news/20190226_2": "動畫官方：OP 歌曲、製作資料與短版 MV",
   "https://www.tv-tokyo.co.jp/anime/gonjiro/staff/": "東京電視台：OP／ED 用途、藝人與動畫版本",
   "https://www.sonymusic.co.jp/artist/DemonKakka/info/507323": "Sony Music：OP／ED 詞曲、編曲與 CD 完整版發行日期",
   "https://www.sonymusic.co.jp/artist/DemonKakka/info/505719": "Sony Music：ED 動畫短版先行配信日期",
@@ -345,6 +356,12 @@ const sourceLabelsByUrl: Readonly<Record<string, string>> = {
 };
 
 const crossCheckSourcesByAnime: Readonly<Record<string, CuratedThemeSourceSeed>> = {
+  "catalog-strike-witches-501-2019": {
+    label: "Animate Times：2019 年 TV 版 OP／ED 用途與演唱名義交叉核對；輪替版本以唱片公司為準",
+    url: "https://www.animatetimes.com/tag/details.php?id=15506",
+    language: "ja",
+    role: "cross_check"
+  },
   "catalog-gonjiro-2019": {
     label: "アニソンライブラリー：OP／ED 用途與演唱者交叉核對",
     url: "https://japan-anime-song.com/kedamanogonjiroo-anison/",
