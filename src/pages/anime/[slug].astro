@@ -162,11 +162,11 @@ catalogCorrectionUrl.searchParams.set("title", `資料修正：${anime.titleJa}`
   .anime-hero__zh { font-size: clamp(1.35rem, 2.5vw, 2.1rem); font-weight: 760; margin: 0.65rem 0 0; }
   .anime-hero__romaji { color: var(--color-muted); font-size: clamp(1rem, 1.8vw, 1.35rem); margin: 0.35rem 0 0; }
   .anime-hero__meta { display: flex; flex-wrap: wrap; margin: 2rem 0 0; }
-  .anime-hero__meta div { align-items: baseline; display: flex; gap: 0.45rem; padding: 0.25rem 1.15rem; }
+  .anime-hero__meta div { align-items: baseline; display: flex; gap: 0.45rem; min-width: 0; padding: 0.25rem 1.15rem; }
   .anime-hero__meta div:first-child { padding-left: 0; }
   .anime-hero__meta div + div { border-left: 1px solid var(--color-border-strong); }
-  .anime-hero__meta dt { color: var(--color-muted); font-size: 0.7rem; }
-  .anime-hero__meta dd { font-size: 0.86rem; font-weight: 680; margin: 0; }
+  .anime-hero__meta dt { color: var(--color-muted); flex-shrink: 0; font-size: 0.7rem; white-space: nowrap; }
+  .anime-hero__meta dd { font-size: 0.86rem; font-weight: 680; margin: 0; min-width: 0; }
   .reference-links { display: flex; flex-wrap: wrap; gap: 0; margin-top: clamp(2.4rem, 7vw, 5.4rem); }
   .reference-links a { align-items: center; color: var(--color-ink); display: flex; font-size: 0.85rem; font-weight: 680; gap: 0.45rem; padding: 0.35rem 1.5rem; text-decoration: none; }
   .reference-links a:first-child { padding-left: 0; }
@@ -181,9 +181,11 @@ catalogCorrectionUrl.searchParams.set("title", `資料修正：${anime.titleJa}`
 
   @media (max-width: 760px) {
     .anime-hero { grid-template-columns: 8rem 1fr; }
+    .anime-hero--no-poster { grid-template-columns: minmax(0, 1fr); }
     .anime-hero__content h1 { font-size: clamp(1.8rem, 8vw, 2.7rem); }
     .anime-hero__meta { flex-direction: column; }
-    .anime-hero__meta div, .anime-hero__meta div:first-child { border-left: 0; padding: 0.2rem 0; }
+    .anime-hero__meta div, .anime-hero__meta div:first-child, .anime-hero__meta div + div { border-left: 0; padding: 0.2rem 0; }
+    .anime-hero__meta dt { flex-basis: 4em; }
     .reference-links { margin-top: 2rem; }
   }
 
@@ -191,6 +193,6 @@ catalogCorrectionUrl.searchParams.set("title", `資料修正：${anime.titleJa}`
     .anime-hero { grid-template-columns: 1fr; }
     .anime-hero__poster { max-width: 13rem; }
     .reference-links { align-items: flex-start; flex-direction: column; gap: 0.75rem; }
-    .reference-links a, .reference-links a:first-child { border-left: 0; padding: 0; }
+    .reference-links a, .reference-links a:first-child, .reference-links a + a { border-left: 0; padding: 0; }
   }
 </style>

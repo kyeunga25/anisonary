@@ -1508,6 +1508,58 @@ test("YU-NO creator search preserves the exchanged theme singers, release editio
   expect(mediaRequests).toEqual([]);
 });
 
+test("anime details keep full-width poster-free headings and readable metadata across responsive boundaries", async ({ page, browser }) => {
+  for (const width of [1280, 960, 760, 640, 521, 520, 390, 320]) {
+    await page.setViewportSize({ width, height: 900 });
+    for (const slug of ["gundam-the-origin-zenya-akai-suisei", "re-zero-season-4"]) {
+      await page.goto(`/anime/${slug}/`);
+      const hero = page.locator(".anime-hero");
+      const layout = await hero.evaluate((element) => {
+        const rect = element.getBoundingClientRect();
+        const content = element.querySelector(".anime-hero__content")!.getBoundingClientRect();
+        return {
+          width: rect.width, contentWidth: content.width,
+          fields: [...element.querySelectorAll(".anime-hero__meta div")].map((row) => {
+            const label = row.querySelector("dt")!;
+            const value = row.querySelector("dd")!;
+            const range = document.createRange();
+            range.selectNodeContents(label);
+            return {
+              labelLines: new Set([...range.getClientRects()].map(({ top }) => top)).size,
+              labelRight: label.getBoundingClientRect().right,
+              valueLeft: value.getBoundingClientRect().left
+            };
+          })
+        };
+      });
+      if (slug === "gundam-the-origin-zenya-akai-suisei") expect(layout.contentWidth).toBeCloseTo(layout.width, 0);
+      expect(layout.fields).toHaveLength(4);
+      for (const field of layout.fields) {
+        expect(field.labelLines).toBe(1);
+        expect(field.valueLeft).toBeGreaterThan(field.labelRight);
+      }
+      if (width <= 760) expect(new Set(layout.fields.map(({ valueLeft }) => Math.round(valueLeft))).size).toBe(1);
+      expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+      await expect(page.locator("iframe")).toHaveCount(0);
+    }
+  }
+  const native = await browser.newContext({ javaScriptEnabled: false, viewport: { width: 640, height: 900 } });
+  try {
+    const nativePage = await native.newPage();
+    await nativePage.goto(`${e2eOrigin}/anime/gundam-the-origin-zenya-akai-suisei/`);
+    const hero = await nativePage.locator(".anime-hero").boundingBox();
+    const content = await nativePage.locator(".anime-hero__content").boundingBox();
+    expect(content?.width).toBeCloseTo(hero!.width, 0);
+    const quarter = nativePage.getByRole("navigation", { name: "所在位置" }).getByRole("link", { name: "2019 春季動畫" });
+    await quarter.focus();
+    await nativePage.keyboard.press("Enter");
+    await expect(nativePage).toHaveURL(/\/seasons\/2019-spring\/$/);
+    await expect(nativePage.getByRole("heading", { name: "2019 春季動畫" })).toBeVisible();
+  } finally {
+    await native.close();
+  }
+});
+
 test("ORIGIN creator search reaches the reviewed cover and keeps the episode-twelve video attached to its ending", async ({ page }) => {
   const slug = "gundam-the-origin-zenya-akai-suisei";
   const mediaRequests: string[] = [];
