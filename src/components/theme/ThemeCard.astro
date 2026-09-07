@@ -2,6 +2,7 @@
 import type { PublicTheme } from "@/types/public-api";
 import { creditRoleLabel } from "@/utils/theme";
 import ExternalLinkList from "@/components/links/ExternalLinkList.astro";
+import CreatorSearchLink from "@/components/links/CreatorSearchLink.astro";
 import LazyYouTube from "@/components/youtube/LazyYouTube.astro";
 
 interface Props { theme: PublicTheme; }
@@ -52,14 +53,14 @@ const sourceRoleLabels = {
     <div class="theme-card__identity">
       <h3 lang="ja">{theme.titleJa}</h3>
       {theme.titleZhHant && <p class="theme-card__translation">{theme.titleZhHant}</p>}
-      <p class="theme-card__artist">{theme.artistDisplayName}</p>
+      <p class="theme-card__artist"><CreatorSearchLink name={theme.artistDisplayName} /></p>
       {theme.versionLabel && <p class="theme-card__version">{theme.versionLabel}</p>}
       {theme.releaseDate && <p class="theme-card__release-date">發行日期 <time datetime={theme.releaseDate}>{theme.releaseDate}</time></p>}
     </div>
 
     <dl class="theme-card__credits">
       {creditGroups.size > 0 ? [...creditGroups].map(([role, names]) => (
-        <div><dt>{creditRoleLabel(role)}</dt><dd>{names.join("、")}</dd></div>
+        <div><dt>{creditRoleLabel(role)}</dt><dd>{names.map((name, index) => <>{index > 0 && "、"}<CreatorSearchLink name={name} /></>)}</dd></div>
       )) : (
         <div><dt>{repeatsVocalList ? "製作" : "Credits"}</dt><dd>待確認</dd></div>
       )}

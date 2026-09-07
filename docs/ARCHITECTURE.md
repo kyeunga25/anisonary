@@ -42,7 +42,8 @@ Astro output ──► generated CSP ──► bounded service worker ──► 
 | `src/utils/catalog-directory.ts` | 從既有快照派生年代／年份／季度分類，不建立另一份資料來源 |
 | `src/utils/catalog-search-index.ts` | 有 UTF-8 byte budget 的公開文字索引、跨季 membership、歌曲與 creator 篩選 |
 | `src/pages/catalog/` | 固定入口下的年代目錄與年份靜態頁 |
-| `src/scripts/catalog-search.ts` | 本機搜尋、每頁最多 12 套作品的 DOM，以及歌曲 anchor 導航 |
+| `src/scripts/catalog-search.ts` | 本機搜尋、每頁最多 12 套作品的 DOM、歌曲 anchor 導航與署名入口條件 |
+| `src/utils/creator-search.ts` | 只使用同源網址片段的署名搜尋連結，與輸入共用 80 UTF-16 單位上限 |
 | `src/pages/api/v1/` | build-time 靜態 JSON routes |
 | `scripts/generate-security-headers.mjs` | 由 build output 產生 hash-based CSP |
 | `scripts/generate-service-worker.mjs` | 由 build output 產生同源、無 runtime write 的離線清單 |
@@ -61,7 +62,7 @@ Astro output ──► generated CSP ──► bounded service worker ──► 
 
 ## Browser 與媒體邊界
 
-- 搜尋只操作 build-time HTML，不把輸入放入 URL、request、analytics 或 storage。
+- 搜尋只操作 build-time HTML，手動輸入不進入 URL、request、analytics 或 storage。歌曲署名入口使用 `/search/#creator=...` 預選創作者文字搜尋；片段不隨 HTTP request 送出，但可留在瀏覽器的一般歷史紀錄。手動輸入、篩選及重設會清除入口片段。
 - Service Worker 只 precache 已公開的同源 app shell；不建立 runtime cache entry，不保存 `/api/` JSON、query string 或第三方媒體。
 - 作品圖像使用核准 HTTPS origin 並加上頁面來源連結及 `no-referrer`；不下載後重新託管。
 - YouTube iframe 只在使用者明確啟動後建立，使用 privacy-enhanced domain。

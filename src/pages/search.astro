@@ -4,6 +4,7 @@ import BaseLayout from "@/layouts/BaseLayout.astro";
 import { getDataProvider, shouldRequireApiData } from "@/data/provider";
 import { loadCatalogSearchData } from "@/data/page-data";
 import { buildCatalogSearchIndex, serializeCatalogSearchIndex } from "@/utils/catalog-search-index";
+import { MAX_CATALOG_QUERY_LENGTH } from "@/utils/creator-search";
 
 const data = await loadCatalogSearchData(getDataProvider(), shouldRequireApiData());
 const index = buildCatalogSearchIndex(data.entries);
@@ -23,7 +24,7 @@ const themeCount = index.reduce((total, anime) => total + anime.themes.length, 0
           <label id="catalog-search-label" for="catalog-query">搜尋動畫、歌曲或創作者</label>
           <div class="catalog-search__control">
             <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" /><path d="m15.5 15.5 5 5" /></svg>
-            <input id="catalog-query" type="search" placeholder="例如：幼女 myth、片頭曲 ReoNa" maxlength="80" autocomplete="off" autocapitalize="off" spellcheck="false" aria-describedby="catalog-search-privacy catalog-search-summary" data-catalog-search-input />
+            <input id="catalog-query" type="search" placeholder="例如：幼女 myth、片頭曲 ReoNa" maxlength={MAX_CATALOG_QUERY_LENGTH} autocomplete="off" autocapitalize="off" spellcheck="false" aria-describedby="catalog-search-privacy catalog-search-summary" data-catalog-search-input />
             <button type="button" data-catalog-search-clear disabled>重設</button>
           </div>
           <div class="catalog-search__filters">
@@ -32,7 +33,7 @@ const themeCount = index.reduce((total, anime) => total + anime.themes.length, 0
             <div><label for="catalog-quarter">季度</label><select id="catalog-quarter"><option value="">全部季度</option><option value="winter">冬季</option><option value="spring">春季</option><option value="summer">夏季</option><option value="fall">秋季</option></select></div>
             <div><label for="catalog-type">歌曲用途</label><select id="catalog-type"><option value="all">全部 OP／ED</option><option value="OP">片頭曲 OP</option><option value="ED">片尾曲 ED</option></select></div>
           </div>
-          <p id="catalog-search-privacy" class="catalog-search__privacy">Local-only search · 搜尋字詞不會傳送或儲存，不載入第三方圖片。</p>
+          <p id="catalog-search-privacy" class="catalog-search__privacy">Local-only search · 本站不傳送或儲存搜尋字詞，不載入第三方圖片。</p>
         </form>
         <noscript><p>搜尋需要 JavaScript。你仍可<a href="/catalog/">按年份與季度瀏覽全部動畫</a>。</p></noscript>
         <p id="catalog-search-summary" class="catalog-search__summary" aria-live="polite">找到 <strong data-catalog-anime-count>{index.length}</strong> 套動畫、<strong data-catalog-theme-count>{themeCount}</strong> 筆主題曲</p>

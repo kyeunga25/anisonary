@@ -77,6 +77,7 @@
 - **v1.43.0 source**：registry 支援具來源證據的本站識別碼，季度、歌曲來源及影片共用穩定關聯；未核對的外部 ID 與別名保持空缺，既有作品、搜尋與 API 不變；發布證據見對應 GitHub Release。
 - **v1.44.0 source**：2019 春季增加《毛球權次郎》TV 版、2 筆 OP／ED 與 1 筆正式授權片尾影片 metadata；使用具來源證據的本站識別碼，保留動畫短版、CD 完整版日期與共同作曲，春季共 30 套作品與 78 筆歌曲；發布證據見對應 GitHub Release。
 - **v1.44.1 source**：縮短作品頁資料、來源連結與歌曲分區間距，保留海報尺寸、文字層級及全部連結；目錄、搜尋與 API 不變，發布證據見對應 GitHub Release。
+- **v1.45.0 source**：歌曲署名直接開啟本機創作者文字搜尋，保留完整名稱及既有字數上限；入口條件使用不會送出的網址片段，手動編輯時清除，資料、API 與全域導覽數量不變；發布證據見對應 GitHub Release。
 - 正式網站使用 custom domain；非正式 Cloudflare hostname 不在公開文檔記錄；
 - 私有 backend、資料庫、crawler、帳戶設定、憑證與內部規則不屬於本公開 repository。
 
