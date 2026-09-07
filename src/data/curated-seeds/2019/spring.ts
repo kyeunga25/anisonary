@@ -23,6 +23,162 @@ function spring2019Seed(row: Spring2019SeedInput): CuratedAnimeSeed {
 
 const curated2019SpringSeedRows: Spring2019SeedInput[] = [
   {
+    anilistId: 101281,
+    slug: "carole-and-tuesday",
+    startDate: "2019-04-10",
+    titleJa: "キャロル＆チューズデイ",
+    titleZhHant: "凱洛與塔斯黛",
+    titleRomaji: "Carole & Tuesday",
+    officialSiteUrl: "https://www.fujitv.co.jp/b_hp/caroleandtuesday/",
+    wikipediaUrl: "https://www.netflix.com/tw/title/80992137",
+    animeThemesUrl: "https://animethemes.moe/anime/carole_tuesday",
+    identifierSource: {
+      label: "AnimeThemes：作品識別交叉連結",
+      url: "https://api.animethemes.moe/anime/carole_tuesday?include=resources",
+      language: "en"
+    },
+    broadcastTimeJst: "24:55",
+    broadcastLabel: "富士電視台 每週三 24:55（日本時間）",
+    themes: [
+      {
+        type: "OP",
+        sequence: 1,
+        titleJa: "Kiss Me",
+        artistDisplayName: "キャロル＆チューズデイ（Vo. Nai Br.XX＆Celeina Ann）",
+        versionLabel: "前半播出部分；單曲另收錄 TV size ver.",
+        releaseDate: "2019-05-29",
+        credits: [
+          { name: "Nai Br.XX", role: "vocals" },
+          { name: "Celeina Ann", role: "vocals" },
+          { name: "Nulbarich", role: "lyrics" },
+          { name: "Nulbarich", role: "composition" },
+          { name: "Nulbarich", role: "arrangement" }
+        ]
+      },
+      {
+        type: "OP",
+        sequence: 2,
+        titleJa: "Polly Jean",
+        artistDisplayName: "キャロル＆チューズデイ（Vo. Nai Br.XX＆Celeina Ann）",
+        versionLabel: "後半播出部分；單曲另收錄 TV size ver.",
+        releaseDate: "2019-08-28",
+        credits: [
+          { name: "Nai Br.XX", role: "vocals" },
+          { name: "Celeina Ann", role: "vocals" },
+          { name: "LEO今井", role: "lyrics" },
+          { name: "小山田圭吾", role: "composition" },
+          { name: "小山田圭吾", role: "arrangement" }
+        ]
+      },
+      {
+        type: "ED",
+        sequence: 1,
+        titleJa: "Hold Me Now",
+        artistDisplayName: "キャロル＆チューズデイ（Vo. Nai Br.XX＆Celeina Ann）",
+        versionLabel: "前半播出部分；單曲另收錄 TV size ver.",
+        releaseDate: "2019-05-29",
+        credits: [
+          { name: "Nai Br.XX", role: "vocals" },
+          { name: "Celeina Ann", role: "vocals" },
+          { name: "Benny Sings", role: "lyrics" },
+          { name: "Benny Sings", role: "composition" },
+          { name: "Benny Sings", role: "arrangement" }
+        ]
+      },
+      {
+        type: "ED",
+        sequence: 2,
+        titleJa: "Not Afraid",
+        artistDisplayName: "アンジェラ（Vo. Alisa）",
+        versionLabel: "後半播出部分；單曲另收錄 TV size ver.",
+        releaseDate: "2019-08-28",
+        credits: [
+          { name: "Alisa", role: "vocals" },
+          { name: "Lido", role: "lyrics" },
+          { name: "Lido", role: "composition" },
+          { name: "Lido", role: "arrangement" }
+        ]
+      }
+    ]
+  },
+  {
+    anilistId: 105928,
+    slug: "robihachi",
+    startDate: "2019-04-08",
+    titleJa: "RobiHachi",
+    titleZhHant: "RobiHachi",
+    titleRomaji: "RobiHachi",
+    officialSiteUrl: "https://robihachi.jp/",
+    animeThemesUrl: "https://animethemes.moe/anime/robihachi",
+    identifierSource: {
+      label: "AnimeThemes：作品識別交叉連結",
+      url: "https://api.animethemes.moe/anime/robihachi?include=resources",
+      language: "en"
+    },
+    broadcastTimeJst: "23:30",
+    broadcastLabel: "AT-X／AbemaTV 每週一 23:30（日本時間）",
+    themes: [
+      {
+        type: "OP",
+        sequence: 1,
+        titleJa: "天才のプレイリスト",
+        artistDisplayName: "Hatchi feat. Robby（CV：河本啓佑／中井和哉）",
+        versionLabel: "單曲一般版由 Hatchi 演唱；另收錄 H☆R version",
+        releaseDate: "2019-04-24",
+        youtubeUrl: "https://www.youtube.com/watch?v=YqxmjDgTLEc",
+        credits: [{ name: "Hatchi（CV：河本啓佑）", role: "vocals" }]
+      },
+      {
+        type: "ED",
+        sequence: 1,
+        titleJa: "Dancing to Night 〜君への最短ワープ航路〜",
+        artistDisplayName: "Allo&Gras feat.Yang（CV：木村 昴／徳留慎乃佑／杉田智和）",
+        releaseDate: "2019-04-24",
+        credits: [
+          { name: "木村 昴", role: "vocals" },
+          { name: "徳留慎乃佑", role: "vocals" },
+          { name: "杉田智和", role: "vocals" }
+        ]
+      }
+    ]
+  },
+  {
+    anilistId: 106568,
+    slug: "bakumatsu-crisis",
+    startDate: "2019-04-04",
+    titleJa: "BAKUMATSUクライシス",
+    titleZhHant: "戀愛幕末男友外傳 危機",
+    titleRomaji: "Bakumatsu: Crisis",
+    officialSiteUrl: "https://www.tbs.co.jp/anime/BAKUMATSU/",
+    animeThemesUrl: "https://animethemes.moe/anime/bakumatsu_crisis",
+    identifierSource: {
+      label: "AnimeThemes：作品識別交叉連結",
+      url: "https://api.animethemes.moe/anime/bakumatsu_crisis?include=resources",
+      language: "en"
+    },
+    broadcastTimeJst: "25:58",
+    broadcastLabel: "TBS 每週四 25:58（日本時間）",
+    themes: [
+      {
+        type: "OP",
+        sequence: 1,
+        titleJa: "Brave Rejection",
+        artistDisplayName: "Hi!Superb",
+        releaseDate: "2019-04-17",
+        credits: []
+      },
+      {
+        type: "ED",
+        sequence: 1,
+        titleJa: "青き炎",
+        titleRomaji: "Aoki Homura",
+        artistDisplayName: "Zwei",
+        releaseDate: "2019-04-17",
+        credits: []
+      }
+    ]
+  },
+  {
     anilistId: 101261,
     slug: "sarazanmai",
     startDate: "2019-04-11",

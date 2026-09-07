@@ -2,6 +2,20 @@ import { curated2019SpringSeeds } from "@/data/curated-seeds/2019/spring";
 import type { CuratedThemeSourceOverrideMap, CuratedThemeSourceSeed } from "@/data/curated-theme-sources/types";
 
 const firstPartyUrlsByTheme: Readonly<Record<string, readonly string[]>> = {
+  "101281:OP:1": ["https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026453/VTCL-35302.html"],
+  "101281:OP:2": [
+    "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026453/VTCL-35307.html",
+    "https://www.fujitv.co.jp/b_hp/caroleandtuesday/"
+  ],
+  "101281:ED:1": ["https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026453/VTCL-35302.html"],
+  "101281:ED:2": [
+    "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026453/VTCL-35307.html",
+    "https://www.fujitv.co.jp/b_hp/caroleandtuesday/"
+  ],
+  "105928:OP:1": ["https://robihachi.jp/product/cd/op.php", "https://robihachi.jp/special/"],
+  "105928:ED:1": ["https://robihachi.jp/product/cd/ed.php"],
+  "106568:OP:1": ["https://hisuperb.com/discography/"],
+  "106568:ED:1": ["https://zweima.com/disco/1710/"],
   "101261:OP:1": [
     "https://sarazanmai.com/music/",
     "https://www.youtube.com/watch?v=KBhUW6PpwMY",
@@ -95,6 +109,14 @@ const firstPartyUrlsByTheme: Readonly<Record<string, readonly string[]>> = {
 };
 
 const sourceLabelsByUrl: Readonly<Record<string, string>> = {
+  "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026453/VTCL-35302.html": "FlyingDog 官方：前半 OP／ED、歌唱者、製作署名與 TV size 收錄",
+  "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026453/VTCL-35307.html": "FlyingDog 官方：新 OP／ED、製作署名與 TV size 收錄",
+  "https://www.fujitv.co.jp/b_hp/caroleandtuesday/": "富士電視台：後半 OP／ED 與獨立歌唱聲音",
+  "https://robihachi.jp/product/cd/op.php": "動畫官方：OP 單曲、一般演唱版與 H☆R version",
+  "https://robihachi.jp/special/": "動畫官方：OP 主題曲試聽來源",
+  "https://robihachi.jp/product/cd/ed.php": "動畫官方：ED 用途、三位演唱者與發行日期",
+  "https://hisuperb.com/discography/": "Hi!Superb 官方：Brave Rejection 動畫 OP 用途與發行日期",
+  "https://zweima.com/disco/1710/": "Zwei 官方：ED 用途、曲名讀音與發行日期",
   "https://sarazanmai.com/music/": "動畫官方：OP／ED、發行日期及演唱者",
   "https://www.youtube.com/watch?v=KBhUW6PpwMY": "MAPPA 官方：OP 映像與作詞、作曲、編曲署名",
   "https://sp.kanaboon.jp/discography/detail/30/": "KANA-BOON 官方：OP 單曲與發行日期",

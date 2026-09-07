@@ -2,6 +2,15 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.36.0] - 2026-09-07
+
+### Added
+
+- three reviewed spring 2019 TV titles: Carole & Tuesday, RobiHachi and Bakumatsu Crisis, with eight OP／ED records and one official preview video;
+- the licensed Traditional Chinese Carole & Tuesday name, separate first- and second-cour songs, singing voices distinct from dialogue actors, RobiHachi release editions and the official Aoki Homura reading;
+- first-party and cross-check references reviewed on 2026-09-07; unsupported songwriter credits, special endings and additional video channels remain unset;
+- the partial spring snapshot now contains seventeen works and thirty-eight songs; the catalogue contains 29 snapshots, 1,934 unique works, 4,267 OP／ED records and 1,775 official or licensed video metadata records.
+
 ## [1.35.1] - 2026-09-07
 
 ### Fixed
