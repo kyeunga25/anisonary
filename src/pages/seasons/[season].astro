@@ -43,7 +43,7 @@ const site = Astro.site ?? new URL("https://anisonary.k-y.cc");
       <div>
         <h1>{title}</h1>
         <p lang="ja">{season.titleJa}</p>
-        <p>按日本編輯播出日整理，共 8 個播出分組。</p>
+        <p>按日本編輯播出日分組，顯示已收錄作品的星期。</p>
         <p class="season-header__review">資料審閱：已審閱 · {season.verifiedAt}</p>
         {season.coverageNote && <p>{season.coverageNote}</p>}
         {season.isMockData && <MockNotice compact />}

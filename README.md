@@ -4,7 +4,7 @@ Anisonary 是以 Astro + strict TypeScript 建立的動畫歌曲目錄，按季�
 
 This repository contains the completed static product: season directory, anime detail pages, traceable OP／ED credits and links, per-song source ledgers, source-attributed media, local-only cross-season search, privacy-bounded offline reading, a GitHub correction flow, and deployment through Cloudflare Workers Static Assets. The default catalogue covers twenty-nine reviewed snapshots across 2019–2026, with 1,921 unique titles and 4,238 known OP／ED records. The 2019 spring snapshot starts with four TV titles; summer contains 38 TV titles and four web series. Both quarters are still being expanded, and 2025 fall is not yet included. Fictional Mock Data remains test-only.
 
-目前 source 版本：**v1.32.0**。2019 春季首批加入《鬼滅之刃 竈門炭治郎 立志篇》、《一拳超人 第二季》、《請讓我撒嬌，仙狐大人！》及《文豪Stray Dogs 第三季》，共 4 套 TV 作品、9 筆 OP／ED 與 3 筆官方影片 metadata。保留第 19 話特殊片尾、角色演唱與共同編曲 credits，按正篇首播區分回顧特番及先行上映。2019 春、夏季仍在補充；2025 秋季尚未收錄。
+目前 source 版本：**v1.32.1**。季度頁只顯示有已收錄作品的星期，篩選時同步更新分組與跳轉連結，零結果保留清楚提示及重設操作；無 JavaScript 時亦可使用原生星期導覽。2019 春季首批維持 4 套 TV 作品、9 筆 OP／ED 與 3 筆官方影片 metadata；春、夏季仍在補充，2025 秋季尚未收錄。歌曲、來源日期及公開 API 資料不變。
 
 導覽延續固定五個入口與年代、年份、季度目錄；搜尋可按動畫、歌曲、創作者、年份、季度及 OP／ED 篩選，每頁顯示 12 套作品。搜尋完全在瀏覽器內進行，YouTube 只於明確操作後連線。網站與同源靜態 JSON API 共用已審閱資料，無 application backend 或 database binding。依賴安全 gate 繼續鎖定 `fast-uri` 3.1.6 並稽核開發依賴。
 
@@ -12,7 +12,7 @@ Production build 會從最終 HTML 自動產生 hash-based Content Security Poli
 
 | 可用性 / Availability                  | 成熟度 / Maturity                       | 證據 / Evidence                                                                                                                                                                                                                                                     |
 | -------------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 公開靜態目錄 / Public static catalogue | Source 版本為 `v1.32.0`；正式發布狀態以對應 Release 驗收摘要為準 | [入口網站 / Live](https://anisonary.k-y.cc) · [版本與驗收 / Releases](https://github.com/kyeunga25/anisonary/releases) · [資料來源 / Sources](docs/DATA_SOURCES.md) · [安全政策 / Security](SECURITY.md) · [授權 / Licence](LICENSING.md) · [版權 / Copyright](COPYRIGHT.md) |
+| 公開靜態目錄 / Public static catalogue | Source 版本為 `v1.32.1`；正式發布狀態以對應 Release 驗收摘要為準 | [入口網站 / Live](https://anisonary.k-y.cc) · [版本與驗收 / Releases](https://github.com/kyeunga25/anisonary/releases) · [資料來源 / Sources](docs/DATA_SOURCES.md) · [安全政策 / Security](SECURITY.md) · [授權 / Licence](LICENSING.md) · [版權 / Copyright](COPYRIGHT.md) |
 
 ## 技術棧｜Technology stack
 

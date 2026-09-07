@@ -55,6 +55,7 @@
 - **v1.31.0 source**：2019 夏季增加 3 套 TV 作品、1 筆片尾曲及 1 筆官方影片 metadata；分清新作短篇、特別篇與節目內播出時段；沒有可靠繁中來源或歌曲 credits 時不補值；發布證據見對應 GitHub Release。
 - **v1.31.1 source**：修正歌曲頁隱藏與藝人欄不同的演唱 credits；個別演唱者、角色與合成歌聲可由既有來源資料顯示，歌曲、來源日期及 API 內容不變；發布證據見對應 GitHub Release。
 - **v1.32.0 source**：加入 2019 春季首批 4 套 TV 作品、9 筆 OP／ED 及 3 筆官方影片 metadata；保留單集片尾、角色演唱與共同編曲，按正篇首播區分特番及先行上映；本季與夏季仍在補充，發布證據見對應 GitHub Release。
+- **v1.32.1 source**：季度頁省略空白星期分組，篩選時同步更新可見分組、跳轉連結與零結果狀態；支援無 JavaScript 原生導覽，歌曲、來源日期及 API 資料不變；發布證據見對應 GitHub Release。
 - 正式網站使用 custom domain；非正式 Cloudflare hostname 不在公開文檔記錄；
 - 私有 backend、資料庫、crawler、帳戶設定、憑證與內部規則不屬於本公開 repository。
 
