@@ -2,6 +2,15 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.37.1] - 2026-09-07
+
+### Fixed
+
+- group shared song credits under a single role label while retaining every reviewed name and each person's distinct roles;
+- display existing release dates beside version notes using native date markup, with no empty date row for unknown values;
+- wrap long anime titles within the detail column at the desktop sidebar breakpoint;
+- preserve catalogue records, search results, source ledgers, API payloads and access without JavaScript.
+
 ## [1.37.0] - 2026-09-07
 
 ### Added
