@@ -38,7 +38,7 @@ describe("curated public catalogue", () => {
       "2019-spring"
     ]);
     expect(curatedSeasonDetails).toHaveLength(29);
-    expect(curatedSeasonDetails.map((season) => season.anime.length)).toEqual([70, 70, 66, 75, 82, 59, 88, 68, 76, 75, 100, 75, 79, 72, 80, 69, 79, 58, 65, 46, 73, 67, 67, 31, 61, 58, 67, 42, 36]);
+    expect(curatedSeasonDetails.map((season) => season.anime.length)).toEqual([70, 70, 66, 75, 82, 59, 88, 68, 76, 75, 100, 75, 79, 72, 80, 69, 79, 58, 65, 46, 73, 67, 67, 31, 61, 58, 67, 42, 37]);
     expect(curatedSeasonDetails.map((season) => [season.id, season.reviewState, season.verifiedAt])).toEqual([
       ["2026-summer", "reviewed", "2026-08-02"],
       ["2026-spring", "reviewed", "2026-08-02"],
@@ -70,10 +70,10 @@ describe("curated public catalogue", () => {
       ["2019-summer", "reviewed", "2026-09-07"],
       ["2019-spring", "reviewed", "2026-09-08"]
     ]);
-    expect(curatedAnimeDetails).toHaveLength(1953);
-    expect(curatedAnimeDetails.filter((anime) => anime.themes.length > 0)).toHaveLength(1589);
-    expect(curatedAnimeDetails.flatMap((anime) => anime.themes)).toHaveLength(4342);
-    expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "documented")).toHaveLength(1589);
+    expect(curatedAnimeDetails).toHaveLength(1954);
+    expect(curatedAnimeDetails.filter((anime) => anime.themes.length > 0)).toHaveLength(1590);
+    expect(curatedAnimeDetails.flatMap((anime) => anime.themes)).toHaveLength(4344);
+    expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "documented")).toHaveLength(1590);
     expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "not_used")).toHaveLength(2);
     expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "not_announced")).toHaveLength(362);
     const youtubeLinks = curatedAnimeDetails
@@ -2178,7 +2178,7 @@ describe("curated public catalogue", () => {
       }
 
       for (const item of anime.themes) {
-        const expectedVerifiedAt = ["catalog-cinderella-girls-climax-2019", "catalog-hangyakusei-million-arthur-2-2019", "catalog-king-of-prism-sss-2019"].includes(anime.id)
+        const expectedVerifiedAt = ["catalog-cinderella-girls-climax-2019", "catalog-hangyakusei-million-arthur-2-2019", "catalog-king-of-prism-sss-2019", "catalog-aikatsu-friends-2-2019"].includes(anime.id)
           ? "2026-09-08"
           : anime.id === "curated-111048"
           || curatedSeasonDetails.find(({ id }) => id === "2019-summer")?.anime.some(({ id }) => id === anime.id)

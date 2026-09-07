@@ -460,7 +460,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
 
   await page.goto("/search/");
   await expect(page.getByRole("heading", { name: "跨季度搜尋" })).toBeVisible();
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1953");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1954");
 
   const search = page.getByRole("searchbox", { name: "搜尋動畫、歌曲或創作者" });
   await search.fill("ＭＹＴＨ & ＲＯＩＤ");
@@ -500,7 +500,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
   await expect(page.locator("[data-catalog-anime-count]")).toHaveText("0");
 
   await search.press("Escape");
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1953");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1954");
   expect(externalRequests).toEqual([]);
 });
 
@@ -908,7 +908,7 @@ test("catalogue navigation stays compact and drills down through published years
   await expect(navigation.getByRole("link", { name: /動畫目錄/ })).toHaveAttribute("aria-current", "true");
   await expect(page.getByRole("navigation", { name: "2025 年季度導覽" }).getByRole("link", { name: "春季" })).toHaveAttribute("aria-current", "page");
   await expect(page.getByRole("navigation", { name: "所在位置" }).getByRole("link", { name: "2025", exact: true })).toHaveAttribute("href", "/catalog/2025/");
-  await expect(page.getByLabel("季度資料狀態")).toContainText("已發布 29 個季度、1,953 個作品頁與 4,342 首 OP／ED");
+  await expect(page.getByLabel("季度資料狀態")).toContainText("已發布 29 個季度、1,954 個作品頁與 4,344 首 OP／ED");
 
   await page.setViewportSize({ width: 390, height: 844 });
   await page.reload();
@@ -1245,10 +1245,10 @@ test("2019 spring browsing and creator search reach the correct special ending o
   for (const width of [1280, 390]) {
     await page.setViewportSize({ width, height: 844 });
     await page.goto("/catalog/2019/");
-    await page.getByRole("link", { name: /春季動畫.*36 套動畫/ }).click();
+    await page.getByRole("link", { name: /春季動畫.*37 套動畫/ }).click();
     await expect(page.getByRole("heading", { name: "2019 春季動畫" })).toBeVisible();
-    await expect(page.getByText("本季正在補充，目前收錄 36 套 TV 作品（含電視短篇及重編版）。其餘作品、跨季延續及特殊歌曲版本仍待核對。", { exact: true })).toBeVisible();
-    await expect(page.locator("[data-anime-card]")).toHaveCount(36);
+    await expect(page.getByText("本季正在補充，目前收錄 37 套 TV 作品（含電視短篇及重編版）。其餘作品、跨季延續及特殊歌曲版本仍待核對。", { exact: true })).toBeVisible();
+    await expect(page.locator("[data-anime-card]")).toHaveCount(37);
     await expect(page.locator("[data-anime-card] img")).toHaveCount(0);
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 
@@ -1681,6 +1681,71 @@ test("anime details keep full-width poster-free headings and readable metadata a
   }
 });
 
+test("Aikatsu Friends second-season search preserves the four-character opening, joint writers and withheld release dates across devices", async ({ page, browser, request }) => {
+  test.setTimeout(60_000);
+  const slug = "aikatsu-friends-2-2019";
+  const mediaRequests: string[] = [];
+  page.on("request", (item) => {
+    if (/youtube|ytimg|googlevideo/.test(new URL(item.url()).hostname)) mediaRequests.push(item.url());
+  });
+  const response = await request.get(`/api/v1/anime/${slug}.json`);
+  expect(response.status()).toBe(200);
+  const detail = await response.json();
+  expect(detail.id).toBe("catalog-aikatsu-friends-2-2019");
+  expect(detail.themes).toHaveLength(2);
+  for (const theme of detail.themes) expect(theme).not.toHaveProperty("releaseDate");
+  for (const width of [1280, 960, 390, 320]) {
+    await page.setViewportSize({ width, height: 844 });
+    await page.goto("/search/", { waitUntil: "domcontentloaded" });
+    await page.getByRole("searchbox", { name: "搜尋動畫、歌曲或創作者" }).fill("偶像學園Friends");
+    await page.getByLabel("年份", { exact: true }).selectOption("2019");
+    await page.getByLabel("季度", { exact: true }).selectOption("spring");
+    await expect(page.locator("[data-catalog-result]")).toHaveCount(1);
+    await page.getByRole("link", { name: "アイカツフレンズ！～かがやきのジュエル～", exact: true }).first().click();
+    await expect(page.locator(".anime-hero__zh")).toHaveText("偶像學園Friends！ 第二季");
+    await expect(page.locator(".anime-hero__meta")).toContainText("每週四 18:25");
+    await expect(page.locator(".theme-card")).toHaveCount(2);
+    await expect(page.locator(".theme-card time")).toHaveCount(0);
+    const opening = page.locator(`#theme-${slug}-op-1`);
+    await expect(opening.locator(".theme-card__artist")).toHaveText("あいね・みお・舞花・エマ from BEST FRIENDS！");
+    await expect(opening).toContainText("CD 日期與聲優歌唱署名待核對");
+    await opening.locator("details summary").focus();
+    await page.keyboard.press("Enter");
+    await expect(opening.locator("details")).toHaveAttribute("open");
+    await expect(opening.locator('a[href="https://utaten.com/lyric/mi19041917/"]')).toBeVisible();
+    await page.getByRole("link", { name: "搜尋「Maozon」的歌曲", exact: true }).first().focus();
+    await page.keyboard.press("Enter");
+    await expect(page.getByRole("searchbox", { name: "搜尋動畫、歌曲或創作者" })).toHaveValue("Maozon");
+    for (const [label, value] of [["年份", "2019"], ["季度", "spring"], ["歌曲用途", "ED"]]) await page.getByLabel(label!, { exact: true }).selectOption(value!);
+    await page.getByRole("link", { name: "Be star", exact: true }).click();
+    const ending = page.locator(`#theme-${slug}-ed-1`);
+    await expect(ending).toBeFocused();
+    await expect(ending.locator(".theme-card__artist")).toHaveText("ひびき from BEST FRIENDS！");
+    for (const name of ["Maozon", "YUKI FUNAKOSHI"]) await expect(ending.getByRole("link", { name: `搜尋「${name}」的歌曲`, exact: true })).toHaveCount(2);
+    await expect(page.getByRole("button", { name: /載入 YouTube 影片/ })).toHaveCount(0);
+    await expect(page.locator("iframe")).toHaveCount(0);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  }
+  expect(mediaRequests).toEqual([]);
+  const context = await browser.newContext({ javaScriptEnabled: false, viewport: { width: 390, height: 844 } });
+  try {
+    const nativePage = await context.newPage();
+    await nativePage.goto(`${e2eOrigin}/catalog/2019/`, { waitUntil: "domcontentloaded" });
+    await nativePage.getByRole("link", { name: /春季動畫.*37 套動畫/ }).click();
+    await nativePage.getByRole("link", { name: "查看 アイカツフレンズ！～かがやきのジュエル～（偶像學園Friends！ 第二季）", exact: true }).click();
+    await expect(nativePage).toHaveURL(new RegExp(`/anime/${slug}/$`));
+    await expect(nativePage.locator(".theme-card")).toHaveCount(2);
+    await expect(nativePage.locator(".theme-card time")).toHaveCount(0);
+    await nativePage.locator(`#theme-${slug}-ed-1 details summary`).focus();
+    await nativePage.keyboard.press("Enter");
+    await expect(nativePage.locator(`#theme-${slug}-ed-1 a[href="https://utaten.com/lyric/mi19082003/"]`)).toBeVisible();
+    await expect(nativePage.locator("iframe")).toHaveCount(0);
+    expect(await nativePage.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  } finally {
+    await context.close();
+  }
+});
+
 test("KING OF PRISM search and compact song navigation preserve singing identities, cover endings and unverified dates across devices", async ({ page, browser, request }) => {
   test.setTimeout(60_000);
   const slug = "king-of-prism-sss-2019";
@@ -1746,7 +1811,7 @@ test("KING OF PRISM search and compact song navigation preserve singing identiti
   try {
     const nativePage = await context.newPage();
     await nativePage.goto(`${e2eOrigin}/catalog/2019/`, { waitUntil: "domcontentloaded" });
-    await nativePage.getByRole("link", { name: /春季動畫.*36 套動畫/ }).click();
+    await nativePage.getByRole("link", { name: /春季動畫.*37 套動畫/ }).click();
     await nativePage.getByRole("link", { name: "查看 KING OF PRISM -Shiny Seven Stars-（星光王子 KING OF PRISM -Shiny Seven Stars-）", exact: true }).click();
     await expect(nativePage).toHaveURL(new RegExp(`/anime/${slug}/$`));
     await nativePage.locator(".theme-navigation summary").focus();
@@ -1819,7 +1884,7 @@ test("Hangyaku second season preserves original song versions, missing credits a
   try {
     const nativePage = await context.newPage();
     await nativePage.goto(`${e2eOrigin}/catalog/2019/`, { waitUntil: "domcontentloaded" });
-    await nativePage.getByRole("link", { name: /春季動畫.*36 套動畫/ }).click();
+    await nativePage.getByRole("link", { name: /春季動畫.*37 套動畫/ }).click();
     await nativePage.getByRole("link", { name: /叛逆性ミリオンアーサー 第2シーズン/ }).first().click();
     await expect(nativePage.locator(".theme-card")).toHaveCount(2);
     await expect(nativePage.locator(`#theme-${slug}-ed-1 a[href="https://catalog.bandainamcomusiclive.co.jp/release/68378/"]`)).toBeVisible();
@@ -1888,7 +1953,7 @@ test("CLIMAX SEASON search preserves monthly ensemble endings, individual singer
   try {
     const nativePage = await context.newPage();
     await nativePage.goto(`${e2eOrigin}/catalog/2019/`, { waitUntil: "domcontentloaded" });
-    await nativePage.getByRole("link", { name: /春季動畫.*36 套動畫/ }).click();
+    await nativePage.getByRole("link", { name: /春季動畫.*37 套動畫/ }).click();
     await nativePage.getByRole("link", { name: /アイドルマスター シンデレラガールズ劇場 CLIMAX SEASON/ }).first().click();
     await expect(nativePage.locator(".theme-card")).toHaveCount(3);
     await nativePage.locator(`#theme-${slug}-ed-3 details summary`).focus();
@@ -1957,7 +2022,7 @@ test("Yo-kai Watch search separates the 2019 series and keeps shared writers and
   try {
     const nativePage = await context.newPage();
     await nativePage.goto(`${e2eOrigin}/catalog/2019/`);
-    await nativePage.getByRole("link", { name: /春季動畫.*36 套動畫/ }).click();
+    await nativePage.getByRole("link", { name: /春季動畫.*37 套動畫/ }).click();
     await nativePage.getByRole("link", { name: /妖怪ウォッチ！/ }).first().click();
     const sources = nativePage.locator(`#theme-${slug}-ed-1 details`);
     await sources.locator("summary").focus();
@@ -2014,7 +2079,7 @@ test("Bakugan Japanese theme search preserves shared credits and separates the l
   try {
     const nativePage = await context.newPage();
     await nativePage.goto(`${e2eOrigin}/catalog/2019/`);
-    await nativePage.getByRole("link", { name: /春季動畫.*36 套動畫/ }).click();
+    await nativePage.getByRole("link", { name: /春季動畫.*37 套動畫/ }).click();
     await nativePage.getByRole("link", { name: /爆丸バトルプラネット/ }).first().click();
     await expect(nativePage).toHaveURL(new RegExp(`/anime/${slug}/$`));
     await expect(nativePage.locator(".theme-card")).toHaveCount(3);
@@ -2155,7 +2220,7 @@ test("501 Takeoff creator search reaches the correct solo ending and keeps the g
   try {
     const nativePage = await context.newPage();
     await nativePage.goto(`${e2eOrigin}/catalog/2019/`);
-    await nativePage.getByRole("link", { name: /春季動畫.*36 套動畫/ }).click();
+    await nativePage.getByRole("link", { name: /春季動畫.*37 套動畫/ }).click();
     await nativePage.getByRole("link", { name: /ストライクウィッチーズ 501部隊発進しますっ/ }).first().click();
     await expect(nativePage).toHaveURL(new RegExp(`/anime/${slug}/$`));
     await expect(nativePage.locator(".theme-card")).toHaveCount(13);
@@ -2217,7 +2282,7 @@ test("Gonjiro search preserves independent identity, co-composers and the licens
   const context = await browser.newContext({ javaScriptEnabled: false, viewport: { width: 390, height: 844 } });
   const nativePage = await context.newPage();
   await nativePage.goto(`${e2eOrigin}/catalog/2019/`);
-  await nativePage.getByRole("link", { name: /春季動畫.*36 套動畫/ }).click();
+  await nativePage.getByRole("link", { name: /春季動畫.*37 套動畫/ }).click();
   await nativePage.getByRole("link", { name: /けだまのゴンじろー/ }).first().click();
   await expect(nativePage).toHaveURL(/\/anime\/gonjiro-2019\/$/);
   await expect(nativePage.locator(".theme-card")).toHaveCount(2);
@@ -2527,7 +2592,7 @@ test("weekday navigation follows populated groups and remains useful after filte
     await expect(navigation.getByRole("link", { name: "週六" })).toHaveAttribute("aria-current", "location");
     await page.getByRole("button", { name: "清除篩選" }).click();
     await expect(navigation.getByRole("link")).toHaveText(["週一", "週二", "週三", "週四", "週五", "週六", "週日"]);
-    await expect(page.locator("[data-result-count]")).toHaveText("36");
+    await expect(page.locator("[data-result-count]")).toHaveText("37");
     await expect(page.getByRole("checkbox", { name: "有 OP" })).toBeFocused();
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   }
@@ -2550,7 +2615,7 @@ test("weekday navigation follows populated groups and remains useful after filte
   await expect(nativePage.getByRole("navigation", { name: "跳到播出星期" }).getByRole("link"))
     .toHaveText(["週一", "週二", "週三", "週四", "週五", "週六", "週日"]);
   await expect(nativePage.locator("[data-weekday-section]")).toHaveCount(7);
-  await expect(nativePage.locator("[data-anime-card]")).toHaveCount(36);
+  await expect(nativePage.locator("[data-anime-card]")).toHaveCount(37);
   await nativePage.getByRole("link", { name: "週五", exact: true }).click();
   await expect(nativePage).toHaveURL(/#weekday-5$/);
   expect(await nativePage.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);

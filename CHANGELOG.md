@@ -2,6 +2,12 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## v1.53.0 — 2019 春季《偶像學園Friends！ 第二季》
+
+- 收錄 TV 第二季與 OP〈ひとりじゃない！〉、一般 ED〈Be star〉，保留四人角色合唱、ひびき獨唱名義及共同詞曲編曲。
+- 每首歌使用相符的交叉來源，區分雙人改編版、前一季歌曲、遊戲與 TV；衝突 CD 日期、未核對聲優歌唱署名、特殊片尾及媒體維持空白。
+- 春季共 37 套作品、115 筆 OP／ED；本季與夏季仍在補充，2025 秋季尚未收錄。
+
 ## v1.52.0 — 2019 春季《星光王子》TV 歌曲
 
 - 收錄《KING OF PRISM -Shiny Seven Stars-》TV 正篇、OP〈Shiny Seven Stars!〉及十一首 TRF 翻唱 ED，保留七人合唱與角色歌唱者。
