@@ -116,12 +116,16 @@ const firstPartyUrlsByTheme: Readonly<Record<string, readonly string[]>> = {
   "107418:OP:1": [
     "https://www.pa-works.jp/works/fairy-gone/",
     "https://www.fairygone.com/sp/music/",
-    "https://www.fairygone.com/sp/news/news_0407_01.html"
+    "https://www.fairygone.com/sp/news/news_0407_01.html",
+    "https://www.verygoo.jp/works/202003-201904.php",
+    "https://www.radionikkei.jp/kodawarisetlist/7317.html"
   ],
   "107418:ED:1": [
     "https://www.pa-works.jp/works/fairy-gone/",
     "https://www.fairygone.com/sp/music/",
-    "https://www.fairygone.com/sp/news/news_0407_01.html"
+    "https://www.fairygone.com/sp/news/news_0407_01.html",
+    "https://www.verygoo.jp/works/202003-201904.php",
+    "https://www.radionikkei.jp/kodawarisetlist/7317.html"
   ],
   "100112:OP:1": [
     "https://kenja-no-mago.jp/products/",
@@ -252,6 +256,8 @@ const sourceLabelsByUrl: Readonly<Record<string, string>> = {
   "https://www.pa-works.jp/works/fairy-gone/": "P.A.WORKS 官方：第一季 OP／ED 用途與藝人",
   "https://www.fairygone.com/sp/music/": "動畫官方：第一季 OP／ED 單曲發行資料",
   "https://www.fairygone.com/sp/news/news_0407_01.html": "動畫官方：第一季 OP／ED 映像與 TV Size 配信公告",
+  "https://www.verygoo.jp/works/202003-201904.php": "VERY GOO 創作者官方：2019 年 4 月單曲的作曲、編曲與 ED 作詞署名",
+  "https://www.radionikkei.jp/kodawarisetlist/7317.html": "Radio NIKKEI 播出機構：兩首歌曲的個別演唱者",
   "https://iris.dive2ent.com/discography/detail.php?id=1016413": "i☆Ris 官方：OP 單曲與發行日期",
   "https://iris.dive2ent.com/discography/detail.php?id=1017265": "i☆Ris 官方：OP 收錄與製作署名核對",
   "https://avex.jp/yoshinanami/discography/detail.php?id=1016506": "avex 官方：ED 歌曲、發行日期與製作資料",
@@ -315,6 +321,12 @@ export const curated2019SpringThemeSources: CuratedThemeSourceOverrideMap = Obje
       ...(key === "97995:ED:1" ? [{
         label: "LisAni：官方影片為 TV Size MV 的版本交叉核對",
         url: "https://www.lisani.jp/0000124875/",
+        language: "ja" as const,
+        role: "cross_check" as const
+      }] : []),
+      ...(seed.anilistId === 107418 ? [{
+        label: "mora 藝人訪談：OP 對唱與 ED 獨唱的逐曲交叉核對",
+        url: "https://mora.jp/topics/interview/knowname_fairygone/",
         language: "ja" as const,
         role: "cross_check" as const
       }] : []),

@@ -830,7 +830,12 @@ const curated2019SpringSeedRows: Spring2019SeedInput[] = [
         versionLabel: "TV Size 另行配信；單曲版：2019-04-24",
         youtubeUrl: "https://www.youtube.com/watch?v=B8BAqO-p9LU",
         releaseDate: "2019-04-24",
-        credits: []
+        credits: [
+          { name: "Ayaka Tachibana", role: "vocals" },
+          { name: "AIJ", role: "vocals" },
+          { name: "宮崎誠", role: "composition" },
+          { name: "宮崎誠", role: "arrangement" }
+        ]
       },
       {
         type: "ED",
@@ -840,7 +845,12 @@ const curated2019SpringSeedRows: Spring2019SeedInput[] = [
         versionLabel: "TV Size 另行配信；單曲版：2019-04-24",
         youtubeUrl: "https://www.youtube.com/watch?v=ee855kKPujc",
         releaseDate: "2019-04-24",
-        credits: []
+        credits: [
+          { name: "NIKIIE", role: "vocals" },
+          { name: "eNu", role: "lyrics" },
+          { name: "宮崎誠", role: "composition" },
+          { name: "宮崎誠", role: "arrangement" }
+        ]
       }
     ]
   },

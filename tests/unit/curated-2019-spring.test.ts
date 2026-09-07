@@ -594,8 +594,17 @@ describe("2019 spring reviewed TV catalogue", () => {
     const fairy = anime(107418);
     expect(fairy.themes.map(({ titleJa }) => titleJa)).toEqual(["KNOCK on the CORE", "Ash-like Snow"]);
     expect(anime(109562).themes.map(({ titleJa }) => titleJa)).toEqual(["STILL STANDING", "Stay Gold"]);
+    expect(fairy.themes.map(({ credits }) => credits.filter(({ role }) => role === "vocals").map(({ name }) => name)))
+      .toEqual([["Ayaka Tachibana", "AIJ"], ["NIKIIE"]]);
+    expect(fairy.themes[0]?.credits.some(({ role }) => role === "lyrics")).toBe(false);
+    expect(fairy.themes[1]?.credits).toContainEqual({ name: "eNu", role: "lyrics" });
     for (const theme of fairy.themes) {
-      expect(theme.credits).toEqual([]);
+      expect(theme.artistDisplayName).toBe("(K)NoW_NAME");
+      expect(theme.credits).toContainEqual({ name: "宮崎誠", role: "composition" });
+      expect(theme.credits).toContainEqual({ name: "宮崎誠", role: "arrangement" });
+      expect(theme.sources).toContainEqual(expect.objectContaining({ url: "https://www.verygoo.jp/works/202003-201904.php", role: "first_party" }));
+      expect(theme.sources).toContainEqual(expect.objectContaining({ url: "https://www.radionikkei.jp/kodawarisetlist/7317.html", role: "first_party" }));
+      expect(theme.sources).toContainEqual(expect.objectContaining({ url: "https://mora.jp/topics/interview/knowname_fairygone/", role: "cross_check" }));
       expect(theme.releaseDate).toBe("2019-04-24");
       expect(theme.versionLabel).toBe("TV Size 另行配信；單曲版：2019-04-24");
     }
@@ -606,5 +615,20 @@ describe("2019 spring reviewed TV catalogue", () => {
     const fairyResults = searchCatalog(index, { ...filters, query: "(K)NoW_NAME", type: "ED" });
     expect(fairyResults.map(({ anime: item }) => item.slug)).toEqual(["fairy-gone"]);
     expect(fairyResults[0]?.themes.map(({ titleJa }) => titleJa)).toEqual(["Ash-like Snow"]);
+  });
+
+  it("finds Fairy gone songs by reviewed individual credits without assigning the whole group's vocals to both songs", async () => {
+    const index = buildCatalogSearchIndex((await loadCatalogSearchData(new CuratedProvider(), true)).entries);
+    for (const [query, type, expected] of [
+      ["Ayaka Tachibana", "OP", ["KNOCK on the CORE"]], ["Ayaka Tachibana", "ED", []],
+      ["AIJ", "OP", ["KNOCK on the CORE"]], ["AIJ", "ED", []],
+      ["NIKIIE", "OP", []], ["NIKIIE", "ED", ["Ash-like Snow"]],
+      ["eNu", "ED", ["Ash-like Snow"]], ["宮崎誠", "OP", ["KNOCK on the CORE"]],
+      ["宮崎誠", "ED", ["Ash-like Snow"]]
+    ] as const) {
+      const result = searchCatalog(index, { query, type, scope: "creators", year: "2019", quarter: "spring" })
+        .find(({ anime: item }) => item.slug === "fairy-gone");
+      expect(result?.themes.map(({ titleJa }) => titleJa) ?? []).toEqual(expected);
+    }
   });
 });

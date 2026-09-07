@@ -1262,8 +1262,10 @@ test("supernatural spring songs preserve co-writers, TV edits and distinct Fairy
 
     await page.goto("/anime/fairy-gone/", { waitUntil: "domcontentloaded" });
     await expect(page.locator(".theme-card h3")).toHaveText(["KNOCK on the CORE", "Ash-like Snow"]);
-    await expect(page.locator(".theme-card__credits dd")).toHaveText(["待確認", "待確認"]);
+    await expect(page.locator("#theme-fairy-gone-op-1 .theme-card__credits dd")).toHaveText(["Ayaka Tachibana、AIJ", "宮崎誠", "宮崎誠"]);
+    await expect(page.locator("#theme-fairy-gone-ed-1 .theme-card__credits dd")).toHaveText(["NIKIIE", "eNu", "宮崎誠", "宮崎誠"]);
     await expect(page.locator("#theme-fairy-gone-ed-1")).toContainText("TV Size 另行配信；單曲版：2019-04-24");
+    await expect(page.locator("#theme-fairy-gone-op-1").getByRole("link", { name: /VERY GOO/ })).toHaveAttribute("href", "https://www.verygoo.jp/works/202003-201904.php");
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
     await page.goto("/anime/fairy-gone-2/", { waitUntil: "domcontentloaded" });
     await expect(page.locator(".theme-card h3")).toHaveText(["STILL STANDING", "Stay Gold"]);
@@ -1272,6 +1274,13 @@ test("supernatural spring songs preserve co-writers, TV edits and distinct Fairy
     await expect(page.locator("#theme-sarazanmai-op-1 .theme-card__credits div").filter({ hasText: "谷口鮪" })).toHaveCount(3);
     await expect(page.locator("iframe")).toHaveCount(0);
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+    await page.goto("/search/");
+    for (const [label, value] of [["年份", "2019"], ["季度", "spring"], ["搜尋範圍", "creators"], ["歌曲用途", "ED"]]) {
+      await page.getByLabel(label!, { exact: true }).selectOption(value!);
+    }
+    await page.getByRole("searchbox", { name: "搜尋動畫、歌曲或創作者" }).fill("NIKIIE");
+    await page.getByRole("link", { name: "Ash-like Snow", exact: true }).click();
+    await expect(page).toHaveURL(/\/anime\/fairy-gone\/#theme-fairy-gone-ed-1$/);
   }
   expect(mediaRequests).toEqual([]);
   await page.goto("/anime/fairy-gone/", { waitUntil: "domcontentloaded" });

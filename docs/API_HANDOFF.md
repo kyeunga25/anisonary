@@ -1,6 +1,6 @@
 # Anisonary Public Static API v1 Contract
 
-本文件定義同源靜態 JSON API v1。它由 repository-reviewed snapshot 在 Astro build-time 產生，公開 response 必須符合 `src/types/public-api.ts`，不得包含 crawler、private source adapter、internal confidence rules 或未公開候選資料。v1.40.0 將 2019 春季擴至 27 套 TV 作品（含電視短篇）與 63 筆 OP／ED，延續既有 endpoint、結構化歌曲來源與可選 `coverageNote`，沒有新增 runtime API。未核對繁中來源的作品不生成譯名來源項目；既有來源 ledger 與 API 欄位保持相容。v1.29.0 起，《拳願阿修羅 Part 2》的 Netflix 配信版為 OP1／ED1，2020 電視播出版為 OP2／ED2，官方影片隨歌曲版本對應；作品 URL 不變。
+本文件定義同源靜態 JSON API v1。它由 repository-reviewed snapshot 在 Astro build-time 產生，公開 response 必須符合 `src/types/public-api.ts`，不得包含 crawler、private source adapter、internal confidence rules 或未公開候選資料。v1.40.0 將 2019 春季擴至 27 套 TV 作品（含電視短篇）與 63 筆 OP／ED，延續既有 endpoint、結構化歌曲來源與可選 `coverageNote`，沒有新增 runtime API。未核對繁中來源的作品不生成譯名來源項目；既有來源 ledger 與 API 欄位保持相容。v1.40.1 補上《Fairy gone》春季歌曲的個別演唱與製作署名及核對來源，沿用既有 credits 與 sources 欄位。v1.29.0 起，《拳願阿修羅 Part 2》的 Netflix 配信版為 OP1／ED1，2020 電視播出版為 OP2／ED2，官方影片隨歌曲版本對應；作品 URL 不變。
 
 ## Build-time integration
 
