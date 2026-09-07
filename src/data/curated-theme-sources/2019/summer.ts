@@ -38,6 +38,15 @@ const firstPartyUrlById: Readonly<Partial<Record<number, string>>> = {
 };
 
 const firstPartyUrlsByTheme: Readonly<Partial<Record<string, readonly string[]>>> = {
+  "102427:OP:1": [
+    "https://www.universal-music.co.jp/the-struts/news/2019-06-27/",
+    "https://www.universal-music.co.jp/the-struts/products/00602577983849/"
+  ],
+  "102427:ED:1": ["https://www.universal-music.co.jp/the-struts/products/uics-1355/"],
+  "111131:OP:1": [
+    "https://www.netflix.com/tudum/articles/black-music-anime-connection-closer-look",
+    "https://www.youtube.com/watch?v=Vheqm2tJcd8"
+  ],
   "109929:ED:2": [
     "https://prtimes.jp/main/html/rd/p/000000004.000044099.html",
     "https://prtimes.jp/main/html/rd/p/000000006.000044099.html"
@@ -130,31 +139,42 @@ const firstPartyUrlsByTheme: Readonly<Partial<Record<string, readonly string[]>>
   ]
 };
 
+const crossCheckById: Readonly<Partial<Record<number, CuratedThemeSourceSeed>>> = {
+  102427: {
+    label: "Wikipedia：2019 年配信版 OP／ED 交叉核對",
+    url: "https://en.wikipedia.org/wiki/Knights_of_the_Zodiac:_Saint_Seiya",
+    language: "en",
+    role: "cross_check"
+  },
+  109929: {
+    label: "アニソン調べる：配信版 OP と輪替 ED 交叉核對",
+    url: "https://anison.online/anime/1159",
+    language: "ja",
+    role: "cross_check"
+  }
+};
+
 export const curated2019SummerThemeSources: CuratedThemeSourceOverrideMap = Object.fromEntries(
   curated2019SummerSeeds.flatMap((seed) => seed.themes.map((theme) => {
     const key = `${seed.anilistId}:${theme.type}:${theme.sequence}`;
     const urls = firstPartyUrlsByTheme[key] ?? [firstPartyUrlById[seed.anilistId]];
-    if (!urls.length || urls.some((url) => !url) || !seed.animeThemesUrl) {
+    const crossCheck: CuratedThemeSourceSeed | undefined = crossCheckById[seed.anilistId] ?? (seed.animeThemesUrl ? {
+      label: "AnimeThemes：OP／ED 次序與演唱版本交叉核對",
+      url: seed.animeThemesUrl,
+      language: "en",
+      role: "cross_check"
+    } : undefined);
+    if (!urls.length || urls.some((url) => !url) || !crossCheck) {
       throw new Error(`Missing reviewed summer 2019 theme source: ${key}`);
     }
     const sources: CuratedThemeSourceSeed[] = [
       ...urls.map((url): CuratedThemeSourceSeed => ({
         label: `《${seed.titleZhHant}》第一方音樂資料：曲目、用途與演唱版本`,
         url: url!,
-        language: "ja",
+        language: seed.anilistId === 111131 ? "en" : "ja",
         role: "first_party"
       })),
-      seed.anilistId === 109929 ? {
-        label: "アニソン調べる：配信版 OP と輪替 ED 交叉核對",
-        url: "https://anison.online/anime/1159",
-        language: "ja",
-        role: "cross_check"
-      } : {
-        label: "AnimeThemes：OP／ED 次序與演唱版本交叉核對",
-        url: seed.animeThemesUrl,
-        language: "en",
-        role: "cross_check"
-      }
+      crossCheck
     ];
     return [key, sources];
   }))

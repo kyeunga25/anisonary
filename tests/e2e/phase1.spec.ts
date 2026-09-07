@@ -458,7 +458,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
 
   await page.goto("/search/");
   await expect(page.getByRole("heading", { name: "跨季度搜尋" })).toBeVisible();
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1911");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1914");
 
   const search = page.getByRole("searchbox", { name: "搜尋動畫、歌曲或創作者" });
   await search.fill("ＭＹＴＨ & ＲＯＩＤ");
@@ -498,7 +498,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
   await expect(page.locator("[data-catalog-anime-count]")).toHaveText("0");
 
   await search.press("Escape");
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1911");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1914");
   expect(externalRequests).toEqual([]);
 });
 
@@ -884,7 +884,7 @@ test("catalogue navigation stays compact and drills down through published years
   await expect(navigation.getByRole("link", { name: /動畫目錄/ })).toHaveAttribute("aria-current", "true");
   await expect(page.getByRole("navigation", { name: "2025 年季度導覽" }).getByRole("link", { name: "春季" })).toHaveAttribute("aria-current", "page");
   await expect(page.getByRole("navigation", { name: "所在位置" }).getByRole("link", { name: "2025", exact: true })).toHaveAttribute("href", "/catalog/2025/");
-  await expect(page.getByLabel("季度資料狀態")).toContainText("已發布 28 個季度、1,911 個作品頁與 4,225 首 OP／ED");
+  await expect(page.getByLabel("季度資料狀態")).toContainText("已發布 28 個季度、1,914 個作品頁與 4,228 首 OP／ED");
 
   await page.setViewportSize({ width: 390, height: 844 });
   await page.reload();
@@ -977,10 +977,10 @@ test("2019 summer exposes its coverage, searchable credits and image-free respon
   for (const width of [1280, 390]) {
     await page.setViewportSize({ width, height: 844 });
     await page.goto("/catalog/2019/");
-    await page.getByRole("link", { name: /夏季動畫.*36 套動畫/ }).click();
+    await page.getByRole("link", { name: /夏季動畫.*39 套動畫/ }).click();
     await expect(page.getByRole("heading", { name: "2019 夏季動畫" })).toBeVisible();
-    await expect(page.getByText("本季正在補充，目前收錄 36 套作品，包括 35 套 TV 與 1 套網絡連載。其餘作品及特殊歌曲版本仍待核對。", { exact: true })).toBeVisible();
-    await expect(page.locator("[data-anime-card]")).toHaveCount(36);
+    await expect(page.getByText("本季正在補充，目前收錄 39 套作品，包括 35 套 TV 與 4 套網絡連載。其餘作品及特殊歌曲版本仍待核對。", { exact: true })).toBeVisible();
+    await expect(page.locator("[data-anime-card]")).toHaveCount(39);
     await expect(page.locator("[data-anime-card] img")).toHaveCount(0);
     await expect(page.locator("iframe")).toHaveCount(0);
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
@@ -1022,6 +1022,34 @@ test("Kengan search reaches the requested release version and keeps its official
     await expect(replacement.getByRole("button", { name: /載入 YouTube 影片/ })).toHaveCount(1);
     await expect(page.locator(".theme-card")).toHaveCount(4);
     await expect(page.locator("iframe")).toHaveCount(0);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  }
+});
+
+test("summer web titles expose searchable English credits and an honest missing-song state", async ({ page }) => {
+  for (const width of [1280, 390]) {
+    await page.setViewportSize({ width, height: 844 });
+    await page.goto("/search/");
+    await page.getByLabel("年份", { exact: true }).selectOption("2019");
+    await page.getByLabel("季度", { exact: true }).selectOption("summer");
+    await page.getByLabel("搜尋範圍").selectOption("creators");
+    await page.getByRole("searchbox", { name: "搜尋動畫、歌曲或創作者" }).fill("BJRNCK");
+    await page.getByRole("link", { name: "Showdown", exact: true }).click();
+    await expect(page).toHaveURL(/\/anime\/cannon-busters\/#theme-cannon-busters-op-1$/);
+    await expect(page.locator("#theme-cannon-busters-op-1")).toContainText("Marty Grimes、BJRNCK");
+    await expect(page.locator(".theme-card")).toHaveCount(1);
+    await expect(page.locator("iframe")).toHaveCount(0);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+    await page.goto("/anime/saint-seiya-knights-of-the-zodiac/#theme-saint-seiya-knights-of-the-zodiac-op-1");
+    await expect(page.locator(".theme-card")).toHaveCount(2);
+    await expect(page.locator("#theme-saint-seiya-knights-of-the-zodiac-op-1")).toContainText("The Struts 英文演唱版");
+    await expect(page.locator("#theme-saint-seiya-knights-of-the-zodiac-op-1")).toContainText("TIM JENSEN");
+    await expect(page.locator("iframe")).toHaveCount(0);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+    await page.goto("/anime/hero-mask-2nd-season/");
+    await expect(page.getByRole("heading", { name: "主題曲資料尚待補充" })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "本作不設獨立 OP／ED" })).toHaveCount(0);
+    await expect(page.locator(".theme-card, iframe, .anime-hero img")).toHaveCount(0);
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   }
 });

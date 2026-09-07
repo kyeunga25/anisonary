@@ -12,9 +12,9 @@ const anime = (id: number) => curatedAnimeDetails.find((item) => item.id === `cu
 
 describe("2019 summer reviewed catalogue slices", () => {
   it("publishes an explicitly partial snapshot with traceable identities and no invented artwork", () => {
-    expect(summer.anime).toHaveLength(36);
+    expect(summer.anime).toHaveLength(39);
     expect(summer.coverageNote).toContain("仍待核對");
-    expect(curated2019SummerSeeds.flatMap(({ themes }) => themes)).toHaveLength(99);
+    expect(curated2019SummerSeeds.flatMap(({ themes }) => themes)).toHaveLength(102);
     for (const seed of curated2019SummerSeeds) {
       expect(seed.seasonIds).toEqual(["2019-summer"]);
       expect(seed.startDate).toMatch(/^2019-0[78]-\d{2}$/);
@@ -41,6 +41,69 @@ describe("2019 summer reviewed catalogue slices", () => {
     expect(anime(105310).editorialWeekday).toBe(5);
     expect(anime(105310).broadcastTimeJst).toBe("25:25");
     expect(formatBroadcastLabel(anime(105310))).toContain("25:25");
+  });
+
+  it("keeps the reviewed web premieres separate from pilots, earlier releases and later parts", () => {
+    for (const [id, startDate] of [[102427, "2019-07-19"], [111131, "2019-08-15"], [110686, "2019-08-23"]] as const) {
+      const seed = curated2019SummerSeeds.find(({ anilistId }) => anilistId === id)!;
+      expect(seed.startDate).toBe(startDate);
+      expect(seed.broadcastLabel).toBe("日本網絡首播／時間未整理");
+      expect(seed.broadcastTimeJst).toBeUndefined();
+    }
+    expect(anime(102427).slug).not.toBe(anime(114448).slug);
+    expect(curatedSeasonDetails.find(({ id }) => id === "2020-winter")?.anime)
+      .toContainEqual(expect.objectContaining({ id: "curated-114448" }));
+    expect(summer.anime.some(({ id }) => id === "curated-114448" || id === "curated-105807")).toBe(false);
+    expect(anime(110686).themes).toEqual([]);
+  });
+
+  it("retains the English cover credits and an independent identity source without inventing an index URL", () => {
+    const saintSeiya = anime(102427);
+    expect(saintSeiya.sources).toContainEqual(expect.objectContaining({
+      url: "https://www.wikidata.org/wiki/Q65052700", role: "identifier", language: "en"
+    }));
+    expect(curated2019SummerSeeds.find(({ anilistId }) => anilistId === 102427)?.animeThemesUrl).toBeUndefined();
+    expect(saintSeiya.themes.map(({ type, titleJa }) => [type, titleJa])).toEqual([
+      ["OP", "PEGASUS SEIYA"], ["ED", "サムバディ・ニュー"]
+    ]);
+    const opening = saintSeiya.themes[0]!;
+    expect(opening).toMatchObject({ artistDisplayName: "The Struts", releaseDate: "2019-07-19", versionLabel: "The Struts 英文演唱版" });
+    expect(opening.credits).toContainEqual({ name: "TIM JENSEN", role: "translation" });
+    expect(opening.credits).toContainEqual({ name: "竜真知子", role: "lyrics" });
+    expect(opening.videos[0]?.youtubeVideoId).toBe("gBYOvxkmEuI");
+    expect(saintSeiya.themes.every(({ sources }) => sources.some(({ url, role, language }) =>
+      url === "https://en.wikipedia.org/wiki/Knights_of_the_Zodiac:_Saint_Seiya" && role === "cross_check" && language === "en"
+    ))).toBe(true);
+  });
+
+  it("preserves English first-party evidence and both Showdown vocalists without inferring an ending", async () => {
+    const cannonBusters = anime(111131);
+    expect(cannonBusters.themes).toHaveLength(1);
+    const opening = cannonBusters.themes[0]!;
+    expect(opening).toMatchObject({ type: "OP", titleJa: "Showdown", artistDisplayName: "Marty Grimes、BJRNCK" });
+    expect(opening.credits.filter(({ role }) => role === "vocals")).toEqual([
+      { name: "Marty Grimes", role: "vocals" }, { name: "BJRNCK", role: "vocals" }
+    ]);
+    for (const url of [
+      "https://www.netflix.com/tudum/articles/black-music-anime-connection-closer-look",
+      "https://www.youtube.com/watch?v=Vheqm2tJcd8"
+    ]) {
+      expect(opening.sources).toContainEqual(expect.objectContaining({ url, role: "first_party", language: "en" }));
+    }
+    expect(opening.sources).toContainEqual(expect.objectContaining({
+      url: "https://www.satelight.co.jp/works/cannon-busters/", language: "ja"
+    }));
+    expect(opening.videos[0]).toMatchObject({ youtubeVideoId: "Vheqm2tJcd8", channelName: "SonySoundtracksVEVO" });
+    const provider = new ApiProvider("https://anisonary.k-y.cc/api/v1", {
+      fetch: vi.fn<typeof fetch>().mockResolvedValue(new Response(JSON.stringify(cannonBusters), {
+        headers: { "Content-Type": "application/json" }
+      }))
+    });
+    expect(await provider.getAnime(cannonBusters.slug)).toEqual(cannonBusters);
+    const data = await loadCatalogSearchData(new CuratedProvider(), true);
+    const index = buildCatalogSearchIndex(data.entries);
+    expect(searchCatalog(index, { query: "BJRNCK", scope: "creators", year: "2019", quarter: "summer", type: "OP" })
+      .map(({ anime: item }) => item.slug)).toEqual([cannonBusters.slug]);
   });
 
   it("distinguishes a streaming-only opening and rotating short-form endings", () => {
