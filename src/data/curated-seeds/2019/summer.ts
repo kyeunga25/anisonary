@@ -6,6 +6,11 @@ type Summer2019SeedInput = Omit<
   | "wikipediaUrl" | "sourceReferenceUrls" | "verifiedAt"
 > & Partial<Pick<CuratedAnimeSeed, "sourceReferenceUrls">>;
 
+const summer2019ReferenceUrls = [
+  "https://acgsecrets.hk/bangumi/201907/",
+  "https://www.kansou.me/archive/2019_summer.html"
+];
+
 function summer2019Seed(row: Summer2019SeedInput): CuratedAnimeSeed {
   const weekday = new Date(`${row.startDate}T00:00:00Z`).getUTCDay();
   return {
@@ -16,11 +21,7 @@ function summer2019Seed(row: Summer2019SeedInput): CuratedAnimeSeed {
     status: "finished",
     anilistUrl: `https://anilist.co/anime/${row.anilistId}`,
     wikipediaUrl: "https://youranimes.tw/bangumi/201907",
-    sourceReferenceUrls: [
-      "https://acgsecrets.hk/bangumi/201907/",
-      "https://www.kansou.me/archive/2019_summer.html",
-      ...(row.sourceReferenceUrls ?? [])
-    ],
+    sourceReferenceUrls: [...(row.sourceReferenceUrls ?? summer2019ReferenceUrls)],
     verifiedAt: "2026-09-07"
   };
 }
@@ -2053,7 +2054,7 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
   {
     anilistId: 109929,
     slug: "hakata-mentai-pirikarako-chan",
-    sourceReferenceUrls: ["https://prtimes.jp/main/html/rd/p/000000004.000044099.html"],
+    sourceReferenceUrls: [...summer2019ReferenceUrls, "https://prtimes.jp/main/html/rd/p/000000004.000044099.html"],
     startDate: "2019-07-07",
     titleJa: "博多明太！ぴりからこちゃん",
     titleZhHant: "博多明太！麻辣子醬",
@@ -2112,7 +2113,7 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
   {
     anilistId: 109603,
     slug: "yami-shibai-7",
-    sourceReferenceUrls: ["https://www.tv-tokyo.co.jp/anime/yamishibai7/onair/"],
+    sourceReferenceUrls: [...summer2019ReferenceUrls, "https://www.tv-tokyo.co.jp/anime/yamishibai7/onair/"],
     startDate: "2019-07-07",
     titleJa: "闇芝居 七期",
     titleZhHant: "闇芝居 第七季",
@@ -2137,7 +2138,7 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
   {
     anilistId: 100891,
     slug: "kengan-ashura",
-    sourceReferenceUrls: ["https://shogakukan-comic.jp/news/19676"],
+    sourceReferenceUrls: [...summer2019ReferenceUrls, "https://shogakukan-comic.jp/news/19676"],
     startDate: "2019-07-31",
     titleJa: "ケンガンアシュラ",
     titleZhHant: "拳願阿修羅",
@@ -2175,7 +2176,7 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
   {
     anilistId: 111144,
     slug: "cardfight-vanguard-shinemon-hen",
-    sourceReferenceUrls: ["https://prtimes.jp/main/html/rd/p/000002051.000014827.html"],
+    sourceReferenceUrls: [...summer2019ReferenceUrls, "https://prtimes.jp/main/html/rd/p/000002051.000014827.html"],
     startDate: "2019-08-24",
     titleJa: "カードファイト!! ヴァンガード 新右衛門編",
     titleZhHant: "卡片戰鬥先導者 新右衛門篇",
@@ -2224,6 +2225,99 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
         ]
       }
     ]
+  },
+  {
+    anilistId: 102427,
+    slug: "saint-seiya-knights-of-the-zodiac",
+    sourceReferenceUrls: ["https://www.kansou.me/archive/2019_summer.html"],
+    startDate: "2019-07-19",
+    titleJa: "聖闘士星矢: Knights of the Zodiac",
+    titleZhHant: "聖鬥士星矢：黃道十二宮戰士",
+    titleRomaji: "Saint Seiya: Knights of the Zodiac",
+    officialSiteUrl: "https://www.universal-music.co.jp/the-struts/news/2019-06-27/",
+    identifierSource: {
+      label: "Wikidata：2019 年作品與外部識別交叉連結",
+      url: "https://www.wikidata.org/wiki/Q65052700",
+      language: "en"
+    },
+    broadcastLabel: "日本網絡首播／時間未整理",
+    themes: [
+      {
+        type: "OP",
+        sequence: 1,
+        titleJa: "PEGASUS SEIYA",
+        artistDisplayName: "The Struts",
+        versionLabel: "The Struts 英文演唱版",
+        releaseDate: "2019-07-19",
+        credits: [
+          { name: "The Struts", role: "vocals" },
+          { name: "竜真知子", role: "lyrics" },
+          { name: "TIM JENSEN", role: "translation" },
+          { name: "松澤浩明", role: "composition" },
+          { name: "山田信夫", role: "composition" },
+          { name: "The Struts", role: "arrangement" }
+        ]
+      },
+      {
+        type: "ED",
+        sequence: 1,
+        titleJa: "サムバディ・ニュー",
+        titleRomaji: "Somebody New",
+        artistDisplayName: "The Struts",
+        credits: [
+          { name: "The Struts", role: "vocals" },
+          { name: "The Struts", role: "lyrics" },
+          { name: "The Struts", role: "composition" }
+        ]
+      }
+    ]
+  },
+  {
+    anilistId: 111131,
+    slug: "cannon-busters",
+    sourceReferenceUrls: [],
+    startDate: "2019-08-15",
+    titleJa: "キャノン・バスターズ",
+    titleZhHant: "CANNON BUSTERS 砲彈剋星",
+    titleRomaji: "Cannon Busters",
+    officialSiteUrl: "https://www.satelight.co.jp/works/cannon-busters/",
+    animeThemesUrl: "https://animethemes.moe/anime/cannon_busters",
+    identifierSource: {
+      label: "AnimeThemes：作品識別交叉連結",
+      url: "https://api.animethemes.moe/anime/cannon_busters?include=resources",
+      language: "en"
+    },
+    broadcastLabel: "日本網絡首播／時間未整理",
+    themes: [
+      {
+        type: "OP",
+        sequence: 1,
+        titleJa: "Showdown",
+        artistDisplayName: "Marty Grimes、BJRNCK",
+        credits: [
+          { name: "Marty Grimes", role: "vocals" },
+          { name: "BJRNCK", role: "vocals" }
+        ]
+      }
+    ]
+  },
+  {
+    anilistId: 110686,
+    slug: "hero-mask-2nd-season",
+    sourceReferenceUrls: ["https://youranimes.tw/animes/3505"],
+    startDate: "2019-08-23",
+    titleJa: "HERO MASK PartII",
+    titleZhHant: "HERO MASK 英雄面具 PartII",
+    titleRomaji: "Hero Mask 2nd Season",
+    officialSiteUrl: "https://pierrot.jp/archive/2015/tv10_37.html",
+    animeThemesUrl: "https://animethemes.moe/anime/hero_mask_2nd_season",
+    identifierSource: {
+      label: "AnimeThemes：作品識別交叉連結",
+      url: "https://api.animethemes.moe/anime/hero_mask_2nd_season?include=resources",
+      language: "en"
+    },
+    broadcastLabel: "日本網絡首播／時間未整理",
+    themes: []
   }
 ];
 

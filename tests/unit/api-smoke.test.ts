@@ -16,7 +16,7 @@ describe("production API smoke gate", () => {
   it("accepts the complete reviewed catalogue and its not-found behavior", async () => {
     await expect(smokePublicApi(new CuratedProvider())).resolves.toEqual({
       seasonCount: 28,
-      animeCount: 1911
+      animeCount: 1914
     });
   });
 

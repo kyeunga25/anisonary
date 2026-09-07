@@ -855,7 +855,8 @@ const slugOverrides: Record<number, string> = {
 };
 
 const videoSourceLanguageOverrides: Record<string, PublicThemeSource["language"]> = {
-  Ql5mn3Uy_oM: "zh-Hant"
+  Ql5mn3Uy_oM: "zh-Hant",
+  Vheqm2tJcd8: "en"
 };
 
 const faceVocalCredits: PublicCreatorCredit[] = [

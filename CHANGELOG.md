@@ -2,6 +2,21 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.30.0] - 2026-09-07
+
+### Added
+
+- three reviewed 2019 summer web series: Cannon Busters, Saint Seiya: Knights of the Zodiac and Hero Mask Part II;
+- three OP／ED records and two official video metadata records, retaining both Showdown vocalists, The Struts' English cover and its English lyric credit;
+- an independent Wikidata identity reference and a scoped source-terms review, without adding artwork or a dependency on an unavailable catalogue index.
+
+### Changed
+
+- preserve English first-party source language and allow a reviewed cross-check without requiring an AnimeThemes URL;
+- keep Hero Mask Part II's songs pending review, and include only the verified opening for Cannon Busters;
+- the catalogue now contains 28 snapshots, 1,914 unique works, 4,228 OP／ED records and 1,755 official or licensed video metadata records;
+- the partial 2019 summer snapshot contains 39 works and 102 songs; 2025 fall remains outside the registry.
+
 ## [1.29.0] - 2026-09-07
 
 ### Added
