@@ -10,6 +10,74 @@ const spring = curatedSeasonDetails.find(({ id }) => id === "2019-spring")!;
 const anime = (id: number) => curatedAnimeDetails.find((item) => item.id === `curated-${id}`)!;
 
 describe("2019 spring reviewed TV catalogue", () => {
+  it("identifies THE ORIGIN as the thirteen-part TV recut with its Monday premiere and independent public evidence", async () => {
+    const seed = curated2019SpringSeeds.find(({ anilistId }) => anilistId === 108039)!;
+    expect(seed).toMatchObject({ startDate: "2019-04-29", seasonIds: ["2019-spring"] });
+    expect(seed.sourceReferenceUrls).toEqual(["https://uzurea.net/vc/187936/"]);
+    const detail = anime(108039);
+    expect(detail).toMatchObject({ editorialWeekday: 1, broadcastTimeJst: "00:35" });
+    expect(detail.broadcastLabel).toContain("13 話電視重編版");
+    expect(detail.sources).toContainEqual(expect.objectContaining({
+      url: "https://www.gundam-the-origin.net/tv/episodes01.html", language: "ja", role: "identifier"
+    }));
+    expect(detail.posterUrl).toBeUndefined();
+    expect(detail.imageSourceUrl).toBeUndefined();
+    const provider = new ApiProvider("https://anisonary.k-y.cc/api/v1", {
+      fetch: vi.fn<typeof fetch>().mockResolvedValue(new Response(JSON.stringify(detail), { headers: { "Content-Type": "application/json" } }))
+    });
+    expect(await provider.getAnime(detail.slug)).toEqual(detail);
+  });
+
+  it("preserves THE ORIGIN's seven TV themes and their original releases instead of other singers or anniversary-album dates", () => {
+    const themes = anime(108039).themes;
+    expect(themes.map(({ type, sequence, titleJa, artistDisplayName, releaseDate }) => [type, sequence, titleJa, artistDisplayName, releaseDate])).toEqual([
+      ["OP", 1, "宇宙の詩 ～Higher and Higher～", "LUNA SEA", "2019-05-29"],
+      ["OP", 2, "悲壮美", "LUNA SEA", "2019-05-29"],
+      ["OP", 3, "BEYOND THE TIME ～メビウスの宇宙を越えて～", "LUNA SEA", "2019-09-06"],
+      ["ED", 1, "めぐりあい", "SUGIZO feat. GLIM SPANKY", "2019-06-11"],
+      ["ED", 2, "水の星へ愛をこめて", "SUGIZO feat. コムアイ（水曜日のカンパネラ）", "2019-06-18"],
+      ["ED", 3, "A Red Ray", "SUGIZO feat. miwa", "2019-06-25"],
+      ["ED", 4, "光の涯", "SUGIZO feat. アイナ・ジ・エンド（BiSH）", "2019-08-13"]
+    ]);
+    expect(themes[0]?.versionLabel).toContain("CD 單曲版");
+    expect(themes[2]?.versionLabel).toContain("LUNA SEA 翻唱版");
+    for (const index of [3, 4, 5, 6]) expect(themes[index]?.versionLabel).toContain("TV Size");
+    expect(themes[6]?.versionLabel).toContain("最終話 ED");
+    expect(themes.some(({ titleJa }) => ["THE BEYOND", "By Your Side", "Don't Say Good bye", "破線の涙"].includes(titleJa))).toBe(false);
+  });
+
+  it("keeps THE ORIGIN's original songwriters, new arrangements and featured singers separate", () => {
+    const themes = anime(108039).themes;
+    expect(themes[0]?.credits).toEqual([]);
+    expect(themes[1]?.credits).toEqual([]);
+    expect(themes[2]?.credits).toEqual([
+      { name: "小室みつ子", role: "lyrics" }, { name: "小室哲哉", role: "composition" }, { name: "LUNA SEA", role: "arrangement" }
+    ]);
+    expect(themes[3]?.credits.filter(({ role }) => role === "lyrics").map(({ name }) => name)).toEqual(["井荻麟", "売野雅勇"]);
+    expect(themes[4]?.credits).toContainEqual({ name: "ニール・セダカ", role: "composition" });
+    expect(themes[4]?.credits).toContainEqual({ name: "コムアイ（水曜日のカンパネラ）", role: "vocals" });
+    expect(themes[5]?.credits).toContainEqual({ name: "miwa", role: "lyrics" });
+    expect(themes[6]?.credits).toContainEqual({ name: "MORRIE", role: "lyrics" });
+    expect(themes[6]?.credits.filter(({ role }) => role === "vocals")).toEqual([{ name: "アイナ・ジ・エンド（BiSH）", role: "vocals" }]);
+    for (const index of [3, 4, 5, 6]) expect(themes[index]?.credits).toContainEqual({ name: "SUGIZO", role: "arrangement" });
+    for (const theme of themes) expect(theme.sources).toContainEqual(expect.objectContaining({
+      url: "https://uzurea.net/vc/187936/", language: "ja", role: "cross_check"
+    }));
+  });
+
+  it("finds the new ORIGIN cover by songwriter and keeps the episode-twelve ending as a second video for the same song", async () => {
+    const detail = anime(108039);
+    const index = buildCatalogSearchIndex((await loadCatalogSearchData(new CuratedProvider(), true)).entries);
+    const result = searchCatalog(index, { query: "ニール・セダカ", scope: "creators", year: "2019", quarter: "spring", type: "ED" })
+      .find(({ anime: item }) => item.slug === detail.slug);
+    expect(result?.themes.map(({ titleJa }) => titleJa)).toEqual(["水の星へ愛をこめて"]);
+    expect(detail.themes[5]?.videos.map(({ youtubeVideoId }) => youtubeVideoId)).toEqual(["h5t3-RSyIzE", "Nnzm6h4fIRQ"]);
+    expect(detail.themes[5]?.videos[1]?.title).toContain("第12話版");
+    const videos = detail.themes.flatMap(({ videos }) => videos);
+    expect(videos).toHaveLength(8);
+    expect(videos.every(({ type, officialStatus }) => type === "other" && officialStatus === "official")).toBe(true);
+  });
+
   it("keeps the 2019 Diamond no Ace act II identity separate from its later sequel and round-trips its public detail", async () => {
     const seed = curated2019SpringSeeds.find(({ anilistId }) => anilistId === 105749)!;
     expect(seed).toMatchObject({ startDate: "2019-04-02", seasonIds: ["2019-spring"] });
@@ -367,9 +435,9 @@ describe("2019 spring reviewed TV catalogue", () => {
   });
 
   it("publishes a partial quarter with reviewed identity and song evidence, without unverified artwork", () => {
-    expect(spring.anime).toHaveLength(28);
+    expect(spring.anime).toHaveLength(29);
     expect(spring.coverageNote).toContain("跨季延續及特殊歌曲版本仍待核對");
-    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(69);
+    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(76);
     expect(curatedSeasonDetails.some(({ id }) => id === "2025-fall")).toBe(false);
     for (const seed of curated2019SpringSeeds) {
       expect(seed.seasonIds).toEqual(["2019-spring"]);
