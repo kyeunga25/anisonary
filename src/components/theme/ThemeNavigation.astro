@@ -1,0 +1,73 @@
+---
+import type { PublicTheme } from "@/types/public-api";
+
+interface Props { themes: readonly PublicTheme[]; }
+const { themes } = Astro.props;
+const groups = (["OP", "ED"] as const)
+  .map((type) => ({ type, themes: themes.filter((theme) => theme.type === type) }))
+  .filter((group) => group.themes.length > 0);
+---
+
+{themes.length > 4 && (
+  <details class="theme-navigation" id="song-navigation">
+    <summary>
+      <span class="theme-navigation__label">歌曲導覽</span>
+      <span class="theme-navigation__count">{groups.map(({ type, themes: entries }) => `${entries.length} 首 ${type}`).join(" · ")}</span>
+      <span class="theme-navigation__toggle">
+        <span class="theme-navigation__expand">選擇歌曲</span>
+        <span class="theme-navigation__collapse">收合</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg>
+      </span>
+    </summary>
+    <nav class="theme-navigation__scroller" aria-label="本作品歌曲">
+      {groups.map(({ type, themes: entries }) => (
+        <section aria-labelledby={`song-navigation-${type.toLowerCase()}`}>
+          <h3 id={`song-navigation-${type.toLowerCase()}`}>{type === "OP" ? "OP · 片頭曲" : "ED · 片尾曲"}</h3>
+          <ol>
+            {entries.map((theme) => (
+              <li>
+                <a href={`#theme-${theme.id}`}>
+                  <span class="theme-navigation__type">{type}{theme.sequence}</span>
+                  <span class="theme-navigation__entry">
+                    <span class="theme-navigation__title" lang="ja">{theme.titleJa}</span>
+                    <span class="theme-navigation__artist">{theme.artistDisplayName}</span>
+                  </span>
+                  <span class="theme-navigation__arrow" aria-hidden="true">↓</span>
+                </a>
+              </li>
+            ))}
+          </ol>
+        </section>
+      ))}
+    </nav>
+  </details>
+)}
+
+<style>
+  .theme-navigation { background: var(--color-surface); border: 1px solid var(--color-border-strong); border-radius: var(--radius-card); margin-bottom: 1rem; scroll-margin-top: 6rem; }
+  .theme-navigation > summary { align-items: center; cursor: pointer; display: flex; flex-wrap: wrap; gap: 0.4rem 0.8rem; list-style: none; min-height: 3.5rem; padding: 0.85rem 1rem; }
+  .theme-navigation > summary::-webkit-details-marker { display: none; }
+  .theme-navigation__label { font-size: 0.9rem; font-weight: 750; }
+  .theme-navigation__count { color: var(--color-muted); font-size: 0.78rem; }
+  .theme-navigation__toggle { align-items: center; display: flex; font-size: 0.78rem; font-weight: 680; gap: 0.4rem; margin-left: auto; }
+  .theme-navigation__toggle svg { fill: none; height: 1rem; stroke: currentColor; stroke-width: 1.5; width: 1rem; }
+  .theme-navigation:not([open]) .theme-navigation__collapse, .theme-navigation[open] .theme-navigation__expand { display: none; }
+  .theme-navigation[open] .theme-navigation__toggle svg { transform: rotate(180deg); }
+  .theme-navigation__scroller { border-top: 1px solid var(--color-border); max-height: min(26rem, 55vh); overflow: auto; padding: 1rem; scroll-padding: 0.5rem; }
+  .theme-navigation__scroller section + section { margin-top: 1rem; }
+  .theme-navigation h3 { color: var(--color-muted); font-size: 0.75rem; letter-spacing: 0.03em; margin: 0 0 0.5rem; }
+  .theme-navigation ol { display: grid; gap: 0.5rem; grid-template-columns: repeat(2, minmax(0, 1fr)); list-style: none; margin: 0; padding: 0; }
+  .theme-navigation li { min-width: 0; }
+  .theme-navigation a { align-items: baseline; background: var(--color-subtle); border: 1px solid transparent; border-radius: var(--radius-control); color: var(--color-ink); display: flex; gap: 0.65rem; height: 100%; min-height: 2.75rem; padding: 0.7rem; text-decoration: none; }
+  .theme-navigation a:hover { border-color: var(--color-border-strong); }
+  .theme-navigation__type { color: var(--color-muted); flex: 0 0 2.5rem; font-size: 0.73rem; font-weight: 700; }
+  .theme-navigation__entry { display: grid; gap: 0.3rem; min-width: 0; overflow-wrap: anywhere; }
+  .theme-navigation__title { font-size: 0.86rem; font-weight: 700; line-height: 1.4; }
+  .theme-navigation__artist { color: var(--color-muted); font-size: 0.73rem; line-height: 1.5; }
+  .theme-navigation__arrow { flex-shrink: 0; margin-left: auto; }
+
+  @media (max-width: 660px) {
+    .theme-navigation ol { grid-template-columns: minmax(0, 1fr); }
+    .theme-navigation__count { flex-basis: 100%; order: 1; }
+  }
+</style>
