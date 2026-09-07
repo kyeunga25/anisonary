@@ -2,6 +2,35 @@ import { curated2019SpringSeeds } from "@/data/curated-seeds/2019/spring";
 import type { CuratedThemeSourceOverrideMap, CuratedThemeSourceSeed } from "@/data/curated-theme-sources/types";
 
 const firstPartyUrlsByTheme: Readonly<Record<string, readonly string[]>> = {
+  "105749:OP:1": [
+    "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201904/22856_201904021755.html",
+    "https://www.glay.co.jp/news/detail/4532",
+    "https://www.glay.co.jp/news/list/4/75/?page=2",
+    "https://www.youtube.com/watch?v=J_OxuDSZ4ng"
+  ],
+  "105749:OP:2": [
+    "https://www.glay.co.jp/news/detail/4675",
+    "https://www.glay.co.jp/news/detail/4914",
+    "https://www.youtube.com/watch?v=KoAH6nzLQbI"
+  ],
+  "105749:ED:1": [
+    "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201904/22856_201904021755.html",
+    "https://news.ponycanyon.co.jp/2019/04/31304"
+  ],
+  "105749:ED:2": [
+    "https://diaace.com/arrivals/5115/",
+    "https://uchidamaaya.jp/discography/9th_sg/",
+    "https://www.youtube.com/watch?v=OgLAGtlVBho"
+  ],
+  "105749:ED:3": [
+    "https://news.ponycanyon.co.jp/2019/09/34127",
+    "https://mimorin.com/discography/9thcd/",
+    "https://www.youtube.com/watch?v=MNzIIZzqAVU"
+  ],
+  "105749:ED:4": [
+    "https://diaace.com/arrivals/5403/",
+    "https://news.ponycanyon.co.jp/2020/01/36551"
+  ],
   "97995:OP:1": [
     "https://yuno-anime.com/news/87/",
     "https://asaka1007.jp/discography/a_girl_who_chants_love_at_the_bound_of_this_world/",
@@ -192,6 +221,22 @@ const firstPartyUrlsByTheme: Readonly<Record<string, readonly string[]>> = {
 };
 
 const sourceLabelsByUrl: Readonly<Record<string, string>> = {
+  "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201904/22856_201904021755.html": "東京電視台：2019 年首播與最初 OP／ED 用途",
+  "https://www.glay.co.jp/news/detail/4532": "GLAY 官方：首支 OP 的詞曲及 TV Size 配信日期",
+  "https://www.glay.co.jp/news/list/4/75/?page=2": "GLAY 官方發行紀錄：2019 年 7 月完整版 CD 收錄",
+  "https://www.youtube.com/watch?v=J_OxuDSZ4ng": "動畫官方：第一首 OP 映像（TV 版）",
+  "https://www.glay.co.jp/news/detail/4675": "GLAY 官方：第二首 OP 用途與詞曲作者",
+  "https://www.glay.co.jp/news/detail/4914": "GLAY 官方：2020 年完整版 CD 與詞曲署名",
+  "https://www.youtube.com/watch?v=KoAH6nzLQbI": "動畫官方：第二首 OP 映像（TV 版）",
+  "https://news.ponycanyon.co.jp/2019/04/31304": "Pony Canyon 官方：首支 ED、單曲日期、TV edit 與官方 MV",
+  "https://diaace.com/arrivals/5115/": "動畫官方：7 月起第二首 ED 的起用公告",
+  "https://uchidamaaya.jp/discography/9th_sg/": "内田真礼官方：CD 單曲日期及完整共同編曲署名",
+  "https://www.youtube.com/watch?v=OgLAGtlVBho": "内田真礼官方：完整 MV 及共同編曲署名",
+  "https://news.ponycanyon.co.jp/2019/09/34127": "Pony Canyon 官方：三森すずこ新 ED 與發行日期",
+  "https://mimorin.com/discography/9thcd/": "三森すずこ官方：原版 ED 詞曲、共同編曲及 TV size 收錄",
+  "https://www.youtube.com/watch?v=MNzIIZzqAVU": "Pony Canyon 正式配信 metadata：原演唱版與完整署名",
+  "https://diaace.com/arrivals/5403/": "動畫官方：2020 年 1 月起第四首 ED 用途",
+  "https://news.ponycanyon.co.jp/2020/01/36551": "Pony Canyon 官方：第四首 ED 先行配信、CD、TV edit 與官方 MV",
   "https://yuno-anime.com/news/87/": "動畫官方：現世編 OP／ED 與完整詞曲編曲署名",
   "https://asaka1007.jp/discography/a_girl_who_chants_love_at_the_bound_of_this_world/": "亜咲花官方：OP 完整版單曲、製作署名與短版 MV",
   "https://asaka1007.jp/news/1770/": "亜咲花官方：OP 完整版高解析音源先行配信日期",
@@ -278,6 +323,12 @@ const sourceLabelsByUrl: Readonly<Record<string, string>> = {
 };
 
 const crossCheckSourcesByAnime: Readonly<Record<number, CuratedThemeSourceSeed>> = {
+  105749: {
+    label: "Animate Times：2019 年第三季兩首 OP 與四首 ED 次序交叉核對",
+    url: "https://www.animatetimes.com/news/details.php?id=1776312367&p=3",
+    language: "ja",
+    role: "cross_check"
+  },
   97995: {
     label: "Animate Times：前後篇 OP／ED 用途、次序與演唱者交叉核對",
     url: "https://www.animatetimes.com/news/details.php?id=1568793228",
@@ -303,7 +354,7 @@ export const curated2019SpringThemeSources: CuratedThemeSourceOverrideMap = Obje
       ...urls.map((url): CuratedThemeSourceSeed => ({
         label: sourceLabelsByUrl[url] ?? "動畫官方：歌曲、發行日期與製作資料",
         url,
-        language: ["https://www.youtube.com/watch?v=czJHHta2vz8", "https://www.youtube.com/watch?v=XV0R-5GxyyU"].includes(url) ? "en" : "ja",
+        language: ["https://www.youtube.com/watch?v=czJHHta2vz8", "https://www.youtube.com/watch?v=XV0R-5GxyyU", "https://www.youtube.com/watch?v=MNzIIZzqAVU"].includes(url) ? "en" : "ja",
         role: "first_party"
       })),
       ...(key === "101922:ED:2" ? [{

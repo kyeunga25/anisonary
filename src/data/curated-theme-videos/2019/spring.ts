@@ -1,6 +1,66 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2019SpringThemeVideos = {
+  "105749:OP:1": [
+    {
+      "youtubeVideoId": "J_OxuDSZ4ng",
+      "title": "TVアニメ『ダイヤのA actⅡ』OP①「はじまりのうた」｜GLAY",
+      "type": "other",
+      "channelName": "TVアニメ「ダイヤのA」シリーズ",
+      "officialStatus": "official",
+      "embeddable": true
+    }
+  ],
+  "105749:OP:2": [
+    {
+      "youtubeVideoId": "KoAH6nzLQbI",
+      "title": "TVアニメ『ダイヤのA actⅡ』OP②「流星のHowl」｜GLAY",
+      "type": "other",
+      "channelName": "TVアニメ「ダイヤのA」シリーズ",
+      "officialStatus": "official",
+      "embeddable": true
+    }
+  ],
+  "105749:ED:1": [
+    {
+      "youtubeVideoId": "WS5oYfMlAR0",
+      "title": "OxT「ゴールデンアフタースクール」 Official Video",
+      "type": "other",
+      "channelName": "ponycanyon",
+      "officialStatus": "official",
+      "embeddable": true
+    }
+  ],
+  "105749:ED:2": [
+    {
+      "youtubeVideoId": "OgLAGtlVBho",
+      "title": "内田真礼「鼓動エスカレーション」Music Video Full",
+      "type": "full_music_video",
+      "channelName": "内田真礼（UCHIDA MAAYA）Official Channel",
+      "officialStatus": "official",
+      "embeddable": true
+    }
+  ],
+  "105749:ED:3": [
+    {
+      "youtubeVideoId": "MNzIIZzqAVU",
+      "title": "チャンス!",
+      "type": "official_audio",
+      "channelName": "Suzuko Mimori - Topic",
+      "officialStatus": "official",
+      "embeddable": true
+    }
+  ],
+  "105749:ED:4": [
+    {
+      "youtubeVideoId": "lfEObTYv0iw",
+      "title": "OxT - Everlasting Dream［Official Video］",
+      "type": "other",
+      "channelName": "ponycanyon",
+      "officialStatus": "official",
+      "embeddable": true
+    }
+  ],
   "97995:OP:1": [{
     youtubeVideoId: "OHCMAQIEkog",
     title: "亜咲花「この世の果てで恋を唄う少女」（TVアニメ『この世の果てで恋を唄う少女YU-NO』OP）Music Video Short ver.",

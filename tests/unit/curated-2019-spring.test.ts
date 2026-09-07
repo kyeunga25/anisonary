@@ -10,6 +10,56 @@ const spring = curatedSeasonDetails.find(({ id }) => id === "2019-spring")!;
 const anime = (id: number) => curatedAnimeDetails.find((item) => item.id === `curated-${id}`)!;
 
 describe("2019 spring reviewed TV catalogue", () => {
+  it("keeps the 2019 Diamond no Ace act II identity separate from its later sequel and round-trips its public detail", async () => {
+    const seed = curated2019SpringSeeds.find(({ anilistId }) => anilistId === 105749)!;
+    expect(seed).toMatchObject({ startDate: "2019-04-02", seasonIds: ["2019-spring"] });
+    expect(seed.animeThemesUrl).toBeUndefined();
+    const detail = anime(105749);
+    expect(detail).toMatchObject({ slug: "diamond-no-ace-act-ii", editorialWeekday: 2, broadcastTimeJst: "17:55" });
+    expect(anime(177634).slug).toBe("diamond-no-ace-act-ii-second-season");
+    expect(detail.sources).toContainEqual(expect.objectContaining({
+      url: "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201904/22856_201904021755.html", role: "first_party"
+    }));
+    const provider = new ApiProvider("https://anisonary.k-y.cc/api/v1", {
+      fetch: vi.fn<typeof fetch>().mockResolvedValue(new Response(JSON.stringify(detail), { headers: { "Content-Type": "application/json" } }))
+    });
+    expect(await provider.getAnime(detail.slug)).toEqual(detail);
+  });
+
+  it("preserves six original Diamond themes, CD editions and complete co-arrangers without importing later covers", () => {
+    const themes = anime(105749).themes;
+    expect(themes.map(({ type, sequence, titleJa, artistDisplayName, releaseDate }) => [type, sequence, titleJa, artistDisplayName, releaseDate])).toEqual([
+      ["OP", 1, "はじまりのうた", "GLAY", "2019-07-02"],
+      ["OP", 2, "流星のHowl", "GLAY", "2020-08-12"],
+      ["ED", 1, "ゴールデンアフタースクール", "OxT", "2019-04-17"],
+      ["ED", 2, "鼓動エスカレーション", "内田真礼", "2019-07-10"],
+      ["ED", 3, "チャンス！", "三森すずこ", "2019-12-04"],
+      ["ED", 4, "Everlasting Dream", "OxT", "2020-02-05"]
+    ]);
+    expect(themes[0]?.versionLabel).toContain("TV Size 於 2019-04-02");
+    expect(themes[1]?.versionLabel).toContain("完整版 CD");
+    expect(themes[3]?.credits.filter(({ role }) => role === "arrangement").map(({ name }) => name)).toEqual(["KanadeYUK", "Tom-H@ck"]);
+    expect(themes[4]?.credits).toContainEqual({ name: "hotaru", role: "lyrics" });
+    expect(themes[4]?.credits.filter(({ role }) => role === "arrangement").map(({ name }) => name)).toEqual(["大石昌良", "yamazo"]);
+    for (const index of [2, 5]) expect(themes[index]?.credits).toEqual([]);
+    for (const theme of themes) expect(theme.sources).toContainEqual(expect.objectContaining({
+      url: "https://www.animatetimes.com/news/details.php?id=1776312367&p=3", role: "cross_check"
+    }));
+    expect(themes.some(({ titleJa }) => /OxT ver\.|Orchestra|ゆうがた|Let's Go Crazy/.test(titleJa))).toBe(false);
+  });
+
+  it("finds the original Diamond endings by lyricist and distinguishes TV openings from full video and official audio", async () => {
+    const detail = anime(105749);
+    const index = buildCatalogSearchIndex((await loadCatalogSearchData(new CuratedProvider(), true)).entries);
+    const result = searchCatalog(index, { query: "hotaru", scope: "creators", year: "2019", quarter: "spring", type: "ED" })
+      .find(({ anime: item }) => item.slug === detail.slug);
+    expect(result?.themes.map(({ titleJa }) => titleJa)).toEqual(["鼓動エスカレーション", "チャンス！"]);
+    expect(detail.themes.flatMap(({ videos }) => videos.map(({ youtubeVideoId, type }) => [youtubeVideoId, type]))).toEqual([
+      ["J_OxuDSZ4ng", "other"], ["KoAH6nzLQbI", "other"], ["WS5oYfMlAR0", "other"],
+      ["OgLAGtlVBho", "full_music_video"], ["MNzIIZzqAVU", "official_audio"], ["lfEObTYv0iw", "other"]
+    ]);
+  });
+
   it("keeps the 2019 YU-NO TV identity and independent cross-check sources within the public contract", async () => {
     const seed = curated2019SpringSeeds.find(({ anilistId }) => anilistId === 97995)!;
     expect(seed).toMatchObject({ startDate: "2019-04-02", seasonIds: ["2019-spring"] });
@@ -317,9 +367,9 @@ describe("2019 spring reviewed TV catalogue", () => {
   });
 
   it("publishes a partial quarter with reviewed identity and song evidence, without unverified artwork", () => {
-    expect(spring.anime).toHaveLength(27);
+    expect(spring.anime).toHaveLength(28);
     expect(spring.coverageNote).toContain("跨季延續及特殊歌曲版本仍待核對");
-    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(63);
+    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(69);
     expect(curatedSeasonDetails.some(({ id }) => id === "2025-fall")).toBe(false);
     for (const seed of curated2019SpringSeeds) {
       expect(seed.seasonIds).toEqual(["2019-spring"]);

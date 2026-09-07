@@ -460,7 +460,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
 
   await page.goto("/search/");
   await expect(page.getByRole("heading", { name: "跨季度搜尋" })).toBeVisible();
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1944");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1945");
 
   const search = page.getByRole("searchbox", { name: "搜尋動畫、歌曲或創作者" });
   await search.fill("ＭＹＴＨ & ＲＯＩＤ");
@@ -500,7 +500,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
   await expect(page.locator("[data-catalog-anime-count]")).toHaveText("0");
 
   await search.press("Escape");
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1944");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1945");
   expect(externalRequests).toEqual([]);
 });
 
@@ -888,7 +888,7 @@ test("catalogue navigation stays compact and drills down through published years
   await expect(navigation.getByRole("link", { name: /動畫目錄/ })).toHaveAttribute("aria-current", "true");
   await expect(page.getByRole("navigation", { name: "2025 年季度導覽" }).getByRole("link", { name: "春季" })).toHaveAttribute("aria-current", "page");
   await expect(page.getByRole("navigation", { name: "所在位置" }).getByRole("link", { name: "2025", exact: true })).toHaveAttribute("href", "/catalog/2025/");
-  await expect(page.getByLabel("季度資料狀態")).toContainText("已發布 29 個季度、1,944 個作品頁與 4,292 首 OP／ED");
+  await expect(page.getByLabel("季度資料狀態")).toContainText("已發布 29 個季度、1,945 個作品頁與 4,298 首 OP／ED");
 
   await page.setViewportSize({ width: 390, height: 844 });
   await page.reload();
@@ -918,7 +918,7 @@ test("search paginates a bounded DOM and combines year, quarter, creator, and so
   await expect(results).toHaveCount(12);
   const firstTitle = await results.first().locator("h2").textContent();
   await page.getByRole("button", { name: "下一頁" }).click();
-  await expect(page.locator("[data-search-page]")).toContainText("第 2／162 頁");
+  await expect(page.locator("[data-search-page]")).toContainText("第 2／163 頁");
   await expect(page.locator("#catalog-search-results")).toBeFocused();
   await expect(results).toHaveCount(12);
   expect(await results.first().locator("h2").textContent()).not.toBe(firstTitle);
@@ -1124,10 +1124,10 @@ test("2019 spring browsing and creator search reach the correct special ending o
   for (const width of [1280, 390]) {
     await page.setViewportSize({ width, height: 844 });
     await page.goto("/catalog/2019/");
-    await page.getByRole("link", { name: /春季動畫.*27 套動畫/ }).click();
+    await page.getByRole("link", { name: /春季動畫.*28 套動畫/ }).click();
     await expect(page.getByRole("heading", { name: "2019 春季動畫" })).toBeVisible();
-    await expect(page.getByText("本季正在補充，目前收錄 27 套 TV 作品（含電視短篇）。其餘作品、跨季延續及特殊歌曲版本仍待核對。", { exact: true })).toBeVisible();
-    await expect(page.locator("[data-anime-card]")).toHaveCount(27);
+    await expect(page.getByText("本季正在補充，目前收錄 28 套 TV 作品（含電視短篇）。其餘作品、跨季延續及特殊歌曲版本仍待核對。", { exact: true })).toBeVisible();
+    await expect(page.locator("[data-anime-card]")).toHaveCount(28);
     await expect(page.locator("[data-anime-card] img")).toHaveCount(0);
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 
@@ -1508,6 +1508,43 @@ test("YU-NO creator search preserves the exchanged theme singers, release editio
   expect(mediaRequests).toEqual([]);
 });
 
+test("Diamond creator search reaches the original endings and preserves CD dates, co-arrangers and media versions", async ({ page }) => {
+  const slug = "diamond-no-ace-act-ii";
+  const mediaRequests: string[] = [];
+  page.on("request", (request) => {
+    if (/youtube|ytimg|googlevideo/.test(new URL(request.url()).hostname)) mediaRequests.push(request.url());
+  });
+  for (const width of [1280, 390]) {
+    await page.setViewportSize({ width, height: 844 });
+    await page.goto("/search/");
+    for (const [label, value] of [["年份", "2019"], ["季度", "spring"], ["搜尋範圍", "creators"], ["歌曲用途", "ED"]]) {
+      await page.getByLabel(label!, { exact: true }).selectOption(value!);
+    }
+    await page.getByRole("searchbox", { name: "搜尋動畫、歌曲或創作者" }).fill("hotaru");
+    await page.getByRole("link", { name: "チャンス！", exact: true }).click();
+    await expect(page).toHaveURL(new RegExp(`/anime/${slug}/#theme-${slug}-ed-3$`));
+    const chance = page.locator(`#theme-${slug}-ed-3`);
+    await expect(chance.locator(".theme-card__artist")).toHaveText("三森すずこ");
+    await expect(chance.locator(".theme-card__credits dd")).toHaveText(["hotaru", "大石昌良", "大石昌良、yamazo"]);
+    await expect(chance).toContainText("官方音源");
+    const escalation = page.locator(`#theme-${slug}-ed-2`);
+    await expect(escalation.locator(".theme-card__credits dd")).toHaveText(["hotaru", "Tom-H@ck", "KanadeYUK、Tom-H@ck"]);
+    await expect(escalation).toContainText("Music Video Full");
+    await expect(page.locator(`#theme-${slug}-op-1`)).toContainText("TV Size 於 2019-04-02");
+    await expect(page.locator(`#theme-${slug}-op-2 time`)).toHaveText("2020-08-12");
+    await expect(page.locator(`#theme-${slug}-ed-4 time`)).toHaveText("2020-02-05");
+    await expect(page.locator(".theme-card")).toHaveCount(6);
+    await expect(page.getByRole("button", { name: /載入 YouTube 影片/ })).toHaveCount(6);
+    await expect(page.locator("iframe")).toHaveCount(0);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  }
+  expect(mediaRequests).toEqual([]);
+  await page.route("https://www.youtube-nocookie.com/**", (route) => route.fulfill({ contentType: "text/html", body: "<!doctype html><title>Official audio fixture</title>" }));
+  await page.locator(`#theme-${slug}-ed-3`).getByRole("button", { name: /載入 YouTube 影片/ }).focus();
+  await page.keyboard.press("Enter");
+  await expect(page.locator("iframe")).toHaveAttribute("src", /youtube-nocookie\.com\/embed\/MNzIIZzqAVU/);
+});
+
 test("complete ensemble names appear once while individual vocalists and production roles remain available", async ({ page, request, browser }) => {
   const repeated = [
     ["isekai-quartet", "isekai-quartet-op-1"],
@@ -1718,19 +1755,19 @@ test("weekday navigation follows populated groups and remains useful after filte
 
     await page.getByRole("checkbox", { name: "有正版影片" }).check();
     await expect(navigation.getByRole("link")).toHaveText(["週一", "週二", "週三", "週四", "週五", "週六", "週日"]);
-    await expect(page.locator("[data-result-count]")).toHaveText("17");
+    await expect(page.locator("[data-result-count]")).toHaveText("18");
     for (const link of await navigation.getByRole("link").all()) {
       const target = page.locator((await link.getAttribute("href"))!);
       await expect(target).toBeVisible();
       const day = await link.getAttribute("href");
-      await expect(target.locator("[data-anime-card]:visible")).toHaveCount(day === "#weekday-7" ? 5 : day === "#weekday-5" || day === "#weekday-6" ? 3 : day === "#weekday-1" || day === "#weekday-2" ? 2 : 1);
+      await expect(target.locator("[data-anime-card]:visible")).toHaveCount(day === "#weekday-7" ? 5 : day === "#weekday-5" || day === "#weekday-6" || day === "#weekday-2" ? 3 : day === "#weekday-1" ? 2 : 1);
     }
     await navigation.getByRole("link", { name: "週六" }).click();
     await expect(page).toHaveURL(/#weekday-6$/);
     await expect(navigation.getByRole("link", { name: "週六" })).toHaveAttribute("aria-current", "location");
     await page.getByRole("button", { name: "清除篩選" }).click();
     await expect(navigation.getByRole("link")).toHaveText(["週一", "週二", "週三", "週四", "週五", "週六", "週日"]);
-    await expect(page.locator("[data-result-count]")).toHaveText("27");
+    await expect(page.locator("[data-result-count]")).toHaveText("28");
     await expect(page.getByRole("checkbox", { name: "有 OP" })).toBeFocused();
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   }
@@ -1753,7 +1790,7 @@ test("weekday navigation follows populated groups and remains useful after filte
   await expect(nativePage.getByRole("navigation", { name: "跳到播出星期" }).getByRole("link"))
     .toHaveText(["週一", "週二", "週三", "週四", "週五", "週六", "週日"]);
   await expect(nativePage.locator("[data-weekday-section]")).toHaveCount(7);
-  await expect(nativePage.locator("[data-anime-card]")).toHaveCount(27);
+  await expect(nativePage.locator("[data-anime-card]")).toHaveCount(28);
   await nativePage.getByRole("link", { name: "週五", exact: true }).click();
   await expect(nativePage).toHaveURL(/#weekday-5$/);
   expect(await nativePage.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);

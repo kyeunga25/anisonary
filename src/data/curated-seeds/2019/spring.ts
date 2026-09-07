@@ -23,6 +23,139 @@ function spring2019Seed(row: Spring2019SeedInput): CuratedAnimeSeed {
 
 const curated2019SpringSeedRows: Spring2019SeedInput[] = [
   {
+    "anilistId": 105749,
+    "slug": "diamond-no-ace-act-ii",
+    "startDate": "2019-04-02",
+    "titleJa": "ダイヤのA actⅡ",
+    "titleZhHant": "鑽石王牌 act2",
+    "titleRomaji": "Diamond no Ace act II",
+    "officialSiteUrl": "https://diaace.com/",
+    "wikipediaUrl": "https://youranimes.tw/animes/504",
+    "identifierSource": {
+      "label": "AniList 公開作品頁：2019 年 TV 版識別與季度",
+      "url": "https://anilist.co/anime/105749/Diamond-no-Ace-act-II/",
+      "language": "en"
+    },
+    "broadcastTimeJst": "17:55",
+    "broadcastLabel": "東京電視台系列每週二 17:55（日本時間）",
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "はじまりのうた",
+        "artistDisplayName": "GLAY",
+        "releaseDate": "2019-07-02",
+        "versionLabel": "完整版 CD；TV Size 於 2019-04-02 配信",
+        "credits": [
+          {
+            "name": "TERU",
+            "role": "lyrics"
+          },
+          {
+            "name": "TERU",
+            "role": "composition"
+          }
+        ]
+      },
+      {
+        "type": "OP",
+        "sequence": 2,
+        "titleJa": "流星のHowl",
+        "artistDisplayName": "GLAY",
+        "releaseDate": "2020-08-12",
+        "versionLabel": "完整版 CD；官方影片為 TV 版",
+        "credits": [
+          {
+            "name": "TAKURO",
+            "role": "lyrics"
+          },
+          {
+            "name": "TERU",
+            "role": "composition"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "ゴールデンアフタースクール",
+        "artistDisplayName": "OxT",
+        "releaseDate": "2019-04-17",
+        "versionLabel": "CD 單曲版；另收錄 TV edit",
+        "credits": []
+      },
+      {
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "鼓動エスカレーション",
+        "artistDisplayName": "内田真礼",
+        "releaseDate": "2019-07-10",
+        "versionLabel": "CD 單曲版",
+        "credits": [
+          {
+            "name": "内田真礼",
+            "role": "vocals"
+          },
+          {
+            "name": "hotaru",
+            "role": "lyrics"
+          },
+          {
+            "name": "Tom-H@ck",
+            "role": "composition"
+          },
+          {
+            "name": "KanadeYUK",
+            "role": "arrangement"
+          },
+          {
+            "name": "Tom-H@ck",
+            "role": "arrangement"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 3,
+        "titleJa": "チャンス！",
+        "artistDisplayName": "三森すずこ",
+        "releaseDate": "2019-12-04",
+        "versionLabel": "CD 單曲版；另收錄 TV size",
+        "credits": [
+          {
+            "name": "三森すずこ",
+            "role": "vocals"
+          },
+          {
+            "name": "hotaru",
+            "role": "lyrics"
+          },
+          {
+            "name": "大石昌良",
+            "role": "composition"
+          },
+          {
+            "name": "大石昌良",
+            "role": "arrangement"
+          },
+          {
+            "name": "yamazo",
+            "role": "arrangement"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 4,
+        "titleJa": "Everlasting Dream",
+        "artistDisplayName": "OxT",
+        "releaseDate": "2020-02-05",
+        "versionLabel": "CD 單曲版；另收錄 TV edit",
+        "credits": []
+      }
+    ]
+  },
+  {
     anilistId: 97995,
     slug: "kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no",
     startDate: "2019-04-02",
