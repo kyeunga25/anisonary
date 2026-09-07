@@ -1,4 +1,5 @@
 import { SEARCH_PAGE_SIZE, searchCatalog, type CatalogSearchIndex, type CatalogSearchOptions } from "@/utils/catalog-search-index";
+import { getAnimeTitleAliases } from "@/utils/anime-titles";
 
 const root = document.querySelector<HTMLElement>("[data-catalog-search]");
 if (root) {
@@ -50,7 +51,8 @@ if (root) {
         animeLink.lang = "ja";
         title.append(animeLink);
         identity.append(title);
-        if (anime.titleZhHant) identity.append(element("p", "", anime.titleZhHant));
+        const secondaryTitle = getAnimeTitleAliases(anime)[0]?.value;
+        if (secondaryTitle) identity.append(element("p", "", secondaryTitle));
         heading.append(identity, link("catalog-result__open", "查看詳情", `/anime/${encodeURIComponent(anime.slug)}/`));
         article.append(heading);
         if (themes.length) {

@@ -1,6 +1,7 @@
 ---
 import PosterImage from "@/components/common/PosterImage.astro";
 import type { PublicAnimeCard } from "@/types/public-api";
+import { getAnimeTitleAliases } from "@/utils/anime-titles";
 import { formatBroadcastLabel } from "@/utils/weekday";
 
 interface Props {
@@ -12,6 +13,7 @@ interface Props {
 const { anime, eager = false, variant = "home" } = Astro.props;
 const mediaUrl = anime.bannerUrl ?? anime.posterUrl;
 const mediaAlt = anime.bannerAlt ?? anime.posterAlt;
+const secondaryTitle = getAnimeTitleAliases(anime)[0]?.value;
 ---
 
 <article
@@ -21,7 +23,7 @@ const mediaAlt = anime.bannerAlt ?? anime.posterAlt;
   data-has-ed={anime.edCount > 0 ? "true" : "false"}
   data-has-video={anime.hasOfficialVideo ? "true" : "false"}
 >
-  <a href={`/anime/${anime.slug}/`} aria-label={`查看 ${anime.titleJa}（${anime.titleZhHant ?? anime.titleRomaji ?? "未有中文名稱"}）`}>
+  <a href={`/anime/${anime.slug}/`} aria-label={`查看 ${anime.titleJa}${secondaryTitle ? `（${secondaryTitle}）` : ""}`}>
     <div class="anime-card__media">
       <PosterImage
         src={mediaUrl}
@@ -38,7 +40,7 @@ const mediaAlt = anime.bannerAlt ?? anime.posterAlt;
         <span>{formatBroadcastLabel(anime)}</span>
       </div>
       <h3 lang="ja">{anime.titleJa}</h3>
-      <p>{anime.titleZhHant ?? anime.titleRomaji ?? "繁中名稱待公布"}</p>
+      {secondaryTitle && <p>{secondaryTitle}</p>}
       <div class="anime-card__status" aria-label={`OP ${anime.opCount} 首，ED ${anime.edCount} 首`}>
         <span>OP {anime.opCount}</span><span>ED {anime.edCount}</span>
         {anime.hasOfficialVideo && (

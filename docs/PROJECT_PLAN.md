@@ -71,6 +71,7 @@
 - **v1.40.1 source**：補上《Fairy gone》春季 OP／ED 的個別演唱者、作曲、編曲及 ED 作詞，保留團體名義、發行日期與影片版本；逐曲署名可由創作者搜尋找到，來源包括創作者官方、播出機構及藝人訪談，既有其他作品與歌曲不變；發布證據見對應 GitHub Release。
 - **v1.40.2 source**：較長的歌曲來源清單改為原生展開區，持續顯示來源數量、審閱狀態與日期；較少來源仍直接顯示，支援獨立展開、鍵盤與無 JavaScript 操作，歌曲、來源及 API 資料不變；發布證據見對應 GitHub Release。
 - **v1.41.0 source**：2019 春季增加《鑽石王牌 act2》2019 年 TV 版、6 筆 OP／ED 與 6 筆官方影片 metadata；保留原始演唱者、CD 與 TV Size 日期、共同編曲及官方音源版本，春季共 28 套作品與 69 筆歌曲；發布證據見對應 GitHub Release。
+- **v1.41.1 source**：作品頁、季度卡片、搜尋結果、連結標籤及結構化資料省略完全相同的名稱；保留所有不同寫法與原始搜尋／API 資料，支援無 JavaScript 閱讀；發布證據見對應 GitHub Release。
 - 正式網站使用 custom domain；非正式 Cloudflare hostname 不在公開文檔記錄；
 - 私有 backend、資料庫、crawler、帳戶設定、憑證與內部規則不屬於本公開 repository。
 

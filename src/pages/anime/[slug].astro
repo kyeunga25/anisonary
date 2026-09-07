@@ -9,6 +9,7 @@ import { getDataProvider, shouldRequireApiData } from "@/data/provider";
 import { loadCatalogSearchData } from "@/data/page-data";
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import type { PublicAnimeDetail, PublicSeasonSummary } from "@/types/public-api";
+import { getAnimeTitleAliases } from "@/utils/anime-titles";
 import { buildAnimeJsonLd } from "@/utils/seo";
 import { animeStatusLabel } from "@/utils/theme";
 import { formatBroadcastLabel } from "@/utils/weekday";
@@ -40,6 +41,8 @@ export async function getStaticPaths() {
 }
 
 const { anime, season, isMockData } = Astro.props as AnimePageProps;
+const titleAliases = getAnimeTitleAliases(anime);
+const pageTitle = [anime.titleJa, ...titleAliases.slice(0, 1).map(({ value }) => value)].join("／");
 const seasonLabel = `${season.year} ${season.titleZhHant}`;
 const broadcastLabel = formatBroadcastLabel(anime);
 const pageDescription = anime.themeAvailability === "not_used"
@@ -57,7 +60,7 @@ catalogCorrectionUrl.searchParams.set("title", `資料修正：${anime.titleJa}`
 ---
 
 <BaseLayout
-  title={`${anime.titleJa}／${anime.titleZhHant ?? anime.titleRomaji ?? "主題曲"}`}
+  title={pageTitle}
   description={pageDescription}
   image={anime.posterUrl}
   ogType="video.tv_show"
@@ -92,8 +95,9 @@ catalogCorrectionUrl.searchParams.set("title", `資料修正：${anime.titleJa}`
 
       <div class="anime-hero__content">
         <h1 lang="ja">{anime.titleJa}</h1>
-        {anime.titleZhHant && <p class="anime-hero__zh">{anime.titleZhHant}</p>}
-        {anime.titleRomaji && <p class="anime-hero__romaji">{anime.titleRomaji}</p>}
+        {titleAliases.map(({ kind, value }) => (
+          <p class={kind === "titleZhHant" ? "anime-hero__zh" : "anime-hero__romaji"}>{value}</p>
+        ))}
 
         <dl class="anime-hero__meta">
           <div><dt>季度</dt><dd>{season.year} {season.titleZhHant.replace("動畫", "")}</dd></div>

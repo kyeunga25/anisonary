@@ -2,6 +2,36 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.41.1] - 2026-09-07
+
+### Fixed
+
+- display each distinct anime name once across detail pages, directory cards, search results, accessible links and structured metadata;
+- retain differently written Traditional Chinese and Romaji aliases, the original catalogue records, search index and public API payloads;
+- keep the same compact title hierarchy available without JavaScript.
+
+## [1.41.0] - 2026-09-07
+
+### Added
+
+- add the 2019 Diamond no Ace act II television series with six reviewed OP／ED records and six official video metadata entries;
+- preserve original singing versions, CD and TV-size dates, shared arrangers and official audio classifications;
+- expand the partial spring catalogue to 28 works and 69 songs.
+
+## [1.40.2] - 2026-09-07
+
+### Fixed
+
+- place longer song-source lists in native disclosures while keeping source counts, review status and dates visible;
+- preserve direct display for shorter lists, independent keyboard access and reading without JavaScript.
+
+## [1.40.1] - 2026-09-07
+
+### Added
+
+- complete reviewed individual vocals, composition, arrangement and ending-lyrics credits for the spring Fairy gone themes;
+- retain existing release-artist labels, dates, video versions and unrelated catalogue records.
+
 ## [1.40.0] - 2026-09-07
 
 ### Added
