@@ -40,6 +40,22 @@ export interface CuratedAnimeSeed {
   themes: CuratedThemeSeed[];
 }
 
+export type NativeCuratedAnimeSeed = Omit<
+  CuratedAnimeSeed,
+  "id" | "anilistId" | "anilistUrl" | "identifierSource" | "verifiedAt" | "titleZhHant" | "titleRomaji"
+> & {
+  id: `catalog-${string}`;
+  anilistId?: never;
+  anilistUrl?: never;
+  identifierSource: NonNullable<CuratedAnimeSeed["identifierSource"]>;
+  verifiedAt: string;
+  titleZhHant?: string;
+  titleRomaji?: string;
+};
+
+export type CuratedCatalogueSeed = CuratedAnimeSeed | NativeCuratedAnimeSeed;
+export type CuratedAnimeKey = number | NativeCuratedAnimeSeed["id"];
+
 export interface CuratedSeasonRegistryEntry {
   readonly id: CuratedSeasonId;
   readonly year: number;
@@ -47,6 +63,6 @@ export interface CuratedSeasonRegistryEntry {
   readonly titleZhHant: string;
   readonly titleJa: string;
   readonly coverageNote?: string;
-  readonly seeds: readonly CuratedAnimeSeed[];
-  readonly animeIds: readonly number[];
+  readonly seeds: readonly CuratedCatalogueSeed[];
+  readonly animeIds: readonly CuratedAnimeKey[];
 }

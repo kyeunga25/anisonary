@@ -2,6 +2,12 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## v1.43.0 — 獨立作品識別
+
+- 資料 registry 支援具來源、語言與核對日期的本站作品識別碼，不要求先取得外部索引 ID。
+- 季度、歌曲來源及影片共用穩定識別，保留跨季關聯；拒絕重複或混用的 ID 與缺乏證據的記錄。
+- 未核對的繁中名、Romaji 與外部連結可省略；既有作品、歌曲、搜尋與靜態 API 內容不變。
+
 ## v1.42.1 — 作品資料響應式排列
 
 - 修正 521–760px 無圖作品錯用海報雙欄配置，標題與基本資料維持可用全寬。

@@ -1,3 +1,4 @@
+import { getCuratedAnimeKey } from "@/data/curated-seeds/identity";
 import {
   curated2019FallAnimeIds,
   curated2019FallSeeds
@@ -115,7 +116,8 @@ import {
   curated2026WinterSeeds
 } from "@/data/curated-seeds/2026/winter";
 import type {
-  CuratedAnimeSeed,
+  CuratedCatalogueSeed,
+  CuratedAnimeKey,
   CuratedSeasonRegistryEntry
 } from "@/data/curated-seeds/types";
 
@@ -123,7 +125,7 @@ export function validateCuratedSeasonRegistry<
   const Entries extends readonly CuratedSeasonRegistryEntry[]
 >(entries: Entries): Entries {
   const entryById = new Map<string, CuratedSeasonRegistryEntry>();
-  const seedByAniListId = new Map<number, CuratedAnimeSeed>();
+  const seedByKey = new Map<CuratedAnimeKey, CuratedCatalogueSeed>();
 
   for (const entry of entries) {
     if (entry.id !== `${entry.year}-${entry.quarter}`) {
@@ -134,53 +136,55 @@ export function validateCuratedSeasonRegistry<
     }
     entryById.set(entry.id, entry);
 
-    const animeIds = new Set<number>();
-    for (const anilistId of entry.animeIds) {
-      if (animeIds.has(anilistId)) {
-        throw new Error(`Duplicate season anime ID: ${entry.id}:${anilistId}`);
+    const animeIds = new Set<CuratedAnimeKey>();
+    for (const key of entry.animeIds) {
+      if (animeIds.has(key)) {
+        throw new Error(`Duplicate season anime ID: ${entry.id}:${key}`);
       }
-      animeIds.add(anilistId);
+      animeIds.add(key);
     }
 
     for (const seed of entry.seeds) {
+      const key = getCuratedAnimeKey(seed);
       const hasArtwork = Boolean(seed.posterUrl || seed.bannerUrl);
       const hasAttribution = Boolean(seed.imageSourceUrl && seed.imageSourceLabel);
       if (hasArtwork && !hasAttribution) {
-        throw new Error(`Missing curated image attribution: ${seed.anilistId}`);
+        throw new Error(`Missing curated image attribution: ${key}`);
       }
       if (!hasArtwork && (seed.imageSourceUrl || seed.imageSourceLabel)) {
-        throw new Error(`Image attribution without curated artwork: ${seed.anilistId}`);
+        throw new Error(`Image attribution without curated artwork: ${key}`);
       }
       if (seed.seasonIds[0] !== entry.id) {
-        throw new Error(`Curated seed owner mismatch: ${seed.anilistId}`);
+        throw new Error(`Curated seed owner mismatch: ${key}`);
       }
-      if (seedByAniListId.has(seed.anilistId)) {
-        throw new Error(`Duplicate curated seed: ${seed.anilistId}`);
+      if (seedByKey.has(key)) {
+        throw new Error(`Duplicate curated seed: ${key}`);
       }
-      seedByAniListId.set(seed.anilistId, seed);
+      seedByKey.set(key, seed);
     }
   }
 
   for (const entry of entries) {
-    for (const anilistId of entry.animeIds) {
-      const seed = seedByAniListId.get(anilistId);
+    for (const key of entry.animeIds) {
+      const seed = seedByKey.get(key);
       if (!seed) {
-        throw new Error(`Missing curated seed: ${entry.id}:${anilistId}`);
+        throw new Error(`Missing curated seed: ${entry.id}:${key}`);
       }
       if (!seed.seasonIds.includes(entry.id)) {
-        throw new Error(`Season membership mismatch: ${entry.id}:${anilistId}`);
+        throw new Error(`Season membership mismatch: ${entry.id}:${key}`);
       }
     }
   }
 
-  for (const seed of seedByAniListId.values()) {
+  for (const seed of seedByKey.values()) {
+    const key = getCuratedAnimeKey(seed);
     for (const seasonId of seed.seasonIds) {
       const entry = entryById.get(seasonId);
       if (!entry) {
         throw new Error(`Unregistered curated season: ${seasonId}`);
       }
-      if (!entry.animeIds.includes(seed.anilistId)) {
-        throw new Error(`Missing season index entry: ${seasonId}:${seed.anilistId}`);
+      if (!entry.animeIds.includes(key)) {
+        throw new Error(`Missing season index entry: ${seasonId}:${key}`);
       }
     }
   }
@@ -458,4 +462,4 @@ export type PublishedCuratedSeasonId = (typeof curatedSeasonRegistry)[number]["i
 
 export const curatedSeasonAnimeIds = Object.fromEntries(
   curatedSeasonRegistry.map(({ id, animeIds }) => [id, animeIds])
-) as unknown as Readonly<Record<PublishedCuratedSeasonId, readonly number[]>>;
+) as unknown as Readonly<Record<PublishedCuratedSeasonId, readonly CuratedAnimeKey[]>>;

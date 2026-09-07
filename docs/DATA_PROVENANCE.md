@@ -37,6 +37,10 @@ API、資料庫、商標或媒體重用權。完整授權邊界見
 
 ## 欄位決策
 
+作品的公開 `id` 與 `slug` 是穩定識別，不要求由外部索引提供。已核對但沒有外部 ID 的新作品可使用 `catalog-` 開頭的本站識別碼，必須保留 `identifierSource` 的 HTTPS URL、標籤、語言與實際 `verifiedAt`。沒有來源支持的 `anilistId`、`anilistUrl`、繁中名與 Romaji 名稱不得生成；省略可選名稱時仍可按日文原名搜尋。本站識別碼不表示額外的資料或媒體授權。
+
+既有作品的數字型 authoring key、公開 ID、slug、歌曲 key 與 API 輸出保持相容。新作品的季度索引、OP／ED 來源及影片使用相同的本站識別碼關聯；跨季延續只引用原作品，不重建記錄。`catalog-` ID 與外部數字 key 分屬不同命名空間，混用外部識別、重複 ID、缺乏來源或無效日期會令 registry 驗證失敗。
+
 新季度的發行日期、版本、credits 及歌曲 `lastVerifiedAt` 可直接記錄在其 seed，與既有 override 輸出相容。只修正歌曲時，可用 `metadataVerifiedAt` 保留未重新核對的作品／圖像來源日期；這是 authoring 欄位，不增加公開 API 欄位。歌曲與作品各自的核對日期必須符合其來源 ledger，不能把歌曲修正日期套到未重新審閱的圖片。
 
 - 日文曲名、演唱者、credits、影片及發行頁以第一方公開資料作最終核對。

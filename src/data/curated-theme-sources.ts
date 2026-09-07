@@ -1,3 +1,5 @@
+import { curatedThemeKeyPattern, getCuratedAnimeKey } from "@/data/curated-seeds/identity";
+import type { CuratedSeasonRegistryEntry } from "@/data/curated-seeds/types";
 import { curatedSeasonRegistry } from "@/data/curated-season-registry";
 import { curated2019FallThemeSources } from "@/data/curated-theme-sources/2019/fall";
 import { curated2019SpringThemeSources } from "@/data/curated-theme-sources/2019/spring";
@@ -33,16 +35,15 @@ import type {
   CuratedThemeSourceRegistryEntry
 } from "@/data/curated-theme-sources/types";
 
-const themeKeyPattern = /^(\d+):(OP|ED):([1-9]\d*)$/;
 const sourceLanguages = new Set(["ja", "zh-Hant", "zh-Hans", "en", "multi"]);
 const sourceRoles = new Set(["first_party", "cross_check"]);
 
 export function validateCuratedThemeSourceRegistry<
   const Entries extends readonly CuratedThemeSourceRegistryEntry[]
->(entries: Entries): Entries {
-  const ownerByAniListId = new Map(
-    curatedSeasonRegistry.flatMap(({ id, seeds }) => (
-      seeds.map(({ anilistId }) => [anilistId, id] as const)
+>(entries: Entries, seasons: readonly CuratedSeasonRegistryEntry[] = curatedSeasonRegistry): Entries {
+  const ownerByKey = new Map(
+    seasons.flatMap(({ id, seeds }) => (
+      seeds.map((seed) => [String(getCuratedAnimeKey(seed)), id] as const)
     ))
   );
   const registeredSeasons = new Set<string>();
@@ -55,13 +56,13 @@ export function validateCuratedThemeSourceRegistry<
     registeredSeasons.add(entry.seasonId);
 
     for (const [key, sources] of Object.entries(entry.overrides)) {
-      const match = themeKeyPattern.exec(key);
+      const match = curatedThemeKeyPattern.exec(key);
       if (!match) {
         throw new Error(`Invalid theme source key: ${key}`);
       }
 
-      const anilistId = Number(match[1]);
-      if (ownerByAniListId.get(anilistId) !== entry.seasonId) {
+      const animeKey = match[1]!;
+      if (ownerByKey.get(animeKey) !== entry.seasonId) {
         throw new Error(`Theme source owner mismatch: ${key}`);
       }
       if (registeredThemeKeys.has(key)) {

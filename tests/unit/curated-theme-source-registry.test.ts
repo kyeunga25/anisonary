@@ -1,4 +1,5 @@
 import { describe, expect, it } from "vitest";
+import { getCuratedAnimeKey, getCuratedThemeKey } from "@/data/curated-seeds/identity";
 import { curatedAnimeDetails } from "@/data/curated-data";
 import { curatedAnimeSeeds } from "@/data/curated-seeds";
 import {
@@ -79,25 +80,25 @@ describe("curated theme source registry", () => {
   });
 
   it("maps every source override to the owning season and a reviewed theme identity", () => {
-    const ownerByAniListId = new Map(
-      curatedAnimeSeeds.map((seed) => [seed.anilistId, seed.seasonIds[0]])
+    const ownerByKey = new Map(
+      curatedAnimeSeeds.map((seed) => [String(getCuratedAnimeKey(seed)), seed.seasonIds[0]])
     );
     const reviewedThemeKeys = new Set(
       curatedAnimeSeeds.flatMap((seed) => seed.themes.map(
-        (theme) => `${seed.anilistId}:${theme.type}:${theme.sequence}`
+        (theme) => getCuratedThemeKey(seed, theme)
       ))
     );
     const detailById = new Map(curatedAnimeDetails.map((detail) => [detail.id, detail]));
     for (const seed of curatedAnimeSeeds) {
       for (const theme of detailById.get(seed.id)?.themes ?? []) {
-        reviewedThemeKeys.add(`${seed.anilistId}:${theme.type}:${theme.sequence}`);
+        reviewedThemeKeys.add(getCuratedThemeKey(seed, theme));
       }
     }
 
     for (const entry of curatedThemeSourceRegistry) {
       for (const key of Object.keys(entry.overrides)) {
-        const anilistId = Number(key.split(":", 1)[0]);
-        expect(ownerByAniListId.get(anilistId), key).toBe(entry.seasonId);
+        const animeKey = key.split(":", 1)[0]!;
+        expect(ownerByKey.get(animeKey), key).toBe(entry.seasonId);
         expect(reviewedThemeKeys.has(key), key).toBe(true);
       }
     }

@@ -74,6 +74,7 @@
 - **v1.41.1 source**：作品頁、季度卡片、搜尋結果、連結標籤及結構化資料省略完全相同的名稱；保留所有不同寫法與原始搜尋／API 資料，支援無 JavaScript 閱讀；發布證據見對應 GitHub Release。
 - **v1.42.0 source**：2019 春季增加《THE ORIGIN 前夜 赤い彗星》13 話電視重編版、7 筆 OP／ED 與 8 筆官方影片 metadata；保留翻唱名義、共同作詞與新編曲、數位／CD 發行日期及第 12 話片尾畫面版本，春季共 29 套作品與 76 筆歌曲；發布證據見對應 GitHub Release。
 - **v1.42.1 source**：無圖作品在平板維持全寬，手機資料標籤不拆行、內容對齊；直向資料列及外部連結省略桌面分隔線，保持來源資料、搜尋與 API 不變；發布證據見對應 GitHub Release。
+- **v1.43.0 source**：registry 支援具來源證據的本站識別碼，季度、歌曲來源及影片共用穩定關聯；未核對的外部 ID 與別名保持空缺，既有作品、搜尋與 API 不變；發布證據見對應 GitHub Release。
 - 正式網站使用 custom domain；非正式 Cloudflare hostname 不在公開文檔記錄；
 - 私有 backend、資料庫、crawler、帳戶設定、憑證與內部規則不屬於本公開 repository。
 

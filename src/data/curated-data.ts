@@ -1,3 +1,4 @@
+import { getCuratedAnimeKey, getCuratedThemeKey } from "@/data/curated-seeds/identity";
 import { buildSeasonCatalogReferences, getSeasonSnapshotVerifiedAt } from "@/data/catalog-sources";
 import { curatedSeasonRegistry } from "@/data/curated-season-registry";
 import { curatedThemeSourceOverrides as themeSourceOverrides } from "@/data/curated-theme-sources";
@@ -5,7 +6,7 @@ import { curatedThemeVideoOverrides as videoOverrides } from "@/data/curated-the
 import {
   curatedAnimeSeeds,
   curatedSeasonAnimeIds,
-  type CuratedAnimeSeed,
+  type CuratedCatalogueSeed,
   type CuratedSeasonRegistryEntry,
   type CuratedThemeSeed
 } from "@/data/curated-seeds";
@@ -688,7 +689,7 @@ const excludedSourceUrls = new Set([
   "https://animethemes.moe/anime/punirunes_puni_3"
 ]);
 
-const extraThemes: Record<number, CuratedThemeSeed[]> = {
+const extraThemes: Record<string, CuratedThemeSeed[]> = {
   178005: [
     {
       type: "ED",
@@ -836,7 +837,7 @@ const extraThemes: Record<number, CuratedThemeSeed[]> = {
   ]
 };
 
-const chineseTitleOverrides: Record<number, string> = {
+const chineseTitleOverrides: Record<string, string> = {
   135865: "幼女戰記Ⅱ",
   169228: "北斗神拳 -FIST OF THE NORTH STAR-",
   177887: "利維坦號戰記",
@@ -850,7 +851,7 @@ const chineseTitleOverrides: Record<number, string> = {
   198745: "週刊輕小說動畫"
 };
 
-const slugOverrides: Record<number, string> = {
+const slugOverrides: Record<string, string> = {
   169582: "saikyou-degarashi-ouji"
 };
 
@@ -4537,7 +4538,7 @@ const themeVerifiedAtOverrides: Record<string, string> = {
   "213426:ED:1": "2026-08-02"
 };
 
-const animeOfficialSourceOverrides: Record<number, { label: string; url: string }> = {
+const animeOfficialSourceOverrides: Record<string, { label: string; url: string }> = {
   111314: {
     label: "VIZ 官方授權作品頁：動畫作品資料",
     url: "https://www.viz.com/uzumaki"
@@ -4604,7 +4605,7 @@ const animeOfficialSourceOverrides: Record<number, { label: string; url: string 
   }
 };
 
-const animeSourceOverrides: Record<number, AnimeSourceSeed[]> = {
+const animeSourceOverrides: Record<string, AnimeSourceSeed[]> = {
   105749: [{
     label: "東京電視台：2019 年首集、首播日期與播出時段",
     url: "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201904/22856_201904021755.html",
@@ -4870,12 +4871,12 @@ const animeSourceOverrides: Record<number, AnimeSourceSeed[]> = {
   }]
 };
 
-const themeAvailabilityOverrides: Record<number, PublicThemeAvailability> = {
+const themeAvailabilityOverrides: Record<string, PublicThemeAvailability> = {
   196063: "not_used",
   203472: "not_used"
 };
 
-const animeVerifiedAtOverrides: Record<number, string> = {
+const animeVerifiedAtOverrides: Record<string, string> = {
   185407: "2026-08-11",
   178754: "2026-08-11",
   185660: "2026-08-11",
@@ -4944,19 +4945,15 @@ const animeVerifiedAtOverrides: Record<number, string> = {
   198408: "2026-08-02"
 };
 
-function themeKey(anilistId: number, theme: Pick<CuratedThemeSeed, "type" | "sequence">): string {
-  return `${anilistId}:${theme.type}:${theme.sequence}`;
-}
-
 function canonicalHttpsUrl(url: string): string {
   return new URL(url).href;
 }
 
-function publicSlug(seed: CuratedAnimeSeed): string {
-  return slugOverrides[seed.anilistId] ?? seed.slug;
+function publicSlug(seed: CuratedCatalogueSeed): string {
+  return slugOverrides[getCuratedAnimeKey(seed)] ?? seed.slug;
 }
 
-function themeLink(seed: CuratedAnimeSeed, theme: CuratedThemeSeed): PublicExternalLink[] {
+function themeLink(seed: CuratedCatalogueSeed, theme: CuratedThemeSeed): PublicExternalLink[] {
   if (theme.youtubeUrl) {
     return [{
       platform: "YouTube",
@@ -4981,7 +4978,7 @@ function themeLink(seed: CuratedAnimeSeed, theme: CuratedThemeSeed): PublicExter
 }
 
 function buildThemeSources(
-  seed: CuratedAnimeSeed,
+  seed: CuratedCatalogueSeed,
   theme: CuratedThemeSeed,
   key: string,
   verifiedAt: string
@@ -5041,8 +5038,8 @@ function buildThemeSources(
   ).values()];
 }
 
-function toTheme(seed: CuratedAnimeSeed, originalTheme: CuratedThemeSeed): PublicTheme {
-  const key = themeKey(seed.anilistId, originalTheme);
+function toTheme(seed: CuratedCatalogueSeed, originalTheme: CuratedThemeSeed): PublicTheme {
+  const key = getCuratedThemeKey(seed, originalTheme);
   const theme = { ...originalTheme, ...themeOverrides[key] };
   const releaseDate = themeReleaseDateOverrides[key] ?? theme.releaseDate;
   const versionLabel = themeVersionLabelOverrides[key] ?? theme.versionLabel;
@@ -5071,7 +5068,7 @@ function toTheme(seed: CuratedAnimeSeed, originalTheme: CuratedThemeSeed): Publi
   };
 }
 
-function animeOfficialSource(seed: CuratedAnimeSeed): { label: string; url: string } | undefined {
+function animeOfficialSource(seed: CuratedCatalogueSeed): { label: string; url: string } | undefined {
   if (seed.officialSiteUrl) {
     const hostname = new URL(seed.officialSiteUrl).hostname;
     if (hostname === "www.youtube.com" || hostname === "youtube.com") {
@@ -5082,7 +5079,7 @@ function animeOfficialSource(seed: CuratedAnimeSeed): { label: string; url: stri
     }
     return { label: "動畫官方網站：作品與播出資料", url: seed.officialSiteUrl };
   }
-  return animeOfficialSourceOverrides[seed.anilistId];
+  return animeOfficialSourceOverrides[getCuratedAnimeKey(seed)];
 }
 
 function referenceLanguage(url: string): PublicAnimeDetail["sources"][number]["language"] {
@@ -5093,8 +5090,15 @@ function referenceLanguage(url: string): PublicAnimeDetail["sources"][number]["l
   return "ja";
 }
 
-function buildSources(seed: CuratedAnimeSeed, verifiedAt: string): PublicAnimeDetail["sources"] {
+function buildSources(seed: CuratedCatalogueSeed, verifiedAt: string): PublicAnimeDetail["sources"] {
   const officialSource = animeOfficialSource(seed);
+  const identifierSource = seed.identifierSource ? {
+    label: seed.identifierSource.label,
+    url: seed.identifierSource.url,
+    language: seed.identifierSource.language
+  } : (seed.anilistUrl ? {
+    label: "AniList：作品識別與公開圖像", url: seed.anilistUrl, language: "en" as const
+  } : undefined);
   const candidates: PublicAnimeDetail["sources"] = [
     ...(officialSource ? [{
       ...officialSource,
@@ -5102,16 +5106,12 @@ function buildSources(seed: CuratedAnimeSeed, verifiedAt: string): PublicAnimeDe
       role: "first_party" as const,
       verifiedAt
     }] : []),
-    ...(animeSourceOverrides[seed.anilistId] ?? []).map((source) => ({ ...source, verifiedAt })),
-    {
-      ...(seed.identifierSource ?? {
-        label: "AniList：作品識別與公開圖像",
-        url: seed.anilistUrl,
-        language: "en" as const
-      }),
+    ...(animeSourceOverrides[getCuratedAnimeKey(seed)] ?? []).map((source) => ({ ...source, verifiedAt })),
+    ...(identifierSource ? [{
+      ...identifierSource,
       role: "identifier" as const,
       verifiedAt
-    },
+    }] : []),
     ...(seed.wikipediaUrl ? [{
       label: "繁體中文季度列表交叉對照",
       url: seed.wikipediaUrl,
@@ -5152,9 +5152,10 @@ function buildSources(seed: CuratedAnimeSeed, verifiedAt: string): PublicAnimeDe
   return [...unique.values()];
 }
 
-function toDetail(seed: CuratedAnimeSeed): PublicAnimeDetail {
-  const themeSeeds = [...seed.themes, ...(extraThemes[seed.anilistId] ?? [])]
-    .filter((theme) => !excludedThemeKeys.has(themeKey(seed.anilistId, theme)));
+export function buildCuratedAnimeDetail(seed: CuratedCatalogueSeed): PublicAnimeDetail {
+  const animeKey = getCuratedAnimeKey(seed);
+  const themeSeeds = [...seed.themes, ...(extraThemes[animeKey] ?? [])]
+    .filter((theme) => !excludedThemeKeys.has(getCuratedThemeKey(seed, theme)));
   const themes = themeSeeds
     .map((theme) => toTheme(seed, theme))
     .sort((left, right) =>
@@ -5165,7 +5166,7 @@ function toDetail(seed: CuratedAnimeSeed): PublicAnimeDetail {
   const hasOfficialVideo = themes.some((theme) =>
     theme.videos.length > 0 || theme.links.some((link) => link.platform === "YouTube")
   );
-  const animeVerifiedAt = animeVerifiedAtOverrides[seed.anilistId];
+  const animeVerifiedAt = animeVerifiedAtOverrides[animeKey];
   // A scoped song correction can preserve unchanged metadata and artwork review dates.
   const verifiedAt = seed.metadataVerifiedAt ?? [
     ...(animeVerifiedAt ? [animeVerifiedAt] : []),
@@ -5173,15 +5174,16 @@ function toDetail(seed: CuratedAnimeSeed): PublicAnimeDetail {
     ...themes.flatMap((theme) => theme.sources.map((source) => source.verifiedAt))
   ].sort((left, right) => right.localeCompare(left))[0]!;
   const officialSource = animeOfficialSource(seed);
-  const themeAvailability = themeAvailabilityOverrides[seed.anilistId]
+  const themeAvailability = themeAvailabilityOverrides[animeKey]
     ?? (themes.length > 0 ? "documented" : "not_announced");
 
+  const titleZhHant = chineseTitleOverrides[animeKey] ?? seed.titleZhHant;
   return {
     id: seed.id,
     slug: publicSlug(seed),
     titleJa: seed.titleJa,
-    titleZhHant: chineseTitleOverrides[seed.anilistId] ?? seed.titleZhHant,
-    titleRomaji: seed.titleRomaji,
+    ...(titleZhHant ? { titleZhHant } : {}),
+    ...(seed.titleRomaji ? { titleRomaji: seed.titleRomaji } : {}),
     ...(seed.posterUrl ? { posterUrl: seed.posterUrl } : {}),
     posterAlt: seed.posterUrl
       ? `《${seed.titleJa}》公開直式視覺`
@@ -5199,7 +5201,7 @@ function toDetail(seed: CuratedAnimeSeed): PublicAnimeDetail {
     edCount: themes.filter((theme) => theme.type === "ED").length,
     hasOfficialVideo,
     ...(officialSource ? { officialSiteUrl: canonicalHttpsUrl(officialSource.url) } : {}),
-    anilistUrl: seed.anilistUrl,
+    ...(seed.anilistUrl ? { anilistUrl: seed.anilistUrl } : {}),
     status: seed.status,
     reviewState: "reviewed",
     verifiedAt,
@@ -5233,16 +5235,16 @@ export const curatedSeasons: PublicSeasonSummary[] = curatedSeasonRegistry.map((
   titleJa
 }) => ({ id, year, quarter, titleZhHant, titleJa }));
 
-export const curatedAnimeDetails = curatedAnimeSeeds.map(toDetail);
+export const curatedAnimeDetails = curatedAnimeSeeds.map(buildCuratedAnimeDetail);
 
-const detailByAniListId = new Map(
-  curatedAnimeSeeds.map((seed, index) => [seed.anilistId, curatedAnimeDetails[index]!])
+const detailByKey = new Map(
+  curatedAnimeSeeds.map((seed, index) => [getCuratedAnimeKey(seed), curatedAnimeDetails[index]!])
 );
 
 function cardsForSeason(seasonId: keyof typeof curatedSeasonAnimeIds): PublicAnimeCard[] {
-  return curatedSeasonAnimeIds[seasonId].map((anilistId) => {
-    const detail = detailByAniListId.get(anilistId);
-    if (!detail) throw new Error(`Missing curated detail for AniList ${anilistId}`);
+  return curatedSeasonAnimeIds[seasonId].map((key) => {
+    const detail = detailByKey.get(key);
+    if (!detail) throw new Error(`Missing curated detail: ${key}`);
     return toCard(detail);
   });
 }
