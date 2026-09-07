@@ -4,14 +4,19 @@ type Summer2019SeedInput = Omit<
   CuratedAnimeSeed,
   | "id" | "seasonIds" | "editorialWeekday" | "status" | "anilistUrl"
   | "wikipediaUrl" | "sourceReferenceUrls" | "verifiedAt"
-> & Partial<Pick<CuratedAnimeSeed, "sourceReferenceUrls">>;
+> & Partial<Pick<CuratedAnimeSeed, "sourceReferenceUrls">> & {
+  localizedReferenceUrl?: string | null;
+};
 
 const summer2019ReferenceUrls = [
   "https://acgsecrets.hk/bangumi/201907/",
   "https://www.kansou.me/archive/2019_summer.html"
 ];
 
-function summer2019Seed(row: Summer2019SeedInput): CuratedAnimeSeed {
+function summer2019Seed({
+  localizedReferenceUrl = "https://youranimes.tw/bangumi/201907",
+  ...row
+}: Summer2019SeedInput): CuratedAnimeSeed {
   const weekday = new Date(`${row.startDate}T00:00:00Z`).getUTCDay();
   return {
     ...row,
@@ -20,7 +25,7 @@ function summer2019Seed(row: Summer2019SeedInput): CuratedAnimeSeed {
     editorialWeekday: weekday || 7,
     status: "finished",
     anilistUrl: `https://anilist.co/anime/${row.anilistId}`,
-    wikipediaUrl: "https://youranimes.tw/bangumi/201907",
+    ...(localizedReferenceUrl ? { wikipediaUrl: localizedReferenceUrl } : {}),
     sourceReferenceUrls: [...(row.sourceReferenceUrls ?? summer2019ReferenceUrls)],
     verifiedAt: "2026-09-07"
   };
@@ -2317,6 +2322,70 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
       language: "en"
     },
     broadcastLabel: "日本網絡首播／時間未整理",
+    themes: []
+  },
+  {
+    anilistId: 110124,
+    slug: "business-fish",
+    localizedReferenceUrl: "https://acgsecrets.hk/bangumi/201907/",
+    sourceReferenceUrls: ["https://prtimes.jp/main/html/rd/p/000000116.000023394.html"],
+    startDate: "2019-07-07",
+    titleJa: "ビジネスフィッシュ",
+    titleZhHant: "上班族魚先生",
+    titleRomaji: "Business Fish",
+    officialSiteUrl: "https://prtimes.jp/main/html/rd/p/000000013.000029274.html",
+    animeThemesUrl: "https://animethemes.moe/anime/business_fish",
+    identifierSource: {
+      label: "AnimeThemes：作品識別交叉連結",
+      url: "https://api.animethemes.moe/anime/business_fish?include=resources",
+      language: "en"
+    },
+    broadcastTimeJst: "24:00",
+    themes: [
+      {
+        type: "ED",
+        sequence: 1,
+        titleJa: "Don't Stop Moving",
+        artistDisplayName: "BUSINESS FISH",
+        releaseDate: "2019-07-08",
+        credits: []
+      }
+    ]
+  },
+  {
+    anilistId: 128738,
+    slug: "zannen-na-ikimono-jiten-2019",
+    sourceReferenceUrls: ["https://youranimes.tw/animes/2896"],
+    startDate: "2019-07-29",
+    titleJa: "ざんねんないきもの事典 (2019)",
+    titleZhHant: "殘念生物事典(3)",
+    titleRomaji: "Zannen na Ikimono Jiten (2019)",
+    officialSiteUrl: "https://kyodonewsprwire.jp/release/201906197698",
+    identifierSource: {
+      label: "AniList：2019 年夏季作品識別公開頁",
+      url: "https://anilist.co/anime/128738/Zannen-na-Ikimono-Jiten-2019/",
+      language: "en"
+    },
+    broadcastTimeJst: "09:30",
+    broadcastLabel: "平日 09:30（日本；7/29～8/7）",
+    themes: []
+  },
+  {
+    anilistId: 110317,
+    slug: "odoru-mowai-kun",
+    localizedReferenceUrl: null,
+    sourceReferenceUrls: ["https://prtimes.jp/main/html/rd/p/000000089.000002610.html"],
+    startDate: "2019-07-02",
+    titleJa: "おどるモワイくん",
+    titleZhHant: "おどるモワイくん",
+    titleRomaji: "Odoru Mowai-kun",
+    officialSiteUrl: "https://www.shopro.co.jp/tv/mowai-kun/",
+    identifierSource: {
+      label: "AniList：作品識別公開頁",
+      url: "https://anilist.co/anime/110317/odoru-mowaikun",
+      language: "en"
+    },
+    broadcastLabel: "《おはスタ》星期二 07:05 節目內（日本）",
     themes: []
   }
 ];

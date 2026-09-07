@@ -33,7 +33,7 @@ export interface CuratedAnimeSeed {
   imageSourceUrl?: string;
   imageSourceLabel?: string;
   identifierSource?: Pick<PublicAnimeDetail["sources"][number], "label" | "url" | "language">;
-  wikipediaUrl: string;
+  wikipediaUrl?: string;
   sourceReferenceUrls: string[];
   animeThemesUrl?: string;
   uzureaUrl?: string;

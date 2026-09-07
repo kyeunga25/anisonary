@@ -4865,13 +4865,13 @@ function buildSources(seed: CuratedAnimeSeed, verifiedAt: string): PublicAnimeDe
       role: "identifier" as const,
       verifiedAt
     },
-    {
+    ...(seed.wikipediaUrl ? [{
       label: "繁體中文季度列表交叉對照",
       url: seed.wikipediaUrl,
       language: "zh-Hant" as const,
       role: "localized_cross_check" as const,
       verifiedAt
-    },
+    }] : []),
     ...(seed.animeThemesUrl ? [{
       label: "AnimeThemes：OP／ED 曲目交叉核對",
       url: seed.animeThemesUrl,
