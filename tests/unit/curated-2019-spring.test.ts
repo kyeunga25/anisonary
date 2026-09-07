@@ -10,6 +10,66 @@ const spring = curatedSeasonDetails.find(({ id }) => id === "2019-spring")!;
 const anime = (id: number) => curatedAnimeDetails.find((item) => item.id === `curated-${id}`)!;
 
 describe("2019 spring reviewed TV catalogue", () => {
+  it("keeps the school-music premieres and existing sequel pages separate", () => {
+    for (const [id, date, weekday, time] of [
+      [105334, "2019-04-05", 5, "25:23"],
+      [103302, "2019-04-06", 6, "25:00"],
+      [103555, "2019-04-06", 6, "17:30"]
+    ] as const) {
+      expect(curated2019SpringSeeds.find(({ anilistId }) => anilistId === id)?.startDate).toBe(date);
+      expect(anime(id)).toMatchObject({ editorialWeekday: weekday, broadcastTimeJst: time });
+    }
+    expect(anime(108891).themes.map(({ titleJa }) => titleJa)).toEqual(["Harmony", "Rainbow"]);
+    expect(anime(111762).slug).toBe("fruits-basket-2nd-season");
+    expect(spring.anime.some(({ id }) => id === "curated-108891" || id === "curated-111762")).toBe(false);
+  });
+
+  it("retains Fruits Basket's corrected digital dates and distinct video editions without adding an English opening", () => {
+    const fruits = anime(105334);
+    expect(fruits.themes.map(({ type, sequence, titleJa, releaseDate }) => [type, sequence, titleJa, releaseDate])).toEqual([
+      ["OP", 1, "Again", "2019-04-12"], ["OP", 2, "Chime", "2019-07-05"],
+      ["ED", 1, "Lucky Ending", "2019-04-10"], ["ED", 2, "One Step Closer", "2019-07-19"]
+    ]);
+    expect(fruits.themes[1]?.versionLabel).toContain("CD 於 2019-09-04 發行");
+    expect(fruits.themes[0]?.versionLabel).toContain("日文原版");
+    expect(fruits.themes[3]?.videos.map(({ youtubeVideoId, type }) => [youtubeVideoId, type]))
+      .toEqual([["YMMAqoQ9bEY", "other"], ["YZg8DYDR_8g", "full_music_video"]]);
+    expect(fruits.themes[3]?.credits).toEqual([
+      { name: "Nicole Morier", role: "songwriting" },
+      { name: "Drew Erickson", role: "songwriting" },
+      { name: "William Aoyama", role: "songwriting" }
+    ]);
+    expect(fruits.themes[0]?.videos[0]?.type).toBe("other");
+    expect(fruits.themes[1]?.videos[0]?.type).toBe("other");
+  });
+
+  it("preserves Speechless's co-composers and co-arrangers and searches the spring ending", async () => {
+    const sound = anime(103302);
+    expect(sound.themes.map(({ titleJa }) => titleJa)).toEqual(["Tone", "Speechless"]);
+    expect(sound.themes[0]?.credits).toContainEqual({ name: "園田健太郎", role: "composition" });
+    expect(sound.themes[1]?.credits.filter(({ role }) => role === "composition").map(({ name }) => name))
+      .toEqual(["前迫潤哉", "工藤政人"]);
+    expect(sound.themes[1]?.credits.filter(({ role }) => role === "arrangement").map(({ name }) => name))
+      .toEqual(["工藤政人", "早川博隆"]);
+    const data = await loadCatalogSearchData(new CuratedProvider(), true);
+    const index = buildCatalogSearchIndex(data.entries);
+    const results = searchCatalog(index, { query: "工藤政人", scope: "creators", year: "2019", quarter: "spring", type: "ED" });
+    expect(results.map(({ anime: item }) => item.slug)).toEqual(["kono-oto-tomare"]);
+    expect(results[0]?.themes.map(({ titleJa }) => titleJa)).toEqual(["Speechless"]);
+  });
+
+  it("keeps MIX's four 2019 themes, sole lyricist and TV-size release annotation", () => {
+    const mix = anime(103555);
+    expect(mix.themes.map(({ titleJa }) => titleJa)).toEqual(["イコール", "VS", "君に届くまで", "君に伝えたストーリー"]);
+    expect(mix.themes[1]?.credits.filter(({ role }) => role === "arrangement").map(({ name }) => name))
+      .toEqual(["近藤隆史", "田中ユウスケ", "Porno Graffitti"]);
+    expect(mix.themes[2]?.credits).toContainEqual({ name: "水野良樹", role: "composition" });
+    expect(mix.themes[3]?.credits).toEqual([{ name: "中園勇樹", role: "vocals" }, { name: "中園勇樹", role: "lyrics" }]);
+    expect(mix.themes[3]?.versionLabel).toContain("2019-07-13");
+    expect(mix.themes[3]?.versionLabel).toContain("TV Size");
+    expect(mix.themes[0]?.credits).toEqual([]);
+  });
+
   it("keeps music and adventure premieres on their original editorial day and uses the licensed Chinese name", () => {
     for (const [id, date, weekday, time] of [
       [101281, "2019-04-10", 3, "24:55"],
@@ -71,9 +131,9 @@ describe("2019 spring reviewed TV catalogue", () => {
   });
 
   it("publishes a partial quarter with reviewed identity and song evidence, without unverified artwork", () => {
-    expect(spring.anime).toHaveLength(17);
+    expect(spring.anime).toHaveLength(20);
     expect(spring.coverageNote).toContain("跨季延續及特殊歌曲版本仍待核對");
-    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(38);
+    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(48);
     expect(curatedSeasonDetails.some(({ id }) => id === "2025-fall")).toBe(false);
     for (const seed of curated2019SpringSeeds) {
       expect(seed.seasonIds).toEqual(["2019-spring"]);

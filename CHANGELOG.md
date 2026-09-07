@@ -2,6 +2,15 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.37.0] - 2026-09-07
+
+### Added
+
+- three reviewed spring 2019 TV titles: Fruits Basket's 2019 first season, Kono Oto Tomare! and MIX, with ten OP／ED records and six official video metadata records;
+- corrected original digital release dates, separate later CD dates, first-season cour themes, Speechless's co-composers and co-arrangers, and explicit shared songwriting credits for One Step Closer;
+- distinct official previews and the full artist music video, with first-party and cross-check sources reviewed on 2026-09-07; English re-recordings, sequel songs and unverified credits are not substituted for the original themes;
+- the partial spring snapshot now contains twenty works and forty-eight songs; the catalogue contains 29 snapshots, 1,937 unique works, 4,277 OP／ED records and 1,781 official or licensed video metadata records.
+
 ## [1.36.0] - 2026-09-07
 
 ### Added

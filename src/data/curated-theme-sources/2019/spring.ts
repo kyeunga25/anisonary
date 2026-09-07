@@ -2,6 +2,28 @@ import { curated2019SpringSeeds } from "@/data/curated-seeds/2019/spring";
 import type { CuratedThemeSourceOverrideMap, CuratedThemeSourceSeed } from "@/data/curated-theme-sources/types";
 
 const firstPartyUrlsByTheme: Readonly<Record<string, readonly string[]>> = {
+  "105334:OP:1": [
+    "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1016480&season=1",
+    "https://avex.jp/beverly/discography/detail.php?id=1016478"
+  ],
+  "105334:OP:2": ["https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1016918&season=1"],
+  "105334:ED:1": ["https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1016504&season=1"],
+  "105334:ED:2": [
+    "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1016919&season=1",
+    "https://www.youtube.com/watch?v=YZg8DYDR_8g"
+  ],
+  "103302:OP:1": ["https://www.shouta-aoi.jp/news/?id=345", "https://www.shouta-aoi.jp/news/?id=372"],
+  "103302:ED:1": ["https://www.uchidayuma.com/information/?id=105", "https://www.uchidayuma.com/information/?id=128"],
+  "103555:OP:1": ["https://www.sonymusic.co.jp/artist/sumika/discography/buy/SRCL-11197"],
+  "103555:OP:2": ["https://www.sonymusic.co.jp/artist/PornoGraffitti/discography/buy/SECL-2462"],
+  "103555:ED:1": [
+    "https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/504687",
+    "https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/506025"
+  ],
+  "103555:ED:2": [
+    "https://www.sonymusic.co.jp/artist/Qyoto/info/507594",
+    "https://www.sonymusic.co.jp/artist/Qyoto/info/508972"
+  ],
   "101281:OP:1": ["https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026453/VTCL-35302.html"],
   "101281:OP:2": [
     "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026453/VTCL-35307.html",
@@ -109,6 +131,22 @@ const firstPartyUrlsByTheme: Readonly<Record<string, readonly string[]>> = {
 };
 
 const sourceLabelsByUrl: Readonly<Record<string, string>> = {
+  "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1016480&season=1": "動畫官方：第一季前半 OP、演唱者與數位配信日",
+  "https://avex.jp/beverly/discography/detail.php?id=1016478": "Beverly 官方：原版 OP、更正後配信日與官方影片",
+  "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1016918&season=1": "動畫官方：第一季後半 OP、數位與 CD 日期及影片版本",
+  "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1016504&season=1": "動畫官方：第一季前半 ED、演唱者與配信日期",
+  "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1016919&season=1": "動畫官方：第一季後半 ED、配信日及動畫與藝人 MV",
+  "https://www.youtube.com/watch?v=YZg8DYDR_8g": "INTERSECTION 官方影片：共同 Written by 署名",
+  "https://www.shouta-aoi.jp/news/?id=345": "蒼井翔太官方：春季 OP、詞曲、編曲與單曲日期",
+  "https://www.shouta-aoi.jp/news/?id=372": "蒼井翔太官方：OP 短版試聽影片來源",
+  "https://www.uchidayuma.com/information/?id=105": "内田雄馬官方：春季 ED、共同作曲與編曲署名及單曲日期",
+  "https://www.uchidayuma.com/information/?id=128": "内田雄馬官方：Speechless 短版 MV 來源",
+  "https://www.sonymusic.co.jp/artist/sumika/discography/buy/SRCL-11197": "Sony Music 官方：MIX 第一首 OP 與原始單曲日期",
+  "https://www.sonymusic.co.jp/artist/PornoGraffitti/discography/buy/SECL-2462": "Sony Music 官方：MIX 七月 OP、詞曲與共同編曲署名",
+  "https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/504687": "Sony Music 官方：MIX 第一首 ED、作詞與作曲者",
+  "https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/506025": "Sony Music 官方：ED 單曲日期與動畫盤 TV Size",
+  "https://www.sonymusic.co.jp/artist/Qyoto/info/507594": "Sony Music 官方：新 ED 起用日期、單曲與 TV Size 收錄",
+  "https://www.sonymusic.co.jp/artist/Qyoto/info/508972": "Qyoto 官方訪談：此 ED 的演唱與獨立作詞署名",
   "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026453/VTCL-35302.html": "FlyingDog 官方：前半 OP／ED、歌唱者、製作署名與 TV size 收錄",
   "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026453/VTCL-35307.html": "FlyingDog 官方：新 OP／ED、製作署名與 TV size 收錄",
   "https://www.fujitv.co.jp/b_hp/caroleandtuesday/": "富士電視台：後半 OP／ED 與獨立歌唱聲音",
