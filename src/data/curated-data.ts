@@ -4610,6 +4610,17 @@ const animeOfficialSourceOverrides: Record<string, { label: string; url: string 
 };
 
 const animeSourceOverrides: Record<string, AnimeSourceSeed[]> = {
+  "catalog-ultraman-2019": [{
+    label: "Netflix 繁中公告：作品名稱與 2019 年 4 月上線日期",
+    url: "https://about.netflix.com/zh_tw/news/anime-production-line-deal",
+    language: "zh-Hant",
+    role: "first_party"
+  }, {
+    label: "円谷製作：Netflix 第 1 季、13 話範圍與後續季度識別；歌曲用途另待核對",
+    url: "https://tsuburaya-prod.com/news/4883",
+    language: "en",
+    role: "first_party"
+  }],
   "catalog-aikatsu-friends-2-2019": [{
     label: "BANDAI：2019 年 TV 第二季的正式日文名稱與遊戲版本分界",
     url: "https://bandai-a.akamaihd.net/corp/press/100000741765491.pdf",

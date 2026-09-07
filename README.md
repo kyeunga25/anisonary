@@ -2,9 +2,9 @@
 
 Anisonary 是以 Astro + strict TypeScript 建立的動畫歌曲目錄，按季度與日本編輯播出日瀏覽作品、OP 與 ED。網站輸出為純靜態資產，正式交付使用 **Cloudflare Workers Static Assets**；它不是 Cloudflare Pages，也沒有 application Worker backend。下方同時保留 English technical notes。
 
-This repository contains the completed static product: season directory, anime detail pages, traceable OP／ED credits and links, per-song source ledgers, source-attributed media, local-only cross-season search, privacy-bounded offline reading, a GitHub correction flow, and deployment through Cloudflare Workers Static Assets. The default catalogue covers twenty-nine reviewed snapshots across 2019–2026, with 1,954 unique titles and 4,344 known OP／ED records. The 2019 spring snapshot contains thirty-seven TV titles, including television shorts and a TV recut; summer contains 38 TV titles and four web series. Both quarters are still being expanded, and 2025 fall is not yet included. Fictional Mock Data remains test-only.
+This repository contains the completed static product: season directory, anime detail pages, traceable OP／ED credits and links, per-song source ledgers, source-attributed media, local-only cross-season search, privacy-bounded offline reading, a GitHub correction flow, and deployment through Cloudflare Workers Static Assets. The default catalogue covers twenty-nine reviewed snapshots across 2019–2026, with 1,955 unique titles and 4,344 known OP／ED records. The 2019 spring snapshot contains thirty-seven TV titles, including television shorts and a TV recut, plus one web series; summer contains 38 TV titles and four web series. Both quarters are still being expanded, and 2025 fall is not yet included. Fictional Mock Data remains test-only.
 
-目前 source 版本：**v1.53.0**。新增 2019 春季《偶像學園Friends！ 第二季》的四人合唱 OP 與一般 ED，保留共同詞曲編曲，分清雙人改編、舊季度歌曲與未核對特殊片尾。目錄共有 29 個季度、1,954 套作品與 4,344 筆 OP／ED；春季為 37 套作品、115 筆歌曲，春、夏季仍在補充，2025 秋季尚未收錄。
+目前 source 版本：**v1.54.0**。新增 2019 春季《ULTRAMAN》Netflix 第一季的作品識別與上線資料；歌曲用途仍待核對，不混入 2020 電視版或後續季度歌曲。目錄共有 29 個季度、1,955 套作品與 4,344 筆 OP／ED；春季為 38 套作品、115 筆歌曲，春、夏季仍在補充，2025 秋季尚未收錄。
 
 導覽延續固定五個入口與年代、年份、季度目錄；搜尋可按動畫、歌曲、創作者、年份、季度及 OP／ED 篩選，每頁顯示 12 套作品。搜尋完全在瀏覽器內進行，YouTube 只於明確操作後連線。網站與同源靜態 JSON API 共用已審閱資料，無 application backend 或 database binding。依賴安全 gate 繼續鎖定 `fast-uri` 3.1.6 並稽核開發依賴。
 
