@@ -1,4 +1,5 @@
 import type { PublicAnimeDetail, PublicSeasonDetail, PublicSeasonSummary } from "@/types/public-api";
+import { getAnimeTitleAliases } from "@/utils/anime-titles";
 
 export type JsonLd = Record<string, unknown>;
 
@@ -48,7 +49,7 @@ export function buildSeasonJsonLd(season: PublicSeasonDetail, site: URL | string
         item: {
           "@type": "TVSeries",
           name: anime.titleJa,
-          alternateName: [anime.titleZhHant, anime.titleRomaji].filter(Boolean),
+          alternateName: getAnimeTitleAliases(anime).map(({ value }) => value),
           url: absoluteUrl(`/anime/${anime.slug}/`, site)
         }
       }))
@@ -72,7 +73,7 @@ export function buildAnimeJsonLd(
     "@id": `${url}#tvseries`,
     url,
     name: anime.titleJa,
-    alternateName: [anime.titleZhHant, anime.titleRomaji].filter(Boolean),
+    alternateName: getAnimeTitleAliases(anime).map(({ value }) => value),
     image: anime.posterUrl ? absoluteUrl(anime.posterUrl, site) : undefined,
     sameAs: sameAs.length > 0 ? sameAs : undefined,
     inLanguage: ["ja", "zh-Hant"],
