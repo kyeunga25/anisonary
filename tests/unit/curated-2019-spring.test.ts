@@ -11,9 +11,9 @@ const anime = (id: number) => curatedAnimeDetails.find((item) => item.id === `cu
 
 describe("2019 spring reviewed TV catalogue", () => {
   it("publishes a partial quarter with reviewed identity and song evidence, without unverified artwork", () => {
-    expect(spring.anime).toHaveLength(11);
+    expect(spring.anime).toHaveLength(14);
     expect(spring.coverageNote).toContain("跨季延續及特殊歌曲版本仍待核對");
-    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(24);
+    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(30);
     expect(curatedSeasonDetails.some(({ id }) => id === "2025-fall")).toBe(false);
     for (const seed of curated2019SpringSeeds) {
       expect(seed.seasonIds).toEqual(["2019-spring"]);
@@ -229,5 +229,76 @@ describe("2019 spring reviewed TV catalogue", () => {
     expect(anime(100112).themes[0]?.videos[0]).toMatchObject({ youtubeVideoId: "3PblQhyRoF4", type: "other" });
     expect(anime(101597).themes[0]?.videos[0]).toMatchObject({ youtubeVideoId: "361yH_xuBfg", type: "other" });
     expect(anime(101814).themes[1]?.videos[0]).toMatchObject({ youtubeVideoId: "wZ3Fe1JeecE", type: "other" });
+  });
+
+  it("keeps late-night supernatural TV series on the original spring editorial date", () => {
+    for (const [id, date, day, time] of [
+      [101261, "2019-04-11", 4, "24:55"],
+      [102939, "2019-04-07", 7, "24:30"],
+      [107418, "2019-04-07", 7, "24:00"]
+    ] as const) {
+      expect(curated2019SpringSeeds.find(({ anilistId }) => anilistId === id)?.startDate).toBe(date);
+      expect(anime(id)).toMatchObject({ editorialWeekday: day, broadcastTimeJst: time });
+      expect(spring.anime.some((item) => item.id === `curated-${id}`)).toBe(true);
+    }
+    expect(anime(107418).sources).toContainEqual(expect.objectContaining({
+      url: "https://www.youtube.com/watch?v=B8BAqO-p9LU", role: "first_party"
+    }));
+    expect(anime(109562).slug).toBe("fairy-gone-2");
+    expect(spring.anime.some((item) => item.id === "curated-109562")).toBe(false);
+    expect(anime(101261).sources.some(({ url }) => url === "https://youranimes.tw/bangumi/201904")).toBe(false);
+  });
+
+  it("preserves Midnight's co-writers and separately named TV edits without creating additional theme songs", async () => {
+    const midnight = anime(102939);
+    expect(midnight.themes.map(({ type, sequence, titleJa }) => [type, sequence, titleJa])).toEqual([
+      ["OP", 1, "dis-communicate"], ["ED", 1, "約束のOverture"]
+    ]);
+    expect(midnight.themes[0]?.credits.filter(({ role }) => role === "lyrics").map(({ name }) => name))
+      .toEqual(["福山 潤", "松井洋平"]);
+    expect(midnight.themes[0]?.credits).toContainEqual({ name: "eba", role: "arrangement" });
+    expect(midnight.themes[1]?.credits).toContainEqual({ name: "高木龍一", role: "composition" });
+    for (const theme of midnight.themes) {
+      expect(theme.versionLabel).toBe(`動畫盤另收錄 ${theme.titleJa} TV edit`);
+      expect(theme.videos[0]?.type).toBe("other");
+    }
+    expect(midnight.themes.map(({ releaseDate }) => releaseDate)).toEqual(["2019-04-24", "2019-05-15"]);
+    const provider = new ApiProvider("https://anisonary.k-y.cc/api/v1", {
+      fetch: vi.fn<typeof fetch>().mockResolvedValue(new Response(JSON.stringify(midnight), {
+        headers: { "Content-Type": "application/json" }
+      }))
+    });
+    expect(await provider.getAnime(midnight.slug)).toEqual(midnight);
+  });
+
+  it("retains Sarazanmai's opening credits without promoting its dramatic songs or visual variants to new themes", () => {
+    const sarazanmai = anime(101261);
+    expect(sarazanmai.themes.map(({ titleJa }) => titleJa)).toEqual(["まっさら", "スタンドバイミー"]);
+    expect(sarazanmai.themes[0]?.credits).toEqual([
+      { name: "谷口鮪", role: "vocals" }, { name: "谷口鮪", role: "lyrics" },
+      { name: "谷口鮪", role: "composition" }, { name: "KANA-BOON", role: "arrangement" }
+    ]);
+    expect(sarazanmai.themes[1]?.credits.filter(({ role }) => role === "vocals"))
+      .toEqual([{ name: "北澤ゆうほ", role: "vocals" }]);
+    expect(sarazanmai.themes.map(({ releaseDate }) => releaseDate)).toEqual(["2019-06-12", "2019-05-29"]);
+    expect(sarazanmai.themes[0]?.videos[0]).toMatchObject({ youtubeVideoId: "KBhUW6PpwMY", type: "other" });
+  });
+
+  it("separates Fairy gone's first cour and creator search from autumn and from the group's general member roster", async () => {
+    const fairy = anime(107418);
+    expect(fairy.themes.map(({ titleJa }) => titleJa)).toEqual(["KNOCK on the CORE", "Ash-like Snow"]);
+    expect(anime(109562).themes.map(({ titleJa }) => titleJa)).toEqual(["STILL STANDING", "Stay Gold"]);
+    for (const theme of fairy.themes) {
+      expect(theme.credits).toEqual([]);
+      expect(theme.releaseDate).toBe("2019-04-24");
+      expect(theme.versionLabel).toBe("TV Size 另行配信；單曲版：2019-04-24");
+    }
+    expect(fairy.themes.flatMap(({ videos }) => videos).map(({ type }) => type)).toEqual(["other", "creditless_ed"]);
+    const index = buildCatalogSearchIndex((await loadCatalogSearchData(new CuratedProvider(), true)).entries);
+    const filters = { query: "松井洋平", scope: "creators", year: "2019", quarter: "spring", type: "OP" } as const;
+    expect(searchCatalog(index, filters).map(({ anime: item }) => item.slug)).toEqual(["mayonaka-no-occult-koumuin"]);
+    const fairyResults = searchCatalog(index, { ...filters, query: "(K)NoW_NAME", type: "ED" });
+    expect(fairyResults.map(({ anime: item }) => item.slug)).toEqual(["fairy-gone"]);
+    expect(fairyResults[0]?.themes.map(({ titleJa }) => titleJa)).toEqual(["Ash-like Snow"]);
   });
 });

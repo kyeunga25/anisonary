@@ -2,9 +2,9 @@
 
 Anisonary 是以 Astro + strict TypeScript 建立的動畫歌曲目錄，按季度與日本編輯播出日瀏覽作品、OP 與 ED。網站輸出為純靜態資產，正式交付使用 **Cloudflare Workers Static Assets**；它不是 Cloudflare Pages，也沒有 application Worker backend。下方同時保留 English technical notes。
 
-This repository contains the completed static product: season directory, anime detail pages, traceable OP／ED credits and links, per-song source ledgers, source-attributed media, local-only cross-season search, privacy-bounded offline reading, a GitHub correction flow, and deployment through Cloudflare Workers Static Assets. The default catalogue covers twenty-nine reviewed snapshots across 2019–2026, with 1,928 unique titles and 4,253 known OP／ED records. The 2019 spring snapshot contains eleven TV titles; summer contains 38 TV titles and four web series. Both quarters are still being expanded, and 2025 fall is not yet included. Fictional Mock Data remains test-only.
+This repository contains the completed static product: season directory, anime detail pages, traceable OP／ED credits and links, per-song source ledgers, source-attributed media, local-only cross-season search, privacy-bounded offline reading, a GitHub correction flow, and deployment through Cloudflare Workers Static Assets. The default catalogue covers twenty-nine reviewed snapshots across 2019–2026, with 1,931 unique titles and 4,259 known OP／ED records. The 2019 spring snapshot contains fourteen TV titles; summer contains 38 TV titles and four web series. Both quarters are still being expanded, and 2025 fall is not yet included. Fictional Mock Data remains test-only.
 
-目前 source 版本：**v1.34.1**。每段官方影片在載入按鈕前顯示已審閱標題，讓讀者辨認 Short Ver.、2chorus 等版本；長標題可完整換行，載入播放器後仍保留。目錄維持 29 個季度、1,928 套作品與 4,253 筆 OP／ED；2019 春季為 11 套作品、24 筆歌曲，春、夏季仍在補充，2025 秋季尚未收錄。
+目前 source 版本：**v1.35.0**。2019 春季加入《皿三昧》、《深夜的超自然公務員》及《Fairy gone》第一季，新增 6 筆 OP／ED 與 6 筆官方影片 metadata；保留共同作詞者、TV edit、單曲發行及不同季度的歌曲區分。目錄共有 29 個季度、1,931 套作品與 4,259 筆 OP／ED；春季為 14 套作品、30 筆歌曲，春、夏季仍在補充，2025 秋季尚未收錄。
 
 導覽延續固定五個入口與年代、年份、季度目錄；搜尋可按動畫、歌曲、創作者、年份、季度及 OP／ED 篩選，每頁顯示 12 套作品。搜尋完全在瀏覽器內進行，YouTube 只於明確操作後連線。網站與同源靜態 JSON API 共用已審閱資料，無 application backend 或 database binding。依賴安全 gate 繼續鎖定 `fast-uri` 3.1.6 並稽核開發依賴。
 
@@ -12,7 +12,7 @@ Production build 會從最終 HTML 自動產生 hash-based Content Security Poli
 
 | 可用性 / Availability                  | 成熟度 / Maturity                       | 證據 / Evidence                                                                                                                                                                                                                                                     |
 | -------------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 公開靜態目錄 / Public static catalogue | Source 版本為 `v1.34.1`；正式發布狀態以對應 Release 驗收摘要為準 | [入口網站 / Live](https://anisonary.k-y.cc) · [版本與驗收 / Releases](https://github.com/kyeunga25/anisonary/releases) · [資料來源 / Sources](docs/DATA_SOURCES.md) · [安全政策 / Security](SECURITY.md) · [授權 / Licence](LICENSING.md) · [版權 / Copyright](COPYRIGHT.md) |
+| 公開靜態目錄 / Public static catalogue | Source 版本為 `v1.35.0`；正式發布狀態以對應 Release 驗收摘要為準 | [入口網站 / Live](https://anisonary.k-y.cc) · [版本與驗收 / Releases](https://github.com/kyeunga25/anisonary/releases) · [資料來源 / Sources](docs/DATA_SOURCES.md) · [安全政策 / Security](SECURITY.md) · [授權 / Licence](LICENSING.md) · [版權 / Copyright](COPYRIGHT.md) |
 
 ## 技術棧｜Technology stack
 

@@ -2,6 +2,15 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.35.0] - 2026-09-07
+
+### Added
+
+- three reviewed spring 2019 TV titles: Sarazanmai, Midnight Occult Civil Servants and the first cour of Fairy gone, with six OP／ED records and six official video metadata records;
+- the original late-night editorial dates, Sarazanmai's opening production credits, Midnight's co-writers and separately named TV edits, and Fairy gone's first-cour songs without changing its existing autumn page;
+- the partial spring snapshot now contains fourteen works and thirty songs; the catalogue contains 29 snapshots, 1,931 unique works, 4,259 OP／ED records and 1,774 official or licensed video metadata records;
+- per-song first-party and cross-check references reviewed on 2026-09-07; unconfirmed individual credits remain unset, and group member lists are not treated as song-specific vocal credits.
+
 ## [1.34.1] - 2026-09-07
 
 ### Fixed

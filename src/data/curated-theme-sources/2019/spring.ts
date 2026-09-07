@@ -2,6 +2,34 @@ import { curated2019SpringSeeds } from "@/data/curated-seeds/2019/spring";
 import type { CuratedThemeSourceOverrideMap, CuratedThemeSourceSeed } from "@/data/curated-theme-sources/types";
 
 const firstPartyUrlsByTheme: Readonly<Record<string, readonly string[]>> = {
+  "101261:OP:1": [
+    "https://sarazanmai.com/music/",
+    "https://www.youtube.com/watch?v=KBhUW6PpwMY",
+    "https://sp.kanaboon.jp/discography/detail/30/"
+  ],
+  "101261:ED:1": [
+    "https://sarazanmai.com/music/",
+    "https://thepeggies.jp/2021/",
+    "https://www.youtube.com/watch?v=x6zyKrHv12k"
+  ],
+  "102939:OP:1": [
+    "https://occultkoumuin.com/music.html",
+    "https://fukuyamajun-music.com/discography05.html"
+  ],
+  "102939:ED:1": [
+    "https://occultkoumuin.com/music_ed.html",
+    "https://tokishunichi.com/discography01.html"
+  ],
+  "107418:OP:1": [
+    "https://www.pa-works.jp/works/fairy-gone/",
+    "https://www.fairygone.com/sp/music/",
+    "https://www.fairygone.com/sp/news/news_0407_01.html"
+  ],
+  "107418:ED:1": [
+    "https://www.pa-works.jp/works/fairy-gone/",
+    "https://www.fairygone.com/sp/music/",
+    "https://www.fairygone.com/sp/news/news_0407_01.html"
+  ],
   "100112:OP:1": [
     "https://kenja-no-mago.jp/products/",
     "https://iris.dive2ent.com/discography/detail.php?id=1016413",
@@ -67,6 +95,16 @@ const firstPartyUrlsByTheme: Readonly<Record<string, readonly string[]>> = {
 };
 
 const sourceLabelsByUrl: Readonly<Record<string, string>> = {
+  "https://sarazanmai.com/music/": "動畫官方：OP／ED、發行日期及演唱者",
+  "https://www.youtube.com/watch?v=KBhUW6PpwMY": "MAPPA 官方：OP 映像與作詞、作曲、編曲署名",
+  "https://sp.kanaboon.jp/discography/detail/30/": "KANA-BOON 官方：OP 單曲與發行日期",
+  "https://thepeggies.jp/2021/": "the peggies 官方：ED 歌詞創作訪談",
+  "https://www.youtube.com/watch?v=x6zyKrHv12k": "Sony Music Japan：官方 ED 影片與單曲資料",
+  "https://fukuyamajun-music.com/discography05.html": "福山潤官方：OP 製作資料、TV edit 與短版影片",
+  "https://tokishunichi.com/discography01.html": "土岐隼一官方：ED 製作資料、TV edit 與官方影片",
+  "https://www.pa-works.jp/works/fairy-gone/": "P.A.WORKS 官方：第一季 OP／ED 用途與藝人",
+  "https://www.fairygone.com/sp/music/": "動畫官方：第一季 OP／ED 單曲發行資料",
+  "https://www.fairygone.com/sp/news/news_0407_01.html": "動畫官方：第一季 OP／ED 映像與 TV Size 配信公告",
   "https://iris.dive2ent.com/discography/detail.php?id=1016413": "i☆Ris 官方：OP 單曲與發行日期",
   "https://iris.dive2ent.com/discography/detail.php?id=1017265": "i☆Ris 官方：OP 收錄與製作署名核對",
   "https://avex.jp/yoshinanami/discography/detail.php?id=1016506": "avex 官方：ED 歌曲、發行日期與製作資料",

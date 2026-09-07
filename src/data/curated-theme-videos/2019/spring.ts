@@ -1,6 +1,54 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2019SpringThemeVideos = {
+  "101261:OP:1": [{
+    youtubeVideoId: "KBhUW6PpwMY",
+    title: "TVアニメ『さらざんまい』オープニングムービー │「まっさら」KANA-BOON",
+    type: "other",
+    channelName: "MAPPA CHANNEL",
+    officialStatus: "official",
+    embeddable: true
+  }],
+  "101261:ED:1": [{
+    youtubeVideoId: "x6zyKrHv12k",
+    title: "スタンドバイミー",
+    type: "other",
+    channelName: "Sony Music (Japan)",
+    officialStatus: "official",
+    embeddable: true
+  }],
+  "102939:OP:1": [{
+    youtubeVideoId: "sta4kFzyLDI",
+    title: "【福山潤】3rd single「dis-communicate」MV short ver.",
+    type: "other",
+    channelName: "ぽにきゃん-Anime PONY CANYON",
+    officialStatus: "official",
+    embeddable: true
+  }],
+  "102939:ED:1": [{
+    youtubeVideoId: "ij4l4RR-H4c",
+    title: "【土岐 隼一】5月15日(水)発売デビューシングル「約束のOverture」【コメントつき】",
+    type: "other",
+    channelName: "ぽにきゃん-Anime PONY CANYON",
+    officialStatus: "official",
+    embeddable: true
+  }],
+  "107418:OP:1": [{
+    youtubeVideoId: "B8BAqO-p9LU",
+    title: "TVアニメ『Fairy gone フェアリーゴーン』オープニング映像 　(K)NoW_NAME「KNOCK on the CORE」",
+    type: "other",
+    channelName: "TOHO animation チャンネル",
+    officialStatus: "official",
+    embeddable: true
+  }],
+  "107418:ED:1": [{
+    youtubeVideoId: "ee855kKPujc",
+    title: "TVアニメ『Fairy gone フェアリーゴーン』ノンクレジットエンディング映像　(K)NoW_NAME「Ash-like Snow」",
+    type: "creditless_ed",
+    channelName: "TOHO animation チャンネル",
+    officialStatus: "official",
+    embeddable: true
+  }],
   "100112:OP:1": [{
     youtubeVideoId: "3PblQhyRoF4",
     title: "i☆Ris /  「アルティメット☆MAGIC」-Music Video-(Short Ver.)",
