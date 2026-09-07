@@ -1170,14 +1170,18 @@ test("spring character search reaches the episode-six ensemble and preserves the
     const ending = page.locator("#theme-hitoribocchi-no-marumaru-seikatsu-ed-2");
     await expect(ending).toBeInViewport({ ratio: 0.3 });
     await expect(ending).toContainText("第6話片尾");
-    await expect(ending.locator(".theme-card__credits dt").filter({ hasText: /^演唱$/ })).toHaveCount(4);
+    await expect(ending.locator(".theme-card__credits dt").filter({ hasText: /^演唱$/ })).toHaveCount(1);
+    await expect(ending.locator(".theme-card__credits div").filter({ hasText: /^演唱/ }).locator("dd"))
+      .toHaveText("一里ぼっち（CV：森下千咲）、砂尾なこ（CV：田中美海）、本庄アル（CV：鬼頭明里）、ソトカ・ラキター（CV：黒瀬ゆうこ）");
     await expect(page.getByRole("heading", { name: "まけるなアル かがやけアル", exact: true })).toHaveCount(0);
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 
     await page.goto("/anime/bokutachi-wa-benkyou-ga-dekinai-1st-season/#theme-bokutachi-wa-benkyou-ga-dekinai-1st-season-op-1", { waitUntil: "domcontentloaded" });
     const opening = page.locator("#theme-bokutachi-wa-benkyou-ga-dekinai-1st-season-op-1");
     await expect(opening.locator(".theme-card__artist")).toHaveText("Study");
-    await expect(opening.locator(".theme-card__credits dt").filter({ hasText: /^演唱$/ })).toHaveCount(3);
+    await expect(opening.locator(".theme-card__credits dt").filter({ hasText: /^演唱$/ })).toHaveCount(1);
+    await expect(opening.locator(".theme-card__credits div").filter({ hasText: /^演唱/ }).locator("dd"))
+      .toHaveText("古橋文乃（CV：白石晴香）、緒方理珠（CV：富田美憂）、武元うるか（CV：鈴代紗弓）");
     await expect(opening).not.toContainText("Lynn");
     await expect(opening).not.toContainText("朝日奈丸佳");
     await expect(page.locator("iframe")).toHaveCount(0);
@@ -1205,7 +1209,9 @@ test("spring fantasy songs retain searchable vocalists, edition dates and consen
     await expect(page).toHaveURL(/\/anime\/shoumetsu-toshi\/#theme-shoumetsu-toshi-ed-2$/);
     const ending = page.locator("#theme-shoumetsu-toshi-ed-2");
     await expect(ending.locator(".theme-card__artist")).toHaveText("SPR5");
-    await expect(ending.locator(".theme-card__credits dt").filter({ hasText: /^演唱$/ })).toHaveCount(5);
+    await expect(ending.locator(".theme-card__credits dt").filter({ hasText: /^演唱$/ })).toHaveCount(1);
+    await expect(ending.locator(".theme-card__credits div").filter({ hasText: /^演唱/ }).locator("dd"))
+      .toHaveText("社本悠、岩井映美里、直田姫奈、大西亜玖璃、園山ひかり");
     await expect(ending.locator(".theme-card__credits div").filter({ hasText: "園山ひかり" }).locator("dt")).toHaveText("演唱");
     await expect(page.locator(".theme-card")).toHaveCount(2);
     await expect(page.locator("iframe")).toHaveCount(0);
@@ -1246,7 +1252,9 @@ test("supernatural spring songs preserve co-writers, TV edits and distinct Fairy
     await page.getByRole("link", { name: "dis-communicate", exact: true }).click();
     await expect(page).toHaveURL(/\/anime\/mayonaka-no-occult-koumuin\/#theme-mayonaka-no-occult-koumuin-op-1$/);
     const opening = page.locator("#theme-mayonaka-no-occult-koumuin-op-1");
-    await expect(opening.locator(".theme-card__credits dt").filter({ hasText: /^作詞$/ })).toHaveCount(2);
+    await expect(opening.locator(".theme-card__credits dt").filter({ hasText: /^作詞$/ })).toHaveCount(1);
+    await expect(opening.locator(".theme-card__credits div").filter({ hasText: /^作詞/ }).locator("dd"))
+      .toHaveText("福山 潤、松井洋平");
     await expect(opening).toContainText("動畫盤另收錄 dis-communicate TV edit");
     await expect(opening.locator(".youtube-media__title")).toContainText("MV short ver.");
     await expect(page.locator("#theme-mayonaka-no-occult-koumuin-ed-1")).toContainText("約束のOverture TV edit");
@@ -1340,8 +1348,8 @@ test("spring school-music search keeps co-writers, digital dates and video editi
     await expect(page).toHaveURL(/\/anime\/kono-oto-tomare\/#theme-kono-oto-tomare-ed-1$/);
     await expect(page.locator(".theme-card h3")).toHaveText(["Tone", "Speechless"]);
     const speechless = page.locator("#theme-kono-oto-tomare-ed-1");
-    await expect(speechless.locator(".theme-card__credits div").filter({ hasText: /^作曲/ })).toHaveText(["作曲前迫潤哉", "作曲工藤政人"]);
-    await expect(speechless.locator(".theme-card__credits div").filter({ hasText: /^編曲/ })).toHaveText(["編曲工藤政人", "編曲早川博隆"]);
+    await expect(speechless.locator(".theme-card__credits div").filter({ hasText: /^作曲/ })).toHaveText("作曲前迫潤哉、工藤政人");
+    await expect(speechless.locator(".theme-card__credits div").filter({ hasText: /^編曲/ })).toHaveText("編曲工藤政人、早川博隆");
     await expect(speechless.locator(".youtube-media__title")).toContainText("Short ver.");
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 
@@ -1350,7 +1358,7 @@ test("spring school-music search keeps co-writers, digital dates and video editi
     await expect(page.locator("#theme-fruits-basket-2019-op-1 .theme-card__version")).toHaveText("第一季第 1 cour；日文原版");
     await expect(page.locator("#theme-fruits-basket-2019-op-2")).toContainText("CD 於 2019-09-04 發行");
     const closer = page.locator("#theme-fruits-basket-2019-ed-2");
-    await expect(closer.locator(".theme-card__credits dd")).toHaveText(["Nicole Morier", "Drew Erickson", "William Aoyama"]);
+    await expect(closer.locator(".theme-card__credits dd")).toHaveText("Nicole Morier、Drew Erickson、William Aoyama");
     await expect(closer.locator(".youtube-media__title")).toHaveText([
       "INTERSECTION / One Step Closer (TVアニメ「フルーツバスケット」Ending Ver.)", "INTERSECTION / One Step Closer"
     ]);
@@ -1370,6 +1378,48 @@ test("spring school-music search keeps co-writers, digital dates and video editi
   await page.locator("#theme-fruits-basket-2019-ed-2").getByRole("button", { name: /載入 YouTube 影片/ }).nth(1).focus();
   await page.keyboard.press("Enter");
   await expect(page.locator("iframe")).toHaveAttribute("src", /youtube-nocookie\.com\/embed\/YZg8DYDR_8g/);
+});
+
+test("song summaries group shared roles, retain every name and show only reviewed release dates", async ({ page, browser }) => {
+  const candyResponse = await page.request.get("/api/v1/anime/candy-caries.json");
+  const candy = await candyResponse.json() as { themes: { id: string; credits: { name: string; role: string }[] }[] };
+  const telepathy = candy.themes.find(({ id }) => id === "candy-caries-ed-1")!;
+  for (const width of [1280, 960, 390, 320]) {
+    await page.setViewportSize({ width, height: 844 });
+    await page.goto("/anime/candy-caries/#theme-candy-caries-ed-1", { waitUntil: "domcontentloaded" });
+    const summary = page.locator("#theme-candy-caries-ed-1 .theme-card__summary");
+    const credits = summary.locator(".theme-card__credits");
+    await expect(credits.locator("dt")).toHaveText(["作詞", "作曲", "編曲"]);
+    for (const credit of telepathy.credits.filter(({ role }) => role !== "vocals")) {
+      await expect(credits).toContainText(credit.name);
+    }
+    await expect(summary.locator("time")).toHaveAttribute("datetime", "2026-05-18");
+    await expect(summary.locator(".theme-card__release-date")).toHaveText("發行日期 2026-05-18");
+    expect(await credits.evaluate((element) => element.getBoundingClientRect().height)).toBeLessThan(235);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+
+    await page.goto("/anime/fruits-basket-2019/", { waitUntil: "domcontentloaded" });
+    await expect(page.locator("#theme-fruits-basket-2019-op-1 time")).toHaveText("2019-04-12");
+    await expect(page.locator("#theme-fruits-basket-2019-op-2 time")).toHaveAttribute("datetime", "2019-07-05");
+    await expect(page.locator("#theme-fruits-basket-2019-op-2 .theme-card__version")).toContainText("CD 於 2019-09-04 發行");
+    await page.goto("/anime/bullet-bullet/", { waitUntil: "domcontentloaded" });
+    await expect(page.locator("#theme-bullet-bullet-op-1 time")).toHaveCount(0);
+    await expect(page.locator("#theme-bullet-bullet-op-1 .theme-card__credits dt")).toHaveText(["作詞", "作曲", "編曲"]);
+    await expect(page.getByRole("heading", { name: "BULLET/BULLET", exact: true, level: 1 })).toBeVisible();
+    await expect(page.locator("iframe")).toHaveCount(0);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  }
+  const nativeContext = await browser.newContext({ javaScriptEnabled: false, viewport: { width: 390, height: 844 } });
+  const nativePage = await nativeContext.newPage();
+  await nativePage.goto(`${e2eOrigin}/anime/kono-oto-tomare/`);
+  const speechless = nativePage.locator("#theme-kono-oto-tomare-ed-1");
+  await expect(speechless.locator(".theme-card__credits dd")).toHaveText(["前迫潤哉", "前迫潤哉、工藤政人", "工藤政人、早川博隆"]);
+  await expect(speechless.locator("time")).toHaveAttribute("datetime", "2019-05-08");
+  const source = speechless.getByRole("link", { name: /内田雄馬官方：春季 ED/ });
+  await source.focus();
+  await expect(source).toBeFocused();
+  expect(await nativePage.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  await nativeContext.close();
 });
 
 test("official video titles identify the edition before consent and remain visible after loading", async ({ page }) => {
