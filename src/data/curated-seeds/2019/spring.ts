@@ -1698,6 +1698,52 @@ const strikeWitches501EndingRows = [
 ] as const;
 
 const independentSpringSeeds: NativeCuratedAnimeSeed[] = [{
+  id: "catalog-youkai-watch-2019",
+  slug: "youkai-watch-2019",
+  titleJa: "妖怪ウォッチ！",
+  titleZhHant: "妖怪手錶！",
+  seasonIds: ["2019-spring"],
+  startDate: "2019-04-05",
+  editorialWeekday: 5,
+  broadcastTimeJst: "18:25",
+  broadcastLabel: "東京電視台每週五 18:25（日本時間；2019 年 TV 版）",
+  status: "finished",
+  verifiedAt: "2026-09-07",
+  officialSiteUrl: "https://www.tv-tokyo.co.jp/anime/youkai-watch2019/",
+  identifierSource: {
+    label: "LEVEL5 官方：2019 年新 TV 系列識別、首播日期與時段",
+    url: "https://www.youkai-watch.jp/topics/190215.html",
+    language: "ja"
+  },
+  wikipediaUrl: "https://youranimes.tw/bangumi/201904",
+  sourceReferenceUrls: ["https://youranimes.tw/animes/710"],
+  themes: [{
+    type: "OP", sequence: 1,
+    titleJa: "ケラケラホーのうた",
+    artistDisplayName: "紘毅",
+    releaseDate: "2019-06-05",
+    versionLabel: "2019 年 TV 版／CD 完整版；MV 短版",
+    credits: [
+      { name: "紘毅", role: "vocals" },
+      { name: "高木貴司", role: "lyrics" },
+      { name: "紘毅", role: "composition" },
+      { name: "菊谷知樹", role: "arrangement" }
+    ]
+  }, {
+    type: "ED", sequence: 1,
+    titleJa: "ようかい体操第一 ～つづき～",
+    artistDisplayName: "かえで☆",
+    releaseDate: "2019-06-05",
+    versionLabel: "2019 年 TV 版／CD 完整版；振付影片為短版",
+    credits: [
+      { name: "かえで☆", role: "vocals" },
+      { name: "ラッキィ池田", role: "lyrics" },
+      { name: "高木貴司", role: "lyrics" },
+      { name: "菊谷知樹", role: "composition" },
+      { name: "菊谷知樹", role: "arrangement" }
+    ]
+  }]
+}, {
   id: "catalog-bakugan-battle-planet-2019",
   slug: "bakugan-battle-planet-2019",
   titleJa: "爆丸バトルプラネット",

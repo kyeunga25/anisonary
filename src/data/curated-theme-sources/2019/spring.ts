@@ -3,6 +3,16 @@ import { getCuratedAnimeKey, getCuratedThemeKey } from "@/data/curated-seeds/ide
 import type { CuratedThemeSourceOverrideMap, CuratedThemeSourceSeed } from "@/data/curated-theme-sources/types";
 
 const firstPartyUrlsByTheme: Readonly<Record<string, readonly string[]>> = {
+  "catalog-youkai-watch-2019:OP:1": [
+    "https://maekawakikaku.co.jp/news/archives/2019/20190604_837.html",
+    "https://popholic.jp/archives/12216",
+    "https://www.ymm.co.jp/p/detail.php?code=GTK01097308&dm=sl&dso=11&ua=pc"
+  ],
+  "catalog-youkai-watch-2019:ED:1": [
+    "https://popholic.jp/archives/12212",
+    "https://d-music.co.jp/kids_piano/9784865712681/",
+    "https://www.tunecore.co.jp/artists/SAKURADAKAEDE"
+  ],
   "catalog-bakugan-battle-planet-2019:OP:1": [
     "https://www.sega.jp/topics/detail/190306_goods_1/",
     "https://www.tv-tokyo.co.jp/anime/bakugan-bp/staff/"
@@ -251,6 +261,12 @@ const firstPartyUrlsByTheme: Readonly<Record<string, readonly string[]>> = {
 };
 
 const sourceLabelsByUrl: Readonly<Record<string, string>> = {
+  "https://maekawakikaku.co.jp/news/archives/2019/20190604_837.html": "紘毅所屬事務所：2019 年版 OP、CD 發行日期與短版 MV",
+  "https://popholic.jp/archives/12216": "POPHOLIC 創作者官方：OP 用途、演唱者與菊谷知樹的原曲編曲署名",
+  "https://www.ymm.co.jp/p/detail.php?code=GTK01097308&dm=sl&dso=11&ua=pc": "Yamaha 樂譜出版方：原曲詞曲署名；鋼琴改編及書籍日期不作動畫原曲資料",
+  "https://popholic.jp/archives/12212": "POPHOLIC 創作者官方：ED 用途、菊谷知樹的作曲與原曲編曲署名",
+  "https://d-music.co.jp/kids_piano/9784865712681/": "Dream Music 樂譜出版方：原曲共同作詞及作曲署名；鋼琴改編不作原曲編曲",
+  "https://www.tunecore.co.jp/artists/SAKURADAKAEDE": "演唱者公開藝人頁：かえで☆ 名義的 2019 年 ED 與發行日期",
   "https://www.sega.jp/topics/detail/190306_goods_1/": "SEGA 官方公告：日本版 OP 與前期 ED、演唱者及詞曲編曲署名",
   "https://www.tv-tokyo.co.jp/anime/bakugan-bp/staff/": "東京電視台：日本版 OP 與後期 ED、演唱者及製作資料",
   "https://onetrap.ageha.net/archives/onetrap_news/0067": "onetrap 創作者官方：前期 ED 用途與中村崇人的詞曲署名",
@@ -372,6 +388,12 @@ const sourceLabelsByUrl: Readonly<Record<string, string>> = {
 };
 
 const crossCheckSourcesByAnime: Readonly<Record<string, CuratedThemeSourceSeed>> = {
+  "catalog-youkai-watch-2019": {
+    label: "アニソン・オンライン：2019 春季 TV 系列、OP／ED 用途與演唱者交叉核對",
+    url: "https://anison.online/anime/1122",
+    language: "ja",
+    role: "cross_check"
+  },
   "catalog-bakugan-battle-planet-2019": {
     label: "アニソンライブラリー：日本版 OP／ED 次序及署名交叉核對；影片公開日不作歌曲發行日期",
     url: "https://japan-anime-song.com/bakumarubatorupuranetto-anison/",

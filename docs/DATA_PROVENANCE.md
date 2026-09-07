@@ -31,9 +31,9 @@ API、資料庫、商標或媒體重用權。完整授權邊界見
 
 `first_party` 表示動畫製作／發行方、唱片公司、藝人官方渠道、官方影片或正式播出機構的公開頁面。`cross_check` 表示用於發現缺口及交叉比對的公開索引。兩種角色都是來源分類，不代表數值信心或內容評分。
 
-2019 春季目前整理 32 套 TV 作品（含電視短篇及重編版），夏季整理 38 套 TV 作品及 4 套網絡連載；兩季的其他作品、跨季延續與特殊歌曲仍待核對；`coverageNote` 會在季度頁及 API 公開說明本季範圍。
+2019 春季目前整理 33 套 TV 作品（含電視短篇及重編版），夏季整理 38 套 TV 作品及 4 套網絡連載；兩季的其他作品、跨季延續與特殊歌曲仍待核對；`coverageNote` 會在季度頁及 API 公開說明本季範圍。
 
-目前二十九季快照的 season references、1,949 個作品及 4,323 筆 OP／ED 都有結構化 provenance；4,323 筆歌曲全部至少保留一個 `first_party` 與一個 `cross_check` 來源。`tests/unit/curated-catalog.test.ts` 鎖定來源數量、角色、語言、HTTPS、核對日期、Mock URL 禁止條件，以及 legacy labels 與結構化 ledger 的一致性。
+目前二十九季快照的 season references、1,950 個作品及 4,325 筆 OP／ED 都有結構化 provenance；4,325 筆歌曲全部至少保留一個 `first_party` 與一個 `cross_check` 來源。`tests/unit/curated-catalog.test.ts` 鎖定來源數量、角色、語言、HTTPS、核對日期、Mock URL 禁止條件，以及 legacy labels 與結構化 ledger 的一致性。
 
 ## 欄位決策
 
