@@ -2,6 +2,11 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## v1.44.1 — 作品頁間距
+
+- 縮短作品資料、外部來源連結、歌曲與資料來源區塊之間的過大留白，讓歌曲更早進入畫面。
+- 保留海報尺寸、文字層級、完整連結、響應式與無 JavaScript 閱讀；目錄、搜尋及 API 資料不變。
+
 ## v1.44.0 — 2019 春季《毛球權次郎》
 
 - 以本站識別碼收錄 2019 年 TV 版、2 筆 OP／ED 與 1 筆正式授權片尾影片 metadata。
