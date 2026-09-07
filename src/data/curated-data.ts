@@ -4605,6 +4605,29 @@ const animeOfficialSourceOverrides: Record<number, { label: string; url: string 
 };
 
 const animeSourceOverrides: Record<number, AnimeSourceSeed[]> = {
+  101281: [{
+    label: "Netflix 台灣正式配信：繁中名稱與作品資料",
+    url: "https://www.netflix.com/tw/title/80992137",
+    language: "zh-Hant",
+    role: "first_party"
+  }, {
+    label: "富士電視台：原始首播日期、編輯播出日與歌唱者",
+    url: "https://www.fujitv.co.jp/muscat/20195058.html",
+    language: "ja",
+    role: "first_party"
+  }],
+  105928: [{
+    label: "動畫官方：TV 首播日期、時段與同步網絡播出",
+    url: "https://robihachi.jp/onair/",
+    language: "ja",
+    role: "first_party"
+  }],
+  106568: [{
+    label: "TBS 官方：第二季原始首播日期與編輯播出日",
+    url: "https://www.tbs.co.jp/anime/BAKUMATSU/onair/",
+    language: "ja",
+    role: "first_party"
+  }],
   101261: [{
     label: "Noitamina 官方：原始 TV 首播日期與編輯播出日",
     url: "https://news.noitamina.tv/sarazanmai/onair/",

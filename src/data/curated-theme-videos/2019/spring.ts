@@ -1,6 +1,14 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2019SpringThemeVideos = {
+  "105928:OP:1": [{
+    youtubeVideoId: "YqxmjDgTLEc",
+    title: "TVアニメ「RobiHachi」OPテーマ「天才のプレイリスト」",
+    type: "other",
+    channelName: "ぽにきゃん-Anime PONY CANYON",
+    officialStatus: "official",
+    embeddable: true
+  }],
   "101261:OP:1": [{
     youtubeVideoId: "KBhUW6PpwMY",
     title: "TVアニメ『さらざんまい』オープニングムービー │「まっさら」KANA-BOON",

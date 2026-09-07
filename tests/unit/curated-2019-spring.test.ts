@@ -10,10 +10,70 @@ const spring = curatedSeasonDetails.find(({ id }) => id === "2019-spring")!;
 const anime = (id: number) => curatedAnimeDetails.find((item) => item.id === `curated-${id}`)!;
 
 describe("2019 spring reviewed TV catalogue", () => {
+  it("keeps music and adventure premieres on their original editorial day and uses the licensed Chinese name", () => {
+    for (const [id, date, weekday, time] of [
+      [101281, "2019-04-10", 3, "24:55"],
+      [105928, "2019-04-08", 1, "23:30"],
+      [106568, "2019-04-04", 4, "25:58"]
+    ] as const) {
+      expect(curated2019SpringSeeds.find(({ anilistId }) => anilistId === id)?.startDate).toBe(date);
+      expect(anime(id)).toMatchObject({ editorialWeekday: weekday, broadcastTimeJst: time });
+    }
+    expect(anime(101281).titleZhHant).toBe("凱洛與塔斯黛");
+    expect(anime(101281).sources).toContainEqual(expect.objectContaining({
+      url: "https://www.netflix.com/tw/title/80992137", language: "zh-Hant"
+    }));
+  });
+
+  it("retains Carole and Tuesday's two cour themes and singing voices without substituting dialogue actors", async () => {
+    const carole = anime(101281);
+    expect(carole.themes.map(({ type, sequence, titleJa }) => [type, sequence, titleJa])).toEqual([
+      ["OP", 1, "Kiss Me"], ["OP", 2, "Polly Jean"], ["ED", 1, "Hold Me Now"], ["ED", 2, "Not Afraid"]
+    ]);
+    expect(carole.themes[0]?.credits.filter(({ role }) => role === "vocals").map(({ name }) => name))
+      .toEqual(["Nai Br.XX", "Celeina Ann"]);
+    expect(carole.themes[1]).toMatchObject({ releaseDate: "2019-08-28" });
+    expect(carole.themes[1]?.credits).toContainEqual({ name: "LEO今井", role: "lyrics" });
+    expect(carole.themes[3]?.credits.filter(({ role }) => role === "vocals")).toEqual([{ name: "Alisa", role: "vocals" }]);
+    expect(carole.themes.every(({ versionLabel }) => versionLabel?.includes("TV size ver."))).toBe(true);
+    for (const actor of ["島袋美由利", "市ノ瀬加那", "上坂すみれ"]) {
+      expect(carole.themes.flatMap(({ credits }) => credits.map(({ name }) => name))).not.toContain(actor);
+    }
+    const provider = new ApiProvider("https://anisonary.k-y.cc/api/v1", {
+      fetch: vi.fn<typeof fetch>().mockResolvedValue(new Response(JSON.stringify(carole), { headers: { "Content-Type": "application/json" } }))
+    });
+    expect(await provider.getAnime(carole.slug)).toEqual(carole);
+  });
+
+  it("distinguishes RobiHachi's release artist, solo track and additional duet without inventing a second opening", () => {
+    const robi = anime(105928);
+    expect(robi.themes.map(({ titleJa }) => titleJa)).toEqual(["天才のプレイリスト", "Dancing to Night 〜君への最短ワープ航路〜"]);
+    expect(robi.themes[0]?.artistDisplayName).toBe("Hatchi feat. Robby（CV：河本啓佑／中井和哉）");
+    expect(robi.themes[0]?.versionLabel).toContain("H☆R version");
+    expect(robi.themes[0]?.credits).toEqual([{ name: "Hatchi（CV：河本啓佑）", role: "vocals" }]);
+    expect(robi.themes[1]?.credits.filter(({ role }) => role === "vocals").map(({ name }) => name))
+      .toEqual(["木村 昴", "徳留慎乃佑", "杉田智和"]);
+    expect(robi.themes.flatMap(({ videos }) => videos).map(({ youtubeVideoId, type }) => [youtubeVideoId, type]))
+      .toEqual([["YqxmjDgTLEc", "other"]]);
+  });
+
+  it("uses Bakumatsu Crisis's official ending reading and finds the separate second-cour singer", async () => {
+    const bakumatsu = anime(106568);
+    expect(bakumatsu.themes.map(({ titleJa }) => titleJa)).toEqual(["Brave Rejection", "青き炎"]);
+    expect(bakumatsu.themes[1]?.titleRomaji).toBe("Aoki Homura");
+    expect(bakumatsu.themes.every(({ releaseDate }) => releaseDate === "2019-04-17")).toBe(true);
+    expect(bakumatsu.themes.every(({ credits }) => credits.length === 0)).toBe(true);
+    const data = await loadCatalogSearchData(new CuratedProvider(), true);
+    const index = buildCatalogSearchIndex(data.entries);
+    const results = searchCatalog(index, { query: "Alisa", scope: "creators", year: "2019", quarter: "spring", type: "ED" });
+    expect(results.map(({ anime: item }) => item.slug)).toEqual(["carole-and-tuesday"]);
+    expect(results[0]?.themes.map(({ titleJa }) => titleJa)).toEqual(["Not Afraid"]);
+  });
+
   it("publishes a partial quarter with reviewed identity and song evidence, without unverified artwork", () => {
-    expect(spring.anime).toHaveLength(14);
+    expect(spring.anime).toHaveLength(17);
     expect(spring.coverageNote).toContain("跨季延續及特殊歌曲版本仍待核對");
-    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(30);
+    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(38);
     expect(curatedSeasonDetails.some(({ id }) => id === "2025-fall")).toBe(false);
     for (const seed of curated2019SpringSeeds) {
       expect(seed.seasonIds).toEqual(["2019-spring"]);
