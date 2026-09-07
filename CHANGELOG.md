@@ -2,6 +2,14 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.35.1] - 2026-09-07
+
+### Fixed
+
+- place larger song source lists below the title and credits, using the available width instead of stretching a narrow desktop column;
+- retain compact desktop cards for up to three sources and complete, wrapping links on phones, with or without JavaScript;
+- preserve source order, language and provenance labels, review dates, catalogue records and API payloads.
+
 ## [1.35.0] - 2026-09-07
 
 ### Added
