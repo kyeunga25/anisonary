@@ -26,7 +26,7 @@ const sourceRoleLabels = {
 ---
 
 <article class="theme-card" id={`theme-${theme.id}`}>
-  <div class="theme-card__summary">
+  <div class:list={["theme-card__summary", { "theme-card__summary--compact": theme.sources.length <= 3 }]}>
     <div class:list={["theme-card__type", `theme-card__type--${theme.type.toLowerCase()}`]} aria-label={`${theme.type} ${theme.sequence}`}>
       <strong>{theme.type}{theme.sequence}</strong>
       <svg viewBox="0 0 48 48" aria-hidden="true">
@@ -54,14 +54,17 @@ const sourceRoleLabels = {
     </dl>
 
     <div class="theme-card__verification">
-      <p class="theme-card__review-state">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6zM14 3v5h5M9 13h7M9 17h7" /></svg>
-        <span>審閱狀態：已審閱</span>
-      </p>
-      <p class="theme-card__review-state">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path d="M12 7v6l4 2" /></svg>
-        <span>最後驗證：{lastVerifiedAt ?? "待確認"}</span>
-      </p>
+      <div class="theme-card__review-meta">
+        <p class="theme-card__source-heading">核對來源</p>
+        <p class="theme-card__review-state">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6zM14 3v5h5M9 13h7M9 17h7" /></svg>
+          <span>審閱狀態：已審閱</span>
+        </p>
+        <p class="theme-card__review-state">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path d="M12 7v6l4 2" /></svg>
+          <span>最後驗證：{lastVerifiedAt ?? "待確認"}</span>
+        </p>
+      </div>
       <ul aria-label="歌曲核對來源">
         {theme.sources.map((source) => (
           <li>
@@ -90,12 +93,12 @@ const sourceRoleLabels = {
   .theme-card { scroll-margin-top: 6rem; }
   .theme-card { background: var(--color-surface); border: 1px solid var(--color-border-strong); border-radius: var(--radius-card); overflow: hidden; }
   .theme-card + .theme-card { margin-top: 0.8rem; }
-  .theme-card__summary { display: grid; grid-template-columns: 6.2rem minmax(13rem, 1.3fr) minmax(12rem, 1fr) minmax(14rem, 0.95fr); min-height: 9rem; }
+  .theme-card__summary { display: grid; grid-template-columns: 5rem minmax(0, 1.3fr) minmax(0, 1fr); }
   .theme-card__type { align-items: center; background: var(--color-accent); color: #fff; display: flex; flex-direction: column; justify-content: center; padding: 1rem; }
   .theme-card__type--ed { background: color-mix(in srgb, var(--color-accent) 86%, var(--color-ink)); }
   .theme-card__type strong { font-size: 1.35rem; }
   .theme-card__type svg { fill: none; height: 2.25rem; margin-top: 0.45rem; stroke: currentColor; stroke-linecap: round; stroke-width: 1.5; width: 2.25rem; }
-  .theme-card__identity, .theme-card__credits, .theme-card__verification { align-self: stretch; padding: 1.35rem 1.5rem; }
+  .theme-card__identity, .theme-card__credits, .theme-card__verification { align-self: stretch; min-width: 0; overflow-wrap: anywhere; padding: 1.35rem 1.5rem; }
   .theme-card__identity { display: flex; flex-direction: column; justify-content: center; }
   .theme-card__identity h3 { font-size: clamp(1.25rem, 2vw, 1.7rem); line-height: 1.25; margin: 0; }
   .theme-card__translation { color: var(--color-muted); font-size: 0.82rem; margin: 0.25rem 0 0; }
@@ -105,19 +108,29 @@ const sourceRoleLabels = {
   .theme-card__credits div { display: grid; font-size: 0.82rem; gap: 0.55rem; grid-template-columns: 3.2rem 1fr; line-height: 1.55; }
   .theme-card__credits dt { color: var(--color-muted); }
   .theme-card__credits dd { margin: 0; }
-  .theme-card__verification { border-left: 1px solid var(--color-border); display: flex; flex-direction: column; font-size: 0.78rem; justify-content: center; margin: 1.1rem 0; padding-block: 0.2rem; }
-  .theme-card__review-state { align-items: center; display: flex; gap: 0.55rem; margin: 0.3rem 0; }
+  .theme-card__verification { border-top: 1px solid var(--color-border); font-size: 0.78rem; grid-column: 1 / -1; padding-block: 1rem; }
+  .theme-card__review-meta { align-items: center; display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; }
+  .theme-card__source-heading { font-size: 0.82rem; font-weight: 740; margin: 0; }
+  .theme-card__review-state { align-items: center; color: var(--color-muted); display: flex; gap: 0.55rem; margin: 0; }
   .theme-card__verification svg { fill: none; flex: 0 0 auto; height: 1.15rem; stroke: currentColor; stroke-width: 1.5; width: 1.15rem; }
-  .theme-card__verification ul { display: grid; gap: 0.35rem; list-style: none; margin: 0.65rem 0 0; padding: 0; }
-  .theme-card__verification li { align-items: baseline; display: flex; flex-wrap: wrap; gap: 0.25rem 0.45rem; }
+  .theme-card__verification ul { display: grid; gap: 0.35rem 1.25rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr)); list-style: none; margin: 0.8rem 0 0; padding: 0; }
+  .theme-card__verification li { align-items: baseline; display: flex; flex-wrap: wrap; gap: 0.25rem 0.45rem; min-width: 0; }
   .theme-card__verification a { color: var(--color-accent); font-weight: 680; text-underline-offset: 0.16em; }
   .theme-card__source-meta { color: var(--color-muted); font-size: 0.68rem; }
   .theme-card__media { border-top: 1px solid var(--color-border); }
   .theme-card__links { padding: 0 1.3rem 1.3rem; }
 
+  @media (min-width: 941px) {
+    .theme-card__summary--compact { grid-template-columns: 5rem minmax(0, 1.3fr) minmax(0, 1fr) minmax(0, 1fr); min-height: 9rem; }
+    .theme-card__summary--compact .theme-card__verification { border-left: 1px solid var(--color-border); border-top: 0; display: flex; flex-direction: column; grid-column: auto; justify-content: center; margin: 1.1rem 0; padding-block: 0.2rem; }
+    .theme-card__summary--compact .theme-card__review-meta { display: block; }
+    .theme-card__summary--compact .theme-card__source-heading { display: none; }
+    .theme-card__summary--compact .theme-card__review-state { margin: 0.3rem 0; }
+    .theme-card__summary--compact .theme-card__verification ul { grid-template-columns: minmax(0, 1fr); margin-top: 0.65rem; }
+  }
+
   @media (max-width: 940px) {
-    .theme-card__summary { grid-template-columns: 5rem 1fr 1fr; }
-    .theme-card__verification { border-left: 0; border-top: 1px solid var(--color-border); grid-column: 2 / -1; margin: 0; padding-block: 1rem; }
+    .theme-card__summary { grid-template-columns: 5rem minmax(0, 1fr) minmax(0, 1fr); }
   }
 
   @media (max-width: 660px) {

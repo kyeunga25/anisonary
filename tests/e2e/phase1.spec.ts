@@ -1315,6 +1315,51 @@ test("official video titles identify the edition before consent and remain visib
   await expect(title).toBeVisible();
 });
 
+test("dense song sources fit desktop cards and remain complete on phones and without JavaScript", async ({ page, browser, request }) => {
+  const response = await request.get("/api/v1/anime/medalist-2nd-season.json");
+  const anime = await response.json();
+  const expectedSources = anime.themes.find((theme: { id: string }) => theme.id === "medalist-2nd-season-ed-1").sources;
+  expect(expectedSources).toHaveLength(14);
+  for (const width of [1280, 768, 390, 320]) {
+    await page.setViewportSize({ width, height: 844 });
+    await page.goto("/anime/medalist-2nd-season/", { waitUntil: "domcontentloaded" });
+    const ending = page.locator("#theme-medalist-2nd-season-ed-1");
+    const sources = ending.getByRole("list", { name: "歌曲核對來源" });
+    const links = sources.getByRole("link");
+    await expect(links).toHaveCount(expectedSources.length);
+    for (let index = 0; index < expectedSources.length; index += 1) {
+      await expect(links.nth(index)).toBeVisible();
+      await expect(links.nth(index)).toContainText(expectedSources[index].label);
+      await expect(links.nth(index)).toHaveAttribute("href", expectedSources[index].url);
+      await expect(links.nth(index)).toHaveAttribute("rel", "noopener noreferrer external");
+    }
+    if (width === 1280) expect((await ending.locator(".theme-card__summary").boundingBox())!.height).toBeLessThan(500);
+    if (width === 390) expect((await ending.locator(".theme-card__summary").boundingBox())!.height).toBeLessThan(780);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+
+    await page.goto("/anime/gal-to-kyouryuu/", { waitUntil: "domcontentloaded" });
+    expect(await page.locator(".theme-card__verification").evaluateAll((elements) =>
+      elements.every((element) => element.scrollWidth <= element.clientWidth)
+    )).toBe(true);
+    await page.goto("/anime/ginga-eiyuu-densetsu-die-neue-these-seiran/", { waitUntil: "domcontentloaded" });
+    await expect(page.getByRole("list", { name: "歌曲核對來源" }).first().getByRole("link")).toHaveCount(2);
+    if (width === 1280) expect((await page.locator(".theme-card__summary").first().boundingBox())!.height).toBeLessThan(180);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+    await expect(page.locator("iframe")).toHaveCount(0);
+  }
+
+  const context = await browser.newContext({ javaScriptEnabled: false, viewport: { width: 390, height: 844 } });
+  const nativePage = await context.newPage();
+  await nativePage.goto(`${e2eOrigin}/anime/medalist-2nd-season/`, { waitUntil: "domcontentloaded" });
+  const nativeLinks = nativePage.locator("#theme-medalist-2nd-season-ed-1").getByRole("list", { name: "歌曲核對來源" }).getByRole("link");
+  await expect(nativeLinks).toHaveCount(14);
+  await nativeLinks.first().focus();
+  await nativePage.keyboard.press("Tab");
+  await expect(nativeLinks.nth(1)).toBeFocused();
+  expect(await nativePage.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  await context.close();
+});
+
 test("weekday navigation follows populated groups and remains useful after filters and without JavaScript", async ({ page, browser }) => {
   for (const width of [1280, 390]) {
     await page.setViewportSize({ width, height: 844 });
