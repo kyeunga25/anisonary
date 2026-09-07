@@ -69,11 +69,11 @@ describe("curated theme source registry", () => {
       180,
       161,
       103,
-      55
+      59
     ]);
 
     const keys = curatedThemeSourceRegistry.flatMap(({ overrides }) => Object.keys(overrides));
-    expect(keys).toHaveLength(2022);
+    expect(keys).toHaveLength(2026);
     expect(new Set(keys).size).toBe(keys.length);
     expect(Object.keys(curatedThemeSourceOverrides)).toHaveLength(keys.length);
   });

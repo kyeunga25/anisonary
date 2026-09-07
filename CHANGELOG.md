@@ -2,6 +2,15 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.39.0] - 2026-09-07
+
+### Added
+
+- three reviewed spring 2019 TV titles: Hachigatsu no Cinderella Nine, Chou Kadou Girl and Yatogame-chan, with four OP／ED records and two official video metadata entries;
+- preserve Cinderella Nine's four-character cover and production credits, separate TV-size and full releases, and Chou Kadou Girl's early digital ending date and official opening classification;
+- retain the first season's original broadcast context and explicit incomplete song records; unverified times, arrangement credits and general-theme classifications remain unset;
+- the partial spring snapshot now contains 26 works and 59 songs, with catalogue, API, creator search and responsive browser regression coverage.
+
 ## [1.38.0] - 2026-09-07
 
 ### Added

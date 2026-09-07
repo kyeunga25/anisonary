@@ -23,6 +23,121 @@ function spring2019Seed(row: Spring2019SeedInput): CuratedAnimeSeed {
 
 const curated2019SpringSeedRows: Spring2019SeedInput[] = [
   {
+    anilistId: 104989,
+    slug: "hachigatsu-no-cinderella-nine",
+    startDate: "2019-04-07",
+    titleJa: "八月のシンデレラナイン",
+    titleZhHant: "八月的棒球甜心",
+    titleRomaji: "Hachigatsu no Cinderella Nine",
+    officialSiteUrl: "https://anime-hachinai.com/",
+    wikipediaUrl: "https://youranimes.tw/animes/494",
+    animeThemesUrl: "https://animethemes.moe/anime/hachigatsu_no_cinderella_nine",
+    identifierSource: {
+      label: "AnimeThemes：作品識別交叉連結",
+      url: "https://api.animethemes.moe/anime/hachigatsu_no_cinderella_nine?include=resources",
+      language: "en"
+    },
+    broadcastTimeJst: "25:35",
+    broadcastLabel: "東京電視台 每週日 25:35（日本時間；2019 年原始 TV 版）",
+    themes: [
+      {
+        type: "OP",
+        sequence: 1,
+        titleJa: "エチュード",
+        artistDisplayName: "みゆはん",
+        versionLabel: "完整版單曲；TV Size 於 2019-05-01 先行配信",
+        releaseDate: "2019-05-22",
+        credits: [
+          { name: "みゆはん", role: "vocals" },
+          { name: "菅波栄純", role: "lyrics" },
+          { name: "菅波栄純", role: "composition" },
+          { name: "菅波栄純", role: "arrangement" }
+        ]
+      },
+      {
+        type: "ED",
+        sequence: 1,
+        titleJa: "どんなときも。",
+        artistDisplayName: "有原翼（CV：西田望見）、東雲龍（CV：近藤玲奈）、野崎夕姫（CV：南早紀）、河北智恵（CV：井上ほの花）",
+        versionLabel: "2019 年 TV 版四人翻唱；完整版先行配信，迷你專輯於 2019-08-09 發行",
+        releaseDate: "2019-06-17",
+        credits: [
+          { name: "有原翼（CV：西田望見）", role: "vocals" },
+          { name: "東雲龍（CV：近藤玲奈）", role: "vocals" },
+          { name: "野崎夕姫（CV：南早紀）", role: "vocals" },
+          { name: "河北智恵（CV：井上ほの花）", role: "vocals" },
+          { name: "槇原敬之", role: "lyrics" },
+          { name: "槇原敬之", role: "composition" },
+          { name: "久下真音", role: "arrangement" }
+        ]
+      }
+    ]
+  },
+  {
+    anilistId: 104284,
+    slug: "chou-kadou-girl-amazing-stranger",
+    startDate: "2019-04-06",
+    titleJa: "超可動ガール1/6",
+    titleZhHant: "超可動女孩 1/6",
+    titleRomaji: "Chou Kadou Girl ⅙: Amazing Stranger",
+    wikipediaUrl: "https://youranimes.tw/animes/492",
+    animeThemesUrl: "https://animethemes.moe/anime/chou_kadou_girl_amazing_stranger",
+    identifierSource: {
+      label: "AnimeThemes：作品識別交叉連結",
+      url: "https://api.animethemes.moe/anime/chou_kadou_girl_amazing_stranger?include=resources",
+      language: "en"
+    },
+    broadcastLabel: "日本首播／時間未整理（電視短篇）",
+    themes: [
+      {
+        type: "OP",
+        sequence: 1,
+        titleJa: "それゆけ！恋ゴコロ",
+        artistDisplayName: "A応P",
+        releaseDate: "2019-05-10",
+        youtubeUrl: "https://www.youtube.com/watch?v=GfVF3xC3LuE",
+        credits: [
+          { name: "浅野まこと", role: "lyrics" },
+          { name: "James Panda Jr.", role: "composition" },
+          { name: "前口 渉", role: "arrangement" }
+        ]
+      },
+      {
+        type: "ED",
+        sequence: 1,
+        titleJa: "ONE",
+        artistDisplayName: "東城陽奏",
+        versionLabel: "數位先行配信版",
+        releaseDate: "2019-04-27",
+        youtubeUrl: "https://www.youtube.com/watch?v=lLAPyH9IdpM",
+        credits: [
+          { name: "東城陽奏", role: "vocals" },
+          { name: "東城陽奏", role: "lyrics" },
+          { name: "千葉\"naotyu-\"直樹", role: "composition" }
+        ]
+      }
+    ]
+  },
+  {
+    anilistId: 102064,
+    slug: "yatogame-chan-kansatsu-nikki",
+    startDate: "2019-04-04",
+    titleJa: "八十亀ちゃんかんさつにっき",
+    titleZhHant: "八十龜醬觀察日記",
+    titleRomaji: "Yatogame-chan Kansatsu Nikki",
+    officialSiteUrl: "https://yatogame.nagoya/housouhaisin2/",
+    wikipediaUrl: "https://youranimes.tw/animes/2024",
+    animeThemesUrl: "https://animethemes.moe/anime/yatogame_chan_kansatsu_nikki",
+    identifierSource: {
+      label: "AnimeThemes：作品識別交叉連結",
+      url: "https://api.animethemes.moe/anime/yatogame_chan_kansatsu_nikki?include=resources",
+      language: "en"
+    },
+    broadcastTimeJst: "19:53",
+    broadcastLabel: "愛知電視台 每週四 19:53（日本時間；首話 18:55，第 2、3 話 20:49）",
+    themes: []
+  },
+  {
     anilistId: 104578,
     slug: "shingeki-no-kyojin-season-3-part-2",
     startDate: "2019-04-28",
