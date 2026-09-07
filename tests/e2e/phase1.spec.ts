@@ -1170,8 +1170,8 @@ test("spring character search reaches the episode-six ensemble and preserves the
     const ending = page.locator("#theme-hitoribocchi-no-marumaru-seikatsu-ed-2");
     await expect(ending).toBeInViewport({ ratio: 0.3 });
     await expect(ending).toContainText("第6話片尾");
-    await expect(ending.locator(".theme-card__credits dt").filter({ hasText: /^演唱$/ })).toHaveCount(1);
-    await expect(ending.locator(".theme-card__credits div").filter({ hasText: /^演唱/ }).locator("dd"))
+    await expect(ending.locator(".theme-card__credits dt").filter({ hasText: /^演唱$/ })).toHaveCount(0);
+    await expect(ending.locator(".theme-card__artist"))
       .toHaveText("一里ぼっち（CV：森下千咲）、砂尾なこ（CV：田中美海）、本庄アル（CV：鬼頭明里）、ソトカ・ラキター（CV：黒瀬ゆうこ）");
     await expect(page.getByRole("heading", { name: "まけるなアル かがやけアル", exact: true })).toHaveCount(0);
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
@@ -1397,7 +1397,7 @@ test("spring sports and TV shorts expose reviewed covers, digital dates and inco
     const cover = page.locator("#theme-hachigatsu-no-cinderella-nine-ed-1");
     await expect(cover.locator("time")).toHaveText("2019-06-17");
     await expect(cover).toContainText("迷你專輯於 2019-08-09");
-    await expect(cover.locator(".theme-card__credits div").filter({ hasText: /^演唱/ }).locator("dd"))
+    await expect(cover.locator(".theme-card__artist"))
       .toHaveText("有原翼（CV：西田望見）、東雲龍（CV：近藤玲奈）、野崎夕姫（CV：南早紀）、河北智恵（CV：井上ほの花）");
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 
@@ -1436,7 +1436,7 @@ test("spring character songs preserve special endings, split-season dates and co
     await expect(special).toContainText("第 5 話特別片尾");
     await expect(special.locator("time")).toHaveText("2019-08-07");
     await expect(special.locator(".theme-card__credits div").filter({ hasText: /^作詞/ }).locator("dd")).toHaveText("nonoc、安田史生");
-    await expect(page.locator("#theme-isekai-quartet-op-1 .theme-card__credits div").filter({ hasText: /^演唱/ }).locator("dd"))
+    await expect(page.locator("#theme-isekai-quartet-op-1 .theme-card__artist"))
       .toHaveText("アインズ（CV：日野 聡）、カズマ（CV：福島 潤）、スバル（CV：小林裕介）、ターニャ（CV：悠木 碧）");
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 
@@ -1460,6 +1460,48 @@ test("spring character songs preserve special endings, split-season dates and co
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   }
   expect(mediaRequests).toEqual([]);
+});
+
+test("complete ensemble names appear once while individual vocalists and production roles remain available", async ({ page, request, browser }) => {
+  const repeated = [
+    ["isekai-quartet", "isekai-quartet-op-1"],
+    ["isekai-quartet", "isekai-quartet-ed-1"],
+    ["hitoribocchi-no-marumaru-seikatsu", "hitoribocchi-no-marumaru-seikatsu-op-1"],
+    ["hitoribocchi-no-marumaru-seikatsu", "hitoribocchi-no-marumaru-seikatsu-ed-2"],
+    ["cannon-busters", "cannon-busters-op-1"],
+    ["sewayaki-kitsune-no-senko-san", "sewayaki-kitsune-no-senko-san-op-1"],
+    ["seishun-buta-yarou-wa-santa-claus-no-yume-wo-minai", "seishun-buta-yarou-wa-santa-claus-no-yume-wo-minai-ed-6"],
+    ["hachigatsu-no-cinderella-nine", "hachigatsu-no-cinderella-nine-ed-1"]
+  ] as const;
+  for (const width of [1280, 390]) {
+    await page.setViewportSize({ width, height: 844 });
+    for (const [slug, id] of repeated) {
+      const response = await request.get(`/api/v1/anime/${slug}.json`);
+      const detail = await response.json();
+      const theme = detail.themes.find((item: { id: string }) => item.id === id);
+      await page.goto(`/anime/${slug}/#theme-${id}`, { waitUntil: "domcontentloaded" });
+      const card = page.locator(`#theme-${id}`);
+      await expect(card.locator(".theme-card__artist")).toHaveText(theme.artistDisplayName);
+      await expect(card.locator(".theme-card__credits dt").filter({ hasText: /^演唱$/ })).toHaveCount(0);
+      const vocals = theme.credits.filter((credit: { role: string }) => credit.role === "vocals");
+      expect(vocals.length).toBeGreaterThan(1);
+      for (const credit of vocals) await expect(card.locator(".theme-card__artist")).toContainText(credit.name);
+      const production = theme.credits.filter((credit: { role: string }) => credit.role !== "vocals");
+      for (const credit of production) await expect(card.locator(".theme-card__credits")).toContainText(credit.name);
+      if (!production.length) await expect(card.locator(".theme-card__credits")).toContainText("製作待確認");
+      expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+      await expect(page.locator("iframe")).toHaveCount(0);
+    }
+  }
+  const context = await browser.newContext({ javaScriptEnabled: false, viewport: { width: 390, height: 844 } });
+  const nativePage = await context.newPage();
+  await nativePage.goto(`${e2eOrigin}/anime/hachigatsu-no-cinderella-nine/`);
+  const card = nativePage.locator("#theme-hachigatsu-no-cinderella-nine-ed-1");
+  await expect(card.locator(".theme-card__artist")).toContainText("井上ほの花");
+  await expect(card.locator(".theme-card__credits dd")).toHaveText(["槇原敬之", "槇原敬之", "久下真音"]);
+  await expect(card.locator(".theme-card__credits dt").filter({ hasText: /^演唱$/ })).toHaveCount(0);
+  await expect(card.getByRole("list", { name: "歌曲核對來源" }).getByRole("link")).toHaveCount(4);
+  await context.close();
 });
 
 test("song summaries group shared roles, retain every name and show only reviewed release dates", async ({ page, browser }) => {
