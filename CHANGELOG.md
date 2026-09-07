@@ -2,6 +2,20 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.32.0] - 2026-09-07
+
+### Added
+
+- the first four reviewed 2019 spring TV series: Demon Slayer: Kimetsu no Yaiba, One-Punch Man Season 2, The Helpful Fox Senko-san and Bungo Stray Dogs Season 3;
+- nine OP／ED records and three official music-video metadata records, retaining episode-19 ending use, character vocals and co-arranger credits;
+- first-party broadcast evidence distinguishing the One-Punch Man recap special from its episode premiere and TV Demon Slayer from its advance theatrical screening.
+
+### Changed
+
+- the catalogue now contains 29 snapshots, 1,921 unique works, 4,238 OP／ED records and 1,759 official or licensed video metadata records;
+- the spring page and API explicitly identify the partial scope; summer remains at 42 works and 103 songs, and 2025 fall remains outside the registry;
+- retain existing anime and season payloads, source dates and the API v1 contract; new titles omit unverified artwork.
+
 ## [1.31.1] - 2026-09-07
 
 ### Fixed

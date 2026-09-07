@@ -10,7 +10,7 @@ test("static public API mirrors the reviewed catalogue without a runtime binding
   expect(seasonsResponse.status()).toBe(200);
   expect(seasonsResponse.headers()["content-type"]).toContain("application/json");
   const seasons = await seasonsResponse.json();
-  expect(seasons).toHaveLength(28);
+  expect(seasons).toHaveLength(29);
 
   const seasonResponse = await request.get("/api/v1/seasons/2026-summer.json");
   expect(seasonResponse.status()).toBe(200);
@@ -458,7 +458,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
 
   await page.goto("/search/");
   await expect(page.getByRole("heading", { name: "跨季度搜尋" })).toBeVisible();
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1917");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1921");
 
   const search = page.getByRole("searchbox", { name: "搜尋動畫、歌曲或創作者" });
   await search.fill("ＭＹＴＨ & ＲＯＩＤ");
@@ -498,7 +498,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
   await expect(page.locator("[data-catalog-anime-count]")).toHaveText("0");
 
   await search.press("Escape");
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1917");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1921");
   expect(externalRequests).toEqual([]);
 });
 
@@ -886,7 +886,7 @@ test("catalogue navigation stays compact and drills down through published years
   await expect(navigation.getByRole("link", { name: /動畫目錄/ })).toHaveAttribute("aria-current", "true");
   await expect(page.getByRole("navigation", { name: "2025 年季度導覽" }).getByRole("link", { name: "春季" })).toHaveAttribute("aria-current", "page");
   await expect(page.getByRole("navigation", { name: "所在位置" }).getByRole("link", { name: "2025", exact: true })).toHaveAttribute("href", "/catalog/2025/");
-  await expect(page.getByLabel("季度資料狀態")).toContainText("已發布 28 個季度、1,917 個作品頁與 4,229 首 OP／ED");
+  await expect(page.getByLabel("季度資料狀態")).toContainText("已發布 29 個季度、1,921 個作品頁與 4,238 首 OP／ED");
 
   await page.setViewportSize({ width: 390, height: 844 });
   await page.reload();
@@ -916,7 +916,7 @@ test("search paginates a bounded DOM and combines year, quarter, creator, and so
   await expect(results).toHaveCount(12);
   const firstTitle = await results.first().locator("h2").textContent();
   await page.getByRole("button", { name: "下一頁" }).click();
-  await expect(page.locator("[data-search-page]")).toContainText("第 2／160 頁");
+  await expect(page.locator("[data-search-page]")).toContainText("第 2／161 頁");
   await expect(page.locator("#catalog-search-results")).toBeFocused();
   await expect(results).toHaveCount(12);
   expect(await results.first().locator("h2").textContent()).not.toBe(firstTitle);
@@ -969,7 +969,7 @@ test("catalogue and search fit narrow devices, with native browsing available wi
   await expect(nativePage.getByRole("navigation", { name: "主要導覽" }).getByRole("link")).toHaveCount(5);
   await expect(nativePage.getByRole("navigation", { name: "主要導覽" })).toBeVisible();
   await nativePage.locator(".catalog-decade").last().locator("summary").click();
-  await nativePage.getByRole("link", { name: /2019.*2 個季度/ }).click();
+  await nativePage.getByRole("link", { name: /2019.*3 個季度/ }).click();
   await nativePage.getByRole("link", { name: /秋季動畫.*67 套動畫/ }).click();
   await expect(nativePage.getByRole("heading", { name: "2019 秋季動畫" })).toBeVisible();
   await context.close();
@@ -1116,6 +1116,43 @@ test("song details retain reviewed vocal credits alongside release-artist labels
   await page.goto("/anime/business-fish/");
   await expect(page.locator("#theme-business-fish-ed-1 .theme-card__credits dt")).toHaveText("Credits");
   await expect(page.locator("#theme-business-fish-ed-1 .theme-card__credits dd")).toHaveText("待確認");
+});
+
+test("2019 spring browsing and creator search reach the correct special ending on desktop and mobile", async ({ page }) => {
+  for (const width of [1280, 390]) {
+    await page.setViewportSize({ width, height: 844 });
+    await page.goto("/catalog/2019/");
+    await page.getByRole("link", { name: /春季動畫.*4 套動畫/ }).click();
+    await expect(page.getByRole("heading", { name: "2019 春季動畫" })).toBeVisible();
+    await expect(page.getByText("本季正在補充，目前收錄 4 套 TV 作品。其餘作品、跨季延續及特殊歌曲版本仍待核對。", { exact: true })).toBeVisible();
+    await expect(page.locator("[data-anime-card]")).toHaveCount(4);
+    await expect(page.locator("[data-anime-card] img")).toHaveCount(0);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+
+    await page.goto("/search/");
+    await page.getByLabel("年份", { exact: true }).selectOption("2019");
+    await page.getByLabel("季度", { exact: true }).selectOption("spring");
+    await page.getByLabel("搜尋範圍").selectOption("creators");
+    await page.getByLabel("歌曲用途").selectOption("ED");
+    await page.getByRole("searchbox", { name: "搜尋動畫、歌曲或創作者" }).fill("中川奈美");
+    await page.getByRole("link", { name: "竈門炭治郎のうた", exact: true }).click();
+    await expect(page).toHaveURL(/\/anime\/kimetsu-no-yaiba\/#theme-kimetsu-no-yaiba-ed-2$/);
+    const ending = page.locator("#theme-kimetsu-no-yaiba-ed-2");
+    await expect(ending).toBeInViewport({ ratio: 0.3 });
+    await expect(ending).toContainText("第19話片尾／兼插入歌");
+    await expect(ending.locator(".theme-card__artist")).toHaveText("椎名豪 featuring 中川奈美");
+    await expect(ending.locator(".theme-card__credits div").filter({ hasText: "中川奈美" }).locator("dt")).toHaveText("演唱");
+    await expect(page.locator("iframe")).toHaveCount(0);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  }
+
+  await page.goto("/anime/one-punch-man-2nd-season/");
+  await expect(page.getByRole("button", { name: /載入 YouTube 影片/ })).toHaveCount(2);
+  await expect(page.locator("iframe")).toHaveCount(0);
+  await page.route("https://www.youtube-nocookie.com/**", (route) => route.fulfill({ contentType: "text/html", body: "<!doctype html><title>Official player fixture</title>" }));
+  await page.locator("#theme-one-punch-man-2nd-season-ed-1").getByRole("button", { name: /載入 YouTube 影片/ }).click();
+  await expect(page.locator("iframe")).toHaveCount(1);
+  await expect(page.locator("iframe")).toHaveAttribute("src", /youtube-nocookie\.com\/embed\/MeK5M0M8U8A/);
 });
 
 test("unknown routes render the public 404 state and stay out of the index", async ({ page }) => {

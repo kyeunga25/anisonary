@@ -18,7 +18,7 @@ describe("catalogue navigation and search", () => {
     expect(years.map((entry) => entry.year)).toEqual([2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019]);
     expect(years.find((entry) => entry.year === 2026)?.animeCount).toBe(205);
     expect(years.find((entry) => entry.year === 2025)?.seasons.map((season) => season.quarter)).toEqual(["summer", "spring", "winter"]);
-    expect(years.find((entry) => entry.year === 2019)?.seasons.map((season) => season.quarter)).toEqual(["fall", "summer"]);
+    expect(years.find((entry) => entry.year === 2019)?.seasons.map((season) => season.quarter)).toEqual(["fall", "summer", "spring"]);
   });
 
   it("retains both memberships of a cross-season work in year and quarter filters", () => {
@@ -27,7 +27,7 @@ describe("catalogue navigation and search", () => {
       expect(results.some(({ anime }) => anime.slug === "re-zero-season-4")).toBe(true);
     }
     expect(searchCatalog(index, { ...defaults, year: "2025", quarter: "fall" })).toEqual([]);
-    expect(searchCatalog(index, defaults)).toHaveLength(1917);
+    expect(searchCatalog(index, defaults)).toHaveLength(1921);
   });
 
   it("combines multilingual queries with exact song, creator, and OP/ED filters", () => {

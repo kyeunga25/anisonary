@@ -4605,6 +4605,55 @@ const animeOfficialSourceOverrides: Record<number, { label: string; url: string 
 };
 
 const animeSourceOverrides: Record<number, AnimeSourceSeed[]> = {
+  101922: [{
+    label: "木棉花：繁中動畫名稱與版本",
+    url: "https://www.e-muse.com/zh/animation/demon-slayer-kimetsu-no-yaiba-tanjiro-kamado-unwavering-resolve-arc/",
+    language: "zh-Hant",
+    role: "first_party"
+  }, {
+    label: "Aniplex 官方公告：TV 立志篇首播日期與時段",
+    url: "https://prtimes.jp/main/html/rd/p/000001659.000016356.html",
+    language: "ja",
+    role: "first_party"
+  }],
+  97668: [{
+    label: "木棉花：第二季繁中動畫名稱與歌曲",
+    url: "https://www.e-muse.com/zh/animation/201904-one-punch-man-s02/",
+    language: "zh-Hant",
+    role: "first_party"
+  }, {
+    label: "動畫官方：回顧特番與第 13 話正篇首播分界",
+    url: "https://onepunchman-anime.net/news/archives/2239",
+    language: "ja",
+    role: "first_party"
+  }, {
+    label: "動畫官方：第二季日本播出時段",
+    url: "https://onepunchman-anime.net/onair/",
+    language: "ja",
+    role: "first_party"
+  }],
+  105914: [{
+    label: "木棉花官方配信：繁中動畫名稱",
+    url: "https://www.youtube.com/watch?v=veenGObGV6U",
+    language: "zh-Hant",
+    role: "first_party"
+  }, {
+    label: "動畫官方：日本首播日期與時段",
+    url: "https://senkosan.com/onair/",
+    language: "ja",
+    role: "first_party"
+  }],
+  103223: [{
+    label: "動畫官方：第 3 季日本首播日期與時段",
+    url: "https://bungo-stray-dogs.jp/onair/",
+    language: "ja",
+    role: "first_party"
+  }, {
+    label: "YourAnimes：第 3 季繁中名稱交叉核對",
+    url: "https://youranimes.tw/animes/2288",
+    language: "zh-Hant",
+    role: "localized_cross_check"
+  }],
   203472: [{
     label: "DLE 官方公告：作品、配信方式與音樂 staff",
     url: "https://www.dle.jp/jp/news/takanotsume/3567.html",
