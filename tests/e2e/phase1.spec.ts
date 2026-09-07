@@ -2436,8 +2436,10 @@ for (const theme of ["light", "dark"] as const) {
       await check(".button--primary");
       await check(".button--primary", true);
       await check(".button--outline", true);
-      await check(".catalog-preview__type");
-      await check(".catalog-preview__type--ed");
+      if (width > 760) {
+        await check(".catalog-preview__type");
+        await check(".catalog-preview__type--ed");
+      }
 
       await page.goto("/catalog/");
       await check('.catalog-heading [lang="en"]');
@@ -2505,7 +2507,8 @@ test("home content fits around the sidebar breakpoint without hiding the introdu
     const heading = page.locator(".hero h1");
     const visual = page.locator(".hero__visual");
     await expect(heading).toBeVisible();
-    await expect(visual).toBeVisible();
+    if (width <= 760) await expect(visual).toBeHidden();
+    else await expect(visual).toBeVisible();
     const bounds = await page.locator(".hero").evaluate((hero) => {
       const h = hero.querySelector("h1")!.getBoundingClientRect();
       const v = hero.querySelector(".hero__visual")!.getBoundingClientRect();
@@ -2522,4 +2525,60 @@ test("home content fits around the sidebar breakpoint without hiding the introdu
     await expect(page.locator(".hero__actions a")).toHaveCount(2);
     await expect(page.locator(".hero__search a")).toBeVisible();
   }
+});
+
+test("mobile home puts browsing and search in the first screen with native navigation preserved", async ({ page, browser }) => {
+  test.setTimeout(60_000);
+  await page.emulateMedia({ colorScheme: "light", reducedMotion: "reduce" });
+  const mediaRequests: string[] = [];
+  page.on("request", (request) => {
+    if (/youtube|ytimg|googlevideo/.test(new URL(request.url()).hostname)) mediaRequests.push(request.url());
+  });
+  for (const width of [320, 390, 760]) {
+    await page.setViewportSize({ width, height: 844 });
+    for (const theme of ["light", "dark"]) {
+      await page.goto("/", { waitUntil: "domcontentloaded" });
+      if (await page.locator("html").getAttribute("data-theme") !== theme) await page.locator("[data-theme-toggle]").click();
+      await expect(page.locator("html")).toHaveAttribute("data-theme", theme);
+      await expect(page.locator(".hero__visual")).toBeHidden();
+      await expect(page.locator(".hero h1")).toBeInViewport({ ratio: 1 });
+      for (const link of await page.locator(".hero__actions a, .hero__search a").all()) await expect(link).toBeInViewport({ ratio: 1 });
+      await expect(page.locator("#current-season-title")).toBeInViewport();
+      await expect(page.locator(".hero .catalog-status")).toContainText("已審閱動畫目錄");
+      await expect(page.locator(".site-nav a")).toHaveCount(5);
+      expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+    }
+    const search = page.locator(".hero__search a");
+    await search.focus();
+    await page.keyboard.press("Enter");
+    await expect(page).toHaveURL(/\/search\/$/);
+    await page.locator("#catalog-query").fill("YOASOBI");
+    await expect(page.locator(".catalog-result").first()).toBeVisible();
+    await page.goBack({ waitUntil: "domcontentloaded" });
+    await page.locator('.hero__actions a[href="/catalog/"]').click();
+    const older = page.locator(".catalog-decade").last();
+    await older.locator("summary").click();
+    await older.getByRole("link", { name: /2019/ }).click();
+    await page.getByRole("list", { name: "2019 已收錄季度" }).getByRole("link", { name: /春季動畫/ }).click();
+    await expect(page).toHaveURL(/\/seasons\/2019-spring\/$/);
+  }
+  expect(mediaRequests).toEqual([]);
+
+  const context = await browser.newContext({ javaScriptEnabled: false, viewport: { width: 390, height: 844 } });
+  try {
+    const nativePage = await context.newPage();
+    await nativePage.goto(e2eOrigin, { waitUntil: "domcontentloaded" });
+    await expect(nativePage.locator(".hero__visual")).toBeHidden();
+    await expect(nativePage.locator(".hero h1")).toBeVisible();
+    await expect(nativePage.getByRole("navigation", { name: "主要導覽" }).getByRole("link")).toHaveCount(5);
+    await nativePage.locator('.hero__actions a[href="/catalog/"]').click();
+    const older = nativePage.locator(".catalog-decade").last();
+    await older.locator("summary").focus();
+    await nativePage.keyboard.press("Enter");
+    await older.getByRole("link", { name: /2019/ }).click();
+    await nativePage.getByRole("list", { name: "2019 已收錄季度" }).getByRole("link", { name: /春季動畫/ }).click();
+    await expect(nativePage).toHaveURL(/\/seasons\/2019-spring\/$/);
+    expect(await nativePage.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+    await expect(nativePage.locator("iframe")).toHaveCount(0);
+  } finally { await context.close(); }
 });

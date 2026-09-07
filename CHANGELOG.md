@@ -2,6 +2,11 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## v1.49.2 — 手機首頁入口
+
+- 手機首頁先顯示介紹、季度／年份瀏覽與搜尋入口，縮短首屏上下間距；裝飾示意圖保留於較大版面。
+- 原生目錄連結、手機選單與無 JavaScript 閱讀持續可用，歌曲與 API 資料不變。
+
 ## v1.49.1 — 文字對比與首頁閱讀
 
 - 加深淺色模式的珊瑚色，改善來源連結、目錄標籤、導覽選取與滑鼠移入狀態的小字閱讀。
