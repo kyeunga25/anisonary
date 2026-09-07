@@ -9,7 +9,51 @@ import { buildCatalogSearchIndex, searchCatalog } from "@/utils/catalog-search-i
 const spring = curatedSeasonDetails.find(({ id }) => id === "2019-spring")!;
 const anime = (id: number) => curatedAnimeDetails.find((item) => item.id === `curated-${id}`)!;
 
-describe("2019 spring reviewed TV catalogue", () => {
+describe("2019 spring reviewed TV and web catalogue", () => {
+  it("identifies ULTRAMAN's original Netflix season separately from TV broadcast, sequels and live action", async () => {
+    const seed = curated2019SpringSeeds.find(({ id }) => id === "catalog-ultraman-2019")!;
+    expect(seed).toBeDefined();
+    expect(seed).toMatchObject({ startDate: "2019-04-01", editorialWeekday: 1, seasonIds: ["2019-spring"], status: "finished" });
+    expect(seed.broadcastLabel).toContain("網絡配信第 1 季，全 13 話");
+    const detail = curatedAnimeDetails.find(({ id }) => id === seed.id)!;
+    expect(detail).toMatchObject({ slug: "ultraman-2019", titleJa: "ULTRAMAN", titleZhHant: "ULTRAMAN" });
+    for (const omitted of ["anilistId", "anilistUrl", "titleRomaji", "posterUrl", "bannerUrl", "broadcastTimeJst"]) {
+      expect(seed).not.toHaveProperty(omitted);
+      expect(detail).not.toHaveProperty(omitted);
+    }
+    const provider = new ApiProvider("https://anisonary.k-y.cc/api/v1", {
+      fetch: vi.fn<typeof fetch>().mockResolvedValue(new Response(JSON.stringify(detail), { headers: { "Content-Type": "application/json" } }))
+    });
+    expect(await provider.getAnime(detail.slug)).toEqual(detail);
+  });
+
+  it("retains ULTRAMAN's reviewed multilingual identity sources while withholding disputed theme purposes and later TV songs", () => {
+    const detail = curatedAnimeDetails.find(({ id }) => id === "catalog-ultraman-2019")!;
+    expect(detail).toBeDefined();
+    expect(detail.themes).toEqual([]);
+    expect(detail.themeAvailability).toBe("not_announced");
+    expect(detail.sources).toEqual(expect.arrayContaining([
+      expect.objectContaining({ url: "https://anime.heros-ultraman.com/story/", role: "identifier", language: "ja" }),
+      expect.objectContaining({ url: "https://about.netflix.com/zh_tw/news/anime-production-line-deal", role: "first_party", language: "zh-Hant" }),
+      expect.objectContaining({ url: "https://tsuburaya-prod.com/news/4883", role: "first_party", language: "en" }),
+      expect.objectContaining({ url: "https://youranimes.tw/animes/3065", role: "localized_cross_check", language: "zh-Hant" })
+    ]));
+    expect(detail.sources.every(({ verifiedAt }) => verifiedAt === "2026-09-08")).toBe(true);
+    expect(spring.coverageNote).toContain("37 套 TV 作品及 1 套網絡連載");
+  });
+
+  it("finds ULTRAMAN's original season without duplicating sequels or inventing OP and ED matches", async () => {
+    const data = await loadCatalogSearchData(new CuratedProvider(), true);
+    const index = buildCatalogSearchIndex(data.entries);
+    const results = searchCatalog(index, { query: "ULTRAMAN", scope: "anime", year: "2019", quarter: "spring", type: "all" });
+    expect(results.map(({ anime: item }) => item.slug)).toEqual(["ultraman-2019"]);
+    expect(results[0]?.themes).toEqual([]);
+    for (const type of ["OP", "ED"] as const) {
+      expect(searchCatalog(index, { query: "ULTRAMAN", scope: "anime", year: "2019", quarter: "spring", type })).toEqual([]);
+    }
+    expect(curatedAnimeDetails.filter(({ slug }) => ["ultraman-season-2", "ultraman-final"].includes(slug))).toHaveLength(2);
+  });
+
   it("identifies Aikatsu Friends' second TV season independently from the first season, game update and On Parade", async () => {
     const seed = curated2019SpringSeeds.find(({ id }) => id === "catalog-aikatsu-friends-2-2019")!;
     expect(seed).toBeDefined();
@@ -1015,7 +1059,7 @@ describe("2019 spring reviewed TV catalogue", () => {
   });
 
   it("publishes a partial quarter with reviewed identity and song evidence, without unverified artwork", () => {
-    expect(spring.anime).toHaveLength(37);
+    expect(spring.anime).toHaveLength(38);
     expect(spring.coverageNote).toContain("跨季延續及特殊歌曲版本仍待核對");
     expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(115);
     expect(curatedSeasonDetails.some(({ id }) => id === "2025-fall")).toBe(false);

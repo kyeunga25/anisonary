@@ -1698,6 +1698,26 @@ const strikeWitches501EndingRows = [
 ] as const;
 
 const independentSpringSeeds: NativeCuratedAnimeSeed[] = [{
+  id: "catalog-ultraman-2019",
+  slug: "ultraman-2019",
+  titleJa: "ULTRAMAN",
+  titleZhHant: "ULTRAMAN",
+  seasonIds: ["2019-spring"],
+  startDate: "2019-04-01",
+  editorialWeekday: 1,
+  broadcastLabel: "Netflix 日本上線 2019-04-01；網絡配信第 1 季，全 13 話",
+  status: "finished",
+  verifiedAt: "2026-09-08",
+  officialSiteUrl: "https://anime.heros-ultraman.com/",
+  identifierSource: {
+    label: "動畫官方：Netflix 第 1 季識別與 2019 年上線日期",
+    url: "https://anime.heros-ultraman.com/story/",
+    language: "ja"
+  },
+  wikipediaUrl: "https://youranimes.tw/animes/3065",
+  sourceReferenceUrls: ["https://youranimes.tw/bangumi/201904"],
+  themes: []
+}, {
   id: "catalog-aikatsu-friends-2-2019",
   slug: "aikatsu-friends-2-2019",
   titleJa: "アイカツフレンズ！～かがやきのジュエル～",

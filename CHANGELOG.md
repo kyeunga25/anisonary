@@ -2,6 +2,12 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## v1.54.0 — 2019 春季《ULTRAMAN》作品識別
+
+- 收錄 Netflix 第一季，保留 2019 年 4 月 1 日日本上線、全 13 話及繁中／日文／英文第一方識別來源。
+- 歌曲用途仍待核對，維持待補充空狀態，不混入 2020 電視版、續作、真人影集或電影的歌曲、署名與媒體。
+- 春季共 38 套作品（37 套 TV、1 套網絡連載）與 115 筆 OP／ED；本季與夏季仍在補充，2025 秋季尚未收錄。
+
 ## v1.53.0 — 2019 春季《偶像學園Friends！ 第二季》
 
 - 收錄 TV 第二季與 OP〈ひとりじゃない！〉、一般 ED〈Be star〉，保留四人角色合唱、ひびき獨唱名義及共同詞曲編曲。
