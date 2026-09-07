@@ -458,7 +458,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
 
   await page.goto("/search/");
   await expect(page.getByRole("heading", { name: "跨季度搜尋" })).toBeVisible();
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1928");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1931");
 
   const search = page.getByRole("searchbox", { name: "搜尋動畫、歌曲或創作者" });
   await search.fill("ＭＹＴＨ & ＲＯＩＤ");
@@ -498,7 +498,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
   await expect(page.locator("[data-catalog-anime-count]")).toHaveText("0");
 
   await search.press("Escape");
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1928");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1931");
   expect(externalRequests).toEqual([]);
 });
 
@@ -886,7 +886,7 @@ test("catalogue navigation stays compact and drills down through published years
   await expect(navigation.getByRole("link", { name: /動畫目錄/ })).toHaveAttribute("aria-current", "true");
   await expect(page.getByRole("navigation", { name: "2025 年季度導覽" }).getByRole("link", { name: "春季" })).toHaveAttribute("aria-current", "page");
   await expect(page.getByRole("navigation", { name: "所在位置" }).getByRole("link", { name: "2025", exact: true })).toHaveAttribute("href", "/catalog/2025/");
-  await expect(page.getByLabel("季度資料狀態")).toContainText("已發布 29 個季度、1,928 個作品頁與 4,253 首 OP／ED");
+  await expect(page.getByLabel("季度資料狀態")).toContainText("已發布 29 個季度、1,931 個作品頁與 4,259 首 OP／ED");
 
   await page.setViewportSize({ width: 390, height: 844 });
   await page.reload();
@@ -1122,10 +1122,10 @@ test("2019 spring browsing and creator search reach the correct special ending o
   for (const width of [1280, 390]) {
     await page.setViewportSize({ width, height: 844 });
     await page.goto("/catalog/2019/");
-    await page.getByRole("link", { name: /春季動畫.*11 套動畫/ }).click();
+    await page.getByRole("link", { name: /春季動畫.*14 套動畫/ }).click();
     await expect(page.getByRole("heading", { name: "2019 春季動畫" })).toBeVisible();
-    await expect(page.getByText("本季正在補充，目前收錄 11 套 TV 作品。其餘作品、跨季延續及特殊歌曲版本仍待核對。", { exact: true })).toBeVisible();
-    await expect(page.locator("[data-anime-card]")).toHaveCount(11);
+    await expect(page.getByText("本季正在補充，目前收錄 14 套 TV 作品。其餘作品、跨季延續及特殊歌曲版本仍待核對。", { exact: true })).toBeVisible();
+    await expect(page.locator("[data-anime-card]")).toHaveCount(14);
     await expect(page.locator("[data-anime-card] img")).toHaveCount(0);
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 
@@ -1230,6 +1230,49 @@ test("spring fantasy songs retain searchable vocalists, edition dates and consen
   await expect(page.locator("iframe")).toHaveAttribute("src", /youtube-nocookie\.com\/embed\/wZ3Fe1JeecE/);
 });
 
+test("supernatural spring songs preserve co-writers, TV edits and distinct Fairy gone quarters", async ({ page }) => {
+  const mediaRequests: string[] = [];
+  page.on("request", (request) => {
+    if (/youtube|ytimg|googlevideo/.test(new URL(request.url()).hostname)) mediaRequests.push(request.url());
+  });
+  for (const width of [1280, 390]) {
+    await page.setViewportSize({ width, height: 844 });
+    await page.goto("/search/", { waitUntil: "domcontentloaded" });
+    await page.getByLabel("年份", { exact: true }).selectOption("2019");
+    await page.getByLabel("季度", { exact: true }).selectOption("spring");
+    await page.getByLabel("搜尋範圍").selectOption("creators");
+    await page.getByLabel("歌曲用途").selectOption("OP");
+    await page.getByRole("searchbox", { name: "搜尋動畫、歌曲或創作者" }).fill("松井洋平");
+    await page.getByRole("link", { name: "dis-communicate", exact: true }).click();
+    await expect(page).toHaveURL(/\/anime\/mayonaka-no-occult-koumuin\/#theme-mayonaka-no-occult-koumuin-op-1$/);
+    const opening = page.locator("#theme-mayonaka-no-occult-koumuin-op-1");
+    await expect(opening.locator(".theme-card__credits dt").filter({ hasText: /^作詞$/ })).toHaveCount(2);
+    await expect(opening).toContainText("動畫盤另收錄 dis-communicate TV edit");
+    await expect(opening.locator(".youtube-media__title")).toContainText("MV short ver.");
+    await expect(page.locator("#theme-mayonaka-no-occult-koumuin-ed-1")).toContainText("約束のOverture TV edit");
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+
+    await page.goto("/anime/fairy-gone/", { waitUntil: "domcontentloaded" });
+    await expect(page.locator(".theme-card h3")).toHaveText(["KNOCK on the CORE", "Ash-like Snow"]);
+    await expect(page.locator(".theme-card__credits dd")).toHaveText(["待確認", "待確認"]);
+    await expect(page.locator("#theme-fairy-gone-ed-1")).toContainText("TV Size 另行配信；單曲版：2019-04-24");
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+    await page.goto("/anime/fairy-gone-2/", { waitUntil: "domcontentloaded" });
+    await expect(page.locator(".theme-card h3")).toHaveText(["STILL STANDING", "Stay Gold"]);
+    await page.goto("/anime/sarazanmai/", { waitUntil: "domcontentloaded" });
+    await expect(page.locator(".theme-card h3")).toHaveText(["まっさら", "スタンドバイミー"]);
+    await expect(page.locator("#theme-sarazanmai-op-1 .theme-card__credits div").filter({ hasText: "谷口鮪" })).toHaveCount(3);
+    await expect(page.locator("iframe")).toHaveCount(0);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  }
+  expect(mediaRequests).toEqual([]);
+  await page.goto("/anime/fairy-gone/", { waitUntil: "domcontentloaded" });
+  await page.route("https://www.youtube-nocookie.com/**", (route) => route.fulfill({ contentType: "text/html", body: "<!doctype html><title>Official player fixture</title>" }));
+  await page.locator("#theme-fairy-gone-ed-1").getByRole("button", { name: /載入 YouTube 影片/ }).focus();
+  await page.keyboard.press("Enter");
+  await expect(page.locator("iframe")).toHaveAttribute("src", /youtube-nocookie\.com\/embed\/ee855kKPujc/);
+});
+
 test("official video titles identify the edition before consent and remain visible after loading", async ({ page }) => {
   const mediaRequests: string[] = [];
   page.on("request", (request) => {
@@ -1277,25 +1320,26 @@ test("weekday navigation follows populated groups and remains useful after filte
     await page.setViewportSize({ width, height: 844 });
     await page.goto("/seasons/2019-spring/", { waitUntil: "domcontentloaded" });
     const navigation = page.getByRole("navigation", { name: "跳到播出星期" });
-    await expect(navigation.getByRole("link")).toHaveText(["週二", "週三", "週五", "週六", "週日"]);
-    await expect(page.locator("[data-weekday-section]:visible")).toHaveCount(5);
+    await expect(navigation.getByRole("link")).toHaveText(["週二", "週三", "週四", "週五", "週六", "週日"]);
+    await expect(page.locator("[data-weekday-section]:visible")).toHaveCount(6);
     await expect(page.locator(".weekday-section__empty")).toHaveCount(0);
     await expect(page.locator("[data-weekday-section]").first()).toHaveAttribute("id", "weekday-2");
 
     await page.getByRole("checkbox", { name: "有正版影片" }).check();
-    await expect(navigation.getByRole("link")).toHaveText(["週二", "週三", "週五", "週六", "週日"]);
-    await expect(page.locator("[data-result-count]")).toHaveText("7");
+    await expect(navigation.getByRole("link")).toHaveText(["週二", "週三", "週四", "週五", "週六", "週日"]);
+    await expect(page.locator("[data-result-count]")).toHaveText("10");
     for (const link of await navigation.getByRole("link").all()) {
       const target = page.locator((await link.getAttribute("href"))!);
       await expect(target).toBeVisible();
-      await expect(target.locator("[data-anime-card]:visible")).toHaveCount(["#weekday-5", "#weekday-7"].includes((await link.getAttribute("href"))!) ? 2 : 1);
+      const day = await link.getAttribute("href");
+      await expect(target.locator("[data-anime-card]:visible")).toHaveCount(day === "#weekday-7" ? 4 : day === "#weekday-5" ? 2 : 1);
     }
     await navigation.getByRole("link", { name: "週六" }).click();
     await expect(page).toHaveURL(/#weekday-6$/);
     await expect(navigation.getByRole("link", { name: "週六" })).toHaveAttribute("aria-current", "location");
     await page.getByRole("button", { name: "清除篩選" }).click();
-    await expect(navigation.getByRole("link")).toHaveText(["週二", "週三", "週五", "週六", "週日"]);
-    await expect(page.locator("[data-result-count]")).toHaveText("11");
+    await expect(navigation.getByRole("link")).toHaveText(["週二", "週三", "週四", "週五", "週六", "週日"]);
+    await expect(page.locator("[data-result-count]")).toHaveText("14");
     await expect(page.getByRole("checkbox", { name: "有 OP" })).toBeFocused();
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   }
@@ -1316,9 +1360,9 @@ test("weekday navigation follows populated groups and remains useful after filte
   const nativePage = await context.newPage();
   await nativePage.goto(`${e2eOrigin}/seasons/2019-spring/`);
   await expect(nativePage.getByRole("navigation", { name: "跳到播出星期" }).getByRole("link"))
-    .toHaveText(["週二", "週三", "週五", "週六", "週日"]);
-  await expect(nativePage.locator("[data-weekday-section]")).toHaveCount(5);
-  await expect(nativePage.locator("[data-anime-card]")).toHaveCount(11);
+    .toHaveText(["週二", "週三", "週四", "週五", "週六", "週日"]);
+  await expect(nativePage.locator("[data-weekday-section]")).toHaveCount(6);
+  await expect(nativePage.locator("[data-anime-card]")).toHaveCount(14);
   await nativePage.getByRole("link", { name: "週五", exact: true }).click();
   await expect(nativePage).toHaveURL(/#weekday-5$/);
   expect(await nativePage.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);

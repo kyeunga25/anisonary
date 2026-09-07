@@ -3,7 +3,7 @@ import type { CuratedAnimeSeed } from "@/data/curated-seeds/types";
 type Spring2019SeedInput = Omit<
   CuratedAnimeSeed,
   | "id" | "seasonIds" | "editorialWeekday" | "status" | "anilistUrl"
-  | "wikipediaUrl" | "sourceReferenceUrls" | "verifiedAt"
+  | "sourceReferenceUrls" | "verifiedAt"
 >;
 
 function spring2019Seed(row: Spring2019SeedInput): CuratedAnimeSeed {
@@ -15,13 +15,148 @@ function spring2019Seed(row: Spring2019SeedInput): CuratedAnimeSeed {
     editorialWeekday: weekday || 7,
     status: "finished",
     anilistUrl: `https://anilist.co/anime/${row.anilistId}`,
-    wikipediaUrl: "https://youranimes.tw/bangumi/201904",
+    wikipediaUrl: row.wikipediaUrl ?? "https://youranimes.tw/bangumi/201904",
     sourceReferenceUrls: ["https://acgsecrets.hk/bangumi/201904/"],
     verifiedAt: "2026-09-07"
   };
 }
 
 const curated2019SpringSeedRows: Spring2019SeedInput[] = [
+  {
+    anilistId: 101261,
+    slug: "sarazanmai",
+    startDate: "2019-04-11",
+    titleJa: "さらざんまい",
+    titleZhHant: "皿三昧",
+    titleRomaji: "Sarazanmai",
+    officialSiteUrl: "https://sarazanmai.com/",
+    wikipediaUrl: "https://acgsecrets.hk/bangumi/201904/",
+    animeThemesUrl: "https://animethemes.moe/anime/sarazanmai",
+    identifierSource: {
+      label: "AnimeThemes：作品識別交叉連結",
+      url: "https://api.animethemes.moe/anime/sarazanmai?include=resources",
+      language: "en"
+    },
+    broadcastTimeJst: "24:55",
+    broadcastLabel: "富士電視台 每週四 24:55（日本時間）",
+    themes: [
+      {
+        type: "OP",
+        sequence: 1,
+        titleJa: "まっさら",
+        artistDisplayName: "KANA-BOON",
+        youtubeUrl: "https://www.youtube.com/watch?v=KBhUW6PpwMY",
+        releaseDate: "2019-06-12",
+        credits: [
+          { name: "谷口鮪", role: "vocals" },
+          { name: "谷口鮪", role: "lyrics" },
+          { name: "谷口鮪", role: "composition" },
+          { name: "KANA-BOON", role: "arrangement" }
+        ]
+      },
+      {
+        type: "ED",
+        sequence: 1,
+        titleJa: "スタンドバイミー",
+        artistDisplayName: "the peggies",
+        youtubeUrl: "https://www.youtube.com/watch?v=x6zyKrHv12k",
+        releaseDate: "2019-05-29",
+        credits: [
+          { name: "北澤ゆうほ", role: "vocals" },
+          { name: "北澤ゆうほ", role: "lyrics" }
+        ]
+      }
+    ]
+  },
+  {
+    anilistId: 102939,
+    slug: "mayonaka-no-occult-koumuin",
+    startDate: "2019-04-07",
+    titleJa: "真夜中のオカルト公務員",
+    titleZhHant: "深夜的超自然公務員",
+    titleRomaji: "Mayonaka no Occult Koumuin",
+    officialSiteUrl: "https://occultkoumuin.com/",
+    animeThemesUrl: "https://animethemes.moe/anime/mayonaka_no_occult_koumuin",
+    identifierSource: {
+      label: "AnimeThemes：作品識別交叉連結",
+      url: "https://api.animethemes.moe/anime/mayonaka_no_occult_koumuin?include=resources",
+      language: "en"
+    },
+    broadcastTimeJst: "24:30",
+    broadcastLabel: "TOKYO MX／SUN TV／BS11 每週日 24:30（日本時間）",
+    themes: [
+      {
+        type: "OP",
+        sequence: 1,
+        titleJa: "dis-communicate",
+        artistDisplayName: "福山 潤",
+        versionLabel: "動畫盤另收錄 dis-communicate TV edit",
+        youtubeUrl: "https://www.youtube.com/watch?v=sta4kFzyLDI",
+        releaseDate: "2019-04-24",
+        credits: [
+          { name: "福山 潤", role: "vocals" },
+          { name: "福山 潤", role: "lyrics" },
+          { name: "松井洋平", role: "lyrics" },
+          { name: "eba", role: "composition" },
+          { name: "eba", role: "arrangement" }
+        ]
+      },
+      {
+        type: "ED",
+        sequence: 1,
+        titleJa: "約束のOverture",
+        artistDisplayName: "土岐隼一",
+        versionLabel: "動畫盤另收錄 約束のOverture TV edit",
+        youtubeUrl: "https://www.youtube.com/watch?v=ij4l4RR-H4c",
+        releaseDate: "2019-05-15",
+        credits: [
+          { name: "土岐隼一", role: "vocals" },
+          { name: "shungo.", role: "lyrics" },
+          { name: "高木龍一", role: "composition" },
+          { name: "高木龍一", role: "arrangement" }
+        ]
+      }
+    ]
+  },
+  {
+    anilistId: 107418,
+    slug: "fairy-gone",
+    startDate: "2019-04-07",
+    titleJa: "Fairy gone フェアリーゴーン",
+    titleZhHant: "Fairy gone",
+    titleRomaji: "Fairy Gone",
+    officialSiteUrl: "https://www.fairygone.com/",
+    animeThemesUrl: "https://animethemes.moe/anime/fairy_gone",
+    identifierSource: {
+      label: "AnimeThemes：作品識別交叉連結",
+      url: "https://api.animethemes.moe/anime/fairy_gone?include=resources",
+      language: "en"
+    },
+    broadcastTimeJst: "24:00",
+    broadcastLabel: "TOKYO MX／BS11／AT-X 每週日 24:00（日本時間）",
+    themes: [
+      {
+        type: "OP",
+        sequence: 1,
+        titleJa: "KNOCK on the CORE",
+        artistDisplayName: "(K)NoW_NAME",
+        versionLabel: "TV Size 另行配信；單曲版：2019-04-24",
+        youtubeUrl: "https://www.youtube.com/watch?v=B8BAqO-p9LU",
+        releaseDate: "2019-04-24",
+        credits: []
+      },
+      {
+        type: "ED",
+        sequence: 1,
+        titleJa: "Ash-like Snow",
+        artistDisplayName: "(K)NoW_NAME",
+        versionLabel: "TV Size 另行配信；單曲版：2019-04-24",
+        youtubeUrl: "https://www.youtube.com/watch?v=ee855kKPujc",
+        releaseDate: "2019-04-24",
+        credits: []
+      }
+    ]
+  },
   {
     anilistId: 100112,
     slug: "kenja-no-mago",

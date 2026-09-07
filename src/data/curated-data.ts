@@ -4605,6 +4605,39 @@ const animeOfficialSourceOverrides: Record<number, { label: string; url: string 
 };
 
 const animeSourceOverrides: Record<number, AnimeSourceSeed[]> = {
+  101261: [{
+    label: "Noitamina 官方：原始 TV 首播日期與編輯播出日",
+    url: "https://news.noitamina.tv/sarazanmai/onair/",
+    language: "ja",
+    role: "first_party"
+  }],
+  102939: [{
+    label: "台灣角川：作品繁中名稱與 2019 春季動畫化資料",
+    url: "https://www.kadokawa.com.tw/products/9789575649074",
+    language: "zh-Hant",
+    role: "first_party"
+  }, {
+    label: "動畫官方：TV 首播日期、時段與後續重播區分",
+    url: "https://occultkoumuin.com/onair.html",
+    language: "ja",
+    role: "first_party"
+  }, {
+    label: "YourAnimes：繁中名稱與 TV 作品交叉核對",
+    url: "https://youranimes.tw/animes/4693",
+    language: "zh-Hant",
+    role: "localized_cross_check"
+  }],
+  107418: [{
+    label: "TOHO animation 官方：第一季 OP 映像與 TV 首播時段",
+    url: "https://www.youtube.com/watch?v=B8BAqO-p9LU",
+    language: "ja",
+    role: "first_party"
+  }, {
+    label: "P.A.WORKS 官方：第一季作品與歌曲資料",
+    url: "https://www.pa-works.jp/works/fairy-gone/",
+    language: "ja",
+    role: "first_party"
+  }],
   100112: [{
     label: "動畫官方：TV 首播日期與播出時段",
     url: "https://kenja-no-mago.jp/onair/",
