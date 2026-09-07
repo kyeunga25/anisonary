@@ -10,6 +10,78 @@ const spring = curatedSeasonDetails.find(({ id }) => id === "2019-spring")!;
 const anime = (id: number) => curatedAnimeDetails.find((item) => item.id === `curated-${id}`)!;
 
 describe("2019 spring reviewed TV catalogue", () => {
+  it("identifies the 2019 Yo-kai Watch TV series independently from the 2021 musical-note sequel", async () => {
+    const seed = curated2019SpringSeeds.find(({ id }) => id === "catalog-youkai-watch-2019")!;
+    expect(seed).toMatchObject({ startDate: "2019-04-05", editorialWeekday: 5, broadcastTimeJst: "18:25", seasonIds: ["2019-spring"] });
+    const detail = curatedAnimeDetails.find(({ id }) => id === seed.id)!;
+    expect(detail).toMatchObject({ slug: "youkai-watch-2019", titleJa: "妖怪ウォッチ！", titleZhHant: "妖怪手錶！", status: "finished" });
+    for (const omitted of ["anilistId", "anilistUrl", "titleRomaji", "posterUrl", "bannerUrl"]) {
+      expect(seed).not.toHaveProperty(omitted);
+      expect(detail).not.toHaveProperty(omitted);
+    }
+    expect(detail.sources).toContainEqual(expect.objectContaining({ url: "https://www.youkai-watch.jp/topics/190215.html", role: "identifier", language: "ja" }));
+    expect(detail.sources).toContainEqual(expect.objectContaining({ url: "https://youranimes.tw/bangumi/201904", role: "localized_cross_check", language: "zh-Hant" }));
+    const sequel = anime(130445);
+    expect(sequel).toMatchObject({ slug: "youkai-watch", titleJa: "妖怪ウォッチ♪" });
+    expect(sequel.id).not.toBe(detail.id);
+    expect(sequel.themes.some(({ titleJa }) => detail.themes.some((theme) => theme.titleJa === titleJa))).toBe(false);
+    const provider = new ApiProvider("https://anisonary.k-y.cc/api/v1", {
+      fetch: vi.fn<typeof fetch>().mockResolvedValue(new Response(JSON.stringify(detail), { headers: { "Content-Type": "application/json" } }))
+    });
+    expect(await provider.getAnime(detail.slug)).toEqual(detail);
+  });
+
+  it("preserves Yo-kai Watch's 2019 singers, shared lyricists and CD dates without importing piano arrangements or coupling tracks", () => {
+    const themes = curatedAnimeDetails.find(({ id }) => id === "catalog-youkai-watch-2019")!.themes;
+    expect(themes.map(({ type, sequence, titleJa, artistDisplayName, releaseDate }) => [type, sequence, titleJa, artistDisplayName, releaseDate])).toEqual([
+      ["OP", 1, "ケラケラホーのうた", "紘毅", "2019-06-05"],
+      ["ED", 1, "ようかい体操第一 ～つづき～", "かえで☆", "2019-06-05"]
+    ]);
+    expect(themes[0]?.credits).toEqual([
+      { name: "紘毅", role: "vocals" }, { name: "高木貴司", role: "lyrics" },
+      { name: "紘毅", role: "composition" }, { name: "菊谷知樹", role: "arrangement" }
+    ]);
+    expect(themes[1]?.credits).toEqual([
+      { name: "かえで☆", role: "vocals" }, { name: "ラッキィ池田", role: "lyrics" }, { name: "高木貴司", role: "lyrics" },
+      { name: "菊谷知樹", role: "composition" }, { name: "菊谷知樹", role: "arrangement" }
+    ]);
+    for (const theme of themes) expect(theme.versionLabel).toContain("CD 完整版");
+    expect(themes[0]?.versionLabel).toContain("MV 短版");
+    expect(themes[1]?.versionLabel).toContain("振付影片為短版");
+    expect(themes.flatMap(({ credits }) => credits).some(({ name }) => ["川田千春", "青山しおり", "Dream5"].includes(name))).toBe(false);
+  });
+
+  it("retains independently reviewed Yo-kai Watch music sources and playable official video editions", () => {
+    const themes = curatedAnimeDetails.find(({ id }) => id === "catalog-youkai-watch-2019")!.themes;
+    for (const theme of themes) {
+      expect(theme.lastVerifiedAt).toBe("2026-09-07");
+      expect(theme.sources.every(({ verifiedAt }) => verifiedAt === "2026-09-07")).toBe(true);
+      expect(theme.sources).toContainEqual(expect.objectContaining({ url: "https://anison.online/anime/1122", role: "cross_check", language: "ja" }));
+      expect(theme.sources.some(({ url }) => ["avex.jp", "avexnet.jp", "www.avexnet.jp", "www.anisil.com"].includes(new URL(url).hostname))).toBe(false);
+    }
+    expect(themes[0]?.sources).toContainEqual(expect.objectContaining({ url: "https://maekawakikaku.co.jp/news/archives/2019/20190604_837.html", role: "first_party" }));
+    expect(themes[1]?.sources).toContainEqual(expect.objectContaining({ url: "https://popholic.jp/archives/12212", role: "first_party" }));
+    expect(themes[0]?.videos.map(({ youtubeVideoId }) => youtubeVideoId)).toEqual(["qWcfCWkb9gw"]);
+    expect(themes[1]?.videos.map(({ youtubeVideoId }) => youtubeVideoId)).toEqual(["dYmvbaxuzGo", "BOiLAwterTg"]);
+    expect(themes.flatMap(({ videos }) => videos).every(({ officialStatus, embeddable, type }) => officialStatus === "official" && embeddable && type === "other")).toBe(true);
+    expect(themes[0]?.videos[0]?.title).toContain("short ver.");
+    expect(themes[1]?.videos[1]?.title).toContain("振りビデオ(short ver.)");
+    expect(themes.flatMap(({ sources }) => sources).some(({ url }) => url.includes("aEAsIwEmhHQ"))).toBe(false);
+  });
+
+  it("finds Yo-kai Watch's 2019 title and original song creators within the correct quarter", async () => {
+    const index = buildCatalogSearchIndex((await loadCatalogSearchData(new CuratedProvider(), true)).entries);
+    const options = { year: "2019", quarter: "spring" } as const;
+    const titleResults = searchCatalog(index, { ...options, query: "妖怪手錶", scope: "anime", type: "all" });
+    expect(titleResults.map(({ anime: item }) => item.slug)).toEqual(["youkai-watch-2019"]);
+    for (const [query, type, title] of [["紘毅", "OP", "ケラケラホーのうた"], ["ラッキィ池田", "ED", "ようかい体操第一 ～つづき～"]] as const) {
+      const results = searchCatalog(index, { ...options, query, scope: "creators", type });
+      expect(results.map(({ anime: item }) => item.slug)).toEqual(["youkai-watch-2019"]);
+      expect(results[0]?.themes.map(({ titleJa }) => titleJa)).toEqual([title]);
+    }
+    expect(searchCatalog(index, { ...options, query: "ケラケラホーのうた", scope: "songs", type: "OP", year: "2021" })).toEqual([]);
+  });
+
   it("identifies Bakugan Battle Planet by its 2019 Japanese TV premiere and the Taiwanese broadcaster's title", async () => {
     const seed = curated2019SpringSeeds.find(({ id }) => id === "catalog-bakugan-battle-planet-2019")!;
     expect(seed).toMatchObject({ startDate: "2019-04-01", editorialWeekday: 1, broadcastTimeJst: "17:55", seasonIds: ["2019-spring"] });
@@ -668,9 +740,9 @@ describe("2019 spring reviewed TV catalogue", () => {
   });
 
   it("publishes a partial quarter with reviewed identity and song evidence, without unverified artwork", () => {
-    expect(spring.anime).toHaveLength(32);
+    expect(spring.anime).toHaveLength(33);
     expect(spring.coverageNote).toContain("跨季延續及特殊歌曲版本仍待核對");
-    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(94);
+    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(96);
     expect(curatedSeasonDetails.some(({ id }) => id === "2025-fall")).toBe(false);
     for (const seed of curated2019SpringSeeds) {
       expect(seed.seasonIds).toEqual(["2019-spring"]);

@@ -1,6 +1,29 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2019SpringThemeVideos = {
+  "catalog-youkai-watch-2019:OP:1": [{
+    youtubeVideoId: "qWcfCWkb9gw",
+    title: "紘毅 / ケラケラホーのうた MUSIC VIDEO (short ver.)",
+    type: "other",
+    channelName: "avex",
+    officialStatus: "official",
+    embeddable: true
+  }],
+  "catalog-youkai-watch-2019:ED:1": [{
+    youtubeVideoId: "dYmvbaxuzGo",
+    title: "【妖怪ウォッチ！】エンディングテーマ「ようかい体操第一 〜つづき〜」",
+    type: "other",
+    channelName: "妖怪ウォッチ 公式チャンネル 妖Tube",
+    officialStatus: "official",
+    embeddable: true
+  }, {
+    youtubeVideoId: "BOiLAwterTg",
+    title: "かえで☆ / ようかい体操第一 ~つづき~ 振りビデオ(short ver.)",
+    type: "other",
+    channelName: "avex",
+    officialStatus: "official",
+    embeddable: true
+  }],
   "catalog-strike-witches-501-2019:OP:1": [{
     youtubeVideoId: "h4Ckhm3c6d0",
     title: "石田燿子 / 空が呼ぶほうへ(TVアニメ「ストライクウィッチーズ 501部隊発進しますっ！」オープニング・テーマ)",

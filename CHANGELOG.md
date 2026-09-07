@@ -2,6 +2,12 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## v1.49.0 — 2019 春季《妖怪手錶！》
+
+- 收錄 2019 年 TV 系列與 2 筆 OP／ED，保留演唱名義、共同作詞、原曲編曲與 CD 完整版日期；不與 2021 年《妖怪手錶♪》合併。
+- 新增 3 筆官方影片 metadata，分開 OP 短版 MV、ED 動畫影片及振付短版；未確認可播放的 OP 動畫上傳不加入。
+- 春季共 33 套作品、96 筆 OP／ED；本季與夏季仍在補充，2025 秋季尚未收錄。
+
 ## v1.48.0 — 2019 春季《爆丸 決戰星球》
 
 - 收錄日本播出版、1 首 OP 與 2 首 ED，保留共同作曲、共同編曲及前後期片尾；後期 ED 註明 2020 年更新。
