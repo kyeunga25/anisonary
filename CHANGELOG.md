@@ -2,6 +2,15 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.32.1] - 2026-09-07
+
+### Fixed
+
+- omit empty weekday sections and their jump links from the initial season page, including when JavaScript is unavailable;
+- keep weekday links and the current anchor synchronized with filtered sections, and show one clear empty state when no works match;
+- remove spacing left by hidden sections and load initial posters from the first populated group;
+- preserve all reviewed catalogue records, source dates and API responses.
+
 ## [1.32.0] - 2026-09-07
 
 ### Added

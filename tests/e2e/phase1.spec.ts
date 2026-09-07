@@ -1155,6 +1155,59 @@ test("2019 spring browsing and creator search reach the correct special ending o
   await expect(page.locator("iframe")).toHaveAttribute("src", /youtube-nocookie\.com\/embed\/MeK5M0M8U8A/);
 });
 
+test("weekday navigation follows populated groups and remains useful after filters and without JavaScript", async ({ page, browser }) => {
+  for (const width of [1280, 390]) {
+    await page.setViewportSize({ width, height: 844 });
+    await page.goto("/seasons/2019-spring/", { waitUntil: "domcontentloaded" });
+    const navigation = page.getByRole("navigation", { name: "跳到播出星期" });
+    await expect(navigation.getByRole("link")).toHaveText(["週二", "週三", "週五", "週六"]);
+    await expect(page.locator("[data-weekday-section]:visible")).toHaveCount(4);
+    await expect(page.locator(".weekday-section__empty")).toHaveCount(0);
+    await expect(page.locator("[data-weekday-section]").first()).toHaveAttribute("id", "weekday-2");
+
+    await page.getByRole("checkbox", { name: "有正版影片" }).check();
+    await expect(navigation.getByRole("link")).toHaveText(["週二", "週六"]);
+    await expect(page.locator("[data-result-count]")).toHaveText("2");
+    for (const link of await navigation.getByRole("link").all()) {
+      const target = page.locator((await link.getAttribute("href"))!);
+      await expect(target).toBeVisible();
+      await expect(target.locator("[data-anime-card]:visible")).toHaveCount(1);
+    }
+    await navigation.getByRole("link", { name: "週六" }).click();
+    await expect(page).toHaveURL(/#weekday-6$/);
+    await expect(navigation.getByRole("link", { name: "週六" })).toHaveAttribute("aria-current", "location");
+    await page.getByRole("button", { name: "清除篩選" }).click();
+    await expect(navigation.getByRole("link")).toHaveText(["週二", "週三", "週五", "週六"]);
+    await expect(page.locator("[data-result-count]")).toHaveText("4");
+    await expect(page.getByRole("checkbox", { name: "有 OP" })).toBeFocused();
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  }
+
+  await page.goto("/seasons/2023-fall/", { waitUntil: "domcontentloaded" });
+  for (const label of ["有 OP", "有 ED", "有正版影片"]) await page.getByRole("checkbox", { name: label, exact: true }).check();
+  await expect(page.locator("[data-result-count]")).toHaveText("0");
+  await expect(page.locator("[data-filter-empty]")).toHaveText("沒有符合目前篩選條件的動畫。");
+  await expect(page.locator("[data-filter-empty]")).toBeVisible();
+  await expect(page.getByRole("navigation", { name: "跳到播出星期" })).toBeHidden();
+  await expect(page.locator("[data-weekday-section]:visible")).toHaveCount(0);
+  await page.getByRole("button", { name: "清除篩選" }).click();
+  await expect(page.locator("[data-result-count]")).toHaveText("100");
+  await expect(page.getByRole("navigation", { name: "跳到播出星期" })).toBeVisible();
+  await expect(page.locator("[data-filter-empty]")).toBeHidden();
+
+  const context = await browser.newContext({ javaScriptEnabled: false, viewport: { width: 390, height: 844 } });
+  const nativePage = await context.newPage();
+  await nativePage.goto(`${e2eOrigin}/seasons/2019-spring/`);
+  await expect(nativePage.getByRole("navigation", { name: "跳到播出星期" }).getByRole("link"))
+    .toHaveText(["週二", "週三", "週五", "週六"]);
+  await expect(nativePage.locator("[data-weekday-section]")).toHaveCount(4);
+  await expect(nativePage.locator("[data-anime-card]")).toHaveCount(4);
+  await nativePage.getByRole("link", { name: "週五", exact: true }).click();
+  await expect(nativePage).toHaveURL(/#weekday-5$/);
+  expect(await nativePage.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  await context.close();
+});
+
 test("unknown routes render the public 404 state and stay out of the index", async ({ page }) => {
   const response = await page.goto("/not-a-real-route/");
 
