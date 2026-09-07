@@ -2,6 +2,14 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.39.1] - 2026-09-07
+
+### Fixed
+
+- display an ensemble once when its entire reviewed vocal list exactly matches the existing artist label, reducing repeated names on compact song cards;
+- retain distinct individual vocalists, all non-vocal production roles, original order, source links, creator search and API data;
+- distinguish pending additional production credits from an already displayed vocal ensemble, with the same rendering available without JavaScript.
+
 ## [1.39.0] - 2026-09-07
 
 ### Added
