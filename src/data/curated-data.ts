@@ -4606,6 +4606,12 @@ const animeOfficialSourceOverrides: Record<string, { label: string; url: string 
 };
 
 const animeSourceOverrides: Record<string, AnimeSourceSeed[]> = {
+  "catalog-bakugan-battle-planet-2019": [{
+    label: "YOYOTV 台灣播出方：繁中作品名稱；中文主題影片不作日語 OP／ED 版本",
+    url: "https://www.youtube.com/watch?v=9yiBbt820uo",
+    language: "zh-Hant",
+    role: "first_party"
+  }],
   105749: [{
     label: "東京電視台：2019 年首集、首播日期與播出時段",
     url: "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201904/22856_201904021755.html",

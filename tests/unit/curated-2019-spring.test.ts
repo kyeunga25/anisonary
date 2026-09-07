@@ -10,6 +10,79 @@ const spring = curatedSeasonDetails.find(({ id }) => id === "2019-spring")!;
 const anime = (id: number) => curatedAnimeDetails.find((item) => item.id === `curated-${id}`)!;
 
 describe("2019 spring reviewed TV catalogue", () => {
+  it("identifies Bakugan Battle Planet by its 2019 Japanese TV premiere and the Taiwanese broadcaster's title", async () => {
+    const seed = curated2019SpringSeeds.find(({ id }) => id === "catalog-bakugan-battle-planet-2019")!;
+    expect(seed).toMatchObject({ startDate: "2019-04-01", editorialWeekday: 1, broadcastTimeJst: "17:55", seasonIds: ["2019-spring"] });
+    const detail = curatedAnimeDetails.find(({ id }) => id === seed.id)!;
+    expect(detail).toMatchObject({ slug: "bakugan-battle-planet-2019", titleJa: "爆丸バトルプラネット", titleZhHant: "爆丸 決戰星球", status: "finished" });
+    for (const omitted of ["anilistId", "anilistUrl", "titleRomaji", "posterUrl", "bannerUrl"]) {
+      expect(seed).not.toHaveProperty(omitted);
+      expect(detail).not.toHaveProperty(omitted);
+    }
+    expect(detail.sources).toContainEqual(expect.objectContaining({ url: "https://www.tv-tokyo.co.jp/anime/bakugan-bp/onair/", role: "identifier", language: "ja" }));
+    expect(detail.sources).toContainEqual(expect.objectContaining({ url: "https://www.youtube.com/watch?v=9yiBbt820uo", role: "first_party", language: "zh-Hant" }));
+    const provider = new ApiProvider("https://anisonary.k-y.cc/api/v1", {
+      fetch: vi.fn<typeof fetch>().mockResolvedValue(new Response(JSON.stringify(detail), { headers: { "Content-Type": "application/json" } }))
+    });
+    expect(await provider.getAnime(detail.slug)).toEqual(detail);
+  });
+
+  it("keeps Bakugan's Japanese opening and two endings distinct from localized songs and unconfirmed release dates", () => {
+    const themes = curatedAnimeDetails.find(({ id }) => id === "catalog-bakugan-battle-planet-2019")!.themes;
+    expect(themes.map(({ type, sequence, titleJa, artistDisplayName }) => [type, sequence, titleJa, artistDisplayName])).toEqual([
+      ["OP", 1, "情熱ジャンボリー", "HiHi Jets"],
+      ["ED", 1, "Be my story", "HiHi Jets"],
+      ["ED", 2, "サヨナラの方程式", "HiHi Jets"]
+    ]);
+    for (const theme of themes) {
+      expect(theme.versionLabel).toContain("日本播出版");
+      expect(theme.releaseDate).toBeUndefined();
+      expect(theme.videos).toEqual([]);
+      expect(theme.links.some(({ platform }) => platform === "YouTube")).toBe(false);
+    }
+    expect(themes[2]?.versionLabel).toContain("後期 ED");
+    expect(themes[0]?.credits.filter(({ role }) => role === "composition")).toEqual([
+      { name: "川口進", role: "composition" }, { name: "MiNE", role: "composition" }, { name: "Atsushi Shimada", role: "composition" }
+    ]);
+    expect(themes[0]?.credits.filter(({ role }) => role === "arrangement")).toEqual([
+      { name: "Atsushi Shimada", role: "arrangement" }, { name: "Peach", role: "arrangement" }
+    ]);
+    expect(themes[1]?.credits).toEqual([
+      { name: "HiHi Jets", role: "vocals" }, { name: "中村崇人", role: "lyrics" },
+      { name: "中村崇人", role: "composition" }, { name: "Dr.Dalmatian", role: "arrangement" }
+    ]);
+    expect(themes[2]?.credits).toEqual([
+      { name: "HiHi Jets", role: "vocals" }, { name: "miyakei", role: "lyrics" },
+      { name: "大智", role: "composition" }, { name: "児山啓介", role: "composition" }
+    ]);
+  });
+
+  it("preserves independent first-party song evidence and actual verification dates for Bakugan", () => {
+    const themes = curatedAnimeDetails.find(({ id }) => id === "catalog-bakugan-battle-planet-2019")!.themes;
+    for (const theme of themes) {
+      expect(theme.lastVerifiedAt).toBe("2026-09-07");
+      expect(theme.sources.every(({ verifiedAt }) => verifiedAt === "2026-09-07")).toBe(true);
+      expect(theme.sources).toContainEqual(expect.objectContaining({ url: "https://japan-anime-song.com/bakumarubatorupuranetto-anison/", role: "cross_check", language: "ja" }));
+      expect(theme.sources.some(({ url }) => url.includes("anisil.com") || url.includes("tms-e.co.jp"))).toBe(false);
+    }
+    expect(themes[0]?.sources).toContainEqual(expect.objectContaining({ url: "https://www.sega.jp/topics/detail/190306_goods_1/", role: "first_party" }));
+    expect(themes[1]?.sources).toContainEqual(expect.objectContaining({ url: "https://onetrap.ageha.net/archives/onetrap_news/0067", role: "first_party" }));
+    expect(themes[2]?.sources).toContainEqual(expect.objectContaining({ url: "https://www.tv-tokyo.co.jp/anime/bakugan-bp/staff/", role: "first_party" }));
+  });
+
+  it("finds Bakugan by its Chinese title, opening co-arranger and second-ending co-composer without leaking into another quarter", async () => {
+    const index = buildCatalogSearchIndex((await loadCatalogSearchData(new CuratedProvider(), true)).entries);
+    const options = { year: "2019", quarter: "spring" } as const;
+    const titleResults = searchCatalog(index, { ...options, query: "爆丸 決戰星球", scope: "anime", type: "all" });
+    expect(titleResults.map(({ anime: item }) => item.slug)).toEqual(["bakugan-battle-planet-2019"]);
+    for (const [query, type, title] of [["Peach", "OP", "情熱ジャンボリー"], ["児山啓介", "ED", "サヨナラの方程式"]] as const) {
+      const results = searchCatalog(index, { ...options, query, scope: "creators", type });
+      expect(results.map(({ anime: item }) => item.slug)).toEqual(["bakugan-battle-planet-2019"]);
+      expect(results[0]?.themes.map(({ titleJa }) => titleJa)).toEqual([title]);
+    }
+    expect(searchCatalog(index, { ...options, query: "HiHi Jets", scope: "creators", type: "all", quarter: "summer" })).toEqual([]);
+  });
+
   it("identifies 501 Takeoff as the 2019 TV short on its Tuesday editorial premiere without borrowing a sequel identity", async () => {
     const seed = curated2019SpringSeeds.find(({ id }) => id === "catalog-strike-witches-501-2019")!;
     expect(seed).toMatchObject({ startDate: "2019-04-09", seasonIds: ["2019-spring"], verifiedAt: "2026-09-07" });
@@ -595,9 +668,9 @@ describe("2019 spring reviewed TV catalogue", () => {
   });
 
   it("publishes a partial quarter with reviewed identity and song evidence, without unverified artwork", () => {
-    expect(spring.anime).toHaveLength(31);
+    expect(spring.anime).toHaveLength(32);
     expect(spring.coverageNote).toContain("跨季延續及特殊歌曲版本仍待核對");
-    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(91);
+    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(94);
     expect(curatedSeasonDetails.some(({ id }) => id === "2025-fall")).toBe(false);
     for (const seed of curated2019SpringSeeds) {
       expect(seed.seasonIds).toEqual(["2019-spring"]);
