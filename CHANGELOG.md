@@ -2,6 +2,13 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## v1.49.1 — 文字對比與首頁閱讀
+
+- 加深淺色模式的珊瑚色，改善來源連結、目錄標籤、導覽選取與滑鼠移入狀態的小字閱讀。
+- 深色模式的 OP／ED 標籤與彩色按鈕使用深色文字；首頁示意標籤依各自背景調整前景色。
+- 搜尋輸入提示改用完整不透明的次要文字色；首頁標題精簡並按可用寬度換行，保留 OP／ED 不拆行，避免平板版面水平溢出。
+- 全域導覽、資料與 API 不變。
+
 ## v1.49.0 — 2019 春季《妖怪手錶！》
 
 - 收錄 2019 年 TV 系列與 2 筆 OP／ED，保留演唱名義、共同作詞、原曲編曲與 CD 完整版日期；不與 2021 年《妖怪手錶♪》合併。
