@@ -1,6 +1,46 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2019SummerThemeVideos = {
+  "109929:ED:2": [
+    {
+      youtubeVideoId: "62xOuMZQNEw",
+      title: "アニメ 博多明太！ぴりからこちゃん EDテーマ 「ピリッと大スキ♡ by fumika」Edit ver.",
+      type: "other",
+      channelName: "よしもとミュージック",
+      officialStatus: "official",
+      embeddable: true
+    }
+  ],
+  "109603:ED:1": [
+    {
+      youtubeVideoId: "vTsMxkJfKNo",
+      title: "betcover!! / 決壊",
+      type: "full_music_video",
+      channelName: "avex",
+      officialStatus: "official",
+      embeddable: true
+    }
+  ],
+  "111144:OP:1": [
+    {
+      youtubeVideoId: "YwssMJO4T8s",
+      title: "【10/16発売】相羽あいな「Lead the way」Music Video(short ver.)",
+      type: "other",
+      channelName: "ブシロード公式チャンネル",
+      officialStatus: "official",
+      embeddable: true
+    }
+  ],
+  "111144:ED:2": [
+    {
+      youtubeVideoId: "jlX_8QPjZmY",
+      title: "【MV】虹のコンキスタドール「ぼくらのターン」(虹コン)",
+      type: "full_music_video",
+      channelName: "虹のコンキスタドール",
+      officialStatus: "official",
+      embeddable: true
+    }
+  ],
   "104252:OP:1": [
     {
       youtubeVideoId: "2Sso_1gPj-s",

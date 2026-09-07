@@ -55,7 +55,6 @@ const firstPartyThemeUrlById: Readonly<Partial<Record<number, string>>> = {
   101215: "https://www.ntv.co.jp/chihayafuru/",
   108307: "https://psycho-pass.com/3rd/",
   108581: "https://hi-score-girl.com/",
-  111048: "https://kengan.net/music/",
   112153: "https://www.tv-tokyo.co.jp/anime/pocketmonster/",
   108598: "https://levius.net/music/",
 };
@@ -69,9 +68,41 @@ const crossCheckUrlById: Readonly<Partial<Record<number, string>>> = {
     "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85",
 };
 
+const kenganVersionSources: Readonly<Record<string, readonly string[]>> = {
+  "OP:1": ["https://myfirststory.net/contents/254098"],
+  "ED:1": ["https://kengan.net/music/ed.html", "https://kengan.net/music/anthems.html"],
+  "OP:2": ["https://news.ponycanyon.co.jp/2020/04/37772"],
+  "ED:2": ["https://kengan.net/music/ed.html", "https://www.youtube.com/watch?v=1rYz88Fi-j8"],
+};
+
 function sourcesFor(
   seed: (typeof curated2019FallSeeds)[number],
+  theme: (typeof seed.themes)[number],
 ): readonly CuratedThemeSourceSeed[] {
+  if (seed.anilistId === 111048) {
+    const urls = kenganVersionSources[`${theme.type}:${theme.sequence}`];
+    if (!urls) throw new Error("Missing reviewed Kengan release-version source");
+    return [
+      ...urls.map((url): CuratedThemeSourceSeed => ({
+        label: "《拳願阿修羅》第一方歌曲資料：Netflix 配信及電視播出版",
+        url,
+        language: "ja",
+        role: "first_party",
+      })),
+      {
+        label: "AnimeThemes：Netflix 配信及電視播出版 OP／ED 交叉核對",
+        url: seed.animeThemesUrl!,
+        language: "en",
+        role: "cross_check",
+      },
+      {
+        label: "繁中資料：Netflix 配信及電視播出版歌曲交叉核對",
+        url: crossCheckUrlById[111048]!,
+        language: "zh-Hant",
+        role: "cross_check",
+      },
+    ];
+  }
   const firstPartyUrl =
     firstPartyThemeUrlById[seed.anilistId] ?? seed.officialSiteUrl;
   const crossCheckUrl =
@@ -103,7 +134,7 @@ export const curated2019FallThemeSources = Object.fromEntries(
   curated2019FallSeeds.flatMap((seed) =>
     seed.themes.map((theme) => [
       `${seed.anilistId}:${theme.type}:${theme.sequence}`,
-      sourcesFor(seed),
+      sourcesFor(seed, theme),
     ]),
   ),
 ) satisfies CuratedThemeSourceOverrideMap;

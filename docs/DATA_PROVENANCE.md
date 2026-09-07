@@ -31,13 +31,13 @@ API、資料庫、商標或媒體重用權。完整授權邊界見
 
 `first_party` 表示動畫製作／發行方、唱片公司、藝人官方渠道、官方影片或正式播出機構的公開頁面。`cross_check` 表示用於發現缺口及交叉比對的公開索引。兩種角色都是來源分類，不代表數值信心或內容評分。
 
-2019 夏季先整理 32 套 TV 作品，其他作品與特殊歌曲仍待核對；`coverageNote` 會在季度頁及 API 公開說明本季範圍。
+2019 夏季目前整理 35 套 TV 作品及 1 套網絡連載，其他作品與特殊歌曲仍待核對；`coverageNote` 會在季度頁及 API 公開說明本季範圍。
 
-目前二十八季快照的 season references、1,907 個作品及 4,214 筆 OP／ED 都有結構化 provenance；4,214 筆歌曲全部至少保留一個 `first_party` 與一個 `cross_check` 來源。`tests/unit/curated-catalog.test.ts` 鎖定來源數量、角色、語言、HTTPS、核對日期、Mock URL 禁止條件，以及 legacy labels 與結構化 ledger 的一致性。
+目前二十八季快照的 season references、1,911 個作品及 4,225 筆 OP／ED 都有結構化 provenance；4,225 筆歌曲全部至少保留一個 `first_party` 與一個 `cross_check` 來源。`tests/unit/curated-catalog.test.ts` 鎖定來源數量、角色、語言、HTTPS、核對日期、Mock URL 禁止條件，以及 legacy labels 與結構化 ledger 的一致性。
 
 ## 欄位決策
 
-新季度的發行日期、版本及 credits 可直接記錄在其 seed，與既有 override 輸出相容。
+新季度的發行日期、版本、credits 及歌曲 `lastVerifiedAt` 可直接記錄在其 seed，與既有 override 輸出相容。只修正歌曲時，可用 `metadataVerifiedAt` 保留未重新核對的作品／圖像來源日期；這是 authoring 欄位，不增加公開 API 欄位。歌曲與作品各自的核對日期必須符合其來源 ledger，不能把歌曲修正日期套到未重新審閱的圖片。
 
 - 日文曲名、演唱者、credits、影片及發行頁以第一方公開資料作最終核對。
 - AnimeThemes、UZUREA、Annict、Bangumi、AniList 與年度動畫列表只按

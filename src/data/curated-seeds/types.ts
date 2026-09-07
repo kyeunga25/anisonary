@@ -2,7 +2,7 @@ import type { PublicAnimeDetail, PublicTheme, Quarter } from "@/types/public-api
 
 export type CuratedSeasonId = `${number}-${Quarter}`;
 
-export interface CuratedThemeSeed extends Partial<Pick<PublicTheme, "credits" | "versionLabel" | "releaseDate">> {
+export interface CuratedThemeSeed extends Partial<Pick<PublicTheme, "credits" | "versionLabel" | "releaseDate" | "lastVerifiedAt">> {
   type: "OP" | "ED";
   sequence: number;
   titleJa: string;
@@ -17,6 +17,7 @@ export interface CuratedAnimeSeed {
   slug: string;
   seasonIds: CuratedSeasonId[];
   verifiedAt?: string;
+  metadataVerifiedAt?: string;
   startDate: string;
   titleJa: string;
   titleZhHant: string;

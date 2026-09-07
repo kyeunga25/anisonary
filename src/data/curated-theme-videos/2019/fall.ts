@@ -407,18 +407,18 @@ export const curated2019FallThemeVideos = {
       embeddable: true,
     },
   ],
-  "111048:OP:1": [
+  "111048:OP:2": [
     {
       youtubeVideoId: "3oWHMoFohuM",
       title:
-        "アニメ『ケンガンアシュラ』Season1 ノンクレジット2ndオープニング｜「哀紫電一閃」",
+        "アニメ『ケンガンアシュラ』Season1 ノンクレジット2ndオープニング｜オメでたい頭でなにより「哀紫電一閃」",
       type: "creditless_op",
       channelName: "公式「ケンガンアシュラ」",
       officialStatus: "official",
       embeddable: true,
     },
   ],
-  "111048:ED:1": [
+  "111048:ED:2": [
     {
       youtubeVideoId: "jjjfr8jizCs",
       title:
