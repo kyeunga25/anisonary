@@ -1,6 +1,6 @@
 # Anisonary Public Static API v1 Contract
 
-本文件定義同源靜態 JSON API v1。它由 repository-reviewed snapshot 在 Astro build-time 產生，公開 response 必須符合 `src/types/public-api.ts`，不得包含 crawler、private source adapter、internal confidence rules 或未公開候選資料。v1.41.0 將 2019 春季擴至 28 套 TV 作品（含電視短篇）與 69 筆 OP／ED，延續既有 endpoint、結構化歌曲來源與可選 `coverageNote`，沒有新增 runtime API。未核對繁中來源的作品不生成譯名來源項目；既有來源 ledger 與 API 欄位保持相容。《鑽石王牌 act2》保留原始演唱者、CD 日期、TV Size 分界與共同編曲署名。v1.29.0 起，《拳願阿修羅 Part 2》的 Netflix 配信版為 OP1／ED1，2020 電視播出版為 OP2／ED2，官方影片隨歌曲版本對應；作品 URL 不變。
+本文件定義同源靜態 JSON API v1。它由 repository-reviewed snapshot 在 Astro build-time 產生，公開 response 必須符合 `src/types/public-api.ts`，不得包含 crawler、private source adapter、internal confidence rules 或未公開候選資料。v1.43.0 的 authoring registry 支援具來源證據的本站作品識別碼，延續既有 endpoint、可選欄位與資料輸出，沒有新增 runtime API。未核對的外部 ID、譯名與 Romaji 名稱不生成；既有作品、歌曲及來源 ledger 保持相容。
 
 ## Build-time integration
 
@@ -48,6 +48,7 @@ PUBLIC_API_BASE_URL=https://anisonary.k-y.cc/api/v1 npm run api:check
 - 歌曲 `sequence` 保留已核對用途的序號，未核對的較早版本可形成缺號，不以重編序號掩蓋缺口；
 - `seasonId` 使用 `YYYY-quarter`，例如 `2026-summer`；
 - `slug` 必須穩定、唯一、可安全放入 URL；
+- `id` 為不超過 160 字元的穩定識別；consumer 不應從 `curated-` 或 `catalog-` 前綴推導外部 ID。API v1 不要求 AniList 連結，也不要求繁中或 Romaji 名稱；缺乏已核對來源時省略這些可選欄位；
 - `editorialWeekday` 使用 `1` 至 `7`，缺省代表不定期；
 - `broadcastTimeJst` 保留 `25:00+` 的編輯播出時間；
 - poster／banner 使用核准 AniList media origin；其他 external link 使用無 credential 的絕對 HTTPS URL；
@@ -64,7 +65,7 @@ TypeScript interface 是欄位層面的 source of truth；endpoint 改動前要�
 
 - 三個 endpoint 以 production-like fixture 通過；
 - success response 通過 nested contract、content-type、timeout、response-size、origin binding 及 URL safety 測試；
-- 二十九個季度、1,945 個唯一 card slug 及 4,298 筆歌曲來源 ledger 均可解析；
+- 二十九個季度、1,946 個唯一 card slug 及 4,305 筆歌曲來源 ledger 均可解析；
 - 任一季節／動畫 payload failure 會令 fail-closed build 失敗；
 - unknown season／slug 回傳 `404`；
 - production build 無 Mock Data notice；

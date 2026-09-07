@@ -1,4 +1,5 @@
 import { describe, expect, it } from "vitest";
+import { getCuratedAnimeKey } from "@/data/curated-seeds/identity";
 import {
   curatedSeasonRegistry,
   validateCuratedSeasonRegistry
@@ -40,11 +41,11 @@ describe("curated season registry", () => {
 
     const ownedSeeds = curatedSeasonRegistry.flatMap(({ seeds }) => seeds);
     expect(ownedSeeds).toHaveLength(1946);
-    expect(new Set(ownedSeeds.map(({ anilistId }) => anilistId)).size).toBe(ownedSeeds.length);
+    expect(new Set(ownedSeeds.map(getCuratedAnimeKey)).size).toBe(ownedSeeds.length);
 
     for (const entry of curatedSeasonRegistry) {
       for (const seed of entry.seeds) {
-        expect(seed.seasonIds[0], `${seed.anilistId} owner`).toBe(entry.id);
+        expect(seed.seasonIds[0], `${getCuratedAnimeKey(seed)} owner`).toBe(entry.id);
       }
     }
   });
@@ -53,16 +54,16 @@ describe("curated season registry", () => {
     const seedById = new Map(
       curatedSeasonRegistry
         .flatMap(({ seeds }) => seeds)
-        .map((seed) => [seed.anilistId, seed])
+        .map((seed) => [getCuratedAnimeKey(seed), seed])
     );
 
     for (const entry of curatedSeasonRegistry) {
       expect(entry.id).toBe(`${entry.year}-${entry.quarter}`);
       expect(new Set(entry.animeIds).size).toBe(entry.animeIds.length);
 
-      for (const anilistId of entry.animeIds) {
-        const seed = seedById.get(anilistId);
-        expect(seed, `${entry.id}:${anilistId}`).toBeDefined();
+      for (const key of entry.animeIds) {
+        const seed = seedById.get(key);
+        expect(seed, `${entry.id}:${key}`).toBeDefined();
         expect(seed?.seasonIds).toContain(entry.id);
       }
     }
@@ -89,7 +90,7 @@ describe("curated season registry", () => {
     const original = season.seeds[0]!;
     const { posterUrl, bannerUrl, imageSourceUrl, imageSourceLabel, ...withoutArtwork } = original;
     const seed = { ...withoutArtwork, seasonIds: [season.id] };
-    const entry = { ...season, seeds: [seed], animeIds: [seed.anilistId] };
+    const entry = { ...season, seeds: [seed], animeIds: [getCuratedAnimeKey(seed)] };
 
     expect(() => validateCuratedSeasonRegistry([entry])).not.toThrow();
     expect(() => validateCuratedSeasonRegistry([

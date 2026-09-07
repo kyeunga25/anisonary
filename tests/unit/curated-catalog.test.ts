@@ -101,8 +101,8 @@ describe("curated public catalogue", () => {
       const editorialWeekday = new Date(`${seed.startDate}T00:00:00Z`).getUTCDay() || 7;
       expect(seed.editorialWeekday, `${seed.anilistId} weekday`).toBe(editorialWeekday);
       expect(seed.titleJa.trim()).not.toBe("");
-      expect(seed.titleZhHant.trim()).not.toBe("");
-      expect(seed.titleRomaji.trim()).not.toBe("");
+      expect((seed.titleZhHant ?? "").trim()).not.toBe("");
+      expect((seed.titleRomaji ?? "").trim()).not.toBe("");
       expect(seed.officialSiteUrl).toMatch(/^https:\/\//);
       expect(seed.sourceReferenceUrls.length).toBeGreaterThan(0);
 
@@ -201,8 +201,8 @@ describe("curated public catalogue", () => {
       const editorialWeekday = new Date(`${seed.startDate}T00:00:00Z`).getUTCDay() || 7;
       expect(seed.editorialWeekday, `${seed.anilistId} weekday`).toBe(editorialWeekday);
       expect(seed.titleJa.trim()).not.toBe("");
-      expect(seed.titleZhHant.trim()).not.toBe("");
-      expect(seed.titleRomaji.trim()).not.toBe("");
+      expect((seed.titleZhHant ?? "").trim()).not.toBe("");
+      expect((seed.titleRomaji ?? "").trim()).not.toBe("");
       expect(seed.officialSiteUrl).toMatch(/^https:\/\//);
       expect(seed.sourceReferenceUrls.length).toBeGreaterThan(0);
 
@@ -290,8 +290,8 @@ describe("curated public catalogue", () => {
       const editorialWeekday = new Date(`${seed.startDate}T00:00:00Z`).getUTCDay() || 7;
       expect(seed.editorialWeekday, `${seed.anilistId} weekday`).toBe(editorialWeekday);
       expect(seed.titleJa.trim()).not.toBe("");
-      expect(seed.titleZhHant.trim()).not.toBe("");
-      expect(seed.titleRomaji.trim()).not.toBe("");
+      expect((seed.titleZhHant ?? "").trim()).not.toBe("");
+      expect((seed.titleRomaji ?? "").trim()).not.toBe("");
       expect(seed.officialSiteUrl).toMatch(/^https:\/\//);
       expect(seed.sourceReferenceUrls.length).toBeGreaterThan(0);
 
@@ -364,8 +364,8 @@ describe("curated public catalogue", () => {
       const editorialWeekday = new Date(`${seed.startDate}T00:00:00Z`).getUTCDay() || 7;
       expect(seed.editorialWeekday, `${seed.anilistId} weekday`).toBe(editorialWeekday);
       expect(seed.titleJa.trim()).not.toBe("");
-      expect(seed.titleZhHant.trim()).not.toBe("");
-      expect(seed.titleRomaji.trim()).not.toBe("");
+      expect((seed.titleZhHant ?? "").trim()).not.toBe("");
+      expect((seed.titleRomaji ?? "").trim()).not.toBe("");
       expect(seed.officialSiteUrl).toMatch(/^https:\/\//);
       expect(seed.sourceReferenceUrls.length).toBeGreaterThan(0);
 
@@ -448,8 +448,8 @@ describe("curated public catalogue", () => {
       const editorialWeekday = new Date(`${seed.startDate}T00:00:00Z`).getUTCDay() || 7;
       expect(seed.editorialWeekday, `${seed.anilistId} weekday`).toBe(editorialWeekday);
       expect(seed.titleJa.trim()).not.toBe("");
-      expect(seed.titleZhHant.trim()).not.toBe("");
-      expect(seed.titleRomaji.trim()).not.toBe("");
+      expect((seed.titleZhHant ?? "").trim()).not.toBe("");
+      expect((seed.titleRomaji ?? "").trim()).not.toBe("");
       expect(seed.officialSiteUrl).toMatch(/^https:\/\//);
       expect(seed.sourceReferenceUrls.length).toBeGreaterThan(0);
 
@@ -541,8 +541,8 @@ describe("curated public catalogue", () => {
       const editorialWeekday = new Date(`${seed.startDate}T00:00:00Z`).getUTCDay() || 7;
       expect(seed.editorialWeekday, `${seed.anilistId} weekday`).toBe(editorialWeekday);
       expect(seed.titleJa.trim()).not.toBe("");
-      expect(seed.titleZhHant.trim()).not.toBe("");
-      expect(seed.titleRomaji.trim()).not.toBe("");
+      expect((seed.titleZhHant ?? "").trim()).not.toBe("");
+      expect((seed.titleRomaji ?? "").trim()).not.toBe("");
       expect(seed.officialSiteUrl).toMatch(/^https:\/\//);
       expect(seed.sourceReferenceUrls.length).toBeGreaterThan(0);
 
@@ -641,8 +641,8 @@ describe("curated public catalogue", () => {
       const editorialWeekday = new Date(`${seed.startDate}T00:00:00Z`).getUTCDay() || 7;
       expect(seed.editorialWeekday, `${seed.anilistId} weekday`).toBe(editorialWeekday);
       expect(seed.titleJa.trim()).not.toBe("");
-      expect(seed.titleZhHant.trim()).not.toBe("");
-      expect(seed.titleRomaji.trim()).not.toBe("");
+      expect((seed.titleZhHant ?? "").trim()).not.toBe("");
+      expect((seed.titleRomaji ?? "").trim()).not.toBe("");
       expect(seed.officialSiteUrl).toMatch(/^https:\/\//);
       expect(seed.sourceReferenceUrls.length).toBeGreaterThan(0);
 
@@ -729,8 +729,8 @@ describe("curated public catalogue", () => {
       const editorialWeekday = new Date(`${seed.startDate}T00:00:00Z`).getUTCDay() || 7;
       expect(seed.editorialWeekday, `${seed.anilistId} weekday`).toBe(editorialWeekday);
       expect(seed.titleJa.trim()).not.toBe("");
-      expect(seed.titleZhHant.trim()).not.toBe("");
-      expect(seed.titleRomaji.trim()).not.toBe("");
+      expect((seed.titleZhHant ?? "").trim()).not.toBe("");
+      expect((seed.titleRomaji ?? "").trim()).not.toBe("");
       expect(seed.officialSiteUrl).toMatch(/^https:\/\//);
 
       for (const type of ["OP", "ED"] as const) {
@@ -833,8 +833,8 @@ describe("curated public catalogue", () => {
       const editorialWeekday = new Date(`${seed.startDate}T00:00:00Z`).getUTCDay() || 7;
       expect(seed.editorialWeekday, `${seed.anilistId} weekday`).toBe(editorialWeekday);
       expect(seed.titleJa.trim()).not.toBe("");
-      expect(seed.titleZhHant.trim()).not.toBe("");
-      expect(seed.titleRomaji.trim()).not.toBe("");
+      expect((seed.titleZhHant ?? "").trim()).not.toBe("");
+      expect((seed.titleRomaji ?? "").trim()).not.toBe("");
       expect(seed.officialSiteUrl).toMatch(/^https:\/\//);
 
       for (const type of ["OP", "ED"] as const) {
@@ -951,8 +951,8 @@ describe("curated public catalogue", () => {
       const editorialWeekday = new Date(`${seed.startDate}T00:00:00Z`).getUTCDay() || 7;
       expect(seed.editorialWeekday, `${seed.anilistId} weekday`).toBe(editorialWeekday);
       expect(seed.titleJa.trim()).not.toBe("");
-      expect(seed.titleZhHant.trim()).not.toBe("");
-      expect(seed.titleRomaji.trim()).not.toBe("");
+      expect((seed.titleZhHant ?? "").trim()).not.toBe("");
+      expect((seed.titleRomaji ?? "").trim()).not.toBe("");
       expect(seed.officialSiteUrl).toMatch(/^https:\/\//);
 
       for (const type of ["OP", "ED"] as const) {
@@ -1029,8 +1029,8 @@ describe("curated public catalogue", () => {
       const editorialWeekday = new Date(`${seed.startDate}T00:00:00Z`).getUTCDay() || 7;
       expect(seed.editorialWeekday, `${seed.anilistId} weekday`).toBe(editorialWeekday);
       expect(seed.titleJa.trim()).not.toBe("");
-      expect(seed.titleZhHant.trim()).not.toBe("");
-      expect(seed.titleRomaji.trim()).not.toBe("");
+      expect((seed.titleZhHant ?? "").trim()).not.toBe("");
+      expect((seed.titleRomaji ?? "").trim()).not.toBe("");
       expect(seed.officialSiteUrl).toMatch(/^https:\/\//);
 
       for (const type of ["OP", "ED"] as const) {
@@ -1109,8 +1109,8 @@ describe("curated public catalogue", () => {
       const editorialWeekday = new Date(`${seed.startDate}T00:00:00Z`).getUTCDay() || 7;
       expect(seed.editorialWeekday, `${seed.anilistId} weekday`).toBe(editorialWeekday);
       expect(seed.titleJa.trim()).not.toBe("");
-      expect(seed.titleZhHant.trim()).not.toBe("");
-      expect(seed.titleRomaji.trim()).not.toBe("");
+      expect((seed.titleZhHant ?? "").trim()).not.toBe("");
+      expect((seed.titleRomaji ?? "").trim()).not.toBe("");
 
       for (const type of ["OP", "ED"] as const) {
         const sequences = seed.themes.filter((theme) => theme.type === type).map(({ sequence }) => sequence);
@@ -1170,8 +1170,8 @@ describe("curated public catalogue", () => {
       const editorialWeekday = new Date(`${seed.startDate}T00:00:00Z`).getUTCDay() || 7;
       expect(seed.editorialWeekday, `${seed.anilistId} weekday`).toBe(editorialWeekday);
       expect(seed.titleJa.trim()).not.toBe("");
-      expect(seed.titleZhHant.trim()).not.toBe("");
-      expect(seed.titleRomaji.trim()).not.toBe("");
+      expect((seed.titleZhHant ?? "").trim()).not.toBe("");
+      expect((seed.titleRomaji ?? "").trim()).not.toBe("");
 
       for (const type of ["OP", "ED"] as const) {
         const sequences = seed.themes.filter((theme) => theme.type === type).map(({ sequence }) => sequence);
@@ -1262,8 +1262,8 @@ describe("curated public catalogue", () => {
       const editorialWeekday = new Date(`${seed.startDate}T00:00:00Z`).getUTCDay() || 7;
       expect(seed.editorialWeekday, `${seed.anilistId} weekday`).toBe(editorialWeekday);
       expect(seed.titleJa.trim()).not.toBe("");
-      expect(seed.titleZhHant.trim()).not.toBe("");
-      expect(seed.titleRomaji.trim()).not.toBe("");
+      expect((seed.titleZhHant ?? "").trim()).not.toBe("");
+      expect((seed.titleRomaji ?? "").trim()).not.toBe("");
 
       for (const type of ["OP", "ED"] as const) {
         const sequences = seed.themes.filter((theme) => theme.type === type).map(({ sequence }) => sequence);
@@ -1324,8 +1324,8 @@ describe("curated public catalogue", () => {
       const editorialWeekday = new Date(`${seed.startDate}T00:00:00Z`).getUTCDay() || 7;
       expect(seed.editorialWeekday, `${seed.anilistId} weekday`).toBe(editorialWeekday);
       expect(seed.titleJa.trim()).not.toBe("");
-      expect(seed.titleZhHant.trim()).not.toBe("");
-      expect(seed.titleRomaji.trim()).not.toBe("");
+      expect((seed.titleZhHant ?? "").trim()).not.toBe("");
+      expect((seed.titleRomaji ?? "").trim()).not.toBe("");
 
       for (const type of ["OP", "ED"] as const) {
         const sequences = seed.themes.filter((theme) => theme.type === type).map(({ sequence }) => sequence);
@@ -1402,8 +1402,8 @@ describe("curated public catalogue", () => {
       const editorialWeekday = new Date(`${seed.startDate}T00:00:00Z`).getUTCDay() || 7;
       expect(seed.editorialWeekday, `${seed.anilistId} weekday`).toBe(editorialWeekday);
       expect(seed.titleJa.trim()).not.toBe("");
-      expect(seed.titleZhHant.trim()).not.toBe("");
-      expect(seed.titleRomaji.trim()).not.toBe("");
+      expect((seed.titleZhHant ?? "").trim()).not.toBe("");
+      expect((seed.titleRomaji ?? "").trim()).not.toBe("");
 
       for (const type of ["OP", "ED"] as const) {
         const sequences = seed.themes.filter((theme) => theme.type === type).map(({ sequence }) => sequence);
@@ -1488,8 +1488,8 @@ describe("curated public catalogue", () => {
       const editorialWeekday = new Date(`${seed.startDate}T00:00:00Z`).getUTCDay() || 7;
       expect(seed.editorialWeekday, `${seed.anilistId} weekday`).toBe(editorialWeekday);
       expect(seed.titleJa.trim()).not.toBe("");
-      expect(seed.titleZhHant.trim()).not.toBe("");
-      expect(seed.titleRomaji.trim()).not.toBe("");
+      expect((seed.titleZhHant ?? "").trim()).not.toBe("");
+      expect((seed.titleRomaji ?? "").trim()).not.toBe("");
 
       for (const type of ["OP", "ED"] as const) {
         const sequences = seed.themes.filter((theme) => theme.type === type).map(({ sequence }) => sequence);
@@ -1559,8 +1559,8 @@ describe("curated public catalogue", () => {
       const weekday = new Date(`${seed.startDate}T00:00:00Z`).getUTCDay() || 7;
       expect(seed.editorialWeekday, `${seed.anilistId} weekday`).toBe(weekday);
       expect(seed.titleJa.trim()).not.toBe("");
-      expect(seed.titleZhHant.trim()).not.toBe("");
-      expect(seed.titleRomaji.trim()).not.toBe("");
+      expect((seed.titleZhHant ?? "").trim()).not.toBe("");
+      expect((seed.titleRomaji ?? "").trim()).not.toBe("");
 
       for (const type of ["OP", "ED"] as const) {
         const sequences = seed.themes.filter((theme) => theme.type === type).map(({ sequence }) => sequence);
@@ -1612,8 +1612,8 @@ describe("curated public catalogue", () => {
       const weekday = new Date(`${seed.startDate}T00:00:00Z`).getUTCDay() || 7;
       expect(seed.editorialWeekday, `${seed.anilistId} weekday`).toBe(weekday);
       expect(seed.titleJa.trim()).not.toBe("");
-      expect(seed.titleZhHant.trim()).not.toBe("");
-      expect(seed.titleRomaji.trim()).not.toBe("");
+      expect((seed.titleZhHant ?? "").trim()).not.toBe("");
+      expect((seed.titleRomaji ?? "").trim()).not.toBe("");
 
       for (const type of ["OP", "ED"] as const) {
         const sequences = seed.themes.filter((theme) => theme.type === type).map(({ sequence }) => sequence);
@@ -1670,8 +1670,8 @@ describe("curated public catalogue", () => {
       const weekday = new Date(`${seed.startDate}T00:00:00Z`).getUTCDay() || 7;
       expect(seed.editorialWeekday, `${seed.anilistId} weekday`).toBe(weekday);
       expect(seed.titleJa.trim()).not.toBe("");
-      expect(seed.titleZhHant.trim()).not.toBe("");
-      expect(seed.titleRomaji.trim()).not.toBe("");
+      expect((seed.titleZhHant ?? "").trim()).not.toBe("");
+      expect((seed.titleRomaji ?? "").trim()).not.toBe("");
 
       for (const type of ["OP", "ED"] as const) {
         const sequences = seed.themes.filter((theme) => theme.type === type).map(({ sequence }) => sequence);
@@ -1745,8 +1745,8 @@ describe("curated public catalogue", () => {
       const weekday = new Date(`${seed.startDate}T00:00:00Z`).getUTCDay() || 7;
       expect(seed.editorialWeekday, `${seed.anilistId} weekday`).toBe(weekday);
       expect(seed.titleJa.trim()).not.toBe("");
-      expect(seed.titleZhHant.trim()).not.toBe("");
-      expect(seed.titleRomaji.trim()).not.toBe("");
+      expect((seed.titleZhHant ?? "").trim()).not.toBe("");
+      expect((seed.titleRomaji ?? "").trim()).not.toBe("");
 
       for (const type of ["OP", "ED"] as const) {
         const sequences = seed.themes.filter((theme) => theme.type === type).map(({ sequence }) => sequence);

@@ -1,3 +1,5 @@
+import { curatedThemeKeyPattern, getCuratedAnimeKey } from "@/data/curated-seeds/identity";
+import type { CuratedSeasonRegistryEntry } from "@/data/curated-seeds/types";
 import { curatedSeasonRegistry } from "@/data/curated-season-registry";
 import { curated2019FallThemeVideos } from "@/data/curated-theme-videos/2019/fall";
 import { curated2019SpringThemeVideos } from "@/data/curated-theme-videos/2019/spring";
@@ -34,7 +36,6 @@ import type {
 } from "@/data/curated-theme-videos/types";
 import type { PublicVideo } from "@/types/public-api";
 
-const themeKeyPattern = /^(\d+):(OP|ED):([1-9]\d*)$/;
 const youtubeVideoIdPattern = /^[A-Za-z0-9_-]{11}$/;
 const videoFields = new Set([
   "youtubeVideoId",
@@ -59,10 +60,10 @@ const officialStatuses = new Set<PublicVideo["officialStatus"]>([
 
 export function validateCuratedThemeVideoRegistry<
   const Entries extends readonly CuratedThemeVideoRegistryEntry[],
->(entries: Entries): Entries {
-  const ownerByAniListId = new Map(
-    curatedSeasonRegistry.flatMap(({ id, seeds }) =>
-      seeds.map(({ anilistId }) => [anilistId, id] as const),
+>(entries: Entries, seasons: readonly CuratedSeasonRegistryEntry[] = curatedSeasonRegistry): Entries {
+  const ownerByKey = new Map(
+    seasons.flatMap(({ id, seeds }) =>
+      seeds.map((seed) => [String(getCuratedAnimeKey(seed)), id] as const),
     ),
   );
   const registeredSeasons = new Set<string>();
@@ -75,13 +76,13 @@ export function validateCuratedThemeVideoRegistry<
     registeredSeasons.add(entry.seasonId);
 
     for (const [key, videos] of Object.entries(entry.overrides)) {
-      const match = themeKeyPattern.exec(key);
+      const match = curatedThemeKeyPattern.exec(key);
       if (!match) {
         throw new Error(`Invalid theme video key: ${key}`);
       }
 
-      const anilistId = Number(match[1]);
-      if (ownerByAniListId.get(anilistId) !== entry.seasonId) {
+      const animeKey = match[1]!;
+      if (ownerByKey.get(animeKey) !== entry.seasonId) {
         throw new Error(`Theme video owner mismatch: ${key}`);
       }
       if (registeredThemeKeys.has(key)) {
