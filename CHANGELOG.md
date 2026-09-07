@@ -2,6 +2,12 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## v1.50.0 — 2019 春季《灰姑娘女孩劇場 CLIMAX SEASON》
+
+- 收錄 2019 年 TV 短篇系列與四、五、六月的三首輪替 ED；保留五人合唱名義、個別演唱者、已核對製作署名及 CD 完整版日期。
+- 新增三筆日本 Columbia 官方試聽影片 metadata，標明短版；CD 獨唱混音、附加曲、遊戲限定短篇及《Extra Stage》保持獨立。
+- 春季共 34 套作品、99 筆 OP／ED；本季與夏季仍在補充，2025 秋季尚未收錄。
+
 ## v1.49.2 — 手機首頁入口
 
 - 手機首頁先顯示介紹、季度／年份瀏覽與搜尋入口，縮短首屏上下間距；裝飾示意圖保留於較大版面。

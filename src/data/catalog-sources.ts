@@ -79,7 +79,7 @@ export const seasonSnapshotVerifiedAt = {
   "2020-winter": "2026-09-02",
   "2019-fall": "2026-09-02",
   "2019-summer": "2026-09-07",
-  "2019-spring": "2026-09-07"
+  "2019-spring": "2026-09-08"
 } as const;
 
 function annictQuarterName(quarter: Quarter): Quarter | "autumn" {

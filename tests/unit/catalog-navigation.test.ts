@@ -27,7 +27,7 @@ describe("catalogue navigation and search", () => {
       expect(results.some(({ anime }) => anime.slug === "re-zero-season-4")).toBe(true);
     }
     expect(searchCatalog(index, { ...defaults, year: "2025", quarter: "fall" })).toEqual([]);
-    expect(searchCatalog(index, defaults)).toHaveLength(1950);
+    expect(searchCatalog(index, defaults)).toHaveLength(1951);
   });
 
   it("combines multilingual queries with exact song, creator, and OP/ED filters", () => {
