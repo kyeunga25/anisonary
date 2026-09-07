@@ -1698,6 +1698,44 @@ const strikeWitches501EndingRows = [
 ] as const;
 
 const independentSpringSeeds: NativeCuratedAnimeSeed[] = [{
+  id: "catalog-hangyakusei-million-arthur-2-2019",
+  slug: "hangyakusei-million-arthur-2-2019",
+  titleJa: "叛逆性ミリオンアーサー 第2シーズン",
+  titleZhHant: "叛逆性百萬亞瑟王 第二季",
+  seasonIds: ["2019-spring"],
+  startDate: "2019-04-04",
+  editorialWeekday: 4,
+  broadcastTimeJst: "22:00",
+  broadcastLabel: "TOKYO MX 每週四 22:00（日本時間；第二季 TV 版）",
+  status: "finished",
+  verifiedAt: "2026-09-08",
+  identifierSource: {
+    label: "Happinet 官方新聞稿：第二季作品識別、首播日期與時段",
+    url: "https://prtimes.jp/main/html/rd/p/000000190.000031422.html",
+    language: "ja"
+  },
+  wikipediaUrl: "https://youranimes.tw/bangumi/201904",
+  sourceReferenceUrls: ["https://youranimes.tw/animes/4282"],
+  themes: [{
+    type: "OP", sequence: 1,
+    titleJa: "OPEN THE WORLDS",
+    artistDisplayName: "ORESAMA",
+    releaseDate: "2019-04-24",
+    versionLabel: "第二季 TV OP／CD：2019-04-24；mora 先行配信：2019-04-11，其他平台：2019-04-18",
+    credits: [
+      { name: "ぽん", role: "lyrics" },
+      { name: "小島英也", role: "composition" },
+      { name: "小島英也", role: "arrangement" }
+    ]
+  }, {
+    type: "ED", sequence: 1,
+    titleJa: "PEARLY×PARTY",
+    artistDisplayName: "パーリィ☆フェアリィ",
+    releaseDate: "2019-05-22",
+    versionLabel: "第二季 TV ED／原演唱組合單曲版；個別演唱及製作署名待核對",
+    credits: []
+  }]
+}, {
   id: "catalog-cinderella-girls-climax-2019",
   slug: "cinderella-girls-climax-2019",
   titleJa: "アイドルマスター シンデレラガールズ劇場 CLIMAX SEASON",

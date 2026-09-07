@@ -10,6 +10,70 @@ const spring = curatedSeasonDetails.find(({ id }) => id === "2019-spring")!;
 const anime = (id: number) => curatedAnimeDetails.find((item) => item.id === `curated-${id}`)!;
 
 describe("2019 spring reviewed TV catalogue", () => {
+  it("identifies Hangyaku's second TV season without importing the first season or unaired special", async () => {
+    const seed = curated2019SpringSeeds.find(({ id }) => id === "catalog-hangyakusei-million-arthur-2-2019")!;
+    expect(seed).toMatchObject({ startDate: "2019-04-04", editorialWeekday: 4, broadcastTimeJst: "22:00", seasonIds: ["2019-spring"] });
+    const detail = curatedAnimeDetails.find(({ id }) => id === seed.id)!;
+    expect(detail).toMatchObject({ slug: "hangyakusei-million-arthur-2-2019", titleJa: "叛逆性ミリオンアーサー 第2シーズン", titleZhHant: "叛逆性百萬亞瑟王 第二季", status: "finished" });
+    for (const omitted of ["anilistId", "anilistUrl", "titleRomaji", "posterUrl", "bannerUrl"]) {
+      expect(seed).not.toHaveProperty(omitted);
+      expect(detail).not.toHaveProperty(omitted);
+    }
+    expect(detail.sources).toContainEqual(expect.objectContaining({ url: "https://prtimes.jp/main/html/rd/p/000000190.000031422.html", role: "identifier", language: "ja" }));
+    expect(detail.sources).toContainEqual(expect.objectContaining({ url: "https://youranimes.tw/bangumi/201904", role: "localized_cross_check", language: "zh-Hant" }));
+    expect(detail.sources.some(({ url }) => url.includes("hangyakusei-anime.com"))).toBe(false);
+    const provider = new ApiProvider("https://anisonary.k-y.cc/api/v1", {
+      fetch: vi.fn<typeof fetch>().mockResolvedValue(new Response(JSON.stringify(detail), { headers: { "Content-Type": "application/json" } }))
+    });
+    expect(await provider.getAnime(detail.slug)).toEqual(detail);
+  });
+
+  it("keeps Hangyaku's original ending separate from ORESAMA's Funkapop cover and unverified credits", () => {
+    const themes = curatedAnimeDetails.find(({ id }) => id === "catalog-hangyakusei-million-arthur-2-2019")!.themes;
+    expect(themes.map(({ type, sequence, titleJa, artistDisplayName, releaseDate }) => [type, sequence, titleJa, artistDisplayName, releaseDate])).toEqual([
+      ["OP", 1, "OPEN THE WORLDS", "ORESAMA", "2019-04-24"],
+      ["ED", 1, "PEARLY×PARTY", "パーリィ☆フェアリィ", "2019-05-22"]
+    ]);
+    expect(themes[0]?.versionLabel).toBe("第二季 TV OP／CD：2019-04-24；mora 先行配信：2019-04-11，其他平台：2019-04-18");
+    expect(themes[0]?.credits).toEqual([
+      { name: "ぽん", role: "lyrics" }, { name: "小島英也", role: "composition" }, { name: "小島英也", role: "arrangement" }
+    ]);
+    expect(themes[1]?.versionLabel).toBe("第二季 TV ED／原演唱組合單曲版；個別演唱及製作署名待核對");
+    expect(themes[1]?.credits).toEqual([]);
+    expect(themes.some(({ titleJa }) => /Funkapop|Distorted Fairy|ハイライト|KI-te MI-te/.test(titleJa))).toBe(false);
+  });
+
+  it("retains Hangyaku's current publisher page and official full opening video without unavailable ending media", () => {
+    const themes = curatedAnimeDetails.find(({ id }) => id === "catalog-hangyakusei-million-arthur-2-2019")!.themes;
+    for (const theme of themes) {
+      expect(theme.lastVerifiedAt).toBe("2026-09-08");
+      expect(theme.sources.every(({ verifiedAt }) => verifiedAt === "2026-09-08")).toBe(true);
+      expect(theme.sources).toContainEqual(expect.objectContaining({ url: "https://anison.online/anime/1105", role: "cross_check", language: "ja" }));
+    }
+    expect(themes[0]?.sources).toContainEqual(expect.objectContaining({ url: "https://www.orsm.jp/discography/open-the-worlds/", role: "first_party" }));
+    expect(themes[1]?.sources).toContainEqual(expect.objectContaining({ url: "https://catalog.bandainamcomusiclive.co.jp/release/68378/", role: "first_party" }));
+    expect(themes[0]?.videos).toHaveLength(1);
+    expect(themes[0]?.videos[0]).toMatchObject({ youtubeVideoId: "0UmEg8PDV3Y", type: "full_music_video", channelName: "Lantis Channel", officialStatus: "official", embeddable: true });
+    expect(themes[1]?.videos).toEqual([]);
+  });
+
+  it("finds Hangyaku's reviewed titles and writers without assigning cover singers or inferred ending credits", async () => {
+    const index = buildCatalogSearchIndex((await loadCatalogSearchData(new CuratedProvider(), true)).entries);
+    const filters = { year: "2019", quarter: "spring", type: "all" } as const;
+    const slug = "hangyakusei-million-arthur-2-2019";
+    const title = searchCatalog(index, { ...filters, query: "叛逆性百萬亞瑟王", scope: "anime" });
+    expect(title.map(({ anime: item }) => item.slug)).toEqual([slug]);
+    for (const [query, type, expected] of [
+      ["ORESAMA", "OP", ["OPEN THE WORLDS"]], ["ORESAMA", "ED", []],
+      ["小島英也", "OP", ["OPEN THE WORLDS"]], ["小島英也", "ED", []],
+      ["パーリィ☆フェアリィ", "ED", ["PEARLY×PARTY"]]
+    ] as const) {
+      const result = searchCatalog(index, { ...filters, query, type, scope: "creators" }).find(({ anime: item }) => item.slug === slug);
+      expect(result?.themes.map(({ titleJa }) => titleJa) ?? []).toEqual(expected);
+    }
+    expect(searchCatalog(index, { ...filters, query: "PEARLY×PARTY -Funkapop ver.-", scope: "songs" })).toEqual([]);
+  });
+
   it("identifies CLIMAX SEASON as the 2019 TV quarter separately from Extra Stage and game-only shorts", async () => {
     const seed = curated2019SpringSeeds.find(({ id }) => id === "catalog-cinderella-girls-climax-2019")!;
     expect(seed).toMatchObject({ startDate: "2019-04-02", editorialWeekday: 2, broadcastTimeJst: "21:54", seasonIds: ["2019-spring"] });
@@ -819,9 +883,9 @@ describe("2019 spring reviewed TV catalogue", () => {
   });
 
   it("publishes a partial quarter with reviewed identity and song evidence, without unverified artwork", () => {
-    expect(spring.anime).toHaveLength(34);
+    expect(spring.anime).toHaveLength(35);
     expect(spring.coverageNote).toContain("跨季延續及特殊歌曲版本仍待核對");
-    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(99);
+    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(101);
     expect(curatedSeasonDetails.some(({ id }) => id === "2025-fall")).toBe(false);
     for (const seed of curated2019SpringSeeds) {
       expect(seed.seasonIds).toEqual(["2019-spring"]);
