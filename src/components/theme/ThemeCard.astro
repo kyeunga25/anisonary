@@ -17,6 +17,9 @@ for (const credit of credits) {
 }
 const repeatsVocalList = creditGroups.get("vocals")?.join("、") === theme.artistDisplayName;
 if (repeatsVocalList) creditGroups.delete("vocals");
+const collapsibleSources = theme.sources.length > 3;
+const SourceSection = collapsibleSources ? "details" : "div";
+const SourceHeading = collapsibleSources ? "summary" : "div";
 const lastVerifiedAt = theme.sources
   .map((source) => source.verifiedAt)
   .sort((left, right) => right.localeCompare(left))[0];
@@ -62,18 +65,25 @@ const sourceRoleLabels = {
       )}
     </dl>
 
-    <div class="theme-card__verification">
-      <div class="theme-card__review-meta">
-        <p class="theme-card__source-heading">核對來源</p>
-        <p class="theme-card__review-state">
+    <SourceSection class:list={["theme-card__verification", { "theme-card__verification--collapsible": collapsibleSources }]}>
+      <SourceHeading class="theme-card__review-meta">
+        <span class="theme-card__source-heading">核對來源{collapsibleSources && `（${theme.sources.length}）`}</span>
+        <span class="theme-card__review-state">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6zM14 3v5h5M9 13h7M9 17h7" /></svg>
           <span>審閱狀態：已審閱</span>
-        </p>
-        <p class="theme-card__review-state">
+        </span>
+        <span class="theme-card__review-state">
           <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path d="M12 7v6l4 2" /></svg>
           <span>最後驗證：{lastVerifiedAt ?? "待確認"}</span>
-        </p>
-      </div>
+        </span>
+        {collapsibleSources && (
+          <span class="theme-card__source-toggle">
+            <span class="theme-card__source-expand">展開</span>
+            <span class="theme-card__source-collapse">收合</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg>
+          </span>
+        )}
+      </SourceHeading>
       <ul aria-label="歌曲核對來源">
         {theme.sources.map((source) => (
           <li>
@@ -87,7 +97,7 @@ const sourceRoleLabels = {
           </li>
         ))}
       </ul>
-    </div>
+    </SourceSection>
   </div>
 
   {(theme.videos.length > 0 || theme.links.length > 0) && (
@@ -120,6 +130,11 @@ const sourceRoleLabels = {
   .theme-card__credits dd { margin: 0; }
   .theme-card__verification { border-top: 1px solid var(--color-border); font-size: 0.78rem; grid-column: 1 / -1; padding-block: 1rem; }
   .theme-card__review-meta { align-items: center; display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; }
+  .theme-card__verification--collapsible > summary { cursor: pointer; list-style: none; min-height: 2.75rem; }
+  .theme-card__verification--collapsible > summary::-webkit-details-marker { display: none; }
+  .theme-card__source-toggle { align-items: center; color: var(--color-ink); display: flex; font-weight: 680; gap: 0.4rem; margin-left: auto; }
+  .theme-card__verification:not([open]) .theme-card__source-collapse, .theme-card__verification[open] .theme-card__source-expand { display: none; }
+  .theme-card__verification[open] .theme-card__source-toggle svg { transform: rotate(180deg); }
   .theme-card__source-heading { font-size: 0.82rem; font-weight: 740; margin: 0; }
   .theme-card__review-state { align-items: center; color: var(--color-muted); display: flex; gap: 0.55rem; margin: 0; }
   .theme-card__verification svg { fill: none; flex: 0 0 auto; height: 1.15rem; stroke: currentColor; stroke-width: 1.5; width: 1.15rem; }
@@ -147,6 +162,8 @@ const sourceRoleLabels = {
     .theme-card__summary { grid-template-columns: 4.6rem 1fr; }
     .theme-card__identity { padding: 1.15rem; }
     .theme-card__credits, .theme-card__verification { border-left: 0; border-top: 1px solid var(--color-border); grid-column: 1 / -1; margin: 0; padding: 1rem 1.15rem; }
+    .theme-card__verification--collapsible .theme-card__source-toggle { order: 1; }
+    .theme-card__verification--collapsible .theme-card__review-state { flex-basis: 100%; order: 2; }
     .theme-card__links { padding: 0 1rem 1rem; }
   }
 </style>

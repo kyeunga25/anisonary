@@ -422,6 +422,8 @@ test("curated catalogue flow reaches verified themes, lazy video and an official
   await expect(page).toHaveURL(/\/anime\/youjo-senki-2\/$/);
   await expect(page.getByRole("heading", { name: "主題曲" })).toBeVisible();
   await expect(page.getByText("審閱狀態：已審閱").first()).toBeVisible();
+  const sourceDisclosure = page.locator(".theme-card").first().locator("summary");
+  if (await sourceDisclosure.count()) await sourceDisclosure.click();
   await expect(page.getByRole("list", { name: "歌曲核對來源" }).first()).toBeVisible();
   await expect(page.getByText(/資料完整度/)).toHaveCount(0);
   await expect(page.getByText("公開視覺來源：")).toBeVisible();
@@ -1265,6 +1267,7 @@ test("supernatural spring songs preserve co-writers, TV edits and distinct Fairy
     await expect(page.locator("#theme-fairy-gone-op-1 .theme-card__credits dd")).toHaveText(["Ayaka Tachibana、AIJ", "宮崎誠", "宮崎誠"]);
     await expect(page.locator("#theme-fairy-gone-ed-1 .theme-card__credits dd")).toHaveText(["NIKIIE", "eNu", "宮崎誠", "宮崎誠"]);
     await expect(page.locator("#theme-fairy-gone-ed-1")).toContainText("TV Size 另行配信；單曲版：2019-04-24");
+    await page.locator("#theme-fairy-gone-op-1 summary").click();
     await expect(page.locator("#theme-fairy-gone-op-1").getByRole("link", { name: /VERY GOO/ })).toHaveAttribute("href", "https://www.verygoo.jp/works/202003-201904.php");
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
     await page.goto("/anime/fairy-gone-2/", { waitUntil: "domcontentloaded" });
@@ -1543,6 +1546,7 @@ test("complete ensemble names appear once while individual vocalists and product
   await expect(card.locator(".theme-card__artist")).toContainText("井上ほの花");
   await expect(card.locator(".theme-card__credits dd")).toHaveText(["槇原敬之", "槇原敬之", "久下真音"]);
   await expect(card.locator(".theme-card__credits dt").filter({ hasText: /^演唱$/ })).toHaveCount(0);
+  await card.locator("summary").click();
   await expect(card.getByRole("list", { name: "歌曲核對來源" }).getByRole("link")).toHaveCount(4);
   await context.close();
 });
@@ -1582,6 +1586,8 @@ test("song summaries group shared roles, retain every name and show only reviewe
   const speechless = nativePage.locator("#theme-kono-oto-tomare-ed-1");
   await expect(speechless.locator(".theme-card__credits dd")).toHaveText(["前迫潤哉", "前迫潤哉、工藤政人", "工藤政人、早川博隆"]);
   await expect(speechless.locator("time")).toHaveAttribute("datetime", "2019-05-08");
+  await speechless.locator("summary").focus();
+  await nativePage.keyboard.press("Enter");
   const source = speechless.getByRole("link", { name: /内田雄馬官方：春季 ED/ });
   await source.focus();
   await expect(source).toBeFocused();
@@ -1631,7 +1637,7 @@ test("official video titles identify the edition before consent and remain visib
   await expect(title).toBeVisible();
 });
 
-test("dense song sources fit desktop cards and remain complete on phones and without JavaScript", async ({ page, browser, request }) => {
+test("dense song sources expand independently with complete links, visible review dates and native keyboard access", async ({ page, browser, request }) => {
   const response = await request.get("/api/v1/anime/medalist-2nd-season.json");
   const anime = await response.json();
   const expectedSources = anime.themes.find((theme: { id: string }) => theme.id === "medalist-2nd-season-ed-1").sources;
@@ -1642,6 +1648,20 @@ test("dense song sources fit desktop cards and remain complete on phones and wit
     const ending = page.locator("#theme-medalist-2nd-season-ed-1");
     const sources = ending.getByRole("list", { name: "歌曲核對來源" });
     const links = sources.getByRole("link");
+    const disclosure = ending.locator("details");
+    const toggle = disclosure.locator("summary");
+    await expect(disclosure).not.toHaveAttribute("open");
+    await expect(toggle).toContainText("核對來源（14）");
+    await expect(toggle.getByText("審閱狀態：已審閱")).toBeVisible();
+    await expect(toggle.getByText(/最後驗證：/)).toBeVisible();
+    await expect(links).toHaveCount(0);
+    expect((await toggle.boundingBox())!.height).toBeGreaterThanOrEqual(44);
+    if (width === 1280) expect((await ending.locator(".theme-card__summary").boundingBox())!.height).toBeLessThan(300);
+    if (width === 390) expect((await ending.locator(".theme-card__summary").boundingBox())!.height).toBeLessThan(400);
+    await toggle.focus();
+    await page.keyboard.press("Enter");
+    await expect(disclosure).toHaveAttribute("open", "");
+    await expect(page.locator(".theme-card details[open]")).toHaveCount(1);
     await expect(links).toHaveCount(expectedSources.length);
     for (let index = 0; index < expectedSources.length; index += 1) {
       await expect(links.nth(index)).toBeVisible();
@@ -1650,14 +1670,20 @@ test("dense song sources fit desktop cards and remain complete on phones and wit
       await expect(links.nth(index)).toHaveAttribute("rel", "noopener noreferrer external");
     }
     if (width === 1280) expect((await ending.locator(".theme-card__summary").boundingBox())!.height).toBeLessThan(500);
-    if (width === 390) expect((await ending.locator(".theme-card__summary").boundingBox())!.height).toBeLessThan(780);
+    if (width === 390) expect((await ending.locator(".theme-card__summary").boundingBox())!.height).toBeLessThan(820);
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+    await toggle.focus();
+    await page.keyboard.press("Space");
+    await expect(disclosure).not.toHaveAttribute("open");
+    await expect(links).toHaveCount(0);
+    await expect(toggle).toBeFocused();
 
     await page.goto("/anime/gal-to-kyouryuu/", { waitUntil: "domcontentloaded" });
     expect(await page.locator(".theme-card__verification").evaluateAll((elements) =>
       elements.every((element) => element.scrollWidth <= element.clientWidth)
     )).toBe(true);
     await page.goto("/anime/ginga-eiyuu-densetsu-die-neue-these-seiran/", { waitUntil: "domcontentloaded" });
+    await expect(page.locator(".theme-card").first().locator("details")).toHaveCount(0);
     await expect(page.getByRole("list", { name: "歌曲核對來源" }).first().getByRole("link")).toHaveCount(2);
     if (width === 1280) expect((await page.locator(".theme-card__summary").first().boundingBox())!.height).toBeLessThan(180);
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
@@ -1667,7 +1693,11 @@ test("dense song sources fit desktop cards and remain complete on phones and wit
   const context = await browser.newContext({ javaScriptEnabled: false, viewport: { width: 390, height: 844 } });
   const nativePage = await context.newPage();
   await nativePage.goto(`${e2eOrigin}/anime/medalist-2nd-season/`, { waitUntil: "domcontentloaded" });
-  const nativeLinks = nativePage.locator("#theme-medalist-2nd-season-ed-1").getByRole("list", { name: "歌曲核對來源" }).getByRole("link");
+  const nativeEnding = nativePage.locator("#theme-medalist-2nd-season-ed-1");
+  const nativeLinks = nativeEnding.getByRole("list", { name: "歌曲核對來源" }).getByRole("link");
+  await expect(nativeLinks).toHaveCount(0);
+  await nativeEnding.locator("summary").focus();
+  await nativePage.keyboard.press("Space");
   await expect(nativeLinks).toHaveCount(14);
   await nativeLinks.first().focus();
   await nativePage.keyboard.press("Tab");
