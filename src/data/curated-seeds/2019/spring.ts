@@ -1,4 +1,5 @@
-import type { CuratedAnimeSeed } from "@/data/curated-seeds/types";
+import { getCuratedAnimeKey } from "@/data/curated-seeds/identity";
+import type { CuratedAnimeSeed, CuratedCatalogueSeed, NativeCuratedAnimeSeed } from "@/data/curated-seeds/types";
 
 type Spring2019SeedInput = Omit<
   CuratedAnimeSeed,
@@ -1681,5 +1682,58 @@ const curated2019SpringSeedRows: Spring2019SeedInput[] = [
   }
 ];
 
-export const curated2019SpringSeeds: CuratedAnimeSeed[] = curated2019SpringSeedRows.map(spring2019Seed);
-export const curated2019SpringAnimeIds = curated2019SpringSeeds.map(({ anilistId }) => anilistId);
+const independentSpringSeeds: NativeCuratedAnimeSeed[] = [{
+  id: "catalog-gonjiro-2019",
+  slug: "gonjiro-2019",
+  titleJa: "けだまのゴンじろー",
+  titleZhHant: "毛球權次郎",
+  seasonIds: ["2019-spring"],
+  startDate: "2019-04-06",
+  editorialWeekday: 6,
+  broadcastTimeJst: "10:00",
+  broadcastLabel: "東京電視台每週六 10:00（日本時間；2019 年 TV 版）",
+  status: "finished",
+  verifiedAt: "2026-09-07",
+  officialSiteUrl: "https://www.tv-tokyo.co.jp/anime/gonjiro/",
+  identifierSource: {
+    label: "東京電視台：作品識別、首播日期與播出時段",
+    url: "https://www.tv-tokyo.co.jp/anime/gonjiro/onair/",
+    language: "ja"
+  },
+  wikipediaUrl: "https://youranimes.tw/bangumi/201904",
+  sourceReferenceUrls: [
+    "https://youranimes.tw/animes/3711",
+    "https://www.sonymusic.co.jp/artist/DemonKakka/info/507323"
+  ],
+  themes: [{
+    type: "OP", sequence: 1,
+    titleJa: "レッツ！ゴンじろー",
+    artistDisplayName: "CHAI",
+    releaseDate: "2019-07-24",
+    versionLabel: "CD 完整版；TV 使用アニメオープニングver.",
+    credits: [
+      { name: "ユウキ", role: "lyrics" },
+      { name: "マナ", role: "composition" },
+      { name: "カナ", role: "composition" },
+      { name: "CHAI", role: "arrangement" }
+    ]
+  }, {
+    type: "ED", sequence: 1,
+    titleJa: "わさわさわさ！",
+    artistDisplayName: "デーモン閣下",
+    releaseDate: "2019-07-24",
+    versionLabel: "CD 完整版；アニメエンディングver. 已於 2019-04-06 先行配信",
+    credits: [
+      { name: "デーモン閣下", role: "lyrics" },
+      { name: "デーモン閣下", role: "composition" },
+      { name: "pal@pop", role: "composition" },
+      { name: "pal@pop", role: "arrangement" }
+    ]
+  }]
+}];
+
+export const curated2019SpringSeeds: CuratedCatalogueSeed[] = [
+  ...independentSpringSeeds,
+  ...curated2019SpringSeedRows.map(spring2019Seed)
+];
+export const curated2019SpringAnimeIds = curated2019SpringSeeds.map(getCuratedAnimeKey);

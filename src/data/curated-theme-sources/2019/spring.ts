@@ -1,7 +1,10 @@
 import { curated2019SpringSeeds } from "@/data/curated-seeds/2019/spring";
+import { getCuratedAnimeKey, getCuratedThemeKey } from "@/data/curated-seeds/identity";
 import type { CuratedThemeSourceOverrideMap, CuratedThemeSourceSeed } from "@/data/curated-theme-sources/types";
 
 const firstPartyUrlsByTheme: Readonly<Record<string, readonly string[]>> = {
+  "catalog-gonjiro-2019:OP:1": ["https://www.tv-tokyo.co.jp/anime/gonjiro/staff/", "https://www.sonymusic.co.jp/artist/DemonKakka/info/507323"],
+  "catalog-gonjiro-2019:ED:1": ["https://www.tv-tokyo.co.jp/anime/gonjiro/staff/", "https://www.sonymusic.co.jp/artist/DemonKakka/info/507323", "https://www.sonymusic.co.jp/artist/DemonKakka/info/505719"],
   "108039:OP:1": ["https://www.sunrise-music.co.jp/list/detail.php?id=447", "https://www.universal-music.co.jp/luna-sea/news/2019-04-15/"],
   "108039:OP:2": ["https://www.sunrise-music.co.jp/list/detail.php?id=447", "https://www.universal-music.co.jp/luna-sea/news/2019-04-15/"],
   "108039:OP:3": ["https://www.sunrise-music.co.jp/list/detail.php?id=448"],
@@ -228,6 +231,9 @@ const firstPartyUrlsByTheme: Readonly<Record<string, readonly string[]>> = {
 };
 
 const sourceLabelsByUrl: Readonly<Record<string, string>> = {
+  "https://www.tv-tokyo.co.jp/anime/gonjiro/staff/": "東京電視台：OP／ED 用途、藝人與動畫版本",
+  "https://www.sonymusic.co.jp/artist/DemonKakka/info/507323": "Sony Music：OP／ED 詞曲、編曲與 CD 完整版發行日期",
+  "https://www.sonymusic.co.jp/artist/DemonKakka/info/505719": "Sony Music：ED 動畫短版先行配信日期",
   "https://www.sunrise-music.co.jp/list/detail.php?id=447": "SUNRISE Music：電視版前兩首 OP、CD 單曲日期與官方短版影片",
   "https://www.universal-music.co.jp/luna-sea/news/2019-04-15/": "Universal Music：前兩首 OP 與原始 CD 發行日期",
   "https://www.sunrise-music.co.jp/list/detail.php?id=448": "SUNRISE Music：LUNA SEA 翻唱 OP、詞曲編曲與數位配信日期",
@@ -338,7 +344,13 @@ const sourceLabelsByUrl: Readonly<Record<string, string>> = {
   "https://www.sma.co.jp/s/sma/news/detail/83323?ima=0000": "Sony Music Artists 官方公告：ED 先行配信日期"
 };
 
-const crossCheckSourcesByAnime: Readonly<Record<number, CuratedThemeSourceSeed>> = {
+const crossCheckSourcesByAnime: Readonly<Record<string, CuratedThemeSourceSeed>> = {
+  "catalog-gonjiro-2019": {
+    label: "アニソンライブラリー：OP／ED 用途與演唱者交叉核對",
+    url: "https://japan-anime-song.com/kedamanogonjiroo-anison/",
+    language: "ja",
+    role: "cross_check"
+  },
   108039: {
     label: "UZUREA：電視版 OP／ED 次序交叉核對；演唱版本以第一方為準",
     url: "https://uzurea.net/vc/187936/",
@@ -361,9 +373,9 @@ const crossCheckSourcesByAnime: Readonly<Record<number, CuratedThemeSourceSeed>>
 
 export const curated2019SpringThemeSources: CuratedThemeSourceOverrideMap = Object.fromEntries(
   curated2019SpringSeeds.flatMap((seed) => seed.themes.map((theme) => {
-    const key = `${seed.anilistId}:${theme.type}:${theme.sequence}`;
+    const key = getCuratedThemeKey(seed, theme);
     const urls = firstPartyUrlsByTheme[key];
-    const crossCheck: CuratedThemeSourceSeed | undefined = crossCheckSourcesByAnime[seed.anilistId] ?? (seed.animeThemesUrl ? {
+    const crossCheck: CuratedThemeSourceSeed | undefined = crossCheckSourcesByAnime[getCuratedAnimeKey(seed)] ?? (seed.animeThemesUrl ? {
       label: "AnimeThemes：OP／ED 次序與演唱版本交叉核對",
       url: seed.animeThemesUrl,
       language: "en",
@@ -379,6 +391,12 @@ export const curated2019SpringThemeSources: CuratedThemeSourceOverrideMap = Obje
         language: ["https://www.youtube.com/watch?v=czJHHta2vz8", "https://www.youtube.com/watch?v=XV0R-5GxyyU", "https://www.youtube.com/watch?v=MNzIIZzqAVU"].includes(url) ? "en" : "ja",
         role: "first_party"
       })),
+      ...(key === "catalog-gonjiro-2019:ED:1" ? [{
+        label: "文化廳：片尾製作者的官方 YouTube 頻道交叉核對",
+        url: "https://www.bunka.go.jp/j-mediaarts/animation2021/creators_file_2021/misato/index.html",
+        language: "en" as const,
+        role: "cross_check" as const
+      }] : []),
       ...(key === "101922:ED:2" ? [{
         label: "ABEMA 播出機構：第 19 話插入歌兼片尾曲用途",
         url: "https://times.abema.tv/articles/-/8671435",

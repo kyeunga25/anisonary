@@ -65,7 +65,7 @@ TypeScript interface 是欄位層面的 source of truth；endpoint 改動前要�
 
 - 三個 endpoint 以 production-like fixture 通過；
 - success response 通過 nested contract、content-type、timeout、response-size、origin binding 及 URL safety 測試；
-- 二十九個季度、1,946 個唯一 card slug 及 4,305 筆歌曲來源 ledger 均可解析；
+- 二十九個季度、1,947 個唯一 card slug 及 4,307 筆歌曲來源 ledger 均可解析；
 - 任一季節／動畫 payload failure 會令 fail-closed build 失敗；
 - unknown season／slug 回傳 `404`；
 - production build 無 Mock Data notice；

@@ -65,9 +65,9 @@ describe("catalogue search data states", () => {
 
     expect(result.status).toBe("ready");
     if (result.status !== "ready") throw new Error("Expected ready catalogue search data");
-    expect(result.entries).toHaveLength(1946);
-    expect(new Set(result.entries.map(({ anime }) => anime.slug)).size).toBe(1946);
-    expect(result.entries.filter(({ anime }) => anime.themes.length > 0)).toHaveLength(1582);
+    expect(result.entries).toHaveLength(1947);
+    expect(new Set(result.entries.map(({ anime }) => anime.slug)).size).toBe(1947);
+    expect(result.entries.filter(({ anime }) => anime.themes.length > 0)).toHaveLength(1583);
   });
 
   it("returns a safe public error state without exposing provider details", async () => {

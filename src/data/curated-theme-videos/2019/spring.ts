@@ -1,6 +1,14 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2019SpringThemeVideos = {
+  "catalog-gonjiro-2019:ED:1": [{
+    youtubeVideoId: "GrWK6BJwziI",
+    title: "TVアニメ『けだまのゴンじろー』ノンクレジットED / デーモン閣下「わさわさわさ！」",
+    type: "creditless_ed",
+    channelName: "Tomoki Misato",
+    officialStatus: "licensed",
+    embeddable: true
+  }],
   "108039:OP:1": [
     {
       "youtubeVideoId": "z0JjGxZpcWg",

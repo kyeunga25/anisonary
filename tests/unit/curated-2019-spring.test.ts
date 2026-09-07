@@ -10,6 +10,76 @@ const spring = curatedSeasonDetails.find(({ id }) => id === "2019-spring")!;
 const anime = (id: number) => curatedAnimeDetails.find((item) => item.id === `curated-${id}`)!;
 
 describe("2019 spring reviewed TV catalogue", () => {
+  it("identifies Gonjiro's April TV premiere with independent evidence and no invented external ID or romanized title", async () => {
+    const seed = curated2019SpringSeeds.find(({ id }) => id === "catalog-gonjiro-2019")!;
+    expect(seed).toMatchObject({ startDate: "2019-04-06", seasonIds: ["2019-spring"], verifiedAt: "2026-09-07" });
+    const detail = curatedAnimeDetails.find(({ id }) => id === seed.id)!;
+    expect(detail).toMatchObject({ slug: "gonjiro-2019", titleJa: "けだまのゴンじろー", titleZhHant: "毛球權次郎", editorialWeekday: 6, broadcastTimeJst: "10:00" });
+    for (const omitted of ["anilistId", "anilistUrl", "titleRomaji", "posterUrl", "bannerUrl"]) {
+      expect(seed).not.toHaveProperty(omitted);
+      expect(detail).not.toHaveProperty(omitted);
+    }
+    expect(detail.sources).toContainEqual(expect.objectContaining({ url: "https://www.tv-tokyo.co.jp/anime/gonjiro/onair/", role: "identifier", language: "ja" }));
+    expect(detail.sources).toContainEqual(expect.objectContaining({ url: "https://youranimes.tw/bangumi/201904", role: "localized_cross_check", language: "zh-Hant" }));
+    expect(spring.anime.filter(({ id }) => id === seed.id)).toHaveLength(1);
+    const provider = new ApiProvider("https://anisonary.k-y.cc/api/v1", {
+      fetch: vi.fn<typeof fetch>().mockResolvedValue(new Response(JSON.stringify(detail), { headers: { "Content-Type": "application/json" } }))
+    });
+    expect(await provider.getAnime(detail.slug)).toEqual(detail);
+  });
+
+  it("keeps Gonjiro's TV edits separate from the full CD date and preserves each co-writer", () => {
+    const themes = curatedAnimeDetails.find(({ id }) => id === "catalog-gonjiro-2019")!.themes;
+    expect(themes.map(({ type, sequence, titleJa, artistDisplayName, releaseDate }) => [type, sequence, titleJa, artistDisplayName, releaseDate])).toEqual([
+      ["OP", 1, "レッツ！ゴンじろー", "CHAI", "2019-07-24"],
+      ["ED", 1, "わさわさわさ！", "デーモン閣下", "2019-07-24"]
+    ]);
+    expect(themes[0]?.versionLabel).toContain("アニメオープニングver.");
+    expect(themes[1]?.versionLabel).toContain("アニメエンディングver.");
+    expect(themes[1]?.versionLabel).toContain("2019-04-06");
+    expect(themes[0]?.credits).toEqual([
+      { name: "ユウキ", role: "lyrics" }, { name: "マナ", role: "composition" },
+      { name: "カナ", role: "composition" }, { name: "CHAI", role: "arrangement" }
+    ]);
+    expect(themes[1]?.credits).toEqual([
+      { name: "デーモン閣下", role: "lyrics" }, { name: "デーモン閣下", role: "composition" },
+      { name: "pal@pop", role: "composition" }, { name: "pal@pop", role: "arrangement" }
+    ]);
+  });
+
+  it("attaches Gonjiro's permitted creator upload to its ending with the original language and edition", () => {
+    const themes = curatedAnimeDetails.find(({ id }) => id === "catalog-gonjiro-2019")!.themes;
+    expect(themes[0]?.videos).toEqual([]);
+    expect(themes[1]?.videos).toEqual([{
+      youtubeVideoId: "GrWK6BJwziI",
+      title: "TVアニメ『けだまのゴンじろー』ノンクレジットED / デーモン閣下「わさわさわさ！」",
+      type: "creditless_ed", channelName: "Tomoki Misato", officialStatus: "licensed", embeddable: true
+    }]);
+    expect(themes[1]?.sources).toContainEqual(expect.objectContaining({
+      url: "https://www.bunka.go.jp/j-mediaarts/animation2021/creators_file_2021/misato/index.html", language: "en", role: "cross_check"
+    }));
+    expect(themes[1]?.sources).toContainEqual(expect.objectContaining({
+      url: "https://www.sonymusic.co.jp/artist/DemonKakka/info/505719", role: "first_party"
+    }));
+    for (const theme of themes) {
+      expect(theme.sources).toContainEqual(expect.objectContaining({ url: "https://www.sonymusic.co.jp/artist/DemonKakka/info/507323", role: "first_party" }));
+      expect(theme.sources).toContainEqual(expect.objectContaining({ url: "https://japan-anime-song.com/kedamanogonjiroo-anison/", role: "cross_check" }));
+    }
+  });
+
+  it("finds Gonjiro by Chinese and Japanese titles and its opening or ending co-composers", async () => {
+    const index = buildCatalogSearchIndex((await loadCatalogSearchData(new CuratedProvider(), true)).entries);
+    for (const query of ["毛球權次郎", "けだまのゴンじろー"]) {
+      const result = searchCatalog(index, { query, scope: "anime", year: "2019", quarter: "spring", type: "all" });
+      expect(result.map(({ anime: item }) => item.slug)).toEqual(["gonjiro-2019"]);
+    }
+    for (const [query, type, title] of [["マナ カナ", "OP", "レッツ！ゴンじろー"], ["pal@pop", "ED", "わさわさわさ！"]] as const) {
+      const result = searchCatalog(index, { query, scope: "creators", year: "2019", quarter: "spring", type });
+      expect(result.map(({ anime: item }) => item.slug)).toEqual(["gonjiro-2019"]);
+      expect(result[0]?.themes.map(({ titleJa }) => titleJa)).toEqual([title]);
+    }
+  });
+
   it("identifies THE ORIGIN as the thirteen-part TV recut with its Monday premiere and independent public evidence", async () => {
     const seed = curated2019SpringSeeds.find(({ anilistId }) => anilistId === 108039)!;
     expect(seed).toMatchObject({ startDate: "2019-04-29", seasonIds: ["2019-spring"] });
@@ -435,13 +505,13 @@ describe("2019 spring reviewed TV catalogue", () => {
   });
 
   it("publishes a partial quarter with reviewed identity and song evidence, without unverified artwork", () => {
-    expect(spring.anime).toHaveLength(29);
+    expect(spring.anime).toHaveLength(30);
     expect(spring.coverageNote).toContain("跨季延續及特殊歌曲版本仍待核對");
-    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(76);
+    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(78);
     expect(curatedSeasonDetails.some(({ id }) => id === "2025-fall")).toBe(false);
     for (const seed of curated2019SpringSeeds) {
       expect(seed.seasonIds).toEqual(["2019-spring"]);
-      const detail = anime(seed.anilistId);
+      const detail = curatedAnimeDetails.find(({ id }) => id === seed.id)!;
       expect(detail.posterUrl).toBeUndefined();
       expect(detail.bannerUrl).toBeUndefined();
       expect(detail.imageSourceUrl).toBeUndefined();

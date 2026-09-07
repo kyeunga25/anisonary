@@ -2,6 +2,12 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## v1.44.0 — 2019 春季《毛球權次郎》
+
+- 以本站識別碼收錄 2019 年 TV 版、2 筆 OP／ED 與 1 筆正式授權片尾影片 metadata。
+- 保留動畫短版與 CD 完整版日期、共同作曲與編曲；未核對的 Romaji、外部 ID 及 OP 影片保持空缺。
+- 春季共 30 套作品、78 筆 OP／ED；本季與夏季仍在補充，2025 秋季尚未收錄。
+
 ## v1.43.0 — 獨立作品識別
 
 - 資料 registry 支援具來源、語言與核對日期的本站作品識別碼，不要求先取得外部索引 ID。
