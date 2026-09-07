@@ -1,6 +1,14 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2019SpringThemeVideos = {
+  "catalog-hangyakusei-million-arthur-2-2019:OP:1": [{
+    youtubeVideoId: "0UmEg8PDV3Y",
+    title: "ORESAMA / OPEN THE WORLDS -MUSIC VIDEO- （TVアニメ『叛逆性ミリオンアーサー』第2シーズンOP主題歌）",
+    type: "full_music_video",
+    channelName: "Lantis Channel",
+    officialStatus: "official",
+    embeddable: true
+  }],
   "catalog-cinderella-girls-climax-2019:ED:1": [{
     youtubeVideoId: "QkO1DC96kIM",
     title: "【アイドルマスター】「きゅん・きゅん・まっくす」(歌：一ノ瀬志希、乙倉悠貴、椎名法子、前川みく、棟方愛海)",

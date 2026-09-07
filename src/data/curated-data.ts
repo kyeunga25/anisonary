@@ -4539,6 +4539,10 @@ const themeVerifiedAtOverrides: Record<string, string> = {
 };
 
 const animeOfficialSourceOverrides: Record<string, { label: string; url: string }> = {
+  "catalog-hangyakusei-million-arthur-2-2019": {
+    label: "Lantis 官方影片：第二季作品與 OP 名義",
+    url: "https://www.youtube.com/watch?v=0UmEg8PDV3Y"
+  },
   111314: {
     label: "VIZ 官方授權作品頁：動畫作品資料",
     url: "https://www.viz.com/uzumaki"

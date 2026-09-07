@@ -3,6 +3,14 @@ import { getCuratedAnimeKey, getCuratedThemeKey } from "@/data/curated-seeds/ide
 import type { CuratedThemeSourceOverrideMap, CuratedThemeSourceSeed } from "@/data/curated-theme-sources/types";
 
 const firstPartyUrlsByTheme: Readonly<Record<string, readonly string[]>> = {
+  "catalog-hangyakusei-million-arthur-2-2019:OP:1": [
+    "https://www.orsm.jp/discography/open-the-worlds/",
+    "https://www.orsm.jp/%E3%80%8Copen-the-worlds%E3%80%8D%E5%85%88%E8%A1%8C%E9%85%8D%E4%BF%A1%E6%B1%BA%E5%AE%9A/",
+    "https://www.youtube.com/watch?v=0UmEg8PDV3Y"
+  ],
+  "catalog-hangyakusei-million-arthur-2-2019:ED:1": [
+    "https://catalog.bandainamcomusiclive.co.jp/release/68378/"
+  ],
   "catalog-cinderella-girls-climax-2019:ED:1": [
     "https://columbia.jp/idolmaster/imasnews/190405.html",
     "https://www.youtube.com/watch?v=QkO1DC96kIM"
@@ -273,6 +281,10 @@ const firstPartyUrlsByTheme: Readonly<Record<string, readonly string[]>> = {
 };
 
 const sourceLabelsByUrl: Readonly<Record<string, string>> = {
+  "https://www.orsm.jp/discography/open-the-worlds/": "ORESAMA 官方：第二季 OP、詞曲編曲署名與 CD 日期",
+  "https://www.orsm.jp/%E3%80%8Copen-the-worlds%E3%80%8D%E5%85%88%E8%A1%8C%E9%85%8D%E4%BF%A1%E6%B1%BA%E5%AE%9A/": "ORESAMA 官方：mora 及其他平台先行配信日期",
+  "https://www.youtube.com/watch?v=0UmEg8PDV3Y": "Lantis：第二季 OP 官方完整 MV、演唱者及製作署名",
+  "https://catalog.bandainamcomusiclive.co.jp/release/68378/": "Bandai Namco Music Live：第二季 ED、原演唱組合與 CD 日期",
   "https://columbia.jp/idolmaster/imasnews/190405.html": "日本 Columbia：TV 4 月 ED、演唱及製作署名、CD 日期與官方試聽",
   "https://www.youtube.com/watch?v=QkO1DC96kIM": "日本 Columbia：4 月 ED 官方試聽短版與演唱者",
   "https://columbia.jp/idolmaster/imasnews/190510.html": "日本 Columbia：TV 5 月 ED、演唱及製作署名、CD 日期與官方試聽",
@@ -406,6 +418,12 @@ const sourceLabelsByUrl: Readonly<Record<string, string>> = {
 };
 
 const crossCheckSourcesByAnime: Readonly<Record<string, CuratedThemeSourceSeed>> = {
+  "catalog-hangyakusei-million-arthur-2-2019": {
+    label: "アニソン・オンライン：第二季 OP／ED 與演唱組合交叉核對",
+    url: "https://anison.online/anime/1105",
+    language: "ja",
+    role: "cross_check"
+  },
   "catalog-cinderella-girls-climax-2019": {
     label: "アニソン・オンライン：2019 春季、三首 ED 用途與合唱名義交叉核對",
     url: "https://anison.online/anime/1069",

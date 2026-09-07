@@ -2,6 +2,12 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## v1.51.0 — 2019 春季《叛逆性百萬亞瑟王 第二季》
+
+- 收錄第二季 TV 版的 OP〈OPEN THE WORLDS〉及 ED〈PEARLY×PARTY〉，保留原演唱組合、CD 日期及 OP 的先行配信日期。
+- 新增 Lantis 官方完整片頭 MV；第一季歌曲、插曲、單曲附加曲及 ORESAMA 的 Funkapop 改編版不作本季 OP／ED，未核對的個別演唱及製作署名維持空白。
+- 春季共 35 套作品、101 筆 OP／ED；本季與夏季仍在補充，2025 秋季尚未收錄。
+
 ## v1.50.0 — 2019 春季《灰姑娘女孩劇場 CLIMAX SEASON》
 
 - 收錄 2019 年 TV 短篇系列與四、五、六月的三首輪替 ED；保留五人合唱名義、個別演唱者、已核對製作署名及 CD 完整版日期。
