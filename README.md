@@ -2,15 +2,17 @@
 
 Anisonary 是以 Astro + strict TypeScript 建立的動畫歌曲目錄，按季度與日本編輯播出日瀏覽作品、OP 與 ED。網站輸出為純靜態資產，正式交付使用 **Cloudflare Workers Static Assets**；它不是 Cloudflare Pages，也沒有 application Worker backend。下方同時保留 English technical notes。
 
-This repository contains the completed static product: season directory, anime detail pages, traceable OP／ED credits and links, per-song source ledgers, source-attributed media, local-only cross-season search, privacy-bounded offline reading, a GitHub correction flow, and deployment through Cloudflare Workers Static Assets. The default catalogue covers twenty-seven reviewed snapshots across 2019–2026, with 1,875 unique titles and 4,124 known OP／ED records; fictional Mock Data remains test-only.
+This repository contains the completed static product: season directory, anime detail pages, traceable OP／ED credits and links, per-song source ledgers, source-attributed media, local-only cross-season search, privacy-bounded offline reading, a GitHub correction flow, and deployment through Cloudflare Workers Static Assets. The default catalogue covers twenty-eight reviewed snapshots across 2019–2026, with 1,907 unique titles and 4,214 known OP／ED records. The 2019 summer snapshot currently contains a first batch of 32 TV titles; that quarter is still being expanded, and 2025 fall is not yet included. Fictional Mock Data remains test-only.
 
-目前 source 版本：**v1.27.0**。導覽改為固定五個入口，動畫目錄按年代、年份與季度逐層瀏覽；搜尋加入動畫／歌曲／創作者、年份、季度與 OP／ED 篩選，每頁最多顯示 12 套作品。版本延續 v1.26.1 的 `fast-uri` 安全修正與依賴稽核 gate。每個季度、作品及已發布歌曲都保留結構化來源、來源語言、審閱狀態及核對日期；每首歌曲另同時具備可點擊的第一方與交叉核對來源。v1.26.0 加入 2019 秋季 67 套動畫、159 筆已核對 OP／ED 與 62 筆現時可嵌入的官方或正式授權影片 metadata，按第一方用途證據分開《這個音止！》第二季、《刀劍神域 Alicization War of Underworld》、《巴比倫》、《列比烏斯》、《拳願阿修羅 Part 2》及《寶可夢旅途》的季度歌曲與變體。14 套沒有足夠公開 OP／ED 用途證據的作品維持明確空狀態；單集特別篇、OVA、成人作品、宣傳短片及季度外首播作品維持在公開季度範圍外。未有可靠主題曲或官方影片證據的欄位不以推測補值，影片亦排除不可公開嵌入、Premium-only 或非官方上載。公開 UI／API 不發布內部完整度或 confidence score。搜尋在瀏覽器內比對日文、繁體中文、Romaji、歌曲、歌手與 credit；搜尋字詞不會傳送到 server 或 analytics。Build 同時輸出與頁面相同資料來源的同源唯讀 JSON API，不需要 application Worker、D1、KV 或 secret。Service Worker 只預先保存公開頁面與必要靜態資產，不保存搜尋字詞、API JSON 或第三方媒體。
+目前 source 版本：**v1.28.0**。新增 2019 夏季首批 32 套 TV 作品、90 筆已核對 OP／ED 及 4 筆官方試聽影片 metadata。此季仍在補充，季度頁與 API 會明示收錄範圍；其餘作品、網絡連載及特殊歌曲版本須待證據核對。2025 秋季尚未收錄。每首已發布歌曲均保留第一方與交叉核對來源、語言及核對日期；輪替片尾、不同演唱版本和純音樂 credits 分開記錄。未有已核對圖片的作品使用無圖版面。
+
+導覽延續固定五個入口與年代、年份、季度目錄；搜尋可按動畫、歌曲、創作者、年份、季度及 OP／ED 篩選，每頁顯示 12 套作品。搜尋完全在瀏覽器內進行，YouTube 只於明確操作後連線。網站與同源靜態 JSON API 共用已審閱資料，無 application backend 或 database binding。依賴安全 gate 繼續鎖定 `fast-uri` 3.1.6 並稽核開發依賴。
 
 Production build 會從最終 HTML 自動產生 hash-based Content Security Policy。政策不使用 `unsafe-inline` 或 `unsafe-eval`，禁止 inline event／style attributes，只開放同源資產、已核對的海報來源及使用者啟動後的 YouTube privacy-enhanced iframe。任何未批准的 media origin 會令 build fail closed。
 
 | 可用性 / Availability                  | 成熟度 / Maturity                       | 證據 / Evidence                                                                                                                                                                                                                                                     |
 | -------------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 公開靜態目錄 / Public static catalogue | Source 版本為 `v1.27.0`；正式發布狀態以對應 Release 驗收摘要為準 | [入口網站 / Live](https://anisonary.k-y.cc) · [版本與驗收 / Releases](https://github.com/kyeunga25/anisonary/releases) · [資料來源 / Sources](docs/DATA_SOURCES.md) · [安全政策 / Security](SECURITY.md) · [授權 / Licence](LICENSING.md) · [版權 / Copyright](COPYRIGHT.md) |
+| 公開靜態目錄 / Public static catalogue | Source 版本為 `v1.28.0`；正式發布狀態以對應 Release 驗收摘要為準 | [入口網站 / Live](https://anisonary.k-y.cc) · [版本與驗收 / Releases](https://github.com/kyeunga25/anisonary/releases) · [資料來源 / Sources](docs/DATA_SOURCES.md) · [安全政策 / Security](SECURITY.md) · [授權 / Licence](LICENSING.md) · [版權 / Copyright](COPYRIGHT.md) |
 
 ## 技術棧｜Technology stack
 
@@ -57,7 +59,7 @@ PUBLIC_API_BASE_URL=https://anisonary.k-y.cc/api/v1 npm run api:check
 - `MockProvider` remains available only for isolated unit and component tests; its fixtures are not production assets.
 - Copy `.env.example` to `.env` for local configuration. Never commit secrets.
 
-Season coverage uses a repository-owned source registry: Annict is the Japanese seasonal inventory baseline, while Bangumi provides a Chinese-entry cross-check. The twenty-seven published snapshots additionally cross-check Traditional Chinese calendar inventories, AniList identifiers and media, AnimeThemes records, public theme-song indexes, official sites, and Taiwan／Hong Kong licensing pages. These are editorial inputs only; production builds use the reviewed static snapshot and never require external APIs at runtime. See `docs/DATA_SOURCES.md` for the inventory rules and `docs/DATA_PROVENANCE.md` for the per-song ledger and media boundary.
+Season coverage uses a repository-owned source registry: Annict is the Japanese seasonal inventory baseline, while Bangumi provides a Chinese-entry cross-check. The twenty-eight published snapshots additionally cross-check Traditional Chinese calendar inventories, AniList identifiers and media, AnimeThemes records, public theme-song indexes, official sites, and Taiwan／Hong Kong licensing pages. These are editorial inputs only; production builds use the reviewed static snapshot and never require external APIs at runtime. See `docs/DATA_SOURCES.md` for the inventory rules and `docs/DATA_PROVENANCE.md` for the per-song ledger and media boundary.
 
 ## Catalogue navigation and search
 

@@ -146,6 +146,7 @@ export interface PublicAnimeDetail extends PublicAnimeCard {
 
 export interface PublicSeasonDetail extends PublicSeasonSummary {
   anime: PublicAnimeCard[];
+  coverageNote?: string;
   reviewState: PublicReviewState;
   verifiedAt: string;
   catalogReferences: PublicCatalogReference[];

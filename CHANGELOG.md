@@ -2,6 +2,21 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.28.0] - 2026-09-07
+
+### Added
+
+- the first reviewed 2019 summer TV slice: 32 titles, 90 OP／ED records and four official preview videos;
+- an optional, bounded `coverageNote` on season detail responses and pages, explicitly identifying incomplete seasonal coverage;
+- regression coverage for rotating endings, character and group vocal renditions, instrumental credits, deep-night editorial dates, image-free cards and creator search.
+
+### Changed
+
+- expanded the catalogue to 28 snapshots, 1,907 unique works, 4,214 OP／ED records and 1,749 official or licensed video metadata records;
+- allow new season modules to own their reviewed credits, version labels and release dates, while preserving existing override output;
+- keep identifiers independent from artwork provenance, omitting unverified images and attribution;
+- preserve known sequence numbers when earlier variants still lack sufficient evidence; 2019 summer remains a partial snapshot, and 2025 fall is not included.
+
 ## [1.27.0] - 2026-09-07
 
 ### Changed

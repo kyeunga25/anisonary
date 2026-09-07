@@ -10,7 +10,7 @@ test("static public API mirrors the reviewed catalogue without a runtime binding
   expect(seasonsResponse.status()).toBe(200);
   expect(seasonsResponse.headers()["content-type"]).toContain("application/json");
   const seasons = await seasonsResponse.json();
-  expect(seasons).toHaveLength(27);
+  expect(seasons).toHaveLength(28);
 
   const seasonResponse = await request.get("/api/v1/seasons/2026-summer.json");
   expect(seasonResponse.status()).toBe(200);
@@ -454,12 +454,12 @@ test("cross-season search stays local and matches anime, songs, and artists", as
 
   await page.goto("/search/");
   await expect(page.getByRole("heading", { name: "跨季度搜尋" })).toBeVisible();
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1875");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1907");
 
   const search = page.getByRole("searchbox", { name: "搜尋動畫、歌曲或創作者" });
   await search.fill("ＭＹＴＨ & ＲＯＩＤ");
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("7");
-  await expect(page.locator("[data-catalog-theme-count]")).toHaveText("7");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("8");
+  await expect(page.locator("[data-catalog-theme-count]")).toHaveText("8");
   await expect(page.getByRole("link", { name: "幼女戦記Ⅱ" })).toBeVisible();
   await expect(page.getByText("Why? RED induction")).toBeVisible();
   await expect(page.getByRole("link", { name: "Re:ゼロから始める異世界生活 4th season" })).toBeVisible();
@@ -494,7 +494,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
   await expect(page.locator("[data-catalog-anime-count]")).toHaveText("0");
 
   await search.press("Escape");
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1875");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1907");
   expect(externalRequests).toEqual([]);
 });
 
@@ -880,7 +880,7 @@ test("catalogue navigation stays compact and drills down through published years
   await expect(navigation.getByRole("link", { name: /動畫目錄/ })).toHaveAttribute("aria-current", "true");
   await expect(page.getByRole("navigation", { name: "2025 年季度導覽" }).getByRole("link", { name: "春季" })).toHaveAttribute("aria-current", "page");
   await expect(page.getByRole("navigation", { name: "所在位置" }).getByRole("link", { name: "2025", exact: true })).toHaveAttribute("href", "/catalog/2025/");
-  await expect(page.getByLabel("季度資料狀態")).toContainText("已發布 27 個季度、1,875 個作品頁與 4,124 首 OP／ED");
+  await expect(page.getByLabel("季度資料狀態")).toContainText("已發布 28 個季度、1,907 個作品頁與 4,214 首 OP／ED");
 
   await page.setViewportSize({ width: 390, height: 844 });
   await page.reload();
@@ -910,7 +910,7 @@ test("search paginates a bounded DOM and combines year, quarter, creator, and so
   await expect(results).toHaveCount(12);
   const firstTitle = await results.first().locator("h2").textContent();
   await page.getByRole("button", { name: "下一頁" }).click();
-  await expect(page.locator("[data-search-page]")).toContainText("第 2／157 頁");
+  await expect(page.locator("[data-search-page]")).toContainText("第 2／159 頁");
   await expect(page.locator("#catalog-search-results")).toBeFocused();
   await expect(results).toHaveCount(12);
   expect(await results.first().locator("h2").textContent()).not.toBe(firstTitle);
@@ -963,10 +963,41 @@ test("catalogue and search fit narrow devices, with native browsing available wi
   await expect(nativePage.getByRole("navigation", { name: "主要導覽" }).getByRole("link")).toHaveCount(5);
   await expect(nativePage.getByRole("navigation", { name: "主要導覽" })).toBeVisible();
   await nativePage.locator(".catalog-decade").last().locator("summary").click();
-  await nativePage.getByRole("link", { name: /2019.*1 個季度/ }).click();
+  await nativePage.getByRole("link", { name: /2019.*2 個季度/ }).click();
   await nativePage.getByRole("link", { name: /秋季動畫.*67 套動畫/ }).click();
   await expect(nativePage.getByRole("heading", { name: "2019 秋季動畫" })).toBeVisible();
   await context.close();
+});
+
+test("2019 summer exposes its coverage, searchable credits and image-free responsive cards", async ({ page }) => {
+  for (const width of [1280, 390]) {
+    await page.setViewportSize({ width, height: 844 });
+    await page.goto("/catalog/2019/");
+    await page.getByRole("link", { name: /夏季動畫.*32 套動畫/ }).click();
+    await expect(page.getByRole("heading", { name: "2019 夏季動畫" })).toBeVisible();
+    await expect(page.getByText("本季正在補充，目前收錄 32 套 TV 作品。其餘作品、網絡連載及特殊歌曲版本仍待核對。", { exact: true })).toBeVisible();
+    await expect(page.locator("[data-anime-card]")).toHaveCount(32);
+    await expect(page.locator("[data-anime-card] img")).toHaveCount(0);
+    await expect(page.locator("iframe")).toHaveCount(0);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+    await page.goto("/search/");
+    await page.getByLabel("年份", { exact: true }).selectOption("2019");
+    await page.getByLabel("季度", { exact: true }).selectOption("summer");
+    await page.getByLabel("搜尋範圍").selectOption("creators");
+    await page.getByRole("searchbox", { name: "搜尋動畫、歌曲或創作者" }).fill("梶浦由記");
+    await page.getByRole("link", { name: "starting the case: Rail Zeppelin", exact: true }).click();
+    const opening = page.locator(".theme-card").filter({ has: page.getByRole("heading", { name: "starting the case: Rail Zeppelin", exact: true }) });
+    await expect(opening).toContainText("純音樂片頭曲");
+    await expect(opening).not.toContainText("演唱：梶浦由記");
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  }
+  await page.goto("/anime/dumbbell-nan-kilo-moteru/");
+  await expect(page.getByRole("button", { name: /載入 YouTube 影片/ })).toHaveCount(2);
+  await expect(page.locator("iframe")).toHaveCount(0);
+  await page.route("https://www.youtube-nocookie.com/**", (route) => route.fulfill({ contentType: "text/html", body: "<!doctype html><title>Official player fixture</title>" }));
+  await page.getByRole("button", { name: /載入 YouTube 影片/ }).first().click();
+  await expect(page.locator("iframe")).toHaveCount(1);
+  await expect(page.locator("iframe")).toHaveAttribute("src", /youtube-nocookie\.com\/embed\/mgympfbOgqw/);
 });
 
 test("unknown routes render the public 404 state and stay out of the index", async ({ page }) => {

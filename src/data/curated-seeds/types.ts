@@ -1,8 +1,8 @@
-import type { PublicAnimeDetail, Quarter } from "@/types/public-api";
+import type { PublicAnimeDetail, PublicTheme, Quarter } from "@/types/public-api";
 
 export type CuratedSeasonId = `${number}-${Quarter}`;
 
-export interface CuratedThemeSeed {
+export interface CuratedThemeSeed extends Partial<Pick<PublicTheme, "credits" | "versionLabel" | "releaseDate">> {
   type: "OP" | "ED";
   sequence: number;
   titleJa: string;
@@ -21,7 +21,7 @@ export interface CuratedAnimeSeed {
   titleJa: string;
   titleZhHant: string;
   titleRomaji: string;
-  posterUrl: string;
+  posterUrl?: string;
   bannerUrl?: string;
   editorialWeekday: number;
   broadcastTimeJst?: string;
@@ -29,8 +29,9 @@ export interface CuratedAnimeSeed {
   status: PublicAnimeDetail["status"];
   officialSiteUrl?: string;
   anilistUrl: string;
-  imageSourceUrl: string;
-  imageSourceLabel: string;
+  imageSourceUrl?: string;
+  imageSourceLabel?: string;
+  identifierSource?: Pick<PublicAnimeDetail["sources"][number], "label" | "url" | "language">;
   wikipediaUrl: string;
   sourceReferenceUrls: string[];
   animeThemesUrl?: string;
@@ -44,6 +45,7 @@ export interface CuratedSeasonRegistryEntry {
   readonly quarter: Quarter;
   readonly titleZhHant: string;
   readonly titleJa: string;
+  readonly coverageNote?: string;
   readonly seeds: readonly CuratedAnimeSeed[];
   readonly animeIds: readonly number[];
 }

@@ -33,11 +33,12 @@ describe("curated season registry", () => {
       "2020-summer",
       "2020-spring",
       "2020-winter",
-      "2019-fall"
+      "2019-fall",
+      "2019-summer"
     ]);
 
     const ownedSeeds = curatedSeasonRegistry.flatMap(({ seeds }) => seeds);
-    expect(ownedSeeds).toHaveLength(1875);
+    expect(ownedSeeds).toHaveLength(1907);
     expect(new Set(ownedSeeds.map(({ anilistId }) => anilistId)).size).toBe(ownedSeeds.length);
 
     for (const entry of curatedSeasonRegistry) {
@@ -80,5 +81,24 @@ describe("curated season registry", () => {
     expect(() => validateCuratedSeasonRegistry([
       { ...valid, animeIds: [999_999_999] }
     ])).toThrow("Missing curated seed");
+  });
+
+  it("allows reviewed records without artwork and requires attribution for artwork", () => {
+    const season = curatedSeasonRegistry[0]!;
+    const original = season.seeds[0]!;
+    const { posterUrl, bannerUrl, imageSourceUrl, imageSourceLabel, ...withoutArtwork } = original;
+    const seed = { ...withoutArtwork, seasonIds: [season.id] };
+    const entry = { ...season, seeds: [seed], animeIds: [seed.anilistId] };
+
+    expect(() => validateCuratedSeasonRegistry([entry])).not.toThrow();
+    expect(() => validateCuratedSeasonRegistry([
+      { ...entry, seeds: [{ ...seed, posterUrl: posterUrl! }] }
+    ])).toThrow("Missing curated image attribution");
+    expect(() => validateCuratedSeasonRegistry([
+      { ...entry, seeds: [{ ...seed, bannerUrl: bannerUrl ?? posterUrl! }] }
+    ])).toThrow("Missing curated image attribution");
+    expect(() => validateCuratedSeasonRegistry([
+      { ...entry, seeds: [{ ...seed, imageSourceUrl: imageSourceUrl!, imageSourceLabel: imageSourceLabel! }] }
+    ])).toThrow("Image attribution without curated artwork");
   });
 });

@@ -15,7 +15,7 @@ const themeCount = curatedAnimeDetails.reduce((total, anime) => total + anime.th
 <aside class:list={["catalog-status", { "catalog-status--compact": compact }]} aria-label="季度資料狀態">
   <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6" /><circle cx="12" cy="12" r="10" /></svg>
   <p>
-    <strong>已核對季度完整目錄</strong>
+    <strong>已審閱動畫目錄</strong>
     <span>
       已發布 {numberFormat.format(seasonCount)} 個季度、{numberFormat.format(animeCount)} 個作品頁與 {numberFormat.format(themeCount)} 首 OP／ED；本頁季度核對 {verifiedAt}。
     </span>

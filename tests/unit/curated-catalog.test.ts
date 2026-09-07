@@ -5,7 +5,7 @@ import { CuratedProvider } from "@/data/curated-provider";
 import { creditRoleLabel } from "@/utils/theme";
 
 describe("curated public catalogue", () => {
-  it("publishes all twenty-seven reviewed seasonal snapshots", () => {
+  it("publishes all twenty-eight reviewed seasonal snapshots", () => {
     expect(curatedSeasons.map((season) => season.id)).toEqual([
       "2026-summer",
       "2026-spring",
@@ -33,10 +33,11 @@ describe("curated public catalogue", () => {
       "2020-summer",
       "2020-spring",
       "2020-winter",
-      "2019-fall"
+      "2019-fall",
+      "2019-summer"
     ]);
-    expect(curatedSeasonDetails).toHaveLength(27);
-    expect(curatedSeasonDetails.map((season) => season.anime.length)).toEqual([70, 70, 66, 75, 82, 59, 88, 68, 76, 75, 100, 75, 79, 72, 80, 69, 79, 58, 65, 46, 73, 67, 67, 31, 61, 58, 67]);
+    expect(curatedSeasonDetails).toHaveLength(28);
+    expect(curatedSeasonDetails.map((season) => season.anime.length)).toEqual([70, 70, 66, 75, 82, 59, 88, 68, 76, 75, 100, 75, 79, 72, 80, 69, 79, 58, 65, 46, 73, 67, 67, 31, 61, 58, 67, 32]);
     expect(curatedSeasonDetails.map((season) => [season.id, season.reviewState, season.verifiedAt])).toEqual([
       ["2026-summer", "reviewed", "2026-08-02"],
       ["2026-spring", "reviewed", "2026-08-02"],
@@ -64,12 +65,13 @@ describe("curated public catalogue", () => {
       ["2020-summer", "reviewed", "2026-09-02"],
       ["2020-spring", "reviewed", "2026-09-02"],
       ["2020-winter", "reviewed", "2026-09-02"],
-      ["2019-fall", "reviewed", "2026-09-02"]
+      ["2019-fall", "reviewed", "2026-09-02"],
+      ["2019-summer", "reviewed", "2026-09-07"]
     ]);
-    expect(curatedAnimeDetails).toHaveLength(1875);
-    expect(curatedAnimeDetails.filter((anime) => anime.themes.length > 0)).toHaveLength(1515);
-    expect(curatedAnimeDetails.flatMap((anime) => anime.themes)).toHaveLength(4124);
-    expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "documented")).toHaveLength(1515);
+    expect(curatedAnimeDetails).toHaveLength(1907);
+    expect(curatedAnimeDetails.filter((anime) => anime.themes.length > 0)).toHaveLength(1547);
+    expect(curatedAnimeDetails.flatMap((anime) => anime.themes)).toHaveLength(4214);
+    expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "documented")).toHaveLength(1547);
     expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "not_used")).toHaveLength(2);
     expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "not_announced")).toHaveLength(358);
     const youtubeLinks = curatedAnimeDetails
@@ -2150,9 +2152,14 @@ describe("curated public catalogue", () => {
     ]);
 
     for (const anime of curatedAnimeDetails) {
-      expect(anime.posterUrl).toMatch(/^https:\/\/s4\.anilist\.co\//);
-      if (anime.bannerUrl) expect(anime.bannerUrl).toMatch(/^https:\/\/s4\.anilist\.co\//);
-      expect(anime.imageSourceUrl).toMatch(/^https:\/\/anilist\.co\/anime\//);
+      if (anime.posterUrl || anime.bannerUrl) {
+        if (anime.posterUrl) expect(anime.posterUrl).toMatch(/^https:\/\/s4\.anilist\.co\//);
+        if (anime.bannerUrl) expect(anime.bannerUrl).toMatch(/^https:\/\/s4\.anilist\.co\//);
+        expect(anime.imageSourceUrl).toMatch(/^https:\/\/anilist\.co\/anime\//);
+      } else {
+        expect(anime.imageSourceUrl).toBeUndefined();
+        expect(anime.imageSourceLabel).toBeUndefined();
+      }
       expect(anime.posterAlt).toContain(anime.titleJa);
       expect(anime.reviewState).toBe("reviewed");
       expect(anime.sources.length).toBeGreaterThanOrEqual(2);
@@ -2167,7 +2174,9 @@ describe("curated public catalogue", () => {
       }
 
       for (const item of anime.themes) {
-        const expectedVerifiedAt = newestCycleIds.has(anime.id)
+        const expectedVerifiedAt = curatedSeasonDetails.find(({ id }) => id === "2019-summer")?.anime.some(({ id }) => id === anime.id)
+          ? "2026-09-07"
+          : newestCycleIds.has(anime.id)
           ? "2026-09-02"
           : latestCycleIds.has(anime.id)
           ? "2026-09-01"
