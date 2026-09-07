@@ -460,7 +460,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
 
   await page.goto("/search/");
   await expect(page.getByRole("heading", { name: "跨季度搜尋" })).toBeVisible();
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1947");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1948");
 
   const search = page.getByRole("searchbox", { name: "搜尋動畫、歌曲或創作者" });
   await search.fill("ＭＹＴＨ & ＲＯＩＤ");
@@ -500,7 +500,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
   await expect(page.locator("[data-catalog-anime-count]")).toHaveText("0");
 
   await search.press("Escape");
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1947");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1948");
   expect(externalRequests).toEqual([]);
 });
 
@@ -901,7 +901,7 @@ test("catalogue navigation stays compact and drills down through published years
   await expect(navigation.getByRole("link", { name: /動畫目錄/ })).toHaveAttribute("aria-current", "true");
   await expect(page.getByRole("navigation", { name: "2025 年季度導覽" }).getByRole("link", { name: "春季" })).toHaveAttribute("aria-current", "page");
   await expect(page.getByRole("navigation", { name: "所在位置" }).getByRole("link", { name: "2025", exact: true })).toHaveAttribute("href", "/catalog/2025/");
-  await expect(page.getByLabel("季度資料狀態")).toContainText("已發布 29 個季度、1,947 個作品頁與 4,307 首 OP／ED");
+  await expect(page.getByLabel("季度資料狀態")).toContainText("已發布 29 個季度、1,948 個作品頁與 4,320 首 OP／ED");
 
   await page.setViewportSize({ width: 390, height: 844 });
   await page.reload();
@@ -1238,10 +1238,10 @@ test("2019 spring browsing and creator search reach the correct special ending o
   for (const width of [1280, 390]) {
     await page.setViewportSize({ width, height: 844 });
     await page.goto("/catalog/2019/");
-    await page.getByRole("link", { name: /春季動畫.*30 套動畫/ }).click();
+    await page.getByRole("link", { name: /春季動畫.*31 套動畫/ }).click();
     await expect(page.getByRole("heading", { name: "2019 春季動畫" })).toBeVisible();
-    await expect(page.getByText("本季正在補充，目前收錄 30 套 TV 作品（含電視短篇及重編版）。其餘作品、跨季延續及特殊歌曲版本仍待核對。", { exact: true })).toBeVisible();
-    await expect(page.locator("[data-anime-card]")).toHaveCount(30);
+    await expect(page.getByText("本季正在補充，目前收錄 31 套 TV 作品（含電視短篇及重編版）。其餘作品、跨季延續及特殊歌曲版本仍待核對。", { exact: true })).toBeVisible();
+    await expect(page.locator("[data-anime-card]")).toHaveCount(31);
     await expect(page.locator("[data-anime-card] img")).toHaveCount(0);
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 
@@ -1674,6 +1674,77 @@ test("anime details keep full-width poster-free headings and readable metadata a
   }
 });
 
+test("501 Takeoff creator search reaches the correct solo ending and keeps the group preview separate across devices", async ({ page, browser, request }) => {
+  const slug = "strike-witches-501-takeoff-2019";
+  const mediaRequests: string[] = [];
+  page.on("request", (item) => {
+    if (/youtube|ytimg|googlevideo/.test(new URL(item.url()).hostname)) mediaRequests.push(item.url());
+  });
+  const response = await request.get(`/api/v1/anime/${slug}.json`);
+  expect(response.status()).toBe(200);
+  const detail = await response.json();
+  expect(detail.id).toBe("catalog-strike-witches-501-2019");
+  expect(detail.themes).toHaveLength(13);
+  expect(detail).not.toHaveProperty("anilistUrl");
+  for (const width of [1280, 960, 390, 320]) {
+    await page.setViewportSize({ width, height: 844 });
+    await page.goto(`/anime/${slug}/`);
+    await expect(page.locator(".anime-hero__zh")).toHaveText("強襲魔女 501部隊出動！");
+    await expect(page.locator(".anime-hero__romaji")).toHaveCount(0);
+    const solo = page.locator(`#theme-${slug}-ed-2`);
+    const creator = solo.getByRole("link", { name: "搜尋「野川さくら」的歌曲", exact: true });
+    await creator.focus();
+    await page.keyboard.press("Enter");
+    await expect(page.getByRole("searchbox", { name: "搜尋動畫、歌曲或創作者" })).toHaveValue("野川さくら");
+    await expect(page.getByLabel("搜尋範圍")).toHaveValue("creators");
+    for (const [label, value] of [["年份", "2019"], ["季度", "spring"], ["歌曲用途", "ED"]]) {
+      await page.getByLabel(label!, { exact: true }).selectOption(value!);
+    }
+    await expect(page.locator("[data-catalog-result]")).toHaveCount(1);
+    await page.getByRole("link", { name: "Treasure of life #2", exact: true }).click();
+    await expect(page).toHaveURL(new RegExp(`/anime/${slug}/#theme-${slug}-ed-2$`));
+    await expect(solo).toBeInViewport({ ratio: 0.3 });
+    await expect(solo.locator(".theme-card__artist")).toHaveText("エーリカ・ハルトマン（CV：野川さくら）");
+    await expect(solo.locator(".theme-card__credits dt")).toHaveText(["演唱", "作詞", "編曲"]);
+    await expect(solo.locator("time")).toHaveText("2019-06-26");
+    await expect(solo).toContainText("作曲署名待核對");
+    await expect(solo.getByRole("button", { name: /載入 YouTube 影片/ })).toHaveCount(0);
+    const group = page.locator(`#theme-${slug}-ed-12`);
+    await expect(group.locator(".theme-card__artist")).toHaveText("第501統合戦闘航空団");
+    await expect(group).toContainText("官方影片為試聽短版");
+    await expect(group.getByRole("button", { name: /載入 YouTube 影片/ })).toHaveCount(1);
+    await expect(page.locator(`#theme-${slug}-op-1`)).toContainText("官方影片為短版 MV");
+    await expect(page.locator(".theme-card")).toHaveCount(13);
+    await expect(page.locator("iframe")).toHaveCount(0);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  }
+  expect(mediaRequests).toEqual([]);
+  await page.route("https://www.youtube-nocookie.com/**", (route) => route.fulfill({ contentType: "text/html", body: "<!doctype html><title>Official ending preview fixture</title>" }));
+  const preview = page.locator(`#theme-${slug}-ed-12`).getByRole("button", { name: /載入 YouTube 影片/ });
+  await preview.focus();
+  await page.keyboard.press("Enter");
+  await expect(page.locator("iframe")).toHaveCount(1);
+  await expect(page.locator("iframe")).toHaveAttribute("src", /youtube-nocookie\.com\/embed\/63fWLXw7ylY/);
+
+  const context = await browser.newContext({ javaScriptEnabled: false, viewport: { width: 390, height: 844 } });
+  try {
+    const nativePage = await context.newPage();
+    await nativePage.goto(`${e2eOrigin}/catalog/2019/`);
+    await nativePage.getByRole("link", { name: /春季動畫.*31 套動畫/ }).click();
+    await nativePage.getByRole("link", { name: /ストライクウィッチーズ 501部隊発進しますっ/ }).first().click();
+    await expect(nativePage).toHaveURL(new RegExp(`/anime/${slug}/$`));
+    await expect(nativePage.locator(".theme-card")).toHaveCount(13);
+    const sources = nativePage.locator(`#theme-${slug}-ed-12 details`);
+    await sources.locator("summary").focus();
+    await nativePage.keyboard.press("Enter");
+    await expect(sources.locator('a[href="https://columbia.jp/prod-info/COCX-40890/"]')).toBeVisible();
+    await expect(nativePage.locator("iframe")).toHaveCount(0);
+    expect(await nativePage.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  } finally {
+    await context.close();
+  }
+});
+
 test("Gonjiro search preserves independent identity, co-composers and the licensed TV ending across devices", async ({ page, browser, request }) => {
   const mediaRequests: string[] = [];
   page.on("request", (item) => {
@@ -1721,7 +1792,7 @@ test("Gonjiro search preserves independent identity, co-composers and the licens
   const context = await browser.newContext({ javaScriptEnabled: false, viewport: { width: 390, height: 844 } });
   const nativePage = await context.newPage();
   await nativePage.goto(`${e2eOrigin}/catalog/2019/`);
-  await nativePage.getByRole("link", { name: /春季動畫.*30 套動畫/ }).click();
+  await nativePage.getByRole("link", { name: /春季動畫.*31 套動畫/ }).click();
   await nativePage.getByRole("link", { name: /けだまのゴンじろー/ }).first().click();
   await expect(nativePage).toHaveURL(/\/anime\/gonjiro-2019\/$/);
   await expect(nativePage.locator(".theme-card")).toHaveCount(2);
@@ -2019,8 +2090,8 @@ test("weekday navigation follows populated groups and remains useful after filte
 
     await page.getByRole("checkbox", { name: "有正版影片" }).check();
     await expect(navigation.getByRole("link")).toHaveText(["週一", "週二", "週三", "週四", "週五", "週六", "週日"]);
-    await expect(page.locator("[data-result-count]")).toHaveText("20");
-    const expectedCounts = [3, 3, 1, 1, 3, 4, 5];
+    await expect(page.locator("[data-result-count]")).toHaveText("21");
+    const expectedCounts = [3, 4, 1, 1, 3, 4, 5];
     for (const [index, link] of (await navigation.getByRole("link").all()).entries()) {
       const target = page.locator((await link.getAttribute("href"))!);
       await expect(target).toBeVisible();
@@ -2031,7 +2102,7 @@ test("weekday navigation follows populated groups and remains useful after filte
     await expect(navigation.getByRole("link", { name: "週六" })).toHaveAttribute("aria-current", "location");
     await page.getByRole("button", { name: "清除篩選" }).click();
     await expect(navigation.getByRole("link")).toHaveText(["週一", "週二", "週三", "週四", "週五", "週六", "週日"]);
-    await expect(page.locator("[data-result-count]")).toHaveText("30");
+    await expect(page.locator("[data-result-count]")).toHaveText("31");
     await expect(page.getByRole("checkbox", { name: "有 OP" })).toBeFocused();
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   }
@@ -2054,7 +2125,7 @@ test("weekday navigation follows populated groups and remains useful after filte
   await expect(nativePage.getByRole("navigation", { name: "跳到播出星期" }).getByRole("link"))
     .toHaveText(["週一", "週二", "週三", "週四", "週五", "週六", "週日"]);
   await expect(nativePage.locator("[data-weekday-section]")).toHaveCount(7);
-  await expect(nativePage.locator("[data-anime-card]")).toHaveCount(30);
+  await expect(nativePage.locator("[data-anime-card]")).toHaveCount(31);
   await nativePage.getByRole("link", { name: "週五", exact: true }).click();
   await expect(nativePage).toHaveURL(/#weekday-5$/);
   expect(await nativePage.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);

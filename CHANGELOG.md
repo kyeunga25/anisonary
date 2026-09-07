@@ -2,6 +2,12 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## v1.46.0 — 2019 春季《強襲魔女 501部隊出動！》
+
+- 收錄 2019 年 TV 短篇、1 首 OP 與 12 個輪替 ED 演唱版本，保留各自角色、聲優、CD 日期及歌曲用途。
+- 官方短版 OP MV 與 ED #12 試聽各自關聯；劇場版、伴奏與串燒不新增為 TV 片尾，互有出入的 ED 作曲署名保持空缺並明示待核對。
+- 春季共 31 套作品、91 筆 OP／ED；本季與夏季仍在補充，2025 秋季尚未收錄。
+
 ## v1.45.0 — 署名搜尋連結
 
 - 歌曲卡片上的歌手、作詞、作曲及編曲署名可直接開啟創作者文字搜尋，沿用現有篩選及 12 套作品分頁。

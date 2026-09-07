@@ -1682,7 +1682,67 @@ const curated2019SpringSeedRows: Spring2019SeedInput[] = [
   }
 ];
 
+const strikeWitches501EndingRows = [
+  [1, "Treasure of life #1", "宮藤芳佳（CV：福圓美里）", "福圓美里"],
+  [2, "Treasure of life #2", "エーリカ・ハルトマン（CV：野川さくら）", "野川さくら"],
+  [3, "Treasure of life #3", "ミーナ・ディートリンデ・ヴィルケ（CV：田中理恵）", "田中理恵"],
+  [4, "Treasure of life #4", "ゲルトルート・バルクホルン（CV：園崎未恵）", "園崎未恵"],
+  [5, "Treasure of life #5", "坂本美緒（CV：世戸さおり）", "世戸さおり"],
+  [6, "Treasure of life #6", "シャーロット・E・イェーガー（CV：小清水亜美）", "小清水亜美"],
+  [7, "Treasure of life #7", "フランチェスカ・ルッキーニ（CV：斎藤千和）", "斎藤千和"],
+  [8, "Treasure of life #8", "サーニャ・V・リトヴャク（CV：門脇舞以）", "門脇舞以"],
+  [9, "Treasure of life #9", "エイラ・イルマタル・ユーティライネン（CV：大橋歩夕）", "大橋歩夕"],
+  [10, "Treasure of life #10", "リネット・ビショップ（CV：名塚佳織）", "名塚佳織"],
+  [11, "Treasure of life #11", "ペリーヌ・クロステルマン（CV：沢城みゆき）", "沢城みゆき"],
+  [12, "Treasure of life #12", "第501統合戦闘航空団", "第501統合戦闘航空団"]
+] as const;
+
 const independentSpringSeeds: NativeCuratedAnimeSeed[] = [{
+  id: "catalog-strike-witches-501-2019",
+  slug: "strike-witches-501-takeoff-2019",
+  titleJa: "ストライクウィッチーズ 501部隊発進しますっ！",
+  titleZhHant: "強襲魔女 501部隊出動！",
+  seasonIds: ["2019-spring"],
+  startDate: "2019-04-09",
+  editorialWeekday: 2,
+  broadcastTimeJst: "24:45",
+  broadcastLabel: "TOKYO MX 每週二 24:45（日本時間；2019 年 TV 短篇）",
+  status: "finished",
+  verifiedAt: "2026-09-07",
+  officialSiteUrl: "https://w-witch.jp/501_takeoff/",
+  identifierSource: {
+    label: "動畫官方：2019 年 TV 版作品識別與首播時段",
+    url: "https://w-witch.jp/501_takeoff/onair/",
+    language: "ja"
+  },
+  wikipediaUrl: "https://youranimes.tw/bangumi/201904",
+  sourceReferenceUrls: [
+    "https://youranimes.tw/animes/1192",
+    "https://www.animatetimes.com/tag/details.php?id=15506"
+  ],
+  themes: [{
+    type: "OP", sequence: 1,
+    titleJa: "空が呼ぶほうへ",
+    artistDisplayName: "石田燿子",
+    releaseDate: "2019-04-24",
+    versionLabel: "2019 年 TV 版 OP／CD 完整版；官方影片為短版 MV",
+    credits: [
+      { name: "石田燿子", role: "vocals" },
+      { name: "ミズノゲンキ", role: "lyrics" },
+      { name: "睦月周平", role: "composition" },
+      { name: "睦月周平", role: "arrangement" }
+    ]
+  }, ...strikeWitches501EndingRows.map(([sequence, titleJa, artistDisplayName, vocalist]) => ({
+    type: "ED" as const, sequence, titleJa, artistDisplayName,
+    releaseDate: "2019-06-26",
+    versionLabel: `TV 輪替 ED #${sequence}／CD 完整版；作曲署名待核對${sequence === 12 ? "；官方影片為試聽短版" : ""}`,
+    credits: [
+      { name: vocalist, role: "vocals" as const },
+      { name: "荘野ジュリ", role: "lyrics" as const },
+      { name: "滝澤俊輔", role: "arrangement" as const }
+    ]
+  }))]
+}, {
   id: "catalog-gonjiro-2019",
   slug: "gonjiro-2019",
   titleJa: "けだまのゴンじろー",

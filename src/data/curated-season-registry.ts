@@ -452,7 +452,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     quarter: "spring",
     titleZhHant: "春季動畫",
     titleJa: "2019年春アニメ",
-    coverageNote: "本季正在補充，目前收錄 30 套 TV 作品（含電視短篇及重編版）。其餘作品、跨季延續及特殊歌曲版本仍待核對。",
+    coverageNote: "本季正在補充，目前收錄 31 套 TV 作品（含電視短篇及重編版）。其餘作品、跨季延續及特殊歌曲版本仍待核對。",
     seeds: curated2019SpringSeeds,
     animeIds: curated2019SpringAnimeIds
   }
