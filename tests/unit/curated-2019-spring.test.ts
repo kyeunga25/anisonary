@@ -11,9 +11,9 @@ const anime = (id: number) => curatedAnimeDetails.find((item) => item.id === `cu
 
 describe("2019 spring reviewed TV catalogue", () => {
   it("publishes a partial quarter with reviewed identity and song evidence, without unverified artwork", () => {
-    expect(spring.anime).toHaveLength(4);
+    expect(spring.anime).toHaveLength(8);
     expect(spring.coverageNote).toContain("跨季延續及特殊歌曲版本仍待核對");
-    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(9);
+    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(18);
     expect(curatedSeasonDetails.some(({ id }) => id === "2025-fall")).toBe(false);
     for (const seed of curated2019SpringSeeds) {
       expect(seed.seasonIds).toEqual(["2019-spring"]);
@@ -96,5 +96,72 @@ describe("2019 spring reviewed TV catalogue", () => {
     expect(searchCatalog(index, { ...options, quarter: "summer" })).toEqual([]);
     expect(searchCatalog(index, { ...options, query: "内田真礼", type: "OP" }).map(({ anime: item }) => item.slug))
       .toEqual(["sewayaki-kitsune-no-senko-san"]);
+  });
+
+  it("keeps Friday's late-night school series on their Japanese editorial day", () => {
+    for (const [id, time] of [[106051, "25:55"], [105989, "26:10"], [101386, "26:25"]] as const) {
+      expect(curated2019SpringSeeds.find(({ anilistId }) => anilistId === id)?.startDate).toBe("2019-04-05");
+      expect(anime(id)).toMatchObject({ editorialWeekday: 5, broadcastTimeJst: time });
+    }
+    expect(anime(106051).broadcastLabel).toContain("首話 TBS 25:42／MBS 26:10");
+    expect(anime(105989).titleZhHant).toBe("滿腦都是○○的我沒辦法談戀愛");
+    expect(anime(101386).titleZhHant).toBe("一個人的○○小日子");
+  });
+
+  it("keeps Bocchi's episode-six ensemble ending apart from her solo ending and episode-five insert song", () => {
+    const bocchi = anime(101386);
+    expect(bocchi.themes.map(({ type, sequence, titleJa }) => [type, sequence, titleJa])).toEqual([
+      ["OP", 1, "ひとりぼっちのモノローグ"],
+      ["ED", 1, "ね、いっしょにかえろ。"],
+      ["ED", 2, "爆笑ぼっち塾 校歌"]
+    ]);
+    const solo = bocchi.themes[1]!;
+    const ensemble = bocchi.themes[2]!;
+    expect(solo.credits.filter(({ role }) => role === "vocals")).toHaveLength(1);
+    expect(ensemble.versionLabel).toBe("第6話片尾");
+    expect(ensemble.credits.filter(({ role }) => role === "vocals").map(({ name }) => name)).toEqual([
+      "一里ぼっち（CV：森下千咲）", "砂尾なこ（CV：田中美海）",
+      "本庄アル（CV：鬼頭明里）", "ソトカ・ラキター（CV：黒瀬ゆうこ）"
+    ]);
+    expect(ensemble.sources).toContainEqual(expect.objectContaining({
+      url: "https://hitoribocchi.jp/products/music.html", role: "first_party"
+    }));
+    expect(bocchi.themes.some(({ titleJa }) => titleJa === "まけるなアル かがやけアル")).toBe(false);
+  });
+
+  it("uses reviewed digital release dates and leaves unresolved credits unset", () => {
+    const senryuu = anime(106051);
+    expect(senryuu.themes[1]).toMatchObject({ titleJa: "ORDINARY LOVE", releaseDate: "2019-04-05" });
+    expect(senryuu.themes[1]?.credits).toContainEqual({ name: "青木康平", role: "composition" });
+    expect(senryuu.themes[0]?.releaseDate).toBeUndefined();
+    expect(senryuu.themes[0]?.credits.map(({ role }) => role)).toEqual(["vocals"]);
+    expect(anime(105989).themes[0]?.releaseDate).toBe("2019-04-05");
+    expect(anime(105989).themes[1]?.releaseDate).toBe("2019-04-06");
+    expect(anime(105989).themes[0]?.credits).toEqual([]);
+    expect(anime(105989).themes[1]?.credits.filter(({ role }) => role === "lyrics").map(({ name }) => name))
+      .toEqual(["幹葉", "寺西裕二"]);
+  });
+
+  it("keeps Study's first-season trio and original songs separate from the second season and remixes", async () => {
+    const firstSeason = anime(103900);
+    expect(firstSeason.titleJa).toBe("ぼくたちは勉強ができない");
+    expect(firstSeason.slug).toBe("bokutachi-wa-benkyou-ga-dekinai-1st-season");
+    expect(anime(110229)).toMatchObject({
+      slug: "bokutachi-wa-benkyou-ga-dekinai", titleJa: "ぼくたちは勉強ができない！"
+    });
+    expect(firstSeason.themes.map(({ titleJa }) => titleJa)).toEqual(["セイシュンゼミナール", "Never Give It Up!!"]);
+    for (const theme of firstSeason.themes) {
+      expect(theme.artistDisplayName).toBe("Study");
+      expect(theme.credits.filter(({ role }) => role === "vocals").map(({ name }) => name)).toEqual([
+        "古橋文乃（CV：白石晴香）", "緒方理珠（CV：富田美憂）", "武元うるか（CV：鈴代紗弓）"
+      ]);
+    }
+    expect(firstSeason.themes.flatMap(({ credits }) => credits).some(({ name }) => /Lynn|朝日奈丸佳/.test(name))).toBe(false);
+    const index = buildCatalogSearchIndex((await loadCatalogSearchData(new CuratedProvider(), true)).entries);
+    const filters = { query: "黒瀬ゆうこ", scope: "creators", year: "2019", quarter: "spring", type: "ED" } as const;
+    const results = searchCatalog(index, filters);
+    expect(results.map(({ anime: item }) => item.slug)).toEqual(["hitoribocchi-no-marumaru-seikatsu"]);
+    expect(results[0]?.themes.map(({ titleJa }) => titleJa)).toEqual(["爆笑ぼっち塾 校歌"]);
+    expect(searchCatalog(index, { ...filters, quarter: "summer" })).toEqual([]);
   });
 });

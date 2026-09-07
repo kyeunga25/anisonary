@@ -4605,6 +4605,50 @@ const animeOfficialSourceOverrides: Record<number, { label: string; url: string 
 };
 
 const animeSourceOverrides: Record<number, AnimeSourceSeed[]> = {
+  106051: [{
+    label: "DMM 官方公告：TV 首播日期、通常時段與首話異動",
+    url: "https://prtimes.jp/main/html/rd/p/000003320.000002581.html",
+    language: "ja",
+    role: "first_party"
+  }, {
+    label: "YourAnimes：繁中名稱與春季作品交叉核對",
+    url: "https://youranimes.tw/animes/499",
+    language: "zh-Hant",
+    role: "localized_cross_check"
+  }],
+  105989: [{
+    label: "木棉花：繁中動畫名稱與版本",
+    url: "https://www.e-muse.com/zh/animation/201904-ao-chan-cant-study/",
+    language: "zh-Hant",
+    role: "first_party"
+  }, {
+    label: "Sony Music Artists 官方公告：TV 首播日期",
+    url: "https://www.sma.co.jp/s/sma/news/detail/83323?ima=0000",
+    language: "ja",
+    role: "first_party"
+  }],
+  101386: [{
+    label: "LiTV 正式配信：繁中動畫名稱與 TV 作品",
+    url: "https://www.litv.tv/comic/watch/VOD00145752",
+    language: "zh-Hant",
+    role: "first_party"
+  }, {
+    label: "動畫官方：TV 首播日期、播出與配信時段",
+    url: "https://hitoribocchi.jp/onair/",
+    language: "ja",
+    role: "first_party"
+  }],
+  103900: [{
+    label: "動畫官方：第一季 TV 首播日期與時段",
+    url: "https://boku-ben.com/news/?p=18",
+    language: "ja",
+    role: "first_party"
+  }, {
+    label: "YourAnimes：第一季繁中名稱與春季作品交叉核對",
+    url: "https://youranimes.tw/animes/276",
+    language: "zh-Hant",
+    role: "localized_cross_check"
+  }],
   101922: [{
     label: "木棉花：繁中動畫名稱與版本",
     url: "https://www.e-muse.com/zh/animation/demon-slayer-kimetsu-no-yaiba-tanjiro-kamado-unwavering-resolve-arc/",

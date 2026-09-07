@@ -2,6 +2,21 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.33.0] - 2026-09-07
+
+### Added
+
+- four reviewed 2019 spring TV series: Senryuu Shoujo, Ao-chan Can't Study!, Hitoribocchi no Marumaru Seikatsu and the first season of We Never Learn;
+- nine OP／ED records and three official music-video metadata records, preserving Bocchi's episode-six ensemble ending and Study's first-season trio;
+- first-party evidence for digital release dates, character vocals and available songwriter credits; unresolved fields remain unset.
+
+### Changed
+
+- the spring snapshot now contains eight works and eighteen songs; the full catalogue contains 29 snapshots, 1,925 unique works, 4,247 OP／ED records and 1,762 official or licensed video metadata records;
+- give the first We Never Learn season its own URL while retaining the existing second-season URL and data;
+- keep Friday's late-night broadcasts on the Japanese editorial day and document Senryuu Shoujo's first-episode schedule change;
+- retain existing API v1 fields and all other quarters; 2019 spring and summer remain partial, and 2025 fall remains unlisted.
+
 ## [1.32.1] - 2026-09-07
 
 ### Fixed

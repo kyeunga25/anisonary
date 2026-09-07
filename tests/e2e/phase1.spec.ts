@@ -458,7 +458,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
 
   await page.goto("/search/");
   await expect(page.getByRole("heading", { name: "跨季度搜尋" })).toBeVisible();
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1921");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1925");
 
   const search = page.getByRole("searchbox", { name: "搜尋動畫、歌曲或創作者" });
   await search.fill("ＭＹＴＨ & ＲＯＩＤ");
@@ -498,7 +498,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
   await expect(page.locator("[data-catalog-anime-count]")).toHaveText("0");
 
   await search.press("Escape");
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1921");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1925");
   expect(externalRequests).toEqual([]);
 });
 
@@ -886,7 +886,7 @@ test("catalogue navigation stays compact and drills down through published years
   await expect(navigation.getByRole("link", { name: /動畫目錄/ })).toHaveAttribute("aria-current", "true");
   await expect(page.getByRole("navigation", { name: "2025 年季度導覽" }).getByRole("link", { name: "春季" })).toHaveAttribute("aria-current", "page");
   await expect(page.getByRole("navigation", { name: "所在位置" }).getByRole("link", { name: "2025", exact: true })).toHaveAttribute("href", "/catalog/2025/");
-  await expect(page.getByLabel("季度資料狀態")).toContainText("已發布 29 個季度、1,921 個作品頁與 4,238 首 OP／ED");
+  await expect(page.getByLabel("季度資料狀態")).toContainText("已發布 29 個季度、1,925 個作品頁與 4,247 首 OP／ED");
 
   await page.setViewportSize({ width: 390, height: 844 });
   await page.reload();
@@ -1122,10 +1122,10 @@ test("2019 spring browsing and creator search reach the correct special ending o
   for (const width of [1280, 390]) {
     await page.setViewportSize({ width, height: 844 });
     await page.goto("/catalog/2019/");
-    await page.getByRole("link", { name: /春季動畫.*4 套動畫/ }).click();
+    await page.getByRole("link", { name: /春季動畫.*8 套動畫/ }).click();
     await expect(page.getByRole("heading", { name: "2019 春季動畫" })).toBeVisible();
-    await expect(page.getByText("本季正在補充，目前收錄 4 套 TV 作品。其餘作品、跨季延續及特殊歌曲版本仍待核對。", { exact: true })).toBeVisible();
-    await expect(page.locator("[data-anime-card]")).toHaveCount(4);
+    await expect(page.getByText("本季正在補充，目前收錄 8 套 TV 作品。其餘作品、跨季延續及特殊歌曲版本仍待核對。", { exact: true })).toBeVisible();
+    await expect(page.locator("[data-anime-card]")).toHaveCount(8);
     await expect(page.locator("[data-anime-card] img")).toHaveCount(0);
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 
@@ -1155,6 +1155,43 @@ test("2019 spring browsing and creator search reach the correct special ending o
   await expect(page.locator("iframe")).toHaveAttribute("src", /youtube-nocookie\.com\/embed\/MeK5M0M8U8A/);
 });
 
+test("spring character search reaches the episode-six ensemble and preserves the first-season Study trio", async ({ page }) => {
+  for (const width of [1280, 390]) {
+    await page.setViewportSize({ width, height: 844 });
+    await page.goto("/search/", { waitUntil: "domcontentloaded" });
+    await page.getByLabel("年份", { exact: true }).selectOption("2019");
+    await page.getByLabel("季度", { exact: true }).selectOption("spring");
+    await page.getByLabel("搜尋範圍").selectOption("creators");
+    await page.getByLabel("歌曲用途").selectOption("ED");
+    await page.getByRole("searchbox", { name: "搜尋動畫、歌曲或創作者" }).fill("黒瀬ゆうこ");
+    await expect(page.locator("[data-catalog-result]")).toHaveCount(1);
+    await page.getByRole("link", { name: "爆笑ぼっち塾 校歌", exact: true }).click();
+    await expect(page).toHaveURL(/\/anime\/hitoribocchi-no-marumaru-seikatsu\/#theme-hitoribocchi-no-marumaru-seikatsu-ed-2$/);
+    const ending = page.locator("#theme-hitoribocchi-no-marumaru-seikatsu-ed-2");
+    await expect(ending).toBeInViewport({ ratio: 0.3 });
+    await expect(ending).toContainText("第6話片尾");
+    await expect(ending.locator(".theme-card__credits dt").filter({ hasText: /^演唱$/ })).toHaveCount(4);
+    await expect(page.getByRole("heading", { name: "まけるなアル かがやけアル", exact: true })).toHaveCount(0);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+
+    await page.goto("/anime/bokutachi-wa-benkyou-ga-dekinai-1st-season/#theme-bokutachi-wa-benkyou-ga-dekinai-1st-season-op-1", { waitUntil: "domcontentloaded" });
+    const opening = page.locator("#theme-bokutachi-wa-benkyou-ga-dekinai-1st-season-op-1");
+    await expect(opening.locator(".theme-card__artist")).toHaveText("Study");
+    await expect(opening.locator(".theme-card__credits dt").filter({ hasText: /^演唱$/ })).toHaveCount(3);
+    await expect(opening).not.toContainText("Lynn");
+    await expect(opening).not.toContainText("朝日奈丸佳");
+    await expect(page.locator("iframe")).toHaveCount(0);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  }
+
+  await page.goto("/anime/midara-na-ao-chan-wa-benkyou-ga-dekinai/", { waitUntil: "domcontentloaded" });
+  await expect(page.locator("iframe")).toHaveCount(0);
+  await page.route("https://www.youtube-nocookie.com/**", (route) => route.fulfill({ contentType: "text/html", body: "<!doctype html><title>Official player fixture</title>" }));
+  await page.locator("#theme-midara-na-ao-chan-wa-benkyou-ga-dekinai-ed-1").getByRole("button", { name: /載入 YouTube 影片/ }).click();
+  await expect(page.locator("iframe")).toHaveCount(1);
+  await expect(page.locator("iframe")).toHaveAttribute("src", /youtube-nocookie\.com\/embed\/Uc7Dp_pFO_k/);
+});
+
 test("weekday navigation follows populated groups and remains useful after filters and without JavaScript", async ({ page, browser }) => {
   for (const width of [1280, 390]) {
     await page.setViewportSize({ width, height: 844 });
@@ -1166,19 +1203,19 @@ test("weekday navigation follows populated groups and remains useful after filte
     await expect(page.locator("[data-weekday-section]").first()).toHaveAttribute("id", "weekday-2");
 
     await page.getByRole("checkbox", { name: "有正版影片" }).check();
-    await expect(navigation.getByRole("link")).toHaveText(["週二", "週六"]);
-    await expect(page.locator("[data-result-count]")).toHaveText("2");
+    await expect(navigation.getByRole("link")).toHaveText(["週二", "週五", "週六"]);
+    await expect(page.locator("[data-result-count]")).toHaveText("4");
     for (const link of await navigation.getByRole("link").all()) {
       const target = page.locator((await link.getAttribute("href"))!);
       await expect(target).toBeVisible();
-      await expect(target.locator("[data-anime-card]:visible")).toHaveCount(1);
+      await expect(target.locator("[data-anime-card]:visible")).toHaveCount((await link.getAttribute("href")) === "#weekday-5" ? 2 : 1);
     }
     await navigation.getByRole("link", { name: "週六" }).click();
     await expect(page).toHaveURL(/#weekday-6$/);
     await expect(navigation.getByRole("link", { name: "週六" })).toHaveAttribute("aria-current", "location");
     await page.getByRole("button", { name: "清除篩選" }).click();
     await expect(navigation.getByRole("link")).toHaveText(["週二", "週三", "週五", "週六"]);
-    await expect(page.locator("[data-result-count]")).toHaveText("4");
+    await expect(page.locator("[data-result-count]")).toHaveText("8");
     await expect(page.getByRole("checkbox", { name: "有 OP" })).toBeFocused();
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   }
@@ -1201,7 +1238,7 @@ test("weekday navigation follows populated groups and remains useful after filte
   await expect(nativePage.getByRole("navigation", { name: "跳到播出星期" }).getByRole("link"))
     .toHaveText(["週二", "週三", "週五", "週六"]);
   await expect(nativePage.locator("[data-weekday-section]")).toHaveCount(4);
-  await expect(nativePage.locator("[data-anime-card]")).toHaveCount(4);
+  await expect(nativePage.locator("[data-anime-card]")).toHaveCount(8);
   await nativePage.getByRole("link", { name: "週五", exact: true }).click();
   await expect(nativePage).toHaveURL(/#weekday-5$/);
   expect(await nativePage.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);

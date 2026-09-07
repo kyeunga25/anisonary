@@ -23,6 +23,188 @@ function spring2019Seed(row: Spring2019SeedInput): CuratedAnimeSeed {
 
 const curated2019SpringSeedRows: Spring2019SeedInput[] = [
   {
+    anilistId: 106051,
+    slug: "senryuu-shoujo",
+    startDate: "2019-04-05",
+    titleJa: "川柳少女",
+    titleZhHant: "川柳少女",
+    titleRomaji: "Senryuu Shoujo",
+    officialSiteUrl: "https://www.mbs.jp/senryu-girl/",
+    animeThemesUrl: "https://animethemes.moe/anime/senryuu_shoujo",
+    identifierSource: {
+      label: "AnimeThemes：作品識別交叉連結",
+      url: "https://api.animethemes.moe/anime/senryuu_shoujo?include=resources",
+      language: "en"
+    },
+    broadcastTimeJst: "25:55",
+    broadcastLabel: "MBS／TBS 每週五 25:55；首話 TBS 25:42／MBS 26:10（日本時間）",
+    themes: [
+      {
+        type: "OP",
+        sequence: 1,
+        titleJa: "コトノハノオモイ",
+        artistDisplayName: "井上苑子",
+        youtubeUrl: "https://www.youtube.com/watch?v=AR5gokS91wg",
+        credits: [{ name: "井上苑子", role: "vocals" }]
+      },
+      {
+        type: "ED",
+        sequence: 1,
+        titleJa: "ORDINARY LOVE",
+        artistDisplayName: "逢田梨香子",
+        releaseDate: "2019-04-05",
+        credits: [
+          { name: "逢田梨香子", role: "vocals" },
+          { name: "Satomi", role: "lyrics" },
+          { name: "青木康平", role: "composition" },
+          { name: "田中隼人", role: "arrangement" }
+        ]
+      }
+    ]
+  },
+  {
+    anilistId: 105989,
+    slug: "midara-na-ao-chan-wa-benkyou-ga-dekinai",
+    startDate: "2019-04-05",
+    titleJa: "みだらな青ちゃんは勉強ができない",
+    titleZhHant: "滿腦都是○○的我沒辦法談戀愛",
+    titleRomaji: "Midara na Ao-chan wa Benkyou ga Dekinai",
+    officialSiteUrl: "https://animaru.jp/anmr/shop/prg/aochan",
+    animeThemesUrl: "https://animethemes.moe/anime/midara_na_ao_chan_wa_benkyou_ga_dekinai",
+    identifierSource: {
+      label: "AnimeThemes：作品識別交叉連結",
+      url: "https://api.animethemes.moe/anime/midara_na_ao_chan_wa_benkyou_ga_dekinai?include=resources",
+      language: "en"
+    },
+    broadcastTimeJst: "26:10",
+    themes: [
+      {
+        type: "OP",
+        sequence: 1,
+        titleJa: "WONDERFUL WONDER",
+        artistDisplayName: "エドガー・サリヴァン",
+        youtubeUrl: "https://www.youtube.com/watch?v=tYyNMqcfiFw",
+        releaseDate: "2019-04-05",
+        credits: []
+      },
+      {
+        type: "ED",
+        sequence: 1,
+        titleJa: "恋はミラクル",
+        artistDisplayName: "スピラ・スピカ",
+        youtubeUrl: "https://www.youtube.com/watch?v=Uc7Dp_pFO_k",
+        releaseDate: "2019-04-06",
+        credits: [
+          { name: "幹葉", role: "vocals" },
+          { name: "幹葉", role: "lyrics" },
+          { name: "寺西裕二", role: "lyrics" },
+          { name: "寺西裕二", role: "composition" },
+          { name: "重永亮介", role: "arrangement" }
+        ]
+      }
+    ]
+  },
+  {
+    anilistId: 101386,
+    slug: "hitoribocchi-no-marumaru-seikatsu",
+    startDate: "2019-04-05",
+    titleJa: "ひとりぼっちの○○生活",
+    titleZhHant: "一個人的○○小日子",
+    titleRomaji: "Hitoribocchi no Marumaru Seikatsu",
+    officialSiteUrl: "https://hitoribocchi.jp/",
+    animeThemesUrl: "https://animethemes.moe/anime/hitoribocchi_no_marumaru_seikatsu",
+    identifierSource: {
+      label: "AnimeThemes：作品識別交叉連結",
+      url: "https://api.animethemes.moe/anime/hitoribocchi_no_marumaru_seikatsu?include=resources",
+      language: "en"
+    },
+    broadcastTimeJst: "26:25",
+    broadcastLabel: "MBS／TBS 每週五 26:25（日本時間）",
+    themes: [
+      {
+        type: "OP",
+        sequence: 1,
+        titleJa: "ひとりぼっちのモノローグ",
+        artistDisplayName: "一里ぼっち（CV：森下千咲）、砂尾なこ（CV：田中美海）、本庄アル（CV：鬼頭明里）、ソトカ・ラキター（CV：黒瀬ゆうこ）",
+        releaseDate: "2019-05-29",
+        credits: [
+          { name: "一里ぼっち（CV：森下千咲）", role: "vocals" },
+          { name: "砂尾なこ（CV：田中美海）", role: "vocals" },
+          { name: "本庄アル（CV：鬼頭明里）", role: "vocals" },
+          { name: "ソトカ・ラキター（CV：黒瀬ゆうこ）", role: "vocals" }
+        ]
+      },
+      {
+        type: "ED",
+        sequence: 1,
+        titleJa: "ね、いっしょにかえろ。",
+        artistDisplayName: "一里ぼっち（CV：森下千咲）",
+        releaseDate: "2019-05-29",
+        credits: [{ name: "一里ぼっち（CV：森下千咲）", role: "vocals" }]
+      },
+      {
+        type: "ED",
+        sequence: 2,
+        titleJa: "爆笑ぼっち塾 校歌",
+        artistDisplayName: "一里ぼっち（CV：森下千咲）、砂尾なこ（CV：田中美海）、本庄アル（CV：鬼頭明里）、ソトカ・ラキター（CV：黒瀬ゆうこ）",
+        versionLabel: "第6話片尾",
+        releaseDate: "2019-05-29",
+        credits: [
+          { name: "一里ぼっち（CV：森下千咲）", role: "vocals" },
+          { name: "砂尾なこ（CV：田中美海）", role: "vocals" },
+          { name: "本庄アル（CV：鬼頭明里）", role: "vocals" },
+          { name: "ソトカ・ラキター（CV：黒瀬ゆうこ）", role: "vocals" }
+        ]
+      }
+    ]
+  },
+  {
+    anilistId: 103900,
+    slug: "bokutachi-wa-benkyou-ga-dekinai-1st-season",
+    startDate: "2019-04-06",
+    titleJa: "ぼくたちは勉強ができない",
+    titleZhHant: "我們真的學不來！",
+    titleRomaji: "Bokutachi wa Benkyou ga Dekinai",
+    officialSiteUrl: "https://boku-ben.com/",
+    animeThemesUrl: "https://animethemes.moe/anime/bokutachi_wa_benkyou_ga_dekinai",
+    identifierSource: {
+      label: "AnimeThemes：作品識別交叉連結",
+      url: "https://api.animethemes.moe/anime/bokutachi_wa_benkyou_ga_dekinai?include=resources",
+      language: "en"
+    },
+    broadcastTimeJst: "24:30",
+    themes: [
+      {
+        type: "OP",
+        sequence: 1,
+        titleJa: "セイシュンゼミナール",
+        artistDisplayName: "Study",
+        releaseDate: "2019-05-29",
+        credits: [
+          { name: "古橋文乃（CV：白石晴香）", role: "vocals" },
+          { name: "緒方理珠（CV：富田美憂）", role: "vocals" },
+          { name: "武元うるか（CV：鈴代紗弓）", role: "vocals" },
+          { name: "こだまさおり", role: "lyrics" },
+          { name: "山田高弘", role: "composition" }
+        ]
+      },
+      {
+        type: "ED",
+        sequence: 1,
+        titleJa: "Never Give It Up!!",
+        artistDisplayName: "Study",
+        releaseDate: "2019-05-29",
+        credits: [
+          { name: "古橋文乃（CV：白石晴香）", role: "vocals" },
+          { name: "緒方理珠（CV：富田美憂）", role: "vocals" },
+          { name: "武元うるか（CV：鈴代紗弓）", role: "vocals" },
+          { name: "川田まみ", role: "lyrics" },
+          { name: "井内舞子", role: "composition" }
+        ]
+      }
+    ]
+  },
+  {
     anilistId: 101922,
     slug: "kimetsu-no-yaiba",
     startDate: "2019-04-06",
