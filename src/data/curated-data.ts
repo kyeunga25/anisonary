@@ -4605,6 +4605,12 @@ const animeOfficialSourceOverrides: Record<number, { label: string; url: string 
 };
 
 const animeSourceOverrides: Record<number, AnimeSourceSeed[]> = {
+  105749: [{
+    label: "東京電視台：2019 年首集、首播日期與播出時段",
+    url: "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201904/22856_201904021755.html",
+    language: "ja",
+    role: "first_party"
+  }],
   97995: [{
     label: "動畫官方：2019 年 TV 版首播日期與各台播出時段",
     url: "https://yuno-anime.com/onair/",
