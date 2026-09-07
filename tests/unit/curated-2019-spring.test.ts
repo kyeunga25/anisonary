@@ -10,6 +10,56 @@ const spring = curatedSeasonDetails.find(({ id }) => id === "2019-spring")!;
 const anime = (id: number) => curatedAnimeDetails.find((item) => item.id === `curated-${id}`)!;
 
 describe("2019 spring reviewed TV catalogue", () => {
+  it("keeps the 2019 YU-NO TV identity and independent cross-check sources within the public contract", async () => {
+    const seed = curated2019SpringSeeds.find(({ anilistId }) => anilistId === 97995)!;
+    expect(seed).toMatchObject({ startDate: "2019-04-02", seasonIds: ["2019-spring"] });
+    expect(seed.animeThemesUrl).toBeUndefined();
+    const detail = anime(97995);
+    expect(detail).toMatchObject({ editorialWeekday: 2, broadcastTimeJst: "23:00" });
+    expect(detail.sources).toContainEqual(expect.objectContaining({ url: "https://yuno-anime.com/onair/", role: "first_party" }));
+    for (const theme of detail.themes) {
+      expect(theme.sources).toContainEqual(expect.objectContaining({
+        url: "https://www.animatetimes.com/news/details.php?id=1568793228", language: "ja", role: "cross_check"
+      }));
+    }
+    const provider = new ApiProvider("https://anisonary.k-y.cc/api/v1", {
+      fetch: vi.fn<typeof fetch>().mockResolvedValue(new Response(JSON.stringify(detail), { headers: { "Content-Type": "application/json" } }))
+    });
+    expect(await provider.getAnime(detail.slug)).toEqual(detail);
+  });
+
+  it("preserves YU-NO's exchanged singers and separates full-song, CD and TV-size release dates", () => {
+    const yuno = anime(97995);
+    expect(yuno.themes.map(({ type, sequence, titleJa, artistDisplayName, releaseDate }) => [type, sequence, titleJa, artistDisplayName, releaseDate])).toEqual([
+      ["OP", 1, "この世の果てで恋を唄う少女", "亜咲花", "2019-04-17"],
+      ["OP", 2, "MOTHER", "鈴木このみ", "2019-11-06"],
+      ["ED", 1, "真理の鏡、剣乃ように", "鈴木このみ", "2019-05-08"],
+      ["ED", 2, "神の数式", "亜咲花", "2019-10-07"]
+    ]);
+    expect(yuno.themes[0]?.versionLabel).toContain("2019-04-02");
+    expect(yuno.themes[0]?.versionLabel).toContain("CD 於 2019-04-24");
+    for (const index of [1, 3]) expect(yuno.themes[index]?.versionLabel).toContain("TV Size 於 2019-08-07");
+    expect(yuno.themes[1]?.credits).toContainEqual({ name: "高木龍一（Dream Monster）", role: "arrangement" });
+    expect(yuno.themes[2]?.credits).toContainEqual({ name: "白戸佑輔", role: "arrangement" });
+    expect(yuno.themes[3]?.credits).toContainEqual({ name: "悠木真一", role: "arrangement" });
+    for (const theme of yuno.themes) {
+      expect(theme.credits).toContainEqual({ name: "志倉千代丸", role: "lyrics" });
+      expect(theme.credits).toContainEqual({ name: "志倉千代丸", role: "composition" });
+    }
+  });
+
+  it("finds the later YU-NO opening by arranger and keeps short official videos attached to the earlier songs", async () => {
+    const yuno = anime(97995);
+    expect(yuno.themes.flatMap(({ videos }) => videos.map(({ youtubeVideoId, type }) => [youtubeVideoId, type])))
+      .toEqual([["OHCMAQIEkog", "other"], ["a8n8_Z28Nlo", "other"]]);
+    expect(yuno.themes[1]?.videos).toEqual([]);
+    expect(yuno.themes[3]?.videos).toEqual([]);
+    const data = await loadCatalogSearchData(new CuratedProvider(), true);
+    const results = searchCatalog(buildCatalogSearchIndex(data.entries), { query: "高木龍一", scope: "creators", year: "2019", quarter: "spring", type: "OP" });
+    expect(results.find(({ anime: item }) => item.slug === yuno.slug)?.themes.map(({ titleJa }) => titleJa)).toEqual(["MOTHER"]);
+    expect(yuno.themes.some(({ titleJa }) => ["My Love", "Curiosity", "Raise Your Heart!!"].includes(titleJa))).toBe(false);
+  });
+
   it("round-trips the sports series and TV shorts without inventing a missing broadcast time", async () => {
     for (const [id, date, weekday] of [
       [104989, "2019-04-07", 7], [104284, "2019-04-06", 6], [102064, "2019-04-04", 4]
@@ -267,9 +317,9 @@ describe("2019 spring reviewed TV catalogue", () => {
   });
 
   it("publishes a partial quarter with reviewed identity and song evidence, without unverified artwork", () => {
-    expect(spring.anime).toHaveLength(26);
+    expect(spring.anime).toHaveLength(27);
     expect(spring.coverageNote).toContain("跨季延續及特殊歌曲版本仍待核對");
-    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(59);
+    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(63);
     expect(curatedSeasonDetails.some(({ id }) => id === "2025-fall")).toBe(false);
     for (const seed of curated2019SpringSeeds) {
       expect(seed.seasonIds).toEqual(["2019-spring"]);

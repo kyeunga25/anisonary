@@ -2,6 +2,27 @@ import { curated2019SpringSeeds } from "@/data/curated-seeds/2019/spring";
 import type { CuratedThemeSourceOverrideMap, CuratedThemeSourceSeed } from "@/data/curated-theme-sources/types";
 
 const firstPartyUrlsByTheme: Readonly<Record<string, readonly string[]>> = {
+  "97995:OP:1": [
+    "https://yuno-anime.com/news/87/",
+    "https://asaka1007.jp/discography/a_girl_who_chants_love_at_the_bound_of_this_world/",
+    "https://asaka1007.jp/news/1770/",
+    "https://asaka1007.jp/news/1749/"
+  ],
+  "97995:OP:2": [
+    "https://yuno-anime.com/news/1523/",
+    "https://music.ani-tone.com/release/USSW-0207/",
+    "https://asaka1007.jp/news/1827/"
+  ],
+  "97995:ED:1": [
+    "https://yuno-anime.com/news/87/",
+    "https://yuno-anime.com/product/ed/",
+    "https://www.youtube.com/watch?v=a8n8_Z28Nlo"
+  ],
+  "97995:ED:2": [
+    "https://yuno-anime.com/news/1523/",
+    "https://asaka1007.jp/discography/heart_touch/",
+    "https://asaka1007.jp/news/1827/"
+  ],
   "104989:OP:1": [
     "https://anime-hachinai.com/news/273/",
     "https://www.jvcmusic.co.jp/-/Discography/A025701/VIZL-1596.html",
@@ -167,6 +188,16 @@ const firstPartyUrlsByTheme: Readonly<Record<string, readonly string[]>> = {
 };
 
 const sourceLabelsByUrl: Readonly<Record<string, string>> = {
+  "https://yuno-anime.com/news/87/": "動畫官方：現世編 OP／ED 與完整詞曲編曲署名",
+  "https://asaka1007.jp/discography/a_girl_who_chants_love_at_the_bound_of_this_world/": "亜咲花官方：OP 完整版單曲、製作署名與短版 MV",
+  "https://asaka1007.jp/news/1770/": "亜咲花官方：OP 完整版高解析音源先行配信日期",
+  "https://asaka1007.jp/news/1749/": "亜咲花官方：OP TV Size 配信日期",
+  "https://yuno-anime.com/news/1523/": "動畫官方：異世界編 OP／ED、演唱及製作署名",
+  "https://music.ani-tone.com/release/USSW-0207/": "AniTone 唱片公司：MOTHER 完整版專輯收錄日期",
+  "https://asaka1007.jp/news/1827/": "亜咲花官方：異世界編 OP／ED TV Size 配信日期",
+  "https://yuno-anime.com/product/ed/": "動畫官方：現世編 ED 完整版單曲日期",
+  "https://www.youtube.com/watch?v=a8n8_Z28Nlo": "AniTone 唱片公司：現世編 ED 官方影片與單曲資料",
+  "https://asaka1007.jp/discography/heart_touch/": "亜咲花官方：神の数式 完整版專輯日期與製作署名",
   "https://anime-hachinai.com/news/273/": "動畫官方：OP 用途、演唱與詞曲編曲署名",
   "https://www.jvcmusic.co.jp/-/Discography/A025701/VIZL-1596.html": "Victor 官方：OP 完整版單曲發行日期",
   "https://www.jvcmusic.co.jp/-/Discography/A025701/VE3WA-18398.html": "Victor 官方：OP TV Size 先行配信日期",
@@ -240,11 +271,26 @@ const sourceLabelsByUrl: Readonly<Record<string, string>> = {
   "https://www.sma.co.jp/s/sma/news/detail/83323?ima=0000": "Sony Music Artists 官方公告：ED 先行配信日期"
 };
 
+const crossCheckSourcesByAnime: Readonly<Record<number, CuratedThemeSourceSeed>> = {
+  97995: {
+    label: "Animate Times：前後篇 OP／ED 用途、次序與演唱者交叉核對",
+    url: "https://www.animatetimes.com/news/details.php?id=1568793228",
+    language: "ja",
+    role: "cross_check"
+  }
+};
+
 export const curated2019SpringThemeSources: CuratedThemeSourceOverrideMap = Object.fromEntries(
   curated2019SpringSeeds.flatMap((seed) => seed.themes.map((theme) => {
     const key = `${seed.anilistId}:${theme.type}:${theme.sequence}`;
     const urls = firstPartyUrlsByTheme[key];
-    if (!urls?.length || !seed.animeThemesUrl) {
+    const crossCheck: CuratedThemeSourceSeed | undefined = crossCheckSourcesByAnime[seed.anilistId] ?? (seed.animeThemesUrl ? {
+      label: "AnimeThemes：OP／ED 次序與演唱版本交叉核對",
+      url: seed.animeThemesUrl,
+      language: "en",
+      role: "cross_check"
+    } : undefined);
+    if (!urls?.length || !crossCheck) {
       throw new Error(`Missing reviewed spring 2019 theme source: ${key}`);
     }
     const sources: CuratedThemeSourceSeed[] = [
@@ -266,12 +312,13 @@ export const curated2019SpringThemeSources: CuratedThemeSourceOverrideMap = Obje
         language: "ja" as const,
         role: "cross_check" as const
       }] : []),
-      {
-        label: "AnimeThemes：OP／ED 次序與演唱版本交叉核對",
-        url: seed.animeThemesUrl,
-        language: "en",
-        role: "cross_check"
-      }
+      ...(key === "97995:ED:1" ? [{
+        label: "LisAni：官方影片為 TV Size MV 的版本交叉核對",
+        url: "https://www.lisani.jp/0000124875/",
+        language: "ja" as const,
+        role: "cross_check" as const
+      }] : []),
+      crossCheck
     ];
     return [key, sources];
   }))

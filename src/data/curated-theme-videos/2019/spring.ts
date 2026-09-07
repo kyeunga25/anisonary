@@ -1,6 +1,22 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2019SpringThemeVideos = {
+  "97995:OP:1": [{
+    youtubeVideoId: "OHCMAQIEkog",
+    title: "亜咲花「この世の果てで恋を唄う少女」（TVアニメ『この世の果てで恋を唄う少女YU-NO』OP）Music Video Short ver.",
+    type: "other",
+    channelName: "AniTone Music Channel",
+    officialStatus: "official",
+    embeddable: true
+  }],
+  "97995:ED:1": [{
+    youtubeVideoId: "a8n8_Z28Nlo",
+    title: "鈴木このみ「真理の鏡、剣乃ように」（TVアニメ『この世の果てで恋を唄う少女YU-NO』エンディングテーマ）",
+    type: "other",
+    channelName: "AniTone Music Channel",
+    officialStatus: "official",
+    embeddable: true
+  }],
   "104284:OP:1": [{
     youtubeVideoId: "GfVF3xC3LuE",
     title: "【MV】A応P「それゆけ！恋ゴコロ」FULL Ver.（TVアニメ『超可動ガール1/6』OPテーマ)",

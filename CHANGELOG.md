@@ -2,6 +2,15 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.40.0] - 2026-09-07
+
+### Added
+
+- add the 2019 YU-NO television series with four reviewed opening/ending records and two official short music-video references;
+- preserve the exchanged singers between story arcs, full production credits, early high-resolution distribution, CD and TV-size dates;
+- support an explicitly reviewed independent song cross-check while retaining the first-party and cross-check requirements; existing source output remains compatible;
+- keep the partial spring coverage explicit at 27 titles and 63 songs, with source-backed creator search and unchanged public API structure.
+
 ## [1.39.1] - 2026-09-07
 
 ### Fixed
