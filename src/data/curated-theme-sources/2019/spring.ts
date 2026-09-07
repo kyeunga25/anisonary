@@ -3,6 +3,18 @@ import { getCuratedAnimeKey, getCuratedThemeKey } from "@/data/curated-seeds/ide
 import type { CuratedThemeSourceOverrideMap, CuratedThemeSourceSeed } from "@/data/curated-theme-sources/types";
 
 const firstPartyUrlsByTheme: Readonly<Record<string, readonly string[]>> = {
+  "catalog-bakugan-battle-planet-2019:OP:1": [
+    "https://www.sega.jp/topics/detail/190306_goods_1/",
+    "https://www.tv-tokyo.co.jp/anime/bakugan-bp/staff/"
+  ],
+  "catalog-bakugan-battle-planet-2019:ED:1": [
+    "https://www.sega.jp/topics/detail/190306_goods_1/",
+    "https://onetrap.ageha.net/archives/onetrap_news/0067"
+  ],
+  "catalog-bakugan-battle-planet-2019:ED:2": [
+    "https://www.tv-tokyo.co.jp/anime/bakugan-bp/staff/",
+    "https://www.tv-tokyo.co.jp/anime/bakugan-bp/"
+  ],
   "catalog-strike-witches-501-2019:OP:1": [
     "https://columbia.jp/artist-info/ishidayoko/info/64416.html",
     "https://w-witch.jp/news/20190226_2"
@@ -239,6 +251,10 @@ const firstPartyUrlsByTheme: Readonly<Record<string, readonly string[]>> = {
 };
 
 const sourceLabelsByUrl: Readonly<Record<string, string>> = {
+  "https://www.sega.jp/topics/detail/190306_goods_1/": "SEGA 官方公告：日本版 OP 與前期 ED、演唱者及詞曲編曲署名",
+  "https://www.tv-tokyo.co.jp/anime/bakugan-bp/staff/": "東京電視台：日本版 OP 與後期 ED、演唱者及製作資料",
+  "https://onetrap.ageha.net/archives/onetrap_news/0067": "onetrap 創作者官方：前期 ED 用途與中村崇人的詞曲署名",
+  "https://www.tv-tokyo.co.jp/anime/bakugan-bp/": "東京電視台：日本版作品與 2020 年主題曲更新公告",
   "https://columbia.jp/prod-info/COCX-40890/": "日本 Columbia：TV 片尾 12 個演唱版本、CD 完整版日期與 #12 試聽",
   "https://columbia.jp/artist-info/ishidayoko/info/64416.html": "日本 Columbia：OP／ED 用途、OP 製作資料、ED 作詞與編曲；ED 作曲署名待核對",
   "https://w-witch.jp/news/20190226_2": "動畫官方：OP 歌曲、製作資料與短版 MV",
@@ -356,6 +372,12 @@ const sourceLabelsByUrl: Readonly<Record<string, string>> = {
 };
 
 const crossCheckSourcesByAnime: Readonly<Record<string, CuratedThemeSourceSeed>> = {
+  "catalog-bakugan-battle-planet-2019": {
+    label: "アニソンライブラリー：日本版 OP／ED 次序及署名交叉核對；影片公開日不作歌曲發行日期",
+    url: "https://japan-anime-song.com/bakumarubatorupuranetto-anison/",
+    language: "ja",
+    role: "cross_check"
+  },
   "catalog-strike-witches-501-2019": {
     label: "Animate Times：2019 年 TV 版 OP／ED 用途與演唱名義交叉核對；輪替版本以唱片公司為準",
     url: "https://www.animatetimes.com/tag/details.php?id=15506",

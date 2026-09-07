@@ -1698,6 +1698,66 @@ const strikeWitches501EndingRows = [
 ] as const;
 
 const independentSpringSeeds: NativeCuratedAnimeSeed[] = [{
+  id: "catalog-bakugan-battle-planet-2019",
+  slug: "bakugan-battle-planet-2019",
+  titleJa: "爆丸バトルプラネット",
+  titleZhHant: "爆丸 決戰星球",
+  seasonIds: ["2019-spring"],
+  startDate: "2019-04-01",
+  editorialWeekday: 1,
+  broadcastTimeJst: "17:55",
+  broadcastLabel: "東京電視台每週一 17:55（日本時間；日本播出版）",
+  status: "finished",
+  verifiedAt: "2026-09-07",
+  officialSiteUrl: "https://www.tv-tokyo.co.jp/anime/bakugan-bp/",
+  identifierSource: {
+    label: "東京電視台：日本播出版作品識別、首播日期與時段",
+    url: "https://www.tv-tokyo.co.jp/anime/bakugan-bp/onair/",
+    language: "ja"
+  },
+  wikipediaUrl: "https://youranimes.tw/bangumi/201904",
+  sourceReferenceUrls: [
+    "https://youranimes.tw/animes/721",
+    "https://www.sega.jp/topics/detail/190306_goods_1/"
+  ],
+  themes: [{
+    type: "OP", sequence: 1,
+    titleJa: "情熱ジャンボリー",
+    artistDisplayName: "HiHi Jets",
+    versionLabel: "日本播出版",
+    credits: [
+      { name: "HiHi Jets", role: "vocals" },
+      { name: "MiNE", role: "lyrics" },
+      { name: "川口進", role: "composition" },
+      { name: "MiNE", role: "composition" },
+      { name: "Atsushi Shimada", role: "composition" },
+      { name: "Atsushi Shimada", role: "arrangement" },
+      { name: "Peach", role: "arrangement" }
+    ]
+  }, {
+    type: "ED", sequence: 1,
+    titleJa: "Be my story",
+    artistDisplayName: "HiHi Jets",
+    versionLabel: "日本播出版／前期 ED",
+    credits: [
+      { name: "HiHi Jets", role: "vocals" },
+      { name: "中村崇人", role: "lyrics" },
+      { name: "中村崇人", role: "composition" },
+      { name: "Dr.Dalmatian", role: "arrangement" }
+    ]
+  }, {
+    type: "ED", sequence: 2,
+    titleJa: "サヨナラの方程式",
+    artistDisplayName: "HiHi Jets",
+    versionLabel: "日本播出版／後期 ED（2020 年更新）",
+    credits: [
+      { name: "HiHi Jets", role: "vocals" },
+      { name: "miyakei", role: "lyrics" },
+      { name: "大智", role: "composition" },
+      { name: "児山啓介", role: "composition" }
+    ]
+  }]
+}, {
   id: "catalog-strike-witches-501-2019",
   slug: "strike-witches-501-takeoff-2019",
   titleJa: "ストライクウィッチーズ 501部隊発進しますっ！",

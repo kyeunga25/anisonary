@@ -2,6 +2,12 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## v1.48.0 — 2019 春季《爆丸 決戰星球》
+
+- 收錄日本播出版、1 首 OP 與 2 首 ED，保留共同作曲、共同編曲及前後期片尾；後期 ED 註明 2020 年更新。
+- 以台灣播出方與繁中季表核對作品名稱，中文主題影片只作名稱來源；未確認的歌曲發行日期、影片、外部 ID 及 Romaji 保留空缺。
+- 春季共 32 套作品、94 筆 OP／ED；本季與夏季仍在補充，2025 秋季尚未收錄。
+
 ## v1.47.0 — 作品頁歌曲導覽
 
 - 超過 4 筆歌曲的作品頁新增可收合的頁內導覽，按 OP／ED 分組，完整顯示曲名與演唱者並直接跳到對應版本。
