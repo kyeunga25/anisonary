@@ -4605,6 +4605,24 @@ const animeOfficialSourceOverrides: Record<number, { label: string; url: string 
 };
 
 const animeSourceOverrides: Record<number, AnimeSourceSeed[]> = {
+  105334: [{
+    label: "東京電視台原始公告：2019 第一季首播日與深夜時段",
+    url: "https://www.tv-tokyo.co.jp/anime/fruba/news/index_2.html",
+    language: "ja",
+    role: "first_party"
+  }],
+  103302: [{
+    label: "青文出版社：繁中名稱、動畫首播日與編輯時段",
+    url: "https://www.ching-win.com.tw/baike-infmag-detail/2/36/1585",
+    language: "zh-Hant",
+    role: "first_party"
+  }],
+  103555: [{
+    label: "Sony Music 官方：MIX 原始 TV 首播日、電視台與時段",
+    url: "https://www.sonymusic.co.jp/artist/sumika/info/504822",
+    language: "ja",
+    role: "first_party"
+  }],
   101281: [{
     label: "Netflix 台灣正式配信：繁中名稱與作品資料",
     url: "https://www.netflix.com/tw/title/80992137",

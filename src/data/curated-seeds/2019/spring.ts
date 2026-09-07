@@ -23,6 +23,184 @@ function spring2019Seed(row: Spring2019SeedInput): CuratedAnimeSeed {
 
 const curated2019SpringSeedRows: Spring2019SeedInput[] = [
   {
+    anilistId: 105334,
+    slug: "fruits-basket-2019",
+    startDate: "2019-04-05",
+    titleJa: "フルーツバスケット 1st season",
+    titleZhHant: "魔法水果籃",
+    titleRomaji: "Fruits Basket (2019)",
+    officialSiteUrl: "https://fruba.jp/",
+    animeThemesUrl: "https://animethemes.moe/anime/fruits_basket_2019",
+    identifierSource: {
+      label: "AnimeThemes：作品識別交叉連結",
+      url: "https://api.animethemes.moe/anime/fruits_basket_2019?include=resources",
+      language: "en"
+    },
+    broadcastTimeJst: "25:23",
+    broadcastLabel: "東京電視台 每週五 25:23（日本時間）",
+    themes: [
+      {
+        type: "OP",
+        sequence: 1,
+        titleJa: "Again",
+        artistDisplayName: "Beverly",
+        versionLabel: "第一季第 1 cour；日文原版",
+        releaseDate: "2019-04-12",
+        youtubeUrl: "https://www.youtube.com/watch?v=80oOmZSMlx0",
+        credits: [{ name: "Beverly", role: "vocals" }]
+      },
+      {
+        type: "OP",
+        sequence: 2,
+        titleJa: "Chime",
+        artistDisplayName: "大塚 愛",
+        versionLabel: "第一季第 2 cour；數位先行配信，CD 於 2019-09-04 發行",
+        releaseDate: "2019-07-05",
+        youtubeUrl: "https://www.youtube.com/watch?v=3RJqEL2uHiE",
+        credits: [{ name: "大塚 愛", role: "vocals" }]
+      },
+      {
+        type: "ED",
+        sequence: 1,
+        titleJa: "Lucky Ending",
+        artistDisplayName: "ビッケブランカ",
+        versionLabel: "第一季第 1 cour；數位配信版",
+        releaseDate: "2019-04-10",
+        credits: [{ name: "ビッケブランカ", role: "vocals" }]
+      },
+      {
+        type: "ED",
+        sequence: 2,
+        titleJa: "One Step Closer",
+        artistDisplayName: "INTERSECTION",
+        versionLabel: "第一季第 2 cour；數位配信版",
+        releaseDate: "2019-07-19",
+        youtubeUrl: "https://www.youtube.com/watch?v=YMMAqoQ9bEY",
+        credits: [
+          { name: "Nicole Morier", role: "songwriting" },
+          { name: "Drew Erickson", role: "songwriting" },
+          { name: "William Aoyama", role: "songwriting" }
+        ]
+      }
+    ]
+  },
+  {
+    anilistId: 103302,
+    slug: "kono-oto-tomare",
+    startDate: "2019-04-06",
+    titleJa: "この音とまれ！",
+    titleZhHant: "一弦定音！",
+    titleRomaji: "Kono Oto Tomare!",
+    animeThemesUrl: "https://animethemes.moe/anime/kono_oto_tomare",
+    identifierSource: {
+      label: "AnimeThemes：作品識別交叉連結",
+      url: "https://api.animethemes.moe/anime/kono_oto_tomare?include=resources",
+      language: "en"
+    },
+    broadcastTimeJst: "25:00",
+    broadcastLabel: "日本首播 每週六 25:00（日本時間）",
+    themes: [
+      {
+        type: "OP",
+        sequence: 1,
+        titleJa: "Tone",
+        artistDisplayName: "蒼井翔太",
+        versionLabel: "第 1 cour OP；單曲版",
+        releaseDate: "2019-04-10",
+        youtubeUrl: "https://www.youtube.com/watch?v=0qbeG0lM3mU",
+        credits: [
+          { name: "蒼井翔太", role: "vocals" },
+          { name: "園田健太郎", role: "lyrics" },
+          { name: "園田健太郎", role: "composition" },
+          { name: "日比野裕史", role: "arrangement" }
+        ]
+      },
+      {
+        type: "ED",
+        sequence: 1,
+        titleJa: "Speechless",
+        artistDisplayName: "内田雄馬",
+        versionLabel: "第 1 cour ED；單曲版",
+        releaseDate: "2019-05-08",
+        youtubeUrl: "https://www.youtube.com/watch?v=rrq4OcYwiiE",
+        credits: [
+          { name: "内田雄馬", role: "vocals" },
+          { name: "前迫潤哉", role: "lyrics" },
+          { name: "前迫潤哉", role: "composition" },
+          { name: "工藤政人", role: "composition" },
+          { name: "工藤政人", role: "arrangement" },
+          { name: "早川博隆", role: "arrangement" }
+        ]
+      }
+    ]
+  },
+  {
+    anilistId: 103555,
+    slug: "mix-meisei-story",
+    startDate: "2019-04-06",
+    titleJa: "MIX",
+    titleZhHant: "MIX",
+    titleRomaji: "Mix: Meisei Story",
+    officialSiteUrl: "https://www.aniplex.co.jp/mix/1st/",
+    animeThemesUrl: "https://animethemes.moe/anime/mix_meisei_story",
+    identifierSource: {
+      label: "AnimeThemes：作品識別交叉連結",
+      url: "https://api.animethemes.moe/anime/mix_meisei_story?include=resources",
+      language: "en"
+    },
+    broadcastTimeJst: "17:30",
+    broadcastLabel: "讀賣電視台／日本電視台 每週六 17:30（日本時間）",
+    themes: [
+      {
+        type: "OP",
+        sequence: 1,
+        titleJa: "イコール",
+        artistDisplayName: "sumika",
+        releaseDate: "2019-06-12",
+        credits: []
+      },
+      {
+        type: "OP",
+        sequence: 2,
+        titleJa: "VS",
+        artistDisplayName: "ポルノグラフィティ",
+        versionLabel: "2019 年 7 月起的 OP",
+        releaseDate: "2019-07-31",
+        credits: [
+          { name: "新藤晴一", role: "lyrics" },
+          { name: "新藤晴一", role: "composition" },
+          { name: "近藤隆史", role: "arrangement" },
+          { name: "田中ユウスケ", role: "arrangement" },
+          { name: "Porno Graffitti", role: "arrangement" }
+        ]
+      },
+      {
+        type: "ED",
+        sequence: 1,
+        titleJa: "君に届くまで",
+        artistDisplayName: "Little Glee Monster",
+        versionLabel: "期間生產限定動畫盤另收錄 TV Size",
+        releaseDate: "2019-05-29",
+        credits: [
+          { name: "いしわたり淳治", role: "lyrics" },
+          { name: "水野良樹", role: "composition" }
+        ]
+      },
+      {
+        type: "ED",
+        sequence: 2,
+        titleJa: "君に伝えたストーリー",
+        artistDisplayName: "Qyoto",
+        versionLabel: "2019-07-13 起的 ED；期間生產限定盤另收錄 TV Size",
+        releaseDate: "2019-07-31",
+        credits: [
+          { name: "中園勇樹", role: "vocals" },
+          { name: "中園勇樹", role: "lyrics" }
+        ]
+      }
+    ]
+  },
+  {
     anilistId: 101281,
     slug: "carole-and-tuesday",
     startDate: "2019-04-10",

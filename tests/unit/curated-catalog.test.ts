@@ -38,7 +38,7 @@ describe("curated public catalogue", () => {
       "2019-spring"
     ]);
     expect(curatedSeasonDetails).toHaveLength(29);
-    expect(curatedSeasonDetails.map((season) => season.anime.length)).toEqual([70, 70, 66, 75, 82, 59, 88, 68, 76, 75, 100, 75, 79, 72, 80, 69, 79, 58, 65, 46, 73, 67, 67, 31, 61, 58, 67, 42, 17]);
+    expect(curatedSeasonDetails.map((season) => season.anime.length)).toEqual([70, 70, 66, 75, 82, 59, 88, 68, 76, 75, 100, 75, 79, 72, 80, 69, 79, 58, 65, 46, 73, 67, 67, 31, 61, 58, 67, 42, 20]);
     expect(curatedSeasonDetails.map((season) => [season.id, season.reviewState, season.verifiedAt])).toEqual([
       ["2026-summer", "reviewed", "2026-08-02"],
       ["2026-spring", "reviewed", "2026-08-02"],
@@ -70,17 +70,17 @@ describe("curated public catalogue", () => {
       ["2019-summer", "reviewed", "2026-09-07"],
       ["2019-spring", "reviewed", "2026-09-07"]
     ]);
-    expect(curatedAnimeDetails).toHaveLength(1934);
-    expect(curatedAnimeDetails.filter((anime) => anime.themes.length > 0)).toHaveLength(1571);
-    expect(curatedAnimeDetails.flatMap((anime) => anime.themes)).toHaveLength(4267);
-    expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "documented")).toHaveLength(1571);
+    expect(curatedAnimeDetails).toHaveLength(1937);
+    expect(curatedAnimeDetails.filter((anime) => anime.themes.length > 0)).toHaveLength(1574);
+    expect(curatedAnimeDetails.flatMap((anime) => anime.themes)).toHaveLength(4277);
+    expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "documented")).toHaveLength(1574);
     expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "not_used")).toHaveLength(2);
     expect(curatedAnimeDetails.filter((anime) => anime.themeAvailability === "not_announced")).toHaveLength(361);
     const youtubeLinks = curatedAnimeDetails
       .flatMap((anime) => anime.themes)
       .flatMap((theme) => theme.links)
       .filter((link) => link.platform === "YouTube");
-    expect(youtubeLinks).toHaveLength(557);
+    expect(youtubeLinks).toHaveLength(562);
     expect(youtubeLinks.every((link) => new URL(link.url).hostname === "www.youtube.com")).toBe(true);
   });
 

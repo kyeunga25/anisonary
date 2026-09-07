@@ -1,6 +1,53 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2019SpringThemeVideos = {
+  "105334:OP:1": [{
+    youtubeVideoId: "80oOmZSMlx0",
+    title: "Beverly（ビバリー） / Again（TVアニメ「フルーツバスケット」OPテーマ）",
+    type: "other",
+    channelName: "avex",
+    officialStatus: "official",
+    embeddable: true
+  }],
+  "105334:OP:2": [{
+    youtubeVideoId: "3RJqEL2uHiE",
+    title: "大塚 愛 ai otsuka / Chime（TVアニメ フルーツバスケット 第2クール OPテーマ）",
+    type: "other",
+    channelName: "avex",
+    officialStatus: "official",
+    embeddable: true
+  }],
+  "105334:ED:2": [{
+    youtubeVideoId: "YMMAqoQ9bEY",
+    title: "INTERSECTION / One Step Closer (TVアニメ「フルーツバスケット」Ending Ver.)",
+    type: "other",
+    channelName: "avex",
+    officialStatus: "official",
+    embeddable: true
+  }, {
+    youtubeVideoId: "YZg8DYDR_8g",
+    title: "INTERSECTION / One Step Closer",
+    type: "full_music_video",
+    channelName: "INTERSECTION",
+    officialStatus: "official",
+    embeddable: true
+  }],
+  "103302:OP:1": [{
+    youtubeVideoId: "0qbeG0lM3mU",
+    title: "蒼井翔太 /「Tone」【試聴動画】",
+    type: "other",
+    channelName: "蒼井翔太",
+    officialStatus: "official",
+    embeddable: true
+  }],
+  "103302:ED:1": [{
+    youtubeVideoId: "rrq4OcYwiiE",
+    title: "内田雄馬「Speechless」MUSIC VIDEO（Short ver.）",
+    type: "other",
+    channelName: "内田雄馬 OFFICIAL",
+    officialStatus: "official",
+    embeddable: true
+  }],
   "105928:OP:1": [{
     youtubeVideoId: "YqxmjDgTLEc",
     title: "TVアニメ「RobiHachi」OPテーマ「天才のプレイリスト」",
