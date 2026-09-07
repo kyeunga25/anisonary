@@ -10,6 +10,68 @@ const spring = curatedSeasonDetails.find(({ id }) => id === "2019-spring")!;
 const anime = (id: number) => curatedAnimeDetails.find((item) => item.id === `curated-${id}`)!;
 
 describe("2019 spring reviewed TV catalogue", () => {
+  it("identifies Aikatsu Friends' second TV season independently from the first season, game update and On Parade", async () => {
+    const seed = curated2019SpringSeeds.find(({ id }) => id === "catalog-aikatsu-friends-2-2019")!;
+    expect(seed).toBeDefined();
+    expect(seed).toMatchObject({ startDate: "2019-04-04", editorialWeekday: 4, broadcastTimeJst: "18:25", seasonIds: ["2019-spring"] });
+    const detail = curatedAnimeDetails.find(({ id }) => id === seed.id)!;
+    expect(detail).toMatchObject({ slug: "aikatsu-friends-2-2019", titleJa: "アイカツフレンズ！～かがやきのジュエル～", titleZhHant: "偶像學園Friends！ 第二季", status: "finished" });
+    for (const omitted of ["anilistId", "anilistUrl", "titleRomaji", "posterUrl", "bannerUrl"]) {
+      expect(seed).not.toHaveProperty(omitted);
+      expect(detail).not.toHaveProperty(omitted);
+    }
+    expect(detail.sources).toContainEqual(expect.objectContaining({ url: "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201904/22343_201904041825.html", role: "identifier", language: "ja" }));
+    const provider = new ApiProvider("https://anisonary.k-y.cc/api/v1", {
+      fetch: vi.fn<typeof fetch>().mockResolvedValue(new Response(JSON.stringify(detail), { headers: { "Content-Type": "application/json" } }))
+    });
+    expect(await provider.getAnime(detail.slug)).toEqual(detail);
+  });
+
+  it("keeps Aikatsu Friends' four-character opening and solo ending with separate joint production credits", () => {
+    const detail = curatedAnimeDetails.find(({ id }) => id === "catalog-aikatsu-friends-2-2019")!;
+    expect(detail).toBeDefined();
+    expect(detail.themes.map(({ type, titleJa }) => [type, titleJa])).toEqual([["OP", "ひとりじゃない！"], ["ED", "Be star"]]);
+    expect(detail.themes[0]).toMatchObject({ artistDisplayName: "あいね・みお・舞花・エマ from BEST FRIENDS！", credits: [
+      { name: "松原さらり", role: "lyrics" }, { name: "SHOW", role: "composition" }, { name: "SHOW", role: "arrangement" }
+    ] });
+    expect(detail.themes[1]).toMatchObject({ artistDisplayName: "ひびき from BEST FRIENDS！", credits: [
+      { name: "松原さらり", role: "lyrics" }, { name: "Maozon", role: "composition" }, { name: "YUKI FUNAKOSHI", role: "composition" },
+      { name: "Maozon", role: "arrangement" }, { name: "YUKI FUNAKOSHI", role: "arrangement" }
+    ] });
+    expect(detail.themes.every(({ credits }) => credits.every(({ role }) => role !== "vocals"))).toBe(true);
+    expect(detail.themes.some(({ titleJa }) => /そこにしかないもの|プライド|アイカツフレンズ|OFF VOCAL|ver\./.test(titleJa))).toBe(false);
+  });
+
+  it("uses song-specific Aikatsu Friends cross-checks and withholds conflicting CD dates, unaudited special endings and media", () => {
+    const detail = curatedAnimeDetails.find(({ id }) => id === "catalog-aikatsu-friends-2-2019")!;
+    expect(detail).toBeDefined();
+    for (const [index, theme] of detail.themes.entries()) {
+      expect(theme.lastVerifiedAt).toBe("2026-09-08");
+      expect(theme.sources.every(({ verifiedAt }) => verifiedAt === "2026-09-08")).toBe(true);
+      expect(theme.sources).toContainEqual(expect.objectContaining({ url: `https://utaten.com/lyric/${index === 0 ? "mi19041917" : "mi19082003"}/`, role: "cross_check", language: "ja" }));
+      expect(theme.sources).toContainEqual(expect.objectContaining({ url: "https://www.aikatsu.net/aikatsufriends_02/aikatsufriendscom/?offset=5#5420", role: "first_party" }));
+      expect(theme.sources).toContainEqual(expect.objectContaining({ url: "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201908/22343_201908221825.html", role: "first_party" }));
+      expect(theme.sources.some(({ url }) => url === "https://anison.online/anime/1068")).toBe(false);
+      expect(theme.videos).toEqual([]);
+      expect(JSON.parse(JSON.stringify(theme))).not.toHaveProperty("releaseDate");
+      expect(theme.versionLabel).toContain("CD 日期與聲優歌唱署名待核對");
+    }
+  });
+
+  it("finds Aikatsu Friends' shared lyricist and each co-composer without expanding the recorded singing group", async () => {
+    const index = buildCatalogSearchIndex((await loadCatalogSearchData(new CuratedProvider(), true)).entries);
+    const filters = { year: "2019", quarter: "spring", type: "all" } as const;
+    const slug = "aikatsu-friends-2-2019";
+    expect(searchCatalog(index, { ...filters, query: "偶像學園Friends", scope: "anime" }).map(({ anime: item }) => item.slug)).toEqual([slug]);
+    for (const [query, type, expected] of [
+      ["松原さらり", "all", ["ひとりじゃない！", "Be star"]], ["SHOW", "OP", ["ひとりじゃない！"]],
+      ["Maozon", "ED", ["Be star"]], ["YUKI FUNAKOSHI", "ED", ["Be star"]], ["カレン", "OP", []]
+    ] as const) {
+      const result = searchCatalog(index, { ...filters, query, type, scope: "creators" }).find(({ anime: item }) => item.slug === slug);
+      expect(result?.themes.map(({ titleJa }) => titleJa) ?? []).toEqual(expected);
+    }
+  });
+
   it("identifies KING OF PRISM's TV premiere separately from the introductory program and theatrical chapters", async () => {
     const seed = curated2019SpringSeeds.find(({ id }) => id === "catalog-king-of-prism-sss-2019")!;
     expect(seed).toBeDefined();
@@ -953,9 +1015,9 @@ describe("2019 spring reviewed TV catalogue", () => {
   });
 
   it("publishes a partial quarter with reviewed identity and song evidence, without unverified artwork", () => {
-    expect(spring.anime).toHaveLength(36);
+    expect(spring.anime).toHaveLength(37);
     expect(spring.coverageNote).toContain("跨季延續及特殊歌曲版本仍待核對");
-    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(113);
+    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(115);
     expect(curatedSeasonDetails.some(({ id }) => id === "2025-fall")).toBe(false);
     for (const seed of curated2019SpringSeeds) {
       expect(seed.seasonIds).toEqual(["2019-spring"]);

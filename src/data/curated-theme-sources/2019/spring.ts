@@ -3,6 +3,8 @@ import { getCuratedAnimeKey, getCuratedThemeKey } from "@/data/curated-seeds/ide
 import type { CuratedThemeSourceOverrideMap, CuratedThemeSourceSeed } from "@/data/curated-theme-sources/types";
 
 const firstPartyUrlsByTheme: Readonly<Record<string, readonly string[]>> = {
+  "catalog-aikatsu-friends-2-2019:OP:1": ["https://www.aikatsu.net/aikatsufriends_02/aikatsufriendscom/?offset=5#5420", "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201908/22343_201908221825.html"],
+  "catalog-aikatsu-friends-2-2019:ED:1": ["https://www.aikatsu.net/aikatsufriends_02/aikatsufriendscom/?offset=5#5420", "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201908/22343_201908221825.html"],
   "catalog-king-of-prism-sss-2019:OP:1": ["https://kinpri.com/sss/sp/discography/detail.php?id=1016430", "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201904/25383_201904152535.html"],
   "catalog-king-of-prism-sss-2019:ED:1": ["https://kinpri.com/sss/sp/discography/detail.php?id=1016530", "https://www.youtube.com/watch?v=420RJfS0G7Y"],
   "catalog-king-of-prism-sss-2019:ED:2": ["https://kinpri.com/sss/sp/discography/detail.php?id=1016531", "https://www.youtube.com/watch?v=420RJfS0G7Y"],
@@ -293,6 +295,8 @@ const firstPartyUrlsByTheme: Readonly<Record<string, readonly string[]>> = {
 };
 
 const sourceLabelsByUrl: Readonly<Record<string, string>> = {
+  "https://www.aikatsu.net/aikatsufriends_02/aikatsufriendscom/?offset=5#5420": "動畫官方：第 2 季 OP／ED 演唱名義與詞曲編曲（CD 日期另待核對）",
+  "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201908/22343_201908221825.html": "東京電視台：TV 四人合唱 OP 與ひびき獨唱 ED 用途",
   "https://kinpri.com/sss/sp/discography/detail.php?id=1016430": "動畫官方商品頁：OP 七人演唱名義與 CD 日期",
   "https://kinpri.com/sss/sp/discography/detail.php?id=1016530": "動畫官方商品頁：寒い夜だから・・・ 的演唱者與 CD 日期",
   "https://kinpri.com/sss/sp/discography/detail.php?id=1016531": "動畫官方商品頁：masquerade 的演唱者與 CD 日期",
@@ -509,11 +513,26 @@ const crossCheckSourcesByAnime: Readonly<Record<string, CuratedThemeSourceSeed>>
   }
 };
 
+const crossCheckSourcesByTheme: Readonly<Record<string, CuratedThemeSourceSeed>> = {
+  "catalog-aikatsu-friends-2-2019:OP:1": {
+    label: "UtaTen：第 2 季 OP、四人演唱名義與詞曲交叉核對",
+    url: "https://utaten.com/lyric/mi19041917/",
+    language: "ja",
+    role: "cross_check"
+  },
+  "catalog-aikatsu-friends-2-2019:ED:1": {
+    label: "UtaTen：TV-Size 的ひびき演唱名義與共同詞曲交叉核對；不採此版本日期",
+    url: "https://utaten.com/lyric/mi19082003/",
+    language: "ja",
+    role: "cross_check"
+  }
+};
+
 export const curated2019SpringThemeSources: CuratedThemeSourceOverrideMap = Object.fromEntries(
   curated2019SpringSeeds.flatMap((seed) => seed.themes.map((theme) => {
     const key = getCuratedThemeKey(seed, theme);
     const urls = firstPartyUrlsByTheme[key];
-    const crossCheck: CuratedThemeSourceSeed | undefined = crossCheckSourcesByAnime[getCuratedAnimeKey(seed)] ?? (seed.animeThemesUrl ? {
+    const crossCheck: CuratedThemeSourceSeed | undefined = crossCheckSourcesByTheme[key] ?? crossCheckSourcesByAnime[getCuratedAnimeKey(seed)] ?? (seed.animeThemesUrl ? {
       label: "AnimeThemes：OP／ED 次序與演唱版本交叉核對",
       url: seed.animeThemesUrl,
       language: "en",

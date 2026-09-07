@@ -1698,6 +1698,51 @@ const strikeWitches501EndingRows = [
 ] as const;
 
 const independentSpringSeeds: NativeCuratedAnimeSeed[] = [{
+  id: "catalog-aikatsu-friends-2-2019",
+  slug: "aikatsu-friends-2-2019",
+  titleJa: "アイカツフレンズ！～かがやきのジュエル～",
+  titleZhHant: "偶像學園Friends！ 第二季",
+  seasonIds: ["2019-spring"],
+  startDate: "2019-04-04",
+  editorialWeekday: 4,
+  broadcastTimeJst: "18:25",
+  broadcastLabel: "東京電視台每週四 18:25（日本時間；2019 年第 2 季）",
+  status: "finished",
+  verifiedAt: "2026-09-08",
+  officialSiteUrl: "https://www.aikatsu.net/aikatsufriends_02/",
+  identifierSource: {
+    label: "東京電視台：第 2 季首集識別與首播日期、時段",
+    url: "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201904/22343_201904041825.html",
+    language: "ja"
+  },
+  wikipediaUrl: "https://youranimes.tw/bangumi/201904",
+  sourceReferenceUrls: ["https://youranimes.tw/animes/2181"],
+  themes: [{
+    type: "OP",
+    sequence: 1,
+    titleJa: "ひとりじゃない！",
+    artistDisplayName: "あいね・みお・舞花・エマ from BEST FRIENDS！",
+    versionLabel: "TV 第 2 季 OP／四人演唱版；CD 日期與聲優歌唱署名待核對",
+    credits: [
+      { name: "松原さらり", role: "lyrics" },
+      { name: "SHOW", role: "composition" },
+      { name: "SHOW", role: "arrangement" }
+    ]
+  }, {
+    type: "ED",
+    sequence: 1,
+    titleJa: "Be star",
+    artistDisplayName: "ひびき from BEST FRIENDS！",
+    versionLabel: "TV 第 2 季一般 ED／ひびき版；CD 日期與聲優歌唱署名待核對",
+    credits: [
+      { name: "松原さらり", role: "lyrics" },
+      { name: "Maozon", role: "composition" },
+      { name: "YUKI FUNAKOSHI", role: "composition" },
+      { name: "Maozon", role: "arrangement" },
+      { name: "YUKI FUNAKOSHI", role: "arrangement" }
+    ]
+  }]
+}, {
   "id": "catalog-king-of-prism-sss-2019",
   "slug": "king-of-prism-sss-2019",
   "titleJa": "KING OF PRISM -Shiny Seven Stars-",

@@ -4610,6 +4610,12 @@ const animeOfficialSourceOverrides: Record<string, { label: string; url: string 
 };
 
 const animeSourceOverrides: Record<string, AnimeSourceSeed[]> = {
+  "catalog-aikatsu-friends-2-2019": [{
+    label: "BANDAI：2019 年 TV 第二季的正式日文名稱與遊戲版本分界",
+    url: "https://bandai-a.akamaihd.net/corp/press/100000741765491.pdf",
+    language: "ja",
+    role: "first_party"
+  }],
   "catalog-king-of-prism-sss-2019": [{
     label: "LINE TV 正式播出頁：繁中 TV 名稱與完結集數",
     url: "https://www.linetv.tw/drama/18245/eps/7",
