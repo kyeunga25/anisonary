@@ -2,6 +2,12 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## v1.42.1 — 作品資料響應式排列
+
+- 修正 521–760px 無圖作品錯用海報雙欄配置，標題與基本資料維持可用全寬。
+- 播出與資料審閱標籤保持完整，手機資料值整齊對齊，長時段說明正常換行。
+- 移除直向資料列與手機外部連結殘留的桌面分隔線；資料與 API 保持不變。
+
 ## v1.42.0 — 2019 春季 THE ORIGIN 電視版
 
 - 收錄《機動戦士ガンダム THE ORIGIN 前夜 赤い彗星》2019 年 13 話電視重編版，與早期 OVA 身份分開。
