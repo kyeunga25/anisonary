@@ -10,6 +10,79 @@ const spring = curatedSeasonDetails.find(({ id }) => id === "2019-spring")!;
 const anime = (id: number) => curatedAnimeDetails.find((item) => item.id === `curated-${id}`)!;
 
 describe("2019 spring reviewed TV catalogue", () => {
+  it("keeps editorial premiere days for split seasons and TV shorts and round-trips their public records", async () => {
+    for (const [id, date, weekday, time] of [
+      [104578, "2019-04-28", 7, "24:10"],
+      [104454, "2019-04-09", 2, "24:30"],
+      [104212, "2019-04-08", 1, "20:00"]
+    ] as const) {
+      expect(curated2019SpringSeeds.find(({ anilistId }) => anilistId === id)?.startDate).toBe(date);
+      const detail = anime(id);
+      expect(detail).toMatchObject({ editorialWeekday: weekday, broadcastTimeJst: time });
+      const provider = new ApiProvider("https://anisonary.k-y.cc/api/v1", {
+        fetch: vi.fn<typeof fetch>().mockResolvedValue(new Response(JSON.stringify(detail), { headers: { "Content-Type": "application/json" } }))
+      });
+      expect(await provider.getAnime(detail.slug)).toEqual(detail);
+    }
+    expect(anime(104454).broadcastLabel).toContain("AbemaTV 24:00");
+    expect(spring.coverageNote).toContain("電視短篇");
+  });
+
+  it("separates Attack on Titan's second-part themes, TV-size dates and original digital release from CD dates", () => {
+    const titan = anime(104578);
+    expect(titan.themes.map(({ type, sequence, titleJa, releaseDate }) => [type, sequence, titleJa, releaseDate])).toEqual([
+      ["OP", 1, "憧憬と屍の道", "2019-06-19"], ["ED", 1, "Name of Love", "2019-04-29"]
+    ]);
+    expect(titan.themes[0]?.versionLabel).toContain("TV Size 於 2019-04-29");
+    expect(titan.themes[1]?.versionLabel).toContain("CD 於 2019-05-29");
+    expect(titan.themes[1]?.credits).toEqual([
+      { name: "Sohei Mishima", role: "lyrics" },
+      { name: "Cinema Staff", role: "composition" },
+      { name: "Youichiro Nomura", role: "composition" }
+    ]);
+    expect(titan.themes[0]?.credits).toContainEqual({ name: "Revo", role: "arrangement" });
+    expect(titan.themes.flatMap(({ credits }) => credits.map(({ name }) => name))).not.toContain("石川由依");
+    expect(titan.themes.flatMap(({ videos }) => videos.map(({ youtubeVideoId, type }) => [youtubeVideoId, type])))
+      .toEqual([["czJHHta2vz8", "official_audio"], ["6321GKongXw", "other"]]);
+    expect(titan.themes[1]?.sources).toContainEqual(expect.objectContaining({
+      url: "https://www.youtube.com/watch?v=XV0R-5GxyyU", language: "en", role: "first_party"
+    }));
+  });
+
+  it("retains Isekai Quartet's distinct character ensembles and searches the independently evidenced fifth-episode ending", async () => {
+    const quartet = anime(104454);
+    expect(quartet.themes.map(({ titleJa }) => titleJa)).toEqual(["異世界かるてっと", "異世界ガールズ♡トーク", "Hollow Veil"]);
+    expect(quartet.themes[0]?.credits.filter(({ role }) => role === "vocals").map(({ name }) => name)).toEqual([
+      "アインズ（CV：日野 聡）", "カズマ（CV：福島 潤）", "スバル（CV：小林裕介）", "ターニャ（CV：悠木 碧）"
+    ]);
+    expect(quartet.themes[1]?.credits.filter(({ role }) => role === "vocals").map(({ name }) => name)).toEqual([
+      "アルベド（CV：原 由実）", "アクア（CV：雨宮 天）", "エミリア（CV：高橋李依）", "ターニャ（CV：悠木 碧）"
+    ]);
+    expect(quartet.themes[2]).toMatchObject({ type: "ED", sequence: 2, releaseDate: "2019-08-07" });
+    expect(quartet.themes[2]?.versionLabel).toContain("第 5 話特別片尾");
+    expect(quartet.themes[2]?.credits.filter(({ role }) => role === "lyrics").map(({ name }) => name))
+      .toEqual(["nonoc", "安田史生"]);
+    const data = await loadCatalogSearchData(new CuratedProvider(), true);
+    const results = searchCatalog(buildCatalogSearchIndex(data.entries), { query: "nonoc", scope: "creators", year: "2019", quarter: "spring", type: "ED" });
+    expect(results.map(({ anime: item }) => item.slug)).toEqual(["isekai-quartet"]);
+    expect(results[0]?.themes.map(({ titleJa }) => titleJa)).toEqual(["Hollow Veil"]);
+  });
+
+  it("uses Namu Amida Butsu's anime song roles, early digital ending date and reviewed lyric video", () => {
+    const namu = anime(104212);
+    expect(namu.themes.map(({ titleJa }) => titleJa)).toEqual(["天唄", "ルビー"]);
+    expect(namu.themes[0]?.releaseDate).toBeUndefined();
+    expect(namu.themes[0]?.credits).toContainEqual({ name: "深川琴美", role: "lyrics" });
+    expect(namu.themes[1]).toMatchObject({ type: "ED", releaseDate: "2019-01-15" });
+    expect(namu.themes[1]?.versionLabel).toContain("專輯於 2019-03-13");
+    expect(namu.themes[1]?.credits).toContainEqual({ name: "akkin", role: "arrangement" });
+    expect(namu.themes[1]?.videos[0]).toMatchObject({ youtubeVideoId: "ZjOMpO535uU", type: "other", channelName: "大橋ちっぽけ" });
+    expect(namu.sources).toContainEqual(expect.objectContaining({
+      url: "https://prtimes.jp/main/html/rd/p/000003316.000002581.html", role: "first_party"
+    }));
+    expect(namu.officialSiteUrl).not.toBe("https://namuami-utena-anime.com/");
+  });
+
   it("keeps the school-music premieres and existing sequel pages separate", () => {
     for (const [id, date, weekday, time] of [
       [105334, "2019-04-05", 5, "25:23"],
@@ -131,9 +204,9 @@ describe("2019 spring reviewed TV catalogue", () => {
   });
 
   it("publishes a partial quarter with reviewed identity and song evidence, without unverified artwork", () => {
-    expect(spring.anime).toHaveLength(20);
+    expect(spring.anime).toHaveLength(23);
     expect(spring.coverageNote).toContain("跨季延續及特殊歌曲版本仍待核對");
-    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(48);
+    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(55);
     expect(curatedSeasonDetails.some(({ id }) => id === "2025-fall")).toBe(false);
     for (const seed of curated2019SpringSeeds) {
       expect(seed.seasonIds).toEqual(["2019-spring"]);
