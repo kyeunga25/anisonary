@@ -4610,6 +4610,17 @@ const animeOfficialSourceOverrides: Record<string, { label: string; url: string 
 };
 
 const animeSourceOverrides: Record<string, AnimeSourceSeed[]> = {
+  "catalog-king-of-prism-sss-2019": [{
+    label: "LINE TV 正式播出頁：繁中 TV 名稱與完結集數",
+    url: "https://www.linetv.tw/drama/18245/eps/7",
+    language: "zh-Hant",
+    role: "first_party"
+  }, {
+    label: "動畫官方：4 月 8 日介紹特別節目與 TV 正篇的分界",
+    url: "https://kinpri.com/sss/sp/news/detail.php?artist_cd=KOP3S&id=1071169",
+    language: "ja",
+    role: "first_party"
+  }],
   "catalog-bakugan-battle-planet-2019": [{
     label: "YOYOTV 台灣播出方：繁中作品名稱；中文主題影片不作日語 OP／ED 版本",
     url: "https://www.youtube.com/watch?v=9yiBbt820uo",

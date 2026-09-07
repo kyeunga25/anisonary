@@ -1698,6 +1698,247 @@ const strikeWitches501EndingRows = [
 ] as const;
 
 const independentSpringSeeds: NativeCuratedAnimeSeed[] = [{
+  "id": "catalog-king-of-prism-sss-2019",
+  "slug": "king-of-prism-sss-2019",
+  "titleJa": "KING OF PRISM -Shiny Seven Stars-",
+  "titleZhHant": "星光王子 KING OF PRISM -Shiny Seven Stars-",
+  "seasonIds": [
+    "2019-spring"
+  ],
+  "startDate": "2019-04-15",
+  "editorialWeekday": 1,
+  "broadcastTimeJst": "25:35",
+  "broadcastLabel": "東京電視台每週一 25:35（日本編輯播出日；正篇第 1 話，翌日 01:35）",
+  "status": "finished",
+  "verifiedAt": "2026-09-08",
+  "officialSiteUrl": "https://kinpri.com/sss/",
+  "identifierSource": {
+    "label": "東京電視台：TV 正篇第 1 話識別、首播日期與深夜時段",
+    "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201904/25383_201904152535.html",
+    "language": "ja"
+  },
+  "wikipediaUrl": "https://youranimes.tw/bangumi/201904",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/488"
+  ],
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "Shiny Seven Stars!",
+      "artistDisplayName": "一条シン（CV：寺島惇太）、太刀花ユキノジョウ（CV：斉藤壮馬）、香賀美タイガ（CV：畠中祐）、十王院カケル（CV：八代拓）、鷹梁ミナト（CV：五十嵐雅）、西園寺レオ（CV：永塚拓馬）、涼野ユウ（CV：内田雄馬）",
+      "releaseDate": "2019-04-24",
+      "versionLabel": "TV OP／七人合唱版；製作署名待核對",
+      "credits": [
+        {
+          "name": "寺島惇太",
+          "role": "vocals"
+        },
+        {
+          "name": "斉藤壮馬",
+          "role": "vocals"
+        },
+        {
+          "name": "畠中祐",
+          "role": "vocals"
+        },
+        {
+          "name": "八代拓",
+          "role": "vocals"
+        },
+        {
+          "name": "五十嵐雅",
+          "role": "vocals"
+        },
+        {
+          "name": "永塚拓馬",
+          "role": "vocals"
+        },
+        {
+          "name": "内田雄馬",
+          "role": "vocals"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "寒い夜だから・・・",
+      "artistDisplayName": "太刀花ユキノジョウ（CV：斉藤壮馬）",
+      "releaseDate": "2019-06-26",
+      "versionLabel": "TV 輪替 ED／TRF 翻唱；製作署名待核對",
+      "credits": [
+        {
+          "name": "斉藤壮馬",
+          "role": "vocals"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "masquerade",
+      "artistDisplayName": "香賀美タイガ（CV：畠中祐）",
+      "releaseDate": "2019-06-26",
+      "versionLabel": "TV 輪替 ED／TRF 翻唱；製作署名待核對",
+      "credits": [
+        {
+          "name": "畠中祐",
+          "role": "vocals"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 3,
+      "titleJa": "Unite! The Night!",
+      "artistDisplayName": "十王院カケル（CV：八代拓）",
+      "releaseDate": "2019-07-10",
+      "versionLabel": "TV 輪替 ED／TRF 翻唱；製作署名待核對",
+      "credits": [
+        {
+          "name": "八代拓",
+          "role": "vocals"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 4,
+      "titleJa": "JOY",
+      "artistDisplayName": "高田馬場ジョージGS（CV：小林竜之）",
+      "releaseDate": "2019-07-10",
+      "versionLabel": "TV 輪替 ED／TRF 翻唱；製作署名待核對",
+      "credits": [
+        {
+          "name": "小林竜之",
+          "role": "vocals"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 5,
+      "titleJa": "LEGEND OF WIND",
+      "artistDisplayName": "鷹梁ミナト（CV：五十嵐雅）",
+      "releaseDate": "2019-07-10",
+      "versionLabel": "TV 輪替 ED／TRF 翻唱；製作署名待核對",
+      "credits": [
+        {
+          "name": "五十嵐雅",
+          "role": "vocals"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 6,
+      "titleJa": "Love & Peace Forever",
+      "artistDisplayName": "西園寺レオ（CV：永塚拓馬）",
+      "releaseDate": "2019-07-24",
+      "versionLabel": "TV 輪替 ED／TRF 翻唱；製作署名待核對",
+      "credits": [
+        {
+          "name": "永塚拓馬",
+          "role": "vocals"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 7,
+      "titleJa": "Overnight Sensation ～時代はあなたに委ねてる～",
+      "artistDisplayName": "涼野ユウ（CV：内田雄馬）",
+      "releaseDate": "2019-07-24",
+      "versionLabel": "TV 輪替 ED／TRF 翻唱；製作署名待核對",
+      "credits": [
+        {
+          "name": "内田雄馬",
+          "role": "vocals"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 8,
+      "titleJa": "Silver and Gold dance",
+      "artistDisplayName": "大和アレクサンダー（CV：武内駿輔）",
+      "releaseDate": "2019-07-24",
+      "versionLabel": "TV 輪替 ED／TRF 翻唱；製作署名待核對",
+      "credits": [
+        {
+          "name": "武内駿輔",
+          "role": "vocals"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 9,
+      "titleJa": "愛がもう少し欲しいよ",
+      "artistDisplayName": "如月ルヰ（CV：蒼井翔太）",
+      "releaseDate": "2019-08-07",
+      "versionLabel": "TV 輪替 ED／TRF 翻唱；製作署名待核對",
+      "credits": [
+        {
+          "name": "蒼井翔太",
+          "role": "vocals"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 10,
+      "titleJa": "BRAND NEW TOMORROW",
+      "artistDisplayName": "一条シン（CV：寺島惇太）",
+      "releaseDate": "2019-08-07",
+      "versionLabel": "TV 輪替 ED／TRF 翻唱；製作署名待核對",
+      "credits": [
+        {
+          "name": "寺島惇太",
+          "role": "vocals"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 11,
+      "titleJa": "BOY MEETS GIRL",
+      "artistDisplayName": "一条シン（CV：寺島惇太）、太刀花ユキノジョウ（CV：斉藤壮馬）、香賀美タイガ（CV：畠中祐）、十王院カケル（CV：八代拓）、鷹梁ミナト（CV：五十嵐雅）、西園寺レオ（CV：永塚拓馬）、涼野ユウ（CV：内田雄馬）",
+      "versionLabel": "TV 輪替 ED／七人合唱的 TRF 翻唱版；發行日期與製作署名待核對",
+      "credits": [
+        {
+          "name": "寺島惇太",
+          "role": "vocals"
+        },
+        {
+          "name": "斉藤壮馬",
+          "role": "vocals"
+        },
+        {
+          "name": "畠中祐",
+          "role": "vocals"
+        },
+        {
+          "name": "八代拓",
+          "role": "vocals"
+        },
+        {
+          "name": "五十嵐雅",
+          "role": "vocals"
+        },
+        {
+          "name": "永塚拓馬",
+          "role": "vocals"
+        },
+        {
+          "name": "内田雄馬",
+          "role": "vocals"
+        }
+      ]
+    }
+  ]
+}, {
   id: "catalog-hangyakusei-million-arthur-2-2019",
   slug: "hangyakusei-million-arthur-2-2019",
   titleJa: "叛逆性ミリオンアーサー 第2シーズン",
