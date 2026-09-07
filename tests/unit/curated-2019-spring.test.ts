@@ -10,6 +10,85 @@ const spring = curatedSeasonDetails.find(({ id }) => id === "2019-spring")!;
 const anime = (id: number) => curatedAnimeDetails.find((item) => item.id === `curated-${id}`)!;
 
 describe("2019 spring reviewed TV catalogue", () => {
+  it("identifies CLIMAX SEASON as the 2019 TV quarter separately from Extra Stage and game-only shorts", async () => {
+    const seed = curated2019SpringSeeds.find(({ id }) => id === "catalog-cinderella-girls-climax-2019")!;
+    expect(seed).toMatchObject({ startDate: "2019-04-02", editorialWeekday: 2, broadcastTimeJst: "21:54", seasonIds: ["2019-spring"] });
+    const detail = curatedAnimeDetails.find(({ id }) => id === seed.id)!;
+    expect(detail).toMatchObject({ slug: "cinderella-girls-climax-2019", titleJa: "アイドルマスター シンデレラガールズ劇場 CLIMAX SEASON", titleZhHant: "灰姑娘女孩劇場 第四季：CLIMAX SEASON", status: "finished" });
+    for (const omitted of ["anilistId", "anilistUrl", "titleRomaji", "posterUrl", "bannerUrl"]) {
+      expect(seed).not.toHaveProperty(omitted);
+      expect(detail).not.toHaveProperty(omitted);
+    }
+    expect(detail.sources).toContainEqual(expect.objectContaining({ url: "https://idolmaster.jp/blog/?p=58033", role: "identifier", language: "ja" }));
+    expect(detail.sources).toContainEqual(expect.objectContaining({ url: "https://youranimes.tw/bangumi/201904", role: "localized_cross_check", language: "zh-Hant" }));
+    const extra = anime(115519);
+    expect(extra.slug).toBe("cinderella-girls-gekijou-extra-stage");
+    expect(extra.id).not.toBe(detail.id);
+    expect(extra.themes.some(({ titleJa }) => detail.themes.some((theme) => theme.titleJa === titleJa))).toBe(false);
+    const provider = new ApiProvider("https://anisonary.k-y.cc/api/v1", {
+      fetch: vi.fn<typeof fetch>().mockResolvedValue(new Response(JSON.stringify(detail), { headers: { "Content-Type": "application/json" } }))
+    });
+    expect(await provider.getAnime(detail.slug)).toEqual(detail);
+  });
+
+  it("keeps CLIMAX SEASON's three monthly ensemble endings distinct from CD solos and bonus tracks", () => {
+    const themes = curatedAnimeDetails.find(({ id }) => id === "catalog-cinderella-girls-climax-2019")!.themes;
+    expect(themes.map(({ type, sequence, titleJa, releaseDate }) => [type, sequence, titleJa, releaseDate])).toEqual([
+      ["ED", 1, "きゅん・きゅん・まっくす", "2019-04-17"],
+      ["ED", 2, "Max Beat", "2019-05-22"],
+      ["ED", 3, "TAKAMARI☆CLIMAXXX!!!!!", "2019-06-19"]
+    ]);
+    const singers = [
+      ["藍原ことみ", "中島由貴", "都丸ちよ", "高森奈津美", "藤本彩花"],
+      ["早見沙織", "森下来奈", "青木志貴", "千菅春香", "村中知"],
+      ["深川芹亜", "武田羅梨沙多胡", "神谷早矢佳", "赤﨑千夏", "杜野まこ"]
+    ];
+    for (const [index, theme] of themes.entries()) {
+      expect(theme.versionLabel).toContain(`TV ${index + 4} 月 ED`);
+      expect(theme.versionLabel).toContain("CD 完整版；官方試聽短版");
+      expect(theme.credits.filter(({ role }) => role === "vocals").map(({ name }) => name)).toEqual(singers[index]);
+      for (const singer of singers[index]!) expect(theme.artistDisplayName).toContain(`CV：${singer}`);
+    }
+    expect(themes[0]?.credits.filter(({ role }) => role !== "vocals")).toEqual([
+      { name: "坂井竜二", role: "lyrics" }, { name: "BNSI（kyo）", role: "composition" }
+    ]);
+    expect(themes[1]?.credits.filter(({ role }) => role !== "vocals")).toEqual([
+      { name: "渡部紫緒", role: "lyrics" }, { name: "坂部剛", role: "composition" }, { name: "坂部剛", role: "arrangement" }
+    ]);
+    expect(themes[2]?.credits.filter(({ role }) => role !== "vocals")).toEqual([
+      { name: "広川恵一（MONACA）", role: "lyrics" }, { name: "広川恵一（MONACA）", role: "composition" }, { name: "広川恵一（MONACA）", role: "arrangement" }
+    ]);
+    expect(themes.flatMap(({ credits }) => credits).some(({ name }) => ["天野聡美", "原田彩楓", "高田憂希"].includes(name))).toBe(false);
+  });
+
+  it("retains dated CLIMAX SEASON source evidence and official audio previews without treating them as full videos", () => {
+    const themes = curatedAnimeDetails.find(({ id }) => id === "catalog-cinderella-girls-climax-2019")!.themes;
+    const news = ["190405", "190510", "190607"];
+    const videos = ["QkO1DC96kIM", "bqUcdQSW3qA", "gBvq0uP4Hos"];
+    for (const [index, theme] of themes.entries()) {
+      expect(theme.lastVerifiedAt).toBe("2026-09-08");
+      expect(theme.sources.every(({ verifiedAt }) => verifiedAt === "2026-09-08")).toBe(true);
+      expect(theme.sources).toContainEqual(expect.objectContaining({ url: `https://columbia.jp/idolmaster/imasnews/${news[index]}.html`, role: "first_party", language: "ja" }));
+      expect(theme.sources).toContainEqual(expect.objectContaining({ url: "https://anison.online/anime/1069", role: "cross_check", language: "ja" }));
+      expect(theme.videos).toHaveLength(1);
+      expect(theme.videos[0]).toMatchObject({ youtubeVideoId: videos[index], type: "official_audio", channelName: "日本コロムビア 公式YouTubeチャンネル", officialStatus: "official", embeddable: true });
+      expect(theme.videos[0]?.title).toContain(theme.titleJa);
+    }
+  });
+
+  it("finds CLIMAX SEASON by Chinese title, individual vocalists and exact song writers in its own quarter", async () => {
+    const index = buildCatalogSearchIndex((await loadCatalogSearchData(new CuratedProvider(), true)).entries);
+    const options = { year: "2019", quarter: "spring", type: "ED" } as const;
+    const titleResults = searchCatalog(index, { ...options, query: "灰姑娘女孩劇場", scope: "anime" });
+    expect(titleResults.map(({ anime: item }) => item.slug)).toEqual(["cinderella-girls-climax-2019"]);
+    for (const [query, title] of [["藤本彩花", "きゅん・きゅん・まっくす"], ["森下来奈", "Max Beat"], ["広川恵一（MONACA）", "TAKAMARI☆CLIMAXXX!!!!!"]]) {
+      const results = searchCatalog(index, { ...options, query: query!, scope: "creators" });
+      expect(results.map(({ anime: item }) => item.slug)).toEqual(["cinderella-girls-climax-2019"]);
+      expect(results[0]?.themes.map(({ titleJa }) => titleJa)).toEqual([title]);
+    }
+    expect(searchCatalog(index, { ...options, query: "TAKAMARI☆CLIMAXXX!!!!!", scope: "songs", type: "OP" })).toEqual([]);
+  });
+
   it("identifies the 2019 Yo-kai Watch TV series independently from the 2021 musical-note sequel", async () => {
     const seed = curated2019SpringSeeds.find(({ id }) => id === "catalog-youkai-watch-2019")!;
     expect(seed).toMatchObject({ startDate: "2019-04-05", editorialWeekday: 5, broadcastTimeJst: "18:25", seasonIds: ["2019-spring"] });
@@ -740,9 +819,9 @@ describe("2019 spring reviewed TV catalogue", () => {
   });
 
   it("publishes a partial quarter with reviewed identity and song evidence, without unverified artwork", () => {
-    expect(spring.anime).toHaveLength(33);
+    expect(spring.anime).toHaveLength(34);
     expect(spring.coverageNote).toContain("跨季延續及特殊歌曲版本仍待核對");
-    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(96);
+    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(99);
     expect(curatedSeasonDetails.some(({ id }) => id === "2025-fall")).toBe(false);
     for (const seed of curated2019SpringSeeds) {
       expect(seed.seasonIds).toEqual(["2019-spring"]);
@@ -751,12 +830,12 @@ describe("2019 spring reviewed TV catalogue", () => {
       expect(detail.bannerUrl).toBeUndefined();
       expect(detail.imageSourceUrl).toBeUndefined();
       expect(detail.sources).toContainEqual(expect.objectContaining({
-        role: "identifier", url: seed.identifierSource?.url, verifiedAt: "2026-09-07"
+        role: "identifier", url: seed.identifierSource?.url, verifiedAt: seed.verifiedAt
       }));
       for (const theme of detail.themes) {
         expect(theme.sources.some(({ role }) => role === "first_party")).toBe(true);
         expect(theme.sources.some(({ role }) => role === "cross_check")).toBe(true);
-        expect(theme.sources.every(({ verifiedAt }) => verifiedAt === "2026-09-07")).toBe(true);
+        expect(theme.sources.every(({ verifiedAt }) => verifiedAt === seed.verifiedAt)).toBe(true);
       }
     }
   });

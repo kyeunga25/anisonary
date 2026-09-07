@@ -1698,6 +1698,74 @@ const strikeWitches501EndingRows = [
 ] as const;
 
 const independentSpringSeeds: NativeCuratedAnimeSeed[] = [{
+  id: "catalog-cinderella-girls-climax-2019",
+  slug: "cinderella-girls-climax-2019",
+  titleJa: "アイドルマスター シンデレラガールズ劇場 CLIMAX SEASON",
+  titleZhHant: "灰姑娘女孩劇場 第四季：CLIMAX SEASON",
+  seasonIds: ["2019-spring"],
+  startDate: "2019-04-02",
+  editorialWeekday: 2,
+  broadcastTimeJst: "21:54",
+  broadcastLabel: "TOKYO MX／BS11 每週二 21:54（日本時間；2019 年 TV 短篇）",
+  status: "finished",
+  verifiedAt: "2026-09-08",
+  officialSiteUrl: "https://idolmaster.jp/blog/?p=58824",
+  identifierSource: {
+    label: "Bandai Namco 官方：2019 年 TV 版作品識別、首播日期與時段",
+    url: "https://idolmaster.jp/blog/?p=58033",
+    language: "ja"
+  },
+  wikipediaUrl: "https://youranimes.tw/bangumi/201904",
+  sourceReferenceUrls: ["https://youranimes.tw/animes/1922"],
+  themes: [{
+    type: "ED", sequence: 1,
+    titleJa: "きゅん・きゅん・まっくす",
+    artistDisplayName: "一ノ瀬志希（CV：藍原ことみ）、乙倉悠貴（CV：中島由貴）、椎名法子（CV：都丸ちよ）、前川みく（CV：高森奈津美）、棟方愛海（CV：藤本彩花）",
+    releaseDate: "2019-04-17",
+    versionLabel: "TV 4 月 ED／CD 完整版；官方試聽短版",
+    credits: [
+      { name: "藍原ことみ", role: "vocals" },
+      { name: "中島由貴", role: "vocals" },
+      { name: "都丸ちよ", role: "vocals" },
+      { name: "高森奈津美", role: "vocals" },
+      { name: "藤本彩花", role: "vocals" },
+      { name: "坂井竜二", role: "lyrics" },
+      { name: "BNSI（kyo）", role: "composition" }
+    ]
+  }, {
+    type: "ED", sequence: 2,
+    titleJa: "Max Beat",
+    artistDisplayName: "高垣楓（CV：早見沙織）、鷹富士茄子（CV：森下来奈）、二宮飛鳥（CV：青木志貴）、松永涼（CV：千菅春香）、大和亜季（CV：村中知）",
+    releaseDate: "2019-05-22",
+    versionLabel: "TV 5 月 ED／CD 完整版；官方試聽短版",
+    credits: [
+      { name: "早見沙織", role: "vocals" },
+      { name: "森下来奈", role: "vocals" },
+      { name: "青木志貴", role: "vocals" },
+      { name: "千菅春香", role: "vocals" },
+      { name: "村中知", role: "vocals" },
+      { name: "渡部紫緒", role: "lyrics" },
+      { name: "坂部剛", role: "composition" },
+      { name: "坂部剛", role: "arrangement" }
+    ]
+  }, {
+    type: "ED", sequence: 3,
+    titleJa: "TAKAMARI☆CLIMAXXX!!!!!",
+    artistDisplayName: "喜多日菜子（CV：深川芹亜）、喜多見柚（CV：武田羅梨沙多胡）、南条光（CV：神谷早矢佳）、日野茜（CV：赤﨑千夏）、姫川友紀（CV：杜野まこ）",
+    releaseDate: "2019-06-19",
+    versionLabel: "TV 6 月 ED／CD 完整版；官方試聽短版",
+    credits: [
+      { name: "深川芹亜", role: "vocals" },
+      { name: "武田羅梨沙多胡", role: "vocals" },
+      { name: "神谷早矢佳", role: "vocals" },
+      { name: "赤﨑千夏", role: "vocals" },
+      { name: "杜野まこ", role: "vocals" },
+      { name: "広川恵一（MONACA）", role: "lyrics" },
+      { name: "広川恵一（MONACA）", role: "composition" },
+      { name: "広川恵一（MONACA）", role: "arrangement" }
+    ]
+  }]
+}, {
   id: "catalog-youkai-watch-2019",
   slug: "youkai-watch-2019",
   titleJa: "妖怪ウォッチ！",

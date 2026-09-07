@@ -1,6 +1,30 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2019SpringThemeVideos = {
+  "catalog-cinderella-girls-climax-2019:ED:1": [{
+    youtubeVideoId: "QkO1DC96kIM",
+    title: "【アイドルマスター】「きゅん・きゅん・まっくす」(歌：一ノ瀬志希、乙倉悠貴、椎名法子、前川みく、棟方愛海)",
+    type: "official_audio",
+    channelName: "日本コロムビア 公式YouTubeチャンネル",
+    officialStatus: "official",
+    embeddable: true
+  }],
+  "catalog-cinderella-girls-climax-2019:ED:2": [{
+    youtubeVideoId: "bqUcdQSW3qA",
+    title: "【アイドルマスター】「Max Beat」(歌：高垣楓、鷹富士茄子、二宮飛鳥、松永涼、大和亜季)",
+    type: "official_audio",
+    channelName: "日本コロムビア 公式YouTubeチャンネル",
+    officialStatus: "official",
+    embeddable: true
+  }],
+  "catalog-cinderella-girls-climax-2019:ED:3": [{
+    youtubeVideoId: "gBvq0uP4Hos",
+    title: "【アイドルマスター】「TAKAMARI☆CLIMAXXX!!!!!」(歌：喜多日菜子、喜多見柚、南条光、日野茜、姫川友紀)",
+    type: "official_audio",
+    channelName: "日本コロムビア 公式YouTubeチャンネル",
+    officialStatus: "official",
+    embeddable: true
+  }],
   "catalog-youkai-watch-2019:OP:1": [{
     youtubeVideoId: "qWcfCWkb9gw",
     title: "紘毅 / ケラケラホーのうた MUSIC VIDEO (short ver.)",

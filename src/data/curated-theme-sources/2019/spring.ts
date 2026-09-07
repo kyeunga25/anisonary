@@ -3,6 +3,18 @@ import { getCuratedAnimeKey, getCuratedThemeKey } from "@/data/curated-seeds/ide
 import type { CuratedThemeSourceOverrideMap, CuratedThemeSourceSeed } from "@/data/curated-theme-sources/types";
 
 const firstPartyUrlsByTheme: Readonly<Record<string, readonly string[]>> = {
+  "catalog-cinderella-girls-climax-2019:ED:1": [
+    "https://columbia.jp/idolmaster/imasnews/190405.html",
+    "https://www.youtube.com/watch?v=QkO1DC96kIM"
+  ],
+  "catalog-cinderella-girls-climax-2019:ED:2": [
+    "https://columbia.jp/idolmaster/imasnews/190510.html",
+    "https://www.youtube.com/watch?v=bqUcdQSW3qA"
+  ],
+  "catalog-cinderella-girls-climax-2019:ED:3": [
+    "https://columbia.jp/idolmaster/imasnews/190607.html",
+    "https://www.youtube.com/watch?v=gBvq0uP4Hos"
+  ],
   "catalog-youkai-watch-2019:OP:1": [
     "https://maekawakikaku.co.jp/news/archives/2019/20190604_837.html",
     "https://popholic.jp/archives/12216",
@@ -261,6 +273,12 @@ const firstPartyUrlsByTheme: Readonly<Record<string, readonly string[]>> = {
 };
 
 const sourceLabelsByUrl: Readonly<Record<string, string>> = {
+  "https://columbia.jp/idolmaster/imasnews/190405.html": "日本 Columbia：TV 4 月 ED、演唱及製作署名、CD 日期與官方試聽",
+  "https://www.youtube.com/watch?v=QkO1DC96kIM": "日本 Columbia：4 月 ED 官方試聽短版與演唱者",
+  "https://columbia.jp/idolmaster/imasnews/190510.html": "日本 Columbia：TV 5 月 ED、演唱及製作署名、CD 日期與官方試聽",
+  "https://www.youtube.com/watch?v=bqUcdQSW3qA": "日本 Columbia：5 月 ED 官方試聽短版與演唱者",
+  "https://columbia.jp/idolmaster/imasnews/190607.html": "日本 Columbia：TV 6 月 ED、演唱及製作署名、CD 日期與官方試聽",
+  "https://www.youtube.com/watch?v=gBvq0uP4Hos": "日本 Columbia：6 月 ED 官方試聽短版與演唱者",
   "https://maekawakikaku.co.jp/news/archives/2019/20190604_837.html": "紘毅所屬事務所：2019 年版 OP、CD 發行日期與短版 MV",
   "https://popholic.jp/archives/12216": "POPHOLIC 創作者官方：OP 用途、演唱者與菊谷知樹的原曲編曲署名",
   "https://www.ymm.co.jp/p/detail.php?code=GTK01097308&dm=sl&dso=11&ua=pc": "Yamaha 樂譜出版方：原曲詞曲署名；鋼琴改編及書籍日期不作動畫原曲資料",
@@ -388,6 +406,12 @@ const sourceLabelsByUrl: Readonly<Record<string, string>> = {
 };
 
 const crossCheckSourcesByAnime: Readonly<Record<string, CuratedThemeSourceSeed>> = {
+  "catalog-cinderella-girls-climax-2019": {
+    label: "アニソン・オンライン：2019 春季、三首 ED 用途與合唱名義交叉核對",
+    url: "https://anison.online/anime/1069",
+    language: "ja",
+    role: "cross_check"
+  },
   "catalog-youkai-watch-2019": {
     label: "アニソン・オンライン：2019 春季 TV 系列、OP／ED 用途與演唱者交叉核對",
     url: "https://anison.online/anime/1122",
