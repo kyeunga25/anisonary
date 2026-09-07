@@ -460,7 +460,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
 
   await page.goto("/search/");
   await expect(page.getByRole("heading", { name: "跨季度搜尋" })).toBeVisible();
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1952");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1953");
 
   const search = page.getByRole("searchbox", { name: "搜尋動畫、歌曲或創作者" });
   await search.fill("ＭＹＴＨ & ＲＯＩＤ");
@@ -500,7 +500,7 @@ test("cross-season search stays local and matches anime, songs, and artists", as
   await expect(page.locator("[data-catalog-anime-count]")).toHaveText("0");
 
   await search.press("Escape");
-  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1952");
+  await expect(page.locator("[data-catalog-anime-count]")).toHaveText("1953");
   expect(externalRequests).toEqual([]);
 });
 
@@ -908,7 +908,7 @@ test("catalogue navigation stays compact and drills down through published years
   await expect(navigation.getByRole("link", { name: /動畫目錄/ })).toHaveAttribute("aria-current", "true");
   await expect(page.getByRole("navigation", { name: "2025 年季度導覽" }).getByRole("link", { name: "春季" })).toHaveAttribute("aria-current", "page");
   await expect(page.getByRole("navigation", { name: "所在位置" }).getByRole("link", { name: "2025", exact: true })).toHaveAttribute("href", "/catalog/2025/");
-  await expect(page.getByLabel("季度資料狀態")).toContainText("已發布 29 個季度、1,952 個作品頁與 4,330 首 OP／ED");
+  await expect(page.getByLabel("季度資料狀態")).toContainText("已發布 29 個季度、1,953 個作品頁與 4,342 首 OP／ED");
 
   await page.setViewportSize({ width: 390, height: 844 });
   await page.reload();
@@ -1245,10 +1245,10 @@ test("2019 spring browsing and creator search reach the correct special ending o
   for (const width of [1280, 390]) {
     await page.setViewportSize({ width, height: 844 });
     await page.goto("/catalog/2019/");
-    await page.getByRole("link", { name: /春季動畫.*35 套動畫/ }).click();
+    await page.getByRole("link", { name: /春季動畫.*36 套動畫/ }).click();
     await expect(page.getByRole("heading", { name: "2019 春季動畫" })).toBeVisible();
-    await expect(page.getByText("本季正在補充，目前收錄 35 套 TV 作品（含電視短篇及重編版）。其餘作品、跨季延續及特殊歌曲版本仍待核對。", { exact: true })).toBeVisible();
-    await expect(page.locator("[data-anime-card]")).toHaveCount(35);
+    await expect(page.getByText("本季正在補充，目前收錄 36 套 TV 作品（含電視短篇及重編版）。其餘作品、跨季延續及特殊歌曲版本仍待核對。", { exact: true })).toBeVisible();
+    await expect(page.locator("[data-anime-card]")).toHaveCount(36);
     await expect(page.locator("[data-anime-card] img")).toHaveCount(0);
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 
@@ -1681,6 +1681,90 @@ test("anime details keep full-width poster-free headings and readable metadata a
   }
 });
 
+test("KING OF PRISM search and compact song navigation preserve singing identities, cover endings and unverified dates across devices", async ({ page, browser, request }) => {
+  test.setTimeout(60_000);
+  const slug = "king-of-prism-sss-2019";
+  const mediaRequests: string[] = [];
+  page.on("request", (item) => {
+    if (/youtube|ytimg|googlevideo/.test(new URL(item.url()).hostname)) mediaRequests.push(item.url());
+  });
+  const response = await request.get(`/api/v1/anime/${slug}.json`);
+  expect(response.status()).toBe(200);
+  const detail = await response.json();
+  expect(detail.id).toBe("catalog-king-of-prism-sss-2019");
+  expect(detail.themes).toHaveLength(12);
+  expect(detail.themes[11]).not.toHaveProperty("releaseDate");
+  for (const width of [1280, 960, 390, 320]) {
+    await page.setViewportSize({ width, height: 844 });
+    await page.goto("/search/", { waitUntil: "domcontentloaded" });
+    await page.getByRole("searchbox", { name: "搜尋動畫、歌曲或創作者" }).fill("星光王子");
+    await page.getByLabel("年份", { exact: true }).selectOption("2019");
+    await page.getByLabel("季度", { exact: true }).selectOption("spring");
+    await expect(page.locator("[data-catalog-result]")).toHaveCount(1);
+    await page.getByRole("link", { name: "KING OF PRISM -Shiny Seven Stars-", exact: true }).first().click();
+    await expect(page.locator(".anime-hero__zh")).toHaveText("星光王子 KING OF PRISM -Shiny Seven Stars-");
+    await expect(page.locator(".anime-hero__meta")).toContainText("每週一 25:35");
+    await expect(page.locator(".theme-card")).toHaveCount(12);
+    const disclosure = page.locator(".theme-navigation");
+    await expect(disclosure).not.toHaveAttribute("open");
+    await expect(disclosure.locator("summary")).toContainText("1 首 OP · 11 首 ED");
+    await disclosure.locator("summary").focus();
+    await page.keyboard.press("Enter");
+    const navigation = page.getByRole("navigation", { name: "本作品歌曲" });
+    await expect(navigation.getByRole("link")).toHaveCount(12);
+    expect((await navigation.boundingBox())!.height).toBeLessThanOrEqual(844 * 0.55 + 1);
+    await navigation.locator(`a[href="#theme-${slug}-ed-11"]`).focus();
+    await page.keyboard.press("Enter");
+    const group = page.locator(`#theme-${slug}-ed-11`);
+    await expect(group).toBeFocused();
+    await expect(group).toContainText("發行日期與製作署名待核對");
+    await expect(group.locator("time")).toHaveCount(0);
+    await expect(group.locator(".theme-card__artist")).toContainText("一条シン（CV：寺島惇太）");
+    await expect(group.locator(".theme-card__artist")).toContainText("涼野ユウ（CV：内田雄馬）");
+    await group.getByRole("link", { name: "搜尋「寺島惇太」的歌曲", exact: true }).focus();
+    await page.keyboard.press("Enter");
+    await page.getByLabel("年份", { exact: true }).selectOption("2019");
+    await page.getByLabel("季度", { exact: true }).selectOption("spring");
+    await page.getByLabel("歌曲用途", { exact: true }).selectOption("ED");
+    await page.getByRole("searchbox", { name: "搜尋動畫、歌曲或創作者" }).fill("小林竜之");
+    await expect(page.locator("[data-catalog-result]")).toHaveCount(1);
+    await page.getByRole("link", { name: "JOY", exact: true }).click();
+    const joy = page.locator(`#theme-${slug}-ed-4`);
+    await expect(joy).toBeFocused();
+    await expect(joy.locator(".theme-card__artist")).toHaveText("高田馬場ジョージGS（CV：小林竜之）");
+    await expect(joy.locator("time")).toHaveText("2019-07-10");
+    await joy.locator("details summary").focus();
+    await page.keyboard.press("Enter");
+    await expect(joy.locator("details")).toHaveAttribute("open");
+    await expect(joy.locator('a[href="https://www.youtube.com/watch?v=lmIgYf6WehM"]')).toBeVisible();
+    await expect(page.getByRole("button", { name: /載入 YouTube 影片/ })).toHaveCount(0);
+    await expect(page.locator("iframe")).toHaveCount(0);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  }
+  expect(mediaRequests).toEqual([]);
+  const context = await browser.newContext({ javaScriptEnabled: false, viewport: { width: 390, height: 844 } });
+  try {
+    const nativePage = await context.newPage();
+    await nativePage.goto(`${e2eOrigin}/catalog/2019/`, { waitUntil: "domcontentloaded" });
+    await nativePage.getByRole("link", { name: /春季動畫.*36 套動畫/ }).click();
+    await nativePage.getByRole("link", { name: "查看 KING OF PRISM -Shiny Seven Stars-（星光王子 KING OF PRISM -Shiny Seven Stars-）", exact: true }).click();
+    await expect(nativePage).toHaveURL(new RegExp(`/anime/${slug}/$`));
+    await nativePage.locator(".theme-navigation summary").focus();
+    await nativePage.keyboard.press("Enter");
+    await nativePage.getByRole("navigation", { name: "本作品歌曲" }).locator(`a[href="#theme-${slug}-ed-11"]`).focus();
+    await nativePage.keyboard.press("Enter");
+    await expect(nativePage.locator(`#theme-${slug}-ed-11`)).toBeFocused();
+    await expect(nativePage.locator(`#theme-${slug}-ed-11 time`)).toHaveCount(0);
+    await nativePage.locator(`#theme-${slug}-ed-11 details summary`).focus();
+    await nativePage.keyboard.press("Enter");
+    await expect(nativePage.locator(`#theme-${slug}-ed-11 a[href="https://kinpri.com/sss/sp/discography/detail.php?id=1016540"]`)).toBeVisible();
+    await expect(nativePage.locator("iframe")).toHaveCount(0);
+    expect(await nativePage.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  } finally {
+    await context.close();
+  }
+});
+
 test("Hangyaku second season preserves original song versions, missing credits and responsive source navigation", async ({ page, browser, request }) => {
   test.setTimeout(60_000);
   const slug = "hangyakusei-million-arthur-2-2019";
@@ -1735,7 +1819,7 @@ test("Hangyaku second season preserves original song versions, missing credits a
   try {
     const nativePage = await context.newPage();
     await nativePage.goto(`${e2eOrigin}/catalog/2019/`, { waitUntil: "domcontentloaded" });
-    await nativePage.getByRole("link", { name: /春季動畫.*35 套動畫/ }).click();
+    await nativePage.getByRole("link", { name: /春季動畫.*36 套動畫/ }).click();
     await nativePage.getByRole("link", { name: /叛逆性ミリオンアーサー 第2シーズン/ }).first().click();
     await expect(nativePage.locator(".theme-card")).toHaveCount(2);
     await expect(nativePage.locator(`#theme-${slug}-ed-1 a[href="https://catalog.bandainamcomusiclive.co.jp/release/68378/"]`)).toBeVisible();
@@ -1804,7 +1888,7 @@ test("CLIMAX SEASON search preserves monthly ensemble endings, individual singer
   try {
     const nativePage = await context.newPage();
     await nativePage.goto(`${e2eOrigin}/catalog/2019/`, { waitUntil: "domcontentloaded" });
-    await nativePage.getByRole("link", { name: /春季動畫.*35 套動畫/ }).click();
+    await nativePage.getByRole("link", { name: /春季動畫.*36 套動畫/ }).click();
     await nativePage.getByRole("link", { name: /アイドルマスター シンデレラガールズ劇場 CLIMAX SEASON/ }).first().click();
     await expect(nativePage.locator(".theme-card")).toHaveCount(3);
     await nativePage.locator(`#theme-${slug}-ed-3 details summary`).focus();
@@ -1873,7 +1957,7 @@ test("Yo-kai Watch search separates the 2019 series and keeps shared writers and
   try {
     const nativePage = await context.newPage();
     await nativePage.goto(`${e2eOrigin}/catalog/2019/`);
-    await nativePage.getByRole("link", { name: /春季動畫.*35 套動畫/ }).click();
+    await nativePage.getByRole("link", { name: /春季動畫.*36 套動畫/ }).click();
     await nativePage.getByRole("link", { name: /妖怪ウォッチ！/ }).first().click();
     const sources = nativePage.locator(`#theme-${slug}-ed-1 details`);
     await sources.locator("summary").focus();
@@ -1930,7 +2014,7 @@ test("Bakugan Japanese theme search preserves shared credits and separates the l
   try {
     const nativePage = await context.newPage();
     await nativePage.goto(`${e2eOrigin}/catalog/2019/`);
-    await nativePage.getByRole("link", { name: /春季動畫.*35 套動畫/ }).click();
+    await nativePage.getByRole("link", { name: /春季動畫.*36 套動畫/ }).click();
     await nativePage.getByRole("link", { name: /爆丸バトルプラネット/ }).first().click();
     await expect(nativePage).toHaveURL(new RegExp(`/anime/${slug}/$`));
     await expect(nativePage.locator(".theme-card")).toHaveCount(3);
@@ -2071,7 +2155,7 @@ test("501 Takeoff creator search reaches the correct solo ending and keeps the g
   try {
     const nativePage = await context.newPage();
     await nativePage.goto(`${e2eOrigin}/catalog/2019/`);
-    await nativePage.getByRole("link", { name: /春季動畫.*35 套動畫/ }).click();
+    await nativePage.getByRole("link", { name: /春季動畫.*36 套動畫/ }).click();
     await nativePage.getByRole("link", { name: /ストライクウィッチーズ 501部隊発進しますっ/ }).first().click();
     await expect(nativePage).toHaveURL(new RegExp(`/anime/${slug}/$`));
     await expect(nativePage.locator(".theme-card")).toHaveCount(13);
@@ -2133,7 +2217,7 @@ test("Gonjiro search preserves independent identity, co-composers and the licens
   const context = await browser.newContext({ javaScriptEnabled: false, viewport: { width: 390, height: 844 } });
   const nativePage = await context.newPage();
   await nativePage.goto(`${e2eOrigin}/catalog/2019/`);
-  await nativePage.getByRole("link", { name: /春季動畫.*35 套動畫/ }).click();
+  await nativePage.getByRole("link", { name: /春季動畫.*36 套動畫/ }).click();
   await nativePage.getByRole("link", { name: /けだまのゴンじろー/ }).first().click();
   await expect(nativePage).toHaveURL(/\/anime\/gonjiro-2019\/$/);
   await expect(nativePage.locator(".theme-card")).toHaveCount(2);
@@ -2443,7 +2527,7 @@ test("weekday navigation follows populated groups and remains useful after filte
     await expect(navigation.getByRole("link", { name: "週六" })).toHaveAttribute("aria-current", "location");
     await page.getByRole("button", { name: "清除篩選" }).click();
     await expect(navigation.getByRole("link")).toHaveText(["週一", "週二", "週三", "週四", "週五", "週六", "週日"]);
-    await expect(page.locator("[data-result-count]")).toHaveText("35");
+    await expect(page.locator("[data-result-count]")).toHaveText("36");
     await expect(page.getByRole("checkbox", { name: "有 OP" })).toBeFocused();
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   }
@@ -2466,7 +2550,7 @@ test("weekday navigation follows populated groups and remains useful after filte
   await expect(nativePage.getByRole("navigation", { name: "跳到播出星期" }).getByRole("link"))
     .toHaveText(["週一", "週二", "週三", "週四", "週五", "週六", "週日"]);
   await expect(nativePage.locator("[data-weekday-section]")).toHaveCount(7);
-  await expect(nativePage.locator("[data-anime-card]")).toHaveCount(35);
+  await expect(nativePage.locator("[data-anime-card]")).toHaveCount(36);
   await nativePage.getByRole("link", { name: "週五", exact: true }).click();
   await expect(nativePage).toHaveURL(/#weekday-5$/);
   expect(await nativePage.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);

@@ -2,6 +2,12 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## v1.52.0 — 2019 春季《星光王子》TV 歌曲
+
+- 收錄《KING OF PRISM -Shiny Seven Stars-》TV 正篇、OP〈Shiny Seven Stars!〉及十一首 TRF 翻唱 ED，保留七人合唱與角色歌唱者。
+- 分清介紹特別節目、TV 正篇與劇場編輯版；〈JOY〉保留小林竜之的歌唱署名，角色插曲不作 ED。未核對製作署名及〈BOY MEETS GIRL〉有衝突的發行日期維持空白，CD 廣告只作來源證據。
+- 春季共 36 套作品、113 筆 OP／ED；本季與夏季仍在補充，2025 秋季尚未收錄。
+
 ## v1.51.0 — 2019 春季《叛逆性百萬亞瑟王 第二季》
 
 - 收錄第二季 TV 版的 OP〈OPEN THE WORLDS〉及 ED〈PEARLY×PARTY〉，保留原演唱組合、CD 日期及 OP 的先行配信日期。

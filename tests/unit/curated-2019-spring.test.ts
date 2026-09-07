@@ -10,6 +10,76 @@ const spring = curatedSeasonDetails.find(({ id }) => id === "2019-spring")!;
 const anime = (id: number) => curatedAnimeDetails.find((item) => item.id === `curated-${id}`)!;
 
 describe("2019 spring reviewed TV catalogue", () => {
+  it("identifies KING OF PRISM's TV premiere separately from the introductory program and theatrical chapters", async () => {
+    const seed = curated2019SpringSeeds.find(({ id }) => id === "catalog-king-of-prism-sss-2019")!;
+    expect(seed).toBeDefined();
+    expect(seed).toMatchObject({ startDate: "2019-04-15", editorialWeekday: 1, broadcastTimeJst: "25:35", seasonIds: ["2019-spring"] });
+    const detail = curatedAnimeDetails.find(({ id }) => id === seed.id)!;
+    expect(detail).toMatchObject({ slug: "king-of-prism-sss-2019", titleJa: "KING OF PRISM -Shiny Seven Stars-", titleZhHant: "星光王子 KING OF PRISM -Shiny Seven Stars-", status: "finished" });
+    for (const omitted of ["anilistId", "anilistUrl", "titleRomaji", "posterUrl", "bannerUrl"]) {
+      expect(seed).not.toHaveProperty(omitted);
+      expect(detail).not.toHaveProperty(omitted);
+    }
+    expect(detail.sources).toContainEqual(expect.objectContaining({ url: "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201904/25383_201904152535.html", role: "identifier", language: "ja" }));
+    expect(detail.sources).toContainEqual(expect.objectContaining({ url: "https://www.linetv.tw/drama/18245/eps/7", role: "first_party", language: "zh-Hant" }));
+    const provider = new ApiProvider("https://anisonary.k-y.cc/api/v1", {
+      fetch: vi.fn<typeof fetch>().mockResolvedValue(new Response(JSON.stringify(detail), { headers: { "Content-Type": "application/json" } }))
+    });
+    expect(await provider.getAnime(detail.slug)).toEqual(detail);
+  });
+
+  it("retains KING OF PRISM's eleven TV cover endings and the reviewed singing voices without importing insert songs", () => {
+    const detail = curatedAnimeDetails.find(({ id }) => id === "catalog-king-of-prism-sss-2019")!;
+    expect(detail).toBeDefined();
+    const themes = detail.themes;
+    expect(themes.map(({ type, titleJa }) => [type, titleJa])).toEqual([
+      ["OP", "Shiny Seven Stars!"], ["ED", "寒い夜だから・・・"], ["ED", "masquerade"],
+      ["ED", "Unite! The Night!"], ["ED", "JOY"], ["ED", "LEGEND OF WIND"],
+      ["ED", "Love & Peace Forever"], ["ED", "Overnight Sensation ～時代はあなたに委ねてる～"],
+      ["ED", "Silver and Gold dance"], ["ED", "愛がもう少し欲しいよ"], ["ED", "BRAND NEW TOMORROW"], ["ED", "BOY MEETS GIRL"]
+    ]);
+    expect(themes[4]).toMatchObject({ artistDisplayName: "高田馬場ジョージGS（CV：小林竜之）", credits: [{ name: "小林竜之", role: "vocals" }] });
+    expect(themes[0]?.credits.map(({ name }) => name)).toEqual(["寺島惇太", "斉藤壮馬", "畠中祐", "八代拓", "五十嵐雅", "永塚拓馬", "内田雄馬"]);
+    expect(themes[11]?.credits).toEqual(themes[0]?.credits);
+    expect(themes.every(({ credits }) => credits.every(({ role }) => role === "vocals"))).toBe(true);
+    expect(themes.some(({ titleJa }) => /366LOVE|虹色CROWN|survival dAnce|ナナイロノチカイ|プラトニックソード|JOKER KISS/.test(titleJa))).toBe(false);
+    expect(themes.map(({ releaseDate }) => releaseDate)).toEqual([
+      "2019-04-24", "2019-06-26", "2019-06-26", "2019-07-10", "2019-07-10", "2019-07-10",
+      "2019-07-24", "2019-07-24", "2019-07-24", "2019-08-07", "2019-08-07", undefined
+    ]);
+    expect(themes[11]?.versionLabel).toContain("發行日期與製作署名待核對");
+  });
+
+  it("uses KING OF PRISM's publisher CM descriptions only as purpose evidence and withholds conflicting dates and playback media", () => {
+    const detail = curatedAnimeDetails.find(({ id }) => id === "catalog-king-of-prism-sss-2019")!;
+    expect(detail).toBeDefined();
+    for (const theme of detail.themes) {
+      expect(theme.lastVerifiedAt).toBe("2026-09-08");
+      expect(theme.sources.every(({ verifiedAt }) => verifiedAt === "2026-09-08")).toBe(true);
+      expect(theme.sources).toContainEqual(expect.objectContaining({ url: "https://anison.online/anime/4114", role: "cross_check", language: "ja" }));
+      expect(theme.sources.some(({ url, role }) => url.startsWith("https://kinpri.com/sss/sp/discography/detail.php?id=") && role === "first_party")).toBe(true);
+      expect(theme.videos).toEqual([]);
+    }
+    expect(detail.themes[1]?.sources).toContainEqual(expect.objectContaining({ url: "https://www.youtube.com/watch?v=420RJfS0G7Y", role: "first_party" }));
+    expect(detail.themes[11]?.sources).toContainEqual(expect.objectContaining({ url: "https://www.youtube.com/watch?v=lCI1f13Vvw4", role: "first_party" }));
+    expect(JSON.parse(JSON.stringify(detail.themes[11]))).not.toHaveProperty("releaseDate");
+  });
+
+  it("finds KING OF PRISM's individual singers and ensemble songs without treating the speaking actor or original TRF as the cover singer", async () => {
+    const index = buildCatalogSearchIndex((await loadCatalogSearchData(new CuratedProvider(), true)).entries);
+    const filters = { year: "2019", quarter: "spring", type: "all" } as const;
+    const slug = "king-of-prism-sss-2019";
+    const title = searchCatalog(index, { ...filters, query: "星光王子", scope: "anime" });
+    expect(title.map(({ anime: item }) => item.slug)).toEqual([slug]);
+    for (const [query, type, expected] of [
+      ["小林竜之", "ED", ["JOY"]], ["杉田智和", "ED", []], ["TRF", "ED", []],
+      ["寺島惇太", "OP", ["Shiny Seven Stars!"]], ["寺島惇太", "ED", ["BRAND NEW TOMORROW", "BOY MEETS GIRL"]]
+    ] as const) {
+      const result = searchCatalog(index, { ...filters, query, type, scope: "creators" }).find(({ anime: item }) => item.slug === slug);
+      expect(result?.themes.map(({ titleJa }) => titleJa) ?? []).toEqual(expected);
+    }
+  });
+
   it("identifies Hangyaku's second TV season without importing the first season or unaired special", async () => {
     const seed = curated2019SpringSeeds.find(({ id }) => id === "catalog-hangyakusei-million-arthur-2-2019")!;
     expect(seed).toMatchObject({ startDate: "2019-04-04", editorialWeekday: 4, broadcastTimeJst: "22:00", seasonIds: ["2019-spring"] });
@@ -883,9 +953,9 @@ describe("2019 spring reviewed TV catalogue", () => {
   });
 
   it("publishes a partial quarter with reviewed identity and song evidence, without unverified artwork", () => {
-    expect(spring.anime).toHaveLength(35);
+    expect(spring.anime).toHaveLength(36);
     expect(spring.coverageNote).toContain("跨季延續及特殊歌曲版本仍待核對");
-    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(101);
+    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(113);
     expect(curatedSeasonDetails.some(({ id }) => id === "2025-fall")).toBe(false);
     for (const seed of curated2019SpringSeeds) {
       expect(seed.seasonIds).toEqual(["2019-spring"]);

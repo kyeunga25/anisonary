@@ -3,6 +3,18 @@ import { getCuratedAnimeKey, getCuratedThemeKey } from "@/data/curated-seeds/ide
 import type { CuratedThemeSourceOverrideMap, CuratedThemeSourceSeed } from "@/data/curated-theme-sources/types";
 
 const firstPartyUrlsByTheme: Readonly<Record<string, readonly string[]>> = {
+  "catalog-king-of-prism-sss-2019:OP:1": ["https://kinpri.com/sss/sp/discography/detail.php?id=1016430", "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201904/25383_201904152535.html"],
+  "catalog-king-of-prism-sss-2019:ED:1": ["https://kinpri.com/sss/sp/discography/detail.php?id=1016530", "https://www.youtube.com/watch?v=420RJfS0G7Y"],
+  "catalog-king-of-prism-sss-2019:ED:2": ["https://kinpri.com/sss/sp/discography/detail.php?id=1016531", "https://www.youtube.com/watch?v=420RJfS0G7Y"],
+  "catalog-king-of-prism-sss-2019:ED:3": ["https://kinpri.com/sss/sp/discography/detail.php?id=1016532", "https://www.youtube.com/watch?v=lmIgYf6WehM"],
+  "catalog-king-of-prism-sss-2019:ED:4": ["https://kinpri.com/sss/sp/discography/detail.php?id=1016533", "https://www.youtube.com/watch?v=lmIgYf6WehM"],
+  "catalog-king-of-prism-sss-2019:ED:5": ["https://kinpri.com/sss/sp/discography/detail.php?id=1016534", "https://www.youtube.com/watch?v=lmIgYf6WehM"],
+  "catalog-king-of-prism-sss-2019:ED:6": ["https://kinpri.com/sss/sp/discography/detail.php?id=1016535", "https://www.youtube.com/watch?v=lp494sLN5Aw"],
+  "catalog-king-of-prism-sss-2019:ED:7": ["https://kinpri.com/sss/sp/discography/detail.php?id=1016536", "https://www.youtube.com/watch?v=lp494sLN5Aw"],
+  "catalog-king-of-prism-sss-2019:ED:8": ["https://kinpri.com/sss/sp/discography/detail.php?id=1016537", "https://www.youtube.com/watch?v=lp494sLN5Aw"],
+  "catalog-king-of-prism-sss-2019:ED:9": ["https://kinpri.com/sss/sp/discography/detail.php?id=1016538", "https://www.youtube.com/watch?v=lCI1f13Vvw4"],
+  "catalog-king-of-prism-sss-2019:ED:10": ["https://kinpri.com/sss/sp/discography/detail.php?id=1016539", "https://www.youtube.com/watch?v=lCI1f13Vvw4"],
+  "catalog-king-of-prism-sss-2019:ED:11": ["https://kinpri.com/sss/sp/discography/detail.php?id=1016540", "https://www.youtube.com/watch?v=lCI1f13Vvw4"],
   "catalog-hangyakusei-million-arthur-2-2019:OP:1": [
     "https://www.orsm.jp/discography/open-the-worlds/",
     "https://www.orsm.jp/%E3%80%8Copen-the-worlds%E3%80%8D%E5%85%88%E8%A1%8C%E9%85%8D%E4%BF%A1%E6%B1%BA%E5%AE%9A/",
@@ -281,6 +293,23 @@ const firstPartyUrlsByTheme: Readonly<Record<string, readonly string[]>> = {
 };
 
 const sourceLabelsByUrl: Readonly<Record<string, string>> = {
+  "https://kinpri.com/sss/sp/discography/detail.php?id=1016430": "動畫官方商品頁：OP 七人演唱名義與 CD 日期",
+  "https://kinpri.com/sss/sp/discography/detail.php?id=1016530": "動畫官方商品頁：寒い夜だから・・・ 的演唱者與 CD 日期",
+  "https://kinpri.com/sss/sp/discography/detail.php?id=1016531": "動畫官方商品頁：masquerade 的演唱者與 CD 日期",
+  "https://kinpri.com/sss/sp/discography/detail.php?id=1016532": "動畫官方商品頁：Unite! The Night! 的演唱者與 CD 日期",
+  "https://kinpri.com/sss/sp/discography/detail.php?id=1016533": "動畫官方商品頁：JOY 的演唱者與 CD 日期",
+  "https://kinpri.com/sss/sp/discography/detail.php?id=1016534": "動畫官方商品頁：LEGEND OF WIND 的演唱者與 CD 日期",
+  "https://kinpri.com/sss/sp/discography/detail.php?id=1016535": "動畫官方商品頁：Love & Peace Forever 的演唱者與 CD 日期",
+  "https://kinpri.com/sss/sp/discography/detail.php?id=1016536": "動畫官方商品頁：Overnight Sensation ～時代はあなたに委ねてる～ 的演唱者與 CD 日期",
+  "https://kinpri.com/sss/sp/discography/detail.php?id=1016537": "動畫官方商品頁：Silver and Gold dance 的演唱者與 CD 日期",
+  "https://kinpri.com/sss/sp/discography/detail.php?id=1016538": "動畫官方商品頁：愛がもう少し欲しいよ 的演唱者與 CD 日期",
+  "https://kinpri.com/sss/sp/discography/detail.php?id=1016539": "動畫官方商品頁：BRAND NEW TOMORROW 的演唱者與 CD 日期",
+  "https://kinpri.com/sss/sp/discography/detail.php?id=1016540": "動畫官方商品頁：BOY MEETS GIRL 七人演唱版（發行日期另待核對）",
+  "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201904/25383_201904152535.html": "東京電視台：TV 正篇 OP 用途及七人演唱名義",
+  "https://www.youtube.com/watch?v=420RJfS0G7Y": "作品官方第 1 批 CD 廣告說明：兩首 TV 輪替 ED 用途",
+  "https://www.youtube.com/watch?v=lmIgYf6WehM": "作品官方第 2 批 CD 廣告說明：三首 TV 輪替 ED 用途",
+  "https://www.youtube.com/watch?v=lp494sLN5Aw": "作品官方第 3 批 CD 廣告說明：三首 TV 輪替 ED 用途",
+  "https://www.youtube.com/watch?v=lCI1f13Vvw4": "作品官方第 4 批 CD 廣告說明：三首 TV 輪替 ED 用途",
   "https://www.orsm.jp/discography/open-the-worlds/": "ORESAMA 官方：第二季 OP、詞曲編曲署名與 CD 日期",
   "https://www.orsm.jp/%E3%80%8Copen-the-worlds%E3%80%8D%E5%85%88%E8%A1%8C%E9%85%8D%E4%BF%A1%E6%B1%BA%E5%AE%9A/": "ORESAMA 官方：mora 及其他平台先行配信日期",
   "https://www.youtube.com/watch?v=0UmEg8PDV3Y": "Lantis：第二季 OP 官方完整 MV、演唱者及製作署名",
@@ -418,6 +447,12 @@ const sourceLabelsByUrl: Readonly<Record<string, string>> = {
 };
 
 const crossCheckSourcesByAnime: Readonly<Record<string, CuratedThemeSourceSeed>> = {
+  "catalog-king-of-prism-sss-2019": {
+    label: "アニソン・オンライン：2019 春季 TV OP、十一首 ED 與演唱版本交叉核對",
+    url: "https://anison.online/anime/4114",
+    language: "ja",
+    role: "cross_check"
+  },
   "catalog-hangyakusei-million-arthur-2-2019": {
     label: "アニソン・オンライン：第二季 OP／ED 與演唱組合交叉核對",
     url: "https://anison.online/anime/1105",
