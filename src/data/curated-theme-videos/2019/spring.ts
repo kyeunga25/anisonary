@@ -1,6 +1,30 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2019SpringThemeVideos = {
+  "104578:OP:1": [{
+    youtubeVideoId: "czJHHta2vz8",
+    title: "憧憬と屍の道",
+    type: "official_audio",
+    channelName: "Linked Horizon - Topic",
+    officialStatus: "official",
+    embeddable: true
+  }],
+  "104578:ED:1": [{
+    youtubeVideoId: "6321GKongXw",
+    title: "cinema staff「Name of Love」MV（Short ver.）",
+    type: "other",
+    channelName: "cinemastaffchannel",
+    officialStatus: "official",
+    embeddable: true
+  }],
+  "104212:ED:1": [{
+    youtubeVideoId: "ZjOMpO535uU",
+    title: "大橋ちっぽけ「ルビー」Lyric Video（TVアニメ「なむあみだ仏っ！-蓮台 UTENA-」EDテーマ）",
+    type: "other",
+    channelName: "大橋ちっぽけ",
+    officialStatus: "official",
+    embeddable: true
+  }],
   "105334:OP:1": [{
     youtubeVideoId: "80oOmZSMlx0",
     title: "Beverly（ビバリー） / Again（TVアニメ「フルーツバスケット」OPテーマ）",

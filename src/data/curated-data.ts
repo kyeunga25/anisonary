@@ -4605,6 +4605,18 @@ const animeOfficialSourceOverrides: Record<number, { label: string; url: string 
 };
 
 const animeSourceOverrides: Record<number, AnimeSourceSeed[]> = {
+  104578: [{
+    label: "Pony Canyon 官方：第三季後半首播日與 NHK 深夜時段",
+    url: "https://news.ponycanyon.co.jp/2019/03/30969",
+    language: "ja",
+    role: "first_party"
+  }],
+  104212: [{
+    label: "DMM 官方公告：TV 首播日期、時段及作品資料",
+    url: "https://prtimes.jp/main/html/rd/p/000003316.000002581.html",
+    language: "ja",
+    role: "first_party"
+  }],
   105334: [{
     label: "東京電視台原始公告：2019 第一季首播日與深夜時段",
     url: "https://www.tv-tokyo.co.jp/anime/fruba/news/index_2.html",

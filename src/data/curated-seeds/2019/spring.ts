@@ -23,6 +23,169 @@ function spring2019Seed(row: Spring2019SeedInput): CuratedAnimeSeed {
 
 const curated2019SpringSeedRows: Spring2019SeedInput[] = [
   {
+    anilistId: 104578,
+    slug: "shingeki-no-kyojin-season-3-part-2",
+    startDate: "2019-04-28",
+    titleJa: "進撃の巨人 Season 3 Part.2",
+    titleZhHant: "進擊的巨人 第三季 第二季度",
+    titleRomaji: "Shingeki no Kyojin Season 3 Part 2",
+    officialSiteUrl: "https://shingeki.tv/season3/",
+    wikipediaUrl: "https://youranimes.tw/animes/570",
+    animeThemesUrl: "https://animethemes.moe/anime/shingeki_no_kyojin_season_3_part_2",
+    identifierSource: {
+      label: "AnimeThemes：作品識別交叉連結",
+      url: "https://api.animethemes.moe/anime/shingeki_no_kyojin_season_3_part_2?include=resources",
+      language: "en"
+    },
+    broadcastTimeJst: "24:10",
+    broadcastLabel: "NHK 綜合 每週日 24:10（日本時間；關西 24:45）",
+    themes: [
+      {
+        type: "OP",
+        sequence: 1,
+        titleJa: "憧憬と屍の道",
+        artistDisplayName: "Linked Horizon",
+        versionLabel: "第三季 Part.2；完整版單曲，TV Size 於 2019-04-29 先行配信",
+        releaseDate: "2019-06-19",
+        youtubeUrl: "https://www.youtube.com/watch?v=czJHHta2vz8",
+        credits: [
+          { name: "Revo", role: "lyrics" },
+          { name: "Revo", role: "composition" },
+          { name: "Revo", role: "arrangement" }
+        ]
+      },
+      {
+        type: "ED",
+        sequence: 1,
+        titleJa: "Name of Love",
+        artistDisplayName: "cinema staff",
+        versionLabel: "第三季 Part.2；完整版先行串流，同日推出 TV Size，CD 於 2019-05-29 發行",
+        releaseDate: "2019-04-29",
+        youtubeUrl: "https://www.youtube.com/watch?v=6321GKongXw",
+        credits: [
+          { name: "Sohei Mishima", role: "lyrics" },
+          { name: "Cinema Staff", role: "composition" },
+          { name: "Youichiro Nomura", role: "composition" }
+        ]
+      }
+    ]
+  },
+  {
+    anilistId: 104454,
+    slug: "isekai-quartet",
+    startDate: "2019-04-09",
+    titleJa: "異世界かるてっと",
+    titleZhHant: "異世界四重奏",
+    titleRomaji: "Isekai Quartet",
+    officialSiteUrl: "https://isekai-quartet.com/onair-s1.html",
+    wikipediaUrl: "https://youranimes.tw/animes/911",
+    animeThemesUrl: "https://animethemes.moe/anime/isekai_quartet",
+    identifierSource: {
+      label: "AnimeThemes：作品識別交叉連結",
+      url: "https://api.animethemes.moe/anime/isekai_quartet?include=resources",
+      language: "en"
+    },
+    broadcastTimeJst: "24:30",
+    broadcastLabel: "TOKYO MX 每週二 24:30（日本時間；AbemaTV 24:00 先行配信）",
+    themes: [
+      {
+        type: "OP",
+        sequence: 1,
+        titleJa: "異世界かるてっと",
+        artistDisplayName: "アインズ（CV：日野 聡）、カズマ（CV：福島 潤）、スバル（CV：小林裕介）、ターニャ（CV：悠木 碧）",
+        versionLabel: "第一季 OP；角色合唱版",
+        releaseDate: "2019-05-29",
+        credits: [
+          { name: "アインズ（CV：日野 聡）", role: "vocals" },
+          { name: "カズマ（CV：福島 潤）", role: "vocals" },
+          { name: "スバル（CV：小林裕介）", role: "vocals" },
+          { name: "ターニャ（CV：悠木 碧）", role: "vocals" },
+          { name: "大石 昌良", role: "lyrics" },
+          { name: "大石 昌良", role: "composition" },
+          { name: "大石 昌良", role: "arrangement" }
+        ]
+      },
+      {
+        type: "ED",
+        sequence: 1,
+        titleJa: "異世界ガールズ♡トーク",
+        artistDisplayName: "アルベド（CV：原 由実）、アクア（CV：雨宮 天）、エミリア（CV：高橋李依）、ターニャ（CV：悠木 碧）",
+        versionLabel: "第一季 ED；角色合唱版",
+        releaseDate: "2019-05-29",
+        credits: [
+          { name: "アルベド（CV：原 由実）", role: "vocals" },
+          { name: "アクア（CV：雨宮 天）", role: "vocals" },
+          { name: "エミリア（CV：高橋李依）", role: "vocals" },
+          { name: "ターニャ（CV：悠木 碧）", role: "vocals" },
+          { name: "Kagura.A", role: "lyrics" },
+          { name: "前山田健一", role: "composition" },
+          { name: "三好啓太", role: "arrangement" }
+        ]
+      },
+      {
+        type: "ED",
+        sequence: 2,
+        titleJa: "Hollow Veil",
+        artistDisplayName: "nonoc",
+        versionLabel: "第一季第 5 話特別片尾；收錄於 star*frost 單曲",
+        releaseDate: "2019-08-07",
+        credits: [
+          { name: "nonoc", role: "vocals" },
+          { name: "nonoc", role: "lyrics" },
+          { name: "安田史生", role: "lyrics" },
+          { name: "田口史也", role: "composition" },
+          { name: "越前谷直樹", role: "arrangement" }
+        ]
+      }
+    ]
+  },
+  {
+    anilistId: 104212,
+    slug: "namu-amida-butsu-rendai-utena",
+    startDate: "2019-04-08",
+    titleJa: "なむあみだ仏っ！-蓮台 UTENA-",
+    titleZhHant: "南無阿彌陀佛!-蓮台 UTENA-",
+    titleRomaji: "Namu Amida Butsu!: Rendai Utena",
+    wikipediaUrl: "https://youranimes.tw/animes/2295",
+    animeThemesUrl: "https://animethemes.moe/anime/namu_amida_butsu_rendai_utena",
+    identifierSource: {
+      label: "AnimeThemes：作品識別交叉連結",
+      url: "https://api.animethemes.moe/anime/namu_amida_butsu_rendai_utena?include=resources",
+      language: "en"
+    },
+    broadcastTimeJst: "20:00",
+    broadcastLabel: "AT-X 每週一 20:00（日本時間）",
+    themes: [
+      {
+        type: "OP",
+        sequence: 1,
+        titleJa: "天唄",
+        artistDisplayName: "帝釈天（CV：水中雅章）",
+        credits: [
+          { name: "帝釈天（CV：水中雅章）", role: "vocals" },
+          { name: "深川琴美", role: "lyrics" },
+          { name: "三好啓太", role: "composition" },
+          { name: "三好啓太", role: "arrangement" }
+        ]
+      },
+      {
+        type: "ED",
+        sequence: 1,
+        titleJa: "ルビー",
+        artistDisplayName: "大橋ちっぽけ",
+        versionLabel: "動畫 ED；數位先行配信，專輯於 2019-03-13 發行",
+        releaseDate: "2019-01-15",
+        youtubeUrl: "https://www.youtube.com/watch?v=ZjOMpO535uU",
+        credits: [
+          { name: "大橋ちっぽけ", role: "vocals" },
+          { name: "大橋ちっぽけ", role: "lyrics" },
+          { name: "大橋ちっぽけ", role: "composition" },
+          { name: "akkin", role: "arrangement" }
+        ]
+      }
+    ]
+  },
+  {
     anilistId: 105334,
     slug: "fruits-basket-2019",
     startDate: "2019-04-05",

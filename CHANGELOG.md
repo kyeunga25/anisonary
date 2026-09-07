@@ -2,6 +2,16 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.38.0] - 2026-09-07
+
+### Added
+
+- add three reviewed spring 2019 TV titles, including Isekai Quartet's television short, with seven OP／ED records and three official video metadata entries;
+- retain Isekai Quartet's different character ensembles and independently sourced fifth-episode ending, Hollow Veil;
+- distinguish Attack on Titan Season 3 Part.2 from its first half, and preserve TV-size, early full streaming and CD dates;
+- retain Namu Amida Butsu's anime ending role, early digital release and lyric video, with unknown or conflicting fields left unfilled;
+- extend catalogue, API, source, search and responsive browser checks without adding artwork or changing existing API records.
+
 ## [1.37.1] - 2026-09-07
 
 ### Fixed

@@ -2,6 +2,25 @@ import { curated2019SpringSeeds } from "@/data/curated-seeds/2019/spring";
 import type { CuratedThemeSourceOverrideMap, CuratedThemeSourceSeed } from "@/data/curated-theme-sources/types";
 
 const firstPartyUrlsByTheme: Readonly<Record<string, readonly string[]>> = {
+  "104578:OP:1": [
+    "https://shingeki.tv/season3/music/op2.php",
+    "https://shingeki.linked-horizon.com/news/2019/04/18/2757.html",
+    "https://www.youtube.com/watch?v=czJHHta2vz8"
+  ],
+  "104578:ED:1": [
+    "https://shingeki.tv/season3/music/ed2.php",
+    "https://cinemastaff.net/news/5310/",
+    "https://news.ponycanyon.co.jp/2019/05/32228",
+    "https://www.youtube.com/watch?v=XV0R-5GxyyU"
+  ],
+  "104454:OP:1": ["https://isekai-quartet.com/music-s1.html"],
+  "104454:ED:1": ["https://isekai-quartet.com/music-s1.html"],
+  "104454:ED:2": ["https://astra-anime.com/products/music.html", "https://times.abema.tv/articles/-/7002453"],
+  "104212:OP:1": ["https://prtimes.jp/main/html/rd/p/000003265.000002581.html"],
+  "104212:ED:1": [
+    "https://prtimes.jp/main/html/rd/p/000003265.000002581.html",
+    "https://columbia.jp/artist-info/chippoke/discography/COKM-42187.html"
+  ],
   "105334:OP:1": [
     "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1016480&season=1",
     "https://avex.jp/beverly/discography/detail.php?id=1016478"
@@ -131,6 +150,18 @@ const firstPartyUrlsByTheme: Readonly<Record<string, readonly string[]>> = {
 };
 
 const sourceLabelsByUrl: Readonly<Record<string, string>> = {
+  "https://shingeki.tv/season3/music/op2.php": "動畫官方：第三季後半 OP 與完整版單曲日期",
+  "https://shingeki.linked-horizon.com/news/2019/04/18/2757.html": "Linked Horizon 官方：OP TV Size 先行配信日期",
+  "https://www.youtube.com/watch?v=czJHHta2vz8": "Pony Canyon 正式發行 metadata：OP 完整版及 Revo 製作署名",
+  "https://shingeki.tv/season3/music/ed2.php": "動畫官方：第三季後半 ED 與 CD 收錄資料",
+  "https://cinemastaff.net/news/5310/": "cinema staff 官方：ED 完整版先行串流與 TV Size 日期",
+  "https://news.ponycanyon.co.jp/2019/05/32228": "Pony Canyon 官方：ED 短版 MV 與 CD 發行日期",
+  "https://www.youtube.com/watch?v=XV0R-5GxyyU": "Pony Canyon 正式發行 metadata：ED 共同詞曲署名",
+  "https://isekai-quartet.com/music-s1.html": "動畫官方第一季存檔：OP／ED、角色合唱署名與單曲日期",
+  "https://astra-anime.com/products/music.html": "KADOKAWA 官方：Hollow Veil 第 5 話特別 ED、署名及單曲收錄",
+  "https://times.abema.tv/articles/-/7002453": "ABEMA 播出機構：第一季第 5 話特別 ED 用途",
+  "https://prtimes.jp/main/html/rd/p/000003265.000002581.html": "DMM 官方公告：OP／ED 用途、詞曲編曲署名與官方 lyric video",
+  "https://columbia.jp/artist-info/chippoke/discography/COKM-42187.html": "日本 Columbia 官方：ルビー 原始數位配信日期",
   "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1016480&season=1": "動畫官方：第一季前半 OP、演唱者與數位配信日",
   "https://avex.jp/beverly/discography/detail.php?id=1016478": "Beverly 官方：原版 OP、更正後配信日與官方影片",
   "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1016918&season=1": "動畫官方：第一季後半 OP、數位與 CD 日期及影片版本",
@@ -195,7 +226,7 @@ export const curated2019SpringThemeSources: CuratedThemeSourceOverrideMap = Obje
       ...urls.map((url): CuratedThemeSourceSeed => ({
         label: sourceLabelsByUrl[url] ?? "動畫官方：歌曲、發行日期與製作資料",
         url,
-        language: "ja",
+        language: ["https://www.youtube.com/watch?v=czJHHta2vz8", "https://www.youtube.com/watch?v=XV0R-5GxyyU"].includes(url) ? "en" : "ja",
         role: "first_party"
       })),
       ...(key === "101922:ED:2" ? [{
@@ -203,6 +234,12 @@ export const curated2019SpringThemeSources: CuratedThemeSourceOverrideMap = Obje
         url: "https://times.abema.tv/articles/-/8671435",
         language: "ja" as const,
         role: "first_party" as const
+      }] : []),
+      ...(key === "104578:ED:1" ? [{
+        label: "歌ネット：ED 用途與共同詞曲署名交叉核對",
+        url: "https://www.uta-net.com/song/268304/",
+        language: "ja" as const,
+        role: "cross_check" as const
       }] : []),
       {
         label: "AnimeThemes：OP／ED 次序與演唱版本交叉核對",

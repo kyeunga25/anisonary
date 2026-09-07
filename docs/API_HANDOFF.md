@@ -1,6 +1,6 @@
 # Anisonary Public Static API v1 Contract
 
-本文件定義同源靜態 JSON API v1。它由 repository-reviewed snapshot 在 Astro build-time 產生，公開 response 必須符合 `src/types/public-api.ts`，不得包含 crawler、private source adapter、internal confidence rules 或未公開候選資料。v1.37.0 將 2019 春季擴至 20 套 TV 作品與 48 筆 OP／ED，延續既有 endpoint、結構化歌曲來源與可選 `coverageNote`，沒有新增 runtime API。未核對繁中來源的作品不生成譯名來源項目；既有來源 ledger 與 API 欄位保持相容。v1.29.0 起，《拳願阿修羅 Part 2》的 Netflix 配信版為 OP1／ED1，2020 電視播出版為 OP2／ED2，官方影片隨歌曲版本對應；作品 URL 不變。
+本文件定義同源靜態 JSON API v1。它由 repository-reviewed snapshot 在 Astro build-time 產生，公開 response 必須符合 `src/types/public-api.ts`，不得包含 crawler、private source adapter、internal confidence rules 或未公開候選資料。v1.38.0 將 2019 春季擴至 23 套 TV 作品（含電視短篇）與 55 筆 OP／ED，延續既有 endpoint、結構化歌曲來源與可選 `coverageNote`，沒有新增 runtime API。未核對繁中來源的作品不生成譯名來源項目；既有來源 ledger 與 API 欄位保持相容。v1.29.0 起，《拳願阿修羅 Part 2》的 Netflix 配信版為 OP1／ED1，2020 電視播出版為 OP2／ED2，官方影片隨歌曲版本對應；作品 URL 不變。
 
 ## Build-time integration
 
@@ -64,7 +64,7 @@ TypeScript interface 是欄位層面的 source of truth；endpoint 改動前要�
 
 - 三個 endpoint 以 production-like fixture 通過；
 - success response 通過 nested contract、content-type、timeout、response-size、origin binding 及 URL safety 測試；
-- 二十九個季度、1,937 個唯一 card slug 及 4,277 筆歌曲來源 ledger 均可解析；
+- 二十九個季度、1,940 個唯一 card slug 及 4,284 筆歌曲來源 ledger 均可解析；
 - 任一季節／動畫 payload failure 會令 fail-closed build 失敗；
 - unknown season／slug 回傳 `404`；
 - production build 無 Mock Data notice；
