@@ -2,6 +2,15 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.31.1] - 2026-09-07
+
+### Fixed
+
+- show reviewed vocal credits when the credited performer differs from the release-artist label, including individual, character and synthesized-voice credits;
+- preserve exact-name deduplication and leave instrumental and unverified credits as documented;
+- keep cross-season content checks independent of remote poster load time while retaining content and image-fallback assertions;
+- retain all catalogue records, source dates, media metadata and public API responses unchanged.
+
 ## [1.31.0] - 2026-09-07
 
 ### Added

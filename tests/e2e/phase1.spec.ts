@@ -504,29 +504,31 @@ test("cross-season search stays local and matches anime, songs, and artists", as
 
 test("added seasonal pages render their reviewed theme records", async ({ page }) => {
   test.setTimeout(60_000);
+  // Catalogue assertions wait for content; remote poster latency must not gate navigation.
+  const visit = (path: string) => page.goto(path, { waitUntil: "domcontentloaded" });
 
-  await page.goto("/seasons/2026-winter/");
+  await visit("/seasons/2026-winter/");
   await expect(page.getByRole("heading", { name: "2026 冬季動畫" })).toBeVisible();
   await page.getByRole("link", { name: /查看 CHOPPER's/ }).click();
   await expect(page).toHaveURL(/\/anime\/choppers\/$/);
   await expect(page.getByRole("heading", { name: "トニートニートニーチョッパー" })).toBeVisible();
   await expect(page.getByText("ももすももす")).toBeVisible();
 
-  await page.goto("/seasons/2025-summer/");
+  await visit("/seasons/2025-summer/");
   await expect(page.getByRole("heading", { name: "2025 夏季動畫" })).toBeVisible();
   await page.getByRole("link", { name: /查看 銀河特急 ミルキー☆サブウェイ/ }).click();
   await expect(page).toHaveURL(/\/anime\/ginga-tokkyuu-milky-subway\/$/);
   await expect(page.getByRole("heading", { name: "Altair and Vega" })).toBeVisible();
   await expect(page.getByText("MindaRyn", { exact: true })).toBeVisible();
 
-  await page.goto("/seasons/2025-spring/");
+  await visit("/seasons/2025-spring/");
   await expect(page.getByRole("heading", { name: "2025 春季動畫" })).toBeVisible();
   await page.locator('a[href="/anime/oideyo-mahou-shoujo-mura-fuhou-senkyo/"]').first().click();
   await expect(page).toHaveURL(/\/anime\/oideyo-mahou-shoujo-mura-fuhou-senkyo\/$/);
   await expect(page.getByRole("heading", { name: "化け物集う村" })).toBeVisible();
   await expect(page.getByText("釧路（CV：小原莉子）", { exact: true })).toBeVisible();
 
-  await page.goto("/seasons/2025-winter/");
+  await visit("/seasons/2025-winter/");
   await expect(page.getByRole("heading", { name: "2025 冬季動畫" })).toBeVisible();
   await page.locator('a[href="/anime/mashin-souzouden-wataru/"]').first().click();
   await expect(page).toHaveURL(/\/anime\/mashin-souzouden-wataru\/$/);
@@ -537,7 +539,7 @@ test("added seasonal pages render their reviewed theme records", async ({ page }
   await expect(page.getByText("SANTA", { exact: true })).toBeVisible();
   await expect(page.getByText("FANTASTICS", { exact: true })).toBeVisible();
 
-  await page.goto("/seasons/2024-fall/");
+  await visit("/seasons/2024-fall/");
   await expect(page.getByRole("heading", { name: "2024 秋季動畫" })).toBeVisible();
   await page.locator('a[href="/anime/dandadan/"]').first().click();
   await expect(page).toHaveURL(/\/anime\/dandadan\/$/);
@@ -545,7 +547,7 @@ test("added seasonal pages render their reviewed theme records", async ({ page }
   await expect(page.getByRole("heading", { name: "TAIDADA", exact: true })).toBeVisible();
   await expect(page.locator(".theme-card__artist", { hasText: "Creepy Nuts" })).toBeVisible();
 
-  await page.goto("/seasons/2024-summer/");
+  await visit("/seasons/2024-summer/");
   await expect(page.getByRole("heading", { name: "2024 夏季動畫" })).toBeVisible();
   await page.locator('a[href="/anime/kami-no-tou-tower-of-god-2nd-season/"]').first().click();
   await expect(page).toHaveURL(/\/anime\/kami-no-tou-tower-of-god-2nd-season\/$/);
@@ -554,7 +556,7 @@ test("added seasonal pages render their reviewed theme records", async ({ page }
   await expect(page.getByRole("heading", { name: "BELIEVE", exact: true })).toBeVisible();
   await expect(page.getByRole("heading", { name: "Falling Up", exact: true })).toBeVisible();
 
-  await page.goto("/seasons/2024-spring/");
+  await visit("/seasons/2024-spring/");
   await expect(page.getByRole("heading", { name: "2024 春季動畫" })).toBeVisible();
   await page.locator('a[href="/anime/ookami-to-koushinryou-merchant-meets-the-wise-wolf/"]').first().click();
   await expect(page).toHaveURL(/\/anime\/ookami-to-koushinryou-merchant-meets-the-wise-wolf\/$/);
@@ -563,7 +565,7 @@ test("added seasonal pages render their reviewed theme records", async ({ page }
   await expect(page.getByRole("heading", { name: "Andante", exact: true })).toBeVisible();
   await expect(page.getByRole("heading", { name: "Ringo to Kimi", exact: true })).toBeVisible();
 
-  await page.goto("/seasons/2024-winter/");
+  await visit("/seasons/2024-winter/");
   await expect(page.getByRole("heading", { name: "2024 冬季動畫" })).toBeVisible();
   await page.locator('a[href="/anime/snack-basue/"]').first().click();
   await expect(page).toHaveURL(/\/anime\/snack-basue\/$/);
@@ -571,7 +573,7 @@ test("added seasonal pages render their reviewed theme records", async ({ page }
   await expect(page.getByRole("heading", { name: "Kassai", exact: true })).toBeVisible();
   await expect(page.getByRole("heading", { name: "Koi no Vacation", exact: true })).toBeVisible();
 
-  await page.goto("/seasons/2023-fall/");
+  await visit("/seasons/2023-fall/");
   await expect(page.getByRole("heading", { name: "2023 秋季動畫" })).toBeVisible();
   await page.locator('a[href="/anime/sousou-no-frieren/"]').first().click();
   await expect(page).toHaveURL(/\/anime\/sousou-no-frieren\/$/);
@@ -580,12 +582,12 @@ test("added seasonal pages render their reviewed theme records", async ({ page }
   await expect(page.getByRole("heading", { name: "Anytime Anywhere", exact: true })).toBeVisible();
   await expect(page.getByRole("heading", { name: "bliss", exact: true })).toBeVisible();
 
-  await page.goto("/anime/scott-pilgrim-takes-off/");
+  await visit("/anime/scott-pilgrim-takes-off/");
   await expect(page.getByRole("heading", { name: "bloom", exact: true })).toBeVisible();
   await expect(page.locator(".theme-card__artist", { hasText: "ネクライトーキー" })).toBeVisible();
   await expect(page.getByRole("button", { name: /載入 YouTube 影片.*bloom/ })).toBeVisible();
 
-  await page.goto("/seasons/2023-summer/");
+  await visit("/seasons/2023-summer/");
   await expect(page.getByRole("heading", { name: "2023 夏季動畫" })).toBeVisible();
   await page.getByRole("checkbox", { name: "有正版影片" }).check();
   await expect(page.locator("[data-result-count]")).toHaveText("4");
@@ -601,7 +603,7 @@ test("added seasonal pages render their reviewed theme records", async ({ page }
   await expect(page.getByText("其原有沙", { exact: true })).toBeVisible();
   await expect(page.getByRole("button", { name: /載入 YouTube 影片.*オ・ヒ・メ・サ・マ/ })).toBeVisible();
 
-  await page.goto("/seasons/2023-spring/");
+  await visit("/seasons/2023-spring/");
   await expect(page.getByRole("heading", { name: "2023 春季動畫" })).toBeVisible();
   await page.getByRole("checkbox", { name: "有正版影片" }).check();
   await expect(page.locator("[data-result-count]")).toHaveText("3");
@@ -614,7 +616,7 @@ test("added seasonal pages render their reviewed theme records", async ({ page }
   await expect(page.getByRole("button", { name: /載入 YouTube 影片.*Love is Show/ })).toBeVisible();
   await expect(page.getByRole("button", { name: /載入 YouTube 影片.*heart notes/ })).toBeVisible();
 
-  await page.goto("/seasons/2023-winter/");
+  await visit("/seasons/2023-winter/");
   await expect(page.getByRole("heading", { name: "2023 冬季動畫" })).toBeVisible();
   await page.getByRole("checkbox", { name: "有正版影片" }).check();
   await expect(page.locator("[data-result-count]")).toHaveText("5");
@@ -626,7 +628,7 @@ test("added seasonal pages render their reviewed theme records", async ({ page }
   await expect(page.getByRole("button", { name: /載入 YouTube 影片.*シュフノミチ/ })).toBeVisible();
   await expect(page.getByRole("button", { name: /載入 YouTube 影片.*極・夫婦街道/ })).toBeVisible();
 
-  await page.goto("/seasons/2022-fall/");
+  await visit("/seasons/2022-fall/");
   await expect(page.getByRole("heading", { name: "2022 秋季動畫" })).toBeVisible();
   await page.getByRole("checkbox", { name: "有正版影片" }).check();
   await expect(page.locator("[data-result-count]")).toHaveText("7");
@@ -637,7 +639,7 @@ test("added seasonal pages render their reviewed theme records", async ({ page }
   await expect(page.locator(".theme-card")).toHaveCount(13);
   await expect(page.getByRole("button", { name: /載入 YouTube 影片/ })).toHaveCount(13);
 
-  await page.goto("/seasons/2022-summer/");
+  await visit("/seasons/2022-summer/");
   await expect(page.getByRole("heading", { name: "2022 夏季動畫" })).toBeVisible();
   await page.getByRole("checkbox", { name: "有正版影片" }).check();
   await expect(page.locator("[data-result-count]")).toHaveText("13");
@@ -648,7 +650,7 @@ test("added seasonal pages render their reviewed theme records", async ({ page }
   await expect(page.getByText("GRAVITY", { exact: true })).toHaveCount(0);
   await expect(page.getByRole("button", { name: /載入 YouTube 影片/ })).toHaveCount(2);
 
-  await page.goto("/seasons/2022-spring/");
+  await visit("/seasons/2022-spring/");
   await expect(page.getByRole("heading", { name: "2022 春季動畫" })).toBeVisible();
   await page.getByRole("checkbox", { name: "有正版影片" }).check();
   await expect(page.locator("[data-result-count]")).toHaveText("12");
@@ -660,7 +662,7 @@ test("added seasonal pages render their reviewed theme records", async ({ page }
   await expect(page.getByText("星野源", { exact: true })).toBeVisible();
   await expect(page.getByRole("button", { name: /載入 YouTube 影片/ })).toHaveCount(2);
 
-  await page.goto("/seasons/2022-winter/");
+  await visit("/seasons/2022-winter/");
   await expect(page.getByRole("heading", { name: "2022 冬季動畫" })).toBeVisible();
   await page.getByRole("checkbox", { name: "有正版影片" }).check();
   await expect(page.locator("[data-result-count]")).toHaveText("13");
@@ -671,7 +673,7 @@ test("added seasonal pages render their reviewed theme records", async ({ page }
   await expect(page.locator(".theme-card")).toHaveCount(9);
   await expect(page.getByRole("button", { name: /載入 YouTube 影片/ })).toHaveCount(9);
 
-  await page.goto("/seasons/2021-fall/");
+  await visit("/seasons/2021-fall/");
   await expect(page.getByRole("heading", { name: "2021 秋季動畫" })).toBeVisible();
   await page.getByRole("checkbox", { name: "有正版影片" }).check();
   await expect(page.locator("[data-result-count]")).toHaveText("14");
@@ -683,7 +685,7 @@ test("added seasonal pages render their reviewed theme records", async ({ page }
   await expect(page.getByText("星の海のラウドネス", { exact: true })).toHaveCount(0);
   await expect(page.locator(".theme-card")).toHaveCount(3);
   await expect(page.getByRole("button", { name: /載入 YouTube 影片/ })).toHaveCount(2);
-  await page.goto("/seasons/2021-summer/");
+  await visit("/seasons/2021-summer/");
   await expect(page.getByRole("heading", { name: "2021 夏季動畫" })).toBeVisible();
   await page.getByRole("checkbox", { name: "有正版影片" }).check();
   await expect(page.locator("[data-result-count]")).toHaveText("32");
@@ -694,7 +696,7 @@ test("added seasonal pages render their reviewed theme records", async ({ page }
   await expect(page.getByText("未来予報ハレルヤ", { exact: true })).toHaveCount(0);
   await expect(page.getByText("Wish Song", { exact: true })).toHaveCount(0);
   await expect(page.getByRole("button", { name: /載入 YouTube 影片/ })).toHaveCount(2);
-  await page.goto("/seasons/2021-spring/");
+  await visit("/seasons/2021-spring/");
   await expect(page.getByRole("heading", { name: "2021 春季動畫" })).toBeVisible();
   await page.getByRole("checkbox", { name: "有正版影片" }).check();
   await expect(page.locator("[data-result-count]")).toHaveText("39");
@@ -703,7 +705,7 @@ test("added seasonal pages render their reviewed theme records", async ({ page }
   await expect(page.getByRole("heading", { name: "Sing My Pleasure", exact: true })).toBeVisible();
   await expect(page.locator(".theme-card")).toHaveCount(1);
   await expect(page.getByRole("button", { name: /載入 YouTube 影片/ })).toHaveCount(1);
-  await page.goto("/seasons/2021-winter/");
+  await visit("/seasons/2021-winter/");
   await expect(page.getByRole("heading", { name: "2021 冬季動畫" })).toBeVisible();
   await page.getByRole("checkbox", { name: "有正版影片" }).check();
   await expect(page.locator("[data-result-count]")).toHaveText("34");
@@ -713,7 +715,7 @@ test("added seasonal pages render their reviewed theme records", async ({ page }
   await expect(page.getByRole("heading", { name: "おしえて北斎！", exact: true })).toBeVisible();
   await expect(page.locator(".theme-card")).toHaveCount(2);
   await expect(page.getByRole("button", { name: /載入 YouTube 影片/ })).toHaveCount(1);
-  await page.goto("/seasons/2020-fall/");
+  await visit("/seasons/2020-fall/");
   await expect(page.getByRole("heading", { name: "2020 秋季動畫" })).toBeVisible();
   await page.getByRole("checkbox", { name: "有正版影片" }).check();
   await expect(page.locator("[data-result-count]")).toHaveText("31");
@@ -725,7 +727,7 @@ test("added seasonal pages render their reviewed theme records", async ({ page }
   await expect(page.getByRole("heading", { name: "give it back", exact: true })).toBeVisible();
   await expect(page.locator(".theme-card")).toHaveCount(4);
   await expect(page.getByRole("button", { name: /載入 YouTube 影片/ })).toHaveCount(4);
-  await page.goto("/seasons/2020-summer/");
+  await visit("/seasons/2020-summer/");
   await expect(page.getByRole("heading", { name: "2020 夏季動畫" })).toBeVisible();
   await page.getByRole("checkbox", { name: "有正版影片" }).check();
   await expect(page.locator("[data-result-count]")).toHaveText("25");
@@ -735,7 +737,7 @@ test("added seasonal pages render their reviewed theme records", async ({ page }
   await expect(page.getByRole("heading", { name: "プラネタリウム", exact: true })).toBeVisible();
   await expect(page.locator(".theme-card")).toHaveCount(5);
   await expect(page.getByRole("button", { name: /載入 YouTube 影片/ })).toHaveCount(5);
-  await page.goto("/seasons/2020-spring/");
+  await visit("/seasons/2020-spring/");
   await expect(
     page.getByRole("heading", { name: "2020 春季動畫" }),
   ).toBeVisible();
@@ -758,7 +760,7 @@ test("added seasonal pages render their reviewed theme records", async ({ page }
   await expect(
     page.getByRole("button", { name: /載入 YouTube 影片/ }),
   ).toHaveCount(2);
-  await page.goto("/seasons/2020-winter/");
+  await visit("/seasons/2020-winter/");
   await expect(
     page.getByRole("heading", { name: "2020 冬季動畫" }),
   ).toBeVisible();
@@ -776,7 +778,7 @@ test("added seasonal pages render their reviewed theme records", async ({ page }
   await expect(
     page.getByRole("button", { name: /載入 YouTube 影片/ }),
   ).toHaveCount(7);
-  await page.goto("/seasons/2019-fall/");
+  await visit("/seasons/2019-fall/");
   await expect(
     page.getByRole("heading", { name: "2019 秋季動畫" }),
   ).toBeVisible();
@@ -1081,6 +1083,39 @@ test("summer TV shorts preserve distinct search results, programme slots and unc
     await expect(page.locator("iframe")).toHaveCount(0);
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   }
+});
+
+test("song details retain reviewed vocal credits alongside release-artist labels", async ({ page }) => {
+  for (const width of [1280, 390]) {
+    await page.setViewportSize({ width, height: 844 });
+    await page.goto("/search/");
+    await page.getByLabel("年份", { exact: true }).selectOption("2019");
+    await page.getByLabel("季度", { exact: true }).selectOption("summer");
+    await page.getByLabel("搜尋範圍").selectOption("creators");
+    await page.getByRole("searchbox", { name: "搜尋動畫、歌曲或創作者" }).fill("矢野奨吾");
+    await page.getByRole("link", { name: "まるつけ", exact: true }).click();
+    await expect(page).toHaveURL(/\/anime\/given\/#theme-given-ed-2$/);
+    const given = page.locator("#theme-given-ed-2");
+    await expect(given).toBeInViewport({ ratio: 0.3 });
+    await expect(given.locator(".theme-card__artist")).toHaveText("ギヴン");
+    await expect(given.locator(".theme-card__credits div").filter({ hasText: "矢野奨吾" }).locator("dt")).toHaveText("演唱");
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+
+    await page.goto("/anime/hakata-mentai-pirikarako-chan/#theme-hakata-mentai-pirikarako-chan-ed-1");
+    const synthesized = page.locator("#theme-hakata-mentai-pirikarako-chan-ed-1");
+    await expect(synthesized.locator(".theme-card__artist")).toHaveText("mathru@かにみそP");
+    await expect(synthesized.locator(".theme-card__credits div").filter({ hasText: "鳴花ヒメ・ミコト" }).locator("dt")).toHaveText("演唱");
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  }
+
+  await page.goto("/anime/saint-seiya-knights-of-the-zodiac/");
+  await expect(page.locator("#theme-saint-seiya-knights-of-the-zodiac-op-1 .theme-card__credits dt").filter({ hasText: /^演唱$/ })).toHaveCount(0);
+  await page.goto("/anime/lord-el-melloi-ii-sei-no-jikenbo-rail-zeppelin-grace-note/");
+  const instrumental = page.locator(".theme-card").filter({ has: page.getByRole("heading", { name: "starting the case: Rail Zeppelin", exact: true }) });
+  await expect(instrumental.locator(".theme-card__credits dt")).toHaveText(["作曲", "編曲"]);
+  await page.goto("/anime/business-fish/");
+  await expect(page.locator("#theme-business-fish-ed-1 .theme-card__credits dt")).toHaveText("Credits");
+  await expect(page.locator("#theme-business-fish-ed-1 .theme-card__credits dd")).toHaveText("待確認");
 });
 
 test("unknown routes render the public 404 state and stay out of the index", async ({ page }) => {

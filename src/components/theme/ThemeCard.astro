@@ -6,7 +6,9 @@ import LazyYouTube from "@/components/youtube/LazyYouTube.astro";
 
 interface Props { theme: PublicTheme; }
 const { theme } = Astro.props;
-const credits = theme.credits.filter((credit) => credit.role !== "vocals");
+const credits = theme.credits.filter((credit) =>
+  credit.role !== "vocals" || credit.name !== theme.artistDisplayName
+);
 const lastVerifiedAt = theme.sources
   .map((source) => source.verifiedAt)
   .sort((left, right) => right.localeCompare(left))[0];
