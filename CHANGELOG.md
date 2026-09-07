@@ -2,6 +2,15 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.34.1] - 2026-09-07
+
+### Fixed
+
+- display each reviewed video title before its load button, making short previews and other editions identifiable before connecting to YouTube;
+- wrap long titles without truncation and retain them after the player loads or when embedding is unavailable;
+- keep the play icon clear of the connection-consent text in narrow phone and tablet players;
+- preserve existing consent controls, catalogue records, source dates and API payloads.
+
 ## [1.34.0] - 2026-09-07
 
 ### Added

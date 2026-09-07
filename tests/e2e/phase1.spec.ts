@@ -1230,6 +1230,48 @@ test("spring fantasy songs retain searchable vocalists, edition dates and consen
   await expect(page.locator("iframe")).toHaveAttribute("src", /youtube-nocookie\.com\/embed\/wZ3Fe1JeecE/);
 });
 
+test("official video titles identify the edition before consent and remain visible after loading", async ({ page }) => {
+  const mediaRequests: string[] = [];
+  page.on("request", (request) => {
+    if (/youtube|ytimg|googlevideo/.test(new URL(request.url()).hostname)) mediaRequests.push(request.url());
+  });
+  const longTitle = "TVアニメ『プリマドール』OPテーマ「Tin Toy Melody」Full ver.／シャノワール 灰桜（和氣あず未）、鴉羽（楠木ともり）、月下（富田美憂）、箒星（中島由貴）、レーツェル（鬼頭明里）";
+  for (const width of [320, 390, 768, 1280]) {
+    await page.setViewportSize({ width, height: 844 });
+    await page.goto("/anime/prima-doll/", { waitUntil: "domcontentloaded" });
+    const player = page.locator("[data-youtube-player]").filter({ has: page.locator('[data-embed-url*="Dx3nvcC54Hc"]') });
+    const title = player.locator(".youtube-media__title");
+    await expect(title).toHaveText(longTitle);
+    await title.scrollIntoViewIfNeeded();
+    await expect(title).toBeVisible();
+    expect(await title.evaluate((element) => element.scrollWidth <= element.clientWidth)).toBe(true);
+    expect((await title.boundingBox())!.y + (await title.boundingBox())!.height)
+      .toBeLessThanOrEqual((await player.locator("[data-youtube-frame]").boundingBox())!.y);
+    const playIcon = (await player.locator(".youtube-media__play").boundingBox())!;
+    const consent = (await player.locator(".youtube-media__consent").boundingBox())!;
+    expect(playIcon.y + playIcon.height + 4).toBeLessThanOrEqual(consent.y);
+    await expect(page.locator("iframe")).toHaveCount(0);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  }
+  expect(mediaRequests).toEqual([]);
+
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto("/anime/gunjou-no-magmel/", { waitUntil: "domcontentloaded" });
+  const opening = page.locator("#theme-gunjou-no-magmel-op-1 [data-youtube-player]");
+  await expect(opening.locator(".youtube-media__title")).toHaveText("風男塾 (Fudanjuku) / Dash&Daaash!!（Short Ver.）");
+  await page.goto("/anime/shoumetsu-toshi/", { waitUntil: "domcontentloaded" });
+  const ending = page.locator("#theme-shoumetsu-toshi-ed-2 [data-youtube-player]");
+  const title = ending.locator(".youtube-media__title");
+  await expect(title).toContainText("Music Video(2chorus)");
+  expect(mediaRequests).toEqual([]);
+  await page.route("https://www.youtube-nocookie.com/**", (route) => route.fulfill({ contentType: "text/html", body: "<!doctype html><title>Official player fixture</title>" }));
+  await ending.getByRole("button", { name: /載入 YouTube 影片/ }).focus();
+  await page.keyboard.press("Enter");
+  await expect(ending.locator("iframe")).toHaveAttribute("src", /youtube-nocookie\.com\/embed\/wZ3Fe1JeecE/);
+  await expect(title).toContainText("Music Video(2chorus)");
+  await expect(title).toBeVisible();
+});
+
 test("weekday navigation follows populated groups and remains useful after filters and without JavaScript", async ({ page, browser }) => {
   for (const width of [1280, 390]) {
     await page.setViewportSize({ width, height: 844 });

@@ -10,6 +10,7 @@ const canEmbed = video.embeddable && embedUrl;
 ---
 
 <div class:list={["youtube-media", { "youtube-media--fallback": !canEmbed }]} data-youtube-player>
+  <p class="youtube-media__title">{video.title}</p>
   {canEmbed ? (
     <div class="youtube-media__layout">
       <div class="youtube-media__frame" data-youtube-frame aria-busy="false">
@@ -85,6 +86,7 @@ const canEmbed = video.embeddable && embedUrl;
 
 <style>
   .youtube-media { padding: 1.3rem; }
+  .youtube-media__title { font-size: 0.95rem; font-weight: 720; line-height: 1.55; margin: 0 0 1rem; overflow-wrap: anywhere; }
   .youtube-media__layout { align-items: center; display: grid; gap: clamp(1.3rem, 4vw, 3rem); grid-template-columns: minmax(18rem, 1.05fr) minmax(15rem, 1.55fr); }
   .youtube-media__frame { aspect-ratio: 16 / 9; background: var(--color-ink); border-radius: var(--radius-control); overflow: hidden; }
   .youtube-media__frame :global(iframe) { border: 0; height: 100%; width: 100%; }
@@ -93,7 +95,7 @@ const canEmbed = video.embeddable && embedUrl;
   .youtube-media__privacy-art { display: grid; inset: 0; opacity: 0.42; place-items: center; position: absolute; transition: opacity 160ms ease, transform 220ms ease; }
   .youtube-media__privacy-art svg { fill: none; height: min(58%, 9rem); stroke: rgba(255, 255, 255, 0.8); stroke-linecap: round; stroke-width: 1.5; width: min(58%, 9rem); }
   .youtube-media__load:hover .youtube-media__privacy-art { opacity: 0.62; transform: scale(1.025); }
-  .youtube-media__play { align-items: center; background: color-mix(in srgb, var(--color-ink) 82%, transparent); border: 2px solid #fff; border-radius: 50%; display: flex; height: 4.5rem; inset: 50% auto auto 50%; justify-content: center; position: absolute; transform: translate(-50%, -50%); width: 4.5rem; z-index: 1; }
+  .youtube-media__play { align-items: center; aspect-ratio: 1; background: color-mix(in srgb, var(--color-ink) 82%, transparent); border: 2px solid #fff; border-radius: 50%; display: flex; height: auto; inset: 45% auto auto 50%; justify-content: center; position: absolute; transform: translate(-50%, -50%); width: clamp(3rem, 20%, 4.5rem); z-index: 1; }
   .youtube-media__play svg { fill: #fff; height: 2.2rem; stroke: none; width: 2.2rem; }
   .youtube-media__consent { bottom: 1rem; font-size: 0.74rem; font-weight: 680; left: 1rem; position: absolute; right: 1rem; text-align: center; z-index: 1; }
   .youtube-media__details dl { display: grid; gap: 0.75rem; margin: 0 0 1.5rem; }
