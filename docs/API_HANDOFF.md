@@ -1,6 +1,6 @@
 # Anisonary Public Static API v1 Contract
 
-本文件定義同源靜態 JSON API v1。它由 repository-reviewed snapshot 在 Astro build-time 產生，公開 response 必須符合 `src/types/public-api.ts`，不得包含 crawler、private source adapter、internal confidence rules 或未公開候選資料。v1.27.0 的目錄與搜尋重組延續既有 endpoint、JSON 內容及結構化歌曲來源，沒有新增 runtime API。
+本文件定義同源靜態 JSON API v1。它由 repository-reviewed snapshot 在 Astro build-time 產生，公開 response 必須符合 `src/types/public-api.ts`，不得包含 crawler、private source adapter、internal confidence rules 或未公開候選資料。v1.28.0 新增 2019 夏季資料，延續既有 endpoint 與結構化歌曲來源；季度詳情增加可選 `coverageNote`，沒有新增 runtime API。
 
 ## Build-time integration
 
@@ -43,6 +43,9 @@ PUBLIC_API_BASE_URL=https://anisonary.k-y.cc/api/v1 npm run api:check
 
 ## Public contract rules
 
+- `coverageNote` 是季度詳情的可選公開範圍說明，上限 500 字元；未提供時省略，既有季度輸出不變；
+- 缺少已核對圖片時省略 poster／banner 與圖片歸屬欄位，保留 `posterAlt` 及作品識別來源；
+- 歌曲 `sequence` 保留已核對用途的序號，未核對的較早版本可形成缺號，不以重編序號掩蓋缺口；
 - `seasonId` 使用 `YYYY-quarter`，例如 `2026-summer`；
 - `slug` 必須穩定、唯一、可安全放入 URL；
 - `editorialWeekday` 使用 `1` 至 `7`，缺省代表不定期；
@@ -61,7 +64,7 @@ TypeScript interface 是欄位層面的 source of truth；endpoint 改動前要�
 
 - 三個 endpoint 以 production-like fixture 通過；
 - success response 通過 nested contract、content-type、timeout、response-size、origin binding 及 URL safety 測試；
-- 二十七個季度、1,875 個唯一 card slug 及 4,124 筆歌曲來源 ledger 均可解析；
+- 二十八個季度、1,907 個唯一 card slug 及 4,214 筆歌曲來源 ledger 均可解析；
 - 任一季節／動畫 payload failure 會令 fail-closed build 失敗；
 - unknown season／slug 回傳 `404`；
 - production build 無 Mock Data notice；

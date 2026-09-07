@@ -31,9 +31,13 @@ API、資料庫、商標或媒體重用權。完整授權邊界見
 
 `first_party` 表示動畫製作／發行方、唱片公司、藝人官方渠道、官方影片或正式播出機構的公開頁面。`cross_check` 表示用於發現缺口及交叉比對的公開索引。兩種角色都是來源分類，不代表數值信心或內容評分。
 
-目前二十七季快照的 season references、1,875 個作品及 4,124 筆 OP／ED 都有結構化 provenance；4,124 筆歌曲全部至少保留一個 `first_party` 與一個 `cross_check` 來源。`tests/unit/curated-catalog.test.ts` 鎖定來源數量、角色、語言、HTTPS、核對日期、Mock URL 禁止條件，以及 legacy labels 與結構化 ledger 的一致性。
+2019 夏季先整理 32 套 TV 作品，其他作品與特殊歌曲仍待核對；`coverageNote` 會在季度頁及 API 公開說明本季範圍。
+
+目前二十八季快照的 season references、1,907 個作品及 4,214 筆 OP／ED 都有結構化 provenance；4,214 筆歌曲全部至少保留一個 `first_party` 與一個 `cross_check` 來源。`tests/unit/curated-catalog.test.ts` 鎖定來源數量、角色、語言、HTTPS、核對日期、Mock URL 禁止條件，以及 legacy labels 與結構化 ledger 的一致性。
 
 ## 欄位決策
+
+新季度的發行日期、版本及 credits 可直接記錄在其 seed，與既有 override 輸出相容。
 
 - 日文曲名、演唱者、credits、影片及發行頁以第一方公開資料作最終核對。
 - AnimeThemes、UZUREA、Annict、Bangumi、AniList 與年度動畫列表只按
@@ -47,6 +51,7 @@ API、資料庫、商標或媒體重用權。完整授權邊界見
 
 - 不使用 AI 生成圖作公開產品媒體。
 - 首頁使用 code-native HTML／CSS 視覺，不需要 raster illustration 或新增 remote origin。
+- 沒有已核對圖片的作品省略 poster／banner 與圖片來源欄位；作品識別來源獨立記錄，不把交叉連結視作已核對圖片。
 - 作品 poster／banner 目前由 AniList 公開媒體 origin 直接載入；詳情頁連回公開媒體頁，request 使用 `no-referrer`，搜尋與離線 cache 不載入／保存這些圖像。
 - 公開媒體頁可提供來源追溯，但不等同 repository 擁有圖像權利。未完成權利與 hotlink review 前，不下載、修改、重新託管或宣稱擁有授權。
 - 官方 YouTube 只保存 reviewed video ID／連結；不託管、下載或自動播放媒體。

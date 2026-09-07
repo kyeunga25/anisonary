@@ -421,6 +421,8 @@ function parseSeasonDetail(value: unknown): PublicSeasonDetail {
   };
   const isMockData = optionalBool(item.isMockData);
   if (isMockData !== undefined) detail.isMockData = isMockData;
+  const coverageNote = optionalText(item.coverageNote, 500);
+  if (coverageNote !== undefined) detail.coverageNote = coverageNote;
   return detail;
 }
 

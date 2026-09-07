@@ -89,7 +89,7 @@ npm run cf:deploy
 ## Production smoke checklist／正式環境驗收
 
 - GitHub `quality` check 通過；
-- 首頁、搜尋、二十七個季度頁、至少一個動畫頁、About、Sources 與未知 route；
+- 首頁、搜尋、所有已發布季度頁、至少一個動畫頁、About、Sources 與未知 route；
 - mobile viewport、keyboard focus、theme toggle 及無水平 overflow；
 - canonical、Open Graph、JSON-LD、`robots.txt` 與 `sitemap-index.xml`；
 - `Content-Security-Policy`、`X-Frame-Options`、`X-Content-Type-Options`、`Referrer-Policy`、`Permissions-Policy`；
@@ -99,9 +99,9 @@ npm run cf:deploy
 - `/manifest.webmanifest` 可讀取，`/sw.js` 使用 revalidation 與根 scope；離線搜尋不產生帶 query string 的 cache key；
 - 搜尋結果沒有 remote poster request，搜尋字詞不離開瀏覽器；
 - YouTube 啟動前沒有 iframe 或 thumbnail request，啟動後使用 privacy-enhanced domain；
-- repository catalogue 顯示「已核對季度完整目錄」，不顯示 Mock Data notice；
+- repository catalogue 顯示「已審閱動畫目錄」，不顯示 Mock Data notice；
 - 歌曲顯示 reviewed source ledger，static API 每筆 theme 同時有第一方及交叉核對來源，且不包含完整度百分比；
-- season list、二十七個 season detail、1,875 個 anime detail JSON assets 通過 live contract，未知 API route 回應 `404`；
+- season list、所有已發布 season detail 及 anime detail JSON assets 通過 live contract，未知 API route 回應 `404`；
 - secrets、非公開基礎設施資料和私有營運記錄沒有進入 tracked files 或 build output。
 
 ## Public record boundary／公開記錄邊界

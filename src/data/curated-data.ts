@@ -6,6 +6,7 @@ import {
   curatedAnimeSeeds,
   curatedSeasonAnimeIds,
   type CuratedAnimeSeed,
+  type CuratedSeasonRegistryEntry,
   type CuratedThemeSeed
 } from "@/data/curated-seeds";
 import type {
@@ -4795,8 +4796,8 @@ function buildThemeSources(
 function toTheme(seed: CuratedAnimeSeed, originalTheme: CuratedThemeSeed): PublicTheme {
   const key = themeKey(seed.anilistId, originalTheme);
   const theme = { ...originalTheme, ...themeOverrides[key] };
-  const releaseDate = themeReleaseDateOverrides[key];
-  const versionLabel = themeVersionLabelOverrides[key];
+  const releaseDate = themeReleaseDateOverrides[key] ?? theme.releaseDate;
+  const versionLabel = themeVersionLabelOverrides[key] ?? theme.versionLabel;
   const verifiedAt = themeVerifiedAtOverrides[key] ?? seed.verifiedAt ?? defaultVerifiedAt;
   const sources = buildThemeSources(seed, theme, key, verifiedAt);
 
@@ -4809,7 +4810,7 @@ function toTheme(seed: CuratedAnimeSeed, originalTheme: CuratedThemeSeed): Publi
     artistDisplayName: theme.artistDisplayName,
     ...(versionLabel ? { versionLabel } : {}),
     ...(releaseDate ? { releaseDate } : {}),
-    credits: [
+    credits: theme.credits ?? [
       ...(vocalCreditOverrides[key] ?? [{ name: theme.artistDisplayName, role: "vocals" }]),
       ...(creditOverrides[key] ?? [])
     ],
@@ -4855,9 +4856,11 @@ function buildSources(seed: CuratedAnimeSeed, verifiedAt: string): PublicAnimeDe
     }] : []),
     ...(animeSourceOverrides[seed.anilistId] ?? []).map((source) => ({ ...source, verifiedAt })),
     {
-      label: "AniList：作品識別與公開圖像",
-      url: seed.anilistUrl,
-      language: "en" as const,
+      ...(seed.identifierSource ?? {
+        label: "AniList：作品識別與公開圖像",
+        url: seed.anilistUrl,
+        language: "en" as const
+      }),
       role: "identifier" as const,
       verifiedAt
     },
@@ -4930,14 +4933,16 @@ function toDetail(seed: CuratedAnimeSeed): PublicAnimeDetail {
     titleJa: seed.titleJa,
     titleZhHant: chineseTitleOverrides[seed.anilistId] ?? seed.titleZhHant,
     titleRomaji: seed.titleRomaji,
-    posterUrl: seed.posterUrl,
-    posterAlt: `《${seed.titleJa}》公開直式視覺`,
+    ...(seed.posterUrl ? { posterUrl: seed.posterUrl } : {}),
+    posterAlt: seed.posterUrl
+      ? `《${seed.titleJa}》公開直式視覺`
+      : `《${seed.titleJa}》尚無已核對圖片`,
     ...(seed.bannerUrl ? {
       bannerUrl: seed.bannerUrl,
       bannerAlt: `《${seed.titleJa}》公開橫幅視覺`
     } : {}),
-    imageSourceUrl: seed.imageSourceUrl,
-    imageSourceLabel: seed.imageSourceLabel,
+    ...(seed.imageSourceUrl ? { imageSourceUrl: seed.imageSourceUrl } : {}),
+    ...(seed.imageSourceLabel ? { imageSourceLabel: seed.imageSourceLabel } : {}),
     editorialWeekday: seed.editorialWeekday,
     ...(seed.broadcastTimeJst ? { broadcastTimeJst: seed.broadcastTimeJst } : {}),
     ...(seed.broadcastLabel ? { broadcastLabel: seed.broadcastLabel } : {}),
@@ -4993,10 +4998,14 @@ function cardsForSeason(seasonId: keyof typeof curatedSeasonAnimeIds): PublicAni
   });
 }
 
-export const curatedSeasonDetails: PublicSeasonDetail[] = curatedSeasons.map((season) => ({
-  ...season,
-  anime: cardsForSeason(season.id as keyof typeof curatedSeasonAnimeIds),
-  reviewState: "reviewed",
-  verifiedAt: getSeasonSnapshotVerifiedAt(season.year, season.quarter),
-  catalogReferences: buildSeasonCatalogReferences(season.year, season.quarter)
-}));
+export const curatedSeasonDetails: PublicSeasonDetail[] = curatedSeasons.map((season) => {
+  const entry: CuratedSeasonRegistryEntry | undefined = curatedSeasonRegistry.find(({ id }) => id === season.id);
+  return {
+    ...season,
+    ...(entry?.coverageNote ? { coverageNote: entry.coverageNote } : {}),
+    anime: cardsForSeason(season.id as keyof typeof curatedSeasonAnimeIds),
+    reviewState: "reviewed",
+    verifiedAt: getSeasonSnapshotVerifiedAt(season.year, season.quarter),
+    catalogReferences: buildSeasonCatalogReferences(season.year, season.quarter)
+  };
+});

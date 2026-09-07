@@ -3,6 +3,10 @@ import {
   curated2019FallSeeds
 } from "@/data/curated-seeds/2019/fall";
 import {
+  curated2019SummerAnimeIds,
+  curated2019SummerSeeds
+} from "@/data/curated-seeds/2019/summer";
+import {
   curated2020FallAnimeIds,
   curated2020FallSeeds
 } from "@/data/curated-seeds/2020/fall";
@@ -135,6 +139,14 @@ export function validateCuratedSeasonRegistry<
     }
 
     for (const seed of entry.seeds) {
+      const hasArtwork = Boolean(seed.posterUrl || seed.bannerUrl);
+      const hasAttribution = Boolean(seed.imageSourceUrl && seed.imageSourceLabel);
+      if (hasArtwork && !hasAttribution) {
+        throw new Error(`Missing curated image attribution: ${seed.anilistId}`);
+      }
+      if (!hasArtwork && (seed.imageSourceUrl || seed.imageSourceLabel)) {
+        throw new Error(`Image attribution without curated artwork: ${seed.anilistId}`);
+      }
       if (seed.seasonIds[0] !== entry.id) {
         throw new Error(`Curated seed owner mismatch: ${seed.anilistId}`);
       }
@@ -415,6 +427,16 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     titleJa: "2019年秋アニメ",
     seeds: curated2019FallSeeds,
     animeIds: curated2019FallAnimeIds
+  },
+  {
+    id: "2019-summer",
+    year: 2019,
+    quarter: "summer",
+    titleZhHant: "夏季動畫",
+    titleJa: "2019年夏アニメ",
+    coverageNote: "本季正在補充，目前收錄 32 套 TV 作品。其餘作品、網絡連載及特殊歌曲版本仍待核對。",
+    seeds: curated2019SummerSeeds,
+    animeIds: curated2019SummerAnimeIds
   }
 ] as const);
 
