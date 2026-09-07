@@ -810,6 +810,7 @@ test("public catalogue remains readable offline without caching personal input",
   });
   expect(registrationScope).toBe(`${e2eOrigin}/`);
   await expect.poll(() => page.evaluate(() => Boolean(navigator.serviceWorker.controller))).toBe(true);
+  await page.goto("/anime/gonjiro-2019/");
 
   const cachedUrls = await page.evaluate(async () => {
     const names = await caches.keys();
@@ -823,8 +824,20 @@ test("public catalogue remains readable offline without caching personal input",
 
   await context.setOffline(true);
   try {
-    await page.reload({ waitUntil: "domcontentloaded" });
+    await page.getByRole("link", { name: "搜尋「pal@pop」的歌曲", exact: true }).first().click();
     await expect(page.getByRole("heading", { name: "跨季度搜尋" })).toBeVisible();
+    await expect(page.getByRole("searchbox", { name: "搜尋動畫、歌曲或創作者" })).toHaveValue("pal@pop");
+    await expect(page.getByLabel("搜尋範圍")).toHaveValue("creators");
+    await expect(page.getByRole("link", { name: "わさわさわさ！", exact: true })).toBeVisible();
+    expect(await page.evaluate(() => localStorage.length + sessionStorage.length)).toBe(0);
+    const offlineCachedUrls = await page.evaluate(async () => {
+      const names = await caches.keys();
+      const requests = await Promise.all(names.map(async (name) => (await caches.open(name)).keys()));
+      return requests.flat().map((request) => request.url);
+    });
+    expect(offlineCachedUrls.every((url) => !new URL(url).hash && !new URL(url).search)).toBe(true);
+    await page.reload({ waitUntil: "domcontentloaded" });
+    await expect(page.getByRole("searchbox", { name: "搜尋動畫、歌曲或創作者" })).toHaveValue("pal@pop");
 
     await page.goto("/not-cached-while-offline/", { waitUntil: "domcontentloaded" });
     await expect(page.getByRole("heading", { name: "目前沒有網絡連線。" })).toBeVisible();
@@ -975,6 +988,107 @@ test("catalogue and search fit narrow devices, with native browsing available wi
   await nativePage.getByRole("link", { name: /秋季動畫.*67 套動畫/ }).click();
   await expect(nativePage.getByRole("heading", { name: "2019 秋季動畫" })).toBeVisible();
   await context.close();
+});
+
+test("creator links open local search and retain keyboard, back, reset and narrow-screen browsing", async ({ page, browser, request }) => {
+  const requests: string[] = [];
+  page.on("request", (item) => requests.push(item.url()));
+  const input = page.getByRole("searchbox", { name: "搜尋動畫、歌曲或創作者" });
+  const scope = page.getByLabel("搜尋範圍");
+  for (const width of [1280, 390, 320]) {
+    await page.setViewportSize({ width, height: 844 });
+    await page.goto("/anime/gonjiro-2019/");
+    const creator = page.getByRole("link", { name: "搜尋「pal@pop」的歌曲", exact: true }).first();
+    await expect(creator).toHaveAttribute("href", "/search/#creator=pal%40pop");
+    await creator.focus();
+    await page.keyboard.press("Enter");
+    await expect(page).toHaveURL(/\/search\/#creator=pal%40pop$/);
+    await expect(input).toHaveValue("pal@pop");
+    await expect(input).toHaveAttribute("maxlength", "80");
+    await expect(scope).toHaveValue("creators");
+    await expect(page.getByLabel("年份", { exact: true })).toHaveValue("");
+    await page.getByRole("link", { name: "わさわさわさ！", exact: true }).click();
+    await expect(page).toHaveURL(/\/anime\/gonjiro-2019\/#theme-gonjiro-2019-ed-1$/);
+    await page.goBack();
+    await expect(input).toHaveValue("pal@pop");
+    await expect(scope).toHaveValue("creators");
+    await page.getByRole("button", { name: "重設", exact: true }).click();
+    await expect(page).toHaveURL(`${e2eOrigin}/search/`);
+    await expect(input).toBeFocused();
+    await expect(input).toHaveValue("");
+    await expect(scope).toHaveValue("all");
+    await expect(page.locator("[data-catalog-result]")).toHaveCount(12);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+    await expect(page.locator("iframe")).toHaveCount(0);
+  }
+  expect(requests.every((url) => !new URL(url).hash && !new URL(url).search)).toBe(true);
+  expect(requests.some((url) => /youtube|ytimg|googlevideo/.test(new URL(url).hostname))).toBe(false);
+  expect(await page.evaluate(() => localStorage.length + sessionStorage.length)).toBe(0);
+
+  const response = await request.get("/api/v1/anime/uma-musume-pretty-derby-season-2.json");
+  const detail = await response.json();
+  const ensemble = detail.themes.find((theme: { id: string }) => theme.id === "uma-musume-pretty-derby-season-2-op-1");
+  expect(ensemble.artistDisplayName.length).toBeGreaterThan(80);
+  await page.goto("/anime/uma-musume-pretty-derby-season-2/");
+  const artist = page.locator("#theme-uma-musume-pretty-derby-season-2-op-1 .theme-card__artist");
+  await expect(artist).toHaveText(ensemble.artistDisplayName);
+  await expect(artist.getByRole("link")).toHaveCount(0);
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  await page.goto("/anime/beyblade-burst-sparking/");
+  const instrumental = page.locator("#theme-beyblade-burst-sparking-ed-1 .theme-card__artist");
+  await expect(instrumental).toHaveText("(インストゥルメンタル)");
+  await expect(instrumental.getByRole("link")).toHaveCount(0);
+
+  const native = await browser.newContext({ javaScriptEnabled: false, viewport: { width: 390, height: 844 } });
+  try {
+    const nativePage = await native.newPage();
+    await nativePage.goto(`${e2eOrigin}/anime/gonjiro-2019/`);
+    await nativePage.getByRole("link", { name: "搜尋「CHAI」的歌曲", exact: true }).first().click();
+    await expect(nativePage.locator("[data-catalog-search] noscript p")).toContainText("搜尋需要 JavaScript");
+    await nativePage.getByRole("link", { name: "按年份與季度瀏覽全部動畫", exact: true }).click();
+    await expect(nativePage).toHaveURL(`${e2eOrigin}/catalog/`);
+    expect(await nativePage.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  } finally {
+    await native.close();
+  }
+});
+
+test("creator search rejects malformed fragments and keeps manual edits and skip navigation local", async ({ page }) => {
+  const input = page.getByRole("searchbox", { name: "搜尋動畫、歌曲或創作者" });
+  const scope = page.getByLabel("搜尋範圍");
+  for (const hash of ["#creator=%", "#creator=CHAI&creator=LiSA", `#creator=${"a".repeat(81)}`]) {
+    await page.goto(`/search/${hash}`);
+    await expect(page.locator("[data-catalog-search]")).toHaveAttribute("data-search-ready", "true");
+    await expect(input).toHaveValue("");
+    await expect(scope).toHaveValue("all");
+    await expect(page.locator("[data-catalog-result]")).toHaveCount(12);
+  }
+  const literal = "<img src=x onerror=alert(1)>";
+  await page.goto(`/search/#creator=${encodeURIComponent(literal)}`);
+  await expect(input).toHaveValue(literal);
+  await expect(page.locator("[data-catalog-search-empty]")).toBeVisible();
+  await expect(page.locator("[data-catalog-search] img, [data-catalog-search] iframe")).toHaveCount(0);
+  await page.evaluate(() => { location.hash = "creator=CHAI"; });
+  await expect(input).toHaveValue("CHAI");
+  await expect(scope).toHaveValue("creators");
+  await expect(page.getByRole("link", { name: "レッツ！ゴンじろー", exact: true })).toBeVisible();
+  await page.getByLabel("年份", { exact: true }).selectOption("2019");
+  await expect(page).toHaveURL(`${e2eOrigin}/search/`);
+  await input.fill("pal@pop");
+  await expect(page.getByRole("link", { name: "わさわさわさ！", exact: true })).toBeVisible();
+  await page.getByRole("link", { name: "跳到主要內容", exact: true }).focus();
+  await page.keyboard.press("Enter");
+  await expect(page).toHaveURL(/#main-content$/);
+  await expect(input).toHaveValue("pal@pop");
+  await expect(page.getByRole("link", { name: "わさわさわさ！", exact: true })).toBeVisible();
+  await input.press("Escape");
+  await expect(input).toHaveValue("");
+  await expect(page).toHaveURL(`${e2eOrigin}/search/`);
+  await page.evaluate(() => { location.hash = "creator=CHAI"; });
+  await expect(input).toHaveValue("CHAI");
+  await input.fill("pal@pop");
+  await expect(page).toHaveURL(`${e2eOrigin}/search/`);
+  await expect(page.getByRole("link", { name: "わさわさわさ！", exact: true })).toBeVisible();
 });
 
 test("2019 summer exposes its coverage, searchable credits and image-free responsive cards", async ({ page }) => {

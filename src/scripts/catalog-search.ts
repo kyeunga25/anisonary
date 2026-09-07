@@ -1,5 +1,6 @@
 import { SEARCH_PAGE_SIZE, searchCatalog, type CatalogSearchIndex, type CatalogSearchOptions } from "@/utils/catalog-search-index";
 import { getAnimeTitleAliases } from "@/utils/anime-titles";
+import { parseCreatorSearchHash } from "@/utils/creator-search";
 
 const root = document.querySelector<HTMLElement>("[data-catalog-search]");
 if (root) {
@@ -102,20 +103,40 @@ if (root) {
       if (clear) clear.disabled = !input.value && !year.value && !quarter.value && scope.value === "all" && type.value === "all";
       renderPage();
     };
-    form.addEventListener("submit", (event) => { event.preventDefault(); applySearch(); });
+    const clearEntryHash = () => {
+      if (window.location.hash) {
+        const url = new URL(window.location.href);
+        url.hash = "";
+        window.history.replaceState(window.history.state, "", url);
+      }
+    };
+    const applyEntryHash = () => {
+      const creator = parseCreatorSearchHash(window.location.hash);
+      if (!creator) return false;
+      form.reset();
+      input.value = creator;
+      scope.value = "creators";
+      applySearch();
+      return true;
+    };
+    const applyManualSearch = () => { clearEntryHash(); applySearch(); };
+
+    form.addEventListener("submit", (event) => { event.preventDefault(); applyManualSearch(); });
     input.addEventListener("input", (event) => {
+      clearEntryHash();
       clearTimeout(timer);
       if (!(event as InputEvent).isComposing) timer = setTimeout(applySearch, 120);
     });
-    input.addEventListener("compositionend", () => { clearTimeout(timer); timer = setTimeout(applySearch, 120); });
-    [year, quarter, scope, type].forEach((select) => select.addEventListener("change", applySearch));
+    input.addEventListener("compositionend", () => { clearEntryHash(); clearTimeout(timer); timer = setTimeout(applySearch, 120); });
+    [year, quarter, scope, type].forEach((select) => select.addEventListener("change", applyManualSearch));
     input.addEventListener("keydown", (event) => {
-      if (event.key === "Escape" && input.value) { input.value = ""; applySearch(); }
+      if (event.key === "Escape" && input.value) { input.value = ""; applyManualSearch(); }
     });
-    clear?.addEventListener("click", () => { form.reset(); applySearch(); input.focus(); });
+    clear?.addEventListener("click", () => { form.reset(); applyManualSearch(); input.focus(); });
     previous?.addEventListener("click", () => { if (currentPage > 1) { currentPage -= 1; renderPage(true); } });
     next?.addEventListener("click", () => { if (currentPage * SEARCH_PAGE_SIZE < matches.length) { currentPage += 1; renderPage(true); } });
-    applySearch();
+    window.addEventListener("hashchange", applyEntryHash);
+    if (!applyEntryHash()) applySearch();
     root.dataset.searchReady = "true";
   }
 }

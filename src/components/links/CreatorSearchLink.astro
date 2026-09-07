@@ -1,0 +1,13 @@
+---
+import { buildCreatorSearchHref } from "@/utils/creator-search";
+
+interface Props { name: string; }
+const { name } = Astro.props;
+const href = buildCreatorSearchHref(name);
+---
+{href ? <a class="creator-search-link" href={href} aria-label={`搜尋「${name}」的歌曲`}>{name}</a> : name}
+
+<style>
+  .creator-search-link { color: inherit; text-decoration-color: color-mix(in srgb, currentColor 45%, transparent); text-decoration-line: underline; text-underline-offset: 0.2em; }
+  .creator-search-link:hover { color: var(--color-accent); text-decoration-color: currentColor; }
+</style>

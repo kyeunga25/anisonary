@@ -2,6 +2,12 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## v1.45.0 — 署名搜尋連結
+
+- 歌曲卡片上的歌手、作詞、作曲及編曲署名可直接開啟創作者文字搜尋，沿用現有篩選及 12 套作品分頁。
+- 入口名稱只放在瀏覽器網址片段；手動輸入及重設會清除片段，不傳送搜尋字詞或寫入應用程式儲存空間。
+- 保留 80 字元輸入限制、完整超長合唱名單、鍵盤返回、無 JavaScript 目錄入口及離線搜尋；公開資料與 API 不變。
+
 ## v1.44.1 — 作品頁間距
 
 - 縮短作品資料、外部來源連結、歌曲與資料來源區塊之間的過大留白，讓歌曲更早進入畫面。
