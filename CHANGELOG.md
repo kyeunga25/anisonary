@@ -2,6 +2,12 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## v1.47.0 — 作品頁歌曲導覽
+
+- 超過 4 筆歌曲的作品頁新增可收合的頁內導覽，按 OP／ED 分組，完整顯示曲名與演唱者並直接跳到對應版本。
+- 長清單限制展開高度，保留鍵盤捲動、選歌焦點、瀏覽器返回、無 JavaScript 與離線操作；目前指向的歌曲以邊框提示。
+- 全域導覽、目錄資料與靜態 API 保持不變。
+
 ## v1.46.0 — 2019 春季《強襲魔女 501部隊出動！》
 
 - 收錄 2019 年 TV 短篇、1 首 OP 與 12 個輪替 ED 演唱版本，保留各自角色、聲優、CD 日期及歌曲用途。

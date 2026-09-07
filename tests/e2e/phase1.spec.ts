@@ -810,6 +810,7 @@ test("public catalogue remains readable offline without caching personal input",
   });
   expect(registrationScope).toBe(`${e2eOrigin}/`);
   await expect.poll(() => page.evaluate(() => Boolean(navigator.serviceWorker.controller))).toBe(true);
+  await page.goto("/anime/strike-witches-501-takeoff-2019/");
   await page.goto("/anime/gonjiro-2019/");
 
   const cachedUrls = await page.evaluate(async () => {
@@ -838,6 +839,12 @@ test("public catalogue remains readable offline without caching personal input",
     expect(offlineCachedUrls.every((url) => !new URL(url).hash && !new URL(url).search)).toBe(true);
     await page.reload({ waitUntil: "domcontentloaded" });
     await expect(page.getByRole("searchbox", { name: "搜尋動畫、歌曲或創作者" })).toHaveValue("pal@pop");
+
+    await page.goto("/anime/strike-witches-501-takeoff-2019/", { waitUntil: "domcontentloaded" });
+    await page.locator(".theme-navigation summary").click();
+    await page.getByRole("navigation", { name: "本作品歌曲" }).locator('a[href="#theme-strike-witches-501-takeoff-2019-ed-12"]').click();
+    await expect(page.locator("#theme-strike-witches-501-takeoff-2019-ed-12")).toBeFocused();
+    await expect(page.locator("iframe")).toHaveCount(0);
 
     await page.goto("/not-cached-while-offline/", { waitUntil: "domcontentloaded" });
     await expect(page.getByRole("heading", { name: "目前沒有網絡連線。" })).toBeVisible();
@@ -1671,6 +1678,79 @@ test("anime details keep full-width poster-free headings and readable metadata a
     await expect(nativePage.getByRole("heading", { name: "2019 春季動畫" })).toBeVisible();
   } finally {
     await native.close();
+  }
+});
+
+test("long song lists provide compact local navigation with keyboard, history and correct ending targets", async ({ page }) => {
+  const slug = "strike-witches-501-takeoff-2019";
+  const mediaRequests: string[] = [];
+  page.on("request", (item) => {
+    if (/youtube|ytimg|googlevideo/.test(new URL(item.url()).hostname)) mediaRequests.push(item.url());
+  });
+  for (const width of [1280, 960, 390, 320]) {
+    await page.setViewportSize({ width, height: 844 });
+    await page.goto(`/anime/${slug}/`);
+    const disclosure = page.locator(".theme-navigation");
+    const summary = disclosure.locator("summary");
+    const navigation = page.getByRole("navigation", { name: "本作品歌曲" });
+    await expect(disclosure).not.toHaveAttribute("open");
+    await expect(summary).toContainText("1 首 OP · 12 首 ED");
+    await expect(navigation).toBeHidden();
+    await summary.focus();
+    await page.keyboard.press("Enter");
+    await expect(navigation.getByRole("link")).toHaveCount(13);
+    const panel = await navigation.boundingBox();
+    expect(panel!.height).toBeLessThanOrEqual(844 * 0.55 + 1);
+    const groupLink = navigation.locator(`a[href="#theme-${slug}-ed-12"]`);
+    await expect(groupLink).toContainText("Treasure of life #12");
+    await expect(groupLink).toContainText("第501統合戦闘航空団");
+    await groupLink.focus();
+    await page.keyboard.press("Enter");
+    const group = page.locator(`#theme-${slug}-ed-12`);
+    await expect(group).toBeFocused();
+    await expect(group).toBeInViewport({ ratio: 0.3 });
+    await expect(page.locator(":target")).toHaveAttribute("id", `theme-${slug}-ed-12`);
+    await page.keyboard.press("Tab");
+    expect(await group.evaluate((element) => element.contains(document.activeElement))).toBe(true);
+    await page.goBack();
+    await expect(disclosure).toHaveAttribute("open");
+    await navigation.locator(`a[href="#theme-${slug}-ed-2"]`).click();
+    await expect(page.locator(`#theme-${slug}-ed-2`)).toBeFocused();
+    await expect(page.locator(`#theme-${slug}-ed-2 .theme-card__artist`)).toHaveText("エーリカ・ハルトマン（CV：野川さくら）");
+    await expect(page.locator("iframe")).toHaveCount(0);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  }
+  expect(mediaRequests).toEqual([]);
+  for (const slug of ["gonjiro-2019", "kengan-ashura-part-2", "aoi-hane-mitsuketa"]) {
+    await page.goto(`/anime/${slug}/`);
+    await expect(page.locator(".theme-navigation")).toHaveCount(0);
+  }
+});
+
+test("the largest song list keeps every title reachable with native disclosure and no JavaScript", async ({ browser }) => {
+  const context = await browser.newContext({ javaScriptEnabled: false, viewport: { width: 390, height: 844 } });
+  try {
+    const page = await context.newPage();
+    await page.goto(`${e2eOrigin}/anime/bessatsu-olympia-kyklos/`);
+    const disclosure = page.locator(".theme-navigation");
+    await expect(disclosure).not.toHaveAttribute("open");
+    await disclosure.locator("summary").focus();
+    await page.keyboard.press("Enter");
+    const navigation = page.getByRole("navigation", { name: "本作品歌曲" });
+    await expect(navigation.getByRole("link")).toHaveCount(25);
+    expect(await navigation.evaluate((element) => element.scrollHeight > element.clientHeight)).toBe(true);
+    const lastLink = navigation.getByRole("link").last();
+    const target = page.locator((await lastLink.getAttribute("href"))!);
+    await lastLink.focus();
+    await expect(lastLink).toBeInViewport();
+    await page.keyboard.press("Enter");
+    await expect(target).toBeFocused();
+    await expect(target).toBeInViewport({ ratio: 0.3 });
+    await expect(page.locator(".theme-card")).toHaveCount(25);
+    await expect(page.locator("iframe")).toHaveCount(0);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  } finally {
+    await context.close();
   }
 });
 

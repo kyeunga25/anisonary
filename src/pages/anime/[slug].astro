@@ -5,6 +5,7 @@ import MockNotice from "@/components/common/MockNotice.astro";
 import PosterImage from "@/components/common/PosterImage.astro";
 import ThemeCard from "@/components/theme/ThemeCard.astro";
 import ThemeEmptyState from "@/components/theme/ThemeEmptyState.astro";
+import ThemeNavigation from "@/components/theme/ThemeNavigation.astro";
 import { getDataProvider, shouldRequireApiData } from "@/data/provider";
 import { loadCatalogSearchData } from "@/data/page-data";
 import BaseLayout from "@/layouts/BaseLayout.astro";
@@ -123,6 +124,7 @@ catalogCorrectionUrl.searchParams.set("title", `資料修正：${anime.titleJa}`
 
     <section class="detail-section" aria-labelledby="themes-title">
       <h2 id="themes-title">主題曲</h2>
+      <ThemeNavigation themes={anime.themes} />
       {anime.themes.length > 0 ? (
         <div>{anime.themes.map((theme) => <ThemeCard theme={theme} />)}</div>
       ) : (
