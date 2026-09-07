@@ -2,6 +2,12 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## v1.55.0 — 2019 春季《閃躍吧！星夢頻道 第二季》
+
+- 收錄 2019 年 TV 第二季與兩首 OP、兩首 ED，保留首播時段、角色合唱與共同作詞、作曲及編曲者。
+- 區分 Run Girls, Run！的原 OP、角色演唱 ED、2019 年單曲及 2020 年合集日期；每首歌保留第一方與交叉核對來源，未核對媒體留空。
+- 春季共 39 套作品（38 套 TV、1 套網絡連載）與 119 筆 OP／ED；本季與夏季仍在補充，2025 秋季尚未收錄。
+
 ## v1.54.0 — 2019 春季《ULTRAMAN》作品識別
 
 - 收錄 Netflix 第一季，保留 2019 年 4 月 1 日日本上線、全 13 話及繁中／日文／英文第一方識別來源。

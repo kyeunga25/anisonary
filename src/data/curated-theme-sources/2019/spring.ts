@@ -3,6 +3,24 @@ import { getCuratedAnimeKey, getCuratedThemeKey } from "@/data/curated-seeds/ide
 import type { CuratedThemeSourceOverrideMap, CuratedThemeSourceSeed } from "@/data/curated-theme-sources/types";
 
 const firstPartyUrlsByTheme: Readonly<Record<string, readonly string[]>> = {
+  "catalog-kiratto-prichan-2-2019:OP:1": [
+    "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201908/21577_201908181000.html",
+    "https://rungirlsrun.jp/discography/detail.php?id=1016423",
+    "https://avex.jp/prichan/discography/detail.php?id=1017565"
+  ],
+  "catalog-kiratto-prichan-2-2019:OP:2": [
+    "https://rungirlsrun.jp/news/detail.php?id=1076608",
+    "https://rungirlsrun.jp/discography/detail.php?id=1017094",
+    "https://avex.jp/prichan/discography/detail.php?id=1017565"
+  ],
+  "catalog-kiratto-prichan-2-2019:ED:1": [
+    "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201908/21577_201908181000.html",
+    "https://avex.jp/prichan/discography/detail.php?id=1017565"
+  ],
+  "catalog-kiratto-prichan-2-2019:ED:2": [
+    "https://www.tv-tokyo.co.jp/broad_bstvtokyo/program/detail/202003/21577_202003301729.html",
+    "https://avex.jp/prichan/discography/detail.php?id=1017565"
+  ],
   "catalog-aikatsu-friends-2-2019:OP:1": ["https://www.aikatsu.net/aikatsufriends_02/aikatsufriendscom/?offset=5#5420", "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201908/22343_201908221825.html"],
   "catalog-aikatsu-friends-2-2019:ED:1": ["https://www.aikatsu.net/aikatsufriends_02/aikatsufriendscom/?offset=5#5420", "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201908/22343_201908221825.html"],
   "catalog-king-of-prism-sss-2019:OP:1": ["https://kinpri.com/sss/sp/discography/detail.php?id=1016430", "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201904/25383_201904152535.html"],
@@ -295,6 +313,12 @@ const firstPartyUrlsByTheme: Readonly<Record<string, readonly string[]>> = {
 };
 
 const sourceLabelsByUrl: Readonly<Record<string, string>> = {
+  "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201908/21577_201908181000.html": "東京電視台：第 2 季前期 OP／ED 用途、演唱名義與製作署名",
+  "https://www.tv-tokyo.co.jp/broad_bstvtokyo/program/detail/202003/21577_202003301729.html": "BS 東京電視台：第 2 季後期 ED 用途、三人角色演唱名義與共同製作署名",
+  "https://rungirlsrun.jp/discography/detail.php?id=1016423": "Run Girls, Run！官方：〈ダイヤモンドスマイル〉CD 日期與詞曲編曲署名",
+  "https://rungirlsrun.jp/news/detail.php?id=1076608": "Run Girls, Run！官方：2019 年 10 月起的新 OP 與詞曲編曲署名",
+  "https://rungirlsrun.jp/discography/detail.php?id=1017094": "Run Girls, Run！官方：〈キラリスト・ジュエリスト〉CD 收錄、用途與發行日期",
+  "https://avex.jp/prichan/discography/detail.php?id=1017565": "avex：第 2 季兩首 OP／兩首 ED 分類、合集 CD 與 TV Size 的分界及合集發行日期",
   "https://www.aikatsu.net/aikatsufriends_02/aikatsufriendscom/?offset=5#5420": "動畫官方：第 2 季 OP／ED 演唱名義與詞曲編曲（CD 日期另待核對）",
   "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201908/22343_201908221825.html": "東京電視台：TV 四人合唱 OP 與ひびき獨唱 ED 用途",
   "https://kinpri.com/sss/sp/discography/detail.php?id=1016430": "動畫官方商品頁：OP 七人演唱名義與 CD 日期",
@@ -451,6 +475,12 @@ const sourceLabelsByUrl: Readonly<Record<string, string>> = {
 };
 
 const crossCheckSourcesByAnime: Readonly<Record<string, CuratedThemeSourceSeed>> = {
+  "catalog-kiratto-prichan-2-2019": {
+    label: "アニソン・オンライン：第 2 季 OP／ED 次序與演唱版本交叉核對",
+    url: "https://anison.online/anime/5206",
+    language: "ja",
+    role: "cross_check"
+  },
   "catalog-king-of-prism-sss-2019": {
     label: "アニソン・オンライン：2019 春季 TV OP、十一首 ED 與演唱版本交叉核對",
     url: "https://anison.online/anime/4114",
@@ -514,6 +544,12 @@ const crossCheckSourcesByAnime: Readonly<Record<string, CuratedThemeSourceSeed>>
 };
 
 const crossCheckSourcesByTheme: Readonly<Record<string, CuratedThemeSourceSeed>> = {
+  "catalog-kiratto-prichan-2-2019:ED:2": {
+    label: "UtaTen：〈Brand New Girls〉共同詞曲署名與合集發行日期交叉核對",
+    url: "https://utaten.com/lyric/nm20062644/",
+    language: "ja",
+    role: "cross_check"
+  },
   "catalog-aikatsu-friends-2-2019:OP:1": {
     label: "UtaTen：第 2 季 OP、四人演唱名義與詞曲交叉核對",
     url: "https://utaten.com/lyric/mi19041917/",

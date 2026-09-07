@@ -4610,6 +4610,12 @@ const animeOfficialSourceOverrides: Record<string, { label: string; url: string 
 };
 
 const animeSourceOverrides: Record<string, AnimeSourceSeed[]> = {
+  "catalog-kiratto-prichan-2-2019": [{
+    label: "avex：第 2 季作品識別與話數分界（本季第 1 話對應 TV 累計第 52 話）",
+    url: "https://avex.jp/prichan/discography/detail.php?id=1017048",
+    language: "ja",
+    role: "first_party"
+  }],
   "catalog-ultraman-2019": [{
     label: "Netflix 繁中公告：作品名稱與 2019 年 4 月上線日期",
     url: "https://about.netflix.com/zh_tw/news/anime-production-line-deal",

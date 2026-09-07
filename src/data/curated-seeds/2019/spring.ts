@@ -1698,6 +1698,78 @@ const strikeWitches501EndingRows = [
 ] as const;
 
 const independentSpringSeeds: NativeCuratedAnimeSeed[] = [{
+  id: "catalog-kiratto-prichan-2-2019",
+  slug: "kiratto-prichan-season-2",
+  titleJa: "キラッとプリ☆チャン シーズン2",
+  titleZhHant: "閃躍吧！星夢頻道 第二季",
+  seasonIds: ["2019-spring"],
+  startDate: "2019-04-07",
+  editorialWeekday: 7,
+  broadcastTimeJst: "10:00",
+  broadcastLabel: "東京電視台每週日 10:00（日本時間；2019 年 TV 第 2 季）",
+  status: "finished",
+  verifiedAt: "2026-09-08",
+  officialSiteUrl: "https://www.tv-tokyo.co.jp/anime/prichan/",
+  identifierSource: {
+    label: "製作委員會官方公告：2019 年 TV 第 2 季識別、首播日期與時段",
+    url: "https://www.takaratomy-arts.co.jp/company/pdf/2019R_Mertic.pdf",
+    language: "ja"
+  },
+  wikipediaUrl: "https://youranimes.tw/animes/645",
+  sourceReferenceUrls: ["https://youranimes.tw/bangumi/201904"],
+  themes: [{
+    type: "OP", sequence: 1,
+    titleJa: "ダイヤモンドスマイル",
+    artistDisplayName: "Run Girls, Run！",
+    releaseDate: "2019-05-29",
+    versionLabel: "第 2 季前期 OP／Run Girls, Run！版；2019 年 CD 單曲",
+    credits: [
+      { name: "古屋 真", role: "lyrics" },
+      { name: "加藤裕介", role: "composition" },
+      { name: "加藤裕介", role: "arrangement" }
+    ]
+  }, {
+    type: "OP", sequence: 2,
+    titleJa: "キラリスト・ジュエリスト",
+    artistDisplayName: "Run Girls, Run！",
+    releaseDate: "2019-11-27",
+    versionLabel: "第 2 季後期 OP（2019 年 10 月起）；《Share the light》CD 收錄曲",
+    credits: [
+      { name: "只野菜摘", role: "lyrics" },
+      { name: "広川恵一", role: "composition" },
+      { name: "広川恵一", role: "arrangement" }
+    ]
+  }, {
+    type: "ED", sequence: 1,
+    titleJa: "じゃんけんキラッと！プリ☆チャン",
+    artistDisplayName: "桃山みらい（CV.林鼓子）",
+    releaseDate: "2020-06-24",
+    versionLabel: "第 2 季前期 ED／桃山みらい版；2020 年歌曲合集 CD",
+    credits: [
+      { name: "林鼓子", role: "vocals" },
+      { name: "宮嶋淳子", role: "lyrics" },
+      { name: "トミタカズキ", role: "composition" },
+      { name: "トミタカズキ", role: "arrangement" }
+    ]
+  }, {
+    type: "ED", sequence: 2,
+    titleJa: "Brand New Girls",
+    artistDisplayName: "桃山みらい（CV.林鼓子）・青葉りんか（CV.厚木那奈美）・紫藤める（CV.森嶋優花）",
+    releaseDate: "2020-06-24",
+    versionLabel: "第 2 季後期 ED／三人角色合唱版；2020 年歌曲合集 CD",
+    credits: [
+      { name: "林鼓子", role: "vocals" },
+      { name: "厚木那奈美", role: "vocals" },
+      { name: "森嶋優花", role: "vocals" },
+      { name: "栗原暁", role: "lyrics" },
+      { name: "前田佑", role: "lyrics" },
+      { name: "栗原暁", role: "composition" },
+      { name: "前田佑", role: "composition" },
+      { name: "栗原暁", role: "arrangement" },
+      { name: "前田佑", role: "arrangement" }
+    ]
+  }]
+}, {
   id: "catalog-ultraman-2019",
   slug: "ultraman-2019",
   titleJa: "ULTRAMAN",

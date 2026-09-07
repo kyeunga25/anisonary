@@ -10,6 +10,78 @@ const spring = curatedSeasonDetails.find(({ id }) => id === "2019-spring")!;
 const anime = (id: number) => curatedAnimeDetails.find((item) => item.id === `curated-${id}`)!;
 
 describe("2019 spring reviewed TV and web catalogue", () => {
+  it("identifies PriChan's second TV season without merging the third season or assigning an external identifier", async () => {
+    const seed = curated2019SpringSeeds.find(({ id }) => id === "catalog-kiratto-prichan-2-2019")!;
+    expect(seed).toBeDefined();
+    expect(seed).toMatchObject({ startDate: "2019-04-07", editorialWeekday: 7, broadcastTimeJst: "10:00", seasonIds: ["2019-spring"] });
+    const detail = curatedAnimeDetails.find(({ id }) => id === seed.id)!;
+    expect(detail).toMatchObject({ slug: "kiratto-prichan-season-2", titleJa: "キラッとプリ☆チャン シーズン2", titleZhHant: "閃躍吧！星夢頻道 第二季", status: "finished" });
+    for (const omitted of ["anilistId", "anilistUrl", "titleRomaji", "posterUrl", "bannerUrl"]) {
+      expect(seed).not.toHaveProperty(omitted);
+      expect(detail).not.toHaveProperty(omitted);
+    }
+    expect(detail.sources).toContainEqual(expect.objectContaining({ url: "https://www.takaratomy-arts.co.jp/company/pdf/2019R_Mertic.pdf", role: "identifier", language: "ja" }));
+    expect(curatedAnimeDetails.find(({ slug }) => slug === "kiratto-prichan-season-3")?.id).not.toBe(seed.id);
+    const provider = new ApiProvider("https://anisonary.k-y.cc/api/v1", {
+      fetch: vi.fn<typeof fetch>().mockResolvedValue(new Response(JSON.stringify(detail), { headers: { "Content-Type": "application/json" } }))
+    });
+    expect(await provider.getAnime(detail.slug)).toEqual(detail);
+  });
+
+  it("separates PriChan's two group openings, solo ending and three-character ending with joint production credits", () => {
+    const detail = curatedAnimeDetails.find(({ id }) => id === "catalog-kiratto-prichan-2-2019")!;
+    expect(detail).toBeDefined();
+    expect(detail.themes.map(({ type, sequence, titleJa }) => [type, sequence, titleJa])).toEqual([
+      ["OP", 1, "ダイヤモンドスマイル"], ["OP", 2, "キラリスト・ジュエリスト"],
+      ["ED", 1, "じゃんけんキラッと！プリ☆チャン"], ["ED", 2, "Brand New Girls"]
+    ]);
+    expect(detail.themes.slice(0, 2).map(({ artistDisplayName }) => artistDisplayName)).toEqual(["Run Girls, Run！", "Run Girls, Run！"]);
+    expect(detail.themes[2]).toMatchObject({ artistDisplayName: "桃山みらい（CV.林鼓子）", credits: [
+      { name: "林鼓子", role: "vocals" }, { name: "宮嶋淳子", role: "lyrics" },
+      { name: "トミタカズキ", role: "composition" }, { name: "トミタカズキ", role: "arrangement" }
+    ] });
+    expect(detail.themes[3]?.artistDisplayName).toBe("桃山みらい（CV.林鼓子）・青葉りんか（CV.厚木那奈美）・紫藤める（CV.森嶋優花）");
+    expect(detail.themes[3]?.credits.filter(({ role }) => role === "vocals").map(({ name }) => name)).toEqual(["林鼓子", "厚木那奈美", "森嶋優花"]);
+    for (const role of ["lyrics", "composition", "arrangement"]) {
+      expect(detail.themes[3]?.credits.filter((credit) => credit.role === role).map(({ name }) => name)).toEqual(["栗原暁", "前田佑"]);
+    }
+    expect(detail.themes.some(({ artistDisplayName, titleJa }) => /オール☆ジュエル|わーすた|Share the light|イルミナージュ/.test(`${artistDisplayName} ${titleJa}`))).toBe(false);
+  });
+
+  it("retains PriChan's original opening CD dates and later ending collection dates with reviewed sources and no unaudited media", () => {
+    const detail = curatedAnimeDetails.find(({ id }) => id === "catalog-kiratto-prichan-2-2019")!;
+    expect(detail).toBeDefined();
+    expect(detail.themes.map(({ releaseDate }) => releaseDate)).toEqual(["2019-05-29", "2019-11-27", "2020-06-24", "2020-06-24"]);
+    for (const theme of detail.themes) {
+      expect(theme.lastVerifiedAt).toBe("2026-09-08");
+      expect(theme.sources.every(({ verifiedAt, language }) => verifiedAt === "2026-09-08" && language === "ja")).toBe(true);
+      expect(theme.sources.some(({ role }) => role === "cross_check")).toBe(true);
+      expect(theme.sources).toContainEqual(expect.objectContaining({ url: "https://avex.jp/prichan/discography/detail.php?id=1017565", role: "first_party" }));
+      expect(theme.videos).toEqual([]);
+    }
+    expect(detail.themes[1]?.credits).toEqual([
+      { name: "只野菜摘", role: "lyrics" }, { name: "広川恵一", role: "composition" }, { name: "広川恵一", role: "arrangement" }
+    ]);
+    expect(detail.themes.filter(({ type }) => type === "ED").every(({ versionLabel }) => versionLabel?.includes("2020 年歌曲合集 CD"))).toBe(true);
+  });
+
+  it("finds PriChan's second season by localized name, song and individual credited ending creators", async () => {
+    const index = buildCatalogSearchIndex((await loadCatalogSearchData(new CuratedProvider(), true)).entries);
+    const filters = { year: "2019", quarter: "spring", type: "all" } as const;
+    const slug = "kiratto-prichan-season-2";
+    expect(searchCatalog(index, { ...filters, query: "閃躍吧", scope: "anime" }).map(({ anime: item }) => item.slug)).toEqual([slug]);
+    for (const [query, scope, type, expected] of [
+      ["キラリスト", "songs", "OP", ["キラリスト・ジュエリスト"]],
+      ["林鼓子", "creators", "ED", ["じゃんけんキラッと！プリ☆チャン", "Brand New Girls"]],
+      ["前田佑", "creators", "ED", ["Brand New Girls"]],
+      ["厚木那奈美", "creators", "ED", ["Brand New Girls"]],
+      ["久保田未夢", "creators", "ED", []]
+    ] as const) {
+      const result = searchCatalog(index, { ...filters, query, scope, type }).find(({ anime: item }) => item.slug === slug);
+      expect(result?.themes.map(({ titleJa }) => titleJa) ?? []).toEqual(expected);
+    }
+  });
+
   it("identifies ULTRAMAN's original Netflix season separately from TV broadcast, sequels and live action", async () => {
     const seed = curated2019SpringSeeds.find(({ id }) => id === "catalog-ultraman-2019")!;
     expect(seed).toBeDefined();
@@ -39,7 +111,7 @@ describe("2019 spring reviewed TV and web catalogue", () => {
       expect.objectContaining({ url: "https://youranimes.tw/animes/3065", role: "localized_cross_check", language: "zh-Hant" })
     ]));
     expect(detail.sources.every(({ verifiedAt }) => verifiedAt === "2026-09-08")).toBe(true);
-    expect(spring.coverageNote).toContain("37 套 TV 作品及 1 套網絡連載");
+    expect(spring.coverageNote).toContain("38 套 TV 作品及 1 套網絡連載");
   });
 
   it("finds ULTRAMAN's original season without duplicating sequels or inventing OP and ED matches", async () => {
@@ -1059,9 +1131,9 @@ describe("2019 spring reviewed TV and web catalogue", () => {
   });
 
   it("publishes a partial quarter with reviewed identity and song evidence, without unverified artwork", () => {
-    expect(spring.anime).toHaveLength(38);
+    expect(spring.anime).toHaveLength(39);
     expect(spring.coverageNote).toContain("跨季延續及特殊歌曲版本仍待核對");
-    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(115);
+    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(119);
     expect(curatedSeasonDetails.some(({ id }) => id === "2025-fall")).toBe(false);
     for (const seed of curated2019SpringSeeds) {
       expect(seed.seasonIds).toEqual(["2019-spring"]);
