@@ -1,6 +1,16 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2019SummerThemeVideos = {
+  "110124:ED:1": [
+    {
+      youtubeVideoId: "LK64W7e75zA",
+      title: "バッキバキに踊る『ビジネスフィッシュ』ノンクレジットEDムービー／毎週日曜24:00 TOKYO MX,BS11で放送中／Huluでも配信中／#ビジネスフィッシュダンス選手権",
+      type: "creditless_ed",
+      channelName: "TOHO animation チャンネル",
+      officialStatus: "official",
+      embeddable: true
+    }
+  ],
   "102427:OP:1": [
     {
       youtubeVideoId: "gBYOvxkmEuI",

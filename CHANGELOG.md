@@ -2,6 +2,21 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [1.31.0] - 2026-09-07
+
+### Added
+
+- three reviewed 2019 summer TV titles: Business Fish, Zannen na Ikimono Jiten (2019) and Odoru Mowai-kun;
+- the verified first Business Fish ending and its official creditless video, retaining the licensed release artist and leaving unverified individual credits empty;
+- separate broadcast descriptions for an eight-episode weekday series and a short within the Oha-Suta programme.
+
+### Changed
+
+- allow an original-language title to omit an unverified localized reference, preserving existing source ledgers and API v1 fields;
+- keep the two other new titles' songs pending review and omit unverified artwork;
+- the catalogue now contains 28 snapshots, 1,917 unique works, 4,229 OP／ED records and 1,756 official or licensed video metadata records;
+- the partial 2019 summer snapshot contains 42 works and 103 songs; 2025 fall remains outside the registry.
+
 ## [1.30.0] - 2026-09-07
 
 ### Added

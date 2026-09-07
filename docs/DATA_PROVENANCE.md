@@ -31,9 +31,9 @@ API、資料庫、商標或媒體重用權。完整授權邊界見
 
 `first_party` 表示動畫製作／發行方、唱片公司、藝人官方渠道、官方影片或正式播出機構的公開頁面。`cross_check` 表示用於發現缺口及交叉比對的公開索引。兩種角色都是來源分類，不代表數值信心或內容評分。
 
-2019 夏季目前整理 35 套 TV 作品及 4 套網絡連載，其他作品與特殊歌曲仍待核對；`coverageNote` 會在季度頁及 API 公開說明本季範圍。
+2019 夏季目前整理 38 套 TV 作品及 4 套網絡連載，其他作品與特殊歌曲仍待核對；`coverageNote` 會在季度頁及 API 公開說明本季範圍。
 
-目前二十八季快照的 season references、1,914 個作品及 4,228 筆 OP／ED 都有結構化 provenance；4,228 筆歌曲全部至少保留一個 `first_party` 與一個 `cross_check` 來源。`tests/unit/curated-catalog.test.ts` 鎖定來源數量、角色、語言、HTTPS、核對日期、Mock URL 禁止條件，以及 legacy labels 與結構化 ledger 的一致性。
+目前二十八季快照的 season references、1,917 個作品及 4,229 筆 OP／ED 都有結構化 provenance；4,229 筆歌曲全部至少保留一個 `first_party` 與一個 `cross_check` 來源。`tests/unit/curated-catalog.test.ts` 鎖定來源數量、角色、語言、HTTPS、核對日期、Mock URL 禁止條件，以及 legacy labels 與結構化 ledger 的一致性。
 
 ## 欄位決策
 
@@ -44,6 +44,7 @@ API、資料庫、商標或媒體重用權。完整授權邊界見
   [來源條款閘門](./SOURCE_TERMS.md)用於有界盤點及交叉核對，不單獨取代第一方
   證據，也不作 raw dataset、backup、mirror 或 tracker。
 - 繁中作品名稱優先採用台灣／香港正式代理、串流、出版社或官方社群；沒有可確認名稱時保留原文，不把自動轉換或社群欄位標示為正式譯名。
+- 沒有已核對的繁中來源時，可省略 authoring 欄位 `wikipediaUrl`；公開 ledger 不生成 `localized_cross_check`，既有記錄的來源保持相容。正式配信名義與個別演唱 credits 分開核對，不能由前者自動推定後者。
 - 不生成曲名、譯名、credits、來源或影片；衝突未解決時保留原有 reviewed record 或不發布新欄位。
 - `sourceLabels`／`lastVerifiedAt` 暫留於 API v1 作相容欄位，不供新 UI 作唯一證據。
 

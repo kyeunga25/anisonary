@@ -38,6 +38,10 @@ const firstPartyUrlById: Readonly<Partial<Record<number, string>>> = {
 };
 
 const firstPartyUrlsByTheme: Readonly<Partial<Record<string, readonly string[]>>> = {
+  "110124:ED:1": [
+    "https://tohoentertainmentonline.com/shop/g/gTASD01073/",
+    "https://music.apple.com/jp/song/1470386076"
+  ],
   "102427:OP:1": [
     "https://www.universal-music.co.jp/the-struts/news/2019-06-27/",
     "https://www.universal-music.co.jp/the-struts/products/00602577983849/"
@@ -140,6 +144,12 @@ const firstPartyUrlsByTheme: Readonly<Partial<Record<string, readonly string[]>>
 };
 
 const crossCheckById: Readonly<Partial<Record<number, CuratedThemeSourceSeed>>> = {
+  110124: {
+    label: "オリミュウストア：片尾曲與配信名義交叉核對",
+    url: "https://music.orimyu.com/php/music/MusicTop.php?music=6773313",
+    language: "ja",
+    role: "cross_check"
+  },
   102427: {
     label: "Wikipedia：2019 年配信版 OP／ED 交叉核對",
     url: "https://en.wikipedia.org/wiki/Knights_of_the_Zodiac:_Saint_Seiya",

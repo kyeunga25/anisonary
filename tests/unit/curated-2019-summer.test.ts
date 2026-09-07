@@ -12,9 +12,9 @@ const anime = (id: number) => curatedAnimeDetails.find((item) => item.id === `cu
 
 describe("2019 summer reviewed catalogue slices", () => {
   it("publishes an explicitly partial snapshot with traceable identities and no invented artwork", () => {
-    expect(summer.anime).toHaveLength(39);
+    expect(summer.anime).toHaveLength(42);
     expect(summer.coverageNote).toContain("仍待核對");
-    expect(curated2019SummerSeeds.flatMap(({ themes }) => themes)).toHaveLength(102);
+    expect(curated2019SummerSeeds.flatMap(({ themes }) => themes)).toHaveLength(103);
     for (const seed of curated2019SummerSeeds) {
       expect(seed.seasonIds).toEqual(["2019-summer"]);
       expect(seed.startDate).toMatch(/^2019-0[78]-\d{2}$/);
@@ -55,6 +55,62 @@ describe("2019 summer reviewed catalogue slices", () => {
       .toContainEqual(expect.objectContaining({ id: "curated-114448" }));
     expect(summer.anime.some(({ id }) => id === "curated-114448" || id === "curated-105807")).toBe(false);
     expect(anime(110686).themes).toEqual([]);
+  });
+
+  it("distinguishes the summer short-series schedule from specials and programme time slots", () => {
+    const zannen = anime(128738);
+    expect(zannen.titleZhHant).toBe("殘念生物事典(3)");
+    expect(formatBroadcastLabel(zannen)).toBe("平日 09:30（日本；7/29～8/7）");
+    expect(zannen.themes).toEqual([]);
+    expect(curated2019SummerSeeds.find(({ anilistId }) => anilistId === 128738)?.startDate).toBe("2019-07-29");
+    expect(summer.anime.some(({ id }) => id === "curated-128739" || id === "curated-130439")).toBe(false);
+    expect(anime(130439).titleZhHant).toBe("殘念生物事典(4)");
+    const mowai = anime(110317);
+    expect(mowai.editorialWeekday).toBe(2);
+    expect(mowai.broadcastTimeJst).toBeUndefined();
+    expect(formatBroadcastLabel(mowai)).toBe("《おはスタ》星期二 07:05 節目內（日本）");
+    expect(mowai.themes).toEqual([]);
+  });
+
+  it("keeps the original name when no localized source is verified, without inventing a source or artwork claim", async () => {
+    const mowai = anime(110317);
+    expect(mowai.titleZhHant).toBe(mowai.titleJa);
+    expect(mowai.sources.some(({ role }) => role === "localized_cross_check")).toBe(false);
+    expect(mowai.sources.map(({ url }) => url)).not.toContain("https://youranimes.tw/bangumi/201907");
+    expect(mowai.sources).toContainEqual(expect.objectContaining({
+      url: "https://www.shopro.co.jp/tv/mowai-kun/", language: "ja", role: "first_party"
+    }));
+    expect(mowai.sources.find(({ role }) => role === "identifier")?.label).not.toContain("圖像");
+    const provider = new ApiProvider("https://anisonary.k-y.cc/api/v1", {
+      fetch: vi.fn<typeof fetch>().mockResolvedValue(new Response(JSON.stringify(mowai), {
+        headers: { "Content-Type": "application/json" }
+      }))
+    });
+    expect(await provider.getAnime(mowai.slug)).toEqual(mowai);
+  });
+
+  it("retains the official release artist without inventing vocal credits or another ending", async () => {
+    const fish = anime(110124);
+    expect(fish).toMatchObject({ editorialWeekday: 7, broadcastTimeJst: "24:00" });
+    expect(fish.sources).toContainEqual(expect.objectContaining({
+      url: "https://acgsecrets.hk/bangumi/201907/", language: "zh-Hant", role: "localized_cross_check"
+    }));
+    expect(fish.themes).toHaveLength(1);
+    const ending = fish.themes[0]!;
+    expect(ending).toMatchObject({ type: "ED", sequence: 1, titleJa: "Don't Stop Moving", artistDisplayName: "BUSINESS FISH", releaseDate: "2019-07-08", credits: [] });
+    expect(ending.videos[0]).toMatchObject({ youtubeVideoId: "LK64W7e75zA", type: "creditless_ed", officialStatus: "official" });
+    expect(ending.sources).toContainEqual(expect.objectContaining({
+      url: "https://tohoentertainmentonline.com/shop/g/gTASD01073/", role: "first_party"
+    }));
+    expect(ending.sources).toContainEqual(expect.objectContaining({
+      url: "https://music.orimyu.com/php/music/MusicTop.php?music=6773313", role: "cross_check", language: "ja"
+    }));
+    const provider = new ApiProvider("https://anisonary.k-y.cc/api/v1", {
+      fetch: vi.fn<typeof fetch>().mockResolvedValue(new Response(JSON.stringify(fish), {
+        headers: { "Content-Type": "application/json" }
+      }))
+    });
+    expect(await provider.getAnime(fish.slug)).toEqual(fish);
   });
 
   it("retains the English cover credits and an independent identity source without inventing an index URL", () => {
