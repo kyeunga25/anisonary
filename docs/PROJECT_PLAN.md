@@ -69,6 +69,7 @@
 - **v1.39.1 source**：歌曲卡片合併與藝人欄完全一致的完整合唱名單；保留個別演唱者、非演唱職務、來源、搜尋與全部 API 資料，並支援無 JavaScript 閱讀；發布證據見對應 GitHub Release。
 - **v1.40.0 source**：2019 春季增加《YU-NO 在這世界盡頭詠唱愛的少女》TV 版，新增 4 筆 OP／ED 與 2 筆官方短版 MV metadata；前後篇演唱者、完整製作署名與不同發行版本分開核對，春季共 27 套作品與 63 筆歌曲；發布證據見對應 GitHub Release。
 - **v1.40.1 source**：補上《Fairy gone》春季 OP／ED 的個別演唱者、作曲、編曲及 ED 作詞，保留團體名義、發行日期與影片版本；逐曲署名可由創作者搜尋找到，來源包括創作者官方、播出機構及藝人訪談，既有其他作品與歌曲不變；發布證據見對應 GitHub Release。
+- **v1.40.2 source**：較長的歌曲來源清單改為原生展開區，持續顯示來源數量、審閱狀態與日期；較少來源仍直接顯示，支援獨立展開、鍵盤與無 JavaScript 操作，歌曲、來源及 API 資料不變；發布證據見對應 GitHub Release。
 - 正式網站使用 custom domain；非正式 Cloudflare hostname 不在公開文檔記錄；
 - 私有 backend、資料庫、crawler、帳戶設定、憑證與內部規則不屬於本公開 repository。
 
