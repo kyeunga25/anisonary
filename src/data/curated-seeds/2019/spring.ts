@@ -4,7 +4,7 @@ type Spring2019SeedInput = Omit<
   CuratedAnimeSeed,
   | "id" | "seasonIds" | "editorialWeekday" | "status" | "anilistUrl"
   | "sourceReferenceUrls" | "verifiedAt"
->;
+> & Partial<Pick<CuratedAnimeSeed, "sourceReferenceUrls">>;
 
 function spring2019Seed(row: Spring2019SeedInput): CuratedAnimeSeed {
   const weekday = new Date(`${row.startDate}T00:00:00Z`).getUTCDay();
@@ -16,12 +16,178 @@ function spring2019Seed(row: Spring2019SeedInput): CuratedAnimeSeed {
     status: "finished",
     anilistUrl: `https://anilist.co/anime/${row.anilistId}`,
     wikipediaUrl: row.wikipediaUrl ?? "https://youranimes.tw/bangumi/201904",
-    sourceReferenceUrls: ["https://acgsecrets.hk/bangumi/201904/"],
+    sourceReferenceUrls: row.sourceReferenceUrls ?? ["https://acgsecrets.hk/bangumi/201904/"],
     verifiedAt: "2026-09-07"
   };
 }
 
 const curated2019SpringSeedRows: Spring2019SeedInput[] = [
+  {
+    "anilistId": 108039,
+    "slug": "gundam-the-origin-zenya-akai-suisei",
+    "startDate": "2019-04-29",
+    "titleJa": "機動戦士ガンダム THE ORIGIN 前夜 赤い彗星",
+    "titleZhHant": "機動戰士鋼彈 THE ORIGIN 前夜 赤い彗星",
+    "titleRomaji": "Kidou Senshi Gundam: THE ORIGIN - Zenya Akai Suisei",
+    "officialSiteUrl": "https://www.gundam-the-origin.net/tv/",
+    "wikipediaUrl": "https://youranimes.tw/animes/4690",
+    "identifierSource": {
+      "label": "動畫官方首集：2019 年 13 話電視重編版識別與首播日期",
+      "url": "https://www.gundam-the-origin.net/tv/episodes01.html",
+      "language": "ja"
+    },
+    "sourceReferenceUrls": [
+      "https://uzurea.net/vc/187936/"
+    ],
+    "broadcastTimeJst": "00:35",
+    "broadcastLabel": "NHK 綜合每週一 00:35（日本時間；2019 年 13 話電視重編版）",
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "宇宙の詩 ～Higher and Higher～",
+        "artistDisplayName": "LUNA SEA",
+        "releaseDate": "2019-05-29",
+        "versionLabel": "2019 年 TV 版 OP，CD 單曲版",
+        "credits": []
+      },
+      {
+        "type": "OP",
+        "sequence": 2,
+        "titleJa": "悲壮美",
+        "artistDisplayName": "LUNA SEA",
+        "releaseDate": "2019-05-29",
+        "versionLabel": "2019 年 TV 版 OP，CD 單曲版",
+        "credits": []
+      },
+      {
+        "type": "OP",
+        "sequence": 3,
+        "titleJa": "BEYOND THE TIME ～メビウスの宇宙を越えて～",
+        "artistDisplayName": "LUNA SEA",
+        "releaseDate": "2019-09-06",
+        "versionLabel": "LUNA SEA 翻唱版，數位配信",
+        "credits": [
+          {
+            "name": "小室みつ子",
+            "role": "lyrics"
+          },
+          {
+            "name": "小室哲哉",
+            "role": "composition"
+          },
+          {
+            "name": "LUNA SEA",
+            "role": "arrangement"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "めぐりあい",
+        "artistDisplayName": "SUGIZO feat. GLIM SPANKY",
+        "releaseDate": "2019-06-11",
+        "versionLabel": "2019 年翻唱版；完整版配信，串流另提供 TV Size",
+        "credits": [
+          {
+            "name": "井荻麟",
+            "role": "lyrics"
+          },
+          {
+            "name": "売野雅勇",
+            "role": "lyrics"
+          },
+          {
+            "name": "井上大輔",
+            "role": "composition"
+          },
+          {
+            "name": "SUGIZO",
+            "role": "arrangement"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "水の星へ愛をこめて",
+        "artistDisplayName": "SUGIZO feat. コムアイ（水曜日のカンパネラ）",
+        "releaseDate": "2019-06-18",
+        "versionLabel": "2019 年翻唱版；完整版配信，串流另提供 TV Size",
+        "credits": [
+          {
+            "name": "コムアイ（水曜日のカンパネラ）",
+            "role": "vocals"
+          },
+          {
+            "name": "売野雅勇",
+            "role": "lyrics"
+          },
+          {
+            "name": "ニール・セダカ",
+            "role": "composition"
+          },
+          {
+            "name": "SUGIZO",
+            "role": "arrangement"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 3,
+        "titleJa": "A Red Ray",
+        "artistDisplayName": "SUGIZO feat. miwa",
+        "releaseDate": "2019-06-25",
+        "versionLabel": "完整版配信，串流另提供 TV Size；另有第 12 話片尾畫面版本",
+        "credits": [
+          {
+            "name": "miwa",
+            "role": "vocals"
+          },
+          {
+            "name": "miwa",
+            "role": "lyrics"
+          },
+          {
+            "name": "SUGIZO",
+            "role": "composition"
+          },
+          {
+            "name": "SUGIZO",
+            "role": "arrangement"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 4,
+        "titleJa": "光の涯",
+        "artistDisplayName": "SUGIZO feat. アイナ・ジ・エンド（BiSH）",
+        "releaseDate": "2019-08-13",
+        "versionLabel": "最終話 ED，アイナ・ジ・エンド演唱版；完整版配信，串流另提供 TV Size",
+        "credits": [
+          {
+            "name": "アイナ・ジ・エンド（BiSH）",
+            "role": "vocals"
+          },
+          {
+            "name": "MORRIE",
+            "role": "lyrics"
+          },
+          {
+            "name": "SUGIZO",
+            "role": "composition"
+          },
+          {
+            "name": "SUGIZO",
+            "role": "arrangement"
+          }
+        ]
+      }
+    ]
+  },
   {
     "anilistId": 105749,
     "slug": "diamond-no-ace-act-ii",

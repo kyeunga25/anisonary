@@ -2,9 +2,9 @@
 
 Anisonary 是以 Astro + strict TypeScript 建立的動畫歌曲目錄，按季度與日本編輯播出日瀏覽作品、OP 與 ED。網站輸出為純靜態資產，正式交付使用 **Cloudflare Workers Static Assets**；它不是 Cloudflare Pages，也沒有 application Worker backend。下方同時保留 English technical notes。
 
-This repository contains the completed static product: season directory, anime detail pages, traceable OP／ED credits and links, per-song source ledgers, source-attributed media, local-only cross-season search, privacy-bounded offline reading, a GitHub correction flow, and deployment through Cloudflare Workers Static Assets. The default catalogue covers twenty-nine reviewed snapshots across 2019–2026, with 1,945 unique titles and 4,298 known OP／ED records. The 2019 spring snapshot contains twenty-eight TV titles, including television shorts; summer contains 38 TV titles and four web series. Both quarters are still being expanded, and 2025 fall is not yet included. Fictional Mock Data remains test-only.
+This repository contains the completed static product: season directory, anime detail pages, traceable OP／ED credits and links, per-song source ledgers, source-attributed media, local-only cross-season search, privacy-bounded offline reading, a GitHub correction flow, and deployment through Cloudflare Workers Static Assets. The default catalogue covers twenty-nine reviewed snapshots across 2019–2026, with 1,946 unique titles and 4,305 known OP／ED records. The 2019 spring snapshot contains twenty-nine TV titles, including television shorts and a TV recut; summer contains 38 TV titles and four web series. Both quarters are still being expanded, and 2025 fall is not yet included. Fictional Mock Data remains test-only.
 
-目前 source 版本：**v1.41.1**。作品頁、季度卡片、搜尋結果與頁面 metadata 共用不重複的名稱顯示；保留不同寫法的繁中名稱及 Romaji，原始名稱、歌曲與 API 資料不變。目錄共有 29 個季度、1,945 套作品與 4,298 筆 OP／ED；春季為 28 套作品、69 筆歌曲，春、夏季仍在補充，2025 秋季尚未收錄。
+目前 source 版本：**v1.42.0**。2019 春季新增《機動戦士ガンダム THE ORIGIN 前夜 赤い彗星》13 話電視重編版，收錄 3 首 OP、4 首 ED 與 8 筆官方影片 metadata；保留翻唱者、製作署名、原始發行日期及第 12 話片尾畫面版本。目錄共有 29 個季度、1,946 套作品與 4,305 筆 OP／ED；春季為 29 套作品、76 筆歌曲，春、夏季仍在補充，2025 秋季尚未收錄。
 
 導覽延續固定五個入口與年代、年份、季度目錄；搜尋可按動畫、歌曲、創作者、年份、季度及 OP／ED 篩選，每頁顯示 12 套作品。搜尋完全在瀏覽器內進行，YouTube 只於明確操作後連線。網站與同源靜態 JSON API 共用已審閱資料，無 application backend 或 database binding。依賴安全 gate 繼續鎖定 `fast-uri` 3.1.6 並稽核開發依賴。
 
@@ -12,7 +12,7 @@ Production build 會從最終 HTML 自動產生 hash-based Content Security Poli
 
 | 可用性 / Availability                  | 成熟度 / Maturity                       | 證據 / Evidence                                                                                                                                                                                                                                                     |
 | -------------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 公開靜態目錄 / Public static catalogue | Source 版本為 `v1.41.1`；正式發布狀態以對應 Release 驗收摘要為準 | [入口網站 / Live](https://anisonary.k-y.cc) · [版本與驗收 / Releases](https://github.com/kyeunga25/anisonary/releases) · [資料來源 / Sources](docs/DATA_SOURCES.md) · [安全政策 / Security](SECURITY.md) · [授權 / Licence](LICENSING.md) · [版權 / Copyright](COPYRIGHT.md) |
+| 公開靜態目錄 / Public static catalogue | Source 版本為 `v1.42.0`；正式發布狀態以對應 Release 驗收摘要為準 | [入口網站 / Live](https://anisonary.k-y.cc) · [版本與驗收 / Releases](https://github.com/kyeunga25/anisonary/releases) · [資料來源 / Sources](docs/DATA_SOURCES.md) · [安全政策 / Security](SECURITY.md) · [授權 / Licence](LICENSING.md) · [版權 / Copyright](COPYRIGHT.md) |
 
 ## 技術棧｜Technology stack
 

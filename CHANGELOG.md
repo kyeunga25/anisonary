@@ -2,6 +2,12 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## v1.42.0 — 2019 春季 THE ORIGIN 電視版
+
+- 收錄《機動戦士ガンダム THE ORIGIN 前夜 赤い彗星》2019 年 13 話電視重編版，與早期 OVA 身份分開。
+- 新增 3 首 OP、4 首 ED 及 8 筆官方影片 metadata；保留原曲作者、新演唱與編曲、原始發行日期及第 12 話片尾畫面版本。
+- 春季共 29 套作品、76 筆 OP／ED；本季與夏季仍在補充，2025 秋季尚未收錄。
+
 ## [1.41.1] - 2026-09-07
 
 ### Fixed

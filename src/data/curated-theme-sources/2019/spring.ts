@@ -2,6 +2,13 @@ import { curated2019SpringSeeds } from "@/data/curated-seeds/2019/spring";
 import type { CuratedThemeSourceOverrideMap, CuratedThemeSourceSeed } from "@/data/curated-theme-sources/types";
 
 const firstPartyUrlsByTheme: Readonly<Record<string, readonly string[]>> = {
+  "108039:OP:1": ["https://www.sunrise-music.co.jp/list/detail.php?id=447", "https://www.universal-music.co.jp/luna-sea/news/2019-04-15/"],
+  "108039:OP:2": ["https://www.sunrise-music.co.jp/list/detail.php?id=447", "https://www.universal-music.co.jp/luna-sea/news/2019-04-15/"],
+  "108039:OP:3": ["https://www.sunrise-music.co.jp/list/detail.php?id=448"],
+  "108039:ED:1": ["https://www.sunrise-music.co.jp/list/detail.php?id=4"],
+  "108039:ED:2": ["https://www.sunrise-music.co.jp/list/detail.php?id=8"],
+  "108039:ED:3": ["https://www.sunrise-music.co.jp/list/detail.php?id=445", "https://www.gundam-the-origin.net/news/index.php?offset=45", "https://www.sonymusic.co.jp/artist/miwa/info/507943"],
+  "108039:ED:4": ["https://www.sunrise-music.co.jp/list/detail.php?id=446"],
   "105749:OP:1": [
     "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201904/22856_201904021755.html",
     "https://www.glay.co.jp/news/detail/4532",
@@ -221,6 +228,15 @@ const firstPartyUrlsByTheme: Readonly<Record<string, readonly string[]>> = {
 };
 
 const sourceLabelsByUrl: Readonly<Record<string, string>> = {
+  "https://www.sunrise-music.co.jp/list/detail.php?id=447": "SUNRISE Music：電視版前兩首 OP、CD 單曲日期與官方短版影片",
+  "https://www.universal-music.co.jp/luna-sea/news/2019-04-15/": "Universal Music：前兩首 OP 與原始 CD 發行日期",
+  "https://www.sunrise-music.co.jp/list/detail.php?id=448": "SUNRISE Music：LUNA SEA 翻唱 OP、詞曲編曲與數位配信日期",
+  "https://www.sunrise-music.co.jp/list/detail.php?id=4": "SUNRISE Music：GLIM SPANKY 版 ED、共同作詞、編曲與配信日期",
+  "https://www.sunrise-music.co.jp/list/detail.php?id=8": "SUNRISE Music：コムアイ 版 ED、詞曲編曲與配信日期",
+  "https://www.sunrise-music.co.jp/list/detail.php?id=445": "SUNRISE Music：第三首 ED、製作署名與完整／TV Size 配信版本",
+  "https://www.sunrise-music.co.jp/list/detail.php?id=446": "SUNRISE Music：最終話 ED、個別演唱者、詞曲編曲與配信日期",
+  "https://www.gundam-the-origin.net/news/index.php?offset=45": "動畫官方：第 12 話片尾畫面版本與最終 ED 歌唱署名",
+  "https://www.sonymusic.co.jp/artist/miwa/info/507943": "miwa／Sony Music：第三首 ED 與原始配信日期",
   "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201904/22856_201904021755.html": "東京電視台：2019 年首播與最初 OP／ED 用途",
   "https://www.glay.co.jp/news/detail/4532": "GLAY 官方：首支 OP 的詞曲及 TV Size 配信日期",
   "https://www.glay.co.jp/news/list/4/75/?page=2": "GLAY 官方發行紀錄：2019 年 7 月完整版 CD 收錄",
@@ -323,6 +339,12 @@ const sourceLabelsByUrl: Readonly<Record<string, string>> = {
 };
 
 const crossCheckSourcesByAnime: Readonly<Record<number, CuratedThemeSourceSeed>> = {
+  108039: {
+    label: "UZUREA：電視版 OP／ED 次序交叉核對；演唱版本以第一方為準",
+    url: "https://uzurea.net/vc/187936/",
+    language: "ja",
+    role: "cross_check"
+  },
   105749: {
     label: "Animate Times：2019 年第三季兩首 OP 與四首 ED 次序交叉核對",
     url: "https://www.animatetimes.com/news/details.php?id=1776312367&p=3",

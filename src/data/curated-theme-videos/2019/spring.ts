@@ -1,6 +1,84 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2019SpringThemeVideos = {
+  "108039:OP:1": [
+    {
+      "youtubeVideoId": "z0JjGxZpcWg",
+      "title": "【公式】『機動戦士ガンダム THE ORIGIN 前夜 赤い彗星』第1弾オープニング",
+      "type": "other",
+      "channelName": "サンライズ  SUNRISE Official",
+      "officialStatus": "official",
+      "embeddable": true
+    }
+  ],
+  "108039:OP:2": [
+    {
+      "youtubeVideoId": "GRDvuQ7KaFI",
+      "title": "【公式】『機動戦士ガンダム THE ORIGIN 前夜 赤い彗星』第2弾オープニング",
+      "type": "other",
+      "channelName": "サンライズ  SUNRISE Official",
+      "officialStatus": "official",
+      "embeddable": true
+    }
+  ],
+  "108039:OP:3": [
+    {
+      "youtubeVideoId": "MCcZe1R095k",
+      "title": "【公式】『機動戦士ガンダム THE ORIGIN 前夜 赤い彗星』第3弾オープニング",
+      "type": "other",
+      "channelName": "サンライズ  SUNRISE Official",
+      "officialStatus": "official",
+      "embeddable": true
+    }
+  ],
+  "108039:ED:1": [
+    {
+      "youtubeVideoId": "58wgscVduc0",
+      "title": "【公式】『機動戦士ガンダム THE ORIGIN 前夜 赤い彗星』第1弾エンディング",
+      "type": "other",
+      "channelName": "サンライズ  SUNRISE Official",
+      "officialStatus": "official",
+      "embeddable": true
+    }
+  ],
+  "108039:ED:2": [
+    {
+      "youtubeVideoId": "uQPP8yKKZ-Y",
+      "title": "【公式】『機動戦士ガンダム THE ORIGIN 前夜 赤い彗星』第2弾エンディング",
+      "type": "other",
+      "channelName": "サンライズ  SUNRISE Official",
+      "officialStatus": "official",
+      "embeddable": true
+    }
+  ],
+  "108039:ED:3": [
+    {
+      "youtubeVideoId": "h5t3-RSyIzE",
+      "title": "【公式】『機動戦士ガンダム THE ORIGIN 前夜 赤い彗星』第3弾エンディング",
+      "type": "other",
+      "channelName": "サンライズ  SUNRISE Official",
+      "officialStatus": "official",
+      "embeddable": true
+    },
+    {
+      "youtubeVideoId": "Nnzm6h4fIRQ",
+      "title": "【公式】『機動戦士ガンダム THE ORIGIN 前夜 赤い彗星』第3弾エンディング（第12話版）",
+      "type": "other",
+      "channelName": "サンライズ  SUNRISE Official",
+      "officialStatus": "official",
+      "embeddable": true
+    }
+  ],
+  "108039:ED:4": [
+    {
+      "youtubeVideoId": "H9WlcvRRLQY",
+      "title": "【公式】『機動戦士ガンダム THE ORIGIN 前夜 赤い彗星』第4弾エンディング",
+      "type": "other",
+      "channelName": "サンライズ  SUNRISE Official",
+      "officialStatus": "official",
+      "embeddable": true
+    }
+  ],
   "105749:OP:1": [
     {
       "youtubeVideoId": "J_OxuDSZ4ng",
