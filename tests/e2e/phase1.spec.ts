@@ -2363,3 +2363,163 @@ test("broken remote posters show an accessible fallback", async ({ page }) => {
   await expect(page.getByRole("img", { name: /圖片暫時無法載入/ })).toBeVisible();
   await expect(poster.getByText("暫時無法顯示")).toBeVisible();
 });
+
+async function renderedTextContrast(locator: import("@playwright/test").Locator, pseudo?: "::placeholder") {
+  return locator.evaluate((element, pseudoElement) => {
+    type Color = [number, number, number, number];
+    const parseColor = (value: string): Color => {
+      const srgb = value.startsWith("color(srgb ");
+      const body = srgb ? value.slice(11, -1) : value.replace(/^rgba?\(/, "").slice(0, -1);
+      if (!srgb && !/^rgba?\(/.test(value)) throw new Error(`Unsupported contrast color: ${value}`);
+      const values = body.split(/[\s,/]+/).map(Number);
+      if (values.some((part) => !Number.isFinite(part)) || ![3, 4].includes(values.length)) throw new Error("Invalid contrast color");
+      return [values[0]! / (srgb ? 1 : 255), values[1]! / (srgb ? 1 : 255), values[2]! / (srgb ? 1 : 255), values[3] ?? 1];
+    };
+    const composite = (foreground: Color, background: Color): Color => [
+      foreground[0] * foreground[3] + background[0] * (1 - foreground[3]),
+      foreground[1] * foreground[3] + background[1] * (1 - foreground[3]),
+      foreground[2] * foreground[3] + background[2] * (1 - foreground[3]), 1
+    ];
+    const layers: Color[] = [];
+    for (let node: Element | null = element; node; node = node.parentElement) {
+      const style = getComputedStyle(node);
+      if (style.opacity !== "1") throw new Error("Contrast sample must have full element opacity");
+      if (style.backgroundImage !== "none") throw new Error("Contrast sample needs separate image-background review");
+      const color = parseColor(style.backgroundColor);
+      layers.push(color);
+      if (color[3] === 1) break;
+    }
+    if (layers.at(-1)?.[3] !== 1) throw new Error("Contrast sample needs an opaque background");
+    const background = layers.reverse().reduce((back, front) => composite(front, back), [1, 1, 1, 1] as Color);
+    const style = getComputedStyle(element, pseudoElement);
+    const color = parseColor(style.color);
+    if (pseudoElement) color[3] *= Number(style.opacity);
+    const foreground = composite(color, background);
+    // WCAG relative luminance uses linearized sRGB; compare the unrounded ratio.
+    const luminance = (rgb: Color) => rgb.slice(0, 3)
+      .map((value) => value <= 0.04045 ? value / 12.92 : ((value + 0.055) / 1.055) ** 2.4)
+      .reduce((sum, value, index) => sum + value * [0.2126, 0.7152, 0.0722][index]!, 0);
+    const light = Math.max(luminance(foreground), luminance(background));
+    const dark = Math.min(luminance(foreground), luminance(background));
+    return (light + 0.05) / (dark + 0.05);
+  }, pseudo);
+}
+
+for (const theme of ["light", "dark"] as const) {
+  test(`accent text, song badges and controls retain readable contrast in ${theme} mode`, async ({ page }) => {
+    test.setTimeout(90_000);
+    await page.emulateMedia({ colorScheme: "light", reducedMotion: "reduce" });
+    const mediaRequests: string[] = [];
+    page.on("request", (request) => {
+      if (/youtube|ytimg|googlevideo/.test(new URL(request.url()).hostname)) mediaRequests.push(request.url());
+    });
+    const check = async (selector: string, hover = false, pseudo?: "::placeholder") => {
+      const element = page.locator(selector).first();
+      await expect(element).toBeVisible();
+      if (hover) await element.hover();
+      await expect.poll(() => renderedTextContrast(element, pseudo), {
+        message: `${theme}: ${selector}${hover ? " on hover" : ""}${pseudo ?? ""}`
+      }).toBeGreaterThanOrEqual(4.5);
+    };
+    for (const width of [1280, 390]) {
+      await page.setViewportSize({ width, height: width < 600 ? 844 : 900 });
+      await page.goto("/");
+      if (await page.locator("html").getAttribute("data-theme") !== theme) await page.locator("[data-theme-toggle]").click();
+      await expect(page.locator("html")).toHaveAttribute("data-theme", theme);
+      if (width < 600) await page.locator("[data-menu-toggle]").click();
+      await expect(page.locator(".site-nav a")).toHaveCount(5);
+      await check(".site-nav a[aria-current] span");
+      await check(".site-nav a[aria-current] small");
+      if (width < 600) await page.keyboard.press("Escape");
+      await check(".catalog-status > a");
+      await check(".hero__search a");
+      await check(".button--primary");
+      await check(".button--primary", true);
+      await check(".button--outline", true);
+      await check(".catalog-preview__type");
+      await check(".catalog-preview__type--ed");
+
+      await page.goto("/catalog/");
+      await check('.catalog-heading [lang="en"]');
+      await page.locator(".catalog-years a").first().hover();
+      await check(".catalog-years a strong");
+      await check(".catalog-years a small");
+      await page.goto("/catalog/2019/");
+      await check(".catalog-adjacent a");
+      await page.locator(".catalog-quarters a").first().hover();
+      await check(".catalog-quarters a strong");
+
+      await page.goto("/seasons/2019-spring/");
+      await check(".season-siblings a[aria-current]");
+      await check(".season-header__review");
+      await check(".season-filters button");
+      await check(".anime-card__video");
+      await check(".catalog-references__heading p");
+      await check(".catalog-references__heading > a");
+
+      await page.goto("/anime/youkai-watch-2019/");
+      await check(".theme-card__type--op strong");
+      await check(".theme-card__type--ed strong");
+      for (const summary of await page.locator(".theme-card__verification > summary").all()) await summary.click();
+      await check(".theme-card__verification a");
+      await check(".theme-card__source-meta");
+      await check(".correction-link");
+      await check(".creator-search-link", true);
+      await page.locator(".source-list a").first().hover();
+      await check(".source-list__label");
+      await check(".youtube-media__external", true);
+      await expect(page.locator("iframe")).toHaveCount(0);
+
+      await page.goto("/search/");
+      await check(".catalog-search__header div > p");
+      await check(".catalog-search__browse");
+      await check("#catalog-query", false, "::placeholder");
+      await page.locator("#catalog-query").fill("YOASOBI");
+      await expect(page.locator("[data-catalog-search-clear]")).toBeEnabled();
+      await check("[data-catalog-search-clear]");
+      await check(".catalog-result__season");
+      await check(".theme-index__type");
+      await check(".theme-index__title", true);
+      await check(".catalog-result__open", true);
+      await page.locator(".catalog-result__open").first().focus();
+      await page.keyboard.press("Tab");
+      await expect(page.locator(":focus-visible")).toHaveCount(1);
+      await expect.poll(() => renderedTextContrast(page.locator(":focus-visible"))).toBeGreaterThanOrEqual(4.5);
+      expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+
+      await page.goto("/sources/");
+      await check(".source-registry__heading strong");
+      await page.goto("/not-a-real-route/");
+      await check(".not-found > p:first-child");
+      await check(".button--primary", true);
+    }
+    expect(mediaRequests).toEqual([]);
+  });
+}
+
+test("home content fits around the sidebar breakpoint without hiding the introduction", async ({ page }) => {
+  await page.emulateMedia({ reducedMotion: "reduce" });
+  await page.goto("/");
+  for (const width of [320, 390, 760, 761, 959, 960, 1040, 1100, 1101, 1200, 1280]) {
+    await page.setViewportSize({ width, height: 900 });
+    const heading = page.locator(".hero h1");
+    const visual = page.locator(".hero__visual");
+    await expect(heading).toBeVisible();
+    await expect(visual).toBeVisible();
+    const bounds = await page.locator(".hero").evaluate((hero) => {
+      const h = hero.querySelector("h1")!.getBoundingClientRect();
+      const v = hero.querySelector(".hero__visual")!.getBoundingClientRect();
+      const headingRange = document.createRange();
+      headingRange.selectNodeContents(hero.querySelector("h1")!);
+      const textRects = [...headingRange.getClientRects()];
+      return {
+        overflow: document.documentElement.scrollWidth > innerWidth,
+        headingInside: textRects.every((rect) => rect.left >= h.left - 1 && rect.right <= h.right + 1),
+        separated: h.bottom <= v.top || v.bottom <= h.top || h.right <= v.left || v.right <= h.left
+      };
+    });
+    expect(bounds, `Homepage layout at ${width}px`).toEqual({ overflow: false, headingInside: true, separated: true });
+    await expect(page.locator(".hero__actions a")).toHaveCount(2);
+    await expect(page.locator(".hero__search a")).toBeVisible();
+  }
+});

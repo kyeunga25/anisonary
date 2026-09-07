@@ -64,7 +64,7 @@ const themeCount = index.reduce((total, anime) => total + anime.themes.length, 0
   .catalog-search__control { align-items: center; display: grid; gap: 0.8rem; grid-template-columns: auto 1fr auto; }
   .catalog-search__control > svg { fill: none; height: 1.35rem; stroke: var(--color-muted); stroke-linecap: round; stroke-width: 1.7; width: 1.35rem; }
   .catalog-search__control input { background: transparent; border: 0; color: var(--color-ink); font-size: clamp(1rem, 2vw, 1.4rem); font-weight: 650; min-width: 0; outline: 0; padding: 0.35rem 0; width: 100%; }
-  .catalog-search__control input::placeholder { color: color-mix(in srgb, var(--color-muted) 72%, transparent); }
+  .catalog-search__control input::placeholder { color: var(--color-muted); opacity: 1; }
   .catalog-search__control input:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 4px; }
   .catalog-search__control button { background: transparent; border: 0; color: var(--color-accent); cursor: pointer; font-size: 0.82rem; font-weight: 720; padding: 0.7rem; }
   .catalog-search__control button:disabled { color: var(--color-muted); cursor: default; opacity: 0.5; }

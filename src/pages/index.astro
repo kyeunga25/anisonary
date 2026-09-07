@@ -24,7 +24,7 @@ const isMockData = data.status === "ready" && Boolean(data.current?.isMockData |
 <BaseLayout jsonLd={buildWebsiteJsonLd(site)}>
   <section class="hero page-shell">
     <div class="hero__copy">
-      <h1>按季度與動畫，<br /><span class="hero-title-line">找到每一首 <span>OP／ED</span> 的官方入口。</span></h1>
+      <h1>按季度與動畫，<br /><span class="hero-title-line">找到 <span>OP／ED</span> 的官方入口。</span></h1>
       <p>以日本播出日整理動畫與主題曲，連接官方影片、串流平台與資料來源。</p>
       <div class="hero__actions">
         <a class="button button--primary" href="/seasons/2026-summer/">
@@ -118,7 +118,7 @@ const isMockData = data.status === "ready" && Boolean(data.current?.isMockData |
     max-width: 13.2em;
   }
 
-  .hero h1 span { white-space: nowrap; }
+  .hero h1 .hero-title-line > span { white-space: nowrap; }
 
   .hero__copy > p {
     color: var(--color-muted);
