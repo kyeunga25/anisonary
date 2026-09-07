@@ -58,6 +58,7 @@
 - **v1.32.1 source**：季度頁省略空白星期分組，篩選時同步更新可見分組、跳轉連結與零結果狀態；支援無 JavaScript 原生導覽，歌曲、來源日期及 API 資料不變；發布證據見對應 GitHub Release。
 - **v1.33.0 source**：2019 春季增加 4 套校園題材 TV 作品、9 筆 OP／ED 與 3 筆官方影片 metadata；保留第 6 話片尾、Study 第一季三人演唱、先行配信日期及第二季既有網址；本季共 8 套作品與 18 筆歌曲，發布證據見對應 GitHub Release。
 - **v1.34.0 source**：2019 春季增加 3 套 TV 作品、6 筆 OP／ED 與 6 筆官方影片 metadata；保留單集 ED 畫面差異、SPR5 五位演唱者與 TV Size／完整版發行分界，未確認歌曲用途及有衝突的署名不補值；本季共 11 套作品與 24 筆歌曲，發布證據見對應 GitHub Release。
+- **v1.34.1 source**：影片載入前顯示已審閱標題，保留短版、角色演唱及剪輯版本名稱；長標題可完整換行，播放器載入後仍可見，既有歌曲、來源日期與 API 內容不變；發布證據見對應 GitHub Release。
 - 正式網站使用 custom domain；非正式 Cloudflare hostname 不在公開文檔記錄；
 - 私有 backend、資料庫、crawler、帳戶設定、憑證與內部規則不屬於本公開 repository。
 
