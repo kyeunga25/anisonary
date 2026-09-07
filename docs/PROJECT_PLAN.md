@@ -53,6 +53,7 @@
 - **v1.29.0 source**：2019 夏季增加 4 套作品、9 筆歌曲及 4 筆官方影片 metadata，並修正《拳願阿修羅 Part 2》的配信／電視播出版區分；補回 2 筆 Netflix 配信版歌曲，既有電視版歌曲與影片改列 OP2／ED2；發布證據見對應 GitHub Release。
 - **v1.30.0 source**：2019 夏季增加《CANNON BUSTERS 砲彈剋星》、《聖鬥士星矢：黃道十二宮戰士》及《HERO MASK 英雄面具 PartII》，共 3 套 WEB 作品、3 筆歌曲及 2 筆官方影片 metadata；保留英文演唱版本、英詞 credits 及歌曲待補充狀態；發布證據見對應 GitHub Release。
 - **v1.31.0 source**：2019 夏季增加 3 套 TV 作品、1 筆片尾曲及 1 筆官方影片 metadata；分清新作短篇、特別篇與節目內播出時段；沒有可靠繁中來源或歌曲 credits 時不補值；發布證據見對應 GitHub Release。
+- **v1.31.1 source**：修正歌曲頁隱藏與藝人欄不同的演唱 credits；個別演唱者、角色與合成歌聲可由既有來源資料顯示，歌曲、來源日期及 API 內容不變；發布證據見對應 GitHub Release。
 - 正式網站使用 custom domain；非正式 Cloudflare hostname 不在公開文檔記錄；
 - 私有 backend、資料庫、crawler、帳戶設定、憑證與內部規則不屬於本公開 repository。
 
