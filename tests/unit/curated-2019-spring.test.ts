@@ -10,6 +10,69 @@ const spring = curatedSeasonDetails.find(({ id }) => id === "2019-spring")!;
 const anime = (id: number) => curatedAnimeDetails.find((item) => item.id === `curated-${id}`)!;
 
 describe("2019 spring reviewed TV catalogue", () => {
+  it("round-trips the sports series and TV shorts without inventing a missing broadcast time", async () => {
+    for (const [id, date, weekday] of [
+      [104989, "2019-04-07", 7], [104284, "2019-04-06", 6], [102064, "2019-04-04", 4]
+    ] as const) {
+      expect(curated2019SpringSeeds.find(({ anilistId }) => anilistId === id)?.startDate).toBe(date);
+      const detail = anime(id);
+      expect(detail.editorialWeekday).toBe(weekday);
+      const provider = new ApiProvider("https://anisonary.k-y.cc/api/v1", {
+        fetch: vi.fn<typeof fetch>().mockResolvedValue(new Response(JSON.stringify(detail), { headers: { "Content-Type": "application/json" } }))
+      });
+      expect(await provider.getAnime(detail.slug)).toEqual(detail);
+    }
+    expect(anime(104989).broadcastTimeJst).toBe("25:35");
+    expect(anime(104284).broadcastTimeJst).toBeUndefined();
+    expect(anime(104284).officialSiteUrl).toBeUndefined();
+    expect(anime(102064).broadcastLabel).toContain("首話 18:55");
+  });
+
+  it("retains Cinderella Nine's four-character cover, production credits and distinct release dates", async () => {
+    const baseball = anime(104989);
+    expect(baseball.themes.map(({ type, titleJa, releaseDate }) => [type, titleJa, releaseDate])).toEqual([
+      ["OP", "エチュード", "2019-05-22"], ["ED", "どんなときも。", "2019-06-17"]
+    ]);
+    expect(baseball.themes[0]?.versionLabel).toContain("TV Size 於 2019-05-01");
+    expect(baseball.themes[1]?.versionLabel).toContain("2019-08-09");
+    expect(baseball.themes[1]?.credits.filter(({ role }) => role === "vocals").map(({ name }) => name)).toEqual([
+      "有原翼（CV：西田望見）", "東雲龍（CV：近藤玲奈）", "野崎夕姫（CV：南早紀）", "河北智恵（CV：井上ほの花）"
+    ]);
+    expect(baseball.themes[1]?.credits).toContainEqual({ name: "久下真音", role: "arrangement" });
+    expect(baseball.themes[1]?.credits).toContainEqual({ name: "槇原敬之", role: "composition" });
+    const data = await loadCatalogSearchData(new CuratedProvider(), true);
+    const results = searchCatalog(buildCatalogSearchIndex(data.entries), { query: "久下真音", scope: "creators", year: "2019", quarter: "spring", type: "ED" });
+    expect(results.map(({ anime: item }) => item.slug)).toEqual(["hachigatsu-no-cinderella-nine"]);
+    expect(results[0]?.themes.map(({ titleJa }) => titleJa)).toEqual(["どんなときも。"]);
+  });
+
+  it("uses Chou Kadou Girl's official opening role and early digital ending without unverified arrangement", () => {
+    const short = anime(104284);
+    expect(short.themes.map(({ type, titleJa, releaseDate }) => [type, titleJa, releaseDate])).toEqual([
+      ["OP", "それゆけ！恋ゴコロ", "2019-05-10"], ["ED", "ONE", "2019-04-27"]
+    ]);
+    expect(short.themes[0]?.credits).toContainEqual({ name: "James Panda Jr.", role: "composition" });
+    expect(short.themes[0]?.credits).toContainEqual({ name: "前口 渉", role: "arrangement" });
+    expect(short.themes[1]?.credits.filter(({ role }) => role === "arrangement")).toEqual([]);
+    expect(short.themes.flatMap(({ videos }) => videos.map(({ youtubeVideoId, type }) => [youtubeVideoId, type])))
+      .toEqual([["GfVF3xC3LuE", "full_music_video"], ["lLAPyH9IdpM", "official_audio"]]);
+    expect(short.themes[1]?.sources).toContainEqual(expect.objectContaining({
+      url: "https://linkco.re/X86SGTGv?lang=ja", role: "first_party", language: "ja"
+    }));
+  });
+
+  it("keeps Yatogame's first season searchable without upgrading general-theme evidence or later-season songs", async () => {
+    const short = anime(102064);
+    expect(short).toMatchObject({ titleZhHant: "八十龜醬觀察日記", themes: [], themeAvailability: "not_announced" });
+    expect(short.sources).toContainEqual(expect.objectContaining({
+      url: "https://yatogame.nagoya/123henkou/", role: "first_party"
+    }));
+    const data = await loadCatalogSearchData(new CuratedProvider(), true);
+    const results = searchCatalog(buildCatalogSearchIndex(data.entries), { query: "八十龜", scope: "anime", year: "2019", quarter: "spring", type: "all" });
+    expect(results.map(({ anime: item }) => item.slug)).toEqual(["yatogame-chan-kansatsu-nikki"]);
+    expect(results[0]?.themes).toEqual([]);
+  });
+
   it("keeps editorial premiere days for split seasons and TV shorts and round-trips their public records", async () => {
     for (const [id, date, weekday, time] of [
       [104578, "2019-04-28", 7, "24:10"],
@@ -204,9 +267,9 @@ describe("2019 spring reviewed TV catalogue", () => {
   });
 
   it("publishes a partial quarter with reviewed identity and song evidence, without unverified artwork", () => {
-    expect(spring.anime).toHaveLength(23);
+    expect(spring.anime).toHaveLength(26);
     expect(spring.coverageNote).toContain("跨季延續及特殊歌曲版本仍待核對");
-    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(55);
+    expect(curated2019SpringSeeds.flatMap(({ themes }) => themes)).toHaveLength(59);
     expect(curatedSeasonDetails.some(({ id }) => id === "2025-fall")).toBe(false);
     for (const seed of curated2019SpringSeeds) {
       expect(seed.seasonIds).toEqual(["2019-spring"]);

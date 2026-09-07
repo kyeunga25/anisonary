@@ -1,6 +1,22 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2019SpringThemeVideos = {
+  "104284:OP:1": [{
+    youtubeVideoId: "GfVF3xC3LuE",
+    title: "【MV】A応P「それゆけ！恋ゴコロ」FULL Ver.（TVアニメ『超可動ガール1/6』OPテーマ)",
+    type: "full_music_video",
+    channelName: "A応P",
+    officialStatus: "official",
+    embeddable: true
+  }],
+  "104284:ED:1": [{
+    youtubeVideoId: "lLAPyH9IdpM",
+    title: "ONE",
+    type: "official_audio",
+    channelName: "Haruka Tojo - Topic",
+    officialStatus: "official",
+    embeddable: true
+  }],
   "104578:OP:1": [{
     youtubeVideoId: "czJHHta2vz8",
     title: "憧憬と屍の道",

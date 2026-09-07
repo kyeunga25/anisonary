@@ -2,6 +2,23 @@ import { curated2019SpringSeeds } from "@/data/curated-seeds/2019/spring";
 import type { CuratedThemeSourceOverrideMap, CuratedThemeSourceSeed } from "@/data/curated-theme-sources/types";
 
 const firstPartyUrlsByTheme: Readonly<Record<string, readonly string[]>> = {
+  "104989:OP:1": [
+    "https://anime-hachinai.com/news/273/",
+    "https://www.jvcmusic.co.jp/-/Discography/A025701/VIZL-1596.html",
+    "https://www.jvcmusic.co.jp/-/Discography/A025701/VE3WA-18398.html"
+  ],
+  "104989:ED:1": [
+    "https://anime-hachinai.com/news/400/",
+    "https://www.tms-e.co.jp/alltitles/2010s/814101.html"
+  ],
+  "104284:OP:1": [
+    "https://www.youtube.com/watch?v=GfVF3xC3LuE",
+    "https://www.at-x.com/promox/archive.html"
+  ],
+  "104284:ED:1": [
+    "https://linkco.re/X86SGTGv?lang=ja",
+    "https://www.at-x.com/promox/archive.html"
+  ],
   "104578:OP:1": [
     "https://shingeki.tv/season3/music/op2.php",
     "https://shingeki.linked-horizon.com/news/2019/04/18/2757.html",
@@ -150,6 +167,14 @@ const firstPartyUrlsByTheme: Readonly<Record<string, readonly string[]>> = {
 };
 
 const sourceLabelsByUrl: Readonly<Record<string, string>> = {
+  "https://anime-hachinai.com/news/273/": "動畫官方：OP 用途、演唱與詞曲編曲署名",
+  "https://www.jvcmusic.co.jp/-/Discography/A025701/VIZL-1596.html": "Victor 官方：OP 完整版單曲發行日期",
+  "https://www.jvcmusic.co.jp/-/Discography/A025701/VE3WA-18398.html": "Victor 官方：OP TV Size 先行配信日期",
+  "https://anime-hachinai.com/news/400/": "動畫官方：ED 四人演唱、完整版先行配信與迷你專輯",
+  "https://www.tms-e.co.jp/alltitles/2010s/814101.html": "TMS 製作公司：OP／ED、角色演唱及詞曲編曲署名",
+  "https://www.youtube.com/watch?v=GfVF3xC3LuE": "A応P 官方：完整 OP 音樂影片、單曲日期與製作署名",
+  "https://www.at-x.com/promox/archive.html": "AT-X 播出機構：OP／ED 歌曲及演唱者",
+  "https://linkco.re/X86SGTGv?lang=ja": "TuneCore 藝人正式發行資料：ED 用途、數位日期與詞曲署名",
   "https://shingeki.tv/season3/music/op2.php": "動畫官方：第三季後半 OP 與完整版單曲日期",
   "https://shingeki.linked-horizon.com/news/2019/04/18/2757.html": "Linked Horizon 官方：OP TV Size 先行配信日期",
   "https://www.youtube.com/watch?v=czJHHta2vz8": "Pony Canyon 正式發行 metadata：OP 完整版及 Revo 製作署名",

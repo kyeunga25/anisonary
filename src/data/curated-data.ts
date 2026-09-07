@@ -4605,6 +4605,29 @@ const animeOfficialSourceOverrides: Record<number, { label: string; url: string 
 };
 
 const animeSourceOverrides: Record<number, AnimeSourceSeed[]> = {
+  104989: [{
+    label: "東京電視台：2019 年原始首播日期及編輯播出時段",
+    url: "https://www.tv-tokyo.co.jp/anime/hachinai/onair/",
+    language: "ja",
+    role: "first_party"
+  }],
+  104284: [{
+    label: "AT-X 播出機構：2019 年 TV 作品與集數資料",
+    url: "https://www.at-x.com/program/detail/?id=13118",
+    language: "ja",
+    role: "first_party"
+  }, {
+    label: "Animate Times：2019 年原始播出日期交叉核對",
+    url: "https://www.animatetimes.com/news/details.php?id=1560331168",
+    language: "ja",
+    role: "broadcast_cross_check"
+  }],
+  102064: [{
+    label: "動畫官方第一季公告：首三話播出時間變更",
+    url: "https://yatogame.nagoya/123henkou/",
+    language: "ja",
+    role: "first_party"
+  }],
   104578: [{
     label: "Pony Canyon 官方：第三季後半首播日與 NHK 深夜時段",
     url: "https://news.ponycanyon.co.jp/2019/03/30969",
