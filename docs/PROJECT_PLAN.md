@@ -4,15 +4,15 @@
 
 ## Current product scope
 
-- 2026 夏季 70 套、2026 春季 70 套、2026 冬季 66 套、2025 夏季 75 套、2025 春季 82 套、2025 冬季 59 套、2024 秋季 88 套、2024 夏季 68 套、2024 春季 76 套、2024 冬季 75 套、2023 秋季 100 套、夏季 75 套、春季 79 套、冬季 72 套、2022 秋季 80 套、夏季 69 套、春季 79 套、冬季 58 套、2021 秋季 65 套、夏季 46 套、春季 73 套、冬季 67 套、2020 秋季 67 套、夏季 31 套、春季 61 套、冬季 58 套、2019 秋季 67 套及 2019 夏季 42 套非成人 TV／網絡連載作品；
-- 跨季作品共用詳情頁，共 1,917 個唯一作品及 4,229 筆已審閱 OP／ED；
+- 2026 夏季 70 套、2026 春季 70 套、2026 冬季 66 套、2025 夏季 75 套、2025 春季 82 套、2025 冬季 59 套、2024 秋季 88 套、2024 夏季 68 套、2024 春季 76 套、2024 冬季 75 套、2023 秋季 100 套、夏季 75 套、春季 79 套、冬季 72 套、2022 秋季 80 套、夏季 69 套、春季 79 套、冬季 58 套、2021 秋季 65 套、夏季 46 套、春季 73 套、冬季 67 套、2020 秋季 67 套、夏季 31 套、春季 61 套、冬季 58 套、2019 秋季 67 套、2019 夏季 42 套及 2019 春季 4 套非成人 TV／網絡連載作品；
+- 跨季作品共用詳情頁，共 1,921 個唯一作品及 4,238 筆已審閱 OP／ED；
 - 五個固定導覽入口、年代／年份／季度目錄、星期一至星期日及不定期分組、分頁本機搜尋、動畫詳情與同源 static JSON API；
 - 每個季度、作品及歌曲公開來源、語言、review state 及核對日期；每首歌曲同時具備第一方／交叉核對來源；
 - 官方／licensed YouTube 導航、明確第三方連線同意、來源歸屬及無圖 fallback；
 - Astro + strict TypeScript、generated CSP、privacy-bounded Service Worker；
 - Cloudflare Workers Static Assets 靜態部署，0 application binding。
 
-2019 夏季仍在分批核對，2025 秋季尚未收錄；不把現有快照視為全季度或全歷史資料已齊備。
+2019 春、夏季仍在分批核對，2025 秋季尚未收錄；不把現有快照視為全季度或全歷史資料已齊備。
 
 ## 公開版本狀態
 
@@ -54,6 +54,7 @@
 - **v1.30.0 source**：2019 夏季增加《CANNON BUSTERS 砲彈剋星》、《聖鬥士星矢：黃道十二宮戰士》及《HERO MASK 英雄面具 PartII》，共 3 套 WEB 作品、3 筆歌曲及 2 筆官方影片 metadata；保留英文演唱版本、英詞 credits 及歌曲待補充狀態；發布證據見對應 GitHub Release。
 - **v1.31.0 source**：2019 夏季增加 3 套 TV 作品、1 筆片尾曲及 1 筆官方影片 metadata；分清新作短篇、特別篇與節目內播出時段；沒有可靠繁中來源或歌曲 credits 時不補值；發布證據見對應 GitHub Release。
 - **v1.31.1 source**：修正歌曲頁隱藏與藝人欄不同的演唱 credits；個別演唱者、角色與合成歌聲可由既有來源資料顯示，歌曲、來源日期及 API 內容不變；發布證據見對應 GitHub Release。
+- **v1.32.0 source**：加入 2019 春季首批 4 套 TV 作品、9 筆 OP／ED 及 3 筆官方影片 metadata；保留單集片尾、角色演唱與共同編曲，按正篇首播區分特番及先行上映；本季與夏季仍在補充，發布證據見對應 GitHub Release。
 - 正式網站使用 custom domain；非正式 Cloudflare hostname 不在公開文檔記錄；
 - 私有 backend、資料庫、crawler、帳戶設定、憑證與內部規則不屬於本公開 repository。
 
@@ -64,7 +65,7 @@
 - 預設 build 使用 repository-reviewed `CuratedProvider`；`MockProvider` 只供測試與 UI fixture；
 - `/api/v1/*.json` 由同一份 reviewed snapshot 在 build-time 產生，不加入 runtime backend、資料庫或 credential；
 - `PUBLIC_API_BASE_URL` 存在時切換至經契約限制的唯讀 `ApiProvider`；
-- 二十八個季度快照均可瀏覽（2019 夏季仍在補充），list／detail／static API identity 保持一致；
+- 二十九個季度快照均可瀏覽（2019 春、夏季仍在補充），list／detail／static API identity 保持一致；
 - 日文名稱為主、繁中為輔；
 - 每筆歌曲通過第一方及交叉核對來源 gate，未審閱候選不發布；
 - 公開資料不包含完整度百分比、confidence score 或內部選源規則；

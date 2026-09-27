@@ -3,6 +3,10 @@ import {
   curated2019FallSeeds
 } from "@/data/curated-seeds/2019/fall";
 import {
+  curated2019SpringAnimeIds,
+  curated2019SpringSeeds
+} from "@/data/curated-seeds/2019/spring";
+import {
   curated2019SummerAnimeIds,
   curated2019SummerSeeds
 } from "@/data/curated-seeds/2019/summer";
@@ -437,6 +441,16 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     coverageNote: "本季正在補充，目前收錄 42 套作品，包括 38 套 TV 與 4 套網絡連載。其餘作品及特殊歌曲版本仍待核對。",
     seeds: curated2019SummerSeeds,
     animeIds: curated2019SummerAnimeIds
+  },
+  {
+    id: "2019-spring",
+    year: 2019,
+    quarter: "spring",
+    titleZhHant: "春季動畫",
+    titleJa: "2019年春アニメ",
+    coverageNote: "本季正在補充，目前收錄 4 套 TV 作品。其餘作品、跨季延續及特殊歌曲版本仍待核對。",
+    seeds: curated2019SpringSeeds,
+    animeIds: curated2019SpringAnimeIds
   }
 ] as const);
 
