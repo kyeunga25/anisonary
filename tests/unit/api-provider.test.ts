@@ -241,3 +241,52 @@ describe("ApiProvider public contract", () => {
     await expect(provider.getSeasons()).rejects.toThrow("timed out");
   });
 });
+
+it("preserves optional song relations and independent evidence dates while rejecting broken relationships", async () => {
+  const anime = structuredClone(curatedAnimeDetails.find((detail) => detail.themes.some((theme) => (
+    (theme.recordings?.length ?? 0) > 1 && (theme.releases?.length ?? 0) > 0
+  )))!);
+  expect(anime).toBeDefined();
+  const index = anime.themes.findIndex((theme) => (
+    (theme.recordings?.length ?? 0) > 1 && (theme.releases?.length ?? 0) > 0
+  ));
+  const fixtureTheme = anime.themes[index]!;
+  const retainedSource = fixtureTheme.sources.find((source) => !fixtureTheme.evidence!.some((evidence) => evidence.sourceUrls.includes(source.url)))!;
+  expect(retainedSource).toBeDefined();
+  retainedSource.verifiedAt = "2001-01-01";
+  fixtureTheme.lastVerifiedAt = fixtureTheme.sources.map((source) => source.verifiedAt).sort().at(-1)!;
+  const fetchMock = vi.fn<typeof fetch>();
+  const provider = new ApiProvider("https://catalog.example/api/v1", { fetch: fetchMock });
+  fetchMock.mockImplementation(async () => jsonResponse(anime));
+  const parsed = await provider.getAnime(anime.slug);
+  expect(parsed).toEqual(anime);
+  const theme = parsed!.themes[index]!;
+  expect(new Set(theme.sources.map((source) => source.verifiedAt)).size).toBeGreaterThan(1);
+  expect(theme.lastVerifiedAt).toBe(theme.sources.map((source) => source.verifiedAt).sort().at(-1));
+
+  for (const date of [{ value: "2026", precision: "year" }, { value: "2026-07", precision: "month" }]) {
+    const payload = structuredClone(anime);
+    Object.assign(payload.themes[index]!.releases![0]!, { date });
+    fetchMock.mockImplementation(async () => jsonResponse(payload));
+    expect((await provider.getAnime(anime.slug))!.themes[index]!.releases![0]!.date).toEqual(date);
+  }
+
+  const mutations = [
+    (theme: typeof anime.themes[number]) => { theme.releases![0]!.tracks[0]!.recordingId = "missing-recording"; },
+    (theme: typeof anime.themes[number]) => { theme.links[0]!.releaseId = "missing-release"; },
+    (theme: typeof anime.themes[number]) => { theme.recordings!.push({ ...theme.recordings![0]! }); },
+    (theme: typeof anime.themes[number]) => { theme.evidence![0]!.sourceUrls = ["https://unknown.example/evidence"]; },
+    (theme: typeof anime.themes[number]) => { theme.evidence![0]!.verifiedAt = "2099-01-01"; },
+    (theme: typeof anime.themes[number]) => { theme.releases![0]!.date = { value: "2026-02-30", precision: "day" }; },
+    (theme: typeof anime.themes[number]) => { theme.releases![0]!.date = { value: "2026-07-08", precision: "month" }; },
+    (theme: typeof anime.themes[number]) => { theme.evidence = []; },
+    (theme: typeof anime.themes[number]) => { theme.credits.push({ name: "Group member fixture", role: "group_member" }); },
+    (theme: typeof anime.themes[number]) => { theme.links[0]!.url = "javascript:alert(1)"; }
+  ];
+  for (const mutate of mutations) {
+    const payload = structuredClone(anime);
+    mutate(payload.themes[index]!);
+    fetchMock.mockImplementation(async () => jsonResponse(payload));
+    await expect(provider.getAnime(anime.slug)).rejects.toThrow("invalid anime payload");
+  }
+});

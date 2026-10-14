@@ -7,6 +7,7 @@ const roleLabels: Record<PublicCreatorCredit["role"], string> = {
   composition: "作曲",
   songwriting: "詞曲",
   arrangement: "編曲",
+  group_member: "團隊成員",
   other: "其他"
 };
 

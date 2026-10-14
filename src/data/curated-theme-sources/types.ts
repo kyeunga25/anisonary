@@ -1,7 +1,7 @@
 import type { PublicThemeSource } from "@/types/public-api";
 import type { PublishedCuratedSeasonId } from "@/data/curated-season-registry";
 
-export type CuratedThemeSourceSeed = Omit<PublicThemeSource, "verifiedAt">;
+export type CuratedThemeSourceSeed = Omit<PublicThemeSource, "verifiedAt"> & Partial<Pick<PublicThemeSource, "verifiedAt">>;
 
 export type CuratedThemeSourceOverrideMap = Readonly<
   Record<string, readonly CuratedThemeSourceSeed[]>

@@ -26,10 +26,14 @@ function platformKey(platform: string): "apple" | "spotify" | "youtube" | "disc"
           {platformKey(link.platform) === "disc" && <><circle cx="12" cy="12" r="9" /><circle cx="12" cy="12" r="2.5" /><path d="M14 4.5 12 9" /></>}
           {platformKey(link.platform) === "generic" && <><path d="M10 14 20 4M13 4h7v7" /><path d="M18 13v6H5V6h6" /></>}
         </svg>
-        <span>{link.platform} · {externalLinkTypeLabel(link.linkType)}</span>
+        <span class="external-links__text">
+          <span class="external-links__label">{link.label}</span>
+          <small>{link.platform} · {externalLinkTypeLabel(link.linkType)}</small>
+        </span>
         <span class="sr-only">（在新分頁開啟外部網站）</span>
         <svg class="external-links__arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M7 4h9v9M16 4 4 16" /></svg>
       </a>
+      {link.verifiedAt && <p class="external-links__verification">連結核對：{link.verifiedAt}{link.availability === "unknown" && " · 地區播放／購買可用性未核對"}{link.availability === "unavailable" && " · 目前不可用"}</p>}
     </li>
   ))}
 </ul>
@@ -39,8 +43,12 @@ function platformKey(platform: string): "apple" | "spotify" | "youtube" | "disc"
   .external-links li + li { border-left: 1px solid var(--color-border); }
   .external-links a { align-items: center; color: var(--color-ink); display: flex; font-size: 0.82rem; font-weight: 670; gap: 0.65rem; justify-content: center; min-height: 3.75rem; padding: 0.8rem 1rem; text-decoration: none; }
   .external-links a:hover { color: var(--color-accent); }
+  .external-links__text { display: grid; gap: 0.2rem; min-width: 0; }
+  .external-links__label { overflow-wrap: anywhere; }
+  .external-links small { color: var(--color-muted); font-size: 0.7rem; font-weight: 400; }
   .external-links svg { fill: none; flex: 0 0 auto; height: 1.3rem; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.55; width: 1.3rem; }
   .external-links__arrow { height: 0.9rem !important; width: 0.9rem !important; }
+  .external-links__verification { color: var(--color-muted); font-size: 0.68rem; line-height: 1.5; margin: 0; padding: 0 1rem 0.75rem; }
 
   @media (max-width: 720px) {
     .external-links { grid-template-columns: 1fr; }

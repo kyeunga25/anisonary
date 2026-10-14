@@ -42,12 +42,20 @@ const videoFields = new Set([
   "channelName",
   "officialStatus",
   "embeddable",
+  "embedAvailability",
+  "recordingId",
+  "releaseId",
 ]);
 const videoTypes = new Set<PublicVideo["type"]>([
   "creditless_op",
   "creditless_ed",
   "tv_size",
   "full_music_video",
+  "music_video",
+  "art_track",
+  "lyric_video",
+  "live",
+  "pv",
   "official_audio",
   "other",
 ]);
@@ -122,6 +130,14 @@ export function validateCuratedThemeVideoRegistry<
         }
         if (typeof video.embeddable !== "boolean") {
           throw new Error(`Invalid theme video embeddable flag: ${key}`);
+        }
+        if (video.embedAvailability !== undefined && (video.embedAvailability !== "unknown" || video.embeddable)) {
+          throw new Error(`Invalid unverified video embedding: ${key}`);
+        }
+        for (const relation of [video.recordingId, video.releaseId]) {
+          if (relation !== undefined && !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(relation)) {
+            throw new Error(`Invalid theme video relationship ID: ${key}`);
+          }
         }
       }
     }

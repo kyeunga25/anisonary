@@ -73,8 +73,11 @@ export function validateCuratedThemeSourceRegistry<
       }
 
       for (const source of sources) {
-        if ("verifiedAt" in source) {
-          throw new Error(`Theme source override must not set verifiedAt: ${key}`);
+        if (source.verifiedAt !== undefined) {
+          const date = new Date(source.verifiedAt);
+          if (!/^\d{4}-\d{2}-\d{2}$/.test(source.verifiedAt) || Number.isNaN(date.getTime()) || date.toISOString().slice(0, 10) !== source.verifiedAt) {
+            throw new Error(`Invalid theme source verification date: ${key}`);
+          }
         }
         if (!source.label.trim()) {
           throw new Error(`Theme source label must not be empty: ${key}`);
