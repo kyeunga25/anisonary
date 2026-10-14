@@ -475,11 +475,13 @@ function parseTheme(value: unknown): PublicTheme {
 
   const titleRomaji = optionalText(item.titleRomaji);
   const titleZhHant = optionalText(item.titleZhHant);
+  const usageLabel = optionalText(item.usageLabel);
   const versionLabel = optionalText(item.versionLabel);
   const releaseDate = optionalIso8601(item.releaseDate);
   const lastVerifiedAt = optionalIso8601(item.lastVerifiedAt);
   if (titleRomaji !== undefined) theme.titleRomaji = titleRomaji;
   if (titleZhHant !== undefined) theme.titleZhHant = titleZhHant;
+  if (usageLabel !== undefined) theme.usageLabel = usageLabel;
   if (versionLabel !== undefined) theme.versionLabel = versionLabel;
   if (releaseDate !== undefined) theme.releaseDate = releaseDate;
   if (item.songId !== undefined) theme.songId = slug(item.songId);

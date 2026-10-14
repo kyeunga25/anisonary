@@ -44,6 +44,7 @@ const sourceRoleLabels = {
       <h3 lang="ja">{theme.titleJa}</h3>
       {theme.titleZhHant && <p class="theme-card__translation">{theme.titleZhHant}</p>}
       <p class="theme-card__artist">{theme.artistDisplayName}</p>
+      {theme.usageLabel && <p class="theme-card__version">用途：{theme.usageLabel}</p>}
       {theme.versionLabel && <p class="theme-card__version">{theme.versionLabel}</p>}
     </div>
 

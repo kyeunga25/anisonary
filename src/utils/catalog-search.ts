@@ -51,6 +51,7 @@ export function buildThemeSearchText(theme: PublicTheme): string {
     theme.titleRomaji,
     theme.artistDisplayName,
     ...theme.credits.map((credit) => credit.name),
+    theme.usageLabel,
     theme.versionLabel,
     ...(theme.recordings ?? []).flatMap((recording) => [recording.title, recording.format, recording.kind, ...(recording.credits ?? []).map((credit) => credit.name)]),
     ...(theme.releases ?? []).flatMap((release) => [release.title, release.edition, release.catalogNumber])
