@@ -5,7 +5,9 @@ import { pathToFileURL } from "node:url";
 
 const approvedImageOrigins = new Set(["https://s4.anilist.co"]);
 const approvedFrameOrigins = new Set(["https://www.youtube-nocookie.com"]);
-const dataScriptTypes = new Set(["application/ld+json"]);
+// Non-executable JSON data blocks do not need script-src hashes. Per-quarter
+// search data must not inflate the shared header beyond the platform limit.
+const dataScriptTypes = new Set(["application/ld+json", "application/json"]);
 const maximumHeaderLineLength = 2_000;
 
 async function listHtmlFiles(directory) {
