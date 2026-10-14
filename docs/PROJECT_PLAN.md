@@ -1,12 +1,14 @@
 # Anisonary｜動畫歌典 — 公開範圍與版本狀態
 
-本文件記錄 repository source 的產品範圍與可驗證狀態；正式發布以對應 Release 的驗收證據為準。產品以動畫為入口，按季度與日本編輯播出日整理 OP／ED 資料，並把使用者導向官方或正版渠道；不託管音訊、影片或完整歌詞。
+本文件記錄 repository source 的產品範圍與可驗證狀態；正式發布以對應 Release 的驗收證據為準。產品以緊湊歌曲列表為入口，按季度整理 OP／ED，再由動畫頁展示全部歌曲與官方來源；不託管音訊、影片或完整歌詞。
+
+歌曲收集、音源版本與發行品流程見 [`SONG_COLLECTION_WORKFLOW.md`](./SONG_COLLECTION_WORKFLOW.md)，批次接續位置見 [`CATALOG_COLLECTION_STATUS.md`](./CATALOG_COLLECTION_STATUS.md)。可選的歌曲、用途標籤、音源、發行品及欄位證據格式已接通；只在經核對的歌曲逐批填入，不代表全目錄已齊備。新工作階段使用 [`CONTINUOUS_DEVELOPMENT_PROMPT.md`](./CONTINUOUS_DEVELOPMENT_PROMPT.md)。
 
 ## Current product scope
 
 - 2026 夏季 70 套、2026 春季 70 套、2026 冬季 66 套、2025 夏季 75 套、2025 春季 82 套、2025 冬季 59 套、2024 秋季 88 套、2024 夏季 68 套、2024 春季 76 套、2024 冬季 75 套、2023 秋季 100 套、夏季 75 套、春季 79 套、冬季 72 套、2022 秋季 80 套、夏季 69 套、春季 79 套、冬季 58 套、2021 秋季 65 套、夏季 46 套、春季 73 套、冬季 67 套、2020 秋季 67 套、夏季 31 套、春季 61 套、冬季 58 套、2019 秋季 67 套及 2019 夏季 42 套非成人 TV／網絡連載作品；
-- 跨季作品共用詳情頁，共 1,917 個唯一作品及 4,229 筆已審閱 OP／ED；
-- 五個固定導覽入口、年代／年份／季度目錄、星期一至星期日及不定期分組、分頁本機搜尋、動畫詳情與同源 static JSON API；
+- 跨季作品共用詳情頁，共 1,917 個唯一作品及 4,236 筆已審閱 OP／ED；
+- 六個固定導覽入口、共用歌曲列表、年代／年份／季度目錄、播出日篩選、分頁本機搜尋、動畫全部主題曲與同源 static JSON API；
 - 每個季度、作品及歌曲公開來源、語言、review state 及核對日期；每首歌曲同時具備第一方／交叉核對來源；
 - 官方／licensed YouTube 導航、明確第三方連線同意、來源歸屬及無圖 fallback；
 - Astro + strict TypeScript、generated CSP、privacy-bounded Service Worker；
@@ -61,7 +63,7 @@
 
 ## Current acceptance summary
 
-- 預設 build 使用 repository-reviewed `CuratedProvider`；`MockProvider` 只供測試與 UI fixture；
+- 預設 build 與目錄測試使用 repository-reviewed `CuratedProvider`，不保留虛構目錄 fixture；
 - `/api/v1/*.json` 由同一份 reviewed snapshot 在 build-time 產生，不加入 runtime backend、資料庫或 credential；
 - `PUBLIC_API_BASE_URL` 存在時切換至經契約限制的唯讀 `ApiProvider`；
 - 二十八個季度快照均可瀏覽（2019 夏季仍在補充），list／detail／static API identity 保持一致；

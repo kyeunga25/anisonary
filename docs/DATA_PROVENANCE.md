@@ -14,7 +14,7 @@ API、資料庫、商標或媒體重用權。完整授權邊界見
 - `PublicAnimeDetail` 公開 `reviewState`、`verifiedAt`，每個 `sources[]` 記錄來源語言，以及第一方、作品識別、譯名、歌曲或首播交叉核對角色。
 - `PublicTheme` 公開 `reviewState`，每首歌的 `sources[]` 必須同時具備第一方與交叉核對來源。
 
-所有已發布 season／anime／theme record 只接受 `reviewed`。未完成審閱的候選不發布；checked date 與 nested source dates 不一致時，外部 API contract fail closed。
+所有已發布 season／anime／theme record 只接受 `reviewed`。未完成審閱的候選不發布。Season 的 `verifiedAt` 必須與其 catalog references 日期一致；作品及歌曲的相容核對日期須符合最新來源日期，不要求不同來源在同一天核對。外部 API contract 對不一致資料 fail closed。
 
 ## 每首歌曲的公開欄位
 
@@ -33,7 +33,7 @@ API、資料庫、商標或媒體重用權。完整授權邊界見
 
 2019 夏季目前整理 38 套 TV 作品及 4 套網絡連載，其他作品與特殊歌曲仍待核對；`coverageNote` 會在季度頁及 API 公開說明本季範圍。
 
-目前二十八季快照的 season references、1,917 個作品及 4,229 筆 OP／ED 都有結構化 provenance；4,229 筆歌曲全部至少保留一個 `first_party` 與一個 `cross_check` 來源。`tests/unit/curated-catalog.test.ts` 鎖定來源數量、角色、語言、HTTPS、核對日期、Mock URL 禁止條件，以及 legacy labels 與結構化 ledger 的一致性。
+目前二十八季快照的 season references、1,917 個作品及 4,229 筆 OP／ED 都有結構化 provenance；4,229 筆歌曲全部至少保留一個 `first_party` 與一個 `cross_check` 來源。`tests/unit/curated-catalog.test.ts` 將全量資料送入公開 API 契約與跨 endpoint gate，檢查來源角色、語言、HTTPS、核對日期與 ledger 一致性，並確認作品、季度歸屬和搜尋索引沒有遺漏；不重抄固定數量、日期或逐首歌曲內容。
 
 ## 欄位決策
 
@@ -61,9 +61,11 @@ API、資料庫、商標或媒體重用權。完整授權邊界見
 ## 修正與審閱
 
 1. 修正者提供可公開存取的精確來源 URL，指出作品、歌曲與欄位。
-2. 維護者先核對第一方頁面，再用另一個公開來源交叉確認。
+2. 維護者先核對第一方頁面，再使用有效公開來源交叉確認；既有未變動且適用的證據可沿用，局部更新不要求重讀全部作品資料。
 3. 更新 seed 或明確 override、來源 ledger 及 `verifiedAt`，不提交原始 response dump。
-4. 執行 `npm run catalog:check`、`npm test`、`npm run build` 與 browser gate。
-5. 經 PR review 後才合併；production API 再用同一 public contract 讀回驗收。
+4. 一批資料收尾執行 `npm test`、`npm run build` 與 `npm run public:check`；前兩者已包含目錄、型別及 artifact gate。新季度、contract 或展示行為變更再跑 browser gate。
+5. 更新 [`收集進度`](./CATALOG_COLLECTION_STATUS.md)，保留可接續位置；正式發布時經 PR review 後合併，production API 再用同一 public contract 讀回驗收。
+
+完整歌曲收集、音源／發行品關係及按變更安排的驗證見 [`SONG_COLLECTION_WORKFLOW.md`](./SONG_COLLECTION_WORKFLOW.md)。每歌來源可保存獨立核對日期及欄位證據；局部深化沿用舊證據日期，只有實際查閱的來源更新日期。動畫 metadata 目前仍共用作品日期，歌曲深化以 `metadataVerifiedAt` 保留原有作品審閱時間。
 
 公開資料修正表單：<https://github.com/kyeunga25/anisonary/issues/new?template=catalog-correction.yml>

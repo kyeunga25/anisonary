@@ -34,8 +34,8 @@ Phase 2 當時先建立一個可公開審核的真實資料切片，而不是把
 ## GitHub 與 Cloudflare gate
 
 - `.github/ISSUE_TEMPLATE/catalog-correction.yml` 收集附有公開證據的資料修正；
-- `tests/unit/curated-catalog.test.ts` 驗證兩季各 70 套、139 個唯一詳情、298 首 OP／ED、作品關聯、HTTPS 圖像、來源日期及禁止 Mock URL；
-- `tests/unit/catalog-sources.test.ts` 鎖定 Annict／Bangumi 的穩定 endpoint、季度參數、token 邊界及繁中限制；
+- `tests/unit/curated-catalog.test.ts` 以全量公開契約檢查所有已發布季度、作品關聯、來源 ledger、HTTPS 媒體與搜尋索引，不重抄固定數量或歌曲快照；
+- `tests/unit/api-provider.test.ts` 保護外部資料的安全 URL、identity／OP-ED 一致性、未知欄位剝除與失敗請求邊界；
 - GitHub Actions 先完成型別、目錄、瀏覽器及 production build 檢查；
 - `npm run cf:check` 以 `wrangler deploy --dry-run` 驗證同一份 Workers Static Assets 設定，但不部署；Wrangler diagnostic log 只寫入暫存目錄。
 
@@ -48,7 +48,7 @@ Phase 2 第二個切片完成前端的 production API contract boundary：
 - base URL、公開 URL、ID／slug、ISO 日期、array cardinality、OP／ED count 及 list/detail identity 全部 fail closed；
 - build request 有 10 秒 timeout、4 MiB streaming response 上限、禁止 redirect，並檢查 JSON content type；
 - poster／banner 只接受核准 AniList media origin；Annict／Bangumi catalog reference 必須綁定各自官方 origin；
-- repository 內兩季與 139 套 reviewed records 全部作 production-like response fixtures，另有不安全 URL、identity drift、重複資料、非 JSON、404 及 stalled request 測試。
+- repository 內全部 reviewed records 都會經過公開契約；另以小型失敗 inputs 檢查不安全 URL、identity drift、非 JSON、404、過大 response 及 stalled request。
 
 完整 contract 見 [`API_HANDOFF.md`](./API_HANDOFF.md)。v1.0.0 由相同 reviewed snapshot 產生同源靜態 JSON assets，沒有加入 runtime backend、crawler、資料庫或 secret；v1.2.0 再加入每首歌曲的結構化公開 source ledger。
 

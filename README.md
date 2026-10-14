@@ -1,12 +1,12 @@
 # Anisonary｜動畫歌典
 
-Anisonary 是以 Astro + strict TypeScript 建立的動畫歌曲目錄，按季度與日本編輯播出日瀏覽作品、OP 與 ED。網站輸出為純靜態資產，正式交付使用 **Cloudflare Workers Static Assets**；它不是 Cloudflare Pages，也沒有 application Worker backend。下方同時保留 English technical notes。
+Anisonary 是以 Astro + strict TypeScript 建立的動畫歌曲目錄，以緊湊列表同時展示歌曲、演唱者、動畫、OP／ED 與季度。網站輸出為純靜態資產，正式交付使用 **Cloudflare Workers Static Assets**；它不是 Cloudflare Pages，也沒有 application Worker backend。下方同時保留 English technical notes。
 
-This repository contains the completed static product: season directory, anime detail pages, traceable OP／ED credits and links, per-song source ledgers, source-attributed media, local-only cross-season search, privacy-bounded offline reading, a GitHub correction flow, and deployment through Cloudflare Workers Static Assets. The default catalogue covers twenty-eight reviewed snapshots across 2019–2026, with 1,917 unique titles and 4,229 known OP／ED records. The 2019 summer snapshot currently contains 38 TV titles and four web series; that quarter is still being expanded, and 2025 fall is not yet included. Fictional Mock Data remains test-only.
+This repository contains the completed static product: season directory, anime detail pages, traceable OP／ED credits and links, per-song source ledgers, source-attributed media, local-only cross-season search, privacy-bounded offline reading, a GitHub correction flow, and deployment through Cloudflare Workers Static Assets. The default catalogue covers twenty-eight reviewed snapshots across 2019–2026, with 1,917 unique titles and 4,236 known OP／ED records. The 2019 summer snapshot currently contains 38 TV titles and four web series; that quarter is still being expanded, and 2025 fall is not yet included.
 
-目前 source 版本：**v1.31.1**。歌曲頁顯示與藝人欄不同的已審閱演唱 credits，包括個別演唱者、角色與合成歌聲；與藝人欄完全相同的名稱不重複列出，純音樂及未核對 credits 保持原有資料。2019 夏季仍為 42 套作品、103 筆歌曲，正在補充；2025 秋季尚未收錄。歌曲、來源、核對日期與公開 API 內容保持不變。
+最近標記版本：**v1.31.1**。目前工作內容以 Git commit 與收集 checkpoint 追蹤。歌曲詳情支援個別歌唱者、團隊、創作名單、音源版本、發行品及欄位證據；未知欄位留空，已核對內容逐批補入。2019 夏季仍在補充，2026 秋季及 2025 秋季尚未收錄。
 
-導覽延續固定五個入口與年代、年份、季度目錄；搜尋可按動畫、歌曲、創作者、年份、季度及 OP／ED 篩選，每頁顯示 12 套作品。搜尋完全在瀏覽器內進行，YouTube 只於明確操作後連線。網站與同源靜態 JSON API 共用已審閱資料，無 application backend 或 database binding。依賴安全 gate 繼續鎖定 `fast-uri` 3.1.6 並稽核開發依賴。
+首頁、歌曲列表、季度頁與搜尋共用歌曲列，每頁最多 24 列。季度目錄直接提供各季入口；列表可按季度新舊、歌名、動畫或演唱者排序，也可篩選 OP／ED 與正版影片。點選歌曲列進入動畫的完整主題曲頁；跨季度搜尋可直接定位歌曲的製作名單與來源。搜尋完全在瀏覽器內進行，YouTube 只於明確操作後連線。網站與同源靜態 JSON API 共用已審閱資料，無 application backend 或 database binding。依賴安全 gate 繼續鎖定 `fast-uri` 3.1.8 並稽核開發依賴。
 
 Production build 會從最終 HTML 自動產生 hash-based Content Security Policy。政策不使用 `unsafe-inline` 或 `unsafe-eval`，禁止 inline event／style attributes，只開放同源資產、已核對的海報來源及使用者啟動後的 YouTube privacy-enhanced iframe。任何未批准的 media origin 會令 build fail closed。
 
@@ -46,6 +46,10 @@ npm run test:e2e
 npm run check
 ```
 
+`npm test` 保留 4 項核心資料／建置測試：全目錄、歌曲列表與公開契約一致性、外部 API 拒絕不安全資料、必要資料缺失時停止建置，以及公開產物與 CSP 邊界。`npm run test:e2e` 保留 6 條流程：完整靜態 API、歌單到動畫全部歌曲與影片同意、季度排序與本機搜尋、手機／無 JavaScript 導覽與 404、離線閱讀，以及 API 錯誤狀態。季度與歌曲資料以來源契約和一致性檢查保護，不在測試重抄固定數量、核對日期或歌曲快照。`catalog:check` 可單獨執行目錄測試；完整 CI 已由 `npm test` 涵蓋，無需重跑。Browser 測試攔截第三方媒體，結果與失敗 trace 寫入暫存目錄。
+
+The small suite protects catalogue integrity and critical user journeys. It uses reviewed records and deterministic media interception; third-party availability is outside the local gate. The optional API smoke command below verifies a selected HTTP deployment separately.
+
 Public API production check（production deployment required）：
 
 ```bash
@@ -54,19 +58,23 @@ PUBLIC_API_BASE_URL=https://anisonary.k-y.cc/api/v1 npm run api:check
 
 ## Data providers
 
+歌曲資料更新的計畫、批次 workflow、版本／發行品規格與檢查矩陣見 [`docs/SONG_COLLECTION_WORKFLOW.md`](docs/SONG_COLLECTION_WORKFLOW.md)。新工作階段從 [`執行 Prompt`](docs/CONTINUOUS_DEVELOPMENT_PROMPT.md) 與 [`收集進度`](docs/CATALOG_COLLECTION_STATUS.md) 接續，不需重讀全部歷史 QA。已支援格式及尚未核對的資料缺口在 workflow 與 checkpoint 分開標示。
+
 - With no `PUBLIC_API_BASE_URL`, the site builds from the repository's reviewed `CuratedProvider` records and publishes the same public fields as static JSON assets.
 - When `PUBLIC_API_BASE_URL` is set, `ApiProvider` requests that public read-only contract through a fail-closed nested contract, URL, identity and timeout gate.
-- `MockProvider` remains available only for isolated unit and component tests; its fixtures are not production assets.
+- Tests use the reviewed catalogue and small inline failure inputs; no fictional catalogue provider is kept in application source.
 - Copy `.env.example` to `.env` for local configuration. Never commit secrets.
 
 Season coverage uses a repository-owned source registry: Annict is the Japanese seasonal inventory baseline, while Bangumi provides a Chinese-entry cross-check. The twenty-eight published snapshots additionally cross-check Traditional Chinese calendar inventories, AniList identifiers and media, AnimeThemes records, public theme-song indexes, official sites, and Taiwan／Hong Kong licensing pages. These are editorial inputs only; production builds use the reviewed static snapshot and never require external APIs at runtime. See `docs/DATA_SOURCES.md` for the inventory rules and `docs/DATA_PROVENANCE.md` for the per-song ledger and media boundary.
 
 ## Catalogue navigation and search
 
-- `/catalog/` groups published years by decade; `/catalog/<year>/` lists only that year's published quarters. The main menu stays at five links as coverage grows;
+- `/` shows the latest quarter as song rows; `/songs/` combines all published quarters with local filters and ordering;
+- `/catalog/` groups years by decade and links directly to each published quarter; `/catalog/<year>/` remains a native year view;
 - year and quarter navigation is generated from the reviewed registry; cross-season works keep one detail page and every published season membership;
-- `/search/` embeds a bounded, text-only JSON index in static HTML and renders up to 12 anime results per page;
-- combine anime, song, or creator scope with year, quarter, and OP／ED filters; song links open the corresponding theme and its credits;
+- homepage, quarter, library and search share a bounded text-only index and up to 24 song rows per page; quarter pages also expose every song without JavaScript;
+- combine anime, song or creator scope with year, quarter, OP／ED and official-video filters; sort by quarter, song, anime or artist;
+- song rows open the anime page containing every theme; search rows can jump to the corresponding theme and its credits; cross-season songs appear once, showing the newest matching quarter;
 - the index is limited to 10,000 unique works, 20,000 seasonal references, and 8 MiB of serialized UTF-8 data. Larger catalogues require a reviewed indexing change; these are safety ceilings, not promised device capacity;
 - native year／quarter links remain usable without JavaScript;
 - filtering runs locally without query parameters, analytics, cookies, or a search API;

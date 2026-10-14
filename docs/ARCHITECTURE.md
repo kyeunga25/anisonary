@@ -21,7 +21,7 @@ Astro output ──► generated CSP ──► bounded service worker ──► 
 
 `ApiProvider` 是同一契約的外部唯讀入口，只用於 production contract 驗收或明確的 API build。它會深層重建核准欄位並拒絕不安全 URL、未知 identity、過大 response、redirect、非 JSON、逾時及跨 endpoint drift。失敗時不會改用 curated data 假裝成功。
 
-`MockProvider` 只供 unit／component tests。正常 build 沒有選擇 Mock Data 的環境開關，測試素材亦不進入 production 靜態資產。
+測試直接使用已審閱目錄，錯誤情境只使用小型 inline inputs；application source 不保留虛構目錄或測試專用 provider。正常 build 沒有選擇 Mock Data 的環境開關。
 
 ## 目錄責任
 
@@ -42,9 +42,12 @@ Astro output ──► generated CSP ──► bounded service worker ──► 
 | `src/utils/catalog-directory.ts` | 從既有快照派生年代／年份／季度分類，不建立另一份資料來源 |
 | `src/utils/catalog-search-index.ts` | 有 UTF-8 byte budget 的公開文字索引、跨季 membership、歌曲與 creator 篩選 |
 | `src/pages/catalog/` | 固定入口下的年代目錄與年份靜態頁 |
-| `src/scripts/catalog-search.ts` | 本機搜尋、每頁最多 12 套作品的 DOM，以及歌曲 anchor 導航 |
+| `src/utils/song-playlist.ts` | 將文字索引轉為不重複的歌曲列，保留季度 membership、用途、演唱者與動畫排序 |
+| `src/components/playlist/` | 首頁、季度頁、歌曲列表與搜尋共用的緊湊歌曲列及控制項 |
+| `src/pages/songs.astro` | 所有已發布季度的獨立歌曲列表 |
+| `src/scripts/catalog-search.ts` | 本機搜尋、篩選、排序、每頁最多 24 列，以及歌曲 anchor 導航 |
 | `src/pages/api/v1/` | build-time 靜態 JSON routes |
-| `scripts/generate-security-headers.mjs` | 由 build output 產生 hash-based CSP |
+| `scripts/generate-security-headers.mjs` | 由 build output 產生 hash-based CSP；非可執行 JSON 資料不加入 script hash |
 | `scripts/generate-service-worker.mjs` | 由 build output 產生同源、無 runtime write 的離線清單 |
 | `tests/` | catalogue、contract、component、browser、CSP 與 offline gates |
 
@@ -65,7 +68,7 @@ Astro output ──► generated CSP ──► bounded service worker ──► 
 - Service Worker 只 precache 已公開的同源 app shell；不建立 runtime cache entry，不保存 `/api/` JSON、query string 或第三方媒體。
 - 作品圖像使用核准 HTTPS origin 並加上頁面來源連結及 `no-referrer`；不下載後重新託管。
 - YouTube iframe 只在使用者明確啟動後建立，使用 privacy-enhanced domain。
-- 首頁識別視覺由 HTML／CSS 組成，不依賴來源不明或生成式 raster artwork。
+- 首頁與歌曲列表以 HTML／CSS 文字列呈現；不載入第三方海報，也不使用生成式 raster artwork。
 
 ## Cloudflare 邊界
 
