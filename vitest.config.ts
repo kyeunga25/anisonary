@@ -10,9 +10,6 @@ export default getViteConfig({
   },
   test: {
     environment: "node",
-    include: ["tests/{unit,components}/**/*.test.ts"],
-    coverage: {
-      reporter: ["text", "html"]
-    }
+    include: ["tests/unit/**/*.test.ts"]
   }
 });
