@@ -1,6 +1,73 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2026SummerThemeVideos = {
+  "209504:ED:1": [
+    {
+      "youtubeVideoId": "39uu4PkieTg",
+      "title": "音感れもねゐど「Holy Sweet Home」Music Video",
+      "type": "music_video",
+      "channelName": "音感れもねゐど",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "199111:ED:1": [
+    {
+      "youtubeVideoId": "vPbVSrjspWY",
+      "title": "豆柴の大群 /「裸のマーメード」MUSiC ViDEO",
+      "type": "music_video",
+      "channelName": "豆柴の大群",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "187260:OP:1": [
+    {
+      "youtubeVideoId": "6C3zYwUmMKE",
+      "title": "ReoNa「Amore」Official Music Video",
+      "type": "music_video",
+      "channelName": "ReoNa official YouTube channel",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "187260:ED:1": [
+    {
+      "youtubeVideoId": "Gg0X6dgyZw8",
+      "title": "sajou no hana/エテルネル-Acoustic Piano Version-",
+      "type": "other",
+      "channelName": "sajou no hana Official Channel",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "209800:OP:1": [
+    {
+      "youtubeVideoId": "G6u20QYskAU",
+      "title": "Dannie May「BAD遺伝子」（MUSIC VIDEO）",
+      "type": "music_video",
+      "channelName": "Dannie May",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "198709:ED:1": [
+    {
+      "youtubeVideoId": "Jnhypa714Es",
+      "title": "KI_EN / 縁のつき MUSIC VIDEO",
+      "type": "music_video",
+      "channelName": "KI_EN",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+
   "198409:ED:1": [
     {
       "youtubeVideoId": "rXf6qAde3X8",
