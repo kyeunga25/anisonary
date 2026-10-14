@@ -1,41 +1,23 @@
-# Anisonary 持續開發 Prompt
+# Anisonary 收集工作交接 / Collection Runner
 
-> 這是一份可公開的執行契約，不是私人 roadmap。不得加入私人來源候選、內部評分、原始資料 dump、部署識別碼、審核者資料或對話紀錄。
+本文件是可公開的操作入口。資料規則集中在 [`AGENTS.md`](../AGENTS.md)，收集流程與驗證矩陣在 [`SONG_COLLECTION_WORKFLOW.md`](./SONG_COLLECTION_WORKFLOW.md)，唯一接續位置在 [`CATALOG_COLLECTION_STATUS.md`](./CATALOG_COLLECTION_STATUS.md)。不保存對話、私人偏好、憑證、原始取回資料或營運 logs。
 
-你正在持續設計、開發及改善 Anisonary。目標是提供快速、易搜尋、具來源證據、對版權與使用者私隱負責的動畫歌曲目錄，並維持可離線使用的靜態公開產品。
+## 工作階段
 
-## 不可破壞的邊界
+1. 核對 Git 狀態及相關文件，從 checkpoint 的最後可靠進度接續，保留已有修改。
+2. 沿用已登記的目標、固定年份、用途範圍、資料截止日及完成條件；範圍調整只影響後續工作，不撤回已完成成果。
+3. 由新季度往舊季度選取下一批。每批預設 20–30 筆用途或約 10 部動畫；先確認曲名、演唱及動畫用途，再補創作名單、已證實音源、官方影片、收錄發行品與正版外連。
+4. 新格式只需以 3–5 首真實歌曲完成相容格式、parser、公開 JSON 及頁面展示；已接通的能力直接沿用。歌曲、動畫用途、音源、發行品及平台項目分開，保持公開 ID 與 URL 穩定。
+5. 重用有效證據及原核對日期，只查真正缺口與到期項目。兩輪定向查找仍無明確證據時，記錄缺口和續查條件，繼續其他歌曲。
+6. 按變更矩陣收尾檢查一次，預覽實際新增內容，更新同一 checkpoint 的公開 ID、實際差異、驗證結果及下一批位置。
+7. 已授權的階段以範圍明確的 commit 保存；推送及部署按照當前發布範圍執行。提交前排除密鑰、私人資訊、logs、原始資料及本機測試產物；必要的通用測試邏輯可以公開。
 
-- 繁體中文為主要介面語言，必要資訊提供英文；日文名稱保留原文並清楚標示。
-- 公開 catalogue 只使用已人工核對的結構化資料；不得生成 catalogue data、生成圖片、爬取全站或提交 raw API dump。
-- 每筆公開內容需要來源角色、核對狀態、語言、HTTPS URL 與核對日期；衝突未解決時不得發布。
-- 公開來源可查閱不等於可再散佈。程式碼授權、資料庫／編纂權、商標、海報、影片與第三方條款要分開處理；無圖 fallback 是合法性不明時的安全預設。
-- 公開 frontend 維持靜態、fail-closed 的已審核 snapshot 邊界；私人候選、審核、抓取或模型輸出不得進入公開 runtime 或 artifact。
-- 不與其他 app 共用 auth、analytics、資料庫、storage、secret 或私人 telemetry，也不得把 catalogue 自動送入音訊生成。
-- 保留所有既有未提交變更；不得 bulk stage、重置、覆蓋或批量刪除。
+## 執行狀態
 
-## 永續 development loop
+只有明確開始或繼續要求才啟動收集。暫停或停止時不再啟動新收集、修改或檢查，只作最小安全收尾及保存位置；未驗證修改清楚標示。恢復需要明確指令，不自動安排背景或排程工作。
 
-1. **重新定位**：核對目錄、Git root、remote、branch、狀態及適用指令。所有既有變更均視為使用者所有。
-2. **讀取證據**：檢查 data contract、provider order、來源 ledger、static build、security headers、service worker、release scripts 與 tests；不猜測 live API 或 production。
-3. **選一個 cycle**：最多列三項候選，按讀者價值、資料正確性、安全／私隱／法律、免費方案成本、效能與本機可驗證性選一個最小垂直切片。
-4. **定義驗收**：寫明 public allowlist schema、來源與權利、輸入／輸出界限、identity／digest、404／offline fallback、CSP、cache、無障礙、SEO 與 rollback。
-5. **實作與測試**：先補 contract／negative tests，再作最小修改；未知欄位預設剝除，release input 必須先驗證及安全編碼，production 只接受 approved branch／fixed reviewed SHA。
-6. **公開輸出檢查**：掃描 staged files 與 build artifact，拒絕 secret、私人路徑、Cloudflare 識別碼、內部評分、候選資料、crawler／model output、私人欄位、未核准媒體及本地產物。
-7. **本機 gates**：執行既有 lint、unit、catalog check、build、Cloudflare dry-run、release verification 及 E2E；live smoke 只有在當前任務授權且網路穩定時執行。
-8. **提交 cycle**：精準 stage 本輪檔案，檢查 cached diff，以 `type: content` 建立一個 commit；不可混入既有使用者文件變更。
-9. **繼續演進**：完成後立即選下一個安全切片；不得用未核實資料、無效文件或版本 churn 充數。
+批次完成、範圍完成與整體目標完成分開。較大目標按已登記條件判定；仍有必需缺口時保留未完成狀態。本機驗證、GitHub CI、預覽及 production 證據各自記錄，建置通過不等於已部署。
 
-Cloudflare 登入、私人 snapshot 或 live API 不可用時，保持現有 public snapshot 及 fail-closed gate，轉做下一個本機資料品質、UX、效能或安全 cycle。
+## English handoff
 
-## 本產品的優先選擇規則
-
-優先改善：搜尋與分類體驗、來源透明度、public allowlist schema、release input／ref hardening、snapshot 可回復性、無圖與 offline UX、CSP／cache、效能與無障礙。任何資料擴充都先建立來源證據及法律判斷，不以數量作唯一成功指標。
-
-## Suite 整合契約
-
-只輸出最小、版本化、具 digest 的公開 catalogue／產品狀態 manifest。其他 app 只能顯示公開 metadata 與來源連結；不得視為再利用、改編或訓練授權。私人 release pipeline 與公開 frontend 必須保持分離，整合失敗時仍可由最後已審核 snapshot 正常運作。
-
-## English runner contract
-
-Ship one reviewed, source-backed, public-safe vertical slice per cycle. Preserve the static fail-closed product boundary, strip unknown/private fields, validate release identity and rights, verify exact staged and built output, create one focused commit, then immediately select the next safe cycle.
+Resume from the shared checkpoint. Preserve the fixed scope, evidence cutoff, stable identities and existing work. Verify song identity and anime use before enriching creators, recordings, releases and official platform appearances. Reuse valid sources, retain actual review dates and save unresolved gaps after two targeted search rounds. Run the applicable checks once and record the public changes and next position. Commit and publish only the reviewed, authorised scope; exclude credentials, private information, raw responses, logs and local test artifacts. Pause on request, save progress and resume only with explicit instruction. Keep batch completion and overall completion separate, and verify deployment independently from local builds.

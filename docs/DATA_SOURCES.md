@@ -69,11 +69,13 @@ curl -H 'User-Agent: Anisonary/0.1 (https://github.com/kyeunga25/anisonary)' \
 
 ## 更新流程
 
-1. 由 `src/data/catalog-sources.ts` 產生目標季度的 Annict 目錄和兩個 API query。
-2. 完成 Annict 50 筆分頁與 Bangumi `total`／`offset` 分頁，取得兩邊聯集。
-3. 以原文標題、日期、官網及 ID 人工比對，列出新增、缺口及衝突。
-4. 返回官方來源核對後，才更新 `src/data/curated-seeds.ts` 或對應的季度 seed 檔案，以及少量明確的 credit／source override；每筆保留結構化來源及 `verifiedAt`。
-5. 執行 `npm run catalog:check`、`npm run lint` 及完整 `npm run check`，經 PR review 後合併。
+歌曲更新的主流程、批次大小、平台／發行品規格與差異檢查見 [`SONG_COLLECTION_WORKFLOW.md`](./SONG_COLLECTION_WORKFLOW.md)；接續位置寫入 [`CATALOG_COLLECTION_STATUS.md`](./CATALOG_COLLECTION_STATUS.md)。
+
+1. 新季度才由 `src/data/catalog-sources.ts` 產生 Annict 目錄和 API query，完成必要分頁並核對兩邊聯集。已有季度只處理新增公告、未補欄位與到期缺口，不每批重做盤點。
+2. 以原文標題、日期、官網及 ID 核對作品身分，選一批最新歌曲；先補核心資料，再補 credits、音源版本、官方影片、發行品與平台。
+3. 返回精確官方來源核對後，更新對應季度 seed、來源／影片模組或既有明確 override；保留來源 URL 及真正核對日期，不提交原始取回資料。
+4. 每批收尾只跑一次相應檢查。資料批次使用 `npm test`、`npm run build` 與 `npm run public:check`；`catalog:check` 與型別檢查已被前兩者涵蓋。新季度或 contract／展示行為變更才擴大至 E2E。
+5. 記錄實際資料差異、未解缺口及下一批；PR review、合併與 production 驗收按該次發布任務處理，不以每批新增資料要求重做部署流程。
 
 ## Repository 邊界
 
