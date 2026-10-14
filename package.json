@@ -25,18 +25,18 @@
     "cf:deploy": "npm run build && WRANGLER_SEND_METRICS=false WRANGLER_SEND_ERROR_REPORTS=false WRANGLER_LOG_PATH=/tmp/anisonary-wrangler-logs wrangler deploy"
   },
   "dependencies": {
-    "@astrojs/sitemap": "^3.7.3",
-    "astro": "^7.2.0"
+    "@astrojs/sitemap": "^3.7.4",
+    "astro": "^7.3.8"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.10",
     "@playwright/test": "^1.62.1",
     "@types/node": "^26.2.0",
     "typescript": "^6.0.3",
-    "vitest": "^4.1.10",
-    "wrangler": "^4.120.1"
+    "vitest": "~4.1.11",
+    "wrangler": "^4.151.0"
   },
   "overrides": {
-    "fast-uri": "3.1.6"
+    "fast-uri": "3.1.8"
   }
 }
