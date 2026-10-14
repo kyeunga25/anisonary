@@ -1,17 +1,18 @@
 :root {
   color-scheme: light;
-  --color-canvas: #fbfcff;
+  --color-canvas: #ffffff;
   --color-surface: #ffffff;
-  --color-subtle: #f3f6fb;
-  --color-ink: #07143f;
-  --color-muted: #58647d;
-  --color-accent: #ef6259;
+  --color-subtle: #f7f8fa;
+  --color-sidebar: #f7f8fa;
+  --color-ink: #17233d;
+  --color-muted: #667085;
+  --color-accent: #d3443c;
   --color-focus: #2f63d8;
   --color-border: rgba(20, 38, 82, 0.13);
   --color-border-strong: rgba(20, 38, 82, 0.24);
-  --radius-control: 7px;
-  --radius-card: 10px;
-  --page-gutter: clamp(1rem, 4vw, 3.2rem);
+  --radius-control: 6px;
+  --radius-card: 6px;
+  --page-gutter: clamp(1rem, 3vw, 2.5rem);
   --font-sans: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
   --font-ja: "Hiragino Sans", "Yu Gothic", "Noto Sans JP", var(--font-sans);
 }
@@ -21,6 +22,7 @@
   --color-canvas: #08112b;
   --color-surface: #0d1939;
   --color-subtle: #111f43;
+  --color-sidebar: #0d1939;
   --color-ink: #f4f6ff;
   --color-muted: #aab4cd;
   --color-accent: #ff7a70;
@@ -51,6 +53,16 @@ img, svg { display: block; max-width: 100%; }
 }
 
 .page-shell { margin-inline: auto; max-width: 1420px; padding-inline: var(--page-gutter); width: 100%; }
+.browse-page { padding-block: 2rem; }
+.page-heading { align-items: start; display: flex; gap: 1rem 2rem; justify-content: space-between; }
+.page-heading h1 { font-size: clamp(1.65rem, 2.6vw, 2.15rem); font-weight: 760; letter-spacing: -0.045em; line-height: 1.3; margin: 0; }
+.page-heading p { color: var(--color-muted); font-size: 0.87rem; line-height: 1.75; margin: 0.5rem 0 0; }
+.page-heading p > [lang="en"] { font-size: 0.75rem; white-space: nowrap; }
+.text-link { align-items: center; color: var(--color-accent); display: inline-flex; flex: none; font-size: 0.8rem; font-weight: 650; gap: 0.4rem; min-height: 2.75rem; text-decoration: none; }
+.text-link:hover { text-decoration: underline; text-underline-offset: 0.25em; }
+.text-link svg { fill: none; height: 0.8rem; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.8; width: 0.8rem; }
+.browse-footer-links { border-top: 1px solid var(--color-border); display: flex; flex-wrap: wrap; gap: 0.75rem 1.5rem; margin-top: 1.5rem; padding-top: 1rem; }
+.browse-footer-links a { color: var(--color-accent); font-size: 0.8rem; text-underline-offset: 0.25em; }
 .skip-link { background: var(--color-ink); color: var(--color-canvas); left: 1rem; padding: 0.7rem 1rem; position: fixed; top: 0; transform: translateY(-150%); z-index: 100; }
 .skip-link:focus { transform: translateY(1rem); }
 .sr-only { clip: rect(0, 0, 0, 0); clip-path: inset(50%); height: 1px; overflow: hidden; position: absolute; white-space: nowrap; width: 1px; }
@@ -64,8 +76,8 @@ img, svg { display: block; max-width: 100%; }
   font-weight: 740;
   gap: 1.2rem;
   justify-content: center;
-  min-height: 3.35rem;
-  padding: 0.8rem 1.35rem;
+  min-height: 2.75rem;
+  padding: 0.6rem 1rem;
   text-decoration: none;
   transition: background-color 160ms ease, color 160ms ease, transform 160ms ease;
 }
@@ -77,11 +89,17 @@ img, svg { display: block; max-width: 100%; }
 .button--outline:hover { border-color: var(--color-accent); color: var(--color-accent); }
 .state-message { border: 1px solid var(--color-border); color: var(--color-muted); padding: 2rem; text-align: center; }
 
-.prose { max-width: 850px; padding-top: clamp(4rem, 8vw, 7rem); }
-.prose h1 { font-size: clamp(2.5rem, 6vw, 4.7rem); letter-spacing: -0.05em; margin: 0 0 2rem; }
-.prose h2 { font-size: clamp(1.35rem, 3vw, 1.8rem); margin: 3.2rem 0 0.8rem; }
-.prose p, .prose li { color: var(--color-muted); line-height: 1.9; }
+.prose { max-width: 900px; padding-top: 2rem; }
+.prose h1 { font-size: clamp(2rem, 4vw, 2.5rem); letter-spacing: -0.05em; margin: 0 0 1.5rem; }
+.prose h2 { font-size: clamp(1.25rem, 3vw, 1.6rem); margin: 2rem 0 0.7rem; }
+.prose p, .prose li { color: var(--color-muted); line-height: 1.8; }
 .prose li + li { margin-top: 0.65rem; }
+@media (max-width: 600px) {
+  .browse-page { padding-top: 1.4rem; }
+  .page-heading { flex-direction: column; gap: 0.4rem; }
+  .page-heading .text-link { display: none; }
+  .page-heading p { font-size: 0.8rem; }
+}
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }

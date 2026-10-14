@@ -21,7 +21,11 @@ export function buildCatalogSearchIndex(entries: CatalogSearchData["entries"]) {
       sequence: theme.sequence,
       titleJa: theme.titleJa,
       artistDisplayName: theme.artistDisplayName,
-      hasOfficialVideo: theme.videos.length > 0,
+      hasOfficialVideo: theme.videos.length > 0 || theme.links.some((link) => (
+        link.platform === "YouTube" && link.linkType === "direct_track"
+        && theme.evidence?.some((evidence) => evidence.target === "link" && evidence.targetId === link.url
+          && evidence.sourceUrls.some((url) => theme.sources.some((source) => source.url === url && source.role === "first_party")))
+      )),
       credits: theme.credits.filter((credit) => credit.role !== "vocals").map((credit) => `${creditRoleLabel(credit.role)}：${credit.name}`).join(" · "),
       searchText: buildThemeSearchText(theme),
       titleSearchText: normalizeCatalogSearchText([theme.titleJa, theme.titleZhHant, theme.titleRomaji, theme.usageLabel, theme.versionLabel, ...(theme.recordings ?? []).map((recording) => recording.title), ...(theme.releases ?? []).map((release) => release.title)].filter(Boolean).join(" ")),
@@ -38,8 +42,6 @@ export type CatalogSearchOptions = {
   quarter: string;
   type: "all" | "OP" | "ED";
 };
-export const SEARCH_PAGE_SIZE = 12;
-
 export function serializeCatalogSearchIndex(index: CatalogSearchIndex): string {
   const serialized = JSON.stringify(index).replace(/</g, "\\u003c").replace(/>/g, "\\u003e").replace(/&/g, "\\u0026");
   if (new TextEncoder().encode(serialized).byteLength > MAX_SEARCH_INDEX_BYTES) {

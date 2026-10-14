@@ -1,0 +1,74 @@
+---
+import SongRow from "@/components/playlist/SongRow.astro";
+import { serializeCatalogSearchIndex, type CatalogSearchIndex } from "@/utils/catalog-search-index";
+import { getPlaylistRows, PLAYLIST_PAGE_SIZE, type PlaylistOptions, type PlaylistSort } from "@/utils/song-playlist";
+import type { PublicSeasonSummary } from "@/types/public-api";
+import { editorialWeekdays } from "@/utils/weekday";
+import "@/styles/playlist.css";
+
+interface Props {
+  index: CatalogSearchIndex;
+  mode?: "home" | "season" | "library" | "search";
+  initialSeason?: PublicSeasonSummary | undefined;
+  quickSeasons?: PublicSeasonSummary[];
+  initialSort?: PlaylistSort;
+}
+const { index, mode = "library", initialSeason, quickSeasons = [], initialSort = "newest" } = Astro.props;
+const fullFilters = mode === "library" || mode === "search";
+const options: PlaylistOptions = {
+  query: "", scope: "all", type: "all", year: initialSeason ? String(initialSeason.year) : "",
+  quarter: initialSeason?.quarter ?? "", sort: initialSort, videoOnly: false, weekday: "", includeEmpty: mode === "search"
+};
+const rows = getPlaylistRows(index, options);
+const years = [...new Set(index.flatMap((anime) => anime.seasons.map((season) => season.year)))].sort((a, b) => b - a);
+const initialRows = mode === "season" ? rows : rows.slice(0, PLAYLIST_PAGE_SIZE);
+const animeCount = new Set(rows.map((row) => row.anime.slug)).size;
+---
+<section class="playlist" data-catalog-search data-playlist-mode={mode} data-initial-year={options.year} data-initial-quarter={options.quarter} data-initial-sort={initialSort} aria-label="歌曲列表">
+  {quickSeasons.length > 0 && <nav class="playlist-tabs" aria-label="首頁季度歌單">
+    {quickSeasons.map((season) => <a href={`/seasons/${season.id}/`} data-playlist-season={season.id} data-year={season.year} data-quarter={season.quarter} aria-current={season.id === initialSeason?.id ? "true" : undefined}>{season.year} {season.titleZhHant.replace("動畫", "")}</a>)}
+    <a href="/songs/">所有季度</a>
+  </nav>}
+  <form class="playlist-form" role="search" data-catalog-search-form>
+    <div class="playlist-search">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" /><path d="m15.5 15.5 5 5" /></svg>
+      <label class="sr-only" for="catalog-query">搜尋動畫、歌曲或創作者</label>
+      <input id="catalog-query" type="search" placeholder={fullFilters ? "搜尋動畫、歌曲或創作者…" : "搜尋這份歌單…"} maxlength="80" autocomplete="off" autocapitalize="off" spellcheck="false" aria-describedby="catalog-search-summary" data-catalog-search-input />
+      <button type="button" data-catalog-search-clear disabled>重設</button>
+    </div>
+    <fieldset class="playlist-types"><legend class="sr-only">歌曲用途</legend>
+      <label><input type="radio" name="type" value="all" checked /><span>全部</span></label>
+      <label><input type="radio" name="type" value="OP" /><span>OP</span></label>
+      <label><input type="radio" name="type" value="ED" /><span>ED</span></label>
+    </fieldset>
+    <details class="playlist-filters" open>
+      <summary>篩選與排序 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg></summary>
+      <div class="playlist-filters__fields">
+        {fullFilters && <>
+          <label>年份<select id="catalog-year"><option value="">全部年份</option>{years.map((year) => <option value={year}>{year}</option>)}</select></label>
+          <label>季度<select id="catalog-quarter"><option value="">全部季度</option><option value="winter">冬季</option><option value="spring">春季</option><option value="summer">夏季</option><option value="fall">秋季</option></select></label>
+          {mode === "search" && <label>搜尋範圍<select id="catalog-scope"><option value="all">全部資料</option><option value="anime">動畫名稱</option><option value="songs">歌曲名稱</option><option value="creators">歌手與創作者</option></select></label>}
+        </>}
+        {mode === "season" && <label>播出星期<select id="catalog-weekday"><option value="">全部星期</option>{editorialWeekdays.map((day) => <option value={day.value}>{day.sectionLabel}</option>)}<option value="0">不定期／未確認</option></select></label>}
+        <label class="playlist-sort">排序<select id="catalog-sort"><option value="newest" selected={initialSort === "newest"}>季度：新到舊</option><option value="oldest" selected={initialSort === "oldest"}>季度：舊到新</option><option value="song" selected={initialSort === "song"}>歌曲名稱</option><option value="anime" selected={initialSort === "anime"}>動畫名稱</option><option value="artist" selected={initialSort === "artist"}>演唱者</option></select></label>
+        <label class="playlist-video"><input type="checkbox" data-filter-video />有正版影片</label>
+      </div>
+    </details>
+  </form>
+  <div class="playlist-summary">
+    <p id="catalog-search-summary" aria-live="polite"><strong data-catalog-theme-count>{rows.filter((row) => row.theme).length}</strong> 首歌曲 · <span data-catalog-anime-count>{animeCount}</span> 套動畫 <small lang="en">OP / ED catalogue</small></p>
+    {initialSeason && <a data-playlist-season-link href={mode === "season" ? "/catalog/" : `/seasons/${initialSeason.id}/`}>{mode === "season" ? "按年份瀏覽" : "查看季度"}</a>}
+  </div>
+  <div class="song-list-heading" aria-hidden="true"><span>#</span><span>歌曲 <small>Song</small></span><span>演唱者 <small>Artist</small></span><span>出自動畫 <small>Anime</small></span><span>用途</span><span>季度</span><span></span></div>
+  <p class="playlist-empty" data-catalog-search-empty hidden>找不到符合的動畫或歌曲。可重設篩選，或改用日文、繁體中文、羅馬字與其他名稱。</p>
+  <ol class="song-list" id="catalog-search-results" tabindex="-1" aria-label="歌曲與動畫">
+    {initialRows.map((row, i) => <SongRow row={row} number={i + 1} songAnchor={mode === "search"} />)}
+  </ol>
+  <nav class="playlist-pagination" aria-label="歌曲列表分頁" data-search-pagination hidden>
+    <button type="button" data-search-previous><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 5-7 7 7 7" /></svg>上一頁</button><p aria-live="polite" data-search-page></p><button type="button" data-search-next>下一頁<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7" /></svg></button>
+  </nav>
+  <p class="playlist-privacy">搜尋與篩選只在瀏覽器處理，不傳送或儲存搜尋字詞。<span lang="en"> Local-only search.</span></p>
+  <noscript><p class="playlist-noscript">篩選與排序需要 JavaScript。{mode !== "season" ? <a href={initialSeason ? `/seasons/${initialSeason.id}/` : "/catalog/"}>按季度查看完整歌曲與動畫。</a> : "下方作品名單亦可直接瀏覽。"}</p></noscript>
+  <script is:inline type="application/json" data-search-index set:html={serializeCatalogSearchIndex(index)} />
+</section>
+<script>import "@/scripts/catalog-search";</script>
