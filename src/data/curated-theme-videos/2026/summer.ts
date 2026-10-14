@@ -1,6 +1,60 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2026SummerThemeVideos = {
+  "199066:OP:1": [
+    {
+      "youtubeVideoId": "La5AcMJYjnM",
+      "title": "ハイメンテナンスガール [Teaser]",
+      "type": "pv",
+      "channelName": "Masayoshi Oishi",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "213359:ED:1": [
+    {
+      "youtubeVideoId": "NlMNQCXVHD4",
+      "title": "風輪「闇芝居のブルース」♪OFFICIAL AUDIO♪",
+      "type": "official_audio",
+      "channelName": "徳間ジャパン 演歌・歌謡曲チャンネル",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "182616:OP:1": [
+    {
+      "youtubeVideoId": "1FsGLiEPgu8",
+      "title": "中島健人「鬼事」from 「\"IDOL1ST 中島健人\" LIVE TOUR 2026」東京公演",
+      "type": "live",
+      "channelName": "Kento Nakajima Official YouTube Channel",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "kvFxiXQKz0w",
+      "title": "中島健人 3rdシングル『鬼事 / Fiction Love』 Music Teaser",
+      "type": "pv",
+      "channelName": "Kento Nakajima Official YouTube Channel",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "182616:ED:1": [
+    {
+      "youtubeVideoId": "DJkY7YtXaCk",
+      "title": "ロマンティックがほしいなら",
+      "type": "other",
+      "channelName": "ぼっちぼろまる",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+
   "207809:ED:1": [
     {
       "youtubeVideoId": "7UEZMkMqjVY",
