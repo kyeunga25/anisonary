@@ -251,6 +251,7 @@ it("preserves optional song relations and independent evidence dates while rejec
     (theme.recordings?.length ?? 0) > 1 && (theme.releases?.length ?? 0) > 0
   ));
   const fixtureTheme = anime.themes[index]!;
+  fixtureTheme.usageLabel = "ABEMA限定先行配信版";
   const retainedSource = fixtureTheme.sources.find((source) => !fixtureTheme.evidence!.some((evidence) => evidence.sourceUrls.includes(source.url)))!;
   expect(retainedSource).toBeDefined();
   retainedSource.verifiedAt = "2001-01-01";
@@ -272,6 +273,7 @@ it("preserves optional song relations and independent evidence dates while rejec
   }
 
   const mutations = [
+    (theme: typeof anime.themes[number]) => { Object.assign(theme, { usageLabel: { platform: "ABEMA" } }); },
     (theme: typeof anime.themes[number]) => { theme.releases![0]!.tracks[0]!.recordingId = "missing-recording"; },
     (theme: typeof anime.themes[number]) => { theme.links[0]!.releaseId = "missing-release"; },
     (theme: typeof anime.themes[number]) => { theme.recordings!.push({ ...theme.recordings![0]! }); },

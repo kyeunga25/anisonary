@@ -4823,6 +4823,7 @@ function toTheme(seed: CuratedAnimeSeed, originalTheme: CuratedThemeSeed): Publi
     titleJa: theme.titleJa,
     ...(theme.titleRomaji ? { titleRomaji: theme.titleRomaji } : {}),
     artistDisplayName: theme.artistDisplayName,
+    ...(theme.usageLabel ? { usageLabel: theme.usageLabel } : {}),
     ...(versionLabel ? { versionLabel } : {}),
     ...(releaseDate ? { releaseDate } : {}),
     ...(theme.songId ? { songId: theme.songId } : {}),

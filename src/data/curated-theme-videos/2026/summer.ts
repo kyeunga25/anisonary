@@ -1,6 +1,91 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2026SummerThemeVideos = {
+  "207809:ED:1": [
+    {
+      "youtubeVideoId": "7UEZMkMqjVY",
+      "title": "清水美依紗 - Reunion",
+      "type": "music_video",
+      "channelName": "清水美依紗 Miisha Shimizu",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "AyPE7aHHKyc",
+      "title": "清水美依紗 - Reunion Music Video メイキング映像",
+      "type": "other",
+      "channelName": "清水美依紗 Miisha Shimizu",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "159309:ED:1": [
+    {
+      "youtubeVideoId": "bLGAA_vKf4Y",
+      "title": "あしたはあしたのけせらせら！",
+      "type": "art_track",
+      "channelName": "名称非公開",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "196356:OP:1": [
+    {
+      "youtubeVideoId": "AX6-QDr3H78",
+      "title": "雨宿りの憧憬",
+      "type": "art_track",
+      "channelName": "Lia Official YouTube",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "108992:OP:1": [
+    {
+      "youtubeVideoId": "vJzWWkigrU8",
+      "title": "家入レオ - 「メビウス」（Official Audio）",
+      "type": "official_audio",
+      "channelName": "家入レオ",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "196187:OP:2": [
+    {
+      "youtubeVideoId": "ut889MZ9yNo",
+      "title": "ずっと真夜中でいいのに。『クズリ念』MV (ZUTOMAYO – KUZURI)",
+      "type": "music_video",
+      "channelName": "ずっと真夜中でいいのに。ZUTOMAYO",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "196187:ED:2": [
+    {
+      "youtubeVideoId": "kagoEGKHZvU",
+      "title": "【imase】NIGHT DANCER（MV）",
+      "type": "music_video",
+      "channelName": "imase",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "QbHBfxAOucI",
+      "title": "【imase】NIGHT DANCER（Official Audio）",
+      "type": "official_audio",
+      "channelName": "imase",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+
   "209504:ED:1": [
     {
       "youtubeVideoId": "39uu4PkieTg",

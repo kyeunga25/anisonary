@@ -157,6 +157,7 @@ export interface PublicTheme {
   titleZhHant?: string;
   artistDisplayName: string;
   credits: PublicCreatorCredit[];
+  usageLabel?: string;
   versionLabel?: string;
   releaseDate?: string;
   songId?: string;

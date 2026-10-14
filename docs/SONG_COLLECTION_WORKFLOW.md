@@ -69,6 +69,8 @@ Anisonary 是可追溯的動畫歌曲目錄：讀者可以由一列歌曲找到�
 
 這是本產品的建模選擇。發行品與版本的區別亦可參照 [MusicBrainz Release 定義](https://musicbrainz.org/doc/Release)：普通版與豪華版可為不同 release，不能單靠相同專輯名稱合併。
 
+`usageLabel` 是可選的動畫用途說明；已證實 TV 放送版與特定平台先行配信版使用不同歌曲時，保留各用途 ID 並顯示原文標籤。它經 seed、公開 JSON、parser、動畫頁與本機搜尋傳遞；`versionLabel` 及音源關係仍只描述音源，不從播出平台推定新錄音。
+
 ### 去重與判定
 
 - 現有 theme ID 與 URL 保持穩定；同歌出現在不同動畫、季度或 OP／ED 用途時保留各用途關係，不因新增影片重排序號。
