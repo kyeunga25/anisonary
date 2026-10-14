@@ -60,6 +60,26 @@ it("keeps the whole reviewed catalogue consistent across seasons, details, sourc
     expect(row.anime.seasons.some((season) => season.id === row.season.id)).toBe(true);
     expect(playlistRowHref(row)).toBe(`/anime/${row.anime.slug}/`);
   }
+  // Official external videos remain discoverable before embedding metadata is
+  // available. A bare YouTube URL cannot establish official provenance.
+  const videoOptions = {
+    query: "", scope: "all" as const, year: "", quarter: "", type: "all" as const, sort: "newest" as const,
+    videoOnly: true, weekday: "", includeEmpty: false
+  };
+  const externalOnly = curatedAnimeDetails.flatMap((detail) => detail.themes).find((theme) => (
+    !theme.videos.length && theme.links.some((link) => link.platform === "YouTube"
+      && theme.evidence?.some((evidence) => evidence.target === "link" && evidence.targetId === link.url
+        && evidence.sourceUrls.some((url) => theme.sources.some((source) => source.url === url && source.role === "first_party"))))
+  ))!;
+  expect(externalOnly).toBeDefined();
+  expect(getPlaylistRows(index, videoOptions).some((row) => row.theme?.id === externalOnly.id)).toBe(true);
+  const unproven = structuredClone(search.entries.slice(0, 1));
+  unproven[0]!.anime.themes.forEach((theme) => {
+    theme.videos = [];
+    theme.evidence = [];
+    theme.links = [{ platform: "YouTube", label: "Unproven video fixture", url: "https://www.youtube.com/watch?v=abcdefghijk", linkType: "direct_track", region: "GLOBAL" }];
+  });
+  expect(getPlaylistRows(buildCatalogSearchIndex(unproven), videoOptions)).toEqual([]);
   const serialized = serializeCatalogSearchIndex(index);
   expect(JSON.parse(serialized)).toHaveLength(anime.size);
   expect(serialized).not.toMatch(/posterUrl|bannerUrl|youtubeVideoId|catalogReferences/);

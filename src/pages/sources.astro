@@ -113,7 +113,7 @@ const latestVerifiedAt = curatedSeasonDetails.map(({ verifiedAt }) => verifiedAt
     {curatedSeasonDetails.filter(({ coverageNote }) => coverageNote).map((season) => (
       <p><a href={`/seasons/${season.id}/`}>{season.year} {season.titleZhHant}</a>：{season.coverageNote}</p>
     ))}
-    <p>收錄包含短篇、網路迷你動畫、新季度及分割 cour；不包含劇場版、OVA、純宣傳短片或 18+ 作品。單次特別篇只有在日本季度 inventory 作獨立作品、且具可追溯正式發布時才保留；未有可靠主題曲證據時維持待補充狀態。開發用 Mock Data 只保留在 unit／component tests，並非 production 內容或公開靜態素材。</p>
+    <p>收錄包含短篇、網路迷你動畫、新季度及分割 cour；不包含劇場版、OVA、純宣傳短片或 18+ 作品。單次特別篇只有在日本季度 inventory 作獨立作品、且具可追溯正式發布時才保留；未有可靠主題曲證據時維持待補充狀態。</p>
     <p>如發現播出時間、譯名、主題曲或來源需要修正，可用 <a href="https://github.com/kyeunga25/anisonary/issues/new?template=catalog-correction.yml" target="_blank" rel="noopener noreferrer">GitHub 資料修正表單</a> 提交公開來源。</p>
   </article>
 </BaseLayout>

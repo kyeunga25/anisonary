@@ -1,0 +1,19 @@
+---
+import { playlistRowHref, playlistSeasonLabel, type PlaylistRow } from "@/utils/song-playlist";
+interface Props { row: PlaylistRow; number: number; songAnchor?: boolean; }
+const { row, number, songAnchor = false } = Astro.props;
+const { anime, theme } = row;
+---
+<li class="song-list__item" data-catalog-result data-theme-result={theme ? "" : undefined}>
+  <a class="song-row" href={playlistRowHref(row, songAnchor)}>
+    <span class="song-row__number" aria-hidden="true">{String(number).padStart(2, "0")}</span>
+    <span class="song-row__song">
+      <strong lang="ja">{theme?.titleJa ?? (anime.availability === "not_used" ? "本作不設獨立 OP／ED" : "主題曲資料待補充")}</strong>
+    </span>
+    <span class="song-row__artist">{theme?.artistDisplayName ?? "查看作品與核對來源"}</span>
+    <span class="song-row__anime"><strong>{anime.titleZhHant ?? anime.titleJa}</strong>{anime.titleZhHant && <small lang="ja">{anime.titleJa}</small>}</span>
+    <span class:list={["song-row__type", { "song-row__type--op": theme?.type === "OP" }]}>{theme ? `${theme.type}${theme.sequence}` : "—"}</span>
+    <span class="song-row__season">{playlistSeasonLabel(row)}</span>
+    <svg class="song-row__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7" /></svg>
+  </a>
+</li>

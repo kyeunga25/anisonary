@@ -8,8 +8,9 @@ const navigationGroups = [
     label: "探索",
     links: [
       { href: "/", label: "首頁", english: "Home" },
-      { href: "/catalog/", label: "動畫目錄", english: "Browse by year" },
-      { href: "/search/", label: "搜尋", english: "Anime · Songs · Creators" }
+      { href: "/songs/", label: "歌曲列表", english: "Songs" },
+      { href: "/catalog/", label: "季度目錄", english: "Seasons" },
+      { href: "/search/", label: "搜尋", english: "Search" }
     ]
   },
   {
@@ -127,7 +128,7 @@ const isActive = (href: string) => {
 <style>
   .site-header {
     align-self: start;
-    background: var(--color-canvas);
+    background: var(--color-sidebar);
     border-right: 1px solid var(--color-border);
     height: 100vh;
     height: 100dvh;
@@ -140,13 +141,13 @@ const isActive = (href: string) => {
     display: flex;
     flex-direction: column;
     height: 100%;
-    padding: 1.5rem 1.15rem 1.25rem;
+    padding: 1.5rem 0.9rem 1.25rem;
   }
 
   .site-nav {
     display: grid;
-    gap: 1.7rem;
-    margin-top: 2.75rem;
+    gap: 1.5rem;
+    margin-top: 2rem;
     overflow-y: auto;
     padding-right: 0.2rem;
   }

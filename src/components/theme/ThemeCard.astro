@@ -31,13 +31,6 @@ const sourceRoleLabels = {
   <div class="theme-card__summary">
     <div class:list={["theme-card__type", `theme-card__type--${theme.type.toLowerCase()}`]} aria-label={`${theme.type} ${theme.sequence}`}>
       <strong>{theme.type}{theme.sequence}</strong>
-      <svg viewBox="0 0 48 48" aria-hidden="true">
-        {theme.type === "OP" ? (
-          <><circle cx="24" cy="24" r="7" /><path d="M24 4v8M24 36v8M4 24h8M36 24h8M10 10l6 6M32 32l6 6M38 10l-6 6M16 32l-6 6" /></>
-        ) : (
-          <><path d="M10 30c14-2 20-11 28-21 1 18-8 29-23 30" /><path d="M13 37c8-8 14-13 25-20" /></>
-        )}
-      </svg>
     </div>
 
     <div class="theme-card__identity">
@@ -73,7 +66,8 @@ const sourceRoleLabels = {
               <span class="sr-only">（在新分頁開啟外部網站）</span>
             </a>
             <span class="theme-card__source-meta">
-              {sourceLanguageLabels[source.language]} · {sourceRoleLabels[source.role]} · {source.verifiedAt}
+              {sourceLanguageLabels[source.language]} · {sourceRoleLabels[source.role]}
+              · {source.verifiedAt}
             </span>
           </li>
         ))}
@@ -92,44 +86,36 @@ const sourceRoleLabels = {
 </article>
 
 <style>
-  .theme-card { scroll-margin-top: 6rem; }
-  .theme-card { background: var(--color-surface); border: 1px solid var(--color-border-strong); border-radius: var(--radius-card); overflow: hidden; }
-  .theme-card + .theme-card { margin-top: 0.8rem; }
-  .theme-card__summary { display: grid; grid-template-columns: 6.2rem minmax(13rem, 1.3fr) minmax(12rem, 1fr) minmax(14rem, 0.95fr); min-height: 9rem; }
-  .theme-card__type { align-items: center; background: var(--color-accent); color: #fff; display: flex; flex-direction: column; justify-content: center; padding: 1rem; }
-  .theme-card__type--ed { background: color-mix(in srgb, var(--color-accent) 86%, var(--color-ink)); }
-  .theme-card__type strong { font-size: 1.35rem; }
-  .theme-card__type svg { fill: none; height: 2.25rem; margin-top: 0.45rem; stroke: currentColor; stroke-linecap: round; stroke-width: 1.5; width: 2.25rem; }
-  .theme-card__identity, .theme-card__credits, .theme-card__verification { align-self: stretch; padding: 1.35rem 1.5rem; }
-  .theme-card__identity { display: flex; flex-direction: column; justify-content: center; }
-  .theme-card__identity h3 { font-size: clamp(1.25rem, 2vw, 1.7rem); line-height: 1.25; margin: 0; }
-  .theme-card__translation { color: var(--color-muted); font-size: 0.82rem; margin: 0.25rem 0 0; }
-  .theme-card__artist { font-size: 1rem; font-weight: 720; margin: 0.8rem 0 0; }
-  .theme-card__version { color: var(--color-muted); font-size: 0.75rem; margin: 0.35rem 0 0; }
-  .theme-card__credits { border-left: 1px solid var(--color-border); display: flex; flex-direction: column; justify-content: center; margin: 1.1rem 0; padding-block: 0.2rem; }
-  .theme-card__credits div { display: grid; font-size: 0.82rem; gap: 0.55rem; grid-template-columns: 3.2rem 1fr; line-height: 1.55; }
+  .theme-card { border-bottom: 1px solid var(--color-border); padding-block: 0.4rem 1.3rem; scroll-margin-top: 5rem; }
+  .theme-card + .theme-card { margin-top: 1.2rem; }
+  .theme-card__summary { align-items: start; display: grid; gap: 0.8rem 1rem; grid-template-columns: 3.5rem minmax(0, 1fr) minmax(0, 0.85fr); }
+  .theme-card__type { background: color-mix(in srgb, var(--color-accent) 10%, transparent); border-radius: 4px; color: var(--color-accent); justify-self: start; margin-top: 0.15rem; padding: 0.3rem 0.5rem; }
+  .theme-card__type--ed { background: color-mix(in srgb, var(--color-muted) 10%, transparent); color: var(--color-muted); }
+  .theme-card__type strong { font-size: 0.9rem; }
+  .theme-card__identity { grid-column: 2 / -1; min-width: 0; }
+  .theme-card__identity h3 { font-size: clamp(1.2rem, 2vw, 1.6rem); line-height: 1.3; margin: 0; overflow-wrap: anywhere; }
+  .theme-card__translation { color: var(--color-muted); font-size: 0.8rem; margin: 0.25rem 0 0; }
+  .theme-card__artist { color: var(--color-muted); font-size: 0.95rem; line-height: 1.5; margin: 0.2rem 0 0; }
+  .theme-card__version { color: var(--color-muted); font-size: 0.75rem; margin: 0.3rem 0 0; }
+  .theme-card__credits { display: grid; gap: 0.25rem; grid-column: 1 / 3; margin: 0; padding-block: 0.5rem; }
+  .theme-card__credits div { display: grid; font-size: 0.78rem; gap: 0.65rem; grid-template-columns: 3.5rem minmax(0, 1fr); line-height: 1.65; }
   .theme-card__credits dt { color: var(--color-muted); }
-  .theme-card__credits dd { margin: 0; }
-  .theme-card__verification { border-left: 1px solid var(--color-border); display: flex; flex-direction: column; font-size: 0.78rem; justify-content: center; margin: 1.1rem 0; padding-block: 0.2rem; }
-  .theme-card__review-state { align-items: center; display: flex; gap: 0.55rem; margin: 0.3rem 0; }
-  .theme-card__verification svg { fill: none; flex: 0 0 auto; height: 1.15rem; stroke: currentColor; stroke-width: 1.5; width: 1.15rem; }
-  .theme-card__verification ul { display: grid; gap: 0.35rem; list-style: none; margin: 0.65rem 0 0; padding: 0; }
-  .theme-card__verification li { align-items: baseline; display: flex; flex-wrap: wrap; gap: 0.25rem 0.45rem; }
-  .theme-card__verification a { color: var(--color-accent); font-weight: 680; text-underline-offset: 0.16em; }
-  .theme-card__source-meta { color: var(--color-muted); font-size: 0.68rem; }
+  .theme-card__credits dd { margin: 0; overflow-wrap: anywhere; }
+  .theme-card__verification { border-left: 1px solid var(--color-border); font-size: 0.73rem; padding: 0.5rem 0 0.5rem 1rem; }
+  .theme-card__review-state { align-items: center; color: var(--color-muted); display: flex; gap: 0.4rem; margin: 0.1rem 0 0.4rem; }
+  .theme-card__verification svg { fill: none; flex: none; height: 0.9rem; stroke: currentColor; stroke-width: 1.5; width: 0.9rem; }
+  .theme-card__verification ul { display: grid; gap: 0.3rem; list-style: none; margin: 0.5rem 0 0; padding: 0; }
+  .theme-card__verification li { align-items: baseline; display: flex; flex-wrap: wrap; gap: 0.2rem 0.4rem; }
+  .theme-card__verification a { color: var(--color-accent); overflow-wrap: anywhere; text-underline-offset: 0.2em; }
+  .theme-card__source-meta { color: var(--color-muted); font-size: 0.65rem; }
+  .theme-card__media { margin-top: 0.8rem; }
   .theme-card__video { scroll-margin-top: 5rem; }
-  .theme-card__media { border-top: 1px solid var(--color-border); }
-  .theme-card__links { padding: 0 1.3rem 1.3rem; }
-
-  @media (max-width: 940px) {
-    .theme-card__summary { grid-template-columns: 5rem 1fr 1fr; }
-    .theme-card__verification { border-left: 0; border-top: 1px solid var(--color-border); grid-column: 2 / -1; margin: 0; padding-block: 1rem; }
-  }
-
+  .theme-card__video + .theme-card__video { margin-top: 0.6rem; }
+  .theme-card__links { padding-top: 0.75rem; }
   @media (max-width: 660px) {
-    .theme-card__summary { grid-template-columns: 4.6rem 1fr; }
-    .theme-card__identity { padding: 1.15rem; }
-    .theme-card__credits, .theme-card__verification { border-left: 0; border-top: 1px solid var(--color-border); grid-column: 1 / -1; margin: 0; padding: 1rem 1.15rem; }
-    .theme-card__links { padding: 0 1rem 1rem; }
+    .theme-card__summary { grid-template-columns: 3rem minmax(0, 1fr); }
+    .theme-card__credits, .theme-card__verification { grid-column: 1 / -1; }
+    .theme-card__verification { border-left: 0; border-top: 1px solid var(--color-border); padding: 0.7rem 0 0; }
+    .theme-card__identity h3 { font-size: 1.2rem; }
   }
 </style>

@@ -9,6 +9,7 @@ const isCI = Boolean(process.env.CI);
 
 export default defineConfig({
   testDir: "./tests/e2e",
+  outputDir: "/tmp/anisonary-playwright-results",
   fullyParallel: true,
   forbidOnly: isCI,
   retries: isCI ? 2 : 0,

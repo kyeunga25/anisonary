@@ -23,12 +23,12 @@ const { entry, newerYear, olderYear } = Astro.props;
 ---
 <BaseLayout title={`${entry.year} 動畫目錄`} description={`${entry.year} 年已收錄的動畫季度與 OP／ED 目錄。選擇季度查看動畫與歌曲來源。`}>
   <div class="catalog-page page-shell">
-    <Breadcrumbs items={[{ label: "動畫目錄", href: "/catalog/" }, { label: String(entry.year) }]} />
+    <Breadcrumbs items={[{ label: "季度目錄", href: "/catalog/" }, { label: String(entry.year) }]} />
     <header class="catalog-heading">
       <div>
         <h1>{entry.year} 動畫目錄</h1>
         <p lang="en">Choose a season</p>
-        <p>已收錄 {entry.seasons.length} 個季度、{entry.animeCount} 套動畫。選擇季度後，可按播出日、作品名稱或正版影片篩選。</p>
+        <p>已收錄 {entry.seasons.length} 個季度、{entry.animeCount} 套動畫。選擇季度，直接查看歌曲、演唱者與動畫。</p>
       </div>
       <a class="button button--outline" href="/search/">搜尋動畫與歌曲</a>
     </header>
