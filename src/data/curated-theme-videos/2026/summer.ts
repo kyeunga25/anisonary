@@ -1,6 +1,80 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2026SummerThemeVideos = {
+  "198409:ED:1": [
+    {
+      "youtubeVideoId": "rXf6qAde3X8",
+      "title": "終わらない夜の守り方",
+      "type": "art_track",
+      "channelName": "インナージャーニー Inner Journey",
+      "officialStatus": "licensed",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "169582:ED:1": [
+    {
+      "youtubeVideoId": "p0EPk1VMVKY",
+      "title": "素敵なかんちがい",
+      "type": "music_video",
+      "channelName": "くらわん【公式】",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "MScz61wdhBA",
+      "title": "素敵なかんちがい",
+      "type": "art_track",
+      "channelName": "くらわん【公式】",
+      "officialStatus": "licensed",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "199748:OP:1": [
+    {
+      "youtubeVideoId": "zyfWBYQNzis",
+      "title": "それでも曇天を越えてゆく -Lyric Video-",
+      "type": "lyric_video",
+      "channelName": "sajou no hana Official Channel",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "ExubW5-pvzc",
+      "title": "それでも曇天を越えてゆく",
+      "type": "art_track",
+      "channelName": "sajou no hana Official Channel",
+      "officialStatus": "licensed",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "199408:OP:1": [
+    {
+      "youtubeVideoId": "0FOO_ou4uGI",
+      "title": "小倉 唯「Q.E.D.」MUSIC VIDEO",
+      "type": "music_video",
+      "channelName": "Yui Ogura YouTube OFFICIAL CHANNEL",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "199408:ED:1": [
+    {
+      "youtubeVideoId": "cQvUYuq7tjA",
+      "title": "大西亜玖璃 / グッバイ・ララバイ [Lyric Video]",
+      "type": "lyric_video",
+      "channelName": "大西亜玖璃 - Aguri Onishi",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+
   "190569:OP:1": [
     {
       youtubeVideoId: "QtlOSpxYoaE",
