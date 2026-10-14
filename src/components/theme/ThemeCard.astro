@@ -1,8 +1,10 @@
 ---
 import type { PublicTheme } from "@/types/public-api";
 import { creditRoleLabel } from "@/utils/theme";
+import { themeVideoAnchor } from "@/utils/youtube";
 import ExternalLinkList from "@/components/links/ExternalLinkList.astro";
 import LazyYouTube from "@/components/youtube/LazyYouTube.astro";
+import SongRelations from "@/components/theme/SongRelations.astro";
 
 interface Props { theme: PublicTheme; }
 const { theme } = Astro.props;
@@ -47,7 +49,7 @@ const sourceRoleLabels = {
 
     <dl class="theme-card__credits">
       {credits.length > 0 ? credits.map((credit) => (
-        <div><dt>{creditRoleLabel(credit.role)}</dt><dd>{credit.name}</dd></div>
+        <div><dt>{creditRoleLabel(credit.role)}</dt><dd>{credit.name}{credit.groupName && `（${credit.groupName}）`}</dd></div>
       )) : (
         <div><dt>Credits</dt><dd>待確認</dd></div>
       )}
@@ -70,7 +72,7 @@ const sourceRoleLabels = {
               <span class="sr-only">（在新分頁開啟外部網站）</span>
             </a>
             <span class="theme-card__source-meta">
-              {sourceLanguageLabels[source.language]} · {sourceRoleLabels[source.role]}
+              {sourceLanguageLabels[source.language]} · {sourceRoleLabels[source.role]} · {source.verifiedAt}
             </span>
           </li>
         ))}
@@ -78,9 +80,11 @@ const sourceRoleLabels = {
     </div>
   </div>
 
+  {(theme.recordings || theme.releases || theme.evidence) && <SongRelations theme={theme} />}
+
   {(theme.videos.length > 0 || theme.links.length > 0) && (
     <div class="theme-card__media">
-      {theme.videos.map((video) => <LazyYouTube video={video} />)}
+      {theme.videos.map((video) => <div id={themeVideoAnchor(theme, video.youtubeVideoId)} class="theme-card__video"><LazyYouTube video={video} /></div>)}
       {theme.links.length > 0 && <div class="theme-card__links"><ExternalLinkList links={theme.links} /></div>}
     </div>
   )}
@@ -112,6 +116,7 @@ const sourceRoleLabels = {
   .theme-card__verification li { align-items: baseline; display: flex; flex-wrap: wrap; gap: 0.25rem 0.45rem; }
   .theme-card__verification a { color: var(--color-accent); font-weight: 680; text-underline-offset: 0.16em; }
   .theme-card__source-meta { color: var(--color-muted); font-size: 0.68rem; }
+  .theme-card__video { scroll-margin-top: 5rem; }
   .theme-card__media { border-top: 1px solid var(--color-border); }
   .theme-card__links { padding: 0 1.3rem 1.3rem; }
 

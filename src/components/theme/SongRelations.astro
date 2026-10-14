@@ -1,0 +1,106 @@
+---
+import type { PublicFieldEvidence, PublicTheme } from "@/types/public-api";
+import { creditRoleLabel } from "@/utils/theme";
+import { themeVideoAnchor } from "@/utils/youtube";
+
+interface Props { theme: PublicTheme; }
+const { theme } = Astro.props;
+const formats = { full: "完整音源 · Full", tv: "TV Size", short: "短版 · Short", unknown: "長度分類待確認" };
+const kinds = { vocal: "演唱版", instrumental: "Instrumental", rearrangement: "重新編曲", character: "角色版", live: "Live", remix: "Remix" };
+const releaseTypes = { single: "Single", album: "Album", ep: "EP／Mini Album", compilation: "合輯", soundtrack: "OST" };
+const evidenceFields = {
+  title: "曲名／標題", artist: "演唱名義", usage: "動畫用途", credits: "創作／演唱名單",
+  format: "音源長度", kind: "音源種類", date: "發行日期", edition: "發行版",
+  catalog_number: "品番", tracklist: "收錄曲目", url: "外連", type: "形式", availability: "可用性"
+};
+const evidenceTargets = { song: "歌曲", anime_use: "動畫用途", credits: "名單", recording: "音源", release: "發行品", video: "影片", link: "平台" };
+const targetName = (evidence: PublicFieldEvidence) => {
+  if (evidence.target === "recording") return theme.recordings?.find((item) => item.id === evidence.targetId)?.title;
+  if (evidence.target === "release") {
+    const release = theme.releases?.find((item) => item.id === evidence.targetId);
+    return release ? `${release.title} · ${release.edition ?? release.type}` : undefined;
+  }
+  if (evidence.target === "video") return theme.videos.find((item) => item.youtubeVideoId === evidence.targetId)?.title;
+  if (evidence.target === "link") return theme.links.find((item) => item.url === evidence.targetId)?.label;
+  return theme.titleJa;
+};
+---
+
+<section class="song-relations" aria-label={`${theme.titleJa} 的音源與發行品`}>
+  {theme.recordings && (
+    <div class="song-relations__section">
+      <h4>音源版本 <small lang="en">Recordings</small></h4>
+      <ul class="recording-list">
+        {theme.recordings.map((recording) => (
+          <li id={`${theme.id}-recording-${recording.id}`}>
+            <strong lang="ja">{recording.title}</strong>
+            <span>{kinds[recording.kind]} · {formats[recording.format]}</span>
+            {recording.credits && <p>{recording.credits.map((credit) => `${creditRoleLabel(credit.role)}：${credit.name}`).join(" · ")}</p>}
+            <div class="relation-links">
+              {theme.videos.filter((video) => video.recordingId === recording.id).map((video) => <a href={`#${themeVideoAnchor(theme, video.youtubeVideoId)}`}>{video.title}</a>)}
+              {theme.links.filter((link) => link.recordingId === recording.id).map((link) => <a href={link.url} target="_blank" rel="noopener noreferrer external">{link.label}</a>)}
+              {theme.releases?.filter((release) => release.tracks.some((track) => track.recordingId === recording.id)).map((release) => <a href={`#${theme.id}-release-${release.id}`}>{release.title} · {release.edition ?? releaseTypes[release.type]}</a>)}
+            </div>
+          </li>
+        ))}
+      </ul>
+    </div>
+  )}
+  {theme.releases && (
+    <div class="song-relations__section">
+      <h4>收錄發行品 <small lang="en">Releases</small></h4>
+      <ul class="release-list">
+        {theme.releases.map((release) => (
+          <li id={`${theme.id}-release-${release.id}`}>
+            <strong lang="ja">{release.title}</strong>
+            <p>{[releaseTypes[release.type], release.artistDisplayName, release.edition, release.catalogNumber, release.date?.value, release.label, release.region && release.region !== "UNKNOWN" ? release.region : undefined].filter(Boolean).join(" · ")}</p>
+            <ul aria-label="此發行品收錄的本曲音源">
+              {release.tracks.map((track) => (
+                <li>
+                  <span>{track.disc ? `Disc ${track.disc} · ` : ""}{track.position ? `Track ${track.position} · ` : ""}</span>
+                  {track.recordingId ? <a href={`#${theme.id}-recording-${track.recordingId}`}>{track.title}</a> : <>{track.title} · 音源對應待確認</>}
+                </li>
+              ))}
+            </ul>
+            <div class="relation-links">
+              {theme.links.filter((link) => link.releaseId === release.id).map((link) => <a href={link.url} target="_blank" rel="noopener noreferrer external">{link.label}</a>)}
+            </div>
+          </li>
+        ))}
+      </ul>
+    </div>
+  )}
+  {theme.evidence && (
+    <details class="field-evidence">
+      <summary>欄位證據與核對日期 <span lang="en">Field evidence</span></summary>
+      <ul>
+        {theme.evidence.map((evidence) => (
+          <li>
+            <span>{evidenceTargets[evidence.target]} · {targetName(evidence)} · {evidence.fields.map((field) => evidenceFields[field]).join("、")} · {evidence.verifiedAt}</span>
+            {evidence.sourceUrls.map((url) => <a href={url} target="_blank" rel="noopener noreferrer external">{theme.sources.find((source) => source.url === url)?.label}</a>)}
+          </li>
+        ))}
+      </ul>
+    </details>
+  )}
+</section>
+
+<style>
+  .song-relations { margin-block: 0.9rem; }
+  h4 { font-size: 0.9rem; margin-block: 0 0.5rem; }
+  h4 small { color: var(--color-muted); font-size: 0.7rem; font-weight: 400; margin-left: 0.5rem; }
+  .song-relations__section + .song-relations__section { margin-top: 1rem; }
+  .recording-list, .release-list { display: grid; gap: 0.55rem; list-style: none; margin: 0; padding: 0; }
+  .recording-list > li, .release-list > li { border-left: 2px solid var(--color-border); padding: 0.35rem 0.8rem; scroll-margin-top: 5rem; }
+  strong { font-size: 0.85rem; overflow-wrap: anywhere; }
+  .recording-list span, p, .release-list ul { color: var(--color-muted); font-size: 0.76rem; line-height: 1.7; margin: 0.2rem 0; overflow-wrap: anywhere; }
+  .recording-list span { display: block; }
+  .release-list ul { padding-left: 1rem; }
+  a { color: var(--color-accent); font-size: 0.76rem; overflow-wrap: anywhere; text-underline-offset: 0.2em; }
+  .relation-links { display: flex; flex-wrap: wrap; gap: 0.35rem 0.8rem; }
+  .field-evidence { border-top: 1px solid var(--color-border); font-size: 0.75rem; margin-top: 1rem; padding-top: 0.6rem; }
+  summary { cursor: pointer; }
+  summary span { color: var(--color-muted); font-size: 0.65rem; }
+  .field-evidence ul { display: grid; gap: 0.6rem; list-style: none; padding: 0; }
+  .field-evidence li { display: grid; gap: 0.2rem; overflow-wrap: anywhere; }
+</style>

@@ -22,8 +22,8 @@ export function buildCatalogSearchIndex(entries: CatalogSearchData["entries"]) {
       artistDisplayName: theme.artistDisplayName,
       credits: theme.credits.filter((credit) => credit.role !== "vocals").map((credit) => `${creditRoleLabel(credit.role)}：${credit.name}`).join(" · "),
       searchText: buildThemeSearchText(theme),
-      titleSearchText: normalizeCatalogSearchText([theme.titleJa, theme.titleZhHant, theme.titleRomaji].filter(Boolean).join(" ")),
-      creatorSearchText: normalizeCatalogSearchText([theme.artistDisplayName, ...theme.credits.map((credit) => `${credit.name} ${creditRoleLabel(credit.role)}`)].join(" "))
+      titleSearchText: normalizeCatalogSearchText([theme.titleJa, theme.titleZhHant, theme.titleRomaji, theme.versionLabel, ...(theme.recordings ?? []).map((recording) => recording.title), ...(theme.releases ?? []).map((release) => release.title)].filter(Boolean).join(" ")),
+      creatorSearchText: normalizeCatalogSearchText([theme.artistDisplayName, ...theme.credits.map((credit) => `${credit.name} ${credit.groupName ?? ""} ${creditRoleLabel(credit.role)}`), ...(theme.recordings ?? []).flatMap((recording) => (recording.credits ?? []).map((credit) => credit.name))].join(" "))
     }))
   }));
 }

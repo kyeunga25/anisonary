@@ -57,8 +57,10 @@ export interface PublicCreatorCredit {
     | "composition"
     | "songwriting"
     | "arrangement"
+    | "group_member"
     | "other";
   creatorSlug?: string;
+  groupName?: string;
 }
 
 export interface PublicVideo {
@@ -69,11 +71,19 @@ export interface PublicVideo {
     | "creditless_ed"
     | "tv_size"
     | "full_music_video"
+    | "music_video"
+    | "art_track"
+    | "lyric_video"
+    | "live"
+    | "pv"
     | "official_audio"
     | "other";
   channelName: string;
   officialStatus: "official" | "licensed";
   embeddable: boolean;
+  embedAvailability?: "unknown";
+  recordingId?: string;
+  releaseId?: string;
 }
 
 export type PublicLinkType =
@@ -90,6 +100,10 @@ export interface PublicExternalLink {
   url: string;
   linkType: PublicLinkType;
   region: "JP" | "HK" | "TW" | "GLOBAL" | "UNKNOWN";
+  recordingId?: string;
+  releaseId?: string;
+  verifiedAt?: string;
+  availability?: "available" | "unavailable" | "unknown";
 }
 
 export interface PublicThemeSource {
@@ -97,6 +111,40 @@ export interface PublicThemeSource {
   url: string;
   language: PublicSourceLanguage;
   role: "first_party" | "cross_check";
+  verifiedAt: string;
+}
+
+export interface PublicRecording {
+  id: string;
+  title: string;
+  format: "full" | "tv" | "short" | "unknown";
+  kind: "vocal" | "instrumental" | "rearrangement" | "character" | "live" | "remix";
+  credits?: PublicCreatorCredit[];
+}
+
+export interface PublicRelease {
+  id: string;
+  title: string;
+  type: "single" | "album" | "ep" | "compilation" | "soundtrack";
+  artistDisplayName: string;
+  date?: { value: string; precision: "year" | "month" | "day" };
+  label?: string;
+  region?: PublicExternalLink["region"];
+  edition?: string;
+  catalogNumber?: string;
+  // Only tracks related to this song; this is not a complete release tracklist.
+  tracks: { title: string; recordingId?: string; disc?: number; position?: number }[];
+}
+
+export type PublicEvidenceField =
+  | "title" | "artist" | "usage" | "credits" | "format" | "kind"
+  | "date" | "edition" | "catalog_number" | "tracklist" | "url" | "type" | "availability";
+
+export interface PublicFieldEvidence {
+  target: "song" | "anime_use" | "credits" | "recording" | "release" | "video" | "link";
+  targetId?: string;
+  fields: PublicEvidenceField[];
+  sourceUrls: string[];
   verifiedAt: string;
 }
 
@@ -111,6 +159,10 @@ export interface PublicTheme {
   credits: PublicCreatorCredit[];
   versionLabel?: string;
   releaseDate?: string;
+  songId?: string;
+  recordings?: PublicRecording[];
+  releases?: PublicRelease[];
+  evidence?: PublicFieldEvidence[];
   videos: PublicVideo[];
   links: PublicExternalLink[];
   sources: PublicThemeSource[];

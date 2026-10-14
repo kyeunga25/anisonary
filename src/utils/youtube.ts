@@ -1,4 +1,4 @@
-import type { PublicVideo } from "@/types/public-api";
+import type { PublicTheme, PublicVideo } from "@/types/public-api";
 
 const youtubeIdPattern = /^[A-Za-z0-9_-]{11}$/;
 
@@ -7,6 +7,11 @@ const videoTypeLabels: Record<PublicVideo["type"], string> = {
   creditless_ed: "無字幕 ED",
   tv_size: "TV Size",
   full_music_video: "完整 MV",
+  music_video: "MV",
+  art_track: "Art Track",
+  lyric_video: "歌詞影片",
+  live: "現場影片",
+  pv: "宣傳 PV",
   official_audio: "官方音源",
   other: "其他官方影片"
 };
@@ -26,4 +31,8 @@ export function youtubeWatchUrl(videoId: string): string | null {
 
 export function videoTypeLabel(type: PublicVideo["type"]): string {
   return videoTypeLabels[type];
+}
+
+export function themeVideoAnchor(theme: Pick<PublicTheme, "type" | "sequence">, videoId: string): string {
+  return `video-${theme.type.toLowerCase()}-${theme.sequence}-${videoId}`;
 }

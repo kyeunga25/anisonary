@@ -4739,8 +4739,14 @@ function buildThemeSources(
   key: string,
   verifiedAt: string
 ): PublicThemeSource[] {
+  if (theme.sourceMode === "explicit") {
+    return [...new Map((theme.sources ?? [])
+      .map((source) => ({ ...source, url: canonicalHttpsUrl(source.url), verifiedAt: source.verifiedAt ?? verifiedAt }))
+      .filter((source) => !excludedSourceUrls.has(source.url))
+      .map((source) => [source.url, source])).values()];
+  }
   const candidates: PublicThemeSource[] = [
-    ...(themeSourceOverrides[key] ?? []).map((source) => ({ ...source, verifiedAt })),
+    ...(themeSourceOverrides[key] ?? []).map((source) => ({ ...source, verifiedAt: source.verifiedAt ?? verifiedAt })),
     ...(theme.youtubeUrl ? [{
       label: "官方 YouTube 影片",
       url: canonicalHttpsUrl(theme.youtubeUrl),
@@ -4748,7 +4754,9 @@ function buildThemeSources(
       role: "first_party" as const,
       verifiedAt
     }] : []),
-    ...(videoOverrides[key] ?? []).map((video) => ({
+    ...(videoOverrides[key] ?? []).filter((video) => !theme.evidence?.some((evidence) =>
+      evidence.target === "video" && evidence.targetId === video.youtubeVideoId
+    )).map((video) => ({
       label: `${video.channelName} ${video.officialStatus === "official" ? "官方" : "授權"}影片`,
       url: `https://www.youtube.com/watch?v=${video.youtubeVideoId}`,
       language: videoSourceLanguageOverrides[video.youtubeVideoId] ?? "ja",
@@ -4788,7 +4796,9 @@ function buildThemeSources(
   ];
 
   return [...new Map(
-    candidates
+    [...candidates, ...(theme.sources ?? []).map((source) => ({
+      ...source, url: canonicalHttpsUrl(source.url), verifiedAt: source.verifiedAt ?? verifiedAt
+    }))]
       .filter((source) => !excludedSourceUrls.has(canonicalHttpsUrl(source.url)))
       .map((source) => [source.url, source])
   ).values()];
@@ -4801,6 +4811,10 @@ function toTheme(seed: CuratedAnimeSeed, originalTheme: CuratedThemeSeed): Publi
   const versionLabel = themeVersionLabelOverrides[key] ?? theme.versionLabel;
   const verifiedAt = themeVerifiedAtOverrides[key] ?? theme.lastVerifiedAt ?? seed.verifiedAt ?? defaultVerifiedAt;
   const sources = buildThemeSources(seed, theme, key, verifiedAt);
+  const legacyLinks = [...themeLink(seed, theme), ...(linkOverrides[key] ?? [])];
+  const links = theme.links
+    ? [...new Map([...legacyLinks, ...theme.links].map((link) => [canonicalHttpsUrl(link.url), link])).values()]
+    : legacyLinks;
 
   return {
     id: `${publicSlug(seed)}-${theme.type.toLowerCase()}-${theme.sequence}`,
@@ -4811,16 +4825,20 @@ function toTheme(seed: CuratedAnimeSeed, originalTheme: CuratedThemeSeed): Publi
     artistDisplayName: theme.artistDisplayName,
     ...(versionLabel ? { versionLabel } : {}),
     ...(releaseDate ? { releaseDate } : {}),
+    ...(theme.songId ? { songId: theme.songId } : {}),
+    ...(theme.recordings ? { recordings: theme.recordings } : {}),
+    ...(theme.releases ? { releases: theme.releases } : {}),
+    ...(theme.evidence ? { evidence: theme.evidence } : {}),
     credits: theme.credits ?? [
       ...(vocalCreditOverrides[key] ?? [{ name: theme.artistDisplayName, role: "vocals" }]),
       ...(creditOverrides[key] ?? [])
     ],
     videos: videoOverrides[key] ?? [],
-    links: [...themeLink(seed, theme), ...(linkOverrides[key] ?? [])],
+    links,
     sources,
     reviewState: "reviewed",
     sourceLabels: [...new Set(sources.map((source) => source.label))],
-    lastVerifiedAt: verifiedAt
+    lastVerifiedAt: sources.map((source) => source.verifiedAt).sort().at(-1) ?? verifiedAt
   };
 }
 

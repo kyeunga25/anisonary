@@ -5,6 +5,9 @@ import type {
   PublicCatalogReference,
   PublicCreatorCredit,
   PublicExternalLink,
+  PublicFieldEvidence,
+  PublicRecording,
+  PublicRelease,
   PublicSeasonDetail,
   PublicSeasonSummary,
   PublicTheme,
@@ -32,6 +35,7 @@ const creatorRoles = [
   "composition",
   "songwriting",
   "arrangement",
+  "group_member",
   "other"
 ] as const;
 const videoTypes = [
@@ -39,6 +43,11 @@ const videoTypes = [
   "creditless_ed",
   "tv_size",
   "full_music_video",
+  "music_video",
+  "art_track",
+  "lyric_video",
+  "live",
+  "pv",
   "official_audio",
   "other"
 ] as const;
@@ -286,6 +295,8 @@ function parseCreatorCredit(value: unknown): PublicCreatorCredit {
   };
   const creatorSlug = item.creatorSlug === undefined ? undefined : slug(item.creatorSlug);
   if (creatorSlug !== undefined) credit.creatorSlug = creatorSlug;
+  if (item.groupName !== undefined) credit.groupName = text(item.groupName);
+  if (credit.role === "group_member" && !credit.groupName) invalidContract();
   return credit;
 }
 
@@ -299,7 +310,16 @@ function parseVideo(value: unknown): PublicVideo {
     type: oneOf(item.type, videoTypes),
     channelName: text(item.channelName),
     officialStatus: oneOf(item.officialStatus, ["official", "licensed"] as const),
-    embeddable: bool(item.embeddable)
+    embeddable: bool(item.embeddable),
+    ...(item.embedAvailability === undefined ? {} : { embedAvailability: oneOf(item.embedAvailability, ["unknown"] as const) }),
+    ...parseMediaRelations(item)
+  };
+}
+
+function parseMediaRelations(item: Record<string, unknown>): { recordingId?: string; releaseId?: string } {
+  return {
+    ...(item.recordingId === undefined ? {} : { recordingId: slug(item.recordingId) }),
+    ...(item.releaseId === undefined ? {} : { releaseId: slug(item.releaseId) })
   };
 }
 
@@ -310,7 +330,10 @@ function parseExternalLink(value: unknown): PublicExternalLink {
     label: text(item.label, 1_000),
     url: httpsUrl(item.url),
     linkType: oneOf(item.linkType, linkTypes),
-    region: oneOf(item.region, linkRegions)
+    region: oneOf(item.region, linkRegions),
+    ...parseMediaRelations(item),
+    ...(item.verifiedAt === undefined ? {} : { verifiedAt: iso8601(item.verifiedAt) }),
+    ...(item.availability === undefined ? {} : { availability: oneOf(item.availability, ["available", "unavailable", "unknown"] as const) })
   };
 }
 
@@ -323,6 +346,102 @@ function parseThemeSource(value: unknown): PublicThemeSource {
     role: oneOf(item.role, themeSourceRoles),
     verifiedAt: iso8601(item.verifiedAt)
   };
+}
+
+function parseRecording(value: unknown): PublicRecording {
+  const item = record(value);
+  return {
+    id: slug(item.id), title: text(item.title),
+    format: oneOf(item.format, ["full", "tv", "short", "unknown"] as const),
+    kind: oneOf(item.kind, ["vocal", "instrumental", "rearrangement", "character", "live", "remix"] as const),
+    ...(item.credits === undefined ? {} : { credits: array(item.credits, 0, 50).map(parseCreatorCredit) })
+  };
+}
+
+function parseReleaseDate(value: unknown): NonNullable<PublicRelease["date"]> {
+  const item = record(value);
+  const precision = oneOf(item.precision, ["year", "month", "day"] as const);
+  const date = text(item.value, 10);
+  if (precision === "day") {
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) invalidContract();
+    iso8601(date);
+  } else if (precision === "month") {
+    if (!/^\d{4}-(?:0[1-9]|1[0-2])$/.test(date)) invalidContract();
+  } else if (!/^\d{4}$/.test(date)) invalidContract();
+  integer(Number(date.slice(0, 4)), 1900, 2100);
+  return { value: date, precision };
+}
+
+function parseRelease(value: unknown): PublicRelease {
+  const item = record(value);
+  return {
+    id: slug(item.id), title: text(item.title),
+    type: oneOf(item.type, ["single", "album", "ep", "compilation", "soundtrack"] as const),
+    artistDisplayName: text(item.artistDisplayName),
+    ...(item.date === undefined ? {} : { date: parseReleaseDate(item.date) }),
+    ...(item.label === undefined ? {} : { label: text(item.label) }),
+    ...(item.region === undefined ? {} : { region: oneOf(item.region, linkRegions) }),
+    ...(item.edition === undefined ? {} : { edition: text(item.edition) }),
+    ...(item.catalogNumber === undefined ? {} : { catalogNumber: text(item.catalogNumber, 80) }),
+    tracks: array(item.tracks, 1, 100).map((value) => {
+      const track = record(value);
+      return {
+        title: text(track.title),
+        ...(track.recordingId === undefined ? {} : { recordingId: slug(track.recordingId) }),
+        ...(track.disc === undefined ? {} : { disc: integer(track.disc, 1, 99) }),
+        ...(track.position === undefined ? {} : { position: integer(track.position, 1, 999) })
+      };
+    })
+  };
+}
+
+function parseFieldEvidence(value: unknown): PublicFieldEvidence {
+  const item = record(value);
+  const evidence: PublicFieldEvidence = {
+    target: oneOf(item.target, ["song", "anime_use", "credits", "recording", "release", "video", "link"] as const),
+    ...(item.targetId === undefined ? {} : { targetId: text(item.targetId, 2_048) }),
+    fields: array(item.fields, 1, 20).map((field) => oneOf(field, [
+      "title", "artist", "usage", "credits", "format", "kind", "date", "edition", "catalog_number", "tracklist", "url", "type", "availability"
+    ] as const)),
+    sourceUrls: array(item.sourceUrls, 1, 20).map(httpsUrl),
+    verifiedAt: iso8601(item.verifiedAt)
+  };
+  unique(evidence.fields);
+  unique(evidence.sourceUrls);
+  return evidence;
+}
+
+function validateSongRelations(theme: PublicTheme): void {
+  if (theme.videos.some((video) => video.embedAvailability === "unknown" && video.embeddable)) invalidContract();
+  const recordingIds = (theme.recordings ?? []).map((item) => item.id);
+  const releaseIds = (theme.releases ?? []).map((item) => item.id);
+  unique(recordingIds);
+  unique(releaseIds);
+  if ((theme.recordings || theme.releases || theme.evidence) && !theme.songId) invalidContract();
+  for (const media of [...theme.videos, ...theme.links, ...(theme.releases ?? []).flatMap((release) => release.tracks)]) {
+    if (media.recordingId && !recordingIds.includes(media.recordingId)) invalidContract();
+    if ("releaseId" in media && media.releaseId && !releaseIds.includes(media.releaseId)) invalidContract();
+    if (media.recordingId && "releaseId" in media && media.releaseId &&
+      !theme.releases?.find((release) => release.id === media.releaseId)?.tracks.some((track) => track.recordingId === media.recordingId)) invalidContract();
+  }
+  for (const evidence of theme.evidence ?? []) {
+    const targets = {
+      song: [theme.songId], anime_use: [theme.id], credits: [undefined],
+      recording: recordingIds, release: releaseIds,
+      video: theme.videos.map((video) => video.youtubeVideoId), link: theme.links.map((link) => link.url)
+    };
+    if (!(targets[evidence.target] as (string | undefined)[]).includes(evidence.targetId)) invalidContract();
+    for (const url of evidence.sourceUrls) {
+      const source = theme.sources.find((source) => source.url === url);
+      if (!source || evidence.verifiedAt > source.verifiedAt) invalidContract();
+    }
+  }
+  for (const [target, ids] of [["recording", recordingIds], ["release", releaseIds]] as const) {
+    for (const id of ids) {
+      if (!theme.evidence?.some((evidence) => evidence.target === target && evidence.targetId === id &&
+        evidence.sourceUrls.some((url) => theme.sources.some((source) => source.url === url && source.role === "first_party")))) invalidContract();
+    }
+  }
 }
 
 function parseTheme(value: unknown): PublicTheme {
@@ -363,6 +482,11 @@ function parseTheme(value: unknown): PublicTheme {
   if (titleZhHant !== undefined) theme.titleZhHant = titleZhHant;
   if (versionLabel !== undefined) theme.versionLabel = versionLabel;
   if (releaseDate !== undefined) theme.releaseDate = releaseDate;
+  if (item.songId !== undefined) theme.songId = slug(item.songId);
+  if (item.recordings !== undefined) theme.recordings = array(item.recordings, 1, 50).map(parseRecording);
+  if (item.releases !== undefined) theme.releases = array(item.releases, 1, 50).map(parseRelease);
+  if (item.evidence !== undefined) theme.evidence = array(item.evidence, 1, 200).map(parseFieldEvidence);
+  validateSongRelations(theme);
   if (lastVerifiedAt !== undefined) {
     const latestSourceVerification = theme.sources
       .map((source) => source.verifiedAt)

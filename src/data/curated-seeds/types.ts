@@ -1,14 +1,17 @@
 import type { PublicAnimeDetail, PublicTheme, Quarter } from "@/types/public-api";
+import type { CuratedThemeSourceSeed } from "@/data/curated-theme-sources/types";
 
 export type CuratedSeasonId = `${number}-${Quarter}`;
 
-export interface CuratedThemeSeed extends Partial<Pick<PublicTheme, "credits" | "versionLabel" | "releaseDate" | "lastVerifiedAt">> {
+export interface CuratedThemeSeed extends Partial<Pick<PublicTheme, "credits" | "versionLabel" | "releaseDate" | "lastVerifiedAt" | "songId" | "recordings" | "releases" | "evidence" | "links">> {
   type: "OP" | "ED";
   sequence: number;
   titleJa: string;
   titleRomaji?: string;
   artistDisplayName: string;
   youtubeUrl?: string;
+  sources?: CuratedThemeSourceSeed[];
+  sourceMode?: "explicit";
 }
 
 export interface CuratedAnimeSeed {
