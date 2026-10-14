@@ -11443,8 +11443,1004 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
     ],
     "metadataVerifiedAt": "2026-07-25"
   },
-  {"anilistId":195833,"id":"curated-195833","slug":"honoo-no-toukyuujyo-dodge-danko","seasonIds":["2026-summer"],"startDate":"2026-07-06","titleJa":"炎の闘球女 ドッジ弾子","titleZhHant":"鬥球女彈子","titleRomaji":"Honoo no Toukyuujyo Dodge Danko","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195833-h7x6i3NQWROA.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/195833-DlR4ToMXP3if.jpg","editorialWeekday":1,"broadcastTimeJst":"23:00","status":"airing","officialSiteUrl":"https://dodge-danko.com/","anilistUrl":"https://anilist.co/anime/195833","imageSourceUrl":"https://anilist.co/anime/195833","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/674336"],"animeThemesUrl":"https://animethemes.moe/anime/honoo_no_toukyuujyo_dodge_danko","uzureaUrl":"https://uzurea.net/summer-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"会心の一劇","titleRomaji":"Kaishin no Ichigeki","artistDisplayName":"ももいろクローバーZ","youtubeUrl":"https://www.youtube.com/watch?v=S5BYg1_0u7M"},{"type":"ED","sequence":1,"titleJa":"Welcome to あざとさワールド","titleRomaji":"Welcome to Azatosa World","artistDisplayName":"iRis☆","youtubeUrl":"https://www.youtube.com/watch?v=miLM7VnR08o"}]},
-  {"anilistId":209504,"id":"curated-209504","slug":"suterare-seijo-no-isekai-gohantabi-kakure-skill-de-camping-car-wo-shoukan-shimashita","seasonIds":["2026-summer"],"startDate":"2026-07-06","titleJa":"捨てられ聖女の異世界ごはん旅 隠れスキルでキャンピングカーを召喚しました","titleZhHant":"無用聖女的異世界美食之旅 憑藉隱藏技能召喚露營車","titleRomaji":"Suterare Seijo no Isekai Gohantabi: Kakure Skill de Camping Car wo Shoukan Shimashita","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209504-yRxHWxKuNGtg.jpg","editorialWeekday":1,"broadcastTimeJst":"23:00","status":"airing","officialSiteUrl":"https://isekai-gohantabi.com/","anilistUrl":"https://anilist.co/anime/209504","imageSourceUrl":"https://anilist.co/anime/209504","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/675713"],"animeThemesUrl":"https://animethemes.moe/anime/suterare_seijo_no_isekai_gohantabi_kakure_skill_de_camping_car_wo_shoukan_shimashita","uzureaUrl":"https://uzurea.net/summer-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"Butterfly","artistDisplayName":"INUWASI","youtubeUrl":"https://www.youtube.com/watch?v=sdOQK3KW2vI"},{"type":"ED","sequence":1,"titleJa":"Holy Sweet Home","artistDisplayName":"音感れもねゐど","youtubeUrl":"https://www.youtube.com/watch?v=5EcanUJkPOY"}]},
+  {
+    "anilistId": 195833,
+    "id": "curated-195833",
+    "slug": "honoo-no-toukyuujyo-dodge-danko",
+    "seasonIds": [
+      "2026-summer"
+    ],
+    "startDate": "2026-07-06",
+    "titleJa": "炎の闘球女 ドッジ弾子",
+    "titleZhHant": "鬥球女彈子",
+    "titleRomaji": "Honoo no Toukyuujyo Dodge Danko",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195833-h7x6i3NQWROA.jpg",
+    "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/195833-DlR4ToMXP3if.jpg",
+    "editorialWeekday": 1,
+    "broadcastTimeJst": "23:00",
+    "status": "airing",
+    "officialSiteUrl": "https://dodge-danko.com/",
+    "anilistUrl": "https://anilist.co/anime/195833",
+    "imageSourceUrl": "https://anilist.co/anime/195833",
+    "imageSourceLabel": "AniList 公開媒體頁",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "sourceReferenceUrls": [
+      "https://natalie.mu/comic/news/674336"
+    ],
+    "animeThemesUrl": "https://animethemes.moe/anime/honoo_no_toukyuujyo_dodge_danko",
+    "uzureaUrl": "https://uzurea.net/summer-2026-anime-theme-songs/",
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "会心の一劇",
+        "titleRomaji": "Kaishin no Ichigeki",
+        "artistDisplayName": "ももいろクローバーZ",
+        "youtubeUrl": "https://www.youtube.com/watch?v=S5BYg1_0u7M",
+        "credits": [
+          {
+            "name": "ももいろクローバーZ",
+            "role": "vocals"
+          },
+          {
+            "name": "zopp",
+            "role": "lyrics"
+          },
+          {
+            "name": "Maho Hamaguchi",
+            "role": "lyrics"
+          },
+          {
+            "name": "豊森裕介",
+            "role": "composition"
+          },
+          {
+            "name": "マサ",
+            "role": "composition"
+          },
+          {
+            "name": "田中タリラ",
+            "role": "arrangement"
+          },
+          {
+            "name": "マサ",
+            "role": "arrangement"
+          },
+          {
+            "name": "百田夏菜子",
+            "role": "group_member",
+            "groupName": "ももいろクローバーZ"
+          },
+          {
+            "name": "玉井詩織",
+            "role": "group_member",
+            "groupName": "ももいろクローバーZ"
+          },
+          {
+            "name": "佐々木彩夏",
+            "role": "group_member",
+            "groupName": "ももいろクローバーZ"
+          },
+          {
+            "name": "高城れに",
+            "role": "group_member",
+            "groupName": "ももいろクローバーZ"
+          }
+        ],
+        "sources": [
+          {
+            "label": "官方 YouTube 影片",
+            "url": "https://www.youtube.com/watch?v=S5BYg1_0u7M",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "動畫官方網站",
+            "url": "https://dodge-danko.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/honoo_no_toukyuujyo_dodge_danko",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "UZUREA 主題曲清單",
+            "url": "https://uzurea.net/summer-2026-anime-theme-songs/",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "url": "https://dodge-danko.com/music/",
+            "label": "動畫官網 MUSIC：OP／ED、演唱名義及創作名單",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          }
+        ],
+        "songId": "honoo-no-toukyuujyo-dodge-danko-op-1-song",
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://dodge-danko.com/music/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "honoo-no-toukyuujyo-dodge-danko-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://dodge-danko.com/music/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "honoo-no-toukyuujyo-dodge-danko-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://dodge-danko.com/music/"
+            ],
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://dodge-danko.com/music/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "https://mcz.lnk.to/kaishin"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方配信",
+            "label": "会心の一劇 官方配信入口",
+            "url": "https://mcz.lnk.to/kaishin",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-14",
+            "availability": "unknown"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "Welcome to あざとさワールド",
+        "titleRomaji": "Welcome to Azatosa World",
+        "artistDisplayName": "i☆Ris",
+        "youtubeUrl": "https://www.youtube.com/watch?v=miLM7VnR08o",
+        "credits": [
+          {
+            "name": "神谷礼",
+            "role": "lyrics"
+          },
+          {
+            "name": "神谷礼",
+            "role": "composition"
+          },
+          {
+            "name": "神谷礼",
+            "role": "arrangement"
+          },
+          {
+            "name": "i☆Ris",
+            "role": "vocals"
+          },
+          {
+            "name": "山北早紀",
+            "role": "group_member",
+            "groupName": "i☆Ris"
+          },
+          {
+            "name": "芹澤優",
+            "role": "group_member",
+            "groupName": "i☆Ris"
+          },
+          {
+            "name": "茜屋日海夏",
+            "role": "group_member",
+            "groupName": "i☆Ris"
+          },
+          {
+            "name": "若井友希",
+            "role": "group_member",
+            "groupName": "i☆Ris"
+          },
+          {
+            "name": "久保田未夢",
+            "role": "group_member",
+            "groupName": "i☆Ris"
+          }
+        ],
+        "sources": [
+          {
+            "label": "官方 YouTube 影片",
+            "url": "https://www.youtube.com/watch?v=miLM7VnR08o",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "動畫官方網站",
+            "url": "https://dodge-danko.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/honoo_no_toukyuujyo_dodge_danko",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "UZUREA 主題曲清單",
+            "url": "https://uzurea.net/summer-2026-anime-theme-songs/",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "url": "https://dodge-danko.com/music/",
+            "label": "動畫官網 MUSIC：OP／ED、演唱名義及創作名單",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://avexnet.jp/contents/IRISX-XXXX-XXXX/news/1134102",
+            "label": "AVEX 官方 Single 活動公告：五位 i☆Ris 成員（公開索引）",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://iris.dive2ent.com/video/",
+            "label": "i☆Ris 官方 MOVIE：本曲 MV",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=_wOZSulv0pY",
+            "label": "i☆Ris 本曲 Music Video 公開索引：原文標題",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://iris.dive2ent.com/discography/",
+            "label": "i☆Ris 官方 discography：第 27 張 Single 版別、品番及曲序",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          }
+        ],
+        "songId": "honoo-no-toukyuujyo-dodge-danko-ed-1-song",
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://dodge-danko.com/music/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "honoo-no-toukyuujyo-dodge-danko-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://dodge-danko.com/music/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "honoo-no-toukyuujyo-dodge-danko-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://dodge-danko.com/music/"
+            ],
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://dodge-danko.com/music/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "honoo-no-toukyuujyo-dodge-danko-ed-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://iris.dive2ent.com/discography/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "iris-azatosa-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "artist",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://iris.dive2ent.com/discography/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "iris-azatosa-bd"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "artist",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://iris.dive2ent.com/discography/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "iris-azatosa-dvd"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "artist",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://iris.dive2ent.com/discography/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "iris-azatosa-cd"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://avexnet.jp/contents/IRISX-XXXX-XXXX/news/1134102"
+            ],
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://iris.dive2ent.com/video/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "https://www.youtube.com/watch?v=_wOZSulv0pY"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://iris.dive2ent.com/discography/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "https://iris.dive2ent.com/discography/"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "iris-azatosa-instrumental",
+            "title": "Welcome to あざとさワールド -instrumental-",
+            "format": "unknown",
+            "kind": "instrumental"
+          }
+        ],
+        "releases": [
+          {
+            "id": "iris-azatosa-bd",
+            "title": "Welcome to あざとさワールド",
+            "type": "single",
+            "artistDisplayName": "i☆Ris",
+            "date": {
+              "value": "2026-07-15",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Welcome to あざとさワールド",
+                "disc": 1,
+                "position": 1
+              },
+              {
+                "title": "Welcome to あざとさワールド -instrumental-",
+                "disc": 1,
+                "position": 3,
+                "recordingId": "iris-azatosa-instrumental"
+              },
+              {
+                "title": "Welcome to あざとさワールド -Off Main Vocal-",
+                "disc": 1,
+                "position": 5
+              }
+            ],
+            "edition": "CD＋Blu-ray",
+            "catalogNumber": "EYCA-15010/B"
+          },
+          {
+            "id": "iris-azatosa-dvd",
+            "title": "Welcome to あざとさワールド",
+            "type": "single",
+            "artistDisplayName": "i☆Ris",
+            "date": {
+              "value": "2026-07-15",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Welcome to あざとさワールド",
+                "disc": 1,
+                "position": 1
+              },
+              {
+                "title": "Welcome to あざとさワールド -instrumental-",
+                "disc": 1,
+                "position": 3,
+                "recordingId": "iris-azatosa-instrumental"
+              },
+              {
+                "title": "Welcome to あざとさワールド -Off Main Vocal-",
+                "disc": 1,
+                "position": 5
+              }
+            ],
+            "edition": "CD＋DVD",
+            "catalogNumber": "EYCA-15009/B"
+          },
+          {
+            "id": "iris-azatosa-cd",
+            "title": "Welcome to あざとさワールド",
+            "type": "single",
+            "artistDisplayName": "i☆Ris",
+            "date": {
+              "value": "2026-07-15",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Welcome to あざとさワールド",
+                "disc": 1,
+                "position": 1
+              },
+              {
+                "title": "Welcome to あざとさワールド -instrumental-",
+                "disc": 1,
+                "position": 3,
+                "recordingId": "iris-azatosa-instrumental"
+              },
+              {
+                "title": "Welcome to あざとさワールド -Off Main Vocal-",
+                "disc": 1,
+                "position": 5
+              }
+            ],
+            "edition": "CD",
+            "catalogNumber": "EYCA-15011"
+          }
+        ],
+        "links": [
+          {
+            "platform": "YouTube",
+            "label": "Welcome to あざとさワールド 官方 MV",
+            "url": "https://www.youtube.com/watch?v=_wOZSulv0pY",
+            "linkType": "direct_track",
+            "region": "GLOBAL",
+            "verifiedAt": "2026-10-14",
+            "availability": "unknown"
+          },
+          {
+            "platform": "i☆Ris",
+            "label": "Welcome to あざとさワールド 官方 Single 商品資料",
+            "url": "https://iris.dive2ent.com/discography/",
+            "linkType": "official_landing_page",
+            "region": "JP",
+            "verifiedAt": "2026-10-14",
+            "availability": "unknown"
+          }
+        ]
+      }
+    ],
+    "metadataVerifiedAt": "2026-07-25"
+  },
+  {
+    "anilistId": 209504,
+    "id": "curated-209504",
+    "slug": "suterare-seijo-no-isekai-gohantabi-kakure-skill-de-camping-car-wo-shoukan-shimashita",
+    "seasonIds": [
+      "2026-summer"
+    ],
+    "startDate": "2026-07-06",
+    "titleJa": "捨てられ聖女の異世界ごはん旅 隠れスキルでキャンピングカーを召喚しました",
+    "titleZhHant": "無用聖女的異世界美食之旅 憑藉隱藏技能召喚露營車",
+    "titleRomaji": "Suterare Seijo no Isekai Gohantabi: Kakure Skill de Camping Car wo Shoukan Shimashita",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209504-yRxHWxKuNGtg.jpg",
+    "editorialWeekday": 1,
+    "broadcastTimeJst": "23:00",
+    "status": "airing",
+    "officialSiteUrl": "https://isekai-gohantabi.com/",
+    "anilistUrl": "https://anilist.co/anime/209504",
+    "imageSourceUrl": "https://anilist.co/anime/209504",
+    "imageSourceLabel": "AniList 公開媒體頁",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "sourceReferenceUrls": [
+      "https://natalie.mu/comic/news/675713"
+    ],
+    "animeThemesUrl": "https://animethemes.moe/anime/suterare_seijo_no_isekai_gohantabi_kakure_skill_de_camping_car_wo_shoukan_shimashita",
+    "uzureaUrl": "https://uzurea.net/summer-2026-anime-theme-songs/",
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Butterfly",
+        "artistDisplayName": "INUWASI",
+        "youtubeUrl": "https://www.youtube.com/watch?v=sdOQK3KW2vI",
+        "credits": [
+          {
+            "name": "INUWASI",
+            "role": "vocals"
+          },
+          {
+            "name": "ライカ",
+            "role": "group_member",
+            "groupName": "INUWASI"
+          },
+          {
+            "name": "がるむ",
+            "role": "group_member",
+            "groupName": "INUWASI"
+          },
+          {
+            "name": "はのんまゆ",
+            "role": "group_member",
+            "groupName": "INUWASI"
+          },
+          {
+            "name": "カリヲリ",
+            "role": "group_member",
+            "groupName": "INUWASI"
+          },
+          {
+            "name": "すずめ",
+            "role": "group_member",
+            "groupName": "INUWASI"
+          },
+          {
+            "name": "六椛",
+            "role": "group_member",
+            "groupName": "INUWASI"
+          }
+        ],
+        "sources": [
+          {
+            "label": "官方 YouTube 影片",
+            "url": "https://www.youtube.com/watch?v=sdOQK3KW2vI",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "動畫官方網站",
+            "url": "https://isekai-gohantabi.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/suterare_seijo_no_isekai_gohantabi_kakure_skill_de_camping_car_wo_shoukan_shimashita",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "UZUREA 主題曲清單",
+            "url": "https://uzurea.net/summer-2026-anime-theme-songs/",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "url": "https://isekai-gohantabi.com/news/39/",
+            "label": "動畫官網 PV 第 1 彈公告：Butterfly／INUWASI／OP（公開索引）",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://inuwasi.jp/member/",
+            "label": "INUWASI 官方 MEMBER：六位團隊成員",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://inuwasi.jp/event/detail.php?eid=5477",
+            "label": "INUWASI 官方 SIRAHA EP 公告：兩個 CD 版與 Butterfly 曲序",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          }
+        ],
+        "songId": "suterare-seijo-no-isekai-gohantabi-kakure-skill-de-camping-car-wo-shoukan-shimashita-op-1-song",
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://isekai-gohantabi.com/news/39/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "suterare-seijo-no-isekai-gohantabi-kakure-skill-de-camping-car-wo-shoukan-shimashita-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://isekai-gohantabi.com/news/39/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "suterare-seijo-no-isekai-gohantabi-kakure-skill-de-camping-car-wo-shoukan-shimashita-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://inuwasi.jp/member/"
+            ],
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "artist",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://inuwasi.jp/event/detail.php?eid=5477"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "inuwasi-siraha-first"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "artist",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://inuwasi.jp/event/detail.php?eid=5477"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "inuwasi-siraha-regular"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://inuwasi.jp/event/detail.php?eid=5477"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "https://inuwasi.jp/event/detail.php?eid=5477"
+          }
+        ],
+        "releases": [
+          {
+            "id": "inuwasi-siraha-first",
+            "title": "SIRAHA",
+            "type": "ep",
+            "artistDisplayName": "INUWASI",
+            "date": {
+              "value": "2026-09-16",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Butterfly",
+                "disc": 1,
+                "position": 5
+              }
+            ],
+            "edition": "初回限定盤",
+            "catalogNumber": "LAUE-35006",
+            "label": "UNIERA"
+          },
+          {
+            "id": "inuwasi-siraha-regular",
+            "title": "SIRAHA",
+            "type": "ep",
+            "artistDisplayName": "INUWASI",
+            "date": {
+              "value": "2026-09-16",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Butterfly",
+                "disc": 1,
+                "position": 5
+              }
+            ],
+            "edition": "通常盤",
+            "catalogNumber": "LAUE-5006",
+            "label": "UNIERA"
+          }
+        ],
+        "links": [
+          {
+            "platform": "INUWASI",
+            "label": "Butterfly 收錄 EP「SIRAHA」官方商品資料",
+            "url": "https://inuwasi.jp/event/detail.php?eid=5477",
+            "linkType": "official_landing_page",
+            "region": "JP",
+            "verifiedAt": "2026-10-14",
+            "availability": "unknown"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "Holy Sweet Home",
+        "artistDisplayName": "音感れもねゐど",
+        "youtubeUrl": "https://www.youtube.com/watch?v=5EcanUJkPOY",
+        "credits": [
+          {
+            "name": "音感れもねゐど",
+            "role": "vocals"
+          },
+          {
+            "name": "shikaro",
+            "role": "lyrics"
+          },
+          {
+            "name": "熊谷和海",
+            "role": "lyrics"
+          },
+          {
+            "name": "奏音",
+            "role": "composition"
+          },
+          {
+            "name": "岸田勇気",
+            "role": "arrangement"
+          },
+          {
+            "name": "shikaro",
+            "role": "group_member",
+            "groupName": "音感れもねゐど"
+          },
+          {
+            "name": "なのはな",
+            "role": "group_member",
+            "groupName": "音感れもねゐど"
+          },
+          {
+            "name": "奏音",
+            "role": "group_member",
+            "groupName": "音感れもねゐど"
+          }
+        ],
+        "sources": [
+          {
+            "label": "官方 YouTube 影片",
+            "url": "https://www.youtube.com/watch?v=5EcanUJkPOY",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "動畫官方網站",
+            "url": "https://isekai-gohantabi.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/suterare_seijo_no_isekai_gohantabi_kakure_skill_de_camping_car_wo_shoukan_shimashita",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "UZUREA 主題曲清單",
+            "url": "https://uzurea.net/summer-2026-anime-theme-songs/",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=39uu4PkieTg",
+            "label": "音感れもねゐど官方藝人頻道：Holy Sweet Home MV 與團隊名單",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://pylonport.bandainamcomusiclive.co.jp/more/730",
+            "label": "BANDAI NAMCO Music Live PYLON PORT：Holy Sweet Home 本曲名單與官方影片",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          }
+        ],
+        "songId": "suterare-seijo-no-isekai-gohantabi-kakure-skill-de-camping-car-wo-shoukan-shimashita-ed-1-song",
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://pylonport.bandainamcomusiclive.co.jp/more/730"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "suterare-seijo-no-isekai-gohantabi-kakure-skill-de-camping-car-wo-shoukan-shimashita-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://pylonport.bandainamcomusiclive.co.jp/more/730"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "suterare-seijo-no-isekai-gohantabi-kakure-skill-de-camping-car-wo-shoukan-shimashita-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://pylonport.bandainamcomusiclive.co.jp/more/730"
+            ],
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://pylonport.bandainamcomusiclive.co.jp/more/730"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "https://www.youtube.com/watch?v=39uu4PkieTg"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://pylonport.bandainamcomusiclive.co.jp/more/730",
+              "https://www.youtube.com/watch?v=39uu4PkieTg"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "39uu4PkieTg"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://pylonport.bandainamcomusiclive.co.jp/more/730"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "https://lnk.to/LZC-3563PR"
+          }
+        ],
+        "links": [
+          {
+            "platform": "YouTube",
+            "label": "Holy Sweet Home 官方 MV",
+            "url": "https://www.youtube.com/watch?v=39uu4PkieTg",
+            "linkType": "direct_track",
+            "region": "GLOBAL",
+            "verifiedAt": "2026-10-14",
+            "availability": "unknown"
+          },
+          {
+            "platform": "官方配信",
+            "label": "Holy Sweet Home 官方配信入口",
+            "url": "https://lnk.to/LZC-3563PR",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-14",
+            "availability": "unknown"
+          }
+        ]
+      }
+    ],
+    "metadataVerifiedAt": "2026-07-25"
+  },
   {
     "anilistId": 169583,
     "id": "curated-169583",
@@ -12177,13 +13173,2863 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
     ],
     "metadataVerifiedAt": "2026-07-25"
   },
-  {"anilistId":199111,"id":"curated-199111","slug":"grand-blue-season-3","seasonIds":["2026-summer"],"startDate":"2026-07-06","titleJa":"ぐらんぶる Season 3","titleZhHant":"GRAND BLUE 碧藍之海 Season 3","titleRomaji":"Grand Blue Season 3","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199111-gBSuBG61ElcW.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/199111-Z8y9awn2Zb6v.jpg","editorialWeekday":1,"broadcastTimeJst":"24:00","status":"airing","officialSiteUrl":"https://grandblue-anime.com/","anilistUrl":"https://anilist.co/anime/199111","imageSourceUrl":"https://anilist.co/anime/199111","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/675649"],"animeThemesUrl":"https://animethemes.moe/anime/grand_blue_season_3","uzureaUrl":"https://uzurea.net/summer-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"夏子","titleRomaji":"Natsuko","artistDisplayName":"FUNKY MONKEY BΛBY'S"},{"type":"ED","sequence":1,"titleJa":"裸のマーメード","titleRomaji":"Hadaka no Mermaid","artistDisplayName":"豆柴の大群","youtubeUrl":"https://www.youtube.com/watch?v=c-kKrErfKvM"}]},
-  {"anilistId":128757,"id":"curated-128757","slug":"tai-ari-deshita-ojou-sama-wa-kakutou-game-nante-shinai","seasonIds":["2026-summer"],"startDate":"2026-07-07","titleJa":"対ありでした。 ～お嬢さまは格闘ゲームなんてしない～","titleZhHant":"感謝對戰。 ～大小姐才不玩格鬥遊戲～","titleRomaji":"Tai-Ari deshita.: Ojou-sama wa Kakutou Game nante Shinai","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx128757-Iqc6hTjEYIz4.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/128757-kBnCRYXdyw58.jpg","editorialWeekday":2,"broadcastTimeJst":"20:30","status":"airing","officialSiteUrl":"https://taiari-anime.com/","anilistUrl":"https://anilist.co/anime/128757","imageSourceUrl":"https://anilist.co/anime/128757","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/676971"],"animeThemesUrl":"https://animethemes.moe/anime/taiari_deshita_ojousama_wa_kakutou_game_nante_shinai","uzureaUrl":"https://uzurea.net/summer-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"命短し対する乙女よ","titleRomaji":"Inochi Mijikashi Taisuru Otome yo","artistDisplayName":"花冷え。","youtubeUrl":"https://www.youtube.com/watch?v=0T9ekzDoW1k"},{"type":"ED","sequence":1,"titleJa":"NEW GAME","artistDisplayName":"halca","youtubeUrl":"https://www.youtube.com/watch?v=GKtdRThIuuE"}]},
-  {"anilistId":187260,"id":"curated-187260","slug":"kimi-ga-shinu-made-koi-wo-shitai","seasonIds":["2026-summer"],"startDate":"2026-07-07","titleJa":"きみが死ぬまで恋をしたい","titleZhHant":"與妳相戀到生命盡頭","titleRomaji":"Kimi ga Shinu made Koi wo Shitai","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187260-WW5RBa5NINRP.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/187260-HMkLPy3ZvzW1.jpg","editorialWeekday":2,"broadcastTimeJst":"21:30","status":"airing","officialSiteUrl":"https://kimishinu-anime.com/","anilistUrl":"https://anilist.co/anime/187260","imageSourceUrl":"https://anilist.co/anime/187260","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://prtimes.jp/main/html/rd/p/000004884.000013546.html"],"animeThemesUrl":"https://animethemes.moe/anime/kimi_ga_shinu_made_koi_wo_shitai","uzureaUrl":"https://uzurea.net/summer-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"Amore","artistDisplayName":"ReoNa","youtubeUrl":"https://www.youtube.com/watch?v=01Vgu7BIxmI"},{"type":"ED","sequence":1,"titleJa":"エテルネル","titleRomaji":"Eternal","artistDisplayName":"sajou no hana","youtubeUrl":"https://www.youtube.com/watch?v=bszg61aM_7E"}]},
-  {"anilistId":213665,"id":"curated-213665","slug":"migawari-reijou-wo-sukutta-no-wa-reikoku-mujihi-na-koori-no-ouji-no-ai-deshita","seasonIds":["2026-summer"],"startDate":"2026-07-07","titleJa":"身代わり令嬢を救ったのは冷酷無慈悲な氷の王子の愛でした","titleZhHant":"拯救替身千金的是冷酷無情冰之王子的愛","titleRomaji":"Migawari Reijou wo Sukutta no wa Reikoku Mujihi na Koori no Ouji no Ai deshita","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213665-E6byznDKrKY0.png","editorialWeekday":2,"broadcastTimeJst":"21:55","status":"airing","officialSiteUrl":"https://animationid.com/migawari/","anilistUrl":"https://anilist.co/anime/213665","imageSourceUrl":"https://anilist.co/anime/213665","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/677294"],"animeThemesUrl":"https://animethemes.moe/anime/migawari_reijou_wo_sukutta_no_wa_reikoku_mujihi_na_koori_no_ouji_no_ai_deshita","uzureaUrl":"https://uzurea.net/summer-2026-anime-theme-songs/","themes":[{"type":"ED","sequence":1,"titleJa":"とけて煌る","titleRomaji":"Tokete Hirameru","artistDisplayName":"neNna"}]},
-  {"anilistId":177699,"id":"curated-177699","slug":"ghost-in-the-shell-2026","seasonIds":["2026-summer"],"startDate":"2026-07-07","titleJa":"攻殻機動隊 THE GHOST IN THE SHELL","titleZhHant":"攻殼機動隊 THE GHOST IN THE SHELL","titleRomaji":"Koukaku Kidoutai: THE GHOST IN THE SHELL","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177699-hnzc1CS5ZSM2.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/177699-5kDbvDBhtSE3.jpg","editorialWeekday":2,"broadcastTimeJst":"23:00","status":"airing","officialSiteUrl":"https://www.theghostintheshell-anime.jp/","anilistUrl":"https://anilist.co/anime/177699","imageSourceUrl":"https://anilist.co/anime/177699","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/671440"],"animeThemesUrl":"https://animethemes.moe/anime/koukaku_kidoutai_the_ghost_in_the_shell","uzureaUrl":"https://uzurea.net/summer-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"GO GHOST","artistDisplayName":"King Gnu","youtubeUrl":"https://www.youtube.com/watch?v=FhzaLI_Npg8"},{"type":"ED","sequence":1,"titleJa":"Blue","artistDisplayName":"MILLENNIUM PARADE","youtubeUrl":"https://www.youtube.com/watch?v=YSg5H6kjKCo"}]},
-  {"anilistId":209800,"id":"curated-209800","slug":"yoroi-shinden-samurai-troopers-part-2","seasonIds":["2026-summer"],"startDate":"2026-07-07","titleJa":"鎧真伝サムライトルーパー 第2クール","titleZhHant":"鎧真傳（下半）","titleRomaji":"Yoroi Shinden Samurai Troopers Part 2","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209800-v3TIdNz1AV0X.jpg","editorialWeekday":2,"broadcastTimeJst":"23:30","status":"airing","officialSiteUrl":"https://www.samurai-trooper.net/","anilistUrl":"https://anilist.co/anime/209800","imageSourceUrl":"https://anilist.co/anime/209800","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/674359"],"animeThemesUrl":"https://animethemes.moe/anime/yoroi_shinden_samurai_troopers_part_2","uzureaUrl":"https://uzurea.net/summer-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"BAD遺伝子","titleRomaji":"BAD Idenshi","artistDisplayName":"Dannie May","youtubeUrl":"https://www.youtube.com/watch?v=XOyydxN5QFs"},{"type":"ED","sequence":1,"titleJa":"ばけもん","titleRomaji":"Bakemon","artistDisplayName":"カラノア","youtubeUrl":"https://www.youtube.com/watch?v=g8YYbQeC5G4"}]},
-  {"anilistId":198709,"id":"curated-198709","slug":"tefuda-ga-oome-no-victoria","seasonIds":["2026-summer"],"startDate":"2026-07-07","titleJa":"手札が多めのビクトリア","titleZhHant":"奇招百出的維多利亞","titleRomaji":"Tefuda ga Oome no Victoria","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198709-3PFLvU6eqPvf.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/198709-wyZYzcKM5itk.jpg","editorialWeekday":2,"broadcastTimeJst":"24:00","status":"airing","officialSiteUrl":"https://victoria-anime.com/","anilistUrl":"https://anilist.co/anime/198709","imageSourceUrl":"https://anilist.co/anime/198709","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/674979"],"animeThemesUrl":"https://animethemes.moe/anime/tefuda_ga_oome_no_victoria","uzureaUrl":"https://uzurea.net/summer-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"一進","titleRomaji":"Isshin","artistDisplayName":"ハク。","youtubeUrl":"https://www.youtube.com/watch?v=s9peIEgH2zU"},{"type":"ED","sequence":1,"titleJa":"縁のつき","titleRomaji":"En no Tsuki","artistDisplayName":"KI_EN","youtubeUrl":"https://www.youtube.com/watch?v=r6pUQw5xjoc"}]},
+  {
+    "anilistId": 199111,
+    "id": "curated-199111",
+    "slug": "grand-blue-season-3",
+    "seasonIds": [
+      "2026-summer"
+    ],
+    "startDate": "2026-07-06",
+    "titleJa": "ぐらんぶる Season 3",
+    "titleZhHant": "GRAND BLUE 碧藍之海 Season 3",
+    "titleRomaji": "Grand Blue Season 3",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199111-gBSuBG61ElcW.jpg",
+    "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/199111-Z8y9awn2Zb6v.jpg",
+    "editorialWeekday": 1,
+    "broadcastTimeJst": "24:00",
+    "status": "airing",
+    "officialSiteUrl": "https://grandblue-anime.com/",
+    "anilistUrl": "https://anilist.co/anime/199111",
+    "imageSourceUrl": "https://anilist.co/anime/199111",
+    "imageSourceLabel": "AniList 公開媒體頁",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "sourceReferenceUrls": [
+      "https://natalie.mu/comic/news/675649"
+    ],
+    "animeThemesUrl": "https://animethemes.moe/anime/grand_blue_season_3",
+    "uzureaUrl": "https://uzurea.net/summer-2026-anime-theme-songs/",
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "夏子",
+        "titleRomaji": "Natsuko",
+        "artistDisplayName": "FUNKY MONKEY BΛBY'S",
+        "credits": [
+          {
+            "name": "FUNKY MONKEY BΛBY'S",
+            "role": "vocals"
+          }
+        ],
+        "sources": [
+          {
+            "label": "動畫官方網站",
+            "url": "https://grandblue-anime.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/grand_blue_season_3",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "UZUREA 主題曲清單",
+            "url": "https://uzurea.net/summer-2026-anime-theme-songs/",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "url": "https://grandblue-anime.com/music/03.html",
+            "label": "動畫官網 Season 3 MUSIC：OP／ED、演唱及クロちゃん作詞聲明",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://www.universal-music.co.jp/funkymonkeybabys/news/2026-06-19/",
+            "label": "UNIVERSAL MUSIC JAPAN：夏子兩個一般發售版、日期與品番（公開索引）",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://store.universal-music.co.jp/collections/funkymonkeybabys/products/upch7859",
+            "label": "UNIVERSAL MUSIC STORE：夏子 Single 共同 CD 曲目與初回版（公開索引）",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          }
+        ],
+        "songId": "grand-blue-season-3-op-1-song",
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://grandblue-anime.com/music/03.html"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "grand-blue-season-3-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://grandblue-anime.com/music/03.html"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "grand-blue-season-3-op-1"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "artist",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://store.universal-music.co.jp/collections/funkymonkeybabys/products/upch7859",
+              "https://www.universal-music.co.jp/funkymonkeybabys/news/2026-06-19/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "funky-monkey-natsuko-first"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "artist",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://store.universal-music.co.jp/collections/funkymonkeybabys/products/upch7859",
+              "https://www.universal-music.co.jp/funkymonkeybabys/news/2026-06-19/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "funky-monkey-natsuko-regular"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://store.universal-music.co.jp/collections/funkymonkeybabys/products/upch7859"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "https://store.universal-music.co.jp/collections/funkymonkeybabys/products/upch7859"
+          }
+        ],
+        "releases": [
+          {
+            "id": "funky-monkey-natsuko-first",
+            "title": "夏子",
+            "type": "single",
+            "artistDisplayName": "FUNKY MONKEY BΛBY'S",
+            "date": {
+              "value": "2026-08-05",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "夏子"
+              }
+            ],
+            "edition": "初回限定盤（CD＋Blu-ray）",
+            "catalogNumber": "UPCH-7859"
+          },
+          {
+            "id": "funky-monkey-natsuko-regular",
+            "title": "夏子",
+            "type": "single",
+            "artistDisplayName": "FUNKY MONKEY BΛBY'S",
+            "date": {
+              "value": "2026-08-05",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "夏子"
+              }
+            ],
+            "edition": "通常盤（CD only）",
+            "catalogNumber": "UPCH-6055"
+          }
+        ],
+        "links": [
+          {
+            "platform": "UNIVERSAL MUSIC STORE",
+            "label": "夏子 官方初回限定盤商品",
+            "url": "https://store.universal-music.co.jp/collections/funkymonkeybabys/products/upch7859",
+            "linkType": "official_landing_page",
+            "region": "JP",
+            "verifiedAt": "2026-10-14",
+            "availability": "unknown",
+            "releaseId": "funky-monkey-natsuko-first"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "裸のマーメード",
+        "titleRomaji": "Hadaka no Mermaid",
+        "artistDisplayName": "豆柴の大群",
+        "youtubeUrl": "https://www.youtube.com/watch?v=c-kKrErfKvM",
+        "credits": [
+          {
+            "name": "豆柴の大群",
+            "role": "vocals"
+          },
+          {
+            "name": "クロちゃん",
+            "role": "lyrics"
+          },
+          {
+            "name": "Hi-yunk（BACK-ON）",
+            "role": "composition"
+          }
+        ],
+        "sources": [
+          {
+            "label": "官方 YouTube 影片",
+            "url": "https://www.youtube.com/watch?v=c-kKrErfKvM",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "動畫官方網站",
+            "url": "https://grandblue-anime.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/grand_blue_season_3",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "UZUREA 主題曲清單",
+            "url": "https://uzurea.net/summer-2026-anime-theme-songs/",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "url": "https://grandblue-anime.com/music/03.html",
+            "label": "動畫官網 Season 3 MUSIC：OP／ED、演唱及クロちゃん作詞聲明",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=vPbVSrjspWY",
+            "label": "豆柴の大群官方藝人頻道：裸のマーメード MV 本曲 Words／Song",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          }
+        ],
+        "songId": "grand-blue-season-3-ed-1-song",
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://grandblue-anime.com/music/03.html"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "grand-blue-season-3-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://grandblue-anime.com/music/03.html"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "grand-blue-season-3-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://grandblue-anime.com/music/03.html"
+            ],
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=vPbVSrjspWY"
+            ],
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=vPbVSrjspWY"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "https://www.youtube.com/watch?v=vPbVSrjspWY"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://grandblue-anime.com/music/03.html",
+              "https://www.youtube.com/watch?v=vPbVSrjspWY"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "vPbVSrjspWY"
+          }
+        ],
+        "links": [
+          {
+            "platform": "YouTube",
+            "label": "裸のマーメード 官方 MV",
+            "url": "https://www.youtube.com/watch?v=vPbVSrjspWY",
+            "linkType": "direct_track",
+            "region": "GLOBAL",
+            "verifiedAt": "2026-10-14",
+            "availability": "unknown"
+          }
+        ]
+      }
+    ],
+    "metadataVerifiedAt": "2026-07-25"
+  },
+  {
+    "anilistId": 128757,
+    "id": "curated-128757",
+    "slug": "tai-ari-deshita-ojou-sama-wa-kakutou-game-nante-shinai",
+    "seasonIds": [
+      "2026-summer"
+    ],
+    "startDate": "2026-07-07",
+    "titleJa": "対ありでした。 ～お嬢さまは格闘ゲームなんてしない～",
+    "titleZhHant": "感謝對戰。 ～大小姐才不玩格鬥遊戲～",
+    "titleRomaji": "Tai-Ari deshita.: Ojou-sama wa Kakutou Game nante Shinai",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx128757-Iqc6hTjEYIz4.png",
+    "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/128757-kBnCRYXdyw58.jpg",
+    "editorialWeekday": 2,
+    "broadcastTimeJst": "20:30",
+    "status": "airing",
+    "officialSiteUrl": "https://taiari-anime.com/",
+    "anilistUrl": "https://anilist.co/anime/128757",
+    "imageSourceUrl": "https://anilist.co/anime/128757",
+    "imageSourceLabel": "AniList 公開媒體頁",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "sourceReferenceUrls": [
+      "https://natalie.mu/comic/news/676971"
+    ],
+    "animeThemesUrl": "https://animethemes.moe/anime/taiari_deshita_ojousama_wa_kakutou_game_nante_shinai",
+    "uzureaUrl": "https://uzurea.net/summer-2026-anime-theme-songs/",
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "命短し対する乙女よ",
+        "titleRomaji": "Inochi Mijikashi Taisuru Otome yo",
+        "artistDisplayName": "花冷え。",
+        "youtubeUrl": "https://www.youtube.com/watch?v=0T9ekzDoW1k",
+        "credits": [
+          {
+            "name": "花冷え。",
+            "role": "vocals"
+          },
+          {
+            "name": "ユキナ",
+            "role": "group_member",
+            "groupName": "花冷え。"
+          },
+          {
+            "name": "マツリ",
+            "role": "group_member",
+            "groupName": "花冷え。"
+          },
+          {
+            "name": "ヘッツ",
+            "role": "group_member",
+            "groupName": "花冷え。"
+          },
+          {
+            "name": "チカ",
+            "role": "group_member",
+            "groupName": "花冷え。"
+          },
+          {
+            "name": "Yukina",
+            "role": "lyrics"
+          },
+          {
+            "name": "Matsuri",
+            "role": "lyrics"
+          },
+          {
+            "name": "Matsuri",
+            "role": "composition"
+          },
+          {
+            "name": "Yukina",
+            "role": "composition"
+          },
+          {
+            "name": "Matsuri",
+            "role": "arrangement"
+          },
+          {
+            "name": "LASTorder",
+            "role": "arrangement"
+          }
+        ],
+        "sources": [
+          {
+            "label": "動畫官方網站",
+            "url": "https://taiari-anime.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/taiari_deshita_ojousama_wa_kakutou_game_nante_shinai",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "UZUREA 主題曲清單",
+            "url": "https://uzurea.net/summer-2026-anime-theme-songs/",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "url": "https://taiari-anime.com/music/",
+            "label": "動畫官網 MUSIC：主題曲、演唱與花冷え。團隊",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/hanabie/info/584919",
+            "label": "Sony Music 花冷え。Single 公告：命短し対する乙女よ創作及曲序",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=0T9ekzDoW1k",
+            "label": "動畫本曲無字幕 OP：YouTube 原文標題核對",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://taiari-anime.com/movie/",
+            "label": "動畫官網 MOVIE：本曲無字幕 OP／ED",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          }
+        ],
+        "songId": "tai-ari-deshita-ojou-sama-wa-kakutou-game-nante-shinai-op-1-song",
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://taiari-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "tai-ari-deshita-ojou-sama-wa-kakutou-game-nante-shinai-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://taiari-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "tai-ari-deshita-ojou-sama-wa-kakutou-game-nante-shinai-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://taiari-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/hanabie/info/584919"
+            ],
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "artist",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/hanabie/info/584919"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "hanabie-inochi-cd-anime"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/hanabie/info/584919"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "https://hanabie.lnk.to/LISOBG"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=0T9ekzDoW1k"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "https://www.youtube.com/watch?v=0T9ekzDoW1k"
+          }
+        ],
+        "releases": [
+          {
+            "id": "hanabie-inochi-cd-anime",
+            "title": "命短し対する乙女よ",
+            "type": "single",
+            "artistDisplayName": "花冷え。",
+            "date": {
+              "value": "2026-07-29",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "命短し対する乙女よ",
+                "disc": 1,
+                "position": 1
+              }
+            ],
+            "edition": "期間生産限定盤（CD＋Blu-ray）",
+            "catalogNumber": "ESCL-6266～7"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方配信",
+            "label": "命短し対する乙女よ 官方配信入口",
+            "url": "https://hanabie.lnk.to/LISOBG",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-14",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "命短し対する乙女よ 官方無字幕 OP",
+            "url": "https://www.youtube.com/watch?v=0T9ekzDoW1k",
+            "linkType": "direct_track",
+            "region": "GLOBAL",
+            "verifiedAt": "2026-10-14",
+            "availability": "unknown"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "NEW GAME",
+        "artistDisplayName": "halca",
+        "youtubeUrl": "https://www.youtube.com/watch?v=GKtdRThIuuE",
+        "credits": [
+          {
+            "name": "halca",
+            "role": "vocals"
+          },
+          {
+            "name": "ナナヲアカリ",
+            "role": "lyrics"
+          },
+          {
+            "name": "ナナヲアカリ",
+            "role": "composition"
+          },
+          {
+            "name": "タイヘイ",
+            "role": "composition"
+          },
+          {
+            "name": "川口圭太",
+            "role": "arrangement"
+          }
+        ],
+        "sources": [
+          {
+            "label": "官方 YouTube 影片",
+            "url": "https://www.youtube.com/watch?v=GKtdRThIuuE",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "動畫官方網站",
+            "url": "https://taiari-anime.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/taiari_deshita_ojousama_wa_kakutou_game_nante_shinai",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "UZUREA 主題曲清單",
+            "url": "https://uzurea.net/summer-2026-anime-theme-songs/",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "url": "https://taiari-anime.com/music/",
+            "label": "動畫官網 MUSIC：主題曲、演唱與花冷え。團隊",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/halca/info/585131",
+            "label": "Sony Music halca NEW GAME 公告：本曲創作、CD 曲序及確切 MV",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          }
+        ],
+        "songId": "tai-ari-deshita-ojou-sama-wa-kakutou-game-nante-shinai-ed-1-song",
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://taiari-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "tai-ari-deshita-ojou-sama-wa-kakutou-game-nante-shinai-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://taiari-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "tai-ari-deshita-ojou-sama-wa-kakutou-game-nante-shinai-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/halca/info/585131"
+            ],
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/halca/info/585131"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "halca-new-game-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "artist",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/halca/info/585131"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "halca-new-game-first"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "artist",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/halca/info/585131"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "halca-new-game-regular"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/halca/info/585131"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "https://www.youtube.com/watch?v=0cZFkZd2-CQ"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/halca/info/585131"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "https://halca.lnk.to/NEWGAME_PKG"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "halca-new-game-instrumental",
+            "title": "NEW GAME -instrumental-",
+            "format": "unknown",
+            "kind": "instrumental"
+          }
+        ],
+        "releases": [
+          {
+            "id": "halca-new-game-first",
+            "title": "NEW GAME",
+            "type": "single",
+            "artistDisplayName": "halca",
+            "date": {
+              "value": "2026-08-19",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "NEW GAME",
+                "disc": 1,
+                "position": 1
+              },
+              {
+                "title": "NEW GAME -instrumental-",
+                "disc": 1,
+                "position": 3,
+                "recordingId": "halca-new-game-instrumental"
+              }
+            ],
+            "edition": "初回生産限定盤（CD＋Blu-ray）",
+            "catalogNumber": "VVCL-2940～1"
+          },
+          {
+            "id": "halca-new-game-regular",
+            "title": "NEW GAME",
+            "type": "single",
+            "artistDisplayName": "halca",
+            "date": {
+              "value": "2026-08-19",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "NEW GAME",
+                "disc": 1,
+                "position": 1
+              },
+              {
+                "title": "NEW GAME -instrumental-",
+                "disc": 1,
+                "position": 3,
+                "recordingId": "halca-new-game-instrumental"
+              }
+            ],
+            "edition": "通常盤（初回仕様限定盤・CD only）",
+            "catalogNumber": "VVCL-2942"
+          }
+        ],
+        "links": [
+          {
+            "platform": "YouTube",
+            "label": "NEW GAME 官方 MV",
+            "url": "https://www.youtube.com/watch?v=0cZFkZd2-CQ",
+            "linkType": "direct_track",
+            "region": "GLOBAL",
+            "verifiedAt": "2026-10-14",
+            "availability": "unknown"
+          },
+          {
+            "platform": "官方配信",
+            "label": "NEW GAME 官方 CD 商品入口",
+            "url": "https://halca.lnk.to/NEWGAME_PKG",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-14",
+            "availability": "unknown"
+          }
+        ]
+      }
+    ],
+    "metadataVerifiedAt": "2026-07-25"
+  },
+  {
+    "anilistId": 187260,
+    "id": "curated-187260",
+    "slug": "kimi-ga-shinu-made-koi-wo-shitai",
+    "seasonIds": [
+      "2026-summer"
+    ],
+    "startDate": "2026-07-07",
+    "titleJa": "きみが死ぬまで恋をしたい",
+    "titleZhHant": "與妳相戀到生命盡頭",
+    "titleRomaji": "Kimi ga Shinu made Koi wo Shitai",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187260-WW5RBa5NINRP.jpg",
+    "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/187260-HMkLPy3ZvzW1.jpg",
+    "editorialWeekday": 2,
+    "broadcastTimeJst": "21:30",
+    "status": "airing",
+    "officialSiteUrl": "https://kimishinu-anime.com/",
+    "anilistUrl": "https://anilist.co/anime/187260",
+    "imageSourceUrl": "https://anilist.co/anime/187260",
+    "imageSourceLabel": "AniList 公開媒體頁",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "sourceReferenceUrls": [
+      "https://prtimes.jp/main/html/rd/p/000004884.000013546.html"
+    ],
+    "animeThemesUrl": "https://animethemes.moe/anime/kimi_ga_shinu_made_koi_wo_shitai",
+    "uzureaUrl": "https://uzurea.net/summer-2026-anime-theme-songs/",
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Amore",
+        "artistDisplayName": "ReoNa",
+        "youtubeUrl": "https://www.youtube.com/watch?v=01Vgu7BIxmI",
+        "credits": [
+          {
+            "name": "ReoNa",
+            "role": "vocals"
+          },
+          {
+            "name": "Pan（LIVE LAB.）",
+            "role": "lyrics"
+          },
+          {
+            "name": "Pan（LIVE LAB.）",
+            "role": "composition"
+          },
+          {
+            "name": "Pan（LIVE LAB.）",
+            "role": "arrangement"
+          },
+          {
+            "name": "田坂健太（主題歌協力）",
+            "role": "other"
+          }
+        ],
+        "sources": [
+          {
+            "label": "官方 YouTube 影片",
+            "url": "https://www.youtube.com/watch?v=01Vgu7BIxmI",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "動畫官方網站",
+            "url": "https://kimishinu-anime.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/kimi_ga_shinu_made_koi_wo_shitai",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "UZUREA 主題曲清單",
+            "url": "https://uzurea.net/summer-2026-anime-theme-songs/",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "url": "https://www.kimishinu-anime.com/story/op/",
+            "label": "動畫官網 OP 製作名單：本曲創作與主題歌協力",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=6C3zYwUmMKE",
+            "label": "ReoNa 官方藝人頻道：Amore MV 與本曲創作名單",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/ReoNa/info/584413",
+            "label": "Sony Music ReoNa Amore 公告：OP、創作、CD／TV 版及曲序",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          }
+        ],
+        "songId": "kimi-ga-shinu-made-koi-wo-shitai-op-1-song",
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/584413"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "kimi-ga-shinu-made-koi-wo-shitai-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/584413"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "kimi-ga-shinu-made-koi-wo-shitai-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/584413"
+            ],
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.kimishinu-anime.com/story/op/"
+            ],
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/584413"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "reona-amore-instrumental"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "artist",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/584413"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "reona-amore-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "artist",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/584413"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "reona-amore-first"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "artist",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/584413"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "reona-amore-regular"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "artist",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/584413"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "reona-amore-anime"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=6C3zYwUmMKE"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "https://www.youtube.com/watch?v=6C3zYwUmMKE"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/584413",
+              "https://www.youtube.com/watch?v=6C3zYwUmMKE"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "6C3zYwUmMKE"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/584413"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "https://www.youtube.com/watch?v=zJLbfK_9ZmQ"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ReoNa/info/584413"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "https://reona.lnk.to/Amore_SG"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "reona-amore-instrumental",
+            "title": "Amore -Instrumental-",
+            "format": "unknown",
+            "kind": "instrumental"
+          },
+          {
+            "id": "reona-amore-tv",
+            "title": "Amore -TV ver.-",
+            "format": "tv",
+            "kind": "vocal",
+            "credits": [
+              {
+                "name": "ReoNa",
+                "role": "vocals"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "reona-amore-first",
+            "title": "Amore",
+            "type": "single",
+            "artistDisplayName": "ReoNa",
+            "date": {
+              "value": "2026-07-22",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Amore",
+                "disc": 1,
+                "position": 1
+              },
+              {
+                "title": "Amore -Instrumental-",
+                "disc": 1,
+                "position": 4,
+                "recordingId": "reona-amore-instrumental"
+              }
+            ],
+            "edition": "初回生産限定盤（CD＋BD）",
+            "catalogNumber": "VVCL-2948〜9"
+          },
+          {
+            "id": "reona-amore-regular",
+            "title": "Amore",
+            "type": "single",
+            "artistDisplayName": "ReoNa",
+            "date": {
+              "value": "2026-07-22",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Amore",
+                "disc": 1,
+                "position": 1
+              },
+              {
+                "title": "Amore -Instrumental-",
+                "disc": 1,
+                "position": 4,
+                "recordingId": "reona-amore-instrumental"
+              }
+            ],
+            "edition": "通常盤（CD）",
+            "catalogNumber": "VVCL-2950"
+          },
+          {
+            "id": "reona-amore-anime",
+            "title": "Amore",
+            "type": "single",
+            "artistDisplayName": "ReoNa",
+            "date": {
+              "value": "2026-07-22",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Amore",
+                "disc": 1,
+                "position": 1
+              },
+              {
+                "title": "Amore -TV ver.-",
+                "disc": 1,
+                "position": 4,
+                "recordingId": "reona-amore-tv"
+              },
+              {
+                "title": "Amore -Instrumental-",
+                "disc": 1,
+                "position": 5,
+                "recordingId": "reona-amore-instrumental"
+              }
+            ],
+            "edition": "期間生産限定盤（CD＋BD）",
+            "catalogNumber": "VVCL-2951～2"
+          }
+        ],
+        "links": [
+          {
+            "platform": "YouTube",
+            "label": "Amore 官方 MV",
+            "url": "https://www.youtube.com/watch?v=6C3zYwUmMKE",
+            "linkType": "direct_track",
+            "region": "GLOBAL",
+            "verifiedAt": "2026-10-14",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "Amore 動畫第 2 彈 PV（部分音源）",
+            "url": "https://www.youtube.com/watch?v=zJLbfK_9ZmQ",
+            "linkType": "direct_track",
+            "region": "GLOBAL",
+            "verifiedAt": "2026-10-14",
+            "availability": "unknown"
+          },
+          {
+            "platform": "官方配信",
+            "label": "Amore 官方 CD 商品入口",
+            "url": "https://reona.lnk.to/Amore_SG",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-14",
+            "availability": "unknown"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "エテルネル",
+        "titleRomaji": "Eternal",
+        "artistDisplayName": "sajou no hana",
+        "youtubeUrl": "https://www.youtube.com/watch?v=bszg61aM_7E",
+        "credits": [
+          {
+            "name": "sajou no hana",
+            "role": "vocals"
+          },
+          {
+            "name": "sana",
+            "role": "lyrics"
+          },
+          {
+            "name": "藤原彩豊",
+            "role": "composition"
+          },
+          {
+            "name": "湯浅 篤",
+            "role": "arrangement"
+          }
+        ],
+        "sources": [
+          {
+            "label": "官方 YouTube 影片",
+            "url": "https://www.youtube.com/watch?v=bszg61aM_7E",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "動畫官方網站",
+            "url": "https://kimishinu-anime.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/kimi_ga_shinu_made_koi_wo_shitai",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "UZUREA 主題曲清單",
+            "url": "https://uzurea.net/summer-2026-anime-theme-songs/",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "url": "https://www.kimishinu-anime.com/music/ending.html",
+            "label": "動畫官網 ENDING MUSIC：エテルネル創作名單",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Gg0X6dgyZw8",
+            "label": "sajou no hana 官方藝人頻道：エテルネル Acoustic Piano Version（公開索引）",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          }
+        ],
+        "songId": "kimi-ga-shinu-made-koi-wo-shitai-ed-1-song",
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.kimishinu-anime.com/music/ending.html"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "kimi-ga-shinu-made-koi-wo-shitai-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.kimishinu-anime.com/music/ending.html"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "kimi-ga-shinu-made-koi-wo-shitai-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.kimishinu-anime.com/music/ending.html"
+            ],
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=Gg0X6dgyZw8"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "sajou-eternel-acoustic-piano"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=Gg0X6dgyZw8"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "https://www.youtube.com/watch?v=Gg0X6dgyZw8"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.kimishinu-anime.com/music/ending.html",
+              "https://www.youtube.com/watch?v=Gg0X6dgyZw8"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "Gg0X6dgyZw8"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "sajou-eternel-acoustic-piano",
+            "title": "エテルネル -Acoustic Piano Version-",
+            "format": "unknown",
+            "kind": "rearrangement"
+          }
+        ],
+        "links": [
+          {
+            "platform": "YouTube",
+            "label": "エテルネル 官方 Acoustic Piano Version",
+            "url": "https://www.youtube.com/watch?v=Gg0X6dgyZw8",
+            "linkType": "direct_track",
+            "region": "GLOBAL",
+            "verifiedAt": "2026-10-14",
+            "availability": "unknown"
+          }
+        ]
+      }
+    ],
+    "metadataVerifiedAt": "2026-07-25"
+  },
+  {
+    "anilistId": 213665,
+    "id": "curated-213665",
+    "slug": "migawari-reijou-wo-sukutta-no-wa-reikoku-mujihi-na-koori-no-ouji-no-ai-deshita",
+    "seasonIds": [
+      "2026-summer"
+    ],
+    "startDate": "2026-07-07",
+    "titleJa": "身代わり令嬢を救ったのは冷酷無慈悲な氷の王子の愛でした",
+    "titleZhHant": "拯救替身千金的是冷酷無情冰之王子的愛",
+    "titleRomaji": "Migawari Reijou wo Sukutta no wa Reikoku Mujihi na Koori no Ouji no Ai deshita",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213665-E6byznDKrKY0.png",
+    "editorialWeekday": 2,
+    "broadcastTimeJst": "21:55",
+    "status": "airing",
+    "officialSiteUrl": "https://animationid.com/migawari/",
+    "anilistUrl": "https://anilist.co/anime/213665",
+    "imageSourceUrl": "https://anilist.co/anime/213665",
+    "imageSourceLabel": "AniList 公開媒體頁",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "sourceReferenceUrls": [
+      "https://natalie.mu/comic/news/677294"
+    ],
+    "animeThemesUrl": "https://animethemes.moe/anime/migawari_reijou_wo_sukutta_no_wa_reikoku_mujihi_na_koori_no_ouji_no_ai_deshita",
+    "uzureaUrl": "https://uzurea.net/summer-2026-anime-theme-songs/",
+    "themes": [
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "とけて煌る",
+        "titleRomaji": "Tokete Hirameru",
+        "artistDisplayName": "neNna",
+        "credits": [
+          {
+            "name": "neNna",
+            "role": "vocals"
+          },
+          {
+            "name": "ササノマリイ",
+            "role": "lyrics"
+          },
+          {
+            "name": "ササノマリイ",
+            "role": "composition"
+          }
+        ],
+        "sources": [
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/migawari_reijou_wo_sukutta_no_wa_reikoku_mujihi_na_koori_no_ouji_no_ai_deshita",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "UZUREA 主題曲清單",
+            "url": "https://uzurea.net/summer-2026-anime-theme-songs/",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "url": "https://animationid.com/migawari/",
+            "label": "動畫官網 MUSIC：とけて煌る／neNna ED 及ササノマリイ作詞作曲",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          }
+        ],
+        "songId": "migawari-reijou-wo-sukutta-no-wa-reikoku-mujihi-na-koori-no-ouji-no-ai-deshita-ed-1-song",
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://animationid.com/migawari/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "migawari-reijou-wo-sukutta-no-wa-reikoku-mujihi-na-koori-no-ouji-no-ai-deshita-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://animationid.com/migawari/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "migawari-reijou-wo-sukutta-no-wa-reikoku-mujihi-na-koori-no-ouji-no-ai-deshita-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://animationid.com/migawari/"
+            ],
+            "verifiedAt": "2026-10-14"
+          }
+        ]
+      }
+    ],
+    "metadataVerifiedAt": "2026-07-25"
+  },
+  {
+    "anilistId": 177699,
+    "id": "curated-177699",
+    "slug": "ghost-in-the-shell-2026",
+    "seasonIds": [
+      "2026-summer"
+    ],
+    "startDate": "2026-07-07",
+    "titleJa": "攻殻機動隊 THE GHOST IN THE SHELL",
+    "titleZhHant": "攻殼機動隊 THE GHOST IN THE SHELL",
+    "titleRomaji": "Koukaku Kidoutai: THE GHOST IN THE SHELL",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177699-hnzc1CS5ZSM2.png",
+    "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/177699-5kDbvDBhtSE3.jpg",
+    "editorialWeekday": 2,
+    "broadcastTimeJst": "23:00",
+    "status": "airing",
+    "officialSiteUrl": "https://www.theghostintheshell-anime.jp/",
+    "anilistUrl": "https://anilist.co/anime/177699",
+    "imageSourceUrl": "https://anilist.co/anime/177699",
+    "imageSourceLabel": "AniList 公開媒體頁",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "sourceReferenceUrls": [
+      "https://natalie.mu/comic/news/671440"
+    ],
+    "animeThemesUrl": "https://animethemes.moe/anime/koukaku_kidoutai_the_ghost_in_the_shell",
+    "uzureaUrl": "https://uzurea.net/summer-2026-anime-theme-songs/",
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "GO GHOST",
+        "artistDisplayName": "King Gnu",
+        "youtubeUrl": "https://www.youtube.com/watch?v=FhzaLI_Npg8",
+        "credits": [
+          {
+            "name": "King Gnu",
+            "role": "vocals"
+          },
+          {
+            "name": "常田大希",
+            "role": "lyrics"
+          },
+          {
+            "name": "常田大希",
+            "role": "composition"
+          },
+          {
+            "name": "King Gnu",
+            "role": "arrangement"
+          },
+          {
+            "name": "常田大希",
+            "role": "group_member",
+            "groupName": "King Gnu"
+          },
+          {
+            "name": "勢喜遊",
+            "role": "group_member",
+            "groupName": "King Gnu"
+          },
+          {
+            "name": "新井和輝",
+            "role": "group_member",
+            "groupName": "King Gnu"
+          },
+          {
+            "name": "井口理",
+            "role": "group_member",
+            "groupName": "King Gnu"
+          }
+        ],
+        "sources": [
+          {
+            "label": "官方 YouTube 影片",
+            "url": "https://www.youtube.com/watch?v=FhzaLI_Npg8",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "Ghost in the Shell Official 官方影片",
+            "url": "https://www.youtube.com/watch?v=-TEMcbY2JGs",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "動畫官方網站",
+            "url": "https://www.theghostintheshell-anime.jp/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/koukaku_kidoutai_the_ghost_in_the_shell",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "UZUREA 主題曲清單",
+            "url": "https://uzurea.net/summer-2026-anime-theme-songs/",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "url": "https://www.theghostintheshell-anime.jp/music/",
+            "label": "動畫官網 OPENING MUSIC：GO GHOST 創作名單與 King Gnu 團隊",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://ssl.sme.co.jp/artist/kinggnu/info/585642",
+            "label": "Sony Music King Gnu：GO GHOST 確切官方 MV 公告",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://www.theghostintheshell-anime.jp/news/article/?id=23860",
+            "label": "動畫官網無字幕 OP／ED 公告：兩個確切 YouTube embed 入口",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          }
+        ],
+        "songId": "ghost-in-the-shell-2026-op-1-song",
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.theghostintheshell-anime.jp/music/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "ghost-in-the-shell-2026-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.theghostintheshell-anime.jp/music/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "ghost-in-the-shell-2026-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.theghostintheshell-anime.jp/music/"
+            ],
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.theghostintheshell-anime.jp/music/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "https://kinggnu.lnk.to/GO_GHOST"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://ssl.sme.co.jp/artist/kinggnu/info/585642"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "https://www.youtube.com/watch?v=PmkN1iH4Ci4"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.theghostintheshell-anime.jp/news/article/?id=23860"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "https://www.youtube.com/watch?v=PDZb57n_b90"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方配信",
+            "label": "GO GHOST 官方配信入口",
+            "url": "https://kinggnu.lnk.to/GO_GHOST",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-14",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "GO GHOST 官方 MV",
+            "url": "https://www.youtube.com/watch?v=PmkN1iH4Ci4",
+            "linkType": "direct_track",
+            "region": "GLOBAL",
+            "verifiedAt": "2026-10-14",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "GO GHOST 官方無字幕 OP",
+            "url": "https://www.youtube.com/watch?v=PDZb57n_b90",
+            "linkType": "direct_track",
+            "region": "GLOBAL",
+            "verifiedAt": "2026-10-14",
+            "availability": "unknown"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "Blue",
+        "artistDisplayName": "MILLENNIUM PARADE",
+        "youtubeUrl": "https://www.youtube.com/watch?v=YSg5H6kjKCo",
+        "credits": [
+          {
+            "name": "Saya Gray",
+            "role": "lyrics"
+          },
+          {
+            "name": "Daniel Caesar",
+            "role": "lyrics"
+          },
+          {
+            "name": "常田大希",
+            "role": "composition"
+          },
+          {
+            "name": "Saya Gray",
+            "role": "composition"
+          },
+          {
+            "name": "Daniel Caesar",
+            "role": "composition"
+          },
+          {
+            "name": "Saya Gray",
+            "role": "vocals"
+          },
+          {
+            "name": "Daniel Caesar",
+            "role": "vocals"
+          },
+          {
+            "name": "Saya Gray（Electric Bass Guitar）",
+            "role": "other"
+          },
+          {
+            "name": "Daiki Tsuneta（Guitar／Mandolin）",
+            "role": "other"
+          },
+          {
+            "name": "Kazuki Arai（Electric Bass Guitar）",
+            "role": "other"
+          },
+          {
+            "name": "Shun Ishiwaka（Drums）",
+            "role": "other"
+          },
+          {
+            "name": "Jun Miyakawa（Organ／Piano）",
+            "role": "other"
+          },
+          {
+            "name": "Yu Sasaki（Mixing Engineer）",
+            "role": "other"
+          }
+        ],
+        "sources": [
+          {
+            "label": "官方 YouTube 影片",
+            "url": "https://www.youtube.com/watch?v=YSg5H6kjKCo",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "動畫官方網站",
+            "url": "https://www.theghostintheshell-anime.jp/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/koukaku_kidoutai_the_ghost_in_the_shell",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "UZUREA 主題曲清單",
+            "url": "https://uzurea.net/summer-2026-anime-theme-songs/",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "url": "https://www.theghostintheshell-anime.jp/music/ending/",
+            "label": "動畫官網 ENDING MUSIC：Blue／MILLENNIUM PARADE featuring 名義及創作",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://www.qobuz.com/jp-ja/album/blue-millennium-parade-saya-gray-daniel-caesar-daiki-tsuneta/pk2di6wehuwhe",
+            "label": "Qobuz JP 正版 Blue 商品頁：個別演唱、演奏及混音製作者",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://www.theghostintheshell-anime.jp/news/article/?id=23860",
+            "label": "動畫官網無字幕 OP／ED 公告：兩個確切 YouTube embed 入口",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          }
+        ],
+        "songId": "ghost-in-the-shell-2026-ed-1-song",
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.theghostintheshell-anime.jp/music/ending/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "ghost-in-the-shell-2026-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.theghostintheshell-anime.jp/music/ending/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "ghost-in-the-shell-2026-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.theghostintheshell-anime.jp/music/ending/"
+            ],
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.theghostintheshell-anime.jp/music/ending/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "https://millenniumparade.lnk.to/Blue"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.qobuz.com/jp-ja/album/blue-millennium-parade-saya-gray-daniel-caesar-daiki-tsuneta/pk2di6wehuwhe"
+            ],
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.qobuz.com/jp-ja/album/blue-millennium-parade-saya-gray-daniel-caesar-daiki-tsuneta/pk2di6wehuwhe"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "https://www.qobuz.com/jp-ja/album/blue-millennium-parade-saya-gray-daniel-caesar-daiki-tsuneta/pk2di6wehuwhe"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.theghostintheshell-anime.jp/news/article/?id=23860"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "https://www.youtube.com/watch?v=YSg5H6kjKCo"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方配信",
+            "label": "Blue 官方配信入口",
+            "url": "https://millenniumparade.lnk.to/Blue",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-14",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Qobuz",
+            "label": "Blue Qobuz JP 本曲商品與製作者名單",
+            "url": "https://www.qobuz.com/jp-ja/album/blue-millennium-parade-saya-gray-daniel-caesar-daiki-tsuneta/pk2di6wehuwhe",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-14",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "Blue 官方無字幕 ED",
+            "url": "https://www.youtube.com/watch?v=YSg5H6kjKCo",
+            "linkType": "direct_track",
+            "region": "GLOBAL",
+            "verifiedAt": "2026-10-14",
+            "availability": "unknown"
+          }
+        ]
+      }
+    ],
+    "metadataVerifiedAt": "2026-07-25"
+  },
+  {
+    "anilistId": 209800,
+    "id": "curated-209800",
+    "slug": "yoroi-shinden-samurai-troopers-part-2",
+    "seasonIds": [
+      "2026-summer"
+    ],
+    "startDate": "2026-07-07",
+    "titleJa": "鎧真伝サムライトルーパー 第2クール",
+    "titleZhHant": "鎧真傳（下半）",
+    "titleRomaji": "Yoroi Shinden Samurai Troopers Part 2",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209800-v3TIdNz1AV0X.jpg",
+    "editorialWeekday": 2,
+    "broadcastTimeJst": "23:30",
+    "status": "airing",
+    "officialSiteUrl": "https://www.samurai-trooper.net/",
+    "anilistUrl": "https://anilist.co/anime/209800",
+    "imageSourceUrl": "https://anilist.co/anime/209800",
+    "imageSourceLabel": "AniList 公開媒體頁",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "sourceReferenceUrls": [
+      "https://natalie.mu/comic/news/674359"
+    ],
+    "animeThemesUrl": "https://animethemes.moe/anime/yoroi_shinden_samurai_troopers_part_2",
+    "uzureaUrl": "https://uzurea.net/summer-2026-anime-theme-songs/",
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "BAD遺伝子",
+        "titleRomaji": "BAD Idenshi",
+        "artistDisplayName": "Dannie May",
+        "youtubeUrl": "https://www.youtube.com/watch?v=XOyydxN5QFs",
+        "credits": [
+          {
+            "name": "Dannie May",
+            "role": "vocals"
+          },
+          {
+            "name": "マサ",
+            "role": "lyrics"
+          },
+          {
+            "name": "マサ",
+            "role": "composition"
+          },
+          {
+            "name": "田中タリラ",
+            "role": "arrangement"
+          },
+          {
+            "name": "マサ",
+            "role": "group_member",
+            "groupName": "Dannie May"
+          },
+          {
+            "name": "田中タリラ",
+            "role": "group_member",
+            "groupName": "Dannie May"
+          },
+          {
+            "name": "Yuno",
+            "role": "group_member",
+            "groupName": "Dannie May"
+          }
+        ],
+        "sources": [
+          {
+            "label": "官方 YouTube 影片",
+            "url": "https://www.youtube.com/watch?v=XOyydxN5QFs",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "動畫官方網站",
+            "url": "https://www.samurai-trooper.net/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/yoroi_shinden_samurai_troopers_part_2",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "UZUREA 主題曲清單",
+            "url": "https://uzurea.net/summer-2026-anime-theme-songs/",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "url": "https://www.samurai-trooper.net/music/2nd/opening/",
+            "label": "動畫官網第 2 クール OPENING：BAD遺伝子創作及 Dannie May 團隊",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=G6u20QYskAU",
+            "label": "Dannie May 官方藝人頻道：BAD遺伝子 MV／動畫 OP 關係",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://avex-pictures.co.jp/topic/97162/",
+            "label": "AVEX Pictures 第 2 クール公告：紫音版及龍成版 OP／ED 映像",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          }
+        ],
+        "songId": "yoroi-shinden-samurai-troopers-part-2-op-1-song",
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.samurai-trooper.net/music/2nd/opening/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "yoroi-shinden-samurai-troopers-part-2-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.samurai-trooper.net/music/2nd/opening/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "yoroi-shinden-samurai-troopers-part-2-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.samurai-trooper.net/music/2nd/opening/"
+            ],
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=G6u20QYskAU"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "https://www.youtube.com/watch?v=G6u20QYskAU"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.samurai-trooper.net/music/2nd/opening/",
+              "https://www.youtube.com/watch?v=G6u20QYskAU"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "G6u20QYskAU"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://avex-pictures.co.jp/topic/97162/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "https://www.youtube.com/watch?v=XOyydxN5QFs"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://avex-pictures.co.jp/topic/97162/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "https://www.youtube.com/watch?v=RqRS2xmQL84"
+          }
+        ],
+        "links": [
+          {
+            "platform": "YouTube",
+            "label": "BAD遺伝子 官方 MV",
+            "url": "https://www.youtube.com/watch?v=G6u20QYskAU",
+            "linkType": "direct_track",
+            "region": "GLOBAL",
+            "verifiedAt": "2026-10-14",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "BAD遺伝子 官方無字幕 OP（紫音版）",
+            "url": "https://www.youtube.com/watch?v=XOyydxN5QFs",
+            "linkType": "direct_track",
+            "region": "GLOBAL",
+            "verifiedAt": "2026-10-14",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "BAD遺伝子 官方無字幕 OP（龍成 Ver.）",
+            "url": "https://www.youtube.com/watch?v=RqRS2xmQL84",
+            "linkType": "direct_track",
+            "region": "GLOBAL",
+            "verifiedAt": "2026-10-14",
+            "availability": "unknown"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "ばけもん",
+        "titleRomaji": "Bakemon",
+        "artistDisplayName": "カラノア",
+        "youtubeUrl": "https://www.youtube.com/watch?v=g8YYbQeC5G4",
+        "credits": [
+          {
+            "name": "カラノア",
+            "role": "vocals"
+          },
+          {
+            "name": "雄大",
+            "role": "lyrics"
+          },
+          {
+            "name": "雄大",
+            "role": "composition"
+          },
+          {
+            "name": "カラノア",
+            "role": "arrangement"
+          },
+          {
+            "name": "永田涼司",
+            "role": "arrangement"
+          },
+          {
+            "name": "雄大",
+            "role": "group_member",
+            "groupName": "カラノア"
+          },
+          {
+            "name": "樹",
+            "role": "group_member",
+            "groupName": "カラノア"
+          },
+          {
+            "name": "かずき",
+            "role": "group_member",
+            "groupName": "カラノア"
+          }
+        ],
+        "sources": [
+          {
+            "label": "官方 YouTube 影片",
+            "url": "https://www.youtube.com/watch?v=g8YYbQeC5G4",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "動畫官方網站",
+            "url": "https://www.samurai-trooper.net/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/yoroi_shinden_samurai_troopers_part_2",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "UZUREA 主題曲清單",
+            "url": "https://uzurea.net/summer-2026-anime-theme-songs/",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "url": "https://www.samurai-trooper.net/music/2nd/ending/",
+            "label": "動畫官網第 2 クール ENDING：ばけもん創作名單",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://karanoah.fanpla.jp/news/2/",
+            "label": "カラノア 官方 PROFILE：三位團隊成員",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://avex-pictures.co.jp/topic/97162/",
+            "label": "AVEX Pictures 第 2 クール公告：紫音版及龍成版 OP／ED 映像",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          }
+        ],
+        "songId": "yoroi-shinden-samurai-troopers-part-2-ed-1-song",
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.samurai-trooper.net/music/2nd/ending/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "yoroi-shinden-samurai-troopers-part-2-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.samurai-trooper.net/music/2nd/ending/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "yoroi-shinden-samurai-troopers-part-2-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.samurai-trooper.net/music/2nd/ending/"
+            ],
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://karanoah.fanpla.jp/news/2/"
+            ],
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://avex-pictures.co.jp/topic/97162/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "https://www.youtube.com/watch?v=g8YYbQeC5G4"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://avex-pictures.co.jp/topic/97162/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "https://www.youtube.com/watch?v=qCEVsMHfCxI"
+          }
+        ],
+        "links": [
+          {
+            "platform": "YouTube",
+            "label": "ばけもん 官方無字幕 ED（紫音版）",
+            "url": "https://www.youtube.com/watch?v=g8YYbQeC5G4",
+            "linkType": "direct_track",
+            "region": "GLOBAL",
+            "verifiedAt": "2026-10-14",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "ばけもん 官方無字幕 ED（龍成 Ver.）",
+            "url": "https://www.youtube.com/watch?v=qCEVsMHfCxI",
+            "linkType": "direct_track",
+            "region": "GLOBAL",
+            "verifiedAt": "2026-10-14",
+            "availability": "unknown"
+          }
+        ]
+      }
+    ],
+    "metadataVerifiedAt": "2026-07-25"
+  },
+  {
+    "anilistId": 198709,
+    "id": "curated-198709",
+    "slug": "tefuda-ga-oome-no-victoria",
+    "seasonIds": [
+      "2026-summer"
+    ],
+    "startDate": "2026-07-07",
+    "titleJa": "手札が多めのビクトリア",
+    "titleZhHant": "奇招百出的維多利亞",
+    "titleRomaji": "Tefuda ga Oome no Victoria",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198709-3PFLvU6eqPvf.jpg",
+    "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/198709-wyZYzcKM5itk.jpg",
+    "editorialWeekday": 2,
+    "broadcastTimeJst": "24:00",
+    "status": "airing",
+    "officialSiteUrl": "https://victoria-anime.com/",
+    "anilistUrl": "https://anilist.co/anime/198709",
+    "imageSourceUrl": "https://anilist.co/anime/198709",
+    "imageSourceLabel": "AniList 公開媒體頁",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "sourceReferenceUrls": [
+      "https://natalie.mu/comic/news/674979"
+    ],
+    "animeThemesUrl": "https://animethemes.moe/anime/tefuda_ga_oome_no_victoria",
+    "uzureaUrl": "https://uzurea.net/summer-2026-anime-theme-songs/",
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "一進",
+        "titleRomaji": "Isshin",
+        "artistDisplayName": "ハク。",
+        "youtubeUrl": "https://www.youtube.com/watch?v=s9peIEgH2zU",
+        "credits": [
+          {
+            "name": "ハク。",
+            "role": "vocals"
+          }
+        ],
+        "sources": [
+          {
+            "label": "官方 YouTube 影片",
+            "url": "https://www.youtube.com/watch?v=s9peIEgH2zU",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/tefuda_ga_oome_no_victoria",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "UZUREA 主題曲清單",
+            "url": "https://uzurea.net/summer-2026-anime-theme-songs/",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "url": "https://victoria-anime.com/",
+            "label": "動畫官網 STAFF／MUSIC：一進／縁のつき、演唱及 OP／ED",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://www.toysfactory.co.jp/artist/haku/news/detail/7322",
+            "label": "TOY’S FACTORY ハク。Album 公告：一進收錄位置及 CD 版別",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          }
+        ],
+        "songId": "tefuda-ga-oome-no-victoria-op-1-song",
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://victoria-anime.com/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "tefuda-ga-oome-no-victoria-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://victoria-anime.com/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "tefuda-ga-oome-no-victoria-op-1"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "artist",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.toysfactory.co.jp/artist/haku/news/detail/7322"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "haku-sekai-ga-kawaru-toki-first"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "artist",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.toysfactory.co.jp/artist/haku/news/detail/7322"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "haku-sekai-ga-kawaru-toki-regular"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.toysfactory.co.jp/artist/haku/news/detail/7322"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "https://tf.lnk.to/sekaigakawarutoki_AL"
+          }
+        ],
+        "releases": [
+          {
+            "id": "haku-sekai-ga-kawaru-toki-first",
+            "title": "世界が変わる時",
+            "type": "album",
+            "artistDisplayName": "ハク。",
+            "date": {
+              "value": "2026-09-09",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "一進",
+                "disc": 1,
+                "position": 4
+              }
+            ],
+            "edition": "初回限定盤（CD＋Blu-ray）",
+            "catalogNumber": "TFCC-81211～81212",
+            "label": "TOY’S FACTORY"
+          },
+          {
+            "id": "haku-sekai-ga-kawaru-toki-regular",
+            "title": "世界が変わる時",
+            "type": "album",
+            "artistDisplayName": "ハク。",
+            "date": {
+              "value": "2026-09-09",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "一進",
+                "disc": 1,
+                "position": 4
+              }
+            ],
+            "edition": "通常盤（CD only）",
+            "catalogNumber": "TFCC-81213",
+            "label": "TOY’S FACTORY"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方配信",
+            "label": "一進 收錄 Album「世界が変わる時」官方商品入口",
+            "url": "https://tf.lnk.to/sekaigakawarutoki_AL",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-14",
+            "availability": "unknown"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "縁のつき",
+        "titleRomaji": "En no Tsuki",
+        "artistDisplayName": "KI_EN",
+        "youtubeUrl": "https://www.youtube.com/watch?v=r6pUQw5xjoc",
+        "credits": [
+          {
+            "name": "KI_EN",
+            "role": "vocals"
+          },
+          {
+            "name": "野川爽良",
+            "role": "lyrics"
+          },
+          {
+            "name": "野川爽良",
+            "role": "composition"
+          },
+          {
+            "name": "トオミヨウ",
+            "role": "arrangement"
+          },
+          {
+            "name": "KI_EN",
+            "role": "arrangement"
+          }
+        ],
+        "sources": [
+          {
+            "label": "官方 YouTube 影片",
+            "url": "https://www.youtube.com/watch?v=r6pUQw5xjoc",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/tefuda_ga_oome_no_victoria",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "UZUREA 主題曲清單",
+            "url": "https://uzurea.net/summer-2026-anime-theme-songs/",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "url": "https://victoria-anime.com/",
+            "label": "動畫官網 STAFF／MUSIC：一進／縁のつき、演唱及 OP／ED",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Jnhypa714Es",
+            "label": "KI_EN 官方藝人頻道：縁のつき MV 本曲創作名單",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://www.toysfactory.co.jp/artist/ki_en/news/detail/7268",
+            "label": "TOY’S FACTORY KI_EN 本曲 MV 公告：官方關係與共同製作（公開索引）",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://www.toysfactory.co.jp/artist/ki_en/news/detail/7237",
+            "label": "TOY’S FACTORY KI_EN 第六張 Single 公告：本曲及配信日期（公開索引）",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://tf.lnk.to/KI_EN_official",
+            "label": "TOY’S FACTORY KI_EN 官方入口：本曲創作及配信外連（公開索引）",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-14"
+          }
+        ],
+        "songId": "tefuda-ga-oome-no-victoria-ed-1-song",
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://victoria-anime.com/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "tefuda-ga-oome-no-victoria-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://victoria-anime.com/"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "tefuda-ga-oome-no-victoria-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=Jnhypa714Es"
+            ],
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=Jnhypa714Es"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "https://www.youtube.com/watch?v=Jnhypa714Es"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.toysfactory.co.jp/artist/ki_en/news/detail/7268",
+              "https://www.youtube.com/watch?v=Jnhypa714Es"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "Jnhypa714Es"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "artist",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.toysfactory.co.jp/artist/ki_en/news/detail/7237"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "ki-en-en-no-tsuki-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://tf.lnk.to/KI_EN_official"
+            ],
+            "verifiedAt": "2026-10-14",
+            "targetId": "https://tf.lnk.to/ENNOTSUKI"
+          }
+        ],
+        "links": [
+          {
+            "platform": "YouTube",
+            "label": "縁のつき 官方 MV",
+            "url": "https://www.youtube.com/watch?v=Jnhypa714Es",
+            "linkType": "direct_track",
+            "region": "GLOBAL",
+            "verifiedAt": "2026-10-14",
+            "availability": "unknown"
+          },
+          {
+            "platform": "官方配信",
+            "label": "縁のつき 官方配信入口",
+            "url": "https://tf.lnk.to/ENNOTSUKI",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-14",
+            "availability": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "ki-en-en-no-tsuki-digital",
+            "title": "縁のつき",
+            "type": "single",
+            "artistDisplayName": "KI_EN",
+            "date": {
+              "value": "2026-07-08",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "縁のつき"
+              }
+            ],
+            "edition": "配信版",
+            "label": "TOY’S FACTORY"
+          }
+        ]
+      }
+    ],
+    "metadataVerifiedAt": "2026-07-25"
+  },
   {"anilistId":207809,"id":"curated-207809","slug":"sora-wa-akai-kawa-no-hotori","seasonIds":["2026-summer"],"startDate":"2026-07-07","titleJa":"天は赤い河のほとり","titleZhHant":"赤河戀影","titleRomaji":"Sora wa Akai Kawa no Hotori","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207809-cpS7CAyjN7iP.jpg","editorialWeekday":2,"broadcastTimeJst":"25:35","status":"airing","officialSiteUrl":"https://www.vap.co.jp/sorahaakaikawanohotori/","anilistUrl":"https://anilist.co/anime/207809","imageSourceUrl":"https://anilist.co/anime/207809","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://mantan-web.jp/article/20260519dog00m200045000a.html"],"animeThemesUrl":"https://animethemes.moe/anime/sora_wa_akai_kawa_no_hotori","uzureaUrl":"https://uzurea.net/summer-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"暁の空","titleRomaji":"Akatsuki no Sora","artistDisplayName":"七海ひろき","youtubeUrl":"https://www.youtube.com/watch?v=cpytH8hQ5BE"},{"type":"ED","sequence":1,"titleJa":"Reunion","artistDisplayName":"清水美依紗","youtubeUrl":"https://www.youtube.com/watch?v=z0cYxw8Eifg"}]},
   {"anilistId":198946,"id":"curated-198946","slug":"clevatess-ii-majuu-no-ou-to-itsuwari-no-yuusha-denshou","seasonIds":["2026-summer"],"startDate":"2026-07-08","titleJa":"クレバテスⅡ-魔獣の王と偽りの勇者伝承-","titleZhHant":"Clevatess II -魔獸之王與虛假的勇者傳承-","titleRomaji":"Clevatess II: Majuu no Ou to Itsuwari no Yuusha Denshou","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198946-IGXmbqBEYRYD.jpg","editorialWeekday":3,"broadcastTimeJst":"21:00","status":"airing","officialSiteUrl":"https://clevatess.com/","anilistUrl":"https://anilist.co/anime/198946","imageSourceUrl":"https://anilist.co/anime/198946","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/675453"],"animeThemesUrl":"https://animethemes.moe/anime/clevatess_ii_majuu_no_ou_to_itsuwari_no_yuusha_denshou","uzureaUrl":"https://uzurea.net/summer-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"Foreshadow","artistDisplayName":"前島麻由","youtubeUrl":"https://www.youtube.com/watch?v=SiTi3WCmzfc"},{"type":"ED","sequence":1,"titleJa":"Awake Anew","artistDisplayName":"MYTH & ROID","youtubeUrl":"https://www.youtube.com/watch?v=Tbyi0Tx1QLA"}]},
   {"anilistId":135865,"id":"curated-135865","slug":"youjo-senki-2","seasonIds":["2026-summer"],"startDate":"2026-07-08","titleJa":"幼女戦記Ⅱ","titleZhHant":"幼女戰記II","titleRomaji":"Youjo Senki II","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135865-T7XIPMAbqcxN.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/135865-Ws3e7BhBkFxd.jpg","editorialWeekday":3,"broadcastTimeJst":"21:30","status":"airing","officialSiteUrl":"https://youjo-senki.jp/","anilistUrl":"https://anilist.co/anime/135865","imageSourceUrl":"https://anilist.co/anime/135865","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/675054"],"animeThemesUrl":"https://animethemes.moe/anime/youjo_senki_ii","uzureaUrl":"https://uzurea.net/summer-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"Why? RED induction","artistDisplayName":"MYTH & ROID","youtubeUrl":"https://www.youtube.com/watch?v=IVyvkwvsqW0"},{"type":"ED","sequence":1,"titleJa":"Weiter! Weiter!","artistDisplayName":"ターニャ・デグレチャフ (CV：悠⽊ 碧)","youtubeUrl":"https://www.youtube.com/watch?v=x2k_iYCGKvE"}]},
