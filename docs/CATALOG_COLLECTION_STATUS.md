@@ -12,9 +12,9 @@
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2020–2026 創作名單與官方 YouTube 深化；由最新已收錄季度往舊季度，沿用已接通格式及有效來源 |
 | 完成條件 | 本範圍的既有 OP／ED 用途逐批補有第一方證據的作詞、作曲、編曲、演唱／團隊及官方影片；經公開 JSON、動畫頁與必要檢查驗證；兩輪查找仍未明的欄位保留缺口與續查條件 |
-| 執行狀態 | 發布收尾中：2026 夏季第七批 7 部作品／12 筆用途已完成本機資料、建置與展示驗證。現有介面／測試／文件修改已完成審查並分類提交；依賴已修補、稽核為 0，Cloudflare 已重新登入。GitHub／production 發布驗收進行中。完成發布驗收後暫停，整體範圍及長期目標仍未完成 |
+| 執行狀態 | 已暫停：第七批資料、既有介面／測試／文件與依賴修補已完成，GitHub quality 與正式網站驗收通過。發布 checkpoint 保存後停止，不啟動下一批；2020–2026 深化及 2007–2026 長期目標均未完成 |
 | 接續位置 | 本輪僅作發布收尾，不啟動下一批。明確恢復後先處理 2026 夏的跨季額外作品 `curated-189046`（3 筆用途），再接 2026 春 `curated-180745` 起的首 9 部作品（23 筆用途）；共 10 部／26 筆。固定範圍與截止日保留 |
-| 本機提交 | `c71f032`：歌曲關係格式、格式試行及夏季批次 01–03；`c1174a0`：第四批；`dbec875`：第五批；`0f90d11`：第六批資料、用途標籤及 checkpoint；`c686b1e`：第七批；`0f589b4`：測試／建置整理；`ac1dd2a`：共用歌單及官方外連篩選；本輪既有介面、測試與公開文件修改納入分類審查；只提交經檢查的公開內容，排除憑證、logs 與本機測試產物。推送與正式部署於本輪驗收後執行 |
+| 發布提交 | [PR #99](https://github.com/kyeunga25/anisonary/pull/99) 已正常 rebase 合併，保留 9 個階段提交；main／部署來源 `f2fb293`，與審閱 head 的 Git tree 相同。原始 SHA 留在 `codex/2026-summer-catalogue-release`，main 對應表見發布收尾 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
 執行狀態使用「未開始／執行中／已暫停／已完成／已取消」；無法繼續時另記具體阻礙及仍未完成部分，不自動標記完成。長期目標與本次工作量分開，未指定本次工作量時先完成下一批。
@@ -617,4 +617,28 @@ The schema pilot and summer 2026 batches 01–03 are saved in local commit c71f0
 - 最終程式檢查：4 個單元檔案／5 項通過；Astro 160 檔案 0 errors／warnings／hints；1,961 HTML 與 3,918 公開產物通過 CSP／public gate；6 條 E2E 通過；Cloudflare dry-run 通過且沒有 bindings；依賴稽核 0 vulnerabilities。官方外連篩選修正後只重跑受影響的必要檢查。
 - 展示：最新本機預覽埠 4337。原 4335 服務讀取舊 CSP，保留原服務並使用新埠；新埠 CSP 與本次建置一致。7 部／12 用途在桌面與手機展示均通過，沒有 app console error 或自動 YouTube request；Wonder 的官方外連可由影片篩選找到。
 - 私隱：239 個 repository 檔案及 3,918 個建置檔案通過掃描，補充檢查未發現 credential literal、私人路徑、私人 email、raw Authorization 或應排除產物。`.gitignore` 排除 env、private／catalog 工作目錄、logs、trace、coverage 與 browser test results；公開測試只保留通用邏輯與小型失敗輸入。
-- 發布進行中：將同一已核對 `main` 推送 GitHub，待 CI 結果核對後手動發布 Workers Static Assets，再獨立驗證 production。推送／部署尚未完成前不記為已發布；本輪驗收後暫停，不啟動夏季額外／春季下一批。
+- 正式發布已完成：[PR #99](https://github.com/kyeunga25/anisonary/pull/99) 的 quality 與 Workers check 通過並以 rebase 合併。main quality [run 38592893398](https://github.com/kyeunga25/anisonary/actions/runs/38592893398) 通過；手動部署 `f2fb293` 的同一已驗證靜態產物，source tag／message 與 100% serving 狀態經 Cloudflare 讀回確認。正式入口：[歌曲列表](https://anisonary.k-y.cc/songs/)、[螺旋版本與收錄示例](https://anisonary.k-y.cc/anime/bleach-sennen-kessen-hen-kashin-tan/)。
+
+
+### 2026-10-15 正式驗收與停止位置
+
+資料證據截止日仍固定 **2026-10-14**，沒有因收尾跨日延長來源範圍或更新舊核對日期。資料收集已暫停；下面只記本輪發布及交接。
+
+| 階段 | main 提交 | 原始 PR 分支提交 |
+| --- | --- | --- |
+| (add): song relations and 2026 summer credits batches 01-03 | `461f69b` | `c71f032` |
+| (add): 2026 summer credits and official videos batch 04 | `bb08746` | `c1174a0` |
+| (add): 2026 summer credits and official videos batch 05 | `b0e1e67` | `dbec875` |
+| (add): 2026 summer credits and official videos batch 06 | `17a49d5` | `0f90d11` |
+| (add): 2026 summer credits and official videos batch 07 | `66e8ca3` | `c686b1e` |
+| (refactor): streamline catalogue tests and build checks | `99ca0d2` | `0f589b4` |
+| (update): use shared compact song playlists | `8db6776` | `ac1dd2a` |
+| (fix): update vulnerable build dependencies | `ac8f034` | `b73f0cb` |
+| (docs): align collection workflow and catalogue guidance | `f2fb293` | `3594262` |
+
+- 發布範圍共 9 個實作／資料／文件階段，main 因線性歷史規則正常 rebase，沒有 squash；原始分支保存原 SHA 以便追溯。部署源為 `f2fb293de4b4ddfb25ca3ab1599ab443200fe34c`。本段為純 checkpoint 收尾，沒有更動網站程式或建置產物。
+- 正式 API：既有 live gate 1 項通過，讀取全部 28 季、1,917 個唯一作品及跨 endpoint 契約；沒有憑證或私有來源 fallback。
+- 正式 HTTP／產物：標準 Node fetch 核對 15 個頁面／公開資產及本批 7 個 anime JSON，22 項與本機已審閱產物 byte digest 一致；2 個不存在的頁面／API 回應真實 404。HTML 的 CSP／frame／content-type／referrer／permissions 標頭、API noindex／revalidation／無 permissive CORS 符合設定。
+- 正式展示：7 部／12 用途在桌面 1536×1024 與手機 390×844 通過；曲名修正可搜尋，完整作品主題曲、創作、音源、收錄及來源可見；Wonder 官方外連可被影片篩選找到。沒有 app console error 或自動 YouTube request；第三方海報在測試攔截，不宣稱外部媒體或地區播放可用性。
+- HTTP 診斷限制：預設 Python client 曾被 Cloudflare 回應 403／1010；沒有更改或停用網站保護。既有 Node API gate、普通 Node fetch 與匿名標準瀏覽器驗收均通過，該次診斷失敗不記為通過，也不推定所有 client signature 均可訪問。
+- 最後可靠接點：本輪第七批及發布驗收完成，整體目標未完成。恢復必須明確指定；先由 `re-zero-season-4-op-1` 處理夏季跨季額外作品，再接春季 `curated-180745` 等首 9 部，共 10 部／26 用途。未解創作、影片及發行缺口保留在本批表中；沒有自動背景／排程收集。
