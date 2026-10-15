@@ -12,8 +12,8 @@
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2020–2026 創作名單與官方 YouTube 深化；由最新已收錄季度往舊季度，沿用已接通格式及有效來源 |
 | 完成條件 | 本範圍的既有 OP／ED 用途逐批補有第一方證據的作詞、作曲、編曲、演唱／團隊及官方影片；經公開 JSON、動畫頁與必要檢查驗證；兩輪查找仍未明的欄位保留缺口與續查條件 |
-| 執行狀態 | 整體執行中；第 08–22 批均已正式發布驗收。第二十二批核對夏季 10 部／28 筆，更新 5 部／16 筆；第二十三批接續夏季 10 部／26 筆。每批發布後接續；2020–2026 深化及長期目標均未完成 |
-| 接續位置 | 第二十三批執行中，由 `yofukashi-no-uta-season-2-op-1` 起接續 2025 夏季 10 部／26 筆。固定截止日 2026-10-14、新證據實際核對日期 2026-10-15；完整 ID／缺口見各批 |
+| 執行狀態 | 整體執行中；第 08–22 批均已正式發布驗收。第二十二批核對夏季 10 部／28 筆，更新 5 部／16 筆；第二十三批已完成本機夏季 10 部／26 筆核對、更新 5 部／15 筆，待正式發布。每批發布後接續；2020–2026 深化及長期目標均未完成 |
+| 接續位置 | 第二十三批本機驗證完成，正式發布後由 `cardfight-vanguard-divinez-deluxe-kesshou-hen-op-1` 起接續夏季下一組 10 部／32 筆。固定截止日 2026-10-14、新證據實際核對日期 2026-10-15；完整 ID／缺口見各批 |
 | 發布提交 | 最新 [PR #111](https://github.com/kyeunga25/anisonary/pull/111) 已正常 rebase 合併，保留 3 個階段提交；正式部署來源 `28eceb5` 已通過下方正式驗收。PR #101–#110 的提交及驗收保留在各批紀錄 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
@@ -32,7 +32,7 @@
 
 ## 下一輪位置
 
-目前優先順序已調整為 **2020–2026 創作名單及官方 YouTube**。本輪以已收錄用途深化為主，同作品的新公告用途經核心核對後一併補入；不重做季度全集盤點。2026 秋、2025 秋的核心漏季仍保留，待此項優先工作之後接續。固定截止日仍為 2026-10-14。啟動盤點的本機唯一用途為 3,965 筆；跨年作品在各年統計可能重複，不能相加。此數量是範圍基線，不代表欄位完成。第二批補入 3 筆、第六批補入 4 筆新用途後，當時範圍為 3,972 筆；第八批再補 5 筆後為 3,977 筆。第十批再補 2 筆後期用途後為 3,979 筆；第十一批補 3 筆後為 3,982 筆。最新全目錄為 28 季、1,917 動畫頁、4,246 筆用途；用途類型沿用第十一批；第十二批只深化既有用途。第十三批將一筆誤列 MV 合併並保留舊 ID 別名後，最新全目錄為 4,245 筆用途（4,243 OP／ED、2 IN），範圍內為 3,981 筆；第十四批補入 3 筆已公告後期用途後，本機最新為 4,248 筆（4,246 OP／ED、2 IN），2020–2026 為 3,984 筆；上述數量保留為歷史變更；目前最新本機差異見第二十二批，正式發布以頂部提交及下方驗收紀錄為準。
+目前優先順序已調整為 **2020–2026 創作名單及官方 YouTube**。本輪以已收錄用途深化為主，同作品的新公告用途經核心核對後一併補入；不重做季度全集盤點。2026 秋、2025 秋的核心漏季仍保留，待此項優先工作之後接續。固定截止日仍為 2026-10-14。啟動盤點的本機唯一用途為 3,965 筆；跨年作品在各年統計可能重複，不能相加。此數量是範圍基線，不代表欄位完成。第二批補入 3 筆、第六批補入 4 筆新用途後，當時範圍為 3,972 筆；第八批再補 5 筆後為 3,977 筆。第十批再補 2 筆後期用途後為 3,979 筆；第十一批補 3 筆後為 3,982 筆。最新全目錄為 28 季、1,917 動畫頁、4,246 筆用途；用途類型沿用第十一批；第十二批只深化既有用途。第十三批將一筆誤列 MV 合併並保留舊 ID 別名後，最新全目錄為 4,245 筆用途（4,243 OP／ED、2 IN），範圍內為 3,981 筆；第十四批補入 3 筆已公告後期用途後，本機最新為 4,248 筆（4,246 OP／ED、2 IN），2020–2026 為 3,984 筆；上述數量保留為歷史變更；目前最新本機差異見第二十三批，正式發布以頂部提交及下方驗收紀錄為準。
 
 | 優先 | 工作 | 狀態與接點 |
 | --- | --- | --- |
@@ -534,7 +534,7 @@ Browser plugin 不在可用清單，沿用 Playwright；Chromium 本機驗證權
 | --- | --- |
 | 本次目標 | 可公開的範圍、資料欄位、優先順序、工作量／時限與完成條件；不抄錄私人指令 |
 | 固定範圍 | 起迄年份／季度、媒體及用途類型、公開資料截止日；延續時不自行改動 |
-| 執行狀態 | 整體執行中；第 08–22 批均已正式發布驗收。第二十二批核對夏季 10 部／28 筆，更新 5 部／16 筆；第二十三批接續夏季 10 部／26 筆。每批發布後接續；2020–2026 深化及長期目標均未完成 |
+| 執行狀態 | 整體執行中；第 08–22 批均已正式發布驗收。第二十二批核對夏季 10 部／28 筆，更新 5 部／16 筆；第二十三批已完成本機夏季 10 部／26 筆核對、更新 5 部／15 筆，待正式發布。每批發布後接續；2020–2026 深化及長期目標均未完成 |
 | 批次 | 日期、季度、簡短批次 ID；不靠 package 版本當游標 |
 | 已處理 ID | 本批已公開的 theme ID／anime ID；跨季作品與原 ID 保持一致 |
 | 完成層次 | 核心身分／credits／版本／發行品／平台，分別說明 |
@@ -1874,14 +1874,72 @@ The twelfth batch deepens 21 existing uses across ten anime, adding 70 creator-r
 | (fix): support documented song types in video registry | `fedd3b7` | `29f74bd` |
 | (add): summer song versions and creator teams batch 22 | `28eceb5` | `5442a92` |
 
-## 2026-10-15 批次：2025-summer-credits-youtube-23（執行中）
+## 2026-10-15 批次：2025-summer-credits-youtube-23
 
-目標：由 `yofukashi-no-uta-season-2-op-1` 起，按 seed 順序接續 `curated-175914`、`curated-177175`、`curated-156395`、`curated-185660`、`curated-185544`、`curated-186003`、`curated-179879`、`curated-171046`、`curated-179966`、`curated-188653`，10 部／26 筆既有公開用途。固定 2020–2026 深化、2007–2026 長期範圍及 2026-10-14 截止日；新證據核對日期 2026-10-15。
+完成層次：本機核對 2025 夏季 10 部／26 筆既有公開用途，實際更新 5 部／15 筆，11 筆完整內容沿用；正式發布另以下方驗收為準。2020–2026 深化、2007–2026 長期範圍及 2026-10-14 截止日固定；新證據實際查閱日期為 2026-10-15。
 
-已保存夏季 seed、global extra-theme 及 10 部公開 JSON 基線；23 筆已有完整詞曲編曲、25 筆已有 YouTube 外連。先查 Creepy Nuts 三曲的明示編曲與ぷにるんず的官方 YouTube，再深化同批已證實的版本／商品；其餘完整證據與日期沿用。第23批核心欄位已保存，批次完整驗證仍待收尾；階段內容見下方，已完成成果以第22批正式驗收為準。兩輪未明者記錄續查條件，完成本機驗證、分類提交及正式發布後接續。
+| 公開 theme ID | 曲目與實際處理 |
+| --- | --- |
+| `yofukashi-no-uta-season-2-op-1` | Mirage；補齊／更正創作、版本、收錄或平台關係 |
+| `yofukashi-no-uta-season-2-ed-1` | 眠れ；補齊／更正創作、版本、收錄或平台關係 |
+| `yofukashi-no-uta-season-2-ed-2` | よふかしのうた；補齊／更正創作、版本、收錄或平台關係 |
+| `arknights-enshin-shomei-op-1` | End of Days；補齊／更正創作、版本、收錄或平台關係 |
+| `arknights-enshin-shomei-ed-1` | Truth；補齊／更正創作、版本、收錄或平台關係 |
+| `arknights-enshin-shomei-ed-2` | 生命換装；補齊／更正創作、版本、收錄或平台關係 |
+| `busu-ni-hanataba-wo-op-1` | BLOOM (feat. Ayumu Imazu)；完整創作與有效官方影片沿用；無修改 |
+| `busu-ni-hanataba-wo-ed-1` | スーベニア；完整創作與有效官方影片沿用；無修改 |
+| `dandadan-2nd-season-op-1` | 革命道中；完整創作與有效官方影片沿用；無修改 |
+| `dandadan-2nd-season-ed-1` | どうかしてる；完整創作與有效官方影片沿用；無修改 |
+| `tsuihousha-shokudou-e-youkoso-op-1` | ユニーク；完整創作與有效官方影片沿用；無修改 |
+| `tsuihousha-shokudou-e-youkoso-ed-1` | まごころ My Heart；完整創作與有效官方影片沿用；無修改 |
+| `fermat-no-ryouri-op-1` | メイラード；完整創作與有效官方影片沿用；無修改 |
+| `fermat-no-ryouri-ed-1` | Change Over；完整創作與有效官方影片沿用；無修改 |
+| `zutaboro-reijou-wa-ane-no-moto-konyakusha-ni-dekiai-sareru-op-1` | 月蝕；完整創作與有效官方影片沿用；無修改 |
+| `zutaboro-reijou-wa-ane-no-moto-konyakusha-ni-dekiai-sareru-ed-1` | マリー；完整創作與有效官方影片沿用；無修改 |
+| `seishun-buta-yarou-wa-santa-claus-no-yume-wo-minai-op-1` | スノウドロップ；完整創作與有效官方影片沿用；無修改 |
+| `seishun-buta-yarou-wa-santa-claus-no-yume-wo-minai-ed-1` | 水平線は僕の古傷 広川卯月 Short Ver.；補齊／更正創作、版本、收錄或平台關係 |
+| `seishun-buta-yarou-wa-santa-claus-no-yume-wo-minai-ed-2` | 水平線は僕の古傷 赤城郁実 Short Ver.；補齊／更正創作、版本、收錄或平台關係 |
+| `seishun-buta-yarou-wa-santa-claus-no-yume-wo-minai-ed-3` | 水平線は僕の古傷 姫路紗良 Short Ver.；補齊／更正創作、版本、收錄或平台關係 |
+| `seishun-buta-yarou-wa-santa-claus-no-yume-wo-minai-ed-4` | 水平線は僕の古傷 霧島透子 Short Ver.；補齊／更正創作、版本、收錄或平台關係 |
+| `seishun-buta-yarou-wa-santa-claus-no-yume-wo-minai-ed-5` | 水平線は僕の古傷 岩見沢寧々 Short Ver.；補齊／更正創作、版本、收錄或平台關係 |
+| `seishun-buta-yarou-wa-santa-claus-no-yume-wo-minai-ed-6` | 水平線は僕の古傷；補齊／更正創作、版本、收錄或平台關係 |
+| `silent-witch-chinmoku-no-majo-no-kakushigoto-op-1` | Feel；補齊／更正創作、版本、收錄或平台關係 |
+| `silent-witch-chinmoku-no-majo-no-kakushigoto-ed-1` | mild days；補齊／更正創作、版本、收錄或平台關係 |
+| `punirunes-puni-3-op-1` | ぷにぷにぷにるんず ぷにックスバージョン；補齊／更正創作、版本、收錄或平台關係 |
 
-### 第23批核心欄位階段
+已處理 anime ID：`curated-175914`、`curated-177175`、`curated-156395`、`curated-185660`、`curated-185544`、`curated-186003`、`curated-179879`、`curated-171046`、`curated-179966`、`curated-188653`。
 
-已在 `yofukashi-no-uta-season-2-op-1`、`yofukashi-no-uta-season-2-ed-1`、`yofukashi-no-uta-season-2-ed-2` 補入三筆 DJ松永編曲，採 UtaTen／ORICON／TOWER 明示交叉資料，沒有由作曲或製作人推定。`punirunes-puni-3-op-1` 保留原 ID／舊 authoring key，將既有官方ななひら影片接到 YouTube 外連，並依已讀官方 description 修正為 Art Track；沒有將フルマックスバージョン當作ぷにックス版或 TV 錄音。
+### 實際差異
 
-本階段已保存本機資料；僅差異／公開邊界檢查，尚未執行本批完整測試、build、E2E 或正式發布。接續同批角色 Short／Full、OST／SP／Instrumental 及已確認商品，收尾一次完成必要完整檢查；不將本段視為第23批驗收完成。
+- 新增／撤回動畫及用途均為 0；既有公開 ID、序號、種類、URL 及動畫 metadata／日期完整保留。青春豬頭少年六筆既有角色／合唱 ED 共用一個歌曲 ID，仍保留六筆用途，不由專輯或版本新增 ED。
+- Creepy Nuts 三首各補 1 筆 DJ松永編曲，採 UtaTen／ORICON／TOWER 明示交叉資料；另增 6 筆兩名團隊成員關係。End of Days 移除誤列整首編曲的宮野幸子，改為 Strings Arrangement；全曲編曲保留堀江晶太。全批 26／26 用途有詞曲編曲欄位，不代表每個音源都有完整名單，也不代表交叉補證已變成第一方明示。
+- 新增 8 個官方歌曲影片外連，重用既有有效影片 metadata／日期；ぷにるんず的既有官方影片依本次已讀 description 更正 Art Track，並對應フルマックス音源，原ぷにックス音源另列。全批 26／26 用途有官方 YouTube 外連；沒有新增影片 metadata 項目或將 MV／creditless 當成新錄音。
+- 新增 29 個唯一音源＝12 角色版、9 演唱版、6 Instrumental、1 Live、1 Remix；長度分類為 5 Full、6 Short、1 TV、17 unknown。青春豬頭少年為 5 組個別角色 Short／Full、OST 四人版、不同角色組合的 SP、Instrumental 及 SP Short，共 14 個；SP Short 歌唱未明，沒有借用 SP 完整版名單。其 Full 特典 CD 直接連到確切 BD/DVD 商品，不硬列音樂 Single／Album。
+- Creepy Nuts 明示兩個七月 Digital Single、九月共用 AICL-4786 CD；Mirage／眠れ的 Instrumental 分別為 Track 3／4。よふかしのうた另列 2019 原版、2018 Zepp Tokyo Live DVD、2022 Remastered；初回 Mini Album CD Track 1／DVD Disc 2 Track 4、通常ラジオ盤 Track 2、堕天 Single Track 3 分開登記。
+- End of Days 原版補明示鼓、弦樂各部、合唱及其他樂器共 19 筆角色，與原有創作合成 26 筆原版音源 credits；TeddyLoid Remix 只留其明示 6 筆名單，未借用原版演奏／弦樂。三個 Single CD 版的 Track 1／3／4 對應各音源；生命換装補最終話 ED、2025-09-06 配信與精確平台，未由單曲名配信推定商品種類。
+- 新增 15 筆收錄關係，涉及 13 個唯一發行 ID＝9 Single、3 Album（含 2 個 Mini Album 版）、1 OST。青春豬頭少年 OST Disc 2 Track 21–23 保存四人版／SP 不同角色／Instrumental；羊文學共用 KSCL-3602 Single，Album 先只收錄曲目表確認的 Feel Track 3，不將 mild days 的矛盾文案當作收錄證據。
+- 新增 58 個外連＝17 官方入口、8 YouTube、11 Apple Music、11 Spotify、11 YouTube Music，另更新 12 個原入口的標籤／關係。目的地取自本次實際讀取的官方逐曲配信頁，不推測網址、地區可用性或版本等同。新增 14 筆來源、更新 30 筆實際查閱來源、133 組欄位證據。未查來源與全部動畫 metadata 日期保留。
+- 全目錄仍為 28 季、1,917 動畫、4,251 用途＝4,244 OP／ED、4 IN、3 TS；2020–2026 仍為 1,808 動畫／3,987 用途。唯一 YouTube 歌曲 watch 外連由 814 增至 822，另 6 個官方專輯入口；影片 metadata 仍為 1,793。用途、歌曲、音源、外連及發行品不可相加作歌曲數。
+
+### 未解缺口與續查條件
+
+| 項目 | 保留缺口 | 再查觸發條件 |
+| --- | --- | --- |
+| Creepy Nuts 編曲 | 三曲有授權平台／正版商品明示 DJ松永，第一方逐曲編曲仍未明 | 官方 booklet／逐曲 credits 公布才補第一方；不由團隊、producer 或作曲推定 |
+| 青春豬頭少年 | 霧島透子 CV、SP Short 歌唱及未標音源長度仍未知；BD/DVD 特典 CD 的音樂發行品分類尚無對應格式 | 官方逐曲名單／音源識別或可證明容器的格式出現；保留確切商品外連，不補造 CV、TV、曲序或發行種類 |
+| 羊文學 Album | 台灣官方介紹提及 mild days，但完整 13 曲表未列；兩輪定向查找未解，先僅保存 Feel Track 3 | 明確品番／版別完整曲目或更正出現，再核對 mild days 的收錄；Anime ver. 沒有直接當 TV |
+| ぷにるんず | フルマックス Art Track 有歌唱／詞曲，編曲未明；ぷにックス與フルマックス的長度及版本等同未證實 | 官方逐音源 credits、標記／ISRC 等出現；不從曲名的「フル」或另一影片推定 full／新錄音 |
+| 其他版本與平台 | 精確 ISRC、同錄音判定、地區可用性及其他官方影片形式仍依逐首證據 | 出現明確逐曲官方資料時查真正缺口；不重查本批全部有效來源 |
+
+### 本機檢查與展示
+
+- `npm test` 4 檔／5 個核心測試通過；首輪檢查拒絕ぷにるんず多餘 authoring ID 與舊 key 種類不一致，已移除多餘 ID、沿用既有公開映射，未修改測試或正常程式。五條選定 seed 以外的 bytes／動畫 metadata 完整保留；global extra-theme 僅一個既有區塊、影片索引僅 Art Track 類型與音源關係改動。
+- `npm run build` 通過：1,961 HTML、CSP 6 script／10 style hashes、Service Worker、3,918 公開產物。6 條 E2E、npm audit 0 vulnerabilities、Cloudflare dry-run 通過；依賴／部署設定未改。
+- 桌面 1536×1024 核對 10 部／26 筆與公開 JSON、手機 390×844 核對 4 部，10 條閱讀流程通過；包含逐音源創作、共享歌曲、Short／Full／SP／TV、版別曲序、矛盾收錄排除、Art Track 及品番／Remix 搜尋。0 app／CSP errors、0 自動 YouTube request、無橫向溢出。已實際檢視桌面 ReoNa 音源名單／三個 CD 版及手機 OST 角色／SP／Instrumental／曲序；Browser plugin 不在清單，沿用 Playwright。
+- 18 個文件連結、`git diff --check` 與 repository `public:check`（239 檔）通過。原始取回資料、provider metadata、測試腳本、log 及截圖只存暫存，未提交。
+
+預覽入口：`/anime/yofukashi-no-uta-season-2/`、`/anime/arknights-enshin-shomei/`、`/anime/seishun-buta-yarou-wa-santa-claus-no-yume-wo-minai/`、`/anime/punirunes-puni-3/`。可搜尋 `AICL-3724`、`TeddyLoid Remix`、`SVWC-70728`。
+
+階段提交：`d302554` 保存第22批正式驗收／第23批啟動；`2054fa2` 保存三筆編曲與官方 Art Track 核心欄位（當時未完成整批驗證）。本批深入音源／發行品的來源提交與正式驗收於發布後另記。
+
+下一批：**2025-summer-credits-youtube-24**，由 `cardfight-vanguard-divinez-deluxe-kesshou-hen-op-1` 起，依序 `curated-191994`、`curated-169420`、`curated-177761`、`curated-193238`、`curated-186561`、`curated-180794`、`curated-178025`、`curated-184034`、`curated-180929`、`curated-181444`，10 部／32 筆既有公開用途。第23批正式驗收後接續；2020–2026 深化及長期目標均未完成。
