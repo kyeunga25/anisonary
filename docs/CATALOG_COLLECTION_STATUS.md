@@ -1065,4 +1065,4 @@ The twelfth batch deepens 21 existing uses across ten anime, adding 70 creator-r
 
 本次目標：接續春季 9 部作品、27 筆既有 OP／ED 用途，優先補原名、實際創作者／歌唱名義、官方 YouTube 形式、已證實版本及收錄。固定範圍與 2026-10-14 截止日不變；來源實際核對日期為 2026-10-15。完成條件沿用頂部與 workflow，經本機檢查後逐批提交、發布及正式驗收；缺口保存續查條件。
 
-已開始查閱第一方 MUSIC 與公告；尚未寫入或驗證本批歌曲資料，不能計作完成。範圍為 `curated-199588`、`curated-182483`、`curated-177508`、`curated-177501`、`curated-202508`、`curated-187869`、`curated-169228`、`curated-199029`、`curated-185211`。先處理明確名單，角色版本、既有 MV 誤列用途與後期 ED 缺口另按證據核對。
+第一階段已接通相容的用途 ID 別名，合併神の雫誤列的同曲 MV，保留舊錨點與正規用途；其餘作品深化及整批驗證待後續提交記錄，尚不計整批完成。範圍為 `curated-199588`、`curated-182483`、`curated-177508`、`curated-177501`、`curated-202508`、`curated-187869`、`curated-169228`、`curated-199029`、`curated-185211`。先處理明確名單，角色版本、既有 MV 誤列用途與後期 ED 缺口另按證據核對。

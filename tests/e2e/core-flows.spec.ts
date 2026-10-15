@@ -125,6 +125,15 @@ test("playlist browsing opens all anime songs and preserves sources, media conse
   await players.first().getByRole("button", { name: /載入 YouTube 影片/ }).click();
   await expect(page.locator("iframe")).toHaveCount(1);
   await expect(players.nth(1).locator("iframe")).toHaveCount(0);
+
+  const aliasAnime = curatedAnimeDetails.find((anime) => anime.themes.some((theme) => theme.idAliases?.length));
+  if (!aliasAnime) throw new Error("A reviewed duplicate-use correction is required for the legacy anchor flow");
+  const canonicalTheme = aliasAnime.themes.find((theme) => theme.idAliases?.length)!;
+  const oldId = canonicalTheme.idAliases![0]!;
+  await page.goto(`/anime/${aliasAnime.slug}/#theme-${oldId}`);
+  await expect(page.locator(`#theme-${oldId}`).locator("..")).toHaveAttribute("id", `theme-${canonicalTheme.id}`);
+  await expect(page.locator(`#theme-${canonicalTheme.id}`)).toBeInViewport();
+  await expect(page.locator(".theme-card")).toHaveCount(aliasAnime.themes.length);
 });
 
 test("song library and local search combine quarters, sorting, multilingual input and pagination", async ({ page }, testInfo) => {

@@ -484,6 +484,7 @@ function parseTheme(value: unknown): PublicTheme {
   if (usageLabel !== undefined) theme.usageLabel = usageLabel;
   if (versionLabel !== undefined) theme.versionLabel = versionLabel;
   if (releaseDate !== undefined) theme.releaseDate = releaseDate;
+  if (item.idAliases !== undefined) theme.idAliases = array(item.idAliases, 1, 50).map((id) => slug(id));
   if (item.songId !== undefined) theme.songId = slug(item.songId);
   if (item.recordings !== undefined) theme.recordings = array(item.recordings, 1, 50).map(parseRecording);
   if (item.releases !== undefined) theme.releases = array(item.releases, 1, 50).map(parseRelease);
@@ -560,7 +561,7 @@ function parseAnimeDetail(value: unknown): PublicAnimeDetail {
     ? themes.length > 0 ? "documented" : "not_announced"
     : oneOf(item.themeAvailability, themeAvailabilities);
   const sources = array(item.sources, 1, 100).map(parseSource);
-  unique(themes.map((theme) => theme.id));
+  unique(themes.flatMap((theme) => [theme.id, ...(theme.idAliases ?? [])]));
   unique(themes.map((theme) => `${theme.type}-${theme.sequence}`));
   unique(sources.map((source) => source.url));
 

@@ -73,7 +73,7 @@ it("rejects unsafe or inconsistent external API data and bounds failed requests"
 });
 
 it("preserves optional song relations and independent evidence dates while rejecting broken relationships", async () => {
-  const anime = structuredClone(curatedAnimeDetails.find((detail) => detail.themes.some((theme) => (
+  const anime = structuredClone(curatedAnimeDetails.find((detail) => detail.themes.length > 1 && detail.themes.some((theme) => (
     (theme.recordings?.length ?? 0) > 1 && (theme.releases?.length ?? 0) > 0
   )))!);
   expect(anime).toBeDefined();
@@ -81,6 +81,7 @@ it("preserves optional song relations and independent evidence dates while rejec
     (theme.recordings?.length ?? 0) > 1 && (theme.releases?.length ?? 0) > 0
   ));
   const fixtureTheme = anime.themes[index]!;
+  fixtureTheme.idAliases = ["retired-theme-use"];
   fixtureTheme.usageLabel = "ABEMA限定先行配信版";
   const retainedSource = fixtureTheme.sources.find((source) => !fixtureTheme.evidence!.some((evidence) => evidence.sourceUrls.includes(source.url)))!;
   expect(retainedSource).toBeDefined();
@@ -103,6 +104,10 @@ it("preserves optional song relations and independent evidence dates while rejec
   }
 
   const mutations = [
+    (theme: typeof anime.themes[number]) => { theme.idAliases = [theme.id]; },
+    (theme: typeof anime.themes[number]) => { theme.idAliases = []; },
+    (theme: typeof anime.themes[number]) => { theme.idAliases = ["retired-theme-use", "retired-theme-use"]; },
+    (theme: typeof anime.themes[number]) => { theme.idAliases = [anime.themes.find((other) => other.id !== theme.id)!.id]; },
     (theme: typeof anime.themes[number]) => { Object.assign(theme, { usageLabel: { platform: "ABEMA" } }); },
     (theme: typeof anime.themes[number]) => { theme.releases![0]!.tracks[0]!.recordingId = "missing-recording"; },
     (theme: typeof anime.themes[number]) => { theme.links[0]!.releaseId = "missing-release"; },

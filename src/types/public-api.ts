@@ -150,6 +150,8 @@ export interface PublicFieldEvidence {
 
 export interface PublicTheme {
   id: string;
+  // Retired duplicate IDs resolve to this use without adding another song row.
+  idAliases?: string[];
   type: "OP" | "ED" | "IN";
   sequence: number;
   titleJa: string;
