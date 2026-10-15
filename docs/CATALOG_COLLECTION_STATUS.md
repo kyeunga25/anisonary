@@ -12,8 +12,8 @@
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2020–2026 創作名單與官方 YouTube 深化；由最新已收錄季度往舊季度，沿用已接通格式及有效來源 |
 | 完成條件 | 本範圍的既有 OP／ED 用途逐批補有第一方證據的作詞、作曲、編曲、演唱／團隊及官方影片；經公開 JSON、動畫頁與必要檢查驗證；兩輪查找仍未明的欄位保留缺口與續查條件 |
-| 執行狀態 | 整體執行中；第 08–12 批已分類提交、合併及正式部署驗收；第十三批已提交、合併並正式部署驗收；第十四批已提交、合併及正式部署驗收（11 部／20 筆既有＋3 筆新用途）；第十五批接續冬季前 11 部／21 筆既有用途。每批沿用資料、驗證及發布流程，收到暫停或停止要求立即保存位置。2020–2026 深化及 2007–2026 長期目標均未完成 |
-| 接續位置 | 第十四批正式驗收已完成；進入 2026 冬季，第十五批執行中，由 `mf-ghost-3rd-season-op-1` 接續前 11 部／21 筆既有用途；公開 JSON 中既有 extraThemes 一併盤點，跨季已處理用途直接沿用。固定截止日仍為 2026-10-14，實際核對日期為 2026-10-15 |
+| 執行狀態 | 整體執行中；第 08–12 批已分類提交、合併及正式部署驗收；第十三批已提交、合併並正式部署驗收；第十四批已提交、合併及正式部署驗收（11 部／20 筆既有＋3 筆新用途）；第十五批冬季前 11 部／21 筆已完成有界查核，本機實際深化 2 部／3 筆，待本批正式發布驗收。每批沿用資料、驗證及發布流程，收到暫停或停止要求立即保存位置。2020–2026 深化及 2007–2026 長期目標均未完成 |
+| 接續位置 | 第十五批本機完成，待正式發布驗收；其後由冬季 `hokuto-no-ken-kenou-gun-zako-tachi-no-banka-op-1` 接續第十六批 10 部／18 筆既有用途。固定截止日 2026-10-14，實際核對日期 2026-10-15；完整 ID 及缺口見各批 |
 | 發布提交 | 最新 [PR #103](https://github.com/kyeunga25/anisonary/pull/103) 已正常 rebase 合併，保留 2 個階段提交；正式部署來源 `19b4ead`，已通過下方正式驗收。前批 PR #101／#102 的階段提交與正式驗收保留在發布記錄 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
@@ -37,7 +37,7 @@
 | 優先 | 工作 | 狀態與接點 |
 | --- | --- | --- |
 | 1 | 一次性最小格式與真實試行 | 2026-10-14 已完成，見下方 2026-summer-schema-pilot；後續直接沿用格式，不重新設計或搬移全量資料 |
-| 2 | 當前深化接點 | 第十四批已正式發布，冬季第十五批接續中；見頂部及批次記錄。2020–2026 credits／YouTube 優先工作持續，沿用有效名單與影片 |
+| 2 | 當前深化接點 | 第十四批已正式發布，冬季第十五批本機已完成，待發布後接第十六批；見頂部及批次記錄。2020–2026 credits／YouTube 優先工作持續，沿用有效名單與影片 |
 | 3 | 較新季度未公布後續及核心漏季 | 深化按 2026 夏 → 春 → 冬接續；2026 秋 registry 仍未收錄，保留有界核心盤點接點。只處理新證據、到期項目與未補欄位 |
 | 4 | 中間漏季及歷史深化 | 2025 秋，再按秋／夏／春／冬倒序處理其餘年份；2019 夏的已有缺口於到達該季時接續 |
 | 5 | 延伸更早歷史 | 2019 春／冬與更舊季度，沿用同一有界流程 |
@@ -1241,8 +1241,65 @@ The twelfth batch deepens 21 existing uses across ten anime, adding 70 creator-r
 | (docs): record batch 13 production verification | `4afa9f9` | `5c39a37` |
 | (add): 2026 spring credits and official videos batch 14 | `19b4ead` | `d1ae105` |
 
-## 2026-10-15 批次：2026-winter-credits-youtube-15（執行中）
+## 2026-10-15 批次：2026-winter-credits-youtube-15
 
-目標：冬季前 11 部／21 筆既有公開用途，公開 ID 與上方第14批下一批清單相同，起點 `mf-ghost-3rd-season-op-1`。固定 2020–2026 深化、2007–2026 長期範圍及 2026-10-14 截止日不變，實際新來源核對日期 2026-10-15；完成已證實差異、必要本機／展示檢查、階段提交及正式發布後接續。
+完成層次：冬季前 11 部／21 筆既有公開用途有界查核；17 筆已有完整創作、18 筆已有 YouTube 外連，直接沿用有效資料。實際補強 2 部／3 筆用途，新增動畫／用途 0，另有 1 筆編曲缺口在兩輪定向查找後保留。18 筆用途的公開 JSON 逐項相同，不把沿用項目算作新增成果。固定範圍及 2026-10-14 截止日不變，實際核對日期 2026-10-15。本機檢查及展示通過；GitHub／production 待下方實際發布收尾。
 
-公開 JSON 基線已有 17 筆用途具三項創作角色、18 筆具 YouTube 外連。先沿用已有有效證據，只補真正缺口、來源明示的新影片及同頁可支持的版本／發行關係；不把本批開始當作重查全量的理由。已保存範圍盤點，尚未開始本批外部收集或寫入歌曲資料；新公告只在核心及交叉證據確認後另記實際新增。
+| 公開 theme ID | 歌曲 | 結果 |
+| --- | --- | --- |
+| `mf-ghost-3rd-season-op-1` | TIMELESS POWER feat. MOTSU | 沿用既有完整創作及有效影片，資料未改 |
+| `mf-ghost-3rd-season-ed-1` | 予感の途中 Prod. ☆Taku Takahashi (m-flo) | 沿用既有完整創作及有效影片，資料未改 |
+| `yuusha-party-wo-oidasareta-kiyou-binbou-op-1` | シルベ | 沿用既有完整創作及有效影片，資料未改 |
+| `yuusha-party-wo-oidasareta-kiyou-binbou-ed-1` | sukuu | 沿用既有完整創作及有效影片，資料未改 |
+| `tamon-kun-ima-docchi-op-1` | Sweet Magic | 沿用既有完整創作及有效影片，資料未改 |
+| `tamon-kun-ima-docchi-ed-1` | 花と夢 | 沿用既有完整創作及有效影片，資料未改 |
+| `tamon-kun-ima-docchi-ed-2` | RAIN | 沿用既有完整創作及有效影片，資料未改 |
+| `saioshi-no-gikei-mederu-tame-nagaikishimasu-ed-1` | Endless You | 完整創作、官方公開影片、數位 Single、LIMITLESS 兩個 CD Album 版與 Track 5、LINE MUSIC 確切專輯 |
+| `yuusha-kei-ni-shosu-choubatsu-yuusha-9004-tai-keimu-kiroku-op-1` | Kill the Noise | 沿用既有完整創作及有效影片，資料未改 |
+| `fate-strange-fake-op-1` | PROVANT | 沿用既有完整創作及有效影片，資料未改 |
+| `fate-strange-fake-ed-1` | 潜在的なアイ | 沿用既有完整創作及有效影片，資料未改 |
+| `hanazakari-no-kimitachi-e-op-1` | アドレナ | 沿用既有完整創作及有效影片，資料未改 |
+| `hanazakari-no-kimitachi-e-ed-1` | BABY | 沿用既有完整創作及有效影片，資料未改 |
+| `majutsushi-kunon-wa-mieteiru-op-1` | ラケナリアの夢 | 完整創作、MV／無字幕 OP、官方配信；CD 限定 Acoustic feat.クノン／Instrumental、幻視録 兩個 EP 版及 Track 1／3／5 |
+| `majutsushi-kunon-wa-mieteiru-ed-1` | Story feat. katagiri | 原文發行名義、實際歌唱 katagiri、詞曲／編曲交叉補證及 6 筆演奏／製作；Official Video／無字幕 ED、配信、ten. 預定 Album Track 6 |
+| `goumon-baito-kun-no-nichijou-op-1` | GO GO PARADISE!! | 沿用既有完整創作及有效影片，資料未改 |
+| `goumon-baito-kun-no-nichijou-ed-1` | 明日天気になぁれ | 沿用既有完整創作及有效影片，資料未改 |
+| `ikoku-nikki-op-1` | ソナーレ | 沿用既有完整創作及有效影片，資料未改 |
+| `ikoku-nikki-ed-1` | 言伝 | 沿用詞曲及影片；編曲未找到清楚證據，未借用 OP 編曲者 |
+| `vigilante-boku-no-hero-academia-illegals-2nd-season-op-1` | CATCH!!! | 沿用既有完整創作及有效影片，資料未改 |
+| `vigilante-boku-no-hero-academia-illegals-2nd-season-ed-1` | ミス・ユー | 沿用既有完整創作及有效影片，資料未改 |
+
+已處理 anime ID：`curated-185753`、`curated-187264`、`curated-178005`、`curated-199446`、`curated-167152`、`curated-166617`、`curated-177580`、`curated-186333`、`curated-197731`、`curated-177385`、`curated-195322`。只有 `curated-199446`、`curated-186333` 的歌曲資料改變；Tamon 既有 RAIN 仍由原 extraThemes 輸出，沒有為全批搬移或重新追加。
+
+### 實際差異
+
+- 新增 3 個歌曲 ID 登記，仍為原有歌曲；新增 10 筆創作角色＝4 作詞、3 作曲、3 編曲（9 筆第一方、1 筆編曲交叉補證），6 筆樂器／錄音製作角色；Story 的 1 筆混合演唱名義改為實際歌唱 katagiri，KOHTA YAMAMOTO 保留在發行名義及作曲／編曲／演奏。全批 20／21 筆已有三角色，言伝 編曲仍缺；既有 17 筆名單沒有重搜。
+- 新增 5 個不同官方 YouTube URL：ラケナリアの夢 MV／無字幕 OP、Story Official Video／無字幕 ED、Endless You 官方公開影片。後兩種一般 Official Video 不另推定為 MV／Art Track，所有影片均不推定 full／TV 或新錄音；沒有新增頻道／嵌入 metadata。
+- 新增 2 個明示音源版本：ラケナリアの夢 Instrumental、feat.クノン（Aco.ver.）重新編曲版，長度均為 unknown。Acoustic 有官方 CD 限定說明，沒有填入配信版；本次編曲者、角色聲優是否實際歌唱等未明部分不由原版 credits 或角色表推定。
+- 新增 6 個發行 ID／本曲收錄：1 數位 Single、3 CD Album 版、2 CD EP 版。LIMITLESS 兩版均 Track 5；幻視録 兩版保存本曲 Track 1／3／5，使用可沿用的共用 EP ID。ten. 的 2026-12-23 與 Track 6 來自截止日前的 2026-10-07 公告，明示「発売予定」，沒有當作已發售或已上架。
+- 新增 13 筆外連：5 YouTube、1 LINE MUSIC 確切專輯、7 官方商品／配信；LINE MUSIC 保留公開 item ID 與 JP 入口，播放／購買可用性 unknown。新增 12 個用途層來源項目、37 組欄位證據；1 個實際重讀的既有歌曲來源更新。兩部作品 metadata、圖像／識別／播出來源及日期維持 2026-07-28，其他 18 筆用途逐項不變。
+- 全目錄仍為 28 季、1,917 動畫頁、4,248 用途＝4,246 OP／ED＋2 IN；2020–2026 為 1,808 動畫頁、3,984 用途。唯一歌曲層 YouTube 外連由 732 增至 737；1,793 筆既有影片 metadata 不變。這些是用途／平台項目數，不能代替唯一歌曲數或整體完成率。
+
+### 缺口與續查條件
+
+| 範圍 | 尚未完成 | 續查條件 |
+| --- | --- | --- |
+| 言伝 | 兩輪定向查找未得到清楚的 ED 編曲；相鄰 OP「ソナーレ」的編曲不能套入，歌曲原資料不變 | Bialystocks／唱片公司、本曲演奏製作或 booklet 直接明示；官網及藝人公告目前 403，來源恢復或新正式 credits 時再查 |
+| Story | 編曲採アニシル交叉補證；第一方 Gallery 明示詞曲、演唱與錄音團隊，沒有明示編曲；數位發行品類型及原版錄音識別未完整核對 | 官方完整曲目 credits、booklet 或發行品 metadata 明示；不把作曲或演奏自動當成編曲／演唱 |
+| Acoustic 角色版 | 已證實不同的 CD 限定 Acoustic feat.クノン；該版本的獨立編曲／歌唱角色及錄音識別未齊，沒有填入未證實 CV credits 或配信收錄 | CD booklet 或官方版本完整 credits 可公開核對；保留 CD-only 邊界，不由另一版套入 |
+| 幻視録 共用發行品 | 本批僅保存ラケナリアの夢的三個曲目位置；同張 EP 的另一首動畫 OP 留待該作品批次 | 到達該作品時沿用 `isekaijoucho-genshiroku-pccg-02489`、`isekaijoucho-genshiroku-canime`，補本曲曲序，不另建同一商品 ID |
+| 預定 Album 與其他收錄 | ten. 為發售預定，實際發行／平台可用性及音源同一性未知；其他 OST／合輯、TV／full、Art Track／lyric／live 仍未全面查核 | 截止日獲調整至發售日後或有截止日前的明確最終資料，再核對實際發行；其餘只按新公告／識別資料觸發 |
+| 存取及平台 | 個別 PONY CANYON 普通頁回應 403、KAMITSUBAKI 商品頁 429；沿用已讀公開索引及其他正式頁，未繞過。YouTube 嵌入、目的頁及 HK／TW 播放／購買未知 | 來源恢復、官方新外連或明確可用性任務後定向查；不把本機展示成功當作外部媒體成功 |
+
+### 本機檢查與展示
+
+- `npm test`：4 檔／5 個核心測試通過。`npm run build`：Astro 0 errors／warnings／hints、1,961 HTML、CSP 6 script／10 style hashes、Service Worker 與 3,918 公開產物通過。
+- 發布 gate：6 條 E2E、npm audit 0 vulnerabilities、Cloudflare dry-run 通過；依賴、設定、UI 及 parser 未改。7 個本機文件連結、`git diff --check` 及 repository `public:check`（239 檔）通過。
+- 桌面 1536×1024 核對 11 部／21 筆及 JSON；手機 390×844 核對 2 部實際更新作品；六條閱讀流程含 KICS 品番搜尋、LINE MUSIC identity、CD 限定 Acoustic 與共用 EP、實際演唱／錄音團隊、未來發售標籤及 18 筆重用資料。0 app／CSP errors、0 自動 YouTube request、無橫向溢出。
+- Browser plugin 不在可用清單，沿用 Playwright；第三方圖片攔截，測試證據及原始來源取回內容未加入公開 repository。
+
+預覽入口：`/anime/saioshi-no-gikei-mederu-tame-nagaikishimasu/`、`/anime/majutsushi-kunon-wa-mieteiru/`。可搜尋 `Endless You`、`KICS-4259`、`ラケナリアの夢`，新增影片與專輯不會變成額外歌單列。
+
+階段提交：`4a7bb14` 已保存第14批正式驗證與第15批啟動；本批資料及正式來源提交於發布驗收後另記。
+
+下一批：**2026-winter-credits-youtube-16**，由 `hokuto-no-ken-kenou-gun-zako-tachi-no-banka-op-1` 接續，10 部／18 筆既有用途：`curated-198720`、`curated-204432`、`curated-194028`、`curated-166521`、`curated-185993`、`curated-183661`、`curated-189565`、`curated-194318`、`curated-187942`、`curated-203472`。沿用已完整的創作及官方影片，只追真正缺口，並在同頁保存已證實版本／收錄。第15批正式驗收後接續；整體目標未完成。
