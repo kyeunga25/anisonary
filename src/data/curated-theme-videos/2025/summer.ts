@@ -299,6 +299,7 @@ export const curated2025SummerThemeVideos = {
       channelName: "ななひら / Nanahira",
       officialStatus: "official",
       embeddable: true,
+      recordingId: "punirunes-puni-3-op-1-fullmax",
     },
     {
       youtubeVideoId: "6ygzjl8U2vI",
