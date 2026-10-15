@@ -12,8 +12,8 @@
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2020–2026 創作名單與官方 YouTube 深化；由最新已收錄季度往舊季度，沿用已接通格式及有效來源 |
 | 完成條件 | 本範圍的既有 OP／ED 用途逐批補有第一方證據的作詞、作曲、編曲、演唱／團隊及官方影片；經公開 JSON、動畫頁與必要檢查驗證；兩輪查找仍未明的欄位保留缺口與續查條件 |
-| 執行狀態 | 整體執行中；第 08–12 批已分類提交、合併及正式部署驗收；第十三批已提交、合併並正式部署驗收；第十四批已提交、合併及正式部署驗收（11 部／20 筆既有＋3 筆新用途）；第十五批冬季前 11 部／21 筆已完成有界查核，實際深化 2 部／3 筆並已正式發布驗收；第十六批冬季 10 部／18 筆已完成有界查核，實際深化 7 部／13 筆，已分類提交、合併及正式部署驗收；第十七批冬季 10 部／24 筆已完成有界查核，實際深化 8 部／20 筆，已提交、合併及正式部署驗收；第十八批接續冬季 10 部／22 筆公開用途。每批沿用資料、驗證及發布流程，收到暫停或停止要求立即保存位置。2020–2026 深化及 2007–2026 長期目標均未完成 |
-| 接續位置 | 第十五批正式發布驗收完成；第十六批正式發布驗收完成；第十七批正式發布驗收完成；第十八批執行中，由 `odayaka-kizoku-no-kyuuka-no-susume-op-1` 接續冬季 10 部／22 筆公開用途。固定截止日 2026-10-14，實際核對日期 2026-10-15；完整 ID 及缺口見各批 |
+| 執行狀態 | 整體執行中；第 08–12 批已分類提交、合併及正式部署驗收；第十三批已提交、合併並正式部署驗收；第十四批已提交、合併及正式部署驗收（11 部／20 筆既有＋3 筆新用途）；第十五批冬季前 11 部／21 筆已完成有界查核，實際深化 2 部／3 筆並已正式發布驗收；第十六批冬季 10 部／18 筆已完成有界查核，實際深化 7 部／13 筆，已分類提交、合併及正式部署驗收；第十七批冬季 10 部／24 筆已完成有界查核，實際深化 8 部／20 筆，已提交、合併及正式部署驗收；第十八批冬季 10 部／22 筆已完成有界查核，實際深化 8 部／18 筆，本機檢查與展示通過，待提交及正式發布驗收。每批沿用資料、驗證及發布流程，收到暫停或停止要求立即保存位置。2020–2026 深化及 2007–2026 長期目標均未完成 |
+| 接續位置 | 第十五批正式發布驗收完成；第十六批正式發布驗收完成；第十七批正式發布驗收完成；第十八批本機資料、檢查與展示完成，待提交及正式驗收；下一批由 `hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru-op-1` 接續。固定截止日 2026-10-14，實際核對日期 2026-10-15；完整 ID 及缺口見各批 |
 | 發布提交 | 最新 [PR #106](https://github.com/kyeunga25/anisonary/pull/106) 已正常 rebase 合併，保留 2 個階段提交；正式部署來源 `4b6c269`，已通過下方正式驗收。前批 PR #101–#105 的階段提交與正式驗收保留在發布記錄 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
@@ -37,7 +37,7 @@
 | 優先 | 工作 | 狀態與接點 |
 | --- | --- | --- |
 | 1 | 一次性最小格式與真實試行 | 2026-10-14 已完成，見下方 2026-summer-schema-pilot；後續直接沿用格式，不重新設計或搬移全量資料 |
-| 2 | 當前深化接點 | 第十四批已正式發布，冬季第十五／十六批已正式發布，第十七批已正式發布，第十八批接續中；見頂部及批次記錄。2020–2026 credits／YouTube 優先工作持續，沿用有效名單與影片 |
+| 2 | 當前深化接點 | 第十四批已正式發布，冬季第十五／十六批已正式發布，第十七批已正式發布，第十八批本機檢查通過、待正式驗收；見頂部及批次記錄。2020–2026 credits／YouTube 優先工作持續，沿用有效名單與影片 |
 | 3 | 較新季度未公布後續及核心漏季 | 深化按 2026 夏 → 春 → 冬接續；2026 秋 registry 仍未收錄，保留有界核心盤點接點。只處理新證據、到期項目與未補欄位 |
 | 4 | 中間漏季及歷史深化 | 2025 秋，再按秋／夏／春／冬倒序處理其餘年份；2019 夏的已有缺口於到達該季時接續 |
 | 5 | 延伸更早歷史 | 2019 春／冬與更舊季度，沿用同一有界流程 |
@@ -1471,8 +1471,68 @@ The twelfth batch deepens 21 existing uses across ten anime, adding 70 creator-r
 | (docs): record batch 16 production verification | `7931cf9` | `6917281` |
 | (add): winter song credits and official videos batch 17 | `4b6c269` | `77b154c` |
 
-## 2026-10-15 批次：2026-winter-credits-youtube-18（執行中）
+## 2026-10-15 批次：2026-winter-credits-youtube-18
 
-目標：接續冬季 10 部／22 筆公開用途，起點 `odayaka-kizoku-no-kyuuka-no-susume-op-1`；公開 anime ID 範圍見第17批下一批清單。固定 2020–2026 深化、2007–2026 長期範圍及 2026-10-14 截止日不變，實際新來源核對日期 2026-10-15。完成已證實差異、必要檢查與展示、階段提交及正式驗收後接續。
+完成層次：冬季 10 部／22 筆公開用途，實際深化 8 部／18 筆；4 筆既有資料完全不變。固定 2020–2026 深化、2007–2026 長期範圍及 2026-10-14 截止日不變；新證據實際核對 2026-10-15。下方為本機成果，正式提交、部署及驗收於發布後另記。
 
-已保存公開 JSON／seed 基線；22 筆用途有 3 筆完整三項創作、4 筆已有 YouTube 外連。沿用有效資料，專注真正創作／影片缺口；同作品後期曲目先確認對應季度及用途，不把別作／後續季度重複加入。尚未開始本批外部收集或修改歌曲。
+| 公開 theme ID | 曲名／處理 |
+| --- | --- |
+| `odayaka-kizoku-no-kyuuka-no-susume-op-1` | Gypso；完整創作、不同影片形式、Off Vocal／ガッシュver.及 Single／Mini Album |
+| `odayaka-kizoku-no-kyuuka-no-susume-ed-1` | うっすら；完整創作、不同影片形式、Off Vocal／ガッシュver.及 Single／Mini Album |
+| `eris-no-seihai-op-1` | Happy Ever After feat. 由薫；完整創作、兩位 OP 演唱者、數位／CD Single、ED MV／無字幕 ED |
+| `eris-no-seihai-ed-1` | カメリア；完整創作、兩位 OP 演唱者、數位／CD Single、ED MV／無字幕 ED |
+| `omae-gotoki-ga-maou-ni-kateru-to-omou-na-to-yuusha-party-wo-tsuihou-sareta-node-outo-de-kimama-ni-kurashitai-op-1` | Liberator；完整創作、I need 兩個 CD Single 版／Instrumental／MV |
+| `omae-gotoki-ga-maou-ni-kateru-to-omou-na-to-yuusha-party-wo-tsuihou-sareta-node-outo-de-kimama-ni-kurashitai-ed-1` | I need；完整創作、I need 兩個 CD Single 版／Instrumental／MV |
+| `high-school-kimengumi-2026-op-1` | ファンキースパイス feat.TOMOO；原文曲名／演唱、完整創作或交叉補證、AnimeVersion／AnimeEDIT／Inst.及 CD 曲序 |
+| `high-school-kimengumi-2026-ed-1` | ステキッ！！；原文曲名／演唱、完整創作或交叉補證、AnimeVersion／AnimeEDIT／Inst.及 CD 曲序 |
+| `douse-koishite-shimaunda-season-2-op-1` | LとR；第二期完整創作交叉補證、團隊、數位配信及 OP 兩種官方入口 |
+| `douse-koishite-shimaunda-season-2-ed-1` | 初恋；第二期完整創作交叉補證、團隊、數位配信及 OP 兩種官方入口 |
+| `champignon-no-majo-op-1` | 魔法使いの日記；沿用既有創作與有效影片；ED 編曲仍缺，資料不變 |
+| `champignon-no-majo-ed-1` | 君は；沿用既有創作與有效影片；ED 編曲仍缺，資料不變 |
+| `jujutsu-kaisen-shimetsu-kaiyuu-zenpen-op-1` | AIZO；沿用完整創作及有效影片，資料不變 |
+| `jujutsu-kaisen-shimetsu-kaiyuu-zenpen-ed-1` | よあけのうた；沿用完整創作及有效影片，資料不變 |
+| `cardfight-vanguard-divinez-genma-seisen-hen-op-1` | 幻界；原文曲名／演唱、完整創作或交叉補證、後半 OP 及 BLAZE 共用發行 ID |
+| `cardfight-vanguard-divinez-genma-seisen-hen-op-2` | ワールズエンドトリガー；原文曲名／演唱、完整創作或交叉補證、後半 OP 及 BLAZE 共用發行 ID |
+| `cardfight-vanguard-divinez-genma-seisen-hen-ed-1` | ギラギラ；原文曲名／演唱、完整創作或交叉補證、後半 OP 及 BLAZE 共用發行 ID |
+| `tensei-shitara-dragon-no-tamago-datta-op-1` | Gliding Claw；完整創作、AYAME／兩位 ED 實際演唱、Digital Single、TV／Instrumental |
+| `tensei-shitara-dragon-no-tamago-datta-ed-1` | Sky Clipper；完整創作、AYAME／兩位 ED 實際演唱、Digital Single、TV／Instrumental |
+| `dark-moon-kuro-no-tsuki-tsuki-no-saidan-op-1` | One In A Billion (Japanese Ver.)；原文詞曲、日文 OP 譯詞／錄音、共用合輯 Track 1–3 與官方入口 |
+| `dark-moon-kuro-no-tsuki-tsuki-no-saidan-ed-1` | CRIMINAL LOVE；原文詞曲、日文 OP 譯詞／錄音、共用合輯 Track 1–3 與官方入口 |
+| `dark-moon-kuro-no-tsuki-tsuki-no-saidan-ed-2` | Fatal Trouble；原文詞曲、日文 OP 譯詞／錄音、共用合輯 Track 1–3 與官方入口 |
+
+已處理 anime ID：`curated-182771`、`curated-183270`、`curated-191718`、`curated-200556`、`curated-189137`、`curated-185514`、`curated-172463`、`curated-203296`、`curated-187941`、`curated-181443`。
+
+### 實際差異
+
+- 新增動畫 0、歌曲用途 0；深化 8 部／18 筆。新增 99 筆歌曲創作角色＝41 作詞、40 作曲、18 編曲，另有 miwaflower 的 1 筆日文譯詞。83 筆詞曲編曲有第一方資料（含正版 Bugs 的逐項 credits），16 筆採 ORICON／歌ネット／公開播放記錄索引交叉補證。全批 18／22 筆有完整三項；君は及 ENHYPEN 三首的編曲仍空白。
+- 新增 8 筆實際歌唱、移除 5 筆舊合併／羅馬字或企劃名義的歌唱資料；新增 12 筆團隊成員，未推定其逐首參與。Sizuk 保留藝人企劃名義、AYAME 為官方明示實際歌唱；導凰與朔雀分列。ME:I 官方說明本次音源與現有成員編制不同，未套用現行名單。
+- 恢復ファンキースパイス feat.TOMOO、ステキッ！！、幻界、ワールズエンドトリガー、ギラギラ及原文藝人；羅馬字曲名保存在搜尋別名。所有既有 ID、slug、用途序號與 OP／ED 分類保持；先導者後半 OP 仍在既有冬季作品，沒有新增季度重複用途。蘑菇魔女兩筆既有排除候選未重新公開。
+- 新增 14 支歌曲影片外連：Gypso／ステキッ！！的 Collaboration MV、うっすら Lyric Video、カメリア MV／無字幕 ED、I need MV、BREIMEN MV、LとR 無字幕 OP／藝人影片、幻界作者官方影片、青木陽菜 MV、ギラギラ MV、日文 One In A Billion 的官網 OP／作者頁影片。未細分的影片保持一般標籤，沒有由 MV 推定 full、由無字幕影片建立新錄音或猜造嵌入 metadata。
+- 新增 12 個音源＝7 Instrumental／Off Vocal、5 演唱版（Gypso ガッシュver.、兩首奇面組 AnimeVersion／AnimeEDIT、Gliding Claw TV size、One In A Billion 日文版）。只有明示 TV size 的 1 項採 TV，其餘長度 unknown；Gypso 的 Album 版另保存本版本明示 ARAKI 三項創作，未把單曲與 Album 版視作同一錄音。
+- 新增 23 筆歌曲收錄關係／21 個涉及發行 ID，其中 17 個為全目錄新 ID＝12 Single、4 CD Album 版、1 Digital Soundtrack Compilation；另外 4 個 BLAZE EP 版沿用已存在 ID，未製造重複商品。ワールズエンドトリガー為 Track 2、既有 Ephemeral 為 Track 1；ENHYPEN 三用途共用一合輯 ID，為 Track 1／2／3。Gypso ガッシュver.為兩個 Mini Album CD 版 Track 4；曲目未明示的其他 Album／OST 未擴充。
+- 新增 68 個外連＝14 YouTube 歌曲影片、2 官方 YouTube 配信專輯、8 YouTube Music、8 Apple Music、8 Spotify、1 Qobuz、3 Bugs 及 24 官方商品／配信。只從官方實際外連保存 exact album／playlist ID，移除追蹤 query；CD 與配信音源等同性、地區播放／購買可用性 unknown。
+- 新增 53 個用途層來源、更新 8 個實際重讀來源及 168 組欄位證據；其餘來源日期未改。8 部作品 metadata 日期及所有未編輯 seed 行保留基線。
+- 全目錄仍為 28 季、1,917 動畫頁、4,248 用途＝4,243 OP／ED＋4 IN＋1 TS；2020–2026 為 1,808 動畫頁、3,984 用途。唯一 YouTube 歌曲影片直連 761→775，另有 5 個官方 YouTube 配信專輯入口；1,793 筆既有影片 metadata 不變。數量不是唯一歌曲數或完成率。
+
+### 缺口與續查條件
+
+| 範圍 | 尚未完成 | 續查條件 |
+| --- | --- | --- |
+| 君は及 ENHYPEN 三曲 | 君は兩輪定向查找仍無清楚編曲；未把 Just You and I 等別曲資料套入。ENHYPEN 第一方作者／授權曲目只明示詞曲／日文譯詞，沒有可採用的編曲，未把相同詞曲名單或 Producer 自動列作編曲 | 官方 booklet、作者作品集或正版曲目明示本曲 arrangement；保留已確認詞曲，不再重搜一般歌詞頁 |
+| 7 筆歌曲影片 | Happy Ever After、Liberator、初恋、Gliding Claw、Sky Clipper、CRIMINAL LOVE、Fatal Trouble 未取得可逐首追溯且明確對應的確切影片；保留官方配信及正版專輯。DARK MOON 官網把兩首 ED 的多支影片並列，未任意分配；普通頁及兩輪定向查找後保留缺口 | 官方逐項影片公告、可讀標題／description 或恢復的作者／唱片外連；只定向核對本曲，不輪流掃全部索引 |
+| 16 筆創作交叉補證 | 奇面組部分角色、第二期戀愛兩首及ギラギラ仍以授權曲目／公開索引補證；未使用奇面組藝人介紹中的另一首 MELODY credits，也未把第一期戀愛主題曲作者套入第二期 | 本曲官方完整 credits 可讀後補第一方證據，保留現有逐欄位來源與核對日期 |
+| 音源與專輯 | AnimeVersion／AnimeEDIT、Album 版與日文版未明示 full／TV 長度、ISRC／重新編曲／錄音等同性；只有日文 OP 已證實新日文詞及歌唱，兩首 ED 沒有改成日文版。berry meet 產品只明示 DIGITAL，未由曲目數猜 Single／EP | 官方版本說明、booklet 或錄音識別公布；未有確切曲序的其他作品收錄與個別團隊歌唱不擴充 |
+| 來源存取與平台 | エリス音樂頁及 BLAZE 普通商品頁 404，使用已讀官方公開索引；ドラたま普通首頁與 Sizuk 頁 403，沒有繞過。若干 YouTube 回應 cache miss，採官方可追溯外連。原始本文、頁面副本及媒體未保存公開 | 來源恢復或官方新入口時再查；UI 成功不等於外部歌曲播放、嵌入或 HK／TW 可用 |
+
+### 本機檢查與展示
+
+- `npm test`：4 檔／5 個核心測試通過。`npm run build`：Astro 0 errors／warnings／hints、1,961 HTML、CSP 6 script／10 style hashes、Service Worker 與 3,918 公開產物通過。
+- 6 條 E2E、npm audit 0 vulnerabilities、Cloudflare dry-run 通過；本批未改程式、依賴或 Cloudflare 設定。30 個本機文件連結、repository `public:check`（239 檔）及 `git diff --check` 通過；正式環境未以本機檢查代替。
+- 桌面 1536×1024 核對 10 部／22 筆及公開 JSON，手機 390×844 核對 4 部；8 條閱讀流程含羅馬字別名／穩定 ID、原文曲名與歌唱、Gypso Album 版本／曲序、BLAZE 跨作品共用 ID、AYAME 與企劃名義、日文譯詞／三曲共用合輯、第二期創作及影片／playlist 分類。0 app／CSP errors、0 自動 YouTube request、無橫向溢出。
+- 已實際檢視桌面 Album／版本及手機日文版／合輯頁面；Browser plugin 不在可用清單，沿用 Playwright，第三方請求攔截。測試腳本、原始本文、截圖與 log 未提交。
+
+預覽入口：`/anime/odayaka-kizoku-no-kyuuka-no-susume/`、`/anime/high-school-kimengumi-2026/`、`/anime/cardfight-vanguard-divinez-genma-seisen-hen/`、`/anime/dark-moon-kuro-no-tsuki-tsuki-no-saidan/`。可搜尋 `Funky Spice feat. TOMOO`、`World's End Trigger`、`ガッシュ`、`BLAZE` 或 `miwaflower`；不同錄音及共用發行不增加歌單列數。
+
+階段提交：`7201694` 已保存第17批正式驗收及第18批啟動；本批歌曲提交與正式來源於發布驗收後另記。
+
+下一批：**2026-winter-credits-youtube-19**，由 `hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru-op-1` 接續，10 部／20 筆 seed 用途：`curated-185262`、`curated-187901`、`curated-202419`、`curated-203148`、`curated-179062`、`curated-163144`、`curated-166613`、`curated-183660`、`curated-184951`、`curated-187062`。啟動時以公開 JSON 確認候選排除與實際用途數；沿用完整名單及有效影片，只補真正缺口。第18批正式驗收後接續，2020–2026 及長期目標仍未完成。
