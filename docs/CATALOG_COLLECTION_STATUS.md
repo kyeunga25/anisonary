@@ -12,8 +12,8 @@
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2020–2026 創作名單與官方 YouTube 深化；由最新已收錄季度往舊季度，沿用已接通格式及有效來源 |
 | 完成條件 | 本範圍的既有 OP／ED 用途逐批補有第一方證據的作詞、作曲、編曲、演唱／團隊及官方影片；經公開 JSON、動畫頁與必要檢查驗證；兩輪查找仍未明的欄位保留缺口與續查條件 |
-| 執行狀態 | 整體執行中；第 08–24 批均已正式發布驗收。第二十四批核對夏季10部／32筆、更新8部／29筆；第二十五批接續夏季10部／20筆。每批發布後接續；2020–2026 深化及長期目標均未完成 |
-| 接續位置 | 第二十五批執行中，由 `tomica-heroes-jobraver-tokusou-gattai-robo-tv-op-1` 起接續夏季10部／20筆。固定截止日 2026-10-14、新證據實際核對日期 2026-10-16；完整 ID／缺口見各批 |
+| 執行狀態 | 整體執行中；第 08–24 批均已正式發布驗收。第二十四批核對夏季10部／32筆、更新8部／29筆；第二十五批已完成本機10部／23筆驗證（20既有OP／ED、3新IN），正式發布待驗收。每批發布後接續；2020–2026 深化及長期目標均未完成 |
+| 接續位置 | 第二十五批本機完成，正準備正式發布；下一批由 `city-the-animation-op-1` 起接續夏季10部／25筆。固定截止日 2026-10-14、新證據實際核對日期 2026-10-16；完整 ID／缺口見各批 |
 | 發布提交 | 最新 [PR #113](https://github.com/kyeunga25/anisonary/pull/113) 已正常 rebase 合併，保留3個階段提交；正式部署來源 `3b1d850` 已通過下方正式驗收。PR #101–#112的提交及驗收保留在各批紀錄 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
@@ -71,7 +71,7 @@
 
 ## 下一輪位置
 
-目前優先順序已調整為 **2020–2026 創作名單及官方 YouTube**。本輪以已收錄用途深化為主，同作品的新公告用途經核心核對後一併補入；不重做季度全集盤點。2026 秋、2025 秋的核心漏季仍保留，待此項優先工作之後接續。固定截止日仍為 2026-10-14。啟動盤點的本機唯一用途為 3,965 筆；跨年作品在各年統計可能重複，不能相加。此數量是範圍基線，不代表欄位完成。第二批補入 3 筆、第六批補入 4 筆新用途後，當時範圍為 3,972 筆；第八批再補 5 筆後為 3,977 筆。第十批再補 2 筆後期用途後為 3,979 筆；第十一批補 3 筆後為 3,982 筆。最新全目錄為 28 季、1,917 動畫頁、4,246 筆用途；用途類型沿用第十一批；第十二批只深化既有用途。第十三批將一筆誤列 MV 合併並保留舊 ID 別名後，最新全目錄為 4,245 筆用途（4,243 OP／ED、2 IN），範圍內為 3,981 筆；第十四批補入 3 筆已公告後期用途後，本機最新為 4,248 筆（4,246 OP／ED、2 IN），2020–2026 為 3,984 筆；上述數量保留為歷史變更；目前最新本機差異見第二十四批，正式發布以頂部提交及下方驗收紀錄為準。
+目前優先順序已調整為 **2020–2026 創作名單及官方 YouTube**。本輪以已收錄用途深化為主，同作品的新公告用途經核心核對後一併補入；不重做季度全集盤點。2026 秋、2025 秋的核心漏季仍保留，待此項優先工作之後接續。固定截止日仍為 2026-10-14。啟動盤點的本機唯一用途為 3,965 筆；跨年作品在各年統計可能重複，不能相加。此數量是範圍基線，不代表欄位完成。第二批補入 3 筆、第六批補入 4 筆新用途後，當時範圍為 3,972 筆；第八批再補 5 筆後為 3,977 筆。第十批再補 2 筆後期用途後為 3,979 筆；第十一批補 3 筆後為 3,982 筆。最新全目錄為 28 季、1,917 動畫頁、4,246 筆用途；用途類型沿用第十一批；第十二批只深化既有用途。第十三批將一筆誤列 MV 合併並保留舊 ID 別名後，最新全目錄為 4,245 筆用途（4,243 OP／ED、2 IN），範圍內為 3,981 筆；第十四批補入 3 筆已公告後期用途後，本機最新為 4,248 筆（4,246 OP／ED、2 IN），2020–2026 為 3,984 筆；上述數量保留為歷史變更；目前最新本機差異見第二十五批，正式發布以頂部提交及下方驗收紀錄為準。
 
 | 優先 | 工作 | 狀態與接點 |
 | --- | --- | --- |
@@ -573,7 +573,7 @@ Browser plugin 不在可用清單，沿用 Playwright；Chromium 本機驗證權
 | --- | --- |
 | 本次目標 | 可公開的範圍、資料欄位、優先順序、工作量／時限與完成條件；不抄錄私人指令 |
 | 固定範圍 | 起迄年份／季度、媒體及用途類型、公開資料截止日；延續時不自行改動 |
-| 執行狀態 | 整體執行中；第 08–24 批均已正式發布驗收。第二十四批核對夏季10部／32筆、更新8部／29筆；第二十五批接續夏季10部／20筆。每批發布後接續；2020–2026 深化及長期目標均未完成 |
+| 執行狀態 | 整體執行中；第 08–24 批均已正式發布驗收。第二十四批核對夏季10部／32筆、更新8部／29筆；第二十五批已完成本機10部／23筆驗證（20既有OP／ED、3新IN），正式發布待驗收。每批發布後接續；2020–2026 深化及長期目標均未完成 |
 | 批次 | 日期、季度、簡短批次 ID；不靠 package 版本當游標 |
 | 已處理 ID | 本批已公開的 theme ID／anime ID；跨季作品與原 ID 保持一致 |
 | 完成層次 | 核心身分／credits／版本／發行品／平台，分別說明 |
@@ -2100,7 +2100,7 @@ Merry Go Round 的編曲經兩輪定向查找仍無明示；官方 Single／唱�
 | (add): official song video links batch 24 | `0bad172` | `6634392` |
 | (add): summer TV recordings and release relations batch 24 | `3b1d850` | `a0ef5cf` |
 
-## 2026-10-16 批次：2025-summer-credits-youtube-25（執行中）
+## 2026-10-16 批次：2025-summer-credits-youtube-25
 
 目標：由`tomica-heroes-jobraver-tokusou-gattai-robo-tv-op-1`起，按seed順序接續`curated-196229`、`curated-180425`、`curated-179885`、`curated-178675`、`curated-178433`、`curated-189326`、`curated-177689`、`curated-175124`、`curated-184574`、`curated-185755`，10部／20筆既有公開用途。固定2020–2026深化、2007–2026長期範圍及2026-10-14截止日；新證據實際查閱日期2026-10-16。
 
@@ -2117,3 +2117,77 @@ Merry Go Round 的編曲經兩輪定向查找仍無明示；官方 Single／唱�
 同一動畫官方MUSIC／公告明示、並有交叉核對的三筆用途已保存：`nyaight-of-the-living-cat-in-1` 猫のしわざ／近石涼（第9話），`nyaight-of-the-living-cat-in-2` Catastrophe／Sarina（第9話），`nyaight-of-the-living-cat-in-3` ねこだいすき／ガンスリンガー（CV.森川智之，第10話）。全部使用IN，原OP／ED的ID與序號保留，不計入季度OP／ED分母。前兩首詞曲編曲由官方明示；第三首詞曲採已讀公開索引交叉補證，編曲未知留空，不將遠藤浩二的全劇音樂身分推定為本曲編曲。
 
 本階段已保存本機核心資料與公開來源，尚待本批完整parser／JSON／build／展示及正式驗收；影片、音源與收錄關係接續同批深化。季度正式完成數仍維持第24批。
+
+### 第25批本機完成與公開 ID
+
+完成層次：核對2025夏季10部／20筆既有OP／ED，全部有有效詞曲編曲與YouTube歌曲外連可沿用；實際10部／23筆均有更新，包括3筆新IN。固定範圍及截止日不變，新證據實際查閱日期2026-10-16。本機完成與正式發布分開，整體目標未完成。
+
+| 公開 theme ID | 曲目與實際處理 |
+| --- | --- |
+| `tomica-heroes-jobraver-tokusou-gattai-robo-tv-op-1` | 特装合体！ジョブレイバー；既有官方影片外連 |
+| `ame-to-kimi-to-op-1` | 雨と；音源版本、收錄發行品、既有官方影片外連 |
+| `ame-to-kimi-to-ed-1` | filled；音源版本、收錄發行品、既有官方影片外連、確切正版平台 |
+| `yuusha-party-wo-tsuihou-sareta-shiro-madoushi-s-rank-boukensha-ni-hirowareru-kono-shiro-madoushi-ga-kikakugaisugiru-op-1` | 純情であれ。；既有官方影片外連 |
+| `yuusha-party-wo-tsuihou-sareta-shiro-madoushi-s-rank-boukensha-ni-hirowareru-kono-shiro-madoushi-ga-kikakugaisugiru-ed-1` | 光射す扉；既有官方影片外連 |
+| `bad-girl-op-1` | すーぱーびっぐらぶ！；收錄發行品、既有官方影片外連、確切正版平台 |
+| `bad-girl-ed-1` | BAD SURPRISE；收錄發行品、既有官方影片外連、確切正版平台 |
+| `bad-girl-ed-2` | はーと掻き回してアゲル♡；收錄發行品、既有官方影片外連、確切正版平台 |
+| `isekai-mokushiroku-mynoghra-hametsu-no-bunmei-de-hajimeru-sekai-seifuku-op-1` | Majestic Catastrophe；既有官方影片外連 |
+| `isekai-mokushiroku-mynoghra-hametsu-no-bunmei-de-hajimeru-sekai-seifuku-ed-1` | more than W；既有官方影片外連、確切正版平台 |
+| `jibaku-shounen-hanako-kun-2-part-2-op-1` | かごめかごめ；音源版本、收錄發行品、既有官方影片外連、確切正版平台 |
+| `jibaku-shounen-hanako-kun-2-part-2-ed-1` | mo∞ent；音源版本、收錄發行品、既有官方影片外連、確切正版平台 |
+| `hikaru-ga-shinda-natsu-op-1` | 再会；既有官方影片外連 |
+| `hikaru-ga-shinda-natsu-ed-1` | あなたはかいぶつ；既有官方影片外連 |
+| `nyaight-of-the-living-cat-op-1` | CAT CITY；團隊成員、音源版本、收錄發行品、既有官方影片外連、確切正版平台 |
+| `nyaight-of-the-living-cat-ed-1` | Matatabi；團隊成員、既有官方影片外連、確切正版平台 |
+| `nyaight-of-the-living-cat-in-1` | 猫のしわざ；新增IN核心／集數與創作、音源版本、收錄發行品、確切正版平台 |
+| `nyaight-of-the-living-cat-in-2` | Catastrophe；新增IN核心／集數與創作、音源版本、收錄發行品、確切正版平台 |
+| `nyaight-of-the-living-cat-in-3` | ねこだいすき；新增IN核心／集數與創作、音源版本、收錄發行品、確切正版平台 |
+| `dekin-no-mogura-op-1` | 神頼み；既有官方影片外連 |
+| `dekin-no-mogura-ed-1` | 喧騒 feat. Aile The Shota；既有官方影片外連 |
+| `puniru-wa-kawaii-slime-2nd-season-op-1` | Brun-Brun；音源版本、收錄發行品、既有官方影片外連、確切正版平台 |
+| `puniru-wa-kawaii-slime-2nd-season-ed-1` | 青と夏；音源版本、收錄發行品、既有官方影片外連、確切正版平台 |
+
+已處理 anime ID：`curated-196229`、`curated-180425`、`curated-179885`、`curated-178675`、`curated-178433`、`curated-189326`、`curated-177689`、`curated-175124`、`curated-184574`、`curated-185755`。
+
+### 實際差異
+
+- 新增動畫0、撤回用途0；新增3筆IN，既有20筆OP／ED的ID、原文歌名、演唱名義、類型與序號全部保留。新IN各自使用explicit來源，未繼承舊OP／ED來源／日期。22／23筆有詞曲編曲欄位；20筆既有用途有已核對YouTube watch外連，3筆插曲沒有憑搜尋候選增造影片metadata。
+- 新增7筆團隊成員關係：THE YELLOW MONKEY 4人、WANIMA 3人；不轉作本曲個別歌唱或演奏。新插曲各補演唱／詞／曲；猫のしわざ編曲近石涼、Catastrophe編曲Lenno Linjama有第一方明示；ねこだいすき編曲未知。
+- 新增18個音源：9演唱版、4Instrumental、1重新編曲、1Live、3角色版；長度為2full、2TV、14unknown。只有官方明示的ぷにる歌曲Album兩首用full；かごめかごめ TV edit.及mo∞ent TV size Ver.用TV。CAT CITY Anime Size、filled Anime ver.、猫のしわざ サビver不由名稱或秒數推定TV／short／full。
+- 新增31筆收錄關係，涉及26個唯一發行ID＝20Single、1EP、4Album、1OST。雨とXSCL-115於2025-07-30收錄正常演唱與versão de bolso，後者保留已證實重構編曲與長笛，普通版吉他分開；2025-07-04先行配信未當CD日。filled AICL-4785是CD Single，7吋大小紙封套不當黑膠；同曲Digital EP獨立，保存本曲Track1／3／4／5，其他歌曲不新增動畫用途。
+- B.G.M.完全生產限定Album於2026-04-29發售，CD Track9 filled及Blu-ray LIVE Track6分開保存；現場為2025-09-27 Spotify O-EAST，不把現場日期當Album日，沒有未證實碟號或套用studio編曲到live。
+- KING OF EVIL KICA-2640アーティスト盤CD及Digital Album共用本批三首曲目的Track3／8／7，2025-09-24；三首亦有官方各自Single日期。ED2保留單人角色歌唱，其他Album曲目不自動增加OP／ED。
+- CAT CITY五個CD版品番WPCL-13660／13659／60086／60087／60088及Digital Single，皆2025-07-09；通常盤Track1／2／3為原版／Anime Size／Instrumental。其他CD版只確認CAT CITY Track1，不從其他曲目的live bonus推定CAT CITY live，也不把同期製作當成收錄Sparkle X。Matatabi有2025-07-06 DIGITAL及精確平台曲目，發行類型未明故不補造Single。
+- 猫のしわざ2025-09-03 Digital Single有逐曲Mix／Master／Guitar／Keyboards／Programming，サビver另記已明示本版本credits；Catastrophe2025-08-29 Single的正式編曲、正版曲目均已接通。ねこだいすき為2025-09-13 OST Track32，角色／CV與詞曲分開保存；其他配樂及OST主題曲不從曲目表自動變成新動畫用途。
+- ぷにる2期歌曲Album保留數位Album及兩首full，日期／品番／曲序未知，Blu-ray Box②特典CD只保留官方說明，未把影像Box偽作Single。兩個數位Single各自日期及確切曲目已核對，不將其音源自動等同Album full版本。
+- かごめかごめ／ふたりキャンプ feat.SPECIAL OTHERS共用三個CD版PCCG.02454／02455／BRCG.00106，2025-08-06；本曲只保存Track1／TV edit.Track3／instrumental Track5；global商品ID可供另一作品後續重用，本批未增加另一作品用途。かごめかごめ獨立Digital Single及mo∞ent三曲Single均2025-07-06，數位／CD日期不混用。
+- 新增105個外連＝20YouTube（19個既有影片watch＋1個官方配信專輯入口）、24官方配信、32Apple Music、13Spotify、13YouTube Music、3作品官網入口；更新10個既有官方配信入口的標籤／收錄關係。新增35筆來源、更新25筆實際查閱來源、197組欄位證據。影片metadata仍未新增；19個重用影片外連及未重查的動畫／來源日期保留。
+- 全目錄本機為28季、1,917動畫、4,254用途＝4,244 OP／ED、7 IN、3 TS；2020–2026為1,808動畫／3,990用途。唯一YouTube watch外連861，另9個官方配信專輯入口，影片metadata仍1,793。各類分開計數。
+
+### 未解缺口與續查條件
+
+| 項目 | 保留缺口 | 再查觸發條件 |
+| --- | --- | --- |
+| 雨と作詞 | 官方公告英文Lyrics列Mamiko Suzuki與ryotakahashi；已發行曲目及交叉索引只列鈴木真海子／鈴木麻実子。兩輪定向查找後保留現有歌曲作詞，不增ryo作詞；bolso曲目credits保留商品原列名 | 官方booklet／發行端逐曲credits或更正公告出現再處理；不擅自統一藝名與商品列名 |
+| 新IN官方YouTube | 猫のしわざ、Catastrophe及ねこだいすき的候選影片歸屬仍不足，兩輪定向查找後不加metadata；正式YouTube Music配信與普通影片分開 | 動畫／藝人／唱片方官方精確影片連結及channel歸屬出現；不把名稱相似、shorts或一般搜尋結果當官方MV |
+| ねこだいすき編曲 | 作詞ホークマン、作曲遠藤浩二及角色演唱有來源；編曲兩輪未明 | 官方逐曲booklet／授權credits明示時補；全劇音樂署名不當本曲編曲 |
+| 猫のしわざサビver | 有正式命名與本版本錄音credits，沒有可證實日期／發行品類型／長度分類 | 正式商品資料出現再補，未明仍unknown，不由サビ推定short |
+| B.G.M.與ぷにるAlbum | 前者直接配信頁仍是預存入口，限定盤品番未知；後者日期／曲序／CD與配信master關係未明 | 已更新的官方正式曲目／商品及授權精確Album入口出現；不把預存登入當可播放曲目，也不猜碟號或日期 |
+| Matatabi與其他版 | Matatabi只證實DIGITAL，Single／Album分類未明；Bad Girl其他實體版及其餘本批作品的進一步Album／版本仍未補齊 | 對應官方商品／逐音源資料出現再深化；有效核心與影片沿用，不為選填缺口重搜全部資料庫 |
+| 全批音源 | 未明full、ISRC、數位／CD master等同、地區可用性留空 | 明示版本、錄音識別或實際地區核對後再更新；MV／NC／Album本身不推定新音源 |
+
+### 本機檢查與展示
+
+- 最終`npm test`4檔／5測試及`npm run build`通過：1,961 HTML、CSP 6 script／10 style hashes、Service Worker與3,918公開產物。6條E2E、npm audit 0 vulnerabilities、Cloudflare dry-run通過；依賴／設定／正常程式／測試未改。
+- 首次本機Chromium受macOS沙盒啟動權限限制，於允許瀏覽器的本機環境完成展示及E2E。展示檢查發現Matatabi重複MV外連日期被配信入口覆寫，修正為保留原影片日期、另加本次配信佐證；只重驗受影響資料與流程。沒有降低有效安全或資料gate。
+- 桌面1536×1024核對10部／23筆及公開JSON；手機390×844核對4部，10條閱讀流程通過。包含原ID／名義、三筆IN與集數、團隊／個別音源credits、重構／live／full／TV／unknown、各CD／數位收錄、精確平台及緊湊搜尋。0 app／CSP errors、0自動YouTube request、無橫向溢出；已實際檢視filled桌面版本／各發行品與ねこだいすき手機OST畫面。Browser plugin未提供，沿用Playwright。
+- 僅選定10條seed改動；全部其他seed bytes、動畫metadata與global extra-theme／影片索引保留。原始頁面、provider資料、測試腳本、log與截圖只在暫存，不提交。
+
+- 39個文件相對連結、`git diff --check`與repository `public:check`（239檔）通過；提交範圍的私密路徑、金鑰／token及raw provider欄位檢查未發現命中。
+
+預覽入口：`/anime/ame-to-kimi-to/`、`/anime/nyaight-of-the-living-cat/`、`/anime/jibaku-shounen-hanako-kun-2-part-2/`、`/anime/puniru-wa-kawaii-slime-2nd-season/`。可搜尋`XSCL-115`、`サビver`、`BRCG.00106`。
+
+階段提交：`8b6d84d`保存第24批正式驗收；`4a1fe3e`保存19個既有官方影片外連；`a81335a`保存三筆已確認插曲核心。深入資料提交及正式驗收於發布後另記。頂部季度表仍只計第24批正式成果。
+
+下一批：**2025-summer-credits-youtube-26**，由`city-the-animation-op-1`起，按seed順序接續`curated-181841`、`curated-181867`、`curated-185519`、`curated-188138`、`curated-179828`、`curated-182309`、`curated-184591`、`curated-159483`、`curated-173780`、`curated-177880`，10部／25筆現有公開用途。第25批正式驗收後啟動；仍有必需與選填缺口，2020–2026深化及長期目標未完成。
