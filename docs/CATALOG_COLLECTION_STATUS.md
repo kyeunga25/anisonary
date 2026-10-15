@@ -12,8 +12,8 @@
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2020–2026 創作名單與官方 YouTube 深化；由最新已收錄季度往舊季度，沿用已接通格式及有效來源 |
 | 完成條件 | 本範圍的既有 OP／ED 用途逐批補有第一方證據的作詞、作曲、編曲、演唱／團隊及官方影片；經公開 JSON、動畫頁與必要檢查驗證；兩輪查找仍未明的欄位保留缺口與續查條件 |
-| 執行狀態 | 整體執行中；第 08–12 批已分類提交、合併及正式部署驗收；第十三批已提交、合併並正式部署驗收；第十四批已提交、合併及正式部署驗收（11 部／20 筆既有＋3 筆新用途）；第十五批冬季前 11 部／21 筆已完成有界查核，實際深化 2 部／3 筆並已正式發布驗收；第十六批接續冬季 10 部／18 筆既有用途。每批沿用資料、驗證及發布流程，收到暫停或停止要求立即保存位置。2020–2026 深化及 2007–2026 長期目標均未完成 |
-| 接續位置 | 第十五批正式發布驗收完成；第十六批執行中，由冬季 `hokuto-no-ken-kenou-gun-zako-tachi-no-banka-op-1` 接續第十六批 10 部／18 筆既有用途。固定截止日 2026-10-14，實際核對日期 2026-10-15；完整 ID 及缺口見各批 |
+| 執行狀態 | 整體執行中；第 08–12 批已分類提交、合併及正式部署驗收；第十三批已提交、合併並正式部署驗收；第十四批已提交、合併及正式部署驗收（11 部／20 筆既有＋3 筆新用途）；第十五批冬季前 11 部／21 筆已完成有界查核，實際深化 2 部／3 筆並已正式發布驗收；第十六批冬季 10 部／18 筆本機驗證完成，實際深化 7 部／13 筆，分類修正保留 ID，準備分類提交及正式發布。每批沿用資料、驗證及發布流程，收到暫停或停止要求立即保存位置。2020–2026 深化及 2007–2026 長期目標均未完成 |
+| 接續位置 | 第十五批正式發布驗收完成；第十六批本機收尾完成，待正式發布驗收；下一批由 `maou-no-musume-wa-yasashi-sugiru-op-1` 接續第十七批 10 部／25 筆既有用途。固定截止日 2026-10-14，實際核對日期 2026-10-15；完整 ID 及缺口見各批 |
 | 發布提交 | 最新 [PR #104](https://github.com/kyeunga25/anisonary/pull/104) 已正常 rebase 合併，保留 2 個階段提交；正式部署來源 `09548c4`，已通過下方正式驗收。前批 PR #101–#103 的階段提交與正式驗收保留在發布記錄 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
@@ -1316,8 +1316,64 @@ The twelfth batch deepens 21 existing uses across ten anime, adding 70 creator-r
 | (docs): record batch 14 production verification | `7b865a9` | `4a7bb14` |
 | (add): winter song credits and official videos batch 15 | `09548c4` | `f649b5a` |
 
-## 2026-10-15 批次：2026-winter-credits-youtube-16（執行中）
+## 2026-10-15 批次：2026-winter-credits-youtube-16
 
-目標：接續冬季 10 部／18 筆既有用途，起點 `hokuto-no-ken-kenou-gun-zako-tachi-no-banka-op-1`，公開 ID 範圍見第15批下一批清單；固定 2020–2026 深化、2007–2026 長期範圍與 2026-10-14 截止日不變，實際新來源核對日期 2026-10-15。完成已證實差異、必要檢查與展示、階段提交及正式驗收後接續。
+完成層次：接續冬季 10 部／18 筆既有用途，有界查核後實際深化 7 部／13 筆；5 筆既有用途的完整 JSON 不變。固定 2020–2026 深化、2007–2026 長期範圍及 2026-10-14 截止日不變，實際新來源核對日期 2026-10-15。新增動畫、歌曲用途均為 0；分類修正不另建用途。此處先記本機成果，正式發布驗收另記。
 
-公開 JSON 基線有 5 筆用途已有三項創作角色、9 筆已有 YouTube 外連。先沿用有效資料，集中補 13 筆創作缺口與 9 筆影片缺口；無既有歌曲的作品不猜造曲名或用途，仍以實際公告及核心交叉來源為準。已保存本批盤點，尚未開始外部收集或寫入本批歌曲資料。
+| 公開 theme ID | 曲名／處理 |
+| --- | --- |
+| `hokuto-no-ken-kenou-gun-zako-tachi-no-banka-op-1` | Blacker Co., Ltd.；沿用完整創作及有效影片，資料不變 |
+| `hokuto-no-ken-kenou-gun-zako-tachi-no-banka-ed-1` | Elegy of the Enemies；沿用完整創作及有效影片，資料不變 |
+| `choppers-op-1` | トニートニートニーチョッパー；官方歌唱／詞曲、用途改為 TS「CHOPPER’s はじめまして。ソング」，保留舊影片及公開 ID |
+| `kirei-ni-shitemoraemasu-ka-op-1` | 綺麗。；沿用完整創作及有效影片，資料不變 |
+| `kirei-ni-shitemoraemasu-ka-ed-1` | 若葉のころ；沿用完整創作及有效影片，資料不變 |
+| `golden-kamuy-saishuushou-op-1` | 黄金の彼方；沿用完整創作及有效影片，資料不變 |
+| `golden-kamuy-saishuushou-ed-1` | The Ballad；沿用詞曲及影片，補 CD Single 曲序／日期／品番與官方入口，編曲仍缺 |
+| `kizoku-tensei-megumareta-umare-kara-saikyou-no-chikara-wo-eru-op-1` | Break off；完整創作、9 位團隊成員、MV、數位 Single／3 個 CD 版與確切平台 |
+| `kizoku-tensei-megumareta-umare-kara-saikyou-no-chikara-wo-eru-ed-1` | You'll Be In My Heart 〜そばに〜；完整創作及角色歌唱、TV Size／Instrumental／Long Intro、Music Collection 跨碟曲序及確切平台 |
+| `isekai-no-sata-wa-shachiku-shidai-op-1` | Magic；完整創作、無字幕 OP |
+| `isekai-no-sata-wa-shachiku-shidai-ed-1` | Back to Back；完整創作、無字幕 ED、官方及確切配信入口 |
+| `osananajimi-to-wa-love-comedy-ni-naranai-op-1` | あいらびゅ♡；原文演唱名義、4 位角色／聲優、詞曲及編曲交叉補證、4 個角色版、CD 曲序與無字幕 OP |
+| `osananajimi-to-wa-love-comedy-ni-naranai-ed-1` | あまのじゃく；完整創作、Instrumental、CD 曲序與無字幕 ED |
+| `yoroi-shinden-samurai-troopers-op-1` | YOAKE；完整創作、配信日期；影片沿用 |
+| `yoroi-shinden-samurai-troopers-ed-1` | POWER；詞曲、編曲交叉補證、8 位團隊成員、配信日期及 GATHER 確切 Qobuz 專輯；影片沿用 |
+| `mayonaka-heart-tune-op-1` | 月に向かって撃て；完整創作、混音／母帶、MV／Art Track、TVアニメver.／Instrumental、兩個 CD Single 版 |
+| `mayonaka-heart-tune-ed-1` | 声の軌跡；完整創作，確切歌曲影片仍缺 |
+| `mayonaka-heart-tune-ed-2` | ask for the moon；官方明示第11話插曲，改 IN 並保留 ID／序號；原文角色／聲優、完整創作、特別映像、屋上ver／inst、Album 曲序 |
+
+已處理 anime ID：`curated-198720`、`curated-204432`、`curated-194028`、`curated-166521`、`curated-185993`、`curated-183661`、`curated-189565`、`curated-194318`、`curated-187942`、`curated-203472`。`curated-203472`（鷹之爪XX）既有用途為 0，兩輪定向查找未取得具名主題曲的清楚證據，沒有套用舊系列歌曲或將 manzo 的劇伴職務當成歌曲創作。
+
+### 實際差異
+
+- 13 個既有歌曲 ID 登記；44 筆新創作角色＝16 作詞、16 作曲、12 編曲，42 筆第一方、2 筆編曲交叉補證。17 筆團隊成員不自動當作本曲演唱者；新增 6 筆演唱、移除 3 筆舊合併名義，另有 2 筆混音／母帶。全批 16／18 筆有三項創作，CHOPPER’s 與 The Ballad 編曲未知。
+- 新增 8 支確切歌曲影片：2 MV、1 Art Track、2 無字幕 OP、2 無字幕 ED、1 插曲特別映像；另新增 3 個官方 YouTube 配信專輯入口。沒有把 playlist 計作影片、MV 推定 full，或把藝人寄語當作歌曲影片。未新增頻道／嵌入 metadata。
+- 新增 12 個音源版本＝4 角色版、4 Instrumental、4 演唱版（TV Size、Long Intro、TVアニメver.、屋上ver）。只有明示 TV Size 的 1 項採 TV 分類，其餘長度 unknown；Long Intro／屋上版本不推定重新編曲。あいらびゅ♡ 的四個角色版保留各自確證演唱，沒有成為四首新歌。
+- 新增 11 個發行 ID＝9 Single 版（8 CD、1 數位）、1 三碟 Soundtrack、1 CD Album。Music Collection 的 ED 保存 Disc 1 Track 1、Disc 3 Track 1／4／9；另一張數位 OST 沒有本曲曲目證據，未附加。月に向かって撃て兩版保存 Track 1／4／5；井ノ華六花 Album 保存 Track 5／8／13。
+- 新增 31 個外連＝8 YouTube 歌曲影片、3 YouTube 專輯、3 YouTube Music 專輯、3 Apple Music、3 Spotify、1 Qobuz 及 10 官方商品／配信。專輯入口保留 exact album／playlist ID；目的地播放／購買及地區可用性 unknown。新增 28 個用途層來源、更新 1 個實際重讀來源，100 組欄位證據。7 部作品 metadata 日期及未編輯的所有 seed 行保持原值。
+- 最小相容分類支援 `TS`：authoring、公開型別／parser、排序、歌單／搜尋用途篩選及動畫標籤均已接通，未知分類仍 fail closed。CHOPPER’s 保留 `choppers-op-1`，顯示「主題歌」，不再計 OP；ask for the moon 保留 `mayonaka-heart-tune-ed-2` 及序號 2，以 IN 顯示。あいらびゅ(ハート) 舊文字保存在搜尋別名。
+- 全目錄仍為 28 季、1,917 動畫頁、4,248 用途＝4,244 OP／ED＋3 IN＋1 TS；2020–2026 仍為 1,808 動畫頁、3,984 用途。唯一 YouTube 歌曲影片直連 737→745，另有 3 個官方 YouTube 配信專輯入口；1,793 筆既有影片 metadata 不變。以上不代表唯一歌曲數或目標完成率。
+
+### 缺口與續查條件
+
+| 範圍 | 尚未完成 | 續查條件 |
+| --- | --- | --- |
+| CHOPPER’s／The Ballad | 兩輪定向查找未取得清楚編曲資料；未由其他歌曲、製作人或團隊成員推定 | 官方單曲 credits、booklet、作者作品集或正版平台明示本曲編曲 |
+| あいらびゅ♡／POWER | 編曲分別由正版 Gamers／Qobuz 交叉補證。HoneyWorks 第一方詞曲採官方團隊名義，未將第三方個別作者細分與團隊名義重複相加；POWER 官方名單與配信版詞曲署名粒度不同，保留第一方三名作者，不猜造對應 | 唱片或藝人完整本曲製作名單公布，才細分原作者、團隊名義及配信版差異 |
+| 声の軌跡／アリーチェ | 未確認確切歌曲 MV／Art Track／creditless 的可追溯入口；前者保留影片缺口，後者只保存官方配信專輯。動畫 MUSIC 上兩支影片為藝人寄語，不當作歌曲影片 | 官方歌曲影片公告或 MUSIC／MOVIE 目的頁恢復後定向核對；不再循環搜尋一般列表 |
+| 鷹之爪XX | 未取得具名 OP／ED／主題歌的核心證據，維持 0 筆；未與 NEO、GT、Golden Spell 等舊作混用 | 新系列官網、製作方或正片正式 credits 明示曲名及用途 |
+| 音源與收錄 | TVアニメver.、Long Intro、屋上ver 的長度分類、獨立版本完整 credits／錄音識別及配信與 CD 音源等同關係仍未明；Music Collection／Album 的其他非本批插曲未擴充 | 官方曲目／booklet／識別資料明示；未公布的編曲、full、CV 不從原版或角色表套入 |
+| 同系列與既有一般主題歌 | 鎧真傳第二季度的 BAD遺伝子／ばけもん已在 `curated-209800`，未重複加入冬季頁；其他舊批一般主題歌保留既有明示標籤，未在本批全量搬移 | 到達相應作品或分類修正批次時重用已核對官方用途，套用 TS 並保留既有公開 ID／媒體 |
+| 存取及平台 | 貴族転生官網普通頁 403，採已讀公開索引；若干普通頁／YouTube 回應 cache miss 或未提供本文，未繞過、抓取媒體或使用非公開 API。外部播放、嵌入及地區可用性未實測 | 來源恢復、官方新入口或明確平台可用性任務時再查；本機／線上 UI 通過不代表外部歌曲播放成功 |
+
+### 本機檢查與展示
+
+- `npm test`：4 檔／5 個核心測試通過，含全目錄 JSON round-trip、IN／TS 篩選、穩定公開 ID、資料關係與來源。初次建置發現兩處排序表未包含 TS，已補齊；最終 `npm run build` 為 Astro 0 errors／warnings／hints、1,961 HTML、CSP 6 script／10 style hashes、Service Worker 及 3,918 公開產物通過。未降低任何有效 gate。
+- 6 條 E2E、npm audit 0 vulnerabilities、Cloudflare dry-run 通過。本機文件連結及 `git diff --check` 通過，repository `public:check` 通過（239 檔）；依賴、Cloudflare 設定及私隱邊界未改。
+- 桌面 1536×1024 核對 10 部／18 筆與公開 JSON；手機 390×844 核對 4 部實際更新作品。六條閱讀流程含 TS 篩選／舊 ID、角色版與影片對應、跨碟曲序／playlist 身分、IN 分類／舊序號／證據、未知音源長度及 5 筆重用用途。0 app／CSP errors、0 自動 YouTube request、無橫向溢出。
+- Browser plugin 不在可用清單，沿用 Playwright；第三方請求攔截，來源本文、測試腳本、截圖及 log 均未加入公開 repository。
+
+預覽入口：`/anime/choppers/`、`/anime/osananajimi-to-wa-love-comedy-ni-naranai/`、`/anime/kizoku-tensei-megumareta-umare-kara-saikyou-no-chikara-wo-eru/`、`/anime/mayonaka-heart-tune/`；可搜尋 `あいらびゅ(ハート)`、`PCCG-02485`、`ask for the moon`，或篩選「主題歌」。
+
+階段提交：`085bcf1` 已保存第15批正式驗證與第16批啟動；本批分類支援及歌曲資料分階段提交，正式來源與驗收於發布後另記。
+
+下一批：**2026-winter-credits-youtube-17**，由 `maou-no-musume-wa-yasashi-sugiru-op-1` 接續，10 部／25 筆既有用途：`curated-194742`、`curated-195515`、`curated-183984`、`curated-191967`、`curated-177679`、`curated-180746`、`curated-192261`、`curated-191205`、`curated-185039`、`curated-176276`。只補真正缺口、沿用完整創作及有效影片；處理既有重複／用途衝突時保留可解析的公開 ID。第16批正式驗收後接續，整體目標未完成。
