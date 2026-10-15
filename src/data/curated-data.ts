@@ -295,7 +295,7 @@ const themeOverrides: Record<string, Partial<CuratedThemeSeed>> = {
   "178025:ED:2": { titleRomaji: "Ban" },
   "184237:ED:1": { titleRomaji: "Dandelion" },
   "147105:ED:2": { titleJa: "夜に浮かぶ", titleRomaji: "Yoru ni Ukabu" },
-  "147105:ED:3": { titleJa: "光", titleRomaji: "Hikari" },
+  "147105:ED:3": { titleJa: "光り", titleRomaji: "Hikari" },
   "175914:ED:1": { titleRomaji: "Nemure" },
   "175914:ED:2": { titleJa: "よふかしのうた", titleRomaji: "Yofukashi no Uta" },
   "193883:OP:1": {
