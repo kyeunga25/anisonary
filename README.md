@@ -2,7 +2,7 @@
 
 Anisonary 是以 Astro + strict TypeScript 建立的動畫歌曲目錄，以緊湊列表同時展示歌曲、演唱者、動畫、OP／ED 與季度。網站輸出為純靜態資產，正式交付使用 **Cloudflare Workers Static Assets**；它不是 Cloudflare Pages，也沒有 application Worker backend。下方同時保留 English technical notes。
 
-This repository contains the completed static product: season directory, anime detail pages, traceable song credits and links, per-song source ledgers, source-attributed media, local-only cross-season search, privacy-bounded offline reading, a GitHub correction flow, and deployment through Cloudflare Workers Static Assets. The default catalogue covers twenty-eight reviewed snapshots across 2019–2026, with 1,917 unique titles, 4,245 known OP／ED uses, four confirmed insert-song uses and two general theme-song uses. The 2019 summer snapshot currently contains 38 TV titles and four web series; that quarter is still being expanded, and 2025 fall is not yet included.
+This repository contains the completed static product: season directory, anime detail pages, traceable song credits and links, per-song source ledgers, source-attributed media, local-only cross-season search, privacy-bounded offline reading, a GitHub correction flow, and deployment through Cloudflare Workers Static Assets. The default catalogue covers twenty-eight reviewed snapshots across 2019–2026, with 1,917 unique titles, 4,244 known OP／ED uses, four confirmed insert-song uses and three general theme-song uses. The 2019 summer snapshot currently contains 38 TV titles and four web series; that quarter is still being expanded, and 2025 fall is not yet included.
 
 最近標記版本：**v1.31.1**。目前工作內容以 Git commit 與收集 checkpoint 追蹤。歌曲詳情支援個別歌唱者、團隊、創作名單、音源版本、發行品及欄位證據；未知欄位留空，已核對內容逐批補入。2019 夏季仍在補充，2026 秋季及 2025 秋季尚未收錄。
 

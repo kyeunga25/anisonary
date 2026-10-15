@@ -12,8 +12,8 @@
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2020–2026 創作名單與官方 YouTube 深化；由最新已收錄季度往舊季度，沿用已接通格式及有效來源 |
 | 完成條件 | 本範圍的既有 OP／ED 用途逐批補有第一方證據的作詞、作曲、編曲、演唱／團隊及官方影片；經公開 JSON、動畫頁與必要檢查驗證；兩輪查找仍未明的欄位保留缺口與續查條件 |
-| 執行狀態 | 整體執行中；第 08–21 批均已正式發布驗收。第二十一批核對 10 部／21 筆，更新 5 部／9 筆；第二十二批接續 2025 夏季 10 部／28 筆既有用途。每批發布後接續；2020–2026 深化及長期目標均未完成 |
-| 接續位置 | 第二十二批執行中，由 `jidou-hanbaiki-ni-umarekawatta-ore-wa-meikyuu-wo-samayou-2nd-season-op-1` 起接續 2025 夏季 10 部／28 筆。固定截止日 2026-10-14、新證據實際核對日期 2026-10-15；完整 ID／缺口見各批 |
+| 執行狀態 | 整體執行中；第 08–21 批均已正式發布驗收。第二十二批核對夏季 10 部／28 筆，更新 5 部／16 筆；本機驗證完成，正式發布待下方驗收記錄。每批發布後接續；2020–2026 深化及長期目標均未完成 |
+| 接續位置 | 第二十二批本機完成待發布；接著由 `yofukashi-no-uta-season-2-op-1` 起接續 2025 夏季 10 部／26 筆。固定截止日 2026-10-14、新證據實際核對日期 2026-10-15；完整 ID／缺口見各批 |
 | 發布提交 | 最新 [PR #110](https://github.com/kyeunga25/anisonary/pull/110) 已正常 rebase 合併，保留 2 個階段提交；正式部署來源 `bcaf9ce` 已通過下方正式驗收。PR #101–#109 的提交及驗收保留在各批紀錄 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
@@ -32,12 +32,12 @@
 
 ## 下一輪位置
 
-目前優先順序已調整為 **2020–2026 創作名單及官方 YouTube**。本輪以已收錄用途深化為主，同作品的新公告用途經核心核對後一併補入；不重做季度全集盤點。2026 秋、2025 秋的核心漏季仍保留，待此項優先工作之後接續。固定截止日仍為 2026-10-14。啟動盤點的本機唯一用途為 3,965 筆；跨年作品在各年統計可能重複，不能相加。此數量是範圍基線，不代表欄位完成。第二批補入 3 筆、第六批補入 4 筆新用途後，當時範圍為 3,972 筆；第八批再補 5 筆後為 3,977 筆。第十批再補 2 筆後期用途後為 3,979 筆；第十一批補 3 筆後為 3,982 筆。最新全目錄為 28 季、1,917 動畫頁、4,246 筆用途；用途類型沿用第十一批；第十二批只深化既有用途。第十三批將一筆誤列 MV 合併並保留舊 ID 別名後，最新全目錄為 4,245 筆用途（4,243 OP／ED、2 IN），範圍內為 3,981 筆；第十四批補入 3 筆已公告後期用途後，本機最新為 4,248 筆（4,246 OP／ED、2 IN），2020–2026 為 3,984 筆；上述數量保留為歷史變更；目前最新本機差異見第二十一批，正式發布以頂部提交及下方驗收紀錄為準。
+目前優先順序已調整為 **2020–2026 創作名單及官方 YouTube**。本輪以已收錄用途深化為主，同作品的新公告用途經核心核對後一併補入；不重做季度全集盤點。2026 秋、2025 秋的核心漏季仍保留，待此項優先工作之後接續。固定截止日仍為 2026-10-14。啟動盤點的本機唯一用途為 3,965 筆；跨年作品在各年統計可能重複，不能相加。此數量是範圍基線，不代表欄位完成。第二批補入 3 筆、第六批補入 4 筆新用途後，當時範圍為 3,972 筆；第八批再補 5 筆後為 3,977 筆。第十批再補 2 筆後期用途後為 3,979 筆；第十一批補 3 筆後為 3,982 筆。最新全目錄為 28 季、1,917 動畫頁、4,246 筆用途；用途類型沿用第十一批；第十二批只深化既有用途。第十三批將一筆誤列 MV 合併並保留舊 ID 別名後，最新全目錄為 4,245 筆用途（4,243 OP／ED、2 IN），範圍內為 3,981 筆；第十四批補入 3 筆已公告後期用途後，本機最新為 4,248 筆（4,246 OP／ED、2 IN），2020–2026 為 3,984 筆；上述數量保留為歷史變更；目前最新本機差異見第二十二批，正式發布以頂部提交及下方驗收紀錄為準。
 
 | 優先 | 工作 | 狀態與接點 |
 | --- | --- | --- |
 | 1 | 一次性最小格式與真實試行 | 2026-10-14 已完成，見下方 2026-summer-schema-pilot；後續直接沿用格式，不重新設計或搬移全量資料 |
-| 2 | 當前深化接點 | 第 08–21 批已正式發布驗收；第二十二批接續 2025 夏季；有效名單與影片沿用 |
+| 2 | 當前深化接點 | 第 08–21 批已正式發布驗收；第二十二批本機完成待發布，第二十三批接續夏季；有效名單與影片沿用 |
 | 3 | 較新季度未公布後續及核心漏季 | 深化按 2026 夏 → 春 → 冬接續；2026 秋 registry 仍未收錄，保留有界核心盤點接點。只處理新證據、到期項目與未補欄位 |
 | 4 | 中間漏季及歷史深化 | 2025 秋，再按秋／夏／春／冬倒序處理其餘年份；2019 夏的已有缺口於到達該季時接續 |
 | 5 | 延伸更早歷史 | 2019 春／冬與更舊季度，沿用同一有界流程 |
@@ -534,7 +534,7 @@ Browser plugin 不在可用清單，沿用 Playwright；Chromium 本機驗證權
 | --- | --- |
 | 本次目標 | 可公開的範圍、資料欄位、優先順序、工作量／時限與完成條件；不抄錄私人指令 |
 | 固定範圍 | 起迄年份／季度、媒體及用途類型、公開資料截止日；延續時不自行改動 |
-| 執行狀態 | 整體執行中；第 08–21 批均已正式發布驗收。第二十一批核對 10 部／21 筆，更新 5 部／9 筆；第二十二批接續 2025 夏季 10 部／28 筆既有用途。每批發布後接續；2020–2026 深化及長期目標均未完成 |
+| 執行狀態 | 整體執行中；第 08–21 批均已正式發布驗收。第二十二批核對夏季 10 部／28 筆，更新 5 部／16 筆；本機驗證完成，正式發布待下方驗收記錄。每批發布後接續；2020–2026 深化及長期目標均未完成 |
 | 批次 | 日期、季度、簡短批次 ID；不靠 package 版本當游標 |
 | 已處理 ID | 本批已公開的 theme ID／anime ID；跨季作品與原 ID 保持一致 |
 | 完成層次 | 核心身分／credits／版本／發行品／平台，分別說明 |
@@ -1786,8 +1786,77 @@ The twelfth batch deepens 21 existing uses across ten anime, adding 70 creator-r
 | (docs): record batch 20 production verification | `f29a26e` | `2894cc0` |
 | (add): winter song credits and official videos batch 21 | `bcaf9ce` | `0762c9b` |
 
-## 2026-10-15 批次：2025-summer-credits-youtube-22（執行中）
+## 2026-10-15 批次：2025-summer-credits-youtube-22
 
-目標：由 `jidou-hanbaiki-ni-umarekawatta-ore-wa-meikyuu-wo-samayou-2nd-season-op-1` 起，按 seed 順序接續 `curated-169440`、`curated-179678`、`curated-193883`、`curated-178869`、`curated-199486`、`curated-155838`、`curated-187387`、`curated-189069`、`curated-173335`、`curated-186052`，10 部／28 筆既有公開用途。固定 2020–2026 深化、2007–2026 長期範圍與 2026-10-14 截止日；新證據核對日期 2026-10-15。
+完成層次：核對 2025 夏季 10 部／28 筆既有公開用途，實際更新 5 部／16 筆，12 筆資料不變；沒有新增動畫或用途。固定 2020–2026 深化、2007–2026 長期範圍及 2026-10-14 截止日；新證據實際核對日期 2026-10-15。本機成果與下方正式驗收分開，整體目標未完成。
 
-已保存夏季 seed 與 10 部公開 JSON 基線。23 筆已有完整詞曲編曲，27 筆已有 YouTube 外連；只查 5 筆真正創作缺口、1 筆影片缺口及同批明確版本／用途問題，完整資料與日期沿用。尚未寫入第22批歌曲資料或啟動本批資料驗證，已完成成果以第21批正式驗收為準。兩輪後仍無明確證據的欄位記錄續查條件；完成本機驗證、分類提交及正式發布後接續。
+| 公開 theme ID | 曲名／處理 |
+| --- | --- |
+| `jidou-hanbaiki-ni-umarekawatta-ore-wa-meikyuu-wo-samayou-2nd-season-op-1` | 未来サイダー；既有完整創作／影片沿用，無修改 |
+| `jidou-hanbaiki-ni-umarekawatta-ore-wa-meikyuu-wo-samayou-2nd-season-ed-1` | 僕だけの地平線；既有完整創作／影片沿用，無修改 |
+| `jigoku-sensei-nube-2025-op-1` | P0WER-悪霊退散-；既有完整創作／影片沿用，無修改 |
+| `jigoku-sensei-nube-2025-ed-1` | ひまわり；既有完整創作／影片沿用，無修改 |
+| `chibi-godzilla-no-gyakushuu-3-op-1` | 怪獣島；既有名單／影片沿用，無修改；怪獣島與 TURN OVER 編曲仍待明示 |
+| `clevatess-majuu-no-ou-to-akago-to-kabane-no-yuusha-op-1` | Ruler；既有完整創作／影片沿用，無修改 |
+| `clevatess-majuu-no-ou-to-akago-to-kabane-no-yuusha-ed-1` | Destiny；保留合併 songwriter；補原曲／Acoustic 錄音、各自製作／合唱及 Single／Album |
+| `neko-konogoro-tenka-toitsu-hen-op-1` | 萌やせ！ネコ魂；採官方一般主題歌表記 TS，舊 OP ID／授權 MV 保留；補精確 YouTube Music |
+| `tsuyokute-new-saga-op-1` | 演者；既有完整創作／影片沿用，無修改 |
+| `tsuyokute-new-saga-ed-1` | her；既有完整創作／影片沿用，無修改 |
+| `onmyo-kaiten-re-verse-op-1` | CRY OUT CRY OVER；既有名單／影片沿用，無修改；怪獣島與 TURN OVER 編曲仍待明示 |
+| `onmyo-kaiten-re-verse-ed-1` | TURN OVER；既有名單／影片沿用，無修改；怪獣島與 TURN OVER 編曲仍待明示 |
+| `ginga-tokkyuu-milky-subway-op-1` | 銀河系まで飛んで行け！；既有完整創作／影片沿用，無修改 |
+| `ginga-tokkyuu-milky-subway-op-2` | Altair and Vega；第1話 OP 曲的配信歌唱版／Off Vocal、Single 曲序及品番；影片明示作品 PV |
+| `kamitsubaki-shi-kensetsuchuu-op-1` | 歌姫；補 Album 版／曲序，原版與重新編曲共享歌曲 ID；既有用途保留 |
+| `kamitsubaki-shi-kensetsuchuu-ed-1` | 追憶；補 Album 版／曲序，原版與重新編曲共享歌曲 ID；既有用途保留 |
+| `kamitsubaki-shi-kensetsuchuu-ed-2` | BREATHE；補 Album 版／曲序，原版與重新編曲共享歌曲 ID；既有用途保留 |
+| `kamitsubaki-shi-kensetsuchuu-ed-3` | 閃光だった；補 Album 版／曲序，原版與重新編曲共享歌曲 ID；既有用途保留 |
+| `kamitsubaki-shi-kensetsuchuu-ed-4` | 距離。；補 Album 版／曲序，原版與重新編曲共享歌曲 ID；既有用途保留 |
+| `kamitsubaki-shi-kensetsuchuu-ed-5` | シャングリラ；補 Album 版／曲序，原版與重新編曲共享歌曲 ID；既有用途保留 |
+| `kamitsubaki-shi-kensetsuchuu-ed-6` | ひとえに壊れて；補 Album 版／曲序，原版與重新編曲共享歌曲 ID；既有用途保留 |
+| `kamitsubaki-shi-kensetsuchuu-ed-7` | 閃光だった（Rearranged ver.）；補 Album 版／曲序，原版與重新編曲共享歌曲 ID；既有用途保留 |
+| `kamitsubaki-shi-kensetsuchuu-ed-8` | BREATHE（Rearranged ver.）；補 Album 版／曲序，原版與重新編曲共享歌曲 ID；既有用途保留 |
+| `kamitsubaki-shi-kensetsuchuu-ed-9` | 欲望；補 Album 版／曲序，原版與重新編曲共享歌曲 ID；既有用途保留 |
+| `kamitsubaki-shi-kensetsuchuu-ed-10` | 電脳 sinka ver.；補 Album 版／曲序，原版與重新編曲共享歌曲 ID；既有用途保留 |
+| `kamitsubaki-shi-kensetsuchuu-ed-11` | 魔女(真) sinka ver.；補 Album 版／曲序，原版與重新編曲共享歌曲 ID；既有用途保留 |
+| `mizu-zokusei-no-mahou-tsukai-op-1` | ブルーモーション；補官方明示兩位團隊成員；未推定本曲編曲 |
+| `mizu-zokusei-no-mahou-tsukai-ed-1` | たゆたうままに；既有完整創作／影片沿用，無修改 |
+
+已處理 anime ID：`curated-169440`、`curated-179678`、`curated-193883`、`curated-178869`、`curated-199486`、`curated-155838`、`curated-187387`、`curated-189069`、`curated-173335`、`curated-186052`。
+
+### 實際差異
+
+- 5 筆真正創作缺口經兩輪定向查找後仍缺明示角色，本批新增作詞／作曲／編曲為 0；未將一般藝人 profile、製作人或他曲編曲轉為本曲事實。Destiny 的四位 ComposerLyricist 保留 `songwriting`，不拆造詞／曲。全批 23／28 筆具有三項創作；這不是全範圍完成率。
+- 新增 27 筆團隊成員關係：V.W.P 的 5 位官方成員在 5 個合唱名義用途各保存一次，共 25 筆；名誉伝説 2 位明示成員 KOTANI／KESSAKU 共 2 筆。沒有由成員身分推定本曲逐人演唱或編曲，既有歌唱與完整創作保留。
+- 登記 14 個歌曲 ID 供 16 筆既有用途關聯。閃光だった ED3／ED7、BREATHE ED2／ED8 各以同一歌曲 ID 關聯原版及 Rearranged ver.，沒有將重新編曲另算新歌曲或新增用途；各自演唱與編曲名單保留，既有公開 ID／序號不動。
+- 新增 14 筆音源關係，實際為 10 個不同錄音 ID＝5 演唱、3 Instrumental、2 重新編曲；共享歌曲在兩個既有用途各顯示同樣的已確認版本。包括上述兩組原版／重新編曲、歌姫／追憶 instrumental、Altair and Vega 歌唱／Off Vocal、Destiny／Destiny (Acoustic)。長度分類全部 unknown，MV、PV 或 Off Vocal 不當作 TV 錄音證據。
+- 10 個不同錄音合計保存 32 筆版本層 credits＝9 歌唱、8 合併 songwriting、15 其他明示角色。Destiny 的一般專輯錄音含 11 位合唱成員與兩位製作人，Acoustic 只列其本曲已確認角色，沒有移入一般版合唱，製作人沒有改作編曲；合唱指揮 Marsha Morrison 與其他成員依正版曲目名單保存。這些關係不是新增人數／歌曲數。
+- 新增 28 筆收錄關係，涉及 6 個唯一發行 ID＝3 Single、3 Album。歌姫 CD Single 的 OP／ED 為 Track 1／2、instrumental 為 Track 3／4；仮想都市録通常／SPECIAL BOX 共用已明示曲序，BOX 是 Disc 1，魔女(真)只確認 BOX Track 13，沒有從較早的「？？？」推定通常盤收錄。商品 URL 的 ktr-000-0210 不當品番。
+- Altair and Vega 的 LZC-3263 為 2025-08-30 Digital Single、Track 1 歌唱／Track 2 Off Vocal；用途標示第1話 OP 曲的配信歌唱版，未聲稱 Off Vocal 與動畫實際 OP 為同一錄音。Destiny Single 為 2025-11-12、You Know Too Much Album 為 2026-09-11；普通／Acoustic 分列 Album Track 17／22，Single 未與 Album 錄音硬連。
+- 萌やせ！ネコ魂 的第一方明示「主題歌」，採 TS／官方表記，保留 `neko-konogoro-tenka-toitsu-hen-op-1`、羅馬字、2025-08-14 日期、原創作及既有授權 MV 的全部屬性；影片索引只調整用途 key。保留未重查來源日期，沒有因無法即時讀取而撤下有效授權影片。
+- 新增 30 個用途層外連＝27 官方商品、2 Qobuz、1 YouTube Music 確切曲目；另將 Altair and Vega 的既有影片按第一方明示改名「作品 PV」。本批沒有新增 YouTube watch URL 或影片 metadata；ネコ的 Music 入口由官方 TuneCore 公開目的地核實，沒有把 Shorts 素材頁改造成 watch URL。所有外部播放、嵌入及地區可用性未新增聲稱。
+- 新增 15 個用途來源、更新 30 個實際查閱來源、增加 85 組欄位證據。只改 5 個夏季 seed 行、兩個既有 extra-theme 資料區及一個影片用途 key；其他 global data bytes 與作品 metadata 日期保留。為保留一般主題歌的有效影片，影片索引驗證接通已存在的 IN／TS 種類，未更改其他資料、安全或來源 gate。
+- 全目錄仍為 28 季、1,917 動畫頁、4,251 用途＝4,244 OP／ED＋4 IN＋3 TS；2020–2026 為 1,808 動畫頁／3,987 用途。唯一 YouTube 歌曲 watch 直連 814、另 6 個官方配信專輯及 1,793 筆既有影片 metadata 不變。版本／商品不增加緊湊歌單列數。
+
+### 缺口與續查條件
+
+| 範圍 | 尚未完成 | 續查條件 |
+| --- | --- | --- |
+| 怪獣島、萌やせ！ネコ魂、TURN OVER、ブルーモーション | 編曲仍缺可採用的逐曲明示；沒有借用一般製作人介紹、動畫劇伴作者、ED 編曲或未核博客角色 | 第一方 booklet、作者逐曲作品表或清楚影片 description 可讀；兩輪後無新證據不重搜 |
+| Destiny | 官方／正版 metadata 只列四位 ComposerLyricist，詞／曲分工與編曲未明；錄音識別及 Single／Album 同一性未證實 | 出版者明示拆分角色或可比較 ISRC／錄音識別；目前合併角色與版本名已保存，不靠一般 producer 推定 |
+| ネコ影片／用途 | 保留既有有效授權 Full ver. MV，新增官方分銷的 YouTube Music 曲目；新的第一方 MV／NC OP／ED 外連仍無明確證據，OP／ED 細分未明 | 發行商／電視台明示逐首影片或用途時定向核對；不把平台素材／Shorts 改造為其他網址 |
+| 神椿其他曲目 | 本批未從 Album 其他曲目反推新 OP／ED；通常盤最後兩曲的舊 MUSIC／公告仍未補齊，魔女(真) Track 13 先只採較完整 BOX 商品表 | 官方完整通常盤曲目、明確逐集 ED 公告／正式映像出現；保留現有 ID，不以專輯順序改用途序號 |
+| 歌唱／音源與平台 | 團隊名單不代表各曲個別演唱；原版／重新編曲的既有創作保留，其他 ISRC、full／TV、版本等同、HK／TW 可用性及現場錄音仍未確認 | 逐曲名單、booklet、版本識別或具體可用性核對資料公布；無觸發不重查整批舊資料 |
+
+### 本機檢查與展示
+
+- `npm test` 4 檔／5 個核心測試通過；首次檢查發現影片索引只接受 OP／ED，已以獨立程式提交接通公開格式原已支援的 IN／TS。額外實際載入 registry 驗證四種用途，未知種類、錯誤作品歸屬、重複影片 ID、未核實嵌入及無效影片 ID 五個負向案例仍被拒絕，沒有修改舊測試或降低其他 gate。
+- 最終 `npm run build` 通過；1,961 HTML、CSP 6 script／10 style hashes、Service Worker 與 3,918 公開產物通過。6 條 E2E、npm audit 0 vulnerabilities、Cloudflare dry-run 通過；依賴／部署設定未改。
+- 桌面 1536×1024 核對 10 部／28 筆與 JSON、手機 390×844 核對 4 部，9 條閱讀流程通過；涵蓋共享歌曲／版本、不同唱者、共用 CD／Album、精確曲序、合併 songwriter、版本層合唱與製作、TS 舊 ID／授權 MV 及版本／品番搜尋。0 app／CSP errors、0 自動 YouTube request、無橫向溢出。
+- 已實際檢視桌面重新編曲／兩個 Album 版及手機ネコ主題歌／創作／來源；Browser plugin 不在清單，沿用 Playwright。測試腳本、原始取回資料、截圖、provider metadata 及 log 均未提交。
+- 16 個文件連結、`git diff --check` 及 repository `public:check`（239 檔）通過。
+
+預覽入口：`/anime/kamitsubaki-shi-kensetsuchuu/`、`/anime/clevatess-majuu-no-ou-to-akago-to-kabane-no-yuusha/`、`/anime/neko-konogoro-tenka-toitsu-hen/`、`/anime/ginga-tokkyuu-milky-subway/`。可搜尋 `Destiny Acoustic`、`LZC-3263`、`萌やせ！ネコ魂`。
+
+階段提交：`b496276` 保存第21批正式驗收／第22批啟動；`29f74bd` 獨立保存影片用途相容修正。本批資料與正式來源於發布後另記。
+
+下一批：**2025-summer-credits-youtube-23**，由 `yofukashi-no-uta-season-2-op-1` 起，依序 `curated-175914`、`curated-177175`、`curated-156395`、`curated-185660`、`curated-185544`、`curated-186003`、`curated-179879`、`curated-171046`、`curated-179966`、`curated-188653`，10 部／26 筆公開用途。完整證據沿用，只查真正缺口及同批明確錯誤；本批正式驗收後接續，兩個目標範圍均未完成。
