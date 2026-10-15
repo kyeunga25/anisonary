@@ -12,8 +12,8 @@
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2020–2026 創作名單與官方 YouTube 深化；由最新已收錄季度往舊季度，沿用已接通格式及有效來源 |
 | 完成條件 | 本範圍的既有 OP／ED 用途逐批補有第一方證據的作詞、作曲、編曲、演唱／團隊及官方影片；經公開 JSON、動畫頁與必要檢查驗證；兩輪查找仍未明的欄位保留缺口與續查條件 |
-| 執行狀態 | 整體執行中；第 08–12 批已分類提交、合併及正式部署驗收；第十三批已提交、合併並正式部署驗收；第十四批已提交、合併及正式部署驗收（11 部／20 筆既有＋3 筆新用途）；第十五批冬季前 11 部／21 筆已完成有界查核，實際深化 2 部／3 筆並已正式發布驗收；第十六批冬季 10 部／18 筆已完成有界查核，實際深化 7 部／13 筆，已分類提交、合併及正式部署驗收；第十七批冬季 10 部／24 筆已完成有界查核，實際深化 8 部／20 筆，已提交、合併及正式部署驗收；第十八批冬季 10 部／22 筆已完成有界查核，實際深化 8 部／18 筆，已提交、合併及正式部署驗收；第十九批接續冬季 10 部／20 筆公開用途。每批沿用資料、驗證及發布流程，收到暫停或停止要求立即保存位置。2020–2026 深化及 2007–2026 長期目標均未完成 |
-| 接續位置 | 第十五批正式發布驗收完成；第十六批正式發布驗收完成；第十七批正式發布驗收完成；第十八批正式發布驗收完成；第十九批執行中，由 `hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru-op-1` 接續冬季 10 部／20 筆公開用途。固定截止日 2026-10-14，實際核對日期 2026-10-15；完整 ID 及缺口見各批 |
+| 執行狀態 | 整體執行中；第 08–18 批均已分類提交、合併及正式部署驗收。第十九批冬季 11 部／22 個既有公開 ID 已完成有界查核，合併一個重複 ED 後為 21 筆用途，實際深化 9 部／16 筆；本機資料與展示已驗證，待正式發布驗收。每批完成後接續，暫停／停止時保存位置。2020–2026 深化及長期目標未完成 |
+| 接續位置 | 第十九批待正式發布驗收，完成後由 `yuusha-no-kuzu-op-1` 接續第二十批冬季 10 部／20 筆 seed 候選。固定截止日 2026-10-14、實際新證據核對日期 2026-10-15；完整 ID／缺口見各批 |
 | 發布提交 | 最新 [PR #107](https://github.com/kyeunga25/anisonary/pull/107) 已正常 rebase 合併，保留 2 個階段提交；正式部署來源 `8feffaf`，已通過下方正式驗收。前批 PR #101–#106 的階段提交與正式驗收保留在發布記錄 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
@@ -37,7 +37,7 @@
 | 優先 | 工作 | 狀態與接點 |
 | --- | --- | --- |
 | 1 | 一次性最小格式與真實試行 | 2026-10-14 已完成，見下方 2026-summer-schema-pilot；後續直接沿用格式，不重新設計或搬移全量資料 |
-| 2 | 當前深化接點 | 第十四批已正式發布，冬季第十五／十六批已正式發布，第十七／十八批已正式發布，第十九批接續中；見頂部及批次記錄。2020–2026 credits／YouTube 優先工作持續，沿用有效名單與影片 |
+| 2 | 當前深化接點 | 第 08–18 批已正式發布驗收，第十九批本機完成待發布；第二十批接點見頂部及批次記錄。2020–2026 credits／YouTube 工作持續，沿用有效名單與影片 |
 | 3 | 較新季度未公布後續及核心漏季 | 深化按 2026 夏 → 春 → 冬接續；2026 秋 registry 仍未收錄，保留有界核心盤點接點。只處理新證據、到期項目與未補欄位 |
 | 4 | 中間漏季及歷史深化 | 2025 秋，再按秋／夏／春／冬倒序處理其餘年份；2019 夏的已有缺口於到達該季時接續 |
 | 5 | 延伸更早歷史 | 2019 春／冬與更舊季度，沿用同一有界流程 |
@@ -534,7 +534,7 @@ Browser plugin 不在可用清單，沿用 Playwright；Chromium 本機驗證權
 | --- | --- |
 | 本次目標 | 可公開的範圍、資料欄位、優先順序、工作量／時限與完成條件；不抄錄私人指令 |
 | 固定範圍 | 起迄年份／季度、媒體及用途類型、公開資料截止日；延續時不自行改動 |
-| 執行狀態 | 本批是否啟動、資料／程式／展示是否驗證、整體範圍是否仍未完成；實際狀態只更新頂部 |
+| 執行狀態 | 整體執行中；第 08–18 批均已分類提交、合併及正式部署驗收。第十九批冬季 11 部／22 個既有公開 ID 已完成有界查核，合併一個重複 ED 後為 21 筆用途，實際深化 9 部／16 筆；本機資料與展示已驗證，待正式發布驗收。每批完成後接續，暫停／停止時保存位置。2020–2026 深化及長期目標未完成 |
 | 批次 | 日期、季度、簡短批次 ID；不靠 package 版本當游標 |
 | 已處理 ID | 本批已公開的 theme ID／anime ID；跨季作品與原 ID 保持一致 |
 | 完成層次 | 核心身分／credits／版本／發行品／平台，分別說明 |
@@ -1550,8 +1550,69 @@ The twelfth batch deepens 21 existing uses across ten anime, adding 70 creator-r
 | (docs): record batch 17 production verification | `146d428` | `7201694` |
 | (add): winter song credits and official videos batch 18 | `8feffaf` | `3891f61` |
 
-## 2026-10-15 批次：2026-winter-credits-youtube-19（執行中）
+## 2026-10-15 批次：2026-winter-credits-youtube-19
 
-目標：接續冬季 10 部／20 筆公開用途，起點 `hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru-op-1`；公開 anime ID 為 `curated-185262`、`curated-187901`、`curated-202419`、`curated-203148`、`curated-179062`、`curated-163144`、`curated-166613`、`curated-183660`、`curated-184951`、`curated-187062`。固定 2020–2026 深化、2007–2026 長期範圍及 2026-10-14 截止日不變，實際新來源核對日期 2026-10-15。完成已證實差異、必要檢查及展示、階段提交與正式驗收後接續。
+完成層次：原冬季 10 部／20 筆，加上同團隊新官方公告觸發的第18批 Sky Clipper 缺口（1 部／2 筆基線，僅 ED 新增 MV），共核對 11 部／22 個既有公開 ID。合併同一 ED 的重複項後為 21 筆正規用途，實際深化 9 部／16 筆，5 筆完全不變。固定 2020–2026 深化、2007–2026 長期範圍及 2026-10-14 截止日不變；新證據實際核對 2026-10-15。下方為本機成果，正式發布後另記驗收。
 
-已保存公開 JSON／seed 基線；20 筆用途有 4 筆完整三項創作、9 筆已有 YouTube 外連。沿用有效資料，只查真正缺口；同曲的 feat. 錄音及後期用途先核對，不把角色／合作版本當作新歌曲。本批尚未啟動外部收集或寫入歌曲資料；已完成成果以第18批正式驗收為準。
+| 公開 theme ID | 曲名／處理 |
+| --- | --- |
+| `hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru-op-1` | ハク；完整創作／實際歌唱、第一期無字幕影片、TV 音源、Single／兩版 Album |
+| `hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru-ed-1` | Sanctuary；完整創作／實際歌唱、第一期無字幕影片、TV 音源、Single／兩版 Album |
+| `dead-account-op-1` | デッドエンド；完整創作、數位 Single 及 ED MV |
+| `dead-account-ed-1` | 来世はどうせ；完整創作、數位 Single 及 ED MV |
+| `omae-wa-mada-gunma-wo-shiranai-reiwa-ban-ed-1` | 上毛かるた～令和版；作詞／作曲及既有無字幕 ED 形式補證；編曲仍空白 |
+| `hoppe-chan-sun-oukoku-to-kuro-hoppe-dan-no-himitsu-op-1` | Hope & Jump (feat. Crystal Kay)；完整創作、featured artist、Digital Single／三版 WONDER YARD Track 9 |
+| `enen-no-shouboutai-san-no-shou-part-2-op-1` | Ignis -イグニス-；完整創作、重複 ED 合併與舊 ID、三版 Ignis CD、特殊 ED／合輯 |
+| `enen-no-shouboutai-san-no-shou-part-2-ed-1` | Speak of the Devil；完整創作、重複 ED 合併與舊 ID、三版 Ignis CD、特殊 ED／合輯 |
+| `enen-no-shouboutai-san-no-shou-part-2-ed-2` | Speak of the Devil feat. Masato from coldrain；合併至既有 ED1；保留舊 ID 別名及可解析錨點，不新增獨唱錄音 |
+| `enen-no-shouboutai-san-no-shou-part-2-ed-3` | 爆走夢歌；完整創作、重複 ED 合併與舊 ID、三版 Ignis CD、特殊 ED／合輯 |
+| `trigun-stargaze-op-1` | ピカレスクヒーロー；既有完整三項創作及有效影片沿用；無修改 |
+| `trigun-stargaze-ed-1` | スターダスト；既有完整三項創作及有效影片沿用；無修改 |
+| `jigokuraku-2nd-season-op-1` | かすかなはな；既有完整三項創作及有效影片沿用；無修改 |
+| `jigokuraku-2nd-season-ed-1` | PERSONAL；既有完整三項創作及有效影片沿用；無修改 |
+| `kaya-chan-wa-kowakunai-op-1` | まぼろしの行方；完整創作、角色／聲優／歌唱、共用 EP、二人／角色音源及 Album |
+| `kaya-chan-wa-kowakunai-ed-1` | Playmour feat. カヤちゃん；完整創作、角色／聲優／歌唱、共用 EP、二人／角色音源及 Album |
+| `seihantai-na-kimi-to-boku-op-1` | メガネを外して；完整創作、橋本絵莉子實際歌唱、TV／Instrumental／Remix 與兩個 Single |
+| `seihantai-na-kimi-to-boku-ed-1` | ピュア feat. 橋本絵莉子；完整創作、橋本絵莉子實際歌唱、TV／Instrumental／Remix 與兩個 Single |
+| `hikuidori-op-1` | Hamidashi Gomen；原文曲名／藝人、完整創作、兩種影片、Single／EP／配信日期 |
+| `hikuidori-ed-1` | Kagerou；原文曲名／藝人、完整創作、兩種影片、Single／EP／配信日期 |
+| `tensei-shitara-dragon-no-tamago-datta-op-1` | Gliding Claw；Gliding Claw 既有資料沿用；無修改 |
+| `tensei-shitara-dragon-no-tamago-datta-ed-1` | Sky Clipper；只補 ED Sky Clipper 的官方 MV；其餘資料沿用 |
+
+已處理 anime ID：`curated-185262`、`curated-187901`、`curated-202419`、`curated-203148`、`curated-179062`、`curated-163144`、`curated-166613`、`curated-183660`、`curated-184951`、`curated-187062`、`curated-187941`。
+
+### 實際差異
+
+- 新增動畫 0、新增用途 0；合併 1 個重複 ED，保留 `enen-no-shouboutai-san-no-shou-part-2-ed-2` 別名、舊曲名搜尋及錨點。Speak of the Devil 的短標題與 feat. Masato 發行名義為同一首已發行 ED，沒有已證實的獨唱錄音；未把合作表記再算一首。爆走夢歌依藝人官方明示保留 ED3／最終話特殊 ED，沒有因動畫公告的「劇中」字樣改成 IN。
+- 新增 54 筆歌曲創作角色＝18 作詞、18 作曲、18 編曲。53 筆由第一方或正版 Qobuz 逐項 credits 支持，ハク編曲 1 筆採歌ネット授權曲目交叉補證；本批正規用途 20／21 筆有三項創作，群馬 ED 的編曲仍未知。另新增 4 筆 featured artist／混音／母帶角色、9 筆團隊成員，未將團隊名單自動展開成逐首詞曲作者。
+- 新增 7 筆實際歌唱、移除 5 筆原合併／企劃或羅馬字歌唱名義。ハク為ひとみ、ピュア為橋本絵莉子；PAS TASTA 保留作品藝人／創作企劃名義，六位成員分列。カヤちゃん為橘杏咲，動畫 ED 三人版與朔雀／導凰二人版分開；Crystal Kay、Masato 只依明示保留 featured artist，沒有猜個別歌唱 credits。恢復はみだし御免／陽炎及原文藝人，羅馬字搜尋別名保留。
+- 新增 13 支官方歌曲影片外連：ヘルモード第一期 OP／ED 無字幕與 Sanctuary MV、来世はどうせ MV、Ignis MV、Speak of the Devil MV、爆走夢歌原版 MV、まぼろしの行方 MV、Playmour 二人版 MV、はみだし御免無字幕 OP／MV、陽炎無字幕 ED、Sky Clipper MV。群馬既有影片只更新為官方明示無字幕 ED，不重算新增影片；主 PV 與 YouTube `/source/.../shorts` 未冒充歌曲 MV／Art Track。
+- 新增 11 個音源＝4 Instrumental、4 演唱版、1 acoustic 重新編曲、1 角色版、1 tofubeats Remix。只有ハク及ピュア明示 TV size 的 2 項採 TV；Ignis OP ver.與其他長度均 unknown，MV 不推定 full。原版編曲沒有自動套到 acoustic／remix，也未臆測 CD 與數位相同錄音。
+- 新增 26 筆歌曲收錄關係，涉及 26 個發行 ID；其中 24 個全目錄新 ID＝14 Single、8 CD Album、1 Compilation、1 EP，另 2 個幻視録 EP 版沿用已有 ID。カヤ OP 為共用 EP Track 2／4／6，Kunon 原曲仍為 1／3／5；三個 REVERSE WAVE CD 僅二人 Playmour Track 9。Ignis 限定盤 Instrumental Track 2、通常盤 Track 3、動畫期間盤 Track 2 為 OP ver.，沒有虛構該盤 Instrumental。ハク兩版 Album 為 Track 6、Hope & Jump 三個一般 CD 版為 Track 9；其他商品版未擴張。
+- ピュア原 Single／Remix 實際商品日期為 2026-01-28／2026-03-04，未把較後新聞刊登日期當發行日。はみだし御免 Single 與 EP 種用不同 ID；陽炎官方只明示配信限定，保存日期／商品入口但不猜 Single／Album 類別。Sanctuary 兩版 Single 未明示本曲曲序，保持空白。
+- 新增／轉掛 66 筆用途層外連關係＝13 YouTube、25 官方配信／商品、9 Spotify、9 Apple Music、8 YouTube Music、1 Qobuz，另 1 筆由舊 ED2 轉掛的官網；更新 1 筆既有 YouTube 標籤。Apple Music 明示曲目 query 保留，其餘移除追蹤參數；所有外部播放及 HK／TW 可用性保持 unknown。
+- 新增 45 個用途層來源、更新 9 個實際重讀來源及 157 組欄位證據；其他來源日期未改。9 個 seed 行以外 bytes 不變，所有作品 metadata 日期保留。
+- 全目錄為 28 季、1,917 動畫頁、4,247 正規用途＝4,242 OP／ED＋4 IN＋1 TS，另保留舊 ID 別名。2020–2026 為 1,808 動畫頁、3,983 正規用途。唯一 YouTube 歌曲影片直連 775→788，另 5 個官方 YouTube 配信專輯入口；1,793 筆既有影片 metadata 不變。上述不是唯一歌曲數或整體完成率。
+
+### 缺口與續查條件
+
+| 範圍 | 尚未完成 | 續查條件 |
+| --- | --- | --- |
+| 上毛かるた～令和版／ハク | 群馬 ED 兩輪定向查找仍無清楚編曲；ハク編曲只有授權曲目交叉補證，未採用其他曲目的葉山たけし／Soma Genda | 官方 booklet／逐曲 credits 或作者作品集明示本曲 arrangement 時補；不重搜一般索引 |
+| デッドエンド／Hope & Jump | 兩輪定向查找未取得清楚逐首對應的確切官方歌曲影片；保留已證實配信，未把動畫 PV 當 MV。Hope & Jump 現行八人名單不能證明本曲原音源參與者 | 唱片／藝人官方逐項 MV／無字幕外連或本錄音名單出現；依原續查條件處理，不掃全部舊平台 |
+| 版本與曲序 | Sanctuary 曲序／Instrumental、Ignis OP ver.長度、ハク TV 音源的獨立商品、CD／數位錄音識別與其他 OST／Album 未完整核對。幻視録 acoustic／Instrumental 只明示 CD 收錄 | 正式曲目表、ISRC、booklet 或具體錄音說明；沒有證據不補曲序、不把 CD 限定版本掛到數位商品 |
+| 商品範圍 | WONDER YARD 只核對三個一般 CD 版，其他八個店舖／商品組合未逐版收集；ピュア其他 Remix／CD 商品尚未核對完整第一方曲目 | 可讀官方商品頁逐版明示日期／曲目／品番時再深化，維持現有商品 ID |
+| 來源與平台 | 部分普通公告回應 403／cache miss，採可讀官方公開索引或已取得普通頁事實，未繞過限制。TuneCore 的 Shorts source 路徑不當成 watch URL；所有新增影片嵌入與地區可用性 unknown | 來源恢復、官方新入口或明確嵌入／地區核對任務時再查；本機／正式 UI 成功不代表外部音樂實際播放 |
+
+### 本機檢查與展示
+
+- `npm test`：4 檔／5 個核心測試通過。`npm run build`：Astro 0 errors／warnings／hints、1,961 HTML、CSP 6 script／10 style hashes、Service Worker 與 3,918 公開產物通過。
+- 6 條 E2E、npm audit 0 vulnerabilities、Cloudflare dry-run 通過；無程式、依賴或 Cloudflare 設定修改。16 個本機文件連結、repository `public:check`（239 檔）及 `git diff --check` 通過。
+- 桌面 1536×1024 核對 11 部／21 筆及公開 JSON，手機 390×844 核對 4 部；9 條閱讀流程含合併 ID／搜尋、特殊 ED、三版 Ignis、跨作品共用 EP、二人／角色歌唱、Remix／真實日期、不同商品與原文別名、Sky MV／PV 區分。0 app／CSP errors、0 自動 YouTube request、無橫向溢出。
+- 已實際檢視桌面 Playmour 音源／收錄及手機ピュア Remix／Single；Browser plugin 不在可用清單，沿用 Playwright，第三方請求攔截。初次腳本對全部歌曲導航及省略的可選空欄位有錯誤預期，按既有契約修正後通過，未修改正常程式或放寬資料 gate。測試腳本、截圖、原始取回資料及 log 均未提交。
+
+預覽入口：`/anime/enen-no-shouboutai-san-no-shou-part-2/`、`/anime/kaya-chan-wa-kowakunai/`、`/anime/seihantai-na-kimi-to-boku/`、`/anime/hikuidori/`。可搜尋 `Speak of the Devil feat. Masato from coldrain`、`Hamidashi Gomen`、`幻視録`、`tofubeats`；不同版本及商品不增加歌單列數。
+
+階段提交：`d3d985d` 已保存第18批正式驗收與第19批啟動；本批歌曲提交及正式來源於發布驗收後另記。
+
+下一批：**2026-winter-credits-youtube-20**，由 `yuusha-no-kuzu-op-1` 接續，依序為 `curated-187989`、`curated-192507`、`curated-195518`、`curated-198374`、`curated-176370`、`curated-203939`、`curated-182587`、`curated-202955`、`curated-182255`、`curated-204698`，10 部／20 筆 seed 候選；啟動時以公開 JSON 核對實際用途／已排除項。沿用有效證據，只補真實缺口；本批正式驗收後接續，2020–2026 及長期目標均未完成。
