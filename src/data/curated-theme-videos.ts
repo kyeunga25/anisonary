@@ -33,7 +33,7 @@ import type {
 } from "@/data/curated-theme-videos/types";
 import type { PublicVideo } from "@/types/public-api";
 
-const themeKeyPattern = /^(\d+):(OP|ED):([1-9]\d*)$/;
+const themeKeyPattern = /^(\d+):(OP|ED|IN|TS):([1-9]\d*)$/;
 const youtubeVideoIdPattern = /^[A-Za-z0-9_-]{11}$/;
 const videoFields = new Set([
   "youtubeVideoId",
