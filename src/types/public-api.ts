@@ -152,7 +152,7 @@ export interface PublicTheme {
   id: string;
   // Retired duplicate IDs resolve to this use without adding another song row.
   idAliases?: string[];
-  type: "OP" | "ED" | "IN";
+  type: "OP" | "ED" | "IN" | "TS";
   sequence: number;
   titleJa: string;
   titleRomaji?: string;

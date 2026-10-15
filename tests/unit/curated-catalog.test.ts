@@ -60,15 +60,17 @@ it("keeps the whole reviewed catalogue consistent across seasons, details, sourc
     expect(row.anime.seasons.some((season) => season.id === row.season.id)).toBe(true);
     expect(playlistRowHref(row)).toBe(`/anime/${row.anime.slug}/`);
   }
-  // A corrected insert song keeps its public ID and is not counted or filtered as an ED.
-  const inserts = curatedAnimeDetails.flatMap((detail) => detail.themes).filter((theme) => theme.type === "IN");
-  expect(inserts.length).toBeGreaterThan(0);
+  // Corrected insert and general theme songs keep their IDs without becoming OP/ED.
   const filterOptions = {
     query: "", scope: "all" as const, year: "", quarter: "", sort: "newest" as const,
     videoOnly: false, weekday: "", includeEmpty: false
   };
-  expect(getPlaylistRows(index, { ...filterOptions, type: "IN" }).map((row) => row.theme!.id).sort())
-    .toEqual(inserts.map((theme) => theme.id).sort());
+  for (const type of ["IN", "TS"] as const) {
+    const themes = curatedAnimeDetails.flatMap((detail) => detail.themes).filter((theme) => theme.type === type);
+    expect(themes.length).toBeGreaterThan(0);
+    expect(getPlaylistRows(index, { ...filterOptions, type }).map((row) => row.theme!.id).sort())
+      .toEqual(themes.map((theme) => theme.id).sort());
+  }
   expect(getPlaylistRows(index, { ...filterOptions, type: "ED" }).every((row) => row.theme!.type === "ED")).toBe(true);
   for (const seed of curatedAnimeSeeds) {
     for (const authored of seed.themes.filter((theme) => theme.id)) {

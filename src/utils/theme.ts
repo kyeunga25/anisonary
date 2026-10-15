@@ -23,7 +23,9 @@ export function creditRoleLabel(role: PublicCreatorCredit["role"]): string {
 }
 
 export function themeTypeLabel(theme: Pick<PublicTheme, "type" | "sequence">): string {
-  return theme.type === "IN" ? "劇中歌" : `${theme.type}${theme.sequence}`;
+  if (theme.type === "IN") return "劇中歌";
+  if (theme.type === "TS") return "主題歌";
+  return `${theme.type}${theme.sequence}`;
 }
 
 export function animeStatusLabel(status: PublicAnimeDetail["status"]): string {
