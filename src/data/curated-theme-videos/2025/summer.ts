@@ -295,7 +295,7 @@ export const curated2025SummerThemeVideos = {
     {
       youtubeVideoId: "36fLHF_4pmw",
       title: "ぷにぷにぷにるんず フルマックスバージョン",
-      type: "other",
+      type: "art_track",
       channelName: "ななひら / Nanahira",
       officialStatus: "official",
       embeddable: true,
