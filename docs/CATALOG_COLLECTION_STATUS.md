@@ -1878,4 +1878,10 @@ The twelfth batch deepens 21 existing uses across ten anime, adding 70 creator-r
 
 目標：由 `yofukashi-no-uta-season-2-op-1` 起，按 seed 順序接續 `curated-175914`、`curated-177175`、`curated-156395`、`curated-185660`、`curated-185544`、`curated-186003`、`curated-179879`、`curated-171046`、`curated-179966`、`curated-188653`，10 部／26 筆既有公開用途。固定 2020–2026 深化、2007–2026 長期範圍及 2026-10-14 截止日；新證據核對日期 2026-10-15。
 
-已保存夏季 seed、global extra-theme 及 10 部公開 JSON 基線；23 筆已有完整詞曲編曲、25 筆已有 YouTube 外連。先查 Creepy Nuts 三曲的明示編曲與ぷにるんず的官方 YouTube，再深化同批已證實的版本／商品；其餘完整證據與日期沿用。尚未寫入第23批歌曲資料或啟動本批資料驗證，已完成成果以第22批正式驗收為準。兩輪未明者記錄續查條件，完成本機驗證、分類提交及正式發布後接續。
+已保存夏季 seed、global extra-theme 及 10 部公開 JSON 基線；23 筆已有完整詞曲編曲、25 筆已有 YouTube 外連。先查 Creepy Nuts 三曲的明示編曲與ぷにるんず的官方 YouTube，再深化同批已證實的版本／商品；其餘完整證據與日期沿用。第23批核心欄位已保存，批次完整驗證仍待收尾；階段內容見下方，已完成成果以第22批正式驗收為準。兩輪未明者記錄續查條件，完成本機驗證、分類提交及正式發布後接續。
+
+### 第23批核心欄位階段
+
+已在 `yofukashi-no-uta-season-2-op-1`、`yofukashi-no-uta-season-2-ed-1`、`yofukashi-no-uta-season-2-ed-2` 補入三筆 DJ松永編曲，採 UtaTen／ORICON／TOWER 明示交叉資料，沒有由作曲或製作人推定。`punirunes-puni-3-op-1` 保留原 ID／舊 authoring key，將既有官方ななひら影片接到 YouTube 外連，並依已讀官方 description 修正為 Art Track；沒有將フルマックスバージョン當作ぷにックス版或 TV 錄音。
+
+本階段已保存本機資料；僅差異／公開邊界檢查，尚未執行本批完整測試、build、E2E 或正式發布。接續同批角色 Short／Full、OST／SP／Instrumental 及已確認商品，收尾一次完成必要完整檢查；不將本段視為第23批驗收完成。
