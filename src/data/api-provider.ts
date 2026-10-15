@@ -448,7 +448,7 @@ function parseTheme(value: unknown): PublicTheme {
   const item = record(value);
   const theme: PublicTheme = {
     id: slug(item.id),
-    type: oneOf(item.type, ["OP", "ED"] as const),
+    type: oneOf(item.type, ["OP", "ED", "IN"] as const),
     sequence: integer(item.sequence, 1, 99),
     titleJa: text(item.titleJa),
     artistDisplayName: text(item.artistDisplayName),

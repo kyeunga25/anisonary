@@ -4,7 +4,9 @@ import type { CuratedThemeSourceSeed } from "@/data/curated-theme-sources/types"
 export type CuratedSeasonId = `${number}-${Quarter}`;
 
 export interface CuratedThemeSeed extends Partial<Pick<PublicTheme, "credits" | "usageLabel" | "versionLabel" | "releaseDate" | "lastVerifiedAt" | "songId" | "recordings" | "releases" | "evidence" | "links">> {
-  type: "OP" | "ED";
+  // Preserve public identity when correcting a previously misclassified use.
+  id?: string;
+  type: PublicTheme["type"];
   sequence: number;
   titleJa: string;
   titleRomaji?: string;

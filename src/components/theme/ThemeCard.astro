@@ -1,6 +1,6 @@
 ---
 import type { PublicTheme } from "@/types/public-api";
-import { creditRoleLabel } from "@/utils/theme";
+import { creditRoleLabel, themeTypeLabel } from "@/utils/theme";
 import { themeVideoAnchor } from "@/utils/youtube";
 import ExternalLinkList from "@/components/links/ExternalLinkList.astro";
 import LazyYouTube from "@/components/youtube/LazyYouTube.astro";
@@ -29,8 +29,8 @@ const sourceRoleLabels = {
 
 <article class="theme-card" id={`theme-${theme.id}`}>
   <div class="theme-card__summary">
-    <div class:list={["theme-card__type", `theme-card__type--${theme.type.toLowerCase()}`]} aria-label={`${theme.type} ${theme.sequence}`}>
-      <strong>{theme.type}{theme.sequence}</strong>
+    <div class:list={["theme-card__type", `theme-card__type--${theme.type.toLowerCase()}`]} aria-label={themeTypeLabel(theme)}>
+      <strong>{themeTypeLabel(theme)}</strong>
     </div>
 
     <div class="theme-card__identity">

@@ -4817,7 +4817,7 @@ function toTheme(seed: CuratedAnimeSeed, originalTheme: CuratedThemeSeed): Publi
     : legacyLinks;
 
   return {
-    id: `${publicSlug(seed)}-${theme.type.toLowerCase()}-${theme.sequence}`,
+    id: theme.id ?? `${publicSlug(seed)}-${theme.type.toLowerCase()}-${theme.sequence}`,
     type: theme.type,
     sequence: theme.sequence,
     titleJa: theme.titleJa,
@@ -4932,7 +4932,7 @@ function toDetail(seed: CuratedAnimeSeed): PublicAnimeDetail {
     .sort((left, right) =>
       left.type === right.type
         ? left.sequence - right.sequence
-        : left.type === "OP" ? -1 : 1
+        : ({ OP: 0, ED: 1, IN: 2 }[left.type] - { OP: 0, ED: 1, IN: 2 }[right.type])
     );
   const hasOfficialVideo = themes.some((theme) =>
     theme.videos.length > 0 || theme.links.some((link) => link.platform === "YouTube")

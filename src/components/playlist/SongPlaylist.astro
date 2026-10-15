@@ -40,6 +40,7 @@ const animeCount = new Set(rows.map((row) => row.anime.slug)).size;
       <label><input type="radio" name="type" value="all" checked /><span>全部</span></label>
       <label><input type="radio" name="type" value="OP" /><span>OP</span></label>
       <label><input type="radio" name="type" value="ED" /><span>ED</span></label>
+      <label><input type="radio" name="type" value="IN" /><span>劇中歌</span></label>
     </fieldset>
     <details class="playlist-filters" open>
       <summary>篩選與排序 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg></summary>
@@ -56,7 +57,7 @@ const animeCount = new Set(rows.map((row) => row.anime.slug)).size;
     </details>
   </form>
   <div class="playlist-summary">
-    <p id="catalog-search-summary" aria-live="polite"><strong data-catalog-theme-count>{rows.filter((row) => row.theme).length}</strong> 首歌曲 · <span data-catalog-anime-count>{animeCount}</span> 套動畫 <small lang="en">OP / ED catalogue</small></p>
+    <p id="catalog-search-summary" aria-live="polite"><strong data-catalog-theme-count>{rows.filter((row) => row.theme).length}</strong> 首歌曲 · <span data-catalog-anime-count>{animeCount}</span> 套動畫 <small lang="en">Anime song catalogue</small></p>
     {initialSeason && <a data-playlist-season-link href={mode === "season" ? "/catalog/" : `/seasons/${initialSeason.id}/`}>{mode === "season" ? "按年份瀏覽" : "查看季度"}</a>}
   </div>
   <div class="song-list-heading" aria-hidden="true"><span>#</span><span>歌曲 <small>Song</small></span><span>演唱者 <small>Artist</small></span><span>出自動畫 <small>Anime</small></span><span>用途</span><span>季度</span><span></span></div>

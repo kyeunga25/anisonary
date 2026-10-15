@@ -60,6 +60,21 @@ it("keeps the whole reviewed catalogue consistent across seasons, details, sourc
     expect(row.anime.seasons.some((season) => season.id === row.season.id)).toBe(true);
     expect(playlistRowHref(row)).toBe(`/anime/${row.anime.slug}/`);
   }
+  // A corrected insert song keeps its public ID and is not counted or filtered as an ED.
+  const inserts = curatedAnimeDetails.flatMap((detail) => detail.themes).filter((theme) => theme.type === "IN");
+  expect(inserts.length).toBeGreaterThan(0);
+  const filterOptions = {
+    query: "", scope: "all" as const, year: "", quarter: "", sort: "newest" as const,
+    videoOnly: false, weekday: "", includeEmpty: false
+  };
+  expect(getPlaylistRows(index, { ...filterOptions, type: "IN" }).map((row) => row.theme!.id).sort())
+    .toEqual(inserts.map((theme) => theme.id).sort());
+  expect(getPlaylistRows(index, { ...filterOptions, type: "ED" }).every((row) => row.theme!.type === "ED")).toBe(true);
+  for (const seed of curatedAnimeSeeds) {
+    for (const authored of seed.themes.filter((theme) => theme.id)) {
+      expect(animeById.get(seed.id)!.themes.some((theme) => theme.id === authored.id && theme.type === authored.type)).toBe(true);
+    }
+  }
   // Official external videos remain discoverable before embedding metadata is
   // available. A bare YouTube URL cannot establish official provenance.
   const videoOptions = {

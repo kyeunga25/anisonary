@@ -1,5 +1,6 @@
 import { getPlaylistRows, PLAYLIST_PAGE_SIZE, playlistRowHref, playlistSeasonLabel, type PlaylistOptions, type PlaylistRow } from "@/utils/song-playlist";
 import type { CatalogSearchIndex } from "@/utils/catalog-search-index";
+import { themeTypeLabel } from "@/utils/theme";
 
 for (const root of document.querySelectorAll<HTMLElement>("[data-catalog-search]")) {
   const indexElement = root.querySelector<HTMLScriptElement>("[data-search-index]");
@@ -73,7 +74,7 @@ for (const root of document.querySelectorAll<HTMLElement>("[data-catalog-search]
     path.setAttribute("d", "m9 5 7 7-7 7");
     arrow.append(path);
     link.append(count, title, element("span", "song-row__artist", theme?.artistDisplayName ?? "查看作品與核對來源"), identity,
-      element("span", `song-row__type${theme?.type === "OP" ? " song-row__type--op" : ""}`, theme ? `${theme.type}${theme.sequence}` : "—"),
+      element("span", `song-row__type${theme?.type === "OP" ? " song-row__type--op" : ""}`, theme ? themeTypeLabel(theme) : "—"),
       element("span", "song-row__season", playlistSeasonLabel(row)), arrow);
     item.append(link);
     return item;

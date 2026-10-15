@@ -10,7 +10,7 @@ import { loadCatalogSearchData } from "@/data/page-data";
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import type { PublicAnimeDetail, PublicSeasonSummary } from "@/types/public-api";
 import { buildAnimeJsonLd } from "@/utils/seo";
-import { animeStatusLabel } from "@/utils/theme";
+import { animeStatusLabel, themeTypeLabel } from "@/utils/theme";
 import { formatBroadcastLabel } from "@/utils/weekday";
 import { compareSeasonsNewestFirst } from "@/utils/season";
 
@@ -120,10 +120,10 @@ catalogCorrectionUrl.searchParams.set("title", `資料修正：${anime.titleJa}`
     </header>
 
     <section class="detail-section" aria-labelledby="themes-title">
-      <div class="detail-section__heading"><h2 id="themes-title">全部主題曲 <small lang="en">All themes</small></h2><span>{anime.themes.length} 首 OP／ED</span></div>
+      <div class="detail-section__heading"><h2 id="themes-title">全部主題曲 <small lang="en">All themes</small></h2><span>{anime.themes.length} 首歌曲</span></div>
       {anime.themes.length > 0 ? (
         <>
-          <nav class="theme-jump-list" aria-label="這部動畫的全部歌曲">{anime.themes.map((theme) => <a href={`#theme-${theme.id}`}><span>{theme.type}{theme.sequence}</span>{theme.titleJa}</a>)}</nav>
+          <nav class="theme-jump-list" aria-label="這部動畫的全部歌曲">{anime.themes.map((theme) => <a href={`#theme-${theme.id}`}><span>{themeTypeLabel(theme)}</span>{theme.titleJa}</a>)}</nav>
           <div>{anime.themes.map((theme) => <ThemeCard theme={theme} />)}</div>
         </>
       ) : (
