@@ -703,7 +703,21 @@ const extraThemes: Record<number, CuratedThemeSeed[]> = {
       type: "ED",
       sequence: 1,
       titleJa: "delulu",
-      artistDisplayName: "冨岡 愛"
+      artistDisplayName: "冨岡 愛",
+      songId: "gelpiyo-ed-1-song",
+      links: [{
+        platform: "YouTube", label: "delulu Music Video",
+        url: "https://www.youtube.com/watch?v=tVdQqZTsNOY", linkType: "direct_track",
+        region: "GLOBAL", verifiedAt: "2026-10-15", availability: "unknown"
+      }],
+      sources: [{
+        url: "https://tomiokaai.net/video?tag=MUSIC", label: "冨岡 愛官方 VIDEO：delulu Music Video",
+        language: "ja", role: "first_party", verifiedAt: "2026-10-15"
+      }],
+      evidence: [{
+        target: "link", targetId: "https://www.youtube.com/watch?v=tVdQqZTsNOY",
+        fields: ["url", "type"], sourceUrls: ["https://tomiokaai.net/video?tag=MUSIC"], verifiedAt: "2026-10-15"
+      }]
     }
   ],
   212308: [
