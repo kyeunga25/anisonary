@@ -34,6 +34,7 @@ PUBLIC_API_BASE_URL=https://anisonary.k-y.cc/api/v1 npm run api:check
 - ID／slug、季度 identity、星期、深夜時間、數字範圍、array 上限、HTTPS URL、YouTube ID 及 ISO 8601 日期均需合法；
 - season list 不可重複，detail response identity 必須與 request path 一致，動畫的 OP／ED 數量及影片狀態必須與 theme 內容相符；
 - `PublicTheme.type` 接受 `OP`、`ED`、`IN`（劇中歌）；`IN` 不計入 `opCount`／`edCount`，但會出現在歌曲列表、搜尋與動畫頁。修正既有用途分類時，公開 `id` 及用途序號可保留原值，消費端不可由 ID 字尾推定分類；以 `type` 為準。
+- `PublicTheme.idAliases` 是可選的舊用途 ID 別名；僅在證據確認重複用途合併時使用。別名保存在公開 JSON，動畫頁的舊 `#theme-{id}` 錨點仍連到同一歌曲卡片；不增加歌單、OP／ED 或歌曲計數。每部作品的正規 ID 及所有別名不可互相重複，消費端可據此解析已保存的舊識別。
 - poster／banner 只接受已核對的 `https://s4.anilist.co` media origin；Annict／Bangumi catalog reference identity 必須對應各自固定的 catalog、documentation 及 API origin；
 - 跨季度索引與 live smoke 共用最多 10,000 個唯一作品、20,000 筆季度引用的上限，先檢查引用數量再按 slug 去重；season/detail request concurrency 固定上限為 8，動畫靜態頁亦共用 gate；搜尋的公開文字索引另有 8 MiB UTF-8 上限，超出即停止 build；
 - provider 只重建公開契約欄位，未知欄位不會穿過 data layer，避免 private adapter、內部 confidence 或其他 backend metadata 意外進入頁面資料。
