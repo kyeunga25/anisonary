@@ -12,9 +12,9 @@
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2020–2026 創作名單與官方 YouTube 深化；由最新已收錄季度往舊季度，沿用已接通格式及有效來源 |
 | 完成條件 | 本範圍的既有 OP／ED 用途逐批補有第一方證據的作詞、作曲、編曲、演唱／團隊及官方影片；經公開 JSON、動畫頁與必要檢查驗證；兩輪查找仍未明的欄位保留缺口與續查條件 |
-| 執行狀態 | 已暫停：第七批資料、既有介面／測試／文件與依賴修補已完成，GitHub quality 與正式網站驗收通過。發布 checkpoint 保存後停止，不啟動下一批；2020–2026 深化及 2007–2026 長期目標均未完成 |
-| 接續位置 | 本輪僅作發布收尾，不啟動下一批。明確恢復後先處理 2026 夏的跨季額外作品 `curated-189046`（3 筆用途），再接 2026 春 `curated-180745` 起的首 9 部作品（23 筆用途）；共 10 部／26 筆。固定範圍與截止日保留 |
-| 發布提交 | [PR #99](https://github.com/kyeunga25/anisonary/pull/99) 已正常 rebase 合併，保留 9 個階段提交；main／部署來源 `f2fb293`，與審閱 head 的 Git tree 相同。原始 SHA 留在 `codex/2026-summer-catalogue-release`，main 對應表見發布收尾 |
+| 執行狀態 | 整體執行中；第 08–12 批本機成果與發布前完整檢查已完成，正在分類提交與發布。發布驗收後接續第十三批；每批沿用資料、驗證及發布流程，收到暫停或停止要求立即保存位置。2020–2026 深化及 2007–2026 長期目標均未完成 |
+| 接續位置 | 第十三批由春季 `curated-199588` 至 `curated-185211`，9 部／27 筆既有 OP／ED；起點 `otaku-ni-yasashii-gal-wa-inai-op-1`。途中 Re:ゼロ 第四季的 3 筆用途已在第八批處理，直接沿用。優先補創作、官方影片、版本與收錄，核對同名與 MV 標示的實際關係。固定截止日仍為 2026-10-14，已完成批次實際核對日期為 2026-10-15 |
+| 發布提交 | 前次 [PR #99](https://github.com/kyeunga25/anisonary/pull/99) 已正常 rebase 合併，保留 9 個階段提交；前次部署來源 `f2fb293`。第 08–12 批的提交及正式驗收另記下方本次發布收尾，未驗收前不視為已部署 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
 執行狀態使用「未開始／執行中／已暫停／已完成／已取消」；無法繼續時另記具體阻礙及仍未完成部分，不自動標記完成。長期目標與本次工作量分開，未指定本次工作量時先完成下一批。
@@ -32,12 +32,12 @@
 
 ## 下一輪位置
 
-目前優先順序已調整為 **2020–2026 創作名單及官方 YouTube**。本輪以已收錄用途深化為主，同作品的新公告用途經核心核對後一併補入；不重做季度全集盤點。2026 秋、2025 秋的核心漏季仍保留，待此項優先工作之後接續。固定截止日仍為 2026-10-14。啟動盤點的本機唯一用途為 3,965 筆；跨年作品在各年統計可能重複，不能相加。此數量是範圍基線，不代表欄位完成。第二批補入 3 筆、第六批補入 4 筆新用途後，本機範圍為 3,972 筆；目前全目錄為 28 季、1,917 動畫頁、4,236 筆用途。
+目前優先順序已調整為 **2020–2026 創作名單及官方 YouTube**。本輪以已收錄用途深化為主，同作品的新公告用途經核心核對後一併補入；不重做季度全集盤點。2026 秋、2025 秋的核心漏季仍保留，待此項優先工作之後接續。固定截止日仍為 2026-10-14。啟動盤點的本機唯一用途為 3,965 筆；跨年作品在各年統計可能重複，不能相加。此數量是範圍基線，不代表欄位完成。第二批補入 3 筆、第六批補入 4 筆新用途後，當時範圍為 3,972 筆；第八批再補 5 筆後為 3,977 筆。第十批再補 2 筆後期用途後為 3,979 筆；第十一批補 3 筆後為 3,982 筆。最新全目錄為 28 季、1,917 動畫頁、4,246 筆用途；用途類型沿用第十一批；第十二批只深化既有用途，最新差異見第十二批。
 
 | 優先 | 工作 | 狀態與接點 |
 | --- | --- | --- |
 | 1 | 一次性最小格式與真實試行 | 2026-10-14 已完成，見下方 2026-summer-schema-pilot；後續直接沿用格式，不重新設計或搬移全量資料 |
-| 2 | 當前深化接點 | 2026 夏；第七批接點見上方。先完成目前 2020–2026 credits／YouTube 優先工作；既有有效名單與影片直接沿用 |
+| 2 | 當前深化接點 | 第十二批已完成春季 `curated-206914` 至 `curated-206951` 的有界深化；下批由 `curated-199588` 起接續，見頂部與第十二批記錄。2020–2026 credits／YouTube 優先工作持續，沿用有效名單與影片 |
 | 3 | 較新季度未公布後續及核心漏季 | 深化按 2026 夏 → 春 → 冬接續；2026 秋 registry 仍未收錄，保留有界核心盤點接點。只處理新證據、到期項目與未補欄位 |
 | 4 | 中間漏季及歷史深化 | 2025 秋，再按秋／夏／春／冬倒序處理其餘年份；2019 夏的已有缺口於到達該季時接續 |
 | 5 | 延伸更早歷史 | 2019 春／冬與更舊季度，沿用同一有界流程 |
@@ -642,3 +642,409 @@ The schema pilot and summer 2026 batches 01–03 are saved in local commit c71f0
 - 正式展示：7 部／12 用途在桌面 1536×1024 與手機 390×844 通過；曲名修正可搜尋，完整作品主題曲、創作、音源、收錄及來源可見；Wonder 官方外連可被影片篩選找到。沒有 app console error 或自動 YouTube request；第三方海報在測試攔截，不宣稱外部媒體或地區播放可用性。
 - HTTP 診斷限制：預設 Python client 曾被 Cloudflare 回應 403／1010；沒有更改或停用網站保護。既有 Node API gate、普通 Node fetch 與匿名標準瀏覽器驗收均通過，該次診斷失敗不記為通過，也不推定所有 client signature 均可訪問。
 - 最後可靠接點：本輪第七批及發布驗收完成，整體目標未完成。恢復必須明確指定；先由 `re-zero-season-4-op-1` 處理夏季跨季額外作品，再接春季 `curated-180745` 等首 9 部，共 10 部／26 用途。未解創作、影片及發行缺口保留在本批表中；沒有自動背景／排程收集。
+
+
+## 2026-10-15 批次：2026-summer-spring-credits-youtube-08
+
+完成層次：2026 夏季跨季額外作品加 2026 春季首 9 部，共 10 部／31 筆用途；26 筆既有用途全部深化，新增《ガンバレ！中村くん！！》5 筆輪替 ED。沿用已接通格式與有效來源，優先保存歌曲／動畫用途、官方影片、已證實音源及創作。來源本次核對日期為 2026-10-15，只採固定截止日 2026-10-14 以前已公告的資料。以下成果僅在本機，沒有提交、推送或部署。
+
+| 公開 theme ID | 歌曲 | 實際補齊／更正 |
+| --- | --- | --- |
+| `re-zero-season-4-op-1` | Recollect | 完整創作；官方 MV、Digital Single 與配信 |
+| `re-zero-season-4-ed-1` | Ender Ember | 作詞／作曲；官方 MV、Digital Single 與配信 |
+| `re-zero-season-4-ed-2` | Stay Alive ～Regain～ | 更正為 IN 劇中歌；原文曲名、角色／CV、完整創作、重新編曲／studio live、Digital Single；舊 ID／序號保留 |
+| `youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-4th-season-2-nensei-hen-ichi-gakki-op-1` | MONSTER | 完整創作；Instrumental、藝人版 Single、官網影片補證 |
+| `youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-4th-season-2-nensei-hen-ichi-gakki-ed-1` | ライアーヴェール | 完整創作；官網影片補證 |
+| `daikenja-riddle-no-jikan-gyakko-ed-1` | Savage | 演唱原文亜咲花；完整創作、Instrumental、Digital Single、官方音訊及確切平台 |
+| `jidou-hanbaiki-ni-umarekawatta-ore-wa-meikyuu-wo-samayou-3rd-season-op-1` | ジハンキズム | 完整創作、4 位成員、Digital Single |
+| `jidou-hanbaiki-ni-umarekawatta-ore-wa-meikyuu-wo-samayou-3rd-season-ed-1` | めくるめくランデヴー | 完整創作、Digital Single 品番與官方配信 |
+| `saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-2nd-season-op-1` | さよならじゃない方がいい | 詞曲與演唱正版交叉核對；官方 MV、CD Single、確切 Qobuz |
+| `saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-2nd-season-ed-1` | 二つの道 | 第一方作曲／編曲、作詞交叉核對；MV、off vocal、CD 兩版、確切 Qobuz |
+| `nigashita-sakana-wa-ookikatta-ga-tsuriageta-sakana-ga-ookisugita-ken-op-1` | 誓いはキュンと。 | 完整創作、鈴木愛理個別演唱、Digital Single 與官方配信 |
+| `nigashita-sakana-wa-ookikatta-ga-tsuriageta-sakana-ga-ookisugita-ken-ed-1` | DEAD OR LOVE | 完整創作、MV／無字幕 ED、Digital Single 及官方配信 |
+| `ganbare-nakamura-kun-op-1` | 瞬発的に恋しよう | 完整創作、2 位個別演唱與 Producer；MV／無字幕 OP、Backing Track、CD 兩版 |
+| `ganbare-nakamura-kun-ed-1` | 初恋 | 官方各話 ED／MV 與配信、ED 曲集 CD／Spotify 收錄、創作補證；Album Version 音源 |
+| `ganbare-nakamura-kun-ed-2` | WON'T BE LONG | 官方各話 ED／MV 與配信、ED 曲集 CD／Spotify 收錄、創作補證 |
+| `ganbare-nakamura-kun-ed-3` | 今夜はブギー・バック smooth rap | 官方各話 ED／MV 與配信、ED 曲集 CD／Spotify 收錄、創作補證；編曲留空 |
+| `ganbare-nakamura-kun-ed-4` | 負けるもんか | 官方各話 ED／MV 與配信、ED 曲集 CD／Spotify 收錄、創作補證 |
+| `ganbare-nakamura-kun-ed-5` | フライディ・チャイナタウン | 官方各話 ED／MV 與配信、ED 曲集 CD／Spotify 收錄、創作補證 |
+| `ganbare-nakamura-kun-ed-6` | 世界でいちばん熱い夏（平成レコーディング） | 官方各話 ED／MV 與配信、ED 曲集 CD／Spotify 收錄、創作補證；平成レコーディング 2012mix 音源，編曲留空 |
+| `ganbare-nakamura-kun-ed-7` | 蠟人形の館 | 官方各話 ED／MV 與配信、ED 曲集 CD／Spotify 收錄、創作補證 |
+| `ganbare-nakamura-kun-ed-8` | Runner | 新增用途；官方各話 ED／MV 與配信、ED 曲集 CD／Spotify 收錄、創作補證 |
+| `ganbare-nakamura-kun-ed-9` | フレンズ | 新增用途；官方各話 ED／MV 與配信、ED 曲集 CD／Spotify 收錄、創作補證 |
+| `ganbare-nakamura-kun-ed-10` | GLORY DAYS | 新增用途；官方各話 ED／MV 與配信、ED 曲集 CD／Spotify 收錄、創作補證 |
+| `ganbare-nakamura-kun-ed-11` | 浪漫飛行 | 新增用途；官方各話 ED／MV 與配信、ED 曲集 CD／Spotify 收錄、創作補證 |
+| `ganbare-nakamura-kun-ed-12` | だいすき | 新增用途；官方各話 ED／MV 與配信、ED 曲集 CD／Spotify 收錄、創作補證；用途為第13話，序號為第12首不同 ED |
+| `dr-stone-science-future-part-3-op-1` | スキンズ | 4 位成員；詞曲／編曲正版交叉核對、MV、CD Single、確切 Qobuz |
+| `dr-stone-science-future-part-3-ed-1` | ROCKET | 3 位成員；詞曲／編曲正版交叉核對、MV、CD 兩版、確切 Qobuz |
+| `koori-no-jouheki-op-1` | 透明 | 完整創作；MV／Official Audio／明示 full-size 的動畫 MV 與音源 |
+| `koori-no-jouheki-ed-1` | 逆様 | 完整創作；官方 MV、Digital Single 與配信 |
+| `kirio-fanclub-op-1` | FANCLUB | 3 位官方合署詞曲、編曲及 3 位團隊成員；MV、Digital Single |
+| `kirio-fanclub-ed-1` | ハーモニー | 完整創作；MV、藝人 Album lovely moments 收錄及曲序 |
+
+- 已處理 anime ID：`curated-189046`、`curated-180745`、`curated-210375`、`curated-198939`、`curated-194317`、`curated-201817`、`curated-180228`、`curated-199221`、`curated-186497`、`curated-181284`。10 部作品的其他 metadata、圖像、來源及原 2026-07-25 日期保持不變；其他春季 seed 完全未改。
+- 實際創作差異：新增 107 筆創作角色（104 筆作詞／作曲／編曲、3 筆官方合署詞曲），其中 60 筆分列角色及 3 筆合署詞曲由第一方明列，44 筆由正版商品交叉核對。另新增 14 筆團隊成員、10 筆演唱 credit、1 筆 Producer；移除 4 筆被正確原文／個別歌唱者取代的演唱 credit，全部 credits 淨增 128。26 筆用途分列完整詞曲編曲、1 筆使用官方合署詞曲，4 筆仍缺編曲；欄位齊備不等於全部已有第一方逐項補證。
+- 新增音源 9：4 Instrumental／Backing Track／off vocal、1 Album Version 演唱、1 明示 full-size 演唱、1 2012mix、1 Regain 重新編曲、1 studio live。只有「透明」官方動畫 MV 明示 full-size；其餘長度留 unknown，沒有由 MV／ED 影片長度猜定 full／TV，也未將不同 MV 自動當作新音源。
+- 發行品新增 21 個不同 ID（19 Single、1 藝人 Album、1 動畫 ED／OST 曲集；11 個 CD 版、10 個 Digital Single）。跨歌曲共有 32 組收錄關係；《中村くん》12 首共用同一曲集 ID，各歌僅保存自己的 disc／track。曲集明列「初恋（アルバム・ヴァージョン）」及「平成レコーディング 2012mix」，不與其他 MV 猜定同一錄音。
+- 新增 29 個不同官方 YouTube 外連：21 MV（含 1 個官方明示 full-size 的動畫 MV）、2 官方音訊、1 studio live、5 ED 影片；另 11 個已有影片外連補上本次實讀官網的形式／用途證據。新增影片只保存外連與欄位證據，沒有猜造頻道或嵌入可用性；原有播放器維持明確連線同意。平台實際新增 74 個項目（29 YouTube、45 其他平台／官方入口；同一曲集在不同歌曲分別建立收錄入口，不當作不同專輯）。
+- 公開來源新增 94 個項目，4 個實際再讀來源更新其歌曲證據日期；新增 240 組欄位證據。其餘舊來源日期保留。Apple Music／YouTube Music 等目的頁讀取不完整時，以藝人／唱片官方配信頁保存確切目的 URL，所有新入口的地區可用性均為 unknown，沒有宣稱 HK／TW 可播放或購買。
+- `Stay Alive ～Regain～` 的動畫官方公告及既有 UZUREA 均明列劇中歌，原 ED 分類改為 `IN`；authoring、公開 parser／JSON、緊湊歌單、用途篩選及動畫頁已接通。公開 ID `re-zero-season-4-ed-2`、序號 2、原頁內連結保持有效；消費端以 type 判定，不從 ID 字尾猜用途。沒有將原版、Regain、studio live 當作三首新歌。這是既有用途的更正，不代表全面擴充歷史插曲收集範圍。
+- 全目錄為 28 季、1,917 個動畫頁、4,241 筆用途（4,240 OP／ED＋1 劇中歌）；2020–2026 為 1,808 個唯一作品、3,977 筆用途（3,976 OP／ED＋1 劇中歌）。與上一批相比新增 5 筆用途，並將 1 筆 ED 更正為 IN，不能把重分類算作新歌曲。
+
+### 待補資訊與續查條件
+
+| 公開 ID／欄位 | 保留缺口與續查條件 |
+| --- | --- |
+| `re-zero-season-4-ed-1`、`saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-2nd-season-op-1` 編曲 | 官網／藝人商品與第二輪歌曲定向查找仍無可明確採用的完整第一方名單；不從團體作者或泛用簡介推定。待官方影片描述、商品完整 credits 或創作者可讀實績明列本曲再補。部分作品頁讀取受限，未繞過限制 |
+| `ganbare-nakamura-kun-ed-3`、`ganbare-nakamura-kun-ed-6` 編曲 | 動畫 ED 分頁、唱片曲集與正版商品均未明列該使用音源的完整編曲。smooth rap 不套用 nice vocal 名單；平成錄音／2012mix 不套用 1987 年版編曲。待相關版本曲目 credits 或正式 liner 資訊 |
+| `kirio-fanclub-op-1` 詞曲細分 | 官網合署「作詞/作曲」三人，保存 songwriting，不擅自將每人拆作 lyrics＋composition。只有出現逐角色名單才細分；既有合署及編曲可直接展示 |
+| 正版商品交叉核對的創作 | 《中村くん》多首 ED、SIX LOUNGE 詞曲、22/7 作詞及 Dr.STONE 詞曲／編曲已有具體正版來源，保留交叉核對身分。待唱片／藝人／創作者的同曲完整 credits 再補第一方；羅馬字姓名不猜造未核對漢字 |
+| 《中村くん》的音源同一性及各歌其他收錄 | 官方 ED、歷史 MV、曲集版是不同平台／發行關係；只有曲目明示的 Album Version／2012mix 建立音源，未推定其他 MV 與使用版相同。待官方版本識別、原專輯曲目表或可核對錄音資料，再補原 single／artist album；不搬入整張 OST 的非本曲曲目 |
+| `daikenja-riddle-no-jikan-gyakko-ed-1` MV／full；其他已保留舊影片的作品 | Savage 已補官方音訊與唱片直接外連；尚未完成 MV 的第一方直接渠道核對。部分歌曲本輪新增以外的 MV、Art Track、lyric、live、creditless、full／TV 與個別成員名單仍缺；定向官網／商品及第二輪歌曲查找後暫留，遇新官網直接影片或版本公告再查，不重搜全部舊影片 |
+| 其他發行品／平台 | ライアーヴェール、透明 的詳細 CD／Album editions、SIX LOUNGE 的 TV／Instrumental、各曲 OST／合輯與平台曲目深連結仍可補。既有已核對發行與配信先展示；待同曲官方完整曲目表或確切目的頁。ハーモニー 的官方公告對數位上架日有差異，本輪僅保存可確定的藝人 Album 日期，不猜定單曲日期 |
+
+### 驗證與接續
+
+- `npm test`：4 檔／5 項通過；全目錄透過公開 ApiProvider 契約檢查，新增 IN 篩選及更正後公開 ID 保留的斷言。初次驗證找出兩筆本批資料的 ID／URL 正規化問題，已修正資料，沒有放寬 validator。
+- `npm run build`：160 檔 0 errors／warnings／hints；1,961 HTML、3,918 公開產物通過 CSP／artifact gate。`npm run public:check`：239 個 repository 檔案通過。
+- 6 條 E2E 全部通過，涵蓋全目錄 API、緊湊歌單／搜尋、媒體同意、手機鍵盤、No JavaScript、離線及真實 404。第一次 Chromium 啟動受 macOS 沙盒 MachPort 權限限制，未進入網站測試；在允許的本機環境重試通過，沒有更改網站安全設定。
+- 本批 10 部／31 用途經本機公開 JSON 與桌面 1536×1024 核對；另以手機 390×844 檢查 Re:Zero、中村くん、氷の城壁。劇中歌可由 IN 篩選找到，ED 篩選排除；原 ID／頁內連結、第13話 ED、完整創作與收錄可見，無 app console error 或自動 YouTube request。外部海報被攔截，未宣稱外站媒體可用性。預覽發現的總數用詞改為「首歌曲」，不再將劇中歌總數稱為 OP／ED。
+- 本機預覽使用埠 4338；[輪替 ED／收錄示例](http://127.0.0.1:4338/anime/ganbare-nakamura-kun/)、[劇中歌更正](http://127.0.0.1:4338/anime/re-zero-season-4/)、[歌曲用途篩選](http://127.0.0.1:4338/songs/)。此輪沒有 Git commit、GitHub push／CI 或 Cloudflare 部署；前批正式網站保持原發布狀態。
+- 下一批為 2026 春首個未深化接點：`curated-179950`、`curated-210234`、`curated-195333`、`curated-209940`、`curated-202381`、`curated-170019`、`curated-182205`、`curated-196144`、`curated-183231`、`curated-198411`，共 10 部／25 筆用途，從 `reincarnation-no-kaben-op-1` 開始；之後由 `curated-171110` 接續。這批尚未開始來源查找；2020–2026 及固定 2007–2026 整體目標未完成。
+
+The eighth batch is verified locally: twenty-six existing uses enriched, five rotating endings added, and one existing ending correctly reclassified as an insert song without changing its public ID. Twenty-nine official YouTube destinations, nine recording variants and twenty-one release entities are added. Optional gaps and triggers remain listed above. No commit, push or deployment was performed. Continue at reincarnation-no-kaben-op-1; the wider enrichment target remains incomplete.
+
+
+## 2026-10-15 批次：2026-spring-credits-youtube-09
+
+完成層次：10 部既有作品、26 筆既有用途；25 筆更新，1 筆已有有效資料直接沿用。前批接點預估為 25 筆，這裡按公開 JSON 實數更正為 26。沒有新增動畫、季度或用途；修正錯配的歌曲身分，沿用既有格式。資料截止日維持 2026-10-14；實際查閱來源記 2026-10-15。本輪仍僅在本機。
+
+| 公開 theme ID | 歌曲 | 本批處理 |
+| --- | --- | --- |
+| `reincarnation-no-kaben-op-1` | Glitch* | 創作交叉補充、Animation Lyric Video、Digital Single |
+| `reincarnation-no-kaben-ed-1` | 零 | 完整第一方創作、AYAME、TV size／Instrumental／角色版、MV、Single／iller Album |
+| `mamonogurai-no-boukensha-ore-dake-mamono-wo-kuratte-tsuyoku-naru-op-1` | 正気の沙汰 | 完整第一方創作、夕日團隊身分、MV、Digital Single |
+| `mamonogurai-no-boukensha-ore-dake-mamono-wo-kuratte-tsuyoku-naru-ed-1` | STORY | 第一方作詞／作曲、4 位團隊成員；編曲待補 |
+| `haibara-kun-no-tsuyokute-seishun-new-game-op-1` | Fly Again!! | 完整第一方創作、MV、Digital Single／POLYPHONY Album |
+| `haibara-kun-no-tsuyokute-seishun-new-game-ed-1` | ドラマチック逃避行 | 完整第一方創作、Lyric Video、Digital Single／AIM STAR EP 兩版 |
+| `haibara-kun-no-tsuyokute-seishun-new-game-ed-2` | 大切なもの | 原名、灰原夏希／CV 與第10話特殊 ED；創作／Chorus 待補 |
+| `komekami-girls-op-1` | Get Set Go! | 沿用原 OP 影片、補核心交叉來源；創作有衝突，留空 |
+| `komekami-girls-ed-1` | 夢のレシピ | 拆出 4 位角色／CV 演唱；創作待補 |
+| `komekami-girls-ed-2` | チェックしよ！ | 原名、演唱、miniこめっ！用途；作詞／作曲交叉補充 |
+| `mata-korosarete-shimatta-no-desu-ne-tantei-sama-op-1` | スターダスト・エウレカ | 三角色創作交叉補充、MV、Digital Single／LAPLACEL Album 兩版 |
+| `mata-korosarete-shimatta-no-desu-ne-tantei-sama-ed-1` | リリテアの歌 | 角色／CV、三角色創作與 OTOTOY 確切入口交叉補充；日期衝突留空 |
+| `otonari-no-tenshi-sama-ni-itsunomanika-dame-ningen-ni-sareteita-ken-2nd-season-op-1` | 君は恋人 | 完整第一方創作、無字幕 OP、Digital／天使盤 Single、真昼角色翻唱及伴奏、OST 收錄 |
+| `otonari-no-tenshi-sama-ni-itsunomanika-dame-ningen-ni-sareteita-ken-2nd-season-ed-1` | うれしい！たのしい！大好き！ | 還原 ED1 原名／真昼演唱，修正錯配影片；創作、Instrumental、OST 及確切平台 |
+| `otonari-no-tenshi-sama-ni-itsunomanika-dame-ningen-ni-sareteita-ken-2nd-season-ed-2` | 夏祭り | 原名／角色、創作、官方歌曲影片、Instrumental、OST 及確切平台 |
+| `otonari-no-tenshi-sama-ni-itsunomanika-dame-ningen-ni-sareteita-ken-2nd-season-ed-3` | ヘビーローテーション | 原名、5 位角色／CV、創作、移回正確歌曲影片、Instrumental、OST 及平台 |
+| `otonari-no-tenshi-sama-ni-itsunomanika-dame-ningen-ni-sareteita-ken-2nd-season-ed-4` | 明日への扉 | 原名／角色、創作、官方歌曲影片、Instrumental、OST 及確切平台 |
+| `tensei-shitara-slime-datta-ken-4th-season-op-1` | 絵空事 | 完整第一方創作、Instrumental，重用 MONSTER／絵空事 同一 Single ID |
+| `tensei-shitara-slime-datta-ken-4th-season-op-2` | TACTIC | 完整第一方創作、Digital Single 與官方配信 |
+| `tensei-shitara-slime-datta-ken-4th-season-ed-1` | 渇望 | 創作交叉補充、5 位成員、MV、Instrumental／CD Single，Anime size 確切平台 |
+| `tensei-shitara-slime-datta-ken-4th-season-ed-3` | ヒムナル | 還原原名／藝人、作曲／編曲第一方、作詞交叉補充、第二弾 ED 映像、Digital Single |
+| `tensei-shitara-slime-datta-ken-4th-season-ed-2` | Walk on your way | 還原 Walk on your way／藍井エイル，改為 IN 劇中歌；完整創作、Digital Single 與配信 |
+| `snowball-earth-op-1` | 零-zero- | 作詞／作曲正版交叉補充、MV、Digital Single 與確切平台；編曲待補 |
+| `snowball-earth-ed-1` | 今この胸に滾るのは | 完整第一方創作、14 筆演奏角色、無字幕 ED、Digital Single、官方明示動畫 MV Edit 音源 |
+| `rilakkuma-ed-1` | stay with me | 原文藝人幾田りら、完整第一方創作、官方配信與 Digital Single；沿用既有 ED 用途 |
+| `nezumi-kun-no-chokki-tv-ed-1` | グッドラック！マイフレンド feat.ムロツヨシ & さかなクン | 沿用既有完整創作／個別演唱、無字幕 ED／MV／Dance Video 及配信；沒有改日期 |
+
+已處理 anime ID：`curated-179950`、`curated-210234`、`curated-195333`、`curated-209940`、`curated-202381`、`curated-170019`、`curated-182205`、`curated-196144`、`curated-183231`、`curated-198411`。所有既有 theme ID、用途序號、動畫 slug 及頁內連結保留；其他春季 seed 沒有改動，第八批成果保留。
+
+### 實際差異
+
+- 為 25 筆既有用途登記歌曲 ID；不同影片、演唱版與專輯沒有新增歌單列。新增 72 筆創作角色（22 作詞、27 作曲、23 編曲）：39 筆第一方、33 筆明示交叉核對。19 筆更新用途已有三個創作角色，其中 10 筆三角色均有第一方、9 筆含交叉補充；另 6 筆仍未齊。《鼠小弟》的既有三角色及影片直接沿用，不當作新補成果。
+- 新增 19 筆原文／個別角色演唱 credit，取代 12 筆合併或非原文演唱項目；另補 10 筆團隊成員及 14 筆有明確樂器的演奏角色。全部 credits 淨增 103，角色條目數不等於人數；NEE、niina、CiON 成員沒有自動推定為本曲演唱者。
+- 新增 13 個音源項目：8 Instrumental、2 角色演唱、1 AYAME 演唱、1 TV size、1 官方明示動畫 MV Edit。只有「零 TV size ver.」分類為 TV；其餘 12 項長度 unknown，沒有由 MV／無字幕映像推定 full。真昼的「君は恋人」角色翻唱另記自己的編曲，未套用大石昌良原唱編曲。
+- 建立 28 組歌曲／發行品收錄關係，涉及 24 個不同發行 ID：23 個新發行品（14 Digital、9 CD 版），加上第八批已存在的 LACM-24832 藝人版 Single。相關發行類型為 17 Single、4 Album、2 EP、1 OST；《天使》5 首共用 THCA-60302，MONSTER／絵空事 共用原 Single ID，各歌僅存自己的曲目。
+- 新增 12 個不同官方 YouTube 入口（6 MV、2 Lyric Video、1 無字幕 ED、1 ED 映像、2 官方歌曲影片）；另為 2 個既有入口補形式證據，將錯配在《天使》ED1 的「ヘビーローテーション」影片移回 ED3。新入口以命名外連及欄位證據提供；頻道／嵌入 metadata 不足時不補造。原有《鼠小弟》3 支影片保持原狀。
+- 平台項目新增 49、移除 1 個錯配連結；新增中包含上述影片的 13 個用途連結（其中 1 個為移回正確歌曲）、19 官方配信、8 Qobuz、4 Apple Music、4 Spotify、1 OTOTOY。相同專輯在不同歌曲出現不算不同專輯，地區可用性保持 unknown。
+- 公開來源新增 64 個項目，7 個實際重讀的既有來源更新獨立核對日期，移除 1 個錯配的 ED1 影片來源；新增 178 組欄位證據。作品其他 metadata、圖像及來源日期保持原狀；只有歌曲衍生的史萊姆 ED 數由 3 更正為 2。部分受限頁面採已可讀公開索引核對，來源標籤明示，不聲稱影片播放／嵌入或地區可用性已驗收。
+- 《天使》ED1 原有羅馬字已指向「うれしい！たのしい！大好き！」，本批依官網還原曲名、真昼演唱與正確無字幕 ED；ED3 才是 5 人的「ヘビーローテーション」。史萊姆原 ED2 依唱片官方還原為「Walk on your way／藍井エイル」並改 IN，仍使用 `tensei-shitara-slime-datta-ken-4th-season-ed-2`；ED3 保留給「ヒムナル／田所あずさ」。沒有合併或刪除舊 ID。
+- 全目錄仍為 28 季、1,917 動畫頁、4,241 筆用途（4,239 OP／ED＋2 劇中歌）；2020–2026 仍為 1,808 個唯一作品、3,977 筆用途（3,975 OP／ED＋2 劇中歌）。本批重分類不是新增歌曲。
+
+### 待補資訊與續查條件
+
+| 範圍／公開 ID | 待補與觸發條件 |
+| --- | --- |
+| `mamonogurai-no-boukensha-ore-dake-mamono-wo-kuratte-tsuyoku-naru-ed-1` | 編曲、個別本曲演唱／演奏及其他官方影片。已有官網詞曲與團隊 4 人；待官方歌曲 credits／商品／MV 明列，不由團隊位置推定本曲演唱 |
+| `haibara-kun-no-tsuyokute-seishun-new-game-ed-2` | 目前由原作者證實第10話特殊 ED 及夏希演唱；新版創作、芹香 Chorus 名單、正式發行／影片仍缺。待動畫／唱片完整本曲名單；不把原曲編曲或未證實合唱者套入此角色演出 |
+| `komekami-girls-op-1`、`komekami-girls-ed-1`、`komekami-girls-ed-2` | OP 詞曲在社群資料與製作者聲明轉載不一致，ED1 另有「夢／愛のレシピ」名稱衝突；沒有採用衝突創作。ED2 詞曲僅交叉補充、編曲空白。官網／出演者及兩輪定向查找後仍無清楚第一方完整 credits；待官方音樂公告、可讀影片描述或商品曲目表。ED2 標清 miniこめっ！用途，沒有新增一部動畫 |
+| `snowball-earth-op-1` | 編曲及作詞／作曲第一方補證；目前詞曲來自正版 Qobuz。待藝人／唱片本曲完整 credits；一般簡介與影片長度不能證明編曲／full |
+| 9 筆三角色含交叉補充的用途 | Glitch*、またころ OP／ED、天使 4 首 ED、渇望、ヒムナル 的部分創作來自 MusicBrainz、歌曲資料庫或正版平台，保留 cross_check；待藝人／唱片／創作者逐角色本曲名單。天使各 Cover 的編曲以本次配信版為準，沒有套用歷史原唱編曲 |
+| 官方 YouTube | STORY、灰原特殊 ED、こめかみ ED、stay with me、TACTIC、Walk on your way，以及零角色版的其他確切 MV／Art Track／lyric／live 入口仍可補。部分已有舊外連，尚未齊備各形式與渠道；待官網直接外連或可讀官方公告，不把 PV／MV／creditless 當作 full 或新錄音；缺口不在下一批整批重搜 |
+| ヒムナル／渇望 Anime size | Qobuz 已明列ヒムナル Instrumental、渇望 Anime size ver.，保留精確平台與事實來源；尚缺第一方完整曲目證據，未將兩者加入已核對音源數。待唱片曲目表／官方平台說明再接錄音關係 |
+| 渇望 CD 及後續版本 | 只按 avex 現行商品頁登記 AVCD-61717/B 第1／5軌；藝人初報曲序不同，其他版不推定同一曲序。Wind Orchestra Ver. 尚屬後續發行公告，待正式發行與最終曲目證據，未算已發行錄音 |
+| `rilakkuma-ed-1` | 官網本次只明示「主題歌」及創作；ED 用途沿用既有核對，沒有宣稱本次官方重新證實 ED，也未新增 OP。待官方 OP／ED 用途或實際片尾證據再處理分類；官方影片確切形式仍缺 |
+| 發行日期、其他版／平台 | リリテアの歌 的正版頁日期與動畫年份衝突，未採用 2025 日期；待唱片／平台更正。其 TV Size、各歌其他 CD／Album／OST、音源同一性與 ISRC 留待官方商品／識別資料，不猜造。不同版單曲、MV 音源及合輯曲目未自動合併；所有地區可用性未驗收 |
+
+### 本機驗證與接續
+
+- `npm test`：4 檔／5 項通過，涵蓋全目錄公開 parser、來源及錄音／發行引用。`npm run build`：160 檔 0 errors／warnings／hints、1,961 HTML、CSP／Service Worker／3,918 公開產物通過。本批未改 contract／UI／搜尋／播放器，沒有重跑第八批已通過的完整 6 條 E2E。
+- 實際本機預覽：10 部／26 用途桌面 1536×1024、3 部手機 390×844 通過；核對創作、角色／TV／Instrumental、收錄、來源展開、THCA-60302 搜尋 5 首、IN／ED 篩選及舊歌曲錨點。無橫向溢出、空白頁、錯誤覆蓋層、app console error 或自動 YouTube request；外部海報攔截，未驗收外站播放。第一次自動權限審查逾時，未執行瀏覽器；工具允許的一次重試後通過。
+- `npm run public:check`：239 個 repository 檔案通過；本文件 2 個本機 Markdown 連結及 `git diff --check` 通過。資料前後比對確認全部公開 ID 保留、作品 metadata／來源日期未重設，只有指定 9 個 seed 更新；第八批與其他 seed 保留。
+- 預覽入口：[零的 TV／角色版與收錄](http://127.0.0.1:4338/anime/reincarnation-no-kaben/)、[天使更正歌曲與合輯](http://127.0.0.1:4338/anime/otonari-no-tenshi-sama-ni-itsunomanika-dame-ningen-ni-sareteita-ken-2nd-season/)、[史萊姆劇中歌更正](http://127.0.0.1:4338/anime/tensei-shitara-slime-datta-ken-4th-season/)、[春季緊湊歌單](http://127.0.0.1:4338/seasons/2026-spring/)。本機 4338 的 CSP 與本次建置相同。
+- 本輪沒有提交、推送、GitHub CI 或 Cloudflare 部署；既有未提交變更保留，production 仍是前次發布。下一批從春季 `curated-171110` 接續，僅按新證據及上列觸發條件回補缺口；2020–2026 深化與 2007–2026 整體目標均未完成。
+
+The ninth batch covers 26 existing uses across 10 anime: 25 updated and one reused unchanged. It adds 72 creator-role credits, 13 recording variants, 12 distinct official YouTube links and 23 new release entities, reusing one existing single. Two overwritten song identities are corrected without changing public IDs. Local tests, build and representative browser flows pass; optional gaps remain listed above. No commit, push or deployment was performed.
+
+
+## 2026-10-15 批次：2026-spring-credits-youtube-10
+
+完成層次：10 部既有春季作品、30 筆既有用途深化，另新增《おねがいアイプリ》已公布的後期 OP／ED，共 32 筆用途。固定公開資料截止日為 2026-10-14，本次來源實際核對日期為 2026-10-15。26 筆分列作詞、作曲及編曲：23 筆有第一方逐角色證據，3 筆仍有交叉來源角色待第一方補證；另外 6 筆保留明確缺口。本批完成不表示 2020–2026 或 2007–2026 整體目標完成。
+
+| 公開 theme ID | 歌曲 | 實際新增／更正 |
+| --- | --- | --- |
+| `honzuki-no-gekokujou-ryoushu-no-youjo-op-1` | Pages | TV Size、最終曲目表的三個 CD 版及 Digital Single；官方 MV；創作仍缺 |
+| `honzuki-no-gekokujou-ryoushu-no-youjo-op-2` | Power of Love | 西野カナ原文；完整創作、官方 Art Track、Digital Single 及官方配信 |
+| `honzuki-no-gekokujou-ryoushu-no-youjo-ed-1` | 今も、ありがとう | 完整創作；MV、Lyric Video、動畫版 Single 及配信 |
+| `honzuki-no-gekokujou-ryoushu-no-youjo-ed-2` | Wanna me | 作詞／作曲第一方、編曲交叉核對；full、TV edit、Instrumental、兩個 CD 版及兩個 Digital Single |
+| `mairimashita-iruma-kun-4-op-1` | 一二三 | 合署 songwriting／編曲及個別演唱交叉核對；6 位成員、Digital Single；未擅拆詞曲 |
+| `mairimashita-iruma-kun-4-ed-1` | すーぱー優勝ちゅーーん！ | 原名、7 位成員、詞曲交叉核對；MV、三個 CD 收錄版；編曲仍缺 |
+| `mairimashita-iruma-kun-4-ed-2` | リリス・カーペット | 原文曲名及問題児クラス名義；第7話演目補證，既有 ED 分類尚未重核 |
+| `saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo-op-1` | コンパスは透明 | F.M.F 第一方完整創作；既有官方影片沿用 |
+| `saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo-ed-1` | もーいーかい？ | 完整創作交叉核對、4 位成員；官方 MV、Digital Single |
+| `yomi-no-tsugai-op-1` | 飛ぶ時 | 原名及完整創作；原演唱／yama 互唱、共用 Single、MV／Art Track |
+| `yomi-no-tsugai-op-2` | back shot | 音田雅則原文及完整創作；原版 MV／Art Track、菅原圭翻唱及其各版本、Single 收錄 |
+| `yomi-no-tsugai-ed-1` | 飛ぼうよ | 原名及完整創作；原演唱／Vaundy 互唱、共用 Single、官方 MV |
+| `yomi-no-tsugai-ed-2` | 孔雀 | 原名及完整創作；full 官方音訊、Anime ver.／Instrumental／A cappella、無字幕 ED、CD／數位 Single |
+| `akane-banashi-op-1` | 人誑し / ひとたらし | 完整創作、弦編曲；兩個 CD 版與 ED 共用收錄 |
+| `akane-banashi-ed-1` | AKANE On My Mind～饅頭こわい | 完整創作、管編曲；兩個 CD 版與 OP 共用收錄 |
+| `mao-op-1` | HEARTLOUD | 完整創作；既有無字幕 OP 補證、Digital Single 及配信 |
+| `mao-op-2` | 僕らが上書きする世界 | 完整創作；既有無字幕 OP 補證、Digital Single 及配信 |
+| `mao-ed-1` | 呪愛 | 完整創作；既有無字幕 ED 補證、Digital Single 及配信 |
+| `mao-ed-2` | 揺蕩う | 完整創作及弦編曲；Instrumental、兩個 CD 版、既有無字幕 ED 補證 |
+| `needy-girl-overdose-op-1` | INTERNET ANGEL | Aiobahn +81 發行名義與超てんちゃん（天城サリー）實際歌唱分開；完整創作及官方配信 |
+| `needy-girl-overdose-ed-1` | れびてーしょん | 第一方作詞／作曲；編曲仍缺，既有官方影片沿用 |
+| `needy-girl-overdose-ed-2` | INTERNET OVERDOSE (Anime version) | 還原 ED2 被覆蓋的曲名／發行名義與第3話用途；角色歌唱／創作交叉核對、Anime version 音源、正確 MV／配信 |
+| `needy-girl-overdose-ed-3` | 罪と罰 | ED3 原名、角色／CV、完整創作及第5話用途；既有 MV 從錯置 ED2 移入正確用途 |
+| `needy-girl-overdose-ed-4` | Galge | Aiobahn +81 發行名義、KOTOKO 實際歌唱、完整創作；第13話用途及官方 MV |
+| `kanan-sama-wa-akumade-choroi-op-1` | 初恋モーメント | Faulieu. 原文名義、完整創作；Digital Single、藝人 Album MiX 的兩個 CD 版收錄 |
+| `kanan-sama-wa-akumade-choroi-ed-1` | ポップ・スナック・ジャンクなHUNNY | 完整創作；官方 MV、既有無字幕 ED 補證、Digital Single 及配信 |
+| `kami-no-niwatsuki-kusunoki-tei-op-1` | 驚きの子 | 完整創作；Instrumental、兩個 CD 版、官方 MV 及配信 |
+| `kami-no-niwatsuki-kusunoki-tei-ed-1` | うたまひ | Utamai 原文羅馬字標示及官方 Lyric Video；創作與發行品仍待補 |
+| `onegai-aipri-op-1` | おねがいアイプリ！ | 第一方完整創作；既有原文名義與影片沿用 |
+| `onegai-aipri-op-2` | かなえてキセキのエール！ | 新增後期 OP2；曲名、演唱、完整創作及第一方／交叉來源 |
+| `onegai-aipri-ed-1` | 放課後のおねがい！ | 第一方完整創作；既有原文名義與影片沿用 |
+| `onegai-aipri-ed-2` | おねがいテレパシー | 新增後期 ED2；曲名、演唱、完整創作及第一方／交叉來源 |
+
+已處理 anime ID：`curated-171110`、`curated-184492`、`curated-200769`、`curated-195600`、`curated-196935`、`curated-196012`、`curated-202102`、`curated-190704`、`curated-196029`、`curated-206523`。
+
+### 實際差異與關係
+
+- 新增動畫 0、用途 2，深化既有用途 30，登記歌曲 ID 32；沒有把 MV、互唱、TV 剪輯或其他發行版計為新歌曲。所有既有 theme ID、動畫 slug、用途序號及頁內錨點保留。
+- 新增 100 筆創作角色：33 作詞、31 作曲、34 編曲、2 合署 songwriting；88 筆由第一方支持，12 筆為明確標示的交叉核對。另新增 17 筆團隊成員、3 筆弦／管編曲補充角色；新增 13 筆演唱 credit、移除 10 筆被正確原文或實際演唱者取代的 credit，全部 credits 淨增 123。團隊成員不自動視為本曲演唱者。
+- 新增 19 個音源版本：14 演唱版、5 Instrumental。其中長度明示 full 2、TV 2、short 1，其餘 14 保留 unknown。互唱、翻唱與 A cappella 按實際演唱或官方版本名保存，不推定重新編曲；「孔雀 (Anime ver.)」沒有擅自分類 TV。Pages 的 Lead Off 僅保存確切曲目名稱，尚未猜定錄音類型。
+- 新增 34 個不同發行 ID：32 Single、2 藝人 Album 版；19 CD 版、15 數位版。共 41 組歌曲收錄關係，《飛ぶ時/飛ぼうよ》、《孔雀》及《人誑し / ひとたらし》的跨歌收錄共用發行 ID。只保存相關歌曲曲目；CD 與數位版未確認同一錄音時不填 `recordingId`。不同影片及發行版沒有自動合併成相同錄音。
+- 新增 18 個不同官方 YouTube URL：11 MV、3 Art Track、2 Lyric Video、1 Official Audio、1 無字幕 ED。另將「罪と罰」原有 MV 移到正確 ED3，合計新增 19 組用途／影片外連關係、移除 1 組錯置關係；5 個原有入口補上確切形式（MAO 4、カナン ED 1）。沒有生成新頻道或嵌入可用性 metadata；既有影片 metadata 沿用。
+- 平台外連新增 46 筆：19 YouTube、25 官方配信／CD 入口、2 隨新增用途生成的既有作品官網入口；移除錯置 YouTube 1 筆、更新命名外連 5 筆。這是平台出現及用途關係數，不是歌曲或專輯數。所有新增入口的地區播放／購買可用性均為 unknown。
+- 新增公開來源 75 筆、移除錯置於 ED2 的 YouTube 來源 1 筆，新增欄位證據 211 組。所有未重新查閱的既有歌曲來源日期保留，沒有整批重設日期。10 部作品的 metadata、圖像、識別、播出來源及 2026-07-25 日期不變；只有派生的主題曲數與官方影片存在旗標隨資料更新。
+- NEEDY ED2 原本被 ED3 的「罪と罰」覆蓋；依動畫官方第3／5話公告分別還原為「INTERNET OVERDOSE (Anime version)」及「罪と罰」，不刪除或合併 ID。ED4 的發行藝人名義為 Aiobahn +81，實際歌唱另記 KOTOKO；OP 也沒有把製作人 Aiobahn +81 當成演唱者。
+- 全目錄為 28 季、1,917 個動畫頁、4,243 筆用途（4,241 OP／ED＋2 IN）；2020–2026 為 1,808 個唯一作品、3,979 筆用途（3,977 OP／ED＋2 IN）。本批兩個後期用途放在既有動畫頁，沒有新增季度快照或宣稱秋季核心漏季已補齊。
+
+### 待補資訊與續查條件
+
+| 公開 ID／欄位 | 保留缺口與續查條件 |
+| --- | --- |
+| `honzuki-no-gekokujou-ryoushu-no-youjo-op-1` 創作／團隊 | 有界查找尚未取得可採用的逐項製作名單；待 Sony Music 曲目 credits、CoWRITE 明列本曲的作品表或正版平台製作者名單。最終 CD 曲目表已核對，不必重查曲序 |
+| `mairimashita-iruma-kun-4-op-1` 詞曲細分／第一方創作 | Shazam 只明列兩人 songwriting，保存合署而不拆作詞／作曲；編曲及兩位實際歌唱亦為交叉資料。待 Victor／藝人逐角色名單；6 位成員已有動畫官網證據 |
+| `mairimashita-iruma-kun-4-ed-1` 編曲／第一方詞曲 | 目前僅採 JOYSOUND 的 NOBE 作詞、michitomo 作曲；不從其他歌曲或未核實轉貼推定編曲。待官方 CD credits 或創作者本曲實績 |
+| `mairimashita-iruma-kun-4-ed-2` 分類／創作／個別演唱 | 第7話官方頁只證實問題児クラス的演目與原文；既有 ED 分類尚未取得明確再確認，不新增本次 anime_use 證據，也不自行改成 IN。待官方播出片尾標示、主題曲公告或商品用途註記，再判斷保留 ED 或按原 ID 更正分類；逐角色創作及個別演唱仍待補 |
+| `needy-girl-overdose-ed-1` 編曲 | 動畫 MUSIC 明列作詞／作曲，沒有明列編曲；待 Echoes／藝人或本曲正式製作名單 |
+| `kami-no-niwatsuki-kusunoki-tei-ed-1` 創作／發行品 | 官方動畫、影片與唱片公司項目及交叉報導已支持 Lyric Video；本批沒有採用僅歌詞轉載頁的創作資料。待 JYOCHO／唱片公司的本曲 credits、專輯曲序及品番，不從團隊簡介推定 |
+| `honzuki-no-gekokujou-ryoushu-no-youjo-ed-2`、`saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo-ed-1`、`needy-girl-overdose-ed-2` 第一方補證 | 分別有 Yaffle 編曲、ひとしずく×やま△ 三角色、Anime version 三角色及歌唱的交叉名單；待官方逐項 credits，現有欄位及來源角色清楚保留，不把交叉證據說成第一方 |
+| 後期 `onegai-aipri-op-2`／`onegai-aipri-ed-2` 等官方影片 | 新用途的確切官方影片入口仍缺；其餘歌曲的 MV、Art Track、creditless、lyric／live 亦未全面齊備。待動畫／唱片／藝人提供可核對的 exact URL 或新公告，不輪流重搜全部舊來源 |
+| 音源同一性／長度 | 14 個版本長度 unknown；Anime ver. 不自動代表 TV，MV 不自動代表 full。Pages Lead Off 的實際音源類型、各 CD／數位／MV 的相同錄音及 ISRC 待官方版本說明或可比對識別資料 |
+| NEEDY 商品與其他收錄 | 官網已明列 CD 品番 SVWC-70781／SVWC-70790、標題及日期，但商品類型與部分發行藝人名義尚未充分確認，因此未猜造結構化 release。待 Aniplex 商品頁明示 Single／EP／Album 等品類及正式名義；其他藝人 Album／OST／合輯只在具體曲目證據出現後接入 |
+| 正版平台／影片 metadata | 本批以官方 smart link 與外連為主，尚未深化所有 Apple Music／Spotify 等實際目的曲目。頻道、嵌入及地區可用性未核對的欄位保持未知；後續只查目的頁恢復、官方新外連或明確平台核對任務 |
+
+來源讀取不完整時只採用可檢查的公開索引事實並在來源名稱標明；沒有繞過來源限制、下載歌曲／影片、保存頁面副本或將未審閱候選加入公開資料。上表為下一次的具體觸發條件，無新證據不重查整批。
+
+### 本機檢查與展示
+
+| 檢查 | 結果 |
+| --- | --- |
+| `npm test` | 4 個檔案、5 個核心測試通過；包括全目錄公開契約與關係。未修改測試或正常程式遷就資料 |
+| `npm run build` | 通過；160 個檔案 0 errors／warnings／hints，1,961 HTML、CSP（6 script／10 style hashes）、Service Worker 及 3,918 公開產物檢查通過 |
+| 桌面實際預覽 | 1536×1024；10 部／32 筆用途的曲名、credits、公開 JSON 與實際頁面一致，無空白頁、錯誤覆蓋層或 app errors |
+| 閱讀流程 | 新 OP2 搜尋 → 原動畫頁全部 4 首 → 後期 ED2 創作；VVCV-18 搜尋 → 兩首相應歌曲 → 互唱／版本／收錄／欄位證據；NEEDY ED2／ED3 更正與原錨點；Honzuki full／TV／Instrumental 及最終 CD 品番，均通過 |
+| 手機實際預覽 | 390×844；Honzuki、NEEDY、黄泉のツガイ、アイプリ 4 部無橫向溢出，代表截圖可讀；app errors 0、自動 YouTube 請求 0。外部圖片與平台請求攔截，不將第三方播放算作通過 |
+| 文件／公開邊界 | 文件相對連結 2 個、`git diff --check` 通過；`npm run public:check` 通過（239 個 repository 檔案）；先前未提交變更保留，其他春季 seed 未改 |
+
+Browser plugin／browser skill 未提供，沿用 Playwright。首次暫存預覽腳本把歌單導覽誤設為自動帶歌曲錨點；核對既有契約後只修正腳本，動畫頁仍顯示全部歌曲。資料修訂後的最後一版重新通過相同流程；沒有修改產品程式或降低 gate。本批只改資料及 checkpoint，未變更季度 registry、contract、搜尋／UI／播放器，依矩陣未重跑全套 E2E；第八批結果僅為歷史證據。
+
+預覽入口：`/anime/honzuki-no-gekokujou-ryoushu-no-youjo/`、`/anime/yomi-no-tsugai/`、`/anime/needy-girl-overdose/`、`/anime/onegai-aipri/`、`/songs/`。歌單保持每用途一列，錄音與發行版不額外增加列數。
+
+本批收尾時的接點為 **2026-spring-credits-youtube-11**，由 `curated-177634`／`diamond-no-ace-act-ii-second-season-op-1` 接續；依 seed 順序接 `curated-197868`、`curated-178749`、`curated-179813`、`curated-201090`、`curated-202523`、`curated-192808`、`curated-197824`、`curated-147105`、`curated-189987`，10 部／21 筆既有用途。後續成果見下方第十一批；前批的有效證據直接沿用。
+
+本批只完成本機資料、公開 JSON 與展示驗證；未提交、推送或部署，CI／Cloudflare preview／production 均未重新驗收。後續從此 checkpoint 接續。
+
+## 2026-10-15 批次：2026-spring-credits-youtube-11
+
+完成層次：10 部既有春季作品、21 筆既有用途深化，另新增 GLAY 的第2季度 OP 及《魔法の姉妹ルルットリリィ》的第2季度 OP／ED，共 24 筆用途。固定資料截止日維持 2026-10-14，實際來源核對日期為 2026-10-15。22 筆分列作詞、作曲及編曲，其中 14 筆三角色均有第一方證據，8 筆含交叉補證；另 2 筆保留合署 songwriting 與未明編曲。這是本批深化完成，2020–2026 及 2007–2026 目標仍未完成。
+
+| 公開 theme ID | 歌曲 | 實際新增／更正 |
+| --- | --- | --- |
+| `diamond-no-ace-act-ii-second-season-op-1` | Let’s Go Crazy | 第一方完整創作；官方 MV、Anime MV 及配信入口 |
+| `diamond-no-ace-act-ii-second-season-ed-1` | NUMBER | 完整創作交叉補證；Digital Single、11 個 CD 發行版及共同 Track 2 |
+| `diamond-no-ace-act-ii-second-season-op-2` | NEVER SAY NEVER AGAIN | 新增後期 OP2；TERU 詞曲、編曲交叉補證；汚れた英雄 的三個 CD 版 Track 2 |
+| `maid-san-wa-taberu-dake-op-1` | リボン | 完整創作；full／TV size 音源、各自數位發行與官方入口、MV |
+| `maid-san-wa-taberu-dake-ed-1` | しあわせフレーバー | 完整創作、MV、Digital Single、三個 CD 發行版 |
+| `mahou-no-shimai-luluttolilly-op-1` | Bubee | 合署 songwriting、noa 明列作詞、5 位成員及製作／背景演唱；韓語版／TV size、兩個 Art Track、Anime MV、Single／OST 收錄 |
+| `mahou-no-shimai-luluttolilly-ed-1` | Calling | 完整創作及兩位角色／CV 演唱；Off Vocal、Digital Single、共用 OST 曲序與品番 |
+| `mahou-no-shimai-luluttolilly-op-2` | Swingin' Magic | 新增後期 OP2；合署 songwriting 交叉補證、岡嶋かな多詞曲、兩位 Producer；韓語版 Single 曲目、無字幕 OP |
+| `mahou-no-shimai-luluttolilly-ed-2` | どりぃむアラモード | 新增後期 ED2；兩位角色／CV、詞曲編及弦編曲；姓名分隔交叉補證、無字幕 ED |
+| `niwatori-fighter-op-1` | What's a Hero? | 作詞／作曲／編曲交叉補證；保留第一方核心與既有官方影片，姓名衝突列入續查 |
+| `niwatori-fighter-ed-1` | We're Loose Stars | 完整創作交叉補證；既有演唱原文及官方影片沿用 |
+| `ghost-concert-missing-songs-op-1` | 業魂REQUIEMER | 演唱者誤植「藤寺美穂」更正為「藤寺美徳」；完整創作、TV Size、兩個數位 Single 與各自配信 |
+| `ghost-concert-missing-songs-ed-1` | 茨の道 | 正確角色／CV、完整創作、Digital Single 及配信 |
+| `marika-chan-no-koukando-wa-bukkowareteiru-ed-1` | はかりたい好感度 | 原名、千歳茉莉花／内田真礼演唱、完整創作及監修；官網僅稱主題歌，既有 ED 分類未新增用途證據 |
+| `jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku-op-1` | ラフレア | 完整創作、演奏／和聲、MV／Art Track、Digital Single 及兩個 Mini Album CD 版 |
+| `jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku-ed-1` | Magic | 第一方完整創作；既有官方影片沿用 |
+| `isekai-nonbiri-nouka-2-op-1` | It’s a beautiful story | 正確角色／CV 分列、金崎真士完整創作、CD Single |
+| `isekai-nonbiri-nouka-2-ed-1` | Sunny Steps | 錦織孝宏完整創作、CD Single；既有官方影片沿用 |
+| `tongari-boushi-no-atelier-op-1` | 風のアンセム feat. suis from ヨルシカ | Eve／suis 演唱分列；詞曲、兩位編曲第一方及 Ryo Konishi 拼寫交叉補證；Digital Single／配信 |
+| `tongari-boushi-no-atelier-ed-1` | ただ美しい呪い | 完整創作／Art Track；原版及 Anime ver.、CD／Digital Single 收錄 |
+| `tongari-boushi-no-atelier-ed-2` | 夜に浮かぶ | 原文、完整創作／Art Track；原版及 Anime ver.、共用 CD／Digital Single 收錄 |
+| `tongari-boushi-no-atelier-ed-3` | 光り | 依官方更正原名及舊 override；創作交叉補證、原版／Anime ver.、共用 CD 收錄 |
+| `ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi-op-1` | ヒトリゴト | 作詞／編曲、4 位成員；作曲及個別演唱交叉補證、Digital Single、既有無字幕 OP 補證 |
+| `ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi-ed-1` | 部屋とガラクタと私 | 完整創作、2 位已核對成員、Digital Single／1st EP 收錄及既有無字幕 ED 補證 |
+
+已處理 anime ID：`curated-177634`、`curated-197868`、`curated-178749`、`curated-179813`、`curated-201090`、`curated-202523`、`curated-192808`、`curated-197824`、`curated-147105`、`curated-189987`。
+
+### 實際差異與關係
+
+- 新增動畫 0、用途 3，深化既有用途 21，登記穩定歌曲 ID 24。3 筆新用途各有第一方與交叉來源，使用 explicit 來源模式；沒有繼承舊歌曲的影片或日期。既有 theme ID、slug、序號、舊影片 URL 與錨點全部保留。
+- 新增 94 筆創作角色：29 作詞、27 作曲、30 編曲、8 合署 songwriting。另新增 11 筆團隊成員、14 筆製作／演奏／和聲／監修等補充角色；新增 13 筆演唱 credit、移除 6 筆被正確原文或分列演唱者取代的 credit，全部 credits 淨增 126。成員不自動代表本曲歌唱。
+- 新增 13 個音源項目：12 演唱版、1 Off Vocal；其中 full 1、TV size 3、長度 unknown 9。包括 Bubee／Swingin' Magic 的兩個韓語版及三首 ED 的 Anime ver.；語言版與影片不計為新歌曲。Anime ver. 的長度保持未知，沒有把無字幕映像視為新錄音。
+- 新增 41 個不同發行 ID：37 Single、2 Album、1 EP、1 OST；24 CD 版、17 數位版，共 44 組用途收錄關係。三首《とんがり帽子のアトリエ》ED 共用 `CTCM-65137`，Bubee／Calling 共用 `LACA-19172〜3`。SUPER★DRAGON 的 9 個成員封面版及兩個通常版共用已明示的 NUMBER Track 2，不另造錄音。Mini Album 的曲序未定時不填 position；未知 CD／數位音源同一性時不填 recordingId。
+- 新增 13 個不同官方 YouTube URL：4 藝人 MV、2 Anime MV、5 Art Track、1 無字幕 OP、1 無字幕 ED；另為ポンスカ的 2 個既有影片補正形式標籤。沒有新增未知頻道或嵌入 metadata。新增平台外連共 33 筆：13 YouTube、17 官方配信／購買入口、3 隨新用途生成的既有動畫官網入口；更新既有影片入口 2 筆，未移除外連。
+- 新增公開來源 66 筆、欄位證據 174 組；沿用來源 0 筆整批改日期，未移除來源。10 部動畫的 metadata、圖像、識別、播出來源及原 2026-07-25 日期保留，只有新增用途派生的 OP／ED 數量改變。
+- 全目錄為 28 季、1,917 動畫頁、4,246 筆用途（4,244 OP／ED＋2 IN）；2020–2026 為 1,808 個唯一作品、3,982 筆用途（3,980 OP／ED＋2 IN）。新後期用途放在既有動畫頁，沒有新增秋季 registry 或宣稱漏季已補齊。
+
+### 待補資訊與續查條件
+
+| 公開 ID／欄位 | 保留缺口與續查條件 |
+| --- | --- |
+| `mahou-no-shimai-luluttolilly-op-1`／`op-2` 詞曲細分、編曲 | Bubee 保存 5 位合署 songwriting 及第一方單列 noa 作詞；Swingin' Magic 保存 3 位合署 songwriting 交叉資料及第一方岡嶋かな多詞曲。Producer／Programmer 不推定編曲，也不自行合併英日姓名別名。待 BELIFT／藝人或唱片正式逐角色製作名單 |
+| `diamond-no-ace-act-ii-second-season-ed-1`／`op-2`、`niwatori-fighter-op-1`／`ed-1` 第一方創作 | NUMBER 三角色、GLAY 編曲、ニワトリ兩首三角色目前含明確交叉名單。待藝人／唱片本曲 credits；動畫官網 403／robots 限制未繞過，既有核心及官方影片沿用 |
+| `niwatori-fighter-op-1` 姓名、音源及 OST | JOYSOUND／Shazam 為「0C」，社群索引為「OC」；本次按前兩者保存，不猜定等同。作曲「高橋浩一郎」與編曲「Takahashi Koichiro」也未建立別名關係。OST 的 full／instrumental 曲目及原始 2025 Single 尚待具體第一方版本／曲目表，再結構化錄音與收錄；不把 2026 動畫首播當歌曲首發 |
+| `tongari-boushi-no-atelier-op-1`／`ed-3` 第一方補證 | 官網寫 Ryo Konish，交叉 staff list 為 Ryo Konishi，本次保存後者並保留來源差異；光り 的三角色為交叉資料。待官方更正或本曲正式製作名單。官方 CD 曲目已支持原名「光り」，舊 override 同步修正，不再輸出「光」 |
+| `ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi-op-1` 作曲／演唱 | 官網有「作詞・編曲：山口ケンタ」且另列 osage／花井諒編曲；作曲及本曲山口演唱另用 Shazam 交叉補證。待藝人／Sony 本曲正式 credits；不從 4 位成員推定所有人演唱 |
+| `mahou-no-shimai-luluttolilly-ed-2` 姓名分隔／編曲 | 官網把兩位作曲者連寫為「今村左悶今村淳平」，JOYSOUND 分列姓名，作曲保存交叉補證；兩位編曲使用官方角色與交叉姓名共同支持。待正式曲目 credits 或官網標點更正，不把連寫字串造為一個新人物 |
+| `marika-chan-no-koukando-wa-bukkowareteiru-ed-1` 分類、影片及平台 | 官網只稱「主題歌」，本次不新增 ED 用途證據；原名與角色歌唱已補。官網 YouTube Music 等部分按鈕僅到平台首頁，未冒充確切曲目；未確認供應方關係的 Topic 也未採用。待片尾用途標示、官方 exact URL／商品與供應方證據 |
+| Diamond 後期 ED、新用途及其他官方影片形式 | OxT 有第2季度 ED 擔當公告，兩輪未取得可採用曲名，未新增未命名用途。GLAY OP2 的確切官方影片、Magic／ポンスカ等更多 MV、各曲 lyric／live／Art Track 仍未齊。待官方標題／新影片公告、目的頁恢復或確切外連，不重搜全部舊影片 |
+| 發行品及版本 | ラフレア Mini Album 曲序、異世界のんびり農家2 的角色 solo／ED TV size 對應 OST、ルルットリリィ 後期數位發行與 Song Collection&Soundtrack2 最終曲目，以及其餘藝人 Album／OST 收錄尚待明確第一方曲目／正式發行。不要從一般 OST 商品名、錄音技法或同名曲推定音源關係 |
+| 平台、metadata 及可用性 | 本批以已核對官方 smart link 為主，沒有普遍補到 Apple Music／Spotify 等目的曲目；各 CD／數位／影片的 ISRC、同一錄音及嵌入／HK／TW 可用性仍未知。待具體識別資料或平台核對任務；本機畫面通過不代表外部平台可播放 |
+
+缺口採有界查找；讀取限制或兩輪無結果後保留上述觸發條件，繼續下一首。只採用公開必要事實，沒有保存歌曲、影片、完整歌詞、原始頁面或未審閱候選；有交叉補證的角色沒有宣稱為全部第一方。
+
+### 本機檢查與展示
+
+| 檢查 | 結果 |
+| --- | --- |
+| `npm test` | 4 個檔案、5 個核心測試通過，涵蓋全目錄公開契約及關係；未修改測試 |
+| `npm run build` | 160 個檔案 0 errors／warnings／hints；1,961 HTML、CSP（6 script／10 style hashes）、Service Worker 與 3,918 公開產物檢查通過 |
+| 桌面實際預覽 | 1536×1024；10 部／24 筆用途的曲名、全部 credits 及公開 JSON 與動畫頁一致，沒有空白頁、框架錯誤覆蓋層或 app errors |
+| 搜尋／閱讀流程 | 新 GLAY OP2 搜尋 → 原動畫頁全部 3 首／CD 版；新どりぃむアラモード搜尋 → 同頁 4 首／兩位角色／韓語版／TV size／共用 OST／欄位證據；リボン full／TV 配信及 Ghost 正確 CV、光り／Anime ver.，均通過 |
+| 手機實際預覽 | 390×844；ルルットリリィ、メイ食べ、とんがり、ダイヤのA 4 部沒有橫向溢出，代表桌面／手機截圖可讀；app errors 0、自動 YouTube 請求 0，外部請求攔截，未實測第三方播放 |
+| 文件／公開邊界 | checkpoint 相對連結 2 個與 `git diff --check` 通過；`npm run public:check` 通過（239 個 repository 檔案）。來源、欄位證據與實際新增數量已對照公開 JSON |
+
+Browser plugin／browser skill 未提供，沿用 Playwright；本批只改資料及 checkpoint，未改 registry、contract、搜尋、UI 或播放器行為，依矩陣未另跑全套 E2E、依賴稽核或 Cloudflare dry-run。既有未提交變更保留；本批只更新 10 部 spring seed 及光り 的原名 override，其餘 spring seed 逐行一致。
+
+預覽入口：`/anime/mahou-no-shimai-luluttolilly/`、`/anime/maid-san-wa-taberu-dake/`、`/anime/tongari-boushi-no-atelier/`、`/anime/diamond-no-ace-act-ii-second-season/`、`/songs/`。錄音及發行版不增加歌單列數。
+
+本批收尾時的接點為 **2026-spring-credits-youtube-12**，從 `curated-206914`／`nippon-sangoku-op-1` 接續，依 seed 順序為 `curated-197754`、`curated-207675`、`curated-195268`、`curated-199547`、`curated-169580`、`curated-186744`、`curated-158036`、`curated-202985`、`curated-206951`，共 10 部／21 筆既有用途。後續成果見下方第十二批。
+
+本批完成本機資料、公開 JSON 與展示驗證；未提交、推送或部署，CI／Cloudflare preview／production 未重新驗收。從上述已處理 ID 與下一批接點接續，不將一批完成當整體目標完成。
+
+The eleventh batch deepens 21 existing uses and adds three second-cour uses across ten anime. It adds 94 creator-role credits, 13 recording items, 41 release entities and 13 distinct official YouTube URLs. Local tests, build and desktop/mobile reading flows pass. Cross-check credits and unresolved fields remain explicitly listed; the broader goal is active and no commit, push or deployment was performed.
+
+## 2026-10-15 批次：2026-spring-credits-youtube-12
+
+完成層次：春季 10 部、21 筆既有 OP／ED 用途深化，沒有新增動畫或用途。19 筆分列作詞、作曲及編曲：16 筆三角色均有第一方證據，3 筆含交叉補證；其餘 2 筆仍缺編曲。固定資料截止日為 2026-10-14，本次實際查閱日期為 2026-10-15。這是本批有界深化完成，2020–2026 與 2007–2026 整體目標仍未完成。
+
+| 公開 theme ID | 歌曲 | 實際新增／更正 |
+| --- | --- | --- |
+| `nippon-sangoku-op-1` | 火種 | Tatsuya Kitani 完整創作；Apple Music 確切曲目及 HIDANE 原名對應交叉補證 |
+| `nippon-sangoku-ed-1` | 誓い | Leina 詞曲、oni 編曲；既有官方影片沿用 |
+| `liar-game-op-1` | あぶく | n-buna 完整創作、suis 實際演唱與 2 位成員；官方 MV、Digital Single／配信 |
+| `liar-game-op-2` | All in | 內田怜央／Kroi 詞曲交叉補證；官方 MV、官方 OP 映像／配信；編曲仍缺 |
+| `liar-game-ed-1` | 朝日 | 熊木幸丸／Lucky Kilimanjaro 詞曲交叉補證及官方配信；編曲仍缺 |
+| `liar-game-ed-2` | たりない | 原文曲名取代 Tarinai，保留羅馬字；完整創作、3 位成員、官方 MV／ED 映像、Digital Single／配信 |
+| `hyakki-yakou-shou-ed-1` | 何にもなれない | かやゆー詞曲、ヤングスキニー編曲；Speedstar 確切數位商品入口；沒有採用尚缺渠道補證的影片 |
+| `higeki-no-genkyou-to-naru-saikyou-gedou-last-boss-joou-wa-tami-no-tame-ni-tsukushimasu-sea-op-1` | エゴ | 涼音詞曲、レトロリロン編曲及官方 MV |
+| `higeki-no-genkyou-to-naru-saikyou-gedou-last-boss-joou-wa-tami-no-tame-ni-tsukushimasu-sea-ed-1` | たられば | はる詞曲、ガラクタ編曲及官方 MV |
+| `marriagetoxin-op-1` | Kill or Kiss | 完整創作、官方 MV；藝人 Album 無表情な表情 三個 CD 版及官方入口 |
+| `marriagetoxin-ed-1` | シャケナベイベー | AKASAKI／DAIKI 創作、Digital Single／配信、Collab MV；既有無字幕 ED 形式補證 |
+| `class-de-2-banme-ni-kawaii-onnanoko-to-tomodachi-ni-natta-op-1` | サブマリンユース | 第一方詞曲原文 Masahiro Hirabe、兩位編曲交叉補證；MV／Art Track、Digital Single 品番 |
+| `class-de-2-banme-ni-kawaii-onnanoko-to-tomodachi-ni-natta-ed-1` | ずっと１番にしてね | 完整創作及製作／演奏；MV、Official Audio、Digital Single，發行日期未推定 |
+| `replica-datte-koi-wo-suru-op-1` | リフレイン | 完整創作、3 位成員；原版／Instrumental、兩個 CD 版及曲序、Digital Single／配信／CD 購買 |
+| `replica-datte-koi-wo-suru-ed-1` | あわ | ⌘ハイノミ完整創作；官方 MV、期間生產限定 CD Single Track 1 及購買入口 |
+| `hidarikiki-no-eren-op-1` | FUNKIN’ BEAUTIFUL feat. ZORN | LEO／ZORN 作詞、LEO 作曲、ALI／村田陽一編曲；既有官方影片沿用 |
+| `hidarikiki-no-eren-ed-1` | New Walk | 完整創作及 3 位演奏者交叉補證；官方 MV、Digital Single 與 Qobuz 確切發行品 |
+| `tadaima-ojamasaremasu-op-1` | C'est la vie | 藤原優樹／平田祥一郎完整創作及 Guitar；本曲與ガチ夢中！兩個數位 Single 收錄、各自 Art Track |
+| `tadaima-ojamasaremasu-ed-1` | さんかくゲーム | 原文演唱名義『ユイカ』取代『Yuika』；完整創作、Digital Single 及配信 |
+| `megami-isekai-tensei-nani-ni-naritai-desu-ka-ore-yuusha-no-rokkotsu-de-op-1` | 転生願望 | 集體詞曲、編曲交叉補證、4 位成員與休止成員說明；MV、數位 Single／CD EP、TV size 平台曲目與曲序 |
+| `megami-isekai-tensei-nani-ni-naritai-desu-ka-ore-yuusha-no-rokkotsu-de-ed-1` | 何なんですか？ | lia 詞曲與實際歌唱、江口亮編曲；官方 MV、Digital Single 及配信 |
+
+已處理 anime ID：`curated-206914`、`curated-197754`、`curated-207675`、`curated-195268`、`curated-199547`、`curated-169580`、`curated-186744`、`curated-158036`、`curated-202985`、`curated-206951`。所有既有 ID、slug、用途序號、影片 URL 與錨點保留。
+
+### 實際差異與關係
+
+- 深化 21 筆既有用途，登記 21 個穩定歌曲 ID；動畫、用途、季度數均未增加。原名更正 1 筆（たりない），原文演唱名義更正 1 筆（『ユイカ』）。沒有把同曲的兩個 Art Track 算為不同歌曲或錄音。
+- 新增 70 筆創作角色：22 作詞、23 作曲、25 編曲，其中第一方支持 60 筆、交叉補證 10 筆。另新增 12 筆團隊成員、8 筆演奏／製作及休止狀態補充角色；3 筆舊合稱演唱列換為 suis、lia 及『ユイカ』，新增 3／移除 3，全部 credits 淨增 90。團隊成員不自動視為本曲歌唱者。
+- 新增「リフレイン」原版及 Instrumental 共 2 個錄音項目，兩者長度分類均為 unknown；沒有由片長或 MV 推定 full／TV。數位先行版與 CD 錄音同一性未確認，只有已明示的 CD 曲目連到 recordingId。
+- 新增 19 個發行 ID／收錄關係：15 Single、3 Album 發行版、1 EP；7 CD 版、12 數位版。無表情な表情 三版共用已確認本曲收錄，沒有推定未明曲序。リフレイン 兩個 CD 版明示共通 Track 1／3；轉生願望 的數位版與 CD EP 分開，TV size 僅保存正版平台已明示的曲目，未造第一方錄音證據。コレサワ Single 的日期留空，未拿影片上架日代替發行日。
+- 新增 19 個不同官方 YouTube URL：12 藝人 MV、1 Collab MV、3 Art Track、1 Official Audio、1 官方 OP 映像、1 官方 ED 映像。另為原有 AKASAKI 影片補上「無字幕 ED」標籤。Kroi、New Walk、転生願望 的官方影片項目與確切 URL 分別保留第一方及交叉證據，沒有猜造頻道或嵌入 metadata。
+- 平台新增 35 筆外連：19 YouTube、12 官方入口、Apple Music／Qobuz／OTOTOY／Amazon Music 各 1 個確切曲目或發行品入口；更新既有外連 1 筆，未移除外連。未核對的 HK／TW／嵌入及區域播放／購買可用性保持 unknown。
+- 新增公開來源 56 筆，實際查閱後更新既有歌曲來源 5 筆：百鬼夜行抄 1、ラス為 2、エレン 2；新增欄位證據 132 組。全部 10 部動畫的非歌曲欄位與 metadata／圖像／播出／識別來源逐項相同；百鬼夜行抄 的 metadata 日期仍為 2026-08-02，其餘 9 部維持 2026-07-25。
+- 全目錄仍為 28 季、1,917 動畫頁、4,246 筆用途（4,244 OP／ED＋2 IN）；2020–2026 仍為 1,808 個唯一作品、3,982 筆用途（3,980 OP／ED＋2 IN）。沒有新增秋季 registry 或宣稱核心漏季已補齊。
+
+### 待補資訊與續查條件
+
+| 公開 ID／欄位 | 保留缺口與續查條件 |
+| --- | --- |
+| `liar-game-op-2`／`liar-game-ed-1` 編曲及第一方詞曲 | 分別保存内田怜央／Kroi、熊木幸丸／Lucky Kilimanjaro 的交叉詞曲，沒有從集體創作或樂團演奏推定編曲。待 IRORI／Dreamusic、藝人本曲製作名單或正式商品 credits |
+| `class-de-2-banme-ni-kawaii-onnanoko-to-tomodachi-ni-natta-op-1`、`hidarikiki-no-eren-ed-1`、`megami-isekai-tensei-nani-ni-naritai-desu-ka-ore-yuusha-no-rokkotsu-de-op-1` 第一方補證 | 分別為 reGretGirl／重永亮介編曲、New Walk 三角色／演奏、終活クラブ編曲的交叉欄位。待藝人／唱片或創作者明列本曲的逐角色資料；一般「自行詞曲編」簡介不當作特定歌曲證據 |
+| `megami-isekai-tensei-nani-ni-naritai-desu-ka-ore-yuusha-no-rokkotsu-de-op-1` TV size 錄音 | OTOTOY／Qobuz 明列 TV size 及數位曲序，Amazon Music 確切曲目已接入；動畫官網只支持本曲與發行日期。待 VAP／藝人明示版本或識別資料後建立錄音，不把跨來源支持說成第一方已證實全部版本 |
+| 音源同一性／不同形式 | リフレイン 原版與 Instrumental 長度均未分類；CD、數位版、MV 及各 Art Track 同一錄音／ISRC 待具體證據。C'est la vie 兩個 Art Track 來自本曲 Single 與ガチ夢中！數位版，不新增歌曲或自動建立兩個錄音 |
+| 火種／誓い／何にもなれない 等更多官方影片 | 已查的 MV／官方商品線索仍缺可完整核對的渠道與 exact URL 關係；保留既有官方影片或商品入口，未加入未審閱候選。更多 lyric／live／MV／Art Track 未全面齊備；待官方新外連、目的頁恢復或可核對的渠道證據，不重搜全部舊連結 |
+| `tadaima-ojamasaremasu-ed-1` 原名與影片 | 『ユイカ』原文、創作及配信已補，完整 MV／其他形式的 exact URL 尚缺；本次未把 MV teaser 當完整 MV。待藝人／Universal 可核對的直接影片入口 |
+| 發行品日期／曲序／媒體 | コレサワ Digital Single 日期未採影片日期推定；平手友梨奈 Album 曲序、超特急 ガチ夢中！實體版品番／曲序及其他藝人 Album／OST／合輯仍待官方最終清單。百鬼夜行抄、Leina 等商品資訊未充分讀取，沒有僅靠頁名猜造 release 類型；數位與實體日期不混用 |
+| 個別演唱／成員 | suis、lia 已有本曲或正式名義支持；其他團隊成員仍只表示成員身分。終活クラブ 的イシダヒロキ依來源另記休止狀態，未列為本曲演唱。待逐曲演唱／演奏名單才補個別參與 |
+| 平台／來源讀取 | 少數官方頁 403、timeout 或僅有動態模板，未繞過限制；可採用的公開索引事實標在來源名稱。19 個新增影片以外連提供，沒有生成未知頻道或嵌入資料；新增正版平台仍未核對地區可用性 |
+
+已查缺口按兩輪定向查找上限保存具體觸發條件；其他未全面查找的形式與收錄也明列續查方向。保留有效證據，不把下一批開始當作重查本批的理由。沒有公開 raw response、私人工具、歌曲／影片副本或完整歌詞。
+
+### 本機檢查與展示
+
+| 檢查 | 結果 |
+| --- | --- |
+| `npm test` | 4 個檔案、5 個核心測試通過；包括全目錄契約／關係。未改測試或正常程式 |
+| `npm run build` | 160 個檔案 0 errors／warnings／hints；1,961 HTML、CSP（6 script／10 style hashes）、Service Worker 與 3,918 公開產物檢查通過 |
+| 桌面實際預覽 | 1536×1024；10 部／21 筆曲名、全部 credits、公開 JSON 與動畫頁一致；沒有空白頁、框架錯誤覆蓋層或 app errors |
+| 閱讀流程 | たりない原名搜尋 → LIAR GAME 全部 4 首／MV／ED；さんかくゲーム →『ユイカ』原名／兩個 C'est la vie Art Track 發行關係；ESCL-6238 搜尋 → リフレイン 原版／Instrumental／兩版 CD；転生願望 TV size／EP／平台／欄位證據，均通過 |
+| 手機實際預覽 | 390×844；LIAR GAME、ただいま、レプリカ及勇者の肋骨 4 部沒有橫向溢出，代表桌面／手機截圖可讀；app errors 0、自動 YouTube 請求 0。外部請求攔截，未把第三方播放算為本機通過 |
+| 文件／公開邊界 | checkpoint 相對連結 2 個、`git diff --check` 通過；`npm run public:check` 通過（239 個 repository 檔案）。既有未提交變更保留，未增加公開收集工具或原始資料 |
+
+本批只改 10 部春季 seed 與 checkpoint，其餘 spring seed 逐行一致；未更動 registry、contract、搜尋、UI、播放器、依賴或 Cloudflare 設定。Browser plugin／browser skill 未提供，沿用 Playwright；依矩陣沒有重跑全套 E2E、依賴稽核或 Cloudflare dry-run。
+
+預覽入口：`/anime/liar-game/`、`/anime/replica-datte-koi-wo-suru/`、`/anime/tadaima-ojamasaremasu/`、`/anime/megami-isekai-tensei-nani-ni-naritai-desu-ka-ore-yuusha-no-rokkotsu-de/`、`/songs/`。歌單仍按每用途一列，發行版與影片不增加歌曲列數。
+
+下一批為 **2026-spring-credits-youtube-13**，從 `curated-199588`／`otaku-ni-yasashii-gal-wa-inai-op-1` 接續，依序處理 `curated-182483`、`curated-177508`、`curated-177501`、`curated-202508`、`curated-187869`、`curated-169228`、`curated-199029`、`curated-185211`，9 部／27 筆既有 OP／ED。途中 `curated-189046` 的 3 筆用途已於第八批深化及更正分類，直接沿用有效證據，不重新收集。新一批優先核對同名曲、角色版本及 MV 標示的實際歌曲／用途／平台關係；第十三批尚未啟動。
+
+本批完成本機資料、公開 JSON 與展示驗證；未提交、推送或部署，CI／Cloudflare preview／production 未重新驗收。整體目標執行中，從上述接點繼續。
+
+The twelfth batch deepens 21 existing uses across ten anime, adding 70 creator-role credits, two recording entities, 19 releases and 19 distinct official YouTube links. Two creator arrangements remain unknown and three completed credit sets use explicit cross-check evidence. Local tests, build and desktop/mobile flows pass. The next batch skips the three Re:Zero uses already handled in batch eight; the full goal remains active with no commit, push or deployment.
+
+
+## 2026-10-15 第 08–12 批發布 / Batches 08–12 release
+
+完成層次：已完成資料與本機完整驗證，正在進行分階段提交、GitHub 檢查及正式發布；下列本機結果不代替 CI 或 production 驗收。後續仍按既定範圍逐批推進，停止時保留最後可靠位置。
+
+- 本次查核 50 部作品／134 筆用途；實際修改 49 部／133 筆用途，其中 123 筆既有用途深化、10 筆新公告用途。沒有新增動畫頁或季度。原公開 ID、slug 與錨點保留；已證實的 2 筆劇中歌修正為 IN，不再計作 ED。
+- 相對前次發布新增 430 筆分列創作角色（141 作詞、143 作曲、146 編曲），另有 13 筆不擅自拆分的 songwriting；新增 91 個不同官方 YouTube 外連、56 個錄音 ID、138 個發行 ID。錄音、發行、影片及用途分開計數，未證實的長度、跨發行錄音同一性與地區可用性仍保留未知。
+- 未解缺口及續查條件沿用各批表格，不重查已有效證據。第 13 批尚未開始，接點為春季 `curated-199588` 至 `curated-185211`，9 部／27 筆用途；已完成的 Re:ゼロ 第四季直接沿用。
+- 本機發布檢查通過：4 個 unit 檔案／5 個測試、6 條 Playwright 核心流程、Astro 型別及 1,961 HTML 建置、CSP、Service Worker、3,918 個公開產物、repository 公開邊界、Cloudflare dry-run；依賴稽核 0 vulnerabilities。各批新增內容已在桌面與手機實際預覽，查核方法及限制見各批。
+- 公開邊界確認：密鑰、私人路徑、帳戶資料、原始取回資料、測試截圖、執行 log 及暫存腳本未加入發布內容；只保留維護公開資料契約所需的測試原始碼。既有忽略規則繼續排除本機產物。
+- GitHub 與 production 尚待本段後續補記，不把本機通過記成發布完成。
