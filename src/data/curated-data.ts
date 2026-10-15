@@ -706,23 +706,6 @@ const extraThemes: Record<number, CuratedThemeSeed[]> = {
       artistDisplayName: "冨岡 愛"
     }
   ],
-  205772: [
-    {
-      type: "ED",
-      sequence: 1,
-      titleJa: "Telepathy",
-      artistDisplayName: "IS:SUE"
-    }
-  ],
-  206950: [
-    {
-      type: "OP",
-      sequence: 1,
-      titleJa: "こんにちワールド",
-      titleRomaji: "Konnichi World",
-      artistDisplayName: "DJクマーバ（CV：ファイルーズあい）"
-    }
-  ],
   212308: [
     {
       type: "ED",
@@ -737,22 +720,6 @@ const extraThemes: Record<number, CuratedThemeSeed[]> = {
       sequence: 1,
       titleJa: "グッドラック！マイフレンド feat.ムロツヨシ & さかなクン",
       artistDisplayName: "東京スカパラダイスオーケストラ"
-    }
-  ],
-  204269: [
-    {
-      type: "ED",
-      sequence: 1,
-      titleJa: "おでかけ",
-      artistDisplayName: "子ザメちゃん（CV：花澤香菜）"
-    }
-  ],
-  202386: [
-    {
-      type: "ED",
-      sequence: 1,
-      titleJa: "CUE CUE CUTE",
-      artistDisplayName: "Hey! Say! JUMP"
     }
   ],
   181867: [
