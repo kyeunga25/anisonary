@@ -40,7 +40,7 @@ export type CatalogSearchOptions = {
   scope: "all" | "anime" | "songs" | "creators";
   year: string;
   quarter: string;
-  type: "all" | "OP" | "ED";
+  type: "all" | "OP" | "ED" | "IN";
 };
 export function serializeCatalogSearchIndex(index: CatalogSearchIndex): string {
   const serialized = JSON.stringify(index).replace(/</g, "\\u003c").replace(/>/g, "\\u003e").replace(/&/g, "\\u0026");

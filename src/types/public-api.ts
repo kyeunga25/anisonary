@@ -150,7 +150,7 @@ export interface PublicFieldEvidence {
 
 export interface PublicTheme {
   id: string;
-  type: "OP" | "ED";
+  type: "OP" | "ED" | "IN";
   sequence: number;
   titleJa: string;
   titleRomaji?: string;

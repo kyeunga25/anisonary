@@ -1,5 +1,6 @@
 ---
 import { playlistRowHref, playlistSeasonLabel, type PlaylistRow } from "@/utils/song-playlist";
+import { themeTypeLabel } from "@/utils/theme";
 interface Props { row: PlaylistRow; number: number; songAnchor?: boolean; }
 const { row, number, songAnchor = false } = Astro.props;
 const { anime, theme } = row;
@@ -12,7 +13,7 @@ const { anime, theme } = row;
     </span>
     <span class="song-row__artist">{theme?.artistDisplayName ?? "查看作品與核對來源"}</span>
     <span class="song-row__anime"><strong>{anime.titleZhHant ?? anime.titleJa}</strong>{anime.titleZhHant && <small lang="ja">{anime.titleJa}</small>}</span>
-    <span class:list={["song-row__type", { "song-row__type--op": theme?.type === "OP" }]}>{theme ? `${theme.type}${theme.sequence}` : "—"}</span>
+    <span class:list={["song-row__type", { "song-row__type--op": theme?.type === "OP" }]}>{theme ? themeTypeLabel(theme) : "—"}</span>
     <span class="song-row__season">{playlistSeasonLabel(row)}</span>
     <svg class="song-row__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7" /></svg>
   </a>

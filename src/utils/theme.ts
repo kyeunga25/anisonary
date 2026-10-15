@@ -1,4 +1,4 @@
-import type { PublicAnimeDetail, PublicCreatorCredit } from "@/types/public-api";
+import type { PublicAnimeDetail, PublicCreatorCredit, PublicTheme } from "@/types/public-api";
 
 const roleLabels: Record<PublicCreatorCredit["role"], string> = {
   vocals: "演唱",
@@ -20,6 +20,10 @@ const statusLabels: Record<PublicAnimeDetail["status"], string> = {
 
 export function creditRoleLabel(role: PublicCreatorCredit["role"]): string {
   return roleLabels[role];
+}
+
+export function themeTypeLabel(theme: Pick<PublicTheme, "type" | "sequence">): string {
+  return theme.type === "IN" ? "劇中歌" : `${theme.type}${theme.sequence}`;
 }
 
 export function animeStatusLabel(status: PublicAnimeDetail["status"]): string {
