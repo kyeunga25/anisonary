@@ -12,8 +12,8 @@
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2020–2026 創作名單與官方 YouTube 深化；由最新已收錄季度往舊季度，沿用已接通格式及有效來源 |
 | 完成條件 | 本範圍的既有 OP／ED 用途逐批補有第一方證據的作詞、作曲、編曲、演唱／團隊及官方影片；經公開 JSON、動畫頁與必要檢查驗證；兩輪查找仍未明的欄位保留缺口與續查條件 |
-| 執行狀態 | 整體執行中；第 08–12 批已分類提交、合併及正式部署驗收；第十三批已提交、合併並正式部署驗收；第十四批已提交、合併及正式部署驗收（11 部／20 筆既有＋3 筆新用途）；第十五批冬季前 11 部／21 筆已完成有界查核，實際深化 2 部／3 筆並已正式發布驗收；第十六批冬季 10 部／18 筆已完成有界查核，實際深化 7 部／13 筆，已分類提交、合併及正式部署驗收；第十七批接續冬季 10 部／24 筆公開用途。每批沿用資料、驗證及發布流程，收到暫停或停止要求立即保存位置。2020–2026 深化及 2007–2026 長期目標均未完成 |
-| 接續位置 | 第十五批正式發布驗收完成；第十六批正式發布驗收完成；第十七批執行中，由 `maou-no-musume-wa-yasashi-sugiru-op-1` 接續冬季 10 部／24 筆公開用途。固定截止日 2026-10-14，實際核對日期 2026-10-15；完整 ID 及缺口見各批 |
+| 執行狀態 | 整體執行中；第 08–12 批已分類提交、合併及正式部署驗收；第十三批已提交、合併並正式部署驗收；第十四批已提交、合併及正式部署驗收（11 部／20 筆既有＋3 筆新用途）；第十五批冬季前 11 部／21 筆已完成有界查核，實際深化 2 部／3 筆並已正式發布驗收；第十六批冬季 10 部／18 筆已完成有界查核，實際深化 7 部／13 筆，已分類提交、合併及正式部署驗收；第十七批冬季 10 部／24 筆本機驗證完成，實際深化 8 部／20 筆，準備提交及正式發布。每批沿用資料、驗證及發布流程，收到暫停或停止要求立即保存位置。2020–2026 深化及 2007–2026 長期目標均未完成 |
+| 接續位置 | 第十五批正式發布驗收完成；第十六批正式發布驗收完成；第十七批本機收尾完成，待正式發布驗收；下一批由 `odayaka-kizoku-no-kyuuka-no-susume-op-1` 接續第十八批 10 部／22 筆公開用途。固定截止日 2026-10-14，實際核對日期 2026-10-15；完整 ID 及缺口見各批 |
 | 發布提交 | 最新 [PR #105](https://github.com/kyeunga25/anisonary/pull/105) 已正常 rebase 合併，保留 3 個階段提交；正式部署來源 `12c059f`，已通過下方正式驗收。前批 PR #101–#104 的階段提交與正式驗收保留在發布記錄 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
@@ -1391,8 +1391,70 @@ The twelfth batch deepens 21 existing uses across ten anime, adding 70 creator-r
 | (feat): distinguish general theme songs from OP and ED | `f7d1034` | `12b762e` |
 | (add): winter song credits and official videos batch 16 | `12c059f` | `b353028` |
 
-## 2026-10-15 批次：2026-winter-credits-youtube-17（執行中）
+## 2026-10-15 批次：2026-winter-credits-youtube-17
 
-目標：接續冬季 10 部／24 筆公開用途，起點 `maou-no-musume-wa-yasashi-sugiru-op-1`；anime ID 範圍見第16批下一批清單。固定 2020–2026 深化、2007–2026 長期範圍及 2026-10-14 截止日不變，實際新來源核對日期為 2026-10-15。完成已證實差異、必要檢查與展示、階段提交及正式驗收後接續。
+完成層次：冬季 10 部／24 筆公開用途，實際深化 8 部／20 筆；原 seed 有 25 筆候選，既有排除 Inori 不計入。固定 2020–2026 深化、2007–2026 長期範圍及 2026-10-14 截止日不變；新證據實際核對 2026-10-15。下方先記本機成果，正式發布與驗收另記。
 
-已保存公開 JSON／seed 基線；24 筆公開用途有 3 筆完整三項創作、6 筆已有 YouTube 外連。seed 的第25筆 `Inori` 已由既有規則排除，未列入公開用途或新增成果；不因本輪深化重新加入重複曲目。先沿用有效資料，集中真正創作及影片缺口；核心用途有衝突時依官方證據修正分類並保留 ID。尚未啟動本批外部收集或修改歌曲。
+| 公開 theme ID | 曲名／處理 |
+| --- | --- |
+| `maou-no-musume-wa-yasashi-sugiru-op-1` | We Can Do!!；原文角色／創作；插曲分類與共用 EP |
+| `maou-no-musume-wa-yasashi-sugiru-ed-1` | いっこにこにこ；原文角色／創作；插曲分類與共用 EP |
+| `maou-no-musume-wa-yasashi-sugiru-ed-2` | ドゥならできるよ；原文角色／創作；插曲分類與共用 EP |
+| `yuusha-party-ni-kawaii-ko-ga-ita-no-de-kokuhaku-shitemita-op-1` | Lavish!!；完整創作、角色／solo 版本及官方入口 |
+| `yuusha-party-ni-kawaii-ko-ga-ita-no-de-kokuhaku-shitemita-ed-1` | キミ攻略ゲーム；完整創作、角色／solo 版本及官方入口 |
+| `yuusha-party-ni-kawaii-ko-ga-ita-no-de-kokuhaku-shitemita-ed-2` | YES！サマーラブ♡；完整創作、角色／solo 版本及官方入口 |
+| `arne-no-jikenbo-op-1` | Q . E . D .；完整創作、影片及已證實音源 |
+| `arne-no-jikenbo-ed-1` | 人形の街；完整創作、影片及已證實音源 |
+| `jigoku-sensei-nube-2025-part-2-op-1` | ERASE；完整創作與不同官方影片 |
+| `jigoku-sensei-nube-2025-part-2-ed-1` | MAGICAL；完整創作與不同官方影片 |
+| `darwin-jihen-op-1` | Make Me Wonder；沿用完整創作及有效影片，資料不變 |
+| `darwin-jihen-ed-1` | Turn It Up；沿用完整創作及有效影片，資料不變 |
+| `shibou-yuugi-de-meshi-wo-kuu-op-1` | ¬Ersterbend（ノット エルシュテルベント）；沿用完整資料／純器樂證據，重複曲目仍排除 |
+| `shibou-yuugi-de-meshi-wo-kuu-ed-1` | 祈り；沿用完整資料／純器樂證據，重複曲目仍排除 |
+| `29-sai-dokushin-chuuken-boukensha-no-nichijou-op-1` | 君が灯してくれた光を今；完整創作、實際演唱者及日期 |
+| `29-sai-dokushin-chuuken-boukensha-no-nichijou-ed-1` | 君の隣は空気が美味しい；完整創作、實際演唱者及日期 |
+| `okiraku-ryoushu-no-tanoshii-ryouchi-bouei-op-1` | おきらくぜ～しょん；完整創作、實際歌唱、共用 Single／OST 與影片 |
+| `okiraku-ryoushu-no-tanoshii-ryouchi-bouei-ed-1` | Make it；完整創作、實際歌唱、共用 Single／OST 與影片 |
+| `okiraku-ryoushu-no-tanoshii-ryouchi-bouei-ed-2` | Magic Clock；完整創作、實際歌唱、共用 Single／OST 與影片 |
+| `toumei-otoko-to-ningen-onna-sonouchi-fuufu-ni-naru-futari-op-1` | Ding-dong；完整創作或交叉補證、影片／共用 EP |
+| `toumei-otoko-to-ningen-onna-sonouchi-fuufu-ni-naru-futari-ed-1` | 星眼鏡；完整創作或交叉補證、影片／共用 EP |
+| `mato-seihei-no-slave-2-op-1` | 光よ、僕に。；完整創作、三曲 TV／Instrumental 及 CD 商品 |
+| `mato-seihei-no-slave-2-ed-1` | Cipher Cipher；完整創作、三曲 TV／Instrumental 及 CD 商品 |
+| `mato-seihei-no-slave-2-ed-2` | LOVE LOVE ビーム；完整創作、三曲 TV／Instrumental 及 CD 商品 |
+
+已處理 anime ID：`curated-194742`、`curated-195515`、`curated-183984`、`curated-191967`、`curated-177679`、`curated-180746`、`curated-192261`、`curated-191205`、`curated-185039`、`curated-176276`。
+
+### 實際差異
+
+- 新增動畫 0、歌曲用途 0；實際深化 8 部／20 筆，4 筆完整用途或純器樂片頭的 JSON 不變。新增 67 筆歌曲創作角色＝22 作詞、23 作曲、22 編曲；64 筆第一方、Ding-dong 的 3 筆採公開 credits 索引交叉補證。全批 23 筆有完整三角色；另一筆既有純器樂 OP 不適用作詞／歌唱，不當作缺口重搜。
+- 新增 12 筆實際歌唱資料、移除 7 筆舊合併／羅馬字或誤列創作者的歌唱名義。Make it 的歌唱更正為大渕野々花，emon(Tes.) 保留為完整創作者；Hanon／Kotoha 保留在各自演唱，HoneyWorks／MARUMOCHI 為創作團隊。いっこにこにこ、ドゥならできるよ及 YES！サマーラブ♡ 恢復原文角色／聲優；舊羅馬字曲名保存在搜尋別名。
+- 官網列作第12話插曲的ドゥならできるよ改 IN，保留 `maou-no-musume-wa-yasashi-sugiru-ed-2` 及序號 2。Magic Clock 保留 ED2，補上官方明示第9話特殊 ED；沒有重排原有 ID、slug 或錨點。祈り的既有重複 Inori 排除項未重新公開。
+- 新增 16 支歌曲影片外連：6 MV、1 藝人公開影片、1 Art Track、2 官方音訊（含 TV size）、1 無字幕 OP、2 無字幕 ED、1 OP 映像、1 OP リリックver.、1 特殊 ED／舞蹈公告下的未細分官方影片。LOVE LOVE ビーム 的 Music Video Full 保留影片原標籤，未據此將 CD 錄音推為 full；其餘同樣不由影片形式推定錄音版本。沒有新增頻道／嵌入 metadata。
+- 新增 13 個音源項目＝7 個明示 TV size、5 Instrumental、1 セシリア角色版；角色版另有該版本明示的歌唱及三項創作共 4 筆獨立 credits。TV 音源依官方版本名或 Soundtrack 明示說明，其餘長度 unknown；沒有由無字幕影片建立新錄音。
+- 新增 20 個唯一發行 ID／27 筆歌曲收錄關係：2 EP 版／4 關係、17 Single 版／20 關係、1 Soundtrack／3 關係。14 個 CD 版、5 數位 Single、1 數位 OST。ASOVIVA!!! 兩版在兩部動畫共用 ID，分別 Track 2／4；Make it 三個 CD 版在兩首 ED 共用 ID，分別 Track 1／2；Soundtrack 的三個 TV 版為 Track 46／47／48。Make it Instrumental 只連到已證實收錄的直筆サイン入り限定盤，未套到另外兩版。
+- 新增 37 個外連＝16 YouTube、21 官方商品／配信；新增 45 個用途層來源及 149 組欄位證據。只為實際查閱的新證據保存 2026-10-15，未將舊來源日期整批更新；8 部作品 metadata 日期及未編輯 seed 行維持基線。
+- 全目錄仍為 28 季、1,917 動畫頁、4,248 用途＝4,243 OP／ED＋4 IN＋1 TS；2020–2026 為 1,808 動畫頁、3,984 用途。唯一 YouTube 歌曲影片直連 745→761，另有前批 3 個官方 YouTube 配信專輯入口；1,793 筆既有影片 metadata 不變。數量不是唯一歌曲數或整體完成率。
+
+### 缺口與續查條件
+
+| 範圍 | 尚未完成 | 續查條件 |
+| --- | --- | --- |
+| 7 筆歌曲影片 | 魔王の娘三首、Lavish!!、キミ攻略ゲーム、星眼鏡及光よ、僕に。尚未取得可確認對應的確切歌曲影片；保留官方音樂／配信頁。Cloud Nine 公告把同一 YouTube URL 放在 OP、ED 兩欄，本批未任選一首套入或複製兩份 | 官方新影片公告或頁面恢復後，直接確認影片與歌曲對應；兩輪定向查找後不輪流重搜所有索引 |
+| Ding-dong 創作 | 完整角色採已讀公開 credits 索引交叉補證；藝人普通頁確認歌曲、OP、MV、數位 Single 及日期，未提供完整製作角色；編曲原文採和田建一郎 | 藝人／唱片公司、本曲 MV 可讀完整 description 或正式 booklet 明示後補第一方角色證據 |
+| Maou 特殊用途 | 官網 MUSIC 將ドゥならできるよ列為第12話插曲，個別播放記錄索引列 ED；本批依第一方分類顯示 IN 並保留導航 ID，未將同一次使用重複算為兩筆 | 官方更具體的第12話 OP／ED／插曲使用表或正式片尾資料可公開核對時釐清雙重用途 |
+| YES！サマーラブ♡ | 原三人 ED、セシリア solo 發行角色版分開；1 個確切官方影片入口的公告同時談及無字幕／舞蹈，尚未明確細分該 URL 的形式。另一首同團隊插曲不自動增加 ED | 可讀影片標題／官方逐項外連明示形式；若正式集數使用另有角色版明示，再以既有 ID／版本記錄接續 |
+| 版本與發行品 | TV／Instrumental／角色版的錄音識別、CD 與數位同一性，以及其他專輯／OST 收錄仍未全查。KING 的人形の街數位商品確認三曲及品番，未明確 Single／EP 類別，先保存版本及官方商品入口 | 正式 metadata／booklet／ISRC 或明確產品分類出現，不由三首曲目數推定 EP，不將原版編曲直接套到未知版本 |
+| 官方入口與可用性 | 勇者官網普通頁 404，透明男官網及 Nube MOVIE 的部分普通讀取 403，石原頁面 timeout，採仍可核對的官方公開索引／其他藝人頁；しょぼいカレンダー本文 403，交叉來源明示索引核對，沒有繞過 | 來源恢復、官方新外連或明確地區／嵌入任務時再查。所有新增媒體外部播放、嵌入及 HK／TW 可用性 unknown；本機／線上 UI 成功不等於實際播放 |
+
+### 本機檢查與展示
+
+- `npm test`：4 檔／5 個核心測試通過。`npm run build`：Astro 0 errors／warnings／hints、1,961 HTML、CSP 6 script／10 style hashes、Service Worker 與 3,918 公開產物通過。
+- 6 條 E2E、npm audit 0 vulnerabilities、Cloudflare dry-run 通過；本批未改程式、依賴或 Cloudflare 設定。30 個本機文件連結及 `git diff --check` 通過，repository `public:check` 通過（239 檔）；不另外重跑已通過的子項。
+- 桌面 1536×1024 核對 10 部／24 筆及公開 JSON，手機 390×844 核對 4 部；8 條閱讀流程含舊曲名／ID／IN、共用 EP／Single／OST、不同演唱角色、精確曲序、不同影片形式與 4 筆重用資料。0 app／CSP errors、0 自動 YouTube request、無橫向溢出。
+- 首次本機腳本以 Make it 字樣選列，合理命中本曲及共用同名 Single 的另一首歌；腳本改選確切曲名後全部通過，未修改正常搜尋程式或降低 gate。Browser plugin 不在可用清單，沿用 Playwright；第三方請求攔截，原始本文、測試腳本、截圖與 log 未提交。
+
+預覽入口：`/anime/maou-no-musume-wa-yasashi-sugiru/`、`/anime/okiraku-ryoushu-no-tanoshii-ryouchi-bouei/`、`/anime/arne-no-jikenbo/`、`/anime/mato-seihei-no-slave-2/`。可搜尋 `Dou nara Dekiru yo`、`PCCG-02497`、`Make it` 或 `YES! Summer Love`；共用收錄可合理命中多首歌曲，各用途仍只占一列。
+
+階段提交：`6917281` 已保存第16批正式驗證與第17批啟動；本批歌曲提交及正式來源於發布驗收後另記。
+
+下一批：**2026-winter-credits-youtube-18**，由 `odayaka-kizoku-no-kyuuka-no-susume-op-1` 接續，10 部／22 筆公開用途：`curated-182771`、`curated-183270`、`curated-191718`、`curated-200556`、`curated-189137`、`curated-185514`、`curated-172463`、`curated-203296`、`curated-187941`、`curated-181443`。沿用既有完整創作及有效影片，只查真正缺口；完成正式發布驗收後接續，2020–2026 及長期目標仍未完成。
