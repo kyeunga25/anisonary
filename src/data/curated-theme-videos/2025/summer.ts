@@ -2953,4 +2953,5 @@ export const curated2025SummerThemeVideos = {
       embeddable: true,
     },
   ],
+  "159483:IN:1": [{"youtubeVideoId":"OAbz23P09Rs","title":"ZAQ「幾星霜」(TVアニメ『Turkey!』挿入歌)","type":"music_video","channelName":"ZAQ Official Channel","officialStatus":"official","embeddable":true,"embedAvailability":"unknown"}],
 } satisfies CuratedThemeVideoOverrideMap;
