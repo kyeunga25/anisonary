@@ -12,8 +12,8 @@
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2020–2026 創作名單與官方 YouTube 深化；由最新已收錄季度往舊季度，沿用已接通格式及有效來源 |
 | 完成條件 | 本範圍的既有 OP／ED 用途逐批補有第一方證據的作詞、作曲、編曲、演唱／團隊及官方影片；經公開 JSON、動畫頁與必要檢查驗證；兩輪查找仍未明的欄位保留缺口與續查條件 |
-| 執行狀態 | 整體執行中；第 08–12 批已分類提交、合併及正式部署驗收；第十三批已提交、合併並正式部署驗收；第十四批接續春季最後 11 部／20 筆既有公開用途。每批沿用資料、驗證及發布流程，收到暫停或停止要求立即保存位置。2020–2026 深化及 2007–2026 長期目標均未完成 |
-| 接續位置 | 第十四批執行中，範圍為春季 `curated-198113` 至 `curated-196219` 的 11 部／20 筆既有公開用途，起點 `kill-ao-op-1`。作品原始 seed 以外的既有用途也以公開 JSON 為準；已處理的跨季用途直接沿用。固定截止日仍為 2026-10-14，實際核對日期為 2026-10-15 |
+| 執行狀態 | 整體執行中；第 08–12 批已分類提交、合併及正式部署驗收；第十三批已提交、合併並正式部署驗收；第十四批已完成本機資料及展示驗證（11 部／20 筆既有＋3 筆新用途），待本批正式發布驗收。每批沿用資料、驗證及發布流程，收到暫停或停止要求立即保存位置。2020–2026 深化及 2007–2026 長期目標均未完成 |
+| 接續位置 | 第十四批待發布驗收；11 部／23 筆用途的本機結果見下方。驗收後進入 2026 冬季，第十五批由 `mf-ghost-3rd-season-op-1` 接續前 11 部／21 筆既有用途；公開 JSON 中既有 extraThemes 一併盤點，跨季已處理用途直接沿用。固定截止日仍為 2026-10-14，實際核對日期為 2026-10-15 |
 | 發布提交 | 最新 [PR #102](https://github.com/kyeunga25/anisonary/pull/102) 已正常 rebase 合併，保留 3 個階段提交；正式部署來源 `51a63c5`，已通過下方正式驗收。前批 [PR #101](https://github.com/kyeunga25/anisonary/pull/101) 的 6 個提交與正式驗收保留在發布記錄 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
@@ -32,12 +32,12 @@
 
 ## 下一輪位置
 
-目前優先順序已調整為 **2020–2026 創作名單及官方 YouTube**。本輪以已收錄用途深化為主，同作品的新公告用途經核心核對後一併補入；不重做季度全集盤點。2026 秋、2025 秋的核心漏季仍保留，待此項優先工作之後接續。固定截止日仍為 2026-10-14。啟動盤點的本機唯一用途為 3,965 筆；跨年作品在各年統計可能重複，不能相加。此數量是範圍基線，不代表欄位完成。第二批補入 3 筆、第六批補入 4 筆新用途後，當時範圍為 3,972 筆；第八批再補 5 筆後為 3,977 筆。第十批再補 2 筆後期用途後為 3,979 筆；第十一批補 3 筆後為 3,982 筆。最新全目錄為 28 季、1,917 動畫頁、4,246 筆用途；用途類型沿用第十一批；第十二批只深化既有用途。第十三批將一筆誤列 MV 合併並保留舊 ID 別名後，最新全目錄為 4,245 筆用途（4,243 OP／ED、2 IN），範圍內為 3,981 筆；最新差異見第十三批。
+目前優先順序已調整為 **2020–2026 創作名單及官方 YouTube**。本輪以已收錄用途深化為主，同作品的新公告用途經核心核對後一併補入；不重做季度全集盤點。2026 秋、2025 秋的核心漏季仍保留，待此項優先工作之後接續。固定截止日仍為 2026-10-14。啟動盤點的本機唯一用途為 3,965 筆；跨年作品在各年統計可能重複，不能相加。此數量是範圍基線，不代表欄位完成。第二批補入 3 筆、第六批補入 4 筆新用途後，當時範圍為 3,972 筆；第八批再補 5 筆後為 3,977 筆。第十批再補 2 筆後期用途後為 3,979 筆；第十一批補 3 筆後為 3,982 筆。最新全目錄為 28 季、1,917 動畫頁、4,246 筆用途；用途類型沿用第十一批；第十二批只深化既有用途。第十三批將一筆誤列 MV 合併並保留舊 ID 別名後，最新全目錄為 4,245 筆用途（4,243 OP／ED、2 IN），範圍內為 3,981 筆；第十四批補入 3 筆已公告後期用途後，本機最新為 4,248 筆（4,246 OP／ED、2 IN），2020–2026 為 3,984 筆；最新差異見第十四批，正式發布仍以頂部提交及下方驗收紀錄為準。
 
 | 優先 | 工作 | 狀態與接點 |
 | --- | --- | --- |
 | 1 | 一次性最小格式與真實試行 | 2026-10-14 已完成，見下方 2026-summer-schema-pilot；後續直接沿用格式，不重新設計或搬移全量資料 |
-| 2 | 當前深化接點 | 第十三批已正式發布；第十四批由春季 `curated-198113` 起接續，見頂部及批次記錄。2020–2026 credits／YouTube 優先工作持續，沿用有效名單與影片 |
+| 2 | 當前深化接點 | 第十四批本機已完成，待發布驗收後接 2026 冬季第十五批；見頂部及批次記錄。2020–2026 credits／YouTube 優先工作持續，沿用有效名單與影片 |
 | 3 | 較新季度未公布後續及核心漏季 | 深化按 2026 夏 → 春 → 冬接續；2026 秋 registry 仍未收錄，保留有界核心盤點接點。只處理新證據、到期項目與未補欄位 |
 | 4 | 中間漏季及歷史深化 | 2025 秋，再按秋／夏／春／冬倒序處理其餘年份；2019 夏的已有缺口於到達該季時接續 |
 | 5 | 延伸更早歷史 | 2019 春／冬與更舊季度，沿用同一有界流程 |
@@ -1155,8 +1155,76 @@ The twelfth batch deepens 21 existing uses across ten anime, adding 70 creator-r
 | (fix): retain song IDs when merging duplicate videos | `9acfc00` | `e5ae70c` |
 | (add): 2026 spring credits and recordings batch 13 | `51a63c5` | `eca4375` |
 
-## 2026-10-15 批次：2026-spring-credits-youtube-14（執行中）
+## 2026-10-15 批次：2026-spring-credits-youtube-14
 
-目標：春季最後 11 部、20 筆既有公開用途，起點 `kill-ao-op-1`；固定 2020–2026 深化及 2007–2026 長期範圍、2026-10-14 截止日不變，實際查閱日期 2026-10-15。先補已確認的創作、官方影片、版本與收錄，經本機檢查後分類提交、推送及正式驗收；不因可選欄位未知停住整批。
+完成層次：春季最後 11 部、20 筆既有公開用途深化；新增 3 筆已在固定截止日前公告的後期用途，共 23 筆。四筆原已有完整創作名單的用途直接沿用；原 extraThemes 遷入同一季度 authoring，沒有重複追加或算作新增。固定 2020–2026 深化、2007–2026 長期範圍及 2026-10-14 截止日不變，實際來源核對日期 2026-10-15。本機資料及展示已驗證，GitHub／production 以後續收尾為準；整體目標仍未完成。
 
-目前已完成公開 JSON／authoring 差異盤點，已開始查閱部分第一方音樂頁；尚未保存或驗證本批資料。四筆已有完整創作名單的用途（おでかけ、CUE CUE CUTE、こんにちワールド、Telepathy）直接沿用，重點查真正缺口。處理舊 extraThemes 時遷移同一公開 ID，不重複追加。作品仍為前段列明的 11 個 ID；同作品新公告僅在核心及交叉證據確認後另記實際新增。
+| 公開 theme ID | 歌曲 | 實際新增／更正 |
+| --- | --- | --- |
+| `kill-ao-op-1` | ATTITUDE | 詞曲與 Producer 交叉補證、數位 Single、Mini Album Track 4、楽曲解禁 PV；編曲未推定 |
+| `kill-ao-ed-1` | KILL SHOT | 完整創作交叉補證、數位 Single 日期與官方配信 |
+| `ichijouma-mankitsu-gurashi-op-1` | チャオチャオ（Ciao Ciao） | 北野ダリ／油布 賢一 a.k.a KENNY 完整創作；官網公開索引核對 |
+| `ichijouma-mankitsu-gurashi-ed-1` | やわやわNERD 超FreQuency | 星銀乃丈／岡村大輔完整創作；CD Single Track 2／Instrumental Track 4 |
+| `odekake-kozame-season-2-ed-1` | おでかけ | 沿用完整創作；數位 Single、日期及既有 NexTone 外連補收錄關係 |
+| `odekake-kozame-season-2-ed-2` | 子ザメ行進曲 | 新增已公告 ED；子ザメちゃん／Agasa.K 完整創作、原文演唱、無字幕 ED 及交叉來源 |
+| `shou-3-ashibe-qq-goma-chan-ed-1` | CUE CUE CUTE | 沿用完整創作；數位 Single、LCDA-0403、官方 ED／MV／Special Collaboration Video |
+| `kumarba-season-3-op-1` | こんにちワールド | 沿用完整創作；唱片公司指向的主題歌フルMV；未據此新增 full 音源 |
+| `tsue-to-tsurugi-no-wistoria-season-2-op-1` | BELIEVERS | 完整創作交叉補證；MV、數位／兩個 CD 版、Instrumental／TV size 及不同 Track 4 |
+| `tsue-to-tsurugi-no-wistoria-season-2-ed-1` | リーチライト | 完整創作、數位／CD Single、Instrumental／TV Size 曲序；以正確無字幕 ED 取代誤連 OP |
+| `yozakura-san-chi-no-daisakusen-2nd-season-op-1` | What's "KAZOKU"? | 補問號、明示第1クール；完整創作交叉補證、兩個 CD 版及 Off Vocal，不同 Track 1／2／5 |
+| `yozakura-san-chi-no-daisakusen-2nd-season-op-2` | フォーエバーソング | 新增第2クール OP；原名／演唱／來源、4 位團隊成員及完整創作交叉補證 |
+| `yozakura-san-chi-no-daisakusen-2nd-season-ed-1` | Shalala | 明示第1クール；ピラフ星人／GAL D 完整創作交叉補證 |
+| `yozakura-san-chi-no-daisakusen-2nd-season-ed-2` | I'm still breathing | 新增第2クール ED；原名／演唱／來源及完整創作交叉補證 |
+| `kuroneko-to-majo-no-kyoushitsu-op-1` | Cusp | 完整創作、MV、三個 CD 版、TV Size／Instrumental；不同 edition 的伴奏曲序分開保存 |
+| `kuroneko-to-majo-no-kyoushitsu-op-2` | ∞劣等星 | 原名／ナナヲアカリ、tepe 完整創作；MV、數位與兩個 CD 版；保留舊羅馬字搜尋 |
+| `kuroneko-to-majo-no-kyoushitsu-ed-1` | ちゅーんあっぷ☆ | 完整創作、兩個 CD 版與官方入口；Instrumental／TV ver. 各有明確收錄 |
+| `kuroneko-to-majo-no-kyoushitsu-ed-2` | Twilight Magic | TeddyLoid 完整創作；兩個 CD 版的品番與日期，未推定曲序 |
+| `aishiteru-game-wo-owarasetai-op-1` | 君のせいで愛してる | 完整創作交叉補證；CD Single、品番／日期、Instrumental Track 4 |
+| `aishiteru-game-wo-owarasetai-ed-1` | リトルワールド | 完整創作交叉補證；CD Single、品番／日期、Instrumental Track 2 |
+| `candy-caries-ed-1` | Telepathy | 沿用完整創作；QUARTET 通常盤 Album Track 8、動畫第2弾ティザー PV；明示「主題歌（官方分類）」 |
+| `mujikaku-seijo-wa-kyou-mo-muishiki-ni-chikara-wo-tare-nagasu-op-1` | Windmaker | 花耶原文名義與完整創作；確切官方影片及 NexTone 配信入口 |
+| `mujikaku-seijo-wa-kyou-mo-muishiki-ni-chikara-wo-tare-nagasu-ed-1` | アンノウンミー | 原名／原文名義與完整創作、8 位實際角色演唱、CD Single／Instrumental；保留 Unknown Me 搜尋 |
+
+已處理 anime ID：`curated-198113`、`curated-195734`、`curated-204269`、`curated-202386`、`curated-206950`、`curated-182300`、`curated-182578`、`curated-196974`、`curated-194393`、`curated-205772`、`curated-196219`。
+
+### 實際差異與關係
+
+- 20 個既有 ID 全數保留，登記 23 個歌曲 ID；只有上述 3 筆是新增用途，不把歌曲 ID 登記、authoring 遷移或新增影片當作新歌曲。後期用途留在同一動畫頁，沒有另建動畫或新季度。
+- 新增 70 筆作品層創作角色＝21 作詞、27 作曲、22 編曲；32 筆有第一方支持，38 筆採交叉補證。全批 22／23 筆用途有分列三角色，其中 14 筆具有第一方完整創作（含 4 筆沿用），8 筆仍待第一方名單補證；ATTITUDE 編曲留空。另新增 4 筆團隊成員、2 筆 Producer 及 13 筆演唱角色，取代 3 筆舊演唱名義；八位角色演唱與其他歌曲的較大團隊名單分開，不外推。
+- 新增 13 個有明確版本名的音源：9 Instrumental／Off Vocal、4 TV；9 個伴奏長度為 unknown，沒有由 MV、PV 或無字幕片推定 full。MV 出演的 Guitar／Bass／Drum 名單未移入錄音製作名單。
+- 新增 27 個發行 ID／本曲收錄關係：25 Single、1 EP、1 Album；19 實體 CD 版、8 數位版。只保存本曲曲目；同一 CD 中原版與伴奏／TV 的曲序分開，未知位置留空，不把數位版與 CD 自動連成同一錄音。
+- 新增 12 個不同官方 YouTube URL：5 MV（包括官方標為フルMV者）、2 無字幕 ED、1 官方 ED 映像、1 Special Collaboration Video、1 形式未另推定的官方影片、2 動畫 PV。既有 BELIEVERS OP 只補標籤，沒有再算新影片；リーチライト 移除錯配的 OP 關係，該影片仍留在正確 OP。沒有新增未核對的頻道／嵌入 metadata。
+- 新增 37 筆外連（12 YouTube、21 官方／商品／配信、4 builder 既有類型的作品官網入口）；既有配信連結補關係及標籤，沒有把相同 URL 算作新平台。新用途及移除錯配影片後的官網入口屬既有 fallback。平台播放／購買與 HK／TW 可用性均未另核對，保持 unknown。
+- 新增 51 個用途層來源項目、169 組欄位證據；10 個實際查閱的既有來源項目更新。11 部作品 metadata 與其圖像／識別／播出來源及日期逐項相同，包含四部原已於 2026-08-10 核對的作品；其他作品與季度資料未改。
+- 最新本機目錄：28 季、1,917 動畫頁、4,248 用途＝4,246 OP／ED＋2 IN；2020–2026 為 1,808 動畫頁、3,984 用途＝3,982 OP／ED＋2 IN。732 個唯一歌曲層 YouTube 外連、1,793 筆既有影片 metadata；不是唯一歌曲數或完成率。
+
+### 待補資訊與續查條件
+
+| 範圍 | 尚未完成 | 續查條件 |
+| --- | --- | --- |
+| ATTITUDE | 實際讀取的 Qobuz 曲目只明示詞曲及 Producer；公開索引另有 Arranger 表記，未合併為編曲 | Warner／藝人／創作方完整 credits 或可公開 booklet 明示；Producer 不當作 Arranger |
+| 8 筆交叉補證用途 | KILL SHOT、BELIEVERS、夜櫻第1／2クール四曲、愛してるゲーム兩曲已有完整角色；部分名單仍只有商品／音樂索引交叉證據 | 唱片公司、創作方實績或官方曲目 credits 可查閱時只補該缺口；不輪搜所有歌詞站 |
+| 一畳間官網及影片 | 第一方公告的公開索引足以支持創作；原頁回應 404。兩曲新增 MV／官方渠道及其他發行尚未取得完整對應，保留舊影片 | 官網恢復、藝人／唱片官方直接外連或可辨識渠道關係出現；不因頻道名稱含「公式」就採用候選 |
+| 新增夜櫻兩曲、Shalala 與其他影片 | 兩筆新用途的核心與創作先公開；新增官方 YouTube、Art Track、lyric／live 及 exact channel 關係未齊 | 動畫／藝人／唱片官方提供確切影片外連；新 CD 發售或明確曲目表可觸發對應收錄補查 |
+| Telepathy | 官方目前只明示一般主題歌；既有 ED 導航 ID 保留並顯示官方分類，PV 不當作完整歌曲影片；QUARTET 品番及其他版未補 | 官方明示 OP／ED 用途、確切 MV／音訊或發行版曲目資料後補；不從 PV 推定 full／錄音 |
+| 各 CD／數位版及音源 | 部分原版錄音、full、ISRC、時長、TV 與數位／CD 同一性及藝術家 Album／OST／合輯未證實；∞劣等星、Twilight Magic 的 CD 曲序留空 | 官方最終曲目表、音源識別或 booklet 明示；不由相同歌名、品番存在或 MV 長度推導 |
+| Windmaker／アンノウンミー | Windmaker 先保存官網確切影片與配信；CD 正式版本名及曲序未齊。アンノウンミー 的 Lyric Video 形式有官方索引，確切影片 ID 未取得，未補猜測連結 | 官方完整商品／影片頁可查閱後定向補；八位實際本曲歌唱名單不擴成其他曲目的十人名單 |
+| 存取及可用性 | 個別 Sony 普通取頁回應 403，クマーバ官網補取影片時回應 429；已停止該取得途徑，沿用已讀事實／其他官方來源。嵌入、第三方目的頁及地區播放未知 | 來源恢復、明確可用性核對任務或官方新入口出現；不繞過限制或由本機展示推定播放正常 |
+
+### 本機檢查與展示
+
+| 檢查 | 結果 |
+| --- | --- |
+| `npm test` | 4 個檔案／5 個核心測試通過；包括全目錄、來源與關係、日期及公開 JSON round-trip |
+| `npm run build` | 通過；Astro 0 errors／warnings／hints、1,961 HTML、6 script／10 style CSP hashes、Service Worker 與 3,918 公開產物 |
+| `npm run test:e2e` | 6 條核心流程通過；獨立本機測試埠及產物，沒有修改有效資料或安全 gate |
+| 實際桌面／手機預覽 | 桌面 1536×1024 查核 11 部／23 筆用途及 JSON，手機 390×844 查核 4 部；6 條閱讀流程含新 ED 搜尋、跨季度四曲、錯配影片修正、CD 曲序、原文／舊名搜尋及 8 角色演唱。0 app／CSP errors、0 自動 YouTube request，無水平溢出 |
+| 發布前檢查 | npm audit 0 vulnerabilities；Cloudflare dry-run 通過；30 個本機文件連結、`git diff --check` 與 repository `public:check`（239 檔）均通過 |
+
+展示查核的首次預期把 Unknown Me 當成唯一結果；既有「全部資料」會匹配 unknown 音源分類，歌曲名稱範圍亦有其他合法匹配。已改為按實際曲名與動畫選擇目標，預覽通過；沒有為腳本假設修改正常搜尋程式。Browser plugin 不在可用清單，沿用 Playwright，第三方圖片攔截；外部播放／購買狀態不計入展示驗證。
+
+預覽入口：`/anime/tsue-to-tsurugi-no-wistoria-season-2/`、`/anime/kuroneko-to-majo-no-kyoushitsu/`、`/anime/odekake-kozame-season-2/`、`/anime/yozakura-san-chi-no-daisakusen-2nd-season/`。歌曲名稱範圍可用 `Unknown Me` 或 `∞Rettou Hoshi` 核對舊名，品番 `AICL-4894`、`BRMM-11024` 可找到收錄關係。
+
+階段提交：`5c39a37` 保存第13批正式驗證與第14批啟動位置；本批資料提交及發布 SHA 於正式驗收後保存。
+
+下一批：**2026-winter-credits-youtube-15**，由 `mf-ghost-3rd-season-op-1` 起，`curated-185753`、`curated-187264`、`curated-178005`、`curated-199446`、`curated-167152`、`curated-166617`、`curated-177580`、`curated-186333`、`curated-197731`、`curated-177385`、`curated-195322`；11 部／21 筆既有公開用途。第14批正式驗收後接續，已完整的創作／有效影片直接沿用，仍按固定截止日及缺口觸發條件處理，不重新整季收集。
