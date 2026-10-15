@@ -12,7 +12,7 @@ export const curated2025SummerThemeVideos = {
       embeddable: true,
     },
   ],
-  "199486:OP:1": [
+  "199486:TS:1": [
     {
       youtubeVideoId: "_f_tbeoXuH4",
       title:
