@@ -12,8 +12,8 @@
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2020–2026 創作名單與官方 YouTube 深化；由最新已收錄季度往舊季度，沿用已接通格式及有效來源 |
 | 完成條件 | 本範圍的既有 OP／ED 用途逐批補有第一方證據的作詞、作曲、編曲、演唱／團隊及官方影片；經公開 JSON、動畫頁與必要檢查驗證；兩輪查找仍未明的欄位保留缺口與續查條件 |
-| 執行狀態 | 整體執行中；第 08–23 批均已正式發布驗收。第二十三批核對夏季 10 部／26 筆、更新 5 部／15 筆；第二十四批接續夏季 10 部／32 筆。每批發布後接續；2020–2026 深化及長期目標均未完成 |
-| 接續位置 | 第二十四批執行中，由 `cardfight-vanguard-divinez-deluxe-kesshou-hen-op-1` 起接續夏季下一組 10 部／32 筆。固定截止日 2026-10-14、新證據實際核對日期 2026-10-16；完整 ID／缺口見各批 |
+| 執行狀態 | 整體執行中；第 08–23 批均已正式發布驗收。第二十三批核對夏季 10 部／26 筆、更新 5 部／15 筆；第二十四批本機核對夏季 10 部／32 筆、更新 8 部／29 筆，待正式發布。每批發布後接續；2020–2026 深化及長期目標均未完成 |
+| 接續位置 | 第二十四批本機驗證完成，正式發布後由 `tomica-heroes-jobraver-tokusou-gattai-robo-tv-op-1` 起接續夏季下一組 10 部／20 筆。固定截止日 2026-10-14、新證據實際核對日期 2026-10-16；完整 ID／缺口見各批 |
 | 發布提交 | 最新 [PR #112](https://github.com/kyeunga25/anisonary/pull/112) 已正常 rebase 合併，保留 4 個階段提交；正式部署來源 `dc71ed8` 已通過下方正式驗收。PR #101–#111 的提交及驗收保留在各批紀錄 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
@@ -21,7 +21,7 @@
 
 ## 季度進度 / Quarterly progress
 
-統計至第23批正式發布驗收；第24批新查資料尚未驗證，不計入本表。正式版本以頂部發布提交及各批 live 驗收為準。範圍為 2020–2026 現有快照中的 OP／ED 用途，依公開 theme ID 去重並將舊 ID 別名對應目前用途；不是唯一歌曲或音源數。每批驗收後更新此表。
+統計至第24批本機驗證結果；正式站仍為第23批，新增32筆核對須待本批正式驗收。正式版本以頂部發布提交及各批 live 驗收為準。範圍為 2020–2026 現有快照中的 OP／ED 用途，依公開 theme ID 去重並將舊 ID 別名對應目前用途；不是唯一歌曲或音源數。每批驗收後更新此表。
 
 「已逐批核對」依下方各批公開 ID 明細計算，包含兩輪查找後留有續查條件的用途。「核心欄位齊備」只計其中已有作詞、作曲、編曲及已確認 YouTube 歌曲 watch 外連的用途；合併 songwriting 未擅自拆分，只有專輯入口不算歌曲影片。此數量不代表每個音源、團隊名單、商品、第一方逐曲 credits 或全部季度清單均已完成。未開始季度已有的歷史資料保留，不列入本輪完成。各季可能重複收錄跨季作品，同一用途的季度數字不可直接相加。
 
@@ -32,7 +32,7 @@
 | 2026 春 | 182 | 182 | 133 | 49 |
 | 2026 冬 | 131 | 131 | 104 | 27 |
 | 2025 秋 | 尚未建立快照 | — | — | — |
-| 2025 夏 | 178 | 64 | 60 | 4 |
+| 2025 夏 | 178 | 96 | 91 | 5 |
 | 2025 春 | 153 | 0 | 0 | 0 |
 | 2025 冬 | 136 | 0 | 0 | 0 |
 | 2024 秋 | 160 | 0 | 0 | 0 |
@@ -56,7 +56,7 @@
 | 2020 春 | 208 | 0 | 0 | 0 |
 | 2020 冬 | 180 | 0 | 0 | 0 |
 
-2026 夏／春／冬已完成現有清單首輪核對，仍有核心及選填欄位缺口，並非整季資訊收集完成。2025 夏仍在逐批處理；2025 秋、2026 秋的核心漏季及其餘未開始季度維持接續項目。當前範圍共有 523 個唯一用途已逐批處理，其中 516 個為 OP／ED，另 4 IN／3 TS；後兩類不列進上表的 OP／ED 分母。
+2026 夏／春／冬已完成現有清單首輪核對，仍有核心及選填欄位缺口，並非整季資訊收集完成。2025 夏仍在逐批處理；2025 秋、2026 秋的核心漏季及其餘未開始季度維持接續項目。當前範圍共有 555 個唯一用途已逐批處理，其中 548 個為 OP／ED，另 4 IN／3 TS；後兩類不列進上表的 OP／ED 分母。
 
 ## 基線
 
@@ -71,7 +71,7 @@
 
 ## 下一輪位置
 
-目前優先順序已調整為 **2020–2026 創作名單及官方 YouTube**。本輪以已收錄用途深化為主，同作品的新公告用途經核心核對後一併補入；不重做季度全集盤點。2026 秋、2025 秋的核心漏季仍保留，待此項優先工作之後接續。固定截止日仍為 2026-10-14。啟動盤點的本機唯一用途為 3,965 筆；跨年作品在各年統計可能重複，不能相加。此數量是範圍基線，不代表欄位完成。第二批補入 3 筆、第六批補入 4 筆新用途後，當時範圍為 3,972 筆；第八批再補 5 筆後為 3,977 筆。第十批再補 2 筆後期用途後為 3,979 筆；第十一批補 3 筆後為 3,982 筆。最新全目錄為 28 季、1,917 動畫頁、4,246 筆用途；用途類型沿用第十一批；第十二批只深化既有用途。第十三批將一筆誤列 MV 合併並保留舊 ID 別名後，最新全目錄為 4,245 筆用途（4,243 OP／ED、2 IN），範圍內為 3,981 筆；第十四批補入 3 筆已公告後期用途後，本機最新為 4,248 筆（4,246 OP／ED、2 IN），2020–2026 為 3,984 筆；上述數量保留為歷史變更；目前最新本機差異見第二十三批，正式發布以頂部提交及下方驗收紀錄為準。
+目前優先順序已調整為 **2020–2026 創作名單及官方 YouTube**。本輪以已收錄用途深化為主，同作品的新公告用途經核心核對後一併補入；不重做季度全集盤點。2026 秋、2025 秋的核心漏季仍保留，待此項優先工作之後接續。固定截止日仍為 2026-10-14。啟動盤點的本機唯一用途為 3,965 筆；跨年作品在各年統計可能重複，不能相加。此數量是範圍基線，不代表欄位完成。第二批補入 3 筆、第六批補入 4 筆新用途後，當時範圍為 3,972 筆；第八批再補 5 筆後為 3,977 筆。第十批再補 2 筆後期用途後為 3,979 筆；第十一批補 3 筆後為 3,982 筆。最新全目錄為 28 季、1,917 動畫頁、4,246 筆用途；用途類型沿用第十一批；第十二批只深化既有用途。第十三批將一筆誤列 MV 合併並保留舊 ID 別名後，最新全目錄為 4,245 筆用途（4,243 OP／ED、2 IN），範圍內為 3,981 筆；第十四批補入 3 筆已公告後期用途後，本機最新為 4,248 筆（4,246 OP／ED、2 IN），2020–2026 為 3,984 筆；上述數量保留為歷史變更；目前最新本機差異見第二十四批，正式發布以頂部提交及下方驗收紀錄為準。
 
 | 優先 | 工作 | 狀態與接點 |
 | --- | --- | --- |
@@ -573,7 +573,7 @@ Browser plugin 不在可用清單，沿用 Playwright；Chromium 本機驗證權
 | --- | --- |
 | 本次目標 | 可公開的範圍、資料欄位、優先順序、工作量／時限與完成條件；不抄錄私人指令 |
 | 固定範圍 | 起迄年份／季度、媒體及用途類型、公開資料截止日；延續時不自行改動 |
-| 執行狀態 | 整體執行中；第 08–23 批均已正式發布驗收。第二十三批核對夏季 10 部／26 筆、更新 5 部／15 筆；第二十四批接續夏季 10 部／32 筆。每批發布後接續；2020–2026 深化及長期目標均未完成 |
+| 執行狀態 | 整體執行中；第 08–23 批均已正式發布驗收。第二十三批核對夏季 10 部／26 筆、更新 5 部／15 筆；第二十四批本機核對夏季 10 部／32 筆、更新 8 部／29 筆，待正式發布。每批發布後接續；2020–2026 深化及長期目標均未完成 |
 | 批次 | 日期、季度、簡短批次 ID；不靠 package 版本當游標 |
 | 已處理 ID | 本批已公開的 theme ID／anime ID；跨季作品與原 ID 保持一致 |
 | 完成層次 | 核心身分／credits／版本／發行品／平台，分別說明 |
@@ -2000,7 +2000,7 @@ GitHub push 仍提示 23 個 Dependabot open alerts，與本機 npm audit 的 0 
 | (add): summer recordings and releases batch 23 | `2a8fa34` | `b154d00` |
 | (docs): track quarterly collection progress | `dc71ed8` | `dde2d4f` |
 
-## 2026-10-16 批次：2025-summer-credits-youtube-24（執行中）
+## 2026-10-16 批次：2025-summer-credits-youtube-24
 
 目標：由 `cardfight-vanguard-divinez-deluxe-kesshou-hen-op-1` 起，按 seed 順序接續 `curated-191994`、`curated-169420`、`curated-177761`、`curated-193238`、`curated-186561`、`curated-180794`、`curated-178025`、`curated-184034`、`curated-180929`、`curated-181444`，10 部／32 筆既有公開用途。固定 2020–2026 深化、2007–2026 長期範圍及 2026-10-14 截止日；新證據實際查閱日期為 2026-10-16，延續既有已完成資料。
 
@@ -2013,3 +2013,77 @@ GitHub push 仍提示 23 個 Dependabot open alerts，與本機 npm audit 的 0 
 Merry Go Round 的編曲經兩輪定向查找仍無明示；官方 Single／唱片公司頁與授權曲目資料只確定現有詞曲。藝人訪談提及 UTA 製作 track，不推定為正式編曲欄位；留待官方逐曲 credits／booklet 明示再補。其餘31筆核心創作沿用。
 
 本階段只做公開邊界與差異檢查，尚未完成第24批整批測試、build、展示或部署；接續同批已讀取的 TV Size／商品頁及確切平台，收尾再一次完整驗證。季度進度表仍只計第23批正式成果。
+
+### 第24批本機收尾成果
+
+完成層次：核對2025夏季10部／32筆既有公開用途，更新8部／29筆，3筆完整內容沿用。新證據實際查閱日期2026-10-16；正式發布另以下方驗收為準。既有公開曲名、演唱名義、ID、序號、用途種類、影片 metadata、URL 與全部動畫 metadata／日期保留；新商品及外連採既有已核對原名。
+
+| 公開 theme ID | 曲目與實際處理 |
+| --- | --- |
+| `cardfight-vanguard-divinez-deluxe-kesshou-hen-op-1` | Feathered Dreams；團隊／創作名單、音源版本、收錄發行品、官方影片／配信入口 |
+| `cardfight-vanguard-divinez-deluxe-kesshou-hen-ed-1` | Drive Your Heart；團隊／創作名單、音源版本、收錄發行品、官方影片／配信入口、用途集數 |
+| `cardfight-vanguard-divinez-deluxe-kesshou-hen-ed-2` | 紫炎；團隊／創作名單、音源版本、官方影片／配信入口、用途集數 |
+| `cardfight-vanguard-divinez-deluxe-kesshou-hen-ed-3` | 残痕字；團隊／創作名單、音源版本、收錄發行品、官方影片／配信入口、用途集數 |
+| `cardfight-vanguard-divinez-deluxe-kesshou-hen-ed-4` | Color of Us；團隊／創作名單、音源版本、收錄發行品、官方影片／配信入口、用途集數 |
+| `cardfight-vanguard-divinez-deluxe-kesshou-hen-ed-5` | スタ〜リング ☆じぶん☆；團隊／創作名單、音源版本、官方影片／配信入口、用途集數 |
+| `cardfight-vanguard-divinez-deluxe-kesshou-hen-ed-6` | スキ×すき×カラフリィ；團隊／創作名單、音源版本、官方影片／配信入口、用途集數 |
+| `cardfight-vanguard-divinez-deluxe-kesshou-hen-ed-7` | 真夜中遊園地；團隊／創作名單、音源版本、官方影片／配信入口、用途集數 |
+| `cardfight-vanguard-divinez-deluxe-kesshou-hen-ed-8` | 'FIGHT' ADDICT；團隊／創作名單、音源版本、官方影片／配信入口、用途集數 |
+| `cardfight-vanguard-divinez-deluxe-kesshou-hen-ed-9` | Part of the Life；團隊／創作名單、音源版本、官方影片／配信入口、用途集數 |
+| `cardfight-vanguard-divinez-deluxe-kesshou-hen-ed-10` | ‘S/’ The Way；團隊／創作名單、音源版本、官方影片／配信入口、用途集數 |
+| `watari-kun-no-xx-ga-houkai-sunzen-op-1` | ゆうれいになりたい；官方影片／配信入口 |
+| `watari-kun-no-xx-ga-houkai-sunzen-op-2` | ふたりぶん；官方影片／配信入口 |
+| `watari-kun-no-xx-ga-houkai-sunzen-ed-1` | 愛愛愛愛愛；官方影片／配信入口 |
+| `watari-kun-no-xx-ga-houkai-sunzen-ed-2` | 失敗しないメンヘラの育て方；官方影片／配信入口 |
+| `9-nine-shihaisha-no-oukan-op-1` | ResoNAnce；完整創作與有效官方影片沿用；無修改 |
+| `9-nine-shihaisha-no-oukan-ed-1` | Pale Blaze；完整創作與有效官方影片沿用；無修改 |
+| `gakkou-de-wa-oshiete-kurenai-taisetsu-na-koto-ed-1` | 学校では教えてくれないこと；完整創作與有效官方影片沿用；無修改 |
+| `kizetsu-yuusha-to-ansatsu-hime-op-1` | 天伝バラバラ；收錄發行品、官方影片／配信入口 |
+| `kizetsu-yuusha-to-ansatsu-hime-ed-1` | スキマジカン；音源版本、收錄發行品、官方影片／配信入口 |
+| `gacen-shoujo-to-ibunka-kouryuu-op-1` | ふたりのスタートボタン；音源版本、收錄發行品、官方影片／配信入口 |
+| `gacen-shoujo-to-ibunka-kouryuu-ed-1` | Amusing Flavor；音源版本、收錄發行品、官方影片／配信入口 |
+| `gachiakuta-op-1` | HUGs；官方影片／配信入口 |
+| `gachiakuta-op-2` | LET’S JUST CRASH；官方影片／配信入口 |
+| `gachiakuta-ed-1` | 灯火；官方影片／配信入口 |
+| `gachiakuta-ed-2` | 番；官方影片／配信入口 |
+| `hotel-inhumans-op-1` | ミスター・ムーンライト；官方影片／配信入口 |
+| `hotel-inhumans-ed-1` | Merry Go Round；收錄發行品、官方影片／配信入口 |
+| `ruri-no-houseki-op-1` | 光のすみか；官方影片／配信入口 |
+| `ruri-no-houseki-ed-1` | サファイア；官方影片／配信入口 |
+| `kaoru-hana-wa-rin-to-saku-op-1` | まなざしは光；官方影片／配信入口 |
+| `kaoru-hana-wa-rin-to-saku-ed-1` | ハレの日に；官方影片／配信入口 |
+
+已處理 anime ID：`curated-191994`、`curated-169420`、`curated-177761`、`curated-193238`、`curated-186561`、`curated-180794`、`curated-178025`、`curated-184034`、`curated-180929`、`curated-181444`。
+
+### 實際差異
+
+- 新增／撤回動畫、歌曲用途及影片 metadata 均為0。補55筆團隊成員關係，涉及50個已列名角色／虛擬成員身分；其中45個角色保留官方 CV 對應，5個夢限大みゅーたいぷ成員保留原名。角色與 CV 是團隊資料，未轉作各首音源的個別歌唱／演奏 credits。另補‘S/’ The Way明示的Diggy-MO’ Producer，沒有由製作 track、作曲或團隊身分推定其他編曲。
+- 全批31／32筆有詞曲編曲欄位、32／32筆有已確認 YouTube 歌曲外連；Merry Go Round 的編曲仍缺。新增20個既有官方／正式授權影片的歌曲 watch 外連及2個官方 YouTube 配信專輯入口，未增加影片 metadata 或從呈現形式新增音源。
+- 新增21個唯一音源＝15演唱版、6 Instrumental；長度分類為11 TV、10 unknown。Vanguard 11首全部有明示 TV Size，逐個保存本版本創作與確切配信入口；ED1–10補第2–11話用途，原序號保留。CD伴奏、EP原版／伴奏及スキマジカン Anime Ver. 皆依其明示名稱保存；Anime Ver. 的長度分類沒有推定為 TV，主唱／詞曲／編曲缺漏不從另一音源抄入。
+- 新增12筆收錄關係，涉及9個唯一發行 ID＝8 Single、1 EP。Morfonica Feathered Dreams 的 BRMM-10944／10945 共用 OP Track1／ED Track2與 Instrumental Track4／5，2025-08-27；Poppin’Party Drive Your Heart 的 BRMM-10994／10995為2025-12-24、Track1／4，未與七月TV配信日期混用。MyGO!!!!! 往欄印先保留官方明示第7張 Single及残痕字收錄，日期／品番／曲序未知。
+- ゲーセン少女OP／ED共用2025-07-07的四曲Digital EP；各為Track1／2，伴奏3／4，四個確切Apple Music曲目各自接到本音源。該動畫OST雖已公告，未由同作品推定收錄OP／ED。
+- PONY CANYON的PCSP.06631天伝バラバラ為一曲Digital Single；PCSP.06516スキマジカン為原版／Anime Ver.／Instrumental三曲Single，兩者均2025-07-11。原版及Anime Ver.保留已證實三名角色歌唱，沒有替OP增造伴奏或從秒數推定TV。NOA官方明示的Merry Go Round Digital Single為Track1、2025-07-07；八月MV公告日期未當音源發行日。
+- 新增108個外連＝21官方入口、27Apple Music、19Spotify、19YouTube Music、22YouTube（20歌曲影片＋2專輯入口）；另更新15個原官方入口的標籤／音源關係。平台目的地取自實際讀取的17個官方逐曲配信頁；未將數位配信專輯硬綁某個實體CD版。新增23筆來源、更新41筆實際查閱來源、194組欄位證據；重用影片來源／外連的2026-08-10日期與未查來源保留。
+- 全目錄仍為28季、1,917動畫、4,251用途＝4,244 OP／ED、4 IN、3 TS；2020–2026仍1,808動畫／3,987用途。唯一YouTube歌曲watch外連842、另8個官方配信專輯入口；影片metadata仍1,793。用途、歌曲、版本、外連與發行品各自計數。
+
+### 未解缺口與續查條件
+
+| 項目 | 保留缺口 | 再查觸發條件 |
+| --- | --- | --- |
+| Merry Go Round | 兩輪定向查找仍無明示編曲；UTA track製作訪談不等於正式編曲欄位 | 官方逐曲credits、booklet或授權平台明確編曲資料出現；不由作曲／producer推定 |
+| MyGO!!!!! 往欄印 | 已有官方第7張Single與残痕字收錄；本批未補齊日期／品番／曲序及本曲完整音源形式 | 後續深化該確切商品頁／booklet時逐項補證；未知欄位不阻擋已明示收錄 |
+| Vanguard其他商品 | 本批只補確證的TV版本、兩組CD Single版及MyGO收錄；其他藝人Single／Album、ISRC與CD／配信錄音等同尚未確認 | 官方完整商品／逐音源識別出現；不從同一曲名、影片或演唱會收錄推定 |
+| 團隊／其他音源 | 官方角色與CV介紹不代表每首個別演唱／樂手；Anime Ver.的TV等同、未標full及地區可用性仍未明 | 明確逐曲角色／樂手／版本資料、ISRC或可用性核對出現，僅查真正缺口 |
+
+### 本機檢查與展示
+
+- 最終`npm test` 4檔／5個核心測試通過。首輪契約檢查拒絕未綁公開用途ID的集數證據，已修正資料；整理時發現並更正商品網址多餘零與新標籤帶入舊raw羅馬字，統一採既有已核對原名。未修改測試、正常parser或有效安全gate。
+- `npm run build`通過：1,961 HTML、CSP 6 script／10 style hashes、Service Worker及3,918公開產物。最終6條E2E、npm audit 0 vulnerabilities及Cloudflare dry-run通過；依賴／部署設定未改。標籤修正後只重驗受影響資料及流程；公開JSON再次確認原曲名與演唱名義穩定。
+- 桌面1536×1024核對10部／32筆與JSON、手機390×844核對4部，10條閱讀流程通過；包含角色／CV團隊與音源名單、11個TV Size、集數、共用Single／EP、不同曲序、完整／不完整商品欄位、Anime Ver.未知長度、NOA編曲缺口與緊湊搜尋。0 app／CSP errors、0自動YouTube request、無橫向溢出。已實際檢視桌面Vanguard名單／版本／兩個CD版及手機EP音源／曲序；Browser plugin不在清單，沿用Playwright。
+- 八條選定seed以外的bytes／全部動畫metadata保留；global extra-theme與影片索引完全未改。18個文件連結、`git diff --check`與repository `public:check`（239檔）通過；原始頁面、嵌入provider資料、測試腳本、log與截圖只存暫存，未提交。
+
+預覽入口：`/anime/cardfight-vanguard-divinez-deluxe-kesshou-hen/`、`/anime/gacen-shoujo-to-ibunka-kouryuu/`、`/anime/kizetsu-yuusha-to-ansatsu-hime/`、`/anime/hotel-inhumans/`。可搜尋`BRMM-10944`、`Amusing Flavor instrumental`、`Anime Ver.`。
+
+階段提交：`131dafc`保存第23批正式驗收／第24批啟動；`6634392`保存20個既有官方影片外連（當時未完成整批驗證）。本批深入版本／團隊／商品的來源提交與正式驗收於發布後另記。
+
+下一批：**2025-summer-credits-youtube-25**，由`tomica-heroes-jobraver-tokusou-gattai-robo-tv-op-1`起，依序`curated-196229`、`curated-180425`、`curated-179885`、`curated-178675`、`curated-178433`、`curated-189326`、`curated-177689`、`curated-175124`、`curated-184574`、`curated-185755`，10部／20筆既有公開用途。第24批正式驗收後接續，2020–2026深化及長期目標均未完成。
