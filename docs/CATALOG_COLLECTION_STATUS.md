@@ -12,9 +12,9 @@
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2020–2026 創作名單與官方 YouTube 深化；由最新已收錄季度往舊季度，沿用已接通格式及有效來源 |
 | 完成條件 | 本範圍的既有 OP／ED 用途逐批補有第一方證據的作詞、作曲、編曲、演唱／團隊及官方影片；經公開 JSON、動畫頁與必要檢查驗證；兩輪查找仍未明的欄位保留缺口與續查條件 |
-| 執行狀態 | 整體執行中；第 08–12 批已分類提交、合併及正式部署驗收；第十三批本機資料及完整驗證完成，正在提交與發布；下批接春季最後 11 部／20 筆用途。每批沿用資料、驗證及發布流程，收到暫停或停止要求立即保存位置。2020–2026 深化及 2007–2026 長期目標均未完成 |
-| 接續位置 | 第十三批發布驗收後，接春季 `curated-198113` 至 `curated-196219` 的 11 部／20 筆既有公開用途，起點 `kill-ao-op-1`。作品原始 seed 以外的既有用途也以公開 JSON 為準；已處理的跨季用途直接沿用。固定截止日仍為 2026-10-14，實際核對日期為 2026-10-15 |
-| 發布提交 | 前次 [PR #99](https://github.com/kyeunga25/anisonary/pull/99) 已正常 rebase 合併，保留 9 個階段提交；前次部署來源 `f2fb293`。第 08–12 批已由 [PR #101](https://github.com/kyeunga25/anisonary/pull/101) 正常 rebase 合併，正式部署來源 `81a0d53`，已完成下方正式驗收 |
+| 執行狀態 | 整體執行中；第 08–12 批已分類提交、合併及正式部署驗收；第十三批已提交、合併並正式部署驗收；第十四批接續春季最後 11 部／20 筆既有公開用途。每批沿用資料、驗證及發布流程，收到暫停或停止要求立即保存位置。2020–2026 深化及 2007–2026 長期目標均未完成 |
+| 接續位置 | 第十四批執行中，範圍為春季 `curated-198113` 至 `curated-196219` 的 11 部／20 筆既有公開用途，起點 `kill-ao-op-1`。作品原始 seed 以外的既有用途也以公開 JSON 為準；已處理的跨季用途直接沿用。固定截止日仍為 2026-10-14，實際核對日期為 2026-10-15 |
+| 發布提交 | 最新 [PR #102](https://github.com/kyeunga25/anisonary/pull/102) 已正常 rebase 合併，保留 3 個階段提交；正式部署來源 `51a63c5`，已通過下方正式驗收。前批 [PR #101](https://github.com/kyeunga25/anisonary/pull/101) 的 6 個提交與正式驗收保留在發布記錄 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
 執行狀態使用「未開始／執行中／已暫停／已完成／已取消」；無法繼續時另記具體阻礙及仍未完成部分，不自動標記完成。長期目標與本次工作量分開，未指定本次工作量時先完成下一批。
@@ -37,7 +37,7 @@
 | 優先 | 工作 | 狀態與接點 |
 | --- | --- | --- |
 | 1 | 一次性最小格式與真實試行 | 2026-10-14 已完成，見下方 2026-summer-schema-pilot；後續直接沿用格式，不重新設計或搬移全量資料 |
-| 2 | 當前深化接點 | 第十三批本機完成，正在發布；下批由春季 `curated-198113` 起接續，見頂部與第十三批記錄。2020–2026 credits／YouTube 優先工作持續，沿用有效名單與影片 |
+| 2 | 當前深化接點 | 第十三批已正式發布；第十四批由春季 `curated-198113` 起接續，見頂部及批次記錄。2020–2026 credits／YouTube 優先工作持續，沿用有效名單與影片 |
 | 3 | 較新季度未公布後續及核心漏季 | 深化按 2026 夏 → 春 → 冬接續；2026 秋 registry 仍未收錄，保留有界核心盤點接點。只處理新證據、到期項目與未補欄位 |
 | 4 | 中間漏季及歷史深化 | 2025 秋，再按秋／夏／春／冬倒序處理其餘年份；2019 夏的已有缺口於到達該季時接續 |
 | 5 | 延伸更早歷史 | 2019 春／冬與更舊季度，沿用同一有界流程 |
@@ -1135,8 +1135,28 @@ The twelfth batch deepens 21 existing uses across ten anime, adding 70 creator-r
 
 首次目錄檢查抓到 Toshl 舊 extraThemes 與新 authoring 重複；已遷移為同一既有用途，移除已取代的單筆覆寫後重跑通過。沒有修改正常 parser 或降低有效 gate 遷就重複資料。Browser plugin 不在可用清單，使用現有 Playwright；第三方海報攔截，不把外部媒體、區域播放或購買可用性計入通過。
 
-文件 35 個本機連結、`git diff --check`、repository `public:check`（239 檔）及 Cloudflare dry-run 均通過。程式變更只接通相容的用途 ID 別名與舊錨點；依賴及 Cloudflare 設定未改。本機結果不代替第13批 GitHub／production 驗收。
+文件 35 個本機連結、`git diff --check`、repository `public:check`（239 檔）及 Cloudflare dry-run 均通過。程式變更只接通相容的用途 ID 別名與舊錨點；依賴及 Cloudflare 設定未改。第13批 GitHub／production 驗收已完成，見下方收尾。
 
 預覽入口：`/anime/kami-no-shizuku/#theme-kami-no-shizuku-ed-2`（舊 ID）、`/anime/kamiina-botan-yoeru-sugata-wa-yuri-no-hana/`、`/anime/awajima-hyakkei/`、`/anime/kanojo-okarishimasu-5th-season/`。可搜尋 `感情グラス`、`Non Scenario Etude`、`AICL-4898`；同曲 MV 不再多出一列歌曲。
 
 下一批：春季最後 11 部／20 筆既有公開用途，`curated-198113`、`curated-195734`、`curated-204269`、`curated-202386`、`curated-206950`、`curated-182300`、`curated-182578`、`curated-196974`、`curated-194393`、`curated-205772`、`curated-196219`，起點 `kill-ao-op-1`。先由完整公開 JSON 盤點，包括舊 extraThemes；本批發布驗收後接續，未知欄位按本表條件補查，不把首輪查核當作全部資料完成。
+
+
+### 第13批正式發布與接續
+
+- [PR #102](https://github.com/kyeunga25/anisonary/pull/102) 的 quality／Workers 預覽與 main `51a63c5eaa9d86175991d281e9107a4021e029a8` 的 quality 均通過，正常 rebase 合併，沒有 squash；部署來源與已審閱 head 的 Git tree 一致。所有階段提交已推送。
+- 正式 API 全目錄契約通過，涵蓋 28 季、1,917 個唯一作品；16 個頁面／公開資產及 9 個本批 anime JSON 共 25 項 byte digest 與本機產物一致，兩個不存在的頁面／API 回應真實 404。安全標頭、API noindex／revalidation／無 permissive CORS 符合設定。
+- 正式桌面查核 9 部／27 筆正規用途、手機 4 部；六條閱讀流程包含舊 ID 別名與無 JS 錨點、共用 CD 的不同曲序、六個角色錄音與平台入口、TV／Instrumental、原名搜尋及 Toshl 舊記錄去重。0 app／CSP errors、0 自動 YouTube request；外部海報攔截，第三方目的頁與地區播放仍未宣稱已驗證。
+- 公開進度接續第14批，保留本批待補表；本輪發布完成不等於整個 2020–2026 或二十年目標完成。
+
+| 階段 | main 提交 | 原審閱分支提交 |
+| --- | --- | --- |
+| (docs): record batches 08-12 production verification | `ebb3237` | `ce0e887` |
+| (fix): retain song IDs when merging duplicate videos | `9acfc00` | `e5ae70c` |
+| (add): 2026 spring credits and recordings batch 13 | `51a63c5` | `eca4375` |
+
+## 2026-10-15 批次：2026-spring-credits-youtube-14（執行中）
+
+目標：春季最後 11 部、20 筆既有公開用途，起點 `kill-ao-op-1`；固定 2020–2026 深化及 2007–2026 長期範圍、2026-10-14 截止日不變，實際查閱日期 2026-10-15。先補已確認的創作、官方影片、版本與收錄，經本機檢查後分類提交、推送及正式驗收；不因可選欄位未知停住整批。
+
+目前已完成公開 JSON／authoring 差異盤點，已開始查閱部分第一方音樂頁；尚未保存或驗證本批資料。四筆已有完整創作名單的用途（おでかけ、CUE CUE CUTE、こんにちワールド、Telepathy）直接沿用，重點查真正缺口。處理舊 extraThemes 時遷移同一公開 ID，不重複追加。作品仍為前段列明的 11 個 ID；同作品新公告僅在核心及交叉證據確認後另記實際新增。
