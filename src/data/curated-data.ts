@@ -4892,7 +4892,7 @@ function toDetail(seed: CuratedAnimeSeed): PublicAnimeDetail {
     .sort((left, right) =>
       left.type === right.type
         ? left.sequence - right.sequence
-        : ({ OP: 0, ED: 1, IN: 2 }[left.type] - { OP: 0, ED: 1, IN: 2 }[right.type])
+        : ({ OP: 0, ED: 1, IN: 2, TS: 3 }[left.type] - { OP: 0, ED: 1, IN: 2, TS: 3 }[right.type])
     );
   const hasOfficialVideo = themes.some((theme) =>
     theme.videos.length > 0 || theme.links.some((link) => link.platform === "YouTube")

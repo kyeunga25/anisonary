@@ -36,8 +36,8 @@ export function getPlaylistRows(index: CatalogSearchIndex, options: PlaylistOpti
   return rows.sort((left, right) => {
     const bySeason = compareSeasonsNewestFirst(left.season, right.season);
     const byAnime = collator.compare(left.anime.titleZhHant ?? left.anime.titleJa, right.anime.titleZhHant ?? right.anime.titleJa);
-    const typeOrder = { OP: 0, ED: 1, IN: 2 };
-    const byTheme = (left.theme ? typeOrder[left.theme.type] : 3) - (right.theme ? typeOrder[right.theme.type] : 3)
+    const typeOrder = { OP: 0, ED: 1, IN: 2, TS: 3 };
+    const byTheme = (left.theme ? typeOrder[left.theme.type] : 4) - (right.theme ? typeOrder[right.theme.type] : 4)
       || (left.theme?.sequence ?? 0) - (right.theme?.sequence ?? 0);
     if (options.sort === "song") return collator.compare(left.theme?.titleJa ?? "", right.theme?.titleJa ?? "") || byAnime || byTheme;
     if (options.sort === "artist") return collator.compare(left.theme?.artistDisplayName ?? "", right.theme?.artistDisplayName ?? "") || byAnime || byTheme;
