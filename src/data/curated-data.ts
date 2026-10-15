@@ -791,14 +791,6 @@ const extraThemes: Record<number, CuratedThemeSeed[]> = {
       youtubeUrl: "https://www.youtube.com/watch?v=0xR91gHai4k"
     }
   ],
-  169228: [
-    {
-      type: "ED",
-      sequence: 1,
-      titleJa: "愛をとりもどせ!!",
-      artistDisplayName: "Toshl"
-    }
-  ],
   178886: [
     {
       type: "ED",

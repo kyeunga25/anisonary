@@ -12,8 +12,8 @@
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2020–2026 創作名單與官方 YouTube 深化；由最新已收錄季度往舊季度，沿用已接通格式及有效來源 |
 | 完成條件 | 本範圍的既有 OP／ED 用途逐批補有第一方證據的作詞、作曲、編曲、演唱／團隊及官方影片；經公開 JSON、動畫頁與必要檢查驗證；兩輪查找仍未明的欄位保留缺口與續查條件 |
-| 執行狀態 | 整體執行中；第 08–12 批已分類提交、合併及正式部署驗收；第十三批執行中。每批沿用資料、驗證及發布流程，收到暫停或停止要求立即保存位置。2020–2026 深化及 2007–2026 長期目標均未完成 |
-| 接續位置 | 第十三批由春季 `curated-199588` 至 `curated-185211`，9 部／27 筆既有 OP／ED；起點 `otaku-ni-yasashii-gal-wa-inai-op-1`。途中 Re:ゼロ 第四季的 3 筆用途已在第八批處理，直接沿用。優先補創作、官方影片、版本與收錄，核對同名與 MV 標示的實際關係。固定截止日仍為 2026-10-14，已完成批次實際核對日期為 2026-10-15 |
+| 執行狀態 | 整體執行中；第 08–12 批已分類提交、合併及正式部署驗收；第十三批本機資料及完整驗證完成，正在提交與發布；下批接春季最後 11 部／20 筆用途。每批沿用資料、驗證及發布流程，收到暫停或停止要求立即保存位置。2020–2026 深化及 2007–2026 長期目標均未完成 |
+| 接續位置 | 第十三批發布驗收後，接春季 `curated-198113` 至 `curated-196219` 的 11 部／20 筆既有公開用途，起點 `kill-ao-op-1`。作品原始 seed 以外的既有用途也以公開 JSON 為準；已處理的跨季用途直接沿用。固定截止日仍為 2026-10-14，實際核對日期為 2026-10-15 |
 | 發布提交 | 前次 [PR #99](https://github.com/kyeunga25/anisonary/pull/99) 已正常 rebase 合併，保留 9 個階段提交；前次部署來源 `f2fb293`。第 08–12 批已由 [PR #101](https://github.com/kyeunga25/anisonary/pull/101) 正常 rebase 合併，正式部署來源 `81a0d53`，已完成下方正式驗收 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
@@ -32,12 +32,12 @@
 
 ## 下一輪位置
 
-目前優先順序已調整為 **2020–2026 創作名單及官方 YouTube**。本輪以已收錄用途深化為主，同作品的新公告用途經核心核對後一併補入；不重做季度全集盤點。2026 秋、2025 秋的核心漏季仍保留，待此項優先工作之後接續。固定截止日仍為 2026-10-14。啟動盤點的本機唯一用途為 3,965 筆；跨年作品在各年統計可能重複，不能相加。此數量是範圍基線，不代表欄位完成。第二批補入 3 筆、第六批補入 4 筆新用途後，當時範圍為 3,972 筆；第八批再補 5 筆後為 3,977 筆。第十批再補 2 筆後期用途後為 3,979 筆；第十一批補 3 筆後為 3,982 筆。最新全目錄為 28 季、1,917 動畫頁、4,246 筆用途；用途類型沿用第十一批；第十二批只深化既有用途，最新差異見第十二批。
+目前優先順序已調整為 **2020–2026 創作名單及官方 YouTube**。本輪以已收錄用途深化為主，同作品的新公告用途經核心核對後一併補入；不重做季度全集盤點。2026 秋、2025 秋的核心漏季仍保留，待此項優先工作之後接續。固定截止日仍為 2026-10-14。啟動盤點的本機唯一用途為 3,965 筆；跨年作品在各年統計可能重複，不能相加。此數量是範圍基線，不代表欄位完成。第二批補入 3 筆、第六批補入 4 筆新用途後，當時範圍為 3,972 筆；第八批再補 5 筆後為 3,977 筆。第十批再補 2 筆後期用途後為 3,979 筆；第十一批補 3 筆後為 3,982 筆。最新全目錄為 28 季、1,917 動畫頁、4,246 筆用途；用途類型沿用第十一批；第十二批只深化既有用途。第十三批將一筆誤列 MV 合併並保留舊 ID 別名後，最新全目錄為 4,245 筆用途（4,243 OP／ED、2 IN），範圍內為 3,981 筆；最新差異見第十三批。
 
 | 優先 | 工作 | 狀態與接點 |
 | --- | --- | --- |
 | 1 | 一次性最小格式與真實試行 | 2026-10-14 已完成，見下方 2026-summer-schema-pilot；後續直接沿用格式，不重新設計或搬移全量資料 |
-| 2 | 當前深化接點 | 第十二批已完成春季 `curated-206914` 至 `curated-206951` 的有界深化；下批由 `curated-199588` 起接續，見頂部與第十二批記錄。2020–2026 credits／YouTube 優先工作持續，沿用有效名單與影片 |
+| 2 | 當前深化接點 | 第十三批本機完成，正在發布；下批由春季 `curated-198113` 起接續，見頂部與第十三批記錄。2020–2026 credits／YouTube 優先工作持續，沿用有效名單與影片 |
 | 3 | 較新季度未公布後續及核心漏季 | 深化按 2026 夏 → 春 → 冬接續；2026 秋 registry 仍未收錄，保留有界核心盤點接點。只處理新證據、到期項目與未補欄位 |
 | 4 | 中間漏季及歷史深化 | 2025 秋，再按秋／夏／春／冬倒序處理其餘年份；2019 夏的已有缺口於到達該季時接續 |
 | 5 | 延伸更早歷史 | 2019 春／冬與更舊季度，沿用同一有界流程 |
@@ -1061,8 +1061,82 @@ The twelfth batch deepens 21 existing uses across ten anime, adding 70 creator-r
 | 第 12 批 | `03ddfbb` | `4978e13` |
 | checkpoint 與公開文件 | `81a0d53` | `172ba6e` |
 
-## 2026-10-15 批次：2026-spring-credits-youtube-13（執行中）
+## 2026-10-15 批次：2026-spring-credits-youtube-13
 
-本次目標：接續春季 9 部作品、27 筆既有 OP／ED 用途，優先補原名、實際創作者／歌唱名義、官方 YouTube 形式、已證實版本及收錄。固定範圍與 2026-10-14 截止日不變；來源實際核對日期為 2026-10-15。完成條件沿用頂部與 workflow，經本機檢查後逐批提交、發布及正式驗收；缺口保存續查條件。
+完成層次：9 部作品、28 個既有公開 ID 的有界查核。本機實際深化 26 筆用途；1 筆特殊 ED 保留原記錄與缺口，1 筆誤列的同曲 MV 合併到正規用途並保留舊 ID 別名，現有 27 筆正規用途。沒有新增動畫、季度或真正的新用途。初始 seed 的 27 筆之外，公開 JSON 原已包含 Toshl ED；本批沿用其 ID，不把 authoring 位置遷移算作新增。固定資料截止日 2026-10-14，實際核對日期 2026-10-15。2020–2026 與 2007–2026 整體目標仍未完成。
 
-第一階段已接通相容的用途 ID 別名，合併神の雫誤列的同曲 MV，保留舊錨點與正規用途；其餘作品深化及整批驗證待後續提交記錄，尚不計整批完成。範圍為 `curated-199588`、`curated-182483`、`curated-177508`、`curated-177501`、`curated-202508`、`curated-187869`、`curated-169228`、`curated-199029`、`curated-185211`。先處理明確名單，角色版本、既有 MV 誤列用途與後期 ED 缺口另按證據核對。
+| 公開 theme ID | 歌曲 | 實際新增／更正 |
+| --- | --- | --- |
+| `otaku-ni-yasashii-gal-wa-inai-op-1` | HIDE AND SEEK | 完整創作；沿用既有官方影片 |
+| `otaku-ni-yasashii-gal-wa-inai-ed-1` | 一生仲仔 | 詞曲、3 位成員、CD／數位 EP 及官方入口；編曲仍缺 |
+| `otaku-ni-yasashii-gal-wa-inai-ed-2` | Plastic Love | 保留原記錄，未新增未證實欄位；缺口見下表 |
+| `hime-kishi-wa-barbaroi-no-yome-op-1` | BEAUTIFUL | 深川琴美／OHTORA／New K 完整創作 |
+| `hime-kishi-wa-barbaroi-no-yome-ed-1` | シルベキコト | sana／青谷／ナノウ完整創作 |
+| `kujima-utaeba-ie-hororo-op-1` | 木漏れ日坂 | 詞曲、5 位成員、CD 原版／Instrumental、曲序與官方影片；CD 編曲獨立保存 |
+| `kujima-utaeba-ie-hororo-ed-1` | ほろろ逍遥 | 完整創作、OST Track 40、品番／日期、官方影片與配信 |
+| `awajima-hyakkei-op-1` | blue hour | 官方影片、數位 Single／兩個 CD 版；既有影片補為無字幕 OP，創作仍缺 |
+| `awajima-hyakkei-ed-1` | 光 | 完整創作、原版／TV Size／Instrumental、數位及 CD Single 與曲序 |
+| `kami-no-shizuku-op-1` | hate you? love you? | 完整創作、官方 MV、數位 Single／配信 |
+| `kami-no-shizuku-op-2` | Call Me Asap | 完整創作及錄音製作、MV／數位 Single，沿用 NUMBER 的 11 個 CD 發行 ID、Track 1 |
+| `kami-no-shizuku-ed-1` | カミノシズク | 完整創作、數位 Single、同曲 MV 移入；舊 ED2 ID 別名保留 |
+| `kami-no-shizuku-ed-2`（別名） | 同曲 MV，原誤列用途 | 解析至 `kami-no-shizuku-ed-1`；舊頁內錨點保留，不增加用途或歌曲計數 |
+| `kami-no-shizuku-ed-3` | エブリー・サマー | 完整創作交叉補證、第二季度無字幕 ED；原 ID／序號 3 保留，明示第2クール用途 |
+| `kamiina-botan-yoeru-sugata-wa-yuri-no-hana-op-1` | 芽吹くとき | 詞曲交叉補證、2 位成員、CD 本錄音編曲、CD／數位 Single |
+| `kamiina-botan-yoeru-sugata-wa-yuri-no-hana-ed-1` | 感情グラス | 同一歌曲的角色歌唱版；完整創作、上伊那ぼたん（CV.鈴代紗弓）、獨立 recording 與官方／三平台確切入口 |
+| `kamiina-botan-yoeru-sugata-wa-yuri-no-hana-ed-2` | 感情グラス | 同一歌曲的角色歌唱版；完整創作、北杜やえか（CV.富田美憂）、獨立 recording 與官方／三平台確切入口 |
+| `kamiina-botan-yoeru-sugata-wa-yuri-no-hana-ed-3` | 感情グラス | 同一歌曲的角色歌唱版；完整創作、郡上かなで（CV.寿 美菜子）、獨立 recording 與官方／三平台確切入口 |
+| `kamiina-botan-yoeru-sugata-wa-yuri-no-hana-ed-4` | 感情グラス | 同一歌曲的角色歌唱版；完整創作、遊佐あかね（CV.天海由梨奈）、獨立 recording 與官方／三平台確切入口 |
+| `kamiina-botan-yoeru-sugata-wa-yuri-no-hana-ed-5` | 感情グラス | 同一歌曲的角色歌唱版；完整創作、砺波いぶき（CV.青山吉能）、獨立 recording 與官方／三平台確切入口 |
+| `kamiina-botan-yoeru-sugata-wa-yuri-no-hana-ed-6` | 感情グラス | 同一歌曲的角色歌唱版；完整創作、張景嵐（CV.河瀬茉希）、獨立 recording 與官方／三平台確切入口 |
+| `kamiina-botan-yoeru-sugata-wa-yuri-no-hana-ed-7` | 茜色の夕日 | 原名與原文演唱名義、志村正彦詞曲、第10話劇中／ED 使用；編曲及實際發行錄音仍缺 |
+| `hokuto-no-ken-2026-op-1` | Hallelujah | [Alexandros] 原文名義、完整創作、アニメ MV、數位 Single／配信 |
+| `hokuto-no-ken-2026-ed-1` | 愛をとりもどせ!! | 沿用既有 ID；詞曲及本次編曲交叉補證、官方無字幕 ED、Toshl 錄音及兩個 Album 版 |
+| `kanojo-okarishimasu-5th-season-op-1` | ノンシナリオ・エチュード | 原名／演唱名義、完整創作、MV、數位 Single／兩個 EP CD 版與曲序；保留舊羅馬字搜尋 |
+| `kanojo-okarishimasu-5th-season-ed-1` | 204号室 | 原名／演唱名義、完整創作、CD Single 與 Track 1／官方入口 |
+| `yowa-yowa-sensei-op-1` | COMIT COMET | 完整創作、Mix／Mastering、官方 MV／Digital Single／配信；發行日期未推定 |
+| `yowa-yowa-sensei-ed-1` | よわよわ つよつよ みにみに こわこわ | 完整創作、3 位角色／CV、原版／Off Vocal／Anime Size；Anime Size 長度分類保持 unknown |
+
+已處理 anime ID：`curated-199588`、`curated-182483`、`curated-177508`、`curated-177501`、`curated-202508`、`curated-187869`、`curated-169228`、`curated-199029`、`curated-185211`。其餘動畫與既有 slug 保留，其他季度 seed 未改動。
+
+### 實際差異與關係
+
+- 26 筆用途新增 songId，對應 21 個歌曲 ID；六個「感情グラス」角色歌唱版共用一個歌曲 ID，各有獨立錄音及平台關係。歌曲 ID 登記不表示新增 21 首歌曲。
+- 新增 85 筆作品層創作角色：28 作詞、31 作曲、26 編曲；73 筆有第一方支持，12 筆交叉補證。21 筆正規用途三角色均已分列（19 筆第一方、2 筆交叉補證）；6 筆仍有不同程度缺口。另新增 10 筆團隊成員、5 筆錄音製作角色，演唱名義新增 12／移除 10；所有作品層 credits 淨增 102。團隊成員不自動當作本曲演唱者。
+- 新增 16 個錄音：7 演唱、3 Instrumental／Off Vocal、6 角色版；只有「光 -TV Size-」有明確 TV 分類，其餘 15 個保持 unknown，沒有由 MV、無字幕片或 Anime Size 推定 full／TV。另在錄音層保存 3 筆編曲與 13 筆演唱角色；CD 本錄音編曲不外推至未知的 TV／數位錄音。
+- 新增 33 筆本曲收錄關係，其中 22 個是新發行 ID（15 Single、4 EP、2 Album、1 OST；12 CD、10 數位），11 個沿用前批 NUMBER 所在的同一組 CD 發行 ID。Call Me Asap 保存 Track 1，NUMBER 仍為 Track 2，不複製成另一組商品或錄音。
+- 新增 10 個不同官方 YouTube URL：4 藝人 MV、1 アニメ MV、2 無字幕 ED、3 形式未另推定的官方影片。原有「カミノシズク」MV 移入同一用途，沒有算成新影片／新歌曲；既有「blue hour」影片補明無字幕 OP。新增影片以命名外連展示，未捏造頻道、嵌入 metadata 或可用性。
+- 新增 49 筆平台外連：20 官方入口、11 YouTube 關係（含 1 筆移入）、Apple Music／Spotify／YouTube Music 各 6；另更新既有影片標籤 1 筆。六個角色版共有 12 個官網指向的確切專輯入口、6 個 YouTube Music 播放清單，均連回各自錄音；播放清單不計作影片或新發行品。目的頁播放／購買及 HK／TW 可用性未核對，保持 unknown。
+- 新增 52 個用途層來源項目、187 組欄位證據；6 個實際重讀的既有歌曲來源更新為 2026-10-15。動畫 metadata、圖像／識別與播出來源日期保留；只有修正後的 ED 數量及已新增官方影片狀態等衍生欄位改變。
+- 本機全目錄：28 季、1,917 動畫頁、4,245 正規用途＝4,243 OP／ED＋2 IN，另保留上述舊 ID 別名。2020–2026 為 1,808 動畫頁、3,981 正規用途＝3,979 OP／ED＋2 IN。720 個唯一歌曲層 YouTube 直連、1,793 筆既有影片 metadata；這些數量不能當作唯一歌曲／錄音數或欄位完成率。
+
+### 待補資訊與續查條件
+
+| 範圍 | 尚未完成 | 續查條件 |
+| --- | --- | --- |
+| 一生仲仔 ED1 | 官網與 EP 公告未明示編曲；不從樂團名推定 | 官方完整 credits、CD booklet 或藝人／製作人實績可公開查閱 |
+| Plastic Love ED2 | 原名、角色演唱／用途與本次詞曲／編曲尚缺清楚的第一方對應；原記錄未改，未採用候選影片或由其他版本套入 credits | 官方第6話 ED credits、正式影片／配信公告或製作方實績可核對；只針對此缺口，不再輪搜歌詞站 |
+| 木漏れ日坂 OP1 | 官網概述與 CD 曲目表的編曲表記不同；CD 錄音層保存已明示的 Galileo Galilei，作品層不作合併判斷 | JVC／藝人正式商品 credits 或 booklet 釐清；沒有把表記差異當作新錄音／重新編曲 |
+| blue hour OP1 | 創作名單未取得可採用的直接證據；CD 曲序及其他明確版本未補；官方影片形式未另推定 | Sony、藝人、創作人實績或官方影片 credits 明示後定向補；不僅憑受限制歌詞站搬入名單 |
+| 芽吹くとき OP1 | CD 本錄音編曲有交叉證據，TV／數位版與該錄音的同一性未知；不外推作品層編曲 | 官方音源 credits／識別資料或商品 booklet 明示；詞曲原文 Arisa Ushimaru 與成員原文名分開保存 |
+| 茜色の夕日 ED7 | 編曲、動畫實際採用哪個既有發行錄音及確切平台入口仍缺；未推定重錄或角色翻唱 | 官方放送／錄音 credits 或樂團、唱片公司明示使用版本；第10話劇中／ED 用途保留公告與原作者訪談補證 |
+| 6 個角色版及 LP | 已確認「感情グラス」六角色音源與各自平台；LP 品番 SVWJ-70748、2026-07-01 與六版收錄已見官網，但發行名義／類型未完整核對，未計入結構化發行成果 | Aniplex／Sony 正式 LP 商品及發行名義可確認，再保存同一 release ID；不把 LP 的不同角色曲當成不同歌曲 |
+| よわよわ先生 ED／OST | 已確認原版、Off Vocal、Anime Size；OST 官網列 LACA-19174～5、2026-06-24、Disc2 Track 21／22／23，正式發行名義未完成，尚未登記 release | Lantis／官方商品完整發行名義與版本可確認；不把劇伴作曲者直接填作發行藝人，Anime Size 不自行改為 TV |
+| 影片與其他發行／平台 | 姫騎士兩曲的新增 MV、204号室 的新影片等未完成官方渠道核對；其他 Art Track、live、lyric、artist album／OST 收錄仍未窮盡。COMIT COMET 數位發行日期未推定；本批所有新嵌入／地區可用性未知 | 官方直接影片／商品外連或清楚的版本、日期、渠道資料出現；普通公開頁面無法讀取時保留限制，不繞過存取控制或用 MV 上架日補發行日 |
+
+### 本機檢查與展示
+
+| 檢查 | 結果 |
+| --- | --- |
+| `npm test` | 4 個檔案／5 個核心測試通過；含公開 JSON round-trip、ID 別名保留與衝突拒絕、來源及關係引用 |
+| `npm run build` | 通過；Astro 0 errors／warnings／hints，1,961 HTML、CSP 6 script／10 style hashes、Service Worker 與 3,918 公開產物 |
+| `npm run test:e2e` | 6 條核心流程通過；既有資料／播放同意／離線 gate 保留，增加舊 ID 錨點解析流程 |
+| 實際桌面／手機預覽 | 桌面 1536×1024 查核 9 部／27 筆正規用途及 JSON；手機 390×844 查核 4 部；6 條閱讀流程包含 MV 去重與舊錨點、11 個共用 CD、6 角色版與 18 平台入口、TV／Instrumental、原名搜尋及無 JS 舊連結。0 app／CSP errors、0 自動 YouTube request，無水平溢出 |
+| 來源／ID 範圍 | 28 個舊公開 ID 全數保留為正規用途或別名；9 部以外的 seed 逐行保持相同，metadata 日期未更新 |
+
+首次目錄檢查抓到 Toshl 舊 extraThemes 與新 authoring 重複；已遷移為同一既有用途，移除已取代的單筆覆寫後重跑通過。沒有修改正常 parser 或降低有效 gate 遷就重複資料。Browser plugin 不在可用清單，使用現有 Playwright；第三方海報攔截，不把外部媒體、區域播放或購買可用性計入通過。
+
+文件 35 個本機連結、`git diff --check`、repository `public:check`（239 檔）及 Cloudflare dry-run 均通過。程式變更只接通相容的用途 ID 別名與舊錨點；依賴及 Cloudflare 設定未改。本機結果不代替第13批 GitHub／production 驗收。
+
+預覽入口：`/anime/kami-no-shizuku/#theme-kami-no-shizuku-ed-2`（舊 ID）、`/anime/kamiina-botan-yoeru-sugata-wa-yuri-no-hana/`、`/anime/awajima-hyakkei/`、`/anime/kanojo-okarishimasu-5th-season/`。可搜尋 `感情グラス`、`Non Scenario Etude`、`AICL-4898`；同曲 MV 不再多出一列歌曲。
+
+下一批：春季最後 11 部／20 筆既有公開用途，`curated-198113`、`curated-195734`、`curated-204269`、`curated-202386`、`curated-206950`、`curated-182300`、`curated-182578`、`curated-196974`、`curated-194393`、`curated-205772`、`curated-196219`，起點 `kill-ao-op-1`。先由完整公開 JSON 盤點，包括舊 extraThemes；本批發布驗收後接續，未知欄位按本表條件補查，不把首輪查核當作全部資料完成。
