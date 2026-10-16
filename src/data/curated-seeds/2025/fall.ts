@@ -48500,7 +48500,1681 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
         ]
       }
     ]
+  },
+  {
+    "anilistId": 176298,
+    "id": "curated-176298",
+    "slug": "kekkon-yubiwa-monogatari-ii",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-04",
+    "titleJa": "結婚指輪物語Ⅱ",
+    "titleZhHant": "結婚指輪物語Ⅱ",
+    "titleRomaji": "Kekkon Yubiwa Monogatari II",
+    "editorialWeekday": 6,
+    "broadcastTimeJst": "21:30",
+    "broadcastLabel": "日本首播：AT-X 21:30；TOKYO MX 22:00",
+    "status": "unknown",
+    "officialSiteUrl": "https://talesofweddingrings-anime.jp/",
+    "anilistUrl": "https://anilist.co/anime/176298",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://cal.syoboi.jp/tid/7564",
+      "https://talesofweddingrings-anime.jp/onair/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Daybreak",
+        "artistDisplayName": "Sizuk",
+        "songId": "kekkon-yubiwa-monogatari-ii-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://sizuk.info/release/daybreak/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/7564",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "AYAME",
+            "role": "vocals"
+          },
+          {
+            "name": "こだまさおり",
+            "role": "lyrics"
+          },
+          {
+            "name": "俊龍",
+            "role": "composition"
+          },
+          {
+            "name": "神田ジョン",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://sizuk.info/release/daybreak/",
+              "https://cal.syoboi.jp/tid/7564"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kekkon-yubiwa-monogatari-ii-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://sizuk.info/release/daybreak/",
+              "https://cal.syoboi.jp/tid/7564"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kekkon-yubiwa-monogatari-ii-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://sizuk.info/release/daybreak/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kekkon-yubiwa-monogatari-ii-op-1-song"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "any if",
+        "artistDisplayName": "鬼頭明里",
+        "songId": "kekkon-yubiwa-monogatari-ii-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://kitoakari.com/news/post-2377",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/7564",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "鬼頭明里",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://kitoakari.com/news/post-2377",
+              "https://cal.syoboi.jp/tid/7564"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kekkon-yubiwa-monogatari-ii-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://kitoakari.com/news/post-2377",
+              "https://cal.syoboi.jp/tid/7564"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kekkon-yubiwa-monogatari-ii-ed-1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 174914,
+    "id": "curated-174914",
+    "slug": "tensei-akujo-no-kuro-rekishi",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-09",
+    "titleJa": "転生悪女の黒歴史",
+    "titleZhHant": "転生悪女の黒歴史",
+    "titleRomaji": "Tensei Akujo no Kuro Rekishi",
+    "editorialWeekday": 4,
+    "broadcastTimeJst": "00:00",
+    "broadcastLabel": "日本首播：10月8日(水)24:00",
+    "status": "unknown",
+    "officialSiteUrl": "https://tenkuro-pr.com/",
+    "anilistUrl": "https://anilist.co/anime/174914",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://tenkuro-pr.com/onair"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Black Flame",
+        "artistDisplayName": "KID PHENOMENON from EXILE TRIBE",
+        "songId": "tensei-akujo-no-kuro-rekishi-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://tenkuro-pr.com/news/133",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "KID PHENOMENON from EXILE TRIBE",
+            "role": "vocals"
+          },
+          {
+            "name": "TSINGTAO",
+            "role": "lyrics"
+          },
+          {
+            "name": "Takahito Nakamura",
+            "role": "lyrics"
+          },
+          {
+            "name": "Ryo Ito",
+            "role": "lyrics"
+          },
+          {
+            "name": "TSINGTAO",
+            "role": "composition"
+          },
+          {
+            "name": "Takahito Nakamura",
+            "role": "composition"
+          },
+          {
+            "name": "Ryo Ito",
+            "role": "composition"
+          },
+          {
+            "name": "Takahito Nakamura",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tenkuro-pr.com/news/133",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tensei-akujo-no-kuro-rekishi-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tenkuro-pr.com/news/133",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tensei-akujo-no-kuro-rekishi-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tenkuro-pr.com/news/133"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tensei-akujo-no-kuro-rekishi-op-1-song"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "リジェネ",
+        "artistDisplayName": "Zerofrom",
+        "songId": "tensei-akujo-no-kuro-rekishi-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://tenkuro-pr.com/news/133",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "Zerofrom",
+            "role": "vocals"
+          },
+          {
+            "name": "タケノコ少年",
+            "role": "lyrics"
+          },
+          {
+            "name": "タケノコ少年",
+            "role": "composition"
+          },
+          {
+            "name": "タケノコ少年",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tenkuro-pr.com/news/133",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tensei-akujo-no-kuro-rekishi-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tenkuro-pr.com/news/133",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tensei-akujo-no-kuro-rekishi-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tenkuro-pr.com/news/133"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tensei-akujo-no-kuro-rekishi-ed-1-song"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 186621,
+    "id": "curated-186621",
+    "slug": "taiyou-yori-mo-mabushii-hoshi",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-02",
+    "titleJa": "太陽よりも眩しい星",
+    "titleZhHant": "太陽よりも眩しい星",
+    "titleRomaji": "Taiyou yori mo Mabushii Hoshi",
+    "editorialWeekday": 4,
+    "broadcastTimeJst": "23:56",
+    "broadcastLabel": "日本首播",
+    "status": "unknown",
+    "officialSiteUrl": "https://tamahoshi-anime.com/",
+    "anilistUrl": "https://anilist.co/anime/186621",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://tamahoshi-anime.com/#on-air"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Stellar Days",
+        "artistDisplayName": "秦 基博",
+        "songId": "taiyou-yori-mo-mabushii-hoshi-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://tamahoshi-anime.com/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "秦 基博",
+            "role": "vocals"
+          },
+          {
+            "name": "秦 基博",
+            "role": "lyrics"
+          },
+          {
+            "name": "秦 基博",
+            "role": "composition"
+          },
+          {
+            "name": "秦 基博",
+            "role": "arrangement"
+          },
+          {
+            "name": "トオミ ヨウ",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tamahoshi-anime.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "taiyou-yori-mo-mabushii-hoshi-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tamahoshi-anime.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "taiyou-yori-mo-mabushii-hoshi-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tamahoshi-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "taiyou-yori-mo-mabushii-hoshi-op-1-song"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "最新話",
+        "artistDisplayName": "和ぬか",
+        "songId": "taiyou-yori-mo-mabushii-hoshi-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://tamahoshi-anime.com/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "和ぬか",
+            "role": "vocals"
+          },
+          {
+            "name": "和ぬか",
+            "role": "lyrics"
+          },
+          {
+            "name": "和ぬか",
+            "role": "composition"
+          },
+          {
+            "name": "100回嘔吐",
+            "role": "arrangement"
+          },
+          {
+            "name": "和ぬか",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tamahoshi-anime.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "taiyou-yori-mo-mabushii-hoshi-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tamahoshi-anime.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "taiyou-yori-mo-mabushii-hoshi-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tamahoshi-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "taiyou-yori-mo-mabushii-hoshi-ed-1-song"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 198561,
+    "id": "curated-198561",
+    "slug": "potion-wagami-wo-tasukeru",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-03",
+    "titleJa": "ポーション、わが身を助ける",
+    "titleZhHant": "ポーション、わが身を助ける",
+    "titleRomaji": "Potion, Wagami wo Tasukeru",
+    "editorialWeekday": 5,
+    "broadcastTimeJst": "01:00",
+    "broadcastLabel": "日本首播：10月2日(木)25:00",
+    "status": "unknown",
+    "officialSiteUrl": "https://animationid.com/potion/",
+    "anilistUrl": "https://anilist.co/anime/198561",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://animationid.com/potion/#OnAir"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "恋のマジックポーション",
+        "artistDisplayName": "TRiDENT",
+        "songId": "potion-wagami-wo-tasukeru-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://animationid.com/potion/#Music",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "TRiDENT",
+            "role": "vocals"
+          },
+          {
+            "name": "ローリー寺西",
+            "role": "lyrics"
+          },
+          {
+            "name": "ローリー寺西",
+            "role": "composition"
+          },
+          {
+            "name": "TRiDENT",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://animationid.com/potion/#Music",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "potion-wagami-wo-tasukeru-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://animationid.com/potion/#Music",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "potion-wagami-wo-tasukeru-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://animationid.com/potion/#Music"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "potion-wagami-wo-tasukeru-op-1-song"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "MIRACRAID",
+        "artistDisplayName": "TRiDENT",
+        "songId": "potion-wagami-wo-tasukeru-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://animationid.com/potion/#Music",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "TRiDENT",
+            "role": "vocals"
+          },
+          {
+            "name": "ASAKA",
+            "role": "lyrics"
+          },
+          {
+            "name": "NAGISA",
+            "role": "composition"
+          },
+          {
+            "name": "Koji Hirachi",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://animationid.com/potion/#Music",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "potion-wagami-wo-tasukeru-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://animationid.com/potion/#Music",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "potion-wagami-wo-tasukeru-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://animationid.com/potion/#Music"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "potion-wagami-wo-tasukeru-ed-1-song"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 198117,
+    "id": "curated-198117",
+    "slug": "ganglion",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-03",
+    "titleJa": "ガングリオン",
+    "titleZhHant": "ガングリオン",
+    "titleRomaji": "GANGLION",
+    "editorialWeekday": 5,
+    "broadcastTimeJst": "20:30",
+    "broadcastLabel": "日本首播：AT-X 10月3日(金)20:30",
+    "status": "unknown",
+    "officialSiteUrl": "https://ganglion-anime.com/",
+    "anilistUrl": "https://anilist.co/anime/198117",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://ganglion-anime.com/onair/"
+    ],
+    "themes": [
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "ミラクル",
+        "artistDisplayName": "NIKO NIKO TAN TAN",
+        "songId": "ganglion-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://ganglion-anime.com/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "NIKO NIKO TAN TAN",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://ganglion-anime.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ganglion-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://ganglion-anime.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ganglion-ed-1"
+          }
+        ],
+        "usageLabel": "第1クール ED"
+      }
+    ]
+  },
+  {
+    "anilistId": 185694,
+    "id": "curated-185694",
+    "slug": "hyakushou-kizoku-3rd-season",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-03",
+    "titleJa": "百姓貴族 3rd Season",
+    "titleZhHant": "百姓貴族 3rd Season",
+    "titleRomaji": "Hyakushou Kizoku 3rd Season",
+    "editorialWeekday": 5,
+    "broadcastTimeJst": "21:54",
+    "broadcastLabel": "日本首播",
+    "status": "unknown",
+    "officialSiteUrl": "https://s.mxtv.jp/anime/hyakusho_kizoku/",
+    "anilistUrl": "https://anilist.co/anime/185694",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://s.mxtv.jp/anime/hyakusho_kizoku/"
+    ],
+    "themes": [
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "陰になり日向になり",
+        "artistDisplayName": "pachae",
+        "songId": "hyakushou-kizoku-3rd-season-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://s.mxtv.jp/anime/hyakusho_kizoku/music.html",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.at-s.com/media/anime/hyakusho_kizoku/season3/",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "pachae",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://s.mxtv.jp/anime/hyakusho_kizoku/music.html",
+              "https://www.at-s.com/media/anime/hyakusho_kizoku/season3/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "hyakushou-kizoku-3rd-season-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://s.mxtv.jp/anime/hyakusho_kizoku/music.html",
+              "https://www.at-s.com/media/anime/hyakusho_kizoku/season3/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "hyakushou-kizoku-3rd-season-ed-1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 186736,
+    "id": "curated-186736",
+    "slug": "kagaku-bouken-survival-2nd-season",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-04",
+    "titleJa": "科学×冒険サバイバル！ 第2シリーズ",
+    "titleZhHant": "科学×冒険サバイバル！ 第2シリーズ",
+    "titleRomaji": "Kagaku×Bouken Survival! 2nd Season",
+    "editorialWeekday": 6,
+    "broadcastTimeJst": "18:25",
+    "broadcastLabel": "日本首播",
+    "status": "unknown",
+    "officialSiteUrl": "https://www.toei-anim.co.jp/tv/survival/",
+    "anilistUrl": "https://anilist.co/anime/186736",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://www.toei-anim.co.jp/tv/survival/onair/index.php"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "ネバネバ",
+        "artistDisplayName": "MORISAKI WIN",
+        "songId": "kagaku-bouken-survival-2nd-season-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.toei-anim.co.jp/tv/survival/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://televimanga.blog.jp/archives/90230924.html",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "MORISAKI WIN",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/survival/",
+              "https://televimanga.blog.jp/archives/90230924.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kagaku-bouken-survival-2nd-season-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/survival/",
+              "https://televimanga.blog.jp/archives/90230924.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kagaku-bouken-survival-2nd-season-op-1"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "survival dAnce",
+        "artistDisplayName": "ジオ（松田颯水）×ダイヤ（小松未可子）",
+        "songId": "kagaku-bouken-survival-2nd-season-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.toei-anim.co.jp/tv/survival/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://televimanga.blog.jp/archives/90230924.html",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "ジオ（松田颯水）",
+            "role": "vocals"
+          },
+          {
+            "name": "ダイヤ（小松未可子）",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/survival/",
+              "https://televimanga.blog.jp/archives/90230924.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kagaku-bouken-survival-2nd-season-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/survival/",
+              "https://televimanga.blog.jp/archives/90230924.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kagaku-bouken-survival-2nd-season-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/survival/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kagaku-bouken-survival-2nd-season-ed-1-song"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 140291,
+    "id": "curated-140291",
+    "slug": "disney-twisted-wonderland-the-animation-episode-of-heartslabyul",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-29",
+    "titleJa": "ディズニー ツイステッドワンダーランド ザ アニメーション ～エピソード オブ ハーツラビュル～",
+    "titleZhHant": "ディズニー ツイステッドワンダーランド ザ アニメーション ～エピソード オブ ハーツラビュル～",
+    "titleRomaji": "Disney Twisted-Wonderland The Animation: Episode of Heartslabyul",
+    "editorialWeekday": 3,
+    "broadcastLabel": "Disney+ 配信開始",
+    "status": "unknown",
+    "officialSiteUrl": "https://www.disneyplus.com/ja-jp/explore/twisted-wonderland-the-animation",
+    "anilistUrl": "https://anilist.co/anime/140291",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://en.wikipedia.org/wiki/Disney_Twisted-Wonderland",
+      "https://www.disney.co.jp/music/news/20251010_01"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Piece of my world",
+        "artistDisplayName": "Night Ravens",
+        "songId": "disney-twisted-wonderland-the-animation-episode-of-heartslabyul-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.disneyplus.com/ja-jp/explore/twisted-wonderland-the-animation",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Disney_Twisted-Wonderland",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "Night Ravens",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.disneyplus.com/ja-jp/explore/twisted-wonderland-the-animation",
+              "https://en.wikipedia.org/wiki/Disney_Twisted-Wonderland"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "disney-twisted-wonderland-the-animation-episode-of-heartslabyul-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.disneyplus.com/ja-jp/explore/twisted-wonderland-the-animation",
+              "https://en.wikipedia.org/wiki/Disney_Twisted-Wonderland"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "disney-twisted-wonderland-the-animation-episode-of-heartslabyul-op-1"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "Obedience",
+        "artistDisplayName": "ハーツラビュル寮",
+        "songId": "disney-twisted-wonderland-the-animation-episode-of-heartslabyul-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.universal-music.co.jp/twistedwonderlandanimation/products/00050087590987/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Disney_Twisted-Wonderland",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "ハーツラビュル寮",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.universal-music.co.jp/twistedwonderlandanimation/products/00050087590987/",
+              "https://en.wikipedia.org/wiki/Disney_Twisted-Wonderland"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "disney-twisted-wonderland-the-animation-episode-of-heartslabyul-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.universal-music.co.jp/twistedwonderlandanimation/products/00050087590987/",
+              "https://en.wikipedia.org/wiki/Disney_Twisted-Wonderland"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "disney-twisted-wonderland-the-animation-episode-of-heartslabyul-ed-1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 184718,
+    "id": "curated-184718",
+    "slug": "cats-eye-2025",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-09-26",
+    "titleJa": "キャッツ♥アイ",
+    "titleZhHant": "キャッツ♥アイ",
+    "titleRomaji": "Cat’s Eye (2025)",
+    "editorialWeekday": 5,
+    "broadcastLabel": "Disney+ 配信開始：9月26日；秋季清單收錄",
+    "status": "unknown",
+    "officialSiteUrl": "https://catseye-anime.com/",
+    "anilistUrl": "https://anilist.co/anime/184718",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://www.universal-music.co.jp/ado/news/2025-09-05-2/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "MAGIC",
+        "artistDisplayName": "Ado",
+        "songId": "cats-eye-2025-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.universal-music.co.jp/ado/news/2025-09-05-2/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "Ado",
+            "role": "vocals"
+          },
+          {
+            "name": "ツミキ",
+            "role": "lyrics"
+          },
+          {
+            "name": "ツミキ",
+            "role": "composition"
+          },
+          {
+            "name": "ツミキ",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.universal-music.co.jp/ado/news/2025-09-05-2/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "cats-eye-2025-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.universal-music.co.jp/ado/news/2025-09-05-2/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "cats-eye-2025-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.universal-music.co.jp/ado/news/2025-09-05-2/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "cats-eye-2025-op-1-song"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "CAT’S EYE",
+        "artistDisplayName": "Ado",
+        "songId": "cats-eye-2025-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.universal-music.co.jp/ado/news/2025-09-05-2/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "Ado",
+            "role": "vocals"
+          },
+          {
+            "name": "三浦徳子",
+            "role": "lyrics"
+          },
+          {
+            "name": "小田裕一郎",
+            "role": "composition"
+          },
+          {
+            "name": "林ゆうき",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.universal-music.co.jp/ado/news/2025-09-05-2/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "cats-eye-2025-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.universal-music.co.jp/ado/news/2025-09-05-2/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "cats-eye-2025-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.universal-music.co.jp/ado/news/2025-09-05-2/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "cats-eye-2025-ed-1-song"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 187921,
+    "id": "curated-187921",
+    "slug": "shuumatsu-no-valkyrie-iii",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-12-10",
+    "titleJa": "終末のワルキューレⅢ",
+    "titleZhHant": "終末のワルキューレⅢ",
+    "titleRomaji": "Shuumatsu no Valkyrie III",
+    "editorialWeekday": 3,
+    "broadcastLabel": "Netflix 配信開始",
+    "status": "unknown",
+    "officialSiteUrl": "https://ragnarok-official.com/",
+    "anilistUrl": "https://anilist.co/anime/187921",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://www.warnerbros.co.jp/news/dlvpbkpumjkb/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Dead Or Alive",
+        "artistDisplayName": "GLAY",
+        "songId": "shuumatsu-no-valkyrie-iii-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://ragnarok-official.com/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "GLAY",
+            "role": "vocals"
+          },
+          {
+            "name": "TAKURO",
+            "role": "lyrics"
+          },
+          {
+            "name": "TAKURO",
+            "role": "composition"
+          },
+          {
+            "name": "GLAY",
+            "role": "arrangement"
+          },
+          {
+            "name": "SEIJI KAMEDA",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://ragnarok-official.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "shuumatsu-no-valkyrie-iii-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://ragnarok-official.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "shuumatsu-no-valkyrie-iii-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://ragnarok-official.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "shuumatsu-no-valkyrie-iii-op-1-song"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "Last breath, Last record",
+        "artistDisplayName": "早見沙織",
+        "songId": "shuumatsu-no-valkyrie-iii-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://ragnarok-official.com/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "早見沙織",
+            "role": "vocals"
+          },
+          {
+            "name": "早見沙織",
+            "role": "lyrics"
+          },
+          {
+            "name": "渡口宗一郎",
+            "role": "composition"
+          },
+          {
+            "name": "渡辺拓也",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://ragnarok-official.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "shuumatsu-no-valkyrie-iii-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://ragnarok-official.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "shuumatsu-no-valkyrie-iii-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://ragnarok-official.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "shuumatsu-no-valkyrie-iii-ed-1-song"
+          }
+        ]
+      }
+    ]
   }
 ];
 
-export const curated2025FallAnimeIds: number[] = [177937, 170577, 153800, 185801, 183385, 180082, 181447, 194447, 179302, 195153, 179992, 182896, 162890, 180436, 195240, 186524, 187940, 173523, 177271, 186190, 186794, 186920, 129195, 186161, 183965, 185575, 185731, 162669, 184322, 188487, 173692, 183291, 185116, 187464, 193968, 188388, 190840, 186914, 170018, 170936, 184997, 196553, 196230, 187860];
+export const curated2025FallAnimeIds: number[] = [177937, 170577, 153800, 185801, 183385, 180082, 181447, 194447, 179302, 195153, 179992, 182896, 162890, 180436, 195240, 186524, 187940, 173523, 177271, 186190, 186794, 186920, 129195, 186161, 183965, 185575, 185731, 162669, 184322, 188487, 173692, 183291, 185116, 187464, 193968, 188388, 190840, 186914, 170018, 170936, 184997, 196553, 196230, 187860, 176298, 174914, 186621, 198561, 198117, 185694, 186736, 140291, 184718, 187921];
