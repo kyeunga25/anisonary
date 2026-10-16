@@ -14312,7 +14312,1813 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
       }
     ],
     "broadcastTimeJst": "23:45"
+  },
+  {
+    "anilistId": 195240,
+    "id": "curated-195240",
+    "slug": "uma-musume-cinderella-gray-part-2",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-05",
+    "titleJa": "ウマ娘 シンデレラグレイ 第2クール",
+    "titleZhHant": "ウマ娘 シンデレラグレイ 第2クール",
+    "titleRomaji": "Uma Musume: Cinderella Gray Part 2",
+    "editorialWeekday": 7,
+    "broadcastTimeJst": "16:30",
+    "broadcastLabel": "日本首播",
+    "status": "finished",
+    "officialSiteUrl": "https://anime-cinderellagray.com/",
+    "anilistUrl": "https://anilist.co/anime/195240",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://prtimes.jp/main/html/rd/p/000001184.000005593.html"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "スパートシンドローマー",
+        "artistDisplayName": "10-FEET",
+        "songId": "uma-musume-cinderella-gray-part-2-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000001184.000005593.html",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://anime-song-info.com/cinderellagray-op-ed-25sp/",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "10-FEET",
+            "role": "vocals"
+          },
+          {
+            "name": "TAKUMA",
+            "role": "lyrics"
+          },
+          {
+            "name": "TAKUMA",
+            "role": "composition"
+          },
+          {
+            "name": "10-FEET",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000001184.000005593.html",
+              "https://anime-song-info.com/cinderellagray-op-ed-25sp/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "uma-musume-cinderella-gray-part-2-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000001184.000005593.html",
+              "https://anime-song-info.com/cinderellagray-op-ed-25sp/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "uma-musume-cinderella-gray-part-2-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000001184.000005593.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "uma-musume-cinderella-gray-part-2-op-1-song"
+          }
+        ],
+        "usageLabel": "第2クール OP"
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "ふたり",
+        "artistDisplayName": "オグリキャップ（CV.高柳知葉）、タマモクロス（CV.大空直美）",
+        "songId": "uma-musume-cinderella-gray-part-2-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000001184.000005593.html",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://anime-song-info.com/cinderellagray-op-ed-25sp/",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "オグリキャップ（CV.高柳知葉）",
+            "role": "vocals"
+          },
+          {
+            "name": "タマモクロス（CV.大空直美）",
+            "role": "vocals"
+          },
+          {
+            "name": "ひとみ (from あたらよ)",
+            "role": "lyrics"
+          },
+          {
+            "name": "ひとみ (from あたらよ)",
+            "role": "composition"
+          },
+          {
+            "name": "れいらむる",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000001184.000005593.html",
+              "https://anime-song-info.com/cinderellagray-op-ed-25sp/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "uma-musume-cinderella-gray-part-2-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000001184.000005593.html",
+              "https://anime-song-info.com/cinderellagray-op-ed-25sp/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "uma-musume-cinderella-gray-part-2-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000001184.000005593.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "uma-musume-cinderella-gray-part-2-ed-1-song"
+          }
+        ],
+        "usageLabel": "第2クール ED"
+      }
+    ]
+  },
+  {
+    "anilistId": 186524,
+    "id": "curated-186524",
+    "slug": "chanto-suenai-kyuuketsuki-chan",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-12",
+    "titleJa": "ちゃんと吸えない吸血鬼ちゃん",
+    "titleZhHant": "ちゃんと吸えない吸血鬼ちゃん",
+    "titleRomaji": "Chanto Suenai Kyuuketsuki-chan",
+    "editorialWeekday": 7,
+    "broadcastTimeJst": "22:30",
+    "broadcastLabel": "日本首播：AT-X 10月12日(日)22:30",
+    "status": "finished",
+    "officialSiteUrl": "https://www.kyuketsuki-chan.com/",
+    "anilistUrl": "https://anilist.co/anime/186524",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://www.kyuketsuki-chan.com/onair/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "青春のシルエット",
+        "artistDisplayName": "H△G",
+        "songId": "chanto-suenai-kyuuketsuki-chan-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.kyuketsuki-chan.com/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "H△G",
+            "role": "vocals"
+          },
+          {
+            "name": "H△G",
+            "role": "lyrics"
+          },
+          {
+            "name": "H△G",
+            "role": "composition"
+          },
+          {
+            "name": "Anthurium",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.kyuketsuki-chan.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "chanto-suenai-kyuuketsuki-chan-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.kyuketsuki-chan.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "chanto-suenai-kyuuketsuki-chan-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.kyuketsuki-chan.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "chanto-suenai-kyuuketsuki-chan-op-1-song"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "線香花火",
+        "artistDisplayName": "H△G, 石川月菜（CV.田中美海）",
+        "songId": "chanto-suenai-kyuuketsuki-chan-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.kyuketsuki-chan.com/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "H△G",
+            "role": "vocals"
+          },
+          {
+            "name": "石川月菜（CV.田中美海）",
+            "role": "vocals"
+          },
+          {
+            "name": "H△G",
+            "role": "lyrics"
+          },
+          {
+            "name": "H△G",
+            "role": "composition"
+          },
+          {
+            "name": "Ryo’LEFTY’Miyata",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.kyuketsuki-chan.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "chanto-suenai-kyuuketsuki-chan-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.kyuketsuki-chan.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "chanto-suenai-kyuuketsuki-chan-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.kyuketsuki-chan.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "chanto-suenai-kyuuketsuki-chan-ed-1-song"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 187940,
+    "id": "curated-187940",
+    "slug": "kao-ni-denai-kashiwada-san-to-kao-ni-deru-oota-kun",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-04",
+    "titleJa": "顔に出ない柏田さんと顔に出る太田君",
+    "titleZhHant": "顔に出ない柏田さんと顔に出る太田君",
+    "titleRomaji": "Kao ni Denai Kashiwada-san to Kao ni Deru Oota-kun",
+    "editorialWeekday": 6,
+    "broadcastTimeJst": "21:00",
+    "broadcastLabel": "日本首播",
+    "status": "finished",
+    "officialSiteUrl": "https://kashiwada-ohta.com/",
+    "anilistUrl": "https://anilist.co/anime/187940",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://kashiwada-ohta.com/onair/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "百面相",
+        "artistDisplayName": "はしメロ",
+        "songId": "kao-ni-denai-kashiwada-san-to-kao-ni-deru-oota-kun-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://kashiwada-ohta.com/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "はしメロ",
+            "role": "vocals"
+          },
+          {
+            "name": "はしメロ",
+            "role": "lyrics"
+          },
+          {
+            "name": "はしメロ",
+            "role": "composition"
+          },
+          {
+            "name": "⌘ハイノミ",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://kashiwada-ohta.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kao-ni-denai-kashiwada-san-to-kao-ni-deru-oota-kun-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://kashiwada-ohta.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kao-ni-denai-kashiwada-san-to-kao-ni-deru-oota-kun-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://kashiwada-ohta.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kao-ni-denai-kashiwada-san-to-kao-ni-deru-oota-kun-op-1-song"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "あまのじゃくヒーロー",
+        "artistDisplayName": "三月のパンタシア",
+        "songId": "kao-ni-denai-kashiwada-san-to-kao-ni-deru-oota-kun-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://kashiwada-ohta.com/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "三月のパンタシア",
+            "role": "vocals"
+          },
+          {
+            "name": "みあ",
+            "role": "lyrics"
+          },
+          {
+            "name": "瀬尾祥太郎(MONACA)",
+            "role": "composition"
+          },
+          {
+            "name": "堀江晶太",
+            "role": "arrangement"
+          },
+          {
+            "name": "瀬尾祥太郎(MONACA)",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://kashiwada-ohta.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kao-ni-denai-kashiwada-san-to-kao-ni-deru-oota-kun-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://kashiwada-ohta.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kao-ni-denai-kashiwada-san-to-kao-ni-deru-oota-kun-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://kashiwada-ohta.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kao-ni-denai-kashiwada-san-to-kao-ni-deru-oota-kun-ed-1-song"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 173523,
+    "id": "curated-173523",
+    "slug": "egao-no-taenai-shokuba-desu",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-06",
+    "titleJa": "笑顔のたえない職場です。",
+    "titleZhHant": "笑顔のたえない職場です。",
+    "titleRomaji": "Egao no Taenai Shokuba desu.",
+    "editorialWeekday": 1,
+    "broadcastTimeJst": "21:30",
+    "broadcastLabel": "日本首播：AT-X 10月6日(月)21:30",
+    "status": "finished",
+    "officialSiteUrl": "https://egatae.com/",
+    "anilistUrl": "https://anilist.co/anime/173523",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://egatae.com/onair/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "絶対称賛！",
+        "artistDisplayName": "HoneyWorks feat.ハコニワリリィ",
+        "songId": "egao-no-taenai-shokuba-desu-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://egatae.com/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "ハコニワリリィ",
+            "role": "vocals"
+          },
+          {
+            "name": "HoneyWorks",
+            "role": "lyrics"
+          },
+          {
+            "name": "MARUMOCHI",
+            "role": "lyrics"
+          },
+          {
+            "name": "HoneyWorks",
+            "role": "composition"
+          },
+          {
+            "name": "MARUMOCHI",
+            "role": "composition"
+          },
+          {
+            "name": "HoneyWorks",
+            "role": "arrangement"
+          },
+          {
+            "name": "MARUMOCHI",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://egatae.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "egao-no-taenai-shokuba-desu-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://egatae.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "egao-no-taenai-shokuba-desu-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://egatae.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "egao-no-taenai-shokuba-desu-op-1-song"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "Thankful",
+        "artistDisplayName": "Sizuk",
+        "songId": "egao-no-taenai-shokuba-desu-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://egatae.com/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "やなぎなぎ",
+            "role": "vocals"
+          },
+          {
+            "name": "森 由里子",
+            "role": "lyrics"
+          },
+          {
+            "name": "俊龍",
+            "role": "composition"
+          },
+          {
+            "name": "奈良悠樹",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://egatae.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "egao-no-taenai-shokuba-desu-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://egatae.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "egao-no-taenai-shokuba-desu-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://egatae.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "egao-no-taenai-shokuba-desu-ed-1-song"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 177271,
+    "id": "curated-177271",
+    "slug": "kakuriyo-no-yadomeshi-2nd-season",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-02",
+    "titleJa": "かくりよの宿飯 弐",
+    "titleZhHant": "かくりよの宿飯 弐",
+    "titleRomaji": "Kakuriyo no Yadomeshi 2nd Season",
+    "editorialWeekday": 4,
+    "broadcastTimeJst": "00:00",
+    "broadcastLabel": "日本首播：10月1日(水)24:00",
+    "status": "finished",
+    "officialSiteUrl": "https://kakuriyo-anime.com/",
+    "anilistUrl": "https://anilist.co/anime/177271",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://kakuriyo-anime.com/onair/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "とおりゃんせ",
+        "artistDisplayName": "東山奈央",
+        "songId": "kakuriyo-no-yadomeshi-2nd-season-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://kakuriyo-anime.com/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "東山奈央",
+            "role": "vocals"
+          },
+          {
+            "name": "大石昌良",
+            "role": "lyrics"
+          },
+          {
+            "name": "大石昌良",
+            "role": "composition"
+          },
+          {
+            "name": "大石昌良",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kakuriyo-no-yadomeshi-2nd-season-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kakuriyo-no-yadomeshi-2nd-season-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kakuriyo-no-yadomeshi-2nd-season-op-1-song"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "涙のレシピ",
+        "artistDisplayName": "東山奈央",
+        "songId": "kakuriyo-no-yadomeshi-2nd-season-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://kakuriyo-anime.com/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "東山奈央",
+            "role": "vocals"
+          },
+          {
+            "name": "傘村トータ(LIVE LAB.)",
+            "role": "lyrics"
+          },
+          {
+            "name": "傘村トータ(LIVE LAB.)",
+            "role": "composition"
+          },
+          {
+            "name": "半田翼",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kakuriyo-no-yadomeshi-2nd-season-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kakuriyo-no-yadomeshi-2nd-season-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://kakuriyo-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kakuriyo-no-yadomeshi-2nd-season-ed-1-song"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 186190,
+    "id": "curated-186190",
+    "slug": "alma-chan-wa-kazoku-ni-naritai",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-05",
+    "titleJa": "アルマちゃんは家族になりたい",
+    "titleZhHant": "アルマちゃんは家族になりたい",
+    "titleRomaji": "Alma-chan wa Kazoku ni Naritai",
+    "editorialWeekday": 7,
+    "broadcastTimeJst": "23:00",
+    "broadcastLabel": "日本首播：AT-X 10月5日(日)23:00",
+    "status": "finished",
+    "officialSiteUrl": "https://alma-chan.com/",
+    "anilistUrl": "https://anilist.co/anime/186190",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://alma-chan.com/onair.html"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "ドラマチック・オーバーレイ",
+        "artistDisplayName": "ZAQ",
+        "songId": "alma-chan-wa-kazoku-ni-naritai-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://alma-chan.com/music.html",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "ZAQ",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://alma-chan.com/music.html",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "alma-chan-wa-kazoku-ni-naritai-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://alma-chan.com/music.html",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "alma-chan-wa-kazoku-ni-naritai-op-1"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "ありふれてたい",
+        "artistDisplayName": "花譜",
+        "songId": "alma-chan-wa-kazoku-ni-naritai-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://alma-chan.com/music.html",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "花譜",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://alma-chan.com/music.html",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "alma-chan-wa-kazoku-ni-naritai-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://alma-chan.com/music.html",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "alma-chan-wa-kazoku-ni-naritai-ed-1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 186794,
+    "id": "curated-186794",
+    "slug": "ansatsusha-de-aru-ore-no-status-ga-yuusha-yori-mo-akiraka-ni-tsuyoi-no-da-ga",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-07",
+    "titleJa": "暗殺者である俺のステータスが勇者よりも明らかに強いのだが",
+    "titleZhHant": "暗殺者である俺のステータスが勇者よりも明らかに強いのだが",
+    "titleRomaji": "Ansatsusha de Aru Ore no Status ga Yuusha yori mo Akiraka ni Tsuyoi no da ga",
+    "editorialWeekday": 2,
+    "broadcastTimeJst": "01:30",
+    "broadcastLabel": "日本首播：10月6日(月)25:30",
+    "status": "finished",
+    "officialSiteUrl": "https://sutetsuyo-anime.com/",
+    "anilistUrl": "https://anilist.co/anime/186794",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://sutetsuyo-anime.com/onair/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "一閃",
+        "artistDisplayName": "VESPERBELL",
+        "songId": "ansatsusha-de-aru-ore-no-status-ga-yuusha-yori-mo-akiraka-ni-tsuyoi-no-da-ga-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://sutetsuyo-anime.com/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "VESPERBELL",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://sutetsuyo-anime.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ansatsusha-de-aru-ore-no-status-ga-yuusha-yori-mo-akiraka-ni-tsuyoi-no-da-ga-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://sutetsuyo-anime.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ansatsusha-de-aru-ore-no-status-ga-yuusha-yori-mo-akiraka-ni-tsuyoi-no-da-ga-op-1"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "Like Gravity",
+        "artistDisplayName": "BONNIE PINK",
+        "songId": "ansatsusha-de-aru-ore-no-status-ga-yuusha-yori-mo-akiraka-ni-tsuyoi-no-da-ga-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://sutetsuyo-anime.com/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "BONNIE PINK",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://sutetsuyo-anime.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ansatsusha-de-aru-ore-no-status-ga-yuusha-yori-mo-akiraka-ni-tsuyoi-no-da-ga-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://sutetsuyo-anime.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ansatsusha-de-aru-ore-no-status-ga-yuusha-yori-mo-akiraka-ni-tsuyoi-no-da-ga-ed-1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 186920,
+    "id": "curated-186920",
+    "slug": "shuumatsu-touring",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-04",
+    "titleJa": "終末ツーリング",
+    "titleZhHant": "終末ツーリング",
+    "titleRomaji": "Shuumatsu Touring",
+    "editorialWeekday": 6,
+    "broadcastTimeJst": "23:30",
+    "broadcastLabel": "日本首播",
+    "status": "finished",
+    "officialSiteUrl": "https://shumatsu-touring.jp/",
+    "anilistUrl": "https://anilist.co/anime/186920",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://shumatsu-touring.jp/#onair"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Touring",
+        "artistDisplayName": "Conton Candy",
+        "songId": "shuumatsu-touring-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://shumatsu-touring.jp/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "Conton Candy",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://shumatsu-touring.jp/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "shuumatsu-touring-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://shumatsu-touring.jp/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "shuumatsu-touring-op-1"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "グライド",
+        "artistDisplayName": "Myuk",
+        "songId": "shuumatsu-touring-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://shumatsu-touring.jp/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "Myuk",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://shumatsu-touring.jp/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "shuumatsu-touring-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://shumatsu-touring.jp/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "shuumatsu-touring-ed-1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 129195,
+    "id": "curated-129195",
+    "slug": "tomodachi-no-imouto-ga-ore-ni-dake-uzai",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-05",
+    "titleJa": "友達の妹が俺にだけウザい",
+    "titleZhHant": "友達の妹が俺にだけウザい",
+    "titleRomaji": "Tomodachi no Imouto ga Ore ni dake Uzai",
+    "editorialWeekday": 7,
+    "broadcastTimeJst": "01:30",
+    "broadcastLabel": "日本首播：10月4日(土)25:30",
+    "status": "finished",
+    "officialSiteUrl": "https://www.imouza-animation.com/",
+    "anilistUrl": "https://anilist.co/anime/129195",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://www.imouza-animation.com/onair/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "ウザ可愛くて何が悪い！",
+        "artistDisplayName": "赤見かるび",
+        "songId": "tomodachi-no-imouto-ga-ore-ni-dake-uzai-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.imouza-animation.com/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "赤見かるび",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.imouza-animation.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tomodachi-no-imouto-ga-ore-ni-dake-uzai-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.imouza-animation.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tomodachi-no-imouto-ga-ore-ni-dake-uzai-op-1"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "星の鼓動",
+        "artistDisplayName": "こはならむ",
+        "songId": "tomodachi-no-imouto-ga-ore-ni-dake-uzai-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.imouza-animation.com/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "こはならむ",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.imouza-animation.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tomodachi-no-imouto-ga-ore-ni-dake-uzai-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.imouza-animation.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tomodachi-no-imouto-ga-ore-ni-dake-uzai-ed-1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 186161,
+    "id": "curated-186161",
+    "slug": "kimi-to-koete-koi-ni-naru",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-14",
+    "titleJa": "キミと越えて恋になる",
+    "titleZhHant": "キミと越えて恋になる",
+    "titleRomaji": "Kimi to Koete Koi ni Naru",
+    "editorialWeekday": 2,
+    "broadcastTimeJst": "23:30",
+    "broadcastLabel": "日本首播",
+    "status": "finished",
+    "officialSiteUrl": "https://www.kimikoe-anime.com/",
+    "anilistUrl": "https://anilist.co/anime/186161",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://www.kimikoe-anime.com/on-air/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "くすぐったい。",
+        "artistDisplayName": "CHiCO with HoneyWorks",
+        "songId": "kimi-to-koete-koi-ni-naru-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.kimikoe-anime.com/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "CHiCO with HoneyWorks",
+            "role": "vocals"
+          },
+          {
+            "name": "Gom",
+            "role": "lyrics"
+          },
+          {
+            "name": "shito",
+            "role": "lyrics"
+          },
+          {
+            "name": "Gom",
+            "role": "composition"
+          },
+          {
+            "name": "HoneyWorks",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.kimikoe-anime.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kimi-to-koete-koi-ni-naru-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.kimikoe-anime.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kimi-to-koete-koi-ni-naru-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.kimikoe-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kimi-to-koete-koi-ni-naru-op-1-song"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "きみになれたら",
+        "artistDisplayName": "神山羊",
+        "songId": "kimi-to-koete-koi-ni-naru-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.kimikoe-anime.com/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "神山羊",
+            "role": "vocals"
+          },
+          {
+            "name": "神山羊",
+            "role": "lyrics"
+          },
+          {
+            "name": "神山羊",
+            "role": "composition"
+          },
+          {
+            "name": "神山羊",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.kimikoe-anime.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kimi-to-koete-koi-ni-naru-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.kimikoe-anime.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kimi-to-koete-koi-ni-naru-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.kimikoe-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kimi-to-koete-koi-ni-naru-ed-1-song"
+          }
+        ]
+      }
+    ]
   }
 ];
 
-export const curated2025FallAnimeIds: number[] = [177937, 170577, 153800, 185801, 183385, 180082, 181447, 194447, 179302, 195153, 179992, 182896, 162890, 180436];
+export const curated2025FallAnimeIds: number[] = [177937, 170577, 153800, 185801, 183385, 180082, 181447, 194447, 179302, 195153, 179992, 182896, 162890, 180436, 195240, 186524, 187940, 173523, 177271, 186190, 186794, 186920, 129195, 186161];
