@@ -7583,6 +7583,27 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "zh-Hant",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://uru-official.com/news/detail/1534",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://uru-official.com/news/detail/1566",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://uru.lnk.to/FM1bFR",
+            "label": "官方公開配信入口與確切平台連結",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
           }
         ],
         "credits": [
@@ -7639,6 +7660,423 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "towa-no-yuugure-op-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://uru-official.com/news/detail/1534"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "towa-no-yuugure-op-1-song-original"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://uru-official.com/news/detail/1534"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "towa-no-yuugure-op-1-song-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://uru-official.com/news/detail/1534"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "uru-platform-aicl-4827"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://uru-official.com/news/detail/1534"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "uru-platform-aicl-4825-4826"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://uru-official.com/news/detail/1534"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "uru-platform-aicl-4828-4829"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://uru-official.com/news/detail/1534"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://smar.lnk.to/RbjKJc"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://uru-official.com/news/detail/1534"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "towa-no-yuugure-op-1-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://uru-official.com/news/detail/1534"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=3hycJ7kT_XE"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://uru-official.com/news/detail/1566"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=oWkzOK3HXA0"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://uru-official.com/news/detail/1534"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://uru.lnk.to/FM1bFR"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://uru.lnk.to/FM1bFR"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1843380733"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://uru.lnk.to/FM1bFR"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004b6fde5&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://uru.lnk.to/FM1bFR"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_lgwVf3L6gGoq31V0UiNzMDawghLYEI8Dw"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://uru.lnk.to/FM1bFR"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/99f807da80672e099e06"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://uru.lnk.to/FM1bFR"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.kkbox.com/jp/ja/album/9aPoS4yTUhQp_rEnMF"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://uru.lnk.to/FM1bFR"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1044237224"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://uru.lnk.to/FM1bFR"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000087/AIXX02819B00Z/"
+          }
+        ],
+        "releaseDate": "2025-10-15",
+        "recordings": [
+          {
+            "id": "towa-no-yuugure-op-1-song-original",
+            "title": "プラットフォーム",
+            "format": "unknown",
+            "kind": "vocal"
+          },
+          {
+            "id": "towa-no-yuugure-op-1-song-instrumental",
+            "title": "プラットフォーム -instrumental-",
+            "format": "unknown",
+            "kind": "instrumental"
+          }
+        ],
+        "releases": [
+          {
+            "id": "uru-platform-aicl-4827",
+            "title": "プラットフォーム",
+            "type": "single",
+            "artistDisplayName": "Uru",
+            "tracks": [
+              {
+                "title": "プラットフォーム",
+                "position": 1
+              },
+              {
+                "title": "プラットフォーム -instrumental-",
+                "position": 4,
+                "recordingId": "towa-no-yuugure-op-1-song-instrumental"
+              }
+            ],
+            "date": {
+              "value": "2025-11-26",
+              "precision": "day"
+            },
+            "catalogNumber": "AICL-4827",
+            "edition": "通常盤 CD"
+          },
+          {
+            "id": "uru-platform-aicl-4825-4826",
+            "title": "プラットフォーム",
+            "type": "single",
+            "artistDisplayName": "Uru",
+            "tracks": [
+              {
+                "title": "プラットフォーム",
+                "position": 1
+              },
+              {
+                "title": "プラットフォーム -instrumental-",
+                "position": 4,
+                "recordingId": "towa-no-yuugure-op-1-song-instrumental"
+              }
+            ],
+            "date": {
+              "value": "2025-11-26",
+              "precision": "day"
+            },
+            "catalogNumber": "AICL-4825〜6",
+            "edition": "初回生産限定盤 CD＋BD"
+          },
+          {
+            "id": "uru-platform-aicl-4828-4829",
+            "title": "プラットフォーム",
+            "type": "single",
+            "artistDisplayName": "Uru",
+            "tracks": [
+              {
+                "title": "プラットフォーム",
+                "position": 1
+              },
+              {
+                "title": "プラットフォーム -instrumental-",
+                "position": 4,
+                "recordingId": "towa-no-yuugure-op-1-song-instrumental"
+              }
+            ],
+            "date": {
+              "value": "2025-11-26",
+              "precision": "day"
+            },
+            "catalogNumber": "AICL-4828～9",
+            "edition": "期間限定生産（アニメ）盤 CD＋BD"
+          },
+          {
+            "id": "towa-no-yuugure-op-1-song-digital",
+            "title": "プラットフォーム",
+            "type": "single",
+            "artistDisplayName": "Uru",
+            "tracks": [
+              {
+                "title": "プラットフォーム"
+              }
+            ],
+            "date": {
+              "value": "2025-10-15",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方",
+            "label": "プラットフォーム：CD商品入口",
+            "url": "https://smar.lnk.to/RbjKJc",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "プラットフォーム Music Video",
+            "url": "https://www.youtube.com/watch?v=3hycJ7kT_XE",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "プラットフォーム × 永久のユウグレ コラボMV",
+            "url": "https://www.youtube.com/watch?v=oWkzOK3HXA0",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "官方",
+            "label": "プラットフォーム：官方配信入口",
+            "url": "https://uru.lnk.to/FM1bFR",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Apple Music：プラットフォーム",
+            "url": "https://music.apple.com/jp/album/1843380733",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "LINE MUSIC：プラットフォーム",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004b6fde5&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "YouTube Music：プラットフォーム",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_lgwVf3L6gGoq31V0UiNzMDawghLYEI8Dw",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "AWA",
+            "label": "AWA：プラットフォーム",
+            "url": "https://s.awa.fm/album/99f807da80672e099e06",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "KKBOX",
+            "label": "KKBOX：プラットフォーム",
+            "url": "https://www.kkbox.com/jp/ja/album/9aPoS4yTUhQp_rEnMF",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "レコチョク：プラットフォーム",
+            "url": "https://recochoku.jp/album/A1044237224",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "mora",
+            "label": "mora：プラットフォーム",
+            "url": "https://mora.jp/package/43000087/AIXX02819B00Z/",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
           }
         ]
       },
@@ -7665,6 +8103,34 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "label": "歌曲與動畫用途交叉核對",
             "role": "cross_check",
             "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://uru-official.com/news/detail/1534",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://uru-official.com/news/detail/1562",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://towanoyuugure.com/news/575/",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://uru.lnk.to/qZaudD",
+            "label": "官方公開配信入口與確切平台連結",
+            "role": "first_party",
+            "language": "multi",
             "verifiedAt": "2026-10-16"
           }
         ],
@@ -7722,9 +8188,414 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "towa-no-yuugure-op-2-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://uru-official.com/news/detail/1534"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "towa-no-yuugure-op-2-song-original"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://uru-official.com/news/detail/1534"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "towa-no-yuugure-op-2-song-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://uru-official.com/news/detail/1534"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "uru-platform-aicl-4827"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://uru-official.com/news/detail/1534"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "uru-platform-aicl-4825-4826"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://uru-official.com/news/detail/1534"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "uru-platform-aicl-4828-4829"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://uru-official.com/news/detail/1534"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://smar.lnk.to/RbjKJc"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://uru-official.com/news/detail/1562"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=5-o_tvuKSfM"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://towanoyuugure.com/news/575/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=Q4pGLCp_YDQ"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://towanoyuugure.com/news/572/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://uru.lnk.to/qZaudD"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://uru.lnk.to/qZaudD"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1852482210"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://uru.lnk.to/qZaudD"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/0Y6E8iONiviXsPqEPGzRsl"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://uru.lnk.to/qZaudD"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004cf7579&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://uru.lnk.to/qZaudD"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_kS7aAesfjZBA4x5mgJ-IxjBmKnvLydQ7I"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://uru.lnk.to/qZaudD"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/b5bd4a7981b2f680a916"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://uru.lnk.to/qZaudD"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.kkbox.com/jp/ja/album/GpXrax3zWop21eqsy2"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://uru.lnk.to/qZaudD"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1044853130"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://uru.lnk.to/qZaudD"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000087/AICL04827B00Z/"
           }
         ],
-        "usageLabel": "第11話 特殊OP"
+        "usageLabel": "第11話 特殊OP",
+        "releaseDate": "2025-11-26",
+        "recordings": [
+          {
+            "id": "towa-no-yuugure-op-2-song-original",
+            "title": "愛",
+            "format": "unknown",
+            "kind": "vocal"
+          },
+          {
+            "id": "towa-no-yuugure-op-2-song-instrumental",
+            "title": "愛 -instrumental-",
+            "format": "unknown",
+            "kind": "instrumental"
+          }
+        ],
+        "releases": [
+          {
+            "id": "uru-platform-aicl-4827",
+            "title": "プラットフォーム",
+            "type": "single",
+            "artistDisplayName": "Uru",
+            "tracks": [
+              {
+                "title": "愛",
+                "position": 2
+              },
+              {
+                "title": "愛 -instrumental-",
+                "position": 5,
+                "recordingId": "towa-no-yuugure-op-2-song-instrumental"
+              }
+            ],
+            "date": {
+              "value": "2025-11-26",
+              "precision": "day"
+            },
+            "catalogNumber": "AICL-4827",
+            "edition": "通常盤 CD"
+          },
+          {
+            "id": "uru-platform-aicl-4825-4826",
+            "title": "プラットフォーム",
+            "type": "single",
+            "artistDisplayName": "Uru",
+            "tracks": [
+              {
+                "title": "愛",
+                "position": 2
+              },
+              {
+                "title": "愛 -instrumental-",
+                "position": 5,
+                "recordingId": "towa-no-yuugure-op-2-song-instrumental"
+              }
+            ],
+            "date": {
+              "value": "2025-11-26",
+              "precision": "day"
+            },
+            "catalogNumber": "AICL-4825〜6",
+            "edition": "初回生産限定盤 CD＋BD"
+          },
+          {
+            "id": "uru-platform-aicl-4828-4829",
+            "title": "プラットフォーム",
+            "type": "single",
+            "artistDisplayName": "Uru",
+            "tracks": [
+              {
+                "title": "愛",
+                "position": 2
+              },
+              {
+                "title": "愛 -instrumental-",
+                "position": 5,
+                "recordingId": "towa-no-yuugure-op-2-song-instrumental"
+              }
+            ],
+            "date": {
+              "value": "2025-11-26",
+              "precision": "day"
+            },
+            "catalogNumber": "AICL-4828～9",
+            "edition": "期間限定生産（アニメ）盤 CD＋BD"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方",
+            "label": "プラットフォーム：CD商品入口",
+            "url": "https://smar.lnk.to/RbjKJc",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "愛 Music Video",
+            "url": "https://www.youtube.com/watch?v=5-o_tvuKSfM",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "第11話 特殊オープニング",
+            "url": "https://www.youtube.com/watch?v=Q4pGLCp_YDQ",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "官方",
+            "label": "プラットフォーム：愛收錄配信",
+            "url": "https://uru.lnk.to/qZaudD",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Apple Music：愛",
+            "url": "https://music.apple.com/jp/album/1852482210",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Spotify",
+            "label": "Spotify：愛",
+            "url": "https://open.spotify.com/album/0Y6E8iONiviXsPqEPGzRsl",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "LINE MUSIC：愛",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004cf7579&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "YouTube Music：愛",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_kS7aAesfjZBA4x5mgJ-IxjBmKnvLydQ7I",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "AWA",
+            "label": "AWA：愛",
+            "url": "https://s.awa.fm/album/b5bd4a7981b2f680a916",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "KKBOX",
+            "label": "KKBOX：愛",
+            "url": "https://www.kkbox.com/jp/ja/album/GpXrax3zWop21eqsy2",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "レコチョク：愛",
+            "url": "https://recochoku.jp/album/A1044853130",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "mora",
+            "label": "mora：愛",
+            "url": "https://mora.jp/package/43000087/AICL04827B00Z/",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          }
+        ]
       },
       {
         "type": "ED",
@@ -7749,6 +8620,34 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "label": "歌曲與動畫用途交叉核對",
             "role": "cross_check",
             "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/HanaHope/info/579125",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.taiyokikaku.com/works/mv/twoofus",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://towanoyuugure.com/news/467/",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://smar.lnk.to/Bawt3v",
+            "label": "官方公開配信入口與確切平台連結",
+            "role": "first_party",
+            "language": "multi",
             "verifiedAt": "2026-10-16"
           }
         ],
@@ -7810,6 +8709,294 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "towa-no-yuugure-ed-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/HanaHope/info/579125"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "towa-no-yuugure-ed-1-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/HanaHope/info/579125"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "hana-hope-two-of-us-aicl-4832"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/HanaHope/info/579125"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "hana-hope-two-of-us-aicl-4833-4834"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/HanaHope/info/579125"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://smar.lnk.to/GxB7VW"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://towanoyuugure.com/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "towa-no-yuugure-ed-1-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.taiyokikaku.com/works/mv/twoofus"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=VxW1dU3u6e8"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://towanoyuugure.com/news/467/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=gSzBX2LXNjw"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/HanaHope/info/579125"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://smar.lnk.to/Bawt3v"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://smar.lnk.to/Bawt3v"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1843380461"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://smar.lnk.to/Bawt3v"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/intl-ja/album/2PvoKRmVnoFAZVcNgcpbhS"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://smar.lnk.to/Bawt3v"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_kE55JlHkMu2K_q-Q92T9aeooF8XC0djN8"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://smar.lnk.to/Bawt3v"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.amazon.co.jp/albums/B0FTGDXVLF"
+          }
+        ],
+        "releaseDate": "2025-10-15",
+        "recordings": [
+          {
+            "id": "towa-no-yuugure-ed-1-song-original",
+            "title": "Two Of Us",
+            "format": "unknown",
+            "kind": "vocal"
+          }
+        ],
+        "releases": [
+          {
+            "id": "hana-hope-two-of-us-aicl-4832",
+            "title": "Two Of Us",
+            "type": "single",
+            "artistDisplayName": "Hana Hope",
+            "tracks": [
+              {
+                "title": "Two Of Us",
+                "position": 1
+              }
+            ],
+            "date": {
+              "value": "2025-12-17",
+              "precision": "day"
+            },
+            "catalogNumber": "AICL-4832",
+            "edition": "初回生産限定盤 CD"
+          },
+          {
+            "id": "hana-hope-two-of-us-aicl-4833-4834",
+            "title": "Two Of Us",
+            "type": "single",
+            "artistDisplayName": "Hana Hope",
+            "tracks": [
+              {
+                "title": "Two Of Us",
+                "position": 1
+              }
+            ],
+            "date": {
+              "value": "2025-12-17",
+              "precision": "day"
+            },
+            "catalogNumber": "AICL-4833～4",
+            "edition": "期間生産限定盤 CD＋BD"
+          },
+          {
+            "id": "towa-no-yuugure-ed-1-song-digital",
+            "title": "Two Of Us",
+            "type": "single",
+            "artistDisplayName": "Hana Hope",
+            "tracks": [
+              {
+                "title": "Two Of Us"
+              }
+            ],
+            "date": {
+              "value": "2025-10-15",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方",
+            "label": "Two Of Us：CD商品入口",
+            "url": "https://smar.lnk.to/GxB7VW",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "Two Of Us Music Video",
+            "url": "https://www.youtube.com/watch?v=VxW1dU3u6e8",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "永久のユウグレ ノンクレジットED",
+            "url": "https://www.youtube.com/watch?v=gSzBX2LXNjw",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "官方",
+            "label": "Two Of Us：官方配信入口",
+            "url": "https://smar.lnk.to/Bawt3v",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Apple Music：Two Of Us",
+            "url": "https://music.apple.com/jp/album/1843380461",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Spotify",
+            "label": "Spotify：Two Of Us",
+            "url": "https://open.spotify.com/intl-ja/album/2PvoKRmVnoFAZVcNgcpbhS",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "YouTube Music：Two Of Us",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_kE55JlHkMu2K_q-Q92T9aeooF8XC0djN8",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Amazon Music",
+            "label": "Amazon Music：Two Of Us",
+            "url": "https://music.amazon.co.jp/albums/B0FTGDXVLF",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
           }
         ]
       },
@@ -7837,12 +9024,42 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/HanaHope/info/579125",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.uta-net.com/song/385221/?target=kashi",
+            "label": "逐曲創作／演唱名單",
+            "role": "cross_check",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
           }
         ],
         "credits": [
           {
             "name": "Hana Hope",
             "role": "vocals"
+          },
+          {
+            "name": "Hana Hope",
+            "role": "lyrics"
+          },
+          {
+            "name": "Miss Monday",
+            "role": "lyrics"
+          },
+          {
+            "name": "Ryosuke Usui",
+            "role": "composition"
+          },
+          {
+            "name": "Ryosuke Usui",
+            "role": "arrangement"
           }
         ],
         "evidence": [
@@ -7870,9 +9087,155 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "towa-no-yuugure-ed-2"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/HanaHope/info/579125"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "towa-no-yuugure-ed-2-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/HanaHope/info/579125"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "hana-hope-two-of-us-aicl-4832"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/HanaHope/info/579125"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "hana-hope-two-of-us-aicl-4833-4834"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/HanaHope/info/579125"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://smar.lnk.to/GxB7VW"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.uta-net.com/song/385221/?target=kashi"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.uta-net.com/song/385221/?target=kashi"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.uta-net.com/song/385221/?target=kashi"
+            ],
+            "verifiedAt": "2026-10-16"
           }
         ],
-        "usageLabel": "ダブルED（第0話でも使用）"
+        "usageLabel": "ダブルED（第0話でも使用）",
+        "releaseDate": "2025-12-17",
+        "recordings": [
+          {
+            "id": "towa-no-yuugure-ed-2-song-original",
+            "title": "星紡ぎ",
+            "format": "unknown",
+            "kind": "vocal"
+          }
+        ],
+        "releases": [
+          {
+            "id": "hana-hope-two-of-us-aicl-4832",
+            "title": "Two Of Us",
+            "type": "single",
+            "artistDisplayName": "Hana Hope",
+            "tracks": [
+              {
+                "title": "星紡ぎ",
+                "position": 2
+              }
+            ],
+            "date": {
+              "value": "2025-12-17",
+              "precision": "day"
+            },
+            "catalogNumber": "AICL-4832",
+            "edition": "初回生産限定盤 CD"
+          },
+          {
+            "id": "hana-hope-two-of-us-aicl-4833-4834",
+            "title": "Two Of Us",
+            "type": "single",
+            "artistDisplayName": "Hana Hope",
+            "tracks": [
+              {
+                "title": "星紡ぎ",
+                "position": 2
+              }
+            ],
+            "date": {
+              "value": "2025-12-17",
+              "precision": "day"
+            },
+            "catalogNumber": "AICL-4833～4",
+            "edition": "期間生産限定盤 CD＋BD"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方",
+            "label": "Two Of Us：CD商品入口",
+            "url": "https://smar.lnk.to/GxB7VW",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          }
+        ]
       }
     ],
     "broadcastTimeJst": "00:26"
@@ -7927,6 +9290,34 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "label": "歌曲與動畫用途交叉核對",
             "role": "cross_check",
             "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://mechanicalmarie-anime.com/music/store/",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://mechanicalmarie-anime.com/topics/172/",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://lnk.to/hontotouso",
+            "label": "官方公開配信入口與確切平台連結",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://lnk.to/PCSP000007079",
+            "label": "官方公開配信入口與確切平台連結",
+            "role": "first_party",
+            "language": "multi",
             "verifiedAt": "2026-10-16"
           }
         ],
@@ -7988,6 +9379,489 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "kikaijikake-no-marie-op-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://mechanicalmarie-anime.com/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kikaijikake-no-marie-op-1-song-original"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://mechanicalmarie-anime.com/music/store/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kikaijikake-no-marie-op-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://mechanicalmarie-anime.com/music/store/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "mechanical-marie-ost-pccg-02479"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://mechanicalmarie-anime.com/topics/172/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kikaijikake-no-marie-op-1-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mechanicalmarie-anime.com/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://lnk.to/hontotouso"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mechanicalmarie-anime.com/music/store/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://lnk.to/PCSP000007079"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mechanicalmarie-anime.com/topics/172/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=dFOpi6ZSzS4"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/hontotouso"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1839158558"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/hontotouso"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/2srevelJeIlZez9mnm2L9V"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/hontotouso"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.kkbox.com/jp/ja/album/Cni7YEVV4d6Z1ffvGI"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/hontotouso"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.amazon.co.jp/music/player/albums/B0FQNXBKRV"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/hontotouso"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_kzoQ7P1olBS3Zr11byNTb6LomRB0lJSX0"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/hontotouso"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1839158558"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/hontotouso"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1043858930"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/hontotouso"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000004/PCSP-06858_F/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/PCSP000007079"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004dfc1b5&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/PCSP000007079"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1858516610"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/PCSP000007079"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_mjZSRQY9P4NZwqbXPpKQlncjqxtXejIUA"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/PCSP000007079"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/4nHNMdRQBLToJSK7RuEkdR"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/PCSP000007079"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.amazon.co.jp/music/player/albums/B0G52LB3WV"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/PCSP000007079"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000004/PCSP-07079/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/PCSP000007079"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000004/PCSP-07079_F/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/PCSP000007079"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1045166516"
+          }
+        ],
+        "releaseDate": "2025-10-06",
+        "recordings": [
+          {
+            "id": "kikaijikake-no-marie-op-1-song-original",
+            "title": "ホントトウソ",
+            "format": "unknown",
+            "kind": "vocal"
+          },
+          {
+            "id": "kikaijikake-no-marie-op-1-song-tv",
+            "title": "ホントトウソ（TVサイズ）",
+            "format": "tv",
+            "kind": "vocal"
+          }
+        ],
+        "releases": [
+          {
+            "id": "mechanical-marie-ost-pccg-02479",
+            "title": "TVアニメ『機械じかけのマリー』ORIGINAL SOUNDTRACK",
+            "type": "soundtrack",
+            "artistDisplayName": "高梨康治、ヨハネス・ニルソン",
+            "tracks": [
+              {
+                "title": "ホントトウソ（TVサイズ）",
+                "recordingId": "kikaijikake-no-marie-op-1-song-tv"
+              }
+            ],
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "catalogNumber": "PCCG.02479",
+            "edition": "CD"
+          },
+          {
+            "id": "kikaijikake-no-marie-op-1-song-digital",
+            "title": "ホントトウソ",
+            "type": "single",
+            "artistDisplayName": "春茶",
+            "tracks": [
+              {
+                "title": "ホントトウソ"
+              }
+            ],
+            "date": {
+              "value": "2025-10-06",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方",
+            "label": "ホントトウソ：官方配信入口",
+            "url": "https://lnk.to/hontotouso",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "官方",
+            "label": "機械じかけのマリー OST配信入口",
+            "url": "https://lnk.to/PCSP000007079",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "機械じかけのマリー ノンクレジットOP",
+            "url": "https://www.youtube.com/watch?v=dFOpi6ZSzS4",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Apple Music：ホントトウソ",
+            "url": "https://music.apple.com/jp/album/1839158558",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Spotify",
+            "label": "Spotify：ホントトウソ",
+            "url": "https://open.spotify.com/album/2srevelJeIlZez9mnm2L9V",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "KKBOX",
+            "label": "KKBOX：ホントトウソ",
+            "url": "https://www.kkbox.com/jp/ja/album/Cni7YEVV4d6Z1ffvGI",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Amazon Music",
+            "label": "Amazon Music：ホントトウソ",
+            "url": "https://www.amazon.co.jp/music/player/albums/B0FQNXBKRV",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "YouTube Music：ホントトウソ",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_kzoQ7P1olBS3Zr11byNTb6LomRB0lJSX0",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "レコチョク：ホントトウソ",
+            "url": "https://recochoku.jp/album/A1043858930",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "mora",
+            "label": "mora：ホントトウソ",
+            "url": "https://mora.jp/package/43000004/PCSP-06858_F/",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "LINE MUSIC：機械じかけのマリー OST",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004dfc1b5&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Apple Music：機械じかけのマリー OST",
+            "url": "https://music.apple.com/jp/album/1858516610",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "YouTube Music：機械じかけのマリー OST",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_mjZSRQY9P4NZwqbXPpKQlncjqxtXejIUA",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Spotify",
+            "label": "Spotify：機械じかけのマリー OST",
+            "url": "https://open.spotify.com/album/4nHNMdRQBLToJSK7RuEkdR",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Amazon Music",
+            "label": "Amazon Music：機械じかけのマリー OST",
+            "url": "https://www.amazon.co.jp/music/player/albums/B0G52LB3WV",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "mora",
+            "label": "mora：機械じかけのマリー OST",
+            "url": "https://mora.jp/package/43000004/PCSP-07079/",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "mora",
+            "label": "mora：機械じかけのマリー OST",
+            "url": "https://mora.jp/package/43000004/PCSP-07079_F/",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "レコチョク：機械じかけのマリー OST",
+            "url": "https://recochoku.jp/album/A1045166516",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
           }
         ]
       },
@@ -8014,6 +9888,41 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "label": "歌曲與動畫用途交叉核對",
             "role": "cross_check",
             "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://mechanicalmarie-anime.com/music/store/",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://mechanicalmarie-anime.com/topics/172/",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://lnk.to/Crossheart",
+            "label": "官方公開配信入口與確切平台連結",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://lnk.to/mechanicalmarie_ed_Crossheart",
+            "label": "官方公開配信入口與確切平台連結",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://lnk.to/PCSP000007079",
+            "label": "官方公開配信入口與確切平台連結",
+            "role": "first_party",
+            "language": "multi",
             "verifiedAt": "2026-10-16"
           }
         ],
@@ -8071,9 +9980,751 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "kikaijikake-no-marie-ed-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://mechanicalmarie-anime.com/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kikaijikake-no-marie-ed-1-song-original"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://mechanicalmarie-anime.com/music/store/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kikaijikake-no-marie-ed-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://mechanicalmarie-anime.com/music/store/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "mechanical-marie-ost-pccg-02479"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://mechanicalmarie-anime.com/topics/172/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kikaijikake-no-marie-ed-1-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mechanicalmarie-anime.com/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://lnk.to/Crossheart"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mechanicalmarie-anime.com/music/store/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://lnk.to/PCSP000007079"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mechanicalmarie-anime.com/topics/172/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=oNMMum8vY60"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://mechanicalmarie-anime.com/music/store/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kikaijikake-no-marie-ed-1-song-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://mechanicalmarie-anime.com/music/store/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "mechanical-marie-cross-heart-pccg-70554"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mechanicalmarie-anime.com/music/store/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://lnk.to/mechanicalmarie_ed_Crossheart"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/Crossheart"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1839146959"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/Crossheart"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/6ev6WklZP1COmpoIp8pCl5"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/Crossheart"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/webapp/album/mb0000000004ae61b9"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/Crossheart"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.kkbox.com/jp/ja/album/1-XC9WfXCvM0dXt93F"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/Crossheart"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.amazon.co.jp/music/player/albums/B0FQNV1Z1M"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/Crossheart"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_mXDbRi2Ou0Ezl_D6b9w4X1Ged25wUQrl4"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/Crossheart"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1839146959"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/Crossheart"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1043858670"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/Crossheart"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000004/PCSP-06821_F/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/mechanicalmarie_ed_Crossheart"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1849818168"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/mechanicalmarie_ed_Crossheart"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/6fBmZyPsy35ZFtCzvbhRVU"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/mechanicalmarie_ed_Crossheart"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004c93658&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/mechanicalmarie_ed_Crossheart"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_kVd8pC7beoXzw-1De05WDBrqQKHiozQLo"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/mechanicalmarie_ed_Crossheart"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.amazon.co.jp/music/player/albums/B0FYLWD87B"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/mechanicalmarie_ed_Crossheart"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000004/PCSP-06905/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/mechanicalmarie_ed_Crossheart"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000004/PCSP-06905_F/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/mechanicalmarie_ed_Crossheart"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1044661661"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/PCSP000007079"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004dfc1b5&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/PCSP000007079"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1858516610"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/PCSP000007079"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_mjZSRQY9P4NZwqbXPpKQlncjqxtXejIUA"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/PCSP000007079"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/4nHNMdRQBLToJSK7RuEkdR"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/PCSP000007079"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.amazon.co.jp/music/player/albums/B0G52LB3WV"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/PCSP000007079"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000004/PCSP-07079/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/PCSP000007079"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000004/PCSP-07079_F/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/PCSP000007079"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1045166516"
           }
         ],
-        "usageLabel": "第1話〜第3話 ED"
+        "usageLabel": "第1話〜第3話 ED",
+        "releaseDate": "2025-10-06",
+        "recordings": [
+          {
+            "id": "kikaijikake-no-marie-ed-1-song-original",
+            "title": "Cross heart〜偽りのない気持ち",
+            "format": "unknown",
+            "kind": "character"
+          },
+          {
+            "id": "kikaijikake-no-marie-ed-1-song-tv",
+            "title": "Cross heart〜偽りのない気持ち（TVサイズ）",
+            "format": "tv",
+            "kind": "character"
+          },
+          {
+            "id": "kikaijikake-no-marie-ed-1-song-instrumental",
+            "title": "Cross heart〜偽りのない気持ち（instrumental）",
+            "format": "unknown",
+            "kind": "instrumental"
+          }
+        ],
+        "releases": [
+          {
+            "id": "mechanical-marie-ost-pccg-02479",
+            "title": "TVアニメ『機械じかけのマリー』ORIGINAL SOUNDTRACK",
+            "type": "soundtrack",
+            "artistDisplayName": "高梨康治、ヨハネス・ニルソン",
+            "tracks": [
+              {
+                "title": "Cross heart〜偽りのない気持ち（TVサイズ）",
+                "recordingId": "kikaijikake-no-marie-ed-1-song-tv"
+              }
+            ],
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "catalogNumber": "PCCG.02479",
+            "edition": "CD"
+          },
+          {
+            "id": "kikaijikake-no-marie-ed-1-song-digital",
+            "title": "Cross heart〜偽りのない気持ち",
+            "type": "single",
+            "artistDisplayName": "マリー（CV：東山奈央）",
+            "tracks": [
+              {
+                "title": "Cross heart〜偽りのない気持ち"
+              }
+            ],
+            "date": {
+              "value": "2025-10-06",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          },
+          {
+            "id": "mechanical-marie-cross-heart-pccg-70554",
+            "title": "Cross heart〜偽りのない気持ち",
+            "type": "single",
+            "artistDisplayName": "マリー（CV：東山奈央）＆マリー２（CV：小清水亜美）",
+            "tracks": [
+              {
+                "title": "Cross heart〜偽りのない気持ち",
+                "position": 1
+              },
+              {
+                "title": "Cross heart〜偽りのない気持ち（instrumental）",
+                "position": 5,
+                "recordingId": "kikaijikake-no-marie-ed-1-song-instrumental"
+              }
+            ],
+            "date": {
+              "value": "2025-11-19",
+              "precision": "day"
+            },
+            "catalogNumber": "PCCG.70554",
+            "edition": "CD"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方",
+            "label": "Cross heart〜偽りのない気持ち：官方配信入口",
+            "url": "https://lnk.to/Crossheart",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "官方",
+            "label": "機械じかけのマリー OST配信入口",
+            "url": "https://lnk.to/PCSP000007079",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "機械じかけのマリー ノンクレジットED",
+            "url": "https://www.youtube.com/watch?v=oNMMum8vY60",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "官方",
+            "label": "Cross heart：ED Single配信入口",
+            "url": "https://lnk.to/mechanicalmarie_ed_Crossheart",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Apple Music：Cross heart〜偽りのない気持ち",
+            "url": "https://music.apple.com/jp/album/1839146959",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Spotify",
+            "label": "Spotify：Cross heart〜偽りのない気持ち",
+            "url": "https://open.spotify.com/album/6ev6WklZP1COmpoIp8pCl5",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "LINE MUSIC：Cross heart〜偽りのない気持ち",
+            "url": "https://music.line.me/webapp/album/mb0000000004ae61b9",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "KKBOX",
+            "label": "KKBOX：Cross heart〜偽りのない気持ち",
+            "url": "https://www.kkbox.com/jp/ja/album/1-XC9WfXCvM0dXt93F",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Amazon Music",
+            "label": "Amazon Music：Cross heart〜偽りのない気持ち",
+            "url": "https://www.amazon.co.jp/music/player/albums/B0FQNV1Z1M",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "YouTube Music：Cross heart〜偽りのない気持ち",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_mXDbRi2Ou0Ezl_D6b9w4X1Ged25wUQrl4",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "レコチョク：Cross heart〜偽りのない気持ち",
+            "url": "https://recochoku.jp/album/A1043858670",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "mora",
+            "label": "mora：Cross heart〜偽りのない気持ち",
+            "url": "https://mora.jp/package/43000004/PCSP-06821_F/",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Apple Music：Cross heart〜偽りのない気持ち",
+            "url": "https://music.apple.com/jp/album/1849818168",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Spotify",
+            "label": "Spotify：Cross heart〜偽りのない気持ち",
+            "url": "https://open.spotify.com/album/6fBmZyPsy35ZFtCzvbhRVU",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "LINE MUSIC：Cross heart〜偽りのない気持ち",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004c93658&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "YouTube Music：Cross heart〜偽りのない気持ち",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_kVd8pC7beoXzw-1De05WDBrqQKHiozQLo",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Amazon Music",
+            "label": "Amazon Music：Cross heart〜偽りのない気持ち",
+            "url": "https://www.amazon.co.jp/music/player/albums/B0FYLWD87B",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "mora",
+            "label": "mora：Cross heart〜偽りのない気持ち",
+            "url": "https://mora.jp/package/43000004/PCSP-06905/",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "mora",
+            "label": "mora：Cross heart〜偽りのない気持ち",
+            "url": "https://mora.jp/package/43000004/PCSP-06905_F/",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "レコチョク：Cross heart〜偽りのない気持ち",
+            "url": "https://recochoku.jp/album/A1044661661",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "LINE MUSIC：機械じかけのマリー OST",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004dfc1b5&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Apple Music：機械じかけのマリー OST",
+            "url": "https://music.apple.com/jp/album/1858516610",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "YouTube Music：機械じかけのマリー OST",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_mjZSRQY9P4NZwqbXPpKQlncjqxtXejIUA",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Spotify",
+            "label": "Spotify：機械じかけのマリー OST",
+            "url": "https://open.spotify.com/album/4nHNMdRQBLToJSK7RuEkdR",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Amazon Music",
+            "label": "Amazon Music：機械じかけのマリー OST",
+            "url": "https://www.amazon.co.jp/music/player/albums/B0G52LB3WV",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "mora",
+            "label": "mora：機械じかけのマリー OST",
+            "url": "https://mora.jp/package/43000004/PCSP-07079/",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "mora",
+            "label": "mora：機械じかけのマリー OST",
+            "url": "https://mora.jp/package/43000004/PCSP-07079_F/",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "レコチョク：機械じかけのマリー OST",
+            "url": "https://recochoku.jp/album/A1045166516",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          }
+        ]
       },
       {
         "type": "ED",
@@ -8105,6 +10756,34 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "label": "動畫官方：第4話合唱ED與角色演唱",
             "role": "first_party",
             "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://mechanicalmarie-anime.com/music/store/",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://lnk.to/mechanicalmarie_ed_duet",
+            "label": "官方公開配信入口與確切平台連結",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://lnk.to/mechanicalmarie_ed_Crossheart",
+            "label": "官方公開配信入口與確切平台連結",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://lnk.to/PCSP000007079",
+            "label": "官方公開配信入口與確切平台連結",
+            "role": "first_party",
+            "language": "multi",
             "verifiedAt": "2026-10-16"
           }
         ],
@@ -8177,9 +10856,740 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "kikaijikake-no-marie-ed-2"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://mechanicalmarie-anime.com/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kikaijikake-no-marie-ed-1-song-duet-original"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://mechanicalmarie-anime.com/music/store/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kikaijikake-no-marie-ed-1-song-duet-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://mechanicalmarie-anime.com/music/store/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "mechanical-marie-ost-pccg-02479"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://mechanicalmarie-anime.com/topics/225/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kikaijikake-no-marie-ed-1-song-duet-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mechanicalmarie-anime.com/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://lnk.to/mechanicalmarie_ed_duet"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mechanicalmarie-anime.com/music/store/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://lnk.to/PCSP000007079"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mechanicalmarie-anime.com/topics/225/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=tuHILmwcr_Q"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://mechanicalmarie-anime.com/music/store/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kikaijikake-no-marie-ed-1-song-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://mechanicalmarie-anime.com/music/store/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "mechanical-marie-cross-heart-pccg-70554"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mechanicalmarie-anime.com/music/store/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://lnk.to/mechanicalmarie_ed_Crossheart"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/mechanicalmarie_ed_duet"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1844292744"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/mechanicalmarie_ed_duet"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/intl-ja/track/79BVLBuB4PmlaR5ykybSmt"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/mechanicalmarie_ed_duet"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004ba2e3b&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/mechanicalmarie_ed_duet"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.amazon.co.jp/music/player/albums/B0FTZ5G7P2"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/mechanicalmarie_ed_duet"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_nGFkYSyMy7r70viEkhzH9jLy6vTPjmIbM"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/mechanicalmarie_ed_duet"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1044268614"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/mechanicalmarie_ed_duet"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000004/PCSP-06822/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/mechanicalmarie_ed_duet"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000004/PCSP-06822_F/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/mechanicalmarie_ed_Crossheart"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1849818168"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/mechanicalmarie_ed_Crossheart"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/6fBmZyPsy35ZFtCzvbhRVU"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/mechanicalmarie_ed_Crossheart"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004c93658&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/mechanicalmarie_ed_Crossheart"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_kVd8pC7beoXzw-1De05WDBrqQKHiozQLo"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/mechanicalmarie_ed_Crossheart"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.amazon.co.jp/music/player/albums/B0FYLWD87B"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/mechanicalmarie_ed_Crossheart"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000004/PCSP-06905/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/mechanicalmarie_ed_Crossheart"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000004/PCSP-06905_F/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/mechanicalmarie_ed_Crossheart"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1044661661"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/PCSP000007079"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004dfc1b5&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/PCSP000007079"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1858516610"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/PCSP000007079"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_mjZSRQY9P4NZwqbXPpKQlncjqxtXejIUA"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/PCSP000007079"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/4nHNMdRQBLToJSK7RuEkdR"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/PCSP000007079"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.amazon.co.jp/music/player/albums/B0G52LB3WV"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/PCSP000007079"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000004/PCSP-07079/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/PCSP000007079"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000004/PCSP-07079_F/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/PCSP000007079"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1045166516"
           }
         ],
-        "usageLabel": "第4話〜 ED"
+        "usageLabel": "第4話〜 ED",
+        "releaseDate": "2025-10-27",
+        "recordings": [
+          {
+            "id": "kikaijikake-no-marie-ed-1-song-duet-original",
+            "title": "Cross heart〜偽りのない気持ち（duet ver.）",
+            "format": "unknown",
+            "kind": "character"
+          },
+          {
+            "id": "kikaijikake-no-marie-ed-1-song-duet-tv",
+            "title": "Cross heart〜偽りのない気持ち（duet ver.）（TVサイズ）",
+            "format": "tv",
+            "kind": "character"
+          },
+          {
+            "id": "kikaijikake-no-marie-ed-1-song-instrumental",
+            "title": "Cross heart〜偽りのない気持ち（instrumental）",
+            "format": "unknown",
+            "kind": "instrumental"
+          }
+        ],
+        "releases": [
+          {
+            "id": "mechanical-marie-ost-pccg-02479",
+            "title": "TVアニメ『機械じかけのマリー』ORIGINAL SOUNDTRACK",
+            "type": "soundtrack",
+            "artistDisplayName": "高梨康治、ヨハネス・ニルソン",
+            "tracks": [
+              {
+                "title": "Cross heart〜偽りのない気持ち（duet ver.）（TVサイズ）",
+                "recordingId": "kikaijikake-no-marie-ed-1-song-duet-tv"
+              }
+            ],
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "catalogNumber": "PCCG.02479",
+            "edition": "CD"
+          },
+          {
+            "id": "kikaijikake-no-marie-ed-1-song-duet-digital",
+            "title": "Cross heart〜偽りのない気持ち（duet ver.）",
+            "type": "single",
+            "artistDisplayName": "マリー（CV：東山奈央）＆マリー２（CV：小清水亜美）",
+            "tracks": [
+              {
+                "title": "Cross heart〜偽りのない気持ち（duet ver.）"
+              }
+            ],
+            "date": {
+              "value": "2025-10-27",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          },
+          {
+            "id": "mechanical-marie-cross-heart-pccg-70554",
+            "title": "Cross heart〜偽りのない気持ち",
+            "type": "single",
+            "artistDisplayName": "マリー（CV：東山奈央）＆マリー２（CV：小清水亜美）",
+            "tracks": [
+              {
+                "title": "Cross heart〜偽りのない気持ち（duet ver.）",
+                "position": 2
+              },
+              {
+                "title": "Cross heart〜偽りのない気持ち（instrumental）",
+                "position": 5,
+                "recordingId": "kikaijikake-no-marie-ed-1-song-instrumental"
+              }
+            ],
+            "date": {
+              "value": "2025-11-19",
+              "precision": "day"
+            },
+            "catalogNumber": "PCCG.70554",
+            "edition": "CD"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方",
+            "label": "Cross heart〜偽りのない気持ち（duet ver.）：官方配信入口",
+            "url": "https://lnk.to/mechanicalmarie_ed_duet",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "官方",
+            "label": "機械じかけのマリー OST配信入口",
+            "url": "https://lnk.to/PCSP000007079",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "機械じかけのマリー ノンクレジットED（duet ver.）",
+            "url": "https://www.youtube.com/watch?v=tuHILmwcr_Q",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "官方",
+            "label": "Cross heart：ED Single配信入口",
+            "url": "https://lnk.to/mechanicalmarie_ed_Crossheart",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Apple Music：Cross heart〜偽りのない気持ち（duet ver.）",
+            "url": "https://music.apple.com/jp/album/1844292744",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Spotify",
+            "label": "Spotify：Cross heart〜偽りのない気持ち（duet ver.）",
+            "url": "https://open.spotify.com/intl-ja/track/79BVLBuB4PmlaR5ykybSmt",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "LINE MUSIC：Cross heart〜偽りのない気持ち（duet ver.）",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004ba2e3b&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Amazon Music",
+            "label": "Amazon Music：Cross heart〜偽りのない気持ち（duet ver.）",
+            "url": "https://www.amazon.co.jp/music/player/albums/B0FTZ5G7P2",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "YouTube Music：Cross heart〜偽りのない気持ち（duet ver.）",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_nGFkYSyMy7r70viEkhzH9jLy6vTPjmIbM",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "レコチョク：Cross heart〜偽りのない気持ち（duet ver.）",
+            "url": "https://recochoku.jp/album/A1044268614",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "mora",
+            "label": "mora：Cross heart〜偽りのない気持ち（duet ver.）",
+            "url": "https://mora.jp/package/43000004/PCSP-06822/",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "mora",
+            "label": "mora：Cross heart〜偽りのない気持ち（duet ver.）",
+            "url": "https://mora.jp/package/43000004/PCSP-06822_F/",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Apple Music：Cross heart〜偽りのない気持ち（duet ver.）",
+            "url": "https://music.apple.com/jp/album/1849818168",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Spotify",
+            "label": "Spotify：Cross heart〜偽りのない気持ち（duet ver.）",
+            "url": "https://open.spotify.com/album/6fBmZyPsy35ZFtCzvbhRVU",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "LINE MUSIC：Cross heart〜偽りのない気持ち（duet ver.）",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004c93658&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "YouTube Music：Cross heart〜偽りのない気持ち（duet ver.）",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_kVd8pC7beoXzw-1De05WDBrqQKHiozQLo",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Amazon Music",
+            "label": "Amazon Music：Cross heart〜偽りのない気持ち（duet ver.）",
+            "url": "https://www.amazon.co.jp/music/player/albums/B0FYLWD87B",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "mora",
+            "label": "mora：Cross heart〜偽りのない気持ち（duet ver.）",
+            "url": "https://mora.jp/package/43000004/PCSP-06905/",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "mora",
+            "label": "mora：Cross heart〜偽りのない気持ち（duet ver.）",
+            "url": "https://mora.jp/package/43000004/PCSP-06905_F/",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "レコチョク：Cross heart〜偽りのない気持ち（duet ver.）",
+            "url": "https://recochoku.jp/album/A1044661661",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "LINE MUSIC：機械じかけのマリー OST",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004dfc1b5&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Apple Music：機械じかけのマリー OST",
+            "url": "https://music.apple.com/jp/album/1858516610",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "YouTube Music：機械じかけのマリー OST",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_mjZSRQY9P4NZwqbXPpKQlncjqxtXejIUA",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Spotify",
+            "label": "Spotify：機械じかけのマリー OST",
+            "url": "https://open.spotify.com/album/4nHNMdRQBLToJSK7RuEkdR",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Amazon Music",
+            "label": "Amazon Music：機械じかけのマリー OST",
+            "url": "https://www.amazon.co.jp/music/player/albums/B0G52LB3WV",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "mora",
+            "label": "mora：機械じかけのマリー OST",
+            "url": "https://mora.jp/package/43000004/PCSP-07079/",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "mora",
+            "label": "mora：機械じかけのマリー OST",
+            "url": "https://mora.jp/package/43000004/PCSP-07079_F/",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "レコチョク：機械じかけのマリー OST",
+            "url": "https://recochoku.jp/album/A1045166516",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          }
+        ]
       }
     ],
     "broadcastTimeJst": "22:00"
@@ -8236,11 +11646,52 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "zh-Hant",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.qobuz.com/jp-ja/playlists/best-of-2025-anime/44665674",
+            "label": "逐曲創作／演唱名單",
+            "role": "cross_check",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://sp.pornograffitti.jp/info/detail/?id=187",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://pornograffitti.lnk.to/THEREVO",
+            "label": "官方公開配信入口與確切平台連結",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
           }
         ],
         "credits": [
           {
             "name": "ポルノグラフィティ",
+            "role": "vocals"
+          },
+          {
+            "name": "Haruichi Shindo",
+            "role": "lyrics"
+          },
+          {
+            "name": "Akihito Okano",
+            "role": "composition"
+          },
+          {
+            "name": "Porno Graffitti",
+            "role": "arrangement"
+          },
+          {
+            "name": "Tasuku",
+            "role": "arrangement"
+          },
+          {
+            "name": "Akihito Okano",
             "role": "vocals"
           }
         ],
@@ -8269,6 +11720,411 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "boku-no-hero-academia-final-season-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.qobuz.com/jp-ja/playlists/best-of-2025-anime/44665674"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.qobuz.com/jp-ja/playlists/best-of-2025-anime/44665674"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.qobuz.com/jp-ja/playlists/best-of-2025-anime/44665674"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.qobuz.com/jp-ja/playlists/best-of-2025-anime/44665674"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.ytv.co.jp/heroaca/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "boku-no-hero-academia-final-season-op-1-song-original"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://sp.pornograffitti.jp/info/detail/?id=187"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=GOTE3YTCvm8"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.ytv.co.jp/heroaca/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://pornograffitti.lnk.to/THEREVO"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.ytv.co.jp/heroaca/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "pornograffitti-the-revo-secl-3267-3269"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.ytv.co.jp/heroaca/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "pornograffitti-the-revo-secl-3270-3272"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.ytv.co.jp/heroaca/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "pornograffitti-the-revo-secl-3274-3275"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.ytv.co.jp/heroaca/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "pornograffitti-the-revo-secl-3273"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://pornograffitti.lnk.to/THEREVO"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1840843489"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://pornograffitti.lnk.to/THEREVO"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/1OhdNxWQU7trRLggTJRtix"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://pornograffitti.lnk.to/THEREVO"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004b00ac8&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://pornograffitti.lnk.to/THEREVO"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_nvoiLq0bYz4iOXTIbGX2FhMN13rQwRbng"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://pornograffitti.lnk.to/THEREVO"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/2a4f6680a947669b2922"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://pornograffitti.lnk.to/THEREVO"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.kkbox.com/jp/ja/album/Gqq67vvAKRoy8N2pHX"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://pornograffitti.lnk.to/THEREVO"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1043991085"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://pornograffitti.lnk.to/THEREVO"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000087/SEXX03064B00Z/"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "boku-no-hero-academia-final-season-op-1-song-original",
+            "title": "THE REVO",
+            "format": "unknown",
+            "kind": "vocal"
+          }
+        ],
+        "links": [
+          {
+            "platform": "YouTube",
+            "label": "THE REVO Music Video",
+            "url": "https://www.youtube.com/watch?v=GOTE3YTCvm8",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "官方",
+            "label": "THE REVO：官方配信入口",
+            "url": "https://pornograffitti.lnk.to/THEREVO",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Apple Music：THE REVO",
+            "url": "https://music.apple.com/jp/album/1840843489",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Spotify",
+            "label": "Spotify：THE REVO",
+            "url": "https://open.spotify.com/album/1OhdNxWQU7trRLggTJRtix",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "LINE MUSIC：THE REVO",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004b00ac8&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "YouTube Music：THE REVO",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_nvoiLq0bYz4iOXTIbGX2FhMN13rQwRbng",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "AWA",
+            "label": "AWA：THE REVO",
+            "url": "https://s.awa.fm/album/2a4f6680a947669b2922",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "KKBOX",
+            "label": "KKBOX：THE REVO",
+            "url": "https://www.kkbox.com/jp/ja/album/Gqq67vvAKRoy8N2pHX",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "レコチョク：THE REVO",
+            "url": "https://recochoku.jp/album/A1043991085",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "mora",
+            "label": "mora：THE REVO",
+            "url": "https://mora.jp/package/43000087/SEXX03064B00Z/",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "pornograffitti-the-revo-secl-3267-3269",
+            "title": "THE REVO",
+            "type": "single",
+            "artistDisplayName": "ポルノグラフィティ",
+            "tracks": [
+              {
+                "title": "THE REVO"
+              }
+            ],
+            "date": {
+              "value": "2025-11-19",
+              "precision": "day"
+            },
+            "catalogNumber": "SECL-3267～3269",
+            "edition": "初回生産限定盤 CD＋BD",
+            "label": "SME Records"
+          },
+          {
+            "id": "pornograffitti-the-revo-secl-3270-3272",
+            "title": "THE REVO",
+            "type": "single",
+            "artistDisplayName": "ポルノグラフィティ",
+            "tracks": [
+              {
+                "title": "THE REVO"
+              }
+            ],
+            "date": {
+              "value": "2025-11-19",
+              "precision": "day"
+            },
+            "catalogNumber": "SECL-3270～3272",
+            "edition": "初回生産限定盤 CD＋DVD",
+            "label": "SME Records"
+          },
+          {
+            "id": "pornograffitti-the-revo-secl-3274-3275",
+            "title": "THE REVO",
+            "type": "single",
+            "artistDisplayName": "ポルノグラフィティ",
+            "tracks": [
+              {
+                "title": "THE REVO"
+              }
+            ],
+            "date": {
+              "value": "2025-11-19",
+              "precision": "day"
+            },
+            "catalogNumber": "SECL-3274～3275",
+            "edition": "期間生産限定盤（アニメ盤）",
+            "label": "SME Records"
+          },
+          {
+            "id": "pornograffitti-the-revo-secl-3273",
+            "title": "THE REVO",
+            "type": "single",
+            "artistDisplayName": "ポルノグラフィティ",
+            "tracks": [
+              {
+                "title": "THE REVO"
+              }
+            ],
+            "date": {
+              "value": "2025-11-19",
+              "precision": "day"
+            },
+            "catalogNumber": "SECL-3273",
+            "edition": "通常盤",
+            "label": "SME Records"
           }
         ]
       },
@@ -8296,11 +12152,48 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "zh-Hant",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.qobuz.com/jp-ja/playlists/best-of-2025-anime/44665674",
+            "label": "逐曲創作／演唱名單",
+            "role": "cross_check",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.bumpofchicken.com/news/news/2655",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.bumpofchicken.com/contents/general_articles/2775",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
           }
         ],
         "credits": [
           {
             "name": "BUMP OF CHICKEN",
+            "role": "vocals"
+          },
+          {
+            "name": "Motoo Fujiwara",
+            "role": "lyrics"
+          },
+          {
+            "name": "Motoo Fujiwara",
+            "role": "composition"
+          },
+          {
+            "name": "BUMP OF CHICKEN",
+            "role": "arrangement"
+          },
+          {
+            "name": "Motoo Fujiwara",
             "role": "vocals"
           }
         ],
@@ -8329,6 +12222,142 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "boku-no-hero-academia-final-season-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.qobuz.com/jp-ja/playlists/best-of-2025-anime/44665674"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.qobuz.com/jp-ja/playlists/best-of-2025-anime/44665674"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.qobuz.com/jp-ja/playlists/best-of-2025-anime/44665674"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.qobuz.com/jp-ja/playlists/best-of-2025-anime/44665674"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.ytv.co.jp/heroaca/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "boku-no-hero-academia-final-season-ed-1-song-original"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.bumpofchicken.com/news/news/2655"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=7Ro9iNHAld0"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.bumpofchicken.com/contents/general_articles/2775"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "bump-of-chicken-i-single-20251210"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.bumpofchicken.com/contents/general_articles/2775"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://bumpofchicken.lnk.to/boc_i"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "boku-no-hero-academia-final-season-ed-1-song-original",
+            "title": "I",
+            "format": "unknown",
+            "kind": "vocal"
+          }
+        ],
+        "links": [
+          {
+            "platform": "YouTube",
+            "label": "I Lyric Video",
+            "url": "https://www.youtube.com/watch?v=7Ro9iNHAld0",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "官方",
+            "label": "I：官方配信入口",
+            "url": "https://bumpofchicken.lnk.to/boc_i",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "bump-of-chicken-i-single-20251210",
+            "title": "I",
+            "type": "single",
+            "artistDisplayName": "BUMP OF CHICKEN",
+            "tracks": [
+              {
+                "title": "I"
+              }
+            ],
+            "date": {
+              "value": "2025-12-10",
+              "precision": "day"
+            },
+            "label": "TOY'S FACTORY"
           }
         ]
       }
@@ -8387,12 +12416,45 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "zh-Hant",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.uta-net.com/song/381576/?Aselect=2",
+            "label": "逐曲創作／演唱名單",
+            "role": "cross_check",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/BotchiBoromaru/discography/AICL-4813",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=_tey9yDni_k",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
           }
         ],
         "credits": [
           {
             "name": "ぼっちぼろまる",
             "role": "vocals"
+          },
+          {
+            "name": "ぼっちぼろまる",
+            "role": "lyrics"
+          },
+          {
+            "name": "ぼっちぼろまる",
+            "role": "composition"
+          },
+          {
+            "name": "ぼっちぼろまる",
+            "role": "arrangement"
           }
         ],
         "evidence": [
@@ -8420,6 +12482,177 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "3-nen-z-gumi-ginpachi-sensei-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.uta-net.com/song/381576/?Aselect=2"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.uta-net.com/song/381576/?Aselect=2"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.uta-net.com/song/381576/?Aselect=2"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/BotchiBoromaru/discography/AICL-4813"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "3-nen-z-gumi-ginpachi-sensei-op-1-song-original"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/BotchiBoromaru/discography/AICL-4813"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "3-nen-z-gumi-ginpachi-sensei-op-1-song-anime-edit"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/BotchiBoromaru/discography/AICL-4813"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "3-nen-z-gumi-ginpachi-sensei-op-1-song-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/BotchiBoromaru/discography/AICL-4813"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "botchiboromaru-sakurakaze-aicl-4813"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=_tey9yDni_k"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=_tey9yDni_k"
+          },
+          {
+            "target": "video",
+            "targetId": "_tey9yDni_k",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=_tey9yDni_k"
+            ],
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "3-nen-z-gumi-ginpachi-sensei-op-1-song-original",
+            "title": "桜風",
+            "format": "unknown",
+            "kind": "vocal"
+          },
+          {
+            "id": "3-nen-z-gumi-ginpachi-sensei-op-1-song-anime-edit",
+            "title": "桜風 (Anime Edit)",
+            "format": "tv",
+            "kind": "vocal"
+          },
+          {
+            "id": "3-nen-z-gumi-ginpachi-sensei-op-1-song-instrumental",
+            "title": "桜風 (Instrumental)",
+            "format": "unknown",
+            "kind": "instrumental"
+          }
+        ],
+        "releases": [
+          {
+            "id": "botchiboromaru-sakurakaze-aicl-4813",
+            "title": "桜風",
+            "type": "single",
+            "artistDisplayName": "ぼっちぼろまる",
+            "tracks": [
+              {
+                "title": "桜風",
+                "position": 1
+              },
+              {
+                "title": "桜風 (Anime Edit)",
+                "position": 3,
+                "recordingId": "3-nen-z-gumi-ginpachi-sensei-op-1-song-anime-edit"
+              },
+              {
+                "title": "桜風 (Instrumental)",
+                "position": 4,
+                "recordingId": "3-nen-z-gumi-ginpachi-sensei-op-1-song-instrumental"
+              }
+            ],
+            "date": {
+              "value": "2025-11-12",
+              "precision": "day"
+            },
+            "catalogNumber": "AICL-4813",
+            "edition": "期間生産限定盤"
+          }
+        ],
+        "links": [
+          {
+            "platform": "YouTube",
+            "label": "桜風 Music Video",
+            "url": "https://www.youtube.com/watch?v=_tey9yDni_k",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
           }
         ]
       },
@@ -8447,12 +12680,53 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "zh-Hant",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.uta-net.com/song/381367/?target=arranger",
+            "label": "逐曲創作／演唱名單",
+            "role": "cross_check",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://longman.jp/discography/detail/23/",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://longman.jp/news/detail/1320",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
           }
         ],
         "credits": [
           {
             "name": "LONGMAN",
             "role": "vocals"
+          },
+          {
+            "name": "SAWA YORIKI",
+            "role": "lyrics"
+          },
+          {
+            "name": "HIROYA HIRAI",
+            "role": "lyrics"
+          },
+          {
+            "name": "HIROYA HIRAI",
+            "role": "composition"
+          },
+          {
+            "name": "LONGMAN",
+            "role": "arrangement"
+          },
+          {
+            "name": "Naoki Itai",
+            "role": "arrangement"
           }
         ],
         "evidence": [
@@ -8480,6 +12754,160 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "3-nen-z-gumi-ginpachi-sensei-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.uta-net.com/song/381367/?target=arranger"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.uta-net.com/song/381367/?target=arranger"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.uta-net.com/song/381367/?target=arranger"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://longman.jp/discography/detail/23/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "3-nen-z-gumi-ginpachi-sensei-ed-1-song-original"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://longman.jp/discography/detail/23/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "3-nen-z-gumi-ginpachi-sensei-ed-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://longman.jp/discography/detail/23/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "longman-underclass-hero-aicl-4815"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://longman.jp/news/detail/1320"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=VEW597_IHcA"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://longman.jp/discography/detail/23/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://smar.lnk.to/a7gtmw"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "3-nen-z-gumi-ginpachi-sensei-ed-1-song-original",
+            "title": "Underclass HERO",
+            "format": "unknown",
+            "kind": "vocal"
+          },
+          {
+            "id": "3-nen-z-gumi-ginpachi-sensei-ed-1-song-tv",
+            "title": "Underclass HERO (TV Size)",
+            "format": "tv",
+            "kind": "vocal"
+          }
+        ],
+        "releases": [
+          {
+            "id": "longman-underclass-hero-aicl-4815",
+            "title": "Underclass HERO",
+            "type": "single",
+            "artistDisplayName": "LONGMAN",
+            "tracks": [
+              {
+                "title": "Underclass HERO",
+                "position": 1
+              },
+              {
+                "title": "Underclass HERO (TV Size)",
+                "position": 3,
+                "recordingId": "3-nen-z-gumi-ginpachi-sensei-ed-1-song-tv"
+              }
+            ],
+            "date": {
+              "value": "2025-10-15",
+              "precision": "day"
+            },
+            "catalogNumber": "AICL-4815",
+            "edition": "期間生産限定盤"
+          }
+        ],
+        "links": [
+          {
+            "platform": "YouTube",
+            "label": "Underclass HERO Music Video",
+            "url": "https://www.youtube.com/watch?v=VEW597_IHcA",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "官方",
+            "label": "Underclass HERO：官方配信入口",
+            "url": "https://smar.lnk.to/a7gtmw",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
           }
         ]
       }
@@ -8537,12 +12965,76 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "zh-Hant",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=OqcpDmNn8Pc",
+            "label": "逐曲創作／演唱名單",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://befirst.tokyo/news/251006-stareinwonder/",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.avexnet.jp/news/1030147",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://befirst.lnk.to/StareInWonder",
+            "label": "官方公開配信入口與確切平台連結",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
           }
         ],
         "credits": [
           {
             "name": "BE:FIRST",
             "role": "vocals"
+          },
+          {
+            "name": "SKY-HI",
+            "role": "lyrics"
+          },
+          {
+            "name": "Sunny",
+            "role": "composition"
+          },
+          {
+            "name": "MONJOE",
+            "role": "composition"
+          },
+          {
+            "name": "LOAR",
+            "role": "composition"
+          },
+          {
+            "name": "SKY-HI",
+            "role": "composition"
+          },
+          {
+            "name": "SKY-HI（Produced by）",
+            "role": "other"
+          },
+          {
+            "name": "Sunny（Produced by）",
+            "role": "other"
+          },
+          {
+            "name": "MONJOE（Produced by）",
+            "role": "other"
+          },
+          {
+            "name": "LOAR（Vocal Direction）",
+            "role": "other"
           }
         ],
         "evidence": [
@@ -8570,6 +13062,423 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "wandance-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=OqcpDmNn8Pc"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=OqcpDmNn8Pc"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=OqcpDmNn8Pc"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://befirst.tokyo/news/251006-stareinwonder/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "wandance-op-1-song-original"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://wandance.asmik-ace.co.jp/music"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "wandance-op-1-song-anime-size"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://wandance.asmik-ace.co.jp/music"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "wandance-ost-rbcp-3618"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://befirst.tokyo/news/251006-stareinwonder/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "wandance-op-1-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=OqcpDmNn8Pc"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=OqcpDmNn8Pc"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.avexnet.jp/news/1030147"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=ad4zZ_ThTao"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.avexnet.jp/news/1030147"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=VHAm2sRyGpY"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://wandance.asmik-ace.co.jp/music"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://befirst.lnk.to/StareInWonder"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://befirst.lnk.to/StareInWonder"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/34Y0UOwoUZNrGlafpg7d4D"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://befirst.lnk.to/StareInWonder"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1838851787"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://befirst.lnk.to/StareInWonder"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.amazon.co.jp/albums/B0FQJXT517"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://befirst.lnk.to/StareInWonder"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/webapp/album/mb0000000004aaa8b5"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://befirst.lnk.to/StareInWonder"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/702c52aea8219af01008"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://befirst.lnk.to/StareInWonder"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/song/S1028506074"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://befirst.lnk.to/StareInWonder"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/song/S1028506074/hires_single"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://befirst.lnk.to/StareInWonder"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000002/ANTCD-A0000017778/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://befirst.lnk.to/StareInWonder"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000002/ANTCD-A0000017779_F/"
+          },
+          {
+            "target": "video",
+            "targetId": "OqcpDmNn8Pc",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=OqcpDmNn8Pc"
+            ],
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "releaseDate": "2025-10-06",
+        "recordings": [
+          {
+            "id": "wandance-op-1-song-original",
+            "title": "Stare In Wonder",
+            "format": "unknown",
+            "kind": "vocal"
+          },
+          {
+            "id": "wandance-op-1-song-anime-size",
+            "title": "Stare In Wonder (Anime Size)",
+            "format": "tv",
+            "kind": "vocal"
+          }
+        ],
+        "releases": [
+          {
+            "id": "wandance-ost-rbcp-3618",
+            "title": "TVアニメ「ワンダンス」サウンドトラック",
+            "type": "soundtrack",
+            "artistDisplayName": "Various Artists",
+            "tracks": [
+              {
+                "title": "Stare In Wonder (Anime Size)",
+                "position": 1,
+                "recordingId": "wandance-op-1-song-anime-size"
+              }
+            ],
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "catalogNumber": "RBCP-3618",
+            "edition": "CD",
+            "label": "ランブリング・レコーズ"
+          },
+          {
+            "id": "wandance-op-1-song-digital",
+            "title": "Stare In Wonder",
+            "type": "single",
+            "artistDisplayName": "BE:FIRST",
+            "tracks": [
+              {
+                "title": "Stare In Wonder"
+              }
+            ],
+            "date": {
+              "value": "2025-10-06",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          }
+        ],
+        "links": [
+          {
+            "platform": "YouTube",
+            "label": "Stare In Wonder Special Lyric Video",
+            "url": "https://www.youtube.com/watch?v=OqcpDmNn8Pc",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "Stare In Wonder Special Dance Performance",
+            "url": "https://www.youtube.com/watch?v=ad4zZ_ThTao",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "Stare In Wonder Dance Practice",
+            "url": "https://www.youtube.com/watch?v=VHAm2sRyGpY",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "官方",
+            "label": "Stare In Wonder：官方配信入口",
+            "url": "https://befirst.lnk.to/StareInWonder",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Spotify",
+            "label": "Spotify：Stare In Wonder",
+            "url": "https://open.spotify.com/album/34Y0UOwoUZNrGlafpg7d4D",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Apple Music：Stare In Wonder",
+            "url": "https://music.apple.com/jp/album/1838851787",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Amazon Music",
+            "label": "Amazon Music：Stare In Wonder",
+            "url": "https://music.amazon.co.jp/albums/B0FQJXT517",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "LINE MUSIC：Stare In Wonder",
+            "url": "https://music.line.me/webapp/album/mb0000000004aaa8b5",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "AWA",
+            "label": "AWA：Stare In Wonder",
+            "url": "https://s.awa.fm/album/702c52aea8219af01008",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "レコチョク：Stare In Wonder",
+            "url": "https://recochoku.jp/song/S1028506074",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "レコチョク：Stare In Wonder",
+            "url": "https://recochoku.jp/song/S1028506074/hires_single",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "mora",
+            "label": "mora：Stare In Wonder",
+            "url": "https://mora.jp/package/43000002/ANTCD-A0000017778/",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "mora",
+            "label": "mora：Stare In Wonder",
+            "url": "https://mora.jp/package/43000002/ANTCD-A0000017779_F/",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
           }
         ]
       },
@@ -8597,12 +13506,68 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "zh-Hant",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.elsee.jp/disco/004/",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://anime-song-info.com/wandance-op-ed-25at/",
+            "label": "逐曲創作／演唱名單",
+            "role": "cross_check",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://elsee.lnk.to/Wondrous_Single",
+            "label": "官方公開配信入口與確切平台連結",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=CFRb0K51ams",
+            "label": "官方藝人頻道：公開影片與形式",
+            "language": "multi",
+            "role": "first_party",
+            "verifiedAt": "2026-10-16"
           }
         ],
         "credits": [
           {
             "name": "ELSEE",
             "role": "vocals"
+          },
+          {
+            "name": "TeddyLoid",
+            "role": "lyrics"
+          },
+          {
+            "name": "Giga",
+            "role": "composition"
+          },
+          {
+            "name": "TeddyLoid",
+            "role": "composition"
+          },
+          {
+            "name": "Giga（Sound Produce）",
+            "role": "other"
+          },
+          {
+            "name": "TeddyLoid（Sound Produce）",
+            "role": "other"
+          },
+          {
+            "name": "Giga",
+            "role": "arrangement"
+          },
+          {
+            "name": "TeddyLoid",
+            "role": "arrangement"
           }
         ],
         "evidence": [
@@ -8630,6 +13595,520 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "wandance-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.elsee.jp/disco/004/"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.elsee.jp/disco/004/"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.elsee.jp/disco/004/"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://anime-song-info.com/wandance-op-ed-25at/"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.elsee.jp/disco/004/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "wandance-ed-1-song-original"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://wandance.asmik-ace.co.jp/music"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "wandance-ed-1-song-anime-size"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.elsee.jp/disco/004/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "wandance-ed-1-song-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://wandance.asmik-ace.co.jp/music"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "wandance-ost-rbcp-3618"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.elsee.jp/disco/004/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "wandance-ed-1-song-digital"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.elsee.jp/disco/004/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "elsee-wondrous-escl-6152"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.elsee.jp/disco/004/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "elsee-wondrous-escl-6153-6154"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.elsee.jp/disco/004/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=CFRb0K51ams"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.elsee.jp/disco/004/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=b4Pyb1wOclQ"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.elsee.jp/disco/004/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=5qTSqH02_Fw"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.elsee.jp/disco/004/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://elsee.lnk.to/Wondrous_Single"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://elsee.lnk.to/Wondrous_Single"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1834821937"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://elsee.lnk.to/Wondrous_Single"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/6PQ3zz326ViFDBRQJ9Tr9U"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://elsee.lnk.to/Wondrous_Single"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004a5d7b3&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://elsee.lnk.to/Wondrous_Single"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_mmRzQj8aNCycgPR6Ajxmg8ck18zGSNNyM"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://elsee.lnk.to/Wondrous_Single"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/98709b4e7539cd805b51"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://elsee.lnk.to/Wondrous_Single"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.kkbox.com/jp/ja/album/SpzVBfwaS-4BcPCfI9"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://elsee.lnk.to/Wondrous_Single"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1043670919"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://elsee.lnk.to/Wondrous_Single"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000087/ESXX03096B00Z/"
+          },
+          {
+            "target": "video",
+            "targetId": "CFRb0K51ams",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=CFRb0K51ams"
+            ],
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "releaseDate": "2025-10-09",
+        "recordings": [
+          {
+            "id": "wandance-ed-1-song-original",
+            "title": "Wondrous",
+            "format": "unknown",
+            "kind": "vocal"
+          },
+          {
+            "id": "wandance-ed-1-song-anime-size",
+            "title": "Wondrous (Anime Size)",
+            "format": "tv",
+            "kind": "vocal"
+          },
+          {
+            "id": "wandance-ed-1-song-instrumental",
+            "title": "Wondrous (Instrumental)",
+            "format": "unknown",
+            "kind": "instrumental"
+          }
+        ],
+        "releases": [
+          {
+            "id": "wandance-ost-rbcp-3618",
+            "title": "TVアニメ「ワンダンス」サウンドトラック",
+            "type": "soundtrack",
+            "artistDisplayName": "Various Artists",
+            "tracks": [
+              {
+                "title": "Wondrous (Anime Size)",
+                "position": 20,
+                "recordingId": "wandance-ed-1-song-anime-size"
+              }
+            ],
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "catalogNumber": "RBCP-3618",
+            "edition": "CD",
+            "label": "ランブリング・レコーズ"
+          },
+          {
+            "id": "wandance-ed-1-song-digital",
+            "title": "Wondrous",
+            "type": "single",
+            "artistDisplayName": "ELSEE",
+            "tracks": [
+              {
+                "title": "Wondrous"
+              }
+            ],
+            "date": {
+              "value": "2025-10-09",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          },
+          {
+            "id": "elsee-wondrous-escl-6152",
+            "title": "Wondrous",
+            "type": "single",
+            "artistDisplayName": "ELSEE",
+            "tracks": [
+              {
+                "title": "Wondrous",
+                "position": 1
+              },
+              {
+                "title": "Wondrous (Anime Size)",
+                "position": 3
+              },
+              {
+                "title": "Wondrous (Instrumental)",
+                "position": 4,
+                "recordingId": "wandance-ed-1-song-instrumental"
+              }
+            ],
+            "date": {
+              "value": "2025-12-03",
+              "precision": "day"
+            },
+            "catalogNumber": "ESCL 6152",
+            "edition": "通常盤初回仕様 CD"
+          },
+          {
+            "id": "elsee-wondrous-escl-6153-6154",
+            "title": "Wondrous",
+            "type": "single",
+            "artistDisplayName": "ELSEE",
+            "tracks": [
+              {
+                "title": "Wondrous",
+                "position": 1
+              },
+              {
+                "title": "Wondrous (Anime Size)",
+                "position": 3
+              },
+              {
+                "title": "Wondrous (Instrumental)",
+                "position": 4,
+                "recordingId": "wandance-ed-1-song-instrumental"
+              }
+            ],
+            "date": {
+              "value": "2025-12-03",
+              "precision": "day"
+            },
+            "catalogNumber": "ESCL 6153-54",
+            "edition": "期間生産限定盤 CD＋BD"
+          }
+        ],
+        "links": [
+          {
+            "platform": "YouTube",
+            "label": "Wondrous Music Video",
+            "url": "https://www.youtube.com/watch?v=CFRb0K51ams",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "Wondrous Dance Performance Video",
+            "url": "https://www.youtube.com/watch?v=b4Pyb1wOclQ",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "Wondrous TVアニメ「ワンダンス」Special Edition",
+            "url": "https://www.youtube.com/watch?v=5qTSqH02_Fw",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "官方",
+            "label": "Wondrous：官方配信入口",
+            "url": "https://elsee.lnk.to/Wondrous_Single",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Apple Music：Wondrous",
+            "url": "https://music.apple.com/jp/album/1834821937",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Spotify",
+            "label": "Spotify：Wondrous",
+            "url": "https://open.spotify.com/album/6PQ3zz326ViFDBRQJ9Tr9U",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "LINE MUSIC：Wondrous",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004a5d7b3&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "YouTube Music：Wondrous",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_mmRzQj8aNCycgPR6Ajxmg8ck18zGSNNyM",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "AWA",
+            "label": "AWA：Wondrous",
+            "url": "https://s.awa.fm/album/98709b4e7539cd805b51",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "KKBOX",
+            "label": "KKBOX：Wondrous",
+            "url": "https://www.kkbox.com/jp/ja/album/SpzVBfwaS-4BcPCfI9",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "レコチョク：Wondrous",
+            "url": "https://recochoku.jp/album/A1043670919",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "mora",
+            "label": "mora：Wondrous",
+            "url": "https://mora.jp/package/43000087/ESXX03096B00Z/",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
           }
         ]
       },
@@ -8657,12 +14136,38 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "zh-Hant",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://tower.jp/item/7932272",
+            "label": "逐曲創作／演唱名單",
+            "role": "cross_check",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://music.apple.com/us/song/1861281664",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
           }
         ],
         "credits": [
           {
             "name": "Yaffle feat. 荒巻勇仁",
             "role": "vocals"
+          },
+          {
+            "name": "Yaffle",
+            "role": "lyrics"
+          },
+          {
+            "name": "Yaffle",
+            "role": "composition"
+          },
+          {
+            "name": "Yaffle",
+            "role": "arrangement"
           }
         ],
         "evidence": [
@@ -8690,9 +14195,120 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "wandance-in-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tower.jp/item/7932272"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tower.jp/item/7932272"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tower.jp/item/7932272"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://wandance.asmik-ace.co.jp/music"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "wandance-in-1-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://wandance.asmik-ace.co.jp/music"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "wandance-ost-rbcp-3618"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/us/song/1861281664"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/us/song/1861281664"
           }
         ],
-        "usageLabel": "劇中歌"
+        "usageLabel": "劇中歌",
+        "recordings": [
+          {
+            "id": "wandance-in-1-song-original",
+            "title": "Get Something Out of Your Mind",
+            "format": "unknown",
+            "kind": "vocal"
+          }
+        ],
+        "releases": [
+          {
+            "id": "wandance-ost-rbcp-3618",
+            "title": "TVアニメ「ワンダンス」サウンドトラック",
+            "type": "soundtrack",
+            "artistDisplayName": "Various Artists",
+            "tracks": [
+              {
+                "title": "Get Something Out of Your Mind",
+                "position": 2
+              }
+            ],
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "catalogNumber": "RBCP-3618",
+            "edition": "CD",
+            "label": "ランブリング・レコーズ"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Get Something Out of Your Mind：Apple Music確切曲目",
+            "url": "https://music.apple.com/us/song/1861281664",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          }
+        ]
       }
     ],
     "broadcastTimeJst": "23:45"

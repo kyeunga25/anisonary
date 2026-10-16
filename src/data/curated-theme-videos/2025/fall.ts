@@ -130,5 +130,38 @@ export const curated2025FallThemeVideos = {
       "embedAvailability": "unknown",
       "recordingId": "soushi-sakiyama-diary-original"
     }
+  ],
+  "162890:OP:1": [
+    {
+      "youtubeVideoId": "_tey9yDni_k",
+      "title": "桜風 / ぼっちぼろまる Music Video",
+      "type": "music_video",
+      "channelName": "ぼっちぼろまる",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "180436:OP:1": [
+    {
+      "youtubeVideoId": "OqcpDmNn8Pc",
+      "title": "Stare In Wonder Special Lyric Video",
+      "type": "lyric_video",
+      "channelName": "BE:FIRST Official",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "180436:ED:1": [
+    {
+      "youtubeVideoId": "CFRb0K51ams",
+      "title": "Wondrous Music Video",
+      "type": "music_video",
+      "channelName": "ELSEE Official YouTube",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ]
 } satisfies CuratedThemeVideoOverrideMap;
