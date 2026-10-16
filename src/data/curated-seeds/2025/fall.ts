@@ -7531,7 +7531,1172 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
       }
     ],
     "verifiedAt": "2026-10-16"
+  },
+  {
+    "anilistId": 195153,
+    "id": "curated-195153",
+    "slug": "towa-no-yuugure",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-09-26",
+    "titleJa": "永久のユウグレ",
+    "titleZhHant": "永久のユウグレ",
+    "titleRomaji": "Towa no Yuugure",
+    "editorialWeekday": 5,
+    "broadcastLabel": "日本首播：第0話9月25日(木)24:26／第1話10月2日(木)24:26",
+    "status": "finished",
+    "officialSiteUrl": "https://towanoyuugure.com/",
+    "anilistUrl": "https://anilist.co/anime/195153",
+    "identifierSource": {
+      "label": "AniList：作品識別公開索引",
+      "url": "https://bsky.app/profile/anilist.co/post/3lslzrp57vh24",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://towanoyuugure.com/news/287/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "プラットフォーム",
+        "artistDisplayName": "Uru",
+        "songId": "towa-no-yuugure-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://towanoyuugure.com/",
+            "label": "動畫官方：歌曲、演唱與用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "Uru",
+            "role": "vocals"
+          },
+          {
+            "name": "Uru",
+            "role": "lyrics"
+          },
+          {
+            "name": "Uru",
+            "role": "composition"
+          },
+          {
+            "name": "田中隼人",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://towanoyuugure.com/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "towa-no-yuugure-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://towanoyuugure.com/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "towa-no-yuugure-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://towanoyuugure.com/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "towa-no-yuugure-op-1-song"
+          }
+        ]
+      },
+      {
+        "type": "OP",
+        "sequence": 2,
+        "titleJa": "愛",
+        "artistDisplayName": "Uru",
+        "songId": "towa-no-yuugure-op-2-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://towanoyuugure.com/news/572/",
+            "label": "動畫官方：歌曲、演唱與用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.animatetimes.com/news/details.php?id=1765458370",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "Uru",
+            "role": "vocals"
+          },
+          {
+            "name": "Uru",
+            "role": "lyrics"
+          },
+          {
+            "name": "Uru",
+            "role": "composition"
+          },
+          {
+            "name": "関口シンゴ",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://towanoyuugure.com/news/572/",
+              "https://www.animatetimes.com/news/details.php?id=1765458370"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "towa-no-yuugure-op-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://towanoyuugure.com/news/572/",
+              "https://www.animatetimes.com/news/details.php?id=1765458370"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "towa-no-yuugure-op-2"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://towanoyuugure.com/news/572/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "towa-no-yuugure-op-2-song"
+          }
+        ],
+        "usageLabel": "第11話 特殊OP"
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "Two Of Us",
+        "artistDisplayName": "Hana Hope",
+        "songId": "towa-no-yuugure-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://towanoyuugure.com/",
+            "label": "動畫官方：歌曲、演唱與用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "Hana Hope",
+            "role": "vocals"
+          },
+          {
+            "name": "2tros",
+            "role": "lyrics"
+          },
+          {
+            "name": "Hana Hope",
+            "role": "lyrics"
+          },
+          {
+            "name": "2tros",
+            "role": "composition"
+          },
+          {
+            "name": "2tros",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://towanoyuugure.com/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "towa-no-yuugure-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://towanoyuugure.com/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "towa-no-yuugure-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://towanoyuugure.com/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "towa-no-yuugure-ed-1-song"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "星紡ぎ",
+        "artistDisplayName": "Hana Hope",
+        "songId": "towa-no-yuugure-ed-2-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://towanoyuugure.com/news/287/",
+            "label": "動畫官方：歌曲、演唱與用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://anison.online/anime/5424",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "Hana Hope",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://towanoyuugure.com/news/287/",
+              "https://anison.online/anime/5424"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "towa-no-yuugure-ed-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://towanoyuugure.com/news/287/",
+              "https://anison.online/anime/5424"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "towa-no-yuugure-ed-2"
+          }
+        ],
+        "usageLabel": "ダブルED（第0話でも使用）"
+      }
+    ],
+    "broadcastTimeJst": "00:26"
+  },
+  {
+    "anilistId": 179992,
+    "id": "curated-179992",
+    "slug": "kikaijikake-no-marie",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-05",
+    "titleJa": "機械じかけのマリー",
+    "titleZhHant": "機械じかけのマリー",
+    "titleRomaji": "Kikaijikake no Marie",
+    "editorialWeekday": 7,
+    "broadcastLabel": "日本首播",
+    "status": "finished",
+    "officialSiteUrl": "https://mechanicalmarie-anime.com/",
+    "anilistUrl": "https://anilist.co/anime/179992",
+    "identifierSource": {
+      "label": "AniList：作品識別公開索引",
+      "url": "https://anilist.co/anime/179992/",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://mechanicalmarie-anime.com/topics/172/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "ホントトウソ",
+        "artistDisplayName": "春茶",
+        "songId": "kikaijikake-no-marie-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://mechanicalmarie-anime.com/",
+            "label": "動畫官方：歌曲、演唱與用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "春茶",
+            "role": "vocals"
+          },
+          {
+            "name": "春茶",
+            "role": "lyrics"
+          },
+          {
+            "name": "玉木千尋",
+            "role": "lyrics"
+          },
+          {
+            "name": "玉木千尋",
+            "role": "composition"
+          },
+          {
+            "name": "玉木千尋",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://mechanicalmarie-anime.com/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kikaijikake-no-marie-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://mechanicalmarie-anime.com/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kikaijikake-no-marie-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://mechanicalmarie-anime.com/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kikaijikake-no-marie-op-1-song"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "Cross heart〜偽りのない気持ち",
+        "artistDisplayName": "マリー（CV：東山奈央）",
+        "songId": "kikaijikake-no-marie-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://mechanicalmarie-anime.com/",
+            "label": "動畫官方：歌曲、演唱與用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.oricon.co.jp/prof/946826/products/1552183/1/",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "マリー（CV：東山奈央）",
+            "role": "vocals"
+          },
+          {
+            "name": "Manami（TRYTONELABO）",
+            "role": "lyrics"
+          },
+          {
+            "name": "ByRIN（TRYTONELABO）",
+            "role": "composition"
+          },
+          {
+            "name": "ByRIN（TRYTONELABO）",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://mechanicalmarie-anime.com/",
+              "https://www.oricon.co.jp/prof/946826/products/1552183/1/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kikaijikake-no-marie-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://mechanicalmarie-anime.com/",
+              "https://www.oricon.co.jp/prof/946826/products/1552183/1/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kikaijikake-no-marie-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://mechanicalmarie-anime.com/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kikaijikake-no-marie-ed-1-song"
+          }
+        ],
+        "usageLabel": "第1話〜第3話 ED"
+      },
+      {
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "Cross heart〜偽りのない気持ち（duet ver.）",
+        "artistDisplayName": "マリー（CV：東山奈央）＆マリー２（CV：小清水亜美）",
+        "songId": "kikaijikake-no-marie-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://mechanicalmarie-anime.com/",
+            "label": "動畫官方：歌曲、演唱與用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://mechanicalmarie-anime.com/topics/225/",
+            "label": "動畫官方：第4話合唱ED與角色演唱",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "マリー（CV：東山奈央）",
+            "role": "vocals"
+          },
+          {
+            "name": "マリー２（CV：小清水亜美）",
+            "role": "vocals"
+          },
+          {
+            "name": "Manami（TRYTONELABO）",
+            "role": "lyrics"
+          },
+          {
+            "name": "ByRIN（TRYTONELABO）",
+            "role": "composition"
+          },
+          {
+            "name": "ByRIN（TRYTONELABO）",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://mechanicalmarie-anime.com/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kikaijikake-no-marie-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://mechanicalmarie-anime.com/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kikaijikake-no-marie-ed-2"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://mechanicalmarie-anime.com/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kikaijikake-no-marie-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://mechanicalmarie-anime.com/topics/225/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kikaijikake-no-marie-ed-2"
+          }
+        ],
+        "usageLabel": "第4話〜 ED"
+      }
+    ],
+    "broadcastTimeJst": "22:00"
+  },
+  {
+    "anilistId": 182896,
+    "id": "curated-182896",
+    "slug": "boku-no-hero-academia-final-season",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-04",
+    "titleJa": "僕のヒーローアカデミア FINAL SEASON",
+    "titleZhHant": "僕のヒーローアカデミア FINAL SEASON",
+    "titleRomaji": "Boku no Hero Academia FINAL SEASON",
+    "editorialWeekday": 6,
+    "broadcastLabel": "日本首播",
+    "status": "finished",
+    "officialSiteUrl": "https://www.heroaca.com/",
+    "anilistUrl": "https://anilist.co/anime/182896",
+    "identifierSource": {
+      "label": "AniList：作品識別公開索引",
+      "url": "https://anilist.co/anime/182896/",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://www.heroaca.com/news/25085/",
+      "https://www.ytv.co.jp/heroaca/music/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "THE REVO",
+        "artistDisplayName": "ポルノグラフィティ",
+        "songId": "boku-no-hero-academia-final-season-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.ytv.co.jp/heroaca/music/",
+            "label": "動畫官方：歌曲、演唱與用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "ポルノグラフィティ",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.ytv.co.jp/heroaca/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "boku-no-hero-academia-final-season-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.ytv.co.jp/heroaca/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "boku-no-hero-academia-final-season-op-1"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "I",
+        "artistDisplayName": "BUMP OF CHICKEN",
+        "songId": "boku-no-hero-academia-final-season-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.ytv.co.jp/heroaca/music/",
+            "label": "動畫官方：歌曲、演唱與用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "BUMP OF CHICKEN",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.ytv.co.jp/heroaca/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "boku-no-hero-academia-final-season-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.ytv.co.jp/heroaca/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "boku-no-hero-academia-final-season-ed-1"
+          }
+        ]
+      }
+    ],
+    "broadcastTimeJst": "17:30"
+  },
+  {
+    "anilistId": 162890,
+    "id": "curated-162890",
+    "slug": "3-nen-z-gumi-ginpachi-sensei",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-07",
+    "titleJa": "3年Z組銀八先生",
+    "titleZhHant": "3年Z組銀八先生",
+    "titleRomaji": "3-nen Z-gumi Ginpachi-sensei",
+    "editorialWeekday": 2,
+    "broadcastLabel": "日本首播：10月6日(月)24:00",
+    "status": "finished",
+    "officialSiteUrl": "https://www.anime-gintama.com/ginpachi/",
+    "anilistUrl": "https://anilist.co/anime/162890",
+    "identifierSource": {
+      "label": "AniList：作品識別公開索引",
+      "url": "https://anilist.co/anime/162890/",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://www.anime-gintama.com/ginpachi/stream",
+      "https://www.anime-gintama.com/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "桜風",
+        "artistDisplayName": "ぼっちぼろまる",
+        "songId": "3-nen-z-gumi-ginpachi-sensei-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.anime-gintama.com/ginpachi/music/",
+            "label": "動畫官方：歌曲、演唱與用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "ぼっちぼろまる",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.anime-gintama.com/ginpachi/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "3-nen-z-gumi-ginpachi-sensei-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.anime-gintama.com/ginpachi/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "3-nen-z-gumi-ginpachi-sensei-op-1"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "Underclass HERO",
+        "artistDisplayName": "LONGMAN",
+        "songId": "3-nen-z-gumi-ginpachi-sensei-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.anime-gintama.com/ginpachi/music/",
+            "label": "動畫官方：歌曲、演唱與用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "LONGMAN",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.anime-gintama.com/ginpachi/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "3-nen-z-gumi-ginpachi-sensei-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.anime-gintama.com/ginpachi/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "3-nen-z-gumi-ginpachi-sensei-ed-1"
+          }
+        ]
+      }
+    ],
+    "broadcastTimeJst": "00:00"
+  },
+  {
+    "anilistId": 180436,
+    "id": "curated-180436",
+    "slug": "wandance",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-08",
+    "titleJa": "ワンダンス",
+    "titleZhHant": "ワンダンス",
+    "titleRomaji": "WanDance",
+    "editorialWeekday": 3,
+    "broadcastLabel": "日本首播",
+    "status": "finished",
+    "officialSiteUrl": "https://wandance.asmik-ace.co.jp/",
+    "anilistUrl": "https://anilist.co/anime/180436",
+    "identifierSource": {
+      "label": "AniList：作品識別公開索引",
+      "url": "https://anilist.co/anime/180436/",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://wandance.asmik-ace.co.jp/onair"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Stare In Wonder",
+        "artistDisplayName": "BE:FIRST",
+        "songId": "wandance-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://wandance.asmik-ace.co.jp/music",
+            "label": "動畫官方：歌曲、演唱與用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "BE:FIRST",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://wandance.asmik-ace.co.jp/music",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "wandance-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://wandance.asmik-ace.co.jp/music",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "wandance-op-1"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "Wondrous",
+        "artistDisplayName": "ELSEE",
+        "songId": "wandance-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://wandance.asmik-ace.co.jp/music",
+            "label": "動畫官方：歌曲、演唱與用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "ELSEE",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://wandance.asmik-ace.co.jp/music",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "wandance-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://wandance.asmik-ace.co.jp/music",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "wandance-ed-1"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 1,
+        "titleJa": "Get Something Out of Your Mind",
+        "artistDisplayName": "Yaffle feat. 荒巻勇仁",
+        "songId": "wandance-in-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://wandance.asmik-ace.co.jp/music",
+            "label": "動畫官方：歌曲、演唱與用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "Yaffle feat. 荒巻勇仁",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://wandance.asmik-ace.co.jp/music",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "wandance-in-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://wandance.asmik-ace.co.jp/music",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "wandance-in-1"
+          }
+        ],
+        "usageLabel": "劇中歌"
+      }
+    ],
+    "broadcastTimeJst": "23:45"
   }
 ];
 
-export const curated2025FallAnimeIds: number[] = [177937, 170577, 153800, 185801, 183385, 180082, 181447, 194447, 179302];
+export const curated2025FallAnimeIds: number[] = [177937, 170577, 153800, 185801, 183385, 180082, 181447, 194447, 179302, 195153, 179992, 182896, 162890, 180436];
