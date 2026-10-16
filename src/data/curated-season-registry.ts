@@ -87,6 +87,10 @@ import {
   curated2024FallSeeds
 } from "@/data/curated-seeds/2024/fall";
 import {
+  curated2025FallAnimeIds,
+  curated2025FallSeeds
+} from "@/data/curated-seeds/2025/fall";
+import {
   curated2025SpringAnimeIds,
   curated2025SpringSeeds
 } from "@/data/curated-seeds/2025/spring";
@@ -211,6 +215,16 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     titleJa: "2026年冬アニメ",
     seeds: curated2026WinterSeeds,
     animeIds: curated2026WinterAnimeIds
+  },
+  {
+    id: "2025-fall",
+    year: 2025,
+    quarter: "fall",
+    titleZhHant: "秋季動畫",
+    titleJa: "2025年秋アニメ",
+    coverageNote: "本季正在盤點，目前先收錄已核對主題曲的9套TV／WEB作品。其他新作、跨季續播與特殊主題曲仍待核對，現有筆數不是全季歌曲總數。",
+    seeds: curated2025FallSeeds,
+    animeIds: curated2025FallAnimeIds
   },
   {
     id: "2025-summer",
