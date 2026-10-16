@@ -2608,3 +2608,5 @@ Production驗收：29季／1,931部完整API契約與跨endpoint關聯通過；3
 全目錄本機29季／1,941部／4,316用途（4,297 OP／ED、16 IN、3 TS），959個不同YouTube歌曲watch外連及1,816筆影片metadata。2025秋本機61／61筆已核對、54筆核心齊備／7缺口；頂部正式表仍以第28批為準，等待本批GitHub、main CI與Cloudflare live驗收。
 
 本機預覽：`/seasons/2025-fall/`、`/anime/alma-chan-wa-kazoku-ni-naritai/`、`/anime/kimi-to-koete-koi-ni-naru/`。正式發布後接續第30批2025秋尚未收錄新作／續播，原夏季待辦保留。
+
+同批深化與本機驗收已由 `a7e17ee` 保存，[PR #118](https://github.com/kyeunga25/anisonary/pull/118)已建立。正式發布接點為必要quality／Workers preview檢查、正常合併、main CI、Git tree及Cloudflare live驗收；目前production仍以第28批為準。
