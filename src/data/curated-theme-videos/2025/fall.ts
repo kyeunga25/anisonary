@@ -253,5 +253,27 @@ export const curated2025FallThemeVideos = {
       "embeddable": false,
       "embedAvailability": "unknown"
     }
+  ],
+  "185575:ED:1": [
+    {
+      "youtubeVideoId": "LEai_SS7eQk",
+      "title": "前島亜美「不器用に 君のとなり」Music Video",
+      "type": "music_video",
+      "channelName": "前島亜美",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "185116:ED:2": [
+    {
+      "youtubeVideoId": "SQhNzGFc6BA",
+      "title": "グノーシア ノンクレジットED［RED］",
+      "type": "creditless_ed",
+      "channelName": "アニプレックス チャンネル",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ]
 } satisfies CuratedThemeVideoOverrideMap;
