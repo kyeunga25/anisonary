@@ -33937,12 +33937,78 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "zh-Hant",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.qobuz.com/jp-ja/album/1-2-play-left-right-toshinobu-kubota/h3lqdbgy9z9ob",
+            "label": "逐曲創作／演唱名單",
+            "role": "cross_check",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://ssl.sme.co.jp/artist/ToshinobuKubota/info/577751",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=30Lu9IX60hU",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.funkyjam.com/kubota/news/letsplay/",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://tvfan.kyodo.co.jp/music/news-music/1493906",
+            "label": "各MV歌曲標題與ID交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://kubotatoshinobu.lnk.to/12Play_Left-Right",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
           }
         ],
         "credits": [
           {
             "name": "久保田利伸",
             "role": "vocals"
+          },
+          {
+            "name": "久保田利伸",
+            "role": "lyrics"
+          },
+          {
+            "name": "RAN",
+            "role": "lyrics"
+          },
+          {
+            "name": "Sunny",
+            "role": "lyrics"
+          },
+          {
+            "name": "久保田利伸",
+            "role": "composition"
+          },
+          {
+            "name": "Sunny",
+            "role": "composition"
+          },
+          {
+            "name": "Sunny",
+            "role": "arrangement"
           }
         ],
         "evidence": [
@@ -33970,6 +34036,392 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "lets-play-quest-darake-no-my-life-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.qobuz.com/jp-ja/album/1-2-play-left-right-toshinobu-kubota/h3lqdbgy9z9ob"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.qobuz.com/jp-ja/album/1-2-play-left-right-toshinobu-kubota/h3lqdbgy9z9ob"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.qobuz.com/jp-ja/album/1-2-play-left-right-toshinobu-kubota/h3lqdbgy9z9ob"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://ssl.sme.co.jp/artist/ToshinobuKubota/info/577751"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "lets-play-quest-darake-no-my-life-op-1-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://ssl.sme.co.jp/artist/ToshinobuKubota/info/577751"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kubota-12play-left-right-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://ssl.sme.co.jp/artist/ToshinobuKubota/info/577751"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://kubotatoshinobu.lnk.to/12Play_Left-Right"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=30Lu9IX60hU"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kubota-12play-left-right-secl3276"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.funkyjam.com/kubota/news/letsplay/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=30Lu9IX60hU"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.funkyjam.com/kubota/news/letsplay/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=7DLGlN2W5OA"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "title"
+            ],
+            "sourceUrls": [
+              "https://tvfan.kyodo.co.jp/music/news-music/1493906"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=7DLGlN2W5OA"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://ssl.sme.co.jp/artist/ToshinobuKubota/info/577751"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=el2wyc2gKYk"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kubotatoshinobu.lnk.to/12Play_Left-Right"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1842068076"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kubotatoshinobu.lnk.to/12Play_Left-Right"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/1VhfknXFuQCoAqZZu6Mvtq"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kubotatoshinobu.lnk.to/12Play_Left-Right"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004b36f31&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kubotatoshinobu.lnk.to/12Play_Left-Right"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_ko41CnG0qf5b0V-z_4QqToAARutriscVY"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kubotatoshinobu.lnk.to/12Play_Left-Right"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/0d42ed976ba20d691d13"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kubotatoshinobu.lnk.to/12Play_Left-Right"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.kkbox.com/jp/ja/album/So8bBPw9FOcHc8EX87"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kubotatoshinobu.lnk.to/12Play_Left-Right"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1044134917"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kubotatoshinobu.lnk.to/12Play_Left-Right"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000087/SEXX03063B00Z/"
+          }
+        ],
+        "releaseDate": "2025-10-02",
+        "recordings": [
+          {
+            "id": "lets-play-quest-darake-no-my-life-op-1-song-original",
+            "title": "1, 2, Play",
+            "format": "unknown",
+            "kind": "vocal"
+          }
+        ],
+        "releases": [
+          {
+            "id": "kubota-12play-left-right-digital",
+            "title": "1, 2, Play / Left & Right",
+            "type": "single",
+            "artistDisplayName": "久保田利伸",
+            "tracks": [
+              {
+                "title": "1, 2, Play",
+                "position": 1
+              }
+            ],
+            "date": {
+              "value": "2025-10-02",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          },
+          {
+            "id": "kubota-12play-left-right-secl3276",
+            "title": "「1, 2, Play」「Left & Right」",
+            "type": "single",
+            "artistDisplayName": "久保田利伸",
+            "tracks": [
+              {
+                "title": "1, 2, Play",
+                "position": 1,
+                "recordingId": "lets-play-quest-darake-no-my-life-op-1-song-original"
+              }
+            ],
+            "date": {
+              "value": "2025-11-26",
+              "precision": "day"
+            },
+            "catalogNumber": "SECL-3276～3277",
+            "edition": "期間生産限定盤（アニメ盤）CD＋DVD",
+            "label": "Sony Music Labels Inc."
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方",
+            "label": "1, 2, Play：官方配信入口",
+            "url": "https://kubotatoshinobu.lnk.to/12Play_Left-Right",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "kubota-12play-left-right-digital"
+          },
+          {
+            "platform": "YouTube",
+            "label": "1, 2, Play／Left & Right：Special Edit Ver.",
+            "url": "https://www.youtube.com/watch?v=30Lu9IX60hU",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "1, 2, Play：Music Video",
+            "url": "https://www.youtube.com/watch?v=7DLGlN2W5OA",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "1, 2, Play：ノンクレジットOP",
+            "url": "https://www.youtube.com/watch?v=el2wyc2gKYk",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "1, 2, Play：Apple Music",
+            "url": "https://music.apple.com/jp/album/1842068076",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "kubota-12play-left-right-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "1, 2, Play：Spotify",
+            "url": "https://open.spotify.com/album/1VhfknXFuQCoAqZZu6Mvtq",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "kubota-12play-left-right-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "1, 2, Play：LINE MUSIC",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004b36f31&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "kubota-12play-left-right-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "1, 2, Play：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_ko41CnG0qf5b0V-z_4QqToAARutriscVY",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "kubota-12play-left-right-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "1, 2, Play：AWA",
+            "url": "https://s.awa.fm/album/0d42ed976ba20d691d13",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "kubota-12play-left-right-digital"
+          },
+          {
+            "platform": "KKBOX",
+            "label": "1, 2, Play：KKBOX",
+            "url": "https://www.kkbox.com/jp/ja/album/So8bBPw9FOcHc8EX87",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "kubota-12play-left-right-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "1, 2, Play：レコチョク",
+            "url": "https://recochoku.jp/album/A1044134917",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "kubota-12play-left-right-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "1, 2, Play：mora",
+            "url": "https://mora.jp/package/43000087/SEXX03063B00Z/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "kubota-12play-left-right-digital"
           }
         ]
       },
@@ -33997,11 +34449,76 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "zh-Hant",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.qobuz.com/jp-ja/album/1-2-play-left-right-toshinobu-kubota/h3lqdbgy9z9ob",
+            "label": "逐曲創作／演唱名單",
+            "role": "cross_check",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.kinokuniya.co.jp/f/dsg-10-4547366777987",
+            "label": "逐曲編曲名義交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.funkyjam.com/kubota/news/letsplay/",
+            "label": "逐曲創作／演唱名單",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://ssl.sme.co.jp/artist/ToshinobuKubota/info/577751",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=30Lu9IX60hU",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://tvfan.kyodo.co.jp/music/news-music/1493906",
+            "label": "各MV歌曲標題與ID交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://kubotatoshinobu.lnk.to/12Play_Left-Right",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
           }
         ],
         "credits": [
           {
             "name": "久保田利伸",
+            "role": "vocals"
+          },
+          {
+            "name": "久保田利伸",
+            "role": "lyrics"
+          },
+          {
+            "name": "久保田利伸",
+            "role": "composition"
+          },
+          {
+            "name": "森大輔",
+            "role": "arrangement"
+          },
+          {
+            "name": "HIKKA",
             "role": "vocals"
           }
         ],
@@ -34030,6 +34547,405 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "lets-play-quest-darake-no-my-life-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.qobuz.com/jp-ja/album/1-2-play-left-right-toshinobu-kubota/h3lqdbgy9z9ob"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.qobuz.com/jp-ja/album/1-2-play-left-right-toshinobu-kubota/h3lqdbgy9z9ob"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.qobuz.com/jp-ja/album/1-2-play-left-right-toshinobu-kubota/h3lqdbgy9z9ob"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.kinokuniya.co.jp/f/dsg-10-4547366777987"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.funkyjam.com/kubota/news/letsplay/"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://ssl.sme.co.jp/artist/ToshinobuKubota/info/577751"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "lets-play-quest-darake-no-my-life-ed-1-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://ssl.sme.co.jp/artist/ToshinobuKubota/info/577751"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kubota-12play-left-right-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://ssl.sme.co.jp/artist/ToshinobuKubota/info/577751"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://kubotatoshinobu.lnk.to/12Play_Left-Right"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=30Lu9IX60hU"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kubota-12play-left-right-secl3276"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.funkyjam.com/kubota/news/letsplay/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=30Lu9IX60hU"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.funkyjam.com/kubota/news/letsplay/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=Gmr_wACP1R0"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "title"
+            ],
+            "sourceUrls": [
+              "https://tvfan.kyodo.co.jp/music/news-music/1493906"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=Gmr_wACP1R0"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kubotatoshinobu.lnk.to/12Play_Left-Right"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1842068076"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kubotatoshinobu.lnk.to/12Play_Left-Right"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/1VhfknXFuQCoAqZZu6Mvtq"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kubotatoshinobu.lnk.to/12Play_Left-Right"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004b36f31&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kubotatoshinobu.lnk.to/12Play_Left-Right"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_ko41CnG0qf5b0V-z_4QqToAARutriscVY"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kubotatoshinobu.lnk.to/12Play_Left-Right"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/0d42ed976ba20d691d13"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kubotatoshinobu.lnk.to/12Play_Left-Right"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.kkbox.com/jp/ja/album/So8bBPw9FOcHc8EX87"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kubotatoshinobu.lnk.to/12Play_Left-Right"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1044134917"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kubotatoshinobu.lnk.to/12Play_Left-Right"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000087/SEXX03063B00Z/"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=30Lu9IX60hU"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "30Lu9IX60hU"
+          }
+        ],
+        "releaseDate": "2025-10-02",
+        "recordings": [
+          {
+            "id": "lets-play-quest-darake-no-my-life-ed-1-song-original",
+            "title": "Left & Right",
+            "format": "unknown",
+            "kind": "vocal"
+          }
+        ],
+        "releases": [
+          {
+            "id": "kubota-12play-left-right-digital",
+            "title": "1, 2, Play / Left & Right",
+            "type": "single",
+            "artistDisplayName": "久保田利伸",
+            "tracks": [
+              {
+                "title": "Left & Right",
+                "position": 2
+              }
+            ],
+            "date": {
+              "value": "2025-10-02",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          },
+          {
+            "id": "kubota-12play-left-right-secl3276",
+            "title": "「1, 2, Play」「Left & Right」",
+            "type": "single",
+            "artistDisplayName": "久保田利伸",
+            "tracks": [
+              {
+                "title": "Left & Right",
+                "position": 2,
+                "recordingId": "lets-play-quest-darake-no-my-life-ed-1-song-original"
+              }
+            ],
+            "date": {
+              "value": "2025-11-26",
+              "precision": "day"
+            },
+            "catalogNumber": "SECL-3276～3277",
+            "edition": "期間生産限定盤（アニメ盤）CD＋DVD",
+            "label": "Sony Music Labels Inc."
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方",
+            "label": "Left & Right：官方配信入口",
+            "url": "https://kubotatoshinobu.lnk.to/12Play_Left-Right",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "kubota-12play-left-right-digital"
+          },
+          {
+            "platform": "YouTube",
+            "label": "1, 2, Play／Left & Right：Special Edit Ver.",
+            "url": "https://www.youtube.com/watch?v=30Lu9IX60hU",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "Left & Right：Music Video",
+            "url": "https://www.youtube.com/watch?v=Gmr_wACP1R0",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Left & Right：Apple Music",
+            "url": "https://music.apple.com/jp/album/1842068076",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "kubota-12play-left-right-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "Left & Right：Spotify",
+            "url": "https://open.spotify.com/album/1VhfknXFuQCoAqZZu6Mvtq",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "kubota-12play-left-right-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "Left & Right：LINE MUSIC",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004b36f31&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "kubota-12play-left-right-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "Left & Right：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_ko41CnG0qf5b0V-z_4QqToAARutriscVY",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "kubota-12play-left-right-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "Left & Right：AWA",
+            "url": "https://s.awa.fm/album/0d42ed976ba20d691d13",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "kubota-12play-left-right-digital"
+          },
+          {
+            "platform": "KKBOX",
+            "label": "Left & Right：KKBOX",
+            "url": "https://www.kkbox.com/jp/ja/album/So8bBPw9FOcHc8EX87",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "kubota-12play-left-right-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "Left & Right：レコチョク",
+            "url": "https://recochoku.jp/album/A1044134917",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "kubota-12play-left-right-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "Left & Right：mora",
+            "url": "https://mora.jp/package/43000087/SEXX03063B00Z/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "kubota-12play-left-right-digital"
           }
         ]
       }
@@ -34086,6 +35002,27 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "label": "歌曲與動畫用途交叉核對",
             "role": "cross_check",
             "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://columbia.jp/artist-info/madkid/discography/COCA-18313.html",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://mdkd.lnk.to/MadPulse",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000004546.000019470.html",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
             "verifiedAt": "2026-10-16"
           }
         ],
@@ -34151,6 +35088,370 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "digimon-beatbreak-op-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/artist-info/madkid/discography/COCA-18313.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "digimon-beatbreak-op-1-song-original"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/artist-info/madkid/discography/COCA-18313.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "digimon-beatbreak-op-1-song-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/artist-info/madkid/discography/COCA-18313.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "madkid-mad-pulse-coca18313"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://mdkd.lnk.to/MadPulse"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "digimon-beatbreak-op-1-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000004546.000019470.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mdkd.lnk.to/MadPulse"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000004546.000019470.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=wZtrnRve6ME"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mdkd.lnk.to/MadPulse"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/id1840358791"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mdkd.lnk.to/MadPulse"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/51IEkK0hiyihWqHEJGX3pH"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mdkd.lnk.to/MadPulse"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_m4Vdz7z3sY5e89-1UV-zBjQeWPfAUj_GY"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mdkd.lnk.to/MadPulse"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004af3fb9&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mdkd.lnk.to/MadPulse"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.amazon.co.jp/albums/B0FRFSVHQ6"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mdkd.lnk.to/MadPulse"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/b7a6b00816b294868432"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mdkd.lnk.to/MadPulse"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.kkbox.com/jp/ja/album/4pqkyzr83PHEZ4yZ0w"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mdkd.lnk.to/MadPulse"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1043900652"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mdkd.lnk.to/MadPulse"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000013/COCA-18312/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mdkd.lnk.to/MadPulse"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000013/COCA-18312_L44/"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "digimon-beatbreak-op-1-song-original",
+            "title": "Mad Pulse",
+            "format": "unknown",
+            "kind": "vocal"
+          },
+          {
+            "id": "digimon-beatbreak-op-1-song-instrumental",
+            "title": "Mad Pulse (Instrumental)",
+            "format": "unknown",
+            "kind": "instrumental"
+          }
+        ],
+        "releases": [
+          {
+            "id": "madkid-mad-pulse-coca18313",
+            "title": "Mad Pulse",
+            "type": "single",
+            "artistDisplayName": "MADKID",
+            "tracks": [
+              {
+                "title": "Mad Pulse",
+                "position": 1,
+                "recordingId": "digimon-beatbreak-op-1-song-original"
+              },
+              {
+                "title": "Mad Pulse (Instrumental)",
+                "position": 4,
+                "recordingId": "digimon-beatbreak-op-1-song-instrumental"
+              }
+            ],
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "catalogNumber": "COCA-18313",
+            "edition": "Type-B CD",
+            "label": "日本コロムビア"
+          },
+          {
+            "id": "digimon-beatbreak-op-1-song-digital",
+            "title": "Mad Pulse",
+            "type": "single",
+            "artistDisplayName": "MADKID",
+            "tracks": [
+              {
+                "title": "Mad Pulse"
+              }
+            ],
+            "edition": "Digital Single"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方",
+            "label": "Mad Pulse：官方配信入口",
+            "url": "https://mdkd.lnk.to/MadPulse",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "digimon-beatbreak-op-1-song-digital"
+          },
+          {
+            "platform": "YouTube",
+            "label": "Mad Pulse：Music Video",
+            "url": "https://www.youtube.com/watch?v=wZtrnRve6ME",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Mad Pulse：Apple Music",
+            "url": "https://music.apple.com/jp/album/id1840358791",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "digimon-beatbreak-op-1-song-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "Mad Pulse：Spotify",
+            "url": "https://open.spotify.com/album/51IEkK0hiyihWqHEJGX3pH",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "digimon-beatbreak-op-1-song-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "Mad Pulse：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_m4Vdz7z3sY5e89-1UV-zBjQeWPfAUj_GY",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "digimon-beatbreak-op-1-song-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "Mad Pulse：LINE MUSIC",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004af3fb9&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "digimon-beatbreak-op-1-song-digital"
+          },
+          {
+            "platform": "Amazon Music",
+            "label": "Mad Pulse：Amazon Music",
+            "url": "https://music.amazon.co.jp/albums/B0FRFSVHQ6",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "digimon-beatbreak-op-1-song-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "Mad Pulse：AWA",
+            "url": "https://s.awa.fm/album/b7a6b00816b294868432",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "digimon-beatbreak-op-1-song-digital"
+          },
+          {
+            "platform": "KKBOX",
+            "label": "Mad Pulse：KKBOX",
+            "url": "https://www.kkbox.com/jp/ja/album/4pqkyzr83PHEZ4yZ0w",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "digimon-beatbreak-op-1-song-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "Mad Pulse：レコチョク",
+            "url": "https://recochoku.jp/album/A1043900652",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "digimon-beatbreak-op-1-song-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "Mad Pulse：mora",
+            "url": "https://mora.jp/package/43000013/COCA-18312/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "digimon-beatbreak-op-1-song-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "Mad Pulse：mora",
+            "url": "https://mora.jp/package/43000013/COCA-18312_L44/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "digimon-beatbreak-op-1-song-digital"
           }
         ]
       },
@@ -34177,6 +35478,27 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "label": "歌曲與動畫用途交叉核對",
             "role": "cross_check",
             "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.jvcmusic.co.jp/-/Discography/A027225/VE3WT-12004.html",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://tomiokaai.net/video",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=7lQA6V8eDNg",
+            "label": "官方影片公開索引：渠道與形式",
+            "role": "first_party",
+            "language": "ja",
             "verifiedAt": "2026-10-16"
           }
         ],
@@ -34238,6 +35560,109 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "digimon-beatbreak-ed-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/-/Discography/A027225/VE3WT-12004.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "digimon-beatbreak-ed-1-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/-/Discography/A027225/VE3WT-12004.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "digimon-beatbreak-ed-1-song-digital"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/-/Discography/A027225/VE3WT-12004.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "digimon-beatbreak-ed-1-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://tomiokaai.net/video"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=7lQA6V8eDNg"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=7lQA6V8eDNg"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "7lQA6V8eDNg"
+          }
+        ],
+        "releaseDate": "2025-10-01",
+        "recordings": [
+          {
+            "id": "digimon-beatbreak-ed-1-song-original",
+            "title": "beat up",
+            "format": "unknown",
+            "kind": "vocal"
+          }
+        ],
+        "releases": [
+          {
+            "id": "digimon-beatbreak-ed-1-song-digital",
+            "title": "beat up",
+            "type": "single",
+            "artistDisplayName": "冨岡 愛",
+            "tracks": [
+              {
+                "title": "beat up"
+              }
+            ],
+            "date": {
+              "value": "2025-10-01",
+              "precision": "day"
+            },
+            "edition": "Digital Single",
+            "catalogNumber": "VE3WT-12004"
+          }
+        ],
+        "links": [
+          {
+            "platform": "YouTube",
+            "label": "beat up：Music Video",
+            "url": "https://www.youtube.com/watch?v=7lQA6V8eDNg",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
           }
         ]
       }
@@ -34295,6 +35720,34 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "zh-Hant",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://ikimonogakari.com/news/release/20251126-1",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=7OMTZg5bz8E",
+            "label": "官方現場影片公開索引：CD品番與收錄",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://erj.lnk.to/o46g48",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://ikimonogakari.com/news/release/20251201-1",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
           }
         ],
         "credits": [
@@ -34351,6 +35804,466 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "kingdom-6th-season-op-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://ikimonogakari.com/news/release/20251126-1"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kingdom-6th-season-op-1-song-original"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://ikimonogakari.com/news/release/20251126-1"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kingdom-6th-season-op-1-song-instrumental"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://ikimonogakari.com/news/release/20251126-1"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kingdom-6th-season-op-1-song-rokuman-no-koe"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://ikimonogakari.com/news/release/20251126-1"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ikimono-ikite-sansan-limited"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=7OMTZg5bz8E"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ikimono-ikite-sansan-limited"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://ikimonogakari.com/news/release/20251126-1"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ikimono-ikite-sansan-regular"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=7OMTZg5bz8E"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ikimono-ikite-sansan-regular"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://erj.lnk.to/o46g48"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kingdom-6th-season-op-1-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kingdom-anime.com/discography/detail.php?id=1021013&season=6"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://erj.lnk.to/o46g48"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://ikimonogakari.com/news/release/20251201-1"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=yW3RdDbkVw4"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://ikimonogakari.com/news/release/20251126-1"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=TuFL-i5YxIA"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=7OMTZg5bz8E"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=7OMTZg5bz8E"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://erj.lnk.to/o46g48"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1842317201"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://erj.lnk.to/o46g48"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/2hRKTBG9RvaUklnfa9ouip"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://erj.lnk.to/o46g48"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004b42d23&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://erj.lnk.to/o46g48"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_nhmMCPlowNBehWu0q_DK5gJ66wKuEsezk"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://erj.lnk.to/o46g48"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/ca5948ef1ad7b37eb259"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://erj.lnk.to/o46g48"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.kkbox.com/jp/ja/album/9X3cNigHC0_tlAxh-Y"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://erj.lnk.to/o46g48"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1044154840"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://erj.lnk.to/o46g48"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000087/ESXX03113B00Z/"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=7OMTZg5bz8E"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "7OMTZg5bz8E"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kingdom-6th-season-op-1-song-original",
+            "title": "生きて、燦々",
+            "format": "unknown",
+            "kind": "vocal"
+          },
+          {
+            "id": "kingdom-6th-season-op-1-song-instrumental",
+            "title": "生きて、燦々 -instrumental-",
+            "format": "unknown",
+            "kind": "instrumental"
+          },
+          {
+            "id": "kingdom-6th-season-op-1-song-rokuman-no-koe",
+            "title": "生きて、燦々 -みなさん、こんにつあー!! 六万の声ver.-",
+            "format": "unknown",
+            "kind": "vocal"
+          }
+        ],
+        "releases": [
+          {
+            "id": "ikimono-ikite-sansan-limited",
+            "title": "生きて、燦々",
+            "type": "single",
+            "artistDisplayName": "いきものがかり",
+            "tracks": [
+              {
+                "title": "生きて、燦々",
+                "recordingId": "kingdom-6th-season-op-1-song-original"
+              },
+              {
+                "title": "生きて、燦々 -みなさん、こんにつあー!! 六万の声ver.-",
+                "recordingId": "kingdom-6th-season-op-1-song-rokuman-no-koe"
+              },
+              {
+                "title": "生きて、燦々 -instrumental-",
+                "recordingId": "kingdom-6th-season-op-1-song-instrumental"
+              }
+            ],
+            "date": {
+              "value": "2025-12-10",
+              "precision": "day"
+            },
+            "catalogNumber": "ESCL-6155～6157",
+            "edition": "完全生産限定盤 CD＋Blu-ray＋付属品"
+          },
+          {
+            "id": "ikimono-ikite-sansan-regular",
+            "title": "生きて、燦々",
+            "type": "single",
+            "artistDisplayName": "いきものがかり",
+            "tracks": [
+              {
+                "title": "生きて、燦々",
+                "recordingId": "kingdom-6th-season-op-1-song-original"
+              },
+              {
+                "title": "生きて、燦々 -みなさん、こんにつあー!! 六万の声ver.-",
+                "recordingId": "kingdom-6th-season-op-1-song-rokuman-no-koe"
+              },
+              {
+                "title": "生きて、燦々 -instrumental-",
+                "recordingId": "kingdom-6th-season-op-1-song-instrumental"
+              }
+            ],
+            "date": {
+              "value": "2025-12-10",
+              "precision": "day"
+            },
+            "catalogNumber": "ESCL-6158",
+            "edition": "初回仕様限定盤 CD"
+          },
+          {
+            "id": "kingdom-6th-season-op-1-song-digital",
+            "title": "生きて、燦々",
+            "type": "single",
+            "artistDisplayName": "いきものがかり",
+            "tracks": [
+              {
+                "title": "生きて、燦々"
+              }
+            ],
+            "edition": "Digital Single"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方",
+            "label": "生きて、燦々：官方配信入口",
+            "url": "https://erj.lnk.to/o46g48",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "kingdom-6th-season-op-1-song-digital"
+          },
+          {
+            "platform": "YouTube",
+            "label": "生きて、燦々：Music Video",
+            "url": "https://www.youtube.com/watch?v=yW3RdDbkVw4",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "生きて、燦々：超ASOBIパフォーマンス編集版",
+            "url": "https://www.youtube.com/watch?v=TuFL-i5YxIA",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "生きて、燦々：NHK SONGS 現場演出",
+            "url": "https://www.youtube.com/watch?v=7OMTZg5bz8E",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "生きて、燦々：Apple Music",
+            "url": "https://music.apple.com/jp/album/1842317201",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "kingdom-6th-season-op-1-song-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "生きて、燦々：Spotify",
+            "url": "https://open.spotify.com/album/2hRKTBG9RvaUklnfa9ouip",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "kingdom-6th-season-op-1-song-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "生きて、燦々：LINE MUSIC",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004b42d23&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "kingdom-6th-season-op-1-song-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "生きて、燦々：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_nhmMCPlowNBehWu0q_DK5gJ66wKuEsezk",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "kingdom-6th-season-op-1-song-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "生きて、燦々：AWA",
+            "url": "https://s.awa.fm/album/ca5948ef1ad7b37eb259",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "kingdom-6th-season-op-1-song-digital"
+          },
+          {
+            "platform": "KKBOX",
+            "label": "生きて、燦々：KKBOX",
+            "url": "https://www.kkbox.com/jp/ja/album/9X3cNigHC0_tlAxh-Y",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "kingdom-6th-season-op-1-song-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "生きて、燦々：レコチョク",
+            "url": "https://recochoku.jp/album/A1044154840",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "kingdom-6th-season-op-1-song-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "生きて、燦々：mora",
+            "url": "https://mora.jp/package/43000087/ESXX03113B00Z/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "kingdom-6th-season-op-1-song-digital"
           }
         ]
       },
@@ -34377,6 +36290,27 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "label": "歌曲與動畫用途交叉核對",
             "role": "cross_check",
             "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://avex.jp/tomonarisora/news/detail.php?id=1130525",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://tomonarisora.lnk.to/hoko",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://tomonarisora.lnk.to/EastWest",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
             "verifiedAt": "2026-10-16"
           }
         ],
@@ -34434,6 +36368,515 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "kingdom-6th-season-ed-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/tomonarisora/news/detail.php?id=1130525"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kingdom-6th-season-ed-1-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/tomonarisora/news/detail.php?id=1130525"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kingdom-6th-season-ed-1-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/tomonarisora/news/detail.php?id=1130525"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://tomonarisora.lnk.to/hoko"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/tomonarisora/news/detail.php?id=1130525"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tomonari-sora-east-west-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/tomonarisora/news/detail.php?id=1130525"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://tomonarisora.lnk.to/EastWest"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/tomonarisora/news/detail.php?id=1130525"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=m10NRS75M3s"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/tomonarisora/news/detail.php?id=1130525"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=xTu1k0GI2Vc"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://tomonarisora.lnk.to/hoko"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1840082656"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://tomonarisora.lnk.to/hoko"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/10zv8Z1MZv4eL8z914Q3TL"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://tomonarisora.lnk.to/hoko"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.amazon.co.jp/albums/B0FRM1K7B2"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://tomonarisora.lnk.to/hoko"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/webapp/album/mb0000000004af9144"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://tomonarisora.lnk.to/hoko"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_nmyurjLVpZfU58kpz5A_G7bnS7kXem0zM"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://tomonarisora.lnk.to/hoko"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/f7ec253379f5c427e057"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://tomonarisora.lnk.to/hoko"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/song/S1028571579"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://tomonarisora.lnk.to/hoko"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000002/ANTCD-A0000017945/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://tomonarisora.lnk.to/EastWest"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/intl-ja/album/7lAe4jZ69BXoVe6vBaKVMX"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://tomonarisora.lnk.to/EastWest"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1847317937"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://tomonarisora.lnk.to/EastWest"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.amazon.co.jp/albums/B0FWXXQQHQ"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://tomonarisora.lnk.to/EastWest"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/webapp/album/mb0000000004bffc4a"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://tomonarisora.lnk.to/EastWest"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_kBIl5lmgDkZEZzpo_OOJqdnP31Pzb2mxc"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://tomonarisora.lnk.to/EastWest"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/43bd07d70d9cdd7cd040"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://tomonarisora.lnk.to/EastWest"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1044450543"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://tomonarisora.lnk.to/EastWest"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000002/ANTCD-A0000018447/"
+          }
+        ],
+        "releaseDate": "2025-10-19",
+        "recordings": [
+          {
+            "id": "kingdom-6th-season-ed-1-song-original",
+            "title": "咆哮",
+            "format": "unknown",
+            "kind": "vocal"
+          }
+        ],
+        "releases": [
+          {
+            "id": "kingdom-6th-season-ed-1-song-digital",
+            "title": "咆哮",
+            "type": "single",
+            "artistDisplayName": "友成空",
+            "tracks": [
+              {
+                "title": "咆哮"
+              }
+            ],
+            "date": {
+              "value": "2025-10-19",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          },
+          {
+            "id": "tomonari-sora-east-west-digital",
+            "title": "East West",
+            "type": "album",
+            "artistDisplayName": "友成空",
+            "tracks": [
+              {
+                "title": "咆哮",
+                "position": 5
+              }
+            ],
+            "date": {
+              "value": "2025-11-12",
+              "precision": "day"
+            },
+            "edition": "Digital Album"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方",
+            "label": "咆哮：官方配信入口",
+            "url": "https://tomonarisora.lnk.to/hoko",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "kingdom-6th-season-ed-1-song-digital"
+          },
+          {
+            "platform": "官方",
+            "label": "咆哮：官方配信入口",
+            "url": "https://tomonarisora.lnk.to/EastWest",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "tomonari-sora-east-west-digital"
+          },
+          {
+            "platform": "YouTube",
+            "label": "咆哮：Music Video",
+            "url": "https://www.youtube.com/watch?v=m10NRS75M3s",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "咆哮：キングダム第6シリーズスペシャル映像",
+            "url": "https://www.youtube.com/watch?v=xTu1k0GI2Vc",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "咆哮：Apple Music",
+            "url": "https://music.apple.com/jp/album/1840082656",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "kingdom-6th-season-ed-1-song-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "咆哮：Spotify",
+            "url": "https://open.spotify.com/album/10zv8Z1MZv4eL8z914Q3TL",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "kingdom-6th-season-ed-1-song-digital"
+          },
+          {
+            "platform": "Amazon Music",
+            "label": "咆哮：Amazon Music",
+            "url": "https://music.amazon.co.jp/albums/B0FRM1K7B2",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "kingdom-6th-season-ed-1-song-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "咆哮：LINE MUSIC",
+            "url": "https://music.line.me/webapp/album/mb0000000004af9144",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "kingdom-6th-season-ed-1-song-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "咆哮：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_nmyurjLVpZfU58kpz5A_G7bnS7kXem0zM",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "kingdom-6th-season-ed-1-song-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "咆哮：AWA",
+            "url": "https://s.awa.fm/album/f7ec253379f5c427e057",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "kingdom-6th-season-ed-1-song-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "咆哮：レコチョク",
+            "url": "https://recochoku.jp/song/S1028571579",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "kingdom-6th-season-ed-1-song-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "咆哮：mora",
+            "url": "https://mora.jp/package/43000002/ANTCD-A0000017945/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "kingdom-6th-season-ed-1-song-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "咆哮：Spotify",
+            "url": "https://open.spotify.com/intl-ja/album/7lAe4jZ69BXoVe6vBaKVMX",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "tomonari-sora-east-west-digital"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "咆哮：Apple Music",
+            "url": "https://music.apple.com/jp/album/1847317937",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "tomonari-sora-east-west-digital"
+          },
+          {
+            "platform": "Amazon Music",
+            "label": "咆哮：Amazon Music",
+            "url": "https://music.amazon.co.jp/albums/B0FWXXQQHQ",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "tomonari-sora-east-west-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "咆哮：LINE MUSIC",
+            "url": "https://music.line.me/webapp/album/mb0000000004bffc4a",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "tomonari-sora-east-west-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "咆哮：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_kBIl5lmgDkZEZzpo_OOJqdnP31Pzb2mxc",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "tomonari-sora-east-west-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "咆哮：AWA",
+            "url": "https://s.awa.fm/album/43bd07d70d9cdd7cd040",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "tomonari-sora-east-west-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "咆哮：レコチョク",
+            "url": "https://recochoku.jp/album/A1044450543",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "tomonari-sora-east-west-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "咆哮：mora",
+            "url": "https://mora.jp/package/43000002/ANTCD-A0000018447/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "tomonari-sora-east-west-digital"
           }
         ]
       }
@@ -34491,12 +36934,72 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "zh-Hant",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://utaten.com/songWriter/15129/",
+            "label": "逐曲創作／演唱名單",
+            "role": "cross_check",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://animemusicranking.com/ja/anime/6816/",
+            "label": "逐曲創作／演唱名單",
+            "role": "cross_check",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://japan.miyavi.com/news/detail/55511",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.ningoku-anime.com/news.html",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
           }
         ],
         "credits": [
           {
             "name": "MIYAVI",
             "role": "vocals"
+          },
+          {
+            "name": "MIYAVI",
+            "role": "lyrics"
+          },
+          {
+            "name": "Lenard Skolnik",
+            "role": "lyrics"
+          },
+          {
+            "name": "Seann Bowe",
+            "role": "lyrics"
+          },
+          {
+            "name": "MIYAVI",
+            "role": "composition"
+          },
+          {
+            "name": "Lenard Skolnik",
+            "role": "composition"
+          },
+          {
+            "name": "Seann Bowe",
+            "role": "composition"
+          },
+          {
+            "name": "MIYAVI",
+            "role": "arrangement"
+          },
+          {
+            "name": "Lenard Skolnik",
+            "role": "arrangement"
           }
         ],
         "evidence": [
@@ -34524,6 +37027,79 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "ninja-to-gokudou-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://utaten.com/songWriter/15129/"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://utaten.com/songWriter/15129/"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://animemusicranking.com/ja/anime/6816/"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://japan.miyavi.com/news/detail/55511"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ninja-to-gokudou-op-1-song-original"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.ningoku-anime.com/news.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=osOjUmMCX4w"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "ninja-to-gokudou-op-1-song-original",
+            "title": "Sweet Disaster",
+            "format": "unknown",
+            "kind": "vocal"
+          }
+        ],
+        "links": [
+          {
+            "platform": "YouTube",
+            "label": "Sweet Disaster：ノンクレジットOP",
+            "url": "https://www.youtube.com/watch?v=osOjUmMCX4w",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
           }
         ]
       },
@@ -34551,12 +37127,41 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "zh-Hant",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E5%BF%8D%E8%80%85%E8%88%87%E6%A5%B5%E9%81%93",
+            "label": "逐曲創作／演唱名單",
+            "role": "cross_check",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.jvcmusic.co.jp/-/Discography/A026710/VE3WT-11977.html",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.ningoku-anime.com/news.html",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
           }
         ],
         "credits": [
           {
             "name": "Fear, and Loathing in Las Vegas",
             "role": "vocals"
+          },
+          {
+            "name": "Fear, and Loathing in Las Vegas",
+            "role": "lyrics"
+          },
+          {
+            "name": "Fear, and Loathing in Las Vegas",
+            "role": "composition"
           }
         ],
         "evidence": [
@@ -34584,6 +37189,136 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "ninja-to-gokudou-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/%E5%BF%8D%E8%80%85%E8%88%87%E6%A5%B5%E9%81%93"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/%E5%BF%8D%E8%80%85%E8%88%87%E6%A5%B5%E9%81%93"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/-/Discography/A026710/VE3WT-11977.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ninja-to-gokudou-ed-1-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/-/Discography/A026710/VE3WT-11977.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ninja-to-gokudou-ed-1-song-digital"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/-/Discography/A026710/VE3WT-11977.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ninja-to-gokudou-ed-1-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/-/Discography/A026710/VE3WT-11977.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=R2luQb3dJEM"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.ningoku-anime.com/news.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=afh1W9cJ3MI"
+          }
+        ],
+        "releaseDate": "2025-10-08",
+        "recordings": [
+          {
+            "id": "ninja-to-gokudou-ed-1-song-original",
+            "title": "Until You Die Out",
+            "format": "unknown",
+            "kind": "vocal"
+          }
+        ],
+        "releases": [
+          {
+            "id": "ninja-to-gokudou-ed-1-song-digital",
+            "title": "Until You Die Out",
+            "type": "single",
+            "artistDisplayName": "Fear, and Loathing in Las Vegas",
+            "tracks": [
+              {
+                "title": "Until You Die Out"
+              }
+            ],
+            "date": {
+              "value": "2025-10-08",
+              "precision": "day"
+            },
+            "edition": "Digital Single",
+            "catalogNumber": "VE3WT-11977"
+          }
+        ],
+        "links": [
+          {
+            "platform": "YouTube",
+            "label": "Until You Die Out：Music Video",
+            "url": "https://www.youtube.com/watch?v=R2luQb3dJEM",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "Until You Die Out：ノンクレジットED",
+            "url": "https://www.youtube.com/watch?v=afh1W9cJ3MI",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
           }
         ]
       },
@@ -34652,6 +37387,69 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "ninja-to-gokudou-in-1"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.ningoku-anime.com/news.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ninja-to-gokudou-in-1-song-original"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.ningoku-anime.com/news.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=8qqtt2Ki-ew"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.amazon.co.jp/tracks/B0FWJK82YN"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.amazon.co.jp/tracks/B0FWJK82YN"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "ninja-to-gokudou-in-1-song-original",
+            "title": "孤独の唄",
+            "format": "unknown",
+            "kind": "vocal"
+          }
+        ],
+        "links": [
+          {
+            "platform": "YouTube",
+            "label": "孤独の唄：第3話ノンクレジット・歌詞付き映像",
+            "url": "https://www.youtube.com/watch?v=8qqtt2Ki-ew",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Amazon Music",
+            "label": "孤独の唄 (TV ver.)：Amazon Music",
+            "url": "https://music.amazon.co.jp/tracks/B0FWJK82YN",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
           }
         ]
       }
@@ -34709,6 +37507,20 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "zh-Hant",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.galileogalilei.jp/discography/detail/8315/",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://aooke-anime.com/",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
           }
         ],
         "credits": [
@@ -34727,6 +37539,31 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
           {
             "name": "Galileo Galilei",
             "role": "arrangement"
+          },
+          {
+            "name": "DAIKI",
+            "role": "group_member",
+            "groupName": "Galileo Galilei"
+          },
+          {
+            "name": "岩井郁人",
+            "role": "group_member",
+            "groupName": "Galileo Galilei"
+          },
+          {
+            "name": "岡崎真輝",
+            "role": "group_member",
+            "groupName": "Galileo Galilei"
+          },
+          {
+            "name": "尾崎雄貴",
+            "role": "group_member",
+            "groupName": "Galileo Galilei"
+          },
+          {
+            "name": "尾崎和樹",
+            "role": "group_member",
+            "groupName": "Galileo Galilei"
           }
         ],
         "evidence": [
@@ -34765,6 +37602,273 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "ao-no-orchestra-season-2-op-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://aooke-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.galileogalilei.jp/discography/detail/8315/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ao-no-orchestra-season-2-op-1-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.galileogalilei.jp/discography/detail/8315/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ao-no-orchestra-season-2-op-1-song-digital"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.galileogalilei.jp/discography/detail/8315/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ao-no-orchestra-season-2-op-1-song-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.galileogalilei.jp/discography/detail/8315/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "galileo-amadeus-11th-single"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://aooke-anime.com/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=W6A7WnorYl4"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.galileogalilei.jp/discography/detail/8315/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/amadeus-single/1840369888"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.galileogalilei.jp/discography/detail/8315/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.amazon.co.jp/tracks/B0FS1GRZY1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.galileogalilei.jp/discography/detail/8315/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/intl-ja/album/6PclPhQAIkftll2q1vvRh4"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.galileogalilei.jp/discography/detail/8315/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/1b06facb89410f729e43"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.galileogalilei.jp/discography/detail/8315/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/watch?v=T3klgUFet64"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.galileogalilei.jp/discography/detail/8315/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://dhits.docomo.ne.jp/music/1046091214"
+          }
+        ],
+        "releaseDate": "2025-10-06",
+        "recordings": [
+          {
+            "id": "ao-no-orchestra-season-2-op-1-song-original",
+            "title": "アマデウス",
+            "format": "unknown",
+            "kind": "vocal"
+          },
+          {
+            "id": "ao-no-orchestra-season-2-op-1-song-instrumental",
+            "title": "アマデウス(INSTRUMENTAL)",
+            "format": "unknown",
+            "kind": "instrumental"
+          }
+        ],
+        "releases": [
+          {
+            "id": "ao-no-orchestra-season-2-op-1-song-digital",
+            "title": "アマデウス",
+            "type": "single",
+            "artistDisplayName": "Galileo Galilei",
+            "tracks": [
+              {
+                "title": "アマデウス"
+              }
+            ],
+            "date": {
+              "value": "2025-10-06",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          },
+          {
+            "id": "galileo-amadeus-11th-single",
+            "title": "アマデウス",
+            "type": "single",
+            "artistDisplayName": "Galileo Galilei",
+            "tracks": [
+              {
+                "title": "アマデウス",
+                "position": 1,
+                "recordingId": "ao-no-orchestra-season-2-op-1-song-original"
+              },
+              {
+                "title": "アマデウス(INSTRUMENTAL)",
+                "position": 3,
+                "recordingId": "ao-no-orchestra-season-2-op-1-song-instrumental"
+              }
+            ],
+            "edition": "11th Single"
+          }
+        ],
+        "links": [
+          {
+            "platform": "YouTube",
+            "label": "アマデウス：Season2 ノンクレジットOP",
+            "url": "https://www.youtube.com/watch?v=W6A7WnorYl4",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "アマデウス：Apple Music",
+            "url": "https://music.apple.com/jp/album/amadeus-single/1840369888",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "ao-no-orchestra-season-2-op-1-song-digital"
+          },
+          {
+            "platform": "Amazon Music",
+            "label": "アマデウス：Amazon Music",
+            "url": "https://music.amazon.co.jp/tracks/B0FS1GRZY1",
+            "linkType": "direct_track",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "ao-no-orchestra-season-2-op-1-song-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "アマデウス：Spotify",
+            "url": "https://open.spotify.com/intl-ja/album/6PclPhQAIkftll2q1vvRh4",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "ao-no-orchestra-season-2-op-1-song-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "アマデウス：AWA",
+            "url": "https://s.awa.fm/album/1b06facb89410f729e43",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "ao-no-orchestra-season-2-op-1-song-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "アマデウス：YouTube Music",
+            "url": "https://music.youtube.com/watch?v=T3klgUFet64",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "ao-no-orchestra-season-2-op-1-song-digital"
+          },
+          {
+            "platform": "dヒッツ",
+            "label": "アマデウス：dヒッツ",
+            "url": "https://dhits.docomo.ne.jp/music/1046091214",
+            "linkType": "direct_track",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "ao-no-orchestra-season-2-op-1-song-digital"
           }
         ]
       },
@@ -34792,6 +37896,27 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "zh-Hant",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://choqmay-official.com/musics/20214",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://aooke-anime.com/",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://cho-q-may.lnk.to/BlueMagic",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
           }
         ],
         "credits": [
@@ -34814,6 +37939,26 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
           {
             "name": "チョーキューメイ",
             "role": "arrangement"
+          },
+          {
+            "name": "れんぴ",
+            "role": "group_member",
+            "groupName": "チョーキューメイ"
+          },
+          {
+            "name": "麗",
+            "role": "group_member",
+            "groupName": "チョーキューメイ"
+          },
+          {
+            "name": "空閑興一郎",
+            "role": "group_member",
+            "groupName": "チョーキューメイ"
+          },
+          {
+            "name": "おすず",
+            "role": "group_member",
+            "groupName": "チョーキューメイ"
           }
         ],
         "evidence": [
@@ -34852,6 +37997,273 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "ao-no-orchestra-season-2-ed-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://aooke-anime.com/music/ending.html"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://choqmay-official.com/musics/20214"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ao-no-orchestra-season-2-ed-1-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://choqmay-official.com/musics/20214"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ao-no-orchestra-season-2-ed-1-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://choqmay-official.com/musics/20214"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://cho-q-may.lnk.to/BlueMagic"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://aooke-anime.com/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=foFvFaOKzMs"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://cho-q-may.lnk.to/BlueMagic"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1838374711"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://cho-q-may.lnk.to/BlueMagic"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/10w3OQKWjYbcUzztkdw4oP"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://cho-q-may.lnk.to/BlueMagic"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/watch?v=gpYV2U2OOjw"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://cho-q-may.lnk.to/BlueMagic"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004a91c0e&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://cho-q-may.lnk.to/BlueMagic"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/cc37ac1ef29144a98c12"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://cho-q-may.lnk.to/BlueMagic"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1838374711"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://cho-q-may.lnk.to/BlueMagic"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1043779031"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://cho-q-may.lnk.to/BlueMagic"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000035/4570165317764/"
+          }
+        ],
+        "releaseDate": "2025-10-06",
+        "recordings": [
+          {
+            "id": "ao-no-orchestra-season-2-ed-1-song-original",
+            "title": "青の魔法",
+            "format": "unknown",
+            "kind": "vocal"
+          }
+        ],
+        "releases": [
+          {
+            "id": "ao-no-orchestra-season-2-ed-1-song-digital",
+            "title": "青の魔法",
+            "type": "single",
+            "artistDisplayName": "チョーキューメイ",
+            "tracks": [
+              {
+                "title": "青の魔法"
+              }
+            ],
+            "date": {
+              "value": "2025-10-06",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方",
+            "label": "青の魔法：官方配信入口",
+            "url": "https://cho-q-may.lnk.to/BlueMagic",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "ao-no-orchestra-season-2-ed-1-song-digital"
+          },
+          {
+            "platform": "YouTube",
+            "label": "青の魔法：Season2 ノンクレジットED",
+            "url": "https://www.youtube.com/watch?v=foFvFaOKzMs",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "青の魔法：Apple Music",
+            "url": "https://music.apple.com/jp/album/1838374711",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "ao-no-orchestra-season-2-ed-1-song-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "青の魔法：Spotify",
+            "url": "https://open.spotify.com/album/10w3OQKWjYbcUzztkdw4oP",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "ao-no-orchestra-season-2-ed-1-song-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "青の魔法：YouTube Music",
+            "url": "https://music.youtube.com/watch?v=gpYV2U2OOjw",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "ao-no-orchestra-season-2-ed-1-song-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "青の魔法：LINE MUSIC",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004a91c0e&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "ao-no-orchestra-season-2-ed-1-song-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "青の魔法：AWA",
+            "url": "https://s.awa.fm/album/cc37ac1ef29144a98c12",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "ao-no-orchestra-season-2-ed-1-song-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "青の魔法：レコチョク",
+            "url": "https://recochoku.jp/album/A1043779031",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "ao-no-orchestra-season-2-ed-1-song-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "青の魔法：mora",
+            "url": "https://mora.jp/package/43000035/4570165317764/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "ao-no-orchestra-season-2-ed-1-song-digital"
           }
         ]
       }
@@ -34908,6 +38320,41 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "label": "歌曲與動畫用途交叉核對",
             "role": "cross_check",
             "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://wmg.jp/gangparade/discography/32214",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://wmg.jp/gangparade/discography/32014",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://wmg.jp/gangparade/discography/32015",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://gangparade.lnk.to/8thSG",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=bz4P04NCbIo",
+            "label": "官方影片公開索引：渠道與形式",
+            "role": "first_party",
+            "language": "ja",
             "verifiedAt": "2026-10-16"
           }
         ],
@@ -34973,6 +38420,357 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "debu-to-love-to-ayamachi-to-op-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://wmg.jp/gangparade/discography/32214"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "debu-to-love-to-ayamachi-to-op-1-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://wmg.jp/gangparade/discography/32214"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "debu-to-love-to-ayamachi-to-op-1-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://wmg.jp/gangparade/discography/32214"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=bz4P04NCbIo"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://wmg.jp/gangparade/discography/32014"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "gangparade-kimi-no-okage-limited"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://wmg.jp/gangparade/discography/32015"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "gangparade-kimi-no-okage-regular"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://gangparade.lnk.to/8thSG"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "gangparade-kimi-no-okage-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://wmg.jp/gangparade/discography/32015"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://gangparade.lnk.to/8thSG"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://gangparade.lnk.to/8thSG"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1856531582"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://gangparade.lnk.to/8thSG"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004e1f87e&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://gangparade.lnk.to/8thSG"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/4kAamPbc0toW4daxXzZbaG"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://gangparade.lnk.to/8thSG"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_nHiQ9a15Xl4es8zoOmEZjbcZP7yE_pcPM"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://gangparade.lnk.to/8thSG"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/3ab3018daa91d7262085"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://gangparade.lnk.to/8thSG"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1856531582"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://gangparade.lnk.to/8thSG"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/song/S1029113565"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=bz4P04NCbIo"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "bz4P04NCbIo"
+          }
+        ],
+        "releaseDate": "2025-10-07",
+        "recordings": [
+          {
+            "id": "debu-to-love-to-ayamachi-to-op-1-song-original",
+            "title": "Happy Yummy Lucky Yummy",
+            "format": "unknown",
+            "kind": "vocal"
+          }
+        ],
+        "releases": [
+          {
+            "id": "debu-to-love-to-ayamachi-to-op-1-song-digital",
+            "title": "Happy Yummy Lucky Yummy",
+            "type": "single",
+            "artistDisplayName": "GANG PARADE",
+            "tracks": [
+              {
+                "title": "Happy Yummy Lucky Yummy"
+              }
+            ],
+            "date": {
+              "value": "2025-10-07",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          },
+          {
+            "id": "gangparade-kimi-no-okage-limited",
+            "title": "KIMI☆NO☆OKAGE",
+            "type": "single",
+            "artistDisplayName": "GANG PARADE",
+            "tracks": [
+              {
+                "title": "Happy Yummy Lucky Yummy",
+                "position": 3,
+                "recordingId": "debu-to-love-to-ayamachi-to-op-1-song-original"
+              }
+            ],
+            "date": {
+              "value": "2025-12-17",
+              "precision": "day"
+            },
+            "catalogNumber": "WPZL-32261/2",
+            "edition": "初回生産限定盤 CD＋Blu-ray",
+            "label": "WARNER MUSIC JAPAN"
+          },
+          {
+            "id": "gangparade-kimi-no-okage-regular",
+            "title": "KIMI☆NO☆OKAGE",
+            "type": "single",
+            "artistDisplayName": "GANG PARADE",
+            "tracks": [
+              {
+                "title": "Happy Yummy Lucky Yummy",
+                "position": 3,
+                "recordingId": "debu-to-love-to-ayamachi-to-op-1-song-original"
+              }
+            ],
+            "date": {
+              "value": "2025-12-17",
+              "precision": "day"
+            },
+            "catalogNumber": "WPCL-13726",
+            "edition": "通常盤 CD",
+            "label": "WARNER MUSIC JAPAN"
+          },
+          {
+            "id": "gangparade-kimi-no-okage-digital",
+            "title": "KIMI☆NO☆OKAGE",
+            "type": "single",
+            "artistDisplayName": "GANG PARADE",
+            "tracks": [
+              {
+                "title": "Happy Yummy Lucky Yummy",
+                "position": 3
+              }
+            ],
+            "edition": "Digital Single"
+          }
+        ],
+        "links": [
+          {
+            "platform": "YouTube",
+            "label": "Happy Yummy Lucky Yummy：Music Video",
+            "url": "https://www.youtube.com/watch?v=bz4P04NCbIo",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "官方",
+            "label": "Happy Yummy Lucky Yummy：官方配信入口",
+            "url": "https://gangparade.lnk.to/8thSG",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "gangparade-kimi-no-okage-digital"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Happy Yummy Lucky Yummy：Apple Music",
+            "url": "https://music.apple.com/jp/album/1856531582",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "gangparade-kimi-no-okage-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "Happy Yummy Lucky Yummy：LINE MUSIC",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004e1f87e&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "gangparade-kimi-no-okage-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "Happy Yummy Lucky Yummy：Spotify",
+            "url": "https://open.spotify.com/album/4kAamPbc0toW4daxXzZbaG",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "gangparade-kimi-no-okage-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "Happy Yummy Lucky Yummy：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_nHiQ9a15Xl4es8zoOmEZjbcZP7yE_pcPM",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "gangparade-kimi-no-okage-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "Happy Yummy Lucky Yummy：AWA",
+            "url": "https://s.awa.fm/album/3ab3018daa91d7262085",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "gangparade-kimi-no-okage-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "Happy Yummy Lucky Yummy：レコチョク",
+            "url": "https://recochoku.jp/song/S1029113565",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "gangparade-kimi-no-okage-digital"
           }
         ]
       },
@@ -34999,6 +38797,27 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "label": "歌曲與動畫用途交叉核對",
             "role": "cross_check",
             "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=r4_A4F02rPc",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=AEOwSFpYnZA",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://yuma-uchida.lnk.to/WatashideYokatta",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
             "verifiedAt": "2026-10-16"
           }
         ],
@@ -35068,6 +38887,361 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "debu-to-love-to-ayamachi-to-ed-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://s.mxtv.jp/anime/debulove/music.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "debu-to-love-to-ayamachi-to-ed-1-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://s.mxtv.jp/anime/debulove/music.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "debu-to-love-to-ayamachi-to-ed-1-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://s.mxtv.jp/anime/debulove/music.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://yuma-uchida.lnk.to/WatashideYokatta"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=r4_A4F02rPc"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=r4_A4F02rPc"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=AEOwSFpYnZA"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=AEOwSFpYnZA"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://yuma-uchida.lnk.to/WatashideYokatta"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1840365347"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://yuma-uchida.lnk.to/WatashideYokatta"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/7B5wL85vNSvNY5kzsHPfG4"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://yuma-uchida.lnk.to/WatashideYokatta"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004af4204&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://yuma-uchida.lnk.to/WatashideYokatta"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_l9mK4oXOg_wGSwpor8VWMXWN64nMpmLeE"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://yuma-uchida.lnk.to/WatashideYokatta"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/9b18bcf8250580188f84"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://yuma-uchida.lnk.to/WatashideYokatta"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.kkbox.com/jp/ja/album/0oATg-w0u_GpDpd5Ct"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://yuma-uchida.lnk.to/WatashideYokatta"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1043928475"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://yuma-uchida.lnk.to/WatashideYokatta"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.amazon.co.jp/albums/B0FRG136HD"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://yuma-uchida.lnk.to/WatashideYokatta"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000014/NOPA-7869/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://yuma-uchida.lnk.to/WatashideYokatta"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000189/NOPA-7869/"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=r4_A4F02rPc"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "r4_A4F02rPc"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=AEOwSFpYnZA"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "AEOwSFpYnZA"
+          }
+        ],
+        "releaseDate": "2025-10-03",
+        "recordings": [
+          {
+            "id": "debu-to-love-to-ayamachi-to-ed-1-song-original",
+            "title": "私でよかった！！！",
+            "format": "unknown",
+            "kind": "vocal"
+          }
+        ],
+        "releases": [
+          {
+            "id": "debu-to-love-to-ayamachi-to-ed-1-song-digital",
+            "title": "私でよかった！！！",
+            "type": "single",
+            "artistDisplayName": "内田雄馬",
+            "tracks": [
+              {
+                "title": "私でよかった！！！"
+              }
+            ],
+            "date": {
+              "value": "2025-10-03",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方",
+            "label": "私でよかった！！！：官方配信入口",
+            "url": "https://yuma-uchida.lnk.to/WatashideYokatta",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "debu-to-love-to-ayamachi-to-ed-1-song-digital"
+          },
+          {
+            "platform": "YouTube",
+            "label": "私でよかった！！！：MUSIC VIDEO",
+            "url": "https://www.youtube.com/watch?v=r4_A4F02rPc",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "私でよかった！！！：Art Track",
+            "url": "https://www.youtube.com/watch?v=AEOwSFpYnZA",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "私でよかった！！！：Apple Music",
+            "url": "https://music.apple.com/jp/album/1840365347",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "debu-to-love-to-ayamachi-to-ed-1-song-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "私でよかった！！！：Spotify",
+            "url": "https://open.spotify.com/album/7B5wL85vNSvNY5kzsHPfG4",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "debu-to-love-to-ayamachi-to-ed-1-song-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "私でよかった！！！：LINE MUSIC",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004af4204&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "debu-to-love-to-ayamachi-to-ed-1-song-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "私でよかった！！！：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_l9mK4oXOg_wGSwpor8VWMXWN64nMpmLeE",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "debu-to-love-to-ayamachi-to-ed-1-song-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "私でよかった！！！：AWA",
+            "url": "https://s.awa.fm/album/9b18bcf8250580188f84",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "debu-to-love-to-ayamachi-to-ed-1-song-digital"
+          },
+          {
+            "platform": "KKBOX",
+            "label": "私でよかった！！！：KKBOX",
+            "url": "https://www.kkbox.com/jp/ja/album/0oATg-w0u_GpDpd5Ct",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "debu-to-love-to-ayamachi-to-ed-1-song-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "私でよかった！！！：レコチョク",
+            "url": "https://recochoku.jp/album/A1043928475",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "debu-to-love-to-ayamachi-to-ed-1-song-digital"
+          },
+          {
+            "platform": "Amazon Music",
+            "label": "私でよかった！！！：Amazon Music",
+            "url": "https://music.amazon.co.jp/albums/B0FRG136HD",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "debu-to-love-to-ayamachi-to-ed-1-song-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "私でよかった！！！：mora",
+            "url": "https://mora.jp/package/43000014/NOPA-7869/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "debu-to-love-to-ayamachi-to-ed-1-song-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "私でよかった！！！：mora",
+            "url": "https://mora.jp/package/43000189/NOPA-7869/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "debu-to-love-to-ayamachi-to-ed-1-song-digital"
           }
         ]
       }
@@ -35125,12 +39299,49 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "zh-Hant",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://tower.jp/item/7109473",
+            "label": "逐曲創作／演唱名單",
+            "role": "cross_check",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://shabake-official.com/",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://kujira.lnk.to/MatsuriofLives",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
           }
         ],
         "credits": [
           {
             "name": "くじら",
             "role": "vocals"
+          },
+          {
+            "name": "くじら",
+            "role": "lyrics"
+          },
+          {
+            "name": "くじら",
+            "role": "composition"
+          },
+          {
+            "name": "knoak",
+            "role": "arrangement"
+          },
+          {
+            "name": "くじら",
+            "role": "arrangement"
           }
         ],
         "evidence": [
@@ -35158,6 +39369,319 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "shabake-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tower.jp/item/7109473"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tower.jp/item/7109473"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tower.jp/item/7109473"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://shabake-official.com/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "shabake-op-1-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://shabake-official.com/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "shabake-op-1-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://shabake-official.com/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://kujira.lnk.to/MatsuriofLives"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://shabake-official.com/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kujira-inochi-srcl13429"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://shabake-official.com/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=VniEEcIswxc"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kujira.lnk.to/MatsuriofLives"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1840702747"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kujira.lnk.to/MatsuriofLives"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/1rVMxPiU2H6GVFLEmZV695"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kujira.lnk.to/MatsuriofLives"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004af93ca&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kujira.lnk.to/MatsuriofLives"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_mCrKiwFJG0f5Sev9qSnKc8YdDjOCYGDI4"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kujira.lnk.to/MatsuriofLives"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/229d9be3ce8406d85405"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kujira.lnk.to/MatsuriofLives"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1043981458"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kujira.lnk.to/MatsuriofLives"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000087/SRXX05405B00Z/"
+          }
+        ],
+        "releaseDate": "2025-10-03",
+        "recordings": [
+          {
+            "id": "shabake-op-1-song-original",
+            "title": "いのちのパレヱド",
+            "format": "unknown",
+            "kind": "vocal"
+          }
+        ],
+        "releases": [
+          {
+            "id": "shabake-op-1-song-digital",
+            "title": "いのちのパレヱド",
+            "type": "single",
+            "artistDisplayName": "くじら",
+            "tracks": [
+              {
+                "title": "いのちのパレヱド"
+              }
+            ],
+            "date": {
+              "value": "2025-10-03",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          },
+          {
+            "id": "kujira-inochi-srcl13429",
+            "title": "いのちのパレヱド",
+            "type": "single",
+            "artistDisplayName": "くじら",
+            "tracks": [
+              {
+                "title": "いのちのパレヱド",
+                "position": 1,
+                "recordingId": "shabake-op-1-song-original"
+              }
+            ],
+            "date": {
+              "value": "2025-11-26",
+              "precision": "day"
+            },
+            "catalogNumber": "SRCL-13429",
+            "edition": "CD",
+            "label": "Sony Music Labels Inc."
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方",
+            "label": "いのちのパレヱド：官方配信入口",
+            "url": "https://kujira.lnk.to/MatsuriofLives",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "shabake-op-1-song-digital"
+          },
+          {
+            "platform": "YouTube",
+            "label": "いのちのパレヱド：官方歌曲影片",
+            "url": "https://www.youtube.com/watch?v=VniEEcIswxc",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "いのちのパレヱド：Apple Music",
+            "url": "https://music.apple.com/jp/album/1840702747",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "shabake-op-1-song-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "いのちのパレヱド：Spotify",
+            "url": "https://open.spotify.com/album/1rVMxPiU2H6GVFLEmZV695",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "shabake-op-1-song-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "いのちのパレヱド：LINE MUSIC",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004af93ca&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "shabake-op-1-song-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "いのちのパレヱド：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_mCrKiwFJG0f5Sev9qSnKc8YdDjOCYGDI4",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "shabake-op-1-song-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "いのちのパレヱド：AWA",
+            "url": "https://s.awa.fm/album/229d9be3ce8406d85405",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "shabake-op-1-song-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "いのちのパレヱド：レコチョク",
+            "url": "https://recochoku.jp/album/A1043981458",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "shabake-op-1-song-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "いのちのパレヱド：mora",
+            "url": "https://mora.jp/package/43000087/SRXX05405B00Z/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "shabake-op-1-song-digital"
           }
         ]
       },
@@ -35185,12 +39709,48 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "zh-Hant",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=v9ESe709goM",
+            "label": "逐曲創作／演唱名單",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://shabake-official.com/",
+            "label": "官方團隊簡介：成員身分",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
           }
         ],
         "credits": [
           {
             "name": "KAFUNÉ",
             "role": "vocals"
+          },
+          {
+            "name": "人生",
+            "role": "lyrics"
+          },
+          {
+            "name": "人生",
+            "role": "composition"
+          },
+          {
+            "name": "Takakuzo",
+            "role": "arrangement"
+          },
+          {
+            "name": "人生",
+            "role": "group_member",
+            "groupName": "KAFUNÉ"
+          },
+          {
+            "name": "Takakuzo",
+            "role": "group_member",
+            "groupName": "KAFUNÉ"
           }
         ],
         "evidence": [
@@ -35218,6 +39778,250 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "shabake-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=v9ESe709goM"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=v9ESe709goM"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=v9ESe709goM"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://shabake-official.com/"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://shabake-official.com/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "shabake-ed-1-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://shabake-official.com/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "shabake-ed-1-song-digital"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://shabake-official.com/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "shabake-ed-1-song-anime-edit"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://shabake-official.com/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "shabake-ed-1-song-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://shabake-official.com/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kafune-myakumyaku-uxcl368"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://shabake-official.com/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://lnk.to/myakumyaku"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://shabake-official.com/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=vvohWnyaXBY"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=v9ESe709goM"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=v9ESe709goM"
+          }
+        ],
+        "releaseDate": "2025-10-10",
+        "recordings": [
+          {
+            "id": "shabake-ed-1-song-original",
+            "title": "脈脈",
+            "format": "unknown",
+            "kind": "vocal"
+          },
+          {
+            "id": "shabake-ed-1-song-anime-edit",
+            "title": "脈脈 - Anime Edit -",
+            "format": "tv",
+            "kind": "vocal"
+          },
+          {
+            "id": "shabake-ed-1-song-instrumental",
+            "title": "脈脈 - Instrumental -",
+            "format": "unknown",
+            "kind": "instrumental"
+          }
+        ],
+        "releases": [
+          {
+            "id": "shabake-ed-1-song-digital",
+            "title": "脈脈",
+            "type": "single",
+            "artistDisplayName": "KAFUNÉ",
+            "tracks": [
+              {
+                "title": "脈脈"
+              }
+            ],
+            "date": {
+              "value": "2025-10-10",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          },
+          {
+            "id": "kafune-myakumyaku-uxcl368",
+            "title": "脈脈",
+            "type": "single",
+            "artistDisplayName": "KAFUNÉ",
+            "tracks": [
+              {
+                "title": "脈脈",
+                "position": 1,
+                "recordingId": "shabake-ed-1-song-original"
+              },
+              {
+                "title": "脈脈 - Anime Edit -",
+                "position": 3,
+                "recordingId": "shabake-ed-1-song-anime-edit"
+              },
+              {
+                "title": "脈脈 - Instrumental -",
+                "position": 4,
+                "recordingId": "shabake-ed-1-song-instrumental"
+              }
+            ],
+            "date": {
+              "value": "2025-10-29",
+              "precision": "day"
+            },
+            "catalogNumber": "UXCL-368",
+            "edition": "アニメ盤 CD",
+            "label": "Sony Music Labels Inc."
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方",
+            "label": "脈脈：官方CD商品入口",
+            "url": "https://lnk.to/myakumyaku",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "kafune-myakumyaku-uxcl368"
+          },
+          {
+            "platform": "YouTube",
+            "label": "脈脈：ノンクレジットED",
+            "url": "https://www.youtube.com/watch?v=vvohWnyaXBY",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "脈脈：官方歌曲影片",
+            "url": "https://www.youtube.com/watch?v=v9ESe709goM",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
           }
         ]
       }
@@ -35275,12 +40079,108 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "zh-Hant",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://takui.com/pages/provided_songs/",
+            "label": "逐曲創作／演唱名單",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.smile-co.jp/archives/creator/280231",
+            "label": "逐曲創作／演唱名單",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.live/music/discography/",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.aniplex.co.jp/lineup/si-vis/news/detail/?id=68926",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.live/music/artist.html",
+            "label": "官方：角色歌唱者對應，與CV分工不同",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.live/music/discography/single01.html",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.live/music/discography/single02.html",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.lnk.to/SFA_FandS_digi",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.live/movie/",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.lnk.to/SoFarAway",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.lnk.to/SoFarAway_SECONDSTAGE",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.lnk.to/SoFarAway_THIRDSTAGE",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
           }
         ],
         "credits": [
           {
             "name": "SI-VIS",
             "role": "vocals"
+          },
+          {
+            "name": "中島卓偉",
+            "role": "lyrics"
+          },
+          {
+            "name": "中島卓偉",
+            "role": "composition"
+          },
+          {
+            "name": "戸嶋友祐",
+            "role": "arrangement"
           }
         ],
         "evidence": [
@@ -35308,9 +40208,1166 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "si-vis-the-sound-of-heroes-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://takui.com/pages/provided_songs/"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://takui.com/pages/provided_songs/"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.smile-co.jp/archives/creator/280231"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-op-1-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-op-1-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://si-vis.lnk.to/SoFarAway"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.aniplex.co.jp/lineup/si-vis/news/detail/?id=68926"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-op-1-song-second-stage"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.aniplex.co.jp/lineup/si-vis/news/detail/?id=68926",
+              "https://si-vis.live/music/artist.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-op-1-song-second-stage"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/single02.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-op-1-song-third-stage"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/single02.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-op-1-song-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/single01.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sivis-so-far-away-friends-smile-limited"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/single02.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sivis-so-far-away-friends-smile-regular"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SFA_FandS_digi"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sivis-so-far-away-friends-smile-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/single02.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://si-vis.lnk.to/SFA_FandS_digi"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.aniplex.co.jp/lineup/si-vis/news/detail/?id=68926"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-op-1-song-second-stage-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.aniplex.co.jp/lineup/si-vis/news/detail/?id=68926"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://si-vis.lnk.to/SoFarAway_SECONDSTAGE"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-op-1-song-third-stage-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://si-vis.lnk.to/SoFarAway_THIRDSTAGE"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/movie/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=7MKcme-tctg"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SoFarAway"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1840383265"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SoFarAway"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/2hJtiD7Mh238WQOaB0wfbz"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SoFarAway"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004ae9cd9&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SoFarAway"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_n0pEba13-Q90Ime1mTr1pxIGdEdUtCrJQ"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SoFarAway"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/c543a993d2b52e31c975"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SoFarAway"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.kkbox.com/jp/ja/album/TYvbOV0POR7QjB-wJc"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SoFarAway"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1043950536"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SoFarAway"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000087/VVXX01883B00Z/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SFA_FandS_digi"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1858525181"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SFA_FandS_digi"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/052I7BU1Qt2vuDLtaV9Yb1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SFA_FandS_digi"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004dccc0a&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SFA_FandS_digi"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_lpiw5_wDsafDBA2yI6s8-S76MDK0uGYoI"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SFA_FandS_digi"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/950b718a912ae9540379"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SFA_FandS_digi"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.kkbox.com/jp/ja/album/4ktofRcHF4KmUtnk5D"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SFA_FandS_digi"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A2005931473"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SFA_FandS_digi"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000087/VVCL02836B00Z/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SoFarAway_SECONDSTAGE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1841858738"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SoFarAway_SECONDSTAGE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/0zhFyoHZFeHH6icgqajS5s"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SoFarAway_SECONDSTAGE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004b2b998&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SoFarAway_SECONDSTAGE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_kyHca0b9eWLA3Q3zwdRLHImJqKKvYq6P0"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SoFarAway_SECONDSTAGE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/cc37ac1afb9545a98c12"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SoFarAway_SECONDSTAGE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.kkbox.com/jp/ja/album/9_J7scxdrjpYba-JOi"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SoFarAway_SECONDSTAGE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1044108545"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SoFarAway_SECONDSTAGE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000087/VVXX01893B00Z/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SoFarAway_THIRDSTAGE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1844796127"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SoFarAway_THIRDSTAGE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/4KnqhfIkTlRZ33Nythk8so"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SoFarAway_THIRDSTAGE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004ba5de4&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SoFarAway_THIRDSTAGE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_lOQ60qGGeYCkXvn0wQMZTB_1Ghb_e9KrI"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SoFarAway_THIRDSTAGE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/43bd07d50f9fd77cd040"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SoFarAway_THIRDSTAGE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.kkbox.com/jp/ja/album/KsgGzBJOdkIB8j_w_P"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SoFarAway_THIRDSTAGE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1044333619"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SoFarAway_THIRDSTAGE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000087/VVXX01907B00Z/"
           }
         ],
-        "usageLabel": "第1クール OP"
+        "usageLabel": "第1クール OP",
+        "releaseDate": "2025-10-05",
+        "recordings": [
+          {
+            "id": "si-vis-the-sound-of-heroes-op-1-song-original",
+            "title": "So Far Away",
+            "format": "unknown",
+            "kind": "vocal"
+          },
+          {
+            "id": "si-vis-the-sound-of-heroes-op-1-song-second-stage",
+            "title": "So Far Away -SECOND STAGE-",
+            "format": "unknown",
+            "kind": "character",
+            "credits": [
+              {
+                "name": "セイレーン starring IZUMI",
+                "role": "vocals"
+              },
+              {
+                "name": "ソウジ starring 鮫々",
+                "role": "vocals"
+              },
+              {
+                "name": "μ starring 月乃",
+                "role": "vocals"
+              },
+              {
+                "name": "JUNE starring ふるーり",
+                "role": "vocals"
+              }
+            ]
+          },
+          {
+            "id": "si-vis-the-sound-of-heroes-op-1-song-third-stage",
+            "title": "So Far Away -THIRD STAGE-",
+            "format": "unknown",
+            "kind": "character"
+          },
+          {
+            "id": "si-vis-the-sound-of-heroes-op-1-song-instrumental",
+            "title": "So Far Away (Instrumental)",
+            "format": "unknown",
+            "kind": "instrumental"
+          }
+        ],
+        "releases": [
+          {
+            "id": "si-vis-the-sound-of-heroes-op-1-song-digital",
+            "title": "So Far Away",
+            "type": "single",
+            "artistDisplayName": "SI-VIS",
+            "tracks": [
+              {
+                "title": "So Far Away"
+              }
+            ],
+            "date": {
+              "value": "2025-10-05",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          },
+          {
+            "id": "sivis-so-far-away-friends-smile-limited",
+            "title": "So Far Away / FRIENDS & SMILE",
+            "type": "single",
+            "artistDisplayName": "SI-VIS",
+            "tracks": [
+              {
+                "title": "So Far Away",
+                "position": 1,
+                "recordingId": "si-vis-the-sound-of-heroes-op-1-song-original"
+              },
+              {
+                "title": "So Far Away -SECOND STAGE-",
+                "position": 2,
+                "recordingId": "si-vis-the-sound-of-heroes-op-1-song-second-stage"
+              },
+              {
+                "title": "So Far Away -THIRD STAGE-",
+                "position": 3,
+                "recordingId": "si-vis-the-sound-of-heroes-op-1-song-third-stage"
+              },
+              {
+                "title": "So Far Away (Instrumental)",
+                "position": 7,
+                "recordingId": "si-vis-the-sound-of-heroes-op-1-song-instrumental"
+              }
+            ],
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "catalogNumber": "VVCL-2834",
+            "edition": "初回生産限定盤 CD＋Blu-ray"
+          },
+          {
+            "id": "sivis-so-far-away-friends-smile-regular",
+            "title": "So Far Away / FRIENDS & SMILE",
+            "type": "single",
+            "artistDisplayName": "SI-VIS",
+            "tracks": [
+              {
+                "title": "So Far Away",
+                "position": 1,
+                "recordingId": "si-vis-the-sound-of-heroes-op-1-song-original"
+              },
+              {
+                "title": "So Far Away -SECOND STAGE-",
+                "position": 2,
+                "recordingId": "si-vis-the-sound-of-heroes-op-1-song-second-stage"
+              },
+              {
+                "title": "So Far Away -THIRD STAGE-",
+                "position": 3,
+                "recordingId": "si-vis-the-sound-of-heroes-op-1-song-third-stage"
+              },
+              {
+                "title": "So Far Away (Instrumental)",
+                "position": 7,
+                "recordingId": "si-vis-the-sound-of-heroes-op-1-song-instrumental"
+              }
+            ],
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "catalogNumber": "VVCL-2836",
+            "edition": "通常盤 CD"
+          },
+          {
+            "id": "sivis-so-far-away-friends-smile-digital",
+            "title": "So Far Away / FRIENDS & SMILE",
+            "type": "single",
+            "artistDisplayName": "SI-VIS",
+            "tracks": [
+              {
+                "title": "So Far Away",
+                "position": 1
+              },
+              {
+                "title": "So Far Away -SECOND STAGE-",
+                "position": 2
+              },
+              {
+                "title": "So Far Away -THIRD STAGE-",
+                "position": 3
+              },
+              {
+                "title": "So Far Away (Instrumental)",
+                "position": 7
+              }
+            ],
+            "edition": "Digital Single"
+          },
+          {
+            "id": "si-vis-the-sound-of-heroes-op-1-song-second-stage-digital",
+            "title": "So Far Away -SECOND STAGE-",
+            "type": "single",
+            "artistDisplayName": "SI-VIS",
+            "tracks": [
+              {
+                "title": "So Far Away -SECOND STAGE-",
+                "position": 1,
+                "recordingId": "si-vis-the-sound-of-heroes-op-1-song-second-stage"
+              }
+            ],
+            "date": {
+              "value": "2025-10-12",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          },
+          {
+            "id": "si-vis-the-sound-of-heroes-op-1-song-third-stage-digital",
+            "title": "So Far Away -THIRD STAGE-",
+            "type": "single",
+            "artistDisplayName": "SI-VIS",
+            "tracks": [
+              {
+                "title": "So Far Away -THIRD STAGE-",
+                "position": 1,
+                "recordingId": "si-vis-the-sound-of-heroes-op-1-song-third-stage"
+              }
+            ],
+            "edition": "Digital Single"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方",
+            "label": "So Far Away：官方配信入口",
+            "url": "https://si-vis.lnk.to/SoFarAway",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-op-1-song-digital"
+          },
+          {
+            "platform": "官方",
+            "label": "So Far Away：官方配信入口",
+            "url": "https://si-vis.lnk.to/SFA_FandS_digi",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-so-far-away-friends-smile-digital"
+          },
+          {
+            "platform": "官方",
+            "label": "So Far Away：官方配信入口",
+            "url": "https://si-vis.lnk.to/SoFarAway_SECONDSTAGE",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-op-1-song-second-stage-digital"
+          },
+          {
+            "platform": "官方",
+            "label": "So Far Away：官方配信入口",
+            "url": "https://si-vis.lnk.to/SoFarAway_THIRDSTAGE",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-op-1-song-third-stage-digital"
+          },
+          {
+            "platform": "YouTube",
+            "label": "So Far Away：第1クール主題歌映像",
+            "url": "https://www.youtube.com/watch?v=7MKcme-tctg",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "So Far Away：Apple Music",
+            "url": "https://music.apple.com/jp/album/1840383265",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-op-1-song-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "So Far Away：Spotify",
+            "url": "https://open.spotify.com/album/2hJtiD7Mh238WQOaB0wfbz",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-op-1-song-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "So Far Away：LINE MUSIC",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004ae9cd9&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-op-1-song-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "So Far Away：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_n0pEba13-Q90Ime1mTr1pxIGdEdUtCrJQ",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-op-1-song-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "So Far Away：AWA",
+            "url": "https://s.awa.fm/album/c543a993d2b52e31c975",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-op-1-song-digital"
+          },
+          {
+            "platform": "KKBOX",
+            "label": "So Far Away：KKBOX",
+            "url": "https://www.kkbox.com/jp/ja/album/TYvbOV0POR7QjB-wJc",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-op-1-song-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "So Far Away：レコチョク",
+            "url": "https://recochoku.jp/album/A1043950536",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-op-1-song-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "So Far Away：mora",
+            "url": "https://mora.jp/package/43000087/VVXX01883B00Z/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-op-1-song-digital"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "So Far Away：Apple Music",
+            "url": "https://music.apple.com/jp/album/1858525181",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-so-far-away-friends-smile-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "So Far Away：Spotify",
+            "url": "https://open.spotify.com/album/052I7BU1Qt2vuDLtaV9Yb1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-so-far-away-friends-smile-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "So Far Away：LINE MUSIC",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004dccc0a&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-so-far-away-friends-smile-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "So Far Away：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_lpiw5_wDsafDBA2yI6s8-S76MDK0uGYoI",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-so-far-away-friends-smile-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "So Far Away：AWA",
+            "url": "https://s.awa.fm/album/950b718a912ae9540379",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-so-far-away-friends-smile-digital"
+          },
+          {
+            "platform": "KKBOX",
+            "label": "So Far Away：KKBOX",
+            "url": "https://www.kkbox.com/jp/ja/album/4ktofRcHF4KmUtnk5D",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-so-far-away-friends-smile-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "So Far Away：レコチョク",
+            "url": "https://recochoku.jp/album/A2005931473",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-so-far-away-friends-smile-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "So Far Away：mora",
+            "url": "https://mora.jp/package/43000087/VVCL02836B00Z/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-so-far-away-friends-smile-digital"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "So Far Away：Apple Music",
+            "url": "https://music.apple.com/jp/album/1841858738",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-op-1-song-second-stage-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "So Far Away：Spotify",
+            "url": "https://open.spotify.com/album/0zhFyoHZFeHH6icgqajS5s",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-op-1-song-second-stage-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "So Far Away：LINE MUSIC",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004b2b998&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-op-1-song-second-stage-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "So Far Away：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_kyHca0b9eWLA3Q3zwdRLHImJqKKvYq6P0",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-op-1-song-second-stage-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "So Far Away：AWA",
+            "url": "https://s.awa.fm/album/cc37ac1afb9545a98c12",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-op-1-song-second-stage-digital"
+          },
+          {
+            "platform": "KKBOX",
+            "label": "So Far Away：KKBOX",
+            "url": "https://www.kkbox.com/jp/ja/album/9_J7scxdrjpYba-JOi",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-op-1-song-second-stage-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "So Far Away：レコチョク",
+            "url": "https://recochoku.jp/album/A1044108545",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-op-1-song-second-stage-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "So Far Away：mora",
+            "url": "https://mora.jp/package/43000087/VVXX01893B00Z/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-op-1-song-second-stage-digital"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "So Far Away：Apple Music",
+            "url": "https://music.apple.com/jp/album/1844796127",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-op-1-song-third-stage-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "So Far Away：Spotify",
+            "url": "https://open.spotify.com/album/4KnqhfIkTlRZ33Nythk8so",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-op-1-song-third-stage-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "So Far Away：LINE MUSIC",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004ba5de4&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-op-1-song-third-stage-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "So Far Away：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_lOQ60qGGeYCkXvn0wQMZTB_1Ghb_e9KrI",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-op-1-song-third-stage-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "So Far Away：AWA",
+            "url": "https://s.awa.fm/album/43bd07d50f9fd77cd040",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-op-1-song-third-stage-digital"
+          },
+          {
+            "platform": "KKBOX",
+            "label": "So Far Away：KKBOX",
+            "url": "https://www.kkbox.com/jp/ja/album/KsgGzBJOdkIB8j_w_P",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-op-1-song-third-stage-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "So Far Away：レコチョク",
+            "url": "https://recochoku.jp/album/A1044333619",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-op-1-song-third-stage-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "So Far Away：mora",
+            "url": "https://mora.jp/package/43000087/VVXX01907B00Z/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-op-1-song-third-stage-digital"
+          }
+        ]
       },
       {
         "type": "ED",
@@ -35336,12 +41393,108 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "zh-Hant",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://takui.com/pages/provided_songs/",
+            "label": "逐曲創作／演唱名單",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://sugarbeansjp.wixsite.com/sugarbeans/works",
+            "label": "逐曲創作／演唱名單",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.live/music/discography/",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.live/news/?id=68989",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.live/music/artist.html",
+            "label": "官方：角色歌唱者對應，與CV分工不同",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.live/music/discography/single01.html",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.live/music/discography/single02.html",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.lnk.to/SFA_FandS_digi",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.live/movie/",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.lnk.to/FRIENDS-SMILE",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.lnk.to/FRIENDS-SMILE_SECONDSTAGE",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.lnk.to/FRIENDS-SMILE_THIRDSTAGE",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
           }
         ],
         "credits": [
           {
             "name": "SI-VIS",
             "role": "vocals"
+          },
+          {
+            "name": "中島卓偉",
+            "role": "lyrics"
+          },
+          {
+            "name": "中島卓偉",
+            "role": "composition"
+          },
+          {
+            "name": "sugarbeans",
+            "role": "arrangement"
           }
         ],
         "evidence": [
@@ -35369,9 +41522,1181 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "si-vis-the-sound-of-heroes-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://takui.com/pages/provided_songs/"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://takui.com/pages/provided_songs/"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://sugarbeansjp.wixsite.com/sugarbeans/works"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-ed-1-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-ed-1-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://si-vis.lnk.to/FRIENDS-SMILE"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=68989"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-ed-1-song-second-stage"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=68989",
+              "https://si-vis.live/music/artist.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-ed-1-song-second-stage"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/single02.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-ed-1-song-third-stage"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/single02.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-ed-1-song-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/single01.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sivis-so-far-away-friends-smile-limited"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/single02.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sivis-so-far-away-friends-smile-regular"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SFA_FandS_digi"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sivis-so-far-away-friends-smile-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/single02.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://si-vis.lnk.to/SFA_FandS_digi"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=68989"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-ed-1-song-second-stage-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=68989"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://si-vis.lnk.to/FRIENDS-SMILE_SECONDSTAGE"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-ed-1-song-third-stage-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://si-vis.lnk.to/FRIENDS-SMILE_THIRDSTAGE"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/movie/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=DwN9TQt3zvY"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SFA_FandS_digi"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1858525181"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SFA_FandS_digi"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/052I7BU1Qt2vuDLtaV9Yb1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SFA_FandS_digi"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004dccc0a&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SFA_FandS_digi"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_lpiw5_wDsafDBA2yI6s8-S76MDK0uGYoI"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SFA_FandS_digi"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/950b718a912ae9540379"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SFA_FandS_digi"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.kkbox.com/jp/ja/album/4ktofRcHF4KmUtnk5D"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SFA_FandS_digi"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A2005931473"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/SFA_FandS_digi"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000087/VVCL02836B00Z/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/FRIENDS-SMILE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1841858536"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/FRIENDS-SMILE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/3RBjgWZvTGyKzJcIGGXSPt"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/FRIENDS-SMILE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004b2b99b&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/FRIENDS-SMILE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_kFW2woxUwyuukrXDQ9lrHFS9HGv7ELUN0"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/FRIENDS-SMILE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/0d42ed976ea103691d13"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/FRIENDS-SMILE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.kkbox.com/jp/ja/album/DXU0W1IPYpMkg0_E_O"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/FRIENDS-SMILE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1044108566"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/FRIENDS-SMILE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000087/VVXX01894B00Z/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/FRIENDS-SMILE_SECONDSTAGE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1843342231"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/FRIENDS-SMILE_SECONDSTAGE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/7kRfc9hxp9K2yttOraFkf2"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/FRIENDS-SMILE_SECONDSTAGE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004b6fe1c&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/FRIENDS-SMILE_SECONDSTAGE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_nUeI-oE_vG-wqe7kaVAczmyBo0xnb2a14"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/FRIENDS-SMILE_SECONDSTAGE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/653db1a121d61c855f30"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/FRIENDS-SMILE_SECONDSTAGE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.kkbox.com/jp/ja/album/Gr4gTf0JSVBLZNJ83U"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/FRIENDS-SMILE_SECONDSTAGE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1044237212"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/FRIENDS-SMILE_SECONDSTAGE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000087/VVXX01895B00Z/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/FRIENDS-SMILE_THIRDSTAGE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1856548453"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/FRIENDS-SMILE_THIRDSTAGE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/5pygGhmkqr16e0MiVDF4t8"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/FRIENDS-SMILE_THIRDSTAGE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004d8e61c&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/FRIENDS-SMILE_THIRDSTAGE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_mmbTvONrfqQfGmENOmBwGFd8MATl_Y--g"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/FRIENDS-SMILE_THIRDSTAGE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/3ab30189af90d1262085"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/FRIENDS-SMILE_THIRDSTAGE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.kkbox.com/jp/ja/album/PaRCoJOBDe7LWlSY2k"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/FRIENDS-SMILE_THIRDSTAGE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A2005916233"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/FRIENDS-SMILE_THIRDSTAGE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000087/VVXX01939B00Z/"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-ed-1-song-third-stage-digital"
           }
         ],
-        "usageLabel": "第1クール ED"
+        "usageLabel": "第1クール ED",
+        "releaseDate": "2025-10-12",
+        "recordings": [
+          {
+            "id": "si-vis-the-sound-of-heroes-ed-1-song-original",
+            "title": "FRIENDS & SMILE",
+            "format": "unknown",
+            "kind": "vocal"
+          },
+          {
+            "id": "si-vis-the-sound-of-heroes-ed-1-song-second-stage",
+            "title": "FRIENDS & SMILE -SECOND STAGE-",
+            "format": "unknown",
+            "kind": "character",
+            "credits": [
+              {
+                "name": "セイレーン starring IZUMI",
+                "role": "vocals"
+              },
+              {
+                "name": "ソウジ starring 鮫々",
+                "role": "vocals"
+              },
+              {
+                "name": "μ starring 月乃",
+                "role": "vocals"
+              },
+              {
+                "name": "JUNE starring ふるーり",
+                "role": "vocals"
+              }
+            ]
+          },
+          {
+            "id": "si-vis-the-sound-of-heroes-ed-1-song-third-stage",
+            "title": "FRIENDS & SMILE -THIRD STAGE-",
+            "format": "unknown",
+            "kind": "character"
+          },
+          {
+            "id": "si-vis-the-sound-of-heroes-ed-1-song-instrumental",
+            "title": "FRIENDS & SMILE (Instrumental)",
+            "format": "unknown",
+            "kind": "instrumental"
+          }
+        ],
+        "releases": [
+          {
+            "id": "si-vis-the-sound-of-heroes-ed-1-song-digital",
+            "title": "FRIENDS & SMILE",
+            "type": "single",
+            "artistDisplayName": "SI-VIS",
+            "tracks": [
+              {
+                "title": "FRIENDS & SMILE"
+              }
+            ],
+            "date": {
+              "value": "2025-10-12",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          },
+          {
+            "id": "sivis-so-far-away-friends-smile-limited",
+            "title": "So Far Away / FRIENDS & SMILE",
+            "type": "single",
+            "artistDisplayName": "SI-VIS",
+            "tracks": [
+              {
+                "title": "FRIENDS & SMILE",
+                "position": 4,
+                "recordingId": "si-vis-the-sound-of-heroes-ed-1-song-original"
+              },
+              {
+                "title": "FRIENDS & SMILE -SECOND STAGE-",
+                "position": 5,
+                "recordingId": "si-vis-the-sound-of-heroes-ed-1-song-second-stage"
+              },
+              {
+                "title": "FRIENDS & SMILE -THIRD STAGE-",
+                "position": 6,
+                "recordingId": "si-vis-the-sound-of-heroes-ed-1-song-third-stage"
+              },
+              {
+                "title": "FRIENDS & SMILE (Instrumental)",
+                "position": 8,
+                "recordingId": "si-vis-the-sound-of-heroes-ed-1-song-instrumental"
+              }
+            ],
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "catalogNumber": "VVCL-2834",
+            "edition": "初回生産限定盤 CD＋Blu-ray"
+          },
+          {
+            "id": "sivis-so-far-away-friends-smile-regular",
+            "title": "So Far Away / FRIENDS & SMILE",
+            "type": "single",
+            "artistDisplayName": "SI-VIS",
+            "tracks": [
+              {
+                "title": "FRIENDS & SMILE",
+                "position": 4,
+                "recordingId": "si-vis-the-sound-of-heroes-ed-1-song-original"
+              },
+              {
+                "title": "FRIENDS & SMILE -SECOND STAGE-",
+                "position": 5,
+                "recordingId": "si-vis-the-sound-of-heroes-ed-1-song-second-stage"
+              },
+              {
+                "title": "FRIENDS & SMILE -THIRD STAGE-",
+                "position": 6,
+                "recordingId": "si-vis-the-sound-of-heroes-ed-1-song-third-stage"
+              },
+              {
+                "title": "FRIENDS & SMILE (Instrumental)",
+                "position": 8,
+                "recordingId": "si-vis-the-sound-of-heroes-ed-1-song-instrumental"
+              }
+            ],
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "catalogNumber": "VVCL-2836",
+            "edition": "通常盤 CD"
+          },
+          {
+            "id": "sivis-so-far-away-friends-smile-digital",
+            "title": "So Far Away / FRIENDS & SMILE",
+            "type": "single",
+            "artistDisplayName": "SI-VIS",
+            "tracks": [
+              {
+                "title": "FRIENDS & SMILE",
+                "position": 4
+              },
+              {
+                "title": "FRIENDS & SMILE -SECOND STAGE-",
+                "position": 5
+              },
+              {
+                "title": "FRIENDS & SMILE -THIRD STAGE-",
+                "position": 6
+              },
+              {
+                "title": "FRIENDS & SMILE (Instrumental)",
+                "position": 8
+              }
+            ],
+            "edition": "Digital Single"
+          },
+          {
+            "id": "si-vis-the-sound-of-heroes-ed-1-song-second-stage-digital",
+            "title": "FRIENDS & SMILE -SECOND STAGE-",
+            "type": "single",
+            "artistDisplayName": "SI-VIS",
+            "tracks": [
+              {
+                "title": "FRIENDS & SMILE -SECOND STAGE-",
+                "position": 1,
+                "recordingId": "si-vis-the-sound-of-heroes-ed-1-song-second-stage"
+              }
+            ],
+            "date": {
+              "value": "2025-10-19",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          },
+          {
+            "id": "si-vis-the-sound-of-heroes-ed-1-song-third-stage-digital",
+            "title": "FRIENDS & SMILE -THIRD STAGE-",
+            "type": "single",
+            "artistDisplayName": "SI-VIS",
+            "tracks": [
+              {
+                "title": "FRIENDS & SMILE -THIRD STAGE-",
+                "position": 1,
+                "recordingId": "si-vis-the-sound-of-heroes-ed-1-song-third-stage"
+              }
+            ],
+            "edition": "Digital Single",
+            "date": {
+              "value": "2025-12-22",
+              "precision": "day"
+            }
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方",
+            "label": "FRIENDS & SMILE：官方配信入口",
+            "url": "https://si-vis.lnk.to/FRIENDS-SMILE",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-ed-1-song-digital"
+          },
+          {
+            "platform": "官方",
+            "label": "FRIENDS & SMILE：官方配信入口",
+            "url": "https://si-vis.lnk.to/SFA_FandS_digi",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-so-far-away-friends-smile-digital"
+          },
+          {
+            "platform": "官方",
+            "label": "FRIENDS & SMILE：官方配信入口",
+            "url": "https://si-vis.lnk.to/FRIENDS-SMILE_SECONDSTAGE",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-ed-1-song-second-stage-digital"
+          },
+          {
+            "platform": "官方",
+            "label": "FRIENDS & SMILE：官方配信入口",
+            "url": "https://si-vis.lnk.to/FRIENDS-SMILE_THIRDSTAGE",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-ed-1-song-third-stage-digital"
+          },
+          {
+            "platform": "YouTube",
+            "label": "FRIENDS & SMILE：第1クール主題歌映像",
+            "url": "https://www.youtube.com/watch?v=DwN9TQt3zvY",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "FRIENDS & SMILE：Apple Music",
+            "url": "https://music.apple.com/jp/album/1858525181",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-so-far-away-friends-smile-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "FRIENDS & SMILE：Spotify",
+            "url": "https://open.spotify.com/album/052I7BU1Qt2vuDLtaV9Yb1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-so-far-away-friends-smile-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "FRIENDS & SMILE：LINE MUSIC",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004dccc0a&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-so-far-away-friends-smile-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "FRIENDS & SMILE：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_lpiw5_wDsafDBA2yI6s8-S76MDK0uGYoI",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-so-far-away-friends-smile-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "FRIENDS & SMILE：AWA",
+            "url": "https://s.awa.fm/album/950b718a912ae9540379",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-so-far-away-friends-smile-digital"
+          },
+          {
+            "platform": "KKBOX",
+            "label": "FRIENDS & SMILE：KKBOX",
+            "url": "https://www.kkbox.com/jp/ja/album/4ktofRcHF4KmUtnk5D",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-so-far-away-friends-smile-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "FRIENDS & SMILE：レコチョク",
+            "url": "https://recochoku.jp/album/A2005931473",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-so-far-away-friends-smile-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "FRIENDS & SMILE：mora",
+            "url": "https://mora.jp/package/43000087/VVCL02836B00Z/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-so-far-away-friends-smile-digital"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "FRIENDS & SMILE：Apple Music",
+            "url": "https://music.apple.com/jp/album/1841858536",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-ed-1-song-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "FRIENDS & SMILE：Spotify",
+            "url": "https://open.spotify.com/album/3RBjgWZvTGyKzJcIGGXSPt",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-ed-1-song-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "FRIENDS & SMILE：LINE MUSIC",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004b2b99b&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-ed-1-song-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "FRIENDS & SMILE：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_kFW2woxUwyuukrXDQ9lrHFS9HGv7ELUN0",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-ed-1-song-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "FRIENDS & SMILE：AWA",
+            "url": "https://s.awa.fm/album/0d42ed976ea103691d13",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-ed-1-song-digital"
+          },
+          {
+            "platform": "KKBOX",
+            "label": "FRIENDS & SMILE：KKBOX",
+            "url": "https://www.kkbox.com/jp/ja/album/DXU0W1IPYpMkg0_E_O",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-ed-1-song-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "FRIENDS & SMILE：レコチョク",
+            "url": "https://recochoku.jp/album/A1044108566",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-ed-1-song-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "FRIENDS & SMILE：mora",
+            "url": "https://mora.jp/package/43000087/VVXX01894B00Z/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-ed-1-song-digital"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "FRIENDS & SMILE：Apple Music",
+            "url": "https://music.apple.com/jp/album/1843342231",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-ed-1-song-second-stage-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "FRIENDS & SMILE：Spotify",
+            "url": "https://open.spotify.com/album/7kRfc9hxp9K2yttOraFkf2",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-ed-1-song-second-stage-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "FRIENDS & SMILE：LINE MUSIC",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004b6fe1c&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-ed-1-song-second-stage-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "FRIENDS & SMILE：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_nUeI-oE_vG-wqe7kaVAczmyBo0xnb2a14",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-ed-1-song-second-stage-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "FRIENDS & SMILE：AWA",
+            "url": "https://s.awa.fm/album/653db1a121d61c855f30",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-ed-1-song-second-stage-digital"
+          },
+          {
+            "platform": "KKBOX",
+            "label": "FRIENDS & SMILE：KKBOX",
+            "url": "https://www.kkbox.com/jp/ja/album/Gr4gTf0JSVBLZNJ83U",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-ed-1-song-second-stage-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "FRIENDS & SMILE：レコチョク",
+            "url": "https://recochoku.jp/album/A1044237212",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-ed-1-song-second-stage-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "FRIENDS & SMILE：mora",
+            "url": "https://mora.jp/package/43000087/VVXX01895B00Z/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-ed-1-song-second-stage-digital"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "FRIENDS & SMILE：Apple Music",
+            "url": "https://music.apple.com/jp/album/1856548453",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-ed-1-song-third-stage-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "FRIENDS & SMILE：Spotify",
+            "url": "https://open.spotify.com/album/5pygGhmkqr16e0MiVDF4t8",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-ed-1-song-third-stage-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "FRIENDS & SMILE：LINE MUSIC",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004d8e61c&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-ed-1-song-third-stage-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "FRIENDS & SMILE：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_mmbTvONrfqQfGmENOmBwGFd8MATl_Y--g",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-ed-1-song-third-stage-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "FRIENDS & SMILE：AWA",
+            "url": "https://s.awa.fm/album/3ab30189af90d1262085",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-ed-1-song-third-stage-digital"
+          },
+          {
+            "platform": "KKBOX",
+            "label": "FRIENDS & SMILE：KKBOX",
+            "url": "https://www.kkbox.com/jp/ja/album/PaRCoJOBDe7LWlSY2k",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-ed-1-song-third-stage-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "FRIENDS & SMILE：レコチョク",
+            "url": "https://recochoku.jp/album/A2005916233",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-ed-1-song-third-stage-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "FRIENDS & SMILE：mora",
+            "url": "https://mora.jp/package/43000087/VVXX01939B00Z/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-ed-1-song-third-stage-digital"
+          }
+        ]
       },
       {
         "type": "IN",
@@ -35420,6 +42745,41 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.live/music/discography/album01.html",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.lnk.to/PARA-BELLUM_EP",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.live/movie/",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.live/news/?id=68881",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.lnk.to/MELODEA",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
           }
         ],
         "evidence": [
@@ -35457,6 +42817,546 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "si-vis-the-sound-of-heroes-in-1"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=68880"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-in-1-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=68880"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-in-1-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=68880"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://si-vis.lnk.to/MELODEA"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album01.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sivis-para-bellum-vvcl2837"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sivis-para-bellum-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album01.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://si-vis.lnk.to/PARA-BELLUM_EP"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/movie/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=AVzRsFMaEm8"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=68881"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=QDfXDEJx6yQ"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/MELODEA"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1836470297"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/MELODEA"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/6Nqn0BynrW6YQQvB5iIcyB"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/MELODEA"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004a31c30&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/MELODEA"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_n_Z8TPoVSq94shH8sBH9Vj_VG6fVvXjPk"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/MELODEA"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/7d5aaf8a93135690c641"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/MELODEA"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.kkbox.com/jp/ja/album/WqxsTU9oG8C8kri6hS"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/MELODEA"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1043638356"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/MELODEA"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000087/VVXX01871B00Z/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1858525108"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/0XuSTeZUQ7P8qKnWQeGMum"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004dccc09&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_kr7IZq17NwncUDr3Gy3nnnl4ghjSvdWdw"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/462c63f9b9e14994a580"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.kkbox.com/jp/ja/album/OnbM2ODOrs6Sp_2FKU"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A2005931477"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000087/VVCL02837B00Z/"
+          }
+        ],
+        "releaseDate": "2025-09-13",
+        "recordings": [
+          {
+            "id": "si-vis-the-sound-of-heroes-in-1-song-original",
+            "title": "MELODEA",
+            "format": "unknown",
+            "kind": "vocal"
+          }
+        ],
+        "releases": [
+          {
+            "id": "si-vis-the-sound-of-heroes-in-1-song-digital",
+            "title": "MELODEA",
+            "type": "single",
+            "artistDisplayName": "SI-VIS",
+            "tracks": [
+              {
+                "title": "MELODEA"
+              }
+            ],
+            "date": {
+              "value": "2025-09-13",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          },
+          {
+            "id": "sivis-para-bellum-vvcl2837",
+            "title": "『SI-VIS: The Sound of Heroes』 1st Season Diegetic Songs ALBUM 「PARA-BELLUM」",
+            "type": "album",
+            "artistDisplayName": "SI-VIS",
+            "tracks": [
+              {
+                "title": "MELODEA",
+                "position": 1,
+                "recordingId": "si-vis-the-sound-of-heroes-in-1-song-original"
+              }
+            ],
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "catalogNumber": "VVCL-2837",
+            "edition": "通常盤 CD"
+          },
+          {
+            "id": "sivis-para-bellum-digital",
+            "title": "『SI-VIS: The Sound of Heroes』 1st Season Diegetic Songs ALBUM 「PARA-BELLUM」",
+            "type": "album",
+            "artistDisplayName": "SI-VIS",
+            "tracks": [
+              {
+                "title": "MELODEA",
+                "position": 1
+              }
+            ],
+            "edition": "Digital Album"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方",
+            "label": "MELODEA：官方配信入口",
+            "url": "https://si-vis.lnk.to/MELODEA",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-1-song-digital"
+          },
+          {
+            "platform": "官方",
+            "label": "MELODEA：官方配信入口",
+            "url": "https://si-vis.lnk.to/PARA-BELLUM_EP",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "YouTube",
+            "label": "MELODEA：Lyric Video",
+            "url": "https://www.youtube.com/watch?v=AVzRsFMaEm8",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "MELODEA：MUSIC VIDEO Anime ver.",
+            "url": "https://www.youtube.com/watch?v=QDfXDEJx6yQ",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "MELODEA：Apple Music",
+            "url": "https://music.apple.com/jp/album/1836470297",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-1-song-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "MELODEA：Spotify",
+            "url": "https://open.spotify.com/album/6Nqn0BynrW6YQQvB5iIcyB",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-1-song-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "MELODEA：LINE MUSIC",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004a31c30&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-1-song-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "MELODEA：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_n_Z8TPoVSq94shH8sBH9Vj_VG6fVvXjPk",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-1-song-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "MELODEA：AWA",
+            "url": "https://s.awa.fm/album/7d5aaf8a93135690c641",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-1-song-digital"
+          },
+          {
+            "platform": "KKBOX",
+            "label": "MELODEA：KKBOX",
+            "url": "https://www.kkbox.com/jp/ja/album/WqxsTU9oG8C8kri6hS",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-1-song-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "MELODEA：レコチョク",
+            "url": "https://recochoku.jp/album/A1043638356",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-1-song-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "MELODEA：mora",
+            "url": "https://mora.jp/package/43000087/VVXX01871B00Z/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-1-song-digital"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "MELODEA：Apple Music",
+            "url": "https://music.apple.com/jp/album/1858525108",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "MELODEA：Spotify",
+            "url": "https://open.spotify.com/album/0XuSTeZUQ7P8qKnWQeGMum",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "MELODEA：LINE MUSIC",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004dccc09&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "MELODEA：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_kr7IZq17NwncUDr3Gy3nnnl4ghjSvdWdw",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "MELODEA：AWA",
+            "url": "https://s.awa.fm/album/462c63f9b9e14994a580",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "KKBOX",
+            "label": "MELODEA：KKBOX",
+            "url": "https://www.kkbox.com/jp/ja/album/OnbM2ODOrs6Sp_2FKU",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "MELODEA：レコチョク",
+            "url": "https://recochoku.jp/album/A2005931477",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "MELODEA：mora",
+            "url": "https://mora.jp/package/43000087/VVCL02837B00Z/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
           }
         ]
       },
@@ -35503,6 +43403,34 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.live/music/discography/album01.html",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.lnk.to/PARA-BELLUM_EP",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.live/movie/",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.lnk.to/Arabesquewokimini",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
           }
         ],
         "evidence": [
@@ -35540,6 +43468,526 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "si-vis-the-sound-of-heroes-in-2"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=68990"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-in-2-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=68990"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-in-2-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=68990"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://si-vis.lnk.to/Arabesquewokimini"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album01.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sivis-para-bellum-vvcl2837"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sivis-para-bellum-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album01.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://si-vis.lnk.to/PARA-BELLUM_EP"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/movie/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=57Xb8F0yE5Q"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1858525108"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/0XuSTeZUQ7P8qKnWQeGMum"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004dccc09&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_kr7IZq17NwncUDr3Gy3nnnl4ghjSvdWdw"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/462c63f9b9e14994a580"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.kkbox.com/jp/ja/album/OnbM2ODOrs6Sp_2FKU"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A2005931477"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000087/VVCL02837B00Z/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/Arabesquewokimini"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1843342388"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/Arabesquewokimini"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/2EyahMSGRV3OQOubscEjeG"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/Arabesquewokimini"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004b6fe06&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/Arabesquewokimini"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_l9OTvwhBeJeBl8l_K-nPnITLFi2NDxA3Y"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/Arabesquewokimini"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/bd72ba648ba693823e31"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/Arabesquewokimini"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.kkbox.com/jp/ja/album/WtYkx1E_YOSQn2l_0W"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/Arabesquewokimini"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1044237040"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/Arabesquewokimini"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000087/VVXX01896B00Z/"
+          }
+        ],
+        "releaseDate": "2025-10-19",
+        "recordings": [
+          {
+            "id": "si-vis-the-sound-of-heroes-in-2-song-original",
+            "title": "幻想曲（アラベスク）を君に",
+            "format": "unknown",
+            "kind": "vocal"
+          }
+        ],
+        "releases": [
+          {
+            "id": "si-vis-the-sound-of-heroes-in-2-song-digital",
+            "title": "幻想曲（アラベスク）を君に",
+            "type": "single",
+            "artistDisplayName": "SI-VIS",
+            "tracks": [
+              {
+                "title": "幻想曲（アラベスク）を君に"
+              }
+            ],
+            "date": {
+              "value": "2025-10-19",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          },
+          {
+            "id": "sivis-para-bellum-vvcl2837",
+            "title": "『SI-VIS: The Sound of Heroes』 1st Season Diegetic Songs ALBUM 「PARA-BELLUM」",
+            "type": "album",
+            "artistDisplayName": "SI-VIS",
+            "tracks": [
+              {
+                "title": "幻想曲（アラベスク）を君に",
+                "position": 2,
+                "recordingId": "si-vis-the-sound-of-heroes-in-2-song-original"
+              }
+            ],
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "catalogNumber": "VVCL-2837",
+            "edition": "通常盤 CD"
+          },
+          {
+            "id": "sivis-para-bellum-digital",
+            "title": "『SI-VIS: The Sound of Heroes』 1st Season Diegetic Songs ALBUM 「PARA-BELLUM」",
+            "type": "album",
+            "artistDisplayName": "SI-VIS",
+            "tracks": [
+              {
+                "title": "幻想曲（アラベスク）を君に",
+                "position": 2
+              }
+            ],
+            "edition": "Digital Album"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方",
+            "label": "幻想曲（アラベスク）を君に：官方配信入口",
+            "url": "https://si-vis.lnk.to/Arabesquewokimini",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-2-song-digital"
+          },
+          {
+            "platform": "官方",
+            "label": "幻想曲（アラベスク）を君に：官方配信入口",
+            "url": "https://si-vis.lnk.to/PARA-BELLUM_EP",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "YouTube",
+            "label": "幻想曲（アラベスク）を君に：Lyric Video",
+            "url": "https://www.youtube.com/watch?v=57Xb8F0yE5Q",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "幻想曲（アラベスク）を君に：Apple Music",
+            "url": "https://music.apple.com/jp/album/1858525108",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "幻想曲（アラベスク）を君に：Spotify",
+            "url": "https://open.spotify.com/album/0XuSTeZUQ7P8qKnWQeGMum",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "幻想曲（アラベスク）を君に：LINE MUSIC",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004dccc09&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "幻想曲（アラベスク）を君に：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_kr7IZq17NwncUDr3Gy3nnnl4ghjSvdWdw",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "幻想曲（アラベスク）を君に：AWA",
+            "url": "https://s.awa.fm/album/462c63f9b9e14994a580",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "KKBOX",
+            "label": "幻想曲（アラベスク）を君に：KKBOX",
+            "url": "https://www.kkbox.com/jp/ja/album/OnbM2ODOrs6Sp_2FKU",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "幻想曲（アラベスク）を君に：レコチョク",
+            "url": "https://recochoku.jp/album/A2005931477",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "幻想曲（アラベスク）を君に：mora",
+            "url": "https://mora.jp/package/43000087/VVCL02837B00Z/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "幻想曲（アラベスク）を君に：Apple Music",
+            "url": "https://music.apple.com/jp/album/1843342388",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-2-song-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "幻想曲（アラベスク）を君に：Spotify",
+            "url": "https://open.spotify.com/album/2EyahMSGRV3OQOubscEjeG",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-2-song-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "幻想曲（アラベスク）を君に：LINE MUSIC",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004b6fe06&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-2-song-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "幻想曲（アラベスク）を君に：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_l9OTvwhBeJeBl8l_K-nPnITLFi2NDxA3Y",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-2-song-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "幻想曲（アラベスク）を君に：AWA",
+            "url": "https://s.awa.fm/album/bd72ba648ba693823e31",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-2-song-digital"
+          },
+          {
+            "platform": "KKBOX",
+            "label": "幻想曲（アラベスク）を君に：KKBOX",
+            "url": "https://www.kkbox.com/jp/ja/album/WtYkx1E_YOSQn2l_0W",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-2-song-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "幻想曲（アラベスク）を君に：レコチョク",
+            "url": "https://recochoku.jp/album/A1044237040",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-2-song-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "幻想曲（アラベスク）を君に：mora",
+            "url": "https://mora.jp/package/43000087/VVXX01896B00Z/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-2-song-digital"
           }
         ]
       },
@@ -35586,6 +44034,48 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.live/music/discography/",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.live/music/discography/album01.html",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.lnk.to/PARA-BELLUM_EP",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.live/movie/",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.lnk.to/BraverDreamer",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.lnk.to/BraverDreamer_YOSUKE",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
           }
         ],
         "evidence": [
@@ -35623,6 +44113,777 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "si-vis-the-sound-of-heroes-in-3"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=69100"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-in-3-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=69100"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-in-3-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=69100"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://si-vis.lnk.to/BraverDreamer"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album01.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-in-3-song-yosuke-main-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-in-3-song-yosuke-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://si-vis.lnk.to/BraverDreamer_YOSUKE"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album01.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sivis-para-bellum-vvcl2837"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sivis-para-bellum-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album01.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://si-vis.lnk.to/PARA-BELLUM_EP"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/movie/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=-Q0l050vI3M"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1858525108"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/0XuSTeZUQ7P8qKnWQeGMum"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004dccc09&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_kr7IZq17NwncUDr3Gy3nnnl4ghjSvdWdw"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/462c63f9b9e14994a580"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.kkbox.com/jp/ja/album/OnbM2ODOrs6Sp_2FKU"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A2005931477"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000087/VVCL02837B00Z/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/BraverDreamer"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1847642880"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/BraverDreamer"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/2LgmjxQ78EN5n8GtyuuS5m"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/BraverDreamer"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004c1a477&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/BraverDreamer"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_nxF5bQjaliQdmmi2ShUo_j2JILK0XjZdA"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/BraverDreamer"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/db84707a5405e49a0937"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/BraverDreamer"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.kkbox.com/jp/ja/album/OtFa6ccREqbM-ujoTb"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/BraverDreamer"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1044512881"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/BraverDreamer"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000087/VVXX01920B00Z/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/BraverDreamer_YOSUKE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1837115413"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/BraverDreamer_YOSUKE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/5HaFgdwN0SbYt7NVF4Shxh"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/BraverDreamer_YOSUKE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004a64786&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/BraverDreamer_YOSUKE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_lz65kBVFdPFRqjKzzM3fgVrr35qEPdDk8"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/BraverDreamer_YOSUKE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/b3f2f9a0e53523099498"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/BraverDreamer_YOSUKE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.kkbox.com/jp/ja/album/DZmvjfs_1aDjHS5ZlB"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/BraverDreamer_YOSUKE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1043686975"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/BraverDreamer_YOSUKE"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000087/VVXX01875B00Z/"
+          }
+        ],
+        "releaseDate": "2025-11-09",
+        "recordings": [
+          {
+            "id": "si-vis-the-sound-of-heroes-in-3-song-original",
+            "title": "Braver Dreamer",
+            "format": "unknown",
+            "kind": "vocal"
+          },
+          {
+            "id": "si-vis-the-sound-of-heroes-in-3-song-yosuke-main-vocal",
+            "title": "Braver Dreamer (YOSUKE MAIN VOCAL ver.)",
+            "format": "unknown",
+            "kind": "character"
+          }
+        ],
+        "releases": [
+          {
+            "id": "si-vis-the-sound-of-heroes-in-3-song-digital",
+            "title": "Braver Dreamer",
+            "type": "single",
+            "artistDisplayName": "SI-VIS",
+            "tracks": [
+              {
+                "title": "Braver Dreamer"
+              }
+            ],
+            "date": {
+              "value": "2025-11-09",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          },
+          {
+            "id": "si-vis-the-sound-of-heroes-in-3-song-yosuke-digital",
+            "title": "Braver Dreamer (YOSUKE MAIN VOCAL ver.)",
+            "type": "single",
+            "artistDisplayName": "SI-VIS",
+            "tracks": [
+              {
+                "title": "Braver Dreamer (YOSUKE MAIN VOCAL ver.)",
+                "position": 1,
+                "recordingId": "si-vis-the-sound-of-heroes-in-3-song-yosuke-main-vocal"
+              }
+            ],
+            "date": {
+              "value": "2025-09-23",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          },
+          {
+            "id": "sivis-para-bellum-vvcl2837",
+            "title": "『SI-VIS: The Sound of Heroes』 1st Season Diegetic Songs ALBUM 「PARA-BELLUM」",
+            "type": "album",
+            "artistDisplayName": "SI-VIS",
+            "tracks": [
+              {
+                "title": "Braver Dreamer",
+                "position": 3,
+                "recordingId": "si-vis-the-sound-of-heroes-in-3-song-original"
+              },
+              {
+                "title": "Braver Dreamer (YOSUKE MAIN VOCAL ver.)",
+                "position": 7,
+                "recordingId": "si-vis-the-sound-of-heroes-in-3-song-yosuke-main-vocal"
+              }
+            ],
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "catalogNumber": "VVCL-2837",
+            "edition": "通常盤 CD"
+          },
+          {
+            "id": "sivis-para-bellum-digital",
+            "title": "『SI-VIS: The Sound of Heroes』 1st Season Diegetic Songs ALBUM 「PARA-BELLUM」",
+            "type": "album",
+            "artistDisplayName": "SI-VIS",
+            "tracks": [
+              {
+                "title": "Braver Dreamer",
+                "position": 3
+              },
+              {
+                "title": "Braver Dreamer (YOSUKE MAIN VOCAL ver.)",
+                "position": 7
+              }
+            ],
+            "edition": "Digital Album"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方",
+            "label": "Braver Dreamer：官方配信入口",
+            "url": "https://si-vis.lnk.to/BraverDreamer",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-3-song-digital"
+          },
+          {
+            "platform": "官方",
+            "label": "Braver Dreamer：官方配信入口",
+            "url": "https://si-vis.lnk.to/BraverDreamer_YOSUKE",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-3-song-yosuke-digital"
+          },
+          {
+            "platform": "官方",
+            "label": "Braver Dreamer：官方配信入口",
+            "url": "https://si-vis.lnk.to/PARA-BELLUM_EP",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "YouTube",
+            "label": "Braver Dreamer：Lyric Video",
+            "url": "https://www.youtube.com/watch?v=-Q0l050vI3M",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Braver Dreamer：Apple Music",
+            "url": "https://music.apple.com/jp/album/1858525108",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "Braver Dreamer：Spotify",
+            "url": "https://open.spotify.com/album/0XuSTeZUQ7P8qKnWQeGMum",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "Braver Dreamer：LINE MUSIC",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004dccc09&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "Braver Dreamer：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_kr7IZq17NwncUDr3Gy3nnnl4ghjSvdWdw",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "Braver Dreamer：AWA",
+            "url": "https://s.awa.fm/album/462c63f9b9e14994a580",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "KKBOX",
+            "label": "Braver Dreamer：KKBOX",
+            "url": "https://www.kkbox.com/jp/ja/album/OnbM2ODOrs6Sp_2FKU",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "Braver Dreamer：レコチョク",
+            "url": "https://recochoku.jp/album/A2005931477",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "Braver Dreamer：mora",
+            "url": "https://mora.jp/package/43000087/VVCL02837B00Z/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Braver Dreamer：Apple Music",
+            "url": "https://music.apple.com/jp/album/1847642880",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-3-song-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "Braver Dreamer：Spotify",
+            "url": "https://open.spotify.com/album/2LgmjxQ78EN5n8GtyuuS5m",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-3-song-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "Braver Dreamer：LINE MUSIC",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004c1a477&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-3-song-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "Braver Dreamer：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_nxF5bQjaliQdmmi2ShUo_j2JILK0XjZdA",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-3-song-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "Braver Dreamer：AWA",
+            "url": "https://s.awa.fm/album/db84707a5405e49a0937",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-3-song-digital"
+          },
+          {
+            "platform": "KKBOX",
+            "label": "Braver Dreamer：KKBOX",
+            "url": "https://www.kkbox.com/jp/ja/album/OtFa6ccREqbM-ujoTb",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-3-song-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "Braver Dreamer：レコチョク",
+            "url": "https://recochoku.jp/album/A1044512881",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-3-song-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "Braver Dreamer：mora",
+            "url": "https://mora.jp/package/43000087/VVXX01920B00Z/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-3-song-digital"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Braver Dreamer：Apple Music",
+            "url": "https://music.apple.com/jp/album/1837115413",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-3-song-yosuke-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "Braver Dreamer：Spotify",
+            "url": "https://open.spotify.com/album/5HaFgdwN0SbYt7NVF4Shxh",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-3-song-yosuke-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "Braver Dreamer：LINE MUSIC",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004a64786&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-3-song-yosuke-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "Braver Dreamer：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_lz65kBVFdPFRqjKzzM3fgVrr35qEPdDk8",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-3-song-yosuke-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "Braver Dreamer：AWA",
+            "url": "https://s.awa.fm/album/b3f2f9a0e53523099498",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-3-song-yosuke-digital"
+          },
+          {
+            "platform": "KKBOX",
+            "label": "Braver Dreamer：KKBOX",
+            "url": "https://www.kkbox.com/jp/ja/album/DZmvjfs_1aDjHS5ZlB",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-3-song-yosuke-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "Braver Dreamer：レコチョク",
+            "url": "https://recochoku.jp/album/A1043686975",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-3-song-yosuke-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "Braver Dreamer：mora",
+            "url": "https://mora.jp/package/43000087/VVXX01875B00Z/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-3-song-yosuke-digital"
           }
         ]
       },
@@ -35669,6 +44930,55 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.live/music/discography/album01.html",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.lnk.to/PARA-BELLUM_EP",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.live/movie/",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.live/music/artist.html",
+            "label": "官方：個別歌唱者與角色對應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://joshinweb.jp/dp/4547366785685.html",
+            "label": "逐曲歌唱名義交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.lnk.to/Elegy",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=WH6J8am2en8",
+            "label": "官方影片公開索引：渠道與形式",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
           }
         ],
         "evidence": [
@@ -35706,6 +45016,557 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "si-vis-the-sound-of-heroes-in-4"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=69221"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-in-4-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=69221"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-in-4-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=69221"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://si-vis.lnk.to/Elegy"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album01.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sivis-para-bellum-vvcl2837"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sivis-para-bellum-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album01.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://si-vis.lnk.to/PARA-BELLUM_EP"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/movie/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=WH6J8am2en8"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/artist.html",
+              "https://joshinweb.jp/dp/4547366785685.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-in-4-song-original"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1858525108"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/0XuSTeZUQ7P8qKnWQeGMum"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004dccc09&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_kr7IZq17NwncUDr3Gy3nnnl4ghjSvdWdw"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/462c63f9b9e14994a580"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.kkbox.com/jp/ja/album/OnbM2ODOrs6Sp_2FKU"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A2005931477"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000087/VVCL02837B00Z/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/Elegy"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1851166085"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/Elegy"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/7CuCgLZZF3FlMkoefhxwIG"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/Elegy"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004c9c1e5&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/Elegy"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_nGLzXPfms0tZgQ1BXHhTUbA7frWUFlfuE"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/Elegy"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/31adcb29ce296d8caa11"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/Elegy"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.kkbox.com/jp/ja/album/GqI1UDvQKRoy9KFFBX"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/Elegy"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1044757709"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/Elegy"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000087/VVXX01929B00Z/"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=WH6J8am2en8"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "WH6J8am2en8"
+          }
+        ],
+        "releaseDate": "2025-11-23",
+        "recordings": [
+          {
+            "id": "si-vis-the-sound-of-heroes-in-4-song-original",
+            "title": "エレジー",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "name": "JUNE starring ふるーり",
+                "role": "vocals"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "si-vis-the-sound-of-heroes-in-4-song-digital",
+            "title": "エレジー",
+            "type": "single",
+            "artistDisplayName": "SI-VIS",
+            "tracks": [
+              {
+                "title": "エレジー"
+              }
+            ],
+            "date": {
+              "value": "2025-11-23",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          },
+          {
+            "id": "sivis-para-bellum-vvcl2837",
+            "title": "『SI-VIS: The Sound of Heroes』 1st Season Diegetic Songs ALBUM 「PARA-BELLUM」",
+            "type": "album",
+            "artistDisplayName": "SI-VIS",
+            "tracks": [
+              {
+                "title": "エレジー",
+                "position": 4,
+                "recordingId": "si-vis-the-sound-of-heroes-in-4-song-original"
+              }
+            ],
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "catalogNumber": "VVCL-2837",
+            "edition": "通常盤 CD"
+          },
+          {
+            "id": "sivis-para-bellum-digital",
+            "title": "『SI-VIS: The Sound of Heroes』 1st Season Diegetic Songs ALBUM 「PARA-BELLUM」",
+            "type": "album",
+            "artistDisplayName": "SI-VIS",
+            "tracks": [
+              {
+                "title": "エレジー",
+                "position": 4
+              }
+            ],
+            "edition": "Digital Album"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方",
+            "label": "エレジー：官方配信入口",
+            "url": "https://si-vis.lnk.to/Elegy",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-4-song-digital"
+          },
+          {
+            "platform": "官方",
+            "label": "エレジー：官方配信入口",
+            "url": "https://si-vis.lnk.to/PARA-BELLUM_EP",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "YouTube",
+            "label": "エレジー：Lyric Video",
+            "url": "https://www.youtube.com/watch?v=WH6J8am2en8",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "エレジー：Apple Music",
+            "url": "https://music.apple.com/jp/album/1858525108",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "エレジー：Spotify",
+            "url": "https://open.spotify.com/album/0XuSTeZUQ7P8qKnWQeGMum",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "エレジー：LINE MUSIC",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004dccc09&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "エレジー：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_kr7IZq17NwncUDr3Gy3nnnl4ghjSvdWdw",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "エレジー：AWA",
+            "url": "https://s.awa.fm/album/462c63f9b9e14994a580",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "KKBOX",
+            "label": "エレジー：KKBOX",
+            "url": "https://www.kkbox.com/jp/ja/album/OnbM2ODOrs6Sp_2FKU",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "エレジー：レコチョク",
+            "url": "https://recochoku.jp/album/A2005931477",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "エレジー：mora",
+            "url": "https://mora.jp/package/43000087/VVCL02837B00Z/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "エレジー：Apple Music",
+            "url": "https://music.apple.com/jp/album/1851166085",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-4-song-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "エレジー：Spotify",
+            "url": "https://open.spotify.com/album/7CuCgLZZF3FlMkoefhxwIG",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-4-song-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "エレジー：LINE MUSIC",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004c9c1e5&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-4-song-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "エレジー：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_nGLzXPfms0tZgQ1BXHhTUbA7frWUFlfuE",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-4-song-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "エレジー：AWA",
+            "url": "https://s.awa.fm/album/31adcb29ce296d8caa11",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-4-song-digital"
+          },
+          {
+            "platform": "KKBOX",
+            "label": "エレジー：KKBOX",
+            "url": "https://www.kkbox.com/jp/ja/album/GqI1UDvQKRoy9KFFBX",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-4-song-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "エレジー：レコチョク",
+            "url": "https://recochoku.jp/album/A1044757709",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-4-song-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "エレジー：mora",
+            "url": "https://mora.jp/package/43000087/VVXX01929B00Z/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-4-song-digital"
           }
         ]
       },
@@ -35752,6 +45613,34 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.live/music/discography/album01.html",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.lnk.to/PARA-BELLUM_EP",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.live/movie/",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.lnk.to/RomanticistKiller",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
           }
         ],
         "evidence": [
@@ -35789,6 +45678,526 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "si-vis-the-sound-of-heroes-in-5"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=69217"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-in-5-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=69217"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-in-5-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=69217"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://si-vis.lnk.to/RomanticistKiller"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album01.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sivis-para-bellum-vvcl2837"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sivis-para-bellum-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album01.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://si-vis.lnk.to/PARA-BELLUM_EP"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/movie/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=R5zYIoTgpxM"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1858525108"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/0XuSTeZUQ7P8qKnWQeGMum"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004dccc09&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_kr7IZq17NwncUDr3Gy3nnnl4ghjSvdWdw"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/462c63f9b9e14994a580"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.kkbox.com/jp/ja/album/OnbM2ODOrs6Sp_2FKU"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A2005931477"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000087/VVCL02837B00Z/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/RomanticistKiller"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1852235264"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/RomanticistKiller"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/0OC7fiJRweohaUk4XfzhBj"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/RomanticistKiller"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004ce8f99&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/RomanticistKiller"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_mRc-bBg0gPKat0sXUqDt6VtsoMydf7QNk"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/RomanticistKiller"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/950b708f932de4540379"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/RomanticistKiller"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.kkbox.com/jp/ja/album/KnUm_KxJbvUVLQOgO0"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/RomanticistKiller"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1044819851"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/RomanticistKiller"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000087/VVXX01936B00Z/"
+          }
+        ],
+        "releaseDate": "2025-11-30",
+        "recordings": [
+          {
+            "id": "si-vis-the-sound-of-heroes-in-5-song-original",
+            "title": "ロマンティスト・キラー",
+            "format": "unknown",
+            "kind": "vocal"
+          }
+        ],
+        "releases": [
+          {
+            "id": "si-vis-the-sound-of-heroes-in-5-song-digital",
+            "title": "ロマンティスト・キラー",
+            "type": "single",
+            "artistDisplayName": "SI-VIS",
+            "tracks": [
+              {
+                "title": "ロマンティスト・キラー"
+              }
+            ],
+            "date": {
+              "value": "2025-11-30",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          },
+          {
+            "id": "sivis-para-bellum-vvcl2837",
+            "title": "『SI-VIS: The Sound of Heroes』 1st Season Diegetic Songs ALBUM 「PARA-BELLUM」",
+            "type": "album",
+            "artistDisplayName": "SI-VIS",
+            "tracks": [
+              {
+                "title": "ロマンティスト・キラー",
+                "position": 5,
+                "recordingId": "si-vis-the-sound-of-heroes-in-5-song-original"
+              }
+            ],
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "catalogNumber": "VVCL-2837",
+            "edition": "通常盤 CD"
+          },
+          {
+            "id": "sivis-para-bellum-digital",
+            "title": "『SI-VIS: The Sound of Heroes』 1st Season Diegetic Songs ALBUM 「PARA-BELLUM」",
+            "type": "album",
+            "artistDisplayName": "SI-VIS",
+            "tracks": [
+              {
+                "title": "ロマンティスト・キラー",
+                "position": 5
+              }
+            ],
+            "edition": "Digital Album"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方",
+            "label": "ロマンティスト・キラー：官方配信入口",
+            "url": "https://si-vis.lnk.to/RomanticistKiller",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-5-song-digital"
+          },
+          {
+            "platform": "官方",
+            "label": "ロマンティスト・キラー：官方配信入口",
+            "url": "https://si-vis.lnk.to/PARA-BELLUM_EP",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "YouTube",
+            "label": "ロマンティスト・キラー：Lyric Video",
+            "url": "https://www.youtube.com/watch?v=R5zYIoTgpxM",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "ロマンティスト・キラー：Apple Music",
+            "url": "https://music.apple.com/jp/album/1858525108",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "ロマンティスト・キラー：Spotify",
+            "url": "https://open.spotify.com/album/0XuSTeZUQ7P8qKnWQeGMum",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "ロマンティスト・キラー：LINE MUSIC",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004dccc09&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "ロマンティスト・キラー：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_kr7IZq17NwncUDr3Gy3nnnl4ghjSvdWdw",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "ロマンティスト・キラー：AWA",
+            "url": "https://s.awa.fm/album/462c63f9b9e14994a580",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "KKBOX",
+            "label": "ロマンティスト・キラー：KKBOX",
+            "url": "https://www.kkbox.com/jp/ja/album/OnbM2ODOrs6Sp_2FKU",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "ロマンティスト・キラー：レコチョク",
+            "url": "https://recochoku.jp/album/A2005931477",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "ロマンティスト・キラー：mora",
+            "url": "https://mora.jp/package/43000087/VVCL02837B00Z/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "ロマンティスト・キラー：Apple Music",
+            "url": "https://music.apple.com/jp/album/1852235264",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-5-song-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "ロマンティスト・キラー：Spotify",
+            "url": "https://open.spotify.com/album/0OC7fiJRweohaUk4XfzhBj",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-5-song-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "ロマンティスト・キラー：LINE MUSIC",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004ce8f99&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-5-song-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "ロマンティスト・キラー：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_mRc-bBg0gPKat0sXUqDt6VtsoMydf7QNk",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-5-song-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "ロマンティスト・キラー：AWA",
+            "url": "https://s.awa.fm/album/950b708f932de4540379",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-5-song-digital"
+          },
+          {
+            "platform": "KKBOX",
+            "label": "ロマンティスト・キラー：KKBOX",
+            "url": "https://www.kkbox.com/jp/ja/album/KnUm_KxJbvUVLQOgO0",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-5-song-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "ロマンティスト・キラー：レコチョク",
+            "url": "https://recochoku.jp/album/A1044819851",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-5-song-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "ロマンティスト・キラー：mora",
+            "url": "https://mora.jp/package/43000087/VVXX01936B00Z/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-5-song-digital"
           }
         ]
       },
@@ -35835,6 +46244,55 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.live/music/discography/album01.html",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.lnk.to/PARA-BELLUM_EP",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.live/movie/",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.live/music/artist.html",
+            "label": "官方：個別歌唱者與角色對應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://joshinweb.jp/dp/4547366785685.html",
+            "label": "逐曲歌唱名義交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://si-vis.lnk.to/Protostar",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=V-LEyJYK_wA",
+            "label": "官方影片公開索引：渠道與形式",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
           }
         ],
         "evidence": [
@@ -35872,6 +46330,561 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "si-vis-the-sound-of-heroes-in-6"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=69389"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-in-6-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=69389"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-in-6-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=69389"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://si-vis.lnk.to/Protostar"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album01.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sivis-para-bellum-vvcl2837"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sivis-para-bellum-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album01.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://si-vis.lnk.to/PARA-BELLUM_EP"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/movie/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=V-LEyJYK_wA"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/artist.html",
+              "https://joshinweb.jp/dp/4547366785685.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-in-6-song-original"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1858525108"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/0XuSTeZUQ7P8qKnWQeGMum"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004dccc09&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_kr7IZq17NwncUDr3Gy3nnnl4ghjSvdWdw"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/462c63f9b9e14994a580"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.kkbox.com/jp/ja/album/OnbM2ODOrs6Sp_2FKU"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A2005931477"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/PARA-BELLUM_EP"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000087/VVCL02837B00Z/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/Protostar"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1856548616"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/Protostar"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/2CmdvzGeQfiHrdBF3AHcau"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/Protostar"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004d8e622&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/Protostar"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_mmo3UC4kZiDJbgyQsIg6G096liDUFs1CE"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/Protostar"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/bc17977a1df5494ce886"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/Protostar"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.kkbox.com/jp/ja/album/1_RDC5T9t3XPUnjAm4"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/Protostar"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A2005916226"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://si-vis.lnk.to/Protostar"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000087/VVXX01940B00Z/"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=V-LEyJYK_wA"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "V-LEyJYK_wA"
+          }
+        ],
+        "releaseDate": "2025-12-22",
+        "recordings": [
+          {
+            "id": "si-vis-the-sound-of-heroes-in-6-song-original",
+            "title": "プロトスター",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "name": "セイレーン starring IZUMI",
+                "role": "vocals"
+              },
+              {
+                "name": "凪 starring 成田あより",
+                "role": "vocals"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "si-vis-the-sound-of-heroes-in-6-song-digital",
+            "title": "プロトスター",
+            "type": "single",
+            "artistDisplayName": "SI-VIS",
+            "tracks": [
+              {
+                "title": "プロトスター"
+              }
+            ],
+            "date": {
+              "value": "2025-12-22",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          },
+          {
+            "id": "sivis-para-bellum-vvcl2837",
+            "title": "『SI-VIS: The Sound of Heroes』 1st Season Diegetic Songs ALBUM 「PARA-BELLUM」",
+            "type": "album",
+            "artistDisplayName": "SI-VIS",
+            "tracks": [
+              {
+                "title": "プロトスター",
+                "position": 6,
+                "recordingId": "si-vis-the-sound-of-heroes-in-6-song-original"
+              }
+            ],
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "catalogNumber": "VVCL-2837",
+            "edition": "通常盤 CD"
+          },
+          {
+            "id": "sivis-para-bellum-digital",
+            "title": "『SI-VIS: The Sound of Heroes』 1st Season Diegetic Songs ALBUM 「PARA-BELLUM」",
+            "type": "album",
+            "artistDisplayName": "SI-VIS",
+            "tracks": [
+              {
+                "title": "プロトスター",
+                "position": 6
+              }
+            ],
+            "edition": "Digital Album"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方",
+            "label": "プロトスター：官方配信入口",
+            "url": "https://si-vis.lnk.to/Protostar",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-6-song-digital"
+          },
+          {
+            "platform": "官方",
+            "label": "プロトスター：官方配信入口",
+            "url": "https://si-vis.lnk.to/PARA-BELLUM_EP",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "YouTube",
+            "label": "プロトスター：Lyric Video",
+            "url": "https://www.youtube.com/watch?v=V-LEyJYK_wA",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "プロトスター：Apple Music",
+            "url": "https://music.apple.com/jp/album/1858525108",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "プロトスター：Spotify",
+            "url": "https://open.spotify.com/album/0XuSTeZUQ7P8qKnWQeGMum",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "プロトスター：LINE MUSIC",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004dccc09&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "プロトスター：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_kr7IZq17NwncUDr3Gy3nnnl4ghjSvdWdw",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "プロトスター：AWA",
+            "url": "https://s.awa.fm/album/462c63f9b9e14994a580",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "KKBOX",
+            "label": "プロトスター：KKBOX",
+            "url": "https://www.kkbox.com/jp/ja/album/OnbM2ODOrs6Sp_2FKU",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "プロトスター：レコチョク",
+            "url": "https://recochoku.jp/album/A2005931477",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "プロトスター：mora",
+            "url": "https://mora.jp/package/43000087/VVCL02837B00Z/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sivis-para-bellum-digital"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "プロトスター：Apple Music",
+            "url": "https://music.apple.com/jp/album/1856548616",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-6-song-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "プロトスター：Spotify",
+            "url": "https://open.spotify.com/album/2CmdvzGeQfiHrdBF3AHcau",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-6-song-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "プロトスター：LINE MUSIC",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004d8e622&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-6-song-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "プロトスター：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_mmo3UC4kZiDJbgyQsIg6G096liDUFs1CE",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-6-song-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "プロトスター：AWA",
+            "url": "https://s.awa.fm/album/bc17977a1df5494ce886",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-6-song-digital"
+          },
+          {
+            "platform": "KKBOX",
+            "label": "プロトスター：KKBOX",
+            "url": "https://www.kkbox.com/jp/ja/album/1_RDC5T9t3XPUnjAm4",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-6-song-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "プロトスター：レコチョク",
+            "url": "https://recochoku.jp/album/A2005916226",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-6-song-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "プロトスター：mora",
+            "url": "https://mora.jp/package/43000087/VVXX01940B00Z/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "si-vis-the-sound-of-heroes-in-6-song-digital"
           }
         ]
       }
@@ -35928,6 +46941,20 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "label": "歌曲與動畫用途交叉核對",
             "role": "cross_check",
             "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://anime.monster-strike.com/deadverse-reloaded/movie/",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://da-ice.lnk.to/Monster",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
             "verifiedAt": "2026-10-16"
           }
         ],
@@ -36001,6 +47028,273 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "monster-strike-deadverse-reloaded-op-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://anime.monster-strike.com/deadverse-reloaded/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "monster-strike-deadverse-reloaded-op-1-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://anime.monster-strike.com/deadverse-reloaded/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "monster-strike-deadverse-reloaded-op-1-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://anime.monster-strike.com/deadverse-reloaded/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://da-ice.lnk.to/Monster"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://anime.monster-strike.com/deadverse-reloaded/movie/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=BGSHV0HZxoo"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://da-ice.lnk.to/Monster"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1841783123"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://da-ice.lnk.to/Monster"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/1f77P6w7Gen7X30xg4eRt6"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://da-ice.lnk.to/Monster"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/webapp/album/mb0000000004b41b14"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://da-ice.lnk.to/Monster"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.amazon.co.jp/albums/B0FSG2NJH7"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://da-ice.lnk.to/Monster"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/ee58d7140cf6370e4f71"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://da-ice.lnk.to/Monster"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_kNZILnnqFbGaxR5O-EDzDMZx1AkxNCTes"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://da-ice.lnk.to/Monster"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/song/S1028644093"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://da-ice.lnk.to/Monster"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000002/ANTCD-A0000017175/"
+          }
+        ],
+        "releaseDate": "2025-10-22",
+        "recordings": [
+          {
+            "id": "monster-strike-deadverse-reloaded-op-1-song-original",
+            "title": "Monster",
+            "format": "unknown",
+            "kind": "vocal"
+          }
+        ],
+        "releases": [
+          {
+            "id": "monster-strike-deadverse-reloaded-op-1-song-digital",
+            "title": "Monster",
+            "type": "single",
+            "artistDisplayName": "Da-iCE",
+            "tracks": [
+              {
+                "title": "Monster"
+              }
+            ],
+            "date": {
+              "value": "2025-10-22",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方",
+            "label": "Monster：官方配信入口",
+            "url": "https://da-ice.lnk.to/Monster",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "monster-strike-deadverse-reloaded-op-1-song-digital"
+          },
+          {
+            "platform": "YouTube",
+            "label": "Monster：ノンクレジットOP",
+            "url": "https://www.youtube.com/watch?v=BGSHV0HZxoo",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Monster：Apple Music",
+            "url": "https://music.apple.com/jp/album/1841783123",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "monster-strike-deadverse-reloaded-op-1-song-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "Monster：Spotify",
+            "url": "https://open.spotify.com/album/1f77P6w7Gen7X30xg4eRt6",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "monster-strike-deadverse-reloaded-op-1-song-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "Monster：LINE MUSIC",
+            "url": "https://music.line.me/webapp/album/mb0000000004b41b14",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "monster-strike-deadverse-reloaded-op-1-song-digital"
+          },
+          {
+            "platform": "Amazon Music",
+            "label": "Monster：Amazon Music",
+            "url": "https://music.amazon.co.jp/albums/B0FSG2NJH7",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "monster-strike-deadverse-reloaded-op-1-song-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "Monster：AWA",
+            "url": "https://s.awa.fm/album/ee58d7140cf6370e4f71",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "monster-strike-deadverse-reloaded-op-1-song-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "Monster：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_kNZILnnqFbGaxR5O-EDzDMZx1AkxNCTes",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "monster-strike-deadverse-reloaded-op-1-song-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "Monster：レコチョク",
+            "url": "https://recochoku.jp/song/S1028644093",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "monster-strike-deadverse-reloaded-op-1-song-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "Monster：mora",
+            "url": "https://mora.jp/package/43000002/ANTCD-A0000017175/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "monster-strike-deadverse-reloaded-op-1-song-digital"
           }
         ]
       },
@@ -36028,12 +47322,45 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "zh-Hant",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://linkco.re/2sAz7bBT",
+            "label": "逐曲創作／演唱名單",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.tunecore.co.jp/the-magazine/newreleases/657886",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://ototoy.jp/newreleases/20260616",
+            "label": "授權音樂發行資訊：THE GAME與本作ED用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
           }
         ],
         "credits": [
           {
             "name": "YZERR",
             "role": "vocals"
+          },
+          {
+            "name": "YZERR",
+            "role": "lyrics"
+          },
+          {
+            "name": "YZERR",
+            "role": "composition"
+          },
+          {
+            "name": "JIGG",
+            "role": "composition"
           }
         ],
         "evidence": [
@@ -36061,6 +47388,117 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "monster-strike-deadverse-reloaded-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://linkco.re/2sAz7bBT"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://linkco.re/2sAz7bBT"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://linkco.re/2sAz7bBT"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "monster-strike-deadverse-reloaded-ed-1-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://linkco.re/2sAz7bBT"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "monster-strike-deadverse-reloaded-ed-1-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.tunecore.co.jp/the-magazine/newreleases/657886"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://linkco.re/2sAz7bBT"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://anime.monster-strike.com/deadverse-reloaded/music/",
+              "https://ototoy.jp/newreleases/20260616"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "monster-strike-deadverse-reloaded-ed-1"
+          }
+        ],
+        "releaseDate": "2026-06-10",
+        "recordings": [
+          {
+            "id": "monster-strike-deadverse-reloaded-ed-1-song-original",
+            "title": "THE GAME",
+            "format": "unknown",
+            "kind": "vocal"
+          }
+        ],
+        "releases": [
+          {
+            "id": "monster-strike-deadverse-reloaded-ed-1-song-digital",
+            "title": "THE GAME",
+            "type": "single",
+            "artistDisplayName": "YZERR",
+            "tracks": [
+              {
+                "title": "THE GAME"
+              }
+            ],
+            "date": {
+              "value": "2026-06-10",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方",
+            "label": "THE GAME：官方配信入口",
+            "url": "https://linkco.re/2sAz7bBT",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "monster-strike-deadverse-reloaded-ed-1-song-digital"
           }
         ]
       }
@@ -36118,12 +47556,63 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "zh-Hant",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://utaten.com/songWriter/55399/?page=3&pageType=composer&sort=popular_sort_asc",
+            "label": "逐曲創作／演唱名單",
+            "role": "cross_check",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://about.me/junmatsumoto",
+            "label": "創作者官方實績：ごはん食べヨ弦編曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.a-sketch.com/information/mega_news_251003/",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.shinchan-app.jp/hiroshi-hirumeshi-anime/",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://mega-shinnosuke.lnk.to/Lets-eat-food",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
           }
         ],
         "credits": [
           {
             "name": "Mega Shinnosuke",
             "role": "vocals"
+          },
+          {
+            "name": "Mega Shinnosuke",
+            "role": "lyrics"
+          },
+          {
+            "name": "Mega Shinnosuke",
+            "role": "composition"
+          },
+          {
+            "name": "Mega Shinnosuke",
+            "role": "arrangement"
+          },
+          {
+            "name": "Jun Matsumoto（ストリングスアレンジ）",
+            "role": "arrangement"
           }
         ],
         "evidence": [
@@ -36151,6 +47640,308 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "nohara-hiroshi-hiru-meshi-no-ryuugi-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://utaten.com/songWriter/55399/?page=3&pageType=composer&sort=popular_sort_asc"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://utaten.com/songWriter/55399/?page=3&pageType=composer&sort=popular_sort_asc"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://utaten.com/songWriter/55399/?page=3&pageType=composer&sort=popular_sort_asc"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://about.me/junmatsumoto"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.a-sketch.com/information/mega_news_251003/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "nohara-hiroshi-hiru-meshi-no-ryuugi-op-1-song-original"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.a-sketch.com/information/mega_news_251003/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "nohara-hiroshi-hiru-meshi-no-ryuugi-op-1-song-sped-up"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.a-sketch.com/information/mega_news_251003/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "nohara-hiroshi-hiru-meshi-no-ryuugi-op-1-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.a-sketch.com/information/mega_news_251003/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mega-shinnosuke.lnk.to/Lets-eat-food"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.shinchan-app.jp/hiroshi-hirumeshi-anime/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=i2XITie-LVQ"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mega-shinnosuke.lnk.to/Lets-eat-food"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1843292477?i=1843292478"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mega-shinnosuke.lnk.to/Lets-eat-food"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/track/5gjQz3TrfWTD0M1jYRHhli"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mega-shinnosuke.lnk.to/Lets-eat-food"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.amazon.com/tracks/B0FT99J359/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mega-shinnosuke.lnk.to/Lets-eat-food"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/watch?v=Mh64fbHqzjw"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mega-shinnosuke.lnk.to/Lets-eat-food"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/webapp/track/mt0000000023b98607"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mega-shinnosuke.lnk.to/Lets-eat-food"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1843292477?i=1843292478"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mega-shinnosuke.lnk.to/Lets-eat-food"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A2005762134"
+          }
+        ],
+        "releaseDate": "2025-10-08",
+        "recordings": [
+          {
+            "id": "nohara-hiroshi-hiru-meshi-no-ryuugi-op-1-song-original",
+            "title": "ごはん食べヨ",
+            "format": "unknown",
+            "kind": "vocal"
+          },
+          {
+            "id": "nohara-hiroshi-hiru-meshi-no-ryuugi-op-1-song-sped-up",
+            "title": "ごはん食べヨ(Sped Up Ver.)",
+            "format": "unknown",
+            "kind": "vocal"
+          }
+        ],
+        "releases": [
+          {
+            "id": "nohara-hiroshi-hiru-meshi-no-ryuugi-op-1-song-digital",
+            "title": "ごはん食べヨ",
+            "type": "single",
+            "artistDisplayName": "Mega Shinnosuke",
+            "tracks": [
+              {
+                "title": "ごはん食べヨ",
+                "position": 1,
+                "recordingId": "nohara-hiroshi-hiru-meshi-no-ryuugi-op-1-song-original"
+              },
+              {
+                "title": "ごはん食べヨ(Sped Up Ver.)",
+                "position": 3,
+                "recordingId": "nohara-hiroshi-hiru-meshi-no-ryuugi-op-1-song-sped-up"
+              }
+            ],
+            "date": {
+              "value": "2025-10-08",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方",
+            "label": "ごはん食べヨ：官方配信入口",
+            "url": "https://mega-shinnosuke.lnk.to/Lets-eat-food",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "nohara-hiroshi-hiru-meshi-no-ryuugi-op-1-song-digital"
+          },
+          {
+            "platform": "YouTube",
+            "label": "ごはん食べヨ：ノンクレジットOP",
+            "url": "https://www.youtube.com/watch?v=i2XITie-LVQ",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "ごはん食べヨ：Apple Music",
+            "url": "https://music.apple.com/jp/album/1843292477?i=1843292478",
+            "linkType": "direct_track",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "nohara-hiroshi-hiru-meshi-no-ryuugi-op-1-song-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "ごはん食べヨ：Spotify",
+            "url": "https://open.spotify.com/track/5gjQz3TrfWTD0M1jYRHhli",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "nohara-hiroshi-hiru-meshi-no-ryuugi-op-1-song-digital"
+          },
+          {
+            "platform": "Amazon Music",
+            "label": "ごはん食べヨ：Amazon Music",
+            "url": "https://music.amazon.com/tracks/B0FT99J359/",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "nohara-hiroshi-hiru-meshi-no-ryuugi-op-1-song-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "ごはん食べヨ：YouTube Music",
+            "url": "https://music.youtube.com/watch?v=Mh64fbHqzjw",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "nohara-hiroshi-hiru-meshi-no-ryuugi-op-1-song-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "ごはん食べヨ：LINE MUSIC",
+            "url": "https://music.line.me/webapp/track/mt0000000023b98607",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "nohara-hiroshi-hiru-meshi-no-ryuugi-op-1-song-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "ごはん食べヨ：レコチョク",
+            "url": "https://recochoku.jp/album/A2005762134",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "nohara-hiroshi-hiru-meshi-no-ryuugi-op-1-song-digital"
           }
         ]
       },
@@ -36178,12 +47969,81 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "zh-Hant",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://utaten.com/lyric/sz25092449/",
+            "label": "逐曲創作／演唱名單",
+            "role": "cross_check",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.shinchan-app.jp/hiroshi-hirumeshi-anime/",
+            "label": "官方團隊簡介：成員身分",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://news.ponycanyon.co.jp/2025/09/114773",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.ponycanyon.co.jp/music/PCCA000006421",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://news.ponycanyon.co.jp/2025/09/114742",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://lnk.to/Sabasister_justpunkrock",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
           }
         ],
         "credits": [
           {
             "name": "サバシスター",
             "role": "vocals"
+          },
+          {
+            "name": "なち",
+            "role": "lyrics"
+          },
+          {
+            "name": "なち",
+            "role": "composition"
+          },
+          {
+            "name": "サバシスター",
+            "role": "arrangement"
+          },
+          {
+            "name": "なち",
+            "role": "group_member",
+            "groupName": "サバシスター"
+          },
+          {
+            "name": "ごうけ",
+            "role": "group_member",
+            "groupName": "サバシスター"
+          },
+          {
+            "name": "るみなす",
+            "role": "group_member",
+            "groupName": "サバシスター"
           }
         ],
         "evidence": [
@@ -36211,6 +48071,431 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "nohara-hiroshi-hiru-meshi-no-ryuugi-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://utaten.com/lyric/sz25092449/"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://utaten.com/lyric/sz25092449/"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://utaten.com/lyric/sz25092449/"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.shinchan-app.jp/hiroshi-hirumeshi-anime/"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://news.ponycanyon.co.jp/2025/09/114773"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "nohara-hiroshi-hiru-meshi-no-ryuugi-ed-1-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://news.ponycanyon.co.jp/2025/09/114773"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "nohara-hiroshi-hiru-meshi-no-ryuugi-ed-1-song-digital"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://news.ponycanyon.co.jp/2025/09/114773"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sabasister-just-punk-rock-dvd"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCA000006421"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sabasister-just-punk-rock-regular"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://news.ponycanyon.co.jp/2025/09/114742"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sabasister-just-punk-rock-set"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/Sabasister_justpunkrock"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sabasister-just-punk-rock-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://news.ponycanyon.co.jp/2025/09/114773"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://lnk.to/Sabasister_justpunkrock"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.shinchan-app.jp/hiroshi-hirumeshi-anime/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=ApAlAQVniyI"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/Sabasister_justpunkrock"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1840319927"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/Sabasister_justpunkrock"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/4m76vsVXKPR1Ow0hmzoMAY"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/Sabasister_justpunkrock"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.amazon.co.jp/music/player/albums/B0FRFM6YF6"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/Sabasister_justpunkrock"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_k09aIQLUGFlWqdswDsN32V8NEg0lVoJ78"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/Sabasister_justpunkrock"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004ae620c&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/Sabasister_justpunkrock"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1043943999"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/Sabasister_justpunkrock"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000004/PCSP-06786_F/"
+          }
+        ],
+        "releaseDate": "2025-10-03",
+        "recordings": [
+          {
+            "id": "nohara-hiroshi-hiru-meshi-no-ryuugi-ed-1-song-original",
+            "title": "今日のごはんはなんだろな",
+            "format": "unknown",
+            "kind": "vocal"
+          }
+        ],
+        "releases": [
+          {
+            "id": "nohara-hiroshi-hiru-meshi-no-ryuugi-ed-1-song-digital",
+            "title": "今日のごはんはなんだろな",
+            "type": "single",
+            "artistDisplayName": "サバシスター",
+            "tracks": [
+              {
+                "title": "今日のごはんはなんだろな"
+              }
+            ],
+            "date": {
+              "value": "2025-10-03",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          },
+          {
+            "id": "sabasister-just-punk-rock-dvd",
+            "title": "たかがパンクロック！",
+            "type": "album",
+            "artistDisplayName": "サバシスター",
+            "tracks": [
+              {
+                "title": "今日のごはんはなんだろな",
+                "position": 7,
+                "recordingId": "nohara-hiroshi-hiru-meshi-no-ryuugi-ed-1-song-original"
+              }
+            ],
+            "date": {
+              "value": "2025-10-15",
+              "precision": "day"
+            },
+            "catalogNumber": "PCCA-06420",
+            "edition": "CD＋DVD",
+            "label": "ポニーキャニオン"
+          },
+          {
+            "id": "sabasister-just-punk-rock-regular",
+            "title": "たかがパンクロック！",
+            "type": "album",
+            "artistDisplayName": "サバシスター",
+            "tracks": [
+              {
+                "title": "今日のごはんはなんだろな",
+                "position": 7,
+                "recordingId": "nohara-hiroshi-hiru-meshi-no-ryuugi-ed-1-song-original"
+              }
+            ],
+            "date": {
+              "value": "2025-10-15",
+              "precision": "day"
+            },
+            "catalogNumber": "PCCA-06421",
+            "edition": "CD Only",
+            "label": "ポニーキャニオン"
+          },
+          {
+            "id": "sabasister-just-punk-rock-set",
+            "title": "たかがパンクロック！",
+            "type": "album",
+            "artistDisplayName": "サバシスター",
+            "tracks": [
+              {
+                "title": "今日のごはんはなんだろな",
+                "position": 7,
+                "recordingId": "nohara-hiroshi-hiru-meshi-no-ryuugi-ed-1-song-original"
+              }
+            ],
+            "date": {
+              "value": "2025-10-15",
+              "precision": "day"
+            },
+            "catalogNumber": "BRCA-00162",
+            "edition": "完全数量限定1138セット CD＋DVD＋Figure",
+            "label": "ポニーキャニオン"
+          },
+          {
+            "id": "sabasister-just-punk-rock-digital",
+            "title": "たかがパンクロック！",
+            "type": "album",
+            "artistDisplayName": "サバシスター",
+            "tracks": [
+              {
+                "title": "今日のごはんはなんだろな",
+                "position": 7
+              }
+            ],
+            "edition": "Digital Album"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方",
+            "label": "今日のごはんはなんだろな：官方配信入口",
+            "url": "https://lnk.to/Sabasister_justpunkrock",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sabasister-just-punk-rock-digital"
+          },
+          {
+            "platform": "YouTube",
+            "label": "今日のごはんはなんだろな：ノンクレジットED",
+            "url": "https://www.youtube.com/watch?v=ApAlAQVniyI",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "今日のごはんはなんだろな：Apple Music",
+            "url": "https://music.apple.com/jp/album/1840319927",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sabasister-just-punk-rock-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "今日のごはんはなんだろな：Spotify",
+            "url": "https://open.spotify.com/album/4m76vsVXKPR1Ow0hmzoMAY",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sabasister-just-punk-rock-digital"
+          },
+          {
+            "platform": "Amazon Music",
+            "label": "今日のごはんはなんだろな：Amazon Music",
+            "url": "https://www.amazon.co.jp/music/player/albums/B0FRFM6YF6",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sabasister-just-punk-rock-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "今日のごはんはなんだろな：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_k09aIQLUGFlWqdswDsN32V8NEg0lVoJ78",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sabasister-just-punk-rock-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "今日のごはんはなんだろな：LINE MUSIC",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004ae620c&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sabasister-just-punk-rock-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "今日のごはんはなんだろな：レコチョク",
+            "url": "https://recochoku.jp/album/A1043943999",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sabasister-just-punk-rock-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "今日のごはんはなんだろな：mora",
+            "url": "https://mora.jp/package/43000004/PCSP-06786_F/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sabasister-just-punk-rock-digital"
           }
         ]
       }
