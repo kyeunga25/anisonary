@@ -17,6 +17,7 @@ export function buildCatalogSearchIndex(entries: CatalogSearchData["entries"]) {
     searchText: normalizeCatalogSearchText(seasons.map((membership) => buildAnimeSearchText(anime, membership)).join(" ")),
     themes: anime.themes.map((theme) => ({
       id: theme.id,
+      ...(theme.seasonIds ? { seasonIds: theme.seasonIds } : {}),
       type: theme.type,
       sequence: theme.sequence,
       titleJa: theme.titleJa,
@@ -59,6 +60,11 @@ export function searchCatalog(index: CatalogSearchIndex, options: CatalogSearchO
     if (!membership) return [];
     const animeMatches = matchesCatalogSearchTokens(anime.searchText, tokens);
     const themes = anime.themes.filter((theme) => {
+      if (theme.seasonIds && !anime.seasons.some((season) =>
+        theme.seasonIds!.includes(season.id) &&
+        (!options.year || String(season.year) === options.year) &&
+        (!options.quarter || season.quarter === options.quarter)
+      )) return false;
       if (options.type !== "all" && theme.type !== options.type) return false;
       if (options.scope === "anime") return animeMatches;
       if (options.scope === "songs") return matchesCatalogSearchTokens(theme.titleSearchText, tokens);

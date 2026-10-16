@@ -31,7 +31,12 @@ export function getPlaylistRows(index: CatalogSearchIndex, options: PlaylistOpti
         ? [{ anime, theme: undefined, season: displaySeason }]
         : [];
     }
-    return selected.map((theme) => ({ anime, theme, season: displaySeason }));
+    return selected.flatMap((theme) => {
+      const useSeason = theme.seasonIds
+        ? memberships.find((membership) => theme.seasonIds!.includes(membership.id))
+        : displaySeason;
+      return useSeason ? [{ anime, theme, season: useSeason }] : [];
+    });
   });
   return rows.sort((left, right) => {
     const bySeason = compareSeasonsNewestFirst(left.season, right.season);

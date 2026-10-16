@@ -100,10 +100,24 @@ export async function smokePublicApi(
   }
   if (cardsBySlug.size > MAX_CATALOG_ANIME) fail("catalogue exceeds the unique anime limit");
 
+  const membershipsBySlug = new Map<string, Set<string>>();
+  for (const season of seasonDetails) {
+    for (const card of season.anime) {
+      const memberships = membershipsBySlug.get(card.slug) ?? new Set<string>();
+      memberships.add(season.id);
+      membershipsBySlug.set(card.slug, memberships);
+    }
+  }
+
   await mapWithConcurrency([...cardsBySlug.values()], async (card) => {
     const detail = await provider.getAnime(card.slug);
     if (!detail) fail(`missing anime detail for ${card.slug}`);
     if (!animeCardMatches(card, detail)) fail(`anime card/detail drift for ${card.slug}`);
+    for (const theme of detail.themes) {
+      if (theme.seasonIds?.some((id) => !membershipsBySlug.get(card.slug)?.has(id))) {
+        fail(`theme season membership drift for ${theme.id}`);
+      }
+    }
   });
 
   const [unknownSeason, unknownAnime] = await Promise.all([

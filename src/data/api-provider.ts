@@ -418,6 +418,10 @@ function validateSongRelations(theme: PublicTheme): void {
   unique(recordingIds);
   unique(releaseIds);
   if ((theme.recordings || theme.releases || theme.evidence) && !theme.songId) invalidContract();
+  if (theme.seasonIds && !theme.evidence?.some((evidence) =>
+    evidence.target === "anime_use" && evidence.targetId === theme.id && evidence.fields.includes("usage") &&
+    evidence.sourceUrls.some((url) => theme.sources.some((source) => source.url === url && source.role === "first_party"))
+  )) invalidContract();
   for (const media of [...theme.videos, ...theme.links, ...(theme.releases ?? []).flatMap((release) => release.tracks)]) {
     if (media.recordingId && !recordingIds.includes(media.recordingId)) invalidContract();
     if ("releaseId" in media && media.releaseId && !releaseIds.includes(media.releaseId)) invalidContract();
@@ -485,6 +489,14 @@ function parseTheme(value: unknown): PublicTheme {
   if (versionLabel !== undefined) theme.versionLabel = versionLabel;
   if (releaseDate !== undefined) theme.releaseDate = releaseDate;
   if (item.idAliases !== undefined) theme.idAliases = array(item.idAliases, 1, 50).map((id) => slug(id));
+  if (item.seasonIds !== undefined) {
+    theme.seasonIds = array(item.seasonIds, 1, 100).map((value) => {
+      const id = text(value, 11);
+      if (!seasonIdPattern.test(id)) invalidContract();
+      return id;
+    });
+    unique(theme.seasonIds);
+  }
   if (item.songId !== undefined) theme.songId = slug(item.songId);
   if (item.recordings !== undefined) theme.recordings = array(item.recordings, 1, 50).map(parseRecording);
   if (item.releases !== undefined) theme.releases = array(item.releases, 1, 50).map(parseRelease);

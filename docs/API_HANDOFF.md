@@ -57,6 +57,7 @@ PUBLIC_API_BASE_URL=https://anisonary.k-y.cc/api/v1 npm run api:check
 - `theme.sources[]` 公開 `label`、HTTPS `url`、`language`、`role` 及 ISO 8601 `verifiedAt`；
 - `theme.songId`、`recordings[]`、`releases[]`、`evidence[]` 是可選的歌曲、音源、收錄及欄位來源關係；舊記錄可以省略。發行品日期保留 year／month／day 精度，`tracks[]` 只列與本曲相關的收錄，不是完整曲目表；
 - `theme.usageLabel` 可選，用於 TV 放送版、特定配信版等動畫用途標籤；音源標籤另由 `versionLabel`／`recordings[]` 保存，不因播放渠道增加歌曲身分；
+- `theme.seasonIds[]` 可選，保存有第一方 `anime_use` 用途證據的季度，必須屬於該作品的已收錄季度。歌單按此關聯篩選並選擇季度標籤；動畫頁仍保留全部歌曲。舊記錄省略時沿用作品季度，不能由音源或商品發行日期推定用途季度；
 - `recordingId`／`releaseId` 必須引用同歌已定義的實體；引用音源與發行品時須與曲目關係一致。數位版與 CD 是否同一音源未知時省略 `recordingId`；每個音源及發行品均須有第一方欄位證據；
 - 影片形式另支援 `music_video`、`art_track`、`lyric_video`、`live`、`pv`，不能推定音源的 full／TV 分類；`embedAvailability: unknown` 僅與 `embeddable: false` 配合提供外連。`links[]` 可選日期及地區可用性，`unknown` 不等於已驗證可播放；
 - `group_member` 及 `groupName` 保存團隊成員身分，不等於個別演唱 credits。來源日期獨立保存，`evidence[].sourceUrls` 必須指向既有來源，欄位日期不得晚於相應來源核對日期；

@@ -125,3 +125,30 @@ it("keeps the whole reviewed catalogue consistent across seasons, details, sourc
     }
   }
 });
+
+it("filters confirmed use quarters independently from release dates and work membership", () => {
+  const summer = curatedSeasons.find((season) => season.id === "2025-summer")!;
+  const fall = curatedSeasons.find((season) => season.id === "2025-fall")!;
+  const anime = structuredClone(curatedAnimeDetails.find((detail) => detail.themes.length >= 2)!);
+  anime.themes = anime.themes.slice(0, 2);
+  anime.themes[0]!.seasonIds = [summer.id];
+  anime.themes[1]!.seasonIds = [fall.id];
+  anime.themes[1]!.releaseDate = "2025-09-29";
+  const options = {
+    query: "", scope: "all" as const, year: "", quarter: "", type: "all" as const,
+    sort: "newest" as const, videoOnly: false, weekday: "", includeEmpty: false
+  };
+  const makeIndex = () => buildCatalogSearchIndex([{ anime, season: fall, seasons: [summer, fall], isMockData: false }]);
+  const index = makeIndex();
+  expect(getPlaylistRows(index, options).map((row) => [row.theme!.id, row.season.id])).toEqual([
+    [anime.themes[1]!.id, fall.id], [anime.themes[0]!.id, summer.id]
+  ]);
+  expect(getPlaylistRows(index, { ...options, quarter: "summer" }).map((row) => row.theme!.id)).toEqual([anime.themes[0]!.id]);
+  expect(getPlaylistRows(index, { ...options, quarter: "fall" }).map((row) => row.theme!.id)).toEqual([anime.themes[1]!.id]);
+  anime.themes[0]!.seasonIds = [summer.id, fall.id];
+  expect(getPlaylistRows(makeIndex(), options)).toHaveLength(2);
+  expect(getPlaylistRows(makeIndex(), { ...options, quarter: "summer" })).toHaveLength(1);
+  expect(getPlaylistRows(makeIndex(), { ...options, quarter: "fall" })).toHaveLength(2);
+  delete anime.themes[0]!.seasonIds;
+  expect(getPlaylistRows(makeIndex(), { ...options, quarter: "fall" })).toHaveLength(2);
+});
