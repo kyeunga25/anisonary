@@ -2546,3 +2546,34 @@ Production驗收：29季／1,931部完整API契約與跨endpoint關聯通過；3
 先修正第28批3筆既有用途的創作欄位證據：`towa-no-yuugure-ed-2` 改由UtaTen逐曲名單交叉核對，`3-nen-z-gumi-ginpachi-sensei-op-1` 改用リスアニ公開創作／發行資料，`3-nen-z-gumi-ginpachi-sensei-ed-1` 改用Tower Records正式商品逐曲credits。已獨立查閱相應資料並確認原欄位事實，移除本批直接列入的歌ネット來源及其欄位引用；不更改歌名、藝人、用途、ID、音源或發行關係，也不回溯修改所有歷史資料。
 
 此修正先保存於第29批，整批資料與展示驗證後發布；目前production仍為第28批來源。AniChart官方季度公開卡片已在一般瀏覽器人工核對本批作品識別，沒有使用受限API或保存整頁／介紹／圖像。只保存人工審閱用途所需的ID與連結，後續回到動畫、藝人與唱片官網核對歌曲及播出資料。
+
+### 第29批歌曲核心階段
+
+新增10部TV動畫／20筆OP／ED用途，每筆保留官方歌曲用途與交叉來源、AniChart官方季度識別及首播證據。作品、歌曲與用途分層保存；未取得台港官方譯名或圖像者維持原文及空欄。已有明確證據的12筆先保存完整詞／曲／編曲，其餘創作欄位接續深化，不阻擋歌曲核心。
+
+| 公開 theme ID | 已確認曲目／用途 |
+| --- | --- |
+| `uma-musume-cinderella-gray-part-2-op-1` | スパートシンドローマー／OP1 |
+| `uma-musume-cinderella-gray-part-2-ed-1` | ふたり／ED1 |
+| `chanto-suenai-kyuuketsuki-chan-op-1` | 青春のシルエット／OP1 |
+| `chanto-suenai-kyuuketsuki-chan-ed-1` | 線香花火／ED1 |
+| `kao-ni-denai-kashiwada-san-to-kao-ni-deru-oota-kun-op-1` | 百面相／OP1 |
+| `kao-ni-denai-kashiwada-san-to-kao-ni-deru-oota-kun-ed-1` | あまのじゃくヒーロー／ED1 |
+| `egao-no-taenai-shokuba-desu-op-1` | 絶対称賛！／OP1 |
+| `egao-no-taenai-shokuba-desu-ed-1` | Thankful／ED1 |
+| `kakuriyo-no-yadomeshi-2nd-season-op-1` | とおりゃんせ／OP1 |
+| `kakuriyo-no-yadomeshi-2nd-season-ed-1` | 涙のレシピ／ED1 |
+| `alma-chan-wa-kazoku-ni-naritai-op-1` | ドラマチック・オーバーレイ／OP1 |
+| `alma-chan-wa-kazoku-ni-naritai-ed-1` | ありふれてたい／ED1 |
+| `ansatsusha-de-aru-ore-no-status-ga-yuusha-yori-mo-akiraka-ni-tsuyoi-no-da-ga-op-1` | 一閃／OP1 |
+| `ansatsusha-de-aru-ore-no-status-ga-yuusha-yori-mo-akiraka-ni-tsuyoi-no-da-ga-ed-1` | Like Gravity／ED1 |
+| `shuumatsu-touring-op-1` | Touring／OP1 |
+| `shuumatsu-touring-ed-1` | グライド／ED1 |
+| `tomodachi-no-imouto-ga-ore-ni-dake-uzai-op-1` | ウザ可愛くて何が悪い！／OP1 |
+| `tomodachi-no-imouto-ga-ore-ni-dake-uzai-ed-1` | 星の鼓動／ED1 |
+| `kimi-to-koete-koi-ni-naru-op-1` | くすぐったい。／OP1 |
+| `kimi-to-koete-koi-ni-naru-ed-1` | きみになれたら／ED1 |
+
+《ウマ娘 シンデレラグレイ》第2クール以獨立已確認作品識別收錄，原春季作品及用途ID保留。《笑顔のたえない職場です。》ED保留Sizuk發行名義，實際演唱者另列やなぎなぎ；角色合唱逐人保留CV名義，不將團隊簡介自動當作逐曲演唱名單。跨午夜首播已換算曆日，AT-X較早首播者以其實際時間記錄。
+
+本段為核心資料保存，影片、音源、發行與正版平台接續同批深化；整批parser／build及實際展示尚未驗證，尚未計入頂部正式季度表或production成果。
