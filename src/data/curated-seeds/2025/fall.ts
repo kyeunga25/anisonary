@@ -33884,7 +33884,1768 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
         ]
       }
     ]
+  },
+  {
+    "anilistId": 193968,
+    "id": "curated-193968",
+    "slug": "lets-play-quest-darake-no-my-life",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-02",
+    "titleJa": "Let's Play クエストだらけのマイライフ",
+    "titleZhHant": "Let's Play クエストだらけのマイライフ",
+    "titleRomaji": "Let’s Play: Quest Darake no My Life",
+    "editorialWeekday": 4,
+    "broadcastTimeJst": "00:45",
+    "broadcastLabel": "日本首播：10月1日(水)24:45",
+    "status": "finished",
+    "officialSiteUrl": "https://letsplay-anime.com/",
+    "anilistUrl": "https://anilist.co/anime/193968",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://letsplay-anime.com/onair/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "1, 2, Play",
+        "artistDisplayName": "久保田利伸",
+        "songId": "lets-play-quest-darake-no-my-life-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://letsplay-anime.com/music/op_ed.html",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "久保田利伸",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://letsplay-anime.com/music/op_ed.html",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "lets-play-quest-darake-no-my-life-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://letsplay-anime.com/music/op_ed.html",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "lets-play-quest-darake-no-my-life-op-1"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "Left & Right",
+        "artistDisplayName": "久保田利伸",
+        "songId": "lets-play-quest-darake-no-my-life-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://letsplay-anime.com/music/op_ed.html",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "久保田利伸",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://letsplay-anime.com/music/op_ed.html",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "lets-play-quest-darake-no-my-life-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://letsplay-anime.com/music/op_ed.html",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "lets-play-quest-darake-no-my-life-ed-1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 188388,
+    "id": "curated-188388",
+    "slug": "digimon-beatbreak",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-05",
+    "titleJa": "DIGIMON BEATBREAK",
+    "titleZhHant": "DIGIMON BEATBREAK",
+    "titleRomaji": "DIGIMON BEATBREAK",
+    "editorialWeekday": 7,
+    "broadcastTimeJst": "09:00",
+    "broadcastLabel": "日本首播",
+    "status": "unknown",
+    "officialSiteUrl": "https://www.toei-anim.co.jp/tv/digimon_beatbreak/",
+    "anilistUrl": "https://anilist.co/anime/188388",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://www.toei-anim.co.jp/tv/digimon_beatbreak/onair/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Mad Pulse",
+        "artistDisplayName": "MADKID",
+        "songId": "digimon-beatbreak-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.toei-anim.co.jp/tv/digimon_beatbreak/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "MADKID",
+            "role": "vocals"
+          },
+          {
+            "name": "LIN",
+            "role": "lyrics"
+          },
+          {
+            "name": "YUKI",
+            "role": "lyrics"
+          },
+          {
+            "name": "pw.a",
+            "role": "composition"
+          },
+          {
+            "name": "Yuka Niiyama",
+            "role": "composition"
+          },
+          {
+            "name": "pw.a",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/digimon_beatbreak/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "digimon-beatbreak-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/digimon_beatbreak/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "digimon-beatbreak-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/digimon_beatbreak/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "digimon-beatbreak-op-1-song"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "beat up",
+        "artistDisplayName": "冨岡 愛",
+        "songId": "digimon-beatbreak-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.toei-anim.co.jp/tv/digimon_beatbreak/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "冨岡 愛",
+            "role": "vocals"
+          },
+          {
+            "name": "冨岡 愛",
+            "role": "lyrics"
+          },
+          {
+            "name": "冨岡 愛",
+            "role": "composition"
+          },
+          {
+            "name": "MEG(MEGMETAL)",
+            "role": "composition"
+          },
+          {
+            "name": "MEG(MEGMETAL)",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/digimon_beatbreak/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "digimon-beatbreak-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/digimon_beatbreak/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "digimon-beatbreak-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/digimon_beatbreak/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "digimon-beatbreak-ed-1-song"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 190840,
+    "id": "curated-190840",
+    "slug": "kingdom-6th-season",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-05",
+    "titleJa": "キングダム 第6シリーズ",
+    "titleZhHant": "キングダム 第6シリーズ",
+    "titleRomaji": "Kingdom 6th Season",
+    "editorialWeekday": 7,
+    "broadcastTimeJst": "00:10",
+    "broadcastLabel": "日本首播：10月4日(土)24:10",
+    "status": "finished",
+    "officialSiteUrl": "https://kingdom-anime.com/",
+    "anilistUrl": "https://anilist.co/anime/190840",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://kingdom-anime.com/onair/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "生きて、燦々",
+        "artistDisplayName": "いきものがかり",
+        "songId": "kingdom-6th-season-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://kingdom-anime.com/discography/detail.php?id=1021013&season=6",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "いきものがかり",
+            "role": "vocals"
+          },
+          {
+            "name": "水野良樹",
+            "role": "lyrics"
+          },
+          {
+            "name": "水野良樹",
+            "role": "composition"
+          },
+          {
+            "name": "島田昌典",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://kingdom-anime.com/discography/detail.php?id=1021013&season=6",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kingdom-6th-season-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://kingdom-anime.com/discography/detail.php?id=1021013&season=6",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kingdom-6th-season-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://kingdom-anime.com/discography/detail.php?id=1021013&season=6"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kingdom-6th-season-op-1-song"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "咆哮",
+        "artistDisplayName": "友成空",
+        "songId": "kingdom-6th-season-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://kingdom-anime.com/discography/detail.php?id=1021014&season=6",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "友成空",
+            "role": "vocals"
+          },
+          {
+            "name": "友成空",
+            "role": "lyrics"
+          },
+          {
+            "name": "友成空",
+            "role": "composition"
+          },
+          {
+            "name": "友成空",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://kingdom-anime.com/discography/detail.php?id=1021014&season=6",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kingdom-6th-season-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://kingdom-anime.com/discography/detail.php?id=1021014&season=6",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kingdom-6th-season-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://kingdom-anime.com/discography/detail.php?id=1021014&season=6"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "kingdom-6th-season-ed-1-song"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 186914,
+    "id": "curated-186914",
+    "slug": "ninja-to-gokudou",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-08",
+    "titleJa": "忍者と極道",
+    "titleZhHant": "忍者と極道",
+    "titleRomaji": "Ninja to Gokudou",
+    "editorialWeekday": 3,
+    "broadcastTimeJst": "02:05",
+    "broadcastLabel": "日本初回：10月7日(火)26:05；通常25:59",
+    "status": "finished",
+    "officialSiteUrl": "https://www.ningoku-anime.com/",
+    "anilistUrl": "https://anilist.co/anime/186914",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://www.ningoku-anime.com/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Sweet Disaster",
+        "artistDisplayName": "MIYAVI",
+        "songId": "ninja-to-gokudou-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.ldh.co.jp/news/detail.php?lang=chh&newsid=0000100194&site=OFFICIAL",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "MIYAVI",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.ldh.co.jp/news/detail.php?lang=chh&newsid=0000100194&site=OFFICIAL",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ninja-to-gokudou-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.ldh.co.jp/news/detail.php?lang=chh&newsid=0000100194&site=OFFICIAL",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ninja-to-gokudou-op-1"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "Until You Die Out",
+        "artistDisplayName": "Fear, and Loathing in Las Vegas",
+        "songId": "ninja-to-gokudou-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.ldh.co.jp/news/detail.php?lang=chh&newsid=0000100194&site=OFFICIAL",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "Fear, and Loathing in Las Vegas",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.ldh.co.jp/news/detail.php?lang=chh&newsid=0000100194&site=OFFICIAL",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ninja-to-gokudou-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.ldh.co.jp/news/detail.php?lang=chh&newsid=0000100194&site=OFFICIAL",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ninja-to-gokudou-ed-1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 170018,
+    "id": "curated-170018",
+    "slug": "ao-no-orchestra-season-2",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-05",
+    "titleJa": "青のオーケストラ Season2",
+    "titleZhHant": "青のオーケストラ Season2",
+    "titleRomaji": "Ao no Orchestra Season 2",
+    "editorialWeekday": 7,
+    "broadcastTimeJst": "17:00",
+    "broadcastLabel": "日本首播",
+    "status": "finished",
+    "officialSiteUrl": "https://aooke-anime.com/",
+    "anilistUrl": "https://anilist.co/anime/170018",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://aooke-anime.com/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "アマデウス",
+        "artistDisplayName": "Galileo Galilei",
+        "songId": "ao-no-orchestra-season-2-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://aooke-anime.com/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "Galileo Galilei",
+            "role": "vocals"
+          },
+          {
+            "name": "尾崎 雄貴",
+            "role": "lyrics"
+          },
+          {
+            "name": "尾崎 雄貴",
+            "role": "composition"
+          },
+          {
+            "name": "Galileo Galilei",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://aooke-anime.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ao-no-orchestra-season-2-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://aooke-anime.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ao-no-orchestra-season-2-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://aooke-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ao-no-orchestra-season-2-op-1-song"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "青の魔法",
+        "artistDisplayName": "チョーキューメイ",
+        "songId": "ao-no-orchestra-season-2-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://aooke-anime.com/music/ending.html",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "チョーキューメイ",
+            "role": "vocals"
+          },
+          {
+            "name": "麗",
+            "role": "lyrics"
+          },
+          {
+            "name": "麗",
+            "role": "composition"
+          },
+          {
+            "name": "Naoki Itai",
+            "role": "arrangement"
+          },
+          {
+            "name": "チョーキューメイ",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://aooke-anime.com/music/ending.html",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ao-no-orchestra-season-2-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://aooke-anime.com/music/ending.html",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ao-no-orchestra-season-2-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://aooke-anime.com/music/ending.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ao-no-orchestra-season-2-ed-1-song"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 170936,
+    "id": "curated-170936",
+    "slug": "debu-to-love-to-ayamachi-to",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-06",
+    "titleJa": "デブとラブと過ちと！",
+    "titleZhHant": "デブとラブと過ちと！",
+    "titleRomaji": "Debu to Love to Ayamachi to!",
+    "editorialWeekday": 1,
+    "broadcastTimeJst": "23:00",
+    "broadcastLabel": "日本首播",
+    "status": "finished",
+    "officialSiteUrl": "https://s.mxtv.jp/anime/debulove/",
+    "anilistUrl": "https://anilist.co/anime/170936",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://s.mxtv.jp/anime/debulove/onair.html"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Happy Yummy Lucky Yummy",
+        "artistDisplayName": "GANG PARADE",
+        "songId": "debu-to-love-to-ayamachi-to-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://s.mxtv.jp/anime/debulove/music.html",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "GANG PARADE",
+            "role": "vocals"
+          },
+          {
+            "name": "ユメノユア",
+            "role": "lyrics"
+          },
+          {
+            "name": "Hayato Yamamoto",
+            "role": "lyrics"
+          },
+          {
+            "name": "MEG(MEGMETAL)",
+            "role": "composition"
+          },
+          {
+            "name": "Hayato Yamamoto",
+            "role": "composition"
+          },
+          {
+            "name": "MEG(MEGMETAL)",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://s.mxtv.jp/anime/debulove/music.html",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "debu-to-love-to-ayamachi-to-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://s.mxtv.jp/anime/debulove/music.html",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "debu-to-love-to-ayamachi-to-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://s.mxtv.jp/anime/debulove/music.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "debu-to-love-to-ayamachi-to-op-1-song"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "私でよかった！！！",
+        "artistDisplayName": "内田雄馬",
+        "songId": "debu-to-love-to-ayamachi-to-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://s.mxtv.jp/anime/debulove/music.html",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "内田雄馬",
+            "role": "vocals"
+          },
+          {
+            "name": "篠崎あやと",
+            "role": "lyrics"
+          },
+          {
+            "name": "橘亮祐",
+            "role": "lyrics"
+          },
+          {
+            "name": "篠崎あやと",
+            "role": "composition"
+          },
+          {
+            "name": "橘亮祐",
+            "role": "composition"
+          },
+          {
+            "name": "篠崎あやと",
+            "role": "arrangement"
+          },
+          {
+            "name": "橘亮祐",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://s.mxtv.jp/anime/debulove/music.html",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "debu-to-love-to-ayamachi-to-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://s.mxtv.jp/anime/debulove/music.html",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "debu-to-love-to-ayamachi-to-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://s.mxtv.jp/anime/debulove/music.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "debu-to-love-to-ayamachi-to-ed-1-song"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 184997,
+    "id": "curated-184997",
+    "slug": "shabake",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-03",
+    "titleJa": "しゃばけ",
+    "titleZhHant": "しゃばけ",
+    "titleRomaji": "Shabake",
+    "editorialWeekday": 5,
+    "broadcastTimeJst": "23:30",
+    "broadcastLabel": "日本首播",
+    "status": "finished",
+    "officialSiteUrl": "https://shabake-official.com/",
+    "anilistUrl": "https://anilist.co/anime/184997",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://shabake-official.com/onair/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "いのちのパレヱド",
+        "artistDisplayName": "くじら",
+        "songId": "shabake-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://shabake-official.com/#music",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "くじら",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://shabake-official.com/#music",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "shabake-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://shabake-official.com/#music",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "shabake-op-1"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "脈脈",
+        "artistDisplayName": "KAFUNÉ",
+        "songId": "shabake-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://shabake-official.com/#music",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "KAFUNÉ",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://shabake-official.com/#music",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "shabake-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://shabake-official.com/#music",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "shabake-ed-1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 196553,
+    "id": "curated-196553",
+    "slug": "si-vis-the-sound-of-heroes",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-05",
+    "titleJa": "SI-VIS: The Sound of Heroes",
+    "titleZhHant": "SI-VIS: The Sound of Heroes",
+    "titleRomaji": "SI-VIS: The Sound of Heroes",
+    "editorialWeekday": 7,
+    "broadcastTimeJst": "09:30",
+    "broadcastLabel": "日本首播",
+    "status": "finished",
+    "officialSiteUrl": "https://si-vis.live/",
+    "anilistUrl": "https://anilist.co/anime/196553",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://si-vis.live/onair/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "So Far Away",
+        "artistDisplayName": "SI-VIS",
+        "songId": "si-vis-the-sound-of-heroes-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://si-vis.live/music/op_ed.html",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "SI-VIS",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/op_ed.html",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/op_ed.html",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-op-1"
+          }
+        ],
+        "usageLabel": "第1クール OP"
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "FRIENDS & SMILE",
+        "artistDisplayName": "SI-VIS",
+        "songId": "si-vis-the-sound-of-heroes-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://si-vis.live/music/op_ed.html",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "SI-VIS",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/op_ed.html",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/op_ed.html",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-ed-1"
+          }
+        ],
+        "usageLabel": "第1クール ED"
+      }
+    ]
+  },
+  {
+    "anilistId": 196230,
+    "id": "curated-196230",
+    "slug": "monster-strike-deadverse-reloaded",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-21",
+    "titleJa": "モンスターストライク　デッドバースリローデッド",
+    "titleZhHant": "モンスターストライク　デッドバースリローデッド",
+    "titleRomaji": "Monster Strike: Deadverse Reloaded",
+    "editorialWeekday": 2,
+    "broadcastTimeJst": "23:00",
+    "broadcastLabel": "日本首播",
+    "status": "finished",
+    "officialSiteUrl": "https://anime.monster-strike.com/deadverse-reloaded/",
+    "anilistUrl": "https://anilist.co/anime/196230",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://anime.monster-strike.com/deadverse-reloaded/onair/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Monster",
+        "artistDisplayName": "Da-iCE",
+        "songId": "monster-strike-deadverse-reloaded-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://anime.monster-strike.com/deadverse-reloaded/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "Da-iCE",
+            "role": "vocals"
+          },
+          {
+            "name": "岩岡徹",
+            "role": "lyrics"
+          },
+          {
+            "name": "和田颯",
+            "role": "lyrics"
+          },
+          {
+            "name": "和田颯",
+            "role": "composition"
+          },
+          {
+            "name": "馬瀬みさき",
+            "role": "composition"
+          },
+          {
+            "name": "小林ファンキ風格(PARIS on the City!)",
+            "role": "composition"
+          },
+          {
+            "name": "馬瀬みさき",
+            "role": "arrangement"
+          },
+          {
+            "name": "小林ファンキ風格(PARIS on the City!)",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://anime.monster-strike.com/deadverse-reloaded/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "monster-strike-deadverse-reloaded-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://anime.monster-strike.com/deadverse-reloaded/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "monster-strike-deadverse-reloaded-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://anime.monster-strike.com/deadverse-reloaded/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "monster-strike-deadverse-reloaded-op-1-song"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "THE GAME",
+        "artistDisplayName": "YZERR",
+        "songId": "monster-strike-deadverse-reloaded-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://anime.monster-strike.com/deadverse-reloaded/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "YZERR",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://anime.monster-strike.com/deadverse-reloaded/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "monster-strike-deadverse-reloaded-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://anime.monster-strike.com/deadverse-reloaded/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "monster-strike-deadverse-reloaded-ed-1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 187860,
+    "id": "curated-187860",
+    "slug": "nohara-hiroshi-hiru-meshi-no-ryuugi",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-03",
+    "titleJa": "野原ひろし 昼メシの流儀",
+    "titleZhHant": "野原ひろし 昼メシの流儀",
+    "titleRomaji": "Nohara Hiroshi: Hiru Meshi no Ryuugi",
+    "editorialWeekday": 5,
+    "broadcastTimeJst": "23:00",
+    "broadcastLabel": "日本首播",
+    "status": "finished",
+    "officialSiteUrl": "https://www.shinchan-app.jp/hiroshi-hirumeshi-anime/",
+    "anilistUrl": "https://anilist.co/anime/187860",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://www.shinchan-app.jp/hiroshi-hirumeshi-anime/index.html#onair"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "ごはん食べヨ",
+        "artistDisplayName": "Mega Shinnosuke",
+        "songId": "nohara-hiroshi-hiru-meshi-no-ryuugi-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.shinchan-app.jp/hiroshi-hirumeshi-anime/#music",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "Mega Shinnosuke",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.shinchan-app.jp/hiroshi-hirumeshi-anime/#music",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "nohara-hiroshi-hiru-meshi-no-ryuugi-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.shinchan-app.jp/hiroshi-hirumeshi-anime/#music",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "nohara-hiroshi-hiru-meshi-no-ryuugi-op-1"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "今日のごはんはなんだろな",
+        "artistDisplayName": "サバシスター",
+        "songId": "nohara-hiroshi-hiru-meshi-no-ryuugi-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.shinchan-app.jp/hiroshi-hirumeshi-anime/#music",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "サバシスター",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.shinchan-app.jp/hiroshi-hirumeshi-anime/#music",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "nohara-hiroshi-hiru-meshi-no-ryuugi-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.shinchan-app.jp/hiroshi-hirumeshi-anime/#music",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "nohara-hiroshi-hiru-meshi-no-ryuugi-ed-1"
+          }
+        ]
+      }
+    ]
   }
 ];
 
-export const curated2025FallAnimeIds: number[] = [177937, 170577, 153800, 185801, 183385, 180082, 181447, 194447, 179302, 195153, 179992, 182896, 162890, 180436, 195240, 186524, 187940, 173523, 177271, 186190, 186794, 186920, 129195, 186161, 183965, 185575, 185731, 162669, 184322, 188487, 173692, 183291, 185116, 187464];
+export const curated2025FallAnimeIds: number[] = [177937, 170577, 153800, 185801, 183385, 180082, 181447, 194447, 179302, 195153, 179992, 182896, 162890, 180436, 195240, 186524, 187940, 173523, 177271, 186190, 186794, 186920, 129195, 186161, 183965, 185575, 185731, 162669, 184322, 188487, 173692, 183291, 185116, 187464, 193968, 188388, 190840, 186914, 170018, 170936, 184997, 196553, 196230, 187860];
