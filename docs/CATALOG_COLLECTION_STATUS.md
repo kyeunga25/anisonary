@@ -2789,3 +2789,5 @@ DIGIMON BEATBREAK本階段只登記已核明2025秋的Mad Pulse／beat up，後�
 全目錄本機29季／1,961部／4,364用途（4,337 OP／ED、24 IN、3 TS），1,022個不同YouTube歌曲watch外連、1,826筆影片metadata。2025秋本機101／101筆已核對、88核心齊備／13缺口，另16 IN；頂部正式季度表仍以第30批為準，待GitHub、main CI、Cloudflare部署與live驗收。
 
 本機入口：`/seasons/2025-fall/`、`/anime/si-vis-the-sound-of-heroes/`、`/anime/ninja-to-gokudou/`、`/anime/nohara-hiroshi-hiru-meshi-no-ryuugi/`。正式驗收後接續第32批2025秋尚未收錄新作、WEB、續播與輪替，原夏季待辦保留；整季及長期目標均未完成。
+
+同批深化與本機驗收由 `56a4505` 保存，[PR #120](https://github.com/kyeunga25/anisonary/pull/120)已建立；文件相對連結、`git diff --check`、repository公開邊界241檔與最終Cloudflare dry-run通過。接續固定PR head的quality／Workers preview、正常合併、main CI、Git tree及正式部署／live驗收；production目前仍以第30批為準。
