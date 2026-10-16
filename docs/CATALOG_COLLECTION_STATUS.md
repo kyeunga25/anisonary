@@ -12,7 +12,7 @@
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED，已確認插曲一併記錄；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2025 → 2007 年動畫歌曲盤點與收集；每年按秋 → 夏 → 春 → 冬，先建立完整作品／用途盤點，再補同批創作、官方影片、版本、收錄與正版平台。2026 已完成成果保留，後續更新延後 |
 | 完成條件 | 各季先有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替，將已證實歌曲核心逐批公開，再深化創作、官方影片、音源、收錄與平台；經公開 JSON、頁面及必要檢查驗證。清單未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件 |
-| 執行狀態 | 整體執行中；第08–30批均已正式發布驗收。第30批新增10部／21筆用途；第31批繼續2025秋尚未收錄新作、續播與特殊用途盤點。季度盤點及長期目標均未完成 |
+| 執行狀態 | 整體執行中；第08–30批均已正式發布驗收。第31批本機新增10部／27筆用途，已完成核心及同批深化，接續本批發布驗收。季度盤點及長期目標均未完成 |
 | 接續位置 | 第31批 `2025-fall-inventory-31`：繼續2025秋尚未收錄的新作、跨季續播及特殊用途，每批約10部／20–30筆；固定截止日2026-10-14，實際來源核對日期另記。原夏季待辦於秋季首輪後回接 |
 | 發布提交 | 最新 [PR #119](https://github.com/kyeunga25/anisonary/pull/119) 正常rebase合併並保留4個階段提交；正式部署來源 `35496fe`、標記 `batch30` 已通過下方live驗收。PR #101–#118的提交及驗收保留在各批紀錄 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
@@ -2750,3 +2750,42 @@ DIGIMON BEATBREAK本階段只登記已核明2025秋的Mad Pulse／beat up，後�
 ### 第31批插曲核心階段
 
 已保存7筆有官方及交叉來源的插曲：`ninja-to-gokudou-in-1`（孤独の唄），以及`si-vis-the-sound-of-heroes-in-1`至`si-vis-the-sound-of-heroes-in-6`（MELODEA／幻想曲（アラベスク）を君に／Braver Dreamer／エレジー／ロマンティスト・キラー／プロトスター）。《SI-VIS》6首已保存逐曲作詞、作曲及編曲；角色歌唱與配音分開核對，Bonus Track不當作額外插曲用途。第31批目前10部／27筆核心用途，深化及完整批次檢查仍進行中，尚未發布驗收。
+
+
+### 第31批同批深化與本機驗收
+
+20筆OP／ED核心由 `35c2f95`、7筆插曲核心由 `01c436b` 分段保存並推送。整批新增10部／27筆用途（20 OP／ED、7 IN），對應27個歌曲ID；24筆具有作詞、作曲、編曲，其中20 OP／ED有18筆同時具備完整詞曲編曲及已確認YouTube歌曲watch外連。
+
+| 公開 theme ID | 已確認新增插曲用途 |
+| --- | --- |
+| `ninja-to-gokudou-in-1` | 孤独の唄／第3話挿入歌／佐々木詩織 |
+| `si-vis-the-sound-of-heroes-in-1` | MELODEA／第1話劇中歌／SI-VIS |
+| `si-vis-the-sound-of-heroes-in-2` | 幻想曲（アラベスク）を君に／第3話劇中歌／SI-VIS |
+| `si-vis-the-sound-of-heroes-in-3` | Braver Dreamer／第6話劇中歌／SI-VIS |
+| `si-vis-the-sound-of-heroes-in-4` | エレジー／第8話劇中歌／SI-VIS |
+| `si-vis-the-sound-of-heroes-in-5` | ロマンティスト・キラー／第9話劇中歌／SI-VIS |
+| `si-vis-the-sound-of-heroes-in-6` | プロトスター／第12話劇中歌／SI-VIS |
+
+- 新增41個音源ID：1個明示Anime Edit（TV）、40個長度unknown；種類為30演唱版、6 instrumental、5角色版本。《SI-VIS》同曲SECOND／THIRD STAGE與YOSUKE MAIN VOCAL bonus分開記音源，不增加歌曲／用途；只把官方已列明的SECOND STAGE四人歌唱、エレジー的JUNE／ふるーり及プロトスター雙人歌唱對應到相關錄音，未用CV代替歌唱者。Sped Up及六万の声版本保留原版本名，未僅憑名稱推定重新編曲或獨立live錄音。
+- 新增49個發行品ID（64個逐用途收錄關係），涵蓋動畫及藝人Single、SI-VIS「PARA-BELLUM」、友成空「East West」、サバシスター「たかがパンクロック！」等7個Album發行版。只保存本曲相關曲目；未有曲序、日期或CD／數位同一錄音證據者留空。いきものがかりCD的曲順未定未補造；不同CD版不增加歌曲。
+- 新增35個不同YouTube歌曲watch外連及8筆明示渠道／形式metadata（false／unknown），涵蓋MV、Art Track、NC OP／ED、Lyric Video、現場與Special Edit。另220個其他正版平台確切項目（含28個YouTube Music目的項目）、29個人工官方入口，與10個builder作品入口分開計數；19個HTTP供應目的項目排除，未改寫成猜測的HTTPS。登入、presave、追蹤參數及搜尋入口不作確切曲目。
+- 久保田兩曲同Single、Left & Right的HIKKA Guest Vocal、個別共同創作名單與弦編曲分工均保留來源；官方同頁可支持的多項事實一併保存。Qobuz／紀伊國屋／Tower／UtaTen等補充credits明示cross_check，未搬入歌ネット資料或歌詞。官方繁中公告、中文季度清單及第一方原文並用；未生成港台正式譯名。
+- 原有1,951部公開JSON逐項完全相同；既有ID、網址、用途季度及來源日期維持。沒有程式、資料契約、依賴或UI變更。
+
+| 本批未解缺口 | 狀態與續查條件 |
+| --- | --- |
+| `ninja-to-gokudou-ed-1` | 詞／曲及官方影片、配信Single已核明，編曲未明示；兩輪定向查找後等待唱片／藝人逐曲完整credits，不以樂團自作或producer推定arrangement |
+| `ninja-to-gokudou-in-1` | 曲名、佐々木詩織歌唱、第3話用途及官方歌詞付き映像已確認；創作名單與OST版本／收錄關係尚待第一方逐曲資料。正版平台TV ver.確切外連保留，未由角色CV或漫畫虛構作者代填，也未只憑第三方OST表建立新錄音／發行品 |
+| `monster-strike-deadverse-reloaded-ed-1` | 作詞YZERR、作曲YZERR／JIGG、2026-06-10配信發行及動畫ED用途已核對；尚缺明示編曲及官方歌曲watch／渠道。兩輪後待藝人／唱片完整credits或直接影片；沒有把Shorts source URL改成watch，也不由發行日反推新用途季度 |
+| アマデウス收錄版日期 | 官網同頁header為2025-10-06、11th Single內文另列2025-11-23；數位日期保留已交叉確認的10-06，另列Instrumental收錄版日期留空。待官方商品／更正資料明確區分發行版 |
+| SI-VIS不同演唱與日期 | SECOND STAGE四人歌唱有第一方明示；未核明的原版／THIRD STAGE逐曲個人歌唱留空，不沿用有出入的第三方逐曲人名。OP THIRD STAGE日期公告與discography不一致，留空待第一方更正；ED THIRD STAGE依官方明示保存2025-12-22。其他數位／CD錄音同一性、完整製作團隊待逐曲資料 |
+| 其他發行／影片 | Sweet Disaster確切首發與其餘Single／Album／OST收錄、若干數位版日期及其他官方影片形式未明；待直接唱片／藝人商品頁。壞掉的官方配信入口未當作有效平台項目，未泛化到全部舊連結重查 |
+| 跨季及完整分母 | DIGIMON後續2026 ED、SI-VIS第2クール及其餘跨季輪替／插曲仍待到相應範圍核對；本批不混入2025秋。現有47部／101 OP／ED、16 IN仍是部分快照，季度新作、WEB、續播及輪替聯集未閉合。第27–30批缺口沿用原續查條件 |
+
+本機檢查：4檔／6項測試、build（2,006 HTML／4,008公開產物）及Cloudflare dry-run通過。批次資料沿用既有季度、contract與UI，依矩陣不額外重跑本機E2E；沒有為測試修改正常程式或降低gate。文件連結、diff及公開邊界於提交前另作同輪收尾；依賴與workflow未變。
+
+實際桌面預覽10部／27筆、4部393像素手機頁，曲名、版本／收錄數量與JSON一致；無橫向溢出或框架錯誤。秋季117筆用途為24／24／24／24／21分頁，49 OP／52 ED／16 IN篩選通過；VVCL-2837搜尋得到6首插曲→Braver Dreamer→YOSUKE bonus及欄位證據展開通過，首頁／全部歌曲各24列緊湊列表。目視手機截圖確認長名與版本換行；0應用／CSP錯誤、觀察時0影片iframe，不視為網路攔截、播放或區域嵌入可用性驗證。
+
+全目錄本機29季／1,961部／4,364用途（4,337 OP／ED、24 IN、3 TS），1,022個不同YouTube歌曲watch外連、1,826筆影片metadata。2025秋本機101／101筆已核對、88核心齊備／13缺口，另16 IN；頂部正式季度表仍以第30批為準，待GitHub、main CI、Cloudflare部署與live驗收。
+
+本機入口：`/seasons/2025-fall/`、`/anime/si-vis-the-sound-of-heroes/`、`/anime/ninja-to-gokudou/`、`/anime/nohara-hiroshi-hiru-meshi-no-ryuugi/`。正式驗收後接續第32批2025秋尚未收錄新作、WEB、續播與輪替，原夏季待辦保留；整季及長期目標均未完成。

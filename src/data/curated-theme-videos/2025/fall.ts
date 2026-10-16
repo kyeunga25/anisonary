@@ -275,5 +275,91 @@ export const curated2025FallThemeVideos = {
       "embeddable": false,
       "embedAvailability": "unknown"
     }
+  ],
+  "193968:ED:1": [
+    {
+      "youtubeVideoId": "30Lu9IX60hU",
+      "title": "久保田利伸「1, 2, Play」「Left & Right」Special Edit Ver.",
+      "type": "other",
+      "channelName": "久保田利伸 / Toshinobu Kubota Official YouTube Channel",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "188388:ED:1": [
+    {
+      "youtubeVideoId": "7lQA6V8eDNg",
+      "title": "冨岡 愛 - beat up (Music Video)",
+      "type": "music_video",
+      "channelName": "Tomioka Ai",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "190840:OP:1": [
+    {
+      "youtubeVideoId": "7OMTZg5bz8E",
+      "title": "いきものがかり「生きて、燦々」【from NHK SONGS】",
+      "type": "live",
+      "channelName": "いきものがかり Official YouTube Channel",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "170936:OP:1": [
+    {
+      "youtubeVideoId": "bz4P04NCbIo",
+      "title": "GANG PARADE「Happy Yummy Lucky Yummy」Music Video",
+      "type": "music_video",
+      "channelName": "GANG PARADE",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "170936:ED:1": [
+    {
+      "youtubeVideoId": "r4_A4F02rPc",
+      "title": "内田雄馬「私でよかった！！！」MUSIC VIDEO",
+      "type": "music_video",
+      "channelName": "内田雄馬 OFFICIAL",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "AEOwSFpYnZA",
+      "title": "私でよかった！！！",
+      "type": "art_track",
+      "channelName": "内田雄馬 OFFICIAL",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "196553:IN:4": [
+    {
+      "youtubeVideoId": "WH6J8am2en8",
+      "title": "【Lyric Video】SI-VIS「エレジー」",
+      "type": "lyric_video",
+      "channelName": "アニプレックス チャンネル",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "196553:IN:6": [
+    {
+      "youtubeVideoId": "V-LEyJYK_wA",
+      "title": "【Lyric Video】SI-VIS「プロトスター」",
+      "type": "lyric_video",
+      "channelName": "アニプレックス チャンネル",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ]
 } satisfies CuratedThemeVideoOverrideMap;
