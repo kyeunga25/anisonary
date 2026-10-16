@@ -80,4 +80,6 @@ export const curated2025SpringThemeVideos = {
   "185939:ED:1": [{"youtubeVideoId":"8oGdZZ9y3Uw","title":"TVアニメ「日々は過ぎれど飯うまし」 ノンクレジットエンディング｜「味噌汁とバター」汐れいら","type":"creditless_ed","channelName":"アニプレックス チャンネル","officialStatus":"official","embeddable":true}],
   "179541:OP:1": [{"youtubeVideoId":"4nBzqU0ruag","title":"「白豚貴族ですが前世の記憶が生えたのでひよこな弟育てます」OP映像 ｜ 4月からABEMAで独占・無料配信中！","type":"other","channelName":"日活アニメチャンネル","officialStatus":"official","embeddable":true}],
   "179541:ED:1": [{"youtubeVideoId":"JC5NZ8oGdfE","title":"「白豚貴族ですが前世の記憶が生えたのでひよこな弟育てます」ノンクレジットED ｜ 4月からABEMAで独占・無料配信中！","type":"creditless_ed","channelName":"日活アニメチャンネル","officialStatus":"official","embeddable":true}],
+  "185715:OP:1": [{"youtubeVideoId":"NR6Qa_pb1M0","title":"TVアニメ「SHIBUYA♡HACHI」主題歌「Brand New Episode / HACHI」Official MV","type":"music_video","channelName":"HACHI","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+
 } satisfies CuratedThemeVideoOverrideMap;

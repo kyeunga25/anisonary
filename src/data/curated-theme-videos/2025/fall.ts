@@ -425,5 +425,51 @@ export const curated2025FallThemeVideos = {
       "embeddable": false,
       "embedAvailability": "unknown"
     }
+  ],
+  "195173:OP:1": [
+    {
+      "youtubeVideoId": "NR6Qa_pb1M0",
+      "title": "TVアニメ「SHIBUYA♡HACHI」主題歌「Brand New Episode / HACHI」Official MV",
+      "type": "music_video",
+      "channelName": "HACHI",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "199009:ED:1": [
+    {
+      "youtubeVideoId": "QzArEk5lseE",
+      "title": "マツヤマイカ「琥珀色のロンリネス」Music Video",
+      "type": "music_video",
+      "channelName": "マツヤマイカ Maika Matsuya",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "188529:TS:1": [
+    {
+      "youtubeVideoId": "RzsrBFLi-78",
+      "title": "ハク。\"夢中猫\" Official Lyric Video",
+      "type": "lyric_video",
+      "channelName": "haku.",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "194389:ED:1": [
+    {
+      "youtubeVideoId": "7DEc2nRvt5w",
+      "title": "虹と Piano ver.（2026年 Art Track）",
+      "type": "art_track",
+      "channelName": "Punipunidenki",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "koala-enikki-ed-1-song-piano",
+      "releaseId": "koala-enikki-ed-1-song-piano-single"
+    }
   ]
 } satisfies CuratedThemeVideoOverrideMap;
