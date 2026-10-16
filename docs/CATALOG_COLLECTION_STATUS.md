@@ -2489,3 +2489,30 @@ Parser檢查季度格式、唯一值與第一方用途證據；公開API跨endpo
 本段先保存核心身分、用途與已讀到的創作名單；同批影片、音源、發行與正版平台接續補核。整批build／E2E、完整展示及GitHub／Cloudflare驗收尚未完成，頂部正式進度不變。
 
 核心階段4檔／6項測試、repository公開邊界（241檔）及差異檢查通過。新增資料尚未經整批build與畫面驗收，不將本段列為正式發布完成。
+
+### 第28批同批深化與本機驗證
+
+用途季度試行由 `28773aa`、歌曲核心與跨季關聯由 `1e8b2d7` 分段保存。本批8部／25筆用途（24 OP／ED、1 IN），包含5部新作新增14筆、3部續播核對11筆；共24個歌曲ID。其餘1,923部既有公開動畫JSON與批前完全相同，3部續播的作品metadata、識別／圖像／播出來源日期及既有用途ID／URL均保留。
+
+- 新增31個音源身分：8個明示TV／Anime Size及23個長度unknown；包含instrumental與原版／角色solo、duet，沒有從MV、lyric或舞蹈影片推定full。
+- 新增27個發行品ID，另重用2個已收錄雙A面CD的既有ID。Uru兩首歌共用3個CD版本，Hana Hope雙ED共用2個CD版本，Marie單曲／OST及Wandance OST按各曲保存收錄關係；未證實的CD／數位音源同一性不加關聯。
+- 新增19個不同YouTube歌曲watch外連，涵蓋MV、特殊OP、NC OP／ED、lyric、舞蹈演出與練習等形式；新增3筆可核明渠道的影片metadata，均false／unknown。另新增91個其他正版平台確切曲目／專輯／下載目的頁及20個官方入口；不同影片與發行版不計新歌。
+- 已讀取的官方音樂頁同時補歌曲、創作、用途、配信及商品。授權平台／歌詞服務與正式商品逐曲名單另保留cross_check來源及欄位證據，不把平台參與者、group_member、producer或Sound Produce自動改為個別演唱或編曲。
+
+| 本批未解缺口 | 狀態與續查條件 |
+| --- | --- |
+| `towa-no-yuugure-ed-2` | 星紡ぎ的歌曲、雙ED用途、詞曲編曲及CD收錄已核對；官方歌曲YouTube的精確ID與渠道關係仍未確立。兩輪定向查找後保留空欄，等待官方直接影片／正式Art Track目的項目 |
+| `wandance-op-1` | 已核明SKY-HI作詞及Sunny／MONJOE／LOAR／SKY-HI作曲、製作與Vocal Direction角色、lyric／舞蹈影片及Anime Size收錄；未讀到明示編曲，不由producer推定。等待官方逐曲編曲credits或正式供應音源資料 |
+| `tougen-anki-ed-1` | What is justice?沿用有效詞／曲及影片；藝人與台灣唱片官方頁仍沒有明確逐曲編曲。兩輪定向查找後保留缺口，等待正式商品／音源完整credits |
+| `wandance-in-1` | 歌曲與劇中用途、創作與OST位置2及Apple Music確切曲目已保存；官方YouTube精確項目／渠道未核明。等待官方歌曲watch直連或可核對的Art Track |
+| Marie off vocal與OST位置 | 官方ED商品頁兩列off vocal文字重複，沒有猜另一版；僅保存明確solo、duet、TV及instrumental。OST未保存的曲序不推算。等待可核對第一方完整曲目表／訂正 |
+| 平台、團隊與其他收錄 | 4個HTTP供應連結已剔除；未證實地區播放／嵌入可用性保留unknown。BE:FIRST與ELSEE不同時點的團隊簡介不當作逐曲演唱名單；BE:ST、COMICAL等未核完的精確商品／曲序留待官方曲目與版本證據，不把宣傳連結當完整收錄證明 |
+| 季度完整分母 | 2025秋現有17部／41 OP／ED、6 IN仍為部分快照，完整新作／續播聯集未閉合。第27批既有缺口依其原條件保留，下一批繼續秋季未收錄作品與已確認特殊用途 |
+
+本機驗證：4檔／6項核心測試、build（1,976 HTML及3,948公開產物）、6條E2E、repository／artifact公開邊界、依賴稽核0漏洞與Cloudflare dry-run通過。初次契約檢查攔下4個HTTP目的項目，已剔除並重驗；沒有改正常程式或降低安全gate。
+
+8部／25筆桌面逐項展示與公開JSON一致；4部手機版、夏秋3組跨季篩選、全歌單去重、24／23分頁、19 OP／22 ED／6 IN篩選及品番／版本／角色版搜尋等7組展示驗證通過，0應用／CSP錯誤、0自動YouTube請求。私有預覽腳本起初誤把次標題當h1，已按既有原文h1修正預期並接續未驗證項目，介面未為此改動。
+
+全目錄本機29季／1,931部／4,294用途（4,277 OP／ED、14 IN、3 TS），934個唯一YouTube歌曲watch外連及1,808筆影片metadata。2025夏的當季OP／ED分母由178更正為173，移出5筆秋季輪替用途；歌曲與動畫頁仍保留。按用途季度重算，第28批本機2025秋41／41已核對、36核心齊備／5缺口；夏143／173、135齊備／8缺口。這些是本機結果，頂部正式季度表待本批live驗收後更新。
+
+本機預覽：`/seasons/2025-fall/`、`/anime/kikaijikake-no-marie/`、`/anime/wandance/`、`/anime/gachiakuta/`。GitHub／production尚待本批正式發布驗收；完成後接續第29批2025秋，不回跳夏季，也不把一批完成當成整季或長期目標完成。
