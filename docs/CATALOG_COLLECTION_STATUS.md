@@ -2896,3 +2896,40 @@ Cloudflare Workers實際CLI部署成功，來源 `88e89a5f366a8f1f7b78a3516c6dac
 由第32批正式來源 `88e89a5` 接續。固定範圍2007–2026、截止日2026-10-14；目前優先2025→2007，每年秋→夏→春→冬，非成人TV／WEB OP／ED及已確認插曲。2026已完成成果保留，後續新作與劇場版／OVA延後。
 
 第33批繼續2025秋未收錄TV／WEB、短篇、跨季續播及輪替，每批約10部／20–30筆。沿用已讀取季度、作品識別及第一方證據，排除已完成公開ID，再保存已證實核心及同批深化；兩輪未明欄位只按第27–32批觸發條件恢復。完成條件為已確認內容通過公開JSON、動畫頁歌曲／名單／版本／收錄／來源、緊湊歌單、必要檢查，分段提交／推送、正式部署及live驗收。本批、整季及長期目標均未完成。
+
+### 第33批核心資料與季度關係
+
+實際核對日期2026-10-16。本階段新增5部／7筆用途（3 OP／ED、1 IN、3 TS），補入5部既有作品的秋季續播關係，合計處理10部／15個既有或新增用途ID。以下只是核心合入階段，尚待同批深化、完整檢查、展示與正式發布驗收。
+
+| 公開動畫ID | 本階段已確認內容 |
+| --- | --- |
+| `curated-187331` | 新增U.K.U／OP與上々↑ハイテンション／ED，兩曲詞曲編曲及演唱名義；首播25:05換算至翌日01:05 |
+| `curated-194832` | 新增2025秋新作段落與既有主題曲ププッとフムッとかいけつダンス／OP，詞曲編曲及伊勢大貴演唱；2026新影像未冒充2025影片 |
+| `curated-198926` | 新增Rebirth*ible／一般主題歌與アン・ドゥ・トロワ／插曲，逐曲詞曲編曲、角色及演唱名義 |
+| `curated-198413` | 新增スーパー☆ハピハピ／一般主題歌，JOCHUM演唱、宝生 久弥之詞曲；未推定為JO1演唱 |
+| `curated-199794` | 新增グッドらっこ／一般主題歌、角色演唱與詞曲；27:15換算至翌日03:15 |
+| `curated-169420` | 第2クール OP2／ED2歸秋，OP1／ED1留夏；4個既有ID與來源日期保留 |
+| `curated-188653` | 補秋季續播與ぷにぷにぷにるんず ぷにックスバージョン／OP的季度關係，保留既有更正與音源 |
+| `curated-193238` | 補秋季續播與学校では教えてくれないこと／ED的季度關係，沿用已核對歌唱及創作 |
+| `curated-193883` | 補秋季續播與怪獣島／OP的季度關係，保留既有創作缺口 |
+| `curated-196229` | 補秋季續播與特装合体！ジョブレイバー／OP的季度關係，保留既有歌曲及影片 |
+
+已處理公開用途ID：
+
+- `sawaranaide-kotesashi-kun-op-1`
+- `sawaranaide-kotesashi-kun-ed-1`
+- `oshiri-tantei-9-part-2-op-1`
+- `chou-futsuu-mahou-shoujo-asumi-toruverse-ts-1`
+- `chou-futsuu-mahou-shoujo-asumi-toruverse-in-1`
+- `jochum-season-2-ts-1`
+- `anila-to-cocora-ts-1`
+- `watari-kun-no-xx-ga-houkai-sunzen-op-1`
+- `watari-kun-no-xx-ga-houkai-sunzen-op-2`
+- `watari-kun-no-xx-ga-houkai-sunzen-ed-1`
+- `watari-kun-no-xx-ga-houkai-sunzen-ed-2`
+- `punirunes-puni-3-op-1`
+- `gakkou-de-wa-oshiete-kurenai-taisetsu-na-koto-ed-1`
+- `chibi-godzilla-no-gyakushuu-3-op-1`
+- `tomica-heroes-jobraver-tokusou-gattai-robo-tv-op-1`
+
+新增歌曲的核心第一方及交叉來源已保存。一般「主題歌」保留TS，不由staff中的OP／ED影像職位推定歌曲用途；插曲另以IN計。既有作品僅補季度證據，未重查或更新全部舊來源日期；作品metadata日期保持原有已核對值。既有ID、URL、用途序號、創作、影片、版本及收錄關係保持穩定。

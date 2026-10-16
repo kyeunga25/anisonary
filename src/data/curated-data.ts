@@ -766,12 +766,67 @@ const extraThemes: Record<number, CuratedThemeSeed[]> = {
   ],
   193238: [
     {
-      type: "ED",
-      sequence: 1,
-      titleJa: "学校では教えてくれないこと",
-      titleRomaji: "Gakkou de wa Oshiete Kurenai Koto",
-      artistDisplayName: "OCHA NORMA",
-      youtubeUrl: "https://www.youtube.com/watch?v=5E4EprwFUEY"
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "学校では教えてくれないこと",
+      "titleRomaji": "Gakkou de wa Oshiete Kurenai Koto",
+      "artistDisplayName": "OCHA NORMA",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5E4EprwFUEY",
+      "seasonIds": [
+        "2025-summer",
+        "2025-fall"
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "label": "コミックナタリー：片尾主題曲交叉核對",
+          "url": "https://natalie.mu/comic/news/627063",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-08-10"
+        },
+        {
+          "label": "OCHA NORMA 官方影片",
+          "url": "https://www.youtube.com/watch?v=5E4EprwFUEY",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-08-10"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://gakkodeha-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-08-10"
+        },
+        {
+          "label": "UZUREA 主題曲清單",
+          "url": "https://uzurea.net/summer-2025-anime-themes-and-picks/",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-08-10"
+        },
+        {
+          "url": "https://note.com/anime_gakkodeha/n/n26adf5d536ed",
+          "label": "動畫官方：2025年10月22日播出中主題歌活動",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-16"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://note.com/anime_gakkodeha/n/n26adf5d536ed"
+          ],
+          "verifiedAt": "2026-10-16",
+          "targetId": "gakkou-de-wa-oshiete-kurenai-taisetsu-na-koto-ed-1"
+        }
+      ]
     }
   ],
   185259: [
