@@ -1,15 +1,2266 @@
 import type { CuratedAnimeSeed } from "@/data/curated-seeds/types";
 
 export const curated2025FallSeeds: CuratedAnimeSeed[] = [
-  {"anilistId":177937,"id":"curated-177937","slug":"spy-family-season-3","seasonIds":["2025-fall"],"startDate":"2025-10-04","titleJa":"SPY×FAMILY Season 3","titleZhHant":"SPY×FAMILY Season 3","titleRomaji":"SPY×FAMILY Season 3","editorialWeekday":6,"broadcastLabel":"日本首播／詳細時間未整理","status":"finished","officialSiteUrl":"https://spy-family.net/tvseries/","anilistUrl":"https://anilist.co/anime/177937","identifierSource":{"label":"AniList：作品識別公開索引","url":"https://anilist.co/anime/177937/","language":"en"},"sourceReferenceUrls":["https://youranimes.tw/bangumi/202510","https://spy-family.net/news/?p=2014"],"themes":[{"type":"OP","sequence":1,"titleJa":"灯を護る","artistDisplayName":"スピッツ","songId":"spy-family-season-3-op-1-song","sourceMode":"explicit","sources":[{"label":"動畫官網：歌曲與用途","url":"https://spy-family.net/tvseries/music/music_op_season3.php","language":"ja","role":"first_party","verifiedAt":"2026-10-16"},{"label":"YourAnimes：季度主題曲交叉核對","url":"https://youranimes.tw/bangumi/202510","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-10-16"}],"credits":[{"name":"スピッツ","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://spy-family.net/tvseries/music/music_op_season3.php","https://youranimes.tw/bangumi/202510"],"verifiedAt":"2026-10-16","targetId":"spy-family-season-3-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://spy-family.net/tvseries/music/music_op_season3.php","https://youranimes.tw/bangumi/202510"],"verifiedAt":"2026-10-16","targetId":"spy-family-season-3-op-1"},{"target":"song","fields":["date"],"sourceUrls":["https://spy-family.net/tvseries/music/music_op_season3.php"],"verifiedAt":"2026-10-16","targetId":"spy-family-season-3-op-1-song"}],"releaseDate":"2025-10-06"},{"type":"ED","sequence":1,"titleJa":"Actor","artistDisplayName":"幾田りら","songId":"spy-family-season-3-ed-1-song","sourceMode":"explicit","sources":[{"label":"動畫官網：歌曲與用途","url":"https://spy-family.net/tvseries/music/music_ed_season3.php","language":"ja","role":"first_party","verifiedAt":"2026-10-16"},{"label":"YourAnimes：季度主題曲交叉核對","url":"https://youranimes.tw/bangumi/202510","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-10-16"}],"credits":[{"name":"幾田りら","role":"vocals"},{"name":"幾田りら","role":"lyrics"},{"name":"幾田りら","role":"composition"},{"name":"井上暖之","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://spy-family.net/tvseries/music/music_ed_season3.php","https://youranimes.tw/bangumi/202510"],"verifiedAt":"2026-10-16","targetId":"spy-family-season-3-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://spy-family.net/tvseries/music/music_ed_season3.php","https://youranimes.tw/bangumi/202510"],"verifiedAt":"2026-10-16","targetId":"spy-family-season-3-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://spy-family.net/tvseries/music/music_ed_season3.php"],"verifiedAt":"2026-10-16"}]}],"verifiedAt":"2026-10-16"},
-  {"anilistId":170577,"id":"curated-170577","slug":"tondemo-skill-de-isekai-hourou-meshi-2","seasonIds":["2025-fall"],"startDate":"2025-10-08","titleJa":"とんでもスキルで異世界放浪メシ2","titleZhHant":"とんでもスキルで異世界放浪メシ2","titleRomaji":"Tondemo Skill de Isekai Hourou Meshi 2","editorialWeekday":3,"broadcastLabel":"日本首播／詳細時間未整理","status":"finished","officialSiteUrl":"https://tondemoskill-anime.com/","anilistUrl":"https://anilist.co/anime/170577","identifierSource":{"label":"YourAnimes：作品身分與季度交叉核對","url":"https://youranimes.tw/bangumi/202510","language":"zh-Hant"},"sourceReferenceUrls":["https://youranimes.tw/bangumi/202510","https://tondemoskill-anime.com/news/120/"],"themes":[{"type":"OP","sequence":1,"titleJa":"yummy goodday","artistDisplayName":"CENT(セントチヒロ・チッチ)","songId":"tondemo-skill-de-isekai-hourou-meshi-2-op-1-song","sourceMode":"explicit","sources":[{"label":"動畫官網：歌曲與用途","url":"https://tondemoskill-anime.com/music/opening/","language":"ja","role":"first_party","verifiedAt":"2026-10-16"},{"label":"YourAnimes：季度主題曲交叉核對","url":"https://youranimes.tw/bangumi/202510","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-10-16"}],"credits":[{"name":"CENT(セントチヒロ・チッチ)","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://tondemoskill-anime.com/music/opening/","https://youranimes.tw/bangumi/202510"],"verifiedAt":"2026-10-16","targetId":"tondemo-skill-de-isekai-hourou-meshi-2-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://tondemoskill-anime.com/music/opening/","https://youranimes.tw/bangumi/202510"],"verifiedAt":"2026-10-16","targetId":"tondemo-skill-de-isekai-hourou-meshi-2-op-1"}]},{"type":"ED","sequence":1,"titleJa":"SALT AND PEPPER","artistDisplayName":"chelmico","songId":"tondemo-skill-de-isekai-hourou-meshi-2-ed-1-song","sourceMode":"explicit","sources":[{"label":"動畫官網：歌曲與用途","url":"https://tondemoskill-anime.com/music/ending/","language":"ja","role":"first_party","verifiedAt":"2026-10-16"},{"label":"YourAnimes：季度主題曲交叉核對","url":"https://youranimes.tw/bangumi/202510","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-10-16"}],"credits":[{"name":"chelmico","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://tondemoskill-anime.com/music/ending/","https://youranimes.tw/bangumi/202510"],"verifiedAt":"2026-10-16","targetId":"tondemo-skill-de-isekai-hourou-meshi-2-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://tondemoskill-anime.com/music/ending/","https://youranimes.tw/bangumi/202510"],"verifiedAt":"2026-10-16","targetId":"tondemo-skill-de-isekai-hourou-meshi-2-ed-1"}]}],"verifiedAt":"2026-10-16"},
-  {"anilistId":153800,"id":"curated-153800","slug":"one-punch-man-3","seasonIds":["2025-fall"],"startDate":"2025-10-12","titleJa":"ワンパンマン 第3期","titleZhHant":"ワンパンマン 第3期","titleRomaji":"One Punch Man 3","editorialWeekday":7,"broadcastLabel":"日本首播／詳細時間未整理","status":"finished","officialSiteUrl":"https://onepunchman-anime.net/","anilistUrl":"https://anilist.co/anime/153800","identifierSource":{"label":"AniList：作品識別公開索引","url":"https://anilist.co/anime/153800/One-Punch-Man-3","language":"en"},"sourceReferenceUrls":["https://youranimes.tw/bangumi/202510"],"themes":[{"type":"OP","sequence":1,"titleJa":"Get No Satisfied !","artistDisplayName":"JAM Project feat.BABYMETAL","songId":"one-punch-man-3-op-1-song","sourceMode":"explicit","sources":[{"label":"動畫官網：歌曲與用途","url":"https://onepunchman-anime.net/news/archives/6754","language":"ja","role":"first_party","verifiedAt":"2026-10-16"},{"label":"YourAnimes：季度主題曲交叉核對","url":"https://youranimes.tw/bangumi/202510","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-10-16"}],"credits":[{"name":"JAM Project feat.BABYMETAL","role":"vocals"},{"name":"影山ヒロノブ","role":"lyrics"},{"name":"影山ヒロノブ","role":"composition"},{"name":"TLICK","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://onepunchman-anime.net/news/archives/6754","https://youranimes.tw/bangumi/202510"],"verifiedAt":"2026-10-16","targetId":"one-punch-man-3-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://onepunchman-anime.net/news/archives/6754","https://youranimes.tw/bangumi/202510"],"verifiedAt":"2026-10-16","targetId":"one-punch-man-3-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://onepunchman-anime.net/news/archives/6754"],"verifiedAt":"2026-10-16"},{"target":"song","fields":["date"],"sourceUrls":["https://onepunchman-anime.net/news/archives/6754"],"verifiedAt":"2026-10-16","targetId":"one-punch-man-3-op-1-song"}],"releaseDate":"2025-10-13"},{"type":"ED","sequence":1,"titleJa":"そこに有る灯り","artistDisplayName":"古川 慎","songId":"one-punch-man-3-ed-1-song","sourceMode":"explicit","sources":[{"label":"動畫官網：歌曲與用途","url":"https://onepunchman-anime.net/news/archives/6754","language":"ja","role":"first_party","verifiedAt":"2026-10-16"},{"label":"YourAnimes：季度主題曲交叉核對","url":"https://youranimes.tw/bangumi/202510","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-10-16"}],"credits":[{"name":"古川 慎","role":"vocals"},{"name":"磯谷佳江","role":"lyrics"},{"name":"本多友紀（Arte Refact）","role":"composition"},{"name":"水野谷 怜（Arte Refact）","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://onepunchman-anime.net/news/archives/6754","https://youranimes.tw/bangumi/202510"],"verifiedAt":"2026-10-16","targetId":"one-punch-man-3-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://onepunchman-anime.net/news/archives/6754","https://youranimes.tw/bangumi/202510"],"verifiedAt":"2026-10-16","targetId":"one-punch-man-3-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://onepunchman-anime.net/news/archives/6754"],"verifiedAt":"2026-10-16"},{"target":"song","fields":["date"],"sourceUrls":["https://onepunchman-anime.net/news/archives/6754"],"verifiedAt":"2026-10-16","targetId":"one-punch-man-3-ed-1-song"}],"releaseDate":"2025-10-13"}],"verifiedAt":"2026-10-16"},
-  {"anilistId":185801,"id":"curated-185801","slug":"nageki-no-bourei-wa-intai-shitai-part-2","seasonIds":["2025-fall"],"startDate":"2025-10-06","titleJa":"嘆きの亡霊は引退したい 第2クール","titleZhHant":"嘆きの亡霊は引退したい 第2クール","titleRomaji":"Nageki no Bourei wa Intai Shitai Part 2","editorialWeekday":1,"broadcastLabel":"日本TV放送","status":"finished","officialSiteUrl":"https://nageki-anime.com/","anilistUrl":"https://anilist.co/anime/185801","identifierSource":{"label":"YourAnimes：作品身分與季度交叉核對","url":"https://youranimes.tw/bangumi/202510","language":"zh-Hant"},"sourceReferenceUrls":["https://youranimes.tw/bangumi/202510","https://nageki-anime.com/news/detail/jdpf85udv0"],"themes":[{"type":"OP","sequence":1,"titleJa":"アルゴリズム","artistDisplayName":"安野希世乃","songId":"nageki-no-bourei-wa-intai-shitai-part-2-op-1-song","sourceMode":"explicit","sources":[{"label":"動畫官網：歌曲與用途","url":"https://nageki-anime.com/music/detail/48sh46wesfci","language":"ja","role":"first_party","verifiedAt":"2026-10-16"},{"label":"YourAnimes：季度主題曲交叉核對","url":"https://youranimes.tw/bangumi/202510","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-10-16"}],"credits":[{"name":"安野希世乃","role":"vocals"},{"name":"西 直紀","role":"lyrics"},{"name":"古閑翔平","role":"composition"},{"name":"古閑翔平","role":"arrangement"},{"name":"YOURNESS（演奏）","role":"other"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://nageki-anime.com/music/detail/48sh46wesfci","https://youranimes.tw/bangumi/202510"],"verifiedAt":"2026-10-16","targetId":"nageki-no-bourei-wa-intai-shitai-part-2-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://nageki-anime.com/music/detail/48sh46wesfci","https://youranimes.tw/bangumi/202510"],"verifiedAt":"2026-10-16","targetId":"nageki-no-bourei-wa-intai-shitai-part-2-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://nageki-anime.com/music/detail/48sh46wesfci"],"verifiedAt":"2026-10-16"}]},{"type":"ED","sequence":1,"titleJa":"夢へのヒトカケラ","artistDisplayName":"i☆Ris","songId":"nageki-no-bourei-wa-intai-shitai-part-2-ed-1-song","sourceMode":"explicit","sources":[{"label":"動畫官網：歌曲與用途","url":"https://nageki-anime.com/music/detail/6z4-1n4ir","language":"ja","role":"first_party","verifiedAt":"2026-10-16"},{"label":"YourAnimes：季度主題曲交叉核對","url":"https://youranimes.tw/bangumi/202510","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-10-16"}],"credits":[{"name":"i☆Ris","role":"vocals"},{"name":"松隈ケンタ","role":"lyrics"},{"name":"あやか（GBB）","role":"lyrics"},{"name":"松隈ケンタ","role":"composition"},{"name":"SCRAMBLES","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://nageki-anime.com/music/detail/6z4-1n4ir","https://youranimes.tw/bangumi/202510"],"verifiedAt":"2026-10-16","targetId":"nageki-no-bourei-wa-intai-shitai-part-2-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://nageki-anime.com/music/detail/6z4-1n4ir","https://youranimes.tw/bangumi/202510"],"verifiedAt":"2026-10-16","targetId":"nageki-no-bourei-wa-intai-shitai-part-2-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://nageki-anime.com/music/detail/6z4-1n4ir"],"verifiedAt":"2026-10-16"}]}],"verifiedAt":"2026-10-16","broadcastTimeJst":"23:30"},
-  {"anilistId":183385,"id":"curated-183385","slug":"watashi-wo-tabetai-hitodenashi","seasonIds":["2025-fall"],"startDate":"2025-10-02","titleJa":"私を喰べたい、ひとでなし","titleZhHant":"私を喰べたい、ひとでなし","titleRomaji":"Watashi wo Tabetai, Hitodenashi","editorialWeekday":4,"broadcastLabel":"日本首播／詳細時間未整理","status":"finished","officialSiteUrl":"https://wata-tabe.com/","anilistUrl":"https://anilist.co/anime/183385","identifierSource":{"label":"Wikidata：作品與外部識別","url":"https://www.wikidata.org/wiki/Q130602579","language":"multi"},"sourceReferenceUrls":["https://youranimes.tw/bangumi/202510","https://wata-tabe.com/news/157/"],"themes":[{"type":"OP","sequence":1,"titleJa":"贄-nie-","artistDisplayName":"吉乃","songId":"watashi-wo-tabetai-hitodenashi-op-1-song","sourceMode":"explicit","sources":[{"label":"動畫官網：歌曲與用途","url":"https://wata-tabe.com/music/opening/","language":"ja","role":"first_party","verifiedAt":"2026-10-16"},{"label":"YourAnimes：季度主題曲交叉核對","url":"https://youranimes.tw/bangumi/202510","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-10-16"}],"credits":[{"name":"吉乃","role":"vocals"},{"name":"ユリイ・カノン","role":"lyrics"},{"name":"ユリイ・カノン","role":"composition"},{"name":"ユリイ・カノン","role":"arrangement"},{"name":"Naoki Itai（MUSIC FOR MUSIC）","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://wata-tabe.com/music/opening/","https://youranimes.tw/bangumi/202510"],"verifiedAt":"2026-10-16","targetId":"watashi-wo-tabetai-hitodenashi-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://wata-tabe.com/music/opening/","https://youranimes.tw/bangumi/202510"],"verifiedAt":"2026-10-16","targetId":"watashi-wo-tabetai-hitodenashi-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://wata-tabe.com/music/opening/"],"verifiedAt":"2026-10-16"},{"target":"song","fields":["date"],"sourceUrls":["https://wata-tabe.com/music/opening/"],"verifiedAt":"2026-10-16","targetId":"watashi-wo-tabetai-hitodenashi-op-1-song"}],"releaseDate":"2025-10-02"},{"type":"ED","sequence":1,"titleJa":"リリィ","artistDisplayName":"八百歳比名子（CV:上田麗奈）","songId":"watashi-wo-tabetai-hitodenashi-ed-1-song","sourceMode":"explicit","sources":[{"label":"動畫官網：歌曲與用途","url":"https://wata-tabe.com/music/ending/","language":"ja","role":"first_party","verifiedAt":"2026-10-16"},{"label":"YourAnimes：季度主題曲交叉核對","url":"https://youranimes.tw/bangumi/202510","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-10-16"}],"credits":[{"name":"八百歳比名子（CV:上田麗奈）","role":"vocals"},{"name":"北澤ゆうほ","role":"lyrics"},{"name":"北澤ゆうほ","role":"composition"},{"name":"佐藤厚仁","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://wata-tabe.com/music/ending/","https://youranimes.tw/bangumi/202510"],"verifiedAt":"2026-10-16","targetId":"watashi-wo-tabetai-hitodenashi-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://wata-tabe.com/music/ending/","https://youranimes.tw/bangumi/202510"],"verifiedAt":"2026-10-16","targetId":"watashi-wo-tabetai-hitodenashi-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://wata-tabe.com/music/ending/"],"verifiedAt":"2026-10-16"},{"target":"song","fields":["date"],"sourceUrls":["https://wata-tabe.com/music/ending/"],"verifiedAt":"2026-10-16","targetId":"watashi-wo-tabetai-hitodenashi-ed-1-song"}],"releaseDate":"2025-10-03"},{"type":"ED","sequence":2,"titleJa":"太陽、なってあげよっか？♡","artistDisplayName":"社 美胡（CV:ファイルーズあい）","songId":"watashi-wo-tabetai-hitodenashi-ed-2-song","sourceMode":"explicit","sources":[{"label":"動畫官網：歌曲與用途","url":"https://wata-tabe.com/music/ending2/","language":"ja","role":"first_party","verifiedAt":"2026-10-16"},{"label":"アニシル：主題曲交叉核對","url":"https://www.anisil.com/animes/6417-%E7%A7%81%E3%82%92%E5%96%B0%E3%81%B9%E3%81%9F%E3%81%84%E3%80%81%E3%81%B2%E3%81%A8%E3%81%A7%E3%81%AA%E3%81%97","language":"ja","role":"cross_check","verifiedAt":"2026-10-16"}],"credits":[{"name":"社 美胡（CV:ファイルーズあい）","role":"vocals"},{"name":"安藤紗々","role":"lyrics"},{"name":"苗川 采","role":"lyrics"},{"name":"神田ジョン","role":"composition"},{"name":"神田ジョン","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://wata-tabe.com/music/ending2/","https://www.anisil.com/animes/6417-%E7%A7%81%E3%82%92%E5%96%B0%E3%81%B9%E3%81%9F%E3%81%84%E3%80%81%E3%81%B2%E3%81%A8%E3%81%A7%E3%81%AA%E3%81%97"],"verifiedAt":"2026-10-16","targetId":"watashi-wo-tabetai-hitodenashi-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://wata-tabe.com/music/ending2/","https://www.anisil.com/animes/6417-%E7%A7%81%E3%82%92%E5%96%B0%E3%81%B9%E3%81%9F%E3%81%84%E3%80%81%E3%81%B2%E3%81%A8%E3%81%A7%E3%81%AA%E3%81%97"],"verifiedAt":"2026-10-16","targetId":"watashi-wo-tabetai-hitodenashi-ed-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://wata-tabe.com/music/ending2/"],"verifiedAt":"2026-10-16"},{"target":"song","fields":["date"],"sourceUrls":["https://wata-tabe.com/music/ending2/"],"verifiedAt":"2026-10-16","targetId":"watashi-wo-tabetai-hitodenashi-ed-2-song"}],"usageLabel":"第4話 ED","releaseDate":"2025-10-24"},{"type":"ED","sequence":3,"titleJa":"リリィ［Another ver.］","artistDisplayName":"近江汐莉（CV:石川由依）","songId":"watashi-wo-tabetai-hitodenashi-ed-1-song","sourceMode":"explicit","sources":[{"label":"動畫官網：歌曲與用途","url":"https://wata-tabe.com/music/ending3/","language":"ja","role":"first_party","verifiedAt":"2026-10-16"},{"label":"アニシル：主題曲交叉核對","url":"https://www.anisil.com/animes/6417-%E7%A7%81%E3%82%92%E5%96%B0%E3%81%B9%E3%81%9F%E3%81%84%E3%80%81%E3%81%B2%E3%81%A8%E3%81%A7%E3%81%AA%E3%81%97","language":"ja","role":"cross_check","verifiedAt":"2026-10-16"}],"credits":[{"name":"近江汐莉（CV:石川由依）","role":"vocals"},{"name":"北澤ゆうほ","role":"lyrics"},{"name":"北澤ゆうほ","role":"composition"},{"name":"佐藤厚仁","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://wata-tabe.com/music/ending3/","https://www.anisil.com/animes/6417-%E7%A7%81%E3%82%92%E5%96%B0%E3%81%B9%E3%81%9F%E3%81%84%E3%80%81%E3%81%B2%E3%81%A8%E3%81%A7%E3%81%AA%E3%81%97"],"verifiedAt":"2026-10-16","targetId":"watashi-wo-tabetai-hitodenashi-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://wata-tabe.com/music/ending3/","https://www.anisil.com/animes/6417-%E7%A7%81%E3%82%92%E5%96%B0%E3%81%B9%E3%81%9F%E3%81%84%E3%80%81%E3%81%B2%E3%81%A8%E3%81%A7%E3%81%AA%E3%81%97"],"verifiedAt":"2026-10-16","targetId":"watashi-wo-tabetai-hitodenashi-ed-3"},{"target":"credits","fields":["credits"],"sourceUrls":["https://wata-tabe.com/music/ending3/"],"verifiedAt":"2026-10-16"},{"target":"song","fields":["date"],"sourceUrls":["https://wata-tabe.com/music/ending3/"],"verifiedAt":"2026-10-16","targetId":"watashi-wo-tabetai-hitodenashi-ed-1-song"}],"usageLabel":"第11話 ED","releaseDate":"2025-12-12"}],"verifiedAt":"2026-10-16"},
-  {"anilistId":180082,"id":"curated-180082","slug":"chitose-kun-wa-ramune-bin-no-naka","seasonIds":["2025-fall"],"startDate":"2025-10-07","titleJa":"千歳くんはラムネ瓶のなか","titleZhHant":"千歳くんはラムネ瓶のなか","titleRomaji":"Chitose-kun wa Ramune Bin no Naka","editorialWeekday":2,"broadcastLabel":"日本首播／詳細時間未整理","status":"finished","officialSiteUrl":"https://chiramune.com/","anilistUrl":"https://anilist.co/anime/180082","identifierSource":{"label":"AniList：作品識別公開索引","url":"https://anilist.co/anime/180082","language":"en"},"sourceReferenceUrls":["https://youranimes.tw/bangumi/202510","https://chiramune.com/news/index00180000.html"],"themes":[{"type":"OP","sequence":1,"titleJa":"ライアー","artistDisplayName":"Kucci","songId":"chitose-kun-wa-ramune-bin-no-naka-op-1-song","sourceMode":"explicit","sources":[{"label":"動畫官網：歌曲與用途","url":"https://chiramune.com/news/index00180000.html","language":"ja","role":"first_party","verifiedAt":"2026-10-16"},{"label":"YourAnimes：季度主題曲交叉核對","url":"https://youranimes.tw/bangumi/202510","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-10-16"}],"credits":[{"name":"Kucci","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://chiramune.com/news/index00180000.html","https://youranimes.tw/bangumi/202510"],"verifiedAt":"2026-10-16","targetId":"chitose-kun-wa-ramune-bin-no-naka-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://chiramune.com/news/index00180000.html","https://youranimes.tw/bangumi/202510"],"verifiedAt":"2026-10-16","targetId":"chitose-kun-wa-ramune-bin-no-naka-op-1"}],"usageLabel":"第1クール OP"},{"type":"ED","sequence":1,"titleJa":"陽炎","artistDisplayName":"サイダーガール","songId":"chitose-kun-wa-ramune-bin-no-naka-ed-1-song","sourceMode":"explicit","sources":[{"label":"動畫官網：歌曲與用途","url":"https://chiramune.com/news/index00180000.html","language":"ja","role":"first_party","verifiedAt":"2026-10-16"},{"label":"YourAnimes：季度主題曲交叉核對","url":"https://youranimes.tw/bangumi/202510","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-10-16"}],"credits":[{"name":"サイダーガール","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://chiramune.com/news/index00180000.html","https://youranimes.tw/bangumi/202510"],"verifiedAt":"2026-10-16","targetId":"chitose-kun-wa-ramune-bin-no-naka-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://chiramune.com/news/index00180000.html","https://youranimes.tw/bangumi/202510"],"verifiedAt":"2026-10-16","targetId":"chitose-kun-wa-ramune-bin-no-naka-ed-1"}],"usageLabel":"第1クール ED"}],"verifiedAt":"2026-10-16"},
-  {"anilistId":181447,"id":"curated-181447","slug":"saigo-ni-hitotsu-dake-onegai-shite-mo-yoroshii-deshou-ka","seasonIds":["2025-fall"],"startDate":"2025-10-04","titleJa":"最後にひとつだけお願いしてもよろしいでしょうか","titleZhHant":"最後にひとつだけお願いしてもよろしいでしょうか","titleRomaji":"Saigo ni Hitotsu dake Onegai Shite mo Yoroshii Deshou ka","editorialWeekday":6,"broadcastLabel":"日本首播／詳細時間未整理","status":"finished","officialSiteUrl":"https://saihito-anime.com/","anilistUrl":"https://anilist.co/anime/181447","identifierSource":{"label":"AniList：作品識別公開索引","url":"https://anilist.co/anime/181447/Saigo-ni-Hitotsu-dake-Onegai-Shite-mo-Yoroshii-Deshou-ka/","language":"en"},"sourceReferenceUrls":["https://youranimes.tw/bangumi/202510"],"themes":[{"type":"OP","sequence":1,"titleJa":"戦場の華","artistDisplayName":"CHiCO with HoneyWorks","songId":"saigo-ni-hitotsu-dake-onegai-shite-mo-yoroshii-deshou-ka-op-1-song","sourceMode":"explicit","sources":[{"label":"動畫官網：歌曲與用途","url":"https://saihito-anime.com/music/","language":"ja","role":"first_party","verifiedAt":"2026-10-16"},{"label":"YourAnimes：季度主題曲交叉核對","url":"https://youranimes.tw/bangumi/202510","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-10-16"}],"credits":[{"name":"CHiCO with HoneyWorks","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://saihito-anime.com/music/","https://youranimes.tw/bangumi/202510"],"verifiedAt":"2026-10-16","targetId":"saigo-ni-hitotsu-dake-onegai-shite-mo-yoroshii-deshou-ka-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://saihito-anime.com/music/","https://youranimes.tw/bangumi/202510"],"verifiedAt":"2026-10-16","targetId":"saigo-ni-hitotsu-dake-onegai-shite-mo-yoroshii-deshou-ka-op-1"}]},{"type":"ED","sequence":1,"titleJa":"インフェリア","artistDisplayName":"シユイ","songId":"saigo-ni-hitotsu-dake-onegai-shite-mo-yoroshii-deshou-ka-ed-1-song","sourceMode":"explicit","sources":[{"label":"動畫官網：歌曲與用途","url":"https://saihito-anime.com/music/","language":"ja","role":"first_party","verifiedAt":"2026-10-16"},{"label":"YourAnimes：季度主題曲交叉核對","url":"https://youranimes.tw/bangumi/202510","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-10-16"}],"credits":[{"name":"シユイ","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://saihito-anime.com/music/","https://youranimes.tw/bangumi/202510"],"verifiedAt":"2026-10-16","targetId":"saigo-ni-hitotsu-dake-onegai-shite-mo-yoroshii-deshou-ka-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://saihito-anime.com/music/","https://youranimes.tw/bangumi/202510"],"verifiedAt":"2026-10-16","targetId":"saigo-ni-hitotsu-dake-onegai-shite-mo-yoroshii-deshou-ka-ed-1"}]}],"verifiedAt":"2026-10-16"},
-  {"anilistId":194447,"id":"curated-194447","slug":"isekai-quartet-3","seasonIds":["2025-fall"],"startDate":"2025-10-13","titleJa":"異世界かるてっと3","titleZhHant":"異世界かるてっと3","titleRomaji":"Isekai Quartet 3","editorialWeekday":1,"broadcastLabel":"日本首播／詳細時間未整理","status":"finished","officialSiteUrl":"https://isekai-quartet.com/","anilistUrl":"https://anilist.co/anime/194447","identifierSource":{"label":"YourAnimes：作品身分與季度交叉核對","url":"https://youranimes.tw/bangumi/202510","language":"zh-Hant"},"sourceReferenceUrls":["https://youranimes.tw/bangumi/202510","https://isekai-quartet.com/"],"themes":[{"type":"OP","sequence":1,"titleJa":"異世界こんちぇると","artistDisplayName":"アインズ（CV：日野 聡）、カズマ（CV：福島 潤）、スバル（CV：小林裕介）、ターニャ（CV：悠木 碧）","songId":"isekai-quartet-3-op-1-song","sourceMode":"explicit","sources":[{"label":"動畫官網：歌曲與用途","url":"https://isekai-quartet.com/music.html","language":"ja","role":"first_party","verifiedAt":"2026-10-16"},{"label":"YourAnimes：季度主題曲交叉核對","url":"https://youranimes.tw/bangumi/202510","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-10-16"}],"credits":[{"name":"hotaru","role":"lyrics"},{"name":"大石昌良","role":"composition"},{"name":"うたたね歌菜","role":"arrangement"},{"name":"アインズ（CV：日野 聡）","role":"vocals"},{"name":"カズマ（CV：福島 潤）","role":"vocals"},{"name":"スバル（CV：小林裕介）","role":"vocals"},{"name":"ターニャ（CV：悠木 碧）","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://isekai-quartet.com/music.html","https://youranimes.tw/bangumi/202510"],"verifiedAt":"2026-10-16","targetId":"isekai-quartet-3-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://isekai-quartet.com/music.html","https://youranimes.tw/bangumi/202510"],"verifiedAt":"2026-10-16","targetId":"isekai-quartet-3-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://isekai-quartet.com/music.html"],"verifiedAt":"2026-10-16"},{"target":"song","fields":["date"],"sourceUrls":["https://isekai-quartet.com/music.html"],"verifiedAt":"2026-10-16","targetId":"isekai-quartet-3-op-1-song"}],"releaseDate":"2025-10-14"},{"type":"ED","sequence":1,"titleJa":"君色、僕色","artistDisplayName":"鈴木このみ、伊東歌詞太郎","songId":"isekai-quartet-3-ed-1-song","sourceMode":"explicit","sources":[{"label":"動畫官網：歌曲與用途","url":"https://isekai-quartet.com/music.html","language":"ja","role":"first_party","verifiedAt":"2026-10-16"},{"label":"YourAnimes：季度主題曲交叉核對","url":"https://youranimes.tw/bangumi/202510","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-10-16"}],"credits":[{"name":"鈴木このみ","role":"vocals"},{"name":"伊東歌詞太郎","role":"vocals"},{"name":"ヒゲドライバー","role":"lyrics"},{"name":"ヒゲドライバー","role":"composition"},{"name":"ヒゲドライバー","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://isekai-quartet.com/music.html","https://youranimes.tw/bangumi/202510"],"verifiedAt":"2026-10-16","targetId":"isekai-quartet-3-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://isekai-quartet.com/music.html","https://youranimes.tw/bangumi/202510"],"verifiedAt":"2026-10-16","targetId":"isekai-quartet-3-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://isekai-quartet.com/music.html"],"verifiedAt":"2026-10-16"},{"target":"song","fields":["date"],"sourceUrls":["https://isekai-quartet.com/music.html"],"verifiedAt":"2026-10-16","targetId":"isekai-quartet-3-ed-1-song"}],"releaseDate":"2025-10-14"}],"verifiedAt":"2026-10-16"},
-  {"anilistId":179302,"id":"curated-179302","slug":"sanda","seasonIds":["2025-fall"],"startDate":"2025-10-04","titleJa":"SANDA","titleZhHant":"SANDA","titleRomaji":"SANDA","editorialWeekday":6,"broadcastLabel":"日本首播／詳細時間未整理","status":"finished","officialSiteUrl":"https://sanda.red/","anilistUrl":"https://anilist.co/anime/179302","identifierSource":{"label":"AniList：作品識別公開索引","url":"https://anilist.co/anime/179302/SANDA","language":"en"},"sourceReferenceUrls":["https://youranimes.tw/bangumi/202510"],"themes":[{"type":"OP","sequence":1,"titleJa":"アダルトチックチルドレン","artistDisplayName":"yama","songId":"sanda-op-1-song","sourceMode":"explicit","sources":[{"label":"動畫官網：歌曲與用途","url":"https://sanda.red/music/","language":"ja","role":"first_party","verifiedAt":"2026-10-16"},{"label":"YourAnimes：季度主題曲交叉核對","url":"https://youranimes.tw/bangumi/202510","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-10-16"}],"credits":[{"name":"yama","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://sanda.red/music/","https://youranimes.tw/bangumi/202510"],"verifiedAt":"2026-10-16","targetId":"sanda-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://sanda.red/music/","https://youranimes.tw/bangumi/202510"],"verifiedAt":"2026-10-16","targetId":"sanda-op-1"},{"target":"song","fields":["date"],"sourceUrls":["https://sanda.red/music/"],"verifiedAt":"2026-10-16","targetId":"sanda-op-1-song"}],"releaseDate":"2025-10-03"},{"type":"ED","sequence":1,"titleJa":"ダイアリー","artistDisplayName":"崎山蒼志","songId":"sanda-ed-1-song","sourceMode":"explicit","sources":[{"label":"動畫官網：歌曲與用途","url":"https://sanda.red/music/","language":"ja","role":"first_party","verifiedAt":"2026-10-16"},{"label":"YourAnimes：季度主題曲交叉核對","url":"https://youranimes.tw/bangumi/202510","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-10-16"}],"credits":[{"name":"崎山蒼志","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://sanda.red/music/","https://youranimes.tw/bangumi/202510"],"verifiedAt":"2026-10-16","targetId":"sanda-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://sanda.red/music/","https://youranimes.tw/bangumi/202510"],"verifiedAt":"2026-10-16","targetId":"sanda-ed-1"},{"target":"song","fields":["date"],"sourceUrls":["https://sanda.red/music/"],"verifiedAt":"2026-10-16","targetId":"sanda-ed-1-song"}],"releaseDate":"2025-10-03"}],"verifiedAt":"2026-10-16"},
+  {
+    "anilistId": 177937,
+    "id": "curated-177937",
+    "slug": "spy-family-season-3",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "startDate": "2025-10-04",
+    "titleJa": "SPY×FAMILY Season 3",
+    "titleZhHant": "SPY×FAMILY Season 3",
+    "titleRomaji": "SPY×FAMILY Season 3",
+    "editorialWeekday": 6,
+    "broadcastLabel": "日本首播／詳細時間未整理",
+    "status": "finished",
+    "officialSiteUrl": "https://spy-family.net/tvseries/",
+    "anilistUrl": "https://anilist.co/anime/177937",
+    "identifierSource": {
+      "label": "AniList：作品識別公開索引",
+      "url": "https://anilist.co/anime/177937/",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://spy-family.net/news/?p=2014"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "灯を護る",
+        "artistDisplayName": "スピッツ",
+        "songId": "spy-family-season-3-op-1-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官網：歌曲與用途",
+            "url": "https://spy-family.net/tvseries/music/music_op_season3.php",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "label": "YourAnimes：季度主題曲交叉核對",
+            "url": "https://youranimes.tw/bangumi/202510",
+            "language": "zh-Hant",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "スピッツ",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://spy-family.net/tvseries/music/music_op_season3.php",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "spy-family-season-3-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://spy-family.net/tvseries/music/music_op_season3.php",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "spy-family-season-3-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://spy-family.net/tvseries/music/music_op_season3.php"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "spy-family-season-3-op-1-song"
+          }
+        ],
+        "releaseDate": "2025-10-06"
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "Actor",
+        "artistDisplayName": "幾田りら",
+        "songId": "spy-family-season-3-ed-1-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官網：歌曲與用途",
+            "url": "https://spy-family.net/tvseries/music/music_ed_season3.php",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "label": "YourAnimes：季度主題曲交叉核對",
+            "url": "https://youranimes.tw/bangumi/202510",
+            "language": "zh-Hant",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "幾田りら",
+            "role": "vocals"
+          },
+          {
+            "name": "幾田りら",
+            "role": "lyrics"
+          },
+          {
+            "name": "幾田りら",
+            "role": "composition"
+          },
+          {
+            "name": "井上暖之",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://spy-family.net/tvseries/music/music_ed_season3.php",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "spy-family-season-3-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://spy-family.net/tvseries/music/music_ed_season3.php",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "spy-family-season-3-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://spy-family.net/tvseries/music/music_ed_season3.php"
+            ],
+            "verifiedAt": "2026-10-16"
+          }
+        ]
+      }
+    ],
+    "verifiedAt": "2026-10-16"
+  },
+  {
+    "anilistId": 170577,
+    "id": "curated-170577",
+    "slug": "tondemo-skill-de-isekai-hourou-meshi-2",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "startDate": "2025-10-08",
+    "titleJa": "とんでもスキルで異世界放浪メシ2",
+    "titleZhHant": "とんでもスキルで異世界放浪メシ2",
+    "titleRomaji": "Tondemo Skill de Isekai Hourou Meshi 2",
+    "editorialWeekday": 3,
+    "broadcastLabel": "日本首播／詳細時間未整理",
+    "status": "finished",
+    "officialSiteUrl": "https://tondemoskill-anime.com/",
+    "anilistUrl": "https://anilist.co/anime/170577",
+    "identifierSource": {
+      "label": "YourAnimes：作品身分與季度交叉核對",
+      "url": "https://youranimes.tw/bangumi/202510",
+      "language": "zh-Hant"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://tondemoskill-anime.com/news/120/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "yummy goodday",
+        "artistDisplayName": "CENT(セントチヒロ・チッチ)",
+        "songId": "tondemo-skill-de-isekai-hourou-meshi-2-op-1-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官網：歌曲與用途",
+            "url": "https://tondemoskill-anime.com/music/opening/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "label": "YourAnimes：季度主題曲交叉核對",
+            "url": "https://youranimes.tw/bangumi/202510",
+            "language": "zh-Hant",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "CENT(セントチヒロ・チッチ)",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tondemoskill-anime.com/music/opening/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tondemo-skill-de-isekai-hourou-meshi-2-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tondemoskill-anime.com/music/opening/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tondemo-skill-de-isekai-hourou-meshi-2-op-1"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "SALT AND PEPPER",
+        "artistDisplayName": "chelmico",
+        "songId": "tondemo-skill-de-isekai-hourou-meshi-2-ed-1-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官網：歌曲與用途",
+            "url": "https://tondemoskill-anime.com/music/ending/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "label": "YourAnimes：季度主題曲交叉核對",
+            "url": "https://youranimes.tw/bangumi/202510",
+            "language": "zh-Hant",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "chelmico",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tondemoskill-anime.com/music/ending/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tondemo-skill-de-isekai-hourou-meshi-2-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tondemoskill-anime.com/music/ending/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tondemo-skill-de-isekai-hourou-meshi-2-ed-1"
+          }
+        ]
+      }
+    ],
+    "verifiedAt": "2026-10-16"
+  },
+  {
+    "anilistId": 153800,
+    "id": "curated-153800",
+    "slug": "one-punch-man-3",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "startDate": "2025-10-12",
+    "titleJa": "ワンパンマン 第3期",
+    "titleZhHant": "ワンパンマン 第3期",
+    "titleRomaji": "One Punch Man 3",
+    "editorialWeekday": 7,
+    "broadcastLabel": "日本首播／詳細時間未整理",
+    "status": "finished",
+    "officialSiteUrl": "https://onepunchman-anime.net/",
+    "anilistUrl": "https://anilist.co/anime/153800",
+    "identifierSource": {
+      "label": "AniList：作品識別公開索引",
+      "url": "https://anilist.co/anime/153800/One-Punch-Man-3",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Get No Satisfied !",
+        "artistDisplayName": "JAM Project feat.BABYMETAL",
+        "songId": "one-punch-man-3-op-1-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官網：歌曲與用途",
+            "url": "https://onepunchman-anime.net/news/archives/6754",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "label": "YourAnimes：季度主題曲交叉核對",
+            "url": "https://youranimes.tw/bangumi/202510",
+            "language": "zh-Hant",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "JAM Project feat.BABYMETAL",
+            "role": "vocals"
+          },
+          {
+            "name": "影山ヒロノブ",
+            "role": "lyrics"
+          },
+          {
+            "name": "影山ヒロノブ",
+            "role": "composition"
+          },
+          {
+            "name": "TLICK",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://onepunchman-anime.net/news/archives/6754",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "one-punch-man-3-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://onepunchman-anime.net/news/archives/6754",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "one-punch-man-3-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://onepunchman-anime.net/news/archives/6754"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://onepunchman-anime.net/news/archives/6754"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "one-punch-man-3-op-1-song"
+          }
+        ],
+        "releaseDate": "2025-10-13"
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "そこに有る灯り",
+        "artistDisplayName": "古川 慎",
+        "songId": "one-punch-man-3-ed-1-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官網：歌曲與用途",
+            "url": "https://onepunchman-anime.net/news/archives/6754",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "label": "YourAnimes：季度主題曲交叉核對",
+            "url": "https://youranimes.tw/bangumi/202510",
+            "language": "zh-Hant",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "古川 慎",
+            "role": "vocals"
+          },
+          {
+            "name": "磯谷佳江",
+            "role": "lyrics"
+          },
+          {
+            "name": "本多友紀（Arte Refact）",
+            "role": "composition"
+          },
+          {
+            "name": "水野谷 怜（Arte Refact）",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://onepunchman-anime.net/news/archives/6754",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "one-punch-man-3-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://onepunchman-anime.net/news/archives/6754",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "one-punch-man-3-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://onepunchman-anime.net/news/archives/6754"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://onepunchman-anime.net/news/archives/6754"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "one-punch-man-3-ed-1-song"
+          }
+        ],
+        "releaseDate": "2025-10-13"
+      }
+    ],
+    "verifiedAt": "2026-10-16"
+  },
+  {
+    "anilistId": 185801,
+    "id": "curated-185801",
+    "slug": "nageki-no-bourei-wa-intai-shitai-part-2",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "startDate": "2025-10-06",
+    "titleJa": "嘆きの亡霊は引退したい 第2クール",
+    "titleZhHant": "嘆きの亡霊は引退したい 第2クール",
+    "titleRomaji": "Nageki no Bourei wa Intai Shitai Part 2",
+    "editorialWeekday": 1,
+    "broadcastLabel": "日本TV放送",
+    "status": "finished",
+    "officialSiteUrl": "https://nageki-anime.com/",
+    "anilistUrl": "https://anilist.co/anime/185801",
+    "identifierSource": {
+      "label": "YourAnimes：作品身分與季度交叉核對",
+      "url": "https://youranimes.tw/bangumi/202510",
+      "language": "zh-Hant"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://nageki-anime.com/news/detail/jdpf85udv0"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "アルゴリズム",
+        "artistDisplayName": "安野希世乃",
+        "songId": "nageki-no-bourei-wa-intai-shitai-part-2-op-1-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官網：歌曲與用途",
+            "url": "https://nageki-anime.com/music/detail/48sh46wesfci",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "label": "YourAnimes：季度主題曲交叉核對",
+            "url": "https://youranimes.tw/bangumi/202510",
+            "language": "zh-Hant",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "安野希世乃",
+            "role": "vocals"
+          },
+          {
+            "name": "西 直紀",
+            "role": "lyrics"
+          },
+          {
+            "name": "古閑翔平",
+            "role": "composition"
+          },
+          {
+            "name": "古閑翔平",
+            "role": "arrangement"
+          },
+          {
+            "name": "YOURNESS（演奏）",
+            "role": "other"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://nageki-anime.com/music/detail/48sh46wesfci",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "nageki-no-bourei-wa-intai-shitai-part-2-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://nageki-anime.com/music/detail/48sh46wesfci",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "nageki-no-bourei-wa-intai-shitai-part-2-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://nageki-anime.com/music/detail/48sh46wesfci"
+            ],
+            "verifiedAt": "2026-10-16"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "夢へのヒトカケラ",
+        "artistDisplayName": "i☆Ris",
+        "songId": "nageki-no-bourei-wa-intai-shitai-part-2-ed-1-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官網：歌曲與用途",
+            "url": "https://nageki-anime.com/music/detail/6z4-1n4ir",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "label": "YourAnimes：季度主題曲交叉核對",
+            "url": "https://youranimes.tw/bangumi/202510",
+            "language": "zh-Hant",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "i☆Ris",
+            "role": "vocals"
+          },
+          {
+            "name": "松隈ケンタ",
+            "role": "lyrics"
+          },
+          {
+            "name": "あやか（GBB）",
+            "role": "lyrics"
+          },
+          {
+            "name": "松隈ケンタ",
+            "role": "composition"
+          },
+          {
+            "name": "SCRAMBLES",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://nageki-anime.com/music/detail/6z4-1n4ir",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "nageki-no-bourei-wa-intai-shitai-part-2-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://nageki-anime.com/music/detail/6z4-1n4ir",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "nageki-no-bourei-wa-intai-shitai-part-2-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://nageki-anime.com/music/detail/6z4-1n4ir"
+            ],
+            "verifiedAt": "2026-10-16"
+          }
+        ]
+      }
+    ],
+    "verifiedAt": "2026-10-16",
+    "broadcastTimeJst": "23:30"
+  },
+  {
+    "anilistId": 183385,
+    "id": "curated-183385",
+    "slug": "watashi-wo-tabetai-hitodenashi",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "startDate": "2025-10-02",
+    "titleJa": "私を喰べたい、ひとでなし",
+    "titleZhHant": "私を喰べたい、ひとでなし",
+    "titleRomaji": "Watashi wo Tabetai, Hitodenashi",
+    "editorialWeekday": 4,
+    "broadcastLabel": "日本首播／詳細時間未整理",
+    "status": "finished",
+    "officialSiteUrl": "https://wata-tabe.com/",
+    "anilistUrl": "https://anilist.co/anime/183385",
+    "identifierSource": {
+      "label": "Wikidata：作品與外部識別",
+      "url": "https://www.wikidata.org/wiki/Q130602579",
+      "language": "multi"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://wata-tabe.com/news/157/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "贄-nie-",
+        "artistDisplayName": "吉乃",
+        "songId": "watashi-wo-tabetai-hitodenashi-op-1-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官網：歌曲與用途",
+            "url": "https://wata-tabe.com/music/opening/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "label": "YourAnimes：季度主題曲交叉核對",
+            "url": "https://youranimes.tw/bangumi/202510",
+            "language": "zh-Hant",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "吉乃",
+            "role": "vocals"
+          },
+          {
+            "name": "ユリイ・カノン",
+            "role": "lyrics"
+          },
+          {
+            "name": "ユリイ・カノン",
+            "role": "composition"
+          },
+          {
+            "name": "ユリイ・カノン",
+            "role": "arrangement"
+          },
+          {
+            "name": "Naoki Itai（MUSIC FOR MUSIC）",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://wata-tabe.com/music/opening/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "watashi-wo-tabetai-hitodenashi-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://wata-tabe.com/music/opening/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "watashi-wo-tabetai-hitodenashi-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://wata-tabe.com/music/opening/"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://wata-tabe.com/music/opening/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "watashi-wo-tabetai-hitodenashi-op-1-song"
+          }
+        ],
+        "releaseDate": "2025-10-02"
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "リリィ",
+        "artistDisplayName": "八百歳比名子（CV:上田麗奈）",
+        "songId": "watashi-wo-tabetai-hitodenashi-ed-1-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官網：歌曲與用途",
+            "url": "https://wata-tabe.com/music/ending/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "label": "YourAnimes：季度主題曲交叉核對",
+            "url": "https://youranimes.tw/bangumi/202510",
+            "language": "zh-Hant",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "八百歳比名子（CV:上田麗奈）",
+            "role": "vocals"
+          },
+          {
+            "name": "北澤ゆうほ",
+            "role": "lyrics"
+          },
+          {
+            "name": "北澤ゆうほ",
+            "role": "composition"
+          },
+          {
+            "name": "佐藤厚仁",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://wata-tabe.com/music/ending/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "watashi-wo-tabetai-hitodenashi-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://wata-tabe.com/music/ending/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "watashi-wo-tabetai-hitodenashi-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://wata-tabe.com/music/ending/"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://wata-tabe.com/music/ending/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "watashi-wo-tabetai-hitodenashi-ed-1-song"
+          }
+        ],
+        "releaseDate": "2025-10-03"
+      },
+      {
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "太陽、なってあげよっか？♡",
+        "artistDisplayName": "社 美胡（CV:ファイルーズあい）",
+        "songId": "watashi-wo-tabetai-hitodenashi-ed-2-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官網：歌曲與用途",
+            "url": "https://wata-tabe.com/music/ending2/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "label": "アニシル：主題曲交叉核對",
+            "url": "https://www.anisil.com/animes/6417-%E7%A7%81%E3%82%92%E5%96%B0%E3%81%B9%E3%81%9F%E3%81%84%E3%80%81%E3%81%B2%E3%81%A8%E3%81%A7%E3%81%AA%E3%81%97",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "社 美胡（CV:ファイルーズあい）",
+            "role": "vocals"
+          },
+          {
+            "name": "安藤紗々",
+            "role": "lyrics"
+          },
+          {
+            "name": "苗川 采",
+            "role": "lyrics"
+          },
+          {
+            "name": "神田ジョン",
+            "role": "composition"
+          },
+          {
+            "name": "神田ジョン",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://wata-tabe.com/music/ending2/",
+              "https://www.anisil.com/animes/6417-%E7%A7%81%E3%82%92%E5%96%B0%E3%81%B9%E3%81%9F%E3%81%84%E3%80%81%E3%81%B2%E3%81%A8%E3%81%A7%E3%81%AA%E3%81%97"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "watashi-wo-tabetai-hitodenashi-ed-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://wata-tabe.com/music/ending2/",
+              "https://www.anisil.com/animes/6417-%E7%A7%81%E3%82%92%E5%96%B0%E3%81%B9%E3%81%9F%E3%81%84%E3%80%81%E3%81%B2%E3%81%A8%E3%81%A7%E3%81%AA%E3%81%97"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "watashi-wo-tabetai-hitodenashi-ed-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://wata-tabe.com/music/ending2/"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://wata-tabe.com/music/ending2/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "watashi-wo-tabetai-hitodenashi-ed-2-song"
+          }
+        ],
+        "usageLabel": "第4話 ED",
+        "releaseDate": "2025-10-24"
+      },
+      {
+        "type": "ED",
+        "sequence": 3,
+        "titleJa": "リリィ［Another ver.］",
+        "artistDisplayName": "近江汐莉（CV:石川由依）",
+        "songId": "watashi-wo-tabetai-hitodenashi-ed-1-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官網：歌曲與用途",
+            "url": "https://wata-tabe.com/music/ending3/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "label": "アニシル：主題曲交叉核對",
+            "url": "https://www.anisil.com/animes/6417-%E7%A7%81%E3%82%92%E5%96%B0%E3%81%B9%E3%81%9F%E3%81%84%E3%80%81%E3%81%B2%E3%81%A8%E3%81%A7%E3%81%AA%E3%81%97",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "近江汐莉（CV:石川由依）",
+            "role": "vocals"
+          },
+          {
+            "name": "北澤ゆうほ",
+            "role": "lyrics"
+          },
+          {
+            "name": "北澤ゆうほ",
+            "role": "composition"
+          },
+          {
+            "name": "佐藤厚仁",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://wata-tabe.com/music/ending3/",
+              "https://www.anisil.com/animes/6417-%E7%A7%81%E3%82%92%E5%96%B0%E3%81%B9%E3%81%9F%E3%81%84%E3%80%81%E3%81%B2%E3%81%A8%E3%81%A7%E3%81%AA%E3%81%97"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "watashi-wo-tabetai-hitodenashi-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://wata-tabe.com/music/ending3/",
+              "https://www.anisil.com/animes/6417-%E7%A7%81%E3%82%92%E5%96%B0%E3%81%B9%E3%81%9F%E3%81%84%E3%80%81%E3%81%B2%E3%81%A8%E3%81%A7%E3%81%AA%E3%81%97"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "watashi-wo-tabetai-hitodenashi-ed-3"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://wata-tabe.com/music/ending3/"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://wata-tabe.com/music/ending3/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "watashi-wo-tabetai-hitodenashi-ed-1-song"
+          }
+        ],
+        "usageLabel": "第11話 ED",
+        "releaseDate": "2025-12-12"
+      },
+      {
+        "type": "IN",
+        "sequence": 1,
+        "titleJa": "灯る",
+        "artistDisplayName": "Yuqi from UQiYO",
+        "songId": "watashi-wo-tabetai-hitodenashi-in-1-song",
+        "usageLabel": "第5・13話 挿入歌",
+        "sourceMode": "explicit",
+        "credits": [
+          {
+            "name": "Yuqi from UQiYO",
+            "role": "vocals"
+          },
+          {
+            "name": "Yuqi from UQiYO",
+            "role": "lyrics"
+          },
+          {
+            "name": "Yuqi from UQiYO",
+            "role": "composition"
+          },
+          {
+            "name": "Yuqi from UQiYO",
+            "role": "arrangement"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://wata-tabe.com/story/ep05/",
+            "label": "動畫官網：插曲與創作名單",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.anisil.com/animes/6417-%E7%A7%81%E3%82%92%E5%96%B0%E3%81%B9%E3%81%9F%E3%81%84%E3%80%81%E3%81%B2%E3%81%A8%E3%81%A7%E3%81%AA%E3%81%97",
+            "label": "主題曲交叉核對",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://wata-tabe.com/story/",
+            "label": "第13話公開credits",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://wata-tabe.com/story/ep05/",
+              "https://www.anisil.com/animes/6417-%E7%A7%81%E3%82%92%E5%96%B0%E3%81%B9%E3%81%9F%E3%81%84%E3%80%81%E3%81%B2%E3%81%A8%E3%81%A7%E3%81%AA%E3%81%97"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "watashi-wo-tabetai-hitodenashi-in-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://wata-tabe.com/story/ep05/",
+              "https://www.anisil.com/animes/6417-%E7%A7%81%E3%82%92%E5%96%B0%E3%81%B9%E3%81%9F%E3%81%84%E3%80%81%E3%81%B2%E3%81%A8%E3%81%A7%E3%81%AA%E3%81%97"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "watashi-wo-tabetai-hitodenashi-in-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://wata-tabe.com/story/ep05/"
+            ],
+            "verifiedAt": "2026-10-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 2,
+        "titleJa": "通り雨のように",
+        "artistDisplayName": "Yuqi from UQiYO",
+        "songId": "watashi-wo-tabetai-hitodenashi-in-2-song",
+        "usageLabel": "第7・12話 挿入歌",
+        "sourceMode": "explicit",
+        "credits": [
+          {
+            "name": "Yuqi from UQiYO",
+            "role": "vocals"
+          },
+          {
+            "name": "Yuqi from UQiYO",
+            "role": "lyrics"
+          },
+          {
+            "name": "井内啓二",
+            "role": "composition"
+          },
+          {
+            "name": "井内啓二",
+            "role": "arrangement"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://wata-tabe.com/story/ep07/",
+            "label": "動畫官網：插曲與創作名單",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.anisil.com/animes/6417-%E7%A7%81%E3%82%92%E5%96%B0%E3%81%B9%E3%81%9F%E3%81%84%E3%80%81%E3%81%B2%E3%81%A8%E3%81%A7%E3%81%AA%E3%81%97",
+            "label": "主題曲交叉核對",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://wata-tabe.com/story/ep12/",
+            "label": "第12話公開credits",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://wata-tabe.com/story/ep07/",
+              "https://www.anisil.com/animes/6417-%E7%A7%81%E3%82%92%E5%96%B0%E3%81%B9%E3%81%9F%E3%81%84%E3%80%81%E3%81%B2%E3%81%A8%E3%81%A7%E3%81%AA%E3%81%97"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "watashi-wo-tabetai-hitodenashi-in-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://wata-tabe.com/story/ep07/",
+              "https://www.anisil.com/animes/6417-%E7%A7%81%E3%82%92%E5%96%B0%E3%81%B9%E3%81%9F%E3%81%84%E3%80%81%E3%81%B2%E3%81%A8%E3%81%A7%E3%81%AA%E3%81%97"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "watashi-wo-tabetai-hitodenashi-in-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://wata-tabe.com/story/ep07/"
+            ],
+            "verifiedAt": "2026-10-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 3,
+        "titleJa": "泡",
+        "artistDisplayName": "Yuqi from UQiYO",
+        "songId": "watashi-wo-tabetai-hitodenashi-in-3-song",
+        "usageLabel": "第11・12話 挿入歌",
+        "sourceMode": "explicit",
+        "credits": [
+          {
+            "name": "Yuqi from UQiYO",
+            "role": "vocals"
+          },
+          {
+            "name": "Yuqi from UQiYO",
+            "role": "lyrics"
+          },
+          {
+            "name": "井内啓二",
+            "role": "composition"
+          },
+          {
+            "name": "井内啓二",
+            "role": "arrangement"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://wata-tabe.com/story/ep11/",
+            "label": "動畫官網：插曲與創作名單",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.anisil.com/animes/6417-%E7%A7%81%E3%82%92%E5%96%B0%E3%81%B9%E3%81%9F%E3%81%84%E3%80%81%E3%81%B2%E3%81%A8%E3%81%A7%E3%81%AA%E3%81%97",
+            "label": "主題曲交叉核對",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://wata-tabe.com/story/ep12/",
+            "label": "第12話公開credits",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://wata-tabe.com/story/ep11/",
+              "https://www.anisil.com/animes/6417-%E7%A7%81%E3%82%92%E5%96%B0%E3%81%B9%E3%81%9F%E3%81%84%E3%80%81%E3%81%B2%E3%81%A8%E3%81%A7%E3%81%AA%E3%81%97"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "watashi-wo-tabetai-hitodenashi-in-3-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://wata-tabe.com/story/ep11/",
+              "https://www.anisil.com/animes/6417-%E7%A7%81%E3%82%92%E5%96%B0%E3%81%B9%E3%81%9F%E3%81%84%E3%80%81%E3%81%B2%E3%81%A8%E3%81%A7%E3%81%AA%E3%81%97"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "watashi-wo-tabetai-hitodenashi-in-3"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://wata-tabe.com/story/ep11/"
+            ],
+            "verifiedAt": "2026-10-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 4,
+        "titleJa": "愛し子",
+        "artistDisplayName": "Yuqi from UQiYO",
+        "songId": "watashi-wo-tabetai-hitodenashi-in-4-song",
+        "usageLabel": "第12話 挿入歌",
+        "sourceMode": "explicit",
+        "credits": [
+          {
+            "name": "Yuqi from UQiYO",
+            "role": "vocals"
+          },
+          {
+            "name": "Yuqi from UQiYO",
+            "role": "lyrics"
+          },
+          {
+            "name": "井内啓二",
+            "role": "composition"
+          },
+          {
+            "name": "井内啓二",
+            "role": "arrangement"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://wata-tabe.com/story/ep12/",
+            "label": "動畫官網：插曲與創作名單",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.anisil.com/animes/6417-%E7%A7%81%E3%82%92%E5%96%B0%E3%81%B9%E3%81%9F%E3%81%84%E3%80%81%E3%81%B2%E3%81%A8%E3%81%A7%E3%81%AA%E3%81%97",
+            "label": "主題曲交叉核對",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://wata-tabe.com/story/ep12/",
+              "https://www.anisil.com/animes/6417-%E7%A7%81%E3%82%92%E5%96%B0%E3%81%B9%E3%81%9F%E3%81%84%E3%80%81%E3%81%B2%E3%81%A8%E3%81%A7%E3%81%AA%E3%81%97"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "watashi-wo-tabetai-hitodenashi-in-4-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://wata-tabe.com/story/ep12/",
+              "https://www.anisil.com/animes/6417-%E7%A7%81%E3%82%92%E5%96%B0%E3%81%B9%E3%81%9F%E3%81%84%E3%80%81%E3%81%B2%E3%81%A8%E3%81%A7%E3%81%AA%E3%81%97"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "watashi-wo-tabetai-hitodenashi-in-4"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://wata-tabe.com/story/ep12/"
+            ],
+            "verifiedAt": "2026-10-16"
+          }
+        ]
+      }
+    ],
+    "verifiedAt": "2026-10-16"
+  },
+  {
+    "anilistId": 180082,
+    "id": "curated-180082",
+    "slug": "chitose-kun-wa-ramune-bin-no-naka",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "startDate": "2025-10-07",
+    "titleJa": "千歳くんはラムネ瓶のなか",
+    "titleZhHant": "千歳くんはラムネ瓶のなか",
+    "titleRomaji": "Chitose-kun wa Ramune Bin no Naka",
+    "editorialWeekday": 2,
+    "broadcastLabel": "日本首播／詳細時間未整理",
+    "status": "finished",
+    "officialSiteUrl": "https://chiramune.com/",
+    "anilistUrl": "https://anilist.co/anime/180082",
+    "identifierSource": {
+      "label": "AniList：作品識別公開索引",
+      "url": "https://anilist.co/anime/180082",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://chiramune.com/news/index00180000.html"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "ライアー",
+        "artistDisplayName": "Kucci",
+        "songId": "chitose-kun-wa-ramune-bin-no-naka-op-1-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官網：歌曲與用途",
+            "url": "https://chiramune.com/news/index00180000.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "label": "YourAnimes：季度主題曲交叉核對",
+            "url": "https://youranimes.tw/bangumi/202510",
+            "language": "zh-Hant",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "Kucci",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://chiramune.com/news/index00180000.html",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "chitose-kun-wa-ramune-bin-no-naka-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://chiramune.com/news/index00180000.html",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "chitose-kun-wa-ramune-bin-no-naka-op-1"
+          }
+        ],
+        "usageLabel": "第1クール OP"
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "陽炎",
+        "artistDisplayName": "サイダーガール",
+        "songId": "chitose-kun-wa-ramune-bin-no-naka-ed-1-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官網：歌曲與用途",
+            "url": "https://chiramune.com/news/index00180000.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "label": "YourAnimes：季度主題曲交叉核對",
+            "url": "https://youranimes.tw/bangumi/202510",
+            "language": "zh-Hant",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "サイダーガール",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://chiramune.com/news/index00180000.html",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "chitose-kun-wa-ramune-bin-no-naka-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://chiramune.com/news/index00180000.html",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "chitose-kun-wa-ramune-bin-no-naka-ed-1"
+          }
+        ],
+        "usageLabel": "第1クール ED"
+      }
+    ],
+    "verifiedAt": "2026-10-16"
+  },
+  {
+    "anilistId": 181447,
+    "id": "curated-181447",
+    "slug": "saigo-ni-hitotsu-dake-onegai-shite-mo-yoroshii-deshou-ka",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "startDate": "2025-10-04",
+    "titleJa": "最後にひとつだけお願いしてもよろしいでしょうか",
+    "titleZhHant": "最後にひとつだけお願いしてもよろしいでしょうか",
+    "titleRomaji": "Saigo ni Hitotsu dake Onegai Shite mo Yoroshii Deshou ka",
+    "editorialWeekday": 6,
+    "broadcastLabel": "日本首播／詳細時間未整理",
+    "status": "finished",
+    "officialSiteUrl": "https://saihito-anime.com/",
+    "anilistUrl": "https://anilist.co/anime/181447",
+    "identifierSource": {
+      "label": "AniList：作品識別公開索引",
+      "url": "https://anilist.co/anime/181447/Saigo-ni-Hitotsu-dake-Onegai-Shite-mo-Yoroshii-Deshou-ka/",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "戦場の華",
+        "artistDisplayName": "CHiCO with HoneyWorks",
+        "songId": "saigo-ni-hitotsu-dake-onegai-shite-mo-yoroshii-deshou-ka-op-1-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官網：歌曲與用途",
+            "url": "https://saihito-anime.com/music/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "label": "YourAnimes：季度主題曲交叉核對",
+            "url": "https://youranimes.tw/bangumi/202510",
+            "language": "zh-Hant",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "CHiCO with HoneyWorks",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://saihito-anime.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "saigo-ni-hitotsu-dake-onegai-shite-mo-yoroshii-deshou-ka-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://saihito-anime.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "saigo-ni-hitotsu-dake-onegai-shite-mo-yoroshii-deshou-ka-op-1"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "インフェリア",
+        "artistDisplayName": "シユイ",
+        "songId": "saigo-ni-hitotsu-dake-onegai-shite-mo-yoroshii-deshou-ka-ed-1-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官網：歌曲與用途",
+            "url": "https://saihito-anime.com/music/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "label": "YourAnimes：季度主題曲交叉核對",
+            "url": "https://youranimes.tw/bangumi/202510",
+            "language": "zh-Hant",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "シユイ",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://saihito-anime.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "saigo-ni-hitotsu-dake-onegai-shite-mo-yoroshii-deshou-ka-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://saihito-anime.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "saigo-ni-hitotsu-dake-onegai-shite-mo-yoroshii-deshou-ka-ed-1"
+          }
+        ]
+      }
+    ],
+    "verifiedAt": "2026-10-16"
+  },
+  {
+    "anilistId": 194447,
+    "id": "curated-194447",
+    "slug": "isekai-quartet-3",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "startDate": "2025-10-13",
+    "titleJa": "異世界かるてっと3",
+    "titleZhHant": "異世界かるてっと3",
+    "titleRomaji": "Isekai Quartet 3",
+    "editorialWeekday": 1,
+    "broadcastLabel": "日本首播／詳細時間未整理",
+    "status": "finished",
+    "officialSiteUrl": "https://isekai-quartet.com/",
+    "anilistUrl": "https://anilist.co/anime/194447",
+    "identifierSource": {
+      "label": "YourAnimes：作品身分與季度交叉核對",
+      "url": "https://youranimes.tw/bangumi/202510",
+      "language": "zh-Hant"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://isekai-quartet.com/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "異世界こんちぇると",
+        "artistDisplayName": "アインズ（CV：日野 聡）、カズマ（CV：福島 潤）、スバル（CV：小林裕介）、ターニャ（CV：悠木 碧）",
+        "songId": "isekai-quartet-3-op-1-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官網：歌曲與用途",
+            "url": "https://isekai-quartet.com/music.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "label": "YourAnimes：季度主題曲交叉核對",
+            "url": "https://youranimes.tw/bangumi/202510",
+            "language": "zh-Hant",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "hotaru",
+            "role": "lyrics"
+          },
+          {
+            "name": "大石昌良",
+            "role": "composition"
+          },
+          {
+            "name": "うたたね歌菜",
+            "role": "arrangement"
+          },
+          {
+            "name": "アインズ（CV：日野 聡）",
+            "role": "vocals"
+          },
+          {
+            "name": "カズマ（CV：福島 潤）",
+            "role": "vocals"
+          },
+          {
+            "name": "スバル（CV：小林裕介）",
+            "role": "vocals"
+          },
+          {
+            "name": "ターニャ（CV：悠木 碧）",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://isekai-quartet.com/music.html",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "isekai-quartet-3-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://isekai-quartet.com/music.html",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "isekai-quartet-3-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://isekai-quartet.com/music.html"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://isekai-quartet.com/music.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "isekai-quartet-3-op-1-song"
+          }
+        ],
+        "releaseDate": "2025-10-14"
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "君色、僕色",
+        "artistDisplayName": "鈴木このみ、伊東歌詞太郎",
+        "songId": "isekai-quartet-3-ed-1-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官網：歌曲與用途",
+            "url": "https://isekai-quartet.com/music.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "label": "YourAnimes：季度主題曲交叉核對",
+            "url": "https://youranimes.tw/bangumi/202510",
+            "language": "zh-Hant",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "鈴木このみ",
+            "role": "vocals"
+          },
+          {
+            "name": "伊東歌詞太郎",
+            "role": "vocals"
+          },
+          {
+            "name": "ヒゲドライバー",
+            "role": "lyrics"
+          },
+          {
+            "name": "ヒゲドライバー",
+            "role": "composition"
+          },
+          {
+            "name": "ヒゲドライバー",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://isekai-quartet.com/music.html",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "isekai-quartet-3-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://isekai-quartet.com/music.html",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "isekai-quartet-3-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://isekai-quartet.com/music.html"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://isekai-quartet.com/music.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "isekai-quartet-3-ed-1-song"
+          }
+        ],
+        "releaseDate": "2025-10-14"
+      },
+      {
+        "type": "IN",
+        "sequence": 1,
+        "titleJa": "melting days",
+        "artistDisplayName": "前島麻由",
+        "songId": "isekai-quartet-3-in-1-song",
+        "usageLabel": "第7話 挿入歌",
+        "sourceMode": "explicit",
+        "credits": [
+          {
+            "name": "前島麻由",
+            "role": "vocals"
+          },
+          {
+            "name": "草野華余子",
+            "role": "lyrics"
+          },
+          {
+            "name": "草野華余子",
+            "role": "composition"
+          },
+          {
+            "name": "BLACK ALBATROSS",
+            "role": "arrangement"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://isekai-quartet.com/music.html",
+            "label": "動畫官網：插曲與創作名單",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://utaten.com/lyric/sz25112622/",
+            "label": "主題曲交叉核對",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://mayumaeshima.com/news_20251125/",
+            "label": "前島麻由官網：第7話插曲、配信日與官方MV",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://isekai-quartet.com/music.html",
+              "https://utaten.com/lyric/sz25112622/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "isekai-quartet-3-in-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://isekai-quartet.com/music.html",
+              "https://utaten.com/lyric/sz25112622/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "isekai-quartet-3-in-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://isekai-quartet.com/music.html"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "song",
+            "targetId": "isekai-quartet-3-in-1-song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://mayumaeshima.com/news_20251125/"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "isekai-quartet-3-in-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://mayumaeshima.com/news_20251125/"
+            ],
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "releaseDate": "2025-11-25"
+      }
+    ],
+    "verifiedAt": "2026-10-16"
+  },
+  {
+    "anilistId": 179302,
+    "id": "curated-179302",
+    "slug": "sanda",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "startDate": "2025-10-04",
+    "titleJa": "SANDA",
+    "titleZhHant": "SANDA",
+    "titleRomaji": "SANDA",
+    "editorialWeekday": 6,
+    "broadcastLabel": "日本首播／詳細時間未整理",
+    "status": "finished",
+    "officialSiteUrl": "https://sanda.red/",
+    "anilistUrl": "https://anilist.co/anime/179302",
+    "identifierSource": {
+      "label": "AniList：作品識別公開索引",
+      "url": "https://anilist.co/anime/179302/SANDA",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "アダルトチックチルドレン",
+        "artistDisplayName": "yama",
+        "songId": "sanda-op-1-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官網：歌曲與用途",
+            "url": "https://sanda.red/music/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "label": "YourAnimes：季度主題曲交叉核對",
+            "url": "https://youranimes.tw/bangumi/202510",
+            "language": "zh-Hant",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "yama",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://sanda.red/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sanda-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://sanda.red/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sanda-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://sanda.red/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sanda-op-1-song"
+          }
+        ],
+        "releaseDate": "2025-10-03"
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "ダイアリー",
+        "artistDisplayName": "崎山蒼志",
+        "songId": "sanda-ed-1-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官網：歌曲與用途",
+            "url": "https://sanda.red/music/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "label": "YourAnimes：季度主題曲交叉核對",
+            "url": "https://youranimes.tw/bangumi/202510",
+            "language": "zh-Hant",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "崎山蒼志",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://sanda.red/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sanda-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://sanda.red/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sanda-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://sanda.red/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sanda-ed-1-song"
+          }
+        ],
+        "releaseDate": "2025-10-03"
+      }
+    ],
+    "verifiedAt": "2026-10-16"
+  }
 ];
 
-export const curated2025FallAnimeIds: number[] = [177937,170577,153800,185801,183385,180082,181447,194447,179302];
+export const curated2025FallAnimeIds: number[] = [177937, 170577, 153800, 185801, 183385, 180082, 181447, 194447, 179302];
