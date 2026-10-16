@@ -22,6 +22,7 @@ import { curated2024SpringThemeVideos } from "@/data/curated-theme-videos/2024/s
 import { curated2024SummerThemeVideos } from "@/data/curated-theme-videos/2024/summer";
 import { curated2024WinterThemeVideos } from "@/data/curated-theme-videos/2024/winter";
 import { curated2025SpringThemeVideos } from "@/data/curated-theme-videos/2025/spring";
+import { curated2025FallThemeVideos } from "@/data/curated-theme-videos/2025/fall";
 import { curated2025SummerThemeVideos } from "@/data/curated-theme-videos/2025/summer";
 import { curated2025WinterThemeVideos } from "@/data/curated-theme-videos/2025/winter";
 import { curated2026SpringThemeVideos } from "@/data/curated-theme-videos/2026/spring";
@@ -150,6 +151,7 @@ export const curatedThemeVideoRegistry = validateCuratedThemeVideoRegistry([
   { seasonId: "2026-summer", overrides: curated2026SummerThemeVideos },
   { seasonId: "2026-spring", overrides: curated2026SpringThemeVideos },
   { seasonId: "2026-winter", overrides: curated2026WinterThemeVideos },
+  { seasonId: "2025-fall", overrides: curated2025FallThemeVideos },
   { seasonId: "2025-summer", overrides: curated2025SummerThemeVideos },
   { seasonId: "2025-spring", overrides: curated2025SpringThemeVideos },
   { seasonId: "2025-winter", overrides: curated2025WinterThemeVideos },
