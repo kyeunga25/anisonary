@@ -2693,3 +2693,5 @@ Gnosia的FLOOR KILLER依官方公告確認第8話起使用，與原ED分別保�
 全目錄本機29季／1,951部／4,337用途（4,317 OP／ED、17 IN、3 TS），987個不同YouTube歌曲watch外連及1,818筆metadata。2025秋本機81／81筆已核對、70筆核心齊備／11缺口；頂部正式季度表仍以第29批為準，等待GitHub、main CI及Cloudflare live驗收。
 
 本機入口：`/seasons/2025-fall/`、`/anime/yano-kun-no-futsuu-no-hibi/`、`/anime/gnosia/`、`/anime/toujima-tanzaburou-wa-kamen-rider-ni-naritai/`。本批正式驗收後接續第31批2025秋尚未收錄新作、續播與特殊用途；原夏季待辦保留。
+
+同批深化與本機驗收由 `c17ddf1` 保存，[PR #119](https://github.com/kyeunga25/anisonary/pull/119)已建立。接續必要quality與Workers preview檢查、正常合併、main CI、Git tree與Cloudflare live驗收；目前production仍以第29批為準。
