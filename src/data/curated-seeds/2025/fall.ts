@@ -48883,6 +48883,690 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "targetId": "tensei-akujo-no-kuro-rekishi-ed-1-song"
           }
         ]
+      },
+      {
+        "type": "IN",
+        "sequence": 1,
+        "titleJa": "バタフライ・エチュード",
+        "artistDisplayName": "イアナ・マグノリア（CV.青山吉能）",
+        "songId": "tensei-akujo-no-kuro-rekishi-in-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://tenkuro-pr.com/news/161",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/7565",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "イアナ・マグノリア（CV.青山吉能）",
+            "role": "vocals"
+          },
+          {
+            "name": "安藤紗々（Ajiwai）",
+            "role": "lyrics"
+          },
+          {
+            "name": "広川恵一(MONACA)",
+            "role": "composition"
+          },
+          {
+            "name": "広川恵一(MONACA)",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tenkuro-pr.com/news/161",
+              "https://cal.syoboi.jp/tid/7565"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tensei-akujo-no-kuro-rekishi-in-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tenkuro-pr.com/news/161",
+              "https://cal.syoboi.jp/tid/7565"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tensei-akujo-no-kuro-rekishi-in-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tenkuro-pr.com/news/161"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tensei-akujo-no-kuro-rekishi-in-1-song"
+          }
+        ],
+        "usageLabel": "第2話 挿入歌"
+      },
+      {
+        "type": "IN",
+        "sequence": 2,
+        "titleJa": "ファムファタル",
+        "artistDisplayName": "ヨミ・ブラックサレナ（CV.土岐隼一）",
+        "songId": "tensei-akujo-no-kuro-rekishi-in-2-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://tenkuro-pr.com/news/162",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/7565",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "ヨミ・ブラックサレナ（CV.土岐隼一）",
+            "role": "vocals"
+          },
+          {
+            "name": "安藤紗々（Ajiwai）",
+            "role": "lyrics"
+          },
+          {
+            "name": "石濱 翔(MONACA)",
+            "role": "composition"
+          },
+          {
+            "name": "石濱 翔(MONACA)",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tenkuro-pr.com/news/162",
+              "https://cal.syoboi.jp/tid/7565"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tensei-akujo-no-kuro-rekishi-in-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tenkuro-pr.com/news/162",
+              "https://cal.syoboi.jp/tid/7565"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tensei-akujo-no-kuro-rekishi-in-2"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tenkuro-pr.com/news/162"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tensei-akujo-no-kuro-rekishi-in-2-song"
+          }
+        ],
+        "usageLabel": "第3話 挿入歌"
+      },
+      {
+        "type": "IN",
+        "sequence": 3,
+        "titleJa": "beliefs",
+        "artistDisplayName": "ソル・ネモフィラ（CV.小松昌平）、ヨミ・ブラックサレナ（CV.土岐隼一）",
+        "songId": "tensei-akujo-no-kuro-rekishi-in-3-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://tenkuro-pr.com/news/165",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/7565",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "ソル・ネモフィラ（CV.小松昌平）",
+            "role": "vocals"
+          },
+          {
+            "name": "ヨミ・ブラックサレナ（CV.土岐隼一）",
+            "role": "vocals"
+          },
+          {
+            "name": "安藤紗々（Ajiwai）",
+            "role": "lyrics"
+          },
+          {
+            "name": "石濱 翔(MONACA)",
+            "role": "composition"
+          },
+          {
+            "name": "石濱 翔(MONACA)",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tenkuro-pr.com/news/165",
+              "https://cal.syoboi.jp/tid/7565"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tensei-akujo-no-kuro-rekishi-in-3-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tenkuro-pr.com/news/165",
+              "https://cal.syoboi.jp/tid/7565"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tensei-akujo-no-kuro-rekishi-in-3"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tenkuro-pr.com/news/165"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tensei-akujo-no-kuro-rekishi-in-3-song"
+          }
+        ],
+        "usageLabel": "第4話 挿入歌"
+      },
+      {
+        "type": "IN",
+        "sequence": 4,
+        "titleJa": "Préludeを奏でて",
+        "artistDisplayName": "ギノフォード・ダンデライオン（CV.古川慎）",
+        "songId": "tensei-akujo-no-kuro-rekishi-in-4-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://tenkuro-pr.com/news/198",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/7565",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "ギノフォード・ダンデライオン（CV.古川慎）",
+            "role": "vocals"
+          },
+          {
+            "name": "安藤紗々（Ajiwai）",
+            "role": "lyrics"
+          },
+          {
+            "name": "瀬尾祥太郎(MONACA)",
+            "role": "composition"
+          },
+          {
+            "name": "瀬尾祥太郎(MONACA)",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tenkuro-pr.com/news/198",
+              "https://cal.syoboi.jp/tid/7565"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tensei-akujo-no-kuro-rekishi-in-4-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tenkuro-pr.com/news/198",
+              "https://cal.syoboi.jp/tid/7565"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tensei-akujo-no-kuro-rekishi-in-4"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tenkuro-pr.com/news/198"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tensei-akujo-no-kuro-rekishi-in-4-song"
+          }
+        ],
+        "usageLabel": "第5話 挿入歌"
+      },
+      {
+        "type": "IN",
+        "sequence": 5,
+        "titleJa": "LOVING＊KINDNESS",
+        "artistDisplayName": "コノハ・マグノリア（CV.M・A・O）",
+        "songId": "tensei-akujo-no-kuro-rekishi-in-5-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://tenkuro-pr.com/news/223",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/7565",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "コノハ・マグノリア（CV.M・A・O）",
+            "role": "vocals"
+          },
+          {
+            "name": "安藤紗々（Ajiwai）",
+            "role": "lyrics"
+          },
+          {
+            "name": "髙田龍一(MONACA)",
+            "role": "composition"
+          },
+          {
+            "name": "髙田龍一(MONACA)",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tenkuro-pr.com/news/223",
+              "https://cal.syoboi.jp/tid/7565"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tensei-akujo-no-kuro-rekishi-in-5-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tenkuro-pr.com/news/223",
+              "https://cal.syoboi.jp/tid/7565"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tensei-akujo-no-kuro-rekishi-in-5"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tenkuro-pr.com/news/223"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tensei-akujo-no-kuro-rekishi-in-5-song"
+          }
+        ],
+        "usageLabel": "挿入歌"
+      },
+      {
+        "type": "IN",
+        "sequence": 6,
+        "titleJa": "ライトネス",
+        "artistDisplayName": "シャノウ・クレマチス（CV.ランズベリー・アーサー）",
+        "songId": "tensei-akujo-no-kuro-rekishi-in-6-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://tenkuro-pr.com/news/224",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/7565",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "シャノウ・クレマチス（CV.ランズベリー・アーサー）",
+            "role": "vocals"
+          },
+          {
+            "name": "安藤紗々（Ajiwai）",
+            "role": "lyrics"
+          },
+          {
+            "name": "井上馨太(MONACA)",
+            "role": "composition"
+          },
+          {
+            "name": "井上馨太(MONACA)",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tenkuro-pr.com/news/224",
+              "https://cal.syoboi.jp/tid/7565"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tensei-akujo-no-kuro-rekishi-in-6-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tenkuro-pr.com/news/224",
+              "https://cal.syoboi.jp/tid/7565"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tensei-akujo-no-kuro-rekishi-in-6"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tenkuro-pr.com/news/224"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tensei-akujo-no-kuro-rekishi-in-6-song"
+          }
+        ],
+        "usageLabel": "第8話 挿入歌"
+      },
+      {
+        "type": "IN",
+        "sequence": 7,
+        "titleJa": "how I feel",
+        "artistDisplayName": "ソル・ネモフィラ（CV.小松昌平）",
+        "songId": "tensei-akujo-no-kuro-rekishi-in-7-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://tenkuro-pr.com/news/231",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/7565",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "ソル・ネモフィラ（CV.小松昌平）",
+            "role": "vocals"
+          },
+          {
+            "name": "安藤紗々（Ajiwai）",
+            "role": "lyrics"
+          },
+          {
+            "name": "常楽太一(MONACA)",
+            "role": "composition"
+          },
+          {
+            "name": "常楽太一(MONACA)",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tenkuro-pr.com/news/231",
+              "https://cal.syoboi.jp/tid/7565"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tensei-akujo-no-kuro-rekishi-in-7-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tenkuro-pr.com/news/231",
+              "https://cal.syoboi.jp/tid/7565"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tensei-akujo-no-kuro-rekishi-in-7"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tenkuro-pr.com/news/231"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tensei-akujo-no-kuro-rekishi-in-7-song"
+          }
+        ],
+        "usageLabel": "第10話 挿入歌"
+      },
+      {
+        "type": "IN",
+        "sequence": 8,
+        "titleJa": "Merry!!!",
+        "artistDisplayName": "イアナ・マグノリア（CV.青山吉能）、ソル・ネモフィラ（CV.小松昌平）、ヨミ・ブラックサレナ（CV.土岐隼一）",
+        "songId": "tensei-akujo-no-kuro-rekishi-in-8-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://tenkuro-pr.com/news/249",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/7565",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "イアナ・マグノリア（CV.青山吉能）",
+            "role": "vocals"
+          },
+          {
+            "name": "ソル・ネモフィラ（CV.小松昌平）",
+            "role": "vocals"
+          },
+          {
+            "name": "ヨミ・ブラックサレナ（CV.土岐隼一）",
+            "role": "vocals"
+          },
+          {
+            "name": "安藤紗々（Ajiwai）",
+            "role": "lyrics"
+          },
+          {
+            "name": "広川恵一(MONACA)",
+            "role": "composition"
+          },
+          {
+            "name": "広川恵一(MONACA)",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tenkuro-pr.com/news/249",
+              "https://cal.syoboi.jp/tid/7565"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tensei-akujo-no-kuro-rekishi-in-8-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tenkuro-pr.com/news/249",
+              "https://cal.syoboi.jp/tid/7565"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tensei-akujo-no-kuro-rekishi-in-8"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tenkuro-pr.com/news/249"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "tensei-akujo-no-kuro-rekishi-in-8-song"
+          }
+        ],
+        "usageLabel": "第12話 挿入歌"
       }
     ]
   },

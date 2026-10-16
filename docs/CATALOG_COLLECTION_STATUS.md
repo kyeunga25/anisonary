@@ -2810,3 +2810,39 @@ Cloudflare Workers實際CLI部署成功，來源 `6015b1fe1d7649578b4e34a9b603dc
 由第31批正式來源 `6015b1f` 接續。固定範圍2007–2026、資料截止日2026-10-14；目前優先2025→2007，每年秋→夏→春→冬，非成人TV／WEB OP／ED及已確認插曲。2026既有成果保留，後續新作與劇場版／OVA延後。
 
 第32批繼續2025秋尚未收錄的新作、WEB、續播、輪替及特殊用途，約10部／20–30筆。沿用已讀取季度與作品識別來源，按目前公開ID排重，再核對第一方歌曲核心及同批深化；既有ID／URL／來源日期保持穩定。兩輪未明欄位不重搜，僅按第27–31批觸發條件恢復。完成條件為已確認內容通過公開JSON、動畫頁全部歌曲／名單／版本／收錄／來源及緊湊歌單展示、必要檢查，再分段提交、推送、正式部署與live驗收。本批尚未完成；整季及長期目標均未完成。
+
+
+### 第32批核心保存階段
+
+10部新增作品的18筆OP／ED核心已由 `54cd5f8` 保存；《転生悪女の黒歴史》另新增8筆官方確認插曲，均保存角色／CV名義與逐曲作詞、作曲、編曲。共26筆用途，不把8首插曲計入OP／ED分母；尚未完成本批建置及展示驗證，不計入正式發布成果。
+
+| 公開 theme ID | 已確認歌曲／用途 |
+| --- | --- |
+| `kekkon-yubiwa-monogatari-ii-op-1` | Daybreak／OP1／Sizuk |
+| `kekkon-yubiwa-monogatari-ii-ed-1` | any if／ED1／鬼頭明里 |
+| `tensei-akujo-no-kuro-rekishi-op-1` | Black Flame／OP1／KID PHENOMENON from EXILE TRIBE |
+| `tensei-akujo-no-kuro-rekishi-ed-1` | リジェネ／ED1／Zerofrom |
+| `tensei-akujo-no-kuro-rekishi-in-1` | バタフライ・エチュード／IN1／イアナ・マグノリア（CV.青山吉能） |
+| `tensei-akujo-no-kuro-rekishi-in-2` | ファムファタル／IN2／ヨミ・ブラックサレナ（CV.土岐隼一） |
+| `tensei-akujo-no-kuro-rekishi-in-3` | beliefs／IN3／ソル・ネモフィラ（CV.小松昌平）、ヨミ・ブラックサレナ（CV.土岐隼一） |
+| `tensei-akujo-no-kuro-rekishi-in-4` | Préludeを奏でて／IN4／ギノフォード・ダンデライオン（CV.古川慎） |
+| `tensei-akujo-no-kuro-rekishi-in-5` | LOVING＊KINDNESS／IN5／コノハ・マグノリア（CV.M・A・O） |
+| `tensei-akujo-no-kuro-rekishi-in-6` | ライトネス／IN6／シャノウ・クレマチス（CV.ランズベリー・アーサー） |
+| `tensei-akujo-no-kuro-rekishi-in-7` | how I feel／IN7／ソル・ネモフィラ（CV.小松昌平） |
+| `tensei-akujo-no-kuro-rekishi-in-8` | Merry!!!／IN8／イアナ・マグノリア（CV.青山吉能）、ソル・ネモフィラ（CV.小松昌平）、ヨミ・ブラックサレナ（CV.土岐隼一） |
+| `taiyou-yori-mo-mabushii-hoshi-op-1` | Stellar Days／OP1／秦 基博 |
+| `taiyou-yori-mo-mabushii-hoshi-ed-1` | 最新話／ED1／和ぬか |
+| `potion-wagami-wo-tasukeru-op-1` | 恋のマジックポーション／OP1／TRiDENT |
+| `potion-wagami-wo-tasukeru-ed-1` | MIRACRAID／ED1／TRiDENT |
+| `ganglion-ed-1` | ミラクル／ED1／NIKO NIKO TAN TAN |
+| `hyakushou-kizoku-3rd-season-ed-1` | 陰になり日向になり／ED1／pachae |
+| `kagaku-bouken-survival-2nd-season-op-1` | ネバネバ／OP1／MORISAKI WIN |
+| `kagaku-bouken-survival-2nd-season-ed-1` | survival dAnce／ED1／ジオ（松田颯水）×ダイヤ（小松未可子） |
+| `disney-twisted-wonderland-the-animation-episode-of-heartslabyul-op-1` | Piece of my world／OP1／Night Ravens |
+| `disney-twisted-wonderland-the-animation-episode-of-heartslabyul-ed-1` | Obedience／ED1／ハーツラビュル寮 |
+| `cats-eye-2025-op-1` | MAGIC／OP1／Ado |
+| `cats-eye-2025-ed-1` | CAT’S EYE／ED1／Ado |
+| `shuumatsu-no-valkyrie-iii-op-1` | Dead Or Alive／OP1／GLAY |
+| `shuumatsu-no-valkyrie-iii-ed-1` | Last breath, Last record／ED1／早見沙織 |
+
+已處理anime ID：`curated-176298`、`curated-174914`、`curated-186621`、`curated-198561`、`curated-198117`、`curated-185694`、`curated-186736`、`curated-140291`、`curated-184718`、`curated-187921`。未知配信時刻省略；2025 WEB首播與之後TV放送分開，沒有新增2026用途。核心第一方與交叉來源已保存，來源核對日期2026-10-16。
