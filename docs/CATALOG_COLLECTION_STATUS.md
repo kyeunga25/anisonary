@@ -2746,3 +2746,7 @@ Production獨立驗收：29季／1,951部完整API契約及跨endpoint關聯通�
 DIGIMON BEATBREAK本階段只登記已核明2025秋的Mad Pulse／beat up，後續2026 ED不混入秋季；作品結束狀態未另證實，保留unknown。SI-VIS第1クール歌曲與後續季別分開，producer簡介不代替逐曲credits；角色、歌唱者與不同STAGE音源接續核對。
 
 本階段為歌曲核心保存，影片、音源、發行品、平台與已確認插曲接續同批深化；尚未完成整批parser／build或實際展示，不計入頂部正式季度表或production成果。既有ID、URL與來源日期保留。
+
+### 第31批插曲核心階段
+
+已保存7筆有官方及交叉來源的插曲：`ninja-to-gokudou-in-1`（孤独の唄），以及`si-vis-the-sound-of-heroes-in-1`至`si-vis-the-sound-of-heroes-in-6`（MELODEA／幻想曲（アラベスク）を君に／Braver Dreamer／エレジー／ロマンティスト・キラー／プロトスター）。《SI-VIS》6首已保存逐曲作詞、作曲及編曲；角色歌唱與配音分開核對，Bonus Track不當作額外插曲用途。第31批目前10部／27筆核心用途，深化及完整批次檢查仍進行中，尚未發布驗收。

@@ -34586,6 +34586,74 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "targetId": "ninja-to-gokudou-ed-1"
           }
         ]
+      },
+      {
+        "type": "IN",
+        "sequence": 1,
+        "titleJa": "孤独の唄",
+        "artistDisplayName": "佐々木詩織",
+        "songId": "ninja-to-gokudou-in-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "usageLabel": "第3話挿入歌",
+        "sourceMode": "explicit",
+        "credits": [
+          {
+            "name": "佐々木詩織",
+            "role": "vocals"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.ningoku-anime.com/news.html",
+            "label": "官方：插曲身分、動畫用途及已公布創作",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://anison.online/anime/5418",
+            "label": "插曲／收錄與演唱名義交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://music.amazon.co.jp/tracks/B0FWJK82YN",
+            "label": "唱片公司配信 metadata：佐々木詩織演唱名義",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.ningoku-anime.com/news.html",
+              "https://anison.online/anime/5418"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ninja-to-gokudou-in-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.ningoku-anime.com/news.html",
+              "https://anison.online/anime/5418"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ninja-to-gokudou-in-1"
+          }
+        ]
       }
     ]
   },
@@ -35304,6 +35372,508 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
           }
         ],
         "usageLabel": "第1クール ED"
+      },
+      {
+        "type": "IN",
+        "sequence": 1,
+        "titleJa": "MELODEA",
+        "artistDisplayName": "SI-VIS",
+        "songId": "si-vis-the-sound-of-heroes-in-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "usageLabel": "第1話劇中歌",
+        "sourceMode": "explicit",
+        "credits": [
+          {
+            "name": "SI-VIS",
+            "role": "vocals"
+          },
+          {
+            "name": "NiiNo",
+            "role": "lyrics"
+          },
+          {
+            "name": "YUU for YOU",
+            "role": "composition"
+          },
+          {
+            "name": "Yu-Ki Kokubo",
+            "role": "composition"
+          },
+          {
+            "name": "YUU for YOU",
+            "role": "arrangement"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://si-vis.live/news/?id=68880",
+            "label": "官方：插曲身分、動畫用途及已公布創作",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://books.rakuten.co.jp/rb/18420057/",
+            "label": "插曲／收錄與演唱名義交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=68880"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=68880",
+              "https://books.rakuten.co.jp/rb/18420057/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-in-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=68880",
+              "https://books.rakuten.co.jp/rb/18420057/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-in-1"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 2,
+        "titleJa": "幻想曲（アラベスク）を君に",
+        "artistDisplayName": "SI-VIS",
+        "songId": "si-vis-the-sound-of-heroes-in-2-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "usageLabel": "第3話劇中歌",
+        "sourceMode": "explicit",
+        "credits": [
+          {
+            "name": "SI-VIS",
+            "role": "vocals"
+          },
+          {
+            "name": "上坂梨紗",
+            "role": "lyrics"
+          },
+          {
+            "name": "下田晃太郎 (Elements Garden)",
+            "role": "composition"
+          },
+          {
+            "name": "藤永龍太郎 (Elements Garden)",
+            "role": "arrangement"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://si-vis.live/news/?id=68990",
+            "label": "官方：插曲身分、動畫用途及已公布創作",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.lisani.jp/0000293829/",
+            "label": "插曲／收錄與演唱名義交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=68990"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=68990",
+              "https://www.lisani.jp/0000293829/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-in-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=68990",
+              "https://www.lisani.jp/0000293829/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-in-2"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 3,
+        "titleJa": "Braver Dreamer",
+        "artistDisplayName": "SI-VIS",
+        "songId": "si-vis-the-sound-of-heroes-in-3-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "usageLabel": "第6話劇中歌",
+        "sourceMode": "explicit",
+        "credits": [
+          {
+            "name": "SI-VIS",
+            "role": "vocals"
+          },
+          {
+            "name": "上坂梨紗",
+            "role": "lyrics"
+          },
+          {
+            "name": "木村孝明 (KEYTONE)",
+            "role": "composition"
+          },
+          {
+            "name": "木村孝明 (KEYTONE)",
+            "role": "arrangement"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://si-vis.live/news/?id=69100",
+            "label": "官方：插曲身分、動畫用途及已公布創作",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://books.rakuten.co.jp/rb/18420057/",
+            "label": "插曲／收錄與演唱名義交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=69100"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=69100",
+              "https://books.rakuten.co.jp/rb/18420057/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-in-3-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=69100",
+              "https://books.rakuten.co.jp/rb/18420057/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-in-3"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 4,
+        "titleJa": "エレジー",
+        "artistDisplayName": "SI-VIS",
+        "songId": "si-vis-the-sound-of-heroes-in-4-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "usageLabel": "第8話劇中歌",
+        "sourceMode": "explicit",
+        "credits": [
+          {
+            "name": "SI-VIS",
+            "role": "vocals"
+          },
+          {
+            "name": "上坂梨紗",
+            "role": "lyrics"
+          },
+          {
+            "name": "宮崎諒-amazuti-",
+            "role": "composition"
+          },
+          {
+            "name": "宮崎諒-amazuti-",
+            "role": "arrangement"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://si-vis.live/news/?id=69221",
+            "label": "官方：插曲身分、動畫用途及已公布創作",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.lisani.jp/0000296179/",
+            "label": "插曲／收錄與演唱名義交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=69221"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=69221",
+              "https://www.lisani.jp/0000296179/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-in-4-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=69221",
+              "https://www.lisani.jp/0000296179/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-in-4"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 5,
+        "titleJa": "ロマンティスト・キラー",
+        "artistDisplayName": "SI-VIS",
+        "songId": "si-vis-the-sound-of-heroes-in-5-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "usageLabel": "第9話劇中歌",
+        "sourceMode": "explicit",
+        "credits": [
+          {
+            "name": "SI-VIS",
+            "role": "vocals"
+          },
+          {
+            "name": "上坂梨紗",
+            "role": "lyrics"
+          },
+          {
+            "name": "塩野海",
+            "role": "composition"
+          },
+          {
+            "name": "塩野海",
+            "role": "arrangement"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://si-vis.live/news/?id=69217",
+            "label": "官方：插曲身分、動畫用途及已公布創作",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.lisani.jp/0000296661/",
+            "label": "插曲／收錄與演唱名義交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=69217"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=69217",
+              "https://www.lisani.jp/0000296661/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-in-5-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=69217",
+              "https://www.lisani.jp/0000296661/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-in-5"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 6,
+        "titleJa": "プロトスター",
+        "artistDisplayName": "SI-VIS",
+        "songId": "si-vis-the-sound-of-heroes-in-6-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "usageLabel": "第12話劇中歌",
+        "sourceMode": "explicit",
+        "credits": [
+          {
+            "name": "SI-VIS",
+            "role": "vocals"
+          },
+          {
+            "name": "NiiNo",
+            "role": "lyrics"
+          },
+          {
+            "name": "睦月周平",
+            "role": "composition"
+          },
+          {
+            "name": "睦月周平",
+            "role": "arrangement"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://si-vis.live/news/?id=69389",
+            "label": "官方：插曲身分、動畫用途及已公布創作",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://books.rakuten.co.jp/rb/18420057/",
+            "label": "插曲／收錄與演唱名義交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=69389"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=69389",
+              "https://books.rakuten.co.jp/rb/18420057/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-in-6-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=69389",
+              "https://books.rakuten.co.jp/rb/18420057/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "si-vis-the-sound-of-heroes-in-6"
+          }
+        ]
       }
     ]
   },
