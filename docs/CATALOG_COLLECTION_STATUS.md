@@ -2914,22 +2914,53 @@ Cloudflare Workers實際CLI部署成功，來源 `88e89a5f366a8f1f7b78a3516c6dac
 | `curated-193883` | 補秋季續播與怪獣島／OP的季度關係，保留既有創作缺口 |
 | `curated-196229` | 補秋季續播與特装合体！ジョブレイバー／OP的季度關係，保留既有歌曲及影片 |
 
-已處理公開用途ID：
+已處理公開用途ID（以同批深化後用途分類為準）：
 
-- `sawaranaide-kotesashi-kun-op-1`
-- `sawaranaide-kotesashi-kun-ed-1`
-- `oshiri-tantei-9-part-2-op-1`
-- `chou-futsuu-mahou-shoujo-asumi-toruverse-ts-1`
-- `chou-futsuu-mahou-shoujo-asumi-toruverse-in-1`
-- `jochum-season-2-ts-1`
-- `anila-to-cocora-ts-1`
-- `watari-kun-no-xx-ga-houkai-sunzen-op-1`
-- `watari-kun-no-xx-ga-houkai-sunzen-op-2`
-- `watari-kun-no-xx-ga-houkai-sunzen-ed-1`
-- `watari-kun-no-xx-ga-houkai-sunzen-ed-2`
-- `punirunes-puni-3-op-1`
-- `gakkou-de-wa-oshiete-kurenai-taisetsu-na-koto-ed-1`
-- `chibi-godzilla-no-gyakushuu-3-op-1`
-- `tomica-heroes-jobraver-tokusou-gattai-robo-tv-op-1`
+| 公開用途ID | 歌曲與用途 |
+| --- | --- |
+| `sawaranaide-kotesashi-kun-op-1` | U.K.U／OP／UtaGe! |
+| `sawaranaide-kotesashi-kun-ed-1` | 上々↑ハイテンション／ED／Palette Parade |
+| `oshiri-tantei-9-part-2-op-1` | ププッとフムッとかいけつダンス／OP／伊勢大貴 |
+| `chou-futsuu-mahou-shoujo-asumi-toruverse-ts-1` | Rebirth*ible／TS／浜城実都（CV：能登有沙）＆千城あすみ（CV：石原夏織） |
+| `chou-futsuu-mahou-shoujo-asumi-toruverse-in-1` | アン・ドゥ・トロワ／IN／イツカ▶ |
+| `jochum-season-2-ts-1` | スーパー☆ハピハピ／ED／JOCHUM |
+| `anila-to-cocora-ts-1` | グッドらっこ／TS／アニラ（CV：森嶋秀太）＆ココラ（CV：仲村宗悟） |
+| `watari-kun-no-xx-ga-houkai-sunzen-op-1` | ゆうれいになりたい／OP／『ユイカ』 |
+| `watari-kun-no-xx-ga-houkai-sunzen-op-2` | ふたりぶん／OP／shallm |
+| `watari-kun-no-xx-ga-houkai-sunzen-ed-1` | 愛愛愛愛愛／ED／PEDRO |
+| `watari-kun-no-xx-ga-houkai-sunzen-ed-2` | 失敗しないメンヘラの育て方／ED／平手友梨奈 |
+| `punirunes-puni-3-op-1` | ぷにぷにぷにるんず ぷにックスバージョン／OP／ななひら |
+| `gakkou-de-wa-oshiete-kurenai-taisetsu-na-koto-ed-1` | 学校では教えてくれないこと／ED／OCHA NORMA |
+| `chibi-godzilla-no-gyakushuu-3-op-1` | 怪獣島／OP／水曜日のカンパネラ |
+| `tomica-heroes-jobraver-tokusou-gattai-robo-tv-op-1` | 特装合体！ジョブレイバー／OP／悠佑（fromいれいす） |
 
 新增歌曲的核心第一方及交叉來源已保存。一般「主題歌」保留TS，不由staff中的OP／ED影像職位推定歌曲用途；插曲另以IN計。既有作品僅補季度證據，未重查或更新全部舊來源日期；作品metadata日期保持原有已核對值。既有ID、URL、用途序號、創作、影片、版本及收錄關係保持穩定。
+
+
+### 第33批同批深化與本機驗收
+
+核心階段由 `03e8d16` 保存並推送。本批實際新增5部／7筆用途；同批深化後分類為2 OP、2 ED、1 IN、2 TS，另外補5部續播作品的8筆既有用途季度關係，合計處理10部／15筆用途。新增7個歌曲ID，並為2筆加入欄位證據的既有歌曲補上穩定歌曲ID；這些是識別補齊，並非新增9首創作。7筆新用途中6筆具完整詞曲編曲，4筆新增OP／ED均具詞曲編曲及已確認YouTube歌曲watch外連。
+
+- 新增13個音源ID：1 full、1 short、11 unknown；種類為5演唱、6角色、2伴奏。Rebirth*ible的雙人、実都、あすみ及inst版，依官方配信入口與Apple Music授權逐曲表保存；アン・ドゥ・トロワ另有創作者明示的inst版。おしりたんてい原曲與こどもコーラス演唱分開，8名明示成員保留團隊關係。JOCHUM創作者明示full／short不同，不由MV長度推定；short影片與特定short錄音的同一性仍未綁定。
+- 新增12個發行品ID／逐用途關係：7 Single、1 EP、1 Album、3合輯。包括兩首小手指配信Single、Palette Parade的atelier三個CD版、2018おしりたんていmini album與3個Columbia Kids合輯、アスミ兩個配信發行及JOCHUM配信Single。只記本曲；合輯音源同一性及未證實曲序留空，沒有從相同演唱者推定使用同一master。
+- 新增5個不同YouTube歌曲watch外連及1筆MV渠道／形式metadata（false／unknown）：小手指NC OP／ED、Palette Parade MV、おしりたんてい2026更新NC OP、JOCHUM short MV。おしりたんてい影片明標2026影像更新，沒有反推為2025視覺或新增錄音／2026用途；其他候選影片未僅憑標題或第三方嵌入升格官方。
+- 新增58個其他正版平台確切項目，另5個人工官方配信入口；7個builder作品入口另計。包括角色版的Apple逐曲連結、Spotify／YouTube Music確切專輯或曲目，以及動畫音樂頁直接列出的商店與卡拉OK曲目。地區播放／購買與嵌入狀態均未推定。
+- JOCHUM依製作方明示的YouTube archive ending，分類更正為ED並加「YouTube配信版 エンディング（シーズン2主題歌）」；原公開用途ID `jochum-season-2-ts-1`、歌曲ID與網址保留，不聲稱電視放送同樣有片尾。編曲由創作者本人逐曲公告補齊，11角色不推定為JO1本人逐曲演唱。
+- 新增歌曲共33個不同來源URL、118組欄位證據；續播另保留季度證據。原有1,966部公開JSON逐項不變；5部既有作品只變更用途季度、來源／證據及2筆歌曲ID，metadata、歌曲ID／網址／序號及既有創作、影片、音源／發行資料保持。只有本批實際重讀的渡くん3個既有官方URL更新核對日期，其餘舊來源日期不變。
+
+| 本批未解缺口 | 狀態與續查條件 |
+| --- | --- |
+| `anila-to-cocora-ts-1` | 曲名、一般主題歌、角色演唱與詞曲已核明；編曲、官方歌曲watch、full／TV及發行品未明。兩輪後待製作／藝人直接音樂公告、官方影片或正版逐曲商品表，不以劇伴職位代替編曲 |
+| `chou-futsuu-mahou-shoujo-asumi-toruverse-ts-1`、`chou-futsuu-mahou-shoujo-asumi-toruverse-in-1` | 逐曲詞曲編曲、角色／歌唱、已命名版本與配信收錄已保存；尚無可核對渠道的歌曲watch，未以本編／PV或舊作嵌入替代。兩輪後待動畫／唱片／藝人直接MV、Art Track、NC或live公告；主題歌仍為TS，沒有從OP／ED影像staff推定用途 |
+| `jochum-season-2-ts-1` | WEB片尾、創作者LCA、full／short及日本配信Single已核明；個別實際演唱者、full MV渠道證據、short錄音與影片對應仍待官方逐曲／影片直接公告。保留已證實short MV與官方配信YouTube Music項目，不公開未確認候選 |
+| `sawaranaide-kotesashi-kun-op-1` | NC OP、詞曲編曲及Single已確認；藝人MV／live渠道的直接第一方對應尚待清楚公告，兩輪後保留缺口。兩曲full／TV及CD／數位master同一性不由MV或NC推定 |
+| `chibi-godzilla-no-gyakushuu-3-op-1` | 補入已核對秋季續播，既有創作缺口按原批次觸發條件保留；沒有因跨季重新搜尋全部credits／影片 |
+| 範圍與季度閉合 | 秋季67部／129 OP／ED、25 IN、2 TS仍是部分快照；未收錄短篇／WEB及跨季聯集尚未閉合。用途衝突且第一方證據不足的候選保留於非公開工作區，等待正式逐集credits或官方歌曲公告；不以候選建立已確認歌曲。2026新用途與劇場版／OVA延後，第27–32批舊缺口沿用原條件 |
+
+本機檢查：初輪資料契約失敗後，補齊2筆既有歌曲ID及可追溯第一方用途證據；未改parser或測試。修正後4檔／6項測試、build（2,021 HTML／4,038公開產物）、Cloudflare dry-run通過。資料沿用現有季度、contract及UI，依矩陣不額外重跑本機E2E。1,966部未涉舊JSON、5部舊metadata／來源日期及既有創作／影片／版本／收錄差異檢查通過（僅3個實際重讀官方URL更新來源日期）。
+
+展示驗證：10部／15筆桌面及5部393像素手機頁的歌曲、版本／收錄數量與JSON一致，無橫向溢出或錯誤覆蓋層。秋季156筆用途分頁24／24／24／24／24／24／12、63 OP／66 ED／25 IN／2 TS篩選通過；実都ver.搜尋只得1首→動畫2首全部歌曲→角色版本及欄位證據展開通過。渡くん夏季僅OP1／ED1，秋季僅OP2／ED2；首頁及全部歌曲各24列。已目視角色／CV與長版本換行，0應用錯誤、觀察時0影片iframe；沒有聲稱網路攔截、影片播放或地區嵌入可用性驗證。
+
+全目錄本機29季／1,976部／4,397用途（4,359 OP／ED、33 IN、5 TS），1,056個不同YouTube歌曲watch外連、1,832筆metadata。2025秋129／129已核對、110核心齊備／19缺口，另25 IN／2 TS；2025夏因移出2筆秋季輪替，更正為141／171已核對、133核心齊備／8缺口。753個唯一用途已處理（715 OP／ED、33 IN、5 TS），跨季不可相加。頂部正式季度表仍以第32批為準，待本批正式部署與live驗收。
+
+本機入口：`/seasons/2025-fall/`、`/anime/chou-futsuu-mahou-shoujo-asumi-toruverse/`、`/anime/jochum-season-2/`、`/anime/watari-kun-no-xx-ga-houkai-sunzen/`。正式發布驗收後接續第34批2025秋未收錄TV／WEB、短篇及跨季續播聯集；原夏季待辦保留，整季及長期目標均未完成。

@@ -414,5 +414,16 @@ export const curated2025FallThemeVideos = {
       "embeddable": false,
       "embedAvailability": "unknown"
     }
+  ],
+  "187331:ED:1": [
+    {
+      "youtubeVideoId": "28TyqxRgKCM",
+      "title": "Palette Parade /上々↑ハイテンション（Music Video）",
+      "type": "music_video",
+      "channelName": "Palette Parade",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ]
 } satisfies CuratedThemeVideoOverrideMap;

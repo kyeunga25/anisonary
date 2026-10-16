@@ -768,6 +768,7 @@ const extraThemes: Record<number, CuratedThemeSeed[]> = {
     {
       "type": "ED",
       "sequence": 1,
+      "songId": "gakkou-de-wa-oshiete-kurenai-taisetsu-na-koto-ed-1-song",
       "titleJa": "学校では教えてくれないこと",
       "titleRomaji": "Gakkou de wa Oshiete Kurenai Koto",
       "artistDisplayName": "OCHA NORMA",
