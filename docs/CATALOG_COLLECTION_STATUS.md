@@ -2630,3 +2630,32 @@ Production獨立驗收：29季／1,941部完整API契約及跨endpoint關聯通�
 由第29批正式來源 `376a908` 接續。固定優先2025→2007、長期保留2007–2026、公開資料截止日2026-10-14；非成人TV／WEB OP／ED與已確認插曲。繼續2025秋尚未收錄新作、續播及特殊用途，約10部／20–30筆；先保存已證實核心，再深化同批創作、官方影片、音源、發行與正版平台。實際來源核對日期另記。
 
 既有資料、用途季度、來源日期與公開ID保留。重用有效官方及已讀季度證據，未審閱候選不公開；第27–29批兩輪未明欄位只按既有觸發條件恢復，原夏季待辦於秋季首輪後回接。完成條件為本批已確認內容經公開JSON、動畫全部歌曲及緊湊歌單展示和必要檢查，再分階段提交、推送、正式發布並報告各季進度；不把一批完成當成季度或長期目標完成。
+
+### 第30批核心資料保存
+
+實際核對日期2026-10-16。已核對10個新增AniList作品識別與20筆OP／ED用途；先保存曲名、演唱名義、動畫用途及第一方／中文交叉來源，並沿用同頁已明示的創作名單。不滅Season3的ED只公布作曲／編曲者、未有可核明曲名，本階段不以「EDテーマ」捏造歌曲。
+
+| 公開 theme ID | 已確認曲目／用途 |
+| --- | --- |
+| `yano-kun-no-futsuu-no-hibi-op-1` | POP LIFE／OP1 |
+| `yano-kun-no-futsuu-no-hibi-ed-1` | Better Off／ED1 |
+| `bukiyou-na-senpai-op-1` | 不器用なI love you／OP1 |
+| `bukiyou-na-senpai-ed-1` | 不器用に 君のとなり／ED1 |
+| `ranma-1-2-2024-2nd-season-op-1` | ウォーアイニー／OP1 |
+| `ranma-1-2-2024-2nd-season-ed-1` | パンダガール／ED1 |
+| `fumetsu-no-anata-e-season-3-op-1` | ふめつのあなた／OP1 |
+| `mugen-gacha-op-1` | 閃より雷や、更りや高き／OP1 |
+| `mugen-gacha-ed-1` | シロガラス／ED1 |
+| `mikata-ga-yowasugite-hojo-mahou-ni-tesshiteita-kyuutei-mahoushi-tsuihou-sarete-saikyou-wo-mezasu-op-1` | Quest／OP1 |
+| `mikata-ga-yowasugite-hojo-mahou-ni-tesshiteita-kyuutei-mahoushi-tsuihou-sarete-saikyou-wo-mezasu-ed-1` | 欠片／ED1 |
+| `chichi-wa-eiyuu-haha-wa-seirei-musume-no-watashi-wa-tenseisha-op-1` | 魔法／OP1 |
+| `chichi-wa-eiyuu-haha-wa-seirei-musume-no-watashi-wa-tenseisha-ed-1` | Family／ED1 |
+| `akujiki-reijou-to-kyouketsu-koushaku-op-1` | シュガリー・ストーリー／OP1 |
+| `akujiki-reijou-to-kyouketsu-koushaku-ed-1` | 希望光度／ED1 |
+| `gnosia-op-1` | 化けの皮／OP1 |
+| `gnosia-ed-1` | Loo% Who%／ED1 |
+| `gnosia-ed-2` | FLOOR KILLER／ED2 |
+| `toujima-tanzaburou-wa-kamen-rider-ni-naritai-op-1` | Wanna be／OP1 |
+| `toujima-tanzaburou-wa-kamen-rider-ni-naritai-ed-1` | ワンモアタイム／ED1 |
+
+Gnosia的FLOOR KILLER依官方公告確認第8話起使用，與原ED分別保存；らんま第2期及東島丹三郎以目前官方演唱名義保存，舊季及舊ID不改動。跨午夜首播換算曆日；角色／團隊簡介不自動當作逐曲歌唱名單。影片、音源、發行與平台接續同批深化；本階段尚未通過整批parser／build與實際展示，不計入頂部正式季度表或production成果。

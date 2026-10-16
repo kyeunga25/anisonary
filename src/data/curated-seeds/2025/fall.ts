@@ -24771,7 +24771,1854 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
         ]
       }
     ]
+  },
+  {
+    "anilistId": 183965,
+    "id": "curated-183965",
+    "slug": "yano-kun-no-futsuu-no-hibi",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-01",
+    "titleJa": "矢野くんの普通の日々",
+    "titleZhHant": "矢野くんの普通の日々",
+    "titleRomaji": "Yano-kun no Futsuu no Hibi",
+    "editorialWeekday": 3,
+    "broadcastTimeJst": "01:29",
+    "broadcastLabel": "日本首播：9月30日(火)25:29",
+    "status": "finished",
+    "officialSiteUrl": "https://yanokun-anime.com/",
+    "anilistUrl": "https://anilist.co/anime/183965",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://yanokun-anime.com/onair/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "POP LIFE",
+        "artistDisplayName": "FANTASTICS",
+        "songId": "yano-kun-no-futsuu-no-hibi-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://yanokun-anime.com/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "FANTASTICS",
+            "role": "vocals"
+          },
+          {
+            "name": "FAST LANE",
+            "role": "lyrics"
+          },
+          {
+            "name": "FAST LANE",
+            "role": "composition"
+          },
+          {
+            "name": "FAST LANE",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://yanokun-anime.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "yano-kun-no-futsuu-no-hibi-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://yanokun-anime.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "yano-kun-no-futsuu-no-hibi-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://yanokun-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "yano-kun-no-futsuu-no-hibi-op-1-song"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "Better Off",
+        "artistDisplayName": "iScream",
+        "songId": "yano-kun-no-futsuu-no-hibi-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://yanokun-anime.com/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "iScream",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://yanokun-anime.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "yano-kun-no-futsuu-no-hibi-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://yanokun-anime.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "yano-kun-no-futsuu-no-hibi-ed-1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 185575,
+    "id": "curated-185575",
+    "slug": "bukiyou-na-senpai",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-02",
+    "titleJa": "不器用な先輩。",
+    "titleZhHant": "不器用な先輩。",
+    "titleRomaji": "Bukiyou na Senpai.",
+    "editorialWeekday": 4,
+    "broadcastTimeJst": "22:00",
+    "broadcastLabel": "日本首播",
+    "status": "finished",
+    "officialSiteUrl": "https://bukiyouna-senpai.asmik-ace.co.jp/",
+    "anilistUrl": "https://anilist.co/anime/185575",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://bukiyouna-senpai.asmik-ace.co.jp/onair/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "不器用なI love you",
+        "artistDisplayName": "angela",
+        "songId": "bukiyou-na-senpai-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://bukiyouna-senpai.asmik-ace.co.jp/music/opening/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "angela",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://bukiyouna-senpai.asmik-ace.co.jp/music/opening/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "bukiyou-na-senpai-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://bukiyouna-senpai.asmik-ace.co.jp/music/opening/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "bukiyou-na-senpai-op-1"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "不器用に 君のとなり",
+        "artistDisplayName": "前島亜美",
+        "songId": "bukiyou-na-senpai-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://bukiyouna-senpai.asmik-ace.co.jp/music/ending/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "前島亜美",
+            "role": "vocals"
+          },
+          {
+            "name": "藤林聖子",
+            "role": "lyrics"
+          },
+          {
+            "name": "YOSHIHIRO (KEYTONE)",
+            "role": "composition"
+          },
+          {
+            "name": "YOSHIHIRO (KEYTONE)",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://bukiyouna-senpai.asmik-ace.co.jp/music/ending/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "bukiyou-na-senpai-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://bukiyouna-senpai.asmik-ace.co.jp/music/ending/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "bukiyou-na-senpai-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://bukiyouna-senpai.asmik-ace.co.jp/music/ending/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "bukiyou-na-senpai-ed-1-song"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 185731,
+    "id": "curated-185731",
+    "slug": "ranma-1-2-2024-2nd-season",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-05",
+    "titleJa": "らんま1/2 第2期",
+    "titleZhHant": "らんま1/2 第2期",
+    "titleRomaji": "Ranma 1/2 (2024) 2nd Season",
+    "editorialWeekday": 7,
+    "broadcastTimeJst": "00:55",
+    "broadcastLabel": "日本首播：10月4日(土)24:55",
+    "status": "finished",
+    "officialSiteUrl": "https://ranma-pr.com/",
+    "anilistUrl": "https://anilist.co/anime/185731",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://ranma-pr.com/onair/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "ウォーアイニー",
+        "artistDisplayName": "水曜日のカンパネラ",
+        "songId": "ranma-1-2-2024-2nd-season-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://ranma-pr.com/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "水曜日のカンパネラ",
+            "role": "vocals"
+          },
+          {
+            "name": "ケンモチヒデフミ",
+            "role": "lyrics"
+          },
+          {
+            "name": "ケンモチヒデフミ",
+            "role": "composition"
+          },
+          {
+            "name": "ケンモチヒデフミ",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://ranma-pr.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ranma-1-2-2024-2nd-season-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://ranma-pr.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ranma-1-2-2024-2nd-season-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://ranma-pr.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ranma-1-2-2024-2nd-season-op-1-song"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "パンダガール",
+        "artistDisplayName": "にしな",
+        "songId": "ranma-1-2-2024-2nd-season-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://ranma-pr.com/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "にしな",
+            "role": "vocals"
+          },
+          {
+            "name": "にしな",
+            "role": "lyrics"
+          },
+          {
+            "name": "にしな",
+            "role": "composition"
+          },
+          {
+            "name": "100回嘔吐",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://ranma-pr.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ranma-1-2-2024-2nd-season-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://ranma-pr.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ranma-1-2-2024-2nd-season-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://ranma-pr.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ranma-1-2-2024-2nd-season-ed-1-song"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 162669,
+    "id": "curated-162669",
+    "slug": "fumetsu-no-anata-e-season-3",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-04",
+    "titleJa": "不滅のあなたへ Season3",
+    "titleZhHant": "不滅のあなたへ Season3",
+    "titleRomaji": "Fumetsu no Anata e Season 3",
+    "editorialWeekday": 6,
+    "broadcastTimeJst": "23:45",
+    "broadcastLabel": "日本首播",
+    "status": "finished",
+    "officialSiteUrl": "https://www.nhk-character.com/chara/fumetsu/",
+    "anilistUrl": "https://anilist.co/anime/162669",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://www.perfume-web.jp/news/detail.php?id=4239"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "ふめつのあなた",
+        "artistDisplayName": "Perfume",
+        "songId": "fumetsu-no-anata-e-season-3-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.nhk-character.com/chara/fumetsu/staff-cast",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "Perfume",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.nhk-character.com/chara/fumetsu/staff-cast",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "fumetsu-no-anata-e-season-3-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.nhk-character.com/chara/fumetsu/staff-cast",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "fumetsu-no-anata-e-season-3-op-1"
+          }
+        ],
+        "usageLabel": "主題歌／OP"
+      }
+    ]
+  },
+  {
+    "anilistId": 184322,
+    "id": "curated-184322",
+    "slug": "mugen-gacha",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-03",
+    "titleJa": "信じていた仲間達にダンジョン奥地で殺されかけたがギフト『無限ガチャ』でレベル9999の仲間達を手に入れて元パーティーメンバーと世界に復讐＆『ざまぁ！』します！",
+    "titleZhHant": "信じていた仲間達にダンジョン奥地で殺されかけたがギフト『無限ガチャ』でレベル9999の仲間達を手に入れて元パーティーメンバーと世界に復讐＆『ざまぁ！』します！",
+    "titleRomaji": "Shinjiteita Nakamatachi ni Dungeon Okuchi de Korosarekaketa ga Gift \"Mugen Gacha\" de Level 9999 no Nakamatachi wo Te ni Irete Moto Party Member to Sekai ni Fukushuu & \"Zamaa!\" Shimasu!",
+    "editorialWeekday": 5,
+    "broadcastTimeJst": "23:30",
+    "broadcastLabel": "日本首播",
+    "status": "finished",
+    "officialSiteUrl": "https://mugengacha.com/",
+    "anilistUrl": "https://anilist.co/anime/184322",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://mugengacha.com/onair"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "閃より雷や、更りや高き",
+        "artistDisplayName": "丁",
+        "songId": "mugen-gacha-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://mugengacha.com/music",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "丁",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://mugengacha.com/music",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "mugen-gacha-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://mugengacha.com/music",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "mugen-gacha-op-1"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "シロガラス",
+        "artistDisplayName": "Nowlu",
+        "songId": "mugen-gacha-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://mugengacha.com/music",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "Nowlu",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://mugengacha.com/music",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "mugen-gacha-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://mugengacha.com/music",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "mugen-gacha-ed-1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 188487,
+    "id": "curated-188487",
+    "slug": "mikata-ga-yowasugite-hojo-mahou-ni-tesshiteita-kyuutei-mahoushi-tsuihou-sarete-saikyou-wo-mezasu",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-04",
+    "titleJa": "味方が弱すぎて補助魔法に徹していた宮廷魔法師、追放されて最強を目指す",
+    "titleZhHant": "味方が弱すぎて補助魔法に徹していた宮廷魔法師、追放されて最強を目指す",
+    "titleRomaji": "Mikata ga Yowasugite Hojo Mahou ni Tesshiteita Kyuutei Mahoushi, Tsuihou Sarete Saikyou wo Mezasu",
+    "editorialWeekday": 6,
+    "broadcastTimeJst": "23:30",
+    "broadcastLabel": "日本首播",
+    "status": "finished",
+    "officialSiteUrl": "https://hojomaho.com/",
+    "anilistUrl": "https://anilist.co/anime/188487",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://hojomaho.com/onair/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Quest",
+        "artistDisplayName": "秋山黄色",
+        "songId": "mikata-ga-yowasugite-hojo-mahou-ni-tesshiteita-kyuutei-mahoushi-tsuihou-sarete-saikyou-wo-mezasu-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://hojomaho.com/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "秋山黄色",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://hojomaho.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "mikata-ga-yowasugite-hojo-mahou-ni-tesshiteita-kyuutei-mahoushi-tsuihou-sarete-saikyou-wo-mezasu-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://hojomaho.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "mikata-ga-yowasugite-hojo-mahou-ni-tesshiteita-kyuutei-mahoushi-tsuihou-sarete-saikyou-wo-mezasu-op-1"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "欠片",
+        "artistDisplayName": "aruma",
+        "songId": "mikata-ga-yowasugite-hojo-mahou-ni-tesshiteita-kyuutei-mahoushi-tsuihou-sarete-saikyou-wo-mezasu-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://hojomaho.com/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "aruma",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://hojomaho.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "mikata-ga-yowasugite-hojo-mahou-ni-tesshiteita-kyuutei-mahoushi-tsuihou-sarete-saikyou-wo-mezasu-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://hojomaho.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "mikata-ga-yowasugite-hojo-mahou-ni-tesshiteita-kyuutei-mahoushi-tsuihou-sarete-saikyou-wo-mezasu-ed-1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 173692,
+    "id": "curated-173692",
+    "slug": "chichi-wa-eiyuu-haha-wa-seirei-musume-no-watashi-wa-tenseisha",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-05",
+    "titleJa": "父は英雄、母は精霊、娘の私は転生者。",
+    "titleZhHant": "父は英雄、母は精霊、娘の私は転生者。",
+    "titleRomaji": "Chichi wa Eiyuu, Haha wa Seirei, Musume no Watashi wa Tenseisha.",
+    "editorialWeekday": 7,
+    "broadcastTimeJst": "23:30",
+    "broadcastLabel": "日本首播",
+    "status": "finished",
+    "officialSiteUrl": "https://hahanoha-anime.com/",
+    "anilistUrl": "https://anilist.co/anime/173692",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://hahanoha-anime.com/onair/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "魔法",
+        "artistDisplayName": "果歩",
+        "songId": "chichi-wa-eiyuu-haha-wa-seirei-musume-no-watashi-wa-tenseisha-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://hahanoha-anime.com/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "果歩",
+            "role": "vocals"
+          },
+          {
+            "name": "果歩",
+            "role": "lyrics"
+          },
+          {
+            "name": "果歩",
+            "role": "composition"
+          },
+          {
+            "name": "森川祐樹",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://hahanoha-anime.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "chichi-wa-eiyuu-haha-wa-seirei-musume-no-watashi-wa-tenseisha-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://hahanoha-anime.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "chichi-wa-eiyuu-haha-wa-seirei-musume-no-watashi-wa-tenseisha-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://hahanoha-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "chichi-wa-eiyuu-haha-wa-seirei-musume-no-watashi-wa-tenseisha-op-1-song"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "Family",
+        "artistDisplayName": "ゆいにしお",
+        "songId": "chichi-wa-eiyuu-haha-wa-seirei-musume-no-watashi-wa-tenseisha-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://hahanoha-anime.com/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "ゆいにしお",
+            "role": "vocals"
+          },
+          {
+            "name": "ゆいにしお",
+            "role": "lyrics"
+          },
+          {
+            "name": "ゆいにしお",
+            "role": "composition"
+          },
+          {
+            "name": "水口浩次",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://hahanoha-anime.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "chichi-wa-eiyuu-haha-wa-seirei-musume-no-watashi-wa-tenseisha-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://hahanoha-anime.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "chichi-wa-eiyuu-haha-wa-seirei-musume-no-watashi-wa-tenseisha-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://hahanoha-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "chichi-wa-eiyuu-haha-wa-seirei-musume-no-watashi-wa-tenseisha-ed-1-song"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 183291,
+    "id": "curated-183291",
+    "slug": "akujiki-reijou-to-kyouketsu-koushaku",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-03",
+    "titleJa": "悪食令嬢と狂血公爵",
+    "titleZhHant": "悪食令嬢と狂血公爵",
+    "titleRomaji": "Akujiki Reijou to Kyouketsu Koushaku: Sono Mamono, Watashi ga Oishiku Itadakimasu!",
+    "editorialWeekday": 5,
+    "broadcastTimeJst": "01:28",
+    "broadcastLabel": "日本首播：10月2日(木)25:28",
+    "status": "finished",
+    "officialSiteUrl": "https://www.tbs.co.jp/anime/akujiki/",
+    "anilistUrl": "https://anilist.co/anime/183291",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://www.tbs.co.jp/anime/akujiki/onair/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "シュガリー・ストーリー",
+        "artistDisplayName": "AVAM",
+        "songId": "akujiki-reijou-to-kyouketsu-koushaku-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.tbs.co.jp/anime/akujiki/music/index.html",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "AVAM",
+            "role": "vocals"
+          },
+          {
+            "name": "konoco",
+            "role": "lyrics"
+          },
+          {
+            "name": "konoco",
+            "role": "composition"
+          },
+          {
+            "name": "高田翼",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.tbs.co.jp/anime/akujiki/music/index.html",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "akujiki-reijou-to-kyouketsu-koushaku-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tbs.co.jp/anime/akujiki/music/index.html",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "akujiki-reijou-to-kyouketsu-koushaku-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.tbs.co.jp/anime/akujiki/music/index.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "akujiki-reijou-to-kyouketsu-koushaku-op-1-song"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "希望光度",
+        "artistDisplayName": "土岐隼一",
+        "songId": "akujiki-reijou-to-kyouketsu-koushaku-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.tbs.co.jp/anime/akujiki/music/ed.html",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "土岐隼一",
+            "role": "vocals"
+          },
+          {
+            "name": "オノシ(24chocolate)",
+            "role": "lyrics"
+          },
+          {
+            "name": "オノシ(24chocolate)",
+            "role": "composition"
+          },
+          {
+            "name": "オノシ(24chocolate)",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.tbs.co.jp/anime/akujiki/music/ed.html",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "akujiki-reijou-to-kyouketsu-koushaku-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tbs.co.jp/anime/akujiki/music/ed.html",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "akujiki-reijou-to-kyouketsu-koushaku-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.tbs.co.jp/anime/akujiki/music/ed.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "akujiki-reijou-to-kyouketsu-koushaku-ed-1-song"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 185116,
+    "id": "curated-185116",
+    "slug": "gnosia",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-12",
+    "titleJa": "グノーシア",
+    "titleZhHant": "グノーシア",
+    "titleRomaji": "Gnosia",
+    "editorialWeekday": 7,
+    "broadcastTimeJst": "00:00",
+    "broadcastLabel": "日本首播：10月11日(土)24:00",
+    "status": "finished",
+    "officialSiteUrl": "https://gnosia-anime.com/",
+    "anilistUrl": "https://anilist.co/anime/185116",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://gnosia-anime.com/onair/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "化けの皮",
+        "artistDisplayName": "MAISONdes feat. こぼ・かなえる, 重音テト, Giga & TeddyLoid",
+        "songId": "gnosia-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://gnosia-anime.com/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "こぼ・かなえる",
+            "role": "vocals"
+          },
+          {
+            "name": "重音テト",
+            "role": "vocals"
+          },
+          {
+            "name": "Misumi (DUSTCELL)",
+            "role": "lyrics"
+          },
+          {
+            "name": "Giga",
+            "role": "composition"
+          },
+          {
+            "name": "TeddyLoid",
+            "role": "composition"
+          },
+          {
+            "name": "Giga",
+            "role": "arrangement"
+          },
+          {
+            "name": "TeddyLoid",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://gnosia-anime.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "gnosia-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://gnosia-anime.com/music/",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "gnosia-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://gnosia-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "gnosia-op-1-song"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "Loo% Who%",
+        "artistDisplayName": "凛として時雨",
+        "songId": "gnosia-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://gnosia-anime.com/music/?id=ed",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "凛として時雨",
+            "role": "vocals"
+          },
+          {
+            "name": "TK",
+            "role": "lyrics"
+          },
+          {
+            "name": "TK",
+            "role": "composition"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://gnosia-anime.com/music/?id=ed",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "gnosia-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://gnosia-anime.com/music/?id=ed",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "gnosia-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://gnosia-anime.com/music/?id=ed"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "gnosia-ed-1-song"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "FLOOR KILLER",
+        "artistDisplayName": "梅田サイファー",
+        "songId": "gnosia-ed-2-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://gnosia-anime.com/music/?id=ed_red",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/UMEDACYPHER/info/579265",
+            "label": "官方：第8話新ED與發行公告",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "梅田サイファー",
+            "role": "vocals"
+          },
+          {
+            "name": "梅田サイファー",
+            "role": "lyrics"
+          },
+          {
+            "name": "梅田サイファー",
+            "role": "composition"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://gnosia-anime.com/music/?id=ed_red",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "gnosia-ed-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://gnosia-anime.com/music/?id=ed_red",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "gnosia-ed-2"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://gnosia-anime.com/music/?id=ed_red"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "gnosia-ed-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/UMEDACYPHER/info/579265"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "gnosia-ed-2"
+          }
+        ],
+        "usageLabel": "第8話起 ED［RED］"
+      }
+    ]
+  },
+  {
+    "anilistId": 187464,
+    "id": "curated-187464",
+    "slug": "toujima-tanzaburou-wa-kamen-rider-ni-naritai",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-05",
+    "titleJa": "東島丹三郎は仮面ライダーになりたい",
+    "titleZhHant": "東島丹三郎は仮面ライダーになりたい",
+    "titleRomaji": "Toujima Tanzaburou wa Kamen Rider ni Naritai",
+    "editorialWeekday": 7,
+    "broadcastTimeJst": "00:30",
+    "broadcastLabel": "日本首播：10月4日(土)24:30",
+    "status": "finished",
+    "officialSiteUrl": "https://tojima-rider.com/",
+    "anilistUrl": "https://anilist.co/anime/187464",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/bangumi/202510",
+      "https://tojima-rider.com/onair"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Wanna be",
+        "artistDisplayName": "TeddyLoid feat. Shigeru Matsuzaki & TOPHAMHAT-KYO",
+        "songId": "toujima-tanzaburou-wa-kamen-rider-ni-naritai-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://tojima-rider.com/music/opening.html",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "Shigeru Matsuzaki",
+            "role": "vocals"
+          },
+          {
+            "name": "TOPHAMHAT-KYO",
+            "role": "vocals"
+          },
+          {
+            "name": "TOPHAMHAT-KYO",
+            "role": "lyrics"
+          },
+          {
+            "name": "TeddyLoid",
+            "role": "composition"
+          },
+          {
+            "name": "EMME",
+            "role": "composition"
+          },
+          {
+            "name": "TOPHAMHAT-KYO",
+            "role": "composition"
+          },
+          {
+            "name": "TeddyLoid",
+            "role": "arrangement"
+          },
+          {
+            "name": "EMME",
+            "role": "arrangement"
+          },
+          {
+            "name": "TOPHAMHAT-KYO",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tojima-rider.com/music/opening.html",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "toujima-tanzaburou-wa-kamen-rider-ni-naritai-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tojima-rider.com/music/opening.html",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "toujima-tanzaburou-wa-kamen-rider-ni-naritai-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tojima-rider.com/music/opening.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "toujima-tanzaburou-wa-kamen-rider-ni-naritai-op-1-song"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "ワンモアタイム",
+        "artistDisplayName": "TeddyLoid feat. 時任良治",
+        "songId": "toujima-tanzaburou-wa-kamen-rider-ni-naritai-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://tojima-rider.com/music/ending.html",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202510",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "時任良治",
+            "role": "vocals"
+          },
+          {
+            "name": "TeddyLoid",
+            "role": "lyrics"
+          },
+          {
+            "name": "Konnie Aoki",
+            "role": "lyrics"
+          },
+          {
+            "name": "TeddyLoid",
+            "role": "composition"
+          },
+          {
+            "name": "TeddyLoid",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tojima-rider.com/music/ending.html",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "toujima-tanzaburou-wa-kamen-rider-ni-naritai-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tojima-rider.com/music/ending.html",
+              "https://youranimes.tw/bangumi/202510"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "toujima-tanzaburou-wa-kamen-rider-ni-naritai-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tojima-rider.com/music/ending.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "toujima-tanzaburou-wa-kamen-rider-ni-naritai-ed-1-song"
+          }
+        ]
+      }
+    ]
   }
 ];
 
-export const curated2025FallAnimeIds: number[] = [177937, 170577, 153800, 185801, 183385, 180082, 181447, 194447, 179302, 195153, 179992, 182896, 162890, 180436, 195240, 186524, 187940, 173523, 177271, 186190, 186794, 186920, 129195, 186161];
+export const curated2025FallAnimeIds: number[] = [177937, 170577, 153800, 185801, 183385, 180082, 181447, 194447, 179302, 195153, 179992, 182896, 162890, 180436, 195240, 186524, 187940, 173523, 177271, 186190, 186794, 186920, 129195, 186161, 183965, 185575, 185731, 162669, 184322, 188487, 173692, 183291, 185116, 187464];
