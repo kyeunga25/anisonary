@@ -163,5 +163,95 @@ export const curated2025FallThemeVideos = {
       "embeddable": false,
       "embedAvailability": "unknown"
     }
+  ],
+  "186524:OP:1": [
+    {
+      "youtubeVideoId": "fF1n8S-7NOU",
+      "title": "H△G「青春のシルエット」Lyric Video",
+      "type": "lyric_video",
+      "channelName": "H△G",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "187940:ED:1": [
+    {
+      "youtubeVideoId": "L1i4JiU28Y8",
+      "title": "三月のパンタシア「あまのじゃくヒーロー」",
+      "type": "music_video",
+      "channelName": "Sangatsu No Phantasia Official YouTube Channel",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "173523:OP:1": [
+    {
+      "youtubeVideoId": "GL9kYJToSEk",
+      "title": "絶対称賛！／HoneyWorks feat.双見奈々（CV：夏吉ゆうこ）",
+      "type": "other",
+      "channelName": "MARUMOCHI from HoneyWorks",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "egao-no-taenai-shokuba-desu-op-1-song-futami-nana"
+    }
+  ],
+  "177271:OP:1": [
+    {
+      "youtubeVideoId": "LB2eRrGY6Ak",
+      "title": "東山奈央「とおりゃんせ」Music Video",
+      "type": "music_video",
+      "channelName": "Nao Toyama",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "186190:ED:1": [
+    {
+      "youtubeVideoId": "-MHfE_rpJWA",
+      "title": "アルマちゃん ノンクレジットエンディング",
+      "type": "creditless_ed",
+      "channelName": "KADOKAWAanime",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "186794:OP:1": [
+    {
+      "youtubeVideoId": "KV8PXOqfstA",
+      "title": "VESPERBELL「一閃」Official Music Video",
+      "type": "music_video",
+      "channelName": "VESPERBELL",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "129195:ED:1": [
+    {
+      "youtubeVideoId": "nXg8zwX9A9E",
+      "title": "星の鼓動 Art Track",
+      "type": "art_track",
+      "channelName": "こはならむ- Kohana Lam -",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "tomodachi-no-imouto-ga-ore-ni-dake-uzai-ed-1-song-original"
+    }
+  ],
+  "186161:ED:1": [
+    {
+      "youtubeVideoId": "dJA3ECKf5sI",
+      "title": "きみになれたら",
+      "type": "other",
+      "channelName": "神山羊 / Yoh Kamiyama",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ]
 } satisfies CuratedThemeVideoOverrideMap;
