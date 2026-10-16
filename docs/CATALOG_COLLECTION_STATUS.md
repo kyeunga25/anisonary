@@ -2659,3 +2659,37 @@ Production獨立驗收：29季／1,941部完整API契約及跨endpoint關聯通�
 | `toujima-tanzaburou-wa-kamen-rider-ni-naritai-ed-1` | ワンモアタイム／ED1 |
 
 Gnosia的FLOOR KILLER依官方公告確認第8話起使用，與原ED分別保存；らんま第2期及東島丹三郎以目前官方演唱名義保存，舊季及舊ID不改動。跨午夜首播換算曆日；角色／團隊簡介不自動當作逐曲歌唱名單。影片、音源、發行與平台接續同批深化；本階段尚未通過整批parser／build與實際展示，不計入頂部正式季度表或production成果。
+
+### 第30批同批深化與本機驗證
+
+20筆OP／ED核心由 `6a7e029` 保存並推送。整批新增10部／21筆用途（20 OP／ED、1 IN），對應21個歌曲ID；18筆具有作詞、作曲、編曲，20 OP／ED中16筆同時具有完整詞曲編曲與已確認YouTube歌曲watch外連。
+
+| 公開 theme ID | 已確認新增用途 |
+| --- | --- |
+| `yano-kun-no-futsuu-no-hibi-in-1` | 全力⭐きらめけ初恋／第5話メイ、田中的卡拉OK歌唱；官方劇中歌／新聞及交叉索引核對 |
+
+插曲用途保留メイ（CV.種﨑敦美）、田中（CV.岩崎諒太）；アミカ（CV.田村ゆかり）的原唱完整版另存角色音源與配信Single，MV連至該音源。沒有把原唱MV當成第5話卡拉OK錄音，未另造未證實公開的TV音源。
+
+- 新增28個音源身分：2個明示full（ふめつのあなた、アミカ原唱）、2個OST明示TV size（Wanna be、ワンモアタイム）、24個長度unknown；種類為22演唱版、4 instrumental、1角色原唱、1水槽Remix。不同NC畫面未增加歌曲或錄音。
+- 新增32個發行品ID，涵蓋動畫／藝人Single、angela「Answer」、水曜日のカンパネラ「可愛女子」、凛として時雨「Lost God of SASORI」、土岐隼一「JUMBLE!!」各CD版與Gnosia／東島OST。只列本曲相關曲目；未有數位與CD同一錄音證據者不填對應，未有曲序者留空。
+- 新增28個不同YouTube歌曲watch外連與2筆明示渠道／形式metadata（false／unknown）；涵蓋NC OP／ED、lyric、MV、Concept Movie及同曲不同NC畫面。另119個其他正版平台確切曲目／專輯／購買項目、14個YouTube Music目的項目與18個人工官方入口，與10個builder通用作品入口分開計數。5個HTTP平台供應目的項目未採用；presave、登入及搜尋入口未當成曲目。
+- 創作資料以官方同頁與製作方工作表為主；必要的Oricon／UtaTen名單明示cross_check。Better Off的製作方確認部分共同詞曲作者，補充來源確認完整名單；沒有以歌ネット搬入credits。Gnosia的Giga／TeddyLoid製作與兩位歌唱分工、FLOOR KILLER的Featured Artist／Production分別保存，不從製作職務推定編曲或演唱。
+- 舊1,941部的公開JSON逐項完全相同。既有ID、網址、用途季度與來源日期保留；沒有程式、contract、依賴或UI改動。
+
+| 本批未解缺口 | 狀態與續查條件 |
+| --- | --- |
+| `fumetsu-no-anata-e-season-3-op-1` | 詞／曲已核明、原唱full及Concept Movie已確認；尚缺明示編曲。兩輪定向查找後留空，待官方／授權逐曲完整credits |
+| 不滅Season3 ED | 官方僅列作曲／編曲：浜渦正志，未核明曲名／獨立音源身分；未新增無名ED或把composer當歌手。待官方或正式發行品給出可識別曲目 |
+| `mugen-gacha-ed-1` | シロガラス的完整詞曲編曲、用途、Single及平台已確認，官方歌曲watch／渠道尚未核明。兩輪定向查找後等待唱片／藝人直接影片或可核明Art Track；YouTube Music專輯入口不代替歌曲影片 |
+| `gnosia-ed-1`、`gnosia-ed-2` | 兩曲詞／曲、官方影片、EP／Single／OST已確認；編曲尚缺明示。FLOOR KILLER的peko & Cosaqu僅標Production，沒有推成arrangement；待正式逐曲完整credits |
+| 各版收錄／發行細節 | Gnosia OST已公告主題歌及Instrumental，但逐曲版本名、曲序與獨立音源識別未核明，未造新錄音；東島Single的Instrumental逐曲名／位置同樣保留。東島數位發行日期未證實，未拿2026-01-28 CD日期代填；JUMBLE!!相關曲序、果歩的其他確切平台與新影片形式亦待直接官方資料 |
+| 跨季與特殊用途 | Gnosia／東島／不滅後續跨季逐集用途仍待核對，本批只保存已核明2025秋用途，不由2026發行日反推2026冬用途；Gnosia的Love Me☆Liar!等獨立角色影片未僅憑MV升格插曲。既有第27–29批缺口保持原觸發條件 |
+| 全季完整分母 | 2025秋現有37部／81 OP／ED、9 IN仍是部分快照；新作、續播與輪替聯集尚未閉合，完整分母未知 |
+
+本機檢查：4檔／6項測試、build（1,996 HTML、3,988公開產物）、公開邊界、npm audit 0與Cloudflare dry-run通過。首輪契約檢查指出2筆新link evidence缺少對應target ID，已修正資料並重驗；沒有修改正常程式或降低gate。本批資料修改沿用既有季度、contract與UI，依矩陣不額外重跑本機E2E。
+
+實際預覽10部／21筆桌面頁，曲名與音源／發行品數逐項比對公開JSON；4部393像素手機頁無溢出，目視截圖確認長標題與credits換行。秋季90筆用途為24／24／24／18分頁、39 OP／42 ED／9 IN；ESCL-6135搜尋→Quest→水槽Remix與欄位證據展開、首頁／全歌曲各24列緊湊列表通過。0應用／CSP錯誤，觀察時0影片iframe；未將DOM結果當作網路攔截、播放或地區可用性實測。
+
+全目錄本機29季／1,951部／4,337用途（4,317 OP／ED、17 IN、3 TS），987個不同YouTube歌曲watch外連及1,818筆metadata。2025秋本機81／81筆已核對、70筆核心齊備／11缺口；頂部正式季度表仍以第29批為準，等待GitHub、main CI及Cloudflare live驗收。
+
+本機入口：`/seasons/2025-fall/`、`/anime/yano-kun-no-futsuu-no-hibi/`、`/anime/gnosia/`、`/anime/toujima-tanzaburou-wa-kamen-rider-ni-naritai/`。本批正式驗收後接續第31批2025秋尚未收錄新作、續播與特殊用途；原夏季待辦保留。
