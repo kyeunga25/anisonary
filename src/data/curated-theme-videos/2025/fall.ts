@@ -361,5 +361,58 @@ export const curated2025FallThemeVideos = {
       "embeddable": false,
       "embedAvailability": "unknown"
     }
+  ],
+  "186621:OP:1": [
+    {
+      "youtubeVideoId": "_kG6-3srhAg",
+      "title": "秦 基博「Stellar Days」Music Video",
+      "type": "music_video",
+      "channelName": "HATA MOTOHIRO",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "186621:ED:1": [
+    {
+      "youtubeVideoId": "dsLFFNoOI0k",
+      "title": "latest episode",
+      "type": "art_track",
+      "channelName": "和ぬか",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "198117:ED:1": [
+    {
+      "youtubeVideoId": "pUL3MCda7ZY",
+      "title": "NIKO NIKO TAN TAN - ミラクル (Official Visualizer)",
+      "type": "other",
+      "channelName": "NIKO NIKO TAN TAN",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "ZeQxjc7j3dI",
+      "title": "ミラクル",
+      "type": "art_track",
+      "channelName": "NIKO NIKO TAN TAN",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "184718:OP:1": [
+    {
+      "youtubeVideoId": "l0WArCNh6G0",
+      "title": "【Ado】MAGIC",
+      "type": "music_video",
+      "channelName": "Ado",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ]
 } satisfies CuratedThemeVideoOverrideMap;
