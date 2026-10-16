@@ -58280,6 +58280,27 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://kotesashikun.deregula.com/news/712/",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://playyte.com/news/674/",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://big-up.style/8sLLN9lfyf",
+            "label": "官方配信頁：曲目／專輯入口",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
           }
         ],
         "credits": [
@@ -58336,6 +58357,376 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "sawaranaide-kotesashi-kun-op-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/news/712/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sawaranaide-kotesashi-kun-op-1-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/news/712/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sawaranaide-kotesashi-kun-op-1-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://playyte.com/news/674/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://big-up.style/8sLLN9lfyf"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=xSjbLj81S3o"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/u-k-u-single/1834556203"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.amazon.co.jp/dp/B0FN6SK6BT"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.orimyu.com/php/cd/CdTop.php?cd=SPC06863706"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000002/bigup14153632/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://sp-m.mu-mo.net/album/1656497/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music-book.jp/music/Artist/2905096/Album/aaamns4b"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mysound.jp/album/997241/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://dhits.docomo.ne.jp/album/1043485804"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://pc.dwango.jp/portals/album/71450547"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A2005582268/album"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://ototoy.jp/_/default/p/2989981"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=1231-67"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.joysound.com/web/search/song/1135706"
+          }
+        ],
+        "releaseDate": "2025-09-02",
+        "recordings": [
+          {
+            "id": "sawaranaide-kotesashi-kun-op-1-song-original",
+            "title": "U.K.U",
+            "format": "unknown",
+            "kind": "vocal"
+          }
+        ],
+        "releases": [
+          {
+            "id": "sawaranaide-kotesashi-kun-op-1-song-digital",
+            "title": "U.K.U",
+            "type": "single",
+            "artistDisplayName": "UtaGe!",
+            "tracks": [
+              {
+                "title": "U.K.U"
+              }
+            ],
+            "date": {
+              "value": "2025-09-02",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方配信",
+            "label": "U.K.U：官方配信入口",
+            "url": "https://big-up.style/8sLLN9lfyf",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sawaranaide-kotesashi-kun-op-1-song-digital"
+          },
+          {
+            "platform": "YouTube",
+            "label": "U.K.U：ノンクレジットOP",
+            "url": "https://www.youtube.com/watch?v=xSjbLj81S3o",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "U.K.U：Apple Music",
+            "url": "https://music.apple.com/jp/album/u-k-u-single/1834556203",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sawaranaide-kotesashi-kun-op-1-song-digital"
+          },
+          {
+            "platform": "Amazonデジタルミュージックストア",
+            "label": "U.K.U：Amazonデジタルミュージックストア",
+            "url": "https://www.amazon.co.jp/dp/B0FN6SK6BT",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sawaranaide-kotesashi-kun-op-1-song-digital"
+          },
+          {
+            "platform": "オリミュウストア",
+            "label": "U.K.U：オリミュウストア",
+            "url": "https://music.orimyu.com/php/cd/CdTop.php?cd=SPC06863706",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sawaranaide-kotesashi-kun-op-1-song-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "U.K.U：mora",
+            "url": "https://mora.jp/package/43000002/bigup14153632/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sawaranaide-kotesashi-kun-op-1-song-digital"
+          },
+          {
+            "platform": "mu-mo",
+            "label": "U.K.U：mu-mo",
+            "url": "https://sp-m.mu-mo.net/album/1656497/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sawaranaide-kotesashi-kun-op-1-song-digital"
+          },
+          {
+            "platform": "music.jp",
+            "label": "U.K.U：music.jp",
+            "url": "https://music-book.jp/music/Artist/2905096/Album/aaamns4b",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sawaranaide-kotesashi-kun-op-1-song-digital"
+          },
+          {
+            "platform": "mysound",
+            "label": "U.K.U：mysound",
+            "url": "https://mysound.jp/album/997241/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sawaranaide-kotesashi-kun-op-1-song-digital"
+          },
+          {
+            "platform": "dヒッツ／dミュージック",
+            "label": "U.K.U：dヒッツ／dミュージック",
+            "url": "https://dhits.docomo.ne.jp/album/1043485804",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sawaranaide-kotesashi-kun-op-1-song-digital"
+          },
+          {
+            "platform": "ドワンゴジェイピー",
+            "label": "U.K.U：ドワンゴジェイピー",
+            "url": "https://pc.dwango.jp/portals/album/71450547",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sawaranaide-kotesashi-kun-op-1-song-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "U.K.U：レコチョク",
+            "url": "https://recochoku.jp/album/A2005582268/album",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sawaranaide-kotesashi-kun-op-1-song-digital"
+          },
+          {
+            "platform": "OTOTOY",
+            "label": "U.K.U：OTOTOY",
+            "url": "https://ototoy.jp/_/default/p/2989981",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sawaranaide-kotesashi-kun-op-1-song-digital"
+          },
+          {
+            "platform": "DAM",
+            "label": "U.K.U：DAM カラオケ曲目",
+            "url": "https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=1231-67",
+            "linkType": "direct_track",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "JOYSOUND",
+            "label": "U.K.U：JOYSOUND カラオケ曲目",
+            "url": "https://www.joysound.com/web/search/song/1135706",
+            "linkType": "direct_track",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
           }
         ]
       },
@@ -58362,6 +58753,41 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "label": "歌曲與動畫用途交叉核對",
             "role": "cross_check",
             "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://kotesashikun.deregula.com/news/716/",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://playyte.com/news/674/",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://big-up.style/G1NvocRzTO",
+            "label": "官方配信頁：曲目／專輯入口",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://paletteparade-idol.com/news/82513/",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://paletteparade-idol.com/video/",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
             "verifiedAt": "2026-10-16"
           }
         ],
@@ -58419,6 +58845,517 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "sawaranaide-kotesashi-kun-ed-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/news/716/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sawaranaide-kotesashi-kun-ed-1-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/news/716/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sawaranaide-kotesashi-kun-ed-1-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://playyte.com/news/674/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://big-up.style/G1NvocRzTO"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=lx7ny36Ux40"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://paletteparade-idol.com/news/82513/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "palette-parade-atelier-special"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://paletteparade-idol.com/news/82513/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "palette-parade-atelier-type-a"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://paletteparade-idol.com/news/82513/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "palette-parade-atelier-type-b"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://paletteparade-idol.com/video/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=28TyqxRgKCM"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/%E4%B8%8A%E3%80%85-%E3%83%8F%E3%82%A4%E3%83%86%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3-single/1834554870"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.amazon.co.jp/dp/B0FN7G3SJM"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.orimyu.com/php/cd/CdTop.php?cd=SPC06863698"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000002/bigup14153397/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://sp-m.mu-mo.net/album/1656493/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music-book.jp/music/Artist/2918889/Album/aaamns3n"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mysound.jp/album/997239/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://dmusic.docomo.ne.jp/album/A2005640201"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://pc.dwango.jp/portals/album/71450543"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A2005640201/album"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://ototoy.jp/_/default/p/2989980"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=1231-68"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.joysound.com/web/search/song/1135708"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://paletteparade-idol.com/video/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "28TyqxRgKCM"
+          }
+        ],
+        "releaseDate": "2025-09-02",
+        "recordings": [
+          {
+            "id": "sawaranaide-kotesashi-kun-ed-1-song-original",
+            "title": "上々↑ハイテンション",
+            "format": "unknown",
+            "kind": "vocal"
+          }
+        ],
+        "releases": [
+          {
+            "id": "sawaranaide-kotesashi-kun-ed-1-song-digital",
+            "title": "上々↑ハイテンション",
+            "type": "single",
+            "artistDisplayName": "Palette Parade",
+            "tracks": [
+              {
+                "title": "上々↑ハイテンション"
+              }
+            ],
+            "date": {
+              "value": "2025-09-02",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          },
+          {
+            "id": "palette-parade-atelier-special",
+            "title": "atelier",
+            "type": "single",
+            "artistDisplayName": "Palette Parade",
+            "tracks": [
+              {
+                "title": "上々↑ハイテンション",
+                "position": 2
+              }
+            ],
+            "date": {
+              "value": "2025-10-28",
+              "precision": "day"
+            },
+            "catalogNumber": "AIPA-5",
+            "edition": "特別盤 CD",
+            "label": "PALETTE Label"
+          },
+          {
+            "id": "palette-parade-atelier-type-a",
+            "title": "atelier",
+            "type": "single",
+            "artistDisplayName": "Palette Parade",
+            "tracks": [
+              {
+                "title": "上々↑ハイテンション",
+                "position": 2
+              }
+            ],
+            "date": {
+              "value": "2025-10-28",
+              "precision": "day"
+            },
+            "catalogNumber": "AIPA-6",
+            "edition": "通常盤 Type-A CD",
+            "label": "PALETTE Label"
+          },
+          {
+            "id": "palette-parade-atelier-type-b",
+            "title": "atelier",
+            "type": "single",
+            "artistDisplayName": "Palette Parade",
+            "tracks": [
+              {
+                "title": "上々↑ハイテンション",
+                "position": 2
+              }
+            ],
+            "date": {
+              "value": "2025-10-28",
+              "precision": "day"
+            },
+            "catalogNumber": "AIPA-7",
+            "edition": "通常盤 Type-B CD",
+            "label": "PALETTE Label"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方配信",
+            "label": "上々↑ハイテンション：官方配信入口",
+            "url": "https://big-up.style/G1NvocRzTO",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sawaranaide-kotesashi-kun-ed-1-song-digital"
+          },
+          {
+            "platform": "YouTube",
+            "label": "上々↑ハイテンション：ノンクレジットED",
+            "url": "https://www.youtube.com/watch?v=lx7ny36Ux40",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "上々↑ハイテンション：Music Video",
+            "url": "https://www.youtube.com/watch?v=28TyqxRgKCM",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "上々↑ハイテンション：Apple Music",
+            "url": "https://music.apple.com/jp/album/%E4%B8%8A%E3%80%85-%E3%83%8F%E3%82%A4%E3%83%86%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3-single/1834554870",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sawaranaide-kotesashi-kun-ed-1-song-digital"
+          },
+          {
+            "platform": "Amazonデジタルミュージックストア",
+            "label": "上々↑ハイテンション：Amazonデジタルミュージックストア",
+            "url": "https://www.amazon.co.jp/dp/B0FN7G3SJM",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sawaranaide-kotesashi-kun-ed-1-song-digital"
+          },
+          {
+            "platform": "オリミュウストア",
+            "label": "上々↑ハイテンション：オリミュウストア",
+            "url": "https://music.orimyu.com/php/cd/CdTop.php?cd=SPC06863698",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sawaranaide-kotesashi-kun-ed-1-song-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "上々↑ハイテンション：mora",
+            "url": "https://mora.jp/package/43000002/bigup14153397/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sawaranaide-kotesashi-kun-ed-1-song-digital"
+          },
+          {
+            "platform": "mu-mo",
+            "label": "上々↑ハイテンション：mu-mo",
+            "url": "https://sp-m.mu-mo.net/album/1656493/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sawaranaide-kotesashi-kun-ed-1-song-digital"
+          },
+          {
+            "platform": "music.jp",
+            "label": "上々↑ハイテンション：music.jp",
+            "url": "https://music-book.jp/music/Artist/2918889/Album/aaamns3n",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sawaranaide-kotesashi-kun-ed-1-song-digital"
+          },
+          {
+            "platform": "mysound",
+            "label": "上々↑ハイテンション：mysound",
+            "url": "https://mysound.jp/album/997239/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sawaranaide-kotesashi-kun-ed-1-song-digital"
+          },
+          {
+            "platform": "dヒッツ／dミュージック",
+            "label": "上々↑ハイテンション：dヒッツ／dミュージック",
+            "url": "https://dmusic.docomo.ne.jp/album/A2005640201",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sawaranaide-kotesashi-kun-ed-1-song-digital"
+          },
+          {
+            "platform": "ドワンゴジェイピー",
+            "label": "上々↑ハイテンション：ドワンゴジェイピー",
+            "url": "https://pc.dwango.jp/portals/album/71450543",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sawaranaide-kotesashi-kun-ed-1-song-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "上々↑ハイテンション：レコチョク",
+            "url": "https://recochoku.jp/album/A2005640201/album",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sawaranaide-kotesashi-kun-ed-1-song-digital"
+          },
+          {
+            "platform": "OTOTOY",
+            "label": "上々↑ハイテンション：OTOTOY",
+            "url": "https://ototoy.jp/_/default/p/2989980",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "sawaranaide-kotesashi-kun-ed-1-song-digital"
+          },
+          {
+            "platform": "DAM",
+            "label": "上々↑ハイテンション：DAM カラオケ曲目",
+            "url": "https://www.clubdam.com/karaokesearch/songleaf.html?requestNo=1231-68",
+            "linkType": "direct_track",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "JOYSOUND",
+            "label": "上々↑ハイテンション：JOYSOUND カラオケ曲目",
+            "url": "https://www.joysound.com/web/search/song/1135708",
+            "linkType": "direct_track",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
           }
         ]
       }
@@ -58482,6 +59419,34 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "first_party",
             "language": "ja",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://columbia.jp/prod-info/COCX-40382/",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://columbia.jp/prod-info/COCX-41143-4/",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://columbia.jp/prod-info/COCX-41484-5/",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://columbia.jp/prod-info/COCX-41699-700/",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
           }
         ],
         "credits": [
@@ -58539,6 +59504,265 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "oshiri-tantei-9-part-2-op-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/prod-info/COCX-40382/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "oshiri-tantei-9-part-2-op-1-song-original"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/prod-info/COCX-40382/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "oshiri-tantei-9-part-2-op-1-song-children-chorus"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/prod-info/COCX-40382/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "oshiri-tantei-cocx-40382"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/prod-info/COCX-41143-4/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "columbia-kids-cocx-41143-4"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/prod-info/COCX-41484-5/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "columbia-kids-cocx-41484-5"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/prod-info/COCX-41699-700/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "columbia-kids-cocx-41699-700"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://oshiri-tantei.com/news/2026040402.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=caYNL6dZGLA"
+          }
+        ],
+        "releaseDate": "2018-06-20",
+        "recordings": [
+          {
+            "id": "oshiri-tantei-9-part-2-op-1-song-original",
+            "title": "ププッとフムッとかいけつダンス",
+            "format": "unknown",
+            "kind": "vocal"
+          },
+          {
+            "id": "oshiri-tantei-9-part-2-op-1-song-children-chorus",
+            "title": "ププッとフムッとかいけつダンス 〜こどもコーラスバージョン〜",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "name": "おしりたんてい こどもコーラス",
+                "role": "vocals"
+              },
+              {
+                "name": "田口乙葉",
+                "role": "group_member",
+                "groupName": "おしりたんてい こどもコーラス"
+              },
+              {
+                "name": "後本萌葉",
+                "role": "group_member",
+                "groupName": "おしりたんてい こどもコーラス"
+              },
+              {
+                "name": "黒嵜菜々子",
+                "role": "group_member",
+                "groupName": "おしりたんてい こどもコーラス"
+              },
+              {
+                "name": "三浦瑚都",
+                "role": "group_member",
+                "groupName": "おしりたんてい こどもコーラス"
+              },
+              {
+                "name": "小泉柚奈",
+                "role": "group_member",
+                "groupName": "おしりたんてい こどもコーラス"
+              },
+              {
+                "name": "只野維織",
+                "role": "group_member",
+                "groupName": "おしりたんてい こどもコーラス"
+              },
+              {
+                "name": "山本幸輝",
+                "role": "group_member",
+                "groupName": "おしりたんてい こどもコーラス"
+              },
+              {
+                "name": "佐久間玲駈",
+                "role": "group_member",
+                "groupName": "おしりたんてい こどもコーラス"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "oshiri-tantei-cocx-40382",
+            "title": "おしりたんてい",
+            "type": "album",
+            "artistDisplayName": "V.A.",
+            "tracks": [
+              {
+                "title": "ププッとフムッとかいけつダンス",
+                "position": 1,
+                "recordingId": "oshiri-tantei-9-part-2-op-1-song-original"
+              },
+              {
+                "title": "ププッとフムッとかいけつダンス 〜こどもコーラスバージョン〜",
+                "position": 2,
+                "recordingId": "oshiri-tantei-9-part-2-op-1-song-children-chorus"
+              }
+            ],
+            "date": {
+              "value": "2018-06-20",
+              "precision": "day"
+            },
+            "catalogNumber": "COCX-40382",
+            "edition": "CD ミニアルバム",
+            "label": "日本コロムビア"
+          },
+          {
+            "id": "columbia-kids-cocx-41143-4",
+            "title": "コロムビアキッズ こどものうた 魔進戦隊キラメイジャー・ベイビーシャーク",
+            "type": "compilation",
+            "artistDisplayName": "V.A.",
+            "tracks": [
+              {
+                "title": "ププッとフムッとかいけつダンス"
+              }
+            ],
+            "date": {
+              "value": "2020-07-01",
+              "precision": "day"
+            },
+            "catalogNumber": "COCX-41143-4",
+            "edition": "CD",
+            "label": "日本コロムビア"
+          },
+          {
+            "id": "columbia-kids-cocx-41484-5",
+            "title": "コロムビアキッズ うたって大行進！こどものうた ヒット・ヒット・パーティー！",
+            "type": "compilation",
+            "artistDisplayName": "V.A.",
+            "tracks": [
+              {
+                "title": "ププッとフムッとかいけつダンス"
+              }
+            ],
+            "date": {
+              "value": "2021-06-30",
+              "precision": "day"
+            },
+            "catalogNumber": "COCX-41484-5",
+            "edition": "CD",
+            "label": "日本コロムビア"
+          },
+          {
+            "id": "columbia-kids-cocx-41699-700",
+            "title": "コロムビアキッズ ドキドキ☆とびだすびっくりばこ！こどものうた",
+            "type": "compilation",
+            "artistDisplayName": "V.A.",
+            "tracks": [
+              {
+                "title": "ププッとフムッとかいけつダンス"
+              }
+            ],
+            "date": {
+              "value": "2022-01-19",
+              "precision": "day"
+            },
+            "catalogNumber": "COCX-41699-700",
+            "edition": "CD",
+            "label": "日本コロムビア"
+          }
+        ],
+        "links": [
+          {
+            "platform": "YouTube",
+            "label": "ププッとフムッとかいけつダンス：2026年更新ノンクレジットOP（なんでもかいけつクラブ）",
+            "url": "https://www.youtube.com/watch?v=caYNL6dZGLA",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
           }
         ]
       }
@@ -58595,6 +59819,27 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "label": "歌曲與動畫用途交叉核對",
             "role": "cross_check",
             "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://fwinc.lnk.to/d6cpYH",
+            "label": "官方配信EP入口",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1843840853",
+            "label": "Apple Music授權曲目表：角色版、伴奏版與日本配信日期",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://5th.chofutsu.com/",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
             "verifiedAt": "2026-10-16"
           }
         ],
@@ -58656,9 +59901,457 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "chou-futsuu-mahou-shoujo-asumi-toruverse-ts-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://fwinc.lnk.to/d6cpYH"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "chou-futsuu-mahou-shoujo-asumi-toruverse-ts-1-song-original"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://fwinc.lnk.to/d6cpYH",
+              "https://music.apple.com/jp/album/1843840853"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "chou-futsuu-mahou-shoujo-asumi-toruverse-ts-1-song-mitsuto"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://fwinc.lnk.to/d6cpYH",
+              "https://music.apple.com/jp/album/1843840853"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "chou-futsuu-mahou-shoujo-asumi-toruverse-ts-1-song-asumi"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://fwinc.lnk.to/d6cpYH",
+              "https://music.apple.com/jp/album/1843840853"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "chou-futsuu-mahou-shoujo-asumi-toruverse-ts-1-song-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://fwinc.lnk.to/d6cpYH",
+              "https://music.apple.com/jp/album/1843840853"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "asumi-rebirthible-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://5th.chofutsu.com/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://fwinc.lnk.to/d6cpYH"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/album/1843840853"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/song/rebirth-ible/1843840915"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/album/1843840853"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/song/rebirth-ible-%E5%AE%9F%E9%83%BDver/1843840916"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/album/1843840853"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/song/rebirth-ible-%E3%81%82%E3%81%99%E3%81%BFver/1843840917"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/album/1843840853"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/song/rebirth-ible-inst/1843840918"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://fwinc.lnk.to/d6cpYH"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1843840853"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://fwinc.lnk.to/d6cpYH"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.amazon.co.jp/albums/B0FTSNY9CN"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://fwinc.lnk.to/d6cpYH"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/4yvg4aVFdhOphJ1AErYoSv"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://fwinc.lnk.to/d6cpYH"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004b7f392&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://fwinc.lnk.to/d6cpYH"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_nVTgVTxt1-gJvzfRBWKgG2PsBAvvWhB1w"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://fwinc.lnk.to/d6cpYH"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/98709b45703bc4805b51"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://fwinc.lnk.to/d6cpYH"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.amazon.co.jp/gp/product/B0FTSNY9CN"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://fwinc.lnk.to/d6cpYH"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000035/198704771323/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://fwinc.lnk.to/d6cpYH"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1044269135"
           }
         ],
-        "usageLabel": "主題歌"
+        "usageLabel": "主題歌",
+        "recordings": [
+          {
+            "id": "chou-futsuu-mahou-shoujo-asumi-toruverse-ts-1-song-original",
+            "title": "Rebirth*ible",
+            "format": "unknown",
+            "kind": "character"
+          },
+          {
+            "id": "chou-futsuu-mahou-shoujo-asumi-toruverse-ts-1-song-mitsuto",
+            "title": "Rebirth*ible (実都ver.)",
+            "format": "unknown",
+            "kind": "character",
+            "credits": [
+              {
+                "name": "浜城実都（CV：能登有沙）",
+                "role": "vocals"
+              }
+            ]
+          },
+          {
+            "id": "chou-futsuu-mahou-shoujo-asumi-toruverse-ts-1-song-asumi",
+            "title": "Rebirth*ible (あすみver.)",
+            "format": "unknown",
+            "kind": "character",
+            "credits": [
+              {
+                "name": "千城あすみ（CV：石原夏織）",
+                "role": "vocals"
+              }
+            ]
+          },
+          {
+            "id": "chou-futsuu-mahou-shoujo-asumi-toruverse-ts-1-song-instrumental",
+            "title": "Rebirth*ible (inst)",
+            "format": "unknown",
+            "kind": "instrumental"
+          }
+        ],
+        "releases": [
+          {
+            "id": "asumi-rebirthible-digital",
+            "title": "Rebirth*ible",
+            "type": "ep",
+            "artistDisplayName": "浜城実都（CV：能登有沙）＆千城あすみ（CV：石原夏織）",
+            "tracks": [
+              {
+                "title": "Rebirth*ible",
+                "position": 1,
+                "recordingId": "chou-futsuu-mahou-shoujo-asumi-toruverse-ts-1-song-original"
+              },
+              {
+                "title": "Rebirth*ible (実都ver.)",
+                "position": 2,
+                "recordingId": "chou-futsuu-mahou-shoujo-asumi-toruverse-ts-1-song-mitsuto"
+              },
+              {
+                "title": "Rebirth*ible (あすみver.)",
+                "position": 3,
+                "recordingId": "chou-futsuu-mahou-shoujo-asumi-toruverse-ts-1-song-asumi"
+              },
+              {
+                "title": "Rebirth*ible (inst)",
+                "position": 4,
+                "recordingId": "chou-futsuu-mahou-shoujo-asumi-toruverse-ts-1-song-instrumental"
+              }
+            ],
+            "date": {
+              "value": "2025-10-10",
+              "precision": "day"
+            },
+            "edition": "Digital EP",
+            "label": "Frontier Works"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方配信",
+            "label": "Rebirth*ible：官方配信入口",
+            "url": "https://fwinc.lnk.to/d6cpYH",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "asumi-rebirthible-digital"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Rebirth*ible：Apple Music",
+            "url": "https://music.apple.com/jp/song/rebirth-ible/1843840915",
+            "linkType": "direct_track",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "recordingId": "chou-futsuu-mahou-shoujo-asumi-toruverse-ts-1-song-original",
+            "releaseId": "asumi-rebirthible-digital"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Rebirth*ible (実都ver.)：Apple Music",
+            "url": "https://music.apple.com/jp/song/rebirth-ible-%E5%AE%9F%E9%83%BDver/1843840916",
+            "linkType": "direct_track",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "recordingId": "chou-futsuu-mahou-shoujo-asumi-toruverse-ts-1-song-mitsuto",
+            "releaseId": "asumi-rebirthible-digital"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Rebirth*ible (あすみver.)：Apple Music",
+            "url": "https://music.apple.com/jp/song/rebirth-ible-%E3%81%82%E3%81%99%E3%81%BFver/1843840917",
+            "linkType": "direct_track",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "recordingId": "chou-futsuu-mahou-shoujo-asumi-toruverse-ts-1-song-asumi",
+            "releaseId": "asumi-rebirthible-digital"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Rebirth*ible (inst)：Apple Music",
+            "url": "https://music.apple.com/jp/song/rebirth-ible-inst/1843840918",
+            "linkType": "direct_track",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "recordingId": "chou-futsuu-mahou-shoujo-asumi-toruverse-ts-1-song-instrumental",
+            "releaseId": "asumi-rebirthible-digital"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Rebirth*ible：Apple Music",
+            "url": "https://music.apple.com/jp/album/1843840853",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "asumi-rebirthible-digital"
+          },
+          {
+            "platform": "Amazon Music",
+            "label": "Rebirth*ible：Amazon Music",
+            "url": "https://music.amazon.co.jp/albums/B0FTSNY9CN",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "asumi-rebirthible-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "Rebirth*ible：Spotify",
+            "url": "https://open.spotify.com/album/4yvg4aVFdhOphJ1AErYoSv",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "asumi-rebirthible-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "Rebirth*ible：LINE MUSIC",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004b7f392&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "asumi-rebirthible-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "Rebirth*ible：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_nVTgVTxt1-gJvzfRBWKgG2PsBAvvWhB1w",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "asumi-rebirthible-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "Rebirth*ible：AWA",
+            "url": "https://s.awa.fm/album/98709b45703bc4805b51",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "asumi-rebirthible-digital"
+          },
+          {
+            "platform": "Amazon Music",
+            "label": "Rebirth*ible：Amazon Music",
+            "url": "https://www.amazon.co.jp/gp/product/B0FTSNY9CN",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "asumi-rebirthible-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "Rebirth*ible：mora",
+            "url": "https://mora.jp/package/43000035/198704771323/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "asumi-rebirthible-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "Rebirth*ible：レコチョク",
+            "url": "https://recochoku.jp/album/A1044269135",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "asumi-rebirthible-digital"
+          }
+        ]
       },
       {
         "type": "IN",
@@ -58682,6 +60375,34 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "url": "https://ascii.jp/elem/000/004/324/4324495/7/",
             "label": "歌曲與動畫用途交叉核對",
             "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://note.com/miuraseiji/n/n0b7b1e15be5c",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://5th.chofutsu.com/",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://fwinc.lnk.to/vt0ujx",
+            "label": "官方配信頁：曲目／專輯入口",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://note.com/makotonakamura/n/n02c4cd9af649",
+            "label": "製作人：變身場面插曲與配信日",
+            "role": "first_party",
             "language": "ja",
             "verifiedAt": "2026-10-16"
           }
@@ -58740,9 +60461,315 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "chou-futsuu-mahou-shoujo-asumi-toruverse-in-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://note.com/miuraseiji/n/n0b7b1e15be5c"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "chou-futsuu-mahou-shoujo-asumi-toruverse-in-1-song-original"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://note.com/miuraseiji/n/n0b7b1e15be5c"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "chou-futsuu-mahou-shoujo-asumi-toruverse-in-1-song-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://note.com/miuraseiji/n/n0b7b1e15be5c"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "itsuka-un-deux-trois-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://5th.chofutsu.com/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://fwinc.lnk.to/vt0ujx"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://note.com/makotonakamura/n/n02c4cd9af649"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "chou-futsuu-mahou-shoujo-asumi-toruverse-in-1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://fwinc.lnk.to/vt0ujx"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1844525844"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://fwinc.lnk.to/vt0ujx"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.amazon.co.jp/albums/B0FV2HRNK4"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://fwinc.lnk.to/vt0ujx"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/1rHSKsBpJKTUcUuKTdmGag"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://fwinc.lnk.to/vt0ujx"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004b97d6b&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://fwinc.lnk.to/vt0ujx"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_nT1w4MNnbO17fhDBJMSbCUock4-Jglq_4"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://fwinc.lnk.to/vt0ujx"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/1d080d45c4affd0b5b07"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://fwinc.lnk.to/vt0ujx"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.amazon.co.jp/gp/product/B0FV2HRNK4"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://fwinc.lnk.to/vt0ujx"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000035/198704775444/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://fwinc.lnk.to/vt0ujx"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1044312179"
           }
         ],
-        "usageLabel": "挿入歌"
+        "usageLabel": "挿入歌（変身シーン）",
+        "releaseDate": "2025-10-17",
+        "recordings": [
+          {
+            "id": "chou-futsuu-mahou-shoujo-asumi-toruverse-in-1-song-original",
+            "title": "アン・ドゥ・トロワ",
+            "format": "unknown",
+            "kind": "vocal"
+          },
+          {
+            "id": "chou-futsuu-mahou-shoujo-asumi-toruverse-in-1-song-instrumental",
+            "title": "アン・ドゥ・トロワ (inst)",
+            "format": "unknown",
+            "kind": "instrumental"
+          }
+        ],
+        "releases": [
+          {
+            "id": "itsuka-un-deux-trois-digital",
+            "title": "アン・ドゥ・トロワ",
+            "type": "single",
+            "artistDisplayName": "イツカ▶",
+            "tracks": [
+              {
+                "title": "アン・ドゥ・トロワ",
+                "position": 1,
+                "recordingId": "chou-futsuu-mahou-shoujo-asumi-toruverse-in-1-song-original"
+              },
+              {
+                "title": "アン・ドゥ・トロワ (inst)",
+                "position": 2,
+                "recordingId": "chou-futsuu-mahou-shoujo-asumi-toruverse-in-1-song-instrumental"
+              }
+            ],
+            "date": {
+              "value": "2025-10-17",
+              "precision": "day"
+            },
+            "edition": "Digital Single",
+            "label": "Frontier Works"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方配信",
+            "label": "アン・ドゥ・トロワ：官方配信入口",
+            "url": "https://fwinc.lnk.to/vt0ujx",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "itsuka-un-deux-trois-digital"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "アン・ドゥ・トロワ：Apple Music",
+            "url": "https://music.apple.com/jp/album/1844525844",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "itsuka-un-deux-trois-digital"
+          },
+          {
+            "platform": "Amazon Music",
+            "label": "アン・ドゥ・トロワ：Amazon Music",
+            "url": "https://music.amazon.co.jp/albums/B0FV2HRNK4",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "itsuka-un-deux-trois-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "アン・ドゥ・トロワ：Spotify",
+            "url": "https://open.spotify.com/album/1rHSKsBpJKTUcUuKTdmGag",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "itsuka-un-deux-trois-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "アン・ドゥ・トロワ：LINE MUSIC",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004b97d6b&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "itsuka-un-deux-trois-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "アン・ドゥ・トロワ：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_nT1w4MNnbO17fhDBJMSbCUock4-Jglq_4",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "itsuka-un-deux-trois-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "アン・ドゥ・トロワ：AWA",
+            "url": "https://s.awa.fm/album/1d080d45c4affd0b5b07",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "itsuka-un-deux-trois-digital"
+          },
+          {
+            "platform": "Amazon Music",
+            "label": "アン・ドゥ・トロワ：Amazon Music",
+            "url": "https://www.amazon.co.jp/gp/product/B0FV2HRNK4",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "itsuka-un-deux-trois-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "アン・ドゥ・トロワ：mora",
+            "url": "https://mora.jp/package/43000035/198704775444/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "itsuka-un-deux-trois-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "アン・ドゥ・トロワ：レコチョク",
+            "url": "https://recochoku.jp/album/A1044312179",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "itsuka-un-deux-trois-digital"
+          }
+        ]
       }
     ]
   },
@@ -58774,7 +60801,7 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
     ],
     "themes": [
       {
-        "type": "TS",
+        "type": "ED",
         "sequence": 1,
         "titleJa": "スーパー☆ハピハピ",
         "artistDisplayName": "JOCHUM",
@@ -58797,6 +60824,34 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://ameblo.jp/hisayahojo/entry-12947250522.html",
+            "label": "逐曲創作／演唱名單",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://ameblo.jp/hisayahojo/entry-12948619861.html",
+            "label": "創作者：full／short音源差異與官方配信入口",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1850909862",
+            "label": "Apple Music日本授權Single：2025年11月27日配信",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://lnk.to/jochum_superhappyhappy",
+            "label": "官方配信頁：曲目／專輯入口",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
           }
         ],
         "credits": [
@@ -58811,6 +60866,10 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
           {
             "name": "宝生 久弥",
             "role": "composition"
+          },
+          {
+            "name": "宝生久弥 (United Code)",
+            "role": "arrangement"
           }
         ],
         "evidence": [
@@ -58849,9 +60908,364 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "jochum-season-2-ts-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "type",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000000685.000037629.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "jochum-season-2-ts-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://ameblo.jp/hisayahojo/entry-12947250522.html"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://ameblo.jp/hisayahojo/entry-12948619861.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "jochum-season-2-ts-1-song-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://ameblo.jp/hisayahojo/entry-12948619861.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "jochum-season-2-ts-1-song-short"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://ameblo.jp/hisayahojo/entry-12948619861.html",
+              "https://music.apple.com/jp/album/1850909862"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "jochum-superhappyhappy-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://ameblo.jp/hisayahojo/entry-12948619861.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://lnk.to/jochum_superhappyhappy"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000000685.000037629.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=GQNVDmyhHxg"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/album/1850909862"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/song/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC-%E3%83%8F%E3%83%94%E3%83%8F%E3%83%94/1850909863"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/jochum_superhappyhappy"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1850909862"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/jochum_superhappyhappy"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/5sVFIwbcIVk7MRjAvfVmB1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/jochum_superhappyhappy"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004c931f0&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/jochum_superhappyhappy"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.amazon.co.jp/gp/product/B0G19N1RYS"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/jochum_superhappyhappy"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/watch?v=eRlWUv_kvoI"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/jochum_superhappyhappy"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://s.awa.fm/album/5a85a995578ba4c8f114"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/jochum_superhappyhappy"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.kkbox.com/jp/ja/album/HYLRC4iwU1EtWpJ9xv"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/jochum_superhappyhappy"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/song/S1028937184"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/jochum_superhappyhappy"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000047/4582109078273/"
           }
         ],
-        "usageLabel": "シーズン2 主題歌"
+        "usageLabel": "YouTube配信版 エンディング（シーズン2主題歌）",
+        "id": "jochum-season-2-ts-1",
+        "recordings": [
+          {
+            "id": "jochum-season-2-ts-1-song-full",
+            "title": "スーパー☆ハピハピ（フルバージョン）",
+            "format": "full",
+            "kind": "character"
+          },
+          {
+            "id": "jochum-season-2-ts-1-song-short",
+            "title": "スーパー☆ハピハピ（ショートバージョン）",
+            "format": "short",
+            "kind": "character"
+          }
+        ],
+        "releases": [
+          {
+            "id": "jochum-superhappyhappy-digital",
+            "title": "スーパー☆ハピハピ",
+            "type": "single",
+            "artistDisplayName": "JOCHUM",
+            "tracks": [
+              {
+                "title": "スーパー☆ハピハピ",
+                "position": 1,
+                "recordingId": "jochum-season-2-ts-1-song-full"
+              }
+            ],
+            "date": {
+              "value": "2025-11-27",
+              "precision": "day"
+            },
+            "edition": "Digital Single",
+            "label": "SANRIO/LAPONE ENTERTAINMENT"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方配信",
+            "label": "スーパー☆ハピハピ：官方配信入口",
+            "url": "https://lnk.to/jochum_superhappyhappy",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "jochum-superhappyhappy-digital"
+          },
+          {
+            "platform": "YouTube",
+            "label": "スーパー☆ハピハピ：Music Video ショートver.",
+            "url": "https://www.youtube.com/watch?v=GQNVDmyhHxg",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "スーパー☆ハピハピ：Apple Music",
+            "url": "https://music.apple.com/jp/song/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC-%E3%83%8F%E3%83%94%E3%83%8F%E3%83%94/1850909863",
+            "linkType": "direct_track",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "recordingId": "jochum-season-2-ts-1-song-full",
+            "releaseId": "jochum-superhappyhappy-digital"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "スーパー☆ハピハピ：Apple Music",
+            "url": "https://music.apple.com/jp/album/1850909862",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "jochum-superhappyhappy-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "スーパー☆ハピハピ：Spotify",
+            "url": "https://open.spotify.com/album/5sVFIwbcIVk7MRjAvfVmB1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "jochum-superhappyhappy-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "スーパー☆ハピハピ：LINE MUSIC",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004c931f0&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "jochum-superhappyhappy-digital"
+          },
+          {
+            "platform": "Amazon Music",
+            "label": "スーパー☆ハピハピ：Amazon Music",
+            "url": "https://www.amazon.co.jp/gp/product/B0G19N1RYS",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "jochum-superhappyhappy-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "スーパー☆ハピハピ：YouTube Music",
+            "url": "https://music.youtube.com/watch?v=eRlWUv_kvoI",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "jochum-superhappyhappy-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "スーパー☆ハピハピ：AWA",
+            "url": "https://s.awa.fm/album/5a85a995578ba4c8f114",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "jochum-superhappyhappy-digital"
+          },
+          {
+            "platform": "KKBOX",
+            "label": "スーパー☆ハピハピ：KKBOX",
+            "url": "https://www.kkbox.com/jp/ja/album/HYLRC4iwU1EtWpJ9xv",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "jochum-superhappyhappy-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "スーパー☆ハピハピ：レコチョク",
+            "url": "https://recochoku.jp/song/S1028937184",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "jochum-superhappyhappy-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "スーパー☆ハピハピ：mora",
+            "url": "https://mora.jp/package/43000047/4582109078273/",
+            "linkType": "digital_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "jochum-superhappyhappy-digital"
+          }
+        ]
       }
     ]
   },
@@ -58963,9 +61377,30 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "anila-to-cocora-ts-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.atpress.ne.jp/news/544857"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "anila-to-cocora-ts-1-song-original"
           }
         ],
-        "usageLabel": "主題歌"
+        "usageLabel": "主題歌",
+        "recordings": [
+          {
+            "id": "anila-to-cocora-ts-1-song-original",
+            "title": "グッドらっこ",
+            "format": "unknown",
+            "kind": "character"
+          }
+        ]
       }
     ]
   }
