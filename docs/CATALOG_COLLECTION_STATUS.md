@@ -2875,3 +2875,5 @@ Cloudflare Workers實際CLI部署成功，來源 `6015b1fe1d7649578b4e34a9b603dc
 本機入口：`/seasons/2025-fall/`、`/anime/tensei-akujo-no-kuro-rekishi/`、`/anime/disney-twisted-wonderland-the-animation-episode-of-heartslabyul/`、`/anime/shuumatsu-no-valkyrie-iii/`。正式驗收後接續第33批2025秋未收錄TV／WEB、短篇、續播與輪替；只按觸發條件回查本批缺口。2025夏及更舊年份待辦保留，整季與長期目標均未完成。
 
 文件相對連結、`git diff --check`、repository公開邊界241檔及Cloudflare dry-run通過；實際Merry!!!頁內跳轉、版本證據展開與本機應用錯誤0通過。尚待固定PR head的CI／Workers preview、正常合併、main CI及正式部署／live驗收，production仍以第31批為準。
+
+同批深化及本機驗收由 `256d4a7` 保存；[PR #121](https://github.com/kyeunga25/anisonary/pull/121)已建立。下一步固定PR head檢查、正常合併、main CI、Git tree一致與乾淨工作區核對，再正式部署及live驗收；本段不是production完成宣告。
