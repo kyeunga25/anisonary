@@ -2846,3 +2846,32 @@ Cloudflare Workers實際CLI部署成功，來源 `6015b1fe1d7649578b4e34a9b603dc
 | `shuumatsu-no-valkyrie-iii-ed-1` | Last breath, Last record／ED1／早見沙織 |
 
 已處理anime ID：`curated-176298`、`curated-174914`、`curated-186621`、`curated-198561`、`curated-198117`、`curated-185694`、`curated-186736`、`curated-140291`、`curated-184718`、`curated-187921`。未知配信時刻省略；2025 WEB首播與之後TV放送分開，沒有新增2026用途。核心第一方與交叉來源已保存，來源核對日期2026-10-16。
+
+
+### 第32批同批深化與本機驗收
+
+18筆OP／ED核心由 `54cd5f8`、8筆插曲核心由 `847849c` 分段保存並推送。整批新增10部／26筆用途（8 OP、10 ED、8 IN），對應26個歌曲ID；24筆具備作詞、作曲、編曲，18 OP／ED中有13筆同時具有完整詞曲編曲及已確認YouTube歌曲watch外連。
+
+- 新增39個音源ID：1 full、4 TV、34 unknown；種類為21演唱版、10角色版、4 instrumental、3 remix、1重新編曲。只有「ネバネバ」有第一方明示full；Daybreak TV size、Black Flame官方明示TV音源、ネバネバ-TVサイズ、Last breath, Last record TV EDIT分開記錄。「リジェネ (アニメ ver.)」及《ツイステ》The Animation ver長度維持unknown，未由版本名或影片時長推定TV。how I feel的劇中インスト有第一方使用場景證據，未補造發行品。
+- 新增38個發行品ID、44個逐用途收錄關係：動畫／藝人Single、Journey的3個CD版、BLUE DAWN的2個CD版與配信EP、《ツイステ》Vol.1配信OST、2CD及2LP、GLAY Dead Or Alive的3個CD版與明示remix等。只保存本曲相關曲目；未證實的日期、曲序或CD／數位音源同一性留空。數位與CD日期分開；8首插曲使用配信頁日期，沒有把新聞刊登日當作發行日。
+- 新增29個不同YouTube歌曲watch外連及5筆渠道／形式metadata（false／unknown），涵蓋官方歌曲影片、NC OP／ED、カラオケ風PV、Art Track、Visualizer及Music Video；另104個其他正版平台確切項目、45個人工官方入口（含24個尚未解析目的地的TuneCore逐曲平台入口），與10個builder作品入口分開計數。5個HTTP平台目的項目排除，沒有猜改HTTPS；presave、登入／授權、追蹤參數及搜尋入口不進公開資料。TuneCore入口未冒充已核對的最終平台曲目URL。
+- 《転生悪女》8首插曲角色／CV分開保存；Zerofrom只將官方明示3人記為團隊成員，不推定個人逐曲演唱。《ツイステ》ED的5名角色歌唱、詞／曲依JOYSOUND逐曲資料作cross_check；Pachae逐曲LCA依UtaTen作cross_check，沒有搬入歌ネット名單或歌詞。
+- 核心與深化共86個不同來源URL、376組欄位證據；只更新實際查閱的新用途來源日期2026-10-16。原有1,961部公開JSON逐項完全相同，既有ID、URL及來源日期保留；沒有程式、契約、UI或依賴變更。
+
+| 本批未解缺口 | 狀態與續查條件 |
+| --- | --- |
+| `potion-wagami-wo-tasukeru-op-1`、`potion-wagami-wo-tasukeru-ed-1` | LCA、發行Single、藝人EP與確切Spotify／YouTube Music已核明；歌曲watch的官方渠道關係未齊，兩輪後等待製作／藝人直接影片公告或可核對渠道。第三方NC影片候選未當成已確認官方影片 |
+| `hyakushou-kizoku-3rd-season-ed-1` | 歌曲／ED、配信Single及cross_check LCA已保存；缺第一方逐曲完整credits、歌曲watch及渠道。兩輪後待播出／製作／藝人直接影片或唱片逐曲名單，不從一般藝人簡介推定本曲工作 |
+| `disney-twisted-wonderland-the-animation-episode-of-heartslabyul-op-1` | 動畫OP、歌唱、命名版本、OST與官方影片已確認；作詞／作曲／編曲仍空，未從OST總音樂職位套用逐曲credits。兩輪後待唱片／創作者逐曲表或授權項目製作名單 |
+| `disney-twisted-wonderland-the-animation-episode-of-heartslabyul-ed-1` | 角色歌唱及詞／曲由正版JOYSOUND補充，編曲未明；等待第一方或正版逐曲arrangement資料，未套用總配樂職位 |
+| 転生悪女部分影片／來源文字 | ファムファタル的新聞顯示文字與實際href不一致，已由作詞方同曲嵌入對上正確影片；how I feel的新聞沿用另一曲名稱，由創作者同曲頁對上。ライトネス創作者嵌入標題的CV與動畫逐曲資料不一致，只保存曲名／官方入口，角色歌唱依動畫及配信頁，不由該CV標題製造新演唱版 |
+| 音源／發行與平台 | Black Flame配信版日期、部分EP數位日期、其他藝人Album／OST收錄、完整個別演奏及CD／數位音源同一性仍待明示。24個TuneCore逐曲平台入口未取得最終目的地，只列官方入口；不從HTTP、presave、專輯標題或影片形式推定關係 |
+| 跨季及完整分母 | GANGLION後續2026 ED、Ragnarok III後續TV播出及其餘2026輪替延後。Cat’s Eye 9月26日WEB首播，依YourAnimes與AniChart秋季清單一致歸秋；首播與配信日期沒有改成10月。現有57部／119 OP／ED、24 IN仍是秋季部分快照，剩餘TV／WEB、短篇及續播聯集未閉合 |
+
+本機檢查：4檔／6項測試、build（2,016 HTML／4,028公開產物）通過；本批資料沿用既有季度、contract與UI，依矩陣不額外重跑本機E2E。原有1,961部JSON逐項不變。10部／26筆桌面頁與4部393像素手機頁的歌曲、音源／收錄數量與JSON一致；無橫向溢出或錯誤覆蓋層。秋季143筆用途24／24／24／24／24／23分頁、57 OP／62 ED／24 IN篩選，以及UWCD-1143搜尋2首→Piece of my world→Battle Arrange與欄位證據展開通過；首頁及全部歌曲各24列。已目視手機長名、版本及平台換行；觀察時0影片iframe，不代表網路攔截、播放或地區可用性驗證。
+
+全目錄本機29季／1,971部／4,390用途（4,355 OP／ED、32 IN、3 TS），1,051個不同YouTube歌曲watch外連及1,831筆metadata。2025秋本機119／119筆已核對、101核心齊備／18缺口，另24 IN；746個唯一用途已處理（711 OP／ED、32 IN、3 TS），跨季不可相加。頂部正式季度表仍以第31批為準，待本批GitHub、main CI、Cloudflare部署及live驗收。
+
+本機入口：`/seasons/2025-fall/`、`/anime/tensei-akujo-no-kuro-rekishi/`、`/anime/disney-twisted-wonderland-the-animation-episode-of-heartslabyul/`、`/anime/shuumatsu-no-valkyrie-iii/`。正式驗收後接續第33批2025秋未收錄TV／WEB、短篇、續播與輪替；只按觸發條件回查本批缺口。2025夏及更舊年份待辦保留，整季與長期目標均未完成。
+
+文件相對連結、`git diff --check`、repository公開邊界241檔及Cloudflare dry-run通過；實際Merry!!!頁內跳轉、版本證據展開與本機應用錯誤0通過。尚待固定PR head的CI／Workers preview、正常合併、main CI及正式部署／live驗收，production仍以第31批為準。
