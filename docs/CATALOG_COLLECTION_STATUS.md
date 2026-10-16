@@ -2964,3 +2964,5 @@ Cloudflare Workers實際CLI部署成功，來源 `88e89a5f366a8f1f7b78a3516c6dac
 全目錄本機29季／1,976部／4,397用途（4,359 OP／ED、33 IN、5 TS），1,056個不同YouTube歌曲watch外連、1,832筆metadata。2025秋129／129已核對、110核心齊備／19缺口，另25 IN／2 TS；2025夏因移出2筆秋季輪替，更正為141／171已核對、133核心齊備／8缺口。753個唯一用途已處理（715 OP／ED、33 IN、5 TS），跨季不可相加。頂部正式季度表仍以第32批為準，待本批正式部署與live驗收。
 
 本機入口：`/seasons/2025-fall/`、`/anime/chou-futsuu-mahou-shoujo-asumi-toruverse/`、`/anime/jochum-season-2/`、`/anime/watari-kun-no-xx-ga-houkai-sunzen/`。正式發布驗收後接續第34批2025秋未收錄TV／WEB、短篇及跨季續播聯集；原夏季待辦保留，整季及長期目標均未完成。
+
+文件相對連結、`git diff --check`、repository公開邊界241檔與新增行私隱／credential模式檢查通過；本批未加入收集腳本、原始頁面、log或帳戶資料。深化及本機驗收由 `2bc84d8` 保存；[PR #122](https://github.com/kyeunga25/anisonary/pull/122)已建立。下一步固定PR head的CI／Workers preview、正常合併、main CI、Git tree一致及乾淨工作區核對，再正式部署與live驗收；production仍以第32批為準。
