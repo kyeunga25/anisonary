@@ -2326,10 +2326,44 @@ Live首輪即通過：全部1,917動畫的公開API smoke；16共同路徑＋10�
 
 ## 2026-10-16 批次：2025-fall-inventory-27（執行中）
 
-目標：從2025年開始按秋／夏／春／冬及年份倒序，盤點並收集動畫歌曲。長期固定範圍2007–2026、資料截止日2026-10-14維持；當前執行優先範圍為2025→2007，2026成果保留。媒體沿用非成人TV／WEB的OP／ED，已確認插曲一併記錄；擴大媒體範圍時另登記。新證據實際核對日期2026-10-16。
+目標：從2025年開始按秋／夏／春／冬及年份倒序，盤點並收集動畫歌曲。長期固定範圍2007–2026、資料截止日2026-10-14維持；當前執行優先範圍為2025→2007，2026成果保留。本階段固定為非成人TV／WEB的OP／ED，已確認插曲一併記錄；劇場版／OVA保留為後續獨立範圍。新證據實際核對日期2026-10-16。
 
 第27批先處理尚無快照的2025秋季：以中文季度清單發現作品，交叉核對識別及首播／續播，再返回第一方音樂資料確認約10部／20–30筆用途。未審閱候選及原始頁面不公開。先公布有證據的曲名、用途、演唱與來源，再補同批credits、官方影片、音源及收錄；未證實的欄位留空。
 
 完成條件：本批已確認內容經seed、公開JSON、季度／歌曲歌單及動畫頁展示，通過新季度所需檢查與發布驗收；各季度分開報告現有快照數、已核對數、核心齊備數與未解缺口。2025秋完整作品／用途分母在盤點閉合前仍未知，不能將本批或現有快照當作整季已齊全。續播作品及其當季輪替歌曲需明確核對，不能只以新作首播清單計全季。
 
 原夏季27規劃的10部／23筆基線保留，尚未新增或修改歌曲資料；於2025秋首輪後回接。第26批正式成果與季度歷史統計均保留。完成每批後分類提交、推送及正式部署，再接下一批；尚未驗證修改不計完成。
+
+
+### 第27批秋季核心階段
+
+新增2025秋季部分快照，先收錄9部／20筆OP／ED；季度頁明示盤點未閉合，其他新作、跨季續播與輪替仍待補核。既有1,917部及其ID、URL、來源日期均保留。固定TV／WEB範圍，已確認插曲在同批另行核對與保存。
+
+| 公開 theme ID | 已確認曲目／用途 |
+| --- | --- |
+| `spy-family-season-3-op-1` | 灯を護る／OP1 |
+| `spy-family-season-3-ed-1` | Actor／ED1 |
+| `tondemo-skill-de-isekai-hourou-meshi-2-op-1` | yummy goodday／OP1 |
+| `tondemo-skill-de-isekai-hourou-meshi-2-ed-1` | SALT AND PEPPER／ED1 |
+| `one-punch-man-3-op-1` | Get No Satisfied !／OP1 |
+| `one-punch-man-3-ed-1` | そこに有る灯り／ED1 |
+| `nageki-no-bourei-wa-intai-shitai-part-2-op-1` | アルゴリズム／OP1 |
+| `nageki-no-bourei-wa-intai-shitai-part-2-ed-1` | 夢へのヒトカケラ／ED1 |
+| `watashi-wo-tabetai-hitodenashi-op-1` | 贄-nie-／OP1 |
+| `watashi-wo-tabetai-hitodenashi-ed-1` | リリィ／ED1 |
+| `watashi-wo-tabetai-hitodenashi-ed-2` | 太陽、なってあげよっか？♡／ED2 |
+| `watashi-wo-tabetai-hitodenashi-ed-3` | リリィ［Another ver.］／ED3 |
+| `chitose-kun-wa-ramune-bin-no-naka-op-1` | ライアー／OP1 |
+| `chitose-kun-wa-ramune-bin-no-naka-ed-1` | 陽炎／ED1 |
+| `saigo-ni-hitotsu-dake-onegai-shite-mo-yoroshii-deshou-ka-op-1` | 戦場の華／OP1 |
+| `saigo-ni-hitotsu-dake-onegai-shite-mo-yoroshii-deshou-ka-ed-1` | インフェリア／ED1 |
+| `isekai-quartet-3-op-1` | 異世界こんちぇると／OP1 |
+| `isekai-quartet-3-ed-1` | 君色、僕色／ED1 |
+| `sanda-op-1` | アダルトチックチルドレン／OP1 |
+| `sanda-ed-1` | ダイアリー／ED1 |
+
+歌曲核心採explicit來源，第一方音樂頁與YourAnimes／アニシル交叉核對。未有已核對台港正式譯名的作品暫保留原文；未取回的識別頁不加入圖像或圖像歸屬。新季度快照日期獨立登記2026-10-16，不更新其他季度日期。
+
+此階段尚未完成整批build／E2E／畫面及正式驗收，不計進頂部正式季度進度。接續本批已確認插曲、官方影片與發行收錄，整批完成後再更新實際統計及發布結果。
+
+核心階段檢查：4檔／5項核心測試、repository public boundary（240檔）與git diff --check通過。初次測試指出新季度尚未登記快照日期，已補2025-fall單一日期並重驗；沒有改測試或舊季度日期。整批展示與正式驗收仍待完成。

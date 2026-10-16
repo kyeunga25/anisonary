@@ -54,6 +54,7 @@ export const seasonSnapshotVerifiedAt = {
   "2026-summer": "2026-08-02",
   "2026-spring": "2026-08-02",
   "2026-winter": "2026-07-28",
+  "2025-fall": "2026-10-16",
   "2025-summer": "2026-08-10",
   "2025-spring": "2026-08-30",
   "2025-winter": "2026-08-30",
