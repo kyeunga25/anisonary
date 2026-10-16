@@ -9033,10 +9033,10 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "verifiedAt": "2026-10-16"
           },
           {
-            "url": "https://www.uta-net.com/song/385221/?target=kashi",
-            "label": "逐曲創作／演唱名單",
+            "url": "https://utaten.com/artist/lyric/48178",
+            "label": "UtaTen：星紡ぎ逐曲創作交叉核對",
             "role": "cross_check",
-            "language": "multi",
+            "language": "ja",
             "verifiedAt": "2026-10-16"
           }
         ],
@@ -9152,7 +9152,7 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
               "credits"
             ],
             "sourceUrls": [
-              "https://www.uta-net.com/song/385221/?target=kashi"
+              "https://utaten.com/artist/lyric/48178"
             ],
             "verifiedAt": "2026-10-16"
           },
@@ -9162,7 +9162,7 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
               "credits"
             ],
             "sourceUrls": [
-              "https://www.uta-net.com/song/385221/?target=kashi"
+              "https://utaten.com/artist/lyric/48178"
             ],
             "verifiedAt": "2026-10-16"
           },
@@ -9172,7 +9172,7 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
               "credits"
             ],
             "sourceUrls": [
-              "https://www.uta-net.com/song/385221/?target=kashi"
+              "https://utaten.com/artist/lyric/48178"
             ],
             "verifiedAt": "2026-10-16"
           }
@@ -12418,10 +12418,10 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "verifiedAt": "2026-10-16"
           },
           {
-            "url": "https://www.uta-net.com/song/381576/?Aselect=2",
-            "label": "逐曲創作／演唱名單",
+            "url": "https://www.lisani.jp/0000289548/",
+            "label": "リスアニ：桜風公開創作與發行資料",
             "role": "cross_check",
-            "language": "multi",
+            "language": "ja",
             "verifiedAt": "2026-10-16"
           },
           {
@@ -12489,7 +12489,7 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
               "credits"
             ],
             "sourceUrls": [
-              "https://www.uta-net.com/song/381576/?Aselect=2"
+              "https://www.lisani.jp/0000289548/"
             ],
             "verifiedAt": "2026-10-16"
           },
@@ -12499,7 +12499,7 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
               "credits"
             ],
             "sourceUrls": [
-              "https://www.uta-net.com/song/381576/?Aselect=2"
+              "https://www.lisani.jp/0000289548/"
             ],
             "verifiedAt": "2026-10-16"
           },
@@ -12509,7 +12509,7 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
               "credits"
             ],
             "sourceUrls": [
-              "https://www.uta-net.com/song/381576/?Aselect=2"
+              "https://www.lisani.jp/0000289548/"
             ],
             "verifiedAt": "2026-10-16"
           },
@@ -12682,10 +12682,10 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "verifiedAt": "2026-10-16"
           },
           {
-            "url": "https://www.uta-net.com/song/381367/?target=arranger",
-            "label": "逐曲創作／演唱名單",
+            "url": "https://tower.jp/item/6937252",
+            "label": "Tower Records：Underclass HERO正式商品逐曲credits",
             "role": "cross_check",
-            "language": "multi",
+            "language": "ja",
             "verifiedAt": "2026-10-16"
           },
           {
@@ -12761,7 +12761,7 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
               "credits"
             ],
             "sourceUrls": [
-              "https://www.uta-net.com/song/381367/?target=arranger"
+              "https://tower.jp/item/6937252"
             ],
             "verifiedAt": "2026-10-16"
           },
@@ -12771,7 +12771,7 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
               "credits"
             ],
             "sourceUrls": [
-              "https://www.uta-net.com/song/381367/?target=arranger"
+              "https://tower.jp/item/6937252"
             ],
             "verifiedAt": "2026-10-16"
           },
@@ -12781,7 +12781,7 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
               "credits"
             ],
             "sourceUrls": [
-              "https://www.uta-net.com/song/381367/?target=arranger"
+              "https://tower.jp/item/6937252"
             ],
             "verifiedAt": "2026-10-16"
           },
