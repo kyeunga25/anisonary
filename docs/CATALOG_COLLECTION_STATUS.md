@@ -2516,3 +2516,5 @@ Parser檢查季度格式、唯一值與第一方用途證據；公開API跨endpo
 全目錄本機29季／1,931部／4,294用途（4,277 OP／ED、14 IN、3 TS），934個唯一YouTube歌曲watch外連及1,808筆影片metadata。2025夏的當季OP／ED分母由178更正為173，移出5筆秋季輪替用途；歌曲與動畫頁仍保留。按用途季度重算，第28批本機2025秋41／41已核對、36核心齊備／5缺口；夏143／173、135齊備／8缺口。這些是本機結果，頂部正式季度表待本批live驗收後更新。
 
 本機預覽：`/seasons/2025-fall/`、`/anime/kikaijikake-no-marie/`、`/anime/wandance/`、`/anime/gachiakuta/`。GitHub／production尚待本批正式發布驗收；完成後接續第29批2025秋，不回跳夏季，也不把一批完成當成整季或長期目標完成。
+
+同批深化與本機驗收由 `208f5c6` 保存，[PR #117](https://github.com/kyeunga25/anisonary/pull/117)已建立。正式發布接點為必要quality檢查、正常合併、main CI及Cloudflare live驗收；目前仍以第27批作production基準，不能將預覽建置成功當成本批正式發布。
