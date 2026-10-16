@@ -61403,7 +61403,2989 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
         ]
       }
     ]
+  },
+  {
+    "anilistId": 187166,
+    "id": "curated-187166",
+    "slug": "ganso-bandori-chan",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-02",
+    "titleJa": "元祖！バンドリちゃん",
+    "titleZhHant": "元祖！バンドリちゃん",
+    "titleRomaji": "Ganso! Bandori-chan",
+    "editorialWeekday": 4,
+    "broadcastTimeJst": "23:25",
+    "broadcastLabel": "日本TV首播：TOKYO MX 23:25；同日22:00起WEB配信",
+    "status": "unknown",
+    "officialSiteUrl": "https://anime.bang-dream.com/bandorichan/",
+    "anilistUrl": "https://anilist.co/anime/187166",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://acgsecrets.hk/anime/2017/",
+      "https://anime.bang-dream.com/bandorichan/onair/"
+    ],
+    "themes": [
+      {
+        "type": "TS",
+        "sequence": 1,
+        "titleJa": "元祖！バンドリちゃんのテーマ",
+        "artistDisplayName": "香澄×蘭×彩×友希那×こころ×ましろ×レイヤ×燈×ドロリス×あられ",
+        "songId": "ganso-bandori-chan-ts-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://anime.bang-dream.com/bandorichan/staff-cast/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://acgsecrets.hk/anime/2017/",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1838917422",
+            "label": "Apple Music授權：本曲逐名角色演唱及CV",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://bang-dream.com/discographies/4153/",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://bmu.lnk.to/BanGDreamChanwe",
+            "label": "官方曲目／專輯入口",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "織田あすか (Elements Garden)",
+            "role": "lyrics"
+          },
+          {
+            "name": "藤田淳平 (Elements Garden)",
+            "role": "composition"
+          },
+          {
+            "name": "藤田淳平 (Elements Garden)",
+            "role": "arrangement"
+          },
+          {
+            "name": "戸山香澄（CV：愛美）",
+            "role": "vocals"
+          },
+          {
+            "name": "美竹蘭（CV：佐倉綾音）",
+            "role": "vocals"
+          },
+          {
+            "name": "丸山彩（CV：前島亜美）",
+            "role": "vocals"
+          },
+          {
+            "name": "湊友希那（CV：相羽あいな）",
+            "role": "vocals"
+          },
+          {
+            "name": "弦巻こころ（CV：伊藤美来）",
+            "role": "vocals"
+          },
+          {
+            "name": "倉田ましろ（CV：進藤あまね）",
+            "role": "vocals"
+          },
+          {
+            "name": "レイヤ（CV：Raychell）",
+            "role": "vocals"
+          },
+          {
+            "name": "高松燈（CV：羊宮妃那）",
+            "role": "vocals"
+          },
+          {
+            "name": "ドロリス（CV：佐々木李子）",
+            "role": "vocals"
+          },
+          {
+            "name": "仲町あられ",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://anime.bang-dream.com/bandorichan/staff-cast/",
+              "https://acgsecrets.hk/anime/2017/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ganso-bandori-chan-ts-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://anime.bang-dream.com/bandorichan/staff-cast/",
+              "https://acgsecrets.hk/anime/2017/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ganso-bandori-chan-ts-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://anime.bang-dream.com/bandorichan/staff-cast/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ganso-bandori-chan-ts-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/album/1838917422"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://bang-dream.com/discographies/4153/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ganso-bandori-chan-ts-1-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://bang-dream.com/discographies/4153/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ganso-bandori-chan-ts-1-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://bang-dream.com/discographies/4153/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://bmu.lnk.to/BanGDreamChanwe"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://bmu.lnk.to/BanGDreamChanwe"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1838917422"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://bmu.lnk.to/BanGDreamChanwe"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/0enJi5MCxg0Vdn7CL9RAU3"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://bmu.lnk.to/BanGDreamChanwe"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_lbn8bmAiEBp-uhvvCB8ft9haD-5nhZUSM"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://bmu.lnk.to/BanGDreamChanwe"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004aa89dc&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://bmu.lnk.to/BanGDreamChanwe"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1838917422"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://bmu.lnk.to/BanGDreamChanwe"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000035/198704724794_F/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://bmu.lnk.to/BanGDreamChanwe"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1043839516"
+          }
+        ],
+        "usageLabel": "主題歌",
+        "releaseDate": "2025-10-03",
+        "recordings": [
+          {
+            "id": "ganso-bandori-chan-ts-1-song-original",
+            "title": "元祖！バンドリちゃんのテーマ",
+            "format": "unknown",
+            "kind": "character"
+          }
+        ],
+        "releases": [
+          {
+            "id": "ganso-bandori-chan-ts-1-song-digital",
+            "title": "元祖！バンドリちゃんのテーマ",
+            "type": "single",
+            "artistDisplayName": "香澄×蘭×彩×友希那×こころ×ましろ×レイヤ×燈×ドロリス×あられ",
+            "tracks": [
+              {
+                "title": "元祖！バンドリちゃんのテーマ",
+                "position": 1,
+                "recordingId": "ganso-bandori-chan-ts-1-song-original"
+              }
+            ],
+            "date": {
+              "value": "2025-10-03",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方配信",
+            "label": "元祖！バンドリちゃんのテーマ：官方配信／商品入口",
+            "url": "https://bmu.lnk.to/BanGDreamChanwe",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "ganso-bandori-chan-ts-1-song-digital"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "元祖！バンドリちゃんのテーマ：Apple Music",
+            "url": "https://music.apple.com/jp/album/1838917422",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "ganso-bandori-chan-ts-1-song-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "元祖！バンドリちゃんのテーマ：Spotify",
+            "url": "https://open.spotify.com/album/0enJi5MCxg0Vdn7CL9RAU3",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "ganso-bandori-chan-ts-1-song-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "元祖！バンドリちゃんのテーマ：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_lbn8bmAiEBp-uhvvCB8ft9haD-5nhZUSM",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "ganso-bandori-chan-ts-1-song-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "元祖！バンドリちゃんのテーマ：LINE MUSIC",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004aa89dc&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "ganso-bandori-chan-ts-1-song-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "元祖！バンドリちゃんのテーマ：mora",
+            "url": "https://mora.jp/package/43000035/198704724794_F/",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "ganso-bandori-chan-ts-1-song-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "元祖！バンドリちゃんのテーマ：レコチョク",
+            "url": "https://recochoku.jp/album/A1043839516",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "ganso-bandori-chan-ts-1-song-digital"
+          }
+        ]
+      }
+    ],
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187166-ASfp7wErGrxQ.png",
+    "imageSourceUrl": "https://anichart.net/Fall-2025",
+    "imageSourceLabel": "AniChart：AniList官方季度公開圖像"
+  },
+  {
+    "anilistId": 195173,
+    "id": "curated-195173",
+    "slug": "shibuya-hachi-part-4",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-04",
+    "titleJa": "SHIBUYA♡HACHI 第4クール",
+    "titleZhHant": "SHIBUYA♡HACHI 第4クール",
+    "titleRomaji": "SHIBUYA HACHI Part 4",
+    "editorialWeekday": 6,
+    "broadcastTimeJst": "07:00",
+    "broadcastLabel": "テレ東「イニミニマニモ」内：毎週土曜07:00",
+    "status": "unknown",
+    "officialSiteUrl": "https://www.tv-tokyo.co.jp/anime/shibuya-hachi/",
+    "anilistUrl": "https://anilist.co/anime/195173",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://www.cy.netgamebm.com/animation/view/8667/",
+      "https://www.nippon-animation.co.jp/news/information/18828/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Brand New Episode",
+        "artistDisplayName": "HACHI",
+        "songId": "shibuya-hachi-brand-new-episode-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.nippon-animation.co.jp/news/information/18828/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.cy.netgamebm.com/animation/view/8667/",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://hachi-official.jp/",
+            "label": "藝人官方：Revealia逐曲詞曲編曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://rkmusic.jp/release/443/",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://hachi.lnk.to/Brand_New_Episode",
+            "label": "官方曲目／專輯入口",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "HACHI",
+            "role": "vocals"
+          },
+          {
+            "name": "yacco",
+            "role": "lyrics"
+          },
+          {
+            "name": "tee tea",
+            "role": "composition"
+          },
+          {
+            "name": "SHINTA",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.nippon-animation.co.jp/news/information/18828/",
+              "https://www.cy.netgamebm.com/animation/view/8667/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "shibuya-hachi-brand-new-episode-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.nippon-animation.co.jp/news/information/18828/",
+              "https://www.cy.netgamebm.com/animation/view/8667/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "shibuya-hachi-part-4-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://hachi-official.jp/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "shibuya-hachi-brand-new-episode-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://rkmusic.jp/release/443/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "shibuya-hachi-brand-new-episode-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://rkmusic.jp/release/443/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "shibuya-hachi-brand-new-episode-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://rkmusic.jp/release/443/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://hachi.lnk.to/Brand_New_Episode"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://rkmusic.jp/release/443/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=NR6Qa_pb1M0"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://hachi-official.jp/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "hachi-revealia-limited"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://hachi-official.jp/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "hachi-revealia-regular"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://hachi.lnk.to/Brand_New_Episode"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1850923766"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://hachi.lnk.to/Brand_New_Episode"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/57FSnQI6bjesC9bQTyLzv0"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://hachi.lnk.to/Brand_New_Episode"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004cd9f67&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://hachi.lnk.to/Brand_New_Episode"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_m82ttw9D9lpLVBSPqWaK1xjnz9DlKDpmk"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://hachi.lnk.to/Brand_New_Episode"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000014/NOPA-8302/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://hachi.lnk.to/Brand_New_Episode"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000189/NOPA-8302/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://hachi.lnk.to/Brand_New_Episode"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1044717540"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://rkmusic.jp/release/443/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "NR6Qa_pb1M0"
+          }
+        ],
+        "usageLabel": "第4クール OP",
+        "releaseDate": "2025-11-21",
+        "recordings": [
+          {
+            "id": "shibuya-hachi-brand-new-episode-song-original",
+            "title": "Brand New Episode",
+            "format": "unknown",
+            "kind": "vocal"
+          }
+        ],
+        "releases": [
+          {
+            "id": "shibuya-hachi-brand-new-episode-song-digital",
+            "title": "Brand New Episode",
+            "type": "single",
+            "artistDisplayName": "HACHI",
+            "tracks": [
+              {
+                "title": "Brand New Episode",
+                "position": 1,
+                "recordingId": "shibuya-hachi-brand-new-episode-song-original"
+              }
+            ],
+            "date": {
+              "value": "2025-11-21",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          },
+          {
+            "id": "hachi-revealia-limited",
+            "title": "Revealia",
+            "type": "album",
+            "artistDisplayName": "HACHI",
+            "tracks": [
+              {
+                "title": "Brand New Episode",
+                "position": 13
+              }
+            ],
+            "date": {
+              "value": "2026-02-11",
+              "precision": "day"
+            },
+            "catalogNumber": "KICS-94243",
+            "edition": "特別仕様盤 CD",
+            "label": "KING RECORDS"
+          },
+          {
+            "id": "hachi-revealia-regular",
+            "title": "Revealia",
+            "type": "album",
+            "artistDisplayName": "HACHI",
+            "tracks": [
+              {
+                "title": "Brand New Episode",
+                "position": 13
+              }
+            ],
+            "date": {
+              "value": "2026-02-11",
+              "precision": "day"
+            },
+            "catalogNumber": "KICS-4244",
+            "edition": "通常盤 CD",
+            "label": "KING RECORDS"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方配信",
+            "label": "Brand New Episode：官方配信／商品入口",
+            "url": "https://hachi.lnk.to/Brand_New_Episode",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "shibuya-hachi-brand-new-episode-song-digital"
+          },
+          {
+            "platform": "YouTube",
+            "label": "Brand New Episode：Official Music Video",
+            "url": "https://www.youtube.com/watch?v=NR6Qa_pb1M0",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Brand New Episode：Apple Music",
+            "url": "https://music.apple.com/jp/album/1850923766",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "shibuya-hachi-brand-new-episode-song-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "Brand New Episode：Spotify",
+            "url": "https://open.spotify.com/album/57FSnQI6bjesC9bQTyLzv0",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "shibuya-hachi-brand-new-episode-song-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "Brand New Episode：LINE MUSIC",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004cd9f67&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "shibuya-hachi-brand-new-episode-song-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "Brand New Episode：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_m82ttw9D9lpLVBSPqWaK1xjnz9DlKDpmk",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "shibuya-hachi-brand-new-episode-song-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "Brand New Episode：mora",
+            "url": "https://mora.jp/package/43000014/NOPA-8302/",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "shibuya-hachi-brand-new-episode-song-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "Brand New Episode：mora",
+            "url": "https://mora.jp/package/43000189/NOPA-8302/",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "shibuya-hachi-brand-new-episode-song-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "Brand New Episode：レコチョク",
+            "url": "https://recochoku.jp/album/A1044717540",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "shibuya-hachi-brand-new-episode-song-digital"
+          }
+        ]
+      }
+    ],
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195173-vjXBdO73KocO.jpg",
+    "imageSourceUrl": "https://anichart.net/Fall-2025",
+    "imageSourceLabel": "AniChart：AniList官方季度公開圖像"
+  },
+  {
+    "anilistId": 199009,
+    "id": "curated-199009",
+    "slug": "2200-nen-neko-no-kuni-nippon",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-07",
+    "titleJa": "2200年ねこの国ニッポン",
+    "titleZhHant": "2200年ねこの国ニッポン",
+    "titleRomaji": "2200-nen Neko no Kuni Nippon",
+    "editorialWeekday": 2,
+    "broadcastLabel": "tvk「猫のひたいほどワイド」内13時頃；同日14:00起WEB配信",
+    "status": "unknown",
+    "officialSiteUrl": "https://www.shusuisha.co.jp/lp/info_nekonokuni",
+    "anilistUrl": "https://anilist.co/anime/199009",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://utaten.com/lyric/mi25110407/",
+      "https://www.digimerce.jp/wp-content/uploads/250926_news_03.pdf"
+    ],
+    "themes": [
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "琥珀色のロンリネス",
+        "artistDisplayName": "マツヤマイカ",
+        "songId": "2200-nen-neko-no-kuni-nippon-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.jvcmusic.co.jp/-/Discography/A028523/VE3WT-12082.html",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://utaten.com/lyric/mi25110407/",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.digimerce.jp/wp-content/uploads/250926_news_03.pdf",
+            "label": "官方配信方：ED用途、10月7日TV／WEB開始",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=QzArEk5lseE",
+            "label": "藝人官方MV：詞曲與編曲（公開索引核對）",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://matsuyamaika.lnk.to/Kohaku-ironoLoneliness",
+            "label": "官方曲目／專輯入口",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "マツヤマイカ",
+            "role": "vocals"
+          },
+          {
+            "name": "マツヤマイカ",
+            "role": "lyrics"
+          },
+          {
+            "name": "マツヤマイカ",
+            "role": "composition"
+          },
+          {
+            "name": "PARKGOLF",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/-/Discography/A028523/VE3WT-12082.html",
+              "https://utaten.com/lyric/mi25110407/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "2200-nen-neko-no-kuni-nippon-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/-/Discography/A028523/VE3WT-12082.html",
+              "https://www.digimerce.jp/wp-content/uploads/250926_news_03.pdf",
+              "https://utaten.com/lyric/mi25110407/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "2200-nen-neko-no-kuni-nippon-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=QzArEk5lseE",
+              "https://utaten.com/lyric/mi25110407/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "2200-nen-neko-no-kuni-nippon-ed-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/-/Discography/A028523/VE3WT-12082.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "2200-nen-neko-no-kuni-nippon-ed-1-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/-/Discography/A028523/VE3WT-12082.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "2200-nen-neko-no-kuni-nippon-ed-1-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/-/Discography/A028523/VE3WT-12082.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://matsuyamaika.lnk.to/Kohaku-ironoLoneliness"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/-/Discography/A028523/VE3WT-12082.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=QzArEk5lseE"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://matsuyamaika.lnk.to/Kohaku-ironoLoneliness"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1848768340"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://matsuyamaika.lnk.to/Kohaku-ironoLoneliness"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/4scOdntwiCiNdQG0bQZawP"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://matsuyamaika.lnk.to/Kohaku-ironoLoneliness"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_mFeEIvdF4k1Hj5yi6Vy7NV6yAeSE4zSAY"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://matsuyamaika.lnk.to/Kohaku-ironoLoneliness"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/album/mb0000000004c63dfe?track=mt0000000023f52eb8"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://matsuyamaika.lnk.to/Kohaku-ironoLoneliness"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/song/S1028893728/?affiliate=6501010010"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/-/Discography/A028523/VE3WT-12082.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "QzArEk5lseE"
+          }
+        ],
+        "releaseDate": "2025-11-12",
+        "recordings": [
+          {
+            "id": "2200-nen-neko-no-kuni-nippon-ed-1-song-original",
+            "title": "琥珀色のロンリネス",
+            "format": "unknown",
+            "kind": "vocal"
+          }
+        ],
+        "releases": [
+          {
+            "id": "2200-nen-neko-no-kuni-nippon-ed-1-song-digital",
+            "title": "琥珀色のロンリネス",
+            "type": "single",
+            "artistDisplayName": "マツヤマイカ",
+            "tracks": [
+              {
+                "title": "琥珀色のロンリネス",
+                "position": 1,
+                "recordingId": "2200-nen-neko-no-kuni-nippon-ed-1-song-original"
+              }
+            ],
+            "date": {
+              "value": "2025-11-12",
+              "precision": "day"
+            },
+            "edition": "Digital Single",
+            "catalogNumber": "VE3WT-12082",
+            "label": "Colourful Records"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方配信",
+            "label": "琥珀色のロンリネス：官方配信／商品入口",
+            "url": "https://matsuyamaika.lnk.to/Kohaku-ironoLoneliness",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "2200-nen-neko-no-kuni-nippon-ed-1-song-digital"
+          },
+          {
+            "platform": "YouTube",
+            "label": "琥珀色のロンリネス：Music Video",
+            "url": "https://www.youtube.com/watch?v=QzArEk5lseE",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "琥珀色のロンリネス：Apple Music",
+            "url": "https://music.apple.com/jp/album/1848768340",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "2200-nen-neko-no-kuni-nippon-ed-1-song-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "琥珀色のロンリネス：Spotify",
+            "url": "https://open.spotify.com/album/4scOdntwiCiNdQG0bQZawP",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "2200-nen-neko-no-kuni-nippon-ed-1-song-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "琥珀色のロンリネス：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_mFeEIvdF4k1Hj5yi6Vy7NV6yAeSE4zSAY",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "2200-nen-neko-no-kuni-nippon-ed-1-song-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "琥珀色のロンリネス：LINE MUSIC",
+            "url": "https://music.line.me/album/mb0000000004c63dfe?track=mt0000000023f52eb8",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "2200-nen-neko-no-kuni-nippon-ed-1-song-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "琥珀色のロンリネス：レコチョク",
+            "url": "https://recochoku.jp/song/S1028893728/?affiliate=6501010010",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "2200-nen-neko-no-kuni-nippon-ed-1-song-digital"
+          }
+        ]
+      }
+    ],
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199009-MxwkHEavznVW.jpg",
+    "imageSourceUrl": "https://anichart.net/Fall-2025",
+    "imageSourceLabel": "AniChart：AniList官方季度公開圖像"
+  },
+  {
+    "anilistId": 194389,
+    "id": "curated-194389",
+    "slug": "koala-enikki",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-02",
+    "titleJa": "コアラ絵日記",
+    "titleZhHant": "コアラ絵日記",
+    "titleRomaji": "Koala Enikki",
+    "editorialWeekday": 4,
+    "broadcastTimeJst": "20:00",
+    "broadcastLabel": "日本WEB首播：毎週木曜20:00",
+    "status": "unknown",
+    "officialSiteUrl": "https://koalas-diary.com/",
+    "anilistUrl": "https://anilist.co/anime/194389",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://www.crunchyroll.com/news/latest/2025/9/6/koalas-diary-web-anime-premiere-date",
+      "https://koalas-diary.com/onair/"
+    ],
+    "themes": [
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "虹と",
+        "artistDisplayName": "ぷにぷに電機 feat. Kan Sano",
+        "songId": "koala-enikki-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://koalas-diary.com/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.crunchyroll.com/news/latest/2025/9/6/koalas-diary-web-anime-premiere-date",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.punipunidenki.com/Nijito-27db11c5ce4c80d1b83cf4cf3ed9139f",
+            "label": "藝人官方：虹と為本作ED、日期、詞曲編曲及Single",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://nex-tone.link/HdxEdbgXY",
+            "label": "官方曲目／專輯入口",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=7DEc2nRvt5w",
+            "label": "ぷにぷに電機官方藝人頻道Art Track：Piano ver.，KADOKAWA提供（公開索引）",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "ぷにぷに電機 feat. Kan Sano",
+            "role": "vocals"
+          },
+          {
+            "name": "ぷにぷに電機",
+            "role": "lyrics"
+          },
+          {
+            "name": "ぷにぷに電機",
+            "role": "composition"
+          },
+          {
+            "name": "Kan Sano",
+            "role": "composition"
+          },
+          {
+            "name": "Kan Sano",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://koalas-diary.com/music/",
+              "https://www.crunchyroll.com/news/latest/2025/9/6/koalas-diary-web-anime-premiere-date"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "koala-enikki-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://koalas-diary.com/music/",
+              "https://www.crunchyroll.com/news/latest/2025/9/6/koalas-diary-web-anime-premiere-date",
+              "https://www.punipunidenki.com/Nijito-27db11c5ce4c80d1b83cf4cf3ed9139f"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "koala-enikki-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://koalas-diary.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "koala-enikki-ed-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.punipunidenki.com/Nijito-27db11c5ce4c80d1b83cf4cf3ed9139f"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "koala-enikki-ed-1-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.punipunidenki.com/Nijito-27db11c5ce4c80d1b83cf4cf3ed9139f"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "koala-enikki-ed-1-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.punipunidenki.com/Nijito-27db11c5ce4c80d1b83cf4cf3ed9139f"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://nex-tone.link/HdxEdbgXY"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://koalas-diary.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "koala-enikki-ed-1-song-swing"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://koalas-diary.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "koala-enikki-ed-1-song-swing-single"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://koalas-diary.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "koala-enikki-ed-1-song-piano"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://koalas-diary.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "koala-enikki-ed-1-song-piano-single"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://koalas-diary.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "koala-enikki-ed-1-song-gentle-summer"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://koalas-diary.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "koala-enikki-ed-1-song-gentle-summer-single"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://nex-tone.link/HdxEdbgXY"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/id1841833576"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://nex-tone.link/HdxEdbgXY"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/5nOGC86UIhh62jbxomouAR"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://nex-tone.link/HdxEdbgXY"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_lvFmDxyY-_lILj5DuX87bZCoc9sBOhojk"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://nex-tone.link/HdxEdbgXY"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004b29e26&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://nex-tone.link/HdxEdbgXY"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000033/PA00202486-0-1/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://nex-tone.link/HdxEdbgXY"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1044102707"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=7DEc2nRvt5w"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=7DEc2nRvt5w"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=7DEc2nRvt5w"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "7DEc2nRvt5w"
+          }
+        ],
+        "usageLabel": "2025年10月〜12月 ED",
+        "releaseDate": "2025-10-03",
+        "recordings": [
+          {
+            "id": "koala-enikki-ed-1-song-original",
+            "title": "虹と",
+            "format": "unknown",
+            "kind": "vocal"
+          },
+          {
+            "id": "koala-enikki-ed-1-song-swing",
+            "title": "虹と Swing ver.",
+            "format": "unknown",
+            "kind": "rearrangement"
+          },
+          {
+            "id": "koala-enikki-ed-1-song-piano",
+            "title": "虹と Piano ver.",
+            "format": "unknown",
+            "kind": "rearrangement"
+          },
+          {
+            "id": "koala-enikki-ed-1-song-gentle-summer",
+            "title": "虹と 優しい夏 ver.",
+            "format": "unknown",
+            "kind": "rearrangement"
+          }
+        ],
+        "releases": [
+          {
+            "id": "koala-enikki-ed-1-song-digital",
+            "title": "虹と",
+            "type": "single",
+            "artistDisplayName": "ぷにぷに電機 feat. Kan Sano",
+            "tracks": [
+              {
+                "title": "虹と",
+                "position": 1,
+                "recordingId": "koala-enikki-ed-1-song-original"
+              }
+            ],
+            "date": {
+              "value": "2025-10-03",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          },
+          {
+            "id": "koala-enikki-ed-1-song-swing-single",
+            "title": "虹と Swing ver.",
+            "type": "single",
+            "artistDisplayName": "ぷにぷに電機 feat. Kan Sano",
+            "tracks": [
+              {
+                "title": "虹と Swing ver.",
+                "position": 1,
+                "recordingId": "koala-enikki-ed-1-song-swing"
+              }
+            ],
+            "date": {
+              "value": "2026-01-09",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          },
+          {
+            "id": "koala-enikki-ed-1-song-piano-single",
+            "title": "虹と Piano ver.",
+            "type": "single",
+            "artistDisplayName": "ぷにぷに電機 feat. Kan Sano",
+            "tracks": [
+              {
+                "title": "虹と Piano ver.",
+                "position": 1,
+                "recordingId": "koala-enikki-ed-1-song-piano"
+              }
+            ],
+            "date": {
+              "value": "2026-04-03",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          },
+          {
+            "id": "koala-enikki-ed-1-song-gentle-summer-single",
+            "title": "虹と 優しい夏 ver.",
+            "type": "single",
+            "artistDisplayName": "ぷにぷに電機 feat. Kan Sano",
+            "tracks": [
+              {
+                "title": "虹と 優しい夏 ver.",
+                "position": 1,
+                "recordingId": "koala-enikki-ed-1-song-gentle-summer"
+              }
+            ],
+            "date": {
+              "value": "2026-07-03",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方配信",
+            "label": "虹と：官方配信／商品入口",
+            "url": "https://nex-tone.link/HdxEdbgXY",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "koala-enikki-ed-1-song-digital"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "虹と：Apple Music",
+            "url": "https://music.apple.com/jp/album/id1841833576",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "koala-enikki-ed-1-song-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "虹と：Spotify",
+            "url": "https://open.spotify.com/album/5nOGC86UIhh62jbxomouAR",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "koala-enikki-ed-1-song-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "虹と：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_lvFmDxyY-_lILj5DuX87bZCoc9sBOhojk",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "koala-enikki-ed-1-song-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "虹と：LINE MUSIC",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004b29e26&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "koala-enikki-ed-1-song-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "虹と：mora",
+            "url": "https://mora.jp/package/43000033/PA00202486-0-1/",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "koala-enikki-ed-1-song-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "虹と：レコチョク",
+            "url": "https://recochoku.jp/album/A1044102707",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "koala-enikki-ed-1-song-digital"
+          },
+          {
+            "platform": "YouTube",
+            "label": "虹と Piano ver.：2026年Art Track",
+            "url": "https://www.youtube.com/watch?v=7DEc2nRvt5w",
+            "linkType": "direct_track",
+            "region": "GLOBAL",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "recordingId": "koala-enikki-ed-1-song-piano",
+            "releaseId": "koala-enikki-ed-1-song-piano-single"
+          }
+        ]
+      }
+    ],
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx194389-DAbj4TOj5GB9.png",
+    "imageSourceUrl": "https://anichart.net/Fall-2025",
+    "imageSourceLabel": "AniChart：AniList官方季度公開圖像"
+  },
+  {
+    "anilistId": 188529,
+    "id": "curated-188529",
+    "slug": "ugoku-neko-mukashi-banashi",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-15",
+    "titleJa": "うごく！ねこむかしばなし",
+    "titleZhHant": "うごく！ねこむかしばなし",
+    "titleRomaji": "Ugoku! Neko Mukashi Banashi",
+    "editorialWeekday": 3,
+    "broadcastTimeJst": "20:00",
+    "broadcastLabel": "日本WEB首播：毎週水曜20:00",
+    "status": "unknown",
+    "officialSiteUrl": "https://neko-mukashibanashi.com/",
+    "anilistUrl": "https://anilist.co/anime/188529",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://www.billboard-japan.com/d_news/detail/154221/2",
+      "https://neko-mukashibanashi.com/onair/"
+    ],
+    "themes": [
+      {
+        "type": "TS",
+        "sequence": 1,
+        "titleJa": "夢中猫",
+        "artistDisplayName": "ハク。",
+        "songId": "ugoku-neko-mukashi-banashi-ts-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://neko-mukashibanashi.com/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.billboard-japan.com/d_news/detail/154221/2",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://utaten.com/lyric/ks25101519/",
+            "label": "UtaTen授權曲目：歌唱、作詞與作曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://hakumaru.com/release/",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://tf.lnk.to/patapatacat",
+            "label": "官方曲目／專輯入口",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://hakumaru.com/%E3%83%8F%E3%82%AF%E3%80%82major-1st-full-album%E3%80%8C%E4%B8%96%E7%95%8C%E3%81%8C%E5%A4%89%E3%82%8F%E3%82%8B%E6%99%82%E3%80%8D%E6%9C%AC%E6%97%A5%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%EF%BC%81/",
+            "label": "藝人2026年9月9日發行公告：完整曲序、CD版及Blu-ray live",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=RzsrBFLi-78",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.city.mito.lg.jp/site/filmcommission/mv.html",
+            "label": "官方影片／確切平台項目來源",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "ハク。",
+            "role": "vocals"
+          },
+          {
+            "name": "あい",
+            "role": "lyrics"
+          },
+          {
+            "name": "あい",
+            "role": "composition"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://neko-mukashibanashi.com/music/",
+              "https://www.billboard-japan.com/d_news/detail/154221/2"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ugoku-neko-mukashi-banashi-ts-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://neko-mukashibanashi.com/music/",
+              "https://www.billboard-japan.com/d_news/detail/154221/2"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ugoku-neko-mukashi-banashi-ts-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://neko-mukashibanashi.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ugoku-neko-mukashi-banashi-ts-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://utaten.com/lyric/ks25101519/"
+            ],
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://hakumaru.com/release/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ugoku-neko-mukashi-banashi-ts-1-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://hakumaru.com/release/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ugoku-neko-mukashi-banashi-ts-1-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://hakumaru.com/release/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://tf.lnk.to/patapatacat"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://hakumaru.com/release/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "haku-sekai-cd"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://hakumaru.com/release/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "haku-sekai-digital"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://hakumaru.com/%E3%83%8F%E3%82%AF%E3%80%82major-1st-full-album%E3%80%8C%E4%B8%96%E7%95%8C%E3%81%8C%E5%A4%89%E3%82%8F%E3%82%8B%E6%99%82%E3%80%8D%E6%9C%AC%E6%97%A5%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%EF%BC%81/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "ugoku-neko-mukashi-banashi-ts-1-song-live-20260313"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://hakumaru.com/%E3%83%8F%E3%82%AF%E3%80%82major-1st-full-album%E3%80%8C%E4%B8%96%E7%95%8C%E3%81%8C%E5%A4%89%E3%82%8F%E3%82%8B%E6%99%82%E3%80%8D%E6%9C%AC%E6%97%A5%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%EF%BC%81/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "haku-sekai-ga-kawaru-toki-limited"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://hakumaru.com/%E3%83%8F%E3%82%AF%E3%80%82major-1st-full-album%E3%80%8C%E4%B8%96%E7%95%8C%E3%81%8C%E5%A4%89%E3%82%8F%E3%82%8B%E6%99%82%E3%80%8D%E6%9C%AC%E6%97%A5%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%EF%BC%81/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "haku-sekai-ga-kawaru-toki-regular"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=RzsrBFLi-78"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=RzsrBFLi-78"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.city.mito.lg.jp/site/filmcommission/mv.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.youtube.com/watch?v=LwtXlaASBQQ"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://tf.lnk.to/patapatacat"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1841833427"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://tf.lnk.to/patapatacat"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://open.spotify.com/album/6CcurU0qUHoUWLhYo9iZyp"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://tf.lnk.to/patapatacat"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.youtube.com/playlist?list=OLAK5uy_mJ4C5jnDvmly95HcrdDScnrDdtRrPiSco"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://tf.lnk.to/patapatacat"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.line.me/launch?target=album&item=mb0000000004b2b0bb&cc=JP&v=1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://tf.lnk.to/patapatacat"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/album/A1044107686"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://tf.lnk.to/patapatacat"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000087/TFDS01250B00Z/"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=RzsrBFLi-78"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "RzsrBFLi-78"
+          }
+        ],
+        "usageLabel": "主題歌",
+        "releaseDate": "2025-10-15",
+        "recordings": [
+          {
+            "id": "ugoku-neko-mukashi-banashi-ts-1-song-original",
+            "title": "夢中猫",
+            "format": "unknown",
+            "kind": "vocal"
+          },
+          {
+            "id": "ugoku-neko-mukashi-banashi-ts-1-song-live-20260313",
+            "title": "夢中猫（2026.03.13 “GO”ツアー 梅田クラブクアトロ live）",
+            "format": "unknown",
+            "kind": "live"
+          }
+        ],
+        "releases": [
+          {
+            "id": "ugoku-neko-mukashi-banashi-ts-1-song-digital",
+            "title": "夢中猫",
+            "type": "single",
+            "artistDisplayName": "ハク。",
+            "tracks": [
+              {
+                "title": "夢中猫",
+                "position": 1,
+                "recordingId": "ugoku-neko-mukashi-banashi-ts-1-song-original"
+              }
+            ],
+            "date": {
+              "value": "2025-10-15",
+              "precision": "day"
+            },
+            "edition": "Digital Single",
+            "catalogNumber": "TFDS-01250"
+          },
+          {
+            "id": "haku-sekai-cd",
+            "title": "世界",
+            "type": "ep",
+            "artistDisplayName": "ハク。",
+            "tracks": [
+              {
+                "title": "夢中猫",
+                "position": 2
+              }
+            ],
+            "date": {
+              "value": "2026-03-04",
+              "precision": "day"
+            },
+            "catalogNumber": "PPTF-8194",
+            "edition": "CD",
+            "label": "TOY’S FACTORY"
+          },
+          {
+            "id": "haku-sekai-digital",
+            "title": "世界",
+            "type": "ep",
+            "artistDisplayName": "ハク。",
+            "tracks": [
+              {
+                "title": "夢中猫",
+                "position": 2
+              }
+            ],
+            "date": {
+              "value": "2026-03-04",
+              "precision": "day"
+            },
+            "edition": "Digital EP",
+            "label": "TOY’S FACTORY"
+          },
+          {
+            "id": "haku-sekai-ga-kawaru-toki-limited",
+            "title": "世界が変わる時",
+            "type": "album",
+            "artistDisplayName": "ハク。",
+            "tracks": [
+              {
+                "title": "夢中猫",
+                "position": 11,
+                "disc": 1
+              },
+              {
+                "title": "夢中猫",
+                "recordingId": "ugoku-neko-mukashi-banashi-ts-1-song-live-20260313",
+                "position": 4,
+                "disc": 2
+              }
+            ],
+            "date": {
+              "value": "2026-09-09",
+              "precision": "day"
+            },
+            "catalogNumber": "TFCC-81211～81212",
+            "edition": "初回限定盤 CD+Blu-ray",
+            "label": "TOY’S FACTORY"
+          },
+          {
+            "id": "haku-sekai-ga-kawaru-toki-regular",
+            "title": "世界が変わる時",
+            "type": "album",
+            "artistDisplayName": "ハク。",
+            "tracks": [
+              {
+                "title": "夢中猫",
+                "position": 11,
+                "disc": 1
+              }
+            ],
+            "date": {
+              "value": "2026-09-09",
+              "precision": "day"
+            },
+            "catalogNumber": "TFCC-81213",
+            "edition": "通常盤 CD",
+            "label": "TOY’S FACTORY"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方配信",
+            "label": "夢中猫：官方配信／商品入口",
+            "url": "https://tf.lnk.to/patapatacat",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "ugoku-neko-mukashi-banashi-ts-1-song-digital"
+          },
+          {
+            "platform": "YouTube",
+            "label": "夢中猫：Official Lyric Video",
+            "url": "https://www.youtube.com/watch?v=RzsrBFLi-78",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "夢中猫：Official Music Video",
+            "url": "https://www.youtube.com/watch?v=LwtXlaASBQQ",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "夢中猫：Apple Music",
+            "url": "https://music.apple.com/jp/album/1841833427",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "ugoku-neko-mukashi-banashi-ts-1-song-digital"
+          },
+          {
+            "platform": "Spotify",
+            "label": "夢中猫：Spotify",
+            "url": "https://open.spotify.com/album/6CcurU0qUHoUWLhYo9iZyp",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "ugoku-neko-mukashi-banashi-ts-1-song-digital"
+          },
+          {
+            "platform": "YouTube Music",
+            "label": "夢中猫：YouTube Music",
+            "url": "https://music.youtube.com/playlist?list=OLAK5uy_mJ4C5jnDvmly95HcrdDScnrDdtRrPiSco",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "ugoku-neko-mukashi-banashi-ts-1-song-digital"
+          },
+          {
+            "platform": "LINE MUSIC",
+            "label": "夢中猫：LINE MUSIC",
+            "url": "https://music.line.me/launch?target=album&item=mb0000000004b2b0bb&cc=JP&v=1",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "ugoku-neko-mukashi-banashi-ts-1-song-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "夢中猫：レコチョク",
+            "url": "https://recochoku.jp/album/A1044107686",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "ugoku-neko-mukashi-banashi-ts-1-song-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "夢中猫：mora",
+            "url": "https://mora.jp/package/43000087/TFDS01250B00Z/",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "ugoku-neko-mukashi-banashi-ts-1-song-digital"
+          }
+        ]
+      }
+    ],
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx188529-6o9byjahRpEx.jpg",
+    "imageSourceUrl": "https://anichart.net/Fall-2025",
+    "imageSourceLabel": "AniChart：AniList官方季度公開圖像"
+  },
+  {
+    "anilistId": 199635,
+    "id": "curated-199635",
+    "slug": "petitcure-precure-fairies-season-2",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-09",
+    "titleJa": "ぷちきゅあ～Precure Fairies～ シーズン2",
+    "titleZhHant": "ぷちきゅあ～Precure Fairies～ シーズン2",
+    "titleRomaji": "PetitCure: Precure Fairies Season 2",
+    "editorialWeekday": 4,
+    "broadcastTimeJst": "18:30",
+    "broadcastLabel": "日本WEB首播：10月9日(木)18:30",
+    "status": "unknown",
+    "officialSiteUrl": "https://www.toei-anim.co.jp/petitcure/",
+    "anilistUrl": "https://anilist.co/anime/199635",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://www.animatetimes.com/news/details.php?id=1752814481",
+      "https://www.toei-anim.co.jp/petitcure/news/2025100204.php"
+    ],
+    "themes": [
+      {
+        "type": "TS",
+        "sequence": 1,
+        "titleJa": "♥DANZEN！kawaii！ ぷちきゅあ♥",
+        "artistDisplayName": "後本萌葉",
+        "songId": "petitcure-danzen-kawaii-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.toei-anim.co.jp/petitcure/news/2025091901.php",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.animatetimes.com/news/details.php?id=1752814481",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.toei-anim.co.jp/petitcure/news/2025100204.php",
+            "label": "官方：シーズン2 WEB開始",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.toei-anim.co.jp/petitcure/news/2025071801.php",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://precure.lnk.to/Petit",
+            "label": "官方曲目／專輯入口",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.marv.jp/titles/mc/10967/",
+            "label": "官方歌曲／商品／影片資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://lnk.to/Petit_ThemeSongAL",
+            "label": "官方曲目／專輯入口",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://s.mxtv.jp/anime/petitcure_2026sp/",
+            "label": "官方播出方：おかしなパラダイス（シーズン2）之同曲與完整創作",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.neowing.co.jp/product/MJSA-1432",
+            "label": "Neowing授權：主題歌Album、アイキャッチ與伴奏逐曲表",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "後本萌葉",
+            "role": "vocals"
+          },
+          {
+            "name": "青木久美子",
+            "role": "lyrics"
+          },
+          {
+            "name": "小杉保夫",
+            "role": "composition"
+          },
+          {
+            "name": "EFFY",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/petitcure/news/2025091901.php",
+              "https://www.animatetimes.com/news/details.php?id=1752814481"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "petitcure-danzen-kawaii-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/petitcure/news/2025091901.php",
+              "https://www.animatetimes.com/news/details.php?id=1752814481",
+              "https://www.toei-anim.co.jp/petitcure/news/2025100204.php"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "petitcure-precure-fairies-season-2-ts-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/petitcure/news/2025091901.php"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "petitcure-danzen-kawaii-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/petitcure/news/2025071801.php"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "petitcure-danzen-kawaii-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/petitcure/news/2025071801.php"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "petitcure-danzen-kawaii-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/petitcure/news/2025071801.php"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://precure.lnk.to/Petit"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "tracklist",
+              "date",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/10967/",
+              "https://www.neowing.co.jp/product/MJSA-1432"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "petitcure-theme-song-album-mjsa-01432"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/10967/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://lnk.to/Petit_ThemeSongAL"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://s.mxtv.jp/anime/petitcure_2026sp/",
+              "https://www.toei-anim.co.jp/petitcure/news/2025100204.php"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "petitcure-precure-fairies-season-2-ts-1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://precure.lnk.to/Petit"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://music.apple.com/jp/album/1822463066"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://precure.lnk.to/Petit"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://mora.jp/package/43000108/4535506005878/?trackMaterialNo=39926611"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://precure.lnk.to/Petit"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://recochoku.jp/song/S1028006418/single"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/Petit_ThemeSongAL"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://books.rakuten.co.jp/rb/18304761/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/Petit_ThemeSongAL"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.neowing.co.jp/product/MJSA-1432"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/Petit_ThemeSongAL"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.animate-onlineshop.jp/pn/pd/3177216/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/Petit_ThemeSongAL"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "https://www.gamers.co.jp/pn/pd/10814589/"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/10967/",
+              "https://www.neowing.co.jp/product/MJSA-1432"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "petitcure-danzen-kawaii-song-eyecatch"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/10967/",
+              "https://www.neowing.co.jp/product/MJSA-1432"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "petitcure-danzen-kawaii-song-karaoke"
+          }
+        ],
+        "usageLabel": "主題歌",
+        "releaseDate": "2025-07-18",
+        "recordings": [
+          {
+            "id": "petitcure-danzen-kawaii-song-original",
+            "title": "♥DANZEN！kawaii！ ぷちきゅあ♥",
+            "format": "unknown",
+            "kind": "vocal"
+          },
+          {
+            "id": "petitcure-danzen-kawaii-song-eyecatch",
+            "title": "♥DANZEN！kawaii！ ぷちきゅあ♥（アイキャッチ）",
+            "format": "unknown",
+            "kind": "vocal"
+          },
+          {
+            "id": "petitcure-danzen-kawaii-song-karaoke",
+            "title": "♥DANZEN！kawaii！ ぷちきゅあ♥（オリジナル・カラオケ）",
+            "format": "unknown",
+            "kind": "instrumental"
+          }
+        ],
+        "releases": [
+          {
+            "id": "petitcure-danzen-kawaii-song-digital",
+            "title": "♥DANZEN！kawaii！ ぷちきゅあ♥",
+            "type": "single",
+            "artistDisplayName": "後本萌葉",
+            "tracks": [
+              {
+                "title": "♥DANZEN！kawaii！ ぷちきゅあ♥",
+                "position": 1,
+                "recordingId": "petitcure-danzen-kawaii-song-original"
+              }
+            ],
+            "date": {
+              "value": "2025-07-18",
+              "precision": "day"
+            },
+            "edition": "Digital Single"
+          },
+          {
+            "id": "petitcure-theme-song-album-mjsa-01432",
+            "title": "『ぷちきゅあ～Precure Fairies～』テーマソングアルバム",
+            "type": "album",
+            "artistDisplayName": "後本萌葉／田山里奈",
+            "tracks": [
+              {
+                "title": "♥DANZEN！kawaii！ ぷちきゅあ♥",
+                "position": 1
+              },
+              {
+                "title": "♥DANZEN！kawaii！ ぷちきゅあ♥（アイキャッチ）",
+                "recordingId": "petitcure-danzen-kawaii-song-eyecatch"
+              },
+              {
+                "title": "♥DANZEN！kawaii！ ぷちきゅあ♥（オリジナル・カラオケ）",
+                "position": 32,
+                "recordingId": "petitcure-danzen-kawaii-song-karaoke"
+              }
+            ],
+            "date": {
+              "value": "2025-10-29",
+              "precision": "day"
+            },
+            "catalogNumber": "MJSA-01432",
+            "edition": "CD",
+            "label": "マーベラス"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方配信",
+            "label": "♥DANZEN！kawaii！ ぷちきゅあ♥：官方配信／商品入口",
+            "url": "https://precure.lnk.to/Petit",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "petitcure-danzen-kawaii-song-digital"
+          },
+          {
+            "platform": "官方配信",
+            "label": "♥DANZEN！kawaii！ ぷちきゅあ♥：官方配信／商品入口",
+            "url": "https://lnk.to/Petit_ThemeSongAL",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "petitcure-theme-song-album-mjsa-01432"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "♥DANZEN！kawaii！ ぷちきゅあ♥：Apple Music",
+            "url": "https://music.apple.com/jp/album/1822463066",
+            "linkType": "direct_album",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "petitcure-danzen-kawaii-song-digital"
+          },
+          {
+            "platform": "mora",
+            "label": "♥DANZEN！kawaii！ ぷちきゅあ♥：mora",
+            "url": "https://mora.jp/package/43000108/4535506005878/?trackMaterialNo=39926611",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "petitcure-danzen-kawaii-song-digital"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "♥DANZEN！kawaii！ ぷちきゅあ♥：レコチョク",
+            "url": "https://recochoku.jp/song/S1028006418/single",
+            "linkType": "digital_purchase",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "petitcure-danzen-kawaii-song-digital"
+          },
+          {
+            "platform": "楽天ブックス",
+            "label": "♥DANZEN！kawaii！ ぷちきゅあ♥：楽天ブックス",
+            "url": "https://books.rakuten.co.jp/rb/18304761/",
+            "linkType": "physical_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "petitcure-theme-song-album-mjsa-01432"
+          },
+          {
+            "platform": "Neowing",
+            "label": "♥DANZEN！kawaii！ ぷちきゅあ♥：Neowing",
+            "url": "https://www.neowing.co.jp/product/MJSA-1432",
+            "linkType": "physical_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "petitcure-theme-song-album-mjsa-01432"
+          },
+          {
+            "platform": "アニメイト",
+            "label": "♥DANZEN！kawaii！ ぷちきゅあ♥：アニメイト",
+            "url": "https://www.animate-onlineshop.jp/pn/pd/3177216/",
+            "linkType": "physical_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "petitcure-theme-song-album-mjsa-01432"
+          },
+          {
+            "platform": "ゲーマーズ",
+            "label": "♥DANZEN！kawaii！ ぷちきゅあ♥：ゲーマーズ",
+            "url": "https://www.gamers.co.jp/pn/pd/10814589/",
+            "linkType": "physical_purchase",
+            "region": "JP",
+            "verifiedAt": "2026-10-16",
+            "availability": "unknown",
+            "releaseId": "petitcure-theme-song-album-mjsa-01432"
+          }
+        ]
+      }
+    ],
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199635-rgif9o9VWMrt.png",
+    "imageSourceUrl": "https://anichart.net/Fall-2025",
+    "imageSourceLabel": "AniChart：AniList官方季度公開圖像"
+  },
+  {
+    "anilistId": 204621,
+    "id": "curated-204621",
+    "slug": "koikeya-sdgs-gekijou-suss-to-tina-season-6",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-01",
+    "titleJa": "湖池屋SDGs劇場 サスとテナ シーズン6",
+    "titleZhHant": "湖池屋SDGs劇場 サスとテナ シーズン6",
+    "titleRomaji": "Koikeya SDGs Gekijou Suss to Tina Season 6",
+    "editorialWeekday": 3,
+    "broadcastTimeJst": "20:54",
+    "broadcastLabel": "日本TV首播：BS朝日 毎週水曜20:54；官方WEB亦提供各話",
+    "status": "unknown",
+    "officialSiteUrl": "https://sustotena.koikeya.co.jp/",
+    "anilistUrl": "https://anilist.co/anime/204621",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://anichart.net/Fall-2025",
+      "https://koikeya.co.jp/news/detail/1740.html"
+    ],
+    "themes": [],
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b204621-8E7G89mDKBgr.png",
+    "imageSourceUrl": "https://anichart.net/Fall-2025",
+    "imageSourceLabel": "AniChart：AniList官方季度公開圖像"
+  },
+  {
+    "anilistId": 198921,
+    "id": "curated-198921",
+    "slug": "sylvanian-families-freya-no-wonder-days",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-02",
+    "titleJa": "シルバニアファミリー フレアのワンダーデイズ",
+    "titleZhHant": "シルバニアファミリー フレアのワンダーデイズ",
+    "titleRomaji": "Sylvanian Families: Freya no Wonder Days",
+    "editorialWeekday": 4,
+    "broadcastTimeJst": "19:34",
+    "broadcastLabel": "日本配信：dアニメストア 10月2日(木)19:34；TV／WEB作品",
+    "status": "unknown",
+    "officialSiteUrl": "https://www.sylvanianfamilies.com/ja-jp/special/tv/freyas-wonderdays/",
+    "anilistUrl": "https://anilist.co/anime/198921",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://anichart.net/Fall-2025",
+      "https://www.sylvanianfamilies.com/ja-jp/special/tv/freyas-wonderdays/"
+    ],
+    "themes": [],
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198921-NMVQx7KSCnTd.png",
+    "imageSourceUrl": "https://anichart.net/Fall-2025",
+    "imageSourceLabel": "AniChart：AniList官方季度公開圖像"
+  },
+  {
+    "anilistId": 199008,
+    "id": "curated-199008",
+    "slug": "uso-tantei-tomanto",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-06",
+    "titleJa": "うそ探偵トマント ベジフル“プチっ”と情報編",
+    "titleZhHant": "うそ探偵トマント ベジフル“プチっ”と情報編",
+    "titleRomaji": "Uso Tantei Tomanto",
+    "editorialWeekday": 1,
+    "broadcastLabel": "TRAIN TV 10月6日(月)開始；放映終了後に公式WEB／YouTube見逃し配信",
+    "status": "unknown",
+    "officialSiteUrl": "https://www.san-x.co.jp/tomanto/ttv/",
+    "anilistUrl": "https://anilist.co/anime/199008",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://anichart.net/Fall-2025",
+      "https://prtimes.jp/main/html/rd/p/000000680.000018631.html"
+    ],
+    "themes": [],
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199008-P45zksUSzTWD.png",
+    "imageSourceUrl": "https://anichart.net/Fall-2025",
+    "imageSourceLabel": "AniChart：AniList官方季度公開圖像"
   }
 ];
 
-export const curated2025FallAnimeIds: number[] = [177937, 170577, 153800, 185801, 183385, 180082, 181447, 194447, 179302, 195153, 179992, 182896, 162890, 180436, 195240, 186524, 187940, 173523, 177271, 186190, 186794, 186920, 129195, 186161, 183965, 185575, 185731, 162669, 184322, 188487, 173692, 183291, 185116, 187464, 193968, 188388, 190840, 186914, 170018, 170936, 184997, 196553, 196230, 187860, 176298, 174914, 186621, 198561, 198117, 185694, 186736, 140291, 184718, 187921, 187331, 194832, 198926, 198413, 199794, 169420, 188653, 193238, 193883, 196229];
+export const curated2025FallAnimeIds: number[] = [177937, 170577, 153800, 185801, 183385, 180082, 181447, 194447, 179302, 195153, 179992, 182896, 162890, 180436, 195240, 186524, 187940, 173523, 177271, 186190, 186794, 186920, 129195, 186161, 183965, 185575, 185731, 162669, 184322, 188487, 173692, 183291, 185116, 187464, 193968, 188388, 190840, 186914, 170018, 170936, 184997, 196553, 196230, 187860, 176298, 174914, 186621, 198561, 198117, 185694, 186736, 140291, 184718, 187921, 187331, 194832, 198926, 198413, 199794, 169420, 188653, 193238, 193883, 196229, 187166, 195173, 199009, 194389, 188529, 199635, 204621, 198921, 199008, 185073];
