@@ -58227,7 +58227,748 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
         ]
       }
     ]
+  },
+  {
+    "anilistId": 187331,
+    "id": "curated-187331",
+    "slug": "sawaranaide-kotesashi-kun",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-06",
+    "titleJa": "さわらないで小手指くん",
+    "titleZhHant": "さわらないで小手指くん",
+    "titleRomaji": "Sawaranaide Kotesashi-kun",
+    "editorialWeekday": 1,
+    "broadcastTimeJst": "01:05",
+    "broadcastLabel": "日本首播：10月5日(日)25:05＝10月6日(月)01:05；TOKYO MX／BS11",
+    "status": "unknown",
+    "officialSiteUrl": "https://kotesashikun.deregula.com/",
+    "anilistUrl": "https://anilist.co/anime/187331",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://www.joysound.com/web/search/song/1135706",
+      "https://kotesashikun.deregula.com/onair/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "U.K.U",
+        "artistDisplayName": "UtaGe!",
+        "songId": "sawaranaide-kotesashi-kun-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://kotesashikun.deregula.com/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.joysound.com/web/search/song/1135706",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "UtaGe!",
+            "role": "vocals"
+          },
+          {
+            "name": "匿名ゲルマ",
+            "role": "lyrics"
+          },
+          {
+            "name": "匿名ゲルマ",
+            "role": "composition"
+          },
+          {
+            "name": "匿名ゲルマ",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/music/",
+              "https://www.joysound.com/web/search/song/1135706"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sawaranaide-kotesashi-kun-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/music/",
+              "https://www.joysound.com/web/search/song/1135706"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sawaranaide-kotesashi-kun-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sawaranaide-kotesashi-kun-op-1-song"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "上々↑ハイテンション",
+        "artistDisplayName": "Palette Parade",
+        "songId": "sawaranaide-kotesashi-kun-ed-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://kotesashikun.deregula.com/music/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.joysound.com/web/search/song/1135708",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "Palette Parade",
+            "role": "vocals"
+          },
+          {
+            "name": "大熊淳生 (Arte Refact)",
+            "role": "lyrics"
+          },
+          {
+            "name": "大熊淳生 (Arte Refact)",
+            "role": "composition"
+          },
+          {
+            "name": "大熊淳生 (Arte Refact)",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/music/",
+              "https://www.joysound.com/web/search/song/1135708"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sawaranaide-kotesashi-kun-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/music/",
+              "https://www.joysound.com/web/search/song/1135708"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sawaranaide-kotesashi-kun-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://kotesashikun.deregula.com/music/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "sawaranaide-kotesashi-kun-ed-1-song"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 194832,
+    "id": "curated-194832",
+    "slug": "oshiri-tantei-9-part-2",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-04",
+    "titleJa": "おしりたんてい",
+    "titleZhHant": "おしりたんてい",
+    "titleRomaji": "Oshiri Tantei 9 Part 2",
+    "editorialWeekday": 6,
+    "broadcastLabel": "2025年秋 新作エピソード：10月4日(土)開始",
+    "status": "unknown",
+    "officialSiteUrl": "https://oshiri-tantei.com/",
+    "anilistUrl": "https://anilist.co/anime/194832",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://www.animatetimes.com/news/details.php?id=1757229474",
+      "https://oshiri-tantei.com/news/2025090501.html"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "ププッとフムッとかいけつダンス",
+        "artistDisplayName": "伊勢大貴",
+        "songId": "oshiri-tantei-9-part-2-op-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://columbia.jp/oshiri-tantei/",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.animatetimes.com/news/details.php?id=1757229474",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://oshiri-tantei.com/news/2026040402.html",
+            "label": "官方：2018年起使用的片頭曲與2026年影像更新，曲名／用途沿革",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "伊勢大貴",
+            "role": "vocals"
+          },
+          {
+            "name": "藤本記子",
+            "role": "lyrics"
+          },
+          {
+            "name": "小杉保夫",
+            "role": "composition"
+          },
+          {
+            "name": "高木洋",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/oshiri-tantei/",
+              "https://www.animatetimes.com/news/details.php?id=1757229474"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "oshiri-tantei-9-part-2-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/oshiri-tantei/",
+              "https://www.animatetimes.com/news/details.php?id=1757229474",
+              "https://oshiri-tantei.com/news/2026040402.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "oshiri-tantei-9-part-2-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/oshiri-tantei/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "oshiri-tantei-9-part-2-op-1-song"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 198926,
+    "id": "curated-198926",
+    "slug": "chou-futsuu-mahou-shoujo-asumi-toruverse",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-02",
+    "titleJa": "超普通マホウ少女 アスミトルバース",
+    "titleZhHant": "超普通マホウ少女 アスミトルバース",
+    "titleRomaji": "Chou Futsuu Mahou Shoujo Asumi Toruverse",
+    "editorialWeekday": 4,
+    "broadcastTimeJst": "21:54",
+    "broadcastLabel": "日本首播",
+    "status": "unknown",
+    "officialSiteUrl": "https://5th.chofutsu.com/",
+    "anilistUrl": "https://anilist.co/anime/198926",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://ascii.jp/elem/000/004/324/4324495/7/",
+      "https://www.value-press.com/pressrelease/362315"
+    ],
+    "themes": [
+      {
+        "type": "TS",
+        "sequence": 1,
+        "titleJa": "Rebirth*ible",
+        "artistDisplayName": "浜城実都（CV：能登有沙）＆千城あすみ（CV：石原夏織）",
+        "songId": "chou-futsuu-mahou-shoujo-asumi-toruverse-ts-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.value-press.com/pressrelease/362315",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://ascii.jp/elem/000/004/324/4324495/7/",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "浜城実都（CV：能登有沙）",
+            "role": "vocals"
+          },
+          {
+            "name": "千城あすみ（CV：石原夏織）",
+            "role": "vocals"
+          },
+          {
+            "name": "三浦誠司",
+            "role": "lyrics"
+          },
+          {
+            "name": "三浦誠司",
+            "role": "composition"
+          },
+          {
+            "name": "三浦誠司",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.value-press.com/pressrelease/362315",
+              "https://ascii.jp/elem/000/004/324/4324495/7/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "chou-futsuu-mahou-shoujo-asumi-toruverse-ts-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.value-press.com/pressrelease/362315",
+              "https://ascii.jp/elem/000/004/324/4324495/7/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "chou-futsuu-mahou-shoujo-asumi-toruverse-ts-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.value-press.com/pressrelease/362315"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "chou-futsuu-mahou-shoujo-asumi-toruverse-ts-1-song"
+          }
+        ],
+        "usageLabel": "主題歌"
+      },
+      {
+        "type": "IN",
+        "sequence": 1,
+        "titleJa": "アン・ドゥ・トロワ",
+        "artistDisplayName": "イツカ▶",
+        "songId": "chou-futsuu-mahou-shoujo-asumi-toruverse-in-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.value-press.com/pressrelease/362315",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://ascii.jp/elem/000/004/324/4324495/7/",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "イツカ▶",
+            "role": "vocals"
+          },
+          {
+            "name": "三浦誠司",
+            "role": "lyrics"
+          },
+          {
+            "name": "三浦誠司",
+            "role": "composition"
+          },
+          {
+            "name": "三浦誠司",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.value-press.com/pressrelease/362315",
+              "https://ascii.jp/elem/000/004/324/4324495/7/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "chou-futsuu-mahou-shoujo-asumi-toruverse-in-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.value-press.com/pressrelease/362315",
+              "https://ascii.jp/elem/000/004/324/4324495/7/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "chou-futsuu-mahou-shoujo-asumi-toruverse-in-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.value-press.com/pressrelease/362315"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "chou-futsuu-mahou-shoujo-asumi-toruverse-in-1-song"
+          }
+        ],
+        "usageLabel": "挿入歌"
+      }
+    ]
+  },
+  {
+    "anilistId": 198413,
+    "id": "curated-198413",
+    "slug": "jochum-season-2",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-04",
+    "titleJa": "JOCHUM シーズン2",
+    "titleZhHant": "JOCHUM シーズン2",
+    "titleRomaji": "JOCHUM Season 2",
+    "editorialWeekday": 6,
+    "broadcastLabel": "フジテレビ系「めざましどようび」番組内；10月4日(土)開始",
+    "status": "unknown",
+    "officialSiteUrl": "https://jochum.sanrio.co.jp/",
+    "anilistUrl": "https://anilist.co/anime/198413",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://eeo.today/media/2025/09/26/262195/",
+      "https://prtimes.jp/main/html/rd/p/000000685.000037629.html"
+    ],
+    "themes": [
+      {
+        "type": "TS",
+        "sequence": 1,
+        "titleJa": "スーパー☆ハピハピ",
+        "artistDisplayName": "JOCHUM",
+        "songId": "jochum-season-2-ts-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000000685.000037629.html",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://eeo.today/media/2025/09/26/262195/",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "JOCHUM",
+            "role": "vocals"
+          },
+          {
+            "name": "宝生 久弥",
+            "role": "lyrics"
+          },
+          {
+            "name": "宝生 久弥",
+            "role": "composition"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000000685.000037629.html",
+              "https://eeo.today/media/2025/09/26/262195/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "jochum-season-2-ts-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000000685.000037629.html",
+              "https://eeo.today/media/2025/09/26/262195/"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "jochum-season-2-ts-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000000685.000037629.html"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "jochum-season-2-ts-1-song"
+          }
+        ],
+        "usageLabel": "シーズン2 主題歌"
+      }
+    ]
+  },
+  {
+    "anilistId": 199794,
+    "id": "curated-199794",
+    "slug": "anila-to-cocora",
+    "seasonIds": [
+      "2025-fall"
+    ],
+    "verifiedAt": "2026-10-16",
+    "startDate": "2025-10-03",
+    "titleJa": "アニラとココラ",
+    "titleZhHant": "アニラとココラ",
+    "titleRomaji": "Anila to Cocora",
+    "editorialWeekday": 5,
+    "broadcastTimeJst": "03:15",
+    "broadcastLabel": "関西テレビ：10月2日(木)27:15＝10月3日(金)03:15",
+    "status": "unknown",
+    "officialSiteUrl": "https://www.atpress.ne.jp/news/544857",
+    "anilistUrl": "https://anilist.co/anime/199794",
+    "identifierSource": {
+      "label": "AniChart：AniList官方季度作品識別",
+      "url": "https://anichart.net/Fall-2025",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=28349006&workId=28349",
+      "https://www.atpress.ne.jp/news/544857"
+    ],
+    "themes": [
+      {
+        "type": "TS",
+        "sequence": 1,
+        "titleJa": "グッドらっこ",
+        "artistDisplayName": "アニラ（CV：森嶋秀太）＆ココラ（CV：仲村宗悟）",
+        "songId": "anila-to-cocora-ts-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.atpress.ne.jp/news/544857",
+            "label": "官方：歌曲、演唱與動畫用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=28349006&workId=28349",
+            "label": "歌曲與動畫用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "アニラ（CV：森嶋秀太）",
+            "role": "vocals"
+          },
+          {
+            "name": "ココラ（CV：仲村宗悟）",
+            "role": "vocals"
+          },
+          {
+            "name": "中西ゆういちろう",
+            "role": "lyrics"
+          },
+          {
+            "name": "中西ゆういちろう",
+            "role": "composition"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.atpress.ne.jp/news/544857",
+              "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=28349006&workId=28349"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "anila-to-cocora-ts-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.atpress.ne.jp/news/544857",
+              "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=28349006&workId=28349"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "anila-to-cocora-ts-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.atpress.ne.jp/news/544857"
+            ],
+            "verifiedAt": "2026-10-16",
+            "targetId": "anila-to-cocora-ts-1-song"
+          }
+        ],
+        "usageLabel": "主題歌"
+      }
+    ]
   }
 ];
 
-export const curated2025FallAnimeIds: number[] = [177937, 170577, 153800, 185801, 183385, 180082, 181447, 194447, 179302, 195153, 179992, 182896, 162890, 180436, 195240, 186524, 187940, 173523, 177271, 186190, 186794, 186920, 129195, 186161, 183965, 185575, 185731, 162669, 184322, 188487, 173692, 183291, 185116, 187464, 193968, 188388, 190840, 186914, 170018, 170936, 184997, 196553, 196230, 187860, 176298, 174914, 186621, 198561, 198117, 185694, 186736, 140291, 184718, 187921];
+export const curated2025FallAnimeIds: number[] = [177937, 170577, 153800, 185801, 183385, 180082, 181447, 194447, 179302, 195153, 179992, 182896, 162890, 180436, 195240, 186524, 187940, 173523, 177271, 186190, 186794, 186920, 129195, 186161, 183965, 185575, 185731, 162669, 184322, 188487, 173692, 183291, 185116, 187464, 193968, 188388, 190840, 186914, 170018, 170936, 184997, 196553, 196230, 187860, 176298, 174914, 186621, 198561, 198117, 185694, 186736, 140291, 184718, 187921, 187331, 194832, 198926, 198413, 199794, 169420, 188653, 193238, 193883, 196229];
