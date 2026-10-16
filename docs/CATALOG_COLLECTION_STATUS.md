@@ -2715,3 +2715,34 @@ Production獨立驗收：29季／1,951部完整API契約及跨endpoint關聯通�
 由第30批正式來源 `35496fe` 接續。優先2025→2007，每年秋→夏→春→冬；固定長期範圍2007–2026、公開資料截止日2026-10-14。非成人TV／WEB OP／ED及已確認插曲，劇場版／OVA延後；2026既有成果保留，後續新作更新延後。
 
 繼續2025秋尚未收錄的新作、跨季續播、輪替及特殊用途，約10部／20–30筆。沿用來源與識別證據，先核心、再深化同批創作／影片／音源／發行品／平台。既有ID、網址、用途季度及日期保持穩定；第27–30批兩輪未明欄位只按已記錄觸發條件恢復，未審閱候選不公開。完成條件為已確認內容通過公開JSON、動畫全部歌曲頁與緊湊歌單展示、必要檢查，再分階段提交、推送、正式部署與live驗收；本批及全季均未完成。
+
+### 第31批核心資料保存
+
+實際核對日期2026-10-16。新增10個已核明作品識別與20筆2025秋OP／ED用途；以官方音樂頁及中文季度來源核對，沿用同頁明示的創作名單。《忍者と極道》另使用藝人官方繁中公告核對兩曲；首集02:05與通常01:59分開標示。
+
+| 公開 theme ID | 已確認曲目／用途 |
+| --- | --- |
+| `lets-play-quest-darake-no-my-life-op-1` | 1, 2, Play／OP1 |
+| `lets-play-quest-darake-no-my-life-ed-1` | Left & Right／ED1 |
+| `digimon-beatbreak-op-1` | Mad Pulse／OP1 |
+| `digimon-beatbreak-ed-1` | beat up／ED1 |
+| `kingdom-6th-season-op-1` | 生きて、燦々／OP1 |
+| `kingdom-6th-season-ed-1` | 咆哮／ED1 |
+| `ninja-to-gokudou-op-1` | Sweet Disaster／OP1 |
+| `ninja-to-gokudou-ed-1` | Until You Die Out／ED1 |
+| `ao-no-orchestra-season-2-op-1` | アマデウス／OP1 |
+| `ao-no-orchestra-season-2-ed-1` | 青の魔法／ED1 |
+| `debu-to-love-to-ayamachi-to-op-1` | Happy Yummy Lucky Yummy／OP1 |
+| `debu-to-love-to-ayamachi-to-ed-1` | 私でよかった！！！／ED1 |
+| `shabake-op-1` | いのちのパレヱド／OP1 |
+| `shabake-ed-1` | 脈脈／ED1 |
+| `si-vis-the-sound-of-heroes-op-1` | So Far Away／OP1 |
+| `si-vis-the-sound-of-heroes-ed-1` | FRIENDS & SMILE／ED1 |
+| `monster-strike-deadverse-reloaded-op-1` | Monster／OP1 |
+| `monster-strike-deadverse-reloaded-ed-1` | THE GAME／ED1 |
+| `nohara-hiroshi-hiru-meshi-no-ryuugi-op-1` | ごはん食べヨ／OP1 |
+| `nohara-hiroshi-hiru-meshi-no-ryuugi-ed-1` | 今日のごはんはなんだろな／ED1 |
+
+DIGIMON BEATBREAK本階段只登記已核明2025秋的Mad Pulse／beat up，後續2026 ED不混入秋季；作品結束狀態未另證實，保留unknown。SI-VIS第1クール歌曲與後續季別分開，producer簡介不代替逐曲credits；角色、歌唱者與不同STAGE音源接續核對。
+
+本階段為歌曲核心保存，影片、音源、發行品、平台與已確認插曲接續同批深化；尚未完成整批parser／build或實際展示，不計入頂部正式季度表或production成果。既有ID、URL與來源日期保留。
