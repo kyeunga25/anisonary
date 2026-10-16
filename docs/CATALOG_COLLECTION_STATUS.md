@@ -2449,3 +2449,43 @@ Production獨立驗收：29季／1,926部完整公開API契約與跨endpoint一�
 Parser檢查季度格式、唯一值與第一方用途證據；公開API跨endpoint檢查作品季度關聯；搜尋及首頁／全歌曲／季度歌單按用途篩選，動畫頁展示已確認季度。舊記錄省略此欄位時保持原行為。3筆用途、歌曲及作品ID／URL不變，作品既有metadata日期不變，其餘1,925部公開動畫JSON與批前完全相同。
 
 試行驗證：4檔／6項核心測試、build（1,971個HTML及3,938個公開產物）通過；實際桌面與手機展示確認夏秋各2筆用途、全歌單3筆不重複、動畫頁保留全部3首及季度標籤，沒有應用錯誤或自動YouTube請求。初次型別檢查指出新測試fixture缺少既有 `isMockData` 欄位，已補fixture並重驗，沒有改正常程式遷就舊測試。整批E2E及正式發布仍待本批資料完成後收尾；本段不計入頂部正式進度。
+
+### 第28批歌曲核心與跨季盤點階段
+
+本段新增5部／14筆用途（13 OP／ED、1 IN），並核對上述試行3筆與另外8筆既有用途季度，共8部／25筆處理。角色合唱ED與原版共用歌曲身分，音源另行保存；不因同曲多影片或商品增加用途。
+
+| 公開 theme ID | 已確認曲目／用途 |
+| --- | --- |
+| `futari-solo-camp-op-1` | 灯りは遠く／OP1 |
+| `futari-solo-camp-op-2` | ふたりでいようか／OP2 |
+| `futari-solo-camp-ed-1` | ふたりキャンプ feat. SPECIAL OTHERS／ED1 |
+| `gachiakuta-op-1` | HUGs／OP1 |
+| `gachiakuta-op-2` | LET’S JUST CRASH／OP2 |
+| `gachiakuta-ed-1` | 灯火／ED1 |
+| `gachiakuta-ed-2` | 番／ED2 |
+| `tougen-anki-op-1` | OVERNIGHT／OP1 |
+| `tougen-anki-op-2` | 阿弥陀籤／OP2 |
+| `tougen-anki-ed-1` | What is justice?／ED1 |
+| `tougen-anki-ed-2` | ACTION／ED2 |
+| `towa-no-yuugure-op-1` | プラットフォーム／OP1 |
+| `towa-no-yuugure-op-2` | 愛／OP2 |
+| `towa-no-yuugure-ed-1` | Two Of Us／ED1 |
+| `towa-no-yuugure-ed-2` | 星紡ぎ／ED2 |
+| `kikaijikake-no-marie-op-1` | ホントトウソ／OP1 |
+| `kikaijikake-no-marie-ed-1` | Cross heart〜偽りのない気持ち／ED1 |
+| `kikaijikake-no-marie-ed-2` | Cross heart〜偽りのない気持ち（duet ver.）／ED2 |
+| `boku-no-hero-academia-final-season-op-1` | THE REVO／OP1 |
+| `boku-no-hero-academia-final-season-ed-1` | I／ED1 |
+| `3-nen-z-gumi-ginpachi-sensei-op-1` | 桜風／OP1 |
+| `3-nen-z-gumi-ginpachi-sensei-ed-1` | Underclass HERO／ED1 |
+| `wandance-op-1` | Stare In Wonder／OP1 |
+| `wandance-ed-1` | Wondrous／ED1 |
+| `wandance-in-1` | Get Something Out of Your Mind／IN1 |
+
+《ガチアクタ》第1クール含第13話（2025-10-05），因此前半OP／ED同時屬夏秋；第2クール2025-10-12開始。《桃源暗鬼》第二クール練馬編於2025-10-03起，第13話播出資料另交叉核對。新增用途按官方歌曲頁、官方特殊用途公告及YourAnimes／ORICON／アニソン・オンライン等交叉來源保存，作品首播跨午夜日期另行正規化。
+
+《永久のユウグレ》的第11話特殊OP「愛」與雙ED「星紡ぎ」，以及《機械じかけのマリー》第1–3話原版ED／第4話起duet版分別保存。ワンダンス劇中歌僅先增加已明確交叉確認的Get Something Out of Your Mind，其餘OST曲目不自動全部視為插曲。
+
+本段先保存核心身分、用途與已讀到的創作名單；同批影片、音源、發行與正版平台接續補核。整批build／E2E、完整展示及GitHub／Cloudflare驗收尚未完成，頂部正式進度不變。
+
+核心階段4檔／6項測試、repository公開邊界（241檔）及差異檢查通過。新增資料尚未經整批build與畫面驗收，不將本段列為正式發布完成。
