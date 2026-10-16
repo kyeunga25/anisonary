@@ -2291,6 +2291,8 @@ Live首輪即通過：全部1,917動畫的公開API smoke；16共同路徑＋10�
 
 - 39個文件相對連結、`git diff --check`、repository `public:check`（239檔）通過；提交差異的私密路徑、金鑰／token與raw provider欄位檢查未發現命中，26個共用發行ID的35筆關係metadata一致。
 
+- 發布前來源審閱將CITY交叉來源改為實際已讀的公開索引完整網址並標示公開索引；簡化網址目前無法直接取回，未把索引署名升格為第一方演奏／編曲證據。修正後重驗資料、公開產物及本批展示。
+
 預覽入口：`/anime/turkey/`、`/anime/osomatsu-san-4th-season/`、`/anime/city-the-animation/`、`/anime/tate-no-yuusha-no-nariagari-season-4/`。可搜尋`COCA-18296`、`かけ声ver.`、`ひとみver.`。
 
 階段提交：`827b4de`保存第25批正式驗收及各季度進度；`dd7aee9`保存21個既有影片watch外連；`bcfad46`保存幾星霜插曲核心及官方MV（當時未完成整批驗證，嵌入旗標已於本次資料修正）。深入資料提交與正式驗收於發布後另記，頂部季度表仍只計第25批正式成果。
