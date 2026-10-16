@@ -222,9 +222,9 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     quarter: "fall",
     titleZhHant: "秋季動畫",
     titleJa: "2025年秋アニメ",
-    coverageNote: "本季正在盤點，目前先收錄已核對主題曲的9套TV／WEB作品。其他新作、跨季續播與特殊主題曲仍待核對，現有筆數不是全季歌曲總數。",
+    coverageNote: "本季正在盤點，先收錄已核對的部分TV／WEB新作與續播作品。其他作品與特殊主題曲仍待核對，現有筆數不是全季歌曲總數。",
     seeds: curated2025FallSeeds,
-    animeIds: curated2025FallAnimeIds
+    animeIds: [...curated2025FallAnimeIds, 185965]
   },
   {
     id: "2025-summer",

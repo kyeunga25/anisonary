@@ -4767,6 +4767,7 @@ function toTheme(seed: CuratedAnimeSeed, originalTheme: CuratedThemeSeed): Publi
 
   return {
     id: theme.id ?? `${publicSlug(seed)}-${theme.type.toLowerCase()}-${theme.sequence}`,
+    ...(theme.seasonIds ? { seasonIds: theme.seasonIds } : {}),
     ...(theme.idAliases ? { idAliases: theme.idAliases } : {}),
     type: theme.type,
     sequence: theme.sequence,

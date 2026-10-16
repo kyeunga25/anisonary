@@ -150,6 +150,8 @@ export interface PublicFieldEvidence {
 
 export interface PublicTheme {
   id: string;
+  // Confirmed use quarters; omitted legacy records retain work-level membership.
+  seasonIds?: string[];
   // Retired duplicate IDs resolve to this use without adding another song row.
   idAliases?: string[];
   type: "OP" | "ED" | "IN" | "TS";

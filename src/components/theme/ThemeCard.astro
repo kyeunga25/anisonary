@@ -2,6 +2,7 @@
 import type { PublicTheme } from "@/types/public-api";
 import { creditRoleLabel, themeTypeLabel } from "@/utils/theme";
 import { themeVideoAnchor } from "@/utils/youtube";
+import { seasonIdLabel } from "@/utils/season";
 import ExternalLinkList from "@/components/links/ExternalLinkList.astro";
 import LazyYouTube from "@/components/youtube/LazyYouTube.astro";
 import SongRelations from "@/components/theme/SongRelations.astro";
@@ -39,6 +40,7 @@ const sourceRoleLabels = {
       {theme.titleZhHant && <p class="theme-card__translation">{theme.titleZhHant}</p>}
       <p class="theme-card__artist">{theme.artistDisplayName}</p>
       {theme.usageLabel && <p class="theme-card__version">用途：{theme.usageLabel}</p>}
+      {theme.seasonIds && <p class="theme-card__version">已確認用途季度：{theme.seasonIds.map(seasonIdLabel).join("、")}</p>}
       {theme.versionLabel && <p class="theme-card__version">{theme.versionLabel}</p>}
     </div>
 

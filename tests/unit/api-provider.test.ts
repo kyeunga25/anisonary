@@ -70,6 +70,15 @@ it("rejects unsafe or inconsistent external API data and bounds failed requests"
       return detail ? { ...detail, titleJa: `${detail.titleJa} drift` } : null;
     }
   })).rejects.toThrow("card/detail drift");
+  await expect(smokePublicApi({
+    getSeasons: () => curated.getSeasons(),
+    getSeason: (id) => curated.getSeason(id),
+    getAnime: async (slug) => {
+      const detail = structuredClone(await curated.getAnime(slug));
+      if (detail?.themes[0]) detail.themes[0].seasonIds = ["2099-winter"];
+      return detail;
+    }
+  })).rejects.toThrow("theme season membership drift");
 });
 
 it("preserves optional song relations and independent evidence dates while rejecting broken relationships", async () => {
@@ -83,6 +92,14 @@ it("preserves optional song relations and independent evidence dates while rejec
   const fixtureTheme = anime.themes[index]!;
   fixtureTheme.idAliases = ["retired-theme-use"];
   fixtureTheme.usageLabel = "ABEMA限定先行配信版";
+  fixtureTheme.seasonIds = curatedSeasonDetails.filter((season) =>
+    season.anime.some((card) => card.slug === anime.slug)
+  ).map((season) => season.id);
+  const useSource = fixtureTheme.sources.find((source) => source.role === "first_party")!;
+  fixtureTheme.evidence!.push({
+    target: "anime_use", targetId: fixtureTheme.id, fields: ["usage"],
+    sourceUrls: [useSource.url], verifiedAt: useSource.verifiedAt
+  });
   const retainedSource = fixtureTheme.sources.find((source) => !fixtureTheme.evidence!.some((evidence) => evidence.sourceUrls.includes(source.url)))!;
   expect(retainedSource).toBeDefined();
   retainedSource.verifiedAt = "2001-01-01";
@@ -104,6 +121,10 @@ it("preserves optional song relations and independent evidence dates while rejec
   }
 
   const mutations = [
+    (theme: typeof anime.themes[number]) => { theme.seasonIds = []; },
+    (theme: typeof anime.themes[number]) => { theme.seasonIds = ["2025-autumn"]; },
+    (theme: typeof anime.themes[number]) => { theme.seasonIds = [theme.seasonIds![0]!, theme.seasonIds![0]!]; },
+    (theme: typeof anime.themes[number]) => { theme.evidence = theme.evidence!.filter((item) => item.target !== "anime_use"); },
     (theme: typeof anime.themes[number]) => { theme.idAliases = [theme.id]; },
     (theme: typeof anime.themes[number]) => { theme.idAliases = []; },
     (theme: typeof anime.themes[number]) => { theme.idAliases = ["retired-theme-use", "retired-theme-use"]; },
