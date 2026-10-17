@@ -350,7 +350,6 @@ const themeOverrides: Record<string, Partial<CuratedThemeSeed>> = {
     titleRomaji: "Bouei Line (Daitai Heiwa Desu)",
     artistDisplayName: "まめぞう合唱団"
   },
-  "143598:OP:2": { artistDisplayName: "[Alexandros]" },
   "178701:ED:1": {
     titleJa: "花咲く道で",
     titleRomaji: "Hanasaku Michi de",
@@ -370,10 +369,6 @@ const themeOverrides: Record<string, Partial<CuratedThemeSeed>> = {
   "184279:ED:3": {
     titleJa: "諦められないのさ",
     titleRomaji: "Akiramerarenai no sa"
-  },
-  "179694:ED:1": {
-    titleJa: "夢じゃないならなんなのさ",
-    titleRomaji: "Yume ja Nai nara Nannano sa"
   },
   "175872:OP:1": { artistDisplayName: "bokula." },
   "186313:ED:1": { artistDisplayName: "荒井麻珠" },
@@ -423,26 +418,12 @@ const themeOverrides: Record<string, Partial<CuratedThemeSeed>> = {
     titleRomaji: "Aporia Inga Sekai",
     artistDisplayName: "梅原裕一郎"
   },
-  "180367:ED:1": { titleJa: "魔法はスパイス" },
-  "180367:OP:3": { titleJa: "Bitter end" },
-  "180367:ED:3": { titleJa: "FLASHBACK SYNDROME" },
   "181182:OP:1": {
     titleJa: "火星人",
     titleRomaji: "Kaseijin",
     artistDisplayName: "ヨルシカ"
   },
   "181182:ED:1": { artistDisplayName: "やなぎなぎ" },
-  "143200:ED:1": { artistDisplayName: "鈴木このみ" },
-  "143200:ED:2": {
-    titleJa: "魔法の絵日記",
-    titleRomaji: "Mahou no Enikki",
-    artistDisplayName: "田中あいみ、小原好美"
-  },
-  "143200:ED:3": {
-    titleJa: "羽のゆりかご",
-    titleRomaji: "Hane no Yurikago",
-    artistDisplayName: "水谷瑠奈"
-  },
   "165445:OP:1": {
     titleJa: "旅しよ！don't you?",
     titleRomaji: "Tabi Shiyo! don't you?"
@@ -499,22 +480,6 @@ const themeOverrides: Record<string, Partial<CuratedThemeSeed>> = {
     titleJa: "大丈夫",
     titleRomaji: "Daijoubu",
     artistDisplayName: "アイナ・ジ・エンド"
-  },
-  "185070:OP:1": {
-    titleJa: "ふしぎなきみ",
-    titleRomaji: "Fushigi na Kimi",
-    artistDisplayName: "サバシスター"
-  },
-  "185070:OP:2": { artistDisplayName: "ako" },
-  "185070:ED:1": {
-    titleJa: "さよなら人類",
-    titleRomaji: "Sayonara Jinrui",
-    artistDisplayName: "小桜エツコ、桃河りか"
-  },
-  "185070:ED:2": {
-    titleJa: "素晴らしい日々",
-    titleRomaji: "Subarashii Hibi",
-    artistDisplayName: "小桜エツコ、桃河りか"
   },
   "178781:ED:1": {
     titleJa: "正偽",
