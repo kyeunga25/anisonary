@@ -120,7 +120,7 @@ catalogCorrectionUrl.searchParams.set("title", `資料修正：${anime.titleJa}`
     </header>
 
     <section class="detail-section" aria-labelledby="themes-title">
-      <div class="detail-section__heading"><h2 id="themes-title">全部主題曲 <small lang="en">All themes</small></h2><span>{anime.themes.length} 首歌曲</span></div>
+      <div class="detail-section__heading"><h2 id="themes-title">全部主題曲 <small lang="en">All themes</small></h2><span>{anime.themes.length} 筆歌曲用途</span></div>
       {anime.themes.length > 0 ? (
         <>
           <nav class="theme-jump-list" aria-label="這部動畫的全部歌曲">{anime.themes.map((theme) => <a href={`#theme-${theme.id}`}><span>{themeTypeLabel(theme)}</span>{theme.titleJa}</a>)}</nav>
