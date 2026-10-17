@@ -433,39 +433,6 @@ const themeOverrides: Record<string, Partial<CuratedThemeSeed>> = {
     titleRomaji: "Aporia Inga Sekai",
     artistDisplayName: "梅原裕一郎"
   },
-  "178052:OP:1": {
-    titleJa: "ゼッタイ歌姫宣言ッ！",
-    titleRomaji: "Zettai Utahime Sengen!",
-    artistDisplayName: "オルケリア"
-  },
-  "178052:OP:2": { artistDisplayName: "オルケリア" },
-  "178052:OP:3": { artistDisplayName: "オルケリア" },
-  "178052:ED:1": {
-    titleJa: "君とつなぐオーケストラ",
-    titleRomaji: "Kimi to Tsunagu Orchestra",
-    artistDisplayName: "オルケリア"
-  },
-  "178052:ED:2": {
-    titleJa: "人生は流星だ☆彡",
-    titleRomaji: "Jinsei wa Ryuusei da☆彡",
-    artistDisplayName: "橘杏咲"
-  },
-  "178052:ED:3": {
-    titleJa: "使命は赤きセレナーデ",
-    titleRomaji: "Shimei wa Akaki Serenade",
-    artistDisplayName: "BAND SNATCH"
-  },
-  "178052:ED:4": {
-    titleJa: "真紅のイバラ",
-    titleRomaji: "Shinku no Ibara",
-    artistDisplayName: "水樹奈々"
-  },
-  "178052:ED:5": { artistDisplayName: "オルケリア" },
-  "178052:ED:6": { artistDisplayName: "オルケリア" },
-  "178052:ED:7": { artistDisplayName: "オルケリア" },
-  "178052:ED:8": { artistDisplayName: "オルケリア" },
-  "178052:ED:9": { artistDisplayName: "BAND SNATCH" },
-  "178052:ED:10": { artistDisplayName: "鬼頭明里、伊藤美来" },
   "180367:ED:1": { titleJa: "魔法はスパイス" },
   "180367:OP:3": { titleJa: "Bitter end" },
   "180367:ED:3": { titleJa: "FLASHBACK SYNDROME" },
@@ -475,15 +442,6 @@ const themeOverrides: Record<string, Partial<CuratedThemeSeed>> = {
     artistDisplayName: "ヨルシカ"
   },
   "181182:ED:1": { artistDisplayName: "やなぎなぎ" },
-  "184470:OP:1": {
-    titleJa: "Ring Ring Ring feat. ひまり",
-    artistDisplayName: "P丸様。"
-  },
-  "184470:ED:1": {
-    titleJa: "ひみつのふふふ",
-    titleRomaji: "Himitsu no Fufufu",
-    artistDisplayName: "超ときめき♡宣伝部"
-  },
   "143200:ED:1": { artistDisplayName: "鈴木このみ" },
   "143200:ED:2": {
     titleJa: "魔法の絵日記",

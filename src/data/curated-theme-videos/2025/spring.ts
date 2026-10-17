@@ -82,4 +82,5 @@ export const curated2025SpringThemeVideos = {
   "179541:ED:1": [{"youtubeVideoId":"JC5NZ8oGdfE","title":"「白豚貴族ですが前世の記憶が生えたのでひよこな弟育てます」ノンクレジットED ｜ 4月からABEMAで独占・無料配信中！","type":"creditless_ed","channelName":"日活アニメチャンネル","officialStatus":"official","embeddable":true}],
   "185715:OP:1": [{"youtubeVideoId":"NR6Qa_pb1M0","title":"TVアニメ「SHIBUYA♡HACHI」主題歌「Brand New Episode / HACHI」Official MV","type":"music_video","channelName":"HACHI","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
 
+  "184470:ED:2": [{"youtubeVideoId":"ytRYORsfV6Q","title":"シンデレラのラララ♡","type":"art_track","channelName":"Cho Tokimeki♡Sendenbu Official（超ときめき♡宣伝部）","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
 } satisfies CuratedThemeVideoOverrideMap;
