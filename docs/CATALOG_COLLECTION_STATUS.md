@@ -12,7 +12,7 @@
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED，已確認插曲一併記錄；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 優先補齊2025標準季度TV動畫，按秋 → 夏 → 春 → 冬盤點新作、續播與輪替，再往舊年度。以每集約24分鐘、常見12／24集或分割季度為主，13／26集及同類長篇續播一併盤點；短WEB、泡麵番、短篇TV及特殊番延後，既有成果保留 |
 | 完成條件 | 各季先有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替，將已證實歌曲核心逐批公開，再深化創作、官方影片、音源、收錄與平台；經公開 JSON、頁面及必要檢查驗證。清單未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件 |
-| 執行狀態 | 執行中：第08–36批已正式發布驗收；接續第37批跨季標準TV及春季盤點與同批深化。資料及展示驗證完成後才分類提交、推送、正常合併、部署與live驗收，再接下一批；2025與長期範圍未完成 |
+| 執行狀態 | 執行中：第08–36批已正式發布驗收；第37批為本階段最後一批，收尾跨季標準TV及春季盤點與同批深化。資料及展示驗證完成後才分類提交、推送、正常合併、部署與live驗收，隨即保存進度並暫停；2025與長期範圍未完成 |
 | 接續位置 | 第37批 `2025-tv-inventory-37`：先核對春季延續夏季的標準TV與後期輪替，再春／冬其他標準TV；已查兩輪的秋季缺口只按觸發條件續查。短篇／短WEB待辦不阻擋往舊季度，已完成成果保留，固定截止日2026-10-14 |
 | 發布提交 | 最新 [PR #125](https://github.com/kyeunga25/anisonary/pull/125) 正常rebase合併並保留3個分類提交；正式部署來源 `990e65a`、標記 `batch36` 已通過下方live驗收。PR #101–#123保留在各批紀錄 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
@@ -3222,3 +3222,75 @@ Cloudflare實際CLI部署exit 0，來源 `990e65ad37463e510622f993102a6731908c3e
 正式入口：<https://anisonary.k-y.cc/seasons/2025-summer/>、<https://anisonary.k-y.cc/anime/new-panty-and-stocking-with-garterbelt/>、<https://anisonary.k-y.cc/anime/dr-stone-science-future-part-2/>。
 
 下一接點第37批：春季快照中鬼人幻燈抄、宇宙人ムームー、ウィッチウォッチ與Summer Pockets的後期歌曲目前省略用途季度，4部亦未列入現有夏季registry；先核對是否有夏季續播與真正用途錯列，再深化同批及春季其他標準TV。這是已發現的盤點疑點，尚未把推測改入公開資料。短篇／WEB延後與第27–36批缺口觸發條件保留，不將夏季尾段7部處理誤稱為所有TV歌曲齊備。
+
+
+## 2026-10-18 批次：2025-tv-inventory-37（執行中）
+
+可靠接點為第36批正式來源 `990e65a`／`batch36`。固定範圍2007–2026、公開資料截止日2026-10-14不變；本批來源實際查閱日期自2026-10-18起另記。優先2025正常長度季度TV，短WEB、短篇TV、泡麵及特殊番延後，已完成資料及穩定ID保留。
+
+先核對春季延續夏季的鬼人幻燈抄、宇宙人ムームー、ウィッチウォッチ與Summer Pockets：既有歌曲的用途／季度及後期輪替可能錯列；再同批處理男女の友情、ロックは淑女の嗜みでして及阿波連さん第2季。開始時選定7部現有公開作品、25筆既有待核對用途，不等於25首新歌曲；用途及季度以第一方與交叉證據核對結果為準。
+
+完成條件：歌曲核心先行，同頁補已明示創作／角色、音源、發行品及正版平台，僅查新缺口；兩輪未明保存觸發條件，不阻擋其他已確認內容。依資料變更矩陣批次收尾檢查及實際展示，再分類提交、推送、正常合併、Cloudflare部署及live驗收後暫停。當前尚未完成本批、2025及長期範圍；第37批為本階段最後一批，完成後保存可靠接點、未解欄位與下一步，不啟動第38批或排程，明確恢復後才接續。
+
+### 第37批資料成果與未解欄位
+
+完成本批7部既有標準TV的25筆OP／ED用途核心核對與同批深化，新增動畫0、用途0；登記25個歌曲ID，原有用途ID、序號、slug與影片URL維持。鬼人幻燈抄、宇宙人ムームー、ウィッチウォッチ及Summer Pockets補入夏季續播索引，逐曲季度與首播／發行日期分開。
+
+| 公開 theme ID | 已核對歌曲／用途 |
+| --- | --- |
+| `kijin-gentoushou-op-1` | コンティニュー／NEE／OP1 |
+| `kijin-gentoushou-op-2` | Ash／[Alexandros]／OP2 |
+| `kijin-gentoushou-ed-1` | 千夜一夜 feat. 仲宗根泉 (HY)／Hilcrhyme／ED1 |
+| `kijin-gentoushou-ed-2` | 円鈴／FAKE TYPE.／ED2 |
+| `rock-wa-lady-no-tashinami-deshite-op-1` | Ready to Rock／BAND-MAID／OP1 |
+| `rock-wa-lady-no-tashinami-deshite-ed-1` | 夢じゃないならなんなのさ／Little Glee Monster／ED1 |
+| `danjo-no-yuujou-wa-seiritsu-suru-iya-shinai-op-1` | 質問、恋って何でしょうか?／HoneyWorks feat.ハコニワリリィ／OP1 |
+| `danjo-no-yuujou-wa-seiritsu-suru-iya-shinai-ed-1` | Dear my Soleil／立花日菜／ED1 |
+| `witch-watch-op-1` | Watch me!／YOASOBI／OP1 |
+| `witch-watch-op-2` | ときはなて！／はしメロ／OP2 |
+| `witch-watch-op-3` | Bitter end／Who-ya Extended／OP3 |
+| `witch-watch-ed-1` | 魔法はスパイス／Aooo／ED1 |
+| `witch-watch-ed-2` | 月と私のかくれんぼ／yutori／ED2 |
+| `witch-watch-ed-3` | FLASHBACK SYNDROME／ALI／ED3 |
+| `summer-pockets-op-1` | アルカテイル／鈴木このみ／OP1 |
+| `summer-pockets-op-2` | フィニステラー／鈴木このみ／OP2 |
+| `summer-pockets-ed-1` | Lasting Moment／鈴木このみ／ED1 |
+| `summer-pockets-ed-2` | 魔法の絵日記／鳴瀬しろは（CV.小原好美）、加藤うみ（CV.田中あいみ）／ED2 |
+| `summer-pockets-ed-3` | 羽のゆりかご／水谷瑠奈（NanosizeMir）／ED3 |
+| `aharen-san-wa-hakarenai-season-2-op-1` | 微熱魔／ずっと真夜中でいいのに。／OP1 |
+| `aharen-san-wa-hakarenai-season-2-ed-1` | トワイライト／shallm／ED1 |
+| `uchuujin-muumuu-op-1` | ふしぎなきみ／サバシスター／OP1 |
+| `uchuujin-muumuu-op-2` | MOVE MOVE／a子／OP2 |
+| `uchuujin-muumuu-ed-1` | さよなら人類／さくらこ＆ムームー／ED1 |
+| `uchuujin-muumuu-ed-2` | すばらしい日々／さくらこ＆ムームー／ED2 |
+
+宇宙人ムームー更正a子、ED「すばらしい日々」原題與さくらこ＆ムームー名義，將錯列演唱者改為梅屋敷桜子（CV.春海百乃）及ムームー（CV.小桜エツコ）。Summer Pockets「魔法の絵日記」補角色與CV，「羽のゆりかご」補NanosizeMir名義；男女の友情保留動畫官方HoneyWorks feat.ハコニワリリィ名義，補Hanon／Kotoha及可用授權來源的詞曲編曲，沒有用平台不同發行名義覆寫動畫名義。
+
+ウィッチウォッチ第13話6月29日已使用第二組OP／ED，因此兩首列春／夏；劇中作うろんミラージュ的Bitter end／FLASHBACK SYNDROME仍為第14話特殊OP／ED，不因劇中作品身分改成IN。鬼人前組歌曲到第13話而跨入夏季；宇宙人ムームー第1–12話／第13話起分開。Summer Pockets兩首新主題曲列夏季，舊OP及Lasting Moment跨春夏；特殊ED的第一方逐話缺口見下表。
+
+新增38個音源ID（28演唱、4角色演唱、5伴奏、1live），其中4 TV、4 full、30 unknown。full只來自Dear my Soleil官方明示Full size MV及3首原作遊戲OST full；Game Size保留原名而不當TV。BAND-MAID的MV、Anime MV、Live Video及Instrumental Video分開；Lead Off仍列有人聲可能的演唱版，不推成純伴奏。
+
+新增24個不同發行品ID（16 Single、5 EP、1 Album、2 OST）與30組逐用途收錄；包含SCOOOOOP三版EP、Dear my Soleil兩版CD與數位EP、夢じゃないならなんなのさ三版Single、原作遊戲OST兩流通版與アルカテイル兩版Single、KSLA-0228及數位雙主打、宇宙人ムームー的EP／Single及其他已證實數位Single。曲序與disc以對應曲目表保存；CD、先行配信、數位EP及其他媒介master不自動合併。Dear my Soleil的4月12日先行歌曲日期與5月28日數位EP／CD日期分開，さよなら人類數位Single以正版商品頁4月30日為準，未把配信入口追蹤參數的日期當發行日。
+
+新增12個不同官方歌曲watch外連；另外39個確切正版項目（Apple Music 8、Spotify 8、YouTube Music 8、mora 7、レコチョク8）。新watch形式在外連標籤明示，未查明渠道metadata的項目不造channelName／可嵌入性，影片metadata數不因這12條外連增加。54個來源URL本次實際頁面或可讀官方索引補證、261組欄位證據；未讀舊來源日期保留，混用新舊來源的欄位日期不晚於其中最舊核對日。
+
+| 未解缺口 | 處理與續查條件 |
+| --- | --- |
+| Bitter end（1筆核心缺口） | 官方動畫頁可確認特殊OP及演唱，詞／曲／編曲未在可用第一方或授權資料找到清楚角色。歌ネット只作發現，沒有搬入其名單；等待藝人／唱片逐曲credits或可用授權補證 |
+| 魔法はスパイス（1筆核心缺口） | 官方明示すりぃ作詞／作曲，編曲未明。經定向查找仍未清楚，不把樂團名推作arranger；等待官方曲目或製作者逐曲名單 |
+| 羽のゆりかご（1筆核心缺口及用途證據限制） | 原作遊戲歌曲詞曲、原版編曲及OST收錄有第一方資料；TV第22話特殊ED只有交叉索引，尚無第一方逐話證據及清楚官方歌曲watch。保留既有ED ID及已收錄用途，不加入無第一方支持的theme.seasonIds；目前沿用作品季度fallback而春夏並列，不能當作已證實春季使用。待官方逐話／授權片尾credits及歌曲影片明確外連再修正；沒有把遊戲用途改成TV IN，亦未將遊戲master等同TV錄音 |
+| 音源、收錄與個別團隊 | 30個音源長度unknown；其他full／TV／重錄、ISRC、CD與數位master同一性、個別樂手及完整Artist Album／合輯仍需證據。宇宙人ムームー及ロックレディOST未有本批OP／ED曲目收錄證據，不因OST存在便綁關係；新主題曲數位版未猜測服務項目ID |
+| 來源取得限制 | ロックレディ動畫根頁TLS失敗，改用可讀BAND-MAID及Sony第一方，未繞過。Key舊商品頁直接讀取TLS／逾時，僅使用可讀官方索引已核對的必要事實，不稱直接取回成功；原作遊戲資料與TV使用證據分開。其他缺口經兩輪未明保留觸發條件，不輪流重搜 |
+
+本批22／25用途具詞、曲、編曲及已確認YouTube歌曲watch；以上3筆核心缺口與用途證據限制保留，未稱7部、整季或年度完全齊備。實際ApiProvider已解析7部；1,978部非本批公開JSON、7部作品metadata及動畫來源日期保持不變。季度seed接手35行相關legacy修正，runtime、UI、contract、播放器、設定、依賴及測試不變。本批是本階段最後一批，必要本機檢查、實際展示及正式發布驗收完成後保存暫停狀態，不啟動下一批。
+
+
+### 第37批本機驗收與發布準備
+
+`npm test`4檔／6項通過；`npm run build`型別／Astro、2,030 HTML、CSP／Service Worker及4,056公開產物通過；`npm run public:check`241檔通過。7部由實際ApiProvider解析，1,978部非本批JSON完全不變；25筆ID／序號及作品metadata／來源日期保留，24個共用發行品核心metadata一致，來源／欄位日期關係有效。沒有UI／contract／新季度或播放器修改，按矩陣不額外重跑本機E2E，正式CI仍跑既有完整檢查。
+
+桌面及393×852手機7部均有正確作品標題、全部25筆用途、38音源及30組收錄，無橫向溢出或錯誤覆蓋層。首頁、全部歌曲及春／夏季度均首屏24列；夏季202筆全部用途（其中194 OP／ED），春季142筆全部用途（其中138 OP／ED）。KSLA-0228搜尋2筆→Summer Pockets全部5筆→フィニステラー的11項欄位證據展開、Anime Size、品番及特殊ED待確認提示可見。應用console 0 error／warn、觀察時0影片iframe；沒有測歌曲播放、額外網路攔截或HK／TW地區可用性。
+
+本機季度重算：2025秋142／142，核心123／缺口19；夏179／194，核心165／缺口14；春25／138，核心22／缺口3；冬2／135，核心2／缺口0。Spring分母由146減至138是8筆後期用途移出，Summer增加15筆是4部續播的既有用途補入，沒有新增歌曲用途。羽のゆりかご仍為作品季度fallback的已知限制；跨季不可相加。全範圍824個唯一用途已逐批處理（779 OP／ED、36 IN、9 TS），未匹配舊ID為0。全目錄29季、1,985部、4,410用途，1,094個不同YouTube歌曲watch／1,838筆影片metadata。
+
+Cloudflare dry-run exit 0且有成功marker；未改Wrangler設定或依賴。新增行私隱／credential模式、相對文件連結與git diff格式檢查通過，沒有加入私人工具、原始頁面、取回回應、log、帳戶資料或測試產物。正式版本仍為第36批；接下來只完成本批分類提交、推送、正常PR驗收／合併、實際部署及獨立live核對，之後保存已暫停狀態，不啟動新收集。
