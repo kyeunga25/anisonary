@@ -247,10 +247,8 @@ const themeOverrides: Record<string, Partial<CuratedThemeSeed>> = {
     artistDisplayName: "ななひら"
   },
   "177880:ED:1": { artistDisplayName: "ひとみ from あたらよ＆松野家6兄弟" },
-  "151799:OP:1": { artistDisplayName: "TeddyLoid & ☆Taku Takahashi with Ashley & E.V.P" },
   "177887:OP:1": { titleRomaji: "Paths Combine" },
   "177887:ED:1": { titleRomaji: "The Sky Ahead" },
-  "178090:OP:1": { youtubeUrl: "https://www.youtube.com/watch?v=WZ-xST_J04g" },
   "180425:OP:1": { titleRomaji: "Ame to", artistDisplayName: "鈴木真海子" },
   "189326:OP:1": { titleRomaji: "Kagome Kagome" },
   "170113:ED:1": { titleRomaji: "Shoujo no Susume" },
@@ -293,7 +291,6 @@ const themeOverrides: Record<string, Partial<CuratedThemeSeed>> = {
   "181444:ED:1": { titleRomaji: "Hare no Hi ni" },
   "178025:ED:1": { titleRomaji: "Tomoshibi" },
   "178025:ED:2": { titleRomaji: "Ban" },
-  "184237:ED:1": { titleRomaji: "Dandelion" },
   "147105:ED:2": { titleJa: "夜に浮かぶ", titleRomaji: "Yoru ni Ukabu" },
   "147105:ED:3": { titleJa: "光り", titleRomaji: "Hikari" },
   "175914:ED:1": { titleRomaji: "Nemure" },
@@ -311,7 +308,6 @@ const themeOverrides: Record<string, Partial<CuratedThemeSeed>> = {
     youtubeUrl: "https://www.youtube.com/watch?v=jrGOylZ63oE"
   },
   "186043:ED:1": { titleJa: "Kawaii (Prod. Gen Hoshino)" },
-  "189117:ED:1": { artistDisplayName: "音羽-otoha-" },
   "195209:OP:1": { artistDisplayName: "鷲尾伶菜" },
   "177474:OP:1": {
     titleJa: "OVERNIGHT",
@@ -336,12 +332,6 @@ const themeOverrides: Record<string, Partial<CuratedThemeSeed>> = {
     titleRomaji: "Dauto",
     artistDisplayName: "ナオト・インティライミ",
     youtubeUrl: "https://www.youtube.com/watch?v=dH_4eKIK4fE"
-  },
-  "166215:OP:1": {
-    titleJa: "思い出話",
-    titleRomaji: "Omoidebanashi",
-    artistDisplayName: "手鞠沢高校アカペラ部",
-    youtubeUrl: "https://www.youtube.com/watch?v=OuV9MwBVVzg"
   },
   "183127:OP:1": {
     youtubeUrl: "https://www.youtube.com/watch?v=-bt4cX7dCT8"
@@ -705,22 +695,6 @@ const extraThemes: Record<number, CuratedThemeSeed[]> = {
   ],
   177175: [
     {"type":"ED","sequence":2,"titleJa":"生命換装","titleRomaji":"Seimei Kansou","artistDisplayName":"ReoNa","youtubeUrl":"https://www.youtube.com/watch?v=0xR91gHai4k","songId":"arknights-enshin-shomei-ed-2-song","credits":[{"name":"ReoNa","role":"vocals"},{"name":"傘村トータ（LIVE LAB.）","role":"lyrics"},{"name":"傘村トータ（LIVE LAB.）","role":"composition"},{"name":"宮野幸子（SHANGRI-LA INC.）","role":"arrangement"}],"sources":[{"label":"動畫官方網站：最終話片尾、影片與製作名單","url":"https://arknights-anime.jp/news/46","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"PRTS 中文資料庫：三首主題曲交叉核對","url":"https://prts.wiki/w/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%EF%BC%9A%E7%84%B0%E7%83%AC%E6%9B%99%E6%98%8E","language":"zh-Hans","role":"cross_check","verifiedAt":"2026-08-10"},{"label":"アークナイツ 公式チャンネル 官方影片","url":"https://www.youtube.com/watch?v=0xR91gHai4k","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"動畫官方網站","url":"https://arknights-anime.jp/","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/arknights_enshin_shomei","language":"en","role":"cross_check","verifiedAt":"2026-08-10"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/summer-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-10"},{"url":"https://www.sonymusic.co.jp/artist/ReoNa/info/576982","label":"Sony Music 官方：生命換装 明示最終話 ED、2025年9月6日配信與完整創作","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://reona.lnk.to/Seimeikanso","label":"藝人／唱片公司官方逐曲配信頁：確切曲目／專輯目的地","role":"first_party","language":"ja","verifiedAt":"2026-10-15"}],"links":[{"platform":"SACRA MUSIC","label":"官方發行頁","url":"https://reona.lnk.to/Seimeikanso","linkType":"official_landing_page","region":"GLOBAL"},{"platform":"YouTube","label":"生命換装 TV動畫系列完結記念映像","url":"https://www.youtube.com/watch?v=0xR91gHai4k","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-08-10","availability":"unknown"},{"platform":"Apple Music","label":"生命換装 Apple Music 確切配信入口","url":"https://music.apple.com/jp/album/1835368638","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"Spotify","label":"生命換装 Spotify 確切配信入口","url":"https://open.spotify.com/album/0FKrcF7rp480YBzAcM9WPo","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"YouTube Music","label":"生命換装 YouTube Music 確切配信入口","url":"https://music.youtube.com/playlist?list=OLAK5uy_nzWQXLSB3ZEzUcok9tHler8a8FKFlMhTI","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"}],"usageLabel":"最終話 ED","releaseDate":"2025-09-06","evidence":[{"target":"song","fields":["date"],"sourceUrls":["https://www.sonymusic.co.jp/artist/ReoNa/info/576982"],"verifiedAt":"2026-10-15","targetId":"arknights-enshin-shomei-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.sonymusic.co.jp/artist/ReoNa/info/576982"],"verifiedAt":"2026-10-15","targetId":"arknights-enshin-shomei-ed-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.sonymusic.co.jp/artist/ReoNa/info/576982"],"verifiedAt":"2026-10-15"},{"target":"link","targetId":"https://www.youtube.com/watch?v=0xR91gHai4k","fields":["url","type"],"sourceUrls":["https://www.youtube.com/watch?v=0xR91gHai4k"],"verifiedAt":"2026-08-10"},{"target":"link","fields":["url","type"],"sourceUrls":["https://reona.lnk.to/Seimeikanso"],"verifiedAt":"2026-10-15","targetId":"https://reona.lnk.to/Seimeikanso"},{"target":"link","fields":["url","type"],"sourceUrls":["https://reona.lnk.to/Seimeikanso"],"verifiedAt":"2026-10-15","targetId":"https://music.apple.com/jp/album/1835368638"},{"target":"link","fields":["url","type"],"sourceUrls":["https://reona.lnk.to/Seimeikanso"],"verifiedAt":"2026-10-15","targetId":"https://open.spotify.com/album/0FKrcF7rp480YBzAcM9WPo"},{"target":"link","fields":["url","type"],"sourceUrls":["https://reona.lnk.to/Seimeikanso"],"verifiedAt":"2026-10-15","targetId":"https://music.youtube.com/playlist?list=OLAK5uy_nzWQXLSB3ZEzUcok9tHler8a8FKFlMhTI"}]}
-  ],
-  178886: [
-    {
-      type: "ED",
-      sequence: 2,
-      titleJa: "One Road",
-      artistDisplayName: "帝乃二琥（CV.古賀葵）",
-      youtubeUrl: "https://www.youtube.com/watch?v=FTsXmDzsBMU"
-    },
-    {
-      type: "ED",
-      sequence: 3,
-      titleJa: "Sunrise Prism",
-      artistDisplayName: "帝乃三和（CV.青山吉能）",
-      youtubeUrl: "https://www.youtube.com/watch?v=Jh7AAapWJ-A"
-    }
   ],
   193238: [
     {
