@@ -12,7 +12,7 @@
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED，已確認插曲一併記錄；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 優先補齊2025標準季度TV動畫，按秋 → 夏 → 春 → 冬盤點新作、續播與輪替，再往舊年度。以每集約24分鐘、常見12／24集或分割季度為主，13／26集及同類長篇續播一併盤點；短WEB、泡麵番、短篇TV及特殊番延後，既有成果保留 |
 | 完成條件 | 各季先有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替，將已證實歌曲核心逐批公開，再深化創作、官方影片、音源、收錄與平台；經公開 JSON、頁面及必要檢查驗證。清單未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件 |
-| 執行狀態 | 第08–35批已正式發布驗收；接續第36批標準季度TV盤點與同批深化。資料及展示驗證完成後才分類提交、推送、正常合併、部署與live驗收，再接下一批；2025與長期範圍未完成 |
+| 執行狀態 | 執行中：第08–35批已正式發布驗收；第36批接續標準季度TV盤點與同批深化。資料及展示驗證完成後才分類提交、推送、正常合併、部署與live驗收，再接下一批；2025與長期範圍未完成 |
 | 接續位置 | 第36批 `2025-tv-inventory-36`：夏季尚未逐批核對的標準TV，再春／冬；已查兩輪的秋季缺口只按觸發條件續查。短篇／短WEB待辦不阻擋往舊季度，已完成成果保留，固定截止日2026-10-14 |
 | 發布提交 | 最新 [PR #124](https://github.com/kyeunga25/anisonary/pull/124) 正常rebase合併並保留5個分類提交；正式部署來源 `467b5f9`、標記 `batch35` 已通過下方live驗收。PR #101–#123保留在各批紀錄 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
@@ -80,7 +80,7 @@
 | 優先 | 工作 | 狀態與接點 |
 | --- | --- | --- |
 | 1 | 一次性最小格式與真實試行 | 2026-10-14 已完成，見下方 2026-summer-schema-pilot；後續直接沿用格式，不重新設計或搬移全量資料 |
-| 2 | 當前收集接點 | 第08–34批已正式發布驗收；第35批執行中，優先2025秋標準TV續播／輪替與夏季標準TV缺口 |
+| 2 | 當前收集接點 | 第08–35批已正式發布驗收；第36批執行中，接續2025夏標準季度TV缺口 |
 | 3 | 2025其餘季度 | 標準TV按秋 → 夏 → 春 → 冬盤點；短篇／WEB延後，不阻擋下一季度。保留已核對資料與未解觸發條件，不重查所有舊連結 |
 | 4 | 中間漏季及歷史深化 | 2024 → 2007，每年秋／夏／春／冬倒序；2019夏已有缺口於到達該季時接續 |
 | 5 | 2026保留項目 | 已完成資料維持公開，秋季漏季與未解缺口保留，暫不啟動新的2026批次 |
@@ -3147,6 +3147,63 @@ Cloudflare實際CLI部署exit 0，來源 `467b5f90434e636bca61f16ebbcff54a9bada0
 
 正式入口：<https://anisonary.k-y.cc/seasons/2025-fall/>、<https://anisonary.k-y.cc/anime/himitsu-no-aipri-ring-hen/>、<https://anisonary.k-y.cc/anime/princess-session-orchestra/>。
 
-## 2026-10-17 批次：2025-tv-inventory-36（待接續）
+## 2026-10-17 批次：2025-tv-inventory-36（執行中）
 
 可靠接點為第35批正式來源 `467b5f9`／`batch35`。下一批優先2025夏尚未逐批核對的標準季度TV，再春／冬；秋季有新第一方證據或明確錯誤才定向插隊，短篇／短WEB／泡麵番及特殊番保留待辦。固定2007–2026、資料截止日2026-10-14、來源實際查閱日期及已完成成果均維持。資料與展示、必要檢查完成後再分類提交、推送、正常合併、部署及live驗收，然後接續後批；不把單批完成當年度或長期目標完成，未安排背景或排程收集。
+
+
+第36批開始時工作區只有已推送的第35批正式回執，沒有既有未提交資料修改。先從夏季已公開、尚未逐批核對的標準TV歌曲接續；確認核心身分、用途及演唱後深化同批，不因可選欄位缺失阻擋其他歌曲。
+
+
+### 第36批資料與未解欄位（本機驗收中）
+
+本批選取2025夏季尚未逐批核對的7部標準長度TV、15筆既有用途（7 OP、8 ED），沒有新增動畫或用途。包括New PANTY & STOCKING、第七王子第2期、帝乃三姉妹、Dr.STONE第2クール、SAKAMOTO DAYS第2クール、うたごえはミルフィーユ、怪獣8号第2期；うたミル為每集正常長度的10集TV，沒有因集數接近但不是12集而視為泡麵番。現有夏季快照的其他WEB／短篇／特殊範圍待辦延後，下一批轉春季標準TV；未完成整季作品聯集，不宣稱夏季所有TV歌曲已齊備。
+
+| 公開用途ID | 本批實際更新 |
+| --- | --- |
+| `new-panty-and-stocking-with-garterbelt-op-1` | Theme of New PANTY ＆ STOCKING／TeddyLoid & ☆Taku Takahashi with Ashley & E.V.P；沿用已核對核心，補歌曲ID、音源、發行／平台與欄位證據 |
+| `new-panty-and-stocking-with-garterbelt-ed-1` | Reckless／m-flo loves Adee A.；沿用已核對核心，補歌曲ID、音源、發行／平台與欄位證據 |
+| `utagoe-wa-mille-feuille-op-1` | 思い出話／手鞠沢高校アカペラ部；沿用已核對核心，補歌曲ID、音源、發行／平台與欄位證據 |
+| `tensei-shitara-dai-nana-ouji-datta-node-kimamani-majutsu-wo-kiwamemasu-2nd-season-op-1` | CALLING†／樋口楓；沿用已核對核心，補歌曲ID、音源、發行／平台與欄位證據 |
+| `tensei-shitara-dai-nana-ouji-datta-node-kimamani-majutsu-wo-kiwamemasu-2nd-season-ed-1` | Meteor／岬なこ；沿用已核對核心，補歌曲ID、音源、發行／平台與欄位證據 |
+| `kaijuu-8-gou-2nd-season-op-1` | You Can’t Run From Yourself／AURORA；沿用已核對核心，補歌曲ID、音源、發行／平台與欄位證據 |
+| `kaijuu-8-gou-2nd-season-ed-1` | Beautiful Colors／OneRepublic；沿用已核對核心，補歌曲ID、音源、發行／平台與欄位證據 |
+| `mikadono-sanshimai-wa-angai-choroi-op-1` | 君にふさわしい奇跡／日曜日のメゾンデ；沿用已核對核心，補歌曲ID、音源、發行／平台與欄位證據 |
+| `mikadono-sanshimai-wa-angai-choroi-ed-1` | 曖昧グラフィティ／帝乃一輝（CV.天海由梨奈）；沿用已核對核心，補歌曲ID、音源、發行／平台與欄位證據 |
+| `mikadono-sanshimai-wa-angai-choroi-ed-2` | One Road／帝乃二琥（CV.古賀葵）；沿用已核對核心，補歌曲ID、音源、發行／平台與欄位證據 |
+| `mikadono-sanshimai-wa-angai-choroi-ed-3` | Sunrise Prism／帝乃三和（CV.青山吉能）；沿用已核對核心，補歌曲ID、音源、發行／平台與欄位證據 |
+| `sakamoto-days-part-2-op-1` | Method／Kroi；沿用已核對核心，補歌曲ID、音源、發行／平台與欄位證據 |
+| `sakamoto-days-part-2-ed-1` | ダンデライオン／go!go!vanillas；沿用已核對核心，補歌曲ID、音源、發行／平台與欄位證據 |
+| `dr-stone-science-future-part-2-op-1` | SUPERNOVA／KANA-BOON；沿用已核對核心，補歌曲ID、音源、發行／平台與欄位證據 |
+| `dr-stone-science-future-part-2-ed-1` | no man's world／音羽-otoha-；沿用已核對核心，補歌曲ID、音源、發行／平台與欄位證據 |
+
+15個既有歌曲用途接入15個歌曲ID，沒有把影片、edition或版本當成新創作。新增26個不同音源ID（15演唱、3角色演唱、7伴奏、1Piano重新編曲），其中只有SUPERNOVA (Anime Size)明示TV分類；其餘25個長度unknown。Long Version保留名稱，未自動當full；「思い出話（No Lead Vocal）」仍有人聲分類，沒有當作Instrumental。
+
+新增31個不同發行品ID（22 Single、6 EP／Mini Album、3 OST）及38組逐用途收錄。包括New PSG的CD Single／Digital EP及兩版2CD OST／數位OST，第七王子OP兩版／ED三版Single，帝乃三姉妹角色Mini Album，SUPERNOVA限定Single與獨立數位Single，platinum anthem CD EP及先行數位Single，Method三版Single，SCARY MONSTERS EP三版及ダンデライオン數位Single，思い出話兩版Single及數位發行，怪獣8号兩首數位Single。不同媒介的錄音同一性未知時曲目不綁recordingId；CD、數位與歌曲首發日期分開。New PSG OP首發日未證實，不以8月6日CD／EP日期代替。
+
+Reckless依FlyingDog及唱片曲目表，將原先未獲對應來源支持的個人詞曲細分更正為m-flo；實際演唱Adee A.、VERBAL及已確認編曲保留。うたミル補6位成員與角色／CV對應，只以明示歌曲團隊名單登記。其餘既有詞曲、歌曲名義及有效交叉證據重用；沒有重查全部舊來源。
+
+補3個不同官方歌曲watch外連（均已有對應影片metadata，本批未增加metadata數），另47個Apple Music、Spotify、YouTube Music、mora及レコチョク確切曲目／專輯項目；官方商品／配信入口及builder作品官網不混入47項。官方頁直接提供的ID才保存，沒有由PV、播放時長或專輯名稱推定新錄音。40個來源URL本批實際查閱或補證、205組欄位證據；沿用未重查來源及其欄位證據日期維持舊值。
+
+| 未解缺口 | 本批處理及續查條件 |
+| --- | --- |
+| 怪獣8号 OP／ED（2筆核心缺口） | 官方分別只有合併Written by名單，保留songwriting，未拆作詞／作曲；未找到明示arrangement。官方無字幕影片、演唱與數位Single已證實。等待唱片逐曲credits或創作者明示角色後定向補查；現階段不以producer代替編曲 |
+| うたミル插曲 | 交叉索引列ガーネット、Risky Business及夢見る15歳等劇中使用；官方Single曲目與MV可確認發行，仍不足以確認各話用途、演唱差異及劇中虛構詞曲與真實創作的對應。保留續查方向，待官方逐話／插曲公告或授權片尾credits；未把Single所有收錄或角色曲直接新增為IN／ED |
+| 其餘音源／平台 | 25個錄音長度未知；TV／full、重新錄音、ISRC、其他藝人Album或合輯與特定地區可用性仍待第一方逐曲證據。No Lead Vocal的個別聲部分工、Piano版完整演奏／編曲名單及其他團隊未推造；未把一般band成員等同每首實際歌唱 |
+| 來源取得限制 | Dr.STONE根頁回應403，本批改用已存在且可讀的藝人、Sony官方商品、授權配信及有效舊證據，未繞過限制。FMF直接頁有TLS憑證問題，未停用驗證、未把未讀取完整頁算作已成功取回；Piano版新編曲名單未加入 |
+| 延後及季度聯集 | 夏季剩餘WEB／短篇TV／泡麵及特殊內容保留，不阻擋春季標準TV。Leviathan、BULLET/BULLET等WEB不能僅按WEB分類當作短片；先延後到TV優先階段之後。各季標準TV完整作品聯集仍待核對，舊第27–35批兩輪缺口沿用原觸發條件 |
+
+本批13／15筆有詞、曲、編曲及官方歌曲watch，2筆缺口如上；此口徑不代表個別團隊、全部音源、每張收錄或整季資料齊備。7部既有metadata、動畫來源日期及所有15筆用途ID／網址保持，其他1,978部公開JSON逐項不變。季度seed接手既有Mikadono ED2／ED3及被移入的legacy修正；runtime、UI、contract、播放器、設定、依賴及測試均未更改，沒有為舊測試改正常程式。
+
+必要檢查與展示結果待下節驗收；目前production仍為第35批467b5f9／batch35，不將本機修改當正式更新。
+
+
+### 第36批本機驗收及發布準備
+
+`npm test`：4檔／6項通過；`npm run build`：型別與Astro檢查、2,030 HTML、CSP／Service Worker及4,056公開產物通過；`npm run public:check`：241檔通過。7部經實際ApiProvider解析及建置JSON隔離核對通過，1,978部非本批JSON保持，15筆既有用途ID、作品metadata及動畫來源日期穩定；31個共用發行品的核心metadata一致，跨媒介master未知不硬綁。本批只有資料與checkpoint修改，未改UI／contract／搜尋或播放器，按變更矩陣不額外重跑本機E2E；發布CI仍須通過完整既有品質檢查。
+
+桌面7部15筆用途、26音源與38組收錄數量和公開JSON一致。393像素7部均無橫向溢出／錯誤覆蓋層，已目視怪獣8号長英文歌名與合併詞曲名單。夏季187筆用途首屏24列，KSCL-3601搜尋1筆→Dr.STONE全部2筆→OP的16項欄位證據展開及Anime Size標示通過；首頁及全部歌曲各24列。應用console無error／warn，觀察時0影片iframe；未測歌曲播放、地區可用性或額外網路攔截。
+
+本機季度統計：2025秋142／142、123核心齊備／19缺口；夏164／179、152／12；春8／146、7／1；冬2／135、2／0。全範圍799個唯一用途已逐批處理（754 OP／ED、36 IN、9 TS），未匹配舊ID為0；跨季度不可相加。全目錄仍29季／1,985部／4,410用途（4,365 OP／ED、36 IN、9 TS），不同YouTube歌曲watch增至1,082，metadata仍1,838。頂部正式季度表待正式部署驗收後更新。
+
+Cloudflare dry-run實際exit 0且包含成功marker；沒有變更Wrangler設定或依賴。新增行私隱／credential模式及相對文件連結檢查通過；收集程式、來源工作筆記、原始回應、log、測試產物及帳戶資料未加入公開變更。正式發布仍待固定PR head、CI、正常合併、實際部署及獨立live驗收；production仍為第35批。完成後第37批優先春季尚未逐批核對的標準季度TV，短WEB／短篇與已查未明欄位不阻擋往舊季度。
