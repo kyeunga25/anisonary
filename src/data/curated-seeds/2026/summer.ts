@@ -24539,6 +24539,158 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
     ],
     "metadataVerifiedAt": "2026-07-25"
   },
+  {
+    "anilistId": 184356,
+    "id": "curated-184356",
+    "slug": "tomb-raider-king",
+    "seasonIds": [
+      "2026-summer"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-07-09",
+    "titleJa": "盗掘王",
+    "titleRomaji": "Dogul Wang",
+    "editorialWeekday": 3,
+    "broadcastTimeJst": "25:15",
+    "broadcastLabel": "TV首回節目表2026-07-08週三25:20（實際7月9日）；常態週三25:15（JST）・フジテレビ「B8station」；截至截止日前已完結",
+    "status": "finished",
+    "officialSiteUrl": "https://tombraiderking-pr.com/",
+    "anilistUrl": "https://anilist.co/anime/184356",
+    "sourceReferenceUrls": [
+      "https://www.fujitv.co.jp/fujitv/news/20260595.html",
+      "https://youranimes.tw/bangumi/202607",
+      "https://youranimes.tw/animes/6416"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "SHOW DOWN",
+        "artistDisplayName": "QWER",
+        "songId": "tomb-raider-king-op-1-song",
+        "seasonIds": [
+          "2026-summer"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "官方：曲名、QWER與OP／ED用途",
+            "url": "https://tombraiderking-pr.com/music/index.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "富士電視台：TV首播、常態與首回播出時段",
+            "url": "https://www.fujitv.co.jp/fujitv/news/20260595.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "YourAnimes：歌曲原名、演唱及OP／ED交叉核對",
+            "url": "https://youranimes.tw/animes/6416",
+            "language": "zh-Hant",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "tomb-raider-king-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tombraiderking-pr.com/music/index.html",
+              "https://youranimes.tw/animes/6416"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "tomb-raider-king-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tombraiderking-pr.com/music/index.html",
+              "https://www.fujitv.co.jp/fujitv/news/20260595.html",
+              "https://youranimes.tw/animes/6416"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "To Be Continued",
+        "artistDisplayName": "QWER",
+        "songId": "tomb-raider-king-ed-1-song",
+        "seasonIds": [
+          "2026-summer"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "官方：曲名、QWER與OP／ED用途",
+            "url": "https://tombraiderking-pr.com/music/index.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "富士電視台：TV首播、常態與首回播出時段",
+            "url": "https://www.fujitv.co.jp/fujitv/news/20260595.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "YourAnimes：歌曲原名、演唱及OP／ED交叉核對",
+            "url": "https://youranimes.tw/animes/6416",
+            "language": "zh-Hant",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "tomb-raider-king-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tombraiderking-pr.com/music/index.html",
+              "https://youranimes.tw/animes/6416"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "tomb-raider-king-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tombraiderking-pr.com/music/index.html",
+              "https://www.fujitv.co.jp/fujitv/news/20260595.html",
+              "https://youranimes.tw/animes/6416"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      }
+    ]
+  }
 ];
 
-export const curated2026SummerAnimeIds = [213426,192800,208044,197715,209669,203880,201667,206521,198376,180136,207141,204466,188525,203490,209983,207674,212308,178789,185542,186863,187538,206249,190569,196017,194219,185692,185875,208225,201514,200230,210031,204060,198409,200637,103303,177637,169080,213506,169582,202269,199748,199408,195833,209504,169583,199111,128757,187260,213665,177699,209800,198709,207809,198946,135865,213666,159309,196356,194829,207254,108992,196187,196218,199066,208824,188139,213359,182616,185874,189046] as const;
+export const curated2026SummerAnimeIds = [213426, 192800, 208044, 197715, 209669, 203880, 201667, 206521, 198376, 180136, 207141, 204466, 188525, 203490, 209983, 207674, 212308, 178789, 185542, 186863, 187538, 206249, 190569, 196017, 194219, 185692, 185875, 208225, 201514, 200230, 210031, 204060, 198409, 200637, 103303, 177637, 169080, 213506, 169582, 202269, 199748, 199408, 195833, 209504, 169583, 199111, 128757, 187260, 213665, 177699, 209800, 198709, 207809, 198946, 135865, 213666, 159309, 196356, 194829, 207254, 108992, 196187, 196218, 199066, 208824, 188139, 213359, 182616, 185874, 189046, 182205, 195600, 171110, 196974, 197754, 196219, 184356] as const;

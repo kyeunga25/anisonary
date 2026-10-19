@@ -9068,8 +9068,35 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
     ],
     "themeAvailability": "pending_verification",
     "themes": []
+  },
+  {
+    "catalogKey": -2000017136,
+    "id": "curated-annict-17136",
+    "slug": "hyakuyoufu-3rd-season-keishi-hen",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-08",
+    "titleJa": "百妖譜 第３期京師篇",
+    "editorialWeekday": 3,
+    "broadcastTimeJst": "25:15",
+    "broadcastLabel": "TV首回節目表2026-10-07週三25:15（實際10月8日）・フジテレビ「B8station」；日本TV吹替版",
+    "status": "airing",
+    "officialSiteUrl": "https://b8station.tv/hyakuyoufu/",
+    "identifierSource": {
+      "label": "Annict：日本TV版作品識別",
+      "url": "https://annict.com/works/17136",
+      "language": "ja"
+    },
+    "sourceReferenceUrls": [
+      "https://annict.com/works/2026-autumn?display=list_detailed"
+    ],
+    "themeAvailability": "pending_verification",
+    "themes": []
   }
 ];
 
 // Continuing works retain their original seed and public identity.
-export const curated2026FallAnimeIds: number[] = [191788, 189123, 205909, 199426, 206401, 159042, 172192, 185756, 187402, 195604, 213805, 176314, 209502, 206949, 160803, 152677, 180894, 209872, 178868, 207191, 191656, 202250, 209463, 187316, 205896, 186742, 178083, 169581, 186541, 200455, 202079, 211778, 209499, 204389, 195571, 216557, 212888, 204011, 212799, 195516, 179876, 187990, 199007, 199068, 199594, 200294, 204650, 207329, 209562, 212503, 213068, 206814, 177634, 178749, 182578, 180082, 180136, 203490, 209219, 166443, 216895, -559080, 188034, 203473, 206523];
+export const curated2026FallAnimeIds: number[] = [191788, 189123, 205909, 199426, 206401, 159042, 172192, 185756, 187402, 195604, 213805, 176314, 209502, 206949, 160803, 152677, 180894, 209872, 178868, 207191, 191656, 202250, 209463, 187316, 205896, 186742, 178083, 169581, 186541, 200455, 202079, 211778, 209499, 204389, 195571, 216557, 212888, 204011, 212799, 195516, 179876, 187990, 199007, 199068, 199594, 200294, 204650, 207329, 209562, 212503, 213068, 206814, 177634, 178749, 182578, 180082, 180136, 203490, 209219, 166443, 216895, -559080, 188034, 203473, 206523, -2000017136];
