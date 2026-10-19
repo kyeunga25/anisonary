@@ -11,9 +11,9 @@
 | 長期目標 | 收集近二十年的動畫歌曲、創作團隊、音源版本、來源、官方影片、收錄發行品與正版平台資訊 |
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED，已確認插曲一併記錄；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2020–2026標準季度TV的動畫及歌曲基本資料優先，按2026 → 2020、各年秋 → 夏 → 春 → 冬補漏。先處理可快速核實的原名、季度／首播、演唱名義、OP／ED用途及來源；創作、影片、音源、發行品及平台集中深化留待下一階段。約24分鐘、常見12／24集，13／26集及同類續播納入；短WEB、泡麵番、短篇TV及特殊番延後，既有成果保留 |
-| 完成條件 | 各季有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替；基本資料經公開JSON、頁面及必要檢查驗證，歌單與詳情保持易瀏覽。詳細欄位缺少不阻擋基本資料。作品聯集未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件 |
-| 執行狀態 | 基本資料階段持續執行；第40批正式發布來源`0b82c2e`／`batch40-basics`已驗收，第41批執行中。按批次持續補2020–2026標準TV基本資料，直至已登記範圍完成；詳細深化延後，本階段及長期目標未完成，沒有背景排程 |
-| 接續位置 | 第41批：2026秋季其餘標準TV基本資料，沿現有季度索引取第一方音樂與TV證據，先做快速可核實的新作／續播及輪替。固定截止日不移動；其後2026既有季、2025–2020聯集缺口，2025春curated-183133／curated-178701等接點保留；詳細深化待下一階段 |
+| 完成條件 | 各季有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替；基本資料經公開JSON、頁面及必要檢查驗證，歌單與詳情保持易瀏覽；每筆用途保存現有欄位狀態、未記錄項目及已知續查條件，與完整收齊及來源日期分開。詳細欄位缺少不阻擋基本資料。作品聯集未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件 |
+| 執行狀態 | 基本資料階段持續執行；第40批正式發布來源`0b82c2e`／`batch40-basics`已驗收，第41批本機資料、逐用途狀態與展示驗證完成，正式發布待完成。按批次持續補2020–2026標準TV基本資料，直至已登記範圍完成；詳細深化延後，本階段及長期目標未完成，沒有背景排程 |
+| 接續位置 | 第42批：2026秋季其餘標準TV基本資料，沿現有季度索引取第一方音樂與TV證據，先做快速可核實的新作／續播及輪替。固定截止日不移動；其後2026既有季、2025–2020聯集缺口，2025春curated-183133／curated-178701等接點保留；詳細深化待下一階段 |
 | 發布提交 | 第40批：[PR #132](https://github.com/kyeunga25/anisonary/pull/132)，來源`0b82c2e`／`batch40-basics`；PR及main quality、Workers Builds、實際Cloudflare版本來源與正式站驗收通過。先前發布保留 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
@@ -21,7 +21,7 @@
 
 ## 季度進度 / Quarterly progress
 
-統計至第40批正式驗收；第40批為目前正式發布，資料與展示的正式驗收另記；正式來源見頂部發布提交及各批live紀錄。數量為現有快照的OP／ED用途，依公開theme ID與用途季度計算；跨季用途可能重複，不能直接相加或當作唯一歌曲／音源數。
+統計至第41批本機驗證；第40批為目前正式發布，資料與展示的正式驗收另記；正式來源見頂部發布提交及各批live紀錄。數量為現有快照的OP／ED用途，依公開theme ID與用途季度計算；跨季用途可能重複，不能直接相加或當作唯一歌曲／音源數。
 
 「基本欄位具備」表示現有歌曲原名、演唱名義、用途及第一方／交叉來源有值，動畫可識別且有季度與作品來源；這是現有資料的欄位盤點，不表示本批重查全部來源、作品清單已閉合或整季收齊。「已逐批核對」依下方各批公開ID明細，包含查找後保留續查條件的用途。
 
@@ -29,7 +29,7 @@
 
 | 季度 | 現有OP／ED用途 | 基本欄位具備 | 已逐批核對 | 其中詳細核心齊備 | 已核對詳細核心缺口 |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| 2026 秋 | 60 | 60 | 60 | 0 | 60 |
+| 2026 秋 | 80 | 80 | 80 | 0 | 80 |
 | 2026 夏 | 141 | 141 | 141 | 96 | 45 |
 | 2026 春 | 182 | 182 | 182 | 133 | 49 |
 | 2026 冬 | 137 | 137 | 137 | 106 | 31 |
@@ -62,9 +62,9 @@
 | 2019 春 | 尚未建立快照 | — | — | — | — |
 | 2019 冬 | 尚未建立快照 | — | — | — | — |
 
-2020–2026的28個季度現在均有快照，但2026秋僅30部作品60筆OP／ED及2筆IN用途，其他季度亦未完成完整標準TV作品聯集；各季現有筆數均不是經閉合盤點的全季分母。2026夏／春／冬的既有清單首輪與第08–37批成果保留，基本資料階段沒有重查全量舊來源。2025春尚有113筆、冬133筆現有OP／ED未逐批核對；2024–2020本輪逐批核對尚未開始，短篇／WEB缺口不阻擋標準TV推進。
+2020–2026的28個季度現在均有快照，但2026秋僅40部作品80筆OP／ED及2筆IN用途，其他季度亦未完成完整標準TV作品聯集；各季現有筆數均不是經閉合盤點的全季分母。2026夏／春／冬的既有清單首輪與第08–37批成果保留，基本資料階段沒有重查全量舊來源。2025春尚有113筆、冬133筆現有OP／ED未逐批核對；2024–2020本輪逐批核對尚未開始，短篇／WEB缺口不阻擋標準TV推進。
 
-目前886個唯一用途已逐批處理，其中839 OP／ED、38 IN、9 TS；跨季不可相加。第38–40批62筆用途的基本欄位及身分／用途證據齊備，詳細核心0／60是深化尚未開始，不表示基本資料失敗。2007–2018及2019春／冬仍無快照，長期範圍未完成。羽のゆりかご的季度fallback限制沿第37批記錄，未把未證實春季使用當作確證。
+目前906個唯一用途已逐批處理，其中859 OP／ED、38 IN、9 TS；跨季不可相加。第38–41批82筆用途的基本欄位及身分／用途證據齊備，詳細核心0／80是深化尚未開始，不表示基本資料失敗。2007–2018及2019春／冬仍無快照，長期範圍未完成。羽のゆりかご的季度fallback限制沿第37批記錄，未把未證實春季使用當作確證。
 
 ## 基線
 
@@ -84,7 +84,7 @@
 | 優先 | 工作 | 狀態與接點 |
 | --- | --- | --- |
 | 1 | 一次性最小格式與真實試行 | 2026-10-14 已完成，見下方 2026-summer-schema-pilot；後續直接沿用格式，不重新設計或搬移全量資料 |
-| 2 | 當前收集接點 | 第40批正式驗收完成；第41批接續2026秋季其餘標準TV基本資料 |
+| 2 | 當前收集接點 | 第41批本機驗證完成、待正式發布；第42批接續2026秋季其餘標準TV基本資料 |
 | 3 | 2025–2020基本資料 | 標準TV按年份／季度倒序補作品聯集與歌曲輪替；短篇／WEB延後，詳細深化待後續指令 |
 | 4 | 較早年度 | 2019 → 2007保留長期待辦；2020–2026基本階段未完成前不擴張 |
 | 5 | 詳細資料 | 已完成的創作、影片、音源、發行品及平台資料保留；未解觸發條件沿用，集中深化延後 |
@@ -3519,3 +3519,60 @@ Cloudflare實際CLI部署exit 0，資料驗收來源`a23128662d1968815db88726910
 71個正式入口與本機產物SHA-256一致，包含全部30季度HTML、10部新增動畫HTML／JSON；2條不存在route正確404，CSP、安全標頭及API noindex／revalidation／無CORS通過。這是所列入口驗收，並非重新取得全目錄2,015部JSON。正式季度62筆用途／30部、每頁24列；搜尋「ぴ」得到2筆，點選生徒会ED後同頁顯示全部2首，ED來源正確指向官方music公開分頁。393像素手機內容寬393、0影片iframe，無水平溢出；沒有聲稱實際播放或地區可用性。
 
 第41批持續2026秋標準TV基本資料；新增逐用途的欄位盤點及待補狀態，先以現有證據計算，不因此重查全部歌曲。基本階段與長期目標仍未完成，詳細資料保持分階段補充。
+
+
+## 2026-10-19 批次：2020-2026-tv-basics-41（本機驗證完成，正式發布待完成）
+
+完成層次：基本資料與逐用途狀態；新增10部2026秋標準TV、20筆OP／ED，固定截止日2026-10-14，查閱日2026-10-19。詳細資料集中深化延後；同一已讀官方頁可支持的必要角色資料一併保存。
+
+| 公開 theme ID | 曲名／演唱或官方音樂名義／用途 | 第一方來源 |
+| --- | --- | --- |
+| `oji-san-wa-kawaii-mono-ga-osuki-op-1` | LIKE³／八木勇征／OP1 | [官方](https://ojikawa.com/music/) |
+| `oji-san-wa-kawaii-mono-ga-osuki-ed-1` | 尊い♡界隈／前田佳織里／ED1 | [官方](https://ojikawa.com/music/) |
+| `sekai-saikyou-no-majo-hajimemashita-op-1` | 影響力∞アイドル／HoneyWorks feat.ハコニワリリィ／OP1 | [官方](https://sekamajo-anime.com/) |
+| `sekai-saikyou-no-majo-hajimemashita-ed-1` | 星を巡る／ロクデナシ／ED1 | [官方](https://sekamajo-anime.com/) |
+| `tank-chair-sensha-isu-op-1` | DALALA／SiM／OP1 | [官方](https://www.tankchair-anime.com/musicbluray.php) |
+| `tank-chair-sensha-isu-ed-1` | SYNC／Daoko／ED1 | [官方](https://www.tankchair-anime.com/musicbluray.php) |
+| `yasei-no-last-boss-ga-arawareta-2nd-season-op-1` | Melodic Impact／Suspended 4th／OP1 | [官方](https://www.lastboss-anime.com/music/index.html) |
+| `yasei-no-last-boss-ga-arawareta-2nd-season-ed-1` | 揺れてスカート／ちゃくら／ED1 | [官方](https://www.lastboss-anime.com/music/index.html) |
+| `shuiro-no-kamen-op-1` | Firestarter／MAN WITH A MISSION／OP1 | [官方](https://the-vermilion-mask.com/news/contents/article_740pyw72brqp2drx.html) |
+| `shuiro-no-kamen-ed-1` | 声／yutori／ED1 | [官方](https://the-vermilion-mask.com/news/contents/article_740pyw72brqp2drx.html) |
+| `keroro-gunsou-2026-op-1` | キライのちスキ！／ano／OP1 | [官方](https://www.bn-pictures.co.jp/keroro-anime/tv/music/) |
+| `keroro-gunsou-2026-ed-1` | 秘密のパノラマ／PURPLE BUBBLE／ED1 | [官方](https://www.bn-pictures.co.jp/keroro-anime/tv/music/) |
+| `tempal-item-no-chikara-op-1` | SATISFY／Re:name／OP1 | [官方](https://tempal-anime.net/music/index.html) |
+| `tempal-item-no-chikara-ed-1` | Ray of Emotion／導凰／ED1 | [官方](https://tempal-anime.net/music/index.html) |
+| `psyren-op-1` | WARNING!!／CLAN QUEEN／OP1 | [官方](https://psyren-anime.com/music) |
+| `psyren-ed-1` | ICARUS／Who-ya Extended／ED1 | [官方](https://psyren-anime.com/music) |
+| `marronnier-oukoku-no-shichinin-no-kishi-op-1` | さよならは言わない／yama／OP1 | [官方](https://www.nhk-character.com/chara/marronnier/news/2610021/) |
+| `marronnier-oukoku-no-shichinin-no-kishi-ed-1` | マロニエの花が咲く頃に／藤澤慶昌／ED1 | [官方](https://www.nhk-character.com/chara/marronnier/news/2610051/) |
+| `kusuriya-no-hitorigoto-3rd-season-op-1` | 雲を抜け風下へ私だけ／ヨルシカ／OP1 | [官方](https://kusuriyanohitorigoto.jp/season3/music/) |
+| `kusuriya-no-hitorigoto-3rd-season-ed-1` | AIYOU／Eve／ED1 | [官方](https://kusuriyanohitorigoto.jp/season3/music/) |
+
+- 已處理anime ID：`curated-202079`、`curated-211778`、`curated-209499`、`curated-204389`、`curated-195571`、`curated-216557`、`curated-212888`、`curated-204011`、`curated-212799`、`curated-195516`。
+- 實際新增10個動畫頁、20筆用途／歌曲識別、43組身分／用途及必要credits證據。全目錄30季、2,025部、4,492用途（4,445 OP／ED、38 IN、9 TS）；沒有新增音源、影片metadata或發行品。マロニエED只保存官方列示的作曲、編曲；未推定藤澤慶昌演唱。薬屋OP／ED同頁已明列的詞／曲／編共7項角色一併保存；本批合計9項創作角色，不算完成詳細深化。
+- 基本欄位包含動畫原名、識別、季度、TV日期／時段、歌曲原名、官方音樂名義、OP／ED與第一方／交叉來源。野生ラスボス及テムパル的先行網播日期不取代TV首播；Marronnier時段採ciatr交叉播出資料，官方角色站確認作品及歌曲，未繞過NHK頁面限制。ケロロ使用新TV作品與新歌，不混入舊系列。
+- 證據重用：同一music／onair頁支持兩首與多項事實；沿用同工作階段UtaTen與YourAnimes索引。PSYREN ED改用已實際查閱的Wikipedia動畫歌曲交叉資料，沒有用仍標未公布的索引作證；Marronnier使用ciatr，薬屋使用TVガイド與9月25日官方解禁，均未以10月14日後的新公告推入固定範圍。
+
+### 逐用途資料狀態
+
+- `dataStatus` 經型別、季度authoring、builder、ApiProvider、公開JSON及動畫頁接通。先以生徒会OP／ED與幻想水滸伝OP／ED共4筆真實歌曲細分已查閱交叉來源的欄位引用，並保留〈ぴ〉角色演唱BD的具體續查條件；沒有重新查詢全部歌曲或搬移全部歷史seed。
+- 全部4,492筆用途均有依現有欄位產生的狀態；243筆具有三項基本欄位各自第一方／交叉證據引用，4,249筆保留第一方／交叉來源、待細分欄位證據。此分類不撤銷既有審閱，也不把來源已登記誤稱未有基本歌曲資料。
+- `details` 分列詞／曲／編、音源、官方影片、收錄與確切平台；`pendingFields` 可供後續按缺口取用，`followUp` 保存公開缺口及續查條件。未記錄不表示不存在或必然適用；已有資料不代表全部版本已齊備，不輸出完整度百分比。合併songwriting不拆詞曲，官方入口不冒充曲目，YouTube形式不推定full／TV。
+- 所有既有2,015部資料在排除新狀態及上述4筆證據引用細分後逐項一致，metadata、來源日期、ID、URL及既有詳細資料保留。動畫頁狀態放在原有歌曲詳情內，關閉時仍只顯示緊湊歌名／名義；搜尋索引不增加狀態ledger或私人備註。
+
+### 未解缺口與續查條件
+
+- 秋季標準TV作品、續播與輪替聯集尚未閉合；40部80筆OP／ED及2筆IN仍是子集。第42批續補其餘快速可證實作品及續播，不能以80／80當作整季完成。2025夏15、春113、冬133筆尚未逐批核對；2024–2020本階段逐批盤點仍未開始。
+- 恐怖コレクター已見官方主題歌担当公告，但曲名缺少清楚第一方證據，ED資訊亦未齊；兩輪定向查找後停留缺口。待可讀官方音樂／藝人解禁或具體用曲資料出現再補，不使用社群鏡像或繞過robots。
+- おじカワ官方另列插曲〈パグっといっちゃって〜〉，獨立用途／演唱名義交叉證據未齊，兩輪後保留續查條件；有可核對報導／正片用曲資料時再新增IN，不把它掛成OP／ED版本。Re：START及先前詳細缺口沿原條件。
+- 正式繁中譯名、圖片、逐集使用範圍及其他詳細欄位未知者留空。逐筆機械盤點不是逐筆重新搜尋，詳細齊備仍待後續專門核對。
+
+### 本機檢查與展示
+
+- `npm test`4檔／7項通過，包含全目錄round-trip、新狀態與舊payload相容、拒絕膨脹狀態及不拆songwriting；首次建置指出新增測試fixture的optional欄位賦undefined不符嚴格型別，改用delete，沒有修改正常程式遷就舊測試。最終`npm run build`2,071 HTML／4,140公開產物通過，Astro無errors／warnings／hints。
+- `npm run test:e2e`完整6條通過，包含實際折疊詳情內的資料狀態及來源、靜態API、搜尋、離線與播放器同意流程。10部20筆通過實際ApiProvider解析；全部舊資料隔離核對及4筆真實試行通過。
+- in-app Chromium桌面可讀〈ぴ〉的未記錄欄位及具體BD續查條件；10部393×852手機逐頁展開，20筆用途與20組狀態存在，內容寬393、0影片iframe。季度82筆／40部、每頁24列共4頁，未宣稱歌曲播放或地區可用性。
+- 公開邊界245個repository檔案、7個文件相對連結、diff格式、私隱／credential新增行檢查及Cloudflare dry-run全部通過；dry-run exit0並有成功marker，無bindings。依賴／設定未改，沿用既有依賴稽核。臨時工具、筆記、來源取回資料、log及測試產物不納入repository。
+- 正式發布待固定PR head、CI／Workers、正常合併、實際部署及live驗收；目前production為第40批`0b82c2e`／`batch40-basics`。
+
+預覽入口：`/seasons/2026-fall/`、`/anime/kusuriya-no-hitorigoto-3rd-season/`、`/anime/marronnier-oukoku-no-shichinin-no-kishi/`、`/anime/seitokai-ni-mo-ana-wa-aru/`；展開歌曲詳情可看狀態，公開JSON的`themes[].dataStatus.pendingFields`可作後續續補索引。
