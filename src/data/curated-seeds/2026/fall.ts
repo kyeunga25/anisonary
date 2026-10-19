@@ -1508,7 +1508,1507 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
         ]
       }
     ]
+  },
+  {
+    "anilistId": 213805,
+    "id": "curated-213805",
+    "slug": "koori-no-jouheki-2nd-season",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-01",
+    "titleJa": "氷の城壁 第2期",
+    "titleRomaji": "Koori no Jouheki 2nd Season",
+    "editorialWeekday": 4,
+    "broadcastTimeJst": "23:56",
+    "broadcastLabel": "2026-10-01 起・TV・TBS系28局（JST）",
+    "status": "airing",
+    "officialSiteUrl": "https://korinojoheki-pr.com/",
+    "anilistUrl": "https://anilist.co/anime/213805",
+    "sourceReferenceUrls": [
+      "https://korinojoheki-pr.com/",
+      "https://youranimes.tw/bangumi/202610"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "エスコート",
+        "artistDisplayName": "THE BEAT GARDEN",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "koori-no-jouheki-2nd-season-op-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://korinojoheki-pr.com/music/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV季度與播出資料",
+            "url": "https://korinojoheki-pr.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+            "url": "https://utaten.com/specialArticle/index/10195",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "koori-no-jouheki-2nd-season-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://korinojoheki-pr.com/music/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "koori-no-jouheki-2nd-season-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://korinojoheki-pr.com/music/",
+              "https://korinojoheki-pr.com/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "花蔭",
+        "artistDisplayName": "Superfly",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "koori-no-jouheki-2nd-season-ed-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://korinojoheki-pr.com/music/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV季度與播出資料",
+            "url": "https://korinojoheki-pr.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+            "url": "https://utaten.com/specialArticle/index/10195",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "koori-no-jouheki-2nd-season-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://korinojoheki-pr.com/music/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "koori-no-jouheki-2nd-season-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://korinojoheki-pr.com/music/",
+              "https://korinojoheki-pr.com/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 176314,
+    "id": "curated-176314",
+    "slug": "sasaki-to-pii-chan-season-2",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-07",
+    "titleJa": "佐々木とピーちゃん Season2",
+    "titleRomaji": "Sasaki to Pii-chan Season 2",
+    "editorialWeekday": 3,
+    "broadcastTimeJst": "22:00",
+    "broadcastLabel": "2026-10-07 起・TV・AT-X・初回1小時，之後每集通常時段；TOKYO MX 23:00（JST）",
+    "status": "airing",
+    "officialSiteUrl": "https://sasapi-anime.com/",
+    "anilistUrl": "https://anilist.co/anime/176314",
+    "sourceReferenceUrls": [
+      "https://sasapi-anime.com/onair.html",
+      "https://youranimes.tw/bangumi/202610"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Unbroken",
+        "artistDisplayName": "MADKID",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "sasaki-to-pii-chan-season-2-op-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://sasapi-anime.com/music.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV季度與播出資料",
+            "url": "https://sasapi-anime.com/onair.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+            "url": "https://utaten.com/specialArticle/index/10195",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "sasaki-to-pii-chan-season-2-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://sasapi-anime.com/music.html"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "sasaki-to-pii-chan-season-2-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://sasapi-anime.com/music.html",
+              "https://sasapi-anime.com/onair.html"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "すきぴのおかげ！",
+        "artistDisplayName": "のんふぃく！",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "sasaki-to-pii-chan-season-2-ed-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://sasapi-anime.com/music.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV季度與播出資料",
+            "url": "https://sasapi-anime.com/onair.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+            "url": "https://utaten.com/specialArticle/index/10195",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "sasaki-to-pii-chan-season-2-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://sasapi-anime.com/music.html"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "sasaki-to-pii-chan-season-2-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://sasapi-anime.com/music.html",
+              "https://sasapi-anime.com/onair.html"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 209502,
+    "id": "curated-209502",
+    "slug": "shiotaiou-no-satou-san-ga-ore-ni-dake-amai",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-06",
+    "titleJa": "塩対応の佐藤さんが俺にだけ甘い",
+    "titleRomaji": "Shiotaiou no Satou-san ga Ore ni dake Amai",
+    "editorialWeekday": 2,
+    "broadcastTimeJst": "20:30",
+    "broadcastLabel": "2026-10-06 起・TV・AT-X；TOKYO MX同日22:00（JST）",
+    "status": "airing",
+    "officialSiteUrl": "https://shioama-anime.com/",
+    "anilistUrl": "https://anilist.co/anime/209502",
+    "sourceReferenceUrls": [
+      "https://shioama-anime.com/onair.html",
+      "https://youranimes.tw/bangumi/202610"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "シュガーソルト",
+        "artistDisplayName": "オーイシマサヨシ",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "shiotaiou-no-satou-san-ga-ore-ni-dake-amai-op-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://shioama-anime.com/music.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV季度與播出資料",
+            "url": "https://shioama-anime.com/onair.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+            "url": "https://utaten.com/specialArticle/index/10195",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "shiotaiou-no-satou-san-ga-ore-ni-dake-amai-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://shioama-anime.com/music.html"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "shiotaiou-no-satou-san-ga-ore-ni-dake-amai-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://shioama-anime.com/music.html",
+              "https://shioama-anime.com/onair.html"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "初恋リプライ",
+        "artistDisplayName": "HoneyWorks feat.星川サラ",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "shiotaiou-no-satou-san-ga-ore-ni-dake-amai-ed-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://shioama-anime.com/music.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV季度與播出資料",
+            "url": "https://shioama-anime.com/onair.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+            "url": "https://utaten.com/specialArticle/index/10195",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "shiotaiou-no-satou-san-ga-ore-ni-dake-amai-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://shioama-anime.com/music.html"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "shiotaiou-no-satou-san-ga-ore-ni-dake-amai-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://shioama-anime.com/music.html",
+              "https://shioama-anime.com/onair.html"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 206949,
+    "id": "curated-206949",
+    "slug": "kyouran-reijou-nia-liston",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-06",
+    "titleJa": "凶乱令嬢ニア・リストン 病弱令嬢に転生した神殺しの武人の華麗なる無双録",
+    "titleRomaji": "Kyouran Reijou Nia Liston",
+    "editorialWeekday": 2,
+    "broadcastTimeJst": "21:25",
+    "broadcastLabel": "2026-10-06 起・TV・TOKYO MX・連續2季度（JST）",
+    "status": "airing",
+    "officialSiteUrl": "https://kyoranreijo-pr.com/",
+    "anilistUrl": "https://anilist.co/anime/206949",
+    "sourceReferenceUrls": [
+      "https://kyoranreijo-pr.com/",
+      "https://youranimes.tw/bangumi/202610"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "リスポーン!!",
+        "artistDisplayName": "角巻わため",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "kyouran-reijou-nia-liston-op-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://kyoranreijo-pr.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+            "url": "https://utaten.com/specialArticle/index/10195",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "kyouran-reijou-nia-liston-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://kyoranreijo-pr.com/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "kyouran-reijou-nia-liston-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://kyoranreijo-pr.com/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "ときめきアン・ドゥ・トロワ♪",
+        "artistDisplayName": "魔法映像（マジックビジョン）ひろめ隊",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "kyouran-reijou-nia-liston-ed-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://kyoranreijo-pr.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+            "url": "https://utaten.com/specialArticle/index/10195",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "kyouran-reijou-nia-liston-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://kyoranreijo-pr.com/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "kyouran-reijou-nia-liston-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://kyoranreijo-pr.com/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 160803,
+    "id": "curated-160803",
+    "slug": "mahou-shoujo-ikusei-keikaku-restart",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-06",
+    "titleJa": "魔法少女育成計画restart",
+    "titleRomaji": "Mahou Shoujo Ikusei Keikaku: restart",
+    "editorialWeekday": 1,
+    "broadcastTimeJst": "26:00",
+    "broadcastLabel": "2026-10-06 起・TV・テレビ東京・節目表10月5日深夜（實際10月6日）；網播26:30（JST）",
+    "status": "airing",
+    "officialSiteUrl": "https://mahoiku.com/anime/restart",
+    "anilistUrl": "https://anilist.co/anime/160803",
+    "sourceReferenceUrls": [
+      "https://mahoiku.com/anime/restart",
+      "https://youranimes.tw/bangumi/202610"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "No tears here",
+        "artistDisplayName": "茅原実里",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "mahou-shoujo-ikusei-keikaku-restart-op-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://mahoiku.com/anime/restart",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+            "url": "https://utaten.com/specialArticle/index/10195",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "mahou-shoujo-ikusei-keikaku-restart-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://mahoiku.com/anime/restart"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "mahou-shoujo-ikusei-keikaku-restart-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://mahoiku.com/anime/restart"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "ReMind",
+        "artistDisplayName": "Daisy×Daisy",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "mahou-shoujo-ikusei-keikaku-restart-ed-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://mahoiku.com/anime/restart",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+            "url": "https://utaten.com/specialArticle/index/10195",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "mahou-shoujo-ikusei-keikaku-restart-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://mahoiku.com/anime/restart"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "mahou-shoujo-ikusei-keikaku-restart-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://mahoiku.com/anime/restart"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 152677,
+    "id": "curated-152677",
+    "slug": "tantei-wa-mou-shindeiru-season-2",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-07",
+    "titleJa": "探偵はもう、死んでいる。Season2",
+    "titleRomaji": "Tantei wa mou, Shindeiru. Season 2",
+    "editorialWeekday": 3,
+    "broadcastTimeJst": "22:30",
+    "broadcastLabel": "2026-10-07 起・TV・TOKYO MX；AT-X同日21:30（JST）",
+    "status": "airing",
+    "officialSiteUrl": "https://tanmoshi-anime.jp/Season2/",
+    "anilistUrl": "https://anilist.co/anime/152677",
+    "sourceReferenceUrls": [
+      "https://tanmoshi-anime.jp/Season2/onair/index.html",
+      "https://youranimes.tw/bangumi/202610"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "この心臓に花束を",
+        "artistDisplayName": "心梅",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "tantei-wa-mou-shindeiru-season-2-op-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://tanmoshi-anime.jp/Season2/music/index.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV季度與播出資料",
+            "url": "https://tanmoshi-anime.jp/Season2/onair/index.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+            "url": "https://utaten.com/specialArticle/index/10195",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "tantei-wa-mou-shindeiru-season-2-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tanmoshi-anime.jp/Season2/music/index.html"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "tantei-wa-mou-shindeiru-season-2-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tanmoshi-anime.jp/Season2/music/index.html",
+              "https://tanmoshi-anime.jp/Season2/onair/index.html"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "白昼夢",
+        "artistDisplayName": "カグラナナ",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "tantei-wa-mou-shindeiru-season-2-ed-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://tanmoshi-anime.jp/Season2/music/index.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV季度與播出資料",
+            "url": "https://tanmoshi-anime.jp/Season2/onair/index.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+            "url": "https://utaten.com/specialArticle/index/10195",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "tantei-wa-mou-shindeiru-season-2-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tanmoshi-anime.jp/Season2/music/index.html"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "tantei-wa-mou-shindeiru-season-2-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tanmoshi-anime.jp/Season2/music/index.html",
+              "https://tanmoshi-anime.jp/Season2/onair/index.html"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 180894,
+    "id": "curated-180894",
+    "slug": "romelia-senki",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-05",
+    "titleJa": "ロメリア戦記",
+    "titleRomaji": "Romelia Senki: Maou wo Taoshita nochi mo Jinrui Yabasou dakara Guntai Soshiki Shita",
+    "editorialWeekday": 1,
+    "broadcastTimeJst": "23:30",
+    "broadcastLabel": "2026-10-05 起・TV・TOKYO MX・2季度；10月3日21:00先行網播（JST）",
+    "status": "airing",
+    "officialSiteUrl": "https://romelia-senki.com/",
+    "anilistUrl": "https://anilist.co/anime/180894",
+    "sourceReferenceUrls": [
+      "https://romelia-senki.com/onair/",
+      "https://youranimes.tw/bangumi/202610"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "暁に鳴る",
+        "artistDisplayName": "超学生",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "romelia-senki-op-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://romelia-senki.com/product/music/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV季度與播出資料",
+            "url": "https://romelia-senki.com/onair/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+            "url": "https://utaten.com/specialArticle/index/10195",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "romelia-senki-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://romelia-senki.com/product/music/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "romelia-senki-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://romelia-senki.com/product/music/",
+              "https://romelia-senki.com/onair/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "Nightfall feat. Maika Loubté",
+        "artistDisplayName": "KOHTA YAMAMOTO",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "romelia-senki-ed-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://romelia-senki.com/product/music/ed",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV季度與播出資料",
+            "url": "https://romelia-senki.com/onair/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+            "url": "https://utaten.com/specialArticle/index/10195",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "romelia-senki-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://romelia-senki.com/product/music/ed"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "romelia-senki-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://romelia-senki.com/product/music/ed",
+              "https://romelia-senki.com/onair/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 209872,
+    "id": "curated-209872",
+    "slug": "ranma-2024-3rd-season",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-04",
+    "titleJa": "らんま1/2 第3期",
+    "titleRomaji": "Ranma 1/2 (2024) 3rd Season",
+    "editorialWeekday": 6,
+    "broadcastTimeJst": "24:55",
+    "broadcastLabel": "2026-10-04 起・TV・日本テレビ・節目表10月3日深夜（實際10月4日）；Netflix放送後配信（JST）",
+    "status": "airing",
+    "officialSiteUrl": "https://ranma-pr.com/",
+    "anilistUrl": "https://anilist.co/anime/209872",
+    "sourceReferenceUrls": [
+      "https://ranma-pr.com/news/2506/",
+      "https://youranimes.tw/bangumi/202610"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "素直未満",
+        "artistDisplayName": "ふみの",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "ranma-2024-3rd-season-op-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://ranma-pr.com/music/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV季度與播出資料",
+            "url": "https://ranma-pr.com/news/2506/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+            "url": "https://utaten.com/specialArticle/index/10195",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "ranma-2024-3rd-season-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://ranma-pr.com/music/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "ranma-2024-3rd-season-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://ranma-pr.com/music/",
+              "https://ranma-pr.com/news/2506/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "かわいくない",
+        "artistDisplayName": "『ユイカ』",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "ranma-2024-3rd-season-ed-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://ranma-pr.com/music/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV季度與播出資料",
+            "url": "https://ranma-pr.com/news/2506/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+            "url": "https://utaten.com/specialArticle/index/10195",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "ranma-2024-3rd-season-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://ranma-pr.com/music/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "ranma-2024-3rd-season-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://ranma-pr.com/music/",
+              "https://ranma-pr.com/news/2506/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 178868,
+    "id": "curated-178868",
+    "slug": "magic-knight-rayearth-2026",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-07",
+    "titleJa": "魔法騎士レイアース",
+    "titleRomaji": "Magic Knight Rayearth (2026)",
+    "editorialWeekday": 3,
+    "broadcastTimeJst": "23:45",
+    "broadcastLabel": "2026-10-07 起・TV・テレビ朝日系・IMAnimation W・連續2季度（JST）",
+    "status": "airing",
+    "officialSiteUrl": "https://rayearth-anime.com/",
+    "anilistUrl": "https://anilist.co/anime/178868",
+    "sourceReferenceUrls": [
+      "https://rayearth-anime.com/onair/",
+      "https://youranimes.tw/bangumi/202610"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "乙女の剣",
+        "artistDisplayName": "十明",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "magic-knight-rayearth-2026-op-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://rayearth-anime.com/music/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV季度與播出資料",
+            "url": "https://rayearth-anime.com/onair/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+            "url": "https://utaten.com/specialArticle/index/10195",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "magic-knight-rayearth-2026-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://rayearth-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "magic-knight-rayearth-2026-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://rayearth-anime.com/music/",
+              "https://rayearth-anime.com/onair/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "星灯",
+        "artistDisplayName": "Kawaguchi Yurina",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "magic-knight-rayearth-2026-ed-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://rayearth-anime.com/music/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV季度與播出資料",
+            "url": "https://rayearth-anime.com/onair/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+            "url": "https://utaten.com/specialArticle/index/10195",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "magic-knight-rayearth-2026-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://rayearth-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "magic-knight-rayearth-2026-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://rayearth-anime.com/music/",
+              "https://rayearth-anime.com/onair/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 1,
+        "titleJa": "ゆずれない願い",
+        "artistDisplayName": "田村直美",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "magic-knight-rayearth-2026-in-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://rayearth-anime.com/music/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV季度與播出資料",
+            "url": "https://rayearth-anime.com/onair/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "GAME Watch：第1話插曲交叉核對",
+            "url": "https://game.watch.impress.co.jp/docs/news/2146248.html",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "magic-knight-rayearth-2026-in-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://rayearth-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "magic-knight-rayearth-2026-in-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://rayearth-anime.com/music/",
+              "https://rayearth-anime.com/onair/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "usageLabel": "第1話插曲（1994年版OP歌曲）"
+      }
+    ]
+  },
+  {
+    "anilistId": 207191,
+    "id": "curated-207191",
+    "slug": "doumo-suki-na-hito-ni-horegusuri-wo-irai-sareta-majo-desu",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-05",
+    "titleJa": "どうも、好きな人に惚れ薬を依頼された魔女です。",
+    "titleRomaji": "Doumo, Suki na Hito ni Horegusuri wo Irai Sareta Majo desu.",
+    "editorialWeekday": 1,
+    "broadcastTimeJst": "21:30",
+    "broadcastLabel": "2026-10-05 起・TV・AT-X；TOKYO MX 23:00・地上波先行網播22:00（JST）",
+    "status": "airing",
+    "officialSiteUrl": "https://horemajo-anime.com/",
+    "anilistUrl": "https://anilist.co/anime/207191",
+    "sourceReferenceUrls": [
+      "https://horemajo-anime.com/onair/index.html",
+      "https://youranimes.tw/bangumi/202610"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "かなわない、",
+        "artistDisplayName": "センチミリメンタル",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "doumo-suki-na-hito-ni-horegusuri-wo-irai-sareta-majo-desu-op-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://horemajo-anime.com/music/index.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV季度與播出資料",
+            "url": "https://horemajo-anime.com/onair/index.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+            "url": "https://utaten.com/specialArticle/index/10195",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "doumo-suki-na-hito-ni-horegusuri-wo-irai-sareta-majo-desu-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://horemajo-anime.com/music/index.html"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "doumo-suki-na-hito-ni-horegusuri-wo-irai-sareta-majo-desu-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://horemajo-anime.com/music/index.html",
+              "https://horemajo-anime.com/onair/index.html"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "まだ嘘にならない",
+        "artistDisplayName": "レイニ",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "doumo-suki-na-hito-ni-horegusuri-wo-irai-sareta-majo-desu-ed-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://horemajo-anime.com/music/index.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV季度與播出資料",
+            "url": "https://horemajo-anime.com/onair/index.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+            "url": "https://utaten.com/specialArticle/index/10195",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "doumo-suki-na-hito-ni-horegusuri-wo-irai-sareta-majo-desu-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://horemajo-anime.com/music/index.html"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "doumo-suki-na-hito-ni-horegusuri-wo-irai-sareta-majo-desu-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://horemajo-anime.com/music/index.html",
+              "https://horemajo-anime.com/onair/index.html"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      }
+    ]
   }
 ];
 
-export const curated2026FallAnimeIds: number[] = [191788, 189123, 205909, 199426, 206401, 159042, 172192, 185756, 187402, 195604];
+export const curated2026FallAnimeIds: number[] = [191788, 189123, 205909, 199426, 206401, 159042, 172192, 185756, 187402, 195604, 213805, 176314, 209502, 206949, 160803, 152677, 180894, 209872, 178868, 207191];
