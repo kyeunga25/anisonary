@@ -12,16 +12,16 @@
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED，已確認插曲一併記錄；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2020–2026標準季度TV的動畫及歌曲基本資料優先，按2026 → 2020、各年秋 → 夏 → 春 → 冬補漏。先處理可快速核實的原名、季度／首播、演唱名義、OP／ED用途及來源；創作、影片、音源、發行品及平台集中深化留待下一階段。約24分鐘、常見12／24集，13／26集及同類續播納入；長篇以2020–2026的TV用曲季度盤點，不以作品首播年自動排除；短WEB、泡麵番、短篇TV及特殊番延後，既有成果保留 |
 | 完成條件 | 各季有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替；基本資料經公開JSON、頁面及必要檢查驗證，歌單與詳情保持易瀏覽；每筆用途保存現有欄位狀態、未記錄項目及已知續查條件，與完整收齊及來源日期分開。詳細欄位缺少不阻擋基本資料。作品聯集未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件 |
-| 執行狀態 | 基本資料階段持續執行；第61批10部21筆基本欄位與青のミブロ兩筆冬季更正已正常合併、實際部署及正式驗收，11頁25筆逐曲狀態通過；正式來源`a1d6f9b`／`batch61-basics`。第62批接續2024秋10部23筆及有界作品盤點，詳細與整體目標未完成，沒有背景排程 |
-| 接續位置 | 第61批正常發布收尾後，第62批接續2024秋10部23筆既有用途：`curated-168139`、`curated-173693`、`curated-177104`、`curated-167141`、`curated-141182`、`curated-171642`、`curated-172190`、`curated-164299`、`curated-168500`、`curated-171038`；併行有界盤點2024秋標準TV作品聯集，保留短篇／WEB延後及未觸發詳細缺口。33筆季度待核與シンカリオン部分冬季缺口按條件續查 |
-| 發布提交 | 第61批[PR #153](https://github.com/kyeunga25/anisonary/pull/153)，來源`a1d6f9b`／`batch61-basics`；PR／main quality與Workers Builds、實際Cloudflare版本及正式站驗收通過，annotated tag已推送。第62批獨立來源核對中，尚未完成資料及展示驗證 |
+| 執行狀態 | 基本資料階段持續執行；第62批10部23筆已完成資料與本機展示驗證，23筆基本欄位有第一方／交叉證據、2筆舊ED更正IN且ID及媒體保持；正式發布待完成。最後正式來源為第61批`a1d6f9b`／`batch61-basics`，詳細與整體目標未完成，沒有背景排程 |
+| 接續位置 | 第62批正常發布收尾後，第63批2024秋與相鄰季度10部22筆起始用途：`curated-150930`、`curated-153406`、`curated-171025`、`curated-178533`、`curated-169755`、`curated-178434`、`curated-169931`、`curated-172355`、`curated-171400`、`curated-179919`；優先核村井與神之塔第二期原TV用途季度，再沿原期官方頁補身分、名義、OP／ED及逐曲狀態。短篇／WEB、未觸發詳細缺口及33筆季度待核保持 |
+| 發布提交 | 第61批[PR #153](https://github.com/kyeunga25/anisonary/pull/153)來源`a1d6f9b`／`batch61-basics`已正式驗收；第62批資料及本機展示通過，待正常PR／main gates、實際Cloudflare部署及正式站驗收 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
 執行狀態使用「未開始／執行中／已暫停／已完成／已取消」；無法繼續時另記具體阻礙及仍未完成部分，不自動標記完成。長期目標與本次工作量分開，未指定本次工作量時先完成下一批。
 
 ## 季度進度 / Quarterly progress
 
-統計至第61批正式驗收，來源`a1d6f9b`／`batch61-basics`；第62批尚未完成資料及展示驗證。數量為現有快照的OP／ED用途，依公開theme ID與已確認用途季度計算；跨季用途可能重複，不能直接相加或當作唯一歌曲／音源數。
+統計至第62批本機驗證；最後正式來源為第61批`a1d6f9b`／`batch61-basics`，第62批正式發布待完成。數量為現有快照的OP／ED用途，依公開theme ID與已確認用途季度計算；跨季用途可能重複，不能直接相加或當作唯一歌曲／音源數。
 
 「基本欄位具備」表示現有歌曲原名、演唱名義、用途及第一方／交叉來源有值，動畫可識別且有季度與作品來源；這是現有資料的欄位盤點，不表示本批重查全部來源、作品清單已閉合或整季收齊。「已逐批核對」依下方各批公開ID明細，包含查找後保留續查條件的用途。
 
@@ -37,7 +37,7 @@
 | 2025 夏 | 208 | 208 | 193 | 163 | 30 |
 | 2025 春 | 148 | 148 | 127 | 46 | 81 |
 | 2025 冬 | 164 | 164 | 157 | 5 | 152 |
-| 2024 秋 | 165 | 165 | 68 | 0 | 68 |
+| 2024 秋 | 163 | 163 | 89 | 0 | 89 |
 | 2024 夏 | 198 | 198 | 17 | 0 | 17 |
 | 2024 春 | 169 | 169 | 17 | 0 | 17 |
 | 2024 冬 | 136 | 136 | 12 | 0 | 12 |
@@ -64,7 +64,7 @@
 
 2020–2026的28個季度均有快照，但各季尚未完成標準TV作品聯集，現有筆數不是閉合的全季分母。2026夏／春／冬既有清單首輪與第08–37批成果保留，沒有重查全量舊來源。2025夏尚有15筆、春21筆、冬7筆現有OP／ED未逐批核對，冬季7筆屬延後短篇；另33筆既有用途季度待核，保留全目錄及動畫頁並暫不計入季度。シンカリオン兩筆歌曲已有2024確認季度、2025冬仍待逐曲證據，與完全未分季的33筆分開。2024–2020續播與其餘標準TV盤點持續，短篇／WEB及詳細欄位不阻擋基本階段。
 
-目前1,357個唯一用途已逐批處理，其中1,269 OP／ED、78 IN、10 TS；包含33筆用途季度待核狀態盤點，未把它們計入任一已確認季度，跨季不可相加。第38–61批新增205筆用途的基本欄位及身分／用途證據齊備；秋季詳細核心3／138主要來自既有用途季度補正，不表示其餘基本資料失敗。春季共7筆已證實第二季度／後期用途改掛秋季，另14筆第二季度改掛夏季；無自覺聖女兩筆補夏季並保留春末TV首播，唯一歌曲與未重查來源日期保留。2007–2018及2019春／冬仍無快照，長期範圍未完成。羽のゆりかご的季度fallback限制沿第37批記錄，未把未證實春季使用當作確證。
+目前1,380個唯一用途已逐批處理，其中1,290 OP／ED、80 IN、10 TS；包含33筆用途季度待核狀態盤點，未把它們計入任一已確認季度，跨季不可相加。第38–62批新增205筆用途的基本欄位及身分／用途證據齊備；秋季詳細核心3／138主要來自既有用途季度補正，不表示其餘基本資料失敗。春季共7筆已證實第二季度／後期用途改掛秋季，另14筆第二季度改掛夏季；無自覺聖女兩筆補夏季並保留春末TV首播，唯一歌曲與未重查來源日期保留。2007–2018及2019春／冬仍無快照，長期範圍未完成。羽のゆりかご的季度fallback限制沿第37批記錄，未把未證實春季使用當作確證。
 
 ## 基線
 
@@ -84,7 +84,7 @@
 | 優先 | 工作 | 狀態與接點 |
 | --- | --- | --- |
 | 1 | 一次性最小格式與真實試行 | 2026-10-14 已完成，見下方 2026-summer-schema-pilot；後續直接沿用格式，不重新設計或搬移全量資料 |
-| 2 | 當前收集接點 | 第61批正常發布收尾；第62批依頂部公開ID接續2024秋標準TV及有界作品聯集盤點 |
+| 2 | 當前收集接點 | 第62批正常發布收尾；第63批依頂部公開ID接續2024秋標準TV與原TV季度缺口 |
 | 3 | 2025–2020基本資料 | 標準TV按年份／季度倒序補作品聯集與歌曲輪替；短篇／WEB延後，詳細深化待後續指令 |
 | 4 | 較早年度 | 2019 → 2007保留長期待辦；2020–2026基本階段未完成前不擴張 |
 | 5 | 詳細資料 | 已完成的創作、影片、音源、發行品及平台資料保留；未解觸發條件沿用，集中深化延後 |
@@ -5067,9 +5067,63 @@ GitHub open Dependabot警示增至24項，新增[source-map-js advisory](https:/
 - annotated tag `batch61-basics`指向正式來源並已推送。第62批接續10部23筆及2024秋標準TV作品盤點；33筆季度待核與シンカリオン部分冬季缺口保存，基本階段與長期目標仍未完成。
 
 
-## 2020-2026-tv-basics-62（執行中）
+## 2020-2026-tv-basics-62（本機驗證完成，正式發布待完成）
 
-- 固定2020–2026標準TV基本資料階段及2026-10-14截止日維持；2024秋10部23筆既有用途起始。公開anime ID：`curated-168139`、`curated-173693`、`curated-177104`、`curated-167141`、`curated-141182`、`curated-171642`、`curated-172190`、`curated-164299`、`curated-168500`、`curated-171038`。
-- 第61批正常PR／main gates、實際部署及正式站驗收完成，來源與4,194產物固定；本批獨立核來源，未混入前批發布，尚未改歌曲或記作齊備。
-- 本批先沿原期官方音樂及播出頁核身分／名義／OPED／TV季度，並以Annict 2024-autumn與Bangumi有界盤點標準TV作品聯集。未審候選及原始資料不公開，短篇／WEB延後；既有33筆季度待核、シンカリオン部分冬季及詳細深化缺口依觸發條件續查。
-- 本批尚未檢查；正式發布前完成資料與展示驗證，保存逐用途pendingFields、followUp及下一步。
+- 固定2020–2026標準TV基本資料階段與2026-10-14截止日維持；來源實際查閱2026-10-20。2024秋10部23筆既有用途完成本機驗證；沒有新增動畫、用途或歌曲ID，兩筆原ED依第一方改列IN，原ID與序號保持。
+- 第61批正常PR／main gate、實際部署與正式站驗收已完成，來源`a1d6f9b`／`batch61-basics`；第63批資料不混入本批發布。短篇／WEB及集中詳細深化延後，沒有把一批完成當整季或全目標完成。
+
+### 公開用途與實際差異
+
+| 公開theme ID | 原名／演唱名義 | 用途 | 已確認季度 |
+| --- | --- | --- | --- |
+| `rekishi-ni-nokoru-akujo-ni-naruzo-op-1` | バッドゥドゥドゥ／Liyuu | OP1 | 2024-fall |
+| `rekishi-ni-nokoru-akujo-ni-naruzo-ed-1` | わっちゅあね？／来栖りん | ED1 | 2024-fall |
+| `hitoribocchi-no-isekai-kouryaku-op-1` | ODD NUMBER／吉乃 | OP1 | 2024-fall |
+| `hitoribocchi-no-isekai-kouryaku-ed-1` | ハローとグッバイ／鯨木 | ED1 | 2024-fall |
+| `saikyou-no-shien-shoku-wajutsushi-dearu-ore-wa-sekai-saikyou-clan-wo-shitagaeru-op-1` | Tactics／KOHTA YAMAMOTO feat. SAIKI | OP1 | 2024-fall |
+| `saikyou-no-shien-shoku-wajutsushi-dearu-ore-wa-sekai-saikyou-clan-wo-shitagaeru-ed-1` | Liberation／KOHTA YAMAMOTO feat. AAAMYYY | ED1 | 2024-fall |
+| `sword-art-online-alternative-gun-gale-online-ii-op-1` | GG／ReoNa | OP1 | 2024-fall |
+| `sword-art-online-alternative-gun-gale-online-ii-ed-1` | Little Dancer／レン starring 楠木ともり | ED1 | 2024-fall |
+| `sword-art-online-alternative-gun-gale-online-ii-ed-3` | Overclock／レン starring 楠木ともり | ED3 | 2024-fall |
+| `sword-art-online-alternative-gun-gale-online-ii-ed-2` | Toxic／神崎エルザ starring ReoNa | IN2 | 2024-fall |
+| `sword-art-online-alternative-gun-gale-online-ii-ed-4` | Oh UnHappy Day／神崎エルザ starring ReoNa | IN4 | 2024-fall |
+| `seirei-gensouki-2-op-1` | アウフタクト／大西亜玖璃 | OP1 | 2024-fall |
+| `seirei-gensouki-2-ed-1` | 春待歌／諏訪ななか | ED1 | 2024-fall |
+| `mf-ghost-2nd-season-op-1` | ROCK ME KISS ME feat. MOTSU／芹澤 優 | OP1 | 2024-fall |
+| `mf-ghost-2nd-season-ed-1` | Side U (Prod. AmPm)／Himika Akaneya | ED1 | 2024-fall |
+| `kimi-wa-meido-sama-op-1` | おとずれ／tricot | OP1 | 2024-fall |
+| `kimi-wa-meido-sama-ed-1` | 表情差分／DUSTCELL | ED1 | 2024-fall |
+| `yarinaoshi-reijou-wa-ryuutei-heika-wo-kouryaku-chuu-op-1` | 淡く微か／sajou no hana | OP1 | 2024-fall |
+| `yarinaoshi-reijou-wa-ryuutei-heika-wo-kouryaku-chuu-ed-1` | gradation／花たん | ED1 | 2024-fall |
+| `maou-sama-retry-r-op-1` | 明日世界が終わるとしても／ASCA | OP1 | 2024-fall |
+| `maou-sama-retry-r-ed-1` | クランシック feat. 北澤ゆうほ／MIMiNARI | ED1 | 2024-fall |
+| `hoshi-furu-oukoku-no-nina-op-1` | nina／坂本真綾 | OP1 | 2024-fall |
+| `hoshi-furu-oukoku-no-nina-ed-1` | 星の伝言／東山奈央 | ED1 | 2024-fall |
+
+- 已處理anime ID：`curated-168139`、`curated-173693`、`curated-177104`、`curated-167141`、`curated-141182`、`curated-171642`、`curated-172190`、`curated-164299`、`curated-168500`、`curated-171038`。23筆三項基本欄位有第一方／交叉證據；更正6個曲名、16個演唱名義，補36筆詞／曲／編角色及16筆演唱條目。新增1個官方MV確切外連，沒有新增影片metadata、音源或發行品。
+- 4部更正原TV日期，8部補原TV日期／時段標示（其中7部有明列時段，魔王R時段留空）；24時以後節目日期與曆日分開。4筆既有歌曲來源實際重讀後更新，其餘來源日期保持；原23個用途及歌曲ID、影片、音源、收錄關係與既有連結保留，2,042個其他動畫JSON SHA-256相同。
+- 歴史に残る悪女OPバッドゥドゥドゥ／Liyuu與EDわっちゅあね？／来栖りん恢復原名，補6筆詞曲編；原TV10月1日火曜24:30為曆10月2日，23:30先行配信分開。ひとりぼっち保存ODD NUMBER／吉乃及ハローとグッバイ／鯨木；原TV10月3日木曜24:00為曆10月4日，舊9月27日屬ABEMA先行配信翌日，不當TV首播。
+- 話術士原TV10月7日23:30，兩曲採KOHTA YAMAMOTO feat. SAIKI／AAAMYYY合作名義；單獨歌唱分別為SAIKI、AAAMYYY，商品明列兩位作詞與KOHTA作曲，沒有由Music或作編曲家簡介推本曲編曲。
+- GGOⅡ原TV10月4日金曜24:00；Little Dancer／Overclock保存レン starring 楠木ともり及Jazzin’park明列詞曲編，角色與歌唱分別。Toxic第8話、Oh UnHappy Day第12話依藝人官方改列IN，交叉資料列ED的差異及再查條件保存；原ed-2／ed-4 ID、序號、影片與URL不變。分類更正後沿既有審閱影片資料補IN對應，沒有重新核舊影片或更新日期。
+- 精霊幻想記2恢復アウフタクト／大西亜玖璃、春待歌／諏訪ななか，補6筆詞曲編；現行2026年1月ONAIR明列再放送，不增新TV季度。MFゴースト只採官方STAFF內2nd Season兩曲與名義，原TV日期來源保持，不套現行Final Season。
+- 君は冥土原TV10月5日土曜25:30為曆10月6日，おとずれ／tricot、表情差分／DUSTCELL保持；不從artist comment的泛稱制作拆詞曲編。やり直し保留淡く微か／sajou no hana、gradation／花たん及6筆詞曲編，AT-X22:00 TV、TOKYO MX23:00與22:30配信分開。
+- 魔王R原官網及歌曲公告404，未更新舊來源日期；Sony藝人公告支持明日世界が終わるとしても／ASCA、クランシック feat. 北澤ゆうほ／MIMiNARI、後者詞曲MIMiNARI及實際歌唱北澤ゆうほ。新MV外連直接來自此公告，區域／嵌入可用性未知，不推full。原TV10月5日有明列，舊9月28日不當TV首播；精確時段待原期公告恢復。
+- ニナ保存nina／坂本真綾與星の伝言／東山奈央，補6筆詞曲編。原TV10月10日22:00、ABEMA10月7日先行與地方台較晚開播分開；同頁single／TV size／Inst只保存後續條件，沒有擴成新歌曲。
+- 全目錄30季、2,052部、4,615用途（4,525 OP／ED、80 IN、10 TS）均有dataStatus；680筆三項基本欄位有兩類欄位證據，其餘3,935筆保留來源待細分。已逐批處理1,380個唯一用途；2024秋163筆現有OP／ED、已核89，33筆全目錄季度待核及シンカリオン部分冬季缺口不變，未重搜未觸發項。
+
+### 來源、盤點與續查條件
+
+- 第一方：[歴史MUSIC](https://rekiaku-anime.com/music/)／[原TV](https://rekiaku-anime.com/onair/)、[ひとりぼっち原期首頁](https://bocchi-kouryaku.com/)／[原TV與先行](https://bocchi-kouryaku.com/onAir)、[話術士合作名義](https://wajutsushi-anime.com/news/detail/n77qbznti)／[OP商品角色](https://wajutsushi-anime.com/products/music/detail/tactics)／[ED商品角色](https://wajutsushi-anime.com/products/music/detail/liberation)／[個別演唱](https://wajutsushi-anime.com/products/music/detail/h0hqspsww3)／[原TV](https://wajutsushi-anime.com/onAir)。
+- [GGOⅡ本期MUSIC](https://gungale-online.net/music/)／[原TV](https://gungale-online.net/)／[神崎エルザ官方第8／12話插曲](https://www.kanzakielza.com/)、[精霊第2期MUSIC](https://seireigensouki.com/)、[MF第2期STAFF](https://mfg-anime.com/staff/)、[冥土MUSIC](https://kimihameidosama-anime.com/music/)／[原TV](https://kimihameidosama-anime.com/onair)、[やり直しMUSIC](https://yarinaoshi-reijyou.com/music.html)／[原TV](https://yarinaoshi-reijyou.com/onair.html)。
+- [ASCA主題歌公告](https://www.sonymusic.co.jp/artist/asca/info/568618)、[MIMiNARI本曲詞曲／歌唱／官方MV及原TV](https://www.sonymusic.co.jp/artist/MIMiNARI/info/567535)、[ニナMUSIC](https://hoshi-nina-anime.com/music.html)／[原TV](https://hoshi-nina-anime.com/onair.html)。同頁一次取多項事實，舊歌曲交叉來源日期重用，沒有把新TV日期頁當歌曲原名證據。
+- 有界盤點補讀[繁中2024秋新番及跨季清單](https://youranimes.tw/bangumi/202410)，實際可見卡片83新番＋20跨季，頁首標示84＋20，差異1筆留待來源修正；這不是標準TV分母。Annict既有秋季參考清單8頁227個最少身分索引已作本機對照；未把電影、短篇、WEB及未審候選寫進公開目錄，未更新整季catalog reference日期。Bangumi公開頁遇安全驗證未讀到內容、不繞過；來源恢復才補此交叉範圍。
+- 本輪盤點確認需續核既有村井の恋與神之塔第2期的2024秋TV季度關聯；下一批按頂部ID沿第一方核實後修正。標準TV聯集尚未閉合，Annict／繁中標題差異與續播關聯不直接當新動畫；短篇及一般WEB保持延後。
+- 每筆pendingFields／followUp記錄詞曲編、音源、影片形式、收錄與平台缺項及續查條件。魔王R原頁404在來源恢復／原期TV公告出現時補時段；GGO其他album曲要有具體TV使用證據才增用途；詳細階段沿同頁明列single、OST、TV size、Inst補關係，不從MV、產品或不同影片猜錄音。
+
+### 本機檢查與展示
+
+- 最終npm test 4檔8項、build 2,098 HTML／4,194產物、ApiProvider 10部23筆與保留性檢查通過。資料關聯使用既有groupName，parser與正常gate未改；分類更正後補原影片對應，23筆媒體與2,042個其他動畫JSON保持。
+- Chromium393×852展開10頁23組資料狀態，4組2024秋歌單、舊Baddododo別名搜尋、4組TV日期／時段、官方MV確切外連及原ed-2／ed-4網址通過；無溢出、app errors或iframe。in-app665像素實際確認兩曲劇中歌、第12話、ReoNa／神崎エルザ、既有影片外連與逐曲缺口，5組狀態、1筆詳情，收合／展開通過，實際截圖已檢視。
+- 1個既有季度seed及1個既有影片metadata對應檔有變，無新季度、UI／contract／播放器／依賴／部署設定修改，不重跑本機完整E2E；正常PR／main仍含重要E2E。Cloudflare dry-run exit0、完成marker及無bindings，文件連結、公開邊界、敏感內容與diff檢查通過；本機通過不作正式部署證明。
+
+預覽入口：`/anime/sword-art-online-alternative-gun-gale-online-ii/`、`/anime/rekishi-ni-nokoru-akujo-ni-naruzo/`、`/anime/hitoribocchi-no-isekai-kouryaku/`、`/anime/maou-sama-retry-r/`、`/seasons/2024-fall/`。第63批接續頂部10部22筆；基本階段與長期目標未完成。
