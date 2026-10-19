@@ -4418,3 +4418,8 @@ GitHub open Dependabot警示增至24項，新增[source-map-js advisory](https:/
 - 資料僅改現有季度seed及相同用途data覆寫，沒有新季度／contract／UI／播放器改動，本機不逐曲重跑完整E2E；PR／main正常CI仍涵蓋完整重要E2E。Cloudflare dry-run exit0且完成marker、無bindings；公開邊界、文件連結、diff與私隱檢查於提交前收尾。實際部署與live驗收待完成，不以本機通過代替發布。
 
 預覽入口：`/anime/kidou-senshi-gundam-gquuuuuux/`、`/anime/apocalypse-hotel/`、`/anime/shiunji-ke-no-kodomotachi/`、`/anime/compass-2-0-sentou-setsuri-kaiseki-system/`、`/seasons/2025-spring/`。第54批公開接點見頂部；先完成本季其餘標準TV，再接2025冬，延後短篇不阻擋較舊季進度。
+
+
+## 2026-10-20 批次：2020-2026-tv-basics-54（執行中）
+
+固定2020–2026標準TV與2026-10-14資料截止日保持。先處理2025春：`curated-178046`、`curated-177120`、`curated-176702`、`curated-176246`、`curated-178781`、`curated-185939`；再接2025冬：`curated-176158`、`curated-177506`、`curated-178100`、`curated-179689`，起始21筆既有用途。優先本期TV資訊、原名／演唱／OP・ED用途及每曲狀態，同頁明列的已證實IN一併記錄；短篇／WEB與特殊編排延後。第53批審閱head及建置產物已固定，正常CI與正式發布仍待完成，本批修改不混入第53批發布。第54批資料及展示尚未驗證，基本階段與長期目標未完成。
