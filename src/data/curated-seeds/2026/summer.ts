@@ -16816,6 +16816,16 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "catalogNumber": "KICM-2173",
             "label": "キングレコード"
           }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "basic_evidence"
+            ],
+            "note": "已保存歌曲身分及第1／2クール資料；續播期間的實際用途季度尚待核對。",
+            "resumeWhen": "官方VAP播出／音樂資料恢復可讀，或有日本電視台節目用曲資料明列使用時期時，補入用途季度；不更新未重查的舊來源日期。",
+            "checkedAt": "2026-10-19"
+          }
         ]
       },
       {
@@ -17064,6 +17074,16 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             },
             "edition": "Digital Single"
           }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "basic_evidence"
+            ],
+            "note": "已保存歌曲身分及第1／2クール資料；續播期間的實際用途季度尚待核對。",
+            "resumeWhen": "官方VAP播出／音樂資料恢復可讀，或有日本電視台節目用曲資料明列使用時期時，補入用途季度；不更新未重查的舊來源日期。",
+            "checkedAt": "2026-10-19"
+          }
         ]
       },
       {
@@ -17235,6 +17255,16 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "edition": "CD Single（已公告，發售予定）",
             "catalogNumber": "KICM-2182",
             "label": "キングレコード"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "basic_evidence"
+            ],
+            "note": "已保存歌曲身分及第1／2クール資料；續播期間的實際用途季度尚待核對。",
+            "resumeWhen": "官方VAP播出／音樂資料恢復可讀，或有日本電視台節目用曲資料明列使用時期時，補入用途季度；不更新未重查的舊來源日期。",
+            "checkedAt": "2026-10-19"
           }
         ]
       },
@@ -17434,6 +17464,16 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "title": "flow feat. 安藤裕子【Live MV】",
             "format": "unknown",
             "kind": "live"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "basic_evidence"
+            ],
+            "note": "已保存歌曲身分及第1／2クール資料；續播期間的實際用途季度尚待核對。",
+            "resumeWhen": "官方VAP播出／音樂資料恢復可讀，或有日本電視台節目用曲資料明列使用時期時，補入用途季度；不更新未重查的舊來源日期。",
+            "checkedAt": "2026-10-19"
           }
         ]
       }

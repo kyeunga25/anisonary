@@ -1,4 +1,4 @@
-import type { CuratedAnimeSeed } from "@/data/curated-seeds/types";
+import type { CuratedCatalogAnimeSeed as CuratedAnimeSeed } from "@/data/curated-seeds/types";
 
 export const curated2026FallSeeds: CuratedAnimeSeed[] = [
   {
@@ -8253,8 +8253,823 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
       }
     ],
     "titleRomaji": "Dragon Ball Super: Beerus"
+  },
+  {
+    "id": "curated-209219",
+    "slug": "tensei-goblin-dakedo-shitsumon-aru",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-05",
+    "titleJa": "転生ゴブリンだけど質問ある？",
+    "editorialWeekday": 1,
+    "broadcastTimeJst": "22:00",
+    "broadcastLabel": "TOKYO MX；首回TV同時配信，其後網路先行1話",
+    "status": "airing",
+    "officialSiteUrl": "https://tengobu-anime.com/",
+    "sourceReferenceUrls": [
+      "https://tengobu-anime.com/onair/index.html",
+      "https://youranimes.tw/bangumi/202610"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "ハロー",
+        "artistDisplayName": "Sou",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "tensei-goblin-dakedo-shitsumon-aru-op-1-song",
+        "sources": [
+          {
+            "url": "https://tengobu-anime.com/music/op.html",
+            "label": "官方：曲名、演唱名義與用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://tengobu-anime.com/onair/index.html",
+            "label": "官方：TV播出資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://youranimes.tw/animes/6295",
+            "label": "公開索引：曲名、演唱名義與用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "tensei-goblin-dakedo-shitsumon-aru-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tengobu-anime.com/music/op.html",
+              "https://youranimes.tw/animes/6295"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "tensei-goblin-dakedo-shitsumon-aru-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tengobu-anime.com/music/op.html",
+              "https://tengobu-anime.com/onair/index.html",
+              "https://youranimes.tw/animes/6295"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tengobu-anime.com/music/op.html"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "credits": [
+          {
+            "name": "Sou",
+            "role": "vocals"
+          },
+          {
+            "name": "sabio/高村風太",
+            "role": "lyrics"
+          },
+          {
+            "name": "sabio/高村風太",
+            "role": "composition"
+          },
+          {
+            "name": "sabio/高村風太",
+            "role": "arrangement"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "小さな僕ら",
+        "artistDisplayName": "エイハブ",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "tensei-goblin-dakedo-shitsumon-aru-ed-1-song",
+        "sources": [
+          {
+            "url": "https://tengobu-anime.com/music/ed.html",
+            "label": "官方：曲名、演唱名義與用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://tengobu-anime.com/onair/index.html",
+            "label": "官方：TV播出資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://youranimes.tw/animes/6295",
+            "label": "公開索引：曲名、演唱名義與用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "tensei-goblin-dakedo-shitsumon-aru-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tengobu-anime.com/music/ed.html",
+              "https://youranimes.tw/animes/6295"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "tensei-goblin-dakedo-shitsumon-aru-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tengobu-anime.com/music/ed.html",
+              "https://tengobu-anime.com/onair/index.html",
+              "https://youranimes.tw/animes/6295"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tengobu-anime.com/music/ed.html"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "credits": [
+          {
+            "name": "エイハブ",
+            "role": "vocals"
+          },
+          {
+            "name": "ソガケイスケ",
+            "role": "lyrics"
+          },
+          {
+            "name": "ソガケイスケ",
+            "role": "composition"
+          },
+          {
+            "name": "エイハブ",
+            "role": "arrangement"
+          }
+        ]
+      }
+    ],
+    "titleRomaji": "Tensei Goblin Dakedo Shitsumon Aru?",
+    "anilistId": 209219,
+    "anilistUrl": "https://anilist.co/anime/209219"
+  },
+  {
+    "id": "curated-166443",
+    "slug": "shikin-neko-keibishitsu",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-10",
+    "titleJa": "紫禁・御猫房〜紫禁城猫警備室〜",
+    "editorialWeekday": 3,
+    "broadcastTimeJst": "23:30",
+    "broadcastLabel": "日本TV：首回10月10日20:00連播第1–4話；第5話起10月14日每週三23:30・TOKYO MX",
+    "status": "airing",
+    "officialSiteUrl": "https://nekokeibishitsu-anime.com/",
+    "sourceReferenceUrls": [
+      "https://nekokeibishitsu-anime.com/onair/",
+      "https://youranimes.tw/bangumi/202610"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Truly",
+        "artistDisplayName": "安月名莉子",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "shikin-neko-keibishitsu-op-1-song",
+        "sources": [
+          {
+            "url": "https://nekokeibishitsu-anime.com/music/",
+            "label": "官方：曲名、演唱名義與用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://nekokeibishitsu-anime.com/onair/",
+            "label": "官方：TV播出資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://anisongs.jp/news/2026-09-26-shikin-truly-chill-choose",
+            "label": "公開索引：曲名、演唱名義與用途交叉核對",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "shikin-neko-keibishitsu-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://nekokeibishitsu-anime.com/music/",
+              "https://anisongs.jp/news/2026-09-26-shikin-truly-chill-choose"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "shikin-neko-keibishitsu-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://nekokeibishitsu-anime.com/music/",
+              "https://nekokeibishitsu-anime.com/onair/",
+              "https://anisongs.jp/news/2026-09-26-shikin-truly-chill-choose"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://nekokeibishitsu-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "credits": [
+          {
+            "name": "安月名莉子",
+            "role": "vocals"
+          },
+          {
+            "name": "安月名莉子",
+            "role": "lyrics"
+          },
+          {
+            "name": "安月名莉子",
+            "role": "composition"
+          },
+          {
+            "name": "eba",
+            "role": "arrangement"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "Chill Choose!",
+        "artistDisplayName": "安月名莉子",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "shikin-neko-keibishitsu-ed-1-song",
+        "sources": [
+          {
+            "url": "https://nekokeibishitsu-anime.com/music/",
+            "label": "官方：曲名、演唱名義與用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://nekokeibishitsu-anime.com/onair/",
+            "label": "官方：TV播出資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://anisongs.jp/news/2026-09-26-shikin-truly-chill-choose",
+            "label": "公開索引：曲名、演唱名義與用途交叉核對",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "shikin-neko-keibishitsu-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://nekokeibishitsu-anime.com/music/",
+              "https://anisongs.jp/news/2026-09-26-shikin-truly-chill-choose"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "shikin-neko-keibishitsu-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://nekokeibishitsu-anime.com/music/",
+              "https://nekokeibishitsu-anime.com/onair/",
+              "https://anisongs.jp/news/2026-09-26-shikin-truly-chill-choose"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://nekokeibishitsu-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "credits": [
+          {
+            "name": "安月名莉子",
+            "role": "vocals"
+          },
+          {
+            "name": "安月名莉子",
+            "role": "lyrics"
+          },
+          {
+            "name": "安月名莉子",
+            "role": "composition"
+          },
+          {
+            "name": "NRP",
+            "role": "arrangement"
+          }
+        ]
+      }
+    ],
+    "anilistId": 166443,
+    "anilistUrl": "https://anilist.co/anime/166443"
+  },
+  {
+    "id": "curated-216895",
+    "slug": "aoki-denshou-welsh-and-shedar",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-02",
+    "titleJa": "蒼き伝承 ウェルシュ＆シェダー",
+    "editorialWeekday": 5,
+    "broadcastTimeJst": "21:25",
+    "broadcastLabel": "TOKYO MX；一般長度依U-NEXT／Hulu正版集數資料核對",
+    "status": "airing",
+    "officialSiteUrl": "https://welshandshedar-anime.com/",
+    "sourceReferenceUrls": [
+      "https://welshandshedar-anime.com/",
+      "https://youranimes.tw/bangumi/202610",
+      "https://www.video.unext.jp/title/SID0320238"
+    ],
+    "themes": [
+      {
+        "type": "TS",
+        "sequence": 1,
+        "titleJa": "僕らの未来へ",
+        "artistDisplayName": "影山ヒロノブ＆奥井雅美",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "aoki-denshou-welsh-and-shedar-ts-1-song",
+        "sources": [
+          {
+            "url": "https://welshandshedar-anime.com/",
+            "label": "官方：曲名、演唱名義與用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://eeo.today/media/2026/09/24/398682/",
+            "label": "公開索引：曲名、演唱名義與用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "aoki-denshou-welsh-and-shedar-ts-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://welshandshedar-anime.com/",
+              "https://eeo.today/media/2026/09/24/398682/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "aoki-denshou-welsh-and-shedar-ts-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://welshandshedar-anime.com/",
+              "https://eeo.today/media/2026/09/24/398682/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://welshandshedar-anime.com/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "credits": [
+          {
+            "name": "影山ヒロノブ＆奥井雅美",
+            "role": "vocals"
+          },
+          {
+            "name": "影山ヒロノブ",
+            "role": "lyrics"
+          },
+          {
+            "name": "影山ヒロノブ",
+            "role": "composition"
+          },
+          {
+            "name": "寺田志保",
+            "role": "arrangement"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "basic_evidence"
+            ],
+            "note": "官網列為主題歌，先依此保存；OP的明確第一方分類尚待補證。",
+            "resumeWhen": "官方音樂／藝人公告或正片用曲資料明示OP時，沿原ID更正用途，不建立重複歌曲。",
+            "checkedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "オムレツ",
+        "artistDisplayName": "影山ヒロノブ",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "aoki-denshou-welsh-and-shedar-ed-1-song",
+        "sources": [
+          {
+            "url": "https://welshandshedar-anime.com/",
+            "label": "官方：曲名、演唱名義與用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://eeo.today/media/2026/09/24/398682/",
+            "label": "公開索引：曲名、演唱名義與用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "aoki-denshou-welsh-and-shedar-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://welshandshedar-anime.com/",
+              "https://eeo.today/media/2026/09/24/398682/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "aoki-denshou-welsh-and-shedar-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://welshandshedar-anime.com/",
+              "https://eeo.today/media/2026/09/24/398682/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://welshandshedar-anime.com/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "credits": [
+          {
+            "name": "影山ヒロノブ",
+            "role": "vocals"
+          },
+          {
+            "name": "影山ヒロノブ",
+            "role": "lyrics"
+          },
+          {
+            "name": "影山ヒロノブ",
+            "role": "composition"
+          },
+          {
+            "name": "須藤賢一",
+            "role": "arrangement"
+          }
+        ]
+      }
+    ],
+    "titleRomaji": "Aoki Denshou: Welsh & Shedar",
+    "anilistId": 216895,
+    "anilistUrl": "https://anilist.co/anime/216895",
+    "metadataSources": [
+      {
+        "url": "https://www.video.unext.jp/title/SID0320238",
+        "label": "正版U-NEXT：作品身分與單集長度",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-10-19"
+      }
+    ]
+  },
+  {
+    "id": "curated-bgm-559080",
+    "slug": "dreamland",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-18",
+    "titleJa": "dreamland",
+    "editorialWeekday": 6,
+    "broadcastTimeJst": "26:00",
+    "broadcastLabel": "截至2026-10-14的TV預定：ABCテレビ／テレビ朝日系「ANiMAZiNG!!!」枠・10月17日週六26:00（實際日曆10月18日）",
+    "status": "upcoming",
+    "officialSiteUrl": "https://www.dreamland-anime.com/",
+    "sourceReferenceUrls": [
+      "https://www.dreamland-anime.com/",
+      "https://youranimes.tw/bangumi/202610",
+      "https://youranimes.tw/animes/6514",
+      "https://www.dreamland-anime.com/news/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "movin'on",
+        "artistDisplayName": "Faulieu.",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "dreamland-op-1-song",
+        "sources": [
+          {
+            "url": "https://www.dreamland-anime.com/",
+            "label": "官方：曲名、演唱名義與用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://youranimes.tw/animes/6514",
+            "label": "公開索引：曲名、演唱名義與用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "dreamland-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.dreamland-anime.com/",
+              "https://youranimes.tw/animes/6514"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "dreamland-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.dreamland-anime.com/",
+              "https://youranimes.tw/animes/6514"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "dream catcher",
+        "artistDisplayName": "冨岡 愛",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "dreamland-ed-1-song",
+        "sources": [
+          {
+            "url": "https://www.dreamland-anime.com/",
+            "label": "官方：曲名、演唱名義與用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://youranimes.tw/animes/6514",
+            "label": "公開索引：曲名、演唱名義與用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "dreamland-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.dreamland-anime.com/",
+              "https://youranimes.tw/animes/6514"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "dreamland-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.dreamland-anime.com/",
+              "https://youranimes.tw/animes/6514"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      }
+    ],
+    "catalogKey": -559080,
+    "bangumiUrl": "https://bangumi.tv/subject/559080",
+    "identifierSource": {
+      "label": "Bangumi：Dreamland作品識別",
+      "url": "https://bangumi.tv/subject/559080",
+      "language": "zh-Hans"
+    }
+  },
+  {
+    "anilistId": 188034,
+    "id": "curated-188034",
+    "slug": "girls-und-panzer-motto-love-love-sakusen-desu",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-08",
+    "titleJa": "ガールズ＆パンツァー もっとらぶらぶ作戦です！",
+    "titleRomaji": "Girls und Panzer: Motto Love Love Sakusen desu!",
+    "editorialWeekday": 4,
+    "broadcastTimeJst": "23:30",
+    "broadcastLabel": "2026-10-08起・TV・週四23:30（JST）・TOKYO MX",
+    "status": "airing",
+    "officialSiteUrl": "https://gup-mottolovelove.jp/",
+    "anilistUrl": "https://anilist.co/anime/188034",
+    "sourceReferenceUrls": [
+      "https://gup-mottolovelove.jp/onair/",
+      "https://youranimes.tw/bangumi/202610"
+    ],
+    "themeAvailability": "pending_verification",
+    "themes": []
+  },
+  {
+    "anilistId": 203473,
+    "id": "curated-203473",
+    "slug": "kyoufu-collector",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-10",
+    "titleJa": "恐怖コレクター",
+    "titleRomaji": "Kyoufu Collector",
+    "editorialWeekday": 6,
+    "broadcastTimeJst": "23:45",
+    "broadcastLabel": "2026年10月起・TV・NHK総合；10月10日23:45（JST）首回依交叉播出資料",
+    "status": "airing",
+    "officialSiteUrl": "https://www.nhk-character.com/chara/kyoufucollector/",
+    "anilistUrl": "https://anilist.co/anime/203473",
+    "sourceReferenceUrls": [
+      "https://www.nhk-character.com/chara/kyoufucollector/",
+      "https://youranimes.tw/animes/6165"
+    ],
+    "themeAvailability": "pending_verification",
+    "themes": []
   }
 ];
 
 // Continuing works retain their original seed and public identity.
-export const curated2026FallAnimeIds: number[] = [191788, 189123, 205909, 199426, 206401, 159042, 172192, 185756, 187402, 195604, 213805, 176314, 209502, 206949, 160803, 152677, 180894, 209872, 178868, 207191, 191656, 202250, 209463, 187316, 205896, 186742, 178083, 169581, 186541, 200455, 202079, 211778, 209499, 204389, 195571, 216557, 212888, 204011, 212799, 195516, 179876, 187990, 199007, 199068, 199594, 200294, 204650, 207329, 209562, 212503, 213068, 206814, 177634, 178749, 182578, 180082, 180136, 203490];
+export const curated2026FallAnimeIds: number[] = [191788, 189123, 205909, 199426, 206401, 159042, 172192, 185756, 187402, 195604, 213805, 176314, 209502, 206949, 160803, 152677, 180894, 209872, 178868, 207191, 191656, 202250, 209463, 187316, 205896, 186742, 178083, 169581, 186541, 200455, 202079, 211778, 209499, 204389, 195571, 216557, 212888, 204011, 212799, 195516, 179876, 187990, 199007, 199068, 199594, 200294, 204650, 207329, 209562, 212503, 213068, 206814, 177634, 178749, 182578, 180082, 180136, 203490, 209219, 166443, 216895, -559080, 188034, 203473, 206523];
