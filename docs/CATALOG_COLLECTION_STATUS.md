@@ -12,16 +12,16 @@
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED，已確認插曲一併記錄；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2020–2026標準季度TV的動畫及歌曲基本資料優先，按2026 → 2020、各年秋 → 夏 → 春 → 冬補漏。先處理可快速核實的原名、季度／首播、演唱名義、OP／ED用途及來源；創作、影片、音源、發行品及平台集中深化留待下一階段。約24分鐘、常見12／24集，13／26集及同類續播納入；長篇以2020–2026的TV用曲季度盤點，不以作品首播年自動排除；短WEB、泡麵番、短篇TV及特殊番延後，既有成果保留 |
 | 完成條件 | 各季有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替；基本資料經公開JSON、頁面及必要檢查驗證，歌單與詳情保持易瀏覽；每筆用途保存現有欄位狀態、未記錄項目及已知續查條件，與完整收齊及來源日期分開。詳細欄位缺少不阻擋基本資料。作品聯集未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件 |
-| 執行狀態 | 基本資料階段持續執行；第63批11部28筆（4首新增插曲）已完成資料、正常PR／main、實際Cloudflare部署及正式站驗收，來源`32f8509`／`batch63-basics`；第64批2024秋7部25筆既有用途開始整理，詳細及整體目標未完成，沒有背景排程 |
-| 接續位置 | 第64批2024秋7部25筆既有用途：`curated-155502`、`curated-176311`、`curated-176292`、`curated-176053`、`curated-174043`、`curated-107372`、`curated-157965`；原名、演唱、OP／ED與同頁明列插曲優先，按原TV與實際用曲季度核對。短篇／WEB、33筆季度待核與シンカリオン冬季／鑑定貴族第2期夏季各2筆部分季度缺口按條件續查 |
-| 發布提交 | 第63批[PR #155](https://github.com/kyeunga25/anisonary/pull/155)來源`32f8509`／`batch63-basics`已正式驗收；第64批範圍登記已分開提交，後續資料待整理與驗證 |
+| 執行狀態 | 基本資料階段持續執行；第64批7部25筆既有與8筆新增插曲，共33筆基本欄位證據已完成本機資料與展示驗證，保留原媒體與既有ID；正式發布待完成。最後正式來源第63批`32f8509`／`batch63-basics`，詳細及整體目標未完成，沒有背景排程 |
+| 接續位置 | 第64批正常發布收尾後，第65批2024秋11部30筆既有用途：`curated-174070`、`curated-139095`、`curated-176660`、`curated-167991`、`curated-165810`、`curated-172199`、`curated-177581`、`curated-154673`、`curated-175533`、`curated-178729`、`curated-168537`；含4部跨夏秋續播，按實際用曲季度核對。短篇／WEB、33筆季度待核與シンカリオン冬季／鑑定貴族第2期夏季各2筆部分季度缺口按條件續查 |
+| 發布提交 | 第63批[PR #155](https://github.com/kyeunga25/anisonary/pull/155)來源`32f8509`／`batch63-basics`已正式驗收；第64批資料與展示通過，待正常PR／main gates、實際Cloudflare部署及正式站驗收 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
 執行狀態使用「未開始／執行中／已暫停／已完成／已取消」；無法繼續時另記具體阻礙及仍未完成部分，不自動標記完成。長期目標與本次工作量分開，未指定本次工作量時先完成下一批。
 
 ## 季度進度 / Quarterly progress
 
-統計至第63批正式驗收；正式來源`32f8509`／`batch63-basics`。數量為現有快照的OP／ED用途，依公開theme ID與已確認用途季度計算；跨季用途可能重複，不能直接相加或當作唯一歌曲／音源數。
+統計至第64批本機驗證；最後正式來源為第63批`32f8509`／`batch63-basics`，第64批正式發布待完成。數量為現有快照的OP／ED用途，依公開theme ID與已確認用途季度計算；跨季用途可能重複，不能直接相加或當作唯一歌曲／音源數。
 
 「基本欄位具備」表示現有歌曲原名、演唱名義、用途及第一方／交叉來源有值，動畫可識別且有季度與作品來源；這是現有資料的欄位盤點，不表示本批重查全部來源、作品清單已閉合或整季收齊。「已逐批核對」依下方各批公開ID明細，包含查找後保留續查條件的用途。
 
@@ -37,7 +37,7 @@
 | 2025 夏 | 208 | 208 | 193 | 163 | 30 |
 | 2025 春 | 148 | 148 | 127 | 46 | 81 |
 | 2025 冬 | 164 | 164 | 157 | 5 | 152 |
-| 2024 秋 | 167 | 167 | 109 | 0 | 109 |
+| 2024 秋 | 166 | 166 | 133 | 1 | 132 |
 | 2024 夏 | 194 | 194 | 19 | 0 | 19 |
 | 2024 春 | 169 | 169 | 17 | 0 | 17 |
 | 2024 冬 | 136 | 136 | 12 | 0 | 12 |
@@ -64,7 +64,7 @@
 
 2020–2026的28個季度均有快照，但各季尚未完成標準TV作品聯集，現有筆數不是閉合的全季分母。2026夏／春／冬既有清單首輪與第08–37批成果保留，沒有重查全量舊來源。2025夏尚有15筆、春21筆、冬7筆現有OP／ED未逐批核對，冬季7筆屬延後短篇；另33筆既有用途季度待核，保留全目錄及動畫頁並暫不計入季度。シンカリオン兩筆歌曲已有2024確認季度、2025冬仍待逐曲證據；鑑定貴族第2期兩筆已有2024秋、首話9月29日的逐曲夏季用途待核，這4筆部分季度缺口與完全未分季的33筆分開。2024–2020續播與其餘標準TV盤點持續，短篇／WEB及詳細欄位不阻擋基本階段。
 
-目前1,406個唯一用途已逐批處理，其中1,312 OP／ED、84 IN、10 TS；包含33筆用途季度待核狀態盤點，未把它們計入任一已確認季度，跨季不可相加。第38–63批新增209筆用途的基本欄位及身分／用途證據齊備；秋季詳細核心3／138主要來自既有用途季度補正，不表示其餘基本資料失敗。春季共7筆已證實第二季度／後期用途改掛秋季，另14筆第二季度改掛夏季；無自覺聖女兩筆補夏季並保留春末TV首播，唯一歌曲與未重查來源日期保留。2007–2018及2019春／冬仍無快照，長期範圍未完成。羽のゆりかご的季度fallback限制沿第37批記錄，未把未證實春季使用當作確證。
+目前1,439個唯一用途已逐批處理，其中1,336 OP／ED、93 IN、10 TS；包含33筆用途季度待核狀態盤點，未把它們計入任一已確認季度，跨季不可相加。第38–64批新增217筆用途的基本欄位及身分／用途證據齊備；秋季詳細核心3／138主要來自既有用途季度補正，不表示其餘基本資料失敗。春季共7筆已證實第二季度／後期用途改掛秋季，另14筆第二季度改掛夏季；無自覺聖女兩筆補夏季並保留春末TV首播，唯一歌曲與未重查來源日期保留。2007–2018及2019春／冬仍無快照，長期範圍未完成。羽のゆりかご的季度fallback限制沿第37批記錄，未把未證實春季使用當作確證。
 
 ## 基線
 
@@ -84,7 +84,7 @@
 | 優先 | 工作 | 狀態與接點 |
 | --- | --- | --- |
 | 1 | 一次性最小格式與真實試行 | 2026-10-14 已完成，見下方 2026-summer-schema-pilot；後續直接沿用格式，不重新設計或搬移全量資料 |
-| 2 | 當前收集接點 | 第64批依頂部公開ID接續2024秋標準TV基本資料；第63批正式驗收已完成 |
+| 2 | 當前收集接點 | 第64批正常發布收尾；第65批依頂部公開ID接續2024秋標準TV與跨季續播基本資料 |
 | 3 | 2025–2020基本資料 | 標準TV按年份／季度倒序補作品聯集與歌曲輪替；短篇／WEB延後，詳細深化待後續指令 |
 | 4 | 較早年度 | 2019 → 2007保留長期待辦；2020–2026基本階段未完成前不擴張 |
 | 5 | 詳細資料 | 已完成的創作、影片、音源、發行品及平台資料保留；未解觸發條件沿用，集中深化延後 |
@@ -5217,8 +5217,75 @@ GitHub open Dependabot警示增至24項，新增[source-map-js advisory](https:/
 - annotated tag `batch63-basics`指向正式來源並已推送。第64批接續2024秋；33筆全目錄季度待核、4筆部分季度缺口、標準TV作品聯集與其餘年度基本盤點未完成。
 
 
-## 2020-2026-tv-basics-64（執行中）
+## 2020-2026-tv-basics-64（本機驗證完成，正式發布待完成）
 
-- 固定2020–2026標準TV基本階段、2026-10-14截止日；由2024秋接續7部25筆既有用途。公開anime ID：`curated-155502`、`curated-176311`、`curated-176292`、`curated-176053`、`curated-174043`、`curated-107372`、`curated-157965`。
-- 先核原名、演唱名義、原TV／用曲季度及來源；同頁明列插曲一併記錄。角色、CV、團隊、用途及錄音分別；每筆保存基本證據、詳細待補欄位及具體續查條件。已有媒體、深入資料、ID及未重讀來源日期保留。
-- 第63批[PR #155](https://github.com/kyeunga25/anisonary/pull/155)來源`32f8509`與固定產物已正式驗收；本批資料及後續驗證開始接續，不混入前批部署。短篇／WEB、集中詳細深化及未觸發缺口保持延後；兩輪仍不明欄位保存條件，不阻其餘歌曲。
+- 固定2020–2026標準TV基本階段及2026-10-14截止日維持；實際來源查閱2026-10-20。處理7部25筆既有用途，新增8筆已核插曲，合計33筆基本欄位證據；新增動畫0、新用途8、新歌曲ID8，不表示8首全新創作或8個已建立錄音。
+- 第63批正常PR／main、實際部署及正式站驗收已完成，來源`32f8509`／`batch63-basics`；第65批資料不混入本批發布。詳細集中深化、短篇／WEB及未觸發缺口維持延後，標準TV作品聯集尚未閉合。
+
+### 公開用途與實際差異
+
+| 公開theme ID | 原名／演唱名義 | 用途 | 已確認季度 |
+| --- | --- | --- | --- |
+| `love-live-superstar-3rd-season-op-1` | Let's be ONE／Liella! | OP1 | 2024-fall |
+| `love-live-superstar-3rd-season-ed-1` | DAISUKI FULL POWER／澁谷かのん（CV.伊達さゆり） | ED1 | 2024-fall |
+| `love-live-superstar-3rd-season-ed-2` | DAISUKI FULL POWER／澁谷かのん（CV.伊達さゆり）、ウィーン・マルガレーテ（CV.結那）、鬼塚冬毬（CV.坂倉 花） | ED2 | 2024-fall |
+| `love-live-superstar-3rd-season-ed-3` | DAISUKI FULL POWER／米女メイ（CV.薮島朱音）、若菜四季（CV.大熊和奏） | ED3 | 2024-fall |
+| `love-live-superstar-3rd-season-ed-4` | DAISUKI FULL POWER／鬼塚夏美（CV.絵森 彩） | ED4 | 2024-fall |
+| `love-live-superstar-3rd-season-ed-5` | DAISUKI FULL POWER／Liella! | ED5 | 2024-fall |
+| `love-live-superstar-3rd-season-ed-6` | DAISUKI FULL POWER／唐 可可（CV.Liyuu）、平安名すみれ（CV.ペイトン尚未） | ED6 | 2024-fall |
+| `love-live-superstar-3rd-season-ed-7` | DAISUKI FULL POWER／鬼塚冬毬（CV.坂倉 花） | ED7 | 2024-fall |
+| `love-live-superstar-3rd-season-ed-8` | DAISUKI FULL POWER／嵐 千砂都（CV.岬 なこ） | ED8 | 2024-fall |
+| `love-live-superstar-3rd-season-ed-9` | DAISUKI FULL POWER／ウィーン・マルガレーテ（CV.結那） | ED9 | 2024-fall |
+| `love-live-superstar-3rd-season-ed-10` | DAISUKI FULL POWER／葉月 恋（CV.青山なぎさ）、桜小路きな子（CV.鈴原希実） | ED10 | 2024-fall |
+| `love-live-superstar-3rd-season-ed-11` | DAISUKI FULL POWER／Liella! | ED11 | 2024-fall |
+| `love-live-superstar-3rd-season-in-1` | Butterfly Wing／ウィーン・マルガレーテ（CV.結那） | IN1 | 2024-fall |
+| `love-live-superstar-3rd-season-in-2` | Bubble Rise／澁谷かのん（CV.伊達さゆり）、ウィーン・マルガレーテ（CV.結那）、鬼塚冬毬（CV.坂倉 花） | IN2 | 2024-fall |
+| `love-live-superstar-3rd-season-in-3` | Special Color／Liella! | IN3 | 2024-fall |
+| `love-live-superstar-3rd-season-in-4` | 星屑クルージング ～上海 Ver.～／唐 可可（CV.Liyuu） | IN4 | 2024-fall |
+| `love-live-superstar-3rd-season-in-5` | 絶対的LOVER／Liella!、澁谷かのん（CV.伊達さゆり）、ウィーン・マルガレーテ（CV.結那）、鬼塚冬毬（CV.坂倉 花） | IN5 | 2024-fall |
+| `love-live-superstar-3rd-season-in-6` | Dazzling Game／Liella!、澁谷かのん（CV.伊達さゆり）、ウィーン・マルガレーテ（CV.結那）、鬼塚冬毬（CV.坂倉 花） | IN6 | 2024-fall |
+| `love-live-superstar-3rd-season-in-7` | 笑顔のPromise／Liella! | IN7 | 2024-fall |
+| `love-live-superstar-3rd-season-in-8` | スーパースター!!／Liella! | IN8 | 2024-fall |
+| `love-live-superstar-3rd-season-ed-12` | 始まりは君の空 ～11 Ver.～／Liella! | IN12 | 2024-fall |
+| `ao-no-exorcist-yuki-no-hate-hen-op-1` | RE RESCUE／Reol | OP1 | 2024-fall |
+| `ao-no-exorcist-yuki-no-hate-hen-ed-1` | ツララ／Yobahi | ED1 | 2024-fall |
+| `nanatsu-no-taizai-mokushiroku-no-yonkishi-2nd-season-op-1` | MMH／UVERworld | OP1 | 2024-fall |
+| `nanatsu-no-taizai-mokushiroku-no-yonkishi-2nd-season-ed-1` | アカイロ／Hana Hope | ED1 | 2024-fall |
+| `sayonara-ryuusei-konnichiwa-jinsei-op-1` | Together Forever／LUN8 | OP1 | 2024-fall |
+| `sayonara-ryuusei-konnichiwa-jinsei-ed-1` | 君と見た景色／EverdreaM | ED1 | 2024-fall |
+| `party-kara-tsuihou-sareta-sono-chiyushi-jitsu-wa-saikyou-ni-tsuki-op-1` | 最強？最高！Brave My Heart／立花日菜 | OP1 | 2024-fall |
+| `party-kara-tsuihou-sareta-sono-chiyushi-jitsu-wa-saikyou-ni-tsuki-ed-1` | Only／Sizuk | ED1 | 2024-fall |
+| `mahoutsukai-ni-narenakatta-onnanoko-no-hanashi-op-1` | コラージュ／PUFFYとついでにTOOBOE | OP1 | 2024-fall |
+| `mahoutsukai-ni-narenakatta-onnanoko-no-hanashi-ed-1` | 瞬間最大風速／halca | ED1 | 2024-fall |
+| `acro-trip-op-1` | フラーグム／水瀬いのり | OP1 | 2024-fall |
+| `acro-trip-ed-1` | リバーシブルベイベー／カノエラナ | ED1 | 2024-fall |
+
+- 公開anime ID：`curated-155502`、`curated-176311`、`curated-176292`、`curated-176053`、`curated-174043`、`curated-107372`、`curated-157965`。33筆原名、演唱與用途均有第一方／交叉欄位證據，每筆保存詳細缺項及具體續查位置。
+- 更正8個曲名、14個演唱名義，補90筆詞／曲／編角色、33筆演唱條目與2筆團隊成員；不是90個唯一創作者。新增1個Only官方MV外連；影片metadata、結構化音源與發行品新增均0，地區／嵌入可用性未知，不由MV推full。
+- 25筆原ID、用途序號、歌曲ID、影片、版本標籤、發行品、日期及既有平台連結保留；僅4筆實際讀過的既有歌曲來源更新（四騎士首頁TV、アクロトリップ首頁各兩曲），其他來源日期保持；2,045個其他動畫JSON逐檔SHA-256相同。
+- Love Live第3期官方single／OST一次核13筆既有用途與8筆漏曲。11個DAISUKI FULL POWER用途保留原ID及不同話數歌唱，官方OST逐曲明列角色／CV；曲作者以第一方拼寫，沒有採交叉索引的常s楽寺等錯字或其錯誤TV時段，也沒有把同名逐話版先合併為一個錄音。
+- 原ed-12的始まりは君の空 ～11 Ver.～依官方商品改列第12話IN，交叉索引列ED的差異與續核條件保存，原ed-12 ID／序號／URL不改。官方single為11 Ver.、OST為第12話Ver.，兩者錄音同一性仍待核。
+- 8筆新增IN為Butterfly Wing（第1話Piano Size）、Bubble Rise（第2話）、Special Color（第3話）、星屑クルージング上海版（第5話）、絶対的LOVER（第6話）、Dazzling Game（第8話）、笑顔のPromise（第10話）、スーパースター!!（第11話）。6筆有官方明列插曲商品；Piano／上海版以官方第3期OST核名稱、歌唱及期別收錄，逐話插曲用途由繁中作品條目與アニシル交叉核對，詞曲編／譯詞仍留待第一方逐曲資料。沒有把商品其他曲或リエラのうた3特別パート冒當本篇OP／ED／IN。
+- Love Live原TV為2024年10月6日NHK Eテレ17:00–17:25；2025年1月single及2月OST是發行日，不增2025冬TV用途。既有歌唱與新三位角色／CV分開保存，未從團隊目前成員表推每曲全員實際演唱；21筆詳情預設收合，只展開所選歌曲。
+- 青エク採雪ノ果篇原期RE RESCUE／Reol與ツララ／Yobahi，10月5日24:30（曆6日）TV，現行終夜篇另記。四騎士採第2期MMH／UVERworld與アカイロ／Hana Hope，10月6日16:30，沒有混入同頁Season1或由藝人簡介拆逐曲職位。
+- 竜生原TV10月10日25:28（曆11日），舊10月4日為ABEMA先行；Together Forever／LUN8、君と見た景色／EverdreaM保存，ED詞曲川崎鷹也及團隊成員明列。Only以Sizuk為作品名義、Kotoha為歌唱，詞曲編明列，最強？最高！Brave My Heart恢復立花日菜與4筆創作角色；治癒師原期公告核10月5日深夜2時，現行ONAIR的2025一挙再播不套原期。
+- まほなれ採コラージュ／PUFFYとついでにTOOBOE與瞬間最大風速／halca；TOOBOE詞曲、PUFFY歌唱分別，未從一般簡介推編曲。原TV10月4日25:53（曆5日），TOOBOE版／anime size／Inst未另建TV用途。アクロトリップ恢復フラーグム／水瀬いのり與リバーシブルベイベー／カノエラナ及6筆詞曲編，TV10月2日22:00，FOD先行另記；藝人half album與single兩版的已知曲目留具體續查位置。
+- 全目錄30季、2,052部、4,627用途（4,524 OP／ED、93 IN、10 TS）均有dataStatus；741筆三項基本欄位有兩類欄位證據，其餘3,886筆保留來源待細分。已逐批處理1,439個唯一用途；2024秋99部183用途／166 OPED、已核133，詳細核心1／缺口132；33筆全目錄季度待核及4筆部分季度缺口維持。
+
+### 來源、未解缺口與續查條件
+
+- [Love Live原TV](https://www.lovelive-anime.jp/yuigaoka/onair/)、[OP single](https://www.lovelive-anime.jp/yuigaoka/music/cd38.php)／[ED single](https://www.lovelive-anime.jp/yuigaoka/music/cd39.php)、[第2／3話插曲](https://www.lovelive-anime.jp/yuigaoka/music/cd40.php)／[第6／8話](https://www.lovelive-anime.jp/yuigaoka/music/cd42.php)／[第10／11話](https://www.lovelive-anime.jp/yuigaoka/music/cd44.php)／[第12話](https://www.lovelive-anime.jp/yuigaoka/music/cd46.php)、[官方逐話歌唱與版本OST](https://www.lovelive-anime.jp/yuigaoka/music/cd49.php)、[繁中作品及插曲交叉](https://zh.wikipedia.org/wiki/Love_Live!_Superstar!!)。日文交叉索引保留精確來源於每曲；原AnimeThemes有效來源與日期重用，沒有全面重查。
+- [雪ノ果篇OP](https://ao-ex.com/snow//music/opening.html)／[ED](https://ao-ex.com/snow//music/ending.html)／[原TV](https://ao-ex.com/snow/)、[四騎士第2期MUSIC](https://7sins-4knights.net/music/)／[原TV](https://www.7sins-4knights.net/)、[竜生MUSIC](https://dragonlife-anime.com/music/)／[原TV與先行](https://dragonlife-anime.com/onair/)。
+- [治癒師MUSIC](https://sonochiyushi.com/music/index.html)／[原期TV公告](https://sonochiyushi.com/news/index00220000.html)／[Only歌唱與詞曲編、官方MV入口](https://sizuk.info/release/only/)、[まほなれMUSIC](https://mahonare.asmik-ace.co.jp/music)／[TOOBOE逐曲詞曲、PUFFY歌唱及原TV](https://www.sonymusic.co.jp/artist/tooboe/info/566184)、[アクロトリップ同頁MUSIC及TV](https://acrotrip-anime.com/)。一次使用同頁已明列事實，沒有用歌詞、一般團隊簡介、專輯其他曲或再播日期填逐曲缺項。
+- 各逐話DAISUKI版本明記OST Disc2曲序及待核錄音；新增IN記錄本曲single品番／OST位置，Piano／上海版缺詞曲編或譯詞不從其他版移植。角色歌、Off Vocal、image song及同張商品其他曲須有用途證據才另建用途；詳細階段回到這些精確來源續補。
+- Only雖有官方MV外連，影片渠道／形式metadata及地區可用性仍待核；其餘已存影片保留，已有一支影片不代表所有形式完整。TV Size／single／album／OST有名單而尚未結構化時仍顯示音源／收錄待補，不把同名版或不同商品當同一錄音。
+- 33筆完全未分季及シンカリオン2025冬／鑑定貴族2首話夏季各2筆部分季度缺口保持，沒有重搜未觸發項。2024秋作品聯集尚未閉合，跨夏秋續播、長篇及魚人島編等範圍仍需後續盤點；短篇／WEB／特殊番延後，不冒稱現有166筆為全季總數。
+
+### 本機檢查與展示
+
+- 最終npm test 4檔8項、build 2,098 HTML／4,194產物、ApiProvider 7部33筆及保留性檢查通過。原25筆媒體／深入關係保持，2,045個其他動畫JSON相同；正常parser與資料gate未改。
+- Chromium393×852展開7頁33組狀態，5組季度歌單、3個舊名搜尋及新Bubble Rise、7組原TV資料、9筆IN含原ed-12網址、Only確切官方MV外連通過；無溢出、app errors或影片iframe。1月發售的Love Live插曲仍只在2024秋，非2025冬。
+- in-app665像素實際收合／展開Bubble Rise，21組狀態、1筆詳情、三位角色／CV、三項創作及品番／OST曲序續查條件可見。展示發現的8筆繁中來源語言標籤已修正並重驗，手機與in-app最終截圖均已檢視；Browser plugin不可用，手機尺寸使用專案Chromium，不以in-app寬度冒充手機。
+- 只有1個既有季度資料檔與checkpoint變更，沒有新季度、UI／contract／播放器／依賴／部署設定修改；本機不重跑完整E2E，正常PR／main仍含重要E2E。本批Cloudflare dry-run無bindings，文件相對連結、公開邊界245檔與diff檢查通過；正式發布待完成，本機通過不作production證明。
+
+預覽入口：`/anime/love-live-superstar-3rd-season/`、`/anime/sayonara-ryuusei-konnichiwa-jinsei/`、`/anime/party-kara-tsuihou-sareta-sono-chiyushi-jitsu-wa-saikyou-ni-tsuki/`、`/anime/acro-trip/`、`/seasons/2024-fall/`。第65批接續頂部11部30筆，基本階段及長期目標未完成。
