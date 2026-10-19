@@ -41,10 +41,12 @@ Cloudflare 官方文件目前說明 Static Assets request 免費且不限量；W
 
 ```text
 PUBLIC_SITE_URL=https://anisonary.k-y.cc
-PUBLIC_DEFAULT_SEASON=2026-summer
+PUBLIC_DEFAULT_SEASON=
 PUBLIC_TIMEZONE=Asia/Tokyo
 ANISONARY_REQUIRE_API_DATA=false
 ```
+
+`PUBLIC_DEFAULT_SEASON` 留空或未設定時，首頁使用最新已收錄季度；明確設定有效季度 ID 時保留該選擇，同時提供最近三季入口。
 
 正常 production build 不設定 `PUBLIC_API_BASE_URL`，直接由 reviewed snapshot 同時產生 HTML 與 JSON。只有執行 production API gate 時才設定 `PUBLIC_API_BASE_URL=https://anisonary.k-y.cc/api/v1` 及 `ANISONARY_REQUIRE_API_DATA=true`；任何 endpoint 失敗或不一致都會中止驗收。這個契約不需要 secret。
 
