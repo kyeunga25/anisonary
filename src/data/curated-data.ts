@@ -387,57 +387,10 @@ const themeOverrides: Record<string, Partial<CuratedThemeSeed>> = {
     titleRomaji: "Aporia Inga Sekai",
     artistDisplayName: "梅原裕一郎"
   },
-  "165445:OP:1": {
-    titleJa: "旅しよ！don't you?",
-    titleRomaji: "Tabi Shiyo! don't you?"
-  },
-  "165445:ED:1": { artistDisplayName: "Sizuk feat. 春茶" },
   "180829:OP:1": {
     titleJa: "オモイアイ",
     titleRomaji: "Omoi Ai",
     artistDisplayName: "破天荒夫婦"
-  },
-  "182419:OP:1": {
-    titleJa: "彼女は今、迷宮の中。",
-    titleRomaji: "Kanojo wa Ima, Meikyuu no Naka.",
-    artistDisplayName: "HoneyWorks feat. 花譜"
-  },
-  "182419:ED:1": {
-    titleJa: "君の知らないこと",
-    titleRomaji: "Kimi no Shiranai Koto"
-  },
-  "158287:ED:1": {
-    titleJa: "ハートエイク",
-    titleRomaji: "Heartache",
-    artistDisplayName: "内田雄馬"
-  },
-  "158287:ED:2": {
-    titleJa: "パーフェクト・パルフェ・パレード",
-    titleRomaji: "Perfect Parfait Parade",
-    artistDisplayName: "雨宮天、石上静香"
-  },
-  "180675:ED:1": {
-    titleJa: "カプセル",
-    titleRomaji: "Capsule"
-  },
-  "180675:ED:2": {
-    titleJa: "アポカリプス",
-    titleRomaji: "Apocalypse",
-    artistDisplayName: "朴璐美"
-  },
-  "185213:OP:1": { artistDisplayName: "米津玄師" },
-  "185213:ED:1": {
-    titleJa: "もうどうなってもいいや",
-    titleRomaji: "Mou Dou Natte mo Ii ya",
-    artistDisplayName: "星街すいせい"
-  },
-  "185213:ED:2": {
-    titleJa: "BEYOND THE TIME ～メビウスの宇宙を越えて～"
-  },
-  "185213:ED:3": {
-    titleJa: "水槽の街から",
-    titleRomaji: "Suisou no Machi Kara",
-    artistDisplayName: "美樹マリア"
   },
   "150654:ED:1": {
     titleJa: "大丈夫",
