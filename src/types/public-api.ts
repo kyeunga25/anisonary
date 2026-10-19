@@ -1,7 +1,7 @@
 export type Quarter = "winter" | "spring" | "summer" | "fall";
 export type PublicSourceLanguage = "zh-Hant" | "zh-Hans" | "ja" | "en" | "multi";
 export type PublicReviewState = "reviewed";
-export type PublicThemeAvailability = "documented" | "not_announced" | "not_used";
+export type PublicThemeAvailability = "documented" | "not_announced" | "pending_verification" | "not_used";
 
 export interface PublicSeasonSummary {
   id: string;

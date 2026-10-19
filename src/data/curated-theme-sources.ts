@@ -1,3 +1,4 @@
+import { curatedAnimeKey } from "@/data/curated-seeds/types";
 import { curatedSeasonRegistry } from "@/data/curated-season-registry";
 import { curated2019FallThemeSources } from "@/data/curated-theme-sources/2019/fall";
 import { curated2019SummerThemeSources } from "@/data/curated-theme-sources/2019/summer";
@@ -41,7 +42,7 @@ export function validateCuratedThemeSourceRegistry<
 >(entries: Entries): Entries {
   const ownerByAniListId = new Map(
     curatedSeasonRegistry.flatMap(({ id, seeds }) => (
-      seeds.map(({ anilistId }) => [anilistId, id] as const)
+      seeds.map((seed) => [curatedAnimeKey(seed), id] as const)
     ))
   );
   const registeredSeasons = new Set<string>();

@@ -19,12 +19,15 @@ export interface CuratedThemeSeed extends Partial<Pick<PublicTheme, "seasonIds" 
 
 export interface CuratedAnimeSeed {
   anilistId: number;
+  anilistUrl: string;
+  catalogKey?: never;
   id: string;
   slug: string;
   seasonIds: CuratedSeasonId[];
   verifiedAt?: string;
   metadataVerifiedAt?: string;
   metadataSources?: PublicAnimeDetail["sources"];
+  themeAvailability?: PublicAnimeDetail["themeAvailability"];
   startDate: string;
   titleJa: string;
   titleZhHant?: string;
@@ -36,7 +39,7 @@ export interface CuratedAnimeSeed {
   broadcastLabel?: string;
   status: PublicAnimeDetail["status"];
   officialSiteUrl?: string;
-  anilistUrl: string;
+  bangumiUrl?: string;
   imageSourceUrl?: string;
   imageSourceLabel?: string;
   identifierSource?: Pick<PublicAnimeDetail["sources"][number], "label" | "url" | "language">;
@@ -47,6 +50,29 @@ export interface CuratedAnimeSeed {
   themes: CuratedThemeSeed[];
 }
 
+export type CuratedCatalogAnimeSeed = CuratedAnimeSeed | (
+  Omit<CuratedAnimeSeed, "anilistId" | "anilistUrl" | "catalogKey" | "identifierSource"> & {
+    anilistId?: never;
+    anilistUrl?: never;
+    catalogKey: number;
+    identifierSource: NonNullable<CuratedAnimeSeed["identifierSource"]>;
+  }
+);
+
+// Negative local keys are separate from provider IDs and never enter public JSON.
+export function curatedAnimeKey(seed: CuratedCatalogAnimeSeed): number {
+  if (seed.anilistId !== undefined) {
+    if (!Number.isSafeInteger(seed.anilistId) || seed.anilistId <= 0 || seed.catalogKey !== undefined) {
+      throw new Error(`Invalid curated AniList identity: ${seed.id}`);
+    }
+    return seed.anilistId;
+  }
+  if (!Number.isSafeInteger(seed.catalogKey) || seed.catalogKey >= 0 || !seed.identifierSource) {
+    throw new Error(`Missing curated provider identity: ${seed.id}`);
+  }
+  return seed.catalogKey;
+}
+
 export interface CuratedSeasonRegistryEntry {
   readonly id: CuratedSeasonId;
   readonly year: number;
@@ -54,6 +80,6 @@ export interface CuratedSeasonRegistryEntry {
   readonly titleZhHant: string;
   readonly titleJa: string;
   readonly coverageNote?: string;
-  readonly seeds: readonly CuratedAnimeSeed[];
+  readonly seeds: readonly CuratedCatalogAnimeSeed[];
   readonly animeIds: readonly number[];
 }
