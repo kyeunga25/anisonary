@@ -12,16 +12,16 @@
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED，已確認插曲一併記錄；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2020–2026標準季度TV的動畫及歌曲基本資料優先，按2026 → 2020、各年秋 → 夏 → 春 → 冬補漏。先處理可快速核實的原名、季度／首播、演唱名義、OP／ED用途及來源；創作、影片、音源、發行品及平台集中深化留待下一階段。約24分鐘、常見12／24集，13／26集及同類續播納入；長篇以2020–2026的TV用曲季度盤點，不以作品首播年自動排除；短WEB、泡麵番、短篇TV及特殊番延後，既有成果保留 |
 | 完成條件 | 各季有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替；基本資料經公開JSON、頁面及必要檢查驗證，歌單與詳情保持易瀏覽；每筆用途保存現有欄位狀態、未記錄項目及已知續查條件，與完整收齊及來源日期分開。詳細欄位缺少不阻擋基本資料。作品聯集未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件 |
-| 執行狀態 | 基本資料階段持續執行；第49批正式來源`8681e38`／`batch49-basics`已驗收。第50批8部20筆用途完成本機驗證，PR #142品質檢查等待GitHub runner；已固定保存驗證產物，正式發布待完成。第51批從獨立分支接續本機基本資料，未混入第50批發布候選；本階段及長期目標未完成，沒有背景排程 |
-| 接續位置 | 第51批：2026春剩餘有界身分已確認為短篇母節目內的段落、延後；接續2025春curated-184279／curated-175872／curated-183161／curated-183275／curated-178680／curated-181078／curated-184989／curated-143337／curated-149118／curated-177476共10部既有TV基本資料。先完成本機資料及展示，再分類提交；第50批正常發布gates保留，其後2025春／冬至2020倒序。2025夏15筆延後種類及兩輪未明欄位不阻擋標準TV推進 |
-| 發布提交 | 第49批：[PR #141](https://github.com/kyeunga25/anisonary/pull/141)，來源`8681e38`／`batch49-basics`；PR及main quality、Workers Builds、實際Cloudflare版本來源與正式站驗收通過。先前發布保留 |
+| 執行狀態 | 基本資料階段持續執行；第49批為最後已驗收正式版本。第50批PR #142已合併至`bec312a`，PR及main兩項gate通過，固定驗證產物的Cloudflare正式發布待完成。第51批10部26筆完成資料、公開JSON與展示驗證，資料提交`5f4da9c`；本批正式發布待完成，詳細深化及整體目標未完成，沒有背景排程 |
+| 接續位置 | 完成第50／51批正式發布收尾後，第52批接續2025春既有標準TV：`curated-179541`、`curated-179054`、`curated-179955`、`curated-182814`、`curated-184639`、`curated-167336`、`curated-178825`、`curated-180516`、`curated-181182`、`curated-182060`。先核對TV與先行配信日期及跨季續播，再補歌曲基本欄位；2025夏15筆延後種類、短篇／WEB及兩輪未明欄位不阻擋其後2025冬至2020倒序推進 |
+| 發布提交 | 第50批[PR #142](https://github.com/kyeunga25/anisonary/pull/142)已正常合併至`bec312a`、PR／main gate通過，正式部署驗收待完成；第51批已完成本機資料提交。第49批`8681e38`／`batch49-basics`仍為最後已驗收版本，先前發布保留 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
 執行狀態使用「未開始／執行中／已暫停／已完成／已取消」；無法繼續時另記具體阻礙及仍未完成部分，不自動標記完成。長期目標與本次工作量分開，未指定本次工作量時先完成下一批。
 
 ## 季度進度 / Quarterly progress
 
-統計至第50批本機驗證；第51批執行中尚未計入，下方第49批正式發布已驗收，正式來源見頂部發布提交及各批live紀錄。數量為現有快照的OP／ED用途，依公開theme ID與用途季度計算；跨季用途可能重複，不能直接相加或當作唯一歌曲／音源數。
+統計至第51批本機驗證；第50批GitHub main已通過正常gates，Cloudflare與live收尾待完成，第49批仍為最後已驗收正式版本。數量為現有快照的OP／ED用途，依公開theme ID與已確認用途季度計算；跨季用途可能重複，不能直接相加或當作唯一歌曲／音源數。
 
 「基本欄位具備」表示現有歌曲原名、演唱名義、用途及第一方／交叉來源有值，動畫可識別且有季度與作品來源；這是現有資料的欄位盤點，不表示本批重查全部來源、作品清單已閉合或整季收齊。「已逐批核對」依下方各批公開ID明細，包含查找後保留續查條件的用途。
 
@@ -34,8 +34,8 @@
 | 2026 春 | 185 | 185 | 185 | 127 | 58 |
 | 2026 冬 | 162 | 162 | 162 | 109 | 53 |
 | 2025 秋 | 157 | 157 | 157 | 123 | 34 |
-| 2025 夏 | 202 | 202 | 187 | 163 | 24 |
-| 2025 春 | 149 | 149 | 44 | 25 | 19 |
+| 2025 夏 | 204 | 204 | 189 | 163 | 26 |
+| 2025 春 | 147 | 147 | 67 | 31 | 36 |
 | 2025 冬 | 143 | 143 | 10 | 2 | 8 |
 | 2024 秋 | 172 | 172 | 12 | 0 | 12 |
 | 2024 夏 | 189 | 189 | 8 | 0 | 8 |
@@ -62,9 +62,9 @@
 | 2019 春 | 尚未建立快照 | — | — | — | — |
 | 2019 冬 | 尚未建立快照 | — | — | — | — |
 
-2020–2026的28個季度現在均有快照，但2026秋僅73部作品138筆OP／ED、2筆IN及1筆TS用途（3部歌曲用途待核對），其他季度亦未完成完整標準TV作品聯集；各季現有筆數均不是經閉合盤點的全季分母。2026夏／春／冬的既有清單首輪與第08–37批成果保留，基本資料階段沒有重查全量舊來源。2025春尚有105筆、冬133筆現有OP／ED未逐批核對；2024–2020本輪先核對已確認長篇續播用途，仍需標準TV作品聯集與其餘歌曲盤點，短篇／WEB缺口不阻擋標準TV推進。
+2020–2026的28個季度現在均有快照，但2026秋僅73部作品138筆OP／ED、2筆IN及1筆TS用途（3部歌曲用途待核對），其他季度亦未完成完整標準TV作品聯集；各季現有筆數均不是經閉合盤點的全季分母。2026夏／春／冬的既有清單首輪與第08–37批成果保留，基本資料階段沒有重查全量舊來源。2025春尚有80筆、冬133筆現有OP／ED未逐批核對；另2筆本批舊ED用途與季度待官方確認，保留全目錄及動畫頁並暫不計入季度；2024–2020本輪先核對已確認長篇續播用途，仍需標準TV作品聯集與其餘歌曲盤點，短篇／WEB缺口不阻擋標準TV推進。
 
-目前1,036個唯一用途已逐批處理，其中980 OP／ED、46 IN、10 TS；包含18筆只完成用途季度待核狀態盤點，未把它們計入任一已確認季度，跨季不可相加。第38–50批新增174筆用途的基本欄位及身分／用途證據齊備；秋季詳細核心3／138主要來自既有用途季度補正，不表示其餘基本資料失敗。春季共7筆已證實第二季度／後期用途改掛秋季，另14筆第二季度改掛夏季；無自覺聖女兩筆補夏季並保留春末TV首播，唯一歌曲與未重查來源日期保留。2007–2018及2019春／冬仍無快照，長期範圍未完成。羽のゆりかご的季度fallback限制沿第37批記錄，未把未證實春季使用當作確證。
+目前1,062個唯一用途已逐批處理，其中1,005 OP／ED、47 IN、10 TS；包含20筆用途季度待核狀態盤點，未把它們計入任一已確認季度，跨季不可相加。第38–51批新增175筆用途的基本欄位及身分／用途證據齊備；秋季詳細核心3／138主要來自既有用途季度補正，不表示其餘基本資料失敗。春季共7筆已證實第二季度／後期用途改掛秋季，另14筆第二季度改掛夏季；無自覺聖女兩筆補夏季並保留春末TV首播，唯一歌曲與未重查來源日期保留。2007–2018及2019春／冬仍無快照，長期範圍未完成。羽のゆりかご的季度fallback限制沿第37批記錄，未把未證實春季使用當作確證。
 
 ## 基線
 
@@ -84,7 +84,7 @@
 | 優先 | 工作 | 狀態與接點 |
 | --- | --- | --- |
 | 1 | 一次性最小格式與真實試行 | 2026-10-14 已完成，見下方 2026-summer-schema-pilot；後續直接沿用格式，不重新設計或搬移全量資料 |
-| 2 | 當前收集接點 | 第50批已固定本機驗證產物、等待PR #142正常品質gate；第51批獨立分支接續2025春10部基本資料與逐曲狀態 |
+| 2 | 當前收集接點 | 第50批固定產物待正式發布驗收；第51批資料與展示驗證完成、資料提交已保存；第52批依頂部公開ID接續2025春基本資料 |
 | 3 | 2025–2020基本資料 | 標準TV按年份／季度倒序補作品聯集與歌曲輪替；短篇／WEB延後，詳細深化待後續指令 |
 | 4 | 較早年度 | 2019 → 2007保留長期待辦；2020–2026基本階段未完成前不擴張 |
 | 5 | 詳細資料 | 已完成的創作、影片、音源、發行品及平台資料保留；未解觸發條件沿用，集中深化延後 |
@@ -4196,10 +4196,68 @@ GitHub open Dependabot警示增至24項，新增[source-map-js advisory](https:/
 預覽入口：`/anime/shunkashuutou-daikousha-haru-no-mai/`、`/anime/doraemon-2005/`、`/anime/crayon-shin-chan/`、`/anime/chibi-maruko-chan-1995/`、`/seasons/2025-spring/`、`/seasons/2024-fall/`。第51批位置見頂部接續位置；基本階段及長期目標未完成。
 
 
-## 2026-10-20 批次：2020-2026-tv-basics-51（執行中）
+## 2026-10-20 批次：2020-2026-tv-basics-51（本機驗證完成，正式發布待完成）
 
-固定範圍2020–2026標準TV與截止日2026-10-14維持；當日實際查閱來源記2026-10-20。第50批已驗證產物及候選提交固定，等待GitHub正常品質gate；本批從獨立分支處理，不把本批資料混入前一批產物。第49批仍為最後已驗收的正式版本。
+固定範圍2020–2026標準TV與截止日2026-10-14維持；當日實際查閱來源記2026-10-20。第50批已驗證產物及候選提交固定，PR #142與main兩項gates已通過；正式Cloudflare收尾待完成。本批從獨立分支處理，不把本批資料混入前一批產物。第49批仍為最後已驗收的正式版本。
 
 本批先核對2026春有界清單最後一筆身分：`201910`《おしりダンディ ザ・ヤング》由[集英社公告](https://books.shueisha.co.jp/info/comics/3774.html)及[動畫官方新作公告](https://oshiri-tantei.com/news/2026032001.html)確認為《おしりたんてい》節目內的故事；出版社所列母節目時段為20分鐘。按短篇範圍延後，沒有新增獨立標準季度TV作品或猜造歌曲。54筆有界身分已對應53筆既有／已收錄身分及1筆此類分類；有界新作清單不代表全部標準TV續播聯集已閉合。
 
-接續2025春10部26筆既有OP／ED，ID見頂部接點；先核對原名、演唱、用途及來源，整理TV／先行配信分別，保留全部既有公開ID與網址。遇到的已確認插曲一併核對；每首保存基本證據、詳細欄位缺口及可重用續查條件。尚未完成本機資料修改、展示驗證或本批提交，不把來源查閱本身計作完成。
+接續2025春10部25筆既有OP／ED，ID見頂部接點；先核對原名、演唱、用途及來源，整理TV／先行配信分別，保留全部既有公開ID與網址。遇到的已確認插曲一併核對；每首保存基本證據、詳細欄位缺口及可重用續查條件。本批資料、公開JSON與展示已驗證，資料提交`5f4da9c`已保存；正式發布待完成，不把本機檢查稱為production驗收。
+
+
+### 第51批公開用途與實際差異
+
+10部、26筆用途：25筆既有OP／ED保留，新增1筆已確認IN；其中24筆有曲名／演唱／用途的第一方及交叉欄位證據，另2筆既有ED保存明確缺口。沒有新增動畫，沒有由不同影片或專輯新增歌曲。
+
+| 公開theme ID | 歌曲／演唱名義 | 本批處理 |
+| --- | --- | --- |
+| `ballpark-de-tsukamaete-op-1` | Hurray!!／GENIC | 補基本欄位證據、現有缺口與續查狀態 |
+| `ballpark-de-tsukamaete-ed-1` | ボールパークでShake！Don't Shake！／ルリコ（CV：ファイルーズあい）、アオナ（CV：長谷川育美）、こひなた（CV：内田真礼）、サラ（CV：相良茉優）、こころ（CV：瀬戸桃子） | 對齊官方原名／演唱名義，保留ID並補狀態 |
+| `ballpark-de-tsukamaete-ed-2` | コンバート／松室政哉 | 更正已證實原名／保存用途及季度待核狀態 |
+| `ballpark-de-tsukamaete-ed-3` | あきらめられないのさ／GENIC | 對齊官方原名／演唱名義，保留ID並補狀態 |
+| `isshun-de-chiryou-shiteita-no-ni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-op-1` | ライトメイカー／bokula. | 補基本欄位證據、現有缺口與續查狀態 |
+| `isshun-de-chiryou-shiteita-no-ni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-ed-1` | 月に願う／sorato | 補基本欄位證據、現有缺口與續查狀態 |
+| `saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-op-1` | KINGSBLOOD／KALA | 補基本欄位證據、現有缺口與續查狀態 |
+| `saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-ed-1` | 真昼の月／seiza | 補基本欄位證據、現有缺口與續查狀態 |
+| `kanpeki-sugite-kawai-ge-ga-nai-to-konyaku-haki-sareta-seijo-wa-ringoku-ni-urareru-op-1` | 愛とか。／りりあ。 | 補基本欄位證據、現有缺口與續查狀態 |
+| `kanpeki-sugite-kawai-ge-ga-nai-to-konyaku-haki-sareta-seijo-wa-ringoku-ni-urareru-ed-1` | Sister／WON | 補基本欄位證據、現有缺口與續查狀態 |
+| `wind-breaker-season-2-op-1` | BOYZ／SixTONES | 補基本欄位證據、現有缺口與續查狀態 |
+| `wind-breaker-season-2-ed-1` | It’s myself／シャイトープ | 補基本欄位證據、現有缺口與續查狀態 |
+| `bye-bye-earth-season-2-op-1` | Aufheben／Who-ya Extended | 補基本欄位證據、現有缺口與續查狀態 |
+| `bye-bye-earth-season-2-ed-1` | MOONWORK／ASCA | 補基本欄位證據、現有缺口與續查狀態 |
+| `bye-bye-earth-season-2-ed-2` | Sacred Ashes [form the] Butterfly／J'Nique Nicole | 保存OST曲名；ED用途、演唱及季度待官方確認 |
+| `nazotoki-wa-dinner-no-ato-de-op-1` | MONTAGE／中島健人 | 補基本欄位證據、現有缺口與續查狀態 |
+| `nazotoki-wa-dinner-no-ato-de-ed-1` | ラプソディ／BILLY BOO | 補基本欄位證據、現有缺口與續查狀態 |
+| `slime-taoshite-300-nen-shiranai-uchi-ni-level-max-ni-nattemashita-sono-ni-op-1` | So☆Lucky／小倉 唯 | 補基本欄位證據、現有缺口與續查狀態 |
+| `slime-taoshite-300-nen-shiranai-uchi-ni-level-max-ni-nattemashita-sono-ni-ed-1` | イニミニマニモ／大西亜玖璃 | 補基本欄位證據、現有缺口與續查狀態 |
+| `slime-taoshite-300-nen-shiranai-uchi-ni-level-max-ni-nattemashita-sono-ni-ed-2` | 生まれ変わろうと／アズサ（CV：悠木 碧） | 對齊官方原名／演唱名義，保留ID並補狀態 |
+| `slime-taoshite-300-nen-shiranai-uchi-ni-level-max-ni-nattemashita-sono-ni-in-1` | MAD ODD WOO／ペコラ（CV：田村ゆかり） | 新增第10話IN、角色演唱與逐曲狀態 |
+| `enen-no-shouboutai-san-no-shou-op-1` | 強火／女王蜂 | 補基本欄位證據、現有缺口與續查狀態 |
+| `enen-no-shouboutai-san-no-shou-ed-1` | ウルサイレン／梅田サイファー | 補基本欄位證據、現有缺口與續查狀態 |
+| `shin-samurai-den-yaiba-op-1` | BLADE／BLUE ENCOUNT | 補基本欄位證據、現有缺口與續查狀態 |
+| `shin-samurai-den-yaiba-ed-1` | pineapple tart／音羽-otoha- | 補基本欄位證據、現有缺口與續查狀態 |
+| `shin-samurai-den-yaiba-ed-2` | ACTION！／八木海莉⚡電音遊戯 | 對齊官方原名／演唱名義，保留ID並補狀態 |
+
+- 已處理anime ID：`curated-184279`、`curated-175872`、`curated-183161`、`curated-183275`、`curated-178680`、`curated-181078`、`curated-184989`、`curated-143337`、`curated-149118`、`curated-177476`。全目錄30季、2,052部、4,585用途（4,528 OP／ED、47 IN、10 TS），全部保存`dataStatus`；375筆三項基本欄位有兩類證據，其他4,210筆保留來源與待細分狀態。20筆用途季度待核（原寶可夢18筆及本批2筆），保持全目錄／動畫／搜尋可查，不計入任何已確認季度。
+- 《完璧すぎて可愛げがないと婚約破棄された聖女は隣国に売られる》舊4月3日為先行配信暦日；TV為4月9日水曜24:00，即暦日4月10日，兩類日期分開保存。《最強の王様》第1期依中文TV索引補4月2日23:30、23分鐘12話，原4月3日不是最早播出；現行官方ONAIR已換第2期，未套用2026年時段，原第一期官方局別／時段公告保存續查條件。其他8部補既有TV首播時段及TV／配信區別，不改原作品身分。
+- 《ボールパークでつかまえて！》ED1原名標記與五名角色／CV依官方MUSIC對齊；五名歌唱者逐項保存。最終回ED3原名改為「あきらめられないのさ」。舊ED2的「コントラスト」與英文seed「Convert」不同，沿新名稱線索查到唱片公司商品曲目，正確原名為「コンバート」／松室政哉；移除舊錯誤英字名Contrast，保留全部既有ID與網址。原名與演唱可先保存，TV ED及季度仍待第一方用途證據，沒有把商品收錄當作TV使用。
+- 《真･侍伝YAIBA》補春／夏續播；OP〈BLADE〉保留同一用途及歌曲身分。新ED〈ACTION！〉名義補為八木海莉⚡電音遊戯，藝人官方公告確認6月28日啟用，因此同掛春末與夏季，沒有由「第2クール」推定7月才開始。官方已說明BLADE第二段「絆ver」；音源／發行對應保留逐曲續查，沒有因影片或第二段新增歌曲。
+- 《スライム倒して300年 ～そのに～》補第12話ED〈生まれ変わろうと〉アズサ（CV：悠木碧）名義；同一已讀官方商品／影片頁確認第10話IN〈MAD ODD WOO〉ペコラ（CV：田村ゆかり），加中文影像索引交叉核對後新增。其他使用集數仍可接續，未由商品／影片推定所有集數。
+- 同頁明列創作新增45筆詞／曲／編角色，3個官方YouTube watch外連由動畫官網的明確影片ID及藝人公告直接保存。新增錄音0、發行品0、影片metadata0；未查頻道、未推定full／TV或新錄音。已有媒體、收錄及平台資料保持，所有未記錄欄位仍可按逐曲狀態接續。
+- 25筆舊用途的ID、序號、影片metadata、音源、發行品及原有平台外連保持；角色歌唱的舊合併名單拆成五名實際歌唱者，沒有漏掉原有成員。23筆原有來源條目與日期保持；另兩筆只刷新實際查閱的炎炎官方頁，其他舊來源日期未重設。2,042部非本批動畫JSON SHA-256不變。六筆同批舊覆寫資料已移交季度seed，使已核對原名及名義能真正展示；runtime邏輯、parser、contract、UI、播放器、測試、部署設定與依賴保持。
+
+### 有效來源、未解缺口與續查條件
+
+- 重用[球場MUSIC](https://anime-ballpark.com/music/)、[ONAIR](https://anime-ballpark.com/onair/)、[GENIC最終回ED公告](https://avex.jp/genic/news/detail.php?id=1125761)及[Universal官方曲目](https://store.universal-music.co.jp/products/umca10162)。原名不一致是本輪新續查觸發點；舊錯名的兩輪查找沒有重複輪搜全部資料庫。藝人官網TLS驗證失敗未取得內容，未繞過限制；コンバート用途待可正常讀取的官方歌曲公告／逐集片尾credit，官方專輯曲目可在深化時重用。
+- [闇ヒーラーMUSIC](https://sh-anime.shochiku.co.jp/yamihealer/music/)、[ONAIR](https://sh-anime.shochiku.co.jp/yamihealer/onair/)、[完美聖女MUSIC](https://kanpekiseijo-anime.com/music)、[ONAIR](https://kanpekiseijo-anime.com/onair)一次核對原名、名義、用途及明列創作；[最強の王様MUSIC第1期](https://saikyo2dome-tbate.com/music)與[中文第1期索引](https://youranimes.tw/animes/5519)分別支持歌曲及首播，第一期原官方時段公告待補。
+- [WIND BREAKER OP](https://wb-anime.net/music/op02.html)及[ED](https://wb-anime.net/music/ed02.html)、[ばいばい、アースMUSIC](https://bye2earth.com/music/index.html)、[ONAIR](https://bye2earth.com/onair/index.html)、[謎解きMUSIC](https://nazod-anime.com/music/)、[炎炎官方頁](https://fireforce-anime.jp/)沿用既有交叉來源。Sacred Ashes [form the] Butterfly只由官方頁確認OST曲名；兩輪定向查找仍缺個別演唱及TV ED第一方證據，保存原ID、正面曲名引用及用途／季度待核條件，不新增無來源credits。
+- [史萊姆MUSIC](https://slime300-anime.com/music/)、[ONAIR](https://slime300-anime.com/onair/)、[商品](https://slime300-anime.com/bluray/)、[影片](https://slime300-anime.com/movie/)及[中文影像索引](https://youranimes.tw/animes/3256/videos)支持三首既有用途與新插曲。[YAIBA第1クールMUSIC](https://www.yaiba-pr.com/music/season_1.html)、[第2クールMUSIC](https://www.yaiba-pr.com/music/index.html)、[藝人啟用日與MV公告](https://www.sonymusic.co.jp/artist/yagikairi/info/575057)、[中文作品](https://youranimes.tw/animes/5225)及[音樂名義交叉索引](https://zh.wikipedia.org/wiki/%E5%85%AB%E6%9C%A8%E6%B5%B7%E8%8E%89)提供同頁多項事實；未重查其餘舊cross-check。
+- 2025春尚80、冬133筆現有OP／ED未逐批核對；夏季剩15筆延後種類。2026秋3部歌曲、サバイバル2冬季、寶可夢18筆季度及此前兩輪缺口按原條件接續。作品聯集、基本階段及2007–2026長期目標均未完成，詳細集中深化延後。
+
+### 本機檢查與展示
+
+- 最終`npm test`4檔8項通過，`npm run build`2,098 HTML／4,194公開產物，Astro 0 errors／warnings／hints；實際ApiProvider解析本批10部26筆成功，並核對26筆原名／演唱與authoring一致。初次錯誤來自兩筆缺口的確定季度及空引用陣列，已改為明確待核並保留有效部分引用；沒有造第一方用途證據、修改正常parser或放寬gate。
+- in-app Chromium實際665×924：10頁26組詳情／資料狀態展開，無橫向溢出及影片iframe。尺寸覆寫未套用，另以專案既有Playwright Chromium在確定393×852的context補驗同10頁26組、原名／演唱／狀態及0影片iframe，全部通過；Browser plugin不可用的既有測試方式沿用。新長角色名義仍可換行，歌單及詳情維持緊湊／按需展開。
+- 變更只有資料列與既有季度關聯，沒有新季度、contract、搜尋／UI或播放器行為變更；本機不重跑全套E2E，正常PR／main工作流程仍執行全部重要E2E。Cloudflare dry-run exit0及完成marker；repository公開邊界、diff與文件連結收尾檢查後分類提交。實際Cloudflare部署／版本及正式站驗收待完成。
+
+預覽入口：`/seasons/2025-spring/`、`/seasons/2025-summer/`、`/anime/ballpark-de-tsukamaete/`、`/anime/slime-taoshite-300-nen-shiranai-uchi-ni-level-max-ni-nattemashita-sono-ni/`、`/anime/shin-samurai-den-yaiba/`。第52批公開ID見頂部接點，正式發布驗收後接續。
