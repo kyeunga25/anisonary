@@ -359,14 +359,6 @@ const themeOverrides: Record<string, Partial<CuratedThemeSeed>> = {
   },
   "167142:ED:1": { artistDisplayName: "9Lana" },
   "186313:ED:1": { artistDisplayName: "荒井麻珠" },
-  "182814:ED:1": {
-    titleJa: "恋のレトロニム",
-    titleRomaji: "Koi no Retronym"
-  },
-  "182814:ED:2": {
-    titleJa: "私だけのポラリス",
-    titleRomaji: "Watashi dake no Polaris"
-  },
   "185259:OP:1": {
     titleJa: "僕達のギャグマンガ日和",
     titleRomaji: "Bokutachi no Gag Manga Biyori",
@@ -395,12 +387,6 @@ const themeOverrides: Record<string, Partial<CuratedThemeSeed>> = {
     titleRomaji: "Aporia Inga Sekai",
     artistDisplayName: "梅原裕一郎"
   },
-  "181182:OP:1": {
-    titleJa: "火星人",
-    titleRomaji: "Kaseijin",
-    artistDisplayName: "ヨルシカ"
-  },
-  "181182:ED:1": { artistDisplayName: "やなぎなぎ" },
   "165445:OP:1": {
     titleJa: "旅しよ！don't you?",
     titleRomaji: "Tabi Shiyo! don't you?"
