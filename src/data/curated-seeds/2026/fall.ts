@@ -4465,7 +4465,1581 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
         ]
       }
     ]
+  },
+  {
+    "anilistId": 202079,
+    "id": "curated-202079",
+    "slug": "oji-san-wa-kawaii-mono-ga-osuki",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-04",
+    "titleJa": "おじさんはカワイイものがお好き。",
+    "titleRomaji": "Oji-san wa Kawaii Mono ga Osuki.",
+    "editorialWeekday": 7,
+    "broadcastTimeJst": "22:00",
+    "broadcastLabel": "2026-10-04 起・TV・22:00（JST）・TOKYO MX",
+    "status": "airing",
+    "officialSiteUrl": "https://ojikawa.com/",
+    "anilistUrl": "https://anilist.co/anime/202079",
+    "sourceReferenceUrls": [
+      "https://ojikawa.com/onair/",
+      "https://youranimes.tw/bangumi/202610"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "LIKE³",
+        "artistDisplayName": "八木勇征",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "oji-san-wa-kawaii-mono-ga-osuki-op-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://ojikawa.com/music/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "TV播出資料",
+            "url": "https://ojikawa.com/onair/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+            "url": "https://utaten.com/specialArticle/index/10195",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "oji-san-wa-kawaii-mono-ga-osuki-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://ojikawa.com/music/",
+              "https://utaten.com/specialArticle/index/10195"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "oji-san-wa-kawaii-mono-ga-osuki-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://ojikawa.com/music/",
+              "https://ojikawa.com/onair/",
+              "https://utaten.com/specialArticle/index/10195"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "尊い♡界隈",
+        "artistDisplayName": "前田佳織里",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "oji-san-wa-kawaii-mono-ga-osuki-ed-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://ojikawa.com/music/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "TV播出資料",
+            "url": "https://ojikawa.com/onair/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+            "url": "https://utaten.com/specialArticle/index/10195",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "oji-san-wa-kawaii-mono-ga-osuki-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://ojikawa.com/music/",
+              "https://utaten.com/specialArticle/index/10195"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "oji-san-wa-kawaii-mono-ga-osuki-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://ojikawa.com/music/",
+              "https://ojikawa.com/onair/",
+              "https://utaten.com/specialArticle/index/10195"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 211778,
+    "id": "curated-211778",
+    "slug": "sekai-saikyou-no-majo-hajimemashita",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-07",
+    "titleJa": "世界最強の魔女、始めました",
+    "titleRomaji": "Sekai Saikyou no Majo, Hajimemashita",
+    "editorialWeekday": 3,
+    "broadcastTimeJst": "22:00",
+    "broadcastLabel": "2026-10-07 起・TV・22:00（JST）・TOKYO MX",
+    "status": "airing",
+    "officialSiteUrl": "https://sekamajo-anime.com/",
+    "anilistUrl": "https://anilist.co/anime/211778",
+    "sourceReferenceUrls": [
+      "https://sekamajo-anime.com/onair/",
+      "https://youranimes.tw/bangumi/202610"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "影響力∞アイドル",
+        "artistDisplayName": "HoneyWorks feat.ハコニワリリィ",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "sekai-saikyou-no-majo-hajimemashita-op-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://sekamajo-anime.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "TV播出資料",
+            "url": "https://sekamajo-anime.com/onair/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+            "url": "https://utaten.com/specialArticle/index/10195",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "sekai-saikyou-no-majo-hajimemashita-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://sekamajo-anime.com/",
+              "https://utaten.com/specialArticle/index/10195"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "sekai-saikyou-no-majo-hajimemashita-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://sekamajo-anime.com/",
+              "https://sekamajo-anime.com/onair/",
+              "https://utaten.com/specialArticle/index/10195"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "星を巡る",
+        "artistDisplayName": "ロクデナシ",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "sekai-saikyou-no-majo-hajimemashita-ed-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://sekamajo-anime.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "TV播出資料",
+            "url": "https://sekamajo-anime.com/onair/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+            "url": "https://utaten.com/specialArticle/index/10195",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "sekai-saikyou-no-majo-hajimemashita-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://sekamajo-anime.com/",
+              "https://utaten.com/specialArticle/index/10195"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "sekai-saikyou-no-majo-hajimemashita-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://sekamajo-anime.com/",
+              "https://sekamajo-anime.com/onair/",
+              "https://utaten.com/specialArticle/index/10195"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 209499,
+    "id": "curated-209499",
+    "slug": "tank-chair-sensha-isu",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-04",
+    "titleJa": "TANK CHAIR-戦車椅子-",
+    "titleRomaji": "TANK CHAIR: Sensha Isu",
+    "editorialWeekday": 7,
+    "broadcastTimeJst": "23:00",
+    "broadcastLabel": "2026-10-04 起・TV・23:00（JST）・TOKYO MX",
+    "status": "airing",
+    "officialSiteUrl": "https://www.tankchair-anime.com/",
+    "anilistUrl": "https://anilist.co/anime/209499",
+    "sourceReferenceUrls": [
+      "https://www.tankchair-anime.com/onair.php",
+      "https://youranimes.tw/bangumi/202610"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "DALALA",
+        "artistDisplayName": "SiM",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "tank-chair-sensha-isu-op-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://www.tankchair-anime.com/musicbluray.php",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "TV播出資料",
+            "url": "https://www.tankchair-anime.com/onair.php",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+            "url": "https://utaten.com/specialArticle/index/10195",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "tank-chair-sensha-isu-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.tankchair-anime.com/musicbluray.php",
+              "https://utaten.com/specialArticle/index/10195"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "tank-chair-sensha-isu-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tankchair-anime.com/musicbluray.php",
+              "https://www.tankchair-anime.com/onair.php",
+              "https://utaten.com/specialArticle/index/10195"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "SYNC",
+        "artistDisplayName": "Daoko",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "tank-chair-sensha-isu-ed-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://www.tankchair-anime.com/musicbluray.php",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "TV播出資料",
+            "url": "https://www.tankchair-anime.com/onair.php",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+            "url": "https://utaten.com/specialArticle/index/10195",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "tank-chair-sensha-isu-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.tankchair-anime.com/musicbluray.php",
+              "https://utaten.com/specialArticle/index/10195"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "tank-chair-sensha-isu-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tankchair-anime.com/musicbluray.php",
+              "https://www.tankchair-anime.com/onair.php",
+              "https://utaten.com/specialArticle/index/10195"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 204389,
+    "id": "curated-204389",
+    "slug": "yasei-no-last-boss-ga-arawareta-2nd-season",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-03",
+    "titleJa": "野生のラスボスが現れた！ 第2期",
+    "titleRomaji": "Yasei no Last Boss ga Arawareta! 2nd Season",
+    "editorialWeekday": 6,
+    "broadcastTimeJst": "22:30",
+    "broadcastLabel": "2026-10-03 起・TV・22:30（JST）・TOKYO MX；9月26日先行網播與TV分開",
+    "status": "airing",
+    "officialSiteUrl": "https://www.lastboss-anime.com/",
+    "anilistUrl": "https://anilist.co/anime/204389",
+    "sourceReferenceUrls": [
+      "https://www.lastboss-anime.com/onair/index.html",
+      "https://youranimes.tw/bangumi/202610"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Melodic Impact",
+        "artistDisplayName": "Suspended 4th",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "yasei-no-last-boss-ga-arawareta-2nd-season-op-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://www.lastboss-anime.com/music/index.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "TV播出資料",
+            "url": "https://www.lastboss-anime.com/onair/index.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+            "url": "https://utaten.com/specialArticle/index/10195",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "yasei-no-last-boss-ga-arawareta-2nd-season-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.lastboss-anime.com/music/index.html",
+              "https://utaten.com/specialArticle/index/10195"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "yasei-no-last-boss-ga-arawareta-2nd-season-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.lastboss-anime.com/music/index.html",
+              "https://www.lastboss-anime.com/onair/index.html",
+              "https://utaten.com/specialArticle/index/10195"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "揺れてスカート",
+        "artistDisplayName": "ちゃくら",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "yasei-no-last-boss-ga-arawareta-2nd-season-ed-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://www.lastboss-anime.com/music/index.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "TV播出資料",
+            "url": "https://www.lastboss-anime.com/onair/index.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+            "url": "https://utaten.com/specialArticle/index/10195",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "yasei-no-last-boss-ga-arawareta-2nd-season-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.lastboss-anime.com/music/index.html",
+              "https://utaten.com/specialArticle/index/10195"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "yasei-no-last-boss-ga-arawareta-2nd-season-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.lastboss-anime.com/music/index.html",
+              "https://www.lastboss-anime.com/onair/index.html",
+              "https://utaten.com/specialArticle/index/10195"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 195571,
+    "id": "curated-195571",
+    "slug": "shuiro-no-kamen",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-10",
+    "titleJa": "朱色の仮面",
+    "titleRomaji": "Shuiro no Kamen",
+    "editorialWeekday": 6,
+    "broadcastTimeJst": "17:30",
+    "broadcastLabel": "2026-10-10 起・TV・17:30（JST）・読売テレビ／日本テレビ系",
+    "status": "airing",
+    "officialSiteUrl": "https://the-vermilion-mask.com/",
+    "anilistUrl": "https://anilist.co/anime/195571",
+    "sourceReferenceUrls": [
+      "https://prtimes.jp/main/html/rd/p/000000815.000051825.html",
+      "https://youranimes.tw/bangumi/202610"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Firestarter",
+        "artistDisplayName": "MAN WITH A MISSION",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "shuiro-no-kamen-op-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://the-vermilion-mask.com/news/contents/article_740pyw72brqp2drx.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "TV播出資料",
+            "url": "https://prtimes.jp/main/html/rd/p/000000815.000051825.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+            "url": "https://utaten.com/specialArticle/index/10195",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "shuiro-no-kamen-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://the-vermilion-mask.com/news/contents/article_740pyw72brqp2drx.html",
+              "https://utaten.com/specialArticle/index/10195"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "shuiro-no-kamen-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://the-vermilion-mask.com/news/contents/article_740pyw72brqp2drx.html",
+              "https://prtimes.jp/main/html/rd/p/000000815.000051825.html",
+              "https://utaten.com/specialArticle/index/10195"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "声",
+        "artistDisplayName": "yutori",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "shuiro-no-kamen-ed-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://the-vermilion-mask.com/news/contents/article_740pyw72brqp2drx.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "TV播出資料",
+            "url": "https://prtimes.jp/main/html/rd/p/000000815.000051825.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+            "url": "https://utaten.com/specialArticle/index/10195",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "shuiro-no-kamen-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://the-vermilion-mask.com/news/contents/article_740pyw72brqp2drx.html",
+              "https://utaten.com/specialArticle/index/10195"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "shuiro-no-kamen-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://the-vermilion-mask.com/news/contents/article_740pyw72brqp2drx.html",
+              "https://prtimes.jp/main/html/rd/p/000000815.000051825.html",
+              "https://utaten.com/specialArticle/index/10195"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 216557,
+    "id": "curated-216557",
+    "slug": "keroro-gunsou-2026",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-03",
+    "titleJa": "ケロロ軍曹☆",
+    "titleRomaji": "Keroro Gunsou☆",
+    "editorialWeekday": 6,
+    "broadcastTimeJst": "09:30",
+    "broadcastLabel": "2026-10-03 起・TV・09:30（JST）・テレ東系列6局",
+    "status": "airing",
+    "officialSiteUrl": "https://www.bn-pictures.co.jp/keroro-anime/tv/",
+    "anilistUrl": "https://anilist.co/anime/216557",
+    "sourceReferenceUrls": [
+      "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202610/29314_202610030930.html",
+      "https://youranimes.tw/bangumi/202610"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "キライのちスキ！",
+        "artistDisplayName": "ano",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "keroro-gunsou-2026-op-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://www.bn-pictures.co.jp/keroro-anime/tv/music/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "TV播出資料",
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202610/29314_202610030930.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+            "url": "https://utaten.com/specialArticle/index/10195",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "keroro-gunsou-2026-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.bn-pictures.co.jp/keroro-anime/tv/music/",
+              "https://utaten.com/specialArticle/index/10195"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "keroro-gunsou-2026-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.bn-pictures.co.jp/keroro-anime/tv/music/",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202610/29314_202610030930.html",
+              "https://utaten.com/specialArticle/index/10195"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "秘密のパノラマ",
+        "artistDisplayName": "PURPLE BUBBLE",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "keroro-gunsou-2026-ed-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://www.bn-pictures.co.jp/keroro-anime/tv/music/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "TV播出資料",
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202610/29314_202610030930.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+            "url": "https://utaten.com/specialArticle/index/10195",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "keroro-gunsou-2026-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.bn-pictures.co.jp/keroro-anime/tv/music/",
+              "https://utaten.com/specialArticle/index/10195"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "keroro-gunsou-2026-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.bn-pictures.co.jp/keroro-anime/tv/music/",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202610/29314_202610030930.html",
+              "https://utaten.com/specialArticle/index/10195"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 212888,
+    "id": "curated-212888",
+    "slug": "tempal-item-no-chikara",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-02",
+    "titleJa": "テムパル～アイテムの力～",
+    "titleRomaji": "Tempal: Item no Chikara",
+    "editorialWeekday": 5,
+    "broadcastTimeJst": "23:30",
+    "broadcastLabel": "2026-10-02 起・TV・23:30（JST）・TOKYO MX／BS11；9月27日先行網播與TV分開",
+    "status": "airing",
+    "officialSiteUrl": "https://tempal-anime.net/",
+    "anilistUrl": "https://anilist.co/anime/212888",
+    "sourceReferenceUrls": [
+      "https://tempal-anime.net/onair/index.html",
+      "https://youranimes.tw/bangumi/202610"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "SATISFY",
+        "artistDisplayName": "Re:name",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "tempal-item-no-chikara-op-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://tempal-anime.net/music/index.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "TV播出資料",
+            "url": "https://tempal-anime.net/onair/index.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+            "url": "https://utaten.com/specialArticle/index/10195",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "tempal-item-no-chikara-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tempal-anime.net/music/index.html",
+              "https://utaten.com/specialArticle/index/10195"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "tempal-item-no-chikara-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tempal-anime.net/music/index.html",
+              "https://tempal-anime.net/onair/index.html",
+              "https://utaten.com/specialArticle/index/10195"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "Ray of Emotion",
+        "artistDisplayName": "導凰",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "tempal-item-no-chikara-ed-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://tempal-anime.net/music/index.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "TV播出資料",
+            "url": "https://tempal-anime.net/onair/index.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+            "url": "https://utaten.com/specialArticle/index/10195",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "tempal-item-no-chikara-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tempal-anime.net/music/index.html",
+              "https://utaten.com/specialArticle/index/10195"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "tempal-item-no-chikara-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tempal-anime.net/music/index.html",
+              "https://tempal-anime.net/onair/index.html",
+              "https://utaten.com/specialArticle/index/10195"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 204011,
+    "id": "curated-204011",
+    "slug": "psyren",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-05",
+    "titleJa": "PSYREN -サイレン-",
+    "titleRomaji": "PSYЯEN",
+    "editorialWeekday": 1,
+    "broadcastTimeJst": "23:00",
+    "broadcastLabel": "2026-10-05 起・TV・23:00（JST）・TOKYO MX",
+    "status": "airing",
+    "officialSiteUrl": "https://psyren-anime.com/",
+    "anilistUrl": "https://anilist.co/anime/204011",
+    "sourceReferenceUrls": [
+      "https://psyren-anime.com/",
+      "https://youranimes.tw/bangumi/202610"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "WARNING!!",
+        "artistDisplayName": "CLAN QUEEN",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "psyren-op-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://psyren-anime.com/music",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "TV播出資料",
+            "url": "https://psyren-anime.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+            "url": "https://utaten.com/specialArticle/index/10195",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "psyren-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://psyren-anime.com/music",
+              "https://utaten.com/specialArticle/index/10195"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "psyren-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://psyren-anime.com/music",
+              "https://psyren-anime.com/",
+              "https://utaten.com/specialArticle/index/10195"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "ICARUS",
+        "artistDisplayName": "Who-ya Extended",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "psyren-ed-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://psyren-anime.com/music",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "TV播出資料",
+            "url": "https://psyren-anime.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "Wikipedia：動畫片尾曲交叉核對",
+            "url": "https://en.wikipedia.org/wiki/Psyren",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "psyren-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://psyren-anime.com/music",
+              "https://en.wikipedia.org/wiki/Psyren"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "psyren-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://psyren-anime.com/music",
+              "https://psyren-anime.com/",
+              "https://en.wikipedia.org/wiki/Psyren"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 212799,
+    "id": "curated-212799",
+    "slug": "marronnier-oukoku-no-shichinin-no-kishi",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-03",
+    "titleJa": "マロニエ王国の七人の騎士",
+    "titleRomaji": "Marronnier Oukoku no Shichinin no Kishi",
+    "editorialWeekday": 6,
+    "broadcastTimeJst": "18:25",
+    "broadcastLabel": "2026-10-03 起・TV・18:25（JST）・NHK Eテレ；時段依交叉播出資料",
+    "status": "airing",
+    "officialSiteUrl": "https://www.nhk-character.com/chara/marronnier/",
+    "anilistUrl": "https://anilist.co/anime/212799",
+    "sourceReferenceUrls": [
+      "https://ciatr.jp/topics/339786",
+      "https://youranimes.tw/bangumi/202610"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "さよならは言わない",
+        "artistDisplayName": "yama",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "marronnier-oukoku-no-shichinin-no-kishi-op-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://www.nhk-character.com/chara/marronnier/news/2610021/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "TV播出資料",
+            "url": "https://ciatr.jp/topics/339786",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "marronnier-oukoku-no-shichinin-no-kishi-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.nhk-character.com/chara/marronnier/news/2610021/",
+              "https://ciatr.jp/topics/339786"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "marronnier-oukoku-no-shichinin-no-kishi-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.nhk-character.com/chara/marronnier/news/2610021/",
+              "https://ciatr.jp/topics/339786"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "マロニエの花が咲く頃に",
+        "artistDisplayName": "藤澤慶昌",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "marronnier-oukoku-no-shichinin-no-kishi-ed-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://www.nhk-character.com/chara/marronnier/news/2610051/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "TV播出資料",
+            "url": "https://ciatr.jp/topics/339786",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "marronnier-oukoku-no-shichinin-no-kishi-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.nhk-character.com/chara/marronnier/news/2610051/",
+              "https://ciatr.jp/topics/339786"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "marronnier-oukoku-no-shichinin-no-kishi-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.nhk-character.com/chara/marronnier/news/2610051/",
+              "https://ciatr.jp/topics/339786"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.nhk-character.com/chara/marronnier/news/2610051/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "credits": [
+          {
+            "name": "藤澤慶昌",
+            "role": "composition"
+          },
+          {
+            "name": "藤澤慶昌",
+            "role": "arrangement"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 195516,
+    "id": "curated-195516",
+    "slug": "kusuriya-no-hitorigoto-3rd-season",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-02",
+    "titleJa": "薬屋のひとりごと 第3期",
+    "titleRomaji": "Kusuriya no Hitorigoto 3rd Season",
+    "editorialWeekday": 5,
+    "broadcastTimeJst": "23:00",
+    "broadcastLabel": "2026-10-02 起・TV・23:00（JST）・日本テレビ系フラアニ；第2クールは2027年4月予定",
+    "status": "airing",
+    "officialSiteUrl": "https://kusuriyanohitorigoto.jp/season3/",
+    "anilistUrl": "https://anilist.co/anime/195516",
+    "sourceReferenceUrls": [
+      "https://kusuriyanohitorigoto.jp/season3/onair/",
+      "https://youranimes.tw/bangumi/202610"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "雲を抜け風下へ私だけ",
+        "artistDisplayName": "ヨルシカ",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "kusuriya-no-hitorigoto-3rd-season-op-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://kusuriyanohitorigoto.jp/season3/music/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "TV播出資料",
+            "url": "https://kusuriyanohitorigoto.jp/season3/onair/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "TVガイド：季度歌曲與演唱名義交叉核對",
+            "url": "https://www.tvguide.or.jp/db/anime/kusuriyanohitorigoto/season3/",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "kusuriya-no-hitorigoto-3rd-season-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://kusuriyanohitorigoto.jp/season3/music/",
+              "https://www.tvguide.or.jp/db/anime/kusuriyanohitorigoto/season3/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "kusuriya-no-hitorigoto-3rd-season-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://kusuriyanohitorigoto.jp/season3/music/",
+              "https://kusuriyanohitorigoto.jp/season3/onair/",
+              "https://www.tvguide.or.jp/db/anime/kusuriyanohitorigoto/season3/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://kusuriyanohitorigoto.jp/season3/music/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "credits": [
+          {
+            "name": "ヨルシカ",
+            "role": "vocals"
+          },
+          {
+            "name": "n-buna",
+            "role": "lyrics"
+          },
+          {
+            "name": "n-buna",
+            "role": "composition"
+          },
+          {
+            "name": "n-buna",
+            "role": "arrangement"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "AIYOU",
+        "artistDisplayName": "Eve",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "kusuriya-no-hitorigoto-3rd-season-ed-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://kusuriyanohitorigoto.jp/season3/music/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "TV播出資料",
+            "url": "https://kusuriyanohitorigoto.jp/season3/onair/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "TVガイド：季度歌曲與演唱名義交叉核對",
+            "url": "https://www.tvguide.or.jp/db/anime/kusuriyanohitorigoto/season3/",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "kusuriya-no-hitorigoto-3rd-season-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://kusuriyanohitorigoto.jp/season3/music/",
+              "https://www.tvguide.or.jp/db/anime/kusuriyanohitorigoto/season3/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "kusuriya-no-hitorigoto-3rd-season-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://kusuriyanohitorigoto.jp/season3/music/",
+              "https://kusuriyanohitorigoto.jp/season3/onair/",
+              "https://www.tvguide.or.jp/db/anime/kusuriyanohitorigoto/season3/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://kusuriyanohitorigoto.jp/season3/music/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "credits": [
+          {
+            "name": "Eve",
+            "role": "vocals"
+          },
+          {
+            "name": "Eve",
+            "role": "lyrics"
+          },
+          {
+            "name": "Eve",
+            "role": "composition"
+          },
+          {
+            "name": "Eve",
+            "role": "arrangement"
+          },
+          {
+            "name": "Numa",
+            "role": "arrangement"
+          }
+        ]
+      }
+    ]
   }
 ];
 
-export const curated2026FallAnimeIds: number[] = [191788, 189123, 205909, 199426, 206401, 159042, 172192, 185756, 187402, 195604, 213805, 176314, 209502, 206949, 160803, 152677, 180894, 209872, 178868, 207191, 191656, 202250, 209463, 187316, 205896, 186742, 178083, 169581, 186541, 200455];
+export const curated2026FallAnimeIds: number[] = [191788, 189123, 205909, 199426, 206401, 159042, 172192, 185756, 187402, 195604, 213805, 176314, 209502, 206949, 160803, 152677, 180894, 209872, 178868, 207191, 191656, 202250, 209463, 187316, 205896, 186742, 178083, 169581, 186541, 200455, 202079, 211778, 209499, 204389, 195571, 216557, 212888, 204011, 212799, 195516];
