@@ -78,6 +78,6 @@ export const curated2023SummerSeeds: CuratedAnimeSeed[] = [
   {"anilistId":146638,"id":"curated-146638","slug":"kengan-ashura-season-2","seasonIds":["2023-summer"],"startDate":"2023-09-21","titleJa":"ケンガンアシュラ Season2","titleZhHant":"拳願阿修羅 Season 2","titleRomaji":"Kengan Ashura Season 2","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx146638-THVltMZx1WLk.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/146638-TIqQuy61jN4Q.jpg","editorialWeekday":4,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://kengan.net/","anilistUrl":"https://anilist.co/anime/146638","imageSourceUrl":"https://anilist.co/anime/146638","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-summer?display=list_detailed"],"animeThemesUrl":"https://animethemes.moe/anime/kengan_ashura_season_2","themes":[{"type":"OP","sequence":1,"titleJa":"RED","artistDisplayName":"SiM"},{"type":"ED","sequence":1,"titleJa":"Shambles","artistDisplayName":"BAND-MAID"}],"verifiedAt":"2026-09-01"},
 ];
 
-export const curated2023SummerAnimeIds = [...[...curated2023SummerSeeds.map(
+export const curated2023SummerAnimeIds = [...[...[...curated2023SummerSeeds.map(
   ({ anilistId }) => anilistId,
-), 142274], 8687, 966, 6149];
+), 142274], 8687, 966, 6149], 159560];
