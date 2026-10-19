@@ -1677,9 +1677,10 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
     "id": "curated-180136",
     "slug": "tsuihou-sareta-tensei-juukishi-wa-game-chishiki-de-musou-suru",
     "seasonIds": [
-      "2026-summer"
+      "2026-summer",
+      "2026-fall"
     ],
-    "startDate": "2026-07-02",
+    "startDate": "2026-07-03",
     "titleJa": "追放された転生重騎士はゲーム知識で無双する",
     "titleZhHant": "遭到流放的轉生重騎士憑藉遊戲知識大開無雙",
     "titleRomaji": "Tsuihou Sareta Tensei Juukishi wa Game Chishiki de Musou Suru",
@@ -1752,6 +1753,13 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "language": "ja",
             "role": "first_party",
             "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://sh-anime.shochiku.co.jp/jukishi-anime/music/",
+            "label": "動畫官方：第1クール歌曲與演唱名義",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
           }
         ],
         "evidence": [
@@ -1788,6 +1796,52 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-14",
             "targetId": "https://www.youtube.com/watch?v=xK-dghcxH74"
+          },
+          {
+            "target": "song",
+            "targetId": "spyair-awake",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://sh-anime.shochiku.co.jp/jukishi-anime/music/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "tsuihou-sareta-tensei-juukishi-wa-game-chishiki-de-musou-suru-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://sh-anime.shochiku.co.jp/jukishi-anime/music/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "song",
+            "targetId": "spyair-awake",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://uzurea.net/summer-2026-anime-theme-songs/"
+            ],
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "tsuihou-sareta-tensei-juukishi-wa-game-chishiki-de-musou-suru-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://uzurea.net/summer-2026-anime-theme-songs/"
+            ],
+            "verifiedAt": "2026-07-25"
           }
         ],
         "links": [
@@ -1810,7 +1864,10 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "availability": "unknown"
           }
         ],
-        "songId": "spyair-awake"
+        "songId": "spyair-awake",
+        "seasonIds": [
+          "2026-summer"
+        ]
       },
       {
         "type": "ED",
@@ -1855,6 +1912,13 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "language": "ja",
             "role": "first_party",
             "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://sh-anime.shochiku.co.jp/jukishi-anime/music/",
+            "label": "動畫官方：第1クール歌曲與演唱名義",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
           }
         ],
         "evidence": [
@@ -1879,6 +1943,52 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-14",
             "targetId": "https://www.youtube.com/watch?v=ylYL2rDyIHc"
+          },
+          {
+            "target": "song",
+            "targetId": "reona-lv1-shokugyou-ningen",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://sh-anime.shochiku.co.jp/jukishi-anime/music/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "tsuihou-sareta-tensei-juukishi-wa-game-chishiki-de-musou-suru-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://sh-anime.shochiku.co.jp/jukishi-anime/music/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "song",
+            "targetId": "reona-lv1-shokugyou-ningen",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://uzurea.net/summer-2026-anime-theme-songs/"
+            ],
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "tsuihou-sareta-tensei-juukishi-wa-game-chishiki-de-musou-suru-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://uzurea.net/summer-2026-anime-theme-songs/"
+            ],
+            "verifiedAt": "2026-07-25"
           }
         ],
         "links": [
@@ -1892,10 +2002,201 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "availability": "unknown"
           }
         ],
-        "songId": "reona-lv1-shokugyou-ningen"
+        "songId": "reona-lv1-shokugyou-ningen",
+        "seasonIds": [
+          "2026-summer"
+        ]
+      },
+      {
+        "type": "OP",
+        "sequence": 2,
+        "titleJa": "Rewrite the Answer",
+        "artistDisplayName": "常闇トワ",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "tsuihou-sareta-tensei-juukishi-wa-game-chishiki-de-musou-suru-op-2-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://sh-anime.shochiku.co.jp/jukishi-anime/music/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV播出與季度資料",
+            "url": "https://sh-anime.shochiku.co.jp/jukishi-anime/news/164/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "アニしま：季度OP／ED與名義交叉核對",
+            "url": "https://anime-song-info.com/jukishi-op-ed-26sm/",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "tsuihou-sareta-tensei-juukishi-wa-game-chishiki-de-musou-suru-op-2-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://sh-anime.shochiku.co.jp/jukishi-anime/music/",
+              "https://anime-song-info.com/jukishi-op-ed-26sm/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "tsuihou-sareta-tensei-juukishi-wa-game-chishiki-de-musou-suru-op-2",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://sh-anime.shochiku.co.jp/jukishi-anime/music/",
+              "https://sh-anime.shochiku.co.jp/jukishi-anime/news/164/",
+              "https://anime-song-info.com/jukishi-op-ed-26sm/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://sh-anime.shochiku.co.jp/jukishi-anime/music/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "usageLabel": "第2クール OP",
+        "credits": [
+          {
+            "name": "常闇トワ",
+            "role": "vocals"
+          },
+          {
+            "name": "山中拓也（THE ORAL CIGARETTES）",
+            "role": "lyrics"
+          },
+          {
+            "name": "山中拓也（THE ORAL CIGARETTES）",
+            "role": "composition"
+          },
+          {
+            "name": "辻村有記",
+            "role": "composition"
+          },
+          {
+            "name": "山中拓也（THE ORAL CIGARETTES）",
+            "role": "arrangement"
+          },
+          {
+            "name": "辻村有記",
+            "role": "arrangement"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "コンテンポラリーダンス",
+        "artistDisplayName": "PompadollS",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "tsuihou-sareta-tensei-juukishi-wa-game-chishiki-de-musou-suru-ed-2-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://sh-anime.shochiku.co.jp/jukishi-anime/music/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV播出與季度資料",
+            "url": "https://sh-anime.shochiku.co.jp/jukishi-anime/news/164/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "アニしま：季度OP／ED與名義交叉核對",
+            "url": "https://anime-song-info.com/jukishi-op-ed-26sm/",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "tsuihou-sareta-tensei-juukishi-wa-game-chishiki-de-musou-suru-ed-2-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://sh-anime.shochiku.co.jp/jukishi-anime/music/",
+              "https://anime-song-info.com/jukishi-op-ed-26sm/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "tsuihou-sareta-tensei-juukishi-wa-game-chishiki-de-musou-suru-ed-2",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://sh-anime.shochiku.co.jp/jukishi-anime/music/",
+              "https://sh-anime.shochiku.co.jp/jukishi-anime/news/164/",
+              "https://anime-song-info.com/jukishi-op-ed-26sm/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "usageLabel": "第2クール ED"
       }
     ],
-    "metadataVerifiedAt": "2026-07-25"
+    "metadataVerifiedAt": "2026-07-25",
+    "metadataSources": [
+      {
+        "label": "動畫官方：作品及續播資料",
+        "url": "https://sh-anime.shochiku.co.jp/jukishi-anime/",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "label": "動畫官方：TV首播、分割季度及播出時段",
+        "url": "https://sh-anime.shochiku.co.jp/jukishi-anime/onair/",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "label": "動畫官方：第2クール10月1日播出公告",
+        "url": "https://sh-anime.shochiku.co.jp/jukishi-anime/news/164/",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-10-19"
+      }
+    ],
+    "broadcastLabel": "TV首回節目表2026-07-02深夜24:26（實際7月3日）；第2クール10月1日深夜起・MBS／TBS系"
   },
   {
     "anilistId": 207141,
@@ -2522,9 +2823,10 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
     "id": "curated-203490",
     "slug": "uchi-no-otouto-domo-ga-sumimasen",
     "seasonIds": [
-      "2026-summer"
+      "2026-summer",
+      "2026-fall"
     ],
-    "startDate": "2026-07-03",
+    "startDate": "2026-07-04",
     "titleJa": "うちの弟どもがすみません",
     "titleZhHant": "我家的弟弟們真是讓您費心了",
     "titleRomaji": "Uchi no Otouto-domo ga Sumimasen",
@@ -2656,9 +2958,58 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
               "https://uchioto-anime.com/music/?music=1st"
             ],
             "verifiedAt": "2026-10-14"
+          },
+          {
+            "target": "song",
+            "targetId": "uchi-no-otouto-domo-ga-sumimasen-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://uchioto-anime.com/music/?music=1st"
+            ],
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "uchi-no-otouto-domo-ga-sumimasen-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://uchioto-anime.com/music/?music=1st"
+            ],
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "target": "song",
+            "targetId": "uchi-no-otouto-domo-ga-sumimasen-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://uzurea.net/summer-2026-anime-theme-songs/"
+            ],
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "uchi-no-otouto-domo-ga-sumimasen-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://uzurea.net/summer-2026-anime-theme-songs/"
+            ],
+            "verifiedAt": "2026-07-25"
           }
         ],
-        "songId": "uchi-no-otouto-domo-ga-sumimasen-op-1-song"
+        "songId": "uchi-no-otouto-domo-ga-sumimasen-op-1-song",
+        "seasonIds": [
+          "2026-summer"
+        ]
       },
       {
         "type": "ED",
@@ -2786,6 +3137,52 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-14",
             "targetId": "CGnHQVSg1iE"
+          },
+          {
+            "target": "song",
+            "targetId": "uchi-no-otouto-domo-ga-sumimasen-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://uchioto-anime.com/music/?music=1st"
+            ],
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "uchi-no-otouto-domo-ga-sumimasen-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://uchioto-anime.com/music/?music=1st"
+            ],
+            "verifiedAt": "2026-10-14"
+          },
+          {
+            "target": "song",
+            "targetId": "uchi-no-otouto-domo-ga-sumimasen-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://uzurea.net/summer-2026-anime-theme-songs/"
+            ],
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "uchi-no-otouto-domo-ga-sumimasen-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://uzurea.net/summer-2026-anime-theme-songs/"
+            ],
+            "verifiedAt": "2026-07-25"
           }
         ],
         "songId": "uchi-no-otouto-domo-ga-sumimasen-ed-1-song",
@@ -2808,10 +3205,165 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "verifiedAt": "2026-10-14",
             "availability": "unknown"
           }
+        ],
+        "seasonIds": [
+          "2026-summer"
         ]
+      },
+      {
+        "type": "OP",
+        "sequence": 2,
+        "titleJa": "LOVE ＆ LIKE",
+        "artistDisplayName": "ねぐせ。",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "uchi-no-otouto-domo-ga-sumimasen-op-2-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://uchioto-anime.com/music/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV播出與季度資料",
+            "url": "https://uchioto-anime.com/news/?article_id=71344",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "アニしま：季度OP／ED與名義交叉核對",
+            "url": "https://anime-song-info.com/uchioto-op-ed-26sm/",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "uchi-no-otouto-domo-ga-sumimasen-op-2-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://uchioto-anime.com/music/",
+              "https://anime-song-info.com/uchioto-op-ed-26sm/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "uchi-no-otouto-domo-ga-sumimasen-op-2",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://uchioto-anime.com/music/",
+              "https://uchioto-anime.com/news/?article_id=71344",
+              "https://anime-song-info.com/uchioto-op-ed-26sm/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "usageLabel": "第2クール OP"
+      },
+      {
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "まばたき",
+        "artistDisplayName": "ミーマイナー",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "uchi-no-otouto-domo-ga-sumimasen-ed-2-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://uchioto-anime.com/music/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV播出與季度資料",
+            "url": "https://uchioto-anime.com/news/?article_id=71344",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "アニしま：季度OP／ED與名義交叉核對",
+            "url": "https://anime-song-info.com/uchioto-op-ed-26sm/",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "uchi-no-otouto-domo-ga-sumimasen-ed-2-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://uchioto-anime.com/music/",
+              "https://anime-song-info.com/uchioto-op-ed-26sm/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "uchi-no-otouto-domo-ga-sumimasen-ed-2",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://uchioto-anime.com/music/",
+              "https://uchioto-anime.com/news/?article_id=71344",
+              "https://anime-song-info.com/uchioto-op-ed-26sm/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "usageLabel": "第2クール ED"
       }
     ],
-    "metadataVerifiedAt": "2026-07-25"
+    "metadataVerifiedAt": "2026-07-25",
+    "metadataSources": [
+      {
+        "label": "動畫官方：作品及續播資料",
+        "url": "https://uchioto-anime.com/",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "label": "動畫官方：TV首播、分割季度及播出時段",
+        "url": "https://uchioto-anime.com/onair/",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "label": "動畫官方：第2クール日期與OP／ED公告",
+        "url": "https://uchioto-anime.com/news/?article_id=71344",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-10-19"
+      }
+    ],
+    "broadcastLabel": "TV首回節目表2026-07-03深夜24:00（實際7月4日）；第2クール10月2日深夜起・TOKYO MXほか"
   },
   {
     "anilistId": 209983,
