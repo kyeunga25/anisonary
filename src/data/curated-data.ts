@@ -397,16 +397,6 @@ const themeOverrides: Record<string, Partial<CuratedThemeSeed>> = {
     titleRomaji: "Daijoubu",
     artistDisplayName: "アイナ・ジ・エンド"
   },
-  "178781:ED:1": {
-    titleJa: "正偽",
-    titleRomaji: "Seigi",
-    artistDisplayName: "梟note"
-  },
-  "178781:ED:2": {
-    titleJa: "次回予告",
-    titleRomaji: "Jikai Yokoku",
-    artistDisplayName: "キタニタツヤ"
-  },
   "179706:ED:1": {
     titleJa: "花の塔",
     titleRomaji: "Hana no Tou",
