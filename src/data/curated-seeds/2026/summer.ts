@@ -24553,7 +24553,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
     "titleRomaji": "Dogul Wang",
     "editorialWeekday": 3,
     "broadcastTimeJst": "25:15",
-    "broadcastLabel": "TV首回節目表2026-07-08週三25:20（實際7月9日）；常態週三25:15（JST）・フジテレビ「B8station」；截至截止日前已完結",
+    "broadcastLabel": "TV首回節目表2026-07-08週三25:20（實際7月9日）；常態週三25:15（JST）・フジテレビ「B8station」；截至2026-10-14已完結",
     "status": "finished",
     "officialSiteUrl": "https://tombraiderking-pr.com/",
     "anilistUrl": "https://anilist.co/anime/184356",
@@ -24690,7 +24690,249 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
         ]
       }
     ]
+  },
+
+  {
+    "anilistId": 235,
+    "id": "curated-235",
+    "slug": "meitantei-conan",
+    "seasonIds": [
+      "2026-summer",
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "1996-01-08",
+    "titleJa": "名探偵コナン",
+    "titleRomaji": "Meitantei Conan",
+    "editorialWeekday": 6,
+    "broadcastTimeJst": "18:00",
+    "broadcastLabel": "TV系列1996-01-08首播；2026年常態週六18:00（JST）・読売テレビ／日本テレビ系",
+    "status": "airing",
+    "officialSiteUrl": "https://www.ytv.co.jp/conan30/project/",
+    "anilistUrl": "https://anilist.co/anime/235",
+    "sourceReferenceUrls": [
+      "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
+      "https://anison.online/anime/5576"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://www.ytv.co.jp/conan30/project/",
+        "label": "読売テレビ官方：TV首播、常態時段及2026年歌曲公告",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-10-19"
+      }
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 62,
+        "titleJa": "愛のFIRE",
+        "artistDisplayName": "新浜レオン",
+        "songId": "meitantei-conan-op-62-song",
+        "seasonIds": [
+          "2026-summer",
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.ytv.co.jp/conan/music/",
+            "label": "読売テレビ官方：OP曲名、演唱及創作三角色",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://cdn.niihamaleon.com/info/info_856/",
+            "label": "新浜レオン官方：2026年7月已啟用的TV OP",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
+            "label": "中文動畫索引：OP62與演唱交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://anison.online/anime/5576",
+            "label": "Anison Online：2026年OP歌曲交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "meitantei-conan-op-62-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.ytv.co.jp/conan/music/",
+              "https://cdn.niihamaleon.com/info/info_856/",
+              "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
+              "https://anison.online/anime/5576"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "meitantei-conan-op-62",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.ytv.co.jp/conan/music/",
+              "https://cdn.niihamaleon.com/info/info_856/",
+              "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
+              "https://anison.online/anime/5576"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.ytv.co.jp/conan/music/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "usageLabel": "2026年夏季起 OP",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "新浜レオン"
+          },
+          {
+            "role": "lyrics",
+            "name": "小泉果奈"
+          },
+          {
+            "role": "composition",
+            "name": "徳永暁人"
+          },
+          {
+            "role": "arrangement",
+            "name": "徳永暁人"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 76,
+        "titleJa": "愛で全部抱きしめて愛して",
+        "artistDisplayName": "倉木麻衣",
+        "songId": "meitantei-conan-ed-76-song",
+        "seasonIds": [
+          "2026-summer",
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.ytv.co.jp/conan/music/",
+            "label": "読売テレビ官方：ED曲名、演唱及創作三角色",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://www.ytv.co.jp/conan30/project/",
+            "label": "読売テレビ官方：2026-09-26起啟用新ED",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
+            "label": "中文動畫索引：ED76與演唱交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://anison.online/anime/5576",
+            "label": "Anison Online：2026年ED歌曲交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "meitantei-conan-ed-76-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.ytv.co.jp/conan/music/",
+              "https://www.ytv.co.jp/conan30/project/",
+              "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
+              "https://anison.online/anime/5576"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "meitantei-conan-ed-76",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.ytv.co.jp/conan/music/",
+              "https://www.ytv.co.jp/conan30/project/",
+              "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
+              "https://anison.online/anime/5576"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.ytv.co.jp/conan/music/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "usageLabel": "2026-09-26起 ED",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "倉木麻衣"
+          },
+          {
+            "role": "lyrics",
+            "name": "倉木麻衣"
+          },
+          {
+            "role": "composition",
+            "name": "松原憲"
+          },
+          {
+            "role": "arrangement",
+            "name": "平田祥一郎"
+          }
+        ]
+      }
+    ]
   }
 ];
 
-export const curated2026SummerAnimeIds = [213426, 192800, 208044, 197715, 209669, 203880, 201667, 206521, 198376, 180136, 207141, 204466, 188525, 203490, 209983, 207674, 212308, 178789, 185542, 186863, 187538, 206249, 190569, 196017, 194219, 185692, 185875, 208225, 201514, 200230, 210031, 204060, 198409, 200637, 103303, 177637, 169080, 213506, 169582, 202269, 199748, 199408, 195833, 209504, 169583, 199111, 128757, 187260, 213665, 177699, 209800, 198709, 207809, 198946, 135865, 213666, 159309, 196356, 194829, 207254, 108992, 196187, 196218, 199066, 208824, 188139, 213359, 182616, 185874, 189046, 182205, 195600, 171110, 196974, 197754, 196219, 184356] as const;
+export const curated2026SummerAnimeIds = [213426, 192800, 208044, 197715, 209669, 203880, 201667, 206521, 198376, 180136, 207141, 204466, 188525, 203490, 209983, 207674, 212308, 178789, 185542, 186863, 187538, 206249, 190569, 196017, 194219, 185692, 185875, 208225, 201514, 200230, 210031, 204060, 198409, 200637, 103303, 177637, 169080, 213506, 169582, 202269, 199748, 199408, 195833, 209504, 169583, 199111, 128757, 187260, 213665, 177699, 209800, 198709, 207809, 198946, 135865, 213666, 159309, 196356, 194829, 207254, 108992, 196187, 196218, 199066, 208824, 188139, 213359, 182616, 185874, 189046, 182205, 195600, 171110, 196974, 197754, 196219, 184356, 196012, 202508, 184492, 206523, 188388, 21, 235] as const;
