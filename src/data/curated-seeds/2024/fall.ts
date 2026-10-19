@@ -91,4 +91,4 @@ export const curated2024FallSeeds: CuratedAnimeSeed[] = [
   {"anilistId":188548,"id":"curated-188548","slug":"jochum-ona","seasonIds":["2024-fall"],"startDate":"2024-12-21","titleJa":"JOCHUM","titleZhHant":"JOCHUM（網路篇）","titleRomaji":"JOCHUM (ONA)","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx188548-KsJqrlz1rjKy.png","editorialWeekday":6,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://jochum.sanrio.co.jp/","anilistUrl":"https://anilist.co/anime/188548","imageSourceUrl":"https://anilist.co/anime/188548","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2024%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2024-autumn?display=list_detailed"],"themes":[],"verifiedAt":"2026-08-30"},
 ];
 
-export const curated2024FallAnimeIds = curated2024FallSeeds.map(({ anilistId }) => anilistId);
+export const curated2024FallAnimeIds = [...curated2024FallSeeds.map(({ anilistId }) => anilistId), 142274, 165159];

@@ -75,4 +75,4 @@ export const curated2023WinterSeeds: CuratedAnimeSeed[] = [
   {"anilistId":204544,"id":"curated-204544","slug":"heart-cocktail-colorful-haru-hen","seasonIds":["2023-winter"],"startDate":"2023-03-28","titleJa":"ハートカクテル カラフル 春編","titleZhHant":"心情雞尾酒 Colorful 春篇","titleRomaji":"Heart Cocktail Colorful: Haru-hen","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx204544-qOdDdXaXQ7xI.png","editorialWeekday":2,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://www.web.nhk/tv/pl/series-tep-PYL2917V5V","anilistUrl":"https://anilist.co/anime/204544","imageSourceUrl":"https://anilist.co/anime/204544","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-winter?display=list_detailed"],"themes":[],"verifiedAt":"2026-09-01"},
 ];
 
-export const curated2023WinterAnimeIds = curated2023WinterSeeds.map(({ anilistId }) => anilistId);
+export const curated2023WinterAnimeIds = [...curated2023WinterSeeds.map(({ anilistId }) => anilistId), 142274];
