@@ -3207,6 +3207,6 @@ const curated2021WinterSeedRows: CuratedAnimeSeed[] = [
 export const curated2021WinterSeeds: CuratedAnimeSeed[] =
   curated2021WinterSeedRows;
 
-export const curated2021WinterAnimeIds = curated2021WinterSeeds.map(
+export const curated2021WinterAnimeIds = [...curated2021WinterSeeds.map(
   ({ anilistId }) => anilistId,
-);
+), 8687, 966, 6149];

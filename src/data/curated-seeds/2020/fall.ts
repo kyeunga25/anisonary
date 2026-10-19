@@ -3238,6 +3238,6 @@ const curated2020FallSeedRows: CuratedAnimeSeed[] = [
 
 export const curated2020FallSeeds: CuratedAnimeSeed[] = curated2020FallSeedRows;
 
-export const curated2020FallAnimeIds = curated2020FallSeeds.map(
+export const curated2020FallAnimeIds = [...curated2020FallSeeds.map(
   ({ anilistId }) => anilistId,
-);
+), 8687, 966, 6149];

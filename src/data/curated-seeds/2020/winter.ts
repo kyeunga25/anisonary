@@ -2980,6 +2980,6 @@ const curated2020WinterSeedRows: CuratedAnimeSeed[] = [
 export const curated2020WinterSeeds: CuratedAnimeSeed[] =
   curated2020WinterSeedRows;
 
-export const curated2020WinterAnimeIds = curated2020WinterSeeds.map(
+export const curated2020WinterAnimeIds = [...curated2020WinterSeeds.map(
   ({ anilistId }) => anilistId,
-);
+), 8687, 966, 6149];

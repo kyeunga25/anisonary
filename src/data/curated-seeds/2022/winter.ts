@@ -61,4 +61,4 @@ export const curated2022WinterSeeds: CuratedAnimeSeed[] = [
   {"anilistId":146503,"id":"curated-146503","slug":"tensei-shitara-slime-datta-ken-sukuwareru-ramiris","seasonIds":["2022-winter"],"startDate":"2022-03-19","titleJa":"転生したらスライムだった件 救われるラミリス","titleZhHant":"關於我轉生變成史萊姆這檔事：獲救的拉米莉絲","titleRomaji":"Tensei Shitara Slime Datta Ken: Sukuwareru Ramiris","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b146503-7YahVCQ9T039.png","editorialWeekday":6,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://www.ten-sura.com/","anilistUrl":"https://anilist.co/anime/146503","imageSourceUrl":"https://anilist.co/anime/146503","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/17632"],"themes":[],"verifiedAt":"2026-09-01"},
 ];
 
-export const curated2022WinterAnimeIds = curated2022WinterSeeds.map(({ anilistId }) => anilistId);
+export const curated2022WinterAnimeIds = [...curated2022WinterSeeds.map(({ anilistId }) => anilistId), 8687, 966, 6149];
