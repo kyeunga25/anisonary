@@ -4708,7 +4708,7 @@ GitHub open Dependabot警示增至24項，新增[source-map-js advisory](https:/
 ### 第57批正式發布驗收（2026-10-20）
 
 - [PR #149](https://github.com/kyeunga25/anisonary/pull/149)通過quality及Workers Builds後正常rebase合併；審閱head`3107ff94324647003d7d77b59b24f2734c8645cc`，main來源`dfb44b067f4f487e5c7fcb348fa923d1a12c8e25`與審閱tree相同，main兩項gate亦成功。正常CI涵蓋重要E2E，未略過gate。
-- 實際Wrangler部署固定4,194個已驗證產物，部署來源乾淨；Cloudflare版本metadata確認`batch57-basics`與完整main來源／PR #149一致，第57批未混入。
+- 實際Wrangler部署固定4,194個已驗證產物，部署來源乾淨；Cloudflare版本metadata確認`batch57-basics`與完整main來源／PR #149一致，第58批未混入。
 - 正式站90條HTML／JSON／目錄／Service Worker路徑與固定產物SHA-256一致，2條未知路徑返回真正404；安全headers、API noindex／revalidation／無跨域開放與ApiProvider 10部21筆驗收通過。
 - 正式站Chromium393×852展開10頁21組原名／演唱／資料狀態，無溢出、app errors及影片iframe；更正的第9話IN、官方片段、精確Spotify曲目與二人演唱名義可讀。另在in-app Chromium665像素實際檢視銀河鉄道999的基本證據、已明列詞曲、來源、官方動畫片段及待補欄位畫面。
 - annotated tag `batch57-basics`指向正式來源並已推送。第58批接續冬季30筆起始用途，基本階段、作品聯集及長期目標未完成。
