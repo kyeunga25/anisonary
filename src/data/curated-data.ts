@@ -4828,6 +4828,12 @@ function buildSources(seed: CuratedAnimeSeed, verifiedAt: string): PublicAnimeDe
   for (const item of normalized) {
     if (!unique.has(item.url)) unique.set(item.url, item);
   }
+  // A new broadcast check updates only the sources actually consulted.
+  for (const source of seed.metadataSources ?? []) {
+    if (!source.url.startsWith("https://")) continue;
+    const url = canonicalHttpsUrl(source.url);
+    if (!excludedSourceUrls.has(url)) unique.set(url, { ...source, url });
+  }
   return [...unique.values()];
 }
 
@@ -4846,11 +4852,13 @@ function toDetail(seed: CuratedAnimeSeed): PublicAnimeDetail {
   );
   const animeVerifiedAt = animeVerifiedAtOverrides[seed.anilistId];
   // A scoped song correction can preserve unchanged metadata and artwork review dates.
-  const verifiedAt = seed.metadataVerifiedAt ?? [
+  const metadataVerifiedAt = seed.metadataVerifiedAt ?? [
     ...(animeVerifiedAt ? [animeVerifiedAt] : []),
     seed.verifiedAt ?? defaultVerifiedAt,
     ...themes.flatMap((theme) => theme.sources.map((source) => source.verifiedAt))
   ].sort((left, right) => right.localeCompare(left))[0]!;
+  const sources = buildSources(seed, metadataVerifiedAt);
+  const verifiedAt = sources.map((source) => source.verifiedAt).sort().at(-1) ?? metadataVerifiedAt;
   const officialSource = animeOfficialSource(seed);
   const themeAvailability = themeAvailabilityOverrides[seed.anilistId]
     ?? (themes.length > 0 ? "documented" : "not_announced");
@@ -4886,7 +4894,7 @@ function toDetail(seed: CuratedAnimeSeed): PublicAnimeDetail {
     verifiedAt,
     themeAvailability,
     themes,
-    sources: buildSources(seed, verifiedAt)
+    sources
   };
 }
 
