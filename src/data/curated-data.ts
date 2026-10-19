@@ -358,32 +358,7 @@ const themeOverrides: Record<string, Partial<CuratedThemeSeed>> = {
     artistDisplayName: "手嶌葵"
   },
   "167142:ED:1": { artistDisplayName: "9Lana" },
-  "184279:ED:1": {
-    titleJa: "ボールパークでShake! Don't Shake!",
-    titleRomaji: "Ballpark de Shake! Don't Shake!",
-    artistDisplayName: "内田真礼、長谷川育美、ファイルーズあい、相良茉優、瀬戸桃子"
-  },
-  "184279:ED:2": {
-    titleJa: "コントラスト",
-    titleRomaji: "Contrast",
-    artistDisplayName: "松室政哉"
-  },
-  "184279:ED:3": {
-    titleJa: "諦められないのさ",
-    titleRomaji: "Akiramerarenai no sa"
-  },
-  "175872:OP:1": { artistDisplayName: "bokula." },
   "186313:ED:1": { artistDisplayName: "荒井麻珠" },
-  "143337:ED:1": {
-    titleJa: "イニミニマニモ",
-    titleRomaji: "Ini Mini Mani Mo",
-    artistDisplayName: "大西亜玖璃"
-  },
-  "143337:ED:2": {
-    titleJa: "生まれ変わろうと",
-    titleRomaji: "Umarekawarou to",
-    artistDisplayName: "悠木碧"
-  },
   "182814:ED:1": {
     titleJa: "恋のレトロニム",
     titleRomaji: "Koi no Retronym"
