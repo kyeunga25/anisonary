@@ -5206,3 +5206,10 @@ GitHub open Dependabot警示增至24項，新增[source-map-js advisory](https:/
 - 3個既有季度資料檔及來源矩陣／checkpoint有變，沒有新季度、UI／contract／播放器／依賴／部署設定修改，不重跑本機完整E2E；正常PR／main仍含重要E2E。Cloudflare dry-run（無bindings）、文件相對連結、公開邊界245檔及diff檢查通過；正式發布待完成，本機通過不作production證明。
 
 預覽入口：`/anime/puniru-wa-kawaii-slime-2nd-season/`、`/anime/kamonohashi-ron-no-kindan-suiri-2nd-season/`、`/anime/murai-no-koi/`、`/anime/kami-no-tou-tower-of-god-2nd-season/`、`/seasons/2024-fall/`、`/seasons/2024-summer/`、`/seasons/2025-summer/`。第64批接續7部25筆，基本階段及長期目標未完成。
+
+
+## 2020-2026-tv-basics-64（範圍登記，待第63批正式驗收）
+
+- 固定2020–2026標準TV基本階段、2026-10-14截止日；由2024秋接續7部25筆既有用途。公開anime ID：`curated-155502`、`curated-176311`、`curated-176292`、`curated-176053`、`curated-174043`、`curated-107372`、`curated-157965`。
+- 先核原名、演唱名義、原TV／用曲季度及來源；同頁明列插曲一併記錄。角色、CV、團隊、用途及錄音分別；每筆保存基本證據、詳細待補欄位及具體續查條件。已有媒體、深入資料、ID及未重讀來源日期保留。
+- 第63批[PR #155](https://github.com/kyeunga25/anisonary/pull/155)來源與產物已固定；本批資料寫入及正式驗證待前批正式站驗收後接續，不混入前批部署。短篇／WEB、集中詳細深化及未觸發缺口保持延後；兩輪仍不明欄位保存條件，不阻其餘歌曲。
