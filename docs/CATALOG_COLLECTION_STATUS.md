@@ -12,8 +12,8 @@
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED，已確認插曲一併記錄；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2020–2026標準季度TV的動畫及歌曲基本資料優先，按2026 → 2020、各年秋 → 夏 → 春 → 冬補漏。先處理可快速核實的原名、季度／首播、演唱名義、OP／ED用途及來源；創作、影片、音源、發行品及平台集中深化留待下一階段。約24分鐘、常見12／24集，13／26集及同類續播納入；短WEB、泡麵番、短篇TV及特殊番延後，既有成果保留 |
 | 完成條件 | 各季有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替；基本資料經公開JSON、頁面及必要檢查驗證，歌單與詳情保持易瀏覽；每筆用途保存現有欄位狀態、未記錄項目及已知續查條件，與完整收齊及來源日期分開。詳細欄位缺少不阻擋基本資料。作品聯集未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件 |
-| 執行狀態 | 基本資料階段持續執行；第41批正式發布來源`ad00e72`／`batch41-basics`已驗收，第42批執行中。按批次持續補2020–2026標準TV基本資料，直至已登記範圍完成；詳細深化延後，本階段及長期目標未完成，沒有背景排程 |
-| 接續位置 | 第42批：2026秋季其餘標準TV基本資料，沿現有季度索引取第一方音樂與TV證據，先做快速可核實的新作／續播及輪替。固定截止日不移動；其後2026既有季、2025–2020聯集缺口，2025春curated-183133／curated-178701等接點保留；詳細深化待下一階段 |
+| 執行狀態 | 基本資料階段持續執行；第41批正式發布來源`ad00e72`／`batch41-basics`已驗收，第42批本機資料及展示驗證完成，正式發布待完成。按批次持續補2020–2026標準TV基本資料，直至已登記範圍完成；詳細深化延後，本階段及長期目標未完成，沒有背景排程 |
+| 接續位置 | 第43批：2026秋季其餘標準TV基本資料與既有續播用途關聯，沿現有季度索引取第一方音樂與TV證據，先做快速可核實的新作／續播及輪替。固定截止日不移動；其後2026既有季、2025–2020聯集缺口，2025春curated-183133／curated-178701等接點保留；詳細深化待下一階段 |
 | 發布提交 | 第41批：[PR #133](https://github.com/kyeunga25/anisonary/pull/133)，來源`ad00e72`／`batch41-basics`；PR及main quality、Workers Builds、實際Cloudflare版本來源與正式站驗收通過。先前發布保留 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
@@ -21,7 +21,7 @@
 
 ## 季度進度 / Quarterly progress
 
-統計至第41批正式驗收；第41批為目前正式發布，資料與展示的正式驗收另記；正式來源見頂部發布提交及各批live紀錄。數量為現有快照的OP／ED用途，依公開theme ID與用途季度計算；跨季用途可能重複，不能直接相加或當作唯一歌曲／音源數。
+統計至第42批本機驗證；第41批為目前正式發布，資料與展示的正式驗收另記；正式來源見頂部發布提交及各批live紀錄。數量為現有快照的OP／ED用途，依公開theme ID與用途季度計算；跨季用途可能重複，不能直接相加或當作唯一歌曲／音源數。
 
 「基本欄位具備」表示現有歌曲原名、演唱名義、用途及第一方／交叉來源有值，動畫可識別且有季度與作品來源；這是現有資料的欄位盤點，不表示本批重查全部來源、作品清單已閉合或整季收齊。「已逐批核對」依下方各批公開ID明細，包含查找後保留續查條件的用途。
 
@@ -29,7 +29,7 @@
 
 | 季度 | 現有OP／ED用途 | 基本欄位具備 | 已逐批核對 | 其中詳細核心齊備 | 已核對詳細核心缺口 |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| 2026 秋 | 80 | 80 | 80 | 0 | 80 |
+| 2026 秋 | 100 | 100 | 100 | 0 | 100 |
 | 2026 夏 | 141 | 141 | 141 | 96 | 45 |
 | 2026 春 | 182 | 182 | 182 | 133 | 49 |
 | 2026 冬 | 137 | 137 | 137 | 106 | 31 |
@@ -62,9 +62,9 @@
 | 2019 春 | 尚未建立快照 | — | — | — | — |
 | 2019 冬 | 尚未建立快照 | — | — | — | — |
 
-2020–2026的28個季度現在均有快照，但2026秋僅40部作品80筆OP／ED及2筆IN用途，其他季度亦未完成完整標準TV作品聯集；各季現有筆數均不是經閉合盤點的全季分母。2026夏／春／冬的既有清單首輪與第08–37批成果保留，基本資料階段沒有重查全量舊來源。2025春尚有113筆、冬133筆現有OP／ED未逐批核對；2024–2020本輪逐批核對尚未開始，短篇／WEB缺口不阻擋標準TV推進。
+2020–2026的28個季度現在均有快照，但2026秋僅50部作品100筆OP／ED及2筆IN用途，其他季度亦未完成完整標準TV作品聯集；各季現有筆數均不是經閉合盤點的全季分母。2026夏／春／冬的既有清單首輪與第08–37批成果保留，基本資料階段沒有重查全量舊來源。2025春尚有113筆、冬133筆現有OP／ED未逐批核對；2024–2020本輪逐批核對尚未開始，短篇／WEB缺口不阻擋標準TV推進。
 
-目前906個唯一用途已逐批處理，其中859 OP／ED、38 IN、9 TS；跨季不可相加。第38–41批82筆用途的基本欄位及身分／用途證據齊備，詳細核心0／80是深化尚未開始，不表示基本資料失敗。2007–2018及2019春／冬仍無快照，長期範圍未完成。羽のゆりかご的季度fallback限制沿第37批記錄，未把未證實春季使用當作確證。
+目前926個唯一用途已逐批處理，其中879 OP／ED、38 IN、9 TS；跨季不可相加。第38–42批102筆用途的基本欄位及身分／用途證據齊備，詳細核心0／100是深化尚未開始，不表示基本資料失敗。2007–2018及2019春／冬仍無快照，長期範圍未完成。羽のゆりかご的季度fallback限制沿第37批記錄，未把未證實春季使用當作確證。
 
 ## 基線
 
@@ -84,7 +84,7 @@
 | 優先 | 工作 | 狀態與接點 |
 | --- | --- | --- |
 | 1 | 一次性最小格式與真實試行 | 2026-10-14 已完成，見下方 2026-summer-schema-pilot；後續直接沿用格式，不重新設計或搬移全量資料 |
-| 2 | 當前收集接點 | 第41批正式驗收完成；第42批接續2026秋季其餘標準TV基本資料 |
+| 2 | 當前收集接點 | 第42批本機驗證完成、待正式發布；第43批接續2026秋標準TV與續播用途關聯 |
 | 3 | 2025–2020基本資料 | 標準TV按年份／季度倒序補作品聯集與歌曲輪替；短篇／WEB延後，詳細深化待後續指令 |
 | 4 | 較早年度 | 2019 → 2007保留長期待辦；2020–2026基本階段未完成前不擴張 |
 | 5 | 詳細資料 | 已完成的創作、影片、音源、發行品及平台資料保留；未解觸發條件沿用，集中深化延後 |
@@ -3585,3 +3585,56 @@ Cloudflare實際CLI部署exit 0，資料驗收來源`a23128662d1968815db88726910
 77個正式入口與建置產物SHA-256一致，包含30季度HTML、10部新增動畫及3部既有試行／詳細歌曲作品HTML與JSON；2條不存在route正確404，安全標頭與API noindex／revalidation／無CORS通過。13部26筆用途以實際ApiProvider讀取正式API，逐筆資料狀態與深層契約一致；臨時驗收工具最初使用字串順序比較，改用物件深層比較後通過，沒有更改產品資料或降低parser gate。這是所列入口驗收，不是重新取回全目錄2,025部API。
 
 正式站展開〈ぴ〉可見基本證據、各類未記錄欄位及BD角色版續查條件；393像素手機內容寬393、0影片iframe。全部狀態由本批已驗證建置輸出，舊來源日期保留；未聲稱全部詳細資料已收齊、實際播放或地區可用性。第42批續補其餘2026秋標準TV基本資料及季度聯集，長期與基本階段仍未完成。
+
+
+## 2026-10-19 批次：2020-2026-tv-basics-42（本機驗證完成，正式發布待完成）
+
+完成層次：基本資料；新增10部2026秋標準TV、20筆OP／ED，沿用逐用途狀態。固定截止日2026-10-14，實際查閱日2026-10-19；不延長詳細資料搜尋。
+
+| 公開 theme ID | 曲名／官方音樂名義／用途 | 第一方來源 |
+| --- | --- | --- |
+| `dark-machine-the-animation-op-1` | 存在理由　改／BUCK∞TICK／OP1 | [官方](https://www.fujitv.co.jp/fujitv/news/20260888.html) |
+| `dark-machine-the-animation-ed-1` | Galaxy Mode／三代目 J SOUL BROTHERS／ED1 | [官方](https://sugizo.com/contents/451817) |
+| `battle-spirits-re-zekkai-no-kuu-op-1` | Here we are！／JAM Project／OP1 | [官方](https://www.bn-pictures.co.jp/battlespirits/music/) |
+| `battle-spirits-re-zekkai-no-kuu-ed-1` | パルス／秘めごと／ED1 | [官方](https://www.bn-pictures.co.jp/battlespirits/music/) |
+| `zombie-sagashitemasu-op-1` | ラキラキ／すりぃ／OP1 | [官方](https://zommasu.com/music/) |
+| `zombie-sagashitemasu-ed-1` | ソフトアポカリプス／cadode／ED1 | [官方](https://zommasu.com/music/ending.html) |
+| `shin-tennis-no-ouji-sama-u17-world-cup-kesshou-member-ketteisen-op-1` | Walls And Bridges／青酢／OP1 | [官方](https://tenipuri.jp/u17/selection-match/) |
+| `shin-tennis-no-ouji-sama-u17-world-cup-kesshou-member-ketteisen-ed-1` | 金環蝕 phenomenal／跡部景吾&忍足侑士／ED1 | [官方](https://tenipuri.jp/u17/selection-match/) |
+| `tetsuryou-meet-with-tetsudou-musume-op-1` | GO! GO! RAILWAY!!／亜咲花／OP1 | [官方](https://tetsuryo-anime.com/) |
+| `tetsuryou-meet-with-tetsudou-musume-ed-1` | わたし未来線／てつりょー会（橘めい・庄子真央・福嶋晴菜・月城日花）／ED1 | [官方](https://tetsuryo-anime.com/) |
+| `choujun-choujou-senpai-op-1` | ザッツ！超常／M!LK／OP1 | [官方](https://chojun-anime.com/music/op/) |
+| `choujun-choujou-senpai-ed-1` | またあした／至福ぽんちょ／ED1 | [官方](https://chojun-anime.com/music/ed) |
+| `tougen-anki-nikko-kegon-no-taki-hen-op-1` | BACKLASH／Hiromitsu Kitayama／OP1 | [官方](https://tougenanki-anime.com/music/op3/) |
+| `tougen-anki-nikko-kegon-no-taki-hen-ed-1` | 手と手／TRACK15／ED1 | [官方](https://tougenanki-anime.com/music/ed3/) |
+| `tsuihou-sareta-cheat-fuyo-majutsushi-wa-kimama-na-second-life-wo-ouka-suru-op-1` | エンバートーチ／sumika／OP1 | [官方](https://sh-anime.shochiku.co.jp/chiifuyo-anime/music) |
+| `tsuihou-sareta-cheat-fuyo-majutsushi-wa-kimama-na-second-life-wo-ouka-suru-ed-1` | ロールプレイングライフ／Luov／ED1 | [官方](https://sh-anime.shochiku.co.jp/chiifuyo-anime/music) |
+| `vertex-force-op-1` | シンクロブルー／ClariS／OP1 | [官方](https://vertexforce.jp/music/) |
+| `vertex-force-ed-1` | エメラルド／はしメロ／ED1 | [官方](https://vertexforce.jp/music/?page=ed) |
+| `hyouken-no-majutsushi-ga-sekai-wo-suberu-ii-op-1` | Diamond Dust／Sizuk／OP1 | [官方](https://hyouken-anime.com/) |
+| `hyouken-no-majutsushi-ga-sekai-wo-suberu-ii-ed-1` | COMPRESSION :[／内田真礼／ED1 | [官方](https://hyouken-anime.com/) |
+
+- 已處理anime ID：`curated-179876`、`curated-187990`、`curated-199007`、`curated-199068`、`curated-199594`、`curated-200294`、`curated-204650`、`curated-207329`、`curated-209562`、`curated-212503`；另補`seitokai-ni-mo-ana-wa-aru-ed-1`既有續查備註的官方公告來源。
+- 實際新增10個動畫頁、20筆用途／歌曲識別、52組身分／用途及credits證據；同一官方music頁已明列的38項詞／曲／編角色一併保存，不另開詳細搜尋。全目錄30季、2,035部、4,512用途（4,465 OP／ED、38 IN、9 TS），全部用途保留資料狀態。沒有新增音源、影片metadata、發行品或其他平台項目。
+- 基本欄位涵蓋動畫原名、識別、季度、TV首播及時段、歌曲原名、音樂名義、OP／ED、第一方及交叉來源。DARK MACHINE、テニプリ、てつりょー、チー付与及冰剣保留深夜節目表與翌日首播；超巡每週23:00與首回23:15分開說明。ゾンビ日期／放送枠依官方，23:30時段另由Mikiki交叉播出資料支持。
+- Dark Machine官網music入口未呈現完整內容，改用已讀的富士官方解禁／播出公告及SUGIZO 10月14日官方公告，沒有猜測隱藏API；保留BUCK∞TICK、〈存在理由　改〉的字形與空白。〈COMPRESSION :[〉保留原標點；Sizuk保存音樂專案名義與已列創作角色，沒有把俊龍或未知個別歌唱者補作演唱。
+- 交叉證據重用10月6日Mikiki季度表；チー付与ED使用10月14日アニしま頁，不使用仍標未公布的索引作曲名證據。單頁同時支持OP／ED及多項事實；公開版本只保留必要事實與來源外連。
+- 既有2,024部JSON逐項SHA-256不變；生徒会ED僅補入已查閱的[官方BD角色版公告](https://nama-anaru.com/news/?article_id=71467)，讓原有續查備註可追溯，原欄位、來源日期、ID及URL均保留。沒有把該BD角色版算成新的TV用途。
+
+### 未解缺口與續查條件
+
+- 50部100筆OP／ED及2筆IN仍是秋季子集。一次有界AniList TV身分盤點取得56條，含短篇、特別編排及另立的分割季度；這不是完整優先TV分母，仍需與中文季度索引及續播聯集對照。沒有將原始API回應或未審核候選加入repository。
+- 夜桜第2期、ルルットリリィ、ダイヤactII已有第二季度歌曲，但尚未登記秋季用途關聯；第43批沿用原公開ID與來源補正季度，避免為第2クール另建重複歌曲／作品。千歳第2クール基本歌曲接續核對；原期別與已完成詳細資料保留。
+- ガルパンもっとらぶらぶ已確認TV編排，主題曲獨立索引可讀，但尚缺清楚可讀的第一方曲名／角色演唱證據；兩輪定向查找後保留，待官方音樂／商品／藝人頁或可讀公開staff資料出現時續補。恐怖コレクター及兩首插曲交叉缺口沿上批條件，不重搜所有資料庫。
+- 本批20筆基本必要欄位無未解衝突；正式譯名、圖片、個別演唱、音源版本、官方影片、完整收錄及地區可用性仍未齊備，按各筆狀態及後續深化條件接續。詞曲等已記錄不代表所有創作角色及版本完整。
+- 2025夏15、春113、冬133筆既有OP／ED尚未逐批核對，2024–2020本階段逐批盤點尚未開始；其他季度的標準TV作品聯集仍未閉合。
+
+### 本機檢查與展示
+
+- `npm test`4檔／7項、`npm run build`2,081 HTML／4,160公開產物通過，Astro無errors／warnings／hints。10部20筆通過實際ApiProvider解析，逐筆基本欄位證據狀態正確；舊JSON差異僅限上述1筆來源補充。
+- 本批只修改既有季度資料與進度，沒有改UI、contract、搜尋、播放器、依賴或設定；依變更矩陣沿用第41批6條本機E2E，不額外重跑。正式發布仍等待固定head的完整CI。補入既有續查公告來源後重建並更新必要資料檢查。
+- in-app Chromium：10部393×852手機逐頁展開，20筆用途及20組狀態存在，內容寬393、0影片iframe；包含最長標題。桌面秋季102筆／50部，每頁24列共5頁，狀態保持在折疊詳情內；搜尋Galaxy Mode得到1筆，點選後同頁顯示全部2首。未宣稱實際播放或地區可用性。
+- Cloudflare dry-run exit0且有成功marker、無bindings；公開邊界245個repository檔案、文件連結、diff格式與新增行私隱／credential檢查全部通過。臨時來源筆記、API身分盤點、工具、log及測試產物留在repository之外。
+- 正式發布待固定PR head、CI／Workers、正常合併、實際部署及獨立live驗收；目前production為第41批`ad00e72`／`batch41-basics`。
+
+預覽入口：`/seasons/2026-fall/`、`/anime/vertex-force/`、`/anime/hyouken-no-majutsushi-ga-sekai-wo-suberu-ii/`、`/anime/tetsuryou-meet-with-tetsudou-musume/`。下一批接續2026秋其餘標準TV、分割季度及續播關聯；基本階段及長期目標未完成。
