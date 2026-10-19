@@ -12,8 +12,8 @@
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED，已確認插曲一併記錄；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2020–2026標準季度TV的動畫及歌曲基本資料優先，按2026 → 2020、各年秋 → 夏 → 春 → 冬補漏。先處理可快速核實的原名、季度／首播、演唱名義、OP／ED用途及來源；創作、影片、音源、發行品及平台集中深化留待下一階段。約24分鐘、常見12／24集，13／26集及同類續播納入；長篇以2020–2026的TV用曲季度盤點，不以作品首播年自動排除；短WEB、泡麵番、短篇TV及特殊番延後，既有成果保留 |
 | 完成條件 | 各季有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替；基本資料經公開JSON、頁面及必要檢查驗證，歌單與詳情保持易瀏覽；每筆用途保存現有欄位狀態、未記錄項目及已知續查條件，與完整收齊及來源日期分開。詳細欄位缺少不阻擋基本資料。作品聯集未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件 |
-| 執行狀態 | 基本資料階段持續執行；第46批正式發布來源`e0cfb5d`／`batch46-basics`已驗收，第47批長篇TV歌曲季度與基本資料執行中。按批次持續補2020–2026標準TV基本資料，直至已登記範圍完成；詳細深化延後，本階段及長期目標未完成，沒有背景排程 |
-| 接續位置 | 第47批接續2026長篇TV的春／冬歌曲輪替與標準TV聯集；名探偵コナン2026年初歌曲重用已讀官方project與交叉索引，不重查第46批已處理歌曲。其後2025–2020倒序補作品聯集與基本缺口，2025春curated-183133／curated-178701等接點保留；兩輪未明歌曲按原條件續補，短篇／WEB不阻擋推進，詳細深化待下一階段 |
+| 執行狀態 | 基本資料階段持續執行；第46批正式發布來源`e0cfb5d`／`batch46-basics`已驗收，第47批7部36筆已完成本機資料與展示驗證，正式發布待完成。按批次持續補2020–2026標準TV基本資料，直至已登記範圍完成；詳細深化延後，本階段及長期目標未完成，沒有背景排程 |
+| 接續位置 | 第47批完成發布收尾，之後第48批接續冬季剩餘標準TV續播與春季聯集；已讀99個冬季中文作品身分（73新列、26續播），先分類一般TV並對照既有ID；寶可夢2025–2026六首OP／ED已讀第一方及交叉證據，需先處理舊18筆用途的季度隔離，避免自動掛入新季。其後2025–2020倒序補作品聯集與基本缺口，2025春curated-183133／curated-178701等接點保留；兩輪未明歌曲按原條件續補，短篇／WEB不阻擋推進，詳細深化待下一階段 |
 | 發布提交 | 第46批：[PR #138](https://github.com/kyeunga25/anisonary/pull/138)，來源`e0cfb5d`／`batch46-basics`；PR及main quality、Workers Builds、實際Cloudflare版本來源與正式站驗收通過。先前發布保留 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
@@ -21,7 +21,7 @@
 
 ## 季度進度 / Quarterly progress
 
-統計至第46批正式發布驗收；正式來源見頂部發布提交及各批live紀錄。數量為現有快照的OP／ED用途，依公開theme ID與用途季度計算；跨季用途可能重複，不能直接相加或當作唯一歌曲／音源數。
+統計至第47批本機驗證；第46批正式發布已驗收，正式來源見頂部發布提交及各批live紀錄。數量為現有快照的OP／ED用途，依公開theme ID與用途季度計算；跨季用途可能重複，不能直接相加或當作唯一歌曲／音源數。
 
 「基本欄位具備」表示現有歌曲原名、演唱名義、用途及第一方／交叉來源有值，動畫可識別且有季度與作品來源；這是現有資料的欄位盤點，不表示本批重查全部來源、作品清單已閉合或整季收齊。「已逐批核對」依下方各批公開ID明細，包含查找後保留續查條件的用途。
 
@@ -29,11 +29,11 @@
 
 | 季度 | 現有OP／ED用途 | 基本欄位具備 | 已逐批核對 | 其中詳細核心齊備 | 已核對詳細核心缺口 |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| 2026 秋 | 127 | 127 | 127 | 1 | 126 |
-| 2026 夏 | 169 | 169 | 169 | 110 | 59 |
-| 2026 春 | 165 | 165 | 165 | 123 | 42 |
-| 2026 冬 | 139 | 139 | 139 | 107 | 32 |
-| 2025 秋 | 142 | 142 | 142 | 123 | 19 |
+| 2026 秋 | 129 | 129 | 129 | 3 | 126 |
+| 2026 夏 | 173 | 173 | 173 | 113 | 60 |
+| 2026 春 | 172 | 172 | 172 | 127 | 45 |
+| 2026 冬 | 146 | 146 | 146 | 107 | 39 |
+| 2025 秋 | 143 | 143 | 143 | 123 | 20 |
 | 2025 夏 | 192 | 192 | 177 | 163 | 14 |
 | 2025 春 | 138 | 138 | 25 | 22 | 3 |
 | 2025 冬 | 135 | 135 | 2 | 2 | 0 |
@@ -62,9 +62,9 @@
 | 2019 春 | 尚未建立快照 | — | — | — | — |
 | 2019 冬 | 尚未建立快照 | — | — | — | — |
 
-2020–2026的28個季度現在均有快照，但2026秋僅67部作品127筆OP／ED、2筆IN及1筆TS用途（3部歌曲用途待核對），其他季度亦未完成完整標準TV作品聯集；各季現有筆數均不是經閉合盤點的全季分母。2026夏／春／冬的既有清單首輪與第08–37批成果保留，基本資料階段沒有重查全量舊來源。2025春尚有113筆、冬133筆現有OP／ED未逐批核對；2024–2020本輪逐批核對尚未開始，短篇／WEB缺口不阻擋標準TV推進。
+2020–2026的28個季度現在均有快照，但2026秋僅68部作品129筆OP／ED、2筆IN及1筆TS用途（3部歌曲用途待核對），其他季度亦未完成完整標準TV作品聯集；各季現有筆數均不是經閉合盤點的全季分母。2026夏／春／冬的既有清單首輪與第08–37批成果保留，基本資料階段沒有重查全量舊來源。2025春尚有113筆、冬133筆現有OP／ED未逐批核對；2024–2020本輪逐批核對尚未開始，短篇／WEB缺口不阻擋標準TV推進。
 
-目前955個唯一用途已逐批處理，其中906 OP／ED、39 IN、10 TS；跨季不可相加。第38–46批新增131筆用途的基本欄位及身分／用途證據齊備；秋季詳細核心1／127主要來自既有用途季度補正，不表示其餘基本資料失敗。春季共7筆已證實第二季度／後期用途改掛秋季，另14筆第二季度改掛夏季；無自覺聖女兩筆補夏季並保留春末TV首播，唯一歌曲與未重查來源日期保留。2007–2018及2019春／冬仍無快照，長期範圍未完成。羽のゆりかご的季度fallback限制沿第37批記錄，未把未證實春季使用當作確證。
+目前968個唯一用途已逐批處理，其中912 OP／ED、46 IN、10 TS；跨季不可相加。第38–47批新增144筆用途的基本欄位及身分／用途證據齊備；秋季詳細核心3／129主要來自既有用途季度補正，不表示其餘基本資料失敗。春季共7筆已證實第二季度／後期用途改掛秋季，另14筆第二季度改掛夏季；無自覺聖女兩筆補夏季並保留春末TV首播，唯一歌曲與未重查來源日期保留。2007–2018及2019春／冬仍無快照，長期範圍未完成。羽のゆりかご的季度fallback限制沿第37批記錄，未把未證實春季使用當作確證。
 
 ## 基線
 
@@ -84,7 +84,7 @@
 | 優先 | 工作 | 狀態與接點 |
 | --- | --- | --- |
 | 1 | 一次性最小格式與真實試行 | 2026-10-14 已完成，見下方 2026-summer-schema-pilot；後續直接沿用格式，不重新設計或搬移全量資料 |
-| 2 | 當前收集接點 | 第46批已正式發布驗收；第47批接續2026長篇TV的季度用曲與作品聯集缺口 |
+| 2 | 當前收集接點 | 第47批本機7部36筆已驗證、待發布；第48批接續冬季續播與春季標準TV聯集 |
 | 3 | 2025–2020基本資料 | 標準TV按年份／季度倒序補作品聯集與歌曲輪替；短篇／WEB延後，詳細深化待後續指令 |
 | 4 | 較早年度 | 2019 → 2007保留長期待辦；2020–2026基本階段未完成前不擴張 |
 | 5 | 詳細資料 | 已完成的創作、影片、音源、發行品及平台資料保留；未解觸發條件沿用，集中深化延後 |
@@ -3924,3 +3924,76 @@ GitHub open Dependabot警示增至24項，新增[source-map-js advisory](https:/
 - 實際Wrangler deploy exit0；Cloudflare版本metadata核對`batch46-basics`、來源main SHA與PR138均一致。正式站31條本批／受影響路由的內容逐一比對本機產物相同，安全標頭與API noindex／revalidation通過，另2條真實404；實際ApiProvider核對7部25筆完全一致。
 - 正式站in-app Chromium：夏季170筆／84部、每頁24列；搜尋〈愛で全部抱きしめて愛して〉篩為1筆，點入同一動畫頁看到2首歌曲。手機393×852展開2組歌曲詳情與2組資料狀態，內容寬393、0影片iframe；已實際檢視驗收畫面。`batch46-basics` annotated tag已指向該正式來源並推送。
 - 下一批第47批從已讀官方資料接續2026年初名探偵コナン歌曲、ポケットモンスター及名探偵プリキュア等長篇續播；先核實用途季度與原名／演唱／來源，再補其他2026季度與2025–2020標準TV聯集。已知短篇、特殊番與兩輪未明欄位按原條件延後，基本階段及長期目標未完成。
+
+
+## 2026-10-19 批次：2020-2026-tv-basics-47（本機驗證完成，正式發布待完成）
+
+完成層次：2025秋至2026冬、2026冬至春的標準TV續播／輪替，處理7部36筆用途（23 OP／ED、13 IN）；新增13筆用途（6 OP／ED、7 IN）、動畫0，23筆既有用途保留。同頁已證實劇中歌一併補入，沒有為湊批次拆開同一來源。固定資料截止日2026-10-14，實際查閱日2026-10-19。
+
+| 公開 theme ID | 歌曲／演唱名義 | 用途 |
+| --- | --- | --- |
+| `fumetsu-no-anata-e-season-3-op-1` | ふめつのあなた／Perfume | OP1 |
+| `gnosia-op-1` | 化けの皮／MAISONdes feat. こぼ・かなえる, 重音テト, Giga & TeddyLoid | OP1 |
+| `gnosia-ed-1` | Loo% Who%／凛として時雨 | ED1 |
+| `gnosia-ed-2` | FLOOR KILLER／梅田サイファー | ED2 |
+| `gnosia-ed-3` | ULULO (Anime Ver.)／深澤秀行 | ED3 |
+| `toujima-tanzaburou-wa-kamen-rider-ni-naritai-op-1` | Wanna be／TeddyLoid feat. Shigeru Matsuzaki & TOPHAMHAT-KYO | OP1 |
+| `toujima-tanzaburou-wa-kamen-rider-ni-naritai-ed-1` | ワンモアタイム／TeddyLoid feat. 時任良治 | ED1 |
+| `si-vis-the-sound-of-heroes-op-1` | So Far Away／SI-VIS | OP1 |
+| `si-vis-the-sound-of-heroes-op-2` | スーパーノヴァ／SI-VIS | OP2 |
+| `si-vis-the-sound-of-heroes-ed-1` | FRIENDS & SMILE／SI-VIS | ED1 |
+| `si-vis-the-sound-of-heroes-ed-2` | Singing Over／SI-VIS | ED2 |
+| `si-vis-the-sound-of-heroes-in-1` | MELODEA／SI-VIS | IN1 |
+| `si-vis-the-sound-of-heroes-in-2` | 幻想曲（アラベスク）を君に／SI-VIS | IN2 |
+| `si-vis-the-sound-of-heroes-in-3` | Braver Dreamer／SI-VIS | IN3 |
+| `si-vis-the-sound-of-heroes-in-4` | エレジー／SI-VIS | IN4 |
+| `si-vis-the-sound-of-heroes-in-5` | ロマンティスト・キラー／SI-VIS | IN5 |
+| `si-vis-the-sound-of-heroes-in-6` | プロトスター／SI-VIS | IN6 |
+| `si-vis-the-sound-of-heroes-in-7` | On the Highway／SI-VIS | IN7 |
+| `si-vis-the-sound-of-heroes-in-8` | Trust me／SI-VIS | IN8 |
+| `si-vis-the-sound-of-heroes-in-9` | Benedictio canticum／SI-VIS | IN9 |
+| `si-vis-the-sound-of-heroes-in-10` | Destination of Life／SI-VIS | IN10 |
+| `si-vis-the-sound-of-heroes-in-11` | Bless／SI-VIS | IN11 |
+| `si-vis-the-sound-of-heroes-in-12` | MISSION／SI-VIS | IN12 |
+| `yuusha-no-kuzu-op-1` | GUN POWDER／TOOBOE | OP1 |
+| `yuusha-no-kuzu-op-2` | Revive／ClariS | OP2 |
+| `yuusha-no-kuzu-ed-1` | メンタルレンタル／紫 今 | ED1 |
+| `yuusha-no-kuzu-ed-2` | NON-FICTION／w.o.d. | ED2 |
+| `meitantei-precure-op-1` | ハートにヒント！名探偵プリキュア！／石井あみ | OP1 |
+| `meitantei-precure-ed-1` | なぜ？謎？！ANSWER／熊田茜音＆増井優花 | ED1 |
+| `meitantei-precure-ed-2` | いつかわかる☆きっとあえる／熊田茜音＆増井優花 | ED2 |
+| `meitantei-precure-in-1` | リキッド・アイス／キュアアルカナ（CV：東山奈央） | IN1 |
+| `meitantei-conan-op-61` | Heaven Knows／B'z | OP61 |
+| `meitantei-conan-op-62` | 愛のFIRE／新浜レオン | OP62 |
+| `meitantei-conan-ed-74` | TOWA 〜永久に風に乗る〜／倉木麻衣 | ED74 |
+| `meitantei-conan-ed-75` | 7 DAYS／Rainy。 | ED75 |
+| `meitantei-conan-ed-76` | 愛で全部抱きしめて愛して／倉木麻衣 | ED76 |
+
+- 已處理anime ID：`curated-187989`、`curated-162669`、`curated-187464`、`curated-185116`、`curated-196553`、`curated-202957`、`curated-235`。勇者のクズ第二季度兩曲由冬改掛春，第一季度保留冬；第47批前已核對的歌曲、創作、影片、音源及發行品均保留，沒有重查全部詳細資料。
+- 不滅のあなたへ Season3、東島丹三郎、グノーシア補冬季續播關聯；グノーシア兩首ED仍保留秋季，依第二季度及Finale映像確認冬季使用。新增其第12話特殊ED〈ULULO (Anime Ver.)〉，署名依官方配信頁保存為深澤秀行，沒有把發行藝人署名自動填成歌唱角色。用途是第12話特殊ED，沒有將其他OST配樂全部列為歌曲。
+- SI-VIS補第二季度OP〈スーパーノヴァ〉、ED〈Singing Over〉與六首已證實劇中歌〈On the Highway〉、〈Trust me〉、〈Benedictio canticum〉、〈Destination of Life〉、〈Bless〉、〈MISSION〉；同一官方第二季度曲目表及交叉索引一次支持八筆。原第一季度OP／ED及六首IN維持秋季。Boys side／Girls side／ALL STARS等表記登記於逐曲`followUp`待詳細深化，不按影片或專輯項目數新增歌曲。
+- 名探偵プリキュア的OP補春／夏／秋，前期ED補春／夏，後期ED由冬改掛夏／秋；新錄第31話〈リキッド・アイス〉／キュアアルカナ（CV：東山奈央），只掛已證實夏季。官方7月31日是TV size配信公告，沒有把配信日當作TV首用日；交叉報導確認8月已改用後期ED。
+- 名探偵コナン補OP61〈Heaven Knows〉／B'z及ED74〈TOWA 〜永久に風に乗る〜〉／倉木麻衣（冬／春），ED75〈7 DAYS〉／Rainy。（春／夏）。第46批OP62／ED76及原TV系列1996年首播維持。〈Heaven Knows〉是否仍跨入夏季及精確輪替界線未獨立核對，逐歌`followUp`保存需官方啟用集數／正片credit的條件，沒有用新碟發行日推定。
+- 本批新增16筆作詞／作曲／編曲角色，全部來自已讀同頁明列名單：三首コナン曲10筆、〈リキッド・アイス〉3筆、〈Destination of Life〉3筆。沒有另外追搜詳細欄位，其他角色、影片、音源與發行品集中深化延後；本批未新增錄音、影片或發行品實體。
+- 全目錄30季、2,047部、4,554用途（4,498 OP／ED、46 IN、10 TS），全部4,554筆保存`dataStatus`；309筆有基本欄位證據，4,245筆保留來源待細分引用。23筆舊用途核心及詳細資料逐項相同，2,040部非本批動畫JSON SHA-256不變；只更新實際查閱來源的日期，未重讀的舊來源、圖像及metadata基準保留。
+- 季度實際為：2026秋68部132用途（129 OP／ED）、夏85部175用途（173 OP／ED）、春75部174用途（172 OP／ED）、冬73部159用途（146 OP／ED）；2025秋OP／ED143。詳細核心分別秋3、夏113、春127、冬107、2025秋123。數字區分用途及作品，跨季不可加成唯一歌曲／錄音；現有季度清單仍未閉合。
+
+### 有效證據與可接續缺口
+
+- [勇者のクズ官方music](https://yushanokuzu.com/music/)明列第一／第二季度四曲，[TV播出頁](https://yushanokuzu.com/onair/)明列連續2季度、1月10日24:55；保留實際1月11日首播的曆日差別。[不滅官方2月主題歌公告](https://www.nhk-character.com/chara/fumetsu/topics/118)、[東島官方連續2季度資料](https://tojima-rider.com/)、[グノーシア第二季度公告](https://gnosia-anime.com/news/?id=69482)及[Finale／Finale RED映像索引](https://gnosia-anime.com/movie/)補冬季關聯，歌曲身分沿用已核實的原來源。
+- SI-VIS的[1月4日官方新OP／ED公告](https://si-vis.live/news/?id=69444)、[第二季度主題歌／劇中歌範圍公告](https://si-vis.live/news/?id=69824)、[PACEM官方曲目表](https://si-vis.live/music/discography/album02.html)及[Anison Online歌曲用途交叉索引](https://anison.online/artist/SI-VIS)支持新增八筆；[Lisani第二季度報導](https://www.lisani.jp/0000302983/)交叉核對兩首OP／ED。〈Destination of Life〉[Aniplex第18話官方公告](https://www.aniplex.co.jp/lineup/si-vis/news/detail/?id=69718)明列塩野海詞曲編；來源工具cache miss後，普通瀏覽器成功讀到同一公開頁，才保存核對日期。
+- プリキュア的[1月主題歌官方公告](https://prtimes.jp/main/html/rd/p/000002175.000016719.html)、[後期ED官方公告](https://prtimes.jp/main/html/rd/p/000002297.000016719.html)、[第31話劇中歌官方公告](https://prtimes.jp/main/html/rd/p/000002314.000016719.html)，搭配[Oricon後期ED變更報導](https://www.oricon.co.jp/news/2474163/full/)及[Animate Times第31話報導](https://www.animatetimes.com/news/details.php?id=1788061911)。後期ED首用話數尚未逐一方確認，不猜集數；Album bonus與其他角色歌沒有自動當作TV插曲。
+- グノーシア[第12話特殊ED官方公告](https://gnosia-anime.com/news/?id=69483)、[官方配信頁](https://anxmusic.lnk.to/vY5Uqb)及[OTOTOY曲目／署名交叉頁](https://ototoy.jp/_/default/p/3547530)確認〈ULULO (Anime Ver.)〉與深澤秀行。沒有試聽、下載或繞過平台地區限制，未聲稱可在任何指定市場播放。逐曲`followUp`記錄需詳細核對Anime Ver.創作／錄音對應，不強填歌唱角色。
+- コナン三曲重用第46批已讀[読売テレビ官方project](https://www.ytv.co.jp/conan30/project/)，並用[Rainy。6月官方公告](https://rainy.bzone.co.jp/info/20260606-1/)、[中文動畫歌曲索引](https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB))及[2026歌曲交叉索引](https://anison.online/anime/5576)補入；沒有為相同官方頁重搜全部舊曲。
+- [冬季中文季度清單](https://youranimes.tw/bangumi/202601)有界取得73個新列作品及26個續播身分，含劇場、特殊番、WEB及短篇，不作標準TV分母；只保存必要作品名／身分URL／時段，沒有保存使用者或觀看統計。下一批分類其中一般TV及剩餘長篇，特殊番／短篇延後。六部AniList有界資料核對TV長度、話數與播出期，未收集使用者或鏡像整個資料庫。
+- 寶可夢已讀2025年4月、2025年10月與2026年5月第一方新篇章公告、中文歌曲索引，六首新OP／ED基本身分可重用；尚未寫入公開目錄。舊18筆的季度fallback需先隔離或逐曲核對，避免一補新季度就把早期歌曲全部錯掛；原始ID與既有成果保留。特殊篇〈尤〉不冒充常態OP／ED。
+- 秋季三部歌曲待核對、天は赤い河用途季度、百妖譜日本TV版、史萊姆插曲集數、本好き10月最終回、DIGIMON〈Answer〉及〈Tomorrow〉分類／季度等沿用原觸發條件；已兩輪未明欄位沒有重新輪搜。2025夏15、春113、冬133筆現有OP／ED未逐批核對，2024–2020逐批盤點尚未開始；基本階段與長期目標未完成。
+
+### 本機檢查與展示
+
+- 最終`npm test`4檔／8項、`npm run build`2,093 HTML／4,184公開產物通過，Astro無errors／warnings／hints；實際ApiProvider解析7部36筆及逐曲續查欄位全部通過。新資料沒有修改正常程式、contract或舊測試。
+- 本機in-app Chromium 393×852逐頁展開7部36組歌曲詳情與36組狀態，內容寬393、0影片iframe。SI-VIS現有16筆，既有用途篩選可縮為12筆劇中歌，再搜尋Destination縮為1筆；沿用現有緊湊歌單、動畫內篩選與詳情摺疊，沒有重做已完成UI。追加兩首續查條件亦實際可讀、無橫向溢出。
+- 本批為資料變更，未改搜尋／播放器／UI契約，不另重跑本機全套E2E；正式PR及main正常quality檢查仍須通過。最終Cloudflare dry-run exit0且有完成marker、無bindings；公開邊界245個repository檔案、2個文件相對連結、diff格式及私隱／變更範圍檢查通過；沒有依賴或部署設定變更，不重跑無關舊網址或依賴掃描。
+- 正式發布尚待固定head的PR／main檢查、正常合併、實際Cloudflare與live驗收。目前production仍是第46批`e0cfb5d`／`batch46-basics`；本機通過不等於已發布。
+
+預覽入口：`/seasons/2026-winter/`、`/anime/si-vis-the-sound-of-heroes/`、`/anime/meitantei-precure/`、`/anime/gnosia/`。下一批第48批冬季剩餘標準TV續播與春季聯集；已讀證據按缺口重用，詳細資料集中深化延後。
