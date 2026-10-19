@@ -35109,7 +35109,10 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
     "id": "curated-188388",
     "slug": "digimon-beatbreak",
     "seasonIds": [
-      "2025-fall"
+      "2025-fall",
+      "2026-winter",
+      "2026-spring",
+      "2026-summer"
     ],
     "verifiedAt": "2026-10-16",
     "startDate": "2025-10-05",
@@ -35118,8 +35121,8 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
     "titleRomaji": "DIGIMON BEATBREAK",
     "editorialWeekday": 7,
     "broadcastTimeJst": "09:00",
-    "broadcastLabel": "日本首播",
-    "status": "unknown",
+    "broadcastLabel": "2025-10-05起・TV・週日09:00（JST）・フジテレビほか；全49話，截至2026-10-14已完結",
+    "status": "finished",
     "officialSiteUrl": "https://www.toei-anim.co.jp/tv/digimon_beatbreak/",
     "anilistUrl": "https://anilist.co/anime/188388",
     "identifierSource": {
@@ -35139,7 +35142,10 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
         "artistDisplayName": "MADKID",
         "songId": "digimon-beatbreak-op-1-song",
         "seasonIds": [
-          "2025-fall"
+          "2025-fall",
+          "2026-winter",
+          "2026-spring",
+          "2026-summer"
         ],
         "sourceMode": "explicit",
         "sources": [
@@ -35177,6 +35183,13 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "first_party",
             "language": "multi",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000005104.000019470.html",
+            "label": "日本コロムビア官方：全年OP曲名、MADKID及TV用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
           }
         ],
         "credits": [
@@ -35431,6 +35444,17 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "https://mora.jp/package/43000013/COCA-18312_L44/"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "digimon-beatbreak-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000005104.000019470.html"
+            ],
+            "verifiedAt": "2026-10-19"
           }
         ],
         "recordings": [
@@ -35606,7 +35630,8 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "availability": "unknown",
             "releaseId": "digimon-beatbreak-op-1-song-digital"
           }
-        ]
+        ],
+        "lastVerifiedAt": "2026-10-19"
       },
       {
         "type": "ED",
@@ -35818,6 +35843,274 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "availability": "unknown"
           }
         ]
+      },
+      {
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "BRAVE GROOVE",
+        "artistDisplayName": "iLiFE!",
+        "songId": "digimon-beatbreak-ed-2-song",
+        "seasonIds": [
+          "2026-winter"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000005104.000019470.html",
+            "label": "日本コロムビア官方：OP、四首ED及插曲曲名／演唱名義",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://columbia.jp/artist-info/ilife/info/92776.html",
+            "label": "日本コロムビア：BRAVE GROOVE動畫ED",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://www.lisani.jp/0000299159/",
+            "label": "Lisani：2026-01-04啟用新ED",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "digimon-beatbreak-ed-2-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000005104.000019470.html",
+              "https://columbia.jp/artist-info/ilife/info/92776.html",
+              "https://www.lisani.jp/0000299159/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "digimon-beatbreak-ed-2",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000005104.000019470.html",
+              "https://columbia.jp/artist-info/ilife/info/92776.html",
+              "https://www.lisani.jp/0000299159/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "usageLabel": "2026年1月起 ED"
+      },
+      {
+        "type": "ED",
+        "sequence": 3,
+        "titleJa": "ミラミラ",
+        "artistDisplayName": "YENA",
+        "songId": "digimon-beatbreak-ed-3-song",
+        "seasonIds": [
+          "2026-spring"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000005104.000019470.html",
+            "label": "日本コロムビア官方：OP、四首ED及插曲曲名／演唱名義",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://www.lisani.jp/0000305437/",
+            "label": "Lisani：2026年4月起新ED、曲名及YENA",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "digimon-beatbreak-ed-3-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000005104.000019470.html",
+              "https://www.lisani.jp/0000305437/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "digimon-beatbreak-ed-3",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000005104.000019470.html",
+              "https://www.lisani.jp/0000305437/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "usageLabel": "2026年4月起 ED"
+      },
+      {
+        "type": "ED",
+        "sequence": 4,
+        "titleJa": "BREAK IT",
+        "artistDisplayName": "KISS OF LIFE",
+        "songId": "digimon-beatbreak-ed-4-song",
+        "seasonIds": [
+          "2026-summer"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000005104.000019470.html",
+            "label": "日本コロムビア官方：OP、四首ED及插曲曲名／演唱名義",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000000094.000160365.html",
+            "label": "東映アニメーション官方：2026年7月起新ED",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://www.lisani.jp/0000312139/",
+            "label": "Lisani：夏季新ED及KISS OF LIFE",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "digimon-beatbreak-ed-4-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000005104.000019470.html",
+              "https://prtimes.jp/main/html/rd/p/000000094.000160365.html",
+              "https://www.lisani.jp/0000312139/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "digimon-beatbreak-ed-4",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000005104.000019470.html",
+              "https://prtimes.jp/main/html/rd/p/000000094.000160365.html",
+              "https://www.lisani.jp/0000312139/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "usageLabel": "2026年7月起 ED"
+      },
+      {
+        "type": "IN",
+        "sequence": 1,
+        "titleJa": "Edge of Limit",
+        "artistDisplayName": "やぎたろ。",
+        "songId": "digimon-beatbreak-in-1-song",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000005104.000019470.html",
+            "label": "日本コロムビア官方：OP、四首ED及插曲曲名／演唱名義",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://columbia.jp/prod-info/COKM-46151/",
+            "label": "日本コロムビア：第12話插曲及演唱者",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://www.lisani.jp/0000298158/",
+            "label": "Lisani：挿入歌Edge of Limit及歌唱者",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "digimon-beatbreak-in-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000005104.000019470.html",
+              "https://columbia.jp/prod-info/COKM-46151/",
+              "https://www.lisani.jp/0000298158/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "digimon-beatbreak-in-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000005104.000019470.html",
+              "https://columbia.jp/prod-info/COKM-46151/",
+              "https://www.lisani.jp/0000298158/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "usageLabel": "第12話 插曲"
+      }
+    ],
+    "metadataVerifiedAt": "2026-10-16",
+    "metadataSources": [
+      {
+        "url": "https://prtimes.jp/main/html/rd/p/000005104.000019470.html",
+        "label": "日本コロムビア官方：全年TV播出、OP／四首ED與插曲",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "url": "https://anilist.co/anime/188388",
+        "label": "AniList：作品識別及49話完結資料",
+        "role": "identifier",
+        "language": "en",
+        "verifiedAt": "2026-10-19"
       }
     ]
   },
