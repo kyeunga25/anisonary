@@ -11,9 +11,10 @@ import { buildWebsiteJsonLd } from "@/utils/seo";
 
 const data = await loadCatalogSearchData(getDataProvider(), shouldRequireApiData());
 const seasons = [...new Map(data.entries.flatMap((entry) => entry.seasons).map((season) => [season.id, season])).values()].sort(compareSeasonsNewestFirst);
-const current = seasons.find((season) => season.id === (import.meta.env.PUBLIC_DEFAULT_SEASON ?? "2026-summer")) ?? seasons[0];
-const previous = current && seasons.find((season) => compareSeasonsNewestFirst(season, current) > 0);
-const quickSeasons = [current, previous].filter((season) => season !== undefined);
+const current = seasons.find((season) => season.id === import.meta.env.PUBLIC_DEFAULT_SEASON) ?? seasons[0];
+const quickSeasons = [...new Map([current, ...seasons.slice(0, 3)]
+  .filter((season) => season !== undefined).map((season) => [season.id, season])).values()]
+  .sort(compareSeasonsNewestFirst);
 const entries = data.entries.filter((entry) => entry.seasons.some((season) => quickSeasons.some((quick) => quick.id === season.id)));
 const index = buildCatalogSearchIndex(entries);
 const site = Astro.site ?? new URL("https://anisonary.k-y.cc");

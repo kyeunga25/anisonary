@@ -10,7 +10,7 @@ import { loadCatalogSearchData } from "@/data/page-data";
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import type { PublicAnimeDetail, PublicSeasonSummary } from "@/types/public-api";
 import { buildAnimeJsonLd } from "@/utils/seo";
-import { animeStatusLabel, themeTypeLabel } from "@/utils/theme";
+import { animeStatusLabel } from "@/utils/theme";
 import { formatBroadcastLabel } from "@/utils/weekday";
 import { compareSeasonsNewestFirst } from "@/utils/season";
 
@@ -119,11 +119,20 @@ catalogCorrectionUrl.searchParams.set("title", `資料修正：${anime.titleJa}`
       </div>
     </header>
 
-    <section class="detail-section" aria-labelledby="themes-title">
+    <section class="detail-section" aria-labelledby="themes-title" data-anime-themes>
       <div class="detail-section__heading"><h2 id="themes-title">全部主題曲 <small lang="en">All themes</small></h2><span>{anime.themes.length} 筆歌曲用途</span></div>
       {anime.themes.length > 0 ? (
         <>
-          <nav class="theme-jump-list" aria-label="這部動畫的全部歌曲">{anime.themes.map((theme) => <a href={`#theme-${theme.id}`}><span>{themeTypeLabel(theme)}</span>{theme.titleJa}</a>)}</nav>
+          <p class="themes-intro">先看歌名、演唱者與用途，展開「歌曲詳情」查看創作、版本、收錄與來源。</p>
+          {anime.themes.length > 6 && (
+            <form class="theme-filter" role="search" aria-label="這部動畫的歌曲" data-theme-filter hidden>
+              <label>找這部動畫的歌曲<input type="search" maxlength="80" autocomplete="off" placeholder="歌名、演唱者、創作者…" data-theme-query /></label>
+              <label>歌曲用途<select data-theme-type-filter><option value="all">全部用途</option>{[...new Set(anime.themes.map((theme) => theme.type))].map((type) => <option value={type}>{type === "IN" ? "劇中歌" : type === "TS" ? "主題歌" : type}</option>)}</select></label>
+              <button type="reset" class="button button--outline">重設</button>
+              <p role="status" data-theme-filter-count>顯示 {anime.themes.length}／{anime.themes.length} 筆用途</p>
+            </form>
+          )}
+          <p class="state-message" data-theme-filter-empty hidden>找不到符合的歌曲。可改用其他名稱，或重設篩選。</p>
           <div>{anime.themes.map((theme) => <ThemeCard theme={theme} />)}</div>
         </>
       ) : (
@@ -148,6 +157,7 @@ catalogCorrectionUrl.searchParams.set("title", `資料修正：${anime.titleJa}`
     </section>
   </article>
 </BaseLayout>
+<script>import "@/scripts/anime-themes";</script>
 
 <style>
   .anime-detail { padding-block: 1.5rem 2rem; }
@@ -175,10 +185,13 @@ catalogCorrectionUrl.searchParams.set("title", `資料修正：${anime.titleJa}`
   .detail-section h2 { font-size: 1.35rem; margin: 0; }
   .detail-section h2 small { color: var(--color-muted); font-size: 0.75rem; font-weight: 450; margin-left: 0.5rem; }
   .detail-section__heading > span { color: var(--color-muted); font-size: 0.75rem; }
-  .theme-jump-list { border-bottom: 1px solid var(--color-border); display: flex; flex-wrap: wrap; gap: 0.5rem 1.3rem; margin-bottom: 1rem; }
-  .theme-jump-list a { color: var(--color-ink); font-size: 0.8rem; line-height: 1.5; padding: 0.65rem 0; text-decoration: none; }
-  .theme-jump-list span { color: var(--color-accent); margin-right: 0.45rem; }
-  .theme-jump-list a:hover { color: var(--color-accent); }
+  .themes-intro { color: var(--color-muted); font-size: 0.78rem; line-height: 1.8; margin: 0 0 0.7rem; }
+  .theme-filter { align-items: end; background: var(--color-subtle); border: 1px solid var(--color-border); border-radius: var(--radius-control); display: flex; flex-wrap: wrap; gap: 0.7rem; margin-block: 1rem; padding: 0.8rem; }
+  .theme-filter[hidden] { display: none; }
+  .theme-filter label { color: var(--color-muted); display: grid; font-size: 0.72rem; gap: 0.35rem; }
+  .theme-filter label:first-child { flex: 1 1 15rem; }
+  .theme-filter input, .theme-filter select { background: var(--color-surface); border: 1px solid var(--color-border-strong); border-radius: var(--radius-control); color: var(--color-ink); font: inherit; font-size: 0.85rem; min-height: 2.75rem; min-width: 0; padding: 0.5rem 0.7rem; width: 100%; }
+  .theme-filter p { color: var(--color-muted); flex-basis: 100%; font-size: 0.72rem; margin: 0; }
   .correction-link { color: var(--color-accent); font-size: 0.75rem; text-decoration: none; }
   .correction-link:hover { text-decoration: underline; text-underline-offset: 0.2em; }
   @media (max-width: 600px) {

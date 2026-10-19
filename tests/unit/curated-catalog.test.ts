@@ -6,6 +6,7 @@ import { curatedAnimeSeeds } from "@/data/curated-seeds";
 import { loadCatalogSearchData } from "@/data/page-data";
 import { publicJsonResponse } from "@/data/public-api-assets";
 import { buildCatalogSearchIndex, serializeCatalogSearchIndex } from "@/utils/catalog-search-index";
+import { groupCatalogYears } from "@/utils/catalog-directory";
 import { getPlaylistRows, playlistRowHref } from "@/utils/song-playlist";
 
 it("keeps the whole reviewed catalogue consistent across seasons, details, sources and search", async () => {
@@ -50,6 +51,17 @@ it("keeps the whole reviewed catalogue consistent across seasons, details, sourc
     );
   }
   const index = buildCatalogSearchIndex(search.entries);
+  // A season directory counts confirmed uses in that quarter, rather than all
+  // songs belonging to an anime that happens to continue through the season.
+  for (const year of groupCatalogYears(curatedSeasonDetails, search.entries)) {
+    for (const season of year.seasons) {
+      const seasonalRows = getPlaylistRows(index, {
+        query: "", scope: "all", year: String(season.year), quarter: season.quarter,
+        type: "all", sort: "newest", videoOnly: false, weekday: "", includeEmpty: false
+      });
+      expect(season.themeCount).toBe(seasonalRows.filter(({ theme }) => theme?.type === "OP" || theme?.type === "ED").length);
+    }
+  }
   const rows = getPlaylistRows(index, {
     query: "", scope: "all", year: "", quarter: "", type: "all", sort: "newest", videoOnly: false, weekday: "", includeEmpty: false
   });

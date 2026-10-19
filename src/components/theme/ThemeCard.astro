@@ -3,6 +3,7 @@ import type { PublicTheme } from "@/types/public-api";
 import { creditRoleLabel, themeTypeLabel } from "@/utils/theme";
 import { themeVideoAnchor } from "@/utils/youtube";
 import { seasonIdLabel } from "@/utils/season";
+import { buildThemeSearchText } from "@/utils/catalog-search";
 import ExternalLinkList from "@/components/links/ExternalLinkList.astro";
 import LazyYouTube from "@/components/youtube/LazyYouTube.astro";
 import SongRelations from "@/components/theme/SongRelations.astro";
@@ -28,7 +29,7 @@ const sourceRoleLabels = {
 } as const;
 ---
 
-<article class="theme-card" id={`theme-${theme.id}`}>
+<article class="theme-card" id={`theme-${theme.id}`} data-theme-type={theme.type} data-theme-search={buildThemeSearchText(theme)}>
   {theme.idAliases?.map((id) => <span class="theme-card__alias" id={`theme-${id}`} aria-hidden="true"></span>)}
   <div class="theme-card__summary">
     <div class:list={["theme-card__type", `theme-card__type--${theme.type.toLowerCase()}`]} aria-label={themeTypeLabel(theme)}>
@@ -44,6 +45,20 @@ const sourceRoleLabels = {
       {theme.versionLabel && <p class="theme-card__version">{theme.versionLabel}</p>}
     </div>
 
+  </div>
+
+  <details class="theme-card__details">
+    <summary aria-label={`${theme.titleJa}：查看歌曲詳情`}>
+      <strong>歌曲詳情 <span lang="en">Details</span></strong>
+      <span class="theme-card__detail-counts">{[
+        credits.length && `${credits.length} 項名單`,
+        theme.recordings?.length && `${theme.recordings.length} 個音源`,
+        theme.releases?.length && `${theme.releases.length} 個發行版`,
+        theme.videos.length && `${theme.videos.length} 支影片`,
+        `${theme.sources.length} 個來源`
+      ].filter(Boolean).join(" · ")}</span>
+    </summary>
+    <div class="theme-card__detail-body">
     <dl class="theme-card__credits">
       {credits.length > 0 ? credits.map((credit) => (
         <div><dt>{creditRoleLabel(credit.role)}</dt><dd>{credit.name}{credit.groupName && `（${credit.groupName}）`}</dd></div>
@@ -76,7 +91,7 @@ const sourceRoleLabels = {
         ))}
       </ul>
     </div>
-  </div>
+    </div>
 
   {(theme.recordings || theme.releases || theme.evidence) && <SongRelations theme={theme} />}
 
@@ -86,10 +101,11 @@ const sourceRoleLabels = {
       {theme.links.length > 0 && <div class="theme-card__links"><ExternalLinkList links={theme.links} /></div>}
     </div>
   )}
+  </details>
 </article>
 
 <style>
-  .theme-card { border-bottom: 1px solid var(--color-border); padding-block: 0.4rem 1.3rem; scroll-margin-top: 5rem; }
+  .theme-card { border-bottom: 1px solid var(--color-border); padding-block: 0.7rem 1rem; scroll-margin-top: 5rem; }
   .theme-card__alias { display: block; scroll-margin-top: 5rem; }
   .theme-card + .theme-card { margin-top: 1.2rem; }
   .theme-card__summary { align-items: start; display: grid; gap: 0.8rem 1rem; grid-template-columns: 3.5rem minmax(0, 1fr) minmax(0, 0.85fr); }
@@ -101,7 +117,14 @@ const sourceRoleLabels = {
   .theme-card__translation { color: var(--color-muted); font-size: 0.8rem; margin: 0.25rem 0 0; }
   .theme-card__artist { color: var(--color-muted); font-size: 0.95rem; line-height: 1.5; margin: 0.2rem 0 0; }
   .theme-card__version { color: var(--color-muted); font-size: 0.75rem; margin: 0.3rem 0 0; }
-  .theme-card__credits { display: grid; gap: 0.25rem; grid-column: 1 / 3; margin: 0; padding-block: 0.5rem; }
+  .theme-card__details { margin-top: 0.5rem; }
+  .theme-card__details > summary { align-items: baseline; cursor: pointer; display: list-item; font-size: 0.78rem; line-height: 1.8; padding-block: 0.4rem; }
+  .theme-card__details > summary::marker { color: var(--color-accent); }
+  .theme-card__details > summary strong { font-weight: 600; }
+  .theme-card__details > summary strong span { color: var(--color-muted); font-size: 0.68rem; font-weight: 400; margin-left: 0.3rem; }
+  .theme-card__detail-counts { color: var(--color-muted); display: inline-block; font-size: 0.7rem; margin-left: 0.8rem; overflow-wrap: anywhere; }
+  .theme-card__detail-body { align-items: start; border-top: 1px solid var(--color-border); display: grid; gap: 1rem; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); margin-top: 0.4rem; padding-top: 0.6rem; }
+  .theme-card__credits { display: grid; gap: 0.25rem; margin: 0; padding-block: 0.5rem; }
   .theme-card__credits div { display: grid; font-size: 0.78rem; gap: 0.65rem; grid-template-columns: 3.5rem minmax(0, 1fr); line-height: 1.65; }
   .theme-card__credits dt { color: var(--color-muted); }
   .theme-card__credits dd { margin: 0; overflow-wrap: anywhere; }
@@ -118,7 +141,8 @@ const sourceRoleLabels = {
   .theme-card__links { padding-top: 0.75rem; }
   @media (max-width: 660px) {
     .theme-card__summary { grid-template-columns: 3rem minmax(0, 1fr); }
-    .theme-card__credits, .theme-card__verification { grid-column: 1 / -1; }
+    .theme-card__detail-body { grid-template-columns: 1fr; gap: 0.5rem; }
+    .theme-card__detail-counts { display: block; margin-left: 0; }
     .theme-card__verification { border-left: 0; border-top: 1px solid var(--color-border); padding: 0.7rem 0 0; }
     .theme-card__identity h3 { font-size: 1.2rem; }
   }
