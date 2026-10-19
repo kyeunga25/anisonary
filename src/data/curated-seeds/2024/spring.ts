@@ -79,6 +79,6 @@ export const curated2024SpringSeeds: CuratedAnimeSeed[] = [
   {"anilistId":171115,"id":"curated-171115","slug":"rising-impact","seasonIds":["2024-spring"],"startDate":"2024-06-22","titleJa":"ライジングインパクト","titleZhHant":"一擊沖天","titleRomaji":"Rising Impact","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171115-IApjErPwc7oV.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/171115-kfQDnAONnxkK.jpg","editorialWeekday":6,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://www.netflix.com/title/81563026","anilistUrl":"https://anilist.co/anime/171115","imageSourceUrl":"https://anilist.co/anime/171115","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2024%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2024-spring?display=list_detailed","https://annict.com/works/11950","https://bgm.tv/subject/469400"],"animeThemesUrl":"https://animethemes.moe/anime/rising_impact","themes":[{"type":"ED","sequence":1,"titleJa":"gifted","artistDisplayName":"BLUE ENCOUNT"}],"verifiedAt":"2026-08-30"},
 ];
 
-export const curated2024SpringAnimeIds = [...curated2024SpringSeeds.map(
+export const curated2024SpringAnimeIds = [...[...curated2024SpringSeeds.map(
   ({ anilistId }) => anilistId,
-), 142274, 165159];
+), 142274, 165159], 8687, 966, 6149];

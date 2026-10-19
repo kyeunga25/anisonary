@@ -2539,6 +2539,6 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
 export const curated2020SpringSeeds: CuratedAnimeSeed[] =
   curated2020SpringSeedRows;
 
-export const curated2020SpringAnimeIds = curated2020SpringSeeds.map(
+export const curated2020SpringAnimeIds = [...curated2020SpringSeeds.map(
   ({ anilistId }) => anilistId,
-);
+), 8687, 966, 6149];

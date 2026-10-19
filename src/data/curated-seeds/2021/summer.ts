@@ -1905,4 +1905,4 @@ const curated2021SummerSeedRows: CuratedAnimeSeed[] = [
 
 export const curated2021SummerSeeds: CuratedAnimeSeed[] = curated2021SummerSeedRows;
 
-export const curated2021SummerAnimeIds = curated2021SummerSeeds.map(({ anilistId }) => anilistId);
+export const curated2021SummerAnimeIds = [...curated2021SummerSeeds.map(({ anilistId }) => anilistId), 8687, 966, 6149];

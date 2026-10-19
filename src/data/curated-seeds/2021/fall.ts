@@ -91,4 +91,4 @@ export const curated2021FallSeeds: CuratedAnimeSeed[] = curated2021FallSeedRows.
   };
 });
 
-export const curated2021FallAnimeIds = curated2021FallSeeds.map(({ anilistId }) => anilistId);
+export const curated2021FallAnimeIds = [...curated2021FallSeeds.map(({ anilistId }) => anilistId), 8687, 966, 6149];

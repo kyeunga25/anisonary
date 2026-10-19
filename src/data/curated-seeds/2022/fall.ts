@@ -83,4 +83,4 @@ export const curated2022FallSeeds: CuratedAnimeSeed[] = [
   {"anilistId":162802,"id":"curated-162802","slug":"saikyou-onmyouji-mini","seasonIds":["2022-fall"],"startDate":"2022-12-26","titleJa":"最強陰陽師みに","titleZhHant":"最強陰陽師迷你動畫","titleRomaji":"Saikyou Onmyouji Mini","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx162802-0h8kIWZanFQP.jpg","editorialWeekday":1,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://x.com/saikyo_onmyouji","anilistUrl":"https://anilist.co/anime/162802","imageSourceUrl":"https://anilist.co/anime/162802","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/16380"],"themes":[],"verifiedAt":"2026-09-01"},
 ];
 
-export const curated2022FallAnimeIds = [...curated2022FallSeeds.map(({ anilistId }) => anilistId), 142274];
+export const curated2022FallAnimeIds = [...[...curated2022FallSeeds.map(({ anilistId }) => anilistId), 142274], 8687, 966, 6149];
