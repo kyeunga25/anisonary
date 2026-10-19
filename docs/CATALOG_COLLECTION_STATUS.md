@@ -12,8 +12,8 @@
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED，已確認插曲一併記錄；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2020–2026標準季度TV的動畫及歌曲基本資料優先，按2026 → 2020、各年秋 → 夏 → 春 → 冬補漏。先處理可快速核實的原名、季度／首播、演唱名義、OP／ED用途及來源；創作、影片、音源、發行品及平台集中深化留待下一階段。約24分鐘、常見12／24集，13／26集及同類續播納入；短WEB、泡麵番、短篇TV及特殊番延後，既有成果保留 |
 | 完成條件 | 各季有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替；基本資料經公開JSON、頁面及必要檢查驗證，歌單與詳情保持易瀏覽；每筆用途保存現有欄位狀態、未記錄項目及已知續查條件，與完整收齊及來源日期分開。詳細欄位缺少不阻擋基本資料。作品聯集未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件 |
-| 執行狀態 | 基本資料階段持續執行；第42批正式發布來源`34838d7`／`batch42-basics`已驗收，第43批正在整理2026秋續播及分割季度基本資料。按批次持續補2020–2026標準TV基本資料，直至已登記範圍完成；詳細深化延後，本階段及長期目標未完成，沒有背景排程 |
-| 接續位置 | 第43批：2026秋季其餘標準TV基本資料與既有續播用途關聯，沿現有季度索引取第一方音樂與TV證據，先做快速可核實的新作／續播及輪替。固定截止日不移動；其後2026既有季、2025–2020聯集缺口，2025春curated-183133／curated-178701等接點保留；詳細深化待下一階段 |
+| 執行狀態 | 基本資料階段持續執行；第42批正式發布來源`34838d7`／`batch42-basics`已驗收，第43批資料、公開JSON與展示驗證完成，待正式發布。按批次持續補2020–2026標準TV基本資料，直至已登記範圍完成；詳細深化延後，本階段及長期目標未完成，沒有背景排程 |
+| 接續位置 | 第44批：接續2026秋其餘標準TV、續播及輪替；優先天は赤い河のほとり、アイプリ等已收錄作品與仍未補入的新作，兩輪後的明確缺口停留待辦。固定截止日不移動；其後2026既有季、2025–2020聯集缺口，2025春curated-183133／curated-178701等接點保留；詳細深化待下一階段 |
 | 發布提交 | 第42批：[PR #134](https://github.com/kyeunga25/anisonary/pull/134)，來源`34838d7`／`batch42-basics`；PR及main quality、Workers Builds、實際Cloudflare版本來源與正式站驗收通過。先前發布保留 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
@@ -21,7 +21,7 @@
 
 ## 季度進度 / Quarterly progress
 
-統計至第42批正式發布；第43批執行中，資料與展示的正式驗收另記；正式來源見頂部發布提交及各批live紀錄。數量為現有快照的OP／ED用途，依公開theme ID與用途季度計算；跨季用途可能重複，不能直接相加或當作唯一歌曲／音源數。
+統計至第43批本機驗證；第42批正式發布已驗收，資料與展示的正式驗收另記；正式來源見頂部發布提交及各批live紀錄。數量為現有快照的OP／ED用途，依公開theme ID與用途季度計算；跨季用途可能重複，不能直接相加或當作唯一歌曲／音源數。
 
 「基本欄位具備」表示現有歌曲原名、演唱名義、用途及第一方／交叉來源有值，動畫可識別且有季度與作品來源；這是現有資料的欄位盤點，不表示本批重查全部來源、作品清單已閉合或整季收齊。「已逐批核對」依下方各批公開ID明細，包含查找後保留續查條件的用途。
 
@@ -29,9 +29,9 @@
 
 | 季度 | 現有OP／ED用途 | 基本欄位具備 | 已逐批核對 | 其中詳細核心齊備 | 已核對詳細核心缺口 |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| 2026 秋 | 100 | 100 | 100 | 0 | 100 |
+| 2026 秋 | 116 | 116 | 116 | 1 | 115 |
 | 2026 夏 | 141 | 141 | 141 | 96 | 45 |
-| 2026 春 | 182 | 182 | 182 | 133 | 49 |
+| 2026 春 | 177 | 177 | 177 | 132 | 45 |
 | 2026 冬 | 137 | 137 | 137 | 106 | 31 |
 | 2025 秋 | 142 | 142 | 142 | 123 | 19 |
 | 2025 夏 | 192 | 192 | 177 | 163 | 14 |
@@ -62,9 +62,9 @@
 | 2019 春 | 尚未建立快照 | — | — | — | — |
 | 2019 冬 | 尚未建立快照 | — | — | — | — |
 
-2020–2026的28個季度現在均有快照，但2026秋僅50部作品100筆OP／ED及2筆IN用途，其他季度亦未完成完整標準TV作品聯集；各季現有筆數均不是經閉合盤點的全季分母。2026夏／春／冬的既有清單首輪與第08–37批成果保留，基本資料階段沒有重查全量舊來源。2025春尚有113筆、冬133筆現有OP／ED未逐批核對；2024–2020本輪逐批核對尚未開始，短篇／WEB缺口不阻擋標準TV推進。
+2020–2026的28個季度現在均有快照，但2026秋僅58部作品116筆OP／ED及2筆IN用途，其他季度亦未完成完整標準TV作品聯集；各季現有筆數均不是經閉合盤點的全季分母。2026夏／春／冬的既有清單首輪與第08–37批成果保留，基本資料階段沒有重查全量舊來源。2025春尚有113筆、冬133筆現有OP／ED未逐批核對；2024–2020本輪逐批核對尚未開始，短篇／WEB缺口不阻擋標準TV推進。
 
-目前926個唯一用途已逐批處理，其中879 OP／ED、38 IN、9 TS；跨季不可相加。第38–42批102筆用途的基本欄位及身分／用途證據齊備，詳細核心0／100是深化尚未開始，不表示基本資料失敗。2007–2018及2019春／冬仍無快照，長期範圍未完成。羽のゆりかご的季度fallback限制沿第37批記錄，未把未證實春季使用當作確證。
+目前937個唯一用途已逐批處理，其中890 OP／ED、38 IN、9 TS；跨季不可相加。第38–43批新增113筆用途的基本欄位及身分／用途證據齊備；秋季詳細核心1／116主要來自既有用途季度補正，不表示其餘基本資料失敗。春季5筆已證實第二季度用途改掛秋季，唯一歌曲與舊來源日期保留。2007–2018及2019春／冬仍無快照，長期範圍未完成。羽のゆりかご的季度fallback限制沿第37批記錄，未把未證實春季使用當作確證。
 
 ## 基線
 
@@ -84,7 +84,7 @@
 | 優先 | 工作 | 狀態與接點 |
 | --- | --- | --- |
 | 1 | 一次性最小格式與真實試行 | 2026-10-14 已完成，見下方 2026-summer-schema-pilot；後續直接沿用格式，不重新設計或搬移全量資料 |
-| 2 | 當前收集接點 | 第42批正式發布已驗收；第43批執行2026秋標準TV與續播用途關聯 |
+| 2 | 當前收集接點 | 第43批本機驗證完成、待發布；第44批接續2026秋其餘標準TV、續播及輪替 |
 | 3 | 2025–2020基本資料 | 標準TV按年份／季度倒序補作品聯集與歌曲輪替；短篇／WEB延後，詳細深化待後續指令 |
 | 4 | 較早年度 | 2019 → 2007保留長期待辦；2020–2026基本階段未完成前不擴張 |
 | 5 | 詳細資料 | 已完成的創作、影片、音源、發行品及平台資料保留；未解觸發條件沿用，集中深化延後 |
@@ -3649,3 +3649,66 @@ Cloudflare實際CLI部署exit 0，資料驗收來源`a23128662d1968815db88726910
 正式季度102筆用途／50部、每頁24列；搜尋Galaxy Mode得到1筆，點選後同頁顯示全部2首，詳情包含逐欄位狀態與來源。393像素手機內容寬393、0影片iframe；臨時來源研究分頁關閉後核對正確目標視窗，沒有修改產品排版。未聲稱實際播放或地區可用性。
 
 第43批執行中：先修正既有分割季度／續播關聯，沿用原ID、歌曲與已核對詳細資料；只更新本次實際查閱的動畫來源日期，逐用途缺口繼續保留。基本階段與長期目標均未完成。
+
+
+## 2026-10-19 批次：2020-2026-tv-basics-43（本機驗證完成，正式發布待完成）
+
+完成層次：2026秋分割季度／續播基本資料與動畫來源日期；處理8部28筆OP／ED，新增2部、11筆用途，沿用17筆既有用途與詳細成果。固定截止日2026-10-14，實際查閱日2026-10-19。
+
+| 公開 theme ID | 歌曲／官方音樂名義／用途 | 第一方來源 |
+| --- | --- | --- |
+| `diamond-no-ace-act-ii-second-season-op-1` | Let’s Go Crazy／Baby Canta／OP1 | [官方](https://news.ponycanyon.co.jp/2026/07/123565) |
+| `diamond-no-ace-act-ii-second-season-ed-1` | NUMBER／SUPER★DRAGON／ED1 | [官方](https://super-dragon.jp/discography/call-me-asap-number/) |
+| `diamond-no-ace-act-ii-second-season-op-2` | NEVER SAY NEVER AGAIN／GLAY／OP2 | [官方](https://www.glay.co.jp/news/detail/10279) |
+| `diamond-no-ace-act-ii-second-season-ed-2` | ROAD TO BE BLUE／OxT／ED2 | [官方](https://diaace.com/music/) |
+| `mahou-no-shimai-luluttolilly-op-1` | Bubee／ILLIT／OP1 | [官方](https://www.luluttolilly.com/staff-cast/) |
+| `mahou-no-shimai-luluttolilly-ed-1` | Calling／ルルットリリィ［こんぺとリリィ（CV.橘 めい）、ましゅールル（CV.小鹿なお）］／ED1 | [官方](https://www.luluttolilly.com/staff-cast/) |
+| `mahou-no-shimai-luluttolilly-op-2` | Swingin' Magic／ILLIT／OP2 | [官方](https://www.luluttolilly.com/news/detail.php?id=24340) |
+| `mahou-no-shimai-luluttolilly-ed-2` | どりぃむアラモード／ルルットリリィ［こんぺとリリィ（CV：橘めい）、ましゅールル（CV：小鹿なお）］／ED2 | [官方](https://www.luluttolilly.com/news/detail.php?id=24340) |
+| `yozakura-san-chi-no-daisakusen-2nd-season-op-1` | What's "KAZOKU"?／櫻坂46／OP1 | [官方](https://mission-yozakura-family.com/) |
+| `yozakura-san-chi-no-daisakusen-2nd-season-ed-1` | Shalala／ピラフ星人／ED1 | [官方](https://mission-yozakura-family.com/) |
+| `yozakura-san-chi-no-daisakusen-2nd-season-op-2` | フォーエバーソング／ハンブレッダーズ／OP2 | [官方](https://mission-yozakura-family.com/music/index04.html) |
+| `yozakura-san-chi-no-daisakusen-2nd-season-ed-2` | I'm still breathing／KID PHENOMENON／ED2 | [官方](https://mission-yozakura-family.com/music/index04.html) |
+| `chitose-kun-wa-ramune-bin-no-naka-op-1` | ライアー／Kucci／OP1 | [官方](https://chiramune.com/news/index00180000.html) |
+| `chitose-kun-wa-ramune-bin-no-naka-ed-1` | 陽炎／サイダーガール／ED1 | [官方](https://chiramune.com/news/index00180000.html) |
+| `chitose-kun-wa-ramune-bin-no-naka-op-2` | 咲く／サイダーガール／OP2 | [官方](https://chiramune.com/music/index.html) |
+| `chitose-kun-wa-ramune-bin-no-naka-ed-2` | どこにもいけないまま／Aruma／ED2 | [官方](https://chiramune.com/music/index.html) |
+| `tsuihou-sareta-tensei-juukishi-wa-game-chishiki-de-musou-suru-op-1` | Awake／SPYAIR／OP1 | [官方](https://www.qobuz.com/jp-ja/album/awake-spyair/drp5mf9lvi6y4) |
+| `tsuihou-sareta-tensei-juukishi-wa-game-chishiki-de-musou-suru-ed-1` | Lv.1職業：人間／ReoNa／ED1 | [官方](https://www.sonymusic.co.jp/artist/ReoNa/info/584735) |
+| `tsuihou-sareta-tensei-juukishi-wa-game-chishiki-de-musou-suru-op-2` | Rewrite the Answer／常闇トワ／OP2 | [官方](https://sh-anime.shochiku.co.jp/jukishi-anime/music/) |
+| `tsuihou-sareta-tensei-juukishi-wa-game-chishiki-de-musou-suru-ed-2` | コンテンポラリーダンス／PompadollS／ED2 | [官方](https://sh-anime.shochiku.co.jp/jukishi-anime/music/) |
+| `uchi-no-otouto-domo-ga-sumimasen-op-1` | アイコトバ／DISH//／OP1 | [官方](https://www.youtube.com/watch?v=X_knFby9AJc) |
+| `uchi-no-otouto-domo-ga-sumimasen-ed-1` | Clover／汐れいら／ED1 | [官方](https://www.youtube.com/watch?v=4KZnNNPfkss) |
+| `uchi-no-otouto-domo-ga-sumimasen-op-2` | LOVE ＆ LIKE／ねぐせ。／OP2 | [官方](https://uchioto-anime.com/music/) |
+| `uchi-no-otouto-domo-ga-sumimasen-ed-2` | まばたき／ミーマイナー／ED2 | [官方](https://uchioto-anime.com/music/) |
+| `juuou-mujin-dandivine-op-1` | 残響≠ブラスター／西川貴教／OP1 | [官方](https://gattaishin.com/dandivine/music/) |
+| `juuou-mujin-dandivine-ed-1` | ミカンセイオーディナリー／DayRe:／ED1 | [官方](https://gattaishin.com/dandivine/music/) |
+| `dragon-ball-super-beerus-op-1` | オノガミ／メガテラ・ゼロ／OP1 | [官方](https://dragonball-super.com/music/index.html) |
+| `dragon-ball-super-beerus-ed-1` | 完璧のペキ／ビッケブランカ／ED1 | [官方](https://dragonball-super.com/music/index.html) |
+
+- 已處理anime ID：`curated-177634`、`curated-178749`、`curated-182578`、`curated-180082`、`curated-180136`、`curated-203490`、`curated-213068`、`curated-206814`。新增Dandivine及Dragon Ball Super: Beerus兩部；千歳、重騎士、うちの弟ども各補第二季度OP／ED，ダイヤ補ED2，另5筆既有第二季度歌改掛秋季，未建立重複動畫或歌曲ID。
+- 全目錄30季、2,037部、4,523用途（4,476 OP／ED、38 IN、9 TS）；28筆處理用途包含11筆新增及17筆既有。全部用途保留`dataStatus`，278筆有基本三欄各自第一方／交叉證據、4,245筆保留來源待細分引用；狀態不等同所有詳細資訊已齊備。沒有新增音源、影片metadata或發行品。已讀官方頁明列的16項詞／曲／編角色一併保存，未推導演唱團隊或full／TV。
+- 春季原有5筆第二季度用途改掛2026秋，春季現有177筆、詳細核心132；秋季116筆、詳細核心1。歌曲、用途序號、URL及既有credits、影片、收錄均保留。夏季第一季度4筆及千歳2025秋2筆使用明確用途季度，避免將舊歌隨作品續播自動帶進秋季。原有來源可重用，沒有重新核查全目錄。
+- 6部既有作品補播出標籤及秋季關聯，已完結標記按官方第二季度更正為放送中。重騎士及うちの弟ども深夜首回的實際日期分別為7月3日、7月4日，保留原節目表星期及24時記法，沒有將先行配信當TV首播。千歳官方演唱名義保留`Aruma`；Dandivine羅馬字未加入疑似混字形，未補造正式繁中名稱或圖片。
+
+### 動畫來源日期與資料保留
+
+- authoring新增可選`metadataSources`，按canonical URL逐項更新實際查閱的動畫來源；`metadataVerifiedAt`仍作未重查項目的基準。Builder取動畫來源最新日期作公開`verifiedAt`，沿用既有公開API與parser，不新增runtime資料服務。只對6部真實續播試行，沒有搬移全量歷史資料。
+- 2,029部非本批動畫JSON逐項SHA-256不變；17筆既有用途的核心、credits、影片、音源及發行關係一致，舊歌曲來源逐項不變；28條未重查動畫來源的資料與日期保留。新增日期只屬本次實際查閱來源，千歳原識別來源仍為10月16日，其餘舊識別／圖像仍沿用原日期。
+- 首次完整目錄測試正確攔下重騎士／うちの弟ども第一季度只填季度而缺少用途欄位引用；補入已讀music證據及沿用夏季索引原日期後通過，未削弱parser或更改正常程式遷就測試。
+
+### 未解缺口與續查條件
+
+- 秋季58部仍是子集；天は赤い河のほとり與アイプリ後期歌已存在，當季關聯待第一方播出／輪替期別支持。BEYBLADE X多年歌曲尚無逐季度範圍，不能把全部9首自動掛秋季，亦不能把未知季度回填為已確認首季；後續先做可快速證實的當期用曲，其餘保留範圍缺口。
+- ガルパンもっとらぶらぶ、恐怖コレクター及兩首插曲缺口沿第41–42批；缺少清楚第一方或交叉資料時保留，待具體官方音樂／商品／藝人公告或可讀正片用曲資料出現，不延長同一首搜尋。
+- 本批新增11筆基本必要欄位無未解衝突；個別演唱、詳細名單、音源、官方影片、完整收錄、確切平台及地區可用性按逐筆狀態留待深化。已有部分名單不代表角色、成員或所有版本已完整。
+- 2025夏15、春113、冬133筆現有OP／ED仍未逐批核對；2024–2020本階段逐批盤點未開始，各季度作品聯集未閉合。
+
+### 本機檢查與展示
+
+- 最終`npm test`4檔／7項、`npm run build`2,083 HTML／4,164公開產物通過，Astro無errors／warnings／hints；完整6條E2E通過（17.6秒）。8部28筆通過實際ApiProvider解析，包含個別日期、季度及資料狀態。沒有修改公開API parser、UI、依賴、CI或Cloudflare設定。
+- in-app Chromium：8部393×852手機逐頁展開，28筆用途及28組狀態，內容寬393、0影片iframe；桌面季度118筆用途／58部、每頁24列。秋季搜尋千歳只列2首第二季度歌，動畫頁仍可看全部4首及2025秋／2026秋標示；新曲詳情與舊曲深度資料並存。未宣稱實際播放或地區可用性。
+- Cloudflare dry-run exit0且有成功marker、無bindings。公開邊界245個repository檔案、7個文件相對連結、diff格式及新增行私隱／credential檢查全部通過；臨時工具、來源查閱筆記、log與測試產物留在repository外。
+- 正式發布待固定PR head、CI／Workers、正常合併、實際部署及獨立live驗收；目前production為第42批`34838d7`／`batch42-basics`。
+
+預覽入口：`/seasons/2026-fall/`、`/anime/chitose-kun-wa-ramune-bin-no-naka/`、`/anime/diamond-no-ace-act-ii-second-season/`、`/anime/juuou-mujin-dandivine/`。下一批2026秋其餘標準TV及續播；原季度作品聯集與基本階段未完成。
