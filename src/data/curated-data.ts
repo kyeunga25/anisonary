@@ -4856,8 +4856,10 @@ function toDetail(seed: CuratedAnimeSeed): PublicAnimeDetail {
     id: seed.id,
     slug: publicSlug(seed),
     titleJa: seed.titleJa,
-    titleZhHant: chineseTitleOverrides[seed.anilistId] ?? seed.titleZhHant,
-    titleRomaji: seed.titleRomaji,
+    ...((chineseTitleOverrides[seed.anilistId] ?? seed.titleZhHant) ? {
+      titleZhHant: chineseTitleOverrides[seed.anilistId] ?? seed.titleZhHant
+    } : {}),
+    ...(seed.titleRomaji ? { titleRomaji: seed.titleRomaji } : {}),
     ...(seed.posterUrl ? { posterUrl: seed.posterUrl } : {}),
     posterAlt: seed.posterUrl
       ? `《${seed.titleJa}》公開直式視覺`
