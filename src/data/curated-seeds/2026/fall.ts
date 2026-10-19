@@ -3126,6 +3126,13 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
             "language": "ja",
             "role": "cross_check",
             "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：角色演唱版BD公告（版本待核對）",
+            "url": "https://nama-anaru.com/news/?article_id=71467",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
           }
         ],
         "lastVerifiedAt": "2026-10-19",
@@ -6039,7 +6046,1851 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
         ]
       }
     ]
+  },
+  {
+    "anilistId": 179876,
+    "id": "curated-179876",
+    "slug": "dark-machine-the-animation",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-14",
+    "titleJa": "DARK MACHINE THE ANIMATION",
+    "titleRomaji": "DARK MACHINE: The Animation",
+    "editorialWeekday": 2,
+    "broadcastTimeJst": "25:45",
+    "broadcastLabel": "2026-10-14 起・TV・25:45（JST）・フジテレビ・節目表10月13日深夜（實際10月14日）",
+    "status": "airing",
+    "officialSiteUrl": "https://www.fujitv.co.jp/darkmachine_anime/",
+    "anilistUrl": "https://anilist.co/anime/179876",
+    "sourceReferenceUrls": [
+      "https://www.fujitv.co.jp/fujitv/news/20260949.html",
+      "https://youranimes.tw/bangumi/202610",
+      "https://mikiki.tokyo.jp/articles/-/46275"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "存在理由　改",
+        "artistDisplayName": "BUCK∞TICK",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "dark-machine-the-animation-op-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、音樂名義與動畫用途",
+            "url": "https://www.fujitv.co.jp/fujitv/news/20260888.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV首播與播出資料",
+            "url": "https://www.fujitv.co.jp/fujitv/news/20260949.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "Mikiki：季度歌曲、名義及用途交叉核對",
+            "url": "https://mikiki.tokyo.jp/articles/-/46275",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "dark-machine-the-animation-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.fujitv.co.jp/fujitv/news/20260888.html",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "dark-machine-the-animation-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.fujitv.co.jp/fujitv/news/20260888.html",
+              "https://www.fujitv.co.jp/fujitv/news/20260949.html",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "Galaxy Mode",
+        "artistDisplayName": "三代目 J SOUL BROTHERS",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "dark-machine-the-animation-ed-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、音樂名義與動畫用途",
+            "url": "https://sugizo.com/contents/451817",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV首播與播出資料",
+            "url": "https://www.fujitv.co.jp/fujitv/news/20260949.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "Mikiki：季度歌曲、名義及用途交叉核對",
+            "url": "https://mikiki.tokyo.jp/articles/-/46275",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "dark-machine-the-animation-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://sugizo.com/contents/451817",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "dark-machine-the-animation-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://sugizo.com/contents/451817",
+              "https://www.fujitv.co.jp/fujitv/news/20260949.html",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 187990,
+    "id": "curated-187990",
+    "slug": "battle-spirits-re-zekkai-no-kuu",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-06",
+    "titleJa": "Battle Spirits [Re] 絶界の空",
+    "titleRomaji": "Battle Spirits [Re] Zekkai no Kuu",
+    "editorialWeekday": 2,
+    "broadcastTimeJst": "23:00",
+    "broadcastLabel": "2026-10-06 起・TV・23:00（JST）・TOKYO MX",
+    "status": "airing",
+    "officialSiteUrl": "https://www.bn-pictures.co.jp/battlespirits/",
+    "anilistUrl": "https://anilist.co/anime/187990",
+    "sourceReferenceUrls": [
+      "https://www.bn-pictures.co.jp/battlespirits/",
+      "https://youranimes.tw/bangumi/202610",
+      "https://mikiki.tokyo.jp/articles/-/46275"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Here we are！",
+        "artistDisplayName": "JAM Project",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "battle-spirits-re-zekkai-no-kuu-op-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、音樂名義與動畫用途",
+            "url": "https://www.bn-pictures.co.jp/battlespirits/music/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV首播與播出資料",
+            "url": "https://www.bn-pictures.co.jp/battlespirits/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "Mikiki：季度歌曲、名義及用途交叉核對",
+            "url": "https://mikiki.tokyo.jp/articles/-/46275",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "battle-spirits-re-zekkai-no-kuu-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.bn-pictures.co.jp/battlespirits/music/",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "battle-spirits-re-zekkai-no-kuu-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.bn-pictures.co.jp/battlespirits/music/",
+              "https://www.bn-pictures.co.jp/battlespirits/",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.bn-pictures.co.jp/battlespirits/music/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "credits": [
+          {
+            "name": "JAM Project",
+            "role": "vocals"
+          },
+          {
+            "name": "影山ヒロノブ",
+            "role": "lyrics"
+          },
+          {
+            "name": "影山ヒロノブ",
+            "role": "composition"
+          },
+          {
+            "name": "馬渕直純",
+            "role": "arrangement"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "パルス",
+        "artistDisplayName": "秘めごと",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "battle-spirits-re-zekkai-no-kuu-ed-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、音樂名義與動畫用途",
+            "url": "https://www.bn-pictures.co.jp/battlespirits/music/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV首播與播出資料",
+            "url": "https://www.bn-pictures.co.jp/battlespirits/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "Mikiki：季度歌曲、名義及用途交叉核對",
+            "url": "https://mikiki.tokyo.jp/articles/-/46275",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "battle-spirits-re-zekkai-no-kuu-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.bn-pictures.co.jp/battlespirits/music/",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "battle-spirits-re-zekkai-no-kuu-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.bn-pictures.co.jp/battlespirits/music/",
+              "https://www.bn-pictures.co.jp/battlespirits/",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.bn-pictures.co.jp/battlespirits/music/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "credits": [
+          {
+            "name": "秘めごと",
+            "role": "vocals"
+          },
+          {
+            "name": "秘めごと",
+            "role": "lyrics"
+          },
+          {
+            "name": "木天蓼",
+            "role": "composition"
+          },
+          {
+            "name": "木天蓼",
+            "role": "arrangement"
+          },
+          {
+            "name": "UK",
+            "role": "arrangement"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 199007,
+    "id": "curated-199007",
+    "slug": "zombie-sagashitemasu",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-03",
+    "titleJa": "#ゾンビさがしてます",
+    "titleRomaji": "#Zombie Sagashitemasu",
+    "editorialWeekday": 6,
+    "broadcastTimeJst": "23:30",
+    "broadcastLabel": "2026-10-03 起・TV・23:30（JST）・テレビ朝日系全国24局「IMAnimation」枠；時段依交叉播出資料",
+    "status": "airing",
+    "officialSiteUrl": "https://zommasu.com/",
+    "anilistUrl": "https://anilist.co/anime/199007",
+    "sourceReferenceUrls": [
+      "https://zommasu.com/onair/",
+      "https://youranimes.tw/bangumi/202610",
+      "https://mikiki.tokyo.jp/articles/-/46275"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "ラキラキ",
+        "artistDisplayName": "すりぃ",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "zombie-sagashitemasu-op-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、音樂名義與動畫用途",
+            "url": "https://zommasu.com/music/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV首播與播出資料",
+            "url": "https://zommasu.com/onair/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "Mikiki：季度歌曲、名義及用途交叉核對",
+            "url": "https://mikiki.tokyo.jp/articles/-/46275",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "zombie-sagashitemasu-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://zommasu.com/music/",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "zombie-sagashitemasu-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://zommasu.com/music/",
+              "https://zommasu.com/onair/",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://zommasu.com/music/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "credits": [
+          {
+            "name": "すりぃ",
+            "role": "vocals"
+          },
+          {
+            "name": "すりぃ",
+            "role": "lyrics"
+          },
+          {
+            "name": "すりぃ",
+            "role": "composition"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "ソフトアポカリプス",
+        "artistDisplayName": "cadode",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "zombie-sagashitemasu-ed-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、音樂名義與動畫用途",
+            "url": "https://zommasu.com/music/ending.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV首播與播出資料",
+            "url": "https://zommasu.com/onair/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "Mikiki：季度歌曲、名義及用途交叉核對",
+            "url": "https://mikiki.tokyo.jp/articles/-/46275",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "zombie-sagashitemasu-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://zommasu.com/music/ending.html",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "zombie-sagashitemasu-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://zommasu.com/music/ending.html",
+              "https://zommasu.com/onair/",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://zommasu.com/music/ending.html"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "credits": [
+          {
+            "name": "cadode",
+            "role": "vocals"
+          },
+          {
+            "name": "koshi",
+            "role": "lyrics"
+          },
+          {
+            "name": "eba",
+            "role": "composition"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 199068,
+    "id": "curated-199068",
+    "slug": "shin-tennis-no-ouji-sama-u17-world-cup-kesshou-member-ketteisen",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-01",
+    "titleJa": "新テニスの王子様 U-17 WORLD CUP 決勝メンバー決定戦",
+    "titleRomaji": "Shin Tennis no Ouji-sama: U-17 WORLD CUP Kesshou Member Ketteisen",
+    "editorialWeekday": 3,
+    "broadcastTimeJst": "24:00",
+    "broadcastLabel": "2026-10-01 起・TV・24:00（JST）・テレ東・節目表9月30日深夜（實際10月1日）",
+    "status": "airing",
+    "officialSiteUrl": "https://tenipuri.jp/u17/selection-match/",
+    "anilistUrl": "https://anilist.co/anime/199068",
+    "sourceReferenceUrls": [
+      "https://www.tv-tokyo.co.jp/anime/tenipri-u17/onair/",
+      "https://youranimes.tw/bangumi/202610",
+      "https://mikiki.tokyo.jp/articles/-/46275"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Walls And Bridges",
+        "artistDisplayName": "青酢",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "shin-tennis-no-ouji-sama-u17-world-cup-kesshou-member-ketteisen-op-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、音樂名義與動畫用途",
+            "url": "https://tenipuri.jp/u17/selection-match/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV首播與播出資料",
+            "url": "https://www.tv-tokyo.co.jp/anime/tenipri-u17/onair/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "Mikiki：季度歌曲、名義及用途交叉核對",
+            "url": "https://mikiki.tokyo.jp/articles/-/46275",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "shin-tennis-no-ouji-sama-u17-world-cup-kesshou-member-ketteisen-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tenipuri.jp/u17/selection-match/",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "shin-tennis-no-ouji-sama-u17-world-cup-kesshou-member-ketteisen-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tenipuri.jp/u17/selection-match/",
+              "https://www.tv-tokyo.co.jp/anime/tenipri-u17/onair/",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "金環蝕 phenomenal",
+        "artistDisplayName": "跡部景吾&忍足侑士",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "shin-tennis-no-ouji-sama-u17-world-cup-kesshou-member-ketteisen-ed-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、音樂名義與動畫用途",
+            "url": "https://tenipuri.jp/u17/selection-match/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV首播與播出資料",
+            "url": "https://www.tv-tokyo.co.jp/anime/tenipri-u17/onair/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "Mikiki：季度歌曲、名義及用途交叉核對",
+            "url": "https://mikiki.tokyo.jp/articles/-/46275",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "shin-tennis-no-ouji-sama-u17-world-cup-kesshou-member-ketteisen-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tenipuri.jp/u17/selection-match/",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "shin-tennis-no-ouji-sama-u17-world-cup-kesshou-member-ketteisen-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tenipuri.jp/u17/selection-match/",
+              "https://www.tv-tokyo.co.jp/anime/tenipri-u17/onair/",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 199594,
+    "id": "curated-199594",
+    "slug": "tetsuryou-meet-with-tetsudou-musume",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-09",
+    "titleJa": "てつりょー！meet with 鉄道むすめ",
+    "titleRomaji": "Tetsuryou! meet with Tetsudou Musume",
+    "editorialWeekday": 4,
+    "broadcastTimeJst": "24:00",
+    "broadcastLabel": "2026-10-09 起・TV・24:00（JST）・TOKYO MX／BSフジ・節目表10月8日深夜（實際10月9日）",
+    "status": "airing",
+    "officialSiteUrl": "https://tetsuryo-anime.com/",
+    "anilistUrl": "https://anilist.co/anime/199594",
+    "sourceReferenceUrls": [
+      "https://tetsuryo-anime.com/onair/",
+      "https://youranimes.tw/bangumi/202610",
+      "https://mikiki.tokyo.jp/articles/-/46275"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "GO! GO! RAILWAY!!",
+        "artistDisplayName": "亜咲花",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "tetsuryou-meet-with-tetsudou-musume-op-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、音樂名義與動畫用途",
+            "url": "https://tetsuryo-anime.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV首播與播出資料",
+            "url": "https://tetsuryo-anime.com/onair/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "Mikiki：季度歌曲、名義及用途交叉核對",
+            "url": "https://mikiki.tokyo.jp/articles/-/46275",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "tetsuryou-meet-with-tetsudou-musume-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tetsuryo-anime.com/",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "tetsuryou-meet-with-tetsudou-musume-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tetsuryo-anime.com/",
+              "https://tetsuryo-anime.com/onair/",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "わたし未来線",
+        "artistDisplayName": "てつりょー会（橘めい・庄子真央・福嶋晴菜・月城日花）",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "tetsuryou-meet-with-tetsudou-musume-ed-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、音樂名義與動畫用途",
+            "url": "https://tetsuryo-anime.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV首播與播出資料",
+            "url": "https://tetsuryo-anime.com/onair/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "Mikiki：季度歌曲、名義及用途交叉核對",
+            "url": "https://mikiki.tokyo.jp/articles/-/46275",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "tetsuryou-meet-with-tetsudou-musume-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tetsuryo-anime.com/",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "tetsuryou-meet-with-tetsudou-musume-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tetsuryo-anime.com/",
+              "https://tetsuryo-anime.com/onair/",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 200294,
+    "id": "curated-200294",
+    "slug": "choujun-choujou-senpai",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-06",
+    "titleJa": "超巡！超条先輩",
+    "titleRomaji": "Choujun! Choujou Senpai",
+    "editorialWeekday": 2,
+    "broadcastTimeJst": "23:00",
+    "broadcastLabel": "2026-10-06 起・TV・23:00（JST）・カンテレ／フジテレビ系「火アニバル!!」枠；首回23:15起",
+    "status": "airing",
+    "officialSiteUrl": "https://chojun-anime.com/",
+    "anilistUrl": "https://anilist.co/anime/200294",
+    "sourceReferenceUrls": [
+      "https://chojun-anime.com/onair/",
+      "https://youranimes.tw/bangumi/202610",
+      "https://mikiki.tokyo.jp/articles/-/46275"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "ザッツ！超常",
+        "artistDisplayName": "M!LK",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "choujun-choujou-senpai-op-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、音樂名義與動畫用途",
+            "url": "https://chojun-anime.com/music/op/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV首播與播出資料",
+            "url": "https://chojun-anime.com/onair/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "Mikiki：季度歌曲、名義及用途交叉核對",
+            "url": "https://mikiki.tokyo.jp/articles/-/46275",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "choujun-choujou-senpai-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://chojun-anime.com/music/op/",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "choujun-choujou-senpai-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://chojun-anime.com/music/op/",
+              "https://chojun-anime.com/onair/",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://chojun-anime.com/music/op/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "credits": [
+          {
+            "name": "M!LK",
+            "role": "vocals"
+          },
+          {
+            "name": "山崎あおい",
+            "role": "lyrics"
+          },
+          {
+            "name": "山崎あおい",
+            "role": "composition"
+          },
+          {
+            "name": "炭竃智弘",
+            "role": "arrangement"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "またあした",
+        "artistDisplayName": "至福ぽんちょ",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "choujun-choujou-senpai-ed-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、音樂名義與動畫用途",
+            "url": "https://chojun-anime.com/music/ed",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV首播與播出資料",
+            "url": "https://chojun-anime.com/onair/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "Mikiki：季度歌曲、名義及用途交叉核對",
+            "url": "https://mikiki.tokyo.jp/articles/-/46275",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "choujun-choujou-senpai-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://chojun-anime.com/music/ed",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "choujun-choujou-senpai-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://chojun-anime.com/music/ed",
+              "https://chojun-anime.com/onair/",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://chojun-anime.com/music/ed"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "credits": [
+          {
+            "name": "至福ぽんちょ",
+            "role": "vocals"
+          },
+          {
+            "name": "神谷泰地",
+            "role": "lyrics"
+          },
+          {
+            "name": "神谷泰地",
+            "role": "composition"
+          },
+          {
+            "name": "神谷泰地",
+            "role": "arrangement"
+          },
+          {
+            "name": "堀ノ内ソウ",
+            "role": "arrangement"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 204650,
+    "id": "curated-204650",
+    "slug": "tougen-anki-nikko-kegon-no-taki-hen",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-02",
+    "titleJa": "桃源暗鬼 ～日光・華厳の滝編～",
+    "titleRomaji": "Tougen Anki: Nikko・Kegon no Taki-hen",
+    "editorialWeekday": 5,
+    "broadcastTimeJst": "23:30",
+    "broadcastLabel": "2026-10-02 起・TV・23:30（JST）・日本テレビ系「フラアニ」枠",
+    "status": "airing",
+    "officialSiteUrl": "https://tougenanki-anime.com/",
+    "anilistUrl": "https://anilist.co/anime/204650",
+    "sourceReferenceUrls": [
+      "https://tougenanki-anime.com/",
+      "https://youranimes.tw/bangumi/202610",
+      "https://mikiki.tokyo.jp/articles/-/46275"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "BACKLASH",
+        "artistDisplayName": "Hiromitsu Kitayama",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "tougen-anki-nikko-kegon-no-taki-hen-op-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、音樂名義與動畫用途",
+            "url": "https://tougenanki-anime.com/music/op3/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV首播與播出資料",
+            "url": "https://tougenanki-anime.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "Mikiki：季度歌曲、名義及用途交叉核對",
+            "url": "https://mikiki.tokyo.jp/articles/-/46275",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "tougen-anki-nikko-kegon-no-taki-hen-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tougenanki-anime.com/music/op3/",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "tougen-anki-nikko-kegon-no-taki-hen-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tougenanki-anime.com/music/op3/",
+              "https://tougenanki-anime.com/",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "手と手",
+        "artistDisplayName": "TRACK15",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "tougen-anki-nikko-kegon-no-taki-hen-ed-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、音樂名義與動畫用途",
+            "url": "https://tougenanki-anime.com/music/ed3/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV首播與播出資料",
+            "url": "https://tougenanki-anime.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "Mikiki：季度歌曲、名義及用途交叉核對",
+            "url": "https://mikiki.tokyo.jp/articles/-/46275",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "tougen-anki-nikko-kegon-no-taki-hen-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tougenanki-anime.com/music/ed3/",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "tougen-anki-nikko-kegon-no-taki-hen-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tougenanki-anime.com/music/ed3/",
+              "https://tougenanki-anime.com/",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 207329,
+    "id": "curated-207329",
+    "slug": "tsuihou-sareta-cheat-fuyo-majutsushi-wa-kimama-na-second-life-wo-ouka-suru",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-07",
+    "titleJa": "追放されたチート付与魔術師は気ままなセカンドライフを謳歌する。 ～俺は武器だけじゃなく、あらゆるものに『強化ポイント』を付与できるし、俺の意思でいつでも効果を解除できるけど、残った人たち大丈夫？～",
+    "titleRomaji": "Tsuihou Sareta Cheat Fuyo Majutsushi wa Kimama na Second Life wo Ouka Suru.: Ore wa Buki dake ja Naku, Arayuru Mono ni \"Kyouka Point\" wo Fuyo Dekiru shi, Ore no Ishi de Itsudemo Kouka wo Kaijo Dekiru kedo, Nokotta Hitotachi Daijoubu?",
+    "editorialWeekday": 2,
+    "broadcastTimeJst": "24:00",
+    "broadcastLabel": "2026-10-07 起・TV・24:00（JST）・テレ東系列・節目表10月6日深夜（實際10月7日）",
+    "status": "airing",
+    "officialSiteUrl": "https://sh-anime.shochiku.co.jp/chiifuyo-anime/",
+    "anilistUrl": "https://anilist.co/anime/207329",
+    "sourceReferenceUrls": [
+      "https://sh-anime.shochiku.co.jp/chiifuyo-anime/onair",
+      "https://youranimes.tw/bangumi/202610",
+      "https://mikiki.tokyo.jp/articles/-/46275"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "エンバートーチ",
+        "artistDisplayName": "sumika",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "tsuihou-sareta-cheat-fuyo-majutsushi-wa-kimama-na-second-life-wo-ouka-suru-op-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、音樂名義與動畫用途",
+            "url": "https://sh-anime.shochiku.co.jp/chiifuyo-anime/music",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV首播與播出資料",
+            "url": "https://sh-anime.shochiku.co.jp/chiifuyo-anime/onair",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "Mikiki：季度歌曲、名義及用途交叉核對",
+            "url": "https://mikiki.tokyo.jp/articles/-/46275",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "tsuihou-sareta-cheat-fuyo-majutsushi-wa-kimama-na-second-life-wo-ouka-suru-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://sh-anime.shochiku.co.jp/chiifuyo-anime/music",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "tsuihou-sareta-cheat-fuyo-majutsushi-wa-kimama-na-second-life-wo-ouka-suru-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://sh-anime.shochiku.co.jp/chiifuyo-anime/music",
+              "https://sh-anime.shochiku.co.jp/chiifuyo-anime/onair",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://sh-anime.shochiku.co.jp/chiifuyo-anime/music"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "credits": [
+          {
+            "name": "sumika",
+            "role": "vocals"
+          },
+          {
+            "name": "片岡健太",
+            "role": "lyrics"
+          },
+          {
+            "name": "片岡健太",
+            "role": "composition"
+          },
+          {
+            "name": "宮田＇レフティ＇リョウ",
+            "role": "arrangement"
+          },
+          {
+            "name": "sumika",
+            "role": "arrangement"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "ロールプレイングライフ",
+        "artistDisplayName": "Luov",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "tsuihou-sareta-cheat-fuyo-majutsushi-wa-kimama-na-second-life-wo-ouka-suru-ed-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、音樂名義與動畫用途",
+            "url": "https://sh-anime.shochiku.co.jp/chiifuyo-anime/music",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV首播與播出資料",
+            "url": "https://sh-anime.shochiku.co.jp/chiifuyo-anime/onair",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "アニしま：曲名、演唱名義與動畫用途交叉核對",
+            "url": "https://anime-song-info.com/chiifuyo-op-ed-26at/",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "tsuihou-sareta-cheat-fuyo-majutsushi-wa-kimama-na-second-life-wo-ouka-suru-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://sh-anime.shochiku.co.jp/chiifuyo-anime/music",
+              "https://anime-song-info.com/chiifuyo-op-ed-26at/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "tsuihou-sareta-cheat-fuyo-majutsushi-wa-kimama-na-second-life-wo-ouka-suru-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://sh-anime.shochiku.co.jp/chiifuyo-anime/music",
+              "https://sh-anime.shochiku.co.jp/chiifuyo-anime/onair",
+              "https://anime-song-info.com/chiifuyo-op-ed-26at/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://sh-anime.shochiku.co.jp/chiifuyo-anime/music"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "credits": [
+          {
+            "name": "Luov",
+            "role": "vocals"
+          },
+          {
+            "name": "HALDONA",
+            "role": "lyrics"
+          },
+          {
+            "name": "HALDONA",
+            "role": "composition"
+          },
+          {
+            "name": "Takakuzo",
+            "role": "arrangement"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 209562,
+    "id": "curated-209562",
+    "slug": "vertex-force",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-03",
+    "titleJa": "バーテックスフォース",
+    "titleRomaji": "Vertex Force",
+    "editorialWeekday": 6,
+    "broadcastTimeJst": "23:30",
+    "broadcastLabel": "2026-10-03 起・TV・23:30（JST）・TOKYO MXほか",
+    "status": "airing",
+    "officialSiteUrl": "https://vertexforce.jp/",
+    "anilistUrl": "https://anilist.co/anime/209562",
+    "sourceReferenceUrls": [
+      "https://vertexforce.jp/onair/",
+      "https://youranimes.tw/bangumi/202610",
+      "https://mikiki.tokyo.jp/articles/-/46275"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "シンクロブルー",
+        "artistDisplayName": "ClariS",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "vertex-force-op-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、音樂名義與動畫用途",
+            "url": "https://vertexforce.jp/music/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV首播與播出資料",
+            "url": "https://vertexforce.jp/onair/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "Mikiki：季度歌曲、名義及用途交叉核對",
+            "url": "https://mikiki.tokyo.jp/articles/-/46275",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "vertex-force-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://vertexforce.jp/music/",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "vertex-force-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://vertexforce.jp/music/",
+              "https://vertexforce.jp/onair/",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://vertexforce.jp/music/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "credits": [
+          {
+            "name": "ClariS",
+            "role": "vocals"
+          },
+          {
+            "name": "丸山真由子",
+            "role": "lyrics"
+          },
+          {
+            "name": "丸山真由子",
+            "role": "composition"
+          },
+          {
+            "name": "丸山真由子",
+            "role": "arrangement"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "エメラルド",
+        "artistDisplayName": "はしメロ",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "vertex-force-ed-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、音樂名義與動畫用途",
+            "url": "https://vertexforce.jp/music/?page=ed",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV首播與播出資料",
+            "url": "https://vertexforce.jp/onair/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "Mikiki：季度歌曲、名義及用途交叉核對",
+            "url": "https://mikiki.tokyo.jp/articles/-/46275",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "vertex-force-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://vertexforce.jp/music/?page=ed",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "vertex-force-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://vertexforce.jp/music/?page=ed",
+              "https://vertexforce.jp/onair/",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://vertexforce.jp/music/?page=ed"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "credits": [
+          {
+            "name": "はしメロ",
+            "role": "vocals"
+          },
+          {
+            "name": "はしメロ",
+            "role": "lyrics"
+          },
+          {
+            "name": "東京真中",
+            "role": "lyrics"
+          },
+          {
+            "name": "はしメロ",
+            "role": "composition"
+          },
+          {
+            "name": "Shin Sakiura",
+            "role": "arrangement"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 212503,
+    "id": "curated-212503",
+    "slug": "hyouken-no-majutsushi-ga-sekai-wo-suberu-ii",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-09",
+    "titleJa": "冰剣の魔術師が世界を統べるⅡ",
+    "titleRomaji": "Hyouken no Majutsushi ga Sekai wo Suberu II",
+    "editorialWeekday": 4,
+    "broadcastTimeJst": "25:28",
+    "broadcastLabel": "2026-10-09 起・TV・25:28（JST）・TBS・節目表10月8日深夜（實際10月9日）",
+    "status": "airing",
+    "officialSiteUrl": "https://hyouken-anime.com/",
+    "anilistUrl": "https://anilist.co/anime/212503",
+    "sourceReferenceUrls": [
+      "https://hyouken-anime.com/",
+      "https://youranimes.tw/bangumi/202610",
+      "https://mikiki.tokyo.jp/articles/-/46275"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Diamond Dust",
+        "artistDisplayName": "Sizuk",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "hyouken-no-majutsushi-ga-sekai-wo-suberu-ii-op-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、音樂名義與動畫用途",
+            "url": "https://hyouken-anime.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "Mikiki：季度歌曲、名義及用途交叉核對",
+            "url": "https://mikiki.tokyo.jp/articles/-/46275",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "hyouken-no-majutsushi-ga-sekai-wo-suberu-ii-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://hyouken-anime.com/",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "hyouken-no-majutsushi-ga-sekai-wo-suberu-ii-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://hyouken-anime.com/",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://hyouken-anime.com/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "credits": [
+          {
+            "name": "藤林聖子",
+            "role": "lyrics"
+          },
+          {
+            "name": "俊龍",
+            "role": "composition"
+          },
+          {
+            "name": "岩橋星実(Elements Garden)",
+            "role": "arrangement"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "COMPRESSION :[",
+        "artistDisplayName": "内田真礼",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "hyouken-no-majutsushi-ga-sekai-wo-suberu-ii-ed-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、音樂名義與動畫用途",
+            "url": "https://hyouken-anime.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "Mikiki：季度歌曲、名義及用途交叉核對",
+            "url": "https://mikiki.tokyo.jp/articles/-/46275",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "hyouken-no-majutsushi-ga-sekai-wo-suberu-ii-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://hyouken-anime.com/",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "hyouken-no-majutsushi-ga-sekai-wo-suberu-ii-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://hyouken-anime.com/",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://hyouken-anime.com/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "credits": [
+          {
+            "name": "内田真礼",
+            "role": "vocals"
+          },
+          {
+            "name": "渡辺翔",
+            "role": "lyrics"
+          },
+          {
+            "name": "渡辺翔",
+            "role": "composition"
+          },
+          {
+            "name": "白戸佑輔(Dream Monster)",
+            "role": "arrangement"
+          }
+        ]
+      }
+    ]
   }
 ];
 
-export const curated2026FallAnimeIds: number[] = [191788, 189123, 205909, 199426, 206401, 159042, 172192, 185756, 187402, 195604, 213805, 176314, 209502, 206949, 160803, 152677, 180894, 209872, 178868, 207191, 191656, 202250, 209463, 187316, 205896, 186742, 178083, 169581, 186541, 200455, 202079, 211778, 209499, 204389, 195571, 216557, 212888, 204011, 212799, 195516];
+export const curated2026FallAnimeIds: number[] = [191788, 189123, 205909, 199426, 206401, 159042, 172192, 185756, 187402, 195604, 213805, 176314, 209502, 206949, 160803, 152677, 180894, 209872, 178868, 207191, 191656, 202250, 209463, 187316, 205896, 186742, 178083, 169581, 186541, 200455, 202079, 211778, 209499, 204389, 195571, 216557, 212888, 204011, 212799, 195516, 179876, 187990, 199007, 199068, 199594, 200294, 204650, 207329, 209562, 212503];
