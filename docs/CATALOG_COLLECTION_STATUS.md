@@ -12,9 +12,9 @@
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED，已確認插曲一併記錄；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2020–2026標準季度TV的動畫及歌曲基本資料優先，按2026 → 2020、各年秋 → 夏 → 春 → 冬補漏。先處理可快速核實的原名、季度／首播、演唱名義、OP／ED用途及來源；創作、影片、音源、發行品及平台集中深化留待下一階段。約24分鐘、常見12／24集，13／26集及同類續播納入；長篇以2020–2026的TV用曲季度盤點，不以作品首播年自動排除；短WEB、泡麵番、短篇TV及特殊番延後，既有成果保留 |
 | 完成條件 | 各季有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替；基本資料經公開JSON、頁面及必要檢查驗證，歌單與詳情保持易瀏覽；每筆用途保存現有欄位狀態、未記錄項目及已知續查條件，與完整收齊及來源日期分開。詳細欄位缺少不阻擋基本資料。作品聯集未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件 |
-| 執行狀態 | 基本資料階段持續執行；第55批正式來源`8a1b0db`／`batch55-basics`已驗收。第56批10部23筆本機驗證完成，正常PR gate中，來源與驗證產物固定；第57批獨立分支接續2025冬10部21筆起始用途，未混入前批發布。詳細深化與整體目標未完成，沒有背景排程 |
+| 執行狀態 | 基本資料階段持續執行；第56批10部23筆已正常合併、實際部署及正式站驗收，來源`6b62c03`／`batch56-basics`。第57批獨立分支接續2025冬10部21筆起始用途，來源核對中；詳細深化與整體目標未完成，沒有背景排程 |
 | 接續位置 | 第56批正常發布收尾後，第57批處理2025冬：`curated-178022`、`curated-172019`、`curated-175443`、`curated-178548`、`curated-179297`、`curated-180292`、`curated-162921`、`curated-172439`、`curated-172453`、`curated-175409`；起始21筆既有用途。核對TV本期、原名／名義／用途與逐曲狀態，已證實IN一併保存，短篇與詳細集中深化延後 |
-| 發布提交 | 第55批[PR #147](https://github.com/kyeunga25/anisonary/pull/147)，正式來源`8a1b0db`／`batch55-basics`；PR／main quality與Workers Builds、實際Cloudflare來源、正式站驗收及annotated tag推送通過。第56批本機驗證完成，正常發布待完成，先前發布保留 |
+| 發布提交 | 第56批[PR #148](https://github.com/kyeunga25/anisonary/pull/148)，正式來源`6b62c03`／`batch56-basics`；PR／main quality與Workers Builds、實際Cloudflare來源、正式站驗收及annotated tag推送通過。第57批執行中，尚未完成資料及展示驗證，先前發布保留 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
 執行狀態使用「未開始／執行中／已暫停／已完成／已取消」；無法繼續時另記具體阻礙及仍未完成部分，不自動標記完成。長期目標與本次工作量分開，未指定本次工作量時先完成下一批。
@@ -4574,7 +4574,7 @@ GitHub open Dependabot警示增至24項，新增[source-map-js advisory](https:/
 - annotated tag `batch55-basics`指向正式來源並已推送。第56批接續冬季22筆起始用途，基本階段、作品聯集及長期目標未完成。
 
 
-## 2020-2026-tv-basics-56（本機驗證完成，正式發布待完成）
+## 2020-2026-tv-basics-56（已正式發布）
 
 固定2020–2026標準TV與2026-10-14資料截止日保持；實際查閱日另記。接續2025冬：`curated-176273`、`curated-176496`、`curated-185880`、`curated-169441`、`curated-170916`、`curated-179696`、`curated-176063`、`curated-177552`、`curated-178550`、`curated-176234`，起始22筆既有用途。先保存可快速確認的本期TV、歌曲原名／名義／用途與逐曲狀態，已證實插曲一併記錄；短篇、特殊編排與詳細集中深化延後。第55批正常PR／main gate、實際部署及正式站驗收已完成，來源與產物固定，本批未混入前批發布；第56批資料、公開JSON及本機展示已驗證，正常發布待完成；基本階段及長期目標未完成。
 
@@ -4634,6 +4634,15 @@ GitHub open Dependabot警示增至24項，新增[source-map-js advisory](https:/
 - 一個季度資料檔改動，無新季度或UI／contract／播放器變更，不逐首或重跑本機完整E2E；正常PR／main仍涵蓋重要E2E。Cloudflare dry-run exit0且完成marker、無bindings；公開邊界、文件連結、diff及敏感內容在提交前收尾。正常發布與正式站驗收待完成，本機通過不作production證明。
 
 預覽入口：`/anime/watashi-no-shiawase-na-kekkon-2nd-season/`、`/anime/ore-dake-level-up-na-ken-season-2-arise-from-the-shadow/`、`/anime/kuroiwa-medaka-ni-watashi-no-kawaii-ga-tsuujinai/`、`/seasons/2025-winter/`。第57批接續頂部21筆用途，本階段及長期目標均未完成。
+
+
+### 第56批正式發布驗收（2026-10-20）
+
+- [PR #148](https://github.com/kyeunga25/anisonary/pull/148)通過quality及Workers Builds後正常rebase合併；審閱head`616f904fe36cdc016f4edc3e7b27cd7d6ab0fc67`，main來源`6b62c0368501c61b46b359a9b404c4aeb07046b4`與審閱tree相同，main兩項gate亦成功。正常CI涵蓋重要E2E，未略過gate。
+- 實際Wrangler部署固定4,194個已驗證產物，部署來源乾淨；Cloudflare版本metadata確認`batch56-basics`與完整main來源／PR #148一致，第57批未混入。
+- 正式站90條HTML／JSON／目錄／Service Worker路徑與固定產物SHA-256一致，2條未知路徑返回真正404；安全headers、API noindex／revalidation／無跨域開放與ApiProvider 10部23筆驗收通過。
+- 正式站Chromium393×852展開10頁23組原名／演唱／資料狀態，無溢出、app errors及影片iframe；新IN與精確單曲入口可讀，LEveL季度待核保持。另在in-app Chromium665像素實際檢視きずなの唄的基本證據、詞曲編、來源、官方試聽及待補欄位畫面。
+- annotated tag `batch56-basics`指向正式來源並已推送。第57批接續冬季21筆起始用途，基本階段、作品聯集及長期目標未完成。
 
 
 ## 2020-2026-tv-basics-57（執行中）
