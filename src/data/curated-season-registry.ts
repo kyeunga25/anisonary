@@ -197,7 +197,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     quarter: "fall",
     titleZhHant: "秋季動畫",
     titleJa: "2026年秋アニメ",
-    coverageNote: "本季先收錄58部已核對基本資料的標準TV作品與116筆OP／ED及2筆已確認插曲，資料範圍截至2026-10-14。其他作品、續播及輪替仍待補齊；詳細創作、影片、音源與發行資訊分階段補充，現有筆數不是全季總數。",
+    coverageNote: "本季先收錄65部已核對身分與TV資料的標準長度作品，含125筆OP／ED、2筆已確認插曲及1筆一般主題歌；其中2部歌曲用途待核對。資料範圍截至2026-10-14；續播與輪替仍待補齊，詳細資訊分階段補充，現有筆數不是全季總數。",
     seeds: curated2026FallSeeds,
     animeIds: curated2026FallAnimeIds
   },
