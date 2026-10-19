@@ -4986,3 +4986,11 @@ GitHub open Dependabot警示增至24項，新增[source-map-js advisory](https:/
 - 8個既有季度資料檔有變，沒有新季度、UI／contract／播放器／依賴／部署設定改動，不重跑本機完整E2E；正常PR／main仍含重要E2E。Cloudflare dry-run exit0、完成marker與無bindings。公開邊界、文件連結、敏感內容及diff在提交前收尾；本機通過不當production驗收。
 
 預覽入口：`/anime/himitsu-no-aipri/`、`/anime/tousouchuu-great-mission/`、`/anime/re-zero-kara-hajimeru-isekai-seikatsu-3rd-season/`、`/anime/wonderful-precure/`、`/seasons/2025-winter/`、`/seasons/2024-fall/`。第61批接續頂部10部21筆，基本階段及長期目標未完成。
+
+
+## 2020-2026-tv-basics-61（執行中）
+
+- 範圍：2024秋標準TV10部、起始21筆既有用途；固定2020–2026基本階段與2026-10-14截止日維持。按實際首播、續播及歌曲輪替記季度；短篇／WEB與詳細集中深化延後。
+- 公開anime ID：`curated-171018`、`curated-151514`、`curated-163146`、`curated-166611`、`curated-170732`、`curated-170468`、`curated-175019`、`curated-162785`、`curated-163135`、`curated-165790`。原名、演唱、用途與逐曲狀態優先，已明列IN一併記錄，不從角色商品推TV使用。
+- 第60批來源及4,194產物固定，正常發布待完成；本批只進行獨立來源核對，尚未修改歌曲資料或記作齊備。前批3筆用途第一方待核、シンカリオン部分冬季缺口及其他33筆全目錄季度待核保持，不重複查找未觸發項。
+- 本批尚未檢查。下一步：沿既有精確官方頁及原期存檔，核對21筆及同頁明列基本歌曲；兩輪未明保存續查條件。前批正式驗收後才進行本批資料修改。
