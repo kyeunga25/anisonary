@@ -71,6 +71,6 @@ export const curated2024SummerSeeds: CuratedAnimeSeed[] = [
   {"anilistId":177814,"id":"curated-177814","slug":"terminator-0","seasonIds":["2024-summer"],"startDate":"2024-08-29","titleJa":"ターミネーター 0","titleZhHant":"未來戰士 Zero","titleRomaji":"Terminator 0","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177814-Xr9F98LExkWd.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/177814-tY1Rrb1E4TlV.jpg","editorialWeekday":4,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://www.netflix.com/hk/title/81217220","anilistUrl":"https://anilist.co/anime/177814","imageSourceUrl":"https://anilist.co/anime/177814","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2024%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2024-summer?display=list_detailed","https://annict.com/works/8140"],"themes":[],"verifiedAt":"2026-08-30"}
 ];
 
-export const curated2024SummerAnimeIds = [...[...curated2024SummerSeeds.map(
+export const curated2024SummerAnimeIds = [...[...[...curated2024SummerSeeds.map(
   ({ anilistId }) => anilistId,
-), 142274, 165159], 8687, 966, 6149];
+), 142274, 165159], 8687, 966, 6149], 171030, 171080, 172395, 159560];
