@@ -188,6 +188,22 @@ it("keeps per-use data status compatible with legacy payloads and rejects inflat
   expect(status.details.platforms).toBe("entry_links_only");
   expect(status.pendingFields).toEqual(expect.arrayContaining(["lyrics", "composition", "arrangement", "recordings", "official_video", "releases", "platform_links"]));
 
+  const unassigned = structuredClone(anime);
+  const unassignedTheme = unassigned.themes[0]!;
+  unassignedTheme.seasonIds = [];
+  unassignedTheme.dataStatus = deriveThemeDataStatus(unassignedTheme, [{
+    fields: ["use_quarters"], note: "用途季度尚未逐曲核對", resumeWhen: "取得明確使用集數與播出日期的證據"
+  }]);
+  fetchMock.mockImplementation(async () => publicJsonResponse(unassigned));
+  await expect(provider.getAnime(unassigned.slug)).resolves.toEqual(unassigned);
+  for (const status of [undefined, deriveThemeDataStatus(unassignedTheme)]) {
+    const missingFollowUp = structuredClone(unassigned);
+    if (status) missingFollowUp.themes[0]!.dataStatus = status;
+    else delete missingFollowUp.themes[0]!.dataStatus;
+    fetchMock.mockImplementation(async () => publicJsonResponse(missingFollowUp));
+    await expect(provider.getAnime(unassigned.slug)).rejects.toThrow("invalid anime payload");
+  }
+
   const payload = structuredClone(curatedAnimeDetails.find((detail) => detail.themes.some((theme) => theme.dataStatus?.followUp))!);
   expect(payload).toBeDefined();
   const index = payload.themes.findIndex((theme) => theme.dataStatus?.followUp);

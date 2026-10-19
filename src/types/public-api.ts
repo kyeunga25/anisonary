@@ -149,7 +149,7 @@ export interface PublicFieldEvidence {
 }
 
 export type PublicThemeDataField =
-  | "basic_evidence" | "lyrics" | "composition" | "arrangement"
+  | "basic_evidence" | "use_quarters" | "lyrics" | "composition" | "arrangement"
   | "recordings" | "recording_format" | "official_video" | "video_metadata"
   | "releases" | "platform_links" | "platform_availability";
 
@@ -178,7 +178,8 @@ export interface PublicThemeDataStatus {
 
 export interface PublicTheme {
   id: string;
-  // Confirmed use quarters; omitted legacy records retain work-level membership.
+  // Confirmed use quarters; [] explicitly means unverified, omitted legacy records
+  // retain work-level membership. Empty arrays require a follow-up in dataStatus.
   seasonIds?: string[];
   // Retired duplicate IDs resolve to this use without adding another song row.
   idAliases?: string[];

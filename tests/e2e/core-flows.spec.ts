@@ -274,6 +274,26 @@ test("song library and local search combine quarters, sorting, multilingual inpu
   await themeSearch.getByRole("button", { name: "重設", exact: true }).click();
   await expect(visibleThemes).toHaveCount(longAnime.themes.length);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+
+  // Unassigned use quarters must remain searchable without leaking into a
+  // year filter. The same stable anchor opens the song and its follow-up.
+  const unassignedAnime = curatedAnimeDetails.find((anime) => anime.themes.some((theme) => theme.seasonIds?.length === 0))!;
+  const unassignedTheme = unassignedAnime.themes.find((theme) => theme.seasonIds?.length === 0)!;
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto("/search/");
+  await input.fill(unassignedTheme.titleJa);
+  const unassignedRow = page.locator(`.song-row[href$="#theme-${unassignedTheme.id}"]`);
+  await expect(unassignedRow.locator(".song-row__season")).toHaveText("用途季度待核對");
+  await page.locator(".playlist-filters summary").click();
+  await page.getByRole("combobox", { name: "年份", exact: true }).selectOption("2026");
+  await expect(unassignedRow).toHaveCount(0);
+  await page.getByRole("combobox", { name: "年份", exact: true }).selectOption("");
+  await expect(unassignedRow).toBeVisible();
+  await unassignedRow.click();
+  const unassignedCard = page.locator(`[id="theme-${unassignedTheme.id}"]`);
+  await expect(unassignedCard).toContainText("用途季度待核對");
+  await expect(unassignedCard.getByRole("region", { name: "歌曲資料狀態" })).toContainText("用途季度");
+  await expect(unassignedCard).toContainText(unassignedTheme.dataStatus!.followUp!.find((gap) => gap.fields.includes("use_quarters"))!.resumeWhen);
 });
 
 test("year and quarter browsing works with a mobile keyboard, without JavaScript, and through 404 recovery", async ({ page, browser }) => {

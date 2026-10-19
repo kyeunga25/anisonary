@@ -38253,7 +38253,8 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
     "id": "curated-170018",
     "slug": "ao-no-orchestra-season-2",
     "seasonIds": [
-      "2025-fall"
+      "2025-fall",
+      "2026-winter"
     ],
     "verifiedAt": "2026-10-16",
     "startDate": "2025-10-05",
@@ -38262,7 +38263,7 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
     "titleRomaji": "Ao no Orchestra Season 2",
     "editorialWeekday": 7,
     "broadcastTimeJst": "17:00",
-    "broadcastLabel": "日本首播",
+    "broadcastLabel": "2025-10-05起・TV週日17:00（JST）・NHK Eテレ；2026年1月續播",
     "status": "finished",
     "officialSiteUrl": "https://aooke-anime.com/",
     "anilistUrl": "https://anilist.co/anime/170018",
@@ -38283,7 +38284,8 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
         "artistDisplayName": "Galileo Galilei",
         "songId": "ao-no-orchestra-season-2-op-1-song",
         "seasonIds": [
-          "2025-fall"
+          "2025-fall",
+          "2026-winter"
         ],
         "sourceMode": "explicit",
         "sources": [
@@ -38292,7 +38294,7 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "label": "官方：歌曲、演唱與動畫用途",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-10-16"
+            "verifiedAt": "2026-10-19"
           },
           {
             "url": "https://youranimes.tw/bangumi/202510",
@@ -38314,6 +38316,20 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "first_party",
             "language": "multi",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://aooke-anime.com/news/3125402.html",
+            "label": "動畫官方：Season2歌曲與冬季續播證據",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202601",
+            "label": "YourAnimes：冬季續播交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-19"
           }
         ],
         "credits": [
@@ -38539,6 +38555,19 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "https://dhits.docomo.ne.jp/music/1046091214"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "ao-no-orchestra-season-2-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://aooke-anime.com/news/3125402.html",
+              "https://aooke-anime.com/music/",
+              "https://youranimes.tw/bangumi/202601"
+            ],
+            "verifiedAt": "2026-10-19"
           }
         ],
         "releaseDate": "2025-10-06",
@@ -38663,7 +38692,8 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "availability": "unknown",
             "releaseId": "ao-no-orchestra-season-2-op-1-song-digital"
           }
-        ]
+        ],
+        "lastVerifiedAt": "2026-10-19"
       },
       {
         "type": "ED",
@@ -38672,7 +38702,8 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
         "artistDisplayName": "チョーキューメイ",
         "songId": "ao-no-orchestra-season-2-ed-1-song",
         "seasonIds": [
-          "2025-fall"
+          "2025-fall",
+          "2026-winter"
         ],
         "sourceMode": "explicit",
         "sources": [
@@ -38681,7 +38712,7 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "label": "官方：歌曲、演唱與動畫用途",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-10-16"
+            "verifiedAt": "2026-10-19"
           },
           {
             "url": "https://youranimes.tw/bangumi/202510",
@@ -38710,6 +38741,20 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "first_party",
             "language": "multi",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://aooke-anime.com/news/3125402.html",
+            "label": "動畫官方：Season2歌曲與冬季續播證據",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202601",
+            "label": "YourAnimes：冬季續播交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-19"
           }
         ],
         "credits": [
@@ -38939,6 +38984,19 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "https://mora.jp/package/43000035/4570165317764/"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "ao-no-orchestra-season-2-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://aooke-anime.com/news/3125402.html",
+              "https://aooke-anime.com/music/ending.html",
+              "https://youranimes.tw/bangumi/202601"
+            ],
+            "verifiedAt": "2026-10-19"
           }
         ],
         "releaseDate": "2025-10-06",
@@ -39058,7 +39116,25 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "availability": "unknown",
             "releaseId": "ao-no-orchestra-season-2-ed-1-song-digital"
           }
-        ]
+        ],
+        "lastVerifiedAt": "2026-10-19"
+      }
+    ],
+    "metadataVerifiedAt": "2026-10-16",
+    "metadataSources": [
+      {
+        "url": "https://aooke-anime.com/news/3125402.html",
+        "label": "動畫官方：2026-01-04第13話與正常時段",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "url": "https://youranimes.tw/bangumi/202601",
+        "label": "YourAnimes：2026冬季TV續播身分",
+        "role": "broadcast_cross_check",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-10-19"
       }
     ]
   },
@@ -57236,6 +57312,16 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "availability": "unknown",
             "releaseId": "morisaki-win-nevaneva-digital"
           }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "use_quarters"
+            ],
+            "note": "2026冬季中文清單列為續播；本曲保留已確認的2025秋季，冬季使用仍缺可讀的第一方對應，未更新既有來源日期。",
+            "resumeWhen": "官方冬季節目／歌曲公告可讀，或取得該期正片credit及播出日期後，再補季度；已作兩輪定向查找，無新證據不重搜。",
+            "checkedAt": "2026-10-19"
+          }
         ]
       },
       {
@@ -57619,6 +57705,16 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "verifiedAt": "2026-10-16",
             "availability": "unknown",
             "releaseId": "kagaku-bouken-survival-2nd-season-ed-1-song-digital"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "use_quarters"
+            ],
+            "note": "2026冬季中文清單列為續播；本曲保留已確認的2025秋季，冬季使用仍缺可讀的第一方對應，未更新既有來源日期。",
+            "resumeWhen": "官方冬季節目／歌曲公告可讀，或取得該期正片credit及播出日期後，再補季度；已作兩輪定向查找，無新證據不重搜。",
+            "checkedAt": "2026-10-19"
           }
         ]
       }
@@ -65806,4 +65902,4 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
   }
 ];
 
-export const curated2025FallAnimeIds: number[] = [177937,170577,153800,185801,183385,180082,181447,194447,179302,195153,179992,182896,162890,180436,195240,186524,187940,173523,177271,186190,186794,186920,129195,186161,183965,185575,185731,162669,184322,188487,173692,183291,185116,187464,193968,188388,190840,186914,170018,170936,184997,196553,196230,187860,176298,174914,186621,198561,198117,185694,186736,140291,184718,187921,187331,194832,198926,198413,199794,169420,188653,193238,193883,196229,187166,195173,199009,194389,188529,199635,204621,198921,199008,185073,178052,184470];
+export const curated2025FallAnimeIds: number[] = [177937, 170577, 153800, 185801, 183385, 180082, 181447, 194447, 179302, 195153, 179992, 182896, 162890, 180436, 195240, 186524, 187940, 173523, 177271, 186190, 186794, 186920, 129195, 186161, 183965, 185575, 185731, 162669, 184322, 188487, 173692, 183291, 185116, 187464, 193968, 188388, 190840, 186914, 170018, 170936, 184997, 196553, 196230, 187860, 176298, 174914, 186621, 198561, 198117, 185694, 186736, 140291, 184718, 187921, 187331, 194832, 198926, 198413, 199794, 169420, 188653, 193238, 193883, 196229, 187166, 195173, 199009, 194389, 188529, 199635, 204621, 198921, 199008, 185073, 178052, 184470, 158871, 189258];

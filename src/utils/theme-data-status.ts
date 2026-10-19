@@ -1,13 +1,14 @@
 import type { PublicTheme, PublicThemeDataField, PublicThemeDataStatus, PublicThemeFollowUp } from "@/types/public-api";
 
 export const themeDataFields = [
-  "basic_evidence", "lyrics", "composition", "arrangement", "recordings",
+  "basic_evidence", "use_quarters", "lyrics", "composition", "arrangement", "recordings",
   "recording_format", "official_video", "video_metadata", "releases",
   "platform_links", "platform_availability"
 ] as const satisfies readonly PublicThemeDataField[];
 
 export const themeDataFieldLabels: Record<PublicThemeDataField, string> = {
   basic_evidence: "基本欄位證據",
+  use_quarters: "用途季度",
   lyrics: "作詞", composition: "作曲", arrangement: "編曲",
   recordings: "音源版本", recording_format: "音源長度分類",
   official_video: "官方影片", video_metadata: "影片形式／渠道資料",
@@ -36,6 +37,7 @@ export function deriveThemeDataStatus(theme: PublicTheme, followUp?: PublicTheme
   }
   const hasBasicEvidence = basicDates.length === 6;
   if (!hasBasicEvidence) pending.add("basic_evidence");
+  if (theme.seasonIds?.length === 0) pending.add("use_quarters");
 
   const roles = ["lyrics", "composition", "arrangement"] as const;
   const recordedRoles = roles.filter((role) => theme.credits.some((credit) => credit.role === role));

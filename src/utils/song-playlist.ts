@@ -32,13 +32,19 @@ export function getPlaylistRows(index: CatalogSearchIndex, options: PlaylistOpti
         : [];
     }
     return selected.flatMap((theme) => {
-      const useSeason = theme.seasonIds
-        ? memberships.find((membership) => theme.seasonIds!.includes(membership.id))
-        : displaySeason;
+      // Unassigned uses remain discoverable globally, but never enter a
+      // quarter/year filter through the work-level fallback.
+      const unassigned = theme.seasonIds?.length === 0;
+      const useSeason = unassigned
+        ? (options.year || options.quarter ? undefined : displaySeason)
+        : theme.seasonIds
+          ? memberships.find((membership) => theme.seasonIds!.includes(membership.id))
+          : displaySeason;
       return useSeason ? [{ anime, theme, season: useSeason }] : [];
     });
   });
   return rows.sort((left, right) => {
+    const byAssignment = Number(left.theme?.seasonIds?.length === 0) - Number(right.theme?.seasonIds?.length === 0);
     const bySeason = compareSeasonsNewestFirst(left.season, right.season);
     const byAnime = collator.compare(left.anime.titleZhHant ?? left.anime.titleJa, right.anime.titleZhHant ?? right.anime.titleJa);
     const typeOrder = { OP: 0, ED: 1, IN: 2, TS: 3 };
@@ -46,8 +52,8 @@ export function getPlaylistRows(index: CatalogSearchIndex, options: PlaylistOpti
       || (left.theme?.sequence ?? 0) - (right.theme?.sequence ?? 0);
     if (options.sort === "song") return collator.compare(left.theme?.titleJa ?? "", right.theme?.titleJa ?? "") || byAnime || byTheme;
     if (options.sort === "artist") return collator.compare(left.theme?.artistDisplayName ?? "", right.theme?.artistDisplayName ?? "") || byAnime || byTheme;
-    if (options.sort === "anime") return byAnime || bySeason || byTheme;
-    return (options.sort === "oldest" ? -bySeason : bySeason) || byAnime || byTheme;
+    if (options.sort === "anime") return byAnime || byAssignment || bySeason || byTheme;
+    return byAssignment || (options.sort === "oldest" ? -bySeason : bySeason) || byAnime || byTheme;
   });
 }
 
@@ -57,5 +63,6 @@ export function playlistRowHref(row: PlaylistRow, songAnchor = false): string {
 }
 
 export function playlistSeasonLabel(row: PlaylistRow): string {
-  return `${row.season.year} ${row.season.titleZhHant.replace("動畫", "")}`;
+  return row.theme?.seasonIds?.length === 0 ? "用途季度待核對"
+    : `${row.season.year} ${row.season.titleZhHant.replace("動畫", "")}`;
 }

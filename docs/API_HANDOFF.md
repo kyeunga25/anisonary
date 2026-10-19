@@ -58,7 +58,7 @@ PUBLIC_API_BASE_URL=https://anisonary.k-y.cc/api/v1 npm run api:check
 - `theme.songId`、`recordings[]`、`releases[]`、`evidence[]` 是可選的歌曲、音源、收錄及欄位來源關係；舊記錄可以省略。發行品日期保留 year／month／day 精度，`tracks[]` 只列與本曲相關的收錄，不是完整曲目表；
 - `theme.dataStatus` 是可選的逐用途欄位盤點，依據為 `stored_fields_and_evidence`。`basic`、`details` 及 `pendingFields` 必須與實際欄位／證據一致，parser 拒絕膨脹或矛盾的狀態；不能視為所有版本已完整。`followUp[]` 可保存公開缺口、續查條件及獨立 `checkedAt`，不改動來源日期。舊 payload 省略整個欄位仍可使用；完整狀態定義見歌曲 workflow；
 - `theme.usageLabel` 可選，用於 TV 放送版、特定配信版等動畫用途標籤；音源標籤另由 `versionLabel`／`recordings[]` 保存，不因播放渠道增加歌曲身分；
-- `theme.seasonIds[]` 可選，保存有第一方 `anime_use` 用途證據的季度，必須屬於該作品的已收錄季度。歌單按此關聯篩選並選擇季度標籤；動畫頁仍保留全部歌曲。舊記錄省略時沿用作品季度，不能由音源或商品發行日期推定用途季度；
+- `theme.seasonIds[]` 可選，保存有第一方 `anime_use` 用途證據的季度，必須屬於該作品的已收錄季度。歌單按此關聯篩選並選擇季度標籤；動畫頁仍保留全部歌曲。明列空陣列 `[]` 表示用途季度待核對，必須同時提供 `dataStatus` 的 `use_quarters` 待補狀態及對應 `followUp` 條件；全站歌單／搜尋與動畫頁仍保留該曲，年份／季度篩選排除，時間排序置於已確認用途之後。舊記錄省略時沿用作品季度，不能由音源或商品發行日期推定用途季度；
 - `recordingId`／`releaseId` 必須引用同歌已定義的實體；引用音源與發行品時須與曲目關係一致。數位版與 CD 是否同一音源未知時省略 `recordingId`；每個音源及發行品均須有第一方欄位證據；
 - 影片形式另支援 `music_video`、`art_track`、`lyric_video`、`live`、`pv`，不能推定音源的 full／TV 分類；`embedAvailability: unknown` 僅與 `embeddable: false` 配合提供外連。`links[]` 可選日期及地區可用性，`unknown` 不等於已驗證可播放；
 - `group_member` 及 `groupName` 保存團隊成員身分，不等於個別演唱 credits。來源日期獨立保存，`evidence[].sourceUrls` 必須指向既有來源，欄位日期不得晚於相應來源核對日期；
