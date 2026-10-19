@@ -51,6 +51,7 @@ const quarterStartMonth: Record<Quarter, 1 | 4 | 7 | 10> = {
 };
 
 export const seasonSnapshotVerifiedAt = {
+  "2026-fall": "2026-10-19",
   "2026-summer": "2026-08-02",
   "2026-spring": "2026-08-02",
   "2026-winter": "2026-07-28",

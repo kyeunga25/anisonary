@@ -1,3 +1,4 @@
+import { curated2026FallSeeds } from "@/data/curated-seeds/2026/fall";
 import { curated2019FallSeeds } from "@/data/curated-seeds/2019/fall";
 import { curated2019SummerSeeds } from "@/data/curated-seeds/2019/summer";
 import { curated2020FallSeeds } from "@/data/curated-seeds/2020/fall";
@@ -41,6 +42,7 @@ export { curatedSeasonAnimeIds } from "@/data/curated-season-registry";
 // quarter's unique seed records. Cross-season membership lives in seasonIds and
 // the registry indexes, so one anime is never duplicated across source files.
 export const curatedAnimeSeeds: CuratedAnimeSeed[] = [
+  ...curated2026FallSeeds,
   ...curated2026SpringSeeds,
   ...curated2026SummerSeeds,
   ...curated2026WinterSeeds,

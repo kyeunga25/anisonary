@@ -25,8 +25,8 @@ export interface CuratedAnimeSeed {
   metadataVerifiedAt?: string;
   startDate: string;
   titleJa: string;
-  titleZhHant: string;
-  titleRomaji: string;
+  titleZhHant?: string;
+  titleRomaji?: string;
   posterUrl?: string;
   bannerUrl?: string;
   editorialWeekday: number;
