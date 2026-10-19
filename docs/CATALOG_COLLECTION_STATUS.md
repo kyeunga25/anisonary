@@ -5127,3 +5127,11 @@ GitHub open Dependabot警示增至24項，新增[source-map-js advisory](https:/
 - 1個既有季度seed及1個既有影片metadata對應檔有變，無新季度、UI／contract／播放器／依賴／部署設定修改，不重跑本機完整E2E；正常PR／main仍含重要E2E。Cloudflare dry-run exit0、完成marker及無bindings，文件連結、公開邊界、敏感內容與diff檢查通過；本機通過不作正式部署證明。
 
 預覽入口：`/anime/sword-art-online-alternative-gun-gale-online-ii/`、`/anime/rekishi-ni-nokoru-akujo-ni-naruzo/`、`/anime/hitoribocchi-no-isekai-kouryaku/`、`/anime/maou-sama-retry-r/`、`/seasons/2024-fall/`。第63批接續頂部10部22筆；基本階段與長期目標未完成。
+
+
+## 2020-2026-tv-basics-63（執行中）
+
+- 固定2020–2026標準TV基本階段與2026-10-14截止日維持；2024秋及相鄰季度10部22筆既有用途起始，公開anime ID：`curated-150930`、`curated-153406`、`curated-171025`、`curated-178533`、`curated-169755`、`curated-178434`、`curated-169931`、`curated-172355`、`curated-171400`、`curated-179919`。
+- 第62批資料與本機展示完成，正常PR／main gates及實際Cloudflare／正式站驗收待完成，審閱來源與4,194產物固定；本批先獨立核來源，不改前批產物，尚未改歌曲或記為齊備。
+- 優先核村井原TV與串流先行日期、神之塔第二期前後cour用曲與2024秋續播，再補其餘原名／演唱／用途及逐曲狀態。沿原期官方MUSIC／播出頁及有效交叉來源，有明列插曲一併記錄；短篇／WEB及未觸發詳細缺口延後。
+- 本批尚未檢查，作品聯集與整體基本階段未完成。兩輪未明保存續查條件，驗證後才提交及發布。
