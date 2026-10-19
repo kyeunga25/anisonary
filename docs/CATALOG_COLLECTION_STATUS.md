@@ -5056,3 +5056,11 @@ GitHub open Dependabot警示增至24項，新增[source-map-js advisory](https:/
 - 2個既有季度資料檔有變，沒有新季度、UI／contract／播放器／依賴／部署設定修改，不重跑本機完整E2E；正常PR／main仍含重要E2E。Cloudflare dry-run exit0、完成marker及無bindings；文件連結、公開邊界、敏感內容與diff在提交前收尾。正式發布待正常gate及實際部署驗收，本機通過不作production證明。
 
 預覽入口：`/anime/dandadan/`、`/anime/chi-chikyuu-no-undou-ni-tsuite/`、`/anime/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-v-houjou-no-megami-hen/`、`/anime/ao-no-miburo/`、`/seasons/2024-fall/`、`/seasons/2025-winter/`。基本階段及長期目標未完成。
+
+
+## 2020-2026-tv-basics-62（執行中）
+
+- 固定2020–2026標準TV基本資料階段及2026-10-14截止日維持；2024秋10部23筆既有用途起始。公開anime ID：`curated-168139`、`curated-173693`、`curated-177104`、`curated-167141`、`curated-141182`、`curated-171642`、`curated-172190`、`curated-164299`、`curated-168500`、`curated-171038`。
+- 第61批資料／本機展示驗證完成，正常PR／main gate及實際部署驗收待完成，審閱來源與4,194產物固定；本批先獨立核來源，不混入前批發布，尚未改歌曲或記作齊備。
+- 本批先沿原期官方音樂及播出頁核身分／名義／OPED／TV季度，並以Annict 2024-autumn與Bangumi有界盤點標準TV作品聯集。未審候選及原始資料不公開，短篇／WEB延後；既有33筆季度待核、シンカリオン部分冬季及詳細深化缺口依觸發條件續查。
+- 本批尚未檢查；正式發布前完成資料與展示驗證，保存逐用途pendingFields、followUp及下一步。
