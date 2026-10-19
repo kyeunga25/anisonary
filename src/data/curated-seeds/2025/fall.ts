@@ -28188,7 +28188,8 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
     "id": "curated-162669",
     "slug": "fumetsu-no-anata-e-season-3",
     "seasonIds": [
-      "2025-fall"
+      "2025-fall",
+      "2026-winter"
     ],
     "verifiedAt": "2026-10-16",
     "startDate": "2025-10-04",
@@ -28197,7 +28198,7 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
     "titleRomaji": "Fumetsu no Anata e Season 3",
     "editorialWeekday": 6,
     "broadcastTimeJst": "23:45",
-    "broadcastLabel": "日本首播",
+    "broadcastLabel": "2025-10-04起・TV週六23:45（JST）・NHK総合；冬季續播、全22話",
     "status": "finished",
     "officialSiteUrl": "https://www.nhk-character.com/chara/fumetsu/",
     "anilistUrl": "https://anilist.co/anime/162669",
@@ -28218,7 +28219,8 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
         "artistDisplayName": "Perfume",
         "songId": "fumetsu-no-anata-e-season-3-op-1-song",
         "seasonIds": [
-          "2025-fall"
+          "2025-fall",
+          "2026-winter"
         ],
         "sourceMode": "explicit",
         "sources": [
@@ -28256,6 +28258,20 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "first_party",
             "language": "multi",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.nhk-character.com/chara/fumetsu/topics/118",
+            "label": "官方：歌曲用途／TV季度證據",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202601",
+            "label": "歌曲期間或季度身分交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-19"
           }
         ],
         "credits": [
@@ -28434,6 +28450,18 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "https://recochoku.jp/song/S1029061797"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "fumetsu-no-anata-e-season-3-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.nhk-character.com/chara/fumetsu/topics/118",
+              "https://youranimes.tw/bangumi/202601"
+            ],
+            "verifiedAt": "2026-10-19"
           }
         ],
         "usageLabel": "主題歌／OP",
@@ -28534,7 +28562,32 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "availability": "unknown",
             "releaseId": "fumetsu-no-anata-e-season-3-op-1-song-digital"
           }
-        ]
+        ],
+        "lastVerifiedAt": "2026-10-19"
+      }
+    ],
+    "metadataVerifiedAt": "2026-10-16",
+    "metadataSources": [
+      {
+        "url": "https://www.nhk-character.com/chara/fumetsu/topics/118",
+        "label": "NHK官方：2026年2月現世編主題歌公告",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "url": "https://anilist.co/anime/162669",
+        "label": "AniList：TV身分、話數及播出狀態",
+        "role": "identifier",
+        "language": "en",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "url": "https://youranimes.tw/bangumi/202601",
+        "label": "YourAnimes：冬季TV新作／續播身分",
+        "role": "broadcast_cross_check",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-10-19"
       }
     ]
   },
@@ -31824,16 +31877,17 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
     "id": "curated-185116",
     "slug": "gnosia",
     "seasonIds": [
-      "2025-fall"
+      "2025-fall",
+      "2026-winter"
     ],
     "verifiedAt": "2026-10-16",
     "startDate": "2025-10-12",
     "titleJa": "グノーシア",
     "titleZhHant": "グノーシア",
     "titleRomaji": "Gnosia",
-    "editorialWeekday": 7,
-    "broadcastTimeJst": "00:00",
-    "broadcastLabel": "日本首播：10月11日(土)24:00",
+    "editorialWeekday": 6,
+    "broadcastTimeJst": "24:00",
+    "broadcastLabel": "TV節目表2025-10-11週六24:00（實際10月12日）起；第2クール2026-01-10週六24:00起・TOKYO MXほか；全21話",
     "status": "finished",
     "officialSiteUrl": "https://gnosia-anime.com/",
     "anilistUrl": "https://anilist.co/anime/185116",
@@ -31854,7 +31908,8 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
         "artistDisplayName": "MAISONdes feat. こぼ・かなえる, 重音テト, Giga & TeddyLoid",
         "songId": "gnosia-op-1-song",
         "seasonIds": [
-          "2025-fall"
+          "2025-fall",
+          "2026-winter"
         ],
         "sourceMode": "explicit",
         "sources": [
@@ -31884,7 +31939,7 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "label": "官方影片／確切平台項目來源",
             "role": "first_party",
             "language": "multi",
-            "verifiedAt": "2026-10-16"
+            "verifiedAt": "2026-10-19"
           },
           {
             "url": "https://gnosia-anime.com/music/?id=ost",
@@ -31899,6 +31954,20 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "first_party",
             "language": "ja",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://gnosia-anime.com/news/?id=69482",
+            "label": "官方：歌曲用途／TV季度證據",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202601",
+            "label": "歌曲期間或季度身分交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-19"
           }
         ],
         "credits": [
@@ -32067,6 +32136,19 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "https://online.aniplex.co.jp/itemZFDzPUYW.html"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "gnosia-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://gnosia-anime.com/news/?id=69482",
+              "https://gnosia-anime.com/movie/",
+              "https://youranimes.tw/bangumi/202601"
+            ],
+            "verifiedAt": "2026-10-19"
           }
         ],
         "releaseDate": "2025-10-12",
@@ -32143,7 +32225,8 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "availability": "unknown",
             "releaseId": "gnosia-original-soundtrack-20260325"
           }
-        ]
+        ],
+        "lastVerifiedAt": "2026-10-19"
       },
       {
         "type": "ED",
@@ -32152,7 +32235,8 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
         "artistDisplayName": "凛として時雨",
         "songId": "gnosia-ed-1-song",
         "seasonIds": [
-          "2025-fall"
+          "2025-fall",
+          "2026-winter"
         ],
         "sourceMode": "explicit",
         "sources": [
@@ -32182,7 +32266,7 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "label": "官方影片／確切平台項目來源",
             "role": "first_party",
             "language": "multi",
-            "verifiedAt": "2026-10-16"
+            "verifiedAt": "2026-10-19"
           },
           {
             "url": "https://www.sonymusic.co.jp/artist/lingtositesigure/info/578213",
@@ -32204,6 +32288,20 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "first_party",
             "language": "ja",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://gnosia-anime.com/news/?id=69482",
+            "label": "官方：歌曲用途／TV季度證據",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202601",
+            "label": "歌曲期間或季度身分交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-19"
           }
         ],
         "credits": [
@@ -32369,6 +32467,19 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "https://online.aniplex.co.jp/itemZFDzPUYW.html"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "gnosia-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://gnosia-anime.com/news/?id=69482",
+              "https://gnosia-anime.com/movie/",
+              "https://youranimes.tw/bangumi/202601"
+            ],
+            "verifiedAt": "2026-10-19"
           }
         ],
         "recordings": [
@@ -32464,7 +32575,8 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "availability": "unknown",
             "releaseId": "gnosia-original-soundtrack-20260325"
           }
-        ]
+        ],
+        "lastVerifiedAt": "2026-10-19"
       },
       {
         "type": "ED",
@@ -32473,7 +32585,8 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
         "artistDisplayName": "梅田サイファー",
         "songId": "gnosia-ed-2-song",
         "seasonIds": [
-          "2025-fall"
+          "2025-fall",
+          "2026-winter"
         ],
         "sourceMode": "explicit",
         "sources": [
@@ -32503,7 +32616,7 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "label": "官方影片／確切平台項目來源",
             "role": "first_party",
             "language": "multi",
-            "verifiedAt": "2026-10-16"
+            "verifiedAt": "2026-10-19"
           },
           {
             "url": "https://gnosia-anime.com/music/?id=ost",
@@ -32525,6 +32638,20 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "first_party",
             "language": "multi",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://gnosia-anime.com/news/?id=69482",
+            "label": "官方：歌曲用途／TV季度證據",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202601",
+            "label": "歌曲期間或季度身分交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-19"
           }
         ],
         "credits": [
@@ -32824,6 +32951,19 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "SQhNzGFc6BA"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "gnosia-ed-2",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://gnosia-anime.com/news/?id=69482",
+              "https://gnosia-anime.com/movie/",
+              "https://youranimes.tw/bangumi/202601"
+            ],
+            "verifiedAt": "2026-10-19"
           }
         ],
         "usageLabel": "第8話起 ED［RED］",
@@ -32990,7 +33130,110 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "availability": "unknown",
             "releaseId": "gnosia-ed-2-song-digital"
           }
+        ],
+        "lastVerifiedAt": "2026-10-19"
+      },
+      {
+        "type": "ED",
+        "sequence": 3,
+        "titleJa": "ULULO (Anime Ver.)",
+        "artistDisplayName": "深澤秀行",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "songId": "gnosia-ed-3-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://gnosia-anime.com/news/?id=69483",
+            "label": "動畫官方：第12話特殊ED及正式曲名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://anxmusic.lnk.to/vY5Uqb",
+            "label": "動畫官方配信頁：ULULO (Anime Ver.)及深澤秀行署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://ototoy.jp/_/default/p/3547530",
+            "label": "OTOTOY：Anime Ver.曲目與正式藝人署名",
+            "role": "cross_check",
+            "language": "multi",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "gnosia-ed-3-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://gnosia-anime.com/news/?id=69483",
+              "https://anxmusic.lnk.to/vY5Uqb",
+              "https://ototoy.jp/_/default/p/3547530"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "gnosia-ed-3",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://gnosia-anime.com/news/?id=69483",
+              "https://anxmusic.lnk.to/vY5Uqb",
+              "https://ototoy.jp/_/default/p/3547530"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "usageLabel": "第12話 特殊ED（發行藝人署名）",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "recording_format",
+              "composition",
+              "arrangement"
+            ],
+            "note": "官方明列Anime Ver.及深澤秀行發行署名；尚未保存逐曲創作與音源對應，不把發行藝人署名直接填作歌唱角色。",
+            "resumeWhen": "詳細深化時取得可核對的逐曲credits、原版與Anime Ver.音源關係。",
+            "checkedAt": "2026-10-19"
+          }
         ]
+      }
+    ],
+    "metadataVerifiedAt": "2026-10-16",
+    "metadataSources": [
+      {
+        "url": "https://gnosia-anime.com/news/?id=69482",
+        "label": "動畫官方：第二季度2026-01-10播出公告",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "url": "https://anilist.co/anime/185116",
+        "label": "AniList：TV身分、話數及播出狀態",
+        "role": "identifier",
+        "language": "en",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "url": "https://youranimes.tw/bangumi/202601",
+        "label": "YourAnimes：冬季TV新作／續播身分",
+        "role": "broadcast_cross_check",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-10-19"
       }
     ]
   },
@@ -32999,16 +33242,17 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
     "id": "curated-187464",
     "slug": "toujima-tanzaburou-wa-kamen-rider-ni-naritai",
     "seasonIds": [
-      "2025-fall"
+      "2025-fall",
+      "2026-winter"
     ],
     "verifiedAt": "2026-10-16",
     "startDate": "2025-10-05",
     "titleJa": "東島丹三郎は仮面ライダーになりたい",
     "titleZhHant": "東島丹三郎は仮面ライダーになりたい",
     "titleRomaji": "Toujima Tanzaburou wa Kamen Rider ni Naritai",
-    "editorialWeekday": 7,
-    "broadcastTimeJst": "00:30",
-    "broadcastLabel": "日本首播：10月4日(土)24:30",
+    "editorialWeekday": 6,
+    "broadcastTimeJst": "24:30",
+    "broadcastLabel": "TV節目表2025-10-04週六24:30（實際10月5日）起・TOKYO MXほか；連續2季度、全24話",
     "status": "finished",
     "officialSiteUrl": "https://tojima-rider.com/",
     "anilistUrl": "https://anilist.co/anime/187464",
@@ -33029,7 +33273,8 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
         "artistDisplayName": "TeddyLoid feat. Shigeru Matsuzaki & TOPHAMHAT-KYO",
         "songId": "toujima-tanzaburou-wa-kamen-rider-ni-naritai-op-1-song",
         "seasonIds": [
-          "2025-fall"
+          "2025-fall",
+          "2026-winter"
         ],
         "sourceMode": "explicit",
         "sources": [
@@ -33067,6 +33312,27 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "first_party",
             "language": "multi",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://tojima-rider.com/",
+            "label": "官方：歌曲用途／TV季度證據",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://tojima-rider.com/onair/",
+            "label": "官方：歌曲用途／TV季度證據",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202601",
+            "label": "歌曲期間或季度身分交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-19"
           }
         ],
         "credits": [
@@ -33350,6 +33616,19 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "https://mora.jp/package/43000087/ANXX01376B00Z/"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "toujima-tanzaburou-wa-kamen-rider-ni-naritai-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tojima-rider.com/",
+              "https://tojima-rider.com/onair/",
+              "https://youranimes.tw/bangumi/202601"
+            ],
+            "verifiedAt": "2026-10-19"
           }
         ],
         "recordings": [
@@ -33535,7 +33814,8 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "availability": "unknown",
             "releaseId": "tojima-theme-digital"
           }
-        ]
+        ],
+        "lastVerifiedAt": "2026-10-19"
       },
       {
         "type": "ED",
@@ -33544,7 +33824,8 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
         "artistDisplayName": "TeddyLoid feat. 時任良治",
         "songId": "toujima-tanzaburou-wa-kamen-rider-ni-naritai-ed-1-song",
         "seasonIds": [
-          "2025-fall"
+          "2025-fall",
+          "2026-winter"
         ],
         "sourceMode": "explicit",
         "sources": [
@@ -33582,6 +33863,27 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "first_party",
             "language": "multi",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://tojima-rider.com/",
+            "label": "官方：歌曲用途／TV季度證據",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://tojima-rider.com/onair/",
+            "label": "官方：歌曲用途／TV季度證據",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://youranimes.tw/bangumi/202601",
+            "label": "歌曲期間或季度身分交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-19"
           }
         ],
         "credits": [
@@ -33849,6 +34151,19 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "https://mora.jp/package/43000087/ANXX01376B00Z/"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "toujima-tanzaburou-wa-kamen-rider-ni-naritai-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tojima-rider.com/",
+              "https://tojima-rider.com/onair/",
+              "https://youranimes.tw/bangumi/202601"
+            ],
+            "verifiedAt": "2026-10-19"
           }
         ],
         "recordings": [
@@ -34034,7 +34349,39 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "availability": "unknown",
             "releaseId": "tojima-theme-digital"
           }
-        ]
+        ],
+        "lastVerifiedAt": "2026-10-19"
+      }
+    ],
+    "metadataVerifiedAt": "2026-10-16",
+    "metadataSources": [
+      {
+        "url": "https://tojima-rider.com/",
+        "label": "動畫官方：連續2季度及第24話資料",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "url": "https://tojima-rider.com/onair/",
+        "label": "動畫官方：TV首播及常態時段",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "url": "https://anilist.co/anime/187464",
+        "label": "AniList：TV身分、話數及播出狀態",
+        "role": "identifier",
+        "language": "en",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "url": "https://youranimes.tw/bangumi/202601",
+        "label": "YourAnimes：冬季TV新作／續播身分",
+        "role": "broadcast_cross_check",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-10-19"
       }
     ]
   },
@@ -40478,7 +40825,8 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
     "id": "curated-196553",
     "slug": "si-vis-the-sound-of-heroes",
     "seasonIds": [
-      "2025-fall"
+      "2025-fall",
+      "2026-winter"
     ],
     "verifiedAt": "2026-10-16",
     "startDate": "2025-10-05",
@@ -40487,7 +40835,7 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
     "titleRomaji": "SI-VIS: The Sound of Heroes",
     "editorialWeekday": 7,
     "broadcastTimeJst": "09:30",
-    "broadcastLabel": "日本首播",
+    "broadcastLabel": "2025-10-05起・TV週日09:30（JST）・フジテレビほか；第2クール2026-01-04起、全24話",
     "status": "finished",
     "officialSiteUrl": "https://si-vis.live/",
     "anilistUrl": "https://anilist.co/anime/196553",
@@ -40517,7 +40865,7 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "label": "官方：歌曲、演唱與動畫用途",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-10-16"
+            "verifiedAt": "2026-10-19"
           },
           {
             "url": "https://youranimes.tw/bangumi/202510",
@@ -41813,7 +42161,8 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "availability": "unknown",
             "releaseId": "si-vis-the-sound-of-heroes-op-1-song-third-stage-digital"
           }
-        ]
+        ],
+        "lastVerifiedAt": "2026-10-19"
       },
       {
         "type": "ED",
@@ -41831,7 +42180,7 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "label": "官方：歌曲、演唱與動畫用途",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-10-16"
+            "verifiedAt": "2026-10-19"
           },
           {
             "url": "https://youranimes.tw/bangumi/202510",
@@ -43142,7 +43491,8 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "availability": "unknown",
             "releaseId": "si-vis-the-sound-of-heroes-ed-1-song-third-stage-digital"
           }
-        ]
+        ],
+        "lastVerifiedAt": "2026-10-19"
       },
       {
         "type": "IN",
@@ -47333,6 +47683,628 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "releaseId": "si-vis-the-sound-of-heroes-in-6-song-digital"
           }
         ]
+      },
+      {
+        "type": "OP",
+        "sequence": 2,
+        "titleJa": "スーパーノヴァ",
+        "artistDisplayName": "SI-VIS",
+        "seasonIds": [
+          "2026-winter"
+        ],
+        "songId": "si-vis-the-sound-of-heroes-op-2-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://si-vis.live/news/?id=69444",
+            "label": "動畫官方：2026-01-04啟用的第二季度OP／ED",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://si-vis.live/music/discography/album02.html",
+            "label": "動畫官方：第二季度歌曲原名、收錄及演唱",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://www.lisani.jp/0000302983/",
+            "label": "Lisani：第二季度OP／ED與SI-VIS交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://anison.online/artist/SI-VIS",
+            "label": "Anison Online：歌曲及用途交叉索引",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "si-vis-the-sound-of-heroes-op-2-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=69444",
+              "https://si-vis.live/music/discography/album02.html",
+              "https://www.lisani.jp/0000302983/",
+              "https://anison.online/artist/SI-VIS"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "si-vis-the-sound-of-heroes-op-2",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=69444",
+              "https://si-vis.live/music/discography/album02.html",
+              "https://www.lisani.jp/0000302983/",
+              "https://anison.online/artist/SI-VIS"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "usageLabel": "第2クール OP",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "releases"
+            ],
+            "note": "官方PACEM另列SI-VIS ALL STARS bonus表記；本筆先記錄TV歌曲基本用途，未合併或拆分未核對錄音。",
+            "resumeWhen": "詳細深化時核對演唱名義、音源差異及實際收錄對應。",
+            "checkedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "Singing Over",
+        "artistDisplayName": "SI-VIS",
+        "seasonIds": [
+          "2026-winter"
+        ],
+        "songId": "si-vis-the-sound-of-heroes-ed-2-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://si-vis.live/news/?id=69444",
+            "label": "動畫官方：2026-01-04啟用的第二季度OP／ED",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://si-vis.live/music/discography/album02.html",
+            "label": "動畫官方：第二季度歌曲原名、收錄及演唱",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://www.lisani.jp/0000302983/",
+            "label": "Lisani：第二季度OP／ED與SI-VIS交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://anison.online/artist/SI-VIS",
+            "label": "Anison Online：歌曲及用途交叉索引",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "si-vis-the-sound-of-heroes-ed-2-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=69444",
+              "https://si-vis.live/music/discography/album02.html",
+              "https://www.lisani.jp/0000302983/",
+              "https://anison.online/artist/SI-VIS"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "si-vis-the-sound-of-heroes-ed-2",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=69444",
+              "https://si-vis.live/music/discography/album02.html",
+              "https://www.lisani.jp/0000302983/",
+              "https://anison.online/artist/SI-VIS"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "usageLabel": "第2クール ED",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "recording_format",
+              "releases"
+            ],
+            "note": "官方另列Boys side、Girls side及SI-VIS ALL STARS表記；保留為同曲待深化項目，不由影片或專輯筆數新增歌曲。",
+            "resumeWhen": "詳細深化時按官方曲目及演唱資料核對各版錄音和TV使用。",
+            "checkedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 7,
+        "titleJa": "On the Highway",
+        "artistDisplayName": "SI-VIS",
+        "seasonIds": [
+          "2026-winter"
+        ],
+        "songId": "si-vis-the-sound-of-heroes-in-7-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://si-vis.live/music/discography/album02.html",
+            "label": "動畫官方：第二季度劇中歌曲目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://si-vis.live/news/?id=69824",
+            "label": "動畫官方：第二季度主題曲／劇中歌範圍",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://anison.online/artist/SI-VIS",
+            "label": "Anison Online：原名、SI-VIS及插曲分類",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "si-vis-the-sound-of-heroes-in-7-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album02.html",
+              "https://si-vis.live/news/?id=69824",
+              "https://anison.online/artist/SI-VIS"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "si-vis-the-sound-of-heroes-in-7",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album02.html",
+              "https://si-vis.live/news/?id=69824",
+              "https://anison.online/artist/SI-VIS"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "usageLabel": "第2クール 劇中歌"
+      },
+      {
+        "type": "IN",
+        "sequence": 8,
+        "titleJa": "Trust me",
+        "artistDisplayName": "SI-VIS",
+        "seasonIds": [
+          "2026-winter"
+        ],
+        "songId": "si-vis-the-sound-of-heroes-in-8-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://si-vis.live/music/discography/album02.html",
+            "label": "動畫官方：第二季度劇中歌曲目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://si-vis.live/news/?id=69824",
+            "label": "動畫官方：第二季度主題曲／劇中歌範圍",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://anison.online/artist/SI-VIS",
+            "label": "Anison Online：原名、SI-VIS及插曲分類",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "si-vis-the-sound-of-heroes-in-8-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album02.html",
+              "https://si-vis.live/news/?id=69824",
+              "https://anison.online/artist/SI-VIS"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "si-vis-the-sound-of-heroes-in-8",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album02.html",
+              "https://si-vis.live/news/?id=69824",
+              "https://anison.online/artist/SI-VIS"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "usageLabel": "第2クール 劇中歌"
+      },
+      {
+        "type": "IN",
+        "sequence": 9,
+        "titleJa": "Benedictio canticum",
+        "artistDisplayName": "SI-VIS",
+        "seasonIds": [
+          "2026-winter"
+        ],
+        "songId": "si-vis-the-sound-of-heroes-in-9-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://si-vis.live/music/discography/album02.html",
+            "label": "動畫官方：第二季度劇中歌曲目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://si-vis.live/news/?id=69824",
+            "label": "動畫官方：第二季度主題曲／劇中歌範圍",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://anison.online/artist/SI-VIS",
+            "label": "Anison Online：原名、SI-VIS及插曲分類",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "si-vis-the-sound-of-heroes-in-9-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album02.html",
+              "https://si-vis.live/news/?id=69824",
+              "https://anison.online/artist/SI-VIS"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "si-vis-the-sound-of-heroes-in-9",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album02.html",
+              "https://si-vis.live/news/?id=69824",
+              "https://anison.online/artist/SI-VIS"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "usageLabel": "第2クール 劇中歌"
+      },
+      {
+        "type": "IN",
+        "sequence": 10,
+        "titleJa": "Destination of Life",
+        "artistDisplayName": "SI-VIS",
+        "seasonIds": [
+          "2026-winter"
+        ],
+        "songId": "si-vis-the-sound-of-heroes-in-10-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.aniplex.co.jp/lineup/si-vis/news/detail/?id=69718",
+            "label": "Aniplex官方：第18話劇中歌及詞曲編",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://si-vis.live/music/discography/album02.html",
+            "label": "動畫官方：第二季度劇中歌曲目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://si-vis.live/news/?id=69824",
+            "label": "動畫官方：第二季度主題曲／劇中歌範圍",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://anison.online/artist/SI-VIS",
+            "label": "Anison Online：原名、SI-VIS及插曲分類",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "si-vis-the-sound-of-heroes-in-10-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.aniplex.co.jp/lineup/si-vis/news/detail/?id=69718",
+              "https://si-vis.live/music/discography/album02.html",
+              "https://si-vis.live/news/?id=69824",
+              "https://anison.online/artist/SI-VIS"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "si-vis-the-sound-of-heroes-in-10",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.aniplex.co.jp/lineup/si-vis/news/detail/?id=69718",
+              "https://si-vis.live/music/discography/album02.html",
+              "https://si-vis.live/news/?id=69824",
+              "https://anison.online/artist/SI-VIS"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.aniplex.co.jp/lineup/si-vis/news/detail/?id=69718"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "usageLabel": "第18話 劇中歌",
+        "credits": [
+          {
+            "name": "SI-VIS",
+            "role": "vocals"
+          },
+          {
+            "name": "塩野海",
+            "role": "lyrics"
+          },
+          {
+            "name": "塩野海",
+            "role": "composition"
+          },
+          {
+            "name": "塩野海",
+            "role": "arrangement"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 11,
+        "titleJa": "Bless",
+        "artistDisplayName": "SI-VIS",
+        "seasonIds": [
+          "2026-winter"
+        ],
+        "songId": "si-vis-the-sound-of-heroes-in-11-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://si-vis.live/music/discography/album02.html",
+            "label": "動畫官方：第二季度劇中歌曲目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://si-vis.live/news/?id=69824",
+            "label": "動畫官方：第二季度主題曲／劇中歌範圍",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://anison.online/artist/SI-VIS",
+            "label": "Anison Online：原名、SI-VIS及插曲分類",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "si-vis-the-sound-of-heroes-in-11-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album02.html",
+              "https://si-vis.live/news/?id=69824",
+              "https://anison.online/artist/SI-VIS"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "si-vis-the-sound-of-heroes-in-11",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album02.html",
+              "https://si-vis.live/news/?id=69824",
+              "https://anison.online/artist/SI-VIS"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "usageLabel": "第2クール 劇中歌"
+      },
+      {
+        "type": "IN",
+        "sequence": 12,
+        "titleJa": "MISSION",
+        "artistDisplayName": "SI-VIS",
+        "seasonIds": [
+          "2026-winter"
+        ],
+        "songId": "si-vis-the-sound-of-heroes-in-12-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://si-vis.live/music/discography/album02.html",
+            "label": "動畫官方：第二季度劇中歌曲目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://si-vis.live/news/?id=69824",
+            "label": "動畫官方：第二季度主題曲／劇中歌範圍",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://anison.online/artist/SI-VIS",
+            "label": "Anison Online：原名、SI-VIS及插曲分類",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "si-vis-the-sound-of-heroes-in-12-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album02.html",
+              "https://si-vis.live/news/?id=69824",
+              "https://anison.online/artist/SI-VIS"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "si-vis-the-sound-of-heroes-in-12",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album02.html",
+              "https://si-vis.live/news/?id=69824",
+              "https://anison.online/artist/SI-VIS"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "usageLabel": "第2クール 劇中歌"
+      }
+    ],
+    "metadataVerifiedAt": "2026-10-16",
+    "metadataSources": [
+      {
+        "url": "https://si-vis.live/news/?id=69444",
+        "label": "動畫官方：2026-01-04第二季度及新OP／ED",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "url": "https://anilist.co/anime/196553",
+        "label": "AniList：TV身分、話數及播出狀態",
+        "role": "identifier",
+        "language": "en",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "url": "https://youranimes.tw/bangumi/202601",
+        "label": "YourAnimes：冬季TV新作／續播身分",
+        "role": "broadcast_cross_check",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-10-19"
       }
     ]
   },

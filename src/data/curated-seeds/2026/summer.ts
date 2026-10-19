@@ -24698,7 +24698,9 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
     "slug": "meitantei-conan",
     "seasonIds": [
       "2026-summer",
-      "2026-fall"
+      "2026-fall",
+      "2026-winter",
+      "2026-spring"
     ],
     "verifiedAt": "2026-10-19",
     "metadataVerifiedAt": "2026-10-19",
@@ -24930,9 +24932,305 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "name": "平田祥一郎"
           }
         ]
+      },
+      {
+        "type": "OP",
+        "sequence": 61,
+        "titleJa": "Heaven Knows",
+        "artistDisplayName": "B'z",
+        "seasonIds": [
+          "2026-winter",
+          "2026-spring"
+        ],
+        "songId": "meitantei-conan-op-61-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.ytv.co.jp/conan30/project/",
+            "label": "読売テレビ官方：2026-01-10起OP及詞曲編",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
+            "label": "中文動畫歌曲索引：用途序號與演唱",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://anison.online/anime/5576",
+            "label": "Anison Online：2026年歌曲與用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "meitantei-conan-op-61-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.ytv.co.jp/conan30/project/",
+              "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
+              "https://anison.online/anime/5576"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "meitantei-conan-op-61",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.ytv.co.jp/conan30/project/",
+              "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
+              "https://anison.online/anime/5576"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.ytv.co.jp/conan30/project/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "usageLabel": "2026-01-10起 OP",
+        "credits": [
+          {
+            "name": "B'z",
+            "role": "vocals"
+          },
+          {
+            "name": "稲葉浩志",
+            "role": "lyrics"
+          },
+          {
+            "name": "松本孝弘",
+            "role": "composition"
+          },
+          {
+            "name": "B'z",
+            "role": "arrangement"
+          },
+          {
+            "name": "YUKIHIDE❝YT❞TAKIYAMA",
+            "role": "arrangement"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "basic_evidence"
+            ],
+            "note": "已確認2026冬／春TV使用；夏季是否仍有沿用及與下一首OP的精確輪替界線尚未獨立核對，沒有由唱片發行日推定。",
+            "resumeWhen": "可核對官方新OP啟用集數／播出日或對應正片credits時補充用途季度。",
+            "checkedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 74,
+        "titleJa": "TOWA 〜永久に風に乗る〜",
+        "artistDisplayName": "倉木麻衣",
+        "seasonIds": [
+          "2026-winter",
+          "2026-spring"
+        ],
+        "songId": "meitantei-conan-ed-74-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.ytv.co.jp/conan30/project/",
+            "label": "読売テレビ官方：2026-01-10起ED及詞曲編",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
+            "label": "中文動畫歌曲索引：用途序號與演唱",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://anison.online/anime/5576",
+            "label": "Anison Online：2026年歌曲與用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "meitantei-conan-ed-74-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.ytv.co.jp/conan30/project/",
+              "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
+              "https://anison.online/anime/5576"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "meitantei-conan-ed-74",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.ytv.co.jp/conan30/project/",
+              "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
+              "https://anison.online/anime/5576"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.ytv.co.jp/conan30/project/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "usageLabel": "2026-01-10起 ED",
+        "credits": [
+          {
+            "name": "倉木麻衣",
+            "role": "vocals"
+          },
+          {
+            "name": "倉木麻衣",
+            "role": "lyrics"
+          },
+          {
+            "name": "倉木麻衣",
+            "role": "composition"
+          },
+          {
+            "name": "持山翔子",
+            "role": "arrangement"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 75,
+        "titleJa": "7 DAYS",
+        "artistDisplayName": "Rainy。",
+        "seasonIds": [
+          "2026-spring",
+          "2026-summer"
+        ],
+        "songId": "meitantei-conan-ed-75-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://rainy.bzone.co.jp/info/20260606-1/",
+            "label": "Rainy。官方：2026年6月已使用的TV ED及詞曲編",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
+            "label": "中文動畫歌曲索引：用途序號與演唱",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://anison.online/anime/5576",
+            "label": "Anison Online：2026年歌曲與用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "meitantei-conan-ed-75-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://rainy.bzone.co.jp/info/20260606-1/",
+              "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
+              "https://anison.online/anime/5576"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "meitantei-conan-ed-75",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://rainy.bzone.co.jp/info/20260606-1/",
+              "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
+              "https://anison.online/anime/5576"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://rainy.bzone.co.jp/info/20260606-1/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "usageLabel": "2026年6月已啟用 ED",
+        "credits": [
+          {
+            "name": "Rainy。",
+            "role": "vocals"
+          },
+          {
+            "name": "雨宮二己",
+            "role": "lyrics"
+          },
+          {
+            "name": "徳永暁人",
+            "role": "composition"
+          },
+          {
+            "name": "徳永暁人",
+            "role": "arrangement"
+          }
+        ]
       }
     ]
   }
 ];
 
-export const curated2026SummerAnimeIds = [213426, 192800, 208044, 197715, 209669, 203880, 201667, 206521, 198376, 180136, 207141, 204466, 188525, 203490, 209983, 207674, 212308, 178789, 185542, 186863, 187538, 206249, 190569, 196017, 194219, 185692, 185875, 208225, 201514, 200230, 210031, 204060, 198409, 200637, 103303, 177637, 169080, 213506, 169582, 202269, 199748, 199408, 195833, 209504, 169583, 199111, 128757, 187260, 213665, 177699, 209800, 198709, 207809, 198946, 135865, 213666, 159309, 196356, 194829, 207254, 108992, 196187, 196218, 199066, 208824, 188139, 213359, 182616, 185874, 189046, 182205, 195600, 171110, 196974, 197754, 196219, 184356, 196012, 202508, 184492, 206523, 188388, 21, 235] as const;
+export const curated2026SummerAnimeIds = [213426, 192800, 208044, 197715, 209669, 203880, 201667, 206521, 198376, 180136, 207141, 204466, 188525, 203490, 209983, 207674, 212308, 178789, 185542, 186863, 187538, 206249, 190569, 196017, 194219, 185692, 185875, 208225, 201514, 200230, 210031, 204060, 198409, 200637, 103303, 177637, 169080, 213506, 169582, 202269, 199748, 199408, 195833, 209504, 169583, 199111, 128757, 187260, 213665, 177699, 209800, 198709, 207809, 198946, 135865, 213666, 159309, 196356, 194829, 207254, 108992, 196187, 196218, 199066, 208824, 188139, 213359, 182616, 185874, 189046, 182205, 195600, 171110, 196974, 197754, 196219, 184356, 196012, 202508, 184492, 206523, 188388, 21, 235, 202957] as const;
