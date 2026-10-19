@@ -2954,4 +2954,6 @@ export const curated2025SummerThemeVideos = {
     },
   ],
   "159483:IN:1": [{"youtubeVideoId":"OAbz23P09Rs","title":"ZAQ「幾星霜」(TVアニメ『Turkey!』挿入歌)","type":"music_video","channelName":"ZAQ Official Channel","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "179541:OP:1": [{"youtubeVideoId":"4nBzqU0ruag","title":"「白豚貴族ですが前世の記憶が生えたのでひよこな弟育てます」OP映像 ｜ 4月からABEMAで独占・無料配信中！","type":"other","channelName":"日活アニメチャンネル","officialStatus":"official","embeddable":true}],
+  "179541:ED:1": [{"youtubeVideoId":"JC5NZ8oGdfE","title":"「白豚貴族ですが前世の記憶が生えたのでひよこな弟育てます」ノンクレジットED ｜ 4月からABEMAで独占・無料配信中！","type":"creditless_ed","channelName":"日活アニメチャンネル","officialStatus":"official","embeddable":true}],
 } satisfies CuratedThemeVideoOverrideMap;

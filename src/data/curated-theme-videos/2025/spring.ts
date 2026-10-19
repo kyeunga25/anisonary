@@ -78,8 +78,6 @@ export const curated2025SpringThemeVideos = {
   "178781:OP:1": [{"youtubeVideoId":"TGgGPPQmtk4","title":"TVアニメ『戦隊大失格』ノンクレジットオープニングムービー｜CBC/TBS系全国28局ネット「アガルアニメ」枠にて毎週日曜よる11時30分から放送中！(ディズニープラス スターで全話見放題 独占)","type":"creditless_op","channelName":"SHOCHIKU animeチャンネル【公式】","officialStatus":"official","embeddable":true}],
   "185939:OP:1": [{"youtubeVideoId":"ihJy6p71nuA","title":"TVアニメ「日々は過ぎれど飯うまし」 ノンクレジットオープニング｜「そんなもんね」asmi","type":"creditless_op","channelName":"アニプレックス チャンネル","officialStatus":"official","embeddable":true}],
   "185939:ED:1": [{"youtubeVideoId":"8oGdZZ9y3Uw","title":"TVアニメ「日々は過ぎれど飯うまし」 ノンクレジットエンディング｜「味噌汁とバター」汐れいら","type":"creditless_ed","channelName":"アニプレックス チャンネル","officialStatus":"official","embeddable":true}],
-  "179541:OP:1": [{"youtubeVideoId":"4nBzqU0ruag","title":"「白豚貴族ですが前世の記憶が生えたのでひよこな弟育てます」OP映像 ｜ 4月からABEMAで独占・無料配信中！","type":"other","channelName":"日活アニメチャンネル","officialStatus":"official","embeddable":true}],
-  "179541:ED:1": [{"youtubeVideoId":"JC5NZ8oGdfE","title":"「白豚貴族ですが前世の記憶が生えたのでひよこな弟育てます」ノンクレジットED ｜ 4月からABEMAで独占・無料配信中！","type":"creditless_ed","channelName":"日活アニメチャンネル","officialStatus":"official","embeddable":true}],
   "185715:OP:1": [{"youtubeVideoId":"NR6Qa_pb1M0","title":"TVアニメ「SHIBUYA♡HACHI」主題歌「Brand New Episode / HACHI」Official MV","type":"music_video","channelName":"HACHI","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
 
   "184470:ED:2": [{"youtubeVideoId":"ytRYORsfV6Q","title":"シンデレラのラララ♡","type":"art_track","channelName":"Cho Tokimeki♡Sendenbu Official（超ときめき♡宣伝部）","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
