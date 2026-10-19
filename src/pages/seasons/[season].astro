@@ -38,7 +38,7 @@ const otherAnime = index.filter((anime) => !anime.themes.length);
       <div><h1>{title}</h1><p>本季歌曲，一行一首。點選歌曲，查看動畫的全部 OP／ED。<span lang="ja"> {season.titleJa}</span></p></div>
       <a class="text-link" href="/songs/">跨季度歌曲列表 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7" /></svg></a>
     </header>
-    <p class="season-review">{season.anime.length} 套動畫 · 已審閱 · {season.verifiedAt}{season.coverageNote && <span> · {season.coverageNote}</span>}</p>
+    <p class="season-review">{season.anime.length} 套動畫 · 季度索引快照：{season.verifiedAt} · 歌曲核對日期見詳情{season.coverageNote && <span> · {season.coverageNote}</span>}</p>
     {season.isMockData && <MockNotice compact />}
     <nav class="playlist-tabs season-siblings" aria-label={`${season.year} 年季度導覽`}>
       {siblings.map((entry) => <a href={`/seasons/${entry.id}/`} aria-current={entry.id === season.id ? "page" : undefined}>{entry.titleZhHant.replace("動畫", "")}</a>)}
