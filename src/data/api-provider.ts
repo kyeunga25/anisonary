@@ -1,4 +1,5 @@
 import type { PublicDataProvider } from "@/data/provider";
+import { deriveThemeDataStatus, themeDataFields } from "@/utils/theme-data-status";
 import type {
   PublicAnimeCard,
   PublicAnimeDetail,
@@ -12,6 +13,7 @@ import type {
   PublicSeasonSummary,
   PublicTheme,
   PublicThemeAvailability,
+  PublicThemeDataStatus,
   PublicThemeSource,
   PublicVideo,
   Quarter
@@ -448,6 +450,40 @@ function validateSongRelations(theme: PublicTheme): void {
   }
 }
 
+function parseThemeDataStatus(value: unknown, theme: PublicTheme): PublicThemeDataStatus {
+  const item = record(value);
+  oneOf(item.basis, ["stored_fields_and_evidence"] as const);
+  const basic = oneOf(item.basic, ["field_evidence_recorded", "sources_recorded"] as const);
+  const basicVerifiedAt = optionalIso8601(item.basicVerifiedAt);
+  const details = record(item.details);
+  const parsedDetails: PublicThemeDataStatus["details"] = {
+    credits: oneOf(details.credits, ["not_recorded", "partial", "roles_recorded"] as const),
+    recordings: oneOf(details.recordings, ["not_recorded", "format_unknown", "recorded"] as const),
+    videos: oneOf(details.videos, ["not_recorded", "links_only", "recorded"] as const),
+    releases: oneOf(details.releases, ["not_recorded", "recorded"] as const),
+    platforms: oneOf(details.platforms, ["not_recorded", "entry_links_only", "exact_links_recorded"] as const)
+  };
+  const pendingFields = array(item.pendingFields, 0, themeDataFields.length).map((field) => oneOf(field, themeDataFields));
+  unique(pendingFields);
+  const followUp = item.followUp === undefined ? undefined : array(item.followUp, 1, 30).map((value) => {
+    const gap = record(value);
+    const fields = array(gap.fields, 1, themeDataFields.length).map((field) => oneOf(field, themeDataFields));
+    unique(fields);
+    return {
+      fields,
+      note: text(gap.note, 1_000),
+      resumeWhen: text(gap.resumeWhen, 1_000),
+      ...(gap.checkedAt === undefined ? {} : { checkedAt: iso8601(gap.checkedAt) })
+    };
+  });
+  const expected = deriveThemeDataStatus(theme, followUp);
+  if (basic !== expected.basic || basicVerifiedAt !== expected.basicVerifiedAt
+    || Object.entries(parsedDetails).some(([key, value]) => value !== expected.details[key as keyof typeof parsedDetails])
+    || pendingFields.length !== expected.pendingFields.length
+    || pendingFields.some((field) => !expected.pendingFields.includes(field))) invalidContract();
+  return expected;
+}
+
 function parseTheme(value: unknown): PublicTheme {
   const item = record(value);
   const theme: PublicTheme = {
@@ -509,6 +545,7 @@ function parseTheme(value: unknown): PublicTheme {
     if (lastVerifiedAt !== latestSourceVerification) invalidContract();
     theme.lastVerifiedAt = lastVerifiedAt;
   }
+  if (item.dataStatus !== undefined) theme.dataStatus = parseThemeDataStatus(item.dataStatus, theme);
 
   return theme;
 }

@@ -4,6 +4,7 @@ import { smokePublicApi } from "@/data/api-smoke";
 import { CuratedProvider } from "@/data/curated-provider";
 import { curatedAnimeDetails, curatedSeasonDetails } from "@/data/curated-data";
 import { publicJsonResponse } from "@/data/public-api-assets";
+import { deriveThemeDataStatus } from "@/utils/theme-data-status";
 
 it("rejects unsafe or inconsistent external API data and bounds failed requests", async () => {
   const season = curatedSeasonDetails[0]!;
@@ -146,5 +147,49 @@ it("preserves optional song relations and independent evidence dates while rejec
     mutate(payload.themes[index]!);
     fetchMock.mockImplementation(async () => publicJsonResponse(payload));
     await expect(provider.getAnime(anime.slug)).rejects.toThrow("invalid anime payload");
+  }
+});
+
+it("keeps per-use data status compatible with legacy payloads and rejects inflated completeness", async () => {
+  const anime = structuredClone(curatedAnimeDetails.find((detail) => detail.themes.some((theme) => theme.evidence))!);
+  const fetchMock = vi.fn<typeof fetch>();
+  const provider = new ApiProvider("https://catalog.example/api/v1", { fetch: fetchMock });
+  fetchMock.mockImplementation(async () => publicJsonResponse(anime));
+  await expect(provider.getAnime(anime.slug)).resolves.toEqual(anime);
+  const legacy = structuredClone(anime);
+  legacy.themes.forEach((theme) => { delete theme.dataStatus; });
+  fetchMock.mockImplementation(async () => publicJsonResponse(legacy));
+  await expect(provider.getAnime(anime.slug)).resolves.toEqual(legacy);
+
+  const theme = anime.themes[0]!;
+  theme.credits = [{ name: theme.artistDisplayName, role: "songwriting" }];
+  delete theme.recordings;
+  delete theme.releases;
+  theme.videos = [];
+  theme.links = [{ platform: "作品官網", label: "官方入口", url: "https://official.example/", linkType: "official_landing_page", region: "UNKNOWN" }];
+  const status = deriveThemeDataStatus(theme, [{ fields: ["releases"], note: "收錄版本待核對", resumeWhen: "官方完整曲目表公布", checkedAt: "2026-10-19" }]);
+  expect(status.details.credits).toBe("not_recorded");
+  expect(status.details.platforms).toBe("entry_links_only");
+  expect(status.pendingFields).toEqual(expect.arrayContaining(["lyrics", "composition", "arrangement", "recordings", "official_video", "releases", "platform_links"]));
+
+  const payload = structuredClone(curatedAnimeDetails.find((detail) => detail.themes.some((theme) => theme.dataStatus?.followUp))!);
+  expect(payload).toBeDefined();
+  const index = payload.themes.findIndex((theme) => theme.dataStatus?.followUp);
+  fetchMock.mockImplementation(async () => publicJsonResponse(payload));
+  const parsed = await provider.getAnime(payload.slug);
+  expect(parsed!.themes[index]!.dataStatus).toEqual(payload.themes[index]!.dataStatus);
+  const mutations = [
+    (data: Record<string, unknown>) => { data.basic = "complete"; },
+    (data: Record<string, unknown>) => { data.basicVerifiedAt = "2099-01-01"; },
+    (data: Record<string, unknown>) => { data.pendingFields = []; },
+    (data: Record<string, unknown>) => { data.details = { ...(data.details as object), platforms: "exact_links_recorded" }; },
+    (data: Record<string, unknown>) => { data.followUp = [{ fields: [], note: "Gap", resumeWhen: "Source" }]; },
+    (data: Record<string, unknown>) => { data.followUp = [{ fields: ["releases"], note: "Gap", resumeWhen: "Source", checkedAt: "2026-02-30" }]; }
+  ];
+  for (const mutate of mutations) {
+    const invalid = structuredClone(payload);
+    mutate(invalid.themes[index]!.dataStatus as unknown as Record<string, unknown>);
+    fetchMock.mockImplementation(async () => publicJsonResponse(invalid));
+    await expect(provider.getAnime(invalid.slug)).rejects.toThrow("invalid anime payload");
   }
 });

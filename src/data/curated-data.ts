@@ -2,6 +2,7 @@ import { buildSeasonCatalogReferences, getSeasonSnapshotVerifiedAt } from "@/dat
 import { curatedSeasonRegistry } from "@/data/curated-season-registry";
 import { curatedThemeSourceOverrides as themeSourceOverrides } from "@/data/curated-theme-sources";
 import { curatedThemeVideoOverrides as videoOverrides } from "@/data/curated-theme-videos";
+import { deriveThemeDataStatus } from "@/utils/theme-data-status";
 import {
   curatedAnimeSeeds,
   curatedSeasonAnimeIds,
@@ -4718,7 +4719,7 @@ function toTheme(seed: CuratedAnimeSeed, originalTheme: CuratedThemeSeed): Publi
     ? [...new Map([...legacyLinks, ...theme.links].map((link) => [canonicalHttpsUrl(link.url), link])).values()]
     : legacyLinks;
 
-  return {
+  const result: PublicTheme = {
     id: theme.id ?? `${publicSlug(seed)}-${theme.type.toLowerCase()}-${theme.sequence}`,
     ...(theme.seasonIds ? { seasonIds: theme.seasonIds } : {}),
     ...(theme.idAliases ? { idAliases: theme.idAliases } : {}),
@@ -4745,6 +4746,8 @@ function toTheme(seed: CuratedAnimeSeed, originalTheme: CuratedThemeSeed): Publi
     sourceLabels: [...new Set(sources.map((source) => source.label))],
     lastVerifiedAt: sources.map((source) => source.verifiedAt).sort().at(-1) ?? verifiedAt
   };
+  result.dataStatus = deriveThemeDataStatus(result, theme.followUp);
+  return result;
 }
 
 function animeOfficialSource(seed: CuratedAnimeSeed): { label: string; url: string } | undefined {

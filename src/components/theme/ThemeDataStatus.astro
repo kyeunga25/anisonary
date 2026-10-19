@@ -1,0 +1,42 @@
+---
+import type { PublicThemeDataStatus } from "@/types/public-api";
+import { themeDataFieldLabels } from "@/utils/theme-data-status";
+
+interface Props { status: PublicThemeDataStatus; }
+const { status } = Astro.props;
+const rows = [
+  ["詞／曲／編", { not_recorded: "未記錄", partial: "部分已記錄", roles_recorded: "三項角色已記錄" }[status.details.credits]],
+  ["音源版本", { not_recorded: "未記錄", format_unknown: "已有版本，長度分類待確認", recorded: "已有版本資料" }[status.details.recordings]],
+  ["官方影片", { not_recorded: "未記錄", links_only: "已有外連，形式／渠道資料待補", recorded: "已有影片資料" }[status.details.videos]],
+  ["收錄發行品", { not_recorded: "未記錄", recorded: "已有收錄資料" }[status.details.releases]],
+  ["正版平台", { not_recorded: "未記錄", entry_links_only: "僅有入口，確切曲目／專輯待補", exact_links_recorded: "已有確切曲目／專輯連結" }[status.details.platforms]]
+];
+---
+
+<section class="theme-data-status" aria-label="歌曲資料狀態">
+  <h4>資料狀態 <span lang="en">Data status</span></h4>
+  <p class="theme-data-status__basic">基本資料：{status.basic === "field_evidence_recorded"
+    ? `曲名、演唱名義與用途的第一方／交叉欄位證據已登記（${status.basicVerifiedAt}）`
+    : "第一方／交叉來源已登記，逐欄證據待細分"}</p>
+  <dl>{rows.map(([label, value]) => <div><dt>{label}</dt><dd>{value}</dd></div>)}</dl>
+  {status.pendingFields.length > 0 && <p class="theme-data-status__pending"><strong>待補／待確認：</strong>{status.pendingFields.map((field) => themeDataFieldLabels[field]).join("、")}</p>}
+  {status.followUp && <ul aria-label="續查條件">{status.followUp.map((gap) => <li>
+    <p>{gap.note}</p><p>續查條件：{gap.resumeWhen}{gap.checkedAt && <span>（缺口記錄：{gap.checkedAt}）</span>}</p>
+  </li>)}</ul>}
+  <p class="theme-data-status__note">依已保存欄位盤點；未記錄不表示不存在，已有資料也不代表全部版本、影片或發行品已收齊。各項核對日期見來源與欄位證據。</p>
+</section>
+
+<style>
+  .theme-data-status { border-bottom: 1px solid var(--color-border); font-size: 0.75rem; line-height: 1.7; margin-block: 0.4rem 0.5rem; padding-block: 0.6rem 0.8rem; }
+  h4 { font-size: 0.85rem; margin: 0 0 0.3rem; }
+  h4 span { color: var(--color-muted); font-size: 0.7rem; font-weight: 400; margin-left: 0.35rem; }
+  p { margin: 0.3rem 0; overflow-wrap: anywhere; }
+  dl { display: grid; gap: 0.2rem 1.4rem; grid-template-columns: repeat(2, minmax(0, 1fr)); margin: 0.6rem 0; }
+  dl div { display: grid; gap: 0.5rem; grid-template-columns: 5rem minmax(0, 1fr); }
+  dt, .theme-data-status__note { color: var(--color-muted); }
+  dd { margin: 0; overflow-wrap: anywhere; }
+  ul { padding-left: 1.2rem; }
+  li + li { margin-top: 0.5rem; }
+  .theme-data-status__note { font-size: 0.68rem; }
+  @media (max-width: 660px) { dl { grid-template-columns: 1fr; } }
+</style>

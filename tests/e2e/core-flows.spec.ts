@@ -89,6 +89,8 @@ test("playlist browsing opens all anime songs and preserves sources, media conse
   await expect(page.getByRole("list", { name: "歌曲核對來源" }).first()).toBeHidden();
   await page.locator(".theme-card__details > summary").first().click();
   await expect(page.getByRole("list", { name: "歌曲核對來源" }).first()).toBeVisible();
+  await expect(page.getByRole("region", { name: "歌曲資料狀態" }).first()).toBeVisible();
+  await expect(page.getByRole("region", { name: "歌曲資料狀態" }).first()).toContainText("已有資料也不代表全部版本");
   await expect(page.locator(".theme-card__credits").first()).toContainText("作詞");
   await expect(page.getByRole("link", { name: /回報資料問題/ })).toHaveAttribute("href", /catalog-correction\.yml/);
   await expect(page.locator('[data-poster]').first()).toHaveAttribute("data-poster-state", "unavailable");
