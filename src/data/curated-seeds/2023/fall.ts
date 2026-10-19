@@ -103,6 +103,6 @@ export const curated2023FallSeeds: CuratedAnimeSeed[] = [
   {"anilistId":179873,"id":"curated-179873","slug":"monster-strike-anime-masamune-shimei-no-akaki-yaiba","seasonIds":["2023-fall"],"startDate":"2023-12-29","titleJa":"モンストアニメ『マサムネ　- 使命の赤き刃 -』","titleZhHant":"モンストアニメ『マサムネ　- 使命の赤き刃 -』","titleRomaji":"Monster Strike Anime: Masamune - Shimei no Akaki Yaiba","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179873-Y5OSMDt8Znj4.png","editorialWeekday":5,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://www.monster-strike.com/promotion/shinshun2024/","anilistUrl":"https://anilist.co/anime/179873","imageSourceUrl":"https://anilist.co/anime/179873","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-autumn?display=list_detailed"],"themes":[],"verifiedAt":"2026-09-01"},
 ];
 
-export const curated2023FallAnimeIds = [...[...[...curated2023FallSeeds.map(
+export const curated2023FallAnimeIds = [...[...[...[...curated2023FallSeeds.map(
   ({ anilistId }) => anilistId,
-), 142274], 8687, 966, 6149], 159560];
+), 142274], 8687, 966, 6149], 159560], 142842];

@@ -82,6 +82,6 @@ export const curated2023SpringSeeds: CuratedAnimeSeed[] = [
   {"anilistId":163137,"id":"curated-163137","slug":"oooku","seasonIds":["2023-spring"],"startDate":"2023-06-29","titleJa":"大奥","titleZhHant":"大奧","titleRomaji":"Oooku","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b163137-KBXHcaCBf1ZF.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/163137-kFxfz6SNa9tA.jpg","editorialWeekday":4,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://www.netflix.com/jp/title/81464005","anilistUrl":"https://anilist.co/anime/163137","imageSourceUrl":"https://anilist.co/anime/163137","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-spring?display=list_detailed","https://bgm.tv/subject/425986"],"themes":[],"verifiedAt":"2026-09-01"},
 ];
 
-export const curated2023SpringAnimeIds = [...[...curated2023SpringSeeds.map(
+export const curated2023SpringAnimeIds = [...[...[...curated2023SpringSeeds.map(
   ({ anilistId }) => anilistId,
-), 142274], 8687, 966, 6149];
+), 142274], 8687, 966, 6149], 142842];

@@ -78,6 +78,6 @@ export const curated2024WinterSeeds: CuratedAnimeSeed[] = [
   {"anilistId":184373,"id":"curated-184373","slug":"ephemere","seasonIds":["2024-winter"],"startDate":"2024-03-22","titleJa":"エフェメール","titleZhHant":"エフェメール","titleRomaji":"éphémère","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184373-YmulsRAhpRzD.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/184373-tGvim11J9qPq.jpg","editorialWeekday":5,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://www.youtube.com/watch?v=5R64pAPUZmk","anilistUrl":"https://anilist.co/anime/184373","imageSourceUrl":"https://anilist.co/anime/184373","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2024%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2024-winter?display=list_detailed","https://bgm.tv/subject/484219"],"themes":[],"verifiedAt":"2026-08-30"},
 ];
 
-export const curated2024WinterAnimeIds = [...[...[...curated2024WinterSeeds.map(
+export const curated2024WinterAnimeIds = [...[...[...[...curated2024WinterSeeds.map(
   ({ anilistId }) => anilistId,
-), 142274, 165159], 8687, 966, 6149], 159560];
+), 142274, 165159], 8687, 966, 6149], 159560], 142842];
