@@ -12,8 +12,8 @@
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED，已確認插曲一併記錄；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2020–2026標準季度TV的動畫及歌曲基本資料優先，按2026 → 2020、各年秋 → 夏 → 春 → 冬補漏。先處理可快速核實的原名、季度／首播、演唱名義、OP／ED用途及來源；創作、影片、音源、發行品及平台集中深化留待下一階段。約24分鐘、常見12／24集，13／26集及同類續播納入；短WEB、泡麵番、短篇TV及特殊番延後，既有成果保留 |
 | 完成條件 | 各季有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替；基本資料經公開JSON、頁面及必要檢查驗證，歌單與詳情保持易瀏覽。詳細欄位缺少不阻擋基本資料。作品聯集未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件 |
-| 執行狀態 | 基本資料階段執行中；第38批10部動畫、20筆OP／ED及1筆IN與展示已正式發布驗收，本輪交付完成。第39批未啟動，詳細深化延後；本階段及長期目標未完成，沒有背景排程 |
-| 接續位置 | 第39批：2026秋季其餘標準TV基本資料，沿現有季度索引取第一方音樂與TV證據，先做快速可核實的新作／續播及輪替。固定截止日不移動；其後2026既有季、2025–2020聯集缺口，2025春curated-183133／curated-178701等接點保留；詳細深化待下一階段 |
+| 執行狀態 | 基本資料階段持續執行；第38批正式發布來源`be5a84a`／`batch38-receipt`，第39批本機資料與展示驗證完成，正式發布待完成。按批次持續補2020–2026標準TV基本資料，直至已登記範圍完成；詳細深化延後，本階段及長期目標未完成，沒有背景排程 |
+| 接續位置 | 第40批：2026秋季其餘標準TV基本資料，沿現有季度索引取第一方音樂與TV證據，先做快速可核實的新作／續播及輪替。固定截止日不移動；其後2026既有季、2025–2020聯集缺口，2025春curated-183133／curated-178701等接點保留；詳細深化待下一階段 |
 | 發布提交 | 第38批正式資料：[PR #129](https://github.com/kyeunga25/anisonary/pull/129)，來源`ee330fa`／`batch38-basics`；GitHub quality、Workers Builds、Cloudflare實際版本來源及production驗收通過。本回執提交只保存進度，不改已驗收公開程式或資料；先前批次歷史保留 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
@@ -21,7 +21,7 @@
 
 ## 季度進度 / Quarterly progress
 
-統計至第38批，資料與展示已發布驗收；正式來源見頂部發布提交及各批live紀錄。數量為現有快照的OP／ED用途，依公開theme ID與用途季度計算；跨季用途可能重複，不能直接相加或當作唯一歌曲／音源數。
+統計至第39批本機驗證；第38批為目前正式發布，資料與展示的正式驗收另記；正式來源見頂部發布提交及各批live紀錄。數量為現有快照的OP／ED用途，依公開theme ID與用途季度計算；跨季用途可能重複，不能直接相加或當作唯一歌曲／音源數。
 
 「基本欄位具備」表示現有歌曲原名、演唱名義、用途及第一方／交叉來源有值，動畫可識別且有季度與作品來源；這是現有資料的欄位盤點，不表示本批重查全部來源、作品清單已閉合或整季收齊。「已逐批核對」依下方各批公開ID明細，包含查找後保留續查條件的用途。
 
@@ -29,7 +29,7 @@
 
 | 季度 | 現有OP／ED用途 | 基本欄位具備 | 已逐批核對 | 其中詳細核心齊備 | 已核對詳細核心缺口 |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| 2026 秋 | 20 | 20 | 20 | 0 | 20 |
+| 2026 秋 | 40 | 40 | 40 | 0 | 40 |
 | 2026 夏 | 141 | 141 | 141 | 96 | 45 |
 | 2026 春 | 182 | 182 | 182 | 133 | 49 |
 | 2026 冬 | 137 | 137 | 137 | 106 | 31 |
@@ -62,9 +62,9 @@
 | 2019 春 | 尚未建立快照 | — | — | — | — |
 | 2019 冬 | 尚未建立快照 | — | — | — | — |
 
-2020–2026的28個季度現在均有快照，但2026秋僅10部作品20筆OP／ED及1筆IN用途，其他季度亦未完成完整標準TV作品聯集；各季現有筆數均不是經閉合盤點的全季分母。2026夏／春／冬的既有清單首輪與第08–37批成果保留，基本資料階段沒有重查全量舊來源。2025春尚有113筆、冬133筆現有OP／ED未逐批核對；2024–2020本輪逐批核對尚未開始，短篇／WEB缺口不阻擋標準TV推進。
+2020–2026的28個季度現在均有快照，但2026秋僅20部作品40筆OP／ED及2筆IN用途，其他季度亦未完成完整標準TV作品聯集；各季現有筆數均不是經閉合盤點的全季分母。2026夏／春／冬的既有清單首輪與第08–37批成果保留，基本資料階段沒有重查全量舊來源。2025春尚有113筆、冬133筆現有OP／ED未逐批核對；2024–2020本輪逐批核對尚未開始，短篇／WEB缺口不阻擋標準TV推進。
 
-目前845個唯一用途已逐批處理，其中799 OP／ED、37 IN、9 TS；跨季不可相加。第38批21筆用途的基本欄位及身分／用途證據齊備，詳細核心0／20是深化尚未開始，不表示基本資料失敗。2007–2018及2019春／冬仍無快照，長期範圍未完成。羽のゆりかご的季度fallback限制沿第37批記錄，未把未證實春季使用當作確證。
+目前866個唯一用途已逐批處理，其中819 OP／ED、38 IN、9 TS；跨季不可相加。第38–39批42筆用途的基本欄位及身分／用途證據齊備，詳細核心0／40是深化尚未開始，不表示基本資料失敗。2007–2018及2019春／冬仍無快照，長期範圍未完成。羽のゆりかご的季度fallback限制沿第37批記錄，未把未證實春季使用當作確證。
 
 ## 基線
 
@@ -84,7 +84,7 @@
 | 優先 | 工作 | 狀態與接點 |
 | --- | --- | --- |
 | 1 | 一次性最小格式與真實試行 | 2026-10-14 已完成，見下方 2026-summer-schema-pilot；後續直接沿用格式，不重新設計或搬移全量資料 |
-| 2 | 當前收集接點 | 第38批正式驗收完成；第39批尚未啟動，接續2026秋季其餘標準TV基本資料 |
+| 2 | 當前收集接點 | 第39批本機驗證完成、正式發布待完成；第40批接續2026秋季其餘標準TV基本資料 |
 | 3 | 2025–2020基本資料 | 標準TV按年份／季度倒序補作品聯集與歌曲輪替；短篇／WEB延後，詳細深化待後續指令 |
 | 4 | 較早年度 | 2019 → 2007保留長期待辦；2020–2026基本階段未完成前不擴張 |
 | 5 | 詳細資料 | 已完成的創作、影片、音源、發行品及平台資料保留；未解觸發條件沿用，集中深化延後 |
@@ -3405,3 +3405,54 @@ Cloudflare實際CLI部署exit 0，資料驗收來源`a23128662d1968815db88726910
 - 正式站完整public API contract／跨endpoint一致性gate通過；71個入口與本機產物SHA-256一致，包括全部30季度HTML、10部新動畫HTML／JSON及首頁／歌單／搜尋／目錄／必要靜態資產；2個未知route實測404。JSON content type、noindex／revalidation／無CORS及HTML安全標頭通過，CSP無unsafe-inline／unsafe-eval且禁止inline屬性。
 - Production桌面及393×852：新季21筆 → Black Rover → 同頁3首歌 → 展開IN來源；用途保持第2話插曲，無誤列OP／ED或推定新錄音，無水平溢出／框架錯誤／app console errors。平台地區可用性、實際歌曲播放及其他瀏覽器沒有因此宣稱通過。
 - 正式入口：[2026秋季](https://anisonary.k-y.cc/seasons/2026-fall/)、[Black Clover全部歌曲](https://anisonary.k-y.cc/anime/black-clover-2nd-season/)、[年度目錄](https://anisonary.k-y.cc/catalog/)。2020–2026與長期範圍仍未收齊；第39批接續位置見頂部，沒有啟動新收集或背景排程。
+
+
+## 2026-10-19 批次：2020-2026-tv-basics-39（本機驗證完成，正式發布待完成）
+
+完成層次：基本資料；新增10部2026秋標準TV、20筆OP／ED及1筆IN。固定2007–2026長期範圍、2020–2026基本資料階段與2026-10-14截止日；實際查閱日期2026-10-19。詳細深化延後，持續按批次推進基本資料完整範圍。
+
+| 公開 theme ID | 曲名／演唱名義／用途 | 第一方來源 |
+| --- | --- | --- |
+| `koori-no-jouheki-2nd-season-op-1` | エスコート／THE BEAT GARDEN／OP1 | [官方](https://korinojoheki-pr.com/music/) |
+| `koori-no-jouheki-2nd-season-ed-1` | 花蔭／Superfly／ED1 | [官方](https://korinojoheki-pr.com/music/) |
+| `sasaki-to-pii-chan-season-2-op-1` | Unbroken／MADKID／OP1 | [官方](https://sasapi-anime.com/music.html) |
+| `sasaki-to-pii-chan-season-2-ed-1` | すきぴのおかげ！／のんふぃく！／ED1 | [官方](https://sasapi-anime.com/music.html) |
+| `shiotaiou-no-satou-san-ga-ore-ni-dake-amai-op-1` | シュガーソルト／オーイシマサヨシ／OP1 | [官方](https://shioama-anime.com/music.html) |
+| `shiotaiou-no-satou-san-ga-ore-ni-dake-amai-ed-1` | 初恋リプライ／HoneyWorks feat.星川サラ／ED1 | [官方](https://shioama-anime.com/music.html) |
+| `kyouran-reijou-nia-liston-op-1` | リスポーン!!／角巻わため／OP1 | [官方](https://kyoranreijo-pr.com/) |
+| `kyouran-reijou-nia-liston-ed-1` | ときめきアン・ドゥ・トロワ♪／魔法映像（マジックビジョン）ひろめ隊／ED1 | [官方](https://kyoranreijo-pr.com/) |
+| `mahou-shoujo-ikusei-keikaku-restart-op-1` | No tears here／茅原実里／OP1 | [官方](https://mahoiku.com/anime/restart) |
+| `mahou-shoujo-ikusei-keikaku-restart-ed-1` | ReMind／Daisy×Daisy／ED1 | [官方](https://mahoiku.com/anime/restart) |
+| `tantei-wa-mou-shindeiru-season-2-op-1` | この心臓に花束を／心梅／OP1 | [官方](https://tanmoshi-anime.jp/Season2/music/index.html) |
+| `tantei-wa-mou-shindeiru-season-2-ed-1` | 白昼夢／カグラナナ／ED1 | [官方](https://tanmoshi-anime.jp/Season2/music/index.html) |
+| `romelia-senki-op-1` | 暁に鳴る／超学生／OP1 | [官方](https://romelia-senki.com/product/music/) |
+| `romelia-senki-ed-1` | Nightfall feat. Maika Loubté／KOHTA YAMAMOTO／ED1 | [官方](https://romelia-senki.com/product/music/ed) |
+| `ranma-2024-3rd-season-op-1` | 素直未満／ふみの／OP1 | [官方](https://ranma-pr.com/music/) |
+| `ranma-2024-3rd-season-ed-1` | かわいくない／『ユイカ』／ED1 | [官方](https://ranma-pr.com/music/) |
+| `magic-knight-rayearth-2026-op-1` | 乙女の剣／十明／OP1 | [官方](https://rayearth-anime.com/music/) |
+| `magic-knight-rayearth-2026-ed-1` | 星灯／Kawaguchi Yurina／ED1 | [官方](https://rayearth-anime.com/music/) |
+| `magic-knight-rayearth-2026-in-1` | ゆずれない願い／田村直美／IN1 | [官方](https://rayearth-anime.com/music/) |
+| `doumo-suki-na-hito-ni-horegusuri-wo-irai-sareta-majo-desu-op-1` | かなわない、／センチミリメンタル／OP1 | [官方](https://horemajo-anime.com/music/index.html) |
+| `doumo-suki-na-hito-ni-horegusuri-wo-irai-sareta-majo-desu-ed-1` | まだ嘘にならない／レイニ／ED1 | [官方](https://horemajo-anime.com/music/index.html) |
+
+- 已處理anime ID：`curated-213805`、`curated-176314`、`curated-209502`、`curated-206949`、`curated-160803`、`curated-152677`、`curated-180894`、`curated-209872`、`curated-178868`、`curated-207191`。
+- 實際新增：10個動畫頁、21筆用途／歌曲識別、42組身分與用途證據；全目錄30季、2,005部、4,452用途（4,405 OP／ED、38 IN、9 TS）。沒有新增音源、發行品或影片metadata。原有1,995部公開JSON逐項保持不變，既有ID與網址保留。
+- 已補欄位：動畫原名、羅馬字識別、季度、官方TV首播與時段／平台；歌曲原名、演唱名義、用途、第一方及交叉來源。〈かなわない、〉保留官方末尾標點；探偵Season2採官方2026年，不沿用索引誤載的2025年。魔法少女育成計画restart與らんま第3期保留節目表深夜時段及實際翌日首播日；ロメリア的10月3日先行網播與10月5日TV分開。佐々木初回1小時不改判成特殊番。
+- 證據重用：同一官方music／onair頁支持多項基本事實；沿用本工作階段已讀UtaTen秋季索引及YourAnimes中文季度頁，個別AniList公開身分／有界API只取ID、標題與格式等必要欄位。雷阿斯第1話〈ゆずれない願い〉以官方music及[GAME Watch 2026-10-08報導](https://game.watch.impress.co.jp/docs/news/2146248.html)確認IN，不改列OP／ED或推定新錄音。
+
+### 缺口及續查條件
+
+- 2026秋標準TV作品、續播及輪替聯集未閉合；40／40只是現有OP／ED已核對，不是全季分母。第40批續補可快速核實的其餘作品。
+- 本批21筆基本欄位無未解衝突；詳細創作、影片、音源、發行及平台待下一階段，正式繁中譯名與圖片未知者留空。
+- 魔法少女育成計画restart官方另列〈Re：START〉插曲，尚未完成截至固定日期的交叉用途證據；待相應官方公告日期／正片與交叉來源明確後加入，不以曲目宣傳推定已播集數。
+- 2025夏15、春113、冬133筆既有OP／ED尚未逐批核對，2024–2020尚待逐批盤點；歷史詳細缺口與季度fallback限制保留。
+
+### 本機檢查與展示
+
+- `npm test`4檔／6項及`npm run build`通過；2,051 HTML、4,100公開產物，Astro無errors／warnings／hints；10部21筆通過實際ApiProvider解析。
+- `npm run test:e2e`6條完整通過；初次Chromium啟動遭本機沙箱權限限制，正常權限重試成功，沒有修改正常程式或降低測試gate。
+- 實際in-app Chromium：秋季42筆全部用途、20部、每頁24列；查雷阿斯得到3筆→動畫全部3筆→展開插曲第一方／GAME Watch來源。393×852手機頁寬393、內容寬393、0影片iframe；詳細資料預設折疊。沒有聲稱實際歌曲播放或地區可用性。
+- Cloudflare dry-run exit0且有成功marker，無bindings；沿用第38批當前依賴樹稽核，未改依賴／設定。公開邊界243個repository檔案、文件相對連結、git diff格式及新增行私隱／credential模式檢查通過。臨時查閱筆記、工具、原始回應、log及帳戶資料不納入公開提交。
+- 正式發布待固定PR head、CI／Workers檢查、正常合併、部署及獨立live驗收；目前production仍為第38批`be5a84a`／`batch38-receipt`。
+
+本批資料提交`f6b448d`；進度及驗證另作文件提交，正式來源以合併後main與實際部署驗收為準。
