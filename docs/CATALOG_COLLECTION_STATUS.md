@@ -12,8 +12,8 @@
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED，已確認插曲一併記錄；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2020–2026標準季度TV的動畫及歌曲基本資料優先，按2026 → 2020、各年秋 → 夏 → 春 → 冬補漏。先處理可快速核實的原名、季度／首播、演唱名義、OP／ED用途及來源；創作、影片、音源、發行品及平台集中深化留待下一階段。約24分鐘、常見12／24集，13／26集及同類續播納入；短WEB、泡麵番、短篇TV及特殊番延後，既有成果保留 |
 | 完成條件 | 各季有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替；基本資料經公開JSON、頁面及必要檢查驗證，歌單與詳情保持易瀏覽。詳細欄位缺少不阻擋基本資料。作品聯集未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件 |
-| 執行狀態 | 基本資料階段持續執行；第39批正式發布來源`14a7d32`／`batch39-basics`已驗收，第40批執行中。按批次持續補2020–2026標準TV基本資料，直至已登記範圍完成；詳細深化延後，本階段及長期目標未完成，沒有背景排程 |
-| 接續位置 | 第40批：2026秋季其餘標準TV基本資料，沿現有季度索引取第一方音樂與TV證據，先做快速可核實的新作／續播及輪替。固定截止日不移動；其後2026既有季、2025–2020聯集缺口，2025春curated-183133／curated-178701等接點保留；詳細深化待下一階段 |
+| 執行狀態 | 基本資料階段持續執行；第39批正式發布來源`14a7d32`／`batch39-basics`已驗收，第40批本機資料與展示驗證完成，正式發布待完成。按批次持續補2020–2026標準TV基本資料，直至已登記範圍完成；詳細深化延後，本階段及長期目標未完成，沒有背景排程 |
+| 接續位置 | 第41批：2026秋季其餘標準TV基本資料，沿現有季度索引取第一方音樂與TV證據，先做快速可核實的新作／續播及輪替。固定截止日不移動；其後2026既有季、2025–2020聯集缺口，2025春curated-183133／curated-178701等接點保留；詳細深化待下一階段 |
 | 發布提交 | 第39批：[PR #131](https://github.com/kyeunga25/anisonary/pull/131)，來源`14a7d32`／`batch39-basics`；PR及main quality、Workers Builds、實際Cloudflare版本來源與正式站驗收通過。第40批準備中，先前發布保留 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
@@ -21,7 +21,7 @@
 
 ## 季度進度 / Quarterly progress
 
-統計至第39批，資料與展示已正式發布驗收；正式來源見頂部發布提交及各批live紀錄。數量為現有快照的OP／ED用途，依公開theme ID與用途季度計算；跨季用途可能重複，不能直接相加或當作唯一歌曲／音源數。
+統計至第40批本機驗證；第39批為目前正式發布，資料與展示的正式驗收另記；正式來源見頂部發布提交及各批live紀錄。數量為現有快照的OP／ED用途，依公開theme ID與用途季度計算；跨季用途可能重複，不能直接相加或當作唯一歌曲／音源數。
 
 「基本欄位具備」表示現有歌曲原名、演唱名義、用途及第一方／交叉來源有值，動畫可識別且有季度與作品來源；這是現有資料的欄位盤點，不表示本批重查全部來源、作品清單已閉合或整季收齊。「已逐批核對」依下方各批公開ID明細，包含查找後保留續查條件的用途。
 
@@ -29,7 +29,7 @@
 
 | 季度 | 現有OP／ED用途 | 基本欄位具備 | 已逐批核對 | 其中詳細核心齊備 | 已核對詳細核心缺口 |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| 2026 秋 | 40 | 40 | 40 | 0 | 40 |
+| 2026 秋 | 60 | 60 | 60 | 0 | 60 |
 | 2026 夏 | 141 | 141 | 141 | 96 | 45 |
 | 2026 春 | 182 | 182 | 182 | 133 | 49 |
 | 2026 冬 | 137 | 137 | 137 | 106 | 31 |
@@ -62,9 +62,9 @@
 | 2019 春 | 尚未建立快照 | — | — | — | — |
 | 2019 冬 | 尚未建立快照 | — | — | — | — |
 
-2020–2026的28個季度現在均有快照，但2026秋僅20部作品40筆OP／ED及2筆IN用途，其他季度亦未完成完整標準TV作品聯集；各季現有筆數均不是經閉合盤點的全季分母。2026夏／春／冬的既有清單首輪與第08–37批成果保留，基本資料階段沒有重查全量舊來源。2025春尚有113筆、冬133筆現有OP／ED未逐批核對；2024–2020本輪逐批核對尚未開始，短篇／WEB缺口不阻擋標準TV推進。
+2020–2026的28個季度現在均有快照，但2026秋僅30部作品60筆OP／ED及2筆IN用途，其他季度亦未完成完整標準TV作品聯集；各季現有筆數均不是經閉合盤點的全季分母。2026夏／春／冬的既有清單首輪與第08–37批成果保留，基本資料階段沒有重查全量舊來源。2025春尚有113筆、冬133筆現有OP／ED未逐批核對；2024–2020本輪逐批核對尚未開始，短篇／WEB缺口不阻擋標準TV推進。
 
-目前866個唯一用途已逐批處理，其中819 OP／ED、38 IN、9 TS；跨季不可相加。第38–39批42筆用途的基本欄位及身分／用途證據齊備，詳細核心0／40是深化尚未開始，不表示基本資料失敗。2007–2018及2019春／冬仍無快照，長期範圍未完成。羽のゆりかご的季度fallback限制沿第37批記錄，未把未證實春季使用當作確證。
+目前886個唯一用途已逐批處理，其中839 OP／ED、38 IN、9 TS；跨季不可相加。第38–40批62筆用途的基本欄位及身分／用途證據齊備，詳細核心0／60是深化尚未開始，不表示基本資料失敗。2007–2018及2019春／冬仍無快照，長期範圍未完成。羽のゆりかご的季度fallback限制沿第37批記錄，未把未證實春季使用當作確證。
 
 ## 基線
 
@@ -84,7 +84,7 @@
 | 優先 | 工作 | 狀態與接點 |
 | --- | --- | --- |
 | 1 | 一次性最小格式與真實試行 | 2026-10-14 已完成，見下方 2026-summer-schema-pilot；後續直接沿用格式，不重新設計或搬移全量資料 |
-| 2 | 當前收集接點 | 第39批正式驗收完成；第40批接續2026秋季其餘標準TV基本資料 |
+| 2 | 當前收集接點 | 第40批本機驗證完成、正式發布待完成；第41批接續2026秋季其餘標準TV基本資料 |
 | 3 | 2025–2020基本資料 | 標準TV按年份／季度倒序補作品聯集與歌曲輪替；短篇／WEB延後，詳細深化待後續指令 |
 | 4 | 較早年度 | 2019 → 2007保留長期待辦；2020–2026基本階段未完成前不擴張 |
 | 5 | 詳細資料 | 已完成的創作、影片、音源、發行品及平台資料保留；未解觸發條件沿用，集中深化延後 |
@@ -3464,3 +3464,49 @@ Cloudflare實際CLI部署exit 0，資料驗收來源`a23128662d1968815db88726910
 71個正式入口與本機產物SHA-256一致，包含全部30季度HTML及10部新增動畫HTML／JSON；2條不存在route正確404，嚴格CSP、安全標頭及API noindex／revalidation／無CORS通過。10部21用途的實際ApiProvider解析、本機1,995部JSON隔離、6條E2E及桌面／手機證據見上節；沒有把此次selected-route驗收稱作重新取回全部2,005部API。正式站秋季42筆／20部、每頁24列；搜尋かなわない得到1筆，動畫頁完整2首且標點保留。393像素手機內容寬393、0影片iframe，無水平溢出；未宣稱歌曲播放或地區可用性驗證。
 
 第40批接續其餘2026秋標準TV基本資料；基本階段與長期目標未完成，詳細深化延後。發布回執與進度在下一批獨立文件提交保存，不改已驗收公開產物。
+
+
+## 2026-10-19 批次：2020-2026-tv-basics-40（本機驗證完成，正式發布待完成）
+
+完成層次：基本資料；新增10部2026秋標準TV、20筆OP／ED。固定截止日2026-10-14，實際查閱日2026-10-19；詳細深化延後，持續補2020–2026已登記基本範圍。
+
+| 公開 theme ID | 曲名／演唱名義／用途 | 第一方來源 |
+| --- | --- | --- |
+| `seitokai-ni-mo-ana-wa-aru-op-1` | 風の中は走るっきゃないっ！／三月のパンタシア／OP1 | [官方](https://nama-anaru.com/music/) |
+| `seitokai-ni-mo-ana-wa-aru-ed-1` | ぴ／ナナヲアカリ／ED1 | [官方](https://nama-anaru.com/music/?music=ed) |
+| `kashita-maryoku-wa-revo-barai-de-kyousei-choushuu-op-1` | リスクレート／BUDDiiS／OP1 | [官方](https://revo-anime.com/music/) |
+| `kashita-maryoku-wa-revo-barai-de-kyousei-choushuu-ed-1` | いれもの／こたに／ED1 | [官方](https://revo-anime.com/music/) |
+| `kanata-kara-op-1` | 逃光行／原因は自分にある。／OP1 | [官方](https://kanatakara-anime.com/music/) |
+| `kanata-kara-ed-1` | 光の側で／名無し之太郎／ED1 | [官方](https://kanatakara-anime.com/music/) |
+| `gensou-suikoden-op-1` | 悲しみさえ大人びて／amazarashi／OP1 | [官方](https://www.suikoden-anime.com/music/) |
+| `gensou-suikoden-ed-1` | closed eye sun (feat. たかはしほのか)／Koji Nakamura／ED1 | [官方](https://www.suikoden-anime.com/music/) |
+| `shinja-zero-no-megami-sama-to-hajimeru-isekai-kouryaku-op-1` | 未来の足跡／310／OP1 | [官方](https://zero-believers-anime.com/) |
+| `shinja-zero-no-megami-sama-to-hajimeru-isekai-kouryaku-ed-1` | Fall in Dream／Suupeas／ED1 | [官方](https://zero-believers-anime.com/) |
+| `toaru-anbu-no-item-op-1` | Ghost Sequence／East Of Eden／OP1 | [官方](https://toaru-project.com/item/news/index00050000.html) |
+| `toaru-anbu-no-item-ed-1` | 原子崩し(メルトダウナー)／岸田教団&THE明星ロケッツ／ED1 | [官方](https://toaru-project.com/item/news/index00050000.html) |
+| `tokyo-revengers-santen-sensou-hen-op-1` | IGNITE／JO1／OP1 | [官方](https://tokyo-revengers-anime.com/product/) |
+| `tokyo-revengers-santen-sensou-hen-ed-1` | トリックスター／go!go!vanillas／ED1 | [官方](https://tokyo-revengers-anime.com/product/) |
+| `magical-explorer-op-1` | Remedy／ASCA／OP1 | [官方](https://majieku.com/) |
+| `magical-explorer-ed-1` | Double Wings／ASCA／ED1 | [官方](https://majieku.com/) |
+| `mezametara-saikyou-soubi-to-uchuusen-mochi-datta-node-op-1` | UNSTOPPABLE／FLOW／OP1 | [官方](https://saikyosoubi.com/) |
+| `mezametara-saikyou-soubi-to-uchuusen-mochi-datta-node-ed-1` | MY WAY／ASTERISM／ED1 | [官方](https://saikyosoubi.com/) |
+| `yowaki-max-reijou-nano-ni-ratsuwan-konyakusha-sama-no-kake-ni-notte-shimatta-op-1` | 強気MAX宣言／鈴木このみ／OP1 | [官方](https://yowaki-max-anime.com/music/) |
+| `yowaki-max-reijou-nano-ni-ratsuwan-konyakusha-sama-no-kake-ni-notte-shimatta-ed-1` | 夜明けまでに／伊藤美来／ED1 | [官方](https://yowaki-max-anime.com/music/) |
+
+- 已處理anime ID：`curated-191656`、`curated-202250`、`curated-209463`、`curated-187316`、`curated-205896`、`curated-186742`、`curated-178083`、`curated-169581`、`curated-186541`、`curated-200455`。
+- 實際新增：10個動畫頁、20個用途／歌曲識別、40組身分與用途證據；全目錄30季、2,015部、4,472用途（4,425 OP／ED、38 IN、9 TS）。沒有新增音源、影片metadata或發行品，原有2,005部公開JSON保持不變，ID與網址穩定。
+- 已補欄位：動畫原名、羅馬字識別、季度、TV首播／時段及來源；歌曲原名、演唱名義、OP／ED用途及來源。三天戦争編保留原篇章名；深夜TV首播與節目表日期分開，マジカル★エクスプローラー先行網播不取代TV日期，幻想水滸伝初回60分鐘不改判為特殊番。
+- 證據重用：官方music、staff、product及onair頁一次核對多項基本事實；同工作階段沿用UtaTen秋季與YourAnimes中文索引。生徒会ED使用官方music的公開ED分頁，不從預設只顯示OP的頁面推定；角色演唱版只見BD收錄宣傳，本階段未增加為TV用途。原子崩し(メルトダウナー)依官方解禁公告保留名稱，不從其他媒體自行拆名。
+
+### 缺口及續查條件
+
+- 秋季目前30部60筆OP／ED及2筆IN仍是子集，標準TV新作、續播與輪替聯集未閉合；第41批續補其餘可快速核實作品與未明歌曲。
+- 本批20筆基本必要欄位無未解衝突；創作、官方影片、音源、收錄、平台、正式譯名及圖片依既有觸發條件留待詳細階段。
+- 生徒会〈ぴ〉已公告角色演唱BD收錄；後續深化以官方BD曲目表核對角色、CV與版本，不把試聽影片或收錄版直接算成新TV用途。其他歷史詳細缺口及Re：START交叉用途缺口沿上批。
+
+### 本機檢查與展示
+
+- `npm test`4檔／6項、`npm run build`2,061 HTML／4,120公開產物、10部20筆實際ApiProvider解析及`npm run test:e2e`完整6條均通過。
+- in-app Chromium預設桌面季度62筆／30部，首屏24列、3頁；搜尋幻想水滸伝得到2筆→動畫頁全部OP／ED。10部393×852手機逐頁核對，20筆用途均存在、無水平溢出、0影片iframe；長標題與深夜日期可讀。沒有聲稱實際播放或地區可用性。
+- Cloudflare dry-run exit0且有成功marker、公開邊界243檔、文件連結、diff格式及新增行私隱／credential模式全部通過；未改程式、contract、UI、依賴或設定，臨時筆記、取回資料、log及測試產物留在repository外。
+- 待固定PR head與CI／Workers、正常合併、實際部署及live驗收；production仍為第39批`14a7d32`／`batch39-basics`。
