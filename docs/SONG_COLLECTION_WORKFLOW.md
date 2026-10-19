@@ -109,7 +109,7 @@ Anisonary 是可追溯的動畫歌曲目錄：讀者可以由一列歌曲找到�
 1. 為 theme 增加可選的歌曲識別、音源版本、發行品關係及欄位證據；名稱與精確型別在實作時集中定義。證據引用既有來源 URL／ID，另記對應欄位與核對日期，不複製長篇來源內容。
 2. 同步修改 `PublicTheme`、`CuratedThemeSeed`、`toTheme()`、`ApiProvider` nested parser 與公開 JSON 輸出；舊資料省略新欄位仍須有效。現有每歌第一方及交叉來源 gate 繼續保護歌曲身分與動畫用途。
 3. 未來平台連結可直接在季度 authoring 層保存；保留舊 `linkOverrides` 相容，不讓每輪新資料繼續膨脹全域 override。`videos[]` 沿用既有季度模組。
-4. Authoring 支援各來源獨立日期；沿用已核對的舊證據時保留舊日期，只有新來源或實際重新查閱的來源才保存新日期。只深化既有動畫的歌曲時，以既有 metadata 日期填 `metadataVerifiedAt`，保留作品、圖像、識別與播出來源日期；不讓新歌曲證據日期推高未重核的作品資料。Parser 檢查 `lastVerifiedAt` 等於最新歌曲來源日期。
+4. Authoring 支援各來源獨立日期；沿用已核對的舊證據時保留舊日期，只有新來源或實際重新查閱的來源才保存新日期。只深化既有動畫的歌曲時，以既有 metadata 日期填 `metadataVerifiedAt`，保留作品、圖像、識別與播出來源日期；不讓新歌曲證據日期推高未重核的作品資料。Parser 檢查 `lastVerifiedAt` 等於最新歌曲來源日期。 同時補正播出／續播資料時，seed 的 `metadataSources` 可逐 URL 新增或覆寫已實際查閱的動畫來源日期；`metadataVerifiedAt` 仍是未重查來源的基準，公開動畫 `verifiedAt` 取動畫來源最新日期。不能為一條新公告重設全部識別與圖像來源。
 5. 動畫頁用緊湊的「版本 → 官方影片／平台 → 收錄發行品」列展示，來源可直接點開。歌單主列保持歌曲、藝人、動畫、用途與季度；有實際資料時才加小型版本／發行摘要。詳細 credits 放動畫頁，避免列表變成寬表。
 6. 搜尋可匹配新增的版本／發行品文字，仍在本機運作；索引不塞完整 ledger 或媒體 URL。新增欄位以現有核心測試保護，避免為每首歌新增測試或快照。
 
@@ -192,3 +192,5 @@ flowchart LR
 ## English handoff
 
 The long-term target is the latest twenty calendar years, with the range and evidence cutoff fixed when a goal starts. Work newest to oldest in bounded batches. Publish verified song identities and anime uses first, then enrich credits, recording variants, releases and official platform appearances. Keep media presentation separate from recording identity. Preserve stable IDs, field evidence and actual source dates. Implement the minimal optional schema once with a small real-data slice; do not migrate the entire catalogue first. Reuse valid evidence, revisit only changes or due items, and run checks once per applicable batch. Save the current goal, acceptance criteria and checkpoint. Start or resume on explicit instruction; stop new work promptly on pause or stop, preserve progress, and wait for a resume instruction. A batch size is not the completion criterion for a larger goal. Keep unreviewed inputs and collection tooling outside the public repository; commit, push and deployment require the current task's authorization.
+
+跨季續播保留原始seed與公開ID，以季度registry的anime ID關聯既有作品，歌曲使用有證據的`seasonIds`；新增季度seed時保留registry內引用其他季度seed的既有ID，不以本檔seed清單覆蓋續播關聯。

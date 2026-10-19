@@ -24,6 +24,7 @@ export interface CuratedAnimeSeed {
   seasonIds: CuratedSeasonId[];
   verifiedAt?: string;
   metadataVerifiedAt?: string;
+  metadataSources?: PublicAnimeDetail["sources"];
   startDate: string;
   titleJa: string;
   titleZhHant?: string;

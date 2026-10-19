@@ -122,8 +122,14 @@ it("keeps the whole reviewed catalogue consistent across seasons, details, sourc
   expect(releaseMatches.filter((row) => row.theme?.id === enriched.id)).toHaveLength(1);
   for (const seed of curatedAnimeSeeds.filter((seed) => seed.metadataVerifiedAt && seed.themes.some((theme) => theme.evidence))) {
     const detail = animeById.get(seed.id)!;
-    expect(detail.verifiedAt).toBe(seed.metadataVerifiedAt);
-    expect(detail.sources.every((source) => source.verifiedAt === seed.metadataVerifiedAt)).toBe(true);
+    const updates = new Map(seed.metadataSources?.map((source) => [source.url, source.verifiedAt]));
+    expect(detail.verifiedAt).toBe([seed.metadataVerifiedAt!, ...updates.values()].sort().at(-1));
+    for (const source of detail.sources) {
+      expect(source.verifiedAt, `${seed.id}: ${source.url}`).toBe(updates.get(source.url) ?? seed.metadataVerifiedAt);
+    }
+    for (const source of seed.metadataSources ?? []) {
+      expect(detail.sources.find((published) => published.url === source.url)).toEqual(source);
+    }
   }
   // Newly announced uses can opt out of inheriting evidence reviewed for older songs.
   for (const seed of curatedAnimeSeeds) {

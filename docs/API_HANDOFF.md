@@ -80,3 +80,6 @@ TypeScript interface 是欄位層面的 source of truth；endpoint 改動前要�
 - response cache policy 已定義，API 不在 sitemap 或 offline precache；
 - custom domain、TLS、JSON content type 與 Cloudflare Workers Builds production assets 均完成 smoke test；
 - Wrangler dry-run 保持 0 application bindings。
+
+
+動畫 authoring 的 `metadataSources` 可保存個別新查閱來源，按 canonical HTTPS URL 補入或更新動畫 `sources`；未列出的既有來源維持 `metadataVerifiedAt` 基準日期。公開 `verifiedAt` 仍等於動畫來源最新日期，API 格式與 parser 不變；這讓續播更正不改動未重查的圖像及識別日期。
