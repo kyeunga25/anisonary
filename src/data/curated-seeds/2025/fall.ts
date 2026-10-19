@@ -4631,15 +4631,16 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
     "id": "curated-180082",
     "slug": "chitose-kun-wa-ramune-bin-no-naka",
     "seasonIds": [
-      "2025-fall"
+      "2025-fall",
+      "2026-fall"
     ],
     "startDate": "2025-10-07",
     "titleJa": "千歳くんはラムネ瓶のなか",
     "titleZhHant": "千歳くんはラムネ瓶のなか",
     "titleRomaji": "Chitose-kun wa Ramune Bin no Naka",
     "editorialWeekday": 2,
-    "broadcastLabel": "日本首播／詳細時間未整理",
-    "status": "finished",
+    "broadcastLabel": "2025-10-07 TV首播；第2クール2026-10-13起・週二23:00（JST）・AT-X",
+    "status": "airing",
     "officialSiteUrl": "https://chiramune.com/",
     "anilistUrl": "https://anilist.co/anime/180082",
     "identifierSource": {
@@ -4910,6 +4911,9 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "verifiedAt": "2026-10-16",
             "availability": "unknown"
           }
+        ],
+        "seasonIds": [
+          "2025-fall"
         ]
       },
       {
@@ -5113,10 +5117,159 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "verifiedAt": "2026-10-16",
             "availability": "unknown"
           }
+        ],
+        "seasonIds": [
+          "2025-fall"
         ]
+      },
+      {
+        "type": "OP",
+        "sequence": 2,
+        "titleJa": "咲く",
+        "artistDisplayName": "サイダーガール",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "chitose-kun-wa-ramune-bin-no-naka-op-2-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://chiramune.com/music/index.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV播出與季度資料",
+            "url": "https://chiramune.com/onair/index.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "Mikiki：季度OP／ED與名義交叉核對",
+            "url": "https://mikiki.tokyo.jp/articles/-/46275",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "chitose-kun-wa-ramune-bin-no-naka-op-2-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://chiramune.com/music/index.html",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "chitose-kun-wa-ramune-bin-no-naka-op-2",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://chiramune.com/music/index.html",
+              "https://chiramune.com/onair/index.html",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "usageLabel": "第2クール OP"
+      },
+      {
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "どこにもいけないまま",
+        "artistDisplayName": "Aruma",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "chitose-kun-wa-ramune-bin-no-naka-ed-2-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://chiramune.com/music/index.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV播出與季度資料",
+            "url": "https://chiramune.com/onair/index.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "Mikiki：季度OP／ED與名義交叉核對",
+            "url": "https://mikiki.tokyo.jp/articles/-/46275",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "chitose-kun-wa-ramune-bin-no-naka-ed-2-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://chiramune.com/music/index.html",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "chitose-kun-wa-ramune-bin-no-naka-ed-2",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://chiramune.com/music/index.html",
+              "https://chiramune.com/onair/index.html",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "usageLabel": "第2クール ED"
       }
     ],
-    "verifiedAt": "2026-10-16"
+    "verifiedAt": "2026-10-16",
+    "metadataVerifiedAt": "2026-10-16",
+    "metadataSources": [
+      {
+        "label": "動畫官方：作品及續播資料",
+        "url": "https://chiramune.com/",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "label": "動畫官方：TV首播、分割季度及播出時段",
+        "url": "https://chiramune.com/onair/index.html",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-10-19"
+      }
+    ],
+    "broadcastTimeJst": "23:00"
   },
   {
     "anilistId": 181447,

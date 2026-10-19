@@ -7890,7 +7890,371 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
         ]
       }
     ]
+  },
+  {
+    "anilistId": 213068,
+    "id": "curated-213068",
+    "slug": "juuou-mujin-dandivine",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-08",
+    "titleJa": "獣王武神ダンデヴァイン",
+    "editorialWeekday": 3,
+    "broadcastTimeJst": "24:30",
+    "broadcastLabel": "2026-10-08 起・TV・24:30（JST）・TOKYO MX／BS11ほか・節目表10月7日深夜（實際10月8日）",
+    "status": "airing",
+    "officialSiteUrl": "https://gattaishin.com/dandivine/",
+    "anilistUrl": "https://anilist.co/anime/213068",
+    "sourceReferenceUrls": [
+      "https://gattaishin.com/dandivine/",
+      "https://youranimes.tw/bangumi/202610",
+      "https://mikiki.tokyo.jp/articles/-/46275"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "残響≠ブラスター",
+        "artistDisplayName": "西川貴教",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "juuou-mujin-dandivine-op-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://gattaishin.com/dandivine/music/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV播出與季度資料",
+            "url": "https://gattaishin.com/dandivine/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "Mikiki：季度OP／ED與名義交叉核對",
+            "url": "https://mikiki.tokyo.jp/articles/-/46275",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "juuou-mujin-dandivine-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://gattaishin.com/dandivine/music/",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "juuou-mujin-dandivine-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://gattaishin.com/dandivine/music/",
+              "https://gattaishin.com/dandivine/",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://gattaishin.com/dandivine/music/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "credits": [
+          {
+            "name": "西川貴教",
+            "role": "vocals"
+          },
+          {
+            "name": "TeddyLoid",
+            "role": "lyrics"
+          },
+          {
+            "name": "西川 貴教",
+            "role": "lyrics"
+          },
+          {
+            "name": "TeddyLoid",
+            "role": "composition"
+          },
+          {
+            "name": "TeddyLoid",
+            "role": "arrangement"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "ミカンセイオーディナリー",
+        "artistDisplayName": "DayRe:",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "juuou-mujin-dandivine-ed-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://gattaishin.com/dandivine/music/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV播出與季度資料",
+            "url": "https://gattaishin.com/dandivine/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "Mikiki：季度OP／ED與名義交叉核對",
+            "url": "https://mikiki.tokyo.jp/articles/-/46275",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "juuou-mujin-dandivine-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://gattaishin.com/dandivine/music/",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "juuou-mujin-dandivine-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://gattaishin.com/dandivine/music/",
+              "https://gattaishin.com/dandivine/",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://gattaishin.com/dandivine/music/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "credits": [
+          {
+            "name": "DayRe:",
+            "role": "vocals"
+          },
+          {
+            "name": "福森優光(sixth floor)",
+            "role": "lyrics"
+          },
+          {
+            "name": "鶴﨑輝一",
+            "role": "composition"
+          },
+          {
+            "name": "鶴﨑輝一",
+            "role": "arrangement"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 206814,
+    "id": "curated-206814",
+    "slug": "dragon-ball-super-beerus",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-10-19",
+    "startDate": "2026-10-11",
+    "titleJa": "ドラゴンボール超 ビルス",
+    "editorialWeekday": 7,
+    "broadcastTimeJst": "23:15",
+    "broadcastLabel": "2026-10-11 起・TV・23:15（JST）・フジテレビ系・週日23:15～23:45",
+    "status": "airing",
+    "officialSiteUrl": "https://dragonball-super.com/",
+    "anilistUrl": "https://anilist.co/anime/206814",
+    "sourceReferenceUrls": [
+      "https://www.fujitv.co.jp/fujitv/news/20260943.html",
+      "https://youranimes.tw/bangumi/202610",
+      "https://mikiki.tokyo.jp/articles/-/46275"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "オノガミ",
+        "artistDisplayName": "メガテラ・ゼロ",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "dragon-ball-super-beerus-op-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://dragonball-super.com/music/index.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV播出與季度資料",
+            "url": "https://www.fujitv.co.jp/fujitv/news/20260943.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "Mikiki：季度OP／ED與名義交叉核對",
+            "url": "https://mikiki.tokyo.jp/articles/-/46275",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "dragon-ball-super-beerus-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://dragonball-super.com/music/index.html",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "dragon-ball-super-beerus-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://dragonball-super.com/music/index.html",
+              "https://www.fujitv.co.jp/fujitv/news/20260943.html",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "完璧のペキ",
+        "artistDisplayName": "ビッケブランカ",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "dragon-ball-super-beerus-ed-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://dragonball-super.com/music/index.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "官方：TV播出與季度資料",
+            "url": "https://www.fujitv.co.jp/fujitv/news/20260943.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "Mikiki：季度OP／ED與名義交叉核對",
+            "url": "https://mikiki.tokyo.jp/articles/-/46275",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "dragon-ball-super-beerus-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://dragonball-super.com/music/index.html",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "dragon-ball-super-beerus-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://dragonball-super.com/music/index.html",
+              "https://www.fujitv.co.jp/fujitv/news/20260943.html",
+              "https://mikiki.tokyo.jp/articles/-/46275"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ]
+      }
+    ],
+    "titleRomaji": "Dragon Ball Super: Beerus"
   }
 ];
 
-export const curated2026FallAnimeIds: number[] = [191788, 189123, 205909, 199426, 206401, 159042, 172192, 185756, 187402, 195604, 213805, 176314, 209502, 206949, 160803, 152677, 180894, 209872, 178868, 207191, 191656, 202250, 209463, 187316, 205896, 186742, 178083, 169581, 186541, 200455, 202079, 211778, 209499, 204389, 195571, 216557, 212888, 204011, 212799, 195516, 179876, 187990, 199007, 199068, 199594, 200294, 204650, 207329, 209562, 212503];
+// Continuing works retain their original seed and public identity.
+export const curated2026FallAnimeIds: number[] = [191788, 189123, 205909, 199426, 206401, 159042, 172192, 185756, 187402, 195604, 213805, 176314, 209502, 206949, 160803, 152677, 180894, 209872, 178868, 207191, 191656, 202250, 209463, 187316, 205896, 186742, 178083, 169581, 186541, 200455, 202079, 211778, 209499, 204389, 195571, 216557, 212888, 204011, 212799, 195516, 179876, 187990, 199007, 199068, 199594, 200294, 204650, 207329, 209562, 212503, 213068, 206814, 177634, 178749, 182578, 180082, 180136, 203490];
