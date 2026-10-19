@@ -85,6 +85,9 @@ test("playlist browsing opens all anime songs and preserves sources, media conse
   await page.locator(".song-row").filter({ hasText: "Why? RED induction" }).click();
   await expect(page).toHaveURL(/\/anime\/youjo-senki-2\/$/);
   await expect(page.getByRole("heading", { name: /全部主題曲/ })).toBeVisible();
+  await expect(page.locator(".theme-card__details[open]")).toHaveCount(0);
+  await expect(page.getByRole("list", { name: "歌曲核對來源" }).first()).toBeHidden();
+  await page.locator(".theme-card__details > summary").first().click();
   await expect(page.getByRole("list", { name: "歌曲核對來源" }).first()).toBeVisible();
   await expect(page.locator(".theme-card__credits").first()).toContainText("作詞");
   await expect(page.getByRole("link", { name: /回報資料問題/ })).toHaveAttribute("href", /catalog-correction\.yml/);
@@ -120,6 +123,7 @@ test("playlist browsing opens all anime songs and preserves sources, media conse
   );
   if (!multiPlayerAnime) throw new Error("A reviewed multi-player example is required for the consent flow");
   await page.goto(`/anime/${multiPlayerAnime.slug}/`, { waitUntil: "domcontentloaded" });
+  for (const summary of await page.locator(".theme-card__details > summary").all()) await summary.click();
   await expect(players.nth(1).getByRole("button", { name: /載入 YouTube 影片/ })).toBeVisible();
   await expect(page.locator("iframe")).toHaveCount(0);
   await players.first().getByRole("button", { name: /載入 YouTube 影片/ }).click();
@@ -155,7 +159,7 @@ test("song library and local search combine quarters, sorting, multilingual inpu
   await page.getByRole("combobox", { name: "排序", exact: true }).selectOption("oldest");
   await expect(results.first().locator(".song-row__season")).toHaveText("2019 夏季");
   await page.getByRole("combobox", { name: "排序", exact: true }).selectOption("newest");
-  await expect(results.first().locator(".song-row__season")).toHaveText("2026 夏季");
+  await expect(results.first().locator(".song-row__season")).toHaveText(`${curatedSeasons[0]!.year} ${curatedSeasons[0]!.titleZhHant.replace("動畫", "")}`);
   await page.getByRole("combobox", { name: "年份", exact: true }).selectOption("2026");
   await page.getByRole("combobox", { name: "季度", exact: true }).selectOption("summer");
   await page.getByRole("searchbox").fill("ゼロから");
@@ -228,6 +232,7 @@ test("song library and local search combine quarters, sorting, multilingual inpu
 
   const videoAnime = curatedAnimeDetails.find((anime) => anime.themes.some((theme) => theme.videos.some((video) => video.embedAvailability === "unknown")))!;
   await page.goto(`/anime/${videoAnime.slug}/`);
+  for (const summary of await page.locator(".theme-card__details > summary").all()) await summary.click();
   await expect(page.locator("iframe")).toHaveCount(0);
   await expect(page.locator(".youtube-media__fallback-caption")).toHaveCount(videoAnime.themes.flatMap((theme) => theme.videos).filter((video) => !video.embeddable).length);
   await expect(page.locator(".youtube-media__fallback-caption").filter({ hasText: "MV" }).first()).toBeVisible();
@@ -236,11 +241,25 @@ test("song library and local search combine quarters, sorting, multilingual inpu
   const namedAnime = curatedAnimeDetails.find((anime) => anime.themes.some(hasNamedVideos))!;
   const namedTheme = namedAnime.themes.find(hasNamedVideos)!;
   await page.goto(`/anime/${namedAnime.slug}/`);
+  await page.locator(`[id="theme-${namedTheme.id}"] .theme-card__details > summary`).click();
   const platformLinks = page.locator(`[id="theme-${namedTheme.id}"]`).getByRole("list", { name: "音樂平台與購買連結" });
   for (const link of namedTheme.links.filter((link) => link.platform === "YouTube" && link.verifiedAt)) {
     await expect(platformLinks.locator(`a[href="${link.url}"]`)).toContainText(link.label);
   }
   await expect(page.locator("iframe")).toHaveCount(0);
+
+  const longAnime = curatedAnimeDetails.find((anime) => anime.themes.length > 6 && anime.themes.some((theme) => theme.type === "ED"))!;
+  await page.goto(`/anime/${longAnime.slug}/`);
+  const themeSearch = page.getByRole("search", { name: "這部動畫的歌曲", exact: true });
+  const visibleThemes = page.locator(".theme-card:not([hidden])");
+  await expect(visibleThemes).toHaveCount(longAnime.themes.length);
+  await themeSearch.getByRole("combobox", { name: "歌曲用途", exact: true }).selectOption("ED");
+  await expect(visibleThemes).toHaveCount(longAnime.themes.filter((theme) => theme.type === "ED").length);
+  await themeSearch.getByRole("searchbox").fill("不存在的歌曲");
+  await expect(page.locator("[data-theme-filter-empty]")).toBeVisible();
+  await themeSearch.getByRole("button", { name: "重設", exact: true }).click();
+  await expect(visibleThemes).toHaveCount(longAnime.themes.length);
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 });
 
 test("year and quarter browsing works with a mobile keyboard, without JavaScript, and through 404 recovery", async ({ page, browser }) => {
@@ -277,6 +296,13 @@ test("year and quarter browsing works with a mobile keyboard, without JavaScript
     await nativePage.route("https://s4.anilist.co/**", (route) => route.abort());
     await nativePage.goto(`${origin}/catalog/`);
     await expect(nativePage.getByRole("navigation", { name: "主要導覽" })).toBeVisible();
+    await nativePage.goto(`${origin}/anime/youjo-senki-2/`);
+    await expect(nativePage.getByRole("heading", { name: "Weiter! Weiter!", exact: true })).toBeVisible();
+    await nativePage.locator(".theme-card__details > summary").first().focus();
+    await nativePage.keyboard.press("Enter");
+    await expect(nativePage.getByRole("list", { name: "歌曲核對來源" }).first()).toBeVisible();
+    await expect(nativePage.locator("iframe")).toHaveCount(0);
+    await nativePage.goto(`${origin}/catalog/`);
     await nativePage.getByRole("link", { name: /2019.*個季度/ }).click();
     await nativePage.getByRole("link", { name: /夏季動畫/ }).click();
     await expect(nativePage.getByRole("heading", { name: "2019 夏季動畫" })).toBeVisible();
