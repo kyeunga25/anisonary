@@ -3075,7 +3075,8 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
               "artist"
             ],
             "sourceUrls": [
-              "https://nama-anaru.com/music/"
+              "https://nama-anaru.com/music/",
+              "https://utaten.com/specialArticle/index/10195"
             ],
             "verifiedAt": "2026-10-19"
           },
@@ -3087,7 +3088,8 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
             ],
             "sourceUrls": [
               "https://nama-anaru.com/music/",
-              "https://nama-anaru.com/onair/"
+              "https://nama-anaru.com/onair/",
+              "https://utaten.com/specialArticle/index/10195"
             ],
             "verifiedAt": "2026-10-19"
           }
@@ -3136,7 +3138,8 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
               "artist"
             ],
             "sourceUrls": [
-              "https://nama-anaru.com/music/?music=ed"
+              "https://nama-anaru.com/music/?music=ed",
+              "https://utaten.com/specialArticle/index/10195"
             ],
             "verifiedAt": "2026-10-19"
           },
@@ -3148,9 +3151,21 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
             ],
             "sourceUrls": [
               "https://nama-anaru.com/music/?music=ed",
-              "https://nama-anaru.com/onair/"
+              "https://nama-anaru.com/onair/",
+              "https://utaten.com/specialArticle/index/10195"
             ],
             "verifiedAt": "2026-10-19"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "releases"
+            ],
+            "note": "官方已公告角色演唱版的BD收錄；角色、CV、曲序及錄音關係尚未核對，沒有增加為新的TV用途。",
+            "resumeWhen": "官方BD完整曲目表及角色／CV資料可核對時，逐項確認版本與收錄關係。",
+            "checkedAt": "2026-10-19"
           }
         ]
       }
@@ -3516,7 +3531,8 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
               "artist"
             ],
             "sourceUrls": [
-              "https://www.suikoden-anime.com/music/"
+              "https://www.suikoden-anime.com/music/",
+              "https://utaten.com/specialArticle/index/10195"
             ],
             "verifiedAt": "2026-10-19"
           },
@@ -3528,7 +3544,8 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
             ],
             "sourceUrls": [
               "https://www.suikoden-anime.com/music/",
-              "https://www.suikoden-anime.com/onair/"
+              "https://www.suikoden-anime.com/onair/",
+              "https://utaten.com/specialArticle/index/10195"
             ],
             "verifiedAt": "2026-10-19"
           }
@@ -3577,7 +3594,8 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
               "artist"
             ],
             "sourceUrls": [
-              "https://www.suikoden-anime.com/music/"
+              "https://www.suikoden-anime.com/music/",
+              "https://utaten.com/specialArticle/index/10195"
             ],
             "verifiedAt": "2026-10-19"
           },
@@ -3589,7 +3607,8 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
             ],
             "sourceUrls": [
               "https://www.suikoden-anime.com/music/",
-              "https://www.suikoden-anime.com/onair/"
+              "https://www.suikoden-anime.com/onair/",
+              "https://utaten.com/specialArticle/index/10195"
             ],
             "verifiedAt": "2026-10-19"
           }

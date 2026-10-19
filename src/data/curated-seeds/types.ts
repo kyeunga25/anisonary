@@ -1,4 +1,4 @@
-import type { PublicAnimeDetail, PublicTheme, Quarter } from "@/types/public-api";
+import type { PublicAnimeDetail, PublicTheme, PublicThemeFollowUp, Quarter } from "@/types/public-api";
 import type { CuratedThemeSourceSeed } from "@/data/curated-theme-sources/types";
 
 export type CuratedSeasonId = `${number}-${Quarter}`;
@@ -14,6 +14,7 @@ export interface CuratedThemeSeed extends Partial<Pick<PublicTheme, "seasonIds" 
   youtubeUrl?: string;
   sources?: CuratedThemeSourceSeed[];
   sourceMode?: "explicit";
+  followUp?: PublicThemeFollowUp[];
 }
 
 export interface CuratedAnimeSeed {

@@ -39,8 +39,13 @@ Anisonary 是可追溯的動畫歌曲目錄：讀者可以由一列歌曲找到�
 | 音源版本與發行日期 | 可選 `songId`、`recordings[]`；發行品日期有 year／month／day 精度 | 新批次逐首填已證實版本；MV 形式不能推定音源長度 |
 | 專輯／single／版本收錄 | 可選 `releases[]` 保存 edition、品番與本曲的 disc／track／recording 關係 | 只填本曲收錄；數位版與 CD 音源同一性未知時不填 `recordingId` |
 | 證據 | `sources[]` 可獨立核對日期；可選 `evidence[]` 對應欄位及實體 | 沿用來源保留日期，僅更新實際查閱來源；`lastVerifiedAt` 取最新來源日期 |
+| 逐用途資料狀態 | 可選 `dataStatus` 由現有欄位／證據產生，`pendingFields` 提供續補索引；seed 可記 `followUp` | 欄位存在、欄位證據與所有資料收齊分開，不新增查詢或重設來源日期 |
 
 現行 API 與 authoring 型別見 [`public-api.ts`](../src/types/public-api.ts)、[`curated-seeds/types.ts`](../src/data/curated-seeds/types.ts)。2026 夏季的小批次使用上述可選欄位；舊資料省略欄位仍有效。`ApiProvider` 深層驗證實體 ID、日期精度、關係及來源引用，剝除未知欄位。`group_member` 記錄有來源的團隊成員，不自動推定每人演唱本曲。
+
+逐用途的 `dataStatus` 以 `stored_fields_and_evidence` 為盤點依據，不給完整度百分比。`basic` 區分已登記第一方／交叉來源與三項基本欄位均有兩類證據；`basicVerifiedAt` 只在後者存在，取三欄兩類證據各自最新日期中最早的一日，不推高未重核欄位。`details` 分開詞／曲／編、音源、官方影片、收錄及確切平台連結；`pendingFields` 表示未記錄或待確認，不把未知當不存在或當作必然適用。合併 `songwriting` 不拆成詞／曲，官方入口不算確切曲目／專輯，影片不推定 full／TV。已有部分詳細資料也不宣稱版本、影片及發行品已收齊。
+
+已知缺口可在 seed 的 `followUp[]` 保存 `fields`、公開事實備註 `note`、續查條件 `resumeWhen`，以及實際查過該缺口時才填的 `checkedAt`；經 builder 輸出到 `dataStatus.followUp`，方便按欄位再次取用。舊資料未提供此欄位仍可解析。狀態只在歌曲詳情顯示，列表不加長；不必搬移歷史 seed，也不為盤點重查全部來源。
 
 新公告的用途若只有本次明確查閱的來源，可在 seed 使用 `sourceMode: "explicit"`。此時只輸出該用途的 `sources`，不自動繼承動畫中舊歌曲的影片、索引或核對日期；第一方及交叉來源仍須齊備。省略此欄位的既有資料維持原有來源合併行為，公開 JSON 格式不變。
 

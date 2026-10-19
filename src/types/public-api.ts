@@ -148,6 +148,34 @@ export interface PublicFieldEvidence {
   verifiedAt: string;
 }
 
+export type PublicThemeDataField =
+  | "basic_evidence" | "lyrics" | "composition" | "arrangement"
+  | "recordings" | "recording_format" | "official_video" | "video_metadata"
+  | "releases" | "platform_links" | "platform_availability";
+
+export interface PublicThemeFollowUp {
+  fields: PublicThemeDataField[];
+  note: string;
+  resumeWhen: string;
+  checkedAt?: string;
+}
+
+// An inventory of saved fields, not a claim that every version has been found.
+export interface PublicThemeDataStatus {
+  basis: "stored_fields_and_evidence";
+  basic: "field_evidence_recorded" | "sources_recorded";
+  basicVerifiedAt?: string;
+  details: {
+    credits: "not_recorded" | "partial" | "roles_recorded";
+    recordings: "not_recorded" | "format_unknown" | "recorded";
+    videos: "not_recorded" | "links_only" | "recorded";
+    releases: "not_recorded" | "recorded";
+    platforms: "not_recorded" | "entry_links_only" | "exact_links_recorded";
+  };
+  pendingFields: PublicThemeDataField[];
+  followUp?: PublicThemeFollowUp[];
+}
+
 export interface PublicTheme {
   id: string;
   // Confirmed use quarters; omitted legacy records retain work-level membership.
@@ -168,6 +196,7 @@ export interface PublicTheme {
   recordings?: PublicRecording[];
   releases?: PublicRelease[];
   evidence?: PublicFieldEvidence[];
+  dataStatus?: PublicThemeDataStatus;
   videos: PublicVideo[];
   links: PublicExternalLink[];
   sources: PublicThemeSource[];

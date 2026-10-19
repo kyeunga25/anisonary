@@ -7,6 +7,7 @@ import { buildThemeSearchText } from "@/utils/catalog-search";
 import ExternalLinkList from "@/components/links/ExternalLinkList.astro";
 import LazyYouTube from "@/components/youtube/LazyYouTube.astro";
 import SongRelations from "@/components/theme/SongRelations.astro";
+import ThemeDataStatus from "@/components/theme/ThemeDataStatus.astro";
 
 interface Props { theme: PublicTheme; }
 const { theme } = Astro.props;
@@ -58,6 +59,7 @@ const sourceRoleLabels = {
         `${theme.sources.length} 個來源`
       ].filter(Boolean).join(" · ")}</span>
     </summary>
+    {theme.dataStatus && <ThemeDataStatus status={theme.dataStatus} />}
     <div class="theme-card__detail-body">
     <dl class="theme-card__credits">
       {credits.length > 0 ? credits.map((credit) => (
