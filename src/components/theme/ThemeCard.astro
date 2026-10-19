@@ -42,7 +42,7 @@ const sourceRoleLabels = {
       {theme.titleZhHant && <p class="theme-card__translation">{theme.titleZhHant}</p>}
       <p class="theme-card__artist">{theme.artistDisplayName}</p>
       {theme.usageLabel && <p class="theme-card__version">用途：{theme.usageLabel}</p>}
-      {theme.seasonIds && <p class="theme-card__version">已確認用途季度：{theme.seasonIds.map(seasonIdLabel).join("、")}</p>}
+      {theme.seasonIds && <p class="theme-card__version">{theme.seasonIds.length ? `已確認用途季度：${theme.seasonIds.map(seasonIdLabel).join("、")}` : "用途季度待核對"}</p>}
       {theme.versionLabel && <p class="theme-card__version">{theme.versionLabel}</p>}
     </div>
 

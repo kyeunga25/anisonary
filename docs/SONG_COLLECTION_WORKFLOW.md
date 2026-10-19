@@ -193,6 +193,6 @@ flowchart LR
 
 The long-term target is the latest twenty calendar years, with the range and evidence cutoff fixed when a goal starts. Work newest to oldest in bounded batches. Publish verified song identities and anime uses first, then enrich credits, recording variants, releases and official platform appearances. Keep media presentation separate from recording identity. Preserve stable IDs, field evidence and actual source dates. Implement the minimal optional schema once with a small real-data slice; do not migrate the entire catalogue first. Reuse valid evidence, revisit only changes or due items, and run checks once per applicable batch. Save the current goal, acceptance criteria and checkpoint. Start or resume on explicit instruction; stop new work promptly on pause or stop, preserve progress, and wait for a resume instruction. A batch size is not the completion criterion for a larger goal. Keep unreviewed inputs and collection tooling outside the public repository; commit, push and deployment require the current task's authorization.
 
-跨季續播保留原始seed與公開ID，以季度registry的anime ID關聯既有作品，歌曲使用有證據的`seasonIds`；新增季度seed時保留registry內引用其他季度seed的既有ID，不以本檔seed清單覆蓋續播關聯。
+跨季續播保留原始seed與公開ID，以季度registry的anime ID關聯既有作品，歌曲使用有證據的`seasonIds`；新增季度seed時保留registry內引用其他季度seed的既有ID，不以本檔seed清單覆蓋續播關聯。尚未逐曲確認用途季度時，可明列`seasonIds: []`並保存`use_quarters`續查條件；保留全站搜尋及動畫頁歌曲，不自動掛入作品的新季度。舊記錄省略欄位的相容行為不變，只在實際處理作品時逐筆採用，不批量搬移歷史資料。
 
 基本資料階段可先收錄已核對動畫身分／TV播出的作品，歌曲仍有必需證據缺口時使用`pending_verification`並列續查條件，不把此狀態記作「官方未公告」或「不設OP／ED」。獨立動畫識別不以單一資料庫是否有條目為門檻；沿已核對provider來源使用穩定公開ID，不猜造外部ID／連結。

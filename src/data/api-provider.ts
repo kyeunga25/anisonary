@@ -420,7 +420,7 @@ function validateSongRelations(theme: PublicTheme): void {
   unique(recordingIds);
   unique(releaseIds);
   if ((theme.recordings || theme.releases || theme.evidence) && !theme.songId) invalidContract();
-  if (theme.seasonIds && !theme.evidence?.some((evidence) =>
+  if (theme.seasonIds?.length && !theme.evidence?.some((evidence) =>
     evidence.target === "anime_use" && evidence.targetId === theme.id && evidence.fields.includes("usage") &&
     evidence.sourceUrls.some((url) => theme.sources.some((source) => source.url === url && source.role === "first_party"))
   )) invalidContract();
@@ -526,7 +526,7 @@ function parseTheme(value: unknown): PublicTheme {
   if (releaseDate !== undefined) theme.releaseDate = releaseDate;
   if (item.idAliases !== undefined) theme.idAliases = array(item.idAliases, 1, 50).map((id) => slug(id));
   if (item.seasonIds !== undefined) {
-    theme.seasonIds = array(item.seasonIds, 1, 100).map((value) => {
+    theme.seasonIds = array(item.seasonIds, 0, 100).map((value) => {
       const id = text(value, 11);
       if (!seasonIdPattern.test(id)) invalidContract();
       return id;
@@ -546,6 +546,7 @@ function parseTheme(value: unknown): PublicTheme {
     theme.lastVerifiedAt = lastVerifiedAt;
   }
   if (item.dataStatus !== undefined) theme.dataStatus = parseThemeDataStatus(item.dataStatus, theme);
+  if (theme.seasonIds?.length === 0 && !theme.dataStatus?.followUp?.some((gap) => gap.fields.includes("use_quarters"))) invalidContract();
 
   return theme;
 }

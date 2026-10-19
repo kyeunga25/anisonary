@@ -60,7 +60,7 @@ export function searchCatalog(index: CatalogSearchIndex, options: CatalogSearchO
     if (!membership) return [];
     const animeMatches = matchesCatalogSearchTokens(anime.searchText, tokens);
     const themes = anime.themes.filter((theme) => {
-      if (theme.seasonIds && !anime.seasons.some((season) =>
+      if (theme.seasonIds && (theme.seasonIds.length || options.year || options.quarter) && !anime.seasons.some((season) =>
         theme.seasonIds!.includes(season.id) &&
         (!options.year || String(season.year) === options.year) &&
         (!options.quarter || season.quarter === options.quarter)

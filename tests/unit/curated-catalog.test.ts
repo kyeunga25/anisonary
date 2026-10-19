@@ -7,7 +7,7 @@ import { loadCatalogSearchData } from "@/data/page-data";
 import { publicJsonResponse } from "@/data/public-api-assets";
 import { buildCatalogSearchIndex, serializeCatalogSearchIndex } from "@/utils/catalog-search-index";
 import { groupCatalogYears } from "@/utils/catalog-directory";
-import { getPlaylistRows, playlistRowHref } from "@/utils/song-playlist";
+import { getPlaylistRows, playlistRowHref, playlistSeasonLabel } from "@/utils/song-playlist";
 
 it("keeps the whole reviewed catalogue consistent across seasons, details, sources and search", async () => {
   const seasons = new Map(curatedSeasonDetails.map((season) => [season.id, season]));
@@ -174,4 +174,15 @@ it("filters confirmed use quarters independently from release dates and work mem
   expect(getPlaylistRows(makeIndex(), { ...options, quarter: "fall" })).toHaveLength(2);
   delete anime.themes[0]!.seasonIds;
   expect(getPlaylistRows(makeIndex(), { ...options, quarter: "fall" })).toHaveLength(2);
+  // Explicitly unknown use quarters keep the song globally without counting it
+  // in a year/quarter or misleadingly labelling it as the work’s latest quarter.
+  anime.themes[0]!.seasonIds = [];
+  const unassignedRows = getPlaylistRows(makeIndex(), options);
+  expect(unassignedRows).toHaveLength(2);
+  expect(unassignedRows.at(-1)!.theme!.id).toBe(anime.themes[0]!.id);
+  expect(playlistSeasonLabel(unassignedRows.at(-1)!)).toBe("用途季度待核對");
+  expect(getPlaylistRows(makeIndex(), { ...options, sort: "oldest" }).at(-1)!.theme!.id).toBe(anime.themes[0]!.id);
+  expect(getPlaylistRows(makeIndex(), { ...options, year: "2025" })).toHaveLength(1);
+  expect(getPlaylistRows(makeIndex(), { ...options, quarter: "summer" })).toHaveLength(0);
+  expect(getPlaylistRows(makeIndex(), { ...options, quarter: "fall" })).toHaveLength(1);
 });
