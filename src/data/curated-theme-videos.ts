@@ -1,4 +1,5 @@
 import { curatedSeasonRegistry } from "@/data/curated-season-registry";
+import { curatedAnimeKey } from "@/data/curated-seeds/types";
 import { curated2019FallThemeVideos } from "@/data/curated-theme-videos/2019/fall";
 import { curated2019SummerThemeVideos } from "@/data/curated-theme-videos/2019/summer";
 import { curated2020SpringThemeVideos } from "@/data/curated-theme-videos/2020/spring";
@@ -70,7 +71,7 @@ export function validateCuratedThemeVideoRegistry<
 >(entries: Entries): Entries {
   const ownerByAniListId = new Map(
     curatedSeasonRegistry.flatMap(({ id, seeds }) =>
-      seeds.map(({ anilistId }) => [anilistId, id] as const),
+      seeds.map((seed) => [curatedAnimeKey(seed), id] as const),
     ),
   );
   const registeredSeasons = new Set<string>();

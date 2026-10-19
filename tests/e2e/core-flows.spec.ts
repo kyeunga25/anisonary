@@ -140,6 +140,18 @@ test("playlist browsing opens all anime songs and preserves sources, media conse
   await expect(page.locator(`#theme-${oldId}`).locator("..")).toHaveAttribute("id", `theme-${canonicalTheme.id}`);
   await expect(page.locator(`#theme-${canonicalTheme.id}`)).toBeInViewport();
   await expect(page.locator(".theme-card")).toHaveCount(aliasAnime.themes.length);
+
+  const alternateIdentity = curatedAnimeDetails.find((anime) => anime.bangumiUrl && !anime.anilistUrl);
+  if (!alternateIdentity) throw new Error("A reviewed independent provider identity is required");
+  await page.goto(`/anime/${alternateIdentity.slug}/`);
+  const references = page.getByRole("navigation", { name: "作品外部參考" });
+  await expect(references.getByRole("link", { name: /^Bangumi\s*（/ })).toHaveAttribute("href", alternateIdentity.bangumiUrl!);
+  await expect(references.getByRole("link", { name: /^AniList\s*（/ })).toHaveCount(0);
+  const pendingAnime = curatedAnimeDetails.find((anime) => anime.themeAvailability === "pending_verification");
+  if (!pendingAnime) throw new Error("A reviewed work with pending song verification is required");
+  await page.goto(`/anime/${pendingAnime.slug}/`);
+  await expect(page.getByRole("heading", { name: "歌曲用途待核對", exact: true })).toBeVisible();
+  await expect(page.locator(".theme-card")).toHaveCount(0);
 });
 
 test("song library and local search combine quarters, sorting, multilingual input and pagination", async ({ page }, testInfo) => {

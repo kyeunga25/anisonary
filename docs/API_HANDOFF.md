@@ -83,3 +83,8 @@ TypeScript interface 是欄位層面的 source of truth；endpoint 改動前要�
 
 
 動畫 authoring 的 `metadataSources` 可保存個別新查閱來源，按 canonical HTTPS URL 補入或更新動畫 `sources`；未列出的既有來源維持 `metadataVerifiedAt` 基準日期。公開 `verifiedAt` 仍等於動畫來源最新日期，API 格式與 parser 不變；這讓續播更正不改動未重查的圖像及識別日期。
+
+
+`themeAvailability: pending_verification`表示動畫身分及播出資料已收錄、歌曲身分／用途仍待足夠證據，與未公告及已確認不設OP／ED分開。此狀態只能搭配空的themes與0筆OP／ED，不建立候選歌曲。
+
+動畫seed可以使用既有AniList識別，或以負數`catalogKey`作本機獨立索引並明列`identifierSource`及可選`bangumiUrl`。獨立索引不輸出為provider ID、不生成AniList網址；公開ID與slug另行保持穩定。現有seed毋須遷移，舊JSON保持原格式。

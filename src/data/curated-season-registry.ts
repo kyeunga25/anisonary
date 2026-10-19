@@ -1,3 +1,4 @@
+import { curatedAnimeKey } from "@/data/curated-seeds/types";
 import { curated2026FallAnimeIds, curated2026FallSeeds } from "@/data/curated-seeds/2026/fall";
 import {
   curated2019FallAnimeIds,
@@ -116,7 +117,7 @@ import {
   curated2026WinterSeeds
 } from "@/data/curated-seeds/2026/winter";
 import type {
-  CuratedAnimeSeed,
+  CuratedCatalogAnimeSeed as CuratedAnimeSeed,
   CuratedSeasonRegistryEntry
 } from "@/data/curated-seeds/types";
 
@@ -147,18 +148,18 @@ export function validateCuratedSeasonRegistry<
       const hasArtwork = Boolean(seed.posterUrl || seed.bannerUrl);
       const hasAttribution = Boolean(seed.imageSourceUrl && seed.imageSourceLabel);
       if (hasArtwork && !hasAttribution) {
-        throw new Error(`Missing curated image attribution: ${seed.anilistId}`);
+        throw new Error(`Missing curated image attribution: ${curatedAnimeKey(seed)}`);
       }
       if (!hasArtwork && (seed.imageSourceUrl || seed.imageSourceLabel)) {
-        throw new Error(`Image attribution without curated artwork: ${seed.anilistId}`);
+        throw new Error(`Image attribution without curated artwork: ${curatedAnimeKey(seed)}`);
       }
       if (seed.seasonIds[0] !== entry.id) {
-        throw new Error(`Curated seed owner mismatch: ${seed.anilistId}`);
+        throw new Error(`Curated seed owner mismatch: ${curatedAnimeKey(seed)}`);
       }
-      if (seedByAniListId.has(seed.anilistId)) {
-        throw new Error(`Duplicate curated seed: ${seed.anilistId}`);
+      if (seedByAniListId.has(curatedAnimeKey(seed))) {
+        throw new Error(`Duplicate curated seed: ${curatedAnimeKey(seed)}`);
       }
-      seedByAniListId.set(seed.anilistId, seed);
+      seedByAniListId.set(curatedAnimeKey(seed), seed);
     }
   }
 
@@ -180,8 +181,8 @@ export function validateCuratedSeasonRegistry<
       if (!entry) {
         throw new Error(`Unregistered curated season: ${seasonId}`);
       }
-      if (!entry.animeIds.includes(seed.anilistId)) {
-        throw new Error(`Missing season index entry: ${seasonId}:${seed.anilistId}`);
+      if (!entry.animeIds.includes(curatedAnimeKey(seed))) {
+        throw new Error(`Missing season index entry: ${seasonId}:${curatedAnimeKey(seed)}`);
       }
     }
   }

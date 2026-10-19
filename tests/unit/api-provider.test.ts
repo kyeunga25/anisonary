@@ -82,6 +82,22 @@ it("rejects unsafe or inconsistent external API data and bounds failed requests"
   })).rejects.toThrow("theme season membership drift");
 });
 
+it("keeps pending verification distinct from documented songs and confirmed absence", async () => {
+  const anime = structuredClone(curatedAnimeDetails.find((detail) => detail.themes.length > 0)!);
+  const pending = { ...anime, themes: [], opCount: 0, edCount: 0, hasOfficialVideo: false, themeAvailability: "pending_verification" };
+  const fetchMock = vi.fn<typeof fetch>();
+  const provider = new ApiProvider("https://catalog.example/api/v1", { fetch: fetchMock });
+  fetchMock.mockImplementation(async () => publicJsonResponse(pending));
+  await expect(provider.getAnime(anime.slug)).resolves.toEqual(pending);
+  for (const payload of [
+    { ...pending, themeAvailability: "documented" },
+    { ...anime, themeAvailability: "pending_verification" }
+  ]) {
+    fetchMock.mockImplementation(async () => publicJsonResponse(payload));
+    await expect(provider.getAnime(anime.slug)).rejects.toThrow("invalid anime payload");
+  }
+});
+
 it("preserves optional song relations and independent evidence dates while rejecting broken relationships", async () => {
   const anime = structuredClone(curatedAnimeDetails.find((detail) => detail.themes.length > 1 && detail.themes.some((theme) => (
     (theme.recordings?.length ?? 0) > 1 && (theme.releases?.length ?? 0) > 0

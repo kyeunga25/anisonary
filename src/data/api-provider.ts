@@ -63,7 +63,7 @@ const linkTypes = [
 ] as const;
 const linkRegions = ["JP", "HK", "TW", "GLOBAL", "UNKNOWN"] as const;
 const animeStatuses = ["upcoming", "airing", "finished", "unknown"] as const;
-const themeAvailabilities = ["documented", "not_announced", "not_used"] as const satisfies readonly PublicThemeAvailability[];
+const themeAvailabilities = ["documented", "not_announced", "pending_verification", "not_used"] as const satisfies readonly PublicThemeAvailability[];
 const sourceLanguages = ["zh-Hant", "zh-Hans", "ja", "en", "multi"] as const;
 const themeSourceRoles = ["first_party", "cross_check"] as const;
 const animeSourceRoles = [

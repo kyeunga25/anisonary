@@ -34,6 +34,11 @@ it("keeps the whole reviewed catalogue consistent across seasons, details, sourc
   const animeById = new Map(curatedAnimeDetails.map((detail) => [detail.id, detail]));
   for (const seed of curatedAnimeSeeds) {
     expect(animeById.has(seed.id), `Missing reviewed work: ${seed.id}`).toBe(true);
+    if (seed.anilistId === undefined) {
+      const detail = animeById.get(seed.id)!;
+      expect(detail.anilistUrl).toBeUndefined();
+      expect(detail.sources.some((source) => source.role === "identifier" && source.url === seed.identifierSource.url)).toBe(true);
+    }
   }
   for (const detail of curatedAnimeDetails) {
     expect(JSON.stringify(detail), detail.slug).not.toMatch(/example\.(?:com|test)|mock-posters/);
