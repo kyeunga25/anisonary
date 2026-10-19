@@ -12,16 +12,16 @@
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED，已確認插曲一併記錄；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2020–2026標準季度TV的動畫及歌曲基本資料優先，按2026 → 2020、各年秋 → 夏 → 春 → 冬補漏。先處理可快速核實的原名、季度／首播、演唱名義、OP／ED用途及來源；創作、影片、音源、發行品及平台集中深化留待下一階段。約24分鐘、常見12／24集，13／26集及同類續播納入；長篇以2020–2026的TV用曲季度盤點，不以作品首播年自動排除；短WEB、泡麵番、短篇TV及特殊番延後，既有成果保留 |
 | 完成條件 | 各季有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替；基本資料經公開JSON、頁面及必要檢查驗證，歌單與詳情保持易瀏覽；每筆用途保存現有欄位狀態、未記錄項目及已知續查條件，與完整收齊及來源日期分開。詳細欄位缺少不阻擋基本資料。作品聯集未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件 |
-| 執行狀態 | 基本資料階段持續執行；第57批10部21筆已正常合併、實際部署及正式站驗收，來源`dfb44b0`／`batch57-basics`，另清理1筆既有插曲文案。第58批獨立分支接續2025冬10部30筆起始用途，來源核對中；詳細深化與整體目標未完成，沒有背景排程 |
-| 接續位置 | 第57批正常發布收尾後，第58批處理2025冬：`curated-176301`、`curated-178312`、`curated-167143`、`curated-167742`、`curated-175198`、`curated-175422`、`curated-177709`、`curated-182920`、`curated-162722`、`curated-170892`；起始30筆既有用途。先核TV本期、原名／名義／用途與逐曲狀態，已證實IN一併保存，短篇與詳細集中深化延後 |
-| 發布提交 | 第57批[PR #149](https://github.com/kyeunga25/anisonary/pull/149)，正式來源`dfb44b0`／`batch57-basics`；PR／main quality與Workers Builds、實際Cloudflare來源、正式站驗收及annotated tag推送通過。第58批執行中，尚未完成資料及展示驗證，先前發布保留 |
+| 執行狀態 | 基本資料階段持續執行；第57批正式來源`dfb44b0`／`batch57-basics`已驗收。第58批10部37筆完成資料、公開JSON及本機展示驗證，其中36筆基本欄位證據齊備、1筆用途與季度待核；正常分類提交與發布待完成。第59批接續冬季標準TV及相鄰季度續播用途，整體目標未完成，沒有背景排程 |
+| 接續位置 | 第58批正常發布收尾後，第59批處理2025冬及相鄰季度的10部既有TV：`curated-172258`、`curated-173333`、`curated-180052`、`curated-180812`、`curated-181886`、`curated-170083`、`curated-176508`、`curated-171637`、`curated-169315`、`curated-170942`；起始32筆既有用途。先核剩餘冬季5部，再逐曲盤點5部2024秋作品的續播與輪替，按實際證據補用途季度；短篇及詳細集中深化延後 |
+| 發布提交 | 第57批[PR #149](https://github.com/kyeunga25/anisonary/pull/149)，正式來源`dfb44b0`／`batch57-basics`及live驗收、tag推送通過。第58批本機驗證完成，正常PR／main gate、實際部署與正式站驗收待完成，先前發布保留 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
 執行狀態使用「未開始／執行中／已暫停／已完成／已取消」；無法繼續時另記具體阻礙及仍未完成部分，不自動標記完成。長期目標與本次工作量分開，未指定本次工作量時先完成下一批。
 
 ## 季度進度 / Quarterly progress
 
-統計至第57批正式驗收，來源`dfb44b0`／`batch57-basics`；第58批尚未完成資料及展示驗證。數量為現有快照的OP／ED用途，依公開theme ID與已確認用途季度計算；跨季用途可能重複，不能直接相加或當作唯一歌曲／音源數。
+統計至第58批本機驗證；第57批`dfb44b0`／`batch57-basics`為最後已驗收正式來源，第58批正式發布待完成。數量為現有快照的OP／ED用途，依公開theme ID與已確認用途季度計算；跨季用途可能重複，不能直接相加或當作唯一歌曲／音源數。
 
 「基本欄位具備」表示現有歌曲原名、演唱名義、用途及第一方／交叉來源有值，動畫可識別且有季度與作品來源；這是現有資料的欄位盤點，不表示本批重查全部來源、作品清單已閉合或整季收齊。「已逐批核對」依下方各批公開ID明細，包含查找後保留續查條件的用途。
 
@@ -35,8 +35,8 @@
 | 2026 冬 | 162 | 162 | 162 | 109 | 53 |
 | 2025 秋 | 157 | 157 | 157 | 123 | 34 |
 | 2025 夏 | 208 | 208 | 193 | 163 | 30 |
-| 2025 春 | 140 | 140 | 119 | 44 | 75 |
-| 2025 冬 | 134 | 134 | 83 | 3 | 80 |
+| 2025 春 | 143 | 143 | 122 | 44 | 78 |
+| 2025 冬 | 130 | 130 | 109 | 3 | 106 |
 | 2024 秋 | 172 | 172 | 12 | 0 | 12 |
 | 2024 夏 | 189 | 189 | 8 | 0 | 8 |
 | 2024 春 | 167 | 167 | 9 | 0 | 9 |
@@ -62,9 +62,9 @@
 | 2019 春 | 尚未建立快照 | — | — | — | — |
 | 2019 冬 | 尚未建立快照 | — | — | — | — |
 
-2020–2026的28個季度現在均有快照，但2026秋僅73部作品138筆OP／ED、2筆IN及1筆TS用途（3部歌曲用途待核對），其他季度亦未完成完整標準TV作品聯集；各季現有筆數均不是經閉合盤點的全季分母。2026夏／春／冬的既有清單首輪與第08–37批成果保留，基本資料階段沒有重查全量舊來源。2025春尚有21筆、冬51筆現有OP／ED未逐批核對；另4筆春季及7筆冬季舊ED用途與季度待官方確認，保留全目錄及動畫頁並暫不計入季度；2024–2020本輪先核對已確認長篇續播用途，仍需標準TV作品聯集與其餘歌曲盤點，短篇／WEB缺口不阻擋標準TV推進。
+2020–2026的28個季度現在均有快照，但2026秋僅73部作品138筆OP／ED、2筆IN及1筆TS用途（3部歌曲用途待核對），其他季度亦未完成完整標準TV作品聯集；各季現有筆數均不是經閉合盤點的全季分母。2026夏／春／冬的既有清單首輪與第08–37批成果保留，基本資料階段沒有重查全量舊來源。2025春尚有21筆、冬21筆現有OP／ED未逐批核對；另4筆春季及8筆冬季舊ED用途與季度待官方確認，保留全目錄及動畫頁並暫不計入季度；2024–2020本輪先核對已確認長篇續播用途，仍需標準TV作品聯集與其餘歌曲盤點，短篇／WEB缺口不阻擋標準TV推進。
 
-目前1,215個唯一用途已逐批處理，其中1,141 OP／ED、64 IN、10 TS；包含29筆用途季度待核狀態盤點，未把它們計入任一已確認季度，跨季不可相加。第38–57批新增187筆用途的基本欄位及身分／用途證據齊備；秋季詳細核心3／138主要來自既有用途季度補正，不表示其餘基本資料失敗。春季共7筆已證實第二季度／後期用途改掛秋季，另14筆第二季度改掛夏季；無自覺聖女兩筆補夏季並保留春末TV首播，唯一歌曲與未重查來源日期保留。2007–2018及2019春／冬仍無快照，長期範圍未完成。羽のゆりかご的季度fallback限制沿第37批記錄，未把未證實春季使用當作確證。
+目前1,252個唯一用途已逐批處理，其中1,171 OP／ED、71 IN、10 TS；包含30筆用途季度待核狀態盤點，未把它們計入任一已確認季度，跨季不可相加。第38–58批新增194筆用途的基本欄位及身分／用途證據齊備；秋季詳細核心3／138主要來自既有用途季度補正，不表示其餘基本資料失敗。春季共7筆已證實第二季度／後期用途改掛秋季，另14筆第二季度改掛夏季；無自覺聖女兩筆補夏季並保留春末TV首播，唯一歌曲與未重查來源日期保留。2007–2018及2019春／冬仍無快照，長期範圍未完成。羽のゆりかご的季度fallback限制沿第37批記錄，未把未證實春季使用當作確證。
 
 ## 基線
 
@@ -84,7 +84,7 @@
 | 優先 | 工作 | 狀態與接點 |
 | --- | --- | --- |
 | 1 | 一次性最小格式與真實試行 | 2026-10-14 已完成，見下方 2026-summer-schema-pilot；後續直接沿用格式，不重新設計或搬移全量資料 |
-| 2 | 當前收集接點 | 第57批正常發布收尾；第58批依頂部公開ID接續2025冬基本資料 |
+| 2 | 當前收集接點 | 第58批正常發布收尾；第59批依頂部公開ID接續2025冬及相鄰季度用途 |
 | 3 | 2025–2020基本資料 | 標準TV按年份／季度倒序補作品聯集與歌曲輪替；短篇／WEB延後，詳細深化待後續指令 |
 | 4 | 較早年度 | 2019 → 2007保留長期待辦；2020–2026基本階段未完成前不擴張 |
 | 5 | 詳細資料 | 已完成的創作、影片、音源、發行品及平台資料保留；未解觸發條件沿用，集中深化延後 |
@@ -4714,9 +4714,81 @@ GitHub open Dependabot警示增至24項，新增[source-map-js advisory](https:/
 - annotated tag `batch57-basics`指向正式來源並已推送。第58批接續冬季30筆起始用途，基本階段、作品聯集及長期目標未完成。
 
 
-## 2020-2026-tv-basics-58（執行中）
+## 2020-2026-tv-basics-58（本機驗證完成，正式發布待完成）
 
 - 範圍：2025冬10部既有標準TV，起始30筆用途；固定2020–2026基本階段與2026-10-14資料截止日不變。按本期TV、曲名／名義／OP／ED與已證實IN及逐曲狀態保存，詳細資料延後。
 - 公開anime ID：`curated-176301`、`curated-178312`、`curated-167143`、`curated-167742`、`curated-175198`、`curated-175422`、`curated-177709`、`curated-182920`、`curated-162722`、`curated-170892`。
 - 第57批正常PR／main gate、實際部署及正式站驗收已完成，來源與4,194產物固定；本批未混入前批發布，先核對來源，尚未修改歌曲資料或記作齊備。優先區分藥師第2期兩cour、UniteUp!各曲實際TV用途、SAKAMOTO DAYS第三筆用途；專輯或PV不自動新增歌曲。
-- 本批尚未檢查；先前已驗收內容保留。下一步：重用現有第一方頁與交叉來源核對30筆，逐筆保存待補欄位及觸發條件，再做批次資料及展示驗證。
+- 起始30筆及同頁7筆新IN的資料、公開JSON與本機展示已驗證，正式發布待完成；本階段及長期目標未完成。
+
+
+### 第58批公開用途與實際差異
+
+10部既有動畫、30筆既有用途及7筆新IN，共37筆；36筆有第一方與交叉的基本欄位證據，Unite up!原ED6的用途與季度仍待第一方確認。新增動畫0、歌曲ID7，原ID、序號、影片與既有連結保持。
+
+| 公開theme ID | 原名／演唱名義 | 確認季度及本批狀況 |
+| --- | --- | --- |
+| `kusuriya-no-hitorigoto-2nd-season-op-1` | 百花繚乱／幾田りら | 2025-winter；基本三欄證據已登記 |
+| `kusuriya-no-hitorigoto-2nd-season-op-2` | クスシキ／Mrs. GREEN APPLE | 2025-spring；基本三欄證據已登記 |
+| `kusuriya-no-hitorigoto-2nd-season-ed-1` | 幸せのレシピ／平井 大 | 2025-winter；基本三欄證據已登記 |
+| `kusuriya-no-hitorigoto-2nd-season-ed-2` | ひとりごと／Omoinotake | 2025-spring；基本三欄證據已登記 |
+| `farmagia-op-1` | ライフ イズ ビューティフル／ASIAN KUNG-FU GENERATION | 2025-winter；基本三欄證據已登記 |
+| `farmagia-ed-1` | miss-dystopia／そこに鳴る | 2025-winter；基本三欄證據已登記 |
+| `guild-no-uketsukejou-desu-ga-zangyou-wa-iya-nanode-boss-wo-solo-toubatsu-shiyou-to-omoimasu-op-1` | パーフェクトデイ／310 | 2025-winter；基本三欄證據已登記 |
+| `guild-no-uketsukejou-desu-ga-zangyou-wa-iya-nanode-boss-wo-solo-toubatsu-shiyou-to-omoimasu-ed-1` | 明日の私に幸あれ／ナナヲアカリ | 2025-winter；基本三欄證據已登記 |
+| `uniteup-uni-birth-op-1` | Uni:Birth／UniteUp! | 2025-winter；基本三欄證據已登記 |
+| `uniteup-uni-birth-ed-1` | DOPE／LEGIT | 2025-winter；基本三欄證據已登記 |
+| `uniteup-uni-birth-ed-2` | ほんねのうた／PROTOSTAR | 2025-winter；基本三欄證據已登記 |
+| `uniteup-uni-birth-ed-3` | IN&OUT (JAXX/JAXX ver.)／JAXX/JAXX | 2025-winter；基本三欄證據已登記 |
+| `uniteup-uni-birth-ed-4` | Wish You Happiness／Anela | 2025-winter；基本三欄證據已登記 |
+| `uniteup-uni-birth-ed-5` | Keep it high／PROTOSTAR | 2025-winter；基本三欄證據已登記 |
+| `uniteup-uni-birth-ed-6` | Unite up!／UniteUp! | 季度待核；原ED分類與交叉IN清單衝突，第一方待核 |
+| `uniteup-uni-birth-ed-7` | こんな世界なら／Five Bitter from UniteUp! | 2025-winter；基本三欄證據已登記 |
+| `uniteup-uni-birth-ed-8` | ハーモニーブライト／Sweet Six from UniteUp! | 2025-spring；基本三欄證據已登記 |
+| `uniteup-uni-birth-in-1` | Star Parade／PROTOSTAR | 2025-winter；基本三欄證據已登記 |
+| `uniteup-uni-birth-in-2` | What I Say／LEGIT | 2025-winter；基本三欄證據已登記 |
+| `uniteup-uni-birth-in-3` | Sailing Story／JAXX/JAXX | 2025-winter；基本三欄證據已登記 |
+| `uniteup-uni-birth-in-4` | Astro Dreamers／PROTOSTAR | 2025-winter；基本三欄證據已登記 |
+| `uniteup-uni-birth-in-5` | Galaxy Rose／PROTOSTAR | 2025-spring；基本三欄證據已登記 |
+| `uniteup-uni-birth-in-6` | Feel Like A Child／LEGIT | 2025-spring；基本三欄證據已登記 |
+| `uniteup-uni-birth-in-7` | RAYS／JAXX/JAXX | 2025-spring；基本三欄證據已登記 |
+| `u-bel-blatt-op-1` | 罪人／GARNiDELiA | 2025-winter；基本三欄證據已登記 |
+| `u-bel-blatt-ed-1` | Stella／立花日菜 | 2025-winter；基本三欄證據已登記 |
+| `baban-baban-ban-vampire-op-1` | Bloody Liar／BLUE ENCOUNT | 2025-winter；基本三欄證據已登記 |
+| `baban-baban-ban-vampire-ed-1` | NE-CHU-SHOW／ぼっちぼろまる | 2025-winter；基本三欄證據已登記 |
+| `sakamoto-days-op-1` | 走れSAKAMOTO／Vaundy | 2025-winter；基本三欄證據已登記 |
+| `sakamoto-days-ed-1` | 普通／Conton Candy | 2025-winter；基本三欄證據已登記 |
+| `sakamoto-days-ed-2` | Somebody help us／Vaundy | 2025-winter；基本三欄證據已登記 |
+| `cardfight-vanguard-divinez-deluxe-hen-op-1` | Meramera／Kis-My-Ft2 | 2025-winter；基本三欄證據已登記 |
+| `cardfight-vanguard-divinez-deluxe-hen-ed-1` | 天色／青木陽菜 | 2025-winter；基本三欄證據已登記 |
+| `mahoutsukai-precure-mirai-days-op-1` | Dokkin◇魔法つかいプリキュア！！Part３～MIRAI DAYS～／北川理恵 | 2025-winter；基本三欄證據已登記 |
+| `mahoutsukai-precure-mirai-days-ed-1` | キセキラリンク／キュアミラクル（CV：高橋李依）、キュアマジカル（CV：堀江由衣）、キュアフェリーチェ（CV：早見沙織） | 2025-winter；基本三欄證據已登記 |
+| `jibaku-shounen-hanako-kun-2-op-1` | L'oN／オーイシマサヨシ | 2025-winter；基本三欄證據已登記 |
+| `jibaku-shounen-hanako-kun-2-ed-1` | With a Wish／鬼頭明里 | 2025-winter；基本三欄證據已登記 |
+
+- 已處理anime ID：`curated-176301`、`curated-178312`、`curated-167143`、`curated-167742`、`curated-175198`、`curated-175422`、`curated-177709`、`curated-182920`、`curated-162722`、`curated-170892`。全目錄30季、2,052部、4,604用途（4,523 OP／ED、71 IN、10 TS），均有dataStatus；555筆基本三欄有兩類欄位證據，其餘4,049筆保留來源待細分。30筆季度待核與わた婚／本批Uni:Birth的部分跨季續查分開，沒有把待查內容當已齊備。
+- 藥屋第2期原四曲完整保留，官方第2cour音樂頁與4月4日TV編排確認クスシキ、ひとりごと改掛2025春；第一cour百花繚乱、幸せのレシピ留冬。兩首後期曲新增8筆詞曲編；數位4月5日發行不當原TV首播。
+- UniteUp!官方逐曲頁同時確認DOPE第2話、ほんねのうた第4話、IN&OUT第5話、Wish You Happiness第7話、Keep it high第8話、こんな世界なら第10話、ハーモニーブライト第11話ED。最後一曲依官方第11・12話4月5日24:00～25:00公告移春季，特番不當新歌曲。新增Star Parade第1話、What I Say第3話、Sailing Story第6話、Astro Dreamers第9話四筆冬季IN，以及Galaxy Rose、Feel Like A Child、RAYS第12話三筆春季IN；官方逐曲頁、Anisil與Star Parade的LisAni交叉支持，未因同名RAYS而合併其他作品不同演唱者。
+- Unite up!原ED6：交叉逐話清單標第7／9話IN，兩輪定向查找仍無本期第一方逐曲確認；保留原ED型ID、序號及歌曲，seasonIds=[]，不再列入冬季已確認ED。pendingFields及followUp明記basic_evidence／use_quarters，取得官方逐話credit或明確用曲公告才恢復。沒有把第一期OP或同名商品直接套成本期ED。
+- 本期OP Uni:Birth已由官方12月公告確認；交叉清單另有第11話OP及第12話IN、ゆめゆくの與PROTOSTAR版第8話線索，尚缺逐話第一方使用證據，留各曲／本批續查，不由全期OP概稱、商品收錄或一般單曲自行新增春季用途或版本。七首新IN的細節留集中深化，沒有從群組成員表自動列全員本曲歌唱。
+- SAKAMOTO DAYS第7話Somebody help us由Vaundy官方2月15日公告確認是特別ED，保留原分類，明記話數；不採另一交叉清單IN分類。官方root現為2027第2期，原第1期音樂預設亦轉Part2，本批明確讀Part1的走れSAKAMOTO與普通；Vaundy一般全包創作經歷不當逐曲credit。
+- 新增44筆明列詞曲編角色：藥屋後期8、FARMAGIA 5、Übel Blatt ED 4、ババンババンバンバンパイア7、Vanguardデラックス編7、MIRAI DAYS 6、花子くん前編7。FARMAGIA OP編曲未知、劇伴名單不套主題曲。MIRAI DAYS ED分列官方明列3名角色／CV，替代原合併演唱列；OP原名依官方全形Part３保留，舊ID及Romanized搜尋資料保持。新IN各保留已確認團體演唱名義，逐人資訊後補。
+- 七部補TV編排：藥屋金曜23:00；FARMAGIA金曜22:30（ABEMA無料23:30另列）；ギルます1月10日金曜24:00（暦11日）；UniteUp!1月11日土曜23:30及跨季最終兩話；Übel Blatt1月10日金曜24:30（暦11日）、配信土曜01:30另列；ババン1月11日23:30、Netflix翌日表記不當TV初回；MIRAI DAYS1月11日土曜26:00（暦12日）、AT-X4月放送不當首播。後3部SAKAMOTO DAYS、Vanguard、花子くん既有有效動畫識別／首播及來源日期保留，可選時段未追不阻擋基本資料。
+- 新增YouTube外連／影片metadata／錄音／發行品／精確平台均0，既有資料不刪；同頁已明列MIRAI DAYS OP TVサイズ、Stella TV size與Instrumental及商品，相關錄音及收錄留followUp。Stella頁的1月11日weekday文字有矛盾，未據此新填發行日期；MV不自動等於full。
+- 30筆舊用途全部ID、序號、歌曲、影片、錄音、發行品、平台保留；實讀既有首頁來源更新僅ババン兩筆，其餘未重查來源日期不變。非本批2,042部動畫JSON逐項SHA-256相同。Winter資料檔及Spring既有索引補2部跨季作品，無新季度，無程式、parser、contract、UI、測試、依賴或部署設定改動。
+
+### 有效來源與續查條件
+
+- [藥屋第1cour MUSIC](https://kusuriyanohitorigoto.jp/season2/music/)／[第2cour MUSIC](https://kusuriyanohitorigoto.jp/season2/music/index_2nd.php)與[ONAIR](https://kusuriyanohitorigoto.jp/season2/onair/)、[FARMAGIA MUSIC](https://anime-farmagia.marv.jp/music/)／[ONAIR](https://anime-farmagia.marv.jp/onair/)、[ギルますMUSIC](https://girumasu.com/music/)／[ONAIR](https://girumasu.com/onair/)重用既有官方入口，同頁保存多項事實。未明列個別創作不從藝人評論推定。
+- [UniteUp!本期OP公告](https://uniteup.info/music/news/?article_id=66835)、[官方逐曲入口](https://uniteup.info/music/)、[最終兩話TV編排](https://uniteup.info/anime/2nd/news/?article_id=66993)已核；每首保存自身精確逐曲頁。新增IN用[Anisil逐話清單](https://www.anisil.com/animes/6203-UniteUp%21%20-Uni%3ABirth-)與[LisAni第1／3話曲目報導](https://www.lisani.jp/0000275193/)交叉。中文作品頁只有第一期曲單，不用來冒證第二期；兩輪缺口按上列觸發條件續查。
+- [Übel Blatt OP](https://ubel-blatt-anime.com/product/music/op/)／[ED](https://ubel-blatt-anime.com/product/music/ed/)、[ババン官方MUSIC／TV](https://bababa-anime.com/)、[SAKAMOTO DAYS第1期Part1 MUSIC](https://sakamotodays.jp/1st/music/season1-part1/)及[Vaundy第7話ED公告](https://member.vaundy.jp/news/detail/10795)分清本期與後期。商品其他曲目、泛稱全包創作及配信日不擴成未證實TV用途。
+- [Vanguardデラックス編MUSIC](https://anime.cf-vanguard.com/vgd/music/deluxe/)、[MIRAI DAYS MUSIC](https://www.toei-anim.co.jp/tv/mahotsukai_precure2/music/)及[最初TV banner](https://www.toei-anim.co.jp/tv/mahotsukai_precure2/)、[花子くん第二期MUSIC](https://hanakokun.com/2nd/music/)已在普通瀏覽器實讀；一般取回未返回本文不視為無資料。花子後編かごめかごめ／mo∞ent不套冬季；未登入、播放、讀取完整歌詞或繞過存取限制。
+- 每曲未記錄的詞／曲／編、音源、影片、發行品、精確平台及可用性由dataStatus.pendingFields接續，已見版本與部分跨季缺口另存followUp.fields／resumeWhen。新增已證實IN不代表所有插曲已齊備；冬季現有21筆未逐批核對，其中7筆短篇延後不阻擋TV進度；另須續播作品聯集盤點，不能把現有130 OP／ED作整季閉合分母。
+
+### 本機檢查與展示
+
+- npm test 4檔8項、build 2,098 HTML／4,194產物通過；ApiProvider 10部37筆解析、基本36／待核1與authoring相同；非本批JSON及原媒體／來源日期保留檢查通過。所有4,604筆均有欄位狀態。
+- Chromium393×852展開10頁37組原名／名義／狀態，無橫向溢出、app errors或影片iframe。UniteUp!16筆可按歌名篩1筆或IN篩7筆；用途待核可讀。季度搜尋：UniteUp!冬11／春4、藥屋冬2／春2，均與確認用途一致。in-app Chromium665像素實讀Galaxy Rose第12話春季及來源／狀態，歌名篩選顯示1／16筆。
+- Browser plugin未提供，沿用專案Playwright核明確手機尺寸；in-app實際桌面寬度另驗。無新季度、UI／contract／播放器修改，不逐首或重跑本機完整E2E；正常PR／main仍含重要E2E。Cloudflare dry-run exit0、完成marker及無bindings；公開邊界、文件連結、敏感內容及diff於提交前收尾。正式發布與live驗收待完成，本機通過不作production證明。
+
+預覽入口：`/anime/uniteup-uni-birth/`、`/anime/kusuriya-no-hitorigoto-2nd-season/`、`/seasons/2025-winter/`、`/seasons/2025-spring/`。第59批接續頂部32筆用途及續播核對，本階段及長期目標均未完成。
