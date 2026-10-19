@@ -5289,3 +5289,10 @@ GitHub open Dependabot警示增至24項，新增[source-map-js advisory](https:/
 - 只有1個既有季度資料檔與checkpoint變更，沒有新季度、UI／contract／播放器／依賴／部署設定修改；本機不重跑完整E2E，正常PR／main仍含重要E2E。本批Cloudflare dry-run無bindings，文件相對連結、公開邊界245檔與diff檢查通過；正式發布待完成，本機通過不作production證明。
 
 預覽入口：`/anime/love-live-superstar-3rd-season/`、`/anime/sayonara-ryuusei-konnichiwa-jinsei/`、`/anime/party-kara-tsuihou-sareta-sono-chiyushi-jitsu-wa-saikyou-ni-tsuki/`、`/anime/acro-trip/`、`/seasons/2024-fall/`。第65批接續頂部11部30筆，基本階段及長期目標未完成。
+
+
+## 2020-2026-tv-basics-65（範圍登記，待第64批正式驗收）
+
+- 固定2020–2026標準TV基本階段、2026-10-14截止日；接續2024秋11部30筆既有用途。公開anime ID：`curated-174070`、`curated-139095`、`curated-176660`、`curated-167991`、`curated-165810`、`curated-172199`、`curated-177581`、`curated-154673`、`curated-175533`、`curated-178729`、`curated-168537`。
+- 前4部由夏季續播，按前後期、實際用曲與延播區分TV季度；其餘接續秋季標準TV。先核原名、演唱名義、原TV／用途季度及來源，同頁明列歌曲一併記錄。角色／CV、團隊、歌曲用途及音源分開；保留每筆狀態、具體缺項及續查條件。
+- 第64批[PR #156](https://github.com/kyeunga25/anisonary/pull/156)來源與產物已固定；本批資料寫入及正式驗證待前批正式站驗收後接續，不混入前批部署。標準TV季度聯集未閉合；魚人島編、其他續播及已核清單的真正缺口後續盤點，短篇／WEB與集中詳細深化延後。
