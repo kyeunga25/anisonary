@@ -6606,3 +6606,11 @@ GitHub open Dependabot警示增至24項，新增[source-map-js advisory](https:/
 - 僅2023秋seed、既有季度registry與checkpoint；沒有新季度、UI、public契約、播放器、依賴或部署設定變更。按矩陣不額外重跑本機全套E2E，正常PR／main保留核心E2E。Cloudflare dry-run無bindings、文件連結、公開邊界245檔及diff收尾通過，本機驗證不等於部署。
 
 預覽入口：`/anime/kusuriya-no-hitorigoto/#theme-kusuriya-no-hitorigoto-in-5`、`/anime/sousou-no-frieren/#theme-sousou-no-frieren-in-1`、`/anime/megumi-no-daigo-kyuukoku-no-orange/#theme-megumi-no-daigo-kyuukoku-no-orange-ed-2`、`/seasons/2024-winter/`及`/seasons/2023-fall/`。第83批8部27筆既有用途接續：DOG SIGNAL、川越BOYS SING、SHY、はめつのおうこく、暴食のベルセルク、帰還者の魔法は特別です、とあるおっさんVRMMO、聖剣学院。已逐批處理的長篇沿用既有證據及續查觸發，不全面重搜。基本、詳細及整體範圍未完成。
+
+## 2020-2026-tv-basics-83（執行中）
+
+- 2026-10-20登記；固定2020–2026標準TV基本階段、2007–2026長期範圍及2026-10-14截止日維持。
+- 8部27筆既有用途：`curated-140501`、`curated-156039`、`curated-155389`、`curated-161364`、`curated-160900`、`curated-163142`、`curated-162209`、`curated-160514`。DOG SIGNAL與川越BOYS SING冬季延播優先；再核SHY、はめつのおうこく、暴食のベルセルク、帰還者の魔法は特別です、とあるおっさんのVRMMO活動記、聖剣学院の魔剣使い原2023秋標準TV。先原名、演唱名義、原TV、用途與來源；特殊ED及角色／團體分開，原ID／序號／URL保留。
+- 同頁明列職位可一併補，其餘詳細及短篇／WEB延後。已逐批處理的長篇與已保存證據沿用，只有新資料／明確觸發才續查；68筆完全季度待核、45筆非空季度條件、21筆具體跨季缺口及ATRI日期保留。
+- 第82批凍結來源及產物已完成本機驗證，正常PR／main及正式發布待完成。本批來源整理獨立，尚無公開資料修改或驗證成果；每筆完整性及續查條件隨資料保存。
+- 第82批正式驗收後接續本批資料、展示驗證、分類提交、正常PR／main、實際Cloudflare部署及正式站驗收，再接後批；作品聯集、基本、詳細及整體範圍未完成，沒有背景排程。
