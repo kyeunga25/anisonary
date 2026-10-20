@@ -41,7 +41,7 @@
 .song-row__number { color: var(--color-muted); font-size: 0.75rem; font-variant-numeric: tabular-nums; }
 .song-row__song, .song-row__artist, .song-row__anime { min-width: 0; overflow-wrap: anywhere; }
 .song-row__song strong { font-size: 0.91rem; font-weight: 680; line-height: 1.45; }
-.song-row__artist { color: var(--color-muted); font-size: 0.8rem; line-height: 1.5; }
+.song-row__artist { -webkit-box-orient: vertical; -webkit-line-clamp: 2; color: var(--color-muted); display: -webkit-box; font-size: 0.8rem; line-clamp: 2; line-height: 1.5; overflow: hidden; }
 .song-row__anime strong { display: block; font-size: 0.8rem; font-weight: 550; line-height: 1.5; }
 .song-row__anime small { color: var(--color-muted); display: block; font-size: 0.7rem; line-height: 1.5; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .song-row__type { background: color-mix(in srgb, var(--color-muted) 10%, transparent); border-radius: 4px; color: var(--color-muted); font-size: 0.72rem; font-weight: 650; justify-self: start; padding: 0.2rem 0.4rem; }
