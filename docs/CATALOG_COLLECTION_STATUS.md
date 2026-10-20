@@ -12,16 +12,16 @@
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED，已確認插曲一併記錄；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2020–2026標準季度TV的動畫及歌曲基本資料優先，按2026 → 2020、各年秋 → 夏 → 春 → 冬補漏。先處理可快速核實的原名、季度／首播、演唱名義、OP／ED用途及來源；創作、影片、音源、發行品及平台集中深化留待下一階段。約24分鐘、常見12／24集，13／26集及同類續播納入；長篇以2020–2026的TV用曲季度盤點，不以作品首播年自動排除；短WEB、泡麵番、短篇TV及特殊番延後，既有成果保留 |
 | 完成條件 | 各季有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替；基本資料經公開JSON、頁面及必要檢查驗證，歌單與詳情保持易瀏覽；每筆用途保存現有欄位狀態、未記錄項目及已知續查條件，與完整收齊及來源日期分開。詳細欄位缺少不阻擋基本資料。作品聯集未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件 |
-| 執行狀態 | 基本資料階段持續執行；第69批2024夏10部29筆已完成資料、正常PR／main、實際Cloudflare部署及正式站驗收，來源`61abb7f`／`batch69-basics`；26筆基本欄位證據、3筆特殊用途缺口，新增插曲2筆、更正3筆IN。第70批4部26筆既有用途開始整理；詳細及整體目標未完成，沒有背景排程 |
-| 接續位置 | 第70批2024夏4部26筆既有用途：`curated-160488`、`curated-171457`、`curated-154963`、`curated-167419`；VTuber、負けヒロイン、ATRI及なぜ僕の世界逐話曲／角色名義先核，原期TV與後期用途分開。41筆完全季度待核及各筆use_quarters條件保留，短篇／WEB與詳細深化延後 |
-| 發布提交 | 第69批[PR #161](https://github.com/kyeunga25/anisonary/pull/161)來源`61abb7f`／`batch69-basics`已正式驗收；第70批範圍登記已分開提交，後續資料待整理與驗證 |
+| 執行狀態 | 基本資料階段持續執行；第70批2024夏4部26筆既有用途已完成本機資料及展示，22筆基本欄位證據、4筆特殊用途待核，1筆分類更正及3筆影片形式更正；正式發布待完成。最後正式來源第69批`61abb7f`／`batch69-basics`；詳細及整體目標未完成，沒有背景排程 |
+| 接續位置 | 第70批正常發布收尾後，第71批2024夏7部16筆及春3部6筆既有用途：`curated-139825`、`curated-174044`、`curated-173694`、`curated-157371`、`curated-154195`、`curated-162796`、`curated-150103`、`curated-169927`、`curated-144176`、`curated-155657`；優先夏季標準TV餘下用途，再接春季3部。45筆完全季度待核、6筆近期具體跨季缺口、ATRI兩曲後段日期及其他use_quarters條件保留，短篇／WEB與詳細深化延後 |
+| 發布提交 | 第69批[PR #161](https://github.com/kyeunga25/anisonary/pull/161)來源`61abb7f`／`batch69-basics`已正式驗收；第70批本機資料及展示通過，待正常PR／main、實際Cloudflare部署及正式站驗收 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
 執行狀態使用「未開始／執行中／已暫停／已完成／已取消」；無法繼續時另記具體阻礙及仍未完成部分，不自動標記完成。長期目標與本次工作量分開，未指定本次工作量時先完成下一批。
 
 ## 季度進度 / Quarterly progress
 
-統計至第69批正式驗收；正式來源`61abb7f`／`batch69-basics`。數量為現有快照的OP／ED用途，依公開theme ID與已確認用途季度計算；跨季用途可能重複，不能直接相加或當作唯一歌曲／音源數。
+統計至第70批本機驗證；最後正式來源第69批`61abb7f`／`batch69-basics`，第70批正式發布待完成。數量為現有快照的OP／ED用途，依公開theme ID與已確認用途季度計算；跨季用途可能重複，不能直接相加或當作唯一歌曲／音源數。
 
 「基本欄位具備」表示現有歌曲原名、演唱名義、用途及第一方／交叉來源有值，動畫可識別且有季度與作品來源；這是現有資料的欄位盤點，不表示本批重查全部來源、作品清單已閉合或整季收齊。「已逐批核對」依下方各批公開ID明細，包含查找後保留續查條件的用途。
 
@@ -38,7 +38,7 @@
 | 2025 春 | 148 | 148 | 127 | 46 | 81 |
 | 2025 冬 | 172 | 172 | 165 | 5 | 160 |
 | 2024 秋 | 177 | 177 | 165 | 1 | 164 |
-| 2024 夏 | 184 | 184 | 111 | 0 | 111 |
+| 2024 夏 | 179 | 179 | 132 | 0 | 132 |
 | 2024 春 | 169 | 169 | 21 | 0 | 21 |
 | 2024 冬 | 138 | 138 | 14 | 0 | 14 |
 | 2023 秋 | 203 | 203 | 12 | 0 | 12 |
@@ -62,9 +62,9 @@
 | 2019 春 | 尚未建立快照 | — | — | — | — |
 | 2019 冬 | 尚未建立快照 | — | — | — | — |
 
-2020–2026的28個季度均有快照，但各季尚未完成標準TV作品聯集，現有筆數不是閉合的全季分母。2026夏／春／冬既有清單首輪與第08–37批成果保留，沒有重查全量舊來源。2025夏尚有15筆、春21筆、冬7筆現有OP／ED未逐批核對，冬季7筆屬延後短篇；另41筆既有用途季度待核，保留全目錄及動畫頁並暫不計入季度；第69批新增待核3筆為ヤナト田植唄舊ED、Wistoria Vocal ver.及Honey Citron弦樂版，原ID及動畫頁保留。第65批すれちがい、arma及第2期Let's Swing，以及第67批ブラウス特殊ED及Weight of the World原ED2，保留第一方曲目／逐話用途缺口。シンカリオン兩筆歌曲已有2024確認季度、2025冬仍待逐曲證據；鑑定貴族第2期兩筆已有2024秋、首話9月29日的逐曲夏季用途待核，上述4筆及第66批【我推的孩子】第2期兩筆最終話秋季用途，共6筆近期具體跨季缺口，與完全未分季的41筆分開。全目錄另有已保存的use_quarters續查／媒體界線備註，本次沒有把它們一律當作已解除或只有上述6筆。2024–2020續播與其餘標準TV盤點持續，短篇／WEB及詳細欄位不阻擋基本階段。
+2020–2026的28個季度均有快照，但各季尚未完成標準TV作品聯集，現有筆數不是閉合的全季分母。2026夏／春／冬既有清單首輪與第08–37批成果保留，沒有重查全量舊來源。2025夏尚有15筆、春21筆、冬7筆現有OP／ED未逐批核對，冬季7筆屬延後短篇；另45筆既有用途季度待核，保留全目錄及動畫頁並暫不計入季度；第69批新增待核3筆為ヤナト田植唄舊ED、Wistoria Vocal ver.及Honey Citron弦樂版，原ID及動畫頁保留。第70批另4筆為Live Start ALL STAR、負けヒロイン原OP作特殊ED及ATRI兩曲PV的TV用途，均保留原入口待核。ATRI兩首已確認夏季主題曲的後段TV日期另存續查，沒有以最終回記念PV公告日推出秋季。第65批すれちがい、arma及第2期Let's Swing，以及第67批ブラウス特殊ED及Weight of the World原ED2，保留第一方曲目／逐話用途缺口。シンカリオン兩筆歌曲已有2024確認季度、2025冬仍待逐曲證據；鑑定貴族第2期兩筆已有2024秋、首話9月29日的逐曲夏季用途待核，上述4筆及第66批【我推的孩子】第2期兩筆最終話秋季用途，共6筆近期具體跨季缺口，與完全未分季的45筆分開。全目錄另有30筆已有確認季度的use_quarters續查／媒體界線備註，本次沒有把它們一律當作已解除或只有上述6筆。2024–2020續播與其餘標準TV盤點持續，短篇／WEB及詳細欄位不阻擋基本階段。
 
-目前1,581個唯一用途已逐批處理，其中1,469 OP／ED、102 IN、10 TS；包含41筆用途季度待核狀態盤點，未把它們計入任一已確認季度，跨季不可相加。第38–69批新增229筆用途的基本欄位及身分／用途證據齊備；秋季詳細核心3／138主要來自既有用途季度補正，不表示其餘基本資料失敗。春季共7筆已證實第二季度／後期用途改掛秋季，另14筆第二季度改掛夏季；無自覺聖女兩筆補夏季並保留春末TV首播，唯一歌曲與未重查來源日期保留。2007–2018及2019春／冬仍無快照，長期範圍未完成。羽のゆりかご的季度fallback限制沿第37批記錄，未把未證實春季使用當作確證。
+目前1,607個唯一用途已逐批處理，其中1,494 OP／ED、103 IN、10 TS；包含45筆用途季度待核狀態盤點，未把它們計入任一已確認季度，跨季不可相加。第38–70批新增229筆用途的基本欄位及身分／用途證據齊備；秋季詳細核心3／138主要來自既有用途季度補正，不表示其餘基本資料失敗。春季共7筆已證實第二季度／後期用途改掛秋季，另14筆第二季度改掛夏季；無自覺聖女兩筆補夏季並保留春末TV首播，唯一歌曲與未重查來源日期保留。2007–2018及2019春／冬仍無快照，長期範圍未完成。羽のゆりかご的季度fallback限制沿第37批記錄，未把未證實春季使用當作確證。
 
 ## 基線
 
@@ -84,7 +84,7 @@
 | 優先 | 工作 | 狀態與接點 |
 | --- | --- | --- |
 | 1 | 一次性最小格式與真實試行 | 2026-10-14 已完成，見下方 2026-summer-schema-pilot；後續直接沿用格式，不重新設計或搬移全量資料 |
-| 2 | 當前收集接點 | 第69批正式驗收完成；第70批依頂部公開ID接續2024夏標準TV基本資料 |
+| 2 | 當前收集接點 | 第70批本機驗證完成、正式發布待完成；第71批依頂部公開ID先夏後春接續標準TV基本資料，第69批正式驗收完成 |
 | 3 | 2025–2020基本資料 | 標準TV按年份／季度倒序補作品聯集與歌曲輪替；短篇／WEB延後，詳細深化待後續指令 |
 | 4 | 較早年度 | 2019 → 2007保留長期待辦；2020–2026基本階段未完成前不擴張 |
 | 5 | 詳細資料 | 已完成的創作、影片、音源、發行品及平台資料保留；未解觸發條件沿用，集中深化延後 |
@@ -5697,9 +5697,61 @@ GitHub open Dependabot警示增至24項，新增[source-map-js advisory](https:/
 - 正式站Chromium393×852驗10頁29組狀態、10組夏季歌單、4組OPED／IN篩選、8組舊名／新原名搜尋、9組原TV時段、3筆待核舊深連結及原影片日期，無溢出、app errors或影片iframe。in-app665像素核6組狀態／1筆展開、新插曲兩位角色CV／詞曲編／具體續查及原ED2／ED3入口顯示插曲，收合／展開通過；兩種實際截圖均已檢視。
 - annotated tag `batch69-basics`指向正式來源並已推送。第70批接續2024夏4部26筆；41筆完全季度待核、各筆use_quarters條件與詳細缺項保留，作品聯集及2020–2026基本階段仍未完成。
 
-## 2020-2026-tv-basics-70（執行中）
+## 2020-2026-tv-basics-70（本機驗證完成，正式發布待完成）
 
-- 2026-10-20登記；固定2020–2026標準TV基本階段、2007–2026長期範圍及2026-10-14截止日維持。
-- 2024夏4部26筆既有用途：`curated-160488`、`curated-171457`、`curated-154963`、`curated-167419`，VTuber、負けヒロイン、ATRI及なぜ僕の世界。先核原名、角色／演唱名義、原期TV與第一方／交叉用途；同頁明列創作可一併保存，特殊片尾與插曲分類分開確認，短篇／WEB及詳細深化延後。
-- 第69批凍結來源及產物已完成正常PR／main、實際部署與正式站驗收，來源`61abb7f`／`batch69-basics`。本批來源整理獨立，開始接續資料寫入與驗證；每筆dataStatus及具體續查條件隨資料保存。
-- 第69批正式驗收後接續資料及展示驗證，分類提交、正常PR／main、實際Cloudflare部署及live驗收，再接後批。41筆完全季度待核與各筆use_quarters條件保留；作品聯集、基本階段及整體目標未完成，沒有背景排程。
+- 固定2020–2026標準TV基本階段、2007–2026長期範圍及2026-10-14截止日維持；實際查閱2026-10-20。2024夏4部26筆既有用途：22筆基本原名、名義與用途具第一方／交叉欄位證據，4筆特殊用途尚缺第一方確認；詳細欄位不阻擋其餘已確認資料。
+- 每曲dataStatus記錄現有欄位、未知項目及具體續查條件；有效舊來源與2026-08-30影片日期沿用，新曲目／角色資料依實際日期另存。第69批正式來源`61abb7f`／`batch69-basics`，本批正式發布待完成。
+
+### 公開用途與實際差異
+
+| 公開theme ID | 原名／演唱名義 | 用途 | 已確認季度 |
+| --- | --- | --- | --- |
+| `vtuber-nanda-ga-haishin-kiri-wasuretara-densetsu-ni-natteta-op-1` | バーチャル・ショータイム！／心音淡雪（CV：佐倉綾音）＆シュワちゃん（CV：佐倉綾音） | OP1 | 2024-summer |
+| `vtuber-nanda-ga-haishin-kiri-wasuretara-densetsu-ni-natteta-ed-1` | シャンパンになりきれない私を／心音淡雪（CV：佐倉綾音） | ED1 | 2024-summer |
+| `vtuber-nanda-ga-haishin-kiri-wasuretara-densetsu-ni-natteta-ed-2` | 男と女のラブゲーム／心音淡雪（CV：佐倉綾音）、宇月 聖（CV：小林ゆう） | ED2 | 2024-summer |
+| `vtuber-nanda-ga-haishin-kiri-wasuretara-densetsu-ni-natteta-ed-3` | スイートマジック／祭屋 光（CV：Machico） | ED3 | 2024-summer |
+| `vtuber-nanda-ga-haishin-kiri-wasuretara-densetsu-ni-natteta-ed-5` | 踊る赤ちゃん人間／山谷 還（CV：茅野愛衣） | ED5 | 2024-summer |
+| `vtuber-nanda-ga-haishin-kiri-wasuretara-densetsu-ni-natteta-ed-6` | ふたつの星／神成シオン（CV：諸星すみれ）、宇月 聖（CV：小林ゆう） | ED6 | 2024-summer |
+| `vtuber-nanda-ga-haishin-kiri-wasuretara-densetsu-ni-natteta-ed-7` | ノットボッチ...夏／柳瀬ちゃみ（CV：菊池紗矢香） | ED7 | 2024-summer |
+| `vtuber-nanda-ga-haishin-kiri-wasuretara-densetsu-ni-natteta-ed-8` | コバルトメモリーズ／彩 ましろ（CV：水野 朔） | ED8 | 2024-summer |
+| `vtuber-nanda-ga-haishin-kiri-wasuretara-densetsu-ni-natteta-ed-9` | 空色の指先／苑風エーライ（CV：M・A・O） | ED9 | 2024-summer |
+| `vtuber-nanda-ga-haishin-kiri-wasuretara-densetsu-ni-natteta-ed-10` | 2001年のゲーム・キッス／昼寝ネコマ（CV：大橋彩香） | ED10 | 2024-summer |
+| `vtuber-nanda-ga-haishin-kiri-wasuretara-densetsu-ni-natteta-ed-11` | 冬の日のエトランゼ／相馬有素（CV：田所あずさ） | ED11 | 2024-summer |
+| `vtuber-nanda-ga-haishin-kiri-wasuretara-densetsu-ni-natteta-ed-12` | Live Start ALL STAR ver.／Live-ON CAST | ED12 | 待核；保留全目錄及動畫頁 |
+| `vtuber-nanda-ga-haishin-kiri-wasuretara-densetsu-ni-natteta-ed-4` | ライブスタート／Live-ON CAST | IN4 | 2024-summer |
+| `make-heroine-ga-oosugiru-op-1` | つよがるガール feat. もっさ(ネクライトーキー)／ぼっちぼろまる | OP1 | 2024-summer |
+| `make-heroine-ga-oosugiru-ed-1` | LOVE 2000／八奈見杏菜（CV：遠野ひかる） | ED1 | 2024-summer |
+| `make-heroine-ga-oosugiru-ed-2` | CRAZY FOR YOU／焼塩檸檬（CV：若山詩音） | ED2 | 2024-summer |
+| `make-heroine-ga-oosugiru-ed-3` | feel my soul／小鞠知花（CV：寺澤百花） | ED3 | 2024-summer |
+| `make-heroine-ga-oosugiru-ed-4` | つよがるガール feat. もっさ(ネクライトーキー)／ぼっちぼろまる | ED4 | 待核；保留全目錄及動畫頁 |
+| `atri-my-dear-moments-op-1` | あの光／乃木坂46 | OP1 | 2024-summer |
+| `atri-my-dear-moments-ed-1` | YESとNOの間に／22/7 | ED1 | 2024-summer |
+| `atri-my-dear-moments-ed-2` | Dear Moments／アトリ（CV：赤尾ひかる） | ED2 | 待核；保留全目錄及動畫頁 |
+| `atri-my-dear-moments-ed-3` | 光放て！／柳 麻美 | ED3 | 待核；保留全目錄及動畫頁 |
+| `naze-boku-no-sekai-wo-daremo-oboeteinai-no-ka-op-1` | 世界輪廻／Unlucky Morpheus | OP1 | 2024-summer |
+| `naze-boku-no-sekai-wo-daremo-oboeteinai-no-ka-ed-1` | 途切れないで／好芻（SUSU） | ED1 | 2024-summer |
+| `naze-boku-no-sekai-wo-daremo-oboeteinai-no-ka-ed-2` | 愛、アムネシア／アーバンギャルド | ED2 | 2024-summer |
+| `naze-boku-no-sekai-wo-daremo-oboeteinai-no-ka-ed-3` | UMBRA／ELFENSJóN | ED3 | 2024-summer |
+
+- 公開anime ID：`curated-160488`、`curated-171457`、`curated-154963`、`curated-167419`。新增動畫、用途、歌曲、影片外連、結構化音源與發行品均0；更正20個原名、21個名義，補16筆詞／曲／編角色及25筆歌唱條目，角色條目不等於唯一作者數。
+- ライブスタート依官方劇中歌稱法改為IN4，保留原ED4形式的公開ID、序號、影片ID及深連結；既有影片對應移至IN4。官方short MV保存music_video，ATRI兩支紀念影片保存pv，原tv_size標記不再推定音源長度。不同影片不另增歌曲／錄音。
+- 負けヒロイン同一首つよがるガール的OP及待核特殊ED共用原OP歌曲識別，兩用途ID及各影片保留；MV不自動另算一首。VTuber ALL STAR缺少精確版本第一方資料，沒有猜造日文版名或錄音關係。
+- 26個舊用途ID、序號、原日期、已存錄音／發行與平台項目均保留；2,048個其他動畫JSON逐檔SHA-256相同。僅なぜ僕4筆舊官網歌曲來源因實際讀取更新，其餘舊來源物件／日期保持。
+- 全目錄2,052部、4,639用途（4,526 OP／ED、103 IN、10 TS）全部有dataStatus；897筆基本欄位有兩類欄位證據，其餘3,742筆來源待細分。已逐批處理1,607唯一用途。2024夏現179 OP／ED、已核132、詳細核心0／缺口132，另10筆夏季插曲；分母變動來自1筆分類更正與4筆待核季度移出，沒有刪除歌曲。45筆完全季度待核及30筆非空季度續查分開；近期6筆具體跨季缺口與ATRI2筆未明後段日期不混算。
+
+### 來源、缺口與續查條件
+
+- VTuber：[本期Music](https://vden.jp/music/index.html)明列OP兩角色名義及劇中歌ライブスタート／Live-ON CAST；[第1卷](https://vden.jp/bd/index.html)、[第2卷](https://vden.jp/bd/02.html)、[第3卷](https://vden.jp/bd/03.html)附エンディングテーマソングCD一次核10首角色版ED及CV。OP兩名義同為佐倉綾音，並非兩位真人歌手；Live-ON CAST未取得本曲個別歌唱表，作品全CV名單不套逐曲。原TV依[ONAIR](https://vden.jp/onair/index.html)7月7日23:30 AT-X，地上波24:30及串流24時分開，BD發售月份不當用曲季度。詳細階段重用ZMXZ-17711–17713／ZMBZ-17721–17723本角色版逐曲表補詞曲編、版本及收錄。ALL STAR經三卷曲表及定向查找仍未明，待明列該版本的官方配信或原始片尾才補用途／版本關係；兩輪後不為此阻擋其餘12筆。
+- 負けヒロイン：[原期OP](https://makeine-anime.com/music/)明つよがるガール feat.もっさ、ぼっちぼろまる詞曲編及兩位歌唱；[Ending](https://makeine-anime.com/music/ending.html)／[Album](https://makeine-anime.com/music/album.html)明LOVE 2000、CRAZY FOR YOU、feel my soul三位角色cover及CV，其他專輯曲不當TV用途。[原ONAIR](https://makeine-anime.com/onair/)7月13日24:30（曆14日），首頁現行第2期不套2024原期。OP再作特殊ED經原期Ending及定向查找未有第一方逐話證據，待原片尾／官方用曲表；AICL-4600及SVWC-70670版本／收錄留詳細階段，本角色編曲不抄原唱。
+- ATRI：[OP](https://atri-anime.com/music/)明あの光／乃木坂46，詞秋元康、曲編BASEMINT；[ED](https://atri-anime.com/music/ed.html)明YESとNOの間に／22/7，詞秋元康、曲YU-JIN及SHIN、編YU-JIN，一般成員留言不當全曲歌唱表。[ONAIR](https://atri-anime.com/onair/)7月13日24時（曆14日），[原第13話Story](https://atri-anime.com/story/?id=13)未明日期，定向原期日期查找未明後段TV，兩曲保持已核夏季並記use_quarters觸發，不以10月5日PV公告日判秋季。既有[Dear Moments官方Log06 PV](https://www.youtube.com/watch?v=wbKsxfbWXWY)及8月30日核對日期保留，僅明アトリ／赤尾ひかる本曲名義；[光放て！公告](https://atri-anime.com/news/?article_id=66359)明柳麻美與詞紺野アスタ、曲編松本文紀，但兩支PV不證明TV的特殊ED／插曲。待原片尾／官方逐話曲表與實際日期才補兩個用途季度，遊戲原曲及TV錄音另核。
+- なぜ僕：[原官網同頁](https://www.nazeboku.com/)一次核世界輪廻／Unlucky Morpheus、途切れないで／好芻、愛、アムネシア／アーバンギャルド、UMBRA／ELFENSJóN的OP／三ED及7月13日22:30 TV；好芻既有SUSU拼寫保留搜尋。作品總配樂Akiyoshi Yasuda不是各主題曲作者；詞曲編、個別歌唱、音源及收錄待原曲逐曲資料，不為詳細缺項另作廣泛搜尋。
+- 各歌可選詳細欄位保留followUp；4筆第一方特殊用途缺口與ATRI2筆後段日期已到兩輪定向界線，只有相應官方逐話／版本資料出現才續查，其餘前批未觸發缺口不重查。
+
+### 本機檢查與展示
+
+- npm test 4檔8項、build 2,098 HTML／4,194產物、ApiProvider 4部26筆、舊ID／媒體／來源日期保留性、897筆基本狀態及全28季度計數通過；26筆均有逐曲followUp，22筆基本欄位證據與4筆用途待核如實區分。
+- Chromium393×852驗4頁26組狀態、5組季度歌單（含ATRI秋季0筆）、4組OPED／IN篩選、8組新原名／舊拼寫搜尋、4組原TV資料、4筆待核舊深連結與既有影片日期；頁面初始詳情收合，無橫向溢出、app errors或未同意影片iframe。私用QA依實際24:00／24:30顯示核對，未因日期正規化假設改正常程式。
+- in-app665像素核13組狀態、1筆展開及原ED4入口顯示插曲／MV／Live-ON CAST個別歌唱續查；實測收合／展開、用途篩選顯示1／13及回全部13／13。手機角色雙人歌唱及in-app緊湊列表實際截圖已檢視。Browser plugin不可用，以專案Chromium驗手機尺寸。
+- 僅2024夏資料、1筆更正用途的既有影片對應／3筆影片形式及checkpoint變更；沒有新季度、UI、contract、播放器行為、依賴或設定變更，本機不額外重跑全套E2E，正常PR／main保留重要E2E。Cloudflare dry-run無bindings、文件連結、公開邊界245檔及diff收尾均通過；本機通過不等於已部署。
+
+預覽入口：`/anime/vtuber-nanda-ga-haishin-kiri-wasuretara-densetsu-ni-natteta/#theme-vtuber-nanda-ga-haishin-kiri-wasuretara-densetsu-ni-natteta-ed-2`、`/anime/make-heroine-ga-oosugiru/`、`/anime/atri-my-dear-moments/`及`/seasons/2024-summer/`。第71批先2024夏7部16筆，再春3部6筆；作品聯集、基本階段、詳細及長期目標仍未完成。
