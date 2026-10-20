@@ -6050,3 +6050,11 @@ GitHub open Dependabot警示增至24項，新增[source-map-js advisory](https:/
 - 僅2024春資料、既有夏季registry及checkpoint變更；沒有新增季度、UI、contract、播放器、依賴或部署設定。本機依矩陣不重跑全套E2E，正常PR／main保留核心E2E；Cloudflare dry-run無bindings、文件連結、公開邊界245檔及diff收尾通過，本機驗證不等於部署。
 
 預覽入口：`/anime/blue-archive-the-animation/#theme-blue-archive-the-animation-op-1`、`/anime/hibike-euphonium-3/`、`/anime/yoru-no-kurage-wa-oyogenai/`、`/seasons/2024-spring/`及`/seasons/2024-summer/`。第75批春10部25筆接續，作品聯集、基本階段、詳細及長期目標仍未完成。
+
+## 2020-2026-tv-basics-75（執行中）
+
+- 2026-10-20登記；固定2020–2026標準TV基本階段、2007–2026長期範圍及2026-10-14截止日維持。
+- 2024春10部25筆既有用途：`curated-168138`、`curated-169584`、`curated-170604`、`curated-166873`、`curated-170130`、`curated-158709`、`curated-163141`、`curated-169698`、`curated-136804`、`curated-151380`。じいさんばあさん若返る、死神坊ちゃん第3期、ヴァンパイア男子寮、無職転生II後半、Lv2チート、Unnamed Memory、リンカイ！、ただいま、おかえり、このすば3及デート・ア・ライブV；特殊用途、原TV與角色名義分開核對。
+- 先核原名、名義、原期TV及第一方／交叉用途；同頁明列職位一併保存。詳細資料與短篇／WEB延後，55筆完全季度待核、34筆非空季度use_quarters條件、10筆近期具體跨季缺口及ATRI後段日期保留。
+- 第74批凍結來源及產物已完成本機驗證，正常PR／main及正式發布待完成。本批來源整理獨立，尚無公開資料修改或驗證成果；每筆完整性狀態及具體續查條件隨資料保存。
+- 第74批正式驗收後接續本批資料、展示驗證、分類提交、正常PR／main、實際Cloudflare部署與正式站驗收，再接後批。作品聯集、基本階段及整體目標未完成，沒有背景排程。
