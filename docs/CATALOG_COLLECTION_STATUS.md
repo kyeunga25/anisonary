@@ -6320,3 +6320,11 @@ GitHub open Dependabot警示增至24項，新增[source-map-js advisory](https:/
 - 僅冬季seed、6筆影片形式與checkpoint變更；沒有新季度、UI、public契約、播放器請求、依賴或部署設定變更。按矩陣不額外重跑本機全套E2E，正常PR／main保留核心E2E。Cloudflare dry-run無bindings、文件連結、公開邊界245檔及diff收尾通過，本機驗證不等於部署。
 
 預覽入口：`/anime/sokushi-cheat-ga-saikyou-sugite-isekai-no-yatsura-ga-marude-aite-ni-naranai-n-desu-ga/`、`/anime/pon-no-michi/`、`/seasons/2024-winter/`。第79批冬10部25筆接續，基本階段、詳細與長期目標仍未完成。
+
+## 2020-2026-tv-basics-79（執行中）
+
+- 2026-10-20登記；固定2020–2026標準TV基本階段、2007–2026長期範圍及2026-10-14截止日維持。
+- 2024冬10部25筆既有用途：`curated-166216`、`curated-168374`、`curated-169935`、`curated-139518`、`curated-162002`、`curated-163151`、`curated-155963`、`curated-163076`、`curated-164244`、`curated-166522`。僕の心2、ループ7回目、最強タンク、月が導く第二幕、休日のわるものさん、HIGH CARD2、道産子ギャル、悪役令嬢99、愚かな天使及姫様拷問；特殊用途、原TV與角色名義分開核對。
+- 先核原名、名義、原期TV及第一方／交叉用途；同頁明列職位一併保存。詳細資料與短篇／WEB延後，62筆完全季度待核、36筆非空季度use_quarters條件、12筆近期具體跨季缺口及ATRI後段日期保留。
+- 第78批凍結來源及產物已完成本機驗證，正常PR／main及正式發布待完成。本批來源整理獨立，尚無公開資料修改或驗證成果；每筆完整性狀態及具體續查條件隨資料保存。
+- 第78批正式驗收後接續本批資料、展示驗證、分類提交、正常PR／main、實際Cloudflare部署與正式站驗收，再接後批。作品聯集、基本階段及整體目標未完成，沒有背景排程。
