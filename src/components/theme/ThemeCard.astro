@@ -11,6 +11,11 @@ import ThemeDataStatus from "@/components/theme/ThemeDataStatus.astro";
 
 interface Props { theme: PublicTheme; }
 const { theme } = Astro.props;
+const originalUse = theme.id.match(/-(op|ed|in|ts)-([1-9]\d*)$/);
+const previousVideoAnchor = (videoId: string) => originalUse &&
+  (originalUse[1] !== theme.type.toLowerCase() || Number(originalUse[2]) !== theme.sequence)
+  ? `video-${originalUse[1]}-${originalUse[2]}-${videoId}`
+  : undefined;
 const credits = theme.credits.filter((credit) =>
   credit.role !== "vocals" || credit.name !== theme.artistDisplayName
 );
@@ -99,7 +104,12 @@ const sourceRoleLabels = {
 
   {(theme.videos.length > 0 || theme.links.length > 0) && (
     <div class="theme-card__media">
-      {theme.videos.map((video) => <div id={themeVideoAnchor(theme, video.youtubeVideoId)} class="theme-card__video"><LazyYouTube video={video} /></div>)}
+      {theme.videos.map((video) => (
+        <div id={themeVideoAnchor(theme, video.youtubeVideoId)} class="theme-card__video">
+          {previousVideoAnchor(video.youtubeVideoId) && <span class="theme-card__alias" id={previousVideoAnchor(video.youtubeVideoId)} aria-hidden="true"></span>}
+          <LazyYouTube video={video} />
+        </div>
+      ))}
       {theme.links.length > 0 && <div class="theme-card__links"><ExternalLinkList links={theme.links} /></div>}
     </div>
   )}
