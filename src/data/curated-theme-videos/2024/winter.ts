@@ -82,7 +82,7 @@ export const curated2024WinterThemeVideos = {
   "165314:ED:1": [{"youtubeVideoId":"GtA2DBwvOuw","title":"halca『Good Luck Waker』Music Video（TVアニメ『ぽんのみち』エンディングテーマ）","type":"music_video","channelName":"halca Official YouTube Channel","officialStatus":"official","embeddable":true}],
   "165314:OP:1": [{"youtubeVideoId":"pocZ3dBTJ7Y","title":"中田花奈 feat. ぽんのみちオールスターズ「ポンポポポン」Music Video（TVアニメ「ぽんのみち」OPテーマ）","type":"music_video","channelName":"Sony Music Japan","officialStatus":"official","embeddable":true}],
   "165598:ED:1": [{"youtubeVideoId":"SIRO9Hk5ACs","title":"オリジナルTVアニメ「勇気爆発バーンブレイバーン」EDノンテロップ映像","type":"creditless_ed","channelName":"Cygamesアニメすきすき","officialStatus":"official","embeddable":true}],
-  "165598:ED:2": [{"youtubeVideoId":"Zkg_03wzNKQ","title":"オリジナルTVアニメ「勇気爆発バーンブレイバーン」OPノンテロップ映像","type":"creditless_ed","channelName":"Cygamesアニメすきすき","officialStatus":"official","embeddable":true}],
+  "165598:ED:2": [{"youtubeVideoId":"Zkg_03wzNKQ","title":"オリジナルTVアニメ「勇気爆発バーンブレイバーン」OPノンテロップ映像","type":"creditless_op","channelName":"Cygamesアニメすきすき","officialStatus":"official","embeddable":true}],
   "165598:OP:1": [{"youtubeVideoId":"Zkg_03wzNKQ","title":"オリジナルTVアニメ「勇気爆発バーンブレイバーン」OPノンテロップ映像","type":"creditless_op","channelName":"Cygamesアニメすきすき","officialStatus":"official","embeddable":true}],
   "166093:ED:1": [{"youtubeVideoId":"Mfbt2vW-C-0","title":"【スナックバス江】第1話ノンクレジットエンディング映像 明美(CV:高橋李依)「オリビアを聴きながら」","type":"creditless_ed","channelName":"ぽにきゃん-Anime PONY CANYON","officialStatus":"official","embeddable":true}],
   "166093:ED:10": [{"youtubeVideoId":"Qg6idFQ-X2E","title":"【スナックバス江】第10話ノンクレジットエンディング映像／山田(CV:阿座上洋平) feat. 明美(CV:高橋李依)「目を閉じておいでよ」","type":"creditless_ed","channelName":"ぽにきゃん-Anime PONY CANYON","officialStatus":"official","embeddable":true}],
