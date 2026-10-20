@@ -6122,3 +6122,11 @@ GitHub open Dependabot警示增至24項，新增[source-map-js advisory](https:/
 - 資料、既有夏季registry、共用歌單摘要樣式及checkpoint變更；沒有新增季度、public契約、播放器請求、依賴或部署設定。Cloudflare dry-run無bindings、文件連結、公開邊界245檔及diff收尾通過，本機驗證不等於部署。
 
 預覽入口：`/anime/rinkai/#theme-rinkai-ed-1`、`/anime/shinigami-bocchan-to-kuro-maid-3rd-season/#theme-shinigami-bocchan-to-kuro-maid-3rd-season-ed-3`、`/anime/mushoku-tensei-ii-isekai-ittara-honki-dasu-part-2/`、`/songs/`及`/seasons/2024-spring/`。第76批春10部23筆接續，作品聯集、基本階段、詳細及長期目標仍未完成。
+
+## 2020-2026-tv-basics-76（執行中）
+
+- 2026-10-20登記；固定2020–2026標準TV基本階段、2007–2026長期範圍及2026-10-14截止日維持。
+- 2024春10部23筆既有用途：`curated-159039`、`curated-160090`、`curated-167927`、`curated-174653`、`curated-130590`、`curated-153288`、`curated-166715`、`curated-172187`、`curated-160181`、`curated-170890`。声優ラジオ、怪異と乙女、忘却バッテリー、喧嘩独学、魔王学院II後半、怪獣8号、黒執事寄宿学校、シャドウバースFアーク編、ささやくように恋を唄う及THE NEW GATE；特殊用途、原TV與角色名義分開核對。
+- 先核原名、名義、原期TV及第一方／交叉用途；同頁明列職位一併保存。詳細資料與短篇／WEB延後，57筆完全季度待核、36筆非空季度use_quarters條件、12筆近期具體跨季缺口及ATRI後段日期保留。
+- 第75批凍結來源及產物已完成本機驗證，正常PR／main及正式發布待完成。本批來源整理獨立，尚無公開資料修改或驗證成果；每筆完整性狀態及具體續查條件隨資料保存。
+- 第75批正式驗收後接續本批資料、展示驗證、分類提交、正常PR／main、實際Cloudflare部署與正式站驗收，再接後批。作品聯集、基本階段及整體目標未完成，沒有背景排程。
