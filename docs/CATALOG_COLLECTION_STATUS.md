@@ -12,16 +12,16 @@
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED，已確認插曲一併記錄；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2020–2026標準季度TV的動畫及歌曲基本資料優先，按2026 → 2020、各年秋 → 夏 → 春 → 冬補漏。先處理可快速核實的原名、季度／首播、演唱名義、OP／ED用途及來源；創作、影片、音源、發行品及平台集中深化留待下一階段。約24分鐘、常見12／24集，13／26集及同類續播納入；長篇以2020–2026的TV用曲季度盤點，不以作品首播年自動排除；短WEB、泡麵番、短篇TV及特殊番延後，既有成果保留 |
 | 完成條件 | 各季有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替；基本資料經公開JSON、頁面及必要檢查驗證，歌單與詳情保持易瀏覽；每筆用途保存現有欄位狀態、未記錄項目及已知續查條件，與完整收齊及來源日期分開。詳細欄位缺少不阻擋基本資料。作品聯集未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件 |
-| 執行狀態 | 基本資料階段持續執行；第73批2024春7部27筆既有用途及2筆新增插曲，共29筆已完成資料、正常PR／main、實際Cloudflare部署與正式站驗收，來源`9507107`／`batch73-basics`；26筆基本欄位證據、3筆特殊ED缺口、9筆原ED改IN，原ID與舊影片定位保留。第74批2024春10部30筆來源整理中；詳細及整體目標未完成，沒有背景排程 |
-| 接續位置 | 第74批2024春10部30筆既有用途：`curated-164440`、`curated-170503`、`curated-109731`、`curated-146867`、`curated-158417`、`curated-158898`、`curated-160589`、`curated-163078`、`curated-164702`、`curated-166910`；夜櫻／烏／ファブル後半與音樂作品特殊用途同時核對，先補標準TV原名、名義、原期及第一方／交叉用途。50筆完全季度待核、6筆近期具體跨季缺口、ATRI後段日期及其他use_quarters條件保留；短篇／WEB與詳細深化延後 |
-| 發布提交 | 第73批[PR #165](https://github.com/kyeunga25/anisonary/pull/165)來源`9507107`／`batch73-basics`已正式驗收；第74批範圍登記已分開提交，後續資料待整理與驗證 |
+| 執行狀態 | 基本資料階段持續執行；第74批2024春10部30筆既有用途已完成本機資料與展示驗證，25筆基本欄位證據、5筆特別ED第一方用途待核，每曲保存完整性與續查條件。正常PR／main與正式發布待完成；最後正式來源第73批`9507107`／`batch73-basics`。第75批續接春10部25筆；詳細及整體目標未完成，沒有背景排程 |
+| 接續位置 | 第75批2024春10部25筆：`curated-168138`、`curated-169584`、`curated-170604`、`curated-166873`、`curated-170130`、`curated-158709`、`curated-163141`、`curated-169698`、`curated-136804`、`curated-151380`；先核原名、演唱名義、原期TV及用途。55筆完全季度待核、34筆非空季度use_quarters條件、10筆近期具體跨季缺口及ATRI後段日期分開保留；短篇／WEB與詳細深化延後 |
+| 發布提交 | 第73批[PR #165](https://github.com/kyeunga25/anisonary/pull/165)來源`9507107`／`batch73-basics`已正式驗收；第74批資料與checkpoint將分類提交，正常PR／main通過後部署固定已驗證產物並驗收 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
 執行狀態使用「未開始／執行中／已暫停／已完成／已取消」；無法繼續時另記具體阻礙及仍未完成部分，不自動標記完成。長期目標與本次工作量分開，未指定本次工作量時先完成下一批。
 
 ## 季度進度 / Quarterly progress
 
-統計至第73批正式驗收；正式來源`9507107`／`batch73-basics`。數量為現有快照的OP／ED用途，依公開theme ID與已確認用途季度計算；跨季用途可能重複，不能直接相加或當作唯一歌曲／音源數。
+統計至第74批本機與展示驗證；最後正式來源第73批`9507107`／`batch73-basics`。數量為現有快照的OP／ED用途，依公開theme ID與已確認用途季度計算；跨季用途可能重複，不能直接相加或當作唯一歌曲／音源數。
 
 「基本欄位具備」表示現有歌曲原名、演唱名義、用途及第一方／交叉來源有值，動畫可識別且有季度與作品來源；這是現有資料的欄位盤點，不表示本批重查全部來源、作品清單已閉合或整季收齊。「已逐批核對」依下方各批公開ID明細，包含查找後保留續查條件的用途。
 
@@ -38,8 +38,8 @@
 | 2025 春 | 150 | 150 | 129 | 46 | 83 |
 | 2025 冬 | 172 | 172 | 165 | 5 | 160 |
 | 2024 秋 | 177 | 177 | 165 | 1 | 164 |
-| 2024 夏 | 181 | 181 | 150 | 0 | 150 |
-| 2024 春 | 155 | 155 | 64 | 0 | 64 |
+| 2024 夏 | 187 | 187 | 156 | 0 | 156 |
+| 2024 春 | 146 | 146 | 85 | 0 | 85 |
 | 2024 冬 | 138 | 138 | 14 | 0 | 14 |
 | 2023 秋 | 203 | 203 | 12 | 0 | 12 |
 | 2023 夏 | 137 | 137 | 11 | 0 | 11 |
@@ -62,9 +62,9 @@
 | 2019 春 | 尚未建立快照 | — | — | — | — |
 | 2019 冬 | 尚未建立快照 | — | — | — | — |
 
-2020–2026的28個季度均有快照，但各季尚未完成標準TV作品聯集，現有筆數不是閉合的全季分母。2026夏／春／冬既有清單首輪與第08–37批成果保留，沒有重查全量舊來源。2025夏尚有15筆、春21筆、冬7筆現有OP／ED未逐批核對，冬季7筆屬延後短篇；另50筆既有用途季度待核，保留全目錄及動畫頁並暫不計入季度；第69批新增待核3筆為ヤナト田植唄舊ED、Wistoria Vocal ver.及Honey Citron弦樂版，原ID及動畫頁保留。第70批另4筆為Live Start ALL STAR、負けヒロイン原OP作特殊ED及ATRI兩曲PV的TV用途，均保留原入口待核。第71批Rick and Morty兩曲第一方逐曲證據仍未明，保留既有名義與來源、原動畫頁及具體續查，未以總配樂或非官方歌詞補創作。ATRI兩首已確認夏季主題曲的後段TV日期另存續查，沒有以最終回記念PV公告日推出秋季。第73批另3筆為轉生史萊姆原ED3、シャイニーカラーズ原ED5／6的第一方特殊片尾證據，保留原ID及具體續查；Off Vocal未補推定歌唱。第65批すれちがい、arma及第2期Let's Swing，以及第67批ブラウス特殊ED及Weight of the World原ED2，保留第一方曲目／逐話用途缺口。シンカリオン兩筆歌曲已有2024確認季度、2025冬仍待逐曲證據；鑑定貴族第2期兩筆已有2024秋、首話9月29日的逐曲夏季用途待核，上述4筆及第66批【我推的孩子】第2期兩筆最終話秋季用途，共6筆近期具體跨季缺口，與完全未分季的50筆分開。全目錄另有30筆已有確認季度的use_quarters續查／媒體界線備註，本次沒有把它們一律當作已解除或只有上述6筆。2024–2020續播與其餘標準TV盤點持續，短篇／WEB及詳細欄位不阻擋基本階段。
+2020–2026的28個季度均有快照，但各季尚未完成標準TV作品聯集，現有筆數不是閉合的全季分母。2026夏／春／冬既有清單首輪與第08–37批成果保留，沒有重查全量舊來源。2025夏尚有15筆、春21筆、冬7筆現有OP／ED未逐批核對，冬季7筆屬延後短篇；另55筆既有用途季度待核，保留全目錄及動畫頁並暫不計入季度；第69批新增待核3筆為ヤナト田植唄舊ED、Wistoria Vocal ver.及Honey Citron弦樂版，原ID及動畫頁保留。第70批另4筆為Live Start ALL STAR、負けヒロイン原OP作特殊ED及ATRI兩曲PV的TV用途，均保留原入口待核。第71批Rick and Morty兩曲第一方逐曲證據仍未明，保留既有名義與來源、原動畫頁及具體續查，未以總配樂或非官方歌詞補創作。ATRI兩首已確認夏季主題曲的後段TV日期另存續查，沒有以最終回記念PV公告日推出秋季。第73批另3筆為轉生史萊姆原ED3、シャイニーカラーズ原ED5／6的第一方特殊片尾證據，保留原ID及具體續查；Off Vocal未補推定歌唱。第65批すれちがい、arma及第2期Let's Swing，以及第67批ブラウス特殊ED及Weight of the World原ED2，保留第一方曲目／逐話用途缺口。シンカリオン兩筆歌曲已有2024確認季度、2025冬仍待逐曲證據；鑑定貴族第2期兩筆已有2024秋、首話9月29日的逐曲夏季用途待核，上述4筆及第66批【我推的孩子】第2期兩筆最終話秋季用途，共6筆近期具體跨季缺口；第74批夜櫻前半2筆的7月交界、後半2筆的10月終回另有逐曲待核，共10筆近期具體跨季缺口，與完全未分季的55筆分開。全目錄另有34筆已有確認季度的use_quarters續查／媒體界線備註，本次沒有把它們一律當作已解除或只有上述6筆。第74批另5筆為響け3原ED2／3及夜クラ原ED2／3／4，曲目／劇中歌資料保存，第一方特殊ED證據仍待原話數片尾；不以原聲帶曲表或MV推出ED，亦未刪歌曲。2024–2020續播與其餘標準TV盤點持續，短篇／WEB及詳細欄位不阻擋基本階段。
 
-目前1,683個唯一用途已逐批處理，其中1,558 OP／ED、115 IN、10 TS；包含50筆用途季度待核狀態盤點，未把它們計入任一已確認季度，跨季不可相加。第38–73批新增232筆用途的基本欄位及身分／用途證據齊備；秋季詳細核心3／138主要來自既有用途季度補正，不表示其餘基本資料失敗。春季共7筆已證實第二季度／後期用途改掛秋季，另16筆第二季度改掛夏季；無自覺聖女兩筆補夏季並保留春末TV首播，轉生史萊姆第3期後半兩曲保留6月春末並補夏季，沒有把所有第二部分一律改成7月起；唯一歌曲與未重查來源日期保留。2007–2018及2019春／冬仍無快照，長期範圍未完成。羽のゆりかご的季度fallback限制沿第37批記錄，未把未證實春季使用當作確證。
+目前1,713個唯一用途已逐批處理，其中1,588 OP／ED、115 IN、10 TS；包含55筆用途季度待核狀態盤點，未把它們計入任一已確認季度，跨季不可相加。第38–74批新增232筆用途的基本欄位及身分／用途證據齊備；秋季詳細核心3／138主要來自既有用途季度補正，不表示其餘基本資料失敗。春季共7筆已證實第二季度／後期用途改掛秋季，另16筆第二季度改掛夏季；無自覺聖女兩筆補夏季並保留春末TV首播，轉生史萊姆第3期後半兩曲保留6月春末並補夏季，沒有把所有第二部分一律改成7月起；唯一歌曲與未重查來源日期保留。2007–2018及2019春／冬仍無快照，長期範圍未完成。羽のゆりかご的季度fallback限制沿第37批記錄，未把未證實春季使用當作確證。
 
 ## 基線
 
@@ -84,7 +84,7 @@
 | 優先 | 工作 | 狀態與接點 |
 | --- | --- | --- |
 | 1 | 一次性最小格式與真實試行 | 2026-10-14 已完成，見下方 2026-summer-schema-pilot；後續直接沿用格式，不重新設計或搬移全量資料 |
-| 2 | 當前收集接點 | 第73批正式驗收完成；第74批依頂部公開ID接續2024春及後半／特殊用途 |
+| 2 | 當前收集接點 | 第74批本機與展示驗證完成、正常發布待完成；第75批依頂部公開ID接續2024春 |
 | 3 | 2025–2020基本資料 | 標準TV按年份／季度倒序補作品聯集與歌曲輪替；短篇／WEB延後，詳細深化待後續指令 |
 | 4 | 較早年度 | 2019 → 2007保留長期待辦；2020–2026基本階段未完成前不擴張 |
 | 5 | 詳細資料 | 已完成的創作、影片、音源、發行品及平台資料保留；未解觸發條件沿用，集中深化延後 |
@@ -5984,10 +5984,69 @@ GitHub open Dependabot警示增至24項，新增[source-map-js advisory](https:/
 - 正式站Chromium393×852驗7頁29組狀態、9組季度歌單、6組用途篩選、8組新舊名搜尋、7組原TV、3筆待核及5筆舊影片定位，無溢出、app errors或未同意iframe。in-app665像素核9組狀態／1筆展開、空の箱IN用途與角色CV、具體續查、原來源日期及舊video-ed／目前video-in定位，收合／展開通過；兩種實際截圖均已檢視。
 - 本機已驗證全2,052部的1,838個舊影片定位保留、無重複；正式站本批5筆舊定位亦實際通過。annotated tag `batch73-basics`指向正式來源並已推送。第74批春10部30筆接續，50筆完全季度待核、6筆近期具體跨季缺口、ATRI後段日期與每曲詳細條件保留；作品聯集及2020–2026基本階段仍未完成。
 
-## 2020-2026-tv-basics-74（執行中）
+## 2020-2026-tv-basics-74（本機驗證完成，正式發布待完成）
 
-- 2026-10-20登記；固定2020–2026標準TV基本階段、2007–2026長期範圍及2026-10-14截止日維持。
-- 2024春10部30筆既有用途：`curated-164440`、`curated-170503`、`curated-109731`、`curated-146867`、`curated-158417`、`curated-158898`、`curated-160589`、`curated-163078`、`curated-164702`、`curated-166910`。オーイとんぼ、烏は主を選ばない、響けユーフォニアム3、となりの妖怪さん、戦隊大失格、夜桜さんち、ブルーアーカイブ、夜のクラゲ、鑑定スキル及ファブル；後半季度與特殊用途同時核對，原期與後期／角色名義依第一方本曲資料分開。
-- 先核原名、演唱名義、原期TV與第一方／交叉用途，同頁明列創作一併保存；短篇／WEB及詳細深化延後。50筆完全季度待核、6筆近期具體跨季缺口、ATRI後段日期與其他每曲續查條件保留；不以現有夏季剩餘短篇數宣稱季度作品聯集閉合。
-- 第73批凍結來源及產物已完成正常PR／main、實際部署與正式站驗收，來源`9507107`／`batch73-basics`。本批來源整理獨立，開始接續資料寫入與驗證；每筆dataStatus及具體續查條件隨資料保存。
-- 第73批正式驗收後接續資料及展示驗證、分類提交、正常PR／main、實際Cloudflare部署及正式站驗收，再接後批；作品聯集、基本階段及整體目標未完成，沒有背景排程。
+- 固定2020–2026標準TV基本階段、2007–2026長期範圍及2026-10-14截止日維持；實際查閱2026-10-20。2024春10部30筆既有用途，25筆原名、演唱名義及用途有第一方／交叉欄位證據，5筆特殊ED保留第一方用途缺口；每筆dataStatus、缺項與具體followUp均可在公開JSON及動畫頁讀取。
+
+### 公開用途與實際差異
+
+| 公開theme ID | 原名／演唱名義 | 用途 | 已確認季度 |
+| --- | --- | --- | --- |
+| `ooi-tonbo-op-1` | 羽ばたけ／Sacra e sole | OP1 | 2024-spring |
+| `ooi-tonbo-ed-1` | Let’s Swing／TOKYO GROOVE JYOSHI featuring 大井とんぼ（CV：はやしりか） | ED1 | 2024-spring |
+| `karasu-wa-aruji-wo-erabanai-op-1` | poi／Saucy Dog | OP1 | 2024-spring, 2024-summer |
+| `karasu-wa-aruji-wo-erabanai-ed-1` | とこしえ／志方あきこ | ED1 | 2024-spring, 2024-summer |
+| `hibike-euphonium-3-op-1` | ディスコ・キッド／北宇治高校吹奏楽部 | OP1 | 2024-spring |
+| `hibike-euphonium-3-op-2` | ReCoda／TRUE | OP2 | 2024-spring |
+| `hibike-euphonium-3-ed-1` | 音色の彼方／北宇治カルテット | ED1 | 2024-spring |
+| `hibike-euphonium-3-ed-2` | 愛の挨拶／北宇治高校吹奏樂部 | ED2 | 待核；全目錄及原動畫頁保留 |
+| `hibike-euphonium-3-ed-3` | 響け！ユーフォニアム e D.C. al fine／北宇治高校吹奏楽部 | ED3 | 待核；全目錄及原動畫頁保留 |
+| `tonari-no-youkai-san-op-1` | お化けひまわり／Pii | OP1 | 2024-spring |
+| `tonari-no-youkai-san-ed-1` | イロノナカ／久保あおい | ED1 | 2024-spring |
+| `sentai-daishikkaku-op-1` | 次回予告／キタニタツヤ | OP1 | 2024-spring |
+| `sentai-daishikkaku-ed-1` | 正解はいらない／ナナヲアカリ | ED1 | 2024-spring |
+| `yozakura-san-chi-no-daisakusen-op-1` | 運命ちゃん／いきものがかり | OP1 | 2024-spring |
+| `yozakura-san-chi-no-daisakusen-op-2` | Secret Operation／fripSide feat. Yoshino Nanjo | OP2 | 2024-summer |
+| `yozakura-san-chi-no-daisakusen-ed-1` | fam!／CHiCO | ED1 | 2024-spring |
+| `yozakura-san-chi-no-daisakusen-ed-2` | 結婚行進曲／ASOBI同盟 | ED2 | 2024-summer |
+| `blue-archive-the-animation-op-1` | 青春のアーカイブ／アビドス高等学校対策委員会 | OP1 | 2024-spring |
+| `blue-archive-the-animation-ed-1` | 真昼の空の月／アビドス高等学校対策委員会 | ED1 | 2024-spring |
+| `yoru-no-kurage-wa-oyogenai-op-1` | イロドリ／カノエラナ | OP1 | 2024-spring |
+| `yoru-no-kurage-wa-oyogenai-ed-1` | 1日は25時間。／ツルシマアンナ | ED1 | 2024-spring |
+| `yoru-no-kurage-wa-oyogenai-ed-2` | 最強ガール／JELEE | ED2 | 待核；全目錄及原動畫頁保留 |
+| `yoru-no-kurage-wa-oyogenai-ed-3` | 月の温度／JELEE | ED3 | 待核；全目錄及原動畫頁保留 |
+| `yoru-no-kurage-wa-oyogenai-ed-4` | 渋谷アクアリウム／JELEE | ED4 | 待核；全目錄及原動畫頁保留 |
+| `tensei-kizoku-kantei-skill-de-nariagaru-op-1` | ブルーデイズ／TRUE | OP1 | 2024-spring |
+| `tensei-kizoku-kantei-skill-de-nariagaru-ed-1` | Finally／リシア・プレイド（CV：花澤香菜） | ED1 | 2024-spring |
+| `the-fable-op-1` | Professionalism feat. 般若／ALI | OP1 | 2024-spring |
+| `the-fable-op-2` | スイッチ／梅田サイファー | OP2 | 2024-summer |
+| `the-fable-ed-1` | Odd Numbers／梅田サイファー | ED1 | 2024-spring |
+| `the-fable-ed-2` | BEYOND feat. MaRI／ALI | ED2 | 2024-summer |
+
+- 公開anime ID：`curated-164440`、`curated-170503`、`curated-109731`、`curated-146867`、`curated-158417`、`curated-158898`、`curated-160589`、`curated-163078`、`curated-164702`、`curated-166910`。新增動畫、用途、歌曲、影片外連、結構化音源及發行品均0；30個原用途ID／序號／類型、歌曲ID及URL保留。更正23個原名、20個演唱名義，同頁補52筆詞／曲／編角色及31筆演唱條目；條目不等於唯一人數。
+- 烏的兩首延續夏季，夜櫻與ファブル後半各兩首改掛夏季；三個既有TV系列補入既有夏季registry。夜櫻前半7月交界及後半10月終回保留4筆逐曲續查。原TV深夜節目日轉曆日，現行續期、2025再播、劇場版及串流分開。
+- 既有YouTube影片ID、標題、頻道、官方狀態、分類、連結、發行日期、錄音與發行品關係全保留；未重查來源物件及日期保留。只有となりの妖怪さん兩筆既有官網來源實際重新查閱更新；鑑定貴族NC標題及藍檔OP／ED用途證據沿用原2026-08-30日期。日期頁不單獨當歌曲或用途證據。
+- 其餘2,042部動畫JSON逐檔SHA-256相同；全2,052部、4,642筆用途（4,517 OP／ED、115 IN、10 TS）均有dataStatus，993筆基本欄位證據、3,649筆來源待細分。累計處理1,713唯一用途。春季146 OP／ED已核85、詳細核心0／缺口85，另12 IN；夏季187 OP／ED已核156、詳細核心0／缺口156，另10 IN。分母變化來自已核季度與5筆暫不分季，沒有刪除歌曲。
+
+### 來源、缺口與續查條件
+
+- とんぼ：[Music](https://tonbo-anime.com/music/)一次核第1期羽ばたけ／Sacra e sole（川人雅代詞、オバタコウイチ曲、小西貴雄編）、Let’s Swing／TOKYO GROOVE JYOSHI featuring 大井とんぼ（CV：はやしりか）（Dragonfly詞、柴田敏孝曲編）。[ONAIR](https://tonbo-anime.com/onair/)明4月6日10:00原期；第2期常規ED勝ちたくなっちゃったね已於第65批確認，直接沿用，原舊曲重用待核ID不重複新增。
+- 烏：[官方Staff/Cast](https://www.nhk-character.com/karasu/staffcast/)核poi／Saucy Dog及とこしえ／志方あきこ；[ステラnet](https://www.steranet.jp/articles/-/3014)原期介紹交叉4月6日23:45，[原夏季節目表](https://thetv.jp/program/selection/444/)明兩曲延續。未以樂團一般簡介填逐曲詞曲編，原期官網來源日期保留。
+- 響け3：從現行網站實際連結取得[原TV保存頁](https://tv3rd.anime-eupho.com/)，原4月7日17:00與再播／劇場版分開。[OP](https://tv3rd.anime-eupho.com/music/op/)列ReCoda／TRUE、唐沢美帆詞、トミタカズキ及hisakuni曲、鈴木雅也／曽木琢磨／山本拓夫編；[ED](https://tv3rd.anime-eupho.com/music/ed/)列音色の彼方／北宇治カルテット、ZAQ詞曲、白戸佑輔編及四角色CV。[第一回公告](https://anime-eupho.com/news/?id=556)與[OST曲表](https://anime-eupho.com/news/?id=589)確認ディスコ・キッド特別OP及北宇治高校吹奏楽部，無推定歌唱。原ED2愛の挨拶有CD音源與綠輝／求版歧義，ED3 e D.C. al fine的原片尾用途未取得第一方證據；兩輪後保留原入口、季度暫空，等原話數片尾／正式逐話資料，2025活動不替代2024錄音。
+- 妖怪：[官方同頁](https://tonari-no-yokai-san.com/)核お化けひまわり／Pii及イロノナカ／久保あおい，ABC／テレビ朝日原4月6日深夜2時為曆日4月7日02:00；未逐曲明列詞曲編，詳細階段再用原發行表。
+- 戰隊：[原期OP公告](https://sh-anime.shochiku.co.jp/anime-sentai-daishikkaku/news/230/)核次回予告／キタニタツヤ及4月7日16:30；[原期ED公告](https://sh-anime.shochiku.co.jp/anime-sentai-daishikkaku/news/346/)核正解はいらない／ナナヲアカリ。現行2nd season Music沒有套入2024，詳細職位待原single逐曲名單。
+- 夜櫻：[前半Music](https://mission-yozakura-family.com/music/index.html)核運命ちゃん／いきものがかり（水野良樹詞、水野良樹／蔦谷好位置曲、KOHD／蔦谷好位置編）、fam!／CHiCO（aio詞曲、aio×hiroo編）；[後半Music](https://mission-yozakura-family.com/music/index02.html)核Secret Operation／fripSide feat. Yoshino Nanjo（Satoshi Yaginuma詞曲、Satoshi Yaginuma／Shinya Saito編）、結婚行進曲／ASOBI同盟（雨曇／田中輝詞、雨曇曲編）。[原ONAIR](https://mission-yozakura-family.com/onair/)明4月7日17:00，夏季節目表交叉後半兩曲；前半7月及後半10月交界待逐曲原片頭／片尾，不按專輯發行日分季。
+- 藍檔：[原主題歌single公告](https://sh-anime.shochiku.co.jp/bluearchive-anime/news/676/)同頁列青春のアーカイブ及真昼の空の月、アビドス高等学校対策委員会五角色CV；前者40mP詞曲編、後者RED詞曲編。[テレビ東京](https://www.tv-tokyo.co.jp/anime/bluearchive/)原首播公告4月7日23:45；用途由已核官方NC標題沿用，未刷新舊影片日期。full／TVsize／instrumental及曲表留詳細階段重用，不因不同版本新增歌曲。
+- 夜クラ：[OP](https://yorukura-anime.com/music/)明イロドリ／カノエラナ（同人詞曲、永井正道編）；[原ED](https://yorukura-anime.com/music/ed.html)明1日は25時間。／ツルシマアンナ、40mP詞曲編。[JELEE](https://yorukura-anime.com/music/jelee.html)、[原期新聞05](https://yorukura-anime.com/news/page05.html)及[新聞04](https://yorukura-anime.com/news/page04.html)明最強ガール第3話、月の温度第4話、渋谷アクアリウム第5話劇中歌及40mP詞曲編，後兩首明高橋李依歌唱；JELEE一般製作團隊沒有全當歌手。[交叉曲表](https://cal.syoboi.jp/tid/6980)列特殊ED，但第一方兩輪未明ED標記，原ED2／3／4保留原類型與ID、季度暫空，等待原片尾或官方ED說明；MV及mini album不單獨證明ED。[原ONAIR](https://yorukura-anime.com/onair/)4月6日25:00轉曆日4月7日01:00。
+- 鑑定貴族：已核官方NC標題明ブルーデイズ／TRUE及Finally／リシア・プレイド（CV：花澤香菜），沿用既有第一方連結與2026-08-30核對日；同一single的ReCoda作者未套ブルーデイズ。原期精確時段及詳細名單等待正式原期頁可讀。
+- ファブル：[2024保存頁前半Music](https://www.vap.co.jp/the-fable-anime/2024/music/?s1)明Professionalism feat. 般若／ALI、Odd Numbers／梅田サイファー；[後半Music](https://www.vap.co.jp/the-fable-anime/2024/music/?s2)明スイッチ／梅田サイファー、BEYOND feat. MaRI／ALI，保留官方feat.曲名，未將團體簡介當完整逐曲客演表。[原ONAIR](https://www.vap.co.jp/the-fable-anime/2024/onair/)4月6日24:55轉曆日4月7日00:55；後半短期調25:05不移原首播時段。[7月原報道](https://game.watch.impress.co.jp/docs/news/1606072.html)交叉後半OP；split single的Anime Size與收錄待詳細階段，沒有導入2027第2期。
+- 55筆完全季度待核、34筆非空季度use_quarters條件、10筆近期具體跨季缺口及ATRI兩首後段日期分開保留。只在明確的新第一方證據或詳細補充階段觸發續查，不輪流重搜所有舊資料。
+
+### 本機檢查與展示
+
+- npm test 4檔8項、build 2,098 HTML／4,194產物、ApiProvider 10部30筆、ID／媒體／來源保留性及全28季統計通過。每筆公開狀態及followUp與authoring映射一致，未為私有驗證增加public欄位。
+- Chromium393×852驗10頁30組狀態、14組季度歌單（含三部夏季各2筆及夜櫻秋0筆）、4組OP／ED篩選、6組原名／舊羅馬字搜尋、10組原TV資料及5筆待核深連結；五角色CV、逐曲詞曲編及原來源日期可見，無溢出、app errors或未同意iframe。
+- in-app665像素核藍檔2組狀態／1筆展開、五角色CV與40mP、具體待補／續查及舊2026-08-30用途來源，收合／展開通過；手機與in-app實際截圖已檢視。Browser plugin不可用，以專案Chromium驗明確手機尺寸。
+- 僅2024春資料、既有夏季registry及checkpoint變更；沒有新增季度、UI、contract、播放器、依賴或部署設定。本機依矩陣不重跑全套E2E，正常PR／main保留核心E2E；Cloudflare dry-run無bindings、文件連結、公開邊界245檔及diff收尾通過，本機驗證不等於部署。
+
+預覽入口：`/anime/blue-archive-the-animation/#theme-blue-archive-the-animation-op-1`、`/anime/hibike-euphonium-3/`、`/anime/yoru-no-kurage-wa-oyogenai/`、`/seasons/2024-spring/`及`/seasons/2024-summer/`。第75批春10部25筆接續，作品聯集、基本階段、詳細及長期目標仍未完成。
