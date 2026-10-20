@@ -12,16 +12,16 @@
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED，已確認插曲一併記錄；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2020–2026標準季度TV的動畫及歌曲基本資料優先，按2026 → 2020、各年秋 → 夏 → 春 → 冬補漏。先處理可快速核實的原名、季度／首播、演唱名義、OP／ED用途及來源；創作、影片、音源、發行品及平台集中深化留待下一階段。約24分鐘、常見12／24集，13／26集及同類續播納入；長篇以2020–2026的TV用曲季度盤點，不以作品首播年自動排除；短WEB、泡麵番、短篇TV及特殊番延後，既有成果保留 |
 | 完成條件 | 各季有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替；基本資料經公開JSON、頁面及必要檢查驗證，歌單與詳情保持易瀏覽；每筆用途保存現有欄位狀態、未記錄項目及已知續查條件，與完整收齊及來源日期分開。詳細欄位缺少不阻擋基本資料。作品聯集未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件 |
-| 執行狀態 | 基本資料階段持續執行；第67批2024夏10部22筆已完成資料、正常PR／main、實際Cloudflare部署及正式站驗收，來源`6bee626`／`batch67-basics`；20筆基本欄位證據，2筆特殊用途第一方缺口保留。第68批4部25筆既有用途開始整理；詳細及整體目標未完成，沒有背景排程 |
-| 接續位置 | 第68批2024夏4部25筆既有用途：`curated-171748`、`curated-162804`、`curated-165681`、`curated-168623`；SHY與アーリャ的逐話／角色曲先確認TV用途，並補Vanguard Divinez Season2及ダリヤ。38筆完全季度待核及各筆use_quarters條件保留，短篇／WEB與詳細深化延後 |
-| 發布提交 | 第67批[PR #159](https://github.com/kyeunga25/anisonary/pull/159)來源`6bee626`／`batch67-basics`已正式驗收；第68批範圍登記已分開提交，後續資料待整理與驗證 |
+| 執行狀態 | 基本資料階段持續執行；第68批2024夏4部26筆用途已完成本機資料及展示，26筆基本欄位證據，新增角色版插曲1筆；正式發布待完成。最後正式來源第67批`6bee626`／`batch67-basics`；詳細及整體目標未完成，沒有背景排程 |
+| 接續位置 | 第68批正常發布收尾後，第69批2024夏10部27筆既有用途：`curated-172416`、`curated-175868`、`curated-162896`、`curated-173295`、`curated-174576`、`curated-175977`、`curated-170891`、`curated-171031`、`curated-152137`、`curated-167144`；先核原名、名義、原期TV及逐話特殊用曲。38筆完全季度待核及各筆use_quarters條件保留，短篇／WEB與詳細深化延後 |
+| 發布提交 | 第67批[PR #159](https://github.com/kyeunga25/anisonary/pull/159)來源`6bee626`／`batch67-basics`已正式驗收；第68批本機資料及展示通過，待正常PR／main、實際Cloudflare部署及正式站驗收 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
 執行狀態使用「未開始／執行中／已暫停／已完成／已取消」；無法繼續時另記具體阻礙及仍未完成部分，不自動標記完成。長期目標與本次工作量分開，未指定本次工作量時先完成下一批。
 
 ## 季度進度 / Quarterly progress
 
-統計至第67批正式驗收；正式來源`6bee626`／`batch67-basics`。數量為現有快照的OP／ED用途，依公開theme ID與已確認用途季度計算；跨季用途可能重複，不能直接相加或當作唯一歌曲／音源數。
+統計至第68批本機驗證；最後正式來源第67批`6bee626`／`batch67-basics`，第68批正式發布待完成。數量為現有快照的OP／ED用途，依公開theme ID與已確認用途季度計算；跨季用途可能重複，不能直接相加或當作唯一歌曲／音源數。
 
 「基本欄位具備」表示現有歌曲原名、演唱名義、用途及第一方／交叉來源有值，動畫可識別且有季度與作品來源；這是現有資料的欄位盤點，不表示本批重查全部來源、作品清單已閉合或整季收齊。「已逐批核對」依下方各批公開ID明細，包含查找後保留續查條件的用途。
 
@@ -37,8 +37,8 @@
 | 2025 夏 | 210 | 210 | 195 | 163 | 32 |
 | 2025 春 | 148 | 148 | 127 | 46 | 81 |
 | 2025 冬 | 172 | 172 | 165 | 5 | 160 |
-| 2024 秋 | 175 | 175 | 163 | 1 | 162 |
-| 2024 夏 | 190 | 190 | 65 | 0 | 65 |
+| 2024 秋 | 177 | 177 | 165 | 1 | 164 |
+| 2024 夏 | 190 | 190 | 90 | 0 | 90 |
 | 2024 春 | 169 | 169 | 21 | 0 | 21 |
 | 2024 冬 | 138 | 138 | 14 | 0 | 14 |
 | 2023 秋 | 203 | 203 | 12 | 0 | 12 |
@@ -64,7 +64,7 @@
 
 2020–2026的28個季度均有快照，但各季尚未完成標準TV作品聯集，現有筆數不是閉合的全季分母。2026夏／春／冬既有清單首輪與第08–37批成果保留，沒有重查全量舊來源。2025夏尚有15筆、春21筆、冬7筆現有OP／ED未逐批核對，冬季7筆屬延後短篇；另38筆既有用途季度待核，保留全目錄及動畫頁並暫不計入季度；第65批すれちがい、arma及第2期Let's Swing，以及第67批ブラウス特殊ED及Weight of the World原ED2，保留第一方曲目／逐話用途缺口。シンカリオン兩筆歌曲已有2024確認季度、2025冬仍待逐曲證據；鑑定貴族第2期兩筆已有2024秋、首話9月29日的逐曲夏季用途待核，上述4筆及第66批【我推的孩子】第2期兩筆最終話秋季用途，共6筆近期具體跨季缺口，與完全未分季的38筆分開。全目錄另有已保存的use_quarters續查／媒體界線備註，本次沒有把它們一律當作已解除或只有上述6筆。2024–2020續播與其餘標準TV盤點持續，短篇／WEB及詳細欄位不阻擋基本階段。
 
-目前1,526個唯一用途已逐批處理，其中1,420 OP／ED、96 IN、10 TS；包含38筆用途季度待核狀態盤點，未把它們計入任一已確認季度，跨季不可相加。第38–66批新增226筆用途的基本欄位及身分／用途證據齊備；秋季詳細核心3／138主要來自既有用途季度補正，不表示其餘基本資料失敗。春季共7筆已證實第二季度／後期用途改掛秋季，另14筆第二季度改掛夏季；無自覺聖女兩筆補夏季並保留春末TV首播，唯一歌曲與未重查來源日期保留。2007–2018及2019春／冬仍無快照，長期範圍未完成。羽のゆりかご的季度fallback限制沿第37批記錄，未把未證實春季使用當作確證。
+目前1,552個唯一用途已逐批處理，其中1,445 OP／ED、97 IN、10 TS；包含38筆用途季度待核狀態盤點，未把它們計入任一已確認季度，跨季不可相加。第38–68批新增227筆用途的基本欄位及身分／用途證據齊備；秋季詳細核心3／138主要來自既有用途季度補正，不表示其餘基本資料失敗。春季共7筆已證實第二季度／後期用途改掛秋季，另14筆第二季度改掛夏季；無自覺聖女兩筆補夏季並保留春末TV首播，唯一歌曲與未重查來源日期保留。2007–2018及2019春／冬仍無快照，長期範圍未完成。羽のゆりかご的季度fallback限制沿第37批記錄，未把未證實春季使用當作確證。
 
 ## 基線
 
@@ -84,7 +84,7 @@
 | 優先 | 工作 | 狀態與接點 |
 | --- | --- | --- |
 | 1 | 一次性最小格式與真實試行 | 2026-10-14 已完成，見下方 2026-summer-schema-pilot；後續直接沿用格式，不重新設計或搬移全量資料 |
-| 2 | 當前收集接點 | 第66批依頂部公開ID接續2024秋續播與2024夏標準TV基本資料；第65批正式驗收已完成 |
+| 2 | 當前收集接點 | 第68批本機驗證完成、正式發布待完成；第69批依頂部公開ID接續2024夏標準TV基本資料，第67批正式驗收已完成 |
 | 3 | 2025–2020基本資料 | 標準TV按年份／季度倒序補作品聯集與歌曲輪替；短篇／WEB延後，詳細深化待後續指令 |
 | 4 | 較早年度 | 2019 → 2007保留長期待辦；2020–2026基本階段未完成前不擴張 |
 | 5 | 詳細資料 | 已完成的創作、影片、音源、發行品及平台資料保留；未解觸發條件沿用，集中深化延後 |
@@ -5544,9 +5544,64 @@ GitHub open Dependabot警示增至24項，新增[source-map-js advisory](https:/
 - 正式站Chromium393×852實驗10頁22組狀態、10組夏季歌單、舊名／新原名與角色搜尋、7組原TV時段、兩筆待核舊URL及七位角色名單；無溢出、app errors或影片iframe。in-app665像素核2組狀態／1筆展開、ノーギフテッド七位角色及詞曲編、ブラウス特殊ED基本與季度缺口，收合／展開通過；兩種實際截圖均已檢視。
 - annotated tag `batch67-basics`指向正式來源並已推送。第68批接續2024夏4部25筆；38筆完全季度待核、各筆use_quarters條件與詳細缺項保留，作品聯集及2020–2026基本階段仍未完成。
 
-## 2020-2026-tv-basics-68（執行中）
+## 2020-2026-tv-basics-68（本機驗證完成，正式發布待完成）
 
-- 2026-10-20登記；固定2020–2026標準TV基本階段、2007–2026長期範圍及2026-10-14資料截止日維持。
-- 2024夏4部25筆既有用途：`curated-171748`、`curated-162804`、`curated-165681`、`curated-168623`，SHY東京奪還編、アーリャ、Vanguard Divinez Season2及ダリヤ。先確認逐話／角色曲原名、實際演唱名義、原期TV及第一方／交叉用途；同頁明列創作可一併保存，短篇／WEB與詳細深化延後。
-- 第67批凍結來源及產物已完成正常PR／main、實際部署與正式站驗收，來源`6bee626`／`batch67-basics`。本批來源整理獨立，開始接續資料寫入與驗證；每筆dataStatus與具體續查條件隨資料保存。
-- 第67批正式驗收後接續資料及展示驗證，分類提交、正常PR／main、實際Cloudflare部署及live驗收，再接後批。38筆完全季度待核及各筆use_quarters條件維持；作品聯集、基本階段及整體目標未完成，沒有背景排程。
+- 固定2020–2026標準TV基本階段及2026-10-14截止日維持；實際查閱2026-10-20。2024夏4部25筆既有用途及1筆新增插曲，共26筆基本原名／名義／用途有第一方及交叉欄位證據。同頁明列的創作一併保存，詳細階段不阻擋基本資料。
+- 每筆dataStatus保存已記錄欄位、詳細缺項及具體續查條件；アーリャ4筆ED沿用有效官方影片來源與2026-08-30日期，沒有以整理日期代替實際核對日。最後正式來源第67批`6bee626`／`batch67-basics`，本批正式發布待完成；第69批範圍另行登記。
+
+### 公開用途與實際差異
+
+| 公開theme ID | 原名／名義 | 用途 | 已確認季度 |
+| --- | --- | --- | --- |
+| `shy-tokyo-dakkan-hen-op-1` | WILLSHINE／PassCode | OP1 | 2024-summer |
+| `shy-tokyo-dakkan-hen-ed-1` | そばにいるよ／シャイ／紅葉山テル（CV：下地紫野）＆小石川惟子（CV：東山奈央） | ED1 | 2024-summer |
+| `shy-tokyo-dakkan-hen-ed-2` | 月篝／天王寺曖（CV：小岩井ことり） | ED2 | 2024-summer |
+| `shy-tokyo-dakkan-hen-ed-3` | ボクらのLove & Peace／ミェンロン／リー＝ミンミン（CV：村瀬 歩） | ED3 | 2024-summer |
+| `shy-tokyo-dakkan-hen-ed-4` | ウリプカ／スピリッツ／ペペシャ・アンドレアノワ（CV：能登麻美子） | ED4 | 2024-summer |
+| `shy-tokyo-dakkan-hen-ed-5` | Angel In Black／レディ・ブラック／ピルツ・デュナン（CV：鈴代紗弓） | ED5 | 2024-summer |
+| `shy-tokyo-dakkan-hen-ed-6` | One Day A Boy／スターダスト／ディヴィー＝W＝ジョン（CV：三木眞一郎） | ED6 | 2024-summer |
+| `shy-tokyo-dakkan-hen-ed-7` | 月篝 ～満月 ver.～／天王寺曖（CV：小岩井ことり）＆ウツロ／天王寺昧（CV：上田 瞳） | ED7 | 2024-summer |
+| `shy-tokyo-dakkan-hen-in-1` | Shiny Girl (Shy Cover)／シャイ／紅葉山テル（CV：下地紫野） | IN1 | 2024-summer |
+| `tokidoki-bosotto-rossiya-go-de-dereru-tonari-no-alya-san-op-1` | 1番輝く星／アーリャ（CV：上坂すみれ） | OP1 | 2024-summer |
+| `tokidoki-bosotto-rossiya-go-de-dereru-tonari-no-alya-san-ed-1` | 学園天国／アーリャ（CV：上坂すみれ） | ED1 | 2024-summer |
+| `tokidoki-bosotto-rossiya-go-de-dereru-tonari-no-alya-san-ed-2` | 可愛くてごめん／アーリャ（CV：上坂すみれ） | ED2 | 2024-summer |
+| `tokidoki-bosotto-rossiya-go-de-dereru-tonari-no-alya-san-ed-3` | 想い出がいっぱい／アーリャ（CV：上坂すみれ） | ED3 | 2024-summer |
+| `tokidoki-bosotto-rossiya-go-de-dereru-tonari-no-alya-san-ed-4` | ハレ晴レユカイ／アーリャ（CV：上坂すみれ） | ED4 | 2024-summer |
+| `tokidoki-bosotto-rossiya-go-de-dereru-tonari-no-alya-san-ed-5` | 小さな恋のうた／アーリャ（CV：上坂すみれ） | ED5 | 2024-summer |
+| `tokidoki-bosotto-rossiya-go-de-dereru-tonari-no-alya-san-ed-6` | 秘密の言葉／アーリャ（CV：上坂すみれ）×花譜 | ED6 | 2024-summer |
+| `tokidoki-bosotto-rossiya-go-de-dereru-tonari-no-alya-san-ed-7` | ラブ・ストーリーは突然に／アーリャ（CV：上坂すみれ） | ED7 | 2024-summer |
+| `tokidoki-bosotto-rossiya-go-de-dereru-tonari-no-alya-san-ed-8` | CHE.R.RY／アーリャ（CV：上坂すみれ） | ED8 | 2024-summer |
+| `tokidoki-bosotto-rossiya-go-de-dereru-tonari-no-alya-san-ed-9` | ワールドイズマイン／アーリャ（CV：上坂すみれ） | ED9 | 2024-summer |
+| `tokidoki-bosotto-rossiya-go-de-dereru-tonari-no-alya-san-ed-10` | こいのうた／アーリャ（CV：上坂すみれ） | ED10 | 2024-summer |
+| `tokidoki-bosotto-rossiya-go-de-dereru-tonari-no-alya-san-ed-11` | 気まぐれロマンティック／アーリャ（CV：上坂すみれ） | ED11 | 2024-summer |
+| `tokidoki-bosotto-rossiya-go-de-dereru-tonari-no-alya-san-ed-12` | ハナモヨイ／アーリャ（CV：上坂すみれ） | ED12 | 2024-summer |
+| `cardfight-vanguard-divinez-season-2-op-1` | 宿命／すとぷり | OP1 | 2024-summer, 2024-fall |
+| `cardfight-vanguard-divinez-season-2-ed-1` | 端程山／MyGO!!!!! | ED1 | 2024-summer, 2024-fall |
+| `madougushi-dahlia-wa-utsumukanai-op-1` | ちいさな蕾／岬 なこ | OP1 | 2024-summer |
+| `madougushi-dahlia-wa-utsumukanai-ed-1` | Glitter／堀内まり菜 | ED1 | 2024-summer |
+
+- 公開anime ID：`curated-171748`、`curated-162804`、`curated-165681`、`curated-168623`。新增動畫0、用途1；新增Shiny Girl角色cover連回既有原曲，沒有另計新創作。第1期`curated-155389`僅補原曲識別關聯`shy-op-1-song`一處，不計為本批重新核對第1期用途。更正20個原名、23個名義，補67筆詞／曲／編角色及27筆歌唱條目，角色數不等於唯一作者數。
+- SHY月篝及満月ver.共用歌曲識別，保留兩個既有用途、不同歌唱名義與已證實版本標籤。25筆既有ID、類型、序號、影片、錄音／發行關係、日期及平台連結保留；官方影片外連、影片metadata、結構化錄音及發行品新增均0。2,047個其他動畫JSON逐檔SHA-256相同，另第1期SHY精確驗證僅一處歌曲識別新增。既有來源物件與日期更新0，不將新讀取的頁面套到全部來源。
+- SHY東京奪還編原TV7月1日24時（曆2日），官方9月10日公告第23話9月16日、第24話9月23日24:10；9月24日OST不當秋季TV。MUSIC同頁明列WILLSHINE／PassCode、7種ED名義與詞曲編，OST LZC-2823第29曲明列Shiny Girl (Shy Cover)插曲及下地紫野歌唱、Misaki詞曲、小山 寿編曲；原唱MindaRyn與角色版分開。一般PassCode成員表不當逐曲全員歌唱；OST的TV Size／Anime Size及其他曲目沒有直接生成新用途／錄音。
+- アーリャ第1期OP恢復1番輝く星／アーリャ（CV：上坂すみれ），詞曲編白戸佑輔；8首ED依官方原頁保存原名及明列創作，秘密の言葉明列花譜與アーリャ雙人歌唱。原頁ED曲表只有前8首，後4首ワールドイズマイン、こいのうた、気まぐれロマンティック、ハナモヨイ沿用已審核官方影片與2026-08-30日期，詞曲編留待深化，未從翻唱原唱推編曲。原第1期ONAIR明列7月3日23:30，不套第2期公告年份或時段。
+- Vanguard Divinez Season2官方原期MUSIC核宿命／すとぷり（曲Tom-H@ck、編RINZO）、端程山／MyGO!!!!!（詞藤原優樹、曲編トミタカズキ），一般團員名單未當本曲歌唱表。原期TV7月6日08時；Bushiroad原公告文字明9月28日第11話，KADOKAWA節目表明10月5日第12話、10月12日最終話，原期兩曲保存夏／秋用途；PDF未成功顯示的圖像日期沒有當作已讀證據。節目表僅作播出交叉，不作歌曲原名或名義證據。
+- Vanguard OP作詞有第一方異文：原MUSIC列koshi、原STAFF列Tom-H@ck，作詞保持未確認，公開followUp列明兩頁及續查條件；不因同頁可取到曲編而猜選作詞。
+- ダリヤ兩頁一次核ちいさな蕾／岬 なこ（詞PA-NON、曲山田智和、編渡辺拓也）、Glitter／堀内まり菜（詞つむぎしゃち、曲編夢見クジラ）。原TV7月6日21時AT-X；10月1日Netflix追加串流不延伸秋季TV，CD另曲不當已用插曲。
+- 全目錄2,052部、4,637用途（4,530 OP／ED、97 IN、10 TS）全部有dataStatus；849筆三項基本欄位有兩類欄位證據，其餘3,788筆來源待細分。已逐批處理1,552唯一用途；2024夏現有190 OP／ED、已核90、詳細核心0／缺口90，秋因Vanguard兩曲跨季為177 OP／ED、已核165、詳細核心1／缺口164。38筆完全季度待核、近期6筆具體跨季缺口與其他use_quarters條件分開保留；快照不表示標準TV作品聯集閉合。
+
+### 來源、未解缺口與續查條件
+
+- [SHY第2期MUSIC／OST](https://www.shy-anime.com/music/2nd/)／[原期ONAIR](https://www.shy-anime.com/onair/)／[第23／24話原TV公告](https://www.shy-anime.com/news/1290.html)／[本期歌曲用途交叉](https://anison.online/anime/4721)。詳細階段重用LZC-2823與LAMR-34034／4034補音源、版本、收錄及確切平台；Shy Cover不自動代表full／TV，原唱與角色錄音同一性不猜造。
+- [アーリャ第1期OP](https://roshidere.com/music/index.html)／[ED前8曲](https://roshidere.com/music/ed.html)／[第1期TV](https://roshidere.com/onair/index1.html)。後4曲有效官方影片沿用：[ED9](https://www.youtube.com/watch?v=HrHPgipTDAU)、[ED10](https://www.youtube.com/watch?v=tqdEDUyrJ1k)、[ED11](https://www.youtube.com/watch?v=-5HZqR6OfYI)、[ED12](https://www.youtube.com/watch?v=spO_gsp-uUs)，日期2026-08-30維持；待原期完整ED表、官方單曲／BD逐曲表或詳細階段取得明列職位再補。
+- [Vanguard原期MUSIC](https://anime.cf-vanguard.com/vgd/music/season-2/)／[原期STAFF](https://anime.cf-vanguard.com/vgd/staff-cast/season-2/)／[原期TV](https://anime.cf-vanguard.com/vgd/onair/season-2/)／[Bushiroad第11話公告文字](https://bushiroad.co.jp/media/f760c076e03630ba)／[原期逐話播出交叉](https://thetv.jp/program/0001048341/plot/)。宿命作詞兩頁異文已兩輪定向核對，待原single一致逐曲表、實際原始歌曲credit或官方更正再核，不輪流重搜歌詞站。
+- [ダリヤOP](https://dahliya-anime.com/music/op)／[ED](https://dahliya-anime.com/music/ed)／[原TV](https://dahliya-anime.com/onair/)。詳細階段重用兩首官方single與明列版本資料補收錄、曲序、完整／TV、影片形式及確切平台，沒有從MV、making或digital日期推錄音長度與TV季度。
+- 所有曲目尚未結構化的音源、收錄、官方影片形式及確切平台仍在dataStatus／followUp標記待補；既有metadata或外連不表示本批新增影片或所有版本齊備。一般藝人簡介不當逐曲職位，配樂總作者不充主題曲作者。
+
+### 本機檢查與展示
+
+- npm test 4檔8項、build 2,098 HTML／4,194產物、公開邊界245檔、ApiProvider 4部26筆、25筆既有ID／媒體、同曲版本／角色cover關聯、第1期精確單處識別變更與2,047個其他動畫JSON保留性通過；季度計數及來源日期一致。
+- Chromium393×852驗4頁26組狀態、7組夏／秋歌單、6組新原名／舊羅馬字搜尋、4組原TV時段、後4曲舊核對日期、作詞異文、満月兩位角色與新增插曲。初始詳情收合，無橫向溢出、app errors或未同意影片iframe。
+- in-app665像素實際收合／展開新增Shiny Girl角色版，9組狀態／1筆展開；角色、詞曲編、版本、原唱關聯、欄位狀態及續查條件可見，無iframe或溢出。手機及in-app實際截圖已檢視；Browser plugin不可用，以專案Chromium驗手機尺寸。
+- 僅2024夏主資料、2024秋跨季registry、2023秋原曲識別關聯及checkpoint變更；沒有新季度、UI、contract、播放器、依賴或部署設定變更，本機不重跑全套E2E，正常PR／main保留重要E2E。Cloudflare dry-run無bindings、文件連結、公開邊界245檔及diff收尾均通過；本機通過不等於已部署。
+
+預覽入口：`/anime/shy-tokyo-dakkan-hen/#theme-shy-tokyo-dakkan-hen-in-1`、`/anime/cardfight-vanguard-divinez-season-2/`、`/anime/tokidoki-bosotto-rossiya-go-de-dereru-tonari-no-alya-san/`、`/seasons/2024-summer/`及`/seasons/2024-fall/`。第69批接續頂部10部27筆；標準TV作品聯集、詳細及長期目標仍未完成。
