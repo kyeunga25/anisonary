@@ -16,6 +16,10 @@ export const themeDataFieldLabels: Record<PublicThemeDataField, string> = {
   platform_availability: "平台地區可用性"
 };
 
+const followUpPendingFields = new Set<PublicThemeDataField>([
+  "basic_evidence", "use_quarters", "lyrics", "composition", "arrangement"
+]);
+
 function youtubeId(url: string): string | undefined {
   const parsed = new URL(url);
   const id = parsed.hostname === "youtu.be" ? parsed.pathname.slice(1)
@@ -58,6 +62,11 @@ export function deriveThemeDataStatus(theme: PublicTheme, followUp?: PublicTheme
   const exactLinks = platformLinks.filter((link) => link.linkType === "direct_track" || link.linkType === "direct_album");
   if (!exactLinks.length) pending.add("platform_links");
   if (exactLinks.some((link) => !link.availability || link.availability === "unknown")) pending.add("platform_availability");
+
+  // Existing basic, usage or creator data can still have an explicit unresolved review.
+  for (const gap of followUp ?? []) {
+    for (const field of gap.fields) if (followUpPendingFields.has(field)) pending.add(field);
+  }
 
   return {
     basis: "stored_fields_and_evidence",

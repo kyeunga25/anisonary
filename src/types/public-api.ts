@@ -172,6 +172,8 @@ export interface PublicThemeDataStatus {
     releases: "not_recorded" | "recorded";
     platforms: "not_recorded" | "entry_links_only" | "exact_links_recorded";
   };
+  // Missing stored fields plus explicit basic, usage and creator reviews in followUp.
+  // Media, recording, release and platform gaps remain based on stored fields.
   pendingFields: PublicThemeDataField[];
   followUp?: PublicThemeFollowUp[];
 }
