@@ -166,6 +166,49 @@ it("preserves optional song relations and independent evidence dates while rejec
   }
 });
 
+it("indexes unresolved creator and quarter reviews without reopening recorded videos", async () => {
+  const anime = structuredClone(curatedAnimeDetails.find((detail) => detail.themes.some((theme) =>
+    theme.seasonIds?.length && theme.evidence && !theme.videos.length))!);
+  const theme = anime.themes.find((theme) => theme.seasonIds?.length && theme.evidence && !theme.videos.length)!;
+  theme.credits = [
+    { name: "Lyricist", role: "lyrics" },
+    { name: "Composer", role: "composition" },
+    { name: "Arranger", role: "arrangement" }
+  ];
+  theme.videos = [{
+    youtubeVideoId: "abcdefghijk", title: "Official opening", type: "creditless_op",
+    channelName: "Official channel", officialStatus: "official", embeddable: false,
+    embedAvailability: "unknown"
+  }];
+  anime.hasOfficialVideo = true;
+  const storedStatus = deriveThemeDataStatus(theme);
+  theme.dataStatus = deriveThemeDataStatus(theme, [{
+    fields: ["composition", "use_quarters", "official_video"],
+    note: "作曲署名字形及另一季度用曲仍待核；保留既有影片與續查記錄。",
+    resumeWhen: "官方逐曲資料釐清作曲署名及額外季度使用後補核。"
+  }]);
+  expect(storedStatus.pendingFields).not.toContain("composition");
+  expect(storedStatus.pendingFields).not.toContain("use_quarters");
+  expect(theme.dataStatus.pendingFields).toEqual(expect.arrayContaining(["composition", "use_quarters"]));
+  expect(theme.dataStatus.pendingFields).not.toContain("official_video");
+  expect(theme.dataStatus.details.credits).toBe("roles_recorded");
+  expect(theme.dataStatus.details.videos).toBe("recorded");
+  expect(theme.dataStatus.basic).toBe(storedStatus.basic);
+  expect(theme.dataStatus.basicVerifiedAt).toBe(storedStatus.basicVerifiedAt);
+
+  const fetchMock = vi.fn<typeof fetch>();
+  const provider = new ApiProvider("https://catalog.example/api/v1", { fetch: fetchMock });
+  fetchMock.mockImplementation(async () => publicJsonResponse(anime));
+  await expect(provider.getAnime(anime.slug)).resolves.toEqual(anime);
+  for (const field of ["composition", "use_quarters"] as const) {
+    const invalid = structuredClone(anime);
+    const invalidTheme = invalid.themes.find((item) => item.id === theme.id)!;
+    invalidTheme.dataStatus!.pendingFields = invalidTheme.dataStatus!.pendingFields.filter((item) => item !== field);
+    fetchMock.mockImplementation(async () => publicJsonResponse(invalid));
+    await expect(provider.getAnime(anime.slug)).rejects.toThrow("invalid anime payload");
+  }
+});
+
 it("keeps per-use data status compatible with legacy payloads and rejects inflated completeness", async () => {
   const anime = structuredClone(curatedAnimeDetails.find((detail) => detail.themes.some((theme) => theme.evidence))!);
   const fetchMock = vi.fn<typeof fetch>();
