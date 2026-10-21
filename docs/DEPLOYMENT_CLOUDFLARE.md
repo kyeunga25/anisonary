@@ -23,9 +23,11 @@ Workers Builds 是自動部署來源；repository 不另設第二套 production 
 - 正式網站只發布 build 後的靜態資產，沒有 application Worker script、D1、KV、R2、Queues 或 Analytics binding。
 - `/api/v1/*.json` 與 HTML 使用同一份 reviewed snapshot，在 build-time 產生並由 Static Assets 直接提供；沒有 runtime function invocation。
 - Wrangler observability、dependency instrumentation、metrics 與 error reporting 在 repository 設定中停用。
-- 搜尋在瀏覽器內完成，不使用 server endpoint、query parameter、cookie、analytics 或 persistent storage。
-- production build 產生 `/sw.js`；precache 只含無 query string 的公開同源頁面與資產，並排除測試 poster、404、私人 API response 及第三方媒體。
-- navigation 採 network-first；只有連線失敗才讀取已發布內容，Service Worker 不把使用者後續瀏覽或輸入寫入 runtime cache。
+- 搜尋運算在瀏覽器內完成，不依賴 runtime search endpoint；搜尋字詞不寫入 query parameter、cookie、analytics 或 persistent storage。公開索引檔案可獨立使用 HTTP cache。
+- 搜尋索引由 `/search-index/<sha256>.json` 靜態檔案交付，互動時才載入，每片最多 256 KiB，HTTP cache 使用一年 `immutable`；索引不進 Service Worker、API v1 或 sitemap。未載入的舊版分片若因版本更替無法取得，可重新開啟頁面取得新清單。
+- 搜尋 JSON 使用 v2 無損精簡格式，manifest 同時限制傳輸與還原大小。HTTP 壓縮使用標準 `Content-Encoding`，由伺服器與瀏覽器協商；本機 gzip 比較與正式環境實際流量分開記錄。
+- production build 產生 `/sw.js`；precache 只含無 query string 的斷線提示、`/_astro/` 共用資產、favicon 與 manifest，合計不超過 512 KiB。
+- navigation 採 network-first；只有連線失敗才顯示斷線提示，Service Worker 不把使用者後續瀏覽或輸入寫入 runtime cache，也不預載整站目錄。
 - `_astro` 指紋資產可長期快取；repository-owned `/assets` 使用較短快取和 stale revalidation；HTML 不設長期快取。
 - production build 會掃描最終 HTML，為可執行 inline script 與 inline style element 產生 SHA-256 Content Security Policy；inline event／style attributes 及未批准的 remote media origin 會令 build 失敗。
 - static API 使用 revalidation 與 `X-Robots-Tag: noindex`，不加入 sitemap、Service Worker precache 或 permissive CORS。
@@ -53,13 +55,11 @@ ANISONARY_REQUIRE_API_DATA=false
 ## Local verification／本機驗證
 
 ```bash
-npm run lint
-npm test
-npm run build
-npm run cf:check
-npm run test:e2e
-npm audit --audit-level=low
+npx playwright install chromium
+npm run verify:full
 ```
+
+`verify:full` 是本機與 CI 共用的完整 gate，包含原有單元、型別、CSP、Service Worker、公開檔案／產物、依賴稽核、Cloudflare dry-run 及核心瀏覽器流程，並檢查 [目錄統計](./CATALOG_STATS.md) 是否過期。正常網站 build 只有一份；來源、設定、環境或產物不吻合時不重用。日常資料批次使用 `verify:batch` 更新統計；正式部署仍需當次明確授權與固定版本驗收。
 
 本機 Workers preview：
 
@@ -93,12 +93,12 @@ npm run cf:deploy
 - GitHub `quality` check 通過；
 - 首頁、搜尋、所有已發布季度頁、至少一個動畫頁、About、Sources 與未知 route；
 - mobile viewport、keyboard focus、theme toggle 及無水平 overflow；
-- canonical、Open Graph、JSON-LD、`robots.txt` 與 `sitemap-index.xml`；
+- canonical、Open Graph、JSON-LD、年份／季度／動畫導覽的 `BreadcrumbList`、`robots.txt` 與 `sitemap-index.xml`；
 - `Content-Security-Policy`、`X-Frame-Options`、`X-Content-Type-Options`、`Referrer-Policy`、`Permissions-Policy`；
 - CSP 不包含 `unsafe-inline`、`unsafe-eval` 或 wildcard，並保持 `script-src-attr 'none'`、`style-src-attr 'none'`；
 - preview hostname 有 `X-Robots-Tag: noindex`；
-- `_astro` 與 `/assets` 使用預期 cache policy，HTML 不被長期固定；
-- `/manifest.webmanifest` 可讀取，`/sw.js` 使用 revalidation 與根 scope；離線搜尋不產生帶 query string 的 cache key；
+- `_astro`、`/assets` 與 `/search-index` 使用預期 cache policy，HTML 不被長期固定；搜尋索引有 `X-Robots-Tag: noindex`，清單與內容雜湊吻合；
+- `/manifest.webmanifest` 可讀取，`/sw.js` 使用 revalidation 與根 scope；只預載斷線提示和共用資產，總量不超過 512 KiB，更新時清除本產品舊版快取；
 - 搜尋結果沒有 remote poster request，搜尋字詞不離開瀏覽器；
 - YouTube 啟動前沒有 iframe 或 thumbnail request，啟動後使用 privacy-enhanced domain；
 - repository catalogue 顯示「已審閱動畫目錄」，不顯示 Mock Data notice；

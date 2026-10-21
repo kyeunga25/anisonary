@@ -78,23 +78,22 @@ Cloudflare 會為 Custom Domain 管理 DNS record 與 certificate。若只把 Wo
 
 ## 4. 本機品質與部署 dry-run
 
-先執行 deterministic gates：
+資料批次先執行：
 
 ```bash
-npm run lint
-npm test
-npm run build
-npm run cf:check
+npm run verify:batch
 ```
 
-完整 browser gate：
+正式部署前執行完整 gate；CI 使用同一個入口：
 
 ```bash
 npx playwright install chromium
-npm run test:e2e
+npm run verify:full
 ```
 
 `npm run cf:check` 只執行 Wrangler dry-run，不發布。預期結果是 Static Assets package 成功且沒有 application binding；`dist` 是唯一部署輸出。若 build 或 CSP generator 因未知 media origin、inline attribute、資料 contract 或來源 ledger 失敗，應先修正原因，不要繞過 gate。
+
+完整 gate 保留原有型別、單元、CSP、Service Worker、公開邊界、依賴稽核、Cloudflare 與瀏覽器檢查，並核對自動統計。來源、設定、環境與產物吻合時可重用已驗證 build；E2E 正常網站與最後驗收的是同一份 `dist`。
 
 ## 5. 由本機首次部署
 

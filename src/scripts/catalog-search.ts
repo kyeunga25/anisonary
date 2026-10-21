@@ -1,9 +1,9 @@
 import { getPlaylistRows, PLAYLIST_PAGE_SIZE, playlistRowHref, playlistSeasonLabel, type PlaylistOptions, type PlaylistRow } from "@/utils/song-playlist";
-import type { CatalogSearchIndex } from "@/utils/catalog-search-index";
+import { createCatalogIndexLoader } from "@/scripts/catalog-index-loader";
 import { themeTypeLabel } from "@/utils/theme";
 
 for (const root of document.querySelectorAll<HTMLElement>("[data-catalog-search]")) {
-  const indexElement = root.querySelector<HTMLScriptElement>("[data-search-index]");
+  const indexElement = root.querySelector<HTMLScriptElement>("[data-search-manifest]");
   const form = root.querySelector<HTMLFormElement>("[data-catalog-search-form]");
   const input = root.querySelector<HTMLInputElement>("[data-catalog-search-input]");
   const results = root.querySelector<HTMLOListElement>("#catalog-search-results");
@@ -24,15 +24,33 @@ for (const root of document.querySelectorAll<HTMLElement>("[data-catalog-search]
   const details = root.querySelector<HTMLDetailsElement>(".playlist-filters");
   const tabs = Array.from(root.querySelectorAll<HTMLAnchorElement>("[data-playlist-season]"));
   const seasonLink = root.querySelector<HTMLAnchorElement>("[data-playlist-season-link]");
+  const loadState = root.querySelector<HTMLElement>("[data-search-load-state]");
+  const loadMessage = root.querySelector<HTMLElement>("[data-search-load-message]");
+  const retry = root.querySelector<HTMLButtonElement>("[data-search-retry]");
+  const fallback = root.querySelector<HTMLAnchorElement>("[data-search-fallback]");
   if (!indexElement || !form || !input || !results || !sort) continue;
 
-  const index = JSON.parse(indexElement.textContent ?? "[]") as CatalogSearchIndex;
+  let loader: ReturnType<typeof createCatalogIndexLoader>;
+  try { loader = createCatalogIndexLoader(indexElement.textContent ?? ""); }
+  catch {
+    if (loadState) loadState.hidden = false;
+    if (loadMessage) loadMessage.textContent = "搜尋資料暫時無法使用，請按季度瀏覽。";
+    if (fallback) fallback.hidden = false;
+    continue;
+  }
+  const initialRows = Array.from(results.children);
+  const initialTotal = Number(root.dataset.initialTotal ?? initialRows.length);
+  const initialThemeCount = themeCount?.textContent ?? "0";
+  const initialAnimeCount = animeCount?.textContent ?? "0";
   const initialYear = root.dataset.initialYear ?? "";
   const initialQuarter = root.dataset.initialQuarter ?? "";
   let selectedYear = initialYear;
   let selectedQuarter = initialQuarter;
   let currentPage = 1;
   let matches: PlaylistRow[] = [];
+  let hasApplied = false;
+  let revision = 0;
+  let requestedPage = 1;
   let timer: ReturnType<typeof setTimeout> | undefined;
   const mobile = window.matchMedia("(max-width: 600px)");
   if (details) {
@@ -94,8 +112,37 @@ for (const root of document.querySelectorAll<HTMLElement>("[data-catalog-search]
       results.scrollIntoView({ block: "start" });
     }
   };
-  const applySearch = () => {
+  const setLoadState = (state: "ready" | "loading" | "error") => {
+    root.dataset.searchState = state;
+    results.setAttribute("aria-busy", String(state === "loading"));
+    if (loadState) loadState.hidden = state === "ready";
+    if (loadMessage) loadMessage.textContent = state === "loading" ? "正在載入搜尋資料…" : "搜尋資料暫時無法取得。已顯示的歌曲仍可開啟，亦可重試或按季度瀏覽。";
+    if (retry) retry.hidden = state !== "error";
+    if (fallback) fallback.hidden = state !== "error";
+    if (state === "loading") {
+      if (previous) previous.disabled = true;
+      if (next) next.disabled = true;
+    }
+  };
+  const restoreInitial = () => {
+    revision += 1;
+    hasApplied = false;
+    currentPage = 1;
+    results.replaceChildren(...initialRows.slice(0, PLAYLIST_PAGE_SIZE).map((row) => row.cloneNode(true)));
+    if (animeCount) animeCount.textContent = initialAnimeCount;
+    if (themeCount) themeCount.textContent = initialThemeCount;
+    if (empty) empty.hidden = initialTotal !== 0;
+    if (previous) previous.disabled = true;
+    if (next) next.disabled = initialTotal <= PLAYLIST_PAGE_SIZE;
+    if (pagination) pagination.hidden = initialTotal <= PLAYLIST_PAGE_SIZE;
+    if (pageStatus) pageStatus.textContent = `第 1／${Math.max(1, Math.ceil(initialTotal / PLAYLIST_PAGE_SIZE))} 頁 · 每頁 ${PLAYLIST_PAGE_SIZE} 列`;
+    if (clear) clear.disabled = true;
+    setLoadState("ready");
+  };
+  const applySearch = async (targetPage = 1, moveFocus = false) => {
     clearTimeout(timer);
+    const currentRevision = ++revision;
+    requestedPage = targetPage;
     const type = form.querySelector<HTMLInputElement>('input[name="type"]:checked')?.value ?? "all";
     const options: PlaylistOptions = {
       query: input.value, scope: (scope?.value ?? "all") as PlaylistOptions["scope"],
@@ -103,24 +150,39 @@ for (const root of document.querySelectorAll<HTMLElement>("[data-catalog-search]
       type: type as PlaylistOptions["type"], sort: sort.value as PlaylistOptions["sort"],
       weekday: weekday?.value ?? "", videoOnly: video?.checked ?? false, includeEmpty: root.dataset.playlistMode === "search"
     };
+    const initial = !options.query && options.year === initialYear && options.quarter === initialQuarter
+      && options.scope === "all" && options.type === "all" && !options.videoOnly && !options.weekday && options.sort === root.dataset.initialSort;
+    if (initial && targetPage === 1) { restoreInitial(); return; }
+    if (clear) clear.disabled = false;
+    setLoadState("loading");
+    let index;
+    try { index = await loader.load(options.year, options.quarter, options.query); }
+    catch {
+      if (currentRevision === revision) setLoadState("error");
+      return;
+    }
+    if (currentRevision !== revision) return;
     matches = getPlaylistRows(index, options);
-    currentPage = 1;
+    hasApplied = true;
+    currentPage = Math.min(targetPage, Math.max(1, Math.ceil(matches.length / PLAYLIST_PAGE_SIZE)));
     if (animeCount) animeCount.textContent = String(new Set(matches.map((row) => row.anime.slug)).size);
     if (themeCount) themeCount.textContent = String(matches.filter((row) => row.theme).length);
     if (empty) empty.hidden = matches.length !== 0;
     if (clear) clear.disabled = !input.value && options.year === initialYear && options.quarter === initialQuarter
       && options.scope === "all" && options.type === "all" && !options.videoOnly && !options.weekday && options.sort === root.dataset.initialSort;
-    renderPage();
+    renderPage(moveFocus);
+    setLoadState("ready");
   };
-  form.addEventListener("submit", (event) => { event.preventDefault(); applySearch(); });
+  form.addEventListener("submit", (event) => { event.preventDefault(); void applySearch(); });
   input.addEventListener("input", (event) => {
     clearTimeout(timer);
-    if (!(event as InputEvent).isComposing) timer = setTimeout(applySearch, 120);
+    revision += 1;
+    if (!(event as InputEvent).isComposing) timer = setTimeout(() => void applySearch(), 120);
   });
-  input.addEventListener("compositionend", () => { clearTimeout(timer); timer = setTimeout(applySearch, 120); });
-  [year, quarter, scope, sort, weekday, video, ...form.querySelectorAll<HTMLInputElement>('input[name="type"]')].forEach((control) => control?.addEventListener("change", applySearch));
+  input.addEventListener("compositionend", () => { clearTimeout(timer); timer = setTimeout(() => void applySearch(), 120); });
+  [year, quarter, scope, sort, weekday, video, ...form.querySelectorAll<HTMLInputElement>('input[name="type"]')].forEach((control) => control?.addEventListener("change", () => void applySearch()));
   input.addEventListener("keydown", (event) => {
-    if (event.key === "Escape" && input.value) { input.value = ""; applySearch(); }
+    if (event.key === "Escape" && input.value) { input.value = ""; void applySearch(); }
   });
   const selectSeason = (selected: HTMLAnchorElement | undefined) => {
     tabs.forEach((tab) => {
@@ -134,15 +196,19 @@ for (const root of document.querySelectorAll<HTMLElement>("[data-catalog-search]
     selectedYear = tab.dataset.year ?? "";
     selectedQuarter = tab.dataset.quarter ?? "";
     selectSeason(tab);
-    applySearch();
+    void applySearch();
   }));
   clear?.addEventListener("click", () => {
     form.reset(); selectedYear = initialYear; selectedQuarter = initialQuarter;
     selectSeason(tabs.find((tab) => tab.dataset.year === initialYear && tab.dataset.quarter === initialQuarter));
-    applySearch(); input.focus();
+    clearTimeout(timer); restoreInitial(); input.focus();
   });
-  previous?.addEventListener("click", () => { if (currentPage > 1) { currentPage -= 1; renderPage(true); } });
-  next?.addEventListener("click", () => { if (currentPage * PLAYLIST_PAGE_SIZE < matches.length) { currentPage += 1; renderPage(true); } });
-  applySearch();
+  previous?.addEventListener("click", () => { if (hasApplied && currentPage > 1) { currentPage -= 1; renderPage(true); } });
+  next?.addEventListener("click", () => {
+    if (!hasApplied) { void applySearch(2, true); }
+    else if (currentPage * PLAYLIST_PAGE_SIZE < matches.length) { currentPage += 1; renderPage(true); }
+  });
+  retry?.addEventListener("click", () => void applySearch(requestedPage));
+  restoreInitial();
   root.dataset.searchReady = "true";
 }

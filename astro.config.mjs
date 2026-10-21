@@ -11,6 +11,7 @@ export default defineConfig({
         return (
           !pathname.startsWith("/404") &&
           !pathname.startsWith("/api/") &&
+          !pathname.startsWith("/search-index/") &&
           !pathname.startsWith("/offline")
         );
       }

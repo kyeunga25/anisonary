@@ -3,8 +3,8 @@ import { readdir, readFile, writeFile } from "node:fs/promises";
 import { resolve, relative, sep } from "node:path";
 import { pathToFileURL } from "node:url";
 
-const excludedFiles = new Set(["404.html", "_headers", "sw.js"]);
-const excludedDirectories = new Set(["api"]);
+const precacheFiles = new Set(["offline/index.html", "favicon.svg", "manifest.webmanifest"]);
+const MAX_PRECACHE_BYTES = 512 * 1024;
 
 async function listFiles(directory) {
   const entries = await readdir(directory, { withFileTypes: true });
@@ -35,19 +35,23 @@ export async function collectPrecacheManifest(outputDirectory) {
   const root = resolve(outputDirectory);
   const files = await listFiles(root);
   const manifest = [];
+  let totalBytes = 0;
 
   for (const file of files) {
     const relativePath = relative(root, file);
-    const segments = relativePath.split(sep);
-    if (excludedFiles.has(relativePath) || excludedDirectories.has(segments[0])) continue;
+    const normalized = relativePath.split(sep).join("/");
+    if (!precacheFiles.has(normalized) && !normalized.startsWith("_astro/")) continue;
 
     const content = await readFile(file);
+    totalBytes += content.length;
+    if (totalBytes > MAX_PRECACHE_BYTES) throw new Error("Offline fallback exceeds the 512 KiB precache budget.");
     manifest.push({
       url: publicUrl(relativePath),
       revision: createHash("sha256").update(content).digest("hex").slice(0, 16)
     });
   }
 
+  if (!manifest.some(({ url }) => url === "/offline/")) throw new Error("The offline fallback page is missing.");
   return manifest.sort((left, right) => left.url.localeCompare(right.url));
 }
 
@@ -103,15 +107,16 @@ self.addEventListener("fetch", (event) => {
       try {
         return await fetchNavigation(request);
       } catch {
-        const cachedPage = await caches.match(url.pathname);
-        return cachedPage ?? await caches.match("/offline/") ?? Response.error();
+        const cache = await caches.open(CACHE_NAME);
+        return await cache.match("/offline/") ?? Response.error();
       }
     })());
     return;
   }
 
   event.respondWith((async () => {
-    const cachedAsset = await caches.match(request);
+    const cache = await caches.open(CACHE_NAME);
+    const cachedAsset = await cache.match(request);
     return cachedAsset ?? fetch(request);
   })());
 });

@@ -2,9 +2,9 @@
 
 Anisonary 是以 Astro + strict TypeScript 建立的動畫歌曲目錄，以緊湊列表同時展示歌曲、演唱者、動畫、OP／ED 與季度。網站輸出為純靜態資產，正式交付使用 **Cloudflare Workers Static Assets**；它不是 Cloudflare Pages，也沒有 application Worker backend。下方同時保留 English technical notes。
 
-This repository contains the completed static product: season directory, anime detail pages, traceable song credits and links, per-song source ledgers, source-attributed media, local-only cross-season search, privacy-bounded offline reading, a GitHub correction flow, and deployment through Cloudflare Workers Static Assets. The default catalogue covers twenty-eight reviewed snapshots across 2019–2026, with 1,917 unique titles, 4,244 known OP／ED uses, four confirmed insert-song uses and three general theme-song uses. The 2019 summer snapshot currently contains 38 TV titles and four web series; that quarter is still being expanded, and 2025 fall is not yet included.
+This repository contains the public online product: season directory, anime detail pages, traceable song credits and links, per-song source ledgers, source-attributed media, browser-based cross-season search, a lightweight connection fallback, a GitHub correction flow, and delivery through Cloudflare Workers Static Assets. Current catalogue counts and quarterly field inventory are generated in [Catalogue Statistics](docs/CATALOG_STATS.md). Reviewed collection progress and incomplete coverage remain in the [Collection Checkpoint](docs/CATALOG_COLLECTION_STATUS.md).
 
-最近標記版本：**v1.31.1**。目前工作內容以 Git commit 與收集 checkpoint 追蹤。歌曲詳情支援個別歌唱者、團隊、創作名單、音源版本、發行品及欄位證據；未知欄位留空，已核對內容逐批補入。2019 夏季仍在補充，2026 秋季及 2025 秋季尚未收錄。
+最近標記版本：**v1.31.1**。目前工作內容以 Git commit 與收集 checkpoint 追蹤。歌曲詳情支援個別歌唱者、團隊、創作名單、音源版本、發行品及欄位證據；未知欄位留空，已核對內容逐批補入。現行收錄數量只由 [自動統計](docs/CATALOG_STATS.md) 維護；季度快照不代表整季作品與歌曲已收齊。
 
 首頁、歌曲列表、季度頁與搜尋共用歌曲列，每頁最多 24 列。季度目錄直接提供各季入口；列表可按季度新舊、歌名、動畫或演唱者排序，也可篩選 OP／ED、劇中歌、主題歌與正版影片。點選歌曲列進入動畫的完整主題曲頁；跨季度搜尋可直接定位歌曲的製作名單與來源。搜尋完全在瀏覽器內進行，YouTube 只於明確操作後連線。網站與同源靜態 JSON API 共用已審閱資料，無 application backend 或 database binding。依賴安全 gate 繼續鎖定 `fast-uri` 3.1.8 並稽核開發依賴。
 
@@ -34,19 +34,26 @@ npm install
 npm run dev
 ```
 
-Quality checks:
+依變更種類選一個驗證入口；首次執行瀏覽器檢查前安裝 Chromium：
 
 ```bash
-npm run lint
-npm test
-npm run build
-npm run cf:check
 npx playwright install chromium
-npm run test:e2e
-npm run check
+npm run verify:batch
+npm run verify:full
 ```
 
-`npm test` 保留 4 項核心資料／建置測試：全目錄、歌曲列表與公開契約一致性、外部 API 拒絕不安全資料、必要資料缺失時停止建置，以及公開產物與 CSP 邊界。`npm run test:e2e` 保留 6 條流程：完整靜態 API、歌單到動畫全部歌曲與影片同意、季度排序與本機搜尋、手機／無 JavaScript 導覽與 404、離線閱讀，以及 API 錯誤狀態。季度與歌曲資料以來源契約和一致性檢查保護，不在測試重抄固定數量、核對日期或歌曲快照。`catalog:check` 可單獨執行目錄測試；完整 CI 已由 `npm test` 涵蓋，無需重跑。Browser 測試攔截第三方媒體，結果與失敗 trace 寫入暫存目錄。
+| 命令 | 用途 |
+| --- | --- |
+| `npm run verify:batch` | 日常資料批次：單元測試、具型別／CSP／Service Worker／產物檢查的 build、更新自動統計、公開邊界及 diff 檢查 |
+| `npm run verify:full` | 完整本機／CI gate：加上依賴稽核、統計過期檢查、Cloudflare dry-run 與 E2E；只檢查統計，不改寫文件 |
+| `npm run check` | `verify:full` 的相容入口 |
+| `npm run catalog:stats` | 從已驗證的 build 顯示統計與當次容量；`:update` 更新共用資料數字，`:check` 拒絕過期文件；環境相關容量不混入資料過期判定 |
+| `npm run test:e2e` | 單獨執行 E2E，先完整建置正常網站，再建立 API 錯誤情境 |
+| `npm run test:e2e:built` | E2E 重用來源、環境與全部產物雜湊相符的已驗證 `dist`；不符即停止 |
+
+驗證入口只在本機 Curated 模式且來源、設定、環境與產物全數吻合時自動重用 build。非空 `PUBLIC_API_BASE_URL` 或實際 `.env`／`.env.*` 檔內的同名賦值會要求重新建置；明確的 `.example` 模板除外，空白賦值亦保守重新建置。遠端同網址資料可能變更，因此外部 API 模式每次重新 build；同輪統計與明確的 `test:e2e:built` 仍可用收據驗證該份產物。`npm run build` 仍可明確要求重新建置。單元測試、稽核與瀏覽器測試不因此略過。CI 使用同一個 `verify:full` 命令；同次完整驗證只需一份正常網站 build，API 錯誤情境獨立、依序建置。建置核對收據只保存在不公開的 `.astro/`，不寫入 `dist` 或原始環境值。
+
+`npm test` 保護全目錄與公開契約一致性、外部 API 拒絕不安全資料、必要資料缺失時停止建置、公開產物與 CSP，以及統計／build 重用邊界。E2E 保留完整靜態 API、歌單到動畫全部歌曲與影片同意、季度排序與本機搜尋、手機／無 JavaScript／404、離線與 API 錯誤流程。測試不重抄逐歌快照；第三方媒體被攔截，結果與失敗 trace 寫入獨立暫存目錄，既有服務佔用測試 port 時會停止，避免驗到不同產物。
 
 The small suite protects catalogue integrity and critical user journeys. It uses reviewed records and deterministic media interception; third-party availability is outside the local gate. The optional API smoke command below verifies a selected HTTP deployment separately.
 
@@ -65,7 +72,7 @@ PUBLIC_API_BASE_URL=https://anisonary.k-y.cc/api/v1 npm run api:check
 - Tests use the reviewed catalogue and small inline failure inputs; no fictional catalogue provider is kept in application source.
 - Copy `.env.example` to `.env` for local configuration. Never commit secrets.
 
-Season coverage uses a repository-owned source registry: Annict is the Japanese seasonal inventory baseline, while Bangumi provides a Chinese-entry cross-check. The twenty-eight published snapshots additionally cross-check Traditional Chinese calendar inventories, AniList identifiers and media, AnimeThemes records, public theme-song indexes, official sites, and Taiwan／Hong Kong licensing pages. These are editorial inputs only; production builds use the reviewed static snapshot and never require external APIs at runtime. See `docs/DATA_SOURCES.md` for the inventory rules and `docs/DATA_PROVENANCE.md` for the per-song ledger and media boundary.
+Season coverage uses a repository-owned source registry: Annict is the Japanese seasonal inventory baseline, while Bangumi provides a Chinese-entry cross-check. Published snapshots additionally cross-check Traditional Chinese calendar inventories, AniList identifiers and media, AnimeThemes records, public theme-song indexes, official sites, and Taiwan／Hong Kong licensing pages. These are editorial inputs only; production builds use the reviewed static snapshot and never require external APIs at runtime. See `docs/DATA_SOURCES.md` for the inventory rules and `docs/DATA_PROVENANCE.md` for the per-song ledger and media boundary.
 
 ## Catalogue navigation and search
 
@@ -73,22 +80,39 @@ Season coverage uses a repository-owned source registry: Annict is the Japanese 
 - `/catalog/` groups years by decade and links directly to each published quarter; `/catalog/<year>/` remains a native year view;
 - year and quarter navigation is generated from the reviewed registry; cross-season works keep one detail page and every published season membership;
 - homepage, quarter, library and search share a bounded text-only index and up to 24 song rows per page; quarter pages also expose every song without JavaScript;
+- 首屏只包含歌曲列與分片清單，沒有互動便不請求搜尋資產。字詞搜尋先按需讀取最多 4 份共享路由表，再與年份／季度條件取交集，只下載可能命中的索引分片；完整結果仍由既有的 substring 搜尋判斷；
+- 路由表由所有動畫、歌曲及創作者搜尋文字的短字串派生，涵蓋單字、子字串、NFKC 別名及跨欄位組合。雜湊碰撞只會多載分片，不會排除真實結果；空字詞瀏覽及 OP／ED 等廣泛查詢仍可載入全部適用分片；
+- `/search-index/<sha256>.json` files use a lossless compact format: shared season records, positional fields and reconstructable text prefixes, with exact literal overrides for other text. Every build restores and compares the complete original records before publishing files;
+- compact index and routing files use immutable HTTP caching and are shared across pages. At most four routing buckets are needed per query. Four concurrent requests, exact byte checks and content hashes bound all asset loading; each file and restored index chunk retain the 256 KiB gate. Index plus routing JSON share the existing 8 MiB transmission ceiling; the complete restored index also retains its 8 MiB gate;
 - combine anime, song or creator scope with year, quarter, OP／ED and official-video filters; sort by quarter, song, anime or artist;
 - song rows open the anime page containing every theme; search rows can jump to the corresponding theme and its credits; cross-season songs appear once, showing the newest matching quarter;
 - the index is limited to 10,000 unique works, 20,000 seasonal references, and 8 MiB of serialized UTF-8 data. Larger catalogues require a reviewed indexing change; these are safety ceilings, not promised device capacity;
 - native year／quarter links remain usable without JavaScript;
-- filtering runs locally without query parameters, analytics, cookies, or a search API;
+- filtering runs in the browser without query parameters, analytics, cookies, or a runtime search API. Requests only retrieve reviewed public index files; successful files are reused, failures offer retry and quarter links, and stale searches cannot replace newer results;
 - the text-only result list does not load remote poster media;
 - YouTube connects only after the user activates a clearly labelled consent button;
 - Japanese and Traditional Chinese remain the primary visible languages, with English／Romaji support where available.
 
-## Offline catalogue／離線目錄
+## Online delivery and SEO／線上交付與搜尋引擎
 
-- production build 產生具內容版本的 `/sw.js`，只預先保存公開、同源、無 query string 的靜態內容；
-- navigation 維持 network-first，連線失敗時才讀取同一路徑快取或 `/offline/`；
-- 不建立 runtime cache entry，因此搜尋字詞、私人 response 與瀏覽路徑不會因操作而被寫入 Cache Storage；
-- `/api/`、404、第三方 poster 及 YouTube 媒體不在 precache 內；舊 Mock raster assets 已從 repository 移除；
+- 公開網站優先線上瀏覽與搜尋引擎收錄；作品與季度內容直接輸出為 HTML，canonical、sitemap 與結構化資料沿用穩定網址；
+- 年份、季度與動畫頁的可見導覽共用 `BreadcrumbList` 標記，不另外維護 SEO 導覽清單；
+- production build 產生具內容版本的 `/sw.js`，只預載 `/offline/`、`/_astro/` 共用資產、favicon 與 manifest，總量上限 512 KiB；
+- navigation 維持 network-first，連線失敗時顯示 `/offline/`，不預載或保存整站歌曲目錄；更新啟用時移除本產品舊版整站快取；
+- 不建立 runtime cache entry，因此搜尋字詞、API response、瀏覽路徑及第三方媒體不會因操作而被寫入離線快取；
 - `/manifest.webmanifest` 提供繁體中文 app metadata 與英文名稱支援。
+
+## Local backup／本機備份
+
+```bash
+npm run backup
+npm run backup:check -- <backup-file>
+npm run backup:restore -- <backup-file> <new-directory>
+```
+
+備份保存目前 Git 索引與未忽略的新檔案，包括未提交的已審閱資料、ID、來源連結、程式、文件與 lockfile；不保存 Git 歷史、環境 secrets、第三方原始回應、媒體副本或可重建的 `dist`。每個檔案保留 SHA-256，還原只寫入新建目錄，避免覆蓋現有工作。備份是 gzip 壓縮 JSON，存於被 Git 忽略的 `.private/backups/`，不隨網站或 repository 發布，也不自動清除舊份。
+
+還原後切換到新目錄，執行 `npm ci`、`git init`、`npm run verify:batch`，再按需要執行 `npm run verify:full`。這是專案來源備份；公開資料的重用範圍仍見 [授權](LICENSING.md) 與 [來源條款](docs/SOURCE_TERMS.md)。
 
 ## Environment
 
@@ -148,7 +172,7 @@ Production domain: <https://anisonary.k-y.cc>. Non-production Cloudflare hostnam
 1. 準備 Node.js 22、npm、Cloudflare account；custom domain 只在你擁有並已加入 Cloudflare 的 zone 上設定。
 2. 執行 `npm ci`，複製 `.env.example` 為不受 Git 追蹤的 `.env`，把 `PUBLIC_SITE_URL` 換成自己的最終公開 URL；正常靜態 build 保持 `PUBLIC_API_BASE_URL` 空白。
 3. 在 `wrangler.jsonc` 設定唯一 Worker `name`。只用 `workers.dev` 時移除專案原有 `routes`；使用 custom domain 時把 route 換成自己擁有的 hostname。同時更新 `public/robots.txt` 內的 sitemap hostname。
-4. 先執行 `npm run lint`、`npm test`、`npm run build`、`npm run cf:check`；需要完整 browser gate 時再安裝 Chromium 並執行 `npm run test:e2e`。
+4. 資料批次使用 `npm run verify:batch`；正式發布前安裝 Chromium，執行 `npm run verify:full`。所有型別、資料、公開邊界、產物、依賴、Cloudflare 及瀏覽器 gate 均保留。
 5. 以 `npx wrangler login` 登入，私下確認 `npx wrangler whoami` 的 account 正確，再執行 `npm run cf:deploy`。不要把登入輸出、API token 或 account metadata 貼到 issue、commit 或公開 log。
 6. 部署後核對首頁、搜尋、季度頁、動畫詳情、未知 `404`、security headers 與 `/api/v1/seasons.json`；最後以自己的 URL 執行 live API contract gate。
 

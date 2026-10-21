@@ -3,8 +3,8 @@ import BaseLayout from "@/layouts/BaseLayout.astro";
 ---
 
 <BaseLayout
-  title="離線閱讀｜Offline"
-  description="網絡中斷時，繼續閱讀已儲存的 Anisonary 公開目錄。"
+  title="連線中斷｜Offline"
+  description="請檢查網絡連線，再重新開啟 Anisonary 公開目錄。"
   noIndex
 >
   <section class="offline-state page-shell" aria-labelledby="offline-title">
@@ -18,13 +18,13 @@ import BaseLayout from "@/layouts/BaseLayout.astro";
     </div>
     <div class="offline-state__copy">
       <h1 id="offline-title">目前沒有網絡連線。</h1>
-      <p>你仍可閱讀這部裝置已儲存的公開動畫與主題曲頁面。重新連線後，網站會優先取得最新內容。</p>
-      <p lang="en">You are offline. Previously stored public catalogue pages remain available, and fresh content is preferred when the connection returns.</p>
+      <p>請檢查網絡連線，再重新開啟頁面。網站會在瀏覽時載入最新內容，不會預先下載整份動畫與歌曲目錄。</p>
+      <p lang="en">Check your connection and reopen the page. Catalogue pages load online when you visit them.</p>
       <div class="offline-state__actions">
         <a class="button button--primary" href="/">返回首頁</a>
-        <a class="button button--outline" href="/search/">開啟離線搜尋</a>
+        <a class="button button--outline" href="/search/">重新開啟搜尋</a>
       </div>
-      <p class="offline-state__privacy">只保存公開同源內容，不保存搜尋字詞、私人 API response 或第三方媒體。</p>
+      <p class="offline-state__privacy">只預載這個提示頁及共用靜態資產，不保存搜尋字詞、瀏覽路徑、API response 或第三方媒體。</p>
     </div>
   </section>
 </BaseLayout>

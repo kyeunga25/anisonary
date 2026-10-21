@@ -5,7 +5,10 @@ import BaseLayout from "@/layouts/BaseLayout.astro";
 import { getDataProvider, shouldRequireApiData } from "@/data/provider";
 import { loadCatalogSearchData } from "@/data/page-data";
 import { buildCatalogSearchIndex } from "@/utils/catalog-search-index";
+import { buildCatalogSearchAssets } from "@/data/catalog-search-assets";
 const data = await loadCatalogSearchData(getDataProvider(), shouldRequireApiData());
+const index = buildCatalogSearchIndex(data.entries);
+const { manifest } = buildCatalogSearchAssets(index);
 ---
 <BaseLayout title="跨季度搜尋｜Catalogue Search" description="搜尋動畫、OP／ED、歌手與創作者，按年份、季度及歌曲用途篩選。搜尋字詞只留在瀏覽器。">
   <div class="browse-page page-shell">
@@ -13,6 +16,6 @@ const data = await loadCatalogSearchData(getDataProvider(), shouldRequireApiData
       <div><h1>跨季度搜尋</h1><p>搜尋動畫、歌曲與創作者；在同一份列表查看歌曲與出處。<span lang="en"> Anime · Songs · Creators.</span></p></div>
       <a class="text-link" href="/catalog/">按季度瀏覽 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7" /></svg></a>
     </header>
-    {data.status === "error" ? <ErrorState message="搜尋目錄暫時無法取得。其他公開頁面仍可正常瀏覽。" /> : <SongPlaylist index={buildCatalogSearchIndex(data.entries)} mode="search" />}
+    {data.status === "error" ? <ErrorState message="搜尋目錄暫時無法取得。其他公開頁面仍可正常瀏覽。" /> : <SongPlaylist index={index} manifest={manifest} mode="search" />}
   </div>
 </BaseLayout>

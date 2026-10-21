@@ -3,11 +3,12 @@ interface Props { items: Array<{ label: string; href?: string }>; }
 const { items } = Astro.props;
 ---
 <nav class="breadcrumbs" aria-label="所在位置">
-  <ol>
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
     {items.map((item, index) => (
-      <li>
+      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
         {index > 0 && <span aria-hidden="true">/</span>}
-        {item.href ? <a href={item.href}>{item.label}</a> : <span aria-current="page">{item.label}</span>}
+        {item.href ? <a itemprop="item" href={item.href}><span itemprop="name">{item.label}</span></a> : <span itemprop="name" aria-current="page">{item.label}</span>}
+        <meta itemprop="position" content={String(index + 1)} />
       </li>
     ))}
   </ol>

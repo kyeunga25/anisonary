@@ -5,6 +5,7 @@ import SongPlaylist from "@/components/playlist/SongPlaylist.astro";
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import { getDataProvider, shouldRequireApiData } from "@/data/provider";
 import { loadCatalogSearchData } from "@/data/page-data";
+import { buildCatalogSearchAssets } from "@/data/catalog-search-assets";
 import { buildCatalogSearchIndex } from "@/utils/catalog-search-index";
 import { compareSeasonsNewestFirst } from "@/utils/season";
 import { buildWebsiteJsonLd } from "@/utils/seo";
@@ -17,6 +18,7 @@ const quickSeasons = [...new Map([current, ...seasons.slice(0, 3)]
   .sort(compareSeasonsNewestFirst);
 const entries = data.entries.filter((entry) => entry.seasons.some((season) => quickSeasons.some((quick) => quick.id === season.id)));
 const index = buildCatalogSearchIndex(entries);
+const { manifest } = buildCatalogSearchAssets(buildCatalogSearchIndex(data.entries));
 const site = Astro.site ?? new URL("https://anisonary.k-y.cc");
 ---
 <BaseLayout description="歌曲、演唱者與動畫，一行看清。按季度瀏覽 OP／ED，點選歌曲查看動畫的完整主題曲與官方來源。" jsonLd={buildWebsiteJsonLd(site)}>
@@ -27,7 +29,7 @@ const site = Astro.site ?? new URL("https://anisonary.k-y.cc");
     </header>
     {data.status === "error" ? <ErrorState message="季度與動畫資料暫時無法取得。網站其他說明頁仍可正常瀏覽，請稍後重新載入。" /> : <>
       {entries.some((entry) => entry.isMockData) && <MockNotice compact />}
-      <SongPlaylist index={index} mode="home" initialSeason={current} quickSeasons={quickSeasons} initialSort="anime" />
+      <SongPlaylist index={index} manifest={manifest} mode="home" initialSeason={current} quickSeasons={quickSeasons} initialSort="anime" />
       <div class="browse-footer-links"><a href="/catalog/">按年份與季度瀏覽</a><a href="/search/">搜尋動畫、歌曲與創作者</a></div>
     </>}
   </div>
