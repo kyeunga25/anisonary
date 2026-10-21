@@ -2,19 +2,25 @@
 
 本文件記錄 repository source 的產品範圍與可驗證狀態；正式發布以對應 Release 的驗收證據為準。產品以緊湊歌曲列表為入口，按季度整理 OP／ED，再由動畫頁展示全部歌曲與官方來源；不託管音訊、影片或完整歌詞。
 
+交付目標是公開線上網站，優先處理線上速度、搜尋引擎收錄與可持續更新；瀏覽器搜尋沿用公開靜態索引，離線功能只保留小型斷線提示。已審閱來源、ID 及網址另以可驗證的本機專案備份保存。
+
+搜尋索引獨立於 HTML，以內容雜湊網址共用 HTTP cache；操作時按年份／季度分片載入，每片最多 256 KiB，完整索引仍受 8 MiB 上限約束。無字詞的全域瀏覽需要所有分片；字詞搜尋先依路由表載入可能命中的分片。資料繼續增長時仍按實測容量評估索引及查詢方式，不把分片視為無限容量。
+
+首次全域載入使用無損精簡 JSON，減少重複季度、欄位名稱及搜尋文字前綴；每次 build 還原後必須與完整原索引一致。傳輸與還原大小分別保留同一上限，首次下載量另以相同 gzip 設定試算；線上實際壓縮效果需在部署後獨立驗收。
+
 歌曲收集、音源版本與發行品流程見 [`SONG_COLLECTION_WORKFLOW.md`](./SONG_COLLECTION_WORKFLOW.md)，批次接續位置見 [`CATALOG_COLLECTION_STATUS.md`](./CATALOG_COLLECTION_STATUS.md)。可選的歌曲、用途標籤、音源、發行品及欄位證據格式已接通；只在經核對的歌曲逐批填入，不代表全目錄已齊備。新工作階段使用 [`CONTINUOUS_DEVELOPMENT_PROMPT.md`](./CONTINUOUS_DEVELOPMENT_PROMPT.md)。
 
 ## Current product scope
 
-- 2026 夏季 70 套、2026 春季 70 套、2026 冬季 66 套、2025 夏季 75 套、2025 春季 82 套、2025 冬季 59 套、2024 秋季 88 套、2024 夏季 68 套、2024 春季 76 套、2024 冬季 75 套、2023 秋季 100 套、夏季 75 套、春季 79 套、冬季 72 套、2022 秋季 80 套、夏季 69 套、春季 79 套、冬季 58 套、2021 秋季 65 套、夏季 46 套、春季 73 套、冬季 67 套、2020 秋季 67 套、夏季 31 套、春季 61 套、冬季 58 套、2019 秋季 67 套及 2019 夏季 42 套非成人 TV／網絡連載作品；
-- 跨季作品共用詳情頁，共 1,917 個唯一作品及 4,236 筆已審閱 OP／ED；
+- 現行季度、唯一動畫、歌曲用途、音源、發行品與欄位盤點統一由 [自動統計](./CATALOG_STATS.md) 產生，不在產品計畫重抄數字；
+- 跨季作品共用詳情頁，作品季度、歌曲用途季度及發行日期分開保存；
 - 六個固定導覽入口、共用歌曲列表、年代／年份／季度目錄、播出日篩選、分頁本機搜尋、動畫全部主題曲與同源 static JSON API；
 - 每個季度、作品及歌曲公開來源、語言、review state 及核對日期；每首歌曲同時具備第一方／交叉核對來源；
 - 官方／licensed YouTube 導航、明確第三方連線同意、來源歸屬及無圖 fallback；
 - Astro + strict TypeScript、generated CSP、privacy-bounded Service Worker；
 - Cloudflare Workers Static Assets 靜態部署，0 application binding。
 
-2019 夏季仍在分批核對，2025 秋季尚未收錄；不把現有快照視為全季度或全歷史資料已齊備。
+季度盤點是否閉合、已核對的公開 ID 與下一批位置見 [收集進度](./CATALOG_COLLECTION_STATUS.md)；現有快照不代表全季度或全歷史資料已齊備。下方版本數量是該版本的歷史成果，不作目前總量。
 
 ## 公開版本狀態
 
@@ -66,13 +72,13 @@
 - 預設 build 與目錄測試使用 repository-reviewed `CuratedProvider`，不保留虛構目錄 fixture；
 - `/api/v1/*.json` 由同一份 reviewed snapshot 在 build-time 產生，不加入 runtime backend、資料庫或 credential；
 - `PUBLIC_API_BASE_URL` 存在時切換至經契約限制的唯讀 `ApiProvider`；
-- 二十八個季度快照均可瀏覽（2019 夏季仍在補充），list／detail／static API identity 保持一致；
+- 已登記季度快照均可瀏覽，list／detail／static API identity 保持一致；
 - 日文名稱為主、繁中為輔；
 - 每筆歌曲通過第一方及交叉核對來源 gate，未審閱候選不發布；
 - 公開資料不包含完整度百分比、confidence score 或內部選源規則；
 - 深夜 `25:30` 保持在編輯播出日而不移到次日；
 - Responsive、鍵盤 Focus、Poster Alt、Reduced Motion；
-- `npm run lint`、`npm test`、`npm run build`、`npm run test:e2e` 通過；
+- `npm run verify:full` 保留型別、單元、建置、公開邊界、統計、依賴、Cloudflare 及瀏覽器 gate；實際通過情況按當次驗收記錄；
 - YouTube iframe 只在使用者按下後建立，並使用 privacy-enhanced domain；
 - 同頁不同播放器擁有獨立載入狀態；
 - 首頁、季度頁與動畫頁提供 canonical；動畫頁提供 `TVSeries` JSON-LD；
@@ -80,7 +86,7 @@
 - Production 可用 `ANISONARY_REQUIRE_API_DATA=true` fail closed，避免殘缺靜態網站被發布；
 - 首頁主視覺只用 HTML／CSS；舊首頁與 Mock raster assets 不再留在 repository 或 production build；
 - 不包含 secret、真實 DB dump 或 private crawler code。
-- 離線功能只保存 build 已公開的同源靜態內容，不保存搜尋輸入、query string、私人 API response 或第三方媒體。
+- 斷線提示與共用資產的預載總量不超過 512 KiB，不預載整站目錄，也不保存搜尋輸入、query string、API response 或第三方媒體。
 
 架構與信任邊界見 `docs/ARCHITECTURE.md`；資料來源治理見 `docs/DATA_PROVENANCE.md`；GitHub／Cloudflare 接入與驗收見 `docs/DEPLOYMENT_CLOUDFLARE.md`；public static API contract 見 `docs/API_HANDOFF.md`。
 

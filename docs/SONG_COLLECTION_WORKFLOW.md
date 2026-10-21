@@ -174,12 +174,16 @@ flowchart LR
 | 本輪變更 | 收尾一次執行 | 何時擴大 |
 | --- | --- | --- |
 | 只有文件／進度 | 文件連結檢查、`git diff --check`、`npm run public:check` | 不跑歌曲、瀏覽器、Wrangler 或依賴稽核 |
-| 現有格式內的資料 | `npm test`、`npm run build`、`npm run public:check`、差異審閱 | 預覽新增／更正資料；新季度、路由或播放器行為才跑 6 條 E2E |
-| 新格式、parser、搜尋／UI／媒體行為 | `npm test`、`npm run build`、`npm run public:check`、`npm run test:e2e` | 為真正新邊界補少量既有核心測試斷言；同步檢查來源與展示 |
+| 現有格式內的資料 | `npm run verify:batch`、差異審閱 | 自動更新唯一統計文件並預覽新增／更正資料；新季度、路由或播放器行為再跑 `npm run test:e2e:built` |
+| 新格式、parser、搜尋／UI／媒體行為 | `npm run verify:batch`、`npm run test:e2e:built` | 為真正新邊界補少量既有核心測試斷言；同步檢查來源與展示 |
 | 依賴、CI 或 Cloudflare 設定 | 上述相應項目，加一次 `npm audit`／`npm run cf:check` | 只檢查實際改動涉及的環節 |
-| 正式發布 | 依既有發布文件做一次 release gate 與實際 live 驗收 | 只有該任務已有提交／部署授權才執行外部寫入 |
+| 正式發布 | `npm run verify:full` 及既有發布文件的實際 live 驗收 | 只有該任務已有提交／部署授權才執行外部寫入 |
 
-`npm test` 已包含 `catalog:check`；`npm run build` 已包含 Astro 型別檢查、CSP、Service Worker 與 artifact gate，無需再逐項重跑。E2E 另有自己的測試 build，正常完成後不額外再建置一次。`api:smoke` 是指定 HTTP 環境的另一次驗證，不是每批必要步驟。
+`verify:batch` 包含原有 `npm test`、完整 build、公開邊界與 diff 檢查，另從公開 JSON 更新 [CATALOG_STATS.md](./CATALOG_STATS.md)。`npm test` 已涵蓋 `catalog:check`；build 已涵蓋型別、CSP、Service Worker 與產物 gate。驗證入口只在本機 Curated 模式自動重用來源、設定、環境與全部產物雜湊吻合的 build；外部 API 同網址的內容可能變更，因此每輪重新 build。非空 `PUBLIC_API_BASE_URL` 或實際 `.env`／`.env.*` 檔的同名賦值（包含空值）均停用自動重用，明確 `.example` 模板除外。同輪統計與明確 `test:e2e:built` 仍可驗證剛產出的收據；過程中輸入改變即停止；不快取單元、稽核或 E2E 結果。`npm run build` 可明確重建。
+
+`test:e2e:built` 直接測該份已驗證正常產物，另依序建立獨立 API 錯誤情境；不再重建正常網站或沿用佔用相同 port 的其他服務。`test:e2e` 可獨立完整建置後執行。`verify:full`／相容的 `check` 與 CI 共用入口，額外保留 audit、Cloudflare dry-run、統計過期檢查及核心 E2E。`api:smoke` 仍只用於指定 HTTP 環境，並非每批必要步驟。
+
+目前收錄與欄位數字只維護自動統計；README、計畫和來源規則引用該文件。checkpoint 保存人工核對的公開 ID、季度範圍、實際批次差異、缺口與續查條件；既有發布時的數字保留為歷史，不把欄位有值自動當作已完成盤點。
 
 不要每新增一首歌曲就跑全套、每批升版本、建立新的長 QA 文件、重新檢查全部舊連結或替未公布資料反覆查找。已知非本批的依賴稽核問題記一次並沿用，依賴或稽核狀態改變時再查；它不能被稱為通過，也不應把資料整理轉成依賴重構。
 

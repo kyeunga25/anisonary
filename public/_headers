@@ -10,6 +10,10 @@
 /assets/*
   Cache-Control: public, max-age=86400, stale-while-revalidate=604800
 
+/search-index/*
+  Cache-Control: public, max-age=31536000, immutable
+  X-Robots-Tag: noindex
+
 /api/v1/*
   Cache-Control: public, max-age=0, must-revalidate
   X-Robots-Tag: noindex

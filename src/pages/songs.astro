@@ -5,7 +5,10 @@ import BaseLayout from "@/layouts/BaseLayout.astro";
 import { getDataProvider, shouldRequireApiData } from "@/data/provider";
 import { loadCatalogSearchData } from "@/data/page-data";
 import { buildCatalogSearchIndex } from "@/utils/catalog-search-index";
+import { buildCatalogSearchAssets } from "@/data/catalog-search-assets";
 const data = await loadCatalogSearchData(getDataProvider(), shouldRequireApiData());
+const index = buildCatalogSearchIndex(data.entries);
+const { manifest } = buildCatalogSearchAssets(index);
 ---
 <BaseLayout title="歌曲列表｜Song Library" description="以歌曲列表瀏覽動畫 OP／ED，在同一行查看演唱者、動畫與季度，按季度、歌名、演唱者或動畫排序。">
   <div class="browse-page page-shell">
@@ -13,6 +16,6 @@ const data = await loadCatalogSearchData(getDataProvider(), shouldRequireApiData
       <div><h1>歌曲列表</h1><p>把每個季度的 OP／ED 放在一起。點選歌曲，查看該動畫的全部主題曲。<span lang="en"> Song library.</span></p></div>
       <a class="text-link" href="/catalog/">季度目錄 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7" /></svg></a>
     </header>
-    {data.status === "error" ? <ErrorState message="歌曲目錄暫時無法取得。其他公開頁面仍可正常瀏覽。" /> : <SongPlaylist index={buildCatalogSearchIndex(data.entries)} />}
+    {data.status === "error" ? <ErrorState message="歌曲目錄暫時無法取得。其他公開頁面仍可正常瀏覽。" /> : <SongPlaylist index={index} manifest={manifest} />}
   </div>
 </BaseLayout>

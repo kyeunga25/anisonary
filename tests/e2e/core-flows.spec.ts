@@ -332,6 +332,10 @@ test("year and quarter browsing works with a mobile keyboard, without JavaScript
     await expect(nativePage.getByRole("navigation", { name: "主要導覽" })).toBeVisible();
     await nativePage.goto(`${origin}/anime/youjo-senki-2/`);
     await expect(nativePage.getByRole("heading", { name: "Weiter! Weiter!", exact: true })).toBeVisible();
+    const breadcrumbs = nativePage.getByRole("navigation", { name: "所在位置" });
+    await expect(breadcrumbs.locator('ol[itemtype="https://schema.org/BreadcrumbList"]')).toHaveCount(1);
+    expect(await breadcrumbs.locator('[itemprop="position"]').evaluateAll((items) => items.map((item) => item.getAttribute("content")))).toEqual(["1", "2", "3", "4"]);
+    await expect(breadcrumbs.locator('[itemprop="item"]').last()).toHaveAttribute("href", /\/seasons\/2026-/);
     await nativePage.locator(".theme-card__details > summary").first().focus();
     await nativePage.keyboard.press("Enter");
     await expect(nativePage.getByRole("list", { name: "歌曲核對來源" }).first()).toBeVisible();
@@ -354,20 +358,28 @@ test("year and quarter browsing works with a mobile keyboard, without JavaScript
   await expect(page.getByRole("heading", { name: "2026 夏季動畫" })).toBeVisible();
 });
 
-test("offline reading and search work without caching queries, API data or remote media", async ({ page, context }) => {
+test("online browsing keeps a small offline fallback and removes legacy full-catalogue caches", async ({ page, context }) => {
+  await page.goto("/robots.txt");
+  await page.evaluate(async () => {
+    await (await caches.open("anisonary-public-legacy")).put("/anime/legacy-cache/", new Response("Old catalogue"));
+    await (await caches.open("unrelated-cache")).put("/unrelated-resource", new Response("Other application"));
+  });
   await page.goto("/search/");
   const scope = await page.evaluate(async () => (await navigator.serviceWorker.ready).scope);
   expect(scope).toBe(`${origin}/`);
   await expect.poll(() => page.evaluate(() => Boolean(navigator.serviceWorker.controller))).toBe(true);
   const cacheUrls = () => page.evaluate(async () => {
-    const names = await caches.keys();
+    const names = (await caches.keys()).filter((name) => name.startsWith("anisonary-public-"));
     const requests = await Promise.all(names.map(async (name) => (await caches.open(name)).keys()));
     return requests.flat().map((request) => request.url).sort();
   });
   const before = await cacheUrls();
+  const names = await page.evaluate(() => caches.keys());
+  expect(names).not.toContain("anisonary-public-legacy");
+  expect(names).toContain("unrelated-cache");
   expect(before.length).toBeGreaterThan(0);
   expect(before.every((url) => new URL(url).origin === origin && !new URL(url).search)).toBe(true);
-  expect(before.some((url) => /\/api\/|404\.html/.test(url))).toBe(false);
+  expect(before.every((url) => /^(?:\/offline\/|\/_astro\/[^/]+|\/favicon\.svg|\/manifest\.webmanifest)$/.test(new URL(url).pathname))).toBe(true);
   await page.getByRole("searchbox", { name: "搜尋動畫、歌曲或創作者" }).fill("不應儲存的搜尋字詞");
   await page.goto("/sources/?q=not-for-cache");
   expect(await cacheUrls()).toEqual(before);
@@ -375,10 +387,7 @@ test("offline reading and search work without caching queries, API data or remot
   await context.setOffline(true);
   try {
     await page.goto("/search/", { waitUntil: "domcontentloaded" });
-    await expect(page.getByRole("heading", { name: "跨季度搜尋" })).toBeVisible();
-    await page.getByRole("searchbox", { name: "搜尋動畫、歌曲或創作者" }).fill("KICK BACK");
-    await page.locator(".song-row").filter({ hasText: "KICK BACK" }).click();
-    await expect(page.getByRole("heading", { name: "KICK BACK", exact: true })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "目前沒有網絡連線。" })).toBeVisible();
     await page.goto("/not-cached-while-offline/", { waitUntil: "domcontentloaded" });
     await expect(page.getByRole("heading", { name: "目前沒有網絡連線。" })).toBeVisible();
     await expect(page.locator('meta[name="robots"]')).toHaveAttribute("content", /noindex/);
@@ -386,6 +395,8 @@ test("offline reading and search work without caching queries, API data or remot
   } finally {
     await context.setOffline(false);
   }
+  await page.goto("/search/");
+  await expect(page.getByRole("heading", { name: "跨季度搜尋" })).toBeVisible();
 });
 
 test("an unavailable API shows a usable public error without upstream details or invented catalogue data", async ({ page }) => {
@@ -403,4 +414,129 @@ test("an unavailable API shows a usable public error without upstream details or
   await page.goto(`${errorOrigin}/about/`);
   await expect(page.getByRole("heading", { level: 1 })).toBeVisible();
   await expect(page.getByRole("alert")).toHaveCount(0);
+});
+
+test.describe("independent search index delivery", () => {
+  test.use({ serviceWorkers: "block" });
+
+  test("loads on interaction, selects relevant chunks, retries failures and ignores stale searches", async ({ page }, testInfo) => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    const requests: string[] = [];
+    page.on("request", (request) => {
+      if (new URL(request.url()).pathname.startsWith("/search-index/")) requests.push(request.url());
+    });
+    await page.goto("/search/");
+    const root = page.locator("[data-catalog-search]");
+    await expect(root).toHaveAttribute("data-search-ready", "true");
+    await expect(page.getByRole("heading", { name: "跨季度搜尋", exact: true })).toBeVisible();
+    const results = page.locator("[data-catalog-result]");
+    await expect(results).toHaveCount(24);
+    expect(requests).toEqual([]);
+    const manifest = JSON.parse(await page.locator("[data-search-manifest]").textContent() ?? "{}");
+    await page.locator(".playlist-filters summary").click();
+    await page.route("**/search-index/*.json", (route) => route.fulfill({ status: 503, contentType: "application/json", body: "{}" }));
+    await page.getByRole("combobox", { name: "年份", exact: true }).selectOption("2020");
+    await expect(root).toHaveAttribute("data-search-state", "error");
+    await expect(results).toHaveCount(24);
+    await expect(page.locator("[data-catalog-search-empty]")).toBeHidden();
+    await expect(page.getByRole("button", { name: "重試載入" })).toBeVisible();
+    await expect(page.locator("[data-search-fallback]")).toHaveAttribute("href", "/catalog/");
+    await page.screenshot({ path: testInfo.outputPath("search-index-error-mobile.png") });
+    await page.unroute("**/search-index/*.json");
+    await page.getByRole("button", { name: "重試載入" }).click();
+    await expect(root).toHaveAttribute("data-search-state", "ready");
+    await expect(results.first().locator(".song-row__season")).toContainText("2020");
+    const relevant = manifest.chunks.filter((chunk: { seasons: string[] }) => chunk.seasons.some((season) => season.startsWith("2020-")));
+    expect(new Set(requests.map((url) => new URL(url).pathname)).size).toBe(relevant.length);
+    expect(relevant.length).toBeLessThan(manifest.chunks.length);
+
+    await page.getByRole("button", { name: "重設" }).click();
+    let release!: () => void;
+    const held = new Promise<void>((ready) => { release = ready; });
+    await page.route("**/search-index/*.json", async (route) => { await held; await route.continue(); });
+    const firstRequest = page.waitForRequest((request) => new URL(request.url()).pathname.startsWith("/search-index/"));
+    const input = page.getByRole("searchbox");
+    try {
+      await input.fill("KICK BACK");
+      await firstRequest;
+      await input.fill("幼女 myth");
+    } finally { release(); }
+    await expect(results).toHaveCount(1);
+    await expect(results).toContainText("Why? RED induction");
+    await expect(root).toHaveAttribute("data-search-state", "ready");
+    expect(requests.every((url) => new URL(url).origin === origin && /^\/search-index\/[a-f0-9]{64}\.json$/.test(new URL(url).pathname) && !new URL(url).search)).toBe(true);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+    await page.screenshot({ path: testInfo.outputPath("search-index-recovered-mobile.png") });
+  });
+
+  test("routes the first global query and reuses immutable HTTP-cached assets across pages", async ({ browser }, testInfo) => {
+    // Page routing disables Chromium's HTTP cache. Use a separate context with
+    // no routes; both text-only pages avoid third-party media by construction.
+    const context = await browser.newContext({ serviceWorkers: "block", viewport: { width: 1536, height: 1024 } });
+    const cachedPage = await context.newPage();
+    const errors: string[] = [];
+    cachedPage.on("pageerror", (error) => errors.push(error.message));
+    cachedPage.on("console", (message) => {
+      if (/Content Security Policy|Refused to (?:execute|apply|load)/i.test(message.text())) errors.push(message.text());
+    });
+    const timings = () => cachedPage.evaluate(() => (performance.getEntriesByType("resource") as PerformanceResourceTiming[])
+      .filter((entry) => new URL(entry.name).pathname.startsWith("/search-index/"))
+      .map((entry) => ({ path: new URL(entry.name).pathname, transfer: entry.transferSize, encoded: entry.encodedBodySize })));
+    try {
+      await cachedPage.goto(`${origin}/search/`);
+      const assetResponse = cachedPage.waitForResponse((response) => new URL(response.url()).pathname.startsWith("/search-index/"));
+      await cachedPage.getByRole("searchbox").fill("KICK BACK");
+      const response = await assetResponse;
+      expect(response.headers()["cache-control"]).toBe("public, max-age=31536000, immutable");
+      expect(response.headers()["x-robots-tag"]).toBe("noindex");
+      expect(response.headers()["content-encoding"]).toBe("gzip");
+      await expect(cachedPage.locator("[data-catalog-result]")).toHaveCount(1);
+      const first = await timings();
+      expect(first.length).toBeGreaterThan(0);
+      expect(first.every((entry) => entry.transfer > 0 && entry.encoded > 0)).toBe(true);
+      const manifest = JSON.parse(await cachedPage.locator("[data-search-manifest]").textContent() ?? "{}");
+      expect(first.reduce((sum, entry) => sum + entry.encoded, 0)).toBeLessThan(manifest.bytes);
+      const dataPaths = new Set<string>(manifest.chunks.map((chunk: { url: string }) => chunk.url));
+      const routePaths = new Set<string>(manifest.routing.buckets.map((bucket: { url: string }) => bucket.url));
+      const dataRequests = first.filter((entry) => dataPaths.has(entry.path));
+      const routingRequests = first.filter((entry) => routePaths.has(entry.path));
+      expect(dataRequests.length).toBeGreaterThan(0);
+      expect(dataRequests.length).toBeLessThan(manifest.chunks.length);
+      expect(routingRequests.length).toBeGreaterThan(0);
+      expect(routingRequests.length).toBeLessThanOrEqual(4);
+      expect(first.length).toBe(dataRequests.length + routingRequests.length);
+      await cachedPage.goto(`${origin}/songs/`);
+      await expect(cachedPage).toHaveTitle(/歌曲列表/);
+      await expect(cachedPage.locator("main")).toBeVisible();
+      await expect(cachedPage.locator("[data-catalog-search]")).toHaveAttribute("data-search-ready", "true");
+      expect(await timings()).toEqual([]);
+      await cachedPage.getByRole("searchbox").fill("KICK BACK");
+      await expect(cachedPage.locator("[data-catalog-result]")).toHaveCount(1);
+      await expect(cachedPage.locator("[data-catalog-search]")).toHaveAttribute("data-search-state", "ready");
+      const second = await timings();
+      expect(second.length).toBe(first.length);
+      expect(second.every((entry) => entry.transfer === 0 && entry.encoded > 0)).toBe(true);
+      await testInfo.attach("search-index-transfer.json", {
+        body: Buffer.from(JSON.stringify({
+          dataChunks: dataRequests.length, routingBuckets: routingRequests.length, fullChunks: manifest.chunks.length,
+          jsonBytes: manifest.bytes, decodedBytes: manifest.decodedBytes,
+          firstEncodedBytes: first.reduce((sum, entry) => sum + entry.encoded, 0),
+          firstTransferBytes: first.reduce((sum, entry) => sum + entry.transfer, 0),
+          warmTransferBytes: second.reduce((sum, entry) => sum + entry.transfer, 0)
+        }, null, 2)), contentType: "application/json"
+      });
+      expect(errors).toEqual([]);
+      await expect(cachedPage.locator("vite-error-overlay, astro-error-overlay")).toHaveCount(0);
+      await cachedPage.screenshot({ path: testInfo.outputPath("search-index-cache-desktop.png") });
+      await cachedPage.getByRole("button", { name: "重設" }).click();
+      await cachedPage.getByRole("button", { name: "下一頁" }).click();
+      await expect(cachedPage.locator("[data-search-page]")).toContainText("第 2／");
+      const full = await timings();
+      expect(new Set(full.filter((entry) => dataPaths.has(entry.path)).map((entry) => entry.path))).toEqual(dataPaths);
+      expect(full.filter((entry) => routePaths.has(entry.path))).toHaveLength(routingRequests.length);
+      // Already decoded chunks stay in page memory; only the remaining chunks
+      // are requested when returning to an unfiltered, complete song library.
+      for (const entry of second) expect(full.filter((asset) => asset.path === entry.path)).toHaveLength(1);
+    } finally { await context.close(); }
+  });
 });

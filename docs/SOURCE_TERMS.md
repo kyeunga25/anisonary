@@ -51,7 +51,7 @@ Wikidata 與オリミュウストア的下列使用範圍另於 **2026-09-07** �
 4. 記錄只包含必要事實與短識別欄位，並保存 provenance；
 5. 媒體沒有被下載、代理、重新託管或加入離線 cache；
 6. 相應資料仍被 [`LICENSING.md`](../LICENSING.md) 排除於 Apache-2.0；
-7. `npm run catalog:check`、`npm test`、`npm run build` 及人工差異審查通過。
+7. `npm run verify:batch`（包含既有目錄、單元、型別、建置與公開邊界 gate）及人工差異審查通過。
 
 若任何一項不能確認，該來源或記錄不得加入發佈快照。
 

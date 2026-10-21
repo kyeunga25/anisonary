@@ -9,6 +9,8 @@ import { buildCatalogSearchIndex, type CatalogSearchIndex } from "@/utils/catalo
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import type { PublicSeasonDetail, PublicSeasonSummary } from "@/types/public-api";
 import { buildSeasonJsonLd } from "@/utils/seo";
+import { buildCatalogSearchAssets } from "@/data/catalog-search-assets";
+import type { SearchIndexManifest } from "@/utils/catalog-search-manifest";
 
 export async function getStaticPaths() {
   const provider = getDataProvider();
@@ -17,16 +19,17 @@ export async function getStaticPaths() {
     loadCatalogDirectoryData(provider, shouldRequireApiData())
   ]);
   if (catalog.status === "error" || directory.status === "error") return [];
+  const { manifest } = buildCatalogSearchAssets(buildCatalogSearchIndex(catalog.entries));
   return directory.seasons.map((season) => ({
     params: { season: season.id },
     props: {
-      season, siblings: directory.seasons.filter((entry) => entry.year === season.year),
+      season, manifest, siblings: directory.seasons.filter((entry) => entry.year === season.year),
       index: buildCatalogSearchIndex(catalog.entries.filter((entry) => entry.seasons.some((membership) => membership.id === season.id)))
     }
   }));
 }
-interface Props { season: PublicSeasonDetail; siblings: PublicSeasonSummary[]; index: CatalogSearchIndex; }
-const { season, siblings, index } = Astro.props;
+interface Props { season: PublicSeasonDetail; siblings: PublicSeasonSummary[]; index: CatalogSearchIndex; manifest: SearchIndexManifest; }
+const { season, siblings, index, manifest } = Astro.props;
 const title = `${season.year} ${season.titleZhHant}`;
 const site = Astro.site ?? new URL("https://anisonary.k-y.cc");
 const otherAnime = index.filter((anime) => !anime.themes.length);
@@ -44,7 +47,7 @@ const otherAnime = index.filter((anime) => !anime.themes.length);
       {siblings.map((entry) => <a href={`/seasons/${entry.id}/`} aria-current={entry.id === season.id ? "page" : undefined}>{entry.titleZhHant.replace("動畫", "")}</a>)}
       <a href="/catalog/">其他年份</a>
     </nav>
-    <SongPlaylist index={index} mode="season" initialSeason={season} initialSort="anime" />
+    <SongPlaylist index={index} manifest={manifest} mode="season" initialSeason={season} initialSort="anime" />
     {otherAnime.length > 0 && <section class="season-other" aria-labelledby="other-anime-title">
       <h2 id="other-anime-title">其他已收錄動畫</h2><p>以下作品未列出獨立主題曲；可進入作品頁查看收錄狀態與來源。</p>
       <ul>{otherAnime.map((anime) => <li><a href={`/anime/${anime.slug}/`}><strong>{anime.titleZhHant ?? anime.titleJa}</strong><small>{anime.availability === "not_used" ? "不設獨立 OP／ED" : "主題曲資料待補充"}</small><span aria-hidden="true">→</span></a></li>)}</ul>

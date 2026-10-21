@@ -3,4 +3,6 @@
 export const MAX_CATALOG_ANIME = 10_000;
 export const MAX_CATALOG_REFERENCES = 20_000;
 export const MAX_SEARCH_INDEX_BYTES = 8 * 1024 * 1024;
+export const MAX_SEARCH_CHUNK_BYTES = 256 * 1024;
+export const MAX_SEARCH_MANIFEST_BYTES = 64 * 1024;
 export const CATALOG_FETCH_CONCURRENCY = 8;

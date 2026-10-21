@@ -58,6 +58,9 @@
 .playlist-privacy, .playlist-noscript { color: var(--color-muted); font-size: 0.7rem; line-height: 1.7; margin-block: 0.6rem; }
 .playlist-noscript a { color: var(--color-accent); }
 .playlist:not([data-search-ready]) .playlist-form { display: none; }
+.playlist-load-state { margin-block: 0.75rem; }
+.playlist-load-state p { color: var(--color-muted); font-size: 0.85rem; line-height: 1.7; }
+.playlist-load-state .text-link { margin-inline-start: 0.75rem; }
 @media (max-width: 1199px) {
   .song-list-heading, .song-row { column-gap: 0.7rem; grid-template-columns: 1.6rem minmax(0, 1.1fr) minmax(0, 0.8fr) minmax(0, 1.3fr) 2.8rem 5.2rem; }
   .song-row__arrow, .song-list-heading > span:last-child { display: none; }
