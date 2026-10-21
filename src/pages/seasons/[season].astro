@@ -38,7 +38,7 @@ const otherAnime = index.filter((anime) => !anime.themes.length);
   <div class="browse-page season-page page-shell">
     <Breadcrumbs items={[{ label: "季度目錄", href: "/catalog/" }, { label: String(season.year), href: `/catalog/${season.year}/` }, { label: season.titleZhHant }]} />
     <header class="page-heading">
-      <div><h1>{title}</h1><p>本季歌曲，一行一首。點選歌曲，查看動畫的全部 OP／ED。<span lang="ja"> {season.titleJa}</span></p></div>
+      <div><h1>{title}</h1><p>本季用曲，每列一筆用途。點選查看動畫的全部主題曲、插曲及來源。<span lang="ja"> {season.titleJa}</span></p></div>
       <a class="text-link" href="/songs/">跨季度歌曲列表 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7" /></svg></a>
     </header>
     <p class="season-review">{season.anime.length} 套動畫 · 季度索引快照：{season.verifiedAt} · 歌曲核對日期見詳情{season.coverageNote && <span> · {season.coverageNote}</span>}</p>
