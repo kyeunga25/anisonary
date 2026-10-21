@@ -300,7 +300,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     titleZhHant: "冬季動畫",
     titleJa: "2024年冬アニメ",
     seeds: curated2024WinterSeeds,
-    animeIds: [...curated2024WinterAnimeIds, 146493, 148862, 151970, 154116, 154587, 158791, 161645, 163024, 160514, 162209]
+    animeIds: [...curated2024WinterAnimeIds, 146493, 148862, 151970, 154116, 154587, 158791, 161645, 163024, 160514, 162209, 142599]
   },
   {
     id: "2023-fall",
@@ -318,7 +318,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     titleZhHant: "夏季動畫",
     titleJa: "2023年夏アニメ",
     seeds: curated2023SummerSeeds,
-    animeIds: [...curated2023SummerAnimeIds, 154587, 158791]
+    animeIds: [...curated2023SummerAnimeIds, 154587, 158791, 156184]
   },
   {
     id: "2023-spring",
