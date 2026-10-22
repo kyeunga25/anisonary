@@ -9101,3 +9101,11 @@ GitHub open Dependabot警示增至24項，新增[source-map-js advisory](https:/
 - 合併36部112筆正式ApiProvider相同；144條實際HTML／JSON／目標季度／搜尋資產符合凍結產物，另2條真404。第120批10部26筆API／routes自成功superset導出，未重複HTTP；只第120批另有真正production Chromium手機／桌面及截圖已檢視，不宣稱其他三批production手機已重測。
 - 只更新已登記2022春／夏作品、必要registry與進度統計；owner目標物件外bytes及未選公開JSON保留。已明同曲與用途分類依逐曲第一方及審閱facts，另有獨立的 public boundary 數值 routing 誤報修正與回歸測試，精確限 scripts/check-public-boundary.mjs 及 tests/unit/public-boundary.test.ts；正常 PR／main 完整 CI 實證涵蓋此修正，沒有依賴／產生器／資料格式改動。
 - 本組正式驗收完成；基本、詳細與長期範圍仍未完成。
+
+## 2020-2026-tv-basics-123（執行中）
+
+- 固定2020–2026標準TV基本階段、2007–2026長期範圍及2026-10-14截止日；登記／後續實讀日期2026-10-22。此段只登記，尚未啟動本批來源查核，不計完成。
+- 2022冬接續10部25筆既有用途，完整作品不拆：`curated-137247`、`curated-126288`、`curated-131681`、`curated-139804`、`curated-109820`、`curated-112719`、`curated-124060`、`curated-131548`、`curated-132405`、`curated-136428`。原ID／序號／URL及未重讀來源日期保留；原TV實曆日／深夜時分、先行WEB與逐曲實用季度分開。
+- 先核原名、正式演唱名義、OP／ED／IN用途與第一方＋中文優先交叉來源；同頁明詞曲編／本曲實唱或真正IN可低成本補，詳細錄音／影片／發行／平台後補，不由商品或cast推用途／歌唱。
+- 每缺口最多兩輪定向，未明留held／partial與具體非空續查條件；待登記文件檢查及明確開查通知後才啟動來源查核。
+- 原25項格式／原媒體gate及11個零用途候選逐項保存恢復條件，不因0歌、原首年或分段排除正常長篇；未明者待正式來源核格式，標準TV待辦不被其阻擋。標準TV季度聯集尚未閉合；既有歷史及未來登記全保留。
