@@ -327,7 +327,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     titleZhHant: "春季動畫",
     titleJa: "2023年春アニメ",
     seeds: curated2023SpringSeeds,
-    animeIds: [...curated2023SpringAnimeIds, 163571]
+    animeIds: [...curated2023SpringAnimeIds, 163571, 154969]
   },
   {
     id: "2023-winter",
