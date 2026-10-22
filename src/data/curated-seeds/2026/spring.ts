@@ -72,159 +72,1731 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
   {"anilistId":205772,"id":"curated-205772","slug":"candy-caries","seasonIds":["2026-spring"],"startDate":"2026-04-15","titleJa":"キャンディーカリエス","titleZhHant":"CANDY CARIES 蛀在糖糖裡","titleRomaji":"Candy Caries","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx205772-kb2YOaXFfPAB.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/205772-fJwBre4r2a53.jpg","editorialWeekday":3,"broadcastTimeJst":"23:56","status":"airing","officialSiteUrl":"https://www.candycaries.com/","anilistUrl":"https://anilist.co/anime/205772","imageSourceUrl":"https://anilist.co/anime/205772","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://mantan-web.jp/article/20260217dog00m200086000a.html"],"uzureaUrl":"https://uzurea.net/spring-2026-anime-theme-songs/","themes":[{"type":"ED","sequence":1,"titleJa":"Telepathy","artistDisplayName":"IS:SUE","credits":[{"name":"IS:SUE","role":"vocals"},{"name":"Chiaki Nagasawa","role":"lyrics"},{"name":"Saori Nagano","role":"lyrics"},{"name":"Takahito Nakamura","role":"lyrics"},{"name":"Konomi Fujimura","role":"lyrics"},{"name":"Rose Blueming","role":"lyrics"},{"name":"Hiyori Nara","role":"lyrics"},{"name":"N1K0","role":"lyrics"},{"name":"Chiaki Nagasawa","role":"composition"},{"name":"Saori Nagano","role":"composition"},{"name":"Takahito Nakamura","role":"composition"},{"name":"Takahito Nakamura","role":"arrangement"}],"songId":"candy-caries-ed-1-song","sources":[{"url":"https://is-sue.jp/discography/detail/32/","label":"IS:SUE 官方：QUARTET 通常盤 Album、2026-05-20 及 Telepathy Track 8","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://cf.is-sue.jp/news/detail/655","label":"IS:SUE 官方：Telepathy 動畫主題歌與第2弾ティザー PV（公開索引核對）","role":"first_party","language":"ja","verifiedAt":"2026-10-15"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://is-sue.jp/discography/detail/32/"],"verifiedAt":"2026-10-15","targetId":"candy-caries-ed-1-song"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://is-sue.jp/discography/detail/32/"],"verifiedAt":"2026-10-15","targetId":"is-sue-quartet-regular-cd"},{"target":"link","fields":["url","type"],"sourceUrls":["https://is-sue.jp/discography/detail/32/"],"verifiedAt":"2026-10-15","targetId":"https://is-sue.jp/discography/detail/32/"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://cf.is-sue.jp/news/detail/655"],"verifiedAt":"2026-10-15","targetId":"candy-caries-ed-1-song"},{"target":"link","fields":["url","type"],"sourceUrls":["https://cf.is-sue.jp/news/detail/655"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=S4kNFcTJ9Ak"}],"releases":[{"id":"is-sue-quartet-regular-cd","title":"QUARTET","artistDisplayName":"IS:SUE","type":"album","tracks":[{"title":"Telepathy","disc":1,"position":8}],"date":{"value":"2026-05-20","precision":"day"},"edition":"通常盤（CD）"}],"links":[{"platform":"IS:SUE","label":"QUARTET 通常盤 官方商品","url":"https://is-sue.jp/discography/detail/32/","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"YouTube","label":"Telepathy 動畫第2弾ティザー PV","url":"https://www.youtube.com/watch?v=S4kNFcTJ9Ak","linkType":"official_landing_page","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"}],"usageLabel":"主題歌（官方分類）"}],"metadataVerifiedAt":"2026-08-10"},
   {"anilistId":196219,"id":"curated-196219","slug":"mujikaku-seijo-wa-kyou-mo-muishiki-ni-chikara-wo-tare-nagasu","seasonIds":["2026-spring","2026-summer"],"startDate":"2026-06-30","titleJa":"無自覚聖女は今日も無意識に力を垂れ流す","titleZhHant":"無自覺聖女今天也無意識地釋放力量","titleRomaji":"Mujikaku Seijo wa Kyou mo Muishiki ni Chikara wo Tare Nagasu","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196219-imvC0rbk4VzH.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/196219-2F64WTRfqRU9.jpg","editorialWeekday":2,"broadcastTimeJst":"22:00","status":"finished","officialSiteUrl":"https://mujikaku-seijo.com/","anilistUrl":"https://anilist.co/anime/196219","imageSourceUrl":"https://anilist.co/anime/196219","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/675057"],"animeThemesUrl":"https://animethemes.moe/anime/mujikaku_seijo_wa_kyou_mo_muishiki_ni_chikara_wo_tare_nagasu","themes":[{"type":"OP","sequence":1,"titleJa":"Windmaker","artistDisplayName":"花耶","songId":"mujikaku-seijo-wa-kyou-mo-muishiki-ni-chikara-wo-tare-nagasu-op-1-song","sources":[{"label":"動畫官方網站","url":"https://mujikaku-seijo.com/","language":"ja","role":"first_party","verifiedAt":"2026-10-19"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/mujikaku_seijo_wa_kyou_mo_muishiki_ni_chikara_wo_tare_nagasu","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"url":"https://mujikaku-seijo.com/music/","label":"動畫官網 MUSIC：Windmaker／アンノウンミー 完整創作及原文演唱名義","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://kaya-official.jp/discography/detail/item-5790/","label":"花耶 官方：Windmaker 原文名義、OP、發行及確切 YouTube／配信外連","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"label":"YourAnimes：夏季作品／續播交叉核對","url":"https://youranimes.tw/bangumi/202607","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-10-19"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://mujikaku-seijo.com/music/"],"verifiedAt":"2026-10-15","targetId":"mujikaku-seijo-wa-kyou-mo-muishiki-ni-chikara-wo-tare-nagasu-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://mujikaku-seijo.com/music/"],"verifiedAt":"2026-10-15","targetId":"mujikaku-seijo-wa-kyou-mo-muishiki-ni-chikara-wo-tare-nagasu-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://mujikaku-seijo.com/music/"],"verifiedAt":"2026-10-15"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://kaya-official.jp/discography/detail/item-5790/"],"verifiedAt":"2026-10-15","targetId":"mujikaku-seijo-wa-kyou-mo-muishiki-ni-chikara-wo-tare-nagasu-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://kaya-official.jp/discography/detail/item-5790/"],"verifiedAt":"2026-10-15","targetId":"mujikaku-seijo-wa-kyou-mo-muishiki-ni-chikara-wo-tare-nagasu-op-1"},{"target":"link","fields":["url","type"],"sourceUrls":["https://kaya-official.jp/discography/detail/item-5790/"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=sg1p3sEU88Q"},{"target":"link","fields":["url","type"],"sourceUrls":["https://kaya-official.jp/discography/detail/item-5790/"],"verifiedAt":"2026-10-15","targetId":"https://nex-tone.link/A00221343"},{"target":"anime_use","targetId":"mujikaku-seijo-wa-kyou-mo-muishiki-ni-chikara-wo-tare-nagasu-op-1","fields":["usage"],"sourceUrls":["https://mujikaku-seijo.com/","https://youranimes.tw/bangumi/202607"],"verifiedAt":"2026-10-19"}],"credits":[{"name":"花耶","role":"vocals"},{"name":"鈴木裕明 (SUPA LOVE)","role":"lyrics"},{"name":"鈴木裕明 (SUPA LOVE)","role":"composition"},{"name":"鈴木裕明","role":"arrangement"},{"name":"髙橋祐子 (SUPA LOVE)","role":"arrangement"}],"links":[{"platform":"YouTube","label":"Windmaker 花耶（KAYA）官方影片","url":"https://www.youtube.com/watch?v=sg1p3sEU88Q","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"NexTone.Link","label":"Windmaker 官方配信","url":"https://nex-tone.link/A00221343","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"}],"sourceMode":"explicit","seasonIds":["2026-spring","2026-summer"],"lastVerifiedAt":"2026-10-19"},{"type":"ED","sequence":1,"titleJa":"アンノウンミー","artistDisplayName":"ウタヒメドリーム オールスターズ","songId":"mujikaku-seijo-wa-kyou-mo-muishiki-ni-chikara-wo-tare-nagasu-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://mujikaku-seijo.com/","language":"ja","role":"first_party","verifiedAt":"2026-10-19"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/mujikaku_seijo_wa_kyou_mo_muishiki_ni_chikara_wo_tare_nagasu","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"url":"https://mujikaku-seijo.com/music/","label":"動畫官網 MUSIC：Windmaker／アンノウンミー 完整創作及原文演唱名義","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.utadori.com/music/4021/","label":"ウタヒメドリーム 官方：アンノウンミー 完整創作、八人實際演唱、CD／Instrumental（公開索引核對）","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"label":"YourAnimes：夏季作品／續播交叉核對","url":"https://youranimes.tw/bangumi/202607","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-10-19"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://mujikaku-seijo.com/music/"],"verifiedAt":"2026-10-15","targetId":"mujikaku-seijo-wa-kyou-mo-muishiki-ni-chikara-wo-tare-nagasu-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://mujikaku-seijo.com/music/"],"verifiedAt":"2026-10-15","targetId":"mujikaku-seijo-wa-kyou-mo-muishiki-ni-chikara-wo-tare-nagasu-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://mujikaku-seijo.com/music/"],"verifiedAt":"2026-10-15"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.utadori.com/music/4021/"],"verifiedAt":"2026-10-15"},{"target":"recording","fields":["title","kind","format"],"sourceUrls":["https://www.utadori.com/music/4021/"],"verifiedAt":"2026-10-15","targetId":"mujikaku-seijo-wa-kyou-mo-muishiki-ni-chikara-wo-tare-nagasu-ed-1-instrumental"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.utadori.com/music/4021/"],"verifiedAt":"2026-10-15","targetId":"mujikaku-seijo-wa-kyou-mo-muishiki-ni-chikara-wo-tare-nagasu-ed-1-eser-080"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.utadori.com/music/4021/"],"verifiedAt":"2026-10-15","targetId":"https://www.utadori.com/music/4021/"},{"target":"anime_use","targetId":"mujikaku-seijo-wa-kyou-mo-muishiki-ni-chikara-wo-tare-nagasu-ed-1","fields":["usage"],"sourceUrls":["https://mujikaku-seijo.com/","https://youranimes.tw/bangumi/202607"],"verifiedAt":"2026-10-19"}],"titleRomaji":"Unknown Me","credits":[{"name":"藤原優樹","role":"lyrics"},{"name":"曽木琢磨","role":"composition"},{"name":"曽木琢磨","role":"arrangement"},{"name":"夢咲いぶき（CV：山﨑玲奈）","role":"vocals"},{"name":"桜木舞華（CV：鈴木杏奈）","role":"vocals"},{"name":"真白清美（CV：其原有沙）","role":"vocals"},{"name":"HiREN（CV：花耶）","role":"vocals"},{"name":"水月ひかり（CV：礒部花凜）","role":"vocals"},{"name":"高木凛（CV：鷲見友美ジェナ）","role":"vocals"},{"name":"萩原ひまわり（CV：倉知玲鳳）","role":"vocals"},{"name":"SAKURAKO（CV：竹内夢）","role":"vocals"}],"recordings":[{"id":"mujikaku-seijo-wa-kyou-mo-muishiki-ni-chikara-wo-tare-nagasu-ed-1-instrumental","title":"アンノウンミー – instrumental","kind":"instrumental","format":"unknown"}],"releases":[{"id":"mujikaku-seijo-wa-kyou-mo-muishiki-ni-chikara-wo-tare-nagasu-ed-1-eser-080","title":"アンノウンミー","artistDisplayName":"ウタヒメドリーム オールスターズ","type":"single","tracks":[{"title":"アンノウンミー","position":1},{"title":"アンノウンミー – instrumental","position":3,"recordingId":"mujikaku-seijo-wa-kyou-mo-muishiki-ni-chikara-wo-tare-nagasu-ed-1-instrumental"}],"date":{"value":"2026-07-22","precision":"day"},"catalogNumber":"ESER-080","edition":"CD"}],"links":[{"platform":"ウタヒメドリーム","label":"アンノウンミー 官方 CD／配信商品","url":"https://www.utadori.com/music/4021/","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"}],"sourceMode":"explicit","seasonIds":["2026-spring","2026-summer"],"lastVerifiedAt":"2026-10-19"}],"metadataVerifiedAt":"2026-07-25","broadcastLabel":"2026-06-30起・AT-X週二22:00（JST）；地上波TOKYO MX 7月7日起週二23:00；截至2026-10-14已完結","metadataSources":[{"label":"官方：TV首播、時段或第二季度播出資料","url":"https://mujikaku-seijo.com/","language":"ja","role":"first_party","verifiedAt":"2026-10-19"},{"label":"AniList：作品識別與截止日前完結狀態","url":"https://anilist.co/anime/196219","language":"en","role":"identifier","verifiedAt":"2026-10-19"},{"label":"YourAnimes：夏季作品／續播身分交叉核對","url":"https://youranimes.tw/bangumi/202607","language":"zh-Hant","role":"broadcast_cross_check","verifiedAt":"2026-10-19"}]},
   {
-    "anilistId": 21,
-    "id": "curated-21",
-    "slug": "one-piece",
-    "seasonIds": [
-      "2026-spring",
-      "2026-summer"
-    ],
-    "verifiedAt": "2026-10-19",
-    "metadataVerifiedAt": "2026-10-19",
-    "startDate": "1999-10-20",
-    "titleJa": "ONE PIECE",
-    "titleRomaji": "ONE PIECE",
-    "editorialWeekday": 7,
-    "broadcastTimeJst": "23:15",
-    "broadcastLabel": "TV系列1999年首播；エルバフ編2026-04-05起・週日23:15（JST）・フジテレビ系列",
-    "status": "airing",
-    "anilistUrl": "https://anilist.co/anime/21",
-    "sourceReferenceUrls": [
-      "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/"
-    ],
-    "metadataSources": [
-      {
-        "url": "https://special.36kmperhour.com/rreec/",
-        "label": "時速36km官方：エルバフ編首播與TV時段",
-        "role": "first_party",
-        "language": "ja",
-        "verifiedAt": "2026-10-19"
-      },
-      {
-        "url": "https://www.ainatheend.jp/discography/detail.php?id=1021448",
-        "label": "アイナ・ジ・エンド官方：エルバフ編OP",
-        "role": "first_party",
-        "language": "ja",
-        "verifiedAt": "2026-10-19"
-      }
-    ],
-    "themes": [
-      {
-        "type": "OP",
-        "sequence": 29,
-        "titleJa": "ルミナス - Luminous",
-        "artistDisplayName": "アイナ・ジ・エンド",
-        "songId": "one-piece-op-29-song",
-        "seasonIds": [
-          "2026-spring",
-          "2026-summer"
-        ],
-        "sourceMode": "explicit",
-        "sources": [
-          {
-            "url": "https://www.ainatheend.jp/discography/detail.php?id=1021448",
-            "label": "アイナ・ジ・エンド官方：エルバフ編OP曲名及演唱",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "url": "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/",
-            "label": "TV歌曲歷史索引：OP29、曲名及演唱交叉核對",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-10-19"
-          }
-        ],
-        "lastVerifiedAt": "2026-10-19",
-        "evidence": [
-          {
-            "target": "song",
-            "targetId": "one-piece-op-29-song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://www.ainatheend.jp/discography/detail.php?id=1021448",
-              "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/"
-            ],
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "target": "anime_use",
-            "targetId": "one-piece-op-29",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://www.ainatheend.jp/discography/detail.php?id=1021448",
-              "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/"
-            ],
-            "verifiedAt": "2026-10-19"
-          }
-        ],
-        "usageLabel": "2026年エルバフ編 OP"
-      },
-      {
-        "type": "ED",
-        "sequence": 23,
-        "titleJa": "その未来",
-        "artistDisplayName": "時速36km",
-        "songId": "one-piece-ed-23-song",
-        "seasonIds": [
-          "2026-spring",
-          "2026-summer"
-        ],
-        "sourceMode": "explicit",
-        "sources": [
-          {
-            "url": "https://special.36kmperhour.com/rreec/",
-            "label": "時速36km官方：TV動畫ED曲名、演唱及播出資料",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "url": "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/",
-            "label": "TV歌曲歷史索引：ED23、曲名及演唱交叉核對",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-10-19"
-          }
-        ],
-        "lastVerifiedAt": "2026-10-19",
-        "evidence": [
-          {
-            "target": "song",
-            "targetId": "one-piece-ed-23-song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://special.36kmperhour.com/rreec/",
-              "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/"
-            ],
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "target": "anime_use",
-            "targetId": "one-piece-ed-23",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://special.36kmperhour.com/rreec/",
-              "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/"
-            ],
-            "verifiedAt": "2026-10-19"
-          }
-        ],
-        "usageLabel": "2026年エルバフ編 ED"
-      }
-    ]
-  },
+  "anilistId": 21,
+  "id": "curated-21",
+  "slug": "one-piece",
+  "seasonIds": [
+    "2026-spring",
+    "2020-fall",
+    "2020-spring",
+    "2020-summer",
+    "2020-winter",
+    "2021-fall",
+    "2021-spring",
+    "2021-summer",
+    "2021-winter",
+    "2022-fall",
+    "2022-spring",
+    "2022-summer",
+    "2022-winter",
+    "2023-fall",
+    "2023-spring",
+    "2023-summer",
+    "2023-winter",
+    "2024-fall",
+    "2024-spring",
+    "2024-summer",
+    "2024-winter",
+    "2025-fall",
+    "2025-spring",
+    "2025-summer",
+    "2026-summer"
+  ],
+  "verifiedAt": "2026-10-19",
+  "metadataVerifiedAt": "2026-10-19",
+  "startDate": "1999-10-20",
+  "titleJa": "ONE PIECE",
+  "titleRomaji": "ONE PIECE",
+  "editorialWeekday": 7,
+  "broadcastTimeJst": "23:15",
+  "broadcastLabel": "TV系列1999年首播；エルバフ編2026-04-05起・週日23:15（JST）・フジテレビ系列",
+  "status": "airing",
+  "anilistUrl": "https://anilist.co/anime/21",
+  "sourceReferenceUrls": [
+    "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/"
+  ],
+  "metadataSources": [
+    {
+      "url": "https://special.36kmperhour.com/rreec/",
+      "label": "時速36km官方：エルバフ編首播與TV時段",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "url": "https://www.ainatheend.jp/discography/detail.php?id=1021448",
+      "label": "アイナ・ジ・エンド官方：エルバフ編OP",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-19"
+    }
+  ],
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 29,
+      "titleJa": "ルミナス - Luminous",
+      "artistDisplayName": "アイナ・ジ・エンド",
+      "songId": "one-piece-op-29-song",
+      "seasonIds": [
+        "2026-spring",
+        "2026-summer"
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.ainatheend.jp/discography/detail.php?id=1021448",
+          "label": "アイナ・ジ・エンド官方：エルバフ編OP曲名及演唱",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "url": "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/",
+          "label": "TV歌曲歷史索引：OP29、曲名及演唱交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-19"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-19",
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "one-piece-op-29-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.ainatheend.jp/discography/detail.php?id=1021448",
+            "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/"
+          ],
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "one-piece-op-29",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ainatheend.jp/discography/detail.php?id=1021448",
+            "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/"
+          ],
+          "verifiedAt": "2026-10-19"
+        }
+      ],
+      "usageLabel": "2026年エルバフ編 OP"
+    },
+    {
+      "type": "ED",
+      "sequence": 23,
+      "titleJa": "その未来",
+      "artistDisplayName": "時速36km",
+      "songId": "one-piece-ed-23-song",
+      "seasonIds": [
+        "2026-spring",
+        "2026-summer"
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://special.36kmperhour.com/rreec/",
+          "label": "時速36km官方：TV動畫ED曲名、演唱及播出資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "url": "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/",
+          "label": "TV歌曲歷史索引：ED23、曲名及演唱交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-19"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-19",
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "one-piece-ed-23-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://special.36kmperhour.com/rreec/",
+            "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/"
+          ],
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "one-piece-ed-23",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://special.36kmperhour.com/rreec/",
+            "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/"
+          ],
+          "verifiedAt": "2026-10-19"
+        }
+      ],
+      "usageLabel": "2026年エルバフ編 ED"
+    },
+    {
+      "id": "one-piece-op-28",
+      "songId": "one-piece-op-28-song",
+      "type": "OP",
+      "sequence": 28,
+      "sources": [
+        {
+          "url": "https://one-piece.com/news/74089/index.html",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/ONE_PIECE_%28%E5%8B%95%E7%95%AB%29",
+          "label": "中文曲表：歷史OP／ED編號、本曲原名、名義及逐話實用",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/",
+          "label": "歷代TV逐曲歷史編號、原名、名義與原TV播映期間交叉",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [],
+      "credits": [],
+      "sourceMode": "explicit",
+      "titleJa": "カーマイン",
+      "artistDisplayName": "ELLEGARDEN",
+      "seasonIds": [
+        "2025-summer",
+        "2025-fall"
+      ],
+      "usageLabel": "原TV OP；第1139–1155話",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://one-piece.com/news/74089/index.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-28-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://one-piece.com/news/74089/index.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-28"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/ONE_PIECE_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-28-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/ONE_PIECE_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-28"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-28-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-28"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈カーマイン〉：官方原期公告與中文逐曲用途表／TV期間表交叉：2025/8/10–12/28；第1139–1155話。歷史OP28有可靠交叉明列且未占用，原2026 OP29／ED23不動。官方公告直接明8/10放送回起新OP；團員樂器名單與訪談不套本曲全員vocals。",
+          "resumeWhen": "詳細階段沿本曲已核第一方與交叉來源，待逐曲明示作者／實唱資料、可識別錄音、官方影片形式、收錄品及正版平台再補；不由band成員、cast或簡介推全員歌唱，不由MV、NC、Lyric Video、專輯或不同連結推full／TV錄音、新歌或未證季度。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "id": "one-piece-op-27",
+      "songId": "one-piece-op-27-song",
+      "type": "OP",
+      "sequence": 27,
+      "sources": [
+        {
+          "url": "https://one-piece.com/news/71790/index.html",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/ONE_PIECE_%28%E5%8B%95%E7%95%AB%29",
+          "label": "中文曲表：歷史OP／ED編號、本曲原名、名義及逐話實用",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/",
+          "label": "歷代TV逐曲歷史編號、原名、名義與原TV播映期間交叉",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [],
+      "credits": [],
+      "sourceMode": "explicit",
+      "titleJa": "天使と悪魔",
+      "artistDisplayName": "GRe4N BOYZ",
+      "seasonIds": [
+        "2025-spring",
+        "2025-summer"
+      ],
+      "usageLabel": "原TV OP；第1123–1138話",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://one-piece.com/news/71790/index.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-27-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://one-piece.com/news/71790/index.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-27"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/ONE_PIECE_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-27-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/ONE_PIECE_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-27"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-27-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-27"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈天使と悪魔〉：官方原期公告與中文逐曲用途表／TV期間表交叉：2025/4/5–8/3；第1123–1138話。歷史OP27有可靠交叉明列且未占用，原2026 OP29／ED23不動。4/5原TV再開本編1123話在21:00特別節目內；4/6起固定23:15，非串流先行。英文CC另列1137話特殊ED未取得FP逐話證據，另deferred、不由OP推ED。",
+          "resumeWhen": "詳細階段沿本曲已核第一方與交叉來源，待逐曲明示作者／實唱資料、可識別錄音、官方影片形式、收錄品及正版平台再補；不由band成員、cast或簡介推全員歌唱，不由MV、NC、Lyric Video、專輯或不同連結推full／TV錄音、新歌或未證季度。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "id": "one-piece-op-26",
+      "songId": "one-piece-op-26-song",
+      "type": "OP",
+      "sequence": 26,
+      "sources": [
+        {
+          "url": "https://one-piece.com/news/64432/index.html",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/ONE_PIECE_%28%E5%8B%95%E7%95%AB%29",
+          "label": "中文曲表：歷史OP／ED編號、本曲原名、名義及逐話實用",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/",
+          "label": "歷代TV逐曲歷史編號、原名、名義與原TV播映期間交叉",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [],
+      "credits": [
+        {
+          "name": "藤林聖子",
+          "role": "lyrics"
+        },
+        {
+          "name": "田中公平",
+          "role": "composition"
+        },
+        {
+          "name": "中村 博",
+          "role": "arrangement"
+        },
+        {
+          "name": "きただにひろし",
+          "role": "vocals"
+        }
+      ],
+      "sourceMode": "explicit",
+      "titleJa": "あーーっす！",
+      "artistDisplayName": "きただにひろし",
+      "seasonIds": [
+        "2024-winter",
+        "2024-spring",
+        "2024-summer",
+        "2024-fall"
+      ],
+      "usageLabel": "原TV OP；第1089–1122話",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://one-piece.com/news/64432/index.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-26-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://one-piece.com/news/64432/index.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-26"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/ONE_PIECE_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-26-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/ONE_PIECE_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-26"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-26-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-26"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://one-piece.com/news/64432/index.html"
+          ],
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈あーーっす！〉：官方原期公告與中文逐曲用途表／TV期間表交叉：2024/1/7–10/13；第1089–1122話。歷史OP26有可靠交叉明列且未占用，原2026 OP29／ED23不動。官方同頁逐曲LCA；魚人島重編版屬另外作品，不延本曲至2025冬。",
+          "resumeWhen": "詳細階段沿本曲已核第一方與交叉來源，待逐曲明示作者／實唱資料、可識別錄音、官方影片形式、收錄品及正版平台再補；不由band成員、cast或簡介推全員歌唱，不由MV、NC、Lyric Video、專輯或不同連結推full／TV錄音、新歌或未證季度。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "id": "one-piece-op-25",
+      "songId": "one-piece-op-25-song",
+      "type": "OP",
+      "sequence": 25,
+      "sources": [
+        {
+          "url": "https://one-piece.com/news/63060/index.html",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://one-piece.com/news/65594/index.html",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/ONE_PIECE_%28%E5%8B%95%E7%95%AB%29",
+          "label": "中文曲表：歷史OP／ED編號、本曲原名、名義及逐話實用",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/",
+          "label": "歷代TV逐曲歷史編號、原名、名義與原TV播映期間交叉",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [],
+      "credits": [],
+      "sourceMode": "explicit",
+      "titleJa": "最高到達点",
+      "artistDisplayName": "SEKAI NO OWARI",
+      "seasonIds": [
+        "2023-summer",
+        "2023-fall"
+      ],
+      "usageLabel": "原TV OP；第1074–1088話",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://one-piece.com/news/63060/index.html",
+            "https://one-piece.com/news/65594/index.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-25-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://one-piece.com/news/63060/index.html",
+            "https://one-piece.com/news/65594/index.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-25"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/ONE_PIECE_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-25-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/ONE_PIECE_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-25"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-25-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-25"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈最高到達点〉：官方原期公告與中文逐曲用途表／TV期間表交叉：2023/9/3–12/17；第1074–1088話。歷史OP25有可靠交叉明列且未占用，原2026 OP29／ED23不動。官方65594明記2023年9–12月放送時主題歌，直接支持夏秋；2024專輯上市不增加2024TV季度。",
+          "resumeWhen": "詳細階段沿本曲已核第一方與交叉來源，待逐曲明示作者／實唱資料、可識別錄音、官方影片形式、收錄品及正版平台再補；不由band成員、cast或簡介推全員歌唱，不由MV、NC、Lyric Video、專輯或不同連結推full／TV錄音、新歌或未證季度。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "id": "one-piece-op-24",
+      "songId": "one-piece-op-24-song",
+      "type": "OP",
+      "sequence": 24,
+      "sources": [
+        {
+          "url": "https://one-piece.com/news/o20211129_13379/index.html",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://one-piece.com/news/o20220109_13529/index.html",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=WhX6IQGSpLc",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/ONE_PIECE_%28%E5%8B%95%E7%95%AB%29",
+          "label": "中文曲表：歷史OP／ED編號、本曲原名、名義及逐話實用",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/",
+          "label": "歷代TV逐曲歷史編號、原名、名義與原TV播映期間交叉",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [],
+      "credits": [],
+      "sourceMode": "explicit",
+      "titleJa": "PAINT",
+      "artistDisplayName": "I Don’t Like Mondays.",
+      "seasonIds": [
+        "2022-winter",
+        "2022-spring",
+        "2022-summer",
+        "2022-fall",
+        "2023-winter",
+        "2023-spring",
+        "2023-summer"
+      ],
+      "usageLabel": "原TV OP；第1005–1027、1031–1073話",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://one-piece.com/news/o20211129_13379/index.html",
+            "https://one-piece.com/news/o20220109_13529/index.html",
+            "https://www.youtube.com/watch?v=WhX6IQGSpLc"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-24-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=WhX6IQGSpLc",
+            "https://one-piece.com/news/o20211129_13379/index.html",
+            "https://one-piece.com/news/o20220109_13529/index.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-24"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/ONE_PIECE_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-24-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/ONE_PIECE_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-24"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-24-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈PAINT〉：官方原期公告與中文逐曲用途表／TV期間表交叉：2022/1/9–2023/8/20；第1005–1027、1031–1073話。歷史OP24有可靠交叉明列且未占用，原2026 OP29／ED23不動。原期官方新聞寫主題歌，OP精確分類由已驗證官方YouTube可見標題オープニング補足；不把未成功取回的影片正文當已讀。日本TV1028–1030新時代暫代按中文表排除，不能用海外simulcast仍用PAINT抹掉差異；同季其餘日本TV仍有本曲。團體簡介全曲創作不當逐曲LCA。",
+          "resumeWhen": "詳細階段沿本曲已核第一方與交叉來源，待逐曲明示作者／實唱資料、可識別錄音、官方影片形式、收錄品及正版平台再補；不由band成員、cast或簡介推全員歌唱，不由MV、NC、Lyric Video、專輯或不同連結推full／TV錄音、新歌或未證季度。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "id": "one-piece-op-23",
+      "songId": "one-piece-op-23-song",
+      "type": "OP",
+      "sequence": 23,
+      "sources": [
+        {
+          "url": "https://one-piece.com/news/o20200716_11243/index.html",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://one-piece.com/news/o20200722_11261/index.html",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/ONE_PIECE_%28%E5%8B%95%E7%95%AB%29",
+          "label": "中文曲表：歷史OP／ED編號、本曲原名、名義及逐話實用",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/",
+          "label": "歷代TV逐曲歷史編號、原名、名義與原TV播映期間交叉",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [],
+      "credits": [
+        {
+          "name": "花村想太",
+          "role": "lyrics"
+        }
+      ],
+      "sourceMode": "explicit",
+      "titleJa": "DREAMIN’ ON",
+      "artistDisplayName": "Da-iCE",
+      "seasonIds": [
+        "2020-summer",
+        "2020-fall",
+        "2021-winter",
+        "2021-spring",
+        "2021-summer",
+        "2021-fall"
+      ],
+      "usageLabel": "原TV OP；第935–999、1001–1004話",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://one-piece.com/news/o20200716_11243/index.html",
+            "https://one-piece.com/news/o20200722_11261/index.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-23-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://one-piece.com/news/o20200716_11243/index.html",
+            "https://one-piece.com/news/o20200722_11261/index.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-23"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/ONE_PIECE_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-23-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/ONE_PIECE_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-23"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-23-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-23"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://one-piece.com/news/o20200716_11243/index.html"
+          ],
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈DREAMIN’ ON〉：官方原期公告與中文逐曲用途表／TV期間表交叉：2020/8/2–2021/12/19；第935–999、1001–1004話。歷史OP23有可靠交叉明列且未占用，原2026 OP29／ED23不動。官方同頁本曲作詞花村想太可補；5人團體名義不推5名個別vocals。同頁ウィーアー！5人翻唱只商品，不能當TV用途；1000話特別OP排除本用途逐話範圍。",
+          "resumeWhen": "詳細階段沿本曲已核第一方與交叉來源，待逐曲明示作者／實唱資料、可識別錄音、官方影片形式、收錄品及正版平台再補；不由band成員、cast或簡介推全員歌唱，不由MV、NC、Lyric Video、專輯或不同連結推full／TV錄音、新歌或未證季度。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "id": "one-piece-op-22",
+      "songId": "one-piece-op-22-song",
+      "type": "OP",
+      "sequence": 22,
+      "sources": [
+        {
+          "url": "https://one-piece.com/news/o20190701_9411/index.html",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://one-piece.com/news/o20190706_9497/index.html",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://one-piece.com/anime/o5417/index.html",
+          "label": "第一方第934話原TV2020/7/26日期；不證本話歌曲／演唱或usage",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/ONE_PIECE_%28%E5%8B%95%E7%95%AB%29",
+          "label": "中文曲表：OP22及第892–934話實用",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/ONE_PIECE%E5%8B%95%E7%95%AB%E9%9B%86%E6%95%B8%E5%88%97%E8%A1%A8",
+          "label": "中文原TV各話日期：僅日期／季度交叉，不證歌曲或用途",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [],
+      "credits": [
+        {
+          "name": "藤林聖子",
+          "role": "lyrics"
+        },
+        {
+          "name": "田中公平",
+          "role": "composition"
+        },
+        {
+          "name": "根岸貴幸",
+          "role": "arrangement"
+        },
+        {
+          "name": "きただにひろし",
+          "role": "vocals"
+        }
+      ],
+      "sourceMode": "explicit",
+      "titleJa": "OVER THE TOP",
+      "artistDisplayName": "きただにひろし",
+      "seasonIds": [
+        "2020-winter",
+        "2020-spring",
+        "2020-summer"
+      ],
+      "usageLabel": "原TV OP；本批第916–934話；原用途第892–934話",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://one-piece.com/news/o20190701_9411/index.html",
+            "https://one-piece.com/news/o20190706_9497/index.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-22-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://one-piece.com/news/o20190706_9497/index.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-22"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/ONE_PIECE_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-22-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/ONE_PIECE_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-op-22"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://one-piece.com/news/o20190701_9411/index.html"
+          ],
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈OVER THE TOP〉：官方原期公告與中文逐曲用途表／TV期間表交叉：本批取2020/1/5–7/26；原期起用2019/7/7在本批年份外；本批第916–934話；原用途第892–934話。歷史OP22有可靠交叉明列且未占用，原2026 OP29／ED23不動。TV歷史表截止年誤植2019，本用途不引用該行或猜改數字；官方934話2020/7/26、中文原TV916話1/5及927話4/5，與本曲892–934話逐曲範圍交叉支持2020冬春夏；停播期間重播不另作新實用。",
+          "resumeWhen": "詳細階段沿本曲已核第一方與交叉來源，待逐曲明示作者／實唱資料、可識別錄音、官方影片形式、收錄品及正版平台再補；不由band成員、cast或簡介推全員歌唱，不由MV、NC、Lyric Video、專輯或不同連結推full／TV錄音、新歌或未證季度。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "id": "one-piece-ed-22",
+      "songId": "one-piece-ed-22-song",
+      "type": "ED",
+      "sequence": 22,
+      "sources": [
+        {
+          "url": "https://one-piece.com/news/73754/index.html",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://one-piece.com/news/76656/index.html",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/ONE_PIECE_%28%E5%8B%95%E7%95%AB%29",
+          "label": "中文曲表：歷史OP／ED編號、本曲原名、名義及逐話實用",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/",
+          "label": "歷代TV逐曲歷史編號、原名、名義與原TV播映期間交叉",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [],
+      "credits": [],
+      "sourceMode": "explicit",
+      "titleJa": "PUNKS",
+      "artistDisplayName": "カメレオン・ライム・ウーピーパイ",
+      "seasonIds": [
+        "2025-summer",
+        "2025-fall"
+      ],
+      "usageLabel": "原TV ED；第1139–1155話",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://one-piece.com/news/73754/index.html",
+            "https://one-piece.com/news/76656/index.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-ed-22-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://one-piece.com/news/73754/index.html",
+            "https://one-piece.com/news/76656/index.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-ed-22"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/ONE_PIECE_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-ed-22-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/ONE_PIECE_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-ed-22"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-ed-22-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-ed-22"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈PUNKS〉：官方原期公告與中文逐曲用途表／TV期間表交叉：2025/8/10–12/28；第1139–1155話。歷史ED22有可靠交叉明列且未占用，原2026 OP29／ED23不動。原期公告明8/10放送回起ED，11/28官方亦明當前TV之本曲ED；Chi-與Whoopies簡介不作逐曲全員vocal。",
+          "resumeWhen": "詳細階段沿本曲已核第一方與交叉來源，待逐曲明示作者／實唱資料、可識別錄音、官方影片形式、收錄品及正版平台再補；不由band成員、cast或簡介推全員歌唱，不由MV、NC、Lyric Video、專輯或不同連結推full／TV錄音、新歌或未證季度。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "id": "one-piece-ed-21",
+      "songId": "one-piece-ed-21-song",
+      "type": "ED",
+      "sequence": 21,
+      "sources": [
+        {
+          "url": "https://one-piece.com/news/72161/index.html",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/ONE_PIECE_%28%E5%8B%95%E7%95%AB%29",
+          "label": "中文曲表：歷史OP／ED編號、本曲原名、名義及逐話實用",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/",
+          "label": "歷代TV逐曲歷史編號、原名、名義與原TV播映期間交叉",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [],
+      "credits": [],
+      "sourceMode": "explicit",
+      "titleJa": "The 1",
+      "artistDisplayName": "muque",
+      "seasonIds": [
+        "2025-spring",
+        "2025-summer"
+      ],
+      "usageLabel": "原TV ED；第1123–1136、1138話",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://one-piece.com/news/72161/index.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-ed-21-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://one-piece.com/news/72161/index.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-ed-21"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/ONE_PIECE_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-ed-21-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/ONE_PIECE_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-ed-21"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-ed-21-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-ed-21"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈The 1〉：官方原期公告與中文逐曲用途表／TV期間表交叉：2025/4/5–8/3；第1123–1136、1138話。歷史ED21有可靠交叉明列且未占用，原2026 OP29／ED23不動。第一方4/20已明當前TV ED；4/5起用／逐話範圍由中文及TV期間表交叉，不以4/28發行當首TV。1137話不屬本曲ED，不延用補猜。",
+          "resumeWhen": "詳細階段沿本曲已核第一方與交叉來源，待逐曲明示作者／實唱資料、可識別錄音、官方影片形式、收錄品及正版平台再補；不由band成員、cast或簡介推全員歌唱，不由MV、NC、Lyric Video、專輯或不同連結推full／TV錄音、新歌或未證季度。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "id": "one-piece-ed-20",
+      "songId": "one-piece-ed-20-song",
+      "type": "ED",
+      "sequence": 20,
+      "sources": [
+        {
+          "url": "https://one-piece.com/news/64432/index.html",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/ONE_PIECE_%28%E5%8B%95%E7%95%AB%29",
+          "label": "中文曲表：歷史OP／ED編號、本曲原名、名義及逐話實用",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/",
+          "label": "歷代TV逐曲歷史編號、原名、名義與原TV播映期間交叉",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [],
+      "credits": [
+        {
+          "name": "大槻マキ",
+          "role": "lyrics"
+        },
+        {
+          "name": "久下真音",
+          "role": "composition"
+        },
+        {
+          "name": "金子麻友美",
+          "role": "composition"
+        },
+        {
+          "name": "久下真音",
+          "role": "arrangement"
+        },
+        {
+          "name": "大槻マキ",
+          "role": "vocals"
+        }
+      ],
+      "sourceMode": "explicit",
+      "titleJa": "Dear sunrise",
+      "artistDisplayName": "大槻マキ",
+      "seasonIds": [
+        "2024-winter",
+        "2024-spring",
+        "2024-summer",
+        "2024-fall"
+      ],
+      "usageLabel": "原TV ED；第1089–1122話",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://one-piece.com/news/64432/index.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-ed-20-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://one-piece.com/news/64432/index.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-ed-20"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/ONE_PIECE_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-ed-20-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/ONE_PIECE_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-ed-20"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-ed-20-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-ed-20"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://one-piece.com/news/64432/index.html"
+          ],
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈Dear sunrise〉：官方原期公告與中文逐曲用途表／TV期間表交叉：2024/1/7–10/13；第1089–1122話。歷史ED20有可靠交叉明列且未占用，原2026 OP29／ED23不動。官方同頁明L大槻マキC久下真音・金子麻友美A久下真音；保官方マキ名義，不由中文真希反譯。魚人島重編版Sailing不套本曲。",
+          "resumeWhen": "詳細階段沿本曲已核第一方與交叉來源，待逐曲明示作者／實唱資料、可識別錄音、官方影片形式、收錄品及正版平台再補；不由band成員、cast或簡介推全員歌唱，不由MV、NC、Lyric Video、專輯或不同連結推full／TV錄音、新歌或未證季度。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "id": "one-piece-ed-19",
+      "songId": "one-piece-ed-19-song",
+      "type": "ED",
+      "sequence": 19,
+      "sources": [
+        {
+          "url": "https://one-piece.com/news/62428/index.html",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/ONE_PIECE_%28%E5%8B%95%E7%95%AB%29",
+          "label": "中文曲表：歷史OP／ED編號、本曲原名、名義及逐話實用",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/",
+          "label": "歷代TV逐曲歷史編號、原名、名義與原TV播映期間交叉",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [],
+      "credits": [],
+      "sourceMode": "explicit",
+      "titleJa": "Raise",
+      "artistDisplayName": "Chilli Beans.",
+      "seasonIds": [
+        "2023-summer",
+        "2023-fall"
+      ],
+      "usageLabel": "原TV ED；第1071–1088話",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://one-piece.com/news/62428/index.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-ed-19-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://one-piece.com/news/62428/index.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-ed-19"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/ONE_PIECE_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-ed-19-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/ONE_PIECE_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-ed-19"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-ed-19-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://entamedata.com/2020/10/26/%E3%82%A2%E3%83%8B%E3%83%A1one-piece%E2%80%A5%E6%AD%B4%E4%BB%A3%E3%81%AE%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%81%A3%E3%81%A6%EF%BC%9F-1999%E5%B9%B4%EF%BD%9E%E7%8F%BE%E5%9C%A8/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "one-piece-ed-19"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈Raise〉：官方原期公告與中文逐曲用途表／TV期間表交叉：2023/8/6–12/17；第1071–1088話。歷史ED19有可靠交叉明列且未占用，原2026 OP29／ED23不動。官方明8/6放送回ED復活，不由發行日或1074話新OP起日推本曲ED起用；逐話表及TV期間表交叉到12/17。團體名單不推本曲全員實唱。",
+          "resumeWhen": "詳細階段沿本曲已核第一方與交叉來源，待逐曲明示作者／實唱資料、可識別錄音、官方影片形式、收錄品及正版平台再補；不由band成員、cast或簡介推全員歌唱，不由MV、NC、Lyric Video、專輯或不同連結推full／TV錄音、新歌或未證季度。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    }
+  ]
+},
 
   {"anilistId":190143,"id":"curated-190143","slug":"shunkashuutou-daikousha-haru-no-mai","seasonIds":["2026-spring","2026-winter"],"startDate":"2026-03-29","titleJa":"春夏秋冬代行者 春の舞","titleRomaji":"Shunkashuutou Daikousha: Haru no Mai","editorialWeekday":6,"broadcastTimeJst":"24:00","broadcastLabel":"日本TV：2026-03-28土曜24:00（暦日3月29日）・TOKYO MXほか；24分・全14話、春季作品","status":"finished","officialSiteUrl":"https://4seasons-anime.com/","anilistUrl":"https://anilist.co/anime/190143","sourceReferenceUrls":["https://www.animatetimes.com/news/details.php?id=1775531219"],"verifiedAt":"2026-10-19","metadataSources":[{"url":"https://4seasons-anime.com/onair/","label":"動畫官方：日本TV首播、深夜時段與配信分別","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://www.animatetimes.com/news/details.php?id=1775531219","label":"Animate Times：標準TV、全14話與播出期間","role":"broadcast_cross_check","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://anilist.co/anime/190143","label":"AniList：標準TV、24分鐘及14話識別","role":"identifier","language":"en","verifiedAt":"2026-10-19"}],"themes":[{"type":"OP","sequence":1,"titleJa":"Petals feat. 夏背","artistDisplayName":"Orangestar","seasonIds":["2026-spring"],"songId":"shunkashuutou-daikousha-haru-no-mai-op-1-song","sourceMode":"explicit","sources":[{"url":"https://4seasons-anime.com/news/?article_id=69813","label":"動畫官方：OP／ED原名、名義、實際歌唱及詞曲編","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://www.animatetimes.com/news/details.php?id=1775531219","label":"Animate Times：OP／ED曲名、演唱名義與創作交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-19"}],"lastVerifiedAt":"2026-10-19","usageLabel":"日本TV OP","evidence":[{"target":"song","targetId":"shunkashuutou-daikousha-haru-no-mai-op-1-song","fields":["title","artist"],"sourceUrls":["https://4seasons-anime.com/news/?article_id=69813","https://www.animatetimes.com/news/details.php?id=1775531219"],"verifiedAt":"2026-10-19"},{"target":"anime_use","targetId":"shunkashuutou-daikousha-haru-no-mai-op-1","fields":["usage"],"sourceUrls":["https://4seasons-anime.com/news/?article_id=69813","https://www.animatetimes.com/news/details.php?id=1775531219"],"verifiedAt":"2026-10-19"},{"target":"credits","fields":["credits"],"sourceUrls":["https://4seasons-anime.com/news/?article_id=69813"],"verifiedAt":"2026-10-19"}],"credits":[{"name":"夏背","role":"vocals"},{"name":"Orangestar","role":"lyrics"},{"name":"Orangestar","role":"composition"},{"name":"TAKU INOUE","role":"arrangement"},{"name":"永山ひろなお","role":"arrangement"},{"name":"Orangestar","role":"arrangement"}],"followUp":[{"fields":["use_quarters"],"note":"動畫首播暦日為3月29日；本曲先保存已確認春季用途，未由動畫首播日推定首話一定使用OP／ED。","resumeWhen":"取得3月29日第1話正片credit或官方逐集歌曲表時，再確認是否追加2026冬季用途。","checkedAt":"2026-10-19"}]},{"type":"ED","sequence":1,"titleJa":"花筏 feat. 夏背","artistDisplayName":"Orangestar","seasonIds":["2026-spring"],"songId":"shunkashuutou-daikousha-haru-no-mai-ed-1-song","sourceMode":"explicit","sources":[{"url":"https://4seasons-anime.com/news/?article_id=69813","label":"動畫官方：OP／ED原名、名義、實際歌唱及詞曲編","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://www.animatetimes.com/news/details.php?id=1775531219","label":"Animate Times：OP／ED曲名、演唱名義與創作交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-19"}],"lastVerifiedAt":"2026-10-19","usageLabel":"日本TV ED","evidence":[{"target":"song","targetId":"shunkashuutou-daikousha-haru-no-mai-ed-1-song","fields":["title","artist"],"sourceUrls":["https://4seasons-anime.com/news/?article_id=69813","https://www.animatetimes.com/news/details.php?id=1775531219"],"verifiedAt":"2026-10-19"},{"target":"anime_use","targetId":"shunkashuutou-daikousha-haru-no-mai-ed-1","fields":["usage"],"sourceUrls":["https://4seasons-anime.com/news/?article_id=69813","https://www.animatetimes.com/news/details.php?id=1775531219"],"verifiedAt":"2026-10-19"},{"target":"credits","fields":["credits"],"sourceUrls":["https://4seasons-anime.com/news/?article_id=69813"],"verifiedAt":"2026-10-19"}],"credits":[{"name":"夏背","role":"vocals"},{"name":"Orangestar","role":"lyrics"},{"name":"Orangestar","role":"composition"},{"name":"TAKU INOUE","role":"arrangement"},{"name":"永山ひろなお","role":"arrangement"},{"name":"Orangestar","role":"arrangement"}],"followUp":[{"fields":["use_quarters"],"note":"動畫首播暦日為3月29日；本曲先保存已確認春季用途，未由動畫首播日推定首話一定使用OP／ED。","resumeWhen":"取得3月29日第1話正片credit或官方逐集歌曲表時，再確認是否追加2026冬季用途。","checkedAt":"2026-10-19"}]}]},
   {"anilistId":8687,"id":"curated-8687","slug":"doraemon-2005","seasonIds":["2026-spring","2020-winter","2020-spring","2020-summer","2020-fall","2021-winter","2021-spring","2021-summer","2021-fall","2022-winter","2022-spring","2022-summer","2022-fall","2023-winter","2023-spring","2023-summer","2023-fall","2024-winter","2024-spring","2024-summer","2024-fall","2025-winter","2025-spring","2025-summer","2025-fall","2026-winter","2026-summer","2026-fall"],"startDate":"2005-04-15","titleJa":"ドラえもん","titleRomaji":"Doraemon (2005)","editorialWeekday":6,"broadcastTimeJst":"17:00","broadcastLabel":"2005-04-15開始のTVシリーズ；2019-10月より土曜17:00・テレビ朝日系、2020–2026續播","status":"airing","officialSiteUrl":"https://www.tv-asahi.co.jp/doraemon/","anilistUrl":"https://anilist.co/anime/8687","sourceReferenceUrls":["https://zh.wikipedia.org/wiki/%E5%93%86%E5%95%A6A%E5%A4%A2_(2005%E5%B9%B4%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB)"],"verifiedAt":"2026-10-19","metadataSources":[{"url":"https://post.tv-asahi.co.jp/post-571877/","label":"テレビ朝日：日本TV放送時段","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://post.tv-asahi.co.jp/post-118037/","label":"テレビ朝日：2019年改時段與TV系列","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://zh.wikipedia.org/wiki/%E5%93%86%E5%95%A6A%E5%A4%A2_(2005%E5%B9%B4%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB)","label":"中文2005年版索引：系列首播及TV歌曲期間","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-19"},{"url":"https://anilist.co/anime/8687","label":"AniList：2005年標準TV系列識別","role":"identifier","language":"en","verifiedAt":"2026-10-19"}],"themes":[{"type":"OP","sequence":1,"titleJa":"ドラえもん","artistDisplayName":"星野源","seasonIds":["2020-winter","2020-spring","2020-summer","2020-fall","2021-winter","2021-spring","2021-summer","2021-fall","2022-winter","2022-spring","2022-summer","2022-fall","2023-winter","2023-spring","2023-summer","2023-fall","2024-winter","2024-spring","2024-summer","2024-fall"],"songId":"doraemon-2005-op-1-song","sourceMode":"explicit","sources":[{"url":"https://post.tv-asahi.co.jp/post-118037/","label":"テレビ朝日：星野源演唱的常態TV OP及2020年改畫面","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://zh.wikipedia.org/wiki/%E5%93%86%E5%95%A6A%E5%A4%A2_(2005%E5%B9%B4%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB)","label":"中文2005年版歌曲表：原名、演唱及TV期間","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-19"},{"url":"https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202410.html","label":"逐集交叉索引：2024秋OP切換前後","role":"cross_check","language":"ja","verifiedAt":"2026-10-19"}],"lastVerifiedAt":"2026-10-19","usageLabel":"2019年10月起 日本TV OP","evidence":[{"target":"song","targetId":"doraemon-2005-op-1-song","fields":["title","artist"],"sourceUrls":["https://post.tv-asahi.co.jp/post-118037/","https://zh.wikipedia.org/wiki/%E5%93%86%E5%95%A6A%E5%A4%A2_(2005%E5%B9%B4%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB)","https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202410.html"],"verifiedAt":"2026-10-19"},{"target":"anime_use","targetId":"doraemon-2005-op-1","fields":["usage"],"sourceUrls":["https://post.tv-asahi.co.jp/post-118037/","https://zh.wikipedia.org/wiki/%E5%93%86%E5%95%A6A%E5%A4%A2_(2005%E5%B9%B4%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB)","https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202410.html"],"verifiedAt":"2026-10-19"}]},{"type":"OP","sequence":2,"titleJa":"夢をかなえてドラえもん","artistDisplayName":"mao","seasonIds":["2024-fall","2025-winter","2025-spring","2025-summer","2025-fall","2026-winter","2026-spring","2026-summer","2026-fall"],"songId":"doraemon-2005-op-2-song","sourceMode":"explicit","sources":[{"url":"https://www.tv-asahi.co.jp/music-top/","label":"テレビ朝日官方音樂索引：現行歌曲與演唱名義","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://columbia.jp/doraemonthemesong/","label":"日本コロムビア：原名、mao演唱及TV歌曲身分","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://zh.wikipedia.org/wiki/%E5%93%86%E5%95%A6A%E5%A4%A2_(2005%E5%B9%B4%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB)","label":"中文2005年版歌曲表：原名、演唱及復歸期間","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-19"},{"url":"https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202410.html","label":"逐集交叉索引：2024-11-16起OP確認","role":"cross_check","language":"ja","verifiedAt":"2026-10-19"}],"lastVerifiedAt":"2026-10-19","usageLabel":"2024-11-16起 日本TV OP（mao演唱）","evidence":[{"target":"song","targetId":"doraemon-2005-op-2-song","fields":["title","artist"],"sourceUrls":["https://www.tv-asahi.co.jp/music-top/","https://columbia.jp/doraemonthemesong/","https://zh.wikipedia.org/wiki/%E5%93%86%E5%95%A6A%E5%A4%A2_(2005%E5%B9%B4%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB)","https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202410.html"],"verifiedAt":"2026-10-19"},{"target":"anime_use","targetId":"doraemon-2005-op-2","fields":["usage"],"sourceUrls":["https://www.tv-asahi.co.jp/music-top/","https://columbia.jp/doraemonthemesong/","https://zh.wikipedia.org/wiki/%E5%93%86%E5%95%A6A%E5%A4%A2_(2005%E5%B9%B4%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB)","https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202410.html"],"verifiedAt":"2026-10-19"}],"followUp":[{"fields":["use_quarters"],"note":"本筆只記日本TV的mao演唱OP；同曲其他角色歌唱、ED使用及個別短期替換尚未完整盤點。","resumeWhen":"後續盤點原播出期間時，按官方逐集credit確認其他用途與例外；不由同名影片或商品推定。"}]},{"type":"ED","sequence":1,"titleJa":"もしものがたり","artistDisplayName":"Tani Yuuki","seasonIds":["2025-fall","2026-winter","2026-spring","2026-summer","2026-fall"],"songId":"doraemon-2005-ed-1-song","sourceMode":"explicit","sources":[{"url":"https://post.tv-asahi.co.jp/post-571877/","label":"テレビ朝日：2025-10-04起新常態ED原名與演唱","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://www.tv-asahi.co.jp/music-top/","label":"テレビ朝日官方音樂索引：現行ED","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://www.billboard-japan.com/d_news/detail/153977/2","label":"Billboard Japan：原名、演唱、TV ED及首播日交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-19"}],"lastVerifiedAt":"2026-10-19","usageLabel":"2025-10-04起 日本TV ED","evidence":[{"target":"song","targetId":"doraemon-2005-ed-1-song","fields":["title","artist"],"sourceUrls":["https://post.tv-asahi.co.jp/post-571877/","https://www.tv-asahi.co.jp/music-top/","https://www.billboard-japan.com/d_news/detail/153977/2"],"verifiedAt":"2026-10-19"},{"target":"anime_use","targetId":"doraemon-2005-ed-1","fields":["usage"],"sourceUrls":["https://post.tv-asahi.co.jp/post-571877/","https://www.tv-asahi.co.jp/music-top/","https://www.billboard-japan.com/d_news/detail/153977/2"],"verifiedAt":"2026-10-19"}],"followUp":[{"fields":["use_quarters"],"note":"保存已確認的常態TV ED季度；電影宣傳期或其他特別用曲的逐集差異尚未完整盤點。","resumeWhen":"盤點至相關放送時，以官方節目表或正片credit補各次替換；影片畫面更新不自動新增錄音。"}]}]},
