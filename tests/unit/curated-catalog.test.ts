@@ -139,7 +139,11 @@ it("keeps the whole reviewed catalogue consistent across seasons, details, sourc
   // Newly announced uses can opt out of inheriting evidence reviewed for older songs.
   for (const seed of curatedAnimeSeeds) {
     for (const authored of seed.themes.filter((theme) => theme.sourceMode === "explicit")) {
-      const published = animeById.get(seed.id)!.themes.find((theme) => theme.type === authored.type && theme.sequence === authored.sequence)!;
+      // Explicit public IDs also cover legacy raw/public sequence mappings.
+      const published = animeById.get(seed.id)!.themes.find((theme) => authored.id
+        ? theme.id === authored.id
+        : theme.type === authored.type && theme.sequence === authored.sequence)!;
+      expect(published, seed.id + ': ' + (authored.id ?? authored.type + ':' + authored.sequence)).toBeDefined();
       expect(published.sources.map((source) => source.url).sort()).toEqual(
         [...new Set(authored.sources!.map((source) => source.url))].sort()
       );
