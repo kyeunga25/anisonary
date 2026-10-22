@@ -12,7 +12,7 @@ type Fall2019SeedInput = Omit<
   | "wikipediaUrl"
   | "sourceReferenceUrls"
   | "verifiedAt"
->;
+> & Partial<Pick<CuratedAnimeSeed, "seasonIds">>;
 
 const wikipediaUrl =
   "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8";
@@ -26,7 +26,7 @@ function fall2019Seed(row: Fall2019SeedInput): CuratedAnimeSeed {
   return {
     ...row,
     id: `curated-${row.anilistId}`,
-    seasonIds: ["2019-fall"],
+    seasonIds: row.seasonIds ?? ["2019-fall"],
     editorialWeekday: weekday || 7,
     status: "finished",
     anilistUrl,
@@ -1992,70 +1992,1747 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
     themes: [],
   },
   {
-    anilistId: 112153,
-    slug: "pocket-monsters-2019",
-    startDate: "2019-11-17",
-    titleJa: "ポケットモンスター (2019)",
-    titleZhHant: "寶可夢 旅途",
-    titleRomaji: "Pocket Monsters (2019)",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112153-LK1lpFz3vlvl.png",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112153-01RDuvgGTXjp.jpg",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl: "https://www.tv-tokyo.co.jp/anime/pocketmonster/",
-    animeThemesUrl: "https://animethemes.moe/anime/pokemon_2019",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "1・2・3",
-        artistDisplayName: "After the Rain（そらる×まふまふ）",
-      },
-      {
-        type: "OP",
-        sequence: 2,
-        titleJa: "1・2・3",
-        artistDisplayName: "西川くんとキリショー",
-      },
-      {
-        type: "OP",
-        sequence: 3,
-        titleJa: "1・2・3",
-        artistDisplayName: "からあげ姉妹",
-      },
-      {
-        type: "OP",
-        sequence: 4,
-        titleJa: "1・2・3",
-        artistDisplayName: "サトシ＆ゴウ（CV：松本梨香＆山下大輝）",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "ポケモンしりとり（ピカチュウ→ミュウVer.）",
-        artistDisplayName: "ポケモン音楽クラブ",
-      },
-      {
-        type: "ED",
-        sequence: 2,
-        titleJa: "ポケモンしりとり（ミュウ→ザマゼンタVer.）",
-        artistDisplayName: "ポケモン音楽クラブ",
-      },
-      {
-        type: "ED",
-        sequence: 3,
-        titleJa: "バツグンタイプ",
-        artistDisplayName: "ポケモン音楽クラブ",
-      },
-      {
-        type: "ED",
-        sequence: 4,
-        titleJa: "1・2・3",
-        artistDisplayName: "After the Rain（そらる×まふまふ）",
-      },
-    ],
-  },
+  "anilistId": 112153,
+  "slug": "pocket-monsters-2019",
+  "startDate": "2019-11-17",
+  "titleJa": "ポケットモンスター (2019)",
+  "titleZhHant": "寶可夢 旅途",
+  "titleRomaji": "Pocket Monsters (2019)",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112153-LK1lpFz3vlvl.png",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112153-01RDuvgGTXjp.jpg",
+  "broadcastLabel": "日本首播／時間未整理",
+  "officialSiteUrl": "https://www.tv-tokyo.co.jp/anime/pocketmonster/",
+  "animeThemesUrl": "https://animethemes.moe/anime/pokemon_2019",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "1・2・3",
+      "artistDisplayName": "After the Rain（そらる×まふまふ）",
+      "id": "pocket-monsters-2019-op-1",
+      "songId": "pocket-monsters-2019-op-1-song",
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/pocketmonster/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/pokemon_2019",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://uni-mafumafu.jp/discography/76/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/520649",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/PR/pokemon/info/544028",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://wiki.52poke.com/zh-hant/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [
+        {
+          "platform": "作品官網",
+          "label": "作品官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/pocketmonster/",
+          "linkType": "official_landing_page",
+          "region": "JP"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter",
+        "2020-spring",
+        "2020-summer"
+      ],
+      "credits": [
+        {
+          "name": "まふまふ",
+          "role": "lyrics"
+        },
+        {
+          "name": "まふまふ",
+          "role": "composition"
+        },
+        {
+          "name": "まふまふ",
+          "role": "arrangement"
+        },
+        {
+          "name": "そらる",
+          "role": "vocals"
+        },
+        {
+          "name": "まふまふ",
+          "role": "vocals"
+        }
+      ],
+      "usageLabel": "第1～31話OP；本次只列2020年仍使用季度",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://uni-mafumafu.jp/discography/76/",
+            "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/520649",
+            "https://www.sonymusic.co.jp/PR/pokemon/info/544028"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://uni-mafumafu.jp/discography/76/",
+            "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/520649",
+            "https://www.sonymusic.co.jp/PR/pokemon/info/544028"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://animethemes.moe/anime/pokemon_2019"
+          ],
+          "verifiedAt": "2026-09-02",
+          "targetId": "pocket-monsters-2019-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animethemes.moe/anime/pokemon_2019"
+          ],
+          "verifiedAt": "2026-09-02",
+          "targetId": "pocket-monsters-2019-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://wiki.52poke.com/zh-hant/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://wiki.52poke.com/zh-hant/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://uni-mafumafu.jp/discography/76/"
+          ],
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈1・2・3〉：まふまふ原曲頁直接明歌唱After the Rain（そらる×まふまふ）及完整LCA；Sony2020/7/30稱現担当且8/9接棒，2022原期公告明四個演唱版歌い継ぐ同曲。中文逐話OP1～31及日本播日串2020冬／春／夏，疫情停播不等整季無原曲使用；2019起用不新增2019歌曲或刷新首播metadata。",
+          "resumeWhen": "詳細階段沿本曲已核來源，待第一方逐曲明示尚缺實唱／作者、錄音版本、官方影片形式、發行收錄及正版平台後才補相應欄位；不由cast、團體名冊、MV或同CD推全員歌唱、full／TV錄音或更多用途。2019起播日期、metadata及2023目標是寶可夢大師另頁已核用途保持，後續只在原期逐話證據改變時調整本曲季度。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "type": "OP",
+      "sequence": 2,
+      "titleJa": "1・2・3",
+      "artistDisplayName": "西川くんとキリショー",
+      "id": "pocket-monsters-2019-op-2",
+      "songId": "pocket-monsters-2019-op-1-song",
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/pocketmonster/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/pokemon_2019",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://uni-mafumafu.jp/discography/334/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/520649",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/PR/pokemon/info/544028",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://wiki.52poke.com/zh-hant/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [
+        {
+          "platform": "作品官網",
+          "label": "作品官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/pocketmonster/",
+          "linkType": "official_landing_page",
+          "region": "JP"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer",
+        "2020-fall"
+      ],
+      "credits": [
+        {
+          "name": "まふまふ",
+          "role": "lyrics"
+        },
+        {
+          "name": "まふまふ",
+          "role": "composition"
+        },
+        {
+          "name": "まふまふ",
+          "role": "arrangement"
+        },
+        {
+          "name": "田中秀和（MONACA）",
+          "role": "arrangement"
+        }
+      ],
+      "usageLabel": "第32～49話OP；2020年8月9日接棒",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://uni-mafumafu.jp/discography/334/",
+            "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/520649",
+            "https://www.sonymusic.co.jp/PR/pokemon/info/544028"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://uni-mafumafu.jp/discography/334/",
+            "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/520649",
+            "https://www.sonymusic.co.jp/PR/pokemon/info/544028"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-op-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://animethemes.moe/anime/pokemon_2019"
+          ],
+          "verifiedAt": "2026-09-02",
+          "targetId": "pocket-monsters-2019-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animethemes.moe/anime/pokemon_2019"
+          ],
+          "verifiedAt": "2026-09-02",
+          "targetId": "pocket-monsters-2019-op-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-op-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://wiki.52poke.com/zh-hant/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://wiki.52poke.com/zh-hant/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-op-2"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://uni-mafumafu.jp/discography/334/"
+          ],
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈1・2・3〉：Sony原2020/7/30公告直接8/9起西川くんとキリショーver.，原作者逐曲頁明詞曲まふまふ、編曲まふまふ／田中秀和（MONACA）；兩中文曲表32～49與日本TV日期交叉summer／fall。官方直接同曲リアレンジ與歌い継ぐ鏈才提共原OP1-song；不由兩人成團簡介推個別歌唱，不建立錄音。",
+          "resumeWhen": "詳細階段沿本曲已核來源，待第一方逐曲明示尚缺實唱／作者、錄音版本、官方影片形式、發行收錄及正版平台後才補相應欄位；不由cast、團體名冊、MV或同CD推全員歌唱、full／TV錄音或更多用途。2019起播日期、metadata及2023目標是寶可夢大師另頁已核用途保持，後續只在原期逐話證據改變時調整本曲季度。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "type": "OP",
+      "sequence": 3,
+      "titleJa": "1・2・3",
+      "artistDisplayName": "からあげ姉妹（生田絵梨花・松村沙友理 from 乃木坂46）",
+      "id": "pocket-monsters-2019-op-3",
+      "songId": "pocket-monsters-2019-op-1-song",
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/pocketmonster/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/pokemon_2019",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://uni-mafumafu.jp/discography/329/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://uni-mafumafu.jp/news/34/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/PR/pokemon/info/544028",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202107/25680_202107161855.html",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://wiki.52poke.com/zh-hant/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [
+        {
+          "platform": "作品官網",
+          "label": "作品官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/pocketmonster/",
+          "linkType": "official_landing_page",
+          "region": "JP"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2021-winter",
+        "2021-spring",
+        "2021-summer",
+        "2021-fall",
+        "2022-winter"
+      ],
+      "credits": [
+        {
+          "name": "まふまふ",
+          "role": "lyrics"
+        },
+        {
+          "name": "まふまふ",
+          "role": "composition"
+        },
+        {
+          "name": "APAZZI",
+          "role": "arrangement"
+        },
+        {
+          "name": "Akira Sunset",
+          "role": "arrangement"
+        },
+        {
+          "name": "生田絵梨花",
+          "role": "vocals"
+        },
+        {
+          "name": "松村沙友理",
+          "role": "vocals"
+        }
+      ],
+      "usageLabel": "第50～99話OP；2021年1月8日起",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://uni-mafumafu.jp/discography/329/",
+            "https://uni-mafumafu.jp/news/34/",
+            "https://www.sonymusic.co.jp/PR/pokemon/info/544028",
+            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202107/25680_202107161855.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://uni-mafumafu.jp/discography/329/",
+            "https://uni-mafumafu.jp/news/34/",
+            "https://www.sonymusic.co.jp/PR/pokemon/info/544028",
+            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202107/25680_202107161855.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-op-3"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://animethemes.moe/anime/pokemon_2019"
+          ],
+          "verifiedAt": "2026-09-02",
+          "targetId": "pocket-monsters-2019-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animethemes.moe/anime/pokemon_2019"
+          ],
+          "verifiedAt": "2026-09-02",
+          "targetId": "pocket-monsters-2019-op-3"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-op-3"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://wiki.52poke.com/zh-hant/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://wiki.52poke.com/zh-hant/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-op-3"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://uni-mafumafu.jp/discography/329/"
+          ],
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈1・2・3〉：原作者2021/1/7公告直接1/8起からあげ姉妹接前兩版，逐曲頁「うた」欄列生田絵梨花・松村沙友理及APAZZI／Akira Sunset編曲；此是本曲實唱不是cast。2021/7/16原TV節目同曲名義確證summer，中文50～99及日本首播日串2021四季至2022冬，不用2/19配信日當TV起點；官方同曲接棒才共原OP1-song。",
+          "resumeWhen": "詳細階段沿本曲已核來源，待第一方逐曲明示尚缺實唱／作者、錄音版本、官方影片形式、發行收錄及正版平台後才補相應欄位；不由cast、團體名冊、MV或同CD推全員歌唱、full／TV錄音或更多用途。2019起播日期、metadata及2023目標是寶可夢大師另頁已核用途保持，後續只在原期逐話證據改變時調整本曲季度。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "type": "OP",
+      "sequence": 4,
+      "titleJa": "1・2・3",
+      "artistDisplayName": "サトシ＆ゴウ（CV：松本梨香＆山下大輝）",
+      "id": "pocket-monsters-2019-op-4",
+      "songId": "pocket-monsters-2019-op-1-song",
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/pocketmonster/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/pokemon_2019",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://uni-mafumafu.jp/discography/320/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/pocketmonster/news/index_8.html",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/PR/pokemon/info/544028",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://wiki.52poke.com/zh-hant/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [
+        {
+          "platform": "作品官網",
+          "label": "作品官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/pocketmonster/",
+          "linkType": "official_landing_page",
+          "region": "JP"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2022-winter",
+        "2022-spring",
+        "2022-summer",
+        "2022-fall"
+      ],
+      "credits": [
+        {
+          "name": "まふまふ",
+          "role": "lyrics"
+        },
+        {
+          "name": "まふまふ",
+          "role": "composition"
+        },
+        {
+          "name": "田中秀和",
+          "role": "arrangement"
+        },
+        {
+          "name": "松本梨香（サトシ）",
+          "role": "vocals"
+        },
+        {
+          "name": "山下大輝（ゴウ）",
+          "role": "vocals"
+        }
+      ],
+      "usageLabel": "第100話起OP；2022年3月4日起",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://uni-mafumafu.jp/discography/320/",
+            "https://www.tv-tokyo.co.jp/anime/pocketmonster/news/index_8.html",
+            "https://www.sonymusic.co.jp/PR/pokemon/info/544028"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://uni-mafumafu.jp/discography/320/",
+            "https://www.tv-tokyo.co.jp/anime/pocketmonster/news/index_8.html",
+            "https://www.sonymusic.co.jp/PR/pokemon/info/544028"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-op-4"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://animethemes.moe/anime/pokemon_2019"
+          ],
+          "verifiedAt": "2026-09-02",
+          "targetId": "pocket-monsters-2019-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animethemes.moe/anime/pokemon_2019"
+          ],
+          "verifiedAt": "2026-09-02",
+          "targetId": "pocket-monsters-2019-op-4"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-op-4"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://wiki.52poke.com/zh-hant/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://wiki.52poke.com/zh-hant/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-op-4"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://uni-mafumafu.jp/discography/320/"
+          ],
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈1・2・3〉：原TV2022/3/4公告明サトシ＆ゴウ接棒「1・2・3」，Sony8月原公告明四版同曲歌い継ぐ；原作者逐曲「うた」直接列兩角色CV與田中秀和編曲。中文100話起及日本播日串2022冬春夏秋；不由3/16先行音樂配信推TV起用。最終話是否無OP或兼ED另為衝突，這裡不宣稱第136話實際OP，不將2023別頁with my friends用途搬入。",
+          "resumeWhen": "詳細階段沿本曲已核來源，待第一方逐曲明示尚缺實唱／作者、錄音版本、官方影片形式、發行收錄及正版平台後才補相應欄位；不由cast、團體名冊、MV或同CD推全員歌唱、full／TV錄音或更多用途。2019起播日期、metadata及2023目標是寶可夢大師另頁已核用途保持，後續只在原期逐話證據改變時調整本曲季度。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "ポケモンしりとり（ピカチュウ→ミュウVer.）",
+      "artistDisplayName": "ポケモン音楽クラブ（増田順一／パソコン音楽クラブ／ポケモンキッズ2019）",
+      "id": "pocket-monsters-2019-ed-1",
+      "songId": "pocket-monsters-2019-ed-1-song",
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/pocketmonster/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/pokemon_2019",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "ポケモン公式YouTubeチャンネル 官方影片",
+          "url": "https://www.youtube.com/watch?v=pgRfBigHj9c",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.pasoconongaku.club/works/pokemonshiritori1/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/PR/pokemon/info/544028",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://wiki.52poke.com/zh-hant/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.mau2.com/anime/pocketmonster-r2-2",
+          "label": "本期逐話ED版別交叉；只曲名與用途，不從聲優表推artist；ザマゼンダ採FP原字形。",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94",
+          "label": "只日本原TV逐話日期交叉；版本輪替備註不一致，不作本版正面歌曲身份或用途。",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [
+        {
+          "platform": "作品官網",
+          "label": "作品官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/pocketmonster/",
+          "linkType": "official_landing_page",
+          "region": "JP"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter",
+        "2020-fall",
+        "2021-winter",
+        "2021-spring"
+      ],
+      "credits": [
+        {
+          "name": "パソコン音楽クラブ",
+          "role": "lyrics"
+        },
+        {
+          "name": "ポケモンタイプ相性覚え隊",
+          "role": "lyrics"
+        },
+        {
+          "name": "パソコン音楽クラブ",
+          "role": "composition"
+        },
+        {
+          "name": "パソコン音楽クラブ",
+          "role": "arrangement"
+        },
+        {
+          "name": "ポケモン音楽クラブ",
+          "role": "vocals"
+        }
+      ],
+      "usageLabel": "TV ED ピカチュウ→ミュウ版；2019使用段不列本次季度",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.pasoconongaku.club/works/pokemonshiritori1/",
+            "https://www.sonymusic.co.jp/PR/pokemon/info/544028"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.pasoconongaku.club/works/pokemonshiritori1/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://animethemes.moe/anime/pokemon_2019"
+          ],
+          "verifiedAt": "2026-09-02",
+          "targetId": "pocket-monsters-2019-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animethemes.moe/anime/pokemon_2019"
+          ],
+          "verifiedAt": "2026-09-02",
+          "targetId": "pocket-monsters-2019-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://wiki.52poke.com/zh-hant/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://wiki.52poke.com/zh-hant/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/pocketmonster-r2-2"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/pocketmonster-r2-2"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.pasoconongaku.club/works/pokemonshiritori1/"
+          ],
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "video_metadata",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈ポケモンしりとり（ピカチュウ→ミュウVer.）〉：作曲團隊原作品頁直接列精確兩版及TV ED、Vocal正式團體名義與已列LCA；不從増田順一producer或團體子項推個人皆歌唱。52Poke明2～19及40之後偶數話，Mau2直接56／58等版別與中文日本TV日期串冬2021、62等串春，配合2020冬與40話秋；TV電影宣傳48～54例外不混版本。中文Wiki版本輪替備註不一致，只借逐話日本日期，不正面支持本版usage。 原creator直接詞作欄另列ポケモンタイプ相性覚え隊，已按逐曲明示保存；Sony概述僅列パソコン音楽クラブ，沒有用概述省略直接共同署名。兩版仍保原各自songID，不因full影像或相同base標題自動合併。",
+          "resumeWhen": "詳細階段沿本曲已核來源，待第一方逐曲明示尚缺實唱／作者、錄音版本、官方影片形式、發行收錄及正版平台後才補相應欄位；不由cast、團體名冊、MV或同CD推全員歌唱、full／TV錄音或更多用途。2019起播日期、metadata及2023目標是寶可夢大師另頁已核用途保持，後續只在原期逐話證據改變時調整本曲季度。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "ポケモンしりとり（ミュウ→ザマゼンタVer.）",
+      "artistDisplayName": "ポケモン音楽クラブ（増田順一／パソコン音楽クラブ／ポケモンキッズ2019）",
+      "id": "pocket-monsters-2019-ed-2",
+      "songId": "pocket-monsters-2019-ed-2-song",
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/pocketmonster/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/pokemon_2019",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.pasoconongaku.club/works/pokemonshiritori2/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/PR/pokemon/info/544028",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://wiki.52poke.com/zh-hant/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.mau2.com/anime/pocketmonster-r2-2",
+          "label": "本期逐話ED版別交叉；只曲名與用途，不從聲優表推artist；ザマゼンダ採FP原字形。",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94",
+          "label": "只日本原TV逐話日期交叉；版本輪替備註不一致，不作本版正面歌曲身份或用途。",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [
+        {
+          "platform": "作品官網",
+          "label": "作品官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/pocketmonster/",
+          "linkType": "official_landing_page",
+          "region": "JP"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring",
+        "2020-summer",
+        "2020-fall",
+        "2021-winter",
+        "2021-spring"
+      ],
+      "credits": [
+        {
+          "name": "パソコン音楽クラブ",
+          "role": "lyrics"
+        },
+        {
+          "name": "ポケモンタイプ相性覚え隊",
+          "role": "lyrics"
+        },
+        {
+          "name": "パソコン音楽クラブ",
+          "role": "composition"
+        },
+        {
+          "name": "パソコン音楽クラブ",
+          "role": "arrangement"
+        },
+        {
+          "name": "ポケモン音楽クラブ",
+          "role": "vocals"
+        }
+      ],
+      "usageLabel": "TV ED ミュウ→ザマゼンタ版；第20話起與後續奇數話輪替",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.pasoconongaku.club/works/pokemonshiritori2/",
+            "https://www.sonymusic.co.jp/PR/pokemon/info/544028"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.pasoconongaku.club/works/pokemonshiritori2/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-ed-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://animethemes.moe/anime/pokemon_2019"
+          ],
+          "verifiedAt": "2026-09-02",
+          "targetId": "pocket-monsters-2019-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animethemes.moe/anime/pokemon_2019"
+          ],
+          "verifiedAt": "2026-09-02",
+          "targetId": "pocket-monsters-2019-ed-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://wiki.52poke.com/zh-hant/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://wiki.52poke.com/zh-hant/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-ed-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/pocketmonster-r2-2"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/pocketmonster-r2-2"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-ed-2"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.pasoconongaku.club/works/pokemonshiritori2/"
+          ],
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈ポケモンしりとり（ミュウ→ザマゼンタVer.）〉：作曲團隊原作品頁直接明精確本版TV ED、正式名義及已列LCA。52Poke20～39與41後奇數話，Mau2本版55／57及61／69，配中文日本TV4/5、2/12、4/9、6/4等實日串2020春夏秋及2021冬春；不由4/5商品日單獨推季度。Mau2一處ザマゼンダ字形與原名不同採第一方ザマゼンタ，中文Wiki輪替錯界排除正面用途。 原creator直接詞作欄另列ポケモンタイプ相性覚え隊，已按逐曲明示保存；Sony概述僅列パソコン音楽クラブ，沒有用概述省略直接共同署名。兩版仍保原各自songID，不因full影像或相同base標題自動合併。",
+          "resumeWhen": "詳細階段沿本曲已核來源，待第一方逐曲明示尚缺實唱／作者、錄音版本、官方影片形式、發行收錄及正版平台後才補相應欄位；不由cast、團體名冊、MV或同CD推全員歌唱、full／TV錄音或更多用途。2019起播日期、metadata及2023目標是寶可夢大師另頁已核用途保持，後續只在原期逐話證據改變時調整本曲季度。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "type": "ED",
+      "sequence": 3,
+      "titleJa": "バツグンタイプ",
+      "artistDisplayName": "ポケモン音楽クラブ（増田順一／パソコン音楽クラブ／ポケモンキッズ2019）",
+      "id": "pocket-monsters-2019-ed-3",
+      "songId": "pocket-monsters-2019-ed-3-song",
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/pocketmonster/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/pokemon_2019",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.pasoconongaku.club/works/batsuguntype/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/PR/pokemon/info/544028",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202107/25680_202107161855.html",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://wiki.52poke.com/zh-hant/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [
+        {
+          "platform": "作品官網",
+          "label": "作品官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/pocketmonster/",
+          "linkType": "official_landing_page",
+          "region": "JP"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2021-spring",
+        "2021-summer",
+        "2021-fall",
+        "2022-winter",
+        "2022-spring",
+        "2022-summer",
+        "2022-fall"
+      ],
+      "credits": [
+        {
+          "name": "パソコン音楽クラブ",
+          "role": "lyrics"
+        },
+        {
+          "name": "ポケモンタイプ相性覚え隊",
+          "role": "lyrics"
+        },
+        {
+          "name": "パソコン音楽クラブ",
+          "role": "composition"
+        },
+        {
+          "name": "パソコン音楽クラブ",
+          "role": "arrangement"
+        },
+        {
+          "name": "ポケモン音楽クラブ",
+          "role": "vocals"
+        }
+      ],
+      "usageLabel": "第71話起TV ED；特殊最終話另核",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.pasoconongaku.club/works/batsuguntype/",
+            "https://www.sonymusic.co.jp/PR/pokemon/info/544028",
+            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202107/25680_202107161855.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-ed-3-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.pasoconongaku.club/works/batsuguntype/",
+            "https://www.sonymusic.co.jp/PR/pokemon/info/544028",
+            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202107/25680_202107161855.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-ed-3"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://animethemes.moe/anime/pokemon_2019"
+          ],
+          "verifiedAt": "2026-09-02",
+          "targetId": "pocket-monsters-2019-ed-3-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animethemes.moe/anime/pokemon_2019"
+          ],
+          "verifiedAt": "2026-09-02",
+          "targetId": "pocket-monsters-2019-ed-3"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-ed-3-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-ed-3"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://wiki.52poke.com/zh-hant/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-ed-3-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://wiki.52poke.com/zh-hant/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-ed-3"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.pasoconongaku.club/works/batsuguntype/"
+          ],
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈バツグンタイプ〉：creator原頁直接明ED、本曲正式名義、共同詞作及曲編；Sony原2022/8月明本期ED，2021/7/16原TV節目亦直接列ED。中文71話6/18起至135的日本TV日期跨2021春夏秋與2022四季，僅本期範圍；每話歌詞／畫面輪替不自動多造song或recording。12/16最終話節目頁的通用ED欄與逐話CC不一致，不用該頁證136話仍用此曲。",
+          "resumeWhen": "詳細階段沿本曲已核來源，待第一方逐曲明示尚缺實唱／作者、錄音版本、官方影片形式、發行收錄及正版平台後才補相應欄位；不由cast、團體名冊、MV或同CD推全員歌唱、full／TV錄音或更多用途。2019起播日期、metadata及2023目標是寶可夢大師另頁已核用途保持，後續只在原期逐話證據改變時調整本曲季度。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "type": "ED",
+      "sequence": 4,
+      "titleJa": "1・2・3",
+      "artistDisplayName": "After the Rain（そらる×まふまふ）",
+      "id": "pocket-monsters-2019-ed-4",
+      "songId": "pocket-monsters-2019-ed-4-song",
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/pocketmonster/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/pokemon_2019",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://uni-mafumafu.jp/discography/76/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/PR/pokemon/info/544028",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://wiki.52poke.com/zh-hant/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [
+        {
+          "platform": "作品官網",
+          "label": "作品官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/pocketmonster/",
+          "linkType": "official_landing_page",
+          "region": "JP"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "credits": [
+        {
+          "name": "まふまふ",
+          "role": "lyrics"
+        },
+        {
+          "name": "まふまふ",
+          "role": "composition"
+        },
+        {
+          "name": "まふまふ",
+          "role": "arrangement"
+        }
+      ],
+      "usageLabel": "既有ED候選；2020年以後本演唱版TV用途待核",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://uni-mafumafu.jp/discography/76/",
+            "https://www.sonymusic.co.jp/PR/pokemon/info/544028"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-ed-4-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://animethemes.moe/anime/pokemon_2019"
+          ],
+          "verifiedAt": "2026-09-02",
+          "targetId": "pocket-monsters-2019-ed-4-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-ed-4-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://wiki.52poke.com/zh-hant/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E6%97%85%E9%80%94"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "pocket-monsters-2019-ed-4-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://uni-mafumafu.jp/discography/76/"
+          ],
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈1・2・3〉：原候選After the Rain同曲身分與LCA可由原作者／Sony逐曲資料證，但兩輪未得2020年以後此演唱版TV ED第一方。52Poke一處將原第1話與重編號132話ED寫After the Rain，中文Wiki與逐話英日CC指2022/12/16最終話為サトシ＆ゴウ版；官方節目頁又只通用バツグンタイプ欄，不能由此推After the Rain或偷改既有歌手。保原ED4 ID／type／序號／songID與舊名義，held空季度；2019首話ED線索不算2020～2026已證用途。",
+          "resumeWhen": "待原期官方逐話歌曲credit、製播方或唱片／藝人具名公告直接明After the Rain版1・2・3於2020～2026哪一原TV話作ED，才解除held並分季；若只有2019第1話則另記範圍外用途，不填2020季度。最終話若欲核サトシ＆ゴウ特殊ED需獨立第一方，不用錯編號CC／節目通用曲欄代替或無證改歌手。詳細階段沿本曲已核來源，待第一方逐曲明示尚缺實唱／作者、錄音版本、官方影片形式、發行收錄及正版平台後才補相應欄位；不由cast、團體名冊、MV或同CD推全員歌唱、full／TV錄音或更多用途。2019起播日期、metadata及2023目標是寶可夢大師另頁已核用途保持，後續只在原期逐話證據改變時調整本曲季度。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "seasonIds": [
+    "2019-fall",
+    "2020-fall",
+    "2020-spring",
+    "2020-summer",
+    "2020-winter",
+    "2021-fall",
+    "2021-spring",
+    "2021-summer",
+    "2021-winter",
+    "2022-fall",
+    "2022-spring",
+    "2022-summer",
+    "2022-winter"
+  ]
+},
   {
     anilistId: 109639,
     slug: "kyouryuu-shoujo-gauko",
