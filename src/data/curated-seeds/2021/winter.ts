@@ -1,50 +1,7 @@
 import type { CuratedAnimeSeed } from "@/data/curated-seeds/types";
 
 const curated2021WinterSeedRows: CuratedAnimeSeed[] = [
-  {
-    anilistId: 113585,
-    id: "curated-113585",
-    slug: "skate-leading-stars",
-    seasonIds: ["2021-winter"],
-    startDate: "2020-12-27",
-    titleJa: "スケートリーディング☆スターズ",
-    titleZhHant: "花樣滑冰Stars",
-    titleRomaji: "Skate-Leading☆Stars",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113585-AJKXZnpnAX0w.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113585-r4EAWR2igLml.jpg",
-    editorialWeekday: 7,
-    broadcastLabel: "日本首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://skateleadingstars.com/",
-    anilistUrl: "https://anilist.co/anime/113585",
-    imageSourceUrl: "https://anilist.co/anime/113585",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/716",
-      "https://acgsecrets.hk/anime/139/",
-      "https://annict.com/works/7172",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/skate_leadingstars",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "Chase the core",
-        artistDisplayName: "佐久間貴生",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "JUMP",
-        artistDisplayName: "仲村宗悟",
-      },
-    ],
-    verifiedAt: "2026-09-02",
-  },
+  {"anilistId":113585,"id":"curated-113585","slug":"skate-leading-stars","seasonIds":["2021-winter"],"startDate":"2021-01-10","titleJa":"スケートリーディング☆スターズ","titleZhHant":"花樣滑冰Stars","titleRomaji":"Skate-Leading☆Stars","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113585-AJKXZnpnAX0w.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/113585-r4EAWR2igLml.jpg","editorialWeekday":7,"broadcastLabel":"TOKYO MX 2021年1月10日より毎週日曜22:30～；海外先行配信另列","status":"finished","officialSiteUrl":"https://skateleadingstars.com/","anilistUrl":"https://anilist.co/anime/113585","imageSourceUrl":"https://anilist.co/anime/113585","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://youranimes.tw/animes/716","https://acgsecrets.hk/anime/139/","https://annict.com/works/7172"],"animeThemesUrl":"https://animethemes.moe/anime/skate_leadingstars","themes":[{"type":"OP","sequence":1,"titleJa":"Chase the core","artistDisplayName":"佐久間貴生","id":"skate-leading-stars-op-1","songId":"skate-leading-stars-op-1-song","sources":[{"label":"動畫官方網站","url":"https://skateleadingstars.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/skate_leadingstars","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"佐久間貴生 Official Channel 官方影片","url":"https://www.youtube.com/watch?v=2fQV6Q5FKuQ","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://skateleadingstars.com/disc/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://www.lantis.jp/title/skateleadingstars/info.html","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://skateleadingstars.com/onair/","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E8%8A%B1%E6%A8%A3%E6%BB%91%E5%86%B0Stars","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://skateleadingstars.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-winter"],"credits":[{"name":"R・O・N","role":"lyrics"},{"name":"R・O・N","role":"composition"},{"name":"R・O・N","role":"arrangement"},{"name":"佐久間貴生","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://skateleadingstars.com/disc/"],"verifiedAt":"2026-10-23","targetId":"skate-leading-stars-op-1-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.lantis.jp/title/skateleadingstars/info.html"],"verifiedAt":"2026-10-23","targetId":"skate-leading-stars-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://skateleadingstars.com/disc/","https://www.lantis.jp/title/skateleadingstars/info.html"],"verifiedAt":"2026-10-23","targetId":"skate-leading-stars-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E8%8A%B1%E6%A8%A3%E6%BB%91%E5%86%B0Stars"],"verifiedAt":"2026-10-23","targetId":"skate-leading-stars-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E8%8A%B1%E6%A8%A3%E6%BB%91%E5%86%B0Stars"],"verifiedAt":"2026-10-23","targetId":"skate-leading-stars-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://skateleadingstars.com/disc/"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈Chase the core〉：已核原名、正式演唱名義與冬季正常主題曲；團體不推成員逐人歌唱。","resumeWhen":"待第一方音源版本、官方影片形式與正版發行關係可核，再補詳細資料；不由同名商品或影片推新錄音。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":1,"titleJa":"JUMP","artistDisplayName":"仲村宗悟","id":"skate-leading-stars-ed-1","songId":"skate-leading-stars-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://skateleadingstars.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/skate_leadingstars","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://skateleadingstars.com/disc/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://www.lantis.jp/title/skateleadingstars/info.html","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://skateleadingstars.com/onair/","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E8%8A%B1%E6%A8%A3%E6%BB%91%E5%86%B0Stars","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://skateleadingstars.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-winter"],"credits":[{"name":"仲村宗悟","role":"lyrics"},{"name":"片山義美","role":"composition"},{"name":"村山☆潤","role":"arrangement"},{"name":"仲村宗悟","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://skateleadingstars.com/disc/"],"verifiedAt":"2026-10-23","targetId":"skate-leading-stars-ed-1-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.lantis.jp/title/skateleadingstars/info.html"],"verifiedAt":"2026-10-23","targetId":"skate-leading-stars-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://skateleadingstars.com/disc/","https://www.lantis.jp/title/skateleadingstars/info.html"],"verifiedAt":"2026-10-23","targetId":"skate-leading-stars-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E8%8A%B1%E6%A8%A3%E6%BB%91%E5%86%B0Stars"],"verifiedAt":"2026-10-23","targetId":"skate-leading-stars-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E8%8A%B1%E6%A8%A3%E6%BB%91%E5%86%B0Stars"],"verifiedAt":"2026-10-23","targetId":"skate-leading-stars-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://skateleadingstars.com/disc/"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈JUMP〉：已核原名、正式演唱名義與冬季正常主題曲；團體不推成員逐人歌唱。","resumeWhen":"待第一方音源版本、官方影片形式與正版發行關係可核，再補詳細資料；不由同名商品或影片推新錄音。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"}],"verifiedAt":"2026-09-02","metadataVerifiedAt":"2026-09-02","metadataSources":[{"url":"https://zh.wikipedia.org/wiki/%E8%8A%B1%E6%A8%A3%E6%BB%91%E5%86%B0Stars","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"},{"url":"https://skateleadingstars.com/onair/","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://www.lantis.jp/title/skateleadingstars/info.html","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-23"}],"broadcastTimeJst":"22:30"},
   {
     anilistId: 127536,
     id: "curated-127536",
@@ -120,98 +77,8 @@ const curated2021WinterSeedRows: CuratedAnimeSeed[] = [
     themes: [],
     verifiedAt: "2026-09-02",
   },
-  {
-    anilistId: 112649,
-    id: "curated-112649",
-    slug: "tatoeba-last-dungeon-mae-no-mura-no-shounen-ga-joban-no-machi-de-kurasu-youna-monogatari",
-    seasonIds: ["2021-winter"],
-    startDate: "2021-01-04",
-    titleJa: "たとえばラストダンジョン前の村の少年が序盤の街で暮らすような物語",
-    titleZhHant: "比方說，這是個出身魔王關附近的少年在新手村生活的故事",
-    titleRomaji:
-      "Tatoeba Last Dungeon Mae no Mura no Shounen ga Joban no Machi de Kurasu Youna Monogatari",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112649-Wdcxo6cQZbhx.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112649-jonCCVLHopXa.jpg",
-    editorialWeekday: 1,
-    broadcastLabel: "日本首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://lasdan.com/",
-    anilistUrl: "https://anilist.co/anime/112649",
-    imageSourceUrl: "https://anilist.co/anime/112649",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/836",
-      "https://acgsecrets.hk/anime/173/",
-      "https://annict.com/works/7049",
-    ],
-    animeThemesUrl:
-      "https://animethemes.moe/anime/tatoeba_last_dungeon_mae_no_mura_no_shounen_ga_joban_no_machi_de_kurasu_youna_monogatari",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "たとえばそれは勇気の魔法",
-        titleRomaji: "Tatoeba Sore wa Yuuki no Mahou",
-        artistDisplayName: "山崎はるか",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "I'mpossible?",
-        artistDisplayName: "Luce Twinkle Wink☆",
-      },
-    ],
-    verifiedAt: "2026-09-02",
-  },
-  {
-    anilistId: 116287,
-    id: "curated-116287",
-    slug: "ura-sekai-picnic",
-    seasonIds: ["2021-winter"],
-    startDate: "2021-01-04",
-    titleJa: "裏世界ピクニック",
-    titleZhHant: "裏世界遠足",
-    titleRomaji: "Ura Sekai Picnic",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116287-LCcICfn2FhwL.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/116287-LxIygyAse2Wj.jpg",
-    editorialWeekday: 1,
-    broadcastLabel: "日本首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://othersidepicnic.com/",
-    anilistUrl: "https://anilist.co/anime/116287",
-    imageSourceUrl: "https://anilist.co/anime/116287",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/813",
-      "https://acgsecrets.hk/anime/682/",
-      "https://annict.com/works/7687",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/urasekai_picnic",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "醜い生き物",
-        titleRomaji: "Minikui Ikimono",
-        artistDisplayName: "CHiCO with HoneyWorks",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "You & Me",
-        artistDisplayName: "佐藤ミキ",
-      },
-    ],
-    verifiedAt: "2026-09-02",
-  },
+  {"anilistId":112649,"id":"curated-112649","slug":"tatoeba-last-dungeon-mae-no-mura-no-shounen-ga-joban-no-machi-de-kurasu-youna-monogatari","seasonIds":["2021-winter"],"startDate":"2021-01-04","titleJa":"たとえばラストダンジョン前の村の少年が序盤の街で暮らすような物語","titleZhHant":"比方說，這是個出身魔王關附近的少年在新手村生活的故事","titleRomaji":"Tatoeba Last Dungeon Mae no Mura no Shounen ga Joban no Machi de Kurasu Youna Monogatari","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112649-Wdcxo6cQZbhx.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/112649-jonCCVLHopXa.jpg","editorialWeekday":1,"broadcastLabel":"AT-X 2021年1月4日より毎週月曜22:00～","status":"finished","officialSiteUrl":"https://lasdan.com/","anilistUrl":"https://anilist.co/anime/112649","imageSourceUrl":"https://anilist.co/anime/112649","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://youranimes.tw/animes/836","https://acgsecrets.hk/anime/173/","https://annict.com/works/7049"],"animeThemesUrl":"https://animethemes.moe/anime/tatoeba_last_dungeon_mae_no_mura_no_shounen_ga_joban_no_machi_de_kurasu_youna_monogatari","themes":[{"type":"OP","sequence":1,"titleJa":"たとえばそれは勇気の魔法","titleRomaji":"Tatoeba Sore wa Yuuki no Mahou","artistDisplayName":"山崎はるか","id":"tatoeba-last-dungeon-mae-no-mura-no-shounen-ga-joban-no-machi-de-kurasu-youna-monogatari-op-1","songId":"tatoeba-last-dungeon-mae-no-mura-no-shounen-ga-joban-no-machi-de-kurasu-youna-monogatari-op-1-song","sources":[{"label":"動畫官方網站","url":"https://lasdan.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/tatoeba_last_dungeon_mae_no_mura_no_shounen_ga_joban_no_machi_de_kurasu_youna_monogatari","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://lasdan.com/music/op.html","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://ga.sbcr.jp/bunko_blog/010131/20201224/","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E6%AF%94%E6%96%B9%E8%AA%AA%EF%BC%8C%E9%80%99%E6%98%AF%E5%80%8B%E5%87%BA%E8%BA%AB%E9%AD%94%E7%8E%8B%E9%97%9C%E9%99%84%E8%BF%91%E7%9A%84%E5%B0%91%E5%B9%B4%E5%9C%A8%E6%96%B0%E6%89%8B%E6%9D%91%E7%94%9F%E6%B4%BB%E7%9A%84%E6%95%85%E4%BA%8B","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://lasdan.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-winter"],"credits":[{"name":"KOTOKO","role":"lyrics"},{"name":"折戸伸治","role":"composition"},{"name":"高瀬一矢","role":"arrangement"},{"name":"山崎はるか","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://lasdan.com/music/op.html"],"verifiedAt":"2026-10-23","targetId":"tatoeba-last-dungeon-mae-no-mura-no-shounen-ga-joban-no-machi-de-kurasu-youna-monogatari-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://lasdan.com/music/op.html"],"verifiedAt":"2026-10-23","targetId":"tatoeba-last-dungeon-mae-no-mura-no-shounen-ga-joban-no-machi-de-kurasu-youna-monogatari-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%AF%94%E6%96%B9%E8%AA%AA%EF%BC%8C%E9%80%99%E6%98%AF%E5%80%8B%E5%87%BA%E8%BA%AB%E9%AD%94%E7%8E%8B%E9%97%9C%E9%99%84%E8%BF%91%E7%9A%84%E5%B0%91%E5%B9%B4%E5%9C%A8%E6%96%B0%E6%89%8B%E6%9D%91%E7%94%9F%E6%B4%BB%E7%9A%84%E6%95%85%E4%BA%8B"],"verifiedAt":"2026-10-23","targetId":"tatoeba-last-dungeon-mae-no-mura-no-shounen-ga-joban-no-machi-de-kurasu-youna-monogatari-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%AF%94%E6%96%B9%E8%AA%AA%EF%BC%8C%E9%80%99%E6%98%AF%E5%80%8B%E5%87%BA%E8%BA%AB%E9%AD%94%E7%8E%8B%E9%97%9C%E9%99%84%E8%BF%91%E7%9A%84%E5%B0%91%E5%B9%B4%E5%9C%A8%E6%96%B0%E6%89%8B%E6%9D%91%E7%94%9F%E6%B4%BB%E7%9A%84%E6%95%85%E4%BA%8B"],"verifiedAt":"2026-10-23","targetId":"tatoeba-last-dungeon-mae-no-mura-no-shounen-ga-joban-no-machi-de-kurasu-youna-monogatari-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://lasdan.com/music/op.html"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈たとえばそれは勇気の魔法〉：已核原名、正式演唱名義與冬季正常主題曲；團體不推成員逐人歌唱。","resumeWhen":"待第一方音源版本、官方影片形式與正版發行關係可核，再補詳細資料；不由同名商品或影片推新錄音。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":1,"titleJa":"I’mpossible？","artistDisplayName":"Luce Twinkle Wink☆","id":"tatoeba-last-dungeon-mae-no-mura-no-shounen-ga-joban-no-machi-de-kurasu-youna-monogatari-ed-1","songId":"tatoeba-last-dungeon-mae-no-mura-no-shounen-ga-joban-no-machi-de-kurasu-youna-monogatari-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://lasdan.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/tatoeba_last_dungeon_mae_no_mura_no_shounen_ga_joban_no_machi_de_kurasu_youna_monogatari","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"NBCUniversal Anime/Music 官方影片","url":"https://www.youtube.com/watch?v=uGVOU81kHic","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://lasdan.com/music/ed.html","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://ga.sbcr.jp/bunko_blog/010131/20201224/","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E6%AF%94%E6%96%B9%E8%AA%AA%EF%BC%8C%E9%80%99%E6%98%AF%E5%80%8B%E5%87%BA%E8%BA%AB%E9%AD%94%E7%8E%8B%E9%97%9C%E9%99%84%E8%BF%91%E7%9A%84%E5%B0%91%E5%B9%B4%E5%9C%A8%E6%96%B0%E6%89%8B%E6%9D%91%E7%94%9F%E6%B4%BB%E7%9A%84%E6%95%85%E4%BA%8B","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://lasdan.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-winter"],"credits":[{"name":"Soflan Daichi","role":"lyrics"},{"name":"園田健太郎","role":"composition"},{"name":"園田健太郎","role":"arrangement"},{"name":"Luce Twinkle Wink☆","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://lasdan.com/music/ed.html"],"verifiedAt":"2026-10-23","targetId":"tatoeba-last-dungeon-mae-no-mura-no-shounen-ga-joban-no-machi-de-kurasu-youna-monogatari-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://lasdan.com/music/ed.html"],"verifiedAt":"2026-10-23","targetId":"tatoeba-last-dungeon-mae-no-mura-no-shounen-ga-joban-no-machi-de-kurasu-youna-monogatari-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%AF%94%E6%96%B9%E8%AA%AA%EF%BC%8C%E9%80%99%E6%98%AF%E5%80%8B%E5%87%BA%E8%BA%AB%E9%AD%94%E7%8E%8B%E9%97%9C%E9%99%84%E8%BF%91%E7%9A%84%E5%B0%91%E5%B9%B4%E5%9C%A8%E6%96%B0%E6%89%8B%E6%9D%91%E7%94%9F%E6%B4%BB%E7%9A%84%E6%95%85%E4%BA%8B"],"verifiedAt":"2026-10-23","targetId":"tatoeba-last-dungeon-mae-no-mura-no-shounen-ga-joban-no-machi-de-kurasu-youna-monogatari-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%AF%94%E6%96%B9%E8%AA%AA%EF%BC%8C%E9%80%99%E6%98%AF%E5%80%8B%E5%87%BA%E8%BA%AB%E9%AD%94%E7%8E%8B%E9%97%9C%E9%99%84%E8%BF%91%E7%9A%84%E5%B0%91%E5%B9%B4%E5%9C%A8%E6%96%B0%E6%89%8B%E6%9D%91%E7%94%9F%E6%B4%BB%E7%9A%84%E6%95%85%E4%BA%8B"],"verifiedAt":"2026-10-23","targetId":"tatoeba-last-dungeon-mae-no-mura-no-shounen-ga-joban-no-machi-de-kurasu-youna-monogatari-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://lasdan.com/music/ed.html"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈I’mpossible？〉：依官方本曲標點核為I’mpossible？，保留原歌曲與用途；團體名義不推五名成員逐人實唱。","resumeWhen":"待第一方音源版本、官方影片形式與正版發行關係可核，再補詳細資料；不由同名商品或影片推新錄音。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"}],"verifiedAt":"2026-09-02","metadataVerifiedAt":"2026-09-02","metadataSources":[{"url":"https://zh.wikipedia.org/wiki/%E6%AF%94%E6%96%B9%E8%AA%AA%EF%BC%8C%E9%80%99%E6%98%AF%E5%80%8B%E5%87%BA%E8%BA%AB%E9%AD%94%E7%8E%8B%E9%97%9C%E9%99%84%E8%BF%91%E7%9A%84%E5%B0%91%E5%B9%B4%E5%9C%A8%E6%96%B0%E6%89%8B%E6%9D%91%E7%94%9F%E6%B4%BB%E7%9A%84%E6%95%85%E4%BA%8B","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"},{"url":"https://ga.sbcr.jp/bunko_blog/010131/20201224/","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-23"}],"broadcastTimeJst":"22:00"},
+  {"anilistId":116287,"id":"curated-116287","slug":"ura-sekai-picnic","seasonIds":["2021-winter"],"startDate":"2021-01-04","titleJa":"裏世界ピクニック","titleZhHant":"裏世界遠足","titleRomaji":"Ura Sekai Picnic","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116287-LCcICfn2FhwL.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/116287-LxIygyAse2Wj.jpg","editorialWeekday":1,"broadcastLabel":"原期官方公告2021年1月4日開始放送；原首TV分鐘待第一方明示","status":"finished","officialSiteUrl":"https://othersidepicnic.com/","anilistUrl":"https://anilist.co/anime/116287","imageSourceUrl":"https://anilist.co/anime/116287","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://youranimes.tw/animes/813","https://acgsecrets.hk/anime/682/","https://annict.com/works/7687"],"animeThemesUrl":"https://animethemes.moe/anime/urasekai_picnic","themes":[{"type":"OP","sequence":1,"titleJa":"醜い生き物","titleRomaji":"Minikui Ikimono","artistDisplayName":"CHiCO with HoneyWorks","id":"ura-sekai-picnic-op-1","songId":"ura-sekai-picnic-op-1-song","sources":[{"label":"動畫官方網站","url":"https://othersidepicnic.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/urasekai_picnic","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://www.othersidepicnic.com/music","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://www.othersidepicnic.com/news/280/","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E8%A3%8F%E4%B8%96%E7%95%8C%E9%81%A0%E8%B6%B3","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://othersidepicnic.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-winter"],"credits":[{"name":"HoneyWorks","role":"lyrics"},{"name":"HoneyWorks","role":"composition"},{"name":"HoneyWorks","role":"arrangement"},{"name":"CHiCO with HoneyWorks","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.othersidepicnic.com/music"],"verifiedAt":"2026-10-23","targetId":"ura-sekai-picnic-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.othersidepicnic.com/music"],"verifiedAt":"2026-10-23","targetId":"ura-sekai-picnic-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E8%A3%8F%E4%B8%96%E7%95%8C%E9%81%A0%E8%B6%B3"],"verifiedAt":"2026-10-23","targetId":"ura-sekai-picnic-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E8%A3%8F%E4%B8%96%E7%95%8C%E9%81%A0%E8%B6%B3"],"verifiedAt":"2026-10-23","targetId":"ura-sekai-picnic-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.othersidepicnic.com/music"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈醜い生き物〉：已核原名、正式演唱名義與冬季正常主題曲；團體不推成員逐人歌唱。 原TV最早時分仍待第一方，未補分鐘。","resumeWhen":"待第一方音源版本、官方影片形式與正版發行關係可核，再補詳細資料；不由同名商品或影片推新錄音。 待原期AT-X節目正文或原期官方播出表可正常讀取，核原首話時分；不以PDF搜尋索引或MX深夜時段代入。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":1,"titleJa":"You & Me","artistDisplayName":"佐藤ミキ","id":"ura-sekai-picnic-ed-1","songId":"ura-sekai-picnic-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://othersidepicnic.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/urasekai_picnic","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"佐藤ミキ Official YouTube Channel 官方影片","url":"https://www.youtube.com/watch?v=lZr3KjqajrA","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://www.othersidepicnic.com/music","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://www.othersidepicnic.com/news/280/","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E8%A3%8F%E4%B8%96%E7%95%8C%E9%81%A0%E8%B6%B3","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://othersidepicnic.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-winter"],"credits":[{"name":"佐藤ミキ","role":"lyrics"},{"name":"坂詰美紗子","role":"lyrics"},{"name":"maeshima soshi","role":"composition"},{"name":"maeshima soshi","role":"arrangement"},{"name":"佐藤ミキ","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.othersidepicnic.com/music"],"verifiedAt":"2026-10-23","targetId":"ura-sekai-picnic-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.othersidepicnic.com/music"],"verifiedAt":"2026-10-23","targetId":"ura-sekai-picnic-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E8%A3%8F%E4%B8%96%E7%95%8C%E9%81%A0%E8%B6%B3"],"verifiedAt":"2026-10-23","targetId":"ura-sekai-picnic-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E8%A3%8F%E4%B8%96%E7%95%8C%E9%81%A0%E8%B6%B3"],"verifiedAt":"2026-10-23","targetId":"ura-sekai-picnic-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.othersidepicnic.com/music"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈You & Me〉：已核原名、正式演唱名義與冬季正常主題曲；團體不推成員逐人歌唱。 原TV最早時分仍待第一方，未補分鐘。","resumeWhen":"待第一方音源版本、官方影片形式與正版發行關係可核，再補詳細資料；不由同名商品或影片推新錄音。 待原期AT-X節目正文或原期官方播出表可正常讀取，核原首話時分；不以PDF搜尋索引或MX深夜時段代入。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"}],"verifiedAt":"2026-09-02","metadataVerifiedAt":"2026-09-02","metadataSources":[{"url":"https://zh.wikipedia.org/wiki/%E8%A3%8F%E4%B8%96%E7%95%8C%E9%81%A0%E8%B6%B3","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"},{"url":"https://www.othersidepicnic.com/news/280/","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-23"}]},
   {
     anilistId: 124131,
     id: "curated-124131",
