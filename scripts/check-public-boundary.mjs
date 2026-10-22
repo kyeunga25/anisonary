@@ -1,4 +1,5 @@
 import { execFileSync } from "node:child_process";
+import { createHash } from "node:crypto";
 import { readFileSync, readdirSync, statSync } from "node:fs";
 import { basename, extname, join, relative, resolve } from "node:path";
 
@@ -106,6 +107,97 @@ if (artifactRoot) {
 
 let scanned = 0;
 
+// Only generated numeric routing payloads can be excluded from text matching.
+// Keep this self-contained: backup fixtures copy this checker without imports.
+const routingPaths = new Map();
+const verifiedRoutingPaths = new Set();
+let routingManifestValid = false;
+const exactKeys = (value, keys) => value && typeof value === "object" && !Array.isArray(value)
+  && Object.keys(value).length === keys.length && keys.every((key) => Object.hasOwn(value, key));
+const integer = (value, minimum, maximum) => Number.isSafeInteger(value) && value >= minimum && value <= maximum;
+const chunkPath = /^\/search-index\/([a-f0-9]{64})\.json$/u;
+if (artifactRoot) {
+  try {
+    const html = readFileSync(join(artifactRoot, "songs/index.html"), "utf8");
+    const scripts = [...html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script\s*>/giu)]
+      .filter((match) => /\bdata-search-manifest(?:\s|=|$)/u.test(match[1]));
+    if (scripts.length !== 1 || !/\btype\s*=\s*["']application\/json["']/iu.test(scripts[0][1])) throw new Error();
+    const source = scripts[0][2];
+    const value = JSON.parse(source);
+    if (Buffer.byteLength(source) > 64 * 1024
+      || !exactKeys(value, ["version", "bytes", "decodedBytes", "entries", "chunks", "routing"])
+      || value.version !== 3 || !Array.isArray(value.chunks) || !integer(value.chunks.length, 1, 10000)
+      || !integer(value.bytes, 0, 8 * 1024 * 1024) || !integer(value.decodedBytes, 0, 8 * 1024 * 1024)
+      || !integer(value.entries, 0, 10000)) throw new Error();
+    const paths = new Set();
+    for (const chunk of value.chunks) {
+      if (!exactKeys(chunk, ["url", "bytes", "decodedBytes", "entries", "seasons"])
+        || typeof chunk.url !== "string" || !chunkPath.test(chunk.url) || paths.has(chunk.url)
+        || !integer(chunk.bytes, 1, 256 * 1024) || !integer(chunk.decodedBytes, 2, 256 * 1024)
+        || !integer(chunk.entries, 1, 10000) || !Array.isArray(chunk.seasons) || !chunk.seasons.length
+        || chunk.seasons.some((season) => typeof season !== "string" || !/^\d{4}-(winter|spring|summer|fall)$/u.test(season))) throw new Error();
+      paths.add(chunk.url);
+    }
+    for (const key of ["bytes", "decodedBytes", "entries"]) {
+      if (value.chunks.reduce((sum, chunk) => sum + chunk[key], 0) !== value[key]) throw new Error();
+    }
+    const routing = value.routing;
+    if (!exactKeys(routing, ["version", "bytes", "buckets"]) || routing.version !== 1
+      || !integer(routing.bytes, 0, 8 * 1024 * 1024 - value.bytes)
+      || !Array.isArray(routing.buckets) || routing.buckets.length > 64) throw new Error();
+    const buckets = new Set();
+    for (const bucket of routing.buckets) {
+      if (!exactKeys(bucket, ["bucket", "url", "bytes", "records"])
+        || !integer(bucket.bucket, 0, 63) || buckets.has(bucket.bucket)
+        || typeof bucket.url !== "string" || !chunkPath.test(bucket.url) || paths.has(bucket.url)
+        || !integer(bucket.bytes, 1, 256 * 1024) || !integer(bucket.records, 1, 256 * 1024)
+        || bucket.records * (4 + Math.ceil(value.chunks.length / 8)) > 256 * 1024) throw new Error();
+      buckets.add(bucket.bucket);
+      paths.add(bucket.url);
+      routingPaths.set(bucket.url, { ...bucket, chunks: value.chunks.length });
+    }
+    if (routing.buckets.reduce((sum, bucket) => sum + bucket.bytes, 0) !== routing.bytes) throw new Error();
+    routingManifestValid = true;
+  } catch {
+    // No exemption is available without the exact published manifest contract.
+  }
+}
+
+function routingMetadata(file, bytes, text) {
+  if (!artifactRoot) return undefined;
+  const url = `/${relative(artifactRoot, file).split("\\").join("/")}`;
+  if (!chunkPath.test(url)) return undefined;
+  let value;
+  try { value = JSON.parse(text); } catch { /* Invalid candidates are scanned raw below. */ }
+  const descriptor = routingPaths.get(url);
+  if (!descriptor && !(value && !Array.isArray(value)
+    && ["data", "chunks", "bucket"].some((key) => Object.hasOwn(value, key)))
+    && !/"data"\s*:/u.test(text)) return undefined;
+  try {
+    if (!routingManifestValid || !descriptor || !exactKeys(value, ["version", "chunks", "bucket", "data"])
+      || value.version !== 1 || value.chunks !== descriptor.chunks || value.bucket !== descriptor.bucket
+      || typeof value.data !== "string" || !/^(?:[A-Za-z0-9+/]{4})*(?:[A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=)?$/u.test(value.data)
+      || text !== JSON.stringify(value) || bytes.length !== descriptor.bytes
+      || createHash("sha256").update(bytes).digest("hex") !== chunkPath.exec(url)[1]) throw new Error();
+    const data = Buffer.from(value.data, "base64");
+    const stride = 4 + Math.ceil(value.chunks / 8);
+    if (data.toString("base64") !== value.data || data.length !== descriptor.records * stride) throw new Error();
+    let previous = -1;
+    for (let offset = 0; offset < data.length; offset += stride) {
+      const feature = data.readUInt32LE(offset);
+      const memberships = data.subarray(offset + 4, offset + stride);
+      if (feature <= previous || feature % 64 !== value.bucket || !memberships.some(Boolean)
+        || (value.chunks % 8 && memberships.at(-1) >>> (value.chunks % 8))) throw new Error();
+      previous = feature;
+    }
+    verifiedRoutingPaths.add(url);
+    return JSON.stringify({ ...value, data: "" });
+  } catch {
+    findings.push({ category: "invalid-search-routing", path: relative(process.cwd(), file) });
+    return undefined;
+  }
+}
+
 for (const file of files) {
   const publicPath = artifactRoot ? relative(process.cwd(), file) : file;
   if (artifactRoot && (
@@ -132,14 +224,20 @@ for (const file of files) {
   if (IMAGE_EXTENSIONS.has(extname(file).toLowerCase()) && bytes.includes(binaryGeneratorMarker)) {
     findings.push({ category: "generated-image-metadata", path: publicPath });
   }
-  if (bytes.includes(0)) continue;
-
-  const text = bytes.toString("utf8");
+  const rawText = bytes.toString("utf8");
+  const text = routingMetadata(file, bytes, rawText) ?? rawText;
+  if (bytes.includes(0) && !(artifactRoot && chunkPath.test(`/${relative(artifactRoot, file).split("\\").join("/")}`))) continue;
   for (const { category, pattern } of secretPatterns) {
     if (pattern.test(text)) findings.push({ category, path: publicPath });
   }
   if (privateArchitectureMarkers.some((marker) => text.includes(marker))) {
     findings.push({ category: "private-architecture-detail", path: publicPath });
+  }
+}
+
+if (routingManifestValid) {
+  for (const url of routingPaths.keys()) {
+    if (!verifiedRoutingPaths.has(url)) findings.push({ category: "invalid-search-routing", path: url });
   }
 }
 
