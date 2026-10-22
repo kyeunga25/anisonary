@@ -24693,544 +24693,4206 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
   },
 
   {
-    "anilistId": 235,
-    "id": "curated-235",
-    "slug": "meitantei-conan",
-    "seasonIds": [
-      "2026-summer",
-      "2026-fall",
-      "2026-winter",
-      "2026-spring"
-    ],
-    "verifiedAt": "2026-10-19",
-    "metadataVerifiedAt": "2026-10-19",
-    "startDate": "1996-01-08",
-    "titleJa": "名探偵コナン",
-    "titleRomaji": "Meitantei Conan",
-    "editorialWeekday": 6,
-    "broadcastTimeJst": "18:00",
-    "broadcastLabel": "TV系列1996-01-08首播；2026年常態週六18:00（JST）・読売テレビ／日本テレビ系",
-    "status": "airing",
-    "officialSiteUrl": "https://www.ytv.co.jp/conan30/project/",
-    "anilistUrl": "https://anilist.co/anime/235",
-    "sourceReferenceUrls": [
-      "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
-      "https://anison.online/anime/5576"
-    ],
-    "metadataSources": [
-      {
-        "url": "https://www.ytv.co.jp/conan30/project/",
-        "label": "読売テレビ官方：TV首播、常態時段及2026年歌曲公告",
-        "role": "first_party",
-        "language": "ja",
-        "verifiedAt": "2026-10-19"
-      }
-    ],
-    "themes": [
-      {
-        "type": "OP",
-        "sequence": 62,
-        "titleJa": "愛のFIRE",
-        "artistDisplayName": "新浜レオン",
-        "songId": "meitantei-conan-op-62-song",
-        "seasonIds": [
-          "2026-summer",
-          "2026-fall"
-        ],
-        "sourceMode": "explicit",
-        "sources": [
-          {
-            "url": "https://www.ytv.co.jp/conan/music/",
-            "label": "読売テレビ官方：OP曲名、演唱及創作三角色",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "url": "https://cdn.niihamaleon.com/info/info_856/",
-            "label": "新浜レオン官方：2026年7月已啟用的TV OP",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
-            "label": "中文動畫索引：OP62與演唱交叉核對",
-            "role": "cross_check",
-            "language": "zh-Hant",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "url": "https://anison.online/anime/5576",
-            "label": "Anison Online：2026年OP歌曲交叉核對",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-10-19"
-          }
-        ],
-        "lastVerifiedAt": "2026-10-19",
-        "evidence": [
-          {
-            "target": "song",
-            "targetId": "meitantei-conan-op-62-song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://www.ytv.co.jp/conan/music/",
-              "https://cdn.niihamaleon.com/info/info_856/",
-              "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
-              "https://anison.online/anime/5576"
-            ],
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "target": "anime_use",
-            "targetId": "meitantei-conan-op-62",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://www.ytv.co.jp/conan/music/",
-              "https://cdn.niihamaleon.com/info/info_856/",
-              "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
-              "https://anison.online/anime/5576"
-            ],
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "target": "credits",
-            "fields": [
-              "credits"
-            ],
-            "sourceUrls": [
-              "https://www.ytv.co.jp/conan/music/"
-            ],
-            "verifiedAt": "2026-10-19"
-          }
-        ],
-        "usageLabel": "2026年夏季起 OP",
-        "credits": [
-          {
-            "role": "vocals",
-            "name": "新浜レオン"
-          },
-          {
-            "role": "lyrics",
-            "name": "小泉果奈"
-          },
-          {
-            "role": "composition",
-            "name": "徳永暁人"
-          },
-          {
-            "role": "arrangement",
-            "name": "徳永暁人"
-          }
-        ]
-      },
-      {
-        "type": "ED",
-        "sequence": 76,
-        "titleJa": "愛で全部抱きしめて愛して",
-        "artistDisplayName": "倉木麻衣",
-        "songId": "meitantei-conan-ed-76-song",
-        "seasonIds": [
-          "2026-summer",
-          "2026-fall"
-        ],
-        "sourceMode": "explicit",
-        "sources": [
-          {
-            "url": "https://www.ytv.co.jp/conan/music/",
-            "label": "読売テレビ官方：ED曲名、演唱及創作三角色",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "url": "https://www.ytv.co.jp/conan30/project/",
-            "label": "読売テレビ官方：2026-09-26起啟用新ED",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
-            "label": "中文動畫索引：ED76與演唱交叉核對",
-            "role": "cross_check",
-            "language": "zh-Hant",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "url": "https://anison.online/anime/5576",
-            "label": "Anison Online：2026年ED歌曲交叉核對",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-10-19"
-          }
-        ],
-        "lastVerifiedAt": "2026-10-19",
-        "evidence": [
-          {
-            "target": "song",
-            "targetId": "meitantei-conan-ed-76-song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://www.ytv.co.jp/conan/music/",
-              "https://www.ytv.co.jp/conan30/project/",
-              "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
-              "https://anison.online/anime/5576"
-            ],
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "target": "anime_use",
-            "targetId": "meitantei-conan-ed-76",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://www.ytv.co.jp/conan/music/",
-              "https://www.ytv.co.jp/conan30/project/",
-              "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
-              "https://anison.online/anime/5576"
-            ],
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "target": "credits",
-            "fields": [
-              "credits"
-            ],
-            "sourceUrls": [
-              "https://www.ytv.co.jp/conan/music/"
-            ],
-            "verifiedAt": "2026-10-19"
-          }
-        ],
-        "usageLabel": "2026-09-26起 ED",
-        "credits": [
-          {
-            "role": "vocals",
-            "name": "倉木麻衣"
-          },
-          {
-            "role": "lyrics",
-            "name": "倉木麻衣"
-          },
-          {
-            "role": "composition",
-            "name": "松原憲"
-          },
-          {
-            "role": "arrangement",
-            "name": "平田祥一郎"
-          }
-        ]
-      },
-      {
-        "type": "OP",
-        "sequence": 61,
-        "titleJa": "Heaven Knows",
-        "artistDisplayName": "B'z",
-        "seasonIds": [
-          "2026-winter",
-          "2026-spring"
-        ],
-        "songId": "meitantei-conan-op-61-song",
-        "sourceMode": "explicit",
-        "sources": [
-          {
-            "url": "https://www.ytv.co.jp/conan30/project/",
-            "label": "読売テレビ官方：2026-01-10起OP及詞曲編",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
-            "label": "中文動畫歌曲索引：用途序號與演唱",
-            "role": "cross_check",
-            "language": "zh-Hant",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "url": "https://anison.online/anime/5576",
-            "label": "Anison Online：2026年歌曲與用途交叉核對",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-10-19"
-          }
-        ],
-        "lastVerifiedAt": "2026-10-19",
-        "evidence": [
-          {
-            "target": "song",
-            "targetId": "meitantei-conan-op-61-song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://www.ytv.co.jp/conan30/project/",
-              "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
-              "https://anison.online/anime/5576"
-            ],
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "target": "anime_use",
-            "targetId": "meitantei-conan-op-61",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://www.ytv.co.jp/conan30/project/",
-              "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
-              "https://anison.online/anime/5576"
-            ],
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "target": "credits",
-            "fields": [
-              "credits"
-            ],
-            "sourceUrls": [
-              "https://www.ytv.co.jp/conan30/project/"
-            ],
-            "verifiedAt": "2026-10-19"
-          }
-        ],
-        "usageLabel": "2026-01-10起 OP",
-        "credits": [
-          {
-            "name": "B'z",
-            "role": "vocals"
-          },
-          {
-            "name": "稲葉浩志",
-            "role": "lyrics"
-          },
-          {
-            "name": "松本孝弘",
-            "role": "composition"
-          },
-          {
-            "name": "B'z",
-            "role": "arrangement"
-          },
-          {
-            "name": "YUKIHIDE❝YT❞TAKIYAMA",
-            "role": "arrangement"
-          }
-        ],
-        "followUp": [
-          {
-            "fields": [
-              "basic_evidence"
-            ],
-            "note": "已確認2026冬／春TV使用；夏季是否仍有沿用及與下一首OP的精確輪替界線尚未獨立核對，沒有由唱片發行日推定。",
-            "resumeWhen": "可核對官方新OP啟用集數／播出日或對應正片credits時補充用途季度。",
-            "checkedAt": "2026-10-19"
-          }
-        ]
-      },
-      {
-        "type": "ED",
-        "sequence": 74,
-        "titleJa": "TOWA 〜永久に風に乗る〜",
-        "artistDisplayName": "倉木麻衣",
-        "seasonIds": [
-          "2026-winter",
-          "2026-spring"
-        ],
-        "songId": "meitantei-conan-ed-74-song",
-        "sourceMode": "explicit",
-        "sources": [
-          {
-            "url": "https://www.ytv.co.jp/conan30/project/",
-            "label": "読売テレビ官方：2026-01-10起ED及詞曲編",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
-            "label": "中文動畫歌曲索引：用途序號與演唱",
-            "role": "cross_check",
-            "language": "zh-Hant",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "url": "https://anison.online/anime/5576",
-            "label": "Anison Online：2026年歌曲與用途交叉核對",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-10-19"
-          }
-        ],
-        "lastVerifiedAt": "2026-10-19",
-        "evidence": [
-          {
-            "target": "song",
-            "targetId": "meitantei-conan-ed-74-song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://www.ytv.co.jp/conan30/project/",
-              "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
-              "https://anison.online/anime/5576"
-            ],
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "target": "anime_use",
-            "targetId": "meitantei-conan-ed-74",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://www.ytv.co.jp/conan30/project/",
-              "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
-              "https://anison.online/anime/5576"
-            ],
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "target": "credits",
-            "fields": [
-              "credits"
-            ],
-            "sourceUrls": [
-              "https://www.ytv.co.jp/conan30/project/"
-            ],
-            "verifiedAt": "2026-10-19"
-          }
-        ],
-        "usageLabel": "2026-01-10起 ED",
-        "credits": [
-          {
-            "name": "倉木麻衣",
-            "role": "vocals"
-          },
-          {
-            "name": "倉木麻衣",
-            "role": "lyrics"
-          },
-          {
-            "name": "倉木麻衣",
-            "role": "composition"
-          },
-          {
-            "name": "持山翔子",
-            "role": "arrangement"
-          }
-        ]
-      },
-      {
-        "type": "ED",
-        "sequence": 75,
-        "titleJa": "7 DAYS",
-        "artistDisplayName": "Rainy。",
-        "seasonIds": [
-          "2026-spring",
-          "2026-summer"
-        ],
-        "songId": "meitantei-conan-ed-75-song",
-        "sourceMode": "explicit",
-        "sources": [
-          {
-            "url": "https://rainy.bzone.co.jp/info/20260606-1/",
-            "label": "Rainy。官方：2026年6月已使用的TV ED及詞曲編",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
-            "label": "中文動畫歌曲索引：用途序號與演唱",
-            "role": "cross_check",
-            "language": "zh-Hant",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "url": "https://anison.online/anime/5576",
-            "label": "Anison Online：2026年歌曲與用途交叉核對",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-10-19"
-          }
-        ],
-        "lastVerifiedAt": "2026-10-19",
-        "evidence": [
-          {
-            "target": "song",
-            "targetId": "meitantei-conan-ed-75-song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://rainy.bzone.co.jp/info/20260606-1/",
-              "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
-              "https://anison.online/anime/5576"
-            ],
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "target": "anime_use",
-            "targetId": "meitantei-conan-ed-75",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://rainy.bzone.co.jp/info/20260606-1/",
-              "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
-              "https://anison.online/anime/5576"
-            ],
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "target": "credits",
-            "fields": [
-              "credits"
-            ],
-            "sourceUrls": [
-              "https://rainy.bzone.co.jp/info/20260606-1/"
-            ],
-            "verifiedAt": "2026-10-19"
-          }
-        ],
-        "usageLabel": "2026年6月已啟用 ED",
-        "credits": [
-          {
-            "name": "Rainy。",
-            "role": "vocals"
-          },
-          {
-            "name": "雨宮二己",
-            "role": "lyrics"
-          },
-          {
-            "name": "徳永暁人",
-            "role": "composition"
-          },
-          {
-            "name": "徳永暁人",
-            "role": "arrangement"
-          }
-        ]
-      }
-    ]
-  }
+  "anilistId": 235,
+  "id": "curated-235",
+  "slug": "meitantei-conan",
+  "seasonIds": [
+    "2026-summer",
+    "2020-spring",
+    "2020-summer",
+    "2020-winter",
+    "2021-fall",
+    "2021-spring",
+    "2021-summer",
+    "2021-winter",
+    "2022-fall",
+    "2022-spring",
+    "2022-summer",
+    "2022-winter",
+    "2023-fall",
+    "2023-spring",
+    "2023-summer",
+    "2023-winter",
+    "2024-fall",
+    "2024-spring",
+    "2024-summer",
+    "2024-winter",
+    "2025-fall",
+    "2025-spring",
+    "2025-summer",
+    "2025-winter",
+    "2026-fall",
+    "2026-spring",
+    "2026-winter"
+  ],
+  "verifiedAt": "2026-10-19",
+  "metadataVerifiedAt": "2026-10-19",
+  "startDate": "1996-01-08",
+  "titleJa": "名探偵コナン",
+  "titleRomaji": "Meitantei Conan",
+  "editorialWeekday": 6,
+  "broadcastTimeJst": "18:00",
+  "broadcastLabel": "TV系列1996-01-08首播；2026年常態週六18:00（JST）・読売テレビ／日本テレビ系",
+  "status": "airing",
+  "officialSiteUrl": "https://www.ytv.co.jp/conan30/project/",
+  "anilistUrl": "https://anilist.co/anime/235",
+  "sourceReferenceUrls": [
+    "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
+    "https://anison.online/anime/5576"
+  ],
+  "metadataSources": [
+    {
+      "url": "https://www.ytv.co.jp/conan30/project/",
+      "label": "読売テレビ官方：TV首播、常態時段及2026年歌曲公告",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-19"
+    }
+  ],
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 62,
+      "titleJa": "愛のFIRE",
+      "artistDisplayName": "新浜レオン",
+      "songId": "meitantei-conan-op-62-song",
+      "seasonIds": [
+        "2026-summer",
+        "2026-fall"
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.ytv.co.jp/conan/music/",
+          "label": "読売テレビ官方：OP曲名、演唱及創作三角色",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "url": "https://cdn.niihamaleon.com/info/info_856/",
+          "label": "新浜レオン官方：2026年7月已啟用的TV OP",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
+          "label": "中文動畫索引：OP62與演唱交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "url": "https://anison.online/anime/5576",
+          "label": "Anison Online：2026年OP歌曲交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-19"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-19",
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "meitantei-conan-op-62-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/conan/music/",
+            "https://cdn.niihamaleon.com/info/info_856/",
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
+            "https://anison.online/anime/5576"
+          ],
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "meitantei-conan-op-62",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/conan/music/",
+            "https://cdn.niihamaleon.com/info/info_856/",
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
+            "https://anison.online/anime/5576"
+          ],
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/conan/music/"
+          ],
+          "verifiedAt": "2026-10-19"
+        }
+      ],
+      "usageLabel": "2026年夏季起 OP",
+      "credits": [
+        {
+          "role": "vocals",
+          "name": "新浜レオン"
+        },
+        {
+          "role": "lyrics",
+          "name": "小泉果奈"
+        },
+        {
+          "role": "composition",
+          "name": "徳永暁人"
+        },
+        {
+          "role": "arrangement",
+          "name": "徳永暁人"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 76,
+      "titleJa": "愛で全部抱きしめて愛して",
+      "artistDisplayName": "倉木麻衣",
+      "songId": "meitantei-conan-ed-76-song",
+      "seasonIds": [
+        "2026-summer",
+        "2026-fall"
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.ytv.co.jp/conan/music/",
+          "label": "読売テレビ官方：ED曲名、演唱及創作三角色",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan30/project/",
+          "label": "読売テレビ官方：2026-09-26起啟用新ED",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
+          "label": "中文動畫索引：ED76與演唱交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "url": "https://anison.online/anime/5576",
+          "label": "Anison Online：2026年ED歌曲交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-19"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-19",
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "meitantei-conan-ed-76-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/conan/music/",
+            "https://www.ytv.co.jp/conan30/project/",
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
+            "https://anison.online/anime/5576"
+          ],
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "meitantei-conan-ed-76",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/conan/music/",
+            "https://www.ytv.co.jp/conan30/project/",
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
+            "https://anison.online/anime/5576"
+          ],
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/conan/music/"
+          ],
+          "verifiedAt": "2026-10-19"
+        }
+      ],
+      "usageLabel": "2026-09-26起 ED",
+      "credits": [
+        {
+          "role": "vocals",
+          "name": "倉木麻衣"
+        },
+        {
+          "role": "lyrics",
+          "name": "倉木麻衣"
+        },
+        {
+          "role": "composition",
+          "name": "松原憲"
+        },
+        {
+          "role": "arrangement",
+          "name": "平田祥一郎"
+        }
+      ]
+    },
+    {
+      "type": "OP",
+      "sequence": 61,
+      "titleJa": "Heaven Knows",
+      "artistDisplayName": "B'z",
+      "seasonIds": [
+        "2026-winter",
+        "2026-spring"
+      ],
+      "songId": "meitantei-conan-op-61-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.ytv.co.jp/conan30/project/",
+          "label": "読売テレビ官方：2026-01-10起OP及詞曲編",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
+          "label": "中文動畫歌曲索引：用途序號與演唱",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "url": "https://anison.online/anime/5576",
+          "label": "Anison Online：2026年歌曲與用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-19"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-19",
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "meitantei-conan-op-61-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/conan30/project/",
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
+            "https://anison.online/anime/5576"
+          ],
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "meitantei-conan-op-61",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/conan30/project/",
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
+            "https://anison.online/anime/5576"
+          ],
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/conan30/project/"
+          ],
+          "verifiedAt": "2026-10-19"
+        }
+      ],
+      "usageLabel": "2026-01-10起 OP",
+      "credits": [
+        {
+          "name": "B'z",
+          "role": "vocals"
+        },
+        {
+          "name": "稲葉浩志",
+          "role": "lyrics"
+        },
+        {
+          "name": "松本孝弘",
+          "role": "composition"
+        },
+        {
+          "name": "B'z",
+          "role": "arrangement"
+        },
+        {
+          "name": "YUKIHIDE❝YT❞TAKIYAMA",
+          "role": "arrangement"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence"
+          ],
+          "note": "已確認2026冬／春TV使用；夏季是否仍有沿用及與下一首OP的精確輪替界線尚未獨立核對，沒有由唱片發行日推定。",
+          "resumeWhen": "可核對官方新OP啟用集數／播出日或對應正片credits時補充用途季度。",
+          "checkedAt": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 74,
+      "titleJa": "TOWA 〜永久に風に乗る〜",
+      "artistDisplayName": "倉木麻衣",
+      "seasonIds": [
+        "2026-winter",
+        "2026-spring"
+      ],
+      "songId": "meitantei-conan-ed-74-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.ytv.co.jp/conan30/project/",
+          "label": "読売テレビ官方：2026-01-10起ED及詞曲編",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
+          "label": "中文動畫歌曲索引：用途序號與演唱",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "url": "https://anison.online/anime/5576",
+          "label": "Anison Online：2026年歌曲與用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-19"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-19",
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "meitantei-conan-ed-74-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/conan30/project/",
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
+            "https://anison.online/anime/5576"
+          ],
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "meitantei-conan-ed-74",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/conan30/project/",
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
+            "https://anison.online/anime/5576"
+          ],
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/conan30/project/"
+          ],
+          "verifiedAt": "2026-10-19"
+        }
+      ],
+      "usageLabel": "2026-01-10起 ED",
+      "credits": [
+        {
+          "name": "倉木麻衣",
+          "role": "vocals"
+        },
+        {
+          "name": "倉木麻衣",
+          "role": "lyrics"
+        },
+        {
+          "name": "倉木麻衣",
+          "role": "composition"
+        },
+        {
+          "name": "持山翔子",
+          "role": "arrangement"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 75,
+      "titleJa": "7 DAYS",
+      "artistDisplayName": "Rainy。",
+      "seasonIds": [
+        "2026-spring",
+        "2026-summer"
+      ],
+      "songId": "meitantei-conan-ed-75-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://rainy.bzone.co.jp/info/20260606-1/",
+          "label": "Rainy。官方：2026年6月已使用的TV ED及詞曲編",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
+          "label": "中文動畫歌曲索引：用途序號與演唱",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "url": "https://anison.online/anime/5576",
+          "label": "Anison Online：2026年歌曲與用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-19"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-19",
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "meitantei-conan-ed-75-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://rainy.bzone.co.jp/info/20260606-1/",
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
+            "https://anison.online/anime/5576"
+          ],
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "meitantei-conan-ed-75",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://rainy.bzone.co.jp/info/20260606-1/",
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
+            "https://anison.online/anime/5576"
+          ],
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://rainy.bzone.co.jp/info/20260606-1/"
+          ],
+          "verifiedAt": "2026-10-19"
+        }
+      ],
+      "usageLabel": "2026年6月已啟用 ED",
+      "credits": [
+        {
+          "name": "Rainy。",
+          "role": "vocals"
+        },
+        {
+          "name": "雨宮二己",
+          "role": "lyrics"
+        },
+        {
+          "name": "徳永暁人",
+          "role": "composition"
+        },
+        {
+          "name": "徳永暁人",
+          "role": "arrangement"
+        }
+      ]
+    },
+    {
+      "id": "meitantei-conan-op-60",
+      "songId": "meitantei-conan-op-60-song",
+      "type": "OP",
+      "sequence": 60,
+      "sources": [
+        {
+          "url": "https://www.ytv.co.jp/besthits/conan/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.conanpedia.com/zh-hant/TV",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://animeanime.jp/article/2026/04/16/98000.html",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [],
+      "credits": [],
+      "sourceMode": "explicit",
+      "titleJa": "Poker Face",
+      "artistDisplayName": "あみゅり",
+      "seasonIds": [],
+      "usageLabel": "原TV OP60（第1168～1186話）",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/besthits/conan/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-60-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-60-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-60"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-60-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-60"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animeanime.jp/article/2026/04/16/98000.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-60"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈Poker Face〉：読売テレビ官方歷代OP／ED表普通搜尋索引逐項明本曲原名與正式名義；中文原期曲表明OP60／第1168～1186話。季度依本曲實際原TV播出期間交叉核對，不由發售、MV、NC上傳日或整部續播推。 此一方表標歷代OP・ED聯集，沒有分列每首OP／ED欄；精確OP／ED分類與歷代序號由中文逐曲交叉提供，新增ID／序號直接採已核真實歷代編號。 精確啟用日有7/12與7/19資料分歧，均在2025夏；未以7/12配信日當TV日，公開用途標籤不寫精確起日。 一方未分精確OP／ED，故本用途held空季度；交叉候補季度2025-summer／2025-fall只留續查，不算已確認。",
+          "resumeWhen": "待原期官方逐曲公告或可核對官方OP／ED標題明本曲精確類型，才把一方用途範圍由歷代OP・ED聯集收窄；目前精確分類與歷代號由已讀中文逐話表交叉支持。待YTV原期逐話或藝人本期TV啟用公告釐清7/12與7/19的首播分歧，維持已證summer／fall，不以配信／影片日補精確TV日；詳細階段沿已核原期來源，待一方逐曲明示尚缺詞曲編／個別實唱、錄音full／TV版本、官方影片形式、發行收錄與正版平台再補；歷代影片與商品不自動造新歌曲或錄音。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "id": "meitantei-conan-op-59",
+      "songId": "meitantei-conan-op-59-song",
+      "type": "OP",
+      "sequence": 59,
+      "sources": [
+        {
+          "url": "https://www.ytv.co.jp/besthits/conan/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.conanpedia.com/zh-hant/TV",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://animeanime.jp/article/2026/04/16/98000.html",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [],
+      "credits": [],
+      "sourceMode": "explicit",
+      "titleJa": "But ノーラヴ",
+      "artistDisplayName": "Rainy。",
+      "seasonIds": [],
+      "usageLabel": "原TV OP59（第1148～1167話）",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/besthits/conan/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-59-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-59-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-59"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-59-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-59"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animeanime.jp/article/2026/04/16/98000.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-59"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈But ノーラヴ〉：読売テレビ官方歷代OP／ED表普通搜尋索引逐項明本曲原名與正式名義；中文原期曲表明OP59／第1148～1167話。季度依本曲實際原TV播出期間交叉核對，不由發售、MV、NC上傳日或整部續播推。 此一方表標歷代OP・ED聯集，沒有分列每首OP／ED欄；精確OP／ED分類與歷代序號由中文逐曲交叉提供，新增ID／序號直接採已核真實歷代編號。 一方未分精確OP／ED，故本用途held空季度；交叉候補季度2025-winter／2025-spring只留續查，不算已確認。",
+          "resumeWhen": "待原期官方逐曲公告或可核對官方OP／ED標題明本曲精確類型，才把一方用途範圍由歷代OP・ED聯集收窄；目前精確分類與歷代號由已讀中文逐話表交叉支持。詳細階段沿已核原期來源，待一方逐曲明示尚缺詞曲編／個別實唱、錄音full／TV版本、官方影片形式、發行收錄與正版平台再補；歷代影片與商品不自動造新歌曲或錄音。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "id": "meitantei-conan-op-58",
+      "songId": "meitantei-conan-op-58-song",
+      "type": "OP",
+      "sequence": 58,
+      "sources": [
+        {
+          "url": "https://www.ytv.co.jp/conan30/project/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.ytv.co.jp/besthits/conan/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.conanpedia.com/zh-hant/TV",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://animeanime.jp/article/2026/04/16/98000.html",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [],
+      "credits": [
+        {
+          "name": "倉木麻衣",
+          "role": "vocals"
+        }
+      ],
+      "sourceMode": "explicit",
+      "titleJa": "Unraveling Love ～少しの勇気～",
+      "artistDisplayName": "倉木麻衣",
+      "seasonIds": [
+        "2023-fall",
+        "2024-winter",
+        "2024-spring",
+        "2024-summer",
+        "2024-fall"
+      ],
+      "usageLabel": "原TV OP58（第1102～1147話）",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/conan30/project/",
+            "https://www.ytv.co.jp/besthits/conan/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-58-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/conan30/project/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-58"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-58-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-58"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-58-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-58"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animeanime.jp/article/2026/04/16/98000.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-58"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈Unraveling Love ～少しの勇気～〉：読売テレビ官方歷代OP／ED表普通搜尋索引逐項明本曲原名與正式名義；中文原期曲表明OP58／第1102～1147話。季度依本曲實際原TV播出期間交叉核對，不由發售、MV、NC上傳日或整部續播推。 另列一方原公告／作品表直接支持本曲用途，依各頁實際支持欄位分工。 一方原名採Unraveling Love ～少しの勇気～；2023秋起至2024秋由逐曲TV期間交叉，不套2023數碼單曲發行日。",
+          "resumeWhen": "詳細階段沿已核原期來源，待一方逐曲明示尚缺詞曲編／個別實唱、錄音full／TV版本、官方影片形式、發行收錄與正版平台再補；歷代影片與商品不自動造新歌曲或錄音。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "id": "meitantei-conan-op-57",
+      "songId": "meitantei-conan-op-57-song",
+      "type": "OP",
+      "sequence": 57,
+      "sources": [
+        {
+          "url": "https://wands-official.jp/news/20230325-1.html",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.ytv.co.jp/besthits/conan/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.conanpedia.com/zh-hant/TV",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://animeanime.jp/article/2026/04/16/98000.html",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [],
+      "credits": [
+        {
+          "role": "lyrics",
+          "name": "上原大史"
+        },
+        {
+          "role": "composition",
+          "name": "柴崎浩"
+        },
+        {
+          "role": "arrangement",
+          "name": "柴崎浩"
+        }
+      ],
+      "sourceMode": "explicit",
+      "titleJa": "RAISE INSIGHT",
+      "artistDisplayName": "WANDS",
+      "seasonIds": [
+        "2023-winter",
+        "2023-spring",
+        "2023-summer",
+        "2023-fall"
+      ],
+      "usageLabel": "原TV OP57（第1077～1101話）",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://wands-official.jp/news/20230325-1.html",
+            "https://www.ytv.co.jp/besthits/conan/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-57-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://wands-official.jp/news/20230325-1.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-57"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-57-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-57"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-57-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-57"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animeanime.jp/article/2026/04/16/98000.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-57"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://wands-official.jp/news/20230325-1.html"
+          ],
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈RAISE INSIGHT〉：読売テレビ官方歷代OP／ED表普通搜尋索引逐項明本曲原名與正式名義；中文原期曲表明OP57／第1077～1101話。季度依本曲實際原TV播出期間交叉核對，不由發售、MV、NC上傳日或整部續播推。 另列一方原公告／作品表直接支持本曲用途，依各頁實際支持欄位分工。 只記正式演唱名義，團員／starring字樣不自動變逐人vocals。",
+          "resumeWhen": "詳細階段沿已核原期來源，待一方逐曲明示尚缺詞曲編／個別實唱、錄音full／TV版本、官方影片形式、發行收錄與正版平台再補；歷代影片與商品不自動造新歌曲或錄音。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "id": "meitantei-conan-op-56",
+      "songId": "meitantei-conan-op-56-song",
+      "type": "OP",
+      "sequence": 56,
+      "sources": [
+        {
+          "url": "https://maki-ohguro.com/info/index_2022.html",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.ytv.co.jp/besthits/conan/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.conanpedia.com/zh-hant/TV",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://animeanime.jp/article/2026/04/16/98000.html",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [],
+      "credits": [
+        {
+          "name": "大黒摩季",
+          "role": "vocals"
+        }
+      ],
+      "sourceMode": "explicit",
+      "titleJa": "SPARKLE",
+      "artistDisplayName": "大黒摩季",
+      "seasonIds": [
+        "2022-summer",
+        "2022-fall",
+        "2023-winter"
+      ],
+      "usageLabel": "原TV OP56（第1049～1076話）",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://maki-ohguro.com/info/index_2022.html",
+            "https://www.ytv.co.jp/besthits/conan/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-56-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://maki-ohguro.com/info/index_2022.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-56"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-56-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-56"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-56-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-56"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animeanime.jp/article/2026/04/16/98000.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-56"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈SPARKLE〉：読売テレビ官方歷代OP／ED表普通搜尋索引逐項明本曲原名與正式名義；中文原期曲表明OP56／第1049～1076話。季度依本曲實際原TV播出期間交叉核對，不由發售、MV、NC上傳日或整部續播推。 另列一方原公告／作品表直接支持本曲用途，依各頁實際支持欄位分工。 藝人官方2022公告明7/9起OP；商品另寫feat.柴崎浩且明吉他參與，不把吉他合作名當本曲追加歌手。",
+          "resumeWhen": "詳細階段沿已核原期來源，待一方逐曲明示尚缺詞曲編／個別實唱、錄音full／TV版本、官方影片形式、發行收錄與正版平台再補；歷代影片與商品不自動造新歌曲或錄音。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "id": "meitantei-conan-op-55",
+      "songId": "meitantei-conan-op-55-song",
+      "type": "OP",
+      "sequence": 55,
+      "sources": [
+        {
+          "url": "https://www.ytv.co.jp/topics/articles/escao7rrp5fngsnk.html",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.ytv.co.jp/besthits/conan/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.conanpedia.com/zh-hant/TV",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://animeanime.jp/article/2026/04/16/98000.html",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [],
+      "credits": [],
+      "sourceMode": "explicit",
+      "titleJa": "SLEEPLESS",
+      "artistDisplayName": "B'z",
+      "seasonIds": [
+        "2022-winter",
+        "2022-spring"
+      ],
+      "usageLabel": "原TV OP55（第1033～1048話）",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/topics/articles/escao7rrp5fngsnk.html",
+            "https://www.ytv.co.jp/besthits/conan/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-55-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/topics/articles/escao7rrp5fngsnk.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-55"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-55-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-55"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-55-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-55"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animeanime.jp/article/2026/04/16/98000.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-55"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈SLEEPLESS〉：読売テレビ官方歷代OP／ED表普通搜尋索引逐項明本曲原名與正式名義；中文原期曲表明OP55／第1033～1048話。季度依本曲實際原TV播出期間交叉核對，不由發售、MV、NC上傳日或整部續播推。 另列一方原公告／作品表直接支持本曲用途，依各頁實際支持欄位分工。 只記正式演唱名義，團員／starring字樣不自動變逐人vocals。",
+          "resumeWhen": "詳細階段沿已核原期來源，待一方逐曲明示尚缺詞曲編／個別實唱、錄音full／TV版本、官方影片形式、發行收錄與正版平台再補；歷代影片與商品不自動造新歌曲或錄音。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "id": "meitantei-conan-op-54",
+      "songId": "meitantei-conan-op-54-song",
+      "type": "OP",
+      "sequence": 54,
+      "sources": [
+        {
+          "url": "https://wands-official.jp/news/20210911.html",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.ytv.co.jp/besthits/conan/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.conanpedia.com/zh-hant/TV",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://animeanime.jp/article/2026/04/16/98000.html",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [],
+      "credits": [],
+      "sourceMode": "explicit",
+      "titleJa": "YURA YURA",
+      "artistDisplayName": "WANDS",
+      "seasonIds": [
+        "2021-fall"
+      ],
+      "usageLabel": "原TV OP54（第1021～1032話）",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://wands-official.jp/news/20210911.html",
+            "https://www.ytv.co.jp/besthits/conan/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-54-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://wands-official.jp/news/20210911.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-54"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-54-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-54"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-54-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-54"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animeanime.jp/article/2026/04/16/98000.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-54"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈YURA YURA〉：読売テレビ官方歷代OP／ED表普通搜尋索引逐項明本曲原名與正式名義；中文原期曲表明OP54／第1021～1032話。季度依本曲實際原TV播出期間交叉核對，不由發售、MV、NC上傳日或整部續播推。 另列一方原公告／作品表直接支持本曲用途，依各頁實際支持欄位分工。 只記正式演唱名義，團員／starring字樣不自動變逐人vocals。",
+          "resumeWhen": "詳細階段沿已核原期來源，待一方逐曲明示尚缺詞曲編／個別實唱、錄音full／TV版本、官方影片形式、發行收錄與正版平台再補；歷代影片與商品不自動造新歌曲或錄音。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "id": "meitantei-conan-op-53",
+      "songId": "meitantei-conan-op-53-song",
+      "type": "OP",
+      "sequence": 53,
+      "sources": [
+        {
+          "url": "https://www.ytv.co.jp/conan30/project/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.ytv.co.jp/besthits/conan/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.conanpedia.com/zh-hant/TV",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://animeanime.jp/article/2026/04/16/98000.html",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [],
+      "credits": [
+        {
+          "name": "倉木麻衣",
+          "role": "vocals"
+        }
+      ],
+      "sourceMode": "explicit",
+      "titleJa": "ZEROからハジメテ",
+      "artistDisplayName": "倉木麻衣",
+      "seasonIds": [
+        "2021-winter",
+        "2021-spring",
+        "2021-summer"
+      ],
+      "usageLabel": "原TV OP53（第1000～1020話）",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/conan30/project/",
+            "https://www.ytv.co.jp/besthits/conan/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-53-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/conan30/project/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-53"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-53-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-53"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-53-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-53"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animeanime.jp/article/2026/04/16/98000.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-53"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈ZEROからハジメテ〉：読売テレビ官方歷代OP／ED表普通搜尋索引逐項明本曲原名與正式名義；中文原期曲表明OP53／第1000～1020話。季度依本曲實際原TV播出期間交叉核對，不由發售、MV、NC上傳日或整部續播推。 另列一方原公告／作品表直接支持本曲用途，依各頁實際支持欄位分工。",
+          "resumeWhen": "詳細階段沿已核原期來源，待一方逐曲明示尚缺詞曲編／個別實唱、錄音full／TV版本、官方影片形式、發行收錄與正版平台再補；歷代影片與商品不自動造新歌曲或錄音。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "id": "meitantei-conan-op-52",
+      "songId": "meitantei-conan-op-52-song",
+      "type": "OP",
+      "sequence": 52,
+      "sources": [
+        {
+          "url": "https://www.ytv.co.jp/besthits/conan/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.conanpedia.com/zh-hant/TV",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://animeanime.jp/article/2026/04/16/98000.html",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [],
+      "credits": [],
+      "sourceMode": "explicit",
+      "titleJa": "JUST BELIEVE YOU",
+      "artistDisplayName": "all at once",
+      "seasonIds": [],
+      "usageLabel": "原TV OP52（第983～999話）",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/besthits/conan/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-52-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-52-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-52"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-52-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-52"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animeanime.jp/article/2026/04/16/98000.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-52"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈JUST BELIEVE YOU〉：読売テレビ官方歷代OP／ED表普通搜尋索引逐項明本曲原名與正式名義；中文原期曲表明OP52／第983～999話。季度依本曲實際原TV播出期間交叉核對，不由發售、MV、NC上傳日或整部續播推。 只記正式演唱名義，團員／starring字樣不自動變逐人vocals。 此一方表標歷代OP・ED聯集，沒有分列每首OP／ED欄；精確OP／ED分類與歷代序號由中文逐曲交叉提供，新增ID／序號直接採已核真實歷代編號。 一方未分精確OP／ED，故本用途held空季度；交叉候補季度2020-fall／2021-winter只留續查，不算已確認。",
+          "resumeWhen": "待原期官方逐曲公告或可核對官方OP／ED標題明本曲精確類型，才把一方用途範圍由歷代OP・ED聯集收窄；目前精確分類與歷代號由已讀中文逐話表交叉支持。詳細階段沿已核原期來源，待一方逐曲明示尚缺詞曲編／個別實唱、錄音full／TV版本、官方影片形式、發行收錄與正版平台再補；歷代影片與商品不自動造新歌曲或錄音。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "id": "meitantei-conan-op-51",
+      "songId": "meitantei-conan-op-51-song",
+      "type": "OP",
+      "sequence": 51,
+      "sources": [
+        {
+          "url": "https://wands-official.jp/disco/gzcd-7005.html",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.ytv.co.jp/besthits/conan/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.conanpedia.com/zh-hant/TV",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://animeanime.jp/article/2026/04/16/98000.html",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [],
+      "credits": [
+        {
+          "role": "lyrics",
+          "name": "上原大史"
+        },
+        {
+          "role": "composition",
+          "name": "大島こうすけ"
+        },
+        {
+          "role": "arrangement",
+          "name": "大島こうすけ"
+        }
+      ],
+      "sourceMode": "explicit",
+      "titleJa": "真っ赤なLip",
+      "artistDisplayName": "WANDS",
+      "seasonIds": [
+        "2020-winter",
+        "2020-spring",
+        "2020-summer"
+      ],
+      "usageLabel": "原TV OP51（第965～982話）",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://wands-official.jp/disco/gzcd-7005.html",
+            "https://www.ytv.co.jp/besthits/conan/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-51-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://wands-official.jp/disco/gzcd-7005.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-51"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-51-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-51"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-51-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-51"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animeanime.jp/article/2026/04/16/98000.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-op-51"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://wands-official.jp/disco/gzcd-7005.html"
+          ],
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈真っ赤なLip〉：読売テレビ官方歷代OP／ED表普通搜尋索引逐項明本曲原名與正式名義；中文原期曲表明OP51／第965～982話。季度依本曲實際原TV播出期間交叉核對，不由發售、MV、NC上傳日或整部續播推。 另列一方原公告／作品表直接支持本曲用途，依各頁實際支持欄位分工。 只記正式演唱名義，團員／starring字樣不自動變逐人vocals。",
+          "resumeWhen": "詳細階段沿已核原期來源，待一方逐曲明示尚缺詞曲編／個別實唱、錄音full／TV版本、官方影片形式、發行收錄與正版平台再補；歷代影片與商品不自動造新歌曲或錄音。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "id": "meitantei-conan-ed-73",
+      "songId": "meitantei-conan-ed-73-song",
+      "type": "ED",
+      "sequence": 73,
+      "sources": [
+        {
+          "url": "https://bzonecreators.com/works/2025/01/13495/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.ytv.co.jp/besthits/conan/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.conanpedia.com/zh-hant/TV",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://animeanime.jp/article/2026/04/16/98000.html",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [],
+      "credits": [
+        {
+          "role": "lyrics",
+          "name": "後藤康二 (ck510)"
+        },
+        {
+          "role": "composition",
+          "name": "後藤康二 (ck510)"
+        },
+        {
+          "role": "arrangement",
+          "name": "後藤康二 (ck510)"
+        },
+        {
+          "name": "新浜レオン",
+          "role": "vocals"
+        }
+      ],
+      "sourceMode": "explicit",
+      "titleJa": "Fun! Fun! Fun!",
+      "artistDisplayName": "新浜レオン",
+      "seasonIds": [
+        "2025-spring",
+        "2025-summer",
+        "2025-fall"
+      ],
+      "usageLabel": "原TV ED73（第1158～1186話）",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://bzonecreators.com/works/2025/01/13495/",
+            "https://www.ytv.co.jp/besthits/conan/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-73-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://bzonecreators.com/works/2025/01/13495/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-73"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-73-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-73"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-73-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-73"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animeanime.jp/article/2026/04/16/98000.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-73"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://bzonecreators.com/works/2025/01/13495/"
+          ],
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability",
+            "lyrics"
+          ],
+          "note": "〈Fun! Fun! Fun!〉：読売テレビ官方歷代OP／ED表普通搜尋索引逐項明本曲原名與正式名義；中文原期曲表明ED73／第1158～1186話。季度依本曲實際原TV播出期間交叉核對，不由發售、MV、NC上傳日或整部續播推。 另列一方原公告／作品表直接支持本曲用途，依各頁實際支持欄位分工。 作者事務所明後藤康二共同作詞／作曲／編曲及4/12起ED；其他共同詞作者尚缺，lyrics保待核索引。",
+          "resumeWhen": "待本曲完整一方credits明其他共同作詞者再補，已列後藤康二角色保留但不視詞作者完整；詳細階段沿已核原期來源，待一方逐曲明示尚缺詞曲編／個別實唱、錄音full／TV版本、官方影片形式、發行收錄與正版平台再補；歷代影片與商品不自動造新歌曲或錄音。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "id": "meitantei-conan-ed-72",
+      "songId": "meitantei-conan-ed-72-song",
+      "type": "ED",
+      "sequence": 72,
+      "sources": [
+        {
+          "url": "https://wands-official.jp/disco/gzcd-7017.html",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.ytv.co.jp/besthits/conan/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.conanpedia.com/zh-hant/TV",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://animeanime.jp/article/2026/04/16/98000.html",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [],
+      "credits": [
+        {
+          "role": "lyrics",
+          "name": "上原大史"
+        },
+        {
+          "role": "composition",
+          "name": "柴崎浩"
+        },
+        {
+          "role": "arrangement",
+          "name": "柴崎浩"
+        }
+      ],
+      "sourceMode": "explicit",
+      "titleJa": "Shooting star",
+      "artistDisplayName": "WANDS",
+      "seasonIds": [
+        "2025-winter"
+      ],
+      "usageLabel": "原TV ED72（第1148～1157話）",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://wands-official.jp/disco/gzcd-7017.html",
+            "https://www.ytv.co.jp/besthits/conan/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-72-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://wands-official.jp/disco/gzcd-7017.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-72"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-72-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-72"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-72-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-72"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animeanime.jp/article/2026/04/16/98000.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-72"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://wands-official.jp/disco/gzcd-7017.html"
+          ],
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈Shooting star〉：読売テレビ官方歷代OP／ED表普通搜尋索引逐項明本曲原名與正式名義；中文原期曲表明ED72／第1148～1157話。季度依本曲實際原TV播出期間交叉核對，不由發售、MV、NC上傳日或整部續播推。 另列一方原公告／作品表直接支持本曲用途，依各頁實際支持欄位分工。 只記正式演唱名義，團員／starring字樣不自動變逐人vocals。",
+          "resumeWhen": "詳細階段沿已核原期來源，待一方逐曲明示尚缺詞曲編／個別實唱、錄音full／TV版本、官方影片形式、發行收錄與正版平台再補；歷代影片與商品不自動造新歌曲或錄音。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "id": "meitantei-conan-ed-71",
+      "songId": "meitantei-conan-ed-71-song",
+      "type": "ED",
+      "sequence": 71,
+      "sources": [
+        {
+          "url": "https://sard-underground.jp/disco/gzca-7193.html",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.ytv.co.jp/besthits/conan/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.conanpedia.com/zh-hant/TV",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://animeanime.jp/article/2026/04/16/98000.html",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [],
+      "credits": [
+        {
+          "role": "lyrics",
+          "name": "神野友亜"
+        },
+        {
+          "role": "composition",
+          "name": "小澤正澄"
+        },
+        {
+          "role": "arrangement",
+          "name": "小澤正澄"
+        }
+      ],
+      "sourceMode": "explicit",
+      "titleJa": "夢で逢いましょう",
+      "artistDisplayName": "SARD UNDERGROUND",
+      "seasonIds": [
+        "2024-summer",
+        "2024-fall"
+      ],
+      "usageLabel": "原TV ED71（第1132～1147話）",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://sard-underground.jp/disco/gzca-7193.html",
+            "https://www.ytv.co.jp/besthits/conan/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-71-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://sard-underground.jp/disco/gzca-7193.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-71"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-71-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-71"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-71-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-71"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animeanime.jp/article/2026/04/16/98000.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-71"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://sard-underground.jp/disco/gzca-7193.html"
+          ],
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈夢で逢いましょう〉：読売テレビ官方歷代OP／ED表普通搜尋索引逐項明本曲原名與正式名義；中文原期曲表明ED71／第1132～1147話。季度依本曲實際原TV播出期間交叉核對，不由發售、MV、NC上傳日或整部續播推。 另列一方原公告／作品表直接支持本曲用途，依各頁實際支持欄位分工。 只記正式演唱名義，團員／starring字樣不自動變逐人vocals。",
+          "resumeWhen": "詳細階段沿已核原期來源，待一方逐曲明示尚缺詞曲編／個別實唱、錄音full／TV版本、官方影片形式、發行收錄與正版平台再補；歷代影片與商品不自動造新歌曲或錄音。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "id": "meitantei-conan-ed-70",
+      "songId": "meitantei-conan-ed-70-song",
+      "type": "ED",
+      "sequence": 70,
+      "sources": [
+        {
+          "url": "https://www.ytv.co.jp/conan30/project/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.ytv.co.jp/besthits/conan/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.conanpedia.com/zh-hant/TV",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://animeanime.jp/article/2026/04/16/98000.html",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.conanpedia.com/ED70",
+          "label": "中文ED70曲目專頁：原名別寫、演唱名義與本期用途",
+          "role": "cross_check",
+          "language": "zh-Hans",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [],
+      "credits": [
+        {
+          "name": "倉木麻衣",
+          "role": "vocals"
+        }
+      ],
+      "sourceMode": "explicit",
+      "titleJa": "Y☺︎u & I",
+      "artistDisplayName": "倉木麻衣",
+      "seasonIds": [
+        "2023-fall",
+        "2024-winter",
+        "2024-spring",
+        "2024-summer"
+      ],
+      "usageLabel": "原TV ED70（第1105～1131話）",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/conan30/project/",
+            "https://www.ytv.co.jp/besthits/conan/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-70-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/conan30/project/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-70"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-70-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-70"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-70-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-70"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animeanime.jp/article/2026/04/16/98000.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-70"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/ED70"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-70-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/ED70"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-70"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈Y☺︎u & I〉：読売テレビ官方歷代OP／ED表普通搜尋索引逐項明本曲原名與正式名義；中文原期曲表明ED70／第1105～1131話。季度依本曲實際原TV播出期間交叉核對，不由發售、MV、NC上傳日或整部續播推。 另列一方原公告／作品表直接支持本曲用途，依各頁實際支持欄位分工。 原名依YTV歷代原文Y☺︎u & I；中文表簡寫You & I僅作同曲／用途交叉，不反改原名。 補查已讀中文ED70曲目專頁，正文同列You & I與Y☺u & I數位單曲，交叉原名及演唱；官方原名綴字保留。",
+          "resumeWhen": "詳細階段沿已核原期來源，待一方逐曲明示尚缺詞曲編／個別實唱、錄音full／TV版本、官方影片形式、發行收錄與正版平台再補；歷代影片與商品不自動造新歌曲或錄音。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "id": "meitantei-conan-ed-69",
+      "songId": "meitantei-conan-ed-69-song",
+      "type": "ED",
+      "sequence": 69,
+      "sources": [
+        {
+          "url": "https://www.ytv.co.jp/besthits/conan/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.conanpedia.com/zh-hant/TV",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://animeanime.jp/article/2026/04/16/98000.html",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [],
+      "credits": [],
+      "sourceMode": "explicit",
+      "titleJa": "...and Rescue Me",
+      "artistDisplayName": "Rainy。",
+      "seasonIds": [],
+      "usageLabel": "原TV ED69（第1088～1104話）",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/besthits/conan/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-69-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-69-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-69"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-69-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-69"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animeanime.jp/article/2026/04/16/98000.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-69"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈...and Rescue Me〉：読売テレビ官方歷代OP／ED表普通搜尋索引逐項明本曲原名與正式名義；中文原期曲表明ED69／第1088～1104話。季度依本曲實際原TV播出期間交叉核對，不由發售、MV、NC上傳日或整部續播推。 此一方表標歷代OP・ED聯集，沒有分列每首OP／ED欄；精確OP／ED分類與歷代序號由中文逐曲交叉提供，新增ID／序號直接採已核真實歷代編號。 原名依YTV索引...and Rescue Me，交叉媒體的點號／空白變體不當新歌曲。 一方未分精確OP／ED，故本用途held空季度；交叉候補季度2023-spring／2023-summer／2023-fall只留續查，不算已確認。",
+          "resumeWhen": "待原期官方逐曲公告或可核對官方OP／ED標題明本曲精確類型，才把一方用途範圍由歷代OP・ED聯集收窄；目前精確分類與歷代號由已讀中文逐話表交叉支持。詳細階段沿已核原期來源，待一方逐曲明示尚缺詞曲編／個別實唱、錄音full／TV版本、官方影片形式、發行收錄與正版平台再補；歷代影片與商品不自動造新歌曲或錄音。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "id": "meitantei-conan-ed-68",
+      "songId": "meitantei-conan-ed-68-song",
+      "type": "ED",
+      "sequence": 68,
+      "sources": [
+        {
+          "url": "https://www.ytv.co.jp/besthits/conan/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.conanpedia.com/zh-hant/TV",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://animeanime.jp/article/2026/04/16/98000.html",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [],
+      "credits": [],
+      "sourceMode": "explicit",
+      "titleJa": "クウフク（starring VALSHE）",
+      "artistDisplayName": "今夜、あの街から",
+      "seasonIds": [],
+      "usageLabel": "原TV ED68（第1074～1087話）",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/besthits/conan/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-68-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-68-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-68"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-68-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-68"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animeanime.jp/article/2026/04/16/98000.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-68"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈クウフク（starring VALSHE）〉：読売テレビ官方歷代OP／ED表普通搜尋索引逐項明本曲原名與正式名義；中文原期曲表明ED68／第1074～1087話。季度依本曲實際原TV播出期間交叉核對，不由發售、MV、NC上傳日或整部續播推。 只記正式演唱名義，團員／starring字樣不自動變逐人vocals。 此一方表標歷代OP・ED聯集，沒有分列每首OP／ED欄；精確OP／ED分類與歷代序號由中文逐曲交叉提供，新增ID／序號直接採已核真實歷代編號。 一方未分精確OP／ED，故本用途held空季度；交叉候補季度2023-winter／2023-spring只留續查，不算已確認。",
+          "resumeWhen": "待原期官方逐曲公告或可核對官方OP／ED標題明本曲精確類型，才把一方用途範圍由歷代OP・ED聯集收窄；目前精確分類與歷代號由已讀中文逐話表交叉支持。詳細階段沿已核原期來源，待一方逐曲明示尚缺詞曲編／個別實唱、錄音full／TV版本、官方影片形式、發行收錄與正版平台再補；歷代影片與商品不自動造新歌曲或錄音。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "id": "meitantei-conan-ed-67",
+      "songId": "meitantei-conan-ed-67-song",
+      "type": "ED",
+      "sequence": 67,
+      "sources": [
+        {
+          "url": "https://avexnet.jp/contents/DAICE-XXXX-XXXX/news/1103086",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.ytv.co.jp/besthits/conan/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.conanpedia.com/zh-hant/TV",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://animeanime.jp/article/2026/04/16/98000.html",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [],
+      "credits": [
+        {
+          "role": "vocals",
+          "name": "大野雄大"
+        }
+      ],
+      "sourceMode": "explicit",
+      "titleJa": "プレイメーカー feat.大野雄大（from Da-iCE）",
+      "artistDisplayName": "all at once",
+      "seasonIds": [
+        "2022-fall",
+        "2023-winter"
+      ],
+      "usageLabel": "原TV ED67（第1058～1073話）",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://avexnet.jp/contents/DAICE-XXXX-XXXX/news/1103086",
+            "https://www.ytv.co.jp/besthits/conan/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-67-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://avexnet.jp/contents/DAICE-XXXX-XXXX/news/1103086"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-67"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-67-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-67"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-67-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-67"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animeanime.jp/article/2026/04/16/98000.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-67"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://avexnet.jp/contents/DAICE-XXXX-XXXX/news/1103086"
+          ],
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈プレイメーカー feat.大野雄大（from Da-iCE）〉：読売テレビ官方歷代OP／ED表普通搜尋索引逐項明本曲原名與正式名義；中文原期曲表明ED67／第1058～1073話。季度依本曲實際原TV播出期間交叉核對，不由發售、MV、NC上傳日或整部續播推。 另列一方原公告／作品表直接支持本曲用途，依各頁實際支持欄位分工。 只記正式演唱名義，團員／starring字樣不自動變逐人vocals。 Avex大野雄大權利方公告明與all at once本曲合作歌唱及2022/10/1今夜起ED；未把Da-iCE全員或另曲星合Acoustic版當本曲。",
+          "resumeWhen": "詳細階段沿已核原期來源，待一方逐曲明示尚缺詞曲編／個別實唱、錄音full／TV版本、官方影片形式、發行收錄與正版平台再補；歷代影片與商品不自動造新歌曲或錄音。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "id": "meitantei-conan-ed-66",
+      "songId": "meitantei-conan-ed-66-song",
+      "type": "ED",
+      "sequence": 66,
+      "sources": [
+        {
+          "url": "https://sard-underground.jp/disco/gzca-7184.html",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.ytv.co.jp/besthits/conan/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.conanpedia.com/zh-hant/TV",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://animeanime.jp/article/2026/04/16/98000.html",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [],
+      "credits": [
+        {
+          "role": "lyrics",
+          "name": "神野友亜"
+        },
+        {
+          "role": "composition",
+          "name": "小澤正澄"
+        },
+        {
+          "role": "arrangement",
+          "name": "鶴澤夢人"
+        },
+        {
+          "role": "arrangement",
+          "name": "長戸大幸"
+        }
+      ],
+      "sourceMode": "explicit",
+      "titleJa": "空っぽの心",
+      "artistDisplayName": "SARD UNDERGROUND",
+      "seasonIds": [
+        "2022-spring",
+        "2022-summer"
+      ],
+      "usageLabel": "原TV ED66（第1039～1057話）",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://sard-underground.jp/disco/gzca-7184.html",
+            "https://www.ytv.co.jp/besthits/conan/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-66-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://sard-underground.jp/disco/gzca-7184.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-66"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-66-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-66"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-66-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-66"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animeanime.jp/article/2026/04/16/98000.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-66"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://sard-underground.jp/disco/gzca-7184.html"
+          ],
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈空っぽの心〉：読売テレビ官方歷代OP／ED表普通搜尋索引逐項明本曲原名與正式名義；中文原期曲表明ED66／第1039～1057話。季度依本曲實際原TV播出期間交叉核對，不由發售、MV、NC上傳日或整部續播推。 另列一方原公告／作品表直接支持本曲用途，依各頁實際支持欄位分工。 只記正式演唱名義，團員／starring字樣不自動變逐人vocals。",
+          "resumeWhen": "詳細階段沿已核原期來源，待一方逐曲明示尚缺詞曲編／個別實唱、錄音full／TV版本、官方影片形式、發行收錄與正版平台再補；歷代影片與商品不自動造新歌曲或錄音。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "id": "meitantei-conan-ed-65",
+      "songId": "meitantei-conan-ed-65-song",
+      "type": "ED",
+      "sequence": 65,
+      "sources": [
+        {
+          "url": "https://www.ytv.co.jp/besthits/conan/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.conanpedia.com/zh-hant/TV",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://animeanime.jp/article/2026/04/16/98000.html",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [],
+      "credits": [],
+      "sourceMode": "explicit",
+      "titleJa": "SWEET MOONLIGHT",
+      "artistDisplayName": "BREAKERZ",
+      "seasonIds": [],
+      "usageLabel": "原TV ED65（第1029～1038話）",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/besthits/conan/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-65-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-65-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-65"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-65-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-65"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animeanime.jp/article/2026/04/16/98000.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-65"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈SWEET MOONLIGHT〉：読売テレビ官方歷代OP／ED表普通搜尋索引逐項明本曲原名與正式名義；中文原期曲表明ED65／第1029～1038話。季度依本曲實際原TV播出期間交叉核對，不由發售、MV、NC上傳日或整部續播推。 只記正式演唱名義，團員／starring字樣不自動變逐人vocals。 此一方表標歷代OP・ED聯集，沒有分列每首OP／ED欄；精確OP／ED分類與歷代序號由中文逐曲交叉提供，新增ID／序號直接採已核真實歷代編號。 一方未分精確OP／ED，故本用途held空季度；交叉候補季度2021-fall／2022-winter只留續查，不算已確認。",
+          "resumeWhen": "待原期官方逐曲公告或可核對官方OP／ED標題明本曲精確類型，才把一方用途範圍由歷代OP・ED聯集收窄；目前精確分類與歷代號由已讀中文逐話表交叉支持。詳細階段沿已核原期來源，待一方逐曲明示尚缺詞曲編／個別實唱、錄音full／TV版本、官方影片形式、發行收錄與正版平台再補；歷代影片與商品不自動造新歌曲或錄音。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "id": "meitantei-conan-ed-64",
+      "songId": "meitantei-conan-ed-64-song",
+      "type": "ED",
+      "sequence": 64,
+      "sources": [
+        {
+          "url": "https://www.ytv.co.jp/conan30/project/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.ytv.co.jp/besthits/conan/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.conanpedia.com/zh-hant/TV",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://animeanime.jp/article/2026/04/16/98000.html",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [],
+      "credits": [
+        {
+          "name": "倉木麻衣",
+          "role": "vocals"
+        }
+      ],
+      "sourceMode": "explicit",
+      "titleJa": "ベロニカ",
+      "artistDisplayName": "倉木麻衣",
+      "seasonIds": [
+        "2021-summer",
+        "2021-fall"
+      ],
+      "usageLabel": "原TV ED64（第1016～1028話）",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/conan30/project/",
+            "https://www.ytv.co.jp/besthits/conan/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-64-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/conan30/project/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-64"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-64-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-64"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-64-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-64"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animeanime.jp/article/2026/04/16/98000.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-64"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈ベロニカ〉：読売テレビ官方歷代OP／ED表普通搜尋索引逐項明本曲原名與正式名義；中文原期曲表明ED64／第1016～1028話。季度依本曲實際原TV播出期間交叉核對，不由發售、MV、NC上傳日或整部續播推。 另列一方原公告／作品表直接支持本曲用途，依各頁實際支持欄位分工。",
+          "resumeWhen": "詳細階段沿已核原期來源，待一方逐曲明示尚缺詞曲編／個別實唱、錄音full／TV版本、官方影片形式、發行收錄與正版平台再補；歷代影片與商品不自動造新歌曲或錄音。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "id": "meitantei-conan-ed-63",
+      "songId": "meitantei-conan-ed-63-song",
+      "type": "ED",
+      "sequence": 63,
+      "sources": [
+        {
+          "url": "https://www.androp.jp/news/detail/3755/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.ytv.co.jp/besthits/conan/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.conanpedia.com/zh-hant/TV",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://animeanime.jp/article/2026/04/16/98000.html",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [],
+      "credits": [
+        {
+          "name": "宮川愛李",
+          "role": "vocals"
+        }
+      ],
+      "sourceMode": "explicit",
+      "titleJa": "Reboot",
+      "artistDisplayName": "宮川愛李",
+      "seasonIds": [
+        "2021-winter",
+        "2021-spring",
+        "2021-summer"
+      ],
+      "usageLabel": "原TV ED63（第993～1015話）",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.androp.jp/news/detail/3755/",
+            "https://www.ytv.co.jp/besthits/conan/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-63-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.androp.jp/news/detail/3755/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-63"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-63-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-63"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-63-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-63"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animeanime.jp/article/2026/04/16/98000.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-63"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈Reboot〉：読売テレビ官方歷代OP／ED表普通搜尋索引逐項明本曲原名與正式名義；中文原期曲表明ED63／第993～1015話。季度依本曲實際原TV播出期間交叉核對，不由發售、MV、NC上傳日或整部續播推。 另列一方原公告／作品表直接支持本曲用途，依各頁實際支持欄位分工。 作曲者團體官網只明內澤提供本曲，沒有拆分詞曲編職位，不由「楽曲提供」推三角色。",
+          "resumeWhen": "詳細階段沿已核原期來源，待一方逐曲明示尚缺詞曲編／個別實唱、錄音full／TV版本、官方影片形式、發行收錄與正版平台再補；歷代影片與商品不自動造新歌曲或錄音。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "id": "meitantei-conan-ed-62",
+      "songId": "meitantei-conan-ed-62-song",
+      "type": "ED",
+      "sequence": 62,
+      "sources": [
+        {
+          "url": "https://www.ytv.co.jp/besthits/conan/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.conanpedia.com/zh-hant/TV",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://animeanime.jp/article/2026/04/16/98000.html",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [],
+      "credits": [],
+      "sourceMode": "explicit",
+      "titleJa": "星合",
+      "artistDisplayName": "all at once",
+      "seasonIds": [],
+      "usageLabel": "原TV ED62（第977～992話）",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/besthits/conan/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-62-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-62-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-62"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-62-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-62"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animeanime.jp/article/2026/04/16/98000.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-62"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈星合〉：読売テレビ官方歷代OP／ED表普通搜尋索引逐項明本曲原名與正式名義；中文原期曲表明ED62／第977～992話。季度依本曲實際原TV播出期間交叉核對，不由發售、MV、NC上傳日或整部續播推。 只記正式演唱名義，團員／starring字樣不自動變逐人vocals。 此一方表標歷代OP・ED聯集，沒有分列每首OP／ED欄；精確OP／ED分類與歷代序號由中文逐曲交叉提供，新增ID／序號直接採已核真實歷代編號。 一方未分精確OP／ED，故本用途held空季度；交叉候補季度2020-summer／2020-fall只留續查，不算已確認。",
+          "resumeWhen": "待原期官方逐曲公告或可核對官方OP／ED標題明本曲精確類型，才把一方用途範圍由歷代OP・ED聯集收窄；目前精確分類與歷代號由已讀中文逐話表交叉支持。詳細階段沿已核原期來源，待一方逐曲明示尚缺詞曲編／個別實唱、錄音full／TV版本、官方影片形式、發行收錄與正版平台再補；歷代影片與商品不自動造新歌曲或錄音。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "id": "meitantei-conan-ed-61",
+      "songId": "meitantei-conan-ed-61-song",
+      "type": "ED",
+      "sequence": 61,
+      "sources": [
+        {
+          "url": "https://sard-underground.jp/disco/gzca-7175.html",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.ytv.co.jp/besthits/conan/",
+          "label": "第一方本曲原名、演唱名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.conanpedia.com/zh-hant/TV",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://animeanime.jp/article/2026/04/16/98000.html",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "links": [],
+      "credits": [
+        {
+          "role": "lyrics",
+          "name": "坂井泉水"
+        },
+        {
+          "role": "composition",
+          "name": "大野愛果"
+        },
+        {
+          "role": "arrangement",
+          "name": "鶴澤夢人"
+        },
+        {
+          "role": "arrangement",
+          "name": "長戸大幸"
+        }
+      ],
+      "sourceMode": "explicit",
+      "titleJa": "少しづつ 少しづつ",
+      "artistDisplayName": "SARD UNDERGROUND",
+      "seasonIds": [
+        "2020-winter",
+        "2020-spring",
+        "2020-summer"
+      ],
+      "usageLabel": "原TV ED61（第965～976話）",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://sard-underground.jp/disco/gzca-7175.html",
+            "https://www.ytv.co.jp/besthits/conan/"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-61-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://sard-underground.jp/disco/gzca-7175.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-61"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-61-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-61"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-61-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/zh-hant/TV"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-61"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animeanime.jp/article/2026/04/16/98000.html"
+          ],
+          "verifiedAt": "2026-10-22",
+          "targetId": "meitantei-conan-ed-61"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://sard-underground.jp/disco/gzca-7175.html"
+          ],
+          "verifiedAt": "2026-10-22"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈少しづつ 少しづつ〉：読売テレビ官方歷代OP／ED表普通搜尋索引逐項明本曲原名與正式名義；中文原期曲表明ED61／第965～976話。季度依本曲實際原TV播出期間交叉核對，不由發售、MV、NC上傳日或整部續播推。 另列一方原公告／作品表直接支持本曲用途，依各頁實際支持欄位分工。 只記正式演唱名義，團員／starring字樣不自動變逐人vocals。",
+          "resumeWhen": "詳細階段沿已核原期來源，待一方逐曲明示尚缺詞曲編／個別實唱、錄音full／TV版本、官方影片形式、發行收錄與正版平台再補；歷代影片與商品不自動造新歌曲或錄音。",
+          "checkedAt": "2026-10-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-22"
+    }
+  ]
+}
 ];
 
 export const curated2026SummerAnimeIds = [213426, 192800, 208044, 197715, 209669, 203880, 201667, 206521, 198376, 180136, 207141, 204466, 188525, 203490, 209983, 207674, 212308, 178789, 185542, 186863, 187538, 206249, 190569, 196017, 194219, 185692, 185875, 208225, 201514, 200230, 210031, 204060, 198409, 200637, 103303, 177637, 169080, 213506, 169582, 202269, 199748, 199408, 195833, 209504, 169583, 199111, 128757, 187260, 213665, 177699, 209800, 198709, 207809, 198946, 135865, 213666, 159309, 196356, 194829, 207254, 108992, 196187, 196218, 199066, 208824, 188139, 213359, 182616, 185874, 189046, 182205, 195600, 171110, 196974, 197754, 196219, 184356, 196012, 202508, 184492, 206523, 188388, 21, 235, 202957, 158871, 142274, 165159, 8687, 966, 6149] as const;
