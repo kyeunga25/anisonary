@@ -354,7 +354,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     titleZhHant: "夏季動畫",
     titleJa: "2022年夏アニメ",
     seeds: curated2022SummerSeeds,
-    animeIds: [...curated2022SummerAnimeIds, 137341, 21, 112153, 235, 127911, 129201, 132052, 140350, 123330, 134732, 141350, 133175, 140787, 146865, 137633, 140085, 142080]
+    animeIds: [...curated2022SummerAnimeIds, 137341, 21, 112153, 235, 127911, 129201, 132052, 140350, 123330, 134732, 141350, 133175, 140787, 146865, 137633, 140085, 142080, 123752]
   },
   {
     id: "2022-spring",
@@ -363,7 +363,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     titleZhHant: "春季動畫",
     titleJa: "2022年春アニメ",
     seeds: curated2022SpringSeeds,
-    animeIds: [...curated2022SpringAnimeIds, 21, 112153, 235, 135136, 140502, 142080, 124060, 131681, 136428, 125682, 139648, 140643]
+    animeIds: [...curated2022SpringAnimeIds, 21, 112153, 235, 135136, 140502, 142080, 124060, 131681, 136428, 125682, 139648, 140643, 123752]
   },
   {
     id: "2022-winter",
@@ -372,7 +372,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     titleZhHant: "冬季動畫",
     titleJa: "2022年冬アニメ",
     seeds: curated2022WinterSeeds,
-    animeIds: [...curated2022WinterAnimeIds, 21, 112153, 235]
+    animeIds: [...curated2022WinterAnimeIds, 21, 112153, 235, 105931, 113717, 124195, 134623, 138714, 142329]
   },
   {
     id: "2021-fall",
