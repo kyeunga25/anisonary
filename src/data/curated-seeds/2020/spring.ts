@@ -11,7 +11,7 @@ type Spring2020SeedInput = Omit<
   | "imageSourceLabel"
   | "wikipediaUrl"
   | "verifiedAt"
->;
+> & Partial<Pick<CuratedAnimeSeed, "seasonIds" | "editorialWeekday">>;
 
 const wikipediaUrl =
   "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8";
@@ -23,8 +23,8 @@ function spring2020Seed(row: Spring2020SeedInput): CuratedAnimeSeed {
   return {
     ...row,
     id: `curated-${row.anilistId}`,
-    seasonIds: ["2020-spring"],
-    editorialWeekday: weekday || 7,
+    seasonIds: row.seasonIds ?? ["2020-spring"],
+    editorialWeekday: row.editorialWeekday ?? (weekday || 7),
     status: "finished",
     anilistUrl,
     imageSourceUrl: anilistUrl,
@@ -36,39 +36,362 @@ function spring2020Seed(row: Spring2020SeedInput): CuratedAnimeSeed {
 
 const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
   spring2020Seed({
-    anilistId: 110130,
-    slug: "tamayomi",
-    startDate: "2020-04-01",
-    titleJa: "球詠",
-    titleZhHant: "球詠",
-    titleRomaji: "Tamayomi",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110130-QqvIQ5B2X3EJ.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110130-lRahMRPDBC1Y.jpg",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl: "https://tamayomi.com/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/125",
-      "https://acgsecrets.hk/bangumi/202004/",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/tamayomi",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "Never Let You Go!",
-        artistDisplayName: "七穂",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "プラスマイナスゼロの法則",
-        artistDisplayName:
-          "新越谷高校女子野球部 (前田佳織里、天野聡美、野口瑠璃子、橋本鞠衣、永野愛理、北川里奈、富田美憂、宮本侑芽、本泉莉奈、白城なお)",
-      },
-    ],
-  }),
+  "anilistId": 110130,
+  "slug": "tamayomi",
+  "startDate": "2020-04-01",
+  "titleJa": "球詠",
+  "titleZhHant": "球詠",
+  "titleRomaji": "Tamayomi",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110130-QqvIQ5B2X3EJ.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110130-lRahMRPDBC1Y.jpg",
+  "broadcastLabel": "2020-04-01起・AT-X・水曜22:00（JST）；其他深夜台與4月網播分開",
+  "officialSiteUrl": "https://tamayomi.com/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/125",
+    "https://acgsecrets.hk/bangumi/202004/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/tamayomi",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "Never Let You Go!",
+      "artistDisplayName": "七穂",
+      "id": "tamayomi-op-1",
+      "songId": "tamayomi-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "url": "https://tamayomi.com/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/tamayomi",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "Naho - Topic 授權影片",
+          "url": "https://www.youtube.com/watch?v=RaX0jcouyzw",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E7%90%83%E5%92%8F",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.tamayomi.com/onair/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "七穂",
+          "role": "vocals"
+        },
+        {
+          "name": "麻枝 准",
+          "role": "lyrics"
+        },
+        {
+          "name": "麻枝 准",
+          "role": "composition"
+        },
+        {
+          "name": "MANYO",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://tamayomi.com/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "tamayomi-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://tamayomi.com/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "tamayomi-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%90%83%E5%92%8F"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "tamayomi-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%90%83%E5%92%8F"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "tamayomi-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://tamayomi.com/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期原名、正式名義與常規用途已核，確認2020春；創作/歌唱僅同頁本曲明文。",
+          "resumeWhen": "可選音源/影片/發行/平台資料待本曲直接證據再補，不刷新未讀來源或推新用途。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "プラスマイナスゼロの法則",
+      "artistDisplayName": "新越谷高校女子野球部 (前田佳織里、天野聡美、野口瑠璃子、橋本鞠衣、永野愛理、北川里奈、富田美憂、宮本侑芽、本泉莉奈、白城なお)",
+      "id": "tamayomi-ed-1",
+      "songId": "tamayomi-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "url": "https://tamayomi.com/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/tamayomi",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "Release - Topic 授權影片",
+          "url": "https://www.youtube.com/watch?v=4Sz9gSjs-nA",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E7%90%83%E5%92%8F",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.tamayomi.com/onair/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "新越谷高校女子野球部 (前田佳織里、天野聡美、野口瑠璃子、橋本鞠衣、永野愛理、北川里奈、富田美憂、宮本侑芽、本泉莉奈、白城なお)",
+          "role": "vocals"
+        },
+        {
+          "name": "麻枝 准",
+          "role": "lyrics"
+        },
+        {
+          "name": "麻枝 准",
+          "role": "composition"
+        },
+        {
+          "name": "MANYO",
+          "role": "arrangement"
+        },
+        {
+          "name": "前田佳織里",
+          "role": "vocals"
+        },
+        {
+          "name": "天野聡美",
+          "role": "vocals"
+        },
+        {
+          "name": "野口瑠璃子",
+          "role": "vocals"
+        },
+        {
+          "name": "橋本鞠衣",
+          "role": "vocals"
+        },
+        {
+          "name": "永野愛理",
+          "role": "vocals"
+        },
+        {
+          "name": "北川里奈",
+          "role": "vocals"
+        },
+        {
+          "name": "富田美憂",
+          "role": "vocals"
+        },
+        {
+          "name": "宮本侑芽",
+          "role": "vocals"
+        },
+        {
+          "name": "本泉莉奈",
+          "role": "vocals"
+        },
+        {
+          "name": "白城なお",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://tamayomi.com/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "tamayomi-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://tamayomi.com/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "tamayomi-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%90%83%E5%92%8F"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "tamayomi-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%90%83%E5%92%8F"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "tamayomi-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://tamayomi.com/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期原名、正式名義與常規用途已核，確認2020春；創作/歌唱僅同頁本曲明文。",
+          "resumeWhen": "可選音源/影片/發行/平台資料待本曲直接證據再補，不刷新未讀來源或推新用途。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://www.tamayomi.com/onair/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E7%90%83%E5%92%8F",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "editorialWeekday": 3,
+  "broadcastTimeJst": "22:00",
+  "seasonIds": [
+    "2020-spring"
+  ]
+}),
   spring2020Seed({
     anilistId: 116789,
     slug: "micchiri-wanko-animation",
@@ -87,105 +410,1048 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
     themes: [],
   }),
   spring2020Seed({
-    anilistId: 106319,
-    slug: "hachinan-tte-sore-wa-nai-deshou",
-    startDate: "2020-04-02",
-    titleJa: "八男って、それはないでしょう！",
-    titleZhHant: "八男？別鬧了！",
-    titleRomaji: "Hachi-nan tte, Sore wa Nai deshou!",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx106319-LDDmqyV2rs4D.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/106319-TxPcI4yFDNfe.jpg",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl: "https://shin-ei-animation.jp/works/hachinan/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/116",
-      "https://acgsecrets.hk/bangumi/202004/",
-    ],
-    animeThemesUrl:
-      "https://animethemes.moe/anime/hachi_nan_tte_sore_wa_nai_deshou",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "時空の迷い人",
-        artistDisplayName: "デーモン閣下 × 宝野アリカ",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "月明かりのMonologue",
-        artistDisplayName: "AKINO arai × AKINO from bless4",
-      },
-    ],
-  }),
+  "anilistId": 106319,
+  "slug": "hachinan-tte-sore-wa-nai-deshou",
+  "startDate": "2020-04-02",
+  "titleJa": "八男って、それはないでしょう！",
+  "titleZhHant": "八男？別鬧了！",
+  "titleRomaji": "Hachi-nan tte, Sore wa Nai deshou!",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx106319-LDDmqyV2rs4D.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/106319-TxPcI4yFDNfe.jpg",
+  "broadcastLabel": "2020年4月2日21:00 AT-X原首播",
+  "officialSiteUrl": "https://shin-ei-animation.jp/works/hachinan/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/116",
+    "https://acgsecrets.hk/bangumi/202004/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/hachi_nan_tte_sore_wa_nai_deshou",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "時空の迷い人",
+      "artistDisplayName": "デーモン閣下 × 宝野アリカ",
+      "id": "hachinan-tte-sore-wa-nai-deshou-op-1",
+      "songId": "hachinan-tte-sore-wa-nai-deshou-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "label": "《八男？別鬧了！》第一方歌曲資料：曲名與演唱者",
+          "url": "https://www.fwinc.co.jp/news/57755/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/hachi_nan_tte_sore_wa_nai_deshou",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "FRONTIERWORKS 官方影片",
+          "url": "https://www.youtube.com/watch?v=hLuEcDn1YgI",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://shin-ei-animation.jp/works/hachinan/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026675/VTCL-35316.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.animatetimes.com/news/details.php?id=1585831171",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%85%AB%E7%94%B7%EF%BC%9F%E5%88%A5%E9%AC%A7%E4%BA%86%EF%BC%81",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "デーモン閣下 × 宝野アリカ",
+          "role": "vocals"
+        },
+        {
+          "name": "デーモン閣下",
+          "role": "lyrics"
+        },
+        {
+          "name": "宝野アリカ",
+          "role": "lyrics"
+        },
+        {
+          "name": "デーモン閣下",
+          "role": "composition"
+        },
+        {
+          "name": "Anders Rydholm",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026675/VTCL-35316.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "hachinan-tte-sore-wa-nai-deshou-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026675/VTCL-35316.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "hachinan-tte-sore-wa-nai-deshou-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1585831171"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "hachinan-tte-sore-wa-nai-deshou-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1585831171"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "hachinan-tte-sore-wa-nai-deshou-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%85%AB%E7%94%B7%EF%BC%9F%E5%88%A5%E9%AC%A7%E4%BA%86%EF%BC%81"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "hachinan-tte-sore-wa-nai-deshou-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%85%AB%E7%94%B7%EF%BC%9F%E5%88%A5%E9%AC%A7%E4%BA%86%EF%BC%81"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "hachinan-tte-sore-wa-nai-deshou-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026675/VTCL-35316.html"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原期曲名、正式歌唱名義及春季用途已核；原ID及影音保留。",
+          "resumeWhen": "待同頁精確音源／發行資料可用再補可選欄位，不推定新錄音或其他用途。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "月明かりのMonologue",
+      "artistDisplayName": "AKINO arai × AKINO from bless4",
+      "id": "hachinan-tte-sore-wa-nai-deshou-ed-1",
+      "songId": "hachinan-tte-sore-wa-nai-deshou-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "label": "《八男？別鬧了！》第一方歌曲資料：曲名與演唱者",
+          "url": "https://www.fwinc.co.jp/news/57755/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/hachi_nan_tte_sore_wa_nai_deshou",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "FRONTIERWORKS 官方影片",
+          "url": "https://www.youtube.com/watch?v=k5dg1AMfxTQ",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://shin-ei-animation.jp/works/hachinan/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026676/VTCL-35317.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.animatetimes.com/news/details.php?id=1585831171",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%85%AB%E7%94%B7%EF%BC%9F%E5%88%A5%E9%AC%A7%E4%BA%86%EF%BC%81",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "AKINO arai × AKINO from bless4",
+          "role": "vocals"
+        },
+        {
+          "name": "Motokiyo",
+          "role": "lyrics"
+        },
+        {
+          "name": "Motokiyo",
+          "role": "composition"
+        },
+        {
+          "name": "Motokiyo",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026676/VTCL-35317.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "hachinan-tte-sore-wa-nai-deshou-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026676/VTCL-35317.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "hachinan-tte-sore-wa-nai-deshou-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1585831171"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "hachinan-tte-sore-wa-nai-deshou-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1585831171"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "hachinan-tte-sore-wa-nai-deshou-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%85%AB%E7%94%B7%EF%BC%9F%E5%88%A5%E9%AC%A7%E4%BA%86%EF%BC%81"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "hachinan-tte-sore-wa-nai-deshou-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%85%AB%E7%94%B7%EF%BC%9F%E5%88%A5%E9%AC%A7%E4%BA%86%EF%BC%81"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "hachinan-tte-sore-wa-nai-deshou-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026676/VTCL-35317.html"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原期曲名、正式歌唱名義及春季用途已核；原ID及影音保留。",
+          "resumeWhen": "待同頁精確音源／發行資料可用再補可選欄位，不推定新錄音或其他用途。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000001782.000016756.html",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://www.animatetimes.com/news/details.php?id=1585831171",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "editorialWeekday": 4,
+  "broadcastTimeJst": "21:00",
+  "seasonIds": [
+    "2020-spring"
+  ]
+}),
   spring2020Seed({
-    anilistId: 113311,
-    slug: "kakushigoto",
-    startDate: "2020-04-02",
-    titleJa: "かくしごと",
-    titleZhHant: "隱瞞之事",
-    titleRomaji: "Kakushigoto",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113311-6bSvvCHBpjpI.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113311-T1FWgCflSKtl.jpg",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl: "https://kakushigoto-anime.com/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/19",
-      "https://acgsecrets.hk/bangumi/202004/",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/kakushigoto",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "ちいさな日々",
-        artistDisplayName: "flumpool",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "君は天然色",
-        artistDisplayName: "大滝詠一",
-      },
-    ],
-  }),
+  "anilistId": 113311,
+  "slug": "kakushigoto",
+  "startDate": "2020-04-02",
+  "titleJa": "かくしごと",
+  "titleZhHant": "隱瞞之事",
+  "titleRomaji": "Kakushigoto",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113311-6bSvvCHBpjpI.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113311-T1FWgCflSKtl.jpg",
+  "broadcastLabel": "2020年4月2日23:30 BS日テレ／AT-X原首播",
+  "officialSiteUrl": "https://kakushigoto-anime.com/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/19",
+    "https://acgsecrets.hk/bangumi/202004/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/kakushigoto",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "ちいさな日々",
+      "artistDisplayName": "flumpool",
+      "id": "kakushigoto-op-1",
+      "songId": "kakushigoto-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://kakushigoto-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/kakushigoto",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "avex pictures 官方影片",
+          "url": "https://www.youtube.com/watch?v=cHYeFFGcjdc",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://kakushigoto-anime.com/tv/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%9A%B1%E7%9E%9E%E4%B9%8B%E4%BA%8B",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "flumpool",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://kakushigoto-anime.com/tv/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kakushigoto-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://kakushigoto-anime.com/tv/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kakushigoto-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%9A%B1%E7%9E%9E%E4%B9%8B%E4%BA%8B"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kakushigoto-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%9A%B1%E7%9E%9E%E4%B9%8B%E4%BA%8B"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kakushigoto-op-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原期曲名、正式歌唱名義及春季用途已核；原ID及影音保留。",
+          "resumeWhen": "待同頁精確音源／發行資料可用再補可選欄位，不推定新錄音或其他用途。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "君は天然色",
+      "artistDisplayName": "大滝詠一",
+      "id": "kakushigoto-ed-1",
+      "songId": "kakushigoto-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://kakushigoto-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/kakushigoto",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "avex pictures 官方影片",
+          "url": "https://www.youtube.com/watch?v=tOv4k7wmzoE",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://kakushigoto-anime.com/tv/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%9A%B1%E7%9E%9E%E4%B9%8B%E4%BA%8B",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "大滝詠一",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://kakushigoto-anime.com/tv/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kakushigoto-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://kakushigoto-anime.com/tv/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kakushigoto-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%9A%B1%E7%9E%9E%E4%B9%8B%E4%BA%8B"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kakushigoto-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%9A%B1%E7%9E%9E%E4%B9%8B%E4%BA%8B"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kakushigoto-ed-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原期曲名、正式歌唱名義及春季用途已核；原ID及影音保留。",
+          "resumeWhen": "待同頁精確音源／發行資料可用再補可選欄位，不推定新錄音或其他用途。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://kakushigoto-anime.com/tv/onair/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "editorialWeekday": 4,
+  "broadcastTimeJst": "23:30",
+  "seasonIds": [
+    "2020-spring"
+  ]
+}),
   spring2020Seed({
-    anilistId: 115230,
-    slug: "kami-no-tou-tower-of-god",
-    startDate: "2020-04-02",
-    titleJa: "神之塔 -Tower of God-",
-    titleZhHant: "神之塔 -Tower of God-",
-    titleRomaji: "Kami no Tou: Tower of God",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115230-QHOdSN7yt8ab.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/115230-wjDIxW77TLv3.jpg",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl: "https://tog-anime.com/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/247",
-      "https://acgsecrets.hk/bangumi/202004/",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/kami_no_tou",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "TOP -Japanese ver.-",
-        artistDisplayName: "Stray Kids",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "SLUMP -Japanese ver.-",
-        artistDisplayName: "Stray Kids",
-      },
-    ],
-  }),
+  "anilistId": 115230,
+  "slug": "kami-no-tou-tower-of-god",
+  "startDate": "2020-04-02",
+  "titleJa": "神之塔 -Tower of God-",
+  "titleZhHant": "神之塔 -Tower of God-",
+  "titleRomaji": "Kami no Tou: Tower of God",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115230-QHOdSN7yt8ab.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/115230-wjDIxW77TLv3.jpg",
+  "broadcastLabel": "2020年4月2日00:30日本原TV（官方地上波同時欄4/1水24:30換日）",
+  "officialSiteUrl": "https://tog-anime.com/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/247",
+    "https://acgsecrets.hk/bangumi/202004/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/kami_no_tou",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "TOP -Japanese ver.-",
+      "artistDisplayName": "Stray Kids",
+      "id": "kami-no-tou-tower-of-god-op-1",
+      "songId": "kami-no-tou-tower-of-god-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://tog-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/kami_no_tou",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "Stray Kids Japan Official YouTube 官方影片",
+          "url": "https://www.youtube.com/watch?v=o7lqCcE4Lho",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/StrayKids/discography/buy/ESCL-5435",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://tog-anime.com/1st/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E7%A5%9E%E4%B9%8B%E5%A1%94",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.animatetimes.com/news/details.php?id=1589947435",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Stray Kids",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/StrayKids/discography/buy/ESCL-5435"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kami-no-tou-tower-of-god-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://tog-anime.com/1st/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kami-no-tou-tower-of-god-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/StrayKids/discography/buy/ESCL-5435"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kami-no-tou-tower-of-god-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%A5%9E%E4%B9%8B%E5%A1%94"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kami-no-tou-tower-of-god-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%A5%9E%E4%B9%8B%E5%A1%94"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kami-no-tou-tower-of-god-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1589947435"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kami-no-tou-tower-of-god-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1589947435"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kami-no-tou-tower-of-god-op-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期常規用途、原名與正式演唱名義已核，確認2020春。",
+          "resumeWhen": "待本曲音源與正版平台直接資料可核再補；不由商品或影片推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "SLUMP -Japanese ver.-",
+      "artistDisplayName": "Stray Kids",
+      "id": "kami-no-tou-tower-of-god-ed-1",
+      "songId": "kami-no-tou-tower-of-god-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://tog-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/kami_no_tou",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "Stray Kids Japan Official YouTube 官方影片",
+          "url": "https://www.youtube.com/watch?v=7SPnJMGB9u4",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/StrayKids/discography/buy/ESCL-5435",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://tog-anime.com/1st/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E7%A5%9E%E4%B9%8B%E5%A1%94",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.animatetimes.com/news/details.php?id=1589947435",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Stray Kids",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/StrayKids/discography/buy/ESCL-5435"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kami-no-tou-tower-of-god-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://tog-anime.com/1st/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kami-no-tou-tower-of-god-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/StrayKids/discography/buy/ESCL-5435"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kami-no-tou-tower-of-god-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%A5%9E%E4%B9%8B%E5%A1%94"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kami-no-tou-tower-of-god-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%A5%9E%E4%B9%8B%E5%A1%94"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kami-no-tou-tower-of-god-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1589947435"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kami-no-tou-tower-of-god-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1589947435"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kami-no-tou-tower-of-god-ed-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期常規用途、原名與正式演唱名義已核，確認2020春。",
+          "resumeWhen": "待本曲音源與正版平台直接資料可核再補；不由商品或影片推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://tog-anime.com/1st/onair/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E7%A5%9E%E4%B9%8B%E5%A1%94",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "editorialWeekday": 4,
+  "broadcastTimeJst": "00:30",
+  "seasonIds": [
+    "2020-spring"
+  ]
+}),
   spring2020Seed({
     anilistId: 116258,
     slug: "norimono-man-mobile-land-no-car-kun",
@@ -213,48 +1479,615 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
     ],
   }),
   spring2020Seed({
-    anilistId: 111500,
-    slug: "shin-sakura-taisen-the-animation",
-    startDate: "2020-04-03",
-    titleJa: "新サクラ大戦 the Animation",
-    titleZhHant: "新櫻花大戰 the Animation",
-    titleRomaji: "Shin Sakura Taisen the Animation",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111500-YqqWk16db7FX.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/111500-p0hOAFSghFKQ.jpg",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl: "https://www.sakura-taisen.com/index.html",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/241",
-      "https://acgsecrets.hk/bangumi/202004/",
-    ],
-    animeThemesUrl:
-      "https://animethemes.moe/anime/shin_sakura_taisen_the_animation",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "檄！帝国華撃団〈新章〉",
-        artistDisplayName:
-          "帝国歌劇団・花組 [天宮さくら (CV.佐倉綾音)、東雲初穂 (CV.内田真礼)、望月あざみ (CV.山村響)、アナスタシア・パルマ (CV.福原綾香)、クラリス (CV.早見沙織)]",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "桜夢見し",
-        artistDisplayName:
-          "帝国歌劇団・花組 [天宮さくら (CV.佐倉綾音)、東雲初穂 (CV.内田真礼)、望月あざみ (CV.山村響)、アナスタシア・パルマ (CV.福原綾香)、クラリス (CV.早見沙織)]、エリス (CV.水樹奈々)、ランスロット (CV.沼倉愛美)、ホワン・ユイ (CV.上坂すみれ)]",
-      },
-      {
-        type: "ED",
-        sequence: 2,
-        titleJa: "スタァ誕生 花組ver. (with クラーラ)",
-        artistDisplayName:
-          "天宮さくら (CV.佐倉綾音)、東雲初穂 (CV.内田真礼)、望月あざみ (CV.山村響)、アナスタシア・パルマ (CV.福原綾香)、クラリス (CV.早見沙織)",
-      },
-    ],
-  }),
+  "anilistId": 111500,
+  "slug": "shin-sakura-taisen-the-animation",
+  "startDate": "2020-04-03",
+  "titleJa": "新サクラ大戦 the Animation",
+  "titleZhHant": "新櫻花大戰 the Animation",
+  "titleRomaji": "Shin Sakura Taisen the Animation",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111500-YqqWk16db7FX.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/111500-p0hOAFSghFKQ.jpg",
+  "broadcastLabel": "2020年4月3日22:00 TOKYO MX日本原首播",
+  "officialSiteUrl": "https://www.sakura-taisen.com/index.html",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/241",
+    "https://acgsecrets.hk/bangumi/202004/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/shin_sakura_taisen_the_animation",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "檄！帝国華撃団〈新章〉",
+      "artistDisplayName": "帝国歌劇団・花組 [天宮さくら (CV.佐倉綾音)、東雲初穂 (CV.内田真礼)、望月あざみ (CV.山村響)、アナスタシア・パルマ (CV.福原綾香)、クラリス (CV.早見沙織)]",
+      "id": "shin-sakura-taisen-the-animation-op-1",
+      "songId": "shin-sakura-taisen-the-animation-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "label": "《新櫻花大戰 the Animation》第一方歌曲資料：曲名與演唱者",
+          "url": "https://www.segasammy.co.jp/cms/wp-content/uploads/2023/03/202003_4q_kabutsu_j_final.pdf",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/shin_sakura_taisen_the_animation",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "ponycanyon 官方影片",
+          "url": "https://www.youtube.com/watch?v=fEtFsUvgDMk",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.sakura-taisen.com/index.html",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://sakura-taisen.com/info/2020/20200227_04.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://sakura-taisen.com/info/2019/20190915_02.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E6%AB%BB%E8%8A%B1%E5%A4%A7%E6%88%B0",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E6%96%B0%E3%82%B5%E3%82%AF%E3%83%A9%E5%A4%A7%E6%88%A6_the_Animation",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5630",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "帝国歌劇団・花組 [天宮さくら (CV.佐倉綾音)、東雲初穂 (CV.内田真礼)、望月あざみ (CV.山村響)、アナスタシア・パルマ (CV.福原綾香)、クラリス (CV.早見沙織)]",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://sakura-taisen.com/info/2020/20200227_04.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shin-sakura-taisen-the-animation-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://sakura-taisen.com/info/2019/20190915_02.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shin-sakura-taisen-the-animation-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://sakura-taisen.com/info/2020/20200227_04.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shin-sakura-taisen-the-animation-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%96%B0%E6%AB%BB%E8%8A%B1%E5%A4%A7%E6%88%B0"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shin-sakura-taisen-the-animation-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%96%B0%E6%AB%BB%E8%8A%B1%E5%A4%A7%E6%88%B0"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shin-sakura-taisen-the-animation-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/%E6%96%B0%E3%82%B5%E3%82%AF%E3%83%A9%E5%A4%A7%E6%88%A6_the_Animation"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shin-sakura-taisen-the-animation-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/%E6%96%B0%E3%82%B5%E3%82%AF%E3%83%A9%E5%A4%A7%E6%88%A6_the_Animation"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shin-sakura-taisen-the-animation-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://cal.syoboi.jp/tid/5630"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shin-sakura-taisen-the-animation-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://cal.syoboi.jp/tid/5630"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shin-sakura-taisen-the-animation-op-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期常規用途、原名與正式演唱名義已核，確認2020春。",
+          "resumeWhen": "待本曲音源與正版平台直接資料可核再補；不由商品或影片推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "桜夢見し",
+      "artistDisplayName": "帝国歌劇団・花組＆エリス、ランスロット、ユイ",
+      "id": "shin-sakura-taisen-the-animation-ed-1",
+      "songId": "shin-sakura-taisen-the-animation-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "label": "《新櫻花大戰 the Animation》第一方歌曲資料：曲名與演唱者",
+          "url": "https://www.segasammy.co.jp/cms/wp-content/uploads/2023/03/202003_4q_kabutsu_j_final.pdf",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/shin_sakura_taisen_the_animation",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "Teikokukagekidan hanagumi&Ellis,Lancelot,Yui Ayane Sakura(Sakura Amam... - Topic 授權影片",
+          "url": "https://www.youtube.com/watch?v=sYW5Htp9w3g",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.sakura-taisen.com/index.html",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://sakura-taisen-theanimation.com/music/music01.php",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://sakura-taisen.com/info/2020/20200227_04.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E6%AB%BB%E8%8A%B1%E5%A4%A7%E6%88%B0",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E6%96%B0%E3%82%B5%E3%82%AF%E3%83%A9%E5%A4%A7%E6%88%A6_the_Animation",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5630",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "帝国歌劇団・花組 [天宮さくら (CV.佐倉綾音)、東雲初穂 (CV.内田真礼)、望月あざみ (CV.山村響)、アナスタシア・パルマ (CV.福原綾香)、クラリス (CV.早見沙織)]、エリス (CV.水樹奈々)、ランスロット (CV.沼倉愛美)、ホワン・ユイ (CV.上坂すみれ)]",
+          "role": "vocals"
+        },
+        {
+          "name": "藤林聖子",
+          "role": "lyrics"
+        },
+        {
+          "name": "田中公平",
+          "role": "composition"
+        },
+        {
+          "name": "岸村正実",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://sakura-taisen-theanimation.com/music/music01.php"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shin-sakura-taisen-the-animation-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://sakura-taisen.com/info/2020/20200227_04.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shin-sakura-taisen-the-animation-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://sakura-taisen-theanimation.com/music/music01.php"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shin-sakura-taisen-the-animation-ed-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://sakura-taisen.com/info/2020/20200227_04.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shin-sakura-taisen-the-animation-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%96%B0%E6%AB%BB%E8%8A%B1%E5%A4%A7%E6%88%B0"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shin-sakura-taisen-the-animation-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%96%B0%E6%AB%BB%E8%8A%B1%E5%A4%A7%E6%88%B0"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shin-sakura-taisen-the-animation-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/%E6%96%B0%E3%82%B5%E3%82%AF%E3%83%A9%E5%A4%A7%E6%88%A6_the_Animation"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shin-sakura-taisen-the-animation-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/%E6%96%B0%E3%82%B5%E3%82%AF%E3%83%A9%E5%A4%A7%E6%88%A6_the_Animation"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shin-sakura-taisen-the-animation-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://cal.syoboi.jp/tid/5630"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shin-sakura-taisen-the-animation-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://cal.syoboi.jp/tid/5630"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shin-sakura-taisen-the-animation-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://sakura-taisen-theanimation.com/music/music01.php"
+          ],
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://sakura-taisen.com/info/2020/20200227_04.html"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期常規用途、原名與正式演唱名義已核，確認2020春。",
+          "resumeWhen": "待本曲音源與正版平台直接資料可核再補；不由商品或影片推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "スタァ誕生 花組ver. (with クラーラ)",
+      "artistDisplayName": "天宮さくら (CV.佐倉綾音)、東雲初穂 (CV.内田真礼)、望月あざみ (CV.山村響)、アナスタシア・パルマ (CV.福原綾香)、クラリス (CV.早見沙織)",
+      "id": "shin-sakura-taisen-the-animation-ed-2",
+      "songId": "shin-sakura-taisen-the-animation-ed-2-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "《新櫻花大戰 the Animation》第一方歌曲資料：曲名與演唱者",
+          "url": "https://www.segasammy.co.jp/cms/wp-content/uploads/2023/03/202003_4q_kabutsu_j_final.pdf",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/shin_sakura_taisen_the_animation",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "Release - Topic 授權影片",
+          "url": "https://www.youtube.com/watch?v=prEwkptn98s",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.sakura-taisen.com/index.html",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://sakura-taisen-theanimation.com/music/music02.php",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E6%96%B0%E3%82%B5%E3%82%AF%E3%83%A9%E5%A4%A7%E6%88%A6_the_Animation",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5630",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "天宮さくら (CV.佐倉綾音)、東雲初穂 (CV.内田真礼)、望月あざみ (CV.山村響)、アナスタシア・パルマ (CV.福原綾香)、クラリス (CV.早見沙織)",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://sakura-taisen-theanimation.com/music/music02.php"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shin-sakura-taisen-the-animation-ed-2-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/%E6%96%B0%E3%82%B5%E3%82%AF%E3%83%A9%E5%A4%A7%E6%88%A6_the_Animation"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shin-sakura-taisen-the-animation-ed-2-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://cal.syoboi.jp/tid/5630"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shin-sakura-taisen-the-animation-ed-2-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原曲名保留；本期特殊片尾用途與精確歌唱版本尚待直接第一方明示。",
+          "resumeWhen": "待原期末話官方逐曲credit直接明示此版本片尾用途與含クラーラ的歌唱名義，再核季度；不只由交叉頁或OST收錄授用。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://sakura-taisen-theanimation.com/onair/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E6%96%B0%E3%82%B5%E3%82%AF%E3%83%A9%E5%A4%A7%E6%88%A6_the_Animation",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "editorialWeekday": 5,
+  "broadcastTimeJst": "22:00",
+  "seasonIds": [
+    "2020-spring"
+  ]
+}),
   spring2020Seed({
     anilistId: 116786,
     slug: "beyblade-burst-sparking",
