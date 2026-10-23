@@ -959,51 +959,434 @@ const curated2020FallSeedRows: CuratedAnimeSeed[] = [
     verifiedAt: "2026-09-02",
   },
   {
-    anilistId: 110277,
-    id: "curated-110277",
-    slug: "shingeki-no-kyojin-the-final-season",
-    seasonIds: ["2020-fall"],
-    startDate: "2020-12-07",
-    titleJa: "進撃の巨人 The Final Season",
-    titleZhHant: "進擊的巨人 第四季：The Final Season",
-    titleRomaji: "Shingeki no Kyojin: The Final Season",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110277-sKUNXAsWMNFw.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110277-iuGn6F5bK1U1.jpg",
-    editorialWeekday: 1,
-    broadcastLabel: "日本首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://shingeki.tv/final/",
-    anilistUrl: "https://anilist.co/anime/110277",
-    imageSourceUrl: "https://anilist.co/anime/110277",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/829",
-      "https://acgsecrets.hk/anime/669/",
-    ],
-    animeThemesUrl:
-      "https://animethemes.moe/anime/shingeki_no_kyojin_the_final_season",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "僕の戦争",
-        titleRomaji: "Boku no Sensou",
-        artistDisplayName: "神聖かまってちゃん",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "衝撃",
-        titleRomaji: "Shougeki",
-        artistDisplayName: "安藤裕子",
-      },
-    ],
-    verifiedAt: "2026-09-02",
-  },
+  "anilistId": 110277,
+  "id": "curated-110277",
+  "slug": "shingeki-no-kyojin-the-final-season",
+  "seasonIds": [
+    "2020-fall",
+    "2021-winter"
+  ],
+  "startDate": "2020-12-07",
+  "titleJa": "進撃の巨人 The Final Season",
+  "titleZhHant": "進擊的巨人 第四季：The Final Season",
+  "titleRomaji": "Shingeki no Kyojin: The Final Season",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110277-sKUNXAsWMNFw.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110277-iuGn6F5bK1U1.jpg",
+  "editorialWeekday": 1,
+  "broadcastLabel": "NHK総合原期12月6日24時10分，換算實曆12月7日00:10；非Part2或總集篇。",
+  "status": "finished",
+  "officialSiteUrl": "https://shingeki.tv/final/",
+  "anilistUrl": "https://anilist.co/anime/110277",
+  "imageSourceUrl": "https://anilist.co/anime/110277",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/829",
+    "https://acgsecrets.hk/anime/669/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/shingeki_no_kyojin_the_final_season",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "僕の戦争",
+      "titleRomaji": "Boku no Sensou",
+      "artistDisplayName": "神聖かまってちゃん",
+      "id": "shingeki-no-kyojin-the-final-season-op-1",
+      "songId": "shingeki-no-kyojin-the-final-season-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-fall",
+        "2021-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://shingeki.tv/final/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/shingeki_no_kyojin_the_final_season",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "ぽにきゃん-Anime PONY CANYON 官方影片",
+          "url": "https://www.youtube.com/watch?v=6TolbTZXDjI",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://shingeki.tv/final/music/",
+          "label": "第一方本期曲名、正式演唱名義與OP／ED用途",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://news.ponycanyon.co.jp/2020/12/44847",
+          "label": "第一方本期曲名、正式演唱名義與OP／ED用途",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%80%B2%E6%93%8A%E7%9A%84%E5%B7%A8%E4%BA%BA_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本期曲名、正式演唱名義與OP／ED用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Attack_on_Titan_season_4",
+          "label": "本期曲名、正式演唱名義與OP／ED用途交叉核對",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "links": [
+        {
+          "platform": "作品官網",
+          "label": "作品官方網站",
+          "url": "https://shingeki.tv/final/",
+          "linkType": "official_landing_page",
+          "region": "JP"
+        }
+      ],
+      "credits": [
+        {
+          "name": "神聖かまってちゃん",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://shingeki.tv/final/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shingeki-no-kyojin-the-final-season-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://news.ponycanyon.co.jp/2020/12/44847"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shingeki-no-kyojin-the-final-season-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://shingeki.tv/final/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shingeki-no-kyojin-the-final-season-op-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://news.ponycanyon.co.jp/2020/12/44847"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shingeki-no-kyojin-the-final-season-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%80%B2%E6%93%8A%E7%9A%84%E5%B7%A8%E4%BA%BA_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shingeki-no-kyojin-the-final-season-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%80%B2%E6%93%8A%E7%9A%84%E5%B7%A8%E4%BA%BA_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shingeki-no-kyojin-the-final-season-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Attack_on_Titan_season_4"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shingeki-no-kyojin-the-final-season-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Attack_on_Titan_season_4"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shingeki-no-kyojin-the-final-season-op-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "〈僕の戦争〉：第一部分原期用途與正式演唱名義已核，秋、冬按本期精確片頭／片尾及逐話範圍合讀。",
+          "resumeWhen": "待本曲直接逐曲詞曲編、音源或發行資料可讀取時補充；不從團員或一般cast推定個別實唱。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "衝撃",
+      "titleRomaji": "Shougeki",
+      "artistDisplayName": "安藤裕子",
+      "id": "shingeki-no-kyojin-the-final-season-ed-1",
+      "songId": "shingeki-no-kyojin-the-final-season-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-fall",
+        "2021-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://shingeki.tv/final/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/shingeki_no_kyojin_the_final_season",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "ぽにきゃん-Anime PONY CANYON 官方影片",
+          "url": "https://www.youtube.com/watch?v=AZl8UDsqsoM",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://shingeki.tv/final/music/",
+          "label": "第一方本期曲名、正式演唱名義與OP／ED用途",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://news.ponycanyon.co.jp/2020/12/44847",
+          "label": "第一方本期曲名、正式演唱名義與OP／ED用途",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%80%B2%E6%93%8A%E7%9A%84%E5%B7%A8%E4%BA%BA_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本期曲名、正式演唱名義與OP／ED用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Attack_on_Titan_season_4",
+          "label": "本期曲名、正式演唱名義與OP／ED用途交叉核對",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "links": [
+        {
+          "platform": "作品官網",
+          "label": "作品官方網站",
+          "url": "https://shingeki.tv/final/",
+          "linkType": "official_landing_page",
+          "region": "JP"
+        }
+      ],
+      "credits": [
+        {
+          "name": "安藤裕子",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://shingeki.tv/final/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shingeki-no-kyojin-the-final-season-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://news.ponycanyon.co.jp/2020/12/44847"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shingeki-no-kyojin-the-final-season-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://shingeki.tv/final/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shingeki-no-kyojin-the-final-season-ed-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://news.ponycanyon.co.jp/2020/12/44847"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shingeki-no-kyojin-the-final-season-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%80%B2%E6%93%8A%E7%9A%84%E5%B7%A8%E4%BA%BA_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shingeki-no-kyojin-the-final-season-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%80%B2%E6%93%8A%E7%9A%84%E5%B7%A8%E4%BA%BA_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shingeki-no-kyojin-the-final-season-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Attack_on_Titan_season_4"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shingeki-no-kyojin-the-final-season-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Attack_on_Titan_season_4"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shingeki-no-kyojin-the-final-season-ed-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "〈衝撃〉：第一部分原期用途與正式演唱名義已核，秋、冬按本期精確片頭／片尾及逐話範圍合讀。",
+          "resumeWhen": "待本曲直接逐曲詞曲編、音源或發行資料可讀取時補充；不從團員或一般cast推定個別實唱。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "verifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://news.ponycanyon.co.jp/2020/12/44847",
+      "label": "第一方原期TV首播日期與時間；未作其他期播出資料",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Attack_on_Titan_season_4",
+      "label": "原期日本TV逐話日期交叉核對；非英美配音日期",
+      "role": "broadcast_cross_check",
+      "language": "en",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "broadcastTimeJst": "00:10"
+},
   {
     anilistId: 123474,
     id: "curated-123474",
