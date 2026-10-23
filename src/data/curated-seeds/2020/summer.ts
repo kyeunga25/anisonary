@@ -6062,40 +6062,317 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
   ]
 }),
   summer2020Seed({
-    anilistId: 114308,
-    slug: "sword-art-online-alicization-war-of-underworld-part-2",
-    startDate: "2020-07-12",
-    titleJa:
-      "ソードアート・オンライン アリシゼーション War of Underworld 最終章 (2nd Season)",
-    titleZhHant: "刀劍神域 Alicization War of Underworld 最終章",
-    titleRomaji: "Sword Art Online: Alicization - War of Underworld Part 2",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114308-8UBiS7U9buzu.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/114308-VuYDoBJMbU1i.jpg",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl: "https://sao-alicization.net/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/204",
-      "https://acgsecrets.hk/bangumi/202007/",
-    ],
-    animeThemesUrl:
-      "https://animethemes.moe/anime/sword_art_online_alicization_war_of_underworld_2nd_season",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "ANIMA",
-        artistDisplayName: "ReoNa",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "I will...",
-        artistDisplayName: "藍井エイル",
-      },
-    ],
-  }),
+  "anilistId": 114308,
+  "slug": "sword-art-online-alicization-war-of-underworld-part-2",
+  "startDate": "2020-07-12",
+  "titleJa": "ソードアート・オンライン アリシゼーション War of Underworld 最終章 (2nd Season)",
+  "titleZhHant": "刀劍神域 Alicization War of Underworld 最終章",
+  "titleRomaji": "Sword Art Online: Alicization - War of Underworld Part 2",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114308-8UBiS7U9buzu.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/114308-VuYDoBJMbU1i.jpg",
+  "broadcastLabel": "2020-07-12起・TOKYO MX等・日曜00:00（原標土曜24:00，JST）；7/5總集編另計",
+  "officialSiteUrl": "https://sao-alicization.net/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/204",
+    "https://acgsecrets.hk/bangumi/202007/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/sword_art_online_alicization_war_of_underworld_2nd_season",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "ANIMA",
+      "artistDisplayName": "ReoNa",
+      "id": "sword-art-online-alicization-war-of-underworld-part-2-op-1",
+      "songId": "sword-art-online-alicization-war-of-underworld-part-2-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://sao-alicization.net/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/sword_art_online_alicization_war_of_underworld_2nd_season",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "ReoNa official YouTube channel 官方影片",
+          "url": "https://www.youtube.com/watch?v=Qo_4XqKwrSM",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://sao-alicization.net/music/op02.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%88%80%E5%8A%8D%E7%A5%9E%E5%9F%9F_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://sao-alicization.net/onair/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "ReoNa",
+          "role": "vocals"
+        },
+        {
+          "name": "毛蟹(LIVE LAB.)",
+          "role": "lyrics"
+        },
+        {
+          "name": "毛蟹(LIVE LAB.)",
+          "role": "composition"
+        },
+        {
+          "name": "毛蟹(LIVE LAB.)",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://sao-alicization.net/music/op02.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "sword-art-online-alicization-war-of-underworld-part-2-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://sao-alicization.net/music/op02.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "sword-art-online-alicization-war-of-underworld-part-2-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%88%80%E5%8A%8D%E7%A5%9E%E5%9F%9F_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "sword-art-online-alicization-war-of-underworld-part-2-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%88%80%E5%8A%8D%E7%A5%9E%E5%9F%9F_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "sword-art-online-alicization-war-of-underworld-part-2-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://sao-alicization.net/music/op02.html"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期原名、正式名義與常規用途已核；確認2020夏。",
+          "resumeWhen": "待可直接核對的本曲音源、發行及平台資料到位再補；不由影片或商品推新錄音/用途，未讀日期保原。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "I will...",
+      "artistDisplayName": "藍井エイル",
+      "id": "sword-art-online-alicization-war-of-underworld-part-2-ed-1",
+      "songId": "sword-art-online-alicization-war-of-underworld-part-2-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://sao-alicization.net/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/sword_art_online_alicization_war_of_underworld_2nd_season",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "Eir Aoi Official YouTube Channel 官方影片",
+          "url": "https://www.youtube.com/watch?v=td3LvZe5rTE",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://sao-alicization.net/news/?article_id=53822",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%88%80%E5%8A%8D%E7%A5%9E%E5%9F%9F_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://sao-alicization.net/onair/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "藍井エイル",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://sao-alicization.net/news/?article_id=53822"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "sword-art-online-alicization-war-of-underworld-part-2-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://sao-alicization.net/news/?article_id=53822"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "sword-art-online-alicization-war-of-underworld-part-2-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%88%80%E5%8A%8D%E7%A5%9E%E5%9F%9F_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "sword-art-online-alicization-war-of-underworld-part-2-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%88%80%E5%8A%8D%E7%A5%9E%E5%9F%9F_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "sword-art-online-alicization-war-of-underworld-part-2-ed-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期原名、正式名義與常規用途已核；確認2020夏。",
+          "resumeWhen": "待可直接核對的本曲音源、發行及平台資料到位再補；不由影片或商品推新錄音/用途，未讀日期保原。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://sao-alicization.net/onair/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://youranimes.tw/animes/204",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "editorialWeekday": 7,
+  "broadcastTimeJst": "00:00",
+  "seasonIds": [
+    "2020-summer"
+  ]
+}),
   summer2020Seed({
     anilistId: 120180,
     slug: "ninja-collection",
@@ -6125,39 +6402,423 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
     ],
   }),
   summer2020Seed({
-    anilistId: 110446,
-    slug: "gibiate",
-    startDate: "2020-07-15",
-    titleJa: "ジビエート",
-    titleZhHant: "GIBIATE 獵魔武士",
-    titleRomaji: "Gibiate",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b110446-vqrjx22U4T9N.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110446-JSsP9M627xU9.jpg",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl: "https://gibiate.com/anime/jp/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/378",
-      "https://acgsecrets.hk/bangumi/202007/",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/gibiate",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "GIBIATE",
-        artistDisplayName: "吉田兄弟 feat. SUGIZO",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "ENDLESS ～時を超えて～",
-        titleRomaji: "ENDLESS ~Toki wo Koete~",
-        artistDisplayName: "SUGIZO feat. 大黒摩季",
-      },
-    ],
-  }),
+  "anilistId": 110446,
+  "slug": "gibiate",
+  "startDate": "2020-07-15",
+  "titleJa": "ジビエート",
+  "titleZhHant": "GIBIATE 獵魔武士",
+  "titleRomaji": "Gibiate",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b110446-vqrjx22U4T9N.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110446-JSsP9M627xU9.jpg",
+  "broadcastLabel": "2020-07-15起・TOKYO MX・水曜22:00（JST）；7/8為事前PR非本篇",
+  "officialSiteUrl": "https://gibiate.com/anime/jp/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/378",
+    "https://acgsecrets.hk/bangumi/202007/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/gibiate",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "GIBIATE",
+      "artistDisplayName": "吉田兄弟 feat. SUGIZO",
+      "id": "gibiate-op-1",
+      "songId": "gibiate-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://gibiate.com/anime/jp/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/gibiate",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "GIBIATE PROJECT 官方影片",
+          "url": "https://www.youtube.com/watch?v=cCXsW6LC6-Q",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://gibiate.com/anime/jp/music.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://anime-song-info.com/gibiate-op-ed-20sm/",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Gibiate",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://gibiate.com/jp/blog/articles/06paj877832pdalc.html",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "吉田兄弟 feat. SUGIZO",
+          "role": "vocals"
+        },
+        {
+          "name": "吉田健一",
+          "role": "composition"
+        },
+        {
+          "name": "SUGIZO",
+          "role": "composition"
+        },
+        {
+          "name": "SUGIZO",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://gibiate.com/anime/jp/music.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gibiate-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://gibiate.com/anime/jp/music.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gibiate-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://anime-song-info.com/gibiate-op-ed-20sm/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gibiate-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://anime-song-info.com/gibiate-op-ed-20sm/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gibiate-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Gibiate"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gibiate-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Gibiate"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gibiate-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://gibiate.com/anime/jp/music.html"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期片頭原名、正式名義與夏季用途已核；官方明創作/演奏團體，不據此推任何人歌唱或無人聲。",
+          "resumeWhen": "待可直接核對的本曲音源、發行及平台資料到位再補；不由影片或商品推新錄音/用途，未讀日期保原。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "ENDLESS ～時を超えて～",
+      "titleRomaji": "ENDLESS ~Toki wo Koete~",
+      "artistDisplayName": "SUGIZO feat. 大黒摩季",
+      "id": "gibiate-ed-1",
+      "songId": "gibiate-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://gibiate.com/anime/jp/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/gibiate",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://sugizo.com/contents/105343",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://gibiate.com/anime/jp/music.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Gibiate",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://dengekionline.com/articles/35026/",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://gibiate.com/jp/blog/articles/06paj877832pdalc.html",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "SUGIZO feat. 大黒摩季",
+          "role": "vocals"
+        },
+        {
+          "name": "青木良",
+          "role": "lyrics"
+        },
+        {
+          "name": "SUGIZO",
+          "role": "composition"
+        },
+        {
+          "name": "SUGIZO",
+          "role": "arrangement"
+        },
+        {
+          "name": "大黒摩季",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://sugizo.com/contents/105343"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gibiate-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://gibiate.com/anime/jp/music.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gibiate-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://sugizo.com/contents/105343"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gibiate-ed-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://gibiate.com/anime/jp/music.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gibiate-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Gibiate"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gibiate-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Gibiate"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gibiate-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://dengekionline.com/articles/35026/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gibiate-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://dengekionline.com/articles/35026/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gibiate-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://gibiate.com/anime/jp/music.html"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期原名、正式名義與常規用途已核；確認2020夏。",
+          "resumeWhen": "待可直接核對的本曲音源、發行及平台資料到位再補；不由影片或商品推新錄音/用途，未讀日期保原。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://gibiate.com/jp/blog/articles/06paj877832pdalc.html",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://youranimes.tw/animes/378",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "editorialWeekday": 3,
+  "broadcastTimeJst": "22:00",
+  "seasonIds": [
+    "2020-summer"
+  ]
+}),
   summer2020Seed({
     anilistId: 122248,
     slug: "tadaima-chibigodzilla",
@@ -6178,40 +6839,361 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
     themes: [],
   }),
   summer2020Seed({
-    anilistId: 110371,
-    slug: "koi-to-producer-evol-love",
-    startDate: "2020-07-16",
-    titleJa: "恋とプロデューサー～EVOL×LOVE～",
-    titleZhHant: "戀與製作人",
-    titleRomaji: "Koi to Producer: EVOL×LOVE",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110371-iQC5FQ6FuTuX.png",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110371-u9vKhGyX8E77.jpg",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl: "https://koipro-anime.love/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/2737",
-      "https://acgsecrets.hk/bangumi/202007/",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/koi_to_producer_evollove",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "鈍色の夜明け",
-        titleRomaji: "Nibi-iro no Yoake",
-        artistDisplayName: "三浦祐太朗",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "舞い降りてきた雪",
-        titleRomaji: "Maiorite Kita Yuki",
-        artistDisplayName: "恋とプロデューサー featuring 鈴木このみ",
-      },
-    ],
-  }),
+  "anilistId": 110371,
+  "slug": "koi-to-producer-evol-love",
+  "startDate": "2020-07-16",
+  "titleJa": "恋とプロデューサー～EVOL×LOVE～",
+  "titleZhHant": "戀與製作人",
+  "titleRomaji": "Koi to Producer: EVOL×LOVE",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110371-iQC5FQ6FuTuX.png",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110371-u9vKhGyX8E77.jpg",
+  "broadcastLabel": "2020年7月16日00:00 TOKYO MX等原首播（公告7/15 24:00換日）",
+  "officialSiteUrl": "https://koipro-anime.love/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/2737",
+    "https://acgsecrets.hk/bangumi/202007/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/koi_to_producer_evollove",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "鈍色の夜明け",
+      "titleRomaji": "Nibi-iro no Yoake",
+      "artistDisplayName": "三浦祐太朗",
+      "id": "koi-to-producer-evol-love-op-1",
+      "songId": "koi-to-producer-evol-love-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://koipro-anime.love/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/koi_to_producer_evollove",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "UNIVERSAL MUSIC JAPAN 官方影片",
+          "url": "https://www.youtube.com/watch?v=mdu-q549G94",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://koipro-anime.love/news/detail_0615_02.php",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E6%81%8B%E3%81%A8%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B5%E3%83%BC%E3%80%9CEVOL%C3%97LOVE%E3%80%9C",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%81%8B%E4%B8%8E%E5%88%B6%E4%BD%9C%E4%BA%BA",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "三浦祐太朗",
+          "role": "vocals"
+        },
+        {
+          "name": "三浦祐太朗",
+          "role": "lyrics"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://koipro-anime.love/news/detail_0615_02.php"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "koi-to-producer-evol-love-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://koipro-anime.love/news/detail_0615_02.php"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "koi-to-producer-evol-love-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/%E6%81%8B%E3%81%A8%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B5%E3%83%BC%E3%80%9CEVOL%C3%97LOVE%E3%80%9C"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "koi-to-producer-evol-love-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/%E6%81%8B%E3%81%A8%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B5%E3%83%BC%E3%80%9CEVOL%C3%97LOVE%E3%80%9C"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "koi-to-producer-evol-love-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%81%8B%E4%B8%8E%E5%88%B6%E4%BD%9C%E4%BA%BA"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "koi-to-producer-evol-love-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%81%8B%E4%B8%8E%E5%88%B6%E4%BD%9C%E4%BA%BA"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "koi-to-producer-evol-love-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://koipro-anime.love/news/detail_0615_02.php"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原曲名、正式名義及夏季用途已核；末話跨秋的實際使用尚待逐曲資料。",
+          "resumeWhen": "待10月1日末話官方逐曲片頭片尾credit直接明本曲使用，再核秋季；不以全作播出季別補滿。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "舞い降りてきた雪",
+      "titleRomaji": "Maiorite Kita Yuki",
+      "artistDisplayName": "恋とプロデューサー featuring Konomi Suzuki",
+      "id": "koi-to-producer-evol-love-ed-1",
+      "songId": "koi-to-producer-evol-love-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://koipro-anime.love/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/koi_to_producer_evollove",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "Digital Double -デジタルダブル- 官方影片",
+          "url": "https://www.youtube.com/watch?v=F_sCcKMT3H4",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://koipro-anime.love/news/detail_0615_02.php",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E6%81%8B%E3%81%A8%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B5%E3%83%BC%E3%80%9CEVOL%C3%97LOVE%E3%80%9C",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%81%8B%E4%B8%8E%E5%88%B6%E4%BD%9C%E4%BA%BA",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "恋とプロデューサー featuring 鈴木このみ",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://koipro-anime.love/news/detail_0615_02.php"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "koi-to-producer-evol-love-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://koipro-anime.love/news/detail_0615_02.php"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "koi-to-producer-evol-love-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/%E6%81%8B%E3%81%A8%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B5%E3%83%BC%E3%80%9CEVOL%C3%97LOVE%E3%80%9C"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "koi-to-producer-evol-love-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/%E6%81%8B%E3%81%A8%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B5%E3%83%BC%E3%80%9CEVOL%C3%97LOVE%E3%80%9C"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "koi-to-producer-evol-love-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%81%8B%E4%B8%8E%E5%88%B6%E4%BD%9C%E4%BA%BA"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "koi-to-producer-evol-love-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%81%8B%E4%B8%8E%E5%88%B6%E4%BD%9C%E4%BA%BA"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "koi-to-producer-evol-love-ed-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原曲名、正式名義及夏季用途已核；末話跨秋的實際使用尚待逐曲資料。",
+          "resumeWhen": "待10月1日末話官方逐曲片頭片尾credit直接明本曲使用，再核秋季；不以全作播出季別補滿。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://koipro-anime.love/onair/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E6%81%8B%E3%81%A8%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B5%E3%83%BC%E3%80%9CEVOL%C3%97LOVE%E3%80%9C",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "editorialWeekday": 4,
+  "broadcastTimeJst": "00:00",
+  "seasonIds": [
+    "2020-summer",
+    "2020-fall"
+  ]
+}),
   summer2020Seed({
     anilistId: 119696,
     slug: "valkyrie-no-shokutaku-ii",
