@@ -2941,73 +2941,718 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
   ]
 }),
   summer2020Seed({
-    anilistId: 108632,
-    slug: "re-zero-kara-hajimeru-isekai-seikatsu-2nd-season",
-    startDate: "2020-07-08",
-    titleJa: "Re:ゼロから始める異世界生活 2nd Season",
-    titleZhHant: "Re：從零開始的異世界生活 第二季",
-    titleRomaji: "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108632-lQWnmw7XaNOK.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108632-yeLbrgPN4Oni.jpg",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl: "https://re-zero.com/tv/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/21",
-      "https://acgsecrets.hk/bangumi/202007/",
-    ],
-    animeThemesUrl:
-      "https://animethemes.moe/anime/rezero_kara_hajimeru_isekai_seikatsu_2nd_season",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "Realize",
-        artistDisplayName: "鈴木このみ",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "Memento",
-        artistDisplayName: "nonoc",
-      },
-    ],
-  }),
+  "anilistId": 108632,
+  "slug": "re-zero-kara-hajimeru-isekai-seikatsu-2nd-season",
+  "startDate": "2020-07-08",
+  "titleJa": "Re:ゼロから始める異世界生活 2nd Season",
+  "titleZhHant": "Re：從零開始的異世界生活 第二季",
+  "titleRomaji": "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108632-lQWnmw7XaNOK.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108632-yeLbrgPN4Oni.jpg",
+  "broadcastLabel": "2020-07-08起・AT-X・水曜22:30（JST）；其他台與23:00網播分開",
+  "officialSiteUrl": "https://re-zero.com/tv/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/21",
+    "https://acgsecrets.hk/bangumi/202007/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/rezero_kara_hajimeru_isekai_seikatsu_2nd_season",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "Realize",
+      "artistDisplayName": "鈴木このみ",
+      "id": "re-zero-kara-hajimeru-isekai-seikatsu-2nd-season-op-1",
+      "songId": "re-zero-kara-hajimeru-isekai-seikatsu-2nd-season-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://re-zero.com/tv/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/rezero_kara_hajimeru_isekai_seikatsu_2nd_season",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "KADOKAWAanime 官方影片",
+          "url": "https://www.youtube.com/watch?v=uaRnwnmqrws",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://re-zero-anime.jp/tv/music/tv2.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/Re%3A%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B%E7%9A%84%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://re-zero-anime.jp/tv/news/index_3.html",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "鈴木このみ",
+          "role": "vocals"
+        },
+        {
+          "name": "篠崎あやと",
+          "role": "lyrics"
+        },
+        {
+          "name": "篠崎あやと",
+          "role": "composition"
+        },
+        {
+          "name": "篠崎あやと",
+          "role": "arrangement"
+        },
+        {
+          "name": "橘 亮祐",
+          "role": "lyrics"
+        },
+        {
+          "name": "橘 亮祐",
+          "role": "composition"
+        },
+        {
+          "name": "橘 亮祐",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://re-zero-anime.jp/tv/music/tv2.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "re-zero-kara-hajimeru-isekai-seikatsu-2nd-season-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://re-zero-anime.jp/tv/music/tv2.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "re-zero-kara-hajimeru-isekai-seikatsu-2nd-season-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/Re%3A%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B%E7%9A%84%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "re-zero-kara-hajimeru-isekai-seikatsu-2nd-season-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/Re%3A%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B%E7%9A%84%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "re-zero-kara-hajimeru-isekai-seikatsu-2nd-season-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://re-zero-anime.jp/tv/music/tv2.html"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期常規用途、原名與正式名義已核，確認2020夏；創作資料依同頁逐職位記錄。",
+          "resumeWhen": "待本曲可直接核對的音源、發行品及平台資料到位再補，不由現有影片推錄音版本或刷新未讀日期。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "Memento",
+      "artistDisplayName": "nonoc",
+      "id": "re-zero-kara-hajimeru-isekai-seikatsu-2nd-season-ed-1",
+      "songId": "re-zero-kara-hajimeru-isekai-seikatsu-2nd-season-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://re-zero.com/tv/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/rezero_kara_hajimeru_isekai_seikatsu_2nd_season",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "KADOKAWAanime 官方影片",
+          "url": "https://www.youtube.com/watch?v=jfvB3DPJ4FU",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://re-zero-anime.jp/tv/music/tv2.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/Re%3A%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B%E7%9A%84%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://re-zero-anime.jp/tv/news/index_3.html",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "nonoc",
+          "role": "vocals"
+        },
+        {
+          "name": "hotaru",
+          "role": "lyrics"
+        },
+        {
+          "name": "Tom-H@ck",
+          "role": "composition"
+        },
+        {
+          "name": "Tom-H@ck",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://re-zero-anime.jp/tv/music/tv2.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "re-zero-kara-hajimeru-isekai-seikatsu-2nd-season-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://re-zero-anime.jp/tv/music/tv2.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "re-zero-kara-hajimeru-isekai-seikatsu-2nd-season-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/Re%3A%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B%E7%9A%84%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "re-zero-kara-hajimeru-isekai-seikatsu-2nd-season-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/Re%3A%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B%E7%9A%84%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "re-zero-kara-hajimeru-isekai-seikatsu-2nd-season-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://re-zero-anime.jp/tv/music/tv2.html"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期常規用途、原名與正式名義已核，確認2020夏；創作資料依同頁逐職位記錄。",
+          "resumeWhen": "待本曲可直接核對的音源、發行品及平台資料到位再補，不由現有影片推錄音版本或刷新未讀日期。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://re-zero-anime.jp/tv/news/index_3.html",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/Re%3A%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B%E7%9A%84%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB_%28%E5%8B%95%E7%95%AB%29",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "editorialWeekday": 3,
+  "broadcastTimeJst": "22:30",
+  "seasonIds": [
+    "2020-summer"
+  ]
+}),
   summer2020Seed({
-    anilistId: 110353,
-    slug: "deca-dence",
-    startDate: "2020-07-08",
-    titleJa: "デカダンス",
-    titleZhHant: "DECA-DENCE",
-    titleRomaji: "Deca-Dence",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110353-XGYSsii7qJeK.png",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110353-ZKkmemQSFP7L.jpg",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl: "https://decadence-anime.com/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/51",
-      "https://acgsecrets.hk/bangumi/202007/",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/deca_dence",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "Theater of Life",
-        artistDisplayName: "鈴木このみ",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "記憶の箱舟",
-        titleRomaji: "Kioku no Hakobune",
-        artistDisplayName: "伊東歌詞太郎",
-      },
-    ],
-  }),
+  "anilistId": 110353,
+  "slug": "deca-dence",
+  "startDate": "2020-07-08",
+  "titleJa": "デカダンス",
+  "titleZhHant": "DECA-DENCE",
+  "titleRomaji": "Deca-Dence",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110353-XGYSsii7qJeK.png",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110353-ZKkmemQSFP7L.jpg",
+  "broadcastLabel": "2020-07-08起・AT-X・水曜23:30（JST）；ABEMA與其他台深夜時刻分開",
+  "officialSiteUrl": "https://decadence-anime.com/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/51",
+    "https://acgsecrets.hk/bangumi/202007/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/deca_dence",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "Theater of Life",
+      "artistDisplayName": "鈴木このみ",
+      "id": "deca-dence-op-1",
+      "songId": "deca-dence-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "《DECA-DENCE》第一方歌曲資料：曲名與演唱者",
+          "url": "https://decadence-anime.com/news.html",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/deca_dence",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "KADOKAWAanime 官方影片",
+          "url": "https://www.youtube.com/watch?v=jQZm1wf3O_8",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://decadence-anime.com/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/DECA-DENCE",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Deca-Dence",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "鈴木このみ",
+          "role": "vocals"
+        },
+        {
+          "name": "ANCHOR",
+          "role": "lyrics"
+        },
+        {
+          "name": "ANCHOR",
+          "role": "composition"
+        },
+        {
+          "name": "ANCHOR",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://decadence-anime.com/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "deca-dence-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://decadence-anime.com/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "deca-dence-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/DECA-DENCE"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "deca-dence-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Deca-Dence"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "deca-dence-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Deca-Dence"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "deca-dence-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://decadence-anime.com/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期常規用途、原名與正式名義已核，確認2020夏；創作資料依同頁逐職位記錄。",
+          "resumeWhen": "待本曲可直接核對的音源、發行品及平台資料到位再補，不由現有影片推錄音版本或刷新未讀日期。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "記憶の箱舟",
+      "titleRomaji": "Kioku no Hakobune",
+      "artistDisplayName": "伊東歌詞太郎",
+      "id": "deca-dence-ed-1",
+      "songId": "deca-dence-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "《DECA-DENCE》第一方歌曲資料：曲名與演唱者",
+          "url": "https://decadence-anime.com/news.html",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/deca_dence",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "KADOKAWAanime 官方影片",
+          "url": "https://www.youtube.com/watch?v=285wxlCHung",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://decadence-anime.com/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/DECA-DENCE",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Deca-Dence",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "伊東歌詞太郎",
+          "role": "vocals"
+        },
+        {
+          "name": "伊東歌詞太郎",
+          "role": "lyrics"
+        },
+        {
+          "name": "伊東歌詞太郎",
+          "role": "composition"
+        },
+        {
+          "name": "akkin",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://decadence-anime.com/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "deca-dence-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://decadence-anime.com/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "deca-dence-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/DECA-DENCE"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "deca-dence-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Deca-Dence"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "deca-dence-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Deca-Dence"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "deca-dence-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://decadence-anime.com/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期常規用途、原名與正式名義已核，確認2020夏；創作資料依同頁逐職位記錄。",
+          "resumeWhen": "待本曲可直接核對的音源、發行品及平台資料到位再補，不由現有影片推錄音版本或刷新未讀日期。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://decadence-anime.com/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/DECA-DENCE",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://youranimes.tw/animes/51",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Deca-Dence",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "en",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "editorialWeekday": 3,
+  "broadcastTimeJst": "23:30",
+  "seasonIds": [
+    "2020-summer"
+  ]
+}),
   summer2020Seed({
     anilistId: 112357,
     slug: "nihon-chinbotsu-2020",
@@ -3043,132 +3688,1136 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
     ],
   }),
   summer2020Seed({
-    anilistId: 108489,
-    slug: "yahari-ore-no-seishun-love-come-wa-machigatteiru-kan",
-    startDate: "2020-07-10",
-    titleJa: "やはり俺の青春ラブコメはまちがっている。完",
-    titleZhHant: "果然我的青春戀愛喜劇搞錯了。完",
-    titleRomaji: "Yahari Ore no Seishun Love Come wa Machigatteiru. Kan",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108489-yGmYCE6dhFta.png",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108489-z4DheppQdxo4.jpg",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl: "https://www.tbs.co.jp/anime/oregairu/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/384",
-      "https://acgsecrets.hk/bangumi/202007/",
-    ],
-    animeThemesUrl:
-      "https://animethemes.moe/anime/yahari_ore_no_seishun_love_comedy_wa_machigatteiru_kan",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "芽ぐみの雨",
-        titleRomaji: "Megumi no Ame",
-        artistDisplayName: "やなぎなぎ",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "ダイヤモンドの純度",
-        titleRomaji: "Diamond no Jundo",
-        artistDisplayName:
-          "雪ノ下雪乃（CV：早見沙織）＆由比ヶ浜結衣（CV：東山奈央）",
-      },
-      {
-        type: "ED",
-        sequence: 2,
-        titleJa: "ダイヤモンドの純度 ～Yui Ballade～",
-        titleRomaji: "Diamond no Jundo ~Yui Ballade~",
-        artistDisplayName: "由比ヶ浜結衣（CV：東山奈央）",
-      },
-      {
-        type: "ED",
-        sequence: 3,
-        titleJa: "ダイヤモンドの純度 ～Yukino Ballade～",
-        titleRomaji: "Diamond no Jundo ~Yukino Ballade~",
-        artistDisplayName: "雪ノ下雪乃（CV：早見沙織）",
-      },
-      {
-        type: "ED",
-        sequence: 4,
-        titleJa: "ユキトキ",
-        titleRomaji: "Yukitoki",
-        artistDisplayName: "やなぎなぎ",
-      },
-    ],
-  }),
+  "anilistId": 108489,
+  "slug": "yahari-ore-no-seishun-love-come-wa-machigatteiru-kan",
+  "startDate": "2020-07-10",
+  "titleJa": "やはり俺の青春ラブコメはまちがっている。完",
+  "titleZhHant": "果然我的青春戀愛喜劇搞錯了。完",
+  "titleRomaji": "Yahari Ore no Seishun Love Come wa Machigatteiru. Kan",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108489-yGmYCE6dhFta.png",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108489-z4DheppQdxo4.jpg",
+  "broadcastLabel": "日本首播／時間未整理",
+  "officialSiteUrl": "https://www.tbs.co.jp/anime/oregairu/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/384",
+    "https://acgsecrets.hk/bangumi/202007/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/yahari_ore_no_seishun_love_comedy_wa_machigatteiru_kan",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "芽ぐみの雨",
+      "titleRomaji": "Megumi no Ame",
+      "artistDisplayName": "やなぎなぎ",
+      "id": "yahari-ore-no-seishun-love-come-wa-machigatteiru-kan-op-1",
+      "songId": "yahari-ore-no-seishun-love-come-wa-machigatteiru-kan-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tbs.co.jp/anime/oregairu/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/yahari_ore_no_seishun_love_comedy_wa_machigatteiru_kan",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "アニメ 音楽 2.5次元舞台 - マーベラス公式チャンネル 官方影片",
+          "url": "https://www.youtube.com/watch?v=j3fczXHUvPQ",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.tbs.co.jp/anime/oregairu/news/news20200214_01.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%9E%9C%E7%84%B6%E6%88%91%E7%9A%84%E9%9D%92%E6%98%A5%E6%88%80%E6%84%9B%E5%96%9C%E5%8A%87%E6%90%9E%E9%8C%AF%E4%BA%86%E3%80%82_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "やなぎなぎ",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tbs.co.jp/anime/oregairu/news/news20200214_01.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "yahari-ore-no-seishun-love-come-wa-machigatteiru-kan-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tbs.co.jp/anime/oregairu/news/news20200214_01.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "yahari-ore-no-seishun-love-come-wa-machigatteiru-kan-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%9E%9C%E7%84%B6%E6%88%91%E7%9A%84%E9%9D%92%E6%98%A5%E6%88%80%E6%84%9B%E5%96%9C%E5%8A%87%E6%90%9E%E9%8C%AF%E4%BA%86%E3%80%82_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "yahari-ore-no-seishun-love-come-wa-machigatteiru-kan-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%9E%9C%E7%84%B6%E6%88%91%E7%9A%84%E9%9D%92%E6%98%A5%E6%88%80%E6%84%9B%E5%96%9C%E5%8A%87%E6%90%9E%E9%8C%AF%E4%BA%86%E3%80%82_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "yahari-ore-no-seishun-love-come-wa-machigatteiru-kan-op-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "已核對原曲名、正式歌唱名義與本期用途。",
+          "resumeWhen": "待本曲直接詞曲編或正版音源資料補詳細；不由團員或角色配音名冊推個人演唱。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "ダイヤモンドの純度",
+      "titleRomaji": "Diamond no Jundo",
+      "artistDisplayName": "雪ノ下雪乃（CV：早見沙織）＆由比ヶ浜結衣（CV：東山奈央）",
+      "id": "yahari-ore-no-seishun-love-come-wa-machigatteiru-kan-ed-1",
+      "songId": "yahari-ore-no-seishun-love-come-wa-machigatteiru-kan-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tbs.co.jp/anime/oregairu/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/yahari_ore_no_seishun_love_comedy_wa_machigatteiru_kan",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "アニメ 音楽 2.5次元舞台 - マーベラス公式チャンネル 官方影片",
+          "url": "https://www.youtube.com/watch?v=UsfGGAgvLHA",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.tbs.co.jp/anime/oregairu/news/news20200214_01.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%9E%9C%E7%84%B6%E6%88%91%E7%9A%84%E9%9D%92%E6%98%A5%E6%88%80%E6%84%9B%E5%96%9C%E5%8A%87%E6%90%9E%E9%8C%AF%E4%BA%86%E3%80%82_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "雪ノ下雪乃（CV：早見沙織）＆由比ヶ浜結衣（CV：東山奈央）",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tbs.co.jp/anime/oregairu/news/news20200214_01.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "yahari-ore-no-seishun-love-come-wa-machigatteiru-kan-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tbs.co.jp/anime/oregairu/news/news20200214_01.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "yahari-ore-no-seishun-love-come-wa-machigatteiru-kan-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%9E%9C%E7%84%B6%E6%88%91%E7%9A%84%E9%9D%92%E6%98%A5%E6%88%80%E6%84%9B%E5%96%9C%E5%8A%87%E6%90%9E%E9%8C%AF%E4%BA%86%E3%80%82_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "yahari-ore-no-seishun-love-come-wa-machigatteiru-kan-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%9E%9C%E7%84%B6%E6%88%91%E7%9A%84%E9%9D%92%E6%98%A5%E6%88%80%E6%84%9B%E5%96%9C%E5%8A%87%E6%90%9E%E9%8C%AF%E4%BA%86%E3%80%82_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "yahari-ore-no-seishun-love-come-wa-machigatteiru-kan-ed-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "已核對原曲名、正式歌唱名義與本期用途。",
+          "resumeWhen": "待本曲直接詞曲編或正版音源資料補詳細；不由團員或角色配音名冊推個人演唱。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "ダイヤモンドの純度 ～Yui Ballade～",
+      "titleRomaji": "Diamond no Jundo ~Yui Ballade~",
+      "artistDisplayName": "由比ヶ浜結衣（CV：東山奈央）",
+      "id": "yahari-ore-no-seishun-love-come-wa-machigatteiru-kan-ed-2",
+      "songId": "yahari-ore-no-seishun-love-come-wa-machigatteiru-kan-ed-2-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tbs.co.jp/anime/oregairu/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/yahari_ore_no_seishun_love_comedy_wa_machigatteiru_kan",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.tbs.co.jp/anime/oregairu/news/news20200214_01.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%9E%9C%E7%84%B6%E6%88%91%E7%9A%84%E9%9D%92%E6%98%A5%E6%88%80%E6%84%9B%E5%96%9C%E5%8A%87%E6%90%9E%E9%8C%AF%E4%BA%86%E3%80%82_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "由比ヶ浜結衣（CV：東山奈央）",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://www.tbs.co.jp/anime/oregairu/news/news20200214_01.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "yahari-ore-no-seishun-love-come-wa-machigatteiru-kan-ed-2-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%9E%9C%E7%84%B6%E6%88%91%E7%9A%84%E9%9D%92%E6%98%A5%E6%88%80%E6%84%9B%E5%96%9C%E5%8A%87%E6%90%9E%E9%8C%AF%E4%BA%86%E3%80%82_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "yahari-ore-no-seishun-love-come-wa-machigatteiru-kan-ed-2-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "曲名與現有名義保留；特殊片尾的第一方逐話用途尚待確認。",
+          "resumeWhen": "待官方原期逐話片尾或creditless說明明本曲及版本的實際用途；商品tracklist不代動畫實用。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 3,
+      "titleJa": "ダイヤモンドの純度 ～Yukino Ballade～",
+      "titleRomaji": "Diamond no Jundo ~Yukino Ballade~",
+      "artistDisplayName": "雪ノ下雪乃（CV：早見沙織）",
+      "id": "yahari-ore-no-seishun-love-come-wa-machigatteiru-kan-ed-3",
+      "songId": "yahari-ore-no-seishun-love-come-wa-machigatteiru-kan-ed-3-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tbs.co.jp/anime/oregairu/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/yahari_ore_no_seishun_love_comedy_wa_machigatteiru_kan",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.tbs.co.jp/anime/oregairu/news/news20200214_01.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%9E%9C%E7%84%B6%E6%88%91%E7%9A%84%E9%9D%92%E6%98%A5%E6%88%80%E6%84%9B%E5%96%9C%E5%8A%87%E6%90%9E%E9%8C%AF%E4%BA%86%E3%80%82_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "雪ノ下雪乃（CV：早見沙織）",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://www.tbs.co.jp/anime/oregairu/news/news20200214_01.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "yahari-ore-no-seishun-love-come-wa-machigatteiru-kan-ed-3-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%9E%9C%E7%84%B6%E6%88%91%E7%9A%84%E9%9D%92%E6%98%A5%E6%88%80%E6%84%9B%E5%96%9C%E5%8A%87%E6%90%9E%E9%8C%AF%E4%BA%86%E3%80%82_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "yahari-ore-no-seishun-love-come-wa-machigatteiru-kan-ed-3-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "曲名與現有名義保留；特殊片尾的第一方逐話用途尚待確認。",
+          "resumeWhen": "待官方原期逐話片尾或creditless說明明本曲及版本的實際用途；商品tracklist不代動畫實用。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 4,
+      "titleJa": "ユキトキ",
+      "titleRomaji": "Yukitoki",
+      "artistDisplayName": "やなぎなぎ",
+      "id": "yahari-ore-no-seishun-love-come-wa-machigatteiru-kan-ed-4",
+      "songId": "yahari-ore-no-seishun-love-come-wa-machigatteiru-kan-ed-4-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tbs.co.jp/anime/oregairu/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/yahari_ore_no_seishun_love_comedy_wa_machigatteiru_kan",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%9E%9C%E7%84%B6%E6%88%91%E7%9A%84%E9%9D%92%E6%98%A5%E6%88%80%E6%84%9B%E5%96%9C%E5%8A%87%E6%90%9E%E9%8C%AF%E4%BA%86%E3%80%82_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "やなぎなぎ",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%9E%9C%E7%84%B6%E6%88%91%E7%9A%84%E9%9D%92%E6%98%A5%E6%88%80%E6%84%9B%E5%96%9C%E5%8A%87%E6%90%9E%E9%8C%AF%E4%BA%86%E3%80%82_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "yahari-ore-no-seishun-love-come-wa-machigatteiru-kan-ed-4-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "曲名與現有名義保留；特殊片尾的第一方逐話用途尚待確認。",
+          "resumeWhen": "待官方原期逐話片尾或creditless說明明本曲及版本的實際用途；商品tracklist不代動畫實用。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [],
+  "seasonIds": [
+    "2020-summer"
+  ]
+}),
   summer2020Seed({
-    anilistId: 112803,
-    slug: "no-guns-life-2",
-    startDate: "2020-07-10",
-    titleJa: "ノー・ガンズ・ライフ 2",
-    titleZhHant: "NO GUNS LIFE 非槍人生 第二季",
-    titleRomaji: "No Guns Life 2",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112803-GTBPrkKvlyV5.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112803-nY631RWlndb0.jpg",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl:
-      "https://www.sonymusic.co.jp/artist/sawanohiroyukinzk/info/516505",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/130",
-      "https://acgsecrets.hk/bangumi/202007/",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/no_guns_life_2nd_season",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "Chaos Drifters",
-        artistDisplayName: "SawanoHiroyuki[nZk]:Jean-Ken Johnny",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "new world",
-        artistDisplayName: "THIS IS JAPAN",
-      },
-    ],
-  }),
+  "anilistId": 112803,
+  "slug": "no-guns-life-2",
+  "startDate": "2020-07-10",
+  "titleJa": "ノー・ガンズ・ライフ 2",
+  "titleZhHant": "NO GUNS LIFE 非槍人生 第二季",
+  "titleRomaji": "No Guns Life 2",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112803-GTBPrkKvlyV5.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112803-nY631RWlndb0.jpg",
+  "broadcastLabel": "日本首播／時間未整理",
+  "officialSiteUrl": "https://www.sonymusic.co.jp/artist/sawanohiroyukinzk/info/516505",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/130",
+    "https://acgsecrets.hk/bangumi/202007/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/no_guns_life_2nd_season",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "Chaos Drifters",
+      "artistDisplayName": "SawanoHiroyuki[nZk]:Jean-Ken Johnny",
+      "id": "no-guns-life-2-op-1",
+      "songId": "no-guns-life-2-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "url": "https://www.sonymusic.co.jp/artist/sawanohiroyukinzk/info/516505",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/no_guns_life_2nd_season",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "澤野弘之 / SawanoHiroyuki[nZk] 官方影片",
+          "url": "https://www.youtube.com/watch?v=kP7ytVfpp-o",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.bs11.jp/anime/no-guns-life-2nd/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%BC%E3%83%BB%E3%82%AC%E3%83%B3%E3%82%BA%E3%83%BB%E3%83%A9%E3%82%A4%E3%83%95",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "SawanoHiroyuki[nZk]:Jean-Ken Johnny",
+          "role": "vocals"
+        },
+        {
+          "name": "Jean-Ken Johnny",
+          "role": "lyrics"
+        },
+        {
+          "name": "澤野弘之",
+          "role": "composition"
+        },
+        {
+          "name": "澤野弘之",
+          "role": "arrangement"
+        },
+        {
+          "name": "Jean-Ken Johnny",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.bs11.jp/anime/no-guns-life-2nd/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "no-guns-life-2-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/sawanohiroyukinzk/info/516505"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "no-guns-life-2-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bs11.jp/anime/no-guns-life-2nd/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "no-guns-life-2-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%BC%E3%83%BB%E3%82%AC%E3%83%B3%E3%82%BA%E3%83%BB%E3%83%A9%E3%82%A4%E3%83%95"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "no-guns-life-2-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%BC%E3%83%BB%E3%82%AC%E3%83%B3%E3%82%BA%E3%83%BB%E3%83%A9%E3%82%A4%E3%83%95"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "no-guns-life-2-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.bs11.jp/anime/no-guns-life-2nd/"
+          ],
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/sawanohiroyukinzk/info/516505"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "已核對原曲名、正式歌唱名義與本期用途。",
+          "resumeWhen": "待本曲正版音源與發行資訊可直接核對時補詳細；不由團員名冊推個人演唱。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "new world",
+      "artistDisplayName": "THIS IS JAPAN",
+      "id": "no-guns-life-2-ed-1",
+      "songId": "no-guns-life-2-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.sonymusic.co.jp/artist/sawanohiroyukinzk/info/516505",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/no_guns_life_2nd_season",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "THIS IS JAPAN Official YouTube Channel 官方影片",
+          "url": "https://www.youtube.com/watch?v=-ulTPerwg1w",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.bs11.jp/anime/no-guns-life-2nd/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%BC%E3%83%BB%E3%82%AC%E3%83%B3%E3%82%BA%E3%83%BB%E3%83%A9%E3%82%A4%E3%83%95",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "THIS IS JAPAN",
+          "role": "vocals"
+        },
+        {
+          "name": "杉森ジャック",
+          "role": "composition"
+        },
+        {
+          "name": "小山祐樹",
+          "role": "composition"
+        },
+        {
+          "name": "かわむら",
+          "role": "composition"
+        },
+        {
+          "name": "かわむら",
+          "role": "lyrics"
+        },
+        {
+          "name": "THIS IS JAPAN",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.bs11.jp/anime/no-guns-life-2nd/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "no-guns-life-2-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bs11.jp/anime/no-guns-life-2nd/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "no-guns-life-2-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%BC%E3%83%BB%E3%82%AC%E3%83%B3%E3%82%BA%E3%83%BB%E3%83%A9%E3%82%A4%E3%83%95"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "no-guns-life-2-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%BC%E3%83%BB%E3%82%AC%E3%83%B3%E3%82%BA%E3%83%BB%E3%83%A9%E3%82%A4%E3%83%95"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "no-guns-life-2-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.bs11.jp/anime/no-guns-life-2nd/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "已核對原曲名、正式歌唱名義與本期用途。",
+          "resumeWhen": "待本曲正版音源與發行資訊可直接核對時補詳細；不由團員名冊推個人演唱。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [],
+  "seasonIds": [
+    "2020-summer"
+  ]
+}),
   summer2020Seed({
-    anilistId: 115113,
-    slug: "uzaki-chan-wa-asobitai",
-    startDate: "2020-07-10",
-    titleJa: "宇崎ちゃんは遊びたい！",
-    titleZhHant: "宇崎學妹想要玩！",
-    titleRomaji: "Uzaki-chan wa Asobitai!",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115113-bJDZV7kP0XrP.png",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/115113-wIWyzBlDR5Kt.jpg",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl: "https://uzakichan.com/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/377",
-      "https://acgsecrets.hk/bangumi/202007/",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/uzaki_chan_wa_asobitai",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "なだめスかし Negotiation",
-        titleRomaji: "Nadame Sukashi Negotiation",
-        artistDisplayName: "鹿乃と宇崎ちゃん（CV：大空直美）",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "ココロノック",
-        titleRomaji: "Kokoro Knock",
-        artistDisplayName: "YuNi",
-      },
-    ],
-  }),
+  "anilistId": 115113,
+  "slug": "uzaki-chan-wa-asobitai",
+  "startDate": "2020-07-10",
+  "titleJa": "宇崎ちゃんは遊びたい！",
+  "titleZhHant": "宇崎學妹想要玩！",
+  "titleRomaji": "Uzaki-chan wa Asobitai!",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115113-bJDZV7kP0XrP.png",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/115113-wIWyzBlDR5Kt.jpg",
+  "broadcastLabel": "2020年7月10日21:30 AT-X原首播",
+  "officialSiteUrl": "https://uzakichan.com/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/377",
+    "https://acgsecrets.hk/bangumi/202007/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/uzaki_chan_wa_asobitai",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "なだめスかし Negotiation",
+      "titleRomaji": "Nadame Sukashi Negotiation",
+      "artistDisplayName": "鹿乃と宇崎ちゃん（CV：大空直美）",
+      "id": "uzaki-chan-wa-asobitai-op-1",
+      "songId": "uzaki-chan-wa-asobitai-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "url": "https://uzakichan.com/special/comment_artist.php",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/uzaki_chan_wa_asobitai",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "鹿乃まほろ / Kano Mahoro 官方影片",
+          "url": "https://www.youtube.com/watch?v=34nCX5AEXWY",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://uzakichan.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E5%AE%87%E5%B4%8E%E3%81%A1%E3%82%83%E3%82%93%E3%81%AF%E9%81%8A%E3%81%B3%E3%81%9F%E3%81%84%21",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "鹿乃と宇崎ちゃん（CV：大空直美）",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://uzakichan.com/special/comment_artist.php"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "uzaki-chan-wa-asobitai-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://uzakichan.com/special/comment_artist.php"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "uzaki-chan-wa-asobitai-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/%E5%AE%87%E5%B4%8E%E3%81%A1%E3%82%83%E3%82%93%E3%81%AF%E9%81%8A%E3%81%B3%E3%81%9F%E3%81%84%21"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "uzaki-chan-wa-asobitai-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/%E5%AE%87%E5%B4%8E%E3%81%A1%E3%82%83%E3%82%93%E3%81%AF%E9%81%8A%E3%81%B3%E3%81%9F%E3%81%84%21"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "uzaki-chan-wa-asobitai-op-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "已核對原曲名、正式歌唱名義與本期用途。",
+          "resumeWhen": "待本曲直接詞曲編或正版音源資料補詳細；不由團員或角色配音名冊推個人演唱。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "ココロノック",
+      "titleRomaji": "Kokoro Knock",
+      "artistDisplayName": "YuNi",
+      "id": "uzaki-chan-wa-asobitai-ed-1",
+      "songId": "uzaki-chan-wa-asobitai-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "url": "https://uzakichan.com/special/comment_artist.php",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/uzaki_chan_wa_asobitai",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "YuNi - official channel - 官方影片",
+          "url": "https://www.youtube.com/watch?v=_H8HJjWTjRM",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://uzakichan.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E5%AE%87%E5%B4%8E%E3%81%A1%E3%82%83%E3%82%93%E3%81%AF%E9%81%8A%E3%81%B3%E3%81%9F%E3%81%84%21",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "YuNi",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://uzakichan.com/special/comment_artist.php"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "uzaki-chan-wa-asobitai-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://uzakichan.com/special/comment_artist.php"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "uzaki-chan-wa-asobitai-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/%E5%AE%87%E5%B4%8E%E3%81%A1%E3%82%83%E3%82%93%E3%81%AF%E9%81%8A%E3%81%B3%E3%81%9F%E3%81%84%21"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "uzaki-chan-wa-asobitai-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/%E5%AE%87%E5%B4%8E%E3%81%A1%E3%82%83%E3%82%93%E3%81%AF%E9%81%8A%E3%81%B3%E3%81%9F%E3%81%84%21"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "uzaki-chan-wa-asobitai-ed-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "已核對原曲名、正式歌唱名義與本期用途。",
+          "resumeWhen": "待本曲直接詞曲編或正版音源資料補詳細；不由團員或角色配音名冊推個人演唱。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://uzakichan.com/news.php",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E5%AE%87%E5%B4%8E%E3%81%A1%E3%82%83%E3%82%93%E3%81%AF%E9%81%8A%E3%81%B3%E3%81%9F%E3%81%84%21",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "editorialWeekday": 5,
+  "broadcastTimeJst": "21:30",
+  "seasonIds": [
+    "2020-summer"
+  ]
+}),
   summer2020Seed({
     anilistId: 111965,
     slug: "peter-grill-to-kenja-no-jikan",
@@ -3206,53 +4855,737 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
     ],
   }),
   summer2020Seed({
-    anilistId: 113813,
-    slug: "kanojo-okarishimasu",
-    startDate: "2020-07-11",
-    titleJa: "彼女、お借りします",
-    titleZhHant: "出租女友",
-    titleRomaji: "Kanojo, Okarishimasu",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113813-SnljeXpU3Pw7.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113813-Al8VofQuNQHV.jpg",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl: "https://kanokari-official.com/1st/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/271",
-      "https://acgsecrets.hk/bangumi/202007/",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/kanojo_okarishimasu",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "センチメートル",
-        titleRomaji: "Centimeter",
-        artistDisplayName: "the peggies",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "告白バンジージャンプ",
-        titleRomaji: "Kokuhaku Bungee Jump",
-        artistDisplayName: "halca",
-      },
-      {
-        type: "ED",
-        sequence: 2,
-        titleJa: "FIRST DROP",
-        artistDisplayName: "halca",
-      },
-      {
-        type: "ED",
-        sequence: 3,
-        titleJa: "センチメートル",
-        titleRomaji: "Centimeter",
-        artistDisplayName: "the peggies",
-      },
-    ],
-  }),
+  "anilistId": 113813,
+  "slug": "kanojo-okarishimasu",
+  "startDate": "2020-07-11",
+  "titleJa": "彼女、お借りします",
+  "titleZhHant": "出租女友",
+  "titleRomaji": "Kanojo, Okarishimasu",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113813-SnljeXpU3Pw7.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113813-Al8VofQuNQHV.jpg",
+  "broadcastLabel": "日本原期TV首播（深夜換日按實曆）",
+  "officialSiteUrl": "https://kanokari-official.com/1st/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/271",
+    "https://acgsecrets.hk/bangumi/202007/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/kanojo_okarishimasu",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "センチメートル",
+      "titleRomaji": "Centimeter",
+      "artistDisplayName": "the peggies",
+      "id": "kanojo-okarishimasu-op-1",
+      "songId": "kanojo-okarishimasu-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://kanokari-official.com/1st/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/kanojo_okarishimasu",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "DMM pictures 官方影片",
+          "url": "https://www.youtube.com/watch?v=DzQ7s2KkbCk",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://kanokari-official.com/1st/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E7%A7%9F%E5%80%9F%E5%A5%B3%E5%8F%8B",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "the peggies",
+          "role": "vocals"
+        },
+        {
+          "name": "北澤ゆうほ",
+          "role": "lyrics"
+        },
+        {
+          "name": "北澤ゆうほ",
+          "role": "composition"
+        },
+        {
+          "name": "the peggies",
+          "role": "arrangement"
+        },
+        {
+          "name": "江口 亮",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://kanokari-official.com/1st/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kanojo-okarishimasu-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://kanokari-official.com/1st/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kanojo-okarishimasu-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%A7%9F%E5%80%9F%E5%A5%B3%E5%8F%8B"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kanojo-okarishimasu-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%A7%9F%E5%80%9F%E5%A5%B3%E5%8F%8B"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kanojo-okarishimasu-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://kanokari-official.com/1st/music/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原期曲名、正式歌唱名義、用途與夏季已核。",
+          "resumeWhen": "待本曲音源及發行品直接資料可讀時再補。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "告白バンジージャンプ",
+      "titleRomaji": "Kokuhaku Bungee Jump",
+      "artistDisplayName": "halca",
+      "id": "kanojo-okarishimasu-ed-1",
+      "songId": "kanojo-okarishimasu-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://kanokari-official.com/1st/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/kanojo_okarishimasu",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "halca Official YouTube Channel 官方影片",
+          "url": "https://www.youtube.com/watch?v=LnkMCa_tGbc",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://kanokari-official.com/1st/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E7%A7%9F%E5%80%9F%E5%A5%B3%E5%8F%8B",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "halca",
+          "role": "vocals"
+        },
+        {
+          "name": "前山田健一",
+          "role": "lyrics"
+        },
+        {
+          "name": "前山田健一",
+          "role": "composition"
+        },
+        {
+          "name": "板垣祐介",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://kanokari-official.com/1st/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kanojo-okarishimasu-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://kanokari-official.com/1st/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kanojo-okarishimasu-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%A7%9F%E5%80%9F%E5%A5%B3%E5%8F%8B"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kanojo-okarishimasu-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%A7%9F%E5%80%9F%E5%A5%B3%E5%8F%8B"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kanojo-okarishimasu-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://kanokari-official.com/1st/music/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原期曲名、正式歌唱名義、用途與夏季已核。",
+          "resumeWhen": "待本曲音源及發行品直接資料可讀時再補。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "FIRST DROP",
+      "artistDisplayName": "halca",
+      "id": "kanojo-okarishimasu-ed-2",
+      "songId": "kanojo-okarishimasu-ed-2-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://kanokari-official.com/1st/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/kanojo_okarishimasu",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "halca Official YouTube Channel 官方影片",
+          "url": "https://www.youtube.com/watch?v=KD0CpWSK5R0",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://kanokari-official.com/1st/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://miyajimajunko.com/works-2024/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E7%A7%9F%E5%80%9F%E5%A5%B3%E5%8F%8B",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "halca",
+          "role": "vocals"
+        },
+        {
+          "name": "宮嶋淳子",
+          "role": "lyrics"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://kanokari-official.com/1st/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kanojo-okarishimasu-ed-2-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://miyajimajunko.com/works-2024/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kanojo-okarishimasu-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://miyajimajunko.com/works-2024/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kanojo-okarishimasu-ed-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%A7%9F%E5%80%9F%E5%A5%B3%E5%8F%8B"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kanojo-okarishimasu-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%A7%9F%E5%80%9F%E5%A5%B3%E5%8F%8B"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kanojo-okarishimasu-ed-2"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://miyajimajunko.com/works-2024/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原期曲名、正式歌唱名義、用途與夏季已核。",
+          "resumeWhen": "待本曲音源及發行品直接資料可讀時再補。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 3,
+      "titleJa": "センチメートル",
+      "titleRomaji": "Centimeter",
+      "artistDisplayName": "the peggies",
+      "id": "kanojo-okarishimasu-ed-3",
+      "songId": "kanojo-okarishimasu-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://kanokari-official.com/1st/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/kanojo_okarishimasu",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://kanokari-official.com/1st/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E7%A7%9F%E5%80%9F%E5%A5%B3%E5%8F%8B",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "the peggies",
+          "role": "vocals"
+        },
+        {
+          "name": "北澤ゆうほ",
+          "role": "lyrics"
+        },
+        {
+          "name": "北澤ゆうほ",
+          "role": "composition"
+        },
+        {
+          "name": "the peggies",
+          "role": "arrangement"
+        },
+        {
+          "name": "江口 亮",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://kanokari-official.com/1st/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kanojo-okarishimasu-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%A7%9F%E5%80%9F%E5%A5%B3%E5%8F%8B"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kanojo-okarishimasu-op-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://kanokari-official.com/1st/music/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "曲名與歌唱名義已核，特殊片尾用途及使用季度尚待第一方逐話明證。",
+          "resumeWhen": "待第一期第1話或相關特殊片尾的官方逐曲片尾表可直接讀取，再核實本曲片尾用途及季度。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "id": "kanojo-okarishimasu-in-1",
+      "type": "IN",
+      "sequence": 1,
+      "titleJa": "君を通して",
+      "artistDisplayName": "雨宮天",
+      "credits": [
+        {
+          "name": "やまし",
+          "role": "lyrics"
+        },
+        {
+          "name": "宮川 麿",
+          "role": "composition"
+        },
+        {
+          "name": "宮川 麿",
+          "role": "arrangement"
+        }
+      ],
+      "links": [],
+      "songId": "kanojo-okarishimasu-in-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "url": "https://kanokari-official.com/1st/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.amamiyasora.jp/artist/amamiyasora/info/522390",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E7%A7%9F%E5%80%9F%E5%A5%B3%E5%8F%8B",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://kanokari-official.com/1st/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kanojo-okarishimasu-in-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.amamiyasora.jp/artist/amamiyasora/info/522390"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kanojo-okarishimasu-in-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://kanokari-official.com/1st/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kanojo-okarishimasu-in-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.amamiyasora.jp/artist/amamiyasora/info/522390"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kanojo-okarishimasu-in-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%A7%9F%E5%80%9F%E5%A5%B3%E5%8F%8B"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kanojo-okarishimasu-in-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%A7%9F%E5%80%9F%E5%A5%B3%E5%8F%8B"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kanojo-okarishimasu-in-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://kanokari-official.com/1st/music/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原期插曲、曲名、正式歌唱與夏季已核；不從角色配音或專輯收錄推演唱及用途。",
+          "resumeWhen": "待音源及發行資料逐項核實；不推定其他錄音版本。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://kanokari-official.com/1st/onair/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E7%A7%9F%E5%80%9F%E5%A5%B3%E5%8F%8B",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "editorialWeekday": 6,
+  "broadcastTimeJst": "01:25",
+  "seasonIds": [
+    "2020-summer"
+  ]
+}),
   summer2020Seed({
     anilistId: 117150,
     slug: "get-up-get-live-geragera",
@@ -3273,40 +5606,461 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
     themes: [],
   }),
   summer2020Seed({
-    anilistId: 113286,
-    slug: "monster-musume-no-oisha-san",
-    startDate: "2020-07-12",
-    titleJa: "モンスター娘のお医者さん",
-    titleZhHant: "魔物娘的醫生",
-    titleRomaji: "Monster Musume no Oisha-san",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113286-AUS3PAJ5n6BU.png",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113286-IMxXxg80jnuX.jpg",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl: "https://mon-isha-anime.com/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/375",
-      "https://acgsecrets.hk/bangumi/202007/",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/monster_musume_no_oisha_san",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "カンパネラ響く空で",
-        titleRomaji: "Campanella Hibiku Sora de",
-        artistDisplayName: "ARCANA PROJECT",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "やさしさの名前",
-        titleRomaji: "Yasashisa no Namae",
-        artistDisplayName: "鈴木愛奈",
-      },
-    ],
-  }),
+  "anilistId": 113286,
+  "slug": "monster-musume-no-oisha-san",
+  "startDate": "2020-07-12",
+  "titleJa": "モンスター娘のお医者さん",
+  "titleZhHant": "魔物娘的醫生",
+  "titleRomaji": "Monster Musume no Oisha-san",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113286-AUS3PAJ5n6BU.png",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113286-IMxXxg80jnuX.jpg",
+  "broadcastLabel": "日本原期TV首播（深夜換日按實曆）",
+  "officialSiteUrl": "https://mon-isha-anime.com/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/375",
+    "https://acgsecrets.hk/bangumi/202007/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/monster_musume_no_oisha_san",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "カンパネラ響く空で",
+      "titleRomaji": "Campanella Hibiku Sora de",
+      "artistDisplayName": "ARCANA PROJECT",
+      "id": "monster-musume-no-oisha-san-op-1",
+      "songId": "monster-musume-no-oisha-san-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://mon-isha-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/monster_musume_no_oisha_san",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "ARCANA PROJECT Official Channel 官方影片",
+          "url": "https://www.youtube.com/watch?v=45s2y6HmgcI",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.mon-isha-anime.com/products/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%AD%94%E7%89%A9%E5%A8%98%E7%9A%84%E9%86%AB%E7%94%9F",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "ARCANA PROJECT",
+          "role": "vocals"
+        },
+        {
+          "name": "安藤紗々",
+          "role": "lyrics"
+        },
+        {
+          "name": "高田 暁",
+          "role": "composition"
+        },
+        {
+          "name": "高田 暁",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.mon-isha-anime.com/products/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "monster-musume-no-oisha-san-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.mon-isha-anime.com/products/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "monster-musume-no-oisha-san-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%AD%94%E7%89%A9%E5%A8%98%E7%9A%84%E9%86%AB%E7%94%9F"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "monster-musume-no-oisha-san-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%AD%94%E7%89%A9%E5%A8%98%E7%9A%84%E9%86%AB%E7%94%9F"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "monster-musume-no-oisha-san-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.mon-isha-anime.com/products/music/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原期曲名、正式歌唱名義、用途與夏季已核。",
+          "resumeWhen": "待本曲音源及發行品直接資料可讀時再補。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "やさしさの名前",
+      "titleRomaji": "Yasashisa no Namae",
+      "artistDisplayName": "鈴木愛奈",
+      "id": "monster-musume-no-oisha-san-ed-1",
+      "songId": "monster-musume-no-oisha-san-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://mon-isha-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/monster_musume_no_oisha_san",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "Aina Suzuki Official Channel 官方影片",
+          "url": "https://www.youtube.com/watch?v=xIbHqcT5ek0",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.mon-isha-anime.com/products/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%AD%94%E7%89%A9%E5%A8%98%E7%9A%84%E9%86%AB%E7%94%9F",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "鈴木愛奈",
+          "role": "vocals"
+        },
+        {
+          "name": "森由里子",
+          "role": "lyrics"
+        },
+        {
+          "name": "戸田一義",
+          "role": "composition"
+        },
+        {
+          "name": "IKW",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.mon-isha-anime.com/products/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "monster-musume-no-oisha-san-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.mon-isha-anime.com/products/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "monster-musume-no-oisha-san-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%AD%94%E7%89%A9%E5%A8%98%E7%9A%84%E9%86%AB%E7%94%9F"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "monster-musume-no-oisha-san-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%AD%94%E7%89%A9%E5%A8%98%E7%9A%84%E9%86%AB%E7%94%9F"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "monster-musume-no-oisha-san-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.mon-isha-anime.com/products/music/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原期曲名、正式歌唱名義、用途與夏季已核。",
+          "resumeWhen": "待本曲音源及發行品直接資料可讀時再補。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "id": "monster-musume-no-oisha-san-in-1",
+      "type": "IN",
+      "sequence": 1,
+      "titleJa": "Water flows down passages",
+      "artistDisplayName": "Shaylee",
+      "credits": [
+        {
+          "name": "松井洋平",
+          "role": "lyrics"
+        },
+        {
+          "name": "伊藤真澄",
+          "role": "composition"
+        },
+        {
+          "name": "ミト",
+          "role": "composition"
+        },
+        {
+          "name": "うたたね歌菜",
+          "role": "arrangement"
+        }
+      ],
+      "links": [],
+      "songId": "monster-musume-no-oisha-san-in-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "url": "https://www.mon-isha-anime.com/products/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://fictionjunctionstation.com/contents/448073",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%AD%94%E7%89%A9%E5%A8%98%E7%9A%84%E9%86%AB%E7%94%9F",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.mon-isha-anime.com/products/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "monster-musume-no-oisha-san-in-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://fictionjunctionstation.com/contents/448073"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "monster-musume-no-oisha-san-in-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://fictionjunctionstation.com/contents/448073"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "monster-musume-no-oisha-san-in-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%AD%94%E7%89%A9%E5%A8%98%E7%9A%84%E9%86%AB%E7%94%9F"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "monster-musume-no-oisha-san-in-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%AD%94%E7%89%A9%E5%A8%98%E7%9A%84%E9%86%AB%E7%94%9F"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "monster-musume-no-oisha-san-in-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.mon-isha-anime.com/products/music/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期插曲歌唱為Shaylee；英語補作詞亦由Shaylee署名，角色配音與歌唱分開。",
+          "resumeWhen": "待音源及發行資料逐項核實；不推定其他錄音版本。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://www.mon-isha-anime.com/onair/tv/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E9%AD%94%E7%89%A9%E5%A8%98%E7%9A%84%E9%86%AB%E7%94%9F",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "editorialWeekday": 7,
+  "broadcastTimeJst": "23:00",
+  "seasonIds": [
+    "2020-summer"
+  ]
+}),
   summer2020Seed({
     anilistId: 114308,
     slug: "sword-art-online-alicization-war-of-underworld-part-2",
