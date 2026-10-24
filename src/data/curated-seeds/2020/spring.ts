@@ -12477,195 +12477,2637 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
   ]
 }),
   spring2020Seed({
-    anilistId: 116793,
-    slug: "motto-majime-ni-fumajime-kaiketsu-zorori",
-    startDate: "2020-04-05",
-    titleJa: "もっと! まじめにふまじめ かいけつゾロリ",
-    titleZhHant: "更多！認真地不認真的怪傑佐羅力",
-    titleRomaji: "Motto! Majime ni Fumajime Kaiketsu Zorori",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116793-6TUNMzgucLpk.jpg",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl: "https://www.zorori.jp/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/138",
-      "https://acgsecrets.hk/bangumi/202004/",
-    ],
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "もっと！もっと！かいけつゾロリ",
-        artistDisplayName: "ゾロリ (CV.山寺宏一)",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "シャラララ",
-        artistDisplayName: "OnePixcel",
-      },
-    ],
-  }),
+  "anilistId": 116793,
+  "slug": "motto-majime-ni-fumajime-kaiketsu-zorori",
+  "startDate": "2020-04-05",
+  "titleJa": "もっと! まじめにふまじめ かいけつゾロリ",
+  "titleZhHant": "更多！認真地不認真的怪傑佐羅力",
+  "titleRomaji": "Motto! Majime ni Fumajime Kaiketsu Zorori",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116793-6TUNMzgucLpk.jpg",
+  "broadcastLabel": "2020年4月5日19:00 NHK Eテレ原TV首話",
+  "officialSiteUrl": "https://www.zorori.jp/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/138",
+    "https://acgsecrets.hk/bangumi/202004/"
+  ],
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "もっと！もっと！かいけつゾロリ",
+      "artistDisplayName": "ゾロリ (CV.山寺宏一)",
+      "id": "motto-majime-ni-fumajime-kaiketsu-zorori-op-1",
+      "songId": "motto-majime-ni-fumajime-kaiketsu-zorori-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.zorori.jp/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "公開歌曲資料：用途與演唱者交叉核對",
+          "url": "https://anison.online/anime/925",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "【公式】BN Picturesチャンネル 官方影片",
+          "url": "https://www.youtube.com/watch?v=iUlEnyuu3wg",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://columbia.jp/prod-info/COCA-17782/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%80%AA%E4%BF%A0%E4%BD%90%E7%BE%85%E5%88%A9",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "ゾロリ (CV.山寺宏一)",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCA-17782/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "motto-majime-ni-fumajime-kaiketsu-zorori-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCA-17782/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "motto-majime-ni-fumajime-kaiketsu-zorori-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%80%AA%E4%BF%A0%E4%BD%90%E7%BE%85%E5%88%A9"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "motto-majime-ni-fumajime-kaiketsu-zorori-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%80%AA%E4%BF%A0%E4%BD%90%E7%BE%85%E5%88%A9"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "motto-majime-ni-fumajime-kaiketsu-zorori-op-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters",
+            "recordings",
+            "releases",
+            "platform_links",
+            "lyrics",
+            "composition",
+            "arrangement"
+          ],
+          "note": "已確認本期片頭與春季用途；夏秋延用尚待直接逐曲／逐話證據，不從全作末話日推定。",
+          "resumeWhen": "待原期逐話音樂署名或製作方逐曲季別公告直接確認2020夏、秋的本曲延用；第一期與後續系列分開。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "シャラララ",
+      "artistDisplayName": "ONEPIXCEL",
+      "id": "motto-majime-ni-fumajime-kaiketsu-zorori-ed-1",
+      "songId": "motto-majime-ni-fumajime-kaiketsu-zorori-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.zorori.jp/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "公開歌曲資料：用途與演唱者交叉核對",
+          "url": "https://anison.online/anime/925",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "ONEPIXCEL 官方影片",
+          "url": "https://www.youtube.com/watch?v=pkLHQ0VhXjw",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://columbia.jp/prod-info/COCA-17782/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://columbia.jp/artist-info/onepixcel/info/69750.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%80%AA%E4%BF%A0%E4%BD%90%E7%BE%85%E5%88%A9",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "OnePixcel",
+          "role": "vocals"
+        },
+        {
+          "name": "HIROMI",
+          "role": "lyrics"
+        },
+        {
+          "name": "STARFISH",
+          "role": "composition"
+        },
+        {
+          "name": "ELLEN BERG",
+          "role": "composition"
+        },
+        {
+          "name": "BIG-F",
+          "role": "composition"
+        },
+        {
+          "name": "STARFISH",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCA-17782/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "motto-majime-ni-fumajime-kaiketsu-zorori-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/onepixcel/info/69750.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "motto-majime-ni-fumajime-kaiketsu-zorori-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCA-17782/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "motto-majime-ni-fumajime-kaiketsu-zorori-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%80%AA%E4%BF%A0%E4%BD%90%E7%BE%85%E5%88%A9"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "motto-majime-ni-fumajime-kaiketsu-zorori-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%80%AA%E4%BF%A0%E4%BD%90%E7%BE%85%E5%88%A9"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "motto-majime-ni-fumajime-kaiketsu-zorori-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/onepixcel/info/69750.html"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "已確認本期片尾與春季用途；夏秋延用尚待直接逐曲／逐話證據，不從全作末話日推定。",
+          "resumeWhen": "待原期逐話音樂署名或製作方逐曲季別公告直接確認2020夏、秋的本曲延用；第一期與後續系列分開。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://columbia.jp/prod-info/COCA-17782/",
+      "label": "本期作品名稱資料",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://columbia.jp/artist-info/onepixcel/info/69750.html",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://www.zorori.jp/story/001.php",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://www.zorori.jp/story/025.php",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E4%BD%90%E7%BE%85%E5%8A%9B%E5%8B%95%E7%95%AB%E9%9B%86%E6%95%B8%E5%88%97%E8%A1%A8",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "editorialWeekday": 7,
+  "broadcastTimeJst": "19:00",
+  "seasonIds": [
+    "2020-spring",
+    "2020-summer",
+    "2020-fall"
+  ]
+}),
   spring2020Seed({
-    anilistId: 118630,
-    slug: "duel-masters-king-2020",
-    startDate: "2020-04-05",
-    titleJa: "デュエル・マスターズキング",
-    titleZhHant: "決鬥大師 King",
-    titleRomaji: "Duel Masters King",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx118630-tSFqf4Qlgv1m.png",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl: "https://www.tv-tokyo.co.jp/anime/dm_king/",
-    sourceReferenceUrls: ["https://acgsecrets.hk/bangumi/202004/"],
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "キンキラKING！",
-        artistDisplayName: "はやぶさ",
-      },
-      {
-        type: "OP",
-        sequence: 2,
-        titleJa: "No Rain, No Rainbow",
-        artistDisplayName: "水樹奈々",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "ともだちだから",
-        artistDisplayName: "上月せれな",
-      },
-      {
-        type: "ED",
-        sequence: 2,
-        titleJa: "百花繚乱ココロモヨウ",
-        artistDisplayName: "WAWAWA",
-      },
-      {
-        type: "ED",
-        sequence: 3,
-        titleJa: "スタート！",
-        artistDisplayName: "佐々木李子",
-      },
-    ],
-  }),
+  "anilistId": 118630,
+  "slug": "duel-masters-king-2020",
+  "startDate": "2020-04-05",
+  "titleJa": "デュエル・マスターズキング",
+  "titleZhHant": "決鬥大師 King",
+  "titleRomaji": "Duel Masters King",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx118630-tSFqf4Qlgv1m.png",
+  "broadcastLabel": "2020年4月5日08:30 テレビ東京系原TV首話",
+  "officialSiteUrl": "https://www.tv-tokyo.co.jp/anime/dm_king/",
+  "sourceReferenceUrls": [
+    "https://acgsecrets.hk/bangumi/202004/"
+  ],
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "キンキラKING！",
+      "artistDisplayName": "はやぶさ",
+      "id": "duel-masters-king-2020-op-1",
+      "songId": "duel-masters-king-2020-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring",
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/dm_king/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "公開歌曲資料：用途與演唱者交叉核對",
+          "url": "https://anison.online/anime/902",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://8823.click/news/20200806_news/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.ttmnet.co.jp/theme/2020-6/?id=theme-fri",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.ttmnet.co.jp/theme/2020-8/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.joysound.com/web/search/title/28131",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.mau2.com/anime/duelmastersking",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "はやぶさ",
+          "role": "vocals"
+        },
+        {
+          "name": "前山田健一",
+          "role": "lyrics"
+        },
+        {
+          "name": "前山田健一",
+          "role": "composition"
+        },
+        {
+          "name": "前山田健一",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://8823.click/news/20200806_news/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "duel-masters-king-2020-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.ttmnet.co.jp/theme/2020-6/?id=theme-fri"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "duel-masters-king-2020-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.ttmnet.co.jp/theme/2020-8/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "duel-masters-king-2020-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ttmnet.co.jp/theme/2020-6/?id=theme-fri"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "duel-masters-king-2020-op-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ttmnet.co.jp/theme/2020-8/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "duel-masters-king-2020-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.joysound.com/web/search/title/28131"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "duel-masters-king-2020-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/duelmastersking"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "duel-masters-king-2020-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/duelmastersking"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "duel-masters-king-2020-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://8823.click/news/20200806_news/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本曲原名、正式名義與已確認原期用途季度已核對；可選欄位依現有資料另待補。",
+          "resumeWhen": "待原期權利方逐曲公開尚缺欄位或其他使用資料後續核，不從商品、影片或cast推定。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "OP",
+      "sequence": 2,
+      "titleJa": "No Rain, No Rainbow",
+      "artistDisplayName": "水樹奈々",
+      "id": "duel-masters-king-2020-op-2",
+      "songId": "duel-masters-king-2020-op-2-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-fall"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/dm_king/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "公開歌曲資料：用途與演唱者交叉核對",
+          "url": "https://anison.online/anime/902",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "水樹奈々 官方影片",
+          "url": "https://www.youtube.com/watch?v=weZIhAQZRm0",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://cnt.kingrecords.co.jp/high-resolution/anime/13537.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.ttmnet.co.jp/theme/2020-10/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.joysound.com/web/search/title/28131",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.mau2.com/anime/duelmastersking",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "水樹奈々",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://cnt.kingrecords.co.jp/high-resolution/anime/13537.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "duel-masters-king-2020-op-2-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.ttmnet.co.jp/theme/2020-10/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "duel-masters-king-2020-op-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ttmnet.co.jp/theme/2020-10/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "duel-masters-king-2020-op-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.joysound.com/web/search/title/28131"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "duel-masters-king-2020-op-2-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/duelmastersking"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "duel-masters-king-2020-op-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/duelmastersking"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "duel-masters-king-2020-op-2"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters",
+            "recordings",
+            "releases",
+            "platform_links",
+            "lyrics",
+            "composition",
+            "arrangement"
+          ],
+          "note": "本曲秋季原TV用途已由2020/10月別第一方與獨立交叉確認；2021冬延用仍待原期直接逐曲資料。",
+          "resumeWhen": "待2021冬原期播出單位月別曲目或逐話官方credit直接列本曲，再補冬季；不以47話完結日推全曲跨季。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "ともだちだから",
+      "artistDisplayName": "上月せれな",
+      "id": "duel-masters-king-2020-ed-1",
+      "songId": "duel-masters-king-2020-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/dm_king/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "公開歌曲資料：用途與演唱者交叉核對",
+          "url": "https://anison.online/anime/902",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "上月せれな（せれちゅ） 官方影片",
+          "url": "https://www.youtube.com/watch?v=cnylWKjeAsA",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.ttmnet.co.jp/theme/2020-6/?id=theme-fri",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.joysound.com/web/search/title/28131",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.mau2.com/anime/duelmastersking",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "上月せれな",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.ttmnet.co.jp/theme/2020-6/?id=theme-fri"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "duel-masters-king-2020-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ttmnet.co.jp/theme/2020-6/?id=theme-fri"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "duel-masters-king-2020-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.joysound.com/web/search/title/28131"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "duel-masters-king-2020-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/duelmastersking"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "duel-masters-king-2020-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/duelmastersking"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "duel-masters-king-2020-ed-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links",
+            "lyrics",
+            "composition",
+            "arrangement"
+          ],
+          "note": "本曲原名、正式名義與已確認原期用途季度已核對；可選欄位依現有資料另待補。",
+          "resumeWhen": "待原期權利方逐曲公開尚缺欄位或其他使用資料後續核，不從商品、影片或cast推定。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "百花繚乱ココロモヨウ",
+      "artistDisplayName": "WAWAWA",
+      "id": "duel-masters-king-2020-ed-2",
+      "songId": "duel-masters-king-2020-ed-2-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/dm_king/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "公開歌曲資料：用途與演唱者交叉核對",
+          "url": "https://anison.online/anime/902",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "Wawawa - Topic 授權影片",
+          "url": "https://www.youtube.com/watch?v=I8ozQow48As",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.ttmnet.co.jp/theme/2020-8/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://store.universal-music.co.jp/collections/wawawa/products/dsku11236",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.joysound.com/web/search/title/28131",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.mau2.com/anime/duelmastersking",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "WAWAWA",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.ttmnet.co.jp/theme/2020-8/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "duel-masters-king-2020-ed-2-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://store.universal-music.co.jp/collections/wawawa/products/dsku11236"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "duel-masters-king-2020-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ttmnet.co.jp/theme/2020-8/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "duel-masters-king-2020-ed-2"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://store.universal-music.co.jp/collections/wawawa/products/dsku11236"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "duel-masters-king-2020-ed-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.joysound.com/web/search/title/28131"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "duel-masters-king-2020-ed-2-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/duelmastersking"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "duel-masters-king-2020-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/duelmastersking"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "duel-masters-king-2020-ed-2"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links",
+            "lyrics",
+            "composition",
+            "arrangement"
+          ],
+          "note": "本曲原名、正式名義與已確認原期用途季度已核對；可選欄位依現有資料另待補。",
+          "resumeWhen": "待原期權利方逐曲公開尚缺欄位或其他使用資料後續核，不從商品、影片或cast推定。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 3,
+      "titleJa": "スタート！",
+      "artistDisplayName": "佐々木李子",
+      "id": "duel-masters-king-2020-ed-3",
+      "songId": "duel-masters-king-2020-ed-3-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-fall"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/dm_king/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "公開歌曲資料：用途與演唱者交叉核對",
+          "url": "https://anison.online/anime/902",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "佐々木李子 官方影片",
+          "url": "https://www.youtube.com/watch?v=Dn9pFk43SZ8",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://sasakirico.com/schedule_detail.html?id=787",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.ttmnet.co.jp/theme/2020-10/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.joysound.com/web/search/title/28131",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.mau2.com/anime/duelmastersking",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "佐々木李子",
+          "role": "vocals"
+        },
+        {
+          "name": "佐々木李子",
+          "role": "lyrics"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://sasakirico.com/schedule_detail.html?id=787"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "duel-masters-king-2020-ed-3-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.ttmnet.co.jp/theme/2020-10/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "duel-masters-king-2020-ed-3-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ttmnet.co.jp/theme/2020-10/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "duel-masters-king-2020-ed-3"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.joysound.com/web/search/title/28131"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "duel-masters-king-2020-ed-3-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/duelmastersking"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "duel-masters-king-2020-ed-3-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/duelmastersking"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "duel-masters-king-2020-ed-3"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://sasakirico.com/schedule_detail.html?id=787"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters",
+            "recordings",
+            "releases",
+            "platform_links",
+            "composition",
+            "arrangement"
+          ],
+          "note": "本曲秋季原TV用途已由2020/10月別第一方與獨立交叉確認；2021冬延用仍待原期直接逐曲資料。",
+          "resumeWhen": "待2021冬原期播出單位月別曲目或逐話官方credit直接列本曲，再補冬季；不以47話完結日推全曲跨季。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://www.tv-tokyo.co.jp/anime/dm_king/",
+      "label": "本期作品名稱資料",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/anime/dm_king/onair/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E6%B1%BA%E9%AC%A5%E5%A4%A7%E5%B8%AB",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "editorialWeekday": 7,
+  "broadcastTimeJst": "08:30",
+  "seasonIds": [
+    "2020-spring",
+    "2020-summer",
+    "2020-fall",
+    "2021-winter"
+  ]
+}),
   spring2020Seed({
-    anilistId: 107294,
-    slug: "jashin-chan-dropkick-dash",
-    startDate: "2020-04-06",
-    titleJa: "邪神ちゃんドロップキック’（ダッシュ）",
-    titleZhHant: "邪神與廚二病少女 第二季",
-    titleRomaji: "Jashin-chan Dropkick’",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107294-zWscZpb7wYLH.jpg",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl: "https://jashinchan.com/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/56",
-      "https://acgsecrets.hk/bangumi/202004/",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/jashin_chan_dropkick_2020",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "時としてバイオレンス",
-        artistDisplayName: "halca",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "Love Satisfaction",
-        artistDisplayName: "ZAMB",
-      },
-      {
-        type: "ED",
-        sequence: 2,
-        titleJa: "CHI☆TO☆SE愛歌",
-        artistDisplayName: "邪神ちゃん (CV.鈴木愛奈)、リエール (CV.花井美春)",
-      },
-    ],
-  }),
+  "anilistId": 107294,
+  "slug": "jashin-chan-dropkick-dash",
+  "startDate": "2020-04-06",
+  "titleJa": "邪神ちゃんドロップキック’（ダッシュ）",
+  "titleZhHant": "邪神與廚二病少女 第二季",
+  "titleRomaji": "Jashin-chan Dropkick’",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107294-zWscZpb7wYLH.jpg",
+  "broadcastLabel": "2020年4月6日22:30 AT-X原TV首話；MX深夜另換日",
+  "officialSiteUrl": "https://jashinchan.com/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/56",
+    "https://acgsecrets.hk/bangumi/202004/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/jashin_chan_dropkick_2020",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "時としてバイオレンス",
+      "artistDisplayName": "halca",
+      "id": "jashin-chan-dropkick-dash-op-1",
+      "songId": "jashin-chan-dropkick-dash-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "label": "《邪神與廚二病少女 第二季》第一方歌曲資料：曲名與演唱者",
+          "url": "https://jashinchan.com/news/2439",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/jashin_chan_dropkick_2020",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "[official]DROPKICK ON MY DEVIL! 官方影片",
+          "url": "https://www.youtube.com/watch?v=kEQ3tEGKUa0",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://jashinchan.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://jashinchan.com/disc",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/halca/info/516338",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%82%AA%E7%A5%9E%E8%88%87%E5%BB%9A%E4%BA%8C%E7%97%85%E5%B0%91%E5%A5%B3",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "halca",
+          "role": "vocals"
+        },
+        {
+          "name": "宮嶋淳子",
+          "role": "lyrics"
+        },
+        {
+          "name": "原一博",
+          "role": "composition"
+        },
+        {
+          "name": "川崎智哉",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://jashinchan.com/disc"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "jashin-chan-dropkick-dash-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/halca/info/516338"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "jashin-chan-dropkick-dash-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://jashinchan.com/disc"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "jashin-chan-dropkick-dash-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%82%AA%E7%A5%9E%E8%88%87%E5%BB%9A%E4%BA%8C%E7%97%85%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "jashin-chan-dropkick-dash-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%82%AA%E7%A5%9E%E8%88%87%E5%BB%9A%E4%BA%8C%E7%97%85%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "jashin-chan-dropkick-dash-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://jashinchan.com/disc"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本曲原名、正式名義與已確認原期用途季度已核對；可選欄位依現有資料另待補。",
+          "resumeWhen": "待原期權利方逐曲公開尚缺欄位或其他使用資料後續核，不從商品、影片或cast推定。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "Love Satisfaction",
+      "artistDisplayName": "ZAMB",
+      "id": "jashin-chan-dropkick-dash-ed-1",
+      "songId": "jashin-chan-dropkick-dash-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "label": "《邪神與廚二病少女 第二季》第一方歌曲資料：曲名與演唱者",
+          "url": "https://jashinchan.com/news/2439",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/jashin_chan_dropkick_2020",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "[official]DROPKICK ON MY DEVIL! 官方影片",
+          "url": "https://www.youtube.com/watch?v=TyL3euwKPXM",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://jashinchan.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://jashinchan.com/disc",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000002369.000013546.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%82%AA%E7%A5%9E%E8%88%87%E5%BB%9A%E4%BA%8C%E7%97%85%E5%B0%91%E5%A5%B3",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "ZAMB",
+          "role": "vocals"
+        },
+        {
+          "name": "図画泉美",
+          "role": "lyrics"
+        },
+        {
+          "name": "木田竜也",
+          "role": "composition"
+        },
+        {
+          "name": "木田竜也",
+          "role": "arrangement"
+        },
+        {
+          "name": "GAK",
+          "role": "arrangement"
+        },
+        {
+          "name": "長戸大幸",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://jashinchan.com/disc"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "jashin-chan-dropkick-dash-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000002369.000013546.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "jashin-chan-dropkick-dash-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://jashinchan.com/disc"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "jashin-chan-dropkick-dash-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%82%AA%E7%A5%9E%E8%88%87%E5%BB%9A%E4%BA%8C%E7%97%85%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "jashin-chan-dropkick-dash-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%82%AA%E7%A5%9E%E8%88%87%E5%BB%9A%E4%BA%8C%E7%97%85%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "jashin-chan-dropkick-dash-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://jashinchan.com/disc"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本曲原名、正式名義與已確認原期用途季度已核對；可選欄位依現有資料另待補。",
+          "resumeWhen": "待原期權利方逐曲公開尚缺欄位或其他使用資料後續核，不從商品、影片或cast推定。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "CHI☆TO☆SE愛歌",
+      "artistDisplayName": "邪神ちゃん (CV.鈴木愛奈)、リエール (CV.花井美春)",
+      "id": "jashin-chan-dropkick-dash-ed-2",
+      "songId": "jashin-chan-dropkick-dash-ed-2-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "url": "https://jashinchan.com/news/2439",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/jashin_chan_dropkick_2020",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "[official]DROPKICK ON MY DEVIL! 官方影片",
+          "url": "https://www.youtube.com/watch?v=Jkf6Rq3i8e4",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://jashinchan.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        }
+      ],
+      "credits": [
+        {
+          "name": "邪神ちゃん (CV.鈴木愛奈)、リエール (CV.花井美春)",
+          "role": "vocals"
+        },
+        {
+          "name": "筆安一幸",
+          "role": "lyrics"
+        },
+        {
+          "name": "TORIENA",
+          "role": "composition"
+        },
+        {
+          "name": "TORIENA",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://jashinchan.com/news/2439"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "jashin-chan-dropkick-dash-ed-2-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://jashinchan.com/news/2439"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "千歲篇片尾曲身分與創作有直接資料，原TV／配信版的精確用途季度及獨立交叉仍待核；保留原用途及影音。",
+          "resumeWhen": "待原期官方逐話音樂credit直接對應千歲篇使用集與TV實播日，再合獨立交叉；不以4/30下載發售日推季度，兩輪後保留。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://jashinchan.com/disc",
+      "label": "本期作品名稱資料",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://jashinchan.com/onair",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%AA%E7%A5%9E%E8%88%87%E5%BB%9A%E4%BA%8C%E7%97%85%E5%B0%91%E5%A5%B3",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "editorialWeekday": 1,
+  "broadcastTimeJst": "22:30",
+  "seasonIds": [
+    "2020-spring"
+  ]
+}),
   spring2020Seed({
-    anilistId: 110458,
-    slug: "shironeko-project-zero-chronicle",
-    startDate: "2020-04-06",
-    titleJa: "白猫プロジェクトZERO CHRONICLE",
-    titleZhHant: "白貓 Project Zero Chronicle 零之紀元",
-    titleRomaji: "Shironeko Project: ZERO CHRONICLE",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110458-Fnh88lYo5pfl.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110458-qXLCQ16XUVRu.jpg",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl:
-      "https://colopl.co.jp/shironekoproject/animation/zero_chronicle/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/415",
-      "https://acgsecrets.hk/bangumi/202004/",
-    ],
-    animeThemesUrl:
-      "https://animethemes.moe/anime/shironeko_project_zero_chronicle",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "天秤-Libra-",
-        artistDisplayName: "西川貴教＋ASCA",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "through the dark",
-        artistDisplayName: "安田レイ",
-      },
-    ],
-  }),
+  "anilistId": 110458,
+  "slug": "shironeko-project-zero-chronicle",
+  "startDate": "2020-04-06",
+  "titleJa": "白猫プロジェクトZERO CHRONICLE",
+  "titleZhHant": "白貓 Project Zero Chronicle 零之紀元",
+  "titleRomaji": "Shironeko Project: ZERO CHRONICLE",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110458-Fnh88lYo5pfl.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110458-qXLCQ16XUVRu.jpg",
+  "broadcastLabel": "2020/4/6(月)22:00 AT-X原期TV；官方原onair安排與中文原TV期間吻合，配信及10月他台後播分開。",
+  "officialSiteUrl": "https://colopl.co.jp/shironekoproject/animation/zero_chronicle/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/415",
+    "https://acgsecrets.hk/bangumi/202004/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/shironeko_project_zero_chronicle",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "天秤-Libra-",
+      "artistDisplayName": "西川貴教＋ASCA",
+      "id": "shironeko-project-zero-chronicle-op-1",
+      "songId": "shironeko-project-zero-chronicle-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "url": "https://colopl.co.jp/shironekoproject/animation/zero_chronicle/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/shironeko_project_zero_chronicle",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "西川貴教 官方影片",
+          "url": "https://www.youtube.com/watch?v=ChqAonaHTgA",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://colopl.co.jp/shironekoproject/animation/zero_chronicle/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E7%99%BD%E8%B2%93Project",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://colopl.co.jp/shironekoproject/animation/zero_chronicle/onair/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "西川貴教＋ASCA",
+          "role": "vocals"
+        },
+        {
+          "name": "RUCCA",
+          "role": "lyrics"
+        },
+        {
+          "name": "菊田大介",
+          "role": "composition"
+        },
+        {
+          "name": "菊田大介",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://colopl.co.jp/shironekoproject/animation/zero_chronicle/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shironeko-project-zero-chronicle-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://colopl.co.jp/shironekoproject/animation/zero_chronicle/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shironeko-project-zero-chronicle-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%99%BD%E8%B2%93Project"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shironeko-project-zero-chronicle-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%99%BD%E8%B2%93Project"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shironeko-project-zero-chronicle-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://colopl.co.jp/shironekoproject/animation/zero_chronicle/music/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本曲原名、正式演唱名義、本期用途及已確認季度已核對；既有歌曲識別、用途序號與影音保留。",
+          "resumeWhen": "待權利方提供本曲尚缺的直接創作署名、可識別音源規格、官方影片、發行收錄及正版平台資料後補齊相應欄位；不由商品或影片數量推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "through the dark",
+      "artistDisplayName": "安田レイ",
+      "id": "shironeko-project-zero-chronicle-ed-1",
+      "songId": "shironeko-project-zero-chronicle-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "url": "https://colopl.co.jp/shironekoproject/animation/zero_chronicle/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/shironeko_project_zero_chronicle",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "安田レイ Official YouTube Channel 官方影片",
+          "url": "https://www.youtube.com/watch?v=TlFwALKWkss",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://colopl.co.jp/shironekoproject/animation/zero_chronicle/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E7%99%BD%E8%B2%93Project",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://colopl.co.jp/shironekoproject/animation/zero_chronicle/onair/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "安田レイ",
+          "role": "vocals"
+        },
+        {
+          "name": "安田レイ",
+          "role": "lyrics"
+        },
+        {
+          "name": "Jeff Miyahara",
+          "role": "composition"
+        },
+        {
+          "name": "Kuraaki Hori",
+          "role": "composition"
+        },
+        {
+          "name": "Jeff Miyahara",
+          "role": "arrangement"
+        },
+        {
+          "name": "Kuraaki Hori",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://colopl.co.jp/shironekoproject/animation/zero_chronicle/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shironeko-project-zero-chronicle-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://colopl.co.jp/shironekoproject/animation/zero_chronicle/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shironeko-project-zero-chronicle-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%99%BD%E8%B2%93Project"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shironeko-project-zero-chronicle-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%99%BD%E8%B2%93Project"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shironeko-project-zero-chronicle-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://colopl.co.jp/shironekoproject/animation/zero_chronicle/music/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本曲原名、正式演唱名義、本期用途及已確認季度已核對；既有歌曲識別、用途序號與影音保留。",
+          "resumeWhen": "待權利方提供本曲尚缺的直接創作署名、可識別音源規格、官方影片、發行收錄及正版平台資料後補齊相應欄位；不由商品或影片數量推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://colopl.co.jp/shironekoproject/animation/zero_chronicle/onair/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E7%99%BD%E8%B2%93Project",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "editorialWeekday": 1,
+  "broadcastTimeJst": "22:00",
+  "seasonIds": [
+    "2020-spring"
+  ]
+}),
   spring2020Seed({
-    anilistId: 113108,
-    slug: "kingdom-3rd-season",
-    startDate: "2020-04-06",
-    titleJa: "キングダム 第3シリーズ",
-    titleZhHant: "王者天下 第三季",
-    titleRomaji: "Kingdom 3rd Season",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113108-ArjAmFLubVyu.jpg",
-    broadcastLabel: "日本首播／受疫情影響曾延期或停播",
-    officialSiteUrl: "https://kingdom-anime.com/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/60",
-      "https://acgsecrets.hk/bangumi/202004/",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/kingdom_3rd_season",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "TOMORROW",
-        artistDisplayName: "BiSH",
-      },
-      {
-        type: "OP",
-        sequence: 2,
-        titleJa: "STACKiNG",
-        artistDisplayName: "BiSH",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "Deep inside",
-        artistDisplayName: "waterweed",
-      },
-      {
-        type: "ED",
-        sequence: 2,
-        titleJa: "kIng",
-        artistDisplayName: "鈴木瑛美子",
-      },
-    ],
-  }),
+  "anilistId": 113108,
+  "slug": "kingdom-3rd-season",
+  "startDate": "2020-04-06",
+  "titleJa": "キングダム 第3シリーズ",
+  "titleZhHant": "王者天下 第三季",
+  "titleRomaji": "Kingdom 3rd Season",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113108-ArjAmFLubVyu.jpg",
+  "broadcastLabel": "2020/4/6(月)00:15 NHK総合原第3系列；原日曜深夜安排換實曆日，2021/4重播及5月第5話續播另列。",
+  "officialSiteUrl": "https://kingdom-anime.com/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/60",
+    "https://acgsecrets.hk/bangumi/202004/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/kingdom_3rd_season",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "TOMORROW",
+      "artistDisplayName": "BiSH",
+      "id": "kingdom-3rd-season-op-1",
+      "songId": "kingdom-3rd-season-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring",
+        "2021-spring"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://kingdom-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/kingdom_3rd_season",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://kingdom-anime.com/discography/detail.php?id=1019003&season=4",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.nhk-ep.co.jp/wp-content/uploads/2020/04/Newsletter202004-05.pdf",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%80%85%E5%A4%A9%E4%B8%8B",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_Kingdom_%28Japanese_TV_series%29_episodes",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "BiSH",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://kingdom-anime.com/discography/detail.php?id=1019003&season=4"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kingdom-3rd-season-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.nhk-ep.co.jp/wp-content/uploads/2020/04/Newsletter202004-05.pdf"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kingdom-3rd-season-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://kingdom-anime.com/discography/detail.php?id=1019003&season=4"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kingdom-3rd-season-op-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.nhk-ep.co.jp/wp-content/uploads/2020/04/Newsletter202004-05.pdf"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kingdom-3rd-season-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%80%85%E5%A4%A9%E4%B8%8B"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kingdom-3rd-season-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%80%85%E5%A4%A9%E4%B8%8B"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kingdom-3rd-season-op-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links",
+            "official_video",
+            "lyrics",
+            "composition",
+            "arrangement"
+          ],
+          "note": "第三系列本曲原名、歌唱與OP／ED用途已核；逐話原播日期區分停播與續播後的使用季度，創作署名等可選欄位待補。",
+          "resumeWhen": "待權利方提供本曲尚缺的直接創作署名、可識別音源規格、官方影片、發行收錄及正版平台資料後補齊相應欄位；不由商品或影片數量推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "OP",
+      "sequence": 2,
+      "titleJa": "STACKiNG",
+      "artistDisplayName": "BiSH",
+      "id": "kingdom-3rd-season-op-2",
+      "songId": "kingdom-3rd-season-op-2-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2021-summer",
+        "2021-fall"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://kingdom-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/kingdom_3rd_season",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://kingdom-anime.com/discography/detail.php?id=1019003&season=4",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%80%85%E5%A4%A9%E4%B8%8B",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_Kingdom_%28Japanese_TV_series%29_episodes",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "BiSH",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://kingdom-anime.com/discography/detail.php?id=1019003&season=4"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kingdom-3rd-season-op-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://kingdom-anime.com/discography/detail.php?id=1019003&season=4"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kingdom-3rd-season-op-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%80%85%E5%A4%A9%E4%B8%8B"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kingdom-3rd-season-op-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%80%85%E5%A4%A9%E4%B8%8B"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kingdom-3rd-season-op-2"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links",
+            "official_video",
+            "lyrics",
+            "composition",
+            "arrangement"
+          ],
+          "note": "第三系列本曲原名、歌唱與OP／ED用途已核；逐話原播日期區分停播與續播後的使用季度，創作署名等可選欄位待補。",
+          "resumeWhen": "待權利方提供本曲尚缺的直接創作署名、可識別音源規格、官方影片、發行收錄及正版平台資料後補齊相應欄位；不由商品或影片數量推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "Deep inside",
+      "artistDisplayName": "waterweed",
+      "id": "kingdom-3rd-season-ed-1",
+      "songId": "kingdom-3rd-season-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring",
+        "2021-spring"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://kingdom-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/kingdom_3rd_season",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://kingdom-anime.com/discography/detail.php?id=1019003&season=4",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.nhk-ep.co.jp/wp-content/uploads/2020/04/Newsletter202004-05.pdf",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%80%85%E5%A4%A9%E4%B8%8B",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_Kingdom_%28Japanese_TV_series%29_episodes",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "waterweed",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://kingdom-anime.com/discography/detail.php?id=1019003&season=4"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kingdom-3rd-season-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.nhk-ep.co.jp/wp-content/uploads/2020/04/Newsletter202004-05.pdf"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kingdom-3rd-season-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://kingdom-anime.com/discography/detail.php?id=1019003&season=4"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kingdom-3rd-season-ed-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.nhk-ep.co.jp/wp-content/uploads/2020/04/Newsletter202004-05.pdf"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kingdom-3rd-season-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%80%85%E5%A4%A9%E4%B8%8B"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kingdom-3rd-season-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%80%85%E5%A4%A9%E4%B8%8B"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kingdom-3rd-season-ed-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links",
+            "official_video",
+            "lyrics",
+            "composition",
+            "arrangement"
+          ],
+          "note": "第三系列本曲原名、歌唱與OP／ED用途已核；逐話原播日期區分停播與續播後的使用季度，創作署名等可選欄位待補。",
+          "resumeWhen": "待權利方提供本曲尚缺的直接創作署名、可識別音源規格、官方影片、發行收錄及正版平台資料後補齊相應欄位；不由商品或影片數量推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "kIng",
+      "artistDisplayName": "鈴木瑛美子",
+      "id": "kingdom-3rd-season-ed-2",
+      "songId": "kingdom-3rd-season-ed-2-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2021-summer",
+        "2021-fall"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://kingdom-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/kingdom_3rd_season",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://kingdom-anime.com/discography/detail.php?id=1019003&season=4",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%80%85%E5%A4%A9%E4%B8%8B",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_Kingdom_%28Japanese_TV_series%29_episodes",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "鈴木瑛美子",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://kingdom-anime.com/discography/detail.php?id=1019003&season=4"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kingdom-3rd-season-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://kingdom-anime.com/discography/detail.php?id=1019003&season=4"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kingdom-3rd-season-ed-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%80%85%E5%A4%A9%E4%B8%8B"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kingdom-3rd-season-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%80%85%E5%A4%A9%E4%B8%8B"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kingdom-3rd-season-ed-2"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links",
+            "official_video",
+            "lyrics",
+            "composition",
+            "arrangement"
+          ],
+          "note": "第三系列本曲原名、歌唱與OP／ED用途已核；逐話原播日期區分停播與續播後的使用季度，創作署名等可選欄位待補。",
+          "resumeWhen": "待權利方提供本曲尚缺的直接創作署名、可識別音源規格、官方影片、發行收錄及正版平台資料後補齊相應欄位；不由商品或影片數量推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://www.nhk-ep.co.jp/wp-content/uploads/2020/04/Newsletter202004-05.pdf",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_Kingdom_%28Japanese_TV_series%29_episodes",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "en",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "editorialWeekday": 1,
+  "broadcastTimeJst": "00:15",
+  "seasonIds": [
+    "2020-spring",
+    "2021-spring",
+    "2021-summer",
+    "2021-fall"
+  ]
+}),
   spring2020Seed({
     anilistId: 115199,
     slug: "poccolies",
@@ -12693,253 +15135,2056 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
     ],
   }),
   spring2020Seed({
-    anilistId: 116248,
-    slug: "garugaku-sei-girls-square-gakuin",
-    startDate: "2020-04-06",
-    titleJa: "ガル学。〜聖ガールズスクエア学院〜",
-    titleZhHant: "女學。～聖女斯克威爾學院～",
-    titleRomaji: "Garugaku.: Sei Girls Square Gakuin",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116248-xpAfte1Hy4qm.jpg",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl: "https://garugaku.com/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/400",
-      "https://acgsecrets.hk/bangumi/202004/",
-    ],
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "センチメートル",
-        artistDisplayName: "Girls²",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "サクラ道！",
-        artistDisplayName: "east²",
-      },
-      {
-        type: "ED",
-        sequence: 2,
-        titleJa: "Shining You, Shining Me ～夢のチカラで～",
-        artistDisplayName: "south²",
-      },
-      {
-        type: "ED",
-        sequence: 3,
-        titleJa: "ワチャ×2",
-        artistDisplayName: "west²",
-      },
-      {
-        type: "ED",
-        sequence: 4,
-        titleJa: "セーノでGo！",
-        artistDisplayName: "east²",
-      },
-      {
-        type: "ED",
-        sequence: 5,
-        titleJa: "オールOK！",
-        artistDisplayName: "east²",
-      },
-      {
-        type: "ED",
-        sequence: 6,
-        titleJa: "ねっ！",
-        artistDisplayName: "east²",
-      },
-      {
-        type: "ED",
-        sequence: 7,
-        titleJa: "愛×2",
-        artistDisplayName: "west²",
-      },
-      {
-        type: "ED",
-        sequence: 8,
-        titleJa: "サ×3 サイコー",
-        artistDisplayName: "west²",
-      },
-      {
-        type: "ED",
-        sequence: 9,
-        titleJa: "Never Give Up 〜うつむかず顔を上へあげて〜",
-        artistDisplayName: "south²",
-      },
-      {
-        type: "ED",
-        sequence: 10,
-        titleJa: "ありがとう 〜ひとことあなたに〜",
-        artistDisplayName: "south²",
-      },
-      {
-        type: "ED",
-        sequence: 11,
-        titleJa: "Shine！",
-        artistDisplayName: "east²",
-      },
-      {
-        type: "ED",
-        sequence: 12,
-        titleJa: "Holy Magic 〜大人になっても解けない魔法〜",
-        artistDisplayName: "south²",
-      },
-      {
-        type: "ED",
-        sequence: 13,
-        titleJa: "ワキ アイ×2",
-        artistDisplayName: "west²",
-      },
-      {
-        type: "ED",
-        sequence: 14,
-        titleJa: "Congratulations 〜新しい夢の扉〜",
-        artistDisplayName: "south²",
-      },
-      {
-        type: "ED",
-        sequence: 15,
-        titleJa: "つなぐ！",
-        artistDisplayName: "east²",
-      },
-      {
-        type: "ED",
-        sequence: 16,
-        titleJa: "ツナグツナグ",
-        artistDisplayName: "Girls²",
-      },
-    ],
-  }),
+  "anilistId": 116248,
+  "slug": "garugaku-sei-girls-square-gakuin",
+  "startDate": "2020-04-06",
+  "titleJa": "ガル学。〜聖ガールズスクエア学院〜",
+  "titleZhHant": "女學。～聖女斯克威爾學院～",
+  "titleRomaji": "Garugaku.: Sei Girls Square Gakuin",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116248-xpAfte1Hy4qm.jpg",
+  "broadcastLabel": "日本首播／時間未整理",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/400",
+    "https://acgsecrets.hk/bangumi/202004/"
+  ],
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "センチメートル",
+      "artistDisplayName": "Girls²",
+      "sources": [
+        {
+          "label": "公開歌曲資料：用途與演唱者交叉核對",
+          "url": "https://anison.online/anime/886",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "Girls² Official YouTube Channel 官方影片",
+          "url": "https://www.youtube.com/watch?v=kx-NeOXxIZc",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "原期作品識別／非逐曲身分用途證據",
+          "url": "https://www.ohast.jp/info/200303.php",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "links": [],
+      "sourceMode": "explicit"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "サクラ道！",
+      "artistDisplayName": "east²",
+      "sources": [
+        {
+          "label": "公開歌曲資料：用途與演唱者交叉核對",
+          "url": "https://anison.online/anime/886",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "Girls² Official YouTube Channel 官方影片",
+          "url": "https://www.youtube.com/watch?v=5IbpPNsBLac",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "原期作品識別／非逐曲身分用途證據",
+          "url": "https://www.ohast.jp/info/200303.php",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "links": [],
+      "sourceMode": "explicit"
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "Shining You, Shining Me ～夢のチカラで～",
+      "artistDisplayName": "south²",
+      "sources": [
+        {
+          "label": "公開歌曲資料：用途與演唱者交叉核對",
+          "url": "https://anison.online/anime/886",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "原期作品識別／非逐曲身分用途證據",
+          "url": "https://www.ohast.jp/info/200303.php",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "links": [],
+      "sourceMode": "explicit"
+    },
+    {
+      "type": "ED",
+      "sequence": 3,
+      "titleJa": "ワチャ×2",
+      "artistDisplayName": "west²",
+      "sources": [
+        {
+          "label": "公開歌曲資料：用途與演唱者交叉核對",
+          "url": "https://anison.online/anime/886",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "Girls² Official YouTube Channel 官方影片",
+          "url": "https://www.youtube.com/watch?v=9zSRpXk74i4",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "原期作品識別／非逐曲身分用途證據",
+          "url": "https://www.ohast.jp/info/200303.php",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "links": [],
+      "sourceMode": "explicit"
+    },
+    {
+      "type": "ED",
+      "sequence": 4,
+      "titleJa": "セーノでGo！",
+      "artistDisplayName": "east²",
+      "sources": [
+        {
+          "label": "公開歌曲資料：用途與演唱者交叉核對",
+          "url": "https://anison.online/anime/886",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "原期作品識別／非逐曲身分用途證據",
+          "url": "https://www.ohast.jp/info/200303.php",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "links": [],
+      "sourceMode": "explicit"
+    },
+    {
+      "type": "ED",
+      "sequence": 5,
+      "titleJa": "オールOK！",
+      "artistDisplayName": "east²",
+      "sources": [
+        {
+          "label": "公開歌曲資料：用途與演唱者交叉核對",
+          "url": "https://anison.online/anime/886",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "原期作品識別／非逐曲身分用途證據",
+          "url": "https://www.ohast.jp/info/200303.php",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "links": [],
+      "sourceMode": "explicit"
+    },
+    {
+      "type": "ED",
+      "sequence": 6,
+      "titleJa": "ねっ！",
+      "artistDisplayName": "east²",
+      "sources": [
+        {
+          "label": "公開歌曲資料：用途與演唱者交叉核對",
+          "url": "https://anison.online/anime/886",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "原期作品識別／非逐曲身分用途證據",
+          "url": "https://www.ohast.jp/info/200303.php",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "links": [],
+      "sourceMode": "explicit"
+    },
+    {
+      "type": "ED",
+      "sequence": 7,
+      "titleJa": "愛×2",
+      "artistDisplayName": "west²",
+      "sources": [
+        {
+          "label": "公開歌曲資料：用途與演唱者交叉核對",
+          "url": "https://anison.online/anime/886",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "原期作品識別／非逐曲身分用途證據",
+          "url": "https://www.ohast.jp/info/200303.php",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "links": [],
+      "sourceMode": "explicit"
+    },
+    {
+      "type": "ED",
+      "sequence": 8,
+      "titleJa": "サ×3 サイコー",
+      "artistDisplayName": "west²",
+      "sources": [
+        {
+          "label": "公開歌曲資料：用途與演唱者交叉核對",
+          "url": "https://anison.online/anime/886",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "原期作品識別／非逐曲身分用途證據",
+          "url": "https://www.ohast.jp/info/200303.php",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "links": [],
+      "sourceMode": "explicit"
+    },
+    {
+      "type": "ED",
+      "sequence": 9,
+      "titleJa": "Never Give Up 〜うつむかず顔を上へあげて〜",
+      "artistDisplayName": "south²",
+      "sources": [
+        {
+          "label": "公開歌曲資料：用途與演唱者交叉核對",
+          "url": "https://anison.online/anime/886",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "原期作品識別／非逐曲身分用途證據",
+          "url": "https://www.ohast.jp/info/200303.php",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "links": [],
+      "sourceMode": "explicit"
+    },
+    {
+      "type": "ED",
+      "sequence": 10,
+      "titleJa": "ありがとう 〜ひとことあなたに〜",
+      "artistDisplayName": "south²",
+      "sources": [
+        {
+          "label": "公開歌曲資料：用途與演唱者交叉核對",
+          "url": "https://anison.online/anime/886",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "原期作品識別／非逐曲身分用途證據",
+          "url": "https://www.ohast.jp/info/200303.php",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "links": [],
+      "sourceMode": "explicit"
+    },
+    {
+      "type": "ED",
+      "sequence": 11,
+      "titleJa": "Shine！",
+      "artistDisplayName": "east²",
+      "sources": [
+        {
+          "label": "公開歌曲資料：用途與演唱者交叉核對",
+          "url": "https://anison.online/anime/886",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "Girls² Official YouTube Channel 官方影片",
+          "url": "https://www.youtube.com/watch?v=U8IrD0EBcQg",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "原期作品識別／非逐曲身分用途證據",
+          "url": "https://www.ohast.jp/info/200303.php",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "links": [],
+      "sourceMode": "explicit"
+    },
+    {
+      "type": "ED",
+      "sequence": 12,
+      "titleJa": "Holy Magic 〜大人になっても解けない魔法〜",
+      "artistDisplayName": "south²",
+      "sources": [
+        {
+          "label": "公開歌曲資料：用途與演唱者交叉核對",
+          "url": "https://anison.online/anime/886",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "原期作品識別／非逐曲身分用途證據",
+          "url": "https://www.ohast.jp/info/200303.php",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "links": [],
+      "sourceMode": "explicit"
+    },
+    {
+      "type": "ED",
+      "sequence": 13,
+      "titleJa": "ワキ アイ×2",
+      "artistDisplayName": "west²",
+      "sources": [
+        {
+          "label": "公開歌曲資料：用途與演唱者交叉核對",
+          "url": "https://anison.online/anime/886",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "原期作品識別／非逐曲身分用途證據",
+          "url": "https://www.ohast.jp/info/200303.php",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "links": [],
+      "sourceMode": "explicit"
+    },
+    {
+      "type": "ED",
+      "sequence": 14,
+      "titleJa": "Congratulations 〜新しい夢の扉〜",
+      "artistDisplayName": "south²",
+      "sources": [
+        {
+          "label": "公開歌曲資料：用途與演唱者交叉核對",
+          "url": "https://anison.online/anime/886",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "Girls² Official YouTube Channel 官方影片",
+          "url": "https://www.youtube.com/watch?v=bcgWhtCYhss",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "原期作品識別／非逐曲身分用途證據",
+          "url": "https://www.ohast.jp/info/200303.php",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "links": [],
+      "sourceMode": "explicit"
+    },
+    {
+      "type": "ED",
+      "sequence": 15,
+      "titleJa": "つなぐ！",
+      "artistDisplayName": "east²",
+      "sources": [
+        {
+          "label": "公開歌曲資料：用途與演唱者交叉核對",
+          "url": "https://anison.online/anime/886",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "原期作品識別／非逐曲身分用途證據",
+          "url": "https://www.ohast.jp/info/200303.php",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "links": [],
+      "sourceMode": "explicit"
+    },
+    {
+      "type": "ED",
+      "sequence": 16,
+      "titleJa": "ツナグツナグ",
+      "artistDisplayName": "Girls²",
+      "sources": [
+        {
+          "label": "公開歌曲資料：用途與演唱者交叉核對",
+          "url": "https://anison.online/anime/886",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "Girls² Official YouTube Channel 官方影片",
+          "url": "https://www.youtube.com/watch?v=yVApjb-iH1Q",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "原期作品識別／非逐曲身分用途證據",
+          "url": "https://www.ohast.jp/info/200303.php",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "links": [],
+      "sourceMode": "explicit"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "label": "原期作品識別／非逐曲身分用途證據",
+      "url": "https://www.ohast.jp/info/200303.php",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-24"
+    }
+  ]
+}),
   spring2020Seed({
-    anilistId: 107871,
-    slug: "princess-connect-redive",
-    startDate: "2020-04-07",
-    titleJa: "プリンセスコネクト！Re:Dive",
-    titleZhHant: "超異域公主連結！Re:Dive",
-    titleRomaji: "Princess Connect! Re:Dive",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107871-ZOh7oeDd0kq9.png",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/107871-Pfc2rj2u8177.jpg",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl: "https://anime.priconne-redive.jp/archive/1st/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/115",
-      "https://acgsecrets.hk/bangumi/202004/",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/princess_connect_redive",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "Lost Princess",
-        artistDisplayName:
-          "ペコリーヌ (CV.M・A・O)、コッコロ (CV.伊藤美来)、キャル (CV.立花理香)",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "それでもともに歩いていく",
-        artistDisplayName:
-          "ペコリーヌ (CV.M・A・O)、コッコロ (CV.伊藤美来)、キャル (CV.立花理香)",
-      },
-      {
-        type: "ED",
-        sequence: 2,
-        titleJa: "Connecting Happy!!",
-        artistDisplayName:
-          "ペコリーヌ (CV.M・A・O)、コッコロ (CV.伊藤美来)、キャル (CV.立花理香)",
-      },
-    ],
-  }),
+  "anilistId": 107871,
+  "slug": "princess-connect-redive",
+  "startDate": "2020-04-07",
+  "titleJa": "プリンセスコネクト！Re:Dive",
+  "titleZhHant": "超異域公主連結！Re:Dive",
+  "titleRomaji": "Princess Connect! Re:Dive",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107871-ZOh7oeDd0kq9.png",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/107871-Pfc2rj2u8177.jpg",
+  "broadcastLabel": "TOKYO MX 原期初回",
+  "officialSiteUrl": "https://anime.priconne-redive.jp/archive/1st/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/115",
+    "https://acgsecrets.hk/bangumi/202004/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/princess_connect_redive",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "Lost Princess",
+      "artistDisplayName": "ペコリーヌ (CV.M・A・O)、コッコロ (CV.伊藤美来)、キャル (CV.立花理香)",
+      "id": "princess-connect-redive-op-1",
+      "songId": "princess-connect-redive-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://anime.priconne-redive.jp/archive/1st/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/princess_connect_redive",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "プリンセスコネクト!Re:Dive チャンネル 官方影片",
+          "url": "https://www.youtube.com/watch?v=ti4UkmHI94M",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://columbia.jp/prod-info/COCC-17763/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E8%B6%85%E7%95%B0%E5%9F%9F%E5%85%AC%E4%B8%BB%E9%80%A3%E7%B5%90%E2%98%86Re:Dive",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "ペコリーヌ (CV.M・A・O)、コッコロ (CV.伊藤美来)、キャル (CV.立花理香)",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCC-17763/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "princess-connect-redive-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCC-17763/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "princess-connect-redive-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E8%B6%85%E7%95%B0%E5%9F%9F%E5%85%AC%E4%B8%BB%E9%80%A3%E7%B5%90%E2%98%86Re:Dive"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "princess-connect-redive-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E8%B6%85%E7%95%B0%E5%9F%9F%E5%85%AC%E4%B8%BB%E9%80%A3%E7%B5%90%E2%98%86Re:Dive"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "princess-connect-redive-op-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期歌曲身分、用途與逐曲季度已核；未新增個別歌唱或音源版本。",
+          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "それでもともに歩いていく",
+      "artistDisplayName": "ペコリーヌ (CV.M・A・O)、コッコロ (CV.伊藤美来)、キャル (CV.立花理香)",
+      "id": "princess-connect-redive-ed-1",
+      "songId": "princess-connect-redive-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://anime.priconne-redive.jp/archive/1st/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/princess_connect_redive",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "プリンセスコネクト!Re:Dive チャンネル 官方影片",
+          "url": "https://www.youtube.com/watch?v=Ldw0DCsTt6U",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://columbia.jp/prod-info/COCC-17763/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E8%B6%85%E7%95%B0%E5%9F%9F%E5%85%AC%E4%B8%BB%E9%80%A3%E7%B5%90%E2%98%86Re:Dive",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "ペコリーヌ (CV.M・A・O)、コッコロ (CV.伊藤美来)、キャル (CV.立花理香)",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCC-17763/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "princess-connect-redive-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCC-17763/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "princess-connect-redive-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E8%B6%85%E7%95%B0%E5%9F%9F%E5%85%AC%E4%B8%BB%E9%80%A3%E7%B5%90%E2%98%86Re:Dive"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "princess-connect-redive-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E8%B6%85%E7%95%B0%E5%9F%9F%E5%85%AC%E4%B8%BB%E9%80%A3%E7%B5%90%E2%98%86Re:Dive"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "princess-connect-redive-ed-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期歌曲身分、用途與逐曲季度已核；未新增個別歌唱或音源版本。",
+          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "Connecting Happy!!",
+      "artistDisplayName": "ペコリーヌ (CV.M・A・O)、コッコロ (CV.伊藤美来)、キャル (CV.立花理香)",
+      "id": "princess-connect-redive-ed-2",
+      "songId": "princess-connect-redive-ed-2-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://anime.priconne-redive.jp/archive/1st/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/princess_connect_redive",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "プリンセスコネクト!Re:Dive チャンネル 官方影片",
+          "url": "https://www.youtube.com/watch?v=0rcl2mrhmLg",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        }
+      ],
+      "credits": [
+        {
+          "name": "ペコリーヌ (CV.M・A・O)、コッコロ (CV.伊藤美来)、キャル (CV.立花理香)",
+          "role": "vocals"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "既有Connecting Happy!!用途未取得本期逐話第一方證據；保原身份、媒體及ID，季度待核。",
+          "resumeWhen": "待原期官方逐話歌唱credit明本版本實際用途，再合獨立交叉；兩輪後保留，不以商品版本曲目推TV。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-09-02"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://anime.priconne-redive.jp/archive/1st/news/detail_id0014.html",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E8%B6%85%E7%95%B0%E5%9F%9F%E5%85%AC%E4%B8%BB%E9%80%A3%E7%B5%90%E2%98%86Re:Dive",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "editorialWeekday": 2,
+  "broadcastTimeJst": "00:30",
+  "seasonIds": [
+    "2020-spring"
+  ]
+}),
   spring2020Seed({
-    anilistId: 109019,
-    slug: "houkago-teibou-nisshi",
-    startDate: "2020-04-07",
-    titleJa: "放課後ていぼう日誌",
-    titleZhHant: "放學後堤防日誌",
-    titleRomaji: "Houkago Teibou Nisshi",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109019-xlrVQRdo1EQi.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/109019-CI5tlvudZ3zS.jpg",
-    broadcastLabel: "日本首播／受疫情影響曾延期或停播",
-    officialSiteUrl: "https://teibotv.com/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/367",
-      "https://acgsecrets.hk/bangumi/202004/",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/houkago_teibou_nisshi",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "SEA HORIZON",
-        artistDisplayName:
-          "海野高校ていぼう部（高尾奏音、川井田夏海、篠原侑、明坂聡美）",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "釣りの世界へ",
-        artistDisplayName:
-          "海野高校ていぼう部（高尾奏音、川井田夏海、篠原侑、明坂聡美）",
-      },
-    ],
-  }),
+  "anilistId": 109019,
+  "slug": "houkago-teibou-nisshi",
+  "startDate": "2020-04-07",
+  "titleJa": "放課後ていぼう日誌",
+  "titleZhHant": "放學後堤防日誌",
+  "titleRomaji": "Houkago Teibou Nisshi",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109019-xlrVQRdo1EQi.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/109019-CI5tlvudZ3zS.jpg",
+  "broadcastLabel": "日本首播／受疫情影響曾延期或停播",
+  "officialSiteUrl": "https://teibotv.com/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/367",
+    "https://acgsecrets.hk/bangumi/202004/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/houkago_teibou_nisshi",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "SEA HORIZON",
+      "artistDisplayName": "海野高校ていぼう部（高尾奏音、川井田夏海、篠原侑、明坂聡美）",
+      "id": "houkago-teibou-nisshi-op-1",
+      "songId": "houkago-teibou-nisshi-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring",
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://teibotv.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/houkago_teibou_nisshi",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026685/VTCL-35318.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://teibotv.com/music.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://teibotv.com/news.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%94%BE%E5%AD%B8%E5%BE%8C%E5%A0%A4%E9%98%B2%E6%97%A5%E8%AA%8C",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "海野高校ていぼう部（高尾奏音、川井田夏海、篠原侑、明坂聡美）",
+          "role": "vocals"
+        },
+        {
+          "name": "深川琴美",
+          "role": "lyrics"
+        },
+        {
+          "name": "ZAI-ON",
+          "role": "composition"
+        },
+        {
+          "name": "ZAI-ON",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026685/VTCL-35318.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "houkago-teibou-nisshi-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://teibotv.com/music.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "houkago-teibou-nisshi-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://teibotv.com/news.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "houkago-teibou-nisshi-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026685/VTCL-35318.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "houkago-teibou-nisshi-op-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://teibotv.com/music.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "houkago-teibou-nisshi-op-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://teibotv.com/news.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "houkago-teibou-nisshi-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%94%BE%E5%AD%B8%E5%BE%8C%E5%A0%A4%E9%98%B2%E6%97%A5%E8%AA%8C"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "houkago-teibou-nisshi-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%94%BE%E5%AD%B8%E5%BE%8C%E5%A0%A4%E9%98%B2%E6%97%A5%E8%AA%8C"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "houkago-teibou-nisshi-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026685/VTCL-35318.html"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期歌曲身分、用途與逐曲季度已核；未新增個別歌唱或音源版本。",
+          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "釣りの世界へ",
+      "artistDisplayName": "海野高校ていぼう部（高尾奏音、川井田夏海、篠原侑、明坂聡美）",
+      "id": "houkago-teibou-nisshi-ed-1",
+      "songId": "houkago-teibou-nisshi-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring",
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://teibotv.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/houkago_teibou_nisshi",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026685/VTCL-35318.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://teibotv.com/music.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://teibotv.com/news.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%94%BE%E5%AD%B8%E5%BE%8C%E5%A0%A4%E9%98%B2%E6%97%A5%E8%AA%8C",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "海野高校ていぼう部（高尾奏音、川井田夏海、篠原侑、明坂聡美）",
+          "role": "vocals"
+        },
+        {
+          "name": "山田裕介",
+          "role": "lyrics"
+        },
+        {
+          "name": "ZAI-ON",
+          "role": "composition"
+        },
+        {
+          "name": "ZAI-ON",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026685/VTCL-35318.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "houkago-teibou-nisshi-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://teibotv.com/music.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "houkago-teibou-nisshi-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://teibotv.com/news.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "houkago-teibou-nisshi-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026685/VTCL-35318.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "houkago-teibou-nisshi-ed-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://teibotv.com/music.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "houkago-teibou-nisshi-ed-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://teibotv.com/news.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "houkago-teibou-nisshi-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%94%BE%E5%AD%B8%E5%BE%8C%E5%A0%A4%E9%98%B2%E6%97%A5%E8%AA%8C"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "houkago-teibou-nisshi-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%94%BE%E5%AD%B8%E5%BE%8C%E5%A0%A4%E9%98%B2%E6%97%A5%E8%AA%8C"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "houkago-teibou-nisshi-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026685/VTCL-35318.html"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期歌曲身分、用途與逐曲季度已核；未新增個別歌唱或音源版本。",
+          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [],
+  "seasonIds": [
+    "2020-spring",
+    "2020-summer"
+  ]
+}),
   spring2020Seed({
-    anilistId: 111762,
-    slug: "fruits-basket-2nd-season",
-    startDate: "2020-04-07",
-    titleJa: "フルーツバスケット 2nd Season",
-    titleZhHant: "魔法水果籃 第二季",
-    titleRomaji: "Fruits Basket: 2nd Season",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111762-C8TNf5uRlVNQ.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/111762-VvlNooo9xZa4.jpg",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl: "https://fruba.jp/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/114",
-      "https://acgsecrets.hk/bangumi/202004/",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/fruits_basket_2nd_season",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "プリズム",
-        artistDisplayName: "AmPm feat. みゆな",
-      },
-      {
-        type: "OP",
-        sequence: 2,
-        titleJa: "HOME",
-        artistDisplayName: "土岐麻子",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "ad meliora",
-        artistDisplayName: "THE CHARM PARK",
-      },
-      {
-        type: "ED",
-        sequence: 2,
-        titleJa: "馳せろ未来",
-        artistDisplayName: "ウタ・アリィ",
-      },
-      {
-        type: "ED",
-        sequence: 3,
-        titleJa: "Eden",
-        artistDisplayName: "MONKEY MAJIK",
-      },
-    ],
-  }),
+  "anilistId": 111762,
+  "slug": "fruits-basket-2nd-season",
+  "startDate": "2020-04-07",
+  "titleJa": "フルーツバスケット 2nd Season",
+  "titleZhHant": "魔法水果籃 第二季",
+  "titleRomaji": "Fruits Basket: 2nd Season",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111762-C8TNf5uRlVNQ.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/111762-VvlNooo9xZa4.jpg",
+  "broadcastLabel": "テレビ東京 原2nd初回",
+  "officialSiteUrl": "https://fruba.jp/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/114",
+    "https://acgsecrets.hk/bangumi/202004/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/fruits_basket_2nd_season",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "プリズム",
+      "artistDisplayName": "AmPm feat. みゆな",
+      "id": "fruits-basket-2nd-season-op-1",
+      "songId": "fruits-basket-2nd-season-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "label": "《魔法水果籃 第二季》第一方歌曲資料：曲名與演唱者",
+          "url": "https://fruba.jp/blu-ray_dvd_cd/?season=2",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/fruits_basket_2nd_season",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://fruba.jp/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.tms-e.co.jp/alltitles/2020s/745102.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E6%B0%B4%E6%9E%9C%E7%B1%83",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "AmPm feat. みゆな",
+          "role": "vocals"
+        },
+        {
+          "name": "みゆな",
+          "role": "lyrics"
+        },
+        {
+          "name": "AmPm",
+          "role": "composition"
+        },
+        {
+          "name": "Kris Roche",
+          "role": "composition"
+        },
+        {
+          "name": "Yoshinori Ito",
+          "role": "composition"
+        },
+        {
+          "name": "AmPm",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tms-e.co.jp/alltitles/2020s/745102.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "fruits-basket-2nd-season-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tms-e.co.jp/alltitles/2020s/745102.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "fruits-basket-2nd-season-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E6%B0%B4%E6%9E%9C%E7%B1%83"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "fruits-basket-2nd-season-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E6%B0%B4%E6%9E%9C%E7%B1%83"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "fruits-basket-2nd-season-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.tms-e.co.jp/alltitles/2020s/745102.html"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期歌曲身分、用途與逐曲季度已核；未新增個別歌唱或音源版本。",
+          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "OP",
+      "sequence": 2,
+      "titleJa": "HOME",
+      "artistDisplayName": "土岐麻子",
+      "id": "fruits-basket-2nd-season-op-2",
+      "songId": "fruits-basket-2nd-season-op-2-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "《魔法水果籃 第二季》第一方歌曲資料：曲名與演唱者",
+          "url": "https://fruba.jp/blu-ray_dvd_cd/?season=2",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/fruits_basket_2nd_season",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://fruba.jp/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.tms-e.co.jp/alltitles/2020s/745102.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E6%B0%B4%E6%9E%9C%E7%B1%83",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "土岐麻子",
+          "role": "vocals"
+        },
+        {
+          "name": "土岐麻子",
+          "role": "lyrics"
+        },
+        {
+          "name": "トオミヨウ",
+          "role": "composition"
+        },
+        {
+          "name": "トオミヨウ",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tms-e.co.jp/alltitles/2020s/745102.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "fruits-basket-2nd-season-op-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tms-e.co.jp/alltitles/2020s/745102.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "fruits-basket-2nd-season-op-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E6%B0%B4%E6%9E%9C%E7%B1%83"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "fruits-basket-2nd-season-op-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E6%B0%B4%E6%9E%9C%E7%B1%83"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "fruits-basket-2nd-season-op-2"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.tms-e.co.jp/alltitles/2020s/745102.html"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期歌曲身分、用途與逐曲季度已核；未新增個別歌唱或音源版本。",
+          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "ad meliora",
+      "artistDisplayName": "THE CHARM PARK",
+      "id": "fruits-basket-2nd-season-ed-1",
+      "songId": "fruits-basket-2nd-season-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "label": "《魔法水果籃 第二季》第一方歌曲資料：曲名與演唱者",
+          "url": "https://fruba.jp/blu-ray_dvd_cd/?season=2",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/fruits_basket_2nd_season",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://fruba.jp/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.tms-e.co.jp/alltitles/2020s/745102.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://fruba.jp/news/detail.php?id=1084108",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E6%B0%B4%E6%9E%9C%E7%B1%83",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "THE CHARM PARK",
+          "role": "vocals"
+        },
+        {
+          "name": "THE CHARM PARK",
+          "role": "lyrics"
+        },
+        {
+          "name": "fifi léger",
+          "role": "lyrics"
+        },
+        {
+          "name": "THE CHARM PARK",
+          "role": "composition"
+        },
+        {
+          "name": "THE CHARM PARK",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tms-e.co.jp/alltitles/2020s/745102.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "fruits-basket-2nd-season-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/news/detail.php?id=1084108"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "fruits-basket-2nd-season-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tms-e.co.jp/alltitles/2020s/745102.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "fruits-basket-2nd-season-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E6%B0%B4%E6%9E%9C%E7%B1%83"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "fruits-basket-2nd-season-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E6%B0%B4%E6%9E%9C%E7%B1%83"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "fruits-basket-2nd-season-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.tms-e.co.jp/alltitles/2020s/745102.html"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "保原TV展示ad meliora；官方2020公告acoustic mix用於BD/後續配信，回顧頁名稱不據以確認原TV音源版本。",
+          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "IN",
+      "sequence": 2,
+      "titleJa": "馳せる未来",
+      "artistDisplayName": "ウタ・アリィ",
+      "id": "fruits-basket-2nd-season-ed-2",
+      "songId": "fruits-basket-2nd-season-ed-2-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring",
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "《魔法水果籃 第二季》第一方歌曲資料：曲名與演唱者",
+          "url": "https://fruba.jp/blu-ray_dvd_cd/?season=2",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/fruits_basket_2nd_season",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://fruba.jp/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://ena0415.com/works",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://note.com/ena_note0415/n/nf04b897ddd00",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E6%B0%B4%E6%9E%9C%E7%B1%83",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.mau2.com/anime/fruitsbasket-r2-2/ep/7",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "ウタ・アリィ",
+          "role": "vocals"
+        },
+        {
+          "name": "ENA☆",
+          "role": "lyrics"
+        },
+        {
+          "name": "横山克",
+          "role": "composition"
+        },
+        {
+          "name": "横山克",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://ena0415.com/works"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "fruits-basket-2nd-season-ed-2-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://note.com/ena_note0415/n/nf04b897ddd00"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "fruits-basket-2nd-season-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://ena0415.com/works"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "fruits-basket-2nd-season-ed-2"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://note.com/ena_note0415/n/nf04b897ddd00"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "fruits-basket-2nd-season-ed-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E6%B0%B4%E6%9E%9C%E7%B1%83"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "fruits-basket-2nd-season-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E6%B0%B4%E6%9E%9C%E7%B1%83"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "fruits-basket-2nd-season-ed-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/fruitsbasket-r2-2/ep/7"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "fruits-basket-2nd-season-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/fruitsbasket-r2-2/ep/7"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "fruits-basket-2nd-season-ed-2"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://note.com/ena_note0415/n/nf04b897ddd00"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原用途保同一ID與序號；直接官方本曲插曲及逐話交叉支持用途更正，無新歌曲或錄音。",
+          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 3,
+      "titleJa": "Eden",
+      "artistDisplayName": "MONKEY MAJIK",
+      "id": "fruits-basket-2nd-season-ed-3",
+      "songId": "fruits-basket-2nd-season-ed-3-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "《魔法水果籃 第二季》第一方歌曲資料：曲名與演唱者",
+          "url": "https://fruba.jp/blu-ray_dvd_cd/?season=2",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/fruits_basket_2nd_season",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://fruba.jp/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.tms-e.co.jp/alltitles/2020s/745102.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E6%B0%B4%E6%9E%9C%E7%B1%83",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "MONKEY MAJIK",
+          "role": "vocals"
+        },
+        {
+          "name": "Maynard",
+          "role": "lyrics"
+        },
+        {
+          "name": "Blaise",
+          "role": "lyrics"
+        },
+        {
+          "name": "TAX",
+          "role": "lyrics"
+        },
+        {
+          "name": "Maynard",
+          "role": "composition"
+        },
+        {
+          "name": "Blaise",
+          "role": "composition"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tms-e.co.jp/alltitles/2020s/745102.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "fruits-basket-2nd-season-ed-3-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tms-e.co.jp/alltitles/2020s/745102.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "fruits-basket-2nd-season-ed-3"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E6%B0%B4%E6%9E%9C%E7%B1%83"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "fruits-basket-2nd-season-ed-3-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E6%B0%B4%E6%9E%9C%E7%B1%83"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "fruits-basket-2nd-season-ed-3"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.tms-e.co.jp/alltitles/2020s/745102.html"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期歌曲身分、用途與逐曲季度已核；未新增個別歌唱或音源版本。",
+          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://www.tv-tokyo.co.jp/anime/fruba2/onair/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E6%B0%B4%E6%9E%9C%E7%B1%83",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "editorialWeekday": 2,
+  "broadcastTimeJst": "01:30",
+  "seasonIds": [
+    "2020-spring",
+    "2020-summer"
+  ]
+}),
   spring2020Seed({
     anilistId: 112325,
     slug: "shadowverse",
