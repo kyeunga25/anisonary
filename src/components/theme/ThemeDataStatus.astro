@@ -17,7 +17,7 @@ const rows = [
   <h4>資料狀態 <span lang="en">Data status</span></h4>
   <p class="theme-data-status__basic">基本資料：{status.basic === "field_evidence_recorded"
     ? `曲名、演唱名義與用途的第一方／交叉欄位證據已登記（${status.basicVerifiedAt}）`
-    : "第一方／交叉來源已登記，逐欄證據待細分"}</p>
+    : "來源已登記，逐欄證據待細分"}</p>
   <dl>{rows.map(([label, value]) => <div><dt>{label}</dt><dd>{value}</dd></div>)}</dl>
   {status.pendingFields.length > 0 && <p class="theme-data-status__pending"><strong>待補／待確認：</strong>{status.pendingFields.map((field) => themeDataFieldLabels[field]).join("、")}</p>}
   {status.followUp && <ul aria-label="續查條件">{status.followUp.map((gap) => <li>

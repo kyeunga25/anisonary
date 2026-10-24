@@ -484,6 +484,16 @@ function parseThemeDataStatus(value: unknown, theme: PublicTheme): PublicThemeDa
   return expected;
 }
 
+function hasUnverifiedUseSourceGap(theme: PublicTheme): boolean {
+  return theme.seasonIds?.length === 0
+    && theme.dataStatus?.basic === "sources_recorded"
+    && theme.dataStatus.basicVerifiedAt === undefined
+    && theme.dataStatus.pendingFields.includes("basic_evidence")
+    && theme.dataStatus.pendingFields.includes("use_quarters")
+    && !!theme.dataStatus.followUp?.some((gap) => gap.fields.includes("basic_evidence") && gap.fields.includes("use_quarters"))
+    && !theme.evidence?.some((evidence) => evidence.target === "anime_use");
+}
+
 function parseTheme(value: unknown): PublicTheme {
   const item = record(value);
   const theme: PublicTheme = {
@@ -507,7 +517,6 @@ function parseTheme(value: unknown): PublicTheme {
   if (
     sourceLabelSet.size !== theme.sourceLabels.length ||
     theme.sourceLabels.some((label) => !sourceLabelSet.has(label)) ||
-    !theme.sources.some((source) => source.role === "first_party") ||
     !theme.sources.some((source) => source.role === "cross_check")
   ) {
     invalidContract();
@@ -547,6 +556,7 @@ function parseTheme(value: unknown): PublicTheme {
   }
   if (item.dataStatus !== undefined) theme.dataStatus = parseThemeDataStatus(item.dataStatus, theme);
   if (theme.seasonIds?.length === 0 && !theme.dataStatus?.followUp?.some((gap) => gap.fields.includes("use_quarters"))) invalidContract();
+  if (!theme.sources.some((source) => source.role === "first_party") && !hasUnverifiedUseSourceGap(theme)) invalidContract();
 
   return theme;
 }
@@ -625,7 +635,8 @@ function parseAnimeDetail(value: unknown): PublicAnimeDetail {
     .map((source) => source.verifiedAt)
     .sort((left, right) => right.localeCompare(left))[0];
   if (
-    !sources.some((source) => source.role === "first_party") ||
+    (!sources.some((source) => source.role === "first_party")
+      && (item.officialSiteUrl !== undefined || themes.length === 0 || !themes.every(hasUnverifiedUseSourceGap))) ||
     !sources.some((source) => source.role !== "first_party") ||
     latestSourceVerification !== verifiedAt
   ) {

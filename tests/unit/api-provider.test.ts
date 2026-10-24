@@ -62,6 +62,48 @@ it("rejects unsafe or inconsistent external API data and bounds failed requests"
     fetch: stalledFetch, timeoutMs: 10
   }).getSeasons()).rejects.toThrow("timed out");
 
+  // An unavailable first-party source must not be retained as evidence.
+  // A complete held-use contract can remain readable without claiming verification.
+  const heldSources = structuredClone(anime);
+  delete heldSources.officialSiteUrl;
+  heldSources.sources = heldSources.sources.filter((source) => source.role !== "first_party");
+  heldSources.verifiedAt = heldSources.sources.map((source) => source.verifiedAt).sort().at(-1)!;
+  heldSources.hasOfficialVideo = false;
+  for (const theme of heldSources.themes) {
+    theme.sources = theme.sources.filter((source) => source.role === "cross_check");
+    theme.sourceLabels = [...new Set(theme.sources.map((source) => source.label))];
+    theme.lastVerifiedAt = theme.sources.map((source) => source.verifiedAt).sort().at(-1)!;
+    theme.seasonIds = [];
+    theme.videos = [];
+    theme.links = [];
+    delete theme.evidence;
+    delete theme.recordings;
+    delete theme.releases;
+    theme.dataStatus = deriveThemeDataStatus(theme, [{
+      fields: ["basic_evidence", "use_quarters"], note: "第一方歌曲用途資料待核。", resumeWhen: "待權利方逐曲用途資料可讀後續核。"
+    }]);
+  }
+  fetchMock.mockImplementation(async () => publicJsonResponse(heldSources));
+  await expect(provider.getAnime(anime.slug)).resolves.toEqual(heldSources);
+  const noFollowUp = structuredClone(heldSources);
+  noFollowUp.themes[0]!.dataStatus = deriveThemeDataStatus(noFollowUp.themes[0]!);
+  const confirmedQuarter = structuredClone(heldSources);
+  confirmedQuarter.themes[0]!.seasonIds = ["2020-winter"];
+  const fabricatedBasic = structuredClone(heldSources);
+  fabricatedBasic.themes[0]!.dataStatus!.basic = "field_evidence_recorded";
+  const crossOnlyUsage = structuredClone(heldSources);
+  crossOnlyUsage.themes[0]!.songId ??= crossOnlyUsage.themes[0]!.id + "-song";
+  crossOnlyUsage.themes[0]!.evidence = [{ target: "anime_use", targetId: crossOnlyUsage.themes[0]!.id,
+    fields: ["usage"], sourceUrls: [crossOnlyUsage.themes[0]!.sources[0]!.url], verifiedAt: crossOnlyUsage.themes[0]!.sources[0]!.verifiedAt }];
+  const noCrossCheck = structuredClone(heldSources);
+  noCrossCheck.themes[0]!.sources = [];
+  noCrossCheck.themes[0]!.sourceLabels = [];
+  for (const payload of [noFollowUp, confirmedQuarter, fabricatedBasic, crossOnlyUsage, noCrossCheck,
+    { ...heldSources, officialSiteUrl: "https://example.com/" }]) {
+    fetchMock.mockImplementation(async () => publicJsonResponse(payload));
+    await expect(provider.getAnime(anime.slug)).rejects.toThrow("invalid anime payload");
+  }
+
   const curated = new CuratedProvider();
   await expect(smokePublicApi({
     getSeasons: () => curated.getSeasons(),
