@@ -8475,69 +8475,534 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
   ]
 }),
   spring2020Seed({
-    anilistId: 108241,
-    slug: "gleipnir",
-    startDate: "2020-04-05",
-    titleJa: "グレイプニル",
-    titleZhHant: "格萊普尼爾",
-    titleRomaji: "Gleipnir",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108241-Mc28QvkdUkfp.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108241-Cbfv8GHRMFoQ.jpg",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl: "https://gleipnir-anime.com/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/218",
-      "https://acgsecrets.hk/bangumi/202004/",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/gleipnir",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "Altern-ate-",
-        artistDisplayName: "H-el-ical//",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "雨と体液と匂い",
-        artistDisplayName: "Mili",
-      },
-    ],
-  }),
+  "anilistId": 108241,
+  "slug": "gleipnir",
+  "startDate": "2020-04-05",
+  "titleJa": "グレイプニル",
+  "titleZhHant": "格萊普尼爾",
+  "titleRomaji": "Gleipnir",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108241-Mc28QvkdUkfp.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108241-Cbfv8GHRMFoQ.jpg",
+  "broadcastLabel": "日本首播／時間未整理",
+  "officialSiteUrl": "https://gleipnir-anime.com/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/218",
+    "https://acgsecrets.hk/bangumi/202004/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/gleipnir",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "Altern-ate-",
+      "artistDisplayName": "H-el-ical//",
+      "id": "gleipnir-op-1",
+      "songId": "gleipnir-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://gleipnir-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/gleipnir",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "NBCUniversal Anime/Music 官方影片",
+          "url": "https://www.youtube.com/watch?v=IRlkL36RCu0",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://nbcuni-music.com/news/index00880000.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%A0%BC%E8%90%8A%E6%99%AE%E5%B0%BC%E7%88%BE_%28%E6%BC%AB%E7%95%AB%29",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "H-el-ical//",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://nbcuni-music.com/news/index00880000.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gleipnir-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://nbcuni-music.com/news/index00880000.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gleipnir-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%A0%BC%E8%90%8A%E6%99%AE%E5%B0%BC%E7%88%BE_%28%E6%BC%AB%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gleipnir-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%A0%BC%E8%90%8A%E6%99%AE%E5%B0%BC%E7%88%BE_%28%E6%BC%AB%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gleipnir-op-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "已核本期片頭原名、正式演唱名義與2020春用途；未取得同頁詞曲編直接署名。",
+          "resumeWhen": "待本曲發行方直接創作署名再補可選欄位，不由團體／計畫介紹推個人歌唱。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "雨と体液と匂い",
+      "artistDisplayName": "Mili",
+      "id": "gleipnir-ed-1",
+      "songId": "gleipnir-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://gleipnir-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/gleipnir",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "Mili 官方影片",
+          "url": "https://www.youtube.com/watch?v=HrkFQAQyFGc",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%A0%BC%E8%90%8A%E6%99%AE%E5%B0%BC%E7%88%BE_%28%E6%BC%AB%E7%95%AB%29",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Mili",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%A0%BC%E8%90%8A%E6%99%AE%E5%B0%BC%E7%88%BE_%28%E6%BC%AB%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gleipnir-ed-1-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "交叉資料載有本期片尾，但直接第一方原文尚不足，暫不登記本期用途與季度。",
+          "resumeWhen": "待原期動畫或Mili發行方可讀普通頁明示本曲片尾用途與正式名義；原官網未讀成功、播映平台地區限制不繞過，兩輪後保留。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://nbcuni-music.com/news/index00880000.html",
+      "label": "發行方動畫作品標題資料",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E6%A0%BC%E8%90%8A%E6%99%AE%E5%B0%BC%E7%88%BE_%28%E6%BC%AB%E7%95%AB%29",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "seasonIds": [
+    "2020-spring"
+  ]
+}),
   spring2020Seed({
-    anilistId: 108266,
-    slug: "tsugu-tsugumomo",
-    startDate: "2020-04-05",
-    titleJa: "継つぐもも",
-    titleZhHant: "繼怪怪守護神",
-    titleRomaji: "Tsugu Tsugumomo",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108266-XIxj8RVcidLX.jpg",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl: "https://tsugumomo.com/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/353",
-      "https://acgsecrets.hk/bangumi/202004/",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/tsugu_tsugumomo",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "風吹けば月夜の果てに",
-        artistDisplayName: "A応P",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "春、奏で",
-        artistDisplayName: "東城陽奏",
-      },
-    ],
-  }),
+  "anilistId": 108266,
+  "slug": "tsugu-tsugumomo",
+  "startDate": "2020-04-05",
+  "titleJa": "継つぐもも",
+  "titleZhHant": "繼怪怪守護神",
+  "titleRomaji": "Tsugu Tsugumomo",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108266-XIxj8RVcidLX.jpg",
+  "broadcastLabel": "2020年4月5日21:30 AT-X原TV首話",
+  "officialSiteUrl": "https://tsugumomo.com/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/353",
+    "https://acgsecrets.hk/bangumi/202004/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/tsugu_tsugumomo",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "風吹けば月夜の果てに",
+      "artistDisplayName": "A応P",
+      "id": "tsugu-tsugumomo-op-1",
+      "songId": "tsugu-tsugumomo-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://tsugumomo.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/tsugu_tsugumomo",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "A応P 官方影片",
+          "url": "https://www.youtube.com/watch?v=6x20QE4cNew",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%80%AA%E6%80%AA%E5%AE%88%E8%AD%B7%E7%A5%9E",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://eiga.com/news/20200131/2/",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "A応P",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%80%AA%E6%80%AA%E5%AE%88%E8%AD%B7%E7%A5%9E"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "tsugu-tsugumomo-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://eiga.com/news/20200131/2/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "tsugu-tsugumomo-op-1-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "獨立交叉頁記有本期片頭原名與正式名義；原官網正文未能讀取，暫不授第一方用途及季度。",
+          "resumeWhen": "待原期動畫或A応P發行方可讀頁直接明示本曲OP及正式名義，維持兩輪後續查；不以既有MV標題或成員名單補證。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "春、奏で",
+      "artistDisplayName": "東城陽奏",
+      "id": "tsugu-tsugumomo-ed-1",
+      "songId": "tsugu-tsugumomo-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://tsugumomo.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/tsugu_tsugumomo",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "東城陽奏 Official YouTube Channel 官方影片",
+          "url": "https://www.youtube.com/watch?v=S-Pu7IqW8II",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://linkco.re/vXPMdpMA?lang=ja",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%80%AA%E6%80%AA%E5%AE%88%E8%AD%B7%E7%A5%9E",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://eiga.com/news/20200131/2/",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.at-x.com/pdf/program/9f53a29e8766dd8ad6b93fb67d926e46.pdf",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "東城陽奏",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://linkco.re/vXPMdpMA?lang=ja"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "tsugu-tsugumomo-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://linkco.re/vXPMdpMA?lang=ja"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "tsugu-tsugumomo-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%80%AA%E6%80%AA%E5%AE%88%E8%AD%B7%E7%A5%9E"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "tsugu-tsugumomo-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%80%AA%E6%80%AA%E5%AE%88%E8%AD%B7%E7%A5%9E"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "tsugu-tsugumomo-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://eiga.com/news/20200131/2/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "tsugu-tsugumomo-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://eiga.com/news/20200131/2/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "tsugu-tsugumomo-ed-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本人發佈於TuneCore的履歷明示本期ED原名與歌唱名義；合原期播出表與獨立交叉核2020春。",
+          "resumeWhen": "待本曲第一方逐曲詞曲編署名再補可選欄位；頁內NEW的詞曲不移用本曲，發行月不代使用季度。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://www.at-x.com/pdf/program/9f53a29e8766dd8ad6b93fb67d926e46.pdf",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E6%80%AA%E6%80%AA%E5%AE%88%E8%AD%B7%E7%A5%9E",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "editorialWeekday": 7,
+  "broadcastTimeJst": "21:30",
+  "seasonIds": [
+    "2020-spring"
+  ]
+}),
   spring2020Seed({
     anilistId: 109020,
     slug: "yesterday-wo-utatte",
@@ -8645,228 +9110,3372 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
     ],
   }),
   spring2020Seed({
-    anilistId: 113570,
-    slug: "shachou-battle-no-jikan-desu",
-    startDate: "2020-04-05",
-    titleJa: "社長、バトルの時間です！",
-    titleZhHant: "社長，戰鬥的時間到了！",
-    titleRomaji: "Shachou, Battle no Jikan desu!",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113570-c0YmZUj7f5eH.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113570-xo85csMd6NE9.jpg",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl: "https://shachibato-anime.com/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/185",
-      "https://acgsecrets.hk/bangumi/202004/",
-    ],
-    animeThemesUrl:
-      "https://animethemes.moe/anime/shachou_battle_no_jikan_desu",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "Hurry Love",
-        artistDisplayName: "和氣あず未",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "おやすみ",
-        artistDisplayName: "ユトリア(CV.市ノ瀬加那)",
-      },
-    ],
-  }),
+  "anilistId": 113570,
+  "slug": "shachou-battle-no-jikan-desu",
+  "startDate": "2020-04-05",
+  "titleJa": "社長、バトルの時間です！",
+  "titleZhHant": "社長，戰鬥的時間到了！",
+  "titleRomaji": "Shachou, Battle no Jikan desu!",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113570-c0YmZUj7f5eH.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113570-xo85csMd6NE9.jpg",
+  "broadcastLabel": "2020-04-05起・AT-X・日曜23:30（JST）；深夜其他台與配信分開",
+  "officialSiteUrl": "https://shachibato-anime.com/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/185",
+    "https://acgsecrets.hk/bangumi/202004/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/shachou_battle_no_jikan_desu",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "Hurry Love",
+      "artistDisplayName": "和氣あず未",
+      "id": "shachou-battle-no-jikan-desu-op-1",
+      "songId": "shachou-battle-no-jikan-desu-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://shachibato-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/shachou_battle_no_jikan_desu",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "KADOKAWAanime 官方影片",
+          "url": "https://www.youtube.com/watch?v=cfS98EgeJe0",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://shachibato-anime.com/music.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E7%A4%BE%E9%95%B7%EF%BC%8C%E6%88%B0%E9%AC%A5%E7%9A%84%E6%99%82%E9%96%93%E5%88%B0%E4%BA%86%EF%BC%81",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5617",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://shachibato-anime.com/onair.html",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "和氣あず未",
+          "role": "vocals"
+        },
+        {
+          "name": "俊龍",
+          "role": "lyrics"
+        },
+        {
+          "name": "俊龍",
+          "role": "composition"
+        },
+        {
+          "name": "Sizuk",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://shachibato-anime.com/music.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shachou-battle-no-jikan-desu-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://shachibato-anime.com/music.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shachou-battle-no-jikan-desu-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%A4%BE%E9%95%B7%EF%BC%8C%E6%88%B0%E9%AC%A5%E7%9A%84%E6%99%82%E9%96%93%E5%88%B0%E4%BA%86%EF%BC%81"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shachou-battle-no-jikan-desu-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://cal.syoboi.jp/tid/5617"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shachou-battle-no-jikan-desu-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://cal.syoboi.jp/tid/5617"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shachou-battle-no-jikan-desu-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://shachibato-anime.com/music.html"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期原曲名、正式演唱名義、用途及2020春季已核；既有ID、歌曲關係與影音保留。",
+          "resumeWhen": "待本曲直接音源／發行／平台資料可核時補可選欄位；不由coupling或MV推新增動畫用途。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "おやすみ",
+      "artistDisplayName": "ユトリア(CV.市ノ瀬加那)",
+      "id": "shachou-battle-no-jikan-desu-ed-1",
+      "songId": "shachou-battle-no-jikan-desu-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://shachibato-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/shachou_battle_no_jikan_desu",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "KADOKAWAanime 官方影片",
+          "url": "https://www.youtube.com/watch?v=9cMvQgjVRr4",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://shachibato-anime.com/music.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5617",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://shachibato-anime.com/onair.html",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "ユトリア(CV.市ノ瀬加那)",
+          "role": "vocals"
+        },
+        {
+          "name": "武田城以",
+          "role": "lyrics"
+        },
+        {
+          "name": "武田城以",
+          "role": "composition"
+        },
+        {
+          "name": "武田城以",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://shachibato-anime.com/music.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shachou-battle-no-jikan-desu-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://shachibato-anime.com/music.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shachou-battle-no-jikan-desu-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://cal.syoboi.jp/tid/5617"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shachou-battle-no-jikan-desu-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://cal.syoboi.jp/tid/5617"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shachou-battle-no-jikan-desu-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://shachibato-anime.com/music.html"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期原曲名、正式演唱名義、用途及2020春季已核；既有ID、歌曲關係與影音保留。",
+          "resumeWhen": "待本曲直接音源／發行／平台資料可核時補可選欄位；不由coupling或MV推新增動畫用途。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://shachibato-anime.com/music.html",
+      "label": "動畫官方作品標題資料",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://shachibato-anime.com/onair.html",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E7%A4%BE%E9%95%B7%EF%BC%8C%E6%88%B0%E9%AC%A5%E7%9A%84%E6%99%82%E9%96%93%E5%88%B0%E4%BA%86%EF%BC%81",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://cal.syoboi.jp/tid/5617",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "editorialWeekday": 7,
+  "broadcastTimeJst": "23:30",
+  "seasonIds": [
+    "2020-spring"
+  ]
+}),
   spring2020Seed({
-    anilistId: 113693,
-    slug: "honzuki-no-gekokujou-2",
-    startDate: "2020-04-05",
-    titleJa: "本好きの下剋上 司書になるためには手段を選んでいられません 第2期",
-    titleZhHant: "小書痴的下剋上 為了成為圖書管理員不擇手段！第二季",
-    titleRomaji:
-      "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen 2nd Season",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113693-3tHbslFxD47R.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113693-i9Wm6xjTlQGQ.jpg",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl: "https://booklove-anime.jp/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/165",
-      "https://acgsecrets.hk/bangumi/202004/",
-    ],
-    animeThemesUrl:
-      "https://animethemes.moe/anime/honzuki_no_gekokujou_shisho_ni_naru_tame_ni_wa_shudan_wo_erandeiraremasen_2nd_season",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "つむじかぜ",
-        artistDisplayName: "諸星すみれ",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "エフェメラをあつめて",
-        artistDisplayName: "鈴木みのり",
-      },
-    ],
-  }),
+  "anilistId": 113693,
+  "slug": "honzuki-no-gekokujou-2",
+  "startDate": "2020-04-05",
+  "titleJa": "本好きの下剋上 司書になるためには手段を選んでいられません 第2期",
+  "titleZhHant": "小書痴的下剋上 為了成為圖書管理員不擇手段！第二季",
+  "titleRomaji": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen 2nd Season",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113693-3tHbslFxD47R.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113693-i9Wm6xjTlQGQ.jpg",
+  "broadcastLabel": "ABCテレビ原期初回（通常26:10、初回のみ26:15）",
+  "officialSiteUrl": "https://booklove-anime.jp/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/165",
+    "https://acgsecrets.hk/bangumi/202004/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/honzuki_no_gekokujou_shisho_ni_naru_tame_ni_wa_shudan_wo_erandeiraremasen_2nd_season",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "つむじかぜ",
+      "artistDisplayName": "諸星すみれ",
+      "id": "honzuki-no-gekokujou-2-op-1",
+      "songId": "honzuki-no-gekokujou-2-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://booklove-anime.jp/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/honzuki_no_gekokujou_shisho_ni_naru_tame_ni_wa_shudan_wo_erandeiraremasen_2nd_season",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "Sumire Morohoshi 官方影片",
+          "url": "https://www.youtube.com/watch?v=d6gFW81dInI",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026544/VTZL-171.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%B0%8F%E6%9B%B8%E7%97%B4%E7%9A%84%E4%B8%8B%E5%89%8B%E4%B8%8A",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "諸星すみれ",
+          "role": "vocals"
+        },
+        {
+          "name": "岩里祐穂",
+          "role": "lyrics"
+        },
+        {
+          "name": "白戸佑輔",
+          "role": "composition"
+        },
+        {
+          "name": "白戸佑輔",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026544/VTZL-171.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "honzuki-no-gekokujou-2-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026544/VTZL-171.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "honzuki-no-gekokujou-2-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%B0%8F%E6%9B%B8%E7%97%B4%E7%9A%84%E4%B8%8B%E5%89%8B%E4%B8%8A"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "honzuki-no-gekokujou-2-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%B0%8F%E6%9B%B8%E7%97%B4%E7%9A%84%E4%B8%8B%E5%89%8B%E4%B8%8A"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "honzuki-no-gekokujou-2-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026544/VTZL-171.html"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期歌曲身分、用途與逐曲季度已核；未新增個別歌唱或音源版本。",
+          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "エフェメラをあつめて",
+      "artistDisplayName": "鈴木みのり",
+      "id": "honzuki-no-gekokujou-2-ed-1",
+      "songId": "honzuki-no-gekokujou-2-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://booklove-anime.jp/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/honzuki_no_gekokujou_shisho_ni_naru_tame_ni_wa_shudan_wo_erandeiraremasen_2nd_season",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "鈴木みのり 官方影片",
+          "url": "https://www.youtube.com/watch?v=-5AmqQmfbMU",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025540/VE3WA-18757.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%B0%8F%E6%9B%B8%E7%97%B4%E7%9A%84%E4%B8%8B%E5%89%8B%E4%B8%8A",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "鈴木みのり",
+          "role": "vocals"
+        },
+        {
+          "name": "やなぎなぎ",
+          "role": "lyrics"
+        },
+        {
+          "name": "kz",
+          "role": "composition"
+        },
+        {
+          "name": "kz",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025540/VE3WA-18757.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "honzuki-no-gekokujou-2-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025540/VE3WA-18757.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "honzuki-no-gekokujou-2-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%B0%8F%E6%9B%B8%E7%97%B4%E7%9A%84%E4%B8%8B%E5%89%8B%E4%B8%8A"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "honzuki-no-gekokujou-2-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%B0%8F%E6%9B%B8%E7%97%B4%E7%9A%84%E4%B8%8B%E5%89%8B%E4%B8%8A"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "honzuki-no-gekokujou-2-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025540/VE3WA-18757.html"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期歌曲身分、用途與逐曲季度已核；未新增個別歌唱或音源版本。",
+          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://mypage.syosetu.com/mypageblog/view/userid/372556/blogkey/2535988/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E5%B0%8F%E6%9B%B8%E7%97%B4%E7%9A%84%E4%B8%8B%E5%89%8B%E4%B8%8A",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "editorialWeekday": 7,
+  "broadcastTimeJst": "02:15",
+  "seasonIds": [
+    "2020-spring"
+  ]
+}),
   spring2020Seed({
-    anilistId: 113990,
-    slug: "kiratto-prichan-season-3",
-    startDate: "2020-04-05",
-    titleJa: "キラッとプリ☆チャン シーズン3",
-    titleZhHant: "閃躍吧！星夢頻道 第三季",
-    titleRomaji: "Kiratto Pri☆Chan Season 3",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113990-YgKXiAQbojVB.jpg",
-    broadcastLabel: "日本首播／受疫情影響曾延期或停播",
-    officialSiteUrl: "https://www.tv-tokyo.co.jp/anime/prichan/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/332",
-      "https://acgsecrets.hk/bangumi/202004/",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/kiratto_prichan_3rd_season",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "イルミナージュ・ランド",
-        artistDisplayName: "Run Girls, Run! (林鼓子、森嶋優花、厚木那奈美)",
-      },
-      {
-        type: "OP",
-        sequence: 2,
-        titleJa: "ルミナンスプリンセス",
-        artistDisplayName: "Run Girls, Run! (林鼓子、森嶋優花、厚木那奈美)",
-      },
-      {
-        type: "OP",
-        sequence: 3,
-        titleJa: "ドリーミング☆チャンネル!",
-        artistDisplayName: "Run Girls, Run! (林鼓子、森嶋優花、厚木那奈美)",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "A・B・C・Dいいね★ダンス",
-        artistDisplayName:
-          "GOGO!MASCOTS [キラッCHU (CV.山下七海)、メルパン (CV.大森日雅)、ラビリィ (CV.田中美海)]",
-      },
-      {
-        type: "ED",
-        sequence: 2,
-        titleJa: "One Heart（Miracle StAr ver.）",
-        artistDisplayName:
-          "Miracle StAr [桃山みらい (CV.林鼓子)、萌黄えも (CV.久保田未夢)、青葉りんか (CV.厚木那奈美)、赤城あんな (CV.芹澤優)、緑川さら (CV.若井友希)、紫藤める (CV.森嶋優花)]",
-      },
-      {
-        type: "ED",
-        sequence: 3,
-        titleJa: "One Heart (Meltic StAr ver.)",
-        artistDisplayName:
-          "Meltic StAr [赤城あんな (CV.芹澤優)、緑川さら (CV.若井友希)、紫藤める (CV.森嶋優花)]",
-      },
-      {
-        type: "ED",
-        sequence: 4,
-        titleJa: "One Heart (Miracle☆Kiratts ver.)",
-        artistDisplayName:
-          "Miracle☆Kiratts [桃山みらい (CV.林鼓子)、萌黄えも (CV.久保田未夢)、青葉りんか (CV.厚木那奈美)]",
-      },
-    ],
-  }),
+  "anilistId": 113990,
+  "slug": "kiratto-prichan-season-3",
+  "startDate": "2020-04-05",
+  "titleJa": "キラッとプリ☆チャン シーズン3",
+  "titleZhHant": "閃躍吧！星夢頻道 第三季",
+  "titleRomaji": "Kiratto Pri☆Chan Season 3",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113990-YgKXiAQbojVB.jpg",
+  "broadcastLabel": "日本首播／受疫情影響曾延期或停播",
+  "officialSiteUrl": "https://www.tv-tokyo.co.jp/anime/prichan/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/332",
+    "https://acgsecrets.hk/bangumi/202004/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/kiratto_prichan_3rd_season",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "イルミナージュ・ランド",
+      "artistDisplayName": "Run Girls, Run! (林鼓子、森嶋優花、厚木那奈美)",
+      "id": "kiratto-prichan-season-3-op-1",
+      "songId": "kiratto-prichan-season-3-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring",
+        "2020-summer",
+        "2020-fall"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/prichan/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/kiratto_prichan_3rd_season",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "avex pictures 官方影片",
+          "url": "https://www.youtube.com/watch?v=2JJ5a_hG3IU",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://rungirlsrun.jp/discography/detail.php?id=1017496",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://avex.jp/prichan/discography/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%98%9F%E5%85%89%E9%A0%BB%E9%81%93",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_Kiratto_Pri_Chan_episodes",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Run Girls, Run! (林鼓子、森嶋優花、厚木那奈美)",
+          "role": "vocals"
+        },
+        {
+          "name": "只野菜摘",
+          "role": "lyrics"
+        },
+        {
+          "name": "瀬尾祥太郎",
+          "role": "composition"
+        },
+        {
+          "name": "瀬尾祥太郎",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://rungirlsrun.jp/discography/detail.php?id=1017496"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kiratto-prichan-season-3-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/prichan/discography/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kiratto-prichan-season-3-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://rungirlsrun.jp/discography/detail.php?id=1017496"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kiratto-prichan-season-3-op-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/prichan/discography/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kiratto-prichan-season-3-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%98%9F%E5%85%89%E9%A0%BB%E9%81%93"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kiratto-prichan-season-3-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%98%9F%E5%85%89%E9%A0%BB%E9%81%93"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kiratto-prichan-season-3-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://rungirlsrun.jp/discography/detail.php?id=1017496"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期歌曲身分、用途與逐曲季度已核；未新增個別歌唱或音源版本。",
+          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "OP",
+      "sequence": 2,
+      "titleJa": "ルミナンスプリンセス",
+      "artistDisplayName": "Run Girls, Run! (林鼓子、森嶋優花、厚木那奈美)",
+      "id": "kiratto-prichan-season-3-op-2",
+      "songId": "kiratto-prichan-season-3-op-2-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-fall",
+        "2021-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/prichan/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/kiratto_prichan_3rd_season",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "avex 官方影片",
+          "url": "https://www.youtube.com/watch?v=SrMkx_P9cgw",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://rungirlsrun.jp/news/detail.php?id=1086519",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://avex.jp/prichan/discography/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%98%9F%E5%85%89%E9%A0%BB%E9%81%93",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_Kiratto_Pri_Chan_episodes",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Run Girls, Run! (林鼓子、森嶋優花、厚木那奈美)",
+          "role": "vocals"
+        },
+        {
+          "name": "真崎エリカ",
+          "role": "lyrics"
+        },
+        {
+          "name": "酒井拓也",
+          "role": "composition"
+        },
+        {
+          "name": "酒井拓也",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://rungirlsrun.jp/news/detail.php?id=1086519"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kiratto-prichan-season-3-op-2-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/prichan/discography/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kiratto-prichan-season-3-op-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://rungirlsrun.jp/news/detail.php?id=1086519"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kiratto-prichan-season-3-op-2"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/prichan/discography/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kiratto-prichan-season-3-op-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%98%9F%E5%85%89%E9%A0%BB%E9%81%93"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kiratto-prichan-season-3-op-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%98%9F%E5%85%89%E9%A0%BB%E9%81%93"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kiratto-prichan-season-3-op-2"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://rungirlsrun.jp/news/detail.php?id=1086519"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期歌曲身分、用途與逐曲季度已核；未新增個別歌唱或音源版本。",
+          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "OP",
+      "sequence": 3,
+      "titleJa": "ドリーミング☆チャンネル!",
+      "artistDisplayName": "Run Girls, Run! (林鼓子、森嶋優花、厚木那奈美)",
+      "id": "kiratto-prichan-season-3-op-3",
+      "songId": "kiratto-prichan-season-3-op-3-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2021-winter",
+        "2021-spring"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/prichan/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/kiratto_prichan_3rd_season",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "avex 官方影片",
+          "url": "https://www.youtube.com/watch?v=q9WpV51PRSs",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://rungirlsrun.jp/news/detail.php?id=1090159",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://avex.jp/prichan/discography/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%98%9F%E5%85%89%E9%A0%BB%E9%81%93",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_Kiratto_Pri_Chan_episodes",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Run Girls, Run! (林鼓子、森嶋優花、厚木那奈美)",
+          "role": "vocals"
+        },
+        {
+          "name": "松井洋平",
+          "role": "lyrics"
+        },
+        {
+          "name": "本多友紀",
+          "role": "composition"
+        },
+        {
+          "name": "河合泰志",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://rungirlsrun.jp/news/detail.php?id=1090159"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kiratto-prichan-season-3-op-3-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/prichan/discography/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kiratto-prichan-season-3-op-3-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://rungirlsrun.jp/news/detail.php?id=1090159"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kiratto-prichan-season-3-op-3"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/prichan/discography/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kiratto-prichan-season-3-op-3"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%98%9F%E5%85%89%E9%A0%BB%E9%81%93"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kiratto-prichan-season-3-op-3-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%98%9F%E5%85%89%E9%A0%BB%E9%81%93"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kiratto-prichan-season-3-op-3"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://rungirlsrun.jp/news/detail.php?id=1090159"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "官方歌曲公告正文明3月14日起、頁面header日期與正文不一致；季度依獨立原日版逐話日期，不把header當首用日。",
+          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "A・B・C・Dいいね★ダンス",
+      "artistDisplayName": "GOGO!MASCOTS [キラッCHU (CV.山下七海)、メルパン (CV.大森日雅)、ラビリィ (CV.田中美海)]",
+      "id": "kiratto-prichan-season-3-ed-1",
+      "songId": "kiratto-prichan-season-3-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring",
+        "2020-summer",
+        "2020-fall",
+        "2021-spring"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/prichan/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/kiratto_prichan_3rd_season",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://avex.jp/prichan/news/detail.php?artist_cd=KIRAP&id=1087344",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://avex.jp/prichan/discography/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%98%9F%E5%85%89%E9%A0%BB%E9%81%93",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_Kiratto_Pri_Chan_episodes",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "GOGO!MASCOTS [キラッCHU (CV.山下七海)、メルパン (CV.大森日雅)、ラビリィ (CV.田中美海)]",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/prichan/news/detail.php?artist_cd=KIRAP&id=1087344"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kiratto-prichan-season-3-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/prichan/discography/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kiratto-prichan-season-3-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/prichan/news/detail.php?artist_cd=KIRAP&id=1087344"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kiratto-prichan-season-3-ed-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/prichan/discography/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kiratto-prichan-season-3-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%98%9F%E5%85%89%E9%A0%BB%E9%81%93"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kiratto-prichan-season-3-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%98%9F%E5%85%89%E9%A0%BB%E9%81%93"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kiratto-prichan-season-3-ed-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原日版103–128及152話同曲ED；152話2021春特殊回用另核，不由整作跨季泛授。",
+          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "One Heart",
+      "artistDisplayName": "Miracle StAr [桃山みらい (CV.林鼓子)、萌黄えも (CV.久保田未夢)、青葉りんか (CV.厚木那奈美)、赤城あんな (CV.芹澤優)、緑川さら (CV.若井友希)、紫藤める (CV.森嶋優花)]",
+      "id": "kiratto-prichan-season-3-ed-2",
+      "songId": "kiratto-prichan-season-3-ed-2-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-fall",
+        "2021-winter",
+        "2021-spring"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/prichan/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/kiratto_prichan_3rd_season",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://avex.jp/prichan/news/detail.php?artist_cd=KIRAP&id=1090046",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://avex.jp/prichan/discography/detail.php?id=1018285",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%98%9F%E5%85%89%E9%A0%BB%E9%81%93",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_Kiratto_Pri_Chan_episodes",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Miracle StAr [桃山みらい (CV.林鼓子)、萌黄えも (CV.久保田未夢)、青葉りんか (CV.厚木那奈美)、赤城あんな (CV.芹澤優)、緑川さら (CV.若井友希)、紫藤める (CV.森嶋優花)]",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/prichan/news/detail.php?artist_cd=KIRAP&id=1090046"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kiratto-prichan-season-3-ed-2-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/prichan/discography/detail.php?id=1018285"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kiratto-prichan-season-3-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/prichan/news/detail.php?artist_cd=KIRAP&id=1090046"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kiratto-prichan-season-3-ed-2"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/prichan/discography/detail.php?id=1018285"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kiratto-prichan-season-3-ed-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%98%9F%E5%85%89%E9%A0%BB%E9%81%93"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kiratto-prichan-season-3-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%98%9F%E5%85%89%E9%A0%BB%E9%81%93"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kiratto-prichan-season-3-ed-2"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期歌曲身分、用途與逐曲季度已核；未新增個別歌唱或音源版本。",
+          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 3,
+      "titleJa": "One Heart (Meltic StAr ver.)",
+      "artistDisplayName": "Meltic StAr [赤城あんな (CV.芹澤優)、緑川さら (CV.若井友希)、紫藤める (CV.森嶋優花)]",
+      "id": "kiratto-prichan-season-3-ed-3",
+      "songId": "kiratto-prichan-season-3-ed-3-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/prichan/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/kiratto_prichan_3rd_season",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://avex.jp/prichan/discography/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%98%9F%E5%85%89%E9%A0%BB%E9%81%93",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_Kiratto_Pri_Chan_episodes",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Meltic StAr [赤城あんな (CV.芹澤優)、緑川さら (CV.若井友希)、紫藤める (CV.森嶋優花)]",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/prichan/discography/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kiratto-prichan-season-3-ed-3-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%98%9F%E5%85%89%E9%A0%BB%E9%81%93"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kiratto-prichan-season-3-ed-3-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "精確角色版歌曲身分可與本期實際片尾用途分開；用途仍待第一方逐話確認。",
+          "resumeWhen": "待原期官方逐話歌唱credit明本版本實際用途，再合獨立交叉；兩輪後保留，不以商品版本曲目推TV。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 4,
+      "titleJa": "One Heart (Miracle☆Kiratts ver.)",
+      "artistDisplayName": "Miracle☆Kiratts [桃山みらい (CV.林鼓子)、萌黄えも (CV.久保田未夢)、青葉りんか (CV.厚木那奈美)]",
+      "id": "kiratto-prichan-season-3-ed-4",
+      "songId": "kiratto-prichan-season-3-ed-4-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/prichan/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/kiratto_prichan_3rd_season",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://avex.jp/prichan/discography/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%98%9F%E5%85%89%E9%A0%BB%E9%81%93",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_Kiratto_Pri_Chan_episodes",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Miracle☆Kiratts [桃山みらい (CV.林鼓子)、萌黄えも (CV.久保田未夢)、青葉りんか (CV.厚木那奈美)]",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/prichan/discography/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kiratto-prichan-season-3-ed-4-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%98%9F%E5%85%89%E9%A0%BB%E9%81%93"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kiratto-prichan-season-3-ed-4-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "精確角色版歌曲身分可與本期實際片尾用途分開；用途仍待第一方逐話確認。",
+          "resumeWhen": "待原期官方逐話歌唱credit明本版本實際用途，再合獨立交叉；兩輪後保留，不以商品版本曲目推TV。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [],
+  "seasonIds": [
+    "2020-spring",
+    "2020-summer",
+    "2020-fall",
+    "2021-winter",
+    "2021-spring"
+  ]
+}),
   spring2020Seed({
-    anilistId: 114717,
-    slug: "tomica-kizuna-gattai-earth-granner",
-    startDate: "2020-04-05",
-    titleJa: "トミカ絆合体 アースグランナー",
-    titleZhHant: "先鋒飛車 極速合體 地球防衛隊",
-    titleRomaji: "Tomica Kizuna Gattai: Earth Granner",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114717-BrI8RVqye7Sd.jpg",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl: "https://www.tv-osaka.co.jp/ip4/earth-granner/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/333",
-      "https://acgsecrets.hk/bangumi/202004/",
-    ],
-    animeThemesUrl:
-      "https://animethemes.moe/anime/tomica_kizuna_gattai_earth_granner",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "世界が君を必要とする時が来たんだ",
-        artistDisplayName: "オーイシマサヨシ",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "僕らがヒーロー",
-        artistDisplayName: "ダ・ヴィンチ：ポワロ(凛＋原田謙太)",
-      },
-    ],
-  }),
+  "anilistId": 114717,
+  "slug": "tomica-kizuna-gattai-earth-granner",
+  "startDate": "2020-04-05",
+  "titleJa": "トミカ絆合体 アースグランナー",
+  "titleZhHant": "先鋒飛車 極速合體 地球防衛隊",
+  "titleRomaji": "Tomica Kizuna Gattai: Earth Granner",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114717-BrI8RVqye7Sd.jpg",
+  "broadcastLabel": "テレビ大阪・テレビ東京系列原期初回",
+  "officialSiteUrl": "https://www.tv-osaka.co.jp/ip4/earth-granner/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/333",
+    "https://acgsecrets.hk/bangumi/202004/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/tomica_kizuna_gattai_earth_granner",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "世界が君を必要とする時が来たんだ",
+      "artistDisplayName": "オーイシマサヨシ",
+      "id": "tomica-kizuna-gattai-earth-granner-op-1",
+      "songId": "tomica-kizuna-gattai-earth-granner-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring",
+        "2020-summer",
+        "2020-fall",
+        "2021-winter"
+      ],
+      "sources": [
+        {
+          "label": "《先鋒飛車 極速合體 地球防衛隊》第一方歌曲資料：曲名與演唱者",
+          "url": "https://www.takaratomy.co.jp/products/tomica/earthgranner/mov.htm",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/tomica_kizuna_gattai_earth_granner",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "Masayoshi Oishi 官方影片",
+          "url": "https://www.youtube.com/watch?v=MbFyOtpwx5s",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-osaka.co.jp/ip4/earth-granner/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.tv-osaka.co.jp/ip4/earth-granner/news/1883527_13022.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%9F%E3%82%AB%E7%B5%86%E5%90%88%E4%BD%93_%E3%82%A2%E3%83%BC%E3%82%B9%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%8A%E3%83%BC",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "オーイシマサヨシ",
+          "role": "vocals"
+        },
+        {
+          "name": "大石昌良",
+          "role": "lyrics"
+        },
+        {
+          "name": "大石昌良",
+          "role": "composition"
+        },
+        {
+          "name": "大石昌良",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tv-osaka.co.jp/ip4/earth-granner/news/1883527_13022.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "tomica-kizuna-gattai-earth-granner-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-osaka.co.jp/ip4/earth-granner/news/1883527_13022.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "tomica-kizuna-gattai-earth-granner-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%9F%E3%82%AB%E7%B5%86%E5%90%88%E4%BD%93_%E3%82%A2%E3%83%BC%E3%82%B9%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%8A%E3%83%BC"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "tomica-kizuna-gattai-earth-granner-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%9F%E3%82%AB%E7%B5%86%E5%90%88%E4%BD%93_%E3%82%A2%E3%83%BC%E3%82%B9%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%8A%E3%83%BC"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "tomica-kizuna-gattai-earth-granner-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.tv-osaka.co.jp/ip4/earth-granner/news/1883527_13022.html"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期歌曲身分、用途與逐曲季度已核；未新增個別歌唱或音源版本。",
+          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "僕らがヒーロー",
+      "artistDisplayName": "ダ・ヴィンチ：ポワロ(凛＋原田謙太)",
+      "id": "tomica-kizuna-gattai-earth-granner-ed-1",
+      "songId": "tomica-kizuna-gattai-earth-granner-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring",
+        "2020-summer",
+        "2020-fall",
+        "2021-winter"
+      ],
+      "sources": [
+        {
+          "label": "《先鋒飛車 極速合體 地球防衛隊》第一方歌曲資料：曲名與演唱者",
+          "url": "https://www.takaratomy.co.jp/products/tomica/earthgranner/mov.htm",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/tomica_kizuna_gattai_earth_granner",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "ぽにきゃん-Anime PONY CANYON 官方影片",
+          "url": "https://www.youtube.com/watch?v=D_D2hSzf0C0",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-osaka.co.jp/ip4/earth-granner/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000674.000020945.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%9F%E3%82%AB%E7%B5%86%E5%90%88%E4%BD%93_%E3%82%A2%E3%83%BC%E3%82%B9%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%8A%E3%83%BC",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "ダ・ヴィンチ：ポワロ(凛＋原田謙太)",
+          "role": "vocals"
+        },
+        {
+          "name": "島崎貴光",
+          "role": "lyrics"
+        },
+        {
+          "name": "島崎貴光",
+          "role": "composition"
+        },
+        {
+          "name": "島崎貴光",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000000674.000020945.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "tomica-kizuna-gattai-earth-granner-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000000674.000020945.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "tomica-kizuna-gattai-earth-granner-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%9F%E3%82%AB%E7%B5%86%E5%90%88%E4%BD%93_%E3%82%A2%E3%83%BC%E3%82%B9%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%8A%E3%83%BC"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "tomica-kizuna-gattai-earth-granner-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%9F%E3%82%AB%E7%B5%86%E5%90%88%E4%BD%93_%E3%82%A2%E3%83%BC%E3%82%B9%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%8A%E3%83%BC"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "tomica-kizuna-gattai-earth-granner-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000000674.000020945.html"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期歌曲身分、用途與逐曲季度已核；未新增個別歌唱或音源版本。",
+          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000000674.000020945.html",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%9F%E3%82%AB%E7%B5%86%E5%90%88%E4%BD%93_%E3%82%A2%E3%83%BC%E3%82%B9%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%8A%E3%83%BC",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "editorialWeekday": 7,
+  "broadcastTimeJst": "09:30",
+  "seasonIds": [
+    "2020-spring",
+    "2020-summer",
+    "2020-fall",
+    "2021-winter"
+  ]
+}),
   spring2020Seed({
-    anilistId: 114811,
-    slug: "digimon-adventure-2020",
-    startDate: "2020-04-05",
-    titleJa: "デジモンアドベンチャー:",
-    titleZhHant: "數碼寶貝：",
-    titleRomaji: "Digimon Adventure:",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114811-SLZ6cMMhx6Im.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/114811-0vsPGTLAOKPu.jpg",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl: "https://www.toei-anim.co.jp/tv/digimon/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/55",
-      "https://acgsecrets.hk/bangumi/202004/",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/digimon_adventure_2020",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "未確認飛行船",
-        artistDisplayName: "谷本貴義",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "悔しさは種",
-        artistDisplayName: "藤川千愛",
-      },
-      {
-        type: "ED",
-        sequence: 2,
-        titleJa: "Q?",
-        artistDisplayName: "Reol",
-      },
-      {
-        type: "ED",
-        sequence: 3,
-        titleJa: "Mind game",
-        artistDisplayName: "Maica_n",
-      },
-      {
-        type: "ED",
-        sequence: 4,
-        titleJa: "オーバーシーズ・ハイウェイ",
-        artistDisplayName: "ウォルピスカーター",
-      },
-      {
-        type: "ED",
-        sequence: 5,
-        titleJa: "Dreamers",
-        artistDisplayName: "ATEEZ",
-      },
-    ],
-  }),
+  "anilistId": 114811,
+  "slug": "digimon-adventure-2020",
+  "startDate": "2020-04-05",
+  "titleJa": "デジモンアドベンチャー:",
+  "titleZhHant": "數碼寶貝：",
+  "titleRomaji": "Digimon Adventure:",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114811-SLZ6cMMhx6Im.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/114811-0vsPGTLAOKPu.jpg",
+  "broadcastLabel": "日本首播／時間未整理",
+  "officialSiteUrl": "https://www.toei-anim.co.jp/tv/digimon/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/55",
+    "https://acgsecrets.hk/bangumi/202004/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/digimon_adventure_2020",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "未確認飛行船",
+      "artistDisplayName": "谷本貴義",
+      "id": "digimon-adventure-2020-op-1",
+      "songId": "digimon-adventure-2020-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring",
+        "2020-summer",
+        "2020-fall",
+        "2021-winter",
+        "2021-spring",
+        "2021-summer"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.toei-anim.co.jp/tv/digimon/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/digimon_adventure_2020",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "東映アニメーション公式YouTubeチャンネル 官方影片",
+          "url": "https://www.youtube.com/watch?v=aPPCXVBHPhw",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.toei-anim.co.jp/tv/digimon/about/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "谷本貴義",
+          "role": "vocals"
+        },
+        {
+          "name": "森由里子",
+          "role": "lyrics"
+        },
+        {
+          "name": "馬渕直純",
+          "role": "composition"
+        },
+        {
+          "name": "馬渕直純",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/about/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/about/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/about/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期歌曲身分、用途與逐曲季度已核；未新增個別歌唱或音源版本。",
+          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "悔しさは種",
+      "artistDisplayName": "藤川千愛",
+      "id": "digimon-adventure-2020-ed-1",
+      "songId": "digimon-adventure-2020-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring",
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.toei-anim.co.jp/tv/digimon/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/digimon_adventure_2020",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "Chiai Fujikawa 官方影片",
+          "url": "https://www.youtube.com/watch?v=ZLtg9XI01Hc",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.toei-anim.co.jp/tv/digimon/about/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "藤川千愛",
+          "role": "vocals"
+        },
+        {
+          "name": "藤川千愛",
+          "role": "lyrics"
+        },
+        {
+          "name": "藤永龍太郎",
+          "role": "composition"
+        },
+        {
+          "name": "藤永龍太郎",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/about/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/about/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/about/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期歌曲身分、用途與逐曲季度已核；未新增個別歌唱或音源版本。",
+          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "Q?",
+      "artistDisplayName": "Reol",
+      "id": "digimon-adventure-2020-ed-2",
+      "songId": "digimon-adventure-2020-ed-2-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer",
+        "2020-fall"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.toei-anim.co.jp/tv/digimon/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/digimon_adventure_2020",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "東映アニメーション公式YouTubeチャンネル 官方影片",
+          "url": "https://www.youtube.com/watch?v=ks-KJWs_3uk",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.toei-anim.co.jp/tv/digimon/about/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.toei-anim.co.jp/tv/digimon/news/2020083001.php",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Reol",
+          "role": "vocals"
+        },
+        {
+          "name": "Reol",
+          "role": "lyrics"
+        },
+        {
+          "name": "Giga",
+          "role": "composition"
+        },
+        {
+          "name": "Reol",
+          "role": "composition"
+        },
+        {
+          "name": "Giga",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/about/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-ed-2-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/news/2020083001.php"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/about/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-ed-2"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/news/2020083001.php"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-ed-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-ed-2"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/about/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期歌曲身分、用途與逐曲季度已核；未新增個別歌唱或音源版本。",
+          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 3,
+      "titleJa": "Mind game",
+      "artistDisplayName": "Maica_n",
+      "id": "digimon-adventure-2020-ed-3",
+      "songId": "digimon-adventure-2020-ed-3-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-fall",
+        "2021-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.toei-anim.co.jp/tv/digimon/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/digimon_adventure_2020",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "東映アニメーション公式YouTubeチャンネル 官方影片",
+          "url": "https://www.youtube.com/watch?v=sdQwCfi90DE",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.toei-anim.co.jp/tv/digimon/about/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.toei-anim.co.jp/tv/digimon/news/2020111301.php",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Maica_n",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/about/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-ed-3-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/news/2020111301.php"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-ed-3-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/about/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-ed-3"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/news/2020111301.php"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-ed-3"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-ed-3-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-ed-3"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期歌曲身分、用途與逐曲季度已核；未新增個別歌唱或音源版本。",
+          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 4,
+      "titleJa": "オーバーシーズ・ハイウェイ",
+      "artistDisplayName": "ウォルピスカーター",
+      "id": "digimon-adventure-2020-ed-4",
+      "songId": "digimon-adventure-2020-ed-4-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2021-winter",
+        "2021-spring"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.toei-anim.co.jp/tv/digimon/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/digimon_adventure_2020",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "東映アニメーション公式YouTubeチャンネル 官方影片",
+          "url": "https://www.youtube.com/watch?v=srExFEuO2OU",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.toei-anim.co.jp/tv/digimon/about/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.toei-anim.co.jp/tv/digimon/news/2021022601.php",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.toei-anim.co.jp/tv/digimon/news/2021031001.php",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "ウォルピスカーター",
+          "role": "vocals"
+        },
+        {
+          "name": "ウォルピスカーター",
+          "role": "lyrics"
+        },
+        {
+          "name": "Orangestar",
+          "role": "lyrics"
+        },
+        {
+          "name": "Orangestar",
+          "role": "composition"
+        },
+        {
+          "name": "ルワン",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/about/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-ed-4-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/news/2021022601.php"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-ed-4-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/news/2021031001.php"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-ed-4-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/about/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-ed-4"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/news/2021022601.php"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-ed-4"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/news/2021031001.php"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-ed-4"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-ed-4-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-ed-4"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/news/2021031001.php"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期歌曲身分、用途與逐曲季度已核；未新增個別歌唱或音源版本。",
+          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 5,
+      "titleJa": "Dreamers",
+      "artistDisplayName": "ATEEZ",
+      "id": "digimon-adventure-2020-ed-5",
+      "songId": "digimon-adventure-2020-ed-5-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2021-summer"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.toei-anim.co.jp/tv/digimon/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/digimon_adventure_2020",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "東映アニメーション公式YouTubeチャンネル 官方影片",
+          "url": "https://www.youtube.com/watch?v=D2m-evQN6jM",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.toei-anim.co.jp/tv/digimon/about/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.toei-anim.co.jp/tv/digimon/news/2021062401.php",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "ATEEZ",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/about/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-ed-5-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/news/2021062401.php"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-ed-5-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/about/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-ed-5"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/news/2021062401.php"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-ed-5"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-ed-5-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-ed-5"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期歌曲身分、用途與逐曲季度已核；未新增個別歌唱或音源版本。",
+          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "id": "digimon-adventure-2020-in-1",
+      "type": "IN",
+      "sequence": 1,
+      "titleJa": "Be The Winners",
+      "artistDisplayName": "谷本貴義",
+      "credits": [],
+      "links": [],
+      "songId": "digimon-adventure-2020-in-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring",
+        "2020-summer",
+        "2020-fall",
+        "2021-winter",
+        "2021-spring",
+        "2021-summer"
+      ],
+      "sources": [
+        {
+          "url": "https://columbia.jp/artist-info/tanimototakayoshi/discography/COCC-17780.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/tanimototakayoshi/discography/COCC-17780.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-in-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/tanimototakayoshi/discography/COCC-17780.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-in-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-in-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-in-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本曲的原名、演唱名義、本期插曲用途與已確認季度均已核對；創作署名、音源版本、官方影片及發行品資料仍待補齊。",
+          "resumeWhen": "待權利方公開本曲創作署名及正式發行資料後，補核音源規格、官方影片與各正版平台的對應項目。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "id": "digimon-adventure-2020-in-2",
+      "type": "IN",
+      "sequence": 2,
+      "titleJa": "X-treme Fight",
+      "artistDisplayName": "谷本貴義",
+      "credits": [],
+      "links": [],
+      "songId": "digimon-adventure-2020-in-2-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer",
+        "2020-fall",
+        "2021-winter",
+        "2021-spring",
+        "2021-summer"
+      ],
+      "sources": [
+        {
+          "url": "https://columbia.jp/artist-info/tanimototakayoshi/discography/COCC-17780.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/tanimototakayoshi/discography/COCC-17780.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-in-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/tanimototakayoshi/discography/COCC-17780.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-in-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-in-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-in-2"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本曲的原名、演唱名義、本期插曲用途與已確認季度均已核對；創作署名、音源版本、官方影片及發行品資料仍待補齊。",
+          "resumeWhen": "待權利方公開本曲創作署名及正式發行資料後，補核音源規格、官方影片與各正版平台的對應項目。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "id": "digimon-adventure-2020-in-3",
+      "type": "IN",
+      "sequence": 3,
+      "titleJa": "Break the chain",
+      "artistDisplayName": "谷本貴義",
+      "credits": [
+        {
+          "name": "谷本貴義",
+          "role": "lyrics"
+        },
+        {
+          "name": "谷本貴義",
+          "role": "composition"
+        },
+        {
+          "name": "谷本貴義",
+          "role": "arrangement"
+        }
+      ],
+      "links": [],
+      "songId": "digimon-adventure-2020-in-3-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-fall",
+        "2021-winter",
+        "2021-spring",
+        "2021-summer"
+      ],
+      "sources": [
+        {
+          "url": "https://www.toei-anim.co.jp/tv/digimon/news/2021042401.php",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/news/2021042401.php"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-in-3-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/news/2021042401.php"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-in-3"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-in-3-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-in-3"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/news/2021042401.php"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本曲的原名、演唱名義、本期插曲用途、已確認季度及三項創作署名均已核對；音源版本、官方影片及發行品資料仍待補齊。",
+          "resumeWhen": "待權利方公開本曲正式音源規格、官方影片、發行品及正版平台項目後，補齊對應欄位。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [],
+  "seasonIds": [
+    "2020-spring",
+    "2020-summer",
+    "2020-fall",
+    "2021-winter",
+    "2021-spring",
+    "2021-summer"
+  ]
+}),
   spring2020Seed({
     anilistId: 116793,
     slug: "motto-majime-ni-fumajime-kaiketsu-zorori",
