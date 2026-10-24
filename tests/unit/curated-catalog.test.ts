@@ -147,7 +147,14 @@ it("keeps the whole reviewed catalogue consistent across seasons, details, sourc
       expect(published.sources.map((source) => source.url).sort()).toEqual(
         [...new Set(authored.sources!.map((source) => source.url))].sort()
       );
-      expect(published.sources.some((source) => source.role === "first_party")).toBe(true);
+      if (!published.sources.some((source) => source.role === "first_party")) {
+        expect(published.seasonIds).toEqual([]);
+        expect(published.dataStatus?.basic).toBe("sources_recorded");
+        expect(published.dataStatus?.basicVerifiedAt).toBeUndefined();
+        expect(published.dataStatus?.pendingFields).toEqual(expect.arrayContaining(["basic_evidence", "use_quarters"]));
+        expect(published.dataStatus?.followUp?.some((gap) => gap.fields.includes("basic_evidence") && gap.fields.includes("use_quarters"))).toBe(true);
+        expect(published.evidence?.some((evidence) => evidence.target === "anime_use")).not.toBe(true);
+      }
       expect(published.sources.some((source) => source.role === "cross_check")).toBe(true);
     }
   }
