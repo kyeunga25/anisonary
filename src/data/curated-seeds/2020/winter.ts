@@ -9952,443 +9952,4139 @@ const curated2020WinterSeedRows: CuratedAnimeSeed[] = [
   ]
 },
   {
-    anilistId: 108463,
-    id: "curated-108463",
-    slug: "jibaku-shounen-hanako-kun",
-    seasonIds: ["2020-winter"],
-    startDate: "2020-01-10",
-    titleJa: "地縛少年 花子くん",
-    titleZhHant: "地縛少年花子君",
-    titleRomaji: "Jibaku Shounen Hanako-kun",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108463-u03vrYnyB3L9.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108463-pJ5XS6oJwvKh.jpg",
-    editorialWeekday: 5,
-    broadcastLabel: "日本首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://www.tbs.co.jp/anime/hanakokun/1st/",
-    anilistUrl: "https://anilist.co/anime/108463",
-    imageSourceUrl: "https://anilist.co/anime/108463",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/166",
-      "https://acgsecrets.hk/anime/40/",
-      "https://annict.com/works/6615",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/jibaku_shounen_hanako_kun",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "No.7",
-        artistDisplayName: "地縛少年バンド",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "Tiny Light",
-        artistDisplayName: "鬼頭明里",
-      },
-    ],
-    verifiedAt: "2026-09-02",
-  },
+  "anilistId": 108463,
+  "id": "curated-108463",
+  "slug": "jibaku-shounen-hanako-kun",
+  "seasonIds": [
+    "2020-winter"
+  ],
+  "startDate": "2020-01-10",
+  "titleJa": "地縛少年 花子くん",
+  "titleZhHant": "地縛少年花子君",
+  "titleRomaji": "Jibaku Shounen Hanako-kun",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108463-u03vrYnyB3L9.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108463-pJ5XS6oJwvKh.jpg",
+  "editorialWeekday": 5,
+  "broadcastLabel": "日本首播／時間未整理",
+  "status": "finished",
+  "officialSiteUrl": "https://www.tbs.co.jp/anime/hanakokun/1st/",
+  "anilistUrl": "https://anilist.co/anime/108463",
+  "imageSourceUrl": "https://anilist.co/anime/108463",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/166",
+    "https://acgsecrets.hk/anime/40/",
+    "https://annict.com/works/6615"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/jibaku_shounen_hanako_kun",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "No.7",
+      "artistDisplayName": "地縛少年バンド",
+      "id": "jibaku-shounen-hanako-kun-op-1",
+      "songId": "jibaku-shounen-hanako-kun-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tbs.co.jp/anime/hanakokun/1st/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/jibaku_shounen_hanako_kun",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.tbs.co.jp/anime/hanakokun/1st/music/artist01.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%9C%B0%E7%B8%9B%E5%B0%91%E5%B9%B4%E8%8A%B1%E5%AD%90%E5%90%9B",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "地縛少年バンド",
+          "role": "vocals"
+        },
+        {
+          "name": "ANCHOR",
+          "role": "lyrics"
+        },
+        {
+          "name": "ANCHOR",
+          "role": "composition"
+        },
+        {
+          "name": "ZiNG",
+          "role": "arrangement"
+        },
+        {
+          "name": "生田鷹司",
+          "role": "vocals"
+        },
+        {
+          "name": "オーイシマサヨシ",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tbs.co.jp/anime/hanakokun/1st/music/artist01.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "jibaku-shounen-hanako-kun-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tbs.co.jp/anime/hanakokun/1st/music/artist01.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "jibaku-shounen-hanako-kun-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%9C%B0%E7%B8%9B%E5%B0%91%E5%B9%B4%E8%8A%B1%E5%AD%90%E5%90%9B"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "jibaku-shounen-hanako-kun-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%9C%B0%E7%B8%9B%E5%B0%91%E5%B9%B4%E8%8A%B1%E5%AD%90%E5%90%9B"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "jibaku-shounen-hanako-kun-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.tbs.co.jp/anime/hanakokun/1st/music/artist01.html"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期第一方與中文交叉已核原名、演唱名義及冬季用途；同頁創作署名按實際角色保存。",
+          "resumeWhen": "待同頁可證的正式音源及平台資料後逐欄補核；既有影音及未讀日期保持。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "Tiny Light",
+      "artistDisplayName": "鬼頭明里",
+      "id": "jibaku-shounen-hanako-kun-ed-1",
+      "songId": "jibaku-shounen-hanako-kun-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tbs.co.jp/anime/hanakokun/1st/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/jibaku_shounen_hanako_kun",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.tbs.co.jp/anime/hanakokun/1st/music/artist02.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%9C%B0%E7%B8%9B%E5%B0%91%E5%B9%B4%E8%8A%B1%E5%AD%90%E5%90%9B",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "鬼頭明里",
+          "role": "vocals"
+        },
+        {
+          "name": "Saku",
+          "role": "lyrics"
+        },
+        {
+          "name": "Saku",
+          "role": "composition"
+        },
+        {
+          "name": "Saku",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tbs.co.jp/anime/hanakokun/1st/music/artist02.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "jibaku-shounen-hanako-kun-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tbs.co.jp/anime/hanakokun/1st/music/artist02.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "jibaku-shounen-hanako-kun-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%9C%B0%E7%B8%9B%E5%B0%91%E5%B9%B4%E8%8A%B1%E5%AD%90%E5%90%9B"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "jibaku-shounen-hanako-kun-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%9C%B0%E7%B8%9B%E5%B0%91%E5%B9%B4%E8%8A%B1%E5%AD%90%E5%90%9B"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "jibaku-shounen-hanako-kun-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.tbs.co.jp/anime/hanakokun/1st/music/artist02.html"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期第一方與中文交叉已核原名、演唱名義及冬季用途；同頁創作署名按實際角色保存。",
+          "resumeWhen": "待同頁可證的正式音源及平台資料後逐欄補核；既有影音及未讀日期保持。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "verifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://www.tbs.co.jp/anime/hanakokun/1st/onair/",
+      "label": "本期作品名稱資料",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E5%9C%B0%E7%B8%9B%E5%B0%91%E5%B9%B4%E8%8A%B1%E5%AD%90%E5%90%9B",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    }
+  ]
+},
   {
-    anilistId: 108617,
-    id: "curated-108617",
-    slug: "somali-to-mori-no-kamisama",
-    seasonIds: ["2020-winter"],
-    startDate: "2020-01-10",
-    titleJa: "ソマリと森の神様",
-    titleZhHant: "索瑪麗與森林之神",
-    titleRomaji: "Somali to Mori no Kamisama",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108617-PgoYLgWzzm0c.png",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108617-K5pexm0OYdJl.jpg",
-    editorialWeekday: 5,
-    broadcastLabel: "日本首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://somali-anime.com/",
-    anilistUrl: "https://anilist.co/anime/108617",
-    imageSourceUrl: "https://anilist.co/anime/108617",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/167",
-      "https://acgsecrets.hk/anime/37/",
-      "https://annict.com/works/6605",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/somali_to_mori_no_kamisama",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "ありがとうはこっちの言葉",
-        titleRomaji: "Arigatou wa Kocchi no Kotoba",
-        artistDisplayName: "森山直太朗",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "ココロソマリ",
-        titleRomaji: "Kokoro Somali",
-        artistDisplayName: "水瀬いのり",
-      },
-    ],
-    verifiedAt: "2026-09-02",
-  },
+  "anilistId": 108617,
+  "id": "curated-108617",
+  "slug": "somali-to-mori-no-kamisama",
+  "seasonIds": [
+    "2020-winter"
+  ],
+  "startDate": "2020-01-10",
+  "titleJa": "ソマリと森の神様",
+  "titleZhHant": "索瑪麗與森林之神",
+  "titleRomaji": "Somali to Mori no Kamisama",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108617-PgoYLgWzzm0c.png",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108617-K5pexm0OYdJl.jpg",
+  "editorialWeekday": 5,
+  "broadcastLabel": "2020年1月9日24:30 TOKYO MX（實曆1月10日00:30）",
+  "status": "finished",
+  "officialSiteUrl": "https://somali-anime.com/",
+  "anilistUrl": "https://anilist.co/anime/108617",
+  "imageSourceUrl": "https://anilist.co/anime/108617",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/167",
+    "https://acgsecrets.hk/anime/37/",
+    "https://annict.com/works/6605"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/somali_to_mori_no_kamisama",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "ありがとうはこっちの言葉",
+      "titleRomaji": "Arigatou wa Kocchi no Kotoba",
+      "artistDisplayName": "森山直太朗",
+      "id": "somali-to-mori-no-kamisama-op-1",
+      "songId": "somali-to-mori-no-kamisama-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://somali-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/somali_to_mori_no_kamisama",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.coamix.co.jp/topics/v85sb1cf8",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E7%B4%A2%E7%91%AA%E9%BA%97%E8%88%87%E6%A3%AE%E6%9E%97%E4%B9%8B%E7%A5%9E",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "森山直太朗",
+          "role": "vocals"
+        },
+        {
+          "name": "御徒町凧",
+          "role": "lyrics"
+        },
+        {
+          "name": "森山直太朗",
+          "role": "composition"
+        },
+        {
+          "name": "河野圭",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.coamix.co.jp/topics/v85sb1cf8"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "somali-to-mori-no-kamisama-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.coamix.co.jp/topics/v85sb1cf8"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "somali-to-mori-no-kamisama-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%B4%A2%E7%91%AA%E9%BA%97%E8%88%87%E6%A3%AE%E6%9E%97%E4%B9%8B%E7%A5%9E"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "somali-to-mori-no-kamisama-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%B4%A2%E7%91%AA%E9%BA%97%E8%88%87%E6%A3%AE%E6%9E%97%E4%B9%8B%E7%A5%9E"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "somali-to-mori-no-kamisama-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.coamix.co.jp/topics/v85sb1cf8"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期第一方與中文交叉已核原名、演唱名義及冬季用途；同頁創作署名按實際角色保存。",
+          "resumeWhen": "待同頁可證的正式音源及平台資料後逐欄補核；既有影音及未讀日期保持。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "ココロソマリ",
+      "titleRomaji": "Kokoro Somali",
+      "artistDisplayName": "水瀬いのり",
+      "id": "somali-to-mori-no-kamisama-ed-1",
+      "songId": "somali-to-mori-no-kamisama-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://somali-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/somali_to_mori_no_kamisama",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.coamix.co.jp/topics/v85sb1cf8",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E7%B4%A2%E7%91%AA%E9%BA%97%E8%88%87%E6%A3%AE%E6%9E%97%E4%B9%8B%E7%A5%9E",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "水瀬いのり",
+          "role": "vocals"
+        },
+        {
+          "name": "水瀬いのり",
+          "role": "lyrics"
+        },
+        {
+          "name": "櫻澤ヒカル",
+          "role": "composition"
+        },
+        {
+          "name": "白戸佑輔",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.coamix.co.jp/topics/v85sb1cf8"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "somali-to-mori-no-kamisama-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.coamix.co.jp/topics/v85sb1cf8"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "somali-to-mori-no-kamisama-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%B4%A2%E7%91%AA%E9%BA%97%E8%88%87%E6%A3%AE%E6%9E%97%E4%B9%8B%E7%A5%9E"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "somali-to-mori-no-kamisama-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%B4%A2%E7%91%AA%E9%BA%97%E8%88%87%E6%A3%AE%E6%9E%97%E4%B9%8B%E7%A5%9E"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "somali-to-mori-no-kamisama-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.coamix.co.jp/topics/v85sb1cf8"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期第一方與中文交叉已核原名、演唱名義及冬季用途；同頁創作署名按實際角色保存。",
+          "resumeWhen": "待同頁可證的正式音源及平台資料後逐欄補核；既有影音及未讀日期保持。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "verifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://www.coamix.co.jp/topics/v85sb1cf8",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E7%B4%A2%E7%91%AA%E9%BA%97%E8%88%87%E6%A3%AE%E6%9E%97%E4%B9%8B%E7%A5%9E",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "broadcastTimeJst": "00:30"
+},
   {
-    anilistId: 109964,
-    id: "curated-109964",
-    slug: "uchitama-uchi-no-tama-shirimasen-ka",
-    seasonIds: ["2020-winter"],
-    startDate: "2020-01-10",
-    titleJa: "うちタマ?!~うちのタマ知りませんか?~",
-    titleZhHant: "家有圓圓？！～我家的圓圓你知道嗎？～",
-    titleRomaji: "Uchitama?! Uchi no Tama Shirimasen ka?",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109964-WLzxb4UNBJxM.png",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/109964-uZrVTV4PK2ml.jpg",
-    editorialWeekday: 5,
-    broadcastLabel: "日本首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://uchitama.com/",
-    anilistUrl: "https://anilist.co/anime/109964",
-    imageSourceUrl: "https://anilist.co/anime/109964",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/134",
-      "https://acgsecrets.hk/anime/38/",
-      "https://annict.com/works/6748",
-    ],
-    animeThemesUrl:
-      "https://animethemes.moe/anime/uchi_tama_uchi_no_tama_shirimasen_ka",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "Friends",
-        artistDisplayName: "wacci",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "ひだまりを探して",
-        titleRomaji: "Hidamari o Sagashite",
-        artistDisplayName: "斉藤壮馬",
-      },
-      {
-        type: "ED",
-        sequence: 2,
-        titleJa: "Rainy Bull",
-        artistDisplayName: "前野智昭",
-      },
-      {
-        type: "ED",
-        sequence: 3,
-        titleJa: "いつもいつもの散歩道",
-        titleRomaji: "Itsumo Itsumo no Sanpomichi",
-        artistDisplayName: "小野賢章",
-      },
-      {
-        type: "ED",
-        sequence: 4,
-        titleJa: "3丁目の星☆",
-        titleRomaji: "3-choume no Hoshi☆",
-        artistDisplayName: "梅原裕一郎",
-      },
-      {
-        type: "ED",
-        sequence: 5,
-        titleJa: "UP TO DATE!",
-        artistDisplayName: "白井悠介",
-      },
-      {
-        type: "ED",
-        sequence: 6,
-        titleJa: "犬猫エレジー",
-        titleRomaji: "Inu Neko Elegy",
-        artistDisplayName: "羽多野渉",
-      },
-      {
-        type: "ED",
-        sequence: 7,
-        titleJa: "Kitty's cutie!",
-        artistDisplayName: "花澤香菜",
-      },
-      {
-        type: "ED",
-        sequence: 8,
-        titleJa: "なんてことない唄",
-        titleRomaji: "Nante Koto Nai Uta",
-        artistDisplayName: "梶裕貴",
-      },
-      {
-        type: "ED",
-        sequence: 9,
-        titleJa: "Play with me...?",
-        artistDisplayName: "黒沢ともよ",
-      },
-      {
-        type: "ED",
-        sequence: 10,
-        titleJa: "ハレルヤ・ハレルヤ",
-        titleRomaji: "Hallelujah Hallelujah",
-        artistDisplayName: "内田雄馬",
-      },
-      {
-        type: "ED",
-        sequence: 11,
-        titleJa: "3丁目のテーマ",
-        titleRomaji: "3-choume no Theme",
-        artistDisplayName: "3丁目オールスターズ",
-      },
-    ],
-    verifiedAt: "2026-09-02",
-  },
+  "anilistId": 109964,
+  "id": "curated-109964",
+  "slug": "uchitama-uchi-no-tama-shirimasen-ka",
+  "seasonIds": [
+    "2020-winter"
+  ],
+  "startDate": "2020-01-10",
+  "titleJa": "うちタマ?!~うちのタマ知りませんか?~",
+  "titleZhHant": "家有圓圓？！～我家的圓圓你知道嗎？～",
+  "titleRomaji": "Uchitama?! Uchi no Tama Shirimasen ka?",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109964-WLzxb4UNBJxM.png",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/109964-uZrVTV4PK2ml.jpg",
+  "editorialWeekday": 5,
+  "broadcastLabel": "2020年1月9日24:55 富士テレビ（實曆1月10日00:55）",
+  "status": "finished",
+  "officialSiteUrl": "https://uchitama.com/",
+  "anilistUrl": "https://anilist.co/anime/109964",
+  "imageSourceUrl": "https://anilist.co/anime/109964",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/134",
+    "https://acgsecrets.hk/anime/38/",
+    "https://annict.com/works/6748"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/uchi_tama_uchi_no_tama_shirimasen_ka",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "フレンズ",
+      "artistDisplayName": "wacci",
+      "id": "uchitama-uchi-no-tama-shirimasen-ka-op-1",
+      "songId": "uchitama-uchi-no-tama-shirimasen-ka-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://uchitama.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/uchi_tama_uchi_no_tama_shirimasen_ka",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.aniplex.co.jp/lineup/uchitama/news/detail/?id=52301",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%B7%98%E6%B0%A3%E8%B2%932020%EF%BC%9A%E5%AE%B6%E6%9C%89%E5%9C%93%E5%9C%93%EF%BC%9F%EF%BC%81%EF%BD%9E%E6%88%91%E5%AE%B6%E7%9A%84%E5%9C%93%E5%9C%93%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BD%9E",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://wacci.jp/music/friends-kikan/",
+          "label": "本曲創作署名資料；僅創作",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "wacci",
+          "role": "vocals"
+        },
+        {
+          "name": "村中慧慈",
+          "role": "lyrics"
+        },
+        {
+          "name": "村中慧慈",
+          "role": "composition"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.aniplex.co.jp/lineup/uchitama/news/detail/?id=52301"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "uchitama-uchi-no-tama-shirimasen-ka-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.aniplex.co.jp/lineup/uchitama/news/detail/?id=52301"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "uchitama-uchi-no-tama-shirimasen-ka-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%B7%98%E6%B0%A3%E8%B2%932020%EF%BC%9A%E5%AE%B6%E6%9C%89%E5%9C%93%E5%9C%93%EF%BC%9F%EF%BC%81%EF%BD%9E%E6%88%91%E5%AE%B6%E7%9A%84%E5%9C%93%E5%9C%93%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BD%9E"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "uchitama-uchi-no-tama-shirimasen-ka-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%B7%98%E6%B0%A3%E8%B2%932020%EF%BC%9A%E5%AE%B6%E6%9C%89%E5%9C%93%E5%9C%93%EF%BC%9F%EF%BC%81%EF%BD%9E%E6%88%91%E5%AE%B6%E7%9A%84%E5%9C%93%E5%9C%93%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BD%9E"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "uchitama-uchi-no-tama-shirimasen-ka-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://wacci.jp/music/friends-kikan/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "arrangement"
+          ],
+          "note": "本期第一方與中文交叉已核原名、演唱名義及冬季用途；同頁創作署名按實際角色保存。",
+          "resumeWhen": "待同頁可證的正式音源及平台資料後逐欄補核；既有影音及未讀日期保持。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "ひだまりを探して",
+      "titleRomaji": "Hidamari o Sagashite",
+      "artistDisplayName": "岡本タマ（CV.斉藤壮馬）",
+      "id": "uchitama-uchi-no-tama-shirimasen-ka-ed-1",
+      "songId": "uchitama-uchi-no-tama-shirimasen-ka-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://uchitama.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/uchi_tama_uchi_no_tama_shirimasen_ka",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.aniplex.co.jp/news/detail/?id=52655",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%B7%98%E6%B0%A3%E8%B2%932020%EF%BC%9A%E5%AE%B6%E6%9C%89%E5%9C%93%E5%9C%93%EF%BC%9F%EF%BC%81%EF%BD%9E%E6%88%91%E5%AE%B6%E7%9A%84%E5%9C%93%E5%9C%93%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BD%9E",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "斉藤壮馬",
+          "role": "vocals"
+        },
+        {
+          "name": "hotaru",
+          "role": "lyrics"
+        },
+        {
+          "name": "杉下トキヤ",
+          "role": "composition"
+        },
+        {
+          "name": "杉下トキヤ",
+          "role": "arrangement"
+        },
+        {
+          "name": "Tom-H@ck",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.aniplex.co.jp/news/detail/?id=52655"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "uchitama-uchi-no-tama-shirimasen-ka-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.aniplex.co.jp/news/detail/?id=52655"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "uchitama-uchi-no-tama-shirimasen-ka-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%B7%98%E6%B0%A3%E8%B2%932020%EF%BC%9A%E5%AE%B6%E6%9C%89%E5%9C%93%E5%9C%93%EF%BC%9F%EF%BC%81%EF%BD%9E%E6%88%91%E5%AE%B6%E7%9A%84%E5%9C%93%E5%9C%93%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BD%9E"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "uchitama-uchi-no-tama-shirimasen-ka-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%B7%98%E6%B0%A3%E8%B2%932020%EF%BC%9A%E5%AE%B6%E6%9C%89%E5%9C%93%E5%9C%93%EF%BC%9F%EF%BC%81%EF%BD%9E%E6%88%91%E5%AE%B6%E7%9A%84%E5%9C%93%E5%9C%93%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BD%9E"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "uchitama-uchi-no-tama-shirimasen-ka-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.aniplex.co.jp/news/detail/?id=52655"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期第一方與中文交叉已核原名、演唱名義及冬季用途；同頁創作署名按實際角色保存。",
+          "resumeWhen": "待同頁可證的正式音源及平台資料後逐欄補核；既有影音及未讀日期保持。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "Rainy Bull",
+      "artistDisplayName": "前野智昭",
+      "id": "uchitama-uchi-no-tama-shirimasen-ka-ed-2",
+      "songId": "uchitama-uchi-no-tama-shirimasen-ka-ed-2-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://uchitama.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/uchi_tama_uchi_no_tama_shirimasen_ka",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%B7%98%E6%B0%A3%E8%B2%932020%EF%BC%9A%E5%AE%B6%E6%9C%89%E5%9C%93%E5%9C%93%EF%BC%9F%EF%BC%81%EF%BD%9E%E6%88%91%E5%AE%B6%E7%9A%84%E5%9C%93%E5%9C%93%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BD%9E",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "前野智昭",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%B7%98%E6%B0%A3%E8%B2%932020%EF%BC%9A%E5%AE%B6%E6%9C%89%E5%9C%93%E5%9C%93%EF%BC%9F%EF%BC%81%EF%BD%9E%E6%88%91%E5%AE%B6%E7%9A%84%E5%9C%93%E5%9C%93%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BD%9E"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "uchitama-uchi-no-tama-shirimasen-ka-ed-2-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement"
+          ],
+          "note": "中文逐話表有本曲ED線索，但官方音樂頁未提供可讀逐曲文字，商品NCED集數不代替曲名與歌唱用途，保留待核。",
+          "resumeWhen": "待原期第2話正式音樂署名或權利方直接逐曲ED文字可讀後，核本曲演唱及使用季度；兩輪後不由商品或角色表推定。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 3,
+      "titleJa": "いつもいつもの散歩道",
+      "titleRomaji": "Itsumo Itsumo no Sanpomichi",
+      "artistDisplayName": "小野賢章",
+      "id": "uchitama-uchi-no-tama-shirimasen-ka-ed-3",
+      "songId": "uchitama-uchi-no-tama-shirimasen-ka-ed-3-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://uchitama.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/uchi_tama_uchi_no_tama_shirimasen_ka",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%B7%98%E6%B0%A3%E8%B2%932020%EF%BC%9A%E5%AE%B6%E6%9C%89%E5%9C%93%E5%9C%93%EF%BC%9F%EF%BC%81%EF%BD%9E%E6%88%91%E5%AE%B6%E7%9A%84%E5%9C%93%E5%9C%93%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BD%9E",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "小野賢章",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%B7%98%E6%B0%A3%E8%B2%932020%EF%BC%9A%E5%AE%B6%E6%9C%89%E5%9C%93%E5%9C%93%EF%BC%9F%EF%BC%81%EF%BD%9E%E6%88%91%E5%AE%B6%E7%9A%84%E5%9C%93%E5%9C%93%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BD%9E"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "uchitama-uchi-no-tama-shirimasen-ka-ed-3-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement"
+          ],
+          "note": "中文逐話表有本曲ED線索，但官方音樂頁未提供可讀逐曲文字，商品NCED集數不代替曲名與歌唱用途，保留待核。",
+          "resumeWhen": "待原期第3話正式音樂署名或權利方直接逐曲ED文字可讀後，核本曲演唱及使用季度；兩輪後不由商品或角色表推定。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 4,
+      "titleJa": "3丁目の星☆",
+      "titleRomaji": "3-choume no Hoshi☆",
+      "artistDisplayName": "梅原裕一郎",
+      "id": "uchitama-uchi-no-tama-shirimasen-ka-ed-4",
+      "songId": "uchitama-uchi-no-tama-shirimasen-ka-ed-4-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://uchitama.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/uchi_tama_uchi_no_tama_shirimasen_ka",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%B7%98%E6%B0%A3%E8%B2%932020%EF%BC%9A%E5%AE%B6%E6%9C%89%E5%9C%93%E5%9C%93%EF%BC%9F%EF%BC%81%EF%BD%9E%E6%88%91%E5%AE%B6%E7%9A%84%E5%9C%93%E5%9C%93%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BD%9E",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "梅原裕一郎",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%B7%98%E6%B0%A3%E8%B2%932020%EF%BC%9A%E5%AE%B6%E6%9C%89%E5%9C%93%E5%9C%93%EF%BC%9F%EF%BC%81%EF%BD%9E%E6%88%91%E5%AE%B6%E7%9A%84%E5%9C%93%E5%9C%93%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BD%9E"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "uchitama-uchi-no-tama-shirimasen-ka-ed-4-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement"
+          ],
+          "note": "中文逐話表有本曲ED線索，但官方音樂頁未提供可讀逐曲文字，商品NCED集數不代替曲名與歌唱用途，保留待核。",
+          "resumeWhen": "待原期第4話正式音樂署名或權利方直接逐曲ED文字可讀後，核本曲演唱及使用季度；兩輪後不由商品或角色表推定。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 5,
+      "titleJa": "UP TO DATE!",
+      "artistDisplayName": "白井悠介",
+      "id": "uchitama-uchi-no-tama-shirimasen-ka-ed-5",
+      "songId": "uchitama-uchi-no-tama-shirimasen-ka-ed-5-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://uchitama.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/uchi_tama_uchi_no_tama_shirimasen_ka",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%B7%98%E6%B0%A3%E8%B2%932020%EF%BC%9A%E5%AE%B6%E6%9C%89%E5%9C%93%E5%9C%93%EF%BC%9F%EF%BC%81%EF%BD%9E%E6%88%91%E5%AE%B6%E7%9A%84%E5%9C%93%E5%9C%93%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BD%9E",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "白井悠介",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%B7%98%E6%B0%A3%E8%B2%932020%EF%BC%9A%E5%AE%B6%E6%9C%89%E5%9C%93%E5%9C%93%EF%BC%9F%EF%BC%81%EF%BD%9E%E6%88%91%E5%AE%B6%E7%9A%84%E5%9C%93%E5%9C%93%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BD%9E"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "uchitama-uchi-no-tama-shirimasen-ka-ed-5-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement"
+          ],
+          "note": "中文逐話表有本曲ED線索，但官方音樂頁未提供可讀逐曲文字，商品NCED集數不代替曲名與歌唱用途，保留待核。",
+          "resumeWhen": "待原期第5話正式音樂署名或權利方直接逐曲ED文字可讀後，核本曲演唱及使用季度；兩輪後不由商品或角色表推定。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 6,
+      "titleJa": "犬猫エレジー",
+      "titleRomaji": "Inu Neko Elegy",
+      "artistDisplayName": "羽多野渉",
+      "id": "uchitama-uchi-no-tama-shirimasen-ka-ed-6",
+      "songId": "uchitama-uchi-no-tama-shirimasen-ka-ed-6-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://uchitama.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/uchi_tama_uchi_no_tama_shirimasen_ka",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%B7%98%E6%B0%A3%E8%B2%932020%EF%BC%9A%E5%AE%B6%E6%9C%89%E5%9C%93%E5%9C%93%EF%BC%9F%EF%BC%81%EF%BD%9E%E6%88%91%E5%AE%B6%E7%9A%84%E5%9C%93%E5%9C%93%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BD%9E",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "羽多野渉",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%B7%98%E6%B0%A3%E8%B2%932020%EF%BC%9A%E5%AE%B6%E6%9C%89%E5%9C%93%E5%9C%93%EF%BC%9F%EF%BC%81%EF%BD%9E%E6%88%91%E5%AE%B6%E7%9A%84%E5%9C%93%E5%9C%93%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BD%9E"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "uchitama-uchi-no-tama-shirimasen-ka-ed-6-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement"
+          ],
+          "note": "中文逐話表有本曲ED線索，但官方音樂頁未提供可讀逐曲文字，商品NCED集數不代替曲名與歌唱用途，保留待核。",
+          "resumeWhen": "待原期第6話正式音樂署名或權利方直接逐曲ED文字可讀後，核本曲演唱及使用季度；兩輪後不由商品或角色表推定。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 7,
+      "titleJa": "Kitty's cutie!",
+      "artistDisplayName": "花澤香菜",
+      "id": "uchitama-uchi-no-tama-shirimasen-ka-ed-7",
+      "songId": "uchitama-uchi-no-tama-shirimasen-ka-ed-7-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://uchitama.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/uchi_tama_uchi_no_tama_shirimasen_ka",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%B7%98%E6%B0%A3%E8%B2%932020%EF%BC%9A%E5%AE%B6%E6%9C%89%E5%9C%93%E5%9C%93%EF%BC%9F%EF%BC%81%EF%BD%9E%E6%88%91%E5%AE%B6%E7%9A%84%E5%9C%93%E5%9C%93%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BD%9E",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "花澤香菜",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%B7%98%E6%B0%A3%E8%B2%932020%EF%BC%9A%E5%AE%B6%E6%9C%89%E5%9C%93%E5%9C%93%EF%BC%9F%EF%BC%81%EF%BD%9E%E6%88%91%E5%AE%B6%E7%9A%84%E5%9C%93%E5%9C%93%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BD%9E"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "uchitama-uchi-no-tama-shirimasen-ka-ed-7-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement"
+          ],
+          "note": "中文逐話表有本曲ED線索，但官方音樂頁未提供可讀逐曲文字，商品NCED集數不代替曲名與歌唱用途，保留待核。",
+          "resumeWhen": "待原期第7話正式音樂署名或權利方直接逐曲ED文字可讀後，核本曲演唱及使用季度；兩輪後不由商品或角色表推定。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 8,
+      "titleJa": "なんてことない唄",
+      "titleRomaji": "Nante Koto Nai Uta",
+      "artistDisplayName": "梶裕貴",
+      "id": "uchitama-uchi-no-tama-shirimasen-ka-ed-8",
+      "songId": "uchitama-uchi-no-tama-shirimasen-ka-ed-8-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://uchitama.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/uchi_tama_uchi_no_tama_shirimasen_ka",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%B7%98%E6%B0%A3%E8%B2%932020%EF%BC%9A%E5%AE%B6%E6%9C%89%E5%9C%93%E5%9C%93%EF%BC%9F%EF%BC%81%EF%BD%9E%E6%88%91%E5%AE%B6%E7%9A%84%E5%9C%93%E5%9C%93%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BD%9E",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "梶裕貴",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%B7%98%E6%B0%A3%E8%B2%932020%EF%BC%9A%E5%AE%B6%E6%9C%89%E5%9C%93%E5%9C%93%EF%BC%9F%EF%BC%81%EF%BD%9E%E6%88%91%E5%AE%B6%E7%9A%84%E5%9C%93%E5%9C%93%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BD%9E"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "uchitama-uchi-no-tama-shirimasen-ka-ed-8-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement"
+          ],
+          "note": "中文逐話表有本曲ED線索，但官方音樂頁未提供可讀逐曲文字，商品NCED集數不代替曲名與歌唱用途，保留待核。",
+          "resumeWhen": "待原期第8話正式音樂署名或權利方直接逐曲ED文字可讀後，核本曲演唱及使用季度；兩輪後不由商品或角色表推定。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 9,
+      "titleJa": "Play with me...?",
+      "artistDisplayName": "黒沢ともよ",
+      "id": "uchitama-uchi-no-tama-shirimasen-ka-ed-9",
+      "songId": "uchitama-uchi-no-tama-shirimasen-ka-ed-9-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://uchitama.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/uchi_tama_uchi_no_tama_shirimasen_ka",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%B7%98%E6%B0%A3%E8%B2%932020%EF%BC%9A%E5%AE%B6%E6%9C%89%E5%9C%93%E5%9C%93%EF%BC%9F%EF%BC%81%EF%BD%9E%E6%88%91%E5%AE%B6%E7%9A%84%E5%9C%93%E5%9C%93%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BD%9E",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "黒沢ともよ",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%B7%98%E6%B0%A3%E8%B2%932020%EF%BC%9A%E5%AE%B6%E6%9C%89%E5%9C%93%E5%9C%93%EF%BC%9F%EF%BC%81%EF%BD%9E%E6%88%91%E5%AE%B6%E7%9A%84%E5%9C%93%E5%9C%93%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BD%9E"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "uchitama-uchi-no-tama-shirimasen-ka-ed-9-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement"
+          ],
+          "note": "中文逐話表有本曲ED線索，但官方音樂頁未提供可讀逐曲文字，商品NCED集數不代替曲名與歌唱用途，保留待核。",
+          "resumeWhen": "待原期第9話正式音樂署名或權利方直接逐曲ED文字可讀後，核本曲演唱及使用季度；兩輪後不由商品或角色表推定。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 10,
+      "titleJa": "ハレルヤ・ハレルヤ",
+      "titleRomaji": "Hallelujah Hallelujah",
+      "artistDisplayName": "内田雄馬",
+      "id": "uchitama-uchi-no-tama-shirimasen-ka-ed-10",
+      "songId": "uchitama-uchi-no-tama-shirimasen-ka-ed-10-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://uchitama.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/uchi_tama_uchi_no_tama_shirimasen_ka",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%B7%98%E6%B0%A3%E8%B2%932020%EF%BC%9A%E5%AE%B6%E6%9C%89%E5%9C%93%E5%9C%93%EF%BC%9F%EF%BC%81%EF%BD%9E%E6%88%91%E5%AE%B6%E7%9A%84%E5%9C%93%E5%9C%93%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BD%9E",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "内田雄馬",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%B7%98%E6%B0%A3%E8%B2%932020%EF%BC%9A%E5%AE%B6%E6%9C%89%E5%9C%93%E5%9C%93%EF%BC%9F%EF%BC%81%EF%BD%9E%E6%88%91%E5%AE%B6%E7%9A%84%E5%9C%93%E5%9C%93%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BD%9E"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "uchitama-uchi-no-tama-shirimasen-ka-ed-10-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement"
+          ],
+          "note": "中文逐話表有本曲ED線索，但官方音樂頁未提供可讀逐曲文字，商品NCED集數不代替曲名與歌唱用途，保留待核。",
+          "resumeWhen": "待原期第10話正式音樂署名或權利方直接逐曲ED文字可讀後，核本曲演唱及使用季度；兩輪後不由商品或角色表推定。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 11,
+      "titleJa": "3丁目のテーマ",
+      "titleRomaji": "3-choume no Theme",
+      "artistDisplayName": "3丁目オールスターズ",
+      "id": "uchitama-uchi-no-tama-shirimasen-ka-ed-11",
+      "songId": "uchitama-uchi-no-tama-shirimasen-ka-ed-11-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://uchitama.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/uchi_tama_uchi_no_tama_shirimasen_ka",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%B7%98%E6%B0%A3%E8%B2%932020%EF%BC%9A%E5%AE%B6%E6%9C%89%E5%9C%93%E5%9C%93%EF%BC%9F%EF%BC%81%EF%BD%9E%E6%88%91%E5%AE%B6%E7%9A%84%E5%9C%93%E5%9C%93%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BD%9E",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "3丁目オールスターズ",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%B7%98%E6%B0%A3%E8%B2%932020%EF%BC%9A%E5%AE%B6%E6%9C%89%E5%9C%93%E5%9C%93%EF%BC%9F%EF%BC%81%EF%BD%9E%E6%88%91%E5%AE%B6%E7%9A%84%E5%9C%93%E5%9C%93%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BD%9E"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "uchitama-uchi-no-tama-shirimasen-ka-ed-11-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement"
+          ],
+          "note": "中文逐話表有本曲ED線索，但官方音樂頁未提供可讀逐曲文字，商品NCED集數不代替曲名與歌唱用途，保留待核。",
+          "resumeWhen": "待原期第11話正式音樂署名或權利方直接逐曲ED文字可讀後，核本曲演唱及使用季度；兩輪後不由商品或角色表推定。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "verifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://uchitama.com/onair/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E6%B7%98%E6%B0%A3%E8%B2%932020%EF%BC%9A%E5%AE%B6%E6%9C%89%E5%9C%93%E5%9C%93%EF%BC%9F%EF%BC%81%EF%BD%9E%E6%88%91%E5%AE%B6%E7%9A%84%E5%9C%93%E5%9C%93%E4%BD%A0%E7%9F%A5%E9%81%93%E5%97%8E%EF%BD%9E",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "broadcastTimeJst": "00:55"
+},
   {
-    anilistId: 99807,
-    id: "curated-99807",
-    slug: "22-7",
-    seasonIds: ["2020-winter"],
-    startDate: "2020-01-11",
-    titleJa: "22/7 （ナナブンノニジュウニ）",
-    titleZhHant: "22/7",
-    titleRomaji: "22/7",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99807-bkaSfYalAcbf.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99807-DZaDma3xetsL.jpg",
-    editorialWeekday: 6,
-    broadcastLabel: "日本首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://227anime.com/",
-    anilistUrl: "https://anilist.co/anime/99807",
-    imageSourceUrl: "https://anilist.co/anime/99807",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/438",
-      "https://acgsecrets.hk/anime/47/",
-      "https://annict.com/works/6813",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/227",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "ムズイ",
-        titleRomaji: "Muzui",
-        artistDisplayName: "22/7",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "空のエメラルド",
-        titleRomaji: "Sora no Emerald",
-        artistDisplayName: "22/7",
-      },
-      {
-        type: "ED",
-        sequence: 2,
-        titleJa: "One of them",
-        artistDisplayName: "西條和",
-      },
-      {
-        type: "ED",
-        sequence: 3,
-        titleJa: "生きることに楽になりたい",
-        titleRomaji: "Ikirukoto ni Raku ni Naritai",
-        artistDisplayName: "天城サリー",
-      },
-      {
-        type: "ED",
-        sequence: 4,
-        titleJa: "夢の船",
-        titleRomaji: "Yume no Fune",
-        artistDisplayName: "倉岡水巴",
-      },
-      {
-        type: "ED",
-        sequence: 5,
-        titleJa: "優等生じゃつまらない",
-        titleRomaji: "Yuutousei ja Tsumaranai",
-        artistDisplayName: "帆風千春",
-      },
-      {
-        type: "ED",
-        sequence: 6,
-        titleJa: "人生はワルツ",
-        titleRomaji: "Jinsei wa Waltz",
-        artistDisplayName: "海乃るり",
-      },
-      {
-        type: "ED",
-        sequence: 7,
-        titleJa: "感情無用論",
-        titleRomaji: "Kanjou Muyouron",
-        artistDisplayName: "白沢かなえ",
-      },
-      {
-        type: "ED",
-        sequence: 8,
-        titleJa: "Moonlight",
-        artistDisplayName: "宮瀬玲奈",
-      },
-      {
-        type: "ED",
-        sequence: 9,
-        titleJa: "孤独は嫌いじゃない",
-        titleRomaji: "Kodoku wa Kirai ja Nai",
-        artistDisplayName: "河瀬詩",
-      },
-    ],
-    verifiedAt: "2026-09-02",
-  },
+  "anilistId": 99807,
+  "id": "curated-99807",
+  "slug": "22-7",
+  "seasonIds": [
+    "2020-winter"
+  ],
+  "startDate": "2020-01-11",
+  "titleJa": "22/7 （ナナブンノニジュウニ）",
+  "titleZhHant": "22/7",
+  "titleRomaji": "22/7",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99807-bkaSfYalAcbf.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/99807-DZaDma3xetsL.jpg",
+  "editorialWeekday": 6,
+  "broadcastLabel": "原期TOKYO MX等首播",
+  "status": "finished",
+  "officialSiteUrl": "https://227anime.com/",
+  "anilistUrl": "https://anilist.co/anime/99807",
+  "imageSourceUrl": "https://anilist.co/anime/99807",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/438",
+    "https://acgsecrets.hk/anime/47/",
+    "https://annict.com/works/6813"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/227",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "ムズイ",
+      "titleRomaji": "Muzui",
+      "artistDisplayName": "22/7",
+      "id": "22-7-op-1",
+      "songId": "22-7-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://227anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/227",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "22/7 OFFICIAL YouTube CHANNEL 官方影片",
+          "url": "https://www.youtube.com/watch?v=J9JQrg1ugsk",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://227anime.com/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/22/7_%28%E4%BC%81%E5%8A%83%29",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://227anime.com/onair/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "22/7",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://227anime.com/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://227anime.com/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/22/7_%28%E4%BC%81%E5%8A%83%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/22/7_%28%E4%BC%81%E5%8A%83%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-op-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本曲原名、演唱名義及已確認季度的動畫用途已核；音源、官方影片與發行品欄位仍待補齊。",
+          "resumeWhen": "待權利方提供本曲逐項創作署名及正式音源資料後續核。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "空のエメラルド",
+      "titleRomaji": "Sora no Emerald",
+      "artistDisplayName": "22/7",
+      "id": "22-7-ed-1",
+      "songId": "22-7-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://227anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/227",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "22/7 OFFICIAL YouTube CHANNEL 官方影片",
+          "url": "https://www.youtube.com/watch?v=QK_DuHHT4UU",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://227anime.com/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/22/7_%28%E4%BC%81%E5%8A%83%29",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://227anime.com/onair/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "22/7",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://227anime.com/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://227anime.com/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/22/7_%28%E4%BC%81%E5%8A%83%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/22/7_%28%E4%BC%81%E5%8A%83%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-ed-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本曲原名、演唱名義及已確認季度的動畫用途已核；音源、官方影片與發行品欄位仍待補齊。",
+          "resumeWhen": "待權利方提供本曲逐項創作署名及正式音源資料後續核。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "One of them",
+      "artistDisplayName": "滝川みう（CV：西條 和）",
+      "id": "22-7-ed-2",
+      "songId": "22-7-ed-2-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://227anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/227",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "22/7 OFFICIAL YouTube CHANNEL 官方影片",
+          "url": "https://www.youtube.com/watch?v=LdKdX5K5czg",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://227anime.com/news/?id=53168",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/22/7_%28%E4%BC%81%E5%8A%83%29",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://227anime.com/onair/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "西條和",
+          "role": "vocals"
+        },
+        {
+          "name": "滝川みう（CV：西條 和）",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://227anime.com/news/?id=53168"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://227anime.com/news/?id=53168"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-ed-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/22/7_%28%E4%BC%81%E5%8A%83%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/22/7_%28%E4%BC%81%E5%8A%83%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-ed-2"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://227anime.com/news/?id=53168"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本曲原名、演唱名義及已確認季度的動畫用途已核；音源、官方影片與發行品欄位仍待補齊。",
+          "resumeWhen": "待權利方提供本曲逐項創作署名及正式音源資料後續核。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 3,
+      "titleJa": "生きることに楽になりたい",
+      "titleRomaji": "Ikirukoto ni Raku ni Naritai",
+      "artistDisplayName": "藤間 桜（CV：天城サリー）",
+      "id": "22-7-ed-3",
+      "songId": "22-7-ed-3-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://227anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/227",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "22/7 OFFICIAL YouTube CHANNEL 官方影片",
+          "url": "https://www.youtube.com/watch?v=ZPUib75Yr7k",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://227anime.com/news/?id=53483",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/22/7_%28%E4%BC%81%E5%8A%83%29",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://227anime.com/onair/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "天城サリー",
+          "role": "vocals"
+        },
+        {
+          "name": "藤間 桜（CV：天城サリー）",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://227anime.com/news/?id=53483"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-ed-3-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://227anime.com/news/?id=53483"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-ed-3"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/22/7_%28%E4%BC%81%E5%8A%83%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-ed-3-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/22/7_%28%E4%BC%81%E5%8A%83%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-ed-3"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://227anime.com/news/?id=53483"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本曲原名、演唱名義及已確認季度的動畫用途已核；音源、官方影片與發行品欄位仍待補齊。",
+          "resumeWhen": "待權利方提供本曲逐項創作署名及正式音源資料後續核。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 4,
+      "titleJa": "夢の船",
+      "titleRomaji": "Yume no Fune",
+      "artistDisplayName": "河野 都（CV：倉岡水巴）",
+      "id": "22-7-ed-4",
+      "songId": "22-7-ed-4-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://227anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/227",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "22/7 OFFICIAL YouTube CHANNEL 官方影片",
+          "url": "https://www.youtube.com/watch?v=tRPkdefEy9s",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://227anime.com/news/?id=53482",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/22/7_%28%E4%BC%81%E5%8A%83%29",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://227anime.com/onair/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "倉岡水巴",
+          "role": "vocals"
+        },
+        {
+          "name": "河野 都（CV：倉岡水巴）",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://227anime.com/news/?id=53482"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-ed-4-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://227anime.com/news/?id=53482"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-ed-4"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/22/7_%28%E4%BC%81%E5%8A%83%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-ed-4-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/22/7_%28%E4%BC%81%E5%8A%83%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-ed-4"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://227anime.com/news/?id=53482"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本曲原名、演唱名義及已確認季度的動畫用途已核；音源、官方影片與發行品欄位仍待補齊。",
+          "resumeWhen": "待權利方提供本曲逐項創作署名及正式音源資料後續核。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 5,
+      "titleJa": "優等生じゃつまらない",
+      "titleRomaji": "Yuutousei ja Tsumaranai",
+      "artistDisplayName": "佐藤麗華（CV：帆風千春）",
+      "id": "22-7-ed-5",
+      "songId": "22-7-ed-5-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://227anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/227",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "22/7 OFFICIAL YouTube CHANNEL 官方影片",
+          "url": "https://www.youtube.com/watch?v=4Ku0EhS-OOc",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://227anime.com/news/?id=53439",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/22/7_%28%E4%BC%81%E5%8A%83%29",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://227anime.com/onair/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "帆風千春",
+          "role": "vocals"
+        },
+        {
+          "name": "佐藤麗華（CV：帆風千春）",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://227anime.com/news/?id=53439"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-ed-5-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://227anime.com/news/?id=53439"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-ed-5"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/22/7_%28%E4%BC%81%E5%8A%83%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-ed-5-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/22/7_%28%E4%BC%81%E5%8A%83%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-ed-5"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://227anime.com/news/?id=53439"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本曲原名、演唱名義及已確認季度的動畫用途已核；音源、官方影片與發行品欄位仍待補齊。",
+          "resumeWhen": "待權利方提供本曲逐項創作署名及正式音源資料後續核。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 6,
+      "titleJa": "人生はワルツ",
+      "titleRomaji": "Jinsei wa Waltz",
+      "artistDisplayName": "戸田ジュン（CV：海乃るり）",
+      "id": "22-7-ed-6",
+      "songId": "22-7-ed-6-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://227anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/227",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "22/7 OFFICIAL YouTube CHANNEL 官方影片",
+          "url": "https://www.youtube.com/watch?v=E35pqNJtKps",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://227anime.com/news/?id=53481",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/22/7_%28%E4%BC%81%E5%8A%83%29",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://227anime.com/onair/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "海乃るり",
+          "role": "vocals"
+        },
+        {
+          "name": "戸田ジュン（CV：海乃るり）",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://227anime.com/news/?id=53481"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-ed-6-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://227anime.com/news/?id=53481"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-ed-6"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/22/7_%28%E4%BC%81%E5%8A%83%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-ed-6-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/22/7_%28%E4%BC%81%E5%8A%83%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-ed-6"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://227anime.com/news/?id=53481"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本曲原名、演唱名義及已確認季度的動畫用途已核；音源、官方影片與發行品欄位仍待補齊。",
+          "resumeWhen": "待權利方提供本曲逐項創作署名及正式音源資料後續核。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 7,
+      "titleJa": "感情無用論",
+      "titleRomaji": "Kanjou Muyouron",
+      "artistDisplayName": "丸山あかね（CV：白沢かなえ）",
+      "id": "22-7-ed-7",
+      "songId": "22-7-ed-7-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://227anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/227",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "22/7 OFFICIAL YouTube CHANNEL 官方影片",
+          "url": "https://www.youtube.com/watch?v=rSoAkN_2JJM",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://227anime.com/bddvd/04/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://227anime.com/movie/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/22/7_%28%E4%BC%81%E5%8A%83%29",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://227anime.com/onair/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "白沢かなえ",
+          "role": "vocals"
+        },
+        {
+          "name": "丸山あかね（CV：白沢かなえ）",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://227anime.com/bddvd/04/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-ed-7-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://227anime.com/movie/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-ed-7"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/22/7_%28%E4%BC%81%E5%8A%83%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-ed-7-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/22/7_%28%E4%BC%81%E5%8A%83%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-ed-7"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://227anime.com/bddvd/04/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本曲原名、演唱名義及已確認季度的動畫用途已核；音源、官方影片與發行品欄位仍待補齊。",
+          "resumeWhen": "待權利方提供本曲逐項創作署名及正式音源資料後續核。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 8,
+      "titleJa": "Moonlight",
+      "artistDisplayName": "立川絢香（CV：宮瀬玲奈）",
+      "id": "22-7-ed-8",
+      "songId": "22-7-ed-8-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://227anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/227",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "22/7 OFFICIAL YouTube CHANNEL 官方影片",
+          "url": "https://www.youtube.com/watch?v=qFEjzUXdInQ",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://227anime.com/bddvd/05/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://227anime.com/movie/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/22/7_%28%E4%BC%81%E5%8A%83%29",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://227anime.com/onair/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "宮瀬玲奈",
+          "role": "vocals"
+        },
+        {
+          "name": "立川絢香（CV：宮瀬玲奈）",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://227anime.com/bddvd/05/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-ed-8-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://227anime.com/movie/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-ed-8"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/22/7_%28%E4%BC%81%E5%8A%83%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-ed-8-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/22/7_%28%E4%BC%81%E5%8A%83%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-ed-8"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://227anime.com/bddvd/05/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本曲原名、演唱名義及已確認季度的動畫用途已核；音源、官方影片與發行品欄位仍待補齊。",
+          "resumeWhen": "待權利方提供本曲逐項創作署名及正式音源資料後續核。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 9,
+      "titleJa": "孤独は嫌いじゃない",
+      "titleRomaji": "Kodoku wa Kirai ja Nai",
+      "artistDisplayName": "斎藤ニコル（CV：河瀬 詩）",
+      "id": "22-7-ed-9",
+      "songId": "22-7-ed-9-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://227anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/227",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "22/7 OFFICIAL YouTube CHANNEL 官方影片",
+          "url": "https://www.youtube.com/watch?v=J9zp5D6JddI",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.aniplex.co.jp/news/detail/?id=53732",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/22/7_%28%E4%BC%81%E5%8A%83%29",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://227anime.com/onair/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "河瀬詩",
+          "role": "vocals"
+        },
+        {
+          "name": "斎藤ニコル（CV：河瀬 詩）",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.aniplex.co.jp/news/detail/?id=53732"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-ed-9-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.aniplex.co.jp/news/detail/?id=53732"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-ed-9"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/22/7_%28%E4%BC%81%E5%8A%83%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-ed-9-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/22/7_%28%E4%BC%81%E5%8A%83%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "22-7-ed-9"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.aniplex.co.jp/news/detail/?id=53732"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本曲原名、演唱名義及已確認季度的動畫用途已核；音源、官方影片與發行品欄位仍待補齊。",
+          "resumeWhen": "待權利方提供本曲逐項創作署名及正式音源資料後續核。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "verifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://227anime.com/onair/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/22/7_%28%E4%BC%81%E5%8A%83%29",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "broadcastTimeJst": "23:00"
+},
   {
-    anilistId: 104936,
-    id: "curated-104936",
-    slug: "boku-no-tonari-ni-ankoku-hakaishin-ga-imasu",
-    seasonIds: ["2020-winter"],
-    startDate: "2020-01-11",
-    titleJa: "ぼくのとなりに暗黒破壊神がいます。",
-    titleZhHant: "暗黑破壞神在身邊。",
-    titleRomaji: "Boku no Tonari ni Ankoku Hakaishin ga Imasu.",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104936-pj2LwAKTPZ4u.png",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/104936-NsvIvmXeKLjK.jpg",
-    editorialWeekday: 6,
-    broadcastLabel: "日本首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://bokuhaka-anime.com/",
-    anilistUrl: "https://anilist.co/anime/104936",
-    imageSourceUrl: "https://anilist.co/anime/104936",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/17",
-      "https://acgsecrets.hk/anime/46/",
-      "https://annict.com/works/6255",
-    ],
-    animeThemesUrl:
-      "https://animethemes.moe/anime/boku_no_tonari_ni_ankoku_hakaishin_ga_imasu",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "Take mo' Chance",
-        artistDisplayName: "all at once",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "FREEDOMでムダに無敵!!",
-        titleRomaji: "FREEDOM de Muda ni Muteki!!",
-        artistDisplayName: "A応P",
-      },
-    ],
-    verifiedAt: "2026-09-02",
-  },
+  "anilistId": 104936,
+  "id": "curated-104936",
+  "slug": "boku-no-tonari-ni-ankoku-hakaishin-ga-imasu",
+  "seasonIds": [
+    "2020-winter"
+  ],
+  "startDate": "2020-01-11",
+  "titleJa": "ぼくのとなりに暗黒破壊神がいます。",
+  "titleZhHant": "暗黑破壞神在身邊。",
+  "titleRomaji": "Boku no Tonari ni Ankoku Hakaishin ga Imasu.",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104936-pj2LwAKTPZ4u.png",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/104936-NsvIvmXeKLjK.jpg",
+  "editorialWeekday": 6,
+  "broadcastLabel": "日本首播／時間未整理",
+  "status": "finished",
+  "anilistUrl": "https://anilist.co/anime/104936",
+  "imageSourceUrl": "https://anilist.co/anime/104936",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/17",
+    "https://acgsecrets.hk/anime/46/",
+    "https://annict.com/works/6255"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/boku_no_tonari_ni_ankoku_hakaishin_ga_imasu",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "Take mo' Chance",
+      "artistDisplayName": "all at once",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/boku_no_tonari_ni_ankoku_hakaishin_ga_imasu",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%9A%97%E9%BB%91%E7%A0%B4%E5%A3%9E%E7%A5%9E%E5%9C%A8%E8%BA%AB%E9%82%8A%E3%80%82",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "links": [],
+      "id": "boku-no-tonari-ni-ankoku-hakaishin-ga-imasu-op-1",
+      "songId": "boku-no-tonari-ni-ankoku-hakaishin-ga-imasu-op-1-song",
+      "seasonIds": [],
+      "credits": [
+        {
+          "name": "all at once",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%9A%97%E9%BB%91%E7%A0%B4%E5%A3%9E%E7%A5%9E%E5%9C%A8%E8%BA%AB%E9%82%8A%E3%80%82"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "boku-no-tonari-ni-ankoku-hakaishin-ga-imasu-op-1-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "曲名及演唱名義有交叉資料；第一方逐曲動畫用途仍待確認，暫不確認歌曲季度。",
+          "resumeWhen": "待同版本權利方原期曲目及OP／ED用途正文可讀後續核。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "FREEDOMでムダに無敵!!",
+      "titleRomaji": "FREEDOM de Muda ni Muteki!!",
+      "artistDisplayName": "A応P",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/boku_no_tonari_ni_ankoku_hakaishin_ga_imasu",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "A応P 官方影片",
+          "url": "https://www.youtube.com/watch?v=NBo6SDUAW0Y",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%9A%97%E9%BB%91%E7%A0%B4%E5%A3%9E%E7%A5%9E%E5%9C%A8%E8%BA%AB%E9%82%8A%E3%80%82",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "links": [],
+      "id": "boku-no-tonari-ni-ankoku-hakaishin-ga-imasu-ed-1",
+      "songId": "boku-no-tonari-ni-ankoku-hakaishin-ga-imasu-ed-1-song",
+      "seasonIds": [],
+      "credits": [
+        {
+          "name": "A応P",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%9A%97%E9%BB%91%E7%A0%B4%E5%A3%9E%E7%A5%9E%E5%9C%A8%E8%BA%AB%E9%82%8A%E3%80%82"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "boku-no-tonari-ni-ankoku-hakaishin-ga-imasu-ed-1-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "曲名及演唱名義有交叉資料；第一方逐曲動畫用途仍待確認，暫不確認歌曲季度。",
+          "resumeWhen": "待同版本權利方原期曲目及OP／ED用途正文可讀後續核。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "verifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E6%9A%97%E9%BB%91%E7%A0%B4%E5%A3%9E%E7%A5%9E%E5%9C%A8%E8%BA%AB%E9%82%8A%E3%80%82",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://www.animatetimes.com/news/details.php?id=1573732549",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    }
+  ]
+},
   {
-    anilistId: 106625,
-    id: "curated-106625",
-    slug: "haikyuu-to-the-top",
-    seasonIds: ["2020-winter"],
-    startDate: "2020-01-11",
-    titleJa: "ハイキュー!! TO THE TOP",
-    titleZhHant: "排球少年!! 第四季： TO THE TOP",
-    titleRomaji: "Haikyuu!! TO THE TOP",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx106625-UR22wB2NuNVi.png",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/106625-wab2Mx4NQqPQ.jpg",
-    editorialWeekday: 6,
-    broadcastLabel: "日本首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://haikyu.jp/season4/",
-    anilistUrl: "https://anilist.co/anime/106625",
-    imageSourceUrl: "https://anilist.co/anime/106625",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/417",
-      "https://acgsecrets.hk/anime/44/",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/haikyuu_to_the_top",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "PHOENIX",
-        artistDisplayName: "BURNOUT SYNDROMES",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "決戦スピリット",
-        titleRomaji: "Kessen Spirit",
-        artistDisplayName: "CHiCO with HoneyWorks",
-      },
-    ],
-    verifiedAt: "2026-09-02",
-  },
+  "anilistId": 106625,
+  "id": "curated-106625",
+  "slug": "haikyuu-to-the-top",
+  "seasonIds": [
+    "2020-winter",
+    "2020-spring"
+  ],
+  "startDate": "2020-01-11",
+  "titleJa": "ハイキュー!! TO THE TOP",
+  "titleZhHant": "排球少年!! 第四季： TO THE TOP",
+  "titleRomaji": "Haikyuu!! TO THE TOP",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx106625-UR22wB2NuNVi.png",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/106625-wab2Mx4NQqPQ.jpg",
+  "editorialWeekday": 6,
+  "broadcastLabel": "日本首播／時間未整理",
+  "status": "finished",
+  "officialSiteUrl": "https://haikyu.jp/season4/",
+  "anilistUrl": "https://anilist.co/anime/106625",
+  "imageSourceUrl": "https://anilist.co/anime/106625",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/417",
+    "https://acgsecrets.hk/anime/44/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/haikyuu_to_the_top",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "PHOENIX",
+      "artistDisplayName": "BURNOUT SYNDROMES",
+      "id": "haikyuu-to-the-top-op-1",
+      "songId": "haikyuu-to-the-top-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter",
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "url": "https://haikyu.jp/season4/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/haikyuu_to_the_top",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "BURNOUT SYNDROMES Official YouTube Channel 官方影片",
+          "url": "https://www.youtube.com/watch?v=b5lsuPxMFmw",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%8E%92%E7%90%83%E5%B0%91%E5%B9%B4%EF%BC%81%EF%BC%81_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%8F%E3%82%A4%E3%82%AD%E3%83%A5%E3%83%BC%21%21_%28%E3%82%A2%E3%83%8B%E3%83%A1%29",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Haikyu%21%21_season_4",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "BURNOUT SYNDROMES",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://haikyu.jp/season4/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "haikyuu-to-the-top-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://haikyu.jp/season4/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "haikyuu-to-the-top-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%8E%92%E7%90%83%E5%B0%91%E5%B9%B4%EF%BC%81%EF%BC%81_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "haikyuu-to-the-top-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%8E%92%E7%90%83%E5%B0%91%E5%B9%B4%EF%BC%81%EF%BC%81_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "haikyuu-to-the-top-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/%E3%83%8F%E3%82%A4%E3%82%AD%E3%83%A5%E3%83%BC%21%21_%28%E3%82%A2%E3%83%8B%E3%83%A1%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "haikyuu-to-the-top-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/%E3%83%8F%E3%82%A4%E3%82%AD%E3%83%A5%E3%83%BC%21%21_%28%E3%82%A2%E3%83%8B%E3%83%A1%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "haikyuu-to-the-top-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Haikyu%21%21_season_4"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "haikyuu-to-the-top-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Haikyu%21%21_season_4"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "haikyuu-to-the-top-op-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本曲原名、演唱名義及已確認季度的動畫用途已核；音源、官方影片與發行品欄位仍待補齊。",
+          "resumeWhen": "待權利方提供本曲逐項創作署名及正式音源資料後續核。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "決戦スピリット",
+      "titleRomaji": "Kessen Spirit",
+      "artistDisplayName": "CHiCO with HoneyWorks",
+      "id": "haikyuu-to-the-top-ed-1",
+      "songId": "haikyuu-to-the-top-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter",
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "url": "https://haikyu.jp/season4/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/haikyuu_to_the_top",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "CHiCO / CHiCO with HoneyWorks 官方影片",
+          "url": "https://www.youtube.com/watch?v=ErqUUYWfOBo",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%8E%92%E7%90%83%E5%B0%91%E5%B9%B4%EF%BC%81%EF%BC%81_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%8F%E3%82%A4%E3%82%AD%E3%83%A5%E3%83%BC%21%21_%28%E3%82%A2%E3%83%8B%E3%83%A1%29",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Haikyu%21%21_season_4",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "CHiCO with HoneyWorks",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://haikyu.jp/season4/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "haikyuu-to-the-top-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://haikyu.jp/season4/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "haikyuu-to-the-top-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%8E%92%E7%90%83%E5%B0%91%E5%B9%B4%EF%BC%81%EF%BC%81_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "haikyuu-to-the-top-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%8E%92%E7%90%83%E5%B0%91%E5%B9%B4%EF%BC%81%EF%BC%81_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "haikyuu-to-the-top-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/%E3%83%8F%E3%82%A4%E3%82%AD%E3%83%A5%E3%83%BC%21%21_%28%E3%82%A2%E3%83%8B%E3%83%A1%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "haikyuu-to-the-top-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/%E3%83%8F%E3%82%A4%E3%82%AD%E3%83%A5%E3%83%BC%21%21_%28%E3%82%A2%E3%83%8B%E3%83%A1%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "haikyuu-to-the-top-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Haikyu%21%21_season_4"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "haikyuu-to-the-top-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Haikyu%21%21_season_4"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "haikyuu-to-the-top-ed-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本曲原名、演唱名義及已確認季度的動畫用途已核；音源、官方影片與發行品欄位仍待補齊。",
+          "resumeWhen": "待權利方提供本曲逐項創作署名及正式音源資料後續核。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "verifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Haikyu%21%21_season_4",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "en",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E6%8E%92%E7%90%83%E5%B0%91%E5%B9%B4%EF%BC%81%EF%BC%81_%28%E5%8B%95%E7%95%AB%29",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    }
+  ]
+},
   {
-    anilistId: 107067,
-    id: "curated-107067",
-    slug: "rikei-ga-koi-ni-ochita-no-de-shoumei-shitemita",
-    seasonIds: ["2020-winter"],
-    startDate: "2020-01-11",
-    titleJa: "理系が恋に落ちたので証明してみた。",
-    titleZhHant: "試證明理科生已墜入情網。",
-    titleRomaji: "Rikei ga Koi ni Ochita no de Shoumei shitemita.",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107067-UOEanLoeuvYh.png",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/107067-QWr4Ity7NZbx.jpg",
-    editorialWeekday: 6,
-    broadcastLabel: "日本網絡首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://rikekoi.jp/",
-    anilistUrl: "https://anilist.co/anime/107067",
-    imageSourceUrl: "https://anilist.co/anime/107067",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/237",
-      "https://acgsecrets.hk/anime/41/",
-      "https://annict.com/works/6438",
-    ],
-    animeThemesUrl:
-      "https://animethemes.moe/anime/rikei_ga_koi_ni_ochita_no_de_shoumei_shitemita",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "PARADOX",
-        artistDisplayName: "雨宮天",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "チューリングラブ feat.Sou",
-        titleRomaji: "Turing Love",
-        artistDisplayName: "七尾あかり feat. Sou",
-      },
-    ],
-    verifiedAt: "2026-09-02",
-  },
+  "anilistId": 107067,
+  "id": "curated-107067",
+  "slug": "rikei-ga-koi-ni-ochita-no-de-shoumei-shitemita",
+  "seasonIds": [
+    "2020-winter"
+  ],
+  "startDate": "2020-01-11",
+  "titleJa": "理系が恋に落ちたので証明してみた。",
+  "titleZhHant": "試證明理科生已墜入情網。",
+  "titleRomaji": "Rikei ga Koi ni Ochita no de Shoumei shitemita.",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107067-UOEanLoeuvYh.png",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/107067-QWr4Ity7NZbx.jpg",
+  "editorialWeekday": 6,
+  "broadcastLabel": "TOKYO MX／BS11／AT-X原TV：1/10金24:30換實曆；Prime全話先行另義不混",
+  "status": "finished",
+  "officialSiteUrl": "https://rikekoi.jp/",
+  "anilistUrl": "https://anilist.co/anime/107067",
+  "imageSourceUrl": "https://anilist.co/anime/107067",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/237",
+    "https://acgsecrets.hk/anime/41/",
+    "https://annict.com/works/6438"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/rikei_ga_koi_ni_ochita_no_de_shoumei_shitemita",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "PARADOX",
+      "artistDisplayName": "雨宮天",
+      "id": "rikei-ga-koi-ni-ochita-no-de-shoumei-shitemita-op-1",
+      "songId": "rikei-ga-koi-ni-ochita-no-de-shoumei-shitemita-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://rikekoi.jp/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/rikei_ga_koi_ni_ochita_no_de_shoumei_shitemita",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.rikekoi.com/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E7%90%86%E7%A7%91%E7%94%9F%E5%A2%9C%E5%85%A5%E6%83%85%E7%B6%B2%EF%BC%8C%E6%95%85%E5%98%97%E8%A9%A6%E8%AD%89%E6%98%8E%E3%80%82",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Science_Fell_in_Love%2C_So_I_Tried_to_Prove_It",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "雨宮天",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.rikekoi.com/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "rikei-ga-koi-ni-ochita-no-de-shoumei-shitemita-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.rikekoi.com/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "rikei-ga-koi-ni-ochita-no-de-shoumei-shitemita-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%90%86%E7%A7%91%E7%94%9F%E5%A2%9C%E5%85%A5%E6%83%85%E7%B6%B2%EF%BC%8C%E6%95%85%E5%98%97%E8%A9%A6%E8%AD%89%E6%98%8E%E3%80%82"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "rikei-ga-koi-ni-ochita-no-de-shoumei-shitemita-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%90%86%E7%A7%91%E7%94%9F%E5%A2%9C%E5%85%A5%E6%83%85%E7%B6%B2%EF%BC%8C%E6%95%85%E5%98%97%E8%A9%A6%E8%AD%89%E6%98%8E%E3%80%82"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "rikei-ga-koi-ni-ochita-no-de-shoumei-shitemita-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Science_Fell_in_Love%2C_So_I_Tried_to_Prove_It"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "rikei-ga-koi-ni-ochita-no-de-shoumei-shitemita-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Science_Fell_in_Love%2C_So_I_Tried_to_Prove_It"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "rikei-ga-koi-ni-ochita-no-de-shoumei-shitemita-op-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "lyrics",
+            "composition",
+            "arrangement"
+          ],
+          "note": "本期曲名、演唱名義與OP／ED用途已核；既有影音及用途序號保留。",
+          "resumeWhen": "待本曲可選資料有直接具體證據再補；不由版本或影片推錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "チューリングラブ feat.Sou",
+      "titleRomaji": "Turing Love",
+      "artistDisplayName": "ナナヲアカリ",
+      "id": "rikei-ga-koi-ni-ochita-no-de-shoumei-shitemita-ed-1",
+      "songId": "rikei-ga-koi-ni-ochita-no-de-shoumei-shitemita-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://rikekoi.jp/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/rikei_ga_koi_ni_ochita_no_de_shoumei_shitemita",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.rikekoi.com/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://rikekoi.com/news/243/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/nanaoakari/info/514364",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E7%90%86%E7%A7%91%E7%94%9F%E5%A2%9C%E5%85%A5%E6%83%85%E7%B6%B2%EF%BC%8C%E6%95%85%E5%98%97%E8%A9%A6%E8%AD%89%E6%98%8E%E3%80%82",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Science_Fell_in_Love%2C_So_I_Tried_to_Prove_It",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "七尾あかり feat. Sou",
+          "role": "vocals"
+        },
+        {
+          "name": "Sou",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.rikekoi.com/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "rikei-ga-koi-ni-ochita-no-de-shoumei-shitemita-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://rikekoi.com/news/243/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "rikei-ga-koi-ni-ochita-no-de-shoumei-shitemita-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/nanaoakari/info/514364"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "rikei-ga-koi-ni-ochita-no-de-shoumei-shitemita-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.rikekoi.com/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "rikei-ga-koi-ni-ochita-no-de-shoumei-shitemita-ed-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://rikekoi.com/news/243/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "rikei-ga-koi-ni-ochita-no-de-shoumei-shitemita-ed-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/nanaoakari/info/514364"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "rikei-ga-koi-ni-ochita-no-de-shoumei-shitemita-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%90%86%E7%A7%91%E7%94%9F%E5%A2%9C%E5%85%A5%E6%83%85%E7%B6%B2%EF%BC%8C%E6%95%85%E5%98%97%E8%A9%A6%E8%AD%89%E6%98%8E%E3%80%82"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "rikei-ga-koi-ni-ochita-no-de-shoumei-shitemita-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%90%86%E7%A7%91%E7%94%9F%E5%A2%9C%E5%85%A5%E6%83%85%E7%B6%B2%EF%BC%8C%E6%95%85%E5%98%97%E8%A9%A6%E8%AD%89%E6%98%8E%E3%80%82"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "rikei-ga-koi-ni-ochita-no-de-shoumei-shitemita-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Science_Fell_in_Love%2C_So_I_Tried_to_Prove_It"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "rikei-ga-koi-ni-ochita-no-de-shoumei-shitemita-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Science_Fell_in_Love%2C_So_I_Tried_to_Prove_It"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "rikei-ga-koi-ni-ochita-no-de-shoumei-shitemita-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/nanaoakari/info/514364"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "lyrics",
+            "composition",
+            "arrangement"
+          ],
+          "note": "本期ED主名義ナナヲアカリ，Sou為明示guest vocal；角色版MV不作本期另一用途或新錄音。",
+          "resumeWhen": "待本曲可選資料有直接具體證據再補；不由版本或影片推錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "verifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://www.rikekoi.com/onair/info/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E7%90%86%E7%A7%91%E7%94%9F%E5%A2%9C%E5%85%A5%E6%83%85%E7%B6%B2%EF%BC%8C%E6%95%85%E5%98%97%E8%A9%A6%E8%AD%89%E6%98%8E%E3%80%82",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Science_Fell_in_Love%2C_So_I_Tried_to_Prove_It",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "en",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "broadcastTimeJst": "00:30"
+},
   {
     anilistId: 110495,
     id: "curated-110495",
@@ -10499,49 +14195,389 @@ const curated2020WinterSeedRows: CuratedAnimeSeed[] = [
     verifiedAt: "2026-09-02",
   },
   {
-    anilistId: 111501,
-    id: "curated-111501",
-    slug: "runway-de-waratte",
-    seasonIds: ["2020-winter"],
-    startDate: "2020-01-11",
-    titleJa: "ランウェイで笑って",
-    titleZhHant: "請在伸展台上微笑",
-    titleRomaji: "Runway de Waratte",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111501-qZgcR8eb86t3.png",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/111501-UiK9ho96bkt5.jpg",
-    editorialWeekday: 6,
-    broadcastLabel: "日本首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://runway-anime.com/",
-    anilistUrl: "https://anilist.co/anime/111501",
-    imageSourceUrl: "https://anilist.co/anime/111501",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/15",
-      "https://acgsecrets.hk/anime/45/",
-      "https://annict.com/works/6946",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/runway_de_waratte",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "LION",
-        artistDisplayName: "坂口有望",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "Ray of Light",
-        artistDisplayName: "J-JUN",
-      },
-    ],
-    verifiedAt: "2026-09-02",
-  },
+  "anilistId": 111501,
+  "id": "curated-111501",
+  "slug": "runway-de-waratte",
+  "seasonIds": [
+    "2020-winter"
+  ],
+  "startDate": "2020-01-11",
+  "titleJa": "ランウェイで笑って",
+  "titleZhHant": "請在伸展台上微笑",
+  "titleRomaji": "Runway de Waratte",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111501-qZgcR8eb86t3.png",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/111501-UiK9ho96bkt5.jpg",
+  "editorialWeekday": 6,
+  "broadcastLabel": "MBS／TBS原TV：1/10金26:25換實曆",
+  "status": "finished",
+  "officialSiteUrl": "https://runway-anime.com/",
+  "anilistUrl": "https://anilist.co/anime/111501",
+  "imageSourceUrl": "https://anilist.co/anime/111501",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/15",
+    "https://acgsecrets.hk/anime/45/",
+    "https://annict.com/works/6946"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/runway_de_waratte",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "LION",
+      "artistDisplayName": "坂口有望",
+      "id": "runway-de-waratte-op-1",
+      "songId": "runway-de-waratte-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://runway-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/runway_de_waratte",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://runway-anime.com/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E8%AB%8B%E5%9C%A8%E4%BC%B8%E5%B1%95%E5%8F%B0%E4%B8%8A%E5%BE%AE%E7%AC%91",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://spice.eplus.jp/articles/261349",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "坂口有望",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://runway-anime.com/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "runway-de-waratte-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://runway-anime.com/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "runway-de-waratte-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E8%AB%8B%E5%9C%A8%E4%BC%B8%E5%B1%95%E5%8F%B0%E4%B8%8A%E5%BE%AE%E7%AC%91"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "runway-de-waratte-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E8%AB%8B%E5%9C%A8%E4%BC%B8%E5%B1%95%E5%8F%B0%E4%B8%8A%E5%BE%AE%E7%AC%91"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "runway-de-waratte-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://spice.eplus.jp/articles/261349"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "runway-de-waratte-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://spice.eplus.jp/articles/261349"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "runway-de-waratte-op-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "lyrics",
+            "composition",
+            "arrangement"
+          ],
+          "note": "本期曲名、演唱名義與OP／ED用途已核；既有影音及用途序號保留。",
+          "resumeWhen": "待本曲可選資料有直接具體證據再補；不由版本或影片推錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "Ray of Light",
+      "artistDisplayName": "J-JUN",
+      "id": "runway-de-waratte-ed-1",
+      "songId": "runway-de-waratte-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://runway-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/runway_de_waratte",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://runway-anime.com/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://jaefans.com/information/news/release/859",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E8%AB%8B%E5%9C%A8%E4%BC%B8%E5%B1%95%E5%8F%B0%E4%B8%8A%E5%BE%AE%E7%AC%91",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://spice.eplus.jp/articles/261349",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "J-JUN",
+          "role": "vocals"
+        },
+        {
+          "name": "矢作綾加",
+          "role": "lyrics"
+        },
+        {
+          "name": "真空ホロウ",
+          "role": "composition"
+        },
+        {
+          "name": "佐久間誠",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://runway-anime.com/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "runway-de-waratte-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://jaefans.com/information/news/release/859"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "runway-de-waratte-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://runway-anime.com/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "runway-de-waratte-ed-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://jaefans.com/information/news/release/859"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "runway-de-waratte-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E8%AB%8B%E5%9C%A8%E4%BC%B8%E5%B1%95%E5%8F%B0%E4%B8%8A%E5%BE%AE%E7%AC%91"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "runway-de-waratte-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E8%AB%8B%E5%9C%A8%E4%BC%B8%E5%B1%95%E5%8F%B0%E4%B8%8A%E5%BE%AE%E7%AC%91"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "runway-de-waratte-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://spice.eplus.jp/articles/261349"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "runway-de-waratte-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://spice.eplus.jp/articles/261349"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "runway-de-waratte-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://jaefans.com/information/news/release/859"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "第一方與獨立報道明示ジェジュン（J-JUN）同人；保留J-JUN名義，三項創作角色逐曲明列。",
+          "resumeWhen": "待本曲可選資料有直接具體證據再補；不由版本或影片推錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "verifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://runway-anime.com/onair/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E8%AB%8B%E5%9C%A8%E4%BC%B8%E5%B1%95%E5%8F%B0%E4%B8%8A%E5%BE%AE%E7%AC%91",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "broadcastTimeJst": "02:25"
+},
   {
     anilistId: 107201,
     id: "curated-107201",
