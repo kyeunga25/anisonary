@@ -2,131 +2,1653 @@ import type { CuratedAnimeSeed } from "@/data/curated-seeds/types";
 
 const curated2020WinterSeedRows: CuratedAnimeSeed[] = [
   {
-    anilistId: 113472,
-    id: "curated-113472",
-    slug: "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu",
-    seasonIds: ["2020-winter"],
-    startDate: "2019-12-27",
-    titleJa: "妖怪ウォッチJam: 妖怪学園Y 〜Nとの遭遇〜",
-    titleZhHant: "妖怪學園Y ～第N類接觸～",
-    titleRomaji: "Youkai Watch Jam: Youkai Gakuen Y - N to no Souguu",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113472-eCohv2grT8J4.png",
-    editorialWeekday: 5,
-    broadcastLabel: "日本首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/",
-    anilistUrl: "https://anilist.co/anime/113472",
-    imageSourceUrl: "https://anilist.co/anime/113472",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: ["https://youranimes.tw/animes/631"],
-    animeThemesUrl:
-      "https://animethemes.moe/anime/youkai_watch_jam_youkai_gakuen_y_n_to_no_souguu",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "ギンギラ銀河",
-        titleRomaji: "Gingira Ginga",
-        artistDisplayName: "すとぷり",
-      },
-      {
-        type: "OP",
-        sequence: 2,
-        titleJa: "大宇宙ランデブー",
-        titleRomaji: "Dai Uchuu Rendezvous",
-        artistDisplayName: "すとぷり",
-      },
-      {
-        type: "OP",
-        sequence: 3,
-        titleJa: "いにしえロマンティック",
-        titleRomaji: "Inishie Romantic",
-        artistDisplayName: "P丸様。feat. YSPクラブ",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "生まれ変わっても",
-        titleRomaji: "Umarekawatte mo",
-        artistDisplayName: "望原カナ（CV：花澤香菜）",
-      },
-      {
-        type: "ED",
-        sequence: 2,
-        titleJa: "Y学園へ行こう ワイワイ編",
-        titleRomaji: "Y Gakuen e Ikou Waiwai-hen",
-        artistDisplayName: "ろん",
-      },
-      {
-        type: "ED",
-        sequence: 3,
-        titleJa: "Y学園へ行こう 疾走編",
-        titleRomaji: "Y Gakuen e Ikou Shisshou-hen",
-        artistDisplayName: "96猫",
-      },
-      {
-        type: "ED",
-        sequence: 4,
-        titleJa: "Y学園へ行こう 青春ロック編",
-        titleRomaji: "Y Gakuen e Ikou Seishun Rock-hen",
-        artistDisplayName: "+α/あるふぁきゅん。",
-      },
-      {
-        type: "ED",
-        sequence: 5,
-        titleJa: "Y学園へ行こう 学園ドタバタ編",
-        titleRomaji: "Y Gakuen e Ikou Gakuen Dotabata-hen",
-        artistDisplayName: "莉犬（すとぷり）",
-      },
-      {
-        type: "ED",
-        sequence: 6,
-        titleJa: "リターントゥ地球",
-        titleRomaji: "Return to Chikyuu",
-        artistDisplayName: "戸松遥",
-      },
-      {
-        type: "ED",
-        sequence: 7,
-        titleJa: "Y学園へ行こう 8bit編",
-        titleRomaji: "Y Gakuen e Ikou 8bit-hen",
-        artistDisplayName: "そらる",
-      },
-      {
-        type: "ED",
-        sequence: 8,
-        titleJa: "侵略魔少女エルゼメキア",
-        titleRomaji: "Shinryaku Mashoujo Elzemekia",
-        artistDisplayName: "エルゼメキア（CV：P丸様。）",
-      },
-      {
-        type: "ED",
-        sequence: 9,
-        titleJa: "キラボシ共和国国歌",
-        titleRomaji: "Kiraboshi Kyouwakoku Kokka",
-        artistDisplayName:
-          "山本そな、小金はな、熊田たまき、小林けんしん、太宰府主婦合唱府“ODEN”",
-      },
-      {
-        type: "ED",
-        sequence: 10,
-        titleJa: "宇宙神秘ブギ",
-        titleRomaji: "Uchuu Shinpi Boogie",
-        artistDisplayName: "莉犬（すとぷり）",
-      },
-      {
-        type: "ED",
-        sequence: 11,
-        titleJa: "YSP！",
-        titleRomaji: "YSP!",
-        artistDisplayName: "キング・クリームソーダ",
-      },
-    ],
-    verifiedAt: "2026-09-02",
-  },
+  "anilistId": 113472,
+  "id": "curated-113472",
+  "slug": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu",
+  "seasonIds": [
+    "2020-winter",
+    "2020-spring",
+    "2020-summer",
+    "2020-fall",
+    "2021-winter",
+    "2021-spring"
+  ],
+  "startDate": "2019-12-27",
+  "titleJa": "妖怪ウォッチJam: 妖怪学園Y 〜Nとの遭遇〜",
+  "titleZhHant": "妖怪學園Y ～第N類接觸～",
+  "titleRomaji": "Youkai Watch Jam: Youkai Gakuen Y - N to no Souguu",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113472-eCohv2grT8J4.png",
+  "editorialWeekday": 5,
+  "broadcastLabel": "2019年12月27日18:00 テレビ東京系初回；通常金曜18:25、2021年4月2日第63話終",
+  "status": "finished",
+  "officialSiteUrl": "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/",
+  "anilistUrl": "https://anilist.co/anime/113472",
+  "imageSourceUrl": "https://anilist.co/anime/113472",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/631"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/youkai_watch_jam_youkai_gakuen_y_n_to_no_souguu",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "ギンギラ銀河",
+      "titleRomaji": "Gingira Ginga",
+      "artistDisplayName": "すとぷり",
+      "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-1",
+      "songId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/youkai_watch_jam_youkai_gakuen_y_n_to_no_souguu",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/news/index.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/special/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://japan-anime-song.com/youkai-gakuen-y-n-tono-souguu-22383/",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.mau2.com/anime/youkaigakueny/ep/14",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.mau2.com/anime/youkaigakueny/ep/24",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "すとぷり",
+          "role": "vocals"
+        },
+        {
+          "name": "ナユタン星人",
+          "role": "lyrics"
+        },
+        {
+          "name": "ナユタン星人",
+          "role": "composition"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/news/index.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/special/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/news/index.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/special/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://japan-anime-song.com/youkai-gakuen-y-n-tono-souguu-22383/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://japan-anime-song.com/youkai-gakuen-y-n-tono-souguu-22383/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/youkaigakueny/ep/14"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/youkaigakueny/ep/24"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/news/index.html"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "OP身份與すとぷり已核；4/3第14話及6/19第24話直接逐話交叉只登春季。",
+          "resumeWhen": "待其餘季度原期逐話日期與OP署名明文再補冬／夏；不因2019初回或7月新OP自動補滿。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "OP",
+      "sequence": 2,
+      "titleJa": "大宇宙ランデブー",
+      "titleRomaji": "Dai Uchuu Rendezvous",
+      "artistDisplayName": "すとぷり",
+      "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-2",
+      "songId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-2-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/youkai_watch_jam_youkai_gakuen_y_n_to_no_souguu",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/special/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://japan-anime-song.com/youkai-gakuen-y-n-tono-souguu-22383/",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.mau2.com/anime/youkaigakueny",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "すとぷり",
+          "role": "vocals"
+        },
+        {
+          "name": "ナユタン星人",
+          "role": "lyrics"
+        },
+        {
+          "name": "ナユタン星人",
+          "role": "composition"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/special/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/special/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://japan-anime-song.com/youkai-gakuen-y-n-tono-souguu-22383/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://japan-anime-song.com/youkai-gakuen-y-n-tono-souguu-22383/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-2"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/youkaigakueny"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-2"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/special/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "官方明7月24日起第二OP，歌すとぷり；只登2020夏。",
+          "resumeWhen": "待秋／跨年原期逐話同曲署名與日期後補；遊戲ED不擴為新TV ED。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "OP",
+      "sequence": 3,
+      "titleJa": "いにしえロマンティック",
+      "titleRomaji": "Inishie Romantic",
+      "artistDisplayName": "P丸様。feat. YSPクラブ",
+      "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-3",
+      "songId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-3-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/youkai_watch_jam_youkai_gakuen_y_n_to_no_souguu",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/201215/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://japan-anime-song.com/youkai-gakuen-y-n-tono-souguu-22383/",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "P丸様。feat. YSPクラブ",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/201215/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-3-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://japan-anime-song.com/youkai-gakuen-y-n-tono-souguu-22383/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-3-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "官方明2021年1月22日高等部新OP、P丸様。歌唱，但本文未明完整feat.YSPクラブ名義；交叉含featuring，保既有完整名義而不當已全部核妥。",
+          "resumeWhen": "待權利方逐曲正式歌唱明文列feat.YSPクラブ後核；不可從cast或官方YouTube搜尋摘要補名義。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "生まれ変わっても",
+      "titleRomaji": "Umarekawatte mo",
+      "artistDisplayName": "望原カナ（CV：花澤香菜）",
+      "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-1",
+      "songId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/youkai_watch_jam_youkai_gakuen_y_n_to_no_souguu",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://japan-anime-song.com/youkai-gakuen-y-n-tono-souguu-22383/",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "望原カナ（CV：花澤香菜）",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://japan-anime-song.com/youkai-gakuen-y-n-tono-souguu-22383/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-1-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "交叉有本曲ED紀錄，但本次普通第一方頁未取得完整正式歌唱名義及逐曲日期，保留待核。",
+          "resumeWhen": "待原期官方逐話片尾／音樂頁明示本曲正式歌唱與實際日期後續核；不由cast、商品或全作季數補齊。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "Y学園へ行こう ワイワイ編",
+      "titleRomaji": "Y Gakuen e Ikou Waiwai-hen",
+      "artistDisplayName": "ろん",
+      "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-2",
+      "songId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-2-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/youkai_watch_jam_youkai_gakuen_y_n_to_no_souguu",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.youkai-watch.jp/y-gakuen-movie/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/news/index.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://japan-anime-song.com/youkai-gakuen-y-n-tono-souguu-22383/",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "ろん",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.youkai-watch.jp/y-gakuen-movie/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-2-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://japan-anime-song.com/youkai-gakuen-y-n-tono-souguu-22383/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-2-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "官方謎歌頁逐子題與歌手、TV局週替換ED總稱已核；具體冬季逐話日期頁兩輪未取可用正文，五容器留空。",
+          "resumeWhen": "待本曲原期逐話TV日期與ED署名正文可讀後記季度；不按每週推算日期。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 3,
+      "titleJa": "Y学園へ行こう 疾走編",
+      "titleRomaji": "Y Gakuen e Ikou Shisshou-hen",
+      "artistDisplayName": "96猫",
+      "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-3",
+      "songId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-3-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/youkai_watch_jam_youkai_gakuen_y_n_to_no_souguu",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.youkai-watch.jp/y-gakuen-movie/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/news/index.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://japan-anime-song.com/youkai-gakuen-y-n-tono-souguu-22383/",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "96猫",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.youkai-watch.jp/y-gakuen-movie/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-3-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://japan-anime-song.com/youkai-gakuen-y-n-tono-souguu-22383/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-3-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "官方謎歌頁逐子題與歌手、TV局週替換ED總稱已核；具體冬季逐話日期頁兩輪未取可用正文，五容器留空。",
+          "resumeWhen": "待本曲原期逐話TV日期與ED署名正文可讀後記季度；不按每週推算日期。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 4,
+      "titleJa": "Y学園へ行こう 青春ロック編",
+      "titleRomaji": "Y Gakuen e Ikou Seishun Rock-hen",
+      "artistDisplayName": "+α/あるふぁきゅん。",
+      "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-4",
+      "songId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-4-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/youkai_watch_jam_youkai_gakuen_y_n_to_no_souguu",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.youkai-watch.jp/y-gakuen-movie/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/news/index.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://japan-anime-song.com/youkai-gakuen-y-n-tono-souguu-22383/",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "+α/あるふぁきゅん。",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.youkai-watch.jp/y-gakuen-movie/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-4-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://japan-anime-song.com/youkai-gakuen-y-n-tono-souguu-22383/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-4-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "官方謎歌頁逐子題與歌手、TV局週替換ED總稱已核；具體冬季逐話日期頁兩輪未取可用正文，五容器留空。",
+          "resumeWhen": "待本曲原期逐話TV日期與ED署名正文可讀後記季度；不按每週推算日期。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 5,
+      "titleJa": "Y学園へ行こう 学園ドタバタ編",
+      "titleRomaji": "Y Gakuen e Ikou Gakuen Dotabata-hen",
+      "artistDisplayName": "莉犬（すとぷり）",
+      "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-5",
+      "songId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-5-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/youkai_watch_jam_youkai_gakuen_y_n_to_no_souguu",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.youkai-watch.jp/y-gakuen-movie/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/news/index.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://japan-anime-song.com/youkai-gakuen-y-n-tono-souguu-22383/",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.mau2.com/anime/youkaigakueny/ep/24",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "莉犬（すとぷり）",
+          "role": "vocals"
+        },
+        {
+          "name": "ピノリーノ",
+          "role": "lyrics"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.youkai-watch.jp/y-gakuen-movie/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-5-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/news/index.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-5"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://japan-anime-song.com/youkai-gakuen-y-n-tono-souguu-22383/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-5-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://japan-anime-song.com/youkai-gakuen-y-n-tono-souguu-22383/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-5"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/youkaigakueny/ep/24"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-5"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.youkai-watch.jp/y-gakuen-movie/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "官方逐子題／歌手與TV週替換用途合讀本曲直接逐話：僅2020春有已讀日期證據。",
+          "resumeWhen": "待其他季度本曲原期TV日期＋署名後補；不將電影謎歌頁單獨當TV使用證據。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 6,
+      "titleJa": "リターントゥ地球",
+      "titleRomaji": "Return to Chikyuu",
+      "artistDisplayName": "戸松遥",
+      "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-6",
+      "songId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-6-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/youkai_watch_jam_youkai_gakuen_y_n_to_no_souguu",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://japan-anime-song.com/youkai-gakuen-y-n-tono-souguu-22383/",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "戸松遥",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://japan-anime-song.com/youkai-gakuen-y-n-tono-souguu-22383/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-6-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "交叉有本曲ED紀錄，但本次普通第一方頁未取得完整正式歌唱名義及逐曲日期，保留待核。",
+          "resumeWhen": "待原期官方逐話片尾／音樂頁明示本曲正式歌唱與實際日期後續核；不由cast、商品或全作季數補齊。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 7,
+      "titleJa": "Y学園へ行こう 8bit編",
+      "titleRomaji": "Y Gakuen e Ikou 8bit-hen",
+      "artistDisplayName": "そらる",
+      "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-7",
+      "songId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-7-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/youkai_watch_jam_youkai_gakuen_y_n_to_no_souguu",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.youkai-watch.jp/y-gakuen-movie/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/news/index.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://japan-anime-song.com/youkai-gakuen-y-n-tono-souguu-22383/",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.mau2.com/anime/youkaigakueny/ep/14",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "そらる",
+          "role": "vocals"
+        },
+        {
+          "name": "ピノリーノ",
+          "role": "lyrics"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.youkai-watch.jp/y-gakuen-movie/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-7-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/news/index.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-7"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://japan-anime-song.com/youkai-gakuen-y-n-tono-souguu-22383/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-7-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://japan-anime-song.com/youkai-gakuen-y-n-tono-souguu-22383/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-7"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/youkaigakueny/ep/14"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-7"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.youkai-watch.jp/y-gakuen-movie/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "官方逐子題／歌手與TV週替換用途合讀本曲直接逐話：僅2020春有已讀日期證據。",
+          "resumeWhen": "待其他季度本曲原期TV日期＋署名後補；不將電影謎歌頁單獨當TV使用證據。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 8,
+      "titleJa": "侵略魔少女エルゼメキア",
+      "titleRomaji": "Shinryaku Mashoujo Elzemekia",
+      "artistDisplayName": "エルゼメキア（CV：P丸様。）",
+      "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-8",
+      "songId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-8-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/youkai_watch_jam_youkai_gakuen_y_n_to_no_souguu",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://japan-anime-song.com/youkai-gakuen-y-n-tono-souguu-22383/",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "エルゼメキア（CV：P丸様。）",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://japan-anime-song.com/youkai-gakuen-y-n-tono-souguu-22383/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-8-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "交叉有本曲ED紀錄，但本次普通第一方頁未取得完整正式歌唱名義及逐曲日期，保留待核。",
+          "resumeWhen": "待原期官方逐話片尾／音樂頁明示本曲正式歌唱與實際日期後續核；不由cast、商品或全作季數補齊。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 9,
+      "titleJa": "キラボシ共和国国歌",
+      "titleRomaji": "Kiraboshi Kyouwakoku Kokka",
+      "artistDisplayName": "山本そな、小金はな、熊田たまき、小林けんしん、太宰府主婦合唱府“ODEN”",
+      "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-9",
+      "songId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-9-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/youkai_watch_jam_youkai_gakuen_y_n_to_no_souguu",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://japan-anime-song.com/youkai-gakuen-y-n-tono-souguu-22383/",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "山本そな、小金はな、熊田たまき、小林けんしん、太宰府主婦合唱府“ODEN”",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://japan-anime-song.com/youkai-gakuen-y-n-tono-souguu-22383/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-9-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "既有合唱名義與本次交叉頁歌手欄西郷憲一郎不同，且未得第一方逐曲正式合唱名義／用途季度；不改原名義、五空。",
+          "resumeWhen": "待本曲官方音樂署名列兒童合唱／合唱團角色與使用日期後核，不採交叉單方替換。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 10,
+      "titleJa": "宇宙神秘ブギ",
+      "titleRomaji": "Uchuu Shinpi Boogie",
+      "artistDisplayName": "莉犬（すとぷり）",
+      "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-10",
+      "songId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-10-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-fall"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/youkai_watch_jam_youkai_gakuen_y_n_to_no_souguu",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/201204/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://japan-anime-song.com/youkai-gakuen-y-n-tono-souguu-22383/",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.mau2.com/anime/youkaigakueny",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "莉犬（すとぷり）",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/201204/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-10-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/201204/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-10"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://japan-anime-song.com/youkai-gakuen-y-n-tono-souguu-22383/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-10-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://japan-anime-song.com/youkai-gakuen-y-n-tono-souguu-22383/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-10"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/youkaigakueny"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-10"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "官方明莉犬(すとぷり)歌唱新ED，11月27日初播；只登2020秋。",
+          "resumeWhen": "待2021冬逐話同曲ED與原TV日期明文後補，不由12月配信企劃或全作續播推斷。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 11,
+      "titleJa": "YSP！",
+      "titleRomaji": "YSP!",
+      "artistDisplayName": "キング・クリームソーダ",
+      "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-11",
+      "songId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-11-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/youkai_watch_jam_youkai_gakuen_y_n_to_no_souguu",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/201215/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://japan-anime-song.com/youkai-gakuen-y-n-tono-souguu-22383/",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.mau2.com/anime/youkaigakueny/ep/53",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "キング・クリームソーダ",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/201215/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-11-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/201215/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-11"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://japan-anime-song.com/youkai-gakuen-y-n-tono-souguu-22383/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-11-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://japan-anime-song.com/youkai-gakuen-y-n-tono-souguu-22383/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-11"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/youkaigakueny/ep/53"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-11"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "高等部53話1月22日官方新EDキング・クリームソーダ與逐話交叉吻合；只登2021冬。",
+          "resumeWhen": "待2021春逐話原期同曲ED日期後補；最終話另曲不可混入本ID。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "verifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/news/index.html",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://japan-anime-song.com/youkai-gakuen-y-n-tono-souguu-22383/",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "broadcastTimeJst": "18:00"
+},
   {
     anilistId: 112625,
     id: "curated-112625",
@@ -154,101 +1676,787 @@ const curated2020WinterSeedRows: CuratedAnimeSeed[] = [
     verifiedAt: "2026-09-02",
   },
   {
-    anilistId: 108092,
-    id: "curated-108092",
-    slug: "koisuru-asteroid",
-    seasonIds: ["2020-winter"],
-    startDate: "2020-01-03",
-    titleJa: "恋する小惑星〈アステロイド〉",
-    titleZhHant: "戀愛中的小行星",
-    titleRomaji: "Koisuru Asteroid",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108092-vbL3rf0b23sp.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108092-y9c4xaGJU8m9.jpg",
-    editorialWeekday: 5,
-    broadcastLabel: "日本首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://koiastv.com/",
-    anilistUrl: "https://anilist.co/anime/108092",
-    imageSourceUrl: "https://anilist.co/anime/108092",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/102",
-      "https://acgsecrets.hk/anime/14/",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/koisuru_asteroid",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "歩いていこう！",
-        titleRomaji: "Aruite Ikou!",
-        artistDisplayName: "東山奈央",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "夜空",
-        titleRomaji: "Yozora",
-        artistDisplayName: "鈴木みのり",
-      },
-      {
-        type: "ED",
-        sequence: 2,
-        titleJa: "あの星の向こうに",
-        titleRomaji: "Ano Hoshi no Mukou ni",
-        artistDisplayName: "高柳知葉",
-      },
-    ],
-    verifiedAt: "2026-09-02",
-  },
+  "anilistId": 108092,
+  "id": "curated-108092",
+  "slug": "koisuru-asteroid",
+  "seasonIds": [
+    "2020-winter"
+  ],
+  "startDate": "2020-01-03",
+  "titleJa": "恋する小惑星〈アステロイド〉",
+  "titleZhHant": "戀愛中的小行星",
+  "titleRomaji": "Koisuru Asteroid",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108092-vbL3rf0b23sp.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108092-y9c4xaGJU8m9.jpg",
+  "editorialWeekday": 5,
+  "broadcastLabel": "2020年1月3日20:30 AT-X原TV；當日22:00為配信、MX首回23:00",
+  "status": "finished",
+  "officialSiteUrl": "https://koiastv.com/",
+  "anilistUrl": "https://anilist.co/anime/108092",
+  "imageSourceUrl": "https://anilist.co/anime/108092",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/102",
+    "https://acgsecrets.hk/anime/14/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/koisuru_asteroid",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "歩いていこう！",
+      "titleRomaji": "Aruite Ikou!",
+      "artistDisplayName": "東山奈央",
+      "id": "koisuru-asteroid-op-1",
+      "songId": "koisuru-asteroid-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://koiastv.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/koisuru_asteroid",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "Nao Toyama 官方影片",
+          "url": "https://www.youtube.com/watch?v=nIM0u59Le1k",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://koiastv.com/music.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%81%8B%E7%88%B1%E5%B0%8F%E8%A1%8C%E6%98%9F",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "東山奈央",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://koiastv.com/music.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "koisuru-asteroid-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://koiastv.com/music.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "koisuru-asteroid-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%81%8B%E7%88%B1%E5%B0%8F%E8%A1%8C%E6%98%9F"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "koisuru-asteroid-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%81%8B%E7%88%B1%E5%B0%8F%E8%A1%8C%E6%98%9F"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "koisuru-asteroid-op-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "官網與中文交叉核對本曲身份／用途；不從商品收錄推新動畫用途。",
+          "resumeWhen": "待本曲未核可選詞曲編或正式平台資料後補；未讀舊影音日期保持。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "夜空",
+      "titleRomaji": "Yozora",
+      "artistDisplayName": "鈴木みのり",
+      "id": "koisuru-asteroid-ed-1",
+      "songId": "koisuru-asteroid-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://koiastv.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/koisuru_asteroid",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "鈴木みのり 官方影片",
+          "url": "https://www.youtube.com/watch?v=NlwRV_TJLSw",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://koiastv.com/music.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%81%8B%E7%88%B1%E5%B0%8F%E8%A1%8C%E6%98%9F",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "鈴木みのり",
+          "role": "vocals"
+        },
+        {
+          "name": "中村砂羽",
+          "role": "lyrics"
+        },
+        {
+          "name": "h-wonder",
+          "role": "composition"
+        },
+        {
+          "name": "h-wonder",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://koiastv.com/music.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "koisuru-asteroid-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://koiastv.com/music.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "koisuru-asteroid-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%81%8B%E7%88%B1%E5%B0%8F%E8%A1%8C%E6%98%9F"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "koisuru-asteroid-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%81%8B%E7%88%B1%E5%B0%8F%E8%A1%8C%E6%98%9F"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "koisuru-asteroid-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://koiastv.com/music.html"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "官網與中文交叉核對本曲身份／用途；不從商品收錄推新動畫用途。",
+          "resumeWhen": "待本曲未核可選詞曲編或正式平台資料後補；未讀舊影音日期保持。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "あの星の向こうに",
+      "titleRomaji": "Ano Hoshi no Mukou ni",
+      "artistDisplayName": "木ノ幡みら（CV：高柳知葉）",
+      "id": "koisuru-asteroid-ed-2",
+      "songId": "koisuru-asteroid-ed-2-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://koiastv.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/koisuru_asteroid",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "Release - Topic 授權影片",
+          "url": "https://www.youtube.com/watch?v=jCxuFcSPlZo",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://koiastv.com/music.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%81%8B%E7%88%B1%E5%B0%8F%E8%A1%8C%E6%98%9F",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "高柳知葉",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://koiastv.com/music.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "koisuru-asteroid-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://koiastv.com/music.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "koisuru-asteroid-ed-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%81%8B%E7%88%B1%E5%B0%8F%E8%A1%8C%E6%98%9F"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "koisuru-asteroid-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%81%8B%E7%88%B1%E5%B0%8F%E8%A1%8C%E6%98%9F"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "koisuru-asteroid-ed-2"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "官方直接列木ノ幡みら(CV高柳知葉)4話SPED，中文同角色名義；保留本曲原ID與序號。",
+          "resumeWhen": "待本曲未核可選詞曲編或正式平台資料後補；未讀舊影音日期保持。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "verifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://koiastv.com/news.html",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E6%81%8B%E7%88%B1%E5%B0%8F%E8%A1%8C%E6%98%9F",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "broadcastTimeJst": "20:30"
+},
   {
-    anilistId: 105190,
-    id: "curated-105190",
-    slug: "darwins-game",
-    seasonIds: ["2020-winter"],
-    startDate: "2020-01-04",
-    titleJa: "ダーウィンズゲーム",
-    titleZhHant: "達爾文遊戲",
-    titleRomaji: "Darwin's Game",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx105190-lSoQNlnMF6UP.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/105190-HhqT6N5MJCpE.jpg",
-    editorialWeekday: 6,
-    broadcastLabel: "日本首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://darwins-game.com/",
-    anilistUrl: "https://anilist.co/anime/105190",
-    imageSourceUrl: "https://anilist.co/anime/105190",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/245",
-      "https://acgsecrets.hk/anime/13/",
-      "https://annict.com/works/6328",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/darwins_game",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "CHAIN",
-        artistDisplayName: "ASCA",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "Alive",
-        artistDisplayName: "綾野ましろ",
-      },
-    ],
-    verifiedAt: "2026-09-02",
-  },
+  "anilistId": 105190,
+  "id": "curated-105190",
+  "slug": "darwins-game",
+  "seasonIds": [
+    "2020-winter"
+  ],
+  "startDate": "2020-01-04",
+  "titleJa": "ダーウィンズゲーム",
+  "titleZhHant": "達爾文遊戲",
+  "titleRomaji": "Darwin's Game",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx105190-lSoQNlnMF6UP.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/105190-HhqT6N5MJCpE.jpg",
+  "editorialWeekday": 6,
+  "broadcastLabel": "原期日本TV實際曆日／TOKYO MX",
+  "status": "finished",
+  "officialSiteUrl": "https://darwins-game.com/",
+  "anilistUrl": "https://anilist.co/anime/105190",
+  "imageSourceUrl": "https://anilist.co/anime/105190",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/245",
+    "https://acgsecrets.hk/anime/13/",
+    "https://annict.com/works/6328"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/darwins_game",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "CHAIN",
+      "artistDisplayName": "ASCA",
+      "id": "darwins-game-op-1",
+      "songId": "darwins-game-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://darwins-game.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/darwins_game",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "ASCA Official YouTube Channel 官方影片",
+          "url": "https://www.youtube.com/watch?v=FjdvgI_jVP8",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://darwins-game.com/news/?id=52710",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://darwins-game.com/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%81%94%E7%88%BE%E6%96%87%E9%81%8A%E6%88%B2",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://darwins-game.com/onair/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "ASCA",
+          "role": "vocals"
+        },
+        {
+          "name": "ASCA",
+          "role": "lyrics"
+        },
+        {
+          "name": "重永亮介",
+          "role": "lyrics"
+        },
+        {
+          "name": "重永亮介",
+          "role": "composition"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://darwins-game.com/news/?id=52710"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "darwins-game-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://darwins-game.com/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "darwins-game-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://darwins-game.com/news/?id=52710"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "darwins-game-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%81%94%E7%88%BE%E6%96%87%E9%81%8A%E6%88%B2"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "darwins-game-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%81%94%E7%88%BE%E6%96%87%E9%81%8A%E6%88%B2"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "darwins-game-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://darwins-game.com/music/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本曲原名、正式演唱名義與原期冬季OP／ED用途已核；音源版本及發行平台細項待補。",
+          "resumeWhen": "待權利方逐項創作署名、音源規格與正版平台資料可讀後補齊；不由MV或團員簡介推錄音與歌唱。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "Alive",
+      "artistDisplayName": "綾野ましろ",
+      "id": "darwins-game-ed-1",
+      "songId": "darwins-game-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://darwins-game.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/darwins_game",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "綾野ましろ official YouTube channel 官方影片",
+          "url": "https://www.youtube.com/watch?v=v2BV5mU3X-4",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://darwins-game.com/news/?id=52710",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://darwins-game.com/music/?page=ed",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%81%94%E7%88%BE%E6%96%87%E9%81%8A%E6%88%B2",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://darwins-game.com/onair/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "綾野ましろ",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://darwins-game.com/news/?id=52710"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "darwins-game-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://darwins-game.com/music/?page=ed"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "darwins-game-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://darwins-game.com/news/?id=52710"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "darwins-game-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%81%94%E7%88%BE%E6%96%87%E9%81%8A%E6%88%B2"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "darwins-game-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%81%94%E7%88%BE%E6%96%87%E9%81%8A%E6%88%B2"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "darwins-game-ed-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本曲原名、正式演唱名義與原期冬季OP／ED用途已核；音源版本及發行平台細項待補。",
+          "resumeWhen": "待權利方逐項創作署名、音源規格與正版平台資料可讀後補齊；不由MV或團員簡介推錄音與歌唱。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "verifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://darwins-game.com/onair/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "broadcastTimeJst": "00:00"
+},
   {
     anilistId: 114417,
     id: "curated-114417",
@@ -283,59 +2491,433 @@ const curated2020WinterSeedRows: CuratedAnimeSeed[] = [
     verifiedAt: "2026-09-02",
   },
   {
-    anilistId: 104051,
-    id: "curated-104051",
-    slug: "magia-record-mahou-shoujo-madoka-magica-gaiden",
-    seasonIds: ["2020-winter"],
-    startDate: "2020-01-05",
-    titleJa: "マギアレコード 魔法少女まどか☆マギカ外伝",
-    titleZhHant: "魔法紀錄 魔法少女小圓外傳",
-    titleRomaji: "Magia Record: Mahou Shoujo Madoka☆Magica Gaiden",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104051-tFMIbiffwBLs.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/104051-6yiBdkd5OkZt.jpg",
-    editorialWeekday: 7,
-    broadcastLabel: "日本首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://anime.magireco.com/",
-    anilistUrl: "https://anilist.co/anime/104051",
-    imageSourceUrl: "https://anilist.co/anime/104051",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/277",
-      "https://acgsecrets.hk/anime/15/",
-      "https://annict.com/works/6244",
-    ],
-    animeThemesUrl:
-      "https://animethemes.moe/anime/magia_record_mahou_shoujo_madokamagica_gaiden",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "ごまかし",
-        titleRomaji: "Gomakashi",
-        artistDisplayName: "TrySail",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "アリシア",
-        titleRomaji: "Alicia",
-        artistDisplayName: "ClariS",
-      },
-      {
-        type: "ED",
-        sequence: 2,
-        titleJa: "ニグレド",
-        titleRomaji: "Nigredo",
-        artistDisplayName: "シト（from ReReGRAPHICS）",
-      },
-    ],
-    verifiedAt: "2026-09-02",
-  },
+  "anilistId": 104051,
+  "id": "curated-104051",
+  "slug": "magia-record-mahou-shoujo-madoka-magica-gaiden",
+  "seasonIds": [
+    "2020-winter"
+  ],
+  "startDate": "2020-01-05",
+  "titleJa": "マギアレコード 魔法少女まどか☆マギカ外伝",
+  "titleZhHant": "魔法紀錄 魔法少女小圓外傳",
+  "titleRomaji": "Magia Record: Mahou Shoujo Madoka☆Magica Gaiden",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104051-tFMIbiffwBLs.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/104051-6yiBdkd5OkZt.jpg",
+  "editorialWeekday": 7,
+  "broadcastLabel": "原期日本TV實際曆日／TOKYO MX",
+  "status": "finished",
+  "officialSiteUrl": "https://anime.magireco.com/",
+  "anilistUrl": "https://anilist.co/anime/104051",
+  "imageSourceUrl": "https://anilist.co/anime/104051",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/277",
+    "https://acgsecrets.hk/anime/15/",
+    "https://annict.com/works/6244"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/magia_record_mahou_shoujo_madokamagica_gaiden",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "ごまかし",
+      "titleRomaji": "Gomakashi",
+      "artistDisplayName": "TrySail",
+      "id": "magia-record-mahou-shoujo-madoka-magica-gaiden-op-1",
+      "songId": "magia-record-mahou-shoujo-madoka-magica-gaiden-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://anime.magireco.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/magia_record_mahou_shoujo_madokamagica_gaiden",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://anime.magireco.com/music/?id=1st",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E7%B4%80%E9%8C%84_%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%93%E5%A4%96%E5%82%B3",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://anime.magireco.com/news/?id=52555",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "TrySail",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://anime.magireco.com/music/?id=1st"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "magia-record-mahou-shoujo-madoka-magica-gaiden-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://anime.magireco.com/music/?id=1st"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "magia-record-mahou-shoujo-madoka-magica-gaiden-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E7%B4%80%E9%8C%84_%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%93%E5%A4%96%E5%82%B3"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "magia-record-mahou-shoujo-madoka-magica-gaiden-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E7%B4%80%E9%8C%84_%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%93%E5%A4%96%E5%82%B3"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "magia-record-mahou-shoujo-madoka-magica-gaiden-op-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本曲原名、正式演唱名義與原期冬季OP／ED用途已核；音源版本及發行平台細項待補。",
+          "resumeWhen": "待權利方逐項創作署名、音源規格與正版平台資料可讀後補齊；不由MV或團員簡介推錄音與歌唱。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "アリシア",
+      "titleRomaji": "Alicia",
+      "artistDisplayName": "ClariS",
+      "id": "magia-record-mahou-shoujo-madoka-magica-gaiden-ed-1",
+      "songId": "magia-record-mahou-shoujo-madoka-magica-gaiden-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://anime.magireco.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/magia_record_mahou_shoujo_madokamagica_gaiden",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://anime.magireco.com/music/?id=1st",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E7%B4%80%E9%8C%84_%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%93%E5%A4%96%E5%82%B3",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://anime.magireco.com/news/?id=52555",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "ClariS",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://anime.magireco.com/music/?id=1st"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "magia-record-mahou-shoujo-madoka-magica-gaiden-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://anime.magireco.com/music/?id=1st"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "magia-record-mahou-shoujo-madoka-magica-gaiden-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E7%B4%80%E9%8C%84_%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%93%E5%A4%96%E5%82%B3"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "magia-record-mahou-shoujo-madoka-magica-gaiden-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E7%B4%80%E9%8C%84_%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%93%E5%A4%96%E5%82%B3"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "magia-record-mahou-shoujo-madoka-magica-gaiden-ed-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本曲原名、正式演唱名義與原期冬季OP／ED用途已核；音源版本及發行平台細項待補。",
+          "resumeWhen": "待權利方逐項創作署名、音源規格與正版平台資料可讀後補齊；不由MV或團員簡介推錄音與歌唱。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "ニグレド",
+      "titleRomaji": "Nigredo",
+      "artistDisplayName": "シト（from ReReGRAPHICS）",
+      "id": "magia-record-mahou-shoujo-madoka-magica-gaiden-ed-2",
+      "songId": "magia-record-mahou-shoujo-madoka-magica-gaiden-ed-2-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://anime.magireco.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/magia_record_mahou_shoujo_madokamagica_gaiden",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://highwaystar.co.jp/news/20220124998/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E7%B4%80%E9%8C%84_%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%93%E5%A4%96%E5%82%B3",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://anime.magireco.com/news/?id=52555",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "シト（from ReReGRAPHICS）",
+          "role": "vocals"
+        },
+        {
+          "name": "シト",
+          "role": "lyrics"
+        },
+        {
+          "name": "尾澤拓実",
+          "role": "composition"
+        },
+        {
+          "name": "尾澤拓実",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://highwaystar.co.jp/news/20220124998/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "magia-record-mahou-shoujo-madoka-magica-gaiden-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://highwaystar.co.jp/news/20220124998/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "magia-record-mahou-shoujo-madoka-magica-gaiden-ed-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E7%B4%80%E9%8C%84_%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%93%E5%A4%96%E5%82%B3"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "magia-record-mahou-shoujo-madoka-magica-gaiden-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E7%B4%80%E9%8C%84_%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%93%E5%A4%96%E5%82%B3"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "magia-record-mahou-shoujo-madoka-magica-gaiden-ed-2"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://highwaystar.co.jp/news/20220124998/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links",
+            "basic_evidence"
+          ],
+          "note": "本曲第13話片尾用途、原名、冬季及創作署名已核；逐曲正式歌唱名義仍缺第一方直接資料。",
+          "resumeWhen": "待權利方逐曲明列歌唱名義後補核；不由組合成員介紹推本曲演唱。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "verifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://anime.magireco.com/news/?id=52555",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E7%B4%80%E9%8C%84_%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%93%E5%A4%96%E5%82%B3",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "broadcastTimeJst": "00:00"
+},
   {
     anilistId: 110090,
     id: "curated-110090",
@@ -452,49 +3034,278 @@ const curated2020WinterSeedRows: CuratedAnimeSeed[] = [
     verifiedAt: "2026-09-02",
   },
   {
-    anilistId: 101350,
-    id: "curated-101350",
-    slug: "pet",
-    seasonIds: ["2020-winter"],
-    startDate: "2020-01-06",
-    titleJa: "pet",
-    titleZhHant: "pet",
-    titleRomaji: "pet",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101350-nRjxYT3r6qTC.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101350-XpXykQcRZWK6.jpg",
-    editorialWeekday: 1,
-    broadcastLabel: "日本首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://pet-anime.com/",
-    anilistUrl: "https://anilist.co/anime/101350",
-    imageSourceUrl: "https://anilist.co/anime/101350",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/169",
-      "https://acgsecrets.hk/anime/19/",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/pet",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "蝶の飛ぶ水槽",
-        titleRomaji: "Chou no Tobu Suisou",
-        artistDisplayName: "TK from 凛として時雨",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "image _____",
-        artistDisplayName: "眩暈SIREN",
-      },
-    ],
-    verifiedAt: "2026-09-02",
-  },
+  "anilistId": 101350,
+  "id": "curated-101350",
+  "slug": "pet",
+  "seasonIds": [
+    "2020-winter"
+  ],
+  "startDate": "2020-01-06",
+  "titleJa": "pet",
+  "titleZhHant": "pet",
+  "titleRomaji": "pet",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101350-nRjxYT3r6qTC.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101350-XpXykQcRZWK6.jpg",
+  "editorialWeekday": 1,
+  "broadcastLabel": "TOKYO MX 原2020TV初回",
+  "status": "finished",
+  "officialSiteUrl": "https://pet-anime.com/",
+  "anilistUrl": "https://anilist.co/anime/101350",
+  "imageSourceUrl": "https://anilist.co/anime/101350",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/169",
+    "https://acgsecrets.hk/anime/19/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/pet",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "蝶の飛ぶ水槽",
+      "titleRomaji": "Chou no Tobu Suisou",
+      "artistDisplayName": "TK from 凛として時雨",
+      "id": "pet-op-1",
+      "songId": "pet-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://pet-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/pet",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://pet-anime.com/animation/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.animatetimes.com/news/details.php?id=1577803252",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "TK from 凛として時雨",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://pet-anime.com/animation/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "pet-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://pet-anime.com/animation/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "pet-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1577803252"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "pet-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1577803252"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "pet-op-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原期本曲身分、正式演唱名義及冬季用途已核；創作與音源發行細項待補。",
+          "resumeWhen": "待本曲逐項創作署名、音源版本及正版平台細項直接資料再補；不從商品或團員簡介推新錄音或個別歌唱。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "image _____",
+      "artistDisplayName": "眩暈SIREN",
+      "id": "pet-ed-1",
+      "songId": "pet-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://pet-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/pet",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://pet-anime.com/animation/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.animatetimes.com/news/details.php?id=1577803252",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "眩暈SIREN",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://pet-anime.com/animation/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "pet-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://pet-anime.com/animation/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "pet-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1577803252"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "pet-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1577803252"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "pet-ed-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原期本曲身分、正式演唱名義及冬季用途已核；創作與音源發行細項待補。",
+          "resumeWhen": "待本曲逐項創作署名、音源版本及正版平台細項直接資料再補；不從商品或團員簡介推新錄音或個別歌唱。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "verifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://pet-anime.com/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://www.animatetimes.com/news/details.php?id=1577803252",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "broadcastTimeJst": "22:00"
+},
   {
     anilistId: 104461,
     id: "curated-104461",
