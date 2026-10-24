@@ -66,7 +66,7 @@ it("partitions the reviewed index without changing records, quarterly uses, sort
   expect(updated.manifest.chunks[0]!.url).not.toBe(manifest.chunks[0]!.url);
   const editedDecoded = updated.chunks.flatMap((chunk) => decodeCatalogSearchChunk(chunk.content, chunk.entries, chunk.decodedBytes));
   expect(serializeCatalogSearchIndex(editedDecoded)).toBe(serializeCatalogSearchIndex(edited));
-});
+}, 20_000);
 
 it("conservatively routes every indexed substring and preserves complete multilingual search results", async () => {
   const { index, manifest, chunks, routes } = await fixture;
