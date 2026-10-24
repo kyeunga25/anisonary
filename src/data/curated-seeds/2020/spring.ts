@@ -18005,49 +18005,557 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
     ],
   }),
   spring2020Seed({
-    anilistId: 114233,
-    slug: "gundam-build-divers-rerise-2",
-    startDate: "2020-04-09",
-    titleJa: "ガンダムビルドダイバーズRe:RISE 2nd Season",
-    titleZhHant: "鋼彈創鬥者 潛網大戰 Re:RISE 第二季",
-    titleRomaji: "Gundam Build Divers Re:RISE 2nd Season",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114233-FUlAGLqFOVrT.jpg",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl: "https://www.sunrise-inc.co.jp/work/detail.php?cid=446",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/145",
-      "https://acgsecrets.hk/bangumi/202004/",
-    ],
-    animeThemesUrl:
-      "https://animethemes.moe/anime/gundam_build_divers_rerise_2nd_season",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "HATENA",
-        artistDisplayName: "PENGUIN RESEARCH",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "Twinkle",
-        artistDisplayName: "スピラ・スピカ",
-      },
-      {
-        type: "ED",
-        sequence: 2,
-        titleJa: "ハートフル",
-        artistDisplayName: "スピラ・スピカ",
-      },
-      {
-        type: "ED",
-        sequence: 3,
-        titleJa: "リライズ",
-        artistDisplayName: "スピラ・スピカ",
-      },
-    ],
-  }),
+  "anilistId": 114233,
+  "slug": "gundam-build-divers-rerise-2",
+  "startDate": "2020-04-11",
+  "titleJa": "ガンダムビルドダイバーズRe:RISE 2nd Season",
+  "titleZhHant": "鋼彈創鬥者 潛網大戰 Re:RISE 第二季",
+  "titleRomaji": "Gundam Build Divers Re:RISE 2nd Season",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114233-FUlAGLqFOVrT.jpg",
+  "broadcastLabel": "2020年4月11日19:00 BS11原TV首話；4月9日20:00為先行網絡配信",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/145",
+    "https://acgsecrets.hk/bangumi/202004/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/gundam_build_divers_rerise_2nd_season",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "HATENA",
+      "artistDisplayName": "PENGUIN RESEARCH",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.sunrise-inc.co.jp/work/topics.php?id=17649",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/gundam_build_divers_rerise_2nd_season",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.sunrise-inc.co.jp/work/news.php?id=17837",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%81%94%E5%89%B5%E6%88%B0%E6%BD%9B%E8%A1%8C%E8%80%85Re:RISE",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "links": [],
+      "id": "gundam-build-divers-rerise-2-op-1",
+      "songId": "gundam-build-divers-rerise-2-op-1-song",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "credits": [
+        {
+          "name": "PENGUIN RESEARCH",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.sunrise-inc.co.jp/work/topics.php?id=17649"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gundam-build-divers-rerise-2-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.sunrise-inc.co.jp/work/news.php?id=17837"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gundam-build-divers-rerise-2-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.sunrise-inc.co.jp/work/topics.php?id=17649"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gundam-build-divers-rerise-2-op-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.sunrise-inc.co.jp/work/news.php?id=17837"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gundam-build-divers-rerise-2-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%81%94%E5%89%B5%E6%88%B0%E6%BD%9B%E8%A1%8C%E8%80%85Re:RISE"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gundam-build-divers-rerise-2-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%81%94%E5%89%B5%E6%88%B0%E6%BD%9B%E8%A1%8C%E8%80%85Re:RISE"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gundam-build-divers-rerise-2-op-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "use_quarters"
+          ],
+          "note": "已證春季本曲OP；夏季逐曲延用缺直接原期分段證據，暫不由整作結束日補滿。",
+          "resumeWhen": "待夏季原期官方逐話OP署名或明示延用公告。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "Twinkle",
+      "artistDisplayName": "スピラ・スピカ",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.sunrise-inc.co.jp/work/topics.php?id=17649",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/gundam_build_divers_rerise_2nd_season",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.sunrise-inc.co.jp/work/news.php?id=17837",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%81%94%E5%89%B5%E6%88%B0%E6%BD%9B%E8%A1%8C%E8%80%85Re:RISE",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "links": [],
+      "id": "gundam-build-divers-rerise-2-ed-1",
+      "songId": "gundam-build-divers-rerise-2-ed-1-song",
+      "seasonIds": [
+        "2020-spring",
+        "2020-summer"
+      ],
+      "credits": [
+        {
+          "name": "スピラ・スピカ",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.sunrise-inc.co.jp/work/topics.php?id=17649"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gundam-build-divers-rerise-2-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.sunrise-inc.co.jp/work/news.php?id=17837"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gundam-build-divers-rerise-2-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.sunrise-inc.co.jp/work/topics.php?id=17649"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gundam-build-divers-rerise-2-ed-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.sunrise-inc.co.jp/work/news.php?id=17837"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gundam-build-divers-rerise-2-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%81%94%E5%89%B5%E6%88%B0%E6%BD%9B%E8%A1%8C%E8%80%85Re:RISE"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gundam-build-divers-rerise-2-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%81%94%E5%89%B5%E6%88%B0%E6%BD%9B%E8%A1%8C%E8%80%85Re:RISE"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gundam-build-divers-rerise-2-ed-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原名與正式名義、動畫用途已核；詞曲編無同頁逐項署名，留空。",
+          "resumeWhen": "待權利方同曲逐人詞曲編原文後補可選欄位。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "ハートフル",
+      "artistDisplayName": "スピラ・スピカ",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "label": "《鋼彈創鬥者 潛網大戰 Re:RISE 第二季》第一方歌曲資料：曲名與演唱者",
+          "url": "https://www.sunrise-inc.co.jp/work/topics.php?id=17649",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/gundam_build_divers_rerise_2nd_season",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.sunrise-inc.co.jp/work/news.php?id=17972",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%81%94%E5%89%B5%E6%88%B0%E6%BD%9B%E8%A1%8C%E8%80%85Re:RISE",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://spice.eplus.jp/articles/272601",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "links": [],
+      "id": "gundam-build-divers-rerise-2-ed-2",
+      "songId": "gundam-build-divers-rerise-2-ed-2-song",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "credits": [
+        {
+          "name": "スピラ・スピカ",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.sunrise-inc.co.jp/work/news.php?id=17972"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gundam-build-divers-rerise-2-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.sunrise-inc.co.jp/work/news.php?id=17972"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gundam-build-divers-rerise-2-ed-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%81%94%E5%89%B5%E6%88%B0%E6%BD%9B%E8%A1%8C%E8%80%85Re:RISE"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gundam-build-divers-rerise-2-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%81%94%E5%89%B5%E6%88%B0%E6%BD%9B%E8%A1%8C%E8%80%85Re:RISE"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gundam-build-divers-rerise-2-ed-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://spice.eplus.jp/articles/272601"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gundam-build-divers-rerise-2-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://spice.eplus.jp/articles/272601"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gundam-build-divers-rerise-2-ed-2"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原名與正式名義、動畫用途已核；詞曲編無同頁逐項署名，留空。",
+          "resumeWhen": "待權利方同曲逐人詞曲編原文後補可選欄位。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 3,
+      "titleJa": "リライズ",
+      "artistDisplayName": "スピラ・スピカ",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "label": "《鋼彈創鬥者 潛網大戰 Re:RISE 第二季》第一方歌曲資料：曲名與演唱者",
+          "url": "https://www.sunrise-inc.co.jp/work/topics.php?id=17649",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/gundam_build_divers_rerise_2nd_season",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.sunrise-inc.co.jp/work/news.php?id=17837",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://gundam.wiki.cre.jp/wiki/%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%93%E3%83%AB%E3%83%89%E3%83%80%E3%82%A4%E3%83%90%E3%83%BC%E3%82%BARe:RISE",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "links": [],
+      "id": "gundam-build-divers-rerise-2-ed-3",
+      "songId": "gundam-build-divers-rerise-2-ed-3-song",
+      "seasonIds": [],
+      "credits": [
+        {
+          "name": "スピラ・スピカ",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.sunrise-inc.co.jp/work/news.php?id=17837"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gundam-build-divers-rerise-2-ed-3-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://gundam.wiki.cre.jp/wiki/%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%93%E3%83%AB%E3%83%89%E3%83%80%E3%82%A4%E3%83%90%E3%83%BC%E3%82%BARe:RISE"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "gundam-build-divers-rerise-2-ed-3-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "basic_evidence",
+            "use_quarters"
+          ],
+          "note": "第一方目前只證本曲為1st Season OP；交叉列第26話ED，尚缺第一方最終話ED用途。",
+          "resumeWhen": "待原期官方最終話音樂署名或明示本曲作第26話ED的公告；保留既有ID與序號。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://www.sunrise-inc.co.jp/work/news.php?id=17502",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://gundam.wiki.cre.jp/wiki/%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%93%E3%83%AB%E3%83%89%E3%83%80%E3%82%A4%E3%83%90%E3%83%BC%E3%82%BARe:RISE",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "editorialWeekday": 6,
+  "broadcastTimeJst": "19:00",
+  "seasonIds": [
+    "2020-spring",
+    "2020-summer"
+  ]
+}),
   spring2020Seed({
   "anilistId": 112444,
   "slug": "appare-ranman",
@@ -21597,36 +22105,227 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
     ],
   }),
   spring2020Seed({
-    anilistId: 108522,
-    slug: "baki-dai-raitaisai-hen",
-    startDate: "2020-06-04",
-    titleJa: "バキ 大擂台賽編",
-    titleZhHant: "刃牙 大擂賽篇",
-    titleRomaji: "Baki: Dai Raitaisai-hen",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108522-XQmYISWCnTGg.jpg",
-    broadcastLabel: "全球網絡首播",
-    officialSiteUrl: "https://baki-anime.jp/2nd/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/184",
-      "https://acgsecrets.hk/bangumi/202004/",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/baki_2nd_season",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "情熱は覚えている",
-        artistDisplayName: "GRANRODEO",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "DEAD STROKE",
-        artistDisplayName: "藤田恵名",
-      },
-    ],
-  }),
+  "anilistId": 108522,
+  "slug": "baki-dai-raitaisai-hen",
+  "startDate": "2020-06-04",
+  "titleJa": "バキ 大擂台賽編",
+  "titleZhHant": "刃牙 大擂賽篇",
+  "titleRomaji": "Baki: Dai Raitaisai-hen",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108522-XQmYISWCnTGg.jpg",
+  "broadcastLabel": "全球網絡首播",
+  "officialSiteUrl": "https://baki-anime.jp/2nd/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/184",
+    "https://acgsecrets.hk/bangumi/202004/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/baki_2nd_season",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "情熱は覚えている",
+      "artistDisplayName": "GRANRODEO",
+      "id": "baki-dai-raitaisai-hen-op-1",
+      "songId": "baki-dai-raitaisai-hen-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://baki-anime.jp/2nd/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/baki_2nd_season",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://baki-anime.jp/2nd/products/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%88%83%E7%89%99",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "GRANRODEO",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://baki-anime.jp/2nd/products/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "baki-dai-raitaisai-hen-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%88%83%E7%89%99"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "baki-dai-raitaisai-hen-op-1-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "歌曲身分有第一方與交叉正文；本期日本TV用途季度仍待直接播出日期證據。",
+          "resumeWhen": "待同版日本TV首日直接公告及逐曲用曲交叉，再核用途季度；不以Netflix日期或CD發行日推季。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "DEAD STROKE",
+      "artistDisplayName": "藤田恵名",
+      "id": "baki-dai-raitaisai-hen-ed-1",
+      "songId": "baki-dai-raitaisai-hen-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://baki-anime.jp/2nd/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/baki_2nd_season",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://baki-anime.jp/2nd/products/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%88%83%E7%89%99",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "藤田恵名",
+          "role": "vocals"
+        },
+        {
+          "name": "藤田恵名",
+          "role": "lyrics"
+        },
+        {
+          "name": "田渕ガー子",
+          "role": "composition"
+        },
+        {
+          "name": "田渕ガー子",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://baki-anime.jp/2nd/products/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "baki-dai-raitaisai-hen-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%88%83%E7%89%99"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "baki-dai-raitaisai-hen-ed-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://baki-anime.jp/2nd/products/music/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "歌曲身分有第一方與交叉正文；本期日本TV用途季度仍待直接播出日期證據。",
+          "resumeWhen": "待同版日本TV首日直接公告及逐曲用曲交叉，再核用途季度；不以Netflix日期或CD發行日推季。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [],
+  "seasonIds": [
+    "2020-spring"
+  ]
+}),
 ];
 
 export const curated2020SpringSeeds: CuratedAnimeSeed[] =

@@ -426,7 +426,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     titleZhHant: "夏季動畫",
     titleJa: "2020年夏アニメ",
     seeds: curated2020SummerSeeds,
-    animeIds: [...curated2020SummerAnimeIds, 21, 112153, 235, 112302, 114072, 114411, 113990, 114717, 114811, 109019, 111762, 116793, 118630, 112325, 112444, 113051, 114043, 114402, 114888, 124341]
+    animeIds: [...curated2020SummerAnimeIds, 21, 112153, 235, 112302, 114072, 114411, 113990, 114717, 114811, 109019, 111762, 116793, 118630, 112325, 112444, 113051, 114043, 114402, 114888, 124341, 114233]
   },
   {
     id: "2020-spring",
