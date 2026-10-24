@@ -3345,101 +3345,613 @@ const curated2020WinterSeedRows: CuratedAnimeSeed[] = [
     verifiedAt: "2026-09-02",
   },
   {
-    anilistId: 109298,
-    id: "curated-109298",
-    slug: "eizouken-ni-wa-te-wo-dasu-na",
-    seasonIds: ["2020-winter"],
-    startDate: "2020-01-06",
-    titleJa: "映像研には手を出すな！",
-    titleZhHant: "別對映像研出手！",
-    titleRomaji: "Eizouken ni wa Te wo Dasu na!",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109298-suwdIUbJEPJx.png",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/109298-ej4YYg87HHoA.jpg",
-    editorialWeekday: 1,
-    broadcastLabel: "日本首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://eizouken-anime.com/",
-    anilistUrl: "https://anilist.co/anime/109298",
-    imageSourceUrl: "https://anilist.co/anime/109298",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/149",
-      "https://acgsecrets.hk/anime/21/",
-      "https://annict.com/works/6665",
-    ],
-    animeThemesUrl:
-      "https://animethemes.moe/anime/eizouken_ni_wa_te_wo_dasu_na",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "Easy Breezy",
-        artistDisplayName: "chelmico",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "名前のない青",
-        titleRomaji: "Namae no Nai Ao",
-        artistDisplayName: "神様、僕は気づいてしまった",
-      },
-    ],
-    verifiedAt: "2026-09-02",
-  },
+  "anilistId": 109298,
+  "id": "curated-109298",
+  "slug": "eizouken-ni-wa-te-wo-dasu-na",
+  "seasonIds": [
+    "2020-winter"
+  ],
+  "startDate": "2020-01-06",
+  "titleJa": "映像研には手を出すな！",
+  "titleZhHant": "別對映像研出手！",
+  "titleRomaji": "Eizouken ni wa Te wo Dasu na!",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109298-suwdIUbJEPJx.png",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/109298-ej4YYg87HHoA.jpg",
+  "editorialWeekday": 1,
+  "broadcastLabel": "2020年1月5日24:10 NHK総合原TV（實曆1月6日00:10）",
+  "status": "finished",
+  "officialSiteUrl": "https://eizouken-anime.com/",
+  "anilistUrl": "https://anilist.co/anime/109298",
+  "imageSourceUrl": "https://anilist.co/anime/109298",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/149",
+    "https://acgsecrets.hk/anime/21/",
+    "https://annict.com/works/6665"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/eizouken_ni_wa_te_wo_dasu_na",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "Easy Breezy",
+      "artistDisplayName": "chelmico",
+      "id": "eizouken-ni-wa-te-wo-dasu-na-op-1",
+      "songId": "eizouken-ni-wa-te-wo-dasu-na-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://eizouken-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/eizouken_ni_wa_te_wo_dasu_na",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://wmg.jp/chelmico/news/85303/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.lisani.jp/0000142464/",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "chelmico",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://wmg.jp/chelmico/news/85303/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "eizouken-ni-wa-te-wo-dasu-na-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.lisani.jp/0000142464/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "eizouken-ni-wa-te-wo-dasu-na-op-1-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "兩輪後已核曲名/chelmico身份，原官網不可讀且唱片公告僅收錄曲，未取得直接第一方OP用途；保留待核。",
+          "resumeWhen": "待原期第一方逐曲用途及必要署名出現後補；不由商品或影片標題推用途。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "名前のない青",
+      "titleRomaji": "Namae no Nai Ao",
+      "artistDisplayName": "神様、僕は気づいてしまった",
+      "id": "eizouken-ni-wa-te-wo-dasu-na-ed-1",
+      "songId": "eizouken-ni-wa-te-wo-dasu-na-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://eizouken-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/eizouken_ni_wa_te_wo_dasu_na",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://sp.wmg.jp/kamiboku/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.lisani.jp/0000142464/",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "神様、僕は気づいてしまった",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://sp.wmg.jp/kamiboku/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "eizouken-ni-wa-te-wo-dasu-na-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://sp.wmg.jp/kamiboku/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "eizouken-ni-wa-te-wo-dasu-na-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.lisani.jp/0000142464/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "eizouken-ni-wa-te-wo-dasu-na-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.lisani.jp/0000142464/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "eizouken-ni-wa-te-wo-dasu-na-ed-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "藝人官方明本期ED與原播日期，Lisani同名義交叉；不把配信發售日當播出日。",
+          "resumeWhen": "待同頁可證詞曲編等可選資料後補；原影音與未讀日期保留。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "verifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://sp.wmg.jp/kamiboku/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://www.mau2.com/anime/eizoukennihatewodasuna/ep/1",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://www.lisani.jp/0000142464/",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "broadcastTimeJst": "00:10"
+},
   {
-    anilistId: 110350,
-    id: "curated-110350",
-    slug: "id-invaded",
-    seasonIds: ["2020-winter"],
-    startDate: "2020-01-06",
-    titleJa: "イド：インヴェイデッド",
-    titleZhHant: "ID:INVADED",
-    titleRomaji: "ID: INVADED",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110350-uchN78wglmhN.png",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110350-kJfEuQ4Cx4j1.jpg",
-    editorialWeekday: 1,
-    broadcastLabel: "日本首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://id-invaded-anime.com/",
-    anilistUrl: "https://anilist.co/anime/110350",
-    imageSourceUrl: "https://anilist.co/anime/110350",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/123",
-      "https://acgsecrets.hk/anime/17/",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/idinvaded",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "ミスターフィクサー",
-        titleRomaji: "Mr. Fixer",
-        artistDisplayName: "Sou",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "Other Side",
-        artistDisplayName: "MIYAVI",
-      },
-      {
-        type: "ED",
-        sequence: 2,
-        titleJa: "UP",
-        artistDisplayName: "MIYAVI",
-      },
-    ],
-    verifiedAt: "2026-09-02",
-  },
+  "anilistId": 110350,
+  "id": "curated-110350",
+  "slug": "id-invaded",
+  "seasonIds": [
+    "2020-winter"
+  ],
+  "startDate": "2020-01-06",
+  "titleJa": "イド：インヴェイデッド",
+  "titleZhHant": "ID:INVADED",
+  "titleRomaji": "ID: INVADED",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110350-uchN78wglmhN.png",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110350-kJfEuQ4Cx4j1.jpg",
+  "editorialWeekday": 1,
+  "broadcastLabel": "2020年1月5日24:00 TOKYO MX/BS11初回兩話連播（實曆1月6日00:00）；通常24:30另列",
+  "status": "finished",
+  "officialSiteUrl": "https://id-invaded-anime.com/",
+  "anilistUrl": "https://anilist.co/anime/110350",
+  "imageSourceUrl": "https://anilist.co/anime/110350",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/123",
+    "https://acgsecrets.hk/anime/17/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/idinvaded",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "ミスターフィクサー",
+      "titleRomaji": "Mr. Fixer",
+      "artistDisplayName": "Sou",
+      "id": "id-invaded-op-1",
+      "songId": "id-invaded-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://id-invaded-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/idinvaded",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://id-invaded-anime.com/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://w.atwiki.jp/id_userpg/pages/816.html",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Sou",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://id-invaded-anime.com/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "id-invaded-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://id-invaded-anime.com/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "id-invaded-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://w.atwiki.jp/id_userpg/pages/816.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "id-invaded-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://w.atwiki.jp/id_userpg/pages/816.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "id-invaded-op-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期官方OP曲名與Sou名義，獨立逐話整理交叉。",
+          "resumeWhen": "待同頁可證詞曲編等可選資料後補；原影音與未讀日期保留。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "Other Side",
+      "artistDisplayName": "MIYAVI",
+      "id": "id-invaded-ed-1",
+      "songId": "id-invaded-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://id-invaded-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/idinvaded",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://id-invaded-anime.com/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://w.atwiki.jp/id_userpg/pages/816.html",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "MIYAVI",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://id-invaded-anime.com/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "id-invaded-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://id-invaded-anime.com/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "id-invaded-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://w.atwiki.jp/id_userpg/pages/816.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "id-invaded-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://w.atwiki.jp/id_userpg/pages/816.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "id-invaded-ed-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期官方ED Other Side/MIYAVI，獨立逐話整理交叉。",
+          "resumeWhen": "待同頁可證詞曲編等可選資料後補；原影音與未讀日期保留。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "UP",
+      "artistDisplayName": "MIYAVI",
+      "id": "id-invaded-ed-2",
+      "songId": "id-invaded-ed-2-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://id-invaded-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/idinvaded",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://w.atwiki.jp/id_userpg/pages/816.html",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "MIYAVI",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://w.atwiki.jp/id_userpg/pages/816.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "id-invaded-ed-2-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "兩輪後cross與逐話記錄明UP為最終話ED，但官方music只明MIYAVI各話參與，未取得UP逐曲第一方最終ED用途，不以IN或藝人泛稱補權限。",
+          "resumeWhen": "待原期第一方逐曲用途及必要署名出現後補；不由商品或影片標題推用途。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "verifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://id-invaded-anime.com/onair/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://youranimes.tw/animes/123",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "broadcastTimeJst": "00:00"
+},
   {
     anilistId: 114657,
     id: "curated-114657",
@@ -3479,98 +3991,774 @@ const curated2020WinterSeedRows: CuratedAnimeSeed[] = [
     verifiedAt: "2026-09-02",
   },
   {
-    anilistId: 101367,
-    id: "curated-101367",
-    slug: "majutsushi-orphen-hagure-tabi",
-    seasonIds: ["2020-winter"],
-    startDate: "2020-01-07",
-    titleJa: "魔術士オーフェンはぐれ旅",
-    titleZhHant: "魔術士歐菲流浪之旅",
-    titleRomaji: "Majutsushi Orphen Hagure Tabi",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101367-8z688YGVx0C3.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101367-VaO36ryPRywI.jpg",
-    editorialWeekday: 2,
-    broadcastLabel: "日本首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://ssorphen-anime.com/1st/",
-    anilistUrl: "https://anilist.co/anime/101367",
-    imageSourceUrl: "https://anilist.co/anime/101367",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/308",
-      "https://acgsecrets.hk/anime/27/",
-      "https://annict.com/works/6422",
-    ],
-    animeThemesUrl:
-      "https://animethemes.moe/anime/majutsushi_orphen_hagure_tabi",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "Calling U",
-        artistDisplayName: "buzz★Vibes",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "予測不能Days",
-        titleRomaji: "Yosoku Funou Days",
-        artistDisplayName: "渕上舞",
-      },
-    ],
-    verifiedAt: "2026-09-02",
-  },
+  "anilistId": 101367,
+  "id": "curated-101367",
+  "slug": "majutsushi-orphen-hagure-tabi",
+  "seasonIds": [
+    "2020-winter"
+  ],
+  "startDate": "2020-01-07",
+  "titleJa": "魔術士オーフェンはぐれ旅",
+  "titleZhHant": "魔術士歐菲流浪之旅",
+  "titleRomaji": "Majutsushi Orphen Hagure Tabi",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101367-8z688YGVx0C3.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101367-VaO36ryPRywI.jpg",
+  "editorialWeekday": 2,
+  "broadcastLabel": "AT-X原2020TV初回",
+  "status": "finished",
+  "officialSiteUrl": "https://ssorphen-anime.com/1st/",
+  "anilistUrl": "https://anilist.co/anime/101367",
+  "imageSourceUrl": "https://anilist.co/anime/101367",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/308",
+    "https://acgsecrets.hk/anime/27/",
+    "https://annict.com/works/6422"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/majutsushi_orphen_hagure_tabi",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "Calling U",
+      "artistDisplayName": "buzz★Vibes",
+      "id": "majutsushi-orphen-hagure-tabi-op-1",
+      "songId": "majutsushi-orphen-hagure-tabi-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://ssorphen-anime.com/1st/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/majutsushi_orphen_hagure_tabi",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://ssorphen-anime.com/1st/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://morikuboshowtaro.lantis.jp/discography/calling-u%E3%80%90%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88%E7%9B%A4%E3%80%91/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.animatetimes.com/news/details.php?id=1580193813&p=2",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.deen.co.jp/news/20191220",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "buzz★Vibes",
+          "role": "vocals"
+        },
+        {
+          "name": "森久保祥太郎",
+          "role": "lyrics"
+        },
+        {
+          "name": "Shinnosuke",
+          "role": "composition"
+        },
+        {
+          "name": "Shinnosuke",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://ssorphen-anime.com/1st/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "majutsushi-orphen-hagure-tabi-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://morikuboshowtaro.lantis.jp/discography/calling-u%E3%80%90%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88%E7%9B%A4%E3%80%91/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "majutsushi-orphen-hagure-tabi-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://ssorphen-anime.com/1st/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "majutsushi-orphen-hagure-tabi-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1580193813&p=2"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "majutsushi-orphen-hagure-tabi-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1580193813&p=2"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "majutsushi-orphen-hagure-tabi-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://morikuboshowtaro.lantis.jp/discography/calling-u%E3%80%90%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88%E7%9B%A4%E3%80%91/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原期本曲原名、正式演唱名義與冬季用途及逐項創作署名已核；音源規格與正版發行平台細項仍待補齊。",
+          "resumeWhen": "待權利方公開音源版本、官方影片及各正版平台項目後補核；不從商品附錄或團員介紹推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "予測不能Days",
+      "titleRomaji": "Yosoku Funou Days",
+      "artistDisplayName": "渕上舞",
+      "id": "majutsushi-orphen-hagure-tabi-ed-1",
+      "songId": "majutsushi-orphen-hagure-tabi-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://ssorphen-anime.com/1st/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/majutsushi_orphen_hagure_tabi",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://ssorphen-anime.com/1st/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://mai-fuchigami.lantis.jp/discography/%E4%B8%A1a%E9%9D%A2%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8C%E4%BA%88%E6%B8%AC%E4%B8%8D%E8%83%BDdays%EF%BC%88tv%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E9%AD%94%E8%A1%93%E5%A3%AB%E3%82%AA%E3%83%BC/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.uta-net.com/song/280915/",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.deen.co.jp/news/20191220",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "渕上舞",
+          "role": "vocals"
+        },
+        {
+          "name": "渕上舞",
+          "role": "lyrics"
+        },
+        {
+          "name": "土田拓郎",
+          "role": "composition"
+        },
+        {
+          "name": "福富雅之",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://ssorphen-anime.com/1st/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "majutsushi-orphen-hagure-tabi-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://mai-fuchigami.lantis.jp/discography/%E4%B8%A1a%E9%9D%A2%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8C%E4%BA%88%E6%B8%AC%E4%B8%8D%E8%83%BDdays%EF%BC%88tv%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E9%AD%94%E8%A1%93%E5%A3%AB%E3%82%AA%E3%83%BC/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "majutsushi-orphen-hagure-tabi-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://ssorphen-anime.com/1st/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "majutsushi-orphen-hagure-tabi-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.uta-net.com/song/280915/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "majutsushi-orphen-hagure-tabi-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.uta-net.com/song/280915/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "majutsushi-orphen-hagure-tabi-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://mai-fuchigami.lantis.jp/discography/%E4%B8%A1a%E9%9D%A2%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8C%E4%BA%88%E6%B8%AC%E4%B8%8D%E8%83%BDdays%EF%BC%88tv%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E9%AD%94%E8%A1%93%E5%A3%AB%E3%82%AA%E3%83%BC/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原期本曲原名、正式演唱名義與冬季用途及逐項創作署名已核；音源規格與正版發行平台細項仍待補齊。",
+          "resumeWhen": "待權利方公開音源版本、官方影片及各正版平台項目後補核；不從商品附錄或團員介紹推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "verifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://www.deen.co.jp/news/20191220",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E9%AD%94%E8%A1%93%E5%B8%AB%E6%AD%90%E8%8F%B2",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "broadcastTimeJst": "23:00"
+},
   {
-    anilistId: 112293,
-    id: "curated-112293",
-    slug: "murenase-seton-gakuen",
-    seasonIds: ["2020-winter"],
-    startDate: "2020-01-07",
-    titleJa: "群れなせ！シートン学園",
-    titleZhHant: "成群結伴！西頓學園",
-    titleRomaji: "Murenase! Seton Gakuen",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112293-UXFSGOfRbBe8.png",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112293-dgnTgHiXyAIc.jpg",
-    editorialWeekday: 2,
-    broadcastLabel: "日本首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://anime-seton.jp/",
-    anilistUrl: "https://anilist.co/anime/112293",
-    imageSourceUrl: "https://anilist.co/anime/112293",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/101",
-      "https://acgsecrets.hk/anime/23/",
-      "https://annict.com/works/6987",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/murenase_seton_gakuen",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "学園壮観Zoo",
-        titleRomaji: "Gakuen Soukan Zoo",
-        artistDisplayName:
-          "木野日菜、石谷春貴、宮本侑芽、久野美咲、小原好美、徳井青空",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "オオカミブルース",
-        titleRomaji: "Ookami Blues",
-        artistDisplayName: "木野日菜",
-      },
-    ],
-    verifiedAt: "2026-09-02",
-  },
+  "anilistId": 112293,
+  "id": "curated-112293",
+  "slug": "murenase-seton-gakuen",
+  "seasonIds": [
+    "2020-winter"
+  ],
+  "startDate": "2020-01-07",
+  "titleJa": "群れなせ！シートン学園",
+  "titleZhHant": "成群結伴！西頓學園",
+  "titleRomaji": "Murenase! Seton Gakuen",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112293-UXFSGOfRbBe8.png",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112293-dgnTgHiXyAIc.jpg",
+  "editorialWeekday": 2,
+  "broadcastLabel": "TOKYO MX原2020TV初回／1月6日24:30實日",
+  "status": "finished",
+  "officialSiteUrl": "https://anime-seton.jp/",
+  "anilistUrl": "https://anilist.co/anime/112293",
+  "imageSourceUrl": "https://anilist.co/anime/112293",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/101",
+    "https://acgsecrets.hk/anime/23/",
+    "https://annict.com/works/6987"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/murenase_seton_gakuen",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "学園壮観Zoo",
+      "titleRomaji": "Gakuen Soukan Zoo",
+      "artistDisplayName": "大狼 ランカ（CV.木野 日菜）／間様 人（CV.石谷 春貴）／牝野 瞳（CV.宮本 侑芽）／子守 ユカリ（CV.久野 美咲）／獣生 ミユビ（CV.小原 好美）／猫米 クルミ（CV.徳井 青空）",
+      "id": "murenase-seton-gakuen-op-1",
+      "songId": "murenase-seton-gakuen-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "url": "https://anime-seton.jp/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/murenase_seton_gakuen",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://anime-seton.jp/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%88%90%E7%BE%A4%E7%B5%90%E4%BC%B4%EF%BC%81%E8%A5%BF%E9%A0%93%E5%AD%B8%E5%9C%92",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E7%BE%A4%E3%82%8C%E3%81%AA%E3%81%9B%21%E3%82%B7%E3%83%BC%E3%83%88%E3%83%B3%E5%AD%A6%E5%9C%92",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "木野日菜、石谷春貴、宮本侑芽、久野美咲、小原好美、徳井青空",
+          "role": "vocals"
+        },
+        {
+          "name": "古屋 真",
+          "role": "lyrics"
+        },
+        {
+          "name": "加藤 裕介",
+          "role": "composition"
+        },
+        {
+          "name": "加藤 裕介",
+          "role": "arrangement"
+        },
+        {
+          "name": "大狼 ランカ（CV.木野 日菜）",
+          "role": "vocals"
+        },
+        {
+          "name": "間様 人（CV.石谷 春貴）",
+          "role": "vocals"
+        },
+        {
+          "name": "牝野 瞳（CV.宮本 侑芽）",
+          "role": "vocals"
+        },
+        {
+          "name": "子守 ユカリ（CV.久野 美咲）",
+          "role": "vocals"
+        },
+        {
+          "name": "獣生 ミユビ（CV.小原 好美）",
+          "role": "vocals"
+        },
+        {
+          "name": "猫米 クルミ（CV.徳井 青空）",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://anime-seton.jp/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "murenase-seton-gakuen-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://anime-seton.jp/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "murenase-seton-gakuen-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%88%90%E7%BE%A4%E7%B5%90%E4%BC%B4%EF%BC%81%E8%A5%BF%E9%A0%93%E5%AD%B8%E5%9C%92"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "murenase-seton-gakuen-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%88%90%E7%BE%A4%E7%B5%90%E4%BC%B4%EF%BC%81%E8%A5%BF%E9%A0%93%E5%AD%B8%E5%9C%92"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "murenase-seton-gakuen-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/%E7%BE%A4%E3%82%8C%E3%81%AA%E3%81%9B%21%E3%82%B7%E3%83%BC%E3%83%88%E3%83%B3%E5%AD%A6%E5%9C%92"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "murenase-seton-gakuen-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/%E7%BE%A4%E3%82%8C%E3%81%AA%E3%81%9B%21%E3%82%B7%E3%83%BC%E3%83%88%E3%83%B3%E5%AD%A6%E5%9C%92"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "murenase-seton-gakuen-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://anime-seton.jp/music/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原期本曲原名、正式演唱名義與冬季用途及逐項創作署名已核；音源規格與正版發行平台細項仍待補齊。",
+          "resumeWhen": "待權利方公開音源版本、官方影片及各正版平台項目後補核；不從商品附錄或團員介紹推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "オオカミブルース",
+      "titleRomaji": "Ookami Blues",
+      "artistDisplayName": "大狼 ランカ（CV.木野 日菜）",
+      "id": "murenase-seton-gakuen-ed-1",
+      "songId": "murenase-seton-gakuen-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "url": "https://anime-seton.jp/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/murenase_seton_gakuen",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://anime-seton.jp/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%88%90%E7%BE%A4%E7%B5%90%E4%BC%B4%EF%BC%81%E8%A5%BF%E9%A0%93%E5%AD%B8%E5%9C%92",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E7%BE%A4%E3%82%8C%E3%81%AA%E3%81%9B%21%E3%82%B7%E3%83%BC%E3%83%88%E3%83%B3%E5%AD%A6%E5%9C%92",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "木野日菜",
+          "role": "vocals"
+        },
+        {
+          "name": "古屋 真",
+          "role": "lyrics"
+        },
+        {
+          "name": "山下 洋介",
+          "role": "composition"
+        },
+        {
+          "name": "山下 洋介",
+          "role": "arrangement"
+        },
+        {
+          "name": "大狼 ランカ（CV.木野 日菜）",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://anime-seton.jp/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "murenase-seton-gakuen-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://anime-seton.jp/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "murenase-seton-gakuen-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%88%90%E7%BE%A4%E7%B5%90%E4%BC%B4%EF%BC%81%E8%A5%BF%E9%A0%93%E5%AD%B8%E5%9C%92"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "murenase-seton-gakuen-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%88%90%E7%BE%A4%E7%B5%90%E4%BC%B4%EF%BC%81%E8%A5%BF%E9%A0%93%E5%AD%B8%E5%9C%92"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "murenase-seton-gakuen-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/%E7%BE%A4%E3%82%8C%E3%81%AA%E3%81%9B%21%E3%82%B7%E3%83%BC%E3%83%88%E3%83%B3%E5%AD%A6%E5%9C%92"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "murenase-seton-gakuen-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/%E7%BE%A4%E3%82%8C%E3%81%AA%E3%81%9B%21%E3%82%B7%E3%83%BC%E3%83%88%E3%83%B3%E5%AD%A6%E5%9C%92"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "murenase-seton-gakuen-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://anime-seton.jp/music/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原期本曲原名、正式演唱名義與冬季用途及逐項創作署名已核；音源規格與正版發行平台細項仍待補齊。",
+          "resumeWhen": "待權利方公開音源版本、官方影片及各正版平台項目後補核；不從商品附錄或團員介紹推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "verifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://anime-seton.jp/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E6%88%90%E7%BE%A4%E7%B5%90%E4%BC%B4%EF%BC%81%E8%A5%BF%E9%A0%93%E5%AD%B8%E5%9C%92",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "broadcastTimeJst": "00:30"
+},
   {
     anilistId: 113397,
     id: "curated-113397",
@@ -3669,109 +4857,994 @@ const curated2020WinterSeedRows: CuratedAnimeSeed[] = [
     verifiedAt: "2026-09-02",
   },
   {
-    anilistId: 106479,
-    id: "curated-106479",
-    slug: "itai-no-wa-iya-nano-de-bougyoryoku-ni-kyokufuri-shitai-to-omoimasu",
-    seasonIds: ["2020-winter"],
-    startDate: "2020-01-08",
-    titleJa: "痛いのは嫌なので防御力に極振りしたいと思います。",
-    titleZhHant: "怕痛的我，把防禦力點滿就對了。",
-    titleRomaji:
-      "Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu.",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx106479-JmPk1F5ubMtm.png",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/106479-G1rExJ4m8Be3.jpg",
-    editorialWeekday: 3,
-    broadcastLabel: "日本首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://bofuri.jp/",
-    anilistUrl: "https://anilist.co/anime/106479",
-    imageSourceUrl: "https://anilist.co/anime/106479",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/2",
-      "https://acgsecrets.hk/anime/26/",
-      "https://annict.com/works/6399",
-    ],
-    animeThemesUrl:
-      "https://animethemes.moe/anime/itai_no_wa_iya_nano_de_bougyoryoku_ni_kyokufuri_shitai_to_omoimasu",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "究極アンバランス！",
-        titleRomaji: "Kyuukyoku Unbalance!",
-        artistDisplayName: "純情のアフィリア",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "Play the world",
-        artistDisplayName: "佐々木李子",
-      },
-    ],
-    verifiedAt: "2026-09-02",
-  },
+  "anilistId": 106479,
+  "id": "curated-106479",
+  "slug": "itai-no-wa-iya-nano-de-bougyoryoku-ni-kyokufuri-shitai-to-omoimasu",
+  "seasonIds": [
+    "2020-winter"
+  ],
+  "startDate": "2020-01-08",
+  "titleJa": "痛いのは嫌なので防御力に極振りしたいと思います。",
+  "titleZhHant": "怕痛的我，把防禦力點滿就對了。",
+  "titleRomaji": "Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu.",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx106479-JmPk1F5ubMtm.png",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/106479-G1rExJ4m8Be3.jpg",
+  "editorialWeekday": 3,
+  "broadcastLabel": "2020年1月8日22:00 AT-X原TV；22:30另為配信",
+  "status": "finished",
+  "officialSiteUrl": "https://bofuri.jp/",
+  "anilistUrl": "https://anilist.co/anime/106479",
+  "imageSourceUrl": "https://anilist.co/anime/106479",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/2",
+    "https://acgsecrets.hk/anime/26/",
+    "https://annict.com/works/6399"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/itai_no_wa_iya_nano_de_bougyoryoku_ni_kyokufuri_shitai_to_omoimasu",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "究極アンバランス！",
+      "titleRomaji": "Kyuukyoku Unbalance!",
+      "artistDisplayName": "純情のアフィリア",
+      "id": "itai-no-wa-iya-nano-de-bougyoryoku-ni-kyokufuri-shitai-to-omoimasu-op-1",
+      "songId": "itai-no-wa-iya-nano-de-bougyoryoku-ni-kyokufuri-shitai-to-omoimasu-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://bofuri.jp/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/itai_no_wa_iya_nano_de_bougyoryoku_ni_kyokufuri_shitai_to_omoimasu",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "Stand-Up! Records 官方影片",
+          "url": "https://www.youtube.com/watch?v=s1pyKKLbDx0",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://bofuri.jp/season1/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%80%95%E7%97%9B%E7%9A%84%E6%88%91%EF%BC%8C%E6%8A%8A%E9%98%B2%E7%A6%A6%E5%8A%9B%E9%BB%9E%E6%BB%BF%E5%B0%B1%E5%B0%8D%E4%BA%86",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "純情のアフィリア",
+          "role": "vocals"
+        },
+        {
+          "name": "志倉千代丸",
+          "role": "lyrics"
+        },
+        {
+          "name": "志倉千代丸",
+          "role": "composition"
+        },
+        {
+          "name": "悠木真一",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://bofuri.jp/season1/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "itai-no-wa-iya-nano-de-bougyoryoku-ni-kyokufuri-shitai-to-omoimasu-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://bofuri.jp/season1/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "itai-no-wa-iya-nano-de-bougyoryoku-ni-kyokufuri-shitai-to-omoimasu-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%80%95%E7%97%9B%E7%9A%84%E6%88%91%EF%BC%8C%E6%8A%8A%E9%98%B2%E7%A6%A6%E5%8A%9B%E9%BB%9E%E6%BB%BF%E5%B0%B1%E5%B0%8D%E4%BA%86"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "itai-no-wa-iya-nano-de-bougyoryoku-ni-kyokufuri-shitai-to-omoimasu-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%80%95%E7%97%9B%E7%9A%84%E6%88%91%EF%BC%8C%E6%8A%8A%E9%98%B2%E7%A6%A6%E5%8A%9B%E9%BB%9E%E6%BB%BF%E5%B0%B1%E5%B0%8D%E4%BA%86"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "itai-no-wa-iya-nano-de-bougyoryoku-ni-kyokufuri-shitai-to-omoimasu-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://bofuri.jp/season1/music/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原期官方音樂頁與獨立交叉核對；角色名義只採本曲明示歌唱，原影音與ID保留。",
+          "resumeWhen": "待本曲未核可選資料有明確來源後補；不同影片不自動新增音源。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "Play the world",
+      "artistDisplayName": "佐々木李子",
+      "id": "itai-no-wa-iya-nano-de-bougyoryoku-ni-kyokufuri-shitai-to-omoimasu-ed-1",
+      "songId": "itai-no-wa-iya-nano-de-bougyoryoku-ni-kyokufuri-shitai-to-omoimasu-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://bofuri.jp/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/itai_no_wa_iya_nano_de_bougyoryoku_ni_kyokufuri_shitai_to_omoimasu",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AniTone Music Channel 官方影片",
+          "url": "https://www.youtube.com/watch?v=jrZcI3k_3u8",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://bofuri.jp/season1/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%80%95%E7%97%9B%E7%9A%84%E6%88%91%EF%BC%8C%E6%8A%8A%E9%98%B2%E7%A6%A6%E5%8A%9B%E9%BB%9E%E6%BB%BF%E5%B0%B1%E5%B0%8D%E4%BA%86",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "佐々木李子",
+          "role": "vocals"
+        },
+        {
+          "name": "hotaru",
+          "role": "lyrics"
+        },
+        {
+          "name": "齋藤大(Dream Monster)",
+          "role": "composition"
+        },
+        {
+          "name": "齋藤大(Dream Monster)",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://bofuri.jp/season1/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "itai-no-wa-iya-nano-de-bougyoryoku-ni-kyokufuri-shitai-to-omoimasu-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://bofuri.jp/season1/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "itai-no-wa-iya-nano-de-bougyoryoku-ni-kyokufuri-shitai-to-omoimasu-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%80%95%E7%97%9B%E7%9A%84%E6%88%91%EF%BC%8C%E6%8A%8A%E9%98%B2%E7%A6%A6%E5%8A%9B%E9%BB%9E%E6%BB%BF%E5%B0%B1%E5%B0%8D%E4%BA%86"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "itai-no-wa-iya-nano-de-bougyoryoku-ni-kyokufuri-shitai-to-omoimasu-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%80%95%E7%97%9B%E7%9A%84%E6%88%91%EF%BC%8C%E6%8A%8A%E9%98%B2%E7%A6%A6%E5%8A%9B%E9%BB%9E%E6%BB%BF%E5%B0%B1%E5%B0%8D%E4%BA%86"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "itai-no-wa-iya-nano-de-bougyoryoku-ni-kyokufuri-shitai-to-omoimasu-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://bofuri.jp/season1/music/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原期官方音樂頁與獨立交叉核對；角色名義只採本曲明示歌唱，原影音與ID保留。",
+          "resumeWhen": "待本曲未核可選資料有明確來源後補；不同影片不自動新增音源。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "id": "itai-no-wa-iya-nano-de-bougyoryoku-ni-kyokufuri-shitai-to-omoimasu-in-1",
+      "type": "IN",
+      "sequence": 1,
+      "titleJa": "Good Night",
+      "artistDisplayName": "佐々木李子",
+      "credits": [],
+      "links": [],
+      "songId": "itai-no-wa-iya-nano-de-bougyoryoku-ni-kyokufuri-shitai-to-omoimasu-in-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "url": "https://bofuri.jp/season1/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%80%95%E7%97%9B%E7%9A%84%E6%88%91%EF%BC%8C%E6%8A%8A%E9%98%B2%E7%A6%A6%E5%8A%9B%E9%BB%9E%E6%BB%BF%E5%B0%B1%E5%B0%8D%E4%BA%86",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://bofuri.jp/season1/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "itai-no-wa-iya-nano-de-bougyoryoku-ni-kyokufuri-shitai-to-omoimasu-in-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://bofuri.jp/season1/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "itai-no-wa-iya-nano-de-bougyoryoku-ni-kyokufuri-shitai-to-omoimasu-in-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%80%95%E7%97%9B%E7%9A%84%E6%88%91%EF%BC%8C%E6%8A%8A%E9%98%B2%E7%A6%A6%E5%8A%9B%E9%BB%9E%E6%BB%BF%E5%B0%B1%E5%B0%8D%E4%BA%86"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "itai-no-wa-iya-nano-de-bougyoryoku-ni-kyokufuri-shitai-to-omoimasu-in-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%80%95%E7%97%9B%E7%9A%84%E6%88%91%EF%BC%8C%E6%8A%8A%E9%98%B2%E7%A6%A6%E5%8A%9B%E9%BB%9E%E6%BB%BF%E5%B0%B1%E5%B0%8D%E4%BA%86"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "itai-no-wa-iya-nano-de-bougyoryoku-ni-kyokufuri-shitai-to-omoimasu-in-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "第一期官網在佐々木李子單曲段落逐曲列為插曲，獨立逐曲交叉核對演唱與使用話數；音源、影音與發行關係另待證。",
+          "resumeWhen": "待本曲直接詞曲編署名、正式音源與發行品資料後逐欄補齊。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "verifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://bofuri.jp/season1/onair/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E6%80%95%E7%97%9B%E7%9A%84%E6%88%91%EF%BC%8C%E6%8A%8A%E9%98%B2%E7%A6%A6%E5%8A%9B%E9%BB%9E%E6%BB%BF%E5%B0%B1%E5%B0%8D%E4%BA%86",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "broadcastTimeJst": "22:00"
+},
   {
-    anilistId: 108628,
-    id: "curated-108628",
-    slug: "number24",
-    seasonIds: ["2020-winter"],
-    startDate: "2020-01-08",
-    titleJa: "number24",
-    titleZhHant: "number24",
-    titleRomaji: "number24",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108628-TmkHwStCyOoX.png",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108628-OrEXsxhNvxxf.jpg",
-    editorialWeekday: 3,
-    broadcastLabel: "日本首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://number24-anime.com/",
-    anilistUrl: "https://anilist.co/anime/108628",
-    imageSourceUrl: "https://anilist.co/anime/108628",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/104",
-      "https://acgsecrets.hk/anime/29/",
-      "https://annict.com/works/6599",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/number24",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "SET!",
-        artistDisplayName: "小林正典",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "君といるなら",
-        titleRomaji: "Kimi to Iru Nara",
-        artistDisplayName: "河西健吾＆鈴木崚汰",
-      },
-      {
-        type: "ED",
-        sequence: 2,
-        titleJa: "COMICAL TRY!!",
-        artistDisplayName: "河西健吾＆柳田淳一",
-      },
-      {
-        type: "ED",
-        sequence: 3,
-        titleJa: "Every Fight",
-        artistDisplayName: "河西健吾＆小松昌平",
-      },
-    ],
-    verifiedAt: "2026-09-02",
-  },
+  "anilistId": 108628,
+  "id": "curated-108628",
+  "slug": "number24",
+  "seasonIds": [
+    "2020-winter"
+  ],
+  "startDate": "2020-01-08",
+  "titleJa": "number24",
+  "titleZhHant": "number24",
+  "titleRomaji": "number24",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108628-TmkHwStCyOoX.png",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108628-OrEXsxhNvxxf.jpg",
+  "editorialWeekday": 3,
+  "broadcastLabel": "2020年1月8日22:30 TOKYO MX／KBS京都原TV",
+  "status": "finished",
+  "officialSiteUrl": "https://number24-anime.com/",
+  "anilistUrl": "https://anilist.co/anime/108628",
+  "imageSourceUrl": "https://anilist.co/anime/108628",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/104",
+    "https://acgsecrets.hk/anime/29/",
+    "https://annict.com/works/6599"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/number24",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "SET!",
+      "artistDisplayName": "小林正典",
+      "id": "number24-op-1",
+      "songId": "number24-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://number24-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/number24",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://number24-anime.com/news/hp0001/index00200000.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/Number24",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "小林正典",
+          "role": "vocals"
+        },
+        {
+          "name": "コツキミヤ",
+          "role": "lyrics"
+        },
+        {
+          "name": "ミライショウ",
+          "role": "composition"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://number24-anime.com/news/hp0001/index00200000.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "number24-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://number24-anime.com/news/hp0001/index00200000.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "number24-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/Number24"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "number24-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/Number24"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "number24-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://number24-anime.com/news/hp0001/index00200000.html"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "arrangement"
+          ],
+          "note": "原期官方音樂頁與獨立交叉核對；角色名義只採本曲明示歌唱，原影音與ID保留。",
+          "resumeWhen": "待本曲未核可選資料有明確來源後補；不同影片不自動新增音源。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "君といるなら",
+      "titleRomaji": "Kimi to Iru Nara",
+      "artistDisplayName": "柚木夏紗（CV：河西健吾）＆真行寺清一郎（CV：鈴木崚汰）",
+      "id": "number24-ed-1",
+      "songId": "number24-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://number24-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/number24",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://number24-anime.com/news/hp0001/index00200000.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/Number24",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "河西健吾＆鈴木崚汰",
+          "role": "vocals"
+        },
+        {
+          "name": "コツキミヤ",
+          "role": "lyrics"
+        },
+        {
+          "name": "流歌",
+          "role": "composition"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://number24-anime.com/news/hp0001/index00200000.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "number24-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://number24-anime.com/news/hp0001/index00200000.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "number24-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/Number24"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "number24-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/Number24"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "number24-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://number24-anime.com/news/hp0001/index00200000.html"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "arrangement"
+          ],
+          "note": "原期官方音樂頁與獨立交叉核對；角色名義只採本曲明示歌唱，原影音與ID保留。",
+          "resumeWhen": "待本曲未核可選資料有明確來源後補；不同影片不自動新增音源。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "COMICAL TRY!!",
+      "artistDisplayName": "柚木夏紗（CV：河西健吾）＆上丘伊吹（CV：柳田淳一）",
+      "id": "number24-ed-2",
+      "songId": "number24-ed-2-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://number24-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/number24",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://number24-anime.com/news/hp0001/index00200000.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/Number24",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "河西健吾＆柳田淳一",
+          "role": "vocals"
+        },
+        {
+          "name": "高瀬愛虹",
+          "role": "lyrics"
+        },
+        {
+          "name": "ミライショウ",
+          "role": "composition"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://number24-anime.com/news/hp0001/index00200000.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "number24-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://number24-anime.com/news/hp0001/index00200000.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "number24-ed-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/Number24"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "number24-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/Number24"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "number24-ed-2"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://number24-anime.com/news/hp0001/index00200000.html"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "arrangement"
+          ],
+          "note": "原期官方音樂頁與獨立交叉核對；角色名義只採本曲明示歌唱，原影音與ID保留。",
+          "resumeWhen": "待本曲未核可選資料有明確來源後補；不同影片不自動新增音源。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 3,
+      "titleJa": "Every Fight",
+      "artistDisplayName": "柚木夏紗（CV：河西健吾）＆都留靖也（CV：小松昌平）",
+      "id": "number24-ed-3",
+      "songId": "number24-ed-3-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://number24-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/number24",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://number24-anime.com/news/hp0001/index00200000.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/Number24",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "河西健吾＆小松昌平",
+          "role": "vocals"
+        },
+        {
+          "name": "八木雄一",
+          "role": "lyrics"
+        },
+        {
+          "name": "八木雄一",
+          "role": "composition"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://number24-anime.com/news/hp0001/index00200000.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "number24-ed-3-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://number24-anime.com/news/hp0001/index00200000.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "number24-ed-3"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/Number24"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "number24-ed-3-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/Number24"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "number24-ed-3"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://number24-anime.com/news/hp0001/index00200000.html"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "arrangement"
+          ],
+          "note": "原期官方音樂頁與獨立交叉核對；角色名義只採本曲明示歌唱，原影音與ID保留。",
+          "resumeWhen": "待本曲未核可選資料有明確來源後補；不同影片不自動新增音源。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "verifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://number24-anime.com/contents/hp0016/index00430000.html",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/Number24",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "broadcastTimeJst": "22:30"
+},
   {
     anilistId: 113463,
     id: "curated-113463",
