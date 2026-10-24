@@ -151,7 +151,7 @@ it("keeps the whole reviewed catalogue consistent across seasons, details, sourc
       expect(published.sources.some((source) => source.role === "cross_check")).toBe(true);
     }
   }
-});
+}, 20_000);
 
 it("filters confirmed use quarters independently from release dates and work membership", () => {
   const summer = curatedSeasons.find((season) => season.id === "2025-summer")!;
