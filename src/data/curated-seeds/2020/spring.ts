@@ -17186,50 +17186,694 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
   ]
 }),
   spring2020Seed({
-    anilistId: 112325,
-    slug: "shadowverse",
-    startDate: "2020-04-07",
-    titleJa: "シャドウバース",
-    titleZhHant: "闇影詩章",
-    titleRomaji: "Shadowverse",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112325-NXi6RerKkbi6.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112325-CWJosUmhchU4.jpg",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl: "https://anime.shadowverse.jp/archive/1st/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/437",
-      "https://acgsecrets.hk/bangumi/202004/",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/shadowverse",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "キリフダ",
-        artistDisplayName: "PENGUIN RESEARCH",
-      },
-      {
-        type: "OP",
-        sequence: 2,
-        titleJa: "新世界",
-        artistDisplayName: "FLOW",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "ハピネス*センセ－ション",
-        artistDisplayName: "小倉唯",
-      },
-      {
-        type: "ED",
-        sequence: 2,
-        titleJa: "心誰にも",
-        artistDisplayName: "ゲーム実況者わくわくバンド",
-      },
-    ],
-  }),
+  "anilistId": 112325,
+  "slug": "shadowverse",
+  "startDate": "2020-04-07",
+  "titleJa": "シャドウバース",
+  "titleZhHant": "闇影詩章",
+  "titleRomaji": "Shadowverse",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112325-NXi6RerKkbi6.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112325-CWJosUmhchU4.jpg",
+  "broadcastLabel": "2020年4月7日17:55 テレビ東京系列原TV首話",
+  "officialSiteUrl": "https://anime.shadowverse.jp/archive/1st/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/437",
+    "https://acgsecrets.hk/bangumi/202004/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/shadowverse",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "キリフダ",
+      "artistDisplayName": "PENGUIN RESEARCH",
+      "id": "shadowverse-op-1",
+      "songId": "shadowverse-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring",
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://anime.shadowverse.jp/archive/1st/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/shadowverse",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "アニメ「シャドウバース」公式チャンネル 官方影片",
+          "url": "https://www.youtube.com/watch?v=Kb3ZA4zmMdg",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://anime.shadowverse.jp/archive/1st/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%97%87%E5%BD%B1%E8%A9%A9%E7%AB%A0_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "PENGUIN RESEARCH",
+          "role": "vocals"
+        },
+        {
+          "name": "堀江晶太",
+          "role": "lyrics"
+        },
+        {
+          "name": "堀江晶太",
+          "role": "composition"
+        },
+        {
+          "name": "堀江晶太",
+          "role": "arrangement"
+        },
+        {
+          "name": "PENGUIN RESEARCH",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://anime.shadowverse.jp/archive/1st/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shadowverse-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://anime.shadowverse.jp/archive/1st/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shadowverse-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%97%87%E5%BD%B1%E8%A9%A9%E7%AB%A0_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shadowverse-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%97%87%E5%BD%B1%E8%A9%A9%E7%AB%A0_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shadowverse-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://anime.shadowverse.jp/archive/1st/music/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期原曲名、正式演唱名義與OPED用途已核；未讀來源及既有影音保持原狀。",
+          "resumeWhen": "待權利方同曲明確詞曲編署名或可用正式版本資料，再補尚缺欄位。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "OP",
+      "sequence": 2,
+      "titleJa": "新世界",
+      "artistDisplayName": "FLOW",
+      "id": "shadowverse-op-2",
+      "songId": "shadowverse-op-2-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-fall"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://anime.shadowverse.jp/archive/1st/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/shadowverse",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "アニメ「シャドウバース」公式チャンネル 官方影片",
+          "url": "https://www.youtube.com/watch?v=3qVNS4LL960",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://anime.shadowverse.jp/archive/1st/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://anime.shadowverse.jp/archive/1st/news/739/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%97%87%E5%BD%B1%E8%A9%A9%E7%AB%A0_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "FLOW",
+          "role": "vocals"
+        },
+        {
+          "name": "KOHSHI ASAKAWA",
+          "role": "lyrics"
+        },
+        {
+          "name": "TAKESHI ASAKAWA",
+          "role": "composition"
+        },
+        {
+          "name": "FLOW",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://anime.shadowverse.jp/archive/1st/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shadowverse-op-2-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://anime.shadowverse.jp/archive/1st/news/739/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shadowverse-op-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://anime.shadowverse.jp/archive/1st/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shadowverse-op-2"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://anime.shadowverse.jp/archive/1st/news/739/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shadowverse-op-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%97%87%E5%BD%B1%E8%A9%A9%E7%AB%A0_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shadowverse-op-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%97%87%E5%BD%B1%E8%A9%A9%E7%AB%A0_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shadowverse-op-2"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://anime.shadowverse.jp/archive/1st/music/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links",
+            "use_quarters"
+          ],
+          "note": "已直接確認2020秋起本曲主題曲用途；2021冬逐曲延用尚未獲直接原期證據。",
+          "resumeWhen": "待2021冬原期官方逐話音樂署名或明示延用公告確認本曲；不由全作3月完結日推整季使用。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "ハピネス*センセーション",
+      "artistDisplayName": "小倉唯",
+      "id": "shadowverse-ed-1",
+      "songId": "shadowverse-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring",
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://anime.shadowverse.jp/archive/1st/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/shadowverse",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "アニメ「シャドウバース」公式チャンネル 官方影片",
+          "url": "https://www.youtube.com/watch?v=qHrqsnHXxBo",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://anime.shadowverse.jp/archive/1st/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%97%87%E5%BD%B1%E8%A9%A9%E7%AB%A0_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "小倉唯",
+          "role": "vocals"
+        },
+        {
+          "name": "Kamy",
+          "role": "lyrics"
+        },
+        {
+          "name": "鶴﨑輝一",
+          "role": "composition"
+        },
+        {
+          "name": "鶴﨑輝一",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://anime.shadowverse.jp/archive/1st/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shadowverse-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://anime.shadowverse.jp/archive/1st/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shadowverse-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%97%87%E5%BD%B1%E8%A9%A9%E7%AB%A0_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shadowverse-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%97%87%E5%BD%B1%E8%A9%A9%E7%AB%A0_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shadowverse-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://anime.shadowverse.jp/archive/1st/music/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期原曲名、正式演唱名義與OPED用途已核；未讀來源及既有影音保持原狀。",
+          "resumeWhen": "待權利方同曲明確詞曲編署名或可用正式版本資料，再補尚缺欄位。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "心誰にも",
+      "artistDisplayName": "ゲーム実況者わくわくバンド",
+      "id": "shadowverse-ed-2",
+      "songId": "shadowverse-ed-2-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-fall"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://anime.shadowverse.jp/archive/1st/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/shadowverse",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "アニメ「シャドウバース」公式チャンネル 官方影片",
+          "url": "https://www.youtube.com/watch?v=h8XYnHGIsFs",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://anime.shadowverse.jp/archive/1st/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://anime.shadowverse.jp/archive/1st/news/739/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%97%87%E5%BD%B1%E8%A9%A9%E7%AB%A0_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "ゲーム実況者わくわくバンド",
+          "role": "vocals"
+        },
+        {
+          "name": "ゲーム実況者わくわくバンド",
+          "role": "lyrics"
+        },
+        {
+          "name": "せらみかる",
+          "role": "composition"
+        },
+        {
+          "name": "ゲーム実況者わくわくバンド",
+          "role": "arrangement"
+        },
+        {
+          "name": "黒沢ダイスケ",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://anime.shadowverse.jp/archive/1st/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shadowverse-ed-2-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://anime.shadowverse.jp/archive/1st/news/739/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shadowverse-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://anime.shadowverse.jp/archive/1st/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shadowverse-ed-2"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://anime.shadowverse.jp/archive/1st/news/739/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shadowverse-ed-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%97%87%E5%BD%B1%E8%A9%A9%E7%AB%A0_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shadowverse-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%97%87%E5%BD%B1%E8%A9%A9%E7%AB%A0_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shadowverse-ed-2"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://anime.shadowverse.jp/archive/1st/music/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links",
+            "use_quarters"
+          ],
+          "note": "已直接確認2020秋起本曲主題曲用途；2021冬逐曲延用尚未獲直接原期證據。",
+          "resumeWhen": "待2021冬原期官方逐話音樂署名或明示延用公告確認本曲；不由全作3月完結日推整季使用。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://anime.shadowverse.jp/archive/1st/music/",
+      "label": "本期作品名稱資料",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://anime.shadowverse.jp/archive/1st/news/129/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://anime.shadowverse.jp/archive/1st/news/739/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://anime.shadowverse.jp/archive/1st/onair/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E9%97%87%E5%BD%B1%E8%A9%A9%E7%AB%A0_%28%E5%8B%95%E7%95%AB%29",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "editorialWeekday": 2,
+  "broadcastTimeJst": "17:55",
+  "seasonIds": [
+    "2020-spring",
+    "2020-summer",
+    "2020-fall",
+    "2021-winter"
+  ]
+}),
   spring2020Seed({
     anilistId: 116408,
     slug: "anoyo-no-subete-wa-obakegumi",
@@ -17405,38 +18049,310 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
     ],
   }),
   spring2020Seed({
-    anilistId: 112444,
-    slug: "appare-ranman",
-    startDate: "2020-04-10",
-    titleJa: "天晴爛漫！",
-    titleZhHant: "天晴爛漫！",
-    titleRomaji: "Appare-Ranman!",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112444-S7bhKskrAqSI.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112444-jl2dffsH64I7.jpg",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl: "https://appareranman.com/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/304",
-      "https://acgsecrets.hk/bangumi/202004/",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/appare_ranman",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "I got it!",
-        artistDisplayName: "Mia REGINA",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "I'm Nobody",
-        artistDisplayName: "森久保祥太郎",
-      },
-    ],
-  }),
+  "anilistId": 112444,
+  "slug": "appare-ranman",
+  "startDate": "2020-04-10",
+  "titleJa": "天晴爛漫！",
+  "titleZhHant": "天晴爛漫！",
+  "titleRomaji": "Appare-Ranman!",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112444-S7bhKskrAqSI.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112444-jl2dffsH64I7.jpg",
+  "broadcastLabel": "2020年4月10日21:30 AT-X原TV首話；7月重啟另列",
+  "officialSiteUrl": "https://appareranman.com/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/304",
+    "https://acgsecrets.hk/bangumi/202004/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/appare_ranman",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "I got it!",
+      "artistDisplayName": "Mia REGINA",
+      "id": "appare-ranman-op-1",
+      "songId": "appare-ranman-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring",
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://appareranman.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/appare_ranman",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "Lantis Channel 官方影片",
+          "url": "https://www.youtube.com/watch?v=sQTd5GZmR3A",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://appareranman.com/music.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://anime-song-info.com/appareranman-op-ed-202004-spring/",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Mia REGINA",
+          "role": "vocals"
+        },
+        {
+          "name": "ささかまリス子",
+          "role": "lyrics"
+        },
+        {
+          "name": "神田ジョン",
+          "role": "composition"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://appareranman.com/music.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "appare-ranman-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://appareranman.com/music.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "appare-ranman-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://anime-song-info.com/appareranman-op-ed-202004-spring/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "appare-ranman-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://anime-song-info.com/appareranman-op-ed-202004-spring/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "appare-ranman-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://appareranman.com/music.html"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links",
+            "arrangement"
+          ],
+          "note": "本期原曲名、正式演唱名義與OPED用途已核；未讀來源及既有影音保持原狀。",
+          "resumeWhen": "待權利方同曲明確詞曲編署名或可用正式版本資料，再補尚缺欄位。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "I'm Nobody",
+      "artistDisplayName": "森久保祥太郎",
+      "id": "appare-ranman-ed-1",
+      "songId": "appare-ranman-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring",
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://appareranman.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/appare_ranman",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "Lantis Channel 官方影片",
+          "url": "https://www.youtube.com/watch?v=HSaLtkKk-GE",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://appareranman.com/music.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://anime-song-info.com/appareranman-op-ed-202004-spring/",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "森久保祥太郎",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://appareranman.com/music.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "appare-ranman-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://appareranman.com/music.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "appare-ranman-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://anime-song-info.com/appareranman-op-ed-202004-spring/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "appare-ranman-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://anime-song-info.com/appareranman-op-ed-202004-spring/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "appare-ranman-ed-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links",
+            "lyrics",
+            "composition",
+            "arrangement"
+          ],
+          "note": "本期原曲名、正式演唱名義與OPED用途已核；未讀來源及既有影音保持原狀。",
+          "resumeWhen": "待權利方同曲明確詞曲編署名或可用正式版本資料，再補尚缺欄位。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://appareranman.com/music.html",
+      "label": "本期作品名稱資料",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://appareranman.com/news.html?id=n043",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://anime-song-info.com/appareranman-op-ed-202004-spring/",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "editorialWeekday": 5,
+  "broadcastTimeJst": "21:30",
+  "seasonIds": [
+    "2020-spring",
+    "2020-summer"
+  ]
+}),
   spring2020Seed({
     anilistId: 112534,
     slug: "mashin-eiyuuden-wataru-shichikon-no-ryuujinmaru",
@@ -17480,39 +18396,349 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
     ],
   }),
   spring2020Seed({
-    anilistId: 114888,
-    slug: "fugou-keiji-balance-unlimited",
-    startDate: "2020-04-10",
-    titleJa: "富豪刑事 Balance:UNLIMITED",
-    titleZhHant: "富豪刑警 Balance: UNLIMITED",
-    titleRomaji: "Fugou Keiji: Balance:UNLIMITED",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114888-lgecUF3O1AWS.png",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/114888-YVXJvMnuWCDb.jpg",
-    broadcastLabel: "日本首播／受疫情影響曾延期或停播",
-    officialSiteUrl: "https://www.fugoukeiji-bul.com/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/113",
-      "https://acgsecrets.hk/bangumi/202004/",
-    ],
-    animeThemesUrl:
-      "https://animethemes.moe/anime/fugou_keiji_balanceunlimited",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "NAVIGATOR",
-        artistDisplayName: "SixTONES",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "Welcome My Friend",
-        artistDisplayName: "OKAMOTO'S",
-      },
-    ],
-  }),
+  "anilistId": 114888,
+  "slug": "fugou-keiji-balance-unlimited",
+  "startDate": "2020-04-10",
+  "titleJa": "富豪刑事 Balance:UNLIMITED",
+  "titleZhHant": "富豪刑警 Balance: UNLIMITED",
+  "titleRomaji": "Fugou Keiji: Balance:UNLIMITED",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114888-lgecUF3O1AWS.png",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/114888-YVXJvMnuWCDb.jpg",
+  "broadcastLabel": "2020年4月9日25:10（實曆4月10日01:10）フジテレビ原TV首話",
+  "officialSiteUrl": "https://www.fugoukeiji-bul.com/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/113",
+    "https://acgsecrets.hk/bangumi/202004/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/fugou_keiji_balanceunlimited",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "NAVIGATOR",
+      "artistDisplayName": "SixTONES",
+      "id": "fugou-keiji-balance-unlimited-op-1",
+      "songId": "fugou-keiji-balance-unlimited-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring",
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.fugoukeiji-bul.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/fugou_keiji_balanceunlimited",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://fugoukeiji-bul.com/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://fugoukeiji-bul.com/news/?id=54004",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%AF%8C%E8%B1%AA%E5%88%91%E4%BA%8B_Balance:UNLIMITED",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "SixTONES",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://fugoukeiji-bul.com/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "fugou-keiji-balance-unlimited-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://fugoukeiji-bul.com/news/?id=54004"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "fugou-keiji-balance-unlimited-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://fugoukeiji-bul.com/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "fugou-keiji-balance-unlimited-op-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://fugoukeiji-bul.com/news/?id=54004"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "fugou-keiji-balance-unlimited-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%AF%8C%E8%B1%AA%E5%88%91%E4%BA%8B_Balance:UNLIMITED"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "fugou-keiji-balance-unlimited-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%AF%8C%E8%B1%AA%E5%88%91%E4%BA%8B_Balance:UNLIMITED"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "fugou-keiji-balance-unlimited-op-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "lyrics",
+            "composition",
+            "arrangement"
+          ],
+          "note": "本期原曲名、正式演唱名義與OPED用途已核；未讀來源及既有影音保持原狀。",
+          "resumeWhen": "待權利方同曲明確詞曲編署名或可用正式版本資料，再補尚缺欄位。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "Welcome My Friend",
+      "artistDisplayName": "OKAMOTO'S",
+      "id": "fugou-keiji-balance-unlimited-ed-1",
+      "songId": "fugou-keiji-balance-unlimited-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring",
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.fugoukeiji-bul.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/fugou_keiji_balanceunlimited",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://fugoukeiji-bul.com/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000002215.000016356.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%AF%8C%E8%B1%AA%E5%88%91%E4%BA%8B_Balance:UNLIMITED",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "OKAMOTO'S",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://fugoukeiji-bul.com/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "fugou-keiji-balance-unlimited-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000002215.000016356.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "fugou-keiji-balance-unlimited-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://fugoukeiji-bul.com/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "fugou-keiji-balance-unlimited-ed-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000002215.000016356.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "fugou-keiji-balance-unlimited-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%AF%8C%E8%B1%AA%E5%88%91%E4%BA%8B_Balance:UNLIMITED"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "fugou-keiji-balance-unlimited-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%AF%8C%E8%B1%AA%E5%88%91%E4%BA%8B_Balance:UNLIMITED"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "fugou-keiji-balance-unlimited-ed-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "lyrics",
+            "composition",
+            "arrangement"
+          ],
+          "note": "本期原曲名、正式演唱名義與OPED用途已核；未讀來源及既有影音保持原狀。",
+          "resumeWhen": "待權利方同曲明確詞曲編署名或可用正式版本資料，再補尚缺欄位。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://fugoukeiji-bul.com/music/",
+      "label": "本期作品名稱資料",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000002215.000016356.html",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://fugoukeiji-bul.com/onair/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E5%AF%8C%E8%B1%AA%E5%88%91%E4%BA%8B_Balance:UNLIMITED",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "editorialWeekday": 5,
+  "broadcastTimeJst": "01:10",
+  "seasonIds": [
+    "2020-spring",
+    "2020-summer"
+  ]
+}),
   spring2020Seed({
     anilistId: 114891,
     slug: "zashiki-warashi-no-tatami-chan",
@@ -17540,195 +18766,2193 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
     ],
   }),
   spring2020Seed({
-    anilistId: 112641,
-    slug: "kaguya-sama-wa-kokurasetai-2",
-    startDate: "2020-04-11",
-    titleJa: "かぐや様は告らせたい？～天才たちの恋愛頭脳戦～",
-    titleZhHant: "輝夜姬想讓人告白？～天才們的戀愛頭腦戰～ 第二季",
-    titleRomaji: "Kaguya-sama wa Kokurasetai?: Tensaitachi no Renai Zunousen",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112641-zoGC8d6FaPXU.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112641-mKZe0zng0ndV.jpg",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl: "https://kaguya.love/2nd/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/49",
-      "https://acgsecrets.hk/bangumi/202004/",
-    ],
-    animeThemesUrl:
-      "https://animethemes.moe/anime/kaguya_sama_wa_kokurasetai_tensai_tachi_no_renai_zunousen_2020",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "DADDY! DADDY! DO! feat.鈴木愛理",
-        artistDisplayName: "鈴木雅之",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "風に吹かれて",
-        artistDisplayName: "福原遥",
-      },
-    ],
-  }),
+  "anilistId": 112641,
+  "slug": "kaguya-sama-wa-kokurasetai-2",
+  "startDate": "2020-04-11",
+  "titleJa": "かぐや様は告らせたい？～天才たちの恋愛頭脳戦～",
+  "titleZhHant": "輝夜姬想讓人告白？～天才們的戀愛頭腦戰～ 第二季",
+  "titleRomaji": "Kaguya-sama wa Kokurasetai?: Tensaitachi no Renai Zunousen",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112641-zoGC8d6FaPXU.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112641-mKZe0zng0ndV.jpg",
+  "broadcastLabel": "TOKYO MX／群馬／栃木／BS11 2020/4/11(土)23:30原期TV；MBS深夜時刻與配信另列。",
+  "officialSiteUrl": "https://kaguya.love/2nd/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/49",
+    "https://acgsecrets.hk/bangumi/202004/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/kaguya_sama_wa_kokurasetai_tensai_tachi_no_renai_zunousen_2020",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "DADDY! DADDY! DO! feat.鈴木愛理",
+      "artistDisplayName": "鈴木雅之",
+      "id": "kaguya-sama-wa-kokurasetai-2-op-1",
+      "songId": "kaguya-sama-wa-kokurasetai-2-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://kaguya.love/2nd/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/kaguya_sama_wa_kokurasetai_tensai_tachi_no_renai_zunousen_2020",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "アニプレックス チャンネル 官方影片",
+          "url": "https://www.youtube.com/watch?v=4NEbSnuL6GA",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://kaguya.love/2nd/music/opening/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E8%BC%9D%E5%A4%9C%E5%A7%AC%E6%83%B3%E8%AE%93%E4%BA%BA%E5%91%8A%E7%99%BD%EF%BD%9E%E5%A4%A9%E6%89%8D%E5%80%91%E7%9A%84%E6%88%80%E6%84%9B%E9%A0%AD%E8%85%A6%E6%88%B0%EF%BD%9E_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "鈴木雅之",
+          "role": "vocals"
+        },
+        {
+          "name": "水野良樹",
+          "role": "lyrics"
+        },
+        {
+          "name": "水野良樹",
+          "role": "composition"
+        },
+        {
+          "name": "本間昭光",
+          "role": "arrangement"
+        },
+        {
+          "name": "鈴木愛理",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/music/opening/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kaguya-sama-wa-kokurasetai-2-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/music/opening/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kaguya-sama-wa-kokurasetai-2-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E8%BC%9D%E5%A4%9C%E5%A7%AC%E6%83%B3%E8%AE%93%E4%BA%BA%E5%91%8A%E7%99%BD%EF%BD%9E%E5%A4%A9%E6%89%8D%E5%80%91%E7%9A%84%E6%88%80%E6%84%9B%E9%A0%AD%E8%85%A6%E6%88%B0%EF%BD%9E_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kaguya-sama-wa-kokurasetai-2-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E8%BC%9D%E5%A4%9C%E5%A7%AC%E6%83%B3%E8%AE%93%E4%BA%BA%E5%91%8A%E7%99%BD%EF%BD%9E%E5%A4%A9%E6%89%8D%E5%80%91%E7%9A%84%E6%88%80%E6%84%9B%E9%A0%AD%E8%85%A6%E6%88%B0%EF%BD%9E_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kaguya-sama-wa-kokurasetai-2-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/music/opening/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原名、演唱名義、本期用途與已確認季度已核對；音源、官方影片與發行品的逐項對應仍待補。",
+          "resumeWhen": "待權利方公開本曲可對應的音源、影片及發行項目後補核可選欄位。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "風に吹かれて",
+      "artistDisplayName": "福原遥",
+      "id": "kaguya-sama-wa-kokurasetai-2-ed-1",
+      "songId": "kaguya-sama-wa-kokurasetai-2-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://kaguya.love/2nd/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/kaguya_sama_wa_kokurasetai_tensai_tachi_no_renai_zunousen_2020",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "アニプレックス チャンネル 官方影片",
+          "url": "https://www.youtube.com/watch?v=l0Z6_6fi-HI",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://kaguya.love/2nd/music/ending/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E8%BC%9D%E5%A4%9C%E5%A7%AC%E6%83%B3%E8%AE%93%E4%BA%BA%E5%91%8A%E7%99%BD%EF%BD%9E%E5%A4%A9%E6%89%8D%E5%80%91%E7%9A%84%E6%88%80%E6%84%9B%E9%A0%AD%E8%85%A6%E6%88%B0%EF%BD%9E_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "福原遥",
+          "role": "vocals"
+        },
+        {
+          "name": "小倉しんこう",
+          "role": "lyrics"
+        },
+        {
+          "name": "小倉しんこう",
+          "role": "composition"
+        },
+        {
+          "name": "梅原新",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/music/ending/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kaguya-sama-wa-kokurasetai-2-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/music/ending/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kaguya-sama-wa-kokurasetai-2-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E8%BC%9D%E5%A4%9C%E5%A7%AC%E6%83%B3%E8%AE%93%E4%BA%BA%E5%91%8A%E7%99%BD%EF%BD%9E%E5%A4%A9%E6%89%8D%E5%80%91%E7%9A%84%E6%88%80%E6%84%9B%E9%A0%AD%E8%85%A6%E6%88%B0%EF%BD%9E_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kaguya-sama-wa-kokurasetai-2-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E8%BC%9D%E5%A4%9C%E5%A7%AC%E6%83%B3%E8%AE%93%E4%BA%BA%E5%91%8A%E7%99%BD%EF%BD%9E%E5%A4%A9%E6%89%8D%E5%80%91%E7%9A%84%E6%88%80%E6%84%9B%E9%A0%AD%E8%85%A6%E6%88%B0%EF%BD%9E_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kaguya-sama-wa-kokurasetai-2-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/music/ending/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原名、演唱名義、本期用途與已確認季度已核對；音源、官方影片與發行品的逐項對應仍待補。",
+          "resumeWhen": "待權利方公開本曲可對應的音源、影片及發行項目後補核可選欄位。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://kaguya.love/2nd/onair/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E8%BC%9D%E5%A4%9C%E5%A7%AC%E6%83%B3%E8%AE%93%E4%BA%BA%E5%91%8A%E7%99%BD%EF%BD%9E%E5%A4%A9%E6%89%8D%E5%80%91%E7%9A%84%E6%88%80%E6%84%9B%E9%A0%AD%E8%85%A6%E6%88%B0%EF%BD%9E_%28%E5%8B%95%E7%95%AB%29",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "editorialWeekday": 6,
+  "broadcastTimeJst": "23:30",
+  "seasonIds": [
+    "2020-spring"
+  ]
+}),
   spring2020Seed({
-    anilistId: 113051,
-    slug: "argonavis-from-bang-dream",
-    startDate: "2020-04-11",
-    titleJa: "アルゴナビス from BanG Dream!",
-    titleZhHant: "ARGONAVIS from BanG Dream！",
-    titleRomaji: "ARGONAVIS from BanG Dream!",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113051-R2V4aqfv0pau.png",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113051-O0OIEfTcXrQY.jpg",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl: "https://bushiroad.com/media/11496",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/428",
-      "https://acgsecrets.hk/bangumi/202004/",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/argonavis_from_bang_dream",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "星がはじまる",
-        artistDisplayName: "Argonavis",
-      },
-      {
-        type: "OP",
-        sequence: 2,
-        titleJa: "SCATTER",
-        artistDisplayName: "GYROAXIA",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "雨上がりの坂道",
-        artistDisplayName: "Argonavis",
-      },
-      {
-        type: "ED",
-        sequence: 2,
-        titleJa: "ゴールライン",
-        artistDisplayName: "Argonavis",
-      },
-      {
-        type: "ED",
-        sequence: 3,
-        titleJa: "LIAR",
-        artistDisplayName: "GYROAXIA",
-      },
-    ],
-  }),
+  "anilistId": 113051,
+  "slug": "argonavis-from-bang-dream",
+  "startDate": "2020-04-11",
+  "titleJa": "アルゴナビス from BanG Dream!",
+  "titleZhHant": "ARGONAVIS from BanG Dream！",
+  "titleRomaji": "ARGONAVIS from BanG Dream!",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113051-R2V4aqfv0pau.png",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113051-O0OIEfTcXrQY.jpg",
+  "broadcastLabel": "日本首播／時間未整理",
+  "officialSiteUrl": "https://bushiroad.com/media/11496",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/428",
+    "https://acgsecrets.hk/bangumi/202004/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/argonavis_from_bang_dream",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "星がはじまる",
+      "artistDisplayName": "Argonavis",
+      "id": "argonavis-from-bang-dream-op-1",
+      "songId": "argonavis-from-bang-dream-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://bushiroad.com/media/11496",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/argonavis_from_bang_dream",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://bushiroad.com/media/10724",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/From_ARGONAVIS",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Argonavis",
+          "role": "vocals"
+        },
+        {
+          "name": "中村航",
+          "role": "lyrics"
+        },
+        {
+          "name": "田淵智也",
+          "role": "lyrics"
+        },
+        {
+          "name": "田淵智也",
+          "role": "composition"
+        },
+        {
+          "name": "渡辺拓也",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://bushiroad.com/media/10724"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "argonavis-from-bang-dream-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://bushiroad.com/media/10724"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "argonavis-from-bang-dream-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/From_ARGONAVIS"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "argonavis-from-bang-dream-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/From_ARGONAVIS"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "argonavis-from-bang-dream-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://bushiroad.com/media/10724"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links",
+            "official_video",
+            "video_metadata"
+          ],
+          "note": "原名、演唱名義、本期用途與已確認季度已核對；音源、官方影片與發行品的逐項對應仍待補。",
+          "resumeWhen": "待權利方公開本曲可對應的音源、影片及發行項目後補核可選欄位。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "OP",
+      "sequence": 2,
+      "titleJa": "SCATTER",
+      "artistDisplayName": "GYROAXIA",
+      "id": "argonavis-from-bang-dream-op-2",
+      "songId": "argonavis-from-bang-dream-op-2-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://bushiroad.com/media/11496",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/argonavis_from_bang_dream",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://bushiroad.com/media/10724",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/From_ARGONAVIS",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "GYROAXIA",
+          "role": "vocals"
+        },
+        {
+          "name": "SHiNNOSUKE",
+          "role": "lyrics"
+        },
+        {
+          "name": "UZ",
+          "role": "composition"
+        },
+        {
+          "name": "UZ",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://bushiroad.com/media/10724"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "argonavis-from-bang-dream-op-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://bushiroad.com/media/10724"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "argonavis-from-bang-dream-op-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/From_ARGONAVIS"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "argonavis-from-bang-dream-op-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/From_ARGONAVIS"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "argonavis-from-bang-dream-op-2"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://bushiroad.com/media/10724"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links",
+            "official_video",
+            "video_metadata"
+          ],
+          "note": "原名、演唱名義、本期用途與已確認季度已核對；音源、官方影片與發行品的逐項對應仍待補。",
+          "resumeWhen": "待權利方公開本曲可對應的音源、影片及發行項目後補核可選欄位。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "雨上がりの坂道",
+      "artistDisplayName": "Argonavis",
+      "id": "argonavis-from-bang-dream-ed-1",
+      "songId": "argonavis-from-bang-dream-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://bushiroad.com/media/11496",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/argonavis_from_bang_dream",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://bushiroad.com/media/10724",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/From_ARGONAVIS",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Argonavis",
+          "role": "vocals"
+        },
+        {
+          "name": "中村航",
+          "role": "lyrics"
+        },
+        {
+          "name": "渡辺拓也",
+          "role": "composition"
+        },
+        {
+          "name": "渡辺拓也",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://bushiroad.com/media/10724"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "argonavis-from-bang-dream-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://bushiroad.com/media/10724"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "argonavis-from-bang-dream-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/From_ARGONAVIS"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "argonavis-from-bang-dream-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/From_ARGONAVIS"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "argonavis-from-bang-dream-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://bushiroad.com/media/10724"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links",
+            "official_video",
+            "video_metadata",
+            "use_quarters"
+          ],
+          "note": "春季本曲用途已核；末話是否使用的交叉記錄不一致，夏季用途仍待直接逐話資料確認。",
+          "resumeWhen": "待原期第13話片尾或權利方逐話音樂表明列本曲後，補核2020夏季是否使用。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "ゴールライン",
+      "artistDisplayName": "Argonavis",
+      "id": "argonavis-from-bang-dream-ed-2",
+      "songId": "argonavis-from-bang-dream-ed-2-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "url": "https://bushiroad.com/media/11496",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/argonavis_from_bang_dream",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/From_ARGONAVIS",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Argonavis",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://bushiroad.com/media/11496"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "argonavis-from-bang-dream-ed-2-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/From_ARGONAVIS"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "argonavis-from-bang-dream-ed-2-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "official_video",
+            "video_metadata",
+            "basic_evidence",
+            "use_quarters"
+          ],
+          "note": "曲名的商品記錄可核對，但原期TV用途分類與實際集數仍缺權利方明示。",
+          "resumeWhen": "待原期官方逐話片尾或權利方歌曲頁明列本曲實際用途與使用集數，再核對用途季度。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 3,
+      "titleJa": "LIAR",
+      "artistDisplayName": "GYROAXIA",
+      "id": "argonavis-from-bang-dream-ed-3",
+      "songId": "argonavis-from-bang-dream-ed-3-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://bushiroad.com/media/11496",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/argonavis_from_bang_dream",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://bushiroad.com/media/10724",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/From_ARGONAVIS",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "GYROAXIA",
+          "role": "vocals"
+        },
+        {
+          "name": "ASH DA HERO",
+          "role": "lyrics"
+        },
+        {
+          "name": "ASH DA HERO",
+          "role": "composition"
+        },
+        {
+          "name": "ASH DA HERO",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://bushiroad.com/media/10724"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "argonavis-from-bang-dream-ed-3-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://bushiroad.com/media/10724"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "argonavis-from-bang-dream-ed-3"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/From_ARGONAVIS"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "argonavis-from-bang-dream-ed-3-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/From_ARGONAVIS"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "argonavis-from-bang-dream-ed-3"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://bushiroad.com/media/10724"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links",
+            "official_video",
+            "video_metadata"
+          ],
+          "note": "原名、演唱名義、本期用途與已確認季度已核對；音源、官方影片與發行品的逐項對應仍待補。",
+          "resumeWhen": "待權利方公開本曲可對應的音源、影片及發行項目後補核可選欄位。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://zh.wikipedia.org/wiki/From_ARGONAVIS",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "seasonIds": [
+    "2020-spring",
+    "2020-summer"
+  ]
+}),
   spring2020Seed({
-    anilistId: 114043,
-    slug: "shokugeki-no-souma-gou-no-sara",
-    startDate: "2020-04-11",
-    titleJa: "食戟のソーマ 豪ノ皿",
-    titleZhHant: "食戟之靈 第五季：豪之皿",
-    titleRomaji: "Shokugeki no Souma: Gou no Sara",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114043-QkgiycojrojN.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/114043-5RRtoLPrzQ0P.jpg",
-    broadcastLabel: "日本首播／受疫情影響曾延期或停播",
-    officialSiteUrl: "https://www.lantis.jp/title/shokugeki/disco_all.html",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/74",
-      "https://acgsecrets.hk/bangumi/202004/",
-    ],
-    animeThemesUrl:
-      "https://animethemes.moe/anime/shokugeki_no_souma_gou_no_sara",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "ラストチャプター",
-        artistDisplayName: "nano.RIPE",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "Crossing Road",
-        artistDisplayName: "渕上舞",
-      },
-    ],
-  }),
+  "anilistId": 114043,
+  "slug": "shokugeki-no-souma-gou-no-sara",
+  "startDate": "2020-04-11",
+  "titleJa": "食戟のソーマ 豪ノ皿",
+  "titleZhHant": "食戟之靈 第五季：豪之皿",
+  "titleRomaji": "Shokugeki no Souma: Gou no Sara",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114043-QkgiycojrojN.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/114043-5RRtoLPrzQ0P.jpg",
+  "broadcastLabel": "日本首播／受疫情影響曾延期或停播",
+  "officialSiteUrl": "https://www.lantis.jp/title/shokugeki/disco_all.html",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/74",
+    "https://acgsecrets.hk/bangumi/202004/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/shokugeki_no_souma_gou_no_sara",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "ラストチャプター",
+      "artistDisplayName": "nano.RIPE",
+      "id": "shokugeki-no-souma-gou-no-sara-op-1",
+      "songId": "shokugeki-no-souma-gou-no-sara-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring",
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.lantis.jp/title/shokugeki/disco_all.html",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/shokugeki_no_souma_gou_no_sara",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.lantis.jp/artist/nanoripe/disco.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%A3%9F%E6%88%9F%E4%B9%8B%E9%9D%88_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "nano.RIPE",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/artist/nanoripe/disco.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shokugeki-no-souma-gou-no-sara-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/artist/nanoripe/disco.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shokugeki-no-souma-gou-no-sara-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%A3%9F%E6%88%9F%E4%B9%8B%E9%9D%88_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shokugeki-no-souma-gou-no-sara-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%A3%9F%E6%88%9F%E4%B9%8B%E9%9D%88_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shokugeki-no-souma-gou-no-sara-op-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "official_video",
+            "video_metadata"
+          ],
+          "note": "原名、演唱名義、本期用途與已確認季度已核對；音源、官方影片與發行品的逐項對應仍待補。",
+          "resumeWhen": "待權利方公開本曲可對應的音源、影片及發行項目後補核可選欄位。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "Crossing Road",
+      "artistDisplayName": "渕上舞",
+      "id": "shokugeki-no-souma-gou-no-sara-ed-1",
+      "songId": "shokugeki-no-souma-gou-no-sara-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring",
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.lantis.jp/title/shokugeki/disco_all.html",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/shokugeki_no_souma_gou_no_sara",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://mai-fuchigami.lantis.jp/discography/crossing-road/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%A3%9F%E6%88%9F%E4%B9%8B%E9%9D%88_%28%E5%8B%95%E7%95%AB%29",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "渕上舞",
+          "role": "vocals"
+        },
+        {
+          "name": "松井洋平",
+          "role": "lyrics"
+        },
+        {
+          "name": "小高光太郎",
+          "role": "composition"
+        },
+        {
+          "name": "UiNA",
+          "role": "composition"
+        },
+        {
+          "name": "石倉誉之",
+          "role": "arrangement"
+        },
+        {
+          "name": "小高光太郎",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://mai-fuchigami.lantis.jp/discography/crossing-road/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shokugeki-no-souma-gou-no-sara-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://mai-fuchigami.lantis.jp/discography/crossing-road/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shokugeki-no-souma-gou-no-sara-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%A3%9F%E6%88%9F%E4%B9%8B%E9%9D%88_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shokugeki-no-souma-gou-no-sara-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%A3%9F%E6%88%9F%E4%B9%8B%E9%9D%88_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "shokugeki-no-souma-gou-no-sara-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://mai-fuchigami.lantis.jp/discography/crossing-road/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links",
+            "official_video",
+            "video_metadata"
+          ],
+          "note": "原名、演唱名義、本期用途與已確認季度已核對；音源、官方影片與發行品的逐項對應仍待補。",
+          "resumeWhen": "待權利方公開本曲可對應的音源、影片及發行項目後補核可選欄位。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E9%A3%9F%E6%88%9F%E4%B9%8B%E9%9D%88_%28%E5%8B%95%E7%95%AB%29",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "seasonIds": [
+    "2020-spring",
+    "2020-summer"
+  ]
+}),
   spring2020Seed({
-    anilistId: 114402,
-    slug: "hakushon-daimaou-2020",
-    startDate: "2020-04-11",
-    titleJa: "ハクション大魔王2020",
-    titleZhHant: "噴嚏大魔王2020",
-    titleRomaji: "Hakushon Daimaou 2020",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114402-1PtmZciRzBqD.png",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl: "https://www.ytv.co.jp/hakushon2020/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/140",
-      "https://acgsecrets.hk/bangumi/202004/",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/hakushon_daimaou",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "サテスハクション",
-        artistDisplayName: "奥田民生",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "あくびをすれば",
-        artistDisplayName: "フレンズ",
-      },
-      {
-        type: "ED",
-        sequence: 2,
-        titleJa: "フレフレ",
-        artistDisplayName: "中川翔子",
-      },
-    ],
-  }),
+  "anilistId": 114402,
+  "slug": "hakushon-daimaou-2020",
+  "startDate": "2020-04-11",
+  "titleJa": "ハクション大魔王2020",
+  "titleZhHant": "噴嚏大魔王2020",
+  "titleRomaji": "Hakushon Daimaou 2020",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114402-1PtmZciRzBqD.png",
+  "broadcastLabel": "読売テレビ・日本テレビ 原2020初回",
+  "officialSiteUrl": "https://www.ytv.co.jp/hakushon2020/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/140",
+    "https://acgsecrets.hk/bangumi/202004/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/hakushon_daimaou",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "サテスハクション",
+      "artistDisplayName": "奥田民生",
+      "id": "hakushon-daimaou-2020-op-1",
+      "songId": "hakushon-daimaou-2020-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring",
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.ytv.co.jp/hakushon2020/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/hakushon_daimaou",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "奥田民生(RAMEN CURRY MUSIC RECORDS) 官方影片",
+          "url": "https://www.youtube.com/watch?v=eDhCT2sd4Nk",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.ytv.co.jp/hakushon2020/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%96%B7%E5%9A%8F%E5%A4%A7%E9%AD%94%E7%8E%8B",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.animatetimes.com/news/details.php?id=1584024277",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "奥田民生",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/hakushon2020/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "hakushon-daimaou-2020-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/hakushon2020/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "hakushon-daimaou-2020-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%96%B7%E5%9A%8F%E5%A4%A7%E9%AD%94%E7%8E%8B"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "hakushon-daimaou-2020-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%96%B7%E5%9A%8F%E5%A4%A7%E9%AD%94%E7%8E%8B"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "hakushon-daimaou-2020-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1584024277"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "hakushon-daimaou-2020-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1584024277"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "hakushon-daimaou-2020-op-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原歌曲身分及本期用途季度已核；未新增音源或影片。",
+          "resumeWhen": "待本曲直接音源及發行細項再補；不從原影片推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "あくびをすれば",
+      "artistDisplayName": "フレンズ",
+      "id": "hakushon-daimaou-2020-ed-1",
+      "songId": "hakushon-daimaou-2020-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.ytv.co.jp/hakushon2020/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/hakushon_daimaou",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "フレンズOfficial YouTube Channel 官方影片",
+          "url": "https://www.youtube.com/watch?v=dz-P_ke5dFg",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://friends-jpn.com/discography/solar/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%96%B7%E5%9A%8F%E5%A4%A7%E9%AD%94%E7%8E%8B",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.animatetimes.com/news/details.php?id=1584024277",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "フレンズ",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://friends-jpn.com/discography/solar/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "hakushon-daimaou-2020-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%96%B7%E5%9A%8F%E5%A4%A7%E9%AD%94%E7%8E%8B"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "hakushon-daimaou-2020-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1584024277"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "hakushon-daimaou-2020-ed-1-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "歌曲あくびをすれば與フレンズ官方身份已核；舊TV用途缺可重新實讀的第一方正文，保原ID/媒體及待核季度。",
+          "resumeWhen": "待原期第一方本曲實際片尾用途正文再合逐話交叉；不以商品收錄推TV。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "フレフレ",
+      "artistDisplayName": "中川翔子",
+      "id": "hakushon-daimaou-2020-ed-2",
+      "songId": "hakushon-daimaou-2020-ed-2-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.ytv.co.jp/hakushon2020/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/hakushon_daimaou",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "Shoko Nakagawa OFFICIAL YouTube CHANNEL 官方影片",
+          "url": "https://www.youtube.com/watch?v=lqiYU4Q8RLY",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.ytv.co.jp/hakushon2020/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%96%B7%E5%9A%8F%E5%A4%A7%E9%AD%94%E7%8E%8B",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "中川翔子",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/hakushon2020/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "hakushon-daimaou-2020-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/hakushon2020/music/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "hakushon-daimaou-2020-ed-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%96%B7%E5%9A%8F%E5%A4%A7%E9%AD%94%E7%8E%8B"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "hakushon-daimaou-2020-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%96%B7%E5%9A%8F%E5%A4%A7%E9%AD%94%E7%8E%8B"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "hakushon-daimaou-2020-ed-2"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原歌曲身分及本期用途季度已核；未新增音源或影片。",
+          "resumeWhen": "待本曲直接音源及發行細項再補；不從原影片推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://www.ytv.co.jp/hakushon2020/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://www.ytv.co.jp/hakushon2020/news/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E5%96%B7%E5%9A%8F%E5%A4%A7%E9%AD%94%E7%8E%8B",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://www.animatetimes.com/news/details.php?id=1584024277",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "editorialWeekday": 6,
+  "broadcastTimeJst": "17:30",
+  "seasonIds": [
+    "2020-spring",
+    "2020-summer"
+  ]
+}),
   spring2020Seed({
-    anilistId: 108629,
-    slug: "kitsutsuki-tantei-dokoro",
-    startDate: "2020-04-13",
-    titleJa: "啄木鳥探偵處",
-    titleZhHant: "啄木鳥偵探社",
-    titleRomaji: "Kitsutsuki Tantei Dokoro",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108629-KZRQimMl3eGN.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108629-FOCCY5WmkVzh.jpg",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl: "https://kimikoe.com/kitsutsuki/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/58",
-      "https://acgsecrets.hk/bangumi/202004/",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/kitsutsuki_tanteidokoro",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "本日モ誠ニ晴天也",
-        artistDisplayName: "古川慎",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "ゴンドラの唄",
-        artistDisplayName:
-          "NOW ON AIR (飯野美紗子、片平美那、岩淵桃音、神戸光歩、鈴木陽斗実、田中有紀)",
-      },
-    ],
-  }),
+  "anilistId": 108629,
+  "slug": "kitsutsuki-tantei-dokoro",
+  "startDate": "2020-04-13",
+  "titleJa": "啄木鳥探偵處",
+  "titleZhHant": "啄木鳥偵探社",
+  "titleRomaji": "Kitsutsuki Tantei Dokoro",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108629-KZRQimMl3eGN.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108629-FOCCY5WmkVzh.jpg",
+  "broadcastLabel": "TOKYO MX 原2020初回",
+  "officialSiteUrl": "https://kimikoe.com/kitsutsuki/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/58",
+    "https://acgsecrets.hk/bangumi/202004/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/kitsutsuki_tanteidokoro",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "本日モ誠ニ晴天也",
+      "artistDisplayName": "古川慎",
+      "id": "kitsutsuki-tantei-dokoro-op-1",
+      "songId": "kitsutsuki-tantei-dokoro-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "url": "https://kimikoe.com/kitsutsuki/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/kitsutsuki_tanteidokoro",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "Lantis Channel 官方影片",
+          "url": "https://www.youtube.com/watch?v=9UwL1XOKIDk",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%95%84%E6%9C%A8%E9%B3%A5%E5%81%B5%E6%8E%A2%E6%89%80",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.mau2.com/anime/kitutukitanteidokoro",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "古川慎",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://kimikoe.com/kitsutsuki/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kitsutsuki-tantei-dokoro-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://kimikoe.com/kitsutsuki/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kitsutsuki-tantei-dokoro-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%95%84%E6%9C%A8%E9%B3%A5%E5%81%B5%E6%8E%A2%E6%89%80"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kitsutsuki-tantei-dokoro-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%95%84%E6%9C%A8%E9%B3%A5%E5%81%B5%E6%8E%A2%E6%89%80"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kitsutsuki-tantei-dokoro-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/kitutukitanteidokoro"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kitsutsuki-tantei-dokoro-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/kitutukitanteidokoro"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kitsutsuki-tantei-dokoro-op-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原歌曲身分及本期用途季度已核；未新增音源或影片。",
+          "resumeWhen": "待本曲直接音源及發行細項再補；不從原影片推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "ゴンドラの唄",
+      "artistDisplayName": "NOW ON AIR (飯野美紗子、片平美那、岩淵桃音、神戸光歩、鈴木陽斗実、田中有紀)",
+      "id": "kitsutsuki-tantei-dokoro-ed-1",
+      "songId": "kitsutsuki-tantei-dokoro-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "url": "https://kimikoe.com/kitsutsuki/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/kitsutsuki_tanteidokoro",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "Lantis Channel 官方影片",
+          "url": "https://www.youtube.com/watch?v=dq5sTEPn0Tk",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.lantis.jp/artist/nowonair/news_1580908500.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%95%84%E6%9C%A8%E9%B3%A5%E5%81%B5%E6%8E%A2%E6%89%80",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.mau2.com/anime/kitutukitanteidokoro",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "NOW ON AIR (飯野美紗子、片平美那、岩淵桃音、神戸光歩、鈴木陽斗実、田中有紀)",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://kimikoe.com/kitsutsuki/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kitsutsuki-tantei-dokoro-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/artist/nowonair/news_1580908500.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kitsutsuki-tantei-dokoro-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://kimikoe.com/kitsutsuki/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kitsutsuki-tantei-dokoro-ed-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/artist/nowonair/news_1580908500.html"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kitsutsuki-tantei-dokoro-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%95%84%E6%9C%A8%E9%B3%A5%E5%81%B5%E6%8E%A2%E6%89%80"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kitsutsuki-tantei-dokoro-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%95%84%E6%9C%A8%E9%B3%A5%E5%81%B5%E6%8E%A2%E6%89%80"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kitsutsuki-tantei-dokoro-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/kitutukitanteidokoro"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kitsutsuki-tantei-dokoro-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/kitutukitanteidokoro"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kitsutsuki-tantei-dokoro-ed-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原歌曲身分及本期用途季度已核；未新增音源或影片。",
+          "resumeWhen": "待本曲直接音源及發行細項再補；不從原影片推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "id": "kitsutsuki-tantei-dokoro-in-1",
+      "type": "IN",
+      "sequence": 1,
+      "titleJa": "旅路へ",
+      "artistDisplayName": "若山牧水(CV.古川 慎)",
+      "credits": [],
+      "links": [],
+      "songId": "kitsutsuki-tantei-dokoro-in-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "url": "https://kimikoe.com/kitsutsuki/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.uta-net.com/song/288144/",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.mau2.com/anime/kitutukitanteidokoro",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://kimikoe.com/kitsutsuki/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kitsutsuki-tantei-dokoro-in-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://kimikoe.com/kitsutsuki/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kitsutsuki-tantei-dokoro-in-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.uta-net.com/song/288144/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kitsutsuki-tantei-dokoro-in-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.uta-net.com/song/288144/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kitsutsuki-tantei-dokoro-in-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/kitutukitanteidokoro"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kitsutsuki-tantei-dokoro-in-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/kitutukitanteidokoro"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "kitsutsuki-tantei-dokoro-in-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本期第十首劇中歌身分、角色歌唱及春季用途已核；創作及音源發行細項待補。",
+          "resumeWhen": "待權利方本曲逐項創作署名與音源細項；不從OST收錄推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://kimikoe.com/kitsutsuki/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://www.lantis.jp/artist/nowonair/news_1580908500.html",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E5%95%84%E6%9C%A8%E9%B3%A5%E5%81%B5%E6%8E%A2%E6%89%80",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "editorialWeekday": 1,
+  "broadcastTimeJst": "23:00",
+  "seasonIds": [
+    "2020-spring"
+  ]
+}),
   spring2020Seed({
     anilistId: 116320,
     slug: "tv-yarou-nanaana-kaibutsu-kraken-wo-oe",
@@ -17951,32 +21175,326 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
     ],
   }),
   spring2020Seed({
-    anilistId: 124341,
-    slug: "arad-gyakuten-no-wa",
-    startDate: "2020-04-23",
-    titleJa: "アラド：逆転の輪",
-    titleZhHant: "阿拉德：逆轉之輪",
-    titleRomaji: "Arad: Gyakuten no Wa",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx124341-HFlKVdhZ9lDS.png",
-    broadcastLabel: "海外先行公開／日本其後播出",
-    officialSiteUrl: "https://www.tv-tokyo.co.jp/anime/arad_gia/",
-    sourceReferenceUrls: ["https://acgsecrets.hk/bangumi/202004/"],
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "ORATIO",
-        artistDisplayName: "新田恵海",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "朝焼けアプローチ",
-        artistDisplayName: "Prima Porta",
-      },
-    ],
-  }),
+  "anilistId": 124341,
+  "slug": "arad-gyakuten-no-wa",
+  "startDate": "2020-07-04",
+  "titleJa": "アラド：逆転の輪",
+  "titleZhHant": "阿拉德：逆轉之輪",
+  "titleRomaji": "Arad: Gyakuten no Wa",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx124341-HFlKVdhZ9lDS.png",
+  "broadcastLabel": "テレビ東京 7月3日金曜25:53原日本TV初回",
+  "officialSiteUrl": "https://www.tv-tokyo.co.jp/anime/arad_gia/",
+  "sourceReferenceUrls": [
+    "https://acgsecrets.hk/bangumi/202004/"
+  ],
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "ORATIO",
+      "artistDisplayName": "新田恵海",
+      "id": "arad-gyakuten-no-wa-op-1",
+      "songId": "arad-gyakuten-no-wa-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/arad_gia/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "公開歌曲資料：用途與演唱者交叉核對",
+          "url": "https://myanimelist.net/anime/38416",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/arad_gia/staff/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://anime.eiga.com/program/108739/",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "新田恵海",
+          "role": "vocals"
+        },
+        {
+          "name": "真崎エリカ",
+          "role": "lyrics"
+        },
+        {
+          "name": "本多友紀（Arte Refact）",
+          "role": "composition"
+        },
+        {
+          "name": "本多友紀（Arte Refact）",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/arad_gia/staff/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "arad-gyakuten-no-wa-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/arad_gia/staff/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "arad-gyakuten-no-wa-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://anime.eiga.com/program/108739/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "arad-gyakuten-no-wa-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://anime.eiga.com/program/108739/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "arad-gyakuten-no-wa-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/arad_gia/staff/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原歌曲身分及本期用途季度已核；未新增音源或影片。",
+          "resumeWhen": "待本曲直接音源及發行細項再補；不從原影片推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "朝焼けアプローチ",
+      "artistDisplayName": "Prima Porta",
+      "id": "arad-gyakuten-no-wa-ed-1",
+      "songId": "arad-gyakuten-no-wa-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/arad_gia/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "公開歌曲資料：用途與演唱者交叉核對",
+          "url": "https://myanimelist.net/anime/38416",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/arad_gia/staff/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://anime.eiga.com/program/108739/",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Prima Porta",
+          "role": "vocals"
+        },
+        {
+          "name": "真崎エリカ",
+          "role": "lyrics"
+        },
+        {
+          "name": "川崎里実",
+          "role": "composition"
+        },
+        {
+          "name": "増田武史",
+          "role": "arrangement"
+        },
+        {
+          "name": "大西亜玖璃",
+          "role": "vocals"
+        },
+        {
+          "name": "相良茉優",
+          "role": "vocals"
+        },
+        {
+          "name": "内田秀",
+          "role": "vocals"
+        },
+        {
+          "name": "高柳知葉",
+          "role": "vocals"
+        },
+        {
+          "name": "首藤志奈",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/arad_gia/staff/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "arad-gyakuten-no-wa-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/arad_gia/staff/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "arad-gyakuten-no-wa-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://anime.eiga.com/program/108739/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "arad-gyakuten-no-wa-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://anime.eiga.com/program/108739/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "arad-gyakuten-no-wa-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/arad_gia/staff/"
+          ],
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "日本版官方歌欄直接列Prima Porta及五人，僅據逐曲billing補歌唱，非動畫cast推歌手。",
+          "resumeWhen": "待本曲直接音源及發行細項再補；不從原影片推新錄音。",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-24"
+    }
+  ],
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://www.tv-tokyo.co.jp/anime/arad_gia/onair/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://anime.eiga.com/program/108739/",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    }
+  ],
+  "editorialWeekday": 6,
+  "broadcastTimeJst": "01:53",
+  "seasonIds": [
+    "2020-spring",
+    "2020-summer"
+  ]
+}),
   spring2020Seed({
     anilistId: 113906,
     slug: "bang-dream-garupa-pico-oomori",

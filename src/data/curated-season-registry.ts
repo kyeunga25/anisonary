@@ -408,7 +408,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     titleZhHant: "冬季動畫",
     titleJa: "2021年冬アニメ",
     seeds: curated2021WinterSeeds,
-    animeIds: [...curated2021WinterAnimeIds, 21, 112153, 235, 117193, 114446, 122632, 113415, 114099, 118376, 118399, 115069, 120851, 110277, 114072, 113990, 114717, 114811, 118630]
+    animeIds: [...curated2021WinterAnimeIds, 21, 112153, 235, 117193, 114446, 122632, 113415, 114099, 118376, 118399, 115069, 120851, 110277, 114072, 113990, 114717, 114811, 118630, 112325]
   },
   {
     id: "2020-fall",
@@ -417,7 +417,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     titleZhHant: "秋季動畫",
     titleJa: "2020年秋アニメ",
     seeds: curated2020FallSeeds,
-    animeIds: [...curated2020FallAnimeIds, 21, 112153, 114236, 110371, 103110, 112302, 114072, 113990, 114717, 114811, 116793, 118630]
+    animeIds: [...curated2020FallAnimeIds, 21, 112153, 114236, 110371, 103110, 112302, 114072, 113990, 114717, 114811, 116793, 118630, 112325]
   },
   {
     id: "2020-summer",
@@ -426,7 +426,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     titleZhHant: "夏季動畫",
     titleJa: "2020年夏アニメ",
     seeds: curated2020SummerSeeds,
-    animeIds: [...curated2020SummerAnimeIds, 21, 112153, 235, 112302, 114072, 114411, 113990, 114717, 114811, 109019, 111762, 116793, 118630]
+    animeIds: [...curated2020SummerAnimeIds, 21, 112153, 235, 112302, 114072, 114411, 113990, 114717, 114811, 109019, 111762, 116793, 118630, 112325, 112444, 113051, 114043, 114402, 114888, 124341]
   },
   {
     id: "2020-spring",
