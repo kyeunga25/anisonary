@@ -14579,220 +14579,2446 @@ const curated2020WinterSeedRows: CuratedAnimeSeed[] = [
   "broadcastTimeJst": "02:25"
 },
   {
-    anilistId: 107201,
-    id: "curated-107201",
-    slug: "kyokou-suiri",
-    seasonIds: ["2020-winter"],
-    startDate: "2020-01-12",
-    titleJa: "虚構推理",
-    titleZhHant: "虛構推理",
-    titleRomaji: "Kyokou Suiri",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107201-zQYOPotwmSXO.png",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/107201-XZHSg0HdC9kR.jpg",
-    editorialWeekday: 7,
-    broadcastLabel: "日本首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://kyokousuiri.jp/season1/",
-    anilistUrl: "https://anilist.co/anime/107201",
-    imageSourceUrl: "https://anilist.co/anime/107201",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/446",
-      "https://acgsecrets.hk/anime/49/",
-      "https://annict.com/works/6462",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/kyokou_suiri",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "モノノケ・イン・ザ・フィクション",
-        titleRomaji: "Mononoke in the Fiction",
-        artistDisplayName: "嘘とカメレオン",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "LAST DANCE",
-        artistDisplayName: "宮野真守",
-      },
-    ],
-    verifiedAt: "2026-09-02",
-  },
+  "anilistId": 107201,
+  "id": "curated-107201",
+  "slug": "kyokou-suiri",
+  "seasonIds": [
+    "2020-winter"
+  ],
+  "startDate": "2020-01-12",
+  "titleJa": "虚構推理",
+  "titleZhHant": "虛構推理",
+  "titleRomaji": "Kyokou Suiri",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107201-zQYOPotwmSXO.png",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/107201-XZHSg0HdC9kR.jpg",
+  "editorialWeekday": 7,
+  "broadcastLabel": "テレビ朝日 2020年1月11日25:30（實曆1月12日01:30）",
+  "status": "finished",
+  "officialSiteUrl": "https://kyokousuiri.jp/season1/",
+  "anilistUrl": "https://anilist.co/anime/107201",
+  "imageSourceUrl": "https://anilist.co/anime/107201",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/446",
+    "https://acgsecrets.hk/anime/49/",
+    "https://annict.com/works/6462"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/kyokou_suiri",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "モノノケ・イン・ザ・フィクション",
+      "titleRomaji": "Mononoke in the Fiction",
+      "artistDisplayName": "嘘とカメレオン",
+      "id": "kyokou-suiri-op-1",
+      "songId": "kyokou-suiri-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://kyokousuiri.jp/season1/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/kyokou_suiri",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://kyokousuiri.jp/season1/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E8%99%9B%E6%A7%8B%E6%8E%A8%E7%90%86",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://kyokousuiri.jp/season1/onair/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "嘘とカメレオン",
+          "role": "vocals"
+        },
+        {
+          "name": "チャム(.△)",
+          "role": "lyrics"
+        },
+        {
+          "name": "渡辺壮亮",
+          "role": "composition"
+        },
+        {
+          "name": "渡辺壮亮",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://kyokousuiri.jp/season1/music/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "kyokou-suiri-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://kyokousuiri.jp/season1/music/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "kyokou-suiri-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E8%99%9B%E6%A7%8B%E6%8E%A8%E7%90%86"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "kyokou-suiri-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E8%99%9B%E6%A7%8B%E6%8E%A8%E7%90%86"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "kyokou-suiri-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://kyokousuiri.jp/season1/music/"
+          ],
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原期官網逐曲OP與中文交叉相符，TV朝日冬季首播；商品發售日不作用途日期。",
+          "resumeWhen": "待正式音源及平台對應資訊可直接核對時補齊。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "LAST DANCE",
+      "artistDisplayName": "宮野真守",
+      "id": "kyokou-suiri-ed-1",
+      "songId": "kyokou-suiri-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://kyokousuiri.jp/season1/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/kyokou_suiri",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://kyokousuiri.jp/season1/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E8%99%9B%E6%A7%8B%E6%8E%A8%E7%90%86",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://kyokousuiri.jp/season1/onair/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "宮野真守",
+          "role": "vocals"
+        },
+        {
+          "name": "由潮",
+          "role": "lyrics"
+        },
+        {
+          "name": "Jin Nakamura",
+          "role": "composition"
+        },
+        {
+          "name": "Jin Nakamura",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://kyokousuiri.jp/season1/music/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "kyokou-suiri-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://kyokousuiri.jp/season1/music/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "kyokou-suiri-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E8%99%9B%E6%A7%8B%E6%8E%A8%E7%90%86"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "kyokou-suiri-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E8%99%9B%E6%A7%8B%E6%8E%A8%E7%90%86"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "kyokou-suiri-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://kyokousuiri.jp/season1/music/"
+          ],
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原期官網逐曲ED與中文交叉相符，冬季用途；不把聲優角色或其他收錄曲授為插曲。",
+          "resumeWhen": "待正式音源及平台對應資訊可直接核對時補齊。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    }
+  ],
+  "verifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://kyokousuiri.jp/season1/music/",
+      "label": "本期作品名稱資料",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-26"
+    },
+    {
+      "url": "https://kyokousuiri.jp/season1/onair/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-26"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E8%99%9B%E6%A7%8B%E6%8E%A8%E7%90%86",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-26"
+    }
+  ],
+  "broadcastTimeJst": "01:30"
+},
   {
-    anilistId: 105228,
-    id: "curated-105228",
-    slug: "dorohedoro",
-    seasonIds: ["2020-winter"],
-    startDate: "2020-01-13",
-    titleJa: "ドロヘドロ",
-    titleZhHant: "異獸魔都",
-    titleRomaji: "Dorohedoro",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx105228-I4xr84QS9Pvk.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/105228-QBAya2q8SP52.jpg",
-    editorialWeekday: 1,
-    broadcastLabel: "日本首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://dorohedoro.net/",
-    anilistUrl: "https://anilist.co/anime/105228",
-    imageSourceUrl: "https://anilist.co/anime/105228",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: [
-      "https://acgsecrets.hk/anime/50/",
-      "https://annict.com/works/6335",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/dorohedoro",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "Welcome トゥ 混沌",
-        titleRomaji: "Welcome to Chaos",
-        artistDisplayName: "(K)NoW_NAME:Ayaka Tachibana",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "Who am I ?",
-        titleRomaji: "Who am I?",
-        artistDisplayName: "(K)NoW_NAME:Ayaka Tachibana & NIKIIE",
-      },
-      {
-        type: "ED",
-        sequence: 2,
-        titleJa: "Night SURFING",
-        artistDisplayName: "(K)NoW_NAME:Ayaka Tachibana",
-      },
-      {
-        type: "ED",
-        sequence: 3,
-        titleJa: "D.D.D.D.",
-        artistDisplayName: "(K)NoW_NAME:NIKIIE",
-      },
-      {
-        type: "ED",
-        sequence: 4,
-        titleJa: "Strange Meat Pie",
-        artistDisplayName: "(K)NoW_NAME:Ayaka Tachibana",
-      },
-      {
-        type: "ED",
-        sequence: 5,
-        titleJa: "SECONDs FLY",
-        artistDisplayName: "(K)NoW_NAME:NIKIIE",
-      },
-      {
-        type: "ED",
-        sequence: 6,
-        titleJa: "404",
-        artistDisplayName: "(K)NoW_NAME:NIKIIE & AIJ",
-      },
-    ],
-    verifiedAt: "2026-09-02",
-  },
+  "anilistId": 105228,
+  "id": "curated-105228",
+  "slug": "dorohedoro",
+  "seasonIds": [
+    "2020-winter"
+  ],
+  "startDate": "2020-01-13",
+  "titleJa": "ドロヘドロ",
+  "titleZhHant": "異獸魔都",
+  "titleRomaji": "Dorohedoro",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx105228-I4xr84QS9Pvk.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/105228-QBAya2q8SP52.jpg",
+  "editorialWeekday": 1,
+  "broadcastLabel": "TOKYO MX 2020年1月12日24:00（實曆1月13日00:00）",
+  "status": "finished",
+  "officialSiteUrl": "https://dorohedoro.net/",
+  "anilistUrl": "https://anilist.co/anime/105228",
+  "imageSourceUrl": "https://anilist.co/anime/105228",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://acgsecrets.hk/anime/50/",
+    "https://annict.com/works/6335"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/dorohedoro",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "Welcome トゥ 混沌",
+      "titleRomaji": "Welcome to Chaos",
+      "artistDisplayName": "(K)NoW_NAME:Ayaka Tachibana",
+      "id": "dorohedoro-op-1",
+      "songId": "dorohedoro-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "《異獸魔都》第一方歌曲資料：OP／ED 用途與演唱者",
+          "url": "https://dorohedoro.net/goods/music.html",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/dorohedoro",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "TOHO animation 官方影片",
+          "url": "https://www.youtube.com/watch?v=iH_YJde1yps",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://dorohedoro.net/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://dorohedoro.net/goods/music_season1.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%BC%82%E5%85%BD%E9%AD%94%E9%83%BD",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "(K)NoW_NAME:Ayaka Tachibana",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://dorohedoro.net/goods/music_season1.html"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "dorohedoro-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%BC%82%E5%85%BD%E9%AD%94%E9%83%BD"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "dorohedoro-op-1-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原期官網列本曲用途及統一企劃名義，尚缺本曲既有個別演唱名義的直接第一方正證；兩輪定向查找後保留待核，不據全團成員或商品推個別歌唱。",
+          "resumeWhen": "待原期逐曲歌唱署名或權利方文字直接明本曲個別歌唱及動畫使用後，核對季度與完整基本證據。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "Who am I ?",
+      "titleRomaji": "Who am I?",
+      "artistDisplayName": "(K)NoW_NAME:Ayaka Tachibana & NIKIIE",
+      "id": "dorohedoro-ed-1",
+      "songId": "dorohedoro-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "《異獸魔都》第一方歌曲資料：OP／ED 用途與演唱者",
+          "url": "https://dorohedoro.net/goods/music.html",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/dorohedoro",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "TOHO animation 官方影片",
+          "url": "https://www.youtube.com/watch?v=BA_JgFXNxck",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://dorohedoro.net/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://knowname.jp/news/1005",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%BC%82%E5%85%BD%E9%AD%94%E9%83%BD",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://dorohedoro.net/news/news_20200112_01.html",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "(K)NoW_NAME:Ayaka Tachibana & NIKIIE",
+          "role": "vocals"
+        },
+        {
+          "name": "Ayaka Tachibana",
+          "role": "lyrics"
+        },
+        {
+          "name": "Makoto Miyazaki",
+          "role": "composition"
+        },
+        {
+          "name": "Ayaka Tachibana",
+          "role": "vocals"
+        },
+        {
+          "name": "NIKIIE",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://knowname.jp/news/1005"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "dorohedoro-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://knowname.jp/news/1005"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "dorohedoro-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%BC%82%E5%85%BD%E9%AD%94%E9%83%BD"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "dorohedoro-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%BC%82%E5%85%BD%E9%AD%94%E9%83%BD"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "dorohedoro-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://knowname.jp/news/1005"
+          ],
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原權利方當年逐話ED公告直接明曲名與個別歌唱；中文逐話交叉，首次使用在2020冬。不把後季合集或配信日期當新用途。",
+          "resumeWhen": "未明示的創作角色留空；待原期逐曲署名補核正式音源與平台。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "Night SURFING",
+      "artistDisplayName": "(K)NoW_NAME:Ayaka Tachibana",
+      "id": "dorohedoro-ed-2",
+      "songId": "dorohedoro-ed-2-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "《異獸魔都》第一方歌曲資料：OP／ED 用途與演唱者",
+          "url": "https://dorohedoro.net/goods/music.html",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/dorohedoro",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "TOHO animation 官方影片",
+          "url": "https://www.youtube.com/watch?v=3U9AJM4wwm0",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://dorohedoro.net/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://knowname.jp/news/1016",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%BC%82%E5%85%BD%E9%AD%94%E9%83%BD",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://dorohedoro.net/news/news_20200112_01.html",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "(K)NoW_NAME:Ayaka Tachibana",
+          "role": "vocals"
+        },
+        {
+          "name": "Genki Mizuno",
+          "role": "lyrics"
+        },
+        {
+          "name": "Shuhei Mutsuki",
+          "role": "composition"
+        },
+        {
+          "name": "Ayaka Tachibana",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://knowname.jp/news/1016"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "dorohedoro-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://knowname.jp/news/1016"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "dorohedoro-ed-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%BC%82%E5%85%BD%E9%AD%94%E9%83%BD"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "dorohedoro-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%BC%82%E5%85%BD%E9%AD%94%E9%83%BD"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "dorohedoro-ed-2"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://knowname.jp/news/1016"
+          ],
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原權利方當年逐話ED公告直接明曲名與個別歌唱；中文逐話交叉，首次使用在2020冬。不把後季合集或配信日期當新用途。",
+          "resumeWhen": "未明示的創作角色留空；待原期逐曲署名補核正式音源與平台。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "type": "ED",
+      "sequence": 3,
+      "titleJa": "D.D.D.D.",
+      "artistDisplayName": "(K)NoW_NAME:NIKIIE",
+      "id": "dorohedoro-ed-3",
+      "songId": "dorohedoro-ed-3-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "《異獸魔都》第一方歌曲資料：OP／ED 用途與演唱者",
+          "url": "https://dorohedoro.net/goods/music.html",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/dorohedoro",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "TOHO animation 官方影片",
+          "url": "https://www.youtube.com/watch?v=KY3MyHAFc68",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://dorohedoro.net/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://knowname.jp/news/1027",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%BC%82%E5%85%BD%E9%AD%94%E9%83%BD",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://dorohedoro.net/news/news_20200112_01.html",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "(K)NoW_NAME:NIKIIE",
+          "role": "vocals"
+        },
+        {
+          "name": "NIKIIE",
+          "role": "lyrics"
+        },
+        {
+          "name": "Shuhei Mutsuki",
+          "role": "composition"
+        },
+        {
+          "name": "Shuhei Mutsuki",
+          "role": "arrangement"
+        },
+        {
+          "name": "NIKIIE",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://knowname.jp/news/1027"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "dorohedoro-ed-3-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://knowname.jp/news/1027"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "dorohedoro-ed-3"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%BC%82%E5%85%BD%E9%AD%94%E9%83%BD"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "dorohedoro-ed-3-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%BC%82%E5%85%BD%E9%AD%94%E9%83%BD"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "dorohedoro-ed-3"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://knowname.jp/news/1027"
+          ],
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原權利方當年逐話ED公告直接明曲名與個別歌唱；中文逐話交叉，首次使用在2020冬。不把後季合集或配信日期當新用途。",
+          "resumeWhen": "未明示的創作角色留空；待原期逐曲署名補核正式音源與平台。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "type": "ED",
+      "sequence": 4,
+      "titleJa": "Strange Meat Pie",
+      "artistDisplayName": "(K)NoW_NAME:Ayaka Tachibana",
+      "id": "dorohedoro-ed-4",
+      "songId": "dorohedoro-ed-4-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "《異獸魔都》第一方歌曲資料：OP／ED 用途與演唱者",
+          "url": "https://dorohedoro.net/goods/music.html",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/dorohedoro",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "TOHO animation 官方影片",
+          "url": "https://www.youtube.com/watch?v=w4czMt7Tpb0",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://dorohedoro.net/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://knowname.jp/news/1052",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%BC%82%E5%85%BD%E9%AD%94%E9%83%BD",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://dorohedoro.net/news/news_20200112_01.html",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "(K)NoW_NAME:Ayaka Tachibana",
+          "role": "vocals"
+        },
+        {
+          "name": "Ayaka Tachibana",
+          "role": "lyrics"
+        },
+        {
+          "name": "Tetsuya Shitara",
+          "role": "composition"
+        },
+        {
+          "name": "Tetsuya Shitara",
+          "role": "arrangement"
+        },
+        {
+          "name": "Ayaka Tachibana",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://knowname.jp/news/1052"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "dorohedoro-ed-4-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://knowname.jp/news/1052"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "dorohedoro-ed-4"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%BC%82%E5%85%BD%E9%AD%94%E9%83%BD"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "dorohedoro-ed-4-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%BC%82%E5%85%BD%E9%AD%94%E9%83%BD"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "dorohedoro-ed-4"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://knowname.jp/news/1052"
+          ],
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原權利方當年逐話ED公告直接明曲名與個別歌唱；中文逐話交叉，首次使用在2020冬。不把後季合集或配信日期當新用途。",
+          "resumeWhen": "未明示的創作角色留空；待原期逐曲署名補核正式音源與平台。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "type": "ED",
+      "sequence": 5,
+      "titleJa": "SECONDs FLY",
+      "artistDisplayName": "(K)NoW_NAME:NIKIIE",
+      "id": "dorohedoro-ed-5",
+      "songId": "dorohedoro-ed-5-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "《異獸魔都》第一方歌曲資料：OP／ED 用途與演唱者",
+          "url": "https://dorohedoro.net/goods/music.html",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/dorohedoro",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "TOHO animation 官方影片",
+          "url": "https://www.youtube.com/watch?v=3SVcAGspsNs",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://dorohedoro.net/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://dorohedoro.net/goods/music_season1.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%BC%82%E5%85%BD%E9%AD%94%E9%83%BD",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "(K)NoW_NAME:NIKIIE",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://dorohedoro.net/goods/music_season1.html"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "dorohedoro-ed-5-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%BC%82%E5%85%BD%E9%AD%94%E9%83%BD"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "dorohedoro-ed-5-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原期官網列本曲用途及統一企劃名義，尚缺本曲既有個別演唱名義的直接第一方正證；兩輪定向查找後保留待核，不據全團成員或商品推個別歌唱。",
+          "resumeWhen": "待原期逐曲歌唱署名或權利方文字直接明本曲個別歌唱及動畫使用後，核對季度與完整基本證據。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "type": "ED",
+      "sequence": 6,
+      "titleJa": "404",
+      "artistDisplayName": "(K)NoW_NAME:NIKIIE & AIJ",
+      "id": "dorohedoro-ed-6",
+      "songId": "dorohedoro-ed-6-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "《異獸魔都》第一方歌曲資料：OP／ED 用途與演唱者",
+          "url": "https://dorohedoro.net/goods/music.html",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/dorohedoro",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "TOHO animation 官方影片",
+          "url": "https://www.youtube.com/watch?v=eVEWqzmJQG4",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://dorohedoro.net/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://dorohedoro.net/goods/music_season1.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%BC%82%E5%85%BD%E9%AD%94%E9%83%BD",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "(K)NoW_NAME:NIKIIE & AIJ",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://dorohedoro.net/goods/music_season1.html"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "dorohedoro-ed-6-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%BC%82%E5%85%BD%E9%AD%94%E9%83%BD"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "dorohedoro-ed-6-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原期官網列本曲用途及統一企劃名義，尚缺本曲既有個別演唱名義的直接第一方正證；兩輪定向查找後保留待核，不據全團成員或商品推個別歌唱。",
+          "resumeWhen": "待原期逐曲歌唱署名或權利方文字直接明本曲個別歌唱及動畫使用後，核對季度與完整基本證據。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "id": "dorohedoro-in-1",
+      "type": "IN",
+      "sequence": 1,
+      "titleJa": "ドリームキノコ",
+      "artistDisplayName": "煙（CV：堀内賢雄）",
+      "credits": [
+        {
+          "name": "林田球",
+          "role": "lyrics"
+        },
+        {
+          "name": "煙（CV：堀内賢雄）",
+          "role": "vocals"
+        }
+      ],
+      "links": [],
+      "songId": "dorohedoro-in-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "url": "https://dorohedoro.net/news/news_20200308_01.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%BC%82%E5%85%BD%E9%AD%94%E9%83%BD",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://dorohedoro.net/news/news_20200112_01.html",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://dorohedoro.net/news/news_20200308_01.html"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "dorohedoro-in-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://dorohedoro.net/news/news_20200308_01.html"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "dorohedoro-in-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%BC%82%E5%85%BD%E9%AD%94%E9%83%BD"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "dorohedoro-in-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%BC%82%E5%85%BD%E9%AD%94%E9%83%BD"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "dorohedoro-in-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://dorohedoro.net/news/news_20200308_01.html"
+          ],
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "第9話店內插曲原名、煙的歌唱及冬季用途已有原期文字與交叉資料；詞已明示，曲編及音源對應仍待補。",
+          "resumeWhen": "待逐曲作曲、編曲與正式音源署名可直接讀取後補核，保留既有歌曲與影音關係。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    }
+  ],
+  "verifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://dorohedoro.net/goods/music_season1.html",
+      "label": "本期作品名稱資料",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-26"
+    },
+    {
+      "url": "https://dorohedoro.net/news/news_20200112_01.html",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-26"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%82%E5%85%BD%E9%AD%94%E9%83%BD",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-26"
+    }
+  ],
+  "broadcastTimeJst": "00:00"
+},
   {
-    anilistId: 110615,
-    id: "curated-110615",
-    slug: "arp-backstage-pass",
-    seasonIds: ["2020-winter"],
-    startDate: "2020-01-13",
-    titleJa: "ARP Backstage Pass",
-    titleZhHant: "ARP Backstage Pass",
-    titleRomaji: "ARP Backstage Pass",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110615-BPAvwgEZ7iTn.png",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110615-qkyfTqWGwN7I.jpg",
-    editorialWeekday: 1,
-    broadcastLabel: "日本首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://arp-anime.com/",
-    anilistUrl: "https://anilist.co/anime/110615",
-    imageSourceUrl: "https://anilist.co/anime/110615",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/424",
-      "https://acgsecrets.hk/anime/51/",
-      "https://annict.com/works/6771",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/arp_backstage_pass",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "Burn it up",
-        artistDisplayName: "ARP",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "Celebrate Good Time",
-        titleRomaji: "CelebrateGoodTime",
-        artistDisplayName: "ARP",
-      },
-    ],
-    verifiedAt: "2026-09-02",
-  },
+  "anilistId": 110615,
+  "id": "curated-110615",
+  "slug": "arp-backstage-pass",
+  "seasonIds": [
+    "2020-winter"
+  ],
+  "startDate": "2020-01-13",
+  "titleJa": "ARP Backstage Pass",
+  "titleZhHant": "ARP Backstage Pass",
+  "titleRomaji": "ARP Backstage Pass",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110615-BPAvwgEZ7iTn.png",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110615-qkyfTqWGwN7I.jpg",
+  "editorialWeekday": 1,
+  "broadcastLabel": "TOKYO MX 2020年1月13日23:00",
+  "status": "finished",
+  "anilistUrl": "https://anilist.co/anime/110615",
+  "imageSourceUrl": "https://anilist.co/anime/110615",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/424",
+    "https://acgsecrets.hk/anime/51/",
+    "https://annict.com/works/6771"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/arp_backstage_pass",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "Burn it up",
+      "artistDisplayName": "ARP",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/arp_backstage_pass",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "Asmik Ace 官方影片",
+          "url": "https://www.youtube.com/watch?v=j8aeMLKJu3g",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.yukes.co.jp/wp-content/uploads/2020/01/AnimeDVD.pdf",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://w.atwiki.jp/arp_acorn/pages/88.html",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://animatetimes.com/news/details.php?id=1577431432",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "links": [],
+      "id": "arp-backstage-pass-op-1",
+      "songId": "arp-backstage-pass-op-1-song",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "credits": [
+        {
+          "name": "ARP",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.yukes.co.jp/wp-content/uploads/2020/01/AnimeDVD.pdf"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "arp-backstage-pass-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.yukes.co.jp/wp-content/uploads/2020/01/AnimeDVD.pdf"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "arp-backstage-pass-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://w.atwiki.jp/arp_acorn/pages/88.html"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "arp-backstage-pass-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://w.atwiki.jp/arp_acorn/pages/88.html"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "arp-backstage-pass-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://animatetimes.com/news/details.php?id=1577431432"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "arp-backstage-pass-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animatetimes.com/news/details.php?id=1577431432"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "arp-backstage-pass-op-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "use_quarters"
+          ],
+          "note": "原作權利方2020公告明OP/ED、ARP與冬季TV，交叉逐曲相符；節目延播至4月不自動證本曲春季實際用途。",
+          "resumeWhen": "待2020年4月原期逐話音樂署名明本曲實際使用，再補春季季度；不由全作播出期間灌入。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "Celebrate Good Time",
+      "titleRomaji": "CelebrateGoodTime",
+      "artistDisplayName": "ARP",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/arp_backstage_pass",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "Asmik Ace 官方影片",
+          "url": "https://www.youtube.com/watch?v=YQak15eNH7I",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.yukes.co.jp/wp-content/uploads/2020/01/AnimeDVD.pdf",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://w.atwiki.jp/arp_acorn/pages/88.html",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://animatetimes.com/news/details.php?id=1577431432",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "links": [],
+      "id": "arp-backstage-pass-ed-1",
+      "songId": "arp-backstage-pass-ed-1-song",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "credits": [
+        {
+          "name": "ARP",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.yukes.co.jp/wp-content/uploads/2020/01/AnimeDVD.pdf"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "arp-backstage-pass-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.yukes.co.jp/wp-content/uploads/2020/01/AnimeDVD.pdf"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "arp-backstage-pass-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://w.atwiki.jp/arp_acorn/pages/88.html"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "arp-backstage-pass-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://w.atwiki.jp/arp_acorn/pages/88.html"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "arp-backstage-pass-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://animatetimes.com/news/details.php?id=1577431432"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "arp-backstage-pass-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animatetimes.com/news/details.php?id=1577431432"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "arp-backstage-pass-ed-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "use_quarters"
+          ],
+          "note": "原作權利方2020公告明OP/ED、ARP與冬季TV，交叉逐曲相符；節目延播至4月不自動證本曲春季實際用途。",
+          "resumeWhen": "待2020年4月原期逐話音樂署名明本曲實際使用，再補春季季度；不由全作播出期間灌入。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    }
+  ],
+  "verifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://www.yukes.co.jp/wp-content/uploads/2020/01/AnimeDVD.pdf",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-26"
+    },
+    {
+      "url": "https://w.atwiki.jp/arp_acorn/pages/88.html",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-10-26"
+    }
+  ],
+  "broadcastTimeJst": "23:00"
+},
   {
-    anilistId: 107651,
-    id: "curated-107651",
-    slug: "a3-season-spring-summer",
-    seasonIds: ["2020-winter"],
-    startDate: "2020-01-14",
-    titleJa: "A3! SEASON SPRING ＆ SUMMER",
-    titleZhHant: "A3! SEASON SPRING & SUMMER",
-    titleRomaji: "A3! SEASON SPRING ＆ SUMMER",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107651-K5ykEuUbcQbn.png",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/107651-FmxfHXYOBsXy.jpg",
-    editorialWeekday: 2,
-    broadcastLabel: "日本首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://www.a3-animation.jp/",
-    anilistUrl: "https://anilist.co/anime/107651",
-    imageSourceUrl: "https://anilist.co/anime/107651",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/213",
-      "https://acgsecrets.hk/anime/52/",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/a3_season_spring_summer",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "Act! Addict! Actors!",
-        artistDisplayName: "A3ders!",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "Home",
-        artistDisplayName: "春組",
-      },
-      {
-        type: "ED",
-        sequence: 2,
-        titleJa: "オレンジ・ハート",
-        titleRomaji: "Orange Heart",
-        artistDisplayName: "夏組",
-      },
-    ],
-    verifiedAt: "2026-09-02",
-  },
+  "anilistId": 107651,
+  "id": "curated-107651",
+  "slug": "a3-season-spring-summer",
+  "seasonIds": [
+    "2020-winter",
+    "2020-spring"
+  ],
+  "startDate": "2020-01-14",
+  "titleJa": "A3! SEASON SPRING ＆ SUMMER",
+  "titleZhHant": "A3! SEASON SPRING & SUMMER",
+  "titleRomaji": "A3! SEASON SPRING ＆ SUMMER",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107651-K5ykEuUbcQbn.png",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/107651-FmxfHXYOBsXy.jpg",
+  "editorialWeekday": 2,
+  "broadcastLabel": "原期TOKYO MX等1/13月24:00換實曆；4月第1話重播另列",
+  "status": "finished",
+  "officialSiteUrl": "https://www.a3-animation.jp/",
+  "anilistUrl": "https://anilist.co/anime/107651",
+  "imageSourceUrl": "https://anilist.co/anime/107651",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/213",
+    "https://acgsecrets.hk/anime/52/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/a3_season_spring_summer",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "Act! Addict! Actors!",
+      "artistDisplayName": "A3ders!",
+      "id": "a3-season-spring-summer-op-1",
+      "songId": "a3-season-spring-summer-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter",
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.a3-animation.jp/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/a3_season_spring_summer",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://news.ponycanyon.co.jp/2019/12/35844",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://www.aeria.jp/pdf/Pwo59kuuF",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/A3%21",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://www.pa-works.jp/information/1874/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "A3ders!",
+          "role": "vocals"
+        },
+        {
+          "name": "大石昌良",
+          "role": "lyrics"
+        },
+        {
+          "name": "大石昌良",
+          "role": "composition"
+        },
+        {
+          "name": "大石昌良",
+          "role": "arrangement"
+        },
+        {
+          "name": "佐久間咲也（CV：酒井広大）",
+          "role": "vocals"
+        },
+        {
+          "name": "皇 天馬（CV：江口拓也）",
+          "role": "vocals"
+        },
+        {
+          "name": "摂津万里（CV：沢城千春）",
+          "role": "vocals"
+        },
+        {
+          "name": "月岡 紬（CV：田丸篤志）",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://news.ponycanyon.co.jp/2019/12/35844"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "a3-season-spring-summer-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.aeria.jp/pdf/Pwo59kuuF"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "a3-season-spring-summer-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://news.ponycanyon.co.jp/2019/12/35844"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "a3-season-spring-summer-op-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.aeria.jp/pdf/Pwo59kuuF"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "a3-season-spring-summer-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/A3%21"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "a3-season-spring-summer-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/A3%21"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "a3-season-spring-summer-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://news.ponycanyon.co.jp/2019/12/35844"
+          ],
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.aeria.jp/pdf/Pwo59kuuF"
+          ],
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本曲原名、演唱名義、已確認季度用途及逐曲詞曲編已核；音源、官方影片與發行品欄位仍待補齊。",
+          "resumeWhen": "待權利方提供本曲音源規格、影片與正式發行項目後續補；不以獨唱版或商品版本推新增動畫用途。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "Home",
+      "artistDisplayName": "春組",
+      "id": "a3-season-spring-summer-ed-1",
+      "songId": "a3-season-spring-summer-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter",
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.a3-animation.jp/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/a3_season_spring_summer",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://news.ponycanyon.co.jp/2019/12/35844",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://www.aeria.jp/pdf/Pwo59kuuF",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/A3%21",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://www.pa-works.jp/information/1874/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "春組",
+          "role": "vocals"
+        },
+        {
+          "name": "園田健太郎",
+          "role": "lyrics"
+        },
+        {
+          "name": "園田健太郎",
+          "role": "composition"
+        },
+        {
+          "name": "園田健太郎",
+          "role": "arrangement"
+        },
+        {
+          "name": "佐久間咲也（CV：酒井広大）",
+          "role": "vocals"
+        },
+        {
+          "name": "碓氷真澄（CV：白井悠介）",
+          "role": "vocals"
+        },
+        {
+          "name": "皆木 綴（CV：西山宏太朗）",
+          "role": "vocals"
+        },
+        {
+          "name": "茅ヶ崎 至（CV：浅沼晋太郎）",
+          "role": "vocals"
+        },
+        {
+          "name": "シトロン（CV：五十嵐 雅）",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://news.ponycanyon.co.jp/2019/12/35844"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "a3-season-spring-summer-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.aeria.jp/pdf/Pwo59kuuF"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "a3-season-spring-summer-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://news.ponycanyon.co.jp/2019/12/35844"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "a3-season-spring-summer-ed-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.aeria.jp/pdf/Pwo59kuuF"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "a3-season-spring-summer-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/A3%21"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "a3-season-spring-summer-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/A3%21"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "a3-season-spring-summer-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://news.ponycanyon.co.jp/2019/12/35844"
+          ],
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.aeria.jp/pdf/Pwo59kuuF"
+          ],
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本曲原名、演唱名義、已確認季度用途及逐曲詞曲編已核；音源、官方影片與發行品欄位仍待補齊。",
+          "resumeWhen": "待權利方提供本曲音源規格、影片與正式發行項目後續補；不以獨唱版或商品版本推新增動畫用途。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "オレンジ・ハート",
+      "titleRomaji": "Orange Heart",
+      "artistDisplayName": "夏組",
+      "id": "a3-season-spring-summer-ed-2",
+      "songId": "a3-season-spring-summer-ed-2-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.a3-animation.jp/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/a3_season_spring_summer",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://news.ponycanyon.co.jp/2019/12/35844",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://www.aeria.jp/pdf/Pwo59kuuF",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/A3%21",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://www.pa-works.jp/information/1874/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "夏組",
+          "role": "vocals"
+        },
+        {
+          "name": "ヒゲドライバー",
+          "role": "lyrics"
+        },
+        {
+          "name": "ヒゲドライバー",
+          "role": "composition"
+        },
+        {
+          "name": "ヒゲドライバー",
+          "role": "arrangement"
+        },
+        {
+          "name": "皇 天馬（CV：江口拓也）",
+          "role": "vocals"
+        },
+        {
+          "name": "瑠璃川 幸（CV：土岐隼一）",
+          "role": "vocals"
+        },
+        {
+          "name": "向坂 椋（CV：山谷祥生）",
+          "role": "vocals"
+        },
+        {
+          "name": "斑鳩三角（CV：廣瀬大介）",
+          "role": "vocals"
+        },
+        {
+          "name": "三好一成（CV：小澤 廉）",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://news.ponycanyon.co.jp/2019/12/35844"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "a3-season-spring-summer-ed-2-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.aeria.jp/pdf/Pwo59kuuF"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "a3-season-spring-summer-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://news.ponycanyon.co.jp/2019/12/35844"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "a3-season-spring-summer-ed-2"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.aeria.jp/pdf/Pwo59kuuF"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "a3-season-spring-summer-ed-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/A3%21"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "a3-season-spring-summer-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/A3%21"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "a3-season-spring-summer-ed-2"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://news.ponycanyon.co.jp/2019/12/35844"
+          ],
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.aeria.jp/pdf/Pwo59kuuF"
+          ],
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本曲原名、演唱名義、已確認季度用途及逐曲詞曲編已核；音源、官方影片與發行品欄位仍待補齊。",
+          "resumeWhen": "待權利方提供本曲音源規格、影片與正式發行項目後續補；不以獨唱版或商品版本推新增動畫用途。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    }
+  ],
+  "verifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://news.ponycanyon.co.jp/2019/12/35844",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-26"
+    },
+    {
+      "url": "https://www.pa-works.jp/information/1874/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-26"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_A3%21_episodes",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "en",
+      "verifiedAt": "2026-10-26"
+    }
+  ],
+  "broadcastTimeJst": "00:00"
+},
   {
     anilistId: 110178,
     id: "curated-110178",
@@ -15064,58 +17290,613 @@ const curated2020WinterSeedRows: CuratedAnimeSeed[] = [
     verifiedAt: "2026-09-02",
   },
   {
-    anilistId: 112748,
-    id: "curated-112748",
-    slug: "healin-good-precure",
-    seasonIds: ["2020-winter"],
-    startDate: "2020-02-02",
-    titleJa: "ヒーリングっど♥プリキュア",
-    titleZhHant: "元氣魔法 ♥ 光之美少女",
-    titleRomaji: "Healin' Good♥Precure",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112748-UU9yEob7meZj.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112748-dT6g0pgTY5u1.jpg",
-    editorialWeekday: 7,
-    broadcastLabel: "日本首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://www.toei-anim.co.jp/tv/healingood_precure/",
-    anilistUrl: "https://anilist.co/anime/112748",
-    imageSourceUrl: "https://anilist.co/anime/112748",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/422",
-      "https://acgsecrets.hk/anime/55/",
-      "https://annict.com/works/7164",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/healin_goodprecure",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "ヒーリングっど♥プリキュア Touch!!",
-        titleRomaji: "Healin' Good♥Precure Touch!!",
-        artistDisplayName: "北川理恵",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "ミラクルっと♥Link Ring！",
-        titleRomaji: "Miracle-tto♥Link Ring!",
-        artistDisplayName: "Machico",
-      },
-      {
-        type: "ED",
-        sequence: 2,
-        titleJa: "エビバディ☆ヒーリングッデイ！",
-        titleRomaji: "Everybody☆Healin' Good Day!",
-        artistDisplayName: "宮本佳那子",
-      },
-    ],
-    verifiedAt: "2026-09-02",
-  },
+  "anilistId": 112748,
+  "id": "curated-112748",
+  "slug": "healin-good-precure",
+  "seasonIds": [
+    "2020-winter",
+    "2020-spring",
+    "2020-summer",
+    "2020-fall",
+    "2021-winter"
+  ],
+  "startDate": "2020-02-02",
+  "titleJa": "ヒーリングっど♥プリキュア",
+  "titleZhHant": "元氣魔法 ♥ 光之美少女",
+  "titleRomaji": "Healin' Good♥Precure",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112748-UU9yEob7meZj.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112748-dT6g0pgTY5u1.jpg",
+  "editorialWeekday": 7,
+  "broadcastLabel": "ABCテレビ・テレビ朝日系列 原日本TV首播／週日08:30",
+  "status": "finished",
+  "officialSiteUrl": "https://www.toei-anim.co.jp/tv/healingood_precure/",
+  "anilistUrl": "https://anilist.co/anime/112748",
+  "imageSourceUrl": "https://anilist.co/anime/112748",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/422",
+    "https://acgsecrets.hk/anime/55/",
+    "https://annict.com/works/7164"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/healin_goodprecure",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "ヒーリングっど♥プリキュア Touch!!",
+      "titleRomaji": "Healin' Good♥Precure Touch!!",
+      "artistDisplayName": "北川理恵",
+      "id": "healin-good-precure-op-1",
+      "songId": "healin-good-precure-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter",
+        "2020-spring",
+        "2020-summer",
+        "2020-fall",
+        "2021-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.toei-anim.co.jp/tv/healingood_precure/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/healin_goodprecure",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "プリキュア公式YouTubeチャンネル 官方影片",
+          "url": "https://www.youtube.com/watch?v=mfrw2yHIwlA",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.toei-anim.co.jp/tv/healingood_precure/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://machi.co/contents/288052",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000534.000016719.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%85%83%E6%B0%A3%E9%AD%94%E6%B3%95%E5%85%89%E4%B9%8B%E7%BE%8E%E5%B0%91%E5%A5%B3",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "北川理恵",
+          "role": "vocals"
+        },
+        {
+          "name": "こだまさおり",
+          "role": "lyrics"
+        },
+        {
+          "name": "高取ヒデアキ",
+          "role": "composition"
+        },
+        {
+          "name": "籠島裕昌",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/healingood_precure/music/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "healin-good-precure-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://machi.co/contents/288052"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "healin-good-precure-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000000534.000016719.html"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "healin-good-precure-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/healingood_precure/music/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "healin-good-precure-op-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://machi.co/contents/288052"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "healin-good-precure-op-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000000534.000016719.html"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "healin-good-precure-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%85%83%E6%B0%A3%E9%AD%94%E6%B3%95%E5%85%89%E4%B9%8B%E7%BE%8E%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "healin-good-precure-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%85%83%E6%B0%A3%E9%AD%94%E6%B3%95%E5%85%89%E4%B9%8B%E7%BE%8E%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "healin-good-precure-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/healingood_precure/music/"
+          ],
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原期曲名、演唱名義與OP／ED用途已核；既有影音及用途序號保留。",
+          "resumeWhen": "待本曲音源、發行品或單曲平台有直接證據再補，不由影片推新錄音。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "ミラクルっと♥Link Ring！",
+      "titleRomaji": "Miracle-tto♥Link Ring!",
+      "artistDisplayName": "Machico",
+      "id": "healin-good-precure-ed-1",
+      "songId": "healin-good-precure-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter",
+        "2020-spring",
+        "2020-summer"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.toei-anim.co.jp/tv/healingood_precure/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/healin_goodprecure",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "プリキュア公式YouTubeチャンネル 官方影片",
+          "url": "https://www.youtube.com/watch?v=gKeHjNc30Qc",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.toei-anim.co.jp/tv/healingood_precure/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://machi.co/contents/288052",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000534.000016719.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%85%83%E6%B0%A3%E9%AD%94%E6%B3%95%E5%85%89%E4%B9%8B%E7%BE%8E%E5%B0%91%E5%A5%B3",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Machico",
+          "role": "vocals"
+        },
+        {
+          "name": "eNu",
+          "role": "lyrics"
+        },
+        {
+          "name": "大橋莉子",
+          "role": "composition"
+        },
+        {
+          "name": "KOH",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/healingood_precure/music/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "healin-good-precure-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://machi.co/contents/288052"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "healin-good-precure-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000000534.000016719.html"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "healin-good-precure-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/healingood_precure/music/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "healin-good-precure-ed-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://machi.co/contents/288052"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "healin-good-precure-ed-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000000534.000016719.html"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "healin-good-precure-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%85%83%E6%B0%A3%E9%AD%94%E6%B3%95%E5%85%89%E4%B9%8B%E7%BE%8E%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "healin-good-precure-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%85%83%E6%B0%A3%E9%AD%94%E6%B3%95%E5%85%89%E4%B9%8B%E7%BE%8E%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "healin-good-precure-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/healingood_precure/music/"
+          ],
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原期曲名、演唱名義與OP／ED用途已核；既有影音及用途序號保留。",
+          "resumeWhen": "待本曲音源、發行品或單曲平台有直接證據再補，不由影片推新錄音。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "エビバディ☆ヒーリングッデイ！",
+      "titleRomaji": "Everybody☆Healin' Good Day!",
+      "artistDisplayName": "宮本佳那子",
+      "id": "healin-good-precure-ed-2",
+      "songId": "healin-good-precure-ed-2-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer",
+        "2020-fall",
+        "2021-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.toei-anim.co.jp/tv/healingood_precure/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/healin_goodprecure",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "プリキュア公式YouTubeチャンネル 官方影片",
+          "url": "https://www.youtube.com/watch?v=-HWLo0Al7sk",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.toei-anim.co.jp/tv/healingood_precure/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%85%83%E6%B0%A3%E9%AD%94%E6%B3%95%E5%85%89%E4%B9%8B%E7%BE%8E%E5%B0%91%E5%A5%B3",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "宮本佳那子",
+          "role": "vocals"
+        },
+        {
+          "name": "藤本記子",
+          "role": "lyrics"
+        },
+        {
+          "name": "ANDW",
+          "role": "composition"
+        },
+        {
+          "name": "立山秋航",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/healingood_precure/music/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "healin-good-precure-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/healingood_precure/music/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "healin-good-precure-ed-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%85%83%E6%B0%A3%E9%AD%94%E6%B3%95%E5%85%89%E4%B9%8B%E7%BE%8E%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "healin-good-precure-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%85%83%E6%B0%A3%E9%AD%94%E6%B3%95%E5%85%89%E4%B9%8B%E7%BE%8E%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "healin-good-precure-ed-2"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/healingood_precure/music/"
+          ],
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原期曲名、演唱名義與OP／ED用途已核；既有影音及用途序號保留。",
+          "resumeWhen": "待本曲音源、發行品或單曲平台有直接證據再補，不由影片推新錄音。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    }
+  ],
+  "verifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://machi.co/contents/288052",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-26"
+    },
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000000534.000016719.html",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-26"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E5%85%83%E6%B0%A3%E9%AD%94%E6%B3%95%E5%85%89%E4%B9%8B%E7%BE%8E%E5%B0%91%E5%A5%B3",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-26"
+    }
+  ],
+  "broadcastTimeJst": "08:30"
+},
   {
     anilistId: 109586,
     id: "curated-109586",
