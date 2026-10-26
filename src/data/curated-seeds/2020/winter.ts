@@ -17998,44 +17998,665 @@ const curated2020WinterSeedRows: CuratedAnimeSeed[] = [
     verifiedAt: "2026-09-02",
   },
   {
-    anilistId: 110354,
-    id: "curated-110354",
-    slug: "bna",
-    seasonIds: ["2020-winter"],
-    startDate: "2020-03-21",
-    titleJa: "BNA ビー・エヌ・エー",
-    titleZhHant: "動物新世代 BNA",
-    titleRomaji: "BNA",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110354-JJKR42frJABe.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110354-F4KigAURY8zf.jpg",
-    editorialWeekday: 6,
-    broadcastLabel: "日本網絡首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://bna-anime.com/",
-    anilistUrl: "https://anilist.co/anime/110354",
-    imageSourceUrl: "https://anilist.co/anime/110354",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: ["https://bna-anime.com/music/"],
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "Ready to",
-        artistDisplayName: "諸星すみれ",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "NIGHT RUNNING",
-        artistDisplayName: "Shin Sakiura feat. AAAMYYY",
-      },
-    ],
-    verifiedAt: "2026-09-02",
-  },
+  "anilistId": 110354,
+  "id": "curated-110354",
+  "slug": "bna",
+  "seasonIds": [
+    "2020-winter",
+    "2020-spring"
+  ],
+  "startDate": "2020-04-09",
+  "titleJa": "BNA ビー・エヌ・エー",
+  "titleZhHant": "動物新世代 BNA",
+  "titleRomaji": "BNA",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110354-JJKR42frJABe.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110354-F4KigAURY8zf.jpg",
+  "editorialWeekday": 4,
+  "broadcastLabel": "Fuji原4/8水24:55換實曆；Netflix3/21先行不同",
+  "status": "finished",
+  "officialSiteUrl": "https://bna-anime.com/",
+  "anilistUrl": "https://anilist.co/anime/110354",
+  "imageSourceUrl": "https://anilist.co/anime/110354",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://bna-anime.com/music/"
+  ],
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "Ready to",
+      "artistDisplayName": "影森みちる（CV：諸星すみれ）",
+      "id": "bna-op-1",
+      "songId": "bna-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "url": "https://bna-anime.com/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "label": "公開資料：OP／ED 用途、版本與演唱者交叉核對",
+          "url": "https://anison.online/season?season_id=13",
+          "language": "multi",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://bna-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://otakuusamagazine.com/bna-brand-new-animal-creditless-opening-and-ending-streamed/",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%8B%95%E7%89%A9%E6%96%B0%E4%B8%96%E4%BB%A3_BNA",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://bna-anime.com/onair/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "諸星すみれ",
+          "role": "vocals"
+        },
+        {
+          "name": "rihoco",
+          "role": "lyrics"
+        },
+        {
+          "name": "Jin Tanaka",
+          "role": "composition"
+        },
+        {
+          "name": "R・O・N",
+          "role": "arrangement"
+        },
+        {
+          "name": "影森みちる（CV：諸星すみれ）",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://bna-anime.com/music/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bna-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://bna-anime.com/music/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bna-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://otakuusamagazine.com/bna-brand-new-animal-creditless-opening-and-ending-streamed/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bna-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://otakuusamagazine.com/bna-brand-new-animal-creditless-opening-and-ending-streamed/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bna-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%8B%95%E7%89%A9%E6%96%B0%E4%B8%96%E4%BB%A3_BNA"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bna-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%8B%95%E7%89%A9%E6%96%B0%E4%B8%96%E4%BB%A3_BNA"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bna-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://bna-anime.com/music/"
+          ],
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "曲名、演唱名義與已確認的本期TV用途季度已核；音源、影片及發行品資料仍待補。",
+          "resumeWhen": "待權利方公開正式音源、影片及發行品資訊後補核。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "NIGHT RUNNING",
+      "artistDisplayName": "Shin Sakiura feat. AAAMYYY",
+      "id": "bna-ed-1",
+      "songId": "bna-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "url": "https://bna-anime.com/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "label": "公開資料：OP／ED 用途、版本與演唱者交叉核對",
+          "url": "https://anison.online/season?season_id=13",
+          "language": "multi",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://bna-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://otakuusamagazine.com/bna-brand-new-animal-creditless-opening-and-ending-streamed/",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://bna-anime.com/onair/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Shin Sakiura feat. AAAMYYY",
+          "role": "vocals"
+        },
+        {
+          "name": "AAAMYYY",
+          "role": "lyrics"
+        },
+        {
+          "name": "Shin Sakiura",
+          "role": "composition"
+        },
+        {
+          "name": "Shin Sakiura",
+          "role": "arrangement"
+        },
+        {
+          "name": "AAAMYYY",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://bna-anime.com/music/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bna-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://bna-anime.com/music/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bna-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://otakuusamagazine.com/bna-brand-new-animal-creditless-opening-and-ending-streamed/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bna-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://otakuusamagazine.com/bna-brand-new-animal-creditless-opening-and-ending-streamed/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bna-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://bna-anime.com/music/"
+          ],
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "曲名、演唱名義與已確認的本期TV用途季度已核；音源、影片及發行品資料仍待補。",
+          "resumeWhen": "待權利方公開正式音源、影片及發行品資訊後補核。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "id": "bna-in-1",
+      "type": "IN",
+      "sequence": 1,
+      "titleJa": "Wish",
+      "artistDisplayName": "日渡なずな（CV：長縄まりあ）",
+      "credits": [
+        {
+          "name": "rihoco",
+          "role": "lyrics"
+        },
+        {
+          "name": "el",
+          "role": "composition"
+        },
+        {
+          "name": "el",
+          "role": "arrangement"
+        },
+        {
+          "name": "日渡なずな（CV：長縄まりあ）",
+          "role": "vocals"
+        }
+      ],
+      "links": [],
+      "songId": "bna-in-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "url": "https://bna-anime.com/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://bna-anime.com/news/20200515_01.php",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://www.cdjournal.com/news/-/86134",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://bna-anime.com/onair/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://bna-anime.com/music/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bna-in-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://bna-anime.com/news/20200515_01.php"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bna-in-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://bna-anime.com/news/20200515_01.php"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bna-in-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.cdjournal.com/news/-/86134"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bna-in-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.cdjournal.com/news/-/86134"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bna-in-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://bna-anime.com/music/"
+          ],
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本曲原名、逐曲演唱名義、第11話插曲用途及創作署名已核；音源、官方影片與發行品資料仍待補。",
+          "resumeWhen": "待權利方公開正式音源、影片及發行品資訊後補核。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "id": "bna-in-2",
+      "type": "IN",
+      "sequence": 2,
+      "titleJa": "NIGHT RUNNING feat.Déesse louve",
+      "artistDisplayName": "日渡なずな（CV：長縄まりあ）",
+      "credits": [
+        {
+          "name": "AAAMYYY",
+          "role": "lyrics"
+        },
+        {
+          "name": "Shin Sakiura",
+          "role": "composition"
+        },
+        {
+          "name": "吉田穣",
+          "role": "arrangement"
+        },
+        {
+          "name": "日渡なずな（CV：長縄まりあ）",
+          "role": "vocals"
+        }
+      ],
+      "links": [],
+      "songId": "bna-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "sources": [
+        {
+          "url": "https://bna-anime.com/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://bna-anime.com/news/20200515_01.php",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://www.cdjournal.com/news/-/86134",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://bna-anime.com/onair/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://bna-anime.com/music/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bna-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://bna-anime.com/news/20200515_01.php"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bna-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://bna-anime.com/news/20200515_01.php"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bna-in-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.cdjournal.com/news/-/86134"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bna-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.cdjournal.com/news/-/86134"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bna-in-2"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://bna-anime.com/music/"
+          ],
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本曲原名、逐曲演唱名義、第11話插曲用途及創作署名已核；音源、官方影片與發行品資料仍待補。 依官方曲名及相同詞曲署名，人工整理為既有片尾曲的另一演唱／編曲用途；官方未明示cover標籤，錄音版本仍待核。",
+          "resumeWhen": "待權利方公開正式音源、影片及發行品資訊後補核。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    }
+  ],
+  "verifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://bna-anime.com/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-26"
+    },
+    {
+      "url": "https://bna-anime.com/onair/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-26"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E5%8B%95%E7%89%A9%E6%96%B0%E4%B8%96%E4%BB%A3_BNA",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-26"
+    }
+  ],
+  "broadcastTimeJst": "00:55"
+},
   {
     anilistId: 115519,
     id: "curated-115519",
@@ -18175,50 +18796,470 @@ const curated2020WinterSeedRows: CuratedAnimeSeed[] = [
     verifiedAt: "2026-09-02",
   },
   {
-    anilistId: 112686,
-    id: "curated-112686",
-    slug: "7seeds-2",
-    seasonIds: ["2020-winter"],
-    startDate: "2020-03-26",
-    titleJa: "7SEEDS 2",
-    titleZhHant: "7SEEDS 第二季",
-    titleRomaji: "7SEEDS 2",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112686-vZCeCpw9oYB4.jpg",
-    editorialWeekday: 4,
-    broadcastLabel: "日本網絡首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://7seeds.jp/",
-    anilistUrl: "https://anilist.co/anime/112686",
-    imageSourceUrl: "https://anilist.co/anime/112686",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: ["https://youranimes.tw/animes/59"],
-    animeThemesUrl: "https://animethemes.moe/anime/7_seeds_2nd_season",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "From The Seeds",
-        artistDisplayName: "上白石萌音",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "Synchro",
-        artistDisplayName: "サイダーガール",
-      },
-      {
-        type: "ED",
-        sequence: 2,
-        titleJa: "生きてゆく",
-        titleRomaji: "Ikite Yuku",
-        artistDisplayName: "Lovin' You",
-      },
-    ],
-    verifiedAt: "2026-09-02",
-  },
+  "anilistId": 112686,
+  "id": "curated-112686",
+  "slug": "7seeds-2",
+  "seasonIds": [
+    "2020-winter",
+    "2021-winter"
+  ],
+  "startDate": "2021-01-04",
+  "titleJa": "7SEEDS 2",
+  "titleZhHant": "7SEEDS 第二季",
+  "titleRomaji": "7SEEDS 2",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112686-vZCeCpw9oYB4.jpg",
+  "editorialWeekday": 1,
+  "broadcastLabel": "第2期TOKYO MX原TV；Netflix2020/3/26首發分開",
+  "status": "finished",
+  "officialSiteUrl": "https://7seeds.jp/",
+  "anilistUrl": "https://anilist.co/anime/112686",
+  "imageSourceUrl": "https://anilist.co/anime/112686",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/59"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/7_seeds_2nd_season",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "From The Seeds",
+      "artistDisplayName": "上白石萌音",
+      "id": "7seeds-2-op-1",
+      "songId": "7seeds-2-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://7seeds.jp/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/7_seeds_2nd_season",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://7seeds.jp/news/29.php",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/7SEEDS",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://www.animatetimes.com/news/details.php?id=1616028118&p=4",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://7seeds.jp/onair/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "上白石萌音",
+          "role": "vocals"
+        },
+        {
+          "name": "松尾レミ（GLIM SPANKY）",
+          "role": "lyrics"
+        },
+        {
+          "name": "GLIM SPANKY",
+          "role": "composition"
+        },
+        {
+          "name": "亀本寛貴（GLIM SPANKY）",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://7seeds.jp/news/29.php"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "7seeds-2-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://7seeds.jp/news/29.php"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "7seeds-2-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/7SEEDS"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "7seeds-2-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/7SEEDS"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "7seeds-2-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1616028118&p=4"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "7seeds-2-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1616028118&p=4"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "7seeds-2-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://7seeds.jp/news/29.php"
+          ],
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "曲名、演唱名義與已確認的本期TV用途季度已核；音源、影片及發行品資料仍待補。",
+          "resumeWhen": "待權利方公開正式音源、影片及發行品資訊後補核。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "シンクロ",
+      "artistDisplayName": "サイダーガール",
+      "id": "7seeds-2-ed-1",
+      "songId": "7seeds-2-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://7seeds.jp/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/7_seeds_2nd_season",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/cidergirl/news/2019-12-27/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/7SEEDS",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://www.animatetimes.com/news/details.php?id=1616028118&p=4",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://7seeds.jp/onair/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "サイダーガール",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/cidergirl/news/2019-12-27/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "7seeds-2-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/cidergirl/news/2019-12-27/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "7seeds-2-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/7SEEDS"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "7seeds-2-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/7SEEDS"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "7seeds-2-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1616028118&p=4"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "7seeds-2-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1616028118&p=4"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "7seeds-2-ed-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "lyrics",
+            "composition",
+            "arrangement"
+          ],
+          "note": "曲名、演唱名義與已確認的本期TV用途季度已核；音源、影片及發行品資料仍待補。",
+          "resumeWhen": "待權利方公開正式音源、影片及發行品資訊後補核。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "生きてゆく",
+      "titleRomaji": "Ikite Yuku",
+      "artistDisplayName": "Lovin' You",
+      "id": "7seeds-2-ed-2",
+      "songId": "7seeds-2-ed-2-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://7seeds.jp/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/7_seeds_2nd_season",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/7SEEDS",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://www.animatetimes.com/news/details.php?id=1616028118&p=4",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Lovin' You",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/7SEEDS"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "7seeds-2-ed-2-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1616028118&p=4"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "7seeds-2-ed-2-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement"
+          ],
+          "note": "曲名生きてゆく與現有演唱文字保留；交叉來源列ラビンユー及第24話ED，但尚缺本期權利方逐曲身分與用途正證。",
+          "resumeWhen": "待本期權利方公開生きてゆく的演唱名義及第24話用途說明後重核。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    }
+  ],
+  "verifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "url": "https://7seeds.jp/onair/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-26"
+    },
+    {
+      "url": "https://7seeds.jp/news/31.php",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-26"
+    },
+    {
+      "url": "https://www.animatetimes.com/news/details.php?id=1616028118&p=4",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-10-26"
+    }
+  ],
+  "broadcastTimeJst": "22:30"
+},
   {
     anilistId: 116979,
     id: "curated-116979",
