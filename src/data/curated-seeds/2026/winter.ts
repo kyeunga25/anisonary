@@ -63,7 +63,822 @@ export const curated2026WinterSeeds: CuratedAnimeSeed[] = [
   {"anilistId":182255,"id":"curated-182255","slug":"sousou-no-frieren-2nd-season","seasonIds":["2026-winter"],"startDate":"2026-01-16","titleJa":"葬送のフリーレン 第2期","titleZhHant":"葬送的芙莉蓮 （第2期）","titleRomaji":"Sousou no Frieren 2nd Season","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182255-butzrqd4I0aC.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/182255-wyHvp6zJbWsO.jpg","editorialWeekday":5,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://frieren-anime.jp/","anilistUrl":"https://anilist.co/anime/182255","imageSourceUrl":"https://anilist.co/anime/182255","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2026-winter?display=list_detailed","https://bgm.tv/subject/515759"],"animeThemesUrl":"https://animethemes.moe/anime/sousou_no_frieren_2nd_season","uzureaUrl":"https://uzurea.net/winter-2026-anime-theme-songs/","themes":[{"type":"OP","titleJa":"lulu.","artistDisplayName":"Mrs. GREEN APPLE","sequence":1},{"type":"OP","titleJa":"lulu.","artistDisplayName":"Mrs. GREEN APPLE スペシャルPV","youtubeUrl":"https://www.youtube.com/watch?v=-kpHrSd2wOc","sequence":2},{"type":"ED","titleJa":"The Story of Us","artistDisplayName":"milet","sequence":1},{"type":"ED","sequence":2,"titleJa":"Trace","artistDisplayName":"milet"}],"verifiedAt":"2026-07-28"},
   {"anilistId":204698,"id":"curated-204698","slug":"gelpiyo","seasonIds":["2026-winter"],"startDate":"2026-01-21","titleJa":"ゲルぴよ","titleZhHant":"果凍小雞","titleRomaji":"GelPiyo","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx204698-6v7aAq92mKFl.png","editorialWeekday":3,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://s.mxtv.jp/anime/gelpiyo/","anilistUrl":"https://anilist.co/anime/204698","imageSourceUrl":"https://anilist.co/anime/204698","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2026-winter?display=list_detailed","https://bgm.tv/subject/618661"],"uzureaUrl":"https://uzurea.net/winter-2026-anime-theme-songs/","themes":[],"verifiedAt":"2026-07-28","metadataVerifiedAt":"2026-08-10"},
   {"anilistId":189275,"id":"curated-189275","slug":"medalist-2nd-season","seasonIds":["2026-winter"],"startDate":"2026-01-25","titleJa":"メダリスト 第2期","titleZhHant":"金牌得主 （第2期）","titleRomaji":"Medalist 2nd Season","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx189275-eHsK0lNnFfXH.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/189275-WreT2tChg3a0.jpg","editorialWeekday":7,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://medalist-pr.com/","anilistUrl":"https://anilist.co/anime/189275","imageSourceUrl":"https://anilist.co/anime/189275","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2026-winter?display=list_detailed","https://bgm.tv/subject/548818"],"animeThemesUrl":"https://animethemes.moe/anime/medalist_2nd_season","uzureaUrl":"https://uzurea.net/winter-2026-anime-theme-songs/","themes":[{"type":"OP","titleJa":"Cold Night","artistDisplayName":"HANA","sequence":1,"songId":"medalist-2nd-season-op-1-song","credits":[{"name":"HANA","role":"vocals"},{"name":"CHANMINA","role":"lyrics"},{"name":"CHANMINA","role":"composition"},{"name":"SANGWOO","role":"composition"}],"sources":[{"url":"https://hana.b-rave.tokyo/music/coldnight/","label":"HANA 官方：Cold Night 第二期 OP、1月24日配信及1月28日 CD；未明示編曲","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.sonymusic.com.tw/album/hana/","label":"台灣 Sony Music 官方：首張同名專輯 HANA 明示收錄 Cold Night","role":"first_party","language":"zh-Hant","verifiedAt":"2026-10-15"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://hana.b-rave.tokyo/music/coldnight/"],"verifiedAt":"2026-10-15","targetId":"medalist-2nd-season-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://hana.b-rave.tokyo/music/coldnight/"],"verifiedAt":"2026-10-15","targetId":"medalist-2nd-season-op-1"},{"target":"song","fields":["date"],"sourceUrls":["https://hana.b-rave.tokyo/music/coldnight/"],"verifiedAt":"2026-10-15","targetId":"medalist-2nd-season-op-1-song"},{"target":"link","fields":["url","type"],"sourceUrls":["https://hana.b-rave.tokyo/music/coldnight/"],"verifiedAt":"2026-10-15","targetId":"https://hana-brave.lnk.to/Cold_Night"},{"target":"release","fields":["title","type","tracklist"],"sourceUrls":["https://www.sonymusic.com.tw/album/hana/"],"verifiedAt":"2026-10-15","targetId":"hana-first-album-official-tw"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.sonymusic.com.tw/album/hana/"],"verifiedAt":"2026-10-15","targetId":"https://www.sonymusic.com.tw/album/hana/"}],"releaseDate":"2026-01-24","links":[{"platform":"官方配信","label":"Cold Night 官方 CD／配信入口","url":"https://hana-brave.lnk.to/Cold_Night","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"官方配信","label":"HANA 官方商品／曲目資料","url":"https://www.sonymusic.com.tw/album/hana/","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"hana-first-album-official-tw"}],"releases":[{"id":"hana-first-album-official-tw","title":"HANA","artistDisplayName":"HANA","type":"album","tracks":[{"title":"Cold Night"}]}]},{"type":"ED","titleJa":"Rookies","artistDisplayName":"Conton Candy","sequence":1}],"verifiedAt":"2026-07-28","metadataVerifiedAt":"2026-08-11"},
-  {"anilistId":202957,"id":"curated-202957","slug":"meitantei-precure","seasonIds":["2026-winter","2026-spring","2026-summer","2026-fall"],"startDate":"2026-02-01","titleJa":"名探偵プリキュア！","titleZhHant":"名偵探光之美少女","titleRomaji":"Meitantei Precure!","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx202957-fxZGgJTvwXzP.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/202957-B9U0hNv2Dqap.jpg","editorialWeekday":7,"broadcastLabel":"2026-02-01起・TV週日08:30（JST）・ABCテレビ／テレビ朝日系；全年續播","status":"airing","officialSiteUrl":"https://www.toei-anim.co.jp/tv/star-detective_precure/","anilistUrl":"https://anilist.co/anime/202957","imageSourceUrl":"https://anilist.co/anime/202957","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2026-winter?display=list_detailed"],"animeThemesUrl":"https://animethemes.moe/anime/meitantei_precure","uzureaUrl":"https://uzurea.net/winter-2026-anime-theme-songs/","themes":[{"type":"OP","titleJa":"ハートにヒント！名探偵プリキュア！","artistDisplayName":"石井あみ","youtubeUrl":"https://www.youtube.com/watch?v=gri5qHqXjMg","sequence":1,"songId":"meitantei-precure-op-1-song","credits":[{"name":"石井あみ","role":"vocals"},{"name":"只野菜摘","role":"lyrics"},{"name":"杉山勝彦","role":"composition"},{"name":"佐々木”コジロー”貴之","role":"composition"},{"name":"佐々木”コジロー”貴之","role":"arrangement"},{"name":"K'vin Sakura","role":"arrangement"}],"sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=gri5qHqXjMg","language":"ja","role":"first_party","verifiedAt":"2026-07-28"},{"label":"動畫官方網站","url":"https://www.toei-anim.co.jp/tv/star-detective_precure/","language":"ja","role":"first_party","verifiedAt":"2026-07-28"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/meitantei_precure","language":"en","role":"cross_check","verifiedAt":"2026-07-28"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/winter-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-28"},{"url":"https://www.toei-anim.co.jp/tv/precure/music/","label":"東映動畫官方 MUSIC：本作 OP、前期 ED、後期 ED 的原名、演唱及各自完整創作","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.toei-anim.co.jp/tv/precure/movie/themesong.php/special.php","label":"東映動畫官方主題歌 MOVIE：各首主題曲的確切 YouTube 入口","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.marv.jp/titles/mc/11013/","label":"Marvelous 官方商品：主題歌 Single、兩個 CD 版、各自伴奏／TV サイズ、品番及日期","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://prtimes.jp/main/html/rd/p/000002175.000016719.html","label":"官方：歌曲用途／TV季度證據","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://ja.wikipedia.org/wiki/%E5%90%8D%E6%8E%A2%E5%81%B5%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2!","label":"歌曲期間或季度身分交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-19"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.toei-anim.co.jp/tv/precure/music/"],"verifiedAt":"2026-10-15","targetId":"meitantei-precure-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.toei-anim.co.jp/tv/precure/music/"],"verifiedAt":"2026-10-15","targetId":"meitantei-precure-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.toei-anim.co.jp/tv/precure/music/"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.toei-anim.co.jp/tv/precure/movie/themesong.php/special.php"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=gri5qHqXjMg"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.toei-anim.co.jp/tv/precure/movie/themesong.php/special.php"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=j3wz60GbRic"},{"target":"recording","fields":["title","kind","format"],"sourceUrls":["https://www.marv.jp/titles/mc/11013/"],"verifiedAt":"2026-10-15","targetId":"meitantei-precure-op-1-tv"},{"target":"recording","fields":["title","kind","format"],"sourceUrls":["https://www.marv.jp/titles/mc/11013/"],"verifiedAt":"2026-10-15","targetId":"meitantei-precure-op-1-melody-karaoke"},{"target":"recording","fields":["title","kind","format"],"sourceUrls":["https://www.marv.jp/titles/mc/11013/"],"verifiedAt":"2026-10-15","targetId":"meitantei-precure-op-1-original-karaoke"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.marv.jp/titles/mc/11013/"],"verifiedAt":"2026-10-15","targetId":"meitantei-precure-mjss-09402-3"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.marv.jp/titles/mc/11013/"],"verifiedAt":"2026-10-15","targetId":"https://www.marv.jp/titles/mc/11013/"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.marv.jp/titles/mc/11013/"],"verifiedAt":"2026-10-15","targetId":"meitantei-precure-mjss-09404"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.marv.jp/titles/mc/11013/"],"verifiedAt":"2026-10-15","targetId":"https://lnk.to/tanpre_SYUDAIKA01TW"},{"target":"anime_use","targetId":"meitantei-precure-op-1","fields":["usage"],"sourceUrls":["https://prtimes.jp/main/html/rd/p/000002175.000016719.html","https://ja.wikipedia.org/wiki/%E5%90%8D%E6%8E%A2%E5%81%B5%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2!"],"verifiedAt":"2026-10-19"}],"usageLabel":"OP","links":[{"platform":"YouTube","label":"ハートにヒント！名探偵プリキュア！ 官方 OP 影片","url":"https://www.youtube.com/watch?v=gri5qHqXjMg","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"YouTube","label":"ハートにヒント！名探偵プリキュア！ 全員集合無字幕 OP","url":"https://www.youtube.com/watch?v=j3wz60GbRic","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"官方配信","label":"『名探偵プリキュア！』主題歌シングル 官方商品／曲目資料","url":"https://www.marv.jp/titles/mc/11013/","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"meitantei-precure-mjss-09404"},{"platform":"官方配信","label":"主題歌 Single 官方購買入口","url":"https://lnk.to/tanpre_SYUDAIKA01TW","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"}],"recordings":[{"id":"meitantei-precure-op-1-tv","title":"ハートにヒント！名探偵プリキュア！","kind":"vocal","format":"tv"},{"id":"meitantei-precure-op-1-melody-karaoke","title":"オリジナル・メロディ・カラオケ","kind":"instrumental","format":"unknown"},{"id":"meitantei-precure-op-1-original-karaoke","title":"オリジナル・カラオケ","kind":"instrumental","format":"unknown"}],"releases":[{"id":"meitantei-precure-mjss-09402-3","title":"『名探偵プリキュア！』主題歌シングル","artistDisplayName":"名探偵プリキュア！","type":"single","tracks":[{"title":"ハートにヒント！名探偵プリキュア！","position":1},{"title":"ハートにヒント！名探偵プリキュア！","recordingId":"meitantei-precure-op-1-tv"},{"title":"オリジナル・メロディ・カラオケ","recordingId":"meitantei-precure-op-1-melody-karaoke"}],"date":{"value":"2026-03-25","precision":"day"},"catalogNumber":"MJSS-09402～3","edition":"CD＋DVD"},{"id":"meitantei-precure-mjss-09404","title":"『名探偵プリキュア！』主題歌シングル","artistDisplayName":"名探偵プリキュア！","type":"single","tracks":[{"title":"ハートにヒント！名探偵プリキュア！","position":1},{"title":"ハートにヒント！名探偵プリキュア！","recordingId":"meitantei-precure-op-1-tv"},{"title":"オリジナル・カラオケ","recordingId":"meitantei-precure-op-1-original-karaoke"}],"date":{"value":"2026-03-25","precision":"day"},"catalogNumber":"MJSS-09404","edition":"通常盤"}],"sourceMode":"explicit","seasonIds":["2026-winter","2026-spring","2026-summer","2026-fall"],"lastVerifiedAt":"2026-10-19"},{"type":"ED","titleJa":"なぜ？謎？！ANSWER","artistDisplayName":"熊田茜音＆増井優花","youtubeUrl":"https://www.youtube.com/watch?v=-BmG84OEpSM","sequence":1,"songId":"meitantei-precure-ed-1-song","credits":[{"name":"青木久美子","role":"lyrics"},{"name":"ハマダコウキ","role":"composition"},{"name":"ハマダコウキ","role":"arrangement"},{"name":"熊田茜音","role":"vocals"},{"name":"増井優花","role":"vocals"}],"sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=-BmG84OEpSM","language":"ja","role":"first_party","verifiedAt":"2026-07-28"},{"label":"動畫官方網站","url":"https://www.toei-anim.co.jp/tv/star-detective_precure/","language":"ja","role":"first_party","verifiedAt":"2026-07-28"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/meitantei_precure","language":"en","role":"cross_check","verifiedAt":"2026-07-28"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/winter-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-28"},{"url":"https://www.toei-anim.co.jp/tv/precure/music/","label":"東映動畫官方 MUSIC：本作 OP、前期 ED、後期 ED 的原名、演唱及各自完整創作","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.toei-anim.co.jp/tv/precure/movie/themesong.php/special.php","label":"東映動畫官方主題歌 MOVIE：各首主題曲的確切 YouTube 入口","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.youtube.com/watch?v=dsNEMyy7BJE","label":"プリキュア官方頻道：なぜ？謎？！ANSWER ダンスレッスン","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.marv.jp/titles/mc/11013/","label":"Marvelous 官方商品：主題歌 Single、兩個 CD 版、各自伴奏／TV サイズ、品番及日期","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://prtimes.jp/main/html/rd/p/000002175.000016719.html","label":"官方：歌曲用途／TV季度證據","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://ja.wikipedia.org/wiki/%E5%90%8D%E6%8E%A2%E5%81%B5%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2!","label":"歌曲期間或季度身分交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-19"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.toei-anim.co.jp/tv/precure/music/"],"verifiedAt":"2026-10-15","targetId":"meitantei-precure-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.toei-anim.co.jp/tv/precure/music/"],"verifiedAt":"2026-10-15","targetId":"meitantei-precure-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.toei-anim.co.jp/tv/precure/music/"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.toei-anim.co.jp/tv/precure/movie/themesong.php/special.php"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=-BmG84OEpSM"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.youtube.com/watch?v=dsNEMyy7BJE"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=dsNEMyy7BJE"},{"target":"recording","fields":["title","kind","format"],"sourceUrls":["https://www.marv.jp/titles/mc/11013/"],"verifiedAt":"2026-10-15","targetId":"meitantei-precure-ed-1-tv"},{"target":"recording","fields":["title","kind","format"],"sourceUrls":["https://www.marv.jp/titles/mc/11013/"],"verifiedAt":"2026-10-15","targetId":"meitantei-precure-ed-1-melody-karaoke"},{"target":"recording","fields":["title","kind","format"],"sourceUrls":["https://www.marv.jp/titles/mc/11013/"],"verifiedAt":"2026-10-15","targetId":"meitantei-precure-ed-1-original-karaoke"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.marv.jp/titles/mc/11013/"],"verifiedAt":"2026-10-15","targetId":"meitantei-precure-mjss-09402-3"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.marv.jp/titles/mc/11013/"],"verifiedAt":"2026-10-15","targetId":"https://www.marv.jp/titles/mc/11013/"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.marv.jp/titles/mc/11013/"],"verifiedAt":"2026-10-15","targetId":"meitantei-precure-mjss-09404"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.marv.jp/titles/mc/11013/"],"verifiedAt":"2026-10-15","targetId":"https://lnk.to/tanpre_SYUDAIKA02TW"},{"target":"anime_use","targetId":"meitantei-precure-ed-1","fields":["usage"],"sourceUrls":["https://prtimes.jp/main/html/rd/p/000002175.000016719.html","https://ja.wikipedia.org/wiki/%E5%90%8D%E6%8E%A2%E5%81%B5%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2!"],"verifiedAt":"2026-10-19"}],"usageLabel":"前期 ED","links":[{"platform":"YouTube","label":"なぜ？謎？！ANSWER 官方 ED 影片","url":"https://www.youtube.com/watch?v=-BmG84OEpSM","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"YouTube","label":"なぜ？謎？！ANSWER ダンスレッスン","url":"https://www.youtube.com/watch?v=dsNEMyy7BJE","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"官方配信","label":"『名探偵プリキュア！』主題歌シングル 官方商品／曲目資料","url":"https://www.marv.jp/titles/mc/11013/","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"meitantei-precure-mjss-09404"},{"platform":"官方配信","label":"主題歌 Single 官方購買入口","url":"https://lnk.to/tanpre_SYUDAIKA02TW","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"}],"recordings":[{"id":"meitantei-precure-ed-1-tv","title":"なぜ？謎？！ANSWER","kind":"vocal","format":"tv"},{"id":"meitantei-precure-ed-1-melody-karaoke","title":"オリジナル・メロディ・カラオケ","kind":"instrumental","format":"unknown"},{"id":"meitantei-precure-ed-1-original-karaoke","title":"オリジナル・カラオケ","kind":"instrumental","format":"unknown"}],"releases":[{"id":"meitantei-precure-mjss-09402-3","title":"『名探偵プリキュア！』主題歌シングル","artistDisplayName":"名探偵プリキュア！","type":"single","tracks":[{"title":"なぜ？謎？！ANSWER","position":2},{"title":"なぜ？謎？！ANSWER","recordingId":"meitantei-precure-ed-1-tv"},{"title":"オリジナル・メロディ・カラオケ","recordingId":"meitantei-precure-ed-1-melody-karaoke"}],"date":{"value":"2026-03-25","precision":"day"},"catalogNumber":"MJSS-09402～3","edition":"CD＋DVD"},{"id":"meitantei-precure-mjss-09404","title":"『名探偵プリキュア！』主題歌シングル","artistDisplayName":"名探偵プリキュア！","type":"single","tracks":[{"title":"なぜ？謎？！ANSWER","position":2},{"title":"なぜ？謎？！ANSWER","recordingId":"meitantei-precure-ed-1-tv"},{"title":"オリジナル・カラオケ","recordingId":"meitantei-precure-ed-1-original-karaoke"}],"date":{"value":"2026-03-25","precision":"day"},"catalogNumber":"MJSS-09404","edition":"通常盤"}],"sourceMode":"explicit","seasonIds":["2026-winter","2026-spring","2026-summer"],"lastVerifiedAt":"2026-10-19"},{"type":"ED","sequence":2,"titleJa":"いつかわかる☆きっとあえる","artistDisplayName":"熊田茜音＆増井優花","sourceMode":"explicit","songId":"meitantei-precure-ed-2-song","sources":[{"url":"https://www.toei-anim.co.jp/tv/precure/music/","label":"東映動畫官方 MUSIC：本作 OP、前期 ED、後期 ED 的原名、演唱及各自完整創作","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://bangumi.tv/ep/1736226","label":"公開歌曲用途索引：後期 ED2 原名及創作交叉補證","role":"cross_check","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.toei-anim.co.jp/tv/precure/movie/themesong.php/special.php","label":"東映動畫官方主題歌 MOVIE：各首主題曲的確切 YouTube 入口","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.youtube.com/watch?v=Qvm_w7aXXbQ","label":"プリキュア官方頻道：いつかわかる☆きっとあえる 後期無字幕 ED","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://marv.jp/titles/av/11107/","label":"Marvelous 官方商品：主題歌 Single、兩個 CD 版、各自伴奏／TV サイズ、品番及日期","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://prtimes.jp/main/html/rd/p/000002297.000016719.html","label":"官方：歌曲用途／TV季度證據","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://prtimes.jp/main/html/rd/p/000002314.000016719.html","label":"官方：歌曲用途／TV季度證據","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://www.oricon.co.jp/news/2474163/full/","label":"歌曲期間或季度身分交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://ja.wikipedia.org/wiki/%E5%90%8D%E6%8E%A2%E5%81%B5%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2!","label":"歌曲期間或季度身分交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-19"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.toei-anim.co.jp/tv/precure/music/"],"verifiedAt":"2026-10-15","targetId":"meitantei-precure-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.toei-anim.co.jp/tv/precure/music/"],"verifiedAt":"2026-10-15","targetId":"meitantei-precure-ed-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.toei-anim.co.jp/tv/precure/music/"],"verifiedAt":"2026-10-15"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://bangumi.tv/ep/1736226"],"verifiedAt":"2026-10-15","targetId":"meitantei-precure-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://bangumi.tv/ep/1736226"],"verifiedAt":"2026-10-15","targetId":"meitantei-precure-ed-2"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.youtube.com/watch?v=Qvm_w7aXXbQ"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=Qvm_w7aXXbQ"},{"target":"recording","fields":["title","kind","format"],"sourceUrls":["https://marv.jp/titles/av/11107/"],"verifiedAt":"2026-10-15","targetId":"meitantei-precure-ed-2-tv"},{"target":"recording","fields":["title","kind","format"],"sourceUrls":["https://marv.jp/titles/av/11107/"],"verifiedAt":"2026-10-15","targetId":"meitantei-precure-ed-2-melody-karaoke"},{"target":"recording","fields":["title","kind","format"],"sourceUrls":["https://marv.jp/titles/av/11107/"],"verifiedAt":"2026-10-15","targetId":"meitantei-precure-ed-2-original-karaoke"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://marv.jp/titles/av/11107/"],"verifiedAt":"2026-10-15","targetId":"meitantei-precure-mjss-09405-6"},{"target":"link","fields":["url","type"],"sourceUrls":["https://marv.jp/titles/av/11107/"],"verifiedAt":"2026-10-15","targetId":"https://marv.jp/titles/av/11107/"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://marv.jp/titles/av/11107/"],"verifiedAt":"2026-10-15","targetId":"meitantei-precure-mjss-09407"},{"target":"link","fields":["url","type"],"sourceUrls":["https://marv.jp/titles/av/11107/"],"verifiedAt":"2026-10-15","targetId":"https://lnk.to/SDP_KOKICD"},{"target":"anime_use","targetId":"meitantei-precure-ed-2","fields":["usage"],"sourceUrls":["https://prtimes.jp/main/html/rd/p/000002297.000016719.html","https://prtimes.jp/main/html/rd/p/000002314.000016719.html","https://www.oricon.co.jp/news/2474163/full/","https://ja.wikipedia.org/wiki/%E5%90%8D%E6%8E%A2%E5%81%B5%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2!"],"verifiedAt":"2026-10-19"}],"credits":[{"name":"青木久美子","role":"lyrics"},{"name":"ハマダコウキ","role":"composition"},{"name":"ハマダコウキ","role":"arrangement"},{"name":"熊田茜音","role":"vocals"},{"name":"増井優花","role":"vocals"}],"usageLabel":"後期 ED","links":[{"platform":"YouTube","label":"いつかわかる☆きっとあえる 後期無字幕 ED","url":"https://www.youtube.com/watch?v=Qvm_w7aXXbQ","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"官方配信","label":"『名探偵プリキュア！』後期主題歌シングル 官方商品／曲目資料","url":"https://marv.jp/titles/av/11107/","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"meitantei-precure-mjss-09407"},{"platform":"官方配信","label":"後期主題歌 Single 官方購買入口","url":"https://lnk.to/SDP_KOKICD","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"}],"recordings":[{"id":"meitantei-precure-ed-2-tv","title":"いつかわかる☆きっとあえる","kind":"vocal","format":"tv"},{"id":"meitantei-precure-ed-2-melody-karaoke","title":"オリジナル・メロディ・カラオケ","kind":"instrumental","format":"unknown"},{"id":"meitantei-precure-ed-2-original-karaoke","title":"オリジナル・カラオケ","kind":"instrumental","format":"unknown"}],"releases":[{"id":"meitantei-precure-mjss-09405-6","title":"『名探偵プリキュア！』後期主題歌シングル","artistDisplayName":"名探偵プリキュア！","type":"single","tracks":[{"title":"いつかわかる☆きっとあえる","position":1},{"title":"いつかわかる☆きっとあえる","recordingId":"meitantei-precure-ed-2-tv"},{"title":"オリジナル・メロディ・カラオケ","recordingId":"meitantei-precure-ed-2-melody-karaoke"}],"date":{"value":"2026-09-30","precision":"day"},"catalogNumber":"MJSS-09405～6","edition":"CD＋DVD"},{"id":"meitantei-precure-mjss-09407","title":"『名探偵プリキュア！』後期主題歌シングル","artistDisplayName":"名探偵プリキュア！","type":"single","tracks":[{"title":"いつかわかる☆きっとあえる","position":1},{"title":"いつかわかる☆きっとあえる","recordingId":"meitantei-precure-ed-2-tv"},{"title":"オリジナル・カラオケ","recordingId":"meitantei-precure-ed-2-original-karaoke"}],"date":{"value":"2026-09-30","precision":"day"},"catalogNumber":"MJSS-09407","edition":"通常盤"}],"seasonIds":["2026-summer","2026-fall"],"lastVerifiedAt":"2026-10-19"},{"type":"IN","sequence":1,"titleJa":"リキッド・アイス","artistDisplayName":"キュアアルカナ（CV：東山奈央）","seasonIds":["2026-summer"],"songId":"meitantei-precure-in-1-song","sourceMode":"explicit","sources":[{"url":"https://prtimes.jp/main/html/rd/p/000002314.000016719.html","label":"Marvelous官方：第31話劇中歌、演唱及詞曲編","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://www.animatetimes.com/news/details.php?id=1788061911","label":"Animate Times：第31話使用與曲名／演唱","role":"cross_check","language":"ja","verifiedAt":"2026-10-19"}],"lastVerifiedAt":"2026-10-19","evidence":[{"target":"song","targetId":"meitantei-precure-in-1-song","fields":["title","artist"],"sourceUrls":["https://prtimes.jp/main/html/rd/p/000002314.000016719.html","https://www.animatetimes.com/news/details.php?id=1788061911"],"verifiedAt":"2026-10-19"},{"target":"anime_use","targetId":"meitantei-precure-in-1","fields":["usage"],"sourceUrls":["https://prtimes.jp/main/html/rd/p/000002314.000016719.html","https://www.animatetimes.com/news/details.php?id=1788061911"],"verifiedAt":"2026-10-19"},{"target":"credits","fields":["credits"],"sourceUrls":["https://prtimes.jp/main/html/rd/p/000002314.000016719.html"],"verifiedAt":"2026-10-19"}],"usageLabel":"第31話 劇中歌","credits":[{"name":"キュアアルカナ（CV：東山奈央）","role":"vocals"},{"name":"只野菜摘","role":"lyrics"},{"name":"広川恵一","role":"composition"},{"name":"広川恵一","role":"arrangement"}]}],"verifiedAt":"2026-07-28","metadataVerifiedAt":"2026-07-28","metadataSources":[{"url":"https://prtimes.jp/main/html/rd/p/000002175.000016719.html","label":"Marvelous官方：TV首播、時段與前期OP／ED","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://prtimes.jp/main/html/rd/p/000002314.000016719.html","label":"Marvelous官方：夏季第31話及後期歌曲","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://anilist.co/anime/202957","label":"AniList：TV身分、話數及播出狀態","role":"identifier","language":"en","verifiedAt":"2026-10-19"},{"url":"https://youranimes.tw/bangumi/202601","label":"YourAnimes：冬季TV新作／續播身分","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-19"}],"broadcastTimeJst":"08:30"},
+  {"anilistId":202957,"id":"curated-202957","slug":"meitantei-precure","seasonIds":["2026-winter","2026-spring","2026-summer","2026-fall"],"startDate":"2026-02-01","titleJa":"名探偵プリキュア！","titleZhHant":"名偵探光之美少女","titleRomaji":"Meitantei Precure!","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx202957-fxZGgJTvwXzP.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/202957-B9U0hNv2Dqap.jpg","editorialWeekday":7,"broadcastLabel":"2026-02-01起・TV週日08:30（JST）・ABCテレビ／テレビ朝日系；全年續播","status":"airing","officialSiteUrl":"https://www.toei-anim.co.jp/tv/star-detective_precure/","anilistUrl":"https://anilist.co/anime/202957","imageSourceUrl":"https://anilist.co/anime/202957","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2026-winter?display=list_detailed"],"animeThemesUrl":"https://animethemes.moe/anime/meitantei_precure","uzureaUrl":"https://uzurea.net/winter-2026-anime-theme-songs/","themes":[{
+  "type": "OP",
+  "titleJa": "ハートにヒント！名探偵プリキュア！",
+  "artistDisplayName": "石井あみ",
+  "youtubeUrl": "https://www.youtube.com/watch?v=gri5qHqXjMg",
+  "sequence": 1,
+  "songId": "meitantei-precure-op-1-song",
+  "credits": [
+    {
+      "name": "石井あみ",
+      "role": "vocals"
+    },
+    {
+      "name": "只野菜摘",
+      "role": "lyrics"
+    },
+    {
+      "name": "杉山勝彦",
+      "role": "composition"
+    },
+    {
+      "name": "佐々木”コジロー”貴之",
+      "role": "composition"
+    },
+    {
+      "name": "佐々木”コジロー”貴之",
+      "role": "arrangement"
+    },
+    {
+      "name": "K'vin Sakura",
+      "role": "arrangement"
+    }
+  ],
+  "sources": [
+    {
+      "label": "官方 YouTube 影片",
+      "url": "https://www.youtube.com/watch?v=gri5qHqXjMg",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-07-28"
+    },
+    {
+      "label": "動畫官方網站",
+      "url": "https://www.toei-anim.co.jp/tv/star-detective_precure/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-07-28"
+    },
+    {
+      "label": "AnimeThemes",
+      "url": "https://animethemes.moe/anime/meitantei_precure",
+      "language": "en",
+      "role": "cross_check",
+      "verifiedAt": "2026-07-28"
+    },
+    {
+      "label": "UZUREA 主題曲清單",
+      "url": "https://uzurea.net/winter-2026-anime-theme-songs/",
+      "language": "ja",
+      "role": "cross_check",
+      "verifiedAt": "2026-10-26"
+    },
+    {
+      "url": "https://www.toei-anim.co.jp/tv/precure/music/",
+      "label": "東映動畫官方 MUSIC：本作 OP、前期 ED、後期 ED 的原名、演唱及各自完整創作",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-15"
+    },
+    {
+      "url": "https://www.toei-anim.co.jp/tv/precure/movie/themesong.php/special.php",
+      "label": "東映動畫官方主題歌 MOVIE：各首主題曲的確切 YouTube 入口",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-15"
+    },
+    {
+      "url": "https://www.marv.jp/titles/mc/11013/",
+      "label": "Marvelous 官方商品：主題歌 Single、兩個 CD 版、各自伴奏／TV サイズ、品番及日期",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-15"
+    },
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000002175.000016719.html",
+      "label": "官方：歌曲用途／TV季度證據",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E5%90%8D%E6%8E%A2%E5%81%B5%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2!",
+      "label": "歌曲期間或季度身分交叉核對",
+      "role": "cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-10-19"
+    }
+  ],
+  "evidence": [
+    {
+      "target": "song",
+      "fields": [
+        "title",
+        "artist"
+      ],
+      "sourceUrls": [
+        "https://www.toei-anim.co.jp/tv/precure/music/"
+      ],
+      "verifiedAt": "2026-10-15",
+      "targetId": "meitantei-precure-op-1-song"
+    },
+    {
+      "target": "anime_use",
+      "fields": [
+        "usage"
+      ],
+      "sourceUrls": [
+        "https://www.toei-anim.co.jp/tv/precure/music/"
+      ],
+      "verifiedAt": "2026-10-15",
+      "targetId": "meitantei-precure-op-1"
+    },
+    {
+      "target": "credits",
+      "fields": [
+        "credits"
+      ],
+      "sourceUrls": [
+        "https://www.toei-anim.co.jp/tv/precure/music/"
+      ],
+      "verifiedAt": "2026-10-15"
+    },
+    {
+      "target": "link",
+      "fields": [
+        "url",
+        "type"
+      ],
+      "sourceUrls": [
+        "https://www.toei-anim.co.jp/tv/precure/movie/themesong.php/special.php"
+      ],
+      "verifiedAt": "2026-10-15",
+      "targetId": "https://www.youtube.com/watch?v=gri5qHqXjMg"
+    },
+    {
+      "target": "link",
+      "fields": [
+        "url",
+        "type"
+      ],
+      "sourceUrls": [
+        "https://www.toei-anim.co.jp/tv/precure/movie/themesong.php/special.php"
+      ],
+      "verifiedAt": "2026-10-15",
+      "targetId": "https://www.youtube.com/watch?v=j3wz60GbRic"
+    },
+    {
+      "target": "recording",
+      "fields": [
+        "title",
+        "kind",
+        "format"
+      ],
+      "sourceUrls": [
+        "https://www.marv.jp/titles/mc/11013/"
+      ],
+      "verifiedAt": "2026-10-15",
+      "targetId": "meitantei-precure-op-1-tv"
+    },
+    {
+      "target": "recording",
+      "fields": [
+        "title",
+        "kind",
+        "format"
+      ],
+      "sourceUrls": [
+        "https://www.marv.jp/titles/mc/11013/"
+      ],
+      "verifiedAt": "2026-10-15",
+      "targetId": "meitantei-precure-op-1-melody-karaoke"
+    },
+    {
+      "target": "recording",
+      "fields": [
+        "title",
+        "kind",
+        "format"
+      ],
+      "sourceUrls": [
+        "https://www.marv.jp/titles/mc/11013/"
+      ],
+      "verifiedAt": "2026-10-15",
+      "targetId": "meitantei-precure-op-1-original-karaoke"
+    },
+    {
+      "target": "release",
+      "fields": [
+        "title",
+        "type",
+        "tracklist",
+        "date",
+        "catalog_number",
+        "edition"
+      ],
+      "sourceUrls": [
+        "https://www.marv.jp/titles/mc/11013/"
+      ],
+      "verifiedAt": "2026-10-15",
+      "targetId": "meitantei-precure-mjss-09402-3"
+    },
+    {
+      "target": "link",
+      "fields": [
+        "url",
+        "type"
+      ],
+      "sourceUrls": [
+        "https://www.marv.jp/titles/mc/11013/"
+      ],
+      "verifiedAt": "2026-10-15",
+      "targetId": "https://www.marv.jp/titles/mc/11013/"
+    },
+    {
+      "target": "release",
+      "fields": [
+        "title",
+        "type",
+        "tracklist",
+        "date",
+        "catalog_number",
+        "edition"
+      ],
+      "sourceUrls": [
+        "https://www.marv.jp/titles/mc/11013/"
+      ],
+      "verifiedAt": "2026-10-15",
+      "targetId": "meitantei-precure-mjss-09404"
+    },
+    {
+      "target": "link",
+      "fields": [
+        "url",
+        "type"
+      ],
+      "sourceUrls": [
+        "https://www.marv.jp/titles/mc/11013/"
+      ],
+      "verifiedAt": "2026-10-15",
+      "targetId": "https://lnk.to/tanpre_SYUDAIKA01TW"
+    },
+    {
+      "target": "anime_use",
+      "targetId": "meitantei-precure-op-1",
+      "fields": [
+        "usage"
+      ],
+      "sourceUrls": [
+        "https://prtimes.jp/main/html/rd/p/000002175.000016719.html",
+        "https://ja.wikipedia.org/wiki/%E5%90%8D%E6%8E%A2%E5%81%B5%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2!"
+      ],
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "target": "song",
+      "targetId": "meitantei-precure-op-1-song",
+      "fields": [
+        "title",
+        "artist"
+      ],
+      "sourceUrls": [
+        "https://uzurea.net/winter-2026-anime-theme-songs/"
+      ],
+      "verifiedAt": "2026-10-26"
+    }
+  ],
+  "usageLabel": "OP",
+  "links": [
+    {
+      "platform": "YouTube",
+      "label": "ハートにヒント！名探偵プリキュア！ 官方 OP 影片",
+      "url": "https://www.youtube.com/watch?v=gri5qHqXjMg",
+      "linkType": "direct_track",
+      "region": "GLOBAL",
+      "verifiedAt": "2026-10-15",
+      "availability": "unknown"
+    },
+    {
+      "platform": "YouTube",
+      "label": "ハートにヒント！名探偵プリキュア！ 全員集合無字幕 OP",
+      "url": "https://www.youtube.com/watch?v=j3wz60GbRic",
+      "linkType": "direct_track",
+      "region": "GLOBAL",
+      "verifiedAt": "2026-10-15",
+      "availability": "unknown"
+    },
+    {
+      "platform": "官方配信",
+      "label": "『名探偵プリキュア！』主題歌シングル 官方商品／曲目資料",
+      "url": "https://www.marv.jp/titles/mc/11013/",
+      "linkType": "official_landing_page",
+      "region": "UNKNOWN",
+      "verifiedAt": "2026-10-15",
+      "availability": "unknown",
+      "releaseId": "meitantei-precure-mjss-09404"
+    },
+    {
+      "platform": "官方配信",
+      "label": "主題歌 Single 官方購買入口",
+      "url": "https://lnk.to/tanpre_SYUDAIKA01TW",
+      "linkType": "official_landing_page",
+      "region": "UNKNOWN",
+      "verifiedAt": "2026-10-15",
+      "availability": "unknown"
+    }
+  ],
+  "recordings": [
+    {
+      "id": "meitantei-precure-op-1-tv",
+      "title": "ハートにヒント！名探偵プリキュア！",
+      "kind": "vocal",
+      "format": "tv"
+    },
+    {
+      "id": "meitantei-precure-op-1-melody-karaoke",
+      "title": "オリジナル・メロディ・カラオケ",
+      "kind": "instrumental",
+      "format": "unknown"
+    },
+    {
+      "id": "meitantei-precure-op-1-original-karaoke",
+      "title": "オリジナル・カラオケ",
+      "kind": "instrumental",
+      "format": "unknown"
+    }
+  ],
+  "releases": [
+    {
+      "id": "meitantei-precure-mjss-09402-3",
+      "title": "『名探偵プリキュア！』主題歌シングル",
+      "artistDisplayName": "名探偵プリキュア！",
+      "type": "single",
+      "tracks": [
+        {
+          "title": "ハートにヒント！名探偵プリキュア！",
+          "position": 1
+        },
+        {
+          "title": "ハートにヒント！名探偵プリキュア！",
+          "recordingId": "meitantei-precure-op-1-tv"
+        },
+        {
+          "title": "オリジナル・メロディ・カラオケ",
+          "recordingId": "meitantei-precure-op-1-melody-karaoke"
+        }
+      ],
+      "date": {
+        "value": "2026-03-25",
+        "precision": "day"
+      },
+      "catalogNumber": "MJSS-09402～3",
+      "edition": "CD＋DVD"
+    },
+    {
+      "id": "meitantei-precure-mjss-09404",
+      "title": "『名探偵プリキュア！』主題歌シングル",
+      "artistDisplayName": "名探偵プリキュア！",
+      "type": "single",
+      "tracks": [
+        {
+          "title": "ハートにヒント！名探偵プリキュア！",
+          "position": 1
+        },
+        {
+          "title": "ハートにヒント！名探偵プリキュア！",
+          "recordingId": "meitantei-precure-op-1-tv"
+        },
+        {
+          "title": "オリジナル・カラオケ",
+          "recordingId": "meitantei-precure-op-1-original-karaoke"
+        }
+      ],
+      "date": {
+        "value": "2026-03-25",
+        "precision": "day"
+      },
+      "catalogNumber": "MJSS-09404",
+      "edition": "通常盤"
+    }
+  ],
+  "sourceMode": "explicit",
+  "seasonIds": [
+    "2026-winter",
+    "2026-spring",
+    "2026-summer",
+    "2026-fall"
+  ],
+  "lastVerifiedAt": "2026-10-19"
+},{
+  "type": "ED",
+  "titleJa": "なぜ？謎？！ANSWER",
+  "artistDisplayName": "熊田茜音＆増井優花",
+  "youtubeUrl": "https://www.youtube.com/watch?v=-BmG84OEpSM",
+  "sequence": 1,
+  "songId": "meitantei-precure-ed-1-song",
+  "credits": [
+    {
+      "name": "青木久美子",
+      "role": "lyrics"
+    },
+    {
+      "name": "ハマダコウキ",
+      "role": "composition"
+    },
+    {
+      "name": "ハマダコウキ",
+      "role": "arrangement"
+    },
+    {
+      "name": "熊田茜音",
+      "role": "vocals"
+    },
+    {
+      "name": "増井優花",
+      "role": "vocals"
+    }
+  ],
+  "sources": [
+    {
+      "label": "官方 YouTube 影片",
+      "url": "https://www.youtube.com/watch?v=-BmG84OEpSM",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-07-28"
+    },
+    {
+      "label": "動畫官方網站",
+      "url": "https://www.toei-anim.co.jp/tv/star-detective_precure/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-07-28"
+    },
+    {
+      "label": "AnimeThemes",
+      "url": "https://animethemes.moe/anime/meitantei_precure",
+      "language": "en",
+      "role": "cross_check",
+      "verifiedAt": "2026-07-28"
+    },
+    {
+      "label": "UZUREA 主題曲清單",
+      "url": "https://uzurea.net/winter-2026-anime-theme-songs/",
+      "language": "ja",
+      "role": "cross_check",
+      "verifiedAt": "2026-10-26"
+    },
+    {
+      "url": "https://www.toei-anim.co.jp/tv/precure/music/",
+      "label": "東映動畫官方 MUSIC：本作 OP、前期 ED、後期 ED 的原名、演唱及各自完整創作",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-15"
+    },
+    {
+      "url": "https://www.toei-anim.co.jp/tv/precure/movie/themesong.php/special.php",
+      "label": "東映動畫官方主題歌 MOVIE：各首主題曲的確切 YouTube 入口",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-15"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=dsNEMyy7BJE",
+      "label": "プリキュア官方頻道：なぜ？謎？！ANSWER ダンスレッスン",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-15"
+    },
+    {
+      "url": "https://www.marv.jp/titles/mc/11013/",
+      "label": "Marvelous 官方商品：主題歌 Single、兩個 CD 版、各自伴奏／TV サイズ、品番及日期",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-15"
+    },
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000002175.000016719.html",
+      "label": "官方：歌曲用途／TV季度證據",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E5%90%8D%E6%8E%A2%E5%81%B5%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2!",
+      "label": "歌曲期間或季度身分交叉核對",
+      "role": "cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "label": "維基百科歌曲資料",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E5%85%89%E4%B9%8B%E7%BE%8E%E5%B0%91%E5%A5%B3",
+      "language": "zh-Hant",
+      "role": "cross_check",
+      "verifiedAt": "2026-10-26"
+    }
+  ],
+  "evidence": [
+    {
+      "target": "song",
+      "fields": [
+        "title",
+        "artist"
+      ],
+      "sourceUrls": [
+        "https://www.toei-anim.co.jp/tv/precure/music/"
+      ],
+      "verifiedAt": "2026-10-15",
+      "targetId": "meitantei-precure-ed-1-song"
+    },
+    {
+      "target": "anime_use",
+      "fields": [
+        "usage"
+      ],
+      "sourceUrls": [
+        "https://www.toei-anim.co.jp/tv/precure/music/"
+      ],
+      "verifiedAt": "2026-10-15",
+      "targetId": "meitantei-precure-ed-1"
+    },
+    {
+      "target": "credits",
+      "fields": [
+        "credits"
+      ],
+      "sourceUrls": [
+        "https://www.toei-anim.co.jp/tv/precure/music/"
+      ],
+      "verifiedAt": "2026-10-15"
+    },
+    {
+      "target": "link",
+      "fields": [
+        "url",
+        "type"
+      ],
+      "sourceUrls": [
+        "https://www.toei-anim.co.jp/tv/precure/movie/themesong.php/special.php"
+      ],
+      "verifiedAt": "2026-10-15",
+      "targetId": "https://www.youtube.com/watch?v=-BmG84OEpSM"
+    },
+    {
+      "target": "link",
+      "fields": [
+        "url",
+        "type"
+      ],
+      "sourceUrls": [
+        "https://www.youtube.com/watch?v=dsNEMyy7BJE"
+      ],
+      "verifiedAt": "2026-10-15",
+      "targetId": "https://www.youtube.com/watch?v=dsNEMyy7BJE"
+    },
+    {
+      "target": "recording",
+      "fields": [
+        "title",
+        "kind",
+        "format"
+      ],
+      "sourceUrls": [
+        "https://www.marv.jp/titles/mc/11013/"
+      ],
+      "verifiedAt": "2026-10-15",
+      "targetId": "meitantei-precure-ed-1-tv"
+    },
+    {
+      "target": "recording",
+      "fields": [
+        "title",
+        "kind",
+        "format"
+      ],
+      "sourceUrls": [
+        "https://www.marv.jp/titles/mc/11013/"
+      ],
+      "verifiedAt": "2026-10-15",
+      "targetId": "meitantei-precure-ed-1-melody-karaoke"
+    },
+    {
+      "target": "recording",
+      "fields": [
+        "title",
+        "kind",
+        "format"
+      ],
+      "sourceUrls": [
+        "https://www.marv.jp/titles/mc/11013/"
+      ],
+      "verifiedAt": "2026-10-15",
+      "targetId": "meitantei-precure-ed-1-original-karaoke"
+    },
+    {
+      "target": "release",
+      "fields": [
+        "title",
+        "type",
+        "tracklist",
+        "date",
+        "catalog_number",
+        "edition"
+      ],
+      "sourceUrls": [
+        "https://www.marv.jp/titles/mc/11013/"
+      ],
+      "verifiedAt": "2026-10-15",
+      "targetId": "meitantei-precure-mjss-09402-3"
+    },
+    {
+      "target": "link",
+      "fields": [
+        "url",
+        "type"
+      ],
+      "sourceUrls": [
+        "https://www.marv.jp/titles/mc/11013/"
+      ],
+      "verifiedAt": "2026-10-15",
+      "targetId": "https://www.marv.jp/titles/mc/11013/"
+    },
+    {
+      "target": "release",
+      "fields": [
+        "title",
+        "type",
+        "tracklist",
+        "date",
+        "catalog_number",
+        "edition"
+      ],
+      "sourceUrls": [
+        "https://www.marv.jp/titles/mc/11013/"
+      ],
+      "verifiedAt": "2026-10-15",
+      "targetId": "meitantei-precure-mjss-09404"
+    },
+    {
+      "target": "link",
+      "fields": [
+        "url",
+        "type"
+      ],
+      "sourceUrls": [
+        "https://www.marv.jp/titles/mc/11013/"
+      ],
+      "verifiedAt": "2026-10-15",
+      "targetId": "https://lnk.to/tanpre_SYUDAIKA02TW"
+    },
+    {
+      "target": "anime_use",
+      "targetId": "meitantei-precure-ed-1",
+      "fields": [
+        "usage"
+      ],
+      "sourceUrls": [
+        "https://prtimes.jp/main/html/rd/p/000002175.000016719.html",
+        "https://ja.wikipedia.org/wiki/%E5%90%8D%E6%8E%A2%E5%81%B5%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2!"
+      ],
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "target": "song",
+      "targetId": "meitantei-precure-ed-1-song",
+      "fields": [
+        "title"
+      ],
+      "sourceUrls": [
+        "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E5%85%89%E4%B9%8B%E7%BE%8E%E5%B0%91%E5%A5%B3"
+      ],
+      "verifiedAt": "2026-10-26"
+    },
+    {
+      "target": "song",
+      "targetId": "meitantei-precure-ed-1-song",
+      "fields": [
+        "artist"
+      ],
+      "sourceUrls": [
+        "https://uzurea.net/winter-2026-anime-theme-songs/"
+      ],
+      "verifiedAt": "2026-10-26"
+    }
+  ],
+  "usageLabel": "前期 ED",
+  "links": [
+    {
+      "platform": "YouTube",
+      "label": "なぜ？謎？！ANSWER 官方 ED 影片",
+      "url": "https://www.youtube.com/watch?v=-BmG84OEpSM",
+      "linkType": "direct_track",
+      "region": "GLOBAL",
+      "verifiedAt": "2026-10-15",
+      "availability": "unknown"
+    },
+    {
+      "platform": "YouTube",
+      "label": "なぜ？謎？！ANSWER ダンスレッスン",
+      "url": "https://www.youtube.com/watch?v=dsNEMyy7BJE",
+      "linkType": "direct_track",
+      "region": "GLOBAL",
+      "verifiedAt": "2026-10-15",
+      "availability": "unknown"
+    },
+    {
+      "platform": "官方配信",
+      "label": "『名探偵プリキュア！』主題歌シングル 官方商品／曲目資料",
+      "url": "https://www.marv.jp/titles/mc/11013/",
+      "linkType": "official_landing_page",
+      "region": "UNKNOWN",
+      "verifiedAt": "2026-10-15",
+      "availability": "unknown",
+      "releaseId": "meitantei-precure-mjss-09404"
+    },
+    {
+      "platform": "官方配信",
+      "label": "主題歌 Single 官方購買入口",
+      "url": "https://lnk.to/tanpre_SYUDAIKA02TW",
+      "linkType": "official_landing_page",
+      "region": "UNKNOWN",
+      "verifiedAt": "2026-10-15",
+      "availability": "unknown"
+    }
+  ],
+  "recordings": [
+    {
+      "id": "meitantei-precure-ed-1-tv",
+      "title": "なぜ？謎？！ANSWER",
+      "kind": "vocal",
+      "format": "tv"
+    },
+    {
+      "id": "meitantei-precure-ed-1-melody-karaoke",
+      "title": "オリジナル・メロディ・カラオケ",
+      "kind": "instrumental",
+      "format": "unknown"
+    },
+    {
+      "id": "meitantei-precure-ed-1-original-karaoke",
+      "title": "オリジナル・カラオケ",
+      "kind": "instrumental",
+      "format": "unknown"
+    }
+  ],
+  "releases": [
+    {
+      "id": "meitantei-precure-mjss-09402-3",
+      "title": "『名探偵プリキュア！』主題歌シングル",
+      "artistDisplayName": "名探偵プリキュア！",
+      "type": "single",
+      "tracks": [
+        {
+          "title": "なぜ？謎？！ANSWER",
+          "position": 2
+        },
+        {
+          "title": "なぜ？謎？！ANSWER",
+          "recordingId": "meitantei-precure-ed-1-tv"
+        },
+        {
+          "title": "オリジナル・メロディ・カラオケ",
+          "recordingId": "meitantei-precure-ed-1-melody-karaoke"
+        }
+      ],
+      "date": {
+        "value": "2026-03-25",
+        "precision": "day"
+      },
+      "catalogNumber": "MJSS-09402～3",
+      "edition": "CD＋DVD"
+    },
+    {
+      "id": "meitantei-precure-mjss-09404",
+      "title": "『名探偵プリキュア！』主題歌シングル",
+      "artistDisplayName": "名探偵プリキュア！",
+      "type": "single",
+      "tracks": [
+        {
+          "title": "なぜ？謎？！ANSWER",
+          "position": 2
+        },
+        {
+          "title": "なぜ？謎？！ANSWER",
+          "recordingId": "meitantei-precure-ed-1-tv"
+        },
+        {
+          "title": "オリジナル・カラオケ",
+          "recordingId": "meitantei-precure-ed-1-original-karaoke"
+        }
+      ],
+      "date": {
+        "value": "2026-03-25",
+        "precision": "day"
+      },
+      "catalogNumber": "MJSS-09404",
+      "edition": "通常盤"
+    }
+  ],
+  "sourceMode": "explicit",
+  "seasonIds": [
+    "2026-winter",
+    "2026-spring",
+    "2026-summer"
+  ],
+  "lastVerifiedAt": "2026-10-19"
+},{"type":"ED","sequence":2,"titleJa":"いつかわかる☆きっとあえる","artistDisplayName":"熊田茜音＆増井優花","sourceMode":"explicit","songId":"meitantei-precure-ed-2-song","sources":[{"url":"https://www.toei-anim.co.jp/tv/precure/music/","label":"東映動畫官方 MUSIC：本作 OP、前期 ED、後期 ED 的原名、演唱及各自完整創作","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://bangumi.tv/ep/1736226","label":"公開歌曲用途索引：後期 ED2 原名及創作交叉補證","role":"cross_check","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.toei-anim.co.jp/tv/precure/movie/themesong.php/special.php","label":"東映動畫官方主題歌 MOVIE：各首主題曲的確切 YouTube 入口","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.youtube.com/watch?v=Qvm_w7aXXbQ","label":"プリキュア官方頻道：いつかわかる☆きっとあえる 後期無字幕 ED","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://marv.jp/titles/av/11107/","label":"Marvelous 官方商品：主題歌 Single、兩個 CD 版、各自伴奏／TV サイズ、品番及日期","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://prtimes.jp/main/html/rd/p/000002297.000016719.html","label":"官方：歌曲用途／TV季度證據","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://prtimes.jp/main/html/rd/p/000002314.000016719.html","label":"官方：歌曲用途／TV季度證據","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://www.oricon.co.jp/news/2474163/full/","label":"歌曲期間或季度身分交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://ja.wikipedia.org/wiki/%E5%90%8D%E6%8E%A2%E5%81%B5%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2!","label":"歌曲期間或季度身分交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-19"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.toei-anim.co.jp/tv/precure/music/"],"verifiedAt":"2026-10-15","targetId":"meitantei-precure-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.toei-anim.co.jp/tv/precure/music/"],"verifiedAt":"2026-10-15","targetId":"meitantei-precure-ed-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.toei-anim.co.jp/tv/precure/music/"],"verifiedAt":"2026-10-15"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://bangumi.tv/ep/1736226"],"verifiedAt":"2026-10-15","targetId":"meitantei-precure-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://bangumi.tv/ep/1736226"],"verifiedAt":"2026-10-15","targetId":"meitantei-precure-ed-2"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.youtube.com/watch?v=Qvm_w7aXXbQ"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=Qvm_w7aXXbQ"},{"target":"recording","fields":["title","kind","format"],"sourceUrls":["https://marv.jp/titles/av/11107/"],"verifiedAt":"2026-10-15","targetId":"meitantei-precure-ed-2-tv"},{"target":"recording","fields":["title","kind","format"],"sourceUrls":["https://marv.jp/titles/av/11107/"],"verifiedAt":"2026-10-15","targetId":"meitantei-precure-ed-2-melody-karaoke"},{"target":"recording","fields":["title","kind","format"],"sourceUrls":["https://marv.jp/titles/av/11107/"],"verifiedAt":"2026-10-15","targetId":"meitantei-precure-ed-2-original-karaoke"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://marv.jp/titles/av/11107/"],"verifiedAt":"2026-10-15","targetId":"meitantei-precure-mjss-09405-6"},{"target":"link","fields":["url","type"],"sourceUrls":["https://marv.jp/titles/av/11107/"],"verifiedAt":"2026-10-15","targetId":"https://marv.jp/titles/av/11107/"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://marv.jp/titles/av/11107/"],"verifiedAt":"2026-10-15","targetId":"meitantei-precure-mjss-09407"},{"target":"link","fields":["url","type"],"sourceUrls":["https://marv.jp/titles/av/11107/"],"verifiedAt":"2026-10-15","targetId":"https://lnk.to/SDP_KOKICD"},{"target":"anime_use","targetId":"meitantei-precure-ed-2","fields":["usage"],"sourceUrls":["https://prtimes.jp/main/html/rd/p/000002297.000016719.html","https://prtimes.jp/main/html/rd/p/000002314.000016719.html","https://www.oricon.co.jp/news/2474163/full/","https://ja.wikipedia.org/wiki/%E5%90%8D%E6%8E%A2%E5%81%B5%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2!"],"verifiedAt":"2026-10-19"}],"credits":[{"name":"青木久美子","role":"lyrics"},{"name":"ハマダコウキ","role":"composition"},{"name":"ハマダコウキ","role":"arrangement"},{"name":"熊田茜音","role":"vocals"},{"name":"増井優花","role":"vocals"}],"usageLabel":"後期 ED","links":[{"platform":"YouTube","label":"いつかわかる☆きっとあえる 後期無字幕 ED","url":"https://www.youtube.com/watch?v=Qvm_w7aXXbQ","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"官方配信","label":"『名探偵プリキュア！』後期主題歌シングル 官方商品／曲目資料","url":"https://marv.jp/titles/av/11107/","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"meitantei-precure-mjss-09407"},{"platform":"官方配信","label":"後期主題歌 Single 官方購買入口","url":"https://lnk.to/SDP_KOKICD","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"}],"recordings":[{"id":"meitantei-precure-ed-2-tv","title":"いつかわかる☆きっとあえる","kind":"vocal","format":"tv"},{"id":"meitantei-precure-ed-2-melody-karaoke","title":"オリジナル・メロディ・カラオケ","kind":"instrumental","format":"unknown"},{"id":"meitantei-precure-ed-2-original-karaoke","title":"オリジナル・カラオケ","kind":"instrumental","format":"unknown"}],"releases":[{"id":"meitantei-precure-mjss-09405-6","title":"『名探偵プリキュア！』後期主題歌シングル","artistDisplayName":"名探偵プリキュア！","type":"single","tracks":[{"title":"いつかわかる☆きっとあえる","position":1},{"title":"いつかわかる☆きっとあえる","recordingId":"meitantei-precure-ed-2-tv"},{"title":"オリジナル・メロディ・カラオケ","recordingId":"meitantei-precure-ed-2-melody-karaoke"}],"date":{"value":"2026-09-30","precision":"day"},"catalogNumber":"MJSS-09405～6","edition":"CD＋DVD"},{"id":"meitantei-precure-mjss-09407","title":"『名探偵プリキュア！』後期主題歌シングル","artistDisplayName":"名探偵プリキュア！","type":"single","tracks":[{"title":"いつかわかる☆きっとあえる","position":1},{"title":"いつかわかる☆きっとあえる","recordingId":"meitantei-precure-ed-2-tv"},{"title":"オリジナル・カラオケ","recordingId":"meitantei-precure-ed-2-original-karaoke"}],"date":{"value":"2026-09-30","precision":"day"},"catalogNumber":"MJSS-09407","edition":"通常盤"}],"seasonIds":["2026-summer","2026-fall"],"lastVerifiedAt":"2026-10-19"},{"type":"IN","sequence":1,"titleJa":"リキッド・アイス","artistDisplayName":"キュアアルカナ（CV：東山奈央）","seasonIds":["2026-summer"],"songId":"meitantei-precure-in-1-song","sourceMode":"explicit","sources":[{"url":"https://prtimes.jp/main/html/rd/p/000002314.000016719.html","label":"Marvelous官方：第31話劇中歌、演唱及詞曲編","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://www.animatetimes.com/news/details.php?id=1788061911","label":"Animate Times：第31話使用與曲名／演唱","role":"cross_check","language":"ja","verifiedAt":"2026-10-19"}],"lastVerifiedAt":"2026-10-19","evidence":[{"target":"song","targetId":"meitantei-precure-in-1-song","fields":["title","artist"],"sourceUrls":["https://prtimes.jp/main/html/rd/p/000002314.000016719.html","https://www.animatetimes.com/news/details.php?id=1788061911"],"verifiedAt":"2026-10-19"},{"target":"anime_use","targetId":"meitantei-precure-in-1","fields":["usage"],"sourceUrls":["https://prtimes.jp/main/html/rd/p/000002314.000016719.html","https://www.animatetimes.com/news/details.php?id=1788061911"],"verifiedAt":"2026-10-19"},{"target":"credits","fields":["credits"],"sourceUrls":["https://prtimes.jp/main/html/rd/p/000002314.000016719.html"],"verifiedAt":"2026-10-19"}],"usageLabel":"第31話 劇中歌","credits":[{"name":"キュアアルカナ（CV：東山奈央）","role":"vocals"},{"name":"只野菜摘","role":"lyrics"},{"name":"広川恵一","role":"composition"},{"name":"広川恵一","role":"arrangement"}]}],"verifiedAt":"2026-07-28","metadataVerifiedAt":"2026-07-28","metadataSources":[{"url":"https://prtimes.jp/main/html/rd/p/000002175.000016719.html","label":"Marvelous官方：TV首播、時段與前期OP／ED","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://prtimes.jp/main/html/rd/p/000002314.000016719.html","label":"Marvelous官方：夏季第31話及後期歌曲","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://anilist.co/anime/202957","label":"AniList：TV身分、話數及播出狀態","role":"identifier","language":"en","verifiedAt":"2026-10-19"},{"url":"https://youranimes.tw/bangumi/202601","label":"YourAnimes：冬季TV新作／續播身分","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-19"}],"broadcastTimeJst":"08:30"},
   {"anilistId":187508,"id":"curated-187508","slug":"duel-masters-lost-boukyaku-no-taiyou","seasonIds":["2026-winter"],"startDate":"2026-02-06","titleJa":"Duel Masters LOST ～忘却の太陽～","titleZhHant":"Duel Masters LOST ～忘却の太陽～","titleRomaji":"Duel Masters LOST: Boukyaku no Taiyou","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187508-kFWf3Fq0wl56.png","editorialWeekday":5,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://www.shopro.co.jp/anime/duelmasters_lost/","anilistUrl":"https://anilist.co/anime/187508","imageSourceUrl":"https://anilist.co/anime/187508","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2026-winter?display=list_detailed"],"uzureaUrl":"https://uzurea.net/winter-2026-anime-theme-songs/","themes":[{"type":"OP","titleJa":"あやかしあやし","artistDisplayName":"伊東歌詞太郎","sequence":1,"songId":"duel-masters-lost-boukyaku-no-taiyou-op-1-song","credits":[{"name":"伊東歌詞太郎","role":"vocals"},{"name":"伊東歌詞太郎","role":"lyrics"},{"name":"伊東歌詞太郎","role":"composition"},{"name":"Numa","role":"arrangement"}],"sources":[{"url":"https://www.kashitaro.com/news/5634/","label":"伊東歌詞太郎官方：忘却の太陽 OP、詞曲編曲及 Digital Single 配信日","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.kashitaro.com/videos/","label":"伊東歌詞太郎官方 VIDEO：あやかしあやし 的逐項影片 ID，明示忘却の太陽 OP","role":"first_party","language":"ja","verifiedAt":"2026-10-15"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.kashitaro.com/news/5634/"],"verifiedAt":"2026-10-15","targetId":"duel-masters-lost-boukyaku-no-taiyou-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.kashitaro.com/news/5634/"],"verifiedAt":"2026-10-15","targetId":"duel-masters-lost-boukyaku-no-taiyou-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.kashitaro.com/news/5634/"],"verifiedAt":"2026-10-15"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://www.kashitaro.com/news/5634/"],"verifiedAt":"2026-10-15","targetId":"duel-masters-lost-boukyaku-no-taiyou-op-1-digital"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.kashitaro.com/news/5634/"],"verifiedAt":"2026-10-15","targetId":"https://www.kashitaro.com/news/5634/"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.kashitaro.com/videos/"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=hnM6JRlovoQ"}],"releases":[{"id":"duel-masters-lost-boukyaku-no-taiyou-op-1-digital","title":"あやかしあやし","artistDisplayName":"伊東歌詞太郎","type":"single","tracks":[{"title":"あやかしあやし"}],"date":{"value":"2026-02-25","precision":"day"},"edition":"Digital Single"}],"links":[{"platform":"官方配信","label":"あやかしあやし 官方商品／曲目資料","url":"https://www.kashitaro.com/news/5634/","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"duel-masters-lost-boukyaku-no-taiyou-op-1-digital"},{"platform":"YouTube","label":"あやかしあやし 官方歌曲影片","url":"https://www.youtube.com/watch?v=hnM6JRlovoQ","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"}]}],"verifiedAt":"2026-07-28","metadataVerifiedAt":"2026-07-28"},
   {"anilistId":176509,"id":"curated-176509","slug":"baki-dou","seasonIds":["2026-winter"],"startDate":"2026-02-26","titleJa":"刃牙道","titleZhHant":"刃牙道","titleRomaji":"BAKI-DOU","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx176509-GRUa4fzyAM9u.jpg","editorialWeekday":4,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://baki-anime.jp/","anilistUrl":"https://anilist.co/anime/176509","imageSourceUrl":"https://anilist.co/anime/176509","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2026-winter?display=list_detailed"],"uzureaUrl":"https://uzurea.net/winter-2026-anime-theme-songs/","themes":[{"type":"OP","titleJa":"フルボコ","artistDisplayName":"WANIMA","sequence":1,"songId":"baki-dou-op-1-song","credits":[{"name":"WANIMA","role":"vocals"},{"name":"KENTA","role":"lyrics"},{"name":"KENTA","role":"composition"},{"name":"WANIMA","role":"arrangement"}],"sources":[{"url":"https://baki-anime.jp/products/music/","label":"刃牙道官方 MUSIC：第一期 OP フルボコ／ED Mountain Top；不由第二季度播出推定新歌","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.uta-net.com/song/388424/?target=composer","label":"歌ネット 授權曲目：フルボコ 作詞／作曲 KENTA","role":"cross_check","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://aninteru.com/2026-winter-music/","label":"動畫音樂索引：フルボコ 編曲 WANIMA 的明示交叉補證；未當第一方創作","role":"cross_check","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://wanima.net/discography/","label":"WANIMA 官方作品列表：フルボコ 配信日期與唱片公司頁不一致；保留待核","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://wanima.net/contents/1050967","label":"WANIMA 官方 MV 公告：フルボコ 的確切 Music Video 及 Excuse Error 收錄說明","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://wmg.jp/wanima/discography/32857","label":"Warner Music 官方：フルボコ 配信 Single；日期與藝人頁衝突暫不採用","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://wanima.lnk.to/Furuboko","label":"藝人／唱片公司官方配信頁：確切曲目專輯目的地","role":"first_party","language":"ja","verifiedAt":"2026-10-15"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://baki-anime.jp/products/music/"],"verifiedAt":"2026-10-15","targetId":"baki-dou-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://baki-anime.jp/products/music/"],"verifiedAt":"2026-10-15","targetId":"baki-dou-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.uta-net.com/song/388424/?target=composer"],"verifiedAt":"2026-10-15"},{"target":"credits","fields":["credits"],"sourceUrls":["https://aninteru.com/2026-winter-music/"],"verifiedAt":"2026-10-15"},{"target":"release","fields":["title","type","tracklist","edition"],"sourceUrls":["https://wmg.jp/wanima/discography/32857"],"verifiedAt":"2026-10-15","targetId":"baki-dou-op-1-digital"},{"target":"link","fields":["url","type"],"sourceUrls":["https://wmg.jp/wanima/discography/32857"],"verifiedAt":"2026-10-15","targetId":"https://wmg.jp/wanima/discography/32857"},{"target":"link","fields":["url","type"],"sourceUrls":["https://wanima.net/contents/1050967"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=VpSK01fo3Do"},{"target":"link","fields":["url","type"],"sourceUrls":["https://wmg.jp/wanima/discography/32857"],"verifiedAt":"2026-10-15","targetId":"https://wanima.lnk.to/Furuboko"},{"target":"link","fields":["url","type"],"sourceUrls":["https://wanima.lnk.to/Furuboko"],"verifiedAt":"2026-10-15","targetId":"https://music.apple.com/jp/album/1876133433"},{"target":"link","fields":["url","type"],"sourceUrls":["https://wanima.lnk.to/Furuboko"],"verifiedAt":"2026-10-15","targetId":"https://open.spotify.com/album/5c3vPtqXPktqI3mtZOc83C"},{"target":"link","fields":["url","type"],"sourceUrls":["https://wanima.lnk.to/Furuboko"],"verifiedAt":"2026-10-15","targetId":"https://music.youtube.com/playlist?list=OLAK5uy_kJsMlYtCJ9Seh9gSFYvJ9UJiP4J-bPgMU"}],"releases":[{"id":"baki-dou-op-1-digital","title":"フルボコ","artistDisplayName":"WANIMA","type":"single","tracks":[{"title":"フルボコ"}],"edition":"Digital Single"}],"links":[{"platform":"官方配信","label":"フルボコ 官方商品／曲目資料","url":"https://wmg.jp/wanima/discography/32857","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"baki-dou-op-1-digital"},{"platform":"YouTube","label":"フルボコ Music Video","url":"https://www.youtube.com/watch?v=VpSK01fo3Do","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"官方配信","label":"フルボコ 官方配信入口","url":"https://wanima.lnk.to/Furuboko","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"Apple Music","label":"フルボコ Apple Music 確切配信入口","url":"https://music.apple.com/jp/album/1876133433","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"Spotify","label":"フルボコ Spotify 確切配信入口","url":"https://open.spotify.com/album/5c3vPtqXPktqI3mtZOc83C","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"YouTube Music","label":"フルボコ YouTube Music 確切配信入口","url":"https://music.youtube.com/playlist?list=OLAK5uy_kJsMlYtCJ9Seh9gSFYvJ9UJiP4J-bPgMU","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"}]},{"type":"ED","titleJa":"Mountain Top","artistDisplayName":"Novel Core","sequence":1,"songId":"baki-dou-ed-1-song","credits":[{"name":"Novel Core","role":"vocals"},{"name":"Novel Core","role":"lyrics"},{"name":"Novel Core","role":"composition"},{"name":"JUGEM","role":"composition"}],"sources":[{"url":"https://baki-anime.jp/products/music/","label":"刃牙道官方 MUSIC：第一期 OP フルボコ／ED Mountain Top；不由第二季度播出推定新歌","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.uta-net.com/song/388572/","label":"歌ネット 授權曲目：Mountain Top 作詞 Novel Core、作曲 Novel Core／JUGEM","role":"cross_check","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://avexnet.jp/news/1033234","label":"avex 官方：Mountain Top Single 配信日、幕後影片；JUGEM 明示為製作人，未當編曲","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://avexnet.jp/news/1031546","label":"avex 官方：Mountain Top Lyric Video 與無字幕 ED 的各自確切 YouTube 外連","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://novelcore.lnk.to/MountainTop","label":"藝人／唱片公司官方配信頁：確切曲目專輯目的地","role":"first_party","language":"ja","verifiedAt":"2026-10-15"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://baki-anime.jp/products/music/"],"verifiedAt":"2026-10-15","targetId":"baki-dou-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://baki-anime.jp/products/music/"],"verifiedAt":"2026-10-15","targetId":"baki-dou-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.uta-net.com/song/388572/"],"verifiedAt":"2026-10-15"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://avexnet.jp/news/1033234"],"verifiedAt":"2026-10-15","targetId":"baki-dou-ed-1-digital"},{"target":"link","fields":["url","type"],"sourceUrls":["https://avexnet.jp/news/1033234"],"verifiedAt":"2026-10-15","targetId":"https://avexnet.jp/news/1033234"},{"target":"link","fields":["url","type"],"sourceUrls":["https://avexnet.jp/news/1033234"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=Xlb2oQwZyzA"},{"target":"link","fields":["url","type"],"sourceUrls":["https://avexnet.jp/news/1033234"],"verifiedAt":"2026-10-15","targetId":"https://novelcore.lnk.to/MountainTop"},{"target":"link","fields":["url","type"],"sourceUrls":["https://avexnet.jp/news/1031546"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=FhZYDK_IPYg"},{"target":"link","fields":["url","type"],"sourceUrls":["https://avexnet.jp/news/1031546"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=KKOr3xF2iOM"},{"target":"link","fields":["url","type"],"sourceUrls":["https://novelcore.lnk.to/MountainTop"],"verifiedAt":"2026-10-15","targetId":"https://music.apple.com/jp/album/1874296532"},{"target":"link","fields":["url","type"],"sourceUrls":["https://novelcore.lnk.to/MountainTop"],"verifiedAt":"2026-10-15","targetId":"https://open.spotify.com/album/5AsGzzgbONQXNHwx8C8SA8"},{"target":"link","fields":["url","type"],"sourceUrls":["https://novelcore.lnk.to/MountainTop"],"verifiedAt":"2026-10-15","targetId":"https://music.youtube.com/playlist?list=OLAK5uy_kuFBEbS8dt0QTjtoowkTb6bVX88cTt1Qw"}],"releases":[{"id":"baki-dou-ed-1-digital","title":"Mountain Top","artistDisplayName":"Novel Core","type":"single","tracks":[{"title":"Mountain Top"}],"date":{"value":"2026-02-27","precision":"day"},"edition":"Digital Single"}],"links":[{"platform":"官方配信","label":"Mountain Top 官方商品／曲目資料","url":"https://avexnet.jp/news/1033234","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"baki-dou-ed-1-digital"},{"platform":"YouTube","label":"Mountain Top Behind The Scenes（製作幕後）","url":"https://www.youtube.com/watch?v=Xlb2oQwZyzA","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"官方配信","label":"Mountain Top 官方配信入口","url":"https://novelcore.lnk.to/MountainTop","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"YouTube","label":"Mountain Top Lyric Video","url":"https://www.youtube.com/watch?v=FhZYDK_IPYg","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"YouTube","label":"Mountain Top 無字幕 ED","url":"https://www.youtube.com/watch?v=KKOr3xF2iOM","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"Apple Music","label":"Mountain Top Apple Music 確切配信入口","url":"https://music.apple.com/jp/album/1874296532","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"Spotify","label":"Mountain Top Spotify 確切配信入口","url":"https://open.spotify.com/album/5AsGzzgbONQXNHwx8C8SA8","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"YouTube Music","label":"Mountain Top YouTube Music 確切配信入口","url":"https://music.youtube.com/playlist?list=OLAK5uy_kuFBEbS8dt0QTjtoowkTb6bVX88cTt1Qw","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"}]}],"verifiedAt":"2026-07-28","metadataVerifiedAt":"2026-07-28"},
   {"anilistId":187267,"id":"curated-187267","slug":"beastars-final-season-part-2","seasonIds":["2026-winter"],"startDate":"2026-03-07","titleJa":"BEASTARS FINAL SEASON Part 2","titleZhHant":"BEASTARS FINAL SEASON Part 2","titleRomaji":"BEASTARS FINAL SEASON Part 2","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187267-clvlTabOPdPo.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/187267-e2efh1WEbPBT.jpg","editorialWeekday":6,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://bst-animation.com/","anilistUrl":"https://anilist.co/anime/187267","imageSourceUrl":"https://anilist.co/anime/187267","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2026-winter?display=list_detailed"],"animeThemesUrl":"https://animethemes.moe/anime/beastars_final_season_part_2","uzureaUrl":"https://uzurea.net/winter-2026-anime-theme-songs/","themes":[{"type":"ED","sequence":1,"titleJa":"Tiny Light","artistDisplayName":"SEVENTEEN","songId":"beastars-final-season-part-2-ed-1-song","credits":[{"name":"SEVENTEEN","role":"vocals"},{"name":"WOOZI","role":"lyrics"},{"name":"Shannon Bae","role":"lyrics"},{"name":"WOOZI","role":"composition"},{"name":"Nmore","role":"composition"},{"name":"WOOZI","role":"arrangement"},{"name":"Nmore","role":"arrangement"},{"name":"ONE.KI（Chorus）","role":"other"},{"name":"Nmore（All Instruments）","role":"other"},{"name":"DONGHYUK LEE（Bass）","role":"other"},{"name":"SEUNGJUN KIM（Guitar）","role":"other"}],"sources":[{"url":"https://bst-animation.com/","label":"BEASTARS 官方 STAFF：Part2 Tiny Light 的各項詞曲編曲、合唱與演奏；未借用 Part1 創作","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.seventeen-17.jp/posts/information/tsfhwy","label":"SEVENTEEN 日本官方：Tiny Light Digital Single 配信日及確切配信入口","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://weverse.io/seventeen/media/2-172133413","label":"SEVENTEEN 官方 Weverse：Tiny Light Official MV 的確切 YouTube 外連","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://seventeen.lnk.to/tinylightWE","label":"藝人／唱片公司官方配信頁：確切曲目專輯目的地","role":"first_party","language":"ja","verifiedAt":"2026-10-15"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://bst-animation.com/"],"verifiedAt":"2026-10-15","targetId":"beastars-final-season-part-2-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://bst-animation.com/"],"verifiedAt":"2026-10-15","targetId":"beastars-final-season-part-2-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://bst-animation.com/"],"verifiedAt":"2026-10-15"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://www.seventeen-17.jp/posts/information/tsfhwy"],"verifiedAt":"2026-10-15","targetId":"beastars-final-season-part-2-ed-1-digital"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.seventeen-17.jp/posts/information/tsfhwy"],"verifiedAt":"2026-10-15","targetId":"https://www.seventeen-17.jp/posts/information/tsfhwy"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.seventeen-17.jp/posts/information/tsfhwy"],"verifiedAt":"2026-10-15","targetId":"https://seventeen.lnk.to/tinylightWE"},{"target":"link","fields":["url","type"],"sourceUrls":["https://weverse.io/seventeen/media/2-172133413"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=5A7qyhj-HjE"},{"target":"link","fields":["url","type"],"sourceUrls":["https://seventeen.lnk.to/tinylightWE"],"verifiedAt":"2026-10-15","targetId":"https://music.apple.com/jp/album/1877599751"},{"target":"link","fields":["url","type"],"sourceUrls":["https://seventeen.lnk.to/tinylightWE"],"verifiedAt":"2026-10-15","targetId":"https://open.spotify.com/album/29itUVO9h0qMhglTVctEQD"},{"target":"link","fields":["url","type"],"sourceUrls":["https://seventeen.lnk.to/tinylightWE"],"verifiedAt":"2026-10-15","targetId":"https://music.youtube.com/playlist?list=OLAK5uy_nOqXKv59mekB8l8AHnTxjZeCaoClT30ck"}],"releases":[{"id":"beastars-final-season-part-2-ed-1-digital","title":"Tiny Light","artistDisplayName":"SEVENTEEN","type":"single","tracks":[{"title":"Tiny Light"}],"date":{"value":"2026-02-27","precision":"day"},"edition":"Digital Single"}],"links":[{"platform":"官方配信","label":"Tiny Light 官方商品／曲目資料","url":"https://www.seventeen-17.jp/posts/information/tsfhwy","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"beastars-final-season-part-2-ed-1-digital"},{"platform":"官方配信","label":"Tiny Light 官方配信入口","url":"https://seventeen.lnk.to/tinylightWE","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"YouTube","label":"Tiny Light Official MV","url":"https://www.youtube.com/watch?v=5A7qyhj-HjE","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"Apple Music","label":"Tiny Light Apple Music 確切配信入口","url":"https://music.apple.com/jp/album/1877599751","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"Spotify","label":"Tiny Light Spotify 確切配信入口","url":"https://open.spotify.com/album/29itUVO9h0qMhglTVctEQD","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"YouTube Music","label":"Tiny Light YouTube Music 確切配信入口","url":"https://music.youtube.com/playlist?list=OLAK5uy_nOqXKv59mekB8l8AHnTxjZeCaoClT30ck","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"}]},{"type":"OP","sequence":1,"titleJa":"LA FERALIA","artistDisplayName":"神前暁","sourceMode":"explicit","songId":"beastars-final-season-part-2-op-1-song","credits":[{"name":"神前暁","role":"lyrics"},{"name":"神前暁","role":"composition"}],"sources":[{"url":"https://bst-animation.com/","label":"BEASTARS 官方 STAFF：Part2 OP LA FERALIA 作詞／作曲，與 Part1 分別列出","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://about.netflix.com/ja/news/final-trailer-for-beastars-final-season-part-2-roars-toward-the-series","label":"Netflix 官方公告：Part2 OP LA FERALIA 的曲名與神前暁名義","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://natalie.mu/comic/news/663035","label":"Natalie 正式報導：Part2 配信開始及 OP LA FERALIA 的曲名／用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://ototoy.jp/_/default/p/3512449","label":"OTOTOY 正版 OST Vol.2：LA FERALIA Track 1、2026年3月8日；未推定音源長度分類","role":"first_party","language":"ja","verifiedAt":"2026-10-15"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://bst-animation.com/"],"verifiedAt":"2026-10-15","targetId":"beastars-final-season-part-2-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://bst-animation.com/"],"verifiedAt":"2026-10-15","targetId":"beastars-final-season-part-2-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://bst-animation.com/"],"verifiedAt":"2026-10-15"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://about.netflix.com/ja/news/final-trailer-for-beastars-final-season-part-2-roars-toward-the-series"],"verifiedAt":"2026-10-15","targetId":"beastars-final-season-part-2-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://about.netflix.com/ja/news/final-trailer-for-beastars-final-season-part-2-roars-toward-the-series"],"verifiedAt":"2026-10-15","targetId":"beastars-final-season-part-2-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://natalie.mu/comic/news/663035"],"verifiedAt":"2026-10-15","targetId":"beastars-final-season-part-2-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://natalie.mu/comic/news/663035"],"verifiedAt":"2026-10-15","targetId":"beastars-final-season-part-2-op-1"},{"target":"release","fields":["title","type","tracklist","date"],"sourceUrls":["https://ototoy.jp/_/default/p/3512449"],"verifiedAt":"2026-10-15","targetId":"beastars-final-season-ost-vol2-ototoy"},{"target":"link","fields":["url","type"],"sourceUrls":["https://ototoy.jp/_/default/p/3512449"],"verifiedAt":"2026-10-15","targetId":"https://ototoy.jp/_/default/p/3512449"}],"releases":[{"id":"beastars-final-season-ost-vol2-ototoy","title":"『BEASTARS FINAL SEASON』オリジナルサウンドトラック Vol.2","artistDisplayName":"神前 暁 ほか","type":"soundtrack","tracks":[{"title":"LA FERALIA","position":1}],"date":{"value":"2026-03-08","precision":"day"}}],"links":[{"platform":"OTOTOY","label":"BEASTARS FINAL SEASON OST Vol.2：LA FERALIA Track 1","url":"https://ototoy.jp/_/default/p/3512449","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"beastars-final-season-ost-vol2-ototoy"}]}],"verifiedAt":"2026-07-28","metadataVerifiedAt":"2026-07-28"},
