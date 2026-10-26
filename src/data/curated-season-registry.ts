@@ -209,7 +209,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     titleJa: "2026年夏アニメ",
     coverageNote: "本季已收錄部分TV新作與續播，保留既有短篇與WEB成果。標準TV作品聯集、續播及輪替仍待盤點，詳細資訊分階段補充；現有筆數不是全季總數。資料範圍截至2026-10-14。",
     seeds: curated2026SummerSeeds,
-    animeIds: curated2026SummerAnimeIds
+    animeIds: [...curated2026SummerAnimeIds, 126830]
   },
   {
     id: "2026-spring",
@@ -327,7 +327,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     titleZhHant: "春季動畫",
     titleJa: "2023年春アニメ",
     seeds: curated2023SpringSeeds,
-    animeIds: [...curated2023SpringAnimeIds, 163571, 154969, 142853, 144553, 155907, 136430, 136435, 151679, 116867, 139213, 146954, 148969, 155068, 157883, 142343, 21, 235]
+    animeIds: [...curated2023SpringAnimeIds, 163571, 154969, 142853, 144553, 155907, 136430, 136435, 151679, 116867, 139213, 146954, 148969, 155068, 157883, 142343, 21, 235, 117197]
   },
   {
     id: "2023-winter",

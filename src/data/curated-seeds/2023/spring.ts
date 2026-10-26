@@ -6,7 +6,329 @@ export const curated2023SpringSeeds: CuratedAnimeSeed[] = [
   {"anilistId":166059,"id":"curated-166059","slug":"ao-no-orchestra-5-bu-de-tanoshii-kurashikku","seasonIds":["2023-spring"],"startDate":"2023-03-20","titleJa":"青のオーケストラ 5分で楽しいクラシック","titleZhHant":"藍色管弦樂 5分鐘快樂古典樂","titleRomaji":"Ao no Orchestra 5-bu de Tanoshii Kurashikku","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166059-DJI3yGLHujRd.jpg","editorialWeekday":1,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://aooke-anime.com/","anilistUrl":"https://anilist.co/anime/166059","imageSourceUrl":"https://anilist.co/anime/166059","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-spring?display=list_detailed"],"themes":[],"verifiedAt":"2026-09-01"},
   {"anilistId":169826,"id":"curated-169826","slug":"bakugan-legends","seasonIds":["2023-spring"],"startDate":"2023-03-31","titleJa":"爆丸レジェンズ","titleZhHant":"爆丸 Legends","titleRomaji":"Bakugan: Legends","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b169826-VpQWJKFXDzKj.jpg","editorialWeekday":5,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://www.tms-e.co.jp/release/anime/entry-25989.html","anilistUrl":"https://anilist.co/anime/169826","imageSourceUrl":"https://anilist.co/anime/169826","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-spring?display=list_detailed","https://bgm.tv/subject/425936"],"themes":[{"type":"OP","sequence":1,"titleJa":"PLANET HERO","artistDisplayName":"ダン・クーソー（CV. 高橋李依）、ドラゴノイド（CV. 武内駿輔）"},{"type":"ED","sequence":1,"titleJa":"爆裂ハイジャンプ！","artistDisplayName":"上月せれな"}],"verifiedAt":"2026-09-01"},
   {"anilistId":128893,"id":"curated-128893","slug":"jigokuraku","seasonIds":["2023-spring","2023-summer"],"startDate":"2023-04-01","titleJa":"地獄楽","titleZhHant":"地獄樂","titleRomaji":"Jigokuraku","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx128893-Gc2t8b8M0mVu.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/128893-pAA7PjY8l7dy.jpg","editorialWeekday":6,"broadcastLabel":"原第1期TV：2023年4月1日（土）23:00起テレビ東京系列他；原作出版方2023/3/27原期公告明時段，2023/4/3回報首話已播；3/19戲院先行上映與TV分開","status":"finished","officialSiteUrl":"https://www.jigokuraku.com/","anilistUrl":"https://anilist.co/anime/128893","imageSourceUrl":"https://anilist.co/anime/128893","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-spring?display=list_detailed","https://bgm.tv/subject/325808"],"animeThemesUrl":"https://animethemes.moe/anime/jigokuraku","themes":[{"type":"OP","sequence":1,"titleJa":"W●RK","artistDisplayName":"millennium parade × 椎名林檎","id":"jigokuraku-op-1","songId":"jigokuraku-op-1-song","sources":[{"label":"動畫官方網站","url":"https://www.jigokuraku.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/jigokuraku","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://www.jigokuraku.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202307/27374_202307012300.html","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://sp.shonenjump.com/p/mediainfo/jigokuraku/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://www.jigokuraku.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-spring","2023-summer"],"credits":[{"name":"椎名林檎","role":"lyrics"},{"name":"常田大希","role":"lyrics"},{"name":"常田大希","role":"composition"},{"name":"millennium parade × 椎名林檎","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.jigokuraku.com/music/","https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202307/27374_202307012300.html"],"verifiedAt":"2026-10-22","targetId":"jigokuraku-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.jigokuraku.com/music/","https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202307/27374_202307012300.html"],"verifiedAt":"2026-10-22","targetId":"jigokuraku-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/jigokuraku"],"verifiedAt":"2026-09-01","targetId":"jigokuraku-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/jigokuraku"],"verifiedAt":"2026-09-01","targetId":"jigokuraku-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.jigokuraku.com/music/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈W●RK〉：官方music頁保留第1期區塊，與當前第2期分開。7/1原最終話TV東京節目表逐曲明本OP，支持跨入summer，不由動畫終回日推曲；未由團隊名推個別vocals。","resumeWhen":"詳細階段沿用本曲已核原期來源，只補有逐曲第一方證據而尚缺的作者、個別演唱、錄音、官方影片、發行品／收錄與正版平台；MV或creditless不自動證full／TV，商品曲表不自動證動畫用途，不由全cast或團隊簡介推全員歌唱。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":1,"titleJa":"紙一重","artistDisplayName":"Uru","id":"jigokuraku-ed-1","songId":"jigokuraku-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://www.jigokuraku.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/jigokuraku","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://www.id-entertainment.co.jp/news/detail/5444","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202307/27374_202307012300.html","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://sp.shonenjump.com/p/mediainfo/jigokuraku/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://uru-official.com/discography/detail/51/","label":"第一方本曲已列詞／曲／編補充；不作動畫用途證據","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://www.jigokuraku.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-spring","2023-summer"],"credits":[{"name":"Uru","role":"lyrics"},{"name":"Uru","role":"composition"},{"name":"トオミ ヨウ","role":"arrangement"},{"name":"Uru","role":"vocals"}],"titleRomaji":"Kamihitoe","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.id-entertainment.co.jp/news/detail/5444","https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202307/27374_202307012300.html"],"verifiedAt":"2026-10-22","targetId":"jigokuraku-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.id-entertainment.co.jp/news/detail/5444","https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202307/27374_202307012300.html"],"verifiedAt":"2026-10-22","targetId":"jigokuraku-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/jigokuraku"],"verifiedAt":"2026-09-01","targetId":"jigokuraku-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/jigokuraku"],"verifiedAt":"2026-09-01","targetId":"jigokuraku-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://uru-official.com/discography/detail/51/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈紙一重〉：Uru所屬事務所原期官方公告明本曲地獄楽ED與Uru；Uru官方單曲頁僅供詞曲編，未當TV用途。7/1原最終話TV東京節目表逐曲明本ED，支持summer。","resumeWhen":"詳細階段沿用本曲已核原期來源，只補有逐曲第一方證據而尚缺的作者、個別演唱、錄音、官方影片、發行品／收錄與正版平台；MV或creditless不自動證full／TV，商品曲表不自動證動畫用途，不由全cast或團隊簡介推全員歌唱。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"}],"verifiedAt":"2026-09-01","metadataVerifiedAt":"2026-09-01","metadataSources":[{"url":"https://sp.shonenjump.com/p/mediainfo/jigokuraku/","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202307/27374_202307012300.html","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.jigokuraku.com/music/","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.id-entertainment.co.jp/news/detail/5444","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"broadcastTimeJst":"23:00"},
-  {"anilistId":151384,"id":"curated-151384","slug":"kaguya-sama-wa-kokurasetai-first-kiss-wa-owaranai","seasonIds":["2023-spring"],"startDate":"2023-04-01","titleJa":"かぐや様は告らせたい -ファーストキッスは終わらない-","titleZhHant":"輝夜姬想讓人告白－永不結束的初吻－","titleRomaji":"Kaguya-sama wa Kokurasetai: First Kiss wa Owaranai","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151384-gv0q8wOE6D58.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/151384-JybfIpHr2gx6.jpg","editorialWeekday":6,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://kaguya.love/","anilistUrl":"https://anilist.co/anime/151384","imageSourceUrl":"https://anilist.co/anime/151384","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-spring?display=list_detailed","https://bgm.tv/subject/425211"],"themes":[{"type":"OP","sequence":1,"titleJa":"Love is Show","artistDisplayName":"鈴木雅之 feat. 高城れに"},{"type":"ED","sequence":1,"titleJa":"heart notes","artistDisplayName":"鈴木愛理"}],"verifiedAt":"2026-09-01"},
+  {
+  "anilistId": 151384,
+  "id": "curated-151384",
+  "slug": "kaguya-sama-wa-kokurasetai-first-kiss-wa-owaranai",
+  "seasonIds": [
+    "2023-spring"
+  ],
+  "startDate": "2023-04-01",
+  "titleJa": "かぐや様は告らせたい -ファーストキッスは終わらない-",
+  "titleZhHant": "輝夜姬想讓人告白－永不結束的初吻－",
+  "titleRomaji": "Kaguya-sama wa Kokurasetai: First Kiss wa Owaranai",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151384-gv0q8wOE6D58.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/151384-JybfIpHr2gx6.jpg",
+  "editorialWeekday": 6,
+  "broadcastLabel": "日本TV：2023-04-01 01:55（JST）",
+  "status": "finished",
+  "officialSiteUrl": "https://kaguya.love/",
+  "anilistUrl": "https://anilist.co/anime/151384",
+  "imageSourceUrl": "https://anilist.co/anime/151384",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://annict.com/works/2023-spring?display=list_detailed",
+    "https://bgm.tv/subject/425211"
+  ],
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "Love is Show",
+      "artistDisplayName": "鈴木雅之 feat. 高城れに",
+      "id": "kaguya-sama-wa-kokurasetai-first-kiss-wa-owaranai-op-1",
+      "songId": "kaguya-sama-wa-kokurasetai-first-kiss-wa-owaranai-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2023-spring"
+      ],
+      "sources": [
+        {
+          "url": "https://kaguya.love/firstkiss/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E8%BC%9D%E5%A4%9C%E5%A7%AC%E6%83%B3%E8%AE%93%E4%BA%BA%E5%91%8A%E7%99%BD%EF%BC%8D%E6%B0%B8%E4%B8%8D%E7%B5%90%E6%9D%9F%E7%9A%84%E5%88%9D%E5%90%BB%EF%BC%8D",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "label": "アニプレックス チャンネル 官方影片",
+          "url": "https://www.youtube.com/watch?v=e1P5WxxMBmE",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://kaguya.love/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "url": "https://kaguya.love/firstkiss/bddvd/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://kaguya.love/firstkiss/news/?article_id=62680",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "鈴木雅之 feat. 高城れに",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/firstkiss/music/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "kaguya-sama-wa-kokurasetai-first-kiss-wa-owaranai-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/firstkiss/music/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "kaguya-sama-wa-kokurasetai-first-kiss-wa-owaranai-op-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/firstkiss/bddvd/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "kaguya-sama-wa-kokurasetai-first-kiss-wa-owaranai-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E8%BC%9D%E5%A4%9C%E5%A7%AC%E6%83%B3%E8%AE%93%E4%BA%BA%E5%91%8A%E7%99%BD%EF%BC%8D%E6%B0%B8%E4%B8%8D%E7%B5%90%E6%9D%9F%E7%9A%84%E5%88%9D%E5%90%BB%EF%BC%8D"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "kaguya-sama-wa-kokurasetai-first-kiss-wa-owaranai-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E8%BC%9D%E5%A4%9C%E5%A7%AC%E6%83%B3%E8%AE%93%E4%BA%BA%E5%91%8A%E7%99%BD%EF%BC%8D%E6%B0%B8%E4%B8%8D%E7%B5%90%E6%9D%9F%E7%9A%84%E5%88%9D%E5%90%BB%EF%BC%8D"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "kaguya-sama-wa-kokurasetai-first-kiss-wa-owaranai-op-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "同版官方音樂頁列曲名、演唱及OP／ED；同版BD頁另明OP／ED為TVver.，配合原TV首播核對春季用途。",
+          "resumeWhen": "待權利方公開逐曲創作署名及音源規格後補核。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "heart notes",
+      "artistDisplayName": "鈴木愛理",
+      "id": "kaguya-sama-wa-kokurasetai-first-kiss-wa-owaranai-ed-1",
+      "songId": "kaguya-sama-wa-kokurasetai-first-kiss-wa-owaranai-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2023-spring"
+      ],
+      "sources": [
+        {
+          "url": "https://kaguya.love/firstkiss/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E8%BC%9D%E5%A4%9C%E5%A7%AC%E6%83%B3%E8%AE%93%E4%BA%BA%E5%91%8A%E7%99%BD%EF%BC%8D%E6%B0%B8%E4%B8%8D%E7%B5%90%E6%9D%9F%E7%9A%84%E5%88%9D%E5%90%BB%EF%BC%8D",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "label": "アニプレックス チャンネル 官方影片",
+          "url": "https://www.youtube.com/watch?v=Jk6S15iIgxc",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://kaguya.love/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "url": "https://kaguya.love/firstkiss/bddvd/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://kaguya.love/firstkiss/news/?article_id=62680",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "鈴木愛理",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/firstkiss/music/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "kaguya-sama-wa-kokurasetai-first-kiss-wa-owaranai-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/firstkiss/music/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "kaguya-sama-wa-kokurasetai-first-kiss-wa-owaranai-ed-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/firstkiss/bddvd/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "kaguya-sama-wa-kokurasetai-first-kiss-wa-owaranai-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E8%BC%9D%E5%A4%9C%E5%A7%AC%E6%83%B3%E8%AE%93%E4%BA%BA%E5%91%8A%E7%99%BD%EF%BC%8D%E6%B0%B8%E4%B8%8D%E7%B5%90%E6%9D%9F%E7%9A%84%E5%88%9D%E5%90%BB%EF%BC%8D"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "kaguya-sama-wa-kokurasetai-first-kiss-wa-owaranai-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E8%BC%9D%E5%A4%9C%E5%A7%AC%E6%83%B3%E8%AE%93%E4%BA%BA%E5%91%8A%E7%99%BD%EF%BC%8D%E6%B0%B8%E4%B8%8D%E7%B5%90%E6%9D%9F%E7%9A%84%E5%88%9D%E5%90%BB%EF%BC%8D"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "kaguya-sama-wa-kokurasetai-first-kiss-wa-owaranai-ed-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "同版官方音樂頁列曲名、演唱及OP／ED；同版BD頁另明OP／ED為TVver.，配合原TV首播核對春季用途。",
+          "resumeWhen": "待權利方公開逐曲創作署名及音源規格後補核。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    }
+  ],
+  "verifiedAt": "2026-09-01",
+  "metadataVerifiedAt": "2026-09-01",
+  "metadataSources": [
+    {
+      "url": "https://kaguya.love/firstkiss/news/?article_id=62680",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-26"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E8%BC%9D%E5%A4%9C%E5%A7%AC%E6%83%B3%E8%AE%93%E4%BA%BA%E5%91%8A%E7%99%BD%EF%BC%8D%E6%B0%B8%E4%B8%8D%E7%B5%90%E6%9D%9F%E7%9A%84%E5%88%9D%E5%90%BB%EF%BC%8D",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-26"
+    }
+  ],
+  "broadcastTimeJst": "01:55"
+},
   {"anilistId":153344,"id":"curated-153344","slug":"mix-meisei-story-nidome-no-natsu-sora-no-mukou-e","seasonIds":["2023-spring","2023-summer"],"startDate":"2023-04-01","titleJa":"MIX MEISEI STORY 2ND SEASON ～二度目の夏、空の向こうへ～","titleZhHant":"MIX 2ND SEASON","titleRomaji":"MIX: MEISEI STORY 2ND SEASON  - Nidome no Natsu, Sora no Mukou e","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx153344-DswK92XzjKPL.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/153344-AtvPndNQ55Wf.jpg","editorialWeekday":6,"broadcastLabel":"原第2期TV：讀賣／日本電視系2023年4月1日（土）17:30開始；官方3/29資料放送公告明4/1開始、3/25官方動畫廣播公告明17:30看完TV後18:30廣播，與後半藝人公告同時段一致。先行配信及2019第1期分開。","status":"finished","officialSiteUrl":"https://www.ytv.co.jp/mix/","anilistUrl":"https://anilist.co/anime/153344","imageSourceUrl":"https://anilist.co/anime/153344","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-spring?display=list_detailed","https://bgm.tv/subject/394784"],"animeThemesUrl":"https://animethemes.moe/anime/mix_meisei_story_nidome_no_natsu_sora_no_mukou_e","themes":[{"type":"OP","sequence":1,"titleJa":"Starting Over","artistDisplayName":"sumika","id":"mix-meisei-story-nidome-no-natsu-sora-no-mukou-e-op-1","songId":"mix-meisei-story-nidome-no-natsu-sora-no-mukou-e-op-1-song","sources":[{"label":"動畫官方網站","url":"https://www.ytv.co.jp/mix/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/mix_meisei_story_nidome_no_natsu_sora_no_mukou_e","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://mix-anime.jp/news/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/MIX_%28%E6%BC%AB%E7%95%AB%29","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://www.ytv.co.jp/mix/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-spring"],"credits":[{"name":"sumika","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://mix-anime.jp/news/"],"verifiedAt":"2026-10-22","targetId":"mix-meisei-story-nidome-no-natsu-sora-no-mukou-e-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://mix-anime.jp/news/"],"verifiedAt":"2026-10-22","targetId":"mix-meisei-story-nidome-no-natsu-sora-no-mukou-e-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/mix_meisei_story_nidome_no_natsu_sora_no_mukou_e"],"verifiedAt":"2026-09-01","targetId":"mix-meisei-story-nidome-no-natsu-sora-no-mukou-e-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/mix_meisei_story_nidome_no_natsu_sora_no_mukou_e"],"verifiedAt":"2026-09-01","targetId":"mix-meisei-story-nidome-no-natsu-sora-no-mukou-e-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/MIX_%28%E6%BC%AB%E7%95%AB%29"],"verifiedAt":"2026-10-22","targetId":"mix-meisei-story-nidome-no-natsu-sora-no-mukou-e-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/MIX_%28%E6%BC%AB%E7%95%AB%29"],"verifiedAt":"2026-10-22","targetId":"mix-meisei-story-nidome-no-natsu-sora-no-mukou-e-op-1"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈Starting Over〉：官網4/7公告直接明第1cour OP／Starting Over／sumika；中文曲表1–13話，逐話節目表第13話實為6/24、第14話7/8，故只spring，不由每週日曆推7/1續播。未由樂團成員介紹補全員vocal。","resumeWhen":"詳細階段沿用已核本期來源；取得逐曲第一方作者、錄音標示、官方影片形式、確切發行收錄或正版平台入口後，只補尚缺欄位。MV／creditless不自動證full／TV或新錄音，影片與商品差異不另造歌曲。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"OP","sequence":2,"titleJa":"アマリリス","artistDisplayName":"BLUE ENCOUNT","id":"mix-meisei-story-nidome-no-natsu-sora-no-mukou-e-op-2","songId":"mix-meisei-story-nidome-no-natsu-sora-no-mukou-e-op-2-song","sources":[{"label":"動畫官方網站","url":"https://www.ytv.co.jp/mix/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/mix_meisei_story_nidome_no_natsu_sora_no_mukou_e","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://mix-anime.jp/news/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://blueencount.jp/news/detail/3780","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/MIX_%28%E6%BC%AB%E7%95%AB%29","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://www.ytv.co.jp/mix/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-summer"],"credits":[{"name":"田邊駿一","role":"lyrics"},{"name":"田邊駿一","role":"composition"},{"name":"BLUE ENCOUNT","role":"vocals"}],"titleRomaji":"Amaryllis","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://mix-anime.jp/news/","https://blueencount.jp/news/detail/3780"],"verifiedAt":"2026-10-22","targetId":"mix-meisei-story-nidome-no-natsu-sora-no-mukou-e-op-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://mix-anime.jp/news/","https://blueencount.jp/news/detail/3780"],"verifiedAt":"2026-10-22","targetId":"mix-meisei-story-nidome-no-natsu-sora-no-mukou-e-op-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/mix_meisei_story_nidome_no_natsu_sora_no_mukou_e"],"verifiedAt":"2026-09-01","targetId":"mix-meisei-story-nidome-no-natsu-sora-no-mukou-e-op-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/mix_meisei_story_nidome_no_natsu_sora_no_mukou_e"],"verifiedAt":"2026-09-01","targetId":"mix-meisei-story-nidome-no-natsu-sora-no-mukou-e-op-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/MIX_%28%E6%BC%AB%E7%95%AB%29"],"verifiedAt":"2026-10-22","targetId":"mix-meisei-story-nidome-no-natsu-sora-no-mukou-e-op-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/MIX_%28%E6%BC%AB%E7%95%AB%29"],"verifiedAt":"2026-10-22","targetId":"mix-meisei-story-nidome-no-natsu-sora-no-mukou-e-op-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://mix-anime.jp/news/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈アマリリス〉：官網6/30明7月cour OP原名／藝人及田邊駿一詞曲；藝人正式公告直接明7/8放送起用。中文曲表第14–24話及逐話表相符，僅summer；同名英文Amaryllis保別名，不造新歌。","resumeWhen":"詳細階段沿用已核本期來源；取得逐曲第一方作者、錄音標示、官方影片形式、確切發行收錄或正版平台入口後，只補尚缺欄位。MV／creditless不自動證full／TV或新錄音，影片與商品差異不另造歌曲。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":1,"titleJa":"ハルノオト","artistDisplayName":"miwa","id":"mix-meisei-story-nidome-no-natsu-sora-no-mukou-e-ed-1","songId":"mix-meisei-story-nidome-no-natsu-sora-no-mukou-e-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://www.ytv.co.jp/mix/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/mix_meisei_story_nidome_no_natsu_sora_no_mukou_e","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://mix-anime.jp/news/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/MIX_%28%E6%BC%AB%E7%95%AB%29","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://www.ytv.co.jp/mix/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-spring"],"credits":[{"name":"miwa","role":"vocals"}],"titleRomaji":"Haru no Oto","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://mix-anime.jp/news/"],"verifiedAt":"2026-10-22","targetId":"mix-meisei-story-nidome-no-natsu-sora-no-mukou-e-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://mix-anime.jp/news/"],"verifiedAt":"2026-10-22","targetId":"mix-meisei-story-nidome-no-natsu-sora-no-mukou-e-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/mix_meisei_story_nidome_no_natsu_sora_no_mukou_e"],"verifiedAt":"2026-09-01","targetId":"mix-meisei-story-nidome-no-natsu-sora-no-mukou-e-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/mix_meisei_story_nidome_no_natsu_sora_no_mukou_e"],"verifiedAt":"2026-09-01","targetId":"mix-meisei-story-nidome-no-natsu-sora-no-mukou-e-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/MIX_%28%E6%BC%AB%E7%95%AB%29"],"verifiedAt":"2026-10-22","targetId":"mix-meisei-story-nidome-no-natsu-sora-no-mukou-e-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/MIX_%28%E6%BC%AB%E7%95%AB%29"],"verifiedAt":"2026-10-22","targetId":"mix-meisei-story-nidome-no-natsu-sora-no-mukou-e-ed-1"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈ハルノオト〉：官網4/7明第1cour ED本曲／miwa；中文表1–13話，節目表第13話6/24，後半官方7/8換新ED，故只spring；未由歌手一般創作簡介補本曲作者。","resumeWhen":"詳細階段沿用已核本期來源；取得逐曲第一方作者、錄音標示、官方影片形式、確切發行收錄或正版平台入口後，只補尚缺欄位。MV／creditless不自動證full／TV或新錄音，影片與商品差異不另造歌曲。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":2,"titleJa":"今この瞬間を","artistDisplayName":"Little Glee Monster","id":"mix-meisei-story-nidome-no-natsu-sora-no-mukou-e-ed-2","songId":"mix-meisei-story-nidome-no-natsu-sora-no-mukou-e-ed-2-song","sources":[{"label":"動畫官方網站","url":"https://www.ytv.co.jp/mix/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/mix_meisei_story_nidome_no_natsu_sora_no_mukou_e","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://mix-anime.jp/news/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/553201","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/MIX_%28%E6%BC%AB%E7%95%AB%29","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://www.ytv.co.jp/mix/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-summer"],"credits":[{"name":"コヤマヒデカズ","role":"lyrics"},{"name":"Raizo.W","role":"composition"},{"name":"KOHD","role":"arrangement"},{"name":"Little Glee Monster","role":"vocals"}],"titleRomaji":"Ima Kono Toki wo","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://mix-anime.jp/news/","https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/553201"],"verifiedAt":"2026-10-22","targetId":"mix-meisei-story-nidome-no-natsu-sora-no-mukou-e-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://mix-anime.jp/news/","https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/553201"],"verifiedAt":"2026-10-22","targetId":"mix-meisei-story-nidome-no-natsu-sora-no-mukou-e-ed-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/mix_meisei_story_nidome_no_natsu_sora_no_mukou_e"],"verifiedAt":"2026-09-01","targetId":"mix-meisei-story-nidome-no-natsu-sora-no-mukou-e-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/mix_meisei_story_nidome_no_natsu_sora_no_mukou_e"],"verifiedAt":"2026-09-01","targetId":"mix-meisei-story-nidome-no-natsu-sora-no-mukou-e-ed-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/MIX_%28%E6%BC%AB%E7%95%AB%29"],"verifiedAt":"2026-10-22","targetId":"mix-meisei-story-nidome-no-natsu-sora-no-mukou-e-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/MIX_%28%E6%BC%AB%E7%95%AB%29"],"verifiedAt":"2026-10-22","targetId":"mix-meisei-story-nidome-no-natsu-sora-no-mukou-e-ed-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://mix-anime.jp/news/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈今この瞬間を〉：官網6/19明7月cour ED及逐曲詞曲編；Sony藝人官方明7/8起本曲ED，且明正式題名今この瞬間を及讀音いまこのときを。官網抽取今この瞬間ときを為ruby讀音展開，採Sony正名，不造拼寫版本。","resumeWhen":"詳細階段沿用已核本期來源；取得逐曲第一方作者、錄音標示、官方影片形式、確切發行收錄或正版平台入口後，只補尚缺欄位。MV／creditless不自動證full／TV或新錄音，影片與商品差異不另造歌曲。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"}],"verifiedAt":"2026-09-01","metadataVerifiedAt":"2026-09-01","metadataSources":[{"url":"https://thetv.jp/program/0001027851/plot/","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://mix-anime.jp/news/","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://blueencount.jp/news/detail/3780","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/553201","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"broadcastTimeJst":"17:30"},
   {"anilistId":155783,"id":"curated-155783","slug":"tengoku-daimakyou","seasonIds":["2023-spring"],"startDate":"2023-04-01","titleJa":"天国大魔境","titleZhHant":"天國大魔境","titleRomaji":"Tengoku Daimakyou","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx155783-YosKbsmZzuDE.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/155783-MXHfdquIBoHA.jpg","editorialWeekday":6,"broadcastLabel":"原TV：TOKYO MX／BS11 2023年4月1日（土）22:00同步開始；北海道初回26:00及其餘深夜局較後；Disney+串流與TV分表，見逃し重播不當首播。","status":"finished","officialSiteUrl":"https://tdm-anime.com/","anilistUrl":"https://anilist.co/anime/155783","imageSourceUrl":"https://anilist.co/anime/155783","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-spring?display=list_detailed","https://bgm.tv/subject/404804"],"animeThemesUrl":"https://animethemes.moe/anime/tengoku_daimakyou","themes":[{"type":"OP","sequence":1,"titleJa":"innocent arrogance","artistDisplayName":"BiSH","id":"tengoku-daimakyou-op-1","songId":"tengoku-daimakyou-op-1-song","sources":[{"label":"動畫官方網站","url":"https://tdm-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/tengoku_daimakyou","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://tdm-anime.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://tdm-anime.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://tdm-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-spring"],"credits":[{"name":"松隈ケンタ","role":"lyrics"},{"name":"JxSxK","role":"lyrics"},{"name":"松隈ケンタ","role":"composition"},{"name":"BiSH","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://tdm-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"tengoku-daimakyou-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://tdm-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"tengoku-daimakyou-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/tengoku_daimakyou"],"verifiedAt":"2026-09-01","targetId":"tengoku-daimakyou-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/tengoku_daimakyou"],"verifiedAt":"2026-09-01","targetId":"tengoku-daimakyou-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tdm-anime.com/music/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈innocent arrogance〉：官方Music明OP本曲／BiSH及松隈ケンタ×JxSxK詞、松隈ケンタ曲；中文表第1話作ED，仍保既有OP用途，不為同曲改用另造新歌；未從BiSH全員profile推各人本曲vocal。","resumeWhen":"詳細階段沿用已核本期來源；取得逐曲第一方作者、錄音標示、官方影片形式、確切發行收錄或正版平台入口後，只補尚缺欄位。MV／creditless不自動證full／TV或新錄音，影片與商品差異不另造歌曲。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":1,"titleJa":"誰も彼も何処も何も知らない","artistDisplayName":"ASOBI同盟","id":"tengoku-daimakyou-ed-1","songId":"tengoku-daimakyou-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://tdm-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/tengoku_daimakyou","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://tdm-anime.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://tdm-anime.com/bluraycd/detail.php?id=1019716","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://tdm-anime.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://tdm-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-spring"],"credits":[{"name":"りみー","role":"lyrics"},{"name":"とくみくす","role":"composition"},{"name":"江口 亮","role":"arrangement"},{"name":"ASOBI同盟","role":"vocals"}],"titleRomaji":"Dare mo Kare mo Doko mo Nani mo Shiranai","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://tdm-anime.com/music/","https://tdm-anime.com/bluraycd/detail.php?id=1019716"],"verifiedAt":"2026-10-22","targetId":"tengoku-daimakyou-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://tdm-anime.com/music/","https://tdm-anime.com/bluraycd/detail.php?id=1019716"],"verifiedAt":"2026-10-22","targetId":"tengoku-daimakyou-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/tengoku_daimakyou"],"verifiedAt":"2026-09-01","targetId":"tengoku-daimakyou-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/tengoku_daimakyou"],"verifiedAt":"2026-09-01","targetId":"tengoku-daimakyou-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tdm-anime.com/music/","https://tdm-anime.com/bluraycd/detail.php?id=1019716"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈誰も彼も何処も何も知らない〉：官方Music及CD本曲明ED／ASOBI同盟、りみー詞／とくみくす曲／江口 亮編；保原ASOBI Doumei別名。官網明同曲#08特別編曲，與ED2共用原ED1-song，個別編曲僅留各用途。","resumeWhen":"詳細階段沿用已核本期來源；取得逐曲第一方作者、錄音標示、官方影片形式、確切發行收錄或正版平台入口後，只補尚缺欄位。MV／creditless不自動證full／TV或新錄音，影片與商品差異不另造歌曲。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":2,"titleJa":"誰も彼も何処も何も知らない","artistDisplayName":"ASOBI同盟","id":"tengoku-daimakyou-ed-2","songId":"tengoku-daimakyou-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://tdm-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/tengoku_daimakyou","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://lnk.to/ASOBIDOUMEI_DAREKARE_08","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://tdm-anime.com/bluraycd/detail.php?id=1019716","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://tdm-anime.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E5%A4%A9%E5%9C%8B%E5%A4%A7%E9%AD%94%E5%A2%83","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://tdm-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-spring"],"credits":[{"name":"りみー","role":"lyrics"},{"name":"とくみくす","role":"composition"},{"name":"ASOBI同盟","role":"arrangement"},{"name":"ASOBI同盟","role":"vocals"}],"titleRomaji":"Dare mo Kare mo Doko mo Nani mo Shiranai (#08 Special Arrange)","versionLabel":"#08 Special Arrange","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://lnk.to/ASOBIDOUMEI_DAREKARE_08","https://tdm-anime.com/bluraycd/detail.php?id=1019716"],"verifiedAt":"2026-10-22","targetId":"tengoku-daimakyou-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://lnk.to/ASOBIDOUMEI_DAREKARE_08"],"verifiedAt":"2026-10-22","targetId":"tengoku-daimakyou-ed-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/tengoku_daimakyou"],"verifiedAt":"2026-09-01","targetId":"tengoku-daimakyou-ed-1-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%A4%A9%E5%9C%8B%E5%A4%A7%E9%AD%94%E5%A2%83"],"verifiedAt":"2026-10-22","targetId":"tengoku-daimakyou-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%A4%A9%E5%9C%8B%E5%A4%A7%E9%AD%94%E5%A2%83"],"verifiedAt":"2026-10-22","targetId":"tengoku-daimakyou-ed-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tdm-anime.com/bluraycd/detail.php?id=1019716"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈誰も彼も何処も何も知らない〉：官網原ED商品頁直接連往正式#08 Special Arrange配信頁；該受控smartlink頁題直接明TVアニメ天国大魔境エンディングテーマ及同版／ASOBI同盟，中文曲表明第8話編曲ASOBI同盟且5/20播出。以正式ED標示證用途，非僅CD曲表推；共歌保用途ID與版名，各用途編曲不互抄。","resumeWhen":"詳細階段沿用已核本期來源；取得逐曲第一方作者、錄音標示、官方影片形式、確切發行收錄或正版平台入口後，只補尚缺欄位。MV／creditless不自動證full／TV或新錄音，影片與商品差異不另造歌曲。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"}],"verifiedAt":"2026-09-01","metadataVerifiedAt":"2026-09-01","metadataSources":[{"url":"https://tdm-anime.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://tdm-anime.com/music/","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://tdm-anime.com/bluraycd/detail.php?id=1019716","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://lnk.to/ASOBIDOUMEI_DAREKARE_08","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"broadcastTimeJst":"22:00"},
   {"anilistId":162312,"id":"curated-162312","slug":"chibi-godzilla-no-gyakushuu","seasonIds":["2023-spring"],"startDate":"2023-04-01","titleJa":"ちびゴジラの逆襲","titleZhHant":"小哥斯拉的逆襲","titleRomaji":"Chibi Godzilla no Gyakushuu","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx162312-GmYOJqJ8Lczk.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/162312-r7Ui0b8O2Q8z.jpg","editorialWeekday":6,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://godzilla.store/chibigodzilla/","anilistUrl":"https://anilist.co/anime/162312","imageSourceUrl":"https://anilist.co/anime/162312","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-spring?display=list_detailed","https://bgm.tv/subject/422505"],"themes":[],"verifiedAt":"2026-09-01"},
