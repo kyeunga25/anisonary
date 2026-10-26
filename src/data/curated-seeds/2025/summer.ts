@@ -71,9 +71,650 @@ export const curated2025SummerSeeds: CuratedAnimeSeed[] = [
   {"anilistId":157960,"id":"curated-157960","slug":"bullet-bullet","seasonIds":["2025-summer"],"startDate":"2025-07-16","titleJa":"BULLET/BULLET","titleZhHant":"BULLET/BULLET","titleRomaji":"BULLET/BULLET","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx157960-IrnEWE1pvoT3.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/157960-AtusNRDZFLFr.jpg","editorialWeekday":3,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://bullet-bullet.com/","anilistUrl":"https://anilist.co/anime/157960","imageSourceUrl":"https://anilist.co/anime/157960","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-summer?display=list_detailed","https://bgm.tv/subject/408467"],"animeThemesUrl":"https://animethemes.moe/anime/bullet_bullet","uzureaUrl":"https://uzurea.net/summer-2025-anime-themes-and-picks/","themes":[{"type":"OP","titleJa":"WORK HARD","artistDisplayName":"ちゃんみな","youtubeUrl":"https://www.youtube.com/watch?v=HCdLEiXoxwg","sequence":1},{"type":"OP","titleJa":"WORK HARD","artistDisplayName":"ちゃんみな","youtubeUrl":"https://www.youtube.com/watch?v=zCvfrOnhShU","sequence":2},{"type":"ED","titleJa":"Glass Door","artistDisplayName":"Newspeak","youtubeUrl":"https://www.youtube.com/watch?v=Z3-arFGHmU0","sequence":1}],"verifiedAt":"2026-07-28"},
   {"anilistId":166215,"id":"curated-166215","slug":"utagoe-wa-mille-feuille","seasonIds":["2025-summer"],"startDate":"2025-07-17","titleJa":"うたごえはミルフィーユ","titleZhHant":"歌聲是法式千層酥","titleRomaji":"Utagoe wa Mille-Feuille","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166215-3GkidWAYu5cr.png","editorialWeekday":4,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://utamille.com/","anilistUrl":"https://anilist.co/anime/166215","imageSourceUrl":"https://anilist.co/anime/166215","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-summer?display=list_detailed","https://bgm.tv/subject/441670"],"animeThemesUrl":"https://animethemes.moe/anime/utagoe_wa_millefeuille","uzureaUrl":"https://uzurea.net/summer-2025-anime-themes-and-picks/","themes":[{"type":"OP","sequence":1,"titleJa":"思い出話","titleRomaji":"Omoidebanashi","artistDisplayName":"手鞠沢高校アカペラ部","releaseDate":"2025-07-23","credits":[{"name":"手鞠沢高校アカペラ部","role":"vocals"},{"name":"Taiki Azegami (ARTribe)","role":"lyrics"},{"name":"N1K0 (ARTribe)","role":"lyrics"},{"name":"Taiki Azegami (ARTribe)","role":"composition"},{"name":"細井涼介","role":"arrangement"},{"name":"小牧嬉歌（CV.綾瀬未来）","role":"group_member","groupName":"手鞠沢高校アカペラ部"},{"name":"繭森結（CV.夏吉ゆうこ）","role":"group_member","groupName":"手鞠沢高校アカペラ部"},{"name":"古城愛莉（CV.須藤叶希）","role":"group_member","groupName":"手鞠沢高校アカペラ部"},{"name":"近衛玲音（CV.松岡美里）","role":"group_member","groupName":"手鞠沢高校アカペラ部"},{"name":"宮崎閏（CV.花井美春）","role":"group_member","groupName":"手鞠沢高校アカペラ部"},{"name":"熊井弥子（CV.相川遥花）","role":"group_member","groupName":"手鞠沢高校アカペラ部"}],"links":[{"platform":"YouTube","label":"官方公開影片","url":"https://www.youtube.com/watch?v=OuV9MwBVVzg","linkType":"direct_track","region":"GLOBAL"},{"platform":"Apple Music","label":"官方單曲音源","url":"https://music.apple.com/jp/song/1820353512","linkType":"direct_track","region":"JP"},{"platform":"官方配信","label":"官方配信／商品入口","url":"https://utamille.lnk.to/omoidebanashi","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"utagoe-wa-mille-feuille-op-1-song-digital"},{"platform":"Apple Music","label":"思い出話 Apple Music 確切項目","url":"https://music.apple.com/jp/album/1820353511","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"utagoe-wa-mille-feuille-op-1-song-digital"},{"platform":"Spotify","label":"思い出話 Spotify 確切項目","url":"https://open.spotify.com/album/2zxOnuR2uj5vl2VSDd8S6O","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"utagoe-wa-mille-feuille-op-1-song-digital"},{"platform":"YouTube Music","label":"思い出話 YouTube Music 確切項目","url":"https://music.youtube.com/playlist?list=OLAK5uy_kYv4r-N9VTOpoFOKUj3fTyTlsjO54Ewsk","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"utagoe-wa-mille-feuille-op-1-song-digital"},{"platform":"レコチョク","label":"思い出話 レコチョク 確切項目","url":"https://recochoku.jp/album/A1042527332","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"utagoe-wa-mille-feuille-op-1-song-digital"},{"platform":"mora","label":"思い出話 mora 確切項目","url":"https://mora.jp/package/43000004/PCSP-06600/","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"utagoe-wa-mille-feuille-op-1-song-digital"}],"sources":[{"label":"動畫官方網站：主題曲與製作名單","url":"https://utamille.com/music/post-7/","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"Pony Canyon 官方新聞：演唱組合、單曲發行日與完整製作名單","url":"https://news.ponycanyon.co.jp/2025/05/111101","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"歌ネット：曲名、發行日、作詞、作曲與編曲資料交叉核對","url":"https://www.uta-net.com/song/375907/","language":"ja","role":"cross_check","verifiedAt":"2026-08-10"},{"label":"YourAnimes：繁體中文作品名稱與主題曲交叉核對","url":"https://youranimes.tw/animes/4331/videos","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-08-10"},{"label":"中文維基百科繁體版：正式中文作品名稱、演唱組合與製作名單交叉核對","url":"https://zh.wikipedia.org/zh-hant/%E6%AD%8C%E8%81%B2%E6%98%AF%E6%B3%95%E5%BC%8F%E5%8D%83%E5%B1%A4%E9%85%A5","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-08-10"},{"label":"うたごえはミルフィーユ 官方影片","url":"https://www.youtube.com/watch?v=OuV9MwBVVzg","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"官方單曲音源","url":"https://music.apple.com/jp/song/1820353512","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"動畫官方網站","url":"https://utamille.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/utagoe_wa_millefeuille","language":"en","role":"cross_check","verifiedAt":"2026-08-10"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/summer-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-10"},{"url":"https://utamille.com/music/post-7","label":"官方：歌曲、演唱、動畫用途與已明示發行資料","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://utamille.lnk.to/omoidebanashi","label":"官方歌曲／商品／影片資料","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://utamille.com/movie/","label":"官方影片／確切平台項目來源","role":"first_party","language":"multi","verifiedAt":"2026-10-17"}],"songId":"utagoe-wa-mille-feuille-op-1-song","sourceMode":"explicit","seasonIds":["2025-summer"],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://utamille.com/music/post-7","https://youranimes.tw/animes/4331/videos"],"verifiedAt":"2026-08-10","targetId":"utagoe-wa-mille-feuille-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://utamille.com/music/post-7","https://youranimes.tw/animes/4331/videos"],"verifiedAt":"2026-08-10","targetId":"utagoe-wa-mille-feuille-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://utamille.com/music/post-7"],"verifiedAt":"2026-10-17"},{"target":"recording","fields":["title","format","kind","credits"],"sourceUrls":["https://utamille.com/music/post-7"],"verifiedAt":"2026-10-17","targetId":"utagoe-wa-mille-feuille-op-1-song-original"},{"target":"recording","fields":["title","format","kind"],"sourceUrls":["https://utamille.com/music/post-7"],"verifiedAt":"2026-10-17","targetId":"utagoe-wa-mille-feuille-op-1-song-no-lead-vocal"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://utamille.com/music/post-7"],"verifiedAt":"2026-10-17","targetId":"utamille-pccg-02451"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://utamille.com/music/post-7"],"verifiedAt":"2026-10-17","targetId":"utamille-pccg-70550"},{"target":"credits","fields":["credits"],"sourceUrls":["https://utamille.com/music/post-7"],"verifiedAt":"2026-10-17"},{"target":"release","fields":["title","type","artist","tracklist","date","edition"],"sourceUrls":["https://utamille.lnk.to/omoidebanashi"],"verifiedAt":"2026-10-17","targetId":"utagoe-wa-mille-feuille-op-1-song-digital"},{"target":"link","fields":["url"],"sourceUrls":["https://utamille.lnk.to/omoidebanashi"],"verifiedAt":"2026-10-17","targetId":"https://utamille.lnk.to/omoidebanashi"},{"target":"link","fields":["url"],"sourceUrls":["https://utamille.lnk.to/omoidebanashi"],"verifiedAt":"2026-10-17","targetId":"https://music.apple.com/jp/album/1820353511"},{"target":"link","fields":["url"],"sourceUrls":["https://utamille.lnk.to/omoidebanashi"],"verifiedAt":"2026-10-17","targetId":"https://open.spotify.com/album/2zxOnuR2uj5vl2VSDd8S6O"},{"target":"link","fields":["url"],"sourceUrls":["https://utamille.lnk.to/omoidebanashi"],"verifiedAt":"2026-10-17","targetId":"https://music.youtube.com/playlist?list=OLAK5uy_kYv4r-N9VTOpoFOKUj3fTyTlsjO54Ewsk"},{"target":"link","fields":["url"],"sourceUrls":["https://utamille.lnk.to/omoidebanashi"],"verifiedAt":"2026-10-17","targetId":"https://recochoku.jp/album/A1042527332"},{"target":"link","fields":["url"],"sourceUrls":["https://utamille.lnk.to/omoidebanashi"],"verifiedAt":"2026-10-17","targetId":"https://mora.jp/package/43000004/PCSP-06600/"},{"target":"link","fields":["url"],"sourceUrls":["https://utamille.com/movie/"],"verifiedAt":"2026-10-17","targetId":"https://www.youtube.com/watch?v=OuV9MwBVVzg"}],"recordings":[{"id":"utagoe-wa-mille-feuille-op-1-song-original","title":"思い出話","format":"unknown","kind":"vocal","credits":[{"name":"手鞠沢高校アカペラ部","role":"vocals"}]},{"id":"utagoe-wa-mille-feuille-op-1-song-no-lead-vocal","title":"思い出話（No Lead Vocal）","format":"unknown","kind":"vocal"}],"releases":[{"id":"utamille-pccg-02451","title":"思い出話","type":"single","artistDisplayName":"手鞠沢高校アカペラ部","tracks":[{"title":"思い出話","position":1,"recordingId":"utagoe-wa-mille-feuille-op-1-song-original"},{"title":"思い出話（No Lead Vocal）","position":5,"recordingId":"utagoe-wa-mille-feuille-op-1-song-no-lead-vocal"}],"date":{"value":"2025-07-23","precision":"day"},"catalogNumber":"PCCG-02451","edition":"初回限定盤"},{"id":"utamille-pccg-70550","title":"思い出話","type":"single","artistDisplayName":"手鞠沢高校アカペラ部","tracks":[{"title":"思い出話","position":1,"recordingId":"utagoe-wa-mille-feuille-op-1-song-original"},{"title":"思い出話（No Lead Vocal）","position":2,"recordingId":"utagoe-wa-mille-feuille-op-1-song-no-lead-vocal"}],"date":{"value":"2025-07-23","precision":"day"},"catalogNumber":"PCCG-70550","edition":"通常盤"},{"id":"utagoe-wa-mille-feuille-op-1-song-digital","title":"思い出話","type":"single","artistDisplayName":"手鞠沢高校アカペラ部","tracks":[{"title":"思い出話"}],"date":{"value":"2025-07-23","precision":"day"},"edition":"Digital"}]}],"verifiedAt":"2026-07-28","metadataVerifiedAt":"2026-08-10"},
   {"anilistId":178754,"id":"curated-178754","slug":"kaijuu-8-gou-2nd-season","seasonIds":["2025-summer"],"startDate":"2025-07-19","titleJa":"怪獣８号 第２期","titleZhHant":"怪獸8號 （第2期）","titleRomaji":"Kaijuu 8-gou 2nd Season","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178754-Dgrub8xgC03M.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/178754-pzQw3EJ0DYO9.jpg","editorialWeekday":6,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://kaiju-no8.net/","anilistUrl":"https://anilist.co/anime/178754","imageSourceUrl":"https://anilist.co/anime/178754","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-summer?display=list_detailed","https://bgm.tv/subject/501844"],"animeThemesUrl":"https://animethemes.moe/anime/kaijuu_8_gou_2nd_season","uzureaUrl":"https://uzurea.net/summer-2025-anime-themes-and-picks/","themes":[{"type":"OP","sequence":1,"titleJa":"You Can’t Run From Yourself","artistDisplayName":"AURORA","releaseDate":"2025-07-18","credits":[{"name":"AURORA","role":"vocals"},{"name":"AURORA","role":"songwriting"},{"name":"Fredrik Svabø","role":"songwriting"}],"links":[{"platform":"YouTube","label":"官方公開影片","url":"https://www.youtube.com/watch?v=rH8FCwzOdpI","linkType":"direct_track","region":"GLOBAL"},{"platform":"Universal Music Japan","label":"官方發行頁","url":"https://umj.lnk.to/AURORA_YCRFY","linkType":"official_landing_page","region":"GLOBAL"},{"platform":"Apple Music","label":"Apple Music 台灣","url":"https://music.apple.com/tw/song/1823156201","linkType":"direct_track","region":"TW"},{"platform":"Apple Music","label":"You Can’t Run From Yourself Apple Music 確切項目","url":"https://music.apple.com/jp/album/1823156200","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"kaijuu-8-gou-2nd-season-op-1-song-digital"},{"platform":"Spotify","label":"You Can’t Run From Yourself Spotify 確切項目","url":"https://open.spotify.com/intl-ja/track/67u7sw6ZJR8yOyX3dwoeBV","linkType":"direct_track","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"kaijuu-8-gou-2nd-season-op-1-song-digital"},{"platform":"YouTube Music","label":"You Can’t Run From Yourself YouTube Music 確切項目","url":"https://music.youtube.com/playlist?list=OLAK5uy_nNS_zTL24Q_-MRZ18Ben0yKTTwN-8jC8A","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"kaijuu-8-gou-2nd-season-op-1-song-digital"}],"sources":[{"label":"動畫官方網站：第 2 期 Music","url":"https://kaiju-no8.net/music/season2.html","language":"ja","role":"first_party","verifiedAt":"2026-10-17"},{"label":"Universal Music Japan：AURORA 數位單曲作品頁","url":"https://www.universal-music.co.jp/aurora/products/00602478611926/","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"Universal Music Japan：AURORA 發行新聞","url":"https://www.universal-music.co.jp/aurora/news/2025-07-18/","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"Apple Music 台灣","url":"https://music.apple.com/tw/song/1823156201","language":"zh-Hant","role":"first_party","verifiedAt":"2026-08-11"},{"label":"巴哈姆特 GNN：繁體中文片頭曲交叉核對","url":"https://gnn.gamer.com.tw/detail.php?sn=287463","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-08-11"},{"label":"TOHO animation チャンネル 官方影片","url":"https://www.youtube.com/watch?v=rH8FCwzOdpI","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"AURORA 官方影片","url":"https://www.youtube.com/watch?v=cgM1K48shdI","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"官方發行頁","url":"https://umj.lnk.to/AURORA_YCRFY","language":"ja","role":"first_party","verifiedAt":"2026-10-17"},{"label":"動畫官方網站","url":"https://kaiju-no8.net/","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/kaijuu_8_gou_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-08-11"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/summer-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-11"},{"url":"https://kaiju-no8.net/news/detail_250726_01.html","label":"官方影片／確切平台項目來源","role":"first_party","language":"multi","verifiedAt":"2026-10-17"}],"songId":"kaijuu-8-gou-2nd-season-op-1-song","sourceMode":"explicit","seasonIds":["2025-summer"],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://kaiju-no8.net/music/season2.html","https://animethemes.moe/anime/kaijuu_8_gou_2nd_season"],"verifiedAt":"2026-08-11","targetId":"kaijuu-8-gou-2nd-season-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://kaiju-no8.net/music/season2.html","https://animethemes.moe/anime/kaijuu_8_gou_2nd_season"],"verifiedAt":"2026-08-11","targetId":"kaijuu-8-gou-2nd-season-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://kaiju-no8.net/music/season2.html"],"verifiedAt":"2026-10-17"},{"target":"recording","fields":["title","format","kind","credits"],"sourceUrls":["https://kaiju-no8.net/music/season2.html"],"verifiedAt":"2026-10-17","targetId":"kaijuu-8-gou-2nd-season-op-1-song-original"},{"target":"release","fields":["title","type","artist","tracklist","date","edition"],"sourceUrls":["https://umj.lnk.to/AURORA_YCRFY"],"verifiedAt":"2026-10-17","targetId":"kaijuu-8-gou-2nd-season-op-1-song-digital"},{"target":"link","fields":["url"],"sourceUrls":["https://umj.lnk.to/AURORA_YCRFY"],"verifiedAt":"2026-10-17","targetId":"https://umj.lnk.to/AURORA_YCRFY"},{"target":"link","fields":["url"],"sourceUrls":["https://umj.lnk.to/AURORA_YCRFY"],"verifiedAt":"2026-10-17","targetId":"https://music.apple.com/jp/album/1823156200"},{"target":"link","fields":["url"],"sourceUrls":["https://umj.lnk.to/AURORA_YCRFY"],"verifiedAt":"2026-10-17","targetId":"https://music.apple.com/jp/album/1823156200"},{"target":"link","fields":["url"],"sourceUrls":["https://umj.lnk.to/AURORA_YCRFY"],"verifiedAt":"2026-10-17","targetId":"https://open.spotify.com/intl-ja/track/67u7sw6ZJR8yOyX3dwoeBV"},{"target":"link","fields":["url"],"sourceUrls":["https://umj.lnk.to/AURORA_YCRFY"],"verifiedAt":"2026-10-17","targetId":"https://music.youtube.com/playlist?list=OLAK5uy_nNS_zTL24Q_-MRZ18Ben0yKTTwN-8jC8A"},{"target":"link","fields":["url"],"sourceUrls":["https://kaiju-no8.net/news/detail_250726_01.html"],"verifiedAt":"2026-10-17","targetId":"https://www.youtube.com/watch?v=rH8FCwzOdpI"}],"recordings":[{"id":"kaijuu-8-gou-2nd-season-op-1-song-original","title":"You Can’t Run From Yourself","format":"unknown","kind":"vocal","credits":[{"name":"AURORA","role":"vocals"}]}],"releases":[{"id":"kaijuu-8-gou-2nd-season-op-1-song-digital","title":"You Can’t Run From Yourself (from 怪獣８号)","type":"single","artistDisplayName":"AURORA","tracks":[{"title":"You Can’t Run From Yourself"}],"date":{"value":"2025-07-18","precision":"day"},"edition":"Digital"}]},{"type":"ED","sequence":1,"titleJa":"Beautiful Colors","artistDisplayName":"OneRepublic","releaseDate":"2025-07-25","credits":[{"name":"OneRepublic","role":"vocals"},{"name":"Ryan Tedder","role":"songwriting"},{"name":"Brent Kutzle","role":"songwriting"},{"name":"Josh Varnadore","role":"songwriting"},{"name":"Jeff Owen","role":"songwriting"},{"name":"Tyler Spry","role":"songwriting"}],"links":[{"platform":"YouTube","label":"官方公開影片","url":"https://www.youtube.com/watch?v=R5AHlP2cny0","linkType":"direct_track","region":"GLOBAL"},{"platform":"Universal Music Japan","label":"官方發行頁","url":"https://umj.lnk.to/1R_BC","linkType":"official_landing_page","region":"GLOBAL"},{"platform":"Apple Music","label":"Apple Music 台灣","url":"https://music.apple.com/tw/song/1826134951","linkType":"direct_track","region":"TW"},{"platform":"Apple Music","label":"Beautiful Colors Apple Music 確切項目","url":"https://music.apple.com/jp/album/1826645212","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"kaijuu-8-gou-2nd-season-ed-1-song-digital"},{"platform":"Spotify","label":"Beautiful Colors Spotify 確切項目","url":"https://open.spotify.com/intl-ja/album/2jljUUaSxmuX3aoDQNak4e","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"kaijuu-8-gou-2nd-season-ed-1-song-digital"},{"platform":"YouTube Music","label":"Beautiful Colors YouTube Music 確切項目","url":"https://music.youtube.com/playlist?list=OLAK5uy_lWFDHMXpyNs0mMlNeO41F8JAP3OlTLUrc","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"kaijuu-8-gou-2nd-season-ed-1-song-digital"}],"sources":[{"label":"動畫官方網站：第 2 期 Music","url":"https://kaiju-no8.net/music/season2.html","language":"ja","role":"first_party","verifiedAt":"2026-10-17"},{"label":"Universal Music Japan：OneRepublic 數位單曲作品頁","url":"https://www.universal-music.co.jp/onerepublic/products/ui1as-00664/","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"Universal Music Japan：OneRepublic 發行新聞","url":"https://www.universal-music.co.jp/onerepublic/news/2025-07-25/","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"Apple Music 台灣","url":"https://music.apple.com/tw/song/1826134951","language":"zh-Hant","role":"first_party","verifiedAt":"2026-08-11"},{"label":"COOL-STYLE：繁體中文片尾曲與發行日交叉核對","url":"https://www.cool-style.com.tw/wd2/archives/1215036-%E3%80%8A%E6%80%AA%E7%8D%B8-8-%E8%99%9F%E3%80%8B%E7%AC%AC%E4%BA%8C%E5%AD%A3-ed%E3%80%88beautiful-colors%E3%80%89%E5%85%AC%E9%96%8B%EF%BC%81%E6%90%96%E6%BB%BE%E5%A4%A9%E5%9C%98-onerepublic-%E7%8D%BB/","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-08-11"},{"label":"TOHO animation チャンネル 官方影片","url":"https://www.youtube.com/watch?v=R5AHlP2cny0","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"OneRepublic 官方影片","url":"https://www.youtube.com/watch?v=_EmKiQknNHY","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"官方發行頁","url":"https://umj.lnk.to/1R_BC","language":"ja","role":"first_party","verifiedAt":"2026-10-17"},{"label":"動畫官方網站","url":"https://kaiju-no8.net/","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/kaijuu_8_gou_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-08-11"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/summer-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-11"},{"url":"https://kaiju-no8.net/news/detail_250726_01.html","label":"官方影片／確切平台項目來源","role":"first_party","language":"multi","verifiedAt":"2026-10-17"}],"songId":"kaijuu-8-gou-2nd-season-ed-1-song","sourceMode":"explicit","seasonIds":["2025-summer"],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://kaiju-no8.net/music/season2.html","https://animethemes.moe/anime/kaijuu_8_gou_2nd_season"],"verifiedAt":"2026-08-11","targetId":"kaijuu-8-gou-2nd-season-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://kaiju-no8.net/music/season2.html","https://animethemes.moe/anime/kaijuu_8_gou_2nd_season"],"verifiedAt":"2026-08-11","targetId":"kaijuu-8-gou-2nd-season-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://kaiju-no8.net/music/season2.html"],"verifiedAt":"2026-10-17"},{"target":"recording","fields":["title","format","kind","credits"],"sourceUrls":["https://kaiju-no8.net/music/season2.html"],"verifiedAt":"2026-10-17","targetId":"kaijuu-8-gou-2nd-season-ed-1-song-original"},{"target":"release","fields":["title","type","artist","tracklist","date","edition"],"sourceUrls":["https://umj.lnk.to/1R_BC"],"verifiedAt":"2026-10-17","targetId":"kaijuu-8-gou-2nd-season-ed-1-song-digital"},{"target":"link","fields":["url"],"sourceUrls":["https://umj.lnk.to/1R_BC"],"verifiedAt":"2026-10-17","targetId":"https://umj.lnk.to/1R_BC"},{"target":"link","fields":["url"],"sourceUrls":["https://umj.lnk.to/1R_BC"],"verifiedAt":"2026-10-17","targetId":"https://music.apple.com/jp/album/1826645212"},{"target":"link","fields":["url"],"sourceUrls":["https://umj.lnk.to/1R_BC"],"verifiedAt":"2026-10-17","targetId":"https://music.apple.com/jp/album/1826645212"},{"target":"link","fields":["url"],"sourceUrls":["https://umj.lnk.to/1R_BC"],"verifiedAt":"2026-10-17","targetId":"https://open.spotify.com/intl-ja/album/2jljUUaSxmuX3aoDQNak4e"},{"target":"link","fields":["url"],"sourceUrls":["https://umj.lnk.to/1R_BC"],"verifiedAt":"2026-10-17","targetId":"https://music.youtube.com/playlist?list=OLAK5uy_lWFDHMXpyNs0mMlNeO41F8JAP3OlTLUrc"},{"target":"link","fields":["url"],"sourceUrls":["https://kaiju-no8.net/news/detail_250726_01.html"],"verifiedAt":"2026-10-17","targetId":"https://www.youtube.com/watch?v=R5AHlP2cny0"}],"recordings":[{"id":"kaijuu-8-gou-2nd-season-ed-1-song-original","title":"Beautiful Colors","format":"unknown","kind":"vocal","credits":[{"name":"OneRepublic","role":"vocals"}]}],"releases":[{"id":"kaijuu-8-gou-2nd-season-ed-1-song-digital","title":"Beautiful Colors (from Kaiju No. 8)","type":"single","artistDisplayName":"OneRepublic","tracks":[{"title":"Beautiful Colors"}],"date":{"value":"2025-07-25","precision":"day"},"edition":"Digital"}]}],"verifiedAt":"2026-07-28","metadataVerifiedAt":"2026-08-11"},
-  {"anilistId":183127,"id":"curated-183127","slug":"karaoke-iko","seasonIds":["2025-summer"],"startDate":"2025-07-24","titleJa":"カラオケ行こ！","titleZhHant":"去唱卡拉OK吧！","titleRomaji":"Karaoke Iko!","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx183127-NuhBFFae2NYe.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/183127-zk2PgOnqzcAv.jpg","editorialWeekday":4,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://karaoke-muchusa.com/","anilistUrl":"https://anilist.co/anime/183127","imageSourceUrl":"https://anilist.co/anime/183127","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-summer?display=list_detailed","https://bgm.tv/subject/519956"],"animeThemesUrl":"https://animethemes.moe/anime/karaoke_iko","uzureaUrl":"https://uzurea.net/summer-2025-anime-themes-and-picks/","themes":[{"type":"OP","sequence":1,"titleJa":"HOWL","artistDisplayName":"Ayumu Imazu"}],"verifiedAt":"2026-07-28"},
+  {
+  "anilistId": 183127,
+  "id": "curated-183127",
+  "slug": "karaoke-iko",
+  "seasonIds": [
+    "2025-summer"
+  ],
+  "startDate": "2025-07-24",
+  "titleJa": "カラオケ行こ！",
+  "titleZhHant": "去唱卡拉OK吧！",
+  "titleRomaji": "Karaoke Iko!",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx183127-NuhBFFae2NYe.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/183127-zk2PgOnqzcAv.jpg",
+  "editorialWeekday": 4,
+  "broadcastLabel": "AT-X原期每週四電視首播；各平台配信分開",
+  "status": "finished",
+  "officialSiteUrl": "https://karaoke-muchusa.com/",
+  "anilistUrl": "https://anilist.co/anime/183127",
+  "imageSourceUrl": "https://anilist.co/anime/183127",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://annict.com/works/2025-summer?display=list_detailed",
+    "https://bgm.tv/subject/519956"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/karaoke_iko",
+  "uzureaUrl": "https://uzurea.net/summer-2025-anime-themes-and-picks/",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "HOWL",
+      "artistDisplayName": "Ayumu Imazu",
+      "id": "karaoke-iko-op-1",
+      "songId": "karaoke-iko-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2025-summer"
+      ],
+      "sources": [
+        {
+          "url": "https://karaoke-muchusa.com/karaoke/music.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "label": "Warner Music Japan 官方唱片頁：發行日與正式 MV",
+          "url": "https://wmg.jp/ayumu-imazu/discography/31724/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-08-10"
+        },
+        {
+          "label": "Warner Music Japan 官方新聞：數位發行日與動畫搭配資料",
+          "url": "https://wmg.jp/ayumu-imazu/news/90155/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-08-10"
+        },
+        {
+          "label": "巴哈姆特動畫瘋：繁體中文正式作品名稱與授權播映資料",
+          "url": "https://ani.gamer.com.tw/seasonal.php?c=2025_S3",
+          "language": "zh-Hant",
+          "role": "cross_check",
+          "verifiedAt": "2026-08-10"
+        },
+        {
+          "label": "歌ネット：作詞、作曲與編曲名單交叉核對",
+          "url": "https://www.uta-net.com/song/377098/",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-08-10"
+        },
+        {
+          "label": "Ayumu Imazu 官方影片",
+          "url": "https://www.youtube.com/watch?v=-bt4cX7dCT8",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-08-10"
+        },
+        {
+          "label": "KADOKAWA Anime Channel 官方影片",
+          "url": "https://www.youtube.com/watch?v=Jh9atzsn2MM",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-08-10"
+        },
+        {
+          "label": "官方發行頁",
+          "url": "https://ayumu.lnk.to/HOWL",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-08-10"
+        },
+        {
+          "url": "https://karaoke-muchusa.com/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/karaoke_iko",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-08-10"
+        },
+        {
+          "label": "UZUREA 主題曲清單",
+          "url": "https://uzurea.net/summer-2025-anime-themes-and-picks/",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-08-10"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%8E%BB%E5%94%B1%E5%8D%A1%E6%8B%89OK%E5%90%A7%EF%BC%81",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Ayumu Imazu",
+          "role": "vocals"
+        },
+        {
+          "name": "Ayumu Imazu",
+          "role": "lyrics"
+        },
+        {
+          "name": "Ayumu Imazu",
+          "role": "composition"
+        },
+        {
+          "name": "D&H (PURPLE NIGHT)",
+          "role": "composition"
+        },
+        {
+          "name": "Ayumu Imazu",
+          "role": "arrangement"
+        },
+        {
+          "name": "D&H (PURPLE NIGHT)",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://karaoke-muchusa.com/karaoke/music.html"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "karaoke-iko-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://karaoke-muchusa.com/karaoke/music.html"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "karaoke-iko-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%8E%BB%E5%94%B1%E5%8D%A1%E6%8B%89OK%E5%90%A7%EF%BC%81"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "karaoke-iko-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%8E%BB%E5%94%B1%E5%8D%A1%E6%8B%89OK%E5%90%A7%EF%BC%81"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "karaoke-iko-op-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原期動畫官網與中文交叉已核原曲名、演唱名義及夏季TV用途；既有創作署名與官方影音保留，沒有以團員或profile補逐曲創作。",
+          "resumeWhen": "待正式音源、發行品及平台對應有可直接核實資料時補齊；既有影片與未重查來源日期保留。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    }
+  ],
+  "verifiedAt": "2026-07-28",
+  "metadataVerifiedAt": "2026-07-28",
+  "metadataSources": [
+    {
+      "url": "https://karaoke-muchusa.com/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-26"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E5%8E%BB%E5%94%B1%E5%8D%A1%E6%8B%89OK%E5%90%A7%EF%BC%81",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-26"
+    }
+  ],
+  "broadcastTimeJst": "21:30"
+},
   {"anilistId":186043,"id":"curated-186043","slug":"my-melody-and-kuromi","seasonIds":["2025-summer"],"startDate":"2025-07-24","titleJa":"My Melody & Kuromi","titleZhHant":"My Melody & Kuromi","titleRomaji":"My Melody & Kuromi","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186043-nXyStyc58cFd.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/186043-o2JJIMlMuRIe.jpg","editorialWeekday":4,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://www.sanrio.co.jp/specialsite/mymelody50kuromi20/","anilistUrl":"https://anilist.co/anime/186043","imageSourceUrl":"https://anilist.co/anime/186043","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-summer?display=list_detailed","https://bgm.tv/subject/532378"],"animeThemesUrl":"https://animethemes.moe/anime/my_melody_kuromi","uzureaUrl":"https://uzurea.net/summer-2025-anime-themes-and-picks/","themes":[{"type":"ED","sequence":1,"titleJa":"Kawaii","artistDisplayName":"LE SSERAFIM"}],"verifiedAt":"2026-07-28"},
-  {"anilistId":183128,"id":"curated-183128","slug":"muchuu-sa-kimi-ni","seasonIds":["2025-summer"],"startDate":"2025-08-21","titleJa":"夢中さ、きみに。","titleZhHant":"為你著迷","titleRomaji":"Muchuu sa, Kimi ni.","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx183128-nMFf0c6IOs9g.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/183128-0yykYxTb36XW.jpg","editorialWeekday":4,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://karaoke-muchusa.com/muchusa/","anilistUrl":"https://anilist.co/anime/183128","imageSourceUrl":"https://anilist.co/anime/183128","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-summer?display=list_detailed"],"animeThemesUrl":"https://animethemes.moe/anime/muchuu_sa_kimi_ni","uzureaUrl":"https://uzurea.net/summer-2025-anime-themes-and-picks/","themes":[{"type":"OP","titleJa":"ラブル","artistDisplayName":"須田景凪","youtubeUrl":"https://www.youtube.com/watch?v=6SohipajDTE","sequence":1},{"type":"ED","titleJa":"微炭酸アドレセンス","artistDisplayName":"山下大輝 × 畠中祐","youtubeUrl":"https://www.youtube.com/watch?v=X3JEsa-jwX0","sequence":1}],"verifiedAt":"2026-07-28"},
+  {
+  "anilistId": 183128,
+  "id": "curated-183128",
+  "slug": "muchuu-sa-kimi-ni",
+  "seasonIds": [
+    "2025-summer"
+  ],
+  "startDate": "2025-08-21",
+  "titleJa": "夢中さ、きみに。",
+  "titleZhHant": "為你著迷",
+  "titleRomaji": "Muchuu sa, Kimi ni.",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx183128-nMFf0c6IOs9g.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/183128-0yykYxTb36XW.jpg",
+  "editorialWeekday": 4,
+  "broadcastLabel": "AT-X原期每週四電視首播；各平台配信分開",
+  "status": "finished",
+  "officialSiteUrl": "https://karaoke-muchusa.com/muchusa/",
+  "anilistUrl": "https://anilist.co/anime/183128",
+  "imageSourceUrl": "https://anilist.co/anime/183128",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://annict.com/works/2025-summer?display=list_detailed"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/muchuu_sa_kimi_ni",
+  "uzureaUrl": "https://uzurea.net/summer-2025-anime-themes-and-picks/",
+  "themes": [
+    {
+      "type": "OP",
+      "titleJa": "ラブル",
+      "artistDisplayName": "須田景凪",
+      "youtubeUrl": "https://www.youtube.com/watch?v=6SohipajDTE",
+      "sequence": 1,
+      "id": "muchuu-sa-kimi-ni-op-1",
+      "songId": "muchuu-sa-kimi-ni-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2025-summer"
+      ],
+      "sources": [
+        {
+          "url": "https://karaoke-muchusa.com/muchusa/music.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "label": "A-Sketch 官方唱片頁：發行日與完整製作名單",
+          "url": "https://www.a-sketch.com/discography/%E3%83%A9%E3%83%96%E3%83%AB/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-08-10"
+        },
+        {
+          "label": "巴哈姆特動畫瘋：繁體中文正式作品名稱與授權播映資料",
+          "url": "https://ani.gamer.com.tw/animeVideo.php?sn=45336",
+          "language": "zh-Hant",
+          "role": "cross_check",
+          "verifiedAt": "2026-08-10"
+        },
+        {
+          "label": "中文維基百科繁體版：片頭曲與製作名單交叉核對",
+          "url": "https://zh.wikipedia.org/zh-hant/%E7%82%BA%E4%BD%A0%E8%91%97%E8%BF%B7",
+          "language": "zh-Hant",
+          "role": "cross_check",
+          "verifiedAt": "2026-08-10"
+        },
+        {
+          "label": "KADOKAWAanime 官方影片",
+          "url": "https://www.youtube.com/watch?v=6SohipajDTE",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-08-10"
+        },
+        {
+          "label": "須田景凪 バルーン 官方影片",
+          "url": "https://www.youtube.com/watch?v=O2W9VK0KIZc",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-08-10"
+        },
+        {
+          "label": "官方發行頁",
+          "url": "https://keinasuda.lnk.to/rubble",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-08-10"
+        },
+        {
+          "url": "https://karaoke-muchusa.com/muchusa/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/muchuu_sa_kimi_ni",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-08-10"
+        },
+        {
+          "label": "UZUREA 主題曲清單",
+          "url": "https://uzurea.net/summer-2025-anime-themes-and-picks/",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-08-10"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E7%82%BA%E4%BD%A0%E8%91%97%E8%BF%B7",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "須田景凪",
+          "role": "vocals"
+        },
+        {
+          "name": "須田景凪",
+          "role": "lyrics"
+        },
+        {
+          "name": "須田景凪",
+          "role": "composition"
+        },
+        {
+          "name": "須田景凪",
+          "role": "arrangement"
+        },
+        {
+          "name": "赤山コウ",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://karaoke-muchusa.com/muchusa/music.html"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "muchuu-sa-kimi-ni-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://karaoke-muchusa.com/muchusa/music.html"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "muchuu-sa-kimi-ni-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%82%BA%E4%BD%A0%E8%91%97%E8%BF%B7"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "muchuu-sa-kimi-ni-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%82%BA%E4%BD%A0%E8%91%97%E8%BF%B7"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "muchuu-sa-kimi-ni-op-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原期動畫官網與中文交叉已核原曲名、演唱名義及夏季TV用途；既有創作署名與官方影音保留，沒有以團員或profile補逐曲創作。",
+          "resumeWhen": "待正式音源、發行品及平台對應有可直接核實資料時補齊；既有影片與未重查來源日期保留。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "type": "ED",
+      "titleJa": "微炭酸アドレセンス",
+      "artistDisplayName": "山下大輝 × 畠中祐",
+      "youtubeUrl": "https://www.youtube.com/watch?v=X3JEsa-jwX0",
+      "sequence": 1,
+      "id": "muchuu-sa-kimi-ni-ed-1",
+      "songId": "muchuu-sa-kimi-ni-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2025-summer"
+      ],
+      "sources": [
+        {
+          "url": "https://karaoke-muchusa.com/muchusa/music.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "label": "山下大輝官方唱片頁：動畫搭配、發行日與完整製作名單",
+          "url": "https://yamashitadaiki.com/discography/1171/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-08-10"
+        },
+        {
+          "label": "A-Sketch 官方唱片頁：完整製作名單與發行入口",
+          "url": "https://www.a-sketch.com/discography/%E5%B1%B1%E4%B8%8B%E5%A4%A7%E8%BC%9D-x-%E7%95%A0%E4%B8%AD%E7%A5%90%E3%80%8C%E5%BE%AE%E7%82%AD%E9%85%B8%E3%82%A2%E3%83%89%E3%83%AC%E3%82%BB%E3%83%B3%E3%82%B9%E3%80%8D/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-08-10"
+        },
+        {
+          "label": "巴哈姆特動畫瘋：繁體中文正式作品名稱與授權播映資料",
+          "url": "https://ani.gamer.com.tw/animeVideo.php?sn=45336",
+          "language": "zh-Hant",
+          "role": "cross_check",
+          "verifiedAt": "2026-08-10"
+        },
+        {
+          "label": "中文維基百科繁體版：片尾曲與製作名單交叉核對",
+          "url": "https://zh.wikipedia.org/zh-hant/%E7%82%BA%E4%BD%A0%E8%91%97%E8%BF%B7",
+          "language": "zh-Hant",
+          "role": "cross_check",
+          "verifiedAt": "2026-08-10"
+        },
+        {
+          "label": "KADOKAWAanime 官方影片",
+          "url": "https://www.youtube.com/watch?v=X3JEsa-jwX0",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-08-10"
+        },
+        {
+          "label": "山下大輝 / Daiki Yamashita Official YouTube Channel 官方影片",
+          "url": "https://www.youtube.com/watch?v=yh3DiDOPwqo",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-08-10"
+        },
+        {
+          "label": "官方發行頁",
+          "url": "https://a-sketch-inc.lnk.to/Daiki_Yamashita_x_Tasuku_Hatanaka_bitansan_adolescence",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-08-10"
+        },
+        {
+          "url": "https://karaoke-muchusa.com/muchusa/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/muchuu_sa_kimi_ni",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-08-10"
+        },
+        {
+          "label": "UZUREA 主題曲清單",
+          "url": "https://uzurea.net/summer-2025-anime-themes-and-picks/",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-08-10"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E7%82%BA%E4%BD%A0%E8%91%97%E8%BF%B7",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "山下大輝",
+          "role": "vocals"
+        },
+        {
+          "name": "畠中祐",
+          "role": "vocals"
+        },
+        {
+          "name": "OHTORA",
+          "role": "lyrics"
+        },
+        {
+          "name": "OHTORA",
+          "role": "composition"
+        },
+        {
+          "name": "maeshima soshi",
+          "role": "composition"
+        },
+        {
+          "name": "maeshima soshi",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://karaoke-muchusa.com/muchusa/music.html"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "muchuu-sa-kimi-ni-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://karaoke-muchusa.com/muchusa/music.html"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "muchuu-sa-kimi-ni-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%82%BA%E4%BD%A0%E8%91%97%E8%BF%B7"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "muchuu-sa-kimi-ni-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%82%BA%E4%BD%A0%E8%91%97%E8%BF%B7"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "muchuu-sa-kimi-ni-ed-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "原期動畫官網與中文交叉已核原曲名、演唱名義及夏季TV用途；既有創作署名與官方影音保留，沒有以團員或profile補逐曲創作。",
+          "resumeWhen": "待正式音源、發行品及平台對應有可直接核實資料時補齊；既有影片與未重查來源日期保留。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    }
+  ],
+  "verifiedAt": "2026-07-28",
+  "metadataVerifiedAt": "2026-07-28",
+  "metadataSources": [
+    {
+      "url": "https://karaoke-muchusa.com/muchusa/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-26"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E7%82%BA%E4%BD%A0%E8%91%97%E8%BF%B7",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-26"
+    }
+  ],
+  "broadcastTimeJst": "21:30"
+},
   {"anilistId":175035,"id":"curated-175035","slug":"poke-mon-concierge-part-2","seasonIds":["2025-summer"],"startDate":"2025-09-04","titleJa":"ポケモンコンシェルジュ 2クール","titleZhHant":"寶可夢 禮賓部 新篇章","titleRomaji":"Pokémon Concierge Part 2","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b175035-Ad5j9yg7MkLM.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/175035-amFDJG9H5dwc.jpg","editorialWeekday":4,"broadcastLabel":"日本首播／時間未整理","status":"finished","anilistUrl":"https://anilist.co/anime/175035","imageSourceUrl":"https://anilist.co/anime/175035","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-summer?display=list_detailed","https://about.netflix.com/ja/news/pokemon-concierge-new-episodes-premieres-september-4"],"uzureaUrl":"https://uzurea.net/summer-2025-anime-themes-and-picks/","themes":[{"type":"ED","sequence":1,"titleJa":"オノマトペ ISLAND","artistDisplayName":"山下達郎"}],"verifiedAt":"2026-07-28","officialSiteUrl":"https://www.netflix.com/pokemonconcierge"},
   {"anilistId":198408,"id":"curated-198408","slug":"chikyuu-no-latair","seasonIds":["2025-summer"],"startDate":"2025-09-05","titleJa":"地球のラテール","titleZhHant":"地球拉泰爾","titleRomaji":"Chikyuu no Latair","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198408-LAwH4Bbk3xkp.png","editorialWeekday":5,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://latair.jp/","anilistUrl":"https://anilist.co/anime/198408","imageSourceUrl":"https://anilist.co/anime/198408","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-summer?display=list_detailed","https://latair.jp/"],"uzureaUrl":"https://uzurea.net/summer-2025-anime-themes-and-picks/","themes":[{"type":"ED","sequence":1,"titleJa":"地球のオーケストラ","artistDisplayName":"アースセイバーズ（カナデ CV.谷江玲音と子どもたち）＆ラテール（CV.田村ゆかり）"}],"verifiedAt":"2026-07-28"},
 {"anilistId":179541,"id":"curated-179541","slug":"shirobuta-kizoku-desu-ga-zense-no-kioku-ga-haeta-node-hiyoko-na-otouto-sodatemasu","seasonIds":["2025-summer"],"startDate":"2025-07-06","titleJa":"白豚貴族ですが前世の記憶が生えたので ひよこな弟育てます","titleZhHant":"白豚貴族ですが前世の記憶が生えたので ひよこな弟育てます","titleRomaji":"Shirobuta Kizoku desu ga Zense no Kioku ga Haeta node Hiyoko na Otouto Sodatemasu","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179541-lZwENMAHZS9Y.jpg","editorialWeekday":7,"broadcastLabel":"日本TV：2025-07-06日曜22:00・TOKYO MX；ABEMA先行配信は4月20日19:30に第1・2話から開始","status":"finished","officialSiteUrl":"https://shirohiyo.com/","anilistUrl":"https://anilist.co/anime/179541","imageSourceUrl":"https://anilist.co/anime/179541","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed"],"animeThemesUrl":"https://animethemes.moe/anime/shirobuta_kizoku_desu_ga_zense_no_kioku_ga_haeta_node_hiyoko_na_otouto_sodatemasu","uzureaUrl":"https://uzurea.net/spring-2025-anime-themes-and-picks/","themes":[{"type":"OP","sequence":1,"titleJa":"口直し","artistDisplayName":"和ぬか","youtubeUrl":"https://www.youtube.com/watch?v=4nBzqU0ruag","id":"shirobuta-kizoku-desu-ga-zense-no-kioku-ga-haeta-node-hiyoko-na-otouto-sodatemasu-op-1","songId":"shirobuta-kizoku-desu-ga-zense-no-kioku-ga-haeta-node-hiyoko-na-otouto-sodatemasu-op-1-song","sourceMode":"explicit","sources":[{"label":"日活アニメチャンネル 官方影片","url":"https://www.youtube.com/watch?v=4nBzqU0ruag","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://shirohiyo.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/shirobuta_kizoku_desu_ga_zense_no_kioku_ga_haeta_node_hiyoko_na_otouto_sodatemasu","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://shirohiyo.com/music.html","label":"官方：本期原名、演唱、歌曲用途與同頁明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://youranimes.tw/animes/5664","label":"中文作品索引：本期曲名、演唱及OP／ED","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"}],"links":[{"platform":"YouTube","label":"官方公開影片","url":"https://www.youtube.com/watch?v=4nBzqU0ruag","linkType":"direct_track","region":"GLOBAL"}],"credits":[{"name":"和ぬか","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://shirohiyo.com/music.html"],"verifiedAt":"2026-10-20","targetId":"shirobuta-kizoku-desu-ga-zense-no-kioku-ga-haeta-node-hiyoko-na-otouto-sodatemasu-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://shirohiyo.com/music.html"],"verifiedAt":"2026-10-20","targetId":"shirobuta-kizoku-desu-ga-zense-no-kioku-ga-haeta-node-hiyoko-na-otouto-sodatemasu-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://youranimes.tw/animes/5664"],"verifiedAt":"2026-10-20","targetId":"shirobuta-kizoku-desu-ga-zense-no-kioku-ga-haeta-node-hiyoko-na-otouto-sodatemasu-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://youranimes.tw/animes/5664"],"verifiedAt":"2026-10-20","targetId":"shirobuta-kizoku-desu-ga-zense-no-kioku-ga-haeta-node-hiyoko-na-otouto-sodatemasu-op-1"}],"seasonIds":["2025-summer"],"followUp":[{"fields":["use_quarters"],"note":"TV用途為2025夏；4月20日起為ABEMA先行配信，沒有把配信季度當作TV首播季度。","resumeWhen":"需要深化先行配信與TV片頭片尾差異時，按官方逐集影片／credit補版本及具體使用，不由配信日期推定。","checkedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20"},{"type":"ED","sequence":1,"titleJa":"まだ知らないストーリー","artistDisplayName":"Ms.OOJA","youtubeUrl":"https://www.youtube.com/watch?v=JC5NZ8oGdfE","id":"shirobuta-kizoku-desu-ga-zense-no-kioku-ga-haeta-node-hiyoko-na-otouto-sodatemasu-ed-1","songId":"shirobuta-kizoku-desu-ga-zense-no-kioku-ga-haeta-node-hiyoko-na-otouto-sodatemasu-ed-1-song","sourceMode":"explicit","sources":[{"label":"日活アニメチャンネル 官方影片","url":"https://www.youtube.com/watch?v=JC5NZ8oGdfE","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://shirohiyo.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/shirobuta_kizoku_desu_ga_zense_no_kioku_ga_haeta_node_hiyoko_na_otouto_sodatemasu","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://shirohiyo.com/music.html","label":"官方：本期原名、演唱、歌曲用途與同頁明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://youranimes.tw/animes/5664","label":"中文作品索引：本期曲名、演唱及OP／ED","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"}],"links":[{"platform":"YouTube","label":"官方公開影片","url":"https://www.youtube.com/watch?v=JC5NZ8oGdfE","linkType":"direct_track","region":"GLOBAL"}],"credits":[{"name":"Ms.OOJA","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://shirohiyo.com/music.html"],"verifiedAt":"2026-10-20","targetId":"shirobuta-kizoku-desu-ga-zense-no-kioku-ga-haeta-node-hiyoko-na-otouto-sodatemasu-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://shirohiyo.com/music.html"],"verifiedAt":"2026-10-20","targetId":"shirobuta-kizoku-desu-ga-zense-no-kioku-ga-haeta-node-hiyoko-na-otouto-sodatemasu-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://youranimes.tw/animes/5664"],"verifiedAt":"2026-10-20","targetId":"shirobuta-kizoku-desu-ga-zense-no-kioku-ga-haeta-node-hiyoko-na-otouto-sodatemasu-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://youranimes.tw/animes/5664"],"verifiedAt":"2026-10-20","targetId":"shirobuta-kizoku-desu-ga-zense-no-kioku-ga-haeta-node-hiyoko-na-otouto-sodatemasu-ed-1"}],"seasonIds":["2025-summer"],"followUp":[{"fields":["use_quarters"],"note":"TV用途為2025夏；4月20日起為ABEMA先行配信，沒有把配信季度當作TV首播季度。","resumeWhen":"需要深化先行配信與TV片頭片尾差異時，按官方逐集影片／credit補版本及具體使用，不由配信日期推定。","checkedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20"}],"verifiedAt":"2026-08-30","metadataVerifiedAt":"2026-08-30","metadataSources":[{"url":"https://shirohiyo.com/onair.html","label":"官方：本期TV首播與時段（與配信、續期及重播分開）","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://youranimes.tw/animes/5664","label":"中文作品／季度索引：TV身分、首播與歌曲交叉核對","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"},{"url":"https://shirohiyo.com/news.html","label":"動畫官方：4月ABEMA先行配信與7月TV分別","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"broadcastTimeJst":"22:00"},
