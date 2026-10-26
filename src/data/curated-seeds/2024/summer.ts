@@ -45,7 +45,308 @@ export const curated2024SummerSeeds: CuratedAnimeSeed[] = [
   {"anilistId":157371,"id":"curated-157371","slug":"bye-bye-earth","seasonIds":["2024-summer"],"startDate":"2024-07-12","titleJa":"ばいばい、アース","titleZhHant":"再見，地球","titleRomaji":"Bye Bye, Earth","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx157371-PisPkeSNP9HL.jpg","editorialWeekday":5,"broadcastLabel":"第1季WOWOW2024年7月12日週五23:30起；BS日テレ翌日24:30，2025第2季另列","status":"finished","officialSiteUrl":"https://bye2earth.com/","anilistUrl":"https://anilist.co/anime/157371","imageSourceUrl":"https://anilist.co/anime/157371","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2024%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2024-summer?display=list_detailed","https://annict.com/works/10194","https://bgm.tv/subject/408195"],"animeThemesUrl":"https://animethemes.moe/anime/bye_bye_earth","themes":[{"type":"OP","sequence":1,"titleJa":"FACELESS","artistDisplayName":"ASCA","id":"bye-bye-earth-op-1","songId":"bye-bye-earth-op-1-song","sources":[{"label":"WOWOW official 官方影片","url":"https://www.youtube.com/watch?v=xdpPkwqPSuM","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://bye2earth.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/bye_bye_earth","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://bye2earth.com/music/seazon_1.html","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://bye2earth.com/news/#n24_0523","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://bye2earth.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2024-summer"],"credits":[{"name":"ASCA","role":"lyrics"},{"name":"津波幸平","role":"composition"},{"name":"津波幸平","role":"arrangement"},{"name":"ASCA","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://bye2earth.com/music/seazon_1.html"],"verifiedAt":"2026-10-20","targetId":"bye-bye-earth-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://bye2earth.com/music/seazon_1.html","https://bye2earth.com/news/#n24_0523"],"verifiedAt":"2026-10-20","targetId":"bye-bye-earth-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/bye_bye_earth"],"verifiedAt":"2026-08-30","targetId":"bye-bye-earth-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/bye_bye_earth"],"verifiedAt":"2026-08-30","targetId":"bye-bye-earth-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://bye2earth.com/music/seazon_1.html"],"verifiedAt":"2026-10-20"}],"followUp":[{"fields":["recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈FACELESS〉：官方保存第1季Music，明列本曲OP與ASCA詞、津波幸平曲編；現行2025第2季歌曲不套第1季。","resumeWhen":"詳細階段重用原官方VVCL-2545–2549逐版曲表補TV size、Instrumental、收錄及確切平台；其他single曲不當動畫用途。","checkedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20"},{"type":"ED","sequence":1,"titleJa":"I LUV U 2","artistDisplayName":"LMYK","id":"bye-bye-earth-ed-1","songId":"bye-bye-earth-ed-1-song","sources":[{"label":"WOWOW official 官方影片","url":"https://www.youtube.com/watch?v=yYeF5juY5iI","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://bye2earth.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/bye_bye_earth","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://bye2earth.com/music/seazon_1.html","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://bye2earth.com/news/#n24_0523","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://bye2earth.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2024-summer"],"credits":[{"name":"LMYK","role":"lyrics"},{"name":"LMYK","role":"composition"},{"name":"Toru Horikoshi","role":"composition"},{"name":"Jimmy Jam and Terry Lewis","role":"arrangement"},{"name":"Toru Horikoshi","role":"arrangement"},{"name":"LMYK","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://bye2earth.com/music/seazon_1.html"],"verifiedAt":"2026-10-20","targetId":"bye-bye-earth-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://bye2earth.com/music/seazon_1.html","https://bye2earth.com/news/#n24_0523"],"verifiedAt":"2026-10-20","targetId":"bye-bye-earth-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/bye_bye_earth"],"verifiedAt":"2026-08-30","targetId":"bye-bye-earth-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/bye_bye_earth"],"verifiedAt":"2026-08-30","targetId":"bye-bye-earth-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://bye2earth.com/music/seazon_1.html"],"verifiedAt":"2026-10-20"}],"followUp":[{"fields":["recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈I LUV U 2〉：官方第1季Music明本曲ED、LMYK作詞及共同作曲與編曲名義；未將作品總配樂Kevin Penkin套主題曲。","resumeWhen":"詳細階段重用ESCL-5878–5879原曲／TV Size／Instrumental與BD逐曲表補音源及收錄；發行與MV不自動另計新歌曲。","checkedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20"}],"verifiedAt":"2026-08-30","metadataVerifiedAt":"2026-08-30","metadataSources":[{"url":"https://bye2earth.com/news/#n24_0523","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://bye2earth.com/music/seazon_1.html","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"broadcastTimeJst":"23:30"},
   {"anilistId":171457,"id":"curated-171457","slug":"make-heroine-ga-oosugiru","seasonIds":["2024-summer"],"startDate":"2024-07-14","titleJa":"負けヒロインが多すぎる！","titleZhHant":"敗北女角太多了！","titleRomaji":"Make Heroine ga Oosugiru!","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171457-nmMIk0gNiWsm.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/171457-VBH6gmvCKHwV.jpg","editorialWeekday":7,"broadcastLabel":"TOKYO MX等2024年7月13日週六24:30起（曆日14日）","status":"finished","officialSiteUrl":"https://makeine-anime.com/","anilistUrl":"https://anilist.co/anime/171457","imageSourceUrl":"https://anilist.co/anime/171457","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2024%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2024-summer?display=list_detailed","https://annict.com/works/12075","https://bgm.tv/subject/464376"],"animeThemesUrl":"https://animethemes.moe/anime/make_heroine_ga_oosugiru","themes":[{"type":"OP","sequence":1,"titleJa":"つよがるガール feat. もっさ(ネクライトーキー)","artistDisplayName":"ぼっちぼろまる","id":"make-heroine-ga-oosugiru-op-1","songId":"make-heroine-ga-oosugiru-op-1-song","sources":[{"label":"アニプレックス チャンネル 官方影片","url":"https://www.youtube.com/watch?v=7GJOBkIgWHc","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://makeine-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/make_heroine_ga_oosugiru","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://makeine-anime.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://makeine-anime.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://makeine-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2024-summer"],"credits":[{"name":"ぼっちぼろまる","role":"lyrics"},{"name":"ぼっちぼろまる","role":"composition"},{"name":"ぼっちぼろまる","role":"arrangement"},{"name":"ぼっちぼろまる","role":"vocals"},{"name":"もっさ（ネクライトーキー）","role":"vocals"}],"titleRomaji":"Tsuyogaru Girl feat. Mossa (Necry Talkie)","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://makeine-anime.com/music/"],"verifiedAt":"2026-10-20","targetId":"make-heroine-ga-oosugiru-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://makeine-anime.com/music/","https://makeine-anime.com/onair/"],"verifiedAt":"2026-10-20","targetId":"make-heroine-ga-oosugiru-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/make_heroine_ga_oosugiru"],"verifiedAt":"2026-08-30","targetId":"make-heroine-ga-oosugiru-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/make_heroine_ga_oosugiru"],"verifiedAt":"2026-08-30","targetId":"make-heroine-ga-oosugiru-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://makeine-anime.com/music/"],"verifiedAt":"2026-10-20"}],"followUp":[{"fields":["recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈つよがるガール feat. もっさ(ネクライトーキー)〉：原期Music明列OP本曲、ぼっちぼろまる詞曲編與もっさ合作歌唱；現行首頁第2期公告不套用原期歌曲。","resumeWhen":"重用官方AICL-4600各版逐曲表補Anime Edit、原曲、錄音及收錄；特殊ED用途需原始逐話credit另行證實。","checkedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20"},{"type":"ED","sequence":1,"titleJa":"LOVE 2000","artistDisplayName":"八奈見杏菜（CV：遠野ひかる）","id":"make-heroine-ga-oosugiru-ed-1","songId":"make-heroine-ga-oosugiru-ed-1-song","sources":[{"label":"アニプレックス チャンネル 官方影片","url":"https://www.youtube.com/watch?v=2czbGCYz6gk","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://makeine-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/make_heroine_ga_oosugiru","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://makeine-anime.com/music/album.html","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://makeine-anime.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://makeine-anime.com/music/ending.html","label":"第一方本期歌曲與用途補充","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://makeine-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2024-summer"],"credits":[{"name":"八奈見杏菜（CV：遠野ひかる）","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://makeine-anime.com/music/album.html"],"verifiedAt":"2026-10-20","targetId":"make-heroine-ga-oosugiru-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://makeine-anime.com/music/album.html","https://makeine-anime.com/music/ending.html","https://makeine-anime.com/onair/"],"verifiedAt":"2026-10-20","targetId":"make-heroine-ga-oosugiru-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/make_heroine_ga_oosugiru"],"verifiedAt":"2026-08-30","targetId":"make-heroine-ga-oosugiru-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/make_heroine_ga_oosugiru"],"verifiedAt":"2026-08-30","targetId":"make-heroine-ga-oosugiru-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://makeine-anime.com/music/album.html"],"verifiedAt":"2026-10-20"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈LOVE 2000〉：原期Ending頁明列本曲片尾用途、角色與CV；角色翻唱專輯的其他曲目未有TV用途證據，本版詞曲編尚待逐曲資料。","resumeWhen":"重用官方SVWC-70670本曲逐曲表及配信補編曲、角色版錄音、收錄與確切平台；原唱與本角色翻唱的錄音及編曲分開核對。","checkedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20"},{"type":"ED","sequence":2,"titleJa":"CRAZY FOR YOU","artistDisplayName":"焼塩檸檬（CV：若山詩音）","id":"make-heroine-ga-oosugiru-ed-2","songId":"make-heroine-ga-oosugiru-ed-2-song","sources":[{"label":"アニプレックス チャンネル 官方影片","url":"https://www.youtube.com/watch?v=GyckNS-qOcM","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://makeine-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/make_heroine_ga_oosugiru","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://makeine-anime.com/music/ending.html","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://makeine-anime.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://makeine-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2024-summer"],"credits":[{"name":"焼塩檸檬（CV：若山詩音）","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://makeine-anime.com/music/ending.html"],"verifiedAt":"2026-10-20","targetId":"make-heroine-ga-oosugiru-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://makeine-anime.com/music/ending.html","https://makeine-anime.com/onair/"],"verifiedAt":"2026-10-20","targetId":"make-heroine-ga-oosugiru-ed-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/make_heroine_ga_oosugiru"],"verifiedAt":"2026-08-30","targetId":"make-heroine-ga-oosugiru-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/make_heroine_ga_oosugiru"],"verifiedAt":"2026-08-30","targetId":"make-heroine-ga-oosugiru-ed-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://makeine-anime.com/music/ending.html"],"verifiedAt":"2026-10-20"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈CRAZY FOR YOU〉：原期Ending頁明列本曲片尾用途、角色與CV；角色翻唱專輯的其他曲目未有TV用途證據，本版詞曲編尚待逐曲資料。","resumeWhen":"重用官方SVWC-70670本曲逐曲表及配信補編曲、角色版錄音、收錄與確切平台；原唱與本角色翻唱的錄音及編曲分開核對。","checkedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20"},{"type":"ED","sequence":3,"titleJa":"feel my soul","artistDisplayName":"小鞠知花（CV：寺澤百花）","id":"make-heroine-ga-oosugiru-ed-3","songId":"make-heroine-ga-oosugiru-ed-3-song","sources":[{"label":"アニプレックス チャンネル 官方影片","url":"https://www.youtube.com/watch?v=FYuKV7m_CqM","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://makeine-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/make_heroine_ga_oosugiru","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://makeine-anime.com/music/ending.html","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://makeine-anime.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://makeine-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2024-summer"],"credits":[{"name":"小鞠知花（CV：寺澤百花）","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://makeine-anime.com/music/ending.html"],"verifiedAt":"2026-10-20","targetId":"make-heroine-ga-oosugiru-ed-3-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://makeine-anime.com/music/ending.html","https://makeine-anime.com/onair/"],"verifiedAt":"2026-10-20","targetId":"make-heroine-ga-oosugiru-ed-3"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/make_heroine_ga_oosugiru"],"verifiedAt":"2026-08-30","targetId":"make-heroine-ga-oosugiru-ed-3-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/make_heroine_ga_oosugiru"],"verifiedAt":"2026-08-30","targetId":"make-heroine-ga-oosugiru-ed-3"},{"target":"credits","fields":["credits"],"sourceUrls":["https://makeine-anime.com/music/ending.html"],"verifiedAt":"2026-10-20"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈feel my soul〉：原期Ending頁明列本曲片尾用途、角色與CV；角色翻唱專輯的其他曲目未有TV用途證據，本版詞曲編尚待逐曲資料。","resumeWhen":"重用官方SVWC-70670本曲逐曲表及配信補編曲、角色版錄音、收錄與確切平台；原唱與本角色翻唱的錄音及編曲分開核對。","checkedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20"},{"type":"ED","sequence":4,"titleJa":"つよがるガール feat. もっさ(ネクライトーキー)","artistDisplayName":"ぼっちぼろまる","id":"make-heroine-ga-oosugiru-ed-4","songId":"make-heroine-ga-oosugiru-op-1-song","sources":[{"label":"ぼっちぼろまる 官方影片","url":"https://www.youtube.com/watch?v=AuRNbKRVV-Y","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://makeine-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/make_heroine_ga_oosugiru","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://makeine-anime.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://makeine-anime.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://makeine-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":[],"credits":[{"name":"ぼっちぼろまる","role":"lyrics"},{"name":"ぼっちぼろまる","role":"composition"},{"name":"ぼっちぼろまる","role":"arrangement"},{"name":"ぼっちぼろまる","role":"vocals"},{"name":"もっさ（ネクライトーキー）","role":"vocals"}],"titleRomaji":"Tsuyogaru Girl feat. Mossa (Necry Talkie)","usageLabel":"原OP歌曲；特殊ED用途待第一方確認","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://makeine-anime.com/music/"],"verifiedAt":"2026-10-20","targetId":"make-heroine-ga-oosugiru-op-1-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/make_heroine_ga_oosugiru"],"verifiedAt":"2026-08-30","targetId":"make-heroine-ga-oosugiru-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/make_heroine_ga_oosugiru"],"verifiedAt":"2026-08-30","targetId":"make-heroine-ga-oosugiru-ed-4"},{"target":"credits","fields":["credits"],"sourceUrls":["https://makeine-anime.com/music/"],"verifiedAt":"2026-10-20"}],"followUp":[{"fields":["basic_evidence","use_quarters","recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈つよがるガール feat. もっさ(ネクライトーキー)〉：本曲官方Music與既有MV均明列OP身分，歌曲連回原OP；原期Ending頁僅列三首角色cover，定向查找未取得本曲作特殊ED的清楚第一方逐話證據，保留待核用途。","resumeWhen":"待原TV片尾或官方逐話用曲表證實本曲作ED的集數再補季度；其他MV不另計新歌曲，原曲single版本與角色cover分開深化。","checkedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20"}],"verifiedAt":"2026-08-30","metadataVerifiedAt":"2026-08-30","metadataSources":[{"url":"https://makeine-anime.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://makeine-anime.com/music/","label":"第一方本期曲目、角色名義與明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://makeine-anime.com/music/album.html","label":"第一方本期曲目、角色名義與明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://makeine-anime.com/music/ending.html","label":"第一方本期曲目、角色名義與明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"broadcastTimeJst":"00:30"},
   {"anilistId":154195,"id":"curated-154195","slug":"grendizer-u","seasonIds":["2024-summer"],"startDate":"2024-07-06","titleJa":"グレンダイザーU","titleZhHant":"金剛戰神U","titleRomaji":"Grendizer U","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154195-N6OlozyNN3ZN.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/154195-JHlASRW31rrr.jpg","editorialWeekday":6,"broadcastLabel":"テレビ東京2024年7月5日週五25:23起（曆日6日）；Prime Video26時及10月Netflix另列","status":"finished","officialSiteUrl":"https://grendizer-official.net/","anilistUrl":"https://anilist.co/anime/154195","imageSourceUrl":"https://anilist.co/anime/154195","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2024%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2024-summer?display=list_detailed","https://annict.com/works/11078","https://bgm.tv/subject/448613"],"animeThemesUrl":"https://animethemes.moe/anime/grendizer_u","themes":[{"type":"OP","sequence":1,"titleJa":"会心ノ一撃","artistDisplayName":"GLAY","id":"grendizer-u-op-1","songId":"grendizer-u-op-1-song","sources":[{"label":"TVアニメ「グレンダイザーU」OFFICIAL 官方影片","url":"https://www.youtube.com/watch?v=vSGDKZlOWzs","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"url":"https://grendizer-official.net/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/grendizer_u","language":"en","role":"cross_check","verifiedAt":"2026-08-30"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://grendizer-official.net/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2024-summer"],"credits":[{"name":"GLAY","role":"vocals"}],"titleRomaji":"Kaishin no Ichigeki","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://grendizer-official.net/"],"verifiedAt":"2026-10-20","targetId":"grendizer-u-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://grendizer-official.net/"],"verifiedAt":"2026-10-20","targetId":"grendizer-u-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/grendizer_u"],"verifiedAt":"2026-08-30","targetId":"grendizer-u-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/grendizer_u"],"verifiedAt":"2026-08-30","targetId":"grendizer-u-op-1"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈会心ノ一撃〉：官方本期同頁明列本曲OP與GLAY；HISASHI以Guitar名義留言，未據此推本曲作詞作曲或個別歌唱。","resumeWhen":"詳細階段重用官方本曲配信／single逐曲表補詞曲編、個別歌唱、音源及收錄；一般樂團職位不套逐曲credit。","checkedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20"},{"type":"ED","sequence":1,"titleJa":"Protect You","artistDisplayName":"BAND-MAID","id":"grendizer-u-ed-1","songId":"grendizer-u-ed-1-song","sources":[{"label":"TVアニメ「グレンダイザーU」OFFICIAL 官方影片","url":"https://www.youtube.com/watch?v=gObCX5o-yVU","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"url":"https://grendizer-official.net/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/grendizer_u","language":"en","role":"cross_check","verifiedAt":"2026-08-30"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://grendizer-official.net/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2024-summer"],"credits":[{"name":"MIKU KOBATO","role":"lyrics"},{"name":"BAND-MAID","role":"composition"},{"name":"BAND-MAID","role":"arrangement"},{"name":"BAND-MAID","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://grendizer-official.net/"],"verifiedAt":"2026-10-20","targetId":"grendizer-u-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://grendizer-official.net/"],"verifiedAt":"2026-10-20","targetId":"grendizer-u-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/grendizer_u"],"verifiedAt":"2026-08-30","targetId":"grendizer-u-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/grendizer_u"],"verifiedAt":"2026-08-30","targetId":"grendizer-u-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://grendizer-official.net/"],"verifiedAt":"2026-10-20"}],"followUp":[{"fields":["recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈Protect You〉：官方本期同頁明本曲ED、MIKU KOBATO作詞及BAND-MAID曲編；小鳩ミク的Vocal&Guitar留言名義未當本曲全部個別歌唱表。","resumeWhen":"詳細階段重用本曲官方逐曲表補個別歌唱、音源、收錄及確切平台；Netflix10月上架不當新原期TV季度。","checkedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20"}],"verifiedAt":"2026-08-30","metadataVerifiedAt":"2026-08-30","metadataSources":[{"url":"https://grendizer-official.net/","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"broadcastTimeJst":"01:23"},
-  {"anilistId":126830,"id":"curated-126830","slug":"code-geass-dakkan-no-roze","seasonIds":["2024-summer"],"startDate":"2024-06-21","titleJa":"コードギアス 奪還のロゼ","titleZhHant":"CODE GEASS 奪回的Rozé","titleRomaji":"Code Geass: Dakkan no Rozé","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126830-Mx56p5DMIjiq.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/126830-uXNHmw6QRssj.jpg","editorialWeekday":5,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://geass.jp/roze/","anilistUrl":"https://anilist.co/anime/126830","imageSourceUrl":"https://anilist.co/anime/126830","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2024%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2024-summer?display=list_detailed","https://annict.com/works/12889","https://bgm.tv/subject/500557"],"animeThemesUrl":"https://animethemes.moe/anime/code_geass_dakkan_no_roze","themes":[{"type":"OP","sequence":1,"titleJa":"Running In My Head","artistDisplayName":"MIYAVI"},{"type":"ED","sequence":1,"titleJa":"Rozé (Prod.TeddyLoid)","artistDisplayName":"Hikari Mitsushima"}],"verifiedAt":"2026-08-30"},
+  {
+  "anilistId": 126830,
+  "id": "curated-126830",
+  "slug": "code-geass-dakkan-no-roze",
+  "seasonIds": [
+    "2024-summer",
+    "2026-summer"
+  ],
+  "startDate": "2024-06-21",
+  "titleJa": "コードギアス 奪還のロゼ",
+  "titleZhHant": "CODE GEASS 奪回的Rozé",
+  "titleRomaji": "Code Geass: Dakkan no Rozé",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126830-Mx56p5DMIjiq.png",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/126830-uXNHmw6QRssj.jpg",
+  "editorialWeekday": 6,
+  "broadcastLabel": "日本TV放送：MBS/TBS/CBC 2026/7/10深夜25:53（實曆7/11）",
+  "status": "finished",
+  "officialSiteUrl": "https://geass.jp/roze/",
+  "anilistUrl": "https://anilist.co/anime/126830",
+  "imageSourceUrl": "https://anilist.co/anime/126830",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://annict.com/works/2024-summer?display=list_detailed",
+    "https://annict.com/works/12889",
+    "https://bgm.tv/subject/500557"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/code_geass_dakkan_no_roze",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "Running In My Head",
+      "artistDisplayName": "MIYAVI",
+      "id": "code-geass-dakkan-no-roze-op-1",
+      "songId": "code-geass-dakkan-no-roze-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2026-summer"
+      ],
+      "sources": [
+        {
+          "label": "MIYAVI 官方影片",
+          "url": "https://www.youtube.com/watch?v=uCJDrxrnMpg",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-08-30"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://geass.jp/roze/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-08-30"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/code_geass_dakkan_no_roze",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-08-30"
+        },
+        {
+          "url": "https://geass.jp/news/archives/3870",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://news.denfaminicogamer.jp/news/2605282a",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://geass.jp/roze/onair/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "MIYAVI",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://geass.jp/news/archives/3870"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "code-geass-dakkan-no-roze-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://geass.jp/news/archives/3870"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "code-geass-dakkan-no-roze-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://news.denfaminicogamer.jp/news/2605282a"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "code-geass-dakkan-no-roze-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://news.denfaminicogamer.jp/news/2605282a"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "code-geass-dakkan-no-roze-op-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "2026年TV版官方公告與獨立正文逐曲對應；原2024媒體用途季度不自動承接，音源版本及TV細部剪輯未核。",
+          "resumeWhen": "待本曲創作、正式音源與發行細項的直接資料再補。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "ロゼ (Prod.TeddyLoid)",
+      "artistDisplayName": "満島ひかり",
+      "id": "code-geass-dakkan-no-roze-ed-1",
+      "songId": "code-geass-dakkan-no-roze-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2026-summer"
+      ],
+      "sources": [
+        {
+          "label": "Lantis Channel 官方影片",
+          "url": "https://www.youtube.com/watch?v=H8H9p9jNERo",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-08-30"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://geass.jp/roze/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-08-30"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/code_geass_dakkan_no_roze",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-08-30"
+        },
+        {
+          "url": "https://geass.jp/news/archives/3870",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://news.denfaminicogamer.jp/news/2605282a",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://geass.jp/roze/onair/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Hikari Mitsushima",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://geass.jp/news/archives/3870"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "code-geass-dakkan-no-roze-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://geass.jp/news/archives/3870"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "code-geass-dakkan-no-roze-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://news.denfaminicogamer.jp/news/2605282a"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "code-geass-dakkan-no-roze-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://news.denfaminicogamer.jp/news/2605282a"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "code-geass-dakkan-no-roze-ed-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "2026年TV版官方公告與獨立正文逐曲對應；原2024媒體用途季度不自動承接，音源版本及TV細部剪輯未核。",
+          "resumeWhen": "待本曲創作、正式音源與發行細項的直接資料再補。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    }
+  ],
+  "verifiedAt": "2026-08-30",
+  "metadataVerifiedAt": "2026-08-30",
+  "metadataSources": [
+    {
+      "url": "https://geass.jp/roze/onair/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-26"
+    },
+    {
+      "url": "https://news.denfaminicogamer.jp/news/2605282a",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-10-26"
+    }
+  ],
+  "broadcastTimeJst": "01:53"
+},
   {"anilistId":162796,"id":"curated-162796","slug":"kinnikuman-kanpeki-choujin-shiso-hen","seasonIds":["2024-summer"],"startDate":"2024-07-07","titleJa":"キン肉マン 完璧超人始祖編","titleZhHant":"金肉人 完美超人始祖篇","titleRomaji":"Kinnikuman: Kanpeki Choujin Shiso-hen","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx162796-CFwUdsPSLpzv.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/162796-lz6Ck7EHVGkd.jpg","editorialWeekday":7,"broadcastLabel":"原期2024年7月7日開播；精確時段待原期官方公告，現行第3期另列","status":"finished","officialSiteUrl":"https://kin29man-anime.com/","anilistUrl":"https://anilist.co/anime/162796","imageSourceUrl":"https://anilist.co/anime/162796","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2024%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2024-summer?display=list_detailed","https://annict.com/works/10581","https://bgm.tv/subject/424853"],"animeThemesUrl":"https://animethemes.moe/anime/kinnikuman_kanpeki_choujin_shiso_hen","themes":[{"type":"OP","sequence":1,"titleJa":"LOVE & JUSTICE","artistDisplayName":"高梨康治×FLOW","id":"kinnikuman-kanpeki-choujin-shiso-hen-op-1","songId":"kinnikuman-kanpeki-choujin-shiso-hen-op-1-song","sources":[{"label":"キン肉マン 公式チャンネル 官方影片","url":"https://www.youtube.com/watch?v=8uESdRRnaY8","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://kin29man-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/kinnikuman_kanpeki_choujin_shiso_hen","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://kin29man-anime.com/music/oped/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://kin29man-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2024-summer"],"credits":[{"name":"森雪之丞","role":"lyrics"},{"name":"鈴木裕明（SUPA LOVE）","role":"composition"},{"name":"高梨康治","role":"arrangement"},{"name":"FLOW","role":"arrangement"},{"name":"鈴木裕明（SUPA LOVE）","role":"arrangement"},{"name":"高梨康治×FLOW","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://kin29man-anime.com/music/oped/"],"verifiedAt":"2026-10-20","targetId":"kinnikuman-kanpeki-choujin-shiso-hen-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://kin29man-anime.com/music/oped/"],"verifiedAt":"2026-10-20","targetId":"kinnikuman-kanpeki-choujin-shiso-hen-op-1"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://kin29man-anime.com/"],"verifiedAt":"2026-08-30","targetId":"kinnikuman-kanpeki-choujin-shiso-hen-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/kinnikuman_kanpeki_choujin_shiso_hen"],"verifiedAt":"2026-08-30","targetId":"kinnikuman-kanpeki-choujin-shiso-hen-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/kinnikuman_kanpeki_choujin_shiso_hen"],"verifiedAt":"2026-08-30","targetId":"kinnikuman-kanpeki-choujin-shiso-hen-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://kin29man-anime.com/music/oped/"],"verifiedAt":"2026-10-20"}],"followUp":[{"fields":["recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈LOVE & JUSTICE〉：官方保存Season1明列本曲OP、高梨康治×FLOW歌唱名義及詞曲編；同網站Season2曲目與第0話主題曲分開，原期首播日期沿用已審閱資料。","resumeWhen":"詳細階段重用PCCG-70540逐曲表補音源、收錄與個別歌唱；原期精確TV時段待可讀官方公告，兩輪定向未明，不改已核季度或套第2期。","checkedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20"},{"type":"ED","sequence":1,"titleJa":"超人","artistDisplayName":"キン肉マン（CV：宮野真守）","id":"kinnikuman-kanpeki-choujin-shiso-hen-ed-1","songId":"kinnikuman-kanpeki-choujin-shiso-hen-ed-1-song","sources":[{"label":"キン肉マン 公式チャンネル 官方影片","url":"https://www.youtube.com/watch?v=u0dgneH1D_4","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://kin29man-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/kinnikuman_kanpeki_choujin_shiso_hen","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://kin29man-anime.com/music/oped/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://kin29man-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2024-summer"],"credits":[{"name":"キン肉マン（CV：宮野真守）","role":"vocals"},{"name":"APAZZI","role":"lyrics"},{"name":"APAZZI","role":"composition"},{"name":"APAZZI","role":"arrangement"}],"titleRomaji":"Choujin","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://kin29man-anime.com/music/oped/"],"verifiedAt":"2026-10-20","targetId":"kinnikuman-kanpeki-choujin-shiso-hen-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://kin29man-anime.com/music/oped/"],"verifiedAt":"2026-10-20","targetId":"kinnikuman-kanpeki-choujin-shiso-hen-ed-1"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://kin29man-anime.com/"],"verifiedAt":"2026-08-30","targetId":"kinnikuman-kanpeki-choujin-shiso-hen-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/kinnikuman_kanpeki_choujin_shiso_hen"],"verifiedAt":"2026-08-30","targetId":"kinnikuman-kanpeki-choujin-shiso-hen-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/kinnikuman_kanpeki_choujin_shiso_hen"],"verifiedAt":"2026-08-30","targetId":"kinnikuman-kanpeki-choujin-shiso-hen-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://kin29man-anime.com/music/oped/"],"verifiedAt":"2026-10-20"}],"followUp":[{"fields":["recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈超人〉：官方Season1明列本曲ED、角色CV與APAZZI詞曲編；Season2的29不是本曲，原期7月7日日期沿用原有效來源。","resumeWhen":"詳細階段重用PCCG-70540本曲逐曲表補錄音、收錄及確切平台；原期精確時段待原官方公告，角色其他歌曲不直接當TV主題曲。","checkedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20"}],"verifiedAt":"2026-08-30","metadataVerifiedAt":"2026-08-30","metadataSources":[{"url":"https://kin29man-anime.com/music/oped/","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}]},
   {"anilistId":177922,"id":"curated-177922","slug":"yami-shibai-13","seasonIds":["2024-summer"],"startDate":"2024-07-15","titleJa":"闇芝居 十三期","titleZhHant":"暗芝居 第十三季","titleRomaji":"Yami Shibai 13","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177922-0o3zOw8QXYvE.jpg","editorialWeekday":1,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://www.tv-tokyo.co.jp/anime/yamishibai13/","anilistUrl":"https://anilist.co/anime/177922","imageSourceUrl":"https://anilist.co/anime/177922","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2024%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2024-summer?display=list_detailed","https://annict.com/works/13641","https://bgm.tv/subject/498178"],"animeThemesUrl":"https://animethemes.moe/anime/yami_shibai_13","themes":[{"type":"ED","sequence":1,"titleJa":"GHOST","artistDisplayName":"majiko"}],"verifiedAt":"2026-08-30"},
   {"anilistId":154963,"id":"curated-154963","slug":"atri-my-dear-moments","seasonIds":["2024-summer"],"startDate":"2024-07-14","titleJa":"ATRI -My Dear Moments-","titleZhHant":"ATRI -My Dear Moments-","titleRomaji":"ATRI: My Dear Moments","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154963-Ju6Ey3P5YHs2.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/154963-sDMgZTrrsT70.jpg","editorialWeekday":7,"broadcastLabel":"TOKYO MX／BS11等2024年7月13日週六24:00起（曆日14日）；串流24:30另列","status":"finished","officialSiteUrl":"https://atri-anime.com/","anilistUrl":"https://anilist.co/anime/154963","imageSourceUrl":"https://anilist.co/anime/154963","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2024%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2024-summer?display=list_detailed","https://annict.com/works/10096"],"animeThemesUrl":"https://animethemes.moe/anime/atri_my_dear_moments","themes":[{"type":"OP","sequence":1,"titleJa":"あの光","artistDisplayName":"乃木坂46","id":"atri-my-dear-moments-op-1","songId":"atri-my-dear-moments-op-1-song","sources":[{"label":"アニプレックス チャンネル 官方影片","url":"https://www.youtube.com/watch?v=kOXRAha4h0g","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://atri-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/atri_my_dear_moments","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://atri-anime.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://atri-anime.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://atri-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2024-summer"],"credits":[{"name":"秋元康","role":"lyrics"},{"name":"BASEMINT","role":"composition"},{"name":"BASEMINT","role":"arrangement"},{"name":"乃木坂46","role":"vocals"}],"titleRomaji":"Ano Hikari","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://atri-anime.com/music/"],"verifiedAt":"2026-10-20","targetId":"atri-my-dear-moments-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://atri-anime.com/music/","https://atri-anime.com/onair/"],"verifiedAt":"2026-10-20","targetId":"atri-my-dear-moments-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/atri_my_dear_moments"],"verifiedAt":"2026-08-30","targetId":"atri-my-dear-moments-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/atri_my_dear_moments"],"verifiedAt":"2026-08-30","targetId":"atri-my-dear-moments-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://atri-anime.com/music/"],"verifiedAt":"2026-10-20"}],"followUp":[{"fields":["use_quarters","recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈あの光〉：官方MUSIC明列〈あの光〉的原名、名義與詞曲編；原期TV首播日已核，第13話原Story未明日期，10月5日最終回記念PV公告不當TV播出日期，後段季度未推定。","resumeWhen":"原期最後幾話的官方TV日期及本曲逐話使用表可讀時，才補其他季度；本次原期ONAIR、原Story與定向查找未明，重用已核夏季用途，詳細錄音／收錄另階段補。","checkedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20"},{"type":"ED","sequence":1,"titleJa":"YESとNOの間に","artistDisplayName":"22/7","id":"atri-my-dear-moments-ed-1","songId":"atri-my-dear-moments-ed-1-song","sources":[{"label":"アニプレックス チャンネル 官方影片","url":"https://www.youtube.com/watch?v=UQ6uXU88zhM","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://atri-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/atri_my_dear_moments","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://atri-anime.com/music/ed.html","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://atri-anime.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://atri-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2024-summer"],"credits":[{"name":"秋元 康","role":"lyrics"},{"name":"YU-JIN","role":"composition"},{"name":"SHIN","role":"composition"},{"name":"YU-JIN","role":"arrangement"},{"name":"22/7","role":"vocals"}],"titleRomaji":"YES to NO no Ma ni","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://atri-anime.com/music/ed.html"],"verifiedAt":"2026-10-20","targetId":"atri-my-dear-moments-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://atri-anime.com/music/ed.html","https://atri-anime.com/onair/"],"verifiedAt":"2026-10-20","targetId":"atri-my-dear-moments-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/atri_my_dear_moments"],"verifiedAt":"2026-08-30","targetId":"atri-my-dear-moments-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/atri_my_dear_moments"],"verifiedAt":"2026-08-30","targetId":"atri-my-dear-moments-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://atri-anime.com/music/ed.html"],"verifiedAt":"2026-10-20"}],"followUp":[{"fields":["use_quarters","recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈YESとNOの間に〉：官方MUSIC明列〈YESとNOの間に〉的原名、名義與詞曲編；原期TV首播日已核，第13話原Story未明日期，10月5日最終回記念PV公告不當TV播出日期，後段季度未推定。","resumeWhen":"原期最後幾話的官方TV日期及本曲逐話使用表可讀時，才補其他季度；本次原期ONAIR、原Story與定向查找未明，重用已核夏季用途，詳細錄音／收錄另階段補。","checkedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20"},{"type":"ED","sequence":2,"titleJa":"Dear Moments","artistDisplayName":"アトリ（CV：赤尾ひかる）","id":"atri-my-dear-moments-ed-2","songId":"atri-my-dear-moments-ed-2-song","sources":[{"label":"アニプレックス チャンネル 官方影片","url":"https://www.youtube.com/watch?v=wbKsxfbWXWY","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://atri-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/atri_my_dear_moments","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://atri-anime.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://atri-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":[],"credits":[{"name":"アトリ（CV：赤尾ひかる）","role":"vocals"}],"usageLabel":"Log06記念PV使用曲；TV的ED／插曲用途待核","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.youtube.com/watch?v=wbKsxfbWXWY"],"verifiedAt":"2026-08-30","targetId":"atri-my-dear-moments-ed-2-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/atri_my_dear_moments"],"verifiedAt":"2026-08-30","targetId":"atri-my-dear-moments-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/atri_my_dear_moments"],"verifiedAt":"2026-08-30","targetId":"atri-my-dear-moments-ed-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.youtube.com/watch?v=wbKsxfbWXWY"],"verifiedAt":"2026-08-30"}],"followUp":[{"fields":["basic_evidence","use_quarters","lyrics","composition","arrangement","recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈Dear Moments〉：已審閱官方Log06記念PV明列本曲及アトリ（赤尾ひかる）；本期Music與定向查找未取得清楚TV的ED／插曲分類第一方資料，PV使用不直接當TV特殊ED。","resumeWhen":"待第6話原始片尾或官方逐話用曲表明確列本曲用途再補季度；原作遊戲歌曲、角色歌唱與TV錄音分開，不由同曲名或PV推同錄音。","checkedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20"},{"type":"ED","sequence":3,"titleJa":"光放て！","artistDisplayName":"柳 麻美","id":"atri-my-dear-moments-ed-3","songId":"atri-my-dear-moments-ed-3-song","sources":[{"label":"アニプレックス チャンネル 官方影片","url":"https://www.youtube.com/watch?v=KoCfaCxDTp0","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://atri-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/atri_my_dear_moments","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://atri-anime.com/news/?article_id=66359","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://atri-anime.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://atri-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":[],"credits":[{"name":"紺野アスタ","role":"lyrics"},{"name":"松本文紀","role":"composition"},{"name":"松本文紀","role":"arrangement"},{"name":"柳 麻美","role":"vocals"}],"titleRomaji":"Hikari Hanate!","usageLabel":"最終回記念PV使用曲；TV用途待第一方確認","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://atri-anime.com/news/?article_id=66359"],"verifiedAt":"2026-10-20","targetId":"atri-my-dear-moments-ed-3-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/atri_my_dear_moments"],"verifiedAt":"2026-08-30","targetId":"atri-my-dear-moments-ed-3-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/atri_my_dear_moments"],"verifiedAt":"2026-08-30","targetId":"atri-my-dear-moments-ed-3"},{"target":"credits","fields":["credits"],"sourceUrls":["https://atri-anime.com/news/?article_id=66359"],"verifiedAt":"2026-10-20"}],"followUp":[{"fields":["basic_evidence","use_quarters","recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈光放て！〉：官方最終回記念PV公告明列本曲、柳 麻美與詞曲編，但PV公開日期不是TV播出或特殊ED使用的證據；保留已知曲目及原待核用途，沒有以PV補進秋季歌曲。","resumeWhen":"待本期原始片尾或官方逐話曲表確認TV的ED／插曲用途及日期再補；原作遊戲版與TV版的錄音、收錄及版本另核，不能以最終回紀念PV推出新TV用曲。","checkedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20"}],"verifiedAt":"2026-08-30","metadataVerifiedAt":"2026-08-30","metadataSources":[{"url":"https://atri-anime.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://atri-anime.com/music/","label":"第一方本期曲目、角色名義與明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://atri-anime.com/music/ed.html","label":"第一方本期曲目、角色名義與明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://atri-anime.com/news/?article_id=66359","label":"第一方本期曲目、角色名義與明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"broadcastTimeJst":"00:00"},

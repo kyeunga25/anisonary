@@ -1,12 +1,703 @@
 import type { CuratedAnimeSeed } from "@/data/curated-seeds/types";
 
 export const curated2022FallSeeds: CuratedAnimeSeed[] = [
-  {"anilistId":146722,"id":"curated-146722","slug":"jojo-no-kimyou-na-bouken-stone-ocean-part-2","seasonIds":["2022-fall"],"startDate":"2022-09-01","titleJa":"ジョジョの奇妙な冒険 ストーンオーシャン 第2・第3クール","titleZhHant":"JOJO的奇妙冒險：石之海 第二、三部分","titleRomaji":"JoJo no Kimyou na Bouken: Stone Ocean Part 2","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx146722-hiZU7M33fBhn.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/146722-nfTe0Exka4d5.jpg","editorialWeekday":4,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://jojo-portal.com/anime/so/","anilistUrl":"https://anilist.co/anime/146722","imageSourceUrl":"https://anilist.co/anime/146722","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/9482","https://youranimes.tw/animes/3930"],"themes":[{"type":"OP","sequence":1,"titleJa":"STONE OCEAN","artistDisplayName":"ichigo from 岸田教団＆THE明星ロケッツ"},{"type":"OP","sequence":2,"titleJa":"Heaven's falling down","artistDisplayName":"sana（sajou no hana）"},{"type":"ED","sequence":1,"titleJa":"Distant Dreamer","artistDisplayName":"Duffy"},{"type":"ED","sequence":2,"titleJa":"Roundabout","artistDisplayName":"Yes"}],"verifiedAt":"2026-09-01"},
+  {
+  "anilistId": 146722,
+  "id": "curated-146722",
+  "slug": "jojo-no-kimyou-na-bouken-stone-ocean-part-2",
+  "seasonIds": [
+    "2022-fall"
+  ],
+  "startDate": "2022-09-01",
+  "titleJa": "ジョジョの奇妙な冒険 ストーンオーシャン 第2・第3クール",
+  "titleZhHant": "JOJO的奇妙冒險：石之海 第二、三部分",
+  "titleRomaji": "JoJo no Kimyou na Bouken: Stone Ocean Part 2",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx146722-hiZU7M33fBhn.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/146722-nfTe0Exka4d5.jpg",
+  "editorialWeekday": 6,
+  "broadcastLabel": "第13–24話TV：2022-10-08起・00:30（JST）・TOKYO MX／BS11；節目表10/7深夜24:30",
+  "status": "finished",
+  "officialSiteUrl": "https://jojo-portal.com/anime/so/",
+  "anilistUrl": "https://anilist.co/anime/146722",
+  "imageSourceUrl": "https://anilist.co/anime/146722",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://annict.com/works/9482",
+    "https://youranimes.tw/animes/3930"
+  ],
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "STONE OCEAN",
+      "artistDisplayName": "ichigo from 岸田教団＆THE明星ロケッツ",
+      "id": "jojo-no-kimyou-na-bouken-stone-ocean-part-2-op-1",
+      "songId": "jojo-no-kimyou-na-bouken-stone-ocean-part-2-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2022-fall"
+      ],
+      "sources": [
+        {
+          "label": "JOJO 動畫官方音樂頁：石之海 OP 曲目",
+          "url": "https://jojo-portal.com/en/anime/so/music/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "label": "繁體中文條目：石之海 OP／ED 與集數用途交叉核對",
+          "url": "https://zh.wikipedia.org/wiki/JoJo%E7%9A%84%E5%A5%87%E5%A6%99%E5%86%92%E9%9A%AA_(%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB)",
+          "language": "zh-Hant",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "label": "Warner Bros. Japan Anime 官方影片",
+          "url": "https://www.youtube.com/watch?v=mgxDyrEnnoE",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://jojo-portal.com/anime/so/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "url": "https://jojo-portal.com/zh/anime/so/music/op-theme/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://prtimes.jp/a/?c=20364&f=d20364-688-854fe64da551a77f9f122e3be12274f2.pdf&r=688",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/JoJo%E7%9A%84%E5%A5%87%E5%A6%99%E5%86%92%E9%9A%AA_%28%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB%29",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "ichigo from 岸田教団＆THE明星ロケッツ",
+          "role": "vocals"
+        },
+        {
+          "name": "藤林聖子",
+          "role": "lyrics"
+        },
+        {
+          "name": "河田貴央",
+          "role": "composition"
+        },
+        {
+          "name": "家原正樹",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://jojo-portal.com/zh/anime/so/music/op-theme/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "jojo-no-kimyou-na-bouken-stone-ocean-part-2-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://jojo-portal.com/zh/anime/so/music/op-theme/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "jojo-no-kimyou-na-bouken-stone-ocean-part-2-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/JoJo%E7%9A%84%E5%A5%87%E5%A6%99%E5%86%92%E9%9A%AA_%28%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "jojo-no-kimyou-na-bouken-stone-ocean-part-2-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/JoJo%E7%9A%84%E5%A5%87%E5%A6%99%E5%86%92%E9%9A%AA_%28%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "jojo-no-kimyou-na-bouken-stone-ocean-part-2-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://jojo-portal.com/zh/anime/so/music/op-theme/"
+          ],
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "type": "OP",
+      "sequence": 2,
+      "titleJa": "Heaven's falling down",
+      "artistDisplayName": "sana（sajou no hana）",
+      "id": "jojo-no-kimyou-na-bouken-stone-ocean-part-2-op-2",
+      "songId": "jojo-no-kimyou-na-bouken-stone-ocean-part-2-op-2-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "JOJO 動畫官方音樂頁：石之海 OP 曲目",
+          "url": "https://jojo-portal.com/en/anime/so/music/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "label": "繁體中文條目：石之海 OP／ED 與集數用途交叉核對",
+          "url": "https://zh.wikipedia.org/wiki/JoJo%E7%9A%84%E5%A5%87%E5%A6%99%E5%86%92%E9%9A%AA_(%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB)",
+          "language": "zh-Hant",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "label": "Warner Bros. Japan Anime 官方影片",
+          "url": "https://www.youtube.com/watch?v=RTacFlYONhY",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://jojo-portal.com/anime/so/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "url": "https://jojo-portal.com/anime/so/music/new-op-theme/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/JoJo%E7%9A%84%E5%A5%87%E5%A6%99%E5%86%92%E9%9A%AA_%28%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB%29",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "sana（sajou no hana）",
+          "role": "vocals"
+        },
+        {
+          "name": "藤林聖子",
+          "role": "lyrics"
+        },
+        {
+          "name": "菅野祐悟",
+          "role": "composition"
+        },
+        {
+          "name": "菅野祐悟",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://jojo-portal.com/anime/so/music/new-op-theme/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "jojo-no-kimyou-na-bouken-stone-ocean-part-2-op-2-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/JoJo%E7%9A%84%E5%A5%87%E5%A6%99%E5%86%92%E9%9A%AA_%28%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "jojo-no-kimyou-na-bouken-stone-ocean-part-2-op-2-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://jojo-portal.com/anime/so/music/new-op-theme/"
+          ],
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters"
+          ],
+          "note": "官方新OP及曲名、歌唱、詞曲編已讀；2023後段TV首日目前僅交叉，完整逐曲TV冬春映射仍待第一方，暫不列用途季。",
+          "resumeWhen": "待官方後段TV原播日與適用話數公告或逐話歌曲字幕後，與既有25–38話交叉核對季度；數位發行12/2不作TV日。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "Distant Dreamer",
+      "artistDisplayName": "Duffy",
+      "id": "jojo-no-kimyou-na-bouken-stone-ocean-part-2-ed-1",
+      "songId": "jojo-no-kimyou-na-bouken-stone-ocean-part-2-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2022-fall"
+      ],
+      "sources": [
+        {
+          "label": "Universal Music Japan 官方公告：ED〈Distant Dreamer〉",
+          "url": "https://www.universal-music.co.jp/duffy/news/2021-12-01/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "label": "繁體中文條目：石之海 OP／ED 與集數用途交叉核對",
+          "url": "https://zh.wikipedia.org/wiki/JoJo%E7%9A%84%E5%A5%87%E5%A6%99%E5%86%92%E9%9A%AA_(%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB)",
+          "language": "zh-Hant",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "label": "Universal Music Japan International 官方影片",
+          "url": "https://www.youtube.com/watch?v=4nEiPvPrH_M",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://jojo-portal.com/anime/so/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/duffy/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://prtimes.jp/a/?c=20364&f=d20364-688-854fe64da551a77f9f122e3be12274f2.pdf&r=688",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/JoJo%E7%9A%84%E5%A5%87%E5%A6%99%E5%86%92%E9%9A%AA_%28%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB%29",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Duffy",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/duffy/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "jojo-no-kimyou-na-bouken-stone-ocean-part-2-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/duffy/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "jojo-no-kimyou-na-bouken-stone-ocean-part-2-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/JoJo%E7%9A%84%E5%A5%87%E5%A6%99%E5%86%92%E9%9A%AA_%28%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "jojo-no-kimyou-na-bouken-stone-ocean-part-2-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/JoJo%E7%9A%84%E5%A5%87%E5%A6%99%E5%86%92%E9%9A%AA_%28%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "jojo-no-kimyou-na-bouken-stone-ocean-part-2-ed-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement"
+          ],
+          "note": "唱片公司正文確認Distant Dreamer／Duffy為石之海ED；中文逐話表明13–24話ED及原TV秋季。後段2023使用及最終話插曲另待第一方逐話映射，未新增插曲。",
+          "resumeWhen": "待後段官方TV逐話音樂資料直接支持冬春範圍後補季度；不把最終話IN轉成另一公開用途。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "Roundabout",
+      "artistDisplayName": "Yes",
+      "id": "jojo-no-kimyou-na-bouken-stone-ocean-part-2-ed-2",
+      "songId": "jojo-no-kimyou-na-bouken-stone-ocean-part-2-ed-2-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "JOJO 官方中文製作筆記：〈ROUNDABOUT〉的系列 ED 身份與授權脈絡",
+          "url": "https://jojo-portal.com/special/production-note/zh/04/",
+          "language": "zh-Hans",
+          "role": "first_party",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "label": "繁體中文條目：石之海 OP／ED 與集數用途交叉核對",
+          "url": "https://zh.wikipedia.org/wiki/JoJo%E7%9A%84%E5%A5%87%E5%A6%99%E5%86%92%E9%9A%AA_(%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB)",
+          "language": "zh-Hant",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://jojo-portal.com/anime/so/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/JoJo%E7%9A%84%E5%A5%87%E5%A6%99%E5%86%92%E9%9A%AA_%28%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB%29",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Yes",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/JoJo%E7%9A%84%E5%A5%87%E5%A6%99%E5%86%92%E9%9A%AA_%28%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "jojo-no-kimyou-na-bouken-stone-ocean-part-2-ed-2-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement"
+          ],
+          "note": "本期最終話Roundabout／Yes片尾僅交叉資料，尚缺本期第一方；既有曲名名義與ID保留待核，五項用途欄留空。",
+          "resumeWhen": "待本期官方最終話字幕或原音樂公告直接明示曲名、名義及片尾用途後再核；不承接第1季。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    }
+  ],
+  "verifiedAt": "2026-09-01",
+  "metadataVerifiedAt": "2026-09-01",
+  "metadataSources": [
+    {
+      "url": "https://jojo-portal.com/anime/so/",
+      "label": "動畫第一方作品資料",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-26"
+    },
+    {
+      "url": "https://prtimes.jp/a/?c=20364&f=d20364-688-854fe64da551a77f9f122e3be12274f2.pdf&r=688",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-26"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/JoJo%E7%9A%84%E5%A5%87%E5%A6%99%E5%86%92%E9%9A%AA_%28%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB%29",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-26"
+    }
+  ],
+  "broadcastTimeJst": "00:30"
+},
   {"anilistId":139820,"id":"curated-139820","slug":"akuyaku-reijou-nanode-last-boss-wo-kattemimashita","seasonIds":["2022-fall"],"startDate":"2022-10-01","titleJa":"悪役令嬢なのでラスボスを飼ってみました","titleZhHant":"因為是反派大小姐所以養了魔王","titleRomaji":"Akuyaku Reijou nano de Last Boss wo Kattemimashita","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx139820-T8Nk5dRd3q9L.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/139820-dAZzPRQFtt89.jpg","editorialWeekday":6,"broadcastLabel":"原TV TOKYO MX 2022/10/1 22:30最早；ABEMA第1話9/24 22:30（後續23:00）是提前一週WEB，不是TV首播。原seed9/24不留作TV日期。","status":"finished","officialSiteUrl":"https://akulas-pr.com/","anilistUrl":"https://anilist.co/anime/139820","imageSourceUrl":"https://anilist.co/anime/139820","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/9069","https://youranimes.tw/animes/3799"],"animeThemesUrl":"https://animethemes.moe/anime/akuyaku_reijou_nanode_last_boss_wo_kattemimashita","themes":[{"type":"OP","sequence":1,"titleJa":"共感されなくてもいいじゃない","artistDisplayName":"高橋李依","id":"akuyaku-reijou-nanode-last-boss-wo-kattemimashita-op-1","songId":"akuyaku-reijou-nanode-last-boss-wo-kattemimashita-op-1-song","sources":[{"label":"動畫官方網站","url":"https://akulas-pr.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/akuyaku_reijou_nanode_last_boss_wo_kattemimashita","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://akulas-pr.com/music/op/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://akulas-pr.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E5%9B%A0%E7%82%BA%E6%98%AF%E5%8F%8D%E6%B4%BE%E5%A4%A7%E5%B0%8F%E5%A7%90%E6%89%80%E4%BB%A5%E9%A4%8A%E4%BA%86%E9%AD%94%E7%8E%8B","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://akulas-pr.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2022-fall"],"credits":[{"name":"永井葉子","role":"lyrics"},{"name":"永井葉子","role":"composition"},{"name":"TOPICS.LAB","role":"arrangement"},{"name":"高橋李依","role":"vocals"}],"titleRomaji":"Kyoukan Sarenakute mo Ii Janai","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://akulas-pr.com/music/op/"],"verifiedAt":"2026-10-22","targetId":"akuyaku-reijou-nanode-last-boss-wo-kattemimashita-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://akulas-pr.com/music/op/"],"verifiedAt":"2026-10-22","targetId":"akuyaku-reijou-nanode-last-boss-wo-kattemimashita-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/akuyaku_reijou_nanode_last_boss_wo_kattemimashita"],"verifiedAt":"2026-09-01","targetId":"akuyaku-reijou-nanode-last-boss-wo-kattemimashita-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/akuyaku_reijou_nanode_last_boss_wo_kattemimashita"],"verifiedAt":"2026-09-01","targetId":"akuyaku-reijou-nanode-last-boss-wo-kattemimashita-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%9B%A0%E7%82%BA%E6%98%AF%E5%8F%8D%E6%B4%BE%E5%A4%A7%E5%B0%8F%E5%A7%90%E6%89%80%E4%BB%A5%E9%A4%8A%E4%BA%86%E9%AD%94%E7%8E%8B"],"verifiedAt":"2026-10-22","targetId":"akuyaku-reijou-nanode-last-boss-wo-kattemimashita-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%9B%A0%E7%82%BA%E6%98%AF%E5%8F%8D%E6%B4%BE%E5%A4%A7%E5%B0%8F%E5%A7%90%E6%89%80%E4%BB%A5%E9%A4%8A%E4%BA%86%E9%AD%94%E7%8E%8B"],"verifiedAt":"2026-10-22","targetId":"akuyaku-reijou-nanode-last-boss-wo-kattemimashita-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://akulas-pr.com/music/op/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈共感されなくてもいいじゃない〉：作品原期OP頁直接明原名、高橋李依及詞曲永井葉子、編TOPICS.LAB；藝人名義不改成角色アイリーン。只原TV秋季，WEB9/24不加歌曲夏季。","resumeWhen":"詳細階段沿用本曲已核原期來源，待逐曲第一方明示才補尚缺作者、個別歌唱、錄音、官方影片形式、發行品／收錄與正版平台；不由商品、MV、cast、團體簡介或後續季推特殊用途、full／TV錄音或全員演唱。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":1,"titleJa":"ノミック","artistDisplayName":"ACCAMER","id":"akuyaku-reijou-nanode-last-boss-wo-kattemimashita-ed-1","songId":"akuyaku-reijou-nanode-last-boss-wo-kattemimashita-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://akulas-pr.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/akuyaku_reijou_nanode_last_boss_wo_kattemimashita","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://akulas-pr.com/music/ed/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://akulas-pr.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E5%9B%A0%E7%82%BA%E6%98%AF%E5%8F%8D%E6%B4%BE%E5%A4%A7%E5%B0%8F%E5%A7%90%E6%89%80%E4%BB%A5%E9%A4%8A%E4%BA%86%E9%AD%94%E7%8E%8B","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://akulas-pr.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2022-fall"],"credits":[{"name":"椎乃味醂","role":"lyrics"},{"name":"椎乃味醂","role":"composition"},{"name":"椎乃味醂","role":"arrangement"},{"name":"ACCAMER","role":"vocals"}],"titleRomaji":"Nomic","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://akulas-pr.com/music/ed/"],"verifiedAt":"2026-10-22","targetId":"akuyaku-reijou-nanode-last-boss-wo-kattemimashita-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://akulas-pr.com/music/ed/"],"verifiedAt":"2026-10-22","targetId":"akuyaku-reijou-nanode-last-boss-wo-kattemimashita-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/akuyaku_reijou_nanode_last_boss_wo_kattemimashita"],"verifiedAt":"2026-09-01","targetId":"akuyaku-reijou-nanode-last-boss-wo-kattemimashita-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/akuyaku_reijou_nanode_last_boss_wo_kattemimashita"],"verifiedAt":"2026-09-01","targetId":"akuyaku-reijou-nanode-last-boss-wo-kattemimashita-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%9B%A0%E7%82%BA%E6%98%AF%E5%8F%8D%E6%B4%BE%E5%A4%A7%E5%B0%8F%E5%A7%90%E6%89%80%E4%BB%A5%E9%A4%8A%E4%BA%86%E9%AD%94%E7%8E%8B"],"verifiedAt":"2026-10-22","targetId":"akuyaku-reijou-nanode-last-boss-wo-kattemimashita-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%9B%A0%E7%82%BA%E6%98%AF%E5%8F%8D%E6%B4%BE%E5%A4%A7%E5%B0%8F%E5%A7%90%E6%89%80%E4%BB%A5%E9%A4%8A%E4%BA%86%E9%AD%94%E7%8E%8B"],"verifiedAt":"2026-10-22","targetId":"akuyaku-reijou-nanode-last-boss-wo-kattemimashita-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://akulas-pr.com/music/ed/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈ノミック〉：原期官方ED頁明原名／ACCAMER與詞曲編椎乃味醂；原TV在秋季，9月WEB先行不是TV季度。","resumeWhen":"詳細階段沿用本曲已核原期來源，待逐曲第一方明示才補尚缺作者、個別歌唱、錄音、官方影片形式、發行品／收錄與正版平台；不由商品、MV、cast、團體簡介或後續季推特殊用途、full／TV錄音或全員演唱。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"}],"verifiedAt":"2026-09-01","metadataVerifiedAt":"2026-09-01","metadataSources":[{"url":"https://akulas-pr.com/onair/","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://akulas-pr.com/music/op/","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://akulas-pr.com/music/ed/","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"broadcastTimeJst":"22:30"},
   {"anilistId":170659,"id":"curated-170659","slug":"chickip-dancers-2nd-season","seasonIds":["2022-fall"],"startDate":"2022-09-27","titleJa":"チキップダンサーズ　第2期","titleZhHant":"CHICKIPDANCERS 跳跳小雞 第二季","titleRomaji":"Chickip Dancers 2nd Season","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b170659-oVCX2KBFv9py.jpg","editorialWeekday":2,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://www.san-x.co.jp/chickipdancers/","anilistUrl":"https://anilist.co/anime/170659","imageSourceUrl":"https://anilist.co/anime/170659","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/10086","https://youranimes.tw/animes/4377"],"themes":[],"verifiedAt":"2026-09-01"},
   {"anilistId":139587,"id":"curated-139587","slug":"tensei-shitara-ken-deshita","seasonIds":["2022-fall"],"startDate":"2022-10-05","titleJa":"転生したら剣でした","titleZhHant":"轉生就是劍","titleRomaji":"Tensei Shitara Ken Deshita","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx139587-rbZVcigCRtHY.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/139587-XFbotQOPcLC4.jpg","editorialWeekday":3,"broadcastLabel":"原第1季TV TOKYO MX 2022/10/5（水）23:00最早；ABEMA9/28 23:30為一週先行WEB，9/25是特別先行上映配信。S1 onair已改2024再播、根站已S2，精確原期取S1原公告。","status":"finished","officialSiteUrl":"https://tenken-anime.com/s1/","anilistUrl":"https://anilist.co/anime/139587","imageSourceUrl":"https://anilist.co/anime/139587","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/8946","https://youranimes.tw/animes/2865"],"animeThemesUrl":"https://animethemes.moe/anime/tensei_shitara_ken_deshita","themes":[{"type":"OP","sequence":1,"titleJa":"転生したら剣でした","artistDisplayName":"岸田教団＆THE明星ロケッツ","id":"tensei-shitara-ken-deshita-op-1","songId":"tensei-shitara-ken-deshita-op-1-song","sources":[{"label":"動畫官方網站","url":"https://tenken-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/tensei_shitara_ken_deshita","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://tenken-anime.com/s1/music.html","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://tenken-anime.com/s1/news_1.html","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E8%BD%89%E7%94%9F%E5%B0%B1%E6%98%AF%E5%8A%8D","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://tenken-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2022-fall"],"credits":[{"name":"ichigo","role":"vocals"}],"titleRomaji":"Tensei shitara Ken Deshita","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://tenken-anime.com/s1/music.html","https://tenken-anime.com/s1/news_1.html"],"verifiedAt":"2026-10-22","targetId":"tensei-shitara-ken-deshita-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://tenken-anime.com/s1/music.html","https://tenken-anime.com/s1/news_1.html"],"verifiedAt":"2026-10-22","targetId":"tensei-shitara-ken-deshita-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/tensei_shitara_ken_deshita"],"verifiedAt":"2026-09-01","targetId":"tensei-shitara-ken-deshita-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/tensei_shitara_ken_deshita"],"verifiedAt":"2026-09-01","targetId":"tensei-shitara-ken-deshita-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E8%BD%89%E7%94%9F%E5%B0%B1%E6%98%AF%E5%8A%8D"],"verifiedAt":"2026-10-22","targetId":"tensei-shitara-ken-deshita-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E8%BD%89%E7%94%9F%E5%B0%B1%E6%98%AF%E5%8A%8D"],"verifiedAt":"2026-10-22","targetId":"tensei-shitara-ken-deshita-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tenken-anime.com/s1/music.html","https://tenken-anime.com/s1/news_1.html"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈転生したら剣でした〉：S1官方Music及原8/10公告明OP原名／完整團體名義。逐曲ichigo自述歌えた支持個別vocal，不把其他樂器成員推為歌唱；原TV秋季，不以9月WEB加夏。","resumeWhen":"詳細階段沿用本曲已核原期來源，待逐曲第一方明示才補尚缺作者、個別歌唱、錄音、官方影片形式、發行品／收錄與正版平台；不由商品、MV、cast、團體簡介或後續季推特殊用途、full／TV錄音或全員演唱。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":1,"titleJa":"more＜STRONGLY","artistDisplayName":"黒崎真音","id":"tensei-shitara-ken-deshita-ed-1","songId":"tensei-shitara-ken-deshita-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://tenken-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/tensei_shitara_ken_deshita","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://tenken-anime.com/s1/music.html","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://tenken-anime.com/s1/news_1.html","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E8%BD%89%E7%94%9F%E5%B0%B1%E6%98%AF%E5%8A%8D","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://tenken-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2022-fall"],"credits":[{"name":"黒崎真音","role":"vocals"}],"titleRomaji":"more<STRONGLY","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://tenken-anime.com/s1/music.html","https://tenken-anime.com/s1/news_1.html"],"verifiedAt":"2026-10-22","targetId":"tensei-shitara-ken-deshita-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://tenken-anime.com/s1/music.html","https://tenken-anime.com/s1/news_1.html"],"verifiedAt":"2026-10-22","targetId":"tensei-shitara-ken-deshita-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/tensei_shitara_ken_deshita"],"verifiedAt":"2026-09-01","targetId":"tensei-shitara-ken-deshita-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/tensei_shitara_ken_deshita"],"verifiedAt":"2026-09-01","targetId":"tensei-shitara-ken-deshita-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E8%BD%89%E7%94%9F%E5%B0%B1%E6%98%AF%E5%8A%8D"],"verifiedAt":"2026-10-22","targetId":"tensei-shitara-ken-deshita-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E8%BD%89%E7%94%9F%E5%B0%B1%E6%98%AF%E5%8A%8D"],"verifiedAt":"2026-10-22","targetId":"tensei-shitara-ken-deshita-ed-1"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈more＜STRONGLY〉：S1官方原Music／8月公告明ED原名及黒崎真音；小於符號採官方全形＜。不套S2バリバリBuddy，商品TV size不另建錄音。","resumeWhen":"詳細階段沿用本曲已核原期來源，待逐曲第一方明示才補尚缺作者、個別歌唱、錄音、官方影片形式、發行品／收錄與正版平台；不由商品、MV、cast、團體簡介或後續季推特殊用途、full／TV錄音或全員演唱。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"}],"verifiedAt":"2026-09-01","metadataVerifiedAt":"2026-09-01","metadataSources":[{"label":"動畫官方網站：作品與播出資料","url":"https://tenken-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"url":"https://tenken-anime.com/s1/news_1.html","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://tenken-anime.com/s1/","label":"第一方原期動畫資料補充","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://tenken-anime.com/s1/music.html","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"broadcastTimeJst":"23:00"},
   {"anilistId":137341,"id":"curated-137341","slug":"uchi-no-shishou-wa-shippo-ga-nai","seasonIds":["2022-fall","2022-summer"],"startDate":"2022-09-30","titleJa":"うちの師匠はしっぽがない","titleZhHant":"我家師傅沒有尾巴","titleRomaji":"Uchi no Shishou wa Shippo ga Nai","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx137341-vb51oAS0lx37.jpg","editorialWeekday":5,"broadcastLabel":"原TV TOKYO MX 2022/9/30（金）22:30最早，屬2022夏；dアニメ10/1 00:00是其後WEB，MBS第1話10/1 27:00較後。正篇續播至秋，歌曲逐曲夏季另待核。","status":"finished","officialSiteUrl":"https://shippona-anime.com/","anilistUrl":"https://anilist.co/anime/137341","imageSourceUrl":"https://anilist.co/anime/137341","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/8808","https://youranimes.tw/animes/3259"],"animeThemesUrl":"https://animethemes.moe/anime/uchi_no_shishou_wa_shippo_ga_nai","themes":[{"type":"OP","sequence":1,"titleJa":"幻愛遊戯","artistDisplayName":"GARNiDELiA","id":"uchi-no-shishou-wa-shippo-ga-nai-op-1","songId":"uchi-no-shishou-wa-shippo-ga-nai-op-1-song","sources":[{"label":"動畫官方網站","url":"https://shippona-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/uchi_no_shishou_wa_shippo_ga_nai","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://shippona-anime.com/news/archives/122","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://shippona-anime.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E6%88%91%E5%AE%B6%E5%B8%AB%E5%82%85%E6%B2%92%E6%9C%89%E5%B0%BE%E5%B7%B4","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://shippona-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2022-fall"],"credits":[{"name":"MARiA","role":"lyrics"},{"name":"GARNiDELiA","role":"vocals"}],"titleRomaji":"Genai Yuugi","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://shippona-anime.com/news/archives/122"],"verifiedAt":"2026-10-22","targetId":"uchi-no-shishou-wa-shippo-ga-nai-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://shippona-anime.com/news/archives/122"],"verifiedAt":"2026-10-22","targetId":"uchi-no-shishou-wa-shippo-ga-nai-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/uchi_no_shishou_wa_shippo_ga_nai"],"verifiedAt":"2026-09-01","targetId":"uchi-no-shishou-wa-shippo-ga-nai-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/uchi_no_shishou_wa_shippo_ga_nai"],"verifiedAt":"2026-09-01","targetId":"uchi-no-shishou-wa-shippo-ga-nai-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%88%91%E5%AE%B6%E5%B8%AB%E5%82%85%E6%B2%92%E6%9C%89%E5%B0%BE%E5%B7%B4"],"verifiedAt":"2026-10-22","targetId":"uchi-no-shishou-wa-shippo-ga-nai-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%88%91%E5%AE%B6%E5%B8%AB%E5%82%85%E6%B2%92%E6%9C%89%E5%B0%BE%E5%B7%B4"],"verifiedAt":"2026-10-22","targetId":"uchi-no-shishou-wa-shippo-ga-nai-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://shippona-anime.com/news/archives/122"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["use_quarters","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈幻愛遊戯〉：官方原期公告明OP原名與GARNiDELiA，MARiA同頁明自己作詞可保存。9/30音樂配信與TV開播同日並不證本曲首話實用；兩輪定向未得首話逐曲FP，只保秋季並partial夏季，不以全作首日自動套曲。","resumeWhen":"待原9/30第1話製播方逐曲字幕／官方NCOPED明首話實際用曲，才補2022夏；不以音樂9/30配信或整部首播推定。詳細階段沿用本曲已核原期來源，待逐曲第一方明示才補尚缺作者、個別歌唱、錄音、官方影片形式、發行品／收錄與正版平台；不由商品、MV、cast、團體簡介或後續季推特殊用途、full／TV錄音或全員演唱。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":1,"titleJa":"ヴァージニア","artistDisplayName":"Hinano","id":"uchi-no-shishou-wa-shippo-ga-nai-ed-1","songId":"uchi-no-shishou-wa-shippo-ga-nai-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://shippona-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/uchi_no_shishou_wa_shippo_ga_nai","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://shippona-anime.com/news/archives/122","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://shippona-anime.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E6%88%91%E5%AE%B6%E5%B8%AB%E5%82%85%E6%B2%92%E6%9C%89%E5%B0%BE%E5%B7%B4","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://shippona-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2022-fall"],"credits":[{"name":"Hinano","role":"vocals"}],"titleRomaji":"Virginia","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://shippona-anime.com/news/archives/122"],"verifiedAt":"2026-10-22","targetId":"uchi-no-shishou-wa-shippo-ga-nai-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://shippona-anime.com/news/archives/122"],"verifiedAt":"2026-10-22","targetId":"uchi-no-shishou-wa-shippo-ga-nai-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/uchi_no_shishou_wa_shippo_ga_nai"],"verifiedAt":"2026-09-01","targetId":"uchi-no-shishou-wa-shippo-ga-nai-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/uchi_no_shishou_wa_shippo_ga_nai"],"verifiedAt":"2026-09-01","targetId":"uchi-no-shishou-wa-shippo-ga-nai-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%88%91%E5%AE%B6%E5%B8%AB%E5%82%85%E6%B2%92%E6%9C%89%E5%B0%BE%E5%B7%B4"],"verifiedAt":"2026-10-22","targetId":"uchi-no-shishou-wa-shippo-ga-nai-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%88%91%E5%AE%B6%E5%B8%AB%E5%82%85%E6%B2%92%E6%9C%89%E5%B0%BE%E5%B7%B4"],"verifiedAt":"2026-10-22","targetId":"uchi-no-shishou-wa-shippo-ga-nai-ed-1"}],"followUp":[{"fields":["use_quarters","lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈ヴァージニア〉：原期官方公告直接明ED原名／Hinano；9/30歌曲配信不能當首話TV用途證據，兩輪定向仍缺本曲首話FP，只保已證秋季並partial夏季。商品文狐cover不是新TV用途。","resumeWhen":"待原9/30第1話製播方逐曲字幕／官方NCOPED明首話實際用曲，才補2022夏；不以音樂9/30配信或整部首播推定。詳細階段沿用本曲已核原期來源，待逐曲第一方明示才補尚缺作者、個別歌唱、錄音、官方影片形式、發行品／收錄與正版平台；不由商品、MV、cast、團體簡介或後續季推特殊用途、full／TV錄音或全員演唱。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"}],"verifiedAt":"2026-09-01","metadataVerifiedAt":"2026-09-01","metadataSources":[{"url":"https://acgsecrets.hk/bangumi/202210/","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"},{"url":"https://shippona-anime.com/onair/","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://shippona-anime.com/news/archives/122","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"broadcastTimeJst":"22:30"},
-  {"anilistId":148970,"id":"curated-148970","slug":"ginga-eiyuu-densetsu-die-neue-these-sakubou","seasonIds":["2022-fall"],"startDate":"2022-09-30","titleJa":"銀河英雄伝説 Die Neue These 策謀","titleZhHant":"銀河英雄傳說 Die Neue These 策謀","titleRomaji":"Ginga Eiyuu Densetsu: Die Neue These - Sakubou","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b148970-2gLwQ9Bso5r7.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/148970-m7zWb5ywBsEd.jpg","editorialWeekday":5,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://gineiden-anime.com/","anilistUrl":"https://anilist.co/anime/148970","imageSourceUrl":"https://anilist.co/anime/148970","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2022-autumn?display=list_detailed"],"animeThemesUrl":"https://animethemes.moe/anime/ginga_eiyuu_densetsu_die_neue_these_sakubou","themes":[{"type":"OP","sequence":1,"titleJa":"dust","artistDisplayName":"SennaRin"},{"type":"ED","sequence":1,"titleJa":"melt","artistDisplayName":"SennaRin"}],"verifiedAt":"2026-09-01"},
+  {
+  "anilistId": 148970,
+  "id": "curated-148970",
+  "slug": "ginga-eiyuu-densetsu-die-neue-these-sakubou",
+  "seasonIds": [
+    "2022-fall"
+  ],
+  "startDate": "2022-09-30",
+  "titleJa": "銀河英雄伝説 Die Neue These 策謀",
+  "titleZhHant": "銀河英雄傳說 Die Neue These 策謀",
+  "titleRomaji": "Ginga Eiyuu Densetsu: Die Neue These - Sakubou",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b148970-2gLwQ9Bso5r7.png",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/148970-m7zWb5ywBsEd.jpg",
+  "editorialWeekday": 5,
+  "broadcastLabel": "日本首播／時間未整理",
+  "status": "finished",
+  "officialSiteUrl": "https://gineiden-anime.com/",
+  "anilistUrl": "https://anilist.co/anime/148970",
+  "imageSourceUrl": "https://anilist.co/anime/148970",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://annict.com/works/2022-autumn?display=list_detailed"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/ginga_eiyuu_densetsu_die_neue_these_sakubou",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "dust",
+      "artistDisplayName": "SennaRin",
+      "id": "ginga-eiyuu-densetsu-die-neue-these-sakubou-op-1",
+      "songId": "ginga-eiyuu-densetsu-die-neue-these-sakubou-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://gineiden-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/ginga_eiyuu_densetsu_die_neue_these_sakubou",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "url": "https://www.b-ch.com/titles/8679/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "SennaRin",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.b-ch.com/titles/8679/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "ginga-eiyuu-densetsu-die-neue-these-sakubou-op-1-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "各話版來源可對照曲名與演唱名義；原Blu-ray版與TV版的OP／ED映射及季度尚缺直接資料。",
+          "resumeWhen": "待本期TV版逐曲第一方用途表與相應播日資料。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "melt",
+      "artistDisplayName": "SennaRin",
+      "id": "ginga-eiyuu-densetsu-die-neue-these-sakubou-ed-1",
+      "songId": "ginga-eiyuu-densetsu-die-neue-these-sakubou-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://gineiden-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/ginga_eiyuu_densetsu_die_neue_these_sakubou",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "url": "https://www.b-ch.com/titles/8679/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "SennaRin",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.b-ch.com/titles/8679/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "ginga-eiyuu-densetsu-die-neue-these-sakubou-ed-1-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "各話版來源可對照曲名與演唱名義；原Blu-ray版與TV版的OP／ED映射及季度尚缺直接資料。",
+          "resumeWhen": "待本期TV版逐曲第一方用途表與相應播日資料。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    }
+  ],
+  "verifiedAt": "2026-09-01",
+  "metadataVerifiedAt": "2026-09-01",
+  "metadataSources": []
+},
   {"anilistId":155496,"id":"curated-155496","slug":"shinmai-renkinjutsushi-no-tenpo-keiei-mini-anime","seasonIds":["2022-fall"],"startDate":"2022-09-30","titleJa":"新米錬金術師の店舗経営 ミニアニメ","titleZhHant":"菜鳥鍊金術師開店營業中 迷你動畫","titleRomaji":"Shinmai Renkinjutsushi no Tenpo Keiei Mini Anime","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx155496-KXhLbf4NTXGE.png","editorialWeekday":5,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://shinmai-renkin.com/special/minianime.html","anilistUrl":"https://anilist.co/anime/155496","imageSourceUrl":"https://anilist.co/anime/155496","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/10342"],"themes":[],"verifiedAt":"2026-09-01"},
   {"anilistId":124395,"id":"curated-124395","slug":"uzaki-chan-wa-asobitai-double","seasonIds":["2022-fall"],"startDate":"2022-10-01","titleJa":"宇崎ちゃんは遊びたい！ω（だぶる）","titleZhHant":"宇崎學妹想要玩！ 第二季","titleRomaji":"Uzaki-chan wa Asobitai! ω","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx124395-9GeigGh1Ae2f.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/124395-288D9DRXMv04.jpg","editorialWeekday":6,"broadcastLabel":"原第2季TV AT-X 2022/10/1（土）21:00最早；dアニメ同日23:00只地上波先行、較AT-X晚；9/25先行WEB特番不作TV。原官方9/5公告索引實讀，普通news正文0行。","status":"finished","officialSiteUrl":"https://uzakichan.com/","anilistUrl":"https://anilist.co/anime/124395","imageSourceUrl":"https://anilist.co/anime/124395","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2022-autumn?display=list_detailed","https://youranimes.tw/animes/2653"],"animeThemesUrl":"https://animethemes.moe/anime/uzaki_chan_wa_asobitai_double","themes":[{"type":"OP","sequence":1,"titleJa":"いちごいちえ Celebration","artistDisplayName":"鹿乃と宇崎ちゃん","id":"uzaki-chan-wa-asobitai-double-op-1","songId":"uzaki-chan-wa-asobitai-double-op-1-song","sources":[{"label":"動畫官方網站","url":"https://uzakichan.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/uzaki_chan_wa_asobitai_double","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://uzakichan.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://uzakichan.com/news/index.html","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://uzakichan.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2022-fall"],"credits":[{"name":"田代智一","role":"lyrics"},{"name":"鹿乃","role":"vocals"},{"name":"大空直美（宇崎花）","role":"vocals"}],"titleRomaji":"Ichigo Ichie Celebration","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://uzakichan.com/music/"],"verifiedAt":"2026-10-22","targetId":"uzaki-chan-wa-asobitai-double-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://uzakichan.com/music/"],"verifiedAt":"2026-10-22","targetId":"uzaki-chan-wa-asobitai-double-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/uzaki_chan_wa_asobitai_double"],"verifiedAt":"2026-09-01","targetId":"uzaki-chan-wa-asobitai-double-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/uzaki_chan_wa_asobitai_double"],"verifiedAt":"2026-09-01","targetId":"uzaki-chan-wa-asobitai-double-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://uzakichan.com/music/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈いちごいちえ Celebration〉：原第2季官方Music搜尋索引明原名／歌唱鹿乃と宇崎ちゃん及詞田代智一，鹿乃逐曲評論明與宇崎ちゃん（CV大空直美）共同担当；依逐曲明示補兩個vocal，不把cast清單當歌唱。普通Music正文只框架，原music.html為S1已排除。","resumeWhen":"詳細階段沿用本曲已核原期來源，待逐曲第一方明示才補尚缺作者、個別歌唱、錄音、官方影片形式、發行品／收錄與正版平台；不由商品、MV、cast、團體簡介或後續季推特殊用途、full／TV錄音或全員演唱。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":1,"titleJa":"はっぴーらいふ","artistDisplayName":"MKLNtic","id":"uzaki-chan-wa-asobitai-double-ed-1","songId":"uzaki-chan-wa-asobitai-double-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://uzakichan.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/uzaki_chan_wa_asobitai_double","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://uzakichan.com/news/index.html","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://uzakichan.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2022-fall"],"credits":[{"name":"Chinozo","role":"lyrics"},{"name":"Chinozo","role":"composition"},{"name":"Chinozo","role":"arrangement"},{"name":"MKLNtic","role":"vocals"}],"titleRomaji":"Happy Life","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://uzakichan.com/news/index.html"],"verifiedAt":"2026-10-22","targetId":"uzaki-chan-wa-asobitai-double-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://uzakichan.com/news/index.html"],"verifiedAt":"2026-10-22","targetId":"uzaki-chan-wa-asobitai-double-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/uzaki_chan_wa_asobitai_double"],"verifiedAt":"2026-09-01","targetId":"uzaki-chan-wa-asobitai-double-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/uzaki_chan_wa_asobitai_double"],"verifiedAt":"2026-09-01","targetId":"uzaki-chan-wa-asobitai-double-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://uzakichan.com/news/index.html"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈はっぴーらいふ〉：官方9/5 ED公告及9/22 PV公告索引明本曲原名／MKLNtic、詞曲編Chinozo；索引可逐項讀，普通news全文0行。11/30實體EP曾取消，未當已發行CD；本次不展開發行詳細或由雙人成員簡介推全員vocals。","resumeWhen":"詳細階段沿用本曲已核原期來源，待逐曲第一方明示才補尚缺作者、個別歌唱、錄音、官方影片形式、發行品／收錄與正版平台；不由商品、MV、cast、團體簡介或後續季推特殊用途、full／TV錄音或全員演唱。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"}],"verifiedAt":"2026-09-01","metadataVerifiedAt":"2026-09-01","metadataSources":[{"url":"https://uzakichan.com/news/index.html","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://uzakichan.com/music/","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"broadcastTimeJst":"21:00"},
   {"anilistId":139630,"id":"curated-139630","slug":"boku-no-hero-academia-6th-season","seasonIds":["2022-fall","2023-winter"],"startDate":"2022-10-01","titleJa":"僕のヒーローアカデミア６","titleZhHant":"我的英雄學院 第六季","titleRomaji":"Boku no Hero Academia 6","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx139630-3v4gxWtNZxLV.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/139630-XLc90c6CJjZv.jpg","editorialWeekday":6,"broadcastLabel":"原第6期TV：官方2022/7/24公告明2022年10月1日（土）起、讀賣／日本テレビ系每週六夕方5:30；先行宣傳特番不是動畫首播。","status":"finished","officialSiteUrl":"https://heroaca.com/","anilistUrl":"https://anilist.co/anime/139630","imageSourceUrl":"https://anilist.co/anime/139630","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2022-autumn?display=list_detailed","https://youranimes.tw/animes/2888"],"animeThemesUrl":"https://animethemes.moe/anime/boku_no_hero_academia_6th_season","themes":[{"type":"OP","sequence":1,"titleJa":"ひたむき","artistDisplayName":"SUPER BEAVER","id":"boku-no-hero-academia-6th-season-op-1","songId":"boku-no-hero-academia-6th-season-op-1-song","sources":[{"label":"動畫官方網站","url":"https://heroaca.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/boku_no_hero_academia_6th_season","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://heroaca.com/music/music_6th/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://heroaca.com/news/16358/index.html","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.heroaca.com/news/16134/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://moegirl.uk/index.php?title=%E6%88%91%E7%9A%84%E8%8B%B1%E9%9B%84%E5%AD%A6%E9%99%A2&variant=zh-tw","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://heroaca.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2022-fall"],"credits":[{"name":"SUPER BEAVER","role":"vocals"}],"titleRomaji":"Hitamuki","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://heroaca.com/music/music_6th/","https://heroaca.com/news/16358/index.html"],"verifiedAt":"2026-10-22","targetId":"boku-no-hero-academia-6th-season-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://heroaca.com/music/music_6th/","https://heroaca.com/news/16358/index.html"],"verifiedAt":"2026-10-22","targetId":"boku-no-hero-academia-6th-season-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/boku_no_hero_academia_6th_season"],"verifiedAt":"2026-09-01","targetId":"boku-no-hero-academia-6th-season-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/boku_no_hero_academia_6th_season"],"verifiedAt":"2026-09-01","targetId":"boku-no-hero-academia-6th-season-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://moegirl.uk/index.php?title=%E6%88%91%E7%9A%84%E8%8B%B1%E9%9B%84%E5%AD%A6%E9%99%A2&variant=zh-tw"],"verifiedAt":"2026-10-22","targetId":"boku-no-hero-academia-6th-season-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://moegirl.uk/index.php?title=%E6%88%91%E7%9A%84%E8%8B%B1%E9%9B%84%E5%AD%A6%E9%99%A2&variant=zh-tw"],"verifiedAt":"2026-10-22","targetId":"boku-no-hero-academia-6th-season-op-1"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈ひたむき〉：官方第6期music明第1クールOP；原公告明10/1初回起播，中文逐曲114–126話交叉。只列2022秋，不將動畫後半冬季自動套給前半曲。","resumeWhen":"詳細階段沿用已核原期來源，待第一方逐曲明示尚缺詞曲編、錄音格式、官方影片形式、發行收錄或正版平台入口後只補相應欄位；MV／NC形式不自動證TV音源或新錄音，不因不同影片或商品另造歌曲。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"OP","sequence":2,"titleJa":"ぼくらの","artistDisplayName":"Eve","id":"boku-no-hero-academia-6th-season-op-2","songId":"boku-no-hero-academia-6th-season-op-2-song","sources":[{"label":"動畫官方網站","url":"https://heroaca.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/boku_no_hero_academia_6th_season","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://heroaca.com/music/music_6th/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://heroaca.com/news/17927/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.heroaca.com/news/16134/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://moegirl.uk/index.php?title=%E6%88%91%E7%9A%84%E8%8B%B1%E9%9B%84%E5%AD%A6%E9%99%A2&variant=zh-tw","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://heroaca.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-winter"],"credits":[{"name":"Eve","role":"vocals"}],"titleRomaji":"Bokura no","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://heroaca.com/music/music_6th/","https://heroaca.com/news/17927/"],"verifiedAt":"2026-10-22","targetId":"boku-no-hero-academia-6th-season-op-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://heroaca.com/music/music_6th/","https://heroaca.com/news/17927/"],"verifiedAt":"2026-10-22","targetId":"boku-no-hero-academia-6th-season-op-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/boku_no_hero_academia_6th_season"],"verifiedAt":"2026-09-01","targetId":"boku-no-hero-academia-6th-season-op-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/boku_no_hero_academia_6th_season"],"verifiedAt":"2026-09-01","targetId":"boku-no-hero-academia-6th-season-op-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://moegirl.uk/index.php?title=%E6%88%91%E7%9A%84%E8%8B%B1%E9%9B%84%E5%AD%A6%E9%99%A2&variant=zh-tw"],"verifiedAt":"2026-10-22","targetId":"boku-no-hero-academia-6th-season-op-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://moegirl.uk/index.php?title=%E6%88%91%E7%9A%84%E8%8B%B1%E9%9B%84%E5%AD%A6%E9%99%A2&variant=zh-tw"],"verifiedAt":"2026-10-22","targetId":"boku-no-hero-academia-6th-season-op-2"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈ぼくらの〉：官方2023/1/7明第2クール初回通算127話新OP；中文逐曲127–138話交叉。本曲只列2023冬，不能因動畫2022秋開播而套秋。","resumeWhen":"詳細階段沿用已核原期來源，待第一方逐曲明示尚缺詞曲編、錄音格式、官方影片形式、發行收錄或正版平台入口後只補相應欄位；MV／NC形式不自動證TV音源或新錄音，不因不同影片或商品另造歌曲。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":1,"titleJa":"SKETCH","artistDisplayName":"秋山黄色","id":"boku-no-hero-academia-6th-season-ed-1","songId":"boku-no-hero-academia-6th-season-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://heroaca.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/boku_no_hero_academia_6th_season","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://heroaca.com/music/music_6th/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://heroaca.com/news/16358/index.html","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.heroaca.com/news/16134/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://moegirl.uk/index.php?title=%E6%88%91%E7%9A%84%E8%8B%B1%E9%9B%84%E5%AD%A6%E9%99%A2&variant=zh-tw","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://heroaca.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2022-fall"],"credits":[{"name":"秋山黄色","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://heroaca.com/music/music_6th/","https://heroaca.com/news/16358/index.html"],"verifiedAt":"2026-10-22","targetId":"boku-no-hero-academia-6th-season-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://heroaca.com/music/music_6th/","https://heroaca.com/news/16358/index.html"],"verifiedAt":"2026-10-22","targetId":"boku-no-hero-academia-6th-season-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/boku_no_hero_academia_6th_season"],"verifiedAt":"2026-09-01","targetId":"boku-no-hero-academia-6th-season-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/boku_no_hero_academia_6th_season"],"verifiedAt":"2026-09-01","targetId":"boku-no-hero-academia-6th-season-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://moegirl.uk/index.php?title=%E6%88%91%E7%9A%84%E8%8B%B1%E9%9B%84%E5%AD%A6%E9%99%A2&variant=zh-tw"],"verifiedAt":"2026-10-22","targetId":"boku-no-hero-academia-6th-season-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://moegirl.uk/index.php?title=%E6%88%91%E7%9A%84%E8%8B%B1%E9%9B%84%E5%AD%A6%E9%99%A2&variant=zh-tw"],"verifiedAt":"2026-10-22","targetId":"boku-no-hero-academia-6th-season-ed-1"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈SKETCH〉：官方第6期music明第1クールED；原公告明10/1初回起播，中文逐曲114–126話交叉。12/24次回預告的新曲不更改本曲前半用途。","resumeWhen":"詳細階段沿用已核原期來源，待第一方逐曲明示尚缺詞曲編、錄音格式、官方影片形式、發行收錄或正版平台入口後只補相應欄位；MV／NC形式不自動證TV音源或新錄音，不因不同影片或商品另造歌曲。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":2,"titleJa":"キタカゼ","artistDisplayName":"SIX LOUNGE","id":"boku-no-hero-academia-6th-season-ed-2","songId":"boku-no-hero-academia-6th-season-ed-2-song","sources":[{"label":"動畫官方網站","url":"https://heroaca.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/boku_no_hero_academia_6th_season","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://heroaca.com/music/music_6th/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://heroaca.com/news/17887/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.heroaca.com/news/16134/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://moegirl.uk/index.php?title=%E6%88%91%E7%9A%84%E8%8B%B1%E9%9B%84%E5%AD%A6%E9%99%A2&variant=zh-tw","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://heroaca.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-winter"],"credits":[{"name":"SIX LOUNGE","role":"vocals"}],"titleRomaji":"Kitakaze","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://heroaca.com/music/music_6th/","https://heroaca.com/news/17887/"],"verifiedAt":"2026-10-22","targetId":"boku-no-hero-academia-6th-season-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://heroaca.com/music/music_6th/","https://heroaca.com/news/17887/"],"verifiedAt":"2026-10-22","targetId":"boku-no-hero-academia-6th-season-ed-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/boku_no_hero_academia_6th_season"],"verifiedAt":"2026-09-01","targetId":"boku-no-hero-academia-6th-season-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/boku_no_hero_academia_6th_season"],"verifiedAt":"2026-09-01","targetId":"boku-no-hero-academia-6th-season-ed-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://moegirl.uk/index.php?title=%E6%88%91%E7%9A%84%E8%8B%B1%E9%9B%84%E5%AD%A6%E9%99%A2&variant=zh-tw"],"verifiedAt":"2026-10-22","targetId":"boku-no-hero-academia-6th-season-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://moegirl.uk/index.php?title=%E6%88%91%E7%9A%84%E8%8B%B1%E9%9B%84%E5%AD%A6%E9%99%A2&variant=zh-tw"],"verifiedAt":"2026-10-22","targetId":"boku-no-hero-academia-6th-season-ed-2"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈キタカゼ〉：官方明2023/1/7起第2クール新ED；中文逐曲127–138話交叉。2022/12/24僅在下集預告先行解禁，不視為該日第126話ED用途。","resumeWhen":"詳細階段沿用已核原期來源，待第一方逐曲明示尚缺詞曲編、錄音格式、官方影片形式、發行收錄或正版平台入口後只補相應欄位；MV／NC形式不自動證TV音源或新錄音，不因不同影片或商品另造歌曲。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"}],"verifiedAt":"2026-09-01","metadataVerifiedAt":"2026-09-01","metadataSources":[{"url":"https://www.heroaca.com/news/16134/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://heroaca.com/news/17927/","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://heroaca.com/news/17887/","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://heroaca.com/music/music_6th/","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://heroaca.com/news/16358/index.html","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"broadcastTimeJst":"17:30"},
@@ -40,7 +731,238 @@ export const curated2022FallSeeds: CuratedAnimeSeed[] = [
   {"anilistId":135515,"id":"curated-135515","slug":"reiwa-no-di-gi-charat","seasonIds":["2022-fall"],"startDate":"2022-10-07","titleJa":"令和のデ・ジ・キャラット","titleZhHant":"令和的鈴鐺貓娘","titleRomaji":"Reiwa no Di Gi Charat","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135515-NHm4gujHa9it.jpg","editorialWeekday":5,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://digicharat-reiwa.com/","anilistUrl":"https://anilist.co/anime/135515","imageSourceUrl":"https://anilist.co/anime/135515","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/8786","https://youranimes.tw/animes/3403"],"animeThemesUrl":"https://animethemes.moe/anime/reiwa_no_di_gi_charat","themes":[{"type":"OP","sequence":1,"titleJa":"Aimaisa, Koufukuron","artistDisplayName":"Masami Okui"}],"verifiedAt":"2026-09-01"},
   {"anilistId":142541,"id":"curated-142541","slug":"megaton-kyuu-musashi-2nd-season","seasonIds":["2022-fall","2023-winter"],"startDate":"2022-10-07","titleJa":"メガトン級ムサシ シーズン2","titleZhHant":"百萬噸級武藏 第二季","titleRomaji":"Megaton-kyuu Musashi Season 2","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142541-TNfMHUf8kcdV.jpg","editorialWeekday":5,"broadcastLabel":"原TV：TOKYO MX 2022年10月7日（金）22時。9月24日劇場先行上映及10月2日第一季總集篇另計；現onair頁2024年MX時段為再放送。","status":"finished","officialSiteUrl":"https://www.megaton-musashi.jp/portal/anime/","anilistUrl":"https://anilist.co/anime/142541","imageSourceUrl":"https://anilist.co/anime/142541","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/9198","https://youranimes.tw/animes/3781"],"animeThemesUrl":"https://animethemes.moe/anime/megaton_kyuu_musashi_2nd_season","themes":[{"type":"OP","sequence":1,"titleJa":"英雄のうた","artistDisplayName":"松浦航大","id":"megaton-kyuu-musashi-2nd-season-op-1","songId":"megaton-kyuu-musashi-2nd-season-op-1-song","sources":[{"label":"動畫官方網站","url":"https://www.megaton-musashi.jp/portal/anime/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/megaton_kyuu_musashi_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://www.megaton-musashi.jp/portal/anime/movie/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.megaton-musashi.jp/portal/topics/preview2/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.mau2.com/anime/megatonkyuumusasi-2","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://cal.syoboi.jp/tid/6492/goods","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://www.megaton-musashi.jp/portal/anime/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2022-fall","2023-winter"],"credits":[{"name":"松浦航大","role":"vocals"}],"titleRomaji":"Eiyuu no Uta","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.megaton-musashi.jp/portal/anime/movie/"],"verifiedAt":"2026-10-22","targetId":"megaton-kyuu-musashi-2nd-season-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.megaton-musashi.jp/portal/anime/movie/"],"verifiedAt":"2026-10-22","targetId":"megaton-kyuu-musashi-2nd-season-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/megaton_kyuu_musashi_2nd_season"],"verifiedAt":"2026-09-01","targetId":"megaton-kyuu-musashi-2nd-season-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/megaton_kyuu_musashi_2nd_season"],"verifiedAt":"2026-09-01","targetId":"megaton-kyuu-musashi-2nd-season-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.mau2.com/anime/megatonkyuumusasi-2"],"verifiedAt":"2026-10-22","targetId":"megaton-kyuu-musashi-2nd-season-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.mau2.com/anime/megatonkyuumusasi-2"],"verifiedAt":"2026-10-22","targetId":"megaton-kyuu-musashi-2nd-season-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://cal.syoboi.jp/tid/6492/goods"],"verifiedAt":"2026-10-22","targetId":"megaton-kyuu-musashi-2nd-season-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://cal.syoboi.jp/tid/6492/goods"],"verifiedAt":"2026-10-22","targetId":"megaton-kyuu-musashi-2nd-season-op-1"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈英雄のうた〉：官方Season2 NCOP／NCED列表直接明曲名、演唱及用途；逐話CC分別涵蓋秋季與冬季，第23／24話等冬季仍有原曲，不把延播後其他特殊ED套本曲。","resumeWhen":"詳細階段沿本曲已核來源，待逐曲第一方明示再補未列作者、個別歌唱、錄音、影片形式、發行及正版平台；不由商品、cast、遊戲原曲或MV推TV用途及新錄音。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":1,"titleJa":"迷える羊たちの挽歌","artistDisplayName":"小林マナ","id":"megaton-kyuu-musashi-2nd-season-ed-1","songId":"megaton-kyuu-musashi-2nd-season-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://www.megaton-musashi.jp/portal/anime/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/megaton_kyuu_musashi_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://www.megaton-musashi.jp/portal/anime/movie/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.megaton-musashi.jp/portal/topics/preview2/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.mau2.com/anime/megatonkyuumusasi-2","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://cal.syoboi.jp/tid/6492/goods","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://www.megaton-musashi.jp/portal/anime/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2022-fall","2023-winter"],"credits":[{"name":"小林マナ","role":"vocals"}],"titleRomaji":"Mayoeru Hitsujitachi no Banka","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.megaton-musashi.jp/portal/anime/movie/"],"verifiedAt":"2026-10-22","targetId":"megaton-kyuu-musashi-2nd-season-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.megaton-musashi.jp/portal/anime/movie/"],"verifiedAt":"2026-10-22","targetId":"megaton-kyuu-musashi-2nd-season-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/megaton_kyuu_musashi_2nd_season"],"verifiedAt":"2026-09-01","targetId":"megaton-kyuu-musashi-2nd-season-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/megaton_kyuu_musashi_2nd_season"],"verifiedAt":"2026-09-01","targetId":"megaton-kyuu-musashi-2nd-season-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.mau2.com/anime/megatonkyuumusasi-2"],"verifiedAt":"2026-10-22","targetId":"megaton-kyuu-musashi-2nd-season-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.mau2.com/anime/megatonkyuumusasi-2"],"verifiedAt":"2026-10-22","targetId":"megaton-kyuu-musashi-2nd-season-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://cal.syoboi.jp/tid/6492/goods"],"verifiedAt":"2026-10-22","targetId":"megaton-kyuu-musashi-2nd-season-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://cal.syoboi.jp/tid/6492/goods"],"verifiedAt":"2026-10-22","targetId":"megaton-kyuu-musashi-2nd-season-ed-1"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈迷える羊たちの挽歌〉：官方Season2 NCOP／NCED列表直接明曲名、演唱及用途；逐話CC分別涵蓋秋季與冬季，第23／24話等冬季仍有原曲，不把延播後其他特殊ED套本曲。","resumeWhen":"詳細階段沿本曲已核來源，待逐曲第一方明示再補未列作者、個別歌唱、錄音、影片形式、發行及正版平台；不由商品、cast、遊戲原曲或MV推TV用途及新錄音。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":2,"titleJa":"Endless Way","artistDisplayName":"Yuki Sugiyama","id":"megaton-kyuu-musashi-2nd-season-ed-2","songId":"megaton-kyuu-musashi-2nd-season-ed-2-song","sources":[{"label":"動畫官方網站","url":"https://www.megaton-musashi.jp/portal/anime/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/megaton_kyuu_musashi_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://www.megaton-musashi.jp/portal/topics/preview2/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.mau2.com/anime/megatonkyuumusasi-2","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://cal.syoboi.jp/tid/6492/goods","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://www.megaton-musashi.jp/portal/anime/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":[],"credits":[],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/megaton_kyuu_musashi_2nd_season"],"verifiedAt":"2026-09-01","targetId":"megaton-kyuu-musashi-2nd-season-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/megaton_kyuu_musashi_2nd_season"],"verifiedAt":"2026-09-01","targetId":"megaton-kyuu-musashi-2nd-season-ed-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.mau2.com/anime/megatonkyuumusasi-2"],"verifiedAt":"2026-10-22","targetId":"megaton-kyuu-musashi-2nd-season-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.mau2.com/anime/megatonkyuumusasi-2"],"verifiedAt":"2026-10-22","targetId":"megaton-kyuu-musashi-2nd-season-ed-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://cal.syoboi.jp/tid/6492/goods"],"verifiedAt":"2026-10-22","targetId":"megaton-kyuu-musashi-2nd-season-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://cal.syoboi.jp/tid/6492/goods"],"verifiedAt":"2026-10-22","targetId":"megaton-kyuu-musashi-2nd-season-ed-2"}],"followUp":[{"fields":["basic_evidence","use_quarters","lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈Endless Way〉：CC可見第26話ED及後續IN，但兩輪未得本曲演唱／原TV ED的明確第一方；保原ID、ED類型與舊名義，不由商品或逐話CC單獨升已核。","resumeWhen":"待官方原期逐話片尾、可讀官方NCED索引或本曲公告直接明本用途的歌曲與演唱版本，再按原TV逐話日期確認季度。詳細階段沿本曲已核來源，待逐曲第一方明示再補未列作者、個別歌唱、錄音、影片形式、發行及正版平台；不由商品、cast、遊戲原曲或MV推TV用途及新錄音。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"}],"verifiedAt":"2026-09-01","metadataVerifiedAt":"2026-09-01","metadataSources":[{"url":"https://www.mau2.com/anime/megatonkyuumusasi-2","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.megaton-musashi.jp/portal/topics/preview2/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.megaton-musashi.jp/portal/topics/230217/","label":"第一方原期動畫資料補充","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.megaton-musashi.jp/portal/anime/movie/","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"broadcastTimeJst":"22:00"},
   {"anilistId":151379,"id":"curated-151379","slug":"akiba-maid-sensou","seasonIds":["2022-fall"],"startDate":"2022-10-07","titleJa":"アキバ冥途戦争","titleZhHant":"秋葉原冥途戰爭","titleRomaji":"Akiba Meido Sensou","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151379-JxxgTgSViXZL.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/151379-9adZHzFGBTpV.jpg","editorialWeekday":5,"broadcastLabel":"原TV：TOKYO MX／BS11等節目表2022年10月6日（木）24:00，實際10月7日00:00；AT-X為10月7日21:30較晚。","status":"finished","officialSiteUrl":"https://akibamaidwar.com/","anilistUrl":"https://anilist.co/anime/151379","imageSourceUrl":"https://anilist.co/anime/151379","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/9715","https://youranimes.tw/animes/3770"],"animeThemesUrl":"https://animethemes.moe/anime/akiba_maid_sensou","themes":[{"type":"OP","sequence":1,"titleJa":"メイド大回転","artistDisplayName":"とんとことんスタッフ一同","id":"akiba-maid-sensou-op-1","songId":"akiba-maid-sensou-op-1-song","sources":[{"label":"動畫官方網站","url":"https://akibamaidwar.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/akiba_maid_sensou","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://akibamaidwar.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://akibamaidwar.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.scoop.co.jp/topics/?nid=99","label":"第一方本期名義／角色對照補充；未推未列逐曲職位","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E7%A7%8B%E8%91%89%E5%8E%9F%E5%86%A5%E9%80%94%E6%88%B0%E7%88%AD","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://akibamaidwar.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2022-fall"],"credits":[{"name":"SHIBU","role":"lyrics"},{"name":"SHIBU","role":"composition"},{"name":"SHIBU","role":"arrangement"},{"name":"とんとことんスタッフ一同","role":"vocals"}],"titleRomaji":"Maid Daikaiten","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://akibamaidwar.com/music/"],"verifiedAt":"2026-10-22","targetId":"akiba-maid-sensou-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://akibamaidwar.com/music/"],"verifiedAt":"2026-10-22","targetId":"akiba-maid-sensou-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/akiba_maid_sensou"],"verifiedAt":"2026-09-01","targetId":"akiba-maid-sensou-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/akiba_maid_sensou"],"verifiedAt":"2026-09-01","targetId":"akiba-maid-sensou-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E7%A7%8B%E8%91%89%E5%8E%9F%E5%86%A5%E9%80%94%E6%88%B0%E7%88%AD"],"verifiedAt":"2026-10-22","targetId":"akiba-maid-sensou-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E7%A7%8B%E8%91%89%E5%8E%9F%E5%86%A5%E9%80%94%E6%88%B0%E7%88%AD"],"verifiedAt":"2026-10-22","targetId":"akiba-maid-sensou-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.scoop.co.jp/topics/?nid=99"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability","lyrics"],"note":"〈メイド大回転〉：作品Music直接列OP及正式團體名義；SCOOP自家參與作品公告明SHIBU共作詞／作曲／編曲，未把全cast表推為本曲逐人演唱。","resumeWhen":"待原單曲／官方曲目credits明OP另一共同作詞名義，補全lyrics名單；詳細階段沿本曲已核來源，待逐曲第一方明示再補未列作者、個別歌唱、錄音、影片形式、發行及正版平台；不由商品、cast、遊戲原曲或MV推TV用途及新錄音。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":1,"titleJa":"冥途の子守唄","artistDisplayName":"万年嵐子（CV：佐藤利奈）","id":"akiba-maid-sensou-ed-1","songId":"akiba-maid-sensou-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://akibamaidwar.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/akiba_maid_sensou","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://akibamaidwar.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://akibamaidwar.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.scoop.co.jp/topics/?nid=99","label":"第一方本期名義／角色對照補充；未推未列逐曲職位","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E7%A7%8B%E8%91%89%E5%8E%9F%E5%86%A5%E9%80%94%E6%88%B0%E7%88%AD","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://akibamaidwar.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2022-fall"],"credits":[{"name":"磯崎健史","role":"lyrics"},{"name":"磯崎健史","role":"composition"},{"name":"磯崎健史","role":"arrangement"},{"name":"万年嵐子（CV：佐藤利奈）","role":"vocals"}],"titleRomaji":"Meido no Komoriuta","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://akibamaidwar.com/music/"],"verifiedAt":"2026-10-22","targetId":"akiba-maid-sensou-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://akibamaidwar.com/music/"],"verifiedAt":"2026-10-22","targetId":"akiba-maid-sensou-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/akiba_maid_sensou"],"verifiedAt":"2026-09-01","targetId":"akiba-maid-sensou-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/akiba_maid_sensou"],"verifiedAt":"2026-09-01","targetId":"akiba-maid-sensou-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E7%A7%8B%E8%91%89%E5%8E%9F%E5%86%A5%E9%80%94%E6%88%B0%E7%88%AD"],"verifiedAt":"2026-10-22","targetId":"akiba-maid-sensou-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E7%A7%8B%E8%91%89%E5%8E%9F%E5%86%A5%E9%80%94%E6%88%B0%E7%88%AD"],"verifiedAt":"2026-10-22","targetId":"akiba-maid-sensou-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.scoop.co.jp/topics/?nid=99"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈冥途の子守唄〉：作品Music明原ED與万年嵐子歌唱；SCOOP自家公告明磯崎健史LCA。中文CC把第12話近藤版另列，不以本普通ED頁證該版本。","resumeWhen":"詳細階段沿本曲已核來源，待逐曲第一方明示再補未列作者、個別歌唱、錄音、影片形式、發行及正版平台；不由商品、cast、遊戲原曲或MV推TV用途及新錄音。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":2,"titleJa":"一生女の子宣言☆","artistDisplayName":"Rina Satou","id":"akiba-maid-sensou-ed-2","songId":"akiba-maid-sensou-ed-2-song","sources":[{"label":"動畫官方網站","url":"https://akibamaidwar.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/akiba_maid_sensou","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://www.scoop.co.jp/topics/?nid=99","label":"第一方僅證本曲原名；演唱名義及本期TV用途待核","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://akibamaidwar.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E7%A7%8B%E8%91%89%E5%8E%9F%E5%86%A5%E9%80%94%E6%88%B0%E7%88%AD","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://akibamaidwar.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":[],"credits":[{"name":"nobara kaede","role":"lyrics"},{"name":"川崎智哉","role":"lyrics"},{"name":"川崎智哉","role":"composition"},{"name":"川崎智哉","role":"arrangement"}],"titleRomaji":"Isshou Onnanoko Sengen","evidence":[{"target":"song","fields":["title"],"sourceUrls":["https://www.scoop.co.jp/topics/?nid=99"],"verifiedAt":"2026-10-22","targetId":"akiba-maid-sensou-ed-2-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/akiba_maid_sensou"],"verifiedAt":"2026-09-01","targetId":"akiba-maid-sensou-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/akiba_maid_sensou"],"verifiedAt":"2026-09-01","targetId":"akiba-maid-sensou-ed-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E7%A7%8B%E8%91%89%E5%8E%9F%E5%86%A5%E9%80%94%E6%88%B0%E7%88%AD"],"verifiedAt":"2026-10-22","targetId":"akiba-maid-sensou-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E7%A7%8B%E8%91%89%E5%8E%9F%E5%86%A5%E9%80%94%E6%88%B0%E7%88%AD"],"verifiedAt":"2026-10-22","targetId":"akiba-maid-sensou-ed-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.scoop.co.jp/topics/?nid=99"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["basic_evidence","use_quarters","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈一生女の子宣言☆〉：SCOOP自家作品公告直接明第5話ED曲名及作者，但未明演唱名義；兩輪未讀到原期官方本曲佐藤版歌唱證據。保舊名義，held不公開確認季度。","resumeWhen":"待官方原期逐話片尾、可讀官方NCED索引或本曲公告直接明本用途的歌曲與演唱版本，再按原TV逐話日期確認季度。詳細階段沿本曲已核來源，待逐曲第一方明示再補未列作者、個別歌唱、錄音、影片形式、發行及正版平台；不由商品、cast、遊戲原曲或MV推TV用途及新錄音。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":3,"titleJa":"冥途の子守唄","artistDisplayName":"Reina Kondou","id":"akiba-maid-sensou-ed-3","songId":"akiba-maid-sensou-ed-3-song","sources":[{"label":"動畫官方網站","url":"https://akibamaidwar.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/akiba_maid_sensou","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://akibamaidwar.com/music/","label":"第一方僅證本曲原名；演唱名義及本期TV用途待核","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://akibamaidwar.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E7%A7%8B%E8%91%89%E5%8E%9F%E5%86%A5%E9%80%94%E6%88%B0%E7%88%AD","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://akibamaidwar.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":[],"credits":[],"titleRomaji":"Meido no Komoriuta","evidence":[{"target":"song","fields":["title"],"sourceUrls":["https://akibamaidwar.com/music/"],"verifiedAt":"2026-10-22","targetId":"akiba-maid-sensou-ed-3-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/akiba_maid_sensou"],"verifiedAt":"2026-09-01","targetId":"akiba-maid-sensou-ed-3-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/akiba_maid_sensou"],"verifiedAt":"2026-09-01","targetId":"akiba-maid-sensou-ed-3"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E7%A7%8B%E8%91%89%E5%8E%9F%E5%86%A5%E9%80%94%E6%88%B0%E7%88%AD"],"verifiedAt":"2026-10-22","targetId":"akiba-maid-sensou-ed-3-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E7%A7%8B%E8%91%89%E5%8E%9F%E5%86%A5%E9%80%94%E6%88%B0%E7%88%AD"],"verifiedAt":"2026-10-22","targetId":"akiba-maid-sensou-ed-3"}],"followUp":[{"fields":["basic_evidence","use_quarters","lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈冥途の子守唄〉：中文逐話資料明第12話和平なごみ版，但作品Music只列万年嵐子；兩輪未得官方近藤版歌唱及逐話ED的直接明證。保舊名義，不由cast表或一般ED頁套此版本。","resumeWhen":"待官方原期逐話片尾、可讀官方NCED索引或本曲公告直接明本用途的歌曲與演唱版本，再按原TV逐話日期確認季度。詳細階段沿本曲已核來源，待逐曲第一方明示再補未列作者、個別歌唱、錄音、影片形式、發行及正版平台；不由商品、cast、遊戲原曲或MV推TV用途及新錄音。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"}],"verifiedAt":"2026-09-01","metadataVerifiedAt":"2026-09-01","metadataSources":[{"url":"https://zh.wikipedia.org/wiki/%E7%A7%8B%E8%91%89%E5%8E%9F%E5%86%A5%E9%80%94%E6%88%B0%E7%88%AD","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"},{"url":"https://akibamaidwar.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://akibamaidwar.com/music/","label":"第一方僅證本曲原名；演唱名義及本期TV用途待核","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.scoop.co.jp/topics/?nid=99","label":"第一方僅證本曲原名；演唱名義及本期TV用途待核","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"broadcastTimeJst":"00:00"},
-  {"anilistId":151803,"id":"curated-151803","slug":"tiger-bunny-2-part-2","seasonIds":["2022-fall"],"startDate":"2022-10-07","titleJa":"TIGER & BUNNY 2 パート2","titleZhHant":"TIGER & BUNNY 2 Part 2","titleRomaji":"TIGER & BUNNY 2 Part 2","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151803-g74NJw5pUNrR.jpg","editorialWeekday":5,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://www.tigerandbunny.net/TB2/","anilistUrl":"https://anilist.co/anime/151803","imageSourceUrl":"https://anilist.co/anime/151803","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/9827","https://youranimes.tw/animes/3782"],"animeThemesUrl":"https://animethemes.moe/anime/tiger_bunny_2_part_2","themes":[{"type":"OP","sequence":1,"titleJa":"kaleido proud fiesta","artistDisplayName":"UNISON SQUARE GARDEN"},{"type":"ED","sequence":1,"titleJa":"Pilot","artistDisplayName":"Taichi Mukai"}],"verifiedAt":"2026-09-01"},
+  {
+  "anilistId": 151803,
+  "id": "curated-151803",
+  "slug": "tiger-bunny-2-part-2",
+  "seasonIds": [
+    "2022-fall"
+  ],
+  "startDate": "2022-10-07",
+  "titleJa": "TIGER & BUNNY 2 パート2",
+  "titleZhHant": "TIGER & BUNNY 2 Part 2",
+  "titleRomaji": "TIGER & BUNNY 2 Part 2",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151803-g74NJw5pUNrR.jpg",
+  "editorialWeekday": 5,
+  "broadcastLabel": "日本首播／時間未整理",
+  "status": "finished",
+  "officialSiteUrl": "https://www.tigerandbunny.net/TB2/",
+  "anilistUrl": "https://anilist.co/anime/151803",
+  "imageSourceUrl": "https://anilist.co/anime/151803",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://annict.com/works/9827",
+    "https://youranimes.tw/animes/3782"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/tiger_bunny_2_part_2",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "kaleido proud fiesta",
+      "artistDisplayName": "UNISON SQUARE GARDEN",
+      "id": "tiger-bunny-2-part-2-op-1",
+      "songId": "tiger-bunny-2-part-2-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tigerandbunny.net/TB2/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/tiger_bunny_2_part_2",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "url": "https://www.tigerandbunny.net//TB2/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://www.animatetimes.com/tag/details.php?id=13674",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/TIGER_%26_BUNNY",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "UNISON SQUARE GARDEN",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tigerandbunny.net//TB2/music/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "tiger-bunny-2-part-2-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/tag/details.php?id=13674"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "tiger-bunny-2-part-2-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/TIGER_%26_BUNNY"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "tiger-bunny-2-part-2-op-1-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement"
+          ],
+          "note": "官方音樂表確認原2022配信本曲原名及演唱名義；NHK2023逐曲適用話數與季別未直接明示，因此保原身份、TV用途五欄待核。",
+          "resumeWhen": "待NHK版官方逐話歌曲字幕或官方分part用曲公告明示本曲TV適用話數後核季度；不由整作4–9月或原2022發行日推各曲。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "Pilot",
+      "artistDisplayName": "Taichi Mukai",
+      "id": "tiger-bunny-2-part-2-ed-1",
+      "songId": "tiger-bunny-2-part-2-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tigerandbunny.net/TB2/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/tiger_bunny_2_part_2",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "url": "https://www.tigerandbunny.net//TB2/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://www.animatetimes.com/tag/details.php?id=13674",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Taichi Mukai",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tigerandbunny.net//TB2/music/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "tiger-bunny-2-part-2-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/tag/details.php?id=13674"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "tiger-bunny-2-part-2-ed-1-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement"
+          ],
+          "note": "官方音樂表確認原2022配信本曲原名及演唱名義；NHK2023逐曲適用話數與季別未直接明示，因此保原身份、TV用途五欄待核。",
+          "resumeWhen": "待NHK版官方逐話歌曲字幕或官方分part用曲公告明示本曲TV適用話數後核季度；不由整作4–9月或原2022發行日推各曲。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    }
+  ],
+  "verifiedAt": "2026-09-01",
+  "metadataVerifiedAt": "2026-09-01",
+  "metadataSources": [
+    {
+      "url": "https://www.tigerandbunny.net/TB2/",
+      "label": "動畫第一方作品資料",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-26"
+    }
+  ]
+},
   {"anilistId":136150,"id":"curated-136150","slug":"seiken-densetsu-legend-of-mana-the-teardrop-crystal","seasonIds":["2022-fall"],"startDate":"2022-10-08","titleJa":"聖剣伝説 Legend of Mana -The Teardrop Crystal-","titleZhHant":"聖劍傳說 Legend of Mana -The Teardrop Crystal-","titleRomaji":"Seiken Densetsu: Legend of Mana - The Teardrop Crystal","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136150-azIWKERi7SLo.jpg","editorialWeekday":6,"broadcastLabel":"原TV：MBS／TBS系28局Super Animeism節目表2022年10月7日（金）25:25，實際10月8日01:25。ABEMA 10月8日12:00為較晚WEB。","status":"finished","officialSiteUrl":"https://mana-lom-tc.com/","anilistUrl":"https://anilist.co/anime/136150","imageSourceUrl":"https://anilist.co/anime/136150","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/8660","https://youranimes.tw/animes/2178"],"animeThemesUrl":"https://animethemes.moe/anime/seiken_densetsu_legend_of_mana_the_teardrop_crystal","themes":[{"type":"OP","sequence":1,"titleJa":"Tear of Will","artistDisplayName":"早見沙織","id":"seiken-densetsu-legend-of-mana-the-teardrop-crystal-op-1","songId":"seiken-densetsu-legend-of-mana-the-teardrop-crystal-op-1-song","sources":[{"label":"動畫官方網站","url":"https://mana-lom-tc.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/seiken_densetsu_legend_of_mana_the_teardrop_crystal","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://mana-lom-tc.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://mana-lom-tc.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E5%9C%A3%E5%89%91%E4%BC%A0%E8%AF%B4_%E7%8E%9B%E5%A8%9C%E4%BC%A0%E5%A5%87","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hans","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://mana-lom-tc.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2022-fall"],"credits":[{"name":"早見沙織","role":"lyrics"},{"name":"KEVIN PENKIN","role":"composition"},{"name":"KEVIN PENKIN","role":"arrangement"},{"name":"早見沙織","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://mana-lom-tc.com/music/"],"verifiedAt":"2026-10-22","targetId":"seiken-densetsu-legend-of-mana-the-teardrop-crystal-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://mana-lom-tc.com/music/"],"verifiedAt":"2026-10-22","targetId":"seiken-densetsu-legend-of-mana-the-teardrop-crystal-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/seiken_densetsu_legend_of_mana_the_teardrop_crystal"],"verifiedAt":"2026-09-01","targetId":"seiken-densetsu-legend-of-mana-the-teardrop-crystal-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/seiken_densetsu_legend_of_mana_the_teardrop_crystal"],"verifiedAt":"2026-09-01","targetId":"seiken-densetsu-legend-of-mana-the-teardrop-crystal-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%9C%A3%E5%89%91%E4%BC%A0%E8%AF%B4_%E7%8E%9B%E5%A8%9C%E4%BC%A0%E5%A5%87"],"verifiedAt":"2026-10-22","targetId":"seiken-densetsu-legend-of-mana-the-teardrop-crystal-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%9C%A3%E5%89%91%E4%BC%A0%E8%AF%B4_%E7%8E%9B%E5%A8%9C%E4%BC%A0%E5%A5%87"],"verifiedAt":"2026-10-22","targetId":"seiken-densetsu-legend-of-mana-the-teardrop-crystal-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://mana-lom-tc.com/music/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈Tear of Will〉：原期Music直接明OP、演唱與詞曲編；標題Tear採官方單數，不用CC誤拼Tears。","resumeWhen":"詳細階段沿本曲已核來源，待逐曲第一方明示再補未列作者、個別歌唱、錄音、影片形式、發行及正版平台；不由商品、cast、遊戲原曲或MV推TV用途及新錄音。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":1,"titleJa":"Song of Mana -The Teardrop Crystal-","artistDisplayName":"Saori Hayami","id":"seiken-densetsu-legend-of-mana-the-teardrop-crystal-ed-1","songId":"seiken-densetsu-legend-of-mana-the-teardrop-crystal-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://mana-lom-tc.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/seiken_densetsu_legend_of_mana_the_teardrop_crystal","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://mana-lom-tc.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E5%9C%A3%E5%89%91%E4%BC%A0%E8%AF%B4_%E7%8E%9B%E5%A8%9C%E4%BC%A0%E5%A5%87","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hans","verifiedAt":"2026-10-22"},{"url":"https://www.famitsu.com/news/202210/19279732.html","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.mau2.com/anime/seikendensetulegendofmana","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://mana-lom-tc.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":[],"credits":[],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/seiken_densetsu_legend_of_mana_the_teardrop_crystal"],"verifiedAt":"2026-09-01","targetId":"seiken-densetsu-legend-of-mana-the-teardrop-crystal-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/seiken_densetsu_legend_of_mana_the_teardrop_crystal"],"verifiedAt":"2026-09-01","targetId":"seiken-densetsu-legend-of-mana-the-teardrop-crystal-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%9C%A3%E5%89%91%E4%BC%A0%E8%AF%B4_%E7%8E%9B%E5%A8%9C%E4%BC%A0%E5%A5%87"],"verifiedAt":"2026-10-22","targetId":"seiken-densetsu-legend-of-mana-the-teardrop-crystal-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%9C%A3%E5%89%91%E4%BC%A0%E8%AF%B4_%E7%8E%9B%E5%A8%9C%E4%BC%A0%E5%A5%87"],"verifiedAt":"2026-10-22","targetId":"seiken-densetsu-legend-of-mana-the-teardrop-crystal-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.famitsu.com/news/202210/19279732.html"],"verifiedAt":"2026-10-22","targetId":"seiken-densetsu-legend-of-mana-the-teardrop-crystal-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.famitsu.com/news/202210/19279732.html"],"verifiedAt":"2026-10-22","targetId":"seiken-densetsu-legend-of-mana-the-teardrop-crystal-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.mau2.com/anime/seikendensetulegendofmana"],"verifiedAt":"2026-10-22","targetId":"seiken-densetsu-legend-of-mana-the-teardrop-crystal-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.mau2.com/anime/seikendensetulegendofmana"],"verifiedAt":"2026-10-22","targetId":"seiken-densetsu-legend-of-mana-the-teardrop-crystal-ed-1"}],"followUp":[{"fields":["basic_evidence","use_quarters","lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈Song of Mana -The Teardrop Crystal-〉：中文與本人第三方採訪可交叉曲名／早見歌唱；兩輪未得動畫原期官方ED與本曲正式歌唱名義直接證據。採訪host只cross_check，不作唯一FP；保舊名義，不能由遊戲曲或OST推本版。","resumeWhen":"待官方原期逐話片尾、可讀官方NCED索引或本曲公告直接明本用途的歌曲與演唱版本，再按原TV逐話日期確認季度。詳細階段沿本曲已核來源，待逐曲第一方明示再補未列作者、個別歌唱、錄音、影片形式、發行及正版平台；不由商品、cast、遊戲原曲或MV推TV用途及新錄音。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":2,"titleJa":"Song of MANA ~Ending Theme~","artistDisplayName":"Annika","id":"seiken-densetsu-legend-of-mana-the-teardrop-crystal-ed-2","songId":"seiken-densetsu-legend-of-mana-the-teardrop-crystal-ed-2-song","sources":[{"label":"動畫官方網站","url":"https://mana-lom-tc.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/seiken_densetsu_legend_of_mana_the_teardrop_crystal","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://mana-lom-tc.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.mau2.com/anime/seikendensetulegendofmana/ep/12","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://mana-lom-tc.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":[],"credits":[],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/seiken_densetsu_legend_of_mana_the_teardrop_crystal"],"verifiedAt":"2026-09-01","targetId":"seiken-densetsu-legend-of-mana-the-teardrop-crystal-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/seiken_densetsu_legend_of_mana_the_teardrop_crystal"],"verifiedAt":"2026-09-01","targetId":"seiken-densetsu-legend-of-mana-the-teardrop-crystal-ed-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.mau2.com/anime/seikendensetulegendofmana/ep/12"],"verifiedAt":"2026-10-22","targetId":"seiken-densetsu-legend-of-mana-the-teardrop-crystal-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.mau2.com/anime/seikendensetulegendofmana/ep/12"],"verifiedAt":"2026-10-22","targetId":"seiken-densetsu-legend-of-mana-the-teardrop-crystal-ed-2"}],"followUp":[{"fields":["basic_evidence","use_quarters","lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈Song of MANA ~Ending Theme~〉：逐話CC明第12話Song of Mana Ending Theme與Annika，但兩輪未得本動畫特殊ED第一方；遊戲原聲原曲身分不能替代動畫用途。保原ED ID／序號／標題及名義。","resumeWhen":"待官方原期逐話片尾、可讀官方NCED索引或本曲公告直接明本用途的歌曲與演唱版本，再按原TV逐話日期確認季度。詳細階段沿本曲已核來源，待逐曲第一方明示再補未列作者、個別歌唱、錄音、影片形式、發行及正版平台；不由商品、cast、遊戲原曲或MV推TV用途及新錄音。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"}],"verifiedAt":"2026-09-01","metadataVerifiedAt":"2026-09-01","metadataSources":[{"url":"https://zh.wikipedia.org/wiki/%E5%9C%A3%E5%89%91%E4%BC%A0%E8%AF%B4_%E7%8E%9B%E5%A8%9C%E4%BC%A0%E5%A5%87","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"zh-Hans","verifiedAt":"2026-10-22"},{"url":"https://mana-lom-tc.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://mana-lom-tc.com/music/","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"broadcastTimeJst":"01:25"},
   {"anilistId":139092,"id":"curated-139092","slug":"mairimashita-iruma-kun-3rd-season","seasonIds":["2022-fall","2023-winter"],"startDate":"2022-10-08","titleJa":"魔入りました！入間くん 第3シリーズ","titleZhHant":"入間同學入魔了！第三季","titleRomaji":"Mairimashita! Iruma-kun 3","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx139092-q521Du1fkosV.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/139092-gcuDazzfT0uC.jpg","editorialWeekday":6,"broadcastLabel":"原第3系列TV NHK Eテレ2022/10/8 18:25、全21話；藝人原2022/10/15官方公告仍載原首TV。現NHK角色官網已第4系列，不套2026排期。","status":"finished","officialSiteUrl":"https://www.nhk-character.com/chara/iruma/","anilistUrl":"https://anilist.co/anime/139092","imageSourceUrl":"https://anilist.co/anime/139092","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/8883","https://youranimes.tw/animes/2828"],"animeThemesUrl":"https://animethemes.moe/anime/mairimashita_iruma_kun_3rd_season","themes":[{"type":"OP","sequence":1,"titleJa":"ギリギリRide it out","artistDisplayName":"FANTASTICS from EXILE TRIBE","id":"mairimashita-iruma-kun-3rd-season-op-1","songId":"mairimashita-iruma-kun-3rd-season-op-1-song","sources":[{"label":"動畫官方網站","url":"https://www.nhk-character.com/chara/iruma/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/mairimashita_iruma_kun_3rd_season","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://m.tribe-m.jp/news/detail?news_id=40383","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://www.nhk-character.com/chara/iruma/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2022-fall"],"credits":[{"name":"FANTASTICS from EXILE TRIBE","role":"vocals"}],"titleRomaji":"Girigiri Ride it out","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://m.tribe-m.jp/news/detail?news_id=40383"],"verifiedAt":"2026-10-22","targetId":"mairimashita-iruma-kun-3rd-season-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://m.tribe-m.jp/news/detail?news_id=40383"],"verifiedAt":"2026-10-22","targetId":"mairimashita-iruma-kun-3rd-season-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/mairimashita_iruma_kun_3rd_season"],"verifiedAt":"2026-09-01","targetId":"mairimashita-iruma-kun-3rd-season-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/mairimashita_iruma_kun_3rd_season"],"verifiedAt":"2026-09-01","targetId":"mairimashita-iruma-kun-3rd-season-op-1"}],"followUp":[{"fields":["use_quarters","lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈ギリギリRide it out〉：藝人原公告直接明第三系列OP原名及完整團體名義；sound produce不等於詞曲編完整。兩輪未得2023冬逐曲第一方用曲紀錄，不能由整部21話與第19話CC推冬季FP。","resumeWhen":"待NHK／NEP第3系列2023年1–3月逐話字幕、官方當期用曲公告或藝人逐曲延用公告明本曲冬季實際OP使用才加2023冬；目前只證2022秋。詳細階段沿用本曲已核來源，待逐曲第一方明示才補尚缺作者、個別歌唱、錄音、官方影片形式、發行收錄與正版平台；不由MV／NC、商品、cast或團體簡介推full／TV錄音、新歌、全員演唱或特殊用途。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":1,"titleJa":"鍋奉行","artistDisplayName":"水曜日のカンパネラ","id":"mairimashita-iruma-kun-3rd-season-ed-1","songId":"mairimashita-iruma-kun-3rd-season-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://www.nhk-character.com/chara/iruma/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/mairimashita_iruma_kun_3rd_season","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://wmg.jp/wedcamp/discography/26687","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://m.tribe-m.jp/news/detail?news_id=40383","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://www.nhk-character.com/chara/iruma/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2022-fall"],"credits":[{"name":"水曜日のカンパネラ","role":"vocals"}],"titleRomaji":"Nabe Bugyou","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://wmg.jp/wedcamp/discography/26687"],"verifiedAt":"2026-10-22","targetId":"mairimashita-iruma-kun-3rd-season-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://wmg.jp/wedcamp/discography/26687"],"verifiedAt":"2026-10-22","targetId":"mairimashita-iruma-kun-3rd-season-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/mairimashita_iruma_kun_3rd_season"],"verifiedAt":"2026-09-01","targetId":"mairimashita-iruma-kun-3rd-season-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/mairimashita_iruma_kun_3rd_season"],"verifiedAt":"2026-09-01","targetId":"mairimashita-iruma-kun-3rd-season-ed-1"}],"followUp":[{"fields":["use_quarters","lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈鍋奉行〉：唱片公司原頁直接明第三系列ED原名與團體名義，10/19是歌曲發行日；未由目前團體簡介推詩羽或其他成員逐曲vocals。冬季只見CC逐話表，兩輪後仍缺逐曲FP。","resumeWhen":"待NHK／NEP原2023冬逐話字幕／官方用曲或藝人原期公告直接明鍋奉行仍作第3系列ED後才補冬季；不以整作續播或音樂商品日期推用曲季度。詳細階段沿用本曲已核來源，待逐曲第一方明示才補尚缺作者、個別歌唱、錄音、官方影片形式、發行收錄與正版平台；不由MV／NC、商品、cast或團體簡介推full／TV錄音、新歌、全員演唱或特殊用途。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":2,"titleJa":"Tomodachi no Senaka","artistDisplayName":"Akuma Gakkou Babyls Seito no Mina-san","id":"mairimashita-iruma-kun-3rd-season-ed-2","songId":"mairimashita-iruma-kun-3rd-season-ed-2-song","sources":[{"label":"動畫官方網站","url":"https://www.nhk-character.com/chara/iruma/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/mairimashita_iruma_kun_3rd_season","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://m.tribe-m.jp/news/detail?news_id=40383","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://www.nhk-character.com/chara/iruma/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":[],"credits":[],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/mairimashita_iruma_kun_3rd_season"],"verifiedAt":"2026-09-01","targetId":"mairimashita-iruma-kun-3rd-season-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/mairimashita_iruma_kun_3rd_season"],"verifiedAt":"2026-09-01","targetId":"mairimashita-iruma-kun-3rd-season-ed-2"}],"followUp":[{"fields":["basic_evidence","use_quarters","lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈Tomodachi no Senaka〉：中文交叉列第21話トモダチの背中與惡魔學校全體學生候選，但兩輪定向未取得逐曲第一方原名、演唱名義及特殊ED對應；現NHK頁已第四期，不移植後續期歌曲。原ED2 ID／序號與羅馬字候選保留。","resumeWhen":"待NHK／NEP第三系列第21話正式字幕／官方最終話逐曲公告可讀並直接明トモダチの背中原名、演唱名義與特殊ED用途，才解held及填2023冬；不由第18話同名IN或cast／合唱商品推用途或canonical。詳細階段沿用本曲已核來源，待逐曲第一方明示才補尚缺作者、個別歌唱、錄音、官方影片形式、發行收錄與正版平台；不由MV／NC、商品、cast或團體簡介推full／TV錄音、新歌、全員演唱或特殊用途。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"}],"verifiedAt":"2026-09-01","metadataVerifiedAt":"2026-09-01","metadataSources":[{"url":"https://acgsecrets.hk/bangumi/202210/","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E5%85%A5%E9%96%93%E5%90%8C%E5%AD%B8%E5%85%A5%E9%AD%94%E4%BA%86%EF%BC%81","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"},{"url":"https://m.tribe-m.jp/news/detail?news_id=40383","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://wmg.jp/wedcamp/discography/26687","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"broadcastTimeJst":"18:25"},
   {"anilistId":150188,"id":"curated-150188","slug":"pui-pui-molcar-driving-school","seasonIds":["2022-fall"],"startDate":"2022-10-08","titleJa":"PUI PUI モルカー DRIVING SCHOOL","titleZhHant":"天竺鼠車車 駕訓班","titleRomaji":"PUI PUI Molcar: DRIVING SCHOOL","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx150188-uwvRXNuAEZDp.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/150188-JSfHhFgaGJuw.jpg","editorialWeekday":6,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://molcar-anime.com/ds/","anilistUrl":"https://anilist.co/anime/150188","imageSourceUrl":"https://anilist.co/anime/150188","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/9683"],"themes":[],"verifiedAt":"2026-09-01"},
