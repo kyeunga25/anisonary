@@ -62,7 +62,302 @@ export const curated2023WinterSeeds: CuratedAnimeSeed[] = [
   {"anilistId":155997,"id":"curated-155997","slug":"flaglia-natsuyasumi-no-monogatari","seasonIds":["2023-winter"],"startDate":"2023-01-17","titleJa":"FLAGLIA ～なつやすみの物語～","titleZhHant":"「FLAGLIA」～夏天的故事～","titleRomaji":"FLAGLIA: Natsuyasumi No Monogatari","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b155997-tsfGySEchXWU.jpg","editorialWeekday":2,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://www.flaglia.com/animation/","anilistUrl":"https://anilist.co/anime/155997","imageSourceUrl":"https://anilist.co/anime/155997","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-winter?display=list_detailed","https://acgsecrets.hk/anime/1240/"],"themes":[],"verifiedAt":"2026-09-01"},
   {"anilistId":155068,"id":"curated-155068","slug":"majutsushi-orphen-hagure-tabi-urbanrama-hen","seasonIds":["2023-winter","2023-spring"],"startDate":"2023-01-18","titleJa":"魔術士オーフェンはぐれ旅 アーバンラマ編","titleZhHant":"魔術士歐菲 流浪之旅 阿邦拉瑪篇","titleRomaji":"Majutsushi Orphen Hagure Tabi: Urbanrama-hen","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx155068-AC7dnl313hfy.jpg","editorialWeekday":3,"broadcastLabel":"Urbanrama原期AT-X 1月18日（水）20:30最早TV；MX22:00、WEB22:30及後續聖域篇分開。","status":"finished","officialSiteUrl":"https://ssorphen-anime.com/","anilistUrl":"https://anilist.co/anime/155068","imageSourceUrl":"https://anilist.co/anime/155068","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-winter?display=list_detailed","https://acgsecrets.hk/anime/1241/"],"animeThemesUrl":"https://animethemes.moe/anime/majutsushi_orphen_hagure_tabi_urbanrama_hen","themes":[{"type":"OP","sequence":1,"titleJa":"HYSTERIC CARAVAN","artistDisplayName":"森久保祥太郎","id":"majutsushi-orphen-hagure-tabi-urbanrama-hen-op-1","songId":"majutsushi-orphen-hagure-tabi-urbanrama-hen-op-1-song","sources":[{"label":"動畫官方網站","url":"https://ssorphen-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/majutsushi_orphen_hagure_tabi_urbanrama_hen","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://ssorphen-anime.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://morikuboshowtaro.lantis.jp/news/299/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://ssorphen-anime.com/onair/index1.html","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E9%AD%94%E8%A1%93%E5%B8%AB%E6%AD%90%E8%8F%B2","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://ssorphen-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-winter"],"credits":[{"name":"森久保祥太郎","role":"lyrics"},{"name":"R・O・N","role":"composition"},{"name":"R・O・N","role":"arrangement"},{"name":"森久保祥太郎","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://ssorphen-anime.com/music/","https://morikuboshowtaro.lantis.jp/news/299/"],"verifiedAt":"2026-10-22","targetId":"majutsushi-orphen-hagure-tabi-urbanrama-hen-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://ssorphen-anime.com/music/","https://morikuboshowtaro.lantis.jp/news/299/"],"verifiedAt":"2026-10-22","targetId":"majutsushi-orphen-hagure-tabi-urbanrama-hen-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/majutsushi_orphen_hagure_tabi_urbanrama_hen"],"verifiedAt":"2026-09-01","targetId":"majutsushi-orphen-hagure-tabi-urbanrama-hen-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/majutsushi_orphen_hagure_tabi_urbanrama_hen"],"verifiedAt":"2026-09-01","targetId":"majutsushi-orphen-hagure-tabi-urbanrama-hen-op-1"},{"target":"song","fields":["artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E9%AD%94%E8%A1%93%E5%B8%AB%E6%AD%90%E8%8F%B2"],"verifiedAt":"2026-10-22","targetId":"majutsushi-orphen-hagure-tabi-urbanrama-hen-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E9%AD%94%E8%A1%93%E5%B8%AB%E6%AD%90%E8%8F%B2"],"verifiedAt":"2026-10-22","targetId":"majutsushi-orphen-hagure-tabi-urbanrama-hen-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://ssorphen-anime.com/music/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["use_quarters","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈HYSTERIC CARAVAN〉：原Urbanrama用途及LCA明確；動畫末話4/5跨春，尚缺原第12話逐曲讀證，不套聖域新曲。","resumeWhen":"待原Urbanrama第12話4/5官方曲表／片尾或可讀逐話交叉來源明本曲後才補spring；詳細階段沿用本曲已核來源；待第一方逐曲明示後才補缺少作者、個別演唱、錄音、影片形式、發行與正版平台，不由MV或不同商品推新錄音。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":1,"titleJa":"ファンタジック・パートナー","artistDisplayName":"渕上舞","id":"majutsushi-orphen-hagure-tabi-urbanrama-hen-ed-1","songId":"majutsushi-orphen-hagure-tabi-urbanrama-hen-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://ssorphen-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/majutsushi_orphen_hagure_tabi_urbanrama_hen","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://ssorphen-anime.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://mai-fuchigami.lantis.jp/news/719/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://ssorphen-anime.com/onair/index1.html","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E9%AD%94%E8%A1%93%E5%B8%AB%E6%AD%90%E8%8F%B2","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://ssorphen-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-winter"],"credits":[{"name":"渕上舞","role":"lyrics"},{"name":"園田健太郎","role":"composition"},{"name":"園田健太郎","role":"arrangement"},{"name":"渕上舞","role":"vocals"}],"titleRomaji":"Fantastic Partner","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://ssorphen-anime.com/music/","https://mai-fuchigami.lantis.jp/news/719/"],"verifiedAt":"2026-10-22","targetId":"majutsushi-orphen-hagure-tabi-urbanrama-hen-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://ssorphen-anime.com/music/","https://mai-fuchigami.lantis.jp/news/719/"],"verifiedAt":"2026-10-22","targetId":"majutsushi-orphen-hagure-tabi-urbanrama-hen-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/majutsushi_orphen_hagure_tabi_urbanrama_hen"],"verifiedAt":"2026-09-01","targetId":"majutsushi-orphen-hagure-tabi-urbanrama-hen-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/majutsushi_orphen_hagure_tabi_urbanrama_hen"],"verifiedAt":"2026-09-01","targetId":"majutsushi-orphen-hagure-tabi-urbanrama-hen-ed-1"},{"target":"song","fields":["artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E9%AD%94%E8%A1%93%E5%B8%AB%E6%AD%90%E8%8F%B2"],"verifiedAt":"2026-10-22","targetId":"majutsushi-orphen-hagure-tabi-urbanrama-hen-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E9%AD%94%E8%A1%93%E5%B8%AB%E6%AD%90%E8%8F%B2"],"verifiedAt":"2026-10-22","targetId":"majutsushi-orphen-hagure-tabi-urbanrama-hen-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://ssorphen-anime.com/music/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["use_quarters","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈ファンタジック・パートナー〉：原Urbanrama用途及LCA明確；動畫末話4/5跨春，尚缺原第12話逐曲讀證，不套聖域新曲。","resumeWhen":"待原Urbanrama第12話4/5官方曲表／片尾或可讀逐話交叉來源明本曲後才補spring；詳細階段沿用本曲已核來源；待第一方逐曲明示後才補缺少作者、個別演唱、錄音、影片形式、發行與正版平台，不由MV或不同商品推新錄音。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"}],"verifiedAt":"2026-09-01","metadataVerifiedAt":"2026-09-01","metadataSources":[{"url":"https://zh.wikipedia.org/wiki/%E9%AD%94%E8%A1%93%E5%B8%AB%E6%AD%90%E8%8F%B2","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"},{"url":"https://ssorphen-anime.com/onair/index1.html","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://ssorphen-anime.com/music/","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://morikuboshowtaro.lantis.jp/news/299/","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://mai-fuchigami.lantis.jp/news/719/","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"broadcastTimeJst":"20:30"},
   {"anilistId":150653,"id":"curated-150653","slug":"itou-junji-maniac","seasonIds":["2023-winter"],"startDate":"2023-01-19","titleJa":"伊藤潤二『マニアック』","titleZhHant":"伊藤潤二 狂熱：日本恐怖故事","titleRomaji":"Itou Junji: Maniac","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx150653-80BlGKvUBmaS.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/150653-T4P5zRw9xYXp.jpg","editorialWeekday":4,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://ji-anime.com/","anilistUrl":"https://anilist.co/anime/150653","imageSourceUrl":"https://anilist.co/anime/150653","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-winter?display=list_detailed","https://youranimes.tw/animes/3740"],"themes":[{"type":"OP","sequence":1,"titleJa":"Paranoid","artistDisplayName":"MADKID"},{"type":"ED","sequence":1,"titleJa":"云う透り","artistDisplayName":"JYOCHO"}],"verifiedAt":"2026-09-01"},
-  {"anilistId":138056,"id":"curated-138056","slug":"shuumatsu-no-valkyrie-ii","seasonIds":["2023-winter"],"startDate":"2023-01-26","titleJa":"終末のワルキューレⅡ","titleZhHant":"終末的女武神 第二季","titleRomaji":"Shuumatsu no Valkyrie II","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx138056-r6wKvl71ddar.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/138056-Q1rJZ3ZT8b39.jpg","editorialWeekday":4,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://ragnarok-official.com/2nd/","anilistUrl":"https://anilist.co/anime/138056","imageSourceUrl":"https://anilist.co/anime/138056","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-winter?display=list_detailed","https://youranimes.tw/animes/3054"],"animeThemesUrl":"https://animethemes.moe/anime/shuumatsu_no_walkure_ii","themes":[{"type":"OP","sequence":1,"titleJa":"Rude Loose Dance","artistDisplayName":"Minami"},{"type":"ED","sequence":1,"titleJa":"Inori","artistDisplayName":"Masatoshi Ono"}],"verifiedAt":"2026-09-01"},
+  {
+  "anilistId": 138056,
+  "id": "curated-138056",
+  "slug": "shuumatsu-no-valkyrie-ii",
+  "seasonIds": [
+    "2023-winter",
+    "2023-spring"
+  ],
+  "startDate": "2023-01-26",
+  "titleJa": "終末のワルキューレⅡ",
+  "titleZhHant": "終末的女武神 第二季",
+  "titleRomaji": "Shuumatsu no Valkyrie II",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx138056-r6wKvl71ddar.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/138056-Q1rJZ3ZT8b39.jpg",
+  "editorialWeekday": 6,
+  "broadcastLabel": "日本TV版首播 2023-04-15 00:30 JST",
+  "status": "finished",
+  "officialSiteUrl": "https://ragnarok-official.com/2nd/",
+  "anilistUrl": "https://anilist.co/anime/138056",
+  "imageSourceUrl": "https://anilist.co/anime/138056",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://annict.com/works/2023-winter?display=list_detailed",
+    "https://youranimes.tw/animes/3054"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/shuumatsu_no_walkure_ii",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "ルードルーズダンス",
+      "artistDisplayName": "美波",
+      "id": "shuumatsu-no-valkyrie-ii-op-1",
+      "songId": "shuumatsu-no-valkyrie-ii-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://ragnarok-official.com/2nd/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/shuumatsu_no_walkure_ii",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "url": "https://ragnarok-official.com/2nd/music/op/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E7%B5%82%E6%9C%AB%E7%9A%84%E5%A5%B3%E6%AD%A6%E7%A5%9E",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://www.animatetimes.com/tag/details.php?id=15807",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Minami",
+          "role": "vocals"
+        },
+        {
+          "name": "美波",
+          "role": "lyrics"
+        },
+        {
+          "name": "美波",
+          "role": "composition"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://ragnarok-official.com/2nd/music/op/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "shuumatsu-no-valkyrie-ii-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%B5%82%E6%9C%AB%E7%9A%84%E5%A5%B3%E6%AD%A6%E7%A5%9E"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "shuumatsu-no-valkyrie-ii-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/tag/details.php?id=15807"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "shuumatsu-no-valkyrie-ii-op-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://ragnarok-official.com/2nd/music/op/"
+          ],
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "已核對歌曲原名、演唱名義及原網路版用途；較晚TV版同曲用途尚缺直接對應。",
+          "resumeWhen": "待原期TV版逐曲資料或權利方明示此曲於該TV版使用後，核對用途季度。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "祈",
+      "artistDisplayName": "小野正利",
+      "id": "shuumatsu-no-valkyrie-ii-ed-1",
+      "songId": "shuumatsu-no-valkyrie-ii-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://ragnarok-official.com/2nd/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/shuumatsu_no_walkure_ii",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "url": "https://ragnarok-official.com/2nd/music/ed/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E7%B5%82%E6%9C%AB%E7%9A%84%E5%A5%B3%E6%AD%A6%E7%A5%9E",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://www.animatetimes.com/tag/details.php?id=15807",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Masatoshi Ono",
+          "role": "vocals"
+        },
+        {
+          "name": "小野正利",
+          "role": "lyrics"
+        },
+        {
+          "name": "SYU",
+          "role": "composition"
+        },
+        {
+          "name": "SYU",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://ragnarok-official.com/2nd/music/ed/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "shuumatsu-no-valkyrie-ii-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%B5%82%E6%9C%AB%E7%9A%84%E5%A5%B3%E6%AD%A6%E7%A5%9E"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "shuumatsu-no-valkyrie-ii-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/tag/details.php?id=15807"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "shuumatsu-no-valkyrie-ii-ed-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://ragnarok-official.com/2nd/music/ed/"
+          ],
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "已核對歌曲原名、演唱名義及原網路版用途；較晚TV版同曲用途尚缺直接對應。",
+          "resumeWhen": "待原期TV版逐曲資料或權利方明示此曲於該TV版使用後，核對用途季度。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    }
+  ],
+  "verifiedAt": "2026-09-01",
+  "metadataVerifiedAt": "2026-09-01",
+  "metadataSources": [
+    {
+      "url": "https://ragnarok-official.com/2nd/onair/",
+      "label": "第一方所述TV版本播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-26"
+    }
+  ],
+  "broadcastTimeJst": "00:30"
+},
   {"anilistId":160830,"id":"curated-160830","slug":"space-idol","seasonIds":["2023-winter"],"startDate":"2023-01-27","titleJa":"スペアイ","titleZhHant":"SPACE IDOL","titleRomaji":"Space Idol","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx160830-Oq2w4i9o8mDb.jpg","editorialWeekday":5,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://www.youtube.com/watch?v=yKLlm6JZUjw","anilistUrl":"https://anilist.co/anime/160830","imageSourceUrl":"https://anilist.co/anime/160830","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-winter?display=list_detailed","https://youranimes.tw/animes/4104"],"themes":[{"type":"ED","sequence":1,"titleJa":"絶対宇宙スタンダード","artistDisplayName":"宇宙制服"}],"verifiedAt":"2026-09-01"},
   {"anilistId":135429,"id":"curated-135429","slug":"make-my-day","seasonIds":["2023-winter"],"startDate":"2023-02-02","titleJa":"MAKE MY DAY","titleZhHant":"MAKE MY DAY 冰雪極境","titleRomaji":"MAKE MY DAY","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135429-7BuTRpJhPjZl.png","editorialWeekday":4,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://www.netflix.com/title/81176967","anilistUrl":"https://anilist.co/anime/135429","imageSourceUrl":"https://anilist.co/anime/135429","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-winter?display=list_detailed","https://youranimes.tw/animes/3907"],"themes":[],"verifiedAt":"2026-09-01"},
   {"anilistId":159569,"id":"curated-159569","slug":"fate-grand-order-fujimaru-ritsuka-wa-wakaranai","seasonIds":["2023-winter"],"startDate":"2023-02-04","titleJa":"Fate/Grand Order 藤丸立香はわからない","titleZhHant":"Fate/Grand Order 搞不懂的藤丸立香","titleRomaji":"Fate/Grand Order: Fujimaru Ritsuka wa Wakaranai","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx159569-7UanLTkqLJOy.jpg","editorialWeekday":6,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://anime.fate-go.jp/nazomaru/","anilistUrl":"https://anilist.co/anime/159569","imageSourceUrl":"https://anilist.co/anime/159569","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-winter?display=list_detailed","https://youranimes.tw/animes/4081"],"themes":[{"type":"ED","sequence":1,"titleJa":"ビッグバン☆ソング","artistDisplayName":"謎のアイドルX〔オルタ〕（CV. 川澄綾子）、ネロ・クラウディウス（CV. 丹下桜）、エリザベート・バートリー（CV. 大久保瑠美）"}],"verifiedAt":"2026-09-01"},
