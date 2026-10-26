@@ -10,7 +10,364 @@ export const curated2025SpringSeeds: CuratedAnimeSeed[] = [
   {"anilistId":179965,"id":"curated-179965","slug":"haite-kudasai-takamine-san","seasonIds":["2025-spring"],"startDate":"2025-04-02","titleJa":"履いてください、鷹峰さん","titleZhHant":"拜託請穿上，鷹峰同學","titleRomaji":"Haite Kudasai, Takamine-san","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179965-EwqzG3xSyxwc.jpg","editorialWeekday":3,"broadcastLabel":"日本TV：2025-04-02水曜22:30 AT-X首播；TOKYO MX水曜23:00、特別配信版と區分","status":"finished","officialSiteUrl":"https://takaminesan.com/","anilistUrl":"https://anilist.co/anime/179965","imageSourceUrl":"https://anilist.co/anime/179965","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/13742","https://bgm.tv/subject/506407"],"animeThemesUrl":"https://animethemes.moe/anime/haite_kudasai_takamine_san","uzureaUrl":"https://uzurea.net/spring-2025-anime-themes-and-picks/","themes":[{"type":"OP","sequence":1,"titleJa":"Baby Baby Baby","artistDisplayName":"奥井雅美 with ボンジュール鈴木","youtubeUrl":"https://www.youtube.com/watch?v=yv9J-H3CsKA","sourceMode":"explicit","sources":[{"label":"KADOKAWAanime 官方影片","url":"https://www.youtube.com/watch?v=yv9J-H3CsKA","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://takaminesan.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/haite_kudasai_takamine_san","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://takaminesan.com/music/index.html","label":"動畫官方：本季OP／ED原名、演唱及已明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-19"}],"songId":"haite-kudasai-takamine-san-op-1-song","seasonIds":["2025-spring"],"evidence":[{"target":"song","targetId":"haite-kudasai-takamine-san-op-1-song","fields":["title","artist"],"sourceUrls":["https://takaminesan.com/music/index.html"],"verifiedAt":"2026-10-19"},{"target":"anime_use","targetId":"haite-kudasai-takamine-san-op-1","fields":["usage"],"sourceUrls":["https://takaminesan.com/music/index.html"],"verifiedAt":"2026-10-19"},{"target":"song","targetId":"haite-kudasai-takamine-san-op-1-song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/haite_kudasai_takamine_san"],"verifiedAt":"2026-08-30"},{"target":"anime_use","targetId":"haite-kudasai-takamine-san-op-1","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/haite_kudasai_takamine_san"],"verifiedAt":"2026-08-30"},{"target":"song","targetId":"haite-kudasai-takamine-san-op-1-song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30"},{"target":"anime_use","targetId":"haite-kudasai-takamine-san-op-1","fields":["usage"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30"}],"lastVerifiedAt":"2026-10-19"},{"type":"ED","sequence":1,"titleJa":"Hightail it","artistDisplayName":"古川 慎","youtubeUrl":"https://www.youtube.com/watch?v=tflwchopS7Y","sourceMode":"explicit","sources":[{"label":"Lantis Channel 官方影片","url":"https://www.youtube.com/watch?v=tflwchopS7Y","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://takaminesan.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/haite_kudasai_takamine_san","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://takaminesan.com/music/index.html","label":"動畫官方：本季OP／ED原名、演唱及已明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-19"}],"songId":"haite-kudasai-takamine-san-ed-1-song","seasonIds":["2025-spring"],"evidence":[{"target":"song","targetId":"haite-kudasai-takamine-san-ed-1-song","fields":["title","artist"],"sourceUrls":["https://takaminesan.com/music/index.html"],"verifiedAt":"2026-10-19"},{"target":"anime_use","targetId":"haite-kudasai-takamine-san-ed-1","fields":["usage"],"sourceUrls":["https://takaminesan.com/music/index.html"],"verifiedAt":"2026-10-19"},{"target":"song","targetId":"haite-kudasai-takamine-san-ed-1-song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/haite_kudasai_takamine_san"],"verifiedAt":"2026-08-30"},{"target":"anime_use","targetId":"haite-kudasai-takamine-san-ed-1","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/haite_kudasai_takamine_san"],"verifiedAt":"2026-08-30"},{"target":"song","targetId":"haite-kudasai-takamine-san-ed-1-song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30"},{"target":"anime_use","targetId":"haite-kudasai-takamine-san-ed-1","fields":["usage"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30"}],"lastVerifiedAt":"2026-10-19"}],"verifiedAt":"2026-08-30","metadataVerifiedAt":"2026-08-30","metadataSources":[{"url":"https://takaminesan.com/onair/index.html","label":"動畫官方：AT-X首播、地上波與配信版時段","role":"first_party","language":"ja","verifiedAt":"2026-10-19"}],"broadcastTimeJst":"22:30"},
   {"anilistId":184279,"id":"curated-184279","slug":"ballpark-de-tsukamaete","seasonIds":["2025-spring"],"startDate":"2025-04-02","titleJa":"ボールパークでつかまえて！","titleZhHant":"來到棒球場捕捉我吧！","titleRomaji":"Ballpark de Tsukamaete!","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184279-dw02k4DPxwGz.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/184279-MiADtn9N8rI3.jpg","editorialWeekday":2,"broadcastLabel":"日本TV：2025-04-01火曜24:00（暦日4月2日）・テレ東系6局；WEB最速は同日25:00","status":"finished","officialSiteUrl":"https://anime-ballpark.com","anilistUrl":"https://anilist.co/anime/184279","imageSourceUrl":"https://anilist.co/anime/184279","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/14666","https://bgm.tv/subject/524123"],"animeThemesUrl":"https://animethemes.moe/anime/ballpark_de_tsukamaete","uzureaUrl":"https://uzurea.net/spring-2025-anime-themes-and-picks/","themes":[{"type":"OP","sequence":1,"titleJa":"Hurray!!","artistDisplayName":"GENIC","youtubeUrl":"https://www.youtube.com/watch?v=HDCnOnEp6kE","id":"ballpark-de-tsukamaete-op-1","songId":"ballpark-de-tsukamaete-op-1-song","sourceMode":"explicit","sources":[{"label":"CyberAgent ANIME 官方影片","url":"https://www.youtube.com/watch?v=HDCnOnEp6kE","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://anime-ballpark.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/ballpark_de_tsukamaete","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://anime-ballpark.com/music/","label":"動畫官方：本季歌曲原名、演唱名義、用途及同頁明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"YouTube","label":"官方公開影片","url":"https://www.youtube.com/watch?v=HDCnOnEp6kE","linkType":"direct_track","region":"GLOBAL"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://anime-ballpark.com/music/"],"verifiedAt":"2026-10-20","targetId":"ballpark-de-tsukamaete-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://anime-ballpark.com/music/"],"verifiedAt":"2026-10-20","targetId":"ballpark-de-tsukamaete-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/ballpark_de_tsukamaete"],"verifiedAt":"2026-08-30","targetId":"ballpark-de-tsukamaete-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/ballpark_de_tsukamaete"],"verifiedAt":"2026-08-30","targetId":"ballpark-de-tsukamaete-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"ballpark-de-tsukamaete-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"ballpark-de-tsukamaete-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://anime-ballpark.com/music/"],"verifiedAt":"2026-10-20"}],"seasonIds":["2025-spring"],"lastVerifiedAt":"2026-10-20","credits":[{"name":"GENIC","role":"vocals"},{"name":"小池竜暉","role":"lyrics"},{"name":"小池竜暉","role":"composition"},{"name":"小池竜暉","role":"arrangement"}]},{"type":"ED","sequence":1,"titleJa":"ボールパークでShake！Don't Shake！","artistDisplayName":"ルリコ（CV：ファイルーズあい）、アオナ（CV：長谷川育美）、こひなた（CV：内田真礼）、サラ（CV：相良茉優）、こころ（CV：瀬戸桃子）","titleRomaji":"Ballpark de Shake! Don't Shake!","id":"ballpark-de-tsukamaete-ed-1","songId":"ballpark-de-tsukamaete-ed-1-song","sourceMode":"explicit","sources":[{"label":"動畫官方網站","url":"https://anime-ballpark.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/ballpark_de_tsukamaete","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://anime-ballpark.com/music/","label":"動畫官方：本季歌曲原名、演唱名義、用途及同頁明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://anime-ballpark.com/","linkType":"official_landing_page","region":"JP"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://anime-ballpark.com/music/"],"verifiedAt":"2026-10-20","targetId":"ballpark-de-tsukamaete-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://anime-ballpark.com/music/"],"verifiedAt":"2026-10-20","targetId":"ballpark-de-tsukamaete-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/ballpark_de_tsukamaete"],"verifiedAt":"2026-08-30","targetId":"ballpark-de-tsukamaete-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/ballpark_de_tsukamaete"],"verifiedAt":"2026-08-30","targetId":"ballpark-de-tsukamaete-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"ballpark-de-tsukamaete-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"ballpark-de-tsukamaete-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://anime-ballpark.com/music/"],"verifiedAt":"2026-10-20"},{"target":"credits","fields":["credits"],"sourceUrls":["https://anime-ballpark.com/music/"],"verifiedAt":"2026-10-20"}],"seasonIds":["2025-spring"],"lastVerifiedAt":"2026-10-20","credits":[{"name":"藤村鼓乃美","role":"lyrics"},{"name":"北川勝利","role":"lyrics"},{"name":"北川勝利","role":"composition"},{"name":"ハヤシベトモノリ（Plus-Tech Squeeze Box）","role":"arrangement"},{"name":"北川勝利","role":"arrangement"},{"name":"ファイルーズあい","role":"vocals"},{"name":"長谷川育美","role":"vocals"},{"name":"内田真礼","role":"vocals"},{"name":"相良茉優","role":"vocals"},{"name":"瀬戸桃子","role":"vocals"}]},{"type":"ED","sequence":2,"titleJa":"コンバート","artistDisplayName":"松室政哉","id":"ballpark-de-tsukamaete-ed-2","songId":"ballpark-de-tsukamaete-ed-2-song","sourceMode":"explicit","sources":[{"label":"動畫官方網站","url":"https://anime-ballpark.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/ballpark_de_tsukamaete","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://store.universal-music.co.jp/products/umca10162","label":"Universal官方商品：コンバート原名、松室政哉演唱及專輯曲目","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://anime-ballpark.com/","linkType":"official_landing_page","region":"JP"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://store.universal-music.co.jp/products/umca10162"],"verifiedAt":"2026-10-20","targetId":"ballpark-de-tsukamaete-ed-2-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/ballpark_de_tsukamaete"],"verifiedAt":"2026-08-30","targetId":"ballpark-de-tsukamaete-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/ballpark_de_tsukamaete"],"verifiedAt":"2026-08-30","targetId":"ballpark-de-tsukamaete-ed-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"ballpark-de-tsukamaete-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"ballpark-de-tsukamaete-ed-2"}],"seasonIds":[],"lastVerifiedAt":"2026-10-20","usageLabel":"既有ED記錄：TV用途與季度待第一方確認","followUp":[{"fields":["basic_evidence","use_quarters"],"note":"已依唱片公司官方曲目確認原名為コンバート、演唱松室政哉；動畫ED用途與使用季度仍待官方逐集名單或歌曲公告確認。藝人官方頁目前無法正常讀取，可由唱片公司公告接續核對。","resumeWhen":"取得官方逐集片尾credit、動畫／藝人歌曲公告或授權發行名單時，核對實際演唱名義與ED用途，再補已確認的使用季度。","checkedAt":"2026-10-20"}]},{"type":"ED","sequence":3,"titleJa":"あきらめられないのさ","artistDisplayName":"GENIC","titleRomaji":"Akiramerarenai no sa","id":"ballpark-de-tsukamaete-ed-3","songId":"ballpark-de-tsukamaete-ed-3-song","sourceMode":"explicit","sources":[{"label":"動畫官方網站","url":"https://anime-ballpark.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/ballpark_de_tsukamaete","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://avex.jp/genic/news/detail.php?id=1125761","label":"動畫官方：本季歌曲原名、演唱名義、用途及同頁明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://anime-ballpark.com/","linkType":"official_landing_page","region":"JP"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://avex.jp/genic/news/detail.php?id=1125761"],"verifiedAt":"2026-10-20","targetId":"ballpark-de-tsukamaete-ed-3-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://avex.jp/genic/news/detail.php?id=1125761"],"verifiedAt":"2026-10-20","targetId":"ballpark-de-tsukamaete-ed-3"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/ballpark_de_tsukamaete"],"verifiedAt":"2026-08-30","targetId":"ballpark-de-tsukamaete-ed-3-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/ballpark_de_tsukamaete"],"verifiedAt":"2026-08-30","targetId":"ballpark-de-tsukamaete-ed-3"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"ballpark-de-tsukamaete-ed-3-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"ballpark-de-tsukamaete-ed-3"},{"target":"credits","fields":["credits"],"sourceUrls":["https://avex.jp/genic/news/detail.php?id=1125761"],"verifiedAt":"2026-10-20"}],"seasonIds":["2025-spring"],"lastVerifiedAt":"2026-10-20","credits":[{"name":"GENIC","role":"vocals"},{"name":"小池竜暉","role":"lyrics"},{"name":"増子敦貴","role":"lyrics"}],"usageLabel":"第12話（最終回）スペシャルED"}],"verifiedAt":"2026-08-30","metadataVerifiedAt":"2026-08-30","metadataSources":[{"url":"https://anime-ballpark.com/onair/","label":"動畫官方：第1期／本季TV首播、時段與配信分別","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://youranimes.tw/bangumi/202504","label":"中文TV索引：作品身分、播出期與時段","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"}],"broadcastTimeJst":"24:00"},
   {"anilistId":189513,"id":"curated-189513","slug":"sousou-no-frieren-no-mahou-part-2","seasonIds":["2025-spring"],"startDate":"2025-04-02","titleJa":"葬送のフリーレン ～●●の魔法～ 2クール","titleZhHant":"葬送のフリーレン ～●●の魔法～ 2クール","titleRomaji":"Sousou no Frieren: ●● no Mahou Part 2","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx189513-1R9Sryve0K53.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/189513-HjE2qNupgfEe.jpg","editorialWeekday":3,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://frieren-anime.jp/special/dchara/","anilistUrl":"https://anilist.co/anime/189513","imageSourceUrl":"https://anilist.co/anime/189513","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed"],"themes":[],"verifiedAt":"2026-08-30"},
-  {"anilistId":166373,"id":"curated-166373","slug":"miru-watashi-no-mirai","seasonIds":["2025-spring"],"startDate":"2025-04-03","titleJa":"未ル わたしのみらい","titleZhHant":"MIRU 我的未來","titleRomaji":"MIRU: Watashi no Mirai","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166373-97U2bjAxD3l7.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/166373-iaT2Eog6fORQ.jpg","editorialWeekday":4,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://www.miru-anime.com/","anilistUrl":"https://anilist.co/anime/166373","imageSourceUrl":"https://anilist.co/anime/166373","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/10931","https://bgm.tv/subject/442128"],"animeThemesUrl":"https://animethemes.moe/anime/miru_watashi_no_mirai","uzureaUrl":"https://uzurea.net/spring-2025-anime-themes-and-picks/","themes":[{"type":"OP","sequence":1,"titleJa":"愛詩（あいうた）","artistDisplayName":"V.W.P","youtubeUrl":"https://www.youtube.com/watch?v=3eEg_DoFhxI"},{"type":"ED","sequence":1,"titleJa":"Find A Way","artistDisplayName":"MIYAVI"}],"verifiedAt":"2026-08-30"},
+  {
+  "anilistId": 166373,
+  "id": "curated-166373",
+  "slug": "miru-watashi-no-mirai",
+  "seasonIds": [
+    "2025-spring"
+  ],
+  "startDate": "2025-04-03",
+  "titleJa": "未ル わたしのみらい",
+  "titleZhHant": "MIRU 我的未來",
+  "titleRomaji": "MIRU: Watashi no Mirai",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166373-97U2bjAxD3l7.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/166373-iaT2Eog6fORQ.jpg",
+  "editorialWeekday": 4,
+  "broadcastLabel": "MBS4/2水26:30換實曆；TOKYO MX木22:00另台",
+  "status": "finished",
+  "officialSiteUrl": "https://www.miru-anime.com/",
+  "anilistUrl": "https://anilist.co/anime/166373",
+  "imageSourceUrl": "https://anilist.co/anime/166373",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://annict.com/works/2025-spring?display=list_detailed",
+    "https://annict.com/works/10931",
+    "https://bgm.tv/subject/442128"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/miru_watashi_no_mirai",
+  "uzureaUrl": "https://uzurea.net/spring-2025-anime-themes-and-picks/",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "愛詩（あいうた）",
+      "artistDisplayName": "V.W.P",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3eEg_DoFhxI",
+      "id": "miru-watashi-no-mirai-op-1",
+      "songId": "miru-watashi-no-mirai-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2025-spring"
+      ],
+      "sources": [
+        {
+          "label": "TVアニメ『未ル　わたしのみらい』公式 官方影片",
+          "url": "https://www.youtube.com/watch?v=3eEg_DoFhxI",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-08-30"
+        },
+        {
+          "url": "https://www.miru-anime.com/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/miru_watashi_no_mirai",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-08-30"
+        },
+        {
+          "url": "https://uzurea.net/spring-2025-anime-themes-and-picks/",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://miru-anime.com/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://www.uta-net.com/tieup/19051/",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "V.W.P",
+          "role": "vocals"
+        },
+        {
+          "name": "Hibiki",
+          "role": "lyrics"
+        },
+        {
+          "name": "上松範康（Elements Garden）",
+          "role": "composition"
+        },
+        {
+          "name": "竹田祐介（Elements Garden）",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://miru-anime.com/music/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "miru-watashi-no-mirai-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://miru-anime.com/music/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "miru-watashi-no-mirai-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://uzurea.net/spring-2025-anime-themes-and-picks/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "miru-watashi-no-mirai-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://uzurea.net/spring-2025-anime-themes-and-picks/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "miru-watashi-no-mirai-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.uta-net.com/tieup/19051/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "miru-watashi-no-mirai-op-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://miru-anime.com/music/"
+          ],
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本曲原名、演唱名義、原期春季用途與已確認創作署名已核；既有歌曲及影音資料保留，音源與發行項目仍待補。",
+          "resumeWhen": "待權利方公開本曲正式音源與發行項目後補核；Produced by不替代編曲署名，團體profile不推個別歌唱。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "Find A Way",
+      "artistDisplayName": "MIYAVI",
+      "id": "miru-watashi-no-mirai-ed-1",
+      "songId": "miru-watashi-no-mirai-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2025-spring"
+      ],
+      "sources": [
+        {
+          "url": "https://www.miru-anime.com/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/miru_watashi_no_mirai",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-08-30"
+        },
+        {
+          "url": "https://uzurea.net/spring-2025-anime-themes-and-picks/",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://miru-anime.com/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "MIYAVI",
+          "role": "vocals"
+        },
+        {
+          "name": "MIYAVI",
+          "role": "lyrics"
+        },
+        {
+          "name": "Lenard Skolnik",
+          "role": "lyrics"
+        },
+        {
+          "name": "Seann Bowe",
+          "role": "lyrics"
+        },
+        {
+          "name": "MIYAVI",
+          "role": "composition"
+        },
+        {
+          "name": "米山正夫",
+          "role": "composition"
+        },
+        {
+          "name": "Lenard Skolnik",
+          "role": "composition"
+        },
+        {
+          "name": "Seann Bowe",
+          "role": "composition"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://miru-anime.com/music/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "miru-watashi-no-mirai-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://miru-anime.com/music/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "miru-watashi-no-mirai-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://uzurea.net/spring-2025-anime-themes-and-picks/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "miru-watashi-no-mirai-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://uzurea.net/spring-2025-anime-themes-and-picks/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "miru-watashi-no-mirai-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://miru-anime.com/music/"
+          ],
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "arrangement"
+          ],
+          "note": "本曲原名、演唱名義、原期春季用途與已確認創作署名已核；既有歌曲及影音資料保留，音源與發行項目仍待補。",
+          "resumeWhen": "待權利方公開本曲正式音源與發行項目後補核；Produced by不替代編曲署名，團體profile不推個別歌唱。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    }
+  ],
+  "verifiedAt": "2026-08-30",
+  "metadataVerifiedAt": "2026-08-30",
+  "metadataSources": [
+    {
+      "url": "https://www.miru-anime.com/",
+      "label": "第一方原期TV播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-26"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Miru:_Paths_to_My_Future",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "en",
+      "verifiedAt": "2026-10-26"
+    }
+  ],
+  "broadcastTimeJst": "02:30"
+},
   {"anilistId":175872,"id":"curated-175872","slug":"isshun-de-chiryou-shiteita-no-ni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru","seasonIds":["2025-spring"],"startDate":"2025-04-03","titleJa":"一瞬で治療していたのに役立たずと追放された天才治癒師、闇ヒーラーとして楽しく生きる","titleZhHant":"瞬間治癒卻被當成廢物踢出隊伍的天才治療師，改當無照治療師快樂過活","titleRomaji":"Isshun de Chiryou Shiteita no ni Yakutatazu to Tsuihou Sareta Tensai Chiyushi, Yami Healer Toshite Tanoshiku Ikiru","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx175872-d55nfiC4WWHO.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/175872-Pb1aTEdwSIyh.jpg","editorialWeekday":4,"broadcastLabel":"日本TV：2025-04-03木曜23:30・TOKYO MX／BS11；地上波同時配信と別に記録","status":"finished","officialSiteUrl":"https://sh-anime.shochiku.co.jp/yamihealer/","anilistUrl":"https://anilist.co/anime/175872","imageSourceUrl":"https://anilist.co/anime/175872","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/12780","https://bgm.tv/subject/484402"],"animeThemesUrl":"https://animethemes.moe/anime/isshun_de_chiryou_shiteita_noni_yakutatazu_to_tsuihou_sareta_tensai_chiyushi_yami_healer_toshite_tanoshiku_ikiru","uzureaUrl":"https://uzurea.net/spring-2025-anime-themes-and-picks/","themes":[{"type":"OP","sequence":1,"titleJa":"ライトメイカー","artistDisplayName":"bokula.","youtubeUrl":"https://www.youtube.com/watch?v=5LGyGq_H34A","id":"isshun-de-chiryou-shiteita-no-ni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-op-1","songId":"isshun-de-chiryou-shiteita-no-ni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-op-1-song","sourceMode":"explicit","sources":[{"label":"SHOCHIKU animeチャンネル【公式】 官方影片","url":"https://www.youtube.com/watch?v=5LGyGq_H34A","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://sh-anime.shochiku.co.jp/yamihealer/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/isshun_de_chiryou_shiteita_noni_yakutatazu_to_tsuihou_sareta_tensai_chiyushi_yami_healer_toshite_tanoshiku_ikiru","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://sh-anime.shochiku.co.jp/yamihealer/music/","label":"動畫官方：本季歌曲原名、演唱名義、用途及同頁明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"YouTube","label":"官方公開影片","url":"https://www.youtube.com/watch?v=5LGyGq_H34A","linkType":"direct_track","region":"GLOBAL"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://sh-anime.shochiku.co.jp/yamihealer/music/"],"verifiedAt":"2026-10-20","targetId":"isshun-de-chiryou-shiteita-no-ni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://sh-anime.shochiku.co.jp/yamihealer/music/"],"verifiedAt":"2026-10-20","targetId":"isshun-de-chiryou-shiteita-no-ni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/isshun_de_chiryou_shiteita_noni_yakutatazu_to_tsuihou_sareta_tensai_chiyushi_yami_healer_toshite_tanoshiku_ikiru"],"verifiedAt":"2026-08-30","targetId":"isshun-de-chiryou-shiteita-no-ni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/isshun_de_chiryou_shiteita_noni_yakutatazu_to_tsuihou_sareta_tensai_chiyushi_yami_healer_toshite_tanoshiku_ikiru"],"verifiedAt":"2026-08-30","targetId":"isshun-de-chiryou-shiteita-no-ni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"isshun-de-chiryou-shiteita-no-ni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"isshun-de-chiryou-shiteita-no-ni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://sh-anime.shochiku.co.jp/yamihealer/music/"],"verifiedAt":"2026-10-20"}],"seasonIds":["2025-spring"],"lastVerifiedAt":"2026-10-20","credits":[{"name":"bokula.","role":"vocals"},{"name":"えい","role":"lyrics"},{"name":"えい","role":"composition"},{"name":"bokula.","role":"arrangement"}]},{"type":"ED","sequence":1,"titleJa":"月に願う","artistDisplayName":"sorato","youtubeUrl":"https://www.youtube.com/watch?v=axXL0rFmpr4","id":"isshun-de-chiryou-shiteita-no-ni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-ed-1","songId":"isshun-de-chiryou-shiteita-no-ni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-ed-1-song","sourceMode":"explicit","sources":[{"label":"SHOCHIKU animeチャンネル【公式】 官方影片","url":"https://www.youtube.com/watch?v=axXL0rFmpr4","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://sh-anime.shochiku.co.jp/yamihealer/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/isshun_de_chiryou_shiteita_noni_yakutatazu_to_tsuihou_sareta_tensai_chiyushi_yami_healer_toshite_tanoshiku_ikiru","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://sh-anime.shochiku.co.jp/yamihealer/music/","label":"動畫官方：本季歌曲原名、演唱名義、用途及同頁明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"YouTube","label":"官方公開影片","url":"https://www.youtube.com/watch?v=axXL0rFmpr4","linkType":"direct_track","region":"GLOBAL"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://sh-anime.shochiku.co.jp/yamihealer/music/"],"verifiedAt":"2026-10-20","targetId":"isshun-de-chiryou-shiteita-no-ni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://sh-anime.shochiku.co.jp/yamihealer/music/"],"verifiedAt":"2026-10-20","targetId":"isshun-de-chiryou-shiteita-no-ni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/isshun_de_chiryou_shiteita_noni_yakutatazu_to_tsuihou_sareta_tensai_chiyushi_yami_healer_toshite_tanoshiku_ikiru"],"verifiedAt":"2026-08-30","targetId":"isshun-de-chiryou-shiteita-no-ni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/isshun_de_chiryou_shiteita_noni_yakutatazu_to_tsuihou_sareta_tensai_chiyushi_yami_healer_toshite_tanoshiku_ikiru"],"verifiedAt":"2026-08-30","targetId":"isshun-de-chiryou-shiteita-no-ni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"isshun-de-chiryou-shiteita-no-ni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"isshun-de-chiryou-shiteita-no-ni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://sh-anime.shochiku.co.jp/yamihealer/music/"],"verifiedAt":"2026-10-20"}],"seasonIds":["2025-spring"],"lastVerifiedAt":"2026-10-20","credits":[{"name":"sorato","role":"vocals"},{"name":"sorato","role":"lyrics"},{"name":"sorato","role":"composition"},{"name":"竹縄 航太","role":"arrangement"}]}],"verifiedAt":"2026-08-30","metadataVerifiedAt":"2026-08-30","metadataSources":[{"url":"https://sh-anime.shochiku.co.jp/yamihealer/onair/","label":"動畫官方：第1期／本季TV首播、時段與配信分別","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://youranimes.tw/bangumi/202504","label":"中文TV索引：作品身分、播出期與時段","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"}],"broadcastTimeJst":"23:30"},
   {"anilistId":179694,"id":"curated-179694","slug":"rock-wa-lady-no-tashinami-deshite","seasonIds":["2025-spring"],"startDate":"2025-04-03","titleJa":"ロックは淑女の嗜みでして","titleZhHant":"搖滾樂是淑女的嗜好","titleRomaji":"Rock wa Lady no Tashinami Deshite","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179694-7zhc0T6IImor.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/179694-wEDYf9cMXKSm.jpg","editorialWeekday":4,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://rocklady.rocks","anilistUrl":"https://anilist.co/anime/179694","imageSourceUrl":"https://anilist.co/anime/179694","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/13709","https://bgm.tv/subject/504678"],"animeThemesUrl":"https://animethemes.moe/anime/rock_wa_lady_no_tashinami_deshite","uzureaUrl":"https://uzurea.net/spring-2025-anime-themes-and-picks/","themes":[{"type":"OP","sequence":1,"titleJa":"Ready to Rock","artistDisplayName":"BAND-MAID","credits":[{"name":"BAND-MAID","role":"vocals"},{"name":"SAIKI","role":"lyrics"},{"name":"BAND-MAID","role":"composition"},{"name":"BAND-MAID","role":"arrangement"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://rocklady.rocks/","linkType":"official_landing_page","region":"JP"},{"platform":"YouTube","label":"官方MV（長度未分類）","url":"https://www.youtube.com/watch?v=eapNDHKbu0M","linkType":"direct_track","region":"UNKNOWN","verifiedAt":"2026-10-18","availability":"unknown"},{"platform":"YouTube","label":"官方creditless OP","url":"https://www.youtube.com/watch?v=yvQJMvms-ok","linkType":"direct_track","region":"UNKNOWN","verifiedAt":"2026-10-18","availability":"unknown"},{"platform":"YouTube","label":"官方Anime Music Video（長度未分類）","url":"https://www.youtube.com/watch?v=JegJ6cSsUgg","linkType":"direct_track","region":"UNKNOWN","verifiedAt":"2026-10-18","availability":"unknown"},{"platform":"YouTube","label":"官方Live Video","url":"https://www.youtube.com/watch?v=5I6VV4HYnW8","linkType":"direct_track","region":"UNKNOWN","verifiedAt":"2026-10-18","availability":"unknown"},{"platform":"Apple Music","label":"確切收錄專輯（Apple Music）","url":"https://music.apple.com/jp/album/1802097606","linkType":"direct_album","region":"JP","verifiedAt":"2026-10-18","availability":"unknown","releaseId":"rock-wa-lady-no-tashinami-deshite-op-1-song-digital"},{"platform":"Spotify","label":"確切收錄專輯（Spotify）","url":"https://open.spotify.com/album/0SsvK9WiXtLRBKw2KQCsHA","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-18","availability":"unknown","releaseId":"rock-wa-lady-no-tashinami-deshite-op-1-song-digital"},{"platform":"YouTube Music","label":"確切收錄專輯（YouTube Music）","url":"https://music.youtube.com/playlist?list=OLAK5uy_kUsQFsmtPCrO76EcD16TTbt_CiEDgtxMI","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-18","availability":"unknown","releaseId":"rock-wa-lady-no-tashinami-deshite-op-1-song-digital"},{"platform":"レコチョク","label":"確切收錄專輯（レコチョク）","url":"https://recochoku.jp/album/A1041291748","linkType":"direct_album","region":"JP","verifiedAt":"2026-10-18","availability":"unknown","releaseId":"rock-wa-lady-no-tashinami-deshite-op-1-song-digital"},{"platform":"mora","label":"確切收錄專輯（mora）","url":"https://mora.jp/package/43000004/PCSP-06381/","linkType":"direct_album","region":"JP","verifiedAt":"2026-10-18","availability":"unknown","releaseId":"rock-wa-lady-no-tashinami-deshite-op-1-song-digital"}],"sources":[{"label":"動畫官方網站","url":"https://rocklady.rocks/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/rock_wa_lady_no_tashinami_deshite","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://bandmaid.tokyo/contents/898327","label":"官方：歌曲、演唱與動畫用途","role":"first_party","language":"ja","verifiedAt":"2026-10-18"},{"url":"https://utaten.com/lyric/mi25031811/","label":"逐曲創作／演唱名單","role":"cross_check","language":"multi","verifiedAt":"2026-10-18"},{"url":"https://bandmaid.tokyo/contents/973161","label":"官方影片／確切平台項目來源","role":"first_party","language":"multi","verifiedAt":"2026-10-18"},{"url":"https://band-maid.lnk.to/Ready_to_Rock","label":"官方影片／確切平台項目來源","role":"first_party","language":"multi","verifiedAt":"2026-10-18"}],"songId":"rock-wa-lady-no-tashinami-deshite-op-1-song","sourceMode":"explicit","seasonIds":["2025-spring"],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://bandmaid.tokyo/contents/898327","https://animethemes.moe/anime/rock_wa_lady_no_tashinami_deshite"],"verifiedAt":"2026-08-30","targetId":"rock-wa-lady-no-tashinami-deshite-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://bandmaid.tokyo/contents/898327","https://animethemes.moe/anime/rock_wa_lady_no_tashinami_deshite"],"verifiedAt":"2026-08-30","targetId":"rock-wa-lady-no-tashinami-deshite-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://utaten.com/lyric/mi25031811/"],"verifiedAt":"2026-10-18"},{"target":"credits","fields":["credits"],"sourceUrls":["https://utaten.com/lyric/mi25031811/"],"verifiedAt":"2026-10-18"},{"target":"credits","fields":["credits"],"sourceUrls":["https://utaten.com/lyric/mi25031811/"],"verifiedAt":"2026-10-18"},{"target":"recording","fields":["title","format","kind"],"sourceUrls":["https://bandmaid.tokyo/contents/898327"],"verifiedAt":"2026-10-18","targetId":"rock-wa-lady-no-tashinami-deshite-op-1-song-original"},{"target":"link","fields":["url"],"sourceUrls":["https://bandmaid.tokyo/contents/898327"],"verifiedAt":"2026-10-18","targetId":"https://www.youtube.com/watch?v=eapNDHKbu0M"},{"target":"link","fields":["url"],"sourceUrls":["https://bandmaid.tokyo/contents/898327"],"verifiedAt":"2026-10-18","targetId":"https://www.youtube.com/watch?v=yvQJMvms-ok"},{"target":"link","fields":["url"],"sourceUrls":["https://bandmaid.tokyo/contents/973161"],"verifiedAt":"2026-10-18","targetId":"https://www.youtube.com/watch?v=JegJ6cSsUgg"},{"target":"link","fields":["url"],"sourceUrls":["https://bandmaid.tokyo/contents/973161"],"verifiedAt":"2026-10-18","targetId":"https://www.youtube.com/watch?v=5I6VV4HYnW8"},{"target":"recording","fields":["title","format","kind"],"sourceUrls":["https://bandmaid.tokyo/contents/973161"],"verifiedAt":"2026-10-18","targetId":"rock-wa-lady-no-tashinami-deshite-op-1-song-official-live"},{"target":"recording","fields":["title","format","kind"],"sourceUrls":["https://bandmaid.tokyo/contents/973161"],"verifiedAt":"2026-10-18","targetId":"rock-wa-lady-no-tashinami-deshite-op-1-song-instrumental-video"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://bandmaid.tokyo/contents/973161"],"verifiedAt":"2026-10-18","targetId":"bandmaid-scooooop-pcca-06425"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://bandmaid.tokyo/contents/973161"],"verifiedAt":"2026-10-18","targetId":"bandmaid-scooooop-pcca-06426"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://bandmaid.tokyo/contents/973161"],"verifiedAt":"2026-10-18","targetId":"bandmaid-scooooop-pcca-06427"},{"target":"release","fields":["title","type","artist","tracklist","date","edition"],"sourceUrls":["https://bandmaid.tokyo/contents/898327"],"verifiedAt":"2026-10-18","targetId":"rock-wa-lady-no-tashinami-deshite-op-1-song-digital"},{"target":"link","fields":["url"],"sourceUrls":["https://band-maid.lnk.to/Ready_to_Rock"],"verifiedAt":"2026-10-18","targetId":"https://music.apple.com/jp/album/1802097606"},{"target":"link","fields":["url"],"sourceUrls":["https://band-maid.lnk.to/Ready_to_Rock"],"verifiedAt":"2026-10-18","targetId":"https://open.spotify.com/album/0SsvK9WiXtLRBKw2KQCsHA"},{"target":"link","fields":["url"],"sourceUrls":["https://band-maid.lnk.to/Ready_to_Rock"],"verifiedAt":"2026-10-18","targetId":"https://music.youtube.com/playlist?list=OLAK5uy_kUsQFsmtPCrO76EcD16TTbt_CiEDgtxMI"},{"target":"link","fields":["url"],"sourceUrls":["https://band-maid.lnk.to/Ready_to_Rock"],"verifiedAt":"2026-10-18","targetId":"https://recochoku.jp/album/A1041291748"},{"target":"link","fields":["url"],"sourceUrls":["https://band-maid.lnk.to/Ready_to_Rock"],"verifiedAt":"2026-10-18","targetId":"https://mora.jp/package/43000004/PCSP-06381/"}],"recordings":[{"id":"rock-wa-lady-no-tashinami-deshite-op-1-song-original","title":"Ready to Rock","format":"unknown","kind":"vocal"},{"id":"rock-wa-lady-no-tashinami-deshite-op-1-song-official-live","title":"Ready to Rock（Official Live Video）","format":"unknown","kind":"live"},{"id":"rock-wa-lady-no-tashinami-deshite-op-1-song-instrumental-video","title":"Ready to Rock（Instrumental Video）","format":"unknown","kind":"instrumental"}],"releases":[{"id":"bandmaid-scooooop-pcca-06425","title":"SCOOOOOP","type":"ep","artistDisplayName":"BAND-MAID","tracks":[{"title":"Ready to Rock","position":2,"disc":1},{"title":"Ready to Rock（Instrumental Video）","position":2,"recordingId":"rock-wa-lady-no-tashinami-deshite-op-1-song-instrumental-video","disc":2}],"date":{"value":"2025-10-22","precision":"day"},"catalogNumber":"PCCA-06425","edition":"完全生産限定盤 CD+Blu-ray"},{"id":"bandmaid-scooooop-pcca-06426","title":"SCOOOOOP","type":"ep","artistDisplayName":"BAND-MAID","tracks":[{"title":"Ready to Rock","position":2,"disc":1},{"title":"Ready to Rock（Instrumental Video）","position":2,"recordingId":"rock-wa-lady-no-tashinami-deshite-op-1-song-instrumental-video","disc":2}],"date":{"value":"2025-10-22","precision":"day"},"catalogNumber":"PCCA-06426","edition":"初回生産限定盤 CD+DVD"},{"id":"bandmaid-scooooop-pcca-06427","title":"SCOOOOOP","type":"ep","artistDisplayName":"BAND-MAID","tracks":[{"title":"Ready to Rock","position":2,"disc":1}],"date":{"value":"2025-10-22","precision":"day"},"catalogNumber":"PCCA-06427","edition":"通常盤 CD"},{"id":"rock-wa-lady-no-tashinami-deshite-op-1-song-digital","title":"Ready to Rock","type":"single","artistDisplayName":"BAND-MAID","tracks":[{"title":"Ready to Rock"}],"date":{"value":"2025-04-04","precision":"day"},"edition":"Digital Single"}]},{"type":"ED","sequence":1,"titleJa":"夢じゃないならなんなのさ","titleRomaji":"Yume ja Nai nara Nannano sa","artistDisplayName":"Little Glee Monster","credits":[{"name":"Little Glee Monster","role":"vocals"},{"name":"松原さらり","role":"lyrics"},{"name":"南田健吾(agehasprings Party)","role":"composition"},{"name":"南田健吾(agehasprings Party)","role":"arrangement"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://rocklady.rocks/","linkType":"official_landing_page","region":"JP"},{"platform":"YouTube","label":"官方MV（長度未分類）","url":"https://www.youtube.com/watch?v=Bl5CW_aV9PI","linkType":"direct_track","region":"UNKNOWN","verifiedAt":"2026-10-18","availability":"unknown"},{"platform":"Apple Music","label":"確切收錄專輯（Apple Music）","url":"https://music.apple.com/jp/album/1804805641","linkType":"direct_album","region":"JP","verifiedAt":"2026-10-18","availability":"unknown","releaseId":"rock-wa-lady-no-tashinami-deshite-ed-1-song-digital"},{"platform":"Spotify","label":"確切收錄專輯（Spotify）","url":"https://open.spotify.com/album/49IBsIQFfmpZGDgaxaaNu9","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-18","availability":"unknown","releaseId":"rock-wa-lady-no-tashinami-deshite-ed-1-song-digital"},{"platform":"YouTube Music","label":"確切收錄專輯（YouTube Music）","url":"https://music.youtube.com/playlist?list=OLAK5uy_mgzMIVQuHuSRI2J1patUj3tKJdz18KZDw","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-18","availability":"unknown","releaseId":"rock-wa-lady-no-tashinami-deshite-ed-1-song-digital"},{"platform":"レコチョク","label":"確切收錄專輯（レコチョク）","url":"https://recochoku.jp/album/A1041501176","linkType":"direct_album","region":"JP","verifiedAt":"2026-10-18","availability":"unknown","releaseId":"rock-wa-lady-no-tashinami-deshite-ed-1-song-digital"},{"platform":"mora","label":"確切收錄專輯（mora）","url":"https://mora.jp/package/43000087/SRXX05236B00Z/","linkType":"direct_album","region":"JP","verifiedAt":"2026-10-18","availability":"unknown","releaseId":"rock-wa-lady-no-tashinami-deshite-ed-1-song-digital"}],"sources":[{"label":"動畫官方網站","url":"https://rocklady.rocks/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/rock_wa_lady_no_tashinami_deshite","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/572911","label":"官方：歌曲、演唱與動畫用途","role":"first_party","language":"ja","verifiedAt":"2026-10-18"},{"url":"https://utaten.com/lyric/hw25041121/","label":"逐曲創作／演唱名單","role":"cross_check","language":"multi","verifiedAt":"2026-10-18"},{"url":"https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/573018","label":"官方歌曲／商品／影片資料","role":"first_party","language":"ja","verifiedAt":"2026-10-18"},{"url":"https://littlegleemonster.lnk.to/YumejanainaraNannanosa","label":"官方影片／確切平台項目來源","role":"first_party","language":"multi","verifiedAt":"2026-10-18"}],"songId":"rock-wa-lady-no-tashinami-deshite-ed-1-song","sourceMode":"explicit","seasonIds":["2025-spring"],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/572911","https://animethemes.moe/anime/rock_wa_lady_no_tashinami_deshite"],"verifiedAt":"2026-08-30","targetId":"rock-wa-lady-no-tashinami-deshite-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/572911","https://animethemes.moe/anime/rock_wa_lady_no_tashinami_deshite"],"verifiedAt":"2026-08-30","targetId":"rock-wa-lady-no-tashinami-deshite-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://utaten.com/lyric/hw25041121/"],"verifiedAt":"2026-10-18"},{"target":"credits","fields":["credits"],"sourceUrls":["https://utaten.com/lyric/hw25041121/"],"verifiedAt":"2026-10-18"},{"target":"credits","fields":["credits"],"sourceUrls":["https://utaten.com/lyric/hw25041121/"],"verifiedAt":"2026-10-18"},{"target":"recording","fields":["title","format","kind"],"sourceUrls":["https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/572911"],"verifiedAt":"2026-10-18","targetId":"rock-wa-lady-no-tashinami-deshite-ed-1-song-original"},{"target":"link","fields":["url"],"sourceUrls":["https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/572911"],"verifiedAt":"2026-10-18","targetId":"https://www.youtube.com/watch?v=Bl5CW_aV9PI"},{"target":"recording","fields":["title","format","kind"],"sourceUrls":["https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/573018"],"verifiedAt":"2026-10-18","targetId":"rock-wa-lady-no-tashinami-deshite-ed-1-song-lead-off"},{"target":"recording","fields":["title","format","kind"],"sourceUrls":["https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/573018"],"verifiedAt":"2026-10-18","targetId":"rock-wa-lady-no-tashinami-deshite-ed-1-song-tv"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/573018"],"verifiedAt":"2026-10-18","targetId":"rock-wa-lady-no-tashinami-deshite-ed-1-song-srcl-13320"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/573018"],"verifiedAt":"2026-10-18","targetId":"rock-wa-lady-no-tashinami-deshite-ed-1-song-srcl-13322"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/573018"],"verifiedAt":"2026-10-18","targetId":"rock-wa-lady-no-tashinami-deshite-ed-1-song-srcl-13323"},{"target":"release","fields":["title","type","artist","tracklist","date","edition"],"sourceUrls":["https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/572911"],"verifiedAt":"2026-10-18","targetId":"rock-wa-lady-no-tashinami-deshite-ed-1-song-digital"},{"target":"link","fields":["url"],"sourceUrls":["https://littlegleemonster.lnk.to/YumejanainaraNannanosa"],"verifiedAt":"2026-10-18","targetId":"https://music.apple.com/jp/album/1804805641"},{"target":"link","fields":["url"],"sourceUrls":["https://littlegleemonster.lnk.to/YumejanainaraNannanosa"],"verifiedAt":"2026-10-18","targetId":"https://open.spotify.com/album/49IBsIQFfmpZGDgaxaaNu9"},{"target":"link","fields":["url"],"sourceUrls":["https://littlegleemonster.lnk.to/YumejanainaraNannanosa"],"verifiedAt":"2026-10-18","targetId":"https://music.youtube.com/playlist?list=OLAK5uy_mgzMIVQuHuSRI2J1patUj3tKJdz18KZDw"},{"target":"link","fields":["url"],"sourceUrls":["https://littlegleemonster.lnk.to/YumejanainaraNannanosa"],"verifiedAt":"2026-10-18","targetId":"https://recochoku.jp/album/A1041501176"},{"target":"link","fields":["url"],"sourceUrls":["https://littlegleemonster.lnk.to/YumejanainaraNannanosa"],"verifiedAt":"2026-10-18","targetId":"https://mora.jp/package/43000087/SRXX05236B00Z/"}],"recordings":[{"id":"rock-wa-lady-no-tashinami-deshite-ed-1-song-original","title":"夢じゃないならなんなのさ","format":"unknown","kind":"vocal"},{"id":"rock-wa-lady-no-tashinami-deshite-ed-1-song-lead-off","title":"夢じゃないならなんなのさ - Lead Off ver. -","format":"unknown","kind":"vocal"},{"id":"rock-wa-lady-no-tashinami-deshite-ed-1-song-tv","title":"夢じゃないならなんなのさ - TV Size -","format":"tv","kind":"vocal"}],"releases":[{"id":"rock-wa-lady-no-tashinami-deshite-ed-1-song-srcl-13320","title":"夢じゃないならなんなのさ","type":"single","artistDisplayName":"Little Glee Monster","tracks":[{"title":"夢じゃないならなんなのさ","position":1,"disc":1},{"title":"夢じゃないならなんなのさ - Lead Off ver. -","position":4,"recordingId":"rock-wa-lady-no-tashinami-deshite-ed-1-song-lead-off","disc":1}],"date":{"value":"2025-05-28","precision":"day"},"catalogNumber":"SRCL-13320～13321","edition":"初回生産限定盤 CD+Blu-ray"},{"id":"rock-wa-lady-no-tashinami-deshite-ed-1-song-srcl-13322","title":"夢じゃないならなんなのさ","type":"single","artistDisplayName":"Little Glee Monster","tracks":[{"title":"夢じゃないならなんなのさ","position":1,"disc":1},{"title":"夢じゃないならなんなのさ - Lead Off ver. -","position":4,"recordingId":"rock-wa-lady-no-tashinami-deshite-ed-1-song-lead-off","disc":1}],"date":{"value":"2025-05-28","precision":"day"},"catalogNumber":"SRCL-13322","edition":"通常盤 CD"},{"id":"rock-wa-lady-no-tashinami-deshite-ed-1-song-srcl-13323","title":"夢じゃないならなんなのさ","type":"single","artistDisplayName":"Little Glee Monster","tracks":[{"title":"夢じゃないならなんなのさ","position":1,"disc":1},{"title":"夢じゃないならなんなのさ - TV Size -","position":4,"recordingId":"rock-wa-lady-no-tashinami-deshite-ed-1-song-tv","disc":1}],"date":{"value":"2025-05-28","precision":"day"},"catalogNumber":"SRCL-13323～13324","edition":"期間生産限定盤 CD+Blu-ray"},{"id":"rock-wa-lady-no-tashinami-deshite-ed-1-song-digital","title":"夢じゃないならなんなのさ","type":"single","artistDisplayName":"Little Glee Monster","tracks":[{"title":"夢じゃないならなんなのさ"}],"date":{"value":"2025-04-11","precision":"day"},"edition":"Digital Single"}]}],"verifiedAt":"2026-08-30","metadataVerifiedAt":"2026-08-30"},
   {"anilistId":183161,"id":"curated-183161","slug":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru","seasonIds":["2025-spring"],"startDate":"2025-04-02","titleJa":"最強の王様、二度目の人生は 何をする?","titleZhHant":"終末起點","titleRomaji":"Saikyou no Ousama, Nidome no Jinsei wa Nani wo Suru?","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx183161-5M054tuPmZJX.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/183161-L5X2veRcYJnh.jpg","editorialWeekday":3,"broadcastLabel":"日本TV第1期：2025-04-02水曜23:30起（中文播出索引）；23分・全12話。現行官方ONAIR第2期と區分","status":"finished","officialSiteUrl":"https://saikyo2dome-tbate.com/","anilistUrl":"https://anilist.co/anime/183161","imageSourceUrl":"https://anilist.co/anime/183161","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/14304","https://bgm.tv/subject/520559"],"animeThemesUrl":"https://animethemes.moe/anime/saikyou_no_ousama_nidome_no_jinsei_wa_nani_wo_suru","uzureaUrl":"https://uzurea.net/spring-2025-anime-themes-and-picks/","themes":[{"type":"OP","sequence":1,"titleJa":"KINGSBLOOD","artistDisplayName":"KALA","youtubeUrl":"https://www.youtube.com/watch?v=W8d_WYTQCQY","id":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-op-1","songId":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-op-1-song","sourceMode":"explicit","sources":[{"label":"【フジテレビ】アニメ公式チャンネル 官方影片","url":"https://www.youtube.com/watch?v=W8d_WYTQCQY","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://saikyo2dome-tbate.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/saikyou_no_ousama_nidome_no_jinsei_wa_nani_wo_suru","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://saikyo2dome-tbate.com/music","label":"動畫官方：本季歌曲原名、演唱名義、用途及同頁明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://youranimes.tw/animes/5519","label":"中文作品索引：第1期曲名、演唱及OP／ED交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"}],"links":[{"platform":"YouTube","label":"官方公開影片","url":"https://www.youtube.com/watch?v=W8d_WYTQCQY","linkType":"direct_track","region":"GLOBAL"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://saikyo2dome-tbate.com/music"],"verifiedAt":"2026-10-20","targetId":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://saikyo2dome-tbate.com/music"],"verifiedAt":"2026-10-20","targetId":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/saikyou_no_ousama_nidome_no_jinsei_wa_nani_wo_suru"],"verifiedAt":"2026-08-30","targetId":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/saikyou_no_ousama_nidome_no_jinsei_wa_nani_wo_suru"],"verifiedAt":"2026-08-30","targetId":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://youranimes.tw/animes/5519"],"verifiedAt":"2026-10-20","targetId":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://youranimes.tw/animes/5519"],"verifiedAt":"2026-10-20","targetId":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-op-1"}],"seasonIds":["2025-spring"],"lastVerifiedAt":"2026-10-20","followUp":[{"fields":["basic_evidence"],"note":"歌曲第1期原名、演唱與用途已核對；動畫4月2日23:30首播採中文TV索引，現行官方ONAIR已換第2期，第一期原始局別／時段公告待補。","resumeWhen":"取得第一期官方播出公告或放送局舊節目表時補動畫時段證據，不套用2026年第2期日期。","checkedAt":"2026-10-20"}]},{"type":"ED","sequence":1,"titleJa":"真昼の月","artistDisplayName":"seiza","youtubeUrl":"https://www.youtube.com/watch?v=WCadYVJc1j0","id":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-ed-1","songId":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-ed-1-song","sourceMode":"explicit","sources":[{"label":"【フジテレビ】アニメ公式チャンネル 官方影片","url":"https://www.youtube.com/watch?v=WCadYVJc1j0","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://saikyo2dome-tbate.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/saikyou_no_ousama_nidome_no_jinsei_wa_nani_wo_suru","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://saikyo2dome-tbate.com/music","label":"動畫官方：本季歌曲原名、演唱名義、用途及同頁明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://youranimes.tw/animes/5519","label":"中文作品索引：第1期曲名、演唱及OP／ED交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"}],"links":[{"platform":"YouTube","label":"官方公開影片","url":"https://www.youtube.com/watch?v=WCadYVJc1j0","linkType":"direct_track","region":"GLOBAL"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://saikyo2dome-tbate.com/music"],"verifiedAt":"2026-10-20","targetId":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://saikyo2dome-tbate.com/music"],"verifiedAt":"2026-10-20","targetId":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/saikyou_no_ousama_nidome_no_jinsei_wa_nani_wo_suru"],"verifiedAt":"2026-08-30","targetId":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/saikyou_no_ousama_nidome_no_jinsei_wa_nani_wo_suru"],"verifiedAt":"2026-08-30","targetId":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://youranimes.tw/animes/5519"],"verifiedAt":"2026-10-20","targetId":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://youranimes.tw/animes/5519"],"verifiedAt":"2026-10-20","targetId":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-ed-1"}],"seasonIds":["2025-spring"],"lastVerifiedAt":"2026-10-20","followUp":[{"fields":["basic_evidence"],"note":"歌曲第1期原名、演唱與用途已核對；動畫4月2日23:30首播採中文TV索引，現行官方ONAIR已換第2期，第一期原始局別／時段公告待補。","resumeWhen":"取得第一期官方播出公告或放送局舊節目表時補動畫時段證據，不套用2026年第2期日期。","checkedAt":"2026-10-20"}]}],"verifiedAt":"2026-08-30","metadataVerifiedAt":"2026-08-30","metadataSources":[{"url":"https://youranimes.tw/animes/5519","label":"中文TV索引：作品身分、播出期與時段","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"},{"url":"https://saikyo2dome-tbate.com/music","label":"動畫官方：第1期歌曲與作品身分（不套用第2期時段）","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"broadcastTimeJst":"23:30"},
