@@ -53,14 +53,754 @@ export const curated2023SummerSeeds: CuratedAnimeSeed[] = [
   {"anilistId":154643,"id":"curated-154643","slug":"synduality-noir","seasonIds":["2023-summer"],"startDate":"2023-07-11","titleJa":"SYNDUALITY Noir","titleZhHant":"奇異賢伴 黑色天使","titleRomaji":"SYNDUALITY Noir","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154643-NbuhZQCxgKMj.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/154643-KYvDbHPAGtVd.jpg","editorialWeekday":2,"broadcastLabel":"原第1cour TV：2023年7月10日（一）24:00テレビ東京系6局，即7月11日（二）00:00；BS日テレ24:30、Disney+24:30串流較後。與2024第二cour及WEB廣播分開。","status":"finished","officialSiteUrl":"https://synduality-noir.com/","anilistUrl":"https://anilist.co/anime/154643","imageSourceUrl":"https://anilist.co/anime/154643","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-summer?display=list_detailed","https://bgm.tv/subject/401301"],"animeThemesUrl":"https://animethemes.moe/anime/synduality_noir","themes":[{"type":"OP","sequence":1,"titleJa":"RAYTRACER","artistDisplayName":"STEREO DIVE FOUNDATION","id":"synduality-noir-op-1","songId":"synduality-noir-op-1-song","sources":[{"label":"動畫官方網站","url":"https://synduality-noir.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/synduality_noir","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://www.synduality-noir.com/products/317.html","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://synduality-noir.com/news/?p=1227","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://synduality-noir.com/news/?p=221","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://synduality-noir.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-summer"],"credits":[{"name":"STEREO DIVE FOUNDATION","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.synduality-noir.com/products/317.html","https://synduality-noir.com/news/?p=1227"],"verifiedAt":"2026-10-22","targetId":"synduality-noir-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.synduality-noir.com/products/317.html","https://synduality-noir.com/news/?p=1227"],"verifiedAt":"2026-10-22","targetId":"synduality-noir-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/synduality_noir"],"verifiedAt":"2026-09-01","targetId":"synduality-noir-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/synduality_noir"],"verifiedAt":"2026-09-01","targetId":"synduality-noir-op-1"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈RAYTRACER〉：官方商品頁索引直接明原OP曲名及STEREO DIVE FOUNDATION；原2024/1/5官方公告另明本曲為第1cour OP，故只記2023夏，不把第2courアイレ混入。未由企劃一般profile推R・O・N本曲逐項作者。","resumeWhen":"詳細階段沿用本期已核歌曲與用途來源；取得第一方逐曲作者、錄音標示、官方影片形式、收錄發行品或正版平台精確入口後，只補尚缺欄位。MV／creditless不自動證full／TV或新錄音，同曲不同影片／商品不另造歌曲。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":1,"titleJa":"ユリイカ","artistDisplayName":"ARCANA PROJECT","id":"synduality-noir-ed-1","songId":"synduality-noir-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://synduality-noir.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/synduality_noir","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://www.synduality-noir.com/news/230.html","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://synduality-noir.com/news/?p=221","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://synduality-noir.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-summer"],"credits":[{"name":"中山真斗","role":"lyrics"},{"name":"中山真斗","role":"composition"},{"name":"中山真斗","role":"arrangement"},{"name":"ARCANA PROJECT","role":"vocals"}],"titleRomaji":"Eureka","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.synduality-noir.com/news/230.html"],"verifiedAt":"2026-10-22","targetId":"synduality-noir-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.synduality-noir.com/news/230.html"],"verifiedAt":"2026-10-22","targetId":"synduality-noir-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/synduality_noir"],"verifiedAt":"2026-09-01","targetId":"synduality-noir-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/synduality_noir"],"verifiedAt":"2026-09-01","targetId":"synduality-noir-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.synduality-noir.com/news/230.html"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈ユリイカ〉：原2023/5/21官方ED公告索引直接明ユリイカ／ARCANA PROJECT及中山真斗詞曲編；保留Eureka為原別名。這是第一cour正式歌手名義，不由角色cast、團隊成員介紹或後續cour曲目推個別歌唱。","resumeWhen":"詳細階段沿用本期已核歌曲與用途來源；取得第一方逐曲作者、錄音標示、官方影片形式、收錄發行品或正版平台精確入口後，只補尚缺欄位。MV／creditless不自動證full／TV或新錄音，同曲不同影片／商品不另造歌曲。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"}],"verifiedAt":"2026-09-01","metadataVerifiedAt":"2026-09-01","metadataSources":[{"url":"https://synduality-noir.com/news/?p=221","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.synduality-noir.com/products/317.html","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://synduality-noir.com/news/?p=1227","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.synduality-noir.com/news/230.html","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"broadcastTimeJst":"00:00"},
   {"anilistId":166104,"id":"curated-166104","slug":"tonikaku-kawaii-joshikou-hen","seasonIds":["2023-summer"],"startDate":"2023-07-12","titleJa":"トニカクカワイイ 女子高編","titleZhHant":"總之就是很可愛 女子高中篇","titleRomaji":"Tonikaku Kawaii: Joshikou-hen","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166104-0oRQjclE7X3S.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/166104-X3TaqBBUR5Ul.jpg","editorialWeekday":3,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://tonikawa.com/","anilistUrl":"https://anilist.co/anime/166104","imageSourceUrl":"https://anilist.co/anime/166104","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-summer?display=list_detailed","https://bgm.tv/subject/441233"],"animeThemesUrl":"https://animethemes.moe/anime/tonikaku_kawaii_joshikou_hen","themes":[{"type":"OP","sequence":1,"titleJa":"plan","artistDisplayName":"Saori Hayami"},{"type":"ED","sequence":1,"titleJa":"Guruguru Live","artistDisplayName":"Akari Kitou"},{"type":"ED","sequence":2,"titleJa":"Tsuki to Hoshizora","artistDisplayName":"KanoeRana"}],"verifiedAt":"2026-09-01"},
   {"anilistId":145140,"id":"curated-145140","slug":"helck","seasonIds":["2023-summer","2023-fall"],"startDate":"2023-07-12","titleJa":"Helck","titleZhHant":"勇者赫魯庫","titleRomaji":"Helck","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx145140-tHT8TT2XSsOh.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/145140-ucGOCSzmWz86.jpg","editorialWeekday":3,"broadcastLabel":"日本原期TV：日本テレビ2023年7月11日（火）25:29，即實際7月12日（水）01:29；AT-X同日23:30、BS日テレ7/12 24:00；Hulu等26:00串流與6月先行上映另計","status":"finished","officialSiteUrl":"https://www.helck-anime.com/","anilistUrl":"https://anilist.co/anime/145140","imageSourceUrl":"https://anilist.co/anime/145140","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-summer?display=list_detailed","https://bgm.tv/subject/369784"],"animeThemesUrl":"https://animethemes.moe/anime/helck","themes":[{"type":"OP","sequence":1,"titleJa":"It’s My Soul","artistDisplayName":"七海ひろき","id":"helck-op-1","songId":"helck-op-1-song","sources":[{"label":"動畫官方網站","url":"https://www.helck-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/helck","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://www.helck-anime.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.helck-anime.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.helck-anime.com/news/2023052618000861/","label":"第一方本期歌曲與用途補充","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.anisil.com/animes/5670-Helck","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://www.helck-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-summer"],"credits":[{"name":"本田正樹","role":"lyrics"},{"name":"本田正樹","role":"composition"},{"name":"本田正樹","role":"arrangement"},{"name":"七海ひろき","role":"vocals"}],"titleRomaji":"It's My Soul","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.helck-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"helck-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.helck-anime.com/music/","https://www.helck-anime.com/news/2023052618000861/"],"verifiedAt":"2026-10-22","targetId":"helck-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/helck"],"verifiedAt":"2026-09-01","targetId":"helck-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/helck"],"verifiedAt":"2026-09-01","targetId":"helck-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.anisil.com/animes/5670-Helck"],"verifiedAt":"2026-10-22","targetId":"helck-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.anisil.com/animes/5670-Helck"],"verifiedAt":"2026-10-22","targetId":"helck-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.helck-anime.com/music/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈It’s My Soul〉：官網Music及原第1クール公告明本曲OP、七海ひろき，本田正樹詞曲編同頁直列。逐話交叉明#1–12，第12話實際9/27，故summer；不把動畫下半fall套入本曲。 舊AnimeThemes與未重讀來源保留2026-09-01日期；本輪只有實讀的新URL用2026-10-22。","resumeWhen":"詳細階段沿本曲第一方來源補仍缺的詞曲編、逐曲演唱、錄音、官方影片形式、發行品及正版平台；不由團體成員／cast名冊推全員歌唱，不由不同MV或CD收錄推新錄音與用途。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"OP","sequence":2,"titleJa":"HELP","artistDisplayName":"愛美","id":"helck-op-2","songId":"helck-op-2-song","sources":[{"label":"動畫官方網站","url":"https://www.helck-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/helck","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://www.helck-anime.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.helck-anime.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.anisil.com/animes/5670-Helck","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://www.helck-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-fall"],"credits":[{"name":"愛美","role":"lyrics"},{"name":"志村真白","role":"composition"},{"name":"志村真白","role":"arrangement"},{"name":"愛美","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.helck-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"helck-op-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.helck-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"helck-op-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/helck"],"verifiedAt":"2026-09-01","targetId":"helck-op-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/helck"],"verifiedAt":"2026-09-01","targetId":"helck-op-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.anisil.com/animes/5670-Helck"],"verifiedAt":"2026-10-22","targetId":"helck-op-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.anisil.com/animes/5670-Helck"],"verifiedAt":"2026-10-22","targetId":"helck-op-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.helck-anime.com/music/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈HELP〉：官網第2クールMusic明HELP／愛美OP，愛美詞、志村真白（FirstCall）曲編；逐話交叉明#13–24，第13話實際10/4，與官網10月第二cour串證fall。不因7月提早公告或9月先行配信公告把用途放summer。 舊AnimeThemes與未重讀來源保留2026-09-01日期；本輪只有實讀的新URL用2026-10-22。","resumeWhen":"詳細階段沿本曲第一方來源補仍缺的詞曲編、逐曲演唱、錄音、官方影片形式、發行品及正版平台；不由團體成員／cast名冊推全員歌唱，不由不同MV或CD收錄推新錄音與用途。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":1,"titleJa":"スターチス","artistDisplayName":"saji","id":"helck-ed-1","songId":"helck-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://www.helck-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/helck","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://www.helck-anime.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.helck-anime.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.helck-anime.com/news/2023052618000861/","label":"第一方本期歌曲與用途補充","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.anisil.com/animes/5670-Helck","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://www.helck-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-summer"],"credits":[{"name":"ヨシダタクミ","role":"lyrics"},{"name":"ヨシダタクミ","role":"composition"},{"name":"ヨシダタクミ","role":"arrangement"},{"name":"ヨシダタクミ","role":"vocals"}],"titleRomaji":"Statice","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.helck-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"helck-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.helck-anime.com/music/","https://www.helck-anime.com/news/2023052618000861/"],"verifiedAt":"2026-10-22","targetId":"helck-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/helck"],"verifiedAt":"2026-09-01","targetId":"helck-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/helck"],"verifiedAt":"2026-09-01","targetId":"helck-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.anisil.com/animes/5670-Helck"],"verifiedAt":"2026-10-22","targetId":"helck-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.anisil.com/animes/5670-Helck"],"verifiedAt":"2026-10-22","targetId":"helck-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.helck-anime.com/music/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈スターチス〉：官網Music與原第1クール公告明saji本曲ED及ヨシダタクミ詞曲編；本曲收錄訪談明ヨシダタクミ以自己聲線嘗試歌唱，故只補他為個別vocal，未由樂團介紹推其他兩位同唱。交叉明#1–12至9/27，故summer。 舊AnimeThemes與未重讀來源保留2026-09-01日期；本輪只有實讀的新URL用2026-10-22。","resumeWhen":"詳細階段沿本曲第一方來源補仍缺的詞曲編、逐曲演唱、錄音、官方影片形式、發行品及正版平台；不由團體成員／cast名冊推全員歌唱，不由不同MV或CD收錄推新錄音與用途。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":2,"titleJa":"ヒカリ","artistDisplayName":"カノエラナ","id":"helck-ed-2","songId":"helck-ed-2-song","sources":[{"label":"動畫官方網站","url":"https://www.helck-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/helck","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://www.helck-anime.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.helck-anime.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.anisil.com/animes/5670-Helck","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://www.helck-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-fall"],"credits":[{"name":"カノエラナ","role":"lyrics"},{"name":"カノエラナ","role":"composition"},{"name":"山崎寛子","role":"arrangement"},{"name":"カノエラナ","role":"vocals"}],"titleRomaji":"Hikari","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.helck-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"helck-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.helck-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"helck-ed-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/helck"],"verifiedAt":"2026-09-01","targetId":"helck-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/helck"],"verifiedAt":"2026-09-01","targetId":"helck-ed-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.anisil.com/animes/5670-Helck"],"verifiedAt":"2026-10-22","targetId":"helck-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.anisil.com/animes/5670-Helck"],"verifiedAt":"2026-10-22","targetId":"helck-ed-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.helck-anime.com/music/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈ヒカリ〉：官網Music明第2クールEDヒカリ／カノエラナ、本人詞曲及山崎寛子編；逐話交叉明#13–24，第13話10/4，故fall。未從歌曲10/18配信或11月CD日期推實際動畫用途。 舊AnimeThemes與未重讀來源保留2026-09-01日期；本輪只有實讀的新URL用2026-10-22。","resumeWhen":"詳細階段沿本曲第一方來源補仍缺的詞曲編、逐曲演唱、錄音、官方影片形式、發行品及正版平台；不由團體成員／cast名冊推全員歌唱，不由不同MV或CD收錄推新錄音與用途。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"}],"verifiedAt":"2026-09-01","metadataVerifiedAt":"2026-09-01","metadataSources":[{"url":"https://en.wikipedia.org/wiki/Helck_%28manga%29","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"en","verifiedAt":"2026-10-22"},{"url":"https://www.helck-anime.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.helck-anime.com/music/","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"broadcastTimeJst":"01:29"},
-  {"anilistId":165356,"id":"curated-165356","slug":"shuumatsu-no-valkyrie-ii-part-2","seasonIds":["2023-summer"],"startDate":"2023-07-12","titleJa":"終末のワルキューレⅡ 後編","titleZhHant":"終末的女武神II（後篇）","titleRomaji":"Shuumatsu no Valkyrie II Part 2","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx165356-JllyKMqTyVpe.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/165356-3ZKJhz8PRkAJ.jpg","editorialWeekday":3,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://ragnarok-official.com/","anilistUrl":"https://anilist.co/anime/165356","imageSourceUrl":"https://anilist.co/anime/165356","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-summer?display=list_detailed","https://bgm.tv/subject/425937"],"themes":[{"type":"OP","sequence":1,"titleJa":"ルードルーズダンス","artistDisplayName":"美波"},{"type":"ED","sequence":1,"titleJa":"祈","artistDisplayName":"小野正利"}],"verifiedAt":"2026-09-01"},
+  {
+  "anilistId": 165356,
+  "id": "curated-165356",
+  "slug": "shuumatsu-no-valkyrie-ii-part-2",
+  "seasonIds": [
+    "2023-summer",
+    "2023-fall"
+  ],
+  "startDate": "2023-07-12",
+  "titleJa": "終末のワルキューレⅡ 後編",
+  "titleZhHant": "終末的女武神II（後篇）",
+  "titleRomaji": "Shuumatsu no Valkyrie II Part 2",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx165356-JllyKMqTyVpe.png",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/165356-3ZKJhz8PRkAJ.jpg",
+  "editorialWeekday": 6,
+  "broadcastLabel": "日本TV版首播 2023-10-21 00:30 JST",
+  "status": "finished",
+  "officialSiteUrl": "https://ragnarok-official.com/",
+  "anilistUrl": "https://anilist.co/anime/165356",
+  "imageSourceUrl": "https://anilist.co/anime/165356",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://annict.com/works/2023-summer?display=list_detailed",
+    "https://bgm.tv/subject/425937"
+  ],
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "ルードルーズダンス",
+      "artistDisplayName": "美波",
+      "id": "shuumatsu-no-valkyrie-ii-part-2-op-1",
+      "songId": "shuumatsu-no-valkyrie-ii-part-2-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "url": "https://ragnarok-official.com/2nd/music/op/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "label": "Anison Online：2023 年下半年 OP／ED 分類交叉核對",
+          "url": "https://anison.online/season?season_id=4",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://ragnarok-official.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E7%B5%82%E6%9C%AB%E7%9A%84%E5%A5%B3%E6%AD%A6%E7%A5%9E",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://www.animatetimes.com/tag/details.php?id=15807",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "美波",
+          "role": "vocals"
+        },
+        {
+          "name": "美波",
+          "role": "lyrics"
+        },
+        {
+          "name": "美波",
+          "role": "composition"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://ragnarok-official.com/2nd/music/op/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "shuumatsu-no-valkyrie-ii-part-2-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%B5%82%E6%9C%AB%E7%9A%84%E5%A5%B3%E6%AD%A6%E7%A5%9E"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "shuumatsu-no-valkyrie-ii-part-2-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/tag/details.php?id=15807"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "shuumatsu-no-valkyrie-ii-part-2-op-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://ragnarok-official.com/2nd/music/op/"
+          ],
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "已核對歌曲原名、演唱名義及原網路版用途；較晚TV版同曲用途尚缺直接對應。",
+          "resumeWhen": "待原期TV版逐曲資料或權利方明示此曲於該TV版使用後，核對用途季度。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "祈",
+      "artistDisplayName": "小野正利",
+      "id": "shuumatsu-no-valkyrie-ii-part-2-ed-1",
+      "songId": "shuumatsu-no-valkyrie-ii-part-2-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "url": "https://ragnarok-official.com/2nd/music/ed/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "label": "Anison Online：2023 年下半年 OP／ED 分類交叉核對",
+          "url": "https://anison.online/season?season_id=4",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://ragnarok-official.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E7%B5%82%E6%9C%AB%E7%9A%84%E5%A5%B3%E6%AD%A6%E7%A5%9E",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://www.animatetimes.com/tag/details.php?id=15807",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "小野正利",
+          "role": "vocals"
+        },
+        {
+          "name": "小野正利",
+          "role": "lyrics"
+        },
+        {
+          "name": "SYU",
+          "role": "composition"
+        },
+        {
+          "name": "SYU",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://ragnarok-official.com/2nd/music/ed/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "shuumatsu-no-valkyrie-ii-part-2-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%B5%82%E6%9C%AB%E7%9A%84%E5%A5%B3%E6%AD%A6%E7%A5%9E"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "shuumatsu-no-valkyrie-ii-part-2-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/tag/details.php?id=15807"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "shuumatsu-no-valkyrie-ii-part-2-ed-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://ragnarok-official.com/2nd/music/ed/"
+          ],
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "已核對歌曲原名、演唱名義及原網路版用途；較晚TV版同曲用途尚缺直接對應。",
+          "resumeWhen": "待原期TV版逐曲資料或權利方明示此曲於該TV版使用後，核對用途季度。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    }
+  ],
+  "verifiedAt": "2026-09-01",
+  "metadataVerifiedAt": "2026-09-01",
+  "metadataSources": [
+    {
+      "url": "https://ragnarok-official.com/2nd/onair/",
+      "label": "第一方所述TV版本播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-26"
+    }
+  ],
+  "broadcastTimeJst": "00:30"
+},
   {"anilistId":163263,"id":"curated-163263","slug":"bungou-stray-dogs-5th-season","seasonIds":["2023-summer"],"startDate":"2023-07-12","titleJa":"文豪ストレイドッグス 第5シーズン","titleZhHant":"文豪Stray Dogs（第5期）","titleRomaji":"Bungou Stray Dogs 5th Season","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163263-uz881pFAyi7P.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/163263-h3BwSskB0qvB.jpg","editorialWeekday":3,"broadcastLabel":"日本第5シーズン原TV：TOKYO MX 2023年7月12日（水）23:00；サンテレビ同日24:00，BS11翌日23:00；dアニメストア同時配信另列，不混第4シーズン1月表","status":"finished","officialSiteUrl":"https://bungosd.com/","anilistUrl":"https://anilist.co/anime/163263","imageSourceUrl":"https://anilist.co/anime/163263","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-summer?display=list_detailed","https://bgm.tv/subject/426815"],"animeThemesUrl":"https://animethemes.moe/anime/bungou_stray_dogs_5th_season","themes":[{"type":"OP","sequence":1,"titleJa":"鉄の檻","artistDisplayName":"GRANRODEO","id":"bungou-stray-dogs-5th-season-op-1","songId":"bungou-stray-dogs-5th-season-op-1-song","sources":[{"label":"動畫官方網站","url":"https://bungosd.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/bungou_stray_dogs_5th_season","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://bungosd.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://bungosd.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://bungosd.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-summer"],"credits":[{"name":"GRANRODEO","role":"vocals"}],"titleRomaji":"Tetsu no Ori","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://bungosd.com/music/"],"verifiedAt":"2026-10-22","targetId":"bungou-stray-dogs-5th-season-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://bungosd.com/music/"],"verifiedAt":"2026-10-22","targetId":"bungou-stray-dogs-5th-season-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/bungou_stray_dogs_5th_season"],"verifiedAt":"2026-09-01","targetId":"bungou-stray-dogs-5th-season-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/bungou_stray_dogs_5th_season"],"verifiedAt":"2026-09-01","targetId":"bungou-stray-dogs-5th-season-op-1"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈鉄の檻〉：官網Music同頁第4／5シーズン並列，僅取明標第5シーズンOP的鉄の檻／GRANRODEO區。第5季原TV7/12開始，既有AnimeThemes交叉沿用；本曲詞曲編此頁未列，未由其他曲或樂團分工補。 舊AnimeThemes與未重讀來源保留2026-09-01日期；本輪只有實讀的新URL用2026-10-22。","resumeWhen":"詳細階段沿本曲第一方來源補仍缺的詞曲編、逐曲演唱、錄音、官方影片形式、發行品及正版平台；不由團體成員／cast名冊推全員歌唱，不由不同MV或CD收錄推新錄音與用途。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":1,"titleJa":"軌跡","artistDisplayName":"ラックライフ","id":"bungou-stray-dogs-5th-season-ed-1","songId":"bungou-stray-dogs-5th-season-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://bungosd.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/bungou_stray_dogs_5th_season","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://bungosd.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://bungosd.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://bungosd.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-summer"],"credits":[{"name":"ラックライフ","role":"vocals"}],"titleRomaji":"Kiseki","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://bungosd.com/music/"],"verifiedAt":"2026-10-22","targetId":"bungou-stray-dogs-5th-season-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://bungosd.com/music/"],"verifiedAt":"2026-10-22","targetId":"bungou-stray-dogs-5th-season-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/bungou_stray_dogs_5th_season"],"verifiedAt":"2026-09-01","targetId":"bungou-stray-dogs-5th-season-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/bungou_stray_dogs_5th_season"],"verifiedAt":"2026-09-01","targetId":"bungou-stray-dogs-5th-season-ed-1"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈軌跡〉：官網Music第5シーズンED區明軌跡／ラックライフ，保留正式團體日文名義。此頁先列第4季しるし的PON詞曲／樂團編，不代表本曲作者，故本曲三角色待詳細續補；不把第4季歌曲套本期。 舊AnimeThemes與未重讀來源保留2026-09-01日期；本輪只有實讀的新URL用2026-10-22。","resumeWhen":"詳細階段沿本曲第一方來源補仍缺的詞曲編、逐曲演唱、錄音、官方影片形式、發行品及正版平台；不由團體成員／cast名冊推全員歌唱，不由不同MV或CD收錄推新錄音與用途。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"}],"verifiedAt":"2026-09-01","metadataVerifiedAt":"2026-09-01","metadataSources":[{"url":"https://bungosd.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://bungosd.com/music/","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"broadcastTimeJst":"23:00"},
   {"anilistId":155168,"id":"curated-155168","slug":"hataraku-maou-sama-2nd-season","seasonIds":["2023-summer"],"startDate":"2023-07-13","titleJa":"はたらく魔王さま！！2nd Season","titleZhHant":"打工吧！！魔王大人（第2期）","titleRomaji":"Hataraku Maou-sama!! 2nd Season","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx155168-x7TUG4F0HnQy.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/155168-S9lR447kRCwF.jpg","editorialWeekday":4,"broadcastLabel":"日本2023年2nd Season原TV：TOKYO MX／BS11 2023年7月13日（木）23:30；AT-X翌日22:00；與2022年1st Season及2024年追加串流分開","status":"finished","officialSiteUrl":"https://maousama.jp/","anilistUrl":"https://anilist.co/anime/155168","imageSourceUrl":"https://anilist.co/anime/155168","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-summer?display=list_detailed","https://bgm.tv/subject/403225"],"animeThemesUrl":"https://animethemes.moe/anime/hataraku_maou_sama_2nd_season","themes":[{"type":"OP","sequence":1,"titleJa":"光のない街","artistDisplayName":"nano.RIPE","id":"hataraku-maou-sama-2nd-season-op-1","songId":"hataraku-maou-sama-2nd-season-op-1-song","sources":[{"label":"動畫官方網站","url":"https://maousama.jp/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/hataraku_maou_sama_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://maousama.jp/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://maousama.jp/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://maousama.jp/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-summer"],"credits":[{"name":"きみコ","role":"lyrics"},{"name":"佐々木淳","role":"composition"},{"name":"佐々木淳","role":"arrangement"},{"name":"nano.RIPE","role":"vocals"}],"titleRomaji":"Hikari no Nai Machi","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://maousama.jp/music/"],"verifiedAt":"2026-10-22","targetId":"hataraku-maou-sama-2nd-season-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://maousama.jp/music/"],"verifiedAt":"2026-10-22","targetId":"hataraku-maou-sama-2nd-season-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/hataraku_maou_sama_2nd_season"],"verifiedAt":"2026-09-01","targetId":"hataraku-maou-sama-2nd-season-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/hataraku_maou_sama_2nd_season"],"verifiedAt":"2026-09-01","targetId":"hataraku-maou-sama-2nd-season-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://maousama.jp/music/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈光のない街〉：官網Music 2nd OPENING THEME明光のない街／nano.RIPE，本曲INDEX明きみコ詞、佐々木淳曲編；未把同商品重收2013年月花等曲當本期新用途，也未把樂團profile當逐人歌唱證據。 舊AnimeThemes與未重讀來源保留2026-09-01日期；本輪只有實讀的新URL用2026-10-22。","resumeWhen":"詳細階段沿本曲第一方來源補仍缺的詞曲編、逐曲演唱、錄音、官方影片形式、發行品及正版平台；不由團體成員／cast名冊推全員歌唱，不由不同MV或CD收錄推新錄音與用途。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":1,"titleJa":"bloomin'","artistDisplayName":"Liyuu","id":"hataraku-maou-sama-2nd-season-ed-1","songId":"hataraku-maou-sama-2nd-season-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://maousama.jp/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/hataraku_maou_sama_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://maousama.jp/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://maousama.jp/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://maousama.jp/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-summer"],"credits":[{"name":"しらゆき美優","role":"lyrics"},{"name":"白戸佑輔","role":"composition"},{"name":"白戸佑輔","role":"arrangement"},{"name":"Liyuu","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://maousama.jp/music/"],"verifiedAt":"2026-10-22","targetId":"hataraku-maou-sama-2nd-season-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://maousama.jp/music/"],"verifiedAt":"2026-10-22","targetId":"hataraku-maou-sama-2nd-season-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/hataraku_maou_sama_2nd_season"],"verifiedAt":"2026-09-01","targetId":"hataraku-maou-sama-2nd-season-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/hataraku_maou_sama_2nd_season"],"verifiedAt":"2026-09-01","targetId":"hataraku-maou-sama-2nd-season-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://maousama.jp/music/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈bloomin'〉：官網Music 2nd ENDING THEME明bloomin’／Liyuu，留言亦寫bloomin'；保留既有直引號拼法。本曲INDEX明しらゆき美優詞、白戸佑輔曲編；未將同CDミオソティス作者套本曲，亦不套Liella!角色名義。 舊AnimeThemes與未重讀來源保留2026-09-01日期；本輪只有實讀的新URL用2026-10-22。","resumeWhen":"詳細階段沿本曲第一方來源補仍缺的詞曲編、逐曲演唱、錄音、官方影片形式、發行品及正版平台；不由團體成員／cast名冊推全員歌唱，不由不同MV或CD收錄推新錄音與用途。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"}],"verifiedAt":"2026-09-01","metadataVerifiedAt":"2026-09-01","metadataSources":[{"url":"https://maousama.jp/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://maousama.jp/music/","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"broadcastTimeJst":"23:30"},
   {"anilistId":163542,"id":"curated-163542","slug":"spy-kyoushitsu-2nd-season","seasonIds":["2023-summer"],"startDate":"2023-07-13","titleJa":"スパイ教室 2nd season","titleZhHant":"間諜教室（第2期）","titleRomaji":"Spy Kyoushitsu 2nd season","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163542-p2TquRJYjPty.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/163542-nV57cYAKtURn.jpg","editorialWeekday":4,"broadcastLabel":"原第2期TV：AT-X 2023年7月13日（木）22:30最早；TOKYO MX／BS日テレ同節目表日24:30（實際7/14）較後，ABEMA／dアニメ23:30屬配信且晚於AT-X","status":"finished","officialSiteUrl":"https://spyroom-anime.com/","anilistUrl":"https://anilist.co/anime/163542","imageSourceUrl":"https://anilist.co/anime/163542","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-summer?display=list_detailed","https://bgm.tv/subject/428418"],"animeThemesUrl":"https://animethemes.moe/anime/spy_kyoushitsu_2nd_season","themes":[{"type":"OP","sequence":1,"titleJa":"楽園","artistDisplayName":"nonoc","id":"spy-kyoushitsu-2nd-season-op-1","songId":"spy-kyoushitsu-2nd-season-op-1-song","sources":[{"label":"動畫官方網站","url":"https://spyroom-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/spy_kyoushitsu_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://spyroom-anime.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://spyroom-anime.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://spyroom-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-summer"],"credits":[{"name":"深川琴美","role":"lyrics"},{"name":"fu_mou","role":"composition"},{"name":"fu_mou","role":"arrangement"},{"name":"グシミヤギ ヒデユキ","role":"arrangement"},{"name":"nonoc","role":"vocals"}],"titleRomaji":"Rakuen","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://spyroom-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"spy-kyoushitsu-2nd-season-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://spyroom-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"spy-kyoushitsu-2nd-season-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/spy_kyoushitsu_2nd_season"],"verifiedAt":"2026-09-01","targetId":"spy-kyoushitsu-2nd-season-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/spy_kyoushitsu_2nd_season"],"verifiedAt":"2026-09-01","targetId":"spy-kyoushitsu-2nd-season-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://spyroom-anime.com/music/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈楽園〉：官方2nd season OP欄明原名、nonoc及詞曲編；保留兩位明列編曲者。","resumeWhen":"詳細階段沿用本曲已核原期來源，只補有逐曲第一方證據而尚缺的作者、個別演唱、錄音、官方影片、發行品／收錄與正版平台；MV或creditless不自動證full／TV，商品曲表不自動證動畫用途，不由全cast或團隊簡介推全員歌唱。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":1,"titleJa":"ニューサンス","artistDisplayName":"sajou no hana","id":"spy-kyoushitsu-2nd-season-ed-1","songId":"spy-kyoushitsu-2nd-season-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://spyroom-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/spy_kyoushitsu_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://spyroom-anime.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://spyroom-anime.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://spyroom-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-summer"],"credits":[{"name":"渡辺翔","role":"lyrics"},{"name":"渡辺翔","role":"composition"},{"name":"sajou no hana","role":"arrangement"},{"name":"sajou no hana","role":"vocals"}],"titleRomaji":"Nuisance","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://spyroom-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"spy-kyoushitsu-2nd-season-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://spyroom-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"spy-kyoushitsu-2nd-season-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/spy_kyoushitsu_2nd_season"],"verifiedAt":"2026-09-01","targetId":"spy-kyoushitsu-2nd-season-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/spy_kyoushitsu_2nd_season"],"verifiedAt":"2026-09-01","targetId":"spy-kyoushitsu-2nd-season-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://spyroom-anime.com/music/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈ニューサンス〉：官方2nd season ED欄明原名、演唱及詞曲編；不由團員簡介推個別歌唱。","resumeWhen":"詳細階段沿用本曲已核原期來源，只補有逐曲第一方證據而尚缺的作者、個別演唱、錄音、官方影片、發行品／收錄與正版平台；MV或creditless不自動證full／TV，商品曲表不自動證動畫用途，不由全cast或團隊簡介推全員歌唱。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":2,"titleJa":"Pausing Shutter","artistDisplayName":"モニカ（CV：悠木 碧）","id":"spy-kyoushitsu-2nd-season-ed-2","songId":"spy-kyoushitsu-2nd-season-ed-2-song","sources":[{"label":"動畫官方網站","url":"https://spyroom-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/spy_kyoushitsu_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://spyroom-anime.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://spyroom-anime.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://spyroom-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-summer"],"credits":[{"name":"真崎エリカ","role":"lyrics"},{"name":"河合泰志","role":"composition"},{"name":"水野谷怜","role":"arrangement"},{"name":"悠木 碧（モニカ）","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://spyroom-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"spy-kyoushitsu-2nd-season-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://spyroom-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"spy-kyoushitsu-2nd-season-ed-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/spy_kyoushitsu_2nd_season"],"verifiedAt":"2026-09-01","targetId":"spy-kyoushitsu-2nd-season-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/spy_kyoushitsu_2nd_season"],"verifiedAt":"2026-09-01","targetId":"spy-kyoushitsu-2nd-season-ed-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://spyroom-anime.com/music/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈Pausing Shutter〉：官方2nd season「SPECIAL ENDING」欄與「スペシャルエンディングテーマCD」逐曲明原名、角色歌唱及作者，沿用既有AnimeThemes特殊ED交叉與原ID／序號。歌曲用途為summer；File04商品10月發售不當fall用曲。","resumeWhen":"詳細階段沿用本曲已核原期來源，只補有逐曲第一方證據而尚缺的作者、個別演唱、錄音、官方影片、發行品／收錄與正版平台；MV或creditless不自動證full／TV，商品曲表不自動證動畫用途，不由全cast或團隊簡介推全員歌唱。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":3,"titleJa":"ドレス・ハート・ルージュ","artistDisplayName":"ティア（CV：上坂すみれ）","id":"spy-kyoushitsu-2nd-season-ed-3","songId":"spy-kyoushitsu-2nd-season-ed-3-song","sources":[{"label":"動畫官方網站","url":"https://spyroom-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/spy_kyoushitsu_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://spyroom-anime.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://spyroom-anime.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://spyroom-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-summer"],"credits":[{"name":"真崎エリカ","role":"lyrics"},{"name":"本多友紀","role":"composition"},{"name":"本多友紀","role":"arrangement"},{"name":"上坂すみれ（ティア）","role":"vocals"}],"titleRomaji":"Dress Heart Rouge","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://spyroom-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"spy-kyoushitsu-2nd-season-ed-3-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://spyroom-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"spy-kyoushitsu-2nd-season-ed-3"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/spy_kyoushitsu_2nd_season"],"verifiedAt":"2026-09-01","targetId":"spy-kyoushitsu-2nd-season-ed-3-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/spy_kyoushitsu_2nd_season"],"verifiedAt":"2026-09-01","targetId":"spy-kyoushitsu-2nd-season-ed-3"},{"target":"credits","fields":["credits"],"sourceUrls":["https://spyroom-anime.com/music/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈ドレス・ハート・ルージュ〉：官方2nd season「SPECIAL ENDING」欄與「スペシャルエンディングテーマCD」逐曲明原名、角色歌唱及作者，沿用既有AnimeThemes特殊ED交叉與原ID／序號。歌曲用途為summer；File04商品10月發售不當fall用曲。","resumeWhen":"詳細階段沿用本曲已核原期來源，只補有逐曲第一方證據而尚缺的作者、個別演唱、錄音、官方影片、發行品／收錄與正版平台；MV或creditless不自動證full／TV，商品曲表不自動證動畫用途，不由全cast或團隊簡介推全員歌唱。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":4,"titleJa":"Pureness×Careless","artistDisplayName":"アネット（CV：楠木ともり）","id":"spy-kyoushitsu-2nd-season-ed-4","songId":"spy-kyoushitsu-2nd-season-ed-4-song","sources":[{"label":"動畫官方網站","url":"https://spyroom-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/spy_kyoushitsu_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://spyroom-anime.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://spyroom-anime.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://spyroom-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-summer"],"credits":[{"name":"Kijibato","role":"lyrics"},{"name":"Kijibato","role":"composition"},{"name":"Kijibato","role":"arrangement"},{"name":"楠木ともり（アネット）","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://spyroom-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"spy-kyoushitsu-2nd-season-ed-4-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://spyroom-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"spy-kyoushitsu-2nd-season-ed-4"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/spy_kyoushitsu_2nd_season"],"verifiedAt":"2026-09-01","targetId":"spy-kyoushitsu-2nd-season-ed-4-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/spy_kyoushitsu_2nd_season"],"verifiedAt":"2026-09-01","targetId":"spy-kyoushitsu-2nd-season-ed-4"},{"target":"credits","fields":["credits"],"sourceUrls":["https://spyroom-anime.com/music/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈Pureness×Careless〉：官方2nd season「SPECIAL ENDING」欄與「スペシャルエンディングテーマCD」逐曲明原名、角色歌唱及作者，沿用既有AnimeThemes特殊ED交叉與原ID／序號。歌曲用途為summer；File04商品10月發售不當fall用曲。","resumeWhen":"詳細階段沿用本曲已核原期來源，只補有逐曲第一方證據而尚缺的作者、個別演唱、錄音、官方影片、發行品／收錄與正版平台；MV或creditless不自動證full／TV，商品曲表不自動證動畫用途，不由全cast或團隊簡介推全員歌唱。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":5,"titleJa":"花の日","artistDisplayName":"リリィ（CV：雨宮 天）","id":"spy-kyoushitsu-2nd-season-ed-5","songId":"spy-kyoushitsu-2nd-season-ed-5-song","sources":[{"label":"動畫官方網站","url":"https://spyroom-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/spy_kyoushitsu_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://spyroom-anime.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://spyroom-anime.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://spyroom-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-summer"],"credits":[{"name":"真崎エリカ","role":"lyrics"},{"name":"本多友紀","role":"composition"},{"name":"大熊淳生","role":"arrangement"},{"name":"雨宮 天（リリィ）","role":"vocals"}],"titleRomaji":"Hana no Hi","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://spyroom-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"spy-kyoushitsu-2nd-season-ed-5-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://spyroom-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"spy-kyoushitsu-2nd-season-ed-5"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/spy_kyoushitsu_2nd_season"],"verifiedAt":"2026-09-01","targetId":"spy-kyoushitsu-2nd-season-ed-5-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/spy_kyoushitsu_2nd_season"],"verifiedAt":"2026-09-01","targetId":"spy-kyoushitsu-2nd-season-ed-5"},{"target":"credits","fields":["credits"],"sourceUrls":["https://spyroom-anime.com/music/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈花の日〉：官方2nd season「SPECIAL ENDING」欄與「スペシャルエンディングテーマCD」逐曲明原名、角色歌唱及作者，沿用既有AnimeThemes特殊ED交叉與原ID／序號。歌曲用途為summer；File04商品10月發售不當fall用曲。","resumeWhen":"詳細階段沿用本曲已核原期來源，只補有逐曲第一方證據而尚缺的作者、個別演唱、錄音、官方影片、發行品／收錄與正版平台；MV或creditless不自動證full／TV，商品曲表不自動證動畫用途，不由全cast或團隊簡介推全員歌唱。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"}],"verifiedAt":"2026-09-01","metadataVerifiedAt":"2026-09-01","metadataSources":[{"url":"https://spyroom-anime.com/onair/","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://spyroom-anime.com/music/","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"broadcastTimeJst":"22:30"},
   {"anilistId":150972,"id":"curated-150972","slug":"shiro-seijo-to-kuro-bokushi","seasonIds":["2023-summer"],"startDate":"2023-07-13","titleJa":"白聖女と黒牧師","titleZhHant":"白聖女與黑牧師","titleRomaji":"Shiro Seijo to Kuro Bokushi","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx150972-3gNJvsyu7lwP.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/150972-pqOOBVrxcTz0.jpg","editorialWeekday":4,"broadcastLabel":"原TV：TOKYO MX／とちぎテレビ／群馬テレビ／BS11節目表2023年7月12日（水）24:30，實際曆日7月13日00:30；25:00配信較後","status":"finished","officialSiteUrl":"https://shiroseijyo-anime.com/","anilistUrl":"https://anilist.co/anime/150972","imageSourceUrl":"https://anilist.co/anime/150972","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-summer?display=list_detailed","https://bgm.tv/subject/387822"],"animeThemesUrl":"https://animethemes.moe/anime/shiro_seijo_to_kuro_bokushi","themes":[{"type":"OP","sequence":1,"titleJa":"コイセカイ","artistDisplayName":"ClariS","id":"shiro-seijo-to-kuro-bokushi-op-1","songId":"shiro-seijo-to-kuro-bokushi-op-1-song","sources":[{"label":"動畫官方網站","url":"https://shiroseijyo-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/shiro_seijo_to_kuro_bokushi","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://shiroseijyo-anime.com/music/op.html","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.aniplex.co.jp/lineup/shiroseijyo/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://shiroseijyo-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-summer"],"credits":[{"name":"浅見武男","role":"lyrics"},{"name":"浅見武男","role":"composition"},{"name":"ClariS","role":"vocals"}],"titleRomaji":"Koi Sekai","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://shiroseijyo-anime.com/music/op.html"],"verifiedAt":"2026-10-22","targetId":"shiro-seijo-to-kuro-bokushi-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://shiroseijyo-anime.com/music/op.html"],"verifiedAt":"2026-10-22","targetId":"shiro-seijo-to-kuro-bokushi-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/shiro_seijo_to_kuro_bokushi"],"verifiedAt":"2026-09-01","targetId":"shiro-seijo-to-kuro-bokushi-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/shiro_seijo_to_kuro_bokushi"],"verifiedAt":"2026-09-01","targetId":"shiro-seijo-to-kuro-bokushi-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://shiroseijyo-anime.com/music/op.html"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈コイセカイ〉：官方OP頁明曲名、ClariS與作詞・作曲浅見武男；未明編曲，不從團隊簡介推全員演唱。","resumeWhen":"詳細階段沿用本曲已核原期來源，只補有逐曲第一方證據而尚缺的作者、個別演唱、錄音、官方影片、發行品／收錄與正版平台；MV或creditless不自動證full／TV，商品曲表不自動證動畫用途，不由全cast或團隊簡介推全員歌唱。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":1,"titleJa":"トコシエスタ","artistDisplayName":"ササノマリイ","id":"shiro-seijo-to-kuro-bokushi-ed-1","songId":"shiro-seijo-to-kuro-bokushi-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://shiroseijyo-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/shiro_seijo_to_kuro_bokushi","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://shiroseijyo-anime.com/music/ed.html","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.aniplex.co.jp/lineup/shiroseijyo/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://shiroseijyo-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-summer"],"credits":[{"name":"ササノマリイ","role":"lyrics"},{"name":"ササノマリイ","role":"composition"},{"name":"ササノマリイ","role":"vocals"}],"titleRomaji":"Toko Siesta","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://shiroseijyo-anime.com/music/ed.html"],"verifiedAt":"2026-10-22","targetId":"shiro-seijo-to-kuro-bokushi-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://shiroseijyo-anime.com/music/ed.html"],"verifiedAt":"2026-10-22","targetId":"shiro-seijo-to-kuro-bokushi-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/shiro_seijo_to_kuro_bokushi"],"verifiedAt":"2026-09-01","targetId":"shiro-seijo-to-kuro-bokushi-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/shiro_seijo_to_kuro_bokushi"],"verifiedAt":"2026-09-01","targetId":"shiro-seijo-to-kuro-bokushi-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://shiroseijyo-anime.com/music/ed.html"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈トコシエスタ〉：官方ED頁明曲名、ササノマリイ與作詞・作曲；未明編曲，該欄留缺。","resumeWhen":"詳細階段沿用本曲已核原期來源，只補有逐曲第一方證據而尚缺的作者、個別演唱、錄音、官方影片、發行品／收錄與正版平台；MV或creditless不自動證full／TV，商品曲表不自動證動畫用途，不由全cast或團隊簡介推全員歌唱。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"}],"verifiedAt":"2026-09-01","metadataVerifiedAt":"2026-09-01","metadataSources":[{"url":"https://www.aniplex.co.jp/lineup/shiroseijyo/","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://shiroseijyo-anime.com/music/op.html","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://shiroseijyo-anime.com/music/ed.html","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"broadcastTimeJst":"00:30"},
   {"anilistId":146646,"id":"curated-146646","slug":"hanma-baki-season-2","seasonIds":["2023-summer"],"startDate":"2023-07-26","titleJa":"範馬刃牙 シーズン２","titleZhHant":"範馬刃牙（第2期）","titleRomaji":"Hanma Baki Season 2","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx146646-RMrHipfzvfTM.jpg","editorialWeekday":3,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://baki-anime.jp/","anilistUrl":"https://anilist.co/anime/146646","imageSourceUrl":"https://anilist.co/anime/146646","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-summer?display=list_detailed"],"themes":[{"type":"OP","sequence":1,"titleJa":"The Beast","artistDisplayName":"和楽器バンド"},{"type":"ED","sequence":1,"titleJa":"WILDER","artistDisplayName":"UPSTART"},{"type":"OP","sequence":2,"titleJa":"Sarracenia","artistDisplayName":"SKY-HI"},{"type":"ED","sequence":2,"titleJa":"Salvia","artistDisplayName":"BE:FIRST"}],"verifiedAt":"2026-09-01"},
   {"anilistId":204545,"id":"curated-204545","slug":"heart-cocktail-colorful-natsu-hen","seasonIds":["2023-summer"],"startDate":"2023-07-31","titleJa":"ハートカクテル カラフル 夏編","titleZhHant":"心情雞尾酒 Colorful 夏篇","titleRomaji":"Heart Cocktail Colorful: Natsu-hen","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx204545-JWQQuPm3pHtR.jpg","editorialWeekday":1,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://www.web.nhk/tv/pl/series-tep-PYL2917V5V","anilistUrl":"https://anilist.co/anime/204545","imageSourceUrl":"https://anilist.co/anime/204545","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-summer?display=list_detailed"],"themes":[],"verifiedAt":"2026-09-01"},
-  {"anilistId":159926,"id":"curated-159926","slug":"bastard-ankoku-no-hakaishin-jigoku-no-chinkonka-hen","seasonIds":["2023-summer"],"startDate":"2023-07-31","titleJa":"BASTARD!! －暗黒の破壊神－ 地獄の鎮魂歌編","titleZhHant":"BASTARD!! －暗黑破壞神－ 地獄鎮魂歌篇","titleRomaji":"BASTARD!!: Ankoku no Hakaishin - Jigoku no Chinkonka-hen","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx159926-gIu4simZv4RD.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/159926-wcWMKRg86nxz.jpg","editorialWeekday":1,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://bastard-anime.com/","anilistUrl":"https://anilist.co/anime/159926","imageSourceUrl":"https://anilist.co/anime/159926","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-summer?display=list_detailed","https://bgm.tv/subject/414753"],"animeThemesUrl":"https://animethemes.moe/anime/bastard_ankoku_no_hakaishin_jigoku_no_chinkonka_hen","themes":[{"type":"OP","sequence":1,"titleJa":"NEW DAWN","artistDisplayName":"coldrain"},{"type":"ED","sequence":1,"titleJa":"La Muse perdue","artistDisplayName":"Tielle"},{"type":"ED","sequence":2,"titleJa":"Disappear","artistDisplayName":"Tielle"}],"verifiedAt":"2026-09-01"},
+  {
+  "anilistId": 159926,
+  "id": "curated-159926",
+  "slug": "bastard-ankoku-no-hakaishin-jigoku-no-chinkonka-hen",
+  "seasonIds": [
+    "2023-summer",
+    "2024-winter"
+  ],
+  "startDate": "2023-07-31",
+  "titleJa": "BASTARD!! －暗黒の破壊神－ 地獄の鎮魂歌編",
+  "titleZhHant": "BASTARD!! －暗黑破壞神－ 地獄鎮魂歌篇",
+  "titleRomaji": "BASTARD!!: Ankoku no Hakaishin - Jigoku no Chinkonka-hen",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx159926-gIu4simZv4RD.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/159926-wcWMKRg86nxz.jpg",
+  "editorialWeekday": 3,
+  "broadcastLabel": "日本TV版首播 2024-01-03 00:00 JST",
+  "status": "finished",
+  "officialSiteUrl": "https://bastard-anime.com/",
+  "anilistUrl": "https://anilist.co/anime/159926",
+  "imageSourceUrl": "https://anilist.co/anime/159926",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://annict.com/works/2023-summer?display=list_detailed",
+    "https://bgm.tv/subject/414753"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/bastard_ankoku_no_hakaishin_jigoku_no_chinkonka_hen",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "NEW DAWN",
+      "artistDisplayName": "coldrain",
+      "id": "bastard-ankoku-no-hakaishin-jigoku-no-chinkonka-hen-op-1",
+      "songId": "bastard-ankoku-no-hakaishin-jigoku-no-chinkonka-hen-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2024-winter"
+      ],
+      "sources": [
+        {
+          "url": "https://bastard-anime.com/news/index01250000.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "label": "Anison Online：2023 夏季 OP／ED 分類交叉核對",
+          "url": "https://anison.online/season?season_id=3",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://bastard-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/bastard_ankoku_no_hakaishin_jigoku_no_chinkonka_hen",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "url": "https://www.bs11.jp/anime/bastard2/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_Bastard%21%21_episodes",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://bastard-anime.com/onair/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "coldrain",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://bastard-anime.com/news/index01250000.html"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bastard-ankoku-no-hakaishin-jigoku-no-chinkonka-hen-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.bs11.jp/anime/bastard2/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bastard-ankoku-no-hakaishin-jigoku-no-chinkonka-hen-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://bastard-anime.com/news/index01250000.html"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bastard-ankoku-no-hakaishin-jigoku-no-chinkonka-hen-op-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bs11.jp/anime/bastard2/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bastard-ankoku-no-hakaishin-jigoku-no-chinkonka-hen-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/List_of_Bastard%21%21_episodes"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bastard-ankoku-no-hakaishin-jigoku-no-chinkonka-hen-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/List_of_Bastard%21%21_episodes"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bastard-ankoku-no-hakaishin-jigoku-no-chinkonka-hen-op-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "已核對歌曲原名、演唱名義、原TV版用途及首播季度；其他季度與音源資料未擴授。",
+          "resumeWhen": "待權利方逐話用曲表或可確認的跨季播映資料出現後，補核其他季度；其餘欄位按正式署名及發行資料補齊。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "La Muse perdue",
+      "artistDisplayName": "Tielle",
+      "id": "bastard-ankoku-no-hakaishin-jigoku-no-chinkonka-hen-ed-1",
+      "songId": "bastard-ankoku-no-hakaishin-jigoku-no-chinkonka-hen-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2024-winter"
+      ],
+      "sources": [
+        {
+          "url": "https://bastard-anime.com/news/index01250000.html",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "label": "Anison Online：2023 夏季 OP／ED 分類交叉核對",
+          "url": "https://anison.online/season?season_id=3",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://bastard-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/bastard_ankoku_no_hakaishin_jigoku_no_chinkonka_hen",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "url": "https://www.bs11.jp/anime/bastard2/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_Bastard%21%21_episodes",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://bastard-anime.com/onair/",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Tielle",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://bastard-anime.com/news/index01250000.html"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bastard-ankoku-no-hakaishin-jigoku-no-chinkonka-hen-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.bs11.jp/anime/bastard2/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bastard-ankoku-no-hakaishin-jigoku-no-chinkonka-hen-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://bastard-anime.com/news/index01250000.html"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bastard-ankoku-no-hakaishin-jigoku-no-chinkonka-hen-ed-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bs11.jp/anime/bastard2/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bastard-ankoku-no-hakaishin-jigoku-no-chinkonka-hen-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/List_of_Bastard%21%21_episodes"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bastard-ankoku-no-hakaishin-jigoku-no-chinkonka-hen-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/List_of_Bastard%21%21_episodes"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bastard-ankoku-no-hakaishin-jigoku-no-chinkonka-hen-ed-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "已核對歌曲原名、演唱名義、原TV版用途及首播季度；其他季度與音源資料未擴授。",
+          "resumeWhen": "待權利方逐話用曲表或可確認的跨季播映資料出現後，補核其他季度；其餘欄位按正式署名及發行資料補齊。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "Disappear",
+      "artistDisplayName": "Tielle",
+      "id": "bastard-ankoku-no-hakaishin-jigoku-no-chinkonka-hen-ed-2",
+      "songId": "bastard-ankoku-no-hakaishin-jigoku-no-chinkonka-hen-ed-2-song",
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "sources": [
+        {
+          "url": "https://wmg.jp/tielle/news/88924",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/bastard_ankoku_no_hakaishin_jigoku_no_chinkonka_hen",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://bastard-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "url": "https://skream.jp/news/2023/08/tielle_disappear.php",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Tielle",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://wmg.jp/tielle/news/88924"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bastard-ankoku-no-hakaishin-jigoku-no-chinkonka-hen-ed-2-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://skream.jp/news/2023/08/tielle_disappear.php"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bastard-ankoku-no-hakaishin-jigoku-no-chinkonka-hen-ed-2-song"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "已核對歌曲原名及演唱名義；權利方將原網路版列為插曲，是否兼作片尾及TV版使用仍待核對。",
+          "resumeWhen": "待權利方逐話片尾／插曲表確認是否兼具用途；另待TV版逐曲資料或權利方明示此曲在該TV版使用後，再核用途及季度。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    }
+  ],
+  "verifiedAt": "2026-09-01",
+  "metadataVerifiedAt": "2026-09-01",
+  "metadataSources": [
+    {
+      "url": "https://bastard-anime.com/onair/",
+      "label": "第一方所述TV版本播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-26"
+    }
+  ],
+  "broadcastTimeJst": "00:00"
+},
   {"anilistId":165426,"id":"curated-165426","slug":"odekake-kozame","seasonIds":["2023-summer"],"startDate":"2023-08-01","titleJa":"おでかけ子ザメ","titleZhHant":"出門小鯊魚","titleRomaji":"Odekake Kozame","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx165426-Q93dCaAlRx6b.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/165426-n1xsyztkbF8C.jpg","editorialWeekday":2,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://odekake-kozame.com/","anilistUrl":"https://anilist.co/anime/165426","imageSourceUrl":"https://anilist.co/anime/165426","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-summer?display=list_detailed"],"themes":[{"type":"ED","sequence":1,"titleJa":"よりみち","artistDisplayName":"子ザメちゃん（CV: 花澤香菜）"}],"verifiedAt":"2026-09-01"},
   {"anilistId":167990,"id":"curated-167990","slug":"celia-sensei-no-wakuwaku-magical-kyoushitsu-season2","seasonIds":["2023-summer"],"startDate":"2023-08-04","titleJa":"セリア先生のわくわくまじかる教室season2","titleZhHant":"瑟莉亞老師的興奮魔法教室 season2","titleRomaji":"Celia-sensei no Wakuwaku Magical Kyoushitsu season2","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx167990-y5GijF1X4xVH.jpg","editorialWeekday":5,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://twitter.com/seireigensouki/","anilistUrl":"https://anilist.co/anime/167990","imageSourceUrl":"https://anilist.co/anime/167990","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-summer?display=list_detailed"],"themes":[],"verifiedAt":"2026-09-01"},
   {"anilistId":168973,"id":"curated-168973","slug":"kanojo-okarishimasu-temple-collab-mini-anime","seasonIds":["2023-summer"],"startDate":"2023-08-05","titleJa":"彼女、お借りします × てんぷる コラボミニアニメ","titleZhHant":"出租女友 × 妙廟美少女 合作迷你動畫","titleRomaji":"Kanojo, Okarishimasu × Temple Collab Mini Anime","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx168973-uGbcIZ8Zqirm.jpg","editorialWeekday":6,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://twitter.com/temple_tvanime","anilistUrl":"https://anilist.co/anime/168973","imageSourceUrl":"https://anilist.co/anime/168973","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-summer?display=list_detailed","https://bgm.tv/subject/401783"],"themes":[],"verifiedAt":"2026-09-01"},

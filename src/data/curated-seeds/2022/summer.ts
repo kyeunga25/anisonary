@@ -2,7 +2,349 @@ import type { CuratedAnimeSeed } from "@/data/curated-seeds/types";
 
 export const curated2022SummerSeeds: CuratedAnimeSeed[] = [
   {"anilistId":137734,"id":"curated-137734","slug":"ani-ni-tsukeru-kusuri-wa-nai-5","seasonIds":["2022-summer"],"startDate":"2022-06-29","titleJa":"兄に付ける薬はない！5","titleZhHant":"快把我哥帶走 第5季","titleRomaji":"Ani ni Tsukeru Kusuri wa Nai! 5","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx137734-QhuOhHlllLBN.png","editorialWeekday":3,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://www.imagineer.co.jp/news/article.php?id=1693","anilistUrl":"https://anilist.co/anime/137734","imageSourceUrl":"https://anilist.co/anime/137734","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://www.imagineer.co.jp/news/article.php?id=1693"],"animeThemesUrl":"https://animethemes.moe/anime/ani_ni_tsukeru_kusuri_wa_nai_5","themes":[{"type":"OP","sequence":1,"titleJa":"Wo de Xiaoyuan Zhanji","artistDisplayName":"Lit-Z"}],"verifiedAt":"2026-09-01"},
-  {"anilistId":144677,"id":"curated-144677","slug":"bastard-ankoku-no-hakaishin-ona","seasonIds":["2022-summer"],"startDate":"2022-06-30","titleJa":"BASTARD!! －暗黒の破壊神－","titleZhHant":"BASTARD!! －暗黑破壞神－","titleRomaji":"BASTARD!!: Ankoku no Hakaishin (ONA)","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx144677-nn0zdlrGZ4Ir.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/144677-TU7HHhECPuiv.jpg","editorialWeekday":4,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://bastard-anime.com/","anilistUrl":"https://anilist.co/anime/144677","imageSourceUrl":"https://anilist.co/anime/144677","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://youranimes.tw/animes/3386"],"animeThemesUrl":"https://animethemes.moe/anime/bastard_ankoku_no_hakaishin_ona","themes":[{"type":"OP","sequence":1,"titleJa":"BLOODY POWER FAME","artistDisplayName":"coldrain"},{"type":"ED","sequence":1,"titleJa":"Blessless","artistDisplayName":"Tielle"}],"verifiedAt":"2026-09-01"},
+  {
+  "anilistId": 144677,
+  "id": "curated-144677",
+  "slug": "bastard-ankoku-no-hakaishin-ona",
+  "seasonIds": [
+    "2022-summer",
+    "2023-winter"
+  ],
+  "startDate": "2022-06-30",
+  "titleJa": "BASTARD!! －暗黒の破壊神－",
+  "titleZhHant": "BASTARD!! －暗黑破壞神－",
+  "titleRomaji": "BASTARD!!: Ankoku no Hakaishin (ONA)",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx144677-nn0zdlrGZ4Ir.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/144677-TU7HHhECPuiv.jpg",
+  "editorialWeekday": 3,
+  "broadcastLabel": "日本TV版首播 2023-01-11 01:00 JST",
+  "status": "finished",
+  "officialSiteUrl": "https://bastard-anime.com/",
+  "anilistUrl": "https://anilist.co/anime/144677",
+  "imageSourceUrl": "https://anilist.co/anime/144677",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/3386"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/bastard_ankoku_no_hakaishin_ona",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "BLOODY POWER FAME",
+      "artistDisplayName": "coldrain",
+      "id": "bastard-ankoku-no-hakaishin-ona-op-1",
+      "songId": "bastard-ankoku-no-hakaishin-ona-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2023-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://bastard-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/bastard_ankoku_no_hakaishin_ona",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "url": "https://bastard-anime.com/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://www.bs11.jp/anime/bastard/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_Bastard%21%21_episodes",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://bastard-anime.com/news/index00800000.html",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "coldrain",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://bastard-anime.com/music/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bastard-ankoku-no-hakaishin-ona-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.bs11.jp/anime/bastard/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bastard-ankoku-no-hakaishin-ona-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://bastard-anime.com/music/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bastard-ankoku-no-hakaishin-ona-op-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bs11.jp/anime/bastard/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bastard-ankoku-no-hakaishin-ona-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/List_of_Bastard%21%21_episodes"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bastard-ankoku-no-hakaishin-ona-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/List_of_Bastard%21%21_episodes"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bastard-ankoku-no-hakaishin-ona-op-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "已核對原TV版OP／ED與2023冬首播季度；官方全24話連續兩cour，後段逐曲播映季度尚待直接對應。",
+          "resumeWhen": "待權利方逐話用曲表或可確認的跨季播映資料出現後，補核其他季度；其餘欄位按正式署名及發行資料補齊。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "Blessless",
+      "artistDisplayName": "Tielle",
+      "id": "bastard-ankoku-no-hakaishin-ona-ed-1",
+      "songId": "bastard-ankoku-no-hakaishin-ona-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2023-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://bastard-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/bastard_ankoku_no_hakaishin_ona",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-01"
+        },
+        {
+          "url": "https://bastard-anime.com/music/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://www.bs11.jp/anime/bastard/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_Bastard%21%21_episodes",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://bastard-anime.com/news/index00800000.html",
+          "label": "本期播出日期參考；不作歌曲或用途證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-26"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Tielle",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://bastard-anime.com/music/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bastard-ankoku-no-hakaishin-ona-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.bs11.jp/anime/bastard/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bastard-ankoku-no-hakaishin-ona-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://bastard-anime.com/music/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bastard-ankoku-no-hakaishin-ona-ed-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bs11.jp/anime/bastard/"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bastard-ankoku-no-hakaishin-ona-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/List_of_Bastard%21%21_episodes"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bastard-ankoku-no-hakaishin-ona-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/List_of_Bastard%21%21_episodes"
+          ],
+          "verifiedAt": "2026-10-26",
+          "targetId": "bastard-ankoku-no-hakaishin-ona-ed-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "已核對原TV版OP／ED與2023冬首播季度；官方全24話連續兩cour，後段逐曲播映季度尚待直接對應。",
+          "resumeWhen": "待權利方逐話用曲表或可確認的跨季播映資料出現後，補核其他季度；其餘欄位按正式署名及發行資料補齊。",
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-26"
+    }
+  ],
+  "verifiedAt": "2026-09-01",
+  "metadataVerifiedAt": "2026-09-01",
+  "metadataSources": [
+    {
+      "url": "https://bastard-anime.com/news/index00800000.html",
+      "label": "第一方所述TV版本播出日期資料；僅日期時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-26"
+    }
+  ],
+  "broadcastTimeJst": "01:00"
+},
   {"anilistId":153765,"id":"curated-153765","slug":"petit-tokyo-mew-mew-new","seasonIds":["2022-summer"],"startDate":"2022-06-30","titleJa":"ぷち！東京ミュウミュウ にゅ～♡","titleZhHant":"ぷち！東京ミュウミュウ にゅ～♡","titleRomaji":"Petit! Tokyo Mew Mew New~♡","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx153765-HKSxkypTygAl.jpg","editorialWeekday":4,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://tokyo-mew-mew.com/news/article_049.html","anilistUrl":"https://anilist.co/anime/153765","imageSourceUrl":"https://anilist.co/anime/153765","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/16367","https://tokyo-mew-mew.com/news/article_049.html"],"themes":[],"verifiedAt":"2026-09-01"},
   {"anilistId":98577,"id":"curated-98577","slug":"musashino","seasonIds":["2022-summer"],"startDate":"2022-07-02","titleJa":"むさしの!","titleZhHant":"むさしの！","titleRomaji":"Musashino!","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98577-YNb269dvO4UK.jpg","editorialWeekday":6,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://www.musasi-no.com","anilistUrl":"https://anilist.co/anime/98577","imageSourceUrl":"https://anilist.co/anime/98577","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/5332","https://youranimes.tw/animes/3749","https://bgm.tv/subject/192976"],"themes":[],"verifiedAt":"2026-09-01"},
   {"anilistId":124410,"id":"curated-124410","slug":"kanojo-okarishimasu-2nd-season","seasonIds":["2022-summer"],"startDate":"2022-07-02","titleJa":"彼女、お借りします 第2期","titleZhHant":"出租女友 第二季","titleRomaji":"Kanojo, Okarishimasu 2nd Season","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx124410-iScdHzzEqdmk.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/124410-mo2jQSOaJIeL.jpg","editorialWeekday":6,"broadcastLabel":"原第2期MBS／TBS系28局：7月1日（金）深夜1:25＝實際7月2日01:25；7月1日26:00先行WEB實為同日02:00，晚於TV。","status":"finished","officialSiteUrl":"https://kanokari-official.com","anilistUrl":"https://anilist.co/anime/124410","imageSourceUrl":"https://anilist.co/anime/124410","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/7695","https://youranimes.tw/animes/2214","https://bgm.tv/subject/315745"],"animeThemesUrl":"https://animethemes.moe/anime/kanojo_okarishimasu_2nd_season","themes":[{"type":"OP","sequence":1,"titleJa":"ヒミツ恋ゴコロ","artistDisplayName":"CHiCO with HoneyWorks","id":"kanojo-okarishimasu-2nd-season-op-1","songId":"kanojo-okarishimasu-2nd-season-op-1-song","sources":[{"label":"動畫官方網站","url":"https://kanokari-official.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/kanojo_okarishimasu_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://kanokari-official.com/2nd/music-op/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://kanokari-official.com/2nd/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://gnn.gamer.com.tw/detail.php?sn=233154","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E7%A7%9F%E5%80%9F%E5%A5%B3%E5%8F%8B","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://kanokari-official.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2022-summer"],"credits":[{"name":"HoneyWorks","role":"lyrics"},{"name":"HoneyWorks","role":"composition"},{"name":"HoneyWorks","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://kanokari-official.com/2nd/music-op/"],"verifiedAt":"2026-10-22","targetId":"kanojo-okarishimasu-2nd-season-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://kanokari-official.com/2nd/music-op/"],"verifiedAt":"2026-10-22","targetId":"kanojo-okarishimasu-2nd-season-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/kanojo_okarishimasu_2nd_season"],"verifiedAt":"2026-09-01","targetId":"kanojo-okarishimasu-2nd-season-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/kanojo_okarishimasu_2nd_season"],"verifiedAt":"2026-09-01","targetId":"kanojo-okarishimasu-2nd-season-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://gnn.gamer.com.tw/detail.php?sn=233154"],"verifiedAt":"2026-10-22","targetId":"kanojo-okarishimasu-2nd-season-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://gnn.gamer.com.tw/detail.php?sn=233154"],"verifiedAt":"2026-10-22","targetId":"kanojo-okarishimasu-2nd-season-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E7%A7%9F%E5%80%9F%E5%A5%B3%E5%8F%8B"],"verifiedAt":"2026-10-22","targetId":"kanojo-okarishimasu-2nd-season-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E7%A7%9F%E5%80%9F%E5%A5%B3%E5%8F%8B"],"verifiedAt":"2026-10-22","targetId":"kanojo-okarishimasu-2nd-season-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://kanokari-official.com/2nd/music-op/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈ヒミツ恋ゴコロ〉：第2期原OP；官方正式合作名義CHiCO with HoneyWorks，不把HoneyWorks企劃全員當歌唱。原期13–24話在summer，未套後續期歌曲。","resumeWhen":"詳細階段沿本曲已核原期來源，待第一方逐曲作者／個別演唱表再補尚缺職位；錄音、影片形式、發行收錄與正版平台只在正式明示後填入，不由cast、同CD、MV或不同演唱推新用途／錄音。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":1,"titleJa":"言えない feat.asmi","artistDisplayName":"MIMiNARI","id":"kanojo-okarishimasu-2nd-season-ed-1","songId":"kanojo-okarishimasu-2nd-season-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://kanokari-official.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/kanojo_okarishimasu_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://kanokari-official.com/2nd/music-ed/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://kanokari-official.com/2nd/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://gnn.gamer.com.tw/detail.php?sn=233154","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E7%A7%9F%E5%80%9F%E5%A5%B3%E5%8F%8B","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://kanokari-official.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2022-summer"],"credits":[{"name":"MIMiNARI","role":"lyrics"},{"name":"MIMiNARI","role":"composition"},{"name":"MIMiNARI","role":"arrangement"},{"name":"asmi","role":"vocals"}],"titleRomaji":"言えない feat. asmi","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://kanokari-official.com/2nd/music-ed/"],"verifiedAt":"2026-10-22","targetId":"kanojo-okarishimasu-2nd-season-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://kanokari-official.com/2nd/music-ed/"],"verifiedAt":"2026-10-22","targetId":"kanojo-okarishimasu-2nd-season-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/kanojo_okarishimasu_2nd_season"],"verifiedAt":"2026-09-01","targetId":"kanojo-okarishimasu-2nd-season-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/kanojo_okarishimasu_2nd_season"],"verifiedAt":"2026-09-01","targetId":"kanojo-okarishimasu-2nd-season-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://gnn.gamer.com.tw/detail.php?sn=233154"],"verifiedAt":"2026-10-22","targetId":"kanojo-okarishimasu-2nd-season-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://gnn.gamer.com.tw/detail.php?sn=233154"],"verifiedAt":"2026-10-22","targetId":"kanojo-okarishimasu-2nd-season-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E7%A7%9F%E5%80%9F%E5%A5%B3%E5%8F%8B"],"verifiedAt":"2026-10-22","targetId":"kanojo-okarishimasu-2nd-season-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E7%A7%9F%E5%80%9F%E5%A5%B3%E5%8F%8B"],"verifiedAt":"2026-10-22","targetId":"kanojo-okarishimasu-2nd-season-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://kanokari-official.com/2nd/music-ed/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈言えない feat.asmi〉：第2期原ED，正式曲名含feat.asmi；官方名義MIMiNARI，正文另明迎來asmi歌聲，企劃與實唱分開；不由nari／sham個人簡介拆分本曲共同作者。","resumeWhen":"詳細階段沿本曲已核原期來源，待第一方逐曲作者／個別演唱表再補尚缺職位；錄音、影片形式、發行收錄與正版平台只在正式明示後填入，不由cast、同CD、MV或不同演唱推新用途／錄音。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"}],"verifiedAt":"2026-09-01","metadataVerifiedAt":"2026-09-01","metadataSources":[{"url":"https://kanokari-official.com/2nd/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://kanokari-official.com/2nd/music-op/","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://kanokari-official.com/2nd/music-ed/","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"broadcastTimeJst":"01:25"},
