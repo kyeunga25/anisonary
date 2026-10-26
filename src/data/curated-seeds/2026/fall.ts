@@ -4203,127 +4203,173 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
     ],
     "themes": [
       {
-        "type": "OP",
-        "sequence": 1,
-        "titleJa": "リスクレート",
-        "artistDisplayName": "BUDDiiS",
-        "seasonIds": [
-          "2026-fall"
-        ],
-        "sourceMode": "explicit",
-        "songId": "kashita-maryoku-wa-revo-barai-de-kyousei-choushuu-op-1-song",
-        "sources": [
-          {
-            "label": "官方：曲名、演唱名義與動畫用途",
-            "url": "https://revo-anime.com/music/",
-            "language": "ja",
-            "role": "first_party",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "label": "官方：TV季度與播出資料",
-            "url": "https://revo-anime.com/",
-            "language": "ja",
-            "role": "first_party",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
-            "url": "https://utaten.com/specialArticle/index/10195",
-            "language": "ja",
-            "role": "cross_check",
-            "verifiedAt": "2026-10-19"
-          }
-        ],
-        "lastVerifiedAt": "2026-10-19",
-        "evidence": [
-          {
-            "target": "song",
-            "targetId": "kashita-maryoku-wa-revo-barai-de-kyousei-choushuu-op-1-song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://revo-anime.com/music/"
-            ],
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "target": "anime_use",
-            "targetId": "kashita-maryoku-wa-revo-barai-de-kyousei-choushuu-op-1",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://revo-anime.com/music/",
-              "https://revo-anime.com/"
-            ],
-            "verifiedAt": "2026-10-19"
-          }
-        ]
-      },
+  "type": "OP",
+  "sequence": 1,
+  "titleJa": "リスクレート",
+  "artistDisplayName": "BUDDiiS",
+  "seasonIds": [
+    "2026-fall"
+  ],
+  "sourceMode": "explicit",
+  "songId": "kashita-maryoku-wa-revo-barai-de-kyousei-choushuu-op-1-song",
+  "sources": [
+    {
+      "label": "官方：曲名、演唱名義與動畫用途",
+      "url": "https://revo-anime.com/music/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "label": "官方：TV季度與播出資料",
+      "url": "https://revo-anime.com/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+      "url": "https://utaten.com/specialArticle/index/10195",
+      "language": "ja",
+      "role": "cross_check",
+      "verifiedAt": "2026-10-27"
+    }
+  ],
+  "lastVerifiedAt": "2026-10-19",
+  "evidence": [
+    {
+      "target": "song",
+      "targetId": "kashita-maryoku-wa-revo-barai-de-kyousei-choushuu-op-1-song",
+      "fields": [
+        "title",
+        "artist"
+      ],
+      "sourceUrls": [
+        "https://revo-anime.com/music/"
+      ],
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "target": "anime_use",
+      "targetId": "kashita-maryoku-wa-revo-barai-de-kyousei-choushuu-op-1",
+      "fields": [
+        "usage"
+      ],
+      "sourceUrls": [
+        "https://revo-anime.com/music/",
+        "https://revo-anime.com/"
+      ],
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "target": "song",
+      "targetId": "kashita-maryoku-wa-revo-barai-de-kyousei-choushuu-op-1-song",
+      "fields": [
+        "title",
+        "artist"
+      ],
+      "sourceUrls": [
+        "https://utaten.com/specialArticle/index/10195"
+      ],
+      "verifiedAt": "2026-10-27"
+    },
+    {
+      "target": "anime_use",
+      "targetId": "kashita-maryoku-wa-revo-barai-de-kyousei-choushuu-op-1",
+      "fields": [
+        "usage"
+      ],
+      "sourceUrls": [
+        "https://utaten.com/specialArticle/index/10195"
+      ],
+      "verifiedAt": "2026-10-27"
+    }
+  ]
+},
       {
-        "type": "ED",
-        "sequence": 1,
-        "titleJa": "いれもの",
-        "artistDisplayName": "こたに",
-        "seasonIds": [
-          "2026-fall"
-        ],
-        "sourceMode": "explicit",
-        "songId": "kashita-maryoku-wa-revo-barai-de-kyousei-choushuu-ed-1-song",
-        "sources": [
-          {
-            "label": "官方：曲名、演唱名義與動畫用途",
-            "url": "https://revo-anime.com/music/",
-            "language": "ja",
-            "role": "first_party",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "label": "官方：TV季度與播出資料",
-            "url": "https://revo-anime.com/",
-            "language": "ja",
-            "role": "first_party",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
-            "url": "https://utaten.com/specialArticle/index/10195",
-            "language": "ja",
-            "role": "cross_check",
-            "verifiedAt": "2026-10-19"
-          }
-        ],
-        "lastVerifiedAt": "2026-10-19",
-        "evidence": [
-          {
-            "target": "song",
-            "targetId": "kashita-maryoku-wa-revo-barai-de-kyousei-choushuu-ed-1-song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://revo-anime.com/music/"
-            ],
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "target": "anime_use",
-            "targetId": "kashita-maryoku-wa-revo-barai-de-kyousei-choushuu-ed-1",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://revo-anime.com/music/",
-              "https://revo-anime.com/"
-            ],
-            "verifiedAt": "2026-10-19"
-          }
-        ]
-      }
+  "type": "ED",
+  "sequence": 1,
+  "titleJa": "いれもの",
+  "artistDisplayName": "こたに",
+  "seasonIds": [
+    "2026-fall"
+  ],
+  "sourceMode": "explicit",
+  "songId": "kashita-maryoku-wa-revo-barai-de-kyousei-choushuu-ed-1-song",
+  "sources": [
+    {
+      "label": "官方：曲名、演唱名義與動畫用途",
+      "url": "https://revo-anime.com/music/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "label": "官方：TV季度與播出資料",
+      "url": "https://revo-anime.com/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+      "url": "https://utaten.com/specialArticle/index/10195",
+      "language": "ja",
+      "role": "cross_check",
+      "verifiedAt": "2026-10-27"
+    }
+  ],
+  "lastVerifiedAt": "2026-10-19",
+  "evidence": [
+    {
+      "target": "song",
+      "targetId": "kashita-maryoku-wa-revo-barai-de-kyousei-choushuu-ed-1-song",
+      "fields": [
+        "title",
+        "artist"
+      ],
+      "sourceUrls": [
+        "https://revo-anime.com/music/"
+      ],
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "target": "anime_use",
+      "targetId": "kashita-maryoku-wa-revo-barai-de-kyousei-choushuu-ed-1",
+      "fields": [
+        "usage"
+      ],
+      "sourceUrls": [
+        "https://revo-anime.com/music/",
+        "https://revo-anime.com/"
+      ],
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "target": "song",
+      "targetId": "kashita-maryoku-wa-revo-barai-de-kyousei-choushuu-ed-1-song",
+      "fields": [
+        "title",
+        "artist"
+      ],
+      "sourceUrls": [
+        "https://utaten.com/specialArticle/index/10195"
+      ],
+      "verifiedAt": "2026-10-27"
+    },
+    {
+      "target": "anime_use",
+      "targetId": "kashita-maryoku-wa-revo-barai-de-kyousei-choushuu-ed-1",
+      "fields": [
+        "usage"
+      ],
+      "sourceUrls": [
+        "https://utaten.com/specialArticle/index/10195"
+      ],
+      "verifiedAt": "2026-10-27"
+    }
+  ]
+}
     ]
   },
   {
@@ -4350,127 +4396,173 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
     ],
     "themes": [
       {
-        "type": "OP",
-        "sequence": 1,
-        "titleJa": "逃光行",
-        "artistDisplayName": "原因は自分にある。",
-        "seasonIds": [
-          "2026-fall"
-        ],
-        "sourceMode": "explicit",
-        "songId": "kanata-kara-op-1-song",
-        "sources": [
-          {
-            "label": "官方：曲名、演唱名義與動畫用途",
-            "url": "https://kanatakara-anime.com/music/",
-            "language": "ja",
-            "role": "first_party",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "label": "官方：TV季度與播出資料",
-            "url": "https://kanatakara-anime.com/onair/",
-            "language": "ja",
-            "role": "first_party",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
-            "url": "https://utaten.com/specialArticle/index/10195",
-            "language": "ja",
-            "role": "cross_check",
-            "verifiedAt": "2026-10-19"
-          }
-        ],
-        "lastVerifiedAt": "2026-10-19",
-        "evidence": [
-          {
-            "target": "song",
-            "targetId": "kanata-kara-op-1-song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://kanatakara-anime.com/music/"
-            ],
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "target": "anime_use",
-            "targetId": "kanata-kara-op-1",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://kanatakara-anime.com/music/",
-              "https://kanatakara-anime.com/onair/"
-            ],
-            "verifiedAt": "2026-10-19"
-          }
-        ]
-      },
+  "type": "OP",
+  "sequence": 1,
+  "titleJa": "逃光行",
+  "artistDisplayName": "原因は自分にある。",
+  "seasonIds": [
+    "2026-fall"
+  ],
+  "sourceMode": "explicit",
+  "songId": "kanata-kara-op-1-song",
+  "sources": [
+    {
+      "label": "官方：曲名、演唱名義與動畫用途",
+      "url": "https://kanatakara-anime.com/music/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "label": "官方：TV季度與播出資料",
+      "url": "https://kanatakara-anime.com/onair/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+      "url": "https://utaten.com/specialArticle/index/10195",
+      "language": "ja",
+      "role": "cross_check",
+      "verifiedAt": "2026-10-27"
+    }
+  ],
+  "lastVerifiedAt": "2026-10-19",
+  "evidence": [
+    {
+      "target": "song",
+      "targetId": "kanata-kara-op-1-song",
+      "fields": [
+        "title",
+        "artist"
+      ],
+      "sourceUrls": [
+        "https://kanatakara-anime.com/music/"
+      ],
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "target": "anime_use",
+      "targetId": "kanata-kara-op-1",
+      "fields": [
+        "usage"
+      ],
+      "sourceUrls": [
+        "https://kanatakara-anime.com/music/",
+        "https://kanatakara-anime.com/onair/"
+      ],
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "target": "song",
+      "targetId": "kanata-kara-op-1-song",
+      "fields": [
+        "title",
+        "artist"
+      ],
+      "sourceUrls": [
+        "https://utaten.com/specialArticle/index/10195"
+      ],
+      "verifiedAt": "2026-10-27"
+    },
+    {
+      "target": "anime_use",
+      "targetId": "kanata-kara-op-1",
+      "fields": [
+        "usage"
+      ],
+      "sourceUrls": [
+        "https://utaten.com/specialArticle/index/10195"
+      ],
+      "verifiedAt": "2026-10-27"
+    }
+  ]
+},
       {
-        "type": "ED",
-        "sequence": 1,
-        "titleJa": "光の側で",
-        "artistDisplayName": "名無し之太郎",
-        "seasonIds": [
-          "2026-fall"
-        ],
-        "sourceMode": "explicit",
-        "songId": "kanata-kara-ed-1-song",
-        "sources": [
-          {
-            "label": "官方：曲名、演唱名義與動畫用途",
-            "url": "https://kanatakara-anime.com/music/",
-            "language": "ja",
-            "role": "first_party",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "label": "官方：TV季度與播出資料",
-            "url": "https://kanatakara-anime.com/onair/",
-            "language": "ja",
-            "role": "first_party",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
-            "url": "https://utaten.com/specialArticle/index/10195",
-            "language": "ja",
-            "role": "cross_check",
-            "verifiedAt": "2026-10-19"
-          }
-        ],
-        "lastVerifiedAt": "2026-10-19",
-        "evidence": [
-          {
-            "target": "song",
-            "targetId": "kanata-kara-ed-1-song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://kanatakara-anime.com/music/"
-            ],
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "target": "anime_use",
-            "targetId": "kanata-kara-ed-1",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://kanatakara-anime.com/music/",
-              "https://kanatakara-anime.com/onair/"
-            ],
-            "verifiedAt": "2026-10-19"
-          }
-        ]
-      }
+  "type": "ED",
+  "sequence": 1,
+  "titleJa": "光の側で",
+  "artistDisplayName": "名無し之太郎",
+  "seasonIds": [
+    "2026-fall"
+  ],
+  "sourceMode": "explicit",
+  "songId": "kanata-kara-ed-1-song",
+  "sources": [
+    {
+      "label": "官方：曲名、演唱名義與動畫用途",
+      "url": "https://kanatakara-anime.com/music/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "label": "官方：TV季度與播出資料",
+      "url": "https://kanatakara-anime.com/onair/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+      "url": "https://utaten.com/specialArticle/index/10195",
+      "language": "ja",
+      "role": "cross_check",
+      "verifiedAt": "2026-10-27"
+    }
+  ],
+  "lastVerifiedAt": "2026-10-19",
+  "evidence": [
+    {
+      "target": "song",
+      "targetId": "kanata-kara-ed-1-song",
+      "fields": [
+        "title",
+        "artist"
+      ],
+      "sourceUrls": [
+        "https://kanatakara-anime.com/music/"
+      ],
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "target": "anime_use",
+      "targetId": "kanata-kara-ed-1",
+      "fields": [
+        "usage"
+      ],
+      "sourceUrls": [
+        "https://kanatakara-anime.com/music/",
+        "https://kanatakara-anime.com/onair/"
+      ],
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "target": "song",
+      "targetId": "kanata-kara-ed-1-song",
+      "fields": [
+        "title",
+        "artist"
+      ],
+      "sourceUrls": [
+        "https://utaten.com/specialArticle/index/10195"
+      ],
+      "verifiedAt": "2026-10-27"
+    },
+    {
+      "target": "anime_use",
+      "targetId": "kanata-kara-ed-1",
+      "fields": [
+        "usage"
+      ],
+      "sourceUrls": [
+        "https://utaten.com/specialArticle/index/10195"
+      ],
+      "verifiedAt": "2026-10-27"
+    }
+  ]
+}
     ]
   },
   {
@@ -4648,111 +4740,157 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
     ],
     "themes": [
       {
-        "type": "OP",
-        "sequence": 1,
-        "titleJa": "未来の足跡",
-        "artistDisplayName": "310",
-        "seasonIds": [
-          "2026-fall"
-        ],
-        "sourceMode": "explicit",
-        "songId": "shinja-zero-no-megami-sama-to-hajimeru-isekai-kouryaku-op-1-song",
-        "sources": [
-          {
-            "label": "官方：曲名、演唱名義與動畫用途",
-            "url": "https://zero-believers-anime.com/",
-            "language": "ja",
-            "role": "first_party",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
-            "url": "https://utaten.com/specialArticle/index/10195",
-            "language": "ja",
-            "role": "cross_check",
-            "verifiedAt": "2026-10-19"
-          }
-        ],
-        "lastVerifiedAt": "2026-10-19",
-        "evidence": [
-          {
-            "target": "song",
-            "targetId": "shinja-zero-no-megami-sama-to-hajimeru-isekai-kouryaku-op-1-song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://zero-believers-anime.com/"
-            ],
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "target": "anime_use",
-            "targetId": "shinja-zero-no-megami-sama-to-hajimeru-isekai-kouryaku-op-1",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://zero-believers-anime.com/"
-            ],
-            "verifiedAt": "2026-10-19"
-          }
-        ]
-      },
+  "type": "OP",
+  "sequence": 1,
+  "titleJa": "未来の足跡",
+  "artistDisplayName": "310",
+  "seasonIds": [
+    "2026-fall"
+  ],
+  "sourceMode": "explicit",
+  "songId": "shinja-zero-no-megami-sama-to-hajimeru-isekai-kouryaku-op-1-song",
+  "sources": [
+    {
+      "label": "官方：曲名、演唱名義與動畫用途",
+      "url": "https://zero-believers-anime.com/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+      "url": "https://utaten.com/specialArticle/index/10195",
+      "language": "ja",
+      "role": "cross_check",
+      "verifiedAt": "2026-10-27"
+    }
+  ],
+  "lastVerifiedAt": "2026-10-19",
+  "evidence": [
+    {
+      "target": "song",
+      "targetId": "shinja-zero-no-megami-sama-to-hajimeru-isekai-kouryaku-op-1-song",
+      "fields": [
+        "title",
+        "artist"
+      ],
+      "sourceUrls": [
+        "https://zero-believers-anime.com/"
+      ],
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "target": "anime_use",
+      "targetId": "shinja-zero-no-megami-sama-to-hajimeru-isekai-kouryaku-op-1",
+      "fields": [
+        "usage"
+      ],
+      "sourceUrls": [
+        "https://zero-believers-anime.com/"
+      ],
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "target": "song",
+      "targetId": "shinja-zero-no-megami-sama-to-hajimeru-isekai-kouryaku-op-1-song",
+      "fields": [
+        "title",
+        "artist"
+      ],
+      "sourceUrls": [
+        "https://utaten.com/specialArticle/index/10195"
+      ],
+      "verifiedAt": "2026-10-27"
+    },
+    {
+      "target": "anime_use",
+      "targetId": "shinja-zero-no-megami-sama-to-hajimeru-isekai-kouryaku-op-1",
+      "fields": [
+        "usage"
+      ],
+      "sourceUrls": [
+        "https://utaten.com/specialArticle/index/10195"
+      ],
+      "verifiedAt": "2026-10-27"
+    }
+  ]
+},
       {
-        "type": "ED",
-        "sequence": 1,
-        "titleJa": "Fall in Dream",
-        "artistDisplayName": "Suupeas",
-        "seasonIds": [
-          "2026-fall"
-        ],
-        "sourceMode": "explicit",
-        "songId": "shinja-zero-no-megami-sama-to-hajimeru-isekai-kouryaku-ed-1-song",
-        "sources": [
-          {
-            "label": "官方：曲名、演唱名義與動畫用途",
-            "url": "https://zero-believers-anime.com/",
-            "language": "ja",
-            "role": "first_party",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
-            "url": "https://utaten.com/specialArticle/index/10195",
-            "language": "ja",
-            "role": "cross_check",
-            "verifiedAt": "2026-10-19"
-          }
-        ],
-        "lastVerifiedAt": "2026-10-19",
-        "evidence": [
-          {
-            "target": "song",
-            "targetId": "shinja-zero-no-megami-sama-to-hajimeru-isekai-kouryaku-ed-1-song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://zero-believers-anime.com/"
-            ],
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "target": "anime_use",
-            "targetId": "shinja-zero-no-megami-sama-to-hajimeru-isekai-kouryaku-ed-1",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://zero-believers-anime.com/"
-            ],
-            "verifiedAt": "2026-10-19"
-          }
-        ]
-      }
+  "type": "ED",
+  "sequence": 1,
+  "titleJa": "Fall in Dream",
+  "artistDisplayName": "Suupeas",
+  "seasonIds": [
+    "2026-fall"
+  ],
+  "sourceMode": "explicit",
+  "songId": "shinja-zero-no-megami-sama-to-hajimeru-isekai-kouryaku-ed-1-song",
+  "sources": [
+    {
+      "label": "官方：曲名、演唱名義與動畫用途",
+      "url": "https://zero-believers-anime.com/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+      "url": "https://utaten.com/specialArticle/index/10195",
+      "language": "ja",
+      "role": "cross_check",
+      "verifiedAt": "2026-10-27"
+    }
+  ],
+  "lastVerifiedAt": "2026-10-19",
+  "evidence": [
+    {
+      "target": "song",
+      "targetId": "shinja-zero-no-megami-sama-to-hajimeru-isekai-kouryaku-ed-1-song",
+      "fields": [
+        "title",
+        "artist"
+      ],
+      "sourceUrls": [
+        "https://zero-believers-anime.com/"
+      ],
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "target": "anime_use",
+      "targetId": "shinja-zero-no-megami-sama-to-hajimeru-isekai-kouryaku-ed-1",
+      "fields": [
+        "usage"
+      ],
+      "sourceUrls": [
+        "https://zero-believers-anime.com/"
+      ],
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "target": "song",
+      "targetId": "shinja-zero-no-megami-sama-to-hajimeru-isekai-kouryaku-ed-1-song",
+      "fields": [
+        "title",
+        "artist"
+      ],
+      "sourceUrls": [
+        "https://utaten.com/specialArticle/index/10195"
+      ],
+      "verifiedAt": "2026-10-27"
+    },
+    {
+      "target": "anime_use",
+      "targetId": "shinja-zero-no-megami-sama-to-hajimeru-isekai-kouryaku-ed-1",
+      "fields": [
+        "usage"
+      ],
+      "sourceUrls": [
+        "https://utaten.com/specialArticle/index/10195"
+      ],
+      "verifiedAt": "2026-10-27"
+    }
+  ]
+}
     ]
   },
   {
@@ -4779,127 +4917,173 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
     ],
     "themes": [
       {
-        "type": "OP",
-        "sequence": 1,
-        "titleJa": "Ghost Sequence",
-        "artistDisplayName": "East Of Eden",
-        "seasonIds": [
-          "2026-fall"
-        ],
-        "sourceMode": "explicit",
-        "songId": "toaru-anbu-no-item-op-1-song",
-        "sources": [
-          {
-            "label": "官方：曲名、演唱名義與動畫用途",
-            "url": "https://toaru-project.com/item/news/index00050000.html",
-            "language": "ja",
-            "role": "first_party",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "label": "官方：TV季度與播出資料",
-            "url": "https://toaru-project.com/item/onair/index.html",
-            "language": "ja",
-            "role": "first_party",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
-            "url": "https://utaten.com/specialArticle/index/10195",
-            "language": "ja",
-            "role": "cross_check",
-            "verifiedAt": "2026-10-19"
-          }
-        ],
-        "lastVerifiedAt": "2026-10-19",
-        "evidence": [
-          {
-            "target": "song",
-            "targetId": "toaru-anbu-no-item-op-1-song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://toaru-project.com/item/news/index00050000.html"
-            ],
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "target": "anime_use",
-            "targetId": "toaru-anbu-no-item-op-1",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://toaru-project.com/item/news/index00050000.html",
-              "https://toaru-project.com/item/onair/index.html"
-            ],
-            "verifiedAt": "2026-10-19"
-          }
-        ]
-      },
+  "type": "OP",
+  "sequence": 1,
+  "titleJa": "Ghost Sequence",
+  "artistDisplayName": "East Of Eden",
+  "seasonIds": [
+    "2026-fall"
+  ],
+  "sourceMode": "explicit",
+  "songId": "toaru-anbu-no-item-op-1-song",
+  "sources": [
+    {
+      "label": "官方：曲名、演唱名義與動畫用途",
+      "url": "https://toaru-project.com/item/news/index00050000.html",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "label": "官方：TV季度與播出資料",
+      "url": "https://toaru-project.com/item/onair/index.html",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+      "url": "https://utaten.com/specialArticle/index/10195",
+      "language": "ja",
+      "role": "cross_check",
+      "verifiedAt": "2026-10-27"
+    }
+  ],
+  "lastVerifiedAt": "2026-10-19",
+  "evidence": [
+    {
+      "target": "song",
+      "targetId": "toaru-anbu-no-item-op-1-song",
+      "fields": [
+        "title",
+        "artist"
+      ],
+      "sourceUrls": [
+        "https://toaru-project.com/item/news/index00050000.html"
+      ],
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "target": "anime_use",
+      "targetId": "toaru-anbu-no-item-op-1",
+      "fields": [
+        "usage"
+      ],
+      "sourceUrls": [
+        "https://toaru-project.com/item/news/index00050000.html",
+        "https://toaru-project.com/item/onair/index.html"
+      ],
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "target": "song",
+      "targetId": "toaru-anbu-no-item-op-1-song",
+      "fields": [
+        "title",
+        "artist"
+      ],
+      "sourceUrls": [
+        "https://utaten.com/specialArticle/index/10195"
+      ],
+      "verifiedAt": "2026-10-27"
+    },
+    {
+      "target": "anime_use",
+      "targetId": "toaru-anbu-no-item-op-1",
+      "fields": [
+        "usage"
+      ],
+      "sourceUrls": [
+        "https://utaten.com/specialArticle/index/10195"
+      ],
+      "verifiedAt": "2026-10-27"
+    }
+  ]
+},
       {
-        "type": "ED",
-        "sequence": 1,
-        "titleJa": "原子崩し(メルトダウナー)",
-        "artistDisplayName": "岸田教団&THE明星ロケッツ",
-        "seasonIds": [
-          "2026-fall"
-        ],
-        "sourceMode": "explicit",
-        "songId": "toaru-anbu-no-item-ed-1-song",
-        "sources": [
-          {
-            "label": "官方：曲名、演唱名義與動畫用途",
-            "url": "https://toaru-project.com/item/news/index00050000.html",
-            "language": "ja",
-            "role": "first_party",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "label": "官方：TV季度與播出資料",
-            "url": "https://toaru-project.com/item/onair/index.html",
-            "language": "ja",
-            "role": "first_party",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
-            "url": "https://utaten.com/specialArticle/index/10195",
-            "language": "ja",
-            "role": "cross_check",
-            "verifiedAt": "2026-10-19"
-          }
-        ],
-        "lastVerifiedAt": "2026-10-19",
-        "evidence": [
-          {
-            "target": "song",
-            "targetId": "toaru-anbu-no-item-ed-1-song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://toaru-project.com/item/news/index00050000.html"
-            ],
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "target": "anime_use",
-            "targetId": "toaru-anbu-no-item-ed-1",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://toaru-project.com/item/news/index00050000.html",
-              "https://toaru-project.com/item/onair/index.html"
-            ],
-            "verifiedAt": "2026-10-19"
-          }
-        ]
-      }
+  "type": "ED",
+  "sequence": 1,
+  "titleJa": "原子崩し(メルトダウナー)",
+  "artistDisplayName": "岸田教団&THE明星ロケッツ",
+  "seasonIds": [
+    "2026-fall"
+  ],
+  "sourceMode": "explicit",
+  "songId": "toaru-anbu-no-item-ed-1-song",
+  "sources": [
+    {
+      "label": "官方：曲名、演唱名義與動畫用途",
+      "url": "https://toaru-project.com/item/news/index00050000.html",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "label": "官方：TV季度與播出資料",
+      "url": "https://toaru-project.com/item/onair/index.html",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+      "url": "https://utaten.com/specialArticle/index/10195",
+      "language": "ja",
+      "role": "cross_check",
+      "verifiedAt": "2026-10-27"
+    }
+  ],
+  "lastVerifiedAt": "2026-10-19",
+  "evidence": [
+    {
+      "target": "song",
+      "targetId": "toaru-anbu-no-item-ed-1-song",
+      "fields": [
+        "title",
+        "artist"
+      ],
+      "sourceUrls": [
+        "https://toaru-project.com/item/news/index00050000.html"
+      ],
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "target": "anime_use",
+      "targetId": "toaru-anbu-no-item-ed-1",
+      "fields": [
+        "usage"
+      ],
+      "sourceUrls": [
+        "https://toaru-project.com/item/news/index00050000.html",
+        "https://toaru-project.com/item/onair/index.html"
+      ],
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "target": "song",
+      "targetId": "toaru-anbu-no-item-ed-1-song",
+      "fields": [
+        "title",
+        "artist"
+      ],
+      "sourceUrls": [
+        "https://utaten.com/specialArticle/index/10195"
+      ],
+      "verifiedAt": "2026-10-27"
+    },
+    {
+      "target": "anime_use",
+      "targetId": "toaru-anbu-no-item-ed-1",
+      "fields": [
+        "usage"
+      ],
+      "sourceUrls": [
+        "https://utaten.com/specialArticle/index/10195"
+      ],
+      "verifiedAt": "2026-10-27"
+    }
+  ]
+}
     ]
   },
   {
@@ -4926,127 +5110,173 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
     ],
     "themes": [
       {
-        "type": "OP",
-        "sequence": 1,
-        "titleJa": "IGNITE",
-        "artistDisplayName": "JO1",
-        "seasonIds": [
-          "2026-fall"
-        ],
-        "sourceMode": "explicit",
-        "songId": "tokyo-revengers-santen-sensou-hen-op-1-song",
-        "sources": [
-          {
-            "label": "官方：曲名、演唱名義與動畫用途",
-            "url": "https://tokyo-revengers-anime.com/product/",
-            "language": "ja",
-            "role": "first_party",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "label": "官方：TV季度與播出資料",
-            "url": "https://tokyo-revengers-anime.com/onair/",
-            "language": "ja",
-            "role": "first_party",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
-            "url": "https://utaten.com/specialArticle/index/10195",
-            "language": "ja",
-            "role": "cross_check",
-            "verifiedAt": "2026-10-19"
-          }
-        ],
-        "lastVerifiedAt": "2026-10-19",
-        "evidence": [
-          {
-            "target": "song",
-            "targetId": "tokyo-revengers-santen-sensou-hen-op-1-song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://tokyo-revengers-anime.com/product/"
-            ],
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "target": "anime_use",
-            "targetId": "tokyo-revengers-santen-sensou-hen-op-1",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://tokyo-revengers-anime.com/product/",
-              "https://tokyo-revengers-anime.com/onair/"
-            ],
-            "verifiedAt": "2026-10-19"
-          }
-        ]
-      },
+  "type": "OP",
+  "sequence": 1,
+  "titleJa": "IGNITE",
+  "artistDisplayName": "JO1",
+  "seasonIds": [
+    "2026-fall"
+  ],
+  "sourceMode": "explicit",
+  "songId": "tokyo-revengers-santen-sensou-hen-op-1-song",
+  "sources": [
+    {
+      "label": "官方：曲名、演唱名義與動畫用途",
+      "url": "https://tokyo-revengers-anime.com/product/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "label": "官方：TV季度與播出資料",
+      "url": "https://tokyo-revengers-anime.com/onair/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+      "url": "https://utaten.com/specialArticle/index/10195",
+      "language": "ja",
+      "role": "cross_check",
+      "verifiedAt": "2026-10-27"
+    }
+  ],
+  "lastVerifiedAt": "2026-10-19",
+  "evidence": [
+    {
+      "target": "song",
+      "targetId": "tokyo-revengers-santen-sensou-hen-op-1-song",
+      "fields": [
+        "title",
+        "artist"
+      ],
+      "sourceUrls": [
+        "https://tokyo-revengers-anime.com/product/"
+      ],
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "target": "anime_use",
+      "targetId": "tokyo-revengers-santen-sensou-hen-op-1",
+      "fields": [
+        "usage"
+      ],
+      "sourceUrls": [
+        "https://tokyo-revengers-anime.com/product/",
+        "https://tokyo-revengers-anime.com/onair/"
+      ],
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "target": "song",
+      "targetId": "tokyo-revengers-santen-sensou-hen-op-1-song",
+      "fields": [
+        "title",
+        "artist"
+      ],
+      "sourceUrls": [
+        "https://utaten.com/specialArticle/index/10195"
+      ],
+      "verifiedAt": "2026-10-27"
+    },
+    {
+      "target": "anime_use",
+      "targetId": "tokyo-revengers-santen-sensou-hen-op-1",
+      "fields": [
+        "usage"
+      ],
+      "sourceUrls": [
+        "https://utaten.com/specialArticle/index/10195"
+      ],
+      "verifiedAt": "2026-10-27"
+    }
+  ]
+},
       {
-        "type": "ED",
-        "sequence": 1,
-        "titleJa": "トリックスター",
-        "artistDisplayName": "go!go!vanillas",
-        "seasonIds": [
-          "2026-fall"
-        ],
-        "sourceMode": "explicit",
-        "songId": "tokyo-revengers-santen-sensou-hen-ed-1-song",
-        "sources": [
-          {
-            "label": "官方：曲名、演唱名義與動畫用途",
-            "url": "https://tokyo-revengers-anime.com/product/",
-            "language": "ja",
-            "role": "first_party",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "label": "官方：TV季度與播出資料",
-            "url": "https://tokyo-revengers-anime.com/onair/",
-            "language": "ja",
-            "role": "first_party",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
-            "url": "https://utaten.com/specialArticle/index/10195",
-            "language": "ja",
-            "role": "cross_check",
-            "verifiedAt": "2026-10-19"
-          }
-        ],
-        "lastVerifiedAt": "2026-10-19",
-        "evidence": [
-          {
-            "target": "song",
-            "targetId": "tokyo-revengers-santen-sensou-hen-ed-1-song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://tokyo-revengers-anime.com/product/"
-            ],
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "target": "anime_use",
-            "targetId": "tokyo-revengers-santen-sensou-hen-ed-1",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://tokyo-revengers-anime.com/product/",
-              "https://tokyo-revengers-anime.com/onair/"
-            ],
-            "verifiedAt": "2026-10-19"
-          }
-        ]
-      }
+  "type": "ED",
+  "sequence": 1,
+  "titleJa": "トリックスター",
+  "artistDisplayName": "go!go!vanillas",
+  "seasonIds": [
+    "2026-fall"
+  ],
+  "sourceMode": "explicit",
+  "songId": "tokyo-revengers-santen-sensou-hen-ed-1-song",
+  "sources": [
+    {
+      "label": "官方：曲名、演唱名義與動畫用途",
+      "url": "https://tokyo-revengers-anime.com/product/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "label": "官方：TV季度與播出資料",
+      "url": "https://tokyo-revengers-anime.com/onair/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+      "url": "https://utaten.com/specialArticle/index/10195",
+      "language": "ja",
+      "role": "cross_check",
+      "verifiedAt": "2026-10-27"
+    }
+  ],
+  "lastVerifiedAt": "2026-10-19",
+  "evidence": [
+    {
+      "target": "song",
+      "targetId": "tokyo-revengers-santen-sensou-hen-ed-1-song",
+      "fields": [
+        "title",
+        "artist"
+      ],
+      "sourceUrls": [
+        "https://tokyo-revengers-anime.com/product/"
+      ],
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "target": "anime_use",
+      "targetId": "tokyo-revengers-santen-sensou-hen-ed-1",
+      "fields": [
+        "usage"
+      ],
+      "sourceUrls": [
+        "https://tokyo-revengers-anime.com/product/",
+        "https://tokyo-revengers-anime.com/onair/"
+      ],
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "target": "song",
+      "targetId": "tokyo-revengers-santen-sensou-hen-ed-1-song",
+      "fields": [
+        "title",
+        "artist"
+      ],
+      "sourceUrls": [
+        "https://utaten.com/specialArticle/index/10195"
+      ],
+      "verifiedAt": "2026-10-27"
+    },
+    {
+      "target": "anime_use",
+      "targetId": "tokyo-revengers-santen-sensou-hen-ed-1",
+      "fields": [
+        "usage"
+      ],
+      "sourceUrls": [
+        "https://utaten.com/specialArticle/index/10195"
+      ],
+      "verifiedAt": "2026-10-27"
+    }
+  ]
+}
     ]
   },
   {
@@ -5073,111 +5303,157 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
     ],
     "themes": [
       {
-        "type": "OP",
-        "sequence": 1,
-        "titleJa": "Remedy",
-        "artistDisplayName": "ASCA",
-        "seasonIds": [
-          "2026-fall"
-        ],
-        "sourceMode": "explicit",
-        "songId": "magical-explorer-op-1-song",
-        "sources": [
-          {
-            "label": "官方：曲名、演唱名義與動畫用途",
-            "url": "https://majieku.com/",
-            "language": "ja",
-            "role": "first_party",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
-            "url": "https://utaten.com/specialArticle/index/10195",
-            "language": "ja",
-            "role": "cross_check",
-            "verifiedAt": "2026-10-19"
-          }
-        ],
-        "lastVerifiedAt": "2026-10-19",
-        "evidence": [
-          {
-            "target": "song",
-            "targetId": "magical-explorer-op-1-song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://majieku.com/"
-            ],
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "target": "anime_use",
-            "targetId": "magical-explorer-op-1",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://majieku.com/"
-            ],
-            "verifiedAt": "2026-10-19"
-          }
-        ]
-      },
+  "type": "OP",
+  "sequence": 1,
+  "titleJa": "Remedy",
+  "artistDisplayName": "ASCA",
+  "seasonIds": [
+    "2026-fall"
+  ],
+  "sourceMode": "explicit",
+  "songId": "magical-explorer-op-1-song",
+  "sources": [
+    {
+      "label": "官方：曲名、演唱名義與動畫用途",
+      "url": "https://majieku.com/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+      "url": "https://utaten.com/specialArticle/index/10195",
+      "language": "ja",
+      "role": "cross_check",
+      "verifiedAt": "2026-10-27"
+    }
+  ],
+  "lastVerifiedAt": "2026-10-19",
+  "evidence": [
+    {
+      "target": "song",
+      "targetId": "magical-explorer-op-1-song",
+      "fields": [
+        "title",
+        "artist"
+      ],
+      "sourceUrls": [
+        "https://majieku.com/"
+      ],
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "target": "anime_use",
+      "targetId": "magical-explorer-op-1",
+      "fields": [
+        "usage"
+      ],
+      "sourceUrls": [
+        "https://majieku.com/"
+      ],
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "target": "song",
+      "targetId": "magical-explorer-op-1-song",
+      "fields": [
+        "title",
+        "artist"
+      ],
+      "sourceUrls": [
+        "https://utaten.com/specialArticle/index/10195"
+      ],
+      "verifiedAt": "2026-10-27"
+    },
+    {
+      "target": "anime_use",
+      "targetId": "magical-explorer-op-1",
+      "fields": [
+        "usage"
+      ],
+      "sourceUrls": [
+        "https://utaten.com/specialArticle/index/10195"
+      ],
+      "verifiedAt": "2026-10-27"
+    }
+  ]
+},
       {
-        "type": "ED",
-        "sequence": 1,
-        "titleJa": "Double Wings",
-        "artistDisplayName": "ASCA",
-        "seasonIds": [
-          "2026-fall"
-        ],
-        "sourceMode": "explicit",
-        "songId": "magical-explorer-ed-1-song",
-        "sources": [
-          {
-            "label": "官方：曲名、演唱名義與動畫用途",
-            "url": "https://majieku.com/",
-            "language": "ja",
-            "role": "first_party",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
-            "url": "https://utaten.com/specialArticle/index/10195",
-            "language": "ja",
-            "role": "cross_check",
-            "verifiedAt": "2026-10-19"
-          }
-        ],
-        "lastVerifiedAt": "2026-10-19",
-        "evidence": [
-          {
-            "target": "song",
-            "targetId": "magical-explorer-ed-1-song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://majieku.com/"
-            ],
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "target": "anime_use",
-            "targetId": "magical-explorer-ed-1",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://majieku.com/"
-            ],
-            "verifiedAt": "2026-10-19"
-          }
-        ]
-      }
+  "type": "ED",
+  "sequence": 1,
+  "titleJa": "Double Wings",
+  "artistDisplayName": "ASCA",
+  "seasonIds": [
+    "2026-fall"
+  ],
+  "sourceMode": "explicit",
+  "songId": "magical-explorer-ed-1-song",
+  "sources": [
+    {
+      "label": "官方：曲名、演唱名義與動畫用途",
+      "url": "https://majieku.com/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+      "url": "https://utaten.com/specialArticle/index/10195",
+      "language": "ja",
+      "role": "cross_check",
+      "verifiedAt": "2026-10-27"
+    }
+  ],
+  "lastVerifiedAt": "2026-10-19",
+  "evidence": [
+    {
+      "target": "song",
+      "targetId": "magical-explorer-ed-1-song",
+      "fields": [
+        "title",
+        "artist"
+      ],
+      "sourceUrls": [
+        "https://majieku.com/"
+      ],
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "target": "anime_use",
+      "targetId": "magical-explorer-ed-1",
+      "fields": [
+        "usage"
+      ],
+      "sourceUrls": [
+        "https://majieku.com/"
+      ],
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "target": "song",
+      "targetId": "magical-explorer-ed-1-song",
+      "fields": [
+        "title",
+        "artist"
+      ],
+      "sourceUrls": [
+        "https://utaten.com/specialArticle/index/10195"
+      ],
+      "verifiedAt": "2026-10-27"
+    },
+    {
+      "target": "anime_use",
+      "targetId": "magical-explorer-ed-1",
+      "fields": [
+        "usage"
+      ],
+      "sourceUrls": [
+        "https://utaten.com/specialArticle/index/10195"
+      ],
+      "verifiedAt": "2026-10-27"
+    }
+  ]
+}
     ]
   },
   {
@@ -5204,127 +5480,173 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
     ],
     "themes": [
       {
-        "type": "OP",
-        "sequence": 1,
-        "titleJa": "UNSTOPPABLE",
-        "artistDisplayName": "FLOW",
-        "seasonIds": [
-          "2026-fall"
-        ],
-        "sourceMode": "explicit",
-        "songId": "mezametara-saikyou-soubi-to-uchuusen-mochi-datta-node-op-1-song",
-        "sources": [
-          {
-            "label": "官方：曲名、演唱名義與動畫用途",
-            "url": "https://saikyosoubi.com/",
-            "language": "ja",
-            "role": "first_party",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "label": "官方：TV季度與播出資料",
-            "url": "https://saikyosoubi.com/onair/",
-            "language": "ja",
-            "role": "first_party",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
-            "url": "https://utaten.com/specialArticle/index/10195",
-            "language": "ja",
-            "role": "cross_check",
-            "verifiedAt": "2026-10-19"
-          }
-        ],
-        "lastVerifiedAt": "2026-10-19",
-        "evidence": [
-          {
-            "target": "song",
-            "targetId": "mezametara-saikyou-soubi-to-uchuusen-mochi-datta-node-op-1-song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://saikyosoubi.com/"
-            ],
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "target": "anime_use",
-            "targetId": "mezametara-saikyou-soubi-to-uchuusen-mochi-datta-node-op-1",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://saikyosoubi.com/",
-              "https://saikyosoubi.com/onair/"
-            ],
-            "verifiedAt": "2026-10-19"
-          }
-        ]
-      },
+  "type": "OP",
+  "sequence": 1,
+  "titleJa": "UNSTOPPABLE",
+  "artistDisplayName": "FLOW",
+  "seasonIds": [
+    "2026-fall"
+  ],
+  "sourceMode": "explicit",
+  "songId": "mezametara-saikyou-soubi-to-uchuusen-mochi-datta-node-op-1-song",
+  "sources": [
+    {
+      "label": "官方：曲名、演唱名義與動畫用途",
+      "url": "https://saikyosoubi.com/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "label": "官方：TV季度與播出資料",
+      "url": "https://saikyosoubi.com/onair/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+      "url": "https://utaten.com/specialArticle/index/10195",
+      "language": "ja",
+      "role": "cross_check",
+      "verifiedAt": "2026-10-27"
+    }
+  ],
+  "lastVerifiedAt": "2026-10-19",
+  "evidence": [
+    {
+      "target": "song",
+      "targetId": "mezametara-saikyou-soubi-to-uchuusen-mochi-datta-node-op-1-song",
+      "fields": [
+        "title",
+        "artist"
+      ],
+      "sourceUrls": [
+        "https://saikyosoubi.com/"
+      ],
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "target": "anime_use",
+      "targetId": "mezametara-saikyou-soubi-to-uchuusen-mochi-datta-node-op-1",
+      "fields": [
+        "usage"
+      ],
+      "sourceUrls": [
+        "https://saikyosoubi.com/",
+        "https://saikyosoubi.com/onair/"
+      ],
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "target": "song",
+      "targetId": "mezametara-saikyou-soubi-to-uchuusen-mochi-datta-node-op-1-song",
+      "fields": [
+        "title",
+        "artist"
+      ],
+      "sourceUrls": [
+        "https://utaten.com/specialArticle/index/10195"
+      ],
+      "verifiedAt": "2026-10-27"
+    },
+    {
+      "target": "anime_use",
+      "targetId": "mezametara-saikyou-soubi-to-uchuusen-mochi-datta-node-op-1",
+      "fields": [
+        "usage"
+      ],
+      "sourceUrls": [
+        "https://utaten.com/specialArticle/index/10195"
+      ],
+      "verifiedAt": "2026-10-27"
+    }
+  ]
+},
       {
-        "type": "ED",
-        "sequence": 1,
-        "titleJa": "MY WAY",
-        "artistDisplayName": "ASTERISM",
-        "seasonIds": [
-          "2026-fall"
-        ],
-        "sourceMode": "explicit",
-        "songId": "mezametara-saikyou-soubi-to-uchuusen-mochi-datta-node-ed-1-song",
-        "sources": [
-          {
-            "label": "官方：曲名、演唱名義與動畫用途",
-            "url": "https://saikyosoubi.com/",
-            "language": "ja",
-            "role": "first_party",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "label": "官方：TV季度與播出資料",
-            "url": "https://saikyosoubi.com/onair/",
-            "language": "ja",
-            "role": "first_party",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
-            "url": "https://utaten.com/specialArticle/index/10195",
-            "language": "ja",
-            "role": "cross_check",
-            "verifiedAt": "2026-10-19"
-          }
-        ],
-        "lastVerifiedAt": "2026-10-19",
-        "evidence": [
-          {
-            "target": "song",
-            "targetId": "mezametara-saikyou-soubi-to-uchuusen-mochi-datta-node-ed-1-song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://saikyosoubi.com/"
-            ],
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "target": "anime_use",
-            "targetId": "mezametara-saikyou-soubi-to-uchuusen-mochi-datta-node-ed-1",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://saikyosoubi.com/",
-              "https://saikyosoubi.com/onair/"
-            ],
-            "verifiedAt": "2026-10-19"
-          }
-        ]
-      }
+  "type": "ED",
+  "sequence": 1,
+  "titleJa": "MY WAY",
+  "artistDisplayName": "ASTERISM",
+  "seasonIds": [
+    "2026-fall"
+  ],
+  "sourceMode": "explicit",
+  "songId": "mezametara-saikyou-soubi-to-uchuusen-mochi-datta-node-ed-1-song",
+  "sources": [
+    {
+      "label": "官方：曲名、演唱名義與動畫用途",
+      "url": "https://saikyosoubi.com/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "label": "官方：TV季度與播出資料",
+      "url": "https://saikyosoubi.com/onair/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+      "url": "https://utaten.com/specialArticle/index/10195",
+      "language": "ja",
+      "role": "cross_check",
+      "verifiedAt": "2026-10-27"
+    }
+  ],
+  "lastVerifiedAt": "2026-10-19",
+  "evidence": [
+    {
+      "target": "song",
+      "targetId": "mezametara-saikyou-soubi-to-uchuusen-mochi-datta-node-ed-1-song",
+      "fields": [
+        "title",
+        "artist"
+      ],
+      "sourceUrls": [
+        "https://saikyosoubi.com/"
+      ],
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "target": "anime_use",
+      "targetId": "mezametara-saikyou-soubi-to-uchuusen-mochi-datta-node-ed-1",
+      "fields": [
+        "usage"
+      ],
+      "sourceUrls": [
+        "https://saikyosoubi.com/",
+        "https://saikyosoubi.com/onair/"
+      ],
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "target": "song",
+      "targetId": "mezametara-saikyou-soubi-to-uchuusen-mochi-datta-node-ed-1-song",
+      "fields": [
+        "title",
+        "artist"
+      ],
+      "sourceUrls": [
+        "https://utaten.com/specialArticle/index/10195"
+      ],
+      "verifiedAt": "2026-10-27"
+    },
+    {
+      "target": "anime_use",
+      "targetId": "mezametara-saikyou-soubi-to-uchuusen-mochi-datta-node-ed-1",
+      "fields": [
+        "usage"
+      ],
+      "sourceUrls": [
+        "https://utaten.com/specialArticle/index/10195"
+      ],
+      "verifiedAt": "2026-10-27"
+    }
+  ]
+}
     ]
   },
   {
@@ -5351,127 +5673,173 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
     ],
     "themes": [
       {
-        "type": "OP",
-        "sequence": 1,
-        "titleJa": "強気MAX宣言",
-        "artistDisplayName": "鈴木このみ",
-        "seasonIds": [
-          "2026-fall"
-        ],
-        "sourceMode": "explicit",
-        "songId": "yowaki-max-reijou-nano-ni-ratsuwan-konyakusha-sama-no-kake-ni-notte-shimatta-op-1-song",
-        "sources": [
-          {
-            "label": "官方：曲名、演唱名義與動畫用途",
-            "url": "https://yowaki-max-anime.com/music/",
-            "language": "ja",
-            "role": "first_party",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "label": "官方：TV季度與播出資料",
-            "url": "https://yowaki-max-anime.com/onair/",
-            "language": "ja",
-            "role": "first_party",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
-            "url": "https://utaten.com/specialArticle/index/10195",
-            "language": "ja",
-            "role": "cross_check",
-            "verifiedAt": "2026-10-19"
-          }
-        ],
-        "lastVerifiedAt": "2026-10-19",
-        "evidence": [
-          {
-            "target": "song",
-            "targetId": "yowaki-max-reijou-nano-ni-ratsuwan-konyakusha-sama-no-kake-ni-notte-shimatta-op-1-song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://yowaki-max-anime.com/music/"
-            ],
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "target": "anime_use",
-            "targetId": "yowaki-max-reijou-nano-ni-ratsuwan-konyakusha-sama-no-kake-ni-notte-shimatta-op-1",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://yowaki-max-anime.com/music/",
-              "https://yowaki-max-anime.com/onair/"
-            ],
-            "verifiedAt": "2026-10-19"
-          }
-        ]
-      },
+  "type": "OP",
+  "sequence": 1,
+  "titleJa": "強気MAX宣言",
+  "artistDisplayName": "鈴木このみ",
+  "seasonIds": [
+    "2026-fall"
+  ],
+  "sourceMode": "explicit",
+  "songId": "yowaki-max-reijou-nano-ni-ratsuwan-konyakusha-sama-no-kake-ni-notte-shimatta-op-1-song",
+  "sources": [
+    {
+      "label": "官方：曲名、演唱名義與動畫用途",
+      "url": "https://yowaki-max-anime.com/music/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "label": "官方：TV季度與播出資料",
+      "url": "https://yowaki-max-anime.com/onair/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+      "url": "https://utaten.com/specialArticle/index/10195",
+      "language": "ja",
+      "role": "cross_check",
+      "verifiedAt": "2026-10-27"
+    }
+  ],
+  "lastVerifiedAt": "2026-10-19",
+  "evidence": [
+    {
+      "target": "song",
+      "targetId": "yowaki-max-reijou-nano-ni-ratsuwan-konyakusha-sama-no-kake-ni-notte-shimatta-op-1-song",
+      "fields": [
+        "title",
+        "artist"
+      ],
+      "sourceUrls": [
+        "https://yowaki-max-anime.com/music/"
+      ],
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "target": "anime_use",
+      "targetId": "yowaki-max-reijou-nano-ni-ratsuwan-konyakusha-sama-no-kake-ni-notte-shimatta-op-1",
+      "fields": [
+        "usage"
+      ],
+      "sourceUrls": [
+        "https://yowaki-max-anime.com/music/",
+        "https://yowaki-max-anime.com/onair/"
+      ],
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "target": "song",
+      "targetId": "yowaki-max-reijou-nano-ni-ratsuwan-konyakusha-sama-no-kake-ni-notte-shimatta-op-1-song",
+      "fields": [
+        "title",
+        "artist"
+      ],
+      "sourceUrls": [
+        "https://utaten.com/specialArticle/index/10195"
+      ],
+      "verifiedAt": "2026-10-27"
+    },
+    {
+      "target": "anime_use",
+      "targetId": "yowaki-max-reijou-nano-ni-ratsuwan-konyakusha-sama-no-kake-ni-notte-shimatta-op-1",
+      "fields": [
+        "usage"
+      ],
+      "sourceUrls": [
+        "https://utaten.com/specialArticle/index/10195"
+      ],
+      "verifiedAt": "2026-10-27"
+    }
+  ]
+},
       {
-        "type": "ED",
-        "sequence": 1,
-        "titleJa": "夜明けまでに",
-        "artistDisplayName": "伊藤美来",
-        "seasonIds": [
-          "2026-fall"
-        ],
-        "sourceMode": "explicit",
-        "songId": "yowaki-max-reijou-nano-ni-ratsuwan-konyakusha-sama-no-kake-ni-notte-shimatta-ed-1-song",
-        "sources": [
-          {
-            "label": "官方：曲名、演唱名義與動畫用途",
-            "url": "https://yowaki-max-anime.com/music/",
-            "language": "ja",
-            "role": "first_party",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "label": "官方：TV季度與播出資料",
-            "url": "https://yowaki-max-anime.com/onair/",
-            "language": "ja",
-            "role": "first_party",
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
-            "url": "https://utaten.com/specialArticle/index/10195",
-            "language": "ja",
-            "role": "cross_check",
-            "verifiedAt": "2026-10-19"
-          }
-        ],
-        "lastVerifiedAt": "2026-10-19",
-        "evidence": [
-          {
-            "target": "song",
-            "targetId": "yowaki-max-reijou-nano-ni-ratsuwan-konyakusha-sama-no-kake-ni-notte-shimatta-ed-1-song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://yowaki-max-anime.com/music/"
-            ],
-            "verifiedAt": "2026-10-19"
-          },
-          {
-            "target": "anime_use",
-            "targetId": "yowaki-max-reijou-nano-ni-ratsuwan-konyakusha-sama-no-kake-ni-notte-shimatta-ed-1",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://yowaki-max-anime.com/music/",
-              "https://yowaki-max-anime.com/onair/"
-            ],
-            "verifiedAt": "2026-10-19"
-          }
-        ]
-      }
+  "type": "ED",
+  "sequence": 1,
+  "titleJa": "夜明けまでに",
+  "artistDisplayName": "伊藤美来",
+  "seasonIds": [
+    "2026-fall"
+  ],
+  "sourceMode": "explicit",
+  "songId": "yowaki-max-reijou-nano-ni-ratsuwan-konyakusha-sama-no-kake-ni-notte-shimatta-ed-1-song",
+  "sources": [
+    {
+      "label": "官方：曲名、演唱名義與動畫用途",
+      "url": "https://yowaki-max-anime.com/music/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "label": "官方：TV季度與播出資料",
+      "url": "https://yowaki-max-anime.com/onair/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+      "url": "https://utaten.com/specialArticle/index/10195",
+      "language": "ja",
+      "role": "cross_check",
+      "verifiedAt": "2026-10-27"
+    }
+  ],
+  "lastVerifiedAt": "2026-10-19",
+  "evidence": [
+    {
+      "target": "song",
+      "targetId": "yowaki-max-reijou-nano-ni-ratsuwan-konyakusha-sama-no-kake-ni-notte-shimatta-ed-1-song",
+      "fields": [
+        "title",
+        "artist"
+      ],
+      "sourceUrls": [
+        "https://yowaki-max-anime.com/music/"
+      ],
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "target": "anime_use",
+      "targetId": "yowaki-max-reijou-nano-ni-ratsuwan-konyakusha-sama-no-kake-ni-notte-shimatta-ed-1",
+      "fields": [
+        "usage"
+      ],
+      "sourceUrls": [
+        "https://yowaki-max-anime.com/music/",
+        "https://yowaki-max-anime.com/onair/"
+      ],
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "target": "song",
+      "targetId": "yowaki-max-reijou-nano-ni-ratsuwan-konyakusha-sama-no-kake-ni-notte-shimatta-ed-1-song",
+      "fields": [
+        "title",
+        "artist"
+      ],
+      "sourceUrls": [
+        "https://utaten.com/specialArticle/index/10195"
+      ],
+      "verifiedAt": "2026-10-27"
+    },
+    {
+      "target": "anime_use",
+      "targetId": "yowaki-max-reijou-nano-ni-ratsuwan-konyakusha-sama-no-kake-ni-notte-shimatta-ed-1",
+      "fields": [
+        "usage"
+      ],
+      "sourceUrls": [
+        "https://utaten.com/specialArticle/index/10195"
+      ],
+      "verifiedAt": "2026-10-27"
+    }
+  ]
+}
     ]
   },
   {
