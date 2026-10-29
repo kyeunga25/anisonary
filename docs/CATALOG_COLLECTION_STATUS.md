@@ -11,20 +11,20 @@
 | 長期目標 | 收集近二十年的動畫歌曲、創作團隊、音源版本、來源、官方影片、收錄發行品與正版平台資訊 |
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED，已確認插曲一併記錄；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2020–2026標準季度TV的動畫及歌曲基本資料優先，按2026 → 2020、各年秋 → 夏 → 春 → 冬補漏。先處理可快速核實的原名、季度／首播、演唱名義、OP／ED用途及來源；創作、影片、音源、發行品及平台集中深化留待下一階段。約24分鐘、常見12／24集，13／26集及同類續播納入；長篇以2020–2026的TV用曲季度盤點，不以作品首播年自動排除；短WEB、泡麵番、短篇TV及特殊番延後，既有成果保留 |
-| 本輪目標 | 第183批：2025夏7部標準TV、19筆既有用途基本逐欄證據；既有創作、音源、影音、發行與共同歌曲關係保留。固定2020–2026標準TV優先，長期2007–2026，截止2026-10-14 |
-| 下批位置 | 第184批待登記：優先2025夏標準TV基本證據，從curated-175914、curated-177175、curated-179966等既有用途接續；182／183的6筆具名缺口無新觸發不重搜，短篇與WEB歌曲深化延後 |
-| 完成條件 | 各季有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替；基本資料經公開JSON、頁面及必要檢查驗證，歌單與詳情保持易瀏覽；每筆用途保存現有欄位狀態、未記錄項目及已知續查條件，與完整收齊及來源日期分開。詳細欄位缺少不阻擋基本資料。作品聯集未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件；本階段在既定2020–2026標準TV基本盤點及缺口對帳完成、提交證據界線報告後停止。未解必要缺口仍標示未完成，不宣稱所有動畫種類或詳細資料齊備 |
-| 執行狀態 | 本階段未完成；第182／183批已完成本機資料及展示驗證，共40筆既有用途、34筆新增基本證據。正常PR建立遭GitHub整合權限403拒絕，發布待處理；最高正式歷史驗收第181批，沒有背景執行或自動發布 |
-| 接續位置 | 第182、183批本機成果及來源備份已驗證；正常PR建立因GitHub整合403拒絕而待處理，未合併或部署。先解決正常PR／必要CI發布鏈，下一批公開ID與範圍見末段；沒有背景排程 |
+| 本輪目標 | 第185批：2025夏5部標準TV、30筆既有用途；補齊基本逐欄證據及可證實逐話ED標籤，區分TV首播與網上先行。固定範圍及截止日不變 |
+| 下批位置 | 第186批待登記：2025夏其餘10部標準TV、預計24筆既有用途，公開ID見末段；本對話182–185批9筆具名基本缺口無新觸發不重搜，其他歷史缺口及短篇／WEB沿原處置 |
+| 完成條件 | 各季有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替；基本資料經公開JSON、頁面及必要檢查驗證，歌單與詳情保持易瀏覽；每筆用途保存現有欄位狀態、未記錄項目及已知續查條件，與完整收齊及來源日期分開。詳細欄位缺少不阻擋基本資料。作品聯集未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件；2020–2026基本盤點及缺口對帳完成後，按季度倒序接續2019–2007，再依已登記缺口分階段深化詳細欄位。未解必要缺口仍標示未完成，不宣稱所有動畫種類或詳細資料齊備 |
+| 執行狀態 | 本階段執行中且尚未完成。第182–185批共32部、96筆既有用途已接通本機JSON／頁面，基本逐欄證據累計增加87筆。正常PR建立仍遭GitHub整合403拒絕，CI／正式發布待處理；最高正式歷史驗收第181批 |
+| 接續位置 | 第185批本機驗證通過；第184批最終來源632ab28已推送及還原備份。最新資料提交與下一批公開ID見末段；按正常PR、固定head完整檢查、必要CI及正式站驗收接續發布 |
 | 發布提交 | 第181批[PR #253](https://github.com/kyeunga25/anisonary/pull/253)，真正main來源`6acd21f83b1cb2f32e9885719e534745e0a216c0`；正常PR與main完整CI、固定產物及production驗收見歷史收據4ca4c89；本輪尚未重新發布 |
-| 本機提交 | 第182批資料`23e1bbe`、收尾`a9900c5`；第183批資料`bcb9d35011865dbc95ee99430c29e7b8aa6c460b`。兩批均未合併或部署，與上列最高正式版本分開 |
+| 本機提交 | 第182批資料23e1bbe／收尾a9900c5；第183批資料bcb9d35／收尾3d4ceaf；第184批資料f1cff58／收尾632ab28；第185批提交見末段。與正式版本分開 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
 執行狀態使用「未開始／執行中／已暫停／已完成／已取消」；無法繼續時另記具體阻礙及仍未完成部分，不自動標記完成。長期目標與本次工作量分開，未指定本次工作量時先完成下一批。
 
 ## 季度進度 / Quarterly progress
 
-季度表取第181批已核產物，所有季度數字維持原樣；最高正式production驗收第181批`6acd21f83b1cb2f32e9885719e534745e0a216c0`。後續範圍待登記，表內數字不代表季度作品聯集閉合，基本、詳細及長期範圍未完成。
+季度表取第181批已核產物，所有季度數字維持原樣；最高正式production驗收第181批`6acd21f83b1cb2f32e9885719e534745e0a216c0`。後續第182–185批本機增量另記於末段及自動統計，表內歷史數字不代表季度作品聯集閉合，基本、詳細及長期範圍未完成。
 
 「基本欄位具備」表示現有歌曲原名、演唱名義、用途及第一方／交叉來源有值，動畫可識別且有季度與作品來源；這是現有資料的欄位盤點，不表示本批重查全部來源、作品清單已閉合或整季收齊。「已逐批核對」依下方各批公開ID明細，包含查找後保留續查條件的用途。
 
@@ -584,7 +584,7 @@ Browser plugin 不在可用清單，沿用 Playwright；Chromium 本機驗證權
 | --- | --- |
 | 本次目標 | 可公開的範圍、資料欄位、優先順序、工作量／時限與完成條件；不抄錄私人指令 |
 | 固定範圍 | 起迄年份／季度、媒體及用途類型、公開資料截止日；延續時不自行改動 |
-| 執行狀態 | 已完成本工作階段，待接續；第125–128批41部128筆已合併正式驗收，逐批分類提交與缺口保存。第129批10部25筆僅登記、尚未開始來源查核或公開整合；基本、詳細與長期範圍未完成，沒有背景工作或排程 |
+| 執行狀態 | 本階段執行中且尚未完成。第182–185批共32部、96筆既有用途已接通本機JSON／頁面，基本逐欄證據累計增加87筆。正常PR建立仍遭GitHub整合403拒絕，CI／正式發布待處理；最高正式歷史驗收第181批 |
 | 批次 | 日期、季度、簡短批次 ID；不靠 package 版本當游標 |
 | 已處理 ID | 本批已公開的 theme ID／anime ID；跨季作品與原 ID 保持一致 |
 | 完成層次 | 核心身分／credits／版本／發行品／平台，分別說明 |
@@ -12867,3 +12867,67 @@ Nia ED的名義差異僅是同一讀音標記括號的全半形呈現；不是�
 - 下一批185預定2025夏5作30既有用途：`curated-173335`（12）、`curated-191994`（11）、`curated-180425`（2）、`curated-179885`（2）、`curated-178675`（3）。先登記實際ID再研究，不重開7筆無新觸發缺口；短篇與WEB沿原規則延後。2020–2026標準TV作品完整聯集、基本階段及2007–2026長期目標仍未完成。
 
 第184批資料提交為`f1cff5880e38ae6cd5f4807902e605b9b88699cf`。來源備份262檔已還原並逐檔核對內容一致；文件51個相對連結、公開邊界與diff檢查通過。交接文件補入來源研究的分組、單一整合及動態正文核對流程，不更動資料契約或執行架構。分支推送與正式發布分開，以後續可驗證收據為準。
+
+## 第185批：2025夏輪替ED與其餘標準TV基本證據（本機驗證通過，發布受阻）
+
+- 登記日期2026-10-30；第184批`632ab28b65f02fc3e9e62e770395002f4256dace`已推送且工作區乾淨，262檔最終來源備份再還原核對一致。遠端main仍`6acd21f`，第182–184批尚未合併或部署。
+- 固定2007–2026、截止2026-10-14；2020–2026標準TV基本資料優先。5作30既有用途：`curated-173335`（12）、`curated-191994`（11）、`curated-180425`（2）、`curated-179885`（2）、`curated-178675`（3）。兩套輪替ED按原角色／團隊及逐話用途核對，不以一般發行品名單證明全部TV用途。
+- 按不重疊作品分三組研究；主整合單一修改公開資料。保留ID、原曲與角色版本關係、既有用途標籤及核對日期。兩輪後仍不足的欄位保存觸發條件，不重開既有7筆無新觸發缺口，短篇／WEB仍延後。
+- 完成條件為必要基本欄位取得第一方及交叉正文，已確認差異接通JSON／畫面並通過檢查與可還原備份；本機、分支推送、CI及正式站各自記錄。GitHub原連線PR寫入403未變，不重試同一拒絕或改通道繞過；資料工作可獨立接續。
+
+### 逐用途結果與實際引用
+
+| 作品ID | 公開用途ID | 本機結果 | 實讀來源 |
+| --- | --- | --- | --- |
+| `curated-173335` | `kamitsubaki-shi-kensetsuchuu-op-1` | 基本三欄兩類證據已登記 | [第一方](https://kamitsubaki-anime.jp/music/)／[交叉](https://zh.wikipedia.org/wiki/%E7%A5%9E%E6%A4%BF%E5%B8%82%E5%BB%BA%E8%A8%AD%E4%B8%AD%E3%80%82) |
+| `curated-173335` | `kamitsubaki-shi-kensetsuchuu-ed-1` | 基本三欄兩類證據已登記 | [第一方](https://kamitsubaki.jp/news/2025/07/09/7844/)／[交叉](https://www.anisil.com/animes/6341-%E7%A5%9E%E6%A4%BF%E5%B8%82%E5%BB%BA%E8%A8%AD%E4%B8%AD%E3%80%82) |
+| `curated-173335` | `kamitsubaki-shi-kensetsuchuu-ed-2` | 基本三欄兩類證據已登記 | [第一方](https://kamitsubaki-anime.jp/music/)／[交叉](https://www.anisil.com/animes/6341-%E7%A5%9E%E6%A4%BF%E5%B8%82%E5%BB%BA%E8%A8%AD%E4%B8%AD%E3%80%82) |
+| `curated-173335` | `kamitsubaki-shi-kensetsuchuu-ed-3` | 基本三欄兩類證據已登記 | [第一方](https://kamitsubaki-anime.jp/music/)／[交叉](https://www.anisil.com/animes/6341-%E7%A5%9E%E6%A4%BF%E5%B8%82%E5%BB%BA%E8%A8%AD%E4%B8%AD%E3%80%82) |
+| `curated-173335` | `kamitsubaki-shi-kensetsuchuu-ed-4` | 基本三欄兩類證據已登記 | [第一方](https://kamitsubaki-anime.jp/music/)／[交叉](https://www.anisil.com/animes/6341-%E7%A5%9E%E6%A4%BF%E5%B8%82%E5%BB%BA%E8%A8%AD%E4%B8%AD%E3%80%82) |
+| `curated-173335` | `kamitsubaki-shi-kensetsuchuu-ed-5` | 基本三欄兩類證據已登記 | [第一方](https://kamitsubaki-anime.jp/music/)／[交叉](https://www.anisil.com/animes/6341-%E7%A5%9E%E6%A4%BF%E5%B8%82%E5%BB%BA%E8%A8%AD%E4%B8%AD%E3%80%82) |
+| `curated-173335` | `kamitsubaki-shi-kensetsuchuu-ed-6` | 基本三欄兩類證據已登記 | [第一方](https://kamitsubaki-anime.jp/music/)／[交叉](https://www.anisil.com/animes/6341-%E7%A5%9E%E6%A4%BF%E5%B8%82%E5%BB%BA%E8%A8%AD%E4%B8%AD%E3%80%82) |
+| `curated-173335` | `kamitsubaki-shi-kensetsuchuu-ed-7` | 基本三欄兩類證據已登記 | [第一方](https://kamitsubaki-anime.jp/music/)／[交叉](https://www.anisil.com/animes/6341-%E7%A5%9E%E6%A4%BF%E5%B8%82%E5%BB%BA%E8%A8%AD%E4%B8%AD%E3%80%82) |
+| `curated-173335` | `kamitsubaki-shi-kensetsuchuu-ed-8` | 基本三欄兩類證據已登記 | [第一方](https://kamitsubaki-anime.jp/music/)／[交叉](https://www.anisil.com/animes/6341-%E7%A5%9E%E6%A4%BF%E5%B8%82%E5%BB%BA%E8%A8%AD%E4%B8%AD%E3%80%82) |
+| `curated-173335` | `kamitsubaki-shi-kensetsuchuu-ed-9` | 基本三欄兩類證據已登記 | [第一方](https://kamitsubaki-anime.jp/music/)／[交叉](https://www.anisil.com/animes/6341-%E7%A5%9E%E6%A4%BF%E5%B8%82%E5%BB%BA%E8%A8%AD%E4%B8%AD%E3%80%82) |
+| `curated-173335` | `kamitsubaki-shi-kensetsuchuu-ed-10` | 基本三欄兩類證據已登記 | [第一方](https://kamitsubaki-anime.jp/music/)／[交叉](https://www.anisil.com/animes/6341-%E7%A5%9E%E6%A4%BF%E5%B8%82%E5%BB%BA%E8%A8%AD%E4%B8%AD%E3%80%82) |
+| `curated-191994` | `cardfight-vanguard-divinez-deluxe-kesshou-hen-op-1` | 基本三欄兩類證據已登記 | [第一方](https://anime.cf-vanguard.com/vgd/music/finals/)／[交叉](https://youranimes.tw/animes/5826) |
+| `curated-191994` | `cardfight-vanguard-divinez-deluxe-kesshou-hen-ed-1` | 基本三欄兩類證據已登記 | [第一方](https://anime.cf-vanguard.com/vgd/music/finals/)／[交叉](https://youranimes.tw/animes/5826) |
+| `curated-191994` | `cardfight-vanguard-divinez-deluxe-kesshou-hen-ed-2` | 基本三欄兩類證據已登記 | [第一方](https://anime.cf-vanguard.com/vgd/music/finals/)／[交叉](https://youranimes.tw/animes/5826) |
+| `curated-191994` | `cardfight-vanguard-divinez-deluxe-kesshou-hen-ed-3` | 基本三欄兩類證據已登記 | [第一方](https://anime.cf-vanguard.com/vgd/music/finals/)／[交叉](https://youranimes.tw/animes/5826) |
+| `curated-191994` | `cardfight-vanguard-divinez-deluxe-kesshou-hen-ed-4` | 基本三欄兩類證據已登記 | [第一方](https://anime.cf-vanguard.com/vgd/music/finals/)／[交叉](https://youranimes.tw/animes/5826) |
+| `curated-191994` | `cardfight-vanguard-divinez-deluxe-kesshou-hen-ed-5` | 基本三欄兩類證據已登記 | [第一方](https://anime.cf-vanguard.com/vgd/music/finals/)／[交叉](https://youranimes.tw/animes/5826) |
+| `curated-191994` | `cardfight-vanguard-divinez-deluxe-kesshou-hen-ed-6` | 基本三欄兩類證據已登記 | [第一方](https://anime.cf-vanguard.com/vgd/music/finals/)／[交叉](https://youranimes.tw/animes/5826) |
+| `curated-191994` | `cardfight-vanguard-divinez-deluxe-kesshou-hen-ed-7` | 基本三欄兩類證據已登記 | [第一方](https://anime.cf-vanguard.com/vgd/music/finals/)／[交叉](https://youranimes.tw/animes/5826) |
+| `curated-191994` | `cardfight-vanguard-divinez-deluxe-kesshou-hen-ed-8` | 基本三欄兩類證據已登記 | [第一方](https://anime.cf-vanguard.com/vgd/music/finals/)／[交叉](https://youranimes.tw/animes/5826)／[交叉](https://zh.wikipedia.org/wiki/%E5%8D%A1%E7%89%87%E6%88%B0%E9%AC%A5%E5%85%88%E5%B0%8E%E8%80%85) |
+| `curated-191994` | `cardfight-vanguard-divinez-deluxe-kesshou-hen-ed-9` | 基本三欄兩類證據已登記 | [第一方](https://anime.cf-vanguard.com/vgd/music/finals/)／[交叉](https://youranimes.tw/animes/5826) |
+| `curated-191994` | `cardfight-vanguard-divinez-deluxe-kesshou-hen-ed-10` | 基本三欄兩類證據已登記 | [第一方](https://anime.cf-vanguard.com/vgd/music/finals/)／[交叉](https://youranimes.tw/animes/5826)／[交叉](https://zh.wikipedia.org/wiki/%E5%8D%A1%E7%89%87%E6%88%B0%E9%AC%A5%E5%85%88%E5%B0%8E%E8%80%85) |
+| `curated-180425` | `ame-to-kimi-to-op-1` | 基本三欄兩類證據已登記 | [第一方](https://amekimi-anime.com/music/oped.html)／[交叉](https://youranimes.tw/animes/5422) |
+| `curated-180425` | `ame-to-kimi-to-ed-1` | 基本三欄兩類證據已登記 | [第一方](https://amekimi-anime.com/music/oped.html)／[交叉](https://youranimes.tw/animes/5422) |
+| `curated-179885` | `yuusha-party-wo-tsuihou-sareta-shiro-madoushi-s-rank-boukensha-ni-hirowareru-kono-shiro-madoushi-ga-kikakugaisugiru-op-1` | 基本三欄兩類證據已登記 | [第一方](https://tsuiho-shiromadoshi.com/music/)／[交叉](https://youranimes.tw/animes/5390) |
+| `curated-179885` | `yuusha-party-wo-tsuihou-sareta-shiro-madoushi-s-rank-boukensha-ni-hirowareru-kono-shiro-madoushi-ga-kikakugaisugiru-ed-1` | 基本三欄兩類證據已登記 | [第一方](https://tsuiho-shiromadoshi.com/music/)／[交叉](https://youranimes.tw/animes/5390) |
+| `curated-178675` | `bad-girl-op-1` | 基本三欄兩類證據已登記 | [第一方](https://news.kingrecords.co.jp/2025/09/43682/)／[交叉](https://youranimes.tw/animes/5311) |
+| `curated-178675` | `bad-girl-ed-1` | 基本三欄兩類證據已登記 | [第一方](https://news.kingrecords.co.jp/2025/09/43682/)／[交叉](https://youranimes.tw/animes/5311) |
+| `curated-178675` | `bad-girl-ed-2` | 第一方曲名／名義及交叉三欄已核；第一方用途待核 | [第一方](https://news.kingrecords.co.jp/2025/09/43682/)／[交叉](https://www.animatetimes.com/news/details.php?id=1757566654&p=2) |
+| `curated-173335` | `kamitsubaki-shi-kensetsuchuu-ed-11` | 第一方曲名／名義及交叉三欄已核；第一方用途待核 | [第一方](https://findmestore.thinkr.jp/products/ktr-000-0210)／[交叉](https://www.anisil.com/animes/6341-%E7%A5%9E%E6%A4%BF%E5%B8%82%E5%BB%BA%E8%A8%AD%E4%B8%AD%E3%80%82)／[第一方](https://www.youtube.com/watch?v=ofTllighKyE) |
+
+核對日2026-10-30，固定截止2026-10-14；30筆既有用途新增28筆完整基本逐欄證據，沒有新增歌曲用途、歌曲ID、錄音、影片或發行品。47個既有逐用途來源物件只更新本次實讀日期，新增16個來源物件；未引用的共用來源及其他舊日期不刷新。神椿兩個Rearranged用途沿用原曲的共同song ID與原錄音／發行關係。
+
+神椿ED1及ED2–10補10個逐話用途標籤（第0話及第2–10話），第一方明示與Anisil逐話表相符；不是以商品曲序推TV用途。Vanguard官方歷史finals頁普通渲染正文明列全部11曲及第2–11話ED，與YourAnimes核對；既有逐話標籤全保留，兩個引號排版差異另以中文維基確認原值。
+
+白魔導師官方ONAIR將BSフジ列7/10深夜24:30、MX列25:00，網上先行為7/5深夜24:00。seed統一按實際日曆日期修正TV首播2025-07-11、星期五、00:30；既有broadcastLabel同時展示7/10深夜編排及7/6 00:00的dアニメ／ABEMA先行。官方ONAIR與YourAnimes兩個作品來源單獨記本日核對，其餘作品及圖片來源日期不變。
+
+### 兩筆基本缺口
+
+- `kamitsubaki-shi-kensetsuchuu-ed-11`：第一方商品支持「魔女(真) sinka ver.」曲名，既有官方影片標題支持曲名與V.W.P名義；Anisil與中文維基支持第12話ED。動畫music最後兩曲仍未列名，未取得原官方影片的第12話ED正文；不把搜尋描述或MV存在當用途證據。待官方逐話公告或原影片說明可讀並釐清話數後補第一方用途。
+- `bad-girl-ed-2`：KING RECORDS正文支持曲名與瑠璃葉るら(CV.花井美春)名義，animate訪談支持第7話特殊ED；普通渲染官方單曲頁仍只有收錄／配信資料，未明示ED，原官方影片說明亦未取得。待第一方第7話特殊ED公告或說明可讀後補用途，不由專輯或一般角色歌推定。
+- 既有182–184批7筆缺口無新觸發，未重搜；本對話四批共9筆具名基本缺口，不能視為全目錄僅餘9筆。
+
+### 驗證與下一接點
+
+- `verify:batch`通過24項單元、型別／完整建置、CSP、Service Worker及公開邊界；全目錄仍2,052部／4,926用途，基本逐欄證據3,287→3,315。歌曲ID4,061、尚無song ID用途780、錄音644、發行品784、唯一影片ID1,833保持。
+- 其餘2,047部公開作品JSON與29季JSON完全相同；2025夏只調整白魔導師的首播標籤、時間、星期及核對日期，成員及用途季度不變。全部原歌曲／錄音／發行關係、舊證據、創作及影音詳細欄位保持。
+- 隔離單一Chromium核對5作30用途的HTTP／DOM、10個逐話標籤及7組搜尋／季度條件；BREATHE第8話、Vanguard第4話及白魔OP均夏1／秋0，雨と君と夏2；錨點展開及下一Tab焦點正常。1280×900與390×844無水平溢出、應用程式／CSP錯誤及同意前YouTube請求；兩張截圖已實讀。
+- GitHub正常PR建立權限拒絕未解除，未再次重試相同拒絕，沒有本批PR、必要CI、合併或正式部署。分支推送、備份與本機驗證不能代替正式發布。
+- 第186批預定：`curated-178433`（2）、`curated-189326`（2）、`curated-177689`（2）、`curated-175124`（5）、`curated-184574`（2）、`curated-181841`（3）、`curated-185519`（2）、`curated-188138`（2）、`curated-179828`（2）、`curated-182309`（2），10作24用途；啟動前核對實際公開ID及標準TV適用性。標準TV作品聯集、2020–2026基本階段與2007–2026長期目標仍未完成。
+
+第185批資料提交`2dc4b1fdb022b4db79e1a216529bba818c17f1b4`。262檔來源備份已還原且逐檔雜湊一致，48個文件相對連結、公開邊界與diff檢查通過。第184批分支的開啟PR查詢仍為0；本批未嘗試其他發布通道。
