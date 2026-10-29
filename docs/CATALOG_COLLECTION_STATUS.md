@@ -11,20 +11,20 @@
 | 長期目標 | 收集近二十年的動畫歌曲、創作團隊、音源版本、來源、官方影片、收錄發行品與正版平台資訊 |
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED，已確認插曲一併記錄；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2020–2026標準季度TV的動畫及歌曲基本資料優先，按2026 → 2020、各年秋 → 夏 → 春 → 冬補漏。先處理可快速核實的原名、季度／首播、演唱名義、OP／ED用途及來源；創作、影片、音源、發行品及平台集中深化留待下一階段。約24分鐘、常見12／24集，13／26集及同類續播納入；長篇以2020–2026的TV用曲季度盤點，不以作品首播年自動排除；短WEB、泡麵番、短篇TV及特殊番延後，既有成果保留 |
-| 本輪目標 | 第185批：2025夏5部標準TV、30筆既有用途；補齊基本逐欄證據及可證實逐話ED標籤，區分TV首播與網上先行。固定範圍及截止日不變 |
-| 下批位置 | 第186批待登記：2025夏其餘10部標準TV、預計24筆既有用途，公開ID見末段；本對話182–185批9筆具名基本缺口無新觸發不重搜，其他歷史缺口及短篇／WEB沿原處置 |
+| 本輪目標 | 第186批：2025夏10部標準TV、24筆既有用途；23筆完成基本雙證，CITY既有MAMBO缺口沿用並接通原續查條件，兩部作品區分TV及先行配信 |
+| 下批位置 | 第187批待登記：2025夏6部標準TV、21筆既有用途，公開ID見末段；本對話10筆具名缺口及其他歷史缺口無新觸發不重搜，短篇／WEB沿原處置 |
 | 完成條件 | 各季有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替；基本資料經公開JSON、頁面及必要檢查驗證，歌單與詳情保持易瀏覽；每筆用途保存現有欄位狀態、未記錄項目及已知續查條件，與完整收齊及來源日期分開。詳細欄位缺少不阻擋基本資料。作品聯集未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件；2020–2026基本盤點及缺口對帳完成後，按季度倒序接續2019–2007，再依已登記缺口分階段深化詳細欄位。未解必要缺口仍標示未完成，不宣稱所有動畫種類或詳細資料齊備 |
-| 執行狀態 | 本階段執行中且尚未完成。第182–185批共32部、96筆既有用途已接通本機JSON／頁面，基本逐欄證據累計增加87筆。正常PR建立仍遭GitHub整合403拒絕，CI／正式發布待處理；最高正式歷史驗收第181批 |
-| 接續位置 | 第185批本機驗證通過；第184批最終來源632ab28已推送及還原備份。最新資料提交與下一批公開ID見末段；按正常PR、固定head完整檢查、必要CI及正式站驗收接續發布 |
+| 執行狀態 | 本階段執行中且未完成。第182–186批共42部、120筆既有用途經本機整合，基本逐欄證據累計增加110筆；保留10筆具名基本缺口。正常PR建立仍遭GitHub整合403拒絕，CI／正式發布待處理；最高正式歷史驗收第181批 |
+| 接續位置 | 第186批本機驗證通過；第185批最終來源41717cf已推送及還原備份。最新資料提交與下一批公開ID見末段；發布待正常PR權限、固定head完整檢查、必要CI及正式站獨立驗收 |
 | 發布提交 | 第181批[PR #253](https://github.com/kyeunga25/anisonary/pull/253)，真正main來源`6acd21f83b1cb2f32e9885719e534745e0a216c0`；正常PR與main完整CI、固定產物及production驗收見歷史收據4ca4c89；本輪尚未重新發布 |
-| 本機提交 | 第182批資料23e1bbe／收尾a9900c5；第183批資料bcb9d35／收尾3d4ceaf；第184批資料f1cff58／收尾632ab28；第185批提交見末段。與正式版本分開 |
+| 本機提交 | 第182批資料23e1bbe／收尾a9900c5；183批bcb9d35／3d4ceaf；184批f1cff58／632ab28；185批2dc4b1f／41717cf；186批提交見末段。分支與正式版本分開 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
 執行狀態使用「未開始／執行中／已暫停／已完成／已取消」；無法繼續時另記具體阻礙及仍未完成部分，不自動標記完成。長期目標與本次工作量分開，未指定本次工作量時先完成下一批。
 
 ## 季度進度 / Quarterly progress
 
-季度表取第181批已核產物，所有季度數字維持原樣；最高正式production驗收第181批`6acd21f83b1cb2f32e9885719e534745e0a216c0`。後續第182–185批本機增量另記於末段及自動統計，表內歷史數字不代表季度作品聯集閉合，基本、詳細及長期範圍未完成。
+季度表取第181批已核產物，所有季度數字維持原樣；最高正式production驗收第181批`6acd21f83b1cb2f32e9885719e534745e0a216c0`。後續第182–186批本機增量另記於末段及自動統計，表內歷史數字不代表季度作品聯集閉合，基本、詳細及長期範圍未完成。
 
 「基本欄位具備」表示現有歌曲原名、演唱名義、用途及第一方／交叉來源有值，動畫可識別且有季度與作品來源；這是現有資料的欄位盤點，不表示本批重查全部來源、作品清單已閉合或整季收齊。「已逐批核對」依下方各批公開ID明細，包含查找後保留續查條件的用途。
 
@@ -584,7 +584,7 @@ Browser plugin 不在可用清單，沿用 Playwright；Chromium 本機驗證權
 | --- | --- |
 | 本次目標 | 可公開的範圍、資料欄位、優先順序、工作量／時限與完成條件；不抄錄私人指令 |
 | 固定範圍 | 起迄年份／季度、媒體及用途類型、公開資料截止日；延續時不自行改動 |
-| 執行狀態 | 本階段執行中且尚未完成。第182–185批共32部、96筆既有用途已接通本機JSON／頁面，基本逐欄證據累計增加87筆。正常PR建立仍遭GitHub整合403拒絕，CI／正式發布待處理；最高正式歷史驗收第181批 |
+| 執行狀態 | 本階段執行中且未完成。第182–186批共42部、120筆既有用途經本機整合，基本逐欄證據累計增加110筆；保留10筆具名基本缺口。正常PR建立仍遭GitHub整合403拒絕，CI／正式發布待處理；最高正式歷史驗收第181批 |
 | 批次 | 日期、季度、簡短批次 ID；不靠 package 版本當游標 |
 | 已處理 ID | 本批已公開的 theme ID／anime ID；跨季作品與原 ID 保持一致 |
 | 完成層次 | 核心身分／credits／版本／發行品／平台，分別說明 |
@@ -12931,3 +12931,54 @@ Nia ED的名義差異僅是同一讀音標記括號的全半形呈現；不是�
 - 第186批預定：`curated-178433`（2）、`curated-189326`（2）、`curated-177689`（2）、`curated-175124`（5）、`curated-184574`（2）、`curated-181841`（3）、`curated-185519`（2）、`curated-188138`（2）、`curated-179828`（2）、`curated-182309`（2），10作24用途；啟動前核對實際公開ID及標準TV適用性。標準TV作品聯集、2020–2026基本階段與2007–2026長期目標仍未完成。
 
 第185批資料提交`2dc4b1fdb022b4db79e1a216529bba818c17f1b4`。262檔來源備份已還原且逐檔雜湊一致，48個文件相對連結、公開邊界與diff檢查通過。第184批分支的開啟PR查詢仍為0；本批未嘗試其他發布通道。
+
+## 第186批：2025夏其餘標準TV基本證據（本機驗證通過，發布受阻）
+
+- 登記日期2026-10-30；第185批最終提交`41717cf0a4af0822285eb2a52379d76446b31080`已推送、工作區乾淨且262檔最終來源備份還原一致。遠端main仍`6acd21f`，後續批次未合併或部署。
+- 固定2007–2026、截止2026-10-14，2020–2026標準TV優先。本批10作24筆既有用途：`curated-178433`（2）、`curated-189326`（2）、`curated-177689`（2）、`curated-175124`（5）、`curated-184574`（2）、`curated-181841`（3）、`curated-185519`（2）、`curated-188138`（2）、`curated-179828`（2）、`curated-182309`（2）。保留ニャイト的3筆IN分類，不改稱OP／ED。
+- `city-the-animation-ed-3`的演奏名義及第一方動畫cover證據在既有批次已兩輪未明，沿用原續查觸發，不再搜尋或刷新其來源日期；其餘23筆按實際缺口查核。其餘歷史與本對話9筆無新觸發缺口保持。
+- 三組來源研究按不重疊作品分派，主整合單一修改。完成條件為已核曲名、名義及真實用途的第一方／交叉欄位證據接通公開JSON／畫面，通過必要檢查、可還原備份並保存下一位置；發布須待正常PR權限、CI及正式站獨立驗收。
+
+### 逐用途結果與實際引用
+
+| 作品ID | 公開用途ID | 本機結果 | 本次實讀來源 |
+| --- | --- | --- | --- |
+| `curated-178433` | `isekai-mokushiroku-mynoghra-hametsu-no-bunmei-de-hajimeru-sekai-seifuku-op-1` | 基本三欄兩類證據已登記 | [第一方](https://mynoghra-anime.com/music/)／[交叉](https://youranimes.tw/animes/5300) |
+| `curated-178433` | `isekai-mokushiroku-mynoghra-hametsu-no-bunmei-de-hajimeru-sekai-seifuku-ed-1` | 基本三欄兩類證據已登記 | [第一方](https://mynoghra-anime.com/music/)／[交叉](https://youranimes.tw/animes/5300) |
+| `curated-189326` | `jibaku-shounen-hanako-kun-2-part-2-op-1` | 基本三欄兩類證據已登記 | [第一方](https://hanakokun.com/2nd/music/music20250618_01/)／[交叉](https://youranimes.tw/animes/5803) |
+| `curated-189326` | `jibaku-shounen-hanako-kun-2-part-2-ed-1` | 基本三欄兩類證據已登記 | [第一方](https://hanakokun.com/2nd/music/music20250618_02/)／[交叉](https://youranimes.tw/animes/5803) |
+| `curated-177689` | `hikaru-ga-shinda-natsu-op-1` | 基本三欄兩類證據已登記 | [第一方](https://hikanatsu-anime.com/music/)／[交叉](https://uzurea.net/summer-2025-anime-themes-and-picks/)／[交叉](https://www.4gamers.com.tw/news/detail/72144/the-summer-hikaru-died-netflix-animation-release-in-july) |
+| `curated-177689` | `hikaru-ga-shinda-natsu-ed-1` | 基本三欄兩類證據已登記 | [第一方](https://hikanatsu-anime.com/music/)／[交叉](https://uzurea.net/summer-2025-anime-themes-and-picks/) |
+| `curated-175124` | `nyaight-of-the-living-cat-op-1` | 基本三欄兩類證據已登記 | [第一方](https://nyailivi.com/music/)／[交叉](https://uzurea.net/summer-2025-anime-themes-and-picks/) |
+| `curated-175124` | `nyaight-of-the-living-cat-ed-1` | 基本三欄兩類證據已登記 | [第一方](https://nyailivi.com/music/)／[交叉](https://uzurea.net/summer-2025-anime-themes-and-picks/) |
+| `curated-175124` | `nyaight-of-the-living-cat-in-1` | 基本三欄兩類證據已登記 | [第一方](https://nyailivi.com/news/post-280)／[交叉](https://www.animatetimes.com/news/details.php?id=1756537914) |
+| `curated-175124` | `nyaight-of-the-living-cat-in-2` | 基本三欄兩類證據已登記 | [第一方](https://nyailivi.com/news/post-280)／[交叉](https://www.animatetimes.com/news/details.php?id=1756537914) |
+| `curated-175124` | `nyaight-of-the-living-cat-in-3` | 基本三欄兩類證據已登記 | [第一方](https://nyailivi.com/music/)／[交叉](https://www.animatetimes.com/news/details.php?id=1757918406) |
+| `curated-184574` | `dekin-no-mogura-op-1` | 基本三欄兩類證據已登記 | [第一方](https://dekinnomogura.com/music/)／[交叉](https://youranimes.tw/animes/5572) |
+| `curated-184574` | `dekin-no-mogura-ed-1` | 基本三欄兩類證據已登記 | [第一方](https://dekinnomogura.com/music/)／[交叉](https://youranimes.tw/animes/5572) |
+| `curated-181841` | `city-the-animation-op-1` | 基本三欄兩類證據已登記 | [第一方](https://city-the-animation.com/music/opening/)／[交叉](https://youranimes.tw/animes/5471) |
+| `curated-181841` | `city-the-animation-ed-1` | 基本三欄兩類證據已登記 | [第一方](https://city-the-animation.com/music/ending/)／[交叉](https://youranimes.tw/animes/5471) |
+| `curated-181841` | `city-the-animation-ed-3` | 沿用舊缺口，未重新查核 | 原2026-10-16續查條件接通頁面，來源日期保留 |
+| `curated-185519` | `food-court-de-mata-ashita-op-1` | 基本三欄兩類證據已登記 | [第一方](https://www.foodcourtjk-anime.com/music/)／[交叉](https://acgsecrets.hk/anime/1857/) |
+| `curated-185519` | `food-court-de-mata-ashita-ed-1` | 基本三欄兩類證據已登記 | [第一方](https://www.foodcourtjk-anime.com/music/)／[交叉](https://acgsecrets.hk/anime/1857/) |
+| `curated-188138` | `binan-koukou-chikyuu-bouei-bu-haikara-op-1` | 基本三欄兩類證據已登記 | [第一方](https://boueibu.com/hc/music.html)／[交叉](https://acgsecrets.hk/anime/1866/) |
+| `curated-188138` | `binan-koukou-chikyuu-bouei-bu-haikara-ed-1` | 基本三欄兩類證據已登記 | [第一方](https://boueibu.com/hc/music.html)／[交叉](https://acgsecrets.hk/anime/1866/) |
+| `curated-179828` | `kakkou-no-iinazuke-season-2-op-1` | 基本三欄兩類證據已登記 | [第一方](https://cuckoos-anime.com/news.html)／[交叉](https://youranimes.tw/animes/5377) |
+| `curated-179828` | `kakkou-no-iinazuke-season-2-ed-1` | 基本三欄兩類證據已登記 | [第一方](https://cuckoos-anime.com/news.html)／[交叉](https://youranimes.tw/animes/5377) |
+| `curated-182309` | `grand-blue-season-2-op-1` | 基本三欄兩類證據已登記 | [第一方](https://grandblue-anime.com/music/)／[交叉](https://youranimes.tw/animes/5491) |
+| `curated-182309` | `grand-blue-season-2-ed-1` | 基本三欄兩類證據已登記 | [第一方](https://grandblue-anime.com/music/)／[交叉](https://uzurea.net/summer-2025-anime-themes-and-picks/) |
+
+23筆實讀核對日2026-10-30，固定截止2026-10-14不變；新增23筆完整基本逐欄證據，沒有新增動畫／用途／歌曲ID／錄音／影片／發行品。45個既有逐用途來源物件只更新實讀日期，新增2個來源物件。ニャイト3首劇中歌保留IN類型與原集數；CITY既有ED3保留ID、序號及演奏名義未知，不恢復已排除的ED2。MAMBO只補回已登記續查條件，checkedAt沿2026-10-16，全部來源及舊證據日期不變。
+
+兩處首播更正均有第一方及交叉正文：出禁のモグラ為TV 2025-07-07 22:00、Prime Video先行7/6 22:00；ニャイト為テレ東7/7深夜26:00（實際2025-07-08 02:00）、ABEMA Premium先行7/6 23:00（均JST）。seed首播與星期按實際日曆日期，既有broadcastLabel同時顯示深夜編排及先行日期。作品來源新增3個、另只更新實讀的出禁官方根頁1個；未刷新其他作品／圖片來源。
+
+### 驗證與接續
+
+- `verify:batch`通過24項單元、完整型別／建置、CSP、Service Worker及公開邊界；基本逐欄證據3,315→3,338，全目錄仍2,052部／4,926用途。歌曲ID4,061、無song ID用途780、錄音644、發行品784、唯一影片ID1,833保持。
+- 其餘2,042部作品JSON及29季JSON完全相同；2025夏只改兩部作品的首播標籤、時間、星期及核對日期，作品成員及用途季度不變。全部原歌曲／錄音／發行關係、詳細欄位及舊證據保持；MAMBO來源及最後核對日逐項確認未變。
+- 獨立單一Chromium實測10作24用途HTTP／DOM、5組搜尋／季度條件、IN分類與第9話錨點／下一Tab焦點，MAMBO未知名義與舊續查條件可見；兩處TV／先行標籤在頁面可見。1280×900及390×844無水平溢出、應用程式／CSP錯誤或同意前YouTube請求，兩張截圖已實讀。
+- 本對話182–186批累計42部120筆既有用途、110筆新增基本證據；9筆前批具名缺口加本批沿用MAMBO，共10筆，不是全目錄剩餘缺口總數。歷史必需缺口及作品聯集仍須依固定觸發條件對帳。
+- GitHub正常PR寫入拒絕未解除，沒有本批PR、必要CI、合併或正式部署。正式版本仍按已核main及正式站證據判定，不能由本機或分支推送推定發布。
+- 第187批預定6作21用途：`curated-184591`（2）、`curated-159483`（8）、`curated-173780`（2）、`curated-177880`（2）、`curated-177474`（4）、`curated-185965`（3）。先核對穩定ID及實際用途；既有跨季範圍及變體保持。後續仍需季度作品聯集與缺口對帳，不能因現有seed的一輪基本證據完成便宣稱2025夏或2020–2026已齊備。
+
+第186批資料提交`ddfc89c3de72224e4c7af79d2784083bd96dc8f7`；262檔來源備份已還原並逐檔雜湊一致，48個文件相對連結、公開邊界與diff檢查通過。正式站HTTP抽查徹夜之歌與ニャイトJSON均200，仍未有本輪基本欄位證據及首播更正；此抽查不是Cloudflare帳戶版本驗收，本批沒有發布完成宣告。
