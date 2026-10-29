@@ -11,20 +11,20 @@
 | 長期目標 | 收集近二十年的動畫歌曲、創作團隊、音源版本、來源、官方影片、收錄發行品與正版平台資訊 |
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED，已確認插曲一併記錄；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2020–2026標準季度TV的動畫及歌曲基本資料優先，按2026 → 2020、各年秋 → 夏 → 春 → 冬補漏。先處理可快速核實的原名、季度／首播、演唱名義、OP／ED用途及來源；創作、影片、音源、發行品及平台集中深化留待下一階段。約24分鐘、常見12／24集，13／26集及同類續播納入；長篇以2020–2026的TV用曲季度盤點，不以作品首播年自動排除；短WEB、泡麵番、短篇TV及特殊番延後，既有成果保留 |
-| 本輪目標 | 第186批：2025夏10部標準TV、24筆既有用途；23筆完成基本雙證，CITY既有MAMBO缺口沿用並接通原續查條件，兩部作品區分TV及先行配信 |
-| 下批位置 | 第187批待登記：2025夏6部標準TV、21筆既有用途，公開ID見末段；本對話10筆具名缺口及其他歷史缺口無新觸發不重搜，短篇／WEB沿原處置 |
+| 本輪目標 | 第187批6部標準TV、21筆既有用途的本機核對已完成，新增20筆基本證據、1筆第一方用途待補；固定範圍與截止日不變 |
+| 下批位置 | 第188批待登記：2025夏既有作品的形式、跨季長篇用曲及作品聯集缺口對帳；已知無新觸發缺口不重搜，短篇／WEB沿原處置；公開ID及本機分母限制見末段 |
 | 完成條件 | 各季有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替；基本資料經公開JSON、頁面及必要檢查驗證，歌單與詳情保持易瀏覽；每筆用途保存現有欄位狀態、未記錄項目及已知續查條件，與完整收齊及來源日期分開。詳細欄位缺少不阻擋基本資料。作品聯集未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件；2020–2026基本盤點及缺口對帳完成後，按季度倒序接續2019–2007，再依已登記缺口分階段深化詳細欄位。未解必要缺口仍標示未完成，不宣稱所有動畫種類或詳細資料齊備 |
-| 執行狀態 | 本階段執行中且未完成。第182–186批共42部、120筆既有用途經本機整合，基本逐欄證據累計增加110筆；保留10筆具名基本缺口。正常PR建立仍遭GitHub整合403拒絕，CI／正式發布待處理；最高正式歷史驗收第181批 |
-| 接續位置 | 第186批本機驗證通過；第185批最終來源41717cf已推送及還原備份。最新資料提交與下一批公開ID見末段；發布待正常PR權限、固定head完整檢查、必要CI及正式站獨立驗收 |
+| 執行狀態 | 本階段執行中且未完成。第182–187批共48部、141筆既有用途經本機整合，基本逐欄證據累計增加130筆；保留11筆具名基本缺口。正常PR建立仍遭GitHub整合403拒絕，CI／正式發布待處理；最高正式歷史驗收第181批 |
+| 接續位置 | 第187批本機驗證通過；第186批最終來源0bb7c6a已推送及還原備份。最新資料提交與下一批公開ID見末段；發布待正常PR權限、固定head完整檢查、必要CI及正式站獨立驗收 |
 | 發布提交 | 第181批[PR #253](https://github.com/kyeunga25/anisonary/pull/253)，真正main來源`6acd21f83b1cb2f32e9885719e534745e0a216c0`；正常PR與main完整CI、固定產物及production驗收見歷史收據4ca4c89；本輪尚未重新發布 |
-| 本機提交 | 第182批資料23e1bbe／收尾a9900c5；183批bcb9d35／3d4ceaf；184批f1cff58／632ab28；185批2dc4b1f／41717cf；186批提交見末段。分支與正式版本分開 |
+| 本機提交 | 第182批資料23e1bbe／收尾a9900c5；183批bcb9d35／3d4ceaf；184批f1cff58／632ab28；185批2dc4b1f／41717cf；186批ddfc89c／0bb7c6a；187批提交見末段。分支與正式版本分開 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
 執行狀態使用「未開始／執行中／已暫停／已完成／已取消」；無法繼續時另記具體阻礙及仍未完成部分，不自動標記完成。長期目標與本次工作量分開，未指定本次工作量時先完成下一批。
 
 ## 季度進度 / Quarterly progress
 
-季度表取第181批已核產物，所有季度數字維持原樣；最高正式production驗收第181批`6acd21f83b1cb2f32e9885719e534745e0a216c0`。後續第182–186批本機增量另記於末段及自動統計，表內歷史數字不代表季度作品聯集閉合，基本、詳細及長期範圍未完成。
+季度表取第181批已核產物，所有季度數字維持原樣；最高正式production驗收第181批`6acd21f83b1cb2f32e9885719e534745e0a216c0`。後續第182–187批本機增量另記於末段及自動統計，表內歷史數字不代表季度作品聯集閉合，基本、詳細及長期範圍未完成。
 
 「基本欄位具備」表示現有歌曲原名、演唱名義、用途及第一方／交叉來源有值，動畫可識別且有季度與作品來源；這是現有資料的欄位盤點，不表示本批重查全部來源、作品清單已閉合或整季收齊。「已逐批核對」依下方各批公開ID明細，包含查找後保留續查條件的用途。
 
@@ -12982,3 +12982,53 @@ Nia ED的名義差異僅是同一讀音標記括號的全半形呈現；不是�
 - 第187批預定6作21用途：`curated-184591`（2）、`curated-159483`（8）、`curated-173780`（2）、`curated-177880`（2）、`curated-177474`（4）、`curated-185965`（3）。先核對穩定ID及實際用途；既有跨季範圍及變體保持。後續仍需季度作品聯集與缺口對帳，不能因現有seed的一輪基本證據完成便宣稱2025夏或2020–2026已齊備。
 
 第186批資料提交`ddfc89c3de72224e4c7af79d2784083bd96dc8f7`；262檔來源備份已還原並逐檔雜湊一致，48個文件相對連結、公開邊界與diff檢查通過。正式站HTTP抽查徹夜之歌與ニャイトJSON均200，仍未有本輪基本欄位證據及首播更正；此抽查不是Cloudflare帳戶版本驗收，本批沒有發布完成宣告。
+
+## 第187批：2025夏剩餘標準TV既有用途基本證據（本機驗證通過，發布受阻）
+
+- 登記日期2026-10-30；基線`0bb7c6aaa54f61b570a3aa605644652228ba2a6c`已推送、工作區乾淨、262檔最終來源備份還原一致，遠端main仍`6acd21f`。
+- 固定2007–2026、截止2026-10-14，先完成2020–2026標準TV基本資料。本批6作21筆既有用途：`curated-184591`（2）、`curated-159483`（8）、`curated-173780`（2）、`curated-177880`（2）、`curated-177474`（4）、`curated-185965`（3）。角色輪替ED、各期及跨季用曲須逐筆核對，不由發行品或影片形式推用途。
+- 三組不重疊作品研究，主整合單一修改、預覽及驗證。既有ID、歌曲／錄音／發行關係、用途序號、季度及舊證據保留；兩輪後仍不明者保存具體觸發，本對話10筆及其他歷史無新觸發缺口不重搜。
+- 完成條件為已核基本欄位接通JSON／頁面、必要檢查與可還原備份通過，保存提交及下一位置。GitHub PR寫入拒絕未解除，資料工作與正常PR／CI／production發布各自記錄。
+- 後續先對帳2025夏標準TV作品聯集及必要缺口，再接較舊季度；不以既有seed一輪核對結束宣稱整季或整體目標已齊備。
+
+### 逐用途結果與實際引用
+
+| 作品ID | 公開用途ID | 本機結果 | 本次實讀來源 |
+| --- | --- | --- | --- |
+| `curated-184591` | `watashi-ga-koibito-ni-nareru-wake-nai-jan-muri-muri-muri-ja-nakatta-op-1` | 基本三欄兩類證據已登記 | [第一方](https://www.watanare-anime.com/music/)／[交叉](https://youranimes.tw/animes/5574) |
+| `curated-184591` | `watashi-ga-koibito-ni-nareru-wake-nai-jan-muri-muri-muri-ja-nakatta-ed-1` | 基本三欄兩類證據已登記 | [第一方](https://www.watanare-anime.com/music/)／[交叉](https://youranimes.tw/animes/5574) |
+| `curated-159483` | `turkey-op-1` | 基本三欄兩類證據已登記 | [第一方](https://turkey-project.com/music/)／[交叉](https://uzurea.net/summer-2025-anime-themes-and-picks/)／[交叉](https://ja.wikipedia.org/wiki/Turkey!) |
+| `curated-159483` | `turkey-op-2` | 曲名／名義雙證及交叉用途已核；第一方用途待補 | [第一方](https://turkey-project.com/music/)／[交叉](https://ja.wikipedia.org/wiki/Turkey!)／[交叉](https://youranimes.tw/animes/4078) |
+| `curated-159483` | `turkey-ed-1` | 基本三欄兩類證據已登記 | [第一方](https://turkey-project.com/music/musiced/)／[交叉](https://youranimes.tw/animes/4078)／[交叉](https://ja.wikipedia.org/wiki/Turkey!) |
+| `curated-159483` | `turkey-ed-2` | 基本三欄兩類證據已登記 | [第一方](https://turkey-project.com/music/musicedlist/)／[交叉](https://ja.wikipedia.org/wiki/Turkey!)／[交叉](https://youranimes.tw/animes/4078) |
+| `curated-159483` | `turkey-ed-3` | 基本三欄兩類證據已登記 | [第一方](https://turkey-project.com/music/musicedlist/)／[交叉](https://ja.wikipedia.org/wiki/Turkey!)／[交叉](https://zh.wikipedia.org/wiki/%E4%BF%9D%E9%BD%A1%E7%90%83%E5%B0%91%E5%A5%B3%EF%BC%81) |
+| `curated-159483` | `turkey-ed-4` | 基本三欄兩類證據已登記 | [第一方](https://turkey-project.com/music/musicedlist/)／[交叉](https://ja.wikipedia.org/wiki/Turkey!)／[交叉](https://zh.wikipedia.org/wiki/%E4%BF%9D%E9%BD%A1%E7%90%83%E5%B0%91%E5%A5%B3%EF%BC%81) |
+| `curated-159483` | `turkey-ed-5` | 基本三欄兩類證據已登記 | [第一方](https://turkey-project.com/music/musicedlist/)／[交叉](https://ja.wikipedia.org/wiki/Turkey!)／[交叉](https://zh.wikipedia.org/wiki/%E4%BF%9D%E9%BD%A1%E7%90%83%E5%B0%91%E5%A5%B3%EF%BC%81) |
+| `curated-159483` | `turkey-in-1` | 基本三欄兩類證據已登記 | [第一方](https://turkey-project.com/music/musicedlist/)／[交叉](https://www.animatetimes.com/news/details.php?id=1754383232) |
+| `curated-173780` | `tate-no-yuusha-no-nariagari-season-4-op-1` | 基本三欄兩類證據已登記 | [第一方](https://columbia.jp/madkid/disco/resolution.html)／[交叉](https://youranimes.tw/animes/4965) |
+| `curated-173780` | `tate-no-yuusha-no-nariagari-season-4-ed-1` | 基本三欄兩類證據已登記 | [第一方](https://columbia.jp/artist-info/fujikawachiai/discography/COKM-45814.html)／[交叉](https://youranimes.tw/animes/4965) |
+| `curated-177880` | `osomatsu-san-4th-season-op-1` | 基本三欄兩類證據已登記 | [第一方](https://osomatsusan.com/news/detail/?id=1125264)／[交叉](https://youranimes.tw/animes/5269) |
+| `curated-177880` | `osomatsu-san-4th-season-ed-1` | 基本三欄兩類證據已登記 | [第一方](https://osomatsusan.com/news/detail/?id=1125436)／[交叉](https://www.lisani.jp/0000292209/) |
+| `curated-177474` | `tougen-anki-op-1` | 基本三欄兩類證據已登記 | [第一方](https://tougenanki-anime.com/music/op/)／[交叉](https://youranimes.tw/animes/5224) |
+| `curated-177474` | `tougen-anki-op-2` | 基本三欄兩類證據已登記 | [第一方](https://tougenanki-anime.com/music/op2/)／[交叉](https://youranimes.tw/animes/5224) |
+| `curated-177474` | `tougen-anki-ed-1` | 基本三欄兩類證據已登記 | [第一方](https://tougenanki-anime.com/music/ed/)／[交叉](https://youranimes.tw/animes/5224) |
+| `curated-177474` | `tougen-anki-ed-2` | 基本三欄兩類證據已登記 | [第一方](https://tougenanki-anime.com/music/ed2/)／[交叉](https://youranimes.tw/animes/5224) |
+| `curated-185965` | `futari-solo-camp-op-1` | 基本三欄兩類證據已登記 | [第一方](https://2solocamp-anime.com/music/op.html)／[交叉](https://youranimes.tw/animes/5658) |
+| `curated-185965` | `futari-solo-camp-op-2` | 基本三欄兩類證據已登記 | [第一方](https://2solocamp-anime.com/music/op2.html)／[交叉](https://ototoy.jp/news/125873) |
+| `curated-185965` | `futari-solo-camp-ed-1` | 基本三欄兩類證據已登記 | [第一方](https://2solocamp-anime.com/music/ed.html)／[交叉](https://youranimes.tw/animes/5658) |
+
+本批核對日2026-10-30、固定截止2026-10-14；6作21筆既有用途新增20筆完整基本逐欄證據，其中夏季18筆有17筆本次補齊，另3筆僅屬秋季，不混入夏季分母。40個既有逐用途來源物件只更新實讀日期，新增9個來源物件；未引用的來源及作品／圖片核對日期保持。沒有新增動畫、用途、歌曲ID、錄音、影片或發行品。
+
+Turkey!逐話ED與第5話幾星霜已由官方音樂正文與交叉確認，IN分類保留；兩個ヒャクニチソウ用途仍共用原歌曲ID，演唱版本及序號分開。`turkey-op-2`的第一方MUSIC只明列戸倉家の姫たち收錄版本；交叉逐話資料支持第9話OP，但官方舊公告普通導覽未取得此版本的OP正文。保留第一方用途缺口與具體續查，不由CD曲序或影片存在推用途，也不因新批次重搜。
+
+桃源暗鬼兩個クール及雙人露營第二クール原夏／秋歸屬、標籤與歌曲關係保持；露營OP2交叉採OTOTOY正文，未把搜尋摘要或只列OP1／ED的舊頁當OP2證據。おそ松ED保留ひとみ from あたらよ＆松野家6兄弟完整名義，交叉採明示全名義的Lisani正文。
+
+### 驗證與接續
+
+- `verify:batch`通過24項單元、完整型別／建置、CSP、Service Worker及公開邊界；全目錄仍2,052部／4,926用途，基本逐欄證據3,338→3,358。歌曲ID4,061、無song ID用途780、錄音644、發行品784、唯一影片ID1,833保持。
+- 其餘2,046部作品JSON及全部30季JSON完全相同；作品metadata、成員、用途季度、原歌曲／錄音／發行關係、詳細欄位及舊證據保持。
+- 獨立單一Chromium實測6作21用途HTTP／DOM、10組搜尋／季度條件、第二クール錨點與下一Tab焦點；幾星霜IN及OP2具體續查在頁面可見。1280×900與390×844無水平溢出、應用程式／CSP錯誤及同意前YouTube請求，兩張截圖已實讀。露營歌名搜尋在夏季同時命中共享雙A面發行品的花子OP，按已核發行關係驗收兩筆，沒有修改搜尋程式或降低gate。
+- 第182–187批累計48部141筆既有用途，新增130筆基本證據、保留11筆具名基本缺口；這不是全目錄剩餘缺口總數。GitHub正常PR寫入403未解除，本批沒有PR、必要CI、合併或正式部署；未重試同一拒絕或改道發布。
+- 下一批先對帳2025夏：本機快照94作224筆季內用途，187後186筆有基本逐欄證據、38筆未齊；94不是已閉合標準TV分母。18作的seed位於其他季度，不能只掃summer檔；既有1分鐘mini的零用途排除保留。先核`curated-185073`、`curated-165159`的長篇季內用曲，另對`curated-185407`、`curated-193883`、`curated-199486`、`curated-189069`、`curated-188653`、`curated-193238`、`curated-196229`、`curated-181867`補足作品形式處置，再用可讀季度名單核對缺漏；形式或整季聯集未明時不稱齊備。既有`curated-198745`同一TV再編輯版片長缺口沿原觸發，沒有新訊不重搜。
+
+第187批資料提交`a4f999af636c54ff56adc8351f6c0e7eaa813fe4`；262檔來源備份已還原並逐檔雜湊一致，85個文件相對連結、公開邊界及diff檢查通過。來源分支推送與正常PR／正式部署分開判定。
