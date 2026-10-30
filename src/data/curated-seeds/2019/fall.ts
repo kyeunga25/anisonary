@@ -144,7 +144,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
       "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101239-iGhniUbzVgpn.jpg",
     bannerUrl:
       "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101239-3xMk1BuT06HX.jpg",
-    broadcastLabel: "日本首播／時間未整理",
+    broadcastLabel: "2019日本TV原系列，10/2開播；2020年3月前週三18:25–18:55，4月後17:55–18:25。另有BSテレビ東京第12話2019/12/18深夜24:30–24:59完整單話槽；節目槽非淨片長，歌曲分2019秋及2020冬／春／夏核對。",
     officialSiteUrl: "https://ahirunosora.jp/",
     animeThemesUrl: "https://animethemes.moe/anime/ahiru_no_sora",
     themes: [
@@ -153,51 +153,906 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
         sequence: 1,
         titleJa: "Happy Go Ducky!",
         artistDisplayName: "the pillows",
-      },
+
+"followUp": [],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://ahirunosora.jp/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/ahiru_no_sora",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "KING AMUSEMENT CREATIVE 官方影片",
+    "url": "https://www.youtube.com/watch?v=J5b_S_nHjmY",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://pillows.jp/s/disco/20191009/",
+    "label": "第一方曲目資料：the pillows公式サイト",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://anime-song-info.com/ahirunosora-op-ed-20sm/",
+    "label": "歌曲交叉資料：アニしま",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://www.mau2.com/anime/ahirunosora",
+    "label": "歌曲交叉資料：まうまう☆ アニメ声優情報",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"seasonIds": [
+  "2019-fall"
+],
+"songId": "ahiru-no-sora-op-1-song",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "ahiru-no-sora-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://pillows.jp/s/disco/20191009/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "ahiru-no-sora-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://pillows.jp/s/disco/20191009/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "ahiru-no-sora-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://anime-song-info.com/ahirunosora-op-ed-20sm/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "ahiru-no-sora-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://anime-song-info.com/ahirunosora-op-ed-20sm/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "ahiru-no-sora-op-1-song",
+    "fields": [
+      "title"
+    ],
+    "sourceUrls": [
+      "https://www.mau2.com/anime/ahirunosora"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "ahiru-no-sora-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.mau2.com/anime/ahirunosora"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
+},
       {
         type: "OP",
         sequence: 2,
         titleJa: "ネバーマインド",
         artistDisplayName: "flumpool",
-      },
+
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence",
+      "use_quarters"
+    ],
+    "note": "本曲仍待第一方明示原TV版曲名、演唱與用途。實際使用季度亦待核對，暫不列入季度曲目。",
+    "resumeWhen": "取得原TV版逐曲第一方資料，或完成本曲版本身分的個別核對後補充。取得逐話用曲與播出日期資料後再補用途季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"seasonIds": [],
+},
       {
         type: "OP",
         sequence: 3,
         titleJa: "ハミングバード",
         artistDisplayName: "BLUE ENCOUNT",
-      },
+
+"followUp": [],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://ahirunosora.jp/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/ahiru_no_sora",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "KING AMUSEMENT CREATIVE 官方影片",
+    "url": "https://www.youtube.com/watch?v=duvGhKdbmYM",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://blueencount.jp/news/detail/3042",
+    "label": "第一方曲目資料：BLUE ENCOUNTオフィシャルサイト",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://anime-song-info.com/ahirunosora-op-ed-20sm/",
+    "label": "歌曲交叉資料：アニしま",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://www.mau2.com/anime/ahirunosora",
+    "label": "歌曲交叉資料：まうまう☆ アニメ声優情報",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"seasonIds": [
+  "2020-spring"
+],
+"songId": "ahiru-no-sora-op-3-song",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "ahiru-no-sora-op-3-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://blueencount.jp/news/detail/3042"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "ahiru-no-sora-op-3",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://blueencount.jp/news/detail/3042"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "ahiru-no-sora-op-3-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://anime-song-info.com/ahirunosora-op-ed-20sm/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "ahiru-no-sora-op-3",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://anime-song-info.com/ahirunosora-op-ed-20sm/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "ahiru-no-sora-op-3-song",
+    "fields": [
+      "title"
+    ],
+    "sourceUrls": [
+      "https://www.mau2.com/anime/ahirunosora"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "ahiru-no-sora-op-3",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.mau2.com/anime/ahirunosora"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
+},
       {
         type: "OP",
         sequence: 4,
         titleJa: "Rebirth",
         artistDisplayName: "ACIDMAN",
-      },
+
+"followUp": [],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://ahirunosora.jp/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/ahiru_no_sora",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "KING AMUSEMENT CREATIVE 官方影片",
+    "url": "https://www.youtube.com/watch?v=0OW-WVDE6og",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://acidman.jp/newsinfo/20200904/",
+    "label": "第一方曲目資料：ACIDMAN OFFICIAL WEBSITE",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://anime-song-info.com/ahirunosora-op-ed-20sm/",
+    "label": "歌曲交叉資料：アニしま",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://www.mau2.com/anime/ahirunosora",
+    "label": "歌曲交叉資料：まうまう☆ アニメ声優情報",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"seasonIds": [
+  "2020-summer"
+],
+"songId": "ahiru-no-sora-op-4-song",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "ahiru-no-sora-op-4-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://acidman.jp/newsinfo/20200904/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "ahiru-no-sora-op-4",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://acidman.jp/newsinfo/20200904/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "ahiru-no-sora-op-4-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://anime-song-info.com/ahirunosora-op-ed-20sm/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "ahiru-no-sora-op-4",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://anime-song-info.com/ahirunosora-op-ed-20sm/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "ahiru-no-sora-op-4-song",
+    "fields": [
+      "title"
+    ],
+    "sourceUrls": [
+      "https://www.mau2.com/anime/ahirunosora"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "ahiru-no-sora-op-4",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.mau2.com/anime/ahirunosora"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
+},
       {
         type: "ED",
         sequence: 1,
         titleJa: "ツバサ",
         artistDisplayName: "saji",
-      },
+
+"followUp": [],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://ahirunosora.jp/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/ahiru_no_sora",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "KING AMUSEMENT CREATIVE 官方影片",
+    "url": "https://www.youtube.com/watch?v=P9F9jayA1as",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://www.tv-tokyo.co.jp/broad_bstvtokyo/program/detail/201912/25585_201912182430.html",
+    "label": "第一方曲目資料：テレビ東京・BSテレビ東京公式サイト",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://anime-song-info.com/ahirunosora-op-ed-20sm/",
+    "label": "歌曲交叉資料：アニしま",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://www.mau2.com/anime/ahirunosora",
+    "label": "歌曲交叉資料：まうまう☆ アニメ声優情報",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"seasonIds": [
+  "2019-fall"
+],
+"songId": "ahiru-no-sora-ed-1-song",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "ahiru-no-sora-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.tv-tokyo.co.jp/broad_bstvtokyo/program/detail/201912/25585_201912182430.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "ahiru-no-sora-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.tv-tokyo.co.jp/broad_bstvtokyo/program/detail/201912/25585_201912182430.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "ahiru-no-sora-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://anime-song-info.com/ahirunosora-op-ed-20sm/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "ahiru-no-sora-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://anime-song-info.com/ahirunosora-op-ed-20sm/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "ahiru-no-sora-ed-1-song",
+    "fields": [
+      "title"
+    ],
+    "sourceUrls": [
+      "https://www.mau2.com/anime/ahirunosora"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "ahiru-no-sora-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.mau2.com/anime/ahirunosora"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
+},
       {
         type: "ED",
         sequence: 2,
         titleJa: "Over",
         artistDisplayName: "内田雄馬",
-      },
+
+"followUp": [],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://ahirunosora.jp/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/ahiru_no_sora",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "KING AMUSEMENT CREATIVE 官方影片",
+    "url": "https://www.youtube.com/watch?v=bjSL3JGJboo",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://www.uchidayuma.com/information/?id=245",
+    "label": "第一方曲目資料：内田雄馬公式サイト",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://anime-song-info.com/ahirunosora-op-ed-20sm/",
+    "label": "歌曲交叉資料：アニしま",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://www.mau2.com/anime/ahirunosora",
+    "label": "歌曲交叉資料：まうまう☆ アニメ声優情報",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"seasonIds": [
+  "2020-winter"
+],
+"credits": [
+  {
+    "name": "内田雄馬",
+    "role": "vocals"
+  },
+  {
+    "name": "SHOW",
+    "role": "lyrics"
+  },
+  {
+    "name": "SHOW",
+    "role": "composition"
+  },
+  {
+    "name": "Mitsu.J",
+    "role": "composition"
+  },
+  {
+    "name": "Mitsu.J",
+    "role": "arrangement"
+  }
+],
+"songId": "ahiru-no-sora-ed-2-song",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "ahiru-no-sora-ed-2-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.uchidayuma.com/information/?id=245"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "ahiru-no-sora-ed-2",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.uchidayuma.com/information/?id=245"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "ahiru-no-sora-ed-2-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://anime-song-info.com/ahirunosora-op-ed-20sm/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "ahiru-no-sora-ed-2",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://anime-song-info.com/ahirunosora-op-ed-20sm/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "ahiru-no-sora-ed-2-song",
+    "fields": [
+      "title"
+    ],
+    "sourceUrls": [
+      "https://www.mau2.com/anime/ahirunosora"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "ahiru-no-sora-ed-2",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.mau2.com/anime/ahirunosora"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "credits",
+    "fields": [
+      "credits"
+    ],
+    "sourceUrls": [
+      "https://www.uchidayuma.com/information/?id=245"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
+},
       {
         type: "ED",
         sequence: 3,
         titleJa: "光射す方へ",
         artistDisplayName: "宮野真守",
-      },
+
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence",
+      "use_quarters"
+    ],
+    "note": "原TV用曲與另列Album ver.的曲名及用途關係仍待核對，暫保留原資料。實際使用季度亦待核對，暫不列入季度曲目。",
+    "resumeWhen": "取得原TV版逐曲第一方資料，或完成本曲版本身分的個別核對後補充。取得逐話用曲與播出日期資料後再補用途季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"seasonIds": [],
+},
       {
         type: "ED",
         sequence: 4,
         titleJa: "太陽ランナー",
         artistDisplayName: "阪本奨悟",
-      },
-    ],
+
+"followUp": [],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://ahirunosora.jp/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
   },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/ahiru_no_sora",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "KING AMUSEMENT CREATIVE 官方影片",
+    "url": "https://www.youtube.com/watch?v=6SWVTQQJYns",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://www.a-sketch.com/artist/%E9%98%AA%E6%9C%AC%E5%A5%A8%E6%82%9F-2/",
+    "label": "第一方曲目資料：A-Sketch Official Site",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://anime-song-info.com/ahirunosora-op-ed-20sm/",
+    "label": "歌曲交叉資料：アニしま",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://www.mau2.com/anime/ahirunosora",
+    "label": "歌曲交叉資料：まうまう☆ アニメ声優情報",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"seasonIds": [
+  "2020-summer"
+],
+"songId": "ahiru-no-sora-ed-4-song",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "ahiru-no-sora-ed-4-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.a-sketch.com/artist/%E9%98%AA%E6%9C%AC%E5%A5%A8%E6%82%9F-2/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "ahiru-no-sora-ed-4",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.a-sketch.com/artist/%E9%98%AA%E6%9C%AC%E5%A5%A8%E6%82%9F-2/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "ahiru-no-sora-ed-4-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://anime-song-info.com/ahirunosora-op-ed-20sm/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "ahiru-no-sora-ed-4",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://anime-song-info.com/ahirunosora-op-ed-20sm/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "ahiru-no-sora-ed-4-song",
+    "fields": [
+      "title"
+    ],
+    "sourceUrls": [
+      "https://www.mau2.com/anime/ahirunosora"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "ahiru-no-sora-ed-4",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.mau2.com/anime/ahirunosora"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
+},
+    ],
+
+"metadataSources": [
+  {
+    "label": "動畫官方網站：作品與播出資料",
+    "url": "https://ahirunosora.jp/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AniList：作品識別與公開圖像",
+    "url": "https://anilist.co/anime/101239",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes：OP／ED 曲目交叉核對",
+    "url": "https://animethemes.moe/anime/ahiru_no_sora",
+    "language": "en",
+    "role": "theme_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201910/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_autumn.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://www.tv-tokyo.co.jp/broad_bstvtokyo/program/detail/201912/25585_201912182430.html",
+    "label": "第一方播出資料：テレビ東京・BSテレビ東京公式サイト",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://zh.wikipedia.org/wiki/%E7%B1%83%E7%90%83%E5%B0%91%E5%B9%B4%E7%8E%8B",
+    "label": "播出交叉資料：中文維基百科",
+    "role": "broadcast_cross_check",
+    "language": "zh-Hant",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"seasonIds": [
+  "2019-fall",
+  "2020-winter",
+  "2020-spring",
+  "2020-summer"
+],
+},
   {
     anilistId: 105156,
     slug: "shinchou-yuusha-kono-yuusha-ga-ore-tueee-kuse-ni-shinchou-sugiru",
@@ -220,21 +1075,99 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
         sequence: 1,
         titleJa: "TIT FOR TAT",
         artistDisplayName: "MYTH & ROID",
-      },
+
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本版日本TV的完整常規播出時段或單話長度仍待核對，歌曲基本證據尚未完成。",
+    "resumeWhen": "取得同版本完整播出時段或正版單話長度的直接資料後，再核歌曲原名、演唱名義與用途。",
+    "checkedAt": "2026-10-31"
+  }
+],
+},
       {
         type: "ED",
         sequence: 1,
         titleJa: "be perfect, plz!",
         artistDisplayName: "安月名莉子",
-      },
+
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本版日本TV的完整常規播出時段或單話長度仍待核對，歌曲基本證據尚未完成。",
+    "resumeWhen": "取得同版本完整播出時段或正版單話長度的直接資料後，再核歌曲原名、演唱名義與用途。",
+    "checkedAt": "2026-10-31"
+  }
+],
+},
       {
         type: "ED",
         sequence: 2,
         titleJa: "さいしょからずっと",
         artistDisplayName: "安月名莉子",
-      },
+
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
     ],
+    "note": "本版日本TV的完整常規播出時段或單話長度仍待核對，歌曲基本證據尚未完成。",
+    "resumeWhen": "取得同版本完整播出時段或正版單話長度的直接資料後，再核歌曲原名、演唱名義與用途。",
+    "checkedAt": "2026-10-31"
+  }
+],
+},
+    ],
+
+"metadataSources": [
+  {
+    "url": "https://shincho-yusha.jp/",
+    "label": "第一方播出資料：TVアニメ「慎重勇者」公式サイト",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
   },
+  {
+    "label": "AniList：作品識別與公開圖像",
+    "url": "https://anilist.co/anime/105156",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes：OP／ED 曲目交叉核對",
+    "url": "https://animethemes.moe/anime/shinchou_yuusha_kono_yuusha_ga_ore_tueee_kuse_ni_shinchou_sugiru",
+    "language": "en",
+    "role": "theme_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201910/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_autumn.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  }
+],
+},
   {
     anilistId: 107339,
     slug: "hataage-kemono-michi",
@@ -255,15 +1188,89 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
         sequence: 1,
         titleJa: "闘魂（ファイト）！ケモナーマスク",
         artistDisplayName: "NoB with ケモナーマスク（CV：小西克幸）",
-      },
+
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本版日本TV的完整常規播出時段或單話長度仍待核對，歌曲基本證據尚未完成。",
+    "resumeWhen": "取得同版本完整播出時段或正版單話長度的直接資料後，再核歌曲原名、演唱名義與用途。",
+    "checkedAt": "2026-10-31"
+  }
+],
+},
       {
         type: "ED",
         sequence: 1,
         titleJa: "アネクドット",
         artistDisplayName: "ももすももす",
-      },
+
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
     ],
+    "note": "本版日本TV的完整常規播出時段或單話長度仍待核對，歌曲基本證據尚未完成。",
+    "resumeWhen": "取得同版本完整播出時段或正版單話長度的直接資料後，再核歌曲原名、演唱名義與用途。",
+    "checkedAt": "2026-10-31"
+  }
+],
+},
+    ],
+
+"metadataSources": [
+  {
+    "label": "動畫官方網站：作品與播出資料",
+    "url": "https://hataage-kemonomichi.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
   },
+  {
+    "label": "AniList：作品識別與公開圖像",
+    "url": "https://anilist.co/anime/107339",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes：OP／ED 曲目交叉核對",
+    "url": "https://animethemes.moe/anime/hataage_kemono_michi",
+    "language": "en",
+    "role": "theme_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201910/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_autumn.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://hataage-kemonomichi.com/onair/",
+    "label": "第一方播出資料：TVアニメ「旗揚！けものみち」公式サイト",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+},
   {
     anilistId: 108040,
     slug: "radiant-2",
@@ -284,15 +1291,96 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
         sequence: 1,
         titleJa: "ナラク",
         artistDisplayName: "Halo at 四畳半",
-      },
+
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本版日本TV的完整常規播出時段或單話長度仍待核對，歌曲基本證據尚未完成。",
+    "resumeWhen": "取得同版本完整播出時段或正版單話長度的直接資料後，再核歌曲原名、演唱名義與用途。",
+    "checkedAt": "2026-10-31"
+  }
+],
+},
       {
         type: "ED",
         sequence: 1,
         titleJa: "ちっとも知らなかった",
         artistDisplayName: "NakamuraEmi",
-      },
+
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
     ],
+    "note": "本版日本TV的完整常規播出時段或單話長度仍待核對，歌曲基本證據尚未完成。",
+    "resumeWhen": "取得同版本完整播出時段或正版單話長度的直接資料後，再核歌曲原名、演唱名義與用途。",
+    "checkedAt": "2026-10-31"
+  }
+],
+},
+    ],
+
+"metadataSources": [
+  {
+    "label": "動畫官方網站：作品與播出資料",
+    "url": "https://anime-radiant.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
   },
+  {
+    "label": "AniList：作品識別與公開圖像",
+    "url": "https://anilist.co/anime/108040",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes：OP／ED 曲目交叉核對",
+    "url": "https://animethemes.moe/anime/radiant_2nd_season",
+    "language": "en",
+    "role": "theme_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201910/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_autumn.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://thetv.jp/program/0000957311/",
+    "label": "播出交叉資料：WEBザテレビジョン",
+    "role": "broadcast_cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://www.allcinema.net/cinema/367287",
+    "label": "播出交叉資料：allcinema",
+    "role": "broadcast_cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+},
   {
     anilistId: 110811,
     slug: "urashimasakatasen-no-nichijou",
@@ -337,16 +1425,90 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
         sequence: 1,
         titleJa: "Present Moment",
         artistDisplayName: "富田美憂",
-      },
+
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本版日本TV的完整常規播出時段或單話長度仍待核對，歌曲基本證據尚未完成。",
+    "resumeWhen": "取得同版本完整播出時段或正版單話長度的直接資料後，再核歌曲原名、演唱名義與用途。",
+    "checkedAt": "2026-10-31"
+  }
+],
+},
       {
         type: "ED",
         sequence: 1,
         titleJa: "On the Board",
         artistDisplayName:
           "武笠美姫（CV：宮下早紀）、高屋敷綾（CV：高野麻里佳）、大野翠（CV：富田美憂）",
-      },
+
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
     ],
+    "note": "本版日本TV的完整常規播出時段或單話長度仍待核對，歌曲基本證據尚未完成。",
+    "resumeWhen": "取得同版本完整播出時段或正版單話長度的直接資料後，再核歌曲原名、演唱名義與用途。",
+    "checkedAt": "2026-10-31"
+  }
+],
+},
+    ],
+
+"metadataSources": [
+  {
+    "label": "動畫官方網站：作品與播出資料",
+    "url": "https://saikoro-club.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
   },
+  {
+    "label": "AniList：作品識別與公開圖像",
+    "url": "https://anilist.co/anime/104115",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes：OP／ED 曲目交叉核對",
+    "url": "https://animethemes.moe/anime/houkago_saikoro_club",
+    "language": "en",
+    "role": "theme_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201910/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_autumn.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://www.saikoro-club.com/onair/index.html",
+    "label": "第一方播出資料：アニメ「放課後さいころ倶楽部」公式サイト",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+},
   {
     anilistId: 104159,
     slug: "azur-lane",
@@ -367,15 +1529,89 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
         sequence: 1,
         titleJa: "graphite/diamond",
         artistDisplayName: "May'n",
-      },
+
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本版日本TV的完整常規播出時段或單話長度仍待核對，歌曲基本證據尚未完成。",
+    "resumeWhen": "取得同版本完整播出時段或正版單話長度的直接資料後，再核歌曲原名、演唱名義與用途。",
+    "checkedAt": "2026-10-31"
+  }
+],
+},
       {
         type: "ED",
         sequence: 1,
         titleJa: "光の道標",
         artistDisplayName: "鹿乃",
-      },
+
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
     ],
+    "note": "本版日本TV的完整常規播出時段或單話長度仍待核對，歌曲基本證據尚未完成。",
+    "resumeWhen": "取得同版本完整播出時段或正版單話長度的直接資料後，再核歌曲原名、演唱名義與用途。",
+    "checkedAt": "2026-10-31"
+  }
+],
+},
+    ],
+
+"metadataSources": [
+  {
+    "label": "動畫官方網站：作品與播出資料",
+    "url": "https://azurlane-anime.jp/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
   },
+  {
+    "label": "AniList：作品識別與公開圖像",
+    "url": "https://anilist.co/anime/104159",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes：OP／ED 曲目交叉核對",
+    "url": "https://animethemes.moe/anime/azur_lane",
+    "language": "en",
+    "role": "theme_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201910/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_autumn.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://azurlane-anime.jp/news/news_20190914_01.html",
+    "label": "第一方播出資料：TVアニメーション「アズールレーン」公式サイト",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+},
   {
     anilistId: 104464,
     slug: "ore-wo-suki-nano-wa-omae-dake-ka-yo",
@@ -387,7 +1623,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
       "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104464-UdOCt3uyA2K9.png",
     bannerUrl:
       "https://s4.anilist.co/file/anilistcdn/media/anime/banner/104464-XbfWyamahIAu.jpg",
-    broadcastLabel: "日本首播／時間未整理",
+    broadcastLabel: "2019年10月2日編排水曜24:30起日本TV放送；2020年第12話再播單話30分鐘槽只作同版形式旁證，不作首播或歌曲啟用日。",
     officialSiteUrl: "https://ore.ski/tv/",
     animeThemesUrl:
       "https://animethemes.moe/anime/ore_wo_suki_nano_wa_omae_dake_ka_yo",
@@ -397,16 +1633,287 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
         sequence: 1,
         titleJa: "パパパ",
         artistDisplayName: "斉藤朱夏",
-      },
+
+"followUp": [
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "原TV歌曲基本資料已核對；逐曲使用季度仍待核對，既有季度入口保留。",
+    "resumeWhen": "取得同版本逐話用曲及播出日期的直接資料後，補充本曲確切使用季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://ore.ski/tv/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/ore_wo_suki_nano_wa_omae_dake_ka_yo",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://prtimes.jp/main/html/rd/p/000001845.000016356.html",
+    "label": "第一方曲目資料：株式会社アニプレックス",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://animemusicranking.com/ja/anime/52/",
+    "label": "歌曲交叉資料：アニソンチャート",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"credits": [
+  {
+    "name": "斉藤朱夏",
+    "role": "vocals"
+  },
+  {
+    "name": "ハヤシケイ",
+    "role": "lyrics"
+  },
+  {
+    "name": "ハヤシケイ",
+    "role": "composition"
+  },
+  {
+    "name": "堀江晶太",
+    "role": "arrangement"
+  }
+],
+"songId": "ore-wo-suki-nano-wa-omae-dake-ka-yo-op-1-song",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "ore-wo-suki-nano-wa-omae-dake-ka-yo-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://prtimes.jp/main/html/rd/p/000001845.000016356.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "ore-wo-suki-nano-wa-omae-dake-ka-yo-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://prtimes.jp/main/html/rd/p/000001845.000016356.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "ore-wo-suki-nano-wa-omae-dake-ka-yo-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://animemusicranking.com/ja/anime/52/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "ore-wo-suki-nano-wa-omae-dake-ka-yo-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://animemusicranking.com/ja/anime/52/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "credits",
+    "fields": [
+      "credits"
+    ],
+    "sourceUrls": [
+      "https://prtimes.jp/main/html/rd/p/000001845.000016356.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
+},
       {
         type: "ED",
         sequence: 1,
         titleJa: "ハナコトバ",
         artistDisplayName:
           "パンジー（CV：戸松遥）、ひまわり（CV：白石晴香）、コスモス（CV：三澤紗千香）",
-      },
+
+"followUp": [
+  {
+    "fields": [
+      "use_quarters"
     ],
+    "note": "原TV歌曲基本資料已核對；逐曲使用季度仍待核對，既有季度入口保留。",
+    "resumeWhen": "取得同版本逐話用曲及播出日期的直接資料後，補充本曲確切使用季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://ore.ski/tv/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
   },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/ore_wo_suki_nano_wa_omae_dake_ka_yo",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://prtimes.jp/main/html/rd/p/000001845.000016356.html",
+    "label": "第一方曲目資料：株式会社アニプレックス",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://animemusicranking.com/ja/anime/52/",
+    "label": "歌曲交叉資料：アニソンチャート",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"songId": "ore-wo-suki-nano-wa-omae-dake-ka-yo-ed-1-song",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "ore-wo-suki-nano-wa-omae-dake-ka-yo-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://prtimes.jp/main/html/rd/p/000001845.000016356.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "ore-wo-suki-nano-wa-omae-dake-ka-yo-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://prtimes.jp/main/html/rd/p/000001845.000016356.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "ore-wo-suki-nano-wa-omae-dake-ka-yo-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://animemusicranking.com/ja/anime/52/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "ore-wo-suki-nano-wa-omae-dake-ka-yo-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://animemusicranking.com/ja/anime/52/"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
+},
+    ],
+
+"metadataSources": [
+  {
+    "url": "https://ore.ski/tv/",
+    "label": "第一方播出資料：TVアニメ「俺を好きなのはお前だけかよ」公式サイト",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "AniList：作品識別與公開圖像",
+    "url": "https://anilist.co/anime/104464",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes：OP／ED 曲目交叉核對",
+    "url": "https://animethemes.moe/anime/ore_wo_suki_nano_wa_omae_dake_ka_yo",
+    "language": "en",
+    "role": "theme_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201910/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_autumn.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://ore.ski/onair/",
+    "label": "第一方播出資料：TVアニメ「俺を好きなのはお前だけかよ」公式サイト",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://prtimes.jp/main/html/rd/p/000001845.000016356.html",
+    "label": "第一方播出資料：株式会社アニプレックス",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+},
   {
     anilistId: 108268,
     slug: "honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen",
@@ -429,15 +1936,89 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
         sequence: 1,
         titleJa: "真っ白",
         artistDisplayName: "諸星すみれ",
-      },
+
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本版日本TV的完整常規播出時段或單話長度仍待核對，歌曲基本證據尚未完成。",
+    "resumeWhen": "取得同版本完整播出時段或正版單話長度的直接資料後，再核歌曲原名、演唱名義與用途。",
+    "checkedAt": "2026-10-31"
+  }
+],
+},
       {
         type: "ED",
         sequence: 1,
         titleJa: "髪飾りの天使",
         artistDisplayName: "中島愛",
-      },
+
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
     ],
+    "note": "本版日本TV的完整常規播出時段或單話長度仍待核對，歌曲基本證據尚未完成。",
+    "resumeWhen": "取得同版本完整播出時段或正版單話長度的直接資料後，再核歌曲原名、演唱名義與用途。",
+    "checkedAt": "2026-10-31"
+  }
+],
+},
+    ],
+
+"metadataSources": [
+  {
+    "label": "動畫官方網站：作品與播出資料",
+    "url": "https://booklove-anime.jp/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
   },
+  {
+    "label": "AniList：作品識別與公開圖像",
+    "url": "https://anilist.co/anime/108268",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes：OP／ED 曲目交叉核對",
+    "url": "https://animethemes.moe/anime/honzuki_no_gekokujou_shisho_ni_naru_tame_ni_wa_shudan_wo_erandeiraremasen",
+    "language": "en",
+    "role": "theme_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201910/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_autumn.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://zh.wikipedia.org/wiki/%E5%B0%8F%E6%9B%B8%E7%97%B4%E7%9A%84%E4%B8%8B%E5%89%8B%E4%B8%8A",
+    "label": "播出交叉資料：維基百科條目貢獻者",
+    "role": "broadcast_cross_check",
+    "language": "zh-Hant",
+    "verifiedAt": "2026-10-31"
+  }
+],
+},
   {
     anilistId: 108388,
     slug: "choujin-koukousei-tachi-wa-isekai-demo-yoyuu-de-ikinuku-you-desu",
@@ -460,13 +2041,35 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
         sequence: 1,
         titleJa: "はじめてのかくめい！",
         artistDisplayName: "DIALOGUE+",
-      },
+
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本版日本TV的完整常規播出時段或單話長度仍待核對，歌曲基本證據尚未完成。",
+    "resumeWhen": "取得同版本完整播出時段或正版單話長度的直接資料後，再核歌曲原名、演唱名義與用途。",
+    "checkedAt": "2026-10-31"
+  }
+],
+},
       {
         type: "ED",
         sequence: 1,
         titleJa: "dear my distance",
         artistDisplayName: "鬼頭明里",
-      },
+
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本版日本TV的完整常規播出時段或單話長度仍待核對，歌曲基本證據尚未完成。",
+    "resumeWhen": "取得同版本完整播出時段或正版單話長度的直接資料後，再核歌曲原名、演唱名義與用途。",
+    "checkedAt": "2026-10-31"
+  }
+],
+},
     ],
   },
   {
@@ -508,7 +2111,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
       "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109089-NTqWUW1w9dpb.jpg",
     bannerUrl:
       "https://s4.anilist.co/file/anilistcdn/media/anime/banner/109089-usL6o1ncaG2Q.jpg",
-    broadcastLabel: "日本首播／時間未整理",
+    broadcastLabel: "2019年10月4日起日本TV；MX星期五22:30–23:00完整30分鐘常規槽（非淨片長）；配信起點與矛盾AT-X欄另分。",
     officialSiteUrl: "https://chubyou.net/",
     animeThemesUrl: "https://animethemes.moe/anime/chuubyou_gekihatsu_boy",
     themes: [
@@ -517,15 +2120,371 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
         sequence: 1,
         titleJa: "厨病激発ボーイ",
         artistDisplayName: "皆神高校ヒーロー部",
-      },
+
+"followUp": [
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "原TV歌曲基本資料已核對；逐曲使用季度仍待核對，既有季度入口保留。",
+    "resumeWhen": "取得同版本逐話用曲及播出日期的直接資料後，補充本曲確切使用季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://chubyou.net/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/chuubyou_gekihatsu_boy",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://chubyou.net/music.html",
+    "label": "第一方曲目資料：TVアニメ「厨病激発ボーイ」公式サイト",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://www.animatetimes.com/news/details.php?id=1565873966",
+    "label": "歌曲交叉資料：アニメイトタイムズ",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://zh.wikipedia.org/wiki/%E5%BB%9A%E7%97%85%E6%BF%80%E7%99%BCBOY",
+    "label": "歌曲交叉資料：維基百科條目貢獻者",
+    "role": "cross_check",
+    "language": "zh-Hant",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"credits": [
+  {
+    "name": "皆神高校ヒーロー部",
+    "role": "vocals"
+  },
+  {
+    "name": "れるりり",
+    "role": "lyrics"
+  },
+  {
+    "name": "れるりり",
+    "role": "composition"
+  },
+  {
+    "name": "AstroNoteS",
+    "role": "arrangement"
+  }
+],
+"songId": "chuubyou-gekihatsu-boy-tv-op-1-song",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "chuubyou-gekihatsu-boy-tv-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://chubyou.net/music.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "chuubyou-gekihatsu-boy-tv-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://chubyou.net/music.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "chuubyou-gekihatsu-boy-tv-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.animatetimes.com/news/details.php?id=1565873966"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "chuubyou-gekihatsu-boy-tv-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.animatetimes.com/news/details.php?id=1565873966"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "credits",
+    "fields": [
+      "credits"
+    ],
+    "sourceUrls": [
+      "https://chubyou.net/music.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "credits",
+    "fields": [
+      "credits"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E5%BB%9A%E7%97%85%E6%BF%80%E7%99%BCBOY"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
+},
       {
         type: "ED",
         sequence: 1,
         titleJa: "Here comes The SUN",
         artistDisplayName: "仲村宗悟",
-      },
+
+"followUp": [
+  {
+    "fields": [
+      "use_quarters"
     ],
+    "note": "原TV歌曲基本資料已核對；逐曲使用季度仍待核對，既有季度入口保留。",
+    "resumeWhen": "取得同版本逐話用曲及播出日期的直接資料後，補充本曲確切使用季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://chubyou.net/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
   },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/chuubyou_gekihatsu_boy",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://chubyou.net/music.html",
+    "label": "第一方曲目資料：TVアニメ「厨病激発ボーイ」公式サイト",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://www.animatetimes.com/news/details.php?id=1565873966",
+    "label": "歌曲交叉資料：アニメイトタイムズ",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://zh.wikipedia.org/wiki/%E5%BB%9A%E7%97%85%E6%BF%80%E7%99%BCBOY",
+    "label": "歌曲交叉資料：維基百科條目貢獻者",
+    "role": "cross_check",
+    "language": "zh-Hant",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"credits": [
+  {
+    "name": "仲村宗悟",
+    "role": "vocals"
+  },
+  {
+    "name": "ChouCho",
+    "role": "lyrics"
+  },
+  {
+    "name": "ChouCho",
+    "role": "composition"
+  },
+  {
+    "name": "村山☆潤",
+    "role": "arrangement"
+  }
+],
+"songId": "chuubyou-gekihatsu-boy-tv-ed-1-song",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "chuubyou-gekihatsu-boy-tv-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://chubyou.net/music.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "chuubyou-gekihatsu-boy-tv-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://chubyou.net/music.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "chuubyou-gekihatsu-boy-tv-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.animatetimes.com/news/details.php?id=1565873966"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "chuubyou-gekihatsu-boy-tv-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.animatetimes.com/news/details.php?id=1565873966"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "chuubyou-gekihatsu-boy-tv-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E5%BB%9A%E7%97%85%E6%BF%80%E7%99%BCBOY"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "chuubyou-gekihatsu-boy-tv-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E5%BB%9A%E7%97%85%E6%BF%80%E7%99%BCBOY"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "credits",
+    "fields": [
+      "credits"
+    ],
+    "sourceUrls": [
+      "https://chubyou.net/music.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "credits",
+    "fields": [
+      "credits"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E5%BB%9A%E7%97%85%E6%BF%80%E7%99%BCBOY"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
+},
+    ],
+
+"metadataSources": [
+  {
+    "label": "動畫官方網站：作品與播出資料",
+    "url": "https://chubyou.net/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AniList：作品識別與公開圖像",
+    "url": "https://anilist.co/anime/109089",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes：OP／ED 曲目交叉核對",
+    "url": "https://animethemes.moe/anime/chuubyou_gekihatsu_boy",
+    "language": "en",
+    "role": "theme_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201910/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_autumn.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://www.deen.co.jp/news/20190906-2",
+    "label": "第一方播出資料：スタジオディーン",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://zh.wikipedia.org/wiki/%E5%BB%9A%E7%97%85%E6%BF%80%E7%99%BCBOY",
+    "label": "播出交叉資料：維基百科條目貢獻者",
+    "role": "broadcast_cross_check",
+    "language": "zh-Hant",
+    "verifiedAt": "2026-10-31"
+  }
+],
+},
   {
     anilistId: 110788,
     slug: "zoids-wild-zero",
