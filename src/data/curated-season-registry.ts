@@ -439,6 +439,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     titleJa: "2020年春アニメ",
     seeds: curated2020SpringSeeds,
     animeIds: [...curated2020SpringAnimeIds, 21, 112153, 235, 113472, 98515, 101168, 104462, 107420, 106625, 107651, 112748, 110354, 101239,
+104276,
 ]
   },
   {
@@ -449,6 +450,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     titleJa: "2020年冬アニメ",
     seeds: curated2020WinterSeeds,
     animeIds: [...curated2020WinterAnimeIds, 21, 112153, 235, 101239,
+103275, 107693, 101215, 108358, 108928, 104276,
 ]
   },
   {

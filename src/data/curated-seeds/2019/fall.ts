@@ -2571,7 +2571,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
       "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx103275-SN0wwshS3tWA.jpg",
     bannerUrl:
       "https://s4.anilist.co/file/anilistcdn/media/anime/banner/103275-9vSzr7YzbXQb.jpg",
-    broadcastLabel: "日本首播／時間未整理",
+    broadcastLabel: "2019年10月5日起日本TV播出；週六23:30–翌日00:00為30分鐘完整節目槽，非本體淨長；2020年1月續第2季度。",
     officialSiteUrl: "https://anime.fate-go.jp/ep7-tv/",
     animeThemesUrl:
       "https://animethemes.moe/anime/fategrand_order_zettai_majuu_sensen_babylonia",
@@ -2581,26 +2581,393 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
         sequence: 1,
         titleJa: "Phantom Joke",
         artistDisplayName: "UNISON SQUARE GARDEN",
+"followUp": [],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://anime.fate-go.jp/ep7-tv/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/fategrand_order_zettai_majuu_sensen_babylonia",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "unisonsgofficial 官方影片",
+    "url": "https://www.youtube.com/watch?v=HX0EahM6568",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://unison-s-g.com/15th/16thsingle/",
+    "label": "第一方曲目資料：UNISON SQUARE GARDEN公式サイト",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://anison.online/anime/1211",
+    "label": "歌曲交叉資料：アニソン・オンライン",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"seasonIds": [
+  "2019-fall",
+  "2020-winter"
+],
+"songId": "fate-grand-order-zettai-majuu-sensen-babylonia-op-1-song",
+"evidence": [
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://unison-s-g.com/15th/16thsingle/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-op-1-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://unison-s-g.com/15th/16thsingle/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-op-1"
+  },
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://anison.online/anime/1211"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-op-1-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://anison.online/anime/1211"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-op-1"
+  }
+],
       },
       {
         type: "ED",
         sequence: 1,
         titleJa: "星が降るユメ",
         artistDisplayName: "藍井エイル",
+"followUp": [
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "已核2019秋用途；原cour跨2020年界的最後用曲日期仍待逐話確認，不以cour標籤代實際季度。",
+    "resumeWhen": "取得同版本原話數用曲與日本播出日期的直接資料，確認跨年交界後再補用途季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://anime.fate-go.jp/ep7-tv/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/fategrand_order_zettai_majuu_sensen_babylonia",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "藍井エイル Official YouTube Channel 官方影片",
+    "url": "https://www.youtube.com/watch?v=LYWX6LXSv7c",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://www.sonymusic.co.jp/artist/aoieir/info/510405",
+    "label": "第一方曲目資料：ソニーミュージック：藍井エイル",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://anison.online/anime/1211",
+    "label": "歌曲交叉資料：アニソン・オンライン",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"seasonIds": [
+  "2019-fall"
+],
+"songId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-1-song",
+"evidence": [
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.sonymusic.co.jp/artist/aoieir/info/510405"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-1-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.sonymusic.co.jp/artist/aoieir/info/510405"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-1"
+  },
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://anison.online/anime/1211"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-1-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://anison.online/anime/1211"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-1"
+  }
+],
       },
       {
         type: "ED",
         sequence: 2,
         titleJa: "Prover",
         artistDisplayName: "milet",
+"followUp": [],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://anime.fate-go.jp/ep7-tv/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/fategrand_order_zettai_majuu_sensen_babylonia",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "milet Official YouTube Channel 官方影片",
+    "url": "https://www.youtube.com/watch?v=5qftJ2P3lrQ",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://www.sonymusic.co.jp/artist/milet_music/info/513977",
+    "label": "第一方曲目資料：ソニーミュージック：milet",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://anison.online/anime/1211",
+    "label": "歌曲交叉資料：アニソン・オンライン",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"seasonIds": [
+  "2020-winter"
+],
+"songId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-2-song",
+"evidence": [
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.sonymusic.co.jp/artist/milet_music/info/513977"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-2-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.sonymusic.co.jp/artist/milet_music/info/513977"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-2"
+  },
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://anison.online/anime/1211"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-2-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://anison.online/anime/1211"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-2"
+  }
+],
       },
       {
         type: "ED",
         sequence: 3,
         titleJa: "Tell me",
         artistDisplayName: "milet",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本曲第一方資料目前列為特別主題歌，原片尾曲用途仍待核對。",
+    "resumeWhen": "取得本版逐話片尾曲或明確片尾用途的第一方資料後補充。",
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "本曲使用季度仍待核對，暫不列入季度歌曲清單。",
+    "resumeWhen": "取得同版本明確用曲與日本播出日期的直接資料後補充使用季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"seasonIds": [],
       },
     ],
+"metadataSources": [
+  {
+    "label": "動畫官方網站：作品與播出資料",
+    "url": "https://anime.fate-go.jp/ep7-tv/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AniList：作品識別與公開圖像",
+    "url": "https://anilist.co/anime/103275",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes：OP／ED 曲目交叉核對",
+    "url": "https://animethemes.moe/anime/fategrand_order_zettai_majuu_sensen_babylonia",
+    "language": "en",
+    "role": "theme_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201910/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_autumn.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://unison-s-g.com/15th/16thsingle/",
+    "label": "第一方播出資料：UNISON SQUARE GARDEN公式サイト",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://mediag.bunka.go.jp/mediag_wp/wp-content/uploads/2020/04/38_jv4.pdf",
+    "label": "播出交叉資料：メディア芸術コンソーシアムJV事務局",
+    "role": "broadcast_cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"seasonIds": [
+  "2019-fall",
+  "2020-winter"
+],
   },
   {
     anilistId: 107346,
@@ -2643,7 +3010,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
       "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107693-A9bSSFAMxA6j.jpg",
     bannerUrl:
       "https://s4.anilist.co/file/anilistcdn/media/anime/banner/107693-h0syT88giDiw.jpg",
-    broadcastLabel: "日本首播／時間未整理",
+    broadcastLabel: "2019年第1系列，10月5日起NHK Eテレ週六17:35–18:00，25分鐘完整獨立節目槽，非本體淨長；跨2020年冬季播出。",
     officialSiteUrl: "https://www.nhk-character.com/chara/iruma/",
     animeThemesUrl: "https://animethemes.moe/anime/mairimashita_iruma_kun",
     themes: [
@@ -2652,20 +3019,369 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
         sequence: 1,
         titleJa: "Magical Babyrinth",
         artistDisplayName: "DA PUMP",
+"followUp": [
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "已核部分使用季度；本曲其餘季度仍待精確用曲資料核對。",
+    "resumeWhen": "取得同版本逐話用曲及播出日期的直接資料後，補充尚未核對的季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://www.nhk-character.com/chara/iruma/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/mairimashita_iruma_kun",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://dapump.jp/news/detail.php?id=1076201",
+    "label": "第一方曲目資料：DA PUMP OFFICIAL WEBSITE",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://mantan-web.jp/article/20190901dog00m200031000c.html",
+    "label": "歌曲交叉資料：MANTANWEB",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://zh.wikipedia.org/wiki/%E5%85%A5%E9%96%93%E5%90%8C%E5%AD%B8%E5%85%A5%E9%AD%94%E4%BA%86%EF%BC%81",
+    "label": "歌曲交叉資料：維基百科",
+    "role": "cross_check",
+    "language": "multi",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"seasonIds": [
+  "2019-fall"
+],
+"songId": "mairimashita-iruma-kun-op-1-song",
+"evidence": [
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://dapump.jp/news/detail.php?id=1076201"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "mairimashita-iruma-kun-op-1-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://dapump.jp/news/detail.php?id=1076201"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "mairimashita-iruma-kun-op-1"
+  },
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://mantan-web.jp/article/20190901dog00m200031000c.html"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "mairimashita-iruma-kun-op-1-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://mantan-web.jp/article/20190901dog00m200031000c.html"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "mairimashita-iruma-kun-op-1"
+  },
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E5%85%A5%E9%96%93%E5%90%8C%E5%AD%B8%E5%85%A5%E9%AD%94%E4%BA%86%EF%BC%81"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "mairimashita-iruma-kun-op-1-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E5%85%A5%E9%96%93%E5%90%8C%E5%AD%B8%E5%85%A5%E9%AD%94%E4%BA%86%EF%BC%81"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "mairimashita-iruma-kun-op-1"
+  }
+],
       },
       {
         type: "ED",
         sequence: 1,
         titleJa: "デビきゅー",
         artistDisplayName: "芹澤優",
+"followUp": [],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://www.nhk-character.com/chara/iruma/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/mairimashita_iruma_kun",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://avexnet.jp/contents/SERIK-XXXX-XXXX/discography/1017083",
+    "label": "第一方曲目資料：エイベックス・ポータル：芹澤優",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://mantan-web.jp/article/20190901dog00m200031000c.html",
+    "label": "歌曲交叉資料：MANTANWEB",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://zh.wikipedia.org/wiki/%E5%85%A5%E9%96%93%E5%90%8C%E5%AD%B8%E5%85%A5%E9%AD%94%E4%BA%86%EF%BC%81",
+    "label": "歌曲交叉資料：維基百科",
+    "role": "cross_check",
+    "language": "multi",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"seasonIds": [
+  "2019-fall",
+  "2020-winter"
+],
+"songId": "mairimashita-iruma-kun-ed-1-song",
+"evidence": [
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://avexnet.jp/contents/SERIK-XXXX-XXXX/discography/1017083"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "mairimashita-iruma-kun-ed-1-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://avexnet.jp/contents/SERIK-XXXX-XXXX/discography/1017083"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "mairimashita-iruma-kun-ed-1"
+  },
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://mantan-web.jp/article/20190901dog00m200031000c.html"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "mairimashita-iruma-kun-ed-1-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://mantan-web.jp/article/20190901dog00m200031000c.html"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "mairimashita-iruma-kun-ed-1"
+  },
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E5%85%A5%E9%96%93%E5%90%8C%E5%AD%B8%E5%85%A5%E9%AD%94%E4%BA%86%EF%BC%81"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "mairimashita-iruma-kun-ed-1-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E5%85%A5%E9%96%93%E5%90%8C%E5%AD%B8%E5%85%A5%E9%AD%94%E4%BA%86%EF%BC%81"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "mairimashita-iruma-kun-ed-1"
+  },
+  {
+    "target": "credits",
+    "fields": [
+      "credits"
+    ],
+    "sourceUrls": [
+      "https://avexnet.jp/contents/SERIK-XXXX-XXXX/discography/1017083"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
+"credits": [
+  {
+    "name": "芹澤優",
+    "role": "vocals"
+  },
+  {
+    "name": "os.nishi",
+    "role": "lyrics"
+  },
+  {
+    "name": "ak.homma",
+    "role": "composition"
+  },
+  {
+    "name": "MEG.ME",
+    "role": "arrangement"
+  }
+],
       },
       {
         type: "ED",
         sequence: 2,
         titleJa: "悪魔学校バビルス校歌",
         artistDisplayName: "悪魔学校バビルス 生徒の皆さん",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本曲第1期片尾曲用途及原文演唱名義仍待第一方直接資料核對。",
+    "resumeWhen": "取得第1期第23話或本版逐曲第一方資料，明示曲名、原文演唱名義及片尾用途後補充。",
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "本曲使用季度仍待核對，暫不列入季度歌曲清單。",
+    "resumeWhen": "取得同版本明確用曲與日本播出日期的直接資料後補充使用季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"seasonIds": [],
       },
     ],
+"metadataSources": [
+  {
+    "label": "動畫官方網站：作品與播出資料",
+    "url": "https://www.nhk-character.com/chara/iruma/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AniList：作品識別與公開圖像",
+    "url": "https://anilist.co/anime/107693",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes：OP／ED 曲目交叉核對",
+    "url": "https://animethemes.moe/anime/mairimashita_iruma_kun",
+    "language": "en",
+    "role": "theme_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201910/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_autumn.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://dapump.jp/news/detail.php?id=1076201",
+    "label": "第一方播出資料：DA PUMP OFFICIAL WEBSITE",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://mediag.bunka.go.jp/mediag_wp/wp-content/uploads/2020/04/38_jv4.pdf",
+    "label": "播出交叉資料：メディア芸術コンソーシアムJV事務局",
+    "role": "broadcast_cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"seasonIds": [
+  "2019-fall",
+  "2020-winter"
+],
   },
   {
     anilistId: 109321,
@@ -3104,7 +3820,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
     titleRomaji: "PHANTASY STAR ONLINE 2: EPISODE ORACLE",
     posterUrl:
       "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108358-9Y0qXz0o101z.png",
-    broadcastLabel: "日本首播／時間未整理",
+    broadcastLabel: "2019年日本TV原作，TOKYO MX週一22:30–23:00為完整30分常規槽，非淨長；跨2020年冬播出，特殊ED用途另待核。",
     officialSiteUrl: "https://pso2.jp/anime_eporacle/",
     animeThemesUrl:
       "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle",
@@ -3114,44 +3830,514 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
         sequence: 1,
         titleJa: "Destiny",
         artistDisplayName: "Aimee Blackschleger",
+"followUp": [
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "已核部分使用季度；本曲其餘季度仍待精確用曲資料核對。",
+    "resumeWhen": "取得同版本逐話用曲及播出日期的直接資料後，補充尚未核對的季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://pso2.jp/anime_eporacle/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://www.fwinc.co.jp/cd/53438/",
+    "label": "第一方曲目資料：フロンティアワークス",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://www.animatetimes.com/tag/details.php?id=3508",
+    "label": "歌曲交叉資料：アニメイトタイムズ",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"seasonIds": [
+  "2019-fall"
+],
+"songId": "phantasy-star-online-2-episode-oracle-op-1-song",
+"evidence": [
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.fwinc.co.jp/cd/53438/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "phantasy-star-online-2-episode-oracle-op-1-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.fwinc.co.jp/cd/53438/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "phantasy-star-online-2-episode-oracle-op-1"
+  },
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.animatetimes.com/tag/details.php?id=3508"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "phantasy-star-online-2-episode-oracle-op-1-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.animatetimes.com/tag/details.php?id=3508"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "phantasy-star-online-2-episode-oracle-op-1"
+  }
+],
       },
       {
         type: "OP",
         sequence: 2,
         titleJa: "UniVerse",
         artistDisplayName: "Aimee Blackschleger",
+"followUp": [],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://pso2.jp/anime_eporacle/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://www.fwinc.co.jp/cd/56118/",
+    "label": "第一方曲目資料：フロンティアワークス",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://www.animatetimes.com/tag/details.php?id=3508",
+    "label": "歌曲交叉資料：アニメイトタイムズ",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"seasonIds": [
+  "2020-winter"
+],
+"songId": "phantasy-star-online-2-episode-oracle-op-2-song",
+"evidence": [
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.fwinc.co.jp/cd/56118/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "phantasy-star-online-2-episode-oracle-op-2-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.fwinc.co.jp/cd/56118/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "phantasy-star-online-2-episode-oracle-op-2"
+  },
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.animatetimes.com/tag/details.php?id=3508"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "phantasy-star-online-2-episode-oracle-op-2-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.animatetimes.com/tag/details.php?id=3508"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "phantasy-star-online-2-episode-oracle-op-2"
+  }
+],
       },
       {
         type: "ED",
         sequence: 1,
         titleJa: "Timeless Fortune",
         artistDisplayName: "有坂美香",
+"followUp": [
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "已核部分使用季度；本曲其餘季度仍待精確用曲資料核對。",
+    "resumeWhen": "取得同版本逐話用曲及播出日期的直接資料後，補充尚未核對的季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://pso2.jp/anime_eporacle/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://www.fwinc.co.jp/cd/53438/",
+    "label": "第一方曲目資料：フロンティアワークス",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://www.animatetimes.com/tag/details.php?id=3508",
+    "label": "歌曲交叉資料：アニメイトタイムズ",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"seasonIds": [
+  "2019-fall"
+],
+"songId": "phantasy-star-online-2-episode-oracle-ed-1-song",
+"evidence": [
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.fwinc.co.jp/cd/53438/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "phantasy-star-online-2-episode-oracle-ed-1-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.fwinc.co.jp/cd/53438/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "phantasy-star-online-2-episode-oracle-ed-1"
+  },
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.animatetimes.com/tag/details.php?id=3508"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "phantasy-star-online-2-episode-oracle-ed-1-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.animatetimes.com/tag/details.php?id=3508"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "phantasy-star-online-2-episode-oracle-ed-1"
+  }
+],
       },
       {
         type: "ED",
         sequence: 2,
         titleJa: "永遠のencore",
         artistDisplayName: "クーナ（CV：喜多村英梨）",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本曲有歌曲或交叉資料，原動畫片尾曲用途仍待第一方直接資料核對。",
+    "resumeWhen": "取得本版逐話或逐曲第一方資料，明示曲名、演唱名義及片尾用途後補充。",
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "本曲使用季度仍待核對，暫不列入季度歌曲清單。",
+    "resumeWhen": "取得同版本明確用曲與日本播出日期的直接資料後補充使用季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"seasonIds": [],
       },
       {
         type: "ED",
         sequence: 3,
         titleJa: "それいゆ -Dear Destiny-",
         artistDisplayName: "桃井はるこ",
+"followUp": [],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://pso2.jp/anime_eporacle/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://www.fwinc.co.jp/cd/56118/",
+    "label": "第一方曲目資料：フロンティアワークス",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://www.animatetimes.com/tag/details.php?id=3508",
+    "label": "歌曲交叉資料：アニメイトタイムズ",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"seasonIds": [
+  "2020-winter"
+],
+"songId": "phantasy-star-online-2-episode-oracle-ed-3-song",
+"evidence": [
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.fwinc.co.jp/cd/56118/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "phantasy-star-online-2-episode-oracle-ed-3-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.fwinc.co.jp/cd/56118/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "phantasy-star-online-2-episode-oracle-ed-3"
+  },
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.animatetimes.com/tag/details.php?id=3508"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "phantasy-star-online-2-episode-oracle-ed-3-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.animatetimes.com/tag/details.php?id=3508"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "phantasy-star-online-2-episode-oracle-ed-3"
+  }
+],
       },
       {
         type: "ED",
         sequence: 4,
         titleJa: "Living on like stars",
         artistDisplayName: "有坂美香",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本曲有歌曲或交叉資料，原動畫片尾曲用途仍待第一方直接資料核對。",
+    "resumeWhen": "取得本版逐話或逐曲第一方資料，明示曲名、演唱名義及片尾用途後補充。",
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "本曲使用季度仍待核對，暫不列入季度歌曲清單。",
+    "resumeWhen": "取得同版本明確用曲與日本播出日期的直接資料後補充使用季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"seasonIds": [],
       },
       {
         type: "ED",
         sequence: 5,
         titleJa: "Hello",
         artistDisplayName: "Monique Dehaney",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本曲有歌曲或交叉資料，原動畫片尾曲用途仍待第一方直接資料核對。",
+    "resumeWhen": "取得本版逐話或逐曲第一方資料，明示曲名、演唱名義及片尾用途後補充。",
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "本曲使用季度仍待核對，暫不列入季度歌曲清單。",
+    "resumeWhen": "取得同版本明確用曲與日本播出日期的直接資料後補充使用季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"seasonIds": [],
       },
     ],
+"metadataSources": [
+  {
+    "url": "https://pso2.jp/anime_eporacle/",
+    "label": "第一方播出資料：SEGA：エピソード・オラクル公式サイト",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "AniList：作品識別與公開圖像",
+    "url": "https://anilist.co/anime/108358",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes：OP／ED 曲目交叉核對",
+    "url": "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle",
+    "language": "en",
+    "role": "theme_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201910/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_autumn.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://mediag.bunka.go.jp/mediag_wp/wp-content/uploads/2020/04/38_jv4.pdf",
+    "label": "播出交叉資料：メディア芸術コンソーシアムJV事務局",
+    "role": "broadcast_cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"seasonIds": [
+  "2019-fall",
+  "2020-winter"
+],
   },
   {
     anilistId: 109562,
@@ -3312,7 +4498,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
       "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108928-DuyUzi0JyPIr.jpg",
     bannerUrl:
       "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108928-QzElQ1VVSFoC.jpg",
-    broadcastLabel: "日本首播／時間未整理",
+    broadcastLabel: "2019年10月9日起日本TV原期，週三17:55–18:25為完整30分常規槽，非淨長；2020年冬第2季度換OP／ED，BS深夜編排需翌日換算。",
     officialSiteUrl: "https://www.7-taizai.net/",
     animeThemesUrl:
       "https://animethemes.moe/anime/nanatsu_no_taizai_kamigami_no_gekirin",
@@ -3322,26 +4508,541 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
         sequence: 1,
         titleJa: "ROB THE FRONTIER",
         artistDisplayName: "UVERworld",
+"followUp": [
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "已核2019秋用途；原cour跨2020年界的最後用曲日期仍待逐話確認，不以cour標籤代實際季度。",
+    "resumeWhen": "取得同版本原話數用曲與日本播出日期的直接資料，確認跨年交界後再補用途季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《七大罪 眾神的逆鱗》第一方歌曲資料：OP／ED 用途與演唱者",
+    "url": "https://3rd.7-taizai.net/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/nanatsu_no_taizai_kamigami_no_gekirin",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://www.7-taizai.net/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://www.sonymusic.co.jp/artist/UVERworld/info/509771",
+    "label": "第一方曲目資料：ソニーミュージック：UVERworld",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201912/25584_201912181755.html",
+    "label": "第一方曲目資料：テレビ東京",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://anime-song-info.com/7-taizai-3rd-2cool-op-ed-202001-winter/",
+    "label": "歌曲交叉資料：アニしま",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"seasonIds": [
+  "2019-fall"
+],
+"songId": "nanatsu-no-taizai-kamigami-no-gekirin-op-1-song",
+"evidence": [
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.sonymusic.co.jp/artist/UVERworld/info/509771"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "nanatsu-no-taizai-kamigami-no-gekirin-op-1-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.sonymusic.co.jp/artist/UVERworld/info/509771"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "nanatsu-no-taizai-kamigami-no-gekirin-op-1"
+  },
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201912/25584_201912181755.html"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "nanatsu-no-taizai-kamigami-no-gekirin-op-1-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201912/25584_201912181755.html"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "nanatsu-no-taizai-kamigami-no-gekirin-op-1"
+  },
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://anime-song-info.com/7-taizai-3rd-2cool-op-ed-202001-winter/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "nanatsu-no-taizai-kamigami-no-gekirin-op-1-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://anime-song-info.com/7-taizai-3rd-2cool-op-ed-202001-winter/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "nanatsu-no-taizai-kamigami-no-gekirin-op-1"
+  }
+],
       },
       {
         type: "OP",
         sequence: 2,
         titleJa: "delete",
         artistDisplayName: "シド",
+"followUp": [],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《七大罪 眾神的逆鱗》第一方歌曲資料：OP／ED 用途與演唱者",
+    "url": "https://3rd.7-taizai.net/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/nanatsu_no_taizai_kamigami_no_gekirin",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://www.7-taizai.net/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://www.tv-tokyo.co.jp/broad_bstvtokyo/program/detail/202001/25584_202001152459.html",
+    "label": "第一方曲目資料：テレビ東京／BSテレ東",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://anime-song-info.com/7-taizai-3rd-2cool-op-ed-202001-winter/",
+    "label": "歌曲交叉資料：アニしま",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"seasonIds": [
+  "2020-winter"
+],
+"songId": "nanatsu-no-taizai-kamigami-no-gekirin-op-2-song",
+"evidence": [
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.tv-tokyo.co.jp/broad_bstvtokyo/program/detail/202001/25584_202001152459.html"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "nanatsu-no-taizai-kamigami-no-gekirin-op-2-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.tv-tokyo.co.jp/broad_bstvtokyo/program/detail/202001/25584_202001152459.html"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "nanatsu-no-taizai-kamigami-no-gekirin-op-2"
+  },
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://anime-song-info.com/7-taizai-3rd-2cool-op-ed-202001-winter/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "nanatsu-no-taizai-kamigami-no-gekirin-op-2-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://anime-song-info.com/7-taizai-3rd-2cool-op-ed-202001-winter/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "nanatsu-no-taizai-kamigami-no-gekirin-op-2"
+  }
+],
       },
       {
         type: "ED",
         sequence: 1,
         titleJa: "Regeneration",
         artistDisplayName: "雨宮天",
+"followUp": [
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "已核2019秋用途；原cour跨2020年界的最後用曲日期仍待逐話確認，不以cour標籤代實際季度。",
+    "resumeWhen": "取得同版本原話數用曲與日本播出日期的直接資料，確認跨年交界後再補用途季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《七大罪 眾神的逆鱗》第一方歌曲資料：OP／ED 用途與演唱者",
+    "url": "https://3rd.7-taizai.net/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/nanatsu_no_taizai_kamigami_no_gekirin",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://www.7-taizai.net/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201912/25584_201912181755.html",
+    "label": "第一方曲目資料：テレビ東京",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://anime-song-info.com/7-taizai-3rd-2cool-op-ed-202001-winter/",
+    "label": "歌曲交叉資料：アニしま",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"seasonIds": [
+  "2019-fall"
+],
+"songId": "nanatsu-no-taizai-kamigami-no-gekirin-ed-1-song",
+"evidence": [
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201912/25584_201912181755.html"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "nanatsu-no-taizai-kamigami-no-gekirin-ed-1-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201912/25584_201912181755.html"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "nanatsu-no-taizai-kamigami-no-gekirin-ed-1"
+  },
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://anime-song-info.com/7-taizai-3rd-2cool-op-ed-202001-winter/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "nanatsu-no-taizai-kamigami-no-gekirin-ed-1-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://anime-song-info.com/7-taizai-3rd-2cool-op-ed-202001-winter/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "nanatsu-no-taizai-kamigami-no-gekirin-ed-1"
+  }
+],
       },
       {
         type: "ED",
         sequence: 2,
         titleJa: "Good day",
         artistDisplayName: "足立佳奈",
+"followUp": [],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《七大罪 眾神的逆鱗》第一方歌曲資料：OP／ED 用途與演唱者",
+    "url": "https://3rd.7-taizai.net/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/nanatsu_no_taizai_kamigami_no_gekirin",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://www.7-taizai.net/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://www.sonymusic.co.jp/artist/adachikana/info/513299",
+    "label": "第一方曲目資料：ソニーミュージック：足立佳奈",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://www.tv-tokyo.co.jp/broad_bstvtokyo/program/detail/202001/25584_202001152459.html",
+    "label": "第一方曲目資料：テレビ東京／BSテレ東",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://anime-song-info.com/7-taizai-3rd-2cool-op-ed-202001-winter/",
+    "label": "歌曲交叉資料：アニしま",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"seasonIds": [
+  "2020-winter"
+],
+"songId": "nanatsu-no-taizai-kamigami-no-gekirin-ed-2-song",
+"evidence": [
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.sonymusic.co.jp/artist/adachikana/info/513299"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "nanatsu-no-taizai-kamigami-no-gekirin-ed-2-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.sonymusic.co.jp/artist/adachikana/info/513299"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "nanatsu-no-taizai-kamigami-no-gekirin-ed-2"
+  },
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.tv-tokyo.co.jp/broad_bstvtokyo/program/detail/202001/25584_202001152459.html"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "nanatsu-no-taizai-kamigami-no-gekirin-ed-2-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.tv-tokyo.co.jp/broad_bstvtokyo/program/detail/202001/25584_202001152459.html"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "nanatsu-no-taizai-kamigami-no-gekirin-ed-2"
+  },
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://anime-song-info.com/7-taizai-3rd-2cool-op-ed-202001-winter/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "nanatsu-no-taizai-kamigami-no-gekirin-ed-2-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://anime-song-info.com/7-taizai-3rd-2cool-op-ed-202001-winter/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "nanatsu-no-taizai-kamigami-no-gekirin-ed-2"
+  }
+],
       },
     ],
+"metadataSources": [
+  {
+    "label": "動畫官方網站：作品與播出資料",
+    "url": "https://www.7-taizai.net/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AniList：作品識別與公開圖像",
+    "url": "https://anilist.co/anime/108928",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes：OP／ED 曲目交叉核對",
+    "url": "https://animethemes.moe/anime/nanatsu_no_taizai_kamigami_no_gekirin",
+    "language": "en",
+    "role": "theme_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201910/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_autumn.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://www.deen.co.jp/news/20191008",
+    "label": "第一方播出資料：スタジオディーン",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201912/25584_201912181755.html",
+    "label": "第一方播出資料：テレビ東京",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://www.tv-tokyo.co.jp/broad_bstvtokyo/program/detail/202001/25584_202001152459.html",
+    "label": "第一方播出資料：テレビ東京／BSテレ東",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"seasonIds": [
+  "2019-fall",
+  "2020-winter"
+],
   },
   {
     anilistId: 177229,
@@ -3551,7 +5252,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
       "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx103638-eXZ6Ux4cqmlF.jpg",
     bannerUrl:
       "https://s4.anilist.co/file/anilistcdn/media/anime/banner/103638-gvJpnTloKSPu.jpg",
-    broadcastLabel: "日本首播／時間未整理",
+    broadcastLabel: "2019年日本TV原版，10月11日編排深夜起；首回TBS/MBS延後15分鐘另列。完整常規槽／正版本體分鐘仍待直接證據，非以先行WEB或OVA代替。",
     officialSiteUrl: "https://pipecat-kabukicho.jp/",
     animeThemesUrl: "https://animethemes.moe/anime/kabukichou_sherlock",
     themes: [
@@ -3560,20 +5261,111 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
         sequence: 1,
         titleJa: "CAPTURE",
         artistDisplayName: "EGO-WRAPPIN'",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本版日本TV的完整常規播出時段或單話長度仍待核對，歌曲基本證據尚未完成。",
+    "resumeWhen": "取得同版本完整播出時段或正版單話長度的直接資料後，再核歌曲原名、演唱名義與用途。",
+    "checkedAt": "2026-10-31"
+  }
+],
       },
       {
         type: "ED",
         sequence: 1,
         titleJa: "百億光年",
         artistDisplayName: "ロザリーナ",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本版日本TV的完整常規播出時段或單話長度仍待核對，歌曲基本證據尚未完成。",
+    "resumeWhen": "取得同版本完整播出時段或正版單話長度的直接資料後，再核歌曲原名、演唱名義與用途。",
+    "checkedAt": "2026-10-31"
+  }
+],
       },
       {
         type: "ED",
         sequence: 2,
         titleJa: "パレード",
         artistDisplayName: "石崎ひゅーい",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本版日本TV的完整常規播出時段或單話長度仍待核對，歌曲基本證據尚未完成。",
+    "resumeWhen": "取得同版本完整播出時段或正版單話長度的直接資料後，再核歌曲原名、演唱名義與用途。",
+    "checkedAt": "2026-10-31"
+  }
+],
       },
     ],
+"metadataSources": [
+  {
+    "label": "動畫官方網站：作品與播出資料",
+    "url": "https://pipecat-kabukicho.jp/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AniList：作品識別與公開圖像",
+    "url": "https://anilist.co/anime/103638",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes：OP／ED 曲目交叉核對",
+    "url": "https://animethemes.moe/anime/kabukichou_sherlock",
+    "language": "en",
+    "role": "theme_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201910/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_autumn.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://pipecat-kabukicho.jp/news.html?id=n083",
+    "label": "第一方播出資料：TVアニメ「歌舞伎町シャーロック」公式サイト",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://zh.wikipedia.org/wiki/%E6%AD%8C%E8%88%9E%E4%BC%8E%E7%94%BA%E5%A4%8F%E6%B4%9B%E5%85%8B",
+    "label": "播出交叉資料：維基百科條目貢獻者",
+    "role": "broadcast_cross_check",
+    "language": "zh-Hant",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"seasonIds": [
+  "2019-fall"
+],
   },
   {
     anilistId: 104276,
@@ -3586,7 +5378,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
       "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104276-SnEowMvesWIE.png",
     bannerUrl:
       "https://s4.anilist.co/file/anilistcdn/media/anime/banner/104276-PQO1pcNzzWT0.jpg",
-    broadcastLabel: "日本首播／時間未整理",
+    broadcastLabel: "2019年第4期日本TV，10月12日起星期六17:30–18:00完整30分鐘常規槽；初回颱風僅5局休止／10月19日補播另列，槽非淨片長。",
     officialSiteUrl: "https://heroaca.com/",
     animeThemesUrl:
       "https://animethemes.moe/anime/boku_no_hero_academia_4th_season",
@@ -3596,26 +5388,581 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
         sequence: 1,
         titleJa: "ポラリス",
         artistDisplayName: "BLUE ENCOUNT",
+"followUp": [],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://heroaca.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/boku_no_hero_academia_4th_season",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "TOHO animation 官方影片",
+    "url": "https://www.youtube.com/watch?v=VtNgeDxYJzE",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://heroaca.com/news/6770/",
+    "label": "第一方曲目資料：TVアニメ「僕のヒーローアカデミア」公式サイト",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://heroaca.com/special/oped-oneforall/",
+    "label": "第一方曲目資料：TVアニメ「僕のヒーローアカデミア」公式サイト",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://www.lisani.jp/0000238136/",
+    "label": "歌曲交叉資料：リスアニ！",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"seasonIds": [
+  "2019-fall",
+  "2020-winter"
+],
+"songId": "boku-no-hero-academia-4-op-1-song",
+"evidence": [
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://heroaca.com/news/6770/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "boku-no-hero-academia-4-op-1-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://heroaca.com/news/6770/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "boku-no-hero-academia-4-op-1"
+  },
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://heroaca.com/special/oped-oneforall/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "boku-no-hero-academia-4-op-1-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://heroaca.com/special/oped-oneforall/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "boku-no-hero-academia-4-op-1"
+  },
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.lisani.jp/0000238136/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "boku-no-hero-academia-4-op-1-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.lisani.jp/0000238136/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "boku-no-hero-academia-4-op-1"
+  }
+],
       },
       {
         type: "OP",
         sequence: 2,
         titleJa: "スターマーカー",
         artistDisplayName: "KANA-BOON",
+"followUp": [],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://heroaca.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/boku_no_hero_academia_4th_season",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "KANA-BOON Official YouTube Channel 官方影片",
+    "url": "https://www.youtube.com/watch?v=vk0iPWFxQ9w",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://heroaca.com/news/6899/",
+    "label": "第一方曲目資料：TVアニメ「僕のヒーローアカデミア」公式サイト",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://heroaca.com/special/oped-oneforall/",
+    "label": "第一方曲目資料：TVアニメ「僕のヒーローアカデミア」公式サイト",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://www.lisani.jp/0000238136/",
+    "label": "歌曲交叉資料：リスアニ！",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"seasonIds": [
+  "2020-winter",
+  "2020-spring"
+],
+"songId": "boku-no-hero-academia-4-op-2-song",
+"evidence": [
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://heroaca.com/news/6899/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "boku-no-hero-academia-4-op-2-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://heroaca.com/news/6899/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "boku-no-hero-academia-4-op-2"
+  },
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://heroaca.com/special/oped-oneforall/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "boku-no-hero-academia-4-op-2-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://heroaca.com/special/oped-oneforall/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "boku-no-hero-academia-4-op-2"
+  },
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.lisani.jp/0000238136/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "boku-no-hero-academia-4-op-2-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.lisani.jp/0000238136/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "boku-no-hero-academia-4-op-2"
+  }
+],
       },
       {
         type: "ED",
         sequence: 1,
         titleJa: "航海の唄",
         artistDisplayName: "さユり",
+"followUp": [],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://heroaca.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/boku_no_hero_academia_4th_season",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://heroaca.com/news/6770/",
+    "label": "第一方曲目資料：TVアニメ「僕のヒーローアカデミア」公式サイト",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://heroaca.com/special/oped-oneforall/",
+    "label": "第一方曲目資料：TVアニメ「僕のヒーローアカデミア」公式サイト",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://www.lisani.jp/0000238136/",
+    "label": "歌曲交叉資料：リスアニ！",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"seasonIds": [
+  "2019-fall",
+  "2020-winter"
+],
+"songId": "boku-no-hero-academia-4-ed-1-song",
+"evidence": [
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://heroaca.com/news/6770/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "boku-no-hero-academia-4-ed-1-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://heroaca.com/news/6770/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "boku-no-hero-academia-4-ed-1"
+  },
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://heroaca.com/special/oped-oneforall/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "boku-no-hero-academia-4-ed-1-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://heroaca.com/special/oped-oneforall/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "boku-no-hero-academia-4-ed-1"
+  },
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.lisani.jp/0000238136/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "boku-no-hero-academia-4-ed-1-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.lisani.jp/0000238136/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "boku-no-hero-academia-4-ed-1"
+  }
+],
       },
       {
         type: "ED",
         sequence: 2,
         titleJa: "Shout Baby",
         artistDisplayName: "緑黄色社会",
+"followUp": [],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://heroaca.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/boku_no_hero_academia_4th_season",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "緑黄色社会 官方影片",
+    "url": "https://www.youtube.com/watch?v=Ww8oxgqDQSs",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://heroaca.com/news/6899/",
+    "label": "第一方曲目資料：TVアニメ「僕のヒーローアカデミア」公式サイト",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://heroaca.com/special/oped-oneforall/",
+    "label": "第一方曲目資料：TVアニメ「僕のヒーローアカデミア」公式サイト",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://www.lisani.jp/0000238136/",
+    "label": "歌曲交叉資料：リスアニ！",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"seasonIds": [
+  "2020-winter",
+  "2020-spring"
+],
+"songId": "boku-no-hero-academia-4-ed-2-song",
+"evidence": [
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://heroaca.com/news/6899/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "boku-no-hero-academia-4-ed-2-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://heroaca.com/news/6899/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "boku-no-hero-academia-4-ed-2"
+  },
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://heroaca.com/special/oped-oneforall/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "boku-no-hero-academia-4-ed-2-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://heroaca.com/special/oped-oneforall/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "boku-no-hero-academia-4-ed-2"
+  },
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.lisani.jp/0000238136/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "boku-no-hero-academia-4-ed-2-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.lisani.jp/0000238136/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "boku-no-hero-academia-4-ed-2"
+  }
+],
       },
     ],
+"metadataSources": [
+  {
+    "label": "動畫官方網站：作品與播出資料",
+    "url": "https://heroaca.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AniList：作品識別與公開圖像",
+    "url": "https://anilist.co/anime/104276",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes：OP／ED 曲目交叉核對",
+    "url": "https://animethemes.moe/anime/boku_no_hero_academia_4th_season",
+    "language": "en",
+    "role": "theme_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201910/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_autumn.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://heroaca.com/news/6770/",
+    "label": "第一方播出資料：TVアニメ「僕のヒーローアカデミア」公式サイト",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://zh.wikipedia.org/wiki/%E6%88%91%E7%9A%84%E8%8B%B1%E9%9B%84%E5%AD%B8%E9%99%A2_(%E5%8B%95%E7%95%AB)",
+    "label": "播出交叉資料：維基百科條目貢獻者",
+    "role": "broadcast_cross_check",
+    "language": "zh-Hant",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://www.heroaca.com/news/6738/",
+    "label": "第一方播出資料：TVアニメ「僕のヒーローアカデミア」公式サイト",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"seasonIds": [
+  "2019-fall",
+  "2020-winter",
+  "2020-spring"
+],
   },
   {
     anilistId: 107666,
@@ -3789,7 +6136,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
       "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101215-8TTRNAYJnPMW.png",
     bannerUrl:
       "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101215-14xKRtRqw7qr.jpg",
-    broadcastLabel: "日本首播／時間未整理",
+    broadcastLabel: "2019年第3期，10月22日火曜深夜編排起連續兩季度；每週三01:29–01:59為30分鐘完整節目槽，非淨長，首回實際延時未核。",
     officialSiteUrl: "https://www.ntv.co.jp/chihayafuru/",
     animeThemesUrl: "https://animethemes.moe/anime/chihayafuru_3",
     themes: [
@@ -3798,14 +6145,301 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
         sequence: 1,
         titleJa: "COLORFUL",
         artistDisplayName: "99RadioService",
+"followUp": [],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://www.ntv.co.jp/chihayafuru/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/chihayafuru_3",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://www.ntv.co.jp/chihayafuru/cast/",
+    "label": "第一方曲目資料：日本テレビ：ちはやふる３",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://animemusicranking.com/ja/anime/76/",
+    "label": "歌曲交叉資料：アニソンチャート",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://www.ntv.co.jp/chihayafuru/special/report/02/",
+    "label": "第一方曲目資料：日本テレビ：ちはやふる３",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"seasonIds": [
+  "2019-fall",
+  "2020-winter"
+],
+"songId": "chihayafuru-3-op-1-song",
+"evidence": [
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.ntv.co.jp/chihayafuru/cast/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "chihayafuru-3-op-1-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.ntv.co.jp/chihayafuru/cast/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "chihayafuru-3-op-1"
+  },
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://animemusicranking.com/ja/anime/76/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "chihayafuru-3-op-1-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://animemusicranking.com/ja/anime/76/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "chihayafuru-3-op-1"
+  },
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.ntv.co.jp/chihayafuru/special/report/02/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "chihayafuru-3-op-1-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.ntv.co.jp/chihayafuru/special/report/02/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "chihayafuru-3-op-1"
+  }
+],
       },
       {
         type: "ED",
         sequence: 1,
         titleJa: "一目惚れ",
         artistDisplayName: "バンドハラスメント",
+"followUp": [],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://www.ntv.co.jp/chihayafuru/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/chihayafuru_3",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://www.ntv.co.jp/chihayafuru/cast/",
+    "label": "第一方曲目資料：日本テレビ：ちはやふる３",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://animemusicranking.com/ja/anime/76/",
+    "label": "歌曲交叉資料：アニソンチャート",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://www.ntv.co.jp/chihayafuru/special/report/02/",
+    "label": "第一方曲目資料：日本テレビ：ちはやふる３",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"seasonIds": [
+  "2019-fall",
+  "2020-winter"
+],
+"songId": "chihayafuru-3-ed-1-song",
+"evidence": [
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.ntv.co.jp/chihayafuru/cast/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "chihayafuru-3-ed-1-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.ntv.co.jp/chihayafuru/cast/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "chihayafuru-3-ed-1"
+  },
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://animemusicranking.com/ja/anime/76/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "chihayafuru-3-ed-1-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://animemusicranking.com/ja/anime/76/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "chihayafuru-3-ed-1"
+  },
+  {
+    "target": "song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.ntv.co.jp/chihayafuru/special/report/02/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "chihayafuru-3-ed-1-song"
+  },
+  {
+    "target": "anime_use",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.ntv.co.jp/chihayafuru/special/report/02/"
+    ],
+    "verifiedAt": "2026-10-31",
+    "targetId": "chihayafuru-3-ed-1"
+  }
+],
       },
     ],
+"metadataSources": [
+  {
+    "url": "https://www.ntv.co.jp/chihayafuru/",
+    "label": "第一方播出資料：日本テレビ：ちはやふる３",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "AniList：作品識別與公開圖像",
+    "url": "https://anilist.co/anime/101215",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes：OP／ED 曲目交叉核對",
+    "url": "https://animethemes.moe/anime/chihayafuru_3",
+    "language": "en",
+    "role": "theme_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201910/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_autumn.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://www.animatetimes.com/news/details.php?id=1578369455",
+    "label": "播出交叉資料：アニメイトタイムズ",
+    "role": "broadcast_cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"seasonIds": [
+  "2019-fall",
+  "2020-winter"
+],
   },
   {
     anilistId: 108307,
