@@ -509,36 +509,293 @@ const excludedSourceUrls = new Set([
 
 const extraThemes: Record<number, CuratedThemeSeed[]> = {
   178005: [
-    {
-      type: "ED",
-      sequence: 2,
-      titleJa: "RAIN",
-      artistDisplayName: "F/ACE",
-      youtubeUrl: "https://www.youtube.com/watch?v=d4euM3A77Xw"
-    }
-  ],
+  {
+    "type": "ED",
+    "sequence": 2,
+    "titleJa": "RAIN",
+    "artistDisplayName": "F/ACE",
+    "youtubeUrl": "https://www.youtube.com/watch?v=d4euM3A77Xw",
+    "songId": "tamon-kun-ima-docchi-ed-2-song",
+    "sourceMode": "explicit",
+    "sources": [
+      {
+        "label": "動畫官方公告：第 5 話特別片尾曲與數位發行日",
+        "url": "https://www.tamon-anime.com/news/",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-10-30"
+      },
+      {
+        "label": "動畫官方影片頁：第 5 話片尾曲與第 12 話劇中歌分類",
+        "url": "https://tamon-anime.com/movie/",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-08-11"
+      },
+      {
+        "label": "アニメ「多聞くん今どっち!?」公式 官方影片",
+        "url": "https://www.youtube.com/watch?v=d4euM3A77Xw",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-08-11"
+      },
+      {
+        "label": "Apple Music 台灣",
+        "url": "https://music.apple.com/tw/song/1869010808",
+        "language": "zh-Hant",
+        "role": "first_party",
+        "verifiedAt": "2026-08-11"
+      },
+      {
+        "label": "LiTV：繁體中文第 5 話授權頁與片尾曲交叉核對",
+        "url": "https://www.litv.tv/comic/watch/VOD00388107",
+        "language": "zh-Hant",
+        "role": "cross_check",
+        "verifiedAt": "2026-08-11"
+      },
+      {
+        "label": "UtaTen：作詞、作曲與編曲 credit 交叉核對",
+        "url": "https://utaten.com/lyric/mi26012903/",
+        "language": "ja",
+        "role": "cross_check",
+        "verifiedAt": "2026-08-11"
+      },
+      {
+        "label": "F/ACE from the stage - Topic 官方影片",
+        "url": "https://www.youtube.com/watch?v=rwC4f83gnNA",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-08-11"
+      },
+      {
+        "label": "官方跨平台數位發行頁",
+        "url": "https://tamon-animate.lnk.to/RAIN",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-08-11"
+      },
+      {
+        "label": "動畫官方網站",
+        "url": "https://tamon-anime.com/",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-08-11"
+      },
+      {
+        "label": "AnimeThemes",
+        "url": "https://animethemes.moe/anime/tamonkun_ima_docchi",
+        "language": "en",
+        "role": "cross_check",
+        "verifiedAt": "2026-08-11"
+      },
+      {
+        "label": "UZUREA 主題曲清單",
+        "url": "https://uzurea.net/winter-2026-anime-theme-songs/",
+        "language": "ja",
+        "role": "cross_check",
+        "verifiedAt": "2026-08-11"
+      },
+      {
+        "url": "https://www.tamon-anime.com/music/",
+        "label": "動畫／藝人官方：本期曲名、名義與用途",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-10-30"
+      },
+      {
+        "url": "https://www.animatetimes.com/news/details.php?id=1770166287",
+        "label": "官方發表轉載（AnimateTimes掲載）：RAIN曲名、FACE名義與第5話ED",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-10-30"
+      },
+      {
+        "url": "https://moca-news.net/artdisp.php?artid=202602010130a00",
+        "label": "本期曲名、名義與用途交叉",
+        "language": "ja",
+        "role": "cross_check",
+        "verifiedAt": "2026-10-30"
+      }
+    ],
+    "evidence": [
+      {
+        "target": "song",
+        "targetId": "tamon-kun-ima-docchi-ed-2-song",
+        "fields": [
+          "title",
+          "artist"
+        ],
+        "sourceUrls": [
+          "https://www.tamon-anime.com/music/"
+        ],
+        "verifiedAt": "2026-10-30"
+      },
+      {
+        "target": "song",
+        "targetId": "tamon-kun-ima-docchi-ed-2-song",
+        "fields": [
+          "title",
+          "artist"
+        ],
+        "sourceUrls": [
+          "https://www.animatetimes.com/news/details.php?id=1770166287"
+        ],
+        "verifiedAt": "2026-10-30"
+      },
+      {
+        "target": "anime_use",
+        "targetId": "tamon-kun-ima-docchi-ed-2",
+        "fields": [
+          "usage"
+        ],
+        "sourceUrls": [
+          "https://www.animatetimes.com/news/details.php?id=1770166287"
+        ],
+        "verifiedAt": "2026-10-30"
+      },
+      {
+        "target": "song",
+        "targetId": "tamon-kun-ima-docchi-ed-2-song",
+        "fields": [
+          "title",
+          "artist"
+        ],
+        "sourceUrls": [
+          "https://moca-news.net/artdisp.php?artid=202602010130a00"
+        ],
+        "verifiedAt": "2026-10-30"
+      },
+      {
+        "target": "anime_use",
+        "targetId": "tamon-kun-ima-docchi-ed-2",
+        "fields": [
+          "usage"
+        ],
+        "sourceUrls": [
+          "https://moca-news.net/artdisp.php?artid=202602010130a00"
+        ],
+        "verifiedAt": "2026-10-30"
+      }
+    ]
+  }
+],
   204698: [
-    {
-      type: "ED",
-      sequence: 1,
-      titleJa: "delulu",
-      artistDisplayName: "冨岡 愛",
-      songId: "gelpiyo-ed-1-song",
-      links: [{
-        platform: "YouTube", label: "delulu Music Video",
-        url: "https://www.youtube.com/watch?v=tVdQqZTsNOY", linkType: "direct_track",
-        region: "GLOBAL", verifiedAt: "2026-10-15", availability: "unknown"
-      }],
-      sources: [{
-        url: "https://tomiokaai.net/video?tag=MUSIC", label: "冨岡 愛官方 VIDEO：delulu Music Video",
-        language: "ja", role: "first_party", verifiedAt: "2026-10-15"
-      }],
-      evidence: [{
-        target: "link", targetId: "https://www.youtube.com/watch?v=tVdQqZTsNOY",
-        fields: ["url", "type"], sourceUrls: ["https://tomiokaai.net/video?tag=MUSIC"], verifiedAt: "2026-10-15"
-      }]
-    }
-  ],
+  {
+    "type": "ED",
+    "sequence": 1,
+    "titleJa": "delulu",
+    "artistDisplayName": "冨岡 愛",
+    "songId": "gelpiyo-ed-1-song",
+    "links": [
+      {
+        "platform": "YouTube",
+        "label": "delulu Music Video",
+        "url": "https://www.youtube.com/watch?v=tVdQqZTsNOY",
+        "linkType": "direct_track",
+        "region": "GLOBAL",
+        "verifiedAt": "2026-10-15",
+        "availability": "unknown"
+      }
+    ],
+    "sources": [
+      {
+        "label": "動畫官方網站",
+        "url": "https://s.mxtv.jp/anime/gelpiyo/",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-08-10"
+      },
+      {
+        "label": "TOKYO MX 官方新聞稿：作品與主題歌曲目",
+        "url": "https://s.mxtv.jp/company/press/20251224_l54794fsajakig0y3g7oug588a0l6t.pdf",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-08-10"
+      },
+      {
+        "label": "Apple Music 台灣",
+        "url": "https://music.apple.com/tw/album/delulu/1834861290?i=1834861291",
+        "language": "zh-Hant",
+        "role": "first_party",
+        "verifiedAt": "2026-08-10"
+      },
+      {
+        "label": "歌ネット：作詞、作曲、編曲及發行日交叉核對",
+        "url": "https://www.uta-net.com/song/379192/",
+        "language": "ja",
+        "role": "cross_check",
+        "verifiedAt": "2026-08-10"
+      },
+      {
+        "label": "Dcard 動漫歌整理：繁體中文片尾分類交叉核對",
+        "url": "https://www.dcard.tw/@rickylin0121/post/261118194/b/1",
+        "language": "zh-Hant",
+        "role": "cross_check",
+        "verifiedAt": "2026-08-10"
+      },
+      {
+        "label": "TOKYO MX 官方影片",
+        "url": "https://www.youtube.com/watch?v=21RP0XW0nD4",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-08-10"
+      },
+      {
+        "label": "Tomioka Ai 官方影片",
+        "url": "https://www.youtube.com/watch?v=tVdQqZTsNOY",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-08-10"
+      },
+      {
+        "label": "官方跨平台數位發行頁",
+        "url": "https://tomiokaai.lnk.to/delulu",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-08-10"
+      },
+      {
+        "label": "UZUREA 主題曲清單",
+        "url": "https://uzurea.net/winter-2026-anime-theme-songs/",
+        "language": "ja",
+        "role": "cross_check",
+        "verifiedAt": "2026-08-10"
+      },
+      {
+        "url": "https://tomiokaai.net/video?tag=MUSIC",
+        "label": "冨岡 愛官方 VIDEO：delulu Music Video",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-10-15"
+      }
+    ],
+    "evidence": [
+      {
+        "target": "link",
+        "targetId": "https://www.youtube.com/watch?v=tVdQqZTsNOY",
+        "fields": [
+          "url",
+          "type"
+        ],
+        "sourceUrls": [
+          "https://tomiokaai.net/video?tag=MUSIC"
+        ],
+        "verifiedAt": "2026-10-15"
+      }
+    ],
+    "sourceMode": "explicit",
+    "followUp": [
+      {
+        "fields": [
+          "basic_evidence"
+        ],
+        "note": "本期短篇形式已有官方證據；既有用途與音樂資料保留，按原短篇階段延後深化。",
+        "resumeWhen": "直接第一方同版標準長度獨立TV新編排，或任務明確處理短篇時再核原ED。",
+        "checkedAt": "2026-10-30"
+      }
+    ]
+  }
+],
   212308: [
     {
       type: "ED",
