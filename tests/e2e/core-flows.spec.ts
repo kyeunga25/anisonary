@@ -1,7 +1,7 @@
 import { expect, test, type Page } from "@playwright/test";
 import { ApiProvider } from "../../src/data/api-provider";
 import { smokePublicApi } from "../../src/data/api-smoke";
-import { curatedAnimeDetails, curatedSeasons } from "../../src/data/curated-data";
+import { curatedAnimeDetails, curatedSeasons, curatedSeasonDetails } from "../../src/data/curated-data";
 
 const port = Number(process.env.ANISONARY_E2E_PORT ?? "4321");
 const origin = `http://127.0.0.1:${port}`;
@@ -38,6 +38,16 @@ test("the built static API serves the whole catalogue with consistent details an
   });
   const response = await request.get("/api/v1/seasons.json");
   expect(response.headers()["content-type"]).toContain("application/json");
+  const animeById = new Map(curatedAnimeDetails.map((anime) => [anime.id, anime]));
+  for (const season of curatedSeasonDetails) {
+    const expected = season.anime.filter((card) => !animeById.get(card.id)!.themes.some((theme) =>
+      theme.seasonIds === undefined || theme.seasonIds.includes(season.id)
+    )).map((anime) => `/anime/${anime.slug}/`).sort();
+    const html = await (await request.get(`/seasons/${season.id}/`)).text();
+    const other = html.match(/<section\b[^>]*aria-labelledby="other-anime-title"[^>]*>([\s\S]*?)<\/section>/)?.[1] ?? "";
+    const links = [...other.matchAll(/href="(\/anime\/[^\"]+\/)"/g)].map((match) => match[1]).sort();
+    expect(links, `${season.id}: works remain reachable when only other quarters have confirmed song uses`).toEqual(expected);
+  }
 });
 
 test("playlist browsing opens all anime songs and preserves sources, media consent and external links", async ({ page, context }, testInfo) => {

@@ -6,7 +6,7 @@ This repository contains the public online product: season directory, anime deta
 
 最近標記版本：**v1.31.1**。目前工作內容以 Git commit 與收集 checkpoint 追蹤。歌曲詳情支援個別歌唱者、團隊、創作名單、音源版本、發行品及欄位證據；未知欄位留空，已核對內容逐批補入。現行收錄數量只由 [自動統計](docs/CATALOG_STATS.md) 維護；季度快照不代表整季作品與歌曲已收齊。
 
-首頁、歌曲列表、季度頁與搜尋共用歌曲列，每頁最多 24 列。季度目錄直接提供各季入口；列表可按季度新舊、歌名、動畫或演唱者排序，也可篩選 OP／ED、劇中歌、主題歌與正版影片。點選歌曲列進入動畫的完整主題曲頁；跨季度搜尋可直接定位歌曲的製作名單與來源。搜尋完全在瀏覽器內進行，YouTube 只於明確操作後連線。網站與同源靜態 JSON API 共用已審閱資料，無 application backend 或 database binding。依賴安全 gate 繼續鎖定 `fast-uri` 3.1.8 並稽核開發依賴。
+首頁、歌曲列表、季度頁與搜尋共用歌曲列，每頁最多 24 列。季度目錄直接提供各季入口；列表可按季度新舊、歌名、動畫或演唱者排序，也可篩選 OP／ED、劇中歌、主題歌與正版影片。點選歌曲列進入動畫的完整主題曲頁；跨季度搜尋可直接定位歌曲的製作名單與來源。搜尋完全在瀏覽器內進行，YouTube 只於明確操作後連線。網站與同源靜態 JSON API 共用已審閱資料，無 application backend 或 database binding。依賴安全 gate 繼續鎖定 `fast-uri` 3.1.9 並稽核開發依賴。
 
 Production build 會從最終 HTML 自動產生 hash-based Content Security Policy。政策不使用 `unsafe-inline` 或 `unsafe-eval`，禁止 inline event／style attributes，只開放同源資產、已核對的海報來源及使用者啟動後的 YouTube privacy-enhanced iframe。任何未批准的 media origin 會令 build fail closed。
 
