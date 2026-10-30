@@ -13674,8 +13674,34 @@ BEYBLADE兩曲夏季實用由第88–99話與曲表交叉支持。原春／夏�
 - `verify:batch`通過24單元、型別／完整建置、CSP／Service Worker／公開產物、統計及262檔公開邊界。全4,951用途與3,392基本證據／4,083歌曲ID完全保持，其餘2,052作JSON與29其他季相同，沒有改歌曲季度、會員或來源日期。單一Chromium核6作API、12來源、6作品搜尋／6夏入口、2023夏正向／2024夏反向、原播分界及桌面1280×900／手機390×844；截圖已檢視，無溢出、應用程式／CSP錯誤或同意前YouTube請求。程式／契約／路由未改，沿第204固定程式8核心E2E，未冒稱205重跑。
 - 資料提交`e967662`；還原備份與推送收據另存。205尚無本批CI／preview／production；最高正式為PR #257／`fd2940d`／`batch204-basics`。全季與長期目標仍未完成；各年季度已收錄／欄位證據數字沿[自動統計](./CATALOG_STATS.md)口徑，不以現有量推完成率。
 
-## 第206批：夏季剩餘legacy用途的原期形式（已登記）
+## 第206批：夏季剩餘legacy用途的原期形式（本機完成，未發布）
 
 - 登記日期2026-10-30，資料基線205批`e967662`；固定2007–2026／截止2026-10-14與2020–2026標準TV基本優先保持。6作8原用途，不含既有4作9用途兩輪hold，沒有新觸發即不重開。
 - 第一組`curated-161647`／`curated-154789`（4用途）；第二組`curated-155971`／`curated-169364`（2）；第三組`curated-166829`／`curated-165426`（2）。先同版原TV／WEB／短篇及本體或完整獨立槽；標準TV成立才核曲名、演唱與精確用途的第一方及交叉。原用途／日期照存，零新增不等無歌，其他期短篇或後TV不代替原期。
 - 每缺口兩輪；沿已讀適用來源，不掃全部舊源、不重開受限來源；研究只存必要私有facts，主agent單一整合、接通、驗證、備份與分類推送。短篇待辦不阻擋往較舊季度，尚未因登記宣稱完成／發布。
+
+
+### 第206批本機驗證結果
+
+- 2026-10-30，沿已推送205批`b70fa8486e1b0707d0f27402b3a16756d8eb66e8`；只核6作8既有用途的原期形式，既有4作9用途hold無新觸發保持。
+
+| 公開ID | 本期已接通事實與後續 |
+| --- | --- |
+| `curated-161647` | [本期官方](https://www.kyoukai-senki.net/kyokko-no-souki/)與[Anime Trending](https://anitrendz.net/news/2023/07/21/kyoukai-senki-kyokko-no-souki-will-premiere-on-on-bandai-spirits-youtube-channel-in-august/)明ショートフィルム全6話、8/10起隔週四20:00官方頻道WEB；主篇TV分開，本體分鐘未列，短WEB歌曲延後 |
+| `curated-154789` | [R期官方](https://www.mujina-company.com/)、[YourAnimes](https://youranimes.tw/animes/3890)及[Animate](https://www.animatetimes.com/news/details.php?id=1693551550)核7/1六21:00兩平台先行、7/7五21:00一般WEB配信；未核短篇／分鐘，不借2021前期或13／26話推片長，WEB歌曲延後 |
+| `curated-155971` | [TOKYO MX原2023新聞稿](https://s.mxtv.jp/company/press/20230623_1uhys24dtp3nmpyv85433lbs1h8w6o.pdf)及[ABEMA](https://times.abema.tv/articles/-/10086103)核原第1期7/7起金21:54–22:00，官方評論約5分；6分為槽，短篇成立，不借第二／三期 |
+| `curated-169364` | [New Deer製作方](https://www.newdeer.net/production/ikimonosan)明2023 TV每話90秒；[大學原公告](https://prtimes.jp/main/html/rd/p/000000096.000041766.html)與[製作訪談](https://animationbusiness.info/archives/14974)交叉。原排定7/7金深夜25:50頃＝7/8約01:50，不填精確實播分鐘；短TV歌曲延後 |
+| `curated-166829` | [TVTokyo原11期ONAIR](https://www.tv-tokyo.co.jp/anime/yamishibai11/onair/)及[TVTokyo集團提供稿](https://animedb.jp/2023/04/11168)、[Animate本期](https://www.animatetimes.com/tag/details.php?id=20924)核短篇、7/9日深夜初回2:35＝7/10一02:35。5分枠只交叉、不當本體，ED不由播期跨秋自動延季 |
+| `curated-165426` | [原S1介紹](https://odekake-kozame.com/introduction/)與[ONAIR](https://odekake-kozame.com/onair/)明2023夏WEB及全60話、TV只列各節目CM內登場；[原期交叉](https://animestyle.jp/news/2023/09/15/25281/)列8/1起二20:00。CM不當獨立TV槽，追加平台、後S2及電影分開；原WEB歌曲延後 |
+
+- 3作短TV、1短WEB及2原WEB範圍已分流，實播未知留空。18個實讀來源只補對應作品metadata，8用途新增基本欄位待補及續查條件；原曲名／演唱／用途／ID／URL／所有音樂來源及2026-09-01日期完全保持。第一方短篇明示已足分流，不為可選淨長或原ED重搜；受限東映來源停止。
+- `verify:batch`通過24單元、完整建置／型別／CSP／Service Worker／公開產物、統計及262檔公開邊界。其餘2,052作JSON、29他季完全相同；全4,951用途的歌曲事實／來源／日期保持，只有8筆dataStatus待補更新，其餘4,943筆完全一致；新增用途、歌曲與基本證據均0，目錄仍2,058／4,951／3,392基本證據／4,083歌曲ID。
+- 單一Chromium定向核6作API／畫面、18來源、8筆待補與條件、8組歌曲搜尋及錨點／8夏歌單；1280×900／390×844截圖已檢視，無水平溢出、應用程式／CSP錯誤或同意前YouTube請求。程式／契約／路由未改，沿第204固定程式8核心E2E，不冒稱本批重跑。
+- 資料提交`1067b52`；還原備份與推送收據另存。205–206尚未正式發布，最高production仍PR #257／`fd2940d`／`batch204-basics`。本批各年／各季作品與用途數不變，2023夏仍104作156規則用途139逐欄證據；完整數值沿自動統計，不當全季完成率。
+
+## 第207批：既有基本逐欄證據缺口與較舊季度盤點（已登記）
+
+- 登記日期2026-10-30，資料基線206批`1067b52`；固定2007–2026／截止2026-10-14保持。年季盤點顯示部分2026已審資料雖有詞曲編／來源，基本三欄對應仍未接通；以既有格式補明確來源對應，同時接續2023春名單，不重做前置設計或重收已完成歌曲。
+- 第一組2026夏`curated-192800`／`curated-208044`／`curated-197715`／`curated-203880`／`curated-206521`，第二組2026春`curated-180745`／`curated-198939`／`curated-194317`／`curated-201817`／`curated-199221`；合計10既有作品20筆基本證據未齊用途。`curated-180136`4用途已齊，已排除，不重做。
+- 重用仍適用的已審來源與日期，只查基本三欄的真正缺口；第一方及交叉明示的曲名／演唱／本期OPED才補evidence，不能由已有credits、影片、來源條目存在或「已處理」文字自動升級。若本期TV／版本衝突或原文未明就保留缺口，不重開已兩輪held，也不為可選詳細欄位阻擋其餘用途；未實讀來源不得更新日期。
+- 第三組只讀2023春現行JSON與最多兩份普通名單，依相同明列／legacy回退口徑盤點，未配僅私有、不預建ID，不重搜其他期held。研究只寫必要私有facts；主agent單一整合、接通、必要驗證／還原、分類推送及正式驗收。
