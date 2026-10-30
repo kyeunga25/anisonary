@@ -227,7 +227,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     titleZhHant: "冬季動畫",
     titleJa: "2026年冬アニメ",
     seeds: curated2026WinterSeeds,
-    animeIds: curated2026WinterAnimeIds
+    animeIds: [...curated2026WinterAnimeIds, -202524103]
   },
   {
     id: "2025-fall",
@@ -237,7 +237,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     titleJa: "2025年秋アニメ",
     coverageNote: "本季正在盤點，先收錄已核對的部分TV／WEB新作與續播作品。其他作品與特殊主題曲仍待核對，現有筆數不是全季歌曲總數。",
     seeds: curated2025FallSeeds,
-    animeIds: [...curated2025FallAnimeIds, 185965, 178025, 177474, 21, 235]
+    animeIds: [...curated2025FallAnimeIds.slice(0, 85), 185965, 178025, 177474, 21, 235,-202524101, -202524103]
   },
   {
     id: "2025-summer",
@@ -291,7 +291,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     titleZhHant: "春季動畫",
     titleJa: "2024年春アニメ",
     seeds: curated2024SpringSeeds,
-    animeIds: [...curated2024SpringAnimeIds, 153518, 139518, 147850, 153818, 155645, 162985, 151639, 164204, 165254, 163024, 158871, 21, 235]
+    animeIds: [...curated2024SpringAnimeIds.slice(0, 84), 153518, 139518, 147850, 153818, 155645, 162985, 151639, 164204, 165254, 163024, 158871, 21, 235,-202424102]
   },
   {
     id: "2024-winter",
