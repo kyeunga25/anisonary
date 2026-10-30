@@ -81,6 +81,8 @@ npm run cf:deploy
 
 ## Release sequence／發佈次序
 
+發布以收集 workflow 的集中發布集合為單位；日常小批次先本機提交與備份，至少100個不重複用途有已驗證實質歌曲資料更新後才推送。已推送但未發布的 draft PR 保留供後續集中更新，未達門檻不逐批合併／部署。完整驗收固定集合 head，本機、CI、預覽與正式證據分開保存。
+
 1. 在隔離 branch 完成 public-egress scan、完整 local gate 與 Workers dry-run。
 2. Push 後以 draft PR 固定 reviewed head SHA；等待 GitHub quality 與 Workers preview checks 成功。
 3. Merge 前再次確認 PR head SHA 未變；合併後 fast-forward 本機 `main`，不重寫或猜測 release identity。

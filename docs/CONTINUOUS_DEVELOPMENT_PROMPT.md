@@ -10,7 +10,7 @@
 4. 新格式只需以 3–5 首真實歌曲完成相容格式、parser、公開 JSON 及頁面展示；已接通的能力直接沿用。歌曲、動畫用途、音源、發行品及平台項目分開，保持公開 ID 與 URL 穩定。
 5. 重用有效證據及原核對日期，只查真正缺口與到期項目。兩輪定向查找仍無明確證據時，記錄缺口和續查條件，繼續其他歌曲。
 6. 按變更矩陣收尾檢查一次，預覽實際新增內容，更新同一 checkpoint 的公開 ID、實際差異、驗證結果及下一批位置。
-7. 已授權的階段以範圍明確的 commit 保存；推送及部署按照當前發布範圍執行。提交前排除密鑰、私人資訊、logs、原始資料及本機測試產物；必要的通用測試邏輯可以公開。
+7. 已驗證階段以範圍明確的本機 commit 及可還原備份保存；相對正式基線累積至少100個不重複用途的實質歌曲資料更新，再集中推送及發布。純日期、形式說明或待辦文字不計門檻；沿用既有 draft PR，以新固定 head 驗收發布集合。提交前排除密鑰、私人資訊、logs、原始資料及本機測試產物；必要的通用測試邏輯可以公開。
 
 ## 來源並行查核
 
@@ -26,4 +26,4 @@
 
 ## English handoff
 
-Resume from the shared checkpoint. Preserve the fixed scope, evidence cutoff, stable identities and existing work. Verify song identity and anime use before enriching creators, recordings, releases and official platform appearances. Reuse valid sources, retain actual review dates and save unresolved gaps after two targeted search rounds. Run the applicable checks once and record the public changes and next position. Commit and publish only the reviewed, authorised scope; exclude credentials, private information, raw responses, logs and local test artifacts. Pause on request, save progress and resume only with explicit instruction. Keep batch completion and overall completion separate, and verify deployment independently from local builds.
+Resume from the shared checkpoint. Preserve the fixed scope, evidence cutoff, stable identities and existing work. Verify song identity and anime use before enriching creators, recordings, releases and official platform appearances. Reuse valid sources, retain actual review dates and save unresolved gaps after two targeted search rounds. Run the applicable checks once and record the public changes and next position. Commit reviewed batches locally with recoverable backups. Push and publish an aggregate only after at least 100 distinct anime-song uses have verified substantive updates against the last verified production baseline; date-only, form-note and follow-up-text changes do not count. Reuse the existing draft PR and verify its new pinned head. Commit and publish only the reviewed, authorised scope; exclude credentials, private information, raw responses, logs and local test artifacts. Pause on request, save progress and resume only with explicit instruction. Keep batch completion and overall completion separate, and verify deployment independently from local builds.

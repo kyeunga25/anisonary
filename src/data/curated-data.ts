@@ -796,22 +796,8 @@ const extraThemes: Record<number, CuratedThemeSeed[]> = {
     ]
   }
 ],
-  212308: [
-    {
-      type: "ED",
-      sequence: 1,
-      titleJa: "we are エケチャン！",
-      artistDisplayName: "Mashinomi"
-    }
-  ],
-  198411: [
-    {
-      type: "ED",
-      sequence: 1,
-      titleJa: "グッドラック！マイフレンド feat.ムロツヨシ & さかなクン",
-      artistDisplayName: "東京スカパラダイスオーケストラ"
-    }
-  ],
+  212308: [{"type":"ED","sequence":1,"titleJa":"we are エケチャン！","artistDisplayName":"Mashinomi","followUp":[{"fields":["basic_evidence"],"note":"本同版短篇／番組內形式已核，依目前標準TV優先範圍延後。2026-07-04起・TV節目內嵌動畫・每週六「土曜はナニする！？」內（節目8:30起；動畫精確起點／分鐘未知） 既有歌曲、用途分類、錄音與音樂證據日期保留。","resumeWhen":"待節目內動畫收集階段取得本期歌曲的新官方公告及獨立交叉資料，再補核缺漏欄位。","checkedAt":"2026-10-31"}]}],
+  198411: [{"type":"ED","sequence":1,"titleJa":"グッドラック！マイフレンド feat.ムロツヨシ & さかなクン","artistDisplayName":"東京スカパラダイスオーケストラ","followUp":[{"fields":["basic_evidence"],"note":"本期同版TV完整常規槽／正版本體分鐘尚待核；歌曲用途仍待核對，既有音樂資料與核對日期保留。","resumeWhen":"待2026春季第1期的官方完整獨立常規播出時段或正版單集片長資料公開，確認標準TV或短篇形式後，再補核指定歌曲；秋季第2期分開核對。","checkedAt":"2026-10-31"}]}],
   181867: [
     {"type":"OP","sequence":1,"titleJa":"クリプトニンジャ咲耶","artistDisplayName":"宮原永海","songId":"shinobanai-crypto-ninja-sakuya-san-no-maki-op-1-song","credits":[{"name":"宮原永海","role":"vocals"},{"name":"妹尾達也","role":"lyrics"},{"name":"妹尾達也","role":"composition"}],"sources":[{"label":"ファンワークス 官方影片","url":"https://www.youtube.com/watch?v=RMX-mfwzOaA","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"url":"https://fanworks.co.jp/news/cn231110/","label":"Fanworks 官方：OP原名／歌唱／詞曲、2023年11月15日Full size配信","role":"first_party","language":"ja","verifiedAt":"2026-10-16"}],"links":[{"platform":"YouTube","label":"【番組オープニング映像】『忍ばない！クリプトニンジャ咲耶』【10月3日（火）放送スタート！】","url":"https://www.youtube.com/watch?v=RMX-mfwzOaA","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-08-10","availability":"unknown"},{"platform":"官方配信","label":"クリプトニンジャ咲耶 Full size 官方配信公告","url":"https://fanworks.co.jp/news/cn231110/","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-16","availability":"unknown","recordingId":"shinobanai-crypto-ninja-sakuya-san-no-maki-op-1-released-full"}],"evidence":[{"target":"link","targetId":"https://www.youtube.com/watch?v=RMX-mfwzOaA","fields":["url","type"],"sourceUrls":["https://www.youtube.com/watch?v=RMX-mfwzOaA"],"verifiedAt":"2026-08-10"},{"target":"recording","fields":["title","kind","format","credits"],"sourceUrls":["https://fanworks.co.jp/news/cn231110/"],"verifiedAt":"2026-10-16","targetId":"shinobanai-crypto-ninja-sakuya-san-no-maki-op-1-released-full"},{"target":"recording","fields":["credits"],"sourceUrls":["https://fanworks.co.jp/news/cn231110/"],"verifiedAt":"2026-10-16","targetId":"shinobanai-crypto-ninja-sakuya-san-no-maki-op-1-released-full"},{"target":"link","fields":["url","type"],"sourceUrls":["https://fanworks.co.jp/news/cn231110/"],"verifiedAt":"2026-10-16","targetId":"https://fanworks.co.jp/news/cn231110/"}],"recordings":[{"id":"shinobanai-crypto-ninja-sakuya-san-no-maki-op-1-released-full","title":"クリプトニンジャ咲耶","kind":"vocal","format":"full","credits":[{"name":"宮原永海","role":"vocals"},{"name":"妹尾達也","role":"lyrics"},{"name":"妹尾達也","role":"composition"}]}]}
   ],

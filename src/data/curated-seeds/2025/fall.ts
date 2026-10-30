@@ -1,6 +1,6 @@
-import type { CuratedAnimeSeed } from "@/data/curated-seeds/types";
+import type { CuratedCatalogAnimeSeed } from "@/data/curated-seeds/types";
 
-export const curated2025FallSeeds: CuratedAnimeSeed[] = [
+export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
   {
     "anilistId": 177937,
     "id": "curated-177937",
@@ -24939,7 +24939,7 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
     "titleRomaji": "Yano-kun no Futsuu no Hibi",
     "editorialWeekday": 3,
     "broadcastTimeJst": "01:29",
-    "broadcastLabel": "日本首播：9月30日(火)25:29",
+    "broadcastLabel": "日本標準TV：2025-09-30週二深夜起，初回25:35（實曆10/1週三01:35）、常規25:29另列；LiTV已見第1話23分鐘，非TV槽。",
     "status": "finished",
     "officialSiteUrl": "https://yanokun-anime.com/",
     "anilistUrl": "https://anilist.co/anime/183965",
@@ -25827,7 +25827,7 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "label": "官方：第5話カラオケ歌唱及原唱完整版MV",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-10-16"
+            "verifiedAt": "2026-10-31"
           },
           {
             "url": "https://yanokun-anime.com/",
@@ -25849,6 +25849,13 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             "role": "first_party",
             "language": "multi",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.animatetimes.com/news/details.php?id=1762317448",
+            "label": "全力⭐きらめけ初恋：演唱／曲名／動畫用途：アニメイトタイムズ本2025動畫新聞（發表／資料提供；刊載：アニメイトタイムズ）",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-31"
           }
         ],
         "evidence": [
@@ -26051,6 +26058,51 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "https://recochoku.jp/album/A1044541578"
+          },
+          {
+            "target": "song",
+            "targetId": "yano-kun-no-futsuu-no-hibi-in-1-song",
+            "fields": [
+              "title"
+            ],
+            "sourceUrls": [
+              "https://yanokun-anime.com/news/post-90"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "yano-kun-no-futsuu-no-hibi-in-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://yanokun-anime.com/news/post-90"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "song",
+            "targetId": "yano-kun-no-futsuu-no-hibi-in-1-song",
+            "fields": [
+              "artist",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://www.animatetimes.com/news/details.php?id=1762317448"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "yano-kun-no-futsuu-no-hibi-in-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.animatetimes.com/news/details.php?id=1762317448"
+            ],
+            "verifiedAt": "2026-10-31"
           }
         ],
         "recordings": [
@@ -26211,7 +26263,45 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
           }
         ]
       }
-    ]
+    ],
+    "metadataSources": [
+      {
+        "label": "動畫官方網站：作品與播出資料",
+        "url": "https://yanokun-anime.com/",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-10-16"
+      },
+      {
+        "label": "AniChart：AniList官方季度作品識別",
+        "url": "https://anichart.net/Fall-2025",
+        "language": "en",
+        "role": "identifier",
+        "verifiedAt": "2026-10-16"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://youranimes.tw/bangumi/202510",
+        "language": "zh-Hant",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-10-16"
+      },
+      {
+        "url": "https://yanokun-anime.com/onair/",
+        "label": "本期日本TV、初回與常規時間及配信區分：本動畫官方ON AIR（發表／資料提供；刊載：yanokun-anime.com）",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-10-31"
+      },
+      {
+        "url": "https://www.litv.tv/comic/watch/VOD00377458",
+        "label": "本期動畫第1話正版23分鐘：LiTV正版公開單話metadata（發表／資料提供；刊載：LiTV立視線上影視）",
+        "role": "broadcast_cross_check",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-10-31"
+      }
+    ],
+    "metadataVerifiedAt": "2026-10-16"
   },
   {
     "anilistId": 185575,
@@ -65819,7 +65909,7 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
     "titleRomaji": "Koikeya SDGs Gekijou Suss to Tina Season 6",
     "editorialWeekday": 3,
     "broadcastTimeJst": "20:54",
-    "broadcastLabel": "日本TV首播：BS朝日 毎週水曜20:54；官方WEB亦提供各話",
+    "broadcastLabel": "短篇TV第6期：2025-10-01起BS朝日每週三20:54–21:00；6分鐘為播出槽上限，非正文淨長。歌曲資料待核對。",
     "status": "unknown",
     "officialSiteUrl": "https://sustotena.koikeya.co.jp/",
     "anilistUrl": "https://anilist.co/anime/204621",
@@ -65835,7 +65925,32 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
     "themes": [],
     "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b204621-8E7G89mDKBgr.png",
     "imageSourceUrl": "https://anichart.net/Fall-2025",
-    "imageSourceLabel": "AniChart：AniList官方季度公開圖像"
+    "imageSourceLabel": "AniChart：AniList官方季度公開圖像",
+    "metadataSources": [
+      {
+        "label": "動畫官方網站：作品與播出資料",
+        "url": "https://sustotena.koikeya.co.jp/",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-10-16"
+      },
+      {
+        "label": "AniChart：AniList官方季度作品識別",
+        "url": "https://anichart.net/Fall-2025",
+        "language": "en",
+        "role": "identifier",
+        "verifiedAt": "2026-10-16"
+      },
+      {
+        "url": "https://koikeya.co.jp/news/detail/1740.html",
+        "label": "第6期官方製作身分及完整5–6分鐘短篇播出時段上限：湖池屋官方新聞稿（發表／資料提供；刊載：koikeya.co.jp）",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-10-31"
+      }
+    ],
+    "metadataVerifiedAt": "2026-10-16",
+    "themeAvailability": "pending_verification"
   },
   {
     "anilistId": 198921,
@@ -65851,7 +65966,7 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
     "titleRomaji": "Sylvanian Families: Freya no Wonder Days",
     "editorialWeekday": 4,
     "broadcastTimeJst": "19:34",
-    "broadcastLabel": "日本配信：dアニメストア 10月2日(木)19:34；TV／WEB作品",
+    "broadcastLabel": "日本短篇TV：2025-10-02起每週四19:22–19:34 TOKYO MX（12分獨立槽）；官配信19:34另列，ABEMA本期第1話11分鐘。歌曲資料待核對。",
     "status": "unknown",
     "officialSiteUrl": "https://www.sylvanianfamilies.com/ja-jp/special/tv/freyas-wonderdays/",
     "anilistUrl": "https://anilist.co/anime/198921",
@@ -65867,7 +65982,39 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
     "themes": [],
     "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx198921-NMVQx7KSCnTd.png",
     "imageSourceUrl": "https://anichart.net/Fall-2025",
-    "imageSourceLabel": "AniChart：AniList官方季度公開圖像"
+    "imageSourceLabel": "AniChart：AniList官方季度公開圖像",
+    "metadataSources": [
+      {
+        "url": "https://www.sylvanianfamilies.com/ja-jp/special/tv/freyas-wonderdays/",
+        "label": "本期作品身分及配信時間：本作シルバニアファミリー官方特設頁（發表／資料提供；刊載：シルバニアファミリー官方網站）",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-10-31"
+      },
+      {
+        "label": "AniChart：AniList官方季度作品識別",
+        "url": "https://anichart.net/Fall-2025",
+        "language": "en",
+        "role": "identifier",
+        "verifiedAt": "2026-10-16"
+      },
+      {
+        "url": "https://epoch.jp/pressrelease/article/20250916_pressrelease.pdf",
+        "label": "本期日本TV及完整12分鐘短篇播出時段：株式会社エポック社（署名公告發表方）（發表／資料提供；刊載：エポック社）",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-10-31"
+      },
+      {
+        "url": "https://abema.tv/video/episode/54-85_s3_p1",
+        "label": "本期第1話正版11分鐘：ABEMA正版本期單話公開metadata（發表／資料提供；刊載：ABEMA）",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-10-31"
+      }
+    ],
+    "metadataVerifiedAt": "2026-10-16",
+    "themeAvailability": "pending_verification"
   },
   {
     "anilistId": 199008,
@@ -65899,7 +66046,666 @@ export const curated2025FallSeeds: CuratedAnimeSeed[] = [
     "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199008-P45zksUSzTWD.png",
     "imageSourceUrl": "https://anichart.net/Fall-2025",
     "imageSourceLabel": "AniChart：AniList官方季度公開圖像"
-  }
+  },
+{
+  "catalogKey": -509355,
+  "id": "curated-bangumi-509355",
+  "slug": "yasei-no-last-boss-ga-arawareta",
+  "seasonIds": [
+    "2025-fall"
+  ],
+  "verifiedAt": "2026-10-31",
+  "metadataVerifiedAt": "2026-10-31",
+  "metadataSources": [
+    {
+      "url": "https://www.lastboss-anime.com/music/index.html",
+      "label": "第一方Season1作品身分與音樂頁：TVアニメ『野生のラスボスが現れた！』公式サイト（發表／資料提供；刊載：lastboss-anime.com）",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "url": "https://bgm.tv/subject/509355",
+      "label": "Bangumi原2025第一作識別509355：Bangumi subject catalogue（發表／資料提供；刊載：Bangumi documented v0 API）",
+      "language": "ja",
+      "role": "identifier",
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "url": "https://www.lastboss-anime.com/news/list00010001.html",
+      "label": "官方原2025公告日期與精確文章索引：TVアニメ『野生のラスボスが現れた！』公式サイト（發表／資料提供；刊載：lastboss-anime.com）",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "url": "https://www.lastboss-anime.com/news/index00090000.html",
+      "label": "原2025第一作日本TV首播與初回編排：TVアニメ『野生のラスボスが現れた！』公式サイト（發表／資料提供；刊載：lastboss-anime.com）",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "url": "https://www.bs-asahi.co.jp/lastboss-anime/lineup/prg_001/",
+      "label": "原第一作第1話完整23:00–23:30獨立時段：BS朝日 本番組公式放送内容（發表／資料提供；刊載：BS朝日）",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "url": "https://www.bs-asahi.co.jp/lastboss-anime/lineup/prg_002/",
+      "label": "原第一作第2話完整23:00–23:30常規時段：BS朝日 本番組公式放送内容（發表／資料提供；刊載：BS朝日）",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "url": "https://youranimes.tw/animes/5428",
+      "label": "原2025第一作日期與先行配信分開交叉：YourAnimes 你的動畫（發表／資料提供；刊載：YourAnimes）",
+      "language": "zh-Hant",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-10-31"
+    }
+  ],
+  "themeAvailability": "documented",
+  "startDate": "2025-10-04",
+  "titleJa": "野生のラスボスが現れた！",
+  "editorialWeekday": 6,
+  "broadcastTimeJst": "22:30",
+  "broadcastLabel": "日本標準TV第一作：2025-10-04起TOKYO MX每週六22:30；BS朝日10/5起週日23:00–23:30，30分為完整常規播出槽，非本體淨長。関西テレビ週日深夜初回24:55、常規26:24另列；交叉資料所列9/27先行配信與TV首播分開。",
+  "status": "unknown",
+  "officialSiteUrl": "https://www.lastboss-anime.com/music/index.html",
+  "bangumiUrl": "https://bgm.tv/subject/509355",
+  "identifierSource": {
+    "label": "Bangumi原第一作識別509355：Bangumi subject catalogue（發表／資料提供；刊載：Bangumi documented v0 API）",
+    "url": "https://bgm.tv/subject/509355",
+    "language": "ja"
+  },
+  "sourceReferenceUrls": [
+    "https://www.lastboss-anime.com/news/list00010001.html",
+    "https://www.lastboss-anime.com/news/index00090000.html",
+    "https://www.bs-asahi.co.jp/lastboss-anime/lineup/prg_001/",
+    "https://www.bs-asahi.co.jp/lastboss-anime/lineup/prg_002/",
+    "https://youranimes.tw/animes/5428"
+  ],
+  "themes": [
+    {
+      "id": "yasei-no-last-boss-ga-arawareta-op-1",
+      "songId": "yasei-no-last-boss-ga-arawareta-op-1-song",
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "レベルを上げて物理で殴る",
+      "artistDisplayName": "岸田教団&THE明星ロケッツ",
+      "seasonIds": [
+        "2025-fall"
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.lastboss-anime.com/news/index00070000.html",
+          "label": "本版OP曲名、精確演唱名義與用途：TVアニメ『野生のラスボスが現れた！』公式サイト（發表／資料提供；刊載：lastboss-anime.com）",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://www.lastboss-anime.com/music/index.html",
+          "label": "本第一季曲名、演唱、OP／ED及已核詞曲編：TVアニメ『野生のラスボスが現れた！』公式サイト（發表／資料提供；刊載：lastboss-anime.com）",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://youranimes.tw/animes/5428",
+          "label": "本版OP曲名、精確演唱名義與用途：YourAnimes 你的動畫（發表／資料提供；刊載：YourAnimes）",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "yasei-no-last-boss-ga-arawareta-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.lastboss-anime.com/news/index00070000.html"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "yasei-no-last-boss-ga-arawareta-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.lastboss-anime.com/news/index00070000.html"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "yasei-no-last-boss-ga-arawareta-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.lastboss-anime.com/music/index.html"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "yasei-no-last-boss-ga-arawareta-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.lastboss-anime.com/music/index.html"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "yasei-no-last-boss-ga-arawareta-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://youranimes.tw/animes/5428"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "yasei-no-last-boss-ga-arawareta-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://youranimes.tw/animes/5428"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.lastboss-anime.com/music/index.html"
+          ],
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-31",
+      "credits": [
+        {
+          "name": "岸田",
+          "role": "lyrics"
+        },
+        {
+          "name": "岸田",
+          "role": "composition"
+        },
+        {
+          "name": "岸田教団＆THE明星ロケッツ",
+          "role": "arrangement"
+        }
+      ]
+    },
+    {
+      "id": "yasei-no-last-boss-ga-arawareta-ed-1",
+      "songId": "yasei-no-last-boss-ga-arawareta-ed-1-song",
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "ミギヒダリ",
+      "artistDisplayName": "長瀬有花",
+      "seasonIds": [
+        "2025-fall"
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.lastboss-anime.com/news/index00090000.html",
+          "label": "本版ED曲名、精確演唱名義與用途：TVアニメ『野生のラスボスが現れた！』公式サイト（發表／資料提供；刊載：lastboss-anime.com）",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://www.lastboss-anime.com/music/index.html",
+          "label": "本第一季曲名、演唱、OP／ED及已核詞曲編：TVアニメ『野生のラスボスが現れた！』公式サイト（發表／資料提供；刊載：lastboss-anime.com）",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://youranimes.tw/animes/5428",
+          "label": "本版ED曲名、精確演唱名義與用途：YourAnimes 你的動畫（發表／資料提供；刊載：YourAnimes）",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "yasei-no-last-boss-ga-arawareta-ed-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.lastboss-anime.com/news/index00090000.html"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "yasei-no-last-boss-ga-arawareta-ed-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.lastboss-anime.com/news/index00090000.html"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "yasei-no-last-boss-ga-arawareta-ed-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.lastboss-anime.com/music/index.html"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "yasei-no-last-boss-ga-arawareta-ed-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.lastboss-anime.com/music/index.html"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "yasei-no-last-boss-ga-arawareta-ed-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://youranimes.tw/animes/5428"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "yasei-no-last-boss-ga-arawareta-ed-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://youranimes.tw/animes/5428"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.lastboss-anime.com/music/index.html"
+          ],
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-31",
+      "credits": [
+        {
+          "name": "meiyo",
+          "role": "lyrics"
+        },
+        {
+          "name": "meiyo",
+          "role": "composition"
+        },
+        {
+          "name": "下村亮介",
+          "role": "arrangement"
+        }
+      ]
+    }
+  ]
+},
+{
+  "catalogKey": -202523502,
+  "id": "curated-tatsunoko-gatherers-adventure-2025",
+  "slug": "sozai-saishuka-no-isekai-ryokouki",
+  "seasonIds": [
+    "2025-fall"
+  ],
+  "verifiedAt": "2026-10-31",
+  "metadataVerifiedAt": "2026-10-31",
+  "metadataSources": [
+    {
+      "url": "https://sozaisaishu-pr.com/onair/",
+      "label": "原版日本TV實曆起點與WEB先行分開：TVアニメ『素材採取家の異世界旅行記』公式サイト",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "url": "https://tatsunoko.co.jp/works/a_gatherers_adventure_in_isekai/",
+      "label": "製作方本版身分及TV30分全12話節目格式：タツノコプロ",
+      "language": "ja",
+      "role": "identifier",
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000000173.000004331.html",
+      "label": "AlphaPolis原2025日期公告與本版TV身分：株式会社アルファポリス（發表／資料提供；刊載：PR TIMES）",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "url": "https://youranimes.tw/animes/5753",
+      "label": "本版作品原名及製作資訊交叉核對：YourAnimes 你的動畫",
+      "language": "zh-Hant",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-10-31"
+    }
+  ],
+  "themeAvailability": "documented",
+  "startDate": "2025-10-07",
+  "titleJa": "素材採取家の異世界旅行記",
+  "editorialWeekday": 2,
+  "broadcastTimeJst": "00:00",
+  "broadcastLabel": "日本原TV編排2025年10月6日（月）24:00＝實曆10月7日（火）00:00，TOKYO MX／BS11；WEB先行9月29日24:30＝9月30日00:30另列。製作方明示本版30分鐘TV節目格式、全12話；淨片長及精確結束時刻未知。",
+  "status": "unknown",
+  "officialSiteUrl": "https://sozaisaishu-pr.com/onair/",
+  "identifierSource": {
+    "label": "タツノコプロ：2025年TV動畫作品識別",
+    "url": "https://tatsunoko.co.jp/works/a_gatherers_adventure_in_isekai/",
+    "language": "ja"
+  },
+  "sourceReferenceUrls": [
+    "https://prtimes.jp/main/html/rd/p/000000173.000004331.html",
+    "https://youranimes.tw/animes/5753"
+  ],
+  "themes": [
+    {
+      "id": "sozai-saishuka-no-isekai-ryokouki-op-1",
+      "songId": "sozai-saishuka-no-isekai-ryokouki-op-1-song",
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "Prologue",
+      "artistDisplayName": "Nornis",
+      "seasonIds": [
+        "2025-fall"
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20250723/20250718517268.pdf",
+          "label": "本版OP曲名、精確演唱名義與用途：株式会社アルファポリス（發表／資料提供；刊載：Yahoo!ファイナンス（開示PDFホスト））",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://www.sozaisaishu-pr.com/music/",
+          "label": "曲名與演唱；用途另依本版發表方公告：TVアニメ『素材採取家の異世界旅行記』公式サイト",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://youranimes.tw/animes/5753",
+          "label": "本版OP曲名、精確演唱名義與用途：YourAnimes 你的動畫（發表／資料提供；刊載：YourAnimes）",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://anime-song-info.com/sozaisaishu-op-ed-25at/",
+          "label": "本版OP曲名、精確演唱名義與用途：アニしま",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "sozai-saishuka-no-isekai-ryokouki-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20250723/20250718517268.pdf"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "sozai-saishuka-no-isekai-ryokouki-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20250723/20250718517268.pdf"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "sozai-saishuka-no-isekai-ryokouki-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.sozaisaishu-pr.com/music/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "sozai-saishuka-no-isekai-ryokouki-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://youranimes.tw/animes/5753"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "sozai-saishuka-no-isekai-ryokouki-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://youranimes.tw/animes/5753"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "sozai-saishuka-no-isekai-ryokouki-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://anime-song-info.com/sozaisaishu-op-ed-25at/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "sozai-saishuka-no-isekai-ryokouki-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://anime-song-info.com/sozaisaishu-op-ed-25at/"
+          ],
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "sozai-saishuka-no-isekai-ryokouki-ed-1",
+      "songId": "sozai-saishuka-no-isekai-ryokouki-ed-1-song",
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "夢幻トリップ",
+      "artistDisplayName": "なきごと",
+      "seasonIds": [
+        "2025-fall"
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000173.000004331.html",
+          "label": "本版ED曲名、精確演唱名義與用途：株式会社アルファポリス（發表／資料提供；刊載：PR TIMES）",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://www.sozaisaishu-pr.com/music/",
+          "label": "曲名與演唱；用途另依本版發表方公告：TVアニメ『素材採取家の異世界旅行記』公式サイト",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://youranimes.tw/animes/5753",
+          "label": "本版ED曲名、精確演唱名義與用途：YourAnimes 你的動畫（發表／資料提供；刊載：YourAnimes）",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://anime-song-info.com/sozaisaishu-op-ed-25at/",
+          "label": "本版ED曲名、精確演唱名義與用途：アニしま",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "sozai-saishuka-no-isekai-ryokouki-ed-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000000173.000004331.html"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "sozai-saishuka-no-isekai-ryokouki-ed-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000000173.000004331.html"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "sozai-saishuka-no-isekai-ryokouki-ed-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.sozaisaishu-pr.com/music/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "sozai-saishuka-no-isekai-ryokouki-ed-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://youranimes.tw/animes/5753"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "sozai-saishuka-no-isekai-ryokouki-ed-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://youranimes.tw/animes/5753"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "sozai-saishuka-no-isekai-ryokouki-ed-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://anime-song-info.com/sozaisaishu-op-ed-25at/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "sozai-saishuka-no-isekai-ryokouki-ed-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://anime-song-info.com/sozaisaishu-op-ed-25at/"
+          ],
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-31"
+    }
+  ]
+}
 ];
 
-export const curated2025FallAnimeIds: number[] = [177937, 170577, 153800, 185801, 183385, 180082, 181447, 194447, 179302, 195153, 179992, 182896, 162890, 180436, 195240, 186524, 187940, 173523, 177271, 186190, 186794, 186920, 129195, 186161, 183965, 185575, 185731, 162669, 184322, 188487, 173692, 183291, 185116, 187464, 193968, 188388, 190840, 186914, 170018, 170936, 184997, 196553, 196230, 187860, 176298, 174914, 186621, 198561, 198117, 185694, 186736, 140291, 184718, 187921, 187331, 194832, 198926, 198413, 199794, 169420, 188653, 193238, 193883, 196229, 187166, 195173, 199009, 194389, 188529, 199635, 204621, 198921, 199008, 185073, 178052, 184470, 158871, 189258, 142274, 165159, 8687, 966, 6149];
+export const curated2025FallAnimeIds: number[] = [177937, 170577, 153800, 185801, 183385, 180082, 181447, 194447, 179302, 195153, 179992, 182896, 162890, 180436, 195240, 186524, 187940, 173523, 177271, 186190, 186794, 186920, 129195, 186161, 183965, 185575, 185731, 162669, 184322, 188487, 173692, 183291, 185116, 187464, 193968, 188388, 190840, 186914, 170018, 170936, 184997, 196553, 196230, 187860, 176298, 174914, 186621, 198561, 198117, 185694, 186736, 140291, 184718, 187921, 187331, 194832, 198926, 198413, 199794, 169420, 188653, 193238, 193883, 196229, 187166, 195173, 199009, 194389, 188529, 199635, 204621, 198921, 199008, 185073, 178052, 184470, 158871, 189258, 142274, 165159, 8687, 966, 6149,
+-509355,
+-202523502];
