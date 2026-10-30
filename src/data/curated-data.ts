@@ -796,14 +796,7 @@ const extraThemes: Record<number, CuratedThemeSeed[]> = {
     ]
   }
 ],
-  212308: [
-    {
-      type: "ED",
-      sequence: 1,
-      titleJa: "we are エケチャン！",
-      artistDisplayName: "Mashinomi"
-    }
-  ],
+  212308: [{"type":"ED","sequence":1,"titleJa":"we are エケチャン！","artistDisplayName":"Mashinomi","followUp":[{"fields":["basic_evidence"],"note":"本同版短篇／番組內形式已核，依目前標準TV優先範圍延後。2026-07-04起・TV節目內嵌動畫・每週六「土曜はナニする！？」內（節目8:30起；動畫精確起點／分鐘未知） 既有歌曲、用途分類、錄音與音樂證據日期保留。","resumeWhen":"待優先範圍明確納入短篇／節目內嵌動畫後，沿原ID續補真正核心缺口；不因新批次重開音樂詳細。","checkedAt":"2026-10-31"}]}],
   198411: [
     {
       type: "ED",
