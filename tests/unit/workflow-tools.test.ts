@@ -48,6 +48,41 @@ it("counts catalogue statistics using the same confirmed quarterly uses as the p
   expect(partial.usesWithoutSongId).toBe(1);
 });
 
+it("counts explicit basic reviews and overlapping quarterly gaps once, without treating unregistered uses as unique songs", () => {
+  const sample = structuredClone(curatedAnimeDetails.find((anime) => anime.themes.length >= 4)!);
+  sample.themes = sample.themes.slice(0, 4);
+  const season = structuredClone(curatedSeasonDetails.find((entry) => entry.anime.some((card) => card.slug === sample.slug))!);
+  season.anime = season.anime.filter((card) => card.slug === sample.slug);
+  sample.themes.forEach((theme) => {
+    theme.seasonIds = [season.id];
+    theme.songId = "shared-pending-song";
+    theme.dataStatus!.pendingFields = [];
+    theme.dataStatus!.basic = "field_evidence_recorded";
+  });
+  sample.themes[0]!.dataStatus!.pendingFields = ["basic_evidence", "use_quarters"];
+  sample.themes[1]!.dataStatus!.basic = "sources_recorded";
+  sample.themes[1]!.dataStatus!.pendingFields = ["use_quarters"];
+  sample.themes[2]!.dataStatus!.pendingFields = ["use_quarters"];
+  delete sample.themes[2]!.songId;
+  const next = structuredClone(season);
+  next.id = `${season.year}-${season.quarter === "winter" ? "spring" : "winter"}`;
+  next.quarter = season.quarter === "winter" ? "spring" : "winter";
+  sample.themes[3]!.seasonIds = [season.id, next.id];
+  const empty = { ...structuredClone(sample), id: "empty-work", slug: "empty-work", themes: [], themeAvailability: "pending_verification" as const };
+  const notUsed = { ...structuredClone(empty), id: "no-independent-themes", slug: "no-independent-themes", themeAvailability: "not_used" as const };
+  const stats = summarizeCatalog([season, next], [sample, empty, notUsed]);
+  expect(stats.fieldEvidence).toBe(3);
+  expect(stats.progress).toEqual({
+    basicEvidenceMissingUses: 1, explicitBasicReviewUses: 1, basicReadyQuarterPendingUses: 1,
+    corePendingUses: 3, quarterPendingUses: 3, distinctSongIdsAmongCorePendingUses: 1,
+    corePendingUsesWithoutSongId: 1, animeAllStoredUsesCoreReady: 0, animeWithStoredUseCoreGaps: 1,
+    animeWithoutScopedUses: 2, animeWithoutScopedUsesNotUsed: 1
+  });
+  expect(stats.years[0]!.uses).toBe(4);
+  expect(stats.years[0]!.progress.corePendingUses).toBe(3);
+  expect(stats.quarters.find((entry) => entry.id === next.id)!.progress.corePendingUses).toBe(0);
+});
+
 it("automatically reuses only local catalogue mode, while retaining receipts for an explicit API build", async () => {
   const root = await mkdtemp(join(tmpdir(), "anisonary-build-mode-"));
   for (const directory of ["src", "public", "scripts", "tests", "dist/api/v1"]) {
