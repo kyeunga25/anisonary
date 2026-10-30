@@ -13610,8 +13610,33 @@ BEYBLADE兩曲夏季實用由第88–99話與曲表交叉支持。原春／夏�
 - 比對全4,951用途／3,392基本證據／4,083歌曲ID保持，其餘2,051作JSON及28其他季度JSON相同；只改秋7作說明及冬1個會員，不改既有歌曲季度或舊用途。7作API、10來源、7組作品搜尋、8個秋／冬待核入口、原2023秋／新2026冬正向及2025冬反向搜尋通過；桌面1280×900／手機390×844截圖已檢視，無溢出、應用程式／CSP錯誤或同意前YouTube請求。
 - 資料提交`be29699cbade57e3afc6e8ff19d436f25c755d91`；還原備份及推送收據另存。203尚無本批CI／preview／production；最高正式為PR #256／`e0e52db`／`batch202-basics`。下一批沿2023秋6作8筆既有基本缺口先核本期形式，不重開兩輪held，整體目標未完成。
 
-## 第204批：2023秋既有基本缺口的本期形式（已登記）
+## 第204批：2023秋既有基本缺口的本期形式（本機完成，未發布）
 
 - 登記日期2026-10-30，資料基線第203批`be29699c`；固定2007–2026、截止2026-10-14及2020–2026標準TV基本優先不變。6作8筆既有用途仍保留原ID／來源與日期，本機未證本期形式，不用其他期結果代替。
 - 第一組`curated-163204`／`curated-159074`（3用途），第二組`curated-167820`／`curated-127163`（3），第三組`curated-170206`／`curated-162147`（2）。先核同版原TV／WEB／短篇、較後日本TV、完整獨立槽或本體；標準TV成立才補曲名／演唱／用途第一方及交叉，短篇／原WEB延後，已確認舊用途不刪。
 - 沿已讀來源重用、每缺口最多兩輪；六作本期在checkpoint無既有兩輪hold，其他期及203既有held無觸發不重搜。研究只寫必要私有facts，主agent單一整合、接通、驗證、備份與提交發布。尚未因登記宣稱本批完成或發布。
+
+
+### 第204批本機驗證結果
+
+- 2026-10-30，從已推送第203批`be7a2e80bd24767de4dddf5ec1d3901261222382`接續；6個既有作品、8筆原用途及所有ID／URL／音樂來源日期保持，沒有新增歌曲或基本證據增量。
+
+| 公開ID | 實際接通的播出／形式與缺口 |
+| --- | --- |
+| `curated-163204` | [製作方原公告](https://img.sunrise-inc.co.jp/images/news/20946_e97uthl6k1df_pdf.pdf)與[Gundam作品頁](https://gundam-official.com/series/build-metaverse)明2023原WEB；[後TV官方公告](https://gundam-official.com/news/i/news/video-music/01_13314)由[交叉節目表](https://animenew.main.jp/end-ka-ka.html)可見直鏈實讀，核2024-02-11／18／25週日10:00テレ東6局全3話，與1月選集／2月4日歷史特番分開。完整獨立槽終點、本體及TV逐曲用途仍待新第一方；未把原WEB OPED延為2024用途，也未因3話或整體節目名猜標準／特別篇 |
+| `curated-159074` | [TBS原2023公告](https://www.tbs.co.jp/anime/hanakokun/news/news20230921_01.html)、[TBS官方catalog](https://www.tbscontents.com/en/program/afterschoolhanakokun)與[中文原期報道](https://news.gamebase.com.tw/news/detail/99414047)核原第1期約10分格式、首回10/13金01:58（10/12木深夜），其餘3週02:13。catalog明Part1／Part2與10min×8，不借本篇或後期片長；實播逐話淨長仍未知，短篇歌曲延後 |
+| `curated-167820` | [原公告](https://gnw-anime.com/news_20230731-1.html)與[當日已上線確認](https://gnw-anime.com/news_20231012.html)、中文交叉核2023-10-12 Netflix原WEB。2原用途照存待逐欄，不廣搜沒有直接新線索的後TV，WEB階段再補 |
+| `curated-127163` | [官方第2期](https://railromanesque.jp/anime02/)核10/5木深夜25:00＝10/6金01:00；[AllCinema](https://www.allcinema.net/cinema/375126)與[本期出演者訪談](https://strmweb.jp/archives/10868/)交叉明約5分短篇。第一方只起點、沒有完整槽／本體，未以第1期或portal泛稱補；兩輪後待同第2期新明示，原ED保持 |
+| `curated-170206` | [Netflix正版](https://www.netflix.com/tw/title/81153115)各8話為28／27／27／27／26／27／27／28分；[Netflix原公告](https://about.netflix.com/en/news/netflixs-drop-01-catch-up-on-all-the-news-and-sneak-peeks)與中文交叉核11/17原WEB。26–28分本體不當日本TV證據，原OP與歌曲日期保持 |
+| `curated-162147` | [Netflix繁中原公告](https://about.netflix.com/zh_tw/news/pokemon-concierge-main-trailer)、[同版日文](https://about.netflix.com/ja/news/pokemon-concierge-main-trailer)與[台灣寶可夢](https://tw.portal-pokemon.com/topics/20231228netflix/)核原2023第1–4話、12/28獨家配信、每話約14–20分；與2025第5–8話分開。一般主題歌文字不補精確ED證據，原ED待逐欄 |
+
+- 21個實讀來源只更新對應作品metadata日期；8用途新增個別`basic_evidence`待補／續查說明，鋼彈另列TV用途季度未知。曲名、演唱、用途ID／序號、原來源及2026-09-01音樂日期完全保持，沒有補成基本證據齊備；未知作者、版本、影片、發行品及平台不生成。
+- `verify:batch`最終來源通過24單元、型別／完整建置、CSP／Service Worker／公開產物、統計及262檔公開邊界；本批程式／契約／路由未改，沿203已實跑8核心E2E，不冒稱本批重跑。比對其餘2,052作JSON、29其他季完全相同，全4,951用途的原歌曲事實／來源／日期保持；只有8筆dataStatus待補說明更新，其餘4,943筆完全一致。全目錄仍2,058作4,951用途3,392基本證據4,083歌曲ID，新增歌曲／用途／基本證據均0。
+- 單一Chromium定向驗6作API／畫面、21來源外連、8筆待補／條件可見、8組歌曲搜尋／錨點及8筆秋歌單；未把鋼彈新TV線索當已閉合的新冬歌曲。1280×900／390×844截圖已檢視，無水平溢出、應用程式／CSP錯誤或同意前YouTube請求。
+- 資料提交`f9366ad`；還原備份與推送收據另存。203–204尚未正式發布，最高production為202批PR #256／`e0e52db`／`batch202-basics`。下一批接2023夏標準TV可能線索及最多兩份名單，不讓其餘秋短篇待辦阻擋倒序；整體目標未完成。
+
+## 第205批：2023夏同版形式與有界名單（已登記）
+
+- 登記日期2026-10-30，資料基線第204批`f9366ad`；固定2007–2026／截止2026-10-14、2020–2026標準TV基本優先不變。夏現行104作139季用途139基本證據、20存量零用途只是快照，不作全季分母。
+- 第一組`curated-177166`／`curated-157957`，先核原播國、原Netflix／TV與日本後播同版、剪輯及本體或完整獨立槽；第二組`curated-204619`／`curated-170220`／`curated-185642`／`curated-169087`核本期同版形式。集數、同系列前後期或題名不代替第一方；標準TV成立才核歌曲，短篇／WEB只保存分流及觸發。
+- 第三組只讀2023夏現行JSON與最多兩份普通季度名單，重用既有held／來源；先中文發現，不把混媒體索引／未配項目當已證漏標準TV，不預建ID。不重搜其他季兩輪缺口；每缺口兩輪、來源受限即停，不取媒體／頁副本。研究只寫必要私有facts，主agent單一整合與發布驗收。
