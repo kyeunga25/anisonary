@@ -67397,6 +67397,310 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
     "language": "ja"
   }
 },
+
+{
+  "catalogKey": -202524301,
+  "slug": "madoka-magica-tv-edition-2025",
+  "seasonIds": [
+    "2025-fall"
+  ],
+  "startDate": "2025-10-12",
+  "titleJa": "「魔法少女まどか☆マギカ 始まりの物語／永遠の物語」TV Edition",
+  "editorialWeekday": 7,
+  "broadcastTimeJst": "17:00",
+  "status": "unknown",
+  "officialSiteUrl": "https://www.madoka-magica.com/tv/",
+  "id": "curated-aniplex-madoka-tv-edition-2025",
+  "verifiedAt": "2026-10-31",
+  "metadataVerifiedAt": "2026-10-31",
+  "metadataSources": [
+    {
+      "url": "https://www.madoka-magica.com/tv/youtube-streaming/news/?id=68502",
+      "label": "動畫官方：2025TV再編與全11話播出公告",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "url": "https://www.madoka-magica.com/tv/",
+      "label": "動畫官方：本TV Edition作品及OP／ED資料",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "url": "https://www.aniplex.co.jp/lineup/madoka-zenkouhen-tv/",
+      "label": "アニプレックス：本TV Edition作品識別",
+      "role": "identifier",
+      "language": "ja",
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "url": "https://www.oricon.co.jp/prof/290891/tv/p/2/",
+      "label": "ORICON：本TV Edition歷史播出時段交叉資料",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-10-31"
+    }
+  ],
+  "themeAvailability": "documented",
+  "sourceReferenceUrls": [
+    "https://www.madoka-magica.com/tv/youtube-streaming/news/?id=68502",
+    "https://www.madoka-magica.com/tv/",
+    "https://www.aniplex.co.jp/lineup/madoka-zenkouhen-tv/",
+    "https://www.oricon.co.jp/prof/290891/tv/p/2/"
+  ],
+  "themes": [
+    {
+      "id": "madoka-magica-tv-edition-2025-op-1",
+      "songId": "madoka-magica-tv-edition-2025-op-1-song",
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "コネクト",
+      "artistDisplayName": "ClariS",
+      "seasonIds": [
+        "2025-fall"
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.madoka-magica.com/tv/",
+          "label": "動畫官方：本TV Edition作品及OP／ED資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://animecca.jp/ja/works/mahoushoujomadokamagikahajimarinomonogat",
+          "label": "animecca：本TV Edition曲名、演唱及OP／ED交叉資料",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://www.joysound.com/web/search/title?keyword=%E3%81%BE%E3%81%A9%E3%81%8B%E3%83%9E%E3%82%AE%E3%82%AB&match=1",
+          "label": "JOYSOUND：本TV Edition曲名與演唱交叉資料",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "madoka-magica-tv-edition-2025-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.madoka-magica.com/tv/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "madoka-magica-tv-edition-2025-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.madoka-magica.com/tv/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "madoka-magica-tv-edition-2025-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://animecca.jp/ja/works/mahoushoujomadokamagikahajimarinomonogat"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "madoka-magica-tv-edition-2025-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animecca.jp/ja/works/mahoushoujomadokamagikahajimarinomonogat"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "madoka-magica-tv-edition-2025-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.joysound.com/web/search/title?keyword=%E3%81%BE%E3%81%A9%E3%81%8B%E3%83%9E%E3%82%AE%E3%82%AB&match=1"
+          ],
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-31",
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement"
+          ],
+          "note": "歌曲基本資料已核對；作詞、作曲及編曲仍待第一方逐曲署名。",
+          "resumeWhen": "進入詳細資料整理時，取得動畫、藝人或唱片官方的逐曲作者資料後補充。",
+          "checkedAt": "2026-10-31"
+        },
+        {
+          "fields": [
+            "recordings",
+            "recording_format",
+            "video_metadata",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "音源版本、影片、發行品及正版平台資料仍待核對。",
+          "resumeWhen": "進入詳細資料整理時，取得對應版本、影片、發行品或正版平台的直接資料後補充。",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "madoka-magica-tv-edition-2025-ed-1",
+      "songId": "madoka-magica-tv-edition-2025-ed-1-song",
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "Magia",
+      "artistDisplayName": "Kalafina",
+      "seasonIds": [
+        "2025-fall"
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.madoka-magica.com/tv/",
+          "label": "動畫官方：本TV Edition作品及OP／ED資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://animecca.jp/ja/works/mahoushoujomadokamagikahajimarinomonogat",
+          "label": "animecca：本TV Edition曲名、演唱及OP／ED交叉資料",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://www.joysound.com/web/search/title?keyword=%E3%81%BE%E3%81%A9%E3%81%8B%E3%83%9E%E3%82%AE%E3%82%AB&match=1",
+          "label": "JOYSOUND：本TV Edition曲名與演唱交叉資料",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "madoka-magica-tv-edition-2025-ed-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.madoka-magica.com/tv/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "madoka-magica-tv-edition-2025-ed-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.madoka-magica.com/tv/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "madoka-magica-tv-edition-2025-ed-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://animecca.jp/ja/works/mahoushoujomadokamagikahajimarinomonogat"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "madoka-magica-tv-edition-2025-ed-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animecca.jp/ja/works/mahoushoujomadokamagikahajimarinomonogat"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "madoka-magica-tv-edition-2025-ed-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.joysound.com/web/search/title?keyword=%E3%81%BE%E3%81%A9%E3%81%8B%E3%83%9E%E3%82%AE%E3%82%AB&match=1"
+          ],
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-31",
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement"
+          ],
+          "note": "歌曲基本資料已核對；作詞、作曲及編曲仍待第一方逐曲署名。",
+          "resumeWhen": "進入詳細資料整理時，取得動畫、藝人或唱片官方的逐曲作者資料後補充。",
+          "checkedAt": "2026-10-31"
+        },
+        {
+          "fields": [
+            "recordings",
+            "recording_format",
+            "video_metadata",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "音源版本、影片、發行品及正版平台資料仍待核對。",
+          "resumeWhen": "進入詳細資料整理時，取得對應版本、影片、發行品或正版平台的直接資料後補充。",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    }
+  ],
+  "broadcastLabel": "2025日本TV Edition：2012年前後兩部劇場版再編為全11話，自2025-10-12起MBS／TBS系每週日17:00播出。歷史常規完整時段17:00–17:30，11/23另為17:30–18:00；30分鐘為播出槽、非淨片長。與2011原TV系列、2012原劇場版本及魔法紀錄外傳分開。",
+  "identifierSource": {
+    "label": "アニプレックス：本TV Edition作品識別",
+    "url": "https://www.aniplex.co.jp/lineup/madoka-zenkouhen-tv/",
+    "language": "ja"
+  }
+},
 ];
 
-export const curated2025FallAnimeIds: number[] = [177937,170577,153800,185801,183385,180082,181447,194447,179302,195153,179992,182896,162890,180436,195240,186524,187940,173523,177271,186190,186794,186920,129195,186161,183965,185575,185731,162669,184322,188487,173692,183291,185116,187464,193968,188388,190840,186914,170018,170936,184997,196553,196230,187860,176298,174914,186621,198561,198117,185694,186736,140291,184718,187921,187331,194832,198926,198413,199794,169420,188653,193238,193883,196229,187166,195173,199009,194389,188529,199635,204621,198921,199008,185073,178052,184470,158871,189258,142274,165159,8687,966,6149,-509355,-202523502,-202524101,-202524103];
+export const curated2025FallAnimeIds: number[] = [177937,170577,153800,185801,183385,180082,181447,194447,179302,195153,179992,182896,162890,180436,195240,186524,187940,173523,177271,186190,186794,186920,129195,186161,183965,185575,185731,162669,184322,188487,173692,183291,185116,187464,193968,188388,190840,186914,170018,170936,184997,196553,196230,187860,176298,174914,186621,198561,198117,185694,186736,140291,184718,187921,187331,194832,198926,198413,199794,169420,188653,193238,193883,196229,187166,195173,199009,194389,188529,199635,204621,198921,199008,185073,178052,184470,158871,189258,142274,165159,8687,966,6149,-509355,-202523502,-202524101,-202524103,-202524301];
