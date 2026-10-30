@@ -1,6 +1,6 @@
-import type { CuratedAnimeSeed } from "@/data/curated-seeds/types";
+import type { CuratedCatalogAnimeSeed } from "@/data/curated-seeds/types";
 
-const curated2020WinterSeedRows: CuratedAnimeSeed[] = [
+const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
   {
   "anilistId": 113472,
   "id": "curated-113472",
@@ -19327,11 +19327,769 @@ const curated2020WinterSeedRows: CuratedAnimeSeed[] = [
     ],
     verifiedAt: "2026-09-02",
   },
+
+  {
+  "catalogKey": -201723701,
+  "id": "curated-pierrot-black-clover-2017",
+  "slug": "black-clover-2017",
+  "seasonIds": [
+    "2020-winter",
+    "2020-summer",
+    "2021-winter"
+  ],
+  "verifiedAt": "2026-10-31",
+  "metadataVerifiedAt": "2026-10-31",
+  "metadataSources": [
+    {
+      "url": "https://pierrot.jp/archive/2015/tv10_29.html",
+      "label": "原日本TV作品識別、播出期間與節目形式：スタジオぴえろ公式サイト",
+      "role": "identifier",
+      "language": "ja",
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/anime/bclover_1st/onair/",
+      "label": "原版每週播出日與開始時刻：テレビ東京アニメ公式",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201711/24644_201711211825.html",
+      "label": "原版歷史單話完整播出時段：テレビ東京",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)",
+      "label": "原版歷史播出與後續版本交叉核對：中文維基百科",
+      "role": "broadcast_cross_check",
+      "language": "multi",
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/anime/bclover_1st/news/",
+      "label": "原版2020至2021年換曲與新話恢復公告：テレビ東京アニメ公式",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-31"
+    }
+  ],
+  "themeAvailability": "documented",
+  "startDate": "2017-10-03",
+  "titleJa": "ブラッククローバー",
+  "editorialWeekday": 2,
+  "broadcastTimeJst": "18:25",
+  "broadcastLabel": "原日本TV系列：2017-10-03至2021-03-30，全170話。製作方標示每話30分鐘為節目格式，非淨片長；原版週二18:25，2017-11-21歷史獨立時段18:25–18:55。與電影及2026年第二季分開。",
+  "status": "finished",
+  "officialSiteUrl": "https://bclover.jp/season1/music/",
+  "identifierSource": {
+    "label": "原日本TV作品識別與播出記錄：スタジオぴえろ公式サイト",
+    "url": "https://pierrot.jp/archive/2015/tv10_29.html",
+    "language": "ja"
+  },
+  "sourceReferenceUrls": [
+    "https://pierrot.jp/archive/2015/tv10_29.html",
+    "https://www.tv-tokyo.co.jp/anime/bclover_1st/onair/",
+    "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201711/24644_201711211825.html",
+    "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)",
+    "https://www.tv-tokyo.co.jp/anime/bclover_1st/news/"
+  ],
+  "themes": [
+    {
+      "id": "black-clover-2017-op-10",
+      "songId": "black-clover-2017-op-10-song",
+      "type": "OP",
+      "sequence": 10,
+      "titleJa": "Black Catcher",
+      "artistDisplayName": "ビッケブランカ",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://bclover.jp/season1/music/",
+          "label": "原版第10クールOP曲名、演唱名義、用途：TVアニメ「ブラッククローバー」公式サイト",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)",
+          "label": "原版第10クールOP曲名、用途交叉核對：中文維基百科",
+          "role": "cross_check",
+          "language": "multi",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://www.joysound.com/web/s/karaoke/contents/anime/list_2001",
+          "label": "原版第10クールOP演唱名義交叉核對：JOYSOUND.com",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "black-clover-2017-op-10-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://bclover.jp/season1/music/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "black-clover-2017-op-10",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://bclover.jp/season1/music/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "black-clover-2017-op-10-song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "black-clover-2017-op-10",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "black-clover-2017-op-10-song",
+          "fields": [
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.joysound.com/web/s/karaoke/contents/anime/list_2001"
+          ],
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "black-clover-2017-ed-10",
+      "songId": "black-clover-2017-ed-10-song",
+      "type": "ED",
+      "sequence": 10,
+      "titleJa": "New Page",
+      "artistDisplayName": "INTERSECTION",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://bclover.jp/season1/music/",
+          "label": "原版第10クールED曲名、演唱名義、用途：TVアニメ「ブラッククローバー」公式サイト",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)",
+          "label": "原版第10クールED曲名、演唱名義、用途交叉核對：中文維基百科",
+          "role": "cross_check",
+          "language": "multi",
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "black-clover-2017-ed-10-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://bclover.jp/season1/music/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "black-clover-2017-ed-10",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://bclover.jp/season1/music/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "black-clover-2017-ed-10-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "black-clover-2017-ed-10",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)"
+          ],
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "black-clover-2017-op-11",
+      "songId": "black-clover-2017-op-11-song",
+      "type": "OP",
+      "sequence": 11,
+      "titleJa": "Stories",
+      "artistDisplayName": "Snow Man",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://bclover.jp/season1/music/",
+          "label": "原版第11クールOP曲名、演唱名義、用途：TVアニメ「ブラッククローバー」公式サイト",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)",
+          "label": "原版第11クールOP曲名、演唱名義、用途交叉核對：中文維基百科",
+          "role": "cross_check",
+          "language": "multi",
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "black-clover-2017-op-11-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://bclover.jp/season1/music/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "black-clover-2017-op-11",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://bclover.jp/season1/music/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "black-clover-2017-op-11-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "black-clover-2017-op-11",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)"
+          ],
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-31",
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters"
+          ],
+          "note": "已確認2020年夏季片頭用途；原春季啟用與完整跨季使用範圍仍待核對。",
+          "resumeWhen": "取得原版春季啟用或其他季度逐話用曲及播出日期資料後，再補相應季度。",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "black-clover-2017-ed-11",
+      "songId": "black-clover-2017-ed-11-song",
+      "type": "ED",
+      "sequence": 11,
+      "titleJa": "アンサー",
+      "artistDisplayName": "花譜",
+      "seasonIds": [],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://bclover.jp/season1/music/",
+          "label": "原版第11クールED曲名、演唱名義、用途：TVアニメ「ブラッククローバー」公式サイト",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)",
+          "label": "原版第11クールED曲名、演唱名義、用途交叉核對：中文維基百科",
+          "role": "cross_check",
+          "language": "multi",
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "black-clover-2017-ed-11-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://bclover.jp/season1/music/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "black-clover-2017-ed-11",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://bclover.jp/season1/music/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "black-clover-2017-ed-11-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "black-clover-2017-ed-11",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)"
+          ],
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-31",
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters"
+          ],
+          "note": "歌曲與原版片尾用途已確認，實際使用季度仍待逐話用曲及播出日期資料。",
+          "resumeWhen": "取得原版相應話數的歌曲署名與播出日期後，逐季補充本曲用途。",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "black-clover-2017-op-12",
+      "songId": "black-clover-2017-op-12-song",
+      "type": "OP",
+      "sequence": 12,
+      "titleJa": "永遠に光れ(Everlasting Shine)",
+      "artistDisplayName": "TOMORROW X TOGETHER",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://bclover.jp/season1/music/",
+          "label": "原版第12クールOP曲名、演唱名義、用途：TVアニメ「ブラッククローバー」公式サイト",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)",
+          "label": "原版第12クールOP演唱名義、用途交叉核對：中文維基百科",
+          "role": "cross_check",
+          "language": "multi",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://www.mau2.com/anime/blackclover-3",
+          "label": "原版第12クールOP曲名交叉核對：まうまう☆ アニメ声優情報",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "black-clover-2017-op-12-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://bclover.jp/season1/music/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "black-clover-2017-op-12",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://bclover.jp/season1/music/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "black-clover-2017-op-12-song",
+          "fields": [
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "black-clover-2017-op-12",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "black-clover-2017-op-12-song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/blackclover-3"
+          ],
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-31",
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters"
+          ],
+          "note": "已確認2020年夏季9月啟用；其後跨季延用範圍仍待逐話核對。",
+          "resumeWhen": "取得原版後續話數的歌曲署名與播出日期後，再補相應季度；已確認的夏季用途保留。",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "black-clover-2017-ed-12",
+      "songId": "black-clover-2017-ed-12-song",
+      "type": "ED",
+      "sequence": 12,
+      "titleJa": "A Walk",
+      "artistDisplayName": "梶原岳人",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://bclover.jp/season1/music/",
+          "label": "原版第12クールED曲名、演唱名義、用途：TVアニメ「ブラッククローバー」公式サイト",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)",
+          "label": "原版第12クールED曲名、演唱名義、用途交叉核對：中文維基百科",
+          "role": "cross_check",
+          "language": "multi",
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "black-clover-2017-ed-12-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://bclover.jp/season1/music/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "black-clover-2017-ed-12",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://bclover.jp/season1/music/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "black-clover-2017-ed-12-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "black-clover-2017-ed-12",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)"
+          ],
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-31",
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters"
+          ],
+          "note": "已確認2020年夏季9月啟用；其後跨季延用範圍仍待逐話核對。",
+          "resumeWhen": "取得原版後續話數的歌曲署名與播出日期後，再補相應季度；已確認的夏季用途保留。",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "black-clover-2017-op-13",
+      "songId": "black-clover-2017-op-13-song",
+      "type": "OP",
+      "sequence": 13,
+      "titleJa": "Grandeur",
+      "artistDisplayName": "Snow Man",
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://bclover.jp/season1/music/",
+          "label": "原版第13クールOP曲名、演唱名義、用途：TVアニメ「ブラッククローバー」公式サイト",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)",
+          "label": "原版第13クールOP曲名、演唱名義、用途交叉核對：中文維基百科",
+          "role": "cross_check",
+          "language": "multi",
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "black-clover-2017-op-13-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://bclover.jp/season1/music/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "black-clover-2017-op-13",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://bclover.jp/season1/music/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "black-clover-2017-op-13-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "black-clover-2017-op-13",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)"
+          ],
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-31"
+    },
+    {
+      "id": "black-clover-2017-ed-13",
+      "songId": "black-clover-2017-ed-13-song",
+      "type": "ED",
+      "sequence": 13,
+      "titleJa": "BEAUTIFUL",
+      "artistDisplayName": "TREASURE",
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://bclover.jp/season1/music/",
+          "label": "原版第13クールED曲名、演唱名義、用途：TVアニメ「ブラッククローバー」公式サイト",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)",
+          "label": "原版第13クールED曲名、演唱名義、用途交叉核對：中文維基百科",
+          "role": "cross_check",
+          "language": "multi",
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "black-clover-2017-ed-13-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://bclover.jp/season1/music/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "black-clover-2017-ed-13",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://bclover.jp/season1/music/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "black-clover-2017-ed-13-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "black-clover-2017-ed-13",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)"
+          ],
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-31"
+    }
+  ]
+},
 ];
 
-export const curated2020WinterSeeds: CuratedAnimeSeed[] =
+export const curated2020WinterSeeds: CuratedCatalogAnimeSeed[] =
   curated2020WinterSeedRows;
 
-export const curated2020WinterAnimeIds = [...curated2020WinterSeeds.map(
-  ({ anilistId }) => anilistId,
-), 8687, 966, 6149];
+export const curated2020WinterAnimeIds = [113472,112625,108092,105190,114417,104051,110090,113469,101350,104461,109298,110350,114657,101367,112293,113397,113851,114656,106479,108628,113463,98515,101168,106863,107420,108450,111951,113470,104391,104462,108463,108617,109964,99807,104936,106625,107067,110495,110613,111501,107201,105228,110615,107651,110178,113932,101634,114448,112033,112748,109586,117280,115794,110354,115519,112686,116979,131459,8687,966,6149,-201723701];
