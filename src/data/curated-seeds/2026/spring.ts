@@ -6453,751 +6453,982 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
 }],"metadataVerifiedAt":"2026-07-25","metadataSources":[{"url":"https://aipri.jp/anime/onair/","label":"動畫官方：TV播出或季度編排","role":"first_party","language":"ja","verifiedAt":"2026-10-19"}],"broadcastTimeJst":"09:30"},
   {"anilistId":177634,"id":"curated-177634","slug":"diamond-no-ace-act-ii-second-season","seasonIds":["2026-spring","2026-fall"],"startDate":"2026-04-05","titleJa":"ダイヤのA actII -Second Season-","titleZhHant":"鑽石王牌 actII Second Season","titleRomaji":"Diamond no Ace act II: Second Season","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177634-jYdKdbPOwWhR.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/177634-bU4CFWC8Q4dt.jpg","editorialWeekday":7,"broadcastTimeJst":"17:30","status":"airing","officialSiteUrl":"https://diaace.com/","anilistUrl":"https://anilist.co/anime/177634","imageSourceUrl":"https://anilist.co/anime/177634","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://diaace.com/arrivals/7578/"],"animeThemesUrl":"https://animethemes.moe/anime/diamond_no_ace_act_ii_second_season","uzureaUrl":"https://uzurea.net/spring-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"Let’s Go Crazy","artistDisplayName":"Baby Canta","youtubeUrl":"https://www.youtube.com/watch?v=i34ilDuvtHw","songId":"diamond-no-ace-act-ii-second-season-op-1-song","sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=i34ilDuvtHw","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"動畫官方網站","url":"https://diaace.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/diamond_no_ace_act_ii_second_season","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-25"},{"url":"https://news.ponycanyon.co.jp/2026/07/123565","label":"PONY CANYON 官方：Let’s Go Crazy 完整創作及兩個 Music Video","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://zh.wikipedia.org/wiki/%E9%91%BD%E7%9F%B3%E7%8E%8B%E7%89%8C","label":"Let’s Go Crazy：演唱／曲名（來源撇號排印不同）／動畫用途：中文維基百科條目編輯者（發表／資料提供；刊載：中文維基百科）","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-31"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://news.ponycanyon.co.jp/2026/07/123565"],"verifiedAt":"2026-10-15","targetId":"diamond-no-ace-act-ii-second-season-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://news.ponycanyon.co.jp/2026/07/123565"],"verifiedAt":"2026-10-15","targetId":"diamond-no-ace-act-ii-second-season-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://news.ponycanyon.co.jp/2026/07/123565"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://news.ponycanyon.co.jp/2026/07/123565"],"verifiedAt":"2026-10-15","targetId":"https://babycanta.lnk.to/LetsGoCrazy"},{"target":"link","fields":["url","type"],"sourceUrls":["https://news.ponycanyon.co.jp/2026/07/123565"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=cpuG1Oc-FtE"},{"target":"link","fields":["url","type"],"sourceUrls":["https://news.ponycanyon.co.jp/2026/07/123565"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=YCpqUVtOJMQ"},{"target":"song","targetId":"diamond-no-ace-act-ii-second-season-op-1-song","fields":["artist","title"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E9%91%BD%E7%9F%B3%E7%8E%8B%E7%89%8C"],"verifiedAt":"2026-10-31"},{"target":"anime_use","targetId":"diamond-no-ace-act-ii-second-season-op-1","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E9%91%BD%E7%9F%B3%E7%8E%8B%E7%89%8C"],"verifiedAt":"2026-10-31"}],"credits":[{"name":"Baby Canta","role":"vocals"},{"name":"松原さらり","role":"lyrics"},{"name":"Baby Canta","role":"lyrics"},{"name":"Baby Canta","role":"composition"},{"name":"Shin Sakiura","role":"arrangement"}],"links":[{"platform":"官方配信","label":"Let’s Go Crazy 官方配信","url":"https://babycanta.lnk.to/LetsGoCrazy","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"YouTube","label":"Let’s Go Crazy Official Music Video","url":"https://www.youtube.com/watch?v=cpuG1Oc-FtE","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"YouTube","label":"Let’s Go Crazy Anime Music Video","url":"https://www.youtube.com/watch?v=YCpqUVtOJMQ","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"}],"seasonIds":["2026-spring"],"sourceMode":"explicit"},{"type":"ED","sequence":1,"titleJa":"NUMBER","artistDisplayName":"SUPER★DRAGON","youtubeUrl":"https://www.youtube.com/watch?v=0J7nNAn9ohU","songId":"diamond-no-ace-act-ii-second-season-ed-1-song","sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=0J7nNAn9ohU","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"動畫官方網站","url":"https://diaace.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/diamond_no_ace_act_ii_second_season","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-25"},{"url":"https://super-dragon.jp/discography/call-me-asap-number/","label":"SUPER★DRAGON 官方：Call Me Asap / NUMBER 最終 CD 收錄、日期及發行版","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.lisani.jp/0000315701/","label":"リスアニ！：NUMBER 完整創作與第1季度 ED 交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://super-dragon.jp/news/news10866/","label":"SUPER★DRAGON 官方：NUMBER 先行配信及 CD Single","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://zh.wikipedia.org/wiki/%E9%91%BD%E7%9F%B3%E7%8E%8B%E7%89%8C","label":"NUMBER：曲名／演唱／動畫用途：中文維基百科條目編輯者（發表／資料提供；刊載：中文維基百科）","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-31"}],"releases":[{"id":"diamond-no-ace-act-ii-second-season-ed-1-pcca-06514","title":"Call Me Asap / NUMBER","artistDisplayName":"SUPER★DRAGON","type":"single","tracks":[{"title":"NUMBER","position":2}],"date":{"value":"2026-07-15","precision":"day"},"catalogNumber":"PCCA-06514","edition":"通常盤A","label":"PONY CANYON"},{"id":"diamond-no-ace-act-ii-second-season-ed-1-pcca-06515","title":"Call Me Asap / NUMBER","artistDisplayName":"SUPER★DRAGON","type":"single","tracks":[{"title":"NUMBER","position":2}],"date":{"value":"2026-07-15","precision":"day"},"catalogNumber":"PCCA-06515","edition":"通常盤B","label":"PONY CANYON"},{"id":"diamond-no-ace-act-ii-second-season-ed-1-digital","title":"NUMBER","artistDisplayName":"SUPER★DRAGON","type":"single","tracks":[{"title":"NUMBER"}],"date":{"value":"2026-04-05","precision":"day"},"edition":"DIGITAL"},{"id":"diamond-no-ace-act-ii-second-season-ed-1-pcca-06516","title":"Call Me Asap / NUMBER","artistDisplayName":"SUPER★DRAGON","type":"single","tracks":[{"title":"NUMBER","position":2}],"date":{"value":"2026-07-15","precision":"day"},"catalogNumber":"PCCA-06516","edition":"初回生産限定「志村玲於」盤","label":"PONY CANYON"},{"id":"diamond-no-ace-act-ii-second-season-ed-1-pcca-06517","title":"Call Me Asap / NUMBER","artistDisplayName":"SUPER★DRAGON","type":"single","tracks":[{"title":"NUMBER","position":2}],"date":{"value":"2026-07-15","precision":"day"},"catalogNumber":"PCCA-06517","edition":"初回生産限定「古川毅」盤","label":"PONY CANYON"},{"id":"diamond-no-ace-act-ii-second-season-ed-1-pcca-06518","title":"Call Me Asap / NUMBER","artistDisplayName":"SUPER★DRAGON","type":"single","tracks":[{"title":"NUMBER","position":2}],"date":{"value":"2026-07-15","precision":"day"},"catalogNumber":"PCCA-06518","edition":"初回生産限定「ジャン海渡」盤","label":"PONY CANYON"},{"id":"diamond-no-ace-act-ii-second-season-ed-1-pcca-06519","title":"Call Me Asap / NUMBER","artistDisplayName":"SUPER★DRAGON","type":"single","tracks":[{"title":"NUMBER","position":2}],"date":{"value":"2026-07-15","precision":"day"},"catalogNumber":"PCCA-06519","edition":"初回生産限定「飯島颯」盤","label":"PONY CANYON"},{"id":"diamond-no-ace-act-ii-second-season-ed-1-pcca-06520","title":"Call Me Asap / NUMBER","artistDisplayName":"SUPER★DRAGON","type":"single","tracks":[{"title":"NUMBER","position":2}],"date":{"value":"2026-07-15","precision":"day"},"catalogNumber":"PCCA-06520","edition":"初回生産限定「伊藤壮吾」盤","label":"PONY CANYON"},{"id":"diamond-no-ace-act-ii-second-season-ed-1-pcca-06521","title":"Call Me Asap / NUMBER","artistDisplayName":"SUPER★DRAGON","type":"single","tracks":[{"title":"NUMBER","position":2}],"date":{"value":"2026-07-15","precision":"day"},"catalogNumber":"PCCA-06521","edition":"初回生産限定「田中洸希」盤","label":"PONY CANYON"},{"id":"diamond-no-ace-act-ii-second-season-ed-1-pcca-06522","title":"Call Me Asap / NUMBER","artistDisplayName":"SUPER★DRAGON","type":"single","tracks":[{"title":"NUMBER","position":2}],"date":{"value":"2026-07-15","precision":"day"},"catalogNumber":"PCCA-06522","edition":"初回生産限定「池田彪馬」盤","label":"PONY CANYON"},{"id":"diamond-no-ace-act-ii-second-season-ed-1-pcca-06523","title":"Call Me Asap / NUMBER","artistDisplayName":"SUPER★DRAGON","type":"single","tracks":[{"title":"NUMBER","position":2}],"date":{"value":"2026-07-15","precision":"day"},"catalogNumber":"PCCA-06523","edition":"初回生産限定「松村和哉」盤","label":"PONY CANYON"},{"id":"diamond-no-ace-act-ii-second-season-ed-1-pcca-06524","title":"Call Me Asap / NUMBER","artistDisplayName":"SUPER★DRAGON","type":"single","tracks":[{"title":"NUMBER","position":2}],"date":{"value":"2026-07-15","precision":"day"},"catalogNumber":"PCCA-06524","edition":"初回生産限定「柴崎楽」盤","label":"PONY CANYON"}],"evidence":[{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://super-dragon.jp/discography/call-me-asap-number/"],"verifiedAt":"2026-10-15","targetId":"diamond-no-ace-act-ii-second-season-ed-1-pcca-06514"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://super-dragon.jp/discography/call-me-asap-number/"],"verifiedAt":"2026-10-15","targetId":"diamond-no-ace-act-ii-second-season-ed-1-pcca-06515"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.lisani.jp/0000315701/"],"verifiedAt":"2026-10-15"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://super-dragon.jp/news/news10866/"],"verifiedAt":"2026-10-15","targetId":"diamond-no-ace-act-ii-second-season-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://super-dragon.jp/news/news10866/"],"verifiedAt":"2026-10-15","targetId":"diamond-no-ace-act-ii-second-season-ed-1"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://super-dragon.jp/news/news10866/"],"verifiedAt":"2026-10-15","targetId":"diamond-no-ace-act-ii-second-season-ed-1-digital"},{"target":"link","fields":["url","type"],"sourceUrls":["https://super-dragon.jp/news/news10866/"],"verifiedAt":"2026-10-15","targetId":"https://lnk.to/SUPER_DRAGON_NUMBER"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://super-dragon.jp/discography/call-me-asap-number/"],"verifiedAt":"2026-10-15","targetId":"diamond-no-ace-act-ii-second-season-ed-1-pcca-06516"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://super-dragon.jp/discography/call-me-asap-number/"],"verifiedAt":"2026-10-15","targetId":"diamond-no-ace-act-ii-second-season-ed-1-pcca-06517"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://super-dragon.jp/discography/call-me-asap-number/"],"verifiedAt":"2026-10-15","targetId":"diamond-no-ace-act-ii-second-season-ed-1-pcca-06518"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://super-dragon.jp/discography/call-me-asap-number/"],"verifiedAt":"2026-10-15","targetId":"diamond-no-ace-act-ii-second-season-ed-1-pcca-06519"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://super-dragon.jp/discography/call-me-asap-number/"],"verifiedAt":"2026-10-15","targetId":"diamond-no-ace-act-ii-second-season-ed-1-pcca-06520"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://super-dragon.jp/discography/call-me-asap-number/"],"verifiedAt":"2026-10-15","targetId":"diamond-no-ace-act-ii-second-season-ed-1-pcca-06521"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://super-dragon.jp/discography/call-me-asap-number/"],"verifiedAt":"2026-10-15","targetId":"diamond-no-ace-act-ii-second-season-ed-1-pcca-06522"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://super-dragon.jp/discography/call-me-asap-number/"],"verifiedAt":"2026-10-15","targetId":"diamond-no-ace-act-ii-second-season-ed-1-pcca-06523"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://super-dragon.jp/discography/call-me-asap-number/"],"verifiedAt":"2026-10-15","targetId":"diamond-no-ace-act-ii-second-season-ed-1-pcca-06524"},{"target":"song","targetId":"diamond-no-ace-act-ii-second-season-ed-1-song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E9%91%BD%E7%9F%B3%E7%8E%8B%E7%89%8C"],"verifiedAt":"2026-10-31"},{"target":"anime_use","targetId":"diamond-no-ace-act-ii-second-season-ed-1","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E9%91%BD%E7%9F%B3%E7%8E%8B%E7%89%8C"],"verifiedAt":"2026-10-31"}],"credits":[{"name":"SUPER★DRAGON","role":"vocals"},{"name":"Shinji Miyauchi","role":"lyrics"},{"name":"TSUYOSHI","role":"lyrics"},{"name":"JEAN","role":"lyrics"},{"name":"TOMOYA","role":"lyrics"},{"name":"Shinji Miyauchi","role":"composition"},{"name":"TSUYOSHI","role":"composition"},{"name":"JEAN","role":"composition"},{"name":"Shinji Miyauchi","role":"arrangement"}],"links":[{"platform":"官方配信","label":"NUMBER 官方配信","url":"https://lnk.to/SUPER_DRAGON_NUMBER","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"}],"seasonIds":["2026-spring"],"sourceMode":"explicit"},{"type":"OP","sequence":2,"titleJa":"NEVER SAY NEVER AGAIN","artistDisplayName":"GLAY","usageLabel":"第2クール主題歌","sourceMode":"explicit","songId":"diamond-no-ace-act-ii-second-season-op-2-song","sources":[{"url":"https://www.glay.co.jp/news/detail/10279","label":"GLAY 官方：NEVER SAY NEVER AGAIN 動畫第2季度 OP、TERU 創作及 Single","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.oricon.co.jp/prof/9010/lyrics/269922/","label":"ORICON：NEVER SAY NEVER AGAIN 編曲與動畫用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.glay.co.jp/discography/detail/220/","label":"GLAY 官方最終 discography：汚れた英雄 三個 CD 發行版與曲序","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"label":"動畫官方：第2クール秋季播出","url":"https://diaace.com/onair/","language":"ja","role":"first_party","verifiedAt":"2026-10-19"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.glay.co.jp/news/detail/10279"],"verifiedAt":"2026-10-15","targetId":"diamond-no-ace-act-ii-second-season-op-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.glay.co.jp/news/detail/10279"],"verifiedAt":"2026-10-15","targetId":"diamond-no-ace-act-ii-second-season-op-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.glay.co.jp/news/detail/10279"],"verifiedAt":"2026-10-15"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.oricon.co.jp/prof/9010/lyrics/269922/"],"verifiedAt":"2026-10-15"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.glay.co.jp/discography/detail/220/"],"verifiedAt":"2026-10-15","targetId":"diamond-no-ace-act-ii-second-season-op-2-pccn-90013-lsgc-0018"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.glay.co.jp/discography/detail/220/"],"verifiedAt":"2026-10-15","targetId":"diamond-no-ace-act-ii-second-season-op-2-pccn-90014-lsgc-0019"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.glay.co.jp/discography/detail/220/"],"verifiedAt":"2026-10-15","targetId":"diamond-no-ace-act-ii-second-season-op-2-pccn-90015-lsgc-0020"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.glay.co.jp/news/detail/10279"],"verifiedAt":"2026-10-15","targetId":"https://glay.lnk.to/0923_dirtyhero"},{"target":"anime_use","targetId":"diamond-no-ace-act-ii-second-season-op-2","fields":["usage"],"sourceUrls":["https://diaace.com/onair/"],"verifiedAt":"2026-10-19"}],"credits":[{"name":"GLAY","role":"vocals"},{"name":"TERU","role":"lyrics"},{"name":"TERU","role":"composition"},{"name":"GLAY","role":"arrangement"},{"name":"SEIJI KAMEDA","role":"arrangement"}],"releases":[{"id":"diamond-no-ace-act-ii-second-season-op-2-pccn-90013-lsgc-0018","title":"汚れた英雄","artistDisplayName":"GLAY","type":"single","tracks":[{"title":"NEVER SAY NEVER AGAIN","position":2}],"date":{"value":"2026-09-23","precision":"day"},"catalogNumber":"PCCN-90013 / LSGC-0018","edition":"CD＋Blu-ray"},{"id":"diamond-no-ace-act-ii-second-season-op-2-pccn-90014-lsgc-0019","title":"汚れた英雄","artistDisplayName":"GLAY","type":"single","tracks":[{"title":"NEVER SAY NEVER AGAIN","position":2}],"date":{"value":"2026-09-23","precision":"day"},"catalogNumber":"PCCN-90014 / LSGC-0019","edition":"CD＋DVD"},{"id":"diamond-no-ace-act-ii-second-season-op-2-pccn-90015-lsgc-0020","title":"汚れた英雄","artistDisplayName":"GLAY","type":"single","tracks":[{"title":"NEVER SAY NEVER AGAIN","position":2}],"date":{"value":"2026-09-23","precision":"day"},"catalogNumber":"PCCN-90015 / LSGC-0020","edition":"CD Only"}],"links":[{"platform":"官方配信","label":"汚れた英雄 官方 CD 購買入口","url":"https://glay.lnk.to/0923_dirtyhero","linkType":"physical_purchase","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"}],"seasonIds":["2026-fall"],"lastVerifiedAt":"2026-10-19"},{"type":"ED","sequence":2,"titleJa":"ROAD TO BE BLUE","artistDisplayName":"OxT","seasonIds":["2026-fall"],"sourceMode":"explicit","songId":"diamond-no-ace-act-ii-second-season-ed-2-song","sources":[{"label":"官方：曲名、演唱名義與動畫用途","url":"https://diaace.com/music/","language":"ja","role":"first_party","verifiedAt":"2026-10-19"},{"label":"官方：TV播出與季度資料","url":"https://diaace.com/onair/","language":"ja","role":"first_party","verifiedAt":"2026-10-19"},{"label":"Mikiki：季度OP／ED與名義交叉核對","url":"https://mikiki.tokyo.jp/articles/-/46275","language":"ja","role":"cross_check","verifiedAt":"2026-10-19"}],"lastVerifiedAt":"2026-10-19","evidence":[{"target":"song","targetId":"diamond-no-ace-act-ii-second-season-ed-2-song","fields":["title","artist"],"sourceUrls":["https://diaace.com/music/","https://mikiki.tokyo.jp/articles/-/46275"],"verifiedAt":"2026-10-19"},{"target":"anime_use","targetId":"diamond-no-ace-act-ii-second-season-ed-2","fields":["usage"],"sourceUrls":["https://diaace.com/music/","https://diaace.com/onair/","https://mikiki.tokyo.jp/articles/-/46275"],"verifiedAt":"2026-10-19"},{"target":"credits","fields":["credits"],"sourceUrls":["https://diaace.com/music/"],"verifiedAt":"2026-10-19"}],"usageLabel":"第2クール ED","credits":[{"name":"OxT","role":"vocals"},{"name":"hotaru","role":"lyrics"},{"name":"Tom-H@ck","role":"composition"},{"name":"Tom-H@ck","role":"arrangement"},{"name":"eba","role":"arrangement"}]}],"metadataVerifiedAt":"2026-10-19","metadataSources":[{"label":"動畫官方：作品及續播資料","url":"https://diaace.com/","language":"ja","role":"first_party","verifiedAt":"2026-10-19"},{"label":"AniList：作品識別與公開圖像","url":"https://anilist.co/anime/177634","language":"en","role":"identifier","verifiedAt":"2026-07-25"},{"label":"繁體中文季度列表交叉對照","url":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","language":"zh-Hant","role":"localized_cross_check","verifiedAt":"2026-07-25"},{"label":"AnimeThemes：OP／ED 曲目交叉核對","url":"https://animethemes.moe/anime/diamond_no_ace_act_ii_second_season","language":"en","role":"theme_cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA：季度主題曲與官方影片索引","url":"https://uzurea.net/spring-2026-anime-theme-songs/","language":"ja","role":"theme_cross_check","verifiedAt":"2026-07-25"},{"label":"季度首播公開來源","url":"https://diaace.com/arrivals/7578/","language":"ja","role":"broadcast_cross_check","verifiedAt":"2026-07-25"},{"label":"動畫官方：TV首播、分割季度及播出時段","url":"https://diaace.com/onair/","language":"ja","role":"first_party","verifiedAt":"2026-10-19"},{"url":"https://www.tv-tokyo.co.jp/anime/diaace2_2nd/","label":"actⅡ第二季2026年4月日本TV公告（現行秋17:30不套春）：テレビ東京（發表／資料提供；刊載：テレビ東京アニメ公式）","role":"first_party","language":"ja","verifiedAt":"2026-10-31"},{"url":"https://www.primevideo.com/-/zh_TW/detail/0O3TP7OLBI0BGPVNYNULBGFOKQ","label":"同第4季春已讀第1–3及5–11話正版各24分鐘（平台交叉）：Prime Video","role":"broadcast_cross_check","language":"multi","verifiedAt":"2026-10-31"}],"broadcastLabel":"日本標準TV同版：東京電視台actⅡ-Second Season-頁保留2026年4月開播公告；正版Prime第四季春季已讀第1–3及5–11話卡各24分鐘，與2019版及秋季續播分開。頁面目前週日17:30屬10月續播，本稿未用作春季精確時段。"},
   {"anilistId":197868,"id":"curated-197868","slug":"maid-san-wa-taberu-dake","seasonIds":["2026-spring"],"startDate":"2026-04-05","titleJa":"メイドさんは食べるだけ","titleZhHant":"女僕小姐的貪吃日常","titleRomaji":"Maid-san wa Taberu dake","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197868-sm5jcjPKWhNL.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/197868-wBmzwZ3Ay4bD.jpg","editorialWeekday":7,"broadcastTimeJst":"22:00","status":"finished","officialSiteUrl":"https://meitabe-anime.com/","anilistUrl":"https://anilist.co/anime/197868","imageSourceUrl":"https://anilist.co/anime/197868","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/663366"],"animeThemesUrl":"https://animethemes.moe/anime/maidsan_wa_taberu_dake","uzureaUrl":"https://uzurea.net/spring-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"リボン","titleRomaji":"Ribbon","artistDisplayName":"majiko","youtubeUrl":"https://www.youtube.com/watch?v=VHD2269UqdM","songId":"maid-san-wa-taberu-dake-op-1-song","sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=VHD2269UqdM","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"動畫官方網站","url":"https://meitabe-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/maidsan_wa_taberu_dake","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-25"},{"url":"https://meitabe-anime.com/music/","label":"動畫官網 MUSIC：OP／ED、完整創作及商品","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.majiko.net/news/?id=646","label":"majiko 官方：リボン Music Video 與 Full 配信入口","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.majiko.net/news/","label":"majiko 官方公告：リボン Full 配信日期","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.majiko.net/discography/?id=39","label":"majiko 官方 discography：リボン TVsize ver 及創作","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.majiko.net/news/?page=2","label":"majiko 官方公告：リボン TV size 於4月5日配信","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://prtimes.jp/main/html/rd/p/000002582.000031422.html","label":"リボン：曲名／演唱／動畫用途：株式会社ハピネット（發表）；內文明ハピネット・メディアマーケティング為製作幹事（發表／資料提供；刊載：PR TIMES）","role":"first_party","language":"ja","verifiedAt":"2026-10-31"},{"url":"https://zh.wikipedia.org/wiki/%E5%A5%B3%E5%83%95%E5%B0%8F%E5%A7%90%E7%9A%84%E8%B2%AA%E5%90%83%E6%97%A5%E5%B8%B8","label":"リボン：曲名／演唱／動畫用途：中文維基百科條目編輯者（發表／資料提供；刊載：中文維基百科）","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-31"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://meitabe-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"maid-san-wa-taberu-dake-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://meitabe-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"maid-san-wa-taberu-dake-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://meitabe-anime.com/music/"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.majiko.net/news/?id=646"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=ZhwD5i8ihXQ"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.majiko.net/news/?id=646"],"verifiedAt":"2026-10-15","targetId":"https://lnk.to/Ribbon_Full"},{"target":"recording","fields":["title","kind","format"],"sourceUrls":["https://www.majiko.net/news/"],"verifiedAt":"2026-10-15","targetId":"maid-san-wa-taberu-dake-op-1-full"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://www.majiko.net/news/"],"verifiedAt":"2026-10-15","targetId":"maid-san-wa-taberu-dake-op-1-digital"},{"target":"recording","fields":["title","kind","format"],"sourceUrls":["https://www.majiko.net/discography/?id=39"],"verifiedAt":"2026-10-15","targetId":"maid-san-wa-taberu-dake-op-1-tv"},{"target":"recording","fields":["title","format","kind"],"sourceUrls":["https://www.majiko.net/discography/?id=39","https://www.majiko.net/news/?page=2"],"verifiedAt":"2026-10-15","targetId":"maid-san-wa-taberu-dake-op-1-tv"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://www.majiko.net/news/?page=2"],"verifiedAt":"2026-10-15","targetId":"maid-san-wa-taberu-dake-op-1-tv-digital"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.majiko.net/news/?page=2"],"verifiedAt":"2026-10-15","targetId":"https://lnk.to/Ribbon_TVsize"},{"target":"song","targetId":"maid-san-wa-taberu-dake-op-1-song","fields":["title","artist"],"sourceUrls":["https://prtimes.jp/main/html/rd/p/000002582.000031422.html"],"verifiedAt":"2026-10-31"},{"target":"anime_use","targetId":"maid-san-wa-taberu-dake-op-1","fields":["usage"],"sourceUrls":["https://prtimes.jp/main/html/rd/p/000002582.000031422.html"],"verifiedAt":"2026-10-31"},{"target":"song","targetId":"maid-san-wa-taberu-dake-op-1-song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%A5%B3%E5%83%95%E5%B0%8F%E5%A7%90%E7%9A%84%E8%B2%AA%E5%90%83%E6%97%A5%E5%B8%B8"],"verifiedAt":"2026-10-31"},{"target":"anime_use","targetId":"maid-san-wa-taberu-dake-op-1","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%A5%B3%E5%83%95%E5%B0%8F%E5%A7%90%E7%9A%84%E8%B2%AA%E5%90%83%E6%97%A5%E5%B8%B8"],"verifiedAt":"2026-10-31"}],"credits":[{"name":"majiko","role":"vocals"},{"name":"majiko","role":"lyrics"},{"name":"majiko","role":"composition"},{"name":"majiko","role":"arrangement"}],"links":[{"platform":"YouTube","label":"リボン Official Music Video","url":"https://www.youtube.com/watch?v=ZhwD5i8ihXQ","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"官方配信","label":"リボン Full 官方配信","url":"https://lnk.to/Ribbon_Full","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"官方配信","label":"リボン TV size 官方配信","url":"https://lnk.to/Ribbon_TVsize","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","recordingId":"maid-san-wa-taberu-dake-op-1-tv"}],"recordings":[{"id":"maid-san-wa-taberu-dake-op-1-full","title":"リボン","kind":"vocal","format":"full"},{"id":"maid-san-wa-taberu-dake-op-1-tv","title":"リボン TVsize ver","kind":"vocal","format":"tv"}],"releases":[{"id":"maid-san-wa-taberu-dake-op-1-digital","title":"リボン","artistDisplayName":"majiko","type":"single","tracks":[{"title":"リボン","recordingId":"maid-san-wa-taberu-dake-op-1-full"}],"date":{"value":"2026-05-08","precision":"day"},"edition":"DIGITAL／Full"},{"id":"maid-san-wa-taberu-dake-op-1-tv-digital","title":"リボン TVsize ver","artistDisplayName":"majiko","type":"single","tracks":[{"title":"リボン TVsize ver","recordingId":"maid-san-wa-taberu-dake-op-1-tv"}],"date":{"value":"2026-04-05","precision":"day"},"edition":"DIGITAL／TV size"}],"sourceMode":"explicit"},{"type":"ED","sequence":1,"titleJa":"しあわせフレーバー","titleRomaji":"Shiawase Flavor","artistDisplayName":"ARCANA PROJECT","youtubeUrl":"https://www.youtube.com/watch?v=vBSo4npKK9A","songId":"maid-san-wa-taberu-dake-ed-1-song","sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=vBSo4npKK9A","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"動畫官方網站","url":"https://meitabe-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/maidsan_wa_taberu_dake","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-25"},{"url":"https://meitabe-anime.com/music/","label":"動畫官網 MUSIC：OP／ED、完整創作及商品","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.youtube.com/watch?v=d-ASHpk0uMg","label":"ARCANA PROJECT 官方：しあわせフレーバー Music Video","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://arcana-project.com/contents/1058241","label":"ARCANA PROJECT 官方：しあわせフレーバー 先行配信、完整創作及三個 CD 版","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://prtimes.jp/main/html/rd/p/000002582.000031422.html","label":"しあわせフレーバー：曲名／演唱／動畫用途：株式会社ハピネット（發表）；內文明ハピネット・メディアマーケティング為製作幹事（發表／資料提供；刊載：PR TIMES）","role":"first_party","language":"ja","verifiedAt":"2026-10-31"},{"url":"https://zh.wikipedia.org/wiki/%E5%A5%B3%E5%83%95%E5%B0%8F%E5%A7%90%E7%9A%84%E8%B2%AA%E5%90%83%E6%97%A5%E5%B8%B8","label":"しあわせフレーバー：曲名／演唱／動畫用途：中文維基百科條目編輯者（發表／資料提供；刊載：中文維基百科）","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-31"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://meitabe-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"maid-san-wa-taberu-dake-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://meitabe-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"maid-san-wa-taberu-dake-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://meitabe-anime.com/music/"],"verifiedAt":"2026-10-15"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://meitabe-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"maid-san-wa-taberu-dake-ed-1-lacm-34841"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://meitabe-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"maid-san-wa-taberu-dake-ed-1-lacm-24841"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://meitabe-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"maid-san-wa-taberu-dake-ed-1-lacm-24842"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.youtube.com/watch?v=d-ASHpk0uMg"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=d-ASHpk0uMg"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://arcana-project.com/contents/1058241"],"verifiedAt":"2026-10-15","targetId":"maid-san-wa-taberu-dake-ed-1-digital"},{"target":"song","targetId":"maid-san-wa-taberu-dake-ed-1-song","fields":["title","artist"],"sourceUrls":["https://prtimes.jp/main/html/rd/p/000002582.000031422.html"],"verifiedAt":"2026-10-31"},{"target":"anime_use","targetId":"maid-san-wa-taberu-dake-ed-1","fields":["usage"],"sourceUrls":["https://prtimes.jp/main/html/rd/p/000002582.000031422.html"],"verifiedAt":"2026-10-31"},{"target":"song","targetId":"maid-san-wa-taberu-dake-ed-1-song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%A5%B3%E5%83%95%E5%B0%8F%E5%A7%90%E7%9A%84%E8%B2%AA%E5%90%83%E6%97%A5%E5%B8%B8"],"verifiedAt":"2026-10-31"},{"target":"anime_use","targetId":"maid-san-wa-taberu-dake-ed-1","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%A5%B3%E5%83%95%E5%B0%8F%E5%A7%90%E7%9A%84%E8%B2%AA%E5%90%83%E6%97%A5%E5%B8%B8"],"verifiedAt":"2026-10-31"}],"credits":[{"name":"ARCANA PROJECT","role":"vocals"},{"name":"つむぎしゃち","role":"lyrics"},{"name":"中村瑛彦","role":"composition"},{"name":"中村瑛彦","role":"arrangement"}],"releases":[{"id":"maid-san-wa-taberu-dake-ed-1-lacm-34841","title":"しあわせフレーバー","artistDisplayName":"ARCANA PROJECT","type":"single","tracks":[{"title":"しあわせフレーバー","position":1}],"date":{"value":"2026-04-22","precision":"day"},"catalogNumber":"LACM-34841","edition":"初回限定盤","label":"Lantis"},{"id":"maid-san-wa-taberu-dake-ed-1-lacm-24841","title":"しあわせフレーバー","artistDisplayName":"ARCANA PROJECT","type":"single","tracks":[{"title":"しあわせフレーバー","position":1}],"date":{"value":"2026-04-22","precision":"day"},"catalogNumber":"LACM-24841","edition":"通常盤","label":"Lantis"},{"id":"maid-san-wa-taberu-dake-ed-1-lacm-24842","title":"しあわせフレーバー","artistDisplayName":"ARCANA PROJECT","type":"single","tracks":[{"title":"しあわせフレーバー","position":1}],"date":{"value":"2026-04-22","precision":"day"},"catalogNumber":"LACM-24842","edition":"アニメ盤","label":"Lantis"},{"id":"maid-san-wa-taberu-dake-ed-1-digital","title":"しあわせフレーバー","artistDisplayName":"ARCANA PROJECT","type":"single","tracks":[{"title":"しあわせフレーバー"}],"date":{"value":"2026-04-05","precision":"day"},"edition":"DIGITAL"}],"links":[{"platform":"YouTube","label":"しあわせフレーバー Official Music Video","url":"https://www.youtube.com/watch?v=d-ASHpk0uMg","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"}],"sourceMode":"explicit"}],"metadataVerifiedAt":"2026-07-25","metadataSources":[{"label":"動畫官方網站：作品與播出資料","url":"https://meitabe-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AniList：作品識別與公開圖像","url":"https://anilist.co/anime/197868","language":"en","role":"identifier","verifiedAt":"2026-07-25"},{"label":"繁體中文季度列表交叉對照","url":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","language":"zh-Hant","role":"localized_cross_check","verifiedAt":"2026-07-25"},{"label":"AnimeThemes：OP／ED 曲目交叉核對","url":"https://animethemes.moe/anime/maidsan_wa_taberu_dake","language":"en","role":"theme_cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA：季度主題曲與官方影片索引","url":"https://uzurea.net/spring-2026-anime-theme-songs/","language":"ja","role":"theme_cross_check","verifiedAt":"2026-07-25"},{"label":"季度首播公開來源","url":"https://natalie.mu/comic/news/663366","language":"ja","role":"broadcast_cross_check","verifiedAt":"2026-07-25"},{"url":"https://www.bs-asahi.co.jp/meitabe-anime/lineup/","label":"同本期第4–12話週日23:00–23:30完整常規槽（非淨長）：BS朝日","role":"first_party","language":"ja","verifiedAt":"2026-10-31"},{"url":"https://www.myvideo.net.tw/details/3/33020","label":"同本期正版第4–12話各24分鐘（平台交叉；不推可播放）：MyVideo","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-31"},{"url":"https://prtimes.jp/main/html/rd/p/000002582.000031422.html","label":"製作幹事發表的本期TV首播及先行配信身分／時刻分列：株式会社ハピネット（發表）；內文明ハピネット・メディアマーケティング為製作幹事（發表／資料提供；刊載：PR TIMES）","role":"first_party","language":"ja","verifiedAt":"2026-10-31"}],"broadcastLabel":"日本標準TV：製作幹事公告4/5起MX週日22:00、BS朝日23:00；BS朝日本期第4–12話常規23:00–23:30完整30分鐘槽（非淨長），正版MyVideo本期第4–12話各24分鐘。第1話4/1零時先行配信與4/5 TV開播分開。"},
-  {"anilistId":178749,"id":"curated-178749","slug":"mahou-no-shimai-luluttolilly","seasonIds":["2026-spring","2026-fall"],"startDate":"2026-04-05","titleJa":"魔法の姉妹ルルットリリィ","titleZhHant":"魔法姊妹露露特莉莉（上半）","titleRomaji":"Mahou no Shimai LuluttoLilly","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178749-c0tx9p13PVJy.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/178749-55kXPhUDKYvQ.jpg","editorialWeekday":7,"broadcastTimeJst":"22:30","status":"airing","officialSiteUrl":"https://www.luluttolilly.com/","anilistUrl":"https://anilist.co/anime/178749","imageSourceUrl":"https://anilist.co/anime/178749","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/663238"],"animeThemesUrl":"https://animethemes.moe/anime/mahou_no_shimai_luluttolilly","uzureaUrl":"https://uzurea.net/spring-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"Bubee","artistDisplayName":"ILLIT","youtubeUrl":"https://www.youtube.com/watch?v=803SES0YVcM","songId":"mahou-no-shimai-luluttolilly-op-1-song","sources":[{"url":"https://www.luluttolilly.com/staff-cast/","label":"動畫官網 STAFF／CAST：主題曲、創作與團隊","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://illit-official.jp/news/4b021476cf39","label":"ILLIT 官方：Bubee Digital Single、乃紫(noa)作詞與動畫 OP","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.youtube.com/watch?v=OZ44P4JU87E","label":"ILLIT 官方 Art Track：Bubee、聯合作詞作曲、制作及背景演唱","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.youtube.com/watch?v=dLkfa-X_H9E","label":"ILLIT 官方 Art Track：Bubee (Korean Ver.) 及配信日期","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.luluttolilly.com/news/detail.php?id=23759","label":"動畫官網：Bubee Anime Music Video 的確切入口","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.luluttolilly.com/discography/detail.php?id=2107","label":"動畫官方：Song Collection&Soundtrack 最終曲目、Various Artists 與發行資料","role":"first_party","language":"ja","verifiedAt":"2026-10-15"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.luluttolilly.com/staff-cast/"],"verifiedAt":"2026-10-15","targetId":"mahou-no-shimai-luluttolilly-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.luluttolilly.com/staff-cast/"],"verifiedAt":"2026-10-15","targetId":"mahou-no-shimai-luluttolilly-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.luluttolilly.com/staff-cast/"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.luluttolilly.com/staff-cast/"],"verifiedAt":"2026-10-15","targetId":"https://illit.lnk.to/Bubee"},{"target":"credits","fields":["credits"],"sourceUrls":["https://illit-official.jp/news/4b021476cf39"],"verifiedAt":"2026-10-15"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://illit-official.jp/news/4b021476cf39"],"verifiedAt":"2026-10-15","targetId":"mahou-no-shimai-luluttolilly-op-1-digital"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.youtube.com/watch?v=OZ44P4JU87E"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=OZ44P4JU87E"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.youtube.com/watch?v=OZ44P4JU87E"],"verifiedAt":"2026-10-15"},{"target":"recording","fields":["title","kind","format"],"sourceUrls":["https://www.youtube.com/watch?v=dLkfa-X_H9E"],"verifiedAt":"2026-10-15","targetId":"mahou-no-shimai-luluttolilly-op-1-korean"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://www.youtube.com/watch?v=dLkfa-X_H9E"],"verifiedAt":"2026-10-15","targetId":"mahou-no-shimai-luluttolilly-op-1-korean-digital"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.youtube.com/watch?v=dLkfa-X_H9E"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=dLkfa-X_H9E"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.luluttolilly.com/news/detail.php?id=23759"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=sNIntrw0m-g"},{"target":"recording","fields":["title","kind","format"],"sourceUrls":["https://www.luluttolilly.com/discography/detail.php?id=2107"],"verifiedAt":"2026-10-15","targetId":"mahou-no-shimai-luluttolilly-op-1-tv"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.luluttolilly.com/discography/detail.php?id=2107"],"verifiedAt":"2026-10-15","targetId":"luluttolilly-song-collection-soundtrack-laca-19172-3"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.luluttolilly.com/discography/detail.php?id=2107"],"verifiedAt":"2026-10-15","targetId":"https://lnk.to/LACA-19172"}],"credits":[{"name":"ILLIT","role":"vocals"},{"name":"ESME MORI","role":"songwriting"},{"name":"MONJOE","role":"songwriting"},{"name":"Moa \"Cazzi Opeia\" Carlebecker","role":"songwriting"},{"name":"Ellen Berg","role":"songwriting"},{"name":"noa","role":"songwriting"},{"name":"YUNAH","role":"group_member","groupName":"ILLIT"},{"name":"MINJU","role":"group_member","groupName":"ILLIT"},{"name":"MOKA","role":"group_member","groupName":"ILLIT"},{"name":"WONHEE","role":"group_member","groupName":"ILLIT"},{"name":"IROHA","role":"group_member","groupName":"ILLIT"},{"name":"noa","role":"lyrics"},{"name":"ESME MORI（Producer／Programmer）","role":"other"},{"name":"MONJOE（Producer／Programmer）","role":"other"},{"name":"noa（Background Vocals）","role":"other"},{"name":"PERRIE（Background Vocals）","role":"other"},{"name":"VINCENZO（Vocal Arrangement）","role":"other"}],"links":[{"platform":"官方配信","label":"Bubee 官方配信","url":"https://illit.lnk.to/Bubee","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"YouTube","label":"Bubee Official Art Track","url":"https://www.youtube.com/watch?v=OZ44P4JU87E","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"YouTube","label":"Bubee (Korean Ver.) Official Art Track","url":"https://www.youtube.com/watch?v=dLkfa-X_H9E","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"YouTube","label":"Bubee Anime Music Video","url":"https://www.youtube.com/watch?v=sNIntrw0m-g","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"官方配信","label":"Song Collection&Soundtrack 官方 CD 購買","url":"https://lnk.to/LACA-19172","linkType":"physical_purchase","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"luluttolilly-song-collection-soundtrack-laca-19172-3"}],"releases":[{"id":"mahou-no-shimai-luluttolilly-op-1-digital","title":"Bubee","artistDisplayName":"ILLIT","type":"single","tracks":[{"title":"Bubee"}],"date":{"value":"2026-04-06","precision":"day"},"edition":"DIGITAL"},{"id":"mahou-no-shimai-luluttolilly-op-1-korean-digital","title":"Bubee (Korean Ver.)","artistDisplayName":"ILLIT","type":"single","tracks":[{"title":"Bubee (Korean Ver.)","recordingId":"mahou-no-shimai-luluttolilly-op-1-korean"}],"date":{"value":"2026-04-13","precision":"day"},"edition":"DIGITAL／Korean Ver."},{"id":"luluttolilly-song-collection-soundtrack-laca-19172-3","title":"TVアニメ『魔法の姉妹ルルットリリィ』Song Collection&Soundtrack","artistDisplayName":"Various Artists","type":"soundtrack","tracks":[{"title":"Bubee（TV size）","disc":1,"position":1,"recordingId":"mahou-no-shimai-luluttolilly-op-1-tv"}],"date":{"value":"2026-06-24","precision":"day"},"catalogNumber":"LACA-19172〜3","edition":"CD2枚組"}],"recordings":[{"id":"mahou-no-shimai-luluttolilly-op-1-korean","title":"Bubee (Korean Ver.)","kind":"vocal","format":"unknown"},{"id":"mahou-no-shimai-luluttolilly-op-1-tv","title":"Bubee（TV size）","kind":"vocal","format":"tv"}],"seasonIds":["2026-spring"]},{"type":"ED","sequence":1,"titleJa":"Calling","artistDisplayName":"ルルットリリィ［こんぺとリリィ（CV.橘 めい）、ましゅールル（CV.小鹿なお）］","youtubeUrl":"https://www.youtube.com/watch?v=iPkHSnxzvdY","songId":"mahou-no-shimai-luluttolilly-ed-1-song","sources":[{"url":"https://www.luluttolilly.com/staff-cast/","label":"動畫官網 STAFF／CAST：主題曲、創作與團隊","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.luluttolilly.com/discography/detail.php?id=2106","label":"動畫官方 discography：Calling 數位發行日","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.luluttolilly.com/discography/detail.php?id=2107","label":"動畫官方：Song Collection&Soundtrack 最終曲目、Various Artists 與發行資料","role":"first_party","language":"ja","verifiedAt":"2026-10-15"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.luluttolilly.com/staff-cast/"],"verifiedAt":"2026-10-15","targetId":"mahou-no-shimai-luluttolilly-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.luluttolilly.com/staff-cast/"],"verifiedAt":"2026-10-15","targetId":"mahou-no-shimai-luluttolilly-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.luluttolilly.com/staff-cast/"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.luluttolilly.com/staff-cast/"],"verifiedAt":"2026-10-15","targetId":"https://lnk.to/LZC-3477d"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://www.luluttolilly.com/discography/detail.php?id=2106"],"verifiedAt":"2026-10-15","targetId":"mahou-no-shimai-luluttolilly-ed-1-digital"},{"target":"recording","fields":["title","kind","format"],"sourceUrls":["https://www.luluttolilly.com/discography/detail.php?id=2107"],"verifiedAt":"2026-10-15","targetId":"mahou-no-shimai-luluttolilly-ed-1-off-vocal"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.luluttolilly.com/discography/detail.php?id=2107"],"verifiedAt":"2026-10-15","targetId":"luluttolilly-song-collection-soundtrack-laca-19172-3"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.luluttolilly.com/discography/detail.php?id=2107"],"verifiedAt":"2026-10-15","targetId":"https://lnk.to/LACA-19172"}],"credits":[{"name":"三留一純","role":"lyrics"},{"name":"三留一純","role":"composition"},{"name":"三留一純","role":"arrangement"},{"name":"こんぺとリリィ（CV：橘めい）","role":"vocals"},{"name":"ましゅールル（CV：小鹿なお）","role":"vocals"}],"links":[{"platform":"官方配信","label":"Calling 官方配信","url":"https://lnk.to/LZC-3477d","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"官方配信","label":"Song Collection&Soundtrack 官方 CD 購買","url":"https://lnk.to/LACA-19172","linkType":"physical_purchase","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"luluttolilly-song-collection-soundtrack-laca-19172-3"}],"releases":[{"id":"mahou-no-shimai-luluttolilly-ed-1-digital","title":"Calling","artistDisplayName":"ルルットリリィ","type":"single","tracks":[{"title":"Calling"}],"date":{"value":"2026-04-06","precision":"day"},"edition":"DIGITAL"},{"id":"luluttolilly-song-collection-soundtrack-laca-19172-3","title":"TVアニメ『魔法の姉妹ルルットリリィ』Song Collection&Soundtrack","artistDisplayName":"Various Artists","type":"soundtrack","tracks":[{"title":"Calling","disc":1,"position":5},{"title":"Calling（Off Vocal）","disc":1,"position":11,"recordingId":"mahou-no-shimai-luluttolilly-ed-1-off-vocal"}],"date":{"value":"2026-06-24","precision":"day"},"catalogNumber":"LACA-19172〜3","edition":"CD2枚組"}],"recordings":[{"id":"mahou-no-shimai-luluttolilly-ed-1-off-vocal","title":"Calling（Off Vocal）","kind":"instrumental","format":"unknown"}],"seasonIds":["2026-spring"]},{"type":"OP","sequence":2,"titleJa":"Swingin' Magic","artistDisplayName":"ILLIT","usageLabel":"第2クール主題歌","sourceMode":"explicit","songId":"mahou-no-shimai-luluttolilly-op-2-song","sources":[{"url":"https://www.luluttolilly.com/news/detail.php?id=24340","label":"動畫官網：第2季度 OP／ED 的原名、歌唱、創作及公告","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.anisil.com/animes/6838-%E9%AD%94%E6%B3%95%E3%81%AE%E5%A7%89%E5%A6%B9%E3%83%AB%E3%83%AB%E3%83%83%E3%83%88%E3%83%AA%E3%83%AA%E3%82%A3%28%E7%AC%AC2%E3%82%AF%E3%83%BC%E3%83%AB%29","label":"アニシル：第2季度 OP／ED 用途、歌唱及創作交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://illit-official.jp/news/3df855b3fb50","label":"ILLIT 官方：Swingin’ Magic 數位發行與岡嶋かな多作詞／作曲","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://illit-official.jp/Discography/8ee0b97d4609","label":"ILLIT 官方 discography：Swingin’ Magic 及 Korean Ver. 的 Single 曲目表","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.luluttolilly.com/movie/","label":"動畫官網 MOVIE：第2季度無字幕 OP／ED 的確切 YouTube 入口","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"label":"動畫官方：第2クール秋季播出","url":"https://www.luluttolilly.com/onair/","language":"ja","role":"first_party","verifiedAt":"2026-10-19"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.luluttolilly.com/news/detail.php?id=24340"],"verifiedAt":"2026-10-15","targetId":"mahou-no-shimai-luluttolilly-op-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.luluttolilly.com/news/detail.php?id=24340"],"verifiedAt":"2026-10-15","targetId":"mahou-no-shimai-luluttolilly-op-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.luluttolilly.com/news/detail.php?id=24340"],"verifiedAt":"2026-10-15"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.anisil.com/animes/6838-%E9%AD%94%E6%B3%95%E3%81%AE%E5%A7%89%E5%A6%B9%E3%83%AB%E3%83%AB%E3%83%83%E3%83%88%E3%83%AA%E3%83%AA%E3%82%A3%28%E7%AC%AC2%E3%82%AF%E3%83%BC%E3%83%AB%29"],"verifiedAt":"2026-10-15"},{"target":"credits","fields":["credits"],"sourceUrls":["https://illit-official.jp/news/3df855b3fb50"],"verifiedAt":"2026-10-15"},{"target":"recording","fields":["title","kind","format"],"sourceUrls":["https://illit-official.jp/Discography/8ee0b97d4609"],"verifiedAt":"2026-10-15","targetId":"mahou-no-shimai-luluttolilly-op-2-korean"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://illit-official.jp/Discography/8ee0b97d4609"],"verifiedAt":"2026-10-15","targetId":"mahou-no-shimai-luluttolilly-op-2-digital"},{"target":"link","fields":["url","type"],"sourceUrls":["https://illit-official.jp/Discography/8ee0b97d4609"],"verifiedAt":"2026-10-15","targetId":"https://illit.lnk.to/Swingin_Magic"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.luluttolilly.com/movie/"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=QWxiz6uXAKo"},{"target":"anime_use","targetId":"mahou-no-shimai-luluttolilly-op-2","fields":["usage"],"sourceUrls":["https://www.luluttolilly.com/onair/"],"verifiedAt":"2026-10-19"}],"credits":[{"name":"ILLIT","role":"vocals"},{"name":"SHINKUNG（Producer）","role":"other"},{"name":"Junhyuk（Producer）","role":"other"},{"name":"Kanata Okajima","role":"songwriting"},{"name":"SHINKUNG","role":"songwriting"},{"name":"Junhyuk","role":"songwriting"},{"name":"岡嶋かな多","role":"lyrics"},{"name":"岡嶋かな多","role":"composition"}],"recordings":[{"id":"mahou-no-shimai-luluttolilly-op-2-korean","title":"Swingin' Magic (Korean Ver.)","kind":"vocal","format":"unknown"}],"releases":[{"id":"mahou-no-shimai-luluttolilly-op-2-digital","title":"Swingin’ Magic","artistDisplayName":"ILLIT","type":"single","tracks":[{"title":"Swingin' Magic","position":1},{"title":"Swingin' Magic (Korean Ver.)","position":2,"recordingId":"mahou-no-shimai-luluttolilly-op-2-korean"}],"date":{"value":"2026-09-21","precision":"day"},"edition":"DIGITAL"}],"links":[{"platform":"官方配信","label":"Swingin’ Magic 官方配信","url":"https://illit.lnk.to/Swingin_Magic","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"YouTube","label":"Swingin' Magic 無字幕 OP","url":"https://www.youtube.com/watch?v=QWxiz6uXAKo","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"}],"seasonIds":["2026-fall"],"lastVerifiedAt":"2026-10-19"},{"type":"ED","sequence":2,"titleJa":"どりぃむアラモード","artistDisplayName":"ルルットリリィ［こんぺとリリィ（CV：橘めい）、ましゅールル（CV：小鹿なお）］","usageLabel":"第2クール主題歌","sourceMode":"explicit","songId":"mahou-no-shimai-luluttolilly-ed-2-song","sources":[{"url":"https://www.luluttolilly.com/news/detail.php?id=24340","label":"動畫官網：第2季度 OP／ED 的原名、歌唱、創作及公告","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.anisil.com/animes/6838-%E9%AD%94%E6%B3%95%E3%81%AE%E5%A7%89%E5%A6%B9%E3%83%AB%E3%83%AB%E3%83%83%E3%83%88%E3%83%AA%E3%83%AA%E3%82%A3%28%E7%AC%AC2%E3%82%AF%E3%83%BC%E3%83%AB%29","label":"アニシル：第2季度 OP／ED 用途、歌唱及創作交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.joysound.com/web/search/song/1206790","label":"JOYSOUND：どりぃむアラモード 兩位作曲者姓名分隔交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.luluttolilly.com/movie/","label":"動畫官網 MOVIE：第2季度無字幕 OP／ED 的確切 YouTube 入口","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"label":"動畫官方：第2クール秋季播出","url":"https://www.luluttolilly.com/onair/","language":"ja","role":"first_party","verifiedAt":"2026-10-19"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.luluttolilly.com/news/detail.php?id=24340"],"verifiedAt":"2026-10-15","targetId":"mahou-no-shimai-luluttolilly-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.luluttolilly.com/news/detail.php?id=24340"],"verifiedAt":"2026-10-15","targetId":"mahou-no-shimai-luluttolilly-ed-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.luluttolilly.com/news/detail.php?id=24340"],"verifiedAt":"2026-10-15"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.joysound.com/web/search/song/1206790"],"verifiedAt":"2026-10-15"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.luluttolilly.com/news/detail.php?id=24340","https://www.joysound.com/web/search/song/1206790"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.luluttolilly.com/movie/"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=5zg2v2052Kc"},{"target":"anime_use","targetId":"mahou-no-shimai-luluttolilly-ed-2","fields":["usage"],"sourceUrls":["https://www.luluttolilly.com/onair/"],"verifiedAt":"2026-10-19"}],"credits":[{"name":"こんぺとリリィ（CV：橘めい）","role":"vocals"},{"name":"ましゅールル（CV：小鹿なお）","role":"vocals"},{"name":"藤林聖子","role":"lyrics"},{"name":"イマイケンタロウ（エイプリルズ）","role":"arrangement"},{"name":"朝日太一（Strings Arrangement）","role":"other"},{"name":"今村左悶","role":"composition"},{"name":"今村淳平","role":"composition"},{"name":"今村左悶","role":"arrangement"},{"name":"今村淳平","role":"arrangement"}],"links":[{"platform":"YouTube","label":"どりぃむアラモード 無字幕 ED","url":"https://www.youtube.com/watch?v=5zg2v2052Kc","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"}],"seasonIds":["2026-fall"],"lastVerifiedAt":"2026-10-19"}],"metadataVerifiedAt":"2026-07-25","metadataSources":[{"label":"動畫官方：作品及續播資料","url":"https://www.luluttolilly.com/","language":"ja","role":"first_party","verifiedAt":"2026-10-19"},{"label":"動畫官方：TV首播、分割季度及播出時段","url":"https://www.luluttolilly.com/onair/","language":"ja","role":"first_party","verifiedAt":"2026-10-19"}],"broadcastLabel":"2026-04-05 TV首播；第2クール2026-10-04起・週日22:30（JST）・TOKYO MX"},
-  {"anilistId":179813,"id":"curated-179813","slug":"niwatori-fighter","seasonIds":["2026-spring"],"startDate":"2026-04-05","titleJa":"ニワトリ・ファイター","titleZhHant":"雞鬥士","titleRomaji":"Niwatori Fighter","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179813-cLHpUPV1IiEm.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/179813-RZI6o4qilPyH.jpg","editorialWeekday":7,"broadcastTimeJst":"24:00","status":"finished","officialSiteUrl":"https://www.niwatori-fighter.net/","anilistUrl":"https://anilist.co/anime/179813","imageSourceUrl":"https://anilist.co/anime/179813","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/658959"],"animeThemesUrl":"https://animethemes.moe/anime/niwatori_fighter","uzureaUrl":"https://uzurea.net/spring-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"What's a Hero?","artistDisplayName":"DARUMA Rollin'","youtubeUrl":"https://www.youtube.com/watch?v=mfBWkIIQE9w","songId":"niwatori-fighter-op-1-song","sources":[{"url":"https://www.joysound.com/web/search/song/1168683","label":"JOYSOUND：What’s a Hero? 作詞／作曲交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.shazam.com/song/1844678643/whats-a-hero","label":"Shazam：What’s a Hero? 編曲及原始 Single 交叉核對","role":"cross_check","language":"en","verifiedAt":"2026-10-15"}],"credits":[{"name":"DARUMA Rollin'","role":"vocals"},{"name":"0C","role":"lyrics"},{"name":"DARUMA Rollin'","role":"composition"},{"name":"高橋浩一郎","role":"composition"},{"name":"DARUMA Rollin'","role":"arrangement"},{"name":"Takahashi Koichiro","role":"arrangement"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://www.joysound.com/web/search/song/1168683"],"verifiedAt":"2026-10-15"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.shazam.com/song/1844678643/whats-a-hero"],"verifiedAt":"2026-10-15"}]},{"type":"ED","sequence":1,"titleJa":"We're Loose Stars","artistDisplayName":"高橋 哲也","youtubeUrl":"https://www.youtube.com/watch?v=muqyayR_9ts","songId":"niwatori-fighter-ed-1-song","sources":[{"url":"https://cal.syoboi.jp/tid/7762","label":"しょぼいカレンダー：We’re Loose Stars 完整創作交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-15"}],"credits":[{"name":"高橋 哲也","role":"vocals"},{"name":"諸橋邦行","role":"lyrics"},{"name":"尾﨑可愛","role":"lyrics"},{"name":"高橋哲也","role":"composition"},{"name":"高橋哲也","role":"arrangement"},{"name":"福場庸介","role":"arrangement"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://cal.syoboi.jp/tid/7762"],"verifiedAt":"2026-10-15"}]}],"metadataVerifiedAt":"2026-07-25"},
-  {"anilistId":201090,"id":"curated-201090","slug":"ghost-concert-missing-songs","seasonIds":["2026-spring"],"startDate":"2026-04-05","titleJa":"ゴーストコンサート: missing Songs","titleZhHant":"GHOST CONCERT: 失落之歌","titleRomaji":"Ghost Concert: missing Songs","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx201090-HzQKUjjvde32.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/201090-YIO0HtbUiCwC.jpg","editorialWeekday":7,"broadcastTimeJst":"24:30","status":"finished","officialSiteUrl":"https://ghostconcert-anime.com/","anilistUrl":"https://anilist.co/anime/201090","imageSourceUrl":"https://anilist.co/anime/201090","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/661563"],"uzureaUrl":"https://uzurea.net/spring-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"業魂REQUIEMER","artistDisplayName":"相葉芹亜（CV：藤寺美徳）","youtubeUrl":"https://www.youtube.com/watch?v=uN6qJzuCFtw","songId":"ghost-concert-missing-songs-op-1-song","sources":[{"url":"https://ghostconcert-anime.com/music/","label":"動畫官網 MUSIC：主題曲、正確角色／CV、完整創作與數位發行","role":"first_party","language":"ja","verifiedAt":"2026-10-15"}],"credits":[{"name":"相葉芹亜（CV：藤寺美徳）","role":"vocals"},{"name":"上松範康（Elements Garden）","role":"lyrics"},{"name":"上松範康（Elements Garden）","role":"composition"},{"name":"堀川大翼（Elements Garden）","role":"arrangement"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://ghostconcert-anime.com/music/"],"verifiedAt":"2026-10-15"},{"target":"recording","fields":["title","kind","format"],"sourceUrls":["https://ghostconcert-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"ghost-concert-missing-songs-op-1-tv"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://ghostconcert-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"ghost-concert-missing-songs-op-1-tv-digital"},{"target":"link","fields":["url","type"],"sourceUrls":["https://ghostconcert-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"https://nex-tone.link/Bb46W5NkJ"},{"target":"link","fields":["url","type"],"sourceUrls":["https://ghostconcert-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"https://nex-tone.link/WVb9DzMR3"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://ghostconcert-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"ghost-concert-missing-songs-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://ghostconcert-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"ghost-concert-missing-songs-op-1"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://ghostconcert-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"ghost-concert-missing-songs-op-1-digital"}],"recordings":[{"id":"ghost-concert-missing-songs-op-1-tv","title":"業魂REQUIEMER -TV Size-","kind":"vocal","format":"tv"}],"releases":[{"id":"ghost-concert-missing-songs-op-1-tv-digital","title":"業魂REQUIEMER -TV Size-","artistDisplayName":"相葉芹亜（CV：藤寺美徳）","type":"single","tracks":[{"title":"業魂REQUIEMER -TV Size-","recordingId":"ghost-concert-missing-songs-op-1-tv"}],"date":{"value":"2026-02-19","precision":"day"},"edition":"DIGITAL"},{"id":"ghost-concert-missing-songs-op-1-digital","title":"業魂REQUIEMER","artistDisplayName":"相葉芹亜（CV：藤寺美徳）","type":"single","tracks":[{"title":"業魂REQUIEMER"}],"date":{"value":"2026-04-06","precision":"day"},"edition":"DIGITAL"}],"links":[{"platform":"官方配信","label":"業魂REQUIEMER TV Size 官方配信","url":"https://nex-tone.link/Bb46W5NkJ","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","recordingId":"ghost-concert-missing-songs-op-1-tv"},{"platform":"官方配信","label":"業魂REQUIEMER 官方配信","url":"https://nex-tone.link/WVb9DzMR3","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"}]},{"type":"ED","sequence":1,"titleJa":"茨の道","artistDisplayName":"オデッセウス（CV：寿美菜子）","youtubeUrl":"https://www.youtube.com/watch?v=KygwMir5i_U","songId":"ghost-concert-missing-songs-ed-1-song","sources":[{"url":"https://ghostconcert-anime.com/music/","label":"動畫官網 MUSIC：主題曲、正確角色／CV、完整創作與數位發行","role":"first_party","language":"ja","verifiedAt":"2026-10-15"}],"credits":[{"name":"オデッセウス（CV：寿美菜子）","role":"vocals"},{"name":"Spirit Garden","role":"lyrics"},{"name":"藤田淳平（Elements Garden）","role":"composition"},{"name":"藤田淳平（Elements Garden）","role":"arrangement"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://ghostconcert-anime.com/music/"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://ghostconcert-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"https://nex-tone.link/9QNDAPz4h"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://ghostconcert-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"ghost-concert-missing-songs-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://ghostconcert-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"ghost-concert-missing-songs-ed-1"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://ghostconcert-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"ghost-concert-missing-songs-ed-1-digital"}],"links":[{"platform":"官方配信","label":"茨の道 官方配信","url":"https://nex-tone.link/9QNDAPz4h","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"}],"releases":[{"id":"ghost-concert-missing-songs-ed-1-digital","title":"茨の道","artistDisplayName":"オデッセウス（CV：寿美菜子）","type":"single","tracks":[{"title":"茨の道"}],"date":{"value":"2026-04-06","precision":"day"},"edition":"DIGITAL"}]}],"metadataVerifiedAt":"2026-07-25"},
+  {"anilistId":178749,"id":"curated-178749","slug":"mahou-no-shimai-luluttolilly","seasonIds":["2026-spring","2026-fall"],"startDate":"2026-04-05","titleJa":"魔法の姉妹ルルットリリィ","titleZhHant":"魔法姊妹露露特莉莉（上半）","titleRomaji":"Mahou no Shimai LuluttoLilly","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178749-c0tx9p13PVJy.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/178749-55kXPhUDKYvQ.jpg","editorialWeekday":7,"broadcastTimeJst":"22:30","status":"airing","officialSiteUrl":"https://www.luluttolilly.com/","anilistUrl":"https://anilist.co/anime/178749","imageSourceUrl":"https://anilist.co/anime/178749","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/663238"],"animeThemesUrl":"https://animethemes.moe/anime/mahou_no_shimai_luluttolilly","uzureaUrl":"https://uzurea.net/spring-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"Bubee","artistDisplayName":"ILLIT","youtubeUrl":"https://www.youtube.com/watch?v=803SES0YVcM","songId":"mahou-no-shimai-luluttolilly-op-1-song","sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=803SES0YVcM","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"動畫官方網站","url":"https://www.luluttolilly.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/mahou_no_shimai_luluttolilly","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-25"},{"url":"https://www.luluttolilly.com/staff-cast/","label":"動畫官網 STAFF／CAST：主題曲、創作與團隊","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://illit-official.jp/news/4b021476cf39","label":"ILLIT 官方：Bubee Digital Single、乃紫(noa)作詞與動畫 OP","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.youtube.com/watch?v=OZ44P4JU87E","label":"ILLIT 官方 Art Track：Bubee、聯合作詞作曲、制作及背景演唱","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.youtube.com/watch?v=dLkfa-X_H9E","label":"ILLIT 官方 Art Track：Bubee (Korean Ver.) 及配信日期","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.luluttolilly.com/news/detail.php?id=23759","label":"動畫官網：Bubee Anime Music Video 的確切入口","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.luluttolilly.com/discography/detail.php?id=2107","label":"動畫官方：Song Collection&Soundtrack 最終曲目、Various Artists 與發行資料","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E5%A7%8A%E5%A6%B9%E9%9C%B2%E9%9C%B2%E7%89%B9%E8%8E%89%E8%8E%89","label":"Bubee：曲名／演唱／動畫用途：維基百科條目編輯（發表／資料提供；刊載：中文維基百科）","role":"cross_check","language":"multi","verifiedAt":"2026-10-31"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.luluttolilly.com/staff-cast/"],"verifiedAt":"2026-10-15","targetId":"mahou-no-shimai-luluttolilly-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.luluttolilly.com/staff-cast/"],"verifiedAt":"2026-10-15","targetId":"mahou-no-shimai-luluttolilly-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.luluttolilly.com/staff-cast/"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.luluttolilly.com/staff-cast/"],"verifiedAt":"2026-10-15","targetId":"https://illit.lnk.to/Bubee"},{"target":"credits","fields":["credits"],"sourceUrls":["https://illit-official.jp/news/4b021476cf39"],"verifiedAt":"2026-10-15"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://illit-official.jp/news/4b021476cf39"],"verifiedAt":"2026-10-15","targetId":"mahou-no-shimai-luluttolilly-op-1-digital"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.youtube.com/watch?v=OZ44P4JU87E"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=OZ44P4JU87E"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.youtube.com/watch?v=OZ44P4JU87E"],"verifiedAt":"2026-10-15"},{"target":"recording","fields":["title","kind","format"],"sourceUrls":["https://www.youtube.com/watch?v=dLkfa-X_H9E"],"verifiedAt":"2026-10-15","targetId":"mahou-no-shimai-luluttolilly-op-1-korean"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://www.youtube.com/watch?v=dLkfa-X_H9E"],"verifiedAt":"2026-10-15","targetId":"mahou-no-shimai-luluttolilly-op-1-korean-digital"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.youtube.com/watch?v=dLkfa-X_H9E"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=dLkfa-X_H9E"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.luluttolilly.com/news/detail.php?id=23759"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=sNIntrw0m-g"},{"target":"recording","fields":["title","kind","format"],"sourceUrls":["https://www.luluttolilly.com/discography/detail.php?id=2107"],"verifiedAt":"2026-10-15","targetId":"mahou-no-shimai-luluttolilly-op-1-tv"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.luluttolilly.com/discography/detail.php?id=2107"],"verifiedAt":"2026-10-15","targetId":"luluttolilly-song-collection-soundtrack-laca-19172-3"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.luluttolilly.com/discography/detail.php?id=2107"],"verifiedAt":"2026-10-15","targetId":"https://lnk.to/LACA-19172"},{"target":"song","targetId":"mahou-no-shimai-luluttolilly-op-1-song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E5%A7%8A%E5%A6%B9%E9%9C%B2%E9%9C%B2%E7%89%B9%E8%8E%89%E8%8E%89"],"verifiedAt":"2026-10-31"},{"target":"anime_use","targetId":"mahou-no-shimai-luluttolilly-op-1","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E5%A7%8A%E5%A6%B9%E9%9C%B2%E9%9C%B2%E7%89%B9%E8%8E%89%E8%8E%89"],"verifiedAt":"2026-10-31"}],"credits":[{"name":"ILLIT","role":"vocals"},{"name":"ESME MORI","role":"songwriting"},{"name":"MONJOE","role":"songwriting"},{"name":"Moa \"Cazzi Opeia\" Carlebecker","role":"songwriting"},{"name":"Ellen Berg","role":"songwriting"},{"name":"noa","role":"songwriting"},{"name":"YUNAH","role":"group_member","groupName":"ILLIT"},{"name":"MINJU","role":"group_member","groupName":"ILLIT"},{"name":"MOKA","role":"group_member","groupName":"ILLIT"},{"name":"WONHEE","role":"group_member","groupName":"ILLIT"},{"name":"IROHA","role":"group_member","groupName":"ILLIT"},{"name":"noa","role":"lyrics"},{"name":"ESME MORI（Producer／Programmer）","role":"other"},{"name":"MONJOE（Producer／Programmer）","role":"other"},{"name":"noa（Background Vocals）","role":"other"},{"name":"PERRIE（Background Vocals）","role":"other"},{"name":"VINCENZO（Vocal Arrangement）","role":"other"}],"links":[{"platform":"官方配信","label":"Bubee 官方配信","url":"https://illit.lnk.to/Bubee","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"YouTube","label":"Bubee Official Art Track","url":"https://www.youtube.com/watch?v=OZ44P4JU87E","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"YouTube","label":"Bubee (Korean Ver.) Official Art Track","url":"https://www.youtube.com/watch?v=dLkfa-X_H9E","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"YouTube","label":"Bubee Anime Music Video","url":"https://www.youtube.com/watch?v=sNIntrw0m-g","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"官方配信","label":"Song Collection&Soundtrack 官方 CD 購買","url":"https://lnk.to/LACA-19172","linkType":"physical_purchase","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"luluttolilly-song-collection-soundtrack-laca-19172-3"}],"releases":[{"id":"mahou-no-shimai-luluttolilly-op-1-digital","title":"Bubee","artistDisplayName":"ILLIT","type":"single","tracks":[{"title":"Bubee"}],"date":{"value":"2026-04-06","precision":"day"},"edition":"DIGITAL"},{"id":"mahou-no-shimai-luluttolilly-op-1-korean-digital","title":"Bubee (Korean Ver.)","artistDisplayName":"ILLIT","type":"single","tracks":[{"title":"Bubee (Korean Ver.)","recordingId":"mahou-no-shimai-luluttolilly-op-1-korean"}],"date":{"value":"2026-04-13","precision":"day"},"edition":"DIGITAL／Korean Ver."},{"id":"luluttolilly-song-collection-soundtrack-laca-19172-3","title":"TVアニメ『魔法の姉妹ルルットリリィ』Song Collection&Soundtrack","artistDisplayName":"Various Artists","type":"soundtrack","tracks":[{"title":"Bubee（TV size）","disc":1,"position":1,"recordingId":"mahou-no-shimai-luluttolilly-op-1-tv"}],"date":{"value":"2026-06-24","precision":"day"},"catalogNumber":"LACA-19172〜3","edition":"CD2枚組"}],"recordings":[{"id":"mahou-no-shimai-luluttolilly-op-1-korean","title":"Bubee (Korean Ver.)","kind":"vocal","format":"unknown"},{"id":"mahou-no-shimai-luluttolilly-op-1-tv","title":"Bubee（TV size）","kind":"vocal","format":"tv"}],"seasonIds":["2026-spring"],"sourceMode":"explicit"},{"type":"ED","sequence":1,"titleJa":"Calling","artistDisplayName":"ルルットリリィ［こんぺとリリィ（CV.橘 めい）、ましゅールル（CV.小鹿なお）］","youtubeUrl":"https://www.youtube.com/watch?v=iPkHSnxzvdY","songId":"mahou-no-shimai-luluttolilly-ed-1-song","sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=iPkHSnxzvdY","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"動畫官方網站","url":"https://www.luluttolilly.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/mahou_no_shimai_luluttolilly","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-25"},{"url":"https://www.luluttolilly.com/staff-cast/","label":"動畫官網 STAFF／CAST：主題曲、創作與團隊","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.luluttolilly.com/discography/detail.php?id=2106","label":"動畫官方 discography：Calling 數位發行日","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.luluttolilly.com/discography/detail.php?id=2107","label":"動畫官方：Song Collection&Soundtrack 最終曲目、Various Artists 與發行資料","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.mau2.com/anime/mahounosimailuluttolilly/ep/11","label":"Calling：曲名／演唱名義（來源括號及空白排印不同）／動畫用途：まうまう☆動畫聲優資訊編輯（發表／資料提供；刊載：mau2.com）","role":"cross_check","language":"ja","verifiedAt":"2026-10-31"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.luluttolilly.com/staff-cast/"],"verifiedAt":"2026-10-15","targetId":"mahou-no-shimai-luluttolilly-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.luluttolilly.com/staff-cast/"],"verifiedAt":"2026-10-15","targetId":"mahou-no-shimai-luluttolilly-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.luluttolilly.com/staff-cast/"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.luluttolilly.com/staff-cast/"],"verifiedAt":"2026-10-15","targetId":"https://lnk.to/LZC-3477d"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://www.luluttolilly.com/discography/detail.php?id=2106"],"verifiedAt":"2026-10-15","targetId":"mahou-no-shimai-luluttolilly-ed-1-digital"},{"target":"recording","fields":["title","kind","format"],"sourceUrls":["https://www.luluttolilly.com/discography/detail.php?id=2107"],"verifiedAt":"2026-10-15","targetId":"mahou-no-shimai-luluttolilly-ed-1-off-vocal"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.luluttolilly.com/discography/detail.php?id=2107"],"verifiedAt":"2026-10-15","targetId":"luluttolilly-song-collection-soundtrack-laca-19172-3"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.luluttolilly.com/discography/detail.php?id=2107"],"verifiedAt":"2026-10-15","targetId":"https://lnk.to/LACA-19172"},{"target":"song","targetId":"mahou-no-shimai-luluttolilly-ed-1-song","fields":["title","artist"],"sourceUrls":["https://www.mau2.com/anime/mahounosimailuluttolilly/ep/11"],"verifiedAt":"2026-10-31"},{"target":"anime_use","targetId":"mahou-no-shimai-luluttolilly-ed-1","fields":["usage"],"sourceUrls":["https://www.mau2.com/anime/mahounosimailuluttolilly/ep/11"],"verifiedAt":"2026-10-31"}],"credits":[{"name":"三留一純","role":"lyrics"},{"name":"三留一純","role":"composition"},{"name":"三留一純","role":"arrangement"},{"name":"こんぺとリリィ（CV：橘めい）","role":"vocals"},{"name":"ましゅールル（CV：小鹿なお）","role":"vocals"}],"links":[{"platform":"官方配信","label":"Calling 官方配信","url":"https://lnk.to/LZC-3477d","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"官方配信","label":"Song Collection&Soundtrack 官方 CD 購買","url":"https://lnk.to/LACA-19172","linkType":"physical_purchase","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"luluttolilly-song-collection-soundtrack-laca-19172-3"}],"releases":[{"id":"mahou-no-shimai-luluttolilly-ed-1-digital","title":"Calling","artistDisplayName":"ルルットリリィ","type":"single","tracks":[{"title":"Calling"}],"date":{"value":"2026-04-06","precision":"day"},"edition":"DIGITAL"},{"id":"luluttolilly-song-collection-soundtrack-laca-19172-3","title":"TVアニメ『魔法の姉妹ルルットリリィ』Song Collection&Soundtrack","artistDisplayName":"Various Artists","type":"soundtrack","tracks":[{"title":"Calling","disc":1,"position":5},{"title":"Calling（Off Vocal）","disc":1,"position":11,"recordingId":"mahou-no-shimai-luluttolilly-ed-1-off-vocal"}],"date":{"value":"2026-06-24","precision":"day"},"catalogNumber":"LACA-19172〜3","edition":"CD2枚組"}],"recordings":[{"id":"mahou-no-shimai-luluttolilly-ed-1-off-vocal","title":"Calling（Off Vocal）","kind":"instrumental","format":"unknown"}],"seasonIds":["2026-spring"],"sourceMode":"explicit"},{"type":"OP","sequence":2,"titleJa":"Swingin' Magic","artistDisplayName":"ILLIT","usageLabel":"第2クール主題歌","sourceMode":"explicit","songId":"mahou-no-shimai-luluttolilly-op-2-song","sources":[{"url":"https://www.luluttolilly.com/news/detail.php?id=24340","label":"動畫官網：第2季度 OP／ED 的原名、歌唱、創作及公告","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.anisil.com/animes/6838-%E9%AD%94%E6%B3%95%E3%81%AE%E5%A7%89%E5%A6%B9%E3%83%AB%E3%83%AB%E3%83%83%E3%83%88%E3%83%AA%E3%83%AA%E3%82%A3%28%E7%AC%AC2%E3%82%AF%E3%83%BC%E3%83%AB%29","label":"アニシル：第2季度 OP／ED 用途、歌唱及創作交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://illit-official.jp/news/3df855b3fb50","label":"ILLIT 官方：Swingin’ Magic 數位發行與岡嶋かな多作詞／作曲","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://illit-official.jp/Discography/8ee0b97d4609","label":"ILLIT 官方 discography：Swingin’ Magic 及 Korean Ver. 的 Single 曲目表","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.luluttolilly.com/movie/","label":"動畫官網 MOVIE：第2季度無字幕 OP／ED 的確切 YouTube 入口","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"label":"動畫官方：第2クール秋季播出","url":"https://www.luluttolilly.com/onair/","language":"ja","role":"first_party","verifiedAt":"2026-10-19"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.luluttolilly.com/news/detail.php?id=24340"],"verifiedAt":"2026-10-15","targetId":"mahou-no-shimai-luluttolilly-op-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.luluttolilly.com/news/detail.php?id=24340"],"verifiedAt":"2026-10-15","targetId":"mahou-no-shimai-luluttolilly-op-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.luluttolilly.com/news/detail.php?id=24340"],"verifiedAt":"2026-10-15"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.anisil.com/animes/6838-%E9%AD%94%E6%B3%95%E3%81%AE%E5%A7%89%E5%A6%B9%E3%83%AB%E3%83%AB%E3%83%83%E3%83%88%E3%83%AA%E3%83%AA%E3%82%A3%28%E7%AC%AC2%E3%82%AF%E3%83%BC%E3%83%AB%29"],"verifiedAt":"2026-10-15"},{"target":"credits","fields":["credits"],"sourceUrls":["https://illit-official.jp/news/3df855b3fb50"],"verifiedAt":"2026-10-15"},{"target":"recording","fields":["title","kind","format"],"sourceUrls":["https://illit-official.jp/Discography/8ee0b97d4609"],"verifiedAt":"2026-10-15","targetId":"mahou-no-shimai-luluttolilly-op-2-korean"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://illit-official.jp/Discography/8ee0b97d4609"],"verifiedAt":"2026-10-15","targetId":"mahou-no-shimai-luluttolilly-op-2-digital"},{"target":"link","fields":["url","type"],"sourceUrls":["https://illit-official.jp/Discography/8ee0b97d4609"],"verifiedAt":"2026-10-15","targetId":"https://illit.lnk.to/Swingin_Magic"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.luluttolilly.com/movie/"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=QWxiz6uXAKo"},{"target":"anime_use","targetId":"mahou-no-shimai-luluttolilly-op-2","fields":["usage"],"sourceUrls":["https://www.luluttolilly.com/onair/"],"verifiedAt":"2026-10-19"}],"credits":[{"name":"ILLIT","role":"vocals"},{"name":"SHINKUNG（Producer）","role":"other"},{"name":"Junhyuk（Producer）","role":"other"},{"name":"Kanata Okajima","role":"songwriting"},{"name":"SHINKUNG","role":"songwriting"},{"name":"Junhyuk","role":"songwriting"},{"name":"岡嶋かな多","role":"lyrics"},{"name":"岡嶋かな多","role":"composition"}],"recordings":[{"id":"mahou-no-shimai-luluttolilly-op-2-korean","title":"Swingin' Magic (Korean Ver.)","kind":"vocal","format":"unknown"}],"releases":[{"id":"mahou-no-shimai-luluttolilly-op-2-digital","title":"Swingin’ Magic","artistDisplayName":"ILLIT","type":"single","tracks":[{"title":"Swingin' Magic","position":1},{"title":"Swingin' Magic (Korean Ver.)","position":2,"recordingId":"mahou-no-shimai-luluttolilly-op-2-korean"}],"date":{"value":"2026-09-21","precision":"day"},"edition":"DIGITAL"}],"links":[{"platform":"官方配信","label":"Swingin’ Magic 官方配信","url":"https://illit.lnk.to/Swingin_Magic","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"YouTube","label":"Swingin' Magic 無字幕 OP","url":"https://www.youtube.com/watch?v=QWxiz6uXAKo","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"}],"seasonIds":["2026-fall"],"lastVerifiedAt":"2026-10-19"},{"type":"ED","sequence":2,"titleJa":"どりぃむアラモード","artistDisplayName":"ルルットリリィ［こんぺとリリィ（CV：橘めい）、ましゅールル（CV：小鹿なお）］","usageLabel":"第2クール主題歌","sourceMode":"explicit","songId":"mahou-no-shimai-luluttolilly-ed-2-song","sources":[{"url":"https://www.luluttolilly.com/news/detail.php?id=24340","label":"動畫官網：第2季度 OP／ED 的原名、歌唱、創作及公告","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.anisil.com/animes/6838-%E9%AD%94%E6%B3%95%E3%81%AE%E5%A7%89%E5%A6%B9%E3%83%AB%E3%83%AB%E3%83%83%E3%83%88%E3%83%AA%E3%83%AA%E3%82%A3%28%E7%AC%AC2%E3%82%AF%E3%83%BC%E3%83%AB%29","label":"アニシル：第2季度 OP／ED 用途、歌唱及創作交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.joysound.com/web/search/song/1206790","label":"JOYSOUND：どりぃむアラモード 兩位作曲者姓名分隔交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.luluttolilly.com/movie/","label":"動畫官網 MOVIE：第2季度無字幕 OP／ED 的確切 YouTube 入口","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"label":"動畫官方：第2クール秋季播出","url":"https://www.luluttolilly.com/onair/","language":"ja","role":"first_party","verifiedAt":"2026-10-19"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.luluttolilly.com/news/detail.php?id=24340"],"verifiedAt":"2026-10-15","targetId":"mahou-no-shimai-luluttolilly-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.luluttolilly.com/news/detail.php?id=24340"],"verifiedAt":"2026-10-15","targetId":"mahou-no-shimai-luluttolilly-ed-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.luluttolilly.com/news/detail.php?id=24340"],"verifiedAt":"2026-10-15"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.joysound.com/web/search/song/1206790"],"verifiedAt":"2026-10-15"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.luluttolilly.com/news/detail.php?id=24340","https://www.joysound.com/web/search/song/1206790"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.luluttolilly.com/movie/"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=5zg2v2052Kc"},{"target":"anime_use","targetId":"mahou-no-shimai-luluttolilly-ed-2","fields":["usage"],"sourceUrls":["https://www.luluttolilly.com/onair/"],"verifiedAt":"2026-10-19"}],"credits":[{"name":"こんぺとリリィ（CV：橘めい）","role":"vocals"},{"name":"ましゅールル（CV：小鹿なお）","role":"vocals"},{"name":"藤林聖子","role":"lyrics"},{"name":"イマイケンタロウ（エイプリルズ）","role":"arrangement"},{"name":"朝日太一（Strings Arrangement）","role":"other"},{"name":"今村左悶","role":"composition"},{"name":"今村淳平","role":"composition"},{"name":"今村左悶","role":"arrangement"},{"name":"今村淳平","role":"arrangement"}],"links":[{"platform":"YouTube","label":"どりぃむアラモード 無字幕 ED","url":"https://www.youtube.com/watch?v=5zg2v2052Kc","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"}],"seasonIds":["2026-fall"],"lastVerifiedAt":"2026-10-19"}],"metadataVerifiedAt":"2026-10-19","metadataSources":[{"label":"動畫官方：作品及續播資料","url":"https://www.luluttolilly.com/","language":"ja","role":"first_party","verifiedAt":"2026-10-19"},{"label":"AniList：作品識別與公開圖像","url":"https://anilist.co/anime/178749","language":"en","role":"identifier","verifiedAt":"2026-07-25"},{"label":"繁體中文季度列表交叉對照","url":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","language":"zh-Hant","role":"localized_cross_check","verifiedAt":"2026-07-25"},{"label":"AnimeThemes：OP／ED 曲目交叉核對","url":"https://animethemes.moe/anime/mahou_no_shimai_luluttolilly","language":"en","role":"theme_cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA：季度主題曲與官方影片索引","url":"https://uzurea.net/spring-2026-anime-theme-songs/","language":"ja","role":"theme_cross_check","verifiedAt":"2026-07-25"},{"label":"季度首播公開來源","url":"https://natalie.mu/comic/news/663238","language":"ja","role":"broadcast_cross_check","verifiedAt":"2026-07-25"},{"label":"本2026春第1cour日本TV起點與秋第2cour分列（非完整槽）：魔法の姉妹ルルットリリィ動畫官方（發表／資料提供；刊載：luluttolilly.com）","url":"https://www.luluttolilly.com/onair/","language":"ja","role":"first_party","verifiedAt":"2026-10-31"},{"url":"https://www.litv.tv/comic/watch/VOD00397857","label":"同2026版本正版第1話24分鐘（平台交叉）：LiTV正版動畫單話頁（發表／資料提供；刊載：LiTV立視線上影視）","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-31"}],"broadcastLabel":"2026-04-05起・日本TV第1クール・週日22:30（JST）TOKYO MX；正版第1話24分鐘（非TV槽），秋第2cour分開"},
+  {"anilistId":179813,"id":"curated-179813","slug":"niwatori-fighter","seasonIds":["2026-spring"],"startDate":"2026-04-05","titleJa":"ニワトリ・ファイター","titleZhHant":"雞鬥士","titleRomaji":"Niwatori Fighter","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179813-cLHpUPV1IiEm.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/179813-RZI6o4qilPyH.jpg","editorialWeekday":7,"broadcastTimeJst":"24:00","status":"finished","officialSiteUrl":"https://www.niwatori-fighter.net/","anilistUrl":"https://anilist.co/anime/179813","imageSourceUrl":"https://anilist.co/anime/179813","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/658959"],"animeThemesUrl":"https://animethemes.moe/anime/niwatori_fighter","uzureaUrl":"https://uzurea.net/spring-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"What's a Hero?","artistDisplayName":"DARUMA Rollin'","youtubeUrl":"https://www.youtube.com/watch?v=mfBWkIIQE9w","songId":"niwatori-fighter-op-1-song","sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=mfBWkIIQE9w","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"動畫官方網站","url":"https://www.niwatori-fighter.net/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/niwatori_fighter","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-25"},{"url":"https://www.joysound.com/web/search/song/1168683","label":"JOYSOUND：What’s a Hero? 作詞／作曲交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.shazam.com/song/1844678643/whats-a-hero","label":"Shazam：What’s a Hero? 編曲及原始 Single 交叉核對","role":"cross_check","language":"en","verifiedAt":"2026-10-15"},{"url":"https://zh.wikipedia.org/wiki/%E9%9B%9E%E9%AC%A5%E5%A3%AB","label":"What's a Hero?：曲名／演唱／動畫用途：維基百科條目編輯（發表／資料提供；刊載：中文維基百科）","role":"cross_check","language":"multi","verifiedAt":"2026-10-31"}],"credits":[{"name":"DARUMA Rollin'","role":"vocals"},{"name":"0C","role":"lyrics"},{"name":"DARUMA Rollin'","role":"composition"},{"name":"高橋浩一郎","role":"composition"},{"name":"DARUMA Rollin'","role":"arrangement"},{"name":"Takahashi Koichiro","role":"arrangement"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://www.joysound.com/web/search/song/1168683"],"verifiedAt":"2026-10-15"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.shazam.com/song/1844678643/whats-a-hero"],"verifiedAt":"2026-10-15"},{"target":"song","targetId":"niwatori-fighter-op-1-song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E9%9B%9E%E9%AC%A5%E5%A3%AB"],"verifiedAt":"2026-10-31"},{"target":"anime_use","targetId":"niwatori-fighter-op-1","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E9%9B%9E%E9%AC%A5%E5%A3%AB"],"verifiedAt":"2026-10-31"}],"sourceMode":"explicit","followUp":[{"fields":["basic_evidence"],"note":"本期標準TV形式已核；基本歌曲證據已保存確認欄位，仍待補核：第一方的原文曲名、演唱名義、動畫用途。原名、演唱名義及錄音保持，不以中文譯名、別名或不同音源補齊。","resumeWhen":"待可普通讀取的適用第一方本曲名/演唱/本2026版OPED用途正文；原官網403與新DreamNews403停查，不以摘要/舊一般source冒exact證據；兩輪後無新trigger不重開。","checkedAt":"2026-10-31"}]},{"type":"ED","sequence":1,"titleJa":"We're Loose Stars","artistDisplayName":"高橋 哲也","youtubeUrl":"https://www.youtube.com/watch?v=muqyayR_9ts","songId":"niwatori-fighter-ed-1-song","sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=muqyayR_9ts","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"動畫官方網站","url":"https://www.niwatori-fighter.net/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/niwatori_fighter","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-25"},{"url":"https://cal.syoboi.jp/tid/7762","label":"しょぼいカレンダー：We’re Loose Stars 完整創作交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://zh.wikipedia.org/wiki/%E9%9B%9E%E9%AC%A5%E5%A3%AB","label":"We're Loose Stars：曲名／動畫用途：維基百科條目編輯（發表／資料提供；刊載：中文維基百科）","role":"cross_check","language":"multi","verifiedAt":"2026-10-31"}],"credits":[{"name":"高橋 哲也","role":"vocals"},{"name":"諸橋邦行","role":"lyrics"},{"name":"尾﨑可愛","role":"lyrics"},{"name":"高橋哲也","role":"composition"},{"name":"高橋哲也","role":"arrangement"},{"name":"福場庸介","role":"arrangement"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://cal.syoboi.jp/tid/7762"],"verifiedAt":"2026-10-15"},{"target":"song","targetId":"niwatori-fighter-ed-1-song","fields":["title"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E9%9B%9E%E9%AC%A5%E5%A3%AB"],"verifiedAt":"2026-10-31"},{"target":"anime_use","targetId":"niwatori-fighter-ed-1","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E9%9B%9E%E9%AC%A5%E5%A3%AB"],"verifiedAt":"2026-10-31"}],"sourceMode":"explicit","followUp":[{"fields":["basic_evidence"],"note":"本期標準TV形式已核；基本歌曲證據已保存確認欄位，仍待補核：第一方的原文曲名、演唱名義、動畫用途；交叉核對的演唱名義。原名、演唱名義及錄音保持，不以中文譯名、別名或不同音源補齊。","resumeWhen":"待可普通讀取的適用第一方本曲名/演唱/本2026版OPED用途正文；原官網403與新DreamNews403停查，不以摘要/舊一般source冒exact證據；兩輪後無新trigger不重開。","checkedAt":"2026-10-31"}]}],"metadataVerifiedAt":"2026-07-25","metadataSources":[{"label":"動畫官方網站：作品與播出資料","url":"https://www.niwatori-fighter.net/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AniList：作品識別與公開圖像","url":"https://anilist.co/anime/179813","language":"en","role":"identifier","verifiedAt":"2026-07-25"},{"label":"繁體中文季度列表交叉對照","url":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","language":"zh-Hant","role":"localized_cross_check","verifiedAt":"2026-07-25"},{"label":"AnimeThemes：OP／ED 曲目交叉核對","url":"https://animethemes.moe/anime/niwatori_fighter","language":"en","role":"theme_cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA：季度主題曲與官方影片索引","url":"https://uzurea.net/spring-2026-anime-theme-songs/","language":"ja","role":"theme_cross_check","verifiedAt":"2026-07-25"},{"label":"季度首播公開來源","url":"https://natalie.mu/comic/news/658959","language":"ja","role":"broadcast_cross_check","verifiedAt":"2026-07-25"},{"url":"https://prtimes.jp/main/html/rd/p/000000434.000027683.html","label":"播出方發表同版本日本TV週日24:00–24:30常規槽（非淨長；北美先行另分）：ディスカバリー・ジャパン發表／カートゥーンネットワーク播出方（發表／資料提供；刊載：PR TIMES）","role":"first_party","language":"ja","verifiedAt":"2026-10-31"}],"broadcastLabel":"2026-04-05（日）24:00–24:30日本TV常規槽（實曆4/6週一00:00–00:30）；北美3/14先行另列，非本體分鐘"},
+  {"anilistId":201090,"id":"curated-201090","slug":"ghost-concert-missing-songs","seasonIds":["2026-spring"],"startDate":"2026-04-05","titleJa":"ゴーストコンサート: missing Songs","titleZhHant":"GHOST CONCERT: 失落之歌","titleRomaji":"Ghost Concert: missing Songs","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx201090-HzQKUjjvde32.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/201090-YIO0HtbUiCwC.jpg","editorialWeekday":7,"broadcastTimeJst":"24:30","status":"finished","officialSiteUrl":"https://ghostconcert-anime.com/","anilistUrl":"https://anilist.co/anime/201090","imageSourceUrl":"https://anilist.co/anime/201090","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/661563"],"uzureaUrl":"https://uzurea.net/spring-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"業魂REQUIEMER","artistDisplayName":"相葉芹亜（CV：藤寺美徳）","youtubeUrl":"https://www.youtube.com/watch?v=uN6qJzuCFtw","songId":"ghost-concert-missing-songs-op-1-song","sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=uN6qJzuCFtw","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"動畫官方網站","url":"https://ghostconcert-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-25"},{"url":"https://ghostconcert-anime.com/music/","label":"動畫官網 MUSIC：主題曲、正確角色／CV、完整創作與數位發行","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://mantan-web.jp/article/20260225dog00m200056000a.html","label":"業魂REQUIEMER：曲名／演唱／動畫用途：MANTANWEB編集部（發表／資料提供；刊載：MANTANWEB）","role":"cross_check","language":"ja","verifiedAt":"2026-10-31"}],"credits":[{"name":"相葉芹亜（CV：藤寺美徳）","role":"vocals"},{"name":"上松範康（Elements Garden）","role":"lyrics"},{"name":"上松範康（Elements Garden）","role":"composition"},{"name":"堀川大翼（Elements Garden）","role":"arrangement"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://ghostconcert-anime.com/music/"],"verifiedAt":"2026-10-15"},{"target":"recording","fields":["title","kind","format"],"sourceUrls":["https://ghostconcert-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"ghost-concert-missing-songs-op-1-tv"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://ghostconcert-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"ghost-concert-missing-songs-op-1-tv-digital"},{"target":"link","fields":["url","type"],"sourceUrls":["https://ghostconcert-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"https://nex-tone.link/Bb46W5NkJ"},{"target":"link","fields":["url","type"],"sourceUrls":["https://ghostconcert-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"https://nex-tone.link/WVb9DzMR3"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://ghostconcert-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"ghost-concert-missing-songs-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://ghostconcert-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"ghost-concert-missing-songs-op-1"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://ghostconcert-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"ghost-concert-missing-songs-op-1-digital"},{"target":"song","targetId":"ghost-concert-missing-songs-op-1-song","fields":["title","artist"],"sourceUrls":["https://mantan-web.jp/article/20260225dog00m200056000a.html"],"verifiedAt":"2026-10-31"},{"target":"anime_use","targetId":"ghost-concert-missing-songs-op-1","fields":["usage"],"sourceUrls":["https://mantan-web.jp/article/20260225dog00m200056000a.html"],"verifiedAt":"2026-10-31"}],"recordings":[{"id":"ghost-concert-missing-songs-op-1-tv","title":"業魂REQUIEMER -TV Size-","kind":"vocal","format":"tv"}],"releases":[{"id":"ghost-concert-missing-songs-op-1-tv-digital","title":"業魂REQUIEMER -TV Size-","artistDisplayName":"相葉芹亜（CV：藤寺美徳）","type":"single","tracks":[{"title":"業魂REQUIEMER -TV Size-","recordingId":"ghost-concert-missing-songs-op-1-tv"}],"date":{"value":"2026-02-19","precision":"day"},"edition":"DIGITAL"},{"id":"ghost-concert-missing-songs-op-1-digital","title":"業魂REQUIEMER","artistDisplayName":"相葉芹亜（CV：藤寺美徳）","type":"single","tracks":[{"title":"業魂REQUIEMER"}],"date":{"value":"2026-04-06","precision":"day"},"edition":"DIGITAL"}],"links":[{"platform":"官方配信","label":"業魂REQUIEMER TV Size 官方配信","url":"https://nex-tone.link/Bb46W5NkJ","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","recordingId":"ghost-concert-missing-songs-op-1-tv"},{"platform":"官方配信","label":"業魂REQUIEMER 官方配信","url":"https://nex-tone.link/WVb9DzMR3","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"}],"sourceMode":"explicit"},{"type":"ED","sequence":1,"titleJa":"茨の道","artistDisplayName":"オデッセウス（CV：寿美菜子）","youtubeUrl":"https://www.youtube.com/watch?v=KygwMir5i_U","songId":"ghost-concert-missing-songs-ed-1-song","sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=KygwMir5i_U","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"動畫官方網站","url":"https://ghostconcert-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-25"},{"url":"https://ghostconcert-anime.com/music/","label":"動畫官網 MUSIC：主題曲、正確角色／CV、完整創作與數位發行","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://mantan-web.jp/article/20260225dog00m200056000a.html","label":"茨の道：曲名／演唱／動畫用途：MANTANWEB編集部（發表／資料提供；刊載：MANTANWEB）","role":"cross_check","language":"ja","verifiedAt":"2026-10-31"}],"credits":[{"name":"オデッセウス（CV：寿美菜子）","role":"vocals"},{"name":"Spirit Garden","role":"lyrics"},{"name":"藤田淳平（Elements Garden）","role":"composition"},{"name":"藤田淳平（Elements Garden）","role":"arrangement"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://ghostconcert-anime.com/music/"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://ghostconcert-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"https://nex-tone.link/9QNDAPz4h"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://ghostconcert-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"ghost-concert-missing-songs-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://ghostconcert-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"ghost-concert-missing-songs-ed-1"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://ghostconcert-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"ghost-concert-missing-songs-ed-1-digital"},{"target":"song","targetId":"ghost-concert-missing-songs-ed-1-song","fields":["title","artist"],"sourceUrls":["https://mantan-web.jp/article/20260225dog00m200056000a.html"],"verifiedAt":"2026-10-31"},{"target":"anime_use","targetId":"ghost-concert-missing-songs-ed-1","fields":["usage"],"sourceUrls":["https://mantan-web.jp/article/20260225dog00m200056000a.html"],"verifiedAt":"2026-10-31"}],"links":[{"platform":"官方配信","label":"茨の道 官方配信","url":"https://nex-tone.link/9QNDAPz4h","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"}],"releases":[{"id":"ghost-concert-missing-songs-ed-1-digital","title":"茨の道","artistDisplayName":"オデッセウス（CV：寿美菜子）","type":"single","tracks":[{"title":"茨の道"}],"date":{"value":"2026-04-06","precision":"day"},"edition":"DIGITAL"}],"sourceMode":"explicit"}],"metadataVerifiedAt":"2026-07-25","metadataSources":[{"label":"動畫官方網站：作品與播出資料","url":"https://ghostconcert-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AniList：作品識別與公開圖像","url":"https://anilist.co/anime/201090","language":"en","role":"identifier","verifiedAt":"2026-07-25"},{"label":"繁體中文季度列表交叉對照","url":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","language":"zh-Hant","role":"localized_cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA：季度主題曲與官方影片索引","url":"https://uzurea.net/spring-2026-anime-theme-songs/","language":"ja","role":"theme_cross_check","verifiedAt":"2026-07-25"},{"label":"季度首播公開來源","url":"https://natalie.mu/comic/news/661563","language":"ja","role":"broadcast_cross_check","verifiedAt":"2026-07-25"},{"url":"https://ghostconcert-anime.com/onair/","label":"同2026日本TV跨日起點與配信分列（非完整槽）：ゴーストコンサート : missing Songs動畫官方（發表／資料提供；刊載：ghostconcert-anime.com）","role":"first_party","language":"ja","verifiedAt":"2026-10-31"},{"url":"https://www.linetv.tw/drama/22381/eps/1?source=DRAMA_EPISODE_MENU_LIST&source_drama_id=22381&type=link","label":"同版本公開正版第1–4話23分39–40秒（平台交叉；未驗播放）：LINE TV公開正版單話metadata（發表／資料提供；刊載：LINE TV）","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-31"}],"broadcastLabel":"2026-04-05（日）24:30日本TV起點（實曆4/6週一00:30）TOKYO MX；正版已見第1–4話23分39–40秒，非TV完整槽/全季淨長"},
   {"anilistId":202523,"id":"curated-202523","slug":"marika-chan-no-koukando-wa-bukkowareteiru","seasonIds":["2026-spring"],"startDate":"2026-04-05","titleJa":"茉莉花ちゃんの好感度はぶっ壊れている","titleZhHant":"茉莉花同學的好感度壞得很徹底","titleRomaji":"Marika-chan no Koukando wa Bukkowareteiru","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx202523-NHeyiypiPnGP.jpg","editorialWeekday":7,"broadcastTimeJst":"25:00","status":"finished","officialSiteUrl":"https://marikowa.af-original.com","anilistUrl":"https://anilist.co/anime/202523","imageSourceUrl":"https://anilist.co/anime/202523","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/660588"],"animeThemesUrl":"https://animethemes.moe/anime/marikachan_no_koukando_wa_bukkowareteiru","uzureaUrl":"https://uzurea.net/spring-2026-anime-theme-songs/","themes":[{"type":"ED","sequence":1,"titleJa":"はかりたい好感度","artistDisplayName":"千歳茉莉花（CV：内田真礼）","songId":"marika-chan-no-koukando-wa-bukkowareteiru-ed-1-song","titleRomaji":"Hakaritai Koukando","sources":[{"url":"https://marikowa.af-original.com/music/","label":"動畫官網 MUSIC：はかりたい好感度 原名、角色歌唱與完整創作","role":"first_party","language":"ja","verifiedAt":"2026-10-15"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://marikowa.af-original.com/music/"],"verifiedAt":"2026-10-15","targetId":"marika-chan-no-koukando-wa-bukkowareteiru-ed-1-song"},{"target":"credits","fields":["credits"],"sourceUrls":["https://marikowa.af-original.com/music/"],"verifiedAt":"2026-10-15"}],"credits":[{"name":"千歳茉莉花（CV：内田真礼）","role":"vocals"},{"name":"佐々木駿","role":"lyrics"},{"name":"ミディ（sixth floor）","role":"composition"},{"name":"ミディ（sixth floor）","role":"arrangement"},{"name":"小林達矢（監修）","role":"other"}]}],"metadataVerifiedAt":"2026-07-25"},
-  {"anilistId":192808,"id":"curated-192808","slug":"jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku","seasonIds":["2026-spring"],"startDate":"2026-04-06","titleJa":"自称悪役令嬢な婚約者の観察記録。","titleZhHant":"自稱惡役千金的未婚妻觀察紀錄。","titleRomaji":"Jishou Akuyaku Reijou na Konyakusha no Kansatsu Kiroku.","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx192808-tfrX4Gn2Y1Ye.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/192808-iaS1GnOo5l3G.jpg","editorialWeekday":1,"broadcastTimeJst":"22:00","status":"finished","officialSiteUrl":"https://jisho-akuyaku-anime.jp/","anilistUrl":"https://anilist.co/anime/192808","imageSourceUrl":"https://anilist.co/anime/192808","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/658443"],"animeThemesUrl":"https://animethemes.moe/anime/jishou_akuyaku_reijou_na_konyakusha_no_kansatsu_kiroku","uzureaUrl":"https://uzurea.net/spring-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"ラフレア","titleRomaji":"La Fleur","artistDisplayName":"宮川愛李","youtubeUrl":"https://www.youtube.com/watch?v=zxS6lFQHiUc","songId":"jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku-op-1-song","sources":[{"url":"https://jisho-akuyaku-anime.jp/music/","label":"動畫官網 MUSIC：主題曲、完整創作及ラフレア兩個 Mini Album 版","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.youtube.com/watch?v=gQ1hwKA6DEw","label":"宮川愛李 官方 Music Video：ラフレア 創作與演奏","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.youtube.com/watch?v=_9S-2i5aC0Y","label":"宮川愛李 官方 Art Track：ラフレア 數位 Single 日期","role":"first_party","language":"ja","verifiedAt":"2026-10-15"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://jisho-akuyaku-anime.jp/music/"],"verifiedAt":"2026-10-15","targetId":"jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://jisho-akuyaku-anime.jp/music/"],"verifiedAt":"2026-10-15","targetId":"jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://jisho-akuyaku-anime.jp/music/"],"verifiedAt":"2026-10-15"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://jisho-akuyaku-anime.jp/music/"],"verifiedAt":"2026-10-15","targetId":"jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku-op-1-jbcn-9007"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://jisho-akuyaku-anime.jp/music/"],"verifiedAt":"2026-10-15","targetId":"jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku-op-1-jbcn-9008"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.youtube.com/watch?v=gQ1hwKA6DEw"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=gQ1hwKA6DEw"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.youtube.com/watch?v=gQ1hwKA6DEw"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.youtube.com/watch?v=_9S-2i5aC0Y"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=_9S-2i5aC0Y"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://www.youtube.com/watch?v=_9S-2i5aC0Y"],"verifiedAt":"2026-10-15","targetId":"jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku-op-1-digital"}],"credits":[{"name":"宮川愛李","role":"vocals"},{"name":"aireen","role":"lyrics"},{"name":"aireen","role":"composition"},{"name":"薮崎太郎","role":"arrangement"},{"name":"Hideyuki Kurakazu（Drums）","role":"other"},{"name":"Airi Miyakawa（Chorus）","role":"other"}],"releases":[{"id":"jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku-op-1-jbcn-9007","title":"ラフレア","artistDisplayName":"宮川愛李","type":"album","tracks":[{"title":"ラフレア"}],"date":{"value":"2026-04-22","precision":"day"},"catalogNumber":"JBCN-9007","edition":"ミニアルバム／初回限定盤（CD＋DVD）","label":"NiM RECORDS / B ZONE"},{"id":"jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku-op-1-jbcn-9008","title":"ラフレア","artistDisplayName":"宮川愛李","type":"album","tracks":[{"title":"ラフレア"}],"date":{"value":"2026-04-22","precision":"day"},"catalogNumber":"JBCN-9008","edition":"ミニアルバム／通常盤（CD）","label":"NiM RECORDS / B ZONE"},{"id":"jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku-op-1-digital","title":"ラフレア","artistDisplayName":"宮川愛李","type":"single","tracks":[{"title":"ラフレア"}],"date":{"value":"2026-04-03","precision":"day"},"edition":"DIGITAL","label":"B ZONE"}],"links":[{"platform":"YouTube","label":"ラフレア Official Music Video","url":"https://www.youtube.com/watch?v=gQ1hwKA6DEw","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"YouTube","label":"ラフレア Official Art Track","url":"https://www.youtube.com/watch?v=_9S-2i5aC0Y","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"}]},{"type":"ED","sequence":1,"titleJa":"Magic","artistDisplayName":"RLOEVO","youtubeUrl":"https://www.youtube.com/watch?v=3D1CqPMWxv0","songId":"jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku-ed-1-song","sources":[{"url":"https://jisho-akuyaku-anime.jp/music/","label":"動畫官網 MUSIC：主題曲、完整創作及ラフレア兩個 Mini Album 版","role":"first_party","language":"ja","verifiedAt":"2026-10-15"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://jisho-akuyaku-anime.jp/music/"],"verifiedAt":"2026-10-15","targetId":"jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://jisho-akuyaku-anime.jp/music/"],"verifiedAt":"2026-10-15","targetId":"jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://jisho-akuyaku-anime.jp/music/"],"verifiedAt":"2026-10-15"}],"credits":[{"name":"RLOEVO","role":"vocals"},{"name":"RLOEVO","role":"lyrics"},{"name":"RLOEVO","role":"composition"},{"name":"RLOEVO","role":"arrangement"}]}],"metadataVerifiedAt":"2026-07-25"},
-  {"anilistId":197824,"id":"curated-197824","slug":"isekai-nonbiri-nouka-2","seasonIds":["2026-spring"],"startDate":"2026-04-06","titleJa":"異世界のんびり農家２","titleZhHant":"異世界悠閒農家2","titleRomaji":"Isekai Nonbiri Nouka 2","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197824-k9Uyef8g49hB.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/197824-rS7XjJQ0CZs2.jpg","editorialWeekday":1,"broadcastTimeJst":"22:30","status":"finished","officialSiteUrl":"https://nonbiri-nouka2.com/","anilistUrl":"https://anilist.co/anime/197824","imageSourceUrl":"https://anilist.co/anime/197824","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/663991"],"animeThemesUrl":"https://animethemes.moe/anime/isekai_nonbiri_nouka_2","uzureaUrl":"https://uzurea.net/spring-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"It’s a beautiful story","artistDisplayName":"ルールーシー＝ルー（CV：下地紫野）＆ティア（CV：洲崎綾）","youtubeUrl":"https://www.youtube.com/watch?v=EMhgPcxCz9I","songId":"isekai-nonbiri-nouka-2-op-1-song","sources":[{"url":"https://www.ponycanyon.co.jp/music/PCCG000070557","label":"PONY CANYON 官方：It’s a beautiful story 主題曲、歌唱及 CD Single","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://supalove.com/news/tv%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8C%E7%95%B0%E4%B8%96%E7%95%8C%E3%81%AE%E3%82%93%E3%81%B3%E3%82%8A%E8%BE%B2%E5%AE%B6%EF%BC%92%E3%80%8Dop%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%82%92%E6%8B%85%E5%BD%93/","label":"SUPALOVE 官方：It’s a beautiful story 完整創作與無字幕 OP","role":"first_party","language":"ja","verifiedAt":"2026-10-15"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.ponycanyon.co.jp/music/PCCG000070557"],"verifiedAt":"2026-10-15","targetId":"isekai-nonbiri-nouka-2-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.ponycanyon.co.jp/music/PCCG000070557"],"verifiedAt":"2026-10-15","targetId":"isekai-nonbiri-nouka-2-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.ponycanyon.co.jp/music/PCCG000070557"],"verifiedAt":"2026-10-15"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.ponycanyon.co.jp/music/PCCG000070557"],"verifiedAt":"2026-10-15","targetId":"isekai-nonbiri-nouka-2-op-1-pccg-70557"},{"target":"credits","fields":["credits"],"sourceUrls":["https://supalove.com/news/tv%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8C%E7%95%B0%E4%B8%96%E7%95%8C%E3%81%AE%E3%82%93%E3%81%B3%E3%82%8A%E8%BE%B2%E5%AE%B6%EF%BC%92%E3%80%8Dop%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%82%92%E6%8B%85%E5%BD%93/"],"verifiedAt":"2026-10-15"}],"credits":[{"name":"ルールーシー＝ルー（CV：下地紫野）","role":"vocals"},{"name":"ティア（CV：洲崎綾）","role":"vocals"},{"name":"金崎真士","role":"lyrics"},{"name":"金崎真士","role":"composition"},{"name":"金崎真士","role":"arrangement"}],"releases":[{"id":"isekai-nonbiri-nouka-2-op-1-pccg-70557","title":"It’s a beautiful story","artistDisplayName":"ルールーシー＝ルー（CV：下地紫野）＆ティア（CV：洲崎綾）","type":"single","tracks":[{"title":"It’s a beautiful story"}],"date":{"value":"2026-06-03","precision":"day"},"catalogNumber":"PCCG.70557","edition":"CD","label":"PONY CANYON"}]},{"type":"ED","sequence":1,"titleJa":"Sunny Steps","artistDisplayName":"緋月ゆい","youtubeUrl":"https://www.youtube.com/watch?v=40K8d9oveiY","songId":"isekai-nonbiri-nouka-2-ed-1-song","sources":[{"url":"https://www.ponycanyon.co.jp/music/PCCG000070558","label":"PONY CANYON 官方：Sunny Steps 動畫 ED 及 CD Single","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.star-jam.com/works/view/157","label":"StarJam 官方制作實績：Sunny Steps 完整創作與演唱","role":"first_party","language":"ja","verifiedAt":"2026-10-15"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.ponycanyon.co.jp/music/PCCG000070558"],"verifiedAt":"2026-10-15","targetId":"isekai-nonbiri-nouka-2-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.ponycanyon.co.jp/music/PCCG000070558"],"verifiedAt":"2026-10-15","targetId":"isekai-nonbiri-nouka-2-ed-1"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.ponycanyon.co.jp/music/PCCG000070558"],"verifiedAt":"2026-10-15","targetId":"isekai-nonbiri-nouka-2-ed-1-pccg-70558"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.star-jam.com/works/view/157"],"verifiedAt":"2026-10-15"}],"releases":[{"id":"isekai-nonbiri-nouka-2-ed-1-pccg-70558","title":"Sunny Steps","artistDisplayName":"緋月ゆい","type":"single","tracks":[{"title":"Sunny Steps"}],"date":{"value":"2026-06-03","precision":"day"},"catalogNumber":"PCCG.70558","edition":"CD","label":"PONY CANYON"}],"credits":[{"name":"緋月ゆい","role":"vocals"},{"name":"錦織孝宏","role":"lyrics"},{"name":"錦織孝宏","role":"composition"},{"name":"錦織孝宏","role":"arrangement"}]}],"metadataVerifiedAt":"2026-07-25"},
-  {"anilistId":147105,"id":"curated-147105","slug":"tongari-boushi-no-atelier","seasonIds":["2026-spring"],"startDate":"2026-04-06","titleJa":"とんがり帽子のアトリエ","titleZhHant":"魔法帽的工作室","titleRomaji":"Tongari Boushi no Atelier","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx147105-rwOX8qyUy8gV.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/147105-fTjmRrILFixZ.jpg","editorialWeekday":1,"broadcastTimeJst":"23:00","status":"finished","officialSiteUrl":"https://tongari-anime.com/","anilistUrl":"https://anilist.co/anime/147105","imageSourceUrl":"https://anilist.co/anime/147105","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/661011"],"animeThemesUrl":"https://animethemes.moe/anime/tongari_boushi_no_atelier","uzureaUrl":"https://uzurea.net/spring-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"風のアンセム feat. suis from ヨルシカ","titleRomaji":"Kaze no Anthem","artistDisplayName":"Eve","youtubeUrl":"https://www.youtube.com/watch?v=rQ0S_0CepIo","songId":"tongari-boushi-no-atelier-op-1-song","sources":[{"url":"https://tongari-anime.com/music/","label":"動畫官網 MUSIC：OP、三首 ED 的原名、演唱及合作","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://eveofficial.com/discography/kazenoanthem.html","label":"Eve 官方 discography：風のアンセム 完整創作、Digital Single 與配信","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.anisil.com/animes/6587-%E3%81%A8%E3%82%93%E3%81%8C%E3%82%8A%E5%B8%BD%E5%AD%90%E3%81%AE%E3%82%A2%E3%83%88%E3%83%AA%E3%82%A8","label":"アニシル：風のアンセム 編曲名の綴り及三首 ED 的創作交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-15"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://tongari-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://tongari-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tongari-anime.com/music/"],"verifiedAt":"2026-10-15"},{"target":"credits","fields":["credits"],"sourceUrls":["https://eveofficial.com/discography/kazenoanthem.html"],"verifiedAt":"2026-10-15"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://eveofficial.com/discography/kazenoanthem.html"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-op-1-digital"},{"target":"link","fields":["url","type"],"sourceUrls":["https://eveofficial.com/discography/kazenoanthem.html"],"verifiedAt":"2026-10-15","targetId":"https://tf.lnk.to/KazenoAnthem"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.anisil.com/animes/6587-%E3%81%A8%E3%82%93%E3%81%8C%E3%82%8A%E5%B8%BD%E5%AD%90%E3%81%AE%E3%82%A2%E3%83%88%E3%83%AA%E3%82%A8"],"verifiedAt":"2026-10-15"}],"credits":[{"name":"Eve","role":"vocals"},{"name":"suis from ヨルシカ","role":"vocals"},{"name":"Eve","role":"lyrics"},{"name":"Eve","role":"composition"},{"name":"Numa","role":"arrangement"},{"name":"Zingai","role":"arrangement"},{"name":"Ryo Konishi","role":"arrangement"}],"releases":[{"id":"tongari-boushi-no-atelier-op-1-digital","title":"風のアンセム (feat. suis from ヨルシカ)","artistDisplayName":"Eve","type":"single","tracks":[{"title":"風のアンセム feat. suis from ヨルシカ"}],"date":{"value":"2026-04-14","precision":"day"},"edition":"DIGITAL"}],"links":[{"platform":"官方配信","label":"風のアンセム 官方配信","url":"https://tf.lnk.to/KazenoAnthem","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"}]},{"type":"ED","sequence":1,"titleJa":"ただ美しい呪い","titleRomaji":"Tada Utsukushii Noroi","artistDisplayName":"Nakamura Hak","youtubeUrl":"https://www.youtube.com/watch?v=tN_1OM5BGws","songId":"tongari-boushi-no-atelier-ed-1-song","sources":[{"url":"https://tongari-anime.com/music/","label":"動畫官網 MUSIC：OP、三首 ED 的原名、演唱及合作","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://avexnet.jp/contents/NAHAK-OFCL-0001/discography/1021538","label":"avex 官方：三首 ED 的 CD Single、Anime ver.、自彈自唱與曲目表","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.youtube.com/watch?v=nNRue6R6ObE","label":"Nakamura Hak 官方 Art Track：原曲、完整創作及數位發行","role":"first_party","language":"ja","verifiedAt":"2026-10-15"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://tongari-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://tongari-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-ed-1"},{"target":"recording","fields":["title","kind","format","credits"],"sourceUrls":["https://avexnet.jp/contents/NAHAK-OFCL-0001/discography/1021538"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-ed-1-original"},{"target":"recording","fields":["title","kind","format","credits"],"sourceUrls":["https://avexnet.jp/contents/NAHAK-OFCL-0001/discography/1021538"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-ed-1-anime"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://avexnet.jp/contents/NAHAK-OFCL-0001/discography/1021538"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-ed-tada-utsukushii-noroi-ctcm-65137"},{"target":"credits","fields":["credits"],"sourceUrls":["https://avexnet.jp/contents/NAHAK-OFCL-0001/discography/1021538"],"verifiedAt":"2026-10-15"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.youtube.com/watch?v=nNRue6R6ObE"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.youtube.com/watch?v=nNRue6R6ObE"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=nNRue6R6ObE"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://www.youtube.com/watch?v=nNRue6R6ObE"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-ed-1-digital"},{"target":"link","fields":["url","type"],"sourceUrls":["https://avexnet.jp/contents/NAHAK-OFCL-0001/discography/1021538"],"verifiedAt":"2026-10-15","targetId":"https://maximum10.lnk.to/NakamuraHak_001"}],"recordings":[{"id":"tongari-boushi-no-atelier-ed-1-original","title":"ただ美しい呪い","kind":"vocal","format":"unknown","credits":[{"name":"Nakamura Hak","role":"vocals"}]},{"id":"tongari-boushi-no-atelier-ed-1-anime","title":"ただ美しい呪い - Anime ver.","kind":"vocal","format":"unknown","credits":[{"name":"Nakamura Hak","role":"vocals"}]}],"releases":[{"id":"tongari-boushi-no-atelier-ed-tada-utsukushii-noroi-ctcm-65137","title":"ただ美しい呪い","artistDisplayName":"Nakamura Hak","type":"single","tracks":[{"title":"ただ美しい呪い","position":1,"recordingId":"tongari-boushi-no-atelier-ed-1-original"},{"title":"ただ美しい呪い - Anime ver.","position":4,"recordingId":"tongari-boushi-no-atelier-ed-1-anime"}],"date":{"value":"2026-06-10","precision":"day"},"catalogNumber":"CTCM-65137","edition":"CD","label":"maximum10"},{"id":"tongari-boushi-no-atelier-ed-1-digital","title":"ただ美しい呪い","artistDisplayName":"Nakamura Hak","type":"single","tracks":[{"title":"ただ美しい呪い"}],"date":{"value":"2026-05-01","precision":"day"},"edition":"DIGITAL"}],"credits":[{"name":"Nakamura Hak","role":"vocals"},{"name":"Nakamura Hak（Acoustic Guitar）","role":"other"},{"name":"Nakamura Hak","role":"lyrics"},{"name":"Nakamura Hak","role":"composition"},{"name":"Nakamura Hak","role":"arrangement"}],"links":[{"platform":"YouTube","label":"ただ美しい呪い Official Art Track","url":"https://www.youtube.com/watch?v=nNRue6R6ObE","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"官方配信","label":"ただ美しい呪い CD Single 官方購買入口","url":"https://maximum10.lnk.to/NakamuraHak_001","linkType":"physical_purchase","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"tongari-boushi-no-atelier-ed-tada-utsukushii-noroi-ctcm-65137"}]},{"type":"ED","sequence":2,"titleJa":"夜に浮かぶ","artistDisplayName":"Nakamura Hak","songId":"tongari-boushi-no-atelier-ed-2-song","titleRomaji":"Yoru ni Ukabu","sources":[{"url":"https://tongari-anime.com/music/","label":"動畫官網 MUSIC：OP、三首 ED 的原名、演唱及合作","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://avexnet.jp/contents/NAHAK-OFCL-0001/discography/1021538","label":"avex 官方：三首 ED 的 CD Single、Anime ver.、自彈自唱與曲目表","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.youtube.com/watch?v=hosk8IuLfDQ","label":"Nakamura Hak 官方 Art Track：原曲、完整創作及數位發行","role":"first_party","language":"ja","verifiedAt":"2026-10-15"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://tongari-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://tongari-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-ed-2"},{"target":"recording","fields":["title","kind","format","credits"],"sourceUrls":["https://avexnet.jp/contents/NAHAK-OFCL-0001/discography/1021538"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-ed-2-original"},{"target":"recording","fields":["title","kind","format","credits"],"sourceUrls":["https://avexnet.jp/contents/NAHAK-OFCL-0001/discography/1021538"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-ed-2-anime"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://avexnet.jp/contents/NAHAK-OFCL-0001/discography/1021538"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-ed-tada-utsukushii-noroi-ctcm-65137"},{"target":"credits","fields":["credits"],"sourceUrls":["https://avexnet.jp/contents/NAHAK-OFCL-0001/discography/1021538"],"verifiedAt":"2026-10-15"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.youtube.com/watch?v=hosk8IuLfDQ"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.youtube.com/watch?v=hosk8IuLfDQ"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=hosk8IuLfDQ"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://www.youtube.com/watch?v=hosk8IuLfDQ"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-ed-2-digital"},{"target":"link","fields":["url","type"],"sourceUrls":["https://avexnet.jp/contents/NAHAK-OFCL-0001/discography/1021538"],"verifiedAt":"2026-10-15","targetId":"https://maximum10.lnk.to/NakamuraHak_001"}],"recordings":[{"id":"tongari-boushi-no-atelier-ed-2-original","title":"夜に浮かぶ","kind":"vocal","format":"unknown","credits":[{"name":"Nakamura Hak","role":"vocals"}]},{"id":"tongari-boushi-no-atelier-ed-2-anime","title":"夜に浮かぶ - Anime ver.","kind":"vocal","format":"unknown","credits":[{"name":"Nakamura Hak","role":"vocals"}]}],"releases":[{"id":"tongari-boushi-no-atelier-ed-tada-utsukushii-noroi-ctcm-65137","title":"ただ美しい呪い","artistDisplayName":"Nakamura Hak","type":"single","tracks":[{"title":"夜に浮かぶ","position":2,"recordingId":"tongari-boushi-no-atelier-ed-2-original"},{"title":"夜に浮かぶ - Anime ver.","position":5,"recordingId":"tongari-boushi-no-atelier-ed-2-anime"}],"date":{"value":"2026-06-10","precision":"day"},"catalogNumber":"CTCM-65137","edition":"CD","label":"maximum10"},{"id":"tongari-boushi-no-atelier-ed-2-digital","title":"夜に浮かぶ","artistDisplayName":"Nakamura Hak","type":"single","tracks":[{"title":"夜に浮かぶ"}],"date":{"value":"2026-05-06","precision":"day"},"edition":"DIGITAL"}],"credits":[{"name":"Nakamura Hak","role":"vocals"},{"name":"Nakamura Hak（Acoustic Guitar）","role":"other"},{"name":"Nakamura Hak","role":"lyrics"},{"name":"Nakamura Hak","role":"composition"},{"name":"Nakamura Hak","role":"arrangement"}],"links":[{"platform":"YouTube","label":"夜に浮かぶ Official Art Track","url":"https://www.youtube.com/watch?v=hosk8IuLfDQ","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"官方配信","label":"ただ美しい呪い CD Single 官方購買入口","url":"https://maximum10.lnk.to/NakamuraHak_001","linkType":"physical_purchase","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"tongari-boushi-no-atelier-ed-tada-utsukushii-noroi-ctcm-65137"}]},{"type":"ED","sequence":3,"titleJa":"光り","artistDisplayName":"Nakamura Hak","songId":"tongari-boushi-no-atelier-ed-3-song","titleRomaji":"Hikari","sources":[{"url":"https://tongari-anime.com/music/","label":"動畫官網 MUSIC：OP、三首 ED 的原名、演唱及合作","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://avexnet.jp/contents/NAHAK-OFCL-0001/discography/1021538","label":"avex 官方：三首 ED 的 CD Single、Anime ver.、自彈自唱與曲目表","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.anisil.com/animes/6587-%E3%81%A8%E3%82%93%E3%81%8C%E3%82%8A%E5%B8%BD%E5%AD%90%E3%81%AE%E3%82%A2%E3%83%88%E3%83%AA%E3%82%A8","label":"アニシル：光り 完整創作及第8話 ED 交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-15"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://tongari-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-ed-3-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://tongari-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-ed-3"},{"target":"recording","fields":["title","kind","format","credits"],"sourceUrls":["https://avexnet.jp/contents/NAHAK-OFCL-0001/discography/1021538"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-ed-3-original"},{"target":"recording","fields":["title","kind","format","credits"],"sourceUrls":["https://avexnet.jp/contents/NAHAK-OFCL-0001/discography/1021538"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-ed-3-anime"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://avexnet.jp/contents/NAHAK-OFCL-0001/discography/1021538"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-ed-tada-utsukushii-noroi-ctcm-65137"},{"target":"credits","fields":["credits"],"sourceUrls":["https://avexnet.jp/contents/NAHAK-OFCL-0001/discography/1021538"],"verifiedAt":"2026-10-15"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.anisil.com/animes/6587-%E3%81%A8%E3%82%93%E3%81%8C%E3%82%8A%E5%B8%BD%E5%AD%90%E3%81%AE%E3%82%A2%E3%83%88%E3%83%AA%E3%82%A8"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://avexnet.jp/contents/NAHAK-OFCL-0001/discography/1021538"],"verifiedAt":"2026-10-15","targetId":"https://maximum10.lnk.to/NakamuraHak_001"}],"recordings":[{"id":"tongari-boushi-no-atelier-ed-3-original","title":"光り","kind":"vocal","format":"unknown","credits":[{"name":"Nakamura Hak","role":"vocals"}]},{"id":"tongari-boushi-no-atelier-ed-3-anime","title":"光り - Anime ver.","kind":"vocal","format":"unknown","credits":[{"name":"Nakamura Hak","role":"vocals"}]}],"releases":[{"id":"tongari-boushi-no-atelier-ed-tada-utsukushii-noroi-ctcm-65137","title":"ただ美しい呪い","artistDisplayName":"Nakamura Hak","type":"single","tracks":[{"title":"光り","position":3,"recordingId":"tongari-boushi-no-atelier-ed-3-original"},{"title":"光り - Anime ver.","position":6,"recordingId":"tongari-boushi-no-atelier-ed-3-anime"}],"date":{"value":"2026-06-10","precision":"day"},"catalogNumber":"CTCM-65137","edition":"CD","label":"maximum10"}],"credits":[{"name":"Nakamura Hak","role":"vocals"},{"name":"Nakamura Hak（Acoustic Guitar）","role":"other"},{"name":"Nakamura Hak","role":"lyrics"},{"name":"Nakamura Hak","role":"composition"},{"name":"Nakamura Hak","role":"arrangement"}],"links":[{"platform":"官方配信","label":"ただ美しい呪い CD Single 官方購買入口","url":"https://maximum10.lnk.to/NakamuraHak_001","linkType":"physical_purchase","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"tongari-boushi-no-atelier-ed-tada-utsukushii-noroi-ctcm-65137"}]}],"metadataVerifiedAt":"2026-07-25"},
-  {"anilistId":189987,"id":"curated-189987","slug":"ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi","seasonIds":["2026-spring"],"startDate":"2026-04-06","titleJa":"ポンコツ風紀委員とスカート丈が不適切なJKの話","titleZhHant":"木頭風紀委員和迷你裙JK的故事","titleRomaji":"Ponkotsu Fuuki Iin to Skirt take ga Futekisetsu na JK no Hanashi","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx189987-CkTDPfD7vu2Y.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/189987-0UGf5F7zWNvv.jpg","editorialWeekday":1,"broadcastTimeJst":"23:24","status":"finished","officialSiteUrl":"https://ponsuka.com/","anilistUrl":"https://anilist.co/anime/189987","imageSourceUrl":"https://anilist.co/anime/189987","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/662218"],"animeThemesUrl":"https://animethemes.moe/anime/ponkotsu_fuuki_iin_to_skirt_take_ga_futekisetsu_na_jk_no_hanashi","uzureaUrl":"https://uzurea.net/spring-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"ヒトリゴト","titleRomaji":"Hitorigoto","artistDisplayName":"osage","youtubeUrl":"https://www.youtube.com/watch?v=w7OmO94Ezt8","songId":"ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi-op-1-song","sources":[{"url":"https://ponsuka.com/music/index.html","label":"動畫官網 MUSIC：主題曲、創作、數位發行與團隊","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.shazam.com/track/868000515/%E3%83%92%E3%83%88%E3%83%AA%E3%82%B4%E3%83%88","label":"Shazam：osage ヒトリゴト 的作曲及本曲個別演唱交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://ponsuka.com/moive/index.html","label":"動畫官網 MOVIE：無字幕 OP／ED 的確切 YouTube 入口","role":"first_party","language":"ja","verifiedAt":"2026-10-15"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://ponsuka.com/music/index.html"],"verifiedAt":"2026-10-15","targetId":"ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://ponsuka.com/music/index.html"],"verifiedAt":"2026-10-15","targetId":"ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://ponsuka.com/music/index.html"],"verifiedAt":"2026-10-15"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://ponsuka.com/music/index.html"],"verifiedAt":"2026-10-15","targetId":"ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi-op-1-digital"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.shazam.com/track/868000515/%E3%83%92%E3%83%88%E3%83%AA%E3%82%B4%E3%83%88"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://ponsuka.com/moive/index.html"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=w7OmO94Ezt8"}],"credits":[{"name":"山口ケンタ","role":"lyrics"},{"name":"osage","role":"arrangement"},{"name":"花井諒","role":"arrangement"},{"name":"山口ケンタ","role":"group_member","groupName":"osage"},{"name":"金廣洸輝","role":"group_member","groupName":"osage"},{"name":"ヒロクサマ","role":"group_member","groupName":"osage"},{"name":"田中優希","role":"group_member","groupName":"osage"},{"name":"山口ケンタ","role":"composition"},{"name":"山口ケンタ","role":"vocals"}],"releases":[{"id":"ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi-op-1-digital","title":"ヒトリゴト","artistDisplayName":"osage","type":"single","tracks":[{"title":"ヒトリゴト"}],"date":{"value":"2026-04-06","precision":"day"},"edition":"DIGITAL"}],"links":[{"platform":"YouTube","label":"ヒトリゴト 無字幕 OP","url":"https://www.youtube.com/watch?v=w7OmO94Ezt8","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"}]},{"type":"ED","sequence":1,"titleJa":"部屋とガラクタと私","titleRomaji":"Heya to Garakuta to Watashi","artistDisplayName":"ミーマイナー","youtubeUrl":"https://www.youtube.com/watch?v=jkUzjZlp0jk","songId":"ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi-ed-1-song","sources":[{"url":"https://ponsuka.com/music/index.html","label":"動畫官網 MUSIC：主題曲、創作、數位發行與團隊","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://ponsuka.com/moive/index.html","label":"動畫官網 MOVIE：無字幕 OP／ED 的確切 YouTube 入口","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.sonymusic.co.jp/artist/MEminor/discography/SRCL-13673","label":"Sony Music 官方：部屋とガラクタと私 的 1st EP、曲目及動畫 ED","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.sonymusic.co.jp/artist/MEminor/info/582441","label":"Sony Music 官方：部屋とガラクタと私 明示 1st EP、兩種 CD 發行形式與日期","role":"first_party","language":"ja","verifiedAt":"2026-10-15"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://ponsuka.com/music/index.html"],"verifiedAt":"2026-10-15","targetId":"ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://ponsuka.com/music/index.html"],"verifiedAt":"2026-10-15","targetId":"ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://ponsuka.com/music/index.html"],"verifiedAt":"2026-10-15"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://ponsuka.com/music/index.html"],"verifiedAt":"2026-10-15","targetId":"ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi-ed-1-digital"},{"target":"link","fields":["url","type"],"sourceUrls":["https://ponsuka.com/moive/index.html"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=jkUzjZlp0jk"},{"target":"release","fields":["title","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.sonymusic.co.jp/artist/MEminor/discography/SRCL-13673"],"verifiedAt":"2026-10-15","targetId":"ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi-ed-1-srcl-13673"},{"target":"release","fields":["title","type","date","edition","catalog_number"],"sourceUrls":["https://www.sonymusic.co.jp/artist/MEminor/info/582441"],"verifiedAt":"2026-10-15","targetId":"ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi-ed-1-srcl-13673"}],"credits":[{"name":"ミーマイナー","role":"vocals"},{"name":"美咲","role":"lyrics"},{"name":"美咲","role":"composition"},{"name":"さすけ","role":"arrangement"},{"name":"美咲","role":"group_member","groupName":"ミーマイナー"},{"name":"さすけ","role":"group_member","groupName":"ミーマイナー"}],"releases":[{"id":"ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi-ed-1-digital","title":"部屋とガラクタと私","artistDisplayName":"ミーマイナー","type":"single","tracks":[{"title":"部屋とガラクタと私"}],"date":{"value":"2026-04-14","precision":"day"},"edition":"DIGITAL"},{"id":"ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi-ed-1-srcl-13673","title":"部屋とガラクタと私","artistDisplayName":"ミーマイナー","type":"ep","tracks":[{"title":"部屋とガラクタと私","position":1}],"date":{"value":"2026-05-13","precision":"day"},"catalogNumber":"SRCL-13673","edition":"初回仕様限定盤"}],"links":[{"platform":"YouTube","label":"部屋とガラクタと私 無字幕 ED","url":"https://www.youtube.com/watch?v=jkUzjZlp0jk","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"}]}],"metadataVerifiedAt":"2026-07-25"},
-  {"anilistId":206914,"id":"curated-206914","slug":"nippon-sangoku","seasonIds":["2026-spring"],"startDate":"2026-04-06","titleJa":"日本三國","titleZhHant":"日本三國","titleRomaji":"Nippon Sangoku","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx206914-SHKX08LarRzB.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/206914-owssGq2CGhRZ.jpg","editorialWeekday":1,"broadcastTimeJst":"24:00","status":"finished","officialSiteUrl":"https://www.nipponsangoku.com/","anilistUrl":"https://anilist.co/anime/206914","imageSourceUrl":"https://anilist.co/anime/206914","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/661320"],"animeThemesUrl":"https://animethemes.moe/anime/nippon_sangoku","uzureaUrl":"https://uzurea.net/spring-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"火種","titleRomaji":"Hidane","artistDisplayName":"キタニタツヤ","youtubeUrl":"https://www.youtube.com/watch?v=nW2CpHcmlo4","songId":"nippon-sangoku-op-1-song","sources":[{"url":"https://www.nipponsangoku.com/music/?cate=op","label":"動畫官網 MUSIC：火種／誓い 的用途、演唱及完整創作","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://music.apple.com/us/song/1886375862","label":"Apple Music：HIDANE／火種 確切曲目及創作交叉核對","role":"cross_check","language":"en","verifiedAt":"2026-10-15"},{"url":"https://www.shazam.com/song/1886375862/hidane","label":"Shazam：HIDANE 與火種原名對應交叉核對","role":"cross_check","language":"en","verifiedAt":"2026-10-15"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.nipponsangoku.com/music/?cate=op"],"verifiedAt":"2026-10-15","targetId":"nippon-sangoku-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.nipponsangoku.com/music/?cate=op"],"verifiedAt":"2026-10-15","targetId":"nippon-sangoku-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.nipponsangoku.com/music/?cate=op"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://music.apple.com/us/song/1886375862"],"verifiedAt":"2026-10-15","targetId":"https://music.apple.com/us/song/1886375862"}],"credits":[{"name":"キタニタツヤ","role":"vocals"},{"name":"Tatsuya Kitani","role":"lyrics"},{"name":"Tatsuya Kitani","role":"composition"},{"name":"Tatsuya Kitani","role":"arrangement"}],"links":[{"platform":"Apple Music","label":"火種／HIDANE Apple Music 曲目","url":"https://music.apple.com/us/song/1886375862","linkType":"direct_track","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"}]},{"type":"ED","sequence":1,"titleJa":"誓い","titleRomaji":"Chikai","artistDisplayName":"Leina","youtubeUrl":"https://www.youtube.com/watch?v=wUpHmr9thVQ","songId":"nippon-sangoku-ed-1-song","sources":[{"url":"https://www.nipponsangoku.com/music/?cate=op","label":"動畫官網 MUSIC：火種／誓い 的用途、演唱及完整創作","role":"first_party","language":"ja","verifiedAt":"2026-10-15"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.nipponsangoku.com/music/?cate=op"],"verifiedAt":"2026-10-15","targetId":"nippon-sangoku-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.nipponsangoku.com/music/?cate=op"],"verifiedAt":"2026-10-15","targetId":"nippon-sangoku-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.nipponsangoku.com/music/?cate=op"],"verifiedAt":"2026-10-15"}],"credits":[{"name":"Leina","role":"vocals"},{"name":"Leina","role":"lyrics"},{"name":"Leina","role":"composition"},{"name":"oni","role":"arrangement"}]}],"metadataVerifiedAt":"2026-07-25"},
-  {"anilistId":197754,"id":"curated-197754","slug":"liar-game","seasonIds":["2026-spring","2026-summer"],"startDate":"2026-04-07","titleJa":"LIAR GAME","titleZhHant":"LIAR GAME 詐欺遊戲","titleRomaji":"LIAR GAME","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197754-Q5KqcUhIdypp.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/197754-cMWxeRdhYrFW.jpg","editorialWeekday":1,"broadcastTimeJst":"24:00","status":"finished","officialSiteUrl":"https://www.liargame-anime.com/","anilistUrl":"https://anilist.co/anime/197754","imageSourceUrl":"https://anilist.co/anime/197754","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/663860"],"animeThemesUrl":"https://animethemes.moe/anime/liar_game","uzureaUrl":"https://uzurea.net/spring-2026-anime-theme-songs/","themes":[{
-  "type": "OP",
-  "sequence": 1,
-  "titleJa": "あぶく",
-  "titleRomaji": "Abuku",
-  "artistDisplayName": "ヨルシカ",
-  "youtubeUrl": "https://www.youtube.com/watch?v=eFzlhUL_1fI",
-  "songId": "liar-game-op-1-song",
-  "sources": [
-    {
-      "label": "官方 YouTube 影片",
-      "url": "https://www.youtube.com/watch?v=eFzlhUL_1fI",
-      "language": "ja",
-      "role": "first_party",
-      "verifiedAt": "2026-07-25"
-    },
-    {
-      "label": "動畫官方網站",
-      "url": "https://www.liargame-anime.com/",
-      "language": "ja",
-      "role": "first_party",
-      "verifiedAt": "2026-07-25"
-    },
-    {
-      "label": "AnimeThemes",
-      "url": "https://animethemes.moe/anime/liar_game",
-      "language": "en",
-      "role": "cross_check",
-      "verifiedAt": "2026-07-25"
-    },
-    {
-      "label": "UZUREA 主題曲清單",
-      "url": "https://uzurea.net/spring-2026-anime-theme-songs/",
-      "language": "ja",
-      "role": "cross_check",
-      "verifiedAt": "2026-07-25"
-    },
-    {
-      "url": "https://www.liargame-anime.com/music/",
-      "label": "動畫官網 MUSIC：兩季度 OP／ED 原名、用途、配信及團隊",
-      "role": "first_party",
-      "language": "ja",
-      "verifiedAt": "2026-10-15"
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=OHAjc-ayhus",
-      "label": "ヨルシカ 官方 MV：あぶく 完整創作、suis 歌唱及 Digital Single",
-      "role": "first_party",
-      "language": "ja",
-      "verifiedAt": "2026-10-15"
-    }
-  ],
-  "evidence": [
-    {
-      "target": "song",
-      "fields": [
-        "title",
-        "artist"
-      ],
-      "sourceUrls": [
-        "https://www.liargame-anime.com/music/"
-      ],
-      "verifiedAt": "2026-10-15",
-      "targetId": "liar-game-op-1-song"
-    },
-    {
-      "target": "anime_use",
-      "fields": [
-        "usage"
-      ],
-      "sourceUrls": [
-        "https://www.liargame-anime.com/music/"
-      ],
-      "verifiedAt": "2026-10-15",
-      "targetId": "liar-game-op-1"
-    },
-    {
-      "target": "credits",
-      "fields": [
-        "credits"
-      ],
-      "sourceUrls": [
-        "https://www.liargame-anime.com/music/"
-      ],
-      "verifiedAt": "2026-10-15"
-    },
-    {
-      "target": "link",
-      "fields": [
-        "url",
-        "type"
-      ],
-      "sourceUrls": [
-        "https://www.liargame-anime.com/music/"
-      ],
-      "verifiedAt": "2026-10-15",
-      "targetId": "https://yorushika.lnk.to/bubble"
-    },
-    {
-      "target": "credits",
-      "fields": [
-        "credits"
-      ],
-      "sourceUrls": [
-        "https://www.youtube.com/watch?v=OHAjc-ayhus"
-      ],
-      "verifiedAt": "2026-10-15"
-    },
-    {
-      "target": "link",
-      "fields": [
-        "url",
-        "type"
-      ],
-      "sourceUrls": [
-        "https://www.youtube.com/watch?v=OHAjc-ayhus"
-      ],
-      "verifiedAt": "2026-10-15",
-      "targetId": "https://www.youtube.com/watch?v=OHAjc-ayhus"
-    },
-    {
-      "target": "release",
-      "fields": [
-        "title",
-        "type",
-        "tracklist",
-        "date",
-        "edition"
-      ],
-      "sourceUrls": [
-        "https://www.liargame-anime.com/music/"
-      ],
-      "verifiedAt": "2026-10-15",
-      "targetId": "liar-game-op-1-digital"
-    }
-  ],
-  "credits": [
-    {
-      "name": "n-buna",
-      "role": "group_member",
-      "groupName": "ヨルシカ"
-    },
-    {
-      "name": "suis",
-      "role": "group_member",
-      "groupName": "ヨルシカ"
-    },
-    {
-      "name": "n-buna",
-      "role": "lyrics"
-    },
-    {
-      "name": "n-buna",
-      "role": "composition"
-    },
-    {
-      "name": "n-buna",
-      "role": "arrangement"
-    },
-    {
-      "name": "suis",
-      "role": "vocals"
-    }
-  ],
-  "links": [
-    {
-      "platform": "官方配信",
-      "label": "あぶく 官方配信",
-      "url": "https://yorushika.lnk.to/bubble",
-      "linkType": "official_landing_page",
-      "region": "UNKNOWN",
-      "verifiedAt": "2026-10-15",
-      "availability": "unknown"
-    },
-    {
-      "platform": "YouTube",
-      "label": "あぶく Official Music Video",
-      "url": "https://www.youtube.com/watch?v=OHAjc-ayhus",
-      "linkType": "direct_track",
-      "region": "GLOBAL",
-      "verifiedAt": "2026-10-15",
-      "availability": "unknown"
-    }
-  ],
-  "releases": [
-    {
-      "id": "liar-game-op-1-digital",
-      "title": "あぶく",
-      "artistDisplayName": "ヨルシカ",
-      "type": "single",
-      "tracks": [
-        {
-          "title": "あぶく"
-        }
-      ],
-      "date": {
-        "value": "2026-04-22",
-        "precision": "day"
+  {"anilistId":192808,"id":"curated-192808","slug":"jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku","seasonIds":["2026-spring"],"startDate":"2026-04-06","titleJa":"自称悪役令嬢な婚約者の観察記録。","titleZhHant":"自稱惡役千金的未婚妻觀察紀錄。","titleRomaji":"Jishou Akuyaku Reijou na Konyakusha no Kansatsu Kiroku.","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx192808-tfrX4Gn2Y1Ye.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/192808-iaS1GnOo5l3G.jpg","editorialWeekday":1,"broadcastTimeJst":"22:00","status":"finished","officialSiteUrl":"https://jisho-akuyaku-anime.jp/","anilistUrl":"https://anilist.co/anime/192808","imageSourceUrl":"https://anilist.co/anime/192808","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/658443"],"animeThemesUrl":"https://animethemes.moe/anime/jishou_akuyaku_reijou_na_konyakusha_no_kansatsu_kiroku","uzureaUrl":"https://uzurea.net/spring-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"ラフレア","titleRomaji":"La Fleur","artistDisplayName":"宮川愛李","youtubeUrl":"https://www.youtube.com/watch?v=zxS6lFQHiUc","songId":"jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku-op-1-song","sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=zxS6lFQHiUc","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"動畫官方網站","url":"https://jisho-akuyaku-anime.jp/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/jishou_akuyaku_reijou_na_konyakusha_no_kansatsu_kiroku","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-25"},{"url":"https://jisho-akuyaku-anime.jp/music/","label":"動畫官網 MUSIC：主題曲、完整創作及ラフレア兩個 Mini Album 版","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.youtube.com/watch?v=gQ1hwKA6DEw","label":"宮川愛李 官方 Music Video：ラフレア 創作與演奏","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.youtube.com/watch?v=_9S-2i5aC0Y","label":"宮川愛李 官方 Art Track：ラフレア 數位 Single 日期","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://zh.wikipedia.org/wiki/%E8%87%AA%E7%A8%B1%E6%83%A1%E5%BD%B9%E5%8D%83%E9%87%91%E7%9A%84%E6%9C%AA%E5%A9%9A%E5%A6%BB%E8%A7%80%E5%AF%9F%E7%B4%80%E9%8C%84%E3%80%82","label":"ラフレア：曲名／演唱／動畫用途：維基百科社群（發表／資料提供；刊載：zh.wikipedia.org）","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-31"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://jisho-akuyaku-anime.jp/music/"],"verifiedAt":"2026-10-15","targetId":"jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://jisho-akuyaku-anime.jp/music/"],"verifiedAt":"2026-10-15","targetId":"jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://jisho-akuyaku-anime.jp/music/"],"verifiedAt":"2026-10-15"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://jisho-akuyaku-anime.jp/music/"],"verifiedAt":"2026-10-15","targetId":"jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku-op-1-jbcn-9007"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://jisho-akuyaku-anime.jp/music/"],"verifiedAt":"2026-10-15","targetId":"jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku-op-1-jbcn-9008"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.youtube.com/watch?v=gQ1hwKA6DEw"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=gQ1hwKA6DEw"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.youtube.com/watch?v=gQ1hwKA6DEw"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.youtube.com/watch?v=_9S-2i5aC0Y"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=_9S-2i5aC0Y"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://www.youtube.com/watch?v=_9S-2i5aC0Y"],"verifiedAt":"2026-10-15","targetId":"jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku-op-1-digital"},{"target":"song","targetId":"jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku-op-1-song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E8%87%AA%E7%A8%B1%E6%83%A1%E5%BD%B9%E5%8D%83%E9%87%91%E7%9A%84%E6%9C%AA%E5%A9%9A%E5%A6%BB%E8%A7%80%E5%AF%9F%E7%B4%80%E9%8C%84%E3%80%82"],"verifiedAt":"2026-10-31"},{"target":"anime_use","targetId":"jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku-op-1","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E8%87%AA%E7%A8%B1%E6%83%A1%E5%BD%B9%E5%8D%83%E9%87%91%E7%9A%84%E6%9C%AA%E5%A9%9A%E5%A6%BB%E8%A7%80%E5%AF%9F%E7%B4%80%E9%8C%84%E3%80%82"],"verifiedAt":"2026-10-31"}],"credits":[{"name":"宮川愛李","role":"vocals"},{"name":"aireen","role":"lyrics"},{"name":"aireen","role":"composition"},{"name":"薮崎太郎","role":"arrangement"},{"name":"Hideyuki Kurakazu（Drums）","role":"other"},{"name":"Airi Miyakawa（Chorus）","role":"other"}],"releases":[{"id":"jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku-op-1-jbcn-9007","title":"ラフレア","artistDisplayName":"宮川愛李","type":"album","tracks":[{"title":"ラフレア"}],"date":{"value":"2026-04-22","precision":"day"},"catalogNumber":"JBCN-9007","edition":"ミニアルバム／初回限定盤（CD＋DVD）","label":"NiM RECORDS / B ZONE"},{"id":"jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku-op-1-jbcn-9008","title":"ラフレア","artistDisplayName":"宮川愛李","type":"album","tracks":[{"title":"ラフレア"}],"date":{"value":"2026-04-22","precision":"day"},"catalogNumber":"JBCN-9008","edition":"ミニアルバム／通常盤（CD）","label":"NiM RECORDS / B ZONE"},{"id":"jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku-op-1-digital","title":"ラフレア","artistDisplayName":"宮川愛李","type":"single","tracks":[{"title":"ラフレア"}],"date":{"value":"2026-04-03","precision":"day"},"edition":"DIGITAL","label":"B ZONE"}],"links":[{"platform":"YouTube","label":"ラフレア Official Music Video","url":"https://www.youtube.com/watch?v=gQ1hwKA6DEw","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"YouTube","label":"ラフレア Official Art Track","url":"https://www.youtube.com/watch?v=_9S-2i5aC0Y","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"}],"sourceMode":"explicit"},{"type":"ED","sequence":1,"titleJa":"Magic","artistDisplayName":"RLOEVO","youtubeUrl":"https://www.youtube.com/watch?v=3D1CqPMWxv0","songId":"jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku-ed-1-song","sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=3D1CqPMWxv0","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"動畫官方網站","url":"https://jisho-akuyaku-anime.jp/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/jishou_akuyaku_reijou_na_konyakusha_no_kansatsu_kiroku","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-25"},{"url":"https://jisho-akuyaku-anime.jp/music/","label":"動畫官網 MUSIC：主題曲、完整創作及ラフレア兩個 Mini Album 版","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://zh.wikipedia.org/wiki/%E8%87%AA%E7%A8%B1%E6%83%A1%E5%BD%B9%E5%8D%83%E9%87%91%E7%9A%84%E6%9C%AA%E5%A9%9A%E5%A6%BB%E8%A7%80%E5%AF%9F%E7%B4%80%E9%8C%84%E3%80%82","label":"Magic：曲名／演唱／動畫用途：維基百科社群（發表／資料提供；刊載：zh.wikipedia.org）","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-31"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://jisho-akuyaku-anime.jp/music/"],"verifiedAt":"2026-10-15","targetId":"jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://jisho-akuyaku-anime.jp/music/"],"verifiedAt":"2026-10-15","targetId":"jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://jisho-akuyaku-anime.jp/music/"],"verifiedAt":"2026-10-15"},{"target":"song","targetId":"jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku-ed-1-song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E8%87%AA%E7%A8%B1%E6%83%A1%E5%BD%B9%E5%8D%83%E9%87%91%E7%9A%84%E6%9C%AA%E5%A9%9A%E5%A6%BB%E8%A7%80%E5%AF%9F%E7%B4%80%E9%8C%84%E3%80%82"],"verifiedAt":"2026-10-31"},{"target":"anime_use","targetId":"jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku-ed-1","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E8%87%AA%E7%A8%B1%E6%83%A1%E5%BD%B9%E5%8D%83%E9%87%91%E7%9A%84%E6%9C%AA%E5%A9%9A%E5%A6%BB%E8%A7%80%E5%AF%9F%E7%B4%80%E9%8C%84%E3%80%82"],"verifiedAt":"2026-10-31"}],"credits":[{"name":"RLOEVO","role":"vocals"},{"name":"RLOEVO","role":"lyrics"},{"name":"RLOEVO","role":"composition"},{"name":"RLOEVO","role":"arrangement"}],"sourceMode":"explicit"}],"metadataVerifiedAt":"2026-07-25","metadataSources":[{"label":"動畫官方網站：作品與播出資料","url":"https://jisho-akuyaku-anime.jp/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AniList：作品識別與公開圖像","url":"https://anilist.co/anime/192808","language":"en","role":"identifier","verifiedAt":"2026-07-25"},{"label":"繁體中文季度列表交叉對照","url":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","language":"zh-Hant","role":"localized_cross_check","verifiedAt":"2026-07-25"},{"label":"AnimeThemes：OP／ED 曲目交叉核對","url":"https://animethemes.moe/anime/jishou_akuyaku_reijou_na_konyakusha_no_kansatsu_kiroku","language":"en","role":"theme_cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA：季度主題曲與官方影片索引","url":"https://uzurea.net/spring-2026-anime-theme-songs/","language":"ja","role":"theme_cross_check","verifiedAt":"2026-07-25"},{"label":"季度首播公開來源","url":"https://natalie.mu/comic/news/658443","language":"ja","role":"broadcast_cross_check","verifiedAt":"2026-07-25"},{"url":"https://jisho-akuyaku-anime.jp/onair/","label":"同2026春日本TV本放送起點與10月重播／先行分列：本作動畫官方網站（發表／資料提供；刊載：jisho-akuyaku-anime.jp）","role":"first_party","language":"ja","verifiedAt":"2026-10-31"},{"url":"https://thetv.jp/program/0001070936/","label":"同版本每週一22:00–22:30完整常規槽（非淨長）：WEBザテレビジョン（發表／資料提供；刊載：thetv.jp）","role":"broadcast_cross_check","language":"ja","verifiedAt":"2026-10-31"}],"broadcastLabel":"日本標準TV：2026-04-06起TOKYO MX每週一22:00–22:30；春季本放送與10月重播分開。30分鐘為完整常規槽，非正文淨長。"},
+  {"anilistId":197824,"id":"curated-197824","slug":"isekai-nonbiri-nouka-2","seasonIds":["2026-spring"],"startDate":"2026-04-06","titleJa":"異世界のんびり農家２","titleZhHant":"異世界悠閒農家2","titleRomaji":"Isekai Nonbiri Nouka 2","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197824-k9Uyef8g49hB.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/197824-rS7XjJQ0CZs2.jpg","editorialWeekday":1,"broadcastTimeJst":"22:30","status":"finished","officialSiteUrl":"https://nonbiri-nouka2.com/","anilistUrl":"https://anilist.co/anime/197824","imageSourceUrl":"https://anilist.co/anime/197824","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/663991"],"animeThemesUrl":"https://animethemes.moe/anime/isekai_nonbiri_nouka_2","uzureaUrl":"https://uzurea.net/spring-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"It’s a beautiful story","artistDisplayName":"ルールーシー＝ルー（CV：下地紫野）＆ティア（CV：洲崎綾）","youtubeUrl":"https://www.youtube.com/watch?v=EMhgPcxCz9I","songId":"isekai-nonbiri-nouka-2-op-1-song","sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=EMhgPcxCz9I","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"動畫官方網站","url":"https://nonbiri-nouka2.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/isekai_nonbiri_nouka_2","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-25"},{"url":"https://www.ponycanyon.co.jp/music/PCCG000070557","label":"PONY CANYON 官方：It’s a beautiful story 主題曲、歌唱及 CD Single","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://supalove.com/news/tv%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8C%E7%95%B0%E4%B8%96%E7%95%8C%E3%81%AE%E3%82%93%E3%81%B3%E3%82%8A%E8%BE%B2%E5%AE%B6%EF%BC%92%E3%80%8Dop%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%82%92%E6%8B%85%E5%BD%93/","label":"SUPALOVE 官方：It’s a beautiful story 完整創作與無字幕 OP","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://zh.wikipedia.org/wiki/%E7%95%B0%E4%B8%96%E7%95%8C%E6%82%A0%E9%96%92%E8%BE%B2%E5%AE%B6","label":"It’s a beautiful story：曲名／動畫用途：維基百科社群（發表／資料提供；刊載：zh.wikipedia.org）","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-31"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.ponycanyon.co.jp/music/PCCG000070557"],"verifiedAt":"2026-10-15","targetId":"isekai-nonbiri-nouka-2-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.ponycanyon.co.jp/music/PCCG000070557"],"verifiedAt":"2026-10-15","targetId":"isekai-nonbiri-nouka-2-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.ponycanyon.co.jp/music/PCCG000070557"],"verifiedAt":"2026-10-15"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.ponycanyon.co.jp/music/PCCG000070557"],"verifiedAt":"2026-10-15","targetId":"isekai-nonbiri-nouka-2-op-1-pccg-70557"},{"target":"credits","fields":["credits"],"sourceUrls":["https://supalove.com/news/tv%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8C%E7%95%B0%E4%B8%96%E7%95%8C%E3%81%AE%E3%82%93%E3%81%B3%E3%82%8A%E8%BE%B2%E5%AE%B6%EF%BC%92%E3%80%8Dop%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%82%92%E6%8B%85%E5%BD%93/"],"verifiedAt":"2026-10-15"},{"target":"song","targetId":"isekai-nonbiri-nouka-2-op-1-song","fields":["title"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E7%95%B0%E4%B8%96%E7%95%8C%E6%82%A0%E9%96%92%E8%BE%B2%E5%AE%B6"],"verifiedAt":"2026-10-31"},{"target":"anime_use","targetId":"isekai-nonbiri-nouka-2-op-1","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E7%95%B0%E4%B8%96%E7%95%8C%E6%82%A0%E9%96%92%E8%BE%B2%E5%AE%B6"],"verifiedAt":"2026-10-31"}],"credits":[{"name":"ルールーシー＝ルー（CV：下地紫野）","role":"vocals"},{"name":"ティア（CV：洲崎綾）","role":"vocals"},{"name":"金崎真士","role":"lyrics"},{"name":"金崎真士","role":"composition"},{"name":"金崎真士","role":"arrangement"}],"releases":[{"id":"isekai-nonbiri-nouka-2-op-1-pccg-70557","title":"It’s a beautiful story","artistDisplayName":"ルールーシー＝ルー（CV：下地紫野）＆ティア（CV：洲崎綾）","type":"single","tracks":[{"title":"It’s a beautiful story"}],"date":{"value":"2026-06-03","precision":"day"},"catalogNumber":"PCCG.70557","edition":"CD","label":"PONY CANYON"}],"sourceMode":"explicit","followUp":[{"fields":["basic_evidence"],"note":"本期標準TV形式已核；基本歌曲證據已保存確認欄位，仍待補核：交叉核對的演唱名義。原名、演唱名義及錄音保持，不以中文譯名、別名或不同音源補齊。","resumeWhen":"新的可讀獨立正文以精確日文原名義列本版OP/ED；兩輪封頂，禁止重開既有受限來源。","checkedAt":"2026-10-31"}]},{"type":"ED","sequence":1,"titleJa":"Sunny Steps","artistDisplayName":"緋月ゆい","youtubeUrl":"https://www.youtube.com/watch?v=40K8d9oveiY","songId":"isekai-nonbiri-nouka-2-ed-1-song","sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=40K8d9oveiY","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"動畫官方網站","url":"https://nonbiri-nouka2.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/isekai_nonbiri_nouka_2","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-25"},{"url":"https://www.ponycanyon.co.jp/music/PCCG000070558","label":"PONY CANYON 官方：Sunny Steps 動畫 ED 及 CD Single","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.star-jam.com/works/view/157","label":"StarJam 官方制作實績：Sunny Steps 完整創作與演唱","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://zh.wikipedia.org/wiki/%E7%95%B0%E4%B8%96%E7%95%8C%E6%82%A0%E9%96%92%E8%BE%B2%E5%AE%B6","label":"Sunny Steps：曲名／動畫用途：維基百科社群（發表／資料提供；刊載：zh.wikipedia.org）","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-31"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.ponycanyon.co.jp/music/PCCG000070558"],"verifiedAt":"2026-10-15","targetId":"isekai-nonbiri-nouka-2-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.ponycanyon.co.jp/music/PCCG000070558"],"verifiedAt":"2026-10-15","targetId":"isekai-nonbiri-nouka-2-ed-1"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.ponycanyon.co.jp/music/PCCG000070558"],"verifiedAt":"2026-10-15","targetId":"isekai-nonbiri-nouka-2-ed-1-pccg-70558"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.star-jam.com/works/view/157"],"verifiedAt":"2026-10-15"},{"target":"song","targetId":"isekai-nonbiri-nouka-2-ed-1-song","fields":["title"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E7%95%B0%E4%B8%96%E7%95%8C%E6%82%A0%E9%96%92%E8%BE%B2%E5%AE%B6"],"verifiedAt":"2026-10-31"},{"target":"anime_use","targetId":"isekai-nonbiri-nouka-2-ed-1","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E7%95%B0%E4%B8%96%E7%95%8C%E6%82%A0%E9%96%92%E8%BE%B2%E5%AE%B6"],"verifiedAt":"2026-10-31"}],"releases":[{"id":"isekai-nonbiri-nouka-2-ed-1-pccg-70558","title":"Sunny Steps","artistDisplayName":"緋月ゆい","type":"single","tracks":[{"title":"Sunny Steps"}],"date":{"value":"2026-06-03","precision":"day"},"catalogNumber":"PCCG.70558","edition":"CD","label":"PONY CANYON"}],"credits":[{"name":"緋月ゆい","role":"vocals"},{"name":"錦織孝宏","role":"lyrics"},{"name":"錦織孝宏","role":"composition"},{"name":"錦織孝宏","role":"arrangement"}],"sourceMode":"explicit","followUp":[{"fields":["basic_evidence"],"note":"本期標準TV形式已核；基本歌曲證據已保存確認欄位，仍待補核：交叉核對的演唱名義。原名、演唱名義及錄音保持，不以中文譯名、別名或不同音源補齊。","resumeWhen":"新的可讀獨立正文以精確日文原名義列本版OP/ED；兩輪封頂，禁止重開既有受限來源。","checkedAt":"2026-10-31"}]}],"metadataVerifiedAt":"2026-07-25","metadataSources":[{"label":"動畫官方網站：作品與播出資料","url":"https://nonbiri-nouka2.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AniList：作品識別與公開圖像","url":"https://anilist.co/anime/197824","language":"en","role":"identifier","verifiedAt":"2026-07-25"},{"label":"繁體中文季度列表交叉對照","url":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","language":"zh-Hant","role":"localized_cross_check","verifiedAt":"2026-07-25"},{"label":"AnimeThemes：OP／ED 曲目交叉核對","url":"https://animethemes.moe/anime/isekai_nonbiri_nouka_2","language":"en","role":"theme_cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA：季度主題曲與官方影片索引","url":"https://uzurea.net/spring-2026-anime-theme-songs/","language":"ja","role":"theme_cross_check","verifiedAt":"2026-07-25"},{"label":"季度首播公開來源","url":"https://natalie.mu/comic/news/663991","language":"ja","role":"broadcast_cross_check","verifiedAt":"2026-07-25"},{"url":"https://thetv.jp/program/0001070937/","label":"同第2期每週一26:00–26:30完整常規槽（非淨長，非一期）：WEBザテレビジョン（發表／資料提供；刊載：thetv.jp）","role":"broadcast_cross_check","language":"ja","verifiedAt":"2026-10-31"}],"broadcastLabel":"日本標準TV第2期：2026-04-06起テレ東每週一26:00–26:30（換日後週二02:00–02:30）；完整常規槽，非正文淨長。"},
+  {"anilistId":147105,"id":"curated-147105","slug":"tongari-boushi-no-atelier","seasonIds":["2026-spring"],"startDate":"2026-04-06","titleJa":"とんがり帽子のアトリエ","titleZhHant":"魔法帽的工作室","titleRomaji":"Tongari Boushi no Atelier","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx147105-rwOX8qyUy8gV.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/147105-fTjmRrILFixZ.jpg","editorialWeekday":1,"broadcastTimeJst":"23:00","status":"finished","officialSiteUrl":"https://tongari-anime.com/","anilistUrl":"https://anilist.co/anime/147105","imageSourceUrl":"https://anilist.co/anime/147105","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/661011"],"animeThemesUrl":"https://animethemes.moe/anime/tongari_boushi_no_atelier","uzureaUrl":"https://uzurea.net/spring-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"風のアンセム feat. suis from ヨルシカ","titleRomaji":"Kaze no Anthem","artistDisplayName":"Eve","youtubeUrl":"https://www.youtube.com/watch?v=rQ0S_0CepIo","songId":"tongari-boushi-no-atelier-op-1-song","sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=rQ0S_0CepIo","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"avex pictures 官方影片","url":"https://www.youtube.com/watch?v=0BrBWvjGmWc","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"動畫官方網站","url":"https://tongari-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/tongari_boushi_no_atelier","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-25"},{"url":"https://tongari-anime.com/music/","label":"動畫官網 MUSIC：OP、三首 ED 的原名、演唱及合作","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://eveofficial.com/discography/kazenoanthem.html","label":"Eve 官方 discography：風のアンセム 完整創作、Digital Single 與配信","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.anisil.com/animes/6587-%E3%81%A8%E3%82%93%E3%81%8C%E3%82%8A%E5%B8%BD%E5%AD%90%E3%81%AE%E3%82%A2%E3%83%88%E3%83%AA%E3%82%A8","label":"アニシル：風のアンセム 編曲名の綴り及三首 ED 的創作交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E5%B8%BD%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%AE%A4","label":"風のアンセム feat. suis from ヨルシカ：曲名／演唱／動畫用途：維基百科社群（發表／資料提供；刊載：zh.wikipedia.org）","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-31"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://tongari-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://tongari-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tongari-anime.com/music/"],"verifiedAt":"2026-10-15"},{"target":"credits","fields":["credits"],"sourceUrls":["https://eveofficial.com/discography/kazenoanthem.html"],"verifiedAt":"2026-10-15"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://eveofficial.com/discography/kazenoanthem.html"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-op-1-digital"},{"target":"link","fields":["url","type"],"sourceUrls":["https://eveofficial.com/discography/kazenoanthem.html"],"verifiedAt":"2026-10-15","targetId":"https://tf.lnk.to/KazenoAnthem"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.anisil.com/animes/6587-%E3%81%A8%E3%82%93%E3%81%8C%E3%82%8A%E5%B8%BD%E5%AD%90%E3%81%AE%E3%82%A2%E3%83%88%E3%83%AA%E3%82%A8"],"verifiedAt":"2026-10-15"},{"target":"song","targetId":"tongari-boushi-no-atelier-op-1-song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E5%B8%BD%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%AE%A4"],"verifiedAt":"2026-10-31"},{"target":"anime_use","targetId":"tongari-boushi-no-atelier-op-1","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E5%B8%BD%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%AE%A4"],"verifiedAt":"2026-10-31"}],"credits":[{"name":"Eve","role":"vocals"},{"name":"suis from ヨルシカ","role":"vocals"},{"name":"Eve","role":"lyrics"},{"name":"Eve","role":"composition"},{"name":"Numa","role":"arrangement"},{"name":"Zingai","role":"arrangement"},{"name":"Ryo Konishi","role":"arrangement"}],"releases":[{"id":"tongari-boushi-no-atelier-op-1-digital","title":"風のアンセム (feat. suis from ヨルシカ)","artistDisplayName":"Eve","type":"single","tracks":[{"title":"風のアンセム feat. suis from ヨルシカ"}],"date":{"value":"2026-04-14","precision":"day"},"edition":"DIGITAL"}],"links":[{"platform":"官方配信","label":"風のアンセム 官方配信","url":"https://tf.lnk.to/KazenoAnthem","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"}],"sourceMode":"explicit"},{"type":"ED","sequence":1,"titleJa":"ただ美しい呪い","titleRomaji":"Tada Utsukushii Noroi","artistDisplayName":"Nakamura Hak","youtubeUrl":"https://www.youtube.com/watch?v=tN_1OM5BGws","songId":"tongari-boushi-no-atelier-ed-1-song","sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=tN_1OM5BGws","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"動畫官方網站","url":"https://tongari-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/tongari_boushi_no_atelier","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-25"},{"url":"https://tongari-anime.com/music/","label":"動畫官網 MUSIC：OP、三首 ED 的原名、演唱及合作","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://avexnet.jp/contents/NAHAK-OFCL-0001/discography/1021538","label":"avex 官方：三首 ED 的 CD Single、Anime ver.、自彈自唱與曲目表","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.youtube.com/watch?v=nNRue6R6ObE","label":"Nakamura Hak 官方 Art Track：原曲、完整創作及數位發行","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E5%B8%BD%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%AE%A4","label":"ただ美しい呪い：曲名／演唱／動畫用途：維基百科社群（發表／資料提供；刊載：zh.wikipedia.org）","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-31"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://tongari-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://tongari-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-ed-1"},{"target":"recording","fields":["title","kind","format","credits"],"sourceUrls":["https://avexnet.jp/contents/NAHAK-OFCL-0001/discography/1021538"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-ed-1-original"},{"target":"recording","fields":["title","kind","format","credits"],"sourceUrls":["https://avexnet.jp/contents/NAHAK-OFCL-0001/discography/1021538"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-ed-1-anime"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://avexnet.jp/contents/NAHAK-OFCL-0001/discography/1021538"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-ed-tada-utsukushii-noroi-ctcm-65137"},{"target":"credits","fields":["credits"],"sourceUrls":["https://avexnet.jp/contents/NAHAK-OFCL-0001/discography/1021538"],"verifiedAt":"2026-10-15"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.youtube.com/watch?v=nNRue6R6ObE"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.youtube.com/watch?v=nNRue6R6ObE"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=nNRue6R6ObE"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://www.youtube.com/watch?v=nNRue6R6ObE"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-ed-1-digital"},{"target":"link","fields":["url","type"],"sourceUrls":["https://avexnet.jp/contents/NAHAK-OFCL-0001/discography/1021538"],"verifiedAt":"2026-10-15","targetId":"https://maximum10.lnk.to/NakamuraHak_001"},{"target":"song","targetId":"tongari-boushi-no-atelier-ed-1-song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E5%B8%BD%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%AE%A4"],"verifiedAt":"2026-10-31"},{"target":"anime_use","targetId":"tongari-boushi-no-atelier-ed-1","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E5%B8%BD%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%AE%A4"],"verifiedAt":"2026-10-31"}],"recordings":[{"id":"tongari-boushi-no-atelier-ed-1-original","title":"ただ美しい呪い","kind":"vocal","format":"unknown","credits":[{"name":"Nakamura Hak","role":"vocals"}]},{"id":"tongari-boushi-no-atelier-ed-1-anime","title":"ただ美しい呪い - Anime ver.","kind":"vocal","format":"unknown","credits":[{"name":"Nakamura Hak","role":"vocals"}]}],"releases":[{"id":"tongari-boushi-no-atelier-ed-tada-utsukushii-noroi-ctcm-65137","title":"ただ美しい呪い","artistDisplayName":"Nakamura Hak","type":"single","tracks":[{"title":"ただ美しい呪い","position":1,"recordingId":"tongari-boushi-no-atelier-ed-1-original"},{"title":"ただ美しい呪い - Anime ver.","position":4,"recordingId":"tongari-boushi-no-atelier-ed-1-anime"}],"date":{"value":"2026-06-10","precision":"day"},"catalogNumber":"CTCM-65137","edition":"CD","label":"maximum10"},{"id":"tongari-boushi-no-atelier-ed-1-digital","title":"ただ美しい呪い","artistDisplayName":"Nakamura Hak","type":"single","tracks":[{"title":"ただ美しい呪い"}],"date":{"value":"2026-05-01","precision":"day"},"edition":"DIGITAL"}],"credits":[{"name":"Nakamura Hak","role":"vocals"},{"name":"Nakamura Hak（Acoustic Guitar）","role":"other"},{"name":"Nakamura Hak","role":"lyrics"},{"name":"Nakamura Hak","role":"composition"},{"name":"Nakamura Hak","role":"arrangement"}],"links":[{"platform":"YouTube","label":"ただ美しい呪い Official Art Track","url":"https://www.youtube.com/watch?v=nNRue6R6ObE","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"官方配信","label":"ただ美しい呪い CD Single 官方購買入口","url":"https://maximum10.lnk.to/NakamuraHak_001","linkType":"physical_purchase","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"tongari-boushi-no-atelier-ed-tada-utsukushii-noroi-ctcm-65137"}],"sourceMode":"explicit"},{"type":"ED","sequence":2,"titleJa":"夜に浮かぶ","artistDisplayName":"Nakamura Hak","songId":"tongari-boushi-no-atelier-ed-2-song","titleRomaji":"Yoru ni Ukabu","sources":[{"label":"動畫官方網站","url":"https://tongari-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/tongari_boushi_no_atelier","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-25"},{"url":"https://tongari-anime.com/music/","label":"動畫官網 MUSIC：OP、三首 ED 的原名、演唱及合作","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://avexnet.jp/contents/NAHAK-OFCL-0001/discography/1021538","label":"avex 官方：三首 ED 的 CD Single、Anime ver.、自彈自唱與曲目表","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.youtube.com/watch?v=hosk8IuLfDQ","label":"Nakamura Hak 官方 Art Track：原曲、完整創作及數位發行","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://realsound.jp/2026/05/post-2406897.html","label":"夜に浮かぶ：曲名／演唱／動畫用途：リアルサウンド編集部（發表／資料提供；刊載：realsound.jp）","role":"cross_check","language":"ja","verifiedAt":"2026-10-31"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://tongari-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://tongari-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-ed-2"},{"target":"recording","fields":["title","kind","format","credits"],"sourceUrls":["https://avexnet.jp/contents/NAHAK-OFCL-0001/discography/1021538"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-ed-2-original"},{"target":"recording","fields":["title","kind","format","credits"],"sourceUrls":["https://avexnet.jp/contents/NAHAK-OFCL-0001/discography/1021538"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-ed-2-anime"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://avexnet.jp/contents/NAHAK-OFCL-0001/discography/1021538"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-ed-tada-utsukushii-noroi-ctcm-65137"},{"target":"credits","fields":["credits"],"sourceUrls":["https://avexnet.jp/contents/NAHAK-OFCL-0001/discography/1021538"],"verifiedAt":"2026-10-15"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.youtube.com/watch?v=hosk8IuLfDQ"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.youtube.com/watch?v=hosk8IuLfDQ"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=hosk8IuLfDQ"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://www.youtube.com/watch?v=hosk8IuLfDQ"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-ed-2-digital"},{"target":"link","fields":["url","type"],"sourceUrls":["https://avexnet.jp/contents/NAHAK-OFCL-0001/discography/1021538"],"verifiedAt":"2026-10-15","targetId":"https://maximum10.lnk.to/NakamuraHak_001"},{"target":"song","targetId":"tongari-boushi-no-atelier-ed-2-song","fields":["title","artist"],"sourceUrls":["https://realsound.jp/2026/05/post-2406897.html"],"verifiedAt":"2026-10-31"},{"target":"anime_use","targetId":"tongari-boushi-no-atelier-ed-2","fields":["usage"],"sourceUrls":["https://realsound.jp/2026/05/post-2406897.html"],"verifiedAt":"2026-10-31"}],"recordings":[{"id":"tongari-boushi-no-atelier-ed-2-original","title":"夜に浮かぶ","kind":"vocal","format":"unknown","credits":[{"name":"Nakamura Hak","role":"vocals"}]},{"id":"tongari-boushi-no-atelier-ed-2-anime","title":"夜に浮かぶ - Anime ver.","kind":"vocal","format":"unknown","credits":[{"name":"Nakamura Hak","role":"vocals"}]}],"releases":[{"id":"tongari-boushi-no-atelier-ed-tada-utsukushii-noroi-ctcm-65137","title":"ただ美しい呪い","artistDisplayName":"Nakamura Hak","type":"single","tracks":[{"title":"夜に浮かぶ","position":2,"recordingId":"tongari-boushi-no-atelier-ed-2-original"},{"title":"夜に浮かぶ - Anime ver.","position":5,"recordingId":"tongari-boushi-no-atelier-ed-2-anime"}],"date":{"value":"2026-06-10","precision":"day"},"catalogNumber":"CTCM-65137","edition":"CD","label":"maximum10"},{"id":"tongari-boushi-no-atelier-ed-2-digital","title":"夜に浮かぶ","artistDisplayName":"Nakamura Hak","type":"single","tracks":[{"title":"夜に浮かぶ"}],"date":{"value":"2026-05-06","precision":"day"},"edition":"DIGITAL"}],"credits":[{"name":"Nakamura Hak","role":"vocals"},{"name":"Nakamura Hak（Acoustic Guitar）","role":"other"},{"name":"Nakamura Hak","role":"lyrics"},{"name":"Nakamura Hak","role":"composition"},{"name":"Nakamura Hak","role":"arrangement"}],"links":[{"platform":"YouTube","label":"夜に浮かぶ Official Art Track","url":"https://www.youtube.com/watch?v=hosk8IuLfDQ","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"官方配信","label":"ただ美しい呪い CD Single 官方購買入口","url":"https://maximum10.lnk.to/NakamuraHak_001","linkType":"physical_purchase","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"tongari-boushi-no-atelier-ed-tada-utsukushii-noroi-ctcm-65137"}],"sourceMode":"explicit"},{"type":"ED","sequence":3,"titleJa":"光り","artistDisplayName":"Nakamura Hak","songId":"tongari-boushi-no-atelier-ed-3-song","titleRomaji":"Hikari","sources":[{"label":"動畫官方網站","url":"https://tongari-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/tongari_boushi_no_atelier","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-25"},{"url":"https://tongari-anime.com/music/","label":"動畫官網 MUSIC：OP、三首 ED 的原名、演唱及合作","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://avexnet.jp/contents/NAHAK-OFCL-0001/discography/1021538","label":"avex 官方：三首 ED 的 CD Single、Anime ver.、自彈自唱與曲目表","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.anisil.com/animes/6587-%E3%81%A8%E3%82%93%E3%81%8C%E3%82%8A%E5%B8%BD%E5%AD%90%E3%81%AE%E3%82%A2%E3%83%88%E3%83%AA%E3%82%A8","label":"アニシル：光り 完整創作及第8話 ED 交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://realsound.jp/2026/05/post-2406897.html","label":"光り：曲名／演唱／動畫用途：リアルサウンド編集部（發表／資料提供；刊載：realsound.jp）","role":"cross_check","language":"ja","verifiedAt":"2026-10-31"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://tongari-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-ed-3-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://tongari-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-ed-3"},{"target":"recording","fields":["title","kind","format","credits"],"sourceUrls":["https://avexnet.jp/contents/NAHAK-OFCL-0001/discography/1021538"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-ed-3-original"},{"target":"recording","fields":["title","kind","format","credits"],"sourceUrls":["https://avexnet.jp/contents/NAHAK-OFCL-0001/discography/1021538"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-ed-3-anime"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://avexnet.jp/contents/NAHAK-OFCL-0001/discography/1021538"],"verifiedAt":"2026-10-15","targetId":"tongari-boushi-no-atelier-ed-tada-utsukushii-noroi-ctcm-65137"},{"target":"credits","fields":["credits"],"sourceUrls":["https://avexnet.jp/contents/NAHAK-OFCL-0001/discography/1021538"],"verifiedAt":"2026-10-15"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.anisil.com/animes/6587-%E3%81%A8%E3%82%93%E3%81%8C%E3%82%8A%E5%B8%BD%E5%AD%90%E3%81%AE%E3%82%A2%E3%83%88%E3%83%AA%E3%82%A8"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://avexnet.jp/contents/NAHAK-OFCL-0001/discography/1021538"],"verifiedAt":"2026-10-15","targetId":"https://maximum10.lnk.to/NakamuraHak_001"},{"target":"song","targetId":"tongari-boushi-no-atelier-ed-3-song","fields":["title","artist"],"sourceUrls":["https://realsound.jp/2026/05/post-2406897.html"],"verifiedAt":"2026-10-31"},{"target":"anime_use","targetId":"tongari-boushi-no-atelier-ed-3","fields":["usage"],"sourceUrls":["https://realsound.jp/2026/05/post-2406897.html"],"verifiedAt":"2026-10-31"}],"recordings":[{"id":"tongari-boushi-no-atelier-ed-3-original","title":"光り","kind":"vocal","format":"unknown","credits":[{"name":"Nakamura Hak","role":"vocals"}]},{"id":"tongari-boushi-no-atelier-ed-3-anime","title":"光り - Anime ver.","kind":"vocal","format":"unknown","credits":[{"name":"Nakamura Hak","role":"vocals"}]}],"releases":[{"id":"tongari-boushi-no-atelier-ed-tada-utsukushii-noroi-ctcm-65137","title":"ただ美しい呪い","artistDisplayName":"Nakamura Hak","type":"single","tracks":[{"title":"光り","position":3,"recordingId":"tongari-boushi-no-atelier-ed-3-original"},{"title":"光り - Anime ver.","position":6,"recordingId":"tongari-boushi-no-atelier-ed-3-anime"}],"date":{"value":"2026-06-10","precision":"day"},"catalogNumber":"CTCM-65137","edition":"CD","label":"maximum10"}],"credits":[{"name":"Nakamura Hak","role":"vocals"},{"name":"Nakamura Hak（Acoustic Guitar）","role":"other"},{"name":"Nakamura Hak","role":"lyrics"},{"name":"Nakamura Hak","role":"composition"},{"name":"Nakamura Hak","role":"arrangement"}],"links":[{"platform":"官方配信","label":"ただ美しい呪い CD Single 官方購買入口","url":"https://maximum10.lnk.to/NakamuraHak_001","linkType":"physical_purchase","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"tongari-boushi-no-atelier-ed-tada-utsukushii-noroi-ctcm-65137"}],"sourceMode":"explicit"}],"metadataVerifiedAt":"2026-07-25","metadataSources":[{"label":"動畫官方網站：作品與播出資料","url":"https://tongari-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AniList：作品識別與公開圖像","url":"https://anilist.co/anime/147105","language":"en","role":"identifier","verifiedAt":"2026-07-25"},{"label":"繁體中文季度列表交叉對照","url":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","language":"zh-Hant","role":"localized_cross_check","verifiedAt":"2026-07-25"},{"label":"AnimeThemes：OP／ED 曲目交叉核對","url":"https://animethemes.moe/anime/tongari_boushi_no_atelier","language":"en","role":"theme_cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA：季度主題曲與官方影片索引","url":"https://uzurea.net/spring-2026-anime-theme-songs/","language":"ja","role":"theme_cross_check","verifiedAt":"2026-07-25"},{"label":"季度首播公開來源","url":"https://natalie.mu/comic/news/661011","language":"ja","role":"broadcast_cross_check","verifiedAt":"2026-07-25"},{"url":"https://tongari-anime.com/onair/","label":"本第1期日本TV起點與先行配信分列：本作動畫官方網站（發表／資料提供；刊載：tongari-anime.com）","role":"first_party","language":"ja","verifiedAt":"2026-10-31"},{"url":"https://thetv.jp/program/0001050020/","label":"同第1期每週一23:00–23:30完整常規槽（非淨長）：WEBザテレビジョン（發表／資料提供；刊載：thetv.jp）","role":"broadcast_cross_check","language":"ja","verifiedAt":"2026-10-31"}],"broadcastLabel":"日本標準TV第1期：2026-04-06起TOKYO MX每週一23:00–23:30；完整常規槽，Netflix／ABEMA先行配信另列，非正文淨長。"},
+  {"anilistId":189987,"id":"curated-189987","slug":"ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi","seasonIds":["2026-spring"],"startDate":"2026-04-06","titleJa":"ポンコツ風紀委員とスカート丈が不適切なJKの話","titleZhHant":"木頭風紀委員和迷你裙JK的故事","titleRomaji":"Ponkotsu Fuuki Iin to Skirt take ga Futekisetsu na JK no Hanashi","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx189987-CkTDPfD7vu2Y.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/189987-0UGf5F7zWNvv.jpg","editorialWeekday":1,"broadcastTimeJst":"23:24","status":"finished","officialSiteUrl":"https://ponsuka.com/","anilistUrl":"https://anilist.co/anime/189987","imageSourceUrl":"https://anilist.co/anime/189987","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/662218"],"animeThemesUrl":"https://animethemes.moe/anime/ponkotsu_fuuki_iin_to_skirt_take_ga_futekisetsu_na_jk_no_hanashi","uzureaUrl":"https://uzurea.net/spring-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"ヒトリゴト","titleRomaji":"Hitorigoto","artistDisplayName":"osage","youtubeUrl":"https://www.youtube.com/watch?v=w7OmO94Ezt8","songId":"ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi-op-1-song","sources":[{"url":"https://ponsuka.com/music/index.html","label":"動畫官網 MUSIC：主題曲、創作、數位發行與團隊","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.shazam.com/track/868000515/%E3%83%92%E3%83%88%E3%83%AA%E3%82%B4%E3%83%88","label":"Shazam：osage ヒトリゴト 的作曲及本曲個別演唱交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://ponsuka.com/moive/index.html","label":"動畫官網 MOVIE：無字幕 OP／ED 的確切 YouTube 入口","role":"first_party","language":"ja","verifiedAt":"2026-10-15"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://ponsuka.com/music/index.html"],"verifiedAt":"2026-10-15","targetId":"ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://ponsuka.com/music/index.html"],"verifiedAt":"2026-10-15","targetId":"ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://ponsuka.com/music/index.html"],"verifiedAt":"2026-10-15"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://ponsuka.com/music/index.html"],"verifiedAt":"2026-10-15","targetId":"ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi-op-1-digital"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.shazam.com/track/868000515/%E3%83%92%E3%83%88%E3%83%AA%E3%82%B4%E3%83%88"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://ponsuka.com/moive/index.html"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=w7OmO94Ezt8"}],"credits":[{"name":"山口ケンタ","role":"lyrics"},{"name":"osage","role":"arrangement"},{"name":"花井諒","role":"arrangement"},{"name":"山口ケンタ","role":"group_member","groupName":"osage"},{"name":"金廣洸輝","role":"group_member","groupName":"osage"},{"name":"ヒロクサマ","role":"group_member","groupName":"osage"},{"name":"田中優希","role":"group_member","groupName":"osage"},{"name":"山口ケンタ","role":"composition"},{"name":"山口ケンタ","role":"vocals"}],"releases":[{"id":"ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi-op-1-digital","title":"ヒトリゴト","artistDisplayName":"osage","type":"single","tracks":[{"title":"ヒトリゴト"}],"date":{"value":"2026-04-06","precision":"day"},"edition":"DIGITAL"}],"links":[{"platform":"YouTube","label":"ヒトリゴト 無字幕 OP","url":"https://www.youtube.com/watch?v=w7OmO94Ezt8","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"}],"followUp":[{"fields":["basic_evidence"],"note":"本期同版TV完整常規槽／正版本體分鐘尚待核；已讀起點或PDF文字候補不解鎖歌曲階段。原音樂整筆與日期保持。","resumeWhen":"出現本期同版本完整獨立常規槽或正版逐話正文分鐘的新可讀直接證據才解鎖；兩輪已封頂，失敗頁不重試、不換渠道，原music/evidence/date保持。","checkedAt":"2026-10-31"}]},{"type":"ED","sequence":1,"titleJa":"部屋とガラクタと私","titleRomaji":"Heya to Garakuta to Watashi","artistDisplayName":"ミーマイナー","youtubeUrl":"https://www.youtube.com/watch?v=jkUzjZlp0jk","songId":"ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi-ed-1-song","sources":[{"url":"https://ponsuka.com/music/index.html","label":"動畫官網 MUSIC：主題曲、創作、數位發行與團隊","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://ponsuka.com/moive/index.html","label":"動畫官網 MOVIE：無字幕 OP／ED 的確切 YouTube 入口","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.sonymusic.co.jp/artist/MEminor/discography/SRCL-13673","label":"Sony Music 官方：部屋とガラクタと私 的 1st EP、曲目及動畫 ED","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.sonymusic.co.jp/artist/MEminor/info/582441","label":"Sony Music 官方：部屋とガラクタと私 明示 1st EP、兩種 CD 發行形式與日期","role":"first_party","language":"ja","verifiedAt":"2026-10-15"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://ponsuka.com/music/index.html"],"verifiedAt":"2026-10-15","targetId":"ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://ponsuka.com/music/index.html"],"verifiedAt":"2026-10-15","targetId":"ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://ponsuka.com/music/index.html"],"verifiedAt":"2026-10-15"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://ponsuka.com/music/index.html"],"verifiedAt":"2026-10-15","targetId":"ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi-ed-1-digital"},{"target":"link","fields":["url","type"],"sourceUrls":["https://ponsuka.com/moive/index.html"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=jkUzjZlp0jk"},{"target":"release","fields":["title","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.sonymusic.co.jp/artist/MEminor/discography/SRCL-13673"],"verifiedAt":"2026-10-15","targetId":"ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi-ed-1-srcl-13673"},{"target":"release","fields":["title","type","date","edition","catalog_number"],"sourceUrls":["https://www.sonymusic.co.jp/artist/MEminor/info/582441"],"verifiedAt":"2026-10-15","targetId":"ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi-ed-1-srcl-13673"}],"credits":[{"name":"ミーマイナー","role":"vocals"},{"name":"美咲","role":"lyrics"},{"name":"美咲","role":"composition"},{"name":"さすけ","role":"arrangement"},{"name":"美咲","role":"group_member","groupName":"ミーマイナー"},{"name":"さすけ","role":"group_member","groupName":"ミーマイナー"}],"releases":[{"id":"ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi-ed-1-digital","title":"部屋とガラクタと私","artistDisplayName":"ミーマイナー","type":"single","tracks":[{"title":"部屋とガラクタと私"}],"date":{"value":"2026-04-14","precision":"day"},"edition":"DIGITAL"},{"id":"ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi-ed-1-srcl-13673","title":"部屋とガラクタと私","artistDisplayName":"ミーマイナー","type":"ep","tracks":[{"title":"部屋とガラクタと私","position":1}],"date":{"value":"2026-05-13","precision":"day"},"catalogNumber":"SRCL-13673","edition":"初回仕様限定盤"}],"links":[{"platform":"YouTube","label":"部屋とガラクタと私 無字幕 ED","url":"https://www.youtube.com/watch?v=jkUzjZlp0jk","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"}],"followUp":[{"fields":["basic_evidence"],"note":"本期同版TV完整常規槽／正版本體分鐘尚待核；已讀起點或PDF文字候補不解鎖歌曲階段。原音樂整筆與日期保持。","resumeWhen":"出現本期同版本完整獨立常規槽或正版逐話正文分鐘的新可讀直接證據才解鎖；兩輪已封頂，失敗頁不重試、不換渠道，原music/evidence/date保持。","checkedAt":"2026-10-31"}]}],"metadataVerifiedAt":"2026-07-25","metadataSources":[{"label":"動畫官方網站：作品與播出資料","url":"https://ponsuka.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AniList：作品識別與公開圖像","url":"https://anilist.co/anime/189987","language":"en","role":"identifier","verifiedAt":"2026-07-25"},{"label":"繁體中文季度列表交叉對照","url":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","language":"zh-Hant","role":"localized_cross_check","verifiedAt":"2026-07-25"},{"label":"AnimeThemes：OP／ED 曲目交叉核對","url":"https://animethemes.moe/anime/ponkotsu_fuuki_iin_to_skirt_take_ga_futekisetsu_na_jk_no_hanashi","language":"en","role":"theme_cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA：季度主題曲與官方影片索引","url":"https://uzurea.net/spring-2026-anime-theme-songs/","language":"ja","role":"theme_cross_check","verifiedAt":"2026-07-25"},{"label":"季度首播公開來源","url":"https://natalie.mu/comic/news/662218","language":"ja","role":"broadcast_cross_check","verifiedAt":"2026-07-25"},{"url":"https://ponsuka.com/onair/index.html","label":"同版本日本TV起點與重播／先行配信分列（完整槽／本體分鐘待核）：TVアニメ「ポンコツ風紀委員とスカート丈が不適切なJKの話」公式サイト","role":"first_party","language":"ja","verifiedAt":"2026-10-31"}],"broadcastLabel":"日本TV：官方列2026-04-06起MX每週一23:30、BS朝日週一23:24、AT-X4/7起週二22:30及重播；dAnime週一24:00先行、一般週六24:00配信另列。完整獨立常規槽／正版正文分鐘尚待核，不由開始時刻推片長。"},
+  {"anilistId":206914,"id":"curated-206914","slug":"nippon-sangoku","seasonIds":["2026-spring"],"startDate":"2026-04-06","titleJa":"日本三國","titleZhHant":"日本三國","titleRomaji":"Nippon Sangoku","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx206914-SHKX08LarRzB.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/206914-owssGq2CGhRZ.jpg","editorialWeekday":1,"broadcastTimeJst":"24:00","status":"finished","officialSiteUrl":"https://www.nipponsangoku.com/","anilistUrl":"https://anilist.co/anime/206914","imageSourceUrl":"https://anilist.co/anime/206914","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/661320"],"animeThemesUrl":"https://animethemes.moe/anime/nippon_sangoku","uzureaUrl":"https://uzurea.net/spring-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"火種","titleRomaji":"Hidane","artistDisplayName":"キタニタツヤ","youtubeUrl":"https://www.youtube.com/watch?v=nW2CpHcmlo4","songId":"nippon-sangoku-op-1-song","sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=nW2CpHcmlo4","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"動畫官方網站","url":"https://www.nipponsangoku.com/","language":"ja","role":"first_party","verifiedAt":"2026-10-31"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/nippon_sangoku","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-25"},{"url":"https://www.nipponsangoku.com/music/?cate=op","label":"動畫官網 MUSIC：火種／誓い 的用途、演唱及完整創作","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://music.apple.com/us/song/1886375862","label":"Apple Music：HIDANE／火種 確切曲目及創作交叉核對","role":"cross_check","language":"en","verifiedAt":"2026-10-15"},{"url":"https://www.shazam.com/song/1886375862/hidane","label":"Shazam：HIDANE 與火種原名對應交叉核對","role":"cross_check","language":"en","verifiedAt":"2026-10-15"},{"url":"https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E4%B8%89%E5%9C%8B","label":"火種：曲名／演唱／動畫用途：日本語Wikipedia條目編輯者（發表／資料提供；刊載：日本語Wikipedia）","role":"cross_check","language":"ja","verifiedAt":"2026-10-31"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.nipponsangoku.com/music/?cate=op"],"verifiedAt":"2026-10-15","targetId":"nippon-sangoku-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.nipponsangoku.com/music/?cate=op"],"verifiedAt":"2026-10-15","targetId":"nippon-sangoku-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.nipponsangoku.com/music/?cate=op"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://music.apple.com/us/song/1886375862"],"verifiedAt":"2026-10-15","targetId":"https://music.apple.com/us/song/1886375862"},{"target":"song","targetId":"nippon-sangoku-op-1-song","fields":["title","artist"],"sourceUrls":["https://www.nipponsangoku.com/"],"verifiedAt":"2026-10-31"},{"target":"anime_use","targetId":"nippon-sangoku-op-1","fields":["usage"],"sourceUrls":["https://www.nipponsangoku.com/"],"verifiedAt":"2026-10-31"},{"target":"song","targetId":"nippon-sangoku-op-1-song","fields":["title","artist"],"sourceUrls":["https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E4%B8%89%E5%9C%8B"],"verifiedAt":"2026-10-31"},{"target":"anime_use","targetId":"nippon-sangoku-op-1","fields":["usage"],"sourceUrls":["https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E4%B8%89%E5%9C%8B"],"verifiedAt":"2026-10-31"}],"credits":[{"name":"キタニタツヤ","role":"vocals"},{"name":"Tatsuya Kitani","role":"lyrics"},{"name":"Tatsuya Kitani","role":"composition"},{"name":"Tatsuya Kitani","role":"arrangement"}],"links":[{"platform":"Apple Music","label":"火種／HIDANE Apple Music 曲目","url":"https://music.apple.com/us/song/1886375862","linkType":"direct_track","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"}],"sourceMode":"explicit"},{"type":"ED","sequence":1,"titleJa":"誓い","titleRomaji":"Chikai","artistDisplayName":"Leina","youtubeUrl":"https://www.youtube.com/watch?v=wUpHmr9thVQ","songId":"nippon-sangoku-ed-1-song","sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=wUpHmr9thVQ","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"動畫官方網站","url":"https://www.nipponsangoku.com/","language":"ja","role":"first_party","verifiedAt":"2026-10-31"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/nippon_sangoku","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-25"},{"url":"https://www.nipponsangoku.com/music/?cate=op","label":"動畫官網 MUSIC：火種／誓い 的用途、演唱及完整創作","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E4%B8%89%E5%9C%8B","label":"誓い：曲名／演唱／動畫用途：日本語Wikipedia條目編輯者（發表／資料提供；刊載：日本語Wikipedia）","role":"cross_check","language":"ja","verifiedAt":"2026-10-31"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.nipponsangoku.com/music/?cate=op"],"verifiedAt":"2026-10-15","targetId":"nippon-sangoku-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.nipponsangoku.com/music/?cate=op"],"verifiedAt":"2026-10-15","targetId":"nippon-sangoku-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.nipponsangoku.com/music/?cate=op"],"verifiedAt":"2026-10-15"},{"target":"song","targetId":"nippon-sangoku-ed-1-song","fields":["title","artist"],"sourceUrls":["https://www.nipponsangoku.com/"],"verifiedAt":"2026-10-31"},{"target":"anime_use","targetId":"nippon-sangoku-ed-1","fields":["usage"],"sourceUrls":["https://www.nipponsangoku.com/"],"verifiedAt":"2026-10-31"},{"target":"song","targetId":"nippon-sangoku-ed-1-song","fields":["title","artist"],"sourceUrls":["https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E4%B8%89%E5%9C%8B"],"verifiedAt":"2026-10-31"},{"target":"anime_use","targetId":"nippon-sangoku-ed-1","fields":["usage"],"sourceUrls":["https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E4%B8%89%E5%9C%8B"],"verifiedAt":"2026-10-31"}],"credits":[{"name":"Leina","role":"vocals"},{"name":"Leina","role":"lyrics"},{"name":"Leina","role":"composition"},{"name":"oni","role":"arrangement"}],"sourceMode":"explicit"}],"metadataVerifiedAt":"2026-07-25","metadataSources":[{"label":"同版本日本TV跨日起點與世界最速／先行配信分列：TVアニメ『日本三國』公式サイト","url":"https://www.nipponsangoku.com/","language":"ja","role":"first_party","verifiedAt":"2026-10-31"},{"label":"AniList：作品識別與公開圖像","url":"https://anilist.co/anime/206914","language":"en","role":"identifier","verifiedAt":"2026-07-25"},{"label":"繁體中文季度列表交叉對照","url":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","language":"zh-Hant","role":"localized_cross_check","verifiedAt":"2026-07-25"},{"label":"AnimeThemes：OP／ED 曲目交叉核對","url":"https://animethemes.moe/anime/nippon_sangoku","language":"en","role":"theme_cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA：季度主題曲與官方影片索引","url":"https://uzurea.net/spring-2026-anime-theme-songs/","language":"ja","role":"theme_cross_check","verifiedAt":"2026-07-25"},{"label":"季度首播公開來源","url":"https://natalie.mu/comic/news/661320","language":"ja","role":"broadcast_cross_check","verifiedAt":"2026-07-25"},{"url":"https://www.primevideo.com/-/ja/detail/0LW570H4NYAE6XSCD8I7KZMVNH","label":"同2026版本正版第1–12話各26分鐘（平台交叉；平台日期非TV首日）：Prime Video","role":"broadcast_cross_check","language":"ja","verifiedAt":"2026-10-31"}],"broadcastLabel":"日本標準TV同版：官網列2026-04-06週一24:00（換日後週二00:00）MX／BS日テレ等TV；Prime4/5週日21:00世界最速、U-NEXT4/6週一21:00先行分列。正版Prime本期第1–12話公開卡各26分鐘，分鐘是平台單話資料，不當TV槽。"},
+  {
+    "anilistId": 197754,
+    "id": "curated-197754",
+    "slug": "liar-game",
+    "seasonIds": [
+      "2026-spring",
+      "2026-summer"
+    ],
+    "startDate": "2026-04-07",
+    "titleJa": "LIAR GAME",
+    "titleZhHant": "LIAR GAME 詐欺遊戲",
+    "titleRomaji": "LIAR GAME",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197754-Q5KqcUhIdypp.png",
+    "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/197754-cMWxeRdhYrFW.jpg",
+    "editorialWeekday": 1,
+    "broadcastTimeJst": "24:00",
+    "status": "finished",
+    "officialSiteUrl": "https://www.liargame-anime.com/",
+    "anilistUrl": "https://anilist.co/anime/197754",
+    "imageSourceUrl": "https://anilist.co/anime/197754",
+    "imageSourceLabel": "AniList 公開媒體頁",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "sourceReferenceUrls": [
+      "https://natalie.mu/comic/news/663860"
+    ],
+    "animeThemesUrl": "https://animethemes.moe/anime/liar_game",
+    "uzureaUrl": "https://uzurea.net/spring-2026-anime-theme-songs/",
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "あぶく",
+        "titleRomaji": "Abuku",
+        "artistDisplayName": "ヨルシカ",
+        "youtubeUrl": "https://www.youtube.com/watch?v=eFzlhUL_1fI",
+        "songId": "liar-game-op-1-song",
+        "sources": [
+          {
+            "label": "官方 YouTube 影片",
+            "url": "https://www.youtube.com/watch?v=eFzlhUL_1fI",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "動畫官方網站",
+            "url": "https://www.liargame-anime.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/liar_game",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "UZUREA 主題曲清單",
+            "url": "https://uzurea.net/spring-2026-anime-theme-songs/",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "url": "https://www.liargame-anime.com/music/",
+            "label": "動畫官網 MUSIC：兩季度 OP／ED 原名、用途、配信及團隊",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-15"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=OHAjc-ayhus",
+            "label": "ヨルシカ 官方 MV：あぶく 完整創作、suis 歌唱及 Digital Single",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-15"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.liargame-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-15",
+            "targetId": "liar-game-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.liargame-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-15",
+            "targetId": "liar-game-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.liargame-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-15"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.liargame-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-15",
+            "targetId": "https://yorushika.lnk.to/bubble"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=OHAjc-ayhus"
+            ],
+            "verifiedAt": "2026-10-15"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=OHAjc-ayhus"
+            ],
+            "verifiedAt": "2026-10-15",
+            "targetId": "https://www.youtube.com/watch?v=OHAjc-ayhus"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.liargame-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-15",
+            "targetId": "liar-game-op-1-digital"
+          }
+        ],
+        "credits": [
+          {
+            "name": "n-buna",
+            "role": "group_member",
+            "groupName": "ヨルシカ"
+          },
+          {
+            "name": "suis",
+            "role": "group_member",
+            "groupName": "ヨルシカ"
+          },
+          {
+            "name": "n-buna",
+            "role": "lyrics"
+          },
+          {
+            "name": "n-buna",
+            "role": "composition"
+          },
+          {
+            "name": "n-buna",
+            "role": "arrangement"
+          },
+          {
+            "name": "suis",
+            "role": "vocals"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方配信",
+            "label": "あぶく 官方配信",
+            "url": "https://yorushika.lnk.to/bubble",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-15",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "あぶく Official Music Video",
+            "url": "https://www.youtube.com/watch?v=OHAjc-ayhus",
+            "linkType": "direct_track",
+            "region": "GLOBAL",
+            "verifiedAt": "2026-10-15",
+            "availability": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "liar-game-op-1-digital",
+            "title": "あぶく",
+            "artistDisplayName": "ヨルシカ",
+            "type": "single",
+            "tracks": [
+              {
+                "title": "あぶく"
+              }
+            ],
+            "date": {
+              "value": "2026-04-22",
+              "precision": "day"
+            },
+            "edition": "DIGITAL"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2026-spring"
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "basic_evidence"
+            ],
+            "note": "既有獨立曲表及歌曲資料頁本次未取得普通可讀正文；「あぶく」／「ヨルシカ」的曲名、演唱名義及本期OP1用途交叉證據仍待核。來源無正文不等於歌曲或名義未公告，既有已核第一方內容保持。",
+            "resumeWhen": "待適用的獨立本期作品歌曲表或逐曲正文可普通讀取，逐字列出「あぶく」／「ヨルシカ」並明確對應本版OP1用途後，再補三項交叉欄位；本次兩輪未得正文，不以同名或一般主題歌字眼推定。",
+            "checkedAt": "2026-10-27"
+          }
+        ]
       },
-      "edition": "DIGITAL"
-    }
-  ],
-  "sourceMode": "explicit",
-  "seasonIds": [
-    "2026-spring"
-  ],
-  "followUp": [
-    {
-      "fields": [
-        "basic_evidence"
-      ],
-      "note": "既有獨立曲表及歌曲資料頁本次未取得普通可讀正文；「あぶく」／「ヨルシカ」的曲名、演唱名義及本期OP1用途交叉證據仍待核。來源無正文不等於歌曲或名義未公告，既有已核第一方內容保持。",
-      "resumeWhen": "待適用的獨立本期作品歌曲表或逐曲正文可普通讀取，逐字列出「あぶく」／「ヨルシカ」並明確對應本版OP1用途後，再補三項交叉欄位；本次兩輪未得正文，不以同名或一般主題歌字眼推定。",
-      "checkedAt": "2026-10-27"
-    }
-  ]
-},{
-  "type": "OP",
-  "sequence": 2,
-  "titleJa": "All in",
-  "artistDisplayName": "Kroi",
-  "songId": "liar-game-op-2-song",
-  "sources": [
-    {
-      "label": "動畫官方網站",
-      "url": "https://www.liargame-anime.com/",
-      "language": "ja",
-      "role": "first_party",
-      "verifiedAt": "2026-07-25"
-    },
-    {
-      "label": "AnimeThemes",
-      "url": "https://animethemes.moe/anime/liar_game",
-      "language": "en",
-      "role": "cross_check",
-      "verifiedAt": "2026-07-25"
-    },
-    {
-      "label": "UZUREA 主題曲清單",
-      "url": "https://uzurea.net/spring-2026-anime-theme-songs/",
-      "language": "ja",
-      "role": "cross_check",
-      "verifiedAt": "2026-10-26"
-    },
-    {
-      "url": "https://www.liargame-anime.com/music/",
-      "label": "動畫官網 MUSIC：兩季度 OP／ED 原名、用途、配信及團隊",
-      "role": "first_party",
-      "language": "ja",
-      "verifiedAt": "2026-10-19"
-    },
-    {
-      "url": "https://cal.syoboi.jp/tid/7810/subtitle",
-      "label": "しょぼいカレンダー：All in／朝日 的作詞及作曲交叉核對",
-      "role": "cross_check",
-      "language": "ja",
-      "verifiedAt": "2026-10-15"
-    },
-    {
-      "url": "https://irorirecords.com/video",
-      "label": "IRORI Records 官方影片目錄：All in Official Video（公開索引核對）",
-      "role": "first_party",
-      "language": "ja",
-      "verifiedAt": "2026-10-15"
-    },
-    {
-      "url": "https://e.usen.com/news/news-release/kroiliar-game2all-inbehind-the-scenes.html",
-      "label": "USEN encore：All in Music Video 的確切 YouTube 入口交叉核對",
-      "role": "cross_check",
-      "language": "ja",
-      "verifiedAt": "2026-10-15"
-    },
-    {
-      "url": "https://www.liargame-anime.com/special/21",
-      "label": "動畫官網 SPECIAL：All in 第2季度官方 OP 映像",
-      "role": "first_party",
-      "language": "ja",
-      "verifiedAt": "2026-10-15"
-    },
-    {
-      "label": "官方：TV播出／第二季度資料",
-      "url": "https://www.liargame-anime.com/onair/",
-      "language": "ja",
-      "role": "first_party",
-      "verifiedAt": "2026-10-19"
-    },
-    {
-      "label": "YourAnimes：夏季作品／續播交叉核對",
-      "url": "https://youranimes.tw/bangumi/202607",
-      "language": "zh-Hant",
-      "role": "cross_check",
-      "verifiedAt": "2026-10-19"
-    }
-  ],
-  "evidence": [
-    {
-      "target": "song",
-      "fields": [
-        "title",
-        "artist"
-      ],
-      "sourceUrls": [
-        "https://www.liargame-anime.com/music/"
-      ],
-      "verifiedAt": "2026-10-15",
-      "targetId": "liar-game-op-2-song"
-    },
-    {
-      "target": "anime_use",
-      "fields": [
-        "usage"
-      ],
-      "sourceUrls": [
-        "https://www.liargame-anime.com/music/"
-      ],
-      "verifiedAt": "2026-10-15",
-      "targetId": "liar-game-op-2"
-    },
-    {
-      "target": "link",
-      "fields": [
-        "url",
-        "type"
-      ],
-      "sourceUrls": [
-        "https://www.liargame-anime.com/music/"
-      ],
-      "verifiedAt": "2026-10-15",
-      "targetId": "https://lnk.to/Kroi_Allin"
-    },
-    {
-      "target": "credits",
-      "fields": [
-        "credits"
-      ],
-      "sourceUrls": [
-        "https://cal.syoboi.jp/tid/7810/subtitle"
-      ],
-      "verifiedAt": "2026-10-15"
-    },
-    {
-      "target": "link",
-      "fields": [
-        "url",
-        "type"
-      ],
-      "sourceUrls": [
-        "https://e.usen.com/news/news-release/kroiliar-game2all-inbehind-the-scenes.html"
-      ],
-      "verifiedAt": "2026-10-15",
-      "targetId": "https://www.youtube.com/watch?v=SxAuZmFPWlw"
-    },
-    {
-      "target": "link",
-      "fields": [
-        "url",
-        "type"
-      ],
-      "sourceUrls": [
-        "https://irorirecords.com/video",
-        "https://e.usen.com/news/news-release/kroiliar-game2all-inbehind-the-scenes.html"
-      ],
-      "verifiedAt": "2026-10-15",
-      "targetId": "https://www.youtube.com/watch?v=SxAuZmFPWlw"
-    },
-    {
-      "target": "link",
-      "fields": [
-        "url",
-        "type"
-      ],
-      "sourceUrls": [
-        "https://www.liargame-anime.com/special/21"
-      ],
-      "verifiedAt": "2026-10-15",
-      "targetId": "https://www.youtube.com/watch?v=slKNbfZgImw"
-    },
-    {
-      "target": "anime_use",
-      "targetId": "liar-game-op-2",
-      "fields": [
-        "usage"
-      ],
-      "sourceUrls": [
-        "https://www.liargame-anime.com/music/",
-        "https://www.liargame-anime.com/onair/",
-        "https://youranimes.tw/bangumi/202607"
-      ],
-      "verifiedAt": "2026-10-19"
-    },
-    {
-      "target": "song",
-      "targetId": "liar-game-op-2-song",
-      "fields": [
-        "title",
-        "artist"
-      ],
-      "sourceUrls": [
-        "https://uzurea.net/spring-2026-anime-theme-songs/"
-      ],
-      "verifiedAt": "2026-10-26"
-    }
-  ],
-  "links": [
-    {
-      "platform": "官方配信",
-      "label": "All in 官方配信",
-      "url": "https://lnk.to/Kroi_Allin",
-      "linkType": "official_landing_page",
-      "region": "UNKNOWN",
-      "verifiedAt": "2026-10-15",
-      "availability": "unknown"
-    },
-    {
-      "platform": "YouTube",
-      "label": "All in Official Music Video",
-      "url": "https://www.youtube.com/watch?v=SxAuZmFPWlw",
-      "linkType": "direct_track",
-      "region": "GLOBAL",
-      "verifiedAt": "2026-10-15",
-      "availability": "unknown"
-    },
-    {
-      "platform": "YouTube",
-      "label": "All in 官方 OP 映像",
-      "url": "https://www.youtube.com/watch?v=slKNbfZgImw",
-      "linkType": "direct_track",
-      "region": "GLOBAL",
-      "verifiedAt": "2026-10-15",
-      "availability": "unknown"
-    }
-  ],
-  "credits": [
-    {
-      "name": "Kroi",
-      "role": "vocals"
-    },
-    {
-      "name": "内田怜央",
-      "role": "lyrics"
-    },
-    {
-      "name": "Kroi",
-      "role": "composition"
-    }
-  ],
-  "sourceMode": "explicit",
-  "seasonIds": [
-    "2026-summer"
-  ],
-  "lastVerifiedAt": "2026-10-19"
-},{"type":"ED","sequence":1,"titleJa":"朝日","titleRomaji":"Asahi","artistDisplayName":"Lucky Kilimanjaro","youtubeUrl":"https://www.youtube.com/watch?v=-ZN0LGiXu18","songId":"liar-game-ed-1-song","sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=-ZN0LGiXu18","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"動畫官方網站","url":"https://www.liargame-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/liar_game","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-25"},{"url":"https://www.liargame-anime.com/music/","label":"動畫官網 MUSIC：兩季度 OP／ED 原名、用途、配信及團隊","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://cal.syoboi.jp/tid/7810/subtitle","label":"しょぼいカレンダー：All in／朝日 的作詞及作曲交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-15"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.liargame-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"liar-game-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.liargame-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"liar-game-ed-1"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.liargame-anime.com/music/"],"verifiedAt":"2026-10-15","targetId":"https://lnk.to/lk_asahiYD"},{"target":"credits","fields":["credits"],"sourceUrls":["https://cal.syoboi.jp/tid/7810/subtitle"],"verifiedAt":"2026-10-15"}],"links":[{"platform":"官方配信","label":"朝日 官方配信","url":"https://lnk.to/lk_asahiYD","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"}],"credits":[{"name":"Lucky Kilimanjaro","role":"vocals"},{"name":"熊木幸丸","role":"lyrics"},{"name":"Lucky Kilimanjaro","role":"composition"}],"sourceMode":"explicit","seasonIds":["2026-spring"]},{
-  "type": "ED",
-  "sequence": 2,
-  "titleJa": "たりない",
-  "artistDisplayName": "muque",
-  "songId": "liar-game-ed-2-song",
-  "titleRomaji": "Tarinai",
-  "sources": [
-    {
-      "label": "動畫官方網站",
-      "url": "https://www.liargame-anime.com/",
-      "language": "ja",
-      "role": "first_party",
-      "verifiedAt": "2026-07-25"
-    },
-    {
-      "label": "AnimeThemes",
-      "url": "https://animethemes.moe/anime/liar_game",
-      "language": "en",
-      "role": "cross_check",
-      "verifiedAt": "2026-07-25"
-    },
-    {
-      "label": "UZUREA 主題曲清單",
-      "url": "https://uzurea.net/spring-2026-anime-theme-songs/",
-      "language": "ja",
-      "role": "cross_check",
-      "verifiedAt": "2026-10-26"
-    },
-    {
-      "url": "https://www.liargame-anime.com/music/",
-      "label": "動畫官網 MUSIC：兩季度 OP／ED 原名、用途、配信及團隊",
-      "role": "first_party",
-      "language": "ja",
-      "verifiedAt": "2026-10-19"
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=FU-2zQvxywY",
-      "label": "muque 官方 MV：たりない 完整創作與動畫 ED",
-      "role": "first_party",
-      "language": "ja",
-      "verifiedAt": "2026-10-15"
-    },
-    {
-      "url": "https://www.liargame-anime.com/special/",
-      "label": "動畫官網 SPECIAL：たりない 第2季度官方 ED 映像",
-      "role": "first_party",
-      "language": "ja",
-      "verifiedAt": "2026-10-15"
-    },
-    {
-      "label": "官方：TV播出／第二季度資料",
-      "url": "https://www.liargame-anime.com/onair/",
-      "language": "ja",
-      "role": "first_party",
-      "verifiedAt": "2026-10-19"
-    },
-    {
-      "label": "YourAnimes：夏季作品／續播交叉核對",
-      "url": "https://youranimes.tw/bangumi/202607",
-      "language": "zh-Hant",
-      "role": "cross_check",
-      "verifiedAt": "2026-10-19"
-    }
-  ],
-  "evidence": [
-    {
-      "target": "song",
-      "fields": [
-        "title",
-        "artist"
-      ],
-      "sourceUrls": [
-        "https://www.liargame-anime.com/music/"
-      ],
-      "verifiedAt": "2026-10-15",
-      "targetId": "liar-game-ed-2-song"
-    },
-    {
-      "target": "anime_use",
-      "fields": [
-        "usage"
-      ],
-      "sourceUrls": [
-        "https://www.liargame-anime.com/music/"
-      ],
-      "verifiedAt": "2026-10-15",
-      "targetId": "liar-game-ed-2"
-    },
-    {
-      "target": "credits",
-      "fields": [
-        "credits"
-      ],
-      "sourceUrls": [
-        "https://www.liargame-anime.com/music/"
-      ],
-      "verifiedAt": "2026-10-15"
-    },
-    {
-      "target": "link",
-      "fields": [
-        "url",
-        "type"
-      ],
-      "sourceUrls": [
-        "https://www.liargame-anime.com/music/"
-      ],
-      "verifiedAt": "2026-10-15",
-      "targetId": "https://asab.lnk.to/mq_Tarinai"
-    },
-    {
-      "target": "credits",
-      "fields": [
-        "credits"
-      ],
-      "sourceUrls": [
-        "https://www.youtube.com/watch?v=FU-2zQvxywY"
-      ],
-      "verifiedAt": "2026-10-15"
-    },
-    {
-      "target": "link",
-      "fields": [
-        "url",
-        "type"
-      ],
-      "sourceUrls": [
-        "https://www.youtube.com/watch?v=FU-2zQvxywY"
-      ],
-      "verifiedAt": "2026-10-15",
-      "targetId": "https://www.youtube.com/watch?v=FU-2zQvxywY"
-    },
-    {
-      "target": "release",
-      "fields": [
-        "title",
-        "type",
-        "tracklist",
-        "date",
-        "edition"
-      ],
-      "sourceUrls": [
-        "https://www.liargame-anime.com/music/"
-      ],
-      "verifiedAt": "2026-10-15",
-      "targetId": "liar-game-ed-2-digital"
-    },
-    {
-      "target": "link",
-      "fields": [
-        "url",
-        "type"
-      ],
-      "sourceUrls": [
-        "https://www.liargame-anime.com/special/"
-      ],
-      "verifiedAt": "2026-10-15",
-      "targetId": "https://www.youtube.com/watch?v=bztYaH6hbxg"
-    },
-    {
-      "target": "anime_use",
-      "targetId": "liar-game-ed-2",
-      "fields": [
-        "usage"
-      ],
-      "sourceUrls": [
-        "https://www.liargame-anime.com/music/",
-        "https://www.liargame-anime.com/onair/",
-        "https://youranimes.tw/bangumi/202607"
-      ],
-      "verifiedAt": "2026-10-19"
-    },
-    {
-      "target": "song",
-      "targetId": "liar-game-ed-2-song",
-      "fields": [
-        "title",
-        "artist"
-      ],
-      "sourceUrls": [
-        "https://uzurea.net/spring-2026-anime-theme-songs/"
-      ],
-      "verifiedAt": "2026-10-26"
-    }
-  ],
-  "credits": [
-    {
-      "name": "muque",
-      "role": "vocals"
-    },
-    {
-      "name": "Asakura",
-      "role": "group_member",
-      "groupName": "muque"
-    },
-    {
-      "name": "takachi",
-      "role": "group_member",
-      "groupName": "muque"
-    },
-    {
-      "name": "Kenichi",
-      "role": "group_member",
-      "groupName": "muque"
-    },
-    {
-      "name": "Asakura",
-      "role": "lyrics"
-    },
-    {
-      "name": "Asakura",
-      "role": "composition"
-    },
-    {
-      "name": "takachi",
-      "role": "composition"
-    },
-    {
-      "name": "takachi",
-      "role": "arrangement"
-    },
-    {
-      "name": "Soma Genda",
-      "role": "arrangement"
-    },
-    {
-      "name": "Kosy Yamamoto",
-      "role": "arrangement"
-    }
-  ],
-  "links": [
-    {
-      "platform": "官方配信",
-      "label": "たりない 官方配信",
-      "url": "https://asab.lnk.to/mq_Tarinai",
-      "linkType": "official_landing_page",
-      "region": "UNKNOWN",
-      "verifiedAt": "2026-10-15",
-      "availability": "unknown"
-    },
-    {
-      "platform": "YouTube",
-      "label": "たりない Official Music Video",
-      "url": "https://www.youtube.com/watch?v=FU-2zQvxywY",
-      "linkType": "direct_track",
-      "region": "GLOBAL",
-      "verifiedAt": "2026-10-15",
-      "availability": "unknown"
-    },
-    {
-      "platform": "YouTube",
-      "label": "たりない 官方 ED 映像",
-      "url": "https://www.youtube.com/watch?v=bztYaH6hbxg",
-      "linkType": "direct_track",
-      "region": "GLOBAL",
-      "verifiedAt": "2026-10-15",
-      "availability": "unknown"
-    }
-  ],
-  "releases": [
-    {
-      "id": "liar-game-ed-2-digital",
-      "title": "たりない",
-      "artistDisplayName": "muque",
-      "type": "single",
-      "tracks": [
-        {
-          "title": "たりない"
-        }
-      ],
-      "date": {
-        "value": "2026-07-08",
-        "precision": "day"
+      {
+        "type": "OP",
+        "sequence": 2,
+        "titleJa": "All in",
+        "artistDisplayName": "Kroi",
+        "songId": "liar-game-op-2-song",
+        "sources": [
+          {
+            "label": "動畫官方網站",
+            "url": "https://www.liargame-anime.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/liar_game",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "UZUREA 主題曲清單",
+            "url": "https://uzurea.net/spring-2026-anime-theme-songs/",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-26"
+          },
+          {
+            "url": "https://www.liargame-anime.com/music/",
+            "label": "動畫官網 MUSIC：兩季度 OP／ED 原名、用途、配信及團隊",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/7810/subtitle",
+            "label": "しょぼいカレンダー：All in／朝日 的作詞及作曲交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-15"
+          },
+          {
+            "url": "https://irorirecords.com/video",
+            "label": "IRORI Records 官方影片目錄：All in Official Video（公開索引核對）",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-15"
+          },
+          {
+            "url": "https://e.usen.com/news/news-release/kroiliar-game2all-inbehind-the-scenes.html",
+            "label": "USEN encore：All in Music Video 的確切 YouTube 入口交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-15"
+          },
+          {
+            "url": "https://www.liargame-anime.com/special/21",
+            "label": "動畫官網 SPECIAL：All in 第2季度官方 OP 映像",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-15"
+          },
+          {
+            "label": "官方：TV播出／第二季度資料",
+            "url": "https://www.liargame-anime.com/onair/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "YourAnimes：夏季作品／續播交叉核對",
+            "url": "https://youranimes.tw/bangumi/202607",
+            "language": "zh-Hant",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.liargame-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-15",
+            "targetId": "liar-game-op-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.liargame-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-15",
+            "targetId": "liar-game-op-2"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.liargame-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-15",
+            "targetId": "https://lnk.to/Kroi_Allin"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://cal.syoboi.jp/tid/7810/subtitle"
+            ],
+            "verifiedAt": "2026-10-15"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://e.usen.com/news/news-release/kroiliar-game2all-inbehind-the-scenes.html"
+            ],
+            "verifiedAt": "2026-10-15",
+            "targetId": "https://www.youtube.com/watch?v=SxAuZmFPWlw"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://irorirecords.com/video",
+              "https://e.usen.com/news/news-release/kroiliar-game2all-inbehind-the-scenes.html"
+            ],
+            "verifiedAt": "2026-10-15",
+            "targetId": "https://www.youtube.com/watch?v=SxAuZmFPWlw"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.liargame-anime.com/special/21"
+            ],
+            "verifiedAt": "2026-10-15",
+            "targetId": "https://www.youtube.com/watch?v=slKNbfZgImw"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "liar-game-op-2",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.liargame-anime.com/music/",
+              "https://www.liargame-anime.com/onair/",
+              "https://youranimes.tw/bangumi/202607"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "song",
+            "targetId": "liar-game-op-2-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://uzurea.net/spring-2026-anime-theme-songs/"
+            ],
+            "verifiedAt": "2026-10-26"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方配信",
+            "label": "All in 官方配信",
+            "url": "https://lnk.to/Kroi_Allin",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-15",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "All in Official Music Video",
+            "url": "https://www.youtube.com/watch?v=SxAuZmFPWlw",
+            "linkType": "direct_track",
+            "region": "GLOBAL",
+            "verifiedAt": "2026-10-15",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "All in 官方 OP 映像",
+            "url": "https://www.youtube.com/watch?v=slKNbfZgImw",
+            "linkType": "direct_track",
+            "region": "GLOBAL",
+            "verifiedAt": "2026-10-15",
+            "availability": "unknown"
+          }
+        ],
+        "credits": [
+          {
+            "name": "Kroi",
+            "role": "vocals"
+          },
+          {
+            "name": "内田怜央",
+            "role": "lyrics"
+          },
+          {
+            "name": "Kroi",
+            "role": "composition"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2026-summer"
+        ],
+        "lastVerifiedAt": "2026-10-19"
       },
-      "edition": "DIGITAL"
-    }
-  ],
-  "sourceMode": "explicit",
-  "seasonIds": [
-    "2026-summer"
-  ],
-  "lastVerifiedAt": "2026-10-19"
-}],"metadataVerifiedAt":"2026-07-25","broadcastLabel":"TV首回節目表2026-04-06週一24:00（實際4月7日）・テレ東系列；第2クール夏季；截至2026-10-14已完結","metadataSources":[{"label":"官方：TV首播、時段或第二季度播出資料","url":"https://www.liargame-anime.com/onair/","language":"ja","role":"first_party","verifiedAt":"2026-10-19"},{"label":"AniList：作品識別與截止日前完結狀態","url":"https://anilist.co/anime/197754","language":"en","role":"identifier","verifiedAt":"2026-10-19"},{"label":"YourAnimes：夏季作品／續播身分交叉核對","url":"https://youranimes.tw/bangumi/202607","language":"zh-Hant","role":"broadcast_cross_check","verifiedAt":"2026-10-19"}]},
-  {"anilistId":207675,"id":"curated-207675","slug":"hyakki-yakou-shou","seasonIds":["2026-spring"],"startDate":"2026-04-07","titleJa":"百鬼夜行抄","titleZhHant":"百鬼夜行抄","titleRomaji":"Hyakki Yakou Shou","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207675-h3TZK82jG5aD.png","editorialWeekday":2,"broadcastTimeJst":"21:55","status":"finished","anilistUrl":"https://anilist.co/anime/207675","imageSourceUrl":"https://anilist.co/anime/207675","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/662028"],"uzureaUrl":"https://uzurea.net/spring-2026-anime-theme-songs/","themes":[{"type":"ED","sequence":1,"titleJa":"何にもなれない","artistDisplayName":"ヤングスキニー","songId":"hyakki-yakou-shou-ed-1-song","sources":[{"url":"https://publications.asahi.com/feature/hyakki-anime/","label":"動畫官方 MUSIC：何にもなれない ED、演唱及完整創作","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.jvcmusic.co.jp/-/Discography/A026966/VE3WT-12394.html","label":"Speedstar 官方：何にもなれない 確切數位商品與發行資料","role":"first_party","language":"ja","verifiedAt":"2026-10-15"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://publications.asahi.com/feature/hyakki-anime/"],"verifiedAt":"2026-10-15","targetId":"hyakki-yakou-shou-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://publications.asahi.com/feature/hyakki-anime/"],"verifiedAt":"2026-10-15","targetId":"hyakki-yakou-shou-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://publications.asahi.com/feature/hyakki-anime/"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.jvcmusic.co.jp/-/Discography/A026966/VE3WT-12394.html"],"verifiedAt":"2026-10-15","targetId":"https://www.jvcmusic.co.jp/-/Discography/A026966/VE3WT-12394.html"}],"credits":[{"name":"ヤングスキニー","role":"vocals"},{"name":"かやゆー","role":"lyrics"},{"name":"かやゆー","role":"composition"},{"name":"ヤングスキニー","role":"arrangement"}],"links":[{"platform":"官方配信","label":"何にもなれない 官方配信商品","url":"https://www.jvcmusic.co.jp/-/Discography/A026966/VE3WT-12394.html","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"}]}],"metadataVerifiedAt":"2026-08-02"},
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "朝日",
+        "titleRomaji": "Asahi",
+        "artistDisplayName": "Lucky Kilimanjaro",
+        "youtubeUrl": "https://www.youtube.com/watch?v=-ZN0LGiXu18",
+        "songId": "liar-game-ed-1-song",
+        "sources": [
+          {
+            "label": "官方 YouTube 影片",
+            "url": "https://www.youtube.com/watch?v=-ZN0LGiXu18",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "動畫官方網站",
+            "url": "https://www.liargame-anime.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/liar_game",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "UZUREA 主題曲清單",
+            "url": "https://uzurea.net/spring-2026-anime-theme-songs/",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "url": "https://www.liargame-anime.com/music/",
+            "label": "動畫官網 MUSIC：兩季度 OP／ED 原名、用途、配信及團隊",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-15"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/7810/subtitle",
+            "label": "しょぼいカレンダー：All in／朝日 的作詞及作曲交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-15"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.liargame-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-15",
+            "targetId": "liar-game-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.liargame-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-15",
+            "targetId": "liar-game-ed-1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.liargame-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-15",
+            "targetId": "https://lnk.to/lk_asahiYD"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://cal.syoboi.jp/tid/7810/subtitle"
+            ],
+            "verifiedAt": "2026-10-15"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方配信",
+            "label": "朝日 官方配信",
+            "url": "https://lnk.to/lk_asahiYD",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-15",
+            "availability": "unknown"
+          }
+        ],
+        "credits": [
+          {
+            "name": "Lucky Kilimanjaro",
+            "role": "vocals"
+          },
+          {
+            "name": "熊木幸丸",
+            "role": "lyrics"
+          },
+          {
+            "name": "Lucky Kilimanjaro",
+            "role": "composition"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2026-spring"
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "basic_evidence"
+            ],
+            "note": "本期同版TV完整常規槽／正版本體分鐘尚待核；已讀起點或PDF文字候補不解鎖歌曲階段。原音樂整筆與日期保持。",
+            "resumeWhen": "出現本期同版本完整獨立常規槽或正版逐話正文分鐘的新可讀直接證據才解鎖；兩輪已封頂，失敗頁不重試、不換渠道，原music/evidence/date保持。",
+            "checkedAt": "2026-10-31"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "たりない",
+        "artistDisplayName": "muque",
+        "songId": "liar-game-ed-2-song",
+        "titleRomaji": "Tarinai",
+        "sources": [
+          {
+            "label": "動畫官方網站",
+            "url": "https://www.liargame-anime.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/liar_game",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-07-25"
+          },
+          {
+            "label": "UZUREA 主題曲清單",
+            "url": "https://uzurea.net/spring-2026-anime-theme-songs/",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-26"
+          },
+          {
+            "url": "https://www.liargame-anime.com/music/",
+            "label": "動畫官網 MUSIC：兩季度 OP／ED 原名、用途、配信及團隊",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=FU-2zQvxywY",
+            "label": "muque 官方 MV：たりない 完整創作與動畫 ED",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-15"
+          },
+          {
+            "url": "https://www.liargame-anime.com/special/",
+            "label": "動畫官網 SPECIAL：たりない 第2季度官方 ED 映像",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-15"
+          },
+          {
+            "label": "官方：TV播出／第二季度資料",
+            "url": "https://www.liargame-anime.com/onair/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "label": "YourAnimes：夏季作品／續播交叉核對",
+            "url": "https://youranimes.tw/bangumi/202607",
+            "language": "zh-Hant",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.liargame-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-15",
+            "targetId": "liar-game-ed-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.liargame-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-15",
+            "targetId": "liar-game-ed-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.liargame-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-15"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.liargame-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-15",
+            "targetId": "https://asab.lnk.to/mq_Tarinai"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=FU-2zQvxywY"
+            ],
+            "verifiedAt": "2026-10-15"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=FU-2zQvxywY"
+            ],
+            "verifiedAt": "2026-10-15",
+            "targetId": "https://www.youtube.com/watch?v=FU-2zQvxywY"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.liargame-anime.com/music/"
+            ],
+            "verifiedAt": "2026-10-15",
+            "targetId": "liar-game-ed-2-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.liargame-anime.com/special/"
+            ],
+            "verifiedAt": "2026-10-15",
+            "targetId": "https://www.youtube.com/watch?v=bztYaH6hbxg"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "liar-game-ed-2",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.liargame-anime.com/music/",
+              "https://www.liargame-anime.com/onair/",
+              "https://youranimes.tw/bangumi/202607"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "song",
+            "targetId": "liar-game-ed-2-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://uzurea.net/spring-2026-anime-theme-songs/"
+            ],
+            "verifiedAt": "2026-10-26"
+          }
+        ],
+        "credits": [
+          {
+            "name": "muque",
+            "role": "vocals"
+          },
+          {
+            "name": "Asakura",
+            "role": "group_member",
+            "groupName": "muque"
+          },
+          {
+            "name": "takachi",
+            "role": "group_member",
+            "groupName": "muque"
+          },
+          {
+            "name": "Kenichi",
+            "role": "group_member",
+            "groupName": "muque"
+          },
+          {
+            "name": "Asakura",
+            "role": "lyrics"
+          },
+          {
+            "name": "Asakura",
+            "role": "composition"
+          },
+          {
+            "name": "takachi",
+            "role": "composition"
+          },
+          {
+            "name": "takachi",
+            "role": "arrangement"
+          },
+          {
+            "name": "Soma Genda",
+            "role": "arrangement"
+          },
+          {
+            "name": "Kosy Yamamoto",
+            "role": "arrangement"
+          }
+        ],
+        "links": [
+          {
+            "platform": "官方配信",
+            "label": "たりない 官方配信",
+            "url": "https://asab.lnk.to/mq_Tarinai",
+            "linkType": "official_landing_page",
+            "region": "UNKNOWN",
+            "verifiedAt": "2026-10-15",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "たりない Official Music Video",
+            "url": "https://www.youtube.com/watch?v=FU-2zQvxywY",
+            "linkType": "direct_track",
+            "region": "GLOBAL",
+            "verifiedAt": "2026-10-15",
+            "availability": "unknown"
+          },
+          {
+            "platform": "YouTube",
+            "label": "たりない 官方 ED 映像",
+            "url": "https://www.youtube.com/watch?v=bztYaH6hbxg",
+            "linkType": "direct_track",
+            "region": "GLOBAL",
+            "verifiedAt": "2026-10-15",
+            "availability": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "liar-game-ed-2-digital",
+            "title": "たりない",
+            "artistDisplayName": "muque",
+            "type": "single",
+            "tracks": [
+              {
+                "title": "たりない"
+              }
+            ],
+            "date": {
+              "value": "2026-07-08",
+              "precision": "day"
+            },
+            "edition": "DIGITAL"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2026-summer"
+        ],
+        "lastVerifiedAt": "2026-10-19"
+      }
+    ],
+    "metadataVerifiedAt": "2026-10-19",
+    "broadcastLabel": "日本TV同版：2026-04-06起テレ東系每週一24:00（換日後週二00:00）、BSテレ東4/11起週六24:00、AT-X4/9起週四23:30，另有重播。完整獨立常規槽／正版單話正文分鐘未知。",
+    "metadataSources": [
+      {
+        "label": "動畫官方網站：作品與播出資料",
+        "url": "https://www.liargame-anime.com/",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-07-25"
+      },
+      {
+        "label": "AniList：作品識別與截止日前完結狀態",
+        "url": "https://anilist.co/anime/197754",
+        "language": "en",
+        "role": "identifier",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "label": "繁體中文季度列表交叉對照",
+        "url": "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+        "language": "zh-Hant",
+        "role": "localized_cross_check",
+        "verifiedAt": "2026-07-25"
+      },
+      {
+        "label": "AnimeThemes：OP／ED 曲目交叉核對",
+        "url": "https://animethemes.moe/anime/liar_game",
+        "language": "en",
+        "role": "theme_cross_check",
+        "verifiedAt": "2026-07-25"
+      },
+      {
+        "label": "UZUREA：季度主題曲與官方影片索引",
+        "url": "https://uzurea.net/spring-2026-anime-theme-songs/",
+        "language": "ja",
+        "role": "theme_cross_check",
+        "verifiedAt": "2026-07-25"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://natalie.mu/comic/news/663860",
+        "language": "ja",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-07-25"
+      },
+      {
+        "label": "同2026動畫日本TV起點與重播分列（完整槽／本體分鐘待核）：TVアニメ『LIAR GAME』公式HP",
+        "url": "https://www.liargame-anime.com/onair/",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-10-31"
+      },
+      {
+        "label": "YourAnimes：夏季作品／續播身分交叉核對",
+        "url": "https://youranimes.tw/bangumi/202607",
+        "language": "zh-Hant",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-10-19"
+      }
+    ]
+  },
+  {"anilistId":207675,"id":"curated-207675","slug":"hyakki-yakou-shou","seasonIds":["2026-spring"],"startDate":"2026-04-07","titleJa":"百鬼夜行抄","titleZhHant":"百鬼夜行抄","titleRomaji":"Hyakki Yakou Shou","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207675-h3TZK82jG5aD.png","editorialWeekday":2,"broadcastTimeJst":"21:55","status":"finished","anilistUrl":"https://anilist.co/anime/207675","imageSourceUrl":"https://anilist.co/anime/207675","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/662028"],"uzureaUrl":"https://uzurea.net/spring-2026-anime-theme-songs/","themes":[{"type":"ED","sequence":1,"titleJa":"何にもなれない","artistDisplayName":"ヤングスキニー","songId":"hyakki-yakou-shou-ed-1-song","sources":[{"url":"https://publications.asahi.com/feature/hyakki-anime/","label":"動畫官方 MUSIC：何にもなれない ED、演唱及完整創作","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.jvcmusic.co.jp/-/Discography/A026966/VE3WT-12394.html","label":"Speedstar 官方：何にもなれない 確切數位商品與發行資料","role":"first_party","language":"ja","verifiedAt":"2026-10-15"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://publications.asahi.com/feature/hyakki-anime/"],"verifiedAt":"2026-10-15","targetId":"hyakki-yakou-shou-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://publications.asahi.com/feature/hyakki-anime/"],"verifiedAt":"2026-10-15","targetId":"hyakki-yakou-shou-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://publications.asahi.com/feature/hyakki-anime/"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.jvcmusic.co.jp/-/Discography/A026966/VE3WT-12394.html"],"verifiedAt":"2026-10-15","targetId":"https://www.jvcmusic.co.jp/-/Discography/A026966/VE3WT-12394.html"}],"credits":[{"name":"ヤングスキニー","role":"vocals"},{"name":"かやゆー","role":"lyrics"},{"name":"かやゆー","role":"composition"},{"name":"ヤングスキニー","role":"arrangement"}],"links":[{"platform":"官方配信","label":"何にもなれない 官方配信商品","url":"https://www.jvcmusic.co.jp/-/Discography/A026966/VE3WT-12394.html","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"}],"followUp":[{"fields":["basic_evidence"],"note":"本同版短篇形式已核，標準TV優先範圍下延後；槽長與正版本體分鐘按已讀metadata分開，原音樂證據及日期保留。","resumeWhen":"標準TV優先範圍完成後另啟短篇批次；本輪未新核音樂或optional，原ED分類/證據/日期保留。","checkedAt":"2026-10-31"}]}],"metadataVerifiedAt":"2026-08-02","metadataSources":[{"label":"本2026動畫原作方官方身分及TV開播（未借音樂欄解鎖歌曲）：朝日新聞出版『百鬼夜行抄』公式サイト（發表／資料提供；刊載：朝日新聞出版）","url":"https://publications.asahi.com/feature/hyakki-anime/","language":"ja","role":"first_party","verifiedAt":"2026-10-31"},{"label":"AniList：作品識別與公開圖像","url":"https://anilist.co/anime/207675","language":"en","role":"identifier","verifiedAt":"2026-08-02"},{"label":"繁體中文季度列表交叉對照","url":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","language":"zh-Hant","role":"localized_cross_check","verifiedAt":"2026-08-02"},{"label":"UZUREA：季度主題曲與官方影片索引","url":"https://uzurea.net/spring-2026-anime-theme-songs/","language":"ja","role":"theme_cross_check","verifiedAt":"2026-08-02"},{"label":"季度首播公開來源","url":"https://natalie.mu/comic/news/662028","language":"ja","role":"broadcast_cross_check","verifiedAt":"2026-08-02"},{"url":"https://www.digimerce.jp/wp-content/uploads/260325_news.pdf","label":"本2026同版配信方自家公告短篇TV及配信時刻（未證淨片長）：株式会社デジマース（本作配信レーベル「スナックワークス」）（發表／資料提供；刊載：株式会社デジマース）","role":"first_party","language":"ja","verifiedAt":"2026-10-31"}],"broadcastLabel":"日本短篇TV：2026-04-07起tvk每週二21:55；配信每週二22:00另列。合法單話分鐘及完整槽未知，短篇音樂階段延後。"},
   {"anilistId":195268,"id":"curated-195268","slug":"higeki-no-genkyou-to-naru-saikyou-gedou-last-boss-joou-wa-tami-no-tame-ni-tsukushimasu-sea","seasonIds":["2026-spring"],"startDate":"2026-04-07","titleJa":"悲劇の元凶となる最強外道ラスボス女王は民の為に尽くします。Season2","titleZhHant":"成為悲劇元凶的最強異端，最後頭目女王為了人民犧牲奉獻","titleRomaji":"Higeki no Genkyou to Naru Saikyou Gedou Last Boss Joou wa Tami no Tame ni Tsukushimasu.  Season 2","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195268-HkEv0z9iTCJK.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/195268-dsEz7gM76ykF.jpg","editorialWeekday":2,"broadcastTimeJst":"22:00","status":"finished","officialSiteUrl":"https://lastame.com/","anilistUrl":"https://anilist.co/anime/195268","imageSourceUrl":"https://anilist.co/anime/195268","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/661559"],"animeThemesUrl":"https://animethemes.moe/anime/higeki_no_genkyou_to_naru_saikyou_gedou_last_boss_joou_wa_tami_no_tame_ni_tsukushimasu_season_2","uzureaUrl":"https://uzurea.net/spring-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"エゴ","titleRomaji":"Ego","artistDisplayName":"レトロリロン","youtubeUrl":"https://www.youtube.com/watch?v=4cGnQ8gFCCs","songId":"higeki-no-genkyou-to-naru-saikyou-gedou-last-boss-joou-wa-tami-no-tame-ni-tsukushimasu-sea-op-1-song","sources":[{"url":"https://lastame.com/","label":"動畫官網 Season2 MUSIC：エゴ／たられば 的用途、演唱及完整創作","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://retroriron.com/news/detail/78082","label":"藝人／唱片或動畫官方：エゴ Official Music Video","role":"first_party","language":"ja","verifiedAt":"2026-10-15"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://lastame.com/"],"verifiedAt":"2026-10-15","targetId":"higeki-no-genkyou-to-naru-saikyou-gedou-last-boss-joou-wa-tami-no-tame-ni-tsukushimasu-sea-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://lastame.com/"],"verifiedAt":"2026-10-15","targetId":"higeki-no-genkyou-to-naru-saikyou-gedou-last-boss-joou-wa-tami-no-tame-ni-tsukushimasu-sea-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://lastame.com/"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://retroriron.com/news/detail/78082"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=OF5KU3bOyw8"}],"credits":[{"name":"レトロリロン","role":"vocals"},{"name":"涼音","role":"lyrics"},{"name":"涼音","role":"composition"},{"name":"レトロリロン","role":"arrangement"}],"links":[{"platform":"YouTube","label":"エゴ Official Music Video","url":"https://www.youtube.com/watch?v=OF5KU3bOyw8","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"}]},{"type":"ED","sequence":1,"titleJa":"たられば","titleRomaji":"Tarareba","artistDisplayName":"ガラクタ","youtubeUrl":"https://www.youtube.com/watch?v=xSNhOhCEaC4","songId":"higeki-no-genkyou-to-naru-saikyou-gedou-last-boss-joou-wa-tami-no-tame-ni-tsukushimasu-sea-ed-1-song","sources":[{"url":"https://lastame.com/","label":"動畫官網 Season2 MUSIC：エゴ／たられば 的用途、演唱及完整創作","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.youtube.com/watch?v=qyyugRcBnNE","label":"藝人／唱片或動畫官方：たられば Official Music Video","role":"first_party","language":"ja","verifiedAt":"2026-10-15"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://lastame.com/"],"verifiedAt":"2026-10-15","targetId":"higeki-no-genkyou-to-naru-saikyou-gedou-last-boss-joou-wa-tami-no-tame-ni-tsukushimasu-sea-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://lastame.com/"],"verifiedAt":"2026-10-15","targetId":"higeki-no-genkyou-to-naru-saikyou-gedou-last-boss-joou-wa-tami-no-tame-ni-tsukushimasu-sea-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://lastame.com/"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.youtube.com/watch?v=qyyugRcBnNE"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=qyyugRcBnNE"}],"credits":[{"name":"ガラクタ","role":"vocals"},{"name":"はる","role":"lyrics"},{"name":"はる","role":"composition"},{"name":"ガラクタ","role":"arrangement"}],"links":[{"platform":"YouTube","label":"たられば Official Music Video","url":"https://www.youtube.com/watch?v=qyyugRcBnNE","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"}]}],"metadataVerifiedAt":"2026-07-25"},
   {"anilistId":199547,"id":"curated-199547","slug":"marriagetoxin","seasonIds":["2026-spring"],"startDate":"2026-04-07","titleJa":"マリッジトキシン","titleZhHant":"婚姻劇毒","titleRomaji":"MARRIAGETOXIN","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199547-LAaG3cmKCGhr.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/199547-7230SVo56b42.jpg","editorialWeekday":2,"broadcastTimeJst":"23:00","status":"finished","officialSiteUrl":"https://www.marriagetoxin-anime.com/","anilistUrl":"https://anilist.co/anime/199547","imageSourceUrl":"https://anilist.co/anime/199547","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/660067"],"animeThemesUrl":"https://animethemes.moe/anime/marriagetoxin","uzureaUrl":"https://uzurea.net/spring-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"Kill or Kiss","artistDisplayName":"平手友梨奈","youtubeUrl":"https://www.youtube.com/watch?v=7xi16GVkCcA","songId":"marriagetoxin-op-1-song","sources":[{"url":"https://www.marriagetoxin-anime.com/music/index.html","label":"動畫官網 MUSIC：主題曲完整創作、藝人 Album 三版及數位發行","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://prtimes.jp/main/html/rd/p/000002121.000000664.html","label":"Universal Music 官方新聞稿：無表情な表情 共通 CD 曲目、三版及 Kill or Kiss MV","role":"first_party","language":"ja","verifiedAt":"2026-10-15"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.marriagetoxin-anime.com/music/index.html"],"verifiedAt":"2026-10-15","targetId":"marriagetoxin-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.marriagetoxin-anime.com/music/index.html"],"verifiedAt":"2026-10-15","targetId":"marriagetoxin-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.marriagetoxin-anime.com/music/index.html"],"verifiedAt":"2026-10-15"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.marriagetoxin-anime.com/music/index.html"],"verifiedAt":"2026-10-15","targetId":"marriagetoxin-op-1-tyct-69385"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.marriagetoxin-anime.com/music/index.html"],"verifiedAt":"2026-10-15","targetId":"marriagetoxin-op-1-tyct-69384"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.marriagetoxin-anime.com/music/index.html"],"verifiedAt":"2026-10-15","targetId":"marriagetoxin-op-1-tyct-60262"},{"target":"link","fields":["url","type"],"sourceUrls":["https://prtimes.jp/main/html/rd/p/000002121.000000664.html"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=QbNwgXAXq9M"},{"target":"link","fields":["url","type"],"sourceUrls":["https://prtimes.jp/main/html/rd/p/000002121.000000664.html"],"verifiedAt":"2026-10-15","targetId":"https://hirate-yurina.lnk.to/1st-albumID"}],"credits":[{"name":"平手友梨奈","role":"vocals"},{"name":"Kanata Okajima","role":"lyrics"},{"name":"Kanata Okajima","role":"composition"},{"name":"Fred Ball","role":"composition"},{"name":"Fred Ball","role":"arrangement"}],"releases":[{"id":"marriagetoxin-op-1-tyct-69385","title":"無表情な表情","artistDisplayName":"平手友梨奈","type":"album","tracks":[{"title":"Kill or Kiss"}],"date":{"value":"2026-06-03","precision":"day"},"catalogNumber":"TYCT-69385","edition":"初回限定盤A（CD＋DVD＋フォトブック）"},{"id":"marriagetoxin-op-1-tyct-69384","title":"無表情な表情","artistDisplayName":"平手友梨奈","type":"album","tracks":[{"title":"Kill or Kiss"}],"date":{"value":"2026-06-03","precision":"day"},"catalogNumber":"TYCT-69384","edition":"初回限定盤B（CD＋DVD）"},{"id":"marriagetoxin-op-1-tyct-60262","title":"無表情な表情","artistDisplayName":"平手友梨奈","type":"album","tracks":[{"title":"Kill or Kiss"}],"date":{"value":"2026-06-03","precision":"day"},"catalogNumber":"TYCT-60262","edition":"通常盤（CD）"}],"links":[{"platform":"YouTube","label":"Kill or Kiss Official Music Video","url":"https://www.youtube.com/watch?v=QbNwgXAXq9M","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"官方配信","label":"無表情な表情 官方 Album 入口","url":"https://hirate-yurina.lnk.to/1st-albumID","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"}]},{"type":"ED","sequence":1,"titleJa":"シャケナベイベー","titleRomaji":"Shake Na Baby","artistDisplayName":"AKASAKI","youtubeUrl":"https://www.youtube.com/watch?v=R6_SOvEnj8M","songId":"marriagetoxin-ed-1-song","sources":[{"url":"https://www.marriagetoxin-anime.com/music/index.html","label":"動畫官網 MUSIC：主題曲完整創作、藝人 Album 三版及數位發行","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.sunrise-world.net/news/news.php?id=25253","label":"藝人／唱片或動畫官方：シャケナベイベー Collab Music Video","role":"first_party","language":"ja","verifiedAt":"2026-10-15"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.marriagetoxin-anime.com/music/index.html"],"verifiedAt":"2026-10-15","targetId":"marriagetoxin-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.marriagetoxin-anime.com/music/index.html"],"verifiedAt":"2026-10-15","targetId":"marriagetoxin-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.marriagetoxin-anime.com/music/index.html"],"verifiedAt":"2026-10-15"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.marriagetoxin-anime.com/music/index.html"],"verifiedAt":"2026-10-15","targetId":"marriagetoxin-ed-1-uu1as-02872"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.sunrise-world.net/news/news.php?id=25253"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=WwI7hPXZC-Y"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.sunrise-world.net/news/news.php?id=25253"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=R6_SOvEnj8M"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.sunrise-world.net/news/news.php?id=25253"],"verifiedAt":"2026-10-15","targetId":"https://lnk.to/aksk_21th"}],"credits":[{"name":"AKASAKI","role":"vocals"},{"name":"AKASAKI","role":"lyrics"},{"name":"AKASAKI","role":"composition"},{"name":"AKASAKI","role":"arrangement"},{"name":"DAIKI（AWSM.）","role":"arrangement"}],"releases":[{"id":"marriagetoxin-ed-1-uu1as-02872","title":"シャケナベイベー","artistDisplayName":"AKASAKI","type":"single","tracks":[{"title":"シャケナベイベー"}],"date":{"value":"2026-04-07","precision":"day"},"catalogNumber":"UU1AS-02872","edition":"DIGITAL"}],"links":[{"platform":"YouTube","label":"シャケナベイベー Collab Music Video","url":"https://www.youtube.com/watch?v=WwI7hPXZC-Y","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"YouTube","label":"シャケナベイベー 無字幕 ED","url":"https://www.youtube.com/watch?v=R6_SOvEnj8M","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"官方配信","label":"シャケナベイベー 官方配信","url":"https://lnk.to/aksk_21th","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"}]}],"metadataVerifiedAt":"2026-07-25"},
   {"anilistId":169580,"id":"curated-169580","slug":"class-de-2-banme-ni-kawaii-onnanoko-to-tomodachi-ni-natta","seasonIds":["2026-spring"],"startDate":"2026-04-07","titleJa":"クラスで２番目に可愛い女の子と友だちになった","titleZhHant":"我和班上第二可愛的女生成為朋友","titleRomaji":"Class de 2-banme ni Kawaii Onnanoko to Tomodachi ni Natta","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx169580-nXxpmqu6UVux.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/169580-RUdWWw0j74HH.jpg","editorialWeekday":2,"broadcastTimeJst":"23:30","status":"finished","officialSiteUrl":"https://kuranika.asmik-ace.co.jp/","anilistUrl":"https://anilist.co/anime/169580","imageSourceUrl":"https://anilist.co/anime/169580","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/662114"],"animeThemesUrl":"https://animethemes.moe/anime/class_de_2banme_ni_kawaii_onnanoko_to_tomodachi_ni_natta","uzureaUrl":"https://uzurea.net/spring-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"サブマリンユース","titleRomaji":"Submarine Youth","artistDisplayName":"reGretGirl","youtubeUrl":"https://www.youtube.com/watch?v=n4PRWtY26Uc","songId":"class-de-2-banme-ni-kawaii-onnanoko-to-tomodachi-ni-natta-op-1-song","sources":[{"url":"https://kuranika.asmik-ace.co.jp/music/","label":"動畫官網 MUSIC：サブマリンユース／ずっと１番にしてね 的原名及用途","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.youtube.com/watch?v=0qtsQ1UeEEc","label":"reGretGirl 官方 Art Track：サブマリンユース 詞曲及發行日期","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://columbia.jp/artist-info/regretgirl/discography/single.html","label":"日本 Columbia 官方：サブマリンユース Digital Single 日期及品番","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://cal.syoboi.jp/quarter/2026q2","label":"しょぼいカレンダー：サブマリンユース 兩位編曲交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://columbia.jp/artist-info/regretgirl/info/93180.html","label":"藝人／唱片或動畫官方：サブマリンユース Official Music Video","role":"first_party","language":"ja","verifiedAt":"2026-10-15"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://kuranika.asmik-ace.co.jp/music/"],"verifiedAt":"2026-10-15","targetId":"class-de-2-banme-ni-kawaii-onnanoko-to-tomodachi-ni-natta-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://kuranika.asmik-ace.co.jp/music/"],"verifiedAt":"2026-10-15","targetId":"class-de-2-banme-ni-kawaii-onnanoko-to-tomodachi-ni-natta-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.youtube.com/watch?v=0qtsQ1UeEEc"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.youtube.com/watch?v=0qtsQ1UeEEc"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=0qtsQ1UeEEc"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://columbia.jp/artist-info/regretgirl/discography/single.html"],"verifiedAt":"2026-10-15","targetId":"class-de-2-banme-ni-kawaii-onnanoko-to-tomodachi-ni-natta-op-1-cokm-46345"},{"target":"credits","fields":["credits"],"sourceUrls":["https://cal.syoboi.jp/quarter/2026q2"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://columbia.jp/artist-info/regretgirl/info/93180.html"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=2hyWBr4hceY"}],"credits":[{"name":"reGretGirl","role":"vocals"},{"name":"Masahiro Hirabe","role":"lyrics"},{"name":"Masahiro Hirabe","role":"composition"},{"name":"reGretGirl","role":"arrangement"},{"name":"重永亮介","role":"arrangement"}],"links":[{"platform":"YouTube","label":"サブマリンユース Official Art Track","url":"https://www.youtube.com/watch?v=0qtsQ1UeEEc","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"YouTube","label":"サブマリンユース Official Music Video","url":"https://www.youtube.com/watch?v=2hyWBr4hceY","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"}],"releases":[{"id":"class-de-2-banme-ni-kawaii-onnanoko-to-tomodachi-ni-natta-op-1-cokm-46345","title":"サブマリンユース","artistDisplayName":"reGretGirl","type":"single","tracks":[{"title":"サブマリンユース"}],"date":{"value":"2026-04-08","precision":"day"},"catalogNumber":"COKM-46345","edition":"DIGITAL"}]},{"type":"ED","sequence":1,"titleJa":"ずっと１番にしてね","titleRomaji":"Zutto 1-ban ni Shite ne","artistDisplayName":"コレサワ","youtubeUrl":"https://www.youtube.com/watch?v=1IKax57ZOXs","songId":"class-de-2-banme-ni-kawaii-onnanoko-to-tomodachi-ni-natta-ed-1-song","sources":[{"url":"https://kuranika.asmik-ace.co.jp/music/","label":"動畫官網 MUSIC：サブマリンユース／ずっと１番にしてね 的原名及用途","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.youtube.com/watch?v=3R_8HNqIB28","label":"コレサワ 官方 MV：ずっと1番にしてね 完整創作、演奏及製作","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.youtube.com/watch?v=uJbFJnd-dYY","label":"コレサワ 官方：ずっと1番にしてね Official Audio","role":"first_party","language":"ja","verifiedAt":"2026-10-15"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://kuranika.asmik-ace.co.jp/music/"],"verifiedAt":"2026-10-15","targetId":"class-de-2-banme-ni-kawaii-onnanoko-to-tomodachi-ni-natta-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://kuranika.asmik-ace.co.jp/music/"],"verifiedAt":"2026-10-15","targetId":"class-de-2-banme-ni-kawaii-onnanoko-to-tomodachi-ni-natta-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.youtube.com/watch?v=3R_8HNqIB28"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.youtube.com/watch?v=3R_8HNqIB28"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=3R_8HNqIB28"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.youtube.com/watch?v=uJbFJnd-dYY"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=uJbFJnd-dYY"},{"target":"release","fields":["title","type","tracklist","edition"],"sourceUrls":["https://www.youtube.com/watch?v=3R_8HNqIB28"],"verifiedAt":"2026-10-15","targetId":"class-de-2-banme-ni-kawaii-onnanoko-to-tomodachi-ni-natta-ed-1-digital"}],"credits":[{"name":"コレサワ","role":"vocals"},{"name":"コレサワ","role":"lyrics"},{"name":"コレサワ","role":"composition"},{"name":"Hideyuki Daichi Suzuki","role":"arrangement"},{"name":"コレサワ（Producer／Acoustic Guitar）","role":"other"},{"name":"Hideyuki Daichi Suzuki（Bass／Other Instruments）","role":"other"},{"name":"Kei Higuchi（Electric Guitar）","role":"other"}],"links":[{"platform":"YouTube","label":"ずっと1番にしてね Official Music Video","url":"https://www.youtube.com/watch?v=3R_8HNqIB28","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"YouTube","label":"ずっと1番にしてね Official Audio","url":"https://www.youtube.com/watch?v=uJbFJnd-dYY","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"}],"releases":[{"id":"class-de-2-banme-ni-kawaii-onnanoko-to-tomodachi-ni-natta-ed-1-digital","title":"ずっと１番にしてね","artistDisplayName":"コレサワ","type":"single","tracks":[{"title":"ずっと１番にしてね"}],"edition":"DIGITAL"}]}],"metadataVerifiedAt":"2026-07-25"},
