@@ -21,7 +21,7 @@ function summer2019Seed({
   return {
     ...row,
     id: `curated-${row.anilistId}`,
-    seasonIds: ["2019-summer"],
+    seasonIds: row.anilistId === 105333 ? ["2019-summer", "2019-fall"] : row.anilistId === 111144 ? ["2019-summer", "2019-fall", "2020-winter"] : ["2019-summer"],
     editorialWeekday: weekday || 7,
     status: "finished",
     anilistUrl: `https://anilist.co/anime/${row.anilistId}`,
@@ -71,9 +71,71 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
             name: "中山聡",
             role: "arrangement"
           }
-        ]
+        ],
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本期日本TV版別與完整常規節目時段或正版單話本體時長的對應仍待核對，歌曲基本資料尚未完成核對。",
+    "resumeWhen": "待有可公開查閱的新同版資料，明確列出完整常規節目時段或正版普通單話本體時長，並與本期官方身分對應後，再核對歌曲；其他期、WEB先行及首末話特別編排另計。",
+    "checkedAt": "2026-10-31"
+  }
+],
       }
-    ]
+    ],
+"broadcastLabel": "2019年日本TV第3期，7月1日週一22:00起；正常單話完整槽與本體分鐘待核。現有OP以外歌曲仍待逐用途核對，未收錄不等無歌。",
+"metadataSources": [
+  {
+    "label": "動畫官方網站：作品與播出資料",
+    "url": "https://hstar-mu.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "AnimeThemes：作品識別交叉連結",
+    "url": "https://api.animethemes.moe/anime/starmyu_3rd_season?include=resources",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://youranimes.tw/bangumi/201907",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "AnimeThemes：OP／ED 曲目交叉核對",
+    "url": "https://animethemes.moe/anime/starmyu_3rd_season",
+    "language": "en",
+    "role": "theme_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201907/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_summer.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "「スタミュ」（第3期）公式サイト：同版TV作品與播出資料（不以起點代替完整時段）",
+    "url": "https://hstar-mu.com/onair/index.html",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  }
+],
   },
   {
     anilistId: 107672,
@@ -95,7 +157,17 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
         type: "OP",
         sequence: 1,
         titleJa: "サクリファイス",
-        artistDisplayName: "まふまふ"
+        artistDisplayName: "まふまふ",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本期日本TV版別與完整常規節目時段或正版單話本體時長的對應仍待核對，歌曲基本資料尚未完成核對。",
+    "resumeWhen": "待有可公開查閱的新同版資料，明確列出完整常規節目時段或正版普通單話本體時長，並與本期官方身分對應後，再核對歌曲；其他期、WEB先行及首末話特別編排另計。",
+    "checkedAt": "2026-10-31"
+  }
+],
       },
       {
         type: "ED",
@@ -120,9 +192,64 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
             name: "KanadeYUK（TaWaRa）",
             role: "arrangement"
           }
-        ]
+        ],
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本期日本TV版別與完整常規節目時段或正版單話本體時長的對應仍待核對，歌曲基本資料尚未完成核對。",
+    "resumeWhen": "待有可公開查閱的新同版資料，明確列出完整常規節目時段或正版普通單話本體時長，並與本期官方身分對應後，再核對歌曲；其他期、WEB先行及首末話特別編排另計。",
+    "checkedAt": "2026-10-31"
+  }
+],
       }
-    ]
+    ],
+"broadcastLabel": "2019年日本原TV；正常單話完整槽與本體分鐘仍待核，開始／配信日期分開。",
+"metadataSources": [
+  {
+    "label": "動畫官方網站：作品與播出資料",
+    "url": "https://katsu-kami.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "AnimeThemes：作品識別交叉連結",
+    "url": "https://api.animethemes.moe/anime/katsute_kami_datta_kemono_tachi_e?include=resources",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://youranimes.tw/bangumi/201907",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "AnimeThemes：OP／ED 曲目交叉核對",
+    "url": "https://animethemes.moe/anime/katsute_kami_datta_kemono_tachi_e",
+    "language": "en",
+    "role": "theme_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201907/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_summer.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-07"
+  }
+],
   },
   {
     anilistId: 105074,
@@ -253,7 +380,17 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
             name: "田口史也",
             role: "arrangement"
           }
-        ]
+        ],
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本期日本TV版別與完整常規節目時段或正版單話本體時長的對應仍待核對，歌曲基本資料尚未完成核對。",
+    "resumeWhen": "待有可公開查閱的新同版資料，明確列出完整常規節目時段或正版普通單話本體時長，並與本期官方身分對應後，再核對歌曲；其他期、WEB先行及首末話特別編排另計。",
+    "checkedAt": "2026-10-31"
+  }
+],
       },
       {
         type: "ED",
@@ -278,9 +415,71 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
             name: "the Third",
             role: "arrangement"
           }
-        ]
+        ],
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本期日本TV版別與完整常規節目時段或正版單話本體時長的對應仍待核對，歌曲基本資料尚未完成核對。",
+    "resumeWhen": "待有可公開查閱的新同版資料，明確列出完整常規節目時段或正版普通單話本體時長，並與本期官方身分對應後，再核對歌曲；其他期、WEB先行及首末話特別編排另計。",
+    "checkedAt": "2026-10-31"
+  }
+],
       }
-    ]
+    ],
+"broadcastLabel": "2019年日本TV，7月3日週三起；首末話為1小時特別編排，正常單話完整槽與本體分鐘待核，WEB先行另列。",
+"metadataSources": [
+  {
+    "label": "動畫官方網站：作品與播出資料",
+    "url": "https://astra-anime.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "AnimeThemes：作品識別交叉連結",
+    "url": "https://api.animethemes.moe/anime/kanata_no_astra?include=resources",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://youranimes.tw/bangumi/201907",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "AnimeThemes：OP／ED 曲目交叉核對",
+    "url": "https://animethemes.moe/anime/kanata_no_astra",
+    "language": "en",
+    "role": "theme_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201907/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_summer.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "TVアニメ「彼方のアストラ」公式サイト：同版TV作品與播出資料（不以起點代替完整時段）",
+    "url": "https://astra-anime.com/onair/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  }
+],
   },
   {
     anilistId: 107226,
@@ -303,16 +502,259 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
         sequence: 1,
         titleJa: "お願いマッスル",
         artistDisplayName: "紗倉ひびき(CV：ファイルーズあい)＆街雄鳴造(CV：石川界人)",
-        releaseDate: "2019-07-24"
+        releaseDate: "2019-07-24",
+"followUp": [],
+"songId": "dumbbell-nan-kilo-moteru-op-1-song",
+"seasonIds": [
+  "2019-summer"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《流汗吧！健身少女》第一方音樂資料：曲目、用途與演唱版本",
+    "url": "https://dumbbell-anime.jp/products/music.html",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/dumbbell_nan_kilo_moteru",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "KADOKAWAanime 官方影片",
+    "url": "https://www.youtube.com/watch?v=mgympfbOgqw",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://dumbbell-anime.jp/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "Wikipedia：原文歌曲與用途",
+    "url": "https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%B3%E3%83%99%E3%83%AB%E4%BD%95%E3%82%AD%E3%83%AD%E6%8C%81%E3%81%A6%E3%82%8B",
+    "language": "ja",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "dumbbell-nan-kilo-moteru-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://dumbbell-anime.jp/products/music.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "dumbbell-nan-kilo-moteru-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://dumbbell-anime.jp/products/music.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "dumbbell-nan-kilo-moteru-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%B3%E3%83%99%E3%83%AB%E4%BD%95%E3%82%AD%E3%83%AD%E6%8C%81%E3%81%A6%E3%82%8B"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "dumbbell-nan-kilo-moteru-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%B3%E3%83%99%E3%83%AB%E4%BD%95%E3%82%AD%E3%83%AD%E6%8C%81%E3%81%A6%E3%82%8B"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       },
       {
         type: "ED",
         sequence: 1,
         titleJa: "マッチョアネーム？",
         artistDisplayName: "街雄鳴造(CV：石川界人)",
-        releaseDate: "2019-07-24"
+        releaseDate: "2019-07-24",
+"followUp": [],
+"songId": "dumbbell-nan-kilo-moteru-ed-1-song",
+"seasonIds": [
+  "2019-summer"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《流汗吧！健身少女》第一方音樂資料：曲目、用途與演唱版本",
+    "url": "https://dumbbell-anime.jp/products/music.html",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/dumbbell_nan_kilo_moteru",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "KADOKAWAanime 官方影片",
+    "url": "https://www.youtube.com/watch?v=Ez3BKRr6Zuk",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://dumbbell-anime.jp/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "Wikipedia：原文歌曲與用途",
+    "url": "https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%B3%E3%83%99%E3%83%AB%E4%BD%95%E3%82%AD%E3%83%AD%E6%8C%81%E3%81%A6%E3%82%8B",
+    "language": "ja",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "dumbbell-nan-kilo-moteru-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://dumbbell-anime.jp/products/music.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "dumbbell-nan-kilo-moteru-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://dumbbell-anime.jp/products/music.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "dumbbell-nan-kilo-moteru-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%B3%E3%83%99%E3%83%AB%E4%BD%95%E3%82%AD%E3%83%AD%E6%8C%81%E3%81%A6%E3%82%8B"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "dumbbell-nan-kilo-moteru-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%B3%E3%83%99%E3%83%AB%E4%BD%95%E3%82%AD%E3%83%AD%E6%8C%81%E3%81%A6%E3%82%8B"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       }
-    ]
+    ],
+"broadcastLabel": "2019年日本TV版，完整30分鐘常規節目時段已有同版資料支持，非淨片長；本版兩首主題曲使用季度列為2019年夏。",
+"metadataSources": [
+  {
+    "label": "動畫官方網站：作品與播出資料",
+    "url": "https://dumbbell-anime.jp/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "AnimeThemes：作品識別交叉連結",
+    "url": "https://api.animethemes.moe/anime/dumbbell_nan_kilo_moteru?include=resources",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://youranimes.tw/bangumi/201907",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "AnimeThemes：OP／ED 曲目交叉核對",
+    "url": "https://animethemes.moe/anime/dumbbell_nan_kilo_moteru",
+    "language": "en",
+    "role": "theme_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201907/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_summer.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "TVアニメ「ダンベル何キロ持てる？」公式サイト：同版TV作品與播出資料（不以起點代替完整時段）",
+    "url": "https://dumbbell-anime.jp/onair/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "Wikipedia：同版日本TV播出與時段交叉資料（非淨長）",
+    "url": "https://zh.wikipedia.org/wiki/%E6%B5%81%E6%B1%97%E5%90%A7%EF%BC%81%E5%81%A5%E8%BA%AB%E5%B0%91%E5%A5%B3",
+    "language": "multi",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
   },
   {
     anilistId: 104252,
@@ -335,7 +777,17 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
         sequence: 1,
         titleJa: "TEMPEST",
         artistDisplayName: "石原夏織",
-        releaseDate: "2019-07-17"
+        releaseDate: "2019-07-17",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本期日本TV版別與完整常規節目時段或正版單話本體時長的對應仍待核對，歌曲基本資料尚未完成核對。",
+    "resumeWhen": "待有可公開查閱的新同版資料，明確列出完整常規節目時段或正版普通單話本體時長，並與本期官方身分對應後，再核對歌曲；其他期、WEB先行及首末話特別編排另計。",
+    "checkedAt": "2026-10-31"
+  }
+],
       },
       {
         type: "ED",
@@ -360,9 +812,71 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
             name: "YOSHIHIRO",
             role: "arrangement"
           }
-        ]
+        ],
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本期日本TV版別與完整常規節目時段或正版單話本體時長的對應仍待核對，歌曲基本資料尚未完成核對。",
+    "resumeWhen": "待有可公開查閱的新同版資料，明確列出完整常規節目時段或正版普通單話本體時長，並與本期官方身分對應後，再核對歌曲；其他期、WEB先行及首末話特別編排另計。",
+    "checkedAt": "2026-10-31"
+  }
+],
       }
-    ]
+    ],
+"broadcastLabel": "2019年第1作日本TV身分與完整常規節目時段或正版單話本體時長的對應仍待核對，其他版本另計。",
+"metadataSources": [
+  {
+    "label": "動畫官方網站：作品與播出資料",
+    "url": "https://maousama-anime.com/2019/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "AnimeThemes：作品識別交叉連結",
+    "url": "https://api.animethemes.moe/anime/maou_sama_retry?include=resources",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://youranimes.tw/bangumi/201907",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "AnimeThemes：OP／ED 曲目交叉核對",
+    "url": "https://animethemes.moe/anime/maou_sama_retry",
+    "language": "en",
+    "role": "theme_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201907/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_summer.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "Wikipedia：同版日本TV播出與時段交叉資料（非淨長）",
+    "url": "https://ja.wikipedia.org/wiki/%E9%AD%94%E7%8E%8B%E6%A7%98%E3%80%81%E3%83%AA%E3%83%88%E3%83%A9%E3%82%A4!",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
   },
   {
     anilistId: 107956,
@@ -387,23 +901,111 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
         artistDisplayName: "ラティナ（CV：高尾奏音）",
         releaseDate: "2019-07-24",
         credits: [
-          {
-            name: "ラティナ（CV：高尾奏音）",
-            role: "vocals"
-          },
-          {
-            name: "渡部紫緒",
-            role: "lyrics"
-          },
-          {
-            name: "松坂康司",
-            role: "composition"
-          },
-          {
-            name: "佐藤清喜",
-            role: "arrangement"
-          }
-        ]
+  {
+    "name": "ラティナ（CV：高尾奏音）",
+    "role": "vocals"
+  },
+  {
+    "name": "渡部紫緒",
+    "role": "lyrics"
+  },
+  {
+    "name": "松坂康司",
+    "role": "composition"
+  },
+  {
+    "name": "佐藤清喜",
+    "role": "arrangement"
+  }
+],
+"followUp": [],
+"songId": "uchi-no-ko-no-tame-naraba-ore-wa-moshikashitara-maou-mo-taoseru-kamo-shirenai-op-1-song",
+"seasonIds": [
+  "2019-summer"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://columbia.jp/uchinoko-anime/release.html",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/uchi_no_ko_no_tame_naraba_ore_wa_moshikashitara_maou_mo_taoseru_kamo_shirenai",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "Wikipedia：原文歌曲與用途",
+    "url": "https://ja.wikipedia.org/wiki/%E3%81%86%E3%81%A1%E3%81%AE%E5%A8%98%E3%81%AE%E7%82%BA%E3%81%AA%E3%82%89%E3%81%B0%E3%80%81%E4%BF%BA%E3%81%AF%E3%82%82%E3%81%97%E3%81%8B%E3%81%97%E3%81%9F%E3%82%89%E9%AD%94%E7%8E%8B%E3%82%82%E5%80%92%E3%81%9B%E3%82%8B%E3%81%8B%E3%82%82%E3%81%97%E3%82%8C%E3%81%AA%E3%81%84%E3%80%82",
+    "language": "ja",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "uchi-no-ko-no-tame-naraba-ore-wa-moshikashitara-maou-mo-taoseru-kamo-shirenai-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://columbia.jp/uchinoko-anime/release.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "uchi-no-ko-no-tame-naraba-ore-wa-moshikashitara-maou-mo-taoseru-kamo-shirenai-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://columbia.jp/uchinoko-anime/release.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "uchi-no-ko-no-tame-naraba-ore-wa-moshikashitara-maou-mo-taoseru-kamo-shirenai-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://ja.wikipedia.org/wiki/%E3%81%86%E3%81%A1%E3%81%AE%E5%A8%98%E3%81%AE%E7%82%BA%E3%81%AA%E3%82%89%E3%81%B0%E3%80%81%E4%BF%BA%E3%81%AF%E3%82%82%E3%81%97%E3%81%8B%E3%81%97%E3%81%9F%E3%82%89%E9%AD%94%E7%8E%8B%E3%82%82%E5%80%92%E3%81%9B%E3%82%8B%E3%81%8B%E3%82%82%E3%81%97%E3%82%8C%E3%81%AA%E3%81%84%E3%80%82"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "uchi-no-ko-no-tame-naraba-ore-wa-moshikashitara-maou-mo-taoseru-kamo-shirenai-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://ja.wikipedia.org/wiki/%E3%81%86%E3%81%A1%E3%81%AE%E5%A8%98%E3%81%AE%E7%82%BA%E3%81%AA%E3%82%89%E3%81%B0%E3%80%81%E4%BF%BA%E3%81%AF%E3%82%82%E3%81%97%E3%81%8B%E3%81%97%E3%81%9F%E3%82%89%E9%AD%94%E7%8E%8B%E3%82%82%E5%80%92%E3%81%9B%E3%82%8B%E3%81%8B%E3%82%82%E3%81%97%E3%82%8C%E3%81%AA%E3%81%84%E3%80%82"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "credits",
+    "fields": [
+      "credits"
+    ],
+    "sourceUrls": [
+      "https://columbia.jp/uchinoko-anime/release.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       },
       {
         type: "ED",
@@ -412,25 +1014,172 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
         artistDisplayName: "デイル（CV：岡本信彦）",
         releaseDate: "2019-07-24",
         credits: [
-          {
-            name: "デイル（CV：岡本信彦）",
-            role: "vocals"
-          },
-          {
-            name: "hisakuni",
-            role: "lyrics"
-          },
-          {
-            name: "hisakuni",
-            role: "composition"
-          },
-          {
-            name: "hisakuni",
-            role: "arrangement"
-          }
-        ]
+  {
+    "name": "デイル（CV：岡本信彦）",
+    "role": "vocals"
+  },
+  {
+    "name": "hisakuni",
+    "role": "lyrics"
+  },
+  {
+    "name": "hisakuni",
+    "role": "composition"
+  },
+  {
+    "name": "hisakuni",
+    "role": "arrangement"
+  }
+],
+"followUp": [],
+"songId": "uchi-no-ko-no-tame-naraba-ore-wa-moshikashitara-maou-mo-taoseru-kamo-shirenai-ed-1-song",
+"seasonIds": [
+  "2019-summer"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://columbia.jp/uchinoko-anime/release.html",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/uchi_no_ko_no_tame_naraba_ore_wa_moshikashitara_maou_mo_taoseru_kamo_shirenai",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "Wikipedia：原文歌曲與用途",
+    "url": "https://ja.wikipedia.org/wiki/%E3%81%86%E3%81%A1%E3%81%AE%E5%A8%98%E3%81%AE%E7%82%BA%E3%81%AA%E3%82%89%E3%81%B0%E3%80%81%E4%BF%BA%E3%81%AF%E3%82%82%E3%81%97%E3%81%8B%E3%81%97%E3%81%9F%E3%82%89%E9%AD%94%E7%8E%8B%E3%82%82%E5%80%92%E3%81%9B%E3%82%8B%E3%81%8B%E3%82%82%E3%81%97%E3%82%8C%E3%81%AA%E3%81%84%E3%80%82",
+    "language": "ja",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "uchi-no-ko-no-tame-naraba-ore-wa-moshikashitara-maou-mo-taoseru-kamo-shirenai-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://columbia.jp/uchinoko-anime/release.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "uchi-no-ko-no-tame-naraba-ore-wa-moshikashitara-maou-mo-taoseru-kamo-shirenai-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://columbia.jp/uchinoko-anime/release.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "uchi-no-ko-no-tame-naraba-ore-wa-moshikashitara-maou-mo-taoseru-kamo-shirenai-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://ja.wikipedia.org/wiki/%E3%81%86%E3%81%A1%E3%81%AE%E5%A8%98%E3%81%AE%E7%82%BA%E3%81%AA%E3%82%89%E3%81%B0%E3%80%81%E4%BF%BA%E3%81%AF%E3%82%82%E3%81%97%E3%81%8B%E3%81%97%E3%81%9F%E3%82%89%E9%AD%94%E7%8E%8B%E3%82%82%E5%80%92%E3%81%9B%E3%82%8B%E3%81%8B%E3%82%82%E3%81%97%E3%82%8C%E3%81%AA%E3%81%84%E3%80%82"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "uchi-no-ko-no-tame-naraba-ore-wa-moshikashitara-maou-mo-taoseru-kamo-shirenai-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://ja.wikipedia.org/wiki/%E3%81%86%E3%81%A1%E3%81%AE%E5%A8%98%E3%81%AE%E7%82%BA%E3%81%AA%E3%82%89%E3%81%B0%E3%80%81%E4%BF%BA%E3%81%AF%E3%82%82%E3%81%97%E3%81%8B%E3%81%97%E3%81%9F%E3%82%89%E9%AD%94%E7%8E%8B%E3%82%82%E5%80%92%E3%81%9B%E3%82%8B%E3%81%8B%E3%82%82%E3%81%97%E3%82%8C%E3%81%AA%E3%81%84%E3%80%82"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "credits",
+    "fields": [
+      "credits"
+    ],
+    "sourceUrls": [
+      "https://columbia.jp/uchinoko-anime/release.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       }
-    ]
+    ],
+"broadcastLabel": "2019年日本TV版，完整30分鐘常規節目時段已有同版資料支持，非淨片長；本版兩首主題曲使用季度列為2019年夏。",
+"metadataSources": [
+  {
+    "label": "動畫官方網站：作品與播出資料",
+    "url": "https://columbia.jp/uchinoko-anime/release.html",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "AnimeThemes：作品識別交叉連結",
+    "url": "https://api.animethemes.moe/anime/uchi_no_ko_no_tame_naraba_ore_wa_moshikashitara_maou_mo_taoseru_kamo_shirenai?include=resources",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://youranimes.tw/bangumi/201907",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "AnimeThemes：OP／ED 曲目交叉核對",
+    "url": "https://animethemes.moe/anime/uchi_no_ko_no_tame_naraba_ore_wa_moshikashitara_maou_mo_taoseru_kamo_shirenai",
+    "language": "en",
+    "role": "theme_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201907/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_summer.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "日本コロムビア：同版TV作品與播出資料（不以起點代替完整時段）",
+    "url": "https://columbia.jp/uchinoko-anime/prog.html",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "Wikipedia：同版日本TV播出與時段交叉資料（非淨長）",
+    "url": "https://ja.wikipedia.org/wiki/%E3%81%86%E3%81%A1%E3%81%AE%E5%A8%98%E3%81%AE%E7%82%BA%E3%81%AA%E3%82%89%E3%81%B0%E3%80%81%E4%BF%BA%E3%81%AF%E3%82%82%E3%81%97%E3%81%8B%E3%81%97%E3%81%9F%E3%82%89%E9%AD%94%E7%8E%8B%E3%82%82%E5%80%92%E3%81%9B%E3%82%8B%E3%81%8B%E3%82%82%E3%81%97%E3%82%8C%E3%81%AA%E3%81%84%E3%80%82",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
   },
   {
     anilistId: 105081,
@@ -455,23 +1204,118 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
         artistDisplayName: "田中望（CV：赤﨑千夏）、菊池茜（CV：戸松遥）、鷺宮しおり（CV：豊崎愛生）",
         releaseDate: "2019-07-24",
         credits: [
-          {
-            name: "田中望（CV：赤﨑千夏）、菊池茜（CV：戸松遥）、鷺宮しおり（CV：豊崎愛生）",
-            role: "vocals"
-          },
-          {
-            name: "山崎真吾",
-            role: "lyrics"
-          },
-          {
-            name: "山崎真吾",
-            role: "composition"
-          },
-          {
-            name: "山崎真吾",
-            role: "arrangement"
-          }
-        ]
+  {
+    "name": "田中望（CV：赤﨑千夏）、菊池茜（CV：戸松遥）、鷺宮しおり（CV：豊崎愛生）",
+    "role": "vocals"
+  },
+  {
+    "name": "山崎真吾",
+    "role": "lyrics"
+  },
+  {
+    "name": "山崎真吾",
+    "role": "composition"
+  },
+  {
+    "name": "山崎真吾",
+    "role": "arrangement"
+  }
+],
+"followUp": [],
+"songId": "joshikousei-no-mudazukai-op-1-song",
+"seasonIds": [
+  "2019-summer"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《女高中生的虛度日常》第一方音樂資料：曲目、用途與演唱版本",
+    "url": "https://jyoshimuda.com/music.html",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/joshikousei_no_mudazukai",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://jyoshimuda.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "Wikipedia：原文歌曲與用途",
+    "url": "https://ja.wikipedia.org/wiki/%E5%A5%B3%E5%AD%90%E9%AB%98%E7%94%9F%E3%81%AE%E7%84%A1%E9%A7%84%E3%81%A5%E3%81%8B%E3%81%84",
+    "language": "ja",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "joshikousei-no-mudazukai-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://jyoshimuda.com/music.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "joshikousei-no-mudazukai-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://jyoshimuda.com/music.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "joshikousei-no-mudazukai-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://ja.wikipedia.org/wiki/%E5%A5%B3%E5%AD%90%E9%AB%98%E7%94%9F%E3%81%AE%E7%84%A1%E9%A7%84%E3%81%A5%E3%81%8B%E3%81%84"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "joshikousei-no-mudazukai-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://ja.wikipedia.org/wiki/%E5%A5%B3%E5%AD%90%E9%AB%98%E7%94%9F%E3%81%AE%E7%84%A1%E9%A7%84%E3%81%A5%E3%81%8B%E3%81%84"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "credits",
+    "fields": [
+      "credits"
+    ],
+    "sourceUrls": [
+      "https://jyoshimuda.com/music.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       },
       {
         type: "ED",
@@ -480,25 +1324,179 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
         artistDisplayName: "田中望（CV：赤﨑千夏）、菊池茜（CV：戸松遥）、鷺宮しおり（CV：豊崎愛生）",
         releaseDate: "2019-07-24",
         credits: [
-          {
-            name: "田中望（CV：赤﨑千夏）、菊池茜（CV：戸松遥）、鷺宮しおり（CV：豊崎愛生）",
-            role: "vocals"
-          },
-          {
-            name: "Agasa.K",
-            role: "lyrics"
-          },
-          {
-            name: "Agasa.K",
-            role: "composition"
-          },
-          {
-            name: "Agasa.K",
-            role: "arrangement"
-          }
-        ]
+  {
+    "name": "田中望（CV：赤﨑千夏）、菊池茜（CV：戸松遥）、鷺宮しおり（CV：豊崎愛生）",
+    "role": "vocals"
+  },
+  {
+    "name": "Agasa.K",
+    "role": "lyrics"
+  },
+  {
+    "name": "Agasa.K",
+    "role": "composition"
+  },
+  {
+    "name": "Agasa.K",
+    "role": "arrangement"
+  }
+],
+"followUp": [],
+"songId": "joshikousei-no-mudazukai-ed-1-song",
+"seasonIds": [
+  "2019-summer"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《女高中生的虛度日常》第一方音樂資料：曲目、用途與演唱版本",
+    "url": "https://jyoshimuda.com/music.html",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/joshikousei_no_mudazukai",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://jyoshimuda.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "Wikipedia：原文歌曲與用途",
+    "url": "https://ja.wikipedia.org/wiki/%E5%A5%B3%E5%AD%90%E9%AB%98%E7%94%9F%E3%81%AE%E7%84%A1%E9%A7%84%E3%81%A5%E3%81%8B%E3%81%84",
+    "language": "ja",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "joshikousei-no-mudazukai-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://jyoshimuda.com/music.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "joshikousei-no-mudazukai-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://jyoshimuda.com/music.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "joshikousei-no-mudazukai-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://ja.wikipedia.org/wiki/%E5%A5%B3%E5%AD%90%E9%AB%98%E7%94%9F%E3%81%AE%E7%84%A1%E9%A7%84%E3%81%A5%E3%81%8B%E3%81%84"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "joshikousei-no-mudazukai-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://ja.wikipedia.org/wiki/%E5%A5%B3%E5%AD%90%E9%AB%98%E7%94%9F%E3%81%AE%E7%84%A1%E9%A7%84%E3%81%A5%E3%81%8B%E3%81%84"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "credits",
+    "fields": [
+      "credits"
+    ],
+    "sourceUrls": [
+      "https://jyoshimuda.com/music.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       }
-    ]
+    ],
+"broadcastLabel": "2019年日本TV版，完整30分鐘常規節目時段已有同版資料支持，非淨片長；本版兩首主題曲使用季度列為2019年夏。",
+"metadataSources": [
+  {
+    "label": "動畫官方網站：作品與播出資料",
+    "url": "https://jyoshimuda.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "AnimeThemes：作品識別交叉連結",
+    "url": "https://api.animethemes.moe/anime/joshikousei_no_mudazukai?include=resources",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://youranimes.tw/bangumi/201907",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "AnimeThemes：OP／ED 曲目交叉核對",
+    "url": "https://animethemes.moe/anime/joshikousei_no_mudazukai",
+    "language": "en",
+    "role": "theme_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201907/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_summer.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "TVアニメ「女子高生の無駄づかい」公式サイト：同版TV作品與播出資料（不以起點代替完整時段）",
+    "url": "https://jyoshimuda.com/news.html?id=n012",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "Wikipedia：同版日本TV播出與時段交叉資料（非淨長）",
+    "url": "https://ja.wikipedia.org/wiki/%E5%A5%B3%E5%AD%90%E9%AB%98%E7%94%9F%E3%81%AE%E7%84%A1%E9%A7%84%E3%81%A5%E3%81%8B%E3%81%84",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
   },
   {
     anilistId: 105333,
@@ -520,27 +1518,461 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
         type: "OP",
         sequence: 1,
         titleJa: "Good Morning World!",
-        artistDisplayName: "BURNOUT SYNDROMES"
+        artistDisplayName: "BURNOUT SYNDROMES",
+"followUp": [],
+"songId": "dr-stone-op-1-song",
+"seasonIds": [
+  "2019-summer"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《Dr.STONE 新石紀》第一方音樂資料：曲目、用途與演唱版本",
+    "url": "https://dr-stone.jp/music/1st/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/dr_stone",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://dr-stone.jp/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "TVアニメ「Dr.STONE」公式サイト：原文歌曲與用途",
+    "url": "https://dr-stone.jp/music/1st/1c-op/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "Wikipedia：原文歌曲與用途",
+    "url": "https://zh.wikipedia.org/wiki/Dr.STONE_%E6%96%B0%E7%9F%B3%E7%B4%80",
+    "language": "multi",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "dr-stone-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://dr-stone.jp/music/1st/1c-op/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "dr-stone-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://dr-stone.jp/music/1st/1c-op/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "dr-stone-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/Dr.STONE_%E6%96%B0%E7%9F%B3%E7%B4%80"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "dr-stone-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/Dr.STONE_%E6%96%B0%E7%9F%B3%E7%B4%80"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       },
       {
         type: "OP",
         sequence: 2,
         titleJa: "三原色",
-        artistDisplayName: "PELICAN FANCLUB"
+        artistDisplayName: "PELICAN FANCLUB",
+"followUp": [],
+"songId": "dr-stone-op-2-song",
+"seasonIds": [
+  "2019-fall"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《Dr.STONE 新石紀》第一方音樂資料：曲目、用途與演唱版本",
+    "url": "https://dr-stone.jp/music/1st/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/dr_stone",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://dr-stone.jp/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "TVアニメ「Dr.STONE」公式サイト：原文歌曲與用途",
+    "url": "https://dr-stone.jp/music/1st/2c-op/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "Wikipedia：原文歌曲與用途",
+    "url": "https://zh.wikipedia.org/wiki/Dr.STONE_%E6%96%B0%E7%9F%B3%E7%B4%80",
+    "language": "multi",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "dr-stone-op-2-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://dr-stone.jp/music/1st/2c-op/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "dr-stone-op-2",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://dr-stone.jp/music/1st/2c-op/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "dr-stone-op-2-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/Dr.STONE_%E6%96%B0%E7%9F%B3%E7%B4%80"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "dr-stone-op-2",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/Dr.STONE_%E6%96%B0%E7%9F%B3%E7%B4%80"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       },
       {
         type: "ED",
         sequence: 1,
         titleJa: "LIFE",
-        artistDisplayName: "Rude-α"
+        artistDisplayName: "Rude-α",
+"followUp": [],
+"songId": "dr-stone-ed-1-song",
+"seasonIds": [
+  "2019-summer"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《Dr.STONE 新石紀》第一方音樂資料：曲目、用途與演唱版本",
+    "url": "https://dr-stone.jp/music/1st/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/dr_stone",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://dr-stone.jp/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "TVアニメ「Dr.STONE」公式サイト：原文歌曲與用途",
+    "url": "https://dr-stone.jp/music/1st/1c-ed/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "Wikipedia：原文歌曲與用途",
+    "url": "https://zh.wikipedia.org/wiki/Dr.STONE_%E6%96%B0%E7%9F%B3%E7%B4%80",
+    "language": "multi",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "dr-stone-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://dr-stone.jp/music/1st/1c-ed/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "dr-stone-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://dr-stone.jp/music/1st/1c-ed/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "dr-stone-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/Dr.STONE_%E6%96%B0%E7%9F%B3%E7%B4%80"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "dr-stone-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/Dr.STONE_%E6%96%B0%E7%9F%B3%E7%B4%80"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       },
       {
         type: "ED",
         sequence: 2,
         titleJa: "夢のような",
-        artistDisplayName: "佐伯ユウスケ"
+        artistDisplayName: "佐伯ユウスケ",
+"followUp": [],
+"songId": "dr-stone-ed-2-song",
+"seasonIds": [
+  "2019-fall"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《Dr.STONE 新石紀》第一方音樂資料：曲目、用途與演唱版本",
+    "url": "https://dr-stone.jp/music/1st/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/dr_stone",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://dr-stone.jp/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "TVアニメ「Dr.STONE」公式サイト：原文歌曲與用途",
+    "url": "https://dr-stone.jp/music/1st/2c-ed/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "Wikipedia：原文歌曲與用途",
+    "url": "https://zh.wikipedia.org/wiki/Dr.STONE_%E6%96%B0%E7%9F%B3%E7%B4%80",
+    "language": "multi",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "dr-stone-ed-2-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://dr-stone.jp/music/1st/2c-ed/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "dr-stone-ed-2",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://dr-stone.jp/music/1st/2c-ed/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "dr-stone-ed-2-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/Dr.STONE_%E6%96%B0%E7%9F%B3%E7%B4%80"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "dr-stone-ed-2",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/Dr.STONE_%E6%96%B0%E7%9F%B3%E7%B4%80"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       }
-    ]
+    ],
+"broadcastLabel": "2019年日本TV第1期，TOKYO MX週五22:00–22:30為完整常規30分鐘節目時段，非淨片長；前、後半用曲分列於2019夏與秋，後期版本另計。",
+"metadataSources": [
+  {
+    "label": "動畫官方網站：作品與播出資料",
+    "url": "https://dr-stone.jp/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "AnimeThemes：作品識別交叉連結",
+    "url": "https://api.animethemes.moe/anime/dr_stone?include=resources",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://youranimes.tw/bangumi/201907",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "AnimeThemes：OP／ED 曲目交叉核對",
+    "url": "https://animethemes.moe/anime/dr_stone",
+    "language": "en",
+    "role": "theme_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201907/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_summer.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "TVアニメ「Dr.STONE」公式サイト：同版TV作品與播出資料（不以起點代替完整時段）",
+    "url": "https://dr-stone.jp/music/1st/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "Wikipedia：同版日本TV播出與時段交叉資料（非淨長）",
+    "url": "https://zh.wikipedia.org/wiki/Dr.STONE_%E6%96%B0%E7%9F%B3%E7%B4%80",
+    "language": "multi",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "Wikipedia：第1期原播話數與用曲範圍交叉資料",
+    "url": "https://en.wikipedia.org/wiki/Dr._Stone_season_1",
+    "language": "en",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
   },
   {
     anilistId: 105310,
@@ -1604,7 +3036,92 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
         sequence: 1,
         titleJa: "疾走",
         artistDisplayName: "りぶ",
-        releaseDate: "2019-09-18"
+        releaseDate: "2019-09-18",
+"followUp": [],
+"songId": "kochouki-wakaki-nobunaga-op-1-song",
+"seasonIds": [
+  "2019-summer"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《胡蝶綺 ～少年信長～》第一方音樂資料：曲目、用途與演唱版本",
+    "url": "https://happinet-phantom.com/wakanobu/music.html",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/kochouki_wakaki_nobunaga",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://happinet-phantom.com/wakanobu/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "Wikipedia：原文歌曲與用途",
+    "url": "https://zh.wikipedia.org/wiki/%E8%83%A1%E8%9D%B6%E7%B6%BA_%EF%BD%9E%E5%B0%91%E5%B9%B4%E4%BF%A1%E9%95%B7%EF%BD%9E",
+    "language": "multi",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "kochouki-wakaki-nobunaga-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://happinet-phantom.com/wakanobu/music.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "kochouki-wakaki-nobunaga-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://happinet-phantom.com/wakanobu/music.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "kochouki-wakaki-nobunaga-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%83%A1%E8%9D%B6%E7%B6%BA_%EF%BD%9E%E5%B0%91%E5%B9%B4%E4%BF%A1%E9%95%B7%EF%BD%9E"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "kochouki-wakaki-nobunaga-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%83%A1%E8%9D%B6%E7%B6%BA_%EF%BD%9E%E5%B0%91%E5%B9%B4%E4%BF%A1%E9%95%B7%EF%BD%9E"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       },
       {
         type: "ED",
@@ -1613,25 +3130,179 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
         artistDisplayName: "May'n",
         releaseDate: "2019-07-31",
         credits: [
-          {
-            name: "May'n",
-            role: "vocals"
-          },
-          {
-            name: "宮川弾",
-            role: "lyrics"
-          },
-          {
-            name: "川崎智哉",
-            role: "composition"
-          },
-          {
-            name: "佐藤純一",
-            role: "arrangement"
-          }
-        ]
+  {
+    "name": "May'n",
+    "role": "vocals"
+  },
+  {
+    "name": "宮川弾",
+    "role": "lyrics"
+  },
+  {
+    "name": "川崎智哉",
+    "role": "composition"
+  },
+  {
+    "name": "佐藤純一",
+    "role": "arrangement"
+  }
+],
+"followUp": [],
+"songId": "kochouki-wakaki-nobunaga-ed-1-song",
+"seasonIds": [
+  "2019-summer"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《胡蝶綺 ～少年信長～》第一方音樂資料：曲目、用途與演唱版本",
+    "url": "https://happinet-phantom.com/wakanobu/music.html",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/kochouki_wakaki_nobunaga",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://happinet-phantom.com/wakanobu/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "Wikipedia：原文歌曲與用途",
+    "url": "https://zh.wikipedia.org/wiki/%E8%83%A1%E8%9D%B6%E7%B6%BA_%EF%BD%9E%E5%B0%91%E5%B9%B4%E4%BF%A1%E9%95%B7%EF%BD%9E",
+    "language": "multi",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "kochouki-wakaki-nobunaga-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://happinet-phantom.com/wakanobu/music.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "kochouki-wakaki-nobunaga-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://happinet-phantom.com/wakanobu/music.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "kochouki-wakaki-nobunaga-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%83%A1%E8%9D%B6%E7%B6%BA_%EF%BD%9E%E5%B0%91%E5%B9%B4%E4%BF%A1%E9%95%B7%EF%BD%9E"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "kochouki-wakaki-nobunaga-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%83%A1%E8%9D%B6%E7%B6%BA_%EF%BD%9E%E5%B0%91%E5%B9%B4%E4%BF%A1%E9%95%B7%EF%BD%9E"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "credits",
+    "fields": [
+      "credits"
+    ],
+    "sourceUrls": [
+      "https://happinet-phantom.com/wakanobu/music.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       }
-    ]
+    ],
+"broadcastLabel": "2019年7至9月日本原TV；AT-X週一21:30–22:00為30分節目槽，非淨長。2020名單後播不當原用曲啟用；製作頁年份文字矛盾另待核。",
+"metadataSources": [
+  {
+    "label": "動畫官方網站：作品與播出資料",
+    "url": "https://happinet-phantom.com/wakanobu/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "AnimeThemes：作品識別交叉連結",
+    "url": "https://api.animethemes.moe/anime/kochouki_wakaki_nobunaga?include=resources",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://youranimes.tw/bangumi/201907",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "AnimeThemes：OP／ED 曲目交叉核對",
+    "url": "https://animethemes.moe/anime/kochouki_wakaki_nobunaga",
+    "language": "en",
+    "role": "theme_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201907/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_summer.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "株式会社スタジオディーン：同版TV作品識別（年份記載差異另核）",
+    "url": "https://www.deen.co.jp/works-archives/kochoki",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "Wikipedia：同版日本TV播出與時段交叉資料（非淨長）",
+    "url": "https://zh.wikipedia.org/wiki/%E8%83%A1%E8%9D%B6%E7%B6%BA_%EF%BD%9E%E5%B0%91%E5%B9%B4%E4%BF%A1%E9%95%B7%EF%BD%9E",
+    "language": "multi",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
   },
   {
     anilistId: 100668,
@@ -2200,7 +3871,108 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
         sequence: 1,
         titleJa: "Lead the way",
         artistDisplayName: "相羽あいな",
-        releaseDate: "2019-10-16"
+        releaseDate: "2019-10-16",
+"followUp": [],
+"songId": "cardfight-vanguard-shinemon-hen-op-1-song",
+"seasonIds": [
+  "2019-summer",
+  "2019-fall",
+  "2020-winter"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《卡片戰鬥先導者 新右衛門篇》第一方音樂資料：曲目、用途與演唱版本",
+    "url": "https://bushiroad-music.com/musics/brmm-10211/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/cardfight_vanguard_shinemon_hen",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "ブシロード公式チャンネル 官方影片",
+    "url": "https://www.youtube.com/watch?v=YwssMJO4T8s",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://anime.cf-vanguard.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "株式会社ブシロード（刊載：PR TIMES）：原文歌曲與用途",
+    "url": "https://prtimes.jp/main/html/rd/p/000002051.000014827.html",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "アニメイトタイムズ：原文歌曲與用途",
+    "url": "https://www.animatetimes.com/news/details.php?id=1566534108",
+    "language": "ja",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "cardfight-vanguard-shinemon-hen-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://prtimes.jp/main/html/rd/p/000002051.000014827.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "cardfight-vanguard-shinemon-hen-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://prtimes.jp/main/html/rd/p/000002051.000014827.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "cardfight-vanguard-shinemon-hen-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.animatetimes.com/news/details.php?id=1566534108"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "cardfight-vanguard-shinemon-hen-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.animatetimes.com/news/details.php?id=1566534108"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       },
       {
         type: "ED",
@@ -2213,7 +3985,100 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
           { name: "中村航", role: "lyrics" },
           { name: "白神真志朗", role: "composition" },
           { name: "廣澤優也", role: "arrangement" }
-        ]
+        ],
+"followUp": [],
+"songId": "cardfight-vanguard-shinemon-hen-ed-1-song",
+"seasonIds": [
+  "2019-summer",
+  "2019-fall"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《卡片戰鬥先導者 新右衛門篇》第一方音樂資料：曲目、用途與演唱版本",
+    "url": "https://argo-bdp.com/music/post-2702/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/cardfight_vanguard_shinemon_hen",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://anime.cf-vanguard.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "株式会社ブシロード（刊載：PR TIMES）：原文歌曲與用途",
+    "url": "https://prtimes.jp/main/html/rd/p/000002051.000014827.html",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "アニメイトタイムズ：原文歌曲與用途",
+    "url": "https://www.animatetimes.com/news/details.php?id=1566534108",
+    "language": "ja",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "cardfight-vanguard-shinemon-hen-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://prtimes.jp/main/html/rd/p/000002051.000014827.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "cardfight-vanguard-shinemon-hen-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://prtimes.jp/main/html/rd/p/000002051.000014827.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "cardfight-vanguard-shinemon-hen-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.animatetimes.com/news/details.php?id=1566534108"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "cardfight-vanguard-shinemon-hen-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.animatetimes.com/news/details.php?id=1566534108"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       },
       {
         type: "ED",
@@ -2227,9 +4092,87 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
           { name: "浅野尚志", role: "lyrics" },
           { name: "浅野尚志", role: "composition" },
           { name: "浅野尚志", role: "arrangement" }
-        ]
+        ],
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence",
+      "use_quarters"
+    ],
+    "note": "本曲原文曲名、完整演唱名義及片尾用途仍待本篇第一方資料核對，實際使用季度亦待確認。",
+    "resumeWhen": "取得《新右衛門編》公開第一方資料明確列出此曲原名、完整演唱名義及片尾用途，並與本篇日本原播日期相互對應後補充。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"seasonIds": [],
       }
-    ]
+    ],
+"broadcastLabel": "2019年日本TV《新右衛門編》，官方公告8月24日週六08:00起播。一般《ヴァンガード》節目表另列08:00–08:30時段，配合本篇日本原播話數資料核對版別；節目時段非淨片長，本篇原播跨至2020年3月；英語版及重播另計。",
+"metadataSources": [
+  {
+    "label": "動畫官方網站：作品與播出資料",
+    "url": "https://anime.cf-vanguard.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "AnimeThemes：作品識別交叉連結",
+    "url": "https://api.animethemes.moe/anime/cardfight_vanguard_shinemon_hen?include=resources",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://youranimes.tw/bangumi/201907",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "AnimeThemes：OP／ED 曲目交叉核對",
+    "url": "https://animethemes.moe/anime/cardfight_vanguard_shinemon_hen",
+    "language": "en",
+    "role": "theme_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201907/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_summer.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://prtimes.jp/main/html/rd/p/000002051.000014827.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "メディア芸術コンソーシアムJV事務局（刊載：文化庁公開報告書）：一般Vanguard節目時段（編名另以公告及原播話數核對，非淨長）",
+    "url": "https://mediag.bunka.go.jp/mediag_wp/wp-content/uploads/2020/04/38_jv4.pdf",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "Wikipedia：本篇日本原播話數與日期交叉資料（英語版另列）",
+    "url": "https://en.wikipedia.org/wiki/Cardfight!!_Vanguard:_Shinemon",
+    "language": "en",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
   },
   {
     anilistId: 102427,

@@ -454,6 +454,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
 103275, 107693, 101215, 108358, 108928, 104276,
 111082,
 101349, 104679,
+111144,
 ]
   },
   {
@@ -463,7 +464,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     titleZhHant: "秋季動畫",
     titleJa: "2019年秋アニメ",
     seeds: curated2019FallSeeds,
-    animeIds: curated2019FallAnimeIds
+    animeIds: [...curated2019FallAnimeIds, 105333, 111144]
   },
   {
     id: "2019-summer",
