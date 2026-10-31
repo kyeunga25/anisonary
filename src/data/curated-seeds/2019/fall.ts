@@ -2494,7 +2494,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
     titleRomaji: "Zoids Wild ZERO",
     posterUrl:
       "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110788-2CGGh39Z2yUJ.png",
-    broadcastLabel: "日本首播／時間未整理",
+    broadcastLabel: "2019年日本原TV版，10月4日起週五17:55播出；同本2020年9月正常單話17:55–18:25為完整30分槽，非淨長；正篇延長與逐曲季度分開待核。",
     officialSiteUrl:
       "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/",
     animeThemesUrl: "https://animethemes.moe/anime/zoids_wild_zero",
@@ -2504,38 +2504,814 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
         sequence: 1,
         titleJa: "blue blue blue",
         artistDisplayName: "Ivy to Fraudulent Game",
+"followUp": [
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "已核部分使用季度；跨年或延長播出邊界的實際用曲日期仍待核對。",
+    "resumeWhen": "取得同版本逐話用曲與日本原播日期的直接資料後，補充尚未確認的季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/zoids_wild_zero",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/news/111/",
+    "label": "第一方曲目資料：タカラトミー：ゾイドワイルドZERO公式",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://animemusicranking.com/ja/anime/88/",
+    "label": "歌曲交叉資料：アニソンチャート",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD",
+    "label": "歌曲交叉資料：維基百科",
+    "role": "cross_check",
+    "language": "multi",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"seasonIds": [
+  "2019-fall"
+],
+"songId": "zoids-wild-zero-op-1-song",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "zoids-wild-zero-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/news/111/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "zoids-wild-zero-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/news/111/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "zoids-wild-zero-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://animemusicranking.com/ja/anime/88/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "zoids-wild-zero-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://animemusicranking.com/ja/anime/88/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "zoids-wild-zero-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "zoids-wild-zero-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       },
       {
         type: "OP",
         sequence: 2,
         titleJa: "Player",
         artistDisplayName: "MAGIC OF LiFE",
+"followUp": [
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "已核本曲與第25話起的用途；實際日本播出日期及使用季度仍待核對。",
+    "resumeWhen": "取得本版第25話起逐話用曲及日本原播日期的直接資料後補充，公告相對日期先保留待核。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/zoids_wild_zero",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/news/458/",
+    "label": "第一方曲目資料：タカラトミー：ゾイドワイルドZERO公式",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://animemusicranking.com/ja/anime/88/",
+    "label": "歌曲交叉資料：アニソンチャート",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD",
+    "label": "歌曲交叉資料：維基百科",
+    "role": "cross_check",
+    "language": "multi",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"seasonIds": [],
+"songId": "zoids-wild-zero-op-2-song",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "zoids-wild-zero-op-2-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/news/458/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "zoids-wild-zero-op-2",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/news/458/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "zoids-wild-zero-op-2-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://animemusicranking.com/ja/anime/88/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "zoids-wild-zero-op-2",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://animemusicranking.com/ja/anime/88/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "zoids-wild-zero-op-2-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "zoids-wild-zero-op-2",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       },
       {
         type: "ED",
         sequence: 1,
         titleJa: "ヒカリ",
         artistDisplayName: "千田葉月",
+"followUp": [
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "已核部分使用季度；跨年或延長播出邊界的實際用曲日期仍待核對。",
+    "resumeWhen": "取得同版本逐話用曲與日本原播日期的直接資料後，補充尚未確認的季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/zoids_wild_zero",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://linkco.re/az9BGAUf?lang=ja",
+    "label": "第一方曲目資料：千田葉月發行頁／TuneCore Japan",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://animemusicranking.com/ja/anime/88/",
+    "label": "歌曲交叉資料：アニソンチャート",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD",
+    "label": "歌曲交叉資料：維基百科",
+    "role": "cross_check",
+    "language": "multi",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"seasonIds": [
+  "2019-fall"
+],
+"songId": "zoids-wild-zero-ed-1-song",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "zoids-wild-zero-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://linkco.re/az9BGAUf?lang=ja"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "zoids-wild-zero-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://linkco.re/az9BGAUf?lang=ja"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "zoids-wild-zero-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://animemusicranking.com/ja/anime/88/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "zoids-wild-zero-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://animemusicranking.com/ja/anime/88/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "zoids-wild-zero-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "zoids-wild-zero-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "credits",
+    "fields": [
+      "credits"
+    ],
+    "sourceUrls": [
+      "https://linkco.re/az9BGAUf?lang=ja"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
+"credits": [
+  {
+    "name": "千田葉月",
+    "role": "vocals"
+  },
+  {
+    "name": "柊木七音",
+    "role": "lyrics"
+  },
+  {
+    "name": "廣中トキワ",
+    "role": "composition"
+  },
+  {
+    "name": "廣中トキワ",
+    "role": "arrangement"
+  }
+],
       },
       {
         type: "ED",
         sequence: 2,
         titleJa: "DOOR",
         artistDisplayName: "荒井麻珠",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本曲在本版TV的精確演唱名義及片尾用途仍待第一方資料核對。",
+    "resumeWhen": "取得同版本逐話或逐曲第一方資料，明示原曲名、完整演唱名義及用途後補充。",
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "本曲在本版TV的使用季度仍待核對，暫不列入季度歌曲清單。",
+    "resumeWhen": "取得同版本明確用曲及日本原播日期的直接資料後補充使用季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"seasonIds": [],
       },
       {
         type: "ED",
         sequence: 3,
         titleJa: "夢の轍",
         artistDisplayName: "H△G",
+"followUp": [
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "已核本曲與第25話起的用途；實際日本播出日期及使用季度仍待核對。",
+    "resumeWhen": "取得本版第25話起逐話用曲及日本原播日期的直接資料後補充，公告相對日期先保留待核。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/zoids_wild_zero",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/news/457/",
+    "label": "第一方曲目資料：タカラトミー：ゾイドワイルドZERO公式",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://animemusicranking.com/ja/anime/88/",
+    "label": "歌曲交叉資料：アニソンチャート",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD",
+    "label": "歌曲交叉資料：維基百科",
+    "role": "cross_check",
+    "language": "multi",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"seasonIds": [],
+"songId": "zoids-wild-zero-ed-3-song",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "zoids-wild-zero-ed-3-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/news/457/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "zoids-wild-zero-ed-3",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/news/457/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "zoids-wild-zero-ed-3-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://animemusicranking.com/ja/anime/88/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "zoids-wild-zero-ed-3",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://animemusicranking.com/ja/anime/88/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "zoids-wild-zero-ed-3-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "zoids-wild-zero-ed-3",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       },
       {
         type: "ED",
         sequence: 4,
         titleJa: "名もなき旅",
         artistDisplayName: "千田葉月",
+"followUp": [
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "已核部分使用季度；跨年或延長播出邊界的實際用曲日期仍待核對。",
+    "resumeWhen": "取得同版本逐話用曲與日本原播日期的直接資料後，補充尚未確認的季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/zoids_wild_zero",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://prtimes.jp/main/html/rd/p/000000003.000047206.html",
+    "label": "第一方曲目資料：ゾイドワイルド ZERO製作委員会",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://prtimes.jp/a/?c=47206&f=d47206-3-pdf-0.pdf&r=3",
+    "label": "第一方曲目資料：ゾイドワイルド ZERO製作委員会",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://animemusicranking.com/ja/anime/88/",
+    "label": "歌曲交叉資料：アニソンチャート",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD",
+    "label": "歌曲交叉資料：維基百科",
+    "role": "cross_check",
+    "language": "multi",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"seasonIds": [
+  "2020-summer"
+],
+"songId": "zoids-wild-zero-ed-4-song",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "zoids-wild-zero-ed-4-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://prtimes.jp/main/html/rd/p/000000003.000047206.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "zoids-wild-zero-ed-4",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://prtimes.jp/main/html/rd/p/000000003.000047206.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "zoids-wild-zero-ed-4-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://prtimes.jp/a/?c=47206&f=d47206-3-pdf-0.pdf&r=3"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "zoids-wild-zero-ed-4",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://prtimes.jp/a/?c=47206&f=d47206-3-pdf-0.pdf&r=3"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "zoids-wild-zero-ed-4-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://animemusicranking.com/ja/anime/88/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "zoids-wild-zero-ed-4",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://animemusicranking.com/ja/anime/88/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "zoids-wild-zero-ed-4-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "zoids-wild-zero-ed-4",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "credits",
+    "fields": [
+      "credits"
+    ],
+    "sourceUrls": [
+      "https://prtimes.jp/a/?c=47206&f=d47206-3-pdf-0.pdf&r=3"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
+"credits": [
+  {
+    "name": "千田葉月",
+    "role": "vocals"
+  },
+  {
+    "name": "柊木七音",
+    "role": "lyrics"
+  },
+  {
+    "name": "廣中トキワ",
+    "role": "composition"
+  },
+  {
+    "name": "廣中トキワ",
+    "role": "arrangement"
+  }
+],
       },
     ],
+"metadataSources": [
+  {
+    "url": "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/",
+    "label": "第一方作品與播出資料：タカラトミー：ゾイドワイルドZERO公式",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "AniList：作品識別與公開圖像",
+    "url": "https://anilist.co/anime/110788",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes：OP／ED 曲目交叉核對",
+    "url": "https://animethemes.moe/anime/zoids_wild_zero",
+    "language": "en",
+    "role": "theme_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201910/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_autumn.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202009/25574_202009181755.html",
+    "label": "第一方作品與播出資料：テレビ東京",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"seasonIds": [
+  "2019-fall",
+  "2020-summer"
+],
   },
   {
     anilistId: 110789,
@@ -2980,7 +3756,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
       "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx107346-KZQFFzxrCH3g.jpg",
     bannerUrl:
       "https://s4.anilist.co/file/anilistcdn/media/anime/banner/107346-hR3d4HR7zFuX.jpg",
-    broadcastLabel: "日本首播／時間未整理",
+    broadcastLabel: "2019年第2期日本TV，10月4日週五24:00（實曆10月5日00:00）起，30分完整槽非淨長；2020年3月Extra1特別篇及其用曲另待核。",
     officialSiteUrl: "https://anime.granbluefantasy.jp/",
     animeThemesUrl:
       "https://animethemes.moe/anime/granblue_fantasy_the_animation_season_2",
@@ -2990,14 +3766,263 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
         sequence: 1,
         titleJa: "Stay With Me",
         artistDisplayName: "Seven Billion Dots",
+"followUp": [
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "已核2019年秋季本篇主題曲；2020年Extra 1特別篇的實際用曲仍待核對。",
+    "resumeWhen": "取得本版Extra 1實際片頭或片尾用曲的直接資料及日本播出日期後補充季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://anime.granbluefantasy.jp/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/granblue_fantasy_the_animation_season_2",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://prtimes.jp/main/html/rd/p/000001900.000016356.html",
+    "label": "第一方曲目資料：株式会社アニプレックス",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://www.lisani.jp/0000136482/",
+    "label": "歌曲交叉資料：リスアニ！",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"seasonIds": [
+  "2019-fall"
+],
+"songId": "granblue-fantasy-the-animation-season-2-op-1-song",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "granblue-fantasy-the-animation-season-2-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://prtimes.jp/main/html/rd/p/000001900.000016356.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "granblue-fantasy-the-animation-season-2-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://prtimes.jp/main/html/rd/p/000001900.000016356.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "granblue-fantasy-the-animation-season-2-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.lisani.jp/0000136482/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "granblue-fantasy-the-animation-season-2-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.lisani.jp/0000136482/"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       },
       {
         type: "ED",
         sequence: 1,
         titleJa: "蒼",
         artistDisplayName: "adieu",
+"followUp": [
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "已核2019年秋季本篇主題曲；2020年Extra 1特別篇的實際用曲仍待核對。",
+    "resumeWhen": "取得本版Extra 1實際片頭或片尾用曲的直接資料及日本播出日期後補充季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://anime.granbluefantasy.jp/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/granblue_fantasy_the_animation_season_2",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://prtimes.jp/main/html/rd/p/000001900.000016356.html",
+    "label": "第一方曲目資料：株式会社アニプレックス",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://www.lisani.jp/0000136482/",
+    "label": "歌曲交叉資料：リスアニ！",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"seasonIds": [
+  "2019-fall"
+],
+"songId": "granblue-fantasy-the-animation-season-2-ed-1-song",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "granblue-fantasy-the-animation-season-2-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://prtimes.jp/main/html/rd/p/000001900.000016356.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "granblue-fantasy-the-animation-season-2-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://prtimes.jp/main/html/rd/p/000001900.000016356.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "granblue-fantasy-the-animation-season-2-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.lisani.jp/0000136482/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "granblue-fantasy-the-animation-season-2-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.lisani.jp/0000136482/"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       },
     ],
+"metadataSources": [
+  {
+    "label": "動畫官方網站：作品與播出資料",
+    "url": "https://anime.granbluefantasy.jp/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AniList：作品識別與公開圖像",
+    "url": "https://anilist.co/anime/107346",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes：OP／ED 曲目交叉核對",
+    "url": "https://animethemes.moe/anime/granblue_fantasy_the_animation_season_2",
+    "language": "en",
+    "role": "theme_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201910/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_autumn.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://prtimes.jp/main/html/rd/p/000001900.000016356.html",
+    "label": "第一方作品與播出資料：株式会社アニプレックス",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://mediag.bunka.go.jp/mediag_wp/wp-content/uploads/2020/04/38_jv4.pdf",
+    "label": "播出交叉資料：メディア芸術コンソーシアムJV事務局",
+    "role": "broadcast_cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"seasonIds": [
+  "2019-fall"
+],
   },
   {
     anilistId: 107693,
@@ -3436,7 +4461,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
       "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111082-T2wx2iPk9jHS.png",
     bannerUrl:
       "https://s4.anilist.co/file/anilistcdn/media/anime/banner/111082-w4AEfiWpL4hz.jpg",
-    broadcastLabel: "日本首播／時間未整理",
+    broadcastLabel: "2019年日本TV本篇，10月5日起週六10:30–11:00完整30分槽，至2020年冬；3月28日起WEB特別篇另計，不套本篇歌曲用途。",
     officialSiteUrl: "https://www.tv-tokyo.co.jp/anime/aikatsuonparade/",
     animeThemesUrl: "https://animethemes.moe/anime/aikatsu_on_parade",
     themes: [
@@ -3445,6 +4470,145 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
         sequence: 1,
         titleJa: "君のEntrance",
         artistDisplayName: "らき・あいね・みお from BEST FRIENDS!",
+"followUp": [],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://www.tv-tokyo.co.jp/anime/aikatsuonparade/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/aikatsu_on_parade",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "アイカツ!チャンネル【公式】 官方影片",
+    "url": "https://www.youtube.com/watch?v=udOSxtxa70s",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201910/22343_201910051030.html",
+    "label": "第一方曲目資料：テレビ東京",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://www.aikatsu.net/aikatsuonparade/cd/cd-01.html",
+    "label": "第一方曲目資料：アイカツオンパレード！公式サイト",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://www.uta-net.com/user/search/anime_list_2.html?tno=14306",
+    "label": "歌曲交叉資料：歌ネット",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"seasonIds": [
+  "2019-fall",
+  "2020-winter"
+],
+"songId": "aikatsu-on-parade-op-1-song",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "aikatsu-on-parade-op-1-song",
+    "fields": [
+      "title"
+    ],
+    "sourceUrls": [
+      "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201910/22343_201910051030.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "aikatsu-on-parade-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201910/22343_201910051030.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "aikatsu-on-parade-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.aikatsu.net/aikatsuonparade/cd/cd-01.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "aikatsu-on-parade-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.uta-net.com/user/search/anime_list_2.html?tno=14306"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "aikatsu-on-parade-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.uta-net.com/user/search/anime_list_2.html?tno=14306"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "credits",
+    "fields": [
+      "credits"
+    ],
+    "sourceUrls": [
+      "https://www.aikatsu.net/aikatsuonparade/cd/cd-01.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
+"credits": [
+  {
+    "name": "らき・あいね・みお from BEST FRIENDS!",
+    "role": "vocals"
+  },
+  {
+    "name": "松原さらり(onetrap)",
+    "role": "lyrics"
+  },
+  {
+    "name": "SHOW (Digz, Inc. Group)",
+    "role": "composition"
+  },
+  {
+    "name": "SHOW (Digz, Inc. Group)",
+    "role": "arrangement"
+  }
+],
       },
       {
         type: "ED",
@@ -3452,30 +4616,241 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
         titleJa: "アイドル活動！オンパレード！ver.",
         artistDisplayName:
           "らき・あいね・みお from BEST FRIENDS!／わか・るか・せな",
+"followUp": [],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://www.tv-tokyo.co.jp/anime/aikatsuonparade/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/aikatsu_on_parade",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "アイカツ!チャンネル【公式】 官方影片",
+    "url": "https://www.youtube.com/watch?v=LKmj1KDEYPM",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201910/22343_201910051030.html",
+    "label": "第一方曲目資料：テレビ東京",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://www.aikatsu.net/aikatsuonparade/cd/cd-01.html",
+    "label": "第一方曲目資料：アイカツオンパレード！公式サイト",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://www.uta-net.com/user/search/anime_list_2.html?tno=14306",
+    "label": "歌曲交叉資料：歌ネット",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"seasonIds": [
+  "2019-fall",
+  "2020-winter"
+],
+"songId": "aikatsu-on-parade-ed-1-song",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "aikatsu-on-parade-ed-1-song",
+    "fields": [
+      "title"
+    ],
+    "sourceUrls": [
+      "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201910/22343_201910051030.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "aikatsu-on-parade-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201910/22343_201910051030.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "aikatsu-on-parade-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.aikatsu.net/aikatsuonparade/cd/cd-01.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "aikatsu-on-parade-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.uta-net.com/user/search/anime_list_2.html?tno=14306"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "aikatsu-on-parade-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.uta-net.com/user/search/anime_list_2.html?tno=14306"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "credits",
+    "fields": [
+      "credits"
+    ],
+    "sourceUrls": [
+      "https://www.aikatsu.net/aikatsuonparade/cd/cd-01.html"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
+"credits": [
+  {
+    "name": "らき・あいね・みお from BEST FRIENDS!／わか・るか・せな",
+    "role": "vocals"
+  },
+  {
+    "name": "uRy",
+    "role": "lyrics"
+  },
+  {
+    "name": "田中秀和(MONACA)",
+    "role": "composition"
+  }
+],
       },
       {
         type: "ED",
         sequence: 2,
         titleJa: "So Beautiful Story",
         artistDisplayName: "るか・せな from AIKATSU☆STARS!",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本曲在本版TV的精確演唱名義及片尾用途仍待第一方資料核對。",
+    "resumeWhen": "取得同版本逐話或逐曲第一方資料，明示原曲名、完整演唱名義及用途後補充。",
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "本曲在本版TV的使用季度仍待核對，暫不列入季度歌曲清單。",
+    "resumeWhen": "取得同版本明確用曲及日本原播日期的直接資料後補充使用季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"seasonIds": [],
       },
       {
         type: "ED",
         sequence: 3,
         titleJa: "Good morning my dream",
         artistDisplayName: "るか・もな・みき from AIKATSU☆STARS!",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本曲在本版TV的精確演唱名義及片尾用途仍待第一方資料核對。",
+    "resumeWhen": "取得同版本逐話或逐曲第一方資料，明示原曲名、完整演唱名義及用途後補充。",
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "本曲在本版TV的使用季度仍待核對，暫不列入季度歌曲清單。",
+    "resumeWhen": "取得同版本明確用曲及日本原播日期的直接資料後補充使用季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"seasonIds": [],
       },
       {
         type: "ED",
         sequence: 4,
         titleJa: "チュチュ・バレリーナ",
         artistDisplayName: "るか・もな・みき from AIKATSU☆STARS!",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本曲在本版TV的精確演唱名義及片尾用途仍待第一方資料核對。",
+    "resumeWhen": "取得同版本逐話或逐曲第一方資料，明示原曲名、完整演唱名義及用途後補充。",
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "本曲在本版TV的使用季度仍待核對，暫不列入季度歌曲清單。",
+    "resumeWhen": "取得同版本明確用曲及日本原播日期的直接資料後補充使用季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"seasonIds": [],
       },
       {
         type: "ED",
         sequence: 5,
         titleJa: "カレンダーガール",
         artistDisplayName: "わか・ふうり・すなお from STAR☆ANIS",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本曲在本版TV的精確演唱名義及片尾用途仍待第一方資料核對。",
+    "resumeWhen": "取得同版本逐話或逐曲第一方資料，明示原曲名、完整演唱名義及用途後補充。",
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "本曲在本版TV的使用季度仍待核對，暫不列入季度歌曲清單。",
+    "resumeWhen": "取得同版本明確用曲及日本原播日期的直接資料後補充使用季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"seasonIds": [],
       },
       {
         type: "ED",
@@ -3483,12 +4858,50 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
         titleJa: "オリジナルスター☆彡",
         artistDisplayName:
           "わか・ふうり・すなお・れみ・もえ・えり・ゆな・りすこ from STAR☆ANIS",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本曲在本版TV的精確演唱名義及片尾用途仍待第一方資料核對。",
+    "resumeWhen": "取得同版本逐話或逐曲第一方資料，明示原曲名、完整演唱名義及用途後補充。",
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "本曲在本版TV的使用季度仍待核對，暫不列入季度歌曲清單。",
+    "resumeWhen": "取得同版本明確用曲及日本原播日期的直接資料後補充使用季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"seasonIds": [],
       },
       {
         type: "ED",
         sequence: 7,
         titleJa: "Precious",
         artistDisplayName: "りすこ・わか・ふうり・もな from STAR☆ANIS",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本曲在本版TV的精確演唱名義及片尾用途仍待第一方資料核對。",
+    "resumeWhen": "取得同版本逐話或逐曲第一方資料，明示原曲名、完整演唱名義及用途後補充。",
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "本曲在本版TV的使用季度仍待核對，暫不列入季度歌曲清單。",
+    "resumeWhen": "取得同版本明確用曲及日本原播日期的直接資料後補充使用季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"seasonIds": [],
       },
       {
         type: "ED",
@@ -3496,18 +4909,75 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
         titleJa: "アリスブルーのキス〜Another Color〜",
         artistDisplayName:
           "モア・ザン・トゥルー［Vo.ナオ／涼川直人（CV：豊永利行）］",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本曲在本版TV的精確演唱名義及片尾用途仍待第一方資料核對。",
+    "resumeWhen": "取得同版本逐話或逐曲第一方資料，明示原曲名、完整演唱名義及用途後補充。",
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "本曲在本版TV的使用季度仍待核對，暫不列入季度歌曲清單。",
+    "resumeWhen": "取得同版本明確用曲及日本原播日期的直接資料後補充使用季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"seasonIds": [],
       },
       {
         type: "ED",
         sequence: 9,
         titleJa: "lucky train!",
         artistDisplayName: "るか・もな・みき from AIKATSU☆STARS!",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本曲在本版TV的精確演唱名義及片尾用途仍待第一方資料核對。",
+    "resumeWhen": "取得同版本逐話或逐曲第一方資料，明示原曲名、完整演唱名義及用途後補充。",
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "本曲在本版TV的使用季度仍待核對，暫不列入季度歌曲清單。",
+    "resumeWhen": "取得同版本明確用曲及日本原播日期的直接資料後補充使用季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"seasonIds": [],
       },
       {
         type: "ED",
         sequence: 10,
         titleJa: "プライド",
         artistDisplayName: "カレン・ミライ from BEST FRIENDS!",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本曲在本版TV的精確演唱名義及片尾用途仍待第一方資料核對。",
+    "resumeWhen": "取得同版本逐話或逐曲第一方資料，明示原曲名、完整演唱名義及用途後補充。",
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "本曲在本版TV的使用季度仍待核對，暫不列入季度歌曲清單。",
+    "resumeWhen": "取得同版本明確用曲及日本原播日期的直接資料後補充使用季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"seasonIds": [],
       },
       {
         type: "ED",
@@ -3515,38 +4985,214 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
         titleJa: "ヒラリ／ヒトリ／キラリ",
         artistDisplayName:
           "わか・ふうり・すなお・れみ・もえ・えり・ゆな・りすこ from STAR☆ANIS",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本曲在本版TV的精確演唱名義及片尾用途仍待第一方資料核對。",
+    "resumeWhen": "取得同版本逐話或逐曲第一方資料，明示原曲名、完整演唱名義及用途後補充。",
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "本曲在本版TV的使用季度仍待核對，暫不列入季度歌曲清單。",
+    "resumeWhen": "取得同版本明確用曲及日本原播日期的直接資料後補充使用季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"seasonIds": [],
       },
       {
         type: "ED",
         sequence: 12,
         titleJa: "森のひかりのピルエット",
         artistDisplayName: "せな・るか from AIKATSU☆STARS!",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本曲在本版TV的精確演唱名義及片尾用途仍待第一方資料核對。",
+    "resumeWhen": "取得同版本逐話或逐曲第一方資料，明示原曲名、完整演唱名義及用途後補充。",
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "本曲在本版TV的使用季度仍待核對，暫不列入季度歌曲清單。",
+    "resumeWhen": "取得同版本明確用曲及日本原播日期的直接資料後補充使用季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"seasonIds": [],
       },
       {
         type: "ED",
         sequence: 13,
         titleJa: "Be Star",
         artistDisplayName: "ひびき from BEST FRIENDS!",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本曲在本版TV的精確演唱名義及片尾用途仍待第一方資料核對。",
+    "resumeWhen": "取得同版本逐話或逐曲第一方資料，明示原曲名、完整演唱名義及用途後補充。",
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "本曲在本版TV的使用季度仍待核對，暫不列入季度歌曲清單。",
+    "resumeWhen": "取得同版本明確用曲及日本原播日期的直接資料後補充使用季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"seasonIds": [],
       },
       {
         type: "ED",
         sequence: 14,
         titleJa: "Bon Bon Voyage!",
         artistDisplayName: "りさ・みほ from AIKATSU☆STARS!",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本曲在本版TV的精確演唱名義及片尾用途仍待第一方資料核對。",
+    "resumeWhen": "取得同版本逐話或逐曲第一方資料，明示原曲名、完整演唱名義及用途後補充。",
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "本曲在本版TV的使用季度仍待核對，暫不列入季度歌曲清單。",
+    "resumeWhen": "取得同版本明確用曲及日本原播日期的直接資料後補充使用季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"seasonIds": [],
       },
       {
         type: "ED",
         sequence: 15,
         titleJa: "episode Solo",
         artistDisplayName: "るか・ななせ・かな・みほ from AIKATSU☆STARS!",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本曲在本版TV的精確演唱名義及片尾用途仍待第一方資料核對。",
+    "resumeWhen": "取得同版本逐話或逐曲第一方資料，明示原曲名、完整演唱名義及用途後補充。",
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "本曲在本版TV的使用季度仍待核對，暫不列入季度歌曲清單。",
+    "resumeWhen": "取得同版本明確用曲及日本原播日期的直接資料後補充使用季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"seasonIds": [],
       },
       {
         type: "ED",
         sequence: 16,
         titleJa: "Believe it",
         artistDisplayName: "カレン・ミライ from BEST FRIENDS!",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本曲在本版TV的精確演唱名義及片尾用途仍待第一方資料核對。",
+    "resumeWhen": "取得同版本逐話或逐曲第一方資料，明示原曲名、完整演唱名義及用途後補充。",
+    "checkedAt": "2026-10-31"
+  },
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "本曲在本版TV的使用季度仍待核對，暫不列入季度歌曲清單。",
+    "resumeWhen": "取得同版本明確用曲及日本原播日期的直接資料後補充使用季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"seasonIds": [],
       },
     ],
+"metadataSources": [
+  {
+    "label": "動畫官方網站：作品與播出資料",
+    "url": "https://www.tv-tokyo.co.jp/anime/aikatsuonparade/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AniList：作品識別與公開圖像",
+    "url": "https://anilist.co/anime/111082",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes：OP／ED 曲目交叉核對",
+    "url": "https://animethemes.moe/anime/aikatsu_on_parade",
+    "language": "en",
+    "role": "theme_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201910/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_autumn.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201910/22343_201910051030.html",
+    "label": "第一方作品與播出資料：テレビ東京",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "url": "https://zh.wikipedia.org/wiki/%E5%81%B6%E5%83%8F%E6%B4%BB%E5%8B%95_on_Parade%EF%BC%81",
+    "label": "播出交叉資料：維基百科",
+    "role": "broadcast_cross_check",
+    "language": "multi",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"seasonIds": [
+  "2019-fall",
+  "2020-winter"
+],
   },
   {
     anilistId: 105246,
