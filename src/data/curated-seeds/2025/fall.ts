@@ -66704,8 +66704,1003 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
     }
   ]
 }
+,
+{
+  "catalogKey": -202524101,
+  "slug": "aruhime-japanese-tv",
+  "seasonIds": [
+    "2025-fall"
+  ],
+  "startDate": "2025-10-02",
+  "titleJa": "ある日、お姫様になってしまった件について",
+  "editorialWeekday": 4,
+  "broadcastTimeJst": "01:00",
+  "status": "unknown",
+  "officialSiteUrl": "https://aruhime-anime.jp/",
+  "id": "curated-bs4-aruhime-japanese-tv",
+  "verifiedAt": "2026-10-31",
+  "metadataVerifiedAt": "2026-10-31",
+  "metadataSources": [
+    {
+      "url": "https://aruhime-anime.jp/",
+      "label": "動畫官方：日本語版作品資料",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "url": "https://aruhime-anime.jp/onair/",
+      "label": "動畫官方：日本TV與先行配信編排",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "url": "https://www.bs4.jp/aruhime/",
+      "label": "BS日テレ：同版作品識別與常規播出時段",
+      "role": "identifier",
+      "language": "ja",
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "url": "https://daoko.jp/news/4298/",
+      "label": "Daoko官方：日本語版主題曲及OP詞曲編",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "url": "https://www.lisani.jp/0000292688/",
+      "label": "リスアニ！：日本語版主題曲交叉資料",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-10-31"
+    }
+  ],
+  "identifierSource": {
+    "label": "BS日テレ：同版作品識別與常規播出時段",
+    "url": "https://www.bs4.jp/aruhime/",
+    "language": "ja"
+  },
+  "sourceReferenceUrls": [
+    "https://aruhime-anime.jp/",
+    "https://aruhime-anime.jp/onair/",
+    "https://www.bs4.jp/aruhime/",
+    "https://daoko.jp/news/4298/",
+    "https://www.lisani.jp/0000292688/"
+  ],
+  "themes": [
+    {
+      "id": "aruhime-japanese-tv-op-1",
+      "songId": "aruhime-japanese-tv-op-1-song",
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "いいよ",
+      "artistDisplayName": "Daoko",
+      "usageLabel": "日本語版オープニング主題歌",
+      "seasonIds": [
+        "2025-fall"
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://aruhime-anime.jp/music/",
+          "label": "動畫官方：日本語版OP／ED曲名與演唱",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://daoko.jp/news/4298/",
+          "label": "Daoko官方：日本語版主題曲及OP詞曲編",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://www.lisani.jp/0000292688/",
+          "label": "リスアニ！：日本語版主題曲交叉資料",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "aruhime-japanese-tv-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://aruhime-anime.jp/music/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "aruhime-japanese-tv-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://aruhime-anime.jp/music/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "aruhime-japanese-tv-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://daoko.jp/news/4298/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "aruhime-japanese-tv-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://daoko.jp/news/4298/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "aruhime-japanese-tv-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.lisani.jp/0000292688/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "aruhime-japanese-tv-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.lisani.jp/0000292688/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://daoko.jp/news/4298/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.lisani.jp/0000292688/"
+          ],
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-31",
+      "credits": [
+        {
+          "name": "Daoko",
+          "role": "lyrics"
+        },
+        {
+          "name": "GuruConnect",
+          "role": "composition"
+        },
+        {
+          "name": "Daoko",
+          "role": "composition"
+        },
+        {
+          "name": "GuruConnect",
+          "role": "arrangement"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "recording_format",
+            "video_metadata",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "音源版本、影片、發行品及正版平台資料仍待核對。",
+          "resumeWhen": "進入詳細資料整理時，取得對應版本、影片、發行品或平台的直接資料後補充。",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "aruhime-japanese-tv-ed-1",
+      "songId": "aruhime-japanese-tv-ed-1-song",
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "その瞳で",
+      "artistDisplayName": "XAI",
+      "usageLabel": "日本語版エンディング主題歌",
+      "seasonIds": [
+        "2025-fall"
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://aruhime-anime.jp/music/",
+          "label": "動畫官方：日本語版OP／ED曲名與演唱",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://xai-official.com/discography/251002/",
+          "label": "XAI官方：日本語版ED曲名與用途",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://daoko.jp/news/4298/",
+          "label": "Daoko官方：日本語版主題曲及OP詞曲編",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://www.lisani.jp/0000292688/",
+          "label": "リスアニ！：日本語版主題曲交叉資料",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "aruhime-japanese-tv-ed-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://aruhime-anime.jp/music/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "aruhime-japanese-tv-ed-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://aruhime-anime.jp/music/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "aruhime-japanese-tv-ed-1-song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://xai-official.com/discography/251002/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "aruhime-japanese-tv-ed-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://xai-official.com/discography/251002/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "aruhime-japanese-tv-ed-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://daoko.jp/news/4298/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "aruhime-japanese-tv-ed-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://daoko.jp/news/4298/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "aruhime-japanese-tv-ed-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.lisani.jp/0000292688/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "aruhime-japanese-tv-ed-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.lisani.jp/0000292688/"
+          ],
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-31",
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement"
+          ],
+          "note": "歌曲基本資料已核對；作詞、作曲及編曲仍待第一方逐曲署名。",
+          "resumeWhen": "取得藝人、唱片或動畫官方的逐曲作者資料後補充。",
+          "checkedAt": "2026-10-31"
+        },
+        {
+          "fields": [
+            "recordings",
+            "recording_format",
+            "video_metadata",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "音源版本、影片、發行品及正版平台資料仍待核對。",
+          "resumeWhen": "進入詳細資料整理時，取得對應版本、影片、發行品或平台的直接資料後補充。",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    }
+  ],
+  "themeAvailability": "documented",
+  "broadcastLabel": "日本語版TV：2025-10-01（水）25:00起TOKYO MX／BS日テレ（實曆10/2週四01:00）；BS日テレ每週水曜25:00–25:30為完整30分鐘常規播出槽，非淨片長。9/28（日）25:00先行配信與TV分開；只登記2025秋，原外語版首播及剪輯對應仍待核。"
+},
+{
+  "catalogKey": -202524103,
+  "slug": "ryuzoku-2-japanese-tv",
+  "seasonIds": [
+    "2025-fall",
+    "2026-winter"
+  ],
+  "startDate": "2025-10-09",
+  "titleJa": "龍族Ⅱ -The Mourner's Eyes-",
+  "editorialWeekday": 4,
+  "broadcastTimeJst": "00:30",
+  "status": "unknown",
+  "officialSiteUrl": "https://ryuzoku-anime.com/",
+  "id": "curated-aniplex-ryuzoku-2-japanese-tv",
+  "verifiedAt": "2026-10-31",
+  "metadataVerifiedAt": "2026-10-31",
+  "metadataSources": [
+    {
+      "url": "https://ryuzoku-anime.com/news/?id=68452",
+      "label": "動畫官方：第2期日本語吹替版TV公告",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "url": "https://www.aniplex.co.jp/lineup/ryuzoku_2/",
+      "label": "アニプレックス：日本語版第2期作品識別與播出",
+      "role": "identifier",
+      "language": "ja",
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "url": "https://thetv.jp/program/0001064529/",
+      "label": "WEBザテレビジョン：同版TV常規時段交叉資料",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-10-31"
+    }
+  ],
+  "themeAvailability": "documented",
+  "themes": [
+    {
+      "id": "ryuzoku-2-japanese-tv-op-1",
+      "songId": "ryuzoku-2-japanese-tv-op-1-song",
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "WE ARE MADE",
+      "artistDisplayName": "Hazel Fernandes",
+      "seasonIds": [
+        "2025-fall"
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://ryuzoku-anime.com/music/op.html",
+          "label": "動畫官方：OP曲名、演唱與詞曲編",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://www.anisil.com/animes/6471-%E9%BE%8D%E6%97%8FII%20-The%20Mourner's%20Eyes-",
+          "label": "アニシル：日本語版第2期OP／ED交叉資料",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "ryuzoku-2-japanese-tv-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://ryuzoku-anime.com/music/op.html"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "ryuzoku-2-japanese-tv-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://ryuzoku-anime.com/music/op.html"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "ryuzoku-2-japanese-tv-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.anisil.com/animes/6471-%E9%BE%8D%E6%97%8FII%20-The%20Mourner's%20Eyes-"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "ryuzoku-2-japanese-tv-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.anisil.com/animes/6471-%E9%BE%8D%E6%97%8FII%20-The%20Mourner's%20Eyes-"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://ryuzoku-anime.com/music/op.html"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.anisil.com/animes/6471-%E9%BE%8D%E6%97%8FII%20-The%20Mourner's%20Eyes-"
+          ],
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-31",
+      "usageLabel": "日本語吹替版オープニング主題歌",
+      "credits": [
+        {
+          "name": "Mike Wyzgowski",
+          "role": "lyrics"
+        },
+        {
+          "name": "鷺巣詩郎",
+          "role": "composition"
+        },
+        {
+          "name": "鷺巣詩郎",
+          "role": "arrangement"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters"
+          ],
+          "note": "已確認2025年秋季用途；2026年冬季逐曲使用情況仍待核對。",
+          "resumeWhen": "取得本日本語吹替第2期逐話用曲與播出日期的直接資料後，補充2026年冬季用途。",
+          "checkedAt": "2026-10-31"
+        },
+        {
+          "fields": [
+            "recordings",
+            "recording_format",
+            "video_metadata",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "音源版本、影片、發行品及正版平台資料仍待核對。",
+          "resumeWhen": "進入詳細資料整理時，取得對應版本、影片、發行品或平台的直接資料後補充。",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "ryuzoku-2-japanese-tv-ed-3",
+      "songId": "ryuzoku-2-japanese-tv-ed-3-song",
+      "type": "ED",
+      "sequence": 3,
+      "titleJa": "Giver",
+      "artistDisplayName": "ASCA",
+      "seasonIds": [
+        "2025-fall"
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://ryuzoku-anime.com/music/ed.html",
+          "label": "動畫官方：ED曲名、演唱與用途",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://www.anisil.com/animes/6471-%E9%BE%8D%E6%97%8FII%20-The%20Mourner's%20Eyes-",
+          "label": "アニシル：日本語版第2期OP／ED交叉資料",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "ryuzoku-2-japanese-tv-ed-3-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://ryuzoku-anime.com/music/ed.html"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "ryuzoku-2-japanese-tv-ed-3",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://ryuzoku-anime.com/music/ed.html"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "ryuzoku-2-japanese-tv-ed-3-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.anisil.com/animes/6471-%E9%BE%8D%E6%97%8FII%20-The%20Mourner's%20Eyes-"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "ryuzoku-2-japanese-tv-ed-3",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.anisil.com/animes/6471-%E9%BE%8D%E6%97%8FII%20-The%20Mourner's%20Eyes-"
+          ],
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-31",
+      "usageLabel": "日本語版片尾曲；序號依交叉曲表",
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters"
+          ],
+          "note": "官方確定本曲為片尾曲，交叉曲表列為ED3。已確認2025年秋季用途，2026年冬季逐曲使用情況仍待核對；其他特殊片尾曲仍待第一方逐曲資料。",
+          "resumeWhen": "取得本日本語吹替第2期逐話用曲與播出日期的直接資料後，補充2026年冬季用途。",
+          "checkedAt": "2026-10-31"
+        },
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement"
+          ],
+          "note": "歌曲基本資料已核對；作詞、作曲及編曲仍待第一方逐曲署名。",
+          "resumeWhen": "取得藝人、唱片或動畫官方的逐曲作者資料後補充。",
+          "checkedAt": "2026-10-31"
+        },
+        {
+          "fields": [
+            "recordings",
+            "recording_format",
+            "video_metadata",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "音源版本、影片、發行品及正版平台資料仍待核對。",
+          "resumeWhen": "進入詳細資料整理時，取得對應版本、影片、發行品或平台的直接資料後補充。",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    }
+  ],
+  "sourceReferenceUrls": [
+    "https://ryuzoku-anime.com/news/?id=68452",
+    "https://www.aniplex.co.jp/lineup/ryuzoku_2/",
+    "https://thetv.jp/program/0001064529/"
+  ],
+  "broadcastLabel": "日本語吹替第2期：2025-10-08（水）24:30開播，實曆為10月9日週四00:30；常規完整播出槽00:30–01:00，30分鐘為節目槽、非淨片長，配信01:00另列。作品播出季度為2025秋與2026冬；已核兩首用曲只登記2025秋，冬季逐曲用途仍待核對，與2024第一期及原語WEB版分開。",
+  "identifierSource": {
+    "label": "アニプレックス：日本語版第2期作品識別與播出",
+    "url": "https://www.aniplex.co.jp/lineup/ryuzoku_2/",
+    "language": "ja"
+  }
+},
+
+{
+  "catalogKey": -202524301,
+  "slug": "madoka-magica-tv-edition-2025",
+  "seasonIds": [
+    "2025-fall"
+  ],
+  "startDate": "2025-10-12",
+  "titleJa": "「魔法少女まどか☆マギカ 始まりの物語／永遠の物語」TV Edition",
+  "editorialWeekday": 7,
+  "broadcastTimeJst": "17:00",
+  "status": "unknown",
+  "officialSiteUrl": "https://www.madoka-magica.com/tv/",
+  "id": "curated-aniplex-madoka-tv-edition-2025",
+  "verifiedAt": "2026-10-31",
+  "metadataVerifiedAt": "2026-10-31",
+  "metadataSources": [
+    {
+      "url": "https://www.madoka-magica.com/tv/youtube-streaming/news/?id=68502",
+      "label": "動畫官方：2025TV再編與全11話播出公告",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "url": "https://www.madoka-magica.com/tv/",
+      "label": "動畫官方：本TV Edition作品及OP／ED資料",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "url": "https://www.aniplex.co.jp/lineup/madoka-zenkouhen-tv/",
+      "label": "アニプレックス：本TV Edition作品識別",
+      "role": "identifier",
+      "language": "ja",
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "url": "https://www.oricon.co.jp/prof/290891/tv/p/2/",
+      "label": "ORICON：本TV Edition歷史播出時段交叉資料",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-10-31"
+    }
+  ],
+  "themeAvailability": "documented",
+  "sourceReferenceUrls": [
+    "https://www.madoka-magica.com/tv/youtube-streaming/news/?id=68502",
+    "https://www.madoka-magica.com/tv/",
+    "https://www.aniplex.co.jp/lineup/madoka-zenkouhen-tv/",
+    "https://www.oricon.co.jp/prof/290891/tv/p/2/"
+  ],
+  "themes": [
+    {
+      "id": "madoka-magica-tv-edition-2025-op-1",
+      "songId": "madoka-magica-tv-edition-2025-op-1-song",
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "コネクト",
+      "artistDisplayName": "ClariS",
+      "seasonIds": [
+        "2025-fall"
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.madoka-magica.com/tv/",
+          "label": "動畫官方：本TV Edition作品及OP／ED資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://animecca.jp/ja/works/mahoushoujomadokamagikahajimarinomonogat",
+          "label": "animecca：本TV Edition曲名、演唱及OP／ED交叉資料",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://www.joysound.com/web/search/title?keyword=%E3%81%BE%E3%81%A9%E3%81%8B%E3%83%9E%E3%82%AE%E3%82%AB&match=1",
+          "label": "JOYSOUND：本TV Edition曲名與演唱交叉資料",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "madoka-magica-tv-edition-2025-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.madoka-magica.com/tv/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "madoka-magica-tv-edition-2025-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.madoka-magica.com/tv/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "madoka-magica-tv-edition-2025-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://animecca.jp/ja/works/mahoushoujomadokamagikahajimarinomonogat"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "madoka-magica-tv-edition-2025-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animecca.jp/ja/works/mahoushoujomadokamagikahajimarinomonogat"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "madoka-magica-tv-edition-2025-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.joysound.com/web/search/title?keyword=%E3%81%BE%E3%81%A9%E3%81%8B%E3%83%9E%E3%82%AE%E3%82%AB&match=1"
+          ],
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-31",
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement"
+          ],
+          "note": "歌曲基本資料已核對；作詞、作曲及編曲仍待第一方逐曲署名。",
+          "resumeWhen": "進入詳細資料整理時，取得動畫、藝人或唱片官方的逐曲作者資料後補充。",
+          "checkedAt": "2026-10-31"
+        },
+        {
+          "fields": [
+            "recordings",
+            "recording_format",
+            "video_metadata",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "音源版本、影片、發行品及正版平台資料仍待核對。",
+          "resumeWhen": "進入詳細資料整理時，取得對應版本、影片、發行品或正版平台的直接資料後補充。",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "madoka-magica-tv-edition-2025-ed-1",
+      "songId": "madoka-magica-tv-edition-2025-ed-1-song",
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "Magia",
+      "artistDisplayName": "Kalafina",
+      "seasonIds": [
+        "2025-fall"
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.madoka-magica.com/tv/",
+          "label": "動畫官方：本TV Edition作品及OP／ED資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://animecca.jp/ja/works/mahoushoujomadokamagikahajimarinomonogat",
+          "label": "animecca：本TV Edition曲名、演唱及OP／ED交叉資料",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://www.joysound.com/web/search/title?keyword=%E3%81%BE%E3%81%A9%E3%81%8B%E3%83%9E%E3%82%AE%E3%82%AB&match=1",
+          "label": "JOYSOUND：本TV Edition曲名與演唱交叉資料",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "madoka-magica-tv-edition-2025-ed-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.madoka-magica.com/tv/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "madoka-magica-tv-edition-2025-ed-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.madoka-magica.com/tv/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "madoka-magica-tv-edition-2025-ed-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://animecca.jp/ja/works/mahoushoujomadokamagikahajimarinomonogat"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "madoka-magica-tv-edition-2025-ed-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animecca.jp/ja/works/mahoushoujomadokamagikahajimarinomonogat"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "madoka-magica-tv-edition-2025-ed-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.joysound.com/web/search/title?keyword=%E3%81%BE%E3%81%A9%E3%81%8B%E3%83%9E%E3%82%AE%E3%82%AB&match=1"
+          ],
+          "verifiedAt": "2026-10-31"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-31",
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement"
+          ],
+          "note": "歌曲基本資料已核對；作詞、作曲及編曲仍待第一方逐曲署名。",
+          "resumeWhen": "進入詳細資料整理時，取得動畫、藝人或唱片官方的逐曲作者資料後補充。",
+          "checkedAt": "2026-10-31"
+        },
+        {
+          "fields": [
+            "recordings",
+            "recording_format",
+            "video_metadata",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "音源版本、影片、發行品及正版平台資料仍待核對。",
+          "resumeWhen": "進入詳細資料整理時，取得對應版本、影片、發行品或正版平台的直接資料後補充。",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    }
+  ],
+  "broadcastLabel": "2025日本TV Edition：2012年前後兩部劇場版再編為全11話，自2025-10-12起MBS／TBS系每週日17:00播出。歷史常規完整時段17:00–17:30，11/23另為17:30–18:00；30分鐘為播出槽、非淨片長。與2011原TV系列、2012原劇場版本及魔法紀錄外傳分開。",
+  "identifierSource": {
+    "label": "アニプレックス：本TV Edition作品識別",
+    "url": "https://www.aniplex.co.jp/lineup/madoka-zenkouhen-tv/",
+    "language": "ja"
+  }
+},
 ];
 
-export const curated2025FallAnimeIds: number[] = [177937, 170577, 153800, 185801, 183385, 180082, 181447, 194447, 179302, 195153, 179992, 182896, 162890, 180436, 195240, 186524, 187940, 173523, 177271, 186190, 186794, 186920, 129195, 186161, 183965, 185575, 185731, 162669, 184322, 188487, 173692, 183291, 185116, 187464, 193968, 188388, 190840, 186914, 170018, 170936, 184997, 196553, 196230, 187860, 176298, 174914, 186621, 198561, 198117, 185694, 186736, 140291, 184718, 187921, 187331, 194832, 198926, 198413, 199794, 169420, 188653, 193238, 193883, 196229, 187166, 195173, 199009, 194389, 188529, 199635, 204621, 198921, 199008, 185073, 178052, 184470, 158871, 189258, 142274, 165159, 8687, 966, 6149,
--509355,
--202523502];
+export const curated2025FallAnimeIds: number[] = [177937,170577,153800,185801,183385,180082,181447,194447,179302,195153,179992,182896,162890,180436,195240,186524,187940,173523,177271,186190,186794,186920,129195,186161,183965,185575,185731,162669,184322,188487,173692,183291,185116,187464,193968,188388,190840,186914,170018,170936,184997,196553,196230,187860,176298,174914,186621,198561,198117,185694,186736,140291,184718,187921,187331,194832,198926,198413,199794,169420,188653,193238,193883,196229,187166,195173,199009,194389,188529,199635,204621,198921,199008,185073,178052,184470,158871,189258,142274,165159,8687,966,6149,-509355,-202523502,-202524101,-202524103,-202524301];
