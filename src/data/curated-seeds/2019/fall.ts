@@ -6295,7 +6295,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
       "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110229-uBjHp2cbXYVL.jpg",
     bannerUrl:
       "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110229-8HairUoHsVUN.jpg",
-    broadcastLabel: "日本首播／時間未整理",
+    broadcastLabel: "2019年第2期日本TV，10月5日週六24:30（實曆10月6日00:30）起，完整00:30–01:00為30分節目槽，非淨長；第1期及OVA另計，逐曲季度待核。",
     officialSiteUrl: "https://boku-ben.com/",
     animeThemesUrl:
       "https://animethemes.moe/anime/bokutachi_wa_benkyou_ga_dekinai_2",
@@ -6305,20 +6305,397 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
         sequence: 1,
         titleJa: "Can now, Can now",
         artistDisplayName: "Study",
+"followUp": [
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "checkedAt": "2026-10-31",
+    "note": "已核本版歌曲基本資料；原播期間內的精確用途季度仍待確認。",
+    "resumeWhen": "取得本期完整原播日期範圍，或已確認用曲話數與日本原播日期的直接配對後補上。"
+  }
+],
+"songId": "bokutachi-wa-benkyou-ga-dekinai-op-1-song",
+"seasonIds": [],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://boku-ben.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/bokutachi_wa_benkyou_ga_dekinai_2",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "TVアニメ「ぼくたちは勉強ができない」公式サイト：原文歌曲與用途",
+    "url": "https://boku-ben.com/music/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "TVアニメ「ぼくたちは勉強ができない」公式サイト：原文歌曲與用途",
+    "url": "https://boku-ben.com/movie/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "アニしま：原文歌曲與用途",
+    "url": "https://anime-song-info.com/201910-autumn-anime-boku-ben-2nd-op-ed-song/",
+    "language": "ja",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "Wikipedia：原文歌曲與用途",
+    "url": "https://zh.wikipedia.org/wiki/%E6%88%91%E5%80%91%E7%9C%9F%E7%9A%84%E5%AD%B8%E4%B8%8D%E4%BE%86%EF%BC%81",
+    "language": "multi",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "bokutachi-wa-benkyou-ga-dekinai-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://boku-ben.com/music/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "bokutachi-wa-benkyou-ga-dekinai-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://boku-ben.com/music/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "bokutachi-wa-benkyou-ga-dekinai-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://boku-ben.com/movie/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "bokutachi-wa-benkyou-ga-dekinai-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://boku-ben.com/movie/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "bokutachi-wa-benkyou-ga-dekinai-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://anime-song-info.com/201910-autumn-anime-boku-ben-2nd-op-ed-song/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "bokutachi-wa-benkyou-ga-dekinai-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://anime-song-info.com/201910-autumn-anime-boku-ben-2nd-op-ed-song/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "bokutachi-wa-benkyou-ga-dekinai-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E6%88%91%E5%80%91%E7%9C%9F%E7%9A%84%E5%AD%B8%E4%B8%8D%E4%BE%86%EF%BC%81"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "bokutachi-wa-benkyou-ga-dekinai-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E6%88%91%E5%80%91%E7%9C%9F%E7%9A%84%E5%AD%B8%E4%B8%8D%E4%BE%86%EF%BC%81"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       },
       {
         type: "ED",
         sequence: 1,
         titleJa: "放課後のリバティ",
         artistDisplayName: "halca",
+"followUp": [
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "checkedAt": "2026-10-31",
+    "note": "已核本版歌曲基本資料；原播期間內的精確用途季度仍待確認。",
+    "resumeWhen": "取得本期完整原播日期範圍，或已確認用曲話數與日本原播日期的直接配對後補上。"
+  }
+],
+"songId": "bokutachi-wa-benkyou-ga-dekinai-ed-1-song",
+"seasonIds": [],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://boku-ben.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/bokutachi_wa_benkyou_ga_dekinai_2",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "TVアニメ「ぼくたちは勉強ができない」公式サイト：原文歌曲與用途",
+    "url": "https://boku-ben.com/music/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "TVアニメ「ぼくたちは勉強ができない」公式サイト：原文歌曲與用途",
+    "url": "https://boku-ben.com/movie/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "アニしま：原文歌曲與用途",
+    "url": "https://anime-song-info.com/201910-autumn-anime-boku-ben-2nd-op-ed-song/",
+    "language": "ja",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "Wikipedia：原文歌曲與用途",
+    "url": "https://zh.wikipedia.org/wiki/%E6%88%91%E5%80%91%E7%9C%9F%E7%9A%84%E5%AD%B8%E4%B8%8D%E4%BE%86%EF%BC%81",
+    "language": "multi",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "bokutachi-wa-benkyou-ga-dekinai-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://boku-ben.com/music/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "bokutachi-wa-benkyou-ga-dekinai-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://boku-ben.com/music/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "bokutachi-wa-benkyou-ga-dekinai-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://boku-ben.com/movie/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "bokutachi-wa-benkyou-ga-dekinai-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://boku-ben.com/movie/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "bokutachi-wa-benkyou-ga-dekinai-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://anime-song-info.com/201910-autumn-anime-boku-ben-2nd-op-ed-song/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "bokutachi-wa-benkyou-ga-dekinai-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://anime-song-info.com/201910-autumn-anime-boku-ben-2nd-op-ed-song/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "bokutachi-wa-benkyou-ga-dekinai-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E6%88%91%E5%80%91%E7%9C%9F%E7%9A%84%E5%AD%B8%E4%B8%8D%E4%BE%86%EF%BC%81"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "bokutachi-wa-benkyou-ga-dekinai-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E6%88%91%E5%80%91%E7%9C%9F%E7%9A%84%E5%AD%B8%E4%B8%8D%E4%BE%86%EF%BC%81"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       },
       {
         type: "ED",
         sequence: 2,
         titleJa: "関係≧方程式",
         artistDisplayName: "Study",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence",
+      "use_quarters"
+    ],
+    "note": "本曲第13話片尾用途的第一方資料仍待確認，實際使用季度亦待核對。",
+    "resumeWhen": "取得本期官方資料明確列出本曲作為第13話片尾曲，並核對日本原播日期後，補充用途與使用季度。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"seasonIds": [],
       },
     ],
+"seasonIds": [
+  "2019-fall"
+],
+"metadataSources": [
+  {
+    "label": "動畫官方網站：作品與播出資料",
+    "url": "https://boku-ben.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AniList：作品識別與公開圖像",
+    "url": "https://anilist.co/anime/110229",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes：OP／ED 曲目交叉核對",
+    "url": "https://animethemes.moe/anime/bokutachi_wa_benkyou_ga_dekinai_2",
+    "language": "en",
+    "role": "theme_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201910/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_autumn.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "TVアニメ「ぼくたちは勉強ができない」公式サイト：同版日本TV原播編排（節目槽依另列資料）",
+    "url": "https://boku-ben.com/onair/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "メディア芸術コンソーシアムJV事務局（刊載：文化庁公開報告書）：完整30分鐘節目時段交叉資料（非淨長；版別另核）",
+    "url": "https://mediag.bunka.go.jp/mediag_wp/wp-content/uploads/2020/04/38_jv4.pdf",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
   },
   {
     anilistId: 111728,
@@ -6344,7 +6721,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
       "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101227-PUPavhaClwfa.jpg",
     bannerUrl:
       "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101227-hGIZHBjTowqe.jpg",
-    broadcastLabel: "日本首播／時間未整理",
+    broadcastLabel: "2019年日本TV，10月7日週一AT-X23:30起，完整23:30–24:00為30分節目槽，非淨長；Prime23:45配信另計，歌曲季度不由CD日期推定。",
     officialSiteUrl: "https://noukin-anime.com/",
     animeThemesUrl:
       "https://animethemes.moe/anime/watashi_nouryoku_wa_heikinchi_de_tte_itta_yo_ne",
@@ -6355,14 +6732,207 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
         titleJa: "スマイルスキル＝スキスキル！",
         artistDisplayName:
           "赤き誓い［マイル（CV：和氣あず未）、レーナ（CV：徳井青空）、メーヴィス（CV：内村史子）、ポーリン（CV：田澤茉純）］",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence",
+      "use_quarters"
+    ],
+    "note": "原演唱名義中四個角色與配音者的完整第一方對應仍待確認，實際使用季度亦待核對。",
+    "resumeWhen": "取得同版第一方資料，完整列出赤き誓い四個角色與和氣あず未、徳井青空、内村史子、田澤茉純的演唱名義對應，並核明使用季度後補充。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"seasonIds": [],
       },
       {
         type: "ED",
         sequence: 1,
         titleJa: "ゲンザイ↑バンザイ↑",
         artistDisplayName: "マイル（CV：和氣あず未）",
+"followUp": [
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "checkedAt": "2026-10-31",
+    "note": "已核本版歌曲基本資料；原播期間內的精確用途季度仍待確認。",
+    "resumeWhen": "取得本期完整原播日期範圍，或已確認用曲話數與日本原播日期的直接配對後補上。"
+  }
+],
+"songId": "watashi-nouryoku-wa-heikinchi-de-tte-itta-yo-ne-ed-1-song",
+"seasonIds": [],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://noukin-anime.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/watashi_nouryoku_wa_heikinchi_de_tte_itta_yo_ne",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "エイベックス・ピクチャーズ（刊載：歌ネット）：提供公告中的原文歌曲、用途與同頁創作資料",
+    "url": "https://www.uta-net.com/anime/news/news.php?id=229",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "アニしま：原文歌曲與用途",
+    "url": "https://anime-song-info.com/201910-autumn-anime-noukin-op-ed-song/",
+    "language": "ja",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "watashi-nouryoku-wa-heikinchi-de-tte-itta-yo-ne-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.uta-net.com/anime/news/news.php?id=229"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "watashi-nouryoku-wa-heikinchi-de-tte-itta-yo-ne-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.uta-net.com/anime/news/news.php?id=229"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "watashi-nouryoku-wa-heikinchi-de-tte-itta-yo-ne-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://anime-song-info.com/201910-autumn-anime-noukin-op-ed-song/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "watashi-nouryoku-wa-heikinchi-de-tte-itta-yo-ne-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://anime-song-info.com/201910-autumn-anime-noukin-op-ed-song/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "credits",
+    "fields": [
+      "credits"
+    ],
+    "sourceUrls": [
+      "https://www.uta-net.com/anime/news/news.php?id=229"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
+"credits": [
+  {
+    "name": "マイル（CV：和氣あず未）",
+    "role": "vocals"
+  },
+  {
+    "name": "畑亜貴",
+    "role": "lyrics"
+  },
+  {
+    "name": "永塚健登",
+    "role": "composition"
+  },
+  {
+    "name": "tatsuo",
+    "role": "arrangement"
+  }
+],
       },
     ],
+"seasonIds": [
+  "2019-fall"
+],
+"metadataSources": [
+  {
+    "label": "動畫官方網站：作品與播出資料",
+    "url": "https://noukin-anime.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AniList：作品識別與公開圖像",
+    "url": "https://anilist.co/anime/101227",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes：OP／ED 曲目交叉核對",
+    "url": "https://animethemes.moe/anime/watashi_nouryoku_wa_heikinchi_de_tte_itta_yo_ne",
+    "language": "en",
+    "role": "theme_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201910/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_autumn.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "TVアニメ「私、能力は平均値でって言ったよね！」公式サイト：同版日本TV原播編排（節目槽依另列資料）",
+    "url": "https://noukin-anime.com/onair/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "メディア芸術コンソーシアムJV事務局（刊載：文化庁公開報告書）：完整30分鐘節目時段交叉資料（非淨長；版別另核）",
+    "url": "https://mediag.bunka.go.jp/mediag_wp/wp-content/uploads/2020/04/38_jv4.pdf",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
   },
   {
     anilistId: 101349,
@@ -7275,7 +7845,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
       "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110867-93WWQaUgpUOS.jpg",
     bannerUrl:
       "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110867-cxnQulm8NHmW.jpg",
-    broadcastLabel: "日本首播／時間未整理",
+    broadcastLabel: "2019年日本TV版，10月6日週日24:30（實曆10月7日00:30）起，完整24:30–25:00為30分節目槽，非淨長；2017年WEB版、2019先行配信及2020重播另計。",
     officialSiteUrl: "https://afusara.com/",
     animeThemesUrl: "https://animethemes.moe/anime/africa_no_salaryman",
     themes: [
@@ -7284,14 +7854,294 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
         sequence: 1,
         titleJa: "Soul Flag",
         artistDisplayName: "下野紘",
+"followUp": [],
+"songId": "africa-no-salaryman-tv-op-1-song",
+"seasonIds": [
+  "2019-fall"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://afusara.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/africa_no_salaryman",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "PONY CANYON Anime 官方影片",
+    "url": "https://www.youtube.com/watch?v=X15hlGqiFjw",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "TVアニメ「アフリカのサラリーマン」公式サイト：原文歌曲與用途",
+    "url": "https://afusara.com/news.html?id=n008",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "アニソンチャート：原文歌曲與用途",
+    "url": "https://animemusicranking.com/ja/anime/87/",
+    "language": "ja",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "africa-no-salaryman-tv-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://afusara.com/news.html?id=n008"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "africa-no-salaryman-tv-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://afusara.com/news.html?id=n008"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "africa-no-salaryman-tv-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://animemusicranking.com/ja/anime/87/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "africa-no-salaryman-tv-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://animemusicranking.com/ja/anime/87/"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       },
       {
         type: "ED",
         sequence: 1,
         titleJa: "ホワイトカラーエレジー",
         artistDisplayName: "ライオン（CV：大塚明夫）",
+"followUp": [],
+"songId": "africa-no-salaryman-tv-ed-1-song",
+"seasonIds": [
+  "2019-fall"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://afusara.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/africa_no_salaryman",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "PONY CANYON Anime 官方影片",
+    "url": "https://www.youtube.com/watch?v=-4tMzOMlEPo",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "TVアニメ「アフリカのサラリーマン」公式サイト：原文歌曲與用途",
+    "url": "https://afusara.com/news.html?id=n008",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "アニソンチャート：原文歌曲與用途",
+    "url": "https://animemusicranking.com/ja/anime/87/",
+    "language": "ja",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "africa-no-salaryman-tv-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://afusara.com/news.html?id=n008"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "africa-no-salaryman-tv-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://afusara.com/news.html?id=n008"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "africa-no-salaryman-tv-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://animemusicranking.com/ja/anime/87/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "africa-no-salaryman-tv-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://animemusicranking.com/ja/anime/87/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "credits",
+    "fields": [
+      "credits"
+    ],
+    "sourceUrls": [
+      "https://afusara.com/news.html?id=n008"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
+"credits": [
+  {
+    "name": "ライオン（CV：大塚明夫）",
+    "role": "vocals"
+  },
+  {
+    "name": "松井五郎",
+    "role": "lyrics"
+  },
+  {
+    "name": "秋葉広大",
+    "role": "composition"
+  },
+  {
+    "name": "伊藤 賢",
+    "role": "arrangement"
+  }
+],
       },
     ],
+"seasonIds": [
+  "2019-fall"
+],
+"metadataSources": [
+  {
+    "label": "動畫官方網站：作品與播出資料",
+    "url": "https://afusara.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AniList：作品識別與公開圖像",
+    "url": "https://anilist.co/anime/110867",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes：OP／ED 曲目交叉核對",
+    "url": "https://animethemes.moe/anime/africa_no_salaryman",
+    "language": "en",
+    "role": "theme_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201910/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_autumn.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "TVアニメ「アフリカのサラリーマン」公式サイト：2019TV版完整常規節目時段（非淨長）",
+    "url": "https://afusara.com/news.html?id=n008",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "KADOKAWA IPライセンスビジネスサイト：2019TV版別與原播期間",
+    "url": "https://license.kadokawa.co.jp/anime/2019autumn/entry-682.html",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "Wikipedia：2019TV節目時段交叉資料（其他版本另列，非淨長）",
+    "url": "https://zh.wikipedia.org/wiki/%E9%9D%9E%E6%B4%B2%E7%9A%84%E5%8B%95%E7%89%A9%E4%B8%8A%E7%8F%AD%E6%97%8F",
+    "language": "multi",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
   },
   {
     anilistId: 100246,
@@ -7304,7 +8154,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
       "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100246-Lx3geAxrhAU9.jpg",
     bannerUrl:
       "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100246-zpAZWDQl22sb.jpg",
-    broadcastLabel: "日本首播／時間未整理",
+    broadcastLabel: "2019年日本TV Code reunion，完整週二23:00–23:30為30分節目槽，非淨長；2020年BS11另局安排與原2019用途季度分開，不借2014年IGNITION。",
     officialSiteUrl: "https://www.zxtcg.com/reunion/",
     animeThemesUrl: "https://animethemes.moe/anime/zx_code_reunion",
     themes: [
@@ -7313,24 +8163,72 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
         sequence: 1,
         titleJa: "Destiny",
         artistDisplayName: "小倉唯",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence",
+      "use_quarters"
+    ],
+    "note": "本用途的原文曲名、完整演唱名義與片頭用途仍缺本版第一方逐欄資料，實際使用季度亦待確認。",
+    "resumeWhen": "取得可公開查閱的新同版第一方曲表，明確列出原曲名、完整角色／配音演唱名義及片頭用途，並補齊此版本的相應交叉資料及使用季度後補充。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"seasonIds": [],
       },
       {
         type: "ED",
         sequence: 1,
         titleJa: "ガール・ミーツ・ガール",
         artistDisplayName: "小倉唯、内田彩",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence",
+      "use_quarters"
+    ],
+    "note": "本用途的原文曲名、完整演唱名義與片尾用途仍缺本版第一方逐欄資料，實際使用季度亦待確認。交叉資料對此版本的演唱名義或用途也尚未核齊。",
+    "resumeWhen": "取得可公開查閱的新同版第一方曲表，明確列出原曲名、完整角色／配音演唱名義及片尾用途，並補齊此版本的相應交叉資料及使用季度後補充。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"seasonIds": [],
       },
       {
         type: "ED",
         sequence: 2,
         titleJa: "ガール・ミーツ・ガール",
         artistDisplayName: "水瀬いのり、長縄まりあ",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence",
+      "use_quarters"
+    ],
+    "note": "本用途的原文曲名、完整演唱名義與片尾用途仍缺本版第一方逐欄資料，實際使用季度亦待確認。交叉資料對此版本的演唱名義或用途也尚未核齊。",
+    "resumeWhen": "取得可公開查閱的新同版第一方曲表，明確列出原曲名、完整角色／配音演唱名義及片尾用途，並補齊此版本的相應交叉資料及使用季度後補充。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"seasonIds": [],
       },
       {
         type: "ED",
         sequence: 3,
         titleJa: "ガール・ミーツ・ガール",
         artistDisplayName: "鈴木愛奈、富田美憂",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence",
+      "use_quarters"
+    ],
+    "note": "本用途的原文曲名、完整演唱名義與片尾用途仍缺本版第一方逐欄資料，實際使用季度亦待確認。交叉資料對此版本的演唱名義或用途也尚未核齊。",
+    "resumeWhen": "取得可公開查閱的新同版第一方曲表，明確列出原曲名、完整角色／配音演唱名義及片尾用途，並補齊此版本的相應交叉資料及使用季度後補充。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"seasonIds": [],
       },
       {
         type: "ED",
@@ -7338,8 +8236,88 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
         titleJa: "ガール・ミーツ・ガール",
         artistDisplayName:
           "小倉唯、内田彩、水瀬いのり、長縄まりあ、鈴木愛奈、富田美憂",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence",
+      "use_quarters"
+    ],
+    "note": "本用途的原文曲名、完整演唱名義與片尾用途仍缺本版第一方逐欄資料，實際使用季度亦待確認。",
+    "resumeWhen": "取得可公開查閱的新同版第一方曲表，明確列出原曲名、完整角色／配音演唱名義及片尾用途，並補齊此版本的相應交叉資料及使用季度後補充。",
+    "checkedAt": "2026-10-31"
+  }
+],
+"seasonIds": [],
       },
     ],
+"seasonIds": [
+  "2019-fall"
+],
+"metadataSources": [
+  {
+    "label": "動畫官方網站：作品與播出資料",
+    "url": "https://www.zxtcg.com/reunion/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AniList：作品識別與公開圖像",
+    "url": "https://anilist.co/anime/100246",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes：OP／ED 曲目交叉核對",
+    "url": "https://animethemes.moe/anime/zx_code_reunion",
+    "language": "en",
+    "role": "theme_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201910/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_autumn.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "Z/X Code reunion公式サイト：2019TV身分（2020 BS11另局編排分列）",
+    "url": "https://www.zxtcg.com/reunion/onair/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "メディア芸術コンソーシアムJV事務局（刊載：文化庁公開報告書）：完整30分鐘節目時段交叉資料（非淨長；版別另核）",
+    "url": "https://mediag.bunka.go.jp/mediag_wp/wp-content/uploads/2020/04/38_jv4.pdf",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "Wikipedia：本版TV原播期間交叉資料（2014版另列）",
+    "url": "https://zh.wikipedia.org/wiki/Z/X_Code_reunion",
+    "language": "multi",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
   },
   {
     anilistId: 110810,
@@ -7964,7 +8942,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
       "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104722-XVscwgdGzfnO.jpg",
     bannerUrl:
       "https://s4.anilist.co/file/anilistcdn/media/anime/banner/104722-7dWzHxfVcHps.jpg",
-    broadcastLabel: "日本首播／時間未整理",
+    broadcastLabel: "2019年日本TV，AT-X週四23:30–24:00、TOKYO MX週五00:00–00:30為完整30分節目時段，非淨長；精確首播日與逐曲使用季度仍待核對。",
     officialSiteUrl: "https://assassinspride-anime.com/",
     animeThemesUrl: "https://animethemes.moe/anime/assassins_pride",
     themes: [
@@ -7973,14 +8951,325 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
         sequence: 1,
         titleJa: "Share the light",
         artistDisplayName: "Run Girls, Run!",
+"followUp": [
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "checkedAt": "2026-10-31",
+    "note": "已核本版歌曲基本資料；原播期間內的精確用途季度仍待確認。",
+    "resumeWhen": "取得本期完整原播日期範圍，或已確認用曲話數與日本原播日期的直接配對後補上。"
+  }
+],
+"songId": "assassins-pride-op-1-song",
+"seasonIds": [],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://assassinspride-anime.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/assassins_pride",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "avex 官方影片",
+    "url": "https://www.youtube.com/watch?v=X4n3vMXv_9k",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "TVアニメ「アサシンズプライド」公式サイト：原文歌曲與用途",
+    "url": "https://assassinspride-anime.com/discography/detail.php?id=1017091",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "Wikipedia：原文歌曲與用途",
+    "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%B5%E3%82%B7%E3%83%B3%E3%82%BA%E3%83%97%E3%83%A9%E3%82%A4%E3%83%89",
+    "language": "ja",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "assassins-pride-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://assassinspride-anime.com/discography/detail.php?id=1017091"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "assassins-pride-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://assassinspride-anime.com/discography/detail.php?id=1017091"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "assassins-pride-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%B5%E3%82%B7%E3%83%B3%E3%82%BA%E3%83%97%E3%83%A9%E3%82%A4%E3%83%89"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "assassins-pride-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%B5%E3%82%B7%E3%83%B3%E3%82%BA%E3%83%97%E3%83%A9%E3%82%A4%E3%83%89"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "credits",
+    "fields": [
+      "credits"
+    ],
+    "sourceUrls": [
+      "https://assassinspride-anime.com/discography/detail.php?id=1017091"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
+"credits": [
+  {
+    "name": "Run Girls, Run!",
+    "role": "vocals"
+  },
+  {
+    "name": "只野菜摘",
+    "role": "lyrics"
+  },
+  {
+    "name": "田中秀和(MONACA)",
+    "role": "composition"
+  },
+  {
+    "name": "田中秀和(MONACA)",
+    "role": "arrangement"
+  }
+],
       },
       {
         type: "ED",
         sequence: 1,
         titleJa: "異人たちの時間",
         artistDisplayName: "メリダ＝アンジェル（CV：楠木ともり）",
+"followUp": [
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "checkedAt": "2026-10-31",
+    "note": "已核本版歌曲基本資料；原播期間內的精確用途季度仍待確認。",
+    "resumeWhen": "取得本期完整原播日期範圍，或已確認用曲話數與日本原播日期的直接配對後補上。"
+  }
+],
+"songId": "assassins-pride-ed-1-song",
+"seasonIds": [],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://assassinspride-anime.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/assassins_pride",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "Merida Angel - Topic 授權影片",
+    "url": "https://www.youtube.com/watch?v=hxkrtgupv8s",
+    "language": "ja",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "TVアニメ「アサシンズプライド」公式サイト：原文歌曲與用途",
+    "url": "https://assassinspride-anime.com/discography/detail.php?id=1017092",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "Wikipedia：原文歌曲與用途",
+    "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%B5%E3%82%B7%E3%83%B3%E3%82%BA%E3%83%97%E3%83%A9%E3%82%A4%E3%83%89",
+    "language": "ja",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "assassins-pride-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://assassinspride-anime.com/discography/detail.php?id=1017092"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "assassins-pride-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://assassinspride-anime.com/discography/detail.php?id=1017092"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "assassins-pride-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%B5%E3%82%B7%E3%83%B3%E3%82%BA%E3%83%97%E3%83%A9%E3%82%A4%E3%83%89"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "assassins-pride-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%B5%E3%82%B7%E3%83%B3%E3%82%BA%E3%83%97%E3%83%A9%E3%82%A4%E3%83%89"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "credits",
+    "fields": [
+      "credits"
+    ],
+    "sourceUrls": [
+      "https://assassinspride-anime.com/discography/detail.php?id=1017092"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
+"credits": [
+  {
+    "name": "メリダ＝アンジェル（CV：楠木ともり）",
+    "role": "vocals"
+  },
+  {
+    "name": "高橋邦幸（MONACA）",
+    "role": "composition"
+  },
+  {
+    "name": "高橋邦幸（MONACA）",
+    "role": "arrangement"
+  }
+],
       },
     ],
+"seasonIds": [
+  "2019-fall"
+],
+"metadataSources": [
+  {
+    "label": "動畫官方網站：作品與播出資料",
+    "url": "https://assassinspride-anime.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AniList：作品識別與公開圖像",
+    "url": "https://anilist.co/anime/104722",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes：OP／ED 曲目交叉核對",
+    "url": "https://animethemes.moe/anime/assassins_pride",
+    "language": "en",
+    "role": "theme_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201910/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_autumn.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "TVアニメ「アサシンズプライド」公式サイト：2019TV作品識別（未列精確首播日時）",
+    "url": "https://assassinspride-anime.com/onair/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "メディア芸術コンソーシアムJV事務局（刊載：文化庁公開報告書）：完整30分鐘節目時段交叉資料（非淨長；版別另核）",
+    "url": "https://mediag.bunka.go.jp/mediag_wp/wp-content/uploads/2020/04/38_jv4.pdf",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
   },
   {
     anilistId: 107660,
@@ -8760,7 +10049,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
       "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104052-vjxtx7LJiTgb.jpg",
     bannerUrl:
       "https://s4.anilist.co/file/anilistcdn/media/anime/banner/104052-Vib9hMVeVHN6.png",
-    broadcastLabel: "日本首播／時間未整理",
+    broadcastLabel: "2019年日本TV，10月10日週四深夜1:58（實曆10月11日01:58）起；01:58–02:28為完整30分番組槽，非淨長。歌曲季度與發售日分開待核。",
     officialSiteUrl: "https://www.tbs.co.jp/anime/hoshiai/",
     animeThemesUrl: "https://animethemes.moe/anime/hoshiai_no_sora",
     themes: [
@@ -8769,14 +10058,315 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
         sequence: 1,
         titleJa: "水槽",
         artistDisplayName: "中島愛",
+"followUp": [
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "checkedAt": "2026-10-31",
+    "note": "已核本版歌曲基本資料；原播期間內的精確用途季度仍待確認。",
+    "resumeWhen": "取得本期完整原播日期範圍，或已確認用曲話數與日本原播日期的直接配對後補上。"
+  }
+],
+"songId": "hoshiai-no-sora-op-1-song",
+"seasonIds": [],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://www.tbs.co.jp/anime/hoshiai/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/hoshiai_no_sora",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "TBSテレビ／TVアニメ「星合の空」公式サイト：原文歌曲與用途",
+    "url": "https://www.tbs.co.jp/anime/hoshiai/music/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "アニしま：原文歌曲與用途",
+    "url": "https://anime-song-info.com/201910-autumn-anime-hoshiai-op-ed-song/",
+    "language": "ja",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "hoshiai-no-sora-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.tbs.co.jp/anime/hoshiai/music/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "hoshiai-no-sora-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.tbs.co.jp/anime/hoshiai/music/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "hoshiai-no-sora-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://anime-song-info.com/201910-autumn-anime-hoshiai-op-ed-song/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "hoshiai-no-sora-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://anime-song-info.com/201910-autumn-anime-hoshiai-op-ed-song/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "credits",
+    "fields": [
+      "credits"
+    ],
+    "sourceUrls": [
+      "https://www.tbs.co.jp/anime/hoshiai/music/"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
+"credits": [
+  {
+    "name": "中島愛",
+    "role": "vocals"
+  },
+  {
+    "name": "新藤晴一",
+    "role": "lyrics"
+  },
+  {
+    "name": "矢吹香那",
+    "role": "composition"
+  },
+  {
+    "name": "トオミヨウ",
+    "role": "arrangement"
+  }
+],
       },
       {
         type: "ED",
         sequence: 1,
         titleJa: "籠の中の僕らは",
         artistDisplayName: "AIKI from bless4",
+"followUp": [
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "checkedAt": "2026-10-31",
+    "note": "已核本版歌曲基本資料；原播期間內的精確用途季度仍待確認。",
+    "resumeWhen": "取得本期完整原播日期範圍，或已確認用曲話數與日本原播日期的直接配對後補上。"
+  }
+],
+"songId": "hoshiai-no-sora-ed-1-song",
+"seasonIds": [],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://www.tbs.co.jp/anime/hoshiai/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/hoshiai_no_sora",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "TBSテレビ／TVアニメ「星合の空」公式サイト：原文歌曲與用途",
+    "url": "https://www.tbs.co.jp/anime/hoshiai/music/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "アニしま：原文歌曲與用途",
+    "url": "https://anime-song-info.com/201910-autumn-anime-hoshiai-op-ed-song/",
+    "language": "ja",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "hoshiai-no-sora-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.tbs.co.jp/anime/hoshiai/music/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "hoshiai-no-sora-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.tbs.co.jp/anime/hoshiai/music/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "hoshiai-no-sora-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://anime-song-info.com/201910-autumn-anime-hoshiai-op-ed-song/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "hoshiai-no-sora-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://anime-song-info.com/201910-autumn-anime-hoshiai-op-ed-song/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "credits",
+    "fields": [
+      "credits"
+    ],
+    "sourceUrls": [
+      "https://www.tbs.co.jp/anime/hoshiai/music/"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
+"credits": [
+  {
+    "name": "AIKI from bless4",
+    "role": "vocals"
+  },
+  {
+    "name": "Motokiyo",
+    "role": "lyrics"
+  },
+  {
+    "name": "Motokiyo",
+    "role": "composition"
+  },
+  {
+    "name": "河合英嗣",
+    "role": "arrangement"
+  }
+],
       },
     ],
+"seasonIds": [
+  "2019-fall"
+],
+"metadataSources": [
+  {
+    "label": "動畫官方網站：作品與播出資料",
+    "url": "https://www.tbs.co.jp/anime/hoshiai/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AniList：作品識別與公開圖像",
+    "url": "https://anilist.co/anime/104052",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes：OP／ED 曲目交叉核對",
+    "url": "https://animethemes.moe/anime/hoshiai_no_sora",
+    "language": "en",
+    "role": "theme_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201910/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_autumn.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "TBSテレビ／TVアニメ「星合の空」公式サイト：同版日本TV原播編排（節目槽依另列資料）",
+    "url": "https://www.tbs.co.jp/anime/hoshiai/onair/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "メディア芸術コンソーシアムJV事務局（刊載：文化庁公開報告書）：完整30分鐘節目時段交叉資料（非淨長；版別另核）",
+    "url": "https://mediag.bunka.go.jp/mediag_wp/wp-content/uploads/2020/04/38_jv4.pdf",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
   },
   {
     anilistId: 108478,
@@ -9868,7 +11458,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
       "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109963-t8E9axH0Dvrn.jpg",
     bannerUrl:
       "https://s4.anilist.co/file/anilistcdn/media/anime/banner/109963-hB2vzg1LhxkB.jpg",
-    broadcastLabel: "日本首播／時間未整理",
+    broadcastLabel: "2019年《神ノ皿》的交叉資料列有30分鐘節目時段，與本期官方日本TV身分的對應仍待確認；《豪ノ皿》及其他期另計。",
     officialSiteUrl: "https://shokugekinosoma.com/4thplate/",
     animeThemesUrl:
       "https://animethemes.moe/anime/shokugeki_no_souma_shin_no_sara",
@@ -9878,14 +11468,88 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
         sequence: 1,
         titleJa: "Chronos",
         artistDisplayName: "STEREO DIVE FOUNDATION",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本期官方日本TV身分與完整常規節目時段或正版單話本體時長的對應仍待核對，歌曲基本資料尚未完成核對。",
+    "resumeWhen": "待有可公開查閱的新《神ノ皿》官方放送資料，能與同版完整常規節目時段或正版單話本體時長相互對應後，再核對歌曲；《豪ノ皿》及其他期資料另計。",
+    "checkedAt": "2026-10-31"
+  }
+],
       },
       {
         type: "ED",
         sequence: 1,
         titleJa: "エンブレム",
         artistDisplayName: "nano.RIPE",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本期官方日本TV身分與完整常規節目時段或正版單話本體時長的對應仍待核對，歌曲基本資料尚未完成核對。",
+    "resumeWhen": "待有可公開查閱的新《神ノ皿》官方放送資料，能與同版完整常規節目時段或正版單話本體時長相互對應後，再核對歌曲；《豪ノ皿》及其他期資料另計。",
+    "checkedAt": "2026-10-31"
+  }
+],
       },
     ],
+"seasonIds": [
+  "2019-fall"
+],
+"metadataSources": [
+  {
+    "label": "動畫官方網站：作品與播出資料",
+    "url": "https://shokugekinosoma.com/4thplate/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AniList：作品識別與公開圖像",
+    "url": "https://anilist.co/anime/109963",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes：OP／ED 曲目交叉核對",
+    "url": "https://animethemes.moe/anime/shokugeki_no_souma_shin_no_sara",
+    "language": "en",
+    "role": "theme_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201910/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_autumn.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "メディア芸術コンソーシアムJV事務局（刊載：文化庁公開報告書）：完整30分鐘節目時段交叉資料（非淨長；版別另核）",
+    "url": "https://mediag.bunka.go.jp/mediag_wp/wp-content/uploads/2020/04/38_jv4.pdf",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
   },
   {
     anilistId: 104679,
@@ -10184,7 +11848,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
       "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108759-jcXbDf9BJTcb.jpg",
     bannerUrl:
       "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108759-HGsEWBcisLmO.jpg",
-    broadcastLabel: "日本首播／時間未整理",
+    broadcastLabel: "2019年War of Underworld前半日本TV，10月12日週六24:00（實曆10月13日00:00）起，完整00:00–00:30番組槽，非淨長；10月5日總集篇與2020後半獨立處理。",
     officialSiteUrl: "https://sao-alicization.net/",
     themes: [
       {
@@ -10192,14 +11856,280 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
         sequence: 1,
         titleJa: "Resolution",
         artistDisplayName: "戸松遥",
+"followUp": [
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "checkedAt": "2026-10-31",
+    "note": "已核本版歌曲基本資料；原播期間內的精確用途季度仍待確認。",
+    "resumeWhen": "取得本期完整原播日期範圍，或已確認用曲話數與日本原播日期的直接配對後補上。"
+  }
+],
+"songId": "sword-art-online-alicization-war-of-underworld-op-1-song",
+"seasonIds": [],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《刀劍神域 Alicization War of Underworld》第一方歌曲資料：OP／ED 用途與演唱者",
+    "url": "https://sao-alicization.net/music/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "公開資料：OP／ED 用途、版本與演唱者交叉核對",
+    "url": "https://anison.online/season?season_id=20",
+    "language": "multi",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "Sony Music Japan 官方影片",
+    "url": "https://www.youtube.com/watch?v=bdqfcQE5zek",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://sao-alicization.net/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "Sony Music／戸松遥公式サイト：原文歌曲與用途",
+    "url": "https://www.sonymusic.co.jp/artist/harukatomatsu/info/510504",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "歌ネット：原文歌曲與用途",
+    "url": "https://www.uta-net.com/user/search/anime_list_2.html?tno=14383",
+    "language": "ja",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "sword-art-online-alicization-war-of-underworld-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.sonymusic.co.jp/artist/harukatomatsu/info/510504"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "sword-art-online-alicization-war-of-underworld-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.sonymusic.co.jp/artist/harukatomatsu/info/510504"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "sword-art-online-alicization-war-of-underworld-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.uta-net.com/user/search/anime_list_2.html?tno=14383"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "sword-art-online-alicization-war-of-underworld-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.uta-net.com/user/search/anime_list_2.html?tno=14383"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       },
       {
         type: "ED",
         sequence: 1,
         titleJa: "unlasting",
         artistDisplayName: "LiSA",
+"followUp": [
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "checkedAt": "2026-10-31",
+    "note": "已核本版歌曲基本資料；原播期間內的精確用途季度仍待確認。",
+    "resumeWhen": "取得本期完整原播日期範圍，或已確認用曲話數與日本原播日期的直接配對後補上。"
+  }
+],
+"songId": "sword-art-online-alicization-war-of-underworld-ed-1-song",
+"seasonIds": [],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《刀劍神域 Alicization War of Underworld》第一方歌曲資料：OP／ED 用途與演唱者",
+    "url": "https://sao-alicization.net/music/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "公開資料：OP／ED 用途、版本與演唱者交叉核對",
+    "url": "https://anison.online/season?season_id=20",
+    "language": "multi",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "LiSA - Topic 授權影片",
+    "url": "https://www.youtube.com/watch?v=z9N_5CcYAio",
+    "language": "ja",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://sao-alicization.net/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "Aniplex：原文歌曲與用途",
+    "url": "https://www.aniplex.co.jp/news/detail/?id=51917",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "歌ネット：原文歌曲與用途",
+    "url": "https://www.uta-net.com/user/search/anime_list_2.html?tno=14383",
+    "language": "ja",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "sword-art-online-alicization-war-of-underworld-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.aniplex.co.jp/news/detail/?id=51917"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "sword-art-online-alicization-war-of-underworld-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.aniplex.co.jp/news/detail/?id=51917"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "sword-art-online-alicization-war-of-underworld-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.uta-net.com/user/search/anime_list_2.html?tno=14383"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "sword-art-online-alicization-war-of-underworld-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.uta-net.com/user/search/anime_list_2.html?tno=14383"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       },
     ],
+"seasonIds": [
+  "2019-fall"
+],
+"metadataSources": [
+  {
+    "label": "動畫官方網站：作品與播出資料",
+    "url": "https://sao-alicization.net/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AniList：作品識別與公開圖像",
+    "url": "https://anilist.co/anime/108759",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201910/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_autumn.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "Aniplex：2019前半篇TV首播編排（總集篇另計）",
+    "url": "https://www.aniplex.co.jp/news/detail/?id=51612",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "メディア芸術コンソーシアムJV事務局（刊載：文化庁公開報告書）：完整30分鐘節目時段交叉資料（非淨長；版別另核）",
+    "url": "https://mediag.bunka.go.jp/mediag_wp/wp-content/uploads/2020/04/38_jv4.pdf",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
   },
   {
     anilistId: 111400,
@@ -10615,7 +12545,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
       "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b108581-gmxhJcBbITCl.jpg",
     bannerUrl:
       "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108581-QR0eNPQybREZ.jpg",
-    broadcastLabel: "日本首播／時間未整理",
+    broadcastLabel: "2019年第II期與舊ROUND13–15分開；本期官方日本TV身分及完整常規節目時段的對應仍待核對。",
     officialSiteUrl: "https://hi-score-girl.com/",
     animeThemesUrl: "https://animethemes.moe/anime/high_score_girl_ii",
     themes: [
@@ -10624,14 +12554,88 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
         sequence: 1,
         titleJa: "flash",
         artistDisplayName: "sora tob sakana",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本期官方日本TV身分與完整常規節目時段或正版單話本體時長的對應仍待核對，歌曲基本資料尚未完成核對。",
+    "resumeWhen": "待有可公開查閱的新第II期官方放送資料，能將ROUND16起的日本TV版別與完整常規節目時段或正版單話本體時長相互對應後，再核對歌曲；第1期、舊ROUND13–15與EXTRA資料另計。",
+    "checkedAt": "2026-10-31"
+  }
+],
       },
       {
         type: "ED",
         sequence: 1,
         titleJa: "アンノウン・ワールドマップ",
         artistDisplayName: "やくしまるえつこ",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence"
+    ],
+    "note": "本期官方日本TV身分與完整常規節目時段或正版單話本體時長的對應仍待核對，歌曲基本資料尚未完成核對。",
+    "resumeWhen": "待有可公開查閱的新第II期官方放送資料，能將ROUND16起的日本TV版別與完整常規節目時段或正版單話本體時長相互對應後，再核對歌曲；第1期、舊ROUND13–15與EXTRA資料另計。",
+    "checkedAt": "2026-10-31"
+  }
+],
       },
     ],
+"seasonIds": [
+  "2019-fall"
+],
+"metadataSources": [
+  {
+    "label": "動畫官方網站：作品與播出資料",
+    "url": "https://hi-score-girl.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AniList：作品識別與公開圖像",
+    "url": "https://anilist.co/anime/108581",
+    "language": "en",
+    "role": "identifier",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "繁體中文季度列表交叉對照",
+    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "language": "zh-Hant",
+    "role": "localized_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "AnimeThemes：OP／ED 曲目交叉核對",
+    "url": "https://animethemes.moe/anime/high_score_girl_ii",
+    "language": "en",
+    "role": "theme_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://acgsecrets.hk/bangumi/201910/",
+    "language": "zh-Hant",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "季度首播公開來源",
+    "url": "https://www.kansou.me/archive/2019_autumn.html",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-09-02"
+  },
+  {
+    "label": "TAITO：第II期放送身分交叉資料（非動畫製作方）",
+    "url": "https://www.taito.co.jp/gc/topics/4037",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
   },
   {
     anilistId: 111048,
