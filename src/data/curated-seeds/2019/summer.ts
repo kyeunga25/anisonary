@@ -21,7 +21,7 @@ function summer2019Seed({
   return {
     ...row,
     id: `curated-${row.anilistId}`,
-    seasonIds: row.anilistId === 105333 ? ["2019-summer", "2019-fall"] : row.anilistId === 111144 ? ["2019-summer", "2019-fall", "2020-winter"] : ["2019-summer"],
+    seasonIds: row.anilistId === 105333 ? ["2019-summer", "2019-fall"] : row.anilistId === 111144 ? ["2019-summer", "2019-fall", "2020-winter"] : row.anilistId === 105310 || row.anilistId === 101348 ? ["2019-summer", "2019-fall"] : ["2019-summer"],
     editorialWeekday: weekday || 7,
     status: "finished",
     anilistUrl: `https://anilist.co/anime/${row.anilistId}`,
@@ -1995,7 +1995,93 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
         sequence: 1,
         titleJa: "インフェルノ",
         artistDisplayName: "Mrs. GREEN APPLE",
-        versionLabel: "第 1 季前半片頭曲"
+        versionLabel: "第 1 季前半片頭曲",
+"followUp": [],
+"songId": "enen-no-shouboutai-ni-no-shou-ed-3-song",
+"seasonIds": [
+  "2019-summer",
+  "2019-fall"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《炎炎消防隊》第一方音樂資料：曲目、用途與演唱版本",
+    "url": "https://fireforce-anime.jp/season1/music/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/enen_no_shouboutai",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://fireforce-anime.jp/season1/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "Wikipedia：原文歌曲及用途",
+    "url": "https://zh.wikipedia.org/wiki/%E7%82%8E%E7%82%8E%E6%B6%88%E9%98%B2%E9%9A%8A_(%E5%8B%95%E7%95%AB)",
+    "language": "multi",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "enen-no-shouboutai-ni-no-shou-ed-3-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://fireforce-anime.jp/season1/music/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "enen-no-shouboutai-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://fireforce-anime.jp/season1/music/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "enen-no-shouboutai-ni-no-shou-ed-3-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E7%82%8E%E7%82%8E%E6%B6%88%E9%98%B2%E9%9A%8A_(%E5%8B%95%E7%95%AB)"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "enen-no-shouboutai-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E7%82%8E%E7%82%8E%E6%B6%88%E9%98%B2%E9%9A%8A_(%E5%8B%95%E7%95%AB)"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       },
       {
         type: "OP",
@@ -2003,14 +2089,185 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
         titleJa: "MAYDAY feat. Ryo from CRYSTAL LAKE",
         artistDisplayName: "coldrain",
         releaseDate: "2019-08-28",
-        versionLabel: "第 1 季後半片頭曲"
+        versionLabel: "第 1 季後半片頭曲",
+"followUp": [],
+"songId": "enen-no-shouboutai-op-2-song",
+"seasonIds": [
+  "2019-fall"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《炎炎消防隊》第一方音樂資料：曲目、用途與演唱版本",
+    "url": "https://fireforce-anime.jp/season1/music/2nd.php",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/enen_no_shouboutai",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://fireforce-anime.jp/season1/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "アニソンチャート：原文歌曲及用途",
+    "url": "https://animemusicranking.com/ja/artist/88/",
+    "language": "ja",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "enen-no-shouboutai-op-2-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://fireforce-anime.jp/season1/music/2nd.php"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "enen-no-shouboutai-op-2",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://fireforce-anime.jp/season1/music/2nd.php"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "enen-no-shouboutai-op-2-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://animemusicranking.com/ja/artist/88/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "enen-no-shouboutai-op-2",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://animemusicranking.com/ja/artist/88/"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       },
       {
         type: "ED",
         sequence: 1,
         titleJa: "veil",
         artistDisplayName: "須田景凪",
-        versionLabel: "第 1 季前半片尾曲"
+        versionLabel: "第 1 季前半片尾曲",
+"followUp": [],
+"songId": "enen-no-shouboutai-ed-1-song",
+"seasonIds": [
+  "2019-summer",
+  "2019-fall"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《炎炎消防隊》第一方音樂資料：曲目、用途與演唱版本",
+    "url": "https://fireforce-anime.jp/season1/music/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/enen_no_shouboutai",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://fireforce-anime.jp/season1/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "Wikipedia：原文歌曲及用途",
+    "url": "https://zh.wikipedia.org/wiki/%E7%82%8E%E7%82%8E%E6%B6%88%E9%98%B2%E9%9A%8A_(%E5%8B%95%E7%95%AB)",
+    "language": "multi",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "enen-no-shouboutai-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://fireforce-anime.jp/season1/music/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "enen-no-shouboutai-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://fireforce-anime.jp/season1/music/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "enen-no-shouboutai-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E7%82%8E%E7%82%8E%E6%B6%88%E9%98%B2%E9%9A%8A_(%E5%8B%95%E7%95%AB)"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "enen-no-shouboutai-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E7%82%8E%E7%82%8E%E6%B6%88%E9%98%B2%E9%9A%8A_(%E5%8B%95%E7%95%AB)"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       },
       {
         type: "ED",
@@ -2018,9 +2275,96 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
         titleJa: "脳内",
         artistDisplayName: "Lenny code fiction",
         releaseDate: "2019-12-11",
-        versionLabel: "第 1 季後半片尾曲"
+        versionLabel: "第 1 季後半片尾曲",
+"followUp": [],
+"songId": "enen-no-shouboutai-ed-2-song",
+"seasonIds": [
+  "2019-fall"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《炎炎消防隊》第一方音樂資料：曲目、用途與演唱版本",
+    "url": "https://fireforce-anime.jp/season1/music/2nd.php",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/enen_no_shouboutai",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://fireforce-anime.jp/season1/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "Wikipedia：原文歌曲及用途",
+    "url": "https://zh.wikipedia.org/wiki/%E7%82%8E%E7%82%8E%E6%B6%88%E9%98%B2%E9%9A%8A_(%E5%8B%95%E7%95%AB)",
+    "language": "multi",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "enen-no-shouboutai-ed-2-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://fireforce-anime.jp/season1/music/2nd.php"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "enen-no-shouboutai-ed-2",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://fireforce-anime.jp/season1/music/2nd.php"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "enen-no-shouboutai-ed-2-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E7%82%8E%E7%82%8E%E6%B6%88%E9%98%B2%E9%9A%8A_(%E5%8B%95%E7%95%AB)"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "enen-no-shouboutai-ed-2",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E7%82%8E%E7%82%8E%E6%B6%88%E9%98%B2%E9%9A%8A_(%E5%8B%95%E7%95%AB)"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       }
-    ]
+    ],
+"broadcastLabel": "2019年日本TV第一期，7月5日週五深夜25:25（實曆7月6日01:25）起，至12月28日；01:25–01:55為30分節目槽，非淨長。2020年第二期另計，前後半歌曲按原話日期分季。",
+metadataVerifiedAt: "2026-09-07",
   },
   {
     anilistId: 108147,
@@ -2043,7 +2387,101 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
         sequence: 1,
         titleJa: "月を追う真夜中",
         artistDisplayName: "藍井エイル",
-        releaseDate: "2019-08-28"
+        releaseDate: "2019-08-28",
+"followUp": [
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "較晚日本播出時點的本曲用途季度仍待核對。",
+    "checkedAt": "2026-10-31",
+    "resumeWhen": "取得相應日本原播日期及該話用曲的直接證據後補齊季度。"
+  }
+],
+"songId": "granbelm-op-1-song",
+"seasonIds": [
+  "2019-summer"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《滿月之戰》第一方音樂資料：曲目、用途與演唱版本",
+    "url": "https://granbelm.com/music/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/granbelm",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://granbelm.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "Wikipedia：原文歌曲及用途",
+    "url": "https://ja.wikipedia.org/wiki/%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%99%E3%83%AB%E3%83%A0",
+    "language": "ja",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "granbelm-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://granbelm.com/music/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "granbelm-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://granbelm.com/music/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "granbelm-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://ja.wikipedia.org/wiki/%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%99%E3%83%AB%E3%83%A0"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "granbelm-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://ja.wikipedia.org/wiki/%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%99%E3%83%AB%E3%83%A0"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       },
       {
         type: "ED",
@@ -2072,9 +2510,112 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
             name: "佐々木望",
             role: "arrangement"
           }
-        ]
+        ],
+"followUp": [
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "較晚日本播出時點的本曲用途季度仍待核對。",
+    "checkedAt": "2026-10-31",
+    "resumeWhen": "取得相應日本原播日期及該話用曲的直接證據後補齊季度。"
+  }
+],
+"songId": "granbelm-ed-1-song",
+"seasonIds": [
+  "2019-summer"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《滿月之戰》第一方音樂資料：曲目、用途與演唱版本",
+    "url": "https://granbelm.com/music/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "《滿月之戰》第一方音樂資料：曲目、用途與演唱版本",
+    "url": "https://uru-official.com/feature/negai",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/granbelm",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://granbelm.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "Wikipedia：原文歌曲及用途",
+    "url": "https://ja.wikipedia.org/wiki/%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%99%E3%83%AB%E3%83%A0",
+    "language": "ja",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "granbelm-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://granbelm.com/music/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "granbelm-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://granbelm.com/music/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "granbelm-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://ja.wikipedia.org/wiki/%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%99%E3%83%AB%E3%83%A0"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "granbelm-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://ja.wikipedia.org/wiki/%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%99%E3%83%AB%E3%83%A0"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       }
-    ]
+    ],
+"broadcastLabel": "2019年日本TV，7月5日週五深夜1:55（實曆7月6日01:55）起；01:55–02:25為30分節目槽，非淨長。地上波尾話9月27／28日、AT-X至10月1日，較晚站別尾話用曲季度仍待核。",
+metadataVerifiedAt: "2026-09-07",
   },
   {
     anilistId: 105932,
@@ -2097,7 +2638,92 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
         sequence: 1,
         titleJa: "乙女どもよ。",
         artistDisplayName: "CHiCO with HoneyWorks",
-        releaseDate: "2019-08-07"
+        releaseDate: "2019-08-07",
+"followUp": [],
+"songId": "araburu-kisetsu-no-otome-domo-yo-op-1-song",
+"seasonIds": [
+  "2019-summer"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《騷動時節的少女們。》第一方音樂資料：曲目、用途與演唱版本",
+    "url": "https://honeyworks.jp/release/cwhw11th/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/araburu_kisetsu_no_otome_domo_yo",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://www.sonymusic.co.jp/artist/asakuramomo/info/506107",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "アニしま：原文歌曲及用途",
+    "url": "https://anime-song-info.com/201907-summer-anime-araoto-op-ed-song/",
+    "language": "ja",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "araburu-kisetsu-no-otome-domo-yo-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://honeyworks.jp/release/cwhw11th/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "araburu-kisetsu-no-otome-domo-yo-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://honeyworks.jp/release/cwhw11th/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "araburu-kisetsu-no-otome-domo-yo-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://anime-song-info.com/201907-summer-anime-araoto-op-ed-song/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "araburu-kisetsu-no-otome-domo-yo-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://anime-song-info.com/201907-summer-anime-araoto-op-ed-song/"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       },
       {
         type: "ED",
@@ -2106,25 +2732,122 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
         artistDisplayName: "麻倉もも",
         releaseDate: "2019-09-04",
         credits: [
-          {
-            name: "麻倉もも",
-            role: "vocals"
-          },
-          {
-            name: "HoneyWorks",
-            role: "lyrics"
-          },
-          {
-            name: "HoneyWorks",
-            role: "composition"
-          },
-          {
-            name: "HoneyWorks",
-            role: "arrangement"
-          }
-        ]
+  {
+    "name": "麻倉もも",
+    "role": "vocals"
+  },
+  {
+    "name": "HoneyWorks",
+    "role": "lyrics"
+  },
+  {
+    "name": "HoneyWorks",
+    "role": "composition"
+  },
+  {
+    "name": "HoneyWorks",
+    "role": "arrangement"
+  }
+],
+"followUp": [],
+"songId": "araburu-kisetsu-no-otome-domo-yo-ed-1-song",
+"seasonIds": [
+  "2019-summer"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《騷動時節的少女們。》第一方音樂資料：曲目、用途與演唱版本",
+    "url": "https://www.sonymusic.co.jp/artist/asakuramomo/info/509173",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/araburu_kisetsu_no_otome_domo_yo",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://www.sonymusic.co.jp/artist/asakuramomo/info/506107",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "アニしま：原文歌曲及用途",
+    "url": "https://anime-song-info.com/201907-summer-anime-araoto-op-ed-song/",
+    "language": "ja",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "araburu-kisetsu-no-otome-domo-yo-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.sonymusic.co.jp/artist/asakuramomo/info/509173"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "araburu-kisetsu-no-otome-domo-yo-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.sonymusic.co.jp/artist/asakuramomo/info/509173"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "araburu-kisetsu-no-otome-domo-yo-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://anime-song-info.com/201907-summer-anime-araoto-op-ed-song/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "araburu-kisetsu-no-otome-domo-yo-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://anime-song-info.com/201907-summer-anime-araoto-op-ed-song/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "credits",
+    "fields": [
+      "credits"
+    ],
+    "sourceUrls": [
+      "https://www.sonymusic.co.jp/artist/asakuramomo/info/509173"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       }
-    ]
+    ],
+"broadcastLabel": "2019年日本動畫TV，7月5日週五26:25（實曆7月6日02:25）起至9月；26:25–26:55為30分節目槽，非淨長。2020海外配信及實寫版另計。",
+metadataVerifiedAt: "2026-09-07",
   },
   {
     anilistId: 106918,
@@ -2150,15 +2873,110 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
         releaseDate: "2019-09-04",
         versionLabel: "純音樂片頭曲",
         credits: [
-          {
-            name: "梶浦由記",
-            role: "composition"
-          },
-          {
-            name: "梶浦由記",
-            role: "arrangement"
-          }
-        ]
+  {
+    "name": "梶浦由記",
+    "role": "composition"
+  },
+  {
+    "name": "梶浦由記",
+    "role": "arrangement"
+  }
+],
+"followUp": [],
+"songId": "lord-el-melloi-ii-sei-no-jikenbo-rail-zeppelin-grace-note-op-1-song",
+"seasonIds": [
+  "2019-summer"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《艾梅洛閣下 II 世事件簿 -魔眼蒐集列車 Grace note-》第一方音樂資料：曲目、用途與演唱版本",
+    "url": "https://anime.elmelloi.com/music/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/lord_el_melloi_ii_sei_no_jikenbo_rail_zeppelin_grace_note",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://anime.elmelloi.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "Wikipedia：原文歌曲及用途",
+    "url": "https://zh.wikipedia.org/wiki/%E8%89%BE%E6%A2%85%E6%B4%9B%E9%96%A3%E4%B8%8BII%E4%B8%96%E4%BA%8B%E4%BB%B6%E7%B0%BF",
+    "language": "multi",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "lord-el-melloi-ii-sei-no-jikenbo-rail-zeppelin-grace-note-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://anime.elmelloi.com/music/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "lord-el-melloi-ii-sei-no-jikenbo-rail-zeppelin-grace-note-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://anime.elmelloi.com/music/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "lord-el-melloi-ii-sei-no-jikenbo-rail-zeppelin-grace-note-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%89%BE%E6%A2%85%E6%B4%9B%E9%96%A3%E4%B8%8BII%E4%B8%96%E4%BA%8B%E4%BB%B6%E7%B0%BF"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "lord-el-melloi-ii-sei-no-jikenbo-rail-zeppelin-grace-note-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%89%BE%E6%A2%85%E6%B4%9B%E9%96%A3%E4%B8%8BII%E4%B8%96%E4%BA%8B%E4%BB%B6%E7%B0%BF"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "credits",
+    "fields": [
+      "credits"
+    ],
+    "sourceUrls": [
+      "https://anime.elmelloi.com/music/"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       },
       {
         type: "ED",
@@ -2166,25 +2984,122 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
         titleJa: "雲雀",
         artistDisplayName: "ASCA",
         credits: [
-          {
-            name: "ASCA",
-            role: "vocals"
-          },
-          {
-            name: "梶浦由記",
-            role: "lyrics"
-          },
-          {
-            name: "梶浦由記",
-            role: "composition"
-          },
-          {
-            name: "梶浦由記",
-            role: "arrangement"
-          }
-        ]
+  {
+    "name": "ASCA",
+    "role": "vocals"
+  },
+  {
+    "name": "梶浦由記",
+    "role": "lyrics"
+  },
+  {
+    "name": "梶浦由記",
+    "role": "composition"
+  },
+  {
+    "name": "梶浦由記",
+    "role": "arrangement"
+  }
+],
+"followUp": [],
+"songId": "lord-el-melloi-ii-sei-no-jikenbo-rail-zeppelin-grace-note-ed-1-song",
+"seasonIds": [
+  "2019-summer"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《艾梅洛閣下 II 世事件簿 -魔眼蒐集列車 Grace note-》第一方音樂資料：曲目、用途與演唱版本",
+    "url": "https://anime.elmelloi.com/music/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/lord_el_melloi_ii_sei_no_jikenbo_rail_zeppelin_grace_note",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://anime.elmelloi.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "Wikipedia：原文歌曲及用途",
+    "url": "https://zh.wikipedia.org/wiki/%E8%89%BE%E6%A2%85%E6%B4%9B%E9%96%A3%E4%B8%8BII%E4%B8%96%E4%BA%8B%E4%BB%B6%E7%B0%BF",
+    "language": "multi",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "lord-el-melloi-ii-sei-no-jikenbo-rail-zeppelin-grace-note-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://anime.elmelloi.com/music/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "lord-el-melloi-ii-sei-no-jikenbo-rail-zeppelin-grace-note-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://anime.elmelloi.com/music/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "lord-el-melloi-ii-sei-no-jikenbo-rail-zeppelin-grace-note-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%89%BE%E6%A2%85%E6%B4%9B%E9%96%A3%E4%B8%8BII%E4%B8%96%E4%BA%8B%E4%BB%B6%E7%B0%BF"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "lord-el-melloi-ii-sei-no-jikenbo-rail-zeppelin-grace-note-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%89%BE%E6%A2%85%E6%B4%9B%E9%96%A3%E4%B8%8BII%E4%B8%96%E4%BA%8B%E4%BB%B6%E7%B0%BF"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "credits",
+    "fields": [
+      "credits"
+    ],
+    "sourceUrls": [
+      "https://anime.elmelloi.com/music/"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       }
-    ]
+    ],
+"broadcastLabel": "2019年日本原TV，7月6日週六24:00（實曆7月7日00:00）起至9月；24:00–24:30為30分節目槽，非淨長。第0話與後來特別篇另計，OP為純音樂。",
+metadataVerifiedAt: "2026-09-07",
   },
   {
     anilistId: 21673,
@@ -2207,16 +3122,188 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
         sequence: 1,
         titleJa: "METANOIA",
         artistDisplayName: "水樹奈々",
-        releaseDate: "2019-07-17"
+        releaseDate: "2019-07-17",
+"followUp": [],
+"songId": "senki-zesshou-symphogear-xv-op-1-song",
+"seasonIds": [
+  "2019-summer"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《戰姬絕唱SYMPHOGEAR XV》第一方音樂資料：曲目、用途與演唱版本",
+    "url": "https://www.symphogear-xv.com/products/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/senki_zesshou_symphogear_xv",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://www.symphogear-xv.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "歌ネット：原文歌曲及用途",
+    "url": "https://www.uta-net.com/user/search/anime_list_2.html?tno=14092",
+    "language": "ja",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "senki-zesshou-symphogear-xv-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.symphogear-xv.com/products/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "senki-zesshou-symphogear-xv-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.symphogear-xv.com/products/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "senki-zesshou-symphogear-xv-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.uta-net.com/user/search/anime_list_2.html?tno=14092"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "senki-zesshou-symphogear-xv-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.uta-net.com/user/search/anime_list_2.html?tno=14092"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       },
       {
         type: "ED",
         sequence: 2,
         titleJa: "Lasting Song",
         artistDisplayName: "高垣彩陽",
-        releaseDate: "2019-08-21"
+        releaseDate: "2019-08-21",
+"followUp": [],
+"songId": "senki-zesshou-symphogear-xv-ed-2-song",
+"seasonIds": [
+  "2019-summer"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《戰姬絕唱SYMPHOGEAR XV》第一方音樂資料：曲目、用途與演唱版本",
+    "url": "https://www.symphogear-xv.com/products/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/senki_zesshou_symphogear_xv",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://www.symphogear-xv.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "歌ネット：原文歌曲及用途",
+    "url": "https://www.uta-net.com/user/search/anime_list_2.html?tno=14092",
+    "language": "ja",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "senki-zesshou-symphogear-xv-ed-2-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.symphogear-xv.com/products/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "senki-zesshou-symphogear-xv-ed-2",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.symphogear-xv.com/products/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "senki-zesshou-symphogear-xv-ed-2-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.uta-net.com/user/search/anime_list_2.html?tno=14092"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "senki-zesshou-symphogear-xv-ed-2",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.uta-net.com/user/search/anime_list_2.html?tno=14092"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       }
-    ]
+    ],
+"broadcastLabel": "2019年日本TV第5期XV，7月6日週六25:00（實曆7月7日01:00）起；25:00–25:30為30分節目槽，非淨長。遊戲、其他期及角色音樂另計。",
+metadataVerifiedAt: "2026-09-07",
   },
   {
     anilistId: 102926,
@@ -2239,7 +3326,92 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
         sequence: 1,
         titleJa: "not GAME",
         artistDisplayName: "畠中祐",
-        releaseDate: "2019-07-24"
+        releaseDate: "2019-07-24",
+"followUp": [],
+"songId": "nakanohito-genome-jikkyouchuu-op-1-song",
+"seasonIds": [
+  "2019-summer"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《實況主的逃脫遊戲 直播中》第一方音樂資料：曲目、用途與演唱版本",
+    "url": "https://www.nhg-anime.com/product/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/nakanohito_genome_jikkyouchuu",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://www.nhg-anime.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "Wikipedia：原文歌曲及用途",
+    "url": "https://zh.wikipedia.org/wiki/%E5%AF%A6%E6%B3%81%E4%B8%BB%E7%9A%84%E9%80%83%E8%84%AB%E9%81%8A%E6%88%B2%E3%80%90%E7%9B%B4%E6%92%AD%E4%B8%AD%E3%80%91",
+    "language": "multi",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "nakanohito-genome-jikkyouchuu-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.nhg-anime.com/product/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "nakanohito-genome-jikkyouchuu-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.nhg-anime.com/product/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "nakanohito-genome-jikkyouchuu-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E5%AF%A6%E6%B3%81%E4%B8%BB%E7%9A%84%E9%80%83%E8%84%AB%E9%81%8A%E6%88%B2%E3%80%90%E7%9B%B4%E6%92%AD%E4%B8%AD%E3%80%91"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "nakanohito-genome-jikkyouchuu-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E5%AF%A6%E6%B3%81%E4%B8%BB%E7%9A%84%E9%80%83%E8%84%AB%E9%81%8A%E6%88%B2%E3%80%90%E7%9B%B4%E6%92%AD%E4%B8%AD%E3%80%91"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       },
       {
         type: "ED",
@@ -2248,25 +3420,122 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
         artistDisplayName: "fhána",
         releaseDate: "2019-08-07",
         credits: [
-          {
-            name: "fhána",
-            role: "vocals"
-          },
-          {
-            name: "林英樹",
-            role: "lyrics"
-          },
-          {
-            name: "佐藤純一",
-            role: "composition"
-          },
-          {
-            name: "佐藤純一",
-            role: "arrangement"
-          }
-        ]
+  {
+    "name": "fhána",
+    "role": "vocals"
+  },
+  {
+    "name": "林英樹",
+    "role": "lyrics"
+  },
+  {
+    "name": "佐藤純一",
+    "role": "composition"
+  },
+  {
+    "name": "佐藤純一",
+    "role": "arrangement"
+  }
+],
+"followUp": [],
+"songId": "nakanohito-genome-jikkyouchuu-ed-1-song",
+"seasonIds": [
+  "2019-summer"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《實況主的逃脫遊戲 直播中》第一方音樂資料：曲目、用途與演唱版本",
+    "url": "https://www.nhg-anime.com/product/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/nakanohito_genome_jikkyouchuu",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://www.nhg-anime.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "Wikipedia：原文歌曲及用途",
+    "url": "https://zh.wikipedia.org/wiki/%E5%AF%A6%E6%B3%81%E4%B8%BB%E7%9A%84%E9%80%83%E8%84%AB%E9%81%8A%E6%88%B2%E3%80%90%E7%9B%B4%E6%92%AD%E4%B8%AD%E3%80%91",
+    "language": "multi",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "nakanohito-genome-jikkyouchuu-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.nhg-anime.com/product/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "nakanohito-genome-jikkyouchuu-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.nhg-anime.com/product/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "nakanohito-genome-jikkyouchuu-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E5%AF%A6%E6%B3%81%E4%B8%BB%E7%9A%84%E9%80%83%E8%84%AB%E9%81%8A%E6%88%B2%E3%80%90%E7%9B%B4%E6%92%AD%E4%B8%AD%E3%80%91"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "nakanohito-genome-jikkyouchuu-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E5%AF%A6%E6%B3%81%E4%B8%BB%E7%9A%84%E9%80%83%E8%84%AB%E9%81%8A%E6%88%B2%E3%80%90%E7%9B%B4%E6%92%AD%E4%B8%AD%E3%80%91"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "credits",
+    "fields": [
+      "credits"
+    ],
+    "sourceUrls": [
+      "https://www.nhg-anime.com/product/"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       }
-    ]
+    ],
+"broadcastLabel": "2019年日本TV原作，AT-X週日22:00–22:30為完整常規30分鐘節目時段，非淨片長；原播7月至9月，OVA另計。",
+metadataVerifiedAt: "2026-09-07",
   },
   {
     anilistId: 103048,
@@ -2291,23 +3560,118 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
         artistDisplayName: "KiRaRe",
         releaseDate: "2019-07-24",
         credits: [
-          {
-            name: "KiRaRe",
-            role: "vocals"
-          },
-          {
-            name: "高瀬愛虹",
-            role: "lyrics"
-          },
-          {
-            name: "伊藤翼",
-            role: "composition"
-          },
-          {
-            name: "伊藤翼",
-            role: "arrangement"
-          }
-        ]
+  {
+    "name": "KiRaRe",
+    "role": "vocals"
+  },
+  {
+    "name": "高瀬愛虹",
+    "role": "lyrics"
+  },
+  {
+    "name": "伊藤翼",
+    "role": "composition"
+  },
+  {
+    "name": "伊藤翼",
+    "role": "arrangement"
+  }
+],
+"followUp": [],
+"songId": "restage-dream-days-op-2-song",
+"seasonIds": [
+  "2019-summer"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《Re:Stage！Dream Days♪》第一方音樂資料：曲目、用途與演唱版本",
+    "url": "https://rst-anime.com/product/cd/theme/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/restage_dream_days",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://rst-anime.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "Wikipedia：原文歌曲及用途",
+    "url": "https://zh.wikipedia.org/wiki/Re:Stage!",
+    "language": "multi",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "restage-dream-days-op-2-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://rst-anime.com/product/cd/theme/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "restage-dream-days-op-2",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://rst-anime.com/product/cd/theme/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "restage-dream-days-op-2-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/Re:Stage!"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "restage-dream-days-op-2",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/Re:Stage!"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "credits",
+    "fields": [
+      "credits"
+    ],
+    "sourceUrls": [
+      "https://rst-anime.com/product/cd/theme/"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       },
       {
         type: "ED",
@@ -2333,9 +3697,103 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
             name: "伊藤翼",
             role: "arrangement"
           }
-        ]
+        ],
+"followUp": [],
+"songId": "restage-dream-days-ed-1-song",
+"seasonIds": [
+  "2019-summer"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《Re:Stage！Dream Days♪》第一方音樂資料：曲目、用途與演唱版本",
+    "url": "https://rst-anime.com/product/cd/theme/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/restage_dream_days",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://rst-anime.com/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "TVアニメ「Re:ステージ! ドリームデイズ♪」公式サイト：原文歌曲及用途",
+    "url": "https://rst-anime.com/news/archives/172",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "Wikipedia：原文歌曲及用途",
+    "url": "https://zh.wikipedia.org/wiki/Re:Stage!",
+    "language": "multi",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "restage-dream-days-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://rst-anime.com/news/archives/172"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "restage-dream-days-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://rst-anime.com/news/archives/172"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "restage-dream-days-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/Re:Stage!"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "restage-dream-days-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/Re:Stage!"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       }
-    ]
+    ],
+"broadcastLabel": "2019年日本TV原作，TOKYO MX週日22:00–22:30為完整常規30分鐘時段，非淨片長；原播與2020年重播、網絡配信分開。",
+metadataVerifiedAt: "2026-09-07",
   },
   {
     anilistId: 21512,
@@ -2881,7 +4339,92 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
         titleJa: "MUKANJYO",
         artistDisplayName: "Survive Said The Prophet",
         releaseDate: "2019-08-21",
-        versionLabel: "2019 年動畫前半"
+        versionLabel: "2019 年動畫前半",
+"followUp": [],
+"songId": "vinland-saga-op-1-song",
+"seasonIds": [
+  "2019-summer"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《海盜戰記》第一方音樂資料：曲目、用途與演唱版本",
+    "url": "https://vinlandsaga.jp/music/",
+    "language": "multi",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/vinland_saga",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://vinlandsaga.jp/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "Wikipedia：原文歌曲及用途",
+    "url": "https://zh.wikipedia.org/wiki/%E6%B5%B7%E7%9B%9C%E6%88%B0%E8%A8%98",
+    "language": "multi",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "vinland-saga-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://vinlandsaga.jp/music/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "vinland-saga-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://vinlandsaga.jp/music/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "vinland-saga-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E6%B5%B7%E7%9B%9C%E6%88%B0%E8%A8%98"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "vinland-saga-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E6%B5%B7%E7%9B%9C%E6%88%B0%E8%A8%98"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       },
       {
         type: "OP",
@@ -2889,7 +4432,92 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
         titleJa: "Dark Crow",
         artistDisplayName: "MAN WITH A MISSION",
         releaseDate: "2019-10-23",
-        versionLabel: "2019 年動畫後半"
+        versionLabel: "2019 年動畫後半",
+"followUp": [],
+"songId": "vinland-saga-op-2-song",
+"seasonIds": [
+  "2019-fall"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《海盜戰記》第一方音樂資料：曲目、用途與演唱版本",
+    "url": "https://vinlandsaga.jp/music/",
+    "language": "multi",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/vinland_saga",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://vinlandsaga.jp/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "Wikipedia：原文歌曲及用途",
+    "url": "https://zh.wikipedia.org/wiki/%E6%B5%B7%E7%9B%9C%E6%88%B0%E8%A8%98",
+    "language": "multi",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "vinland-saga-op-2-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://vinlandsaga.jp/music/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "vinland-saga-op-2",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://vinlandsaga.jp/music/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "vinland-saga-op-2-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E6%B5%B7%E7%9B%9C%E6%88%B0%E8%A8%98"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "vinland-saga-op-2",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E6%B5%B7%E7%9B%9C%E6%88%B0%E8%A8%98"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       },
       {
         type: "ED",
@@ -2897,7 +4525,92 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
         titleJa: "Torches",
         artistDisplayName: "Aimer",
         releaseDate: "2019-08-14",
-        versionLabel: "2019 年動畫前半"
+        versionLabel: "2019 年動畫前半",
+"followUp": [],
+"songId": "vinland-saga-ed-1-song",
+"seasonIds": [
+  "2019-summer"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《海盜戰記》第一方音樂資料：曲目、用途與演唱版本",
+    "url": "https://vinlandsaga.jp/music/",
+    "language": "multi",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/vinland_saga",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://vinlandsaga.jp/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "Wikipedia：原文歌曲及用途",
+    "url": "https://zh.wikipedia.org/wiki/%E6%B5%B7%E7%9B%9C%E6%88%B0%E8%A8%98",
+    "language": "multi",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "vinland-saga-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://vinlandsaga.jp/music/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "vinland-saga-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://vinlandsaga.jp/music/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "vinland-saga-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E6%B5%B7%E7%9B%9C%E6%88%B0%E8%A8%98"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "vinland-saga-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E6%B5%B7%E7%9B%9C%E6%88%B0%E8%A8%98"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       },
       {
         type: "ED",
@@ -2905,9 +4618,96 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
         titleJa: "Drown",
         artistDisplayName: "milet",
         releaseDate: "2019-11-06",
-        versionLabel: "2019 年動畫後半"
+        versionLabel: "2019 年動畫後半",
+"followUp": [],
+"songId": "vinland-saga-ed-2-song",
+"seasonIds": [
+  "2019-fall"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《海盜戰記》第一方音樂資料：曲目、用途與演唱版本",
+    "url": "https://vinlandsaga.jp/music/",
+    "language": "multi",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/vinland_saga",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://vinlandsaga.jp/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "Wikipedia：原文歌曲及用途",
+    "url": "https://zh.wikipedia.org/wiki/%E6%B5%B7%E7%9B%9C%E6%88%B0%E8%A8%98",
+    "language": "multi",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "vinland-saga-ed-2-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://vinlandsaga.jp/music/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "vinland-saga-ed-2",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://vinlandsaga.jp/music/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "vinland-saga-ed-2-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E6%B5%B7%E7%9B%9C%E6%88%B0%E8%A8%98"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "vinland-saga-ed-2",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E6%B5%B7%E7%9B%9C%E6%88%B0%E8%A8%98"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       }
-    ]
+    ],
+"broadcastLabel": "2019年日本TV第1期，NHK總合週一00:10–00:35（日深夜）為完整常規25分鐘時段，非淨片長；原播跨夏秋，初回三話連播與Prime特別先行版另計。",
+metadataVerifiedAt: "2026-09-07",
   },
   {
     anilistId: 107961,
@@ -3325,14 +5125,36 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
         sequence: 1,
         titleJa: "FLARE",
         artistDisplayName: "Void_Chords feat. LIO",
-        releaseDate: "2019-07-24"
+        releaseDate: "2019-07-24",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence",
+      "use_quarters"
+    ],
+    "note": "本版日本TV形式與完整常規時段的證據仍待補齊；歌曲及季度用途尚未核對。",
+    "checkedAt": "2026-10-31",
+    "resumeWhen": "取得同版第一方TV身分及完整常規時段或正版單話片長證據後，再核對歌曲與原播用途。"
+  }
+],
       },
       {
         type: "ED",
         sequence: 1,
         titleJa: "ハジメノウタ",
         artistDisplayName: "DracoVirgo",
-        releaseDate: "2019-09-04"
+        releaseDate: "2019-09-04",
+"followUp": [
+  {
+    "fields": [
+      "basic_evidence",
+      "use_quarters"
+    ],
+    "note": "本版日本TV形式與完整常規時段的證據仍待補齊；歌曲及季度用途尚未核對。",
+    "checkedAt": "2026-10-31",
+    "resumeWhen": "取得同版第一方TV身分及完整常規時段或正版單話片長證據後，再核對歌曲與原播用途。"
+  }
+],
       }
     ]
   },
@@ -3357,16 +5179,241 @@ const curated2019SummerSeedRows: Summer2019SeedInput[] = [
         sequence: 1,
         titleJa: "楽園都市",
         artistDisplayName: "オーイシマサヨシ",
-        releaseDate: "2019-08-21"
+        releaseDate: "2019-08-21",
+"followUp": [
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "較晚日本播出時點的本曲用途季度仍待核對。",
+    "checkedAt": "2026-10-31",
+    "resumeWhen": "取得相應日本原播日期及該話用曲的直接證據後補齊季度。"
+  }
+],
+"songId": "cop-craft-op-1-song",
+"seasonIds": [
+  "2019-summer"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "《COP CRAFT》第一方音樂資料：曲目、用途與演唱版本",
+    "url": "https://news.ponycanyon.co.jp/2019/06/32796",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/cop_craft",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "動畫官方網站",
+    "url": "https://news.ponycanyon.co.jp/2019/07/33194",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "TVアニメ『コップクラフト』公式サイト：原文歌曲及用途",
+    "url": "https://copcraft.tv/music/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "Wikipedia：原文歌曲及用途",
+    "url": "https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%83%E3%83%97%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88",
+    "language": "ja",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "cop-craft-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://copcraft.tv/music/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "cop-craft-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://copcraft.tv/music/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "cop-craft-op-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%83%E3%83%97%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "cop-craft-op-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%83%E3%83%97%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
       },
       {
         type: "ED",
         sequence: 1,
         titleJa: "Connected",
         artistDisplayName: "ティラナ・エクセディリカ（CV：吉岡茉祐）",
-        releaseDate: "2019-08-07"
+        releaseDate: "2019-08-07",
+"followUp": [
+  {
+    "fields": [
+      "use_quarters"
+    ],
+    "note": "較晚日本播出時點的本曲用途季度仍待核對。",
+    "checkedAt": "2026-10-31",
+    "resumeWhen": "取得相應日本原播日期及該話用曲的直接證據後補齊季度。"
+  }
+],
+"songId": "cop-craft-ed-1-song",
+"seasonIds": [
+  "2019-summer"
+],
+"sourceMode": "explicit",
+"sources": [
+  {
+    "label": "動畫官方網站",
+    "url": "https://news.ponycanyon.co.jp/2019/07/33194",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "AnimeThemes",
+    "url": "https://animethemes.moe/anime/cop_craft",
+    "language": "en",
+    "role": "cross_check",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "label": "TVアニメ『コップクラフト』公式サイト：原文歌曲及用途",
+    "url": "https://copcraft.tv/music/",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "label": "エキサイトニュース：原文歌曲及用途",
+    "url": "https://www.excite.co.jp/news/article/Lisani_0000212887/",
+    "language": "ja",
+    "role": "cross_check",
+    "verifiedAt": "2026-10-31"
+  }
+],
+"lastVerifiedAt": "2026-10-31",
+"evidence": [
+  {
+    "target": "song",
+    "targetId": "cop-craft-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://copcraft.tv/music/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "cop-craft-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://copcraft.tv/music/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "song",
+    "targetId": "cop-craft-ed-1-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://www.excite.co.jp/news/article/Lisani_0000212887/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "cop-craft-ed-1",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://www.excite.co.jp/news/article/Lisani_0000212887/"
+    ],
+    "verifiedAt": "2026-10-31"
+  },
+  {
+    "target": "credits",
+    "fields": [
+      "credits"
+    ],
+    "sourceUrls": [
+      "https://copcraft.tv/music/"
+    ],
+    "verifiedAt": "2026-10-31"
+  }
+],
+"credits": [
+  {
+    "name": "ティラナ・エクセディリカ（CV：吉岡茉祐）",
+    "role": "vocals"
+  },
+  {
+    "name": "安野勇太",
+    "role": "lyrics"
+  },
+  {
+    "name": "安野勇太",
+    "role": "composition"
+  },
+  {
+    "name": "安野勇太",
+    "role": "arrangement"
+  }
+],
       }
-    ]
+    ],
+"broadcastLabel": "2019年日本TV原作，TOKYO MX週二00:00–00:30（月深夜）為完整常規30分鐘時段，非淨片長；原播至10月1日，特殊篇及其他平台日期另計。",
+metadataVerifiedAt: "2026-09-07",
   },
   {
     anilistId: 101547,
