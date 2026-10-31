@@ -6199,7 +6199,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
       "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108891-RTZQkwjWsFi9.jpg",
     bannerUrl:
       "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108891-C3mfowQMhxma.jpg",
-    broadcastLabel: "2019年第2cour日本TV形式待核；尚無本期可接受的完整節目槽或正版本體分鐘，不借前期。",
+    broadcastLabel: "2019年第2部分（第2cour）的日本TV版別與完整常規節目時段或正版單話本體時長仍待核對；第1部分另計。",
     officialSiteUrl: "https://www.konooto-anime.jp/",
     animeThemesUrl: "https://animethemes.moe/anime/kono_oto_tomare_2nd_season",
     themes: [
@@ -6213,8 +6213,8 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
     "fields": [
       "basic_evidence"
     ],
-    "note": "本版日本TV的完整常規播出時段或單話長度仍待核對，歌曲基本證據尚未完成。",
-    "resumeWhen": "本期第2cour第一方身分與獨立完整槽或正版本體分鐘未閉合；官根逾時，兩輪形式封頂。等待本版普通官方完整放送正文或正版單話分鐘新證據後才核歌，不借第1cour。",
+    "note": "本期日本TV版別身分與完整常規節目時段或正版單話本體時長仍待核對，歌曲基本資料尚未完成核對。",
+    "resumeWhen": "待有可公開查閱的新資料，能確認第2部分（第2cour）的官方日本TV版別，並與同版完整常規節目時段或正版單話本體時長相互對應後，再核對歌曲；第1部分的資料不作本期證據。",
     "checkedAt": "2026-10-31"
   }
 ],
@@ -6229,8 +6229,8 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
     "fields": [
       "basic_evidence"
     ],
-    "note": "本版日本TV的完整常規播出時段或單話長度仍待核對，歌曲基本證據尚未完成。",
-    "resumeWhen": "本期第2cour第一方身分與獨立完整槽或正版本體分鐘未閉合；官根逾時，兩輪形式封頂。等待本版普通官方完整放送正文或正版單話分鐘新證據後才核歌，不借第1cour。",
+    "note": "本期日本TV版別身分與完整常規節目時段或正版單話本體時長仍待核對，歌曲基本資料尚未完成核對。",
+    "resumeWhen": "待有可公開查閱的新資料，能確認第2部分（第2cour）的官方日本TV版別，並與同版完整常規節目時段或正版單話本體時長相互對應後，再核對歌曲；第1部分的資料不作本期證據。",
     "checkedAt": "2026-10-31"
   }
 ],
@@ -6945,7 +6945,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
       "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101349-AWy5SjUS8mYZ.jpg",
     bannerUrl:
       "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101349-5LUS8ZRP4ZiM.jpg",
-    broadcastLabel: "2019年日本TV原作，10月7日起週一22:00；完整22:00–22:30為30分節目槽，非淨長。前三話WEB先行另計；第三章延播跨2020年與各曲版本季度分開待核。",
+    broadcastLabel: "2019年日本TV版，10月7日起週一22:00；完整22:00–22:30為30分節目槽，非淨長。前三話WEB先行另計；第三章延播跨2020年與各曲版本季度分開待核。",
     officialSiteUrl: "https://babylon-anime.com/",
     animeThemesUrl: "https://animethemes.moe/anime/babylon",
     themes: [
@@ -7103,7 +7103,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
       "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104158-Jn8LRgfii5Kx.jpg",
     bannerUrl:
       "https://s4.anilist.co/file/anilistcdn/media/anime/banner/104158-Aj3NTw9lxMkp.jpg",
-    broadcastLabel: "2019年PIECE OF TRUTH日本TV原版身分已有第一方與交叉旁證；完整常規槽／本體分鐘仍待核對。",
+    broadcastLabel: "2019年《PIECE OF TRUTH》的日本TV版別已有官方及交叉資料，完整常規節目時段或正版單話本體時長仍待核對。",
     officialSiteUrl: "https://www.standmyheroes.tv/",
     animeThemesUrl:
       "https://animethemes.moe/anime/stand_my_heroes_piece_of_truth",
@@ -7118,8 +7118,8 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
     "fields": [
       "basic_evidence"
     ],
-    "note": "本版日本TV的完整常規播出時段或單話長度仍待核對，歌曲基本證據尚未完成。",
-    "resumeWhen": "真正新可讀同一原TV版本完整獨立常規槽／正版正常單話分鐘直接正文出現，經root核准後再核音樂；兩輪已停，不重試受限域／原失敗URL或以其他期／配信借版。",
+    "note": "2019年《PIECE OF TRUTH》的日本TV版別已有資料，完整常規節目時段或正版單話本體時長仍待核對；歌曲基本資料尚未完成核對。",
+    "resumeWhen": "待有可公開查閱的新資料，明確列出這個2019年日本TV版本的完整常規節目時段或正版單話本體時長後，再核對歌曲；其他期及配信版本的時長不作本版證據。",
     "checkedAt": "2026-10-31"
   }
 ],
@@ -7134,8 +7134,8 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
     "fields": [
       "basic_evidence"
     ],
-    "note": "本版日本TV的完整常規播出時段或單話長度仍待核對，歌曲基本證據尚未完成。",
-    "resumeWhen": "真正新可讀同一原TV版本完整獨立常規槽／正版正常單話分鐘直接正文出現，經root核准後再核音樂；兩輪已停，不重試受限域／原失敗URL或以其他期／配信借版。",
+    "note": "2019年《PIECE OF TRUTH》的日本TV版別已有資料，完整常規節目時段或正版單話本體時長仍待核對；歌曲基本資料尚未完成核對。",
+    "resumeWhen": "待有可公開查閱的新資料，明確列出這個2019年日本TV版本的完整常規節目時段或正版單話本體時長後，再核對歌曲；其他期及配信版本的時長不作本版證據。",
     "checkedAt": "2026-10-31"
   }
 ],
@@ -7742,7 +7742,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
       "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109562-IA0G6Hce2VGM.jpg",
     bannerUrl:
       "https://s4.anilist.co/file/anilistcdn/media/anime/banner/109562-2vHcq0CaeoLi.jpg",
-    broadcastLabel: "2019年10月第2cour原版身分有交叉資料；官方頁正文未取到完整槽，不借4月第1cour分鐘。",
+    broadcastLabel: "2019年10月第2部分（第2cour）有日本TV播出的交叉資料，仍待同版官方身分與完整常規節目時段或正版單話本體時長相互核對；4月第1部分另計。",
     officialSiteUrl: "https://www.fairygone.com/",
     animeThemesUrl: "https://animethemes.moe/anime/fairy_gone_2nd_season",
     themes: [
@@ -7756,8 +7756,8 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
     "fields": [
       "basic_evidence"
     ],
-    "note": "本版日本TV的完整常規播出時段或單話長度仍待核對，歌曲基本證據尚未完成。",
-    "resumeWhen": "真正新可讀同一原TV版本完整獨立常規槽／正版正常單話分鐘直接正文出現，經root核准後再核音樂；兩輪已停，不重試受限域／原失敗URL或以其他期／配信借版。",
+    "note": "2019年10月第2部分（第2cour）的日本TV版別與完整常規節目時段或正版單話本體時長仍待核對，歌曲基本資料尚未完成核對。",
+    "resumeWhen": "待有可公開查閱的新資料，能將2019年10月第2部分的官方日本TV版別，與同版完整常規節目時段或正版單話本體時長相互對應後，再核對歌曲；4月第1部分及其他配信版本的資料不作本部分證據。",
     "checkedAt": "2026-10-31"
   }
 ],
@@ -7772,8 +7772,8 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
     "fields": [
       "basic_evidence"
     ],
-    "note": "本版日本TV的完整常規播出時段或單話長度仍待核對，歌曲基本證據尚未完成。",
-    "resumeWhen": "真正新可讀同一原TV版本完整獨立常規槽／正版正常單話分鐘直接正文出現，經root核准後再核音樂；兩輪已停，不重試受限域／原失敗URL或以其他期／配信借版。",
+    "note": "2019年10月第2部分（第2cour）的日本TV版別與完整常規節目時段或正版單話本體時長仍待核對，歌曲基本資料尚未完成核對。",
+    "resumeWhen": "待有可公開查閱的新資料，能將2019年10月第2部分的官方日本TV版別，與同版完整常規節目時段或正版單話本體時長相互對應後，再核對歌曲；4月第1部分及其他配信版本的資料不作本部分證據。",
     "checkedAt": "2026-10-31"
   }
 ],
@@ -10379,7 +10379,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
       "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108478-yHMnmQCtHSDb.jpg",
     bannerUrl:
       "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108478-1maWWL3g3vzO.jpg",
-    broadcastLabel: "2019年第1期原版形式待核；官網timeout後停查，現有開始點／資料庫長度不當完整TV槽。",
+    broadcastLabel: "2019年第1期的日本TV版別與完整常規節目時段或正版單話本體時長仍待核對；已列開播時間及資料庫長度不作完整節目時段證明。",
     officialSiteUrl: "https://nogunslife.com/",
     animeThemesUrl: "https://animethemes.moe/anime/no_guns_life",
     themes: [
@@ -10393,8 +10393,8 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
     "fields": [
       "basic_evidence"
     ],
-    "note": "本版日本TV的完整常規播出時段或單話長度仍待核對，歌曲基本證據尚未完成。",
-    "resumeWhen": "真正新可讀同一原TV版本完整獨立常規槽／正版正常單話分鐘直接正文出現，經root核准後再核音樂；兩輪已停，不重試受限域／原失敗URL或以其他期／配信借版。",
+    "note": "2019年第1期的日本TV版別與完整常規節目時段或正版單話本體時長仍待核對，歌曲基本資料尚未完成核對。",
+    "resumeWhen": "待有可公開查閱的新資料，能確認2019年第1期日本TV版別，並列出同版完整常規節目時段或正版單話本體時長後，再核對歌曲；單一開播時間、資料庫標示長度或其他期資料不足以確認本期時長。",
     "checkedAt": "2026-10-31"
   }
 ],
@@ -10409,8 +10409,8 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
     "fields": [
       "basic_evidence"
     ],
-    "note": "本版日本TV的完整常規播出時段或單話長度仍待核對，歌曲基本證據尚未完成。",
-    "resumeWhen": "真正新可讀同一原TV版本完整獨立常規槽／正版正常單話分鐘直接正文出現，經root核准後再核音樂；兩輪已停，不重試受限域／原失敗URL或以其他期／配信借版。",
+    "note": "2019年第1期的日本TV版別與完整常規節目時段或正版單話本體時長仍待核對，歌曲基本資料尚未完成核對。",
+    "resumeWhen": "待有可公開查閱的新資料，能確認2019年第1期日本TV版別，並列出同版完整常規節目時段或正版單話本體時長後，再核對歌曲；單一開播時間、資料庫標示長度或其他期資料不足以確認本期時長。",
     "checkedAt": "2026-10-31"
   }
 ],
