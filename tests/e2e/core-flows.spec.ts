@@ -1,7 +1,7 @@
 import { expect, test, type Page } from "@playwright/test";
 import { ApiProvider } from "../../src/data/api-provider";
 import { smokePublicApi } from "../../src/data/api-smoke";
-import { curatedAnimeDetails, curatedSeasons, curatedSeasonDetails } from "../../src/data/curated-data";
+import { curatedAnimeDetails, curatedSeasonDetails, curatedSeasons } from "../../src/data/curated-data";
 
 const port = Number(process.env.ANISONARY_E2E_PORT ?? "4321");
 const origin = `http://127.0.0.1:${port}`;
@@ -95,9 +95,7 @@ test("playlist browsing opens all anime songs and preserves sources, media conse
   await page.locator(".song-row").filter({ hasText: "Why? RED induction" }).click();
   await expect(page).toHaveURL(/\/anime\/youjo-senki-2\/$/);
   await expect(page.getByRole("heading", { name: /全部主題曲/ })).toBeVisible();
-  await expect(page.locator(".theme-card__details[open]")).toHaveCount(0);
-  await expect(page.getByRole("list", { name: "歌曲核對來源" }).first()).toBeHidden();
-  await page.locator(".theme-card__details > summary").first().click();
+  await expect(page.locator(".theme-card__details")).toHaveCount(0);
   await expect(page.getByRole("list", { name: "歌曲核對來源" }).first()).toBeVisible();
   await expect(page.getByRole("region", { name: "歌曲資料狀態" }).first()).toBeVisible();
   await expect(page.getByRole("region", { name: "歌曲資料狀態" }).first()).toContainText("已有資料也不代表全部版本");
@@ -135,7 +133,6 @@ test("playlist browsing opens all anime songs and preserves sources, media conse
   );
   if (!multiPlayerAnime) throw new Error("A reviewed multi-player example is required for the consent flow");
   await page.goto(`/anime/${multiPlayerAnime.slug}/`, { waitUntil: "domcontentloaded" });
-  for (const summary of await page.locator(".theme-card__details > summary").all()) await summary.click();
   await expect(players.nth(1).getByRole("button", { name: /載入 YouTube 影片/ })).toBeVisible();
   await expect(page.locator("iframe")).toHaveCount(0);
   await players.first().getByRole("button", { name: /載入 YouTube 影片/ }).click();
@@ -256,7 +253,6 @@ test("song library and local search combine quarters, sorting, multilingual inpu
 
   const videoAnime = curatedAnimeDetails.find((anime) => anime.themes.some((theme) => theme.videos.some((video) => video.embedAvailability === "unknown")))!;
   await page.goto(`/anime/${videoAnime.slug}/`);
-  for (const summary of await page.locator(".theme-card__details > summary").all()) await summary.click();
   await expect(page.locator("iframe")).toHaveCount(0);
   await expect(page.locator(".youtube-media__fallback-caption")).toHaveCount(videoAnime.themes.flatMap((theme) => theme.videos).filter((video) => !video.embeddable).length);
   await expect(page.locator(".youtube-media__fallback-caption").filter({ hasText: "MV" }).first()).toBeVisible();
@@ -265,7 +261,6 @@ test("song library and local search combine quarters, sorting, multilingual inpu
   const namedAnime = curatedAnimeDetails.find((anime) => anime.themes.some(hasNamedVideos))!;
   const namedTheme = namedAnime.themes.find(hasNamedVideos)!;
   await page.goto(`/anime/${namedAnime.slug}/`);
-  await page.locator(`[id="theme-${namedTheme.id}"] .theme-card__details > summary`).click();
   const platformLinks = page.locator(`[id="theme-${namedTheme.id}"]`).getByRole("list", { name: "音樂平台與購買連結" });
   for (const link of namedTheme.links.filter((link) => link.platform === "YouTube" && link.verifiedAt)) {
     await expect(platformLinks.locator(`a[href="${link.url}"]`)).toContainText(link.label);
@@ -323,7 +318,7 @@ test("year and quarter browsing works with a mobile keyboard, without JavaScript
   await expect(navigation).toBeHidden();
   await page.getByRole("link", { name: /2025.*個季度/ }).click();
   await expect(page.getByRole("heading", { name: "2025 動畫目錄" })).toBeVisible();
-  await page.getByRole("list", { name: "2025 已收錄季度" }).getByRole("link", { name: /春季動畫/ }).click();
+  await page.getByRole("list", { name: "2025 已收錄季度" }).locator('a[href="/seasons/2025-spring/"]').click();
   await expect(page.getByRole("heading", { name: "2025 春季動畫" })).toBeVisible();
   await page.locator(".playlist-filters summary").click();
   const filter = page.getByRole("checkbox", { name: "有正版影片" });
@@ -346,13 +341,11 @@ test("year and quarter browsing works with a mobile keyboard, without JavaScript
     await expect(breadcrumbs.locator('ol[itemtype="https://schema.org/BreadcrumbList"]')).toHaveCount(1);
     expect(await breadcrumbs.locator('[itemprop="position"]').evaluateAll((items) => items.map((item) => item.getAttribute("content")))).toEqual(["1", "2", "3", "4"]);
     await expect(breadcrumbs.locator('[itemprop="item"]').last()).toHaveAttribute("href", /\/seasons\/2026-/);
-    await nativePage.locator(".theme-card__details > summary").first().focus();
-    await nativePage.keyboard.press("Enter");
     await expect(nativePage.getByRole("list", { name: "歌曲核對來源" }).first()).toBeVisible();
     await expect(nativePage.locator("iframe")).toHaveCount(0);
     await nativePage.goto(`${origin}/catalog/`);
     await nativePage.getByRole("link", { name: /2019.*個季度/ }).click();
-    await nativePage.getByRole("link", { name: /夏季動畫/ }).click();
+    await nativePage.locator('a[href="/seasons/2019-summer/"]').click();
     await expect(nativePage.getByRole("heading", { name: "2019 夏季動畫" })).toBeVisible();
     await nativePage.locator('.song-row[href^="/anime/"]').first().click();
     await expect(nativePage.getByRole("heading", { level: 1 })).toBeVisible();
@@ -549,4 +542,74 @@ test.describe("independent search index delivery", () => {
       for (const entry of second) expect(full.filter((asset) => asset.path === entry.path)).toHaveLength(1);
     } finally { await context.close(); }
   });
+});
+
+
+test("season poster walls preserve the latest catalogue, filters and native navigation", async ({ page, browser, request }, testInfo) => {
+  const season = curatedSeasonDetails.find((season) => season.id === "2019-summer")!;
+  const streaming = season.anime.filter((anime) => /網絡|網路|串流|配信|\b(?:WEB|ONA)\b/i.test(anime.broadcastLabel ?? ""));
+  const chosen = streaming.find((anime) => curatedAnimeDetails.find((detail) => detail.slug === anime.slug)!.themes.length)!;
+  expect(chosen).toBeDefined();
+  const external: string[] = [];
+  page.on("request", (request) => { if (new URL(request.url()).origin !== origin) external.push(request.url()); });
+  await page.setViewportSize({ width: 1440, height: 1000 });
+  await page.goto("/catalog/2019/");
+  await page.getByRole("link", { name: "夏季動畫：動畫海報牆", exact: true }).click();
+  await expect(page).toHaveURL(`${origin}/seasons/2019-summer/anime/`);
+  await expect(page).toHaveTitle(/2019 夏季動畫.*動畫海報牆/);
+  await expect(page.locator('.breadcrumbs ol')).toHaveCSS("display", "flex");
+  await expect(page.locator('.season-views')).toHaveCSS("display", "flex");
+  await expect(page.locator('link[rel="canonical"]')).toHaveAttribute("href", "https://anisonary.k-y.cc/seasons/2019-summer/anime/");
+  const cards = page.locator("[data-anime-card]:not([hidden])");
+  await expect(cards).toHaveCount(season.anime.length);
+  await expect(page.locator(".song-row, iframe")).toHaveCount(0);
+  for (const poster of await page.locator("[data-poster-image]").all()) {
+    await expect(poster).toHaveAttribute("loading", "lazy");
+    await expect(poster).toHaveAttribute("referrerpolicy", "no-referrer");
+  }
+  expect(external.every((url) => new URL(url).hostname === "s4.anilist.co")).toBe(true);
+  await page.screenshot({ path: testInfo.outputPath("anime-wall-desktop.png") });
+  const form = page.getByRole("search", { name: "篩選本季動畫" });
+  await form.getByLabel("播出類型").selectOption("streaming");
+  await expect(cards).toHaveCount(streaming.length);
+  await form.getByRole("searchbox").fill(chosen.titleJa);
+  await expect(cards).toHaveCount(1);
+  await form.getByRole("searchbox").fill("不存在的動畫");
+  await expect(page.locator("[data-anime-wall-empty]")).toBeVisible();
+  await form.getByRole("button", { name: "重設", exact: true }).click();
+  await expect(cards).toHaveCount(season.anime.length);
+  await page.setViewportSize({ width: 390, height: 844 });
+  await form.locator("summary").click();
+  const weekday = season.anime.find((anime) => anime.editorialWeekday)!.editorialWeekday!;
+  await form.getByLabel("播出星期").selectOption(String(weekday));
+  await expect(cards).toHaveCount(season.anime.filter((anime) => anime.editorialWeekday === weekday).length);
+  await form.getByRole("button", { name: "重設", exact: true }).click();
+  await form.locator("summary").click();
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  expect(new URL(page.url()).search).toBe("");
+  await page.screenshot({ path: testInfo.outputPath("anime-wall-mobile.png") });
+  await form.getByRole("searchbox").fill(chosen.titleJa);
+  await cards.locator(".anime-poster-card__link").click();
+  await expect(page).toHaveURL(`${origin}/anime/${chosen.slug}/`);
+  await expect(page.getByRole("list", { name: "歌曲核對來源" }).first()).toBeVisible();
+  const xml = await (await request.get("/sitemap-0.xml")).text();
+  for (const summary of curatedSeasons) expect(xml).toContain(`/seasons/${summary.id}/anime/`);
+  await page.goto("/sources/");
+  await expect(page.locator(".published-seasons li")).toHaveCount(curatedSeasons.length);
+  const nativeContext = await browser.newContext({ javaScriptEnabled: false, viewport: { width: 390, height: 844 } });
+  try {
+    const native = await nativeContext.newPage();
+    await native.route("https://s4.anilist.co/**", (route) => route.abort());
+    await native.goto(`${origin}/seasons/${season.id}/anime/`);
+    await expect(native.locator("[data-anime-card]")).toHaveCount(season.anime.length);
+    const jump = native.getByRole("navigation", { name: "動畫播出分組" }).getByRole("link", { name: "網絡／串流首播", exact: true });
+    await jump.focus();
+    await native.keyboard.press("Enter");
+    await expect(native).toHaveURL(/#anime-streaming$/);
+    await native.locator(`.anime-poster-card__link[href="/anime/${chosen.slug}/"]`).focus();
+    await native.keyboard.press("Enter");
+    await expect(native).toHaveURL(`${origin}/anime/${chosen.slug}/`);
+    await expect(native.getByRole("list", { name: "歌曲核對來源" }).first()).toBeVisible();
+    await expect(native.locator("iframe")).toHaveCount(0);
+  } finally { await nativeContext.close(); }
 });

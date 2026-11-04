@@ -2,6 +2,7 @@
 import MockNotice from "@/components/common/MockNotice.astro";
 import Breadcrumbs from "@/components/common/Breadcrumbs.astro";
 import SongPlaylist from "@/components/playlist/SongPlaylist.astro";
+import SeasonViewNav from "@/components/season/SeasonViewNav.astro";
 import SeasonCatalogReferences from "@/components/season/SeasonCatalogReferences.astro";
 import { getDataProvider, shouldRequireApiData } from "@/data/provider";
 import { loadCatalogSearchData, loadCatalogDirectoryData } from "@/data/page-data";
@@ -52,6 +53,7 @@ const otherAnime = index.filter((anime) => !songAnime.has(anime.slug));
       {siblings.map((entry) => <a href={`/seasons/${entry.id}/`} aria-current={entry.id === season.id ? "page" : undefined}>{entry.titleZhHant.replace("動畫", "")}</a>)}
       <a href="/catalog/">其他年份</a>
     </nav>
+    <SeasonViewNav season={season} current="songs" />
     <SongPlaylist index={index} manifest={manifest} mode="season" initialSeason={season} initialSort="anime" />
     {otherAnime.length > 0 && <section class="season-other" aria-labelledby="other-anime-title">
       <h2 id="other-anime-title">其他已收錄動畫</h2><p>以下作品尚未列出本季已確認的歌曲用途；可進入作品頁查看全部已收錄歌曲、狀態與來源。</p>

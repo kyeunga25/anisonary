@@ -6,6 +6,7 @@ import { curatedAnimeSeeds } from "@/data/curated-seeds";
 import { loadCatalogSearchData } from "@/data/page-data";
 import { publicJsonResponse } from "@/data/public-api-assets";
 import { buildCatalogSearchIndex, serializeCatalogSearchIndex } from "@/utils/catalog-search-index";
+import { groupAnimeForBrowse } from "@/utils/anime-browse";
 import { groupCatalogYears } from "@/utils/catalog-directory";
 import { getPlaylistRows, playlistRowHref, playlistSeasonLabel } from "@/utils/song-playlist";
 
@@ -114,6 +115,10 @@ it("keeps the whole reviewed catalogue consistent across seasons, details, sourc
     theme.links = [{ platform: "YouTube", label: "Unproven video fixture", url: "https://www.youtube.com/watch?v=abcdefghijk", linkType: "direct_track", region: "GLOBAL" }];
   });
   expect(getPlaylistRows(buildCatalogSearchIndex(unproven), videoOptions)).toEqual([]);
+  for (const season of curatedSeasonDetails) {
+    const cards = groupAnimeForBrowse(season.anime).flatMap((group) => group.cards);
+    expect(cards.map(({ anime }) => anime.slug).sort(), season.id).toEqual(season.anime.map((anime) => anime.slug).sort());
+  }
   const serialized = serializeCatalogSearchIndex(index);
   expect(JSON.parse(serialized)).toHaveLength(anime.size);
   expect(serialized).not.toMatch(/posterUrl|bannerUrl|youtubeVideoId|catalogReferences/);

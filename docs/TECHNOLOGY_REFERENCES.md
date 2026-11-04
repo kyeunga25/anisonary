@@ -11,10 +11,10 @@
 | Runtime baseline    | Node.js 22、npm                        | 可重現安裝、build、test 與 Wrangler CLI 執行環境                                |
 | Delivery            | Cloudflare Workers Static Assets       | 直接提供 `dist`，沒有 application Worker entrypoint 或 stateful binding         |
 | Deployment tool     | Wrangler 4                             | local Workers preview、dry-run、version upload 與 explicit deploy               |
-| Offline             | Standard Service Worker／Cache API     | build-time precache 公開同源內容；沒有 runtime cache write                      |
+| Offline             | Standard Service Worker／Cache API     | 只預載斷線提示與共用資產；沒有 runtime cache write                               |
 | Security            | Generated CSP、static `_headers`       | hash inline build output、限制 frame／media／referrer／browser capabilities     |
 | Testing             | Astro check、Vitest 4、Playwright 1.62 | type／contract／catalogue／component／browser／deployment config gates          |
-| SEO／metadata       | `@astrojs/sitemap` 3                   | sitemap generation；排除 API、offline 與 404                                    |
+| SEO／metadata       | `@astrojs/sitemap` 3                   | sitemap generation；排除 API、search-index、offline 與 404                      |
 
 Major／minor version 取自 `package.json`；實際 resolved dependency 以 `package-lock.json` 為準。`wrangler.jsonc` 是 Workers packaging 與 routing 的公開 source of truth，`.nvmrc` 是 Node major 的 source of truth。
 

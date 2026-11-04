@@ -53,7 +53,7 @@ API、資料庫、商標或媒體重用權。完整授權邊界見
 - 不使用 AI 生成圖作公開產品媒體。
 - 首頁使用 code-native HTML／CSS 視覺，不需要 raster illustration 或新增 remote origin。
 - 沒有已核對圖片的作品省略 poster／banner 與圖片來源欄位；作品識別來源獨立記錄，不把交叉連結視作已核對圖片。
-- 作品 poster／banner 目前由 AniList 公開媒體 origin 直接載入；詳情頁連回公開媒體頁，request 使用 `no-referrer`，搜尋與離線 cache 不載入／保存這些圖像。
+- 作品 poster／banner 目前由 AniList 公開媒體 origin 直接載入；海報牆卡片與詳情頁連回公開媒體頁，request 使用 `no-referrer`。海報牆採 lazy loading；首頁、歌曲列表與搜尋不載入圖像，離線 cache 不保存這些圖像。
 - 公開媒體頁可提供來源追溯，但不等同 repository 擁有圖像權利。未完成權利與 hotlink review 前，不下載、修改、重新託管或宣稱擁有授權。
 - 官方 YouTube 只保存 reviewed video ID／連結；不託管、下載或自動播放媒體。
 - 新圖像或 iframe origin 必須先有來源／權利依據，再更新 CSP、privacy 文案和 browser tests；缺任何一項即停止發布。

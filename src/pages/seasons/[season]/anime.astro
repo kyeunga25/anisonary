@@ -1,0 +1,49 @@
+---
+import Breadcrumbs from "@/components/common/Breadcrumbs.astro";
+import MockNotice from "@/components/common/MockNotice.astro";
+import SeasonAnimeWall from "@/components/season/SeasonAnimeWall.astro";
+import SeasonCatalogReferences from "@/components/season/SeasonCatalogReferences.astro";
+import SeasonViewNav from "@/components/season/SeasonViewNav.astro";
+import { loadCatalogDirectoryData } from "@/data/page-data";
+import { getDataProvider, shouldRequireApiData } from "@/data/provider";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import type { PublicSeasonDetail, PublicSeasonSummary } from "@/types/public-api";
+import { compareSeasonsNewestFirst } from "@/utils/season";
+import "@/styles/catalog.css";
+
+export async function getStaticPaths() {
+  const directory = await loadCatalogDirectoryData(getDataProvider(), shouldRequireApiData());
+  if (directory.status === "error") return [];
+  const seasons = [...directory.seasons].sort(compareSeasonsNewestFirst);
+  return seasons.map((season, index) => ({
+    params: { season: season.id },
+    props: { season, newer: seasons[index - 1], older: seasons[index + 1] }
+  }));
+}
+interface Props { season: PublicSeasonDetail; newer?: PublicSeasonSummary; older?: PublicSeasonSummary; }
+const { season, newer, older } = Astro.props;
+const title = `${season.year} ${season.titleZhHant}`;
+---
+
+<BaseLayout title={`${title}｜動畫海報牆`} description={`${title}的動畫海報牆，按已記錄播出日、時間及網絡首播分組。點選作品查看全部主題曲及來源。`}>
+  <div class="catalog-page page-shell">
+    <Breadcrumbs items={[{ label: "季度目錄", href: "/catalog/" }, { label: String(season.year), href: `/catalog/${season.year}/` }, { label: season.titleZhHant, href: `/seasons/${season.id}/` }, { label: "動畫海報牆" }]} />
+    <header class="catalog-heading">
+      <div><h1>{title} · 動畫海報牆</h1><p lang="en">Browse anime by season</p><p>先選動畫，再看全部主題曲。</p></div>
+      <a class="button button--outline" href={`/catalog/${season.year}/`}>返回年份目錄</a>
+    </header>
+    <p class="catalog-meta">{season.anime.length} 套動畫 · 季度索引快照：{season.verifiedAt}</p>
+    {season.isMockData && <MockNotice compact />}
+    <SeasonViewNav season={season} current="anime" />
+    <SeasonAnimeWall season={season} />
+    {season.coverageNote && <p class="catalog-meta">收錄範圍：{season.coverageNote}</p>}
+    <nav class="catalog-adjacent" aria-label="切換海報牆季度">
+      {newer && <a href={`/seasons/${newer.id}/anime/`}>較新一季：{newer.year} {newer.titleZhHant}</a>}
+      {older && <a href={`/seasons/${older.id}/anime/`}>較早一季：{older.year} {older.titleZhHant}</a>}
+    </nav>
+    <SeasonCatalogReferences references={season.catalogReferences} />
+  </div>
+</BaseLayout>
+<style>
+  @media (max-width: 540px) { .catalog-heading > .button { display: none; } }
+</style>

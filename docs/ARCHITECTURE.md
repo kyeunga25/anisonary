@@ -51,6 +51,12 @@ Astro output ──► generated CSP ──► bounded service worker ──► 
 | `src/pages/catalog/` | 固定入口下的年代目錄與年份靜態頁 |
 | `src/utils/song-playlist.ts` | 將文字索引轉為不重複的歌曲列，保留季度 membership、用途、演唱者與動畫排序 |
 | `src/components/playlist/` | 首頁、季度頁、歌曲列表與搜尋共用的緊湊歌曲列及控制項 |
+| `src/utils/anime-browse.ts` | 只由 `PublicAnimeCard` 派生海報牆分組與搜尋文字；不匯入 seed，不推測平台或題材，不改寫公開記錄 |
+| `src/components/anime/AnimeHero.astro`、`AnimeThemes.astro` | 動畫身份與全部歌曲的呈現元件；route 只負責 provider、SEO 與頁面組合 |
+| `src/components/theme/ThemeCard.astro` | 直接展開名單、來源、音源、發行品及媒體；欄位證據保留原生 disclosure |
+| `src/components/season/SeasonViewNav.astro`、`SeasonAnimeWall.astro` | 季度歌單／海報牆切換、播出分組與卡片組合 |
+| `src/components/anime/AnimePosterCard.astro`、`src/scripts/anime-wall.ts` | 共用海報卡及當頁 DOM 篩選；不下載搜尋索引或把輸入寫入 URL／storage |
+| `src/pages/seasons/[season]/anime.astro` | 每個已發布季度的獨立靜態海報牆、前後季度及來源導覽 |
 | `src/pages/songs.astro` | 所有已發布季度的獨立歌曲列表 |
 | `src/scripts/catalog-search.ts`、`src/scripts/catalog-index-loader.ts` | 首屏沿用 HTML；按字詞及季度選片、共用索引與路由快取、核對雜湊、最多 4 個並行請求、重試與過期結果防護；瀏覽器篩選、排序與歌曲 anchor 導航 |
 | `src/pages/api/v1/` | build-time 靜態 JSON routes |
@@ -66,6 +72,10 @@ Astro output ──► generated CSP ──► bounded service worker ──► 
 
 ## 公開資料邊界
 
+展示層只接收公開契約，不直接匯入季度 seed、來源 override 或資料庫。調整卡片、字體、欄位順序、分組或 layout 時，只修改 `components/`、`styles/` 及純投影 utility；只有新增真實資料欄位才需要同步調整 authoring、公開型別與 parser。季度歌單與海報牆沿用相同作品 ID、membership 與作品 URL，不複製作品資料，也不因設計改動執行資料遷移。
+
+海報牆先依現有 `broadcastLabel` 的明確網絡／串流或電視標記分類；只有時間資料時標示「定時播出」，其餘為「播出類型未標示」。不從曲目、作品名或來源網站推斷 TV／WEB、題材或平台授權。網絡首播獨立分組，其餘按編輯星期及時間排列；`25:30` 保留原日。這是呈現投影，並非新增媒體類型或播放平台資料。
+
 - season detail、anime detail 與 `PublicTheme` 都公開 `reviewState` 及 `verifiedAt`；season／anime source records 同時公開語言及用途角色。
 - `PublicTheme.sources[]` 保存每首歌的來源 URL、語言、來源角色及核對日期；`reviewState` 只允許 `reviewed`。
 - 每首已發布歌曲至少有一筆 `first_party` 與一筆 `cross_check`；這是可驗證條件，不是 confidence score。
@@ -74,6 +84,8 @@ Astro output ──► generated CSP ──► bounded service worker ──► 
 - `PublicAnimeCard` 不公開完整度百分比；缺少資料時以明確空狀態表達，不把內部判斷轉成分數。
 
 ## Browser 與媒體邊界
+
+- 季度海報牆獨立輸出完整 HTML 及 `BreadcrumbList`，加入既有 sitemap；卡片採 lazy 圖像，名稱／星期／播出類型只在當頁 DOM 篩選，沒有搜尋資產、外部搜尋請求或 storage。無 JavaScript 時仍可按播出分組、跨季度及進入作品。
 
 - 首屏 HTML 直接提供歌曲列、總數與小型分片清單；沒有互動時不下載索引。季度頁完整 HTML 仍供搜尋引擎及無 JavaScript 瀏覽。
 - 搜尋字詞先經既有 NFKC、大小寫、空白及 OP／ED 別名正規化，取最長字詞的前後短字串作為保守條件；每次最多 4 個 feature，因此最多讀取 4 份路由表。路由檔案分為 64 個 bucket，只有需要的 bucket 才請求，不把整份路由表放進 HTML 或預載。

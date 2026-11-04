@@ -11,7 +11,7 @@
 - 每個公開 season 及 anime detail 都存在；
 - production season 不得標記為 Mock Data；
 - 保留給 smoke 的未知 season／slug 必須回傳 `404`；
-- catalogue 最多驗證 2,000 套作品，同時 request 上限為 8。
+- catalogue 共用 [`catalog-limits.ts`](../src/data/catalog-limits.ts) 的上限：10,000 套唯一作品、20,000 次季度引用，同時 request 上限為 8。
 - anime detail 的每筆歌曲都必須通過 reviewed source ledger，包括第一方／交叉核對角色、語言、HTTPS 及核對日期。
 
 執行 live API smoke 與 fail-closed static build：
