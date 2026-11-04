@@ -1,0 +1,67 @@
+---
+import AnimePosterCard from "@/components/anime/AnimePosterCard.astro";
+import type { PublicSeasonDetail } from "@/types/public-api";
+import { broadcastCategories, groupAnimeForBrowse } from "@/utils/anime-browse";
+import { editorialWeekdays } from "@/utils/weekday";
+
+interface Props { season: PublicSeasonDetail; }
+const { season } = Astro.props;
+const groups = groupAnimeForBrowse(season.anime);
+---
+
+<div class="anime-wall" data-anime-wall>
+  <form class="anime-wall__filters" role="search" aria-label="篩選本季動畫" data-anime-wall-filter hidden>
+    <label>搜尋動畫<input type="search" maxlength="80" autocomplete="off" placeholder="作品名稱、播出資訊…" data-anime-wall-query /></label>
+    <details class="anime-wall__refine" data-anime-wall-refine open>
+      <summary>篩選播出日與類型</summary>
+      <div class="anime-wall__refine-fields">
+        <label>播出星期<select data-anime-wall-weekday><option value="all">全部星期</option>{editorialWeekdays.map((day) => <option value={day.value}>{day.sectionLabel}</option>)}<option value="unknown">播出日未整理</option></select></label>
+        <label>播出類型<select data-anime-wall-category><option value="all">全部類型</option>{broadcastCategories.map((category) => <option value={category.value}>{category.label}</option>)}</select></label>
+      </div>
+    </details>
+    <button class="button button--outline" type="reset">重設</button>
+  </form>
+  <p class="anime-wall__note">日本播出時間 · 深夜 24 時以後保留原播出日 · 網絡首播另列。</p>
+  <div class="anime-wall__directory">
+    <nav class="anime-wall__jump" aria-label="動畫播出分組">{groups.map((group) => <a href={`#anime-${group.id}`} aria-label={group.label} data-anime-group-link={group.id}>{group.id === "streaming" ? "網絡首播" : group.label.replace("星期", "週")}</a>)}</nav>
+    <p role="status" aria-live="polite" data-anime-wall-count>顯示 {season.anime.length}／{season.anime.length} 套動畫</p>
+  </div>
+  <p class="state-message" data-anime-wall-empty hidden>找不到符合的動畫。可改用其他名稱，或重設篩選。</p>
+  {groups.map((group) => <section class="anime-wall__group" id={`anime-${group.id}`} aria-labelledby={`anime-${group.id}-title`} data-anime-group={group.id}>
+    <header><h2 id={`anime-${group.id}-title`}>{group.label}</h2><span data-anime-group-count>{group.cards.length} 套動畫</span></header>
+    <ul class="anime-wall__grid">{group.cards.map((card) => <AnimePosterCard card={card} />)}</ul>
+  </section>)}
+  {groups.length === 0 && <p class="state-message">本季尚無已收錄動畫。</p>}
+  <p class="anime-wall__note">播出類型只依現有播出標記分類；未記錄的播放平台、地區授權與題材不作推定。OP／ED 數只表示現有收錄用途，零筆不代表作品沒有歌曲。</p>
+</div>
+<script>import "@/scripts/anime-wall";</script>
+<style>
+  .anime-wall__filters { align-items: end; background: var(--color-subtle); border: 1px solid var(--color-border); border-radius: var(--radius-control); display: flex; flex-wrap: wrap; gap: 0.7rem; margin-block: 1.2rem 0.8rem; padding: 0.85rem; }
+  label { color: var(--color-muted); display: grid; font-size: 0.75rem; gap: 0.35rem; }
+  .anime-wall__filters > label { flex: 1 1 16rem; }
+  .anime-wall__refine-fields { align-items: end; display: flex; gap: 0.7rem; }
+  .anime-wall__refine summary { color: var(--color-accent); cursor: pointer; font-size: 0.75rem; min-height: 2.75rem; padding-block: 0.65rem; }
+  @media (min-width: 541px) { .anime-wall__refine > summary { display: none; } }
+  input, select { background: var(--color-surface); border: 1px solid var(--color-border-strong); border-radius: var(--radius-control); color: var(--color-ink); font: inherit; font-size: 0.85rem; min-height: 2.75rem; min-width: 0; padding: 0.5rem 0.65rem; width: 100%; }
+  .anime-wall__note { color: var(--color-muted); font-size: 0.75rem; line-height: 1.8; margin-block: 0.8rem; max-width: 65rem; }
+  .anime-wall__directory { align-items: baseline; border-bottom: 1px solid var(--color-border-strong); display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; justify-content: space-between; padding-block: 0.3rem 0.8rem; }
+  .anime-wall__jump { display: flex; flex-wrap: wrap; gap: 0.3rem 0.6rem; }
+  .anime-wall__jump a { color: var(--color-accent); font-size: 0.8rem; line-height: 1.7; padding-block: 0.45rem; text-underline-offset: 0.25em; }
+  .anime-wall__directory p { color: var(--color-muted); font-size: 0.75rem; margin: 0; }
+  .anime-wall__group { padding-block: 1.4rem 1.8rem; scroll-margin-top: 5rem; }
+  .anime-wall__group + .anime-wall__group { border-top: 1px solid var(--color-border); }
+  .anime-wall__group header { align-items: baseline; display: flex; gap: 1rem; margin-bottom: 1.1rem; }
+  h2 { font-size: 1.2rem; margin: 0; }
+  header span { color: var(--color-muted); font-size: 0.75rem; }
+  .anime-wall__grid { display: grid; gap: 1.5rem 1.2rem; grid-template-columns: repeat(6, minmax(0, 1fr)); list-style: none; margin: 0; padding: 0; }
+  @media (max-width: 1200px) { .anime-wall__grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+  @media (max-width: 760px) { .anime-wall__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+  @media (max-width: 540px) {
+    .anime-wall__grid { gap: 1.5rem 0.9rem; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .anime-wall__filters { align-items: center; display: grid; grid-template-columns: minmax(0, 1fr) auto; }
+    .anime-wall__filters > label { grid-column: 1 / -1; }
+    .anime-wall__refine { min-width: 0; }
+    .anime-wall__refine[open] { grid-column: 1 / -1; }
+    .anime-wall__refine-fields label { flex: 1 1 0; min-width: 0; }
+  }
+</style>

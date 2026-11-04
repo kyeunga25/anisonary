@@ -22,11 +22,12 @@ const latest = years[0]?.seasons[0];
       <div>
         <h1>季度目錄</h1>
         <p lang="en">Browse by season</p>
-        <p>選一個季度，直接查看歌曲列表。也可以將所有季度放在一起瀏覽。</p>
+        <p>選一個季度查看歌曲列表，或從動畫海報牆挑選作品。也可以將所有季度的歌曲放在一起瀏覽。</p>
       </div>
       <div class="catalog-actions">
         <a class="button button--primary" href="/songs/">所有歌曲</a>
         {latest && <a class="button button--outline" href={`/seasons/${latest.id}/`}>最新收錄季度</a>}
+        {latest && <a class="button button--outline" href={`/seasons/${latest.id}/anime/`}>最新季度海報牆</a>}
       </div>
     </header>
     {data.status === "error" || catalog.status === "error" ? <ErrorState message="動畫目錄暫時無法取得，請稍後重新載入。" /> : (

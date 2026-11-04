@@ -1,0 +1,39 @@
+---
+import PosterImage from "@/components/common/PosterImage.astro";
+import type { AnimeBrowseCard } from "@/utils/anime-browse";
+
+interface Props { card: AnimeBrowseCard; }
+const { card } = Astro.props;
+const { anime } = card;
+---
+
+<li class="anime-poster-card" data-anime-card data-anime-search={card.searchText} data-anime-weekday={card.weekday ?? "unknown"} data-anime-category={card.category}>
+  <a class="anime-poster-card__link" href={`/anime/${anime.slug}/`}>
+    <div class="anime-poster-card__poster">
+      <PosterImage src={anime.posterUrl} alt={anime.posterAlt} width={360} height={540} decorative />
+    </div>
+    <div class="anime-poster-card__identity">
+      <h3 lang="ja">{anime.titleJa}</h3>
+      {anime.titleZhHant && <p class="anime-poster-card__translation">{anime.titleZhHant}</p>}
+      <p class="anime-poster-card__broadcast">{card.broadcastLabel}</p>
+      <p class="anime-poster-card__songs">OP {anime.opCount} · ED {anime.edCount}<span aria-hidden="true"> →</span><span class="sr-only">，查看動畫與全部主題曲</span></p>
+    </div>
+  </a>
+  {anime.imageSourceUrl && <a class="anime-poster-card__source" href={anime.imageSourceUrl} target="_blank" rel="noopener noreferrer external" aria-label={`${anime.titleJa}：圖像來源（在新分頁開啟）`}>圖像來源：{anime.imageSourceLabel ?? "公開媒體頁"} ↗</a>}
+</li>
+
+<style>
+  .anime-poster-card { min-width: 0; }
+  .anime-poster-card__link { color: var(--color-ink); display: block; text-decoration: none; }
+  .anime-poster-card__poster { aspect-ratio: 2 / 3; background: var(--color-subtle); border: 1px solid var(--color-border); border-radius: var(--radius-card); overflow: hidden; }
+  .anime-poster-card__link:hover .anime-poster-card__poster { border-color: var(--color-accent); }
+  .anime-poster-card__link:hover h3 { color: var(--color-accent); }
+  .anime-poster-card__identity { padding-top: 0.7rem; }
+  h3 { font-size: 0.95rem; font-weight: 650; line-height: 1.5; margin: 0; overflow-wrap: anywhere; }
+  p { color: var(--color-muted); font-size: 0.72rem; line-height: 1.65; margin: 0.3rem 0 0; overflow-wrap: anywhere; }
+  .anime-poster-card__translation { color: var(--color-ink); font-size: 0.78rem; }
+  .anime-poster-card__songs { color: var(--color-accent); font-variant-numeric: tabular-nums; }
+  .anime-poster-card__songs > span[aria-hidden] { float: right; }
+  .anime-poster-card__source { color: var(--color-muted); display: inline-block; font-size: 0.64rem; line-height: 1.7; margin-top: 0.35rem; overflow-wrap: anywhere; padding-block: 0.3rem; text-underline-offset: 0.2em; }
+  @media (max-width: 600px) { h3 { font-size: 0.85rem; } }
+</style>

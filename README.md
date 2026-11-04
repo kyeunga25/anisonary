@@ -8,6 +8,8 @@ This repository contains the public online product: season directory, anime deta
 
 首頁、歌曲列表、季度頁與搜尋共用歌曲列，每頁最多 24 列。季度目錄直接提供各季入口；列表可按季度新舊、歌名、動畫或演唱者排序，也可篩選 OP／ED、劇中歌、主題歌與正版影片。點選歌曲列進入動畫的完整主題曲頁；跨季度搜尋可直接定位歌曲的製作名單與來源。搜尋完全在瀏覽器內進行，YouTube 只於明確操作後連線。網站與同源靜態 JSON API 共用已審閱資料，無 application backend 或 database binding。依賴安全 gate 繼續鎖定 `fast-uri` 3.1.9 並稽核開發依賴。
 
+季度另有 `/seasons/<season>/anime/` 動畫海報牆，可由年份目錄或季度的展示切換進入。它按編輯播出日／時間排列，網絡／串流首播獨立分組，提供作品名稱、星期與播出類型篩選。分類只使用現有公開播出標記；未記錄的題材、播放平台與地區授權不推定。歌曲與海報牆共用同一資料契約；動畫內頁沿用展開版面，直接顯示名單、來源、音源、發行品與媒體。版面責任見 [設計系統](docs/DESIGN_SYSTEM.md)。
+
 Production build 會從最終 HTML 自動產生 hash-based Content Security Policy。政策不使用 `unsafe-inline` 或 `unsafe-eval`，禁止 inline event／style attributes，只開放同源資產、已核對的海報來源及使用者啟動後的 YouTube privacy-enhanced iframe。任何未批准的 media origin 會令 build fail closed。
 
 | 可用性 / Availability                  | 成熟度 / Maturity                       | 證據 / Evidence                                                                                                                                                                                                                                                     |
@@ -87,6 +89,8 @@ Season coverage uses a repository-owned source registry: Annict is the Japanese 
 - combine anime, song or creator scope with year, quarter, OP／ED and official-video filters; sort by quarter, song, anime or artist;
 - song rows open the anime page containing every theme; search rows can jump to the corresponding theme and its credits; cross-season songs appear once, showing the newest matching quarter;
 - the index is limited to 10,000 unique works, 20,000 seasonal references, and 8 MiB of serialized UTF-8 data. Larger catalogues require a reviewed indexing change; these are safety ceilings, not promised device capacity;
+- `/seasons/<season>/` remains the quarter playlist; `/seasons/<season>/anime/` provides an additional poster wall with native day-group links and local name/day/broadcast-category filters;
+- poster walls add lazy remote poster loading alongside the existing anime detail media; attribution and no-referrer apply to both. The complete quarter remains readable without JavaScript;
 - native year／quarter links remain usable without JavaScript;
 - filtering runs in the browser without query parameters, analytics, cookies, or a runtime search API. Requests only retrieve reviewed public index files; successful files are reused, failures offer retry and quarter links, and stale searches cannot replace newer results;
 - the text-only result list does not load remote poster media;

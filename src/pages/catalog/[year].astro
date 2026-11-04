@@ -33,7 +33,7 @@ const { entry, newerYear, olderYear } = Astro.props;
       <div>
         <h1>{entry.year} 動畫目錄</h1>
         <p lang="en">Choose a season</p>
-        <p>已收錄 {entry.seasons.length} 個季度、{entry.animeCount} 套動畫。選擇季度，直接查看歌曲、演唱者與動畫。</p>
+        <p>已收錄 {entry.seasons.length} 個季度、{entry.animeCount} 套動畫。選擇季度查看歌曲列表，或從海報牆挑選動畫。</p>
       </div>
       <a class="button button--outline" href="/search/">搜尋動畫與歌曲</a>
     </header>
@@ -42,7 +42,7 @@ const { entry, newerYear, olderYear } = Astro.props;
         <li><a href={`/seasons/${season.id}/`}>
           <span><strong>{season.titleZhHant}</strong><small>{season.anime.length} 套動畫 · {season.themeCount} 筆 OP／ED</small></span>
           <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 10h14M11 4l6 6-6 6" /></svg>
-        </a></li>
+        </a><a class="catalog-wall-link" href={`/seasons/${season.id}/anime/`} aria-label={`${season.titleZhHant}：動畫海報牆`}>動畫海報牆 <span aria-hidden="true">↗</span></a></li>
       ))}
     </ul>
     <p class="catalog-meta">數量為現有收錄，作品與歌曲清單持續補齊；跨季用途可能重複。未列出的季度尚未收錄。</p>
