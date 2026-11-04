@@ -3,7 +3,79 @@ import type { CuratedAnimeSeed } from "@/data/curated-seeds/types";
 export const curated2022SpringSeeds: CuratedAnimeSeed[] = [
   {"anilistId":143289,"id":"curated-143289","slug":"estab-life-great-escape","seasonIds":["2022-spring"],"startDate":"2022-03-01","titleJa":"エスタブライフ グレイトエスケープ","titleZhHant":"Estab-Life：Great Escape","titleRomaji":"Estab-Life: Great Escape","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143289-zp5ely0gfzsj.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/143289-fzUND9KNVNYs.jpg","editorialWeekday":2,"broadcastLabel":"原TV精確首日／時分待第一方可讀原頁；原seed3/1已由官方證為FOD17:00先行WEB，非TV。原同期交叉記TV4/6 24:35＝實曆4/7 00:35，尚不升第一方；現ON AIR為2023重播，不套原期。","status":"finished","officialSiteUrl":"https://establife.tokyo/","anilistUrl":"https://anilist.co/anime/143289","imageSourceUrl":"https://anilist.co/anime/143289","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/9284","https://youranimes.tw/animes/3295"],"animeThemesUrl":"https://animethemes.moe/anime/estab_life_great_escape","themes":[{"type":"OP","sequence":1,"titleJa":"ラナ","artistDisplayName":"めいちゃん","id":"estab-life-great-escape-op-1","songId":"estab-life-great-escape-op-1-song","sources":[{"label":"動畫官方網站","url":"https://establife.tokyo/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/estab_life_great_escape","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://establife.tokyo/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://establife.tokyo/news/20220301_02.php","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/Estab_Life","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://establife.tokyo/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2022-spring"],"credits":[{"name":"めいちゃん","role":"vocals"}],"titleRomaji":"Rana","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://establife.tokyo/music/","https://establife.tokyo/news/20220301_02.php"],"verifiedAt":"2026-10-22","targetId":"estab-life-great-escape-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://establife.tokyo/music/","https://establife.tokyo/news/20220301_02.php"],"verifiedAt":"2026-10-22","targetId":"estab-life-great-escape-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/estab_life_great_escape"],"verifiedAt":"2026-09-01","targetId":"estab-life-great-escape-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/estab_life_great_escape"],"verifiedAt":"2026-09-01","targetId":"estab-life-great-escape-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/Estab_Life"],"verifiedAt":"2026-10-22","targetId":"estab-life-great-escape-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/Estab_Life"],"verifiedAt":"2026-10-22","targetId":"estab-life-great-escape-op-1"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈ラナ〉：官方音樂資料及交叉來源已確認曲名、演唱名義與片頭曲用途；已確認2022年春季。 原TV精確首播日期與時間仍待官方確認。","resumeWhen":"待唱片公司或製作方公布本曲逐項資料，再補尚未記錄的創作、音源、影片、發行品與正版平台。 待原期官方播出公告或放送局節目檔案可讀後，核實首播日期與時間。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":1,"titleJa":"0","artistDisplayName":"GOOD ON THE REEL","id":"estab-life-great-escape-ed-1","songId":"estab-life-great-escape-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://establife.tokyo/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/estab_life_great_escape","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://establife.tokyo/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://establife.tokyo/news/20220301_02.php","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/Estab_Life","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://establife.tokyo/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2022-spring"],"credits":[{"name":"GOOD ON THE REEL","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://establife.tokyo/music/","https://establife.tokyo/news/20220301_02.php"],"verifiedAt":"2026-10-22","targetId":"estab-life-great-escape-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://establife.tokyo/music/","https://establife.tokyo/news/20220301_02.php"],"verifiedAt":"2026-10-22","targetId":"estab-life-great-escape-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/estab_life_great_escape"],"verifiedAt":"2026-09-01","targetId":"estab-life-great-escape-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/estab_life_great_escape"],"verifiedAt":"2026-09-01","targetId":"estab-life-great-escape-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/Estab_Life"],"verifiedAt":"2026-10-22","targetId":"estab-life-great-escape-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/Estab_Life"],"verifiedAt":"2026-10-22","targetId":"estab-life-great-escape-ed-1"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈0〉：官方音樂資料及交叉來源已確認曲名、演唱名義與片尾曲用途；已確認2022年春季。 原TV精確首播日期與時間仍待官方確認。","resumeWhen":"待唱片公司或製作方公布本曲逐項資料，再補尚未記錄的創作、音源、影片、發行品與正版平台。 待原期官方播出公告或放送局節目檔案可讀後，核實首播日期與時間。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"}],"verifiedAt":"2026-09-01","metadataVerifiedAt":"2026-09-01","metadataSources":[{"url":"https://zh.wikipedia.org/wiki/Estab_Life","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"},{"url":"https://establife.tokyo/news/20220301_01.php","label":"原2022FOD先行公告：3/1先行WEB、4月TV，僅作品／TV季度與WEB區分，不證精確TV首日／分鐘","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://establife.tokyo/music/","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://establife.tokyo/news/20220301_02.php","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}]},
   {"anilistId":147728,"id":"curated-147728","slug":"aharen-san-wa-hakarenai-mini","seasonIds":["2022-spring"],"startDate":"2022-03-11","titleJa":"阿波連さんははかれない ミニ","titleZhHant":"不會拿捏距離的阿波連同學 迷你動畫","titleRomaji":"Aharen-san wa Hakarenai Mini","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx147728-JRO3iZ0taFtH.png","editorialWeekday":5,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://aharen-pr.com/1st/","anilistUrl":"https://anilist.co/anime/147728","imageSourceUrl":"https://anilist.co/anime/147728","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2022-spring?display=list_detailed"],"themes":[],"verifiedAt":"2026-09-01"},
-  {"anilistId":124032,"id":"curated-124032","slug":"ginga-eiyuu-densetsu-die-neue-these-gekitotsu","seasonIds":["2022-spring"],"startDate":"2022-03-17","titleJa":"銀河英雄伝説 Die Neue These 激突","titleZhHant":"銀河英雄傳說 Die Neue These 激突","titleRomaji":"Ginga Eiyuu Densetsu: Die Neue These - Gekitotsu","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx124032-li8JjJdJvDVb.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/124032-jnU1bPCnKUF2.jpg","editorialWeekday":4,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://gineiden-anime.com/","anilistUrl":"https://anilist.co/anime/124032","imageSourceUrl":"https://anilist.co/anime/124032","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/9181"],"themes":[],"verifiedAt":"2026-09-01"},
+  {
+  "anilistId": 124032,
+  "id": "curated-124032",
+  "slug": "ginga-eiyuu-densetsu-die-neue-these-gekitotsu",
+  "seasonIds": [
+    "2022-spring"
+  ],
+  "startDate": "2022-03-17",
+  "titleJa": "銀河英雄伝説 Die Neue These 激突",
+  "titleZhHant": "銀河英雄傳說 Die Neue These 激突",
+  "titleRomaji": "Ginga Eiyuu Densetsu: Die Neue These - Gekitotsu",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx124032-li8JjJdJvDVb.png",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/124032-jnU1bPCnKUF2.jpg",
+  "editorialWeekday": 4,
+  "broadcastLabel": "原劇場先行版：2022年上映；日本日視AnichU首次放送另於2024年7月2日節目日起（第25話起）。原2022入口保持，不作該放送季度；完整常規獨立時段／本體分鐘及逐曲用途待核，不借其他系列音樂。",
+  "status": "finished",
+  "officialSiteUrl": "https://gineiden-anime.com/",
+  "anilistUrl": "https://anilist.co/anime/124032",
+  "imageSourceUrl": "https://anilist.co/anime/124032",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://annict.com/works/9181"
+  ],
+  "themes": [],
+  "verifiedAt": "2026-09-01",
+  "metadataVerifiedAt": "2026-09-01",
+  "metadataSources": [
+    {
+      "label": "動畫官方網站：作品與播出資料",
+      "url": "https://gineiden-anime.com/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-09-01"
+    },
+    {
+      "label": "AniList：作品識別與公開圖像",
+      "url": "https://anilist.co/anime/124032",
+      "language": "en",
+      "role": "identifier",
+      "verifiedAt": "2026-09-01"
+    },
+    {
+      "label": "繁體中文季度列表交叉對照",
+      "url": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+      "language": "zh-Hant",
+      "role": "localized_cross_check",
+      "verifiedAt": "2026-09-01"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://annict.com/works/9181",
+      "language": "ja",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-01"
+    },
+    {
+      "url": "https://www.production-ig.co.jp/hotnews/2023/110501.html",
+      "label": "製作方官方：第3／4系列2022劇場上映與2024首次日本TV的界線",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://ginei.club/infoDetail.php?iKey=1129",
+      "label": "官方portal：激突第25話起2024年7月2日TV與各話版配信",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    }
+  ],
+  "themeAvailability": "pending_verification"
+},
   {"anilistId":149099,"id":"curated-149099","slug":"mahoutsukai-reimeiki-mini-anime","seasonIds":["2022-spring"],"startDate":"2022-03-19","titleJa":"魔法使い黎明期 ミニアニメ","titleZhHant":"魔法使黎明期 迷你動畫","titleRomaji":"Mahoutsukai Reimeiki Mini Anime","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b149099-I1W4uSOViTan.jpg","editorialWeekday":6,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://www.tbs.co.jp/anime/reimeiki/","anilistUrl":"https://anilist.co/anime/149099","imageSourceUrl":"https://anilist.co/anime/149099","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2022-spring?display=list_detailed"],"themes":[],"verifiedAt":"2026-09-01"},
   {"anilistId":151985,"id":"curated-151985","slug":"heroine-tarumono-kiraware-heroine-to-naisho-no-oshigoto-mini-anime","seasonIds":["2022-spring"],"startDate":"2022-03-22","titleJa":"ヒロインたるもの！〜嫌われヒロインと内緒のお仕事〜 ミニアニメ","titleZhHant":"成為女主角！～被討厭的女主角和秘密的工作～迷你動畫","titleRomaji":"Heroine Tarumono!: Kiraware Heroine to Naisho no Oshigoto Mini Anime","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151985-oY3yjEDFpjg5.png","editorialWeekday":2,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://honeyworks-tvanime.com/","anilistUrl":"https://anilist.co/anime/151985","imageSourceUrl":"https://anilist.co/anime/151985","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2022-spring?display=list_detailed"],"themes":[],"verifiedAt":"2026-09-01"},
   {"anilistId":125447,"id":"curated-125447","slug":"thermae-romae-novae","seasonIds":["2022-spring"],"startDate":"2022-03-28","titleJa":"テルマエ・ロマエ ノヴァエ","titleZhHant":"羅馬浴場 NOVAE","titleRomaji":"Thermae Romae Novae","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125447-Sqcq8oDHvZOK.jpg","editorialWeekday":1,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://www.netflix.com/jp/title/81264354","anilistUrl":"https://anilist.co/anime/125447","imageSourceUrl":"https://anilist.co/anime/125447","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2022-spring?display=list_detailed"],"animeThemesUrl":"https://animethemes.moe/anime/thermae_romae_novae","themes":[{"type":"OP","sequence":1,"titleJa":"闘牛士の歌 ～温泉マナーのアリア～","artistDisplayName":"Paolo Andrea Di Pietro"}],"verifiedAt":"2026-09-01"},

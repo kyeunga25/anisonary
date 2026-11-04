@@ -116,7 +116,348 @@ const curated2021WinterSeedRows: CuratedAnimeSeed[] = [
   {"anilistId":113476,"id":"curated-113476","slug":"show-by-rock-stars","seasonIds":["2021-winter"],"startDate":"2021-01-07","titleJa":"SHOW BY ROCK!!STARS!!","titleZhHant":"SHOW BY ROCK!! STARS!!","titleRomaji":"SHOW BY ROCK!! STARS!!","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113476-X0y7eSl4TAHd.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/113476-L368YN6wqSR1.jpg","editorialWeekday":4,"broadcastLabel":"TOKYO MX2021年1月7日(木)22:00；配信22:30另列","status":"finished","officialSiteUrl":"https://showbyrock-anime-s.com/","anilistUrl":"https://anilist.co/anime/113476","imageSourceUrl":"https://anilist.co/anime/113476","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://youranimes.tw/animes/963","https://acgsecrets.hk/anime/697/","https://annict.com/works/7409"],"animeThemesUrl":"https://animethemes.moe/anime/show_by_rock_stars","themes":[{"type":"OP","sequence":1,"titleJa":"ドレミファSTARS!!","titleRomaji":"Do Re Mi Fa STARS!!","artistDisplayName":"プラズマジカ&Mashumairesh!!","id":"show-by-rock-stars-op-1","songId":"show-by-rock-stars-op-1-song","sources":[{"label":"動畫官方網站","url":"https://showbyrock-anime-s.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/show_by_rock_stars","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://showbyrock-anime-s.com/music/1.php","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://news.ponycanyon.co.jp/2020/12/45868","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://news.ponycanyon.co.jp/2020/10/42067","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://cal.syoboi.jp/tid/5850","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://showbyrock-anime-s.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-winter"],"credits":[{"name":"ヨシダタクミ","role":"lyrics"},{"name":"ヨシダタクミ","role":"composition"},{"name":"中島生也","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://showbyrock-anime-s.com/music/1.php"],"verifiedAt":"2026-10-23","targetId":"show-by-rock-stars-op-1-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://news.ponycanyon.co.jp/2020/12/45868"],"verifiedAt":"2026-10-23","targetId":"show-by-rock-stars-op-1-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://news.ponycanyon.co.jp/2020/10/42067"],"verifiedAt":"2026-10-23","targetId":"show-by-rock-stars-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://news.ponycanyon.co.jp/2020/12/45868","https://news.ponycanyon.co.jp/2020/10/42067"],"verifiedAt":"2026-10-23","targetId":"show-by-rock-stars-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://cal.syoboi.jp/tid/5850"],"verifiedAt":"2026-10-23","targetId":"show-by-rock-stars-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://cal.syoboi.jp/tid/5850"],"verifiedAt":"2026-10-23","targetId":"show-by-rock-stars-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://showbyrock-anime-s.com/music/1.php"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈ドレミファSTARS!!〉：正式歌唱名義依原期曲目為プラズマジカ&Mashumairesh!!；保原用途與歌曲，不由角色CV表推每人實唱。","resumeWhen":"待第一方音源版本、官方影片形式與正版發行關係可核，再補詳細資料。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":1,"titleJa":"星空ライトストーリー","titleRomaji":"Hoshizora Light Story","artistDisplayName":"Mashumairesh!!","id":"show-by-rock-stars-ed-1","songId":"show-by-rock-stars-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://showbyrock-anime-s.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/show_by_rock_stars","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://showbyrock-anime-s.com/music/1.php","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://news.ponycanyon.co.jp/2020/12/45868","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://news.ponycanyon.co.jp/2020/10/42067","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://cal.syoboi.jp/tid/5850","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://showbyrock-anime-s.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-winter"],"credits":[{"name":"トミタカズキ","role":"lyrics"},{"name":"トミタカズキ","role":"composition"},{"name":"トミタカズキ","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://showbyrock-anime-s.com/music/1.php"],"verifiedAt":"2026-10-23","targetId":"show-by-rock-stars-ed-1-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://news.ponycanyon.co.jp/2020/12/45868"],"verifiedAt":"2026-10-23","targetId":"show-by-rock-stars-ed-1-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://news.ponycanyon.co.jp/2020/10/42067"],"verifiedAt":"2026-10-23","targetId":"show-by-rock-stars-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://news.ponycanyon.co.jp/2020/12/45868","https://news.ponycanyon.co.jp/2020/10/42067"],"verifiedAt":"2026-10-23","targetId":"show-by-rock-stars-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://cal.syoboi.jp/tid/5850"],"verifiedAt":"2026-10-23","targetId":"show-by-rock-stars-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://cal.syoboi.jp/tid/5850"],"verifiedAt":"2026-10-23","targetId":"show-by-rock-stars-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://showbyrock-anime-s.com/music/1.php"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈星空ライトストーリー〉：已核本期正常用途與冬季；詳細版本與個人演唱不由一般團體名單推定。","resumeWhen":"待第一方音源版本、官方影片形式與正版發行關係可核，再補詳細資料。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"}],"verifiedAt":"2026-09-02","metadataVerifiedAt":"2026-09-02","metadataSources":[{"url":"https://news.ponycanyon.co.jp/2020/12/45868","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-23"}],"broadcastTimeJst":"22:00"},
   {"anilistId":114194,"id":"curated-114194","slug":"beastars-2nd-season","seasonIds":["2021-winter"],"startDate":"2021-01-07","titleJa":"BEASTARS 第2期","titleZhHant":"BEASTARS 第二季","titleRomaji":"BEASTARS 2nd Season","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114194-uMuA92X6JHSj.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/114194-oYdHb4LhmHrs.jpg","editorialWeekday":4,"broadcastLabel":"フジテレビ原標示1月6日25:35首話；通常24:55不代首話","status":"finished","officialSiteUrl":"https://bst-anime.com/","anilistUrl":"https://anilist.co/anime/114194","imageSourceUrl":"https://anilist.co/anime/114194","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://youranimes.tw/animes/745","https://acgsecrets.hk/anime/693/","https://annict.com/works/7224"],"animeThemesUrl":"https://animethemes.moe/anime/beastars_2nd_season","themes":[{"type":"OP","sequence":1,"titleJa":"怪物","titleRomaji":"Kaibutsu","artistDisplayName":"YOASOBI","id":"beastars-2nd-season-op-1","songId":"beastars-2nd-season-op-1-song","sources":[{"label":"動畫官方網站","url":"https://bst-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/beastars_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"TOHO animation チャンネル 官方影片","url":"https://www.youtube.com/watch?v=LJBHySglLXU","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://bst-anime.com/sp/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/BEASTARS","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://bst-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-winter"],"credits":[{"name":"ikura","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://bst-anime.com/sp/"],"verifiedAt":"2026-10-23","targetId":"beastars-2nd-season-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://bst-anime.com/sp/"],"verifiedAt":"2026-10-23","targetId":"beastars-2nd-season-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/BEASTARS"],"verifiedAt":"2026-10-23","targetId":"beastars-2nd-season-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/BEASTARS"],"verifiedAt":"2026-10-23","targetId":"beastars-2nd-season-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://bst-anime.com/sp/"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈怪物〉：已核本期正常用途與冬季；詳細版本與個人演唱不由一般團體名單推定。","resumeWhen":"待第一方正式詞曲編、音源版本、官方影片形式與正版發行資料可讀後補缺。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":1,"titleJa":"優しい彗星","titleRomaji":"Yasashii Suisei","artistDisplayName":"YOASOBI","id":"beastars-2nd-season-ed-1","songId":"beastars-2nd-season-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://bst-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/beastars_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"TOHO animation チャンネル 官方影片","url":"https://www.youtube.com/watch?v=1dr4HfjgtUU","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://bst-anime.com/sp/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/BEASTARS","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://bst-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-winter"],"credits":[{"name":"ikura","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://bst-anime.com/sp/"],"verifiedAt":"2026-10-23","targetId":"beastars-2nd-season-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://bst-anime.com/sp/"],"verifiedAt":"2026-10-23","targetId":"beastars-2nd-season-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/BEASTARS"],"verifiedAt":"2026-10-23","targetId":"beastars-2nd-season-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/BEASTARS"],"verifiedAt":"2026-10-23","targetId":"beastars-2nd-season-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://bst-anime.com/sp/"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈優しい彗星〉：已核本期正常用途與冬季；詳細版本與個人演唱不由一般團體名單推定。","resumeWhen":"待第一方正式詞曲編、音源版本、官方影片形式與正版發行資料可讀後補缺。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"}],"verifiedAt":"2026-09-02","metadataVerifiedAt":"2026-09-02","metadataSources":[{"url":"https://bst-anime.com/sp/","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-23"}],"broadcastTimeJst":"01:35"},
   {"anilistId":114301,"id":"curated-114301","slug":"hortensia-saga","seasonIds":["2021-winter"],"startDate":"2021-01-07","titleJa":"オルタンシア・サーガ","titleZhHant":"Hortensia SAGA 蒼之騎士團","titleRomaji":"Hortensia Saga","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114301-Qig3ulYPd9ur.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/114301-vPL85yxiKDTH.jpg","editorialWeekday":4,"broadcastLabel":"TOKYO MX／BS11ほか原標2021年1月6日24:30，實曆翌日00:30","status":"finished","officialSiteUrl":"https://site.animehorsaga.jp/","anilistUrl":"https://anilist.co/anime/114301","imageSourceUrl":"https://anilist.co/anime/114301","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://youranimes.tw/animes/962","https://acgsecrets.hk/anime/676/","https://annict.com/works/7246"],"animeThemesUrl":"https://animethemes.moe/anime/hortensia_saga_tv","themes":[{"type":"OP","sequence":1,"titleJa":"LEADER","artistDisplayName":"MY FIRST STORY","id":"hortensia-saga-op-1","songId":"hortensia-saga-op-1-song","sources":[{"label":"動畫官方網站","url":"https://site.animehorsaga.jp/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/hortensia_saga_tv","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"アニプレックス チャンネル 官方影片","url":"https://www.youtube.com/watch?v=NE6xyao8YYo","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://animehorsaga.jp/music/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://animehorsaga.jp/onair/","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/Hortensia_SAGA_%E8%92%BC%E4%B9%8B%E9%A8%8E%E5%A3%AB%E5%9C%98","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://site.animehorsaga.jp/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-winter"],"credits":[],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://animehorsaga.jp/music/"],"verifiedAt":"2026-10-23","targetId":"hortensia-saga-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animehorsaga.jp/music/"],"verifiedAt":"2026-10-23","targetId":"hortensia-saga-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/Hortensia_SAGA_%E8%92%BC%E4%B9%8B%E9%A8%8E%E5%A3%AB%E5%9C%98"],"verifiedAt":"2026-10-23","targetId":"hortensia-saga-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/Hortensia_SAGA_%E8%92%BC%E4%B9%8B%E9%A8%8E%E5%A3%AB%E5%9C%98"],"verifiedAt":"2026-10-23","targetId":"hortensia-saga-op-1"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈LEADER〉：已核本曲原名、正式名義與冬季正常用途。","resumeWhen":"待第一方逐曲編曲、未明創作職與音源／正版發行關係可核，再補對應欄位。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":1,"titleJa":"夜想と白昼夢","titleRomaji":"Yasou to Hakuchuumu","artistDisplayName":"まふまふ","id":"hortensia-saga-ed-1","songId":"hortensia-saga-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://site.animehorsaga.jp/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/hortensia_saga_tv","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://animehorsaga.jp/music/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://animehorsaga.jp/onair/","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/Hortensia_SAGA_%E8%92%BC%E4%B9%8B%E9%A8%8E%E5%A3%AB%E5%9C%98","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://site.animehorsaga.jp/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-winter"],"credits":[],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://animehorsaga.jp/music/"],"verifiedAt":"2026-10-23","targetId":"hortensia-saga-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animehorsaga.jp/music/"],"verifiedAt":"2026-10-23","targetId":"hortensia-saga-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/Hortensia_SAGA_%E8%92%BC%E4%B9%8B%E9%A8%8E%E5%A3%AB%E5%9C%98"],"verifiedAt":"2026-10-23","targetId":"hortensia-saga-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/Hortensia_SAGA_%E8%92%BC%E4%B9%8B%E9%A8%8E%E5%A3%AB%E5%9C%98"],"verifiedAt":"2026-10-23","targetId":"hortensia-saga-ed-1"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈夜想と白昼夢〉：已核本曲原名、正式名義與冬季正常用途。","resumeWhen":"待第一方逐曲編曲、未明創作職與音源／正版發行關係可核，再補對應欄位。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":2,"titleJa":"VEIL","artistDisplayName":"マリエル・レ・オルタンシア(CV.堀江由衣)","id":"hortensia-saga-ed-2","songId":"hortensia-saga-ed-2-song","sources":[{"label":"動畫官方網站","url":"https://site.animehorsaga.jp/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/hortensia_saga_tv","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://animehorsaga.jp/news/?article_id=56446","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://animehorsaga.jp/onair/","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/Hortensia_SAGA_%E8%92%BC%E4%B9%8B%E9%A8%8E%E5%A3%AB%E5%9C%98","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://site.animehorsaga.jp/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-winter"],"credits":[{"name":"土橋亜希","role":"lyrics"},{"name":"ZENTA","role":"composition"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://animehorsaga.jp/news/?article_id=56446"],"verifiedAt":"2026-10-23","targetId":"hortensia-saga-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animehorsaga.jp/news/?article_id=56446"],"verifiedAt":"2026-10-23","targetId":"hortensia-saga-ed-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/Hortensia_SAGA_%E8%92%BC%E4%B9%8B%E9%A8%8E%E5%A3%AB%E5%9C%98"],"verifiedAt":"2026-10-23","targetId":"hortensia-saga-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/Hortensia_SAGA_%E8%92%BC%E4%B9%8B%E9%A8%8E%E5%A3%AB%E5%9C%98"],"verifiedAt":"2026-10-23","targetId":"hortensia-saga-ed-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://animehorsaga.jp/news/?article_id=56446"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈VEIL〉：已核第8話片尾用途與官方角色正式名義；不由角色配音表推個人實唱。","resumeWhen":"待第一方逐曲編曲與音源／正版發行資料可核，再補詳細關係；不以MV推錄音版本。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"}],"verifiedAt":"2026-09-02","metadataVerifiedAt":"2026-09-02","metadataSources":[{"url":"https://zh.wikipedia.org/wiki/Hortensia_SAGA_%E8%92%BC%E4%B9%8B%E9%A8%8E%E5%A3%AB%E5%9C%98","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"},{"url":"https://animehorsaga.jp/onair/","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-23"}],"broadcastTimeJst":"00:30"},
-  {"anilistId":119123,"id":"curated-119123","slug":"soukou-musume-senki","seasonIds":["2021-winter"],"startDate":"2021-01-07","titleJa":"装甲娘戦機","titleZhHant":"裝甲娘戰機","titleRomaji":"Soukou Musume Senki","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx119123-KmxEMsv7q0uR.jpg","editorialWeekday":4,"broadcastLabel":"日本首播／時間未整理","status":"finished","anilistUrl":"https://anilist.co/anime/119123","imageSourceUrl":"https://anilist.co/anime/119123","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://youranimes.tw/animes/791","https://acgsecrets.hk/anime/703/","https://annict.com/works/6596"],"animeThemesUrl":"https://animethemes.moe/anime/soukou_musume_senki","themes":[{"type":"OP","sequence":1,"titleJa":"Dream hopper","artistDisplayName":"逢田梨香子","sourceMode":"explicit","sources":[{"url":"https://rikakoaida.com/news/645/","label":"第一方本曲原名與正式名義；本次不核TV用途及季度","language":"ja","role":"first_party","verifiedAt":"2026-10-23"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/soukou_musume_senki","language":"en","role":"cross_check","verifiedAt":"2026-09-02"}],"links":[]},{"type":"ED","sequence":1,"titleJa":"コンパスソング","titleRomaji":"Compass Song","artistDisplayName":"鹿乃","sourceMode":"explicit","sources":[{"url":"https://www.teichiku.co.jp/artist/kano/discography/TEI-170.html","label":"第一方本曲原名與正式名義；本次不核TV用途及季度","language":"ja","role":"first_party","verifiedAt":"2026-10-23"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/soukou_musume_senki","language":"en","role":"cross_check","verifiedAt":"2026-09-02"}],"links":[]}],"verifiedAt":"2026-09-02","metadataVerifiedAt":"2026-09-02","metadataSources":[{"url":"https://rikakoaida.com/news/645/","label":"藝人官方原期資料：本作原名；不授TV日期、用途或季度","language":"ja","role":"first_party","verifiedAt":"2026-10-23"}]},
+  {
+  "anilistId": 119123,
+  "id": "curated-119123",
+  "slug": "soukou-musume-senki",
+  "seasonIds": [
+    "2021-winter"
+  ],
+  "startDate": "2021-01-07",
+  "titleJa": "装甲娘戦機",
+  "titleZhHant": "裝甲娘戰機",
+  "titleRomaji": "Soukou Musume Senki",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx119123-KmxEMsv7q0uR.jpg",
+  "editorialWeekday": 3,
+  "broadcastLabel": "2021冬日本TV：BS11原2021/1/20星期三25:30–26:00完整常規30分鐘槽已核，非淨片長。原首播日來源有1/6與1/7差異，精確首日／原最先播台時刻待核；不改原日期。",
+  "status": "finished",
+  "anilistUrl": "https://anilist.co/anime/119123",
+  "imageSourceUrl": "https://anilist.co/anime/119123",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/791",
+    "https://acgsecrets.hk/anime/703/",
+    "https://annict.com/works/6596"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/soukou_musume_senki",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "Dream hopper",
+      "artistDisplayName": "逢田梨香子",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://rikakoaida.com/news/645/",
+          "label": "本曲藝人／唱片公司官方：原名、演唱、TV用途與創作名單",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/soukou_musume_senki",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E8%A3%9D%E7%94%B2%E5%A8%98",
+          "label": "中文本期音樂表：曲名、演唱及OP／ED交叉",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "links": [],
+      "id": "soukou-musume-senki-op-1",
+      "songId": "soukou-musume-senki-op-1-song",
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://rikakoaida.com/news/645/"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "soukou-musume-senki-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://rikakoaida.com/news/645/"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "soukou-musume-senki-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E8%A3%9D%E7%94%B2%E5%A8%98"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "soukou-musume-senki-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E8%A3%9D%E7%94%B2%E5%A8%98"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "soukou-musume-senki-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://rikakoaida.com/news/645/"
+          ],
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "credits": [
+        {
+          "name": "逢田梨香子",
+          "role": "vocals"
+        },
+        {
+          "name": "志渡ななみ",
+          "role": "lyrics"
+        },
+        {
+          "name": "野間康介",
+          "role": "composition"
+        },
+        {
+          "name": "野間康介",
+          "role": "arrangement"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "本期TV基本資料與本曲詞曲編已核；舊影片與其他來源日期保持，未由商品曲序差異推定TVsize或新錄音。",
+          "resumeWhen": "詳細階段依本曲精確音源、影片、發行品及平台資料補；商品頁與其他平台版本若曲序不同，須先核版別。",
+          "checkedAt": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "コンパスソング",
+      "titleRomaji": "Compass Song",
+      "artistDisplayName": "鹿乃",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.teichiku.co.jp/artist/kano/discography/TEI-170.html",
+          "label": "本曲藝人／唱片公司官方：原名、演唱、TV用途與創作名單",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/soukou_musume_senki",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E8%A3%9D%E7%94%B2%E5%A8%98",
+          "label": "中文本期音樂表：曲名、演唱及OP／ED交叉",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "links": [],
+      "id": "soukou-musume-senki-ed-1",
+      "songId": "soukou-musume-senki-ed-1-song",
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.teichiku.co.jp/artist/kano/discography/TEI-170.html"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "soukou-musume-senki-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.teichiku.co.jp/artist/kano/discography/TEI-170.html"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "soukou-musume-senki-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E8%A3%9D%E7%94%B2%E5%A8%98"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "soukou-musume-senki-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E8%A3%9D%E7%94%B2%E5%A8%98"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "soukou-musume-senki-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.teichiku.co.jp/artist/kano/discography/TEI-170.html"
+          ],
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "credits": [
+        {
+          "name": "鹿乃",
+          "role": "vocals"
+        },
+        {
+          "name": "鹿乃",
+          "role": "lyrics"
+        },
+        {
+          "name": "田中秀和（MONACA）",
+          "role": "composition"
+        },
+        {
+          "name": "田中秀和（MONACA）",
+          "role": "arrangement"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "本期TV基本資料與本曲詞曲編已核；舊影片與其他來源日期保持，未由商品曲序差異推定TVsize或新錄音。",
+          "resumeWhen": "詳細階段依本曲精確音源、影片、發行品及平台資料補；商品頁與其他平台版本若曲序不同，須先核版別。",
+          "checkedAt": "2026-11-05"
+        }
+      ]
+    }
+  ],
+  "verifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "label": "AniList：作品識別與公開圖像",
+      "url": "https://anilist.co/anime/119123",
+      "language": "en",
+      "role": "identifier",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "繁體中文季度列表交叉對照",
+      "url": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+      "language": "zh-Hant",
+      "role": "localized_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "AnimeThemes：OP／ED 曲目交叉核對",
+      "url": "https://animethemes.moe/anime/soukou_musume_senki",
+      "language": "en",
+      "role": "theme_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "繁中作品頁：本2021冬系列與12話身分",
+      "url": "https://youranimes.tw/animes/791",
+      "language": "zh-Hant",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://acgsecrets.hk/anime/703/",
+      "language": "zh-Hant",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://annict.com/works/6596",
+      "language": "ja",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "url": "https://rikakoaida.com/news/645/",
+      "label": "藝人官方原期資料：本作原名；不授TV日期、用途或季度",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-23"
+    },
+    {
+      "url": "https://www.bs11.jp/corporate/shubetsu/pdf/shubetsu_202101.pdf",
+      "label": "BS11 2021年1月表：装甲娘戦機週三25:30–26:00完整常規槽",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-11-05"
+    }
+  ],
+  "broadcastTimeJst": "25:30"
+},
   {
     anilistId: 127692,
     id: "curated-127692",

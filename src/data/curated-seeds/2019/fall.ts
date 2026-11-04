@@ -12,7 +12,7 @@ type Fall2019SeedInput = Omit<
   | "wikipediaUrl"
   | "sourceReferenceUrls"
   | "verifiedAt"
-> & Partial<Pick<CuratedAnimeSeed, "seasonIds">>;
+> & Partial<Pick<CuratedAnimeSeed, "seasonIds" | "editorialWeekday">>;
 
 const wikipediaUrl =
   "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8";
@@ -27,7 +27,7 @@ function fall2019Seed(row: Fall2019SeedInput): CuratedAnimeSeed {
     ...row,
     id: `curated-${row.anilistId}`,
     seasonIds: row.seasonIds ?? ["2019-fall"],
-    editorialWeekday: weekday || 7,
+    editorialWeekday: row.editorialWeekday ?? (weekday || 7),
     status: "finished",
     anilistUrl,
     imageSourceUrl: anilistUrl,
@@ -55,35 +55,296 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
     themes: [],
   },
   {
-    anilistId: 100780,
-    slug: "ginga-eiyuu-densetsu-die-neue-these-seiran",
-    startDate: "2019-09-26",
-    titleJa: "銀河英雄伝説 Die Neue These 星乱",
-    titleZhHant: "銀河英雄傳說 Die Neue These 星亂",
-    titleRomaji: "Ginga Eiyuu Densetsu: Die Neue These - Seiran",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100780-0umTIigEolK8.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100780-KdLpklET0Yh3.jpg",
-    broadcastLabel: "日本網絡首播／時間未整理",
-    officialSiteUrl: "https://gineiden-anime.com/",
-    animeThemesUrl:
-      "https://animethemes.moe/anime/ginga_eiyuu_densetsu_die_neue_these_seiran",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "Binary Star",
-        artistDisplayName: "SawanoHiroyuki[nZk]:Uru",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "Tranquility",
-        artistDisplayName: "SawanoHiroyuki[nZk]:Anly",
-      },
-    ],
-  },
+  "anilistId": 100780,
+  "slug": "ginga-eiyuu-densetsu-die-neue-these-seiran",
+  "startDate": "2019-09-26",
+  "titleJa": "銀河英雄伝説 Die Neue These 星乱",
+  "titleZhHant": "銀河英雄傳說 Die Neue These 星亂",
+  "titleRomaji": "Ginga Eiyuu Densetsu: Die Neue These - Seiran",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100780-0umTIigEolK8.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/100780-KdLpklET0Yh3.jpg",
+  "broadcastLabel": "原2019劇場先行入口保持；星乱CS電視版：ファミリー劇場2020年2月週三22:00–22:30，第16–19話的四週完整常規30分槽已核，非淨片長。最早TV首日及其他季度待核；NHK另用新曲，不混用。",
+  "officialSiteUrl": "https://gineiden-anime.com/",
+  "animeThemesUrl": "https://animethemes.moe/anime/ginga_eiyuu_densetsu_die_neue_these_seiran",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "Binary Star",
+      "artistDisplayName": "SawanoHiroyuki[nZk]:Uru",
+      "id": "ginga-eiyuu-densetsu-die-neue-these-seiran-op-1",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://gineiden-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/ginga_eiyuu_densetsu_die_neue_these_seiran",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.fami-geki.com/gineiden/",
+          "label": "ファミリー劇場官方：星乱TV片頭／片尾曲、曲名與完整名義",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%8A%80%E6%B2%B3%E8%8B%B1%E9%9B%84%E5%82%B3%E8%AA%AA",
+          "label": "中文逐期音樂表：星乱原主題曲及NHK新曲分開交叉",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "songId": "ginga-eiyuu-densetsu-die-neue-these-seiran-op-1-song",
+      "seasonIds": [
+        "2019-fall",
+        "2020-winter"
+      ],
+      "usageLabel": "原星乱主題曲・ファミリー劇場TV放送版",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.fami-geki.com/gineiden/"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "ginga-eiyuu-densetsu-die-neue-these-seiran-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.fami-geki.com/gineiden/"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "ginga-eiyuu-densetsu-die-neue-these-seiran-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%8A%80%E6%B2%B3%E8%8B%B1%E9%9B%84%E5%82%B3%E8%AA%AA"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "ginga-eiyuu-densetsu-die-neue-these-seiran-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%8A%80%E6%B2%B3%E8%8B%B1%E9%9B%84%E5%82%B3%E8%AA%AA"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "ginga-eiyuu-densetsu-die-neue-these-seiran-op-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters"
+          ],
+          "note": "2020冬CS TV用途及原有2019入口已保存；其他CS季度逐曲延用未核，NHK新曲不沿用本用途。",
+          "resumeWhen": "取得本CS版其他季度逐話音樂及原播日期時補季；NHK新用途另待同版完整常規時段／正文分鐘，不由全1–24話公告推定本曲延用。",
+          "checkedAt": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "Tranquility",
+      "artistDisplayName": "SawanoHiroyuki[nZk]:Anly",
+      "id": "ginga-eiyuu-densetsu-die-neue-these-seiran-ed-1",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://gineiden-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/ginga_eiyuu_densetsu_die_neue_these_seiran",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.fami-geki.com/gineiden/",
+          "label": "ファミリー劇場官方：星乱TV片頭／片尾曲、曲名與完整名義",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%8A%80%E6%B2%B3%E8%8B%B1%E9%9B%84%E5%82%B3%E8%AA%AA",
+          "label": "中文逐期音樂表：星乱原主題曲及NHK新曲分開交叉",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "songId": "ginga-eiyuu-densetsu-die-neue-these-seiran-ed-1-song",
+      "seasonIds": [
+        "2019-fall",
+        "2020-winter"
+      ],
+      "usageLabel": "原星乱主題曲・ファミリー劇場TV放送版",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.fami-geki.com/gineiden/"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "ginga-eiyuu-densetsu-die-neue-these-seiran-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.fami-geki.com/gineiden/"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "ginga-eiyuu-densetsu-die-neue-these-seiran-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%8A%80%E6%B2%B3%E8%8B%B1%E9%9B%84%E5%82%B3%E8%AA%AA"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "ginga-eiyuu-densetsu-die-neue-these-seiran-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%8A%80%E6%B2%B3%E8%8B%B1%E9%9B%84%E5%82%B3%E8%AA%AA"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "ginga-eiyuu-densetsu-die-neue-these-seiran-ed-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters"
+          ],
+          "note": "2020冬CS TV用途及原有2019入口已保存；其他CS季度逐曲延用未核，NHK新曲不沿用本用途。",
+          "resumeWhen": "取得本CS版其他季度逐話音樂及原播日期時補季；NHK新用途另待同版完整常規時段／正文分鐘，不由全1–24話公告推定本曲延用。",
+          "checkedAt": "2026-11-05"
+        }
+      ]
+    }
+  ],
+  "seasonIds": [
+    "2019-fall",
+    "2020-winter"
+  ],
+  "editorialWeekday": 3,
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "label": "動畫官方網站：作品與播出資料",
+      "url": "https://gineiden-anime.com/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "AniList：作品識別與公開圖像",
+      "url": "https://anilist.co/anime/100780",
+      "language": "en",
+      "role": "identifier",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "繁體中文季度列表交叉對照",
+      "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+      "language": "zh-Hant",
+      "role": "localized_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "AnimeThemes：OP／ED 曲目交叉核對",
+      "url": "https://animethemes.moe/anime/ginga_eiyuu_densetsu_die_neue_these_seiran",
+      "language": "en",
+      "role": "theme_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://acgsecrets.hk/bangumi/201910/",
+      "language": "zh-Hant",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://www.kansou.me/archive/2019_autumn.html",
+      "language": "ja",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "url": "https://www.fami-geki.com/gineiden/",
+      "label": "播出方官方：星乱CS TV版別及OP／ED名單",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://www.fami-geki.com/timetable/202002.pdf",
+      "label": "播出方2020年2月表：星乱第16–19話22:00–22:30完整槽",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://gineiden-anime.com/news/1164",
+      "label": "作品官方：NHK 2020放送另用新OP／ED，與CS歌曲分開",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-11-05"
+    }
+  ],
+  "broadcastTimeJst": "22:00"
+},
   {
     anilistId: 112036,
     slug: "mono-no-kamisama-cocotama",
@@ -9989,55 +10250,409 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
 ],
   },
   {
-    anilistId: 109616,
-    slug: "mugen-no-juunin-immortal",
-    startDate: "2019-10-10",
-    titleJa: "無限の住人-IMMORTAL-",
-    titleZhHant: "無限之住人-IMMORTAL-",
-    titleRomaji: "Mugen no Juunin: IMMORTAL",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109616-cPuNKosITAvn.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/109616-WLWOWPGkfauS.jpg",
-    broadcastLabel: "日本網絡首播／時間未整理",
-    officialSiteUrl: "https://mugen-immortal.com/",
-    animeThemesUrl: "https://animethemes.moe/anime/mugen_no_juunin_immortal",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "SURVIVE OF VISION",
-        artistDisplayName: "清春",
-      },
-    ],
-  },
+  "anilistId": 109616,
+  "slug": "mugen-no-juunin-immortal",
+  "startDate": "2019-10-10",
+  "titleJa": "無限の住人-IMMORTAL-",
+  "titleZhHant": "無限之住人-IMMORTAL-",
+  "titleRomaji": "Mugen no Juunin: IMMORTAL",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109616-cPuNKosITAvn.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/109616-WLWOWPGkfauS.jpg",
+  "broadcastLabel": "原2019 WEB配信入口保持；2020日本TV：TOKYO MX自4/7節目日起每週二25:35–26:05（實曆4/8週三01:35），完整獨立30分常規槽已核，非淨長。TV歌曲及後續季度待核，不由配信版推定。",
+  "officialSiteUrl": "https://mugen-immortal.com/",
+  "animeThemesUrl": "https://animethemes.moe/anime/mugen_no_juunin_immortal",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "SURVIVE OF VISION",
+      "artistDisplayName": "清春",
+      "id": "mugen-no-juunin-immortal-op-1",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://mugen-immortal.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "公開資料：OP／ED 用途、版本與演唱者交叉核對",
+          "url": "https://anison.online/season?season_id=20",
+          "language": "multi",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/mugen_no_juunin_immortal",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        }
+      ],
+      "seasonIds": [],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters"
+          ],
+          "note": "原2019用途、曲名及名義保持；本輪只補2020TV形式。官方歌曲正文不可讀，TV OP逐曲證據與季度仍未閉合；交叉對後半用途有矛盾，未新增後半曲。",
+          "resumeWhen": "官方本曲／2020公告恢復，或藝人／唱片方直接明列本TV曲名、演唱及OP用途，並解開交叉用途矛盾時續查。",
+          "checkedAt": "2026-11-05"
+        },
+        {
+          "fields": [
+            "use_quarters"
+          ],
+          "note": "原2019配信用途、ID與來源日期保留；新增TV會員前，舊缺省季度不能當作逐曲已核季度，也不能自動擴張至後TV。本輪沒有補出原用途的第一方季度／用途證據，暫列全站及動畫頁，不加入季度歌單。",
+          "resumeWhen": "取得原配信版本本曲的精確用途及原公開日期／季度證據後恢復相應季度；後TV歌曲另存，不套入原用途。",
+          "checkedAt": "2026-11-05"
+        }
+      ]
+    }
+  ],
+  "seasonIds": [
+    "2019-fall",
+    "2020-spring"
+  ],
+  "editorialWeekday": 2,
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "label": "動畫官方網站：作品與播出資料",
+      "url": "https://mugen-immortal.com/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "AniList：作品識別與公開圖像",
+      "url": "https://anilist.co/anime/109616",
+      "language": "en",
+      "role": "identifier",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "繁體中文季度列表交叉對照",
+      "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+      "language": "zh-Hant",
+      "role": "localized_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "AnimeThemes：OP／ED 曲目交叉核對",
+      "url": "https://animethemes.moe/anime/mugen_no_juunin_immortal",
+      "language": "en",
+      "role": "theme_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://acgsecrets.hk/bangumi/201910/",
+      "language": "zh-Hant",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://www.kansou.me/archive/2019_autumn.html",
+      "language": "ja",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "url": "https://s.mxtv.jp/company/press/press2019_900001.pdf",
+      "label": "TOKYO MX 2020春官方改編表：無限の住人4/7起週二25:35–26:05",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-11-05"
+    }
+  ],
+  "broadcastTimeJst": "25:35"
+},
   {
-    anilistId: 110786,
-    slug: "gundam-build-divers-re-rise",
-    startDate: "2019-10-10",
-    titleJa: "ガンダムビルドダイバーズRe:RISE",
-    titleZhHant: "鋼彈創鬥者 潛網大戰 Re:RISE",
-    titleRomaji: "Gundam Build Divers Re:RISE",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110786-fkPT1rFx9VFU.png",
-    broadcastLabel: "日本網絡首播／時間未整理",
-    officialSiteUrl: "https://gundam-bd.net/",
-    animeThemesUrl: "https://animethemes.moe/anime/gundam_build_divers_rerise",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "Re:RISE",
-        artistDisplayName: "スピラ・スピカ",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "MAGIC TIME",
-        artistDisplayName: "スダンナユズユリー",
-      },
-    ],
-  },
+  "anilistId": 110786,
+  "slug": "gundam-build-divers-re-rise",
+  "startDate": "2019-10-10",
+  "titleJa": "ガンダムビルドダイバーズRe:RISE",
+  "titleZhHant": "鋼彈創鬥者 潛網大戰 Re:RISE",
+  "titleRomaji": "Gundam Build Divers Re:RISE",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110786-fkPT1rFx9VFU.png",
+  "broadcastLabel": "原2019第1部分入口保持；2020 TV：TOKYO MX自1/28週二22:29起，BS11自1/18週六19:00再播。完整獨立常規槽／本體分鐘及2020逐曲用途待核，第2部分另計。",
+  "officialSiteUrl": "https://gundam-bd.net/",
+  "animeThemesUrl": "https://animethemes.moe/anime/gundam_build_divers_rerise",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "リライズ",
+      "artistDisplayName": "スピラ・スピカ",
+      "id": "gundam-build-divers-re-rise-op-1",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://gundam-bd.net/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/gundam_build_divers_rerise",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.sunrise-inc.co.jp/work/news.php?id=17837",
+          "label": "製作方官方：第1部分原主題曲、正確曲名及演唱",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%81%94%E5%89%B5%E6%88%B0%E6%BD%9B%E8%A1%8C%E8%80%85Re:RISE",
+          "label": "中文第1部分音樂表：曲名及演唱交叉，其他部分分開",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "songId": "gundam-build-divers-rerise-2-ed-3-song",
+      "seasonIds": [
+        "2019-fall"
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.sunrise-inc.co.jp/work/news.php?id=17837"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "gundam-build-divers-rerise-2-ed-3-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%81%94%E5%89%B5%E6%88%B0%E6%BD%9B%E8%A1%8C%E8%80%85Re:RISE"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "gundam-build-divers-rerise-2-ed-3-song"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "gundam-build-divers-re-rise-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.sunrise-inc.co.jp/work/news.php?id=17837"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "gundam-build-divers-re-rise-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%81%94%E5%89%B5%E6%88%B0%E6%BD%9B%E8%A1%8C%E8%80%85Re:RISE"
+          ],
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters"
+          ],
+          "note": "本第1部分原曲名、演唱與主題曲身分有新證據；2020TV完整常規時段／本體分鐘及逐曲用途仍待核。不借第2部分或最終話片尾解除本用途缺口。",
+          "resumeWhen": "同第1部分2020TV完整獨立槽／正版正文分鐘及逐曲用話可直接核對後，補TV用途與季度；不重搜第2部分已封頂的特殊ED。",
+          "checkedAt": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "MAGIC TIME",
+      "artistDisplayName": "スダンナユズユリー",
+      "id": "gundam-build-divers-re-rise-ed-1",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://gundam-bd.net/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/gundam_build_divers_rerise",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.sunrise-inc.co.jp/work/news.php?id=17837",
+          "label": "製作方官方：第1部分原主題曲、正確曲名及演唱",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%81%94%E5%89%B5%E6%88%B0%E6%BD%9B%E8%A1%8C%E8%80%85Re:RISE",
+          "label": "中文第1部分音樂表：曲名及演唱交叉，其他部分分開",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "songId": "gundam-build-divers-re-rise-ed-1-song",
+      "seasonIds": [
+        "2019-fall"
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.sunrise-inc.co.jp/work/news.php?id=17837"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "gundam-build-divers-re-rise-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%81%94%E5%89%B5%E6%88%B0%E6%BD%9B%E8%A1%8C%E8%80%85Re:RISE"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "gundam-build-divers-re-rise-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "gundam-build-divers-re-rise-ed-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.sunrise-inc.co.jp/work/news.php?id=17837"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "gundam-build-divers-re-rise-ed-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%81%94%E5%89%B5%E6%88%B0%E6%BD%9B%E8%A1%8C%E8%80%85Re:RISE"
+          ],
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters"
+          ],
+          "note": "本第1部分原曲名、演唱與主題曲身分有新證據；2020TV完整常規時段／本體分鐘及逐曲用途仍待核。不借第2部分或最終話片尾解除本用途缺口。",
+          "resumeWhen": "同第1部分2020TV完整獨立槽／正版正文分鐘及逐曲用話可直接核對後，補TV用途與季度；不重搜第2部分已封頂的特殊ED。",
+          "checkedAt": "2026-11-05"
+        }
+      ]
+    }
+  ],
+  "seasonIds": [
+    "2019-fall"
+  ],
+  "editorialWeekday": 2,
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "label": "動畫官方網站：作品與播出資料",
+      "url": "https://gundam-bd.net/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "AniList：作品識別與公開圖像",
+      "url": "https://anilist.co/anime/110786",
+      "language": "en",
+      "role": "identifier",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "繁體中文季度列表交叉對照",
+      "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+      "language": "zh-Hant",
+      "role": "localized_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "AnimeThemes：OP／ED 曲目交叉核對",
+      "url": "https://animethemes.moe/anime/gundam_build_divers_rerise",
+      "language": "en",
+      "role": "theme_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://acgsecrets.hk/bangumi/201910/",
+      "language": "zh-Hant",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://www.kansou.me/archive/2019_autumn.html",
+      "language": "ja",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "url": "https://www.sunrise-inc.co.jp/work/topics.php?id=17398",
+      "label": "製作方官方：第1部分2020年MX與BS11播出起點",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://www.bs11.jp/anime/gundam-bd-rerise/",
+      "label": "BS11官方：Re:RISE第1部分作品身分",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-11-05"
+    }
+  ],
+  "broadcastTimeJst": "22:29"
+},
   {
     anilistId: 104052,
     slug: "hoshiai-no-sora",
@@ -12638,62 +13253,410 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
 ],
   },
   {
-    anilistId: 111048,
-    slug: "kengan-ashura-part-2",
-    metadataVerifiedAt: "2026-09-02",
-    startDate: "2019-10-31",
-    titleJa: "ケンガンアシュラ Part 2",
-    titleZhHant: "拳願阿修羅 Part 2",
-    titleRomaji: "Kengan Ashura Part 2",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111048-eN50zZM0YqkL.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/111048-BPc3ZWPcjUVA.jpg",
-    broadcastLabel: "日本網絡首播／時間未整理",
-    officialSiteUrl: "https://kengan.net/",
-    animeThemesUrl: "https://animethemes.moe/anime/kengan_ashura_part_2",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "KING & ASHLEY",
-        artistDisplayName: "MY FIRST STORY",
-        versionLabel: "2019 年 Netflix 配信版",
-        lastVerifiedAt: "2026-09-07",
-        releaseDate: "2019-07-04",
-      },
-      {
-        type: "OP",
-        sequence: 2,
-        titleJa: "哀紫電一閃",
-        artistDisplayName: "オメでたい頭でなにより",
-        versionLabel: "2020 年電視播出版（第 13 話起）",
-        lastVerifiedAt: "2026-09-07",
-        releaseDate: "2020-04-03",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "Born This Way",
-        artistDisplayName: "BAD HOP",
-        versionLabel: "2019 年 Netflix 配信版",
-        lastVerifiedAt: "2026-09-07",
-        credits: [
-          { name: "YZERR", role: "vocals" },
-          { name: "Vingo", role: "vocals" },
-          { name: "Bark", role: "vocals" },
-        ],
-      },
-      {
-        type: "ED",
-        sequence: 2,
-        titleJa: "ASHURA",
-        artistDisplayName: "TAEYO",
-        versionLabel: "2020 年電視播出版（第 13 話起）",
-        lastVerifiedAt: "2026-09-07",
-      },
-    ],
-  },
+  "anilistId": 111048,
+  "slug": "kengan-ashura-part-2",
+  "metadataVerifiedAt": "2026-09-02",
+  "startDate": "2019-10-31",
+  "titleJa": "ケンガンアシュラ Part 2",
+  "titleZhHant": "拳願阿修羅 Part 2",
+  "titleRomaji": "Kengan Ashura Part 2",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111048-eN50zZM0YqkL.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/111048-BPc3ZWPcjUVA.jpg",
+  "broadcastLabel": "原2019 Netflix配信Part 2入口保持；2020日本TV第13–24話：BS日テレ4/7至6/23節目日每週二25:30–26:00（4/7編排首話實曆4/8週三01:30）。完整30分常規槽非淨長；全作1月第1話及2023後期另計。",
+  "officialSiteUrl": "https://kengan.net/",
+  "animeThemesUrl": "https://animethemes.moe/anime/kengan_ashura_part_2",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "KING & ASHLEY",
+      "artistDisplayName": "MY FIRST STORY",
+      "versionLabel": "2019 年 Netflix 配信版",
+      "lastVerifiedAt": "2026-09-07",
+      "releaseDate": "2019-07-04",
+      "seasonIds": [],
+      "usageLabel": "原Netflix配信版",
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters"
+          ],
+          "note": "原2019配信用途、ID與來源日期保留；新增TV會員前，舊缺省季度不能當作逐曲已核季度，也不能自動擴張至後TV。本輪沒有補出原用途的第一方季度／用途證據，暫列全站及動畫頁，不加入季度歌單。",
+          "resumeWhen": "取得原配信版本本曲的精確用途及原公開日期／季度證據後恢復相應季度；後TV歌曲另存，不套入原用途。",
+          "checkedAt": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "type": "OP",
+      "sequence": 2,
+      "titleJa": "哀紫電一閃",
+      "artistDisplayName": "オメでたい頭でなにより",
+      "versionLabel": "2020 年電視播出版（第 13 話起）",
+      "lastVerifiedAt": "2026-09-07",
+      "releaseDate": "2020-04-03",
+      "id": "kengan-ashura-part-2-op-2",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "label": "《拳願阿修羅》第一方歌曲資料：Netflix 配信及電視播出版",
+          "url": "https://news.ponycanyon.co.jp/2020/04/37772",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-07"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/kengan_ashura_part_2",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-07"
+        },
+        {
+          "label": "繁中資料：Netflix 配信及電視播出版歌曲交叉核對",
+          "url": "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85",
+          "language": "zh-Hant",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-07"
+        },
+        {
+          "label": "公式「ケンガンアシュラ」 官方影片",
+          "url": "https://www.youtube.com/watch?v=3oWHMoFohuM",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-07"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://kengan.net/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-07"
+        },
+        {
+          "url": "https://kengan.net/news/index00120000.html",
+          "label": "動畫官方Season1 Part2首段：本期TV OP／ED、曲名與演唱",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://anime-song-info.com/kengan-2nd-op-ed-202004-spring/",
+          "label": "2020年春Part2 TV主題曲表：逐曲原名、名義及用途交叉",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "songId": "kengan-ashura-part-2-op-2-song",
+      "seasonIds": [
+        "2019-fall",
+        "2020-spring"
+      ],
+      "usageLabel": "2020年日本TV Part 2放送版",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://kengan.net/news/index00120000.html"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "kengan-ashura-part-2-op-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://kengan.net/news/index00120000.html"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "kengan-ashura-part-2-op-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://anime-song-info.com/kengan-2nd-op-ed-202004-spring/"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "kengan-ashura-part-2-op-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://anime-song-info.com/kengan-2nd-op-ed-202004-spring/"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "kengan-ashura-part-2-op-2"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本輪確認2020 TV Part 2歌曲身分與春季；原曲名、名義及2019入口保持。未把後Season2或不同影片推成新錄音。",
+          "resumeWhen": "詳細階段沿本曲第一方名單、明確錄音、影片形式、發行曲序及平台項目補；後Season2音樂不可套入。",
+          "checkedAt": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "Born This Way",
+      "artistDisplayName": "BAD HOP",
+      "versionLabel": "2019 年 Netflix 配信版",
+      "lastVerifiedAt": "2026-09-07",
+      "credits": [
+        {
+          "name": "YZERR",
+          "role": "vocals"
+        },
+        {
+          "name": "Vingo",
+          "role": "vocals"
+        },
+        {
+          "name": "Bark",
+          "role": "vocals"
+        }
+      ],
+      "seasonIds": [],
+      "usageLabel": "原Netflix配信版",
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters"
+          ],
+          "note": "原2019配信用途、ID與來源日期保留；新增TV會員前，舊缺省季度不能當作逐曲已核季度，也不能自動擴張至後TV。本輪沒有補出原用途的第一方季度／用途證據，暫列全站及動畫頁，不加入季度歌單。",
+          "resumeWhen": "取得原配信版本本曲的精確用途及原公開日期／季度證據後恢復相應季度；後TV歌曲另存，不套入原用途。",
+          "checkedAt": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "ASHURA",
+      "artistDisplayName": "TAEYO",
+      "versionLabel": "2020 年電視播出版（第 13 話起）",
+      "lastVerifiedAt": "2026-09-07",
+      "id": "kengan-ashura-part-2-ed-2",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "label": "《拳願阿修羅》第一方歌曲資料：Netflix 配信及電視播出版",
+          "url": "https://kengan.net/music/ed.html",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-07"
+        },
+        {
+          "label": "《拳願阿修羅》第一方歌曲資料：Netflix 配信及電視播出版",
+          "url": "https://www.youtube.com/watch?v=1rYz88Fi-j8",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-07"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/kengan_ashura_part_2",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-07"
+        },
+        {
+          "label": "繁中資料：Netflix 配信及電視播出版歌曲交叉核對",
+          "url": "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85",
+          "language": "zh-Hant",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-07"
+        },
+        {
+          "label": "公式「ケンガンアシュラ」 官方影片",
+          "url": "https://www.youtube.com/watch?v=jjjfr8jizCs",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-07"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://kengan.net/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-07"
+        },
+        {
+          "url": "https://kengan.net/news/index00120000.html",
+          "label": "動畫官方Season1 Part2首段：本期TV OP／ED、曲名與演唱",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://anime-song-info.com/kengan-2nd-op-ed-202004-spring/",
+          "label": "2020年春Part2 TV主題曲表：逐曲原名、名義及用途交叉",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "songId": "kengan-ashura-part-2-ed-2-song",
+      "seasonIds": [
+        "2019-fall",
+        "2020-spring"
+      ],
+      "usageLabel": "2020年日本TV Part 2放送版",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://kengan.net/news/index00120000.html"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "kengan-ashura-part-2-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://kengan.net/news/index00120000.html"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "kengan-ashura-part-2-ed-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://anime-song-info.com/kengan-2nd-op-ed-202004-spring/"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "kengan-ashura-part-2-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://anime-song-info.com/kengan-2nd-op-ed-202004-spring/"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "kengan-ashura-part-2-ed-2"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本輪確認2020 TV Part 2歌曲身分與春季；原曲名、名義及2019入口保持。未把後Season2或不同影片推成新錄音。",
+          "resumeWhen": "詳細階段沿本曲第一方名單、明確錄音、影片形式、發行曲序及平台項目補；後Season2音樂不可套入。",
+          "checkedAt": "2026-11-05"
+        }
+      ]
+    }
+  ],
+  "seasonIds": [
+    "2019-fall",
+    "2020-spring"
+  ],
+  "editorialWeekday": 2,
+  "metadataSources": [
+    {
+      "label": "動畫官方網站：作品與播出資料",
+      "url": "https://kengan.net/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "AniList：作品識別與公開圖像",
+      "url": "https://anilist.co/anime/111048",
+      "language": "en",
+      "role": "identifier",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "繁體中文季度列表交叉對照",
+      "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+      "language": "zh-Hant",
+      "role": "localized_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "AnimeThemes：OP／ED 曲目交叉核對",
+      "url": "https://animethemes.moe/anime/kengan_ashura_part_2",
+      "language": "en",
+      "role": "theme_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://acgsecrets.hk/bangumi/201910/",
+      "language": "zh-Hant",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://www.kansou.me/archive/2019_autumn.html",
+      "language": "ja",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "url": "https://www.bs4.jp/kengan/",
+      "label": "BS日テレ原期：2020年13–24話日期及週二25:30–26:00完整槽",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://www.adkem.jp/works02/%E3%82%B1%E3%83%B3%E3%82%AC%E3%83%B3%E3%82%A2%E3%82%B7%E3%83%A5%E3%83%A9/",
+      "label": "企劃製作方ADK：原期Netflix／2020TV與本期歌曲名單",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-11-05"
+    }
+  ],
+  "broadcastTimeJst": "25:30"
+},
   {
     anilistId: 113655,
     slug: "shiohi-girls-vongole-bianco",
@@ -14482,34 +15445,375 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
     themes: [],
   },
   {
-    anilistId: 108598,
-    slug: "levius",
-    startDate: "2019-11-28",
-    titleJa: "レビウス",
-    titleZhHant: "列比烏斯",
-    titleRomaji: "Levius",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108598-RGcBgF8J7fec.png",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108598-JNOQkmj0zBHI.jpg",
-    broadcastLabel: "日本網絡首播／時間未整理",
-    officialSiteUrl: "https://levius.net/",
-    animeThemesUrl: "https://animethemes.moe/anime/levius",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "wit and love",
-        artistDisplayName: "謎女",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "child dancer",
-        artistDisplayName: "謎女",
-      },
-    ],
-  },
+  "anilistId": 108598,
+  "slug": "levius",
+  "startDate": "2019-11-28",
+  "titleJa": "レビウス",
+  "titleZhHant": "列比烏斯",
+  "titleRomaji": "Levius",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108598-RGcBgF8J7fec.png",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108598-JNOQkmj0zBHI.jpg",
+  "broadcastLabel": "原2019 Netflix配信入口保持；2021日本TV：TOKYO MX／BS11自1/9星期六25:00（實曆1/10週日01:00）起。BS11原2021/1/23表已核25:00–25:30完整常規槽，非淨長；TV與配信版採不同主題曲。",
+  "officialSiteUrl": "https://levius.net/",
+  "animeThemesUrl": "https://animethemes.moe/anime/levius",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "wit and love",
+      "artistDisplayName": "謎女",
+      "seasonIds": [],
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters"
+          ],
+          "note": "原2019配信用途、ID與來源日期保留；新增TV會員前，舊缺省季度不能當作逐曲已核季度，也不能自動擴張至後TV。本輪沒有補出原用途的第一方季度／用途證據，暫列全站及動畫頁，不加入季度歌單。",
+          "resumeWhen": "取得原配信版本本曲的精確用途及原公開日期／季度證據後恢復相應季度；後TV歌曲另存，不套入原用途。",
+          "checkedAt": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "child dancer",
+      "artistDisplayName": "謎女",
+      "seasonIds": [],
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters"
+          ],
+          "note": "原2019配信用途、ID與來源日期保留；新增TV會員前，舊缺省季度不能當作逐曲已核季度，也不能自動擴張至後TV。本輪沒有補出原用途的第一方季度／用途證據，暫列全站及動畫頁，不加入季度歌單。",
+          "resumeWhen": "取得原配信版本本曲的精確用途及原公開日期／季度證據後恢復相應季度；後TV歌曲另存，不套入原用途。",
+          "checkedAt": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "levius-op-2",
+      "type": "OP",
+      "sequence": 2,
+      "titleJa": "Link or Chains",
+      "artistDisplayName": "水樹奈々",
+      "usageLabel": "2021年日本TV放送版",
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://levius.net/music/",
+          "label": "作品官方MUSIC：TV版及Netflix版分列、曲名／演唱／用途／創作名單",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://anime.eiga.com/news/112144/",
+          "label": "Anime Hack 2020公告：新TV OP／ED曲名與演唱交叉",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "credits": [
+        {
+          "name": "水樹奈々",
+          "role": "vocals"
+        },
+        {
+          "name": "しほり",
+          "role": "lyrics"
+        },
+        {
+          "name": "南田健吾",
+          "role": "composition"
+        },
+        {
+          "name": "南田健吾",
+          "role": "arrangement"
+        }
+      ],
+      "songId": "levius-op-2-song",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://levius.net/music/"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "levius-op-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://levius.net/music/"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "levius-op-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://anime.eiga.com/news/112144/"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "levius-op-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://anime.eiga.com/news/112144/"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "levius-op-2"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://levius.net/music/"
+          ],
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "本TV版曲名、演唱、OP／ED、創作名單及冬季已核；配信版原曲另存。不從TV用途或未讀商品目的頁推定錄音長度、影片形式、完整收錄或地區可用性。",
+          "resumeWhen": "詳細階段有明確本曲音源／影片形式、正式發行品曲序及正版平台目的頁後補入，與原Netflix歌曲分開。",
+          "checkedAt": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "levius-ed-2",
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "Beautiful Doll",
+      "artistDisplayName": "宮野真守",
+      "usageLabel": "2021年日本TV放送版",
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://levius.net/music/",
+          "label": "作品官方MUSIC：TV版及Netflix版分列、曲名／演唱／用途／創作名單",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://anime.eiga.com/news/112144/",
+          "label": "Anime Hack 2020公告：新TV OP／ED曲名與演唱交叉",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "credits": [
+        {
+          "name": "宮野真守",
+          "role": "vocals"
+        },
+        {
+          "name": "N.A.O.",
+          "role": "lyrics"
+        },
+        {
+          "name": "宮野真守",
+          "role": "lyrics"
+        },
+        {
+          "name": "TSUGE",
+          "role": "composition"
+        },
+        {
+          "name": "TSUGE",
+          "role": "arrangement"
+        }
+      ],
+      "songId": "levius-ed-2-song",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://levius.net/music/"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "levius-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://levius.net/music/"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "levius-ed-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://anime.eiga.com/news/112144/"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "levius-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://anime.eiga.com/news/112144/"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "levius-ed-2"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://levius.net/music/"
+          ],
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "本TV版曲名、演唱、OP／ED、創作名單及冬季已核；配信版原曲另存。不從TV用途或未讀商品目的頁推定錄音長度、影片形式、完整收錄或地區可用性。",
+          "resumeWhen": "詳細階段有明確本曲音源／影片形式、正式發行品曲序及正版平台目的頁後補入，與原Netflix歌曲分開。",
+          "checkedAt": "2026-11-05"
+        }
+      ]
+    }
+  ],
+  "seasonIds": [
+    "2019-fall",
+    "2021-winter"
+  ],
+  "editorialWeekday": 6,
+  "metadataVerifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "label": "動畫官方網站：作品與播出資料",
+      "url": "https://levius.net/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "AniList：作品識別與公開圖像",
+      "url": "https://anilist.co/anime/108598",
+      "language": "en",
+      "role": "identifier",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "繁體中文季度列表交叉對照",
+      "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+      "language": "zh-Hant",
+      "role": "localized_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "AnimeThemes：OP／ED 曲目交叉核對",
+      "url": "https://animethemes.moe/anime/levius",
+      "language": "en",
+      "role": "theme_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://acgsecrets.hk/bangumi/201910/",
+      "language": "zh-Hant",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://www.kansou.me/archive/2019_autumn.html",
+      "language": "ja",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "url": "https://levius.net/onair/",
+      "label": "作品官方：2021日本TV首日／時刻與配信並列",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "url": "https://www.bs11.jp/anime/levius/",
+      "label": "BS11官方：同作品及製作方身分",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "url": "https://www.bs11.jp/corporate/shubetsu/pdf/shubetsu_202101.pdf",
+      "label": "BS11 2021年1月表：Levius週六25:00–25:30完整槽",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://www.ppi.co.jp/news/news20201014/",
+      "label": "製作方官方：2021年TV版與新主題曲公告",
+      "language": "en",
+      "role": "first_party",
+      "verifiedAt": "2026-11-05"
+    }
+  ],
+  "broadcastTimeJst": "25:00"
+},
   {
     anilistId: 138953,
     slug: "mukashi-keiba-nashi",

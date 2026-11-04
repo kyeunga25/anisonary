@@ -21,7 +21,7 @@ const groups = groupAnimeForBrowse(season.anime);
     </details>
     <button class="button button--outline" type="reset">重設</button>
   </form>
-  <p class="anime-wall__note">日本播出時間 · 深夜 24 時以後保留原播出日 · 網絡首播另列。</p>
+  <p class="anime-wall__note">播出地區與日期以卡片說明為準；日本時刻標示 JST，深夜 24 時以後保留原編排日；網絡首播另列。</p>
   <div class="anime-wall__directory">
     <nav class="anime-wall__jump" aria-label="動畫播出分組">{groups.map((group) => <a href={`#anime-${group.id}`} aria-label={group.label} data-anime-group-link={group.id}>{group.id === "streaming" ? "網絡首播" : group.label.replace("星期", "週")}</a>)}</nav>
     <p role="status" aria-live="polite" data-anime-wall-count>顯示 {season.anime.length}／{season.anime.length} 套動畫</p>
