@@ -547,7 +547,11 @@ test.describe("independent search index delivery", () => {
 
 test("season poster walls preserve the latest catalogue, filters and native navigation", async ({ page, browser, request }, testInfo) => {
   const season = curatedSeasonDetails.find((season) => season.id === "2019-summer")!;
-  const streaming = season.anime.filter((anime) => /網絡|網路|串流|配信|\b(?:WEB|ONA)\b/i.test(anime.broadcastLabel ?? ""));
+  // The first named form defines the group; later distribution notes stay metadata.
+  const streaming = season.anime.filter((anime) => {
+    const firstForm = (anime.broadcastLabel ?? "").match(/電視|テレビ|\bTV\b|網絡|網路|串流|配信|\b(?:WEB|ONA)\b/i)?.[0];
+    return firstForm !== undefined && /網絡|網路|串流|配信|WEB|ONA/i.test(firstForm);
+  });
   const chosen = streaming.find((anime) => curatedAnimeDetails.find((detail) => detail.slug === anime.slug)!.themes.length)!;
   expect(chosen).toBeDefined();
   const external: string[] = [];
