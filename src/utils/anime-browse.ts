@@ -29,9 +29,14 @@ export interface AnimeBrowseGroup {
 // seeds, writes records, or infers a platform/genre from a title or source URL.
 export function toAnimeBrowseCard(anime: PublicAnimeCard): AnimeBrowseCard {
   const label = anime.broadcastLabel ?? "";
-  const category: BroadcastCategory = /網絡|網路|串流|配信|\b(?:WEB|ONA)\b/i.test(label)
+  // Use the first stated broadcast form; later distribution notes do not
+  // change a TV premiere, and a later TV run does not change a WEB premiere.
+  const firstStreaming = label.search(/網絡|網路|串流|配信|\b(?:WEB|ONA)\b/i);
+  const firstTelevision = label.search(/電視|テレビ|\bTV\b/i);
+  const category: BroadcastCategory = firstStreaming >= 0
+    && (firstTelevision < 0 || firstStreaming < firstTelevision)
     ? "streaming"
-    : /電視|テレビ|\bTV\b/i.test(label)
+    : firstTelevision >= 0
       ? "television"
       : anime.broadcastTimeJst ? "scheduled" : "unclassified";
   const weekday = editorialWeekdays.some((day) => day.value === anime.editorialWeekday)
