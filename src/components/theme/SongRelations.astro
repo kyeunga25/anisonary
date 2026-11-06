@@ -76,7 +76,9 @@ const targetName = (evidence: PublicFieldEvidence) => {
       <ul>
         {theme.evidence.map((evidence) => (
           <li>
-            <span>{evidenceTargets[evidence.target]} · {targetName(evidence)} · {evidence.fields.map((field) => evidenceFields[field]).join("、")} · {evidence.verifiedAt}</span>
+            <span>{evidenceTargets[evidence.target]} · {targetName(evidence)} · {evidence.fields.map((field) =>
+              evidence.target === "anime_use" && field === "date" ? "播出日期" : evidenceFields[field]
+            ).join("、")} · {evidence.verifiedAt}</span>
             {evidence.sourceUrls.map((url) => <a href={url} target="_blank" rel="noopener noreferrer external">{theme.sources.find((source) => source.url === url)?.label}</a>)}
           </li>
         ))}

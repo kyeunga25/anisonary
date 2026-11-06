@@ -2,6 +2,13 @@
 
 All notable public product changes are recorded here. Release notes contain only product scope and reproducible validation; platform identifiers and private operational details are excluded.
 
+## [Unreleased] / 未發布
+
+### 修正 / Fixed
+
+- 動畫用途的日期證據顯示「播出日期」；發行品保留「發行日期」。
+- Label anime-use date evidence as air dates while retaining release-date labels for releases.
+
 ## [1.31.1] - 2026-09-07
 
 ### Fixed
