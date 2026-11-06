@@ -227,16 +227,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
           }
         ],
         "songId": "bungou-stray-dogs-bokura",
-        "followUp": [
-          {
-            "fields": [
-              "basic_evidence"
-            ],
-            "note": "本期形式待核：同版完整獨立常規槽或合法本體分鐘尚未有足夠直接證據；不借前期、不同cut或mini。既有歌曲、用途分類、錄音與音樂來源日期保留。",
-            "resumeWhen": "待本第2期官方完整獨立常規播出起訖或正版單集片長資料公開，確認標準TV或短篇形式後，再補核指定歌曲。",
-            "checkedAt": "2026-10-31"
-          }
-        ]
+        "followUp": [{"fields":["basic_evidence"],"note":"Hulu已確認本第2期為短篇TV。既有歌曲、用途與錄音保留，片尾曲基本三欄待短篇階段核對。","resumeWhen":"短篇TV盤點開始後，核對本第2期片尾正片或官方曲目表，並取得同版獨立交叉來源。","checkedAt":"2026-11-07"}]
       }
     ],
     "metadataVerifiedAt": "2026-07-25",
@@ -296,9 +287,16 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
         "role": "broadcast_cross_check",
         "language": "ja",
         "verifiedAt": "2026-10-31"
+      },
+      {
+        "url": "https://www.hulu.jp/bungo-stray-dogs-wan-2/assets",
+        "label": "Hulu日本：本第2期第1–3話各11分鐘",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-07"
       }
     ],
-    "broadcastLabel": "日本TV第二期：2026年7月2日起TOKYO MX1每週四21:40；KBS週四24:15為週五00:15、WOWOW週二25:00為週三01:00。第一期重播與配信另列。完整槽／正版單話分鐘未知；個人表15分僅線索，不據此判短篇。"
+    "broadcastLabel": "日本短篇TV第2期：2026-07-02起TOKYO MX1每週四21:40；KBS週四24:15為週五00:15、WOWOW週二25:00為週三01:00。Hulu同版第1–3話各11分鐘。"
   },
   {"anilistId":206521,"id":"curated-206521","slug":"world-is-dancing","seasonIds":["2026-summer"],"startDate":"2026-07-02","titleJa":"ワールド イズ ダンシング","titleZhHant":"THE WORLD IS DANCING 世界在起舞","titleRomaji":"World Is Dancing","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx206521-ecJuDgjth84C.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/206521-zCIAGsiIkh6G.jpg","editorialWeekday":4,"broadcastTimeJst":"22:00","status":"airing","officialSiteUrl":"https://sh-anime.shochiku.co.jp/worldisdancing-anime/","anilistUrl":"https://anilist.co/anime/206521","imageSourceUrl":"https://anilist.co/anime/206521","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/671088"],"animeThemesUrl":"https://animethemes.moe/anime/world_is_dancing","uzureaUrl":"https://uzurea.net/summer-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"終宵","titleRomaji":"Shuushou","artistDisplayName":"マカロニえんぴつ","youtubeUrl":"https://www.youtube.com/watch?v=6f78rxIxzV0","credits":[{"name":"マカロニえんぴつ","role":"vocals"},{"name":"はっとり","role":"lyrics"},{"name":"はっとり","role":"composition"},{"name":"マカロニえんぴつ","role":"arrangement"},{"name":"はっとり","role":"group_member","groupName":"マカロニえんぴつ"},{"name":"高野賢也","role":"group_member","groupName":"マカロニえんぴつ"},{"name":"田辺由明","role":"group_member","groupName":"マカロニえんぴつ"},{"name":"長谷川大喜","role":"group_member","groupName":"マカロニえんぴつ"}],"sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=6f78rxIxzV0","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"動畫官方網站","url":"https://sh-anime.shochiku.co.jp/worldisdancing-anime/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/world_is_dancing","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/summer-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-10-30"},{"label":"動畫官網 MUSIC：創作與團隊名單","url":"https://sh-anime.shochiku.co.jp/worldisdancing-anime/music/","language":"ja","role":"first_party","verifiedAt":"2026-10-30"},{"label":"官方影片公告／MOVIE：形式與確切入口","url":"https://sh-anime.shochiku.co.jp/worldisdancing-anime/movie/","language":"ja","role":"first_party","verifiedAt":"2026-10-14"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://sh-anime.shochiku.co.jp/worldisdancing-anime/music/"],"verifiedAt":"2026-10-14"},{"target":"link","fields":["url","type"],"sourceUrls":["https://sh-anime.shochiku.co.jp/worldisdancing-anime/movie/"],"verifiedAt":"2026-10-14","targetId":"https://www.youtube.com/watch?v=6f78rxIxzV0"},{"target":"song","targetId":"macaroni-empitsu-shuushou","fields":["title","artist"],"sourceUrls":["https://sh-anime.shochiku.co.jp/worldisdancing-anime/music/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"world-is-dancing-op-1","fields":["usage"],"sourceUrls":["https://sh-anime.shochiku.co.jp/worldisdancing-anime/music/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"macaroni-empitsu-shuushou","fields":["title","artist"],"sourceUrls":["https://uzurea.net/summer-2026-anime-theme-songs/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"world-is-dancing-op-1","fields":["usage"],"sourceUrls":["https://uzurea.net/summer-2026-anime-theme-songs/"],"verifiedAt":"2026-10-30"}],"links":[{"platform":"YouTube","label":"官方 OP 映像 · 終宵","url":"https://www.youtube.com/watch?v=6f78rxIxzV0","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-14","availability":"unknown"}],"songId":"macaroni-empitsu-shuushou","sourceMode":"explicit"},{"type":"ED","sequence":1,"titleJa":"名もない花","titleRomaji":"Na mo Nai Hana","artistDisplayName":"hockrockb","youtubeUrl":"https://www.youtube.com/watch?v=kBP_Urtwx7Q","credits":[{"name":"hockrockb","role":"vocals"},{"name":"堀胃あげは","role":"lyrics"},{"name":"堀胃あげは","role":"composition"},{"name":"hockrockb","role":"arrangement"},{"name":"佐藤鯨","role":"arrangement"}],"sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=kBP_Urtwx7Q","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"動畫官方網站","url":"https://sh-anime.shochiku.co.jp/worldisdancing-anime/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/world_is_dancing","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/summer-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-10-30"},{"label":"動畫官網 MUSIC：創作名單","url":"https://sh-anime.shochiku.co.jp/worldisdancing-anime/music/","language":"ja","role":"first_party","verifiedAt":"2026-10-30"},{"label":"官方影片公告／MOVIE：形式與確切入口","url":"https://sh-anime.shochiku.co.jp/worldisdancing-anime/movie/","language":"ja","role":"first_party","verifiedAt":"2026-10-14"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://sh-anime.shochiku.co.jp/worldisdancing-anime/music/"],"verifiedAt":"2026-10-14"},{"target":"link","fields":["url","type"],"sourceUrls":["https://sh-anime.shochiku.co.jp/worldisdancing-anime/movie/"],"verifiedAt":"2026-10-14","targetId":"https://www.youtube.com/watch?v=kBP_Urtwx7Q"},{"target":"song","targetId":"hockrockb-namo-nai-hana","fields":["title","artist"],"sourceUrls":["https://sh-anime.shochiku.co.jp/worldisdancing-anime/music/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"world-is-dancing-ed-1","fields":["usage"],"sourceUrls":["https://sh-anime.shochiku.co.jp/worldisdancing-anime/music/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"hockrockb-namo-nai-hana","fields":["title","artist"],"sourceUrls":["https://uzurea.net/summer-2026-anime-theme-songs/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"world-is-dancing-ed-1","fields":["usage"],"sourceUrls":["https://uzurea.net/summer-2026-anime-theme-songs/"],"verifiedAt":"2026-10-30"}],"links":[{"platform":"YouTube","label":"官方 ED 映像 · 名もない花","url":"https://www.youtube.com/watch?v=kBP_Urtwx7Q","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-14","availability":"unknown"}],"songId":"hockrockb-namo-nai-hana","sourceMode":"explicit"}],"metadataVerifiedAt":"2026-07-25"},
   {
@@ -27630,7 +27628,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
           "label": "読売テレビ官方：OP曲名、演唱及創作三角色",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-19"
+          "verifiedAt": "2026-11-07"
         },
         {
           "url": "https://cdn.niihamaleon.com/info/info_856/",
@@ -27652,6 +27650,20 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-10-19"
+        },
+        {
+          "url": "https://beika-dept.com/episodes/",
+          "label": "米花百貨店：第1205／1206話的播出日及 OP 交叉",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20260711.html",
+          "label": "讀賣電視台：第1206話於 7 月 11 日播出",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
         }
       ],
       "lastVerifiedAt": "2026-10-19",
@@ -27694,9 +27706,46 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "https://www.ytv.co.jp/conan/music/"
           ],
           "verifiedAt": "2026-10-19"
+        },
+        {
+          "target": "song",
+          "targetId": "meitantei-conan-op-62-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/conan/music/",
+            "https://beika-dept.com/episodes/"
+          ],
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "meitantei-conan-op-62",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/conan/music/",
+            "https://beika-dept.com/episodes/"
+          ],
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "meitantei-conan-op-62",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/conan/archive/k20260711.html",
+            "https://beika-dept.com/episodes/"
+          ],
+          "verifiedAt": "2026-11-07"
         }
       ],
-      "usageLabel": "2026年夏季起 OP",
+      "usageLabel": "2026-07-11第1206話起 OP",
       "credits": [
         {
           "role": "vocals",
@@ -27851,6 +27900,27 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-10-19"
+        },
+        {
+          "url": "https://www.ytv.co.jp/topics/articles/escao7rrp5fngsnk.html",
+          "label": "讀賣電視台公告：1月10日起由 B’z 演唱新 OP",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://beika-dept.com/episodes/",
+          "label": "米花百貨店：第1205／1206話的播出日及 OP 交叉",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20260627.html",
+          "label": "讀賣電視台：第1205話於 6 月 27 日播出",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
         }
       ],
       "lastVerifiedAt": "2026-10-19",
@@ -27891,9 +27961,47 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "https://www.ytv.co.jp/conan30/project/"
           ],
           "verifiedAt": "2026-10-19"
+        },
+        {
+          "target": "song",
+          "targetId": "meitantei-conan-op-61-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/topics/articles/escao7rrp5fngsnk.html",
+            "https://beika-dept.com/episodes/"
+          ],
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "meitantei-conan-op-61",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/topics/articles/escao7rrp5fngsnk.html",
+            "https://beika-dept.com/episodes/"
+          ],
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "meitantei-conan-op-61",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/topics/articles/escao7rrp5fngsnk.html",
+            "https://www.ytv.co.jp/conan/archive/k20260627.html",
+            "https://beika-dept.com/episodes/"
+          ],
+          "verifiedAt": "2026-11-07"
         }
       ],
-      "usageLabel": "2026-01-10起 OP",
+      "usageLabel": "2026-01-10起 OP，至2026-06-27第1205話",
       "credits": [
         {
           "name": "B'z",
@@ -27914,16 +28022,6 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
         {
           "name": "YUKIHIDE❝YT❞TAKIYAMA",
           "role": "arrangement"
-        }
-      ],
-      "followUp": [
-        {
-          "fields": [
-            "basic_evidence"
-          ],
-          "note": "已確認2026冬／春TV使用；夏季是否仍有沿用及與下一首OP的精確輪替界線尚未獨立核對，沒有由唱片發行日推定。",
-          "resumeWhen": "可核對官方新OP啟用集數／播出日或對應正片credits時補充用途季度。",
-          "checkedAt": "2026-10-19"
         }
       ]
     },
