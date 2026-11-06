@@ -152,7 +152,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
   {"anilistId":192800,"id":"curated-192800","slug":"heroine-seijo-iie-all-works-maid-desu-ko","seasonIds":["2026-summer"],"startDate":"2026-07-01","titleJa":"ヒロイン？聖女？いいえ、オールワークスメイドです（誇）！","titleZhHant":"女主角？聖女？都不對，我是雜役女僕（自豪）！","titleRomaji":"Heroine? Seijo? Iie, All Works Maid desu (Ko)!","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx192800-r8zlO0VY0jJP.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/192800-1EhTN0zOxQsW.jpg","editorialWeekday":3,"broadcastTimeJst":"22:00","status":"airing","officialSiteUrl":"https://all-works-maid-anime.com/","anilistUrl":"https://anilist.co/anime/192800","imageSourceUrl":"https://anilist.co/anime/192800","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/674210"],"animeThemesUrl":"https://animethemes.moe/anime/heroine_seijo_iie_all_works_maid_desu_ko","uzureaUrl":"https://uzurea.net/summer-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"マデュアル↔ハート","titleRomaji":"Madual↔Heart","artistDisplayName":"メロディ・ウェーブ(CV.宮本侑芽)、ルシアナ・ルトルバーグ(CV.大久保瑠美)","youtubeUrl":"https://www.youtube.com/watch?v=N9qyQ1s06yc","credits":[{"name":"宮本侑芽（メロディ・ウェーブ）","role":"vocals"},{"name":"大久保瑠美（ルシアナ・ルトルバーグ）","role":"vocals"},{"name":"aim","role":"lyrics"},{"name":"瀬名 航（SOVA）","role":"composition"},{"name":"瀬名 航（SOVA）","role":"arrangement"}],"sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=N9qyQ1s06yc","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"動畫官方網站","url":"https://all-works-maid-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/heroine_seijo_iie_all_works_maid_desu_ko","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/summer-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-10-30"},{"label":"動畫官網 MUSIC：角色演唱與創作名單","url":"https://all-works-maid-anime.com/music/","language":"ja","role":"first_party","verifiedAt":"2026-10-30"},{"label":"官方影片公告／MOVIE：形式與確切入口","url":"https://all-works-maid-anime.com/news/post-59/","language":"ja","role":"first_party","verifiedAt":"2026-10-30"},{"label":"官方影片公告／MOVIE：形式與確切入口","url":"https://all-works-maid-anime.com/movie/","language":"ja","role":"first_party","verifiedAt":"2026-10-14"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://all-works-maid-anime.com/music/"],"verifiedAt":"2026-10-14"},{"target":"link","fields":["url","type"],"sourceUrls":["https://all-works-maid-anime.com/news/post-59/"],"verifiedAt":"2026-10-14","targetId":"https://www.youtube.com/watch?v=N9qyQ1s06yc"},{"target":"link","fields":["url","type"],"sourceUrls":["https://all-works-maid-anime.com/movie/"],"verifiedAt":"2026-10-14","targetId":"https://www.youtube.com/watch?v=f8p8IB1J30Q"},{"target":"song","targetId":"all-works-maid-madual-heart","fields":["title","artist"],"sourceUrls":["https://all-works-maid-anime.com/music/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"heroine-seijo-iie-all-works-maid-desu-ko-op-1","fields":["usage"],"sourceUrls":["https://all-works-maid-anime.com/music/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"all-works-maid-madual-heart","fields":["title","artist"],"sourceUrls":["https://uzurea.net/summer-2026-anime-theme-songs/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"heroine-seijo-iie-all-works-maid-desu-ko-op-1","fields":["usage"],"sourceUrls":["https://uzurea.net/summer-2026-anime-theme-songs/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"all-works-maid-madual-heart","fields":["title","artist"],"sourceUrls":["https://all-works-maid-anime.com/news/post-59/"],"verifiedAt":"2026-10-30"}],"links":[{"platform":"YouTube","label":"官方無字幕 OP · マデュアル↔ハート","url":"https://www.youtube.com/watch?v=N9qyQ1s06yc","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-14","availability":"unknown"},{"platform":"YouTube","label":"官方 Lyric Video · マデュアル↔ハート","url":"https://www.youtube.com/watch?v=f8p8IB1J30Q","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-14","availability":"unknown"}],"songId":"all-works-maid-madual-heart","sourceMode":"explicit"},{"type":"ED","sequence":1,"titleJa":"ハンドメイド","titleRomaji":"Handmaid","artistDisplayName":"仲村宗悟","youtubeUrl":"https://www.youtube.com/watch?v=hzJqg7M1JrE","credits":[{"name":"仲村宗悟","role":"vocals"},{"name":"仲村宗悟","role":"lyrics"},{"name":"仲村宗悟","role":"composition"},{"name":"村山☆潤","role":"arrangement"}],"sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=hzJqg7M1JrE","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"動畫官方網站","url":"https://all-works-maid-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/heroine_seijo_iie_all_works_maid_desu_ko","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/summer-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-10-30"},{"label":"動畫官網 MUSIC：創作名單","url":"https://all-works-maid-anime.com/music/","language":"ja","role":"first_party","verifiedAt":"2026-10-30"},{"label":"官方影片公告／MOVIE：形式與確切入口","url":"https://all-works-maid-anime.com/news/post-59/","language":"ja","role":"first_party","verifiedAt":"2026-10-30"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://all-works-maid-anime.com/music/"],"verifiedAt":"2026-10-14"},{"target":"link","fields":["url","type"],"sourceUrls":["https://all-works-maid-anime.com/news/post-59/"],"verifiedAt":"2026-10-14","targetId":"https://www.youtube.com/watch?v=hzJqg7M1JrE"},{"target":"song","targetId":"nakamura-shugo-handmade","fields":["title","artist"],"sourceUrls":["https://all-works-maid-anime.com/music/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"heroine-seijo-iie-all-works-maid-desu-ko-ed-1","fields":["usage"],"sourceUrls":["https://all-works-maid-anime.com/music/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"nakamura-shugo-handmade","fields":["title","artist"],"sourceUrls":["https://uzurea.net/summer-2026-anime-theme-songs/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"heroine-seijo-iie-all-works-maid-desu-ko-ed-1","fields":["usage"],"sourceUrls":["https://uzurea.net/summer-2026-anime-theme-songs/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"nakamura-shugo-handmade","fields":["title","artist"],"sourceUrls":["https://all-works-maid-anime.com/news/post-59/"],"verifiedAt":"2026-10-30"}],"links":[{"platform":"YouTube","label":"官方無字幕 ED · ハンドメイド","url":"https://www.youtube.com/watch?v=hzJqg7M1JrE","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-14","availability":"unknown"}],"songId":"nakamura-shugo-handmade","sourceMode":"explicit"}],"metadataVerifiedAt":"2026-07-25"},
   {"anilistId":208044,"id":"curated-208044","slug":"rakudai-kenja-no-gakuin-musou-nidome-no-tensei-s-rank-cheat-majutsushi-bouken-roku","seasonIds":["2026-summer"],"startDate":"2026-07-01","titleJa":"落第賢者の学院無双～二度目の転生、Sランクチート魔術師冒険録～","titleZhHant":"落第賢者的學院無雙～第二次轉生的S級開外掛魔術師冒險錄～","titleRomaji":"Rakudai Kenja no Gakuin Musou: Nidome no Tensei, S-Rank Cheat Majutsushi Bouken-roku","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx208044-Pm2UhvApQFUh.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/208044-JtlSTlmp5SmP.jpg","editorialWeekday":3,"broadcastTimeJst":"24:00","status":"airing","officialSiteUrl":"https://rakudai-anime.com","anilistUrl":"https://anilist.co/anime/208044","imageSourceUrl":"https://anilist.co/anime/208044","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/675083"],"animeThemesUrl":"https://animethemes.moe/anime/rakudai_kenja_no_gakuin_musou_nidome_no_tensei_srank_cheat_majutsushi_boukenroku","uzureaUrl":"https://uzurea.net/summer-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"＋ENCOUNT","artistDisplayName":"FLOW","youtubeUrl":"https://www.youtube.com/watch?v=tbJPoZC5MWc","credits":[{"name":"FLOW","role":"vocals"},{"name":"KOHSHI ASAKAWA","role":"lyrics"},{"name":"TAKESHI ASAKAWA","role":"composition"},{"name":"FLOW","role":"arrangement"},{"name":"KOHSHI","role":"group_member","groupName":"FLOW"},{"name":"KEIGO","role":"group_member","groupName":"FLOW"},{"name":"TAKE","role":"group_member","groupName":"FLOW"},{"name":"GOT’S","role":"group_member","groupName":"FLOW"},{"name":"IWASAKI","role":"group_member","groupName":"FLOW"}],"sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=tbJPoZC5MWc","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"動畫官方網站","url":"https://rakudai-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/rakudai_kenja_no_gakuin_musou_nidome_no_tensei_srank_cheat_majutsushi_boukenroku","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/summer-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-10-30"},{"label":"動畫官網 OP 公告：創作名單","url":"https://rakudai-anime.com/news/index00090000.html","language":"ja","role":"first_party","verifiedAt":"2026-10-30"},{"label":"官方影片公告／MOVIE：形式與確切入口","url":"https://www.flow-official.jp/news/detail.php?bu=info.php&id=2820","language":"ja","role":"first_party","verifiedAt":"2026-10-14"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://rakudai-anime.com/news/index00090000.html"],"verifiedAt":"2026-10-14"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.flow-official.jp/news/detail.php?bu=info.php&id=2820"],"verifiedAt":"2026-10-14","targetId":"https://www.youtube.com/watch?v=t4aVIi8sHzA"},{"target":"video","fields":["title","type","artist","url"],"sourceUrls":["https://www.flow-official.jp/news/detail.php?bu=info.php&id=2820"],"verifiedAt":"2026-10-14","targetId":"t4aVIi8sHzA"},{"target":"song","targetId":"flow-plus-encount","fields":["title","artist"],"sourceUrls":["https://rakudai-anime.com/news/index00090000.html"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"rakudai-kenja-no-gakuin-musou-nidome-no-tensei-s-rank-cheat-majutsushi-bouken-roku-op-1","fields":["usage"],"sourceUrls":["https://rakudai-anime.com/news/index00090000.html"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"flow-plus-encount","fields":["title","artist"],"sourceUrls":["https://uzurea.net/summer-2026-anime-theme-songs/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"rakudai-kenja-no-gakuin-musou-nidome-no-tensei-s-rank-cheat-majutsushi-bouken-roku-op-1","fields":["usage"],"sourceUrls":["https://uzurea.net/summer-2026-anime-theme-songs/"],"verifiedAt":"2026-10-30"}],"links":[{"platform":"YouTube","label":"官方 MV · ＋ENCOUNT","url":"https://www.youtube.com/watch?v=t4aVIi8sHzA","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-14","availability":"unknown"}],"songId":"flow-plus-encount","sourceMode":"explicit"},{"type":"ED","sequence":1,"titleJa":"憧憬","titleRomaji":"Shoukei","artistDisplayName":"TrySail","youtubeUrl":"https://www.youtube.com/watch?v=DGS4b3gm1s0","credits":[{"name":"TrySail","role":"vocals"},{"name":"sabio","role":"lyrics"},{"name":"sabio","role":"composition"},{"name":"sabio","role":"arrangement"},{"name":"麻倉もも","role":"group_member","groupName":"TrySail"},{"name":"雨宮天","role":"group_member","groupName":"TrySail"},{"name":"夏川椎菜","role":"group_member","groupName":"TrySail"}],"sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=DGS4b3gm1s0","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"動畫官方網站","url":"https://rakudai-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/rakudai_kenja_no_gakuin_musou_nidome_no_tensei_srank_cheat_majutsushi_boukenroku","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/summer-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-10-30"},{"label":"動畫官網 ED 公告：創作與演唱名單","url":"https://rakudai-anime.com/news/index00060000.html","language":"ja","role":"first_party","verifiedAt":"2026-10-30"},{"label":"官方影片公告／MOVIE：形式與確切入口","url":"https://trysail.jp/contents/1090603","language":"ja","role":"first_party","verifiedAt":"2026-10-14"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://rakudai-anime.com/news/index00060000.html"],"verifiedAt":"2026-10-14"},{"target":"link","fields":["url","type"],"sourceUrls":["https://trysail.jp/contents/1090603"],"verifiedAt":"2026-10-14","targetId":"https://www.youtube.com/watch?v=7hWVEf4JTrI"},{"target":"song","targetId":"trysail-shoukei","fields":["title","artist"],"sourceUrls":["https://rakudai-anime.com/news/index00060000.html"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"rakudai-kenja-no-gakuin-musou-nidome-no-tensei-s-rank-cheat-majutsushi-bouken-roku-ed-1","fields":["usage"],"sourceUrls":["https://rakudai-anime.com/news/index00060000.html"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"trysail-shoukei","fields":["title","artist"],"sourceUrls":["https://uzurea.net/summer-2026-anime-theme-songs/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"rakudai-kenja-no-gakuin-musou-nidome-no-tensei-s-rank-cheat-majutsushi-bouken-roku-ed-1","fields":["usage"],"sourceUrls":["https://uzurea.net/summer-2026-anime-theme-songs/"],"verifiedAt":"2026-10-30"}],"links":[{"platform":"YouTube","label":"官方 MV · 憧憬","url":"https://www.youtube.com/watch?v=7hWVEf4JTrI","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-14","availability":"unknown"}],"songId":"trysail-shoukei","sourceMode":"explicit"}],"metadataVerifiedAt":"2026-07-25"},
   {"anilistId":197715,"id":"curated-197715","slug":"lv999-no-murabito","seasonIds":["2026-summer"],"startDate":"2026-07-01","titleJa":"LV999の村人","titleZhHant":"LV999的村民","titleRomaji":"LV999 no Murabito","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx197715-KLFLxU24U1uL.png","editorialWeekday":3,"broadcastTimeJst":"24:00","status":"airing","officialSiteUrl":"https://lv999-anime.com/","anilistUrl":"https://anilist.co/anime/197715","imageSourceUrl":"https://anilist.co/anime/197715","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/675162"],"animeThemesUrl":"https://animethemes.moe/anime/lv999_no_murabito","uzureaUrl":"https://uzurea.net/summer-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"Not a Hero","artistDisplayName":"藍月なくる、棗いつき","youtubeUrl":"https://www.youtube.com/watch?v=4iRiuYov9pY","credits":[{"name":"藍月なくる","role":"vocals"},{"name":"棗いつき","role":"vocals"},{"name":"棗いつき","role":"lyrics"},{"name":"草野華余子","role":"composition"},{"name":"BLACK ALBATROSS","role":"arrangement"}],"sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=4iRiuYov9pY","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"動畫官方網站","url":"https://lv999-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/lv999_no_murabito","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/summer-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-10-30"},{"label":"GREE 官方 Single 公告：創作名單","url":"https://gree-entertainment.com/topics/nbm79p_3","language":"ja","role":"first_party","verifiedAt":"2026-10-30"},{"label":"GREE 官方公告（テレ東掲載）：個別演唱者","url":"https://www.tv-tokyo.co.jp/plus/external-pr/entry/135051.html","language":"ja","role":"first_party","verifiedAt":"2026-10-14"},{"label":"GREE本期公告：曲名、演唱及主題曲用途","url":"https://gree-entertainment.com/topics/f11Yg-nl","language":"ja","role":"first_party","verifiedAt":"2026-10-30"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://gree-entertainment.com/topics/nbm79p_3"],"verifiedAt":"2026-10-14"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.tv-tokyo.co.jp/plus/external-pr/entry/135051.html"],"verifiedAt":"2026-10-14"},{"target":"song","targetId":"aitsuki-nakuru-natsume-itsuki-not-a-hero","fields":["title","artist"],"sourceUrls":["https://gree-entertainment.com/topics/f11Yg-nl"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"lv999-no-murabito-op-1","fields":["usage"],"sourceUrls":["https://gree-entertainment.com/topics/f11Yg-nl"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"aitsuki-nakuru-natsume-itsuki-not-a-hero","fields":["title","artist"],"sourceUrls":["https://gree-entertainment.com/topics/nbm79p_3"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"lv999-no-murabito-op-1","fields":["usage"],"sourceUrls":["https://gree-entertainment.com/topics/nbm79p_3"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"aitsuki-nakuru-natsume-itsuki-not-a-hero","fields":["title","artist"],"sourceUrls":["https://uzurea.net/summer-2026-anime-theme-songs/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"lv999-no-murabito-op-1","fields":["usage"],"sourceUrls":["https://uzurea.net/summer-2026-anime-theme-songs/"],"verifiedAt":"2026-10-30"}],"songId":"aitsuki-nakuru-natsume-itsuki-not-a-hero","sourceMode":"explicit"},{"type":"ED","sequence":1,"titleJa":"HP","artistDisplayName":"ゆきむら。","youtubeUrl":"https://www.youtube.com/watch?v=MgIol7kDcTE","credits":[{"name":"ゆきむら。","role":"vocals"},{"name":"水槽","role":"lyrics"},{"name":"水槽","role":"composition"},{"name":"水槽","role":"arrangement"}],"sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=MgIol7kDcTE","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"動畫官方網站","url":"https://lv999-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/lv999_no_murabito","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/summer-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-10-30"},{"label":"官方影片公告／MOVIE：形式與確切入口","url":"https://gree-entertainment.com/topics/f11Yg-nl","language":"ja","role":"first_party","verifiedAt":"2026-10-30"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://gree-entertainment.com/topics/f11Yg-nl"],"verifiedAt":"2026-10-14"},{"target":"link","fields":["url","type"],"sourceUrls":["https://gree-entertainment.com/topics/f11Yg-nl"],"verifiedAt":"2026-10-14","targetId":"https://www.youtube.com/watch?v=MgIol7kDcTE"},{"target":"video","fields":["title","type","artist","url"],"sourceUrls":["https://gree-entertainment.com/topics/f11Yg-nl"],"verifiedAt":"2026-10-14","targetId":"MgIol7kDcTE"},{"target":"song","targetId":"yukimura-hp","fields":["title","artist"],"sourceUrls":["https://gree-entertainment.com/topics/f11Yg-nl"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"lv999-no-murabito-ed-1","fields":["usage"],"sourceUrls":["https://gree-entertainment.com/topics/f11Yg-nl"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"yukimura-hp","fields":["title","artist"],"sourceUrls":["https://uzurea.net/summer-2026-anime-theme-songs/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"lv999-no-murabito-ed-1","fields":["usage"],"sourceUrls":["https://uzurea.net/summer-2026-anime-theme-songs/"],"verifiedAt":"2026-10-30"}],"links":[{"platform":"YouTube","label":"官方 ED 映像 · HP","url":"https://www.youtube.com/watch?v=MgIol7kDcTE","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-14","availability":"unknown"}],"songId":"yukimura-hp","sourceMode":"explicit"}],"metadataVerifiedAt":"2026-07-25"},
-  {"anilistId":209669,"id":"curated-209669","slug":"hanazakari-no-kimitachi-e-2nd-season","seasonIds":["2026-summer"],"startDate":"2026-07-01","titleJa":"花ざかりの君たちへ 第2期","titleZhHant":"花樣少年少女","titleRomaji":"Hanazakari no Kimitachi e 2nd Season","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209669-7GlPe2ra5f1i.jpg","editorialWeekday":3,"broadcastTimeJst":"24:30","status":"airing","officialSiteUrl":"https://hanakimi-anime.com/","anilistUrl":"https://anilist.co/anime/209669","imageSourceUrl":"https://anilist.co/anime/209669","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/673174"],"animeThemesUrl":"https://animethemes.moe/anime/hanazakari_no_kimitachi_e_2nd_season","uzureaUrl":"https://uzurea.net/summer-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"FLASHBULB","artistDisplayName":"Omoinotake","youtubeUrl":"https://www.youtube.com/watch?v=SccI7wPhm5s","credits":[{"name":"Omoinotake","role":"vocals"},{"name":"福島智朗","role":"lyrics"},{"name":"藤井怜央","role":"composition"},{"name":"Omoinotake","role":"arrangement"}],"sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=SccI7wPhm5s","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"動畫官網 MUSIC：第二期創作名單","url":"https://hanakimi-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-10-14"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/hanazakari_no_kimitachi_e_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/summer-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"官方影片公告／MOVIE：形式與確切入口","url":"https://omoinotake.com/info/2199/","language":"ja","role":"first_party","verifiedAt":"2026-10-14"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://hanakimi-anime.com/"],"verifiedAt":"2026-10-14"},{"target":"link","fields":["url","type"],"sourceUrls":["https://omoinotake.com/info/2199/"],"verifiedAt":"2026-10-14","targetId":"https://www.youtube.com/watch?v=SccI7wPhm5s"},{"target":"link","fields":["url","type"],"sourceUrls":["https://omoinotake.com/info/2199/"],"verifiedAt":"2026-10-14","targetId":"https://www.youtube.com/watch?v=XkMdJycOZcQ"}],"links":[{"platform":"YouTube","label":"官方無字幕 OP · FLASHBULB","url":"https://www.youtube.com/watch?v=SccI7wPhm5s","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-14","availability":"unknown"},{"platform":"YouTube","label":"官方 MV · FLASHBULB","url":"https://www.youtube.com/watch?v=XkMdJycOZcQ","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-14","availability":"unknown"}],"songId":"omoinotake-flashbulb","sourceMode":"explicit","followUp":[{"fields":["basic_evidence"],"note":"本期日本TV身分已確認；同版常規完整獨立番組槽或合法本體分鐘仍待核。既有歌曲、名義及音樂證據保留，基本歌曲階段暫未解鎖。","resumeWhen":"兩輪已完成；只有同版新第一方公告／原普通頁恢復並保留完整獨立常規槽起訖，或合法本體分鐘直接新證據，才續查。未有trigger不重開，不採搜尋摘要。","checkedAt":"2026-10-30"}]},{"type":"ED","sequence":1,"titleJa":"花束","titleRomaji":"Hanataba","artistDisplayName":"Omoinotake","youtubeUrl":"https://www.youtube.com/watch?v=-nGHy6oi9dA","credits":[{"name":"Omoinotake","role":"vocals"},{"name":"福島智朗","role":"lyrics"},{"name":"藤井怜央","role":"composition"},{"name":"Omoinotake","role":"arrangement"}],"sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=-nGHy6oi9dA","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"動畫官網 MUSIC：第二期創作名單","url":"https://hanakimi-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-10-14"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/hanazakari_no_kimitachi_e_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/summer-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"官方影片公告／MOVIE：形式與確切入口","url":"https://hanakimi-anime.com/movie/","language":"ja","role":"first_party","verifiedAt":"2026-10-14"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://hanakimi-anime.com/"],"verifiedAt":"2026-10-14"},{"target":"link","fields":["url","type"],"sourceUrls":["https://hanakimi-anime.com/movie/"],"verifiedAt":"2026-10-14","targetId":"https://www.youtube.com/watch?v=-nGHy6oi9dA"}],"links":[{"platform":"YouTube","label":"官方無字幕 ED · 花束","url":"https://www.youtube.com/watch?v=-nGHy6oi9dA","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-14","availability":"unknown"}],"songId":"omoinotake-hanataba","sourceMode":"explicit","followUp":[{"fields":["basic_evidence"],"note":"本期日本TV身分已確認；同版常規完整獨立番組槽或合法本體分鐘仍待核。既有歌曲、名義及音樂證據保留，基本歌曲階段暫未解鎖。","resumeWhen":"兩輪已完成；只有同版新第一方公告／原普通頁恢復並保留完整獨立常規槽起訖，或合法本體分鐘直接新證據，才續查。未有trigger不重開，不採搜尋摘要。","checkedAt":"2026-10-30"}]}],"metadataVerifiedAt":"2026-07-25","metadataSources":[{"label":"動畫官方網站：作品與播出資料","url":"https://hanakimi-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AniList：作品識別與公開圖像","url":"https://anilist.co/anime/209669","language":"en","role":"identifier","verifiedAt":"2026-07-25"},{"label":"繁體中文季度列表交叉對照","url":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","language":"zh-Hant","role":"localized_cross_check","verifiedAt":"2026-07-25"},{"label":"AnimeThemes：OP／ED 曲目交叉核對","url":"https://animethemes.moe/anime/hanazakari_no_kimitachi_e_2nd_season","language":"en","role":"theme_cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA：季度主題曲與官方影片索引","url":"https://uzurea.net/summer-2026-anime-theme-songs/","language":"ja","role":"theme_cross_check","verifiedAt":"2026-07-25"},{"label":"季度首播公開來源","url":"https://natalie.mu/comic/news/673174","language":"ja","role":"broadcast_cross_check","verifiedAt":"2026-07-25"},{"url":"https://www.aniplex.co.jp/lineup/hanakimi/news/detail/?id=70482","label":"花ざかりの君たちへ 第2期：本期形式／播出排程：Aniplex 官方公告（發表／資料提供；刊載：Aniplex）","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://www.bs11.jp/anime/hanakimi-2nd/","label":"花ざかりの君たちへ 第2期：本期形式／播出排程：BS11 播出方官方節目頁（發表／資料提供；刊載：BS11）","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://www.bs11.jp/anime/index.php","label":"花ざかりの君たちへ 第2期：本期形式／播出排程：BS11 播出方官方節目頁（發表／資料提供；刊載：BS11）","role":"first_party","language":"ja","verifiedAt":"2026-10-30"}],"broadcastLabel":"日本TV第2期：2026-07-01起TOKYO MX／BS11每週三24:30；與1月第1期分開。本期常規完整槽／合法本體分鐘仍未核，歌曲深化延後。"},
+  {"anilistId":209669,"id":"curated-209669","slug":"hanazakari-no-kimitachi-e-2nd-season","seasonIds":["2026-summer"],"startDate":"2026-07-01","titleJa":"花ざかりの君たちへ 第2期","titleZhHant":"花樣少年少女","titleRomaji":"Hanazakari no Kimitachi e 2nd Season","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209669-7GlPe2ra5f1i.jpg","editorialWeekday":3,"broadcastTimeJst":"24:30","status":"airing","officialSiteUrl":"https://hanakimi-anime.com/","anilistUrl":"https://anilist.co/anime/209669","imageSourceUrl":"https://anilist.co/anime/209669","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/673174"],"animeThemesUrl":"https://animethemes.moe/anime/hanazakari_no_kimitachi_e_2nd_season","uzureaUrl":"https://uzurea.net/summer-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"FLASHBULB","artistDisplayName":"Omoinotake","youtubeUrl":"https://www.youtube.com/watch?v=SccI7wPhm5s","credits":[{"name":"Omoinotake","role":"vocals"},{"name":"福島智朗","role":"lyrics"},{"name":"藤井怜央","role":"composition"},{"name":"Omoinotake","role":"arrangement"}],"sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=SccI7wPhm5s","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"動畫官網 MUSIC：第二期創作名單","url":"https://hanakimi-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-10-14"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/hanazakari_no_kimitachi_e_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/summer-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"官方影片公告／MOVIE：形式與確切入口","url":"https://omoinotake.com/info/2199/","language":"ja","role":"first_party","verifiedAt":"2026-10-14"},{"url":"https://hanakimi-anime.com/news/?article_id=70481","label":"動畫官方：OP曲名、演唱及用途","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://www.animatetimes.com/news/details.php?id=1779527758","label":"Animate Times：第2期OP／ED曲名及演唱","role":"cross_check","language":"ja","verifiedAt":"2026-11-07"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://hanakimi-anime.com/"],"verifiedAt":"2026-10-14"},{"target":"link","fields":["url","type"],"sourceUrls":["https://omoinotake.com/info/2199/"],"verifiedAt":"2026-10-14","targetId":"https://www.youtube.com/watch?v=SccI7wPhm5s"},{"target":"link","fields":["url","type"],"sourceUrls":["https://omoinotake.com/info/2199/"],"verifiedAt":"2026-10-14","targetId":"https://www.youtube.com/watch?v=XkMdJycOZcQ"},{"target":"song","targetId":"omoinotake-flashbulb","fields":["title","artist"],"sourceUrls":["https://hanakimi-anime.com/news/?article_id=70481","https://www.animatetimes.com/news/details.php?id=1779527758"],"verifiedAt":"2026-11-07"},{"target":"anime_use","targetId":"hanazakari-no-kimitachi-e-2nd-season-op-1","fields":["usage"],"sourceUrls":["https://hanakimi-anime.com/news/?article_id=70481","https://www.animatetimes.com/news/details.php?id=1779527758"],"verifiedAt":"2026-11-07"}],"links":[{"platform":"YouTube","label":"官方無字幕 OP · FLASHBULB","url":"https://www.youtube.com/watch?v=SccI7wPhm5s","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-14","availability":"unknown"},{"platform":"YouTube","label":"官方 MV · FLASHBULB","url":"https://www.youtube.com/watch?v=XkMdJycOZcQ","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-14","availability":"unknown"}],"songId":"omoinotake-flashbulb","sourceMode":"explicit"},{"type":"ED","sequence":1,"titleJa":"花束","titleRomaji":"Hanataba","artistDisplayName":"Omoinotake","youtubeUrl":"https://www.youtube.com/watch?v=-nGHy6oi9dA","credits":[{"name":"Omoinotake","role":"vocals"},{"name":"福島智朗","role":"lyrics"},{"name":"藤井怜央","role":"composition"},{"name":"Omoinotake","role":"arrangement"}],"sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=-nGHy6oi9dA","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"動畫官網 MUSIC：第二期創作名單","url":"https://hanakimi-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-10-14"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/hanazakari_no_kimitachi_e_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/summer-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"官方影片公告／MOVIE：形式與確切入口","url":"https://hanakimi-anime.com/movie/","language":"ja","role":"first_party","verifiedAt":"2026-10-14"},{"url":"https://hanakimi-anime.com/news/?article_id=70481","label":"動畫官方：ED曲名、演唱及用途","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://www.animatetimes.com/news/details.php?id=1779527758","label":"Animate Times：第2期OP／ED曲名及演唱","role":"cross_check","language":"ja","verifiedAt":"2026-11-07"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://hanakimi-anime.com/"],"verifiedAt":"2026-10-14"},{"target":"link","fields":["url","type"],"sourceUrls":["https://hanakimi-anime.com/movie/"],"verifiedAt":"2026-10-14","targetId":"https://www.youtube.com/watch?v=-nGHy6oi9dA"},{"target":"song","targetId":"omoinotake-hanataba","fields":["title","artist"],"sourceUrls":["https://hanakimi-anime.com/news/?article_id=70481","https://www.animatetimes.com/news/details.php?id=1779527758"],"verifiedAt":"2026-11-07"},{"target":"anime_use","targetId":"hanazakari-no-kimitachi-e-2nd-season-ed-1","fields":["usage"],"sourceUrls":["https://hanakimi-anime.com/news/?article_id=70481","https://www.animatetimes.com/news/details.php?id=1779527758"],"verifiedAt":"2026-11-07"}],"links":[{"platform":"YouTube","label":"官方無字幕 ED · 花束","url":"https://www.youtube.com/watch?v=-nGHy6oi9dA","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-14","availability":"unknown"}],"songId":"omoinotake-hanataba","sourceMode":"explicit"}],"metadataVerifiedAt":"2026-07-25","metadataSources":[{"label":"動畫官方網站：作品與播出資料","url":"https://hanakimi-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AniList：作品識別與公開圖像","url":"https://anilist.co/anime/209669","language":"en","role":"identifier","verifiedAt":"2026-07-25"},{"label":"繁體中文季度列表交叉對照","url":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","language":"zh-Hant","role":"localized_cross_check","verifiedAt":"2026-07-25"},{"label":"AnimeThemes：OP／ED 曲目交叉核對","url":"https://animethemes.moe/anime/hanazakari_no_kimitachi_e_2nd_season","language":"en","role":"theme_cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA：季度主題曲與官方影片索引","url":"https://uzurea.net/summer-2026-anime-theme-songs/","language":"ja","role":"theme_cross_check","verifiedAt":"2026-07-25"},{"label":"季度首播公開來源","url":"https://natalie.mu/comic/news/673174","language":"ja","role":"broadcast_cross_check","verifiedAt":"2026-07-25"},{"url":"https://www.aniplex.co.jp/lineup/hanakimi/news/detail/?id=70482","label":"花ざかりの君たちへ 第2期：本期形式／播出排程：Aniplex 官方公告（發表／資料提供；刊載：Aniplex）","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://www.bs11.jp/anime/hanakimi-2nd/","label":"花ざかりの君たちへ 第2期：本期形式／播出排程：BS11 播出方官方節目頁（發表／資料提供；刊載：BS11）","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://www.bs11.jp/anime/index.php","label":"花ざかりの君たちへ 第2期：本期形式／播出排程：BS11 播出方官方節目頁（發表／資料提供；刊載：BS11）","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://corp.bs11.jp/ja/ir/irnews/auto_20260629583750/pdfFile.pdf","label":"BS11六月29日夏季編成表：週三24:30–25:00原播節目槽","role":"first_party","language":"ja","verifiedAt":"2026-11-07"}],"broadcastLabel":"日本TV第2期：7月1日起每週三24:30–25:00（JST，BS11常規編成；TOKYO MX同時起播）。與2026年1月第1期分開。"},
   {"anilistId":203880,"id":"curated-203880","slug":"reiwa-no-dara-san","seasonIds":["2026-summer"],"startDate":"2026-07-02","titleJa":"令和のダラさん","titleZhHant":"令和妖神斑小姐","titleRomaji":"Reiwa no Dara-san","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx203880-lnruKftb27Nr.png","editorialWeekday":4,"broadcastTimeJst":"21:30","status":"airing","officialSiteUrl":"https://darasan-anime.com/","anilistUrl":"https://anilist.co/anime/203880","imageSourceUrl":"https://anilist.co/anime/203880","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/675157"],"animeThemesUrl":"https://animethemes.moe/anime/reiwa_no_darasan","uzureaUrl":"https://uzurea.net/summer-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"ダラダラ♡ダンシング","titleRomaji":"Dara Dara ♡ Dancing","artistDisplayName":"ダラさん(CV.田村睦心),三十木谷日向(CV.津田美波),三十木谷薫(CV.寺澤百花),ナレーション(CV.てらそままさき)","youtubeUrl":"https://www.youtube.com/watch?v=ARajp8DyC48","credits":[{"name":"田村睦心（ダラさん）","role":"vocals"},{"name":"津田美波（三十木谷日向）","role":"vocals"},{"name":"寺澤百花（三十木谷薫）","role":"vocals"},{"name":"てらそままさき（ナレーション）","role":"vocals"},{"name":"松藤量平（sixth floor）","role":"lyrics"},{"name":"志記（sixth floor）","role":"composition"},{"name":"野口 亮","role":"arrangement"},{"name":"福森優光（sixth floor）","role":"arrangement"}],"sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=ARajp8DyC48","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"動畫官方網站","url":"https://darasan-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/reiwa_no_darasan","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/summer-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-10-30"},{"label":"動畫官網 MUSIC：角色演唱與創作名單","url":"https://darasan-anime.com/music/","language":"ja","role":"first_party","verifiedAt":"2026-10-30"},{"label":"官方影片公告／MOVIE：形式與確切入口","url":"https://darasan-anime.com/movie/","language":"ja","role":"first_party","verifiedAt":"2026-10-14"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://darasan-anime.com/music/"],"verifiedAt":"2026-10-14"},{"target":"link","fields":["url","type"],"sourceUrls":["https://darasan-anime.com/movie/"],"verifiedAt":"2026-10-14","targetId":"https://www.youtube.com/watch?v=ARajp8DyC48"},{"target":"song","targetId":"dara-san-daradara-dancing","fields":["title","artist"],"sourceUrls":["https://darasan-anime.com/music/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"reiwa-no-dara-san-op-1","fields":["usage"],"sourceUrls":["https://darasan-anime.com/music/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"dara-san-daradara-dancing","fields":["title","artist"],"sourceUrls":["https://uzurea.net/summer-2026-anime-theme-songs/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"reiwa-no-dara-san-op-1","fields":["usage"],"sourceUrls":["https://uzurea.net/summer-2026-anime-theme-songs/"],"verifiedAt":"2026-10-30"}],"links":[{"platform":"YouTube","label":"官方 OP 映像 · ダラダラ♡ダンシング","url":"https://www.youtube.com/watch?v=ARajp8DyC48","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-14","availability":"unknown"}],"songId":"dara-san-daradara-dancing","sourceMode":"explicit"},{"type":"ED","sequence":1,"titleJa":"ひなたぼっこ","titleRomaji":"Hinatabokko","artistDisplayName":"REIRIE","youtubeUrl":"https://www.youtube.com/watch?v=HjtjOaJz-_U","credits":[{"name":"REIRIE","role":"vocals"},{"name":"辻村有記","role":"lyrics"},{"name":"辻村有記","role":"composition"},{"name":"MEG（MEGMETAL）","role":"composition"},{"name":"辻村有記","role":"arrangement"},{"name":"MEG（MEGMETAL）","role":"arrangement"},{"name":"黒宮れい","role":"group_member","groupName":"REIRIE"},{"name":"金子理江","role":"group_member","groupName":"REIRIE"}],"sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=HjtjOaJz-_U","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"動畫官方網站","url":"https://darasan-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/reiwa_no_darasan","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/summer-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-10-30"},{"label":"動畫官網 MUSIC：創作與團隊名單","url":"https://darasan-anime.com/music/","language":"ja","role":"first_party","verifiedAt":"2026-10-30"},{"label":"官方影片公告／MOVIE：形式與確切入口","url":"https://darasan-anime.com/movie/","language":"ja","role":"first_party","verifiedAt":"2026-10-14"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://darasan-anime.com/music/"],"verifiedAt":"2026-10-14"},{"target":"link","fields":["url","type"],"sourceUrls":["https://darasan-anime.com/movie/"],"verifiedAt":"2026-10-14","targetId":"https://www.youtube.com/watch?v=HjtjOaJz-_U"},{"target":"song","targetId":"reirie-hinatabokko","fields":["title","artist"],"sourceUrls":["https://darasan-anime.com/music/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"reiwa-no-dara-san-ed-1","fields":["usage"],"sourceUrls":["https://darasan-anime.com/music/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"reirie-hinatabokko","fields":["title","artist"],"sourceUrls":["https://uzurea.net/summer-2026-anime-theme-songs/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"reiwa-no-dara-san-ed-1","fields":["usage"],"sourceUrls":["https://uzurea.net/summer-2026-anime-theme-songs/"],"verifiedAt":"2026-10-30"}],"links":[{"platform":"YouTube","label":"官方 ED 映像 · ひなたぼっこ","url":"https://www.youtube.com/watch?v=HjtjOaJz-_U","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-14","availability":"unknown"}],"songId":"reirie-hinatabokko","sourceMode":"explicit"}],"metadataVerifiedAt":"2026-07-25"},
   {
     "anilistId": 201667,
@@ -1194,7 +1194,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
     "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/207141-MvHAS2YVfJzL.jpg",
     "editorialWeekday": 4,
     "broadcastTimeJst": "24:30",
-    "status": "airing",
+    "status": "finished",
     "officialSiteUrl": "https://yanineko-anime.com",
     "anilistUrl": "https://anilist.co/anime/207141",
     "imageSourceUrl": "https://anilist.co/anime/207141",
@@ -1271,6 +1271,20 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "language": "ja",
             "role": "first_party",
             "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://yanineko-anime.com/111/",
+            "label": "動畫官方主題曲公告：通常OP／ED",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://times.abema.tv/articles/-/10259405",
+            "label": "ABEMA TIMES：主題曲及逐話劇中歌",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
           }
         ],
         "evidence": [
@@ -1309,6 +1323,31 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-14",
             "targetId": "slMi0a6uA3w"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://yanineko-anime.com/111/",
+              "https://times.abema.tv/articles/-/10259405"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "wasureranneyo-nanmonee"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://yanineko-anime.com/111/",
+              "https://times.abema.tv/articles/-/10259405"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "yani-neko-op-1"
           }
         ],
         "links": [
@@ -1323,17 +1362,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
           }
         ],
         "songId": "wasureranneyo-nanmonee",
-        "sourceMode": "explicit",
-        "followUp": [
-          {
-            "fields": [
-              "basic_evidence"
-            ],
-            "note": "本期形式待核：同版常規完整獨立番組槽或合法本體分鐘仍未取得足夠證據；已知作品與起點依來源範圍保留。既有歌曲、名義及音樂證據保留，歌曲核心資料仍待核對。",
-            "resumeWhen": "待本期同版本的官方節目表明列完整、獨立的常規播出起訖，或正版平台公開單集片長後，再補核歌曲用途。",
-            "checkedAt": "2026-10-31"
-          }
-        ]
+        "sourceMode": "explicit"
       },
       {
         "type": "ED",
@@ -1420,6 +1449,20 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "language": "ja",
             "role": "first_party",
             "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://yanineko-anime.com/111/",
+            "label": "動畫官方主題曲公告：通常OP／ED",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://times.abema.tv/articles/-/10259405",
+            "label": "ABEMA TIMES：主題曲及逐話劇中歌",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
           }
         ],
         "evidence": [
@@ -1444,6 +1487,31 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-14",
             "targetId": "https://www.youtube.com/watch?v=RLdT1kNIrM8"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://yanineko-anime.com/111/",
+              "https://times.abema.tv/articles/-/10259405"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "necry-talkie-kemuri-to-blue"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://yanineko-anime.com/111/",
+              "https://times.abema.tv/articles/-/10259405"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "yani-neko-ed-1"
           }
         ],
         "links": [
@@ -1458,15 +1526,318 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
           }
         ],
         "songId": "necry-talkie-kemuri-to-blue",
+        "sourceMode": "explicit"
+      },
+      {
+        "id": "yani-neko-op-2",
+        "songId": "wasureranneyo-nanmonee",
+        "type": "OP",
+        "sequence": 2,
+        "titleJa": "なんもねえ",
+        "artistDisplayName": "ネクライトーキー",
+        "usageLabel": "第11話片頭曲（互唱版）",
+        "seasonIds": [
+          "2026-summer"
+        ],
         "sourceMode": "explicit",
-        "followUp": [
+        "sources": [
           {
+            "url": "https://www.youtube.com/watch?v=OWX9PkehTq8",
+            "label": "動畫官方第11話無字幕OP：ネクライトーキー演唱",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E5%B0%BC%E5%8F%A4%E5%96%B5%E5%96%B5",
+            "label": "中文主題曲表：第11話互唱版本",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-07"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-07",
+        "credits": [
+          {
+            "name": "ネクライトーキー",
+            "role": "vocals"
+          },
+          {
+            "name": "柴田隆浩",
+            "role": "lyrics"
+          },
+          {
+            "name": "柴田隆浩",
+            "role": "composition"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
             "fields": [
-              "basic_evidence"
+              "title",
+              "artist"
             ],
-            "note": "本期形式待核：同版常規完整獨立番組槽或合法本體分鐘仍未取得足夠證據；已知作品與起點依來源範圍保留。既有歌曲、名義及音樂證據保留，歌曲核心資料仍待核對。",
-            "resumeWhen": "待本期同版本的官方節目表明列完整、獨立的常規播出起訖，或正版平台公開單集片長後，再補核歌曲用途。",
-            "checkedAt": "2026-10-31"
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=OWX9PkehTq8",
+              "https://zh.wikipedia.org/wiki/%E5%B0%BC%E5%8F%A4%E5%96%B5%E5%96%B5"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "wasureranneyo-nanmonee"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=OWX9PkehTq8",
+              "https://zh.wikipedia.org/wiki/%E5%B0%BC%E5%8F%A4%E5%96%B5%E5%96%B5"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "yani-neko-op-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/%E5%B0%BC%E5%8F%A4%E5%96%B5%E5%96%B5"
+            ],
+            "verifiedAt": "2026-11-07"
+          }
+        ]
+      },
+      {
+        "id": "yani-neko-ed-2",
+        "songId": "necry-talkie-kemuri-to-blue",
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "煙とブルー",
+        "artistDisplayName": "忘れらんねえよ",
+        "usageLabel": "第11話片尾曲（互唱版）",
+        "seasonIds": [
+          "2026-summer"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=nLkhTAIXOI0",
+            "label": "動畫官方第11話無字幕ED：忘れらんねえよ演唱",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E5%B0%BC%E5%8F%A4%E5%96%B5%E5%96%B5",
+            "label": "中文主題曲表：第11話互唱版本",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-07"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-07",
+        "credits": [
+          {
+            "name": "忘れらんねえよ",
+            "role": "vocals"
+          },
+          {
+            "name": "朝日",
+            "role": "lyrics"
+          },
+          {
+            "name": "朝日",
+            "role": "composition"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=nLkhTAIXOI0",
+              "https://zh.wikipedia.org/wiki/%E5%B0%BC%E5%8F%A4%E5%96%B5%E5%96%B5"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "necry-talkie-kemuri-to-blue"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=nLkhTAIXOI0",
+              "https://zh.wikipedia.org/wiki/%E5%B0%BC%E5%8F%A4%E5%96%B5%E5%96%B5"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "yani-neko-ed-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/%E5%B0%BC%E5%8F%A4%E5%96%B5%E5%96%B5"
+            ],
+            "verifiedAt": "2026-11-07"
+          }
+        ]
+      },
+      {
+        "id": "yani-neko-in-1",
+        "songId": "yani-neko-in-1-song",
+        "type": "IN",
+        "sequence": 1,
+        "titleJa": "ニコチン受容体体操",
+        "artistDisplayName": "タバコの妖精（CV.間宮くるみ）",
+        "usageLabel": "第2話插曲",
+        "seasonIds": [
+          "2026-summer"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=tkLZTaCxyIA",
+            "label": "動畫官方：第2話劇中歌片段",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://times.abema.tv/articles/-/10259405",
+            "label": "ABEMA TIMES：主題曲及逐話劇中歌",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-07",
+        "credits": [
+          {
+            "name": "間宮くるみ",
+            "role": "vocals"
+          },
+          {
+            "name": "鈴木慶一",
+            "role": "composition"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=tkLZTaCxyIA",
+              "https://times.abema.tv/articles/-/10259405"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "yani-neko-in-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=tkLZTaCxyIA",
+              "https://times.abema.tv/articles/-/10259405"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "yani-neko-in-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://times.abema.tv/articles/-/10259405"
+            ],
+            "verifiedAt": "2026-11-07"
+          }
+        ]
+      },
+      {
+        "id": "yani-neko-in-2",
+        "songId": "yani-neko-in-2-song",
+        "type": "IN",
+        "sequence": 2,
+        "titleJa": "僕はダーリン",
+        "artistDisplayName": "鈴木慶一",
+        "usageLabel": "第6話插曲",
+        "seasonIds": [
+          "2026-summer"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://columbia.jp/prod-info/COKM-46680/",
+            "label": "日本コロムビア原聲帶：第6話劇中歌與演唱",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://times.abema.tv/articles/-/10259405",
+            "label": "ABEMA TIMES：主題曲及逐話劇中歌",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-07",
+        "credits": [
+          {
+            "name": "鈴木慶一",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/prod-info/COKM-46680/",
+              "https://times.abema.tv/articles/-/10259405"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "yani-neko-in-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/prod-info/COKM-46680/",
+              "https://times.abema.tv/articles/-/10259405"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "yani-neko-in-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/prod-info/COKM-46680/",
+              "https://times.abema.tv/articles/-/10259405"
+            ],
+            "verifiedAt": "2026-11-07"
           }
         ]
       }
@@ -1521,9 +1892,23 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
         "role": "first_party",
         "language": "ja",
         "verifiedAt": "2026-10-31"
+      },
+      {
+        "url": "https://corp.bs11.jp/ja/ir/irnews/auto_20260629583750/pdfFile.pdf",
+        "label": "BS11夏季編成表：週四24:30–25:00原播節目槽",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-07"
+      },
+      {
+        "url": "https://thetv.jp/program/0001075289/",
+        "label": "WEBザテレビジョン：TOKYO MX常規節目槽與第12話播畢",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-07"
       }
     ],
-    "broadcastLabel": "日本TV：2026-07-02起TOKYO MX／BS11每週四24:30（五00:30），AT-X07-25起每週六24:30（日00:30）；オンエア版／邪竜解放版及配信分開。只有開始時刻，完整常規槽／合法本體分鐘待核。"
+    "broadcastLabel": "日本TV：7月2日起每週四24:30–25:00（JST，TOKYO MX／BS11），TOKYO MX節目日9月24日第12話播畢。地上波為オンエア版；AT-X與部分配信有邪竜解放版。"
   },
   {"anilistId":204466,"id":"curated-204466","slug":"otome-kaijuu-caramelise","seasonIds":["2026-summer"],"startDate":"2026-07-02","titleJa":"乙女怪獣キャラメリゼ","titleZhHant":"少女怪獸焦糖戀心","titleRomaji":"Otome Kaijuu Caramelise","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx204466-vXMvIs4VOoQd.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/204466-cpbNGN9qHrGP.jpg","editorialWeekday":4,"broadcastTimeJst":"25:28","status":"airing","officialSiteUrl":"https://otomekaiju.com/","anilistUrl":"https://anilist.co/anime/204466","imageSourceUrl":"https://anilist.co/anime/204466","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/675132"],"animeThemesUrl":"https://animethemes.moe/anime/otome_kaijuu_caramelise","uzureaUrl":"https://uzurea.net/summer-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"乙女怪獣","titleRomaji":"Otome Kaijuu","artistDisplayName":"METANICK","youtubeUrl":"https://www.youtube.com/watch?v=hFldDZZcrQo","credits":[{"name":"METANICK","role":"vocals"},{"name":"結城アイラ","role":"lyrics"},{"name":"本多友紀","role":"composition"},{"name":"本多友紀","role":"arrangement"}],"sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=hFldDZZcrQo","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"動畫官方網站","url":"https://otomekaiju.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/otome_kaijuu_caramelise","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/summer-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"動畫官網 MUSIC：OP 創作名單","url":"https://otomekaiju.com/music/op.html","language":"ja","role":"first_party","verifiedAt":"2026-10-14"},{"url":"https://otomekaiju.com/news/index00110000.html","label":"乙女怪獣：曲名／演唱／動畫用途：TVアニメ「乙女怪獣キャラメリゼ」公式サイト（發表／資料提供；刊載：otomekaiju.com）","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://zh.wikipedia.org/wiki/%E5%B0%91%E5%A5%B3%E6%80%AA%E7%8D%B8%E7%84%A6%E7%B3%96%E6%88%80%E5%BF%83","label":"乙女怪獣：曲名／演唱／動畫用途：中文維基百科條目貢獻者（發表／資料提供；刊載：中文維基百科）","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-30"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://otomekaiju.com/music/op.html"],"verifiedAt":"2026-10-14"},{"target":"song","targetId":"metanick-otome-kaijuu","fields":["title","artist"],"sourceUrls":["https://otomekaiju.com/news/index00110000.html"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"otome-kaijuu-caramelise-op-1","fields":["usage"],"sourceUrls":["https://otomekaiju.com/news/index00110000.html"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"metanick-otome-kaijuu","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%B0%91%E5%A5%B3%E6%80%AA%E7%8D%B8%E7%84%A6%E7%B3%96%E6%88%80%E5%BF%83"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"otome-kaijuu-caramelise-op-1","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%B0%91%E5%A5%B3%E6%80%AA%E7%8D%B8%E7%84%A6%E7%B3%96%E6%88%80%E5%BF%83"],"verifiedAt":"2026-10-30"}],"songId":"metanick-otome-kaijuu","sourceMode":"explicit"},{"type":"ED","sequence":1,"titleJa":"オトメノホンキ","titleRomaji":"Otome no Honki","artistDisplayName":"HoneyWorks feat.ハコニワリリィ","youtubeUrl":"https://www.youtube.com/watch?v=waOUdRPozDY","credits":[{"name":"HoneyWorks feat.ハコニワリリィ","role":"vocals"},{"name":"HoneyWorks","role":"lyrics"},{"name":"MARUMOCHI","role":"lyrics"},{"name":"HoneyWorks","role":"composition"},{"name":"MARUMOCHI","role":"composition"},{"name":"HoneyWorks","role":"arrangement"},{"name":"MARUMOCHI","role":"arrangement"}],"sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=waOUdRPozDY","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"動畫官方網站","url":"https://otomekaiju.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/otome_kaijuu_caramelise","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/summer-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"動畫官網 MUSIC：ED 創作名單","url":"https://otomekaiju.com/music/ed.html","language":"ja","role":"first_party","verifiedAt":"2026-10-14"},{"url":"https://otomekaiju.com/news/index00110000.html","label":"オトメノホンキ：曲名／演唱／動畫用途：TVアニメ「乙女怪獣キャラメリゼ」公式サイト（發表／資料提供；刊載：otomekaiju.com）","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://zh.wikipedia.org/wiki/%E5%B0%91%E5%A5%B3%E6%80%AA%E7%8D%B8%E7%84%A6%E7%B3%96%E6%88%80%E5%BF%83","label":"オトメノホンキ：曲名／演唱／動畫用途：中文維基百科條目貢獻者（發表／資料提供；刊載：中文維基百科）","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-30"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://otomekaiju.com/music/ed.html"],"verifiedAt":"2026-10-14"},{"target":"song","targetId":"honeyworks-hakoniwa-lily-otome-no-honki","fields":["title","artist"],"sourceUrls":["https://otomekaiju.com/news/index00110000.html"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"otome-kaijuu-caramelise-ed-1","fields":["usage"],"sourceUrls":["https://otomekaiju.com/news/index00110000.html"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"honeyworks-hakoniwa-lily-otome-no-honki","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%B0%91%E5%A5%B3%E6%80%AA%E7%8D%B8%E7%84%A6%E7%B3%96%E6%88%80%E5%BF%83"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"otome-kaijuu-caramelise-ed-1","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%B0%91%E5%A5%B3%E6%80%AA%E7%8D%B8%E7%84%A6%E7%B3%96%E6%88%80%E5%BF%83"],"verifiedAt":"2026-10-30"}],"songId":"honeyworks-hakoniwa-lily-otome-no-honki","sourceMode":"explicit"}],"metadataVerifiedAt":"2026-07-25","metadataSources":[{"label":"動畫官方網站：作品與播出資料","url":"https://otomekaiju.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AniList：作品識別與公開圖像","url":"https://anilist.co/anime/204466","language":"en","role":"identifier","verifiedAt":"2026-07-25"},{"label":"繁體中文季度列表交叉對照","url":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","language":"zh-Hant","role":"localized_cross_check","verifiedAt":"2026-07-25"},{"label":"AnimeThemes：OP／ED 曲目交叉核對","url":"https://animethemes.moe/anime/otome_kaijuu_caramelise","language":"en","role":"theme_cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA：季度主題曲與官方影片索引","url":"https://uzurea.net/summer-2026-anime-theme-songs/","language":"ja","role":"theme_cross_check","verifiedAt":"2026-07-25"},{"label":"季度首播公開來源","url":"https://natalie.mu/comic/news/675132","language":"ja","role":"broadcast_cross_check","verifiedAt":"2026-07-25"},{"url":"https://otomekaiju.com/onair/","label":"乙女怪獣キャラメリゼ：本期形式／播出排程：TVアニメ「乙女怪獣キャラメリゼ」公式サイト（發表／資料提供；刊載：otomekaiju.com）","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://www.at-x.com/program/detail/?id=21468","label":"乙女怪獣キャラメリゼ：本期形式／播出排程：AT-X 播出方官方節目頁（發表／資料提供；刊載：AT-X）","role":"first_party","language":"ja","verifiedAt":"2026-10-30"}],"broadcastLabel":"日本TV：2026-07-02起TBS每週四25:28，BS11為7/3起每週五25:00；AT-X為7/5起每週日23:30，播出方明示30分×1話。30分鐘為完整番組槽，非淨片長。"},
   {"anilistId":188525,"id":"curated-188525","slug":"kore-kaite-shine","seasonIds":["2026-summer"],"startDate":"2026-07-03","titleJa":"これ描いて死ね","titleZhHant":"畫完這個再去死","titleRomaji":"Kore Kaite Shine","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx188525-uWhw4rQcqOyF.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/188525-Vnei12N4wZsM.jpg","editorialWeekday":5,"broadcastTimeJst":"23:30","status":"airing","officialSiteUrl":"https://www.vap.co.jp/korekaite-shine/","anilistUrl":"https://anilist.co/anime/188525","imageSourceUrl":"https://anilist.co/anime/188525","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/671023"],"animeThemesUrl":"https://animethemes.moe/anime/kore_kaite_shine","uzureaUrl":"https://uzurea.net/summer-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"遺書","titleRomaji":"Isho","artistDisplayName":"キタニタツヤ","youtubeUrl":"https://www.youtube.com/watch?v=ZcX905vF0j0","credits":[{"name":"キタニタツヤ","role":"vocals"}],"sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=ZcX905vF0j0","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"動畫官方網站","url":"https://www.vap.co.jp/korekaite-shine/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/kore_kaite_shine","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/summer-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"キタニタツヤ 官方網站：遺書影片入口","url":"https://tatsuyakitani.com/","language":"ja","role":"first_party","verifiedAt":"2026-10-14"},{"label":"Billboard JAPAN：遺書 MV 形式交叉核對","url":"https://www.billboard-japan.com/d%20_news/detail/164438/2","language":"ja","role":"cross_check","verifiedAt":"2026-10-14"}],"evidence":[{"target":"link","fields":["url","type"],"sourceUrls":["https://tatsuyakitani.com/"],"verifiedAt":"2026-10-14","targetId":"https://www.youtube.com/watch?v=Cb-i3Ixhjt8"},{"target":"link","fields":["type"],"sourceUrls":["https://tatsuyakitani.com/","https://www.billboard-japan.com/d%20_news/detail/164438/2"],"verifiedAt":"2026-10-14","targetId":"https://www.youtube.com/watch?v=Cb-i3Ixhjt8"}],"songId":"kore-kaite-shine-op-1-song","links":[{"platform":"YouTube","label":"遺書 官方 MV","url":"https://www.youtube.com/watch?v=Cb-i3Ixhjt8","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-14","availability":"unknown"}],"sourceMode":"explicit","followUp":[{"fields":["basic_evidence"],"note":"本期日本TV身分已確認；同版常規完整獨立番組槽或合法本體分鐘仍待核。既有歌曲、名義及音樂證據保留，基本歌曲階段暫未解鎖。","resumeWhen":"兩輪已完成；只有同版新第一方公告／原普通頁恢復並保留完整獨立常規槽起訖，或合法本體分鐘直接新證據，才續查。未有trigger不重開，不採搜尋摘要。","checkedAt":"2026-10-30"}]},{"type":"ED","sequence":1,"titleJa":"コニファー","titleRomaji":"Conifer","artistDisplayName":"リーガルリリー","youtubeUrl":"https://www.youtube.com/watch?v=BHS-_AXCWrc","credits":[{"name":"リーガルリリー","role":"vocals"},{"name":"たかはしほのか","role":"lyrics"},{"name":"たかはしほのか","role":"composition"},{"name":"リーガルリリー","role":"arrangement"},{"name":"たかはしほのか","role":"group_member","groupName":"リーガルリリー"},{"name":"海","role":"group_member","groupName":"リーガルリリー"}],"sources":[{"label":"官方 YouTube 影片","url":"https://www.youtube.com/watch?v=BHS-_AXCWrc","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"動畫官網：演唱團隊成員","url":"https://www.vap.co.jp/korekaite-shine/","language":"ja","role":"first_party","verifiedAt":"2026-10-14"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/kore_kaite_shine","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/summer-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"リーガルリリー 官方 MV：歌曲創作名單","url":"https://www.youtube.com/watch?v=taYz9E5kTWg","language":"ja","role":"first_party","verifiedAt":"2026-10-14"},{"label":"藝人官方公告：コニファー MV","url":"https://www.office-augusta.com/regallily/news/?post=news-20260711","language":"ja","role":"first_party","verifiedAt":"2026-10-14"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://www.youtube.com/watch?v=taYz9E5kTWg"],"verifiedAt":"2026-10-14"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.vap.co.jp/korekaite-shine/"],"verifiedAt":"2026-10-14"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.office-augusta.com/regallily/news/?post=news-20260711"],"verifiedAt":"2026-10-14","targetId":"https://www.youtube.com/watch?v=taYz9E5kTWg"}],"songId":"kore-kaite-shine-ed-1-song","links":[{"platform":"YouTube","label":"コニファー 官方 MV","url":"https://www.youtube.com/watch?v=taYz9E5kTWg","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-14","availability":"unknown"}],"sourceMode":"explicit","followUp":[{"fields":["basic_evidence"],"note":"本期日本TV身分已確認；同版常規完整獨立番組槽或合法本體分鐘仍待核。既有歌曲、名義及音樂證據保留，基本歌曲階段暫未解鎖。","resumeWhen":"兩輪已完成；只有同版新第一方公告／原普通頁恢復並保留完整獨立常規槽起訖，或合法本體分鐘直接新證據，才續查。未有trigger不重開，不採搜尋摘要。","checkedAt":"2026-10-30"}]}],"metadataVerifiedAt":"2026-07-25","metadataSources":[{"label":"動畫官方網站：作品與播出資料","url":"https://www.vap.co.jp/korekaite-shine/","language":"ja","role":"first_party","verifiedAt":"2026-10-30"},{"label":"AniList：作品識別與公開圖像","url":"https://anilist.co/anime/188525","language":"en","role":"identifier","verifiedAt":"2026-07-25"},{"label":"繁體中文季度列表交叉對照","url":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","language":"zh-Hant","role":"localized_cross_check","verifiedAt":"2026-07-25"},{"label":"AnimeThemes：OP／ED 曲目交叉核對","url":"https://animethemes.moe/anime/kore_kaite_shine","language":"en","role":"theme_cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA：季度主題曲與官方影片索引","url":"https://uzurea.net/summer-2026-anime-theme-songs/","language":"ja","role":"theme_cross_check","verifiedAt":"2026-07-25"},{"label":"季度首播公開來源","url":"https://natalie.mu/comic/news/671023","language":"ja","role":"broadcast_cross_check","verifiedAt":"2026-07-25"},{"url":"https://www.ntv.co.jp/anime/index.html","label":"これ描いて死ね：本期形式／播出排程：日本テレビ 播出方官方節目頁（發表／資料提供；刊載：日本テレビ）","role":"first_party","language":"ja","verifiedAt":"2026-10-30"}],"broadcastLabel":"日本TV本期：2026-07-03起日本電視台系每週五23:30，AT-X為7/10起22:30；後續第2期公告另分。本期完整常規槽／合法分鐘仍未核，歌曲深化延後。"},
@@ -2399,7 +2784,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
     "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/196017-qB1xhp5PO10x.jpg",
     "editorialWeekday": 6,
     "broadcastTimeJst": "24:00",
-    "status": "airing",
+    "status": "finished",
     "officialSiteUrl": "https://growupshow.com/",
     "anilistUrl": "https://anilist.co/anime/196017",
     "imageSourceUrl": "https://anilist.co/anime/196017",
@@ -2480,7 +2865,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "label": "動畫官網 MUSIC：NOMELON NOLEMON 成員",
             "language": "ja",
             "role": "first_party",
-            "verifiedAt": "2026-10-14"
+            "verifiedAt": "2026-11-07"
           },
           {
             "url": "https://growupshow.com/news/?id=70612",
@@ -2495,6 +2880,13 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "language": "ja",
             "role": "first_party",
             "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://www.animatetimes.com/news/details.php?id=1781340866",
+            "label": "Animate Times：夏季TV的OP／ED曲名及演唱",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
           }
         ],
         "songId": "grow-up-show-himawari-no-circus-dan-op-1-song",
@@ -2544,6 +2936,31 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-14",
             "targetId": "aooo-yurari-yureru-rearranged"
+          },
+          {
+            "target": "song",
+            "targetId": "grow-up-show-himawari-no-circus-dan-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://growupshow.com/music/opening.html",
+              "https://www.animatetimes.com/news/details.php?id=1781340866"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "grow-up-show-himawari-no-circus-dan-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://growupshow.com/music/opening.html",
+              "https://www.animatetimes.com/news/details.php?id=1781340866"
+            ],
+            "verifiedAt": "2026-11-07"
           }
         ],
         "links": [
@@ -2571,17 +2988,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             ]
           }
         ],
-        "sourceMode": "explicit",
-        "followUp": [
-          {
-            "fields": [
-              "basic_evidence"
-            ],
-            "note": "本期日本TV身分已確認；同版常規完整獨立番組槽或合法本體分鐘仍待核。既有歌曲、名義及音樂證據保留，基本歌曲階段暫未解鎖。",
-            "resumeWhen": "兩輪已盡；同版本日本常規完整獨立TV槽起訖或正版單話本體分鐘出現可讀直接新證據時才續查。未有trigger不重搜，不採搜尋快取摘要，不換受限來源渠道。",
-            "checkedAt": "2026-10-30"
-          }
-        ]
+        "sourceMode": "explicit"
       },
       {
         "type": "ED",
@@ -2661,7 +3068,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "label": "動畫官網 MUSIC：Aooo 成員",
             "language": "ja",
             "role": "first_party",
-            "verifiedAt": "2026-10-14"
+            "verifiedAt": "2026-11-07"
           },
           {
             "url": "https://growupshow.com/news/?id=70612",
@@ -2669,6 +3076,13 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "language": "ja",
             "role": "first_party",
             "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://www.animatetimes.com/news/details.php?id=1781340866",
+            "label": "Animate Times：夏季TV的OP／ED曲名及演唱",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
           }
         ],
         "songId": "grow-up-show-himawari-no-circus-dan-ed-1-song",
@@ -2704,6 +3118,31 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-14",
             "targetId": "https://www.youtube.com/watch?v=_HJ9d-6oNt4"
+          },
+          {
+            "target": "song",
+            "targetId": "grow-up-show-himawari-no-circus-dan-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://growupshow.com/music/ending.html",
+              "https://www.animatetimes.com/news/details.php?id=1781340866"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "grow-up-show-himawari-no-circus-dan-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://growupshow.com/music/ending.html",
+              "https://www.animatetimes.com/news/details.php?id=1781340866"
+            ],
+            "verifiedAt": "2026-11-07"
           }
         ],
         "links": [
@@ -2717,17 +3156,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "availability": "unknown"
           }
         ],
-        "sourceMode": "explicit",
-        "followUp": [
-          {
-            "fields": [
-              "basic_evidence"
-            ],
-            "note": "本期日本TV身分已確認；同版常規完整獨立番組槽或合法本體分鐘仍待核。既有歌曲、名義及音樂證據保留，基本歌曲階段暫未解鎖。",
-            "resumeWhen": "兩輪已盡；同版本日本常規完整獨立TV槽起訖或正版單話本體分鐘出現可讀直接新證據時才續查。未有trigger不重搜，不採搜尋快取摘要，不換受限來源渠道。",
-            "checkedAt": "2026-10-30"
-          }
-        ]
+        "sourceMode": "explicit"
       }
     ],
     "metadataVerifiedAt": "2026-07-25",
@@ -2787,9 +3216,37 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
         "role": "first_party",
         "language": "zh-Hant",
         "verifiedAt": "2026-10-30"
+      },
+      {
+        "url": "https://corp.bs11.jp/ja/ir/irnews/auto_20260629583750/pdfFile.pdf",
+        "label": "BS11六月29日夏季編成表：週六24:00–24:30原播節目槽",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-07"
+      },
+      {
+        "url": "https://thetv.jp/program/0001075744/",
+        "label": "WEBザテレビジョン：TOKYO MX常規時段與第13話播畢",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-07"
+      },
+      {
+        "url": "https://growupshow.com/story/",
+        "label": "動畫官網：第13話與9月26日日期",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-07"
+      },
+      {
+        "url": "https://www.aniplex.co.jp/lineup/growupshow/news/detail/?id=71327",
+        "label": "Aniplex：BS11十月另行重播公告",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-07"
       }
     ],
-    "broadcastLabel": "日本TV節目表2026-07-04（土）24:00起TOKYO MX／BS11（實際7/5）；AT-X為7/10起每週五21:30。24:30配信另分；本期完整常規槽／合法本體分鐘未核，歌曲階段延後。"
+    "broadcastLabel": "日本TV：7月4日起每週六24:00–24:30（JST，BS11原播編成；TOKYO MX同時起播），9月26日第13話播畢。AT-X 7月10日起週五21:30；網絡24:30起。BS11於10月3日起週六22:30重播。"
   },
   {
     "anilistId": 194219,
@@ -2886,6 +3343,20 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "language": "ja",
             "role": "first_party",
             "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://onihana-anime.com/news/?article_id=70606",
+            "label": "動畫官方：OP曲名、演唱及用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://times.abema.tv/articles/-/10253122",
+            "label": "ABEMA TIMES動畫新聞：TV版OP／ED曲名及演唱",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
           }
         ],
         "songId": "oni-no-hanayome-op-1-song",
@@ -2923,6 +3394,31 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-14",
             "targetId": "https://www.youtube.com/watch?v=MnFWBiWIfPg"
+          },
+          {
+            "target": "song",
+            "targetId": "oni-no-hanayome-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://onihana-anime.com/news/?article_id=70606",
+              "https://times.abema.tv/articles/-/10253122"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "oni-no-hanayome-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://onihana-anime.com/news/?article_id=70606",
+              "https://times.abema.tv/articles/-/10253122"
+            ],
+            "verifiedAt": "2026-11-07"
           }
         ],
         "links": [
@@ -2945,17 +3441,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "availability": "unknown"
           }
         ],
-        "sourceMode": "explicit",
-        "followUp": [
-          {
-            "fields": [
-              "basic_evidence"
-            ],
-            "note": "本期日本TV身分已確認；同版常規完整獨立番組槽或合法本體分鐘仍待核。既有歌曲、名義及音樂證據保留，基本歌曲階段暫未解鎖。",
-            "resumeWhen": "兩輪已盡；同版本日本常規完整獨立TV槽起訖或正版單話本體分鐘出現可讀直接新證據時才續查。未有trigger不重搜，不採搜尋快取摘要，不換受限來源渠道。",
-            "checkedAt": "2026-10-30"
-          }
-        ]
+        "sourceMode": "explicit"
       },
       {
         "type": "ED",
@@ -3017,6 +3503,20 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "language": "ja",
             "role": "first_party",
             "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://onihana-anime.com/news/?article_id=70606",
+            "label": "動畫官方：ED曲名、演唱及用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://times.abema.tv/articles/-/10253122",
+            "label": "ABEMA TIMES動畫新聞：TV版OP／ED曲名及演唱",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
           }
         ],
         "songId": "oni-no-hanayome-ed-1-song",
@@ -3042,6 +3542,31 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-14",
             "targetId": "https://www.youtube.com/watch?v=DHmzSyin7N8"
+          },
+          {
+            "target": "song",
+            "targetId": "oni-no-hanayome-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://onihana-anime.com/news/?article_id=70606",
+              "https://times.abema.tv/articles/-/10253122"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "oni-no-hanayome-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://onihana-anime.com/news/?article_id=70606",
+              "https://times.abema.tv/articles/-/10253122"
+            ],
+            "verifiedAt": "2026-11-07"
           }
         ],
         "links": [
@@ -3055,17 +3580,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "availability": "unknown"
           }
         ],
-        "sourceMode": "explicit",
-        "followUp": [
-          {
-            "fields": [
-              "basic_evidence"
-            ],
-            "note": "本期日本TV身分已確認；同版常規完整獨立番組槽或合法本體分鐘仍待核。既有歌曲、名義及音樂證據保留，基本歌曲階段暫未解鎖。",
-            "resumeWhen": "兩輪已盡；同版本日本常規完整獨立TV槽起訖或正版單話本體分鐘出現可讀直接新證據時才續查。未有trigger不重搜，不採搜尋快取摘要，不換受限來源渠道。",
-            "checkedAt": "2026-10-30"
-          }
-        ]
+        "sourceMode": "explicit"
       }
     ],
     "metadataVerifiedAt": "2026-07-25",
@@ -3125,9 +3640,16 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
         "role": "first_party",
         "language": "ja",
         "verifiedAt": "2026-10-30"
+      },
+      {
+        "url": "https://corp.bs11.jp/ja/ir/irnews/auto_20260629583750/pdfFile.pdf",
+        "label": "BS11六月29日夏季編成表：週六24:30–25:00原播節目槽",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-07"
       }
     ],
-    "broadcastLabel": "日本TV本期：2026年7月，節目表7/4（土）24:30起TOKYO MX／BS11（實際7/5）；與真人電影分開。本期完整常規槽／合法本體分鐘仍未核，歌曲階段延後。"
+    "broadcastLabel": "日本TV：7月4日起每週六24:30–25:00（JST，BS11常規編成；TOKYO MX同時起播）。2026年7月的電視動畫與真人電影分開。"
   },
   {
     "anilistId": 185692,
@@ -3629,7 +4151,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
     ],
     "broadcastLabel": "日本TV第2期：節目表2026-07-04（土）起日本テレビ系，常規24:55–25:25、初回25:05–25:35另分（均實際翌日）。30分鐘為完整單話常規槽，非淨片長；第一期配信另分。"
   },
-  {"anilistId":185875,"id":"curated-185875","slug":"mahou-shoujo-lyrical-nanoha-exceeds-gun-blaze-vengeance","seasonIds":["2026-summer"],"startDate":"2026-07-04","titleJa":"魔法少女リリカルなのは EXCEEDS Gun Blaze Vengeance","titleZhHant":"魔法少女奈葉 EXCEEDS Gun Blaze Vengeance","titleRomaji":"Mahou Shoujo Lyrical Nanoha EXCEEDS Gun Blaze Vengeance","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185875-XMvDVlIUZODx.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/185875-kHVsTIJKPVRJ.jpg","editorialWeekday":6,"broadcastTimeJst":"25:00","status":"airing","officialSiteUrl":"https://nanoha.com/EXGV/","anilistUrl":"https://anilist.co/anime/185875","imageSourceUrl":"https://anilist.co/anime/185875","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/665852"],"animeThemesUrl":"https://animethemes.moe/anime/mahou_shoujo_lyrical_nanoha_exceeds_gun_blaze_vengeance","uzureaUrl":"https://uzurea.net/summer-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"CRIMSON BULLET","artistDisplayName":"水樹奈々","songId":"mizuki-nana-crimson-bullet","recordings":[{"id":"mizuki-nana-crimson-bullet-original","title":"CRIMSON BULLET","format":"unknown","kind":"vocal"}],"releases":[{"id":"mizuki-nana-kicm-2170","title":"CRIMSON BULLET","type":"single","artistDisplayName":"水樹奈々","date":{"value":"2026-07-08","precision":"day"},"edition":"CD Single","region":"JP","tracks":[{"title":"CRIMSON BULLET","position":1,"disc":1,"recordingId":"mizuki-nana-crimson-bullet-original"}],"catalogNumber":"KICM-2170","label":"キングレコード"}],"sources":[{"label":"動畫官方網站","url":"https://nanoha.com/EXGV/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/mahou_shoujo_lyrical_nanoha_exceeds_gun_blaze_vengeance","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/summer-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"動畫官方 MUSIC：OP 與創作名單","url":"https://www.nanoha.com/EXGV/music/","role":"first_party","language":"ja","verifiedAt":"2026-10-14"},{"label":"KING RECORDS 官方商品：Single 曲目與品番","url":"https://www.kingrecords.co.jp/cs/g/gKICM-2170/","role":"first_party","language":"ja","verifiedAt":"2026-10-14"},{"label":"KING RECORDS 官方發行公告：配信與 MV","url":"https://news.kingrecords.co.jp/2026/07/56284/","role":"first_party","language":"ja","verifiedAt":"2026-10-14"},{"label":"動畫官方 MOVIE：creditless OP／ED","url":"https://www.nanoha.com/EXGV/movie/","role":"first_party","language":"ja","verifiedAt":"2026-10-14"}],"credits":[{"name":"水樹奈々","role":"vocals"},{"name":"水樹奈々","role":"lyrics"},{"name":"藤永龍太郎 (Elements Garden)","role":"composition"},{"name":"藤永龍太郎 (Elements Garden)","role":"arrangement"}],"links":[{"platform":"KING RECORDS","label":"官方 Single 商品與曲目","url":"https://www.kingrecords.co.jp/cs/g/gKICM-2170/","linkType":"official_landing_page","region":"JP","verifiedAt":"2026-10-14","availability":"unknown","releaseId":"mizuki-nana-kicm-2170"},{"platform":"Linkfire","label":"官方配信入口（CRIMSON BULLET）","url":"https://mizukinana.lnk.to/CRIMSONBULLET","linkType":"official_landing_page","region":"JP","verifiedAt":"2026-10-14","availability":"unknown"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.nanoha.com/EXGV/music/"],"verifiedAt":"2026-10-14","targetId":"mizuki-nana-crimson-bullet"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.nanoha.com/EXGV/music/"],"verifiedAt":"2026-10-14","targetId":"mahou-shoujo-lyrical-nanoha-exceeds-gun-blaze-vengeance-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.nanoha.com/EXGV/music/"],"verifiedAt":"2026-10-14"},{"target":"recording","fields":["title","kind"],"sourceUrls":["https://www.kingrecords.co.jp/cs/g/gKICM-2170/","https://www.nanoha.com/EXGV/music/"],"verifiedAt":"2026-10-14","targetId":"mizuki-nana-crimson-bullet-original"},{"target":"release","fields":["title","artist","type","date","edition","tracklist","catalog_number"],"sourceUrls":["https://www.kingrecords.co.jp/cs/g/gKICM-2170/","https://www.nanoha.com/EXGV/music/"],"verifiedAt":"2026-10-14","targetId":"mizuki-nana-kicm-2170"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.kingrecords.co.jp/cs/g/gKICM-2170/"],"verifiedAt":"2026-10-14","targetId":"https://www.kingrecords.co.jp/cs/g/gKICM-2170/"},{"target":"link","fields":["url","type"],"sourceUrls":["https://news.kingrecords.co.jp/2026/07/56284/"],"verifiedAt":"2026-10-14","targetId":"https://mizukinana.lnk.to/CRIMSONBULLET"},{"target":"video","fields":["title","type","url"],"sourceUrls":["https://news.kingrecords.co.jp/2026/07/56284/"],"verifiedAt":"2026-10-14","targetId":"Jt_D4crUC0w"},{"target":"video","fields":["title","type","url"],"sourceUrls":["https://www.nanoha.com/EXGV/movie/"],"verifiedAt":"2026-10-14","targetId":"_gBcPnxRXDY"}],"sourceMode":"explicit","followUp":[{"fields":["basic_evidence"],"note":"本期日本TV身分已確認；同版常規完整獨立番組槽或合法本體分鐘仍待核。既有歌曲、名義及音樂證據保留，基本歌曲階段暫未解鎖。","resumeWhen":"本EXGV有直接可讀同版常規完整獨立TV槽或合法每集分鐘出現，才完成標準TV gate；兩輪已盡，不借舊Nanoha系列、首回一小時SP、集數或商品總長。","checkedAt":"2026-10-30"}]},{"type":"ED","sequence":1,"titleJa":"Ephemeral","artistDisplayName":"青木陽菜","songId":"aoki-hina-ephemeral","recordings":[{"id":"aoki-hina-ephemeral-original","title":"Ephemeral","format":"unknown","kind":"vocal"}],"releases":[{"id":"aoki-hina-brmm-11057","title":"BLAZE","type":"ep","artistDisplayName":"青木陽菜","date":{"value":"2026-07-22","precision":"day"},"edition":"Blu-ray付生産限定盤","region":"JP","tracks":[{"title":"Ephemeral","position":1,"disc":1,"recordingId":"aoki-hina-ephemeral-original"}],"catalogNumber":"BRMM-11057","label":"ブシロードミュージック"},{"id":"aoki-hina-brmm-11058","title":"BLAZE","type":"ep","artistDisplayName":"青木陽菜","date":{"value":"2026-07-22","precision":"day"},"edition":"通常盤Atype","region":"JP","tracks":[{"title":"Ephemeral","position":1,"disc":1,"recordingId":"aoki-hina-ephemeral-original"}],"catalogNumber":"BRMM-11058","label":"ブシロードミュージック"},{"id":"aoki-hina-brmm-11059","title":"BLAZE","type":"ep","artistDisplayName":"青木陽菜","date":{"value":"2026-07-22","precision":"day"},"edition":"通常盤Btype","region":"JP","tracks":[{"title":"Ephemeral","position":1,"disc":1,"recordingId":"aoki-hina-ephemeral-original"}],"catalogNumber":"BRMM-11059","label":"ブシロードミュージック"},{"id":"aoki-hina-blaze-qobuz","title":"BLAZE","type":"ep","artistDisplayName":"青木陽菜","date":{"value":"2026-07-22","precision":"day"},"edition":"Qobuz 配信版","region":"JP","tracks":[{"title":"Ephemeral","position":1,"disc":1}],"label":"ブシロードミュージック"}],"sources":[{"label":"動畫官方網站","url":"https://nanoha.com/EXGV/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/mahou_shoujo_lyrical_nanoha_exceeds_gun_blaze_vengeance","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/summer-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"動畫官方 MUSIC：ED、創作名單與發行版","url":"https://www.nanoha.com/EXGV/music/","role":"first_party","language":"ja","verifiedAt":"2026-10-14"},{"label":"BM-ECHOES 官方商品：Mini Album 曲目與品番","url":"https://bm-echoes.com/works/aokihina-blaze/","role":"first_party","language":"ja","verifiedAt":"2026-10-14"},{"label":"動畫官方 MOVIE：creditless OP／ED","url":"https://www.nanoha.com/EXGV/movie/","role":"first_party","language":"ja","verifiedAt":"2026-10-14"},{"label":"青木陽菜官方 MV：歌曲、創作名單與 BLAZE","url":"https://www.youtube.com/watch?v=htydNE7WQCk","role":"first_party","language":"ja","verifiedAt":"2026-10-14"},{"label":"Qobuz JP：授權 Album、曲目與發行資料","url":"https://www.qobuz.com/jp-ja/album/blaze/yr14m264bg80f","role":"first_party","language":"ja","verifiedAt":"2026-10-14"}],"credits":[{"name":"青木陽菜","role":"vocals"},{"name":"アザミ","role":"lyrics"},{"name":"青木陽菜","role":"composition"},{"name":"加藤貴之","role":"arrangement"}],"links":[{"platform":"BM-ECHOES","label":"官方 Mini Album 商品與曲目","url":"https://bm-echoes.com/works/aokihina-blaze/","linkType":"official_landing_page","region":"JP","verifiedAt":"2026-10-14","availability":"unknown","releaseId":"aoki-hina-brmm-11058"},{"platform":"Qobuz","label":"BLAZE JP 專輯","url":"https://www.qobuz.com/jp-ja/album/blaze/yr14m264bg80f","linkType":"direct_album","region":"JP","verifiedAt":"2026-10-14","availability":"unknown","releaseId":"aoki-hina-blaze-qobuz"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.nanoha.com/EXGV/music/"],"verifiedAt":"2026-10-14","targetId":"aoki-hina-ephemeral"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.nanoha.com/EXGV/music/"],"verifiedAt":"2026-10-14","targetId":"mahou-shoujo-lyrical-nanoha-exceeds-gun-blaze-vengeance-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.nanoha.com/EXGV/music/"],"verifiedAt":"2026-10-14"},{"target":"recording","fields":["title","kind"],"sourceUrls":["https://bm-echoes.com/works/aokihina-blaze/","https://www.nanoha.com/EXGV/music/"],"verifiedAt":"2026-10-14","targetId":"aoki-hina-ephemeral-original"},{"target":"release","fields":["title","artist","type","date","edition","tracklist","catalog_number"],"sourceUrls":["https://bm-echoes.com/works/aokihina-blaze/","https://www.nanoha.com/EXGV/music/"],"verifiedAt":"2026-10-14","targetId":"aoki-hina-brmm-11057"},{"target":"release","fields":["title","artist","type","date","edition","tracklist","catalog_number"],"sourceUrls":["https://bm-echoes.com/works/aokihina-blaze/","https://www.nanoha.com/EXGV/music/"],"verifiedAt":"2026-10-14","targetId":"aoki-hina-brmm-11058"},{"target":"release","fields":["title","artist","type","date","edition","tracklist","catalog_number"],"sourceUrls":["https://bm-echoes.com/works/aokihina-blaze/","https://www.nanoha.com/EXGV/music/"],"verifiedAt":"2026-10-14","targetId":"aoki-hina-brmm-11059"},{"target":"release","fields":["title","artist","type","date","edition","tracklist"],"sourceUrls":["https://www.qobuz.com/jp-ja/album/blaze/yr14m264bg80f"],"verifiedAt":"2026-10-14","targetId":"aoki-hina-blaze-qobuz"},{"target":"link","fields":["url","type"],"sourceUrls":["https://bm-echoes.com/works/aokihina-blaze/"],"verifiedAt":"2026-10-14","targetId":"https://bm-echoes.com/works/aokihina-blaze/"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.qobuz.com/jp-ja/album/blaze/yr14m264bg80f"],"verifiedAt":"2026-10-14","targetId":"https://www.qobuz.com/jp-ja/album/blaze/yr14m264bg80f"},{"target":"video","fields":["title","type","url"],"sourceUrls":["https://www.youtube.com/watch?v=htydNE7WQCk"],"verifiedAt":"2026-10-14","targetId":"htydNE7WQCk"},{"target":"video","fields":["title","type","url"],"sourceUrls":["https://www.nanoha.com/EXGV/movie/"],"verifiedAt":"2026-10-14","targetId":"hHBu5YXhiXQ"}],"sourceMode":"explicit","followUp":[{"fields":["basic_evidence"],"note":"本期日本TV身分已確認；同版常規完整獨立番組槽或合法本體分鐘仍待核。既有歌曲、名義及音樂證據保留，基本歌曲階段暫未解鎖。","resumeWhen":"本EXGV有直接可讀同版常規完整獨立TV槽或合法每集分鐘出現，才完成標準TV gate；兩輪已盡，不借舊Nanoha系列、首回一小時SP、集數或商品總長。","checkedAt":"2026-10-30"}]}],"metadataVerifiedAt":"2026-07-25","metadataSources":[{"label":"動畫官方網站：作品與播出資料","url":"https://nanoha.com/EXGV/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AniList：作品識別與公開圖像","url":"https://anilist.co/anime/185875","language":"en","role":"identifier","verifiedAt":"2026-07-25"},{"label":"繁體中文季度列表交叉對照","url":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","language":"zh-Hant","role":"localized_cross_check","verifiedAt":"2026-07-25"},{"label":"AnimeThemes：OP／ED 曲目交叉核對","url":"https://animethemes.moe/anime/mahou_shoujo_lyrical_nanoha_exceeds_gun_blaze_vengeance","language":"en","role":"theme_cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA：季度主題曲與官方影片索引","url":"https://uzurea.net/summer-2026-anime-theme-songs/","language":"ja","role":"theme_cross_check","verifiedAt":"2026-07-25"},{"label":"季度首播公開來源","url":"https://natalie.mu/comic/news/665852","language":"ja","role":"broadcast_cross_check","verifiedAt":"2026-07-25"},{"url":"https://www.nanoha.com/EXGV/onair/","label":"魔法少女リリカルなのは EXCEEDS Gun Blaze Vengeance：本期形式／播出排程：NANOHA EXCEEDS PROJECT官方來源（發表／資料提供；刊載：nanoha.com EXGV官方網站）","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://www.bs11.jp/anime/nanoha-exgv/","label":"魔法少女リリカルなのは EXCEEDS Gun Blaze Vengeance：本期形式／播出排程：BS11播出方（發表／資料提供；刊載：BS11官方網站）","role":"first_party","language":"ja","verifiedAt":"2026-10-30"}],"broadcastLabel":"日本TV EXGV：2026-07-04（土）25:00起TOKYO MX／BS11；AT-X為7/8起每週三20:00。本期常規完整槽／合法分鐘未核，HTB初回1小時SP另分。"},
+  {"anilistId":185875,"id":"curated-185875","slug":"mahou-shoujo-lyrical-nanoha-exceeds-gun-blaze-vengeance","seasonIds":["2026-summer"],"startDate":"2026-07-04","titleJa":"魔法少女リリカルなのは EXCEEDS Gun Blaze Vengeance","titleZhHant":"魔法少女奈葉 EXCEEDS Gun Blaze Vengeance","titleRomaji":"Mahou Shoujo Lyrical Nanoha EXCEEDS Gun Blaze Vengeance","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185875-XMvDVlIUZODx.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/185875-kHVsTIJKPVRJ.jpg","editorialWeekday":6,"broadcastTimeJst":"25:00","status":"airing","officialSiteUrl":"https://nanoha.com/EXGV/","anilistUrl":"https://anilist.co/anime/185875","imageSourceUrl":"https://anilist.co/anime/185875","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/665852"],"animeThemesUrl":"https://animethemes.moe/anime/mahou_shoujo_lyrical_nanoha_exceeds_gun_blaze_vengeance","uzureaUrl":"https://uzurea.net/summer-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"CRIMSON BULLET","artistDisplayName":"水樹奈々","songId":"mizuki-nana-crimson-bullet","recordings":[{"id":"mizuki-nana-crimson-bullet-original","title":"CRIMSON BULLET","format":"unknown","kind":"vocal"}],"releases":[{"id":"mizuki-nana-kicm-2170","title":"CRIMSON BULLET","type":"single","artistDisplayName":"水樹奈々","date":{"value":"2026-07-08","precision":"day"},"edition":"CD Single","region":"JP","tracks":[{"title":"CRIMSON BULLET","position":1,"disc":1,"recordingId":"mizuki-nana-crimson-bullet-original"}],"catalogNumber":"KICM-2170","label":"キングレコード"}],"sources":[{"label":"動畫官方網站","url":"https://nanoha.com/EXGV/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/mahou_shoujo_lyrical_nanoha_exceeds_gun_blaze_vengeance","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/summer-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"動畫官方 MUSIC：OP 與創作名單","url":"https://www.nanoha.com/EXGV/music/","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"label":"KING RECORDS 官方商品：Single 曲目與品番","url":"https://www.kingrecords.co.jp/cs/g/gKICM-2170/","role":"first_party","language":"ja","verifiedAt":"2026-10-14"},{"label":"KING RECORDS 官方發行公告：配信與 MV","url":"https://news.kingrecords.co.jp/2026/07/56284/","role":"first_party","language":"ja","verifiedAt":"2026-10-14"},{"label":"動畫官方 MOVIE：creditless OP／ED","url":"https://www.nanoha.com/EXGV/movie/","role":"first_party","language":"ja","verifiedAt":"2026-10-14"},{"url":"https://www.animatetimes.com/news/details.php?id=1787317033","label":"Animate Times青木陽菜訪談：EXGV的OP／ED曲名及演唱","role":"cross_check","language":"ja","verifiedAt":"2026-11-07"}],"credits":[{"name":"水樹奈々","role":"vocals"},{"name":"水樹奈々","role":"lyrics"},{"name":"藤永龍太郎 (Elements Garden)","role":"composition"},{"name":"藤永龍太郎 (Elements Garden)","role":"arrangement"}],"links":[{"platform":"KING RECORDS","label":"官方 Single 商品與曲目","url":"https://www.kingrecords.co.jp/cs/g/gKICM-2170/","linkType":"official_landing_page","region":"JP","verifiedAt":"2026-10-14","availability":"unknown","releaseId":"mizuki-nana-kicm-2170"},{"platform":"Linkfire","label":"官方配信入口（CRIMSON BULLET）","url":"https://mizukinana.lnk.to/CRIMSONBULLET","linkType":"official_landing_page","region":"JP","verifiedAt":"2026-10-14","availability":"unknown"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.nanoha.com/EXGV/music/"],"verifiedAt":"2026-10-14","targetId":"mizuki-nana-crimson-bullet"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.nanoha.com/EXGV/music/"],"verifiedAt":"2026-10-14","targetId":"mahou-shoujo-lyrical-nanoha-exceeds-gun-blaze-vengeance-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.nanoha.com/EXGV/music/"],"verifiedAt":"2026-10-14"},{"target":"recording","fields":["title","kind"],"sourceUrls":["https://www.kingrecords.co.jp/cs/g/gKICM-2170/","https://www.nanoha.com/EXGV/music/"],"verifiedAt":"2026-10-14","targetId":"mizuki-nana-crimson-bullet-original"},{"target":"release","fields":["title","artist","type","date","edition","tracklist","catalog_number"],"sourceUrls":["https://www.kingrecords.co.jp/cs/g/gKICM-2170/","https://www.nanoha.com/EXGV/music/"],"verifiedAt":"2026-10-14","targetId":"mizuki-nana-kicm-2170"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.kingrecords.co.jp/cs/g/gKICM-2170/"],"verifiedAt":"2026-10-14","targetId":"https://www.kingrecords.co.jp/cs/g/gKICM-2170/"},{"target":"link","fields":["url","type"],"sourceUrls":["https://news.kingrecords.co.jp/2026/07/56284/"],"verifiedAt":"2026-10-14","targetId":"https://mizukinana.lnk.to/CRIMSONBULLET"},{"target":"video","fields":["title","type","url"],"sourceUrls":["https://news.kingrecords.co.jp/2026/07/56284/"],"verifiedAt":"2026-10-14","targetId":"Jt_D4crUC0w"},{"target":"video","fields":["title","type","url"],"sourceUrls":["https://www.nanoha.com/EXGV/movie/"],"verifiedAt":"2026-10-14","targetId":"_gBcPnxRXDY"},{"target":"song","targetId":"mizuki-nana-crimson-bullet","fields":["title","artist"],"sourceUrls":["https://www.animatetimes.com/news/details.php?id=1787317033"],"verifiedAt":"2026-11-07"},{"target":"anime_use","targetId":"mahou-shoujo-lyrical-nanoha-exceeds-gun-blaze-vengeance-op-1","fields":["usage"],"sourceUrls":["https://www.animatetimes.com/news/details.php?id=1787317033"],"verifiedAt":"2026-11-07"}],"sourceMode":"explicit"},{"type":"ED","sequence":1,"titleJa":"Ephemeral","artistDisplayName":"青木陽菜","songId":"aoki-hina-ephemeral","recordings":[{"id":"aoki-hina-ephemeral-original","title":"Ephemeral","format":"unknown","kind":"vocal"}],"releases":[{"id":"aoki-hina-brmm-11057","title":"BLAZE","type":"ep","artistDisplayName":"青木陽菜","date":{"value":"2026-07-22","precision":"day"},"edition":"Blu-ray付生産限定盤","region":"JP","tracks":[{"title":"Ephemeral","position":1,"disc":1,"recordingId":"aoki-hina-ephemeral-original"}],"catalogNumber":"BRMM-11057","label":"ブシロードミュージック"},{"id":"aoki-hina-brmm-11058","title":"BLAZE","type":"ep","artistDisplayName":"青木陽菜","date":{"value":"2026-07-22","precision":"day"},"edition":"通常盤Atype","region":"JP","tracks":[{"title":"Ephemeral","position":1,"disc":1,"recordingId":"aoki-hina-ephemeral-original"}],"catalogNumber":"BRMM-11058","label":"ブシロードミュージック"},{"id":"aoki-hina-brmm-11059","title":"BLAZE","type":"ep","artistDisplayName":"青木陽菜","date":{"value":"2026-07-22","precision":"day"},"edition":"通常盤Btype","region":"JP","tracks":[{"title":"Ephemeral","position":1,"disc":1,"recordingId":"aoki-hina-ephemeral-original"}],"catalogNumber":"BRMM-11059","label":"ブシロードミュージック"},{"id":"aoki-hina-blaze-qobuz","title":"BLAZE","type":"ep","artistDisplayName":"青木陽菜","date":{"value":"2026-07-22","precision":"day"},"edition":"Qobuz 配信版","region":"JP","tracks":[{"title":"Ephemeral","position":1,"disc":1}],"label":"ブシロードミュージック"}],"sources":[{"label":"動畫官方網站","url":"https://nanoha.com/EXGV/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/mahou_shoujo_lyrical_nanoha_exceeds_gun_blaze_vengeance","language":"en","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/summer-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-25"},{"label":"動畫官方 MUSIC：ED、創作名單與發行版","url":"https://www.nanoha.com/EXGV/music/","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"label":"BM-ECHOES 官方商品：Mini Album 曲目與品番","url":"https://bm-echoes.com/works/aokihina-blaze/","role":"first_party","language":"ja","verifiedAt":"2026-10-14"},{"label":"動畫官方 MOVIE：creditless OP／ED","url":"https://www.nanoha.com/EXGV/movie/","role":"first_party","language":"ja","verifiedAt":"2026-10-14"},{"label":"青木陽菜官方 MV：歌曲、創作名單與 BLAZE","url":"https://www.youtube.com/watch?v=htydNE7WQCk","role":"first_party","language":"ja","verifiedAt":"2026-10-14"},{"label":"Qobuz JP：授權 Album、曲目與發行資料","url":"https://www.qobuz.com/jp-ja/album/blaze/yr14m264bg80f","role":"first_party","language":"ja","verifiedAt":"2026-10-14"},{"url":"https://www.animatetimes.com/news/details.php?id=1787317033","label":"Animate Times青木陽菜訪談：EXGV的OP／ED曲名及演唱","role":"cross_check","language":"ja","verifiedAt":"2026-11-07"}],"credits":[{"name":"青木陽菜","role":"vocals"},{"name":"アザミ","role":"lyrics"},{"name":"青木陽菜","role":"composition"},{"name":"加藤貴之","role":"arrangement"}],"links":[{"platform":"BM-ECHOES","label":"官方 Mini Album 商品與曲目","url":"https://bm-echoes.com/works/aokihina-blaze/","linkType":"official_landing_page","region":"JP","verifiedAt":"2026-10-14","availability":"unknown","releaseId":"aoki-hina-brmm-11058"},{"platform":"Qobuz","label":"BLAZE JP 專輯","url":"https://www.qobuz.com/jp-ja/album/blaze/yr14m264bg80f","linkType":"direct_album","region":"JP","verifiedAt":"2026-10-14","availability":"unknown","releaseId":"aoki-hina-blaze-qobuz"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.nanoha.com/EXGV/music/"],"verifiedAt":"2026-10-14","targetId":"aoki-hina-ephemeral"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.nanoha.com/EXGV/music/"],"verifiedAt":"2026-10-14","targetId":"mahou-shoujo-lyrical-nanoha-exceeds-gun-blaze-vengeance-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.nanoha.com/EXGV/music/"],"verifiedAt":"2026-10-14"},{"target":"recording","fields":["title","kind"],"sourceUrls":["https://bm-echoes.com/works/aokihina-blaze/","https://www.nanoha.com/EXGV/music/"],"verifiedAt":"2026-10-14","targetId":"aoki-hina-ephemeral-original"},{"target":"release","fields":["title","artist","type","date","edition","tracklist","catalog_number"],"sourceUrls":["https://bm-echoes.com/works/aokihina-blaze/","https://www.nanoha.com/EXGV/music/"],"verifiedAt":"2026-10-14","targetId":"aoki-hina-brmm-11057"},{"target":"release","fields":["title","artist","type","date","edition","tracklist","catalog_number"],"sourceUrls":["https://bm-echoes.com/works/aokihina-blaze/","https://www.nanoha.com/EXGV/music/"],"verifiedAt":"2026-10-14","targetId":"aoki-hina-brmm-11058"},{"target":"release","fields":["title","artist","type","date","edition","tracklist","catalog_number"],"sourceUrls":["https://bm-echoes.com/works/aokihina-blaze/","https://www.nanoha.com/EXGV/music/"],"verifiedAt":"2026-10-14","targetId":"aoki-hina-brmm-11059"},{"target":"release","fields":["title","artist","type","date","edition","tracklist"],"sourceUrls":["https://www.qobuz.com/jp-ja/album/blaze/yr14m264bg80f"],"verifiedAt":"2026-10-14","targetId":"aoki-hina-blaze-qobuz"},{"target":"link","fields":["url","type"],"sourceUrls":["https://bm-echoes.com/works/aokihina-blaze/"],"verifiedAt":"2026-10-14","targetId":"https://bm-echoes.com/works/aokihina-blaze/"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.qobuz.com/jp-ja/album/blaze/yr14m264bg80f"],"verifiedAt":"2026-10-14","targetId":"https://www.qobuz.com/jp-ja/album/blaze/yr14m264bg80f"},{"target":"video","fields":["title","type","url"],"sourceUrls":["https://www.youtube.com/watch?v=htydNE7WQCk"],"verifiedAt":"2026-10-14","targetId":"htydNE7WQCk"},{"target":"video","fields":["title","type","url"],"sourceUrls":["https://www.nanoha.com/EXGV/movie/"],"verifiedAt":"2026-10-14","targetId":"hHBu5YXhiXQ"},{"target":"song","targetId":"aoki-hina-ephemeral","fields":["title","artist"],"sourceUrls":["https://www.animatetimes.com/news/details.php?id=1787317033"],"verifiedAt":"2026-11-07"},{"target":"anime_use","targetId":"mahou-shoujo-lyrical-nanoha-exceeds-gun-blaze-vengeance-ed-1","fields":["usage"],"sourceUrls":["https://www.animatetimes.com/news/details.php?id=1787317033"],"verifiedAt":"2026-11-07"}],"sourceMode":"explicit"},{"id":"mahou-shoujo-lyrical-nanoha-exceeds-gun-blaze-vengeance-in-1","songId":"mahou-shoujo-lyrical-nanoha-exceeds-gun-blaze-vengeance-in-1-song","type":"IN","sequence":1,"titleJa":"灯火","artistDisplayName":"久瀬シイナ（CV.橘杏咲）","usageLabel":"第1話插曲","seasonIds":["2026-summer"],"sourceMode":"explicit","sources":[{"url":"https://nanoha.com/EXGV/news/","label":"動畫官方7月5日公告：第1話插曲及角色演唱","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://www.nanoha.com/EXGV/music/charactersong.html","label":"動畫官方CHARACTER SONG：插曲話數與詞曲","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://www.qobuz.com/jp-ja/album/flame-of-hope-shiina-kuzecvazusa-tachibana/rs2e570pazye4","label":"Qobuz所列KING RECORDS曲目名義與詞曲編","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://www.animatetimes.com/news/details.php?id=1784260047","label":"Animate Times先行上映報導：第1話插曲及角色演唱","role":"cross_check","language":"ja","verifiedAt":"2026-11-07"}],"lastVerifiedAt":"2026-11-07","credits":[{"name":"橘杏咲","role":"vocals"},{"name":"都築真紀","role":"lyrics"},{"name":"作良弘平","role":"composition"},{"name":"作良弘平","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://nanoha.com/EXGV/news/","https://www.animatetimes.com/news/details.php?id=1784260047"],"verifiedAt":"2026-11-07","targetId":"mahou-shoujo-lyrical-nanoha-exceeds-gun-blaze-vengeance-in-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://nanoha.com/EXGV/news/","https://www.nanoha.com/EXGV/music/charactersong.html","https://www.animatetimes.com/news/details.php?id=1784260047"],"verifiedAt":"2026-11-07","targetId":"mahou-shoujo-lyrical-nanoha-exceeds-gun-blaze-vengeance-in-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.nanoha.com/EXGV/music/charactersong.html","https://www.qobuz.com/jp-ja/album/flame-of-hope-shiina-kuzecvazusa-tachibana/rs2e570pazye4"],"verifiedAt":"2026-11-07"}]},{"id":"mahou-shoujo-lyrical-nanoha-exceeds-gun-blaze-vengeance-in-2","songId":"mahou-shoujo-lyrical-nanoha-exceeds-gun-blaze-vengeance-in-2-song","type":"IN","sequence":2,"titleJa":"陽光","artistDisplayName":"夜海トワ（CV.結川あさき）","usageLabel":"第6話插曲","seasonIds":["2026-summer"],"sourceMode":"explicit","sources":[{"url":"https://www.youtube.com/watch?v=WYl3JCLEDeY","label":"動畫官方PV說明：第6話插曲及角色演唱","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://www.nanoha.com/EXGV/music/charactersong.html","label":"動畫官方CHARACTER SONG：插曲話數與詞曲","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://www.qobuz.com/jp-ja/album/daylight-towa-yorumicvasaki-yuikawa/dwz8s5meid9w2","label":"Qobuz所列KING RECORDS曲目名義與詞曲編","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%A5%88%E8%91%89_EXCEEDS_Gun_Blaze_Vengeance","label":"中文主題曲表：同版插曲與話數","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-11-07"}],"lastVerifiedAt":"2026-11-07","credits":[{"name":"結川あさき","role":"vocals"},{"name":"都築真紀","role":"lyrics"},{"name":"酒井省吾","role":"composition"},{"name":"酒井省吾","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.youtube.com/watch?v=WYl3JCLEDeY","https://www.qobuz.com/jp-ja/album/daylight-towa-yorumicvasaki-yuikawa/dwz8s5meid9w2","https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%A5%88%E8%91%89_EXCEEDS_Gun_Blaze_Vengeance"],"verifiedAt":"2026-11-07","targetId":"mahou-shoujo-lyrical-nanoha-exceeds-gun-blaze-vengeance-in-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.youtube.com/watch?v=WYl3JCLEDeY","https://www.nanoha.com/EXGV/music/charactersong.html","https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%A5%88%E8%91%89_EXCEEDS_Gun_Blaze_Vengeance"],"verifiedAt":"2026-11-07","targetId":"mahou-shoujo-lyrical-nanoha-exceeds-gun-blaze-vengeance-in-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.nanoha.com/EXGV/music/charactersong.html","https://www.qobuz.com/jp-ja/album/daylight-towa-yorumicvasaki-yuikawa/dwz8s5meid9w2"],"verifiedAt":"2026-11-07"}]},{"id":"mahou-shoujo-lyrical-nanoha-exceeds-gun-blaze-vengeance-in-3","songId":"mahou-shoujo-lyrical-nanoha-exceeds-gun-blaze-vengeance-in-3-song","type":"IN","sequence":3,"titleJa":"Anchor Flame","artistDisplayName":"水樹奈々","usageLabel":"第10話插曲","seasonIds":["2026-summer"],"sourceMode":"explicit","sources":[{"url":"https://news.kingrecords.co.jp/2026/09/59243/","label":"KING RECORDS報導：第10話正篇插曲","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://www.mizukinana.jp/discography/single44.html","label":"水樹奈々官方曲目：Anchor Flame與詞曲編","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://www.animatetimes.com/news/details.php?id=1787805694&p=2","label":"Animate Times水樹奈々訪談：第10話插曲","role":"cross_check","language":"ja","verifiedAt":"2026-11-07"}],"lastVerifiedAt":"2026-11-07","credits":[{"name":"水樹奈々","role":"vocals"},{"name":"しほり","role":"lyrics"},{"name":"清水 昭男","role":"composition"},{"name":"清水 昭男","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.mizukinana.jp/discography/single44.html","https://www.animatetimes.com/news/details.php?id=1787805694&p=2"],"verifiedAt":"2026-11-07","targetId":"mahou-shoujo-lyrical-nanoha-exceeds-gun-blaze-vengeance-in-3-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://news.kingrecords.co.jp/2026/09/59243/","https://www.animatetimes.com/news/details.php?id=1787805694&p=2"],"verifiedAt":"2026-11-07","targetId":"mahou-shoujo-lyrical-nanoha-exceeds-gun-blaze-vengeance-in-3"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.mizukinana.jp/discography/single44.html"],"verifiedAt":"2026-11-07"}]}],"metadataVerifiedAt":"2026-07-25","metadataSources":[{"label":"動畫官方網站：作品與播出資料","url":"https://nanoha.com/EXGV/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AniList：作品識別與公開圖像","url":"https://anilist.co/anime/185875","language":"en","role":"identifier","verifiedAt":"2026-07-25"},{"label":"繁體中文季度列表交叉對照","url":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","language":"zh-Hant","role":"localized_cross_check","verifiedAt":"2026-07-25"},{"label":"AnimeThemes：OP／ED 曲目交叉核對","url":"https://animethemes.moe/anime/mahou_shoujo_lyrical_nanoha_exceeds_gun_blaze_vengeance","language":"en","role":"theme_cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA：季度主題曲與官方影片索引","url":"https://uzurea.net/summer-2026-anime-theme-songs/","language":"ja","role":"theme_cross_check","verifiedAt":"2026-07-25"},{"label":"季度首播公開來源","url":"https://natalie.mu/comic/news/665852","language":"ja","role":"broadcast_cross_check","verifiedAt":"2026-07-25"},{"url":"https://www.nanoha.com/EXGV/onair/","label":"魔法少女リリカルなのは EXCEEDS Gun Blaze Vengeance：本期形式／播出排程：NANOHA EXCEEDS PROJECT官方來源（發表／資料提供；刊載：nanoha.com EXGV官方網站）","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://www.bs11.jp/anime/nanoha-exgv/","label":"魔法少女リリカルなのは EXCEEDS Gun Blaze Vengeance：本期形式／播出排程：BS11播出方（發表／資料提供；刊載：BS11官方網站）","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://corp.bs11.jp/ja/ir/irnews/auto_20260629583750/pdfFile.pdf","label":"BS11六月29日夏季編成表：週六25:00–25:30原播節目槽","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://thetv.jp/program/0001066819/plot/","label":"WEBザテレビジョン：TOKYO MX常規播出時段","role":"broadcast_cross_check","language":"ja","verifiedAt":"2026-11-07"}],"broadcastLabel":"日本TV EXGV：7月4日起每週六25:00–25:30（JST，BS11常規編成；TOKYO MX同時起播）。AT-X 7月8日起週三20:00；HTB初回一小時特別編排另計。"},
   {
     "anilistId": 208225,
     "id": "curated-208225",
@@ -4900,9 +5422,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
     "anilistId": 210031,
     "id": "curated-210031",
     "slug": "seihantai-na-kimi-to-boku-2nd-season",
-    "seasonIds": [
-      "2026-summer"
-    ],
+    "seasonIds": ["2026-summer","2026-fall"],
     "startDate": "2026-07-05",
     "titleJa": "正反対な君と僕 第2期",
     "titleZhHant": "相反的你和我",
@@ -4911,7 +5431,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
     "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/210031-M4bt0rAmWk5Q.jpg",
     "editorialWeekday": 7,
     "broadcastTimeJst": "17:00",
-    "status": "airing",
+    "status": "finished",
     "officialSiteUrl": "https://sh-anime.shochiku.co.jp/seihantai_anime/",
     "anilistUrl": "https://anilist.co/anime/210031",
     "imageSourceUrl": "https://anilist.co/anime/210031",
@@ -4924,6 +5444,8 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
     "uzureaUrl": "https://uzurea.net/summer-2026-anime-theme-songs/",
     "themes": [
       {
+        "seasonIds": ["2026-summer","2026-fall"],
+        "usageLabel": "第2期片頭曲（10月4日第25話亦使用）",
         "type": "OP",
         "sequence": 1,
         "titleJa": "猫じゃらし",
@@ -4980,6 +5502,34 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "language": "ja",
             "role": "cross_check",
             "verifiedAt": "2026-07-25"
+          },
+          {
+            "url": "https://sh-anime.shochiku.co.jp/seihantai_anime/music",
+            "label": "動畫官方 MUSIC：第2期片頭與片尾主題曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://anihk.com/ja/anime/you-and-i-are-polar-opposites-season-2",
+            "label": "AniHK：第2期片頭／片尾曲與演唱",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://sh-anime.shochiku.co.jp/seihantai_anime/news/691",
+            "label": "動畫官方：第24話與10月4日第25話最終話編成",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.mau2.com/anime/seihantainakimitoboku-2/ep/25",
+            "label": "まうまう：第25話片頭、片尾與插曲欄",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
           }
         ],
         "songId": "seihantai-na-kimi-to-boku-2nd-season-op-1-song",
@@ -4993,21 +5543,61 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
               "https://sh-anime.shochiku.co.jp/seihantai_anime/"
             ],
             "verifiedAt": "2026-10-14"
+          },
+          {
+            "target": "song",
+            "targetId": "seihantai-na-kimi-to-boku-2nd-season-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://sh-anime.shochiku.co.jp/seihantai_anime/music",
+              "https://anihk.com/ja/anime/you-and-i-are-polar-opposites-season-2"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "seihantai-na-kimi-to-boku-2nd-season-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://sh-anime.shochiku.co.jp/seihantai_anime/music",
+              "https://anihk.com/ja/anime/you-and-i-are-polar-opposites-season-2"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "seihantai-na-kimi-to-boku-2nd-season-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://sh-anime.shochiku.co.jp/seihantai_anime/music",
+              "https://www.mau2.com/anime/seihantainakimitoboku-2/ep/25"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "seihantai-na-kimi-to-boku-2nd-season-op-1",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://sh-anime.shochiku.co.jp/seihantai_anime/news/691"
+            ],
+            "verifiedAt": "2026-11-07"
           }
         ],
-        "sourceMode": "explicit",
-        "followUp": [
-          {
-            "fields": [
-              "basic_evidence"
-            ],
-            "note": "本期日本TV身分已確認；同版常規完整獨立番組槽或合法本體分鐘仍待核。既有歌曲、名義及音樂證據保留，基本歌曲階段暫未解鎖。",
-            "resumeWhen": "兩輪形式查找已盡；僅同版新官方完整常規獨立TV槽或合法本體分鐘直接新正文、或原ordinary頁真正恢復且保留相應時槽／分鐘後續核。不採搜尋摘要、前期、配信開始差或商品總長推定。",
-            "checkedAt": "2026-10-30"
-          }
-        ]
+        "sourceMode": "explicit"
       },
       {
+        "seasonIds": ["2026-summer","2026-fall"],
+        "usageLabel": "第2期片尾曲（10月4日第25話亦使用）",
         "type": "ED",
         "sequence": 1,
         "titleJa": "運命の君",
@@ -5067,6 +5657,34 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "language": "ja",
             "role": "first_party",
             "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://sh-anime.shochiku.co.jp/seihantai_anime/music",
+            "label": "動畫官方 MUSIC：第2期片頭與片尾主題曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://anihk.com/ja/anime/you-and-i-are-polar-opposites-season-2",
+            "label": "AniHK：第2期片頭／片尾曲與演唱",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://sh-anime.shochiku.co.jp/seihantai_anime/news/691",
+            "label": "動畫官方：第24話與10月4日第25話最終話編成",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.mau2.com/anime/seihantainakimitoboku-2/ep/25",
+            "label": "まうまう：第25話片頭、片尾與插曲欄",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
           }
         ],
         "songId": "seihantai-na-kimi-to-boku-2nd-season-ed-1-song",
@@ -5092,6 +5710,54 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-14",
             "targetId": "https://www.youtube.com/watch?v=yeVq367DvIg"
+          },
+          {
+            "target": "song",
+            "targetId": "seihantai-na-kimi-to-boku-2nd-season-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://sh-anime.shochiku.co.jp/seihantai_anime/music",
+              "https://anihk.com/ja/anime/you-and-i-are-polar-opposites-season-2"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "seihantai-na-kimi-to-boku-2nd-season-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://sh-anime.shochiku.co.jp/seihantai_anime/music",
+              "https://anihk.com/ja/anime/you-and-i-are-polar-opposites-season-2"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "seihantai-na-kimi-to-boku-2nd-season-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://sh-anime.shochiku.co.jp/seihantai_anime/music",
+              "https://www.mau2.com/anime/seihantainakimitoboku-2/ep/25"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "seihantai-na-kimi-to-boku-2nd-season-ed-1",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://sh-anime.shochiku.co.jp/seihantai_anime/news/691"
+            ],
+            "verifiedAt": "2026-11-07"
           }
         ],
         "links": [
@@ -5105,17 +5771,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "availability": "unknown"
           }
         ],
-        "sourceMode": "explicit",
-        "followUp": [
-          {
-            "fields": [
-              "basic_evidence"
-            ],
-            "note": "本期日本TV身分已確認；同版常規完整獨立番組槽或合法本體分鐘仍待核。既有歌曲、名義及音樂證據保留，基本歌曲階段暫未解鎖。",
-            "resumeWhen": "兩輪形式查找已盡；僅同版新官方完整常規獨立TV槽或合法本體分鐘直接新正文、或原ordinary頁真正恢復且保留相應時槽／分鐘後續核。不採搜尋摘要、前期、配信開始差或商品總長推定。",
-            "checkedAt": "2026-10-30"
-          }
-        ]
+        "sourceMode": "explicit"
       }
     ],
     "metadataVerifiedAt": "2026-07-25",
@@ -5168,9 +5824,23 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
         "role": "broadcast_cross_check",
         "language": "ja",
         "verifiedAt": "2026-10-30"
+      },
+      {
+        "url": "https://www.hulu.jp/you-and-i-are-polar-opposites/assets",
+        "label": "Hulu：同版第13、14話正版正片各24分鐘",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-07"
+      },
+      {
+        "url": "https://sh-anime.shochiku.co.jp/seihantai_anime/news/691",
+        "label": "動畫官方：第24話與10月4日第25話最終話編成",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-07"
       }
     ],
-    "broadcastLabel": "日本TV第2期：2026-07-05起MBS／TBS系每週日17:00，ABEMA／Prime Video為17:30另行配信。第1期另分；本期完整常規槽／合法本體分鐘未核，歌曲階段延後。"
+    "broadcastLabel": "日本TV第2期：2026-07-05起MBS／TBS系每週日17:00，10月4日第25話播畢。Hulu同版第13、14話各24分鐘；ABEMA／Prime Video的17:30配信另計。"
   },
   {
     "anilistId": 204060,
@@ -5187,7 +5857,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
     "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/204060-3y19sqCToRaN.jpg",
     "editorialWeekday": 7,
     "broadcastTimeJst": "17:30",
-    "status": "airing",
+    "status": "finished",
     "officialSiteUrl": "https://tetsujan.com",
     "anilistUrl": "https://anilist.co/anime/204060",
     "imageSourceUrl": "https://anilist.co/anime/204060",
@@ -5266,7 +5936,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "label": "動畫官網 MUSIC：火宴創作名單",
             "language": "ja",
             "role": "first_party",
-            "verifiedAt": "2026-10-14"
+            "verifiedAt": "2026-11-07"
           },
           {
             "url": "https://tetsujan.com/moive/index.html",
@@ -5274,6 +5944,13 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "language": "ja",
             "role": "first_party",
             "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://anison.online/anime/5794",
+            "label": "アニソン・オンライン：片頭及片尾曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
           }
         ],
         "songId": "tetsunabe-no-jan-op-1-song",
@@ -5299,6 +5976,31 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-14",
             "targetId": "https://www.youtube.com/watch?v=wTQdf37-OBk"
+          },
+          {
+            "target": "song",
+            "targetId": "tetsunabe-no-jan-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tetsujan.com/music/index.html",
+              "https://anison.online/anime/5794"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "tetsunabe-no-jan-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tetsujan.com/music/index.html",
+              "https://anison.online/anime/5794"
+            ],
+            "verifiedAt": "2026-11-07"
           }
         ],
         "links": [
@@ -5312,17 +6014,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "availability": "unknown"
           }
         ],
-        "sourceMode": "explicit",
-        "followUp": [
-          {
-            "fields": [
-              "basic_evidence"
-            ],
-            "note": "本期日本TV身分已確認；同版常規完整獨立番組槽或合法本體分鐘仍待核。既有歌曲、名義及音樂證據保留，基本歌曲階段暫未解鎖。",
-            "resumeWhen": "兩輪形式查找已盡；僅同版新官方完整常規獨立TV槽或合法本體分鐘直接新正文、或原ordinary頁真正恢復且保留相應時槽／分鐘後續核。不採搜尋摘要、前期、配信開始差或商品總長推定。",
-            "checkedAt": "2026-10-30"
-          }
-        ]
+        "sourceMode": "explicit"
       },
       {
         "type": "ED",
@@ -5391,6 +6083,20 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "language": "ja",
             "role": "first_party",
             "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://tetsujan.com/news/index00360000.html",
+            "label": "動畫官方：片尾曲及演唱",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://anison.online/anime/5794",
+            "label": "アニソン・オンライン：片頭及片尾曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
           }
         ],
         "songId": "tetsunabe-no-jan-ed-1-song",
@@ -5416,6 +6122,31 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-14",
             "targetId": "https://www.youtube.com/watch?v=1tc784esysA"
+          },
+          {
+            "target": "song",
+            "targetId": "tetsunabe-no-jan-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tetsujan.com/news/index00360000.html",
+              "https://anison.online/anime/5794"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "tetsunabe-no-jan-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tetsujan.com/news/index00360000.html",
+              "https://anison.online/anime/5794"
+            ],
+            "verifiedAt": "2026-11-07"
           }
         ],
         "links": [
@@ -5429,17 +6160,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "availability": "unknown"
           }
         ],
-        "sourceMode": "explicit",
-        "followUp": [
-          {
-            "fields": [
-              "basic_evidence"
-            ],
-            "note": "本期日本TV身分已確認；同版常規完整獨立番組槽或合法本體分鐘仍待核。既有歌曲、名義及音樂證據保留，基本歌曲階段暫未解鎖。",
-            "resumeWhen": "兩輪形式查找已盡；僅同版新官方完整常規獨立TV槽或合法本體分鐘直接新正文、或原ordinary頁真正恢復且保留相應時槽／分鐘後續核。不採搜尋摘要、前期、配信開始差或商品總長推定。",
-            "checkedAt": "2026-10-30"
-          }
-        ]
+        "sourceMode": "explicit"
       }
     ],
     "metadataVerifiedAt": "2026-07-25",
@@ -5499,9 +6220,30 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
         "role": "broadcast_cross_check",
         "language": "ja",
         "verifiedAt": "2026-10-30"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202607/29208_202607051730.html",
+        "label": "東京電視台：7月5日第1話17:30–18:00",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-07"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202607/29208_202607121730.html",
+        "label": "東京電視台：7月12日第2話17:30–18:00",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-07"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202609/29208_202609201730.html",
+        "label": "東京電視台：9月20日最終話17:30–18:00",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-07"
       }
     ],
-    "broadcastLabel": "日本TV：2026-07-05起テレビ東京等6局每週日17:30；同日18:00起配信另列。本期完整常規槽／合法本體分鐘未核，歌曲階段延後。"
+    "broadcastLabel": "日本TV：2026-07-05起東京電視台等6局每週日17:30。東京電視台首兩話及9月20日最終話的編成為17:30–18:00（JST）；18:00起配信另計。"
   },
   {
     "anilistId": 198409,
@@ -7282,6 +8024,20 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "language": "ja",
             "role": "cross_check",
             "verifiedAt": "2026-07-25"
+          },
+          {
+            "url": "https://goodbyelara.com/music/opening.html",
+            "label": "動畫官方 MUSIC：片頭曲及演唱",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://anime-song-info.com/goodbyelara-op-ed-26sm/",
+            "label": "アニしま：片頭及片尾曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
           }
         ],
         "songId": "sayonara-lara-op-1-song",
@@ -7295,19 +8051,34 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
               "https://goodbyelara.com/"
             ],
             "verifiedAt": "2026-10-14"
+          },
+          {
+            "target": "song",
+            "targetId": "sayonara-lara-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://goodbyelara.com/music/opening.html",
+              "https://anime-song-info.com/goodbyelara-op-ed-26sm/"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "sayonara-lara-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://goodbyelara.com/music/opening.html",
+              "https://anime-song-info.com/goodbyelara-op-ed-26sm/"
+            ],
+            "verifiedAt": "2026-11-07"
           }
         ],
-        "sourceMode": "explicit",
-        "followUp": [
-          {
-            "fields": [
-              "basic_evidence"
-            ],
-            "note": "本期日本TV身分已確認；同版常規完整獨立番組槽或合法本體分鐘仍待核。既有歌曲、名義及音樂證據保留，基本歌曲階段暫未解鎖。",
-            "resumeWhen": "兩輪形式查找已盡；只有同版本新官方常規完整獨立TV槽起訖、或正版單話本體分鐘的可讀直接新證據，才續核指定歌曲。無trigger不重搜，不用搜尋摘要/舊快取/配信開始差/集數或商品總長推定。",
-            "checkedAt": "2026-10-30"
-          }
-        ]
+        "sourceMode": "explicit"
       },
       {
         "type": "ED",
@@ -7376,6 +8147,20 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "language": "ja",
             "role": "first_party",
             "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://goodbyelara.com/music/ending.html",
+            "label": "動畫官方 MUSIC：片尾曲及演唱",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://anime-song-info.com/goodbyelara-op-ed-26sm/",
+            "label": "アニしま：片頭及片尾曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
           }
         ],
         "songId": "sayonara-lara-ed-1-song",
@@ -7433,6 +8218,31 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-14",
             "targetId": "hana-hope-hearts-glow-cd-anime"
+          },
+          {
+            "target": "song",
+            "targetId": "sayonara-lara-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://goodbyelara.com/music/ending.html",
+              "https://anime-song-info.com/goodbyelara-op-ed-26sm/"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "sayonara-lara-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://goodbyelara.com/music/ending.html",
+              "https://anime-song-info.com/goodbyelara-op-ed-26sm/"
+            ],
+            "verifiedAt": "2026-11-07"
           }
         ],
         "links": [
@@ -7486,17 +8296,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "catalogNumber": "AICL-4934-5"
           }
         ],
-        "sourceMode": "explicit",
-        "followUp": [
-          {
-            "fields": [
-              "basic_evidence"
-            ],
-            "note": "本期日本TV身分已確認；同版常規完整獨立番組槽或合法本體分鐘仍待核。既有歌曲、名義及音樂證據保留，基本歌曲階段暫未解鎖。",
-            "resumeWhen": "兩輪形式查找已盡；只有同版本新官方常規完整獨立TV槽起訖、或正版單話本體分鐘的可讀直接新證據，才續核指定歌曲。無trigger不重搜，不用搜尋摘要/舊快取/配信開始差/集數或商品總長推定。",
-            "checkedAt": "2026-10-30"
-          }
-        ]
+        "sourceMode": "explicit"
       }
     ],
     "metadataVerifiedAt": "2026-07-25",
@@ -7549,9 +8349,16 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
         "role": "first_party",
         "language": "ja",
         "verifiedAt": "2026-10-30"
+      },
+      {
+        "url": "https://www.video.unext.jp/title/SID0305805",
+        "label": "U-NEXT：同版第1至3話正版正片各24分鐘",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-07"
       }
     ],
-    "broadcastLabel": "日本TV：2026-07-05起TOKYO MX每週日24:30（一00:30）、BS朝日每週日25:30（一01:30）；讀賣電視台07-06起每週一25:59（二01:59），AT-X每週一21:30。串流07-05日24:30起另列；完整常規槽／合法本體分鐘待核，歌曲階段延後。"
+    "broadcastLabel": "日本TV：2026-07-05起TOKYO MX每週日24:30（一00:30）、BS朝日每週日25:30（一01:30）；讀賣電視台7月6日起每週一25:59（二01:59），AT-X每週一21:30。7月5日24:30起串流另計；U-NEXT同版第1至3話各24分鐘。"
   },
   {
     "anilistId": 169080,
@@ -9240,6 +10047,20 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "language": "ja",
             "role": "first_party",
             "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://www.kadokawa.co.jp/product/video2688/",
+            "label": "KADOKAWA：動畫版 OP／ED 與放送情報",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.lisani.jp/0000311214/",
+            "label": "リスアニ！：動畫版 OP／ED",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
           }
         ],
         "songId": "koko-wa-ore-ni-makasete-saki-ni-ike-to-ittekara-10-nen-ga-tattara-densetsu-ni-natteita-op-1-song",
@@ -9302,6 +10123,31 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-14",
             "targetId": "ExubW5-pvzc"
+          },
+          {
+            "target": "song",
+            "targetId": "koko-wa-ore-ni-makasete-saki-ni-ike-to-ittekara-10-nen-ga-tattara-densetsu-ni-natteita-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.kadokawa.co.jp/product/video2688/",
+              "https://www.lisani.jp/0000311214/"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "koko-wa-ore-ni-makasete-saki-ni-ike-to-ittekara-10-nen-ga-tattara-densetsu-ni-natteita-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.kadokawa.co.jp/product/video2688/",
+              "https://www.lisani.jp/0000311214/"
+            ],
+            "verifiedAt": "2026-11-07"
           }
         ],
         "links": [
@@ -9324,17 +10170,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "availability": "unknown"
           }
         ],
-        "sourceMode": "explicit",
-        "followUp": [
-          {
-            "fields": [
-              "basic_evidence"
-            ],
-            "note": "本期日本TV身分已確認；同版常規完整獨立番組槽或合法本體分鐘仍待核。既有歌曲、名義及音樂證據保留，基本歌曲階段暫未解鎖。",
-            "resumeWhen": "已知同版日本TV，需可讀第一方完整常規槽／合法分鐘，或已匹配同版合法正文實長才再核；兩輪已盡，不以開新批重搜。",
-            "checkedAt": "2026-10-30"
-          }
-        ]
+        "sourceMode": "explicit"
       },
       {
         "type": "ED",
@@ -9421,6 +10257,20 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "language": "ja",
             "role": "first_party",
             "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://www.kadokawa.co.jp/product/video2688/",
+            "label": "KADOKAWA：動畫版 OP／ED 與放送情報",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.lisani.jp/0000311214/",
+            "label": "リスアニ！：動畫版 OP／ED",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
           }
         ],
         "songId": "koko-wa-ore-ni-makasete-saki-ni-ike-to-ittekara-10-nen-ga-tattara-densetsu-ni-natteita-ed-1-song",
@@ -9434,19 +10284,34 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
               "https://kokoore-anime.com/topics/itJAYOlP"
             ],
             "verifiedAt": "2026-10-14"
+          },
+          {
+            "target": "song",
+            "targetId": "koko-wa-ore-ni-makasete-saki-ni-ike-to-ittekara-10-nen-ga-tattara-densetsu-ni-natteita-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.kadokawa.co.jp/product/video2688/",
+              "https://www.lisani.jp/0000311214/"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "koko-wa-ore-ni-makasete-saki-ni-ike-to-ittekara-10-nen-ga-tattara-densetsu-ni-natteita-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.kadokawa.co.jp/product/video2688/",
+              "https://www.lisani.jp/0000311214/"
+            ],
+            "verifiedAt": "2026-11-07"
           }
         ],
-        "sourceMode": "explicit",
-        "followUp": [
-          {
-            "fields": [
-              "basic_evidence"
-            ],
-            "note": "本期日本TV身分已確認；同版常規完整獨立番組槽或合法本體分鐘仍待核。既有歌曲、名義及音樂證據保留，基本歌曲階段暫未解鎖。",
-            "resumeWhen": "已知同版日本TV，需可讀第一方完整常規槽／合法分鐘，或已匹配同版合法正文實長才再核；兩輪已盡，不以開新批重搜。",
-            "checkedAt": "2026-10-30"
-          }
-        ]
+        "sourceMode": "explicit"
       }
     ],
     "metadataVerifiedAt": "2026-07-25",
@@ -9492,9 +10357,16 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
         "language": "ja",
         "role": "broadcast_cross_check",
         "verifiedAt": "2026-07-25"
+      },
+      {
+        "url": "https://www.primevideo.com/-/ja/detail/0NPBFFPJUGEL7S8KPMCBVQ4RJO?tr=jp",
+        "label": "Prime Video日本版：正版第3–5話各24分鐘",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-07"
       }
     ],
-    "broadcastLabel": "同作日本TV 2026-07-06起TOKYO MX月22:30、KBS23:00、サン24:00、愛知／BS11 25:30（BS11第2/3話26:00例外）；AT-X7/9木20:30。Prime7/3金22:30為先行WEB另分。本期完整常規槽／合法分鐘仍待核。"
+    "broadcastLabel": "同作日本TV 2026-07-06起TOKYO MX月22:30、KBS23:00、サン24:00、愛知／BS11 25:30（BS11第2、3話26:00例外）；AT-X 7/9木20:30。Prime Video 7/3金22:30先行網絡首播，同版第3–5話各24分鐘（JST時段）。"
   },
   {
     "anilistId": 199408,
@@ -9586,6 +10458,20 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "language": "ja",
             "role": "first_party",
             "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202607/29204_202607062600.html",
+            "label": "東京電視台：7月6日節目時段及片頭／片尾曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E6%9A%B4%E6%80%92%E5%8D%83%E9%87%91%E7%99%BC%E8%AA%93%E5%BE%A9%E4%BB%87%E3%80%82_%EF%BD%9E%E6%86%91%E8%97%89%E9%AD%94%E5%B0%8E%E6%9B%B8%E4%B9%8B%E5%8A%9B%E6%89%93%E5%9E%AE%E7%A5%96%E5%9C%8B%EF%BD%9E",
+            "label": "繁體中文維基百科：片頭及片尾曲",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-07"
           }
         ],
         "songId": "buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tataki-tsubu-op-1-song",
@@ -9684,6 +10570,31 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-14",
             "targetId": "ogura-yui-qed-cd-d"
+          },
+          {
+            "target": "song",
+            "targetId": "buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tataki-tsubu-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202607/29204_202607062600.html",
+              "https://zh.wikipedia.org/wiki/%E6%9A%B4%E6%80%92%E5%8D%83%E9%87%91%E7%99%BC%E8%AA%93%E5%BE%A9%E4%BB%87%E3%80%82_%EF%BD%9E%E6%86%91%E8%97%89%E9%AD%94%E5%B0%8E%E6%9B%B8%E4%B9%8B%E5%8A%9B%E6%89%93%E5%9E%AE%E7%A5%96%E5%9C%8B%EF%BD%9E"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tataki-tsubu-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202607/29204_202607062600.html",
+              "https://zh.wikipedia.org/wiki/%E6%9A%B4%E6%80%92%E5%8D%83%E9%87%91%E7%99%BC%E8%AA%93%E5%BE%A9%E4%BB%87%E3%80%82_%EF%BD%9E%E6%86%91%E8%97%89%E9%AD%94%E5%B0%8E%E6%9B%B8%E4%B9%8B%E5%8A%9B%E6%89%93%E5%9E%AE%E7%A5%96%E5%9C%8B%EF%BD%9E"
+            ],
+            "verifiedAt": "2026-11-07"
           }
         ],
         "links": [
@@ -9782,17 +10693,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "catalogNumber": "COCC-18341"
           }
         ],
-        "sourceMode": "explicit",
-        "followUp": [
-          {
-            "fields": [
-              "basic_evidence"
-            ],
-            "note": "本期日本TV身分已確認；同版常規完整獨立番組槽或合法本體分鐘仍待核。既有歌曲、名義及音樂證據保留，基本歌曲階段暫未解鎖。",
-            "resumeWhen": "已知同版日本TV，需可讀第一方完整常規槽／合法分鐘，或已匹配同版合法正文實長才再核；兩輪已盡，不以開新批重搜。",
-            "checkedAt": "2026-10-30"
-          }
-        ]
+        "sourceMode": "explicit"
       },
       {
         "type": "ED",
@@ -9861,6 +10762,20 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "language": "ja",
             "role": "first_party",
             "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202607/29204_202607062600.html",
+            "label": "東京電視台：7月6日節目時段及片頭／片尾曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E6%9A%B4%E6%80%92%E5%8D%83%E9%87%91%E7%99%BC%E8%AA%93%E5%BE%A9%E4%BB%87%E3%80%82_%EF%BD%9E%E6%86%91%E8%97%89%E9%AD%94%E5%B0%8E%E6%9B%B8%E4%B9%8B%E5%8A%9B%E6%89%93%E5%9E%AE%E7%A5%96%E5%9C%8B%EF%BD%9E",
+            "label": "繁體中文維基百科：片頭及片尾曲",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-07"
           }
         ],
         "songId": "buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tataki-tsubu-ed-1-song",
@@ -9943,6 +10858,31 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-14",
             "targetId": "onishi-aguri-goodbye-lullaby-cd-regular"
+          },
+          {
+            "target": "song",
+            "targetId": "buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tataki-tsubu-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202607/29204_202607062600.html",
+              "https://zh.wikipedia.org/wiki/%E6%9A%B4%E6%80%92%E5%8D%83%E9%87%91%E7%99%BC%E8%AA%93%E5%BE%A9%E4%BB%87%E3%80%82_%EF%BD%9E%E6%86%91%E8%97%89%E9%AD%94%E5%B0%8E%E6%9B%B8%E4%B9%8B%E5%8A%9B%E6%89%93%E5%9E%AE%E7%A5%96%E5%9C%8B%EF%BD%9E"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tataki-tsubu-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202607/29204_202607062600.html",
+              "https://zh.wikipedia.org/wiki/%E6%9A%B4%E6%80%92%E5%8D%83%E9%87%91%E7%99%BC%E8%AA%93%E5%BE%A9%E4%BB%87%E3%80%82_%EF%BD%9E%E6%86%91%E8%97%89%E9%AD%94%E5%B0%8E%E6%9B%B8%E4%B9%8B%E5%8A%9B%E6%89%93%E5%9E%AE%E7%A5%96%E5%9C%8B%EF%BD%9E"
+            ],
+            "verifiedAt": "2026-11-07"
           }
         ],
         "links": [
@@ -10016,17 +10956,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "catalogNumber": "COCC-18336"
           }
         ],
-        "sourceMode": "explicit",
-        "followUp": [
-          {
-            "fields": [
-              "basic_evidence"
-            ],
-            "note": "本期日本TV身分已確認；同版常規完整獨立番組槽或合法本體分鐘仍待核。既有歌曲、名義及音樂證據保留，基本歌曲階段暫未解鎖。",
-            "resumeWhen": "已知同版日本TV，需可讀第一方完整常規槽／合法分鐘，或已匹配同版合法正文實長才再核；兩輪已盡，不以開新批重搜。",
-            "checkedAt": "2026-10-30"
-          }
-        ]
+        "sourceMode": "explicit"
       }
     ],
     "metadataVerifiedAt": "2026-07-25",
@@ -10079,9 +11009,23 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
         "role": "broadcast_cross_check",
         "language": "ja",
         "verifiedAt": "2026-10-30"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202607/29204_202607062600.html",
+        "label": "東京電視台：7月6日節目時段及片頭／片尾曲",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-07"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202608/29204_202608242600.html",
+        "label": "東京電視台：8月24日同版節目時段及主題曲",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-07"
       }
     ],
-    "broadcastLabel": "同版日本TV：2026-07-06起AT-X週一22:30、テレ東週一26:00；BS11為7/7起週二25:30。6/29 AT-X聲優放送直前SP另分，不能當常規動畫槽；本期完整槽／合法本體分鐘待核。"
+    "broadcastLabel": "日本TV：2026-07-06起AT-X每週一22:30；東京電視台週一26:00–26:30（JST，週二02:00–02:30）；BS11為7月7日起週二25:30。AT-X 6月29日播前特番另計。"
   },
   {
     "anilistId": 195833,
@@ -10202,6 +11146,20 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "language": "ja",
             "role": "first_party",
             "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://avex-pictures.co.jp/topic/42149/",
+            "label": "Avex Pictures：片頭／片尾主題曲公告",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://anime-song-info.com/danko-op-ed-26sm/",
+            "label": "アニしま：片頭及片尾曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
           }
         ],
         "songId": "honoo-no-toukyuujyo-dodge-danko-op-1-song",
@@ -10250,6 +11208,31 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-14",
             "targetId": "https://mcz.lnk.to/kaishin"
+          },
+          {
+            "target": "song",
+            "targetId": "honoo-no-toukyuujyo-dodge-danko-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex-pictures.co.jp/topic/42149/",
+              "https://anime-song-info.com/danko-op-ed-26sm/"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "honoo-no-toukyuujyo-dodge-danko-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex-pictures.co.jp/topic/42149/",
+              "https://anime-song-info.com/danko-op-ed-26sm/"
+            ],
+            "verifiedAt": "2026-11-07"
           }
         ],
         "links": [
@@ -10263,17 +11246,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "availability": "unknown"
           }
         ],
-        "sourceMode": "explicit",
-        "followUp": [
-          {
-            "fields": [
-              "basic_evidence"
-            ],
-            "note": "本期日本TV身分已確認；同版常規完整獨立番組槽或合法本體分鐘仍待核。既有歌曲、名義及音樂證據保留，基本歌曲階段暫未解鎖。",
-            "resumeWhen": "兩輪定向形式查找已封頂。僅同版日本TV的完整獨立常規槽（明確開始及結束）或合法本體分鐘新正文直接可讀時續核；受限／失敗頁只待普通正文恢復，不換渠道、不採搜尋摘要、前期、配信差或開始時刻推定。形式成立後才續核本期曲名／演唱名義／用途的第一方及交叉證據。",
-            "checkedAt": "2026-10-30"
-          }
-        ]
+        "sourceMode": "explicit"
       },
       {
         "type": "ED",
@@ -10388,6 +11361,20 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "language": "ja",
             "role": "first_party",
             "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://avex-pictures.co.jp/topic/42149/",
+            "label": "Avex Pictures：片頭／片尾主題曲公告",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://anime-song-info.com/danko-op-ed-26sm/",
+            "label": "アニしま：片頭及片尾曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
           }
         ],
         "songId": "honoo-no-toukyuujyo-dodge-danko-ed-1-song",
@@ -10529,6 +11516,31 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-14",
             "targetId": "https://iris.dive2ent.com/discography/"
+          },
+          {
+            "target": "song",
+            "targetId": "honoo-no-toukyuujyo-dodge-danko-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex-pictures.co.jp/topic/42149/",
+              "https://anime-song-info.com/danko-op-ed-26sm/"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "honoo-no-toukyuujyo-dodge-danko-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex-pictures.co.jp/topic/42149/",
+              "https://anime-song-info.com/danko-op-ed-26sm/"
+            ],
+            "verifiedAt": "2026-11-07"
           }
         ],
         "recordings": [
@@ -10651,17 +11663,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "availability": "unknown"
           }
         ],
-        "sourceMode": "explicit",
-        "followUp": [
-          {
-            "fields": [
-              "basic_evidence"
-            ],
-            "note": "本期日本TV身分已確認；同版常規完整獨立番組槽或合法本體分鐘仍待核。既有歌曲、名義及音樂證據保留，基本歌曲階段暫未解鎖。",
-            "resumeWhen": "兩輪定向形式查找已封頂。僅同版日本TV的完整獨立常規槽（明確開始及結束）或合法本體分鐘新正文直接可讀時續核；受限／失敗頁只待普通正文恢復，不換渠道、不採搜尋摘要、前期、配信差或開始時刻推定。形式成立後才續核本期曲名／演唱名義／用途的第一方及交叉證據。",
-            "checkedAt": "2026-10-30"
-          }
-        ]
+        "sourceMode": "explicit"
       }
     ],
     "metadataVerifiedAt": "2026-07-25",
@@ -10714,9 +11716,16 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
         "role": "first_party",
         "language": "ja",
         "verifiedAt": "2026-10-30"
+      },
+      {
+        "url": "https://www.video.unext.jp/title/SID0305850",
+        "label": "U-NEXT：同版第1至3話正版正片各24分鐘",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-07"
       }
     ],
-    "broadcastLabel": "日本TV：2026-07-06起TOKYO MX／BS11每週一23:00；MBS每週二27:00（三03:00），三重テレビ每週三24:20（四00:20）。配信開始另列；完整常規槽／合法本體分鐘待核，歌曲階段延後。"
+    "broadcastLabel": "日本TV：2026-07-06起TOKYO MX／BS11每週一23:00；MBS每週二27:00（三03:00），三重テレビ每週三24:20（四00:20）。配信另計；U-NEXT同版第1至3話各24分鐘。"
   },
   {
     "anilistId": 209504,
@@ -10835,6 +11844,20 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "language": "ja",
             "role": "first_party",
             "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://dengekionline.com/article/202606/79370",
+            "label": "KADOKAWA 電擊 Online：作品公告、播出與兩首主題曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://anime-song-info.com/202607-summer-song/",
+            "label": "アニしま：夏季作品片頭及片尾曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
           }
         ],
         "songId": "suterare-seijo-no-isekai-gohantabi-kakure-skill-de-camping-car-wo-shoukan-shimashita-op-1-song",
@@ -10915,6 +11938,31 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-14",
             "targetId": "https://inuwasi.jp/event/detail.php?eid=5477"
+          },
+          {
+            "target": "song",
+            "targetId": "suterare-seijo-no-isekai-gohantabi-kakure-skill-de-camping-car-wo-shoukan-shimashita-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://dengekionline.com/article/202606/79370",
+              "https://anime-song-info.com/202607-summer-song/"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "suterare-seijo-no-isekai-gohantabi-kakure-skill-de-camping-car-wo-shoukan-shimashita-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://dengekionline.com/article/202606/79370",
+              "https://anime-song-info.com/202607-summer-song/"
+            ],
+            "verifiedAt": "2026-11-07"
           }
         ],
         "releases": [
@@ -10970,17 +12018,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "availability": "unknown"
           }
         ],
-        "sourceMode": "explicit",
-        "followUp": [
-          {
-            "fields": [
-              "basic_evidence"
-            ],
-            "note": "本期日本TV身分已確認；同版常規完整獨立番組槽或合法本體分鐘仍待核。既有歌曲、名義及音樂證據保留，基本歌曲階段暫未解鎖。",
-            "resumeWhen": "兩輪定向形式查找已封頂。僅同版日本TV的完整獨立常規槽（明確開始及結束）或合法本體分鐘新正文直接可讀時續核；受限／失敗頁只待普通正文恢復，不換渠道、不採搜尋摘要、前期、配信差或開始時刻推定。形式成立後才續核本期曲名／演唱名義／用途的第一方及交叉證據。",
-            "checkedAt": "2026-10-30"
-          }
-        ]
+        "sourceMode": "explicit"
       },
       {
         "type": "ED",
@@ -11067,6 +12105,20 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "language": "ja",
             "role": "first_party",
             "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://dengekionline.com/article/202606/79370",
+            "label": "KADOKAWA 電擊 Online：作品公告、播出與兩首主題曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://anime-song-info.com/202607-summer-song/",
+            "label": "アニしま：夏季作品片頭及片尾曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
           }
         ],
         "songId": "suterare-seijo-no-isekai-gohantabi-kakure-skill-de-camping-car-wo-shoukan-shimashita-ed-1-song",
@@ -11140,6 +12192,31 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-14",
             "targetId": "https://lnk.to/LZC-3563PR"
+          },
+          {
+            "target": "song",
+            "targetId": "suterare-seijo-no-isekai-gohantabi-kakure-skill-de-camping-car-wo-shoukan-shimashita-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://dengekionline.com/article/202606/79370",
+              "https://anime-song-info.com/202607-summer-song/"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "suterare-seijo-no-isekai-gohantabi-kakure-skill-de-camping-car-wo-shoukan-shimashita-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://dengekionline.com/article/202606/79370",
+              "https://anime-song-info.com/202607-summer-song/"
+            ],
+            "verifiedAt": "2026-11-07"
           }
         ],
         "links": [
@@ -11162,17 +12239,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "availability": "unknown"
           }
         ],
-        "sourceMode": "explicit",
-        "followUp": [
-          {
-            "fields": [
-              "basic_evidence"
-            ],
-            "note": "本期日本TV身分已確認；同版常規完整獨立番組槽或合法本體分鐘仍待核。既有歌曲、名義及音樂證據保留，基本歌曲階段暫未解鎖。",
-            "resumeWhen": "兩輪定向形式查找已封頂。僅同版日本TV的完整獨立常規槽（明確開始及結束）或合法本體分鐘新正文直接可讀時續核；受限／失敗頁只待普通正文恢復，不換渠道、不採搜尋摘要、前期、配信差或開始時刻推定。形式成立後才續核本期曲名／演唱名義／用途的第一方及交叉證據。",
-            "checkedAt": "2026-10-30"
-          }
-        ]
+        "sourceMode": "explicit"
       }
     ],
     "metadataVerifiedAt": "2026-07-25",
@@ -11225,9 +12292,16 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
         "role": "first_party",
         "language": "ja",
         "verifiedAt": "2026-10-30"
+      },
+      {
+        "url": "https://www.bs4.jp/isekai-gohantabi/",
+        "label": "BS日テレ：每週一24:00–24:30原播編成",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-07"
       }
     ],
-    "broadcastLabel": "日本TV：2026-07-06起AT-X每週一23:00（重播三11:00／五17:00）、BS日テレ每週一24:00（二00:00）、CBC每週一25:37（二01:37）；TOKYO MX於07-07起每週二20:57。先行配信07-07二02:30、其餘07-12日00:00另分；完整常規槽／合法本體分鐘待核，不由20:57推定短篇。"
+    "broadcastLabel": "日本TV：2026-07-06起AT-X每週一23:00、BS日テレ每週一24:00–24:30（JST）、CBC每週一25:37；TOKYO MX於7月7日起每週二20:57。先行配信7月7日02:30及其他配信7月12日00:00另計。"
   },
   {
     "anilistId": 169583,
@@ -16750,6 +17824,20 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "language": "ja",
             "role": "first_party",
             "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://youjo-senki.jp/news.html",
+            "label": "動畫官網：第2期主題曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.animatetimes.com/news/details.php?id=1782892365",
+            "label": "Animate Times：第2期 OP／ED",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
           }
         ],
         "songId": "youjo-senki-2-op-1-song",
@@ -16808,6 +17896,31 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
               "https://youjo-senki.jp/"
             ],
             "verifiedAt": "2026-10-14"
+          },
+          {
+            "target": "song",
+            "targetId": "youjo-senki-2-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://youjo-senki.jp/news.html",
+              "https://www.animatetimes.com/news/details.php?id=1782892365"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "youjo-senki-2-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://youjo-senki.jp/news.html",
+              "https://www.animatetimes.com/news/details.php?id=1782892365"
+            ],
+            "verifiedAt": "2026-11-07"
           }
         ],
         "links": [
@@ -16835,17 +17948,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "availability": "unknown"
           }
         ],
-        "sourceMode": "explicit",
-        "followUp": [
-          {
-            "fields": [
-              "basic_evidence"
-            ],
-            "note": "本期日本TV身分已確認；同版常規完整獨立番組槽或合法本體分鐘仍待核。既有歌曲、名義及音樂證據保留，基本歌曲階段暫未解鎖。",
-            "resumeWhen": "兩輪形式查找已盡；只有明確本期完整獨立常規槽或合法可讀單集本體分鐘新正文時才恢復，不以另一批或舊詳情齊備重搜。",
-            "checkedAt": "2026-10-31"
-          }
-        ]
+        "sourceMode": "explicit"
       },
       {
         "type": "ED",
@@ -16906,6 +18009,20 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "language": "ja",
             "role": "cross_check",
             "verifiedAt": "2026-07-25"
+          },
+          {
+            "url": "https://youjo-senki.jp/news.html",
+            "label": "動畫官網：第2期主題曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.animatetimes.com/news/details.php?id=1782892365",
+            "label": "Animate Times：第2期 OP／ED",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
           }
         ],
         "songId": "youjo-senki-2-ed-1-song",
@@ -16942,6 +18059,31 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
               "https://youjo-senki.jp/"
             ],
             "verifiedAt": "2026-10-14"
+          },
+          {
+            "target": "song",
+            "targetId": "youjo-senki-2-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://youjo-senki.jp/news.html",
+              "https://www.animatetimes.com/news/details.php?id=1782892365"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "youjo-senki-2-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://youjo-senki.jp/news.html",
+              "https://www.animatetimes.com/news/details.php?id=1782892365"
+            ],
+            "verifiedAt": "2026-11-07"
           }
         ],
         "links": [
@@ -16960,22 +18102,12 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "region": "JP"
           }
         ],
-        "sourceMode": "explicit",
-        "followUp": [
-          {
-            "fields": [
-              "basic_evidence"
-            ],
-            "note": "本期日本TV身分已確認；同版常規完整獨立番組槽或合法本體分鐘仍待核。既有歌曲、名義及音樂證據保留，基本歌曲階段暫未解鎖。",
-            "resumeWhen": "兩輪形式查找已盡；只有明確本期完整獨立常規槽或合法可讀單集本體分鐘新正文時才恢復，不以另一批或舊詳情齊備重搜。",
-            "checkedAt": "2026-10-31"
-          }
-        ]
+        "sourceMode": "explicit"
       }
     ],
     "metadataVerifiedAt": "2026-07-25",
-    "metadataSources": [{"label":"動畫官方網站：作品與播出資料","url":"https://youjo-senki.jp/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AniList：作品識別與公開圖像","url":"https://anilist.co/anime/135865","language":"en","role":"identifier","verifiedAt":"2026-07-25"},{"label":"繁體中文季度列表交叉對照","url":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","language":"zh-Hant","role":"localized_cross_check","verifiedAt":"2026-07-25"},{"label":"AnimeThemes：OP／ED 曲目交叉核對","url":"https://animethemes.moe/anime/youjo_senki_ii","language":"en","role":"theme_cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA：季度主題曲與官方影片索引","url":"https://uzurea.net/summer-2026-anime-theme-songs/","language":"ja","role":"theme_cross_check","verifiedAt":"2026-07-25"},{"label":"季度首播公開來源","url":"https://natalie.mu/comic/news/675054","language":"ja","role":"broadcast_cross_check","verifiedAt":"2026-07-25"},{"url":"https://youjo-senki.jp/onair.html","label":"幼女戦記Ⅱ：同版日本TV開始／串流編排（本頁未列片長或完整TV槽）：幼女戦記2製作委員会（發表／資料提供；刊載：幼女戦記Ⅱ動畫官方網站）","role":"first_party","language":"ja","verifiedAt":"2026-10-30"}],
-    "broadcastLabel": "日本TV幼女戦記Ⅱ：2026-07-08起AT-X週三21:30，TOKYO MX23:30等台另列；同本期完整常規槽／正版本體分鐘未核。第1期及劇場版另分。"
+    "metadataSources": [{"label":"動畫官方網站：作品與播出資料","url":"https://youjo-senki.jp/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AniList：作品識別與公開圖像","url":"https://anilist.co/anime/135865","language":"en","role":"identifier","verifiedAt":"2026-07-25"},{"label":"繁體中文季度列表交叉對照","url":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","language":"zh-Hant","role":"localized_cross_check","verifiedAt":"2026-07-25"},{"label":"AnimeThemes：OP／ED 曲目交叉核對","url":"https://animethemes.moe/anime/youjo_senki_ii","language":"en","role":"theme_cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA：季度主題曲與官方影片索引","url":"https://uzurea.net/summer-2026-anime-theme-songs/","language":"ja","role":"theme_cross_check","verifiedAt":"2026-07-25"},{"label":"季度首播公開來源","url":"https://natalie.mu/comic/news/675054","language":"ja","role":"broadcast_cross_check","verifiedAt":"2026-07-25"},{"url":"https://youjo-senki.jp/onair.html","label":"幼女戦記Ⅱ：同版日本TV開始／串流編排（本頁未列片長或完整TV槽）：幼女戦記2製作委員会（發表／資料提供；刊載：幼女戦記Ⅱ動畫官方網站）","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://www.video.unext.jp/title/SID0305799","label":"U-NEXT：第2期日本正版第1、2話各24分鐘","role":"first_party","language":"ja","verifiedAt":"2026-11-07"}],
+    "broadcastLabel": "日本TV第2期：2026-07-08起AT-X週三21:30、TOKYO MX週三23:30（JST）；U-NEXT同版第1、2話各24分鐘。第1期及劇場版另列。"
   },
   {
     "anilistId": 213666,
@@ -19445,6 +20577,20 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "language": "ja",
             "role": "first_party",
             "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://www.jvcmusic.co.jp/-/Discography/A023686/VE3WT-12453.html",
+            "label": "Victor Entertainment：片頭曲與演唱",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.oricon.co.jp/anime/986/cast/",
+            "label": "ORICON NEWS：片頭及片尾曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
           }
         ],
         "songId": "mebius-dust-op-1-song",
@@ -19505,6 +20651,31 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-14",
             "targetId": "vJzWWkigrU8"
+          },
+          {
+            "target": "song",
+            "targetId": "mebius-dust-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/-/Discography/A023686/VE3WT-12453.html",
+              "https://www.oricon.co.jp/anime/986/cast/"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "mebius-dust-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/-/Discography/A023686/VE3WT-12453.html",
+              "https://www.oricon.co.jp/anime/986/cast/"
+            ],
+            "verifiedAt": "2026-11-07"
           }
         ],
         "links": [
@@ -19525,17 +20696,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "availability": "unknown"
           }
         ],
-        "sourceMode": "explicit",
-        "followUp": [
-          {
-            "fields": [
-              "basic_evidence"
-            ],
-            "note": "本期形式待核：同版常規完整獨立番組槽或合法本體分鐘仍未取得足夠證據；已知作品與起點依來源範圍保留。既有歌曲、名義及音樂證據保留，歌曲核心資料仍待核對。",
-            "resumeWhen": "待本期同版本的官方節目表明列完整、獨立的常規播出起訖，或正版平台公開單集片長後，再補核歌曲用途。",
-            "checkedAt": "2026-10-31"
-          }
-        ]
+        "sourceMode": "explicit"
       },
       {
         "type": "ED",
@@ -19600,6 +20761,20 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "language": "ja",
             "role": "first_party",
             "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://tomiokaai.net/news/29441",
+            "label": "冨岡 愛官方：片尾曲與演唱",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.oricon.co.jp/anime/986/cast/",
+            "label": "ORICON NEWS：片頭及片尾曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
           }
         ],
         "songId": "mebius-dust-ed-1-song",
@@ -19625,6 +20800,31 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-14",
             "targetId": "https://www.youtube.com/watch?v=B4D-8viSG0M"
+          },
+          {
+            "target": "song",
+            "targetId": "mebius-dust-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tomiokaai.net/news/29441",
+              "https://www.oricon.co.jp/anime/986/cast/"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "mebius-dust-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tomiokaai.net/news/29441",
+              "https://www.oricon.co.jp/anime/986/cast/"
+            ],
+            "verifiedAt": "2026-11-07"
           }
         ],
         "links": [
@@ -19645,17 +20845,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "availability": "unknown"
           }
         ],
-        "sourceMode": "explicit",
-        "followUp": [
-          {
-            "fields": [
-              "basic_evidence"
-            ],
-            "note": "本期形式待核：同版常規完整獨立番組槽或合法本體分鐘仍未取得足夠證據；已知作品與起點依來源範圍保留。既有歌曲、名義及音樂證據保留，歌曲核心資料仍待核對。",
-            "resumeWhen": "待本期同版本的官方節目表明列完整、獨立的常規播出起訖，或正版平台公開單集片長後，再補核歌曲用途。",
-            "checkedAt": "2026-10-31"
-          }
-        ]
+        "sourceMode": "explicit"
       }
     ],
     "metadataVerifiedAt": "2026-07-25",
@@ -19708,9 +20898,16 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
         "role": "first_party",
         "language": "ja",
         "verifiedAt": "2026-10-31"
+      },
+      {
+        "url": "https://www.video.unext.jp/title/SID0305830?adid=XXX&alp=1&alpad=1&cid=D33907&rid=VI_g_vod_u-next_start",
+        "label": "U-NEXT：同版第1、2話正版正片各24分鐘",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-07"
       }
     ],
-    "broadcastLabel": "同版日本TV：2026-07-09起TOKYO MX每週四23:30、BSフジ每週四24:00（五00:00），MBS每週五26:53（六02:53）；TV與串流分列。只有起點，完整獨立常規槽／合法本體分鐘待核，歌曲階段延後。"
+    "broadcastLabel": "日本TV：2026-07-09起TOKYO MX每週四23:30、BSフジ每週四24:00（五00:00），MBS每週五26:53（六02:53）。配信另計；U-NEXT同版第1、2話各24分鐘。"
   },
   {
     "anilistId": 196187,
@@ -20830,7 +22027,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "label": "動畫官網：OP／ED 曲名及演唱",
             "language": "ja",
             "role": "first_party",
-            "verifiedAt": "2026-10-14"
+            "verifiedAt": "2026-11-07"
           },
           {
             "label": "AnimeThemes",
@@ -20866,6 +22063,13 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "language": "ja",
             "role": "first_party",
             "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E5%BE%9E0%E4%BD%8D%E5%B1%85%E6%B0%91%E9%96%8B%E5%A7%8B%E7%9A%84%E9%82%8A%E5%A2%83%E9%A0%98%E4%B8%BB%E5%A4%A7%E4%BA%BA",
+            "label": "繁體中文維基百科：片頭及片尾曲",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-07"
           }
         ],
         "songId": "ryoumin-0-nin-start-no-henkyou-ryoushu-sama-op-1-song",
@@ -20924,6 +22128,31 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-14",
             "targetId": "https://www.youtube.com/watch?v=ivJRaXk3GUw"
+          },
+          {
+            "target": "song",
+            "targetId": "ryoumin-0-nin-start-no-henkyou-ryoushu-sama-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://ryomin0-anime.com/",
+              "https://zh.wikipedia.org/wiki/%E5%BE%9E0%E4%BD%8D%E5%B1%85%E6%B0%91%E9%96%8B%E5%A7%8B%E7%9A%84%E9%82%8A%E5%A2%83%E9%A0%98%E4%B8%BB%E5%A4%A7%E4%BA%BA"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "ryoumin-0-nin-start-no-henkyou-ryoushu-sama-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://ryomin0-anime.com/",
+              "https://zh.wikipedia.org/wiki/%E5%BE%9E0%E4%BD%8D%E5%B1%85%E6%B0%91%E9%96%8B%E5%A7%8B%E7%9A%84%E9%82%8A%E5%A2%83%E9%A0%98%E4%B8%BB%E5%A4%A7%E4%BA%BA"
+            ],
+            "verifiedAt": "2026-11-07"
           }
         ],
         "links": [
@@ -20944,17 +22173,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "availability": "unknown"
           }
         ],
-        "sourceMode": "explicit",
-        "followUp": [
-          {
-            "fields": [
-              "basic_evidence"
-            ],
-            "note": "本期形式待核：同版常規完整獨立番組槽或合法本體分鐘仍未取得足夠證據；已知作品與起點依來源範圍保留。既有歌曲、名義及音樂證據保留，歌曲核心資料仍待核對。",
-            "resumeWhen": "待本期同版本的官方節目表明列完整、獨立的常規播出起訖，或正版平台公開單集片長後，再補核歌曲用途。",
-            "checkedAt": "2026-10-31"
-          }
-        ]
+        "sourceMode": "explicit"
       },
       {
         "type": "ED",
@@ -20994,7 +22213,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "label": "動畫官網：OP／ED 曲名及演唱",
             "language": "ja",
             "role": "first_party",
-            "verifiedAt": "2026-10-14"
+            "verifiedAt": "2026-11-07"
           },
           {
             "label": "AnimeThemes",
@@ -21023,6 +22242,13 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "language": "ja",
             "role": "cross_check",
             "verifiedAt": "2026-10-14"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E5%BE%9E0%E4%BD%8D%E5%B1%85%E6%B0%91%E9%96%8B%E5%A7%8B%E7%9A%84%E9%82%8A%E5%A2%83%E9%A0%98%E4%B8%BB%E5%A4%A7%E4%BA%BA",
+            "label": "繁體中文維基百科：片頭及片尾曲",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-07"
           }
         ],
         "songId": "ryoumin-0-nin-start-no-henkyou-ryoushu-sama-ed-1-song",
@@ -21119,6 +22345,31 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
               "https://www.gamers.co.jp/pn/%E3%80%90%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%91TV%20%E9%A0%98%E6%B0%910%E4%BA%BA%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%81%AE%E8%BE%BA%E5%A2%83%E9%A0%98%E4%B8%BB%E6%A7%98%20ED/TV%20%E7%84%A1%E8%87%AA%E8%A6%9A%E8%81%96%E5%A5%B3%E3%81%AF%E4%BB%8A%E6%97%A5%E3%82%82%E7%84%A1%E6%84%8F%E8%AD%98%E3%81%AB%E5%8A%9B%E3%82%92%E5%9E%82%E3%82%8C%E6%B5%81%E3%81%99%20OP%E3%80%8C%E6%98%9F%E9%99%8D%E3%82%8B%E5%A4%9C%E3%81%AE%E7%B4%84%E6%9D%9F/Windmaker%E3%80%8D/%E8%8A%B1%E8%80%B6/pd/10900792/"
             ],
             "verifiedAt": "2026-10-14"
+          },
+          {
+            "target": "song",
+            "targetId": "ryoumin-0-nin-start-no-henkyou-ryoushu-sama-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://ryomin0-anime.com/",
+              "https://zh.wikipedia.org/wiki/%E5%BE%9E0%E4%BD%8D%E5%B1%85%E6%B0%91%E9%96%8B%E5%A7%8B%E7%9A%84%E9%82%8A%E5%A2%83%E9%A0%98%E4%B8%BB%E5%A4%A7%E4%BA%BA"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "ryoumin-0-nin-start-no-henkyou-ryoushu-sama-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://ryomin0-anime.com/",
+              "https://zh.wikipedia.org/wiki/%E5%BE%9E0%E4%BD%8D%E5%B1%85%E6%B0%91%E9%96%8B%E5%A7%8B%E7%9A%84%E9%82%8A%E5%A2%83%E9%A0%98%E4%B8%BB%E5%A4%A7%E4%BA%BA"
+            ],
+            "verifiedAt": "2026-11-07"
           }
         ],
         "links": [
@@ -21157,17 +22408,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "edition": "CD Single"
           }
         ],
-        "sourceMode": "explicit",
-        "followUp": [
-          {
-            "fields": [
-              "basic_evidence"
-            ],
-            "note": "本期形式待核：同版常規完整獨立番組槽或合法本體分鐘仍未取得足夠證據；已知作品與起點依來源範圍保留。既有歌曲、名義及音樂證據保留，歌曲核心資料仍待核對。",
-            "resumeWhen": "待本期同版本的官方節目表明列完整、獨立的常規播出起訖，或正版平台公開單集片長後，再補核歌曲用途。",
-            "checkedAt": "2026-10-31"
-          }
-        ]
+        "sourceMode": "explicit"
       }
     ],
     "metadataVerifiedAt": "2026-07-25",
@@ -21213,9 +22454,16 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
         "language": "ja",
         "role": "broadcast_cross_check",
         "verifiedAt": "2026-07-25"
+      },
+      {
+        "url": "https://www.primevideo.com/-/ja/detail/0JIODK9Y5YNOPZIIB40JNQ1U3Z?tr=jp",
+        "label": "Prime Video：同版第8、9話正版正片各24分鐘",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-07"
       }
     ],
-    "broadcastLabel": "同版日本TV：官方首頁公告2026-07-10開始；Prime Video07-03先行配信另分。常規完整槽／合法本體分鐘未核，不由先行配信或起點推形式；歌曲階段延後。"
+    "broadcastLabel": "日本TV：官方公告2026-07-10起播；Prime Video於7月3日先行配信另計。Prime Video同版第8、9話各24分鐘。"
   },
   {
     "anilistId": 199066,
@@ -22966,7 +24214,8 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
     "id": "curated-182616",
     "slug": "nige-jouzu-no-wakagimi-2nd-season",
     "seasonIds": [
-      "2026-summer"
+      "2026-summer",
+      "2026-fall"
     ],
     "startDate": "2026-07-17",
     "titleJa": "逃げ上手の若君 第二期",
@@ -22976,7 +24225,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
     "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/182616-kmIqMEUsLYrO.jpg",
     "editorialWeekday": 5,
     "broadcastTimeJst": "23:30",
-    "status": "airing",
+    "status": "finished",
     "officialSiteUrl": "https://nigewaka.run/",
     "anilistUrl": "https://anilist.co/anime/182616",
     "imageSourceUrl": "https://anilist.co/anime/182616",
@@ -23358,7 +24607,20 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "catalogNumber": "SECN50-51"
           }
         ],
-        "sourceMode": "explicit"
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2026-summer"
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "use_quarters"
+            ],
+            "note": "富士電視台確認第24話於2026年10月2日播畢，該話實際使用此曲仍待核。",
+            "resumeWhen": "取得第24話日本TV版逐曲音樂欄或原片字幕後再核秋季用途。",
+            "checkedAt": "2026-11-06"
+          }
+        ]
       },
       {
         "type": "ED",
@@ -23725,10 +24987,127 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "catalogNumber": "AICL-4932"
           }
         ],
-        "sourceMode": "explicit"
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2026-summer"
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "use_quarters"
+            ],
+            "note": "富士電視台確認第24話於2026年10月2日播畢，該話實際使用此曲仍待核。",
+            "resumeWhen": "取得第24話日本TV版逐曲音樂欄或原片字幕後再核秋季用途。",
+            "checkedAt": "2026-11-06"
+          }
+        ]
+      },
+      {
+        "id": "nige-jouzu-no-wakagimi-2nd-season-in-1",
+        "songId": "nige-jouzu-no-wakagimi-2nd-season-in-1-song",
+        "type": "IN",
+        "sequence": 1,
+        "titleJa": "今すぐOTETSUKI☆",
+        "artistDisplayName": "亜也子（CV.鈴代紗弓）",
+        "usageLabel": "第14話插曲",
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2026-summer"
+        ],
+        "sources": [
+          {
+            "url": "https://nigewaka.run/news/?article_id=70911",
+            "label": "作品官方：第十四回插曲的曲名及演唱",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-06"
+          },
+          {
+            "url": "https://www.animatetimes.com/news/details.php?id=1784955487",
+            "label": "Animate Times：第十四回插曲、名義及創作交叉核對",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-11-06"
+          },
+          {
+            "url": "https://thetv.jp/program/0001054469/plot/",
+            "label": "WEBザテレビジョン：第14話日本TV首播日期",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-11-06"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-06",
+        "credits": [
+          {
+            "name": "鈴代紗弓",
+            "role": "vocals"
+          },
+          {
+            "name": "園田健太郎",
+            "role": "lyrics"
+          },
+          {
+            "name": "園田健太郎",
+            "role": "composition"
+          },
+          {
+            "name": "園田健太郎",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "nige-jouzu-no-wakagimi-2nd-season-in-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://nigewaka.run/news/?article_id=70911",
+              "https://www.animatetimes.com/news/details.php?id=1784955487"
+            ],
+            "verifiedAt": "2026-11-06"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "nige-jouzu-no-wakagimi-2nd-season-in-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://nigewaka.run/news/?article_id=70911",
+              "https://www.animatetimes.com/news/details.php?id=1784955487"
+            ],
+            "verifiedAt": "2026-11-06"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "nige-jouzu-no-wakagimi-2nd-season-in-1",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://nigewaka.run/news/?article_id=70911",
+              "https://thetv.jp/program/0001054469/plot/"
+            ],
+            "verifiedAt": "2026-11-06"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.animatetimes.com/news/details.php?id=1784955487"
+            ],
+            "verifiedAt": "2026-11-06"
+          }
+        ]
       }
     ],
-    "metadataVerifiedAt": "2026-07-25",
+    "metadataVerifiedAt": "2026-11-05",
     "metadataSources": [
       {
         "label": "動畫官方網站：作品與播出資料",
@@ -23785,9 +25164,16 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
         "role": "first_party",
         "language": "ja",
         "verifiedAt": "2026-10-31"
+      },
+      {
+        "url": "https://www.fujitv.co.jp/b_hp/nigewaka_run2/",
+        "label": "富士電視台：本版第24話與10月2日播畢",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-11-05"
       }
     ],
-    "broadcastLabel": "2026-07-17起・TV・週五23:30（JST）・全国フジテレビ系ノイタミナ；常規完整槽23:30–24:00；AT-X 7/24起五23:00"
+    "broadcastLabel": "日本TV：富士電視台系週五23:30–24:00（JST），2026年7月17日起，第24話10月2日播畢。AT-X 7月24日起週五23:00"
   },
   {
     "anilistId": 185874,
@@ -24706,7 +26092,8 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
     "2025-winter",
     "2026-fall",
     "2026-spring",
-    "2026-winter"
+    "2026-winter",
+    "2020-fall"
   ],
   "verifiedAt": "2026-10-19",
   "metadataVerifiedAt": "2026-10-19",
@@ -25253,14 +26640,14 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
           "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
           "role": "cross_check",
           "language": "zh-Hant",
-          "verifiedAt": "2026-10-22"
+          "verifiedAt": "2026-11-05"
         },
         {
           "url": "https://www.conanpedia.com/zh-hant/TV",
           "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
           "role": "cross_check",
           "language": "zh-Hant",
-          "verifiedAt": "2026-10-22"
+          "verifiedAt": "2026-11-05"
         },
         {
           "url": "https://animeanime.jp/article/2026/04/16/98000.html",
@@ -25268,6 +26655,13 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=d5Jc864jl7w",
+          "label": "TMS官方影片標題／說明：あみゅり〈Poker Face〉OP（用途文字證據）",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
         }
       ],
       "links": [],
@@ -25275,7 +26669,10 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
       "sourceMode": "explicit",
       "titleJa": "Poker Face",
       "artistDisplayName": "あみゅり",
-      "seasonIds": [],
+      "seasonIds": [
+        "2025-summer",
+        "2025-fall"
+      ],
       "usageLabel": "原TV OP60（第1168～1186話）",
       "evidence": [
         {
@@ -25346,13 +26743,34 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-22",
           "targetId": "meitantei-conan-op-60"
+        },
+        {
+          "target": "song",
+          "targetId": "meitantei-conan-op-60-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=d5Jc864jl7w"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "meitantei-conan-op-60",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=d5Jc864jl7w"
+          ],
+          "verifiedAt": "2026-11-05"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "basic_evidence",
-            "use_quarters",
             "lyrics",
             "composition",
             "arrangement",
@@ -25362,12 +26780,12 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "platform_links",
             "platform_availability"
           ],
-          "note": "〈Poker Face〉：読売テレビ官方歷代OP／ED表普通搜尋索引逐項明本曲原名與正式名義；中文原期曲表明OP60／第1168～1186話。季度依本曲實際原TV播出期間交叉核對，不由發售、MV、NC上傳日或整部續播推。 此一方表標歷代OP・ED聯集，沒有分列每首OP／ED欄；精確OP／ED分類與歷代序號由中文逐曲交叉提供，新增ID／序號直接採已核真實歷代編號。 精確啟用日有7/12與7/19資料分歧，均在2025夏；未以7/12配信日當TV日，公開用途標籤不寫精確起日。 一方未分精確OP／ED，故本用途held空季度；交叉候補季度2025-summer／2025-fall只留續查，不算已確認。",
-          "resumeWhen": "待原期官方逐曲公告或可核對官方OP／ED標題明本曲精確類型，才把一方用途範圍由歷代OP・ED聯集收窄；目前精確分類與歷代號由已讀中文逐話表交叉支持。待YTV原期逐話或藝人本期TV啟用公告釐清7/12與7/19的首播分歧，維持已證summer／fall，不以配信／影片日補精確TV日；詳細階段沿已核原期來源，待一方逐曲明示尚缺詞曲編／個別實唱、錄音full／TV版本、官方影片形式、發行收錄與正版平台再補；歷代影片與商品不自動造新歌曲或錄音。",
-          "checkedAt": "2026-10-22"
+          "note": "〈Poker Face〉：本輪第一方逐曲標題／說明已明OP，與中文原TV話數及首播日期交叉核對；原TV OP60（第1168～1186話），已確認用途季度2025-summer／2025-fall。只記正式演唱名義，團員／starring不推為逐人vocals；影片上傳、商品與演唱會日期不作TV用曲日期。詳細欄位沿2026-10-22缺口，本輪未重查。",
+          "resumeWhen": "基本身分、精確OP／ED及所列季度已核；詳細階段沿原期來源，待第一方逐曲明示尚缺詞曲編／個別實唱、音源full／TV版本、官方影片形式、發行收錄與正版平台再補。用途文字來源不自動新增影片、錄音或歌曲。",
+          "checkedAt": "2026-11-05"
         }
       ],
-      "lastVerifiedAt": "2026-10-22"
+      "lastVerifiedAt": "2026-11-05"
     },
     {
       "id": "meitantei-conan-op-59",
@@ -25387,14 +26805,14 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
           "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
           "role": "cross_check",
           "language": "zh-Hant",
-          "verifiedAt": "2026-10-22"
+          "verifiedAt": "2026-11-05"
         },
         {
           "url": "https://www.conanpedia.com/zh-hant/TV",
           "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
           "role": "cross_check",
           "language": "zh-Hant",
-          "verifiedAt": "2026-10-22"
+          "verifiedAt": "2026-11-05"
         },
         {
           "url": "https://animeanime.jp/article/2026/04/16/98000.html",
@@ -25402,6 +26820,13 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://rainy.bzone.co.jp/disco/jbcz-6126/",
+          "label": "Rainy。官方商品頁：But ノーラヴ為本作OP",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
         }
       ],
       "links": [],
@@ -25409,7 +26834,10 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
       "sourceMode": "explicit",
       "titleJa": "But ノーラヴ",
       "artistDisplayName": "Rainy。",
-      "seasonIds": [],
+      "seasonIds": [
+        "2025-winter",
+        "2025-spring"
+      ],
       "usageLabel": "原TV OP59（第1148～1167話）",
       "evidence": [
         {
@@ -25480,13 +26908,34 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-22",
           "targetId": "meitantei-conan-op-59"
+        },
+        {
+          "target": "song",
+          "targetId": "meitantei-conan-op-59-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://rainy.bzone.co.jp/disco/jbcz-6126/"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "meitantei-conan-op-59",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://rainy.bzone.co.jp/disco/jbcz-6126/"
+          ],
+          "verifiedAt": "2026-11-05"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "basic_evidence",
-            "use_quarters",
             "lyrics",
             "composition",
             "arrangement",
@@ -25496,12 +26945,12 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "platform_links",
             "platform_availability"
           ],
-          "note": "〈But ノーラヴ〉：読売テレビ官方歷代OP／ED表普通搜尋索引逐項明本曲原名與正式名義；中文原期曲表明OP59／第1148～1167話。季度依本曲實際原TV播出期間交叉核對，不由發售、MV、NC上傳日或整部續播推。 此一方表標歷代OP・ED聯集，沒有分列每首OP／ED欄；精確OP／ED分類與歷代序號由中文逐曲交叉提供，新增ID／序號直接採已核真實歷代編號。 一方未分精確OP／ED，故本用途held空季度；交叉候補季度2025-winter／2025-spring只留續查，不算已確認。",
-          "resumeWhen": "待原期官方逐曲公告或可核對官方OP／ED標題明本曲精確類型，才把一方用途範圍由歷代OP・ED聯集收窄；目前精確分類與歷代號由已讀中文逐話表交叉支持。詳細階段沿已核原期來源，待一方逐曲明示尚缺詞曲編／個別實唱、錄音full／TV版本、官方影片形式、發行收錄與正版平台再補；歷代影片與商品不自動造新歌曲或錄音。",
-          "checkedAt": "2026-10-22"
+          "note": "〈But ノーラヴ〉：本輪第一方逐曲標題／說明已明OP，與中文原TV話數及首播日期交叉核對；原TV OP59（第1148～1167話），已確認用途季度2025-winter／2025-spring。只記正式演唱名義，團員／starring不推為逐人vocals；影片上傳、商品與演唱會日期不作TV用曲日期。詳細欄位沿2026-10-22缺口，本輪未重查。",
+          "resumeWhen": "基本身分、精確OP／ED及所列季度已核；詳細階段沿原期來源，待第一方逐曲明示尚缺詞曲編／個別實唱、音源full／TV版本、官方影片形式、發行收錄與正版平台再補。用途文字來源不自動新增影片、錄音或歌曲。",
+          "checkedAt": "2026-11-05"
         }
       ],
-      "lastVerifiedAt": "2026-10-22"
+      "lastVerifiedAt": "2026-11-05"
     },
     {
       "id": "meitantei-conan-op-58",
@@ -26486,14 +27935,14 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
           "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
           "role": "cross_check",
           "language": "zh-Hant",
-          "verifiedAt": "2026-10-22"
+          "verifiedAt": "2026-11-05"
         },
         {
           "url": "https://www.conanpedia.com/zh-hant/TV",
           "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
           "role": "cross_check",
           "language": "zh-Hant",
-          "verifiedAt": "2026-10-22"
+          "verifiedAt": "2026-11-05"
         },
         {
           "url": "https://animeanime.jp/article/2026/04/16/98000.html",
@@ -26501,6 +27950,13 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.atpress.ne.jp/news/256542",
+          "label": "読売テレビ／キョードー関西原公告（Atpress刊載）：all at once兩曲OP／ED",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
         }
       ],
       "links": [],
@@ -26508,7 +27964,10 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
       "sourceMode": "explicit",
       "titleJa": "JUST BELIEVE YOU",
       "artistDisplayName": "all at once",
-      "seasonIds": [],
+      "seasonIds": [
+        "2020-fall",
+        "2021-winter"
+      ],
       "usageLabel": "原TV OP52（第983～999話）",
       "evidence": [
         {
@@ -26579,13 +28038,34 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-22",
           "targetId": "meitantei-conan-op-52"
+        },
+        {
+          "target": "song",
+          "targetId": "meitantei-conan-op-52-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.atpress.ne.jp/news/256542"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "meitantei-conan-op-52",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.atpress.ne.jp/news/256542"
+          ],
+          "verifiedAt": "2026-11-05"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "basic_evidence",
-            "use_quarters",
             "lyrics",
             "composition",
             "arrangement",
@@ -26595,12 +28075,12 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "platform_links",
             "platform_availability"
           ],
-          "note": "〈JUST BELIEVE YOU〉：読売テレビ官方歷代OP／ED表普通搜尋索引逐項明本曲原名與正式名義；中文原期曲表明OP52／第983～999話。季度依本曲實際原TV播出期間交叉核對，不由發售、MV、NC上傳日或整部續播推。 只記正式演唱名義，團員／starring字樣不自動變逐人vocals。 此一方表標歷代OP・ED聯集，沒有分列每首OP／ED欄；精確OP／ED分類與歷代序號由中文逐曲交叉提供，新增ID／序號直接採已核真實歷代編號。 一方未分精確OP／ED，故本用途held空季度；交叉候補季度2020-fall／2021-winter只留續查，不算已確認。",
-          "resumeWhen": "待原期官方逐曲公告或可核對官方OP／ED標題明本曲精確類型，才把一方用途範圍由歷代OP・ED聯集收窄；目前精確分類與歷代號由已讀中文逐話表交叉支持。詳細階段沿已核原期來源，待一方逐曲明示尚缺詞曲編／個別實唱、錄音full／TV版本、官方影片形式、發行收錄與正版平台再補；歷代影片與商品不自動造新歌曲或錄音。",
-          "checkedAt": "2026-10-22"
+          "note": "〈JUST BELIEVE YOU〉：本輪第一方逐曲標題／說明已明OP，與中文原TV話數及首播日期交叉核對；原TV OP52（第983～999話），已確認用途季度2020-fall／2021-winter。只記正式演唱名義，團員／starring不推為逐人vocals；影片上傳、商品與演唱會日期不作TV用曲日期。詳細欄位沿2026-10-22缺口，本輪未重查。",
+          "resumeWhen": "基本身分、精確OP／ED及所列季度已核；詳細階段沿原期來源，待第一方逐曲明示尚缺詞曲編／個別實唱、音源full／TV版本、官方影片形式、發行收錄與正版平台再補。用途文字來源不自動新增影片、錄音或歌曲。",
+          "checkedAt": "2026-11-05"
         }
       ],
-      "lastVerifiedAt": "2026-10-22"
+      "lastVerifiedAt": "2026-11-05"
     },
     {
       "id": "meitantei-conan-op-51",
@@ -27511,14 +28991,14 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
           "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
           "role": "cross_check",
           "language": "zh-Hant",
-          "verifiedAt": "2026-10-22"
+          "verifiedAt": "2026-11-05"
         },
         {
           "url": "https://www.conanpedia.com/zh-hant/TV",
           "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
           "role": "cross_check",
           "language": "zh-Hant",
-          "verifiedAt": "2026-10-22"
+          "verifiedAt": "2026-11-05"
         },
         {
           "url": "https://animeanime.jp/article/2026/04/16/98000.html",
@@ -27526,6 +29006,13 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://rainy.bzone.co.jp/disco/jbcz-4057/",
+          "label": "Rainy。官方商品頁：…and Rescue Me為本作ED",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
         }
       ],
       "links": [],
@@ -27533,7 +29020,11 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
       "sourceMode": "explicit",
       "titleJa": "...and Rescue Me",
       "artistDisplayName": "Rainy。",
-      "seasonIds": [],
+      "seasonIds": [
+        "2023-spring",
+        "2023-summer",
+        "2023-fall"
+      ],
       "usageLabel": "原TV ED69（第1088～1104話）",
       "evidence": [
         {
@@ -27604,13 +29095,34 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-22",
           "targetId": "meitantei-conan-ed-69"
+        },
+        {
+          "target": "song",
+          "targetId": "meitantei-conan-ed-69-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://rainy.bzone.co.jp/disco/jbcz-4057/"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "meitantei-conan-ed-69",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://rainy.bzone.co.jp/disco/jbcz-4057/"
+          ],
+          "verifiedAt": "2026-11-05"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "basic_evidence",
-            "use_quarters",
             "lyrics",
             "composition",
             "arrangement",
@@ -27620,12 +29132,12 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "platform_links",
             "platform_availability"
           ],
-          "note": "〈...and Rescue Me〉：読売テレビ官方歷代OP／ED表普通搜尋索引逐項明本曲原名與正式名義；中文原期曲表明ED69／第1088～1104話。季度依本曲實際原TV播出期間交叉核對，不由發售、MV、NC上傳日或整部續播推。 此一方表標歷代OP・ED聯集，沒有分列每首OP／ED欄；精確OP／ED分類與歷代序號由中文逐曲交叉提供，新增ID／序號直接採已核真實歷代編號。 原名依YTV索引...and Rescue Me，交叉媒體的點號／空白變體不當新歌曲。 一方未分精確OP／ED，故本用途held空季度；交叉候補季度2023-spring／2023-summer／2023-fall只留續查，不算已確認。",
-          "resumeWhen": "待原期官方逐曲公告或可核對官方OP／ED標題明本曲精確類型，才把一方用途範圍由歷代OP・ED聯集收窄；目前精確分類與歷代號由已讀中文逐話表交叉支持。詳細階段沿已核原期來源，待一方逐曲明示尚缺詞曲編／個別實唱、錄音full／TV版本、官方影片形式、發行收錄與正版平台再補；歷代影片與商品不自動造新歌曲或錄音。",
-          "checkedAt": "2026-10-22"
+          "note": "〈...and Rescue Me〉：本輪第一方逐曲標題／說明已明ED，與中文原TV話數及首播日期交叉核對；原TV ED69（第1088～1104話），已確認用途季度2023-spring／2023-summer／2023-fall。只記正式演唱名義，團員／starring不推為逐人vocals；影片上傳、商品與演唱會日期不作TV用曲日期。詳細欄位沿2026-10-22缺口，本輪未重查。",
+          "resumeWhen": "基本身分、精確OP／ED及所列季度已核；詳細階段沿原期來源，待第一方逐曲明示尚缺詞曲編／個別實唱、音源full／TV版本、官方影片形式、發行收錄與正版平台再補。用途文字來源不自動新增影片、錄音或歌曲。",
+          "checkedAt": "2026-11-05"
         }
       ],
-      "lastVerifiedAt": "2026-10-22"
+      "lastVerifiedAt": "2026-11-05"
     },
     {
       "id": "meitantei-conan-ed-68",
@@ -27645,14 +29157,14 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
           "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
           "role": "cross_check",
           "language": "zh-Hant",
-          "verifiedAt": "2026-10-22"
+          "verifiedAt": "2026-11-05"
         },
         {
           "url": "https://www.conanpedia.com/zh-hant/TV",
           "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
           "role": "cross_check",
           "language": "zh-Hant",
-          "verifiedAt": "2026-10-22"
+          "verifiedAt": "2026-11-05"
         },
         {
           "url": "https://animeanime.jp/article/2026/04/16/98000.html",
@@ -27660,6 +29172,13 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=jfu6gSe6Hao",
+          "label": "TMS官方影片標題／說明：今夜、あの街から〈クウフク〉ED（用途文字證據）",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
         }
       ],
       "links": [],
@@ -27667,7 +29186,10 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
       "sourceMode": "explicit",
       "titleJa": "クウフク（starring VALSHE）",
       "artistDisplayName": "今夜、あの街から",
-      "seasonIds": [],
+      "seasonIds": [
+        "2023-winter",
+        "2023-spring"
+      ],
       "usageLabel": "原TV ED68（第1074～1087話）",
       "evidence": [
         {
@@ -27738,13 +29260,34 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-22",
           "targetId": "meitantei-conan-ed-68"
+        },
+        {
+          "target": "song",
+          "targetId": "meitantei-conan-ed-68-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=jfu6gSe6Hao"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "meitantei-conan-ed-68",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=jfu6gSe6Hao"
+          ],
+          "verifiedAt": "2026-11-05"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "basic_evidence",
-            "use_quarters",
             "lyrics",
             "composition",
             "arrangement",
@@ -27754,12 +29297,12 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "platform_links",
             "platform_availability"
           ],
-          "note": "〈クウフク（starring VALSHE）〉：読売テレビ官方歷代OP／ED表普通搜尋索引逐項明本曲原名與正式名義；中文原期曲表明ED68／第1074～1087話。季度依本曲實際原TV播出期間交叉核對，不由發售、MV、NC上傳日或整部續播推。 只記正式演唱名義，團員／starring字樣不自動變逐人vocals。 此一方表標歷代OP・ED聯集，沒有分列每首OP／ED欄；精確OP／ED分類與歷代序號由中文逐曲交叉提供，新增ID／序號直接採已核真實歷代編號。 一方未分精確OP／ED，故本用途held空季度；交叉候補季度2023-winter／2023-spring只留續查，不算已確認。",
-          "resumeWhen": "待原期官方逐曲公告或可核對官方OP／ED標題明本曲精確類型，才把一方用途範圍由歷代OP・ED聯集收窄；目前精確分類與歷代號由已讀中文逐話表交叉支持。詳細階段沿已核原期來源，待一方逐曲明示尚缺詞曲編／個別實唱、錄音full／TV版本、官方影片形式、發行收錄與正版平台再補；歷代影片與商品不自動造新歌曲或錄音。",
-          "checkedAt": "2026-10-22"
+          "note": "〈クウフク（starring VALSHE）〉：本輪第一方逐曲標題／說明已明ED，與中文原TV話數及首播日期交叉核對；原TV ED68（第1074～1087話），已確認用途季度2023-winter／2023-spring。只記正式演唱名義，團員／starring不推為逐人vocals；影片上傳、商品與演唱會日期不作TV用曲日期。詳細欄位沿2026-10-22缺口，本輪未重查。",
+          "resumeWhen": "基本身分、精確OP／ED及所列季度已核；詳細階段沿原期來源，待第一方逐曲明示尚缺詞曲編／個別實唱、音源full／TV版本、官方影片形式、發行收錄與正版平台再補。用途文字來源不自動新增影片、錄音或歌曲。",
+          "checkedAt": "2026-11-05"
         }
       ],
-      "lastVerifiedAt": "2026-10-22"
+      "lastVerifiedAt": "2026-11-05"
     },
     {
       "id": "meitantei-conan-ed-67",
@@ -28126,14 +29669,14 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
           "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
           "role": "cross_check",
           "language": "zh-Hant",
-          "verifiedAt": "2026-10-22"
+          "verifiedAt": "2026-11-05"
         },
         {
           "url": "https://www.conanpedia.com/zh-hant/TV",
           "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
           "role": "cross_check",
           "language": "zh-Hant",
-          "verifiedAt": "2026-10-22"
+          "verifiedAt": "2026-11-05"
         },
         {
           "url": "https://animeanime.jp/article/2026/04/16/98000.html",
@@ -28141,6 +29684,13 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=CiunBalj2N4",
+          "label": "BREAKERZ官方影片說明：SWEET MOONLIGHT為本作ED（用途文字證據）",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
         }
       ],
       "links": [],
@@ -28148,7 +29698,10 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
       "sourceMode": "explicit",
       "titleJa": "SWEET MOONLIGHT",
       "artistDisplayName": "BREAKERZ",
-      "seasonIds": [],
+      "seasonIds": [
+        "2021-fall",
+        "2022-winter"
+      ],
       "usageLabel": "原TV ED65（第1029～1038話）",
       "evidence": [
         {
@@ -28219,13 +29772,34 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-22",
           "targetId": "meitantei-conan-ed-65"
+        },
+        {
+          "target": "song",
+          "targetId": "meitantei-conan-ed-65-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=CiunBalj2N4"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "meitantei-conan-ed-65",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=CiunBalj2N4"
+          ],
+          "verifiedAt": "2026-11-05"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "basic_evidence",
-            "use_quarters",
             "lyrics",
             "composition",
             "arrangement",
@@ -28235,12 +29809,12 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "platform_links",
             "platform_availability"
           ],
-          "note": "〈SWEET MOONLIGHT〉：読売テレビ官方歷代OP／ED表普通搜尋索引逐項明本曲原名與正式名義；中文原期曲表明ED65／第1029～1038話。季度依本曲實際原TV播出期間交叉核對，不由發售、MV、NC上傳日或整部續播推。 只記正式演唱名義，團員／starring字樣不自動變逐人vocals。 此一方表標歷代OP・ED聯集，沒有分列每首OP／ED欄；精確OP／ED分類與歷代序號由中文逐曲交叉提供，新增ID／序號直接採已核真實歷代編號。 一方未分精確OP／ED，故本用途held空季度；交叉候補季度2021-fall／2022-winter只留續查，不算已確認。",
-          "resumeWhen": "待原期官方逐曲公告或可核對官方OP／ED標題明本曲精確類型，才把一方用途範圍由歷代OP・ED聯集收窄；目前精確分類與歷代號由已讀中文逐話表交叉支持。詳細階段沿已核原期來源，待一方逐曲明示尚缺詞曲編／個別實唱、錄音full／TV版本、官方影片形式、發行收錄與正版平台再補；歷代影片與商品不自動造新歌曲或錄音。",
-          "checkedAt": "2026-10-22"
+          "note": "〈SWEET MOONLIGHT〉：本輪第一方逐曲標題／說明已明ED，與中文原TV話數及首播日期交叉核對；原TV ED65（第1029～1038話），已確認用途季度2021-fall／2022-winter。只記正式演唱名義，團員／starring不推為逐人vocals；影片上傳、商品與演唱會日期不作TV用曲日期。詳細欄位沿2026-10-22缺口，本輪未重查。",
+          "resumeWhen": "基本身分、精確OP／ED及所列季度已核；詳細階段沿原期來源，待第一方逐曲明示尚缺詞曲編／個別實唱、音源full／TV版本、官方影片形式、發行收錄與正版平台再補。用途文字來源不自動新增影片、錄音或歌曲。",
+          "checkedAt": "2026-11-05"
         }
       ],
-      "lastVerifiedAt": "2026-10-22"
+      "lastVerifiedAt": "2026-11-05"
     },
     {
       "id": "meitantei-conan-ed-64",
@@ -28579,14 +30153,14 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
           "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
           "role": "cross_check",
           "language": "zh-Hant",
-          "verifiedAt": "2026-10-22"
+          "verifiedAt": "2026-11-05"
         },
         {
           "url": "https://www.conanpedia.com/zh-hant/TV",
           "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
           "role": "cross_check",
           "language": "zh-Hant",
-          "verifiedAt": "2026-10-22"
+          "verifiedAt": "2026-11-05"
         },
         {
           "url": "https://animeanime.jp/article/2026/04/16/98000.html",
@@ -28594,6 +30168,13 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.atpress.ne.jp/news/256542",
+          "label": "読売テレビ／キョードー関西原公告（Atpress刊載）：all at once兩曲OP／ED",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
         }
       ],
       "links": [],
@@ -28601,7 +30182,10 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
       "sourceMode": "explicit",
       "titleJa": "星合",
       "artistDisplayName": "all at once",
-      "seasonIds": [],
+      "seasonIds": [
+        "2020-summer",
+        "2020-fall"
+      ],
       "usageLabel": "原TV ED62（第977～992話）",
       "evidence": [
         {
@@ -28672,13 +30256,34 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-22",
           "targetId": "meitantei-conan-ed-62"
+        },
+        {
+          "target": "song",
+          "targetId": "meitantei-conan-ed-62-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.atpress.ne.jp/news/256542"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "meitantei-conan-ed-62",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.atpress.ne.jp/news/256542"
+          ],
+          "verifiedAt": "2026-11-05"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "basic_evidence",
-            "use_quarters",
             "lyrics",
             "composition",
             "arrangement",
@@ -28688,12 +30293,12 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "platform_links",
             "platform_availability"
           ],
-          "note": "〈星合〉：読売テレビ官方歷代OP／ED表普通搜尋索引逐項明本曲原名與正式名義；中文原期曲表明ED62／第977～992話。季度依本曲實際原TV播出期間交叉核對，不由發售、MV、NC上傳日或整部續播推。 只記正式演唱名義，團員／starring字樣不自動變逐人vocals。 此一方表標歷代OP・ED聯集，沒有分列每首OP／ED欄；精確OP／ED分類與歷代序號由中文逐曲交叉提供，新增ID／序號直接採已核真實歷代編號。 一方未分精確OP／ED，故本用途held空季度；交叉候補季度2020-summer／2020-fall只留續查，不算已確認。",
-          "resumeWhen": "待原期官方逐曲公告或可核對官方OP／ED標題明本曲精確類型，才把一方用途範圍由歷代OP・ED聯集收窄；目前精確分類與歷代號由已讀中文逐話表交叉支持。詳細階段沿已核原期來源，待一方逐曲明示尚缺詞曲編／個別實唱、錄音full／TV版本、官方影片形式、發行收錄與正版平台再補；歷代影片與商品不自動造新歌曲或錄音。",
-          "checkedAt": "2026-10-22"
+          "note": "〈星合〉：本輪第一方逐曲標題／說明已明ED，與中文原TV話數及首播日期交叉核對；原TV ED62（第977～992話），已確認用途季度2020-summer／2020-fall。只記正式演唱名義，團員／starring不推為逐人vocals；影片上傳、商品與演唱會日期不作TV用曲日期。詳細欄位沿2026-10-22缺口，本輪未重查。",
+          "resumeWhen": "基本身分、精確OP／ED及所列季度已核；詳細階段沿原期來源，待第一方逐曲明示尚缺詞曲編／個別實唱、音源full／TV版本、官方影片形式、發行收錄與正版平台再補。用途文字來源不自動新增影片、錄音或歌曲。",
+          "checkedAt": "2026-11-05"
         }
       ],
-      "lastVerifiedAt": "2026-10-22"
+      "lastVerifiedAt": "2026-11-05"
     },
     {
       "id": "meitantei-conan-ed-61",

@@ -1,4 +1,4 @@
-import type { CuratedAnimeSeed } from "@/data/curated-seeds/types";
+import type { CuratedAnimeSeed, CuratedCatalogAnimeSeed } from "@/data/curated-seeds/types";
 
 type Spring2020SeedInput = Omit<
   CuratedAnimeSeed,
@@ -9004,111 +9004,806 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
   ]
 }),
   spring2020Seed({
-    anilistId: 109020,
-    slug: "yesterday-wo-utatte",
-    startDate: "2020-04-05",
-    titleJa: "イエスタデイをうたって",
-    titleZhHant: "昨日之歌",
-    titleRomaji: "Yesterday wo Utatte",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109020-sRBusiVXbsLH.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/109020-TclHkkKtYgcQ.jpg",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl: "https://singyesterday.com/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/110",
-      "https://acgsecrets.hk/bangumi/202004/",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/yesterday_wo_utatte",
-    themes: [
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "籠の中に鳥",
-        artistDisplayName: "ユアネス",
-      },
-      {
-        type: "ED",
-        sequence: 2,
-        titleJa: "葵橋",
-        artistDisplayName: "さユり",
-      },
-      {
-        type: "ED",
-        sequence: 3,
-        titleJa: "イエスタデイをうたって",
-        artistDisplayName: "agehasprings feat あにー(TaNaBaTa)",
-      },
-    ],
-  }),
+  "anilistId": 109020,
+  "slug": "yesterday-wo-utatte",
+  "startDate": "2020-04-05",
+  "titleJa": "イエスタデイをうたって",
+  "titleZhHant": "昨日之歌",
+  "titleRomaji": "Yesterday wo Utatte",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109020-sRBusiVXbsLH.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/109020-TclHkkKtYgcQ.jpg",
+  "broadcastLabel": "日本TV：2020年春；本編全12話、獨立配信全6話另分。正版U-NEXT本編scene01等23分鐘，獨立短篇1–2分鐘；ABEMA為地上波同時・獨占先行配信。",
+  "officialSiteUrl": "https://singyesterday.com/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/110",
+    "https://acgsecrets.hk/bangumi/202004/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/yesterday_wo_utatte",
+  "themes": [
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "籠の中に鳥",
+      "artistDisplayName": "ユアネス",
+      "id": "yesterday-wo-utatte-ed-1",
+      "sourceMode": "explicit",
+      "lastVerifiedAt": "2026-11-05",
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://singyesterday.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/yesterday_wo_utatte",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "YOURNESS 官方影片",
+          "url": "https://www.youtube.com/watch?v=5CklZVlT7Hs",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://f.irbank.net/pr/20200730/140120200730469808.pdf",
+          "label": "ハピネット2020/7/30原發行公告：三首主題歌曲名；非逐曲ED證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://yourness.jp/biography/",
+          "label": "ユアネス官方BIOGRAPHY：籠の中に鳥為本作ED",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://www.animatetimes.com/tag/details.php?id=9332",
+          "label": "Animate Times：原2020春三首ED及演唱名義交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "credits": [
+        {
+          "name": "ユアネス",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "yesterday-wo-utatte-ed-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://f.irbank.net/pr/20200730/140120200730469808.pdf"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "yesterday-wo-utatte-ed-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://yourness.jp/biography/"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "song",
+          "targetId": "yesterday-wo-utatte-ed-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/tag/details.php?id=9332"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "yesterday-wo-utatte-ed-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/tag/details.php?id=9332"
+          ],
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "songId": "yesterday-wo-utatte-ed-1-song",
+      "usageLabel": "原2020春TV ED；ユアネス官方明示籠の中に鳥為ED，獨立配信短篇用途另核"
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "葵橋",
+      "artistDisplayName": "さユり",
+      "id": "yesterday-wo-utatte-ed-2",
+      "sourceMode": "explicit",
+      "lastVerifiedAt": "2026-11-05",
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://singyesterday.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/yesterday_wo_utatte",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "酸欠少女 さユり(Sanketsu-girl Sayuri) 官方影片",
+          "url": "https://www.youtube.com/watch?v=zHi6AeKaH2U",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/sayuri/info/518881",
+          "label": "さユり官方2020/5/21公告：葵橋為第二弾主題歌，未明示ED",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://prtimes.jp/a/?c=53331&f=d53331-4-pdf-0.pdf&r=4",
+          "label": "動畫PR事務局2020/5/16原公告：本編12話與獨立配信6話；葵橋為第二弾主題歌",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://www.animatetimes.com/tag/details.php?id=9332",
+          "label": "Animate Times：原2020春三首ED及演唱名義交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "credits": [
+        {
+          "name": "さユり",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "yesterday-wo-utatte-ed-2-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/sayuri/info/518881"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "song",
+          "targetId": "yesterday-wo-utatte-ed-2-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/tag/details.php?id=9332"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "yesterday-wo-utatte-ed-2",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/tag/details.php?id=9332"
+          ],
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "seasonIds": [],
+      "songId": "yesterday-wo-utatte-ed-2-song",
+      "usageLabel": "原ED2入口保留；第一方僅明示葵橋為第二弾主題歌，精確ED與用途季度待核",
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters"
+          ],
+          "note": "第一方さユり公告及動畫PR事務局均寫第二弾主題歌，未明示ED；外部逐曲表列ED2。保留原用途ID，季度暫空。",
+          "resumeWhen": "待原期製播方或官方片尾字幕直接明示本曲ED及正式演唱名義，再補第一方逐欄證據和實際季度；本輪兩次定向查找已止，不以一般主題歌或封存站首頁推定。",
+          "checkedAt": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 3,
+      "titleJa": "イエスタデイをうたって",
+      "artistDisplayName": "agehasprings feat あにー(TaNaBaTa)",
+      "id": "yesterday-wo-utatte-ed-3",
+      "sourceMode": "explicit",
+      "lastVerifiedAt": "2026-11-05",
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://singyesterday.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/yesterday_wo_utatte",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://f.irbank.net/pr/20200730/140120200730469808.pdf",
+          "label": "ハピネット2020/7/30原發行公告：三首主題歌曲名；非逐曲ED證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://www.animatetimes.com/tag/details.php?id=9332",
+          "label": "Animate Times：原2020春三首ED及演唱名義交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "credits": [
+        {
+          "name": "agehasprings feat あにー(TaNaBaTa)",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://f.irbank.net/pr/20200730/140120200730469808.pdf"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "yesterday-wo-utatte-ed-3-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/tag/details.php?id=9332"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "yesterday-wo-utatte-ed-3-song"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "yesterday-wo-utatte-ed-3",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/tag/details.php?id=9332"
+          ],
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "seasonIds": [],
+      "usageLabel": "原ED3入口及既有演唱名義保留；第一方曲名可核，精確ED及feat.／feats.名義對應待核",
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters"
+          ],
+          "note": "ハピネット原公告列同名cover主題歌及agehasprings feats. あにー(TaNaBaTa)，與舊feat.名義有差異；外部表列ED3，第一方精確ED未明。原演唱名義、用途ID保留，歌曲識別只連結既有資料，正式名義仍待核，季度暫空。",
+          "resumeWhen": "待原期製播方或官方片尾字幕直接明示本曲ED及正式演唱名義，再補第一方逐欄證據和實際季度；本輪兩次定向查找已止，不以一般主題歌或封存站首頁推定。",
+          "checkedAt": "2026-11-05"
+        }
+      ],
+      "songId": "yesterday-wo-utatte-ed-3-song"
+    }
+  ],
+  "metadataVerifiedAt": "2026-11-05",
+  "metadataSources": [
+    {
+      "label": "動畫官方網站：作品與播出資料",
+      "url": "https://singyesterday.com/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "AniList：作品識別與公開圖像",
+      "url": "https://anilist.co/anime/109020",
+      "language": "en",
+      "role": "identifier",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "繁體中文季度列表交叉對照",
+      "url": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+      "language": "zh-Hant",
+      "role": "localized_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "AnimeThemes：OP／ED 曲目交叉核對",
+      "url": "https://animethemes.moe/anime/yesterday_wo_utatte",
+      "language": "en",
+      "role": "theme_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://youranimes.tw/animes/110",
+      "language": "zh-Hant",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://acgsecrets.hk/bangumi/202004/",
+      "language": "zh-Hant",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "url": "https://www.video.unext.jp/title/SID0047143",
+      "label": "正版U-NEXT原2020版：本編scene01等23分鐘，獨立配信scene01／02為1／2分鐘",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://prtimes.jp/a/?c=53331&f=d53331-4-pdf-0.pdf&r=4",
+      "label": "動畫PR事務局2020/5/16原公告：本編12話與獨立配信6話；葵橋為第二弾主題歌",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    }
+  ]
+}),
   spring2020Seed({
-    anilistId: 111310,
-    slug: "mewkledreamy",
-    startDate: "2020-04-05",
-    titleJa: "ミュークルドリーミー",
-    titleZhHant: "夢夢貓",
-    titleRomaji: "Mewkledreamy",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111310-KTLldElz3BSp.png",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/111310-5MdRG9K0IGkZ.jpg",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl: "https://www.tv-tokyo.co.jp/anime/mewkledreamy/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/2994",
-      "https://acgsecrets.hk/bangumi/202004/",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/mewkledreamy",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "ミライくるくるユメくるる！",
-        artistDisplayName: "澤田真里愛",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "トキメキコレクター",
-        artistDisplayName: "澤田真里愛",
-      },
-    ],
-  }),
+  "anilistId": 111310,
+  "slug": "mewkledreamy",
+  "startDate": "2020-04-05",
+  "titleJa": "ミュークルドリーミー",
+  "titleZhHant": "夢夢貓",
+  "titleRomaji": "Mewkledreamy",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111310-KTLldElz3BSp.png",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/111310-5MdRG9K0IGkZ.jpg",
+  "broadcastLabel": "日本TV原首話：テレビ東京2020-04-05（日）10:30–11:00，30分鐘獨立節目槽（非動畫淨片長）。2020原版與「みっくす」另分。",
+  "officialSiteUrl": "https://www.tv-tokyo.co.jp/anime/mewkledreamy/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/2994",
+    "https://acgsecrets.hk/bangumi/202004/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/mewkledreamy",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "ミライくるくるユメくるる！",
+      "artistDisplayName": "澤田真里愛",
+      "id": "mewkledreamy-op-1",
+      "sourceMode": "explicit",
+      "lastVerifiedAt": "2026-11-05",
+      "sources": [
+        {
+          "label": "《夢夢貓》第一方歌曲資料：曲名與演唱者",
+          "url": "https://www.tv-tokyo.co.jp/anime/mewkledreamy/staff/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/mewkledreamy",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "ミュークルドリーミー 官方影片",
+          "url": "https://www.youtube.com/watch?v=Dwx78HouB60",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/mewkledreamy/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202004/25858_202004051030.html",
+          "label": "テレビ東京原首話：2020/4/5 10:30–11:00獨立節目槽及兩曲OP／ED、澤田真里愛",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://www.billboard-japan.com/goods/detail/646420",
+          "label": "Billboard JAPAN：原2020春兩曲OP／ED、澤田真里愛交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "credits": [
+        {
+          "name": "澤田真里愛",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "mewkledreamy-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202004/25858_202004051030.html"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "mewkledreamy-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202004/25858_202004051030.html"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "song",
+          "targetId": "mewkledreamy-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.billboard-japan.com/goods/detail/646420"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "mewkledreamy-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.billboard-japan.com/goods/detail/646420"
+          ],
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "songId": "mewkledreamy-op-1-song",
+      "usageLabel": "原2020年TV OP；2020-04-05首話已核，後續跨季逐曲用途另核",
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters"
+          ],
+          "note": "原2020版首話及2020春用途已核。長篇後續2020夏／秋與2021冬的逐曲延用尚待原期證據，不由全劇期間推算。",
+          "resumeWhen": "待原期後續季度的節目音樂欄、逐話片尾或製播方逐曲公告可讀，再逐季補用曲範圍；不套用「みっくす」。",
+          "checkedAt": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "トキメキコレクター",
+      "artistDisplayName": "澤田真里愛",
+      "id": "mewkledreamy-ed-1",
+      "sourceMode": "explicit",
+      "lastVerifiedAt": "2026-11-05",
+      "sources": [
+        {
+          "label": "《夢夢貓》第一方歌曲資料：曲名與演唱者",
+          "url": "https://www.tv-tokyo.co.jp/anime/mewkledreamy/staff/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/mewkledreamy",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "ミュークルドリーミー 官方影片",
+          "url": "https://www.youtube.com/watch?v=0_DemCGTn-U",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.tv-tokyo.co.jp/anime/mewkledreamy/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202004/25858_202004051030.html",
+          "label": "テレビ東京原首話：2020/4/5 10:30–11:00獨立節目槽及兩曲OP／ED、澤田真里愛",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://www.billboard-japan.com/goods/detail/646420",
+          "label": "Billboard JAPAN：原2020春兩曲OP／ED、澤田真里愛交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "credits": [
+        {
+          "name": "澤田真里愛",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "mewkledreamy-ed-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202004/25858_202004051030.html"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "mewkledreamy-ed-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202004/25858_202004051030.html"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "song",
+          "targetId": "mewkledreamy-ed-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.billboard-japan.com/goods/detail/646420"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "mewkledreamy-ed-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.billboard-japan.com/goods/detail/646420"
+          ],
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "songId": "mewkledreamy-ed-1-song",
+      "usageLabel": "原2020年TV ED；2020-04-05首話已核，後續跨季逐曲用途另核",
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters"
+          ],
+          "note": "原2020版首話及2020春用途已核。長篇後續2020夏／秋與2021冬的逐曲延用尚待原期證據，不由全劇期間推算。",
+          "resumeWhen": "待原期後續季度的節目音樂欄、逐話片尾或製播方逐曲公告可讀，再逐季補用曲範圍；不套用「みっくす」。",
+          "checkedAt": "2026-11-05"
+        }
+      ]
+    }
+  ],
+  "metadataVerifiedAt": "2026-11-05",
+  "metadataSources": [
+    {
+      "label": "動畫官方網站：作品與播出資料",
+      "url": "https://www.tv-tokyo.co.jp/anime/mewkledreamy/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "AniList：作品識別與公開圖像",
+      "url": "https://anilist.co/anime/111310",
+      "language": "en",
+      "role": "identifier",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "繁體中文季度列表交叉對照",
+      "url": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+      "language": "zh-Hant",
+      "role": "localized_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "AnimeThemes：OP／ED 曲目交叉核對",
+      "url": "https://animethemes.moe/anime/mewkledreamy",
+      "language": "en",
+      "role": "theme_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://youranimes.tw/animes/2994",
+      "language": "zh-Hant",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://acgsecrets.hk/bangumi/202004/",
+      "language": "zh-Hant",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202004/25858_202004051030.html",
+      "label": "テレビ東京原首話：2020/4/5 10:30–11:00獨立節目槽及兩曲OP／ED、澤田真里愛",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    }
+  ],
+  "broadcastTimeJst": "10:30"
+}),
   spring2020Seed({
-    anilistId: 111323,
-    slug: "gal-to-kyouryuu",
-    startDate: "2020-04-05",
-    titleJa: "ギャルと恐竜",
-    titleZhHant: "辣妹與恐龍",
-    titleRomaji: "Gal to Kyouryuu",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111323-quqYgAchD9PM.png",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/111323-6VubjN9ROpKb.jpg",
-    broadcastLabel: "日本首播／受疫情影響曾延期或停播",
-    officialSiteUrl: "https://www.galkyo.com/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/372",
-      "https://acgsecrets.hk/bangumi/202004/",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/gal_to_kyouryuu",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "恐竜あげみざわ☆",
-        artistDisplayName:
-          "恐竜フレンズ [楓 (CV.島袋美由利)、山田 (CV.夏吉ゆうこ)、先パイ (CV.工藤夕希)、翔太 (CV.山下誠一郎)]",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "Peaceful Days",
-        artistDisplayName: "高橋竜子 (高橋洋子)",
-      },
-    ],
-  }),
+  "anilistId": 111323,
+  "slug": "gal-to-kyouryuu",
+  "startDate": "2020-04-05",
+  "titleJa": "ギャルと恐竜",
+  "titleZhHant": "辣妹與恐龍",
+  "titleRomaji": "Gal to Kyouryuu",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111323-quqYgAchD9PM.png",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/111323-6VubjN9ROpKb.jpg",
+  "broadcastLabel": "日本TV混合形式：前半動畫／後半實寫；原2020-04-04（土）25:00–25:30 MX等為全節目槽，非動畫淨片長。動畫本體分鐘仍待直接資料；アニマックス特別版另分。",
+  "officialSiteUrl": "https://www.galkyo.com/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/372",
+    "https://acgsecrets.hk/bangumi/202004/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/gal_to_kyouryuu",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "恐竜あげみざわ☆",
+      "artistDisplayName": "恐竜フレンズ [楓 (CV.島袋美由利)、山田 (CV.夏吉ゆうこ)、先パイ (CV.工藤夕希)、翔太 (CV.山下誠一郎)]"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "Peaceful Days",
+      "artistDisplayName": "高橋竜子 (高橋洋子)"
+    }
+  ],
+  "metadataVerifiedAt": "2026-11-05",
+  "metadataSources": [
+    {
+      "label": "動畫官方網站：作品與播出資料",
+      "url": "https://www.galkyo.com/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "AniList：作品識別與公開圖像",
+      "url": "https://anilist.co/anime/111323",
+      "language": "en",
+      "role": "identifier",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "繁體中文季度列表交叉對照",
+      "url": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+      "language": "zh-Hant",
+      "role": "localized_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "AnimeThemes：OP／ED 曲目交叉核對",
+      "url": "https://animethemes.moe/anime/gal_to_kyouryuu",
+      "language": "en",
+      "role": "theme_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://youranimes.tw/animes/372",
+      "language": "zh-Hant",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://acgsecrets.hk/bangumi/202004/",
+      "language": "zh-Hant",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "url": "https://times.abema.tv/articles/-/7054395",
+      "label": "ABEMA原2020/5/18報道：同版動畫／實寫分段，16分附近為內容點位而非動畫片長",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://dengekionline.com/articles/28201/",
+      "label": "電撃原2020/3/4報道：前半動畫／後半實寫的30分鐘節目，特別版另分",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    }
+  ]
+}),
   spring2020Seed({
   "anilistId": 113570,
   "slug": "shachou-battle-no-jikan-desu",
@@ -22033,47 +22728,448 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
     ],
   }),
   spring2020Seed({
-    anilistId: 115656,
-    slug: "cardfight-vanguard-gaiden-if",
-    startDate: "2020-05-30",
-    titleJa: "カードファイト!! ヴァンガード外伝 イフ-if-",
-    titleZhHant: "卡片戰鬥!! 先導者 外傳 -if-",
-    titleRomaji: "Cardfight!! Vanguard Gaiden: if",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115656-Dt4eRb2enm3p.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/115656-tNhjPXB3FYfa.jpg",
-    broadcastLabel: "日本首播／受疫情影響曾延期或停播",
-    officialSiteUrl: "https://www.bs-tvtokyo.co.jp/cf-vanguard-if/",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/147",
-      "https://acgsecrets.hk/bangumi/202004/",
-    ],
-    animeThemesUrl:
-      "https://animethemes.moe/anime/cardfight_vanguard_gaiden_if",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "What-if Wonderland!!",
-        artistDisplayName: "Argonavis",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "Gonna be right",
-        artistDisplayName:
-          "Peaky P-key [山手響子 (CV.愛美)、犬寄しのぶ (CV.高木美佑)、笹子・ジェニファー・由香 (CV.小泉萌香)、清水絵空 (CV.倉知玲鳳)]",
-      },
-      {
-        type: "ED",
-        sequence: 2,
-        titleJa: "Horizontal Oath",
-        artistDisplayName:
-          "燐舞曲 [青柳椿 (CV.加藤里保菜)、月見山渚 (CV.大塚紗英)、矢野緋彩 (CV.もものはるな)、三宅葵依 (CV.つんこ)]",
-      },
-    ],
-  }),
+  "anilistId": 115656,
+  "slug": "cardfight-vanguard-gaiden-if",
+  "startDate": "2020-05-30",
+  "titleJa": "カードファイト!! ヴァンガード外伝 イフ-if-",
+  "titleZhHant": "卡片戰鬥!! 先導者 外傳 -if-",
+  "titleRomaji": "Cardfight!! Vanguard Gaiden: if",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115656-Dt4eRb2enm3p.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/115656-tNhjPXB3FYfa.jpg",
+  "broadcastLabel": "日本TV原首播：2020-05-30（土）08:00起テレビ愛知／テレビ東京系，原槽08:00–08:30；正版U-NEXT第1～10話各25分鐘。配信23:30另列，與其他ヴァンガード期別分開。",
+  "officialSiteUrl": "https://www.bs-tvtokyo.co.jp/cf-vanguard-if/",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/147",
+    "https://acgsecrets.hk/bangumi/202004/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/cardfight_vanguard_gaiden_if",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "What-if Wonderland!!",
+      "artistDisplayName": "Argonavis",
+      "id": "cardfight-vanguard-gaiden-if-op-1",
+      "songId": "cardfight-vanguard-gaiden-if-op-1-song",
+      "credits": [
+        {
+          "name": "Argonavis",
+          "role": "vocals"
+        }
+      ],
+      "sourceMode": "explicit",
+      "lastVerifiedAt": "2026-11-05",
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.bs-tvtokyo.co.jp/cf-vanguard-if/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/cardfight_vanguard_gaiden_if",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "Argonavis 官方影片",
+          "url": "https://www.youtube.com/watch?v=4Fm-jrS_w04",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000002983.000014827.html",
+          "label": "ブシロード原2020/5/29公告：5/30 TV首播、初期OP／ED及正式團體名義",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://animemusicranking.com/ja/series/123/",
+          "label": "アニソンチャート本イフ段：三首精確OP／ED、曲名及團體名義交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://www.animatetimes.com/news/details.php?id=1596763061",
+          "label": "Animate Times原2020/8/7第11話公告：初期OP／ED名義交叉，非逐話片尾字幕",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "cardfight-vanguard-gaiden-if-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000002983.000014827.html"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "cardfight-vanguard-gaiden-if-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000002983.000014827.html"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "song",
+          "targetId": "cardfight-vanguard-gaiden-if-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://animemusicranking.com/ja/series/123/"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "cardfight-vanguard-gaiden-if-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animemusicranking.com/ja/series/123/"
+          ],
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "usageLabel": "原イフTV OP；2020-05-30起原春季已核，後續跨季逐曲用途待核",
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters"
+          ],
+          "note": "原5/29首播公告及正式OP／ED支持2020春；8/7外部第11話報道仍列初期兩曲，但未取得後續夏／秋的直接逐曲範圍，不以全劇期間補所有季度。",
+          "resumeWhen": "待原期官方逐曲切換公告、明確話數片尾或製播方用曲範圍可讀，再與原播日期逐季對應；本輪歌曲兩次定向查找已止，503來源不重試或繞過。",
+          "checkedAt": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "Gonna be right",
+      "artistDisplayName": "Peaky P-key",
+      "id": "cardfight-vanguard-gaiden-if-ed-1",
+      "songId": "cardfight-vanguard-gaiden-if-ed-1-song",
+      "credits": [
+        {
+          "name": "Peaky P-key [山手響子 (CV.愛美)、犬寄しのぶ (CV.高木美佑)、笹子・ジェニファー・由香 (CV.小泉萌香)、清水絵空 (CV.倉知玲鳳)]",
+          "role": "vocals"
+        }
+      ],
+      "sourceMode": "explicit",
+      "lastVerifiedAt": "2026-11-05",
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.bs-tvtokyo.co.jp/cf-vanguard-if/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/cardfight_vanguard_gaiden_if",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "Peaky P-key 官方影片",
+          "url": "https://www.youtube.com/watch?v=1IQQ8vcYab4",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://d4dj-pj.com/news/20200529/post-328",
+          "label": "D4DJ原2020/5/29公告：Gonna be right／Peaky P-key為本期ED，5/30起TV",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://animemusicranking.com/ja/series/123/",
+          "label": "アニソンチャート本イフ段：三首精確OP／ED、曲名及團體名義交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://www.animatetimes.com/news/details.php?id=1596763061",
+          "label": "Animate Times原2020/8/7第11話公告：初期OP／ED名義交叉，非逐話片尾字幕",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "cardfight-vanguard-gaiden-if-ed-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://d4dj-pj.com/news/20200529/post-328"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "cardfight-vanguard-gaiden-if-ed-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://d4dj-pj.com/news/20200529/post-328"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "song",
+          "targetId": "cardfight-vanguard-gaiden-if-ed-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://animemusicranking.com/ja/series/123/"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "cardfight-vanguard-gaiden-if-ed-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animemusicranking.com/ja/series/123/"
+          ],
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "usageLabel": "原イフTV ED；2020-05-30起原春季已核，後續跨季逐曲用途待核",
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters"
+          ],
+          "note": "原5/29首播公告及正式OP／ED支持2020春；8/7外部第11話報道仍列初期兩曲，但未取得後續夏／秋的直接逐曲範圍，不以全劇期間補所有季度。",
+          "resumeWhen": "待原期官方逐曲切換公告、明確話數片尾或製播方用曲範圍可讀，再與原播日期逐季對應；本輪歌曲兩次定向查找已止，503來源不重試或繞過。",
+          "checkedAt": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "Horizontal Oath",
+      "artistDisplayName": "燐舞曲",
+      "id": "cardfight-vanguard-gaiden-if-ed-2",
+      "songId": "cardfight-vanguard-gaiden-if-ed-2-song",
+      "credits": [
+        {
+          "name": "燐舞曲 [青柳椿 (CV.加藤里保菜)、月見山渚 (CV.大塚紗英)、矢野緋彩 (CV.もものはるな)、三宅葵依 (CV.つんこ)]",
+          "role": "vocals"
+        }
+      ],
+      "sourceMode": "explicit",
+      "lastVerifiedAt": "2026-11-05",
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.bs-tvtokyo.co.jp/cf-vanguard-if/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/cardfight_vanguard_gaiden_if",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "燐舞曲 官方影片",
+          "url": "https://www.youtube.com/watch?v=pW3oE68yuaM",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://tv-aichi.co.jp/cf-vanguard/if/staff/",
+          "label": "テレビ愛知原イフstaff：OP What-if Wonderland!!／Argonavis及ED Horizontal Oath／燐舞曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://animemusicranking.com/ja/series/123/",
+          "label": "アニソンチャート本イフ段：三首精確OP／ED、曲名及團體名義交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "cardfight-vanguard-gaiden-if-ed-2-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://tv-aichi.co.jp/cf-vanguard/if/staff/"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "cardfight-vanguard-gaiden-if-ed-2",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://tv-aichi.co.jp/cf-vanguard/if/staff/"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "song",
+          "targetId": "cardfight-vanguard-gaiden-if-ed-2-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://animemusicranking.com/ja/series/123/"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "cardfight-vanguard-gaiden-if-ed-2",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animemusicranking.com/ja/series/123/"
+          ],
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "seasonIds": [],
+      "usageLabel": "原イフTV後期ED；官方staff明Horizontal Oath／燐舞曲，啟用日期與實際用途季度待核",
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters"
+          ],
+          "note": "官方staff明本曲ED，外部本期表列ED2；未取得原期啟用公告或明確話數字幕，現行節目模板與CD發售日期不足以定季度。保留原ID，季度暫空。",
+          "resumeWhen": "待原期官方逐曲切換公告、明確話數片尾或製播方用曲範圍可讀，再與原播日期逐季對應；本輪歌曲兩次定向查找已止，503來源不重試或繞過。",
+          "checkedAt": "2026-11-05"
+        }
+      ]
+    }
+  ],
+  "metadataVerifiedAt": "2026-11-05",
+  "metadataSources": [
+    {
+      "label": "動畫官方網站：作品與播出資料",
+      "url": "https://www.bs-tvtokyo.co.jp/cf-vanguard-if/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "AniList：作品識別與公開圖像",
+      "url": "https://anilist.co/anime/115656",
+      "language": "en",
+      "role": "identifier",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "繁體中文季度列表交叉對照",
+      "url": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+      "language": "zh-Hant",
+      "role": "localized_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "AnimeThemes：OP／ED 曲目交叉核對",
+      "url": "https://animethemes.moe/anime/cardfight_vanguard_gaiden_if",
+      "language": "en",
+      "role": "theme_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://youranimes.tw/animes/147",
+      "language": "zh-Hant",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://acgsecrets.hk/bangumi/202004/",
+      "language": "zh-Hant",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "url": "https://www.video.unext.jp/title/SID0047377",
+      "label": "正版U-NEXT原2020イフ：可讀第1～10話各25分鐘",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://tv-aichi.co.jp/cf-vanguard/if/onair/",
+      "label": "テレビ愛知原イフOA：週六08:00–08:30獨立槽、23:30配信另列",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000002983.000014827.html",
+      "label": "ブシロード原2020/5/29公告：5/30 TV首播、初期OP／ED及正式團體名義",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    }
+  ],
+  "broadcastTimeJst": "08:00"
+}),
   spring2020Seed({
     anilistId: 110349,
     slug: "great-pretender",
@@ -22328,9 +23424,337 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
 }),
 ];
 
-export const curated2020SpringSeeds: CuratedAnimeSeed[] =
-  curated2020SpringSeedRows;
+export const curated2020SpringSeeds: CuratedCatalogAnimeSeed[] = [
+  ...curated2020SpringSeedRows,
+{
+  "catalogKey": -2020041201,
+  "id": "curated-tsuburaya-ultraman-tv-2020",
+  "slug": "ultraman-tv-2020",
+  "seasonIds": [
+    "2020-spring"
+  ],
+  "verifiedAt": "2026-11-05",
+  "metadataVerifiedAt": "2026-11-05",
+  "titleJa": "ULTRAMAN",
+  "startDate": "2020-04-12",
+  "editorialWeekday": 7,
+  "broadcastTimeJst": "23:00",
+  "broadcastLabel": "原第1系列2019年4月Netflix配信；日本TV版2020-04-12起TOKYO MX週日23:00–23:30（JST）。此入口日期為首次TV，30分鐘為完整節目槽而非淨片長；與Season 2／FINAL分開。",
+  "status": "finished",
+  "officialSiteUrl": "https://anime.heros-ultraman.com/music/",
+  "identifierSource": {
+    "url": "https://prtimes.jp/main/html/rd/p/000000089.000033128.html",
+    "label": "円谷官方：原第1系列與2020日本TV版本識別",
+    "language": "ja"
+  },
+  "sourceReferenceUrls": [
+    "https://prtimes.jp/main/html/rd/p/000000089.000033128.html",
+    "https://s.mxtv.jp/company/press/press2019_900001.pdf",
+    "https://skream.jp/news/2020/07/void_chords_interview.php"
+  ],
+  "metadataSources": [
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000000089.000033128.html",
+      "label": "円谷官方：原第1系列、2019配信與2020首次TV身分",
+      "language": "ja",
+      "role": "identifier",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://anime.heros-ultraman.com/music/",
+      "label": "第1系列TV版與Netflix版分列的官方音樂頁",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://s.mxtv.jp/company/press/press2019_900001.pdf",
+      "label": "TOKYO MX 2020春官方表：4/12起週日23:00–23:30完整TV槽",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://skream.jp/news/2020/07/void_chords_interview.php",
+      "label": "第1系列TV OP／ED交叉核對",
+      "language": "ja",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-11-05"
+    }
+  ],
+  "themes": [
+    {
+      "id": "ultraman-tv-2020-op-1",
+      "songId": "ultraman-tv-2020-op-1-song",
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "Core Fade",
+      "artistDisplayName": "OLDCODEX",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "usageLabel": "原系列第1期・2020年日本TV放送版",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://anime.heros-ultraman.com/music/",
+          "label": "第1期官方音樂：曲名、演唱及OP／ED用途",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://skream.jp/news/2020/07/void_chords_interview.php",
+          "label": "2020 TV原系列曲名、完整演唱名義及OP／ED交叉核對",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000089.000033128.html",
+          "label": "原系列與2020年TV播出對應：第一方公告",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "credits": [
+        {
+          "name": "OLDCODEX",
+          "role": "vocals"
+        },
+        {
+          "name": "YORKE.",
+          "role": "lyrics"
+        },
+        {
+          "name": "Ta_2",
+          "role": "composition"
+        },
+        {
+          "name": "eba",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://anime.heros-ultraman.com/music/"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "ultraman-tv-2020-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://anime.heros-ultraman.com/music/",
+            "https://prtimes.jp/main/html/rd/p/000000089.000033128.html"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "ultraman-tv-2020-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://skream.jp/news/2020/07/void_chords_interview.php"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "ultraman-tv-2020-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://skream.jp/news/2020/07/void_chords_interview.php"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "ultraman-tv-2020-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://anime.heros-ultraman.com/music/"
+          ],
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters"
+          ],
+          "note": "已確認所列2020 TV首播季度；其他季度逐曲用途尚未核對，不由集數、重播或商品日期擴張。",
+          "resumeWhen": "有第一方逐話日期及本曲實際用途，或明確續用公告時補入其他季度。",
+          "checkedAt": "2026-11-05"
+        },
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "本次核對曲名、演唱與TV用途；音源版本、影片形式、完整發行品及確切正版平台仍未整理。",
+          "resumeWhen": "進入詳細資料階段後，依本曲正式音源、影片、發行品及平台目的頁補入。"
+        }
+      ]
+    },
+    {
+      "id": "ultraman-tv-2020-ed-1",
+      "songId": "ultraman-tv-2020-ed-1-song",
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "my ID",
+      "artistDisplayName": "Void_Chords feat. Ryohei & Foggy-D",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "usageLabel": "原系列第1期・2020年日本TV放送版",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://anime.heros-ultraman.com/music/",
+          "label": "第1期官方音樂：曲名、演唱及OP／ED用途",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://skream.jp/news/2020/07/void_chords_interview.php",
+          "label": "2020 TV原系列曲名、完整演唱名義及OP／ED交叉核對",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000089.000033128.html",
+          "label": "原系列與2020年TV播出對應：第一方公告",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Void_Chords feat. Ryohei & Foggy-D",
+          "role": "vocals"
+        },
+        {
+          "name": "Konnie Aoki",
+          "role": "lyrics"
+        },
+        {
+          "name": "高橋諒",
+          "role": "composition"
+        },
+        {
+          "name": "高橋諒",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://anime.heros-ultraman.com/music/"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "ultraman-tv-2020-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://anime.heros-ultraman.com/music/",
+            "https://prtimes.jp/main/html/rd/p/000000089.000033128.html"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "ultraman-tv-2020-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://skream.jp/news/2020/07/void_chords_interview.php"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "ultraman-tv-2020-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://skream.jp/news/2020/07/void_chords_interview.php"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "ultraman-tv-2020-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://anime.heros-ultraman.com/music/"
+          ],
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters"
+          ],
+          "note": "已確認所列2020 TV首播季度；其他季度逐曲用途尚未核對，不由集數、重播或商品日期擴張。",
+          "resumeWhen": "有第一方逐話日期及本曲實際用途，或明確續用公告時補入其他季度。",
+          "checkedAt": "2026-11-05"
+        },
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "本次核對曲名、演唱與TV用途；音源版本、影片形式、完整發行品及確切正版平台仍未整理。",
+          "resumeWhen": "進入詳細資料階段後，依本曲正式音源、影片、發行品及平台目的頁補入。"
+        }
+      ]
+    }
+  ]
+},
+];
 
-export const curated2020SpringAnimeIds = [...curated2020SpringSeeds.map(
+export const curated2020SpringAnimeIds = [...curated2020SpringSeedRows.map(
   ({ anilistId }) => anilistId,
-), 8687, 966, 6149];
+), 8687, 966, 6149, -2020041201];

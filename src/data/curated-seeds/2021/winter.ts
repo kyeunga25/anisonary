@@ -502,7 +502,570 @@ const curated2021WinterSeedRows: CuratedAnimeSeed[] = [
   {"anilistId":112443,"id":"curated-112443","slug":"jaku-chara-tomozaki-kun","seasonIds":["2021-winter"],"startDate":"2021-01-08","titleJa":"弱キャラ友崎くん","titleZhHant":"弱角友崎同學","titleRomaji":"Jaku-Chara Tomozaki-kun","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112443-UVB1oKdblsIx.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/112443-w44XlUOHN5kh.jpg","editorialWeekday":5,"broadcastLabel":"原TV精確首日／時分待第一方核實；既有首日僅保留為候選。","status":"finished","officialSiteUrl":"https://tomozaki-koushiki.com/","anilistUrl":"https://anilist.co/anime/112443","imageSourceUrl":"https://anilist.co/anime/112443","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://youranimes.tw/animes/731","https://acgsecrets.hk/anime/684/","https://annict.com/works/7001"],"animeThemesUrl":"https://animethemes.moe/anime/jaku_chara_tomozaki_kun","themes":[{"type":"OP","sequence":1,"titleJa":"人生イージー？","titleRomaji":"Jinsei Easy?","artistDisplayName":"DIALOGUE+","id":"jaku-chara-tomozaki-kun-op-1","songId":"jaku-chara-tomozaki-kun-op-1-song","sources":[{"label":"《弱角友崎同學》第一方歌曲資料：OP1 用途與演唱者","url":"https://tomozaki-koushiki.com/music/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/jaku_chara_tomozaki_kun","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"動畫官方網站","url":"https://tomozaki-koushiki.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://tomozaki-koushiki.com/music/01.php","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E5%BC%B1%E8%A7%92%E5%8F%8B%E5%B4%8E%E5%90%8C%E5%AD%B8","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://tomozaki-koushiki.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-winter"],"credits":[{"name":"田淵智也","role":"lyrics"},{"name":"田淵智也","role":"composition"},{"name":"田中秀和","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://tomozaki-koushiki.com/music/01.php"],"verifiedAt":"2026-10-23","targetId":"jaku-chara-tomozaki-kun-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://tomozaki-koushiki.com/music/01.php"],"verifiedAt":"2026-10-23","targetId":"jaku-chara-tomozaki-kun-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%BC%B1%E8%A7%92%E5%8F%8B%E5%B4%8E%E5%90%8C%E5%AD%B8"],"verifiedAt":"2026-10-23","targetId":"jaku-chara-tomozaki-kun-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%BC%B1%E8%A7%92%E5%8F%8B%E5%B4%8E%E5%90%8C%E5%AD%B8"],"verifiedAt":"2026-10-23","targetId":"jaku-chara-tomozaki-kun-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tomozaki-koushiki.com/music/01.php"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈人生イージー？〉：原期曲名、正式名義及本曲用途已核；季度依本期逐曲資料分派。 原TV精確首日／時分仍待第一方，既有首日僅保留為候選；已核季度與歌曲用途分開記錄。","resumeWhen":"待第一方本曲正式音源／版本關係可核，再補詳細資料； 取得原期官方原首播公告或播出局節目檔案明精確TV首日／時分後再補；不移植後續cour、串流或再播時刻。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":1,"titleJa":"あやふわアスタリスク","titleRomaji":"Ayafuwa Asterisk","artistDisplayName":"DIALOGUE+","id":"jaku-chara-tomozaki-kun-ed-1","songId":"jaku-chara-tomozaki-kun-ed-1-song","sources":[{"label":"《弱角友崎同學》第一方歌曲資料：ED1 用途與演唱者","url":"https://tomozaki-koushiki.com/music/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/jaku_chara_tomozaki_kun","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"動畫官方網站","url":"https://tomozaki-koushiki.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://tomozaki-koushiki.com/music/02.php","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E5%BC%B1%E8%A7%92%E5%8F%8B%E5%B4%8E%E5%90%8C%E5%AD%B8","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://tomozaki-koushiki.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-winter"],"credits":[{"name":"田淵智也","role":"lyrics"},{"name":"田淵智也","role":"composition"},{"name":"広川恵一","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://tomozaki-koushiki.com/music/02.php"],"verifiedAt":"2026-10-23","targetId":"jaku-chara-tomozaki-kun-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://tomozaki-koushiki.com/music/02.php"],"verifiedAt":"2026-10-23","targetId":"jaku-chara-tomozaki-kun-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%BC%B1%E8%A7%92%E5%8F%8B%E5%B4%8E%E5%90%8C%E5%AD%B8"],"verifiedAt":"2026-10-23","targetId":"jaku-chara-tomozaki-kun-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%BC%B1%E8%A7%92%E5%8F%8B%E5%B4%8E%E5%90%8C%E5%AD%B8"],"verifiedAt":"2026-10-23","targetId":"jaku-chara-tomozaki-kun-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tomozaki-koushiki.com/music/02.php"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈あやふわアスタリスク〉：原期曲名、正式名義及本曲用途已核；季度依本期逐曲資料分派。 原TV精確首日／時分仍待第一方，既有首日僅保留為候選；已核季度與歌曲用途分開記錄。","resumeWhen":"待第一方本曲正式音源／版本關係可核，再補詳細資料； 取得原期官方原首播公告或播出局節目檔案明精確TV首日／時分後再補；不移植後續cour、串流或再播時刻。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":2,"titleJa":"あやふわアスタリスク(for泉優鈴)","titleRomaji":"Ayafuwa Asterisk (for Yuzu Izumi)","artistDisplayName":"泉優鈴（CV：稗田寧々）","id":"jaku-chara-tomozaki-kun-ed-2","songId":"jaku-chara-tomozaki-kun-ed-2-song","sources":[{"label":"《弱角友崎同學》第一方歌曲資料：ED2 用途與演唱者","url":"https://tomozaki-koushiki.com/music/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/jaku_chara_tomozaki_kun","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"動畫官方網站","url":"https://tomozaki-koushiki.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://tomozaki-koushiki.com/music/04.php","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://tomozaki-koushiki.com/news/338/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E5%BC%B1%E8%A7%92%E5%8F%8B%E5%B4%8E%E5%90%8C%E5%AD%B8","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://tomozaki-koushiki.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":[],"credits":[{"name":"田淵智也","role":"lyrics"},{"name":"田淵智也","role":"composition"},{"name":"広川恵一","role":"arrangement"},{"name":"稗田寧々","role":"vocals"}],"evidence":[{"target":"song","fields":["title"],"sourceUrls":["https://tomozaki-koushiki.com/music/04.php"],"verifiedAt":"2026-10-23","targetId":"jaku-chara-tomozaki-kun-ed-2-song"},{"target":"song","fields":["artist"],"sourceUrls":["https://tomozaki-koushiki.com/news/338/"],"verifiedAt":"2026-10-23","targetId":"jaku-chara-tomozaki-kun-ed-2-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%BC%B1%E8%A7%92%E5%8F%8B%E5%B4%8E%E5%90%8C%E5%AD%B8"],"verifiedAt":"2026-10-23","targetId":"jaku-chara-tomozaki-kun-ed-2-song"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tomozaki-koushiki.com/music/04.php","https://tomozaki-koushiki.com/news/338/"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["basic_evidence","use_quarters","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈あやふわアスタリスク(for泉優鈴)〉：官方已列本角色版原名、歌唱與詞曲編，但尚缺原TV本曲精確片尾用途明文；暫不分派季度。 原TV精確首日／時分仍待第一方，既有首日僅保留為候選；已核季度與歌曲用途分開記錄。","resumeWhen":"待原期對應集數官方片尾署名或正式逐曲公告可正常讀取，再確認本角色版片尾用途；不由角色歌曲收錄推定。 取得原期官方原首播公告或播出局節目檔案明精確TV首日／時分後再補；不移植後續cour、串流或再播時刻。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":3,"titleJa":"あやふわアスタリスク(for七海みなみ)","titleRomaji":"Ayafuwa Asterisk (for Minami Nanami)","artistDisplayName":"七海みなみ（CV：長谷川育美）","id":"jaku-chara-tomozaki-kun-ed-3","songId":"jaku-chara-tomozaki-kun-ed-3-song","sources":[{"label":"《弱角友崎同學》第一方歌曲資料：ED3 用途與演唱者","url":"https://tomozaki-koushiki.com/music/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/jaku_chara_tomozaki_kun","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"動畫官方網站","url":"https://tomozaki-koushiki.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://tomozaki-koushiki.com/music/05.php","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://tomozaki-koushiki.com/news/338/","label":"第一期官方逐曲歌唱名單；只授本曲演唱credit，七海原名字形依music05","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E5%BC%B1%E8%A7%92%E5%8F%8B%E5%B4%8E%E5%90%8C%E5%AD%B8","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://tomozaki-koushiki.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":[],"credits":[{"name":"田淵智也","role":"lyrics"},{"name":"田淵智也","role":"composition"},{"name":"広川恵一","role":"arrangement"},{"name":"長谷川育美","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://tomozaki-koushiki.com/music/05.php"],"verifiedAt":"2026-10-23","targetId":"jaku-chara-tomozaki-kun-ed-3-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%BC%B1%E8%A7%92%E5%8F%8B%E5%B4%8E%E5%90%8C%E5%AD%B8"],"verifiedAt":"2026-10-23","targetId":"jaku-chara-tomozaki-kun-ed-3-song"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tomozaki-koushiki.com/music/05.php","https://tomozaki-koushiki.com/news/338/"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["basic_evidence","use_quarters","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈あやふわアスタリスク(for七海みなみ)〉：官方已列本角色版原名、歌唱與詞曲編，但尚缺原TV本曲精確片尾用途明文；暫不分派季度。 原TV精確首日／時分仍待第一方，既有首日僅保留為候選；已核季度與歌曲用途分開記錄。","resumeWhen":"待原期對應集數官方片尾署名或正式逐曲公告可正常讀取，再確認本角色版片尾用途；不由角色歌曲收錄推定。 取得原期官方原首播公告或播出局節目檔案明精確TV首日／時分後再補；不移植後續cour、串流或再播時刻。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":4,"titleJa":"あやふわアスタリスク(for菊池風香)","titleRomaji":"Ayafuwa Asterisk (for Fuuka Kikuchi)","artistDisplayName":"菊池風香（CV：茅野愛衣）","id":"jaku-chara-tomozaki-kun-ed-4","songId":"jaku-chara-tomozaki-kun-ed-4-song","sources":[{"label":"《弱角友崎同學》第一方歌曲資料：ED4 用途與演唱者","url":"https://tomozaki-koushiki.com/music/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/jaku_chara_tomozaki_kun","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"動畫官方網站","url":"https://tomozaki-koushiki.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://tomozaki-koushiki.com/music/07.php","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://tomozaki-koushiki.com/news/338/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E5%BC%B1%E8%A7%92%E5%8F%8B%E5%B4%8E%E5%90%8C%E5%AD%B8","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://tomozaki-koushiki.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":[],"credits":[{"name":"田淵智也","role":"lyrics"},{"name":"田淵智也","role":"composition"},{"name":"広川恵一","role":"arrangement"},{"name":"茅野愛衣","role":"vocals"}],"evidence":[{"target":"song","fields":["title"],"sourceUrls":["https://tomozaki-koushiki.com/music/07.php"],"verifiedAt":"2026-10-23","targetId":"jaku-chara-tomozaki-kun-ed-4-song"},{"target":"song","fields":["artist"],"sourceUrls":["https://tomozaki-koushiki.com/news/338/"],"verifiedAt":"2026-10-23","targetId":"jaku-chara-tomozaki-kun-ed-4-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%BC%B1%E8%A7%92%E5%8F%8B%E5%B4%8E%E5%90%8C%E5%AD%B8"],"verifiedAt":"2026-10-23","targetId":"jaku-chara-tomozaki-kun-ed-4-song"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tomozaki-koushiki.com/music/07.php","https://tomozaki-koushiki.com/news/338/"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["basic_evidence","use_quarters","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈あやふわアスタリスク(for菊池風香)〉：官方已列本角色版原名、歌唱與詞曲編，但尚缺原TV本曲精確片尾用途明文；暫不分派季度。 原TV精確首日／時分仍待第一方，既有首日僅保留為候選；已核季度與歌曲用途分開記錄。","resumeWhen":"待原期對應集數官方片尾署名或正式逐曲公告可正常讀取，再確認本角色版片尾用途；不由角色歌曲收錄推定。 取得原期官方原首播公告或播出局節目檔案明精確TV首日／時分後再補；不移植後續cour、串流或再播時刻。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":5,"titleJa":"あやふわアスタリスク(for日南葵)","titleRomaji":"Ayafuwa Asterisk (for Aoi Hinami)","artistDisplayName":"日南葵（CV：金元寿子）","id":"jaku-chara-tomozaki-kun-ed-5","songId":"jaku-chara-tomozaki-kun-ed-5-song","sources":[{"label":"《弱角友崎同學》第一方歌曲資料：ED5 用途與演唱者","url":"https://tomozaki-koushiki.com/music/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/jaku_chara_tomozaki_kun","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"動畫官方網站","url":"https://tomozaki-koushiki.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://tomozaki-koushiki.com/music/03.php","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://tomozaki-koushiki.com/news/338/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E5%BC%B1%E8%A7%92%E5%8F%8B%E5%B4%8E%E5%90%8C%E5%AD%B8","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://tomozaki-koushiki.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":[],"credits":[{"name":"田淵智也","role":"lyrics"},{"name":"田淵智也","role":"composition"},{"name":"広川恵一","role":"arrangement"},{"name":"金元寿子","role":"vocals"}],"evidence":[{"target":"song","fields":["title"],"sourceUrls":["https://tomozaki-koushiki.com/music/03.php"],"verifiedAt":"2026-10-23","targetId":"jaku-chara-tomozaki-kun-ed-5-song"},{"target":"song","fields":["artist"],"sourceUrls":["https://tomozaki-koushiki.com/news/338/"],"verifiedAt":"2026-10-23","targetId":"jaku-chara-tomozaki-kun-ed-5-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%BC%B1%E8%A7%92%E5%8F%8B%E5%B4%8E%E5%90%8C%E5%AD%B8"],"verifiedAt":"2026-10-23","targetId":"jaku-chara-tomozaki-kun-ed-5-song"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tomozaki-koushiki.com/music/03.php","https://tomozaki-koushiki.com/news/338/"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["basic_evidence","use_quarters","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈あやふわアスタリスク(for日南葵)〉：官方已列本角色版原名、歌唱與詞曲編，但尚缺原TV本曲精確片尾用途明文；暫不分派季度。 原TV精確首日／時分仍待第一方，既有首日僅保留為候選；已核季度與歌曲用途分開記錄。","resumeWhen":"待原期對應集數官方片尾署名或正式逐曲公告可正常讀取，再確認本角色版片尾用途；不由角色歌曲收錄推定。 取得原期官方原首播公告或播出局節目檔案明精確TV首日／時分後再補；不移植後續cour、串流或再播時刻。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"}],"verifiedAt":"2026-09-02","metadataVerifiedAt":"2026-09-02","metadataSources":[]},
   {"anilistId":113231,"id":"curated-113231","slug":"2-43-seiin-koukou-danshi-volley-bu","seasonIds":["2021-winter"],"startDate":"2021-01-08","titleJa":"2.43 清陰高校男子バレー部","titleZhHant":"2.43 清陰高中男子排球社","titleRomaji":"2.43: Seiin Koukou Danshi Volley-bu","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113231-R7qcGbDQgwBZ.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/113231-QMe3Jv2BUqrb.jpg","editorialWeekday":5,"broadcastLabel":"富士テレビ／首話1月7日25:40；通常24:55另列","status":"finished","officialSiteUrl":"https://243anime.com/","anilistUrl":"https://anilist.co/anime/113231","imageSourceUrl":"https://anilist.co/anime/113231","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://youranimes.tw/animes/946","https://acgsecrets.hk/anime/696/","https://annict.com/works/7604"],"animeThemesUrl":"https://animethemes.moe/anime/243_seiin_koukou_danshi_volley_bu","themes":[{"type":"OP","sequence":1,"titleJa":"麻痺","titleRomaji":"Mahi","artistDisplayName":"yama","id":"2-43-seiin-koukou-danshi-volley-bu-op-1","songId":"2-43-seiin-koukou-danshi-volley-bu-op-1-song","sources":[{"label":"動畫官方網站","url":"https://243anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/243_seiin_koukou_danshi_volley_bu","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"yama 官方影片","url":"https://www.youtube.com/watch?v=2By3feOVw20","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://243anime.com/music/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/2.43_%E6%B8%85%E9%99%B0%E9%AB%98%E4%B8%AD%E7%94%B7%E5%AD%90%E6%8E%92%E7%90%83%E7%A4%BE","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://243anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-winter"],"credits":[],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://243anime.com/music/"],"verifiedAt":"2026-10-23","targetId":"2-43-seiin-koukou-danshi-volley-bu-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://243anime.com/music/"],"verifiedAt":"2026-10-23","targetId":"2-43-seiin-koukou-danshi-volley-bu-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/2.43_%E6%B8%85%E9%99%B0%E9%AB%98%E4%B8%AD%E7%94%B7%E5%AD%90%E6%8E%92%E7%90%83%E7%A4%BE"],"verifiedAt":"2026-10-23","targetId":"2-43-seiin-koukou-danshi-volley-bu-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/2.43_%E6%B8%85%E9%99%B0%E9%AB%98%E4%B8%AD%E7%94%B7%E5%AD%90%E6%8E%92%E7%90%83%E7%A4%BE"],"verifiedAt":"2026-10-23","targetId":"2-43-seiin-koukou-danshi-volley-bu-op-1"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈麻痺〉：原期曲名、正式名義及本曲用途已核；季度依本期逐曲資料分派。","resumeWhen":"待第一方本曲作詞、作曲、編曲明文及正式音源／版本關係可核，再補詳細資料；","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":1,"titleJa":"Undulation","artistDisplayName":"崎山蒼志","id":"2-43-seiin-koukou-danshi-volley-bu-ed-1","songId":"2-43-seiin-koukou-danshi-volley-bu-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://243anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/243_seiin_koukou_danshi_volley_bu","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"崎山蒼志 官方影片","url":"https://www.youtube.com/watch?v=qgS9eZM_ABM","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://243anime.com/music/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/2.43_%E6%B8%85%E9%99%B0%E9%AB%98%E4%B8%AD%E7%94%B7%E5%AD%90%E6%8E%92%E7%90%83%E7%A4%BE","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://243anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-winter"],"credits":[],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://243anime.com/music/"],"verifiedAt":"2026-10-23","targetId":"2-43-seiin-koukou-danshi-volley-bu-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://243anime.com/music/"],"verifiedAt":"2026-10-23","targetId":"2-43-seiin-koukou-danshi-volley-bu-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/2.43_%E6%B8%85%E9%99%B0%E9%AB%98%E4%B8%AD%E7%94%B7%E5%AD%90%E6%8E%92%E7%90%83%E7%A4%BE"],"verifiedAt":"2026-10-23","targetId":"2-43-seiin-koukou-danshi-volley-bu-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/2.43_%E6%B8%85%E9%99%B0%E9%AB%98%E4%B8%AD%E7%94%B7%E5%AD%90%E6%8E%92%E7%90%83%E7%A4%BE"],"verifiedAt":"2026-10-23","targetId":"2-43-seiin-koukou-danshi-volley-bu-ed-1"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈Undulation〉：原期曲名、正式名義及本曲用途已核；季度依本期逐曲資料分派。","resumeWhen":"待第一方本曲作詞、作曲、編曲明文及正式音源／版本關係可核，再補詳細資料；","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"}],"verifiedAt":"2026-09-02","metadataVerifiedAt":"2026-09-02","metadataSources":[{"url":"https://243anime.com/news/286/","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-23"}],"broadcastTimeJst":"01:40"},
   {"anilistId":117533,"id":"curated-117533","slug":"hataraku-saibou-black","seasonIds":["2021-winter"],"startDate":"2021-01-10","titleJa":"はたらく細胞BLACK","titleZhHant":"工作細胞 BLACK","titleRomaji":"Hataraku Saibou BLACK","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx117533-Niown8l6NAWk.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/117533-QncrEV8PjWUc.jpg","editorialWeekday":7,"broadcastLabel":"TOKYO MX等／原1月9日24:00","status":"finished","officialSiteUrl":"https://saibou-black.com/","anilistUrl":"https://anilist.co/anime/117533","imageSourceUrl":"https://anilist.co/anime/117533","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://youranimes.tw/animes/461","https://acgsecrets.hk/anime/142/","https://annict.com/works/7478"],"animeThemesUrl":"https://animethemes.moe/anime/hataraku_saibou_black","themes":[{"type":"OP","sequence":1,"titleJa":"走れ！ with ヤマサキセイヤ（キュウソネコカミ）","titleRomaji":"Hashire!","artistDisplayName":"POLYSICS","id":"hataraku-saibou-black-op-1","songId":"hataraku-saibou-black-op-1-song","sources":[{"label":"動畫官方網站","url":"https://saibou-black.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/hataraku_saibou_black","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"POLYSICS Official YouTube Channel 官方影片","url":"https://www.youtube.com/watch?v=_mqAuncADow","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://saibou-black.com/music/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://saibou-black.com/onair/","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E5%B7%A5%E4%BD%9C%E7%B4%B0%E8%83%9EBLACK","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://saibou-black.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-winter"],"credits":[{"name":"ハヤシ ヒロユキ","role":"vocals"},{"name":"ヤマサキセイヤ","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://saibou-black.com/music/"],"verifiedAt":"2026-10-23","targetId":"hataraku-saibou-black-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://saibou-black.com/music/"],"verifiedAt":"2026-10-23","targetId":"hataraku-saibou-black-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%B7%A5%E4%BD%9C%E7%B4%B0%E8%83%9EBLACK"],"verifiedAt":"2026-10-23","targetId":"hataraku-saibou-black-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%B7%A5%E4%BD%9C%E7%B4%B0%E8%83%9EBLACK"],"verifiedAt":"2026-10-23","targetId":"hataraku-saibou-black-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://saibou-black.com/music/"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈走れ！ with ヤマサキセイヤ（キュウソネコカミ）〉：原期曲名、正式名義及本曲用途已核；季度依本期逐曲資料分派。","resumeWhen":"待第一方本曲作詞、作曲、編曲明文及正式音源／版本關係可核，再補詳細資料；","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":1,"titleJa":"上を向いて運ぼう with 赤血球 & 白血球","titleRomaji":"Ue wo Muite Hakobou","artistDisplayName":"POLYSICS","id":"hataraku-saibou-black-ed-1","songId":"hataraku-saibou-black-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://saibou-black.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/hataraku_saibou_black","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://saibou-black.com/music/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://saibou-black.com/onair/","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E5%B7%A5%E4%BD%9C%E7%B4%B0%E8%83%9EBLACK","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://saibou-black.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-winter"],"credits":[{"name":"榎木淳弥","role":"vocals"},{"name":"日笠陽子","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://saibou-black.com/music/"],"verifiedAt":"2026-10-23","targetId":"hataraku-saibou-black-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://saibou-black.com/music/"],"verifiedAt":"2026-10-23","targetId":"hataraku-saibou-black-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%B7%A5%E4%BD%9C%E7%B4%B0%E8%83%9EBLACK"],"verifiedAt":"2026-10-23","targetId":"hataraku-saibou-black-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%B7%A5%E4%BD%9C%E7%B4%B0%E8%83%9EBLACK"],"verifiedAt":"2026-10-23","targetId":"hataraku-saibou-black-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://saibou-black.com/music/"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈上を向いて運ぼう with 赤血球 & 白血球〉：原期曲名、正式名義及本曲用途已核；季度依本期逐曲資料分派。","resumeWhen":"待第一方本曲作詞、作曲、編曲明文及正式音源／版本關係可核，再補詳細資料；","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"}],"verifiedAt":"2026-09-02","metadataVerifiedAt":"2026-09-02","metadataSources":[{"url":"https://saibou-black.com/onair/","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-23"}],"broadcastTimeJst":"00:00"},
-  {"anilistId":117696,"id":"curated-117696","slug":"tenchi-souzou-design-bu","seasonIds":["2021-winter"],"startDate":"2021-01-07","titleJa":"天地創造デザイン部","titleZhHant":"天地創造設計部","titleRomaji":"Tenchi Souzou Design-bu","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx117696-oqodbcesiazN.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/117696-VdaMljYfJT0h.jpg","editorialWeekday":4,"broadcastLabel":"AT-X原2021年1月7日木曜23:30；地上波深夜與串流另列","status":"finished","officialSiteUrl":"https://tendebu.jp/","anilistUrl":"https://anilist.co/anime/117696","imageSourceUrl":"https://anilist.co/anime/117696","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://youranimes.tw/animes/881","https://acgsecrets.hk/anime/146/","https://annict.com/works/7601"],"animeThemesUrl":"https://animethemes.moe/anime/tenchi_souzou_design_bu","themes":[{"type":"OP","sequence":1,"titleJa":"Give It Up？","titleRomaji":"Give It Up?","artistDisplayName":"96猫","id":"tenchi-souzou-design-bu-op-1","songId":"tenchi-souzou-design-bu-op-1-song","sources":[{"url":"https://tendebu.jp/news/detail.php?id=1087425","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/tenchi_souzou_design_bu","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"avex pictures 官方影片","url":"https://www.youtube.com/watch?v=bpf8XVeCNDc","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"動畫官方網站","url":"https://tendebu.jp/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://tendebu.jp/discography/detail.php?id=1017831","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://tendebu.jp/onair/","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E5%A4%A9%E5%9C%B0%E5%89%B5%E9%80%A0%E8%A8%AD%E8%A8%88%E9%83%A8","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://tendebu.jp/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-winter"],"credits":[{"name":"S-kit","role":"lyrics"},{"name":"S-kit","role":"composition"},{"name":"Sylo","role":"lyrics"},{"name":"Sylo","role":"composition"},{"name":"GROUND-LINE","role":"arrangement"},{"name":"96猫","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://tendebu.jp/discography/detail.php?id=1017831"],"verifiedAt":"2026-10-23","targetId":"tenchi-souzou-design-bu-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://tendebu.jp/discography/detail.php?id=1017831"],"verifiedAt":"2026-10-23","targetId":"tenchi-souzou-design-bu-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%A4%A9%E5%9C%B0%E5%89%B5%E9%80%A0%E8%A8%AD%E8%A8%88%E9%83%A8"],"verifiedAt":"2026-10-23","targetId":"tenchi-souzou-design-bu-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%A4%A9%E5%9C%B0%E5%89%B5%E9%80%A0%E8%A8%AD%E8%A8%88%E9%83%A8"],"verifiedAt":"2026-10-23","targetId":"tenchi-souzou-design-bu-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tendebu.jp/discography/detail.php?id=1017831"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈Give It Up？〉：已核本曲原名、正式名義與本期正常用途。","resumeWhen":"待第一方音源、官方影片形式與正版發行關係可逐項核對，再補詳細資料。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":1,"titleJa":"DESIGNED BY HEAVEN！","titleRomaji":"DESIGNED BY HEAVEN!","artistDisplayName":"パライソ☆社員スターズ","id":"tenchi-souzou-design-bu-ed-1","songId":"tenchi-souzou-design-bu-ed-1-song","sources":[{"url":"https://tendebu.jp/news/detail.php?id=1087425","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/tenchi_souzou_design_bu","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"avex pictures 官方影片","url":"https://www.youtube.com/watch?v=XN5f65Jbcs0","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"動畫官方網站","url":"https://tendebu.jp/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://tendebu.jp/discography/detail.php?id=1017838","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://tendebu.jp/onair/","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E5%A4%A9%E5%9C%B0%E5%89%B5%E9%80%A0%E8%A8%AD%E8%A8%88%E9%83%A8","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://tendebu.jp/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-winter"],"credits":[{"name":"TECHNOBOYS PULCRAFT GREEN-FUND","role":"lyrics"},{"name":"TECHNOBOYS PULCRAFT GREEN-FUND","role":"composition"},{"name":"TECHNOBOYS PULCRAFT GREEN-FUND","role":"arrangement"},{"name":"榎木淳弥","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://tendebu.jp/discography/detail.php?id=1017838"],"verifiedAt":"2026-10-23","targetId":"tenchi-souzou-design-bu-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://tendebu.jp/discography/detail.php?id=1017838"],"verifiedAt":"2026-10-23","targetId":"tenchi-souzou-design-bu-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%A4%A9%E5%9C%B0%E5%89%B5%E9%80%A0%E8%A8%AD%E8%A8%88%E9%83%A8"],"verifiedAt":"2026-10-23","targetId":"tenchi-souzou-design-bu-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%A4%A9%E5%9C%B0%E5%89%B5%E9%80%A0%E8%A8%AD%E8%A8%88%E9%83%A8"],"verifiedAt":"2026-10-23","targetId":"tenchi-souzou-design-bu-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tendebu.jp/discography/detail.php?id=1017838"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈DESIGNED BY HEAVEN！〉：已核本曲原名、正式名義與本期正常用途。","resumeWhen":"待第一方音源、官方影片形式與正版發行關係可逐項核對，再補詳細資料。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":2,"titleJa":"DESIGNED BY HEAVEN！","titleRomaji":"DESIGNED BY HEAVEN!","artistDisplayName":"TECHNOBOYS PULCRAFT GREEN-FUND","id":"tenchi-souzou-design-bu-ed-2","songId":"tenchi-souzou-design-bu-ed-2-song","sources":[{"label":"《天地創造設計部》第一方歌曲資料：ED2 用途與演唱者","url":"https://tendebu.jp/news/detail.php?id=1087425","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/tenchi_souzou_design_bu","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"動畫官方網站","url":"https://tendebu.jp/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://tendebu.jp/discography/detail.php?id=1017838","label":"第一方僅證本曲原名；正式名義與本期用途待核","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E5%A4%A9%E5%9C%B0%E5%89%B5%E9%80%A0%E8%A8%AD%E8%A8%88%E9%83%A8","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://tendebu.jp/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":[],"credits":[{"name":"TECHNOBOYS PULCRAFT GREEN-FUND","role":"lyrics"},{"name":"TECHNOBOYS PULCRAFT GREEN-FUND","role":"composition"},{"name":"TECHNOBOYS PULCRAFT GREEN-FUND","role":"arrangement"}],"versionLabel":"第 9 話 TECHNOBOYS 版本","evidence":[{"target":"song","fields":["title"],"sourceUrls":["https://tendebu.jp/discography/detail.php?id=1017838"],"verifiedAt":"2026-10-23","targetId":"tenchi-souzou-design-bu-ed-2-song"},{"target":"song","fields":["title"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%A4%A9%E5%9C%B0%E5%89%B5%E9%80%A0%E8%A8%AD%E8%A8%88%E9%83%A8"],"verifiedAt":"2026-10-23","targetId":"tenchi-souzou-design-bu-ed-2-song"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tendebu.jp/discography/detail.php?id=1017838"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["basic_evidence","use_quarters","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈DESIGNED BY HEAVEN！〉：官方曲目可見本曲TECHNOBOYS版本收錄與創作署名；原TV片尾用途及本曲直接歌唱名義仍待核。","resumeWhen":"待官方逐話片尾或原期明文本版本TV用途及正式歌唱名義可讀，再核本曲；不把作詞曲編或版本標記推作演唱。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"}],"verifiedAt":"2026-09-02","metadataVerifiedAt":"2026-09-02","metadataSources":[{"url":"https://zh.wikipedia.org/wiki/%E5%A4%A9%E5%9C%B0%E5%89%B5%E9%80%A0%E8%A8%AD%E8%A8%88%E9%83%A8","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"},{"url":"https://tendebu.jp/onair/","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://tendebu.jp/news/detail.php?id=1087425","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-23"}],"broadcastTimeJst":"23:30"},
+  {
+  "anilistId": 117696,
+  "id": "curated-117696",
+  "slug": "tenchi-souzou-design-bu",
+  "seasonIds": [
+    "2021-winter"
+  ],
+  "startDate": "2021-01-07",
+  "titleJa": "天地創造デザイン部",
+  "titleZhHant": "天地創造設計部",
+  "titleRomaji": "Tenchi Souzou Design-bu",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx117696-oqodbcesiazN.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/117696-VdaMljYfJT0h.jpg",
+  "editorialWeekday": 4,
+  "broadcastLabel": "AT-X原2021年1月7日木曜23:30；地上波深夜與串流另列",
+  "status": "finished",
+  "officialSiteUrl": "https://tendebu.jp/",
+  "anilistUrl": "https://anilist.co/anime/117696",
+  "imageSourceUrl": "https://anilist.co/anime/117696",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/881",
+    "https://acgsecrets.hk/anime/146/",
+    "https://annict.com/works/7601"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/tenchi_souzou_design_bu",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "Give It Up？",
+      "titleRomaji": "Give It Up?",
+      "artistDisplayName": "96猫",
+      "id": "tenchi-souzou-design-bu-op-1",
+      "songId": "tenchi-souzou-design-bu-op-1-song",
+      "sources": [
+        {
+          "url": "https://tendebu.jp/news/detail.php?id=1087425",
+          "label": "原播出方日期及節目資料；不作本曲身分、用途或作者證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-23"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/tenchi_souzou_design_bu",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "avex pictures 官方影片",
+          "url": "https://www.youtube.com/watch?v=bpf8XVeCNDc",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://tendebu.jp/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://tendebu.jp/discography/detail.php?id=1017831",
+          "label": "第一方本曲原名、正式名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-23"
+        },
+        {
+          "url": "https://tendebu.jp/onair/",
+          "label": "原播出方日期及節目資料；不作本曲身分、用途或作者證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-23"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%A4%A9%E5%9C%B0%E5%89%B5%E9%80%A0%E8%A8%AD%E8%A8%88%E9%83%A8",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-23"
+        }
+      ],
+      "links": [
+        {
+          "platform": "作品官網",
+          "label": "作品官方網站",
+          "url": "https://tendebu.jp/",
+          "linkType": "official_landing_page",
+          "region": "JP"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "credits": [
+        {
+          "name": "S-kit",
+          "role": "lyrics"
+        },
+        {
+          "name": "S-kit",
+          "role": "composition"
+        },
+        {
+          "name": "Sylo",
+          "role": "lyrics"
+        },
+        {
+          "name": "Sylo",
+          "role": "composition"
+        },
+        {
+          "name": "GROUND-LINE",
+          "role": "arrangement"
+        },
+        {
+          "name": "96猫",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://tendebu.jp/discography/detail.php?id=1017831"
+          ],
+          "verifiedAt": "2026-10-23",
+          "targetId": "tenchi-souzou-design-bu-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://tendebu.jp/discography/detail.php?id=1017831"
+          ],
+          "verifiedAt": "2026-10-23",
+          "targetId": "tenchi-souzou-design-bu-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%A4%A9%E5%9C%B0%E5%89%B5%E9%80%A0%E8%A8%AD%E8%A8%88%E9%83%A8"
+          ],
+          "verifiedAt": "2026-10-23",
+          "targetId": "tenchi-souzou-design-bu-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%A4%A9%E5%9C%B0%E5%89%B5%E9%80%A0%E8%A8%AD%E8%A8%88%E9%83%A8"
+          ],
+          "verifiedAt": "2026-10-23",
+          "targetId": "tenchi-souzou-design-bu-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://tendebu.jp/discography/detail.php?id=1017831"
+          ],
+          "verifiedAt": "2026-10-23"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "video_metadata",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈Give It Up？〉：已核本曲原名、正式名義與本期正常用途。",
+          "resumeWhen": "待第一方音源、官方影片形式與正版發行關係可逐項核對，再補詳細資料。",
+          "checkedAt": "2026-10-23"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-23"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "DESIGNED BY HEAVEN！",
+      "titleRomaji": "DESIGNED BY HEAVEN!",
+      "artistDisplayName": "パライソ☆社員スターズ",
+      "id": "tenchi-souzou-design-bu-ed-1",
+      "songId": "tenchi-souzou-design-bu-ed-1-song",
+      "sources": [
+        {
+          "url": "https://tendebu.jp/news/detail.php?id=1087425",
+          "label": "原播出方日期及節目資料；不作本曲身分、用途或作者證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-23"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/tenchi_souzou_design_bu",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "avex pictures 官方影片",
+          "url": "https://www.youtube.com/watch?v=XN5f65Jbcs0",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://tendebu.jp/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://tendebu.jp/discography/detail.php?id=1017838",
+          "label": "第一方本曲原名、正式名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-23"
+        },
+        {
+          "url": "https://tendebu.jp/onair/",
+          "label": "原播出方日期及節目資料；不作本曲身分、用途或作者證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-23"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%A4%A9%E5%9C%B0%E5%89%B5%E9%80%A0%E8%A8%AD%E8%A8%88%E9%83%A8",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-23"
+        }
+      ],
+      "links": [
+        {
+          "platform": "作品官網",
+          "label": "作品官方網站",
+          "url": "https://tendebu.jp/",
+          "linkType": "official_landing_page",
+          "region": "JP"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "credits": [
+        {
+          "name": "TECHNOBOYS PULCRAFT GREEN-FUND",
+          "role": "lyrics"
+        },
+        {
+          "name": "TECHNOBOYS PULCRAFT GREEN-FUND",
+          "role": "composition"
+        },
+        {
+          "name": "TECHNOBOYS PULCRAFT GREEN-FUND",
+          "role": "arrangement"
+        },
+        {
+          "name": "榎木淳弥",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://tendebu.jp/discography/detail.php?id=1017838"
+          ],
+          "verifiedAt": "2026-10-23",
+          "targetId": "tenchi-souzou-design-bu-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://tendebu.jp/discography/detail.php?id=1017838"
+          ],
+          "verifiedAt": "2026-10-23",
+          "targetId": "tenchi-souzou-design-bu-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%A4%A9%E5%9C%B0%E5%89%B5%E9%80%A0%E8%A8%AD%E8%A8%88%E9%83%A8"
+          ],
+          "verifiedAt": "2026-10-23",
+          "targetId": "tenchi-souzou-design-bu-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%A4%A9%E5%9C%B0%E5%89%B5%E9%80%A0%E8%A8%AD%E8%A8%88%E9%83%A8"
+          ],
+          "verifiedAt": "2026-10-23",
+          "targetId": "tenchi-souzou-design-bu-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://tendebu.jp/discography/detail.php?id=1017838"
+          ],
+          "verifiedAt": "2026-10-23"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "video_metadata",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "〈DESIGNED BY HEAVEN！〉：已核本曲原名、正式名義與本期正常用途。",
+          "resumeWhen": "待第一方音源、官方影片形式與正版發行關係可逐項核對，再補詳細資料。",
+          "checkedAt": "2026-10-23"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-23"
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "DESIGNED BY HEAVEN！",
+      "titleRomaji": "DESIGNED BY HEAVEN!",
+      "artistDisplayName": "TECHNOBOYS PULCRAFT GREEN-FUND",
+      "id": "tenchi-souzou-design-bu-ed-2",
+      "songId": "tenchi-souzou-design-bu-ed-2-song",
+      "sources": [
+        {
+          "label": "官方通常ED公告：パライソ☆社員スターズ；未證TECHNOBOYS版演唱或第9話用途",
+          "url": "https://tendebu.jp/news/detail.php?id=1087425",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/tenchi_souzou_design_bu",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://tendebu.jp/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://tendebu.jp/discography/detail.php?id=1017838",
+          "label": "第一方僅證本曲原名；正式名義與本期用途待核",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-23"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%A4%A9%E5%9C%B0%E5%89%B5%E9%80%A0%E8%A8%AD%E8%A8%88%E9%83%A8",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-23"
+        }
+      ],
+      "links": [
+        {
+          "platform": "作品官網",
+          "label": "作品官方網站",
+          "url": "https://tendebu.jp/",
+          "linkType": "official_landing_page",
+          "region": "JP"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "credits": [
+        {
+          "name": "TECHNOBOYS PULCRAFT GREEN-FUND",
+          "role": "lyrics"
+        },
+        {
+          "name": "TECHNOBOYS PULCRAFT GREEN-FUND",
+          "role": "composition"
+        },
+        {
+          "name": "TECHNOBOYS PULCRAFT GREEN-FUND",
+          "role": "arrangement"
+        }
+      ],
+      "versionLabel": "第 9 話 TECHNOBOYS 版本",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://tendebu.jp/discography/detail.php?id=1017838"
+          ],
+          "verifiedAt": "2026-10-23",
+          "targetId": "tenchi-souzou-design-bu-ed-2-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E5%A4%A9%E5%9C%B0%E5%89%B5%E9%80%A0%E8%A8%AD%E8%A8%88%E9%83%A8"
+          ],
+          "verifiedAt": "2026-10-23",
+          "targetId": "tenchi-souzou-design-bu-ed-2-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://tendebu.jp/discography/detail.php?id=1017838"
+          ],
+          "verifiedAt": "2026-10-23"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "官方2020/11/20公告的通常ED演唱為パライソ☆社員スターズ，不是TECHNOBOYS版本的演唱或第9話用途正證。既有官方曲表只證本版本曲名／創作，特定版本原TV片尾及直接歌唱名義仍待核。",
+          "resumeWhen": "待官方逐話片尾或原期明文本版本TV用途及正式歌唱名義可讀，再核本曲；不把作詞曲編或版本標記推作演唱。",
+          "checkedAt": "2026-11-05"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-05"
+    }
+  ],
+  "verifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-10-23",
+  "metadataSources": [
+    {
+      "label": "動畫官方網站：作品與播出資料",
+      "url": "https://tendebu.jp/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "AniList：作品識別與公開圖像",
+      "url": "https://anilist.co/anime/117696",
+      "language": "en",
+      "role": "identifier",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "繁體中文季度列表交叉對照",
+      "url": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+      "language": "zh-Hant",
+      "role": "localized_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "AnimeThemes：OP／ED 曲目交叉核對",
+      "url": "https://animethemes.moe/anime/tenchi_souzou_design_bu",
+      "language": "en",
+      "role": "theme_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://youranimes.tw/animes/881",
+      "language": "zh-Hant",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://acgsecrets.hk/anime/146/",
+      "language": "zh-Hant",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://annict.com/works/7601",
+      "language": "ja",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E5%A4%A9%E5%9C%B0%E5%89%B5%E9%80%A0%E8%A8%AD%E8%A8%88%E9%83%A8",
+      "label": "原期逐話日期交叉核對；非歌曲原名或作者證據",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-23"
+    },
+    {
+      "url": "https://tendebu.jp/onair/",
+      "label": "第一方原期TV播出／延期日期補充",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-23"
+    },
+    {
+      "url": "https://tendebu.jp/news/detail.php?id=1087425",
+      "label": "第一方原期TV播出／延期日期補充",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-23"
+    }
+  ],
+  "broadcastTimeJst": "23:30"
+},
   {
     anilistId: 124555,
     id: "curated-124555",
@@ -900,51 +1463,316 @@ const curated2021WinterSeedRows: CuratedAnimeSeed[] = [
     verifiedAt: "2026-09-02",
   },
   {
-    anilistId: 124845,
-    id: "curated-124845",
-    slug: "wonder-egg-priority",
-    seasonIds: ["2021-winter"],
-    startDate: "2021-01-13",
-    titleJa: "ワンダーエッグ・プライオリティ",
-    titleZhHant: "奇蛋物語",
-    titleRomaji: "Wonder Egg Priority",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx124845-JXORhqCTGt04.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/124845-uw8Fiw3kWtbj.jpg",
-    editorialWeekday: 3,
-    broadcastLabel: "日本首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://wonder-egg-priority.com/",
-    anilistUrl: "https://anilist.co/anime/124845",
-    imageSourceUrl: "https://anilist.co/anime/124845",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/940",
-      "https://acgsecrets.hk/anime/698/",
-      "https://annict.com/works/7710",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/wonder_egg_priority",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "巣立ちの歌",
-        titleRomaji: "Sudachi no Uta",
-        artistDisplayName: "アネモネリア",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "Life is サイダー",
-        titleRomaji: "Life is Cider",
-        artistDisplayName: "アネモネリア",
-      },
-    ],
-    verifiedAt: "2026-09-02",
-  },
+  "anilistId": 124845,
+  "id": "curated-124845",
+  "slug": "wonder-egg-priority",
+  "seasonIds": [
+    "2021-winter"
+  ],
+  "startDate": "2021-01-13",
+  "titleJa": "ワンダーエッグ・プライオリティ",
+  "titleZhHant": "奇蛋物語",
+  "titleRomaji": "Wonder Egg Priority",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx124845-JXORhqCTGt04.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/124845-uw8Fiw3kWtbj.jpg",
+  "editorialWeekday": 3,
+  "broadcastLabel": "WEB先行配信：2021-01-12編排24:00起dアニメ／Hulu；同季日本TV正篇已核，Bandai第1–12話各23分鐘。第2回TV編排1/19公開雙主題曲；特別篇另分。",
+  "status": "finished",
+  "officialSiteUrl": "https://wonder-egg-priority.com/",
+  "anilistUrl": "https://anilist.co/anime/124845",
+  "imageSourceUrl": "https://anilist.co/anime/124845",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/940",
+    "https://acgsecrets.hk/anime/698/",
+    "https://annict.com/works/7710"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/wonder_egg_priority",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "巣立ちの歌",
+      "titleRomaji": "Sudachi no Uta",
+      "artistDisplayName": "アネモネリア",
+      "id": "wonder-egg-priority-op-1",
+      "songId": "wonder-egg-priority-op-1-song",
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://wonder-egg-priority.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/wonder_egg_priority",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://wonder-egg-priority.com/music/",
+          "label": "官方MUSIC：兩曲精確OP／ED及アネモネリア",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://wonder-egg-priority.com/news/?article_id=56189",
+          "label": "官方2021/1/20原公告：1/19第2回公開OP／ED及演唱",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://www.lisani.jp/0000164051/",
+          "label": "リスアニ原期報導：兩曲OP／ED、アネモネリア及第2回TV",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "sourceMode": "explicit",
+      "lastVerifiedAt": "2026-11-05",
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "wonder-egg-priority-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://wonder-egg-priority.com/news/?article_id=56189"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "wonder-egg-priority-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://wonder-egg-priority.com/news/?article_id=56189"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "song",
+          "targetId": "wonder-egg-priority-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.lisani.jp/0000164051/"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "wonder-egg-priority-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.lisani.jp/0000164051/"
+          ],
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "usageLabel": "原TV OP；2021冬第2回（1/19編排）放送內公開，特別篇用途另核"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "Life is サイダー",
+      "titleRomaji": "Life is Cider",
+      "artistDisplayName": "アネモネリア",
+      "id": "wonder-egg-priority-ed-1",
+      "songId": "wonder-egg-priority-ed-1-song",
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://wonder-egg-priority.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/wonder_egg_priority",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "Sony Music (Japan) 官方影片",
+          "url": "https://www.youtube.com/watch?v=VlWs8ey2nyg",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://wonder-egg-priority.com/music/",
+          "label": "官方MUSIC：兩曲精確OP／ED及アネモネリア",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://wonder-egg-priority.com/news/?article_id=56189",
+          "label": "官方2021/1/20原公告：1/19第2回公開OP／ED及演唱",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://www.lisani.jp/0000164051/",
+          "label": "リスアニ原期報導：兩曲OP／ED、アネモネリア及第2回TV",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "sourceMode": "explicit",
+      "lastVerifiedAt": "2026-11-05",
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "wonder-egg-priority-ed-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://wonder-egg-priority.com/news/?article_id=56189"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "wonder-egg-priority-ed-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://wonder-egg-priority.com/news/?article_id=56189"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "song",
+          "targetId": "wonder-egg-priority-ed-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.lisani.jp/0000164051/"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "wonder-egg-priority-ed-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.lisani.jp/0000164051/"
+          ],
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "usageLabel": "原TV ED；2021冬第2回（1/19編排）放送內公開，特別篇用途另核"
+    }
+  ],
+  "verifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-11-05",
+  "metadataSources": [
+    {
+      "label": "動畫官方網站：作品與播出資料",
+      "url": "https://wonder-egg-priority.com/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "AniList：作品識別與公開圖像",
+      "url": "https://anilist.co/anime/124845",
+      "language": "en",
+      "role": "identifier",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "繁體中文季度列表交叉對照",
+      "url": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+      "language": "zh-Hant",
+      "role": "localized_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "AnimeThemes：OP／ED 曲目交叉核對",
+      "url": "https://animethemes.moe/anime/wonder_egg_priority",
+      "language": "en",
+      "role": "theme_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://youranimes.tw/animes/940",
+      "language": "zh-Hant",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://acgsecrets.hk/anime/698/",
+      "language": "zh-Hant",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://annict.com/works/7710",
+      "language": "ja",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "url": "https://www.b-ch.com/titles/7207/",
+      "label": "官方所列正版Bandai：正篇第1–12話各23分鐘，特別篇另分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://wonder-egg-priority.com/streaming/",
+      "label": "官方原期配信：dアニメ／Hulu地上波先行，與TV放送分開",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://wonder-egg-priority.com/news/?article_id=56189",
+      "label": "官方2021/1/20原公告：1/19第2回公開OP／ED及演唱",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    }
+  ]
+},
   {"anilistId":113936,"id":"curated-113936","slug":"dr-stone-stone-wars","seasonIds":["2021-winter"],"startDate":"2021-01-14","titleJa":"Dr.STONE STONE WARS","titleZhHant":"Dr.STONE 新石紀戰爭","titleRomaji":"Dr. STONE: STONE WARS","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113936-D4eYd4XwslVI.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/113936-PpMtCY9kCwwV.jpg","editorialWeekday":4,"broadcastLabel":"TOKYO MX・KBS京都／2021年1月14日22:30原TV；23:00網播另分","status":"finished","officialSiteUrl":"https://dr-stone.jp/","anilistUrl":"https://anilist.co/anime/113936","imageSourceUrl":"https://anilist.co/anime/113936","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://youranimes.tw/animes/164","https://acgsecrets.hk/anime/678/","https://annict.com/works/7194"],"animeThemesUrl":"https://animethemes.moe/anime/dr_stone_stone_wars","themes":[{"type":"OP","sequence":1,"titleJa":"楽園","titleRomaji":"Rakuen","artistDisplayName":"フジファブリック","id":"dr-stone-stone-wars-op-1","songId":"dr-stone-stone-wars-op-1-song","sources":[{"label":"動畫官方網站","url":"https://dr-stone.jp/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/dr_stone_stone_wars","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://dr-stone.jp/news/1357/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://dr-stone.jp/music/2nd/2-op/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://dr-stone.jp/news/1404/","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/Dr.STONE_%E6%96%B0%E7%9F%B3%E7%B4%80","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://dr-stone.jp/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-winter"],"credits":[],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://dr-stone.jp/news/1357/"],"verifiedAt":"2026-10-23","targetId":"dr-stone-stone-wars-op-1-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://dr-stone.jp/music/2nd/2-op/"],"verifiedAt":"2026-10-23","targetId":"dr-stone-stone-wars-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://dr-stone.jp/news/1357/","https://dr-stone.jp/music/2nd/2-op/"],"verifiedAt":"2026-10-23","targetId":"dr-stone-stone-wars-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/Dr.STONE_%E6%96%B0%E7%9F%B3%E7%B4%80"],"verifiedAt":"2026-10-23","targetId":"dr-stone-stone-wars-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/Dr.STONE_%E6%96%B0%E7%9F%B3%E7%B4%80"],"verifiedAt":"2026-10-23","targetId":"dr-stone-stone-wars-op-1"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈楽園〉：本期原曲名、正式演唱名義及動畫用途已核；用途季度依原期播出範圍對照。","resumeWhen":"基本資料已核；待直接逐曲創作或音源資料可讀，再補尚缺欄位。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":1,"titleJa":"声?","titleRomaji":"Koe?","artistDisplayName":"はてな","id":"dr-stone-stone-wars-ed-1","songId":"dr-stone-stone-wars-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://dr-stone.jp/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/dr_stone_stone_wars","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://dr-stone.jp/news/1357/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://dr-stone.jp/music/2nd/2-ed/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://dr-stone.jp/news/1404/","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/Dr.STONE_%E6%96%B0%E7%9F%B3%E7%B4%80","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://dr-stone.jp/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-winter"],"credits":[],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://dr-stone.jp/news/1357/"],"verifiedAt":"2026-10-23","targetId":"dr-stone-stone-wars-ed-1-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://dr-stone.jp/music/2nd/2-ed/"],"verifiedAt":"2026-10-23","targetId":"dr-stone-stone-wars-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://dr-stone.jp/news/1357/","https://dr-stone.jp/music/2nd/2-ed/"],"verifiedAt":"2026-10-23","targetId":"dr-stone-stone-wars-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/Dr.STONE_%E6%96%B0%E7%9F%B3%E7%B4%80"],"verifiedAt":"2026-10-23","targetId":"dr-stone-stone-wars-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/Dr.STONE_%E6%96%B0%E7%9F%B3%E7%B4%80"],"verifiedAt":"2026-10-23","targetId":"dr-stone-stone-wars-ed-1"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈声?〉：官方原曲題名為「声?」；原用途、歌曲關係、羅馬字與影音保留。","resumeWhen":"基本資料已核；待直接逐曲創作或音源資料可讀，再補尚缺欄位。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"}],"verifiedAt":"2026-09-02","metadataVerifiedAt":"2026-09-02","metadataSources":[{"url":"https://zh.wikipedia.org/wiki/Dr.STONE_%E6%96%B0%E7%9F%B3%E7%B4%80","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"},{"url":"https://dr-stone.jp/news/1404/","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-23"}],"broadcastTimeJst":"22:30"},
   {
     anilistId: 127689,

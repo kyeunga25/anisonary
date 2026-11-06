@@ -184,12 +184,17 @@ test("song library and local search combine quarters, sorting, multilingual inpu
   await page.getByRole("combobox", { name: "年份", exact: true }).selectOption("2026");
   await page.getByRole("combobox", { name: "季度", exact: true }).selectOption("summer");
   await page.getByRole("searchbox").fill("ゼロから");
-  const crossQuarterSongCount = curatedAnimeDetails.find((anime) => anime.slug === "re-zero-season-4")!.themes.length;
-  await expect(results).toHaveCount(crossQuarterSongCount);
+  const reZero = curatedAnimeDetails.find((anime) => anime.slug === "re-zero-season-4")!;
+  const reZeroSongCount = (seasonId: string) => reZero.themes.filter((theme) =>
+    theme.seasonIds?.includes(seasonId) ?? true
+  ).length;
+  await expect(results).toHaveCount(reZeroSongCount("2026-summer"));
+  await expect(results.filter({ hasText: "Stay Alive ～Regain～" })).toHaveCount(0);
   await expect(results.first().locator(".song-row__season")).toHaveText("2026 夏季");
   await page.getByRole("combobox", { name: "季度", exact: true }).selectOption("spring");
   await expect(results.first().locator(".song-row__season")).toHaveText("2026 春季");
-  await expect(results).toHaveCount(crossQuarterSongCount);
+  await expect(results).toHaveCount(reZeroSongCount("2026-spring"));
+  await expect(results.filter({ hasText: "Stay Alive ～Regain～" })).toBeVisible();
   await page.getByRole("button", { name: "重設" }).click();
   await expect(results).toHaveCount(24);
   await page.locator(".playlist-filters summary").click();

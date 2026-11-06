@@ -5448,56 +5448,377 @@ metadataVerifiedAt: "2026-09-07",
     ]
   },
   {
-    anilistId: 108430,
-    slug: "given",
-    startDate: "2019-07-11",
-    titleJa: "ギヴン",
-    titleZhHant: "GIVEN 被贈與的未來",
-    titleRomaji: "Given",
-    officialSiteUrl: "https://movie2020.given-anime.com/tv/",
-    animeThemesUrl: "https://animethemes.moe/anime/given",
-    identifierSource: {
-      label: "AnimeThemes：作品識別交叉連結",
-      url: "https://api.animethemes.moe/anime/given?include=resources",
-      language: "en"
-    },
-    broadcastLabel: "日本電視首播／時間未整理",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "キヅアト",
-        artistDisplayName: "センチミリメンタル",
-        releaseDate: "2019-09-11"
-      },
-      {
-        type: "ED",
-        sequence: 2,
-        titleJa: "まるつけ",
-        artistDisplayName: "ギヴン",
-        releaseDate: "2019-09-18",
-        versionLabel: "ギヴン演唱版",
-        credits: [
-          {
-            name: "矢野奨吾",
-            role: "vocals"
-          },
-          {
-            name: "センチミリメンタル",
-            role: "lyrics"
-          },
-          {
-            name: "センチミリメンタル",
-            role: "composition"
-          },
-          {
-            name: "センチミリメンタル",
-            role: "arrangement"
-          }
-        ]
-      }
-    ]
+  "anilistId": 108430,
+  "slug": "given",
+  "startDate": "2019-07-11",
+  "titleJa": "ギヴン",
+  "titleZhHant": "GIVEN 被贈與的未來",
+  "titleRomaji": "Given",
+  "officialSiteUrl": "https://movie2020.given-anime.com/tv/",
+  "animeThemesUrl": "https://animethemes.moe/anime/given",
+  "identifierSource": {
+    "label": "AnimeThemes：作品識別交叉連結",
+    "url": "https://api.animethemes.moe/anime/given?include=resources",
+    "language": "en"
   },
+  "broadcastLabel": "原2019 TV：7/11節目日起フジテレビ「ノイタミナ」週四常規24:55（JST），初回25:10、FOD25:40另列。2020春MX再播編排為4/3節目日起週五24:00–24:30，完整30分鐘槽非淨片長；未據此新增逐曲季度，電影另分。",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "キヅアト",
+      "artistDisplayName": "センチミリメンタル",
+      "releaseDate": "2019-09-11",
+      "id": "given-op-1",
+      "songId": "given-op-1-song",
+      "seasonIds": [
+        "2019-summer"
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/given",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-07"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://movie2020.given-anime.com/tv/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-07"
+        },
+        {
+          "url": "https://movie2020.given-anime.com/tv/music/",
+          "label": "原TV官方MUSIC：本曲曲名、演唱及用途",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://www.e-muse.com/zh/animation/201907-given/",
+          "label": "木棉花版權代理中文正文：本曲名義及OP／ED",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://nijimen.kusuguru.co.jp/topics/66106",
+          "label": "にじめん：同TV系列原OP／ED與完整演唱名義交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://movie2020.given-anime.com/tv/news/article/008.html",
+          "label": "原TV首次播出與季度：官方2019公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "given-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://movie2020.given-anime.com/tv/music/",
+            "https://www.e-muse.com/zh/animation/201907-given/"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "given-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://movie2020.given-anime.com/tv/music/",
+            "https://www.e-muse.com/zh/animation/201907-given/",
+            "https://movie2020.given-anime.com/tv/news/article/008.html"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "song",
+          "targetId": "given-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://nijimen.kusuguru.co.jp/topics/66106"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "given-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://nijimen.kusuguru.co.jp/topics/66106"
+          ],
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters"
+          ],
+          "note": "原2019夏TV用途已核；2020春同系列再播有節目表及交叉報道，第一方逐曲延用正文未取得，未加2020用途季度或作品會員。",
+          "resumeWhen": "有可讀第一方同版再播及本曲延用／逐話日期資料時，再補2020季度；無新證據不重搜已查缺口。",
+          "checkedAt": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "まるつけ",
+      "artistDisplayName": "ギヴン",
+      "releaseDate": "2019-09-18",
+      "versionLabel": "ギヴン演唱版",
+      "credits": [
+        {
+          "name": "矢野奨吾",
+          "role": "vocals"
+        },
+        {
+          "name": "センチミリメンタル",
+          "role": "lyrics"
+        },
+        {
+          "name": "センチミリメンタル",
+          "role": "composition"
+        },
+        {
+          "name": "センチミリメンタル",
+          "role": "arrangement"
+        }
+      ],
+      "id": "given-ed-2",
+      "songId": "given-ed-2-song",
+      "seasonIds": [
+        "2019-summer"
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/given",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-07"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://movie2020.given-anime.com/tv/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-07"
+        },
+        {
+          "url": "https://movie2020.given-anime.com/tv/music/",
+          "label": "原TV官方MUSIC：本曲曲名、演唱及用途",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://www.e-muse.com/zh/animation/201907-given/",
+          "label": "木棉花版權代理中文正文：本曲名義及OP／ED",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://nijimen.kusuguru.co.jp/topics/66106",
+          "label": "にじめん：同TV系列原OP／ED與完整演唱名義交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://movie2020.given-anime.com/tv/news/article/008.html",
+          "label": "原TV首次播出與季度：官方2019公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "given-ed-2-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://movie2020.given-anime.com/tv/music/",
+            "https://www.e-muse.com/zh/animation/201907-given/"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "given-ed-2",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://movie2020.given-anime.com/tv/music/",
+            "https://www.e-muse.com/zh/animation/201907-given/",
+            "https://movie2020.given-anime.com/tv/news/article/008.html"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "song",
+          "targetId": "given-ed-2-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://nijimen.kusuguru.co.jp/topics/66106"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "given-ed-2",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://nijimen.kusuguru.co.jp/topics/66106"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://movie2020.given-anime.com/tv/music/"
+          ],
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters"
+          ],
+          "note": "原2019夏TV用途已核；2020春同系列再播有節目表及交叉報道，第一方逐曲延用正文未取得，未加2020用途季度或作品會員。",
+          "resumeWhen": "有可讀第一方同版再播及本曲延用／逐話日期資料時，再補2020季度；無新證據不重搜已查缺口。",
+          "checkedAt": "2026-11-05"
+        }
+      ]
+    }
+  ],
+  "sourceReferenceUrls": [
+    "https://acgsecrets.hk/bangumi/201907/",
+    "https://www.kansou.me/archive/2019_summer.html",
+    "https://movie2020.given-anime.com/tv/news/article/008.html",
+    "https://s.mxtv.jp/company/press/press2019_900001.pdf",
+    "https://nijimen.kusuguru.co.jp/topics/66106",
+    "https://www.e-muse.com/zh/animation/201907-given/"
+  ],
+  "metadataVerifiedAt": "2026-11-05",
+  "metadataSources": [
+    {
+      "label": "動畫官方網站：作品與播出資料",
+      "url": "https://movie2020.given-anime.com/tv/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-09-07"
+    },
+    {
+      "label": "AnimeThemes：作品識別交叉連結",
+      "url": "https://api.animethemes.moe/anime/given?include=resources",
+      "language": "en",
+      "role": "identifier",
+      "verifiedAt": "2026-09-07"
+    },
+    {
+      "label": "繁體中文季度列表交叉對照",
+      "url": "https://youranimes.tw/bangumi/201907",
+      "language": "zh-Hant",
+      "role": "localized_cross_check",
+      "verifiedAt": "2026-09-07"
+    },
+    {
+      "label": "AnimeThemes：OP／ED 曲目交叉核對",
+      "url": "https://animethemes.moe/anime/given",
+      "language": "en",
+      "role": "theme_cross_check",
+      "verifiedAt": "2026-09-07"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://acgsecrets.hk/bangumi/201907/",
+      "language": "zh-Hant",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-07"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://www.kansou.me/archive/2019_summer.html",
+      "language": "ja",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-07"
+    },
+    {
+      "url": "https://movie2020.given-anime.com/tv/music/",
+      "label": "原TV官方MUSIC：OP／ED、演唱版本及ED創作名單",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://movie2020.given-anime.com/tv/news/article/008.html",
+      "label": "原TV官方：2019節目日、常規／初回及FOD時間分列",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://www.e-muse.com/zh/animation/201907-given/",
+      "label": "木棉花版權代理：正式中文名、原TV及兩曲",
+      "role": "first_party",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://s.mxtv.jp/company/press/press2019_900001.pdf",
+      "label": "TOKYO MX 2020春原表：同名節目24:00–24:30完整槽；非逐曲用途證據",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://nijimen.kusuguru.co.jp/topics/66106",
+      "label": "2020同TV系列再放送與原OP／ED交叉核對",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    }
+  ],
+  "broadcastTimeJst": "24:55"
+},
   {
     anilistId: 107490,
     slug: "machikado-mazoku",

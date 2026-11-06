@@ -768,7 +768,116 @@ export const curated2023SummerSeeds: CuratedCatalogAnimeSeed[] = [
   {"anilistId":155168,"id":"curated-155168","slug":"hataraku-maou-sama-2nd-season","seasonIds":["2023-summer"],"startDate":"2023-07-13","titleJa":"はたらく魔王さま！！2nd Season","titleZhHant":"打工吧！！魔王大人（第2期）","titleRomaji":"Hataraku Maou-sama!! 2nd Season","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx155168-x7TUG4F0HnQy.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/155168-S9lR447kRCwF.jpg","editorialWeekday":4,"broadcastLabel":"日本2023年2nd Season原TV：TOKYO MX／BS11 2023年7月13日（木）23:30；AT-X翌日22:00；與2022年1st Season及2024年追加串流分開","status":"finished","officialSiteUrl":"https://maousama.jp/","anilistUrl":"https://anilist.co/anime/155168","imageSourceUrl":"https://anilist.co/anime/155168","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-summer?display=list_detailed","https://bgm.tv/subject/403225"],"animeThemesUrl":"https://animethemes.moe/anime/hataraku_maou_sama_2nd_season","themes":[{"type":"OP","sequence":1,"titleJa":"光のない街","artistDisplayName":"nano.RIPE","id":"hataraku-maou-sama-2nd-season-op-1","songId":"hataraku-maou-sama-2nd-season-op-1-song","sources":[{"label":"動畫官方網站","url":"https://maousama.jp/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/hataraku_maou_sama_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://maousama.jp/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://maousama.jp/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://maousama.jp/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-summer"],"credits":[{"name":"きみコ","role":"lyrics"},{"name":"佐々木淳","role":"composition"},{"name":"佐々木淳","role":"arrangement"},{"name":"nano.RIPE","role":"vocals"}],"titleRomaji":"Hikari no Nai Machi","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://maousama.jp/music/"],"verifiedAt":"2026-10-22","targetId":"hataraku-maou-sama-2nd-season-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://maousama.jp/music/"],"verifiedAt":"2026-10-22","targetId":"hataraku-maou-sama-2nd-season-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/hataraku_maou_sama_2nd_season"],"verifiedAt":"2026-09-01","targetId":"hataraku-maou-sama-2nd-season-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/hataraku_maou_sama_2nd_season"],"verifiedAt":"2026-09-01","targetId":"hataraku-maou-sama-2nd-season-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://maousama.jp/music/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈光のない街〉：官網Music 2nd OPENING THEME明光のない街／nano.RIPE，本曲INDEX明きみコ詞、佐々木淳曲編；未把同商品重收2013年月花等曲當本期新用途，也未把樂團profile當逐人歌唱證據。 舊AnimeThemes與未重讀來源保留2026-09-01日期；本輪只有實讀的新URL用2026-10-22。","resumeWhen":"詳細階段沿本曲第一方來源補仍缺的詞曲編、逐曲演唱、錄音、官方影片形式、發行品及正版平台；不由團體成員／cast名冊推全員歌唱，不由不同MV或CD收錄推新錄音與用途。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":1,"titleJa":"bloomin'","artistDisplayName":"Liyuu","id":"hataraku-maou-sama-2nd-season-ed-1","songId":"hataraku-maou-sama-2nd-season-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://maousama.jp/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/hataraku_maou_sama_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://maousama.jp/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://maousama.jp/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://maousama.jp/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-summer"],"credits":[{"name":"しらゆき美優","role":"lyrics"},{"name":"白戸佑輔","role":"composition"},{"name":"白戸佑輔","role":"arrangement"},{"name":"Liyuu","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://maousama.jp/music/"],"verifiedAt":"2026-10-22","targetId":"hataraku-maou-sama-2nd-season-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://maousama.jp/music/"],"verifiedAt":"2026-10-22","targetId":"hataraku-maou-sama-2nd-season-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/hataraku_maou_sama_2nd_season"],"verifiedAt":"2026-09-01","targetId":"hataraku-maou-sama-2nd-season-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/hataraku_maou_sama_2nd_season"],"verifiedAt":"2026-09-01","targetId":"hataraku-maou-sama-2nd-season-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://maousama.jp/music/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈bloomin'〉：官網Music 2nd ENDING THEME明bloomin’／Liyuu，留言亦寫bloomin'；保留既有直引號拼法。本曲INDEX明しらゆき美優詞、白戸佑輔曲編；未將同CDミオソティス作者套本曲，亦不套Liella!角色名義。 舊AnimeThemes與未重讀來源保留2026-09-01日期；本輪只有實讀的新URL用2026-10-22。","resumeWhen":"詳細階段沿本曲第一方來源補仍缺的詞曲編、逐曲演唱、錄音、官方影片形式、發行品及正版平台；不由團體成員／cast名冊推全員歌唱，不由不同MV或CD收錄推新錄音與用途。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"}],"verifiedAt":"2026-09-01","metadataVerifiedAt":"2026-09-01","metadataSources":[{"url":"https://maousama.jp/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://maousama.jp/music/","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"broadcastTimeJst":"23:30"},
   {"anilistId":163542,"id":"curated-163542","slug":"spy-kyoushitsu-2nd-season","seasonIds":["2023-summer"],"startDate":"2023-07-13","titleJa":"スパイ教室 2nd season","titleZhHant":"間諜教室（第2期）","titleRomaji":"Spy Kyoushitsu 2nd season","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163542-p2TquRJYjPty.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/163542-nV57cYAKtURn.jpg","editorialWeekday":4,"broadcastLabel":"原第2期TV：AT-X 2023年7月13日（木）22:30最早；TOKYO MX／BS日テレ同節目表日24:30（實際7/14）較後，ABEMA／dアニメ23:30屬配信且晚於AT-X","status":"finished","officialSiteUrl":"https://spyroom-anime.com/","anilistUrl":"https://anilist.co/anime/163542","imageSourceUrl":"https://anilist.co/anime/163542","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-summer?display=list_detailed","https://bgm.tv/subject/428418"],"animeThemesUrl":"https://animethemes.moe/anime/spy_kyoushitsu_2nd_season","themes":[{"type":"OP","sequence":1,"titleJa":"楽園","artistDisplayName":"nonoc","id":"spy-kyoushitsu-2nd-season-op-1","songId":"spy-kyoushitsu-2nd-season-op-1-song","sources":[{"label":"動畫官方網站","url":"https://spyroom-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/spy_kyoushitsu_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://spyroom-anime.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://spyroom-anime.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://spyroom-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-summer"],"credits":[{"name":"深川琴美","role":"lyrics"},{"name":"fu_mou","role":"composition"},{"name":"fu_mou","role":"arrangement"},{"name":"グシミヤギ ヒデユキ","role":"arrangement"},{"name":"nonoc","role":"vocals"}],"titleRomaji":"Rakuen","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://spyroom-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"spy-kyoushitsu-2nd-season-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://spyroom-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"spy-kyoushitsu-2nd-season-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/spy_kyoushitsu_2nd_season"],"verifiedAt":"2026-09-01","targetId":"spy-kyoushitsu-2nd-season-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/spy_kyoushitsu_2nd_season"],"verifiedAt":"2026-09-01","targetId":"spy-kyoushitsu-2nd-season-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://spyroom-anime.com/music/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈楽園〉：官方2nd season OP欄明原名、nonoc及詞曲編；保留兩位明列編曲者。","resumeWhen":"詳細階段沿用本曲已核原期來源，只補有逐曲第一方證據而尚缺的作者、個別演唱、錄音、官方影片、發行品／收錄與正版平台；MV或creditless不自動證full／TV，商品曲表不自動證動畫用途，不由全cast或團隊簡介推全員歌唱。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":1,"titleJa":"ニューサンス","artistDisplayName":"sajou no hana","id":"spy-kyoushitsu-2nd-season-ed-1","songId":"spy-kyoushitsu-2nd-season-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://spyroom-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/spy_kyoushitsu_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://spyroom-anime.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://spyroom-anime.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://spyroom-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-summer"],"credits":[{"name":"渡辺翔","role":"lyrics"},{"name":"渡辺翔","role":"composition"},{"name":"sajou no hana","role":"arrangement"},{"name":"sajou no hana","role":"vocals"}],"titleRomaji":"Nuisance","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://spyroom-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"spy-kyoushitsu-2nd-season-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://spyroom-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"spy-kyoushitsu-2nd-season-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/spy_kyoushitsu_2nd_season"],"verifiedAt":"2026-09-01","targetId":"spy-kyoushitsu-2nd-season-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/spy_kyoushitsu_2nd_season"],"verifiedAt":"2026-09-01","targetId":"spy-kyoushitsu-2nd-season-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://spyroom-anime.com/music/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈ニューサンス〉：官方2nd season ED欄明原名、演唱及詞曲編；不由團員簡介推個別歌唱。","resumeWhen":"詳細階段沿用本曲已核原期來源，只補有逐曲第一方證據而尚缺的作者、個別演唱、錄音、官方影片、發行品／收錄與正版平台；MV或creditless不自動證full／TV，商品曲表不自動證動畫用途，不由全cast或團隊簡介推全員歌唱。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":2,"titleJa":"Pausing Shutter","artistDisplayName":"モニカ（CV：悠木 碧）","id":"spy-kyoushitsu-2nd-season-ed-2","songId":"spy-kyoushitsu-2nd-season-ed-2-song","sources":[{"label":"動畫官方網站","url":"https://spyroom-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/spy_kyoushitsu_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://spyroom-anime.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://spyroom-anime.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://spyroom-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-summer"],"credits":[{"name":"真崎エリカ","role":"lyrics"},{"name":"河合泰志","role":"composition"},{"name":"水野谷怜","role":"arrangement"},{"name":"悠木 碧（モニカ）","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://spyroom-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"spy-kyoushitsu-2nd-season-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://spyroom-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"spy-kyoushitsu-2nd-season-ed-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/spy_kyoushitsu_2nd_season"],"verifiedAt":"2026-09-01","targetId":"spy-kyoushitsu-2nd-season-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/spy_kyoushitsu_2nd_season"],"verifiedAt":"2026-09-01","targetId":"spy-kyoushitsu-2nd-season-ed-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://spyroom-anime.com/music/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈Pausing Shutter〉：官方2nd season「SPECIAL ENDING」欄與「スペシャルエンディングテーマCD」逐曲明原名、角色歌唱及作者，沿用既有AnimeThemes特殊ED交叉與原ID／序號。歌曲用途為summer；File04商品10月發售不當fall用曲。","resumeWhen":"詳細階段沿用本曲已核原期來源，只補有逐曲第一方證據而尚缺的作者、個別演唱、錄音、官方影片、發行品／收錄與正版平台；MV或creditless不自動證full／TV，商品曲表不自動證動畫用途，不由全cast或團隊簡介推全員歌唱。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":3,"titleJa":"ドレス・ハート・ルージュ","artistDisplayName":"ティア（CV：上坂すみれ）","id":"spy-kyoushitsu-2nd-season-ed-3","songId":"spy-kyoushitsu-2nd-season-ed-3-song","sources":[{"label":"動畫官方網站","url":"https://spyroom-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/spy_kyoushitsu_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://spyroom-anime.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://spyroom-anime.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://spyroom-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-summer"],"credits":[{"name":"真崎エリカ","role":"lyrics"},{"name":"本多友紀","role":"composition"},{"name":"本多友紀","role":"arrangement"},{"name":"上坂すみれ（ティア）","role":"vocals"}],"titleRomaji":"Dress Heart Rouge","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://spyroom-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"spy-kyoushitsu-2nd-season-ed-3-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://spyroom-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"spy-kyoushitsu-2nd-season-ed-3"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/spy_kyoushitsu_2nd_season"],"verifiedAt":"2026-09-01","targetId":"spy-kyoushitsu-2nd-season-ed-3-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/spy_kyoushitsu_2nd_season"],"verifiedAt":"2026-09-01","targetId":"spy-kyoushitsu-2nd-season-ed-3"},{"target":"credits","fields":["credits"],"sourceUrls":["https://spyroom-anime.com/music/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈ドレス・ハート・ルージュ〉：官方2nd season「SPECIAL ENDING」欄與「スペシャルエンディングテーマCD」逐曲明原名、角色歌唱及作者，沿用既有AnimeThemes特殊ED交叉與原ID／序號。歌曲用途為summer；File04商品10月發售不當fall用曲。","resumeWhen":"詳細階段沿用本曲已核原期來源，只補有逐曲第一方證據而尚缺的作者、個別演唱、錄音、官方影片、發行品／收錄與正版平台；MV或creditless不自動證full／TV，商品曲表不自動證動畫用途，不由全cast或團隊簡介推全員歌唱。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":4,"titleJa":"Pureness×Careless","artistDisplayName":"アネット（CV：楠木ともり）","id":"spy-kyoushitsu-2nd-season-ed-4","songId":"spy-kyoushitsu-2nd-season-ed-4-song","sources":[{"label":"動畫官方網站","url":"https://spyroom-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/spy_kyoushitsu_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://spyroom-anime.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://spyroom-anime.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://spyroom-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-summer"],"credits":[{"name":"Kijibato","role":"lyrics"},{"name":"Kijibato","role":"composition"},{"name":"Kijibato","role":"arrangement"},{"name":"楠木ともり（アネット）","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://spyroom-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"spy-kyoushitsu-2nd-season-ed-4-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://spyroom-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"spy-kyoushitsu-2nd-season-ed-4"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/spy_kyoushitsu_2nd_season"],"verifiedAt":"2026-09-01","targetId":"spy-kyoushitsu-2nd-season-ed-4-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/spy_kyoushitsu_2nd_season"],"verifiedAt":"2026-09-01","targetId":"spy-kyoushitsu-2nd-season-ed-4"},{"target":"credits","fields":["credits"],"sourceUrls":["https://spyroom-anime.com/music/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈Pureness×Careless〉：官方2nd season「SPECIAL ENDING」欄與「スペシャルエンディングテーマCD」逐曲明原名、角色歌唱及作者，沿用既有AnimeThemes特殊ED交叉與原ID／序號。歌曲用途為summer；File04商品10月發售不當fall用曲。","resumeWhen":"詳細階段沿用本曲已核原期來源，只補有逐曲第一方證據而尚缺的作者、個別演唱、錄音、官方影片、發行品／收錄與正版平台；MV或creditless不自動證full／TV，商品曲表不自動證動畫用途，不由全cast或團隊簡介推全員歌唱。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":5,"titleJa":"花の日","artistDisplayName":"リリィ（CV：雨宮 天）","id":"spy-kyoushitsu-2nd-season-ed-5","songId":"spy-kyoushitsu-2nd-season-ed-5-song","sources":[{"label":"動畫官方網站","url":"https://spyroom-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/spy_kyoushitsu_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://spyroom-anime.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://spyroom-anime.com/onair/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://spyroom-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-summer"],"credits":[{"name":"真崎エリカ","role":"lyrics"},{"name":"本多友紀","role":"composition"},{"name":"大熊淳生","role":"arrangement"},{"name":"雨宮 天（リリィ）","role":"vocals"}],"titleRomaji":"Hana no Hi","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://spyroom-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"spy-kyoushitsu-2nd-season-ed-5-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://spyroom-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"spy-kyoushitsu-2nd-season-ed-5"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/spy_kyoushitsu_2nd_season"],"verifiedAt":"2026-09-01","targetId":"spy-kyoushitsu-2nd-season-ed-5-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/spy_kyoushitsu_2nd_season"],"verifiedAt":"2026-09-01","targetId":"spy-kyoushitsu-2nd-season-ed-5"},{"target":"credits","fields":["credits"],"sourceUrls":["https://spyroom-anime.com/music/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈花の日〉：官方2nd season「SPECIAL ENDING」欄與「スペシャルエンディングテーマCD」逐曲明原名、角色歌唱及作者，沿用既有AnimeThemes特殊ED交叉與原ID／序號。歌曲用途為summer；File04商品10月發售不當fall用曲。","resumeWhen":"詳細階段沿用本曲已核原期來源，只補有逐曲第一方證據而尚缺的作者、個別演唱、錄音、官方影片、發行品／收錄與正版平台；MV或creditless不自動證full／TV，商品曲表不自動證動畫用途，不由全cast或團隊簡介推全員歌唱。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"}],"verifiedAt":"2026-09-01","metadataVerifiedAt":"2026-09-01","metadataSources":[{"url":"https://spyroom-anime.com/onair/","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://spyroom-anime.com/music/","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"broadcastTimeJst":"22:30"},
   {"anilistId":150972,"id":"curated-150972","slug":"shiro-seijo-to-kuro-bokushi","seasonIds":["2023-summer"],"startDate":"2023-07-13","titleJa":"白聖女と黒牧師","titleZhHant":"白聖女與黑牧師","titleRomaji":"Shiro Seijo to Kuro Bokushi","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx150972-3gNJvsyu7lwP.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/150972-pqOOBVrxcTz0.jpg","editorialWeekday":4,"broadcastLabel":"原TV：TOKYO MX／とちぎテレビ／群馬テレビ／BS11節目表2023年7月12日（水）24:30，實際曆日7月13日00:30；25:00配信較後","status":"finished","officialSiteUrl":"https://shiroseijyo-anime.com/","anilistUrl":"https://anilist.co/anime/150972","imageSourceUrl":"https://anilist.co/anime/150972","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-summer?display=list_detailed","https://bgm.tv/subject/387822"],"animeThemesUrl":"https://animethemes.moe/anime/shiro_seijo_to_kuro_bokushi","themes":[{"type":"OP","sequence":1,"titleJa":"コイセカイ","artistDisplayName":"ClariS","id":"shiro-seijo-to-kuro-bokushi-op-1","songId":"shiro-seijo-to-kuro-bokushi-op-1-song","sources":[{"label":"動畫官方網站","url":"https://shiroseijyo-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/shiro_seijo_to_kuro_bokushi","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://shiroseijyo-anime.com/music/op.html","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.aniplex.co.jp/lineup/shiroseijyo/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://shiroseijyo-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-summer"],"credits":[{"name":"浅見武男","role":"lyrics"},{"name":"浅見武男","role":"composition"},{"name":"ClariS","role":"vocals"}],"titleRomaji":"Koi Sekai","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://shiroseijyo-anime.com/music/op.html"],"verifiedAt":"2026-10-22","targetId":"shiro-seijo-to-kuro-bokushi-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://shiroseijyo-anime.com/music/op.html"],"verifiedAt":"2026-10-22","targetId":"shiro-seijo-to-kuro-bokushi-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/shiro_seijo_to_kuro_bokushi"],"verifiedAt":"2026-09-01","targetId":"shiro-seijo-to-kuro-bokushi-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/shiro_seijo_to_kuro_bokushi"],"verifiedAt":"2026-09-01","targetId":"shiro-seijo-to-kuro-bokushi-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://shiroseijyo-anime.com/music/op.html"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈コイセカイ〉：官方OP頁明曲名、ClariS與作詞・作曲浅見武男；未明編曲，不從團隊簡介推全員演唱。","resumeWhen":"詳細階段沿用本曲已核原期來源，只補有逐曲第一方證據而尚缺的作者、個別演唱、錄音、官方影片、發行品／收錄與正版平台；MV或creditless不自動證full／TV，商品曲表不自動證動畫用途，不由全cast或團隊簡介推全員歌唱。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":1,"titleJa":"トコシエスタ","artistDisplayName":"ササノマリイ","id":"shiro-seijo-to-kuro-bokushi-ed-1","songId":"shiro-seijo-to-kuro-bokushi-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://shiroseijyo-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/shiro_seijo_to_kuro_bokushi","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://shiroseijyo-anime.com/music/ed.html","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.aniplex.co.jp/lineup/shiroseijyo/","label":"第一方原期TV日期／時段；先行串流、再播及其他季分開","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://shiroseijyo-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2023-summer"],"credits":[{"name":"ササノマリイ","role":"lyrics"},{"name":"ササノマリイ","role":"composition"},{"name":"ササノマリイ","role":"vocals"}],"titleRomaji":"Toko Siesta","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://shiroseijyo-anime.com/music/ed.html"],"verifiedAt":"2026-10-22","targetId":"shiro-seijo-to-kuro-bokushi-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://shiroseijyo-anime.com/music/ed.html"],"verifiedAt":"2026-10-22","targetId":"shiro-seijo-to-kuro-bokushi-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/shiro_seijo_to_kuro_bokushi"],"verifiedAt":"2026-09-01","targetId":"shiro-seijo-to-kuro-bokushi-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/shiro_seijo_to_kuro_bokushi"],"verifiedAt":"2026-09-01","targetId":"shiro-seijo-to-kuro-bokushi-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://shiroseijyo-anime.com/music/ed.html"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈トコシエスタ〉：官方ED頁明曲名、ササノマリイ與作詞・作曲；未明編曲，該欄留缺。","resumeWhen":"詳細階段沿用本曲已核原期來源，只補有逐曲第一方證據而尚缺的作者、個別演唱、錄音、官方影片、發行品／收錄與正版平台；MV或creditless不自動證full／TV，商品曲表不自動證動畫用途，不由全cast或團隊簡介推全員歌唱。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"}],"verifiedAt":"2026-09-01","metadataVerifiedAt":"2026-09-01","metadataSources":[{"url":"https://www.aniplex.co.jp/lineup/shiroseijyo/","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://shiroseijyo-anime.com/music/op.html","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://shiroseijyo-anime.com/music/ed.html","label":"第一方本期曲目與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"broadcastTimeJst":"00:30"},
-  {"anilistId":146646,"id":"curated-146646","slug":"hanma-baki-season-2","seasonIds":["2023-summer"],"startDate":"2023-07-26","titleJa":"範馬刃牙 シーズン２","titleZhHant":"範馬刃牙（第2期）","titleRomaji":"Hanma Baki Season 2","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx146646-RMrHipfzvfTM.jpg","editorialWeekday":3,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://baki-anime.jp/","anilistUrl":"https://anilist.co/anime/146646","imageSourceUrl":"https://anilist.co/anime/146646","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-summer?display=list_detailed"],"themes":[{"type":"OP","sequence":1,"titleJa":"The Beast","artistDisplayName":"和楽器バンド"},{"type":"ED","sequence":1,"titleJa":"WILDER","artistDisplayName":"UPSTART"},{"type":"OP","sequence":2,"titleJa":"Sarracenia","artistDisplayName":"SKY-HI"},{"type":"ED","sequence":2,"titleJa":"Salvia","artistDisplayName":"BE:FIRST"}],"verifiedAt":"2026-09-01"},
+  {
+  "anilistId": 146646,
+  "id": "curated-146646",
+  "slug": "hanma-baki-season-2",
+  "seasonIds": [
+    "2023-summer"
+  ],
+  "startDate": "2023-07-26",
+  "titleJa": "範馬刃牙 シーズン２",
+  "titleZhHant": "範馬刃牙（第2期）",
+  "titleRomaji": "Hanma Baki Season 2",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx146646-RMrHipfzvfTM.jpg",
+  "editorialWeekday": 3,
+  "broadcastLabel": "WEB先行／TV後播：野人戦争編於2023-10-01（日）23:30起MX等。正版WEB同篇「最終形態」24分鐘；TV版單話片長與集序對應仍待核對，配信限定首話及親子喧嘩篇另分。",
+  "status": "finished",
+  "officialSiteUrl": "https://baki-anime.jp/",
+  "anilistUrl": "https://anilist.co/anime/146646",
+  "imageSourceUrl": "https://anilist.co/anime/146646",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://annict.com/works/2023-summer?display=list_detailed"
+  ],
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "The Beast",
+      "artistDisplayName": "和楽器バンド"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "WILDER",
+      "artistDisplayName": "UPSTART"
+    },
+    {
+      "type": "OP",
+      "sequence": 2,
+      "titleJa": "Sarracenia",
+      "artistDisplayName": "SKY-HI"
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "Salvia",
+      "artistDisplayName": "BE:FIRST"
+    }
+  ],
+  "verifiedAt": "2026-09-01",
+  "metadataVerifiedAt": "2026-11-05",
+  "metadataSources": [
+    {
+      "label": "動畫官方網站：作品與播出資料",
+      "url": "https://baki-anime.jp/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-09-01"
+    },
+    {
+      "label": "AniList：作品識別與公開圖像",
+      "url": "https://anilist.co/anime/146646",
+      "language": "en",
+      "role": "identifier",
+      "verifiedAt": "2026-09-01"
+    },
+    {
+      "label": "繁體中文季度列表交叉對照",
+      "url": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+      "language": "zh-Hant",
+      "role": "localized_cross_check",
+      "verifiedAt": "2026-09-01"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://annict.com/works/2023-summer?display=list_detailed",
+      "language": "ja",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-01"
+    },
+    {
+      "url": "https://baki-anime.jp/3rd/hb/news/17648/",
+      "label": "官方2023/8/24原公告：野人戦争編10/1起23:30日本TV",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://baki-anime.jp/3rd/hb/onair/",
+      "label": "官方放送圖：Netflix兩篇與2023/10/1起TV分列，未列TV單話分鐘",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://www.b-ch.com/titles/8691/012",
+      "label": "正版Bandai WEB野人戦争第12話最終形態24分鐘；非TV剪輯版片長證明",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://baki-anime.jp/3rd/hb/story/24/",
+      "label": "官方通算第24話最終形態：與正版WEB同題故事對應，非TV片長證據",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    }
+  ]
+},
   {"anilistId":204545,"id":"curated-204545","slug":"heart-cocktail-colorful-natsu-hen","seasonIds":["2023-summer"],"startDate":"2023-07-31","titleJa":"ハートカクテル カラフル 夏編","titleZhHant":"心情雞尾酒 Colorful 夏篇","titleRomaji":"Heart Cocktail Colorful: Natsu-hen","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx204545-JWQQuPm3pHtR.jpg","editorialWeekday":1,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://www.web.nhk/tv/pl/series-tep-PYL2917V5V","anilistUrl":"https://anilist.co/anime/204545","imageSourceUrl":"https://anilist.co/anime/204545","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-summer?display=list_detailed"],"themes":[],"verifiedAt":"2026-09-01"},
   {
   "anilistId": 159926,
@@ -1227,11 +1336,258 @@ export const curated2023SummerSeeds: CuratedCatalogAnimeSeed[] = [
   {"anilistId":168999,"id":"curated-168999","slug":"watashi-no-oshi-wa-akuyaku-reijou-rae-to-claire-ni-ichimon-ittou","seasonIds":["2023-summer"],"startDate":"2023-08-25","titleJa":"私の推しは悪役令嬢。 レイとクレアに一問一答","titleZhHant":"我推是反派大小姐 雷與克蕾雅一問一答","titleRomaji":"Watashi no Oshi wa Akuyaku Reijou.: Rae to Claire ni Ichimon Ittou","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b168999-Ae8aWMINMtFb.jpg","editorialWeekday":5,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://www.youtube.com/watch?v=9u0mFNj-uO0&list=PLQyvkHBZA_xCrj7kEO5xiyMCYawg_yQaB","anilistUrl":"https://anilist.co/anime/168999","imageSourceUrl":"https://anilist.co/anime/168999","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-summer?display=list_detailed"],"themes":[],"verifiedAt":"2026-09-01"},
   {"anilistId":177166,"id":"curated-177166","slug":"bakugan","seasonIds":["2023-summer"],"startDate":"2023-09-01","titleJa":"爆丸","titleZhHant":"爆丸","titleRomaji":"Bakugan","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177166-zqSHPKQ7bqco.jpg","editorialWeekday":5,"broadcastLabel":"2023新世代：發行方排定9/1起Netflix指定地區、9/23起美國Disney XD；英日語首2話Roblox先行另列。日本TV與本體片長仍待核。","status":"finished","officialSiteUrl":"https://www.netflix.com/title/81659233","anilistUrl":"https://anilist.co/anime/177166","imageSourceUrl":"https://anilist.co/anime/177166","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-summer?display=list_detailed"],"themes":[],"verifiedAt":"2026-09-01","metadataSources":[{"label":"動畫官方網站：作品與播出資料","url":"https://www.netflix.com/title/81659233","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AniList：作品識別與公開圖像","url":"https://anilist.co/anime/177166","language":"en","role":"identifier","verifiedAt":"2026-09-01"},{"label":"繁體中文季度列表交叉對照","url":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","language":"zh-Hant","role":"localized_cross_check","verifiedAt":"2026-09-01"},{"label":"季度首播公開來源","url":"https://annict.com/works/2023-summer?display=list_detailed","language":"ja","role":"broadcast_cross_check","verifiedAt":"2026-09-01"},{"url":"https://spinmaster.mediaroom.com/2023-07-31-Calling-all-Brawlers,-Spin-Master-Presents-An-All-New-Generation-of-Bakugan-R-Premiering-on-Netflix-on-September-1-and-on-Disney-XD-on-September-23","label":"Spin Master原公告：2023新世代Netflix指定地區／美國TV及先行活動分開","role":"first_party","language":"en","verifiedAt":"2026-10-30"},{"url":"https://www.awn.com/news/new-bakugan-series-coming-netflix-and-disney-xd","label":"AWN原期報道：2023新世代海外發行安排交叉","role":"broadcast_cross_check","language":"en","verifiedAt":"2026-10-30"},{"url":"https://zh.wikipedia.org/wiki/%E7%88%86%E4%B8%B8_(2023)","label":"中文維基：2023重啟與其他世代分開；日本TV及片長未證","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-30"}],"metadataVerifiedAt":"2026-10-30","themeAvailability":"pending_verification"},
   {"anilistId":168092,"id":"curated-168092","slug":"houkago-no-breath","seasonIds":["2023-summer"],"startDate":"2023-09-06","titleJa":"放課後のブレス","titleZhHant":"放學後的呼吸","titleRomaji":"Houkago no Breath","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx168092-PS3WhYgF42p0.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/168092-exo18Qssb1zu.jpg","editorialWeekday":3,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://www.pokemon.co.jp/ex/sv/ja/sp_anime/","anilistUrl":"https://anilist.co/anime/168092","imageSourceUrl":"https://anilist.co/anime/168092","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-summer?display=list_detailed"],"themes":[],"verifiedAt":"2026-09-01"},
-  {"anilistId":160831,"id":"curated-160831","slug":"gamera-rebirth","seasonIds":["2023-summer"],"startDate":"2023-09-07","titleJa":"GAMERA -Rebirth-","titleZhHant":"GAMERA -Rebirth-","titleRomaji":"GAMERA: Rebirth","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx160831-ZAzJOREityQa.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/160831-lWjkTF2p1Xv9.jpg","editorialWeekday":4,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://gamera-rebirth.com/","anilistUrl":"https://anilist.co/anime/160831","imageSourceUrl":"https://anilist.co/anime/160831","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-summer?display=list_detailed"],"themes":[{"type":"OP","sequence":1,"titleJa":"夏暁","artistDisplayName":"WANIMA"},{"type":"ED","sequence":1,"titleJa":"FLY & DIVE","artistDisplayName":"WANIMA"}],"verifiedAt":"2026-09-01"},
+  {
+  "anilistId": 160831,
+  "id": "curated-160831",
+  "slug": "gamera-rebirth",
+  "seasonIds": [
+    "2023-summer"
+  ],
+  "startDate": "2023-09-07",
+  "titleJa": "GAMERA -Rebirth-",
+  "titleZhHant": "GAMERA -Rebirth-",
+  "titleRomaji": "GAMERA: Rebirth",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx160831-ZAzJOREityQa.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/160831-lWjkTF2p1Xv9.jpg",
+  "editorialWeekday": 4,
+  "broadcastLabel": "WEB先行／TV再編集：Netflix原6話重構為NHK全12話TV版，2025-04-05（土）23:45起。TV版單話片長尚未核對，兩版本另分。",
+  "status": "finished",
+  "officialSiteUrl": "https://gamera-rebirth.com/",
+  "anilistUrl": "https://anilist.co/anime/160831",
+  "imageSourceUrl": "https://anilist.co/anime/160831",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://annict.com/works/2023-summer?display=list_detailed"
+  ],
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "夏暁",
+      "artistDisplayName": "WANIMA"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "FLY & DIVE",
+      "artistDisplayName": "WANIMA"
+    }
+  ],
+  "verifiedAt": "2026-09-01",
+  "metadataVerifiedAt": "2026-11-05",
+  "metadataSources": [
+    {
+      "label": "動畫官方網站：作品與播出資料",
+      "url": "https://gamera-rebirth.com/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-09-01"
+    },
+    {
+      "label": "AniList：作品識別與公開圖像",
+      "url": "https://anilist.co/anime/160831",
+      "language": "en",
+      "role": "identifier",
+      "verifiedAt": "2026-09-01"
+    },
+    {
+      "label": "繁體中文季度列表交叉對照",
+      "url": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+      "language": "zh-Hant",
+      "role": "localized_cross_check",
+      "verifiedAt": "2026-09-01"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://annict.com/works/2023-summer?display=list_detailed",
+      "language": "ja",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-01"
+    },
+    {
+      "url": "https://gamera-rebirth.com/news/index00730000.html",
+      "label": "官方再編集公告：Netflix原6話重構為NHK12話TV版，4/5起土曜23:45；未列單話分鐘",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://gamera-rebirth.com/news/index.html",
+      "label": "官方NEWS日期列：上述再編集公告為2025/2/28，並分列TV第1～12話公告",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    }
+  ]
+},
   {"anilistId":169526,"id":"curated-169526","slug":"kanojo-okarishimasu-3rd-season-collab-mini-animation","seasonIds":["2023-summer"],"startDate":"2023-09-09","titleJa":"彼女、お借りします 第3期 コラボミニアニメーション","titleZhHant":"出租女友（第3期）合作迷你動畫","titleRomaji":"Kanojo, Okarishimasu 3rd Season Collab Mini Animation","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx169526-3qLWSywGz4h4.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/169526-0oPGHuPOrvh0.jpg","editorialWeekday":6,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://www.youtube.com/watch?v=OooHAMUwXkM","anilistUrl":"https://anilist.co/anime/169526","imageSourceUrl":"https://anilist.co/anime/169526","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-summer?display=list_detailed","https://bgm.tv/subject/401783"],"themes":[],"verifiedAt":"2026-09-01"},
-  {"anilistId":146472,"id":"curated-146472","slug":"flcl-grunge","seasonIds":["2023-summer"],"startDate":"2023-09-10","titleJa":"フリクリ グランジ","titleZhHant":"FLCL: Grunge","titleRomaji":"FLCL: Grunge","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx146472-1Www8Sr5n3f4.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/146472-MDoWqsdOrmUR.jpg","editorialWeekday":7,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://www.adultswim.com/videos/flcl","anilistUrl":"https://anilist.co/anime/146472","imageSourceUrl":"https://anilist.co/anime/146472","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-summer?display=list_detailed"],"themes":[{"type":"ED","sequence":1,"titleJa":"Vivid Venus","artistDisplayName":"the pillows"}],"verifiedAt":"2026-09-01"},
+  {
+  "anilistId": 146472,
+  "id": "curated-146472",
+  "slug": "flcl-grunge",
+  "seasonIds": [
+    "2023-summer"
+  ],
+  "startDate": "2023-09-10",
+  "titleJa": "フリクリ グランジ",
+  "titleZhHant": "FLCL: Grunge",
+  "titleRomaji": "FLCL: Grunge",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx146472-1Www8Sr5n3f4.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/146472-MDoWqsdOrmUR.jpg",
+  "editorialWeekday": 7,
+  "broadcastLabel": "海外版：Adult Swim本期Grunge的EP2 Shonari／EP3 Orinoko單話入口可讀；原常規播出排程與日本日期尚未核對。其他FLCL系列另分。",
+  "status": "finished",
+  "officialSiteUrl": "https://www.adultswim.com/videos/flcl",
+  "anilistUrl": "https://anilist.co/anime/146472",
+  "imageSourceUrl": "https://anilist.co/anime/146472",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://annict.com/works/2023-summer?display=list_detailed"
+  ],
+  "themes": [
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "Vivid Venus",
+      "artistDisplayName": "the pillows"
+    }
+  ],
+  "verifiedAt": "2026-09-01",
+  "metadataVerifiedAt": "2026-11-05",
+  "metadataSources": [
+    {
+      "label": "動畫官方網站：作品與播出資料",
+      "url": "https://www.adultswim.com/videos/flcl",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-09-01"
+    },
+    {
+      "label": "AniList：作品識別與公開圖像",
+      "url": "https://anilist.co/anime/146472",
+      "language": "en",
+      "role": "identifier",
+      "verifiedAt": "2026-09-01"
+    },
+    {
+      "label": "繁體中文季度列表交叉對照",
+      "url": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+      "language": "zh-Hant",
+      "role": "localized_cross_check",
+      "verifiedAt": "2026-09-01"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://annict.com/works/2023-summer?display=list_detailed",
+      "language": "ja",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-01"
+    },
+    {
+      "url": "https://www.adultswim.com/videos/flcl/shonari",
+      "label": "Adult Swim本期單話正文：Grunge EP2 Shonari／EP3 Orinoko，非原每週排程或首播日證據",
+      "role": "first_party",
+      "language": "en",
+      "verifiedAt": "2026-11-05"
+    }
+  ]
+},
   {"anilistId":157957,"id":"curated-157957","slug":"hi-no-tori-eden-no-sora","seasonIds":["2023-summer"],"startDate":"2023-09-13","titleJa":"火の鳥 エデンの宙","titleZhHant":"火之鳥：伊甸17","titleRomaji":"Hi no Tori: Eden no Sora","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx157957-TtIfo6Pe5yZU.jpg","editorialWeekday":3,"broadcastLabel":"原WEB：2023-09-13 Disney+世界獨家配信；「エデンの宙」與劇場版「エデンの花」片名及結局不同，日本TV與本體片長未核。","status":"finished","officialSiteUrl":"https://www.disneyplus.com/series/phoenix-eden17/6gAZqfKsde3I","anilistUrl":"https://anilist.co/anime/157957","imageSourceUrl":"https://anilist.co/anime/157957","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-summer?display=list_detailed"],"themes":[],"verifiedAt":"2026-09-01","metadataSources":[{"label":"動畫官方網站：作品與播出資料","url":"https://www.disneyplus.com/series/phoenix-eden17/6gAZqfKsde3I","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AniList：作品識別與公開圖像","url":"https://anilist.co/anime/157957","language":"en","role":"identifier","verifiedAt":"2026-09-01"},{"label":"繁體中文季度列表交叉對照","url":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","language":"zh-Hant","role":"localized_cross_check","verifiedAt":"2026-09-01"},{"label":"季度首播公開來源","url":"https://annict.com/works/2023-summer?display=list_detailed","language":"ja","role":"broadcast_cross_check","verifiedAt":"2026-09-01"},{"url":"https://tezukaosamu.net/jp/mushi/entry/26592.html","label":"手塚原作權利方：宙Disney+配信與花劇場版不同結局","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://youranimes.tw/animes/4031","label":"YourAnimes：宙原2023配信版與電影分界交叉","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-30"}],"metadataVerifiedAt":"2026-10-30","themeAvailability":"pending_verification"},
-  {"anilistId":146638,"id":"curated-146638","slug":"kengan-ashura-season-2","seasonIds":["2023-summer"],"startDate":"2023-09-21","titleJa":"ケンガンアシュラ Season2","titleZhHant":"拳願阿修羅 Season 2","titleRomaji":"Kengan Ashura Season 2","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx146638-THVltMZx1WLk.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/146638-TIqQuy61jN4Q.jpg","editorialWeekday":4,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://kengan.net/","anilistUrl":"https://anilist.co/anime/146638","imageSourceUrl":"https://anilist.co/anime/146638","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2023-summer?display=list_detailed"],"animeThemesUrl":"https://animethemes.moe/anime/kengan_ashura_season_2","themes":[{"type":"OP","sequence":1,"titleJa":"RED","artistDisplayName":"SiM"},{"type":"ED","sequence":1,"titleJa":"Shambles","artistDisplayName":"BAND-MAID"}],"verifiedAt":"2026-09-01"},
+  {
+  "anilistId": 146638,
+  "id": "curated-146638",
+  "slug": "kengan-ashura-season-2",
+  "seasonIds": [
+    "2023-summer"
+  ],
+  "startDate": "2023-09-21",
+  "titleJa": "ケンガンアシュラ Season2",
+  "titleZhHant": "拳願阿修羅 Season 2",
+  "titleRomaji": "Kengan Ashura Season 2",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx146638-THVltMZx1WLk.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/146638-TIqQuy61jN4Q.jpg",
+  "editorialWeekday": 4,
+  "broadcastLabel": "WEB先行／TV後播：Season2 Part.1原TV編排10月4日（金）25:00起MX；2025年7月4日起的10話精選放送另分。同TV版單話片長尚未核對，Part.2不混用。",
+  "status": "finished",
+  "officialSiteUrl": "https://kengan.net/",
+  "anilistUrl": "https://anilist.co/anime/146638",
+  "imageSourceUrl": "https://anilist.co/anime/146638",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://annict.com/works/2023-summer?display=list_detailed"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/kengan_ashura_season_2",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "RED",
+      "artistDisplayName": "SiM"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "Shambles",
+      "artistDisplayName": "BAND-MAID"
+    }
+  ],
+  "verifiedAt": "2026-09-01",
+  "metadataVerifiedAt": "2026-11-05",
+  "metadataSources": [
+    {
+      "label": "動畫官方網站：作品與播出資料",
+      "url": "https://kengan.net/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-09-01"
+    },
+    {
+      "label": "AniList：作品識別與公開圖像",
+      "url": "https://anilist.co/anime/146638",
+      "language": "en",
+      "role": "identifier",
+      "verifiedAt": "2026-09-01"
+    },
+    {
+      "label": "繁體中文季度列表交叉對照",
+      "url": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+      "language": "zh-Hant",
+      "role": "localized_cross_check",
+      "verifiedAt": "2026-09-01"
+    },
+    {
+      "label": "AnimeThemes：OP／ED 曲目交叉核對",
+      "url": "https://animethemes.moe/anime/kengan_ashura_season_2",
+      "language": "en",
+      "role": "theme_cross_check",
+      "verifiedAt": "2026-09-01"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://annict.com/works/2023-summer?display=list_detailed",
+      "language": "ja",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-01"
+    },
+    {
+      "url": "https://kengan.net/news/index00270000.html",
+      "label": "官方原Part.1 TV公告：10/4金曜25:00起MX等，正文未列年份",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000000085.000127482.html",
+      "label": "ADK原2025/6/12公告：S2 Part.1精選10話、Part.2本放送16話及Netflix先行，片長未列",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    }
+  ]
+},
 
   {
   "catalogKey": -202323601,

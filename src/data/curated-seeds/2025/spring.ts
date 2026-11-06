@@ -370,7 +370,450 @@ export const curated2025SpringSeeds: CuratedCatalogAnimeSeed[] = [
 },
   {"anilistId":175872,"id":"curated-175872","slug":"isshun-de-chiryou-shiteita-no-ni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru","seasonIds":["2025-spring"],"startDate":"2025-04-03","titleJa":"一瞬で治療していたのに役立たずと追放された天才治癒師、闇ヒーラーとして楽しく生きる","titleZhHant":"瞬間治癒卻被當成廢物踢出隊伍的天才治療師，改當無照治療師快樂過活","titleRomaji":"Isshun de Chiryou Shiteita no ni Yakutatazu to Tsuihou Sareta Tensai Chiyushi, Yami Healer Toshite Tanoshiku Ikiru","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx175872-d55nfiC4WWHO.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/175872-Pb1aTEdwSIyh.jpg","editorialWeekday":4,"broadcastLabel":"日本TV：2025-04-03木曜23:30・TOKYO MX／BS11；地上波同時配信と別に記録","status":"finished","officialSiteUrl":"https://sh-anime.shochiku.co.jp/yamihealer/","anilistUrl":"https://anilist.co/anime/175872","imageSourceUrl":"https://anilist.co/anime/175872","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/12780","https://bgm.tv/subject/484402"],"animeThemesUrl":"https://animethemes.moe/anime/isshun_de_chiryou_shiteita_noni_yakutatazu_to_tsuihou_sareta_tensai_chiyushi_yami_healer_toshite_tanoshiku_ikiru","uzureaUrl":"https://uzurea.net/spring-2025-anime-themes-and-picks/","themes":[{"type":"OP","sequence":1,"titleJa":"ライトメイカー","artistDisplayName":"bokula.","youtubeUrl":"https://www.youtube.com/watch?v=5LGyGq_H34A","id":"isshun-de-chiryou-shiteita-no-ni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-op-1","songId":"isshun-de-chiryou-shiteita-no-ni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-op-1-song","sourceMode":"explicit","sources":[{"label":"SHOCHIKU animeチャンネル【公式】 官方影片","url":"https://www.youtube.com/watch?v=5LGyGq_H34A","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://sh-anime.shochiku.co.jp/yamihealer/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/isshun_de_chiryou_shiteita_noni_yakutatazu_to_tsuihou_sareta_tensai_chiyushi_yami_healer_toshite_tanoshiku_ikiru","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://sh-anime.shochiku.co.jp/yamihealer/music/","label":"動畫官方：本季歌曲原名、演唱名義、用途及同頁明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"YouTube","label":"官方公開影片","url":"https://www.youtube.com/watch?v=5LGyGq_H34A","linkType":"direct_track","region":"GLOBAL"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://sh-anime.shochiku.co.jp/yamihealer/music/"],"verifiedAt":"2026-10-20","targetId":"isshun-de-chiryou-shiteita-no-ni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://sh-anime.shochiku.co.jp/yamihealer/music/"],"verifiedAt":"2026-10-20","targetId":"isshun-de-chiryou-shiteita-no-ni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/isshun_de_chiryou_shiteita_noni_yakutatazu_to_tsuihou_sareta_tensai_chiyushi_yami_healer_toshite_tanoshiku_ikiru"],"verifiedAt":"2026-08-30","targetId":"isshun-de-chiryou-shiteita-no-ni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/isshun_de_chiryou_shiteita_noni_yakutatazu_to_tsuihou_sareta_tensai_chiyushi_yami_healer_toshite_tanoshiku_ikiru"],"verifiedAt":"2026-08-30","targetId":"isshun-de-chiryou-shiteita-no-ni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"isshun-de-chiryou-shiteita-no-ni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"isshun-de-chiryou-shiteita-no-ni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://sh-anime.shochiku.co.jp/yamihealer/music/"],"verifiedAt":"2026-10-20"}],"seasonIds":["2025-spring"],"lastVerifiedAt":"2026-10-20","credits":[{"name":"bokula.","role":"vocals"},{"name":"えい","role":"lyrics"},{"name":"えい","role":"composition"},{"name":"bokula.","role":"arrangement"}]},{"type":"ED","sequence":1,"titleJa":"月に願う","artistDisplayName":"sorato","youtubeUrl":"https://www.youtube.com/watch?v=axXL0rFmpr4","id":"isshun-de-chiryou-shiteita-no-ni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-ed-1","songId":"isshun-de-chiryou-shiteita-no-ni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-ed-1-song","sourceMode":"explicit","sources":[{"label":"SHOCHIKU animeチャンネル【公式】 官方影片","url":"https://www.youtube.com/watch?v=axXL0rFmpr4","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://sh-anime.shochiku.co.jp/yamihealer/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/isshun_de_chiryou_shiteita_noni_yakutatazu_to_tsuihou_sareta_tensai_chiyushi_yami_healer_toshite_tanoshiku_ikiru","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://sh-anime.shochiku.co.jp/yamihealer/music/","label":"動畫官方：本季歌曲原名、演唱名義、用途及同頁明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"YouTube","label":"官方公開影片","url":"https://www.youtube.com/watch?v=axXL0rFmpr4","linkType":"direct_track","region":"GLOBAL"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://sh-anime.shochiku.co.jp/yamihealer/music/"],"verifiedAt":"2026-10-20","targetId":"isshun-de-chiryou-shiteita-no-ni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://sh-anime.shochiku.co.jp/yamihealer/music/"],"verifiedAt":"2026-10-20","targetId":"isshun-de-chiryou-shiteita-no-ni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/isshun_de_chiryou_shiteita_noni_yakutatazu_to_tsuihou_sareta_tensai_chiyushi_yami_healer_toshite_tanoshiku_ikiru"],"verifiedAt":"2026-08-30","targetId":"isshun-de-chiryou-shiteita-no-ni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/isshun_de_chiryou_shiteita_noni_yakutatazu_to_tsuihou_sareta_tensai_chiyushi_yami_healer_toshite_tanoshiku_ikiru"],"verifiedAt":"2026-08-30","targetId":"isshun-de-chiryou-shiteita-no-ni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"isshun-de-chiryou-shiteita-no-ni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"isshun-de-chiryou-shiteita-no-ni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://sh-anime.shochiku.co.jp/yamihealer/music/"],"verifiedAt":"2026-10-20"}],"seasonIds":["2025-spring"],"lastVerifiedAt":"2026-10-20","credits":[{"name":"sorato","role":"vocals"},{"name":"sorato","role":"lyrics"},{"name":"sorato","role":"composition"},{"name":"竹縄 航太","role":"arrangement"}]}],"verifiedAt":"2026-08-30","metadataVerifiedAt":"2026-08-30","metadataSources":[{"url":"https://sh-anime.shochiku.co.jp/yamihealer/onair/","label":"動畫官方：第1期／本季TV首播、時段與配信分別","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://youranimes.tw/bangumi/202504","label":"中文TV索引：作品身分、播出期與時段","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"}],"broadcastTimeJst":"23:30"},
   {"anilistId":179694,"id":"curated-179694","slug":"rock-wa-lady-no-tashinami-deshite","seasonIds":["2025-spring"],"startDate":"2025-04-03","titleJa":"ロックは淑女の嗜みでして","titleZhHant":"搖滾樂是淑女的嗜好","titleRomaji":"Rock wa Lady no Tashinami Deshite","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179694-7zhc0T6IImor.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/179694-wEDYf9cMXKSm.jpg","editorialWeekday":4,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://rocklady.rocks","anilistUrl":"https://anilist.co/anime/179694","imageSourceUrl":"https://anilist.co/anime/179694","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/13709","https://bgm.tv/subject/504678"],"animeThemesUrl":"https://animethemes.moe/anime/rock_wa_lady_no_tashinami_deshite","uzureaUrl":"https://uzurea.net/spring-2025-anime-themes-and-picks/","themes":[{"type":"OP","sequence":1,"titleJa":"Ready to Rock","artistDisplayName":"BAND-MAID","credits":[{"name":"BAND-MAID","role":"vocals"},{"name":"SAIKI","role":"lyrics"},{"name":"BAND-MAID","role":"composition"},{"name":"BAND-MAID","role":"arrangement"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://rocklady.rocks/","linkType":"official_landing_page","region":"JP"},{"platform":"YouTube","label":"官方MV（長度未分類）","url":"https://www.youtube.com/watch?v=eapNDHKbu0M","linkType":"direct_track","region":"UNKNOWN","verifiedAt":"2026-10-18","availability":"unknown"},{"platform":"YouTube","label":"官方creditless OP","url":"https://www.youtube.com/watch?v=yvQJMvms-ok","linkType":"direct_track","region":"UNKNOWN","verifiedAt":"2026-10-18","availability":"unknown"},{"platform":"YouTube","label":"官方Anime Music Video（長度未分類）","url":"https://www.youtube.com/watch?v=JegJ6cSsUgg","linkType":"direct_track","region":"UNKNOWN","verifiedAt":"2026-10-18","availability":"unknown"},{"platform":"YouTube","label":"官方Live Video","url":"https://www.youtube.com/watch?v=5I6VV4HYnW8","linkType":"direct_track","region":"UNKNOWN","verifiedAt":"2026-10-18","availability":"unknown"},{"platform":"Apple Music","label":"確切收錄專輯（Apple Music）","url":"https://music.apple.com/jp/album/1802097606","linkType":"direct_album","region":"JP","verifiedAt":"2026-10-18","availability":"unknown","releaseId":"rock-wa-lady-no-tashinami-deshite-op-1-song-digital"},{"platform":"Spotify","label":"確切收錄專輯（Spotify）","url":"https://open.spotify.com/album/0SsvK9WiXtLRBKw2KQCsHA","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-18","availability":"unknown","releaseId":"rock-wa-lady-no-tashinami-deshite-op-1-song-digital"},{"platform":"YouTube Music","label":"確切收錄專輯（YouTube Music）","url":"https://music.youtube.com/playlist?list=OLAK5uy_kUsQFsmtPCrO76EcD16TTbt_CiEDgtxMI","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-18","availability":"unknown","releaseId":"rock-wa-lady-no-tashinami-deshite-op-1-song-digital"},{"platform":"レコチョク","label":"確切收錄專輯（レコチョク）","url":"https://recochoku.jp/album/A1041291748","linkType":"direct_album","region":"JP","verifiedAt":"2026-10-18","availability":"unknown","releaseId":"rock-wa-lady-no-tashinami-deshite-op-1-song-digital"},{"platform":"mora","label":"確切收錄專輯（mora）","url":"https://mora.jp/package/43000004/PCSP-06381/","linkType":"direct_album","region":"JP","verifiedAt":"2026-10-18","availability":"unknown","releaseId":"rock-wa-lady-no-tashinami-deshite-op-1-song-digital"}],"sources":[{"label":"動畫官方網站","url":"https://rocklady.rocks/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/rock_wa_lady_no_tashinami_deshite","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://bandmaid.tokyo/contents/898327","label":"官方：歌曲、演唱與動畫用途","role":"first_party","language":"ja","verifiedAt":"2026-10-18"},{"url":"https://utaten.com/lyric/mi25031811/","label":"逐曲創作／演唱名單","role":"cross_check","language":"multi","verifiedAt":"2026-10-18"},{"url":"https://bandmaid.tokyo/contents/973161","label":"官方影片／確切平台項目來源","role":"first_party","language":"multi","verifiedAt":"2026-10-18"},{"url":"https://band-maid.lnk.to/Ready_to_Rock","label":"官方影片／確切平台項目來源","role":"first_party","language":"multi","verifiedAt":"2026-10-18"}],"songId":"rock-wa-lady-no-tashinami-deshite-op-1-song","sourceMode":"explicit","seasonIds":["2025-spring"],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://bandmaid.tokyo/contents/898327","https://animethemes.moe/anime/rock_wa_lady_no_tashinami_deshite"],"verifiedAt":"2026-08-30","targetId":"rock-wa-lady-no-tashinami-deshite-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://bandmaid.tokyo/contents/898327","https://animethemes.moe/anime/rock_wa_lady_no_tashinami_deshite"],"verifiedAt":"2026-08-30","targetId":"rock-wa-lady-no-tashinami-deshite-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://utaten.com/lyric/mi25031811/"],"verifiedAt":"2026-10-18"},{"target":"credits","fields":["credits"],"sourceUrls":["https://utaten.com/lyric/mi25031811/"],"verifiedAt":"2026-10-18"},{"target":"credits","fields":["credits"],"sourceUrls":["https://utaten.com/lyric/mi25031811/"],"verifiedAt":"2026-10-18"},{"target":"recording","fields":["title","format","kind"],"sourceUrls":["https://bandmaid.tokyo/contents/898327"],"verifiedAt":"2026-10-18","targetId":"rock-wa-lady-no-tashinami-deshite-op-1-song-original"},{"target":"link","fields":["url"],"sourceUrls":["https://bandmaid.tokyo/contents/898327"],"verifiedAt":"2026-10-18","targetId":"https://www.youtube.com/watch?v=eapNDHKbu0M"},{"target":"link","fields":["url"],"sourceUrls":["https://bandmaid.tokyo/contents/898327"],"verifiedAt":"2026-10-18","targetId":"https://www.youtube.com/watch?v=yvQJMvms-ok"},{"target":"link","fields":["url"],"sourceUrls":["https://bandmaid.tokyo/contents/973161"],"verifiedAt":"2026-10-18","targetId":"https://www.youtube.com/watch?v=JegJ6cSsUgg"},{"target":"link","fields":["url"],"sourceUrls":["https://bandmaid.tokyo/contents/973161"],"verifiedAt":"2026-10-18","targetId":"https://www.youtube.com/watch?v=5I6VV4HYnW8"},{"target":"recording","fields":["title","format","kind"],"sourceUrls":["https://bandmaid.tokyo/contents/973161"],"verifiedAt":"2026-10-18","targetId":"rock-wa-lady-no-tashinami-deshite-op-1-song-official-live"},{"target":"recording","fields":["title","format","kind"],"sourceUrls":["https://bandmaid.tokyo/contents/973161"],"verifiedAt":"2026-10-18","targetId":"rock-wa-lady-no-tashinami-deshite-op-1-song-instrumental-video"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://bandmaid.tokyo/contents/973161"],"verifiedAt":"2026-10-18","targetId":"bandmaid-scooooop-pcca-06425"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://bandmaid.tokyo/contents/973161"],"verifiedAt":"2026-10-18","targetId":"bandmaid-scooooop-pcca-06426"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://bandmaid.tokyo/contents/973161"],"verifiedAt":"2026-10-18","targetId":"bandmaid-scooooop-pcca-06427"},{"target":"release","fields":["title","type","artist","tracklist","date","edition"],"sourceUrls":["https://bandmaid.tokyo/contents/898327"],"verifiedAt":"2026-10-18","targetId":"rock-wa-lady-no-tashinami-deshite-op-1-song-digital"},{"target":"link","fields":["url"],"sourceUrls":["https://band-maid.lnk.to/Ready_to_Rock"],"verifiedAt":"2026-10-18","targetId":"https://music.apple.com/jp/album/1802097606"},{"target":"link","fields":["url"],"sourceUrls":["https://band-maid.lnk.to/Ready_to_Rock"],"verifiedAt":"2026-10-18","targetId":"https://open.spotify.com/album/0SsvK9WiXtLRBKw2KQCsHA"},{"target":"link","fields":["url"],"sourceUrls":["https://band-maid.lnk.to/Ready_to_Rock"],"verifiedAt":"2026-10-18","targetId":"https://music.youtube.com/playlist?list=OLAK5uy_kUsQFsmtPCrO76EcD16TTbt_CiEDgtxMI"},{"target":"link","fields":["url"],"sourceUrls":["https://band-maid.lnk.to/Ready_to_Rock"],"verifiedAt":"2026-10-18","targetId":"https://recochoku.jp/album/A1041291748"},{"target":"link","fields":["url"],"sourceUrls":["https://band-maid.lnk.to/Ready_to_Rock"],"verifiedAt":"2026-10-18","targetId":"https://mora.jp/package/43000004/PCSP-06381/"}],"recordings":[{"id":"rock-wa-lady-no-tashinami-deshite-op-1-song-original","title":"Ready to Rock","format":"unknown","kind":"vocal"},{"id":"rock-wa-lady-no-tashinami-deshite-op-1-song-official-live","title":"Ready to Rock（Official Live Video）","format":"unknown","kind":"live"},{"id":"rock-wa-lady-no-tashinami-deshite-op-1-song-instrumental-video","title":"Ready to Rock（Instrumental Video）","format":"unknown","kind":"instrumental"}],"releases":[{"id":"bandmaid-scooooop-pcca-06425","title":"SCOOOOOP","type":"ep","artistDisplayName":"BAND-MAID","tracks":[{"title":"Ready to Rock","position":2,"disc":1},{"title":"Ready to Rock（Instrumental Video）","position":2,"recordingId":"rock-wa-lady-no-tashinami-deshite-op-1-song-instrumental-video","disc":2}],"date":{"value":"2025-10-22","precision":"day"},"catalogNumber":"PCCA-06425","edition":"完全生産限定盤 CD+Blu-ray"},{"id":"bandmaid-scooooop-pcca-06426","title":"SCOOOOOP","type":"ep","artistDisplayName":"BAND-MAID","tracks":[{"title":"Ready to Rock","position":2,"disc":1},{"title":"Ready to Rock（Instrumental Video）","position":2,"recordingId":"rock-wa-lady-no-tashinami-deshite-op-1-song-instrumental-video","disc":2}],"date":{"value":"2025-10-22","precision":"day"},"catalogNumber":"PCCA-06426","edition":"初回生産限定盤 CD+DVD"},{"id":"bandmaid-scooooop-pcca-06427","title":"SCOOOOOP","type":"ep","artistDisplayName":"BAND-MAID","tracks":[{"title":"Ready to Rock","position":2,"disc":1}],"date":{"value":"2025-10-22","precision":"day"},"catalogNumber":"PCCA-06427","edition":"通常盤 CD"},{"id":"rock-wa-lady-no-tashinami-deshite-op-1-song-digital","title":"Ready to Rock","type":"single","artistDisplayName":"BAND-MAID","tracks":[{"title":"Ready to Rock"}],"date":{"value":"2025-04-04","precision":"day"},"edition":"Digital Single"}]},{"type":"ED","sequence":1,"titleJa":"夢じゃないならなんなのさ","titleRomaji":"Yume ja Nai nara Nannano sa","artistDisplayName":"Little Glee Monster","credits":[{"name":"Little Glee Monster","role":"vocals"},{"name":"松原さらり","role":"lyrics"},{"name":"南田健吾(agehasprings Party)","role":"composition"},{"name":"南田健吾(agehasprings Party)","role":"arrangement"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://rocklady.rocks/","linkType":"official_landing_page","region":"JP"},{"platform":"YouTube","label":"官方MV（長度未分類）","url":"https://www.youtube.com/watch?v=Bl5CW_aV9PI","linkType":"direct_track","region":"UNKNOWN","verifiedAt":"2026-10-18","availability":"unknown"},{"platform":"Apple Music","label":"確切收錄專輯（Apple Music）","url":"https://music.apple.com/jp/album/1804805641","linkType":"direct_album","region":"JP","verifiedAt":"2026-10-18","availability":"unknown","releaseId":"rock-wa-lady-no-tashinami-deshite-ed-1-song-digital"},{"platform":"Spotify","label":"確切收錄專輯（Spotify）","url":"https://open.spotify.com/album/49IBsIQFfmpZGDgaxaaNu9","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-18","availability":"unknown","releaseId":"rock-wa-lady-no-tashinami-deshite-ed-1-song-digital"},{"platform":"YouTube Music","label":"確切收錄專輯（YouTube Music）","url":"https://music.youtube.com/playlist?list=OLAK5uy_mgzMIVQuHuSRI2J1patUj3tKJdz18KZDw","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-18","availability":"unknown","releaseId":"rock-wa-lady-no-tashinami-deshite-ed-1-song-digital"},{"platform":"レコチョク","label":"確切收錄專輯（レコチョク）","url":"https://recochoku.jp/album/A1041501176","linkType":"direct_album","region":"JP","verifiedAt":"2026-10-18","availability":"unknown","releaseId":"rock-wa-lady-no-tashinami-deshite-ed-1-song-digital"},{"platform":"mora","label":"確切收錄專輯（mora）","url":"https://mora.jp/package/43000087/SRXX05236B00Z/","linkType":"direct_album","region":"JP","verifiedAt":"2026-10-18","availability":"unknown","releaseId":"rock-wa-lady-no-tashinami-deshite-ed-1-song-digital"}],"sources":[{"label":"動畫官方網站","url":"https://rocklady.rocks/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/rock_wa_lady_no_tashinami_deshite","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/572911","label":"官方：歌曲、演唱與動畫用途","role":"first_party","language":"ja","verifiedAt":"2026-10-18"},{"url":"https://utaten.com/lyric/hw25041121/","label":"逐曲創作／演唱名單","role":"cross_check","language":"multi","verifiedAt":"2026-10-18"},{"url":"https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/573018","label":"官方歌曲／商品／影片資料","role":"first_party","language":"ja","verifiedAt":"2026-10-18"},{"url":"https://littlegleemonster.lnk.to/YumejanainaraNannanosa","label":"官方影片／確切平台項目來源","role":"first_party","language":"multi","verifiedAt":"2026-10-18"}],"songId":"rock-wa-lady-no-tashinami-deshite-ed-1-song","sourceMode":"explicit","seasonIds":["2025-spring"],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/572911","https://animethemes.moe/anime/rock_wa_lady_no_tashinami_deshite"],"verifiedAt":"2026-08-30","targetId":"rock-wa-lady-no-tashinami-deshite-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/572911","https://animethemes.moe/anime/rock_wa_lady_no_tashinami_deshite"],"verifiedAt":"2026-08-30","targetId":"rock-wa-lady-no-tashinami-deshite-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://utaten.com/lyric/hw25041121/"],"verifiedAt":"2026-10-18"},{"target":"credits","fields":["credits"],"sourceUrls":["https://utaten.com/lyric/hw25041121/"],"verifiedAt":"2026-10-18"},{"target":"credits","fields":["credits"],"sourceUrls":["https://utaten.com/lyric/hw25041121/"],"verifiedAt":"2026-10-18"},{"target":"recording","fields":["title","format","kind"],"sourceUrls":["https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/572911"],"verifiedAt":"2026-10-18","targetId":"rock-wa-lady-no-tashinami-deshite-ed-1-song-original"},{"target":"link","fields":["url"],"sourceUrls":["https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/572911"],"verifiedAt":"2026-10-18","targetId":"https://www.youtube.com/watch?v=Bl5CW_aV9PI"},{"target":"recording","fields":["title","format","kind"],"sourceUrls":["https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/573018"],"verifiedAt":"2026-10-18","targetId":"rock-wa-lady-no-tashinami-deshite-ed-1-song-lead-off"},{"target":"recording","fields":["title","format","kind"],"sourceUrls":["https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/573018"],"verifiedAt":"2026-10-18","targetId":"rock-wa-lady-no-tashinami-deshite-ed-1-song-tv"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/573018"],"verifiedAt":"2026-10-18","targetId":"rock-wa-lady-no-tashinami-deshite-ed-1-song-srcl-13320"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/573018"],"verifiedAt":"2026-10-18","targetId":"rock-wa-lady-no-tashinami-deshite-ed-1-song-srcl-13322"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/573018"],"verifiedAt":"2026-10-18","targetId":"rock-wa-lady-no-tashinami-deshite-ed-1-song-srcl-13323"},{"target":"release","fields":["title","type","artist","tracklist","date","edition"],"sourceUrls":["https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/572911"],"verifiedAt":"2026-10-18","targetId":"rock-wa-lady-no-tashinami-deshite-ed-1-song-digital"},{"target":"link","fields":["url"],"sourceUrls":["https://littlegleemonster.lnk.to/YumejanainaraNannanosa"],"verifiedAt":"2026-10-18","targetId":"https://music.apple.com/jp/album/1804805641"},{"target":"link","fields":["url"],"sourceUrls":["https://littlegleemonster.lnk.to/YumejanainaraNannanosa"],"verifiedAt":"2026-10-18","targetId":"https://open.spotify.com/album/49IBsIQFfmpZGDgaxaaNu9"},{"target":"link","fields":["url"],"sourceUrls":["https://littlegleemonster.lnk.to/YumejanainaraNannanosa"],"verifiedAt":"2026-10-18","targetId":"https://music.youtube.com/playlist?list=OLAK5uy_mgzMIVQuHuSRI2J1patUj3tKJdz18KZDw"},{"target":"link","fields":["url"],"sourceUrls":["https://littlegleemonster.lnk.to/YumejanainaraNannanosa"],"verifiedAt":"2026-10-18","targetId":"https://recochoku.jp/album/A1041501176"},{"target":"link","fields":["url"],"sourceUrls":["https://littlegleemonster.lnk.to/YumejanainaraNannanosa"],"verifiedAt":"2026-10-18","targetId":"https://mora.jp/package/43000087/SRXX05236B00Z/"}],"recordings":[{"id":"rock-wa-lady-no-tashinami-deshite-ed-1-song-original","title":"夢じゃないならなんなのさ","format":"unknown","kind":"vocal"},{"id":"rock-wa-lady-no-tashinami-deshite-ed-1-song-lead-off","title":"夢じゃないならなんなのさ - Lead Off ver. -","format":"unknown","kind":"vocal"},{"id":"rock-wa-lady-no-tashinami-deshite-ed-1-song-tv","title":"夢じゃないならなんなのさ - TV Size -","format":"tv","kind":"vocal"}],"releases":[{"id":"rock-wa-lady-no-tashinami-deshite-ed-1-song-srcl-13320","title":"夢じゃないならなんなのさ","type":"single","artistDisplayName":"Little Glee Monster","tracks":[{"title":"夢じゃないならなんなのさ","position":1,"disc":1},{"title":"夢じゃないならなんなのさ - Lead Off ver. -","position":4,"recordingId":"rock-wa-lady-no-tashinami-deshite-ed-1-song-lead-off","disc":1}],"date":{"value":"2025-05-28","precision":"day"},"catalogNumber":"SRCL-13320～13321","edition":"初回生産限定盤 CD+Blu-ray"},{"id":"rock-wa-lady-no-tashinami-deshite-ed-1-song-srcl-13322","title":"夢じゃないならなんなのさ","type":"single","artistDisplayName":"Little Glee Monster","tracks":[{"title":"夢じゃないならなんなのさ","position":1,"disc":1},{"title":"夢じゃないならなんなのさ - Lead Off ver. -","position":4,"recordingId":"rock-wa-lady-no-tashinami-deshite-ed-1-song-lead-off","disc":1}],"date":{"value":"2025-05-28","precision":"day"},"catalogNumber":"SRCL-13322","edition":"通常盤 CD"},{"id":"rock-wa-lady-no-tashinami-deshite-ed-1-song-srcl-13323","title":"夢じゃないならなんなのさ","type":"single","artistDisplayName":"Little Glee Monster","tracks":[{"title":"夢じゃないならなんなのさ","position":1,"disc":1},{"title":"夢じゃないならなんなのさ - TV Size -","position":4,"recordingId":"rock-wa-lady-no-tashinami-deshite-ed-1-song-tv","disc":1}],"date":{"value":"2025-05-28","precision":"day"},"catalogNumber":"SRCL-13323～13324","edition":"期間生産限定盤 CD+Blu-ray"},{"id":"rock-wa-lady-no-tashinami-deshite-ed-1-song-digital","title":"夢じゃないならなんなのさ","type":"single","artistDisplayName":"Little Glee Monster","tracks":[{"title":"夢じゃないならなんなのさ"}],"date":{"value":"2025-04-11","precision":"day"},"edition":"Digital Single"}]}],"verifiedAt":"2026-08-30","metadataVerifiedAt":"2026-08-30"},
-  {"anilistId":183161,"id":"curated-183161","slug":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru","seasonIds":["2025-spring"],"startDate":"2025-04-02","titleJa":"最強の王様、二度目の人生は 何をする?","titleZhHant":"終末起點","titleRomaji":"Saikyou no Ousama, Nidome no Jinsei wa Nani wo Suru?","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx183161-5M054tuPmZJX.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/183161-L5X2veRcYJnh.jpg","editorialWeekday":3,"broadcastLabel":"日本TV第1期：2025-04-02水曜23:30起（中文播出索引）；23分・全12話。現行官方ONAIR第2期と區分","status":"finished","officialSiteUrl":"https://saikyo2dome-tbate.com/","anilistUrl":"https://anilist.co/anime/183161","imageSourceUrl":"https://anilist.co/anime/183161","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/14304","https://bgm.tv/subject/520559"],"animeThemesUrl":"https://animethemes.moe/anime/saikyou_no_ousama_nidome_no_jinsei_wa_nani_wo_suru","uzureaUrl":"https://uzurea.net/spring-2025-anime-themes-and-picks/","themes":[{"type":"OP","sequence":1,"titleJa":"KINGSBLOOD","artistDisplayName":"KALA","youtubeUrl":"https://www.youtube.com/watch?v=W8d_WYTQCQY","id":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-op-1","songId":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-op-1-song","sourceMode":"explicit","sources":[{"label":"【フジテレビ】アニメ公式チャンネル 官方影片","url":"https://www.youtube.com/watch?v=W8d_WYTQCQY","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://saikyo2dome-tbate.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/saikyou_no_ousama_nidome_no_jinsei_wa_nani_wo_suru","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://saikyo2dome-tbate.com/music","label":"動畫官方：本季歌曲原名、演唱名義、用途及同頁明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://youranimes.tw/animes/5519","label":"中文作品索引：第1期曲名、演唱及OP／ED交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"}],"links":[{"platform":"YouTube","label":"官方公開影片","url":"https://www.youtube.com/watch?v=W8d_WYTQCQY","linkType":"direct_track","region":"GLOBAL"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://saikyo2dome-tbate.com/music"],"verifiedAt":"2026-10-20","targetId":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://saikyo2dome-tbate.com/music"],"verifiedAt":"2026-10-20","targetId":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/saikyou_no_ousama_nidome_no_jinsei_wa_nani_wo_suru"],"verifiedAt":"2026-08-30","targetId":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/saikyou_no_ousama_nidome_no_jinsei_wa_nani_wo_suru"],"verifiedAt":"2026-08-30","targetId":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://youranimes.tw/animes/5519"],"verifiedAt":"2026-10-20","targetId":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://youranimes.tw/animes/5519"],"verifiedAt":"2026-10-20","targetId":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-op-1"}],"seasonIds":["2025-spring"],"lastVerifiedAt":"2026-10-20","followUp":[{"fields":["basic_evidence"],"note":"歌曲第1期原名、演唱與用途已核對；動畫4月2日23:30首播採中文TV索引，現行官方ONAIR已換第2期，第一期原始局別／時段公告待補。","resumeWhen":"取得第一期官方播出公告或放送局舊節目表時補動畫時段證據，不套用2026年第2期日期。","checkedAt":"2026-10-20"}]},{"type":"ED","sequence":1,"titleJa":"真昼の月","artistDisplayName":"seiza","youtubeUrl":"https://www.youtube.com/watch?v=WCadYVJc1j0","id":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-ed-1","songId":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-ed-1-song","sourceMode":"explicit","sources":[{"label":"【フジテレビ】アニメ公式チャンネル 官方影片","url":"https://www.youtube.com/watch?v=WCadYVJc1j0","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://saikyo2dome-tbate.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/saikyou_no_ousama_nidome_no_jinsei_wa_nani_wo_suru","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://saikyo2dome-tbate.com/music","label":"動畫官方：本季歌曲原名、演唱名義、用途及同頁明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://youranimes.tw/animes/5519","label":"中文作品索引：第1期曲名、演唱及OP／ED交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"}],"links":[{"platform":"YouTube","label":"官方公開影片","url":"https://www.youtube.com/watch?v=WCadYVJc1j0","linkType":"direct_track","region":"GLOBAL"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://saikyo2dome-tbate.com/music"],"verifiedAt":"2026-10-20","targetId":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://saikyo2dome-tbate.com/music"],"verifiedAt":"2026-10-20","targetId":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/saikyou_no_ousama_nidome_no_jinsei_wa_nani_wo_suru"],"verifiedAt":"2026-08-30","targetId":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/saikyou_no_ousama_nidome_no_jinsei_wa_nani_wo_suru"],"verifiedAt":"2026-08-30","targetId":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://youranimes.tw/animes/5519"],"verifiedAt":"2026-10-20","targetId":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://youranimes.tw/animes/5519"],"verifiedAt":"2026-10-20","targetId":"saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-ed-1"}],"seasonIds":["2025-spring"],"lastVerifiedAt":"2026-10-20","followUp":[{"fields":["basic_evidence"],"note":"歌曲第1期原名、演唱與用途已核對；動畫4月2日23:30首播採中文TV索引，現行官方ONAIR已換第2期，第一期原始局別／時段公告待補。","resumeWhen":"取得第一期官方播出公告或放送局舊節目表時補動畫時段證據，不套用2026年第2期日期。","checkedAt":"2026-10-20"}]}],"verifiedAt":"2026-08-30","metadataVerifiedAt":"2026-08-30","metadataSources":[{"url":"https://youranimes.tw/animes/5519","label":"中文TV索引：作品身分、播出期與時段","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"},{"url":"https://saikyo2dome-tbate.com/music","label":"動畫官方：第1期歌曲與作品身分（不套用第2期時段）","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"broadcastTimeJst":"23:30"},
+  {
+  "anilistId": 183161,
+  "id": "curated-183161",
+  "slug": "saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru",
+  "seasonIds": [
+    "2025-spring"
+  ],
+  "startDate": "2025-04-02",
+  "titleJa": "最強の王様、二度目の人生は 何をする?",
+  "titleZhHant": "終末起點",
+  "titleRomaji": "Saikyou no Ousama, Nidome no Jinsei wa Nani wo Suru?",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx183161-5M054tuPmZJX.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/183161-L5X2veRcYJnh.jpg",
+  "editorialWeekday": 3,
+  "broadcastLabel": "日本TV第1期：原中文索引記2025-04-02週三23:30起、23分／全12話；第一方フジテレビ原2025/4/23週三編排24:55起30分鐘，為當日完整節目槽，非通常固定時刻或淨片長。與第2期分開。",
+  "status": "finished",
+  "officialSiteUrl": "https://saikyo2dome-tbate.com/",
+  "anilistUrl": "https://anilist.co/anime/183161",
+  "imageSourceUrl": "https://anilist.co/anime/183161",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://annict.com/works/2025-spring?display=list_detailed",
+    "https://annict.com/works/14304",
+    "https://bgm.tv/subject/520559",
+    "https://www.fujitv.co.jp/b_hp/saikyo2dome-tbate/index.html",
+    "https://www.fujitv.co.jp/company/action/pdf/202504_2.pdf"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/saikyou_no_ousama_nidome_no_jinsei_wa_nani_wo_suru",
+  "uzureaUrl": "https://uzurea.net/spring-2025-anime-themes-and-picks/",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "KINGSBLOOD",
+      "artistDisplayName": "KALA",
+      "youtubeUrl": "https://www.youtube.com/watch?v=W8d_WYTQCQY",
+      "id": "saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-op-1",
+      "songId": "saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-op-1-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "label": "【フジテレビ】アニメ公式チャンネル 官方影片",
+          "url": "https://www.youtube.com/watch?v=W8d_WYTQCQY",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-08-30"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://saikyo2dome-tbate.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-08-30"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/saikyou_no_ousama_nidome_no_jinsei_wa_nani_wo_suru",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-08-30"
+        },
+        {
+          "label": "UZUREA 主題曲清單",
+          "url": "https://uzurea.net/spring-2025-anime-themes-and-picks/",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-08-30"
+        },
+        {
+          "url": "https://saikyo2dome-tbate.com/music",
+          "label": "動畫官方：本季歌曲原名、演唱名義、用途及同頁明列創作",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-20"
+        },
+        {
+          "url": "https://youranimes.tw/animes/5519",
+          "label": "中文作品索引：第1期曲名、演唱及OP／ED交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-20"
+        }
+      ],
+      "links": [
+        {
+          "platform": "YouTube",
+          "label": "官方公開影片",
+          "url": "https://www.youtube.com/watch?v=W8d_WYTQCQY",
+          "linkType": "direct_track",
+          "region": "GLOBAL"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://saikyo2dome-tbate.com/music"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://saikyo2dome-tbate.com/music"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://animethemes.moe/anime/saikyou_no_ousama_nidome_no_jinsei_wa_nani_wo_suru"
+          ],
+          "verifiedAt": "2026-08-30",
+          "targetId": "saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animethemes.moe/anime/saikyou_no_ousama_nidome_no_jinsei_wa_nani_wo_suru"
+          ],
+          "verifiedAt": "2026-08-30",
+          "targetId": "saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://uzurea.net/spring-2025-anime-themes-and-picks/"
+          ],
+          "verifiedAt": "2026-08-30",
+          "targetId": "saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://uzurea.net/spring-2025-anime-themes-and-picks/"
+          ],
+          "verifiedAt": "2026-08-30",
+          "targetId": "saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://youranimes.tw/animes/5519"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://youranimes.tw/animes/5519"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-op-1"
+        }
+      ],
+      "seasonIds": [
+        "2025-spring"
+      ],
+      "lastVerifiedAt": "2026-10-20"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "真昼の月",
+      "artistDisplayName": "seiza",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WCadYVJc1j0",
+      "id": "saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-ed-1",
+      "songId": "saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-ed-1-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "label": "【フジテレビ】アニメ公式チャンネル 官方影片",
+          "url": "https://www.youtube.com/watch?v=WCadYVJc1j0",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-08-30"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://saikyo2dome-tbate.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-08-30"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/saikyou_no_ousama_nidome_no_jinsei_wa_nani_wo_suru",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-08-30"
+        },
+        {
+          "label": "UZUREA 主題曲清單",
+          "url": "https://uzurea.net/spring-2025-anime-themes-and-picks/",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-08-30"
+        },
+        {
+          "url": "https://saikyo2dome-tbate.com/music",
+          "label": "動畫官方：本季歌曲原名、演唱名義、用途及同頁明列創作",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-20"
+        },
+        {
+          "url": "https://youranimes.tw/animes/5519",
+          "label": "中文作品索引：第1期曲名、演唱及OP／ED交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-20"
+        }
+      ],
+      "links": [
+        {
+          "platform": "YouTube",
+          "label": "官方公開影片",
+          "url": "https://www.youtube.com/watch?v=WCadYVJc1j0",
+          "linkType": "direct_track",
+          "region": "GLOBAL"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://saikyo2dome-tbate.com/music"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://saikyo2dome-tbate.com/music"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://animethemes.moe/anime/saikyou_no_ousama_nidome_no_jinsei_wa_nani_wo_suru"
+          ],
+          "verifiedAt": "2026-08-30",
+          "targetId": "saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animethemes.moe/anime/saikyou_no_ousama_nidome_no_jinsei_wa_nani_wo_suru"
+          ],
+          "verifiedAt": "2026-08-30",
+          "targetId": "saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://uzurea.net/spring-2025-anime-themes-and-picks/"
+          ],
+          "verifiedAt": "2026-08-30",
+          "targetId": "saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://uzurea.net/spring-2025-anime-themes-and-picks/"
+          ],
+          "verifiedAt": "2026-08-30",
+          "targetId": "saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://youranimes.tw/animes/5519"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://youranimes.tw/animes/5519"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-ed-1"
+        }
+      ],
+      "seasonIds": [
+        "2025-spring"
+      ],
+      "lastVerifiedAt": "2026-10-20"
+    }
+  ],
+  "verifiedAt": "2026-08-30",
+  "metadataVerifiedAt": "2026-11-05",
+  "metadataSources": [
+    {
+      "label": "動畫官方網站：作品與播出資料",
+      "url": "https://saikyo2dome-tbate.com/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-08-30"
+    },
+    {
+      "label": "AniList：作品識別與公開圖像",
+      "url": "https://anilist.co/anime/183161",
+      "language": "en",
+      "role": "identifier",
+      "verifiedAt": "2026-08-30"
+    },
+    {
+      "label": "繁體中文季度列表交叉對照",
+      "url": "https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+      "language": "zh-Hant",
+      "role": "localized_cross_check",
+      "verifiedAt": "2026-08-30"
+    },
+    {
+      "label": "AnimeThemes：OP／ED 曲目交叉核對",
+      "url": "https://animethemes.moe/anime/saikyou_no_ousama_nidome_no_jinsei_wa_nani_wo_suru",
+      "language": "en",
+      "role": "theme_cross_check",
+      "verifiedAt": "2026-08-30"
+    },
+    {
+      "label": "UZUREA：季度主題曲與官方影片索引",
+      "url": "https://uzurea.net/spring-2025-anime-themes-and-picks/",
+      "language": "ja",
+      "role": "theme_cross_check",
+      "verifiedAt": "2026-08-30"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://annict.com/works/2025-spring?display=list_detailed",
+      "language": "ja",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-08-30"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://annict.com/works/14304",
+      "language": "ja",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-08-30"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://bgm.tv/subject/520559",
+      "language": "zh-Hans",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-08-30"
+    },
+    {
+      "url": "https://youranimes.tw/animes/5519",
+      "label": "中文TV索引：作品身分、播出期與時段",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-20"
+    },
+    {
+      "url": "https://saikyo2dome-tbate.com/music",
+      "label": "動畫官方：第1期歌曲與作品身分（不套用第2期時段）",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-20"
+    },
+    {
+      "url": "https://www.fujitv.co.jp/b_hp/saikyo2dome-tbate/index.html",
+      "label": "フジテレビ原第1期作品頁：2025年TV放送與6/18終了（非第2期）",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://www.fujitv.co.jp/company/action/pdf/202504_2.pdf",
+      "label": "フジテレビ原2025年4月表：4/23週三24:55、30分鐘節目槽（非通常固定時刻／淨片長）",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    }
+  ],
+  "broadcastTimeJst": "23:30"
+},
   {"anilistId":183275,"id":"curated-183275","slug":"kanpeki-sugite-kawai-ge-ga-nai-to-konyaku-haki-sareta-seijo-wa-ringoku-ni-urareru","seasonIds":["2025-spring"],"startDate":"2025-04-10","titleJa":"完璧すぎて可愛げがないと婚約破棄された聖女は隣国に売られる","titleZhHant":"完美到難以接近的聖女遭到解除婚約後被賣到鄰國","titleRomaji":"Kanpeki Sugite Kawai-ge ga Nai to Konyaku Haki Sareta Seijo wa Ringoku ni Urareru","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx183275-WtAo77sYDFW8.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/183275-tB2NdUZADGXr.jpg","editorialWeekday":3,"broadcastLabel":"日本TV：2025-04-09水曜24:00（暦日4月10日）・テレ東；ABEMA／U-NEXT先行配信は4月2日24:00","status":"finished","officialSiteUrl":"https://kanpekiseijo-anime.com/","anilistUrl":"https://anilist.co/anime/183275","imageSourceUrl":"https://anilist.co/anime/183275","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/14307","https://bgm.tv/subject/520672"],"animeThemesUrl":"https://animethemes.moe/anime/kanpekisugite_kawaige_ga_nai_to_konyaku_haki_sareta_seijo_wa_ringoku_ni_urareru","uzureaUrl":"https://uzurea.net/spring-2025-anime-themes-and-picks/","themes":[{"type":"OP","sequence":1,"titleJa":"愛とか。","artistDisplayName":"りりあ。","id":"kanpeki-sugite-kawai-ge-ga-nai-to-konyaku-haki-sareta-seijo-wa-ringoku-ni-urareru-op-1","songId":"kanpeki-sugite-kawai-ge-ga-nai-to-konyaku-haki-sareta-seijo-wa-ringoku-ni-urareru-op-1-song","sourceMode":"explicit","sources":[{"label":"動畫官方網站","url":"https://kanpekiseijo-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/kanpekisugite_kawaige_ga_nai_to_konyaku_haki_sareta_seijo_wa_ringoku_ni_urareru","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://kanpekiseijo-anime.com/music","label":"動畫官方：本季歌曲原名、演唱名義、用途及同頁明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://kanpekiseijo-anime.com/","linkType":"official_landing_page","region":"JP"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://kanpekiseijo-anime.com/music"],"verifiedAt":"2026-10-20","targetId":"kanpeki-sugite-kawai-ge-ga-nai-to-konyaku-haki-sareta-seijo-wa-ringoku-ni-urareru-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://kanpekiseijo-anime.com/music"],"verifiedAt":"2026-10-20","targetId":"kanpeki-sugite-kawai-ge-ga-nai-to-konyaku-haki-sareta-seijo-wa-ringoku-ni-urareru-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/kanpekisugite_kawaige_ga_nai_to_konyaku_haki_sareta_seijo_wa_ringoku_ni_urareru"],"verifiedAt":"2026-08-30","targetId":"kanpeki-sugite-kawai-ge-ga-nai-to-konyaku-haki-sareta-seijo-wa-ringoku-ni-urareru-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/kanpekisugite_kawaige_ga_nai_to_konyaku_haki_sareta_seijo_wa_ringoku_ni_urareru"],"verifiedAt":"2026-08-30","targetId":"kanpeki-sugite-kawai-ge-ga-nai-to-konyaku-haki-sareta-seijo-wa-ringoku-ni-urareru-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"kanpeki-sugite-kawai-ge-ga-nai-to-konyaku-haki-sareta-seijo-wa-ringoku-ni-urareru-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"kanpeki-sugite-kawai-ge-ga-nai-to-konyaku-haki-sareta-seijo-wa-ringoku-ni-urareru-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://kanpekiseijo-anime.com/music"],"verifiedAt":"2026-10-20"}],"seasonIds":["2025-spring"],"lastVerifiedAt":"2026-10-20","credits":[{"name":"りりあ。","role":"vocals"},{"name":"りりあ。","role":"lyrics"},{"name":"りりあ。","role":"composition"},{"name":"板井直樹","role":"arrangement"}]},{"type":"ED","sequence":1,"titleJa":"Sister","artistDisplayName":"WON","id":"kanpeki-sugite-kawai-ge-ga-nai-to-konyaku-haki-sareta-seijo-wa-ringoku-ni-urareru-ed-1","songId":"kanpeki-sugite-kawai-ge-ga-nai-to-konyaku-haki-sareta-seijo-wa-ringoku-ni-urareru-ed-1-song","sourceMode":"explicit","sources":[{"label":"動畫官方網站","url":"https://kanpekiseijo-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/kanpekisugite_kawaige_ga_nai_to_konyaku_haki_sareta_seijo_wa_ringoku_ni_urareru","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://kanpekiseijo-anime.com/music","label":"動畫官方：本季歌曲原名、演唱名義、用途及同頁明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://kanpekiseijo-anime.com/","linkType":"official_landing_page","region":"JP"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://kanpekiseijo-anime.com/music"],"verifiedAt":"2026-10-20","targetId":"kanpeki-sugite-kawai-ge-ga-nai-to-konyaku-haki-sareta-seijo-wa-ringoku-ni-urareru-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://kanpekiseijo-anime.com/music"],"verifiedAt":"2026-10-20","targetId":"kanpeki-sugite-kawai-ge-ga-nai-to-konyaku-haki-sareta-seijo-wa-ringoku-ni-urareru-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/kanpekisugite_kawaige_ga_nai_to_konyaku_haki_sareta_seijo_wa_ringoku_ni_urareru"],"verifiedAt":"2026-08-30","targetId":"kanpeki-sugite-kawai-ge-ga-nai-to-konyaku-haki-sareta-seijo-wa-ringoku-ni-urareru-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/kanpekisugite_kawaige_ga_nai_to_konyaku_haki_sareta_seijo_wa_ringoku_ni_urareru"],"verifiedAt":"2026-08-30","targetId":"kanpeki-sugite-kawai-ge-ga-nai-to-konyaku-haki-sareta-seijo-wa-ringoku-ni-urareru-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"kanpeki-sugite-kawai-ge-ga-nai-to-konyaku-haki-sareta-seijo-wa-ringoku-ni-urareru-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"kanpeki-sugite-kawai-ge-ga-nai-to-konyaku-haki-sareta-seijo-wa-ringoku-ni-urareru-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://kanpekiseijo-anime.com/music"],"verifiedAt":"2026-10-20"}],"seasonIds":["2025-spring"],"lastVerifiedAt":"2026-10-20","credits":[{"name":"WON","role":"vocals"},{"name":"WON","role":"lyrics"},{"name":"TAKU INOUE","role":"composition"},{"name":"TAKU INOUE","role":"arrangement"}]}],"verifiedAt":"2026-08-30","metadataVerifiedAt":"2026-08-30","metadataSources":[{"url":"https://kanpekiseijo-anime.com/onair","label":"動畫官方：第1期／本季TV首播、時段與配信分別","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://youranimes.tw/bangumi/202504","label":"中文TV索引：作品身分、播出期與時段","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"}],"broadcastTimeJst":"24:00"},
   {"anilistId":188394,"id":"curated-188394","slug":"petitcure-precure-fairies","seasonIds":["2025-spring"],"startDate":"2025-04-03","titleJa":"ぷちきゅあ～Precure Fairies～","titleZhHant":"ぷちきゅあ～Precure Fairies～","titleRomaji":"PetitCure: Precure Fairies","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx188394-4oTa98gvtw8R.jpg","editorialWeekday":4,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://www.toei-anim.co.jp/petitcure/","anilistUrl":"https://anilist.co/anime/188394","imageSourceUrl":"https://anilist.co/anime/188394","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/15739","https://bgm.tv/subject/545695"],"uzureaUrl":"https://uzurea.net/spring-2025-anime-themes-and-picks/","themes":[{"type":"TS","sequence":1,"titleJa":"♥DANZEN！kawaii！ ぷちきゅあ♥","artistDisplayName":"後本萌葉","songId":"petitcure-danzen-kawaii-song","seasonIds":["2025-spring"],"sourceMode":"explicit","sources":[{"url":"https://www.toei-anim.co.jp/petitcure/news/2025091901.php","label":"官方：歌曲、演唱與動畫用途","role":"first_party","language":"ja","verifiedAt":"2026-10-16"},{"url":"https://www.animatetimes.com/news/details.php?id=1752814481","label":"歌曲與動畫用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-16"},{"url":"https://www.toei-anim.co.jp/petitcure/news/2025100204.php","label":"官方：シーズン2 WEB開始","role":"first_party","language":"ja","verifiedAt":"2026-10-16"},{"url":"https://www.toei-anim.co.jp/petitcure/news/2025071801.php","label":"官方歌曲／商品／影片資料","role":"first_party","language":"ja","verifiedAt":"2026-10-16"},{"url":"https://precure.lnk.to/Petit","label":"官方曲目／專輯入口","role":"first_party","language":"multi","verifiedAt":"2026-10-16"},{"url":"https://www.marv.jp/titles/mc/10967/","label":"官方歌曲／商品／影片資料","role":"first_party","language":"ja","verifiedAt":"2026-10-16"},{"url":"https://lnk.to/Petit_ThemeSongAL","label":"官方曲目／專輯入口","role":"first_party","language":"multi","verifiedAt":"2026-10-16"},{"url":"https://s.mxtv.jp/anime/petitcure_2026sp/","label":"官方播出方：おかしなパラダイス（シーズン2）之同曲與完整創作","role":"first_party","language":"ja","verifiedAt":"2026-10-16"},{"url":"https://www.neowing.co.jp/product/MJSA-1432","label":"Neowing授權：主題歌Album、アイキャッチ與伴奏逐曲表","role":"cross_check","language":"ja","verifiedAt":"2026-10-16"},{"url":"https://corp.toei-anim.co.jp/ja/press/press3446966996929941900.html","label":"製作方：2025年4月3日開播、原始主題歌與逐曲創作","role":"first_party","language":"ja","verifiedAt":"2026-10-16"}],"credits":[{"name":"後本萌葉","role":"vocals"},{"name":"青木久美子","role":"lyrics"},{"name":"小杉保夫","role":"composition"},{"name":"EFFY","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.toei-anim.co.jp/petitcure/news/2025091901.php","https://www.animatetimes.com/news/details.php?id=1752814481"],"verifiedAt":"2026-10-16","targetId":"petitcure-danzen-kawaii-song"},{"target":"song","fields":["credits"],"sourceUrls":["https://www.toei-anim.co.jp/petitcure/news/2025091901.php"],"verifiedAt":"2026-10-16","targetId":"petitcure-danzen-kawaii-song"},{"target":"recording","fields":["title","format","kind"],"sourceUrls":["https://www.toei-anim.co.jp/petitcure/news/2025071801.php"],"verifiedAt":"2026-10-16","targetId":"petitcure-danzen-kawaii-song-original"},{"target":"release","fields":["title","type","artist","tracklist","date","edition"],"sourceUrls":["https://www.toei-anim.co.jp/petitcure/news/2025071801.php"],"verifiedAt":"2026-10-16","targetId":"petitcure-danzen-kawaii-song-digital"},{"target":"link","fields":["url"],"sourceUrls":["https://www.toei-anim.co.jp/petitcure/news/2025071801.php"],"verifiedAt":"2026-10-16","targetId":"https://precure.lnk.to/Petit"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.marv.jp/titles/mc/10967/","https://www.neowing.co.jp/product/MJSA-1432"],"verifiedAt":"2026-10-16","targetId":"petitcure-theme-song-album-mjsa-01432"},{"target":"link","fields":["url"],"sourceUrls":["https://www.marv.jp/titles/mc/10967/"],"verifiedAt":"2026-10-16","targetId":"https://lnk.to/Petit_ThemeSongAL"},{"target":"link","fields":["url"],"sourceUrls":["https://precure.lnk.to/Petit"],"verifiedAt":"2026-10-16","targetId":"https://music.apple.com/jp/album/1822463066"},{"target":"link","fields":["url"],"sourceUrls":["https://precure.lnk.to/Petit"],"verifiedAt":"2026-10-16","targetId":"https://mora.jp/package/43000108/4535506005878/?trackMaterialNo=39926611"},{"target":"link","fields":["url"],"sourceUrls":["https://precure.lnk.to/Petit"],"verifiedAt":"2026-10-16","targetId":"https://recochoku.jp/song/S1028006418/single"},{"target":"link","fields":["url"],"sourceUrls":["https://lnk.to/Petit_ThemeSongAL"],"verifiedAt":"2026-10-16","targetId":"https://books.rakuten.co.jp/rb/18304761/"},{"target":"link","fields":["url"],"sourceUrls":["https://lnk.to/Petit_ThemeSongAL"],"verifiedAt":"2026-10-16","targetId":"https://www.neowing.co.jp/product/MJSA-1432"},{"target":"link","fields":["url"],"sourceUrls":["https://lnk.to/Petit_ThemeSongAL"],"verifiedAt":"2026-10-16","targetId":"https://www.animate-onlineshop.jp/pn/pd/3177216/"},{"target":"link","fields":["url"],"sourceUrls":["https://lnk.to/Petit_ThemeSongAL"],"verifiedAt":"2026-10-16","targetId":"https://www.gamers.co.jp/pn/pd/10814589/"},{"target":"recording","fields":["title","format","kind"],"sourceUrls":["https://www.marv.jp/titles/mc/10967/","https://www.neowing.co.jp/product/MJSA-1432"],"verifiedAt":"2026-10-16","targetId":"petitcure-danzen-kawaii-song-eyecatch"},{"target":"recording","fields":["title","format","kind"],"sourceUrls":["https://www.marv.jp/titles/mc/10967/","https://www.neowing.co.jp/product/MJSA-1432"],"verifiedAt":"2026-10-16","targetId":"petitcure-danzen-kawaii-song-karaoke"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.toei-anim.co.jp/petitcure/news/2025071801.php","https://www.animatetimes.com/news/details.php?id=1752814481"],"verifiedAt":"2026-10-16","targetId":"petitcure-precure-fairies-ts-1"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://corp.toei-anim.co.jp/ja/press/press3446966996929941900.html"],"verifiedAt":"2026-10-16","targetId":"petitcure-precure-fairies-ts-1"}],"usageLabel":"主題歌","releaseDate":"2025-07-18","recordings":[{"id":"petitcure-danzen-kawaii-song-original","title":"♥DANZEN！kawaii！ ぷちきゅあ♥","format":"unknown","kind":"vocal"},{"id":"petitcure-danzen-kawaii-song-eyecatch","title":"♥DANZEN！kawaii！ ぷちきゅあ♥（アイキャッチ）","format":"unknown","kind":"vocal"},{"id":"petitcure-danzen-kawaii-song-karaoke","title":"♥DANZEN！kawaii！ ぷちきゅあ♥（オリジナル・カラオケ）","format":"unknown","kind":"instrumental"}],"releases":[{"id":"petitcure-danzen-kawaii-song-digital","title":"♥DANZEN！kawaii！ ぷちきゅあ♥","type":"single","artistDisplayName":"後本萌葉","tracks":[{"title":"♥DANZEN！kawaii！ ぷちきゅあ♥","position":1,"recordingId":"petitcure-danzen-kawaii-song-original"}],"date":{"value":"2025-07-18","precision":"day"},"edition":"Digital Single"},{"id":"petitcure-theme-song-album-mjsa-01432","title":"『ぷちきゅあ～Precure Fairies～』テーマソングアルバム","type":"album","artistDisplayName":"後本萌葉／田山里奈","tracks":[{"title":"♥DANZEN！kawaii！ ぷちきゅあ♥","position":1},{"title":"♥DANZEN！kawaii！ ぷちきゅあ♥（アイキャッチ）","recordingId":"petitcure-danzen-kawaii-song-eyecatch"},{"title":"♥DANZEN！kawaii！ ぷちきゅあ♥（オリジナル・カラオケ）","position":32,"recordingId":"petitcure-danzen-kawaii-song-karaoke"}],"date":{"value":"2025-10-29","precision":"day"},"catalogNumber":"MJSA-01432","edition":"CD","label":"マーベラス"}],"links":[{"platform":"官方配信","label":"♥DANZEN！kawaii！ ぷちきゅあ♥：官方配信／商品入口","url":"https://precure.lnk.to/Petit","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-16","availability":"unknown","releaseId":"petitcure-danzen-kawaii-song-digital"},{"platform":"官方配信","label":"♥DANZEN！kawaii！ ぷちきゅあ♥：官方配信／商品入口","url":"https://lnk.to/Petit_ThemeSongAL","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-16","availability":"unknown","releaseId":"petitcure-theme-song-album-mjsa-01432"},{"platform":"Apple Music","label":"♥DANZEN！kawaii！ ぷちきゅあ♥：Apple Music","url":"https://music.apple.com/jp/album/1822463066","linkType":"direct_album","region":"JP","verifiedAt":"2026-10-16","availability":"unknown","releaseId":"petitcure-danzen-kawaii-song-digital"},{"platform":"mora","label":"♥DANZEN！kawaii！ ぷちきゅあ♥：mora","url":"https://mora.jp/package/43000108/4535506005878/?trackMaterialNo=39926611","linkType":"digital_purchase","region":"UNKNOWN","verifiedAt":"2026-10-16","availability":"unknown","releaseId":"petitcure-danzen-kawaii-song-digital"},{"platform":"レコチョク","label":"♥DANZEN！kawaii！ ぷちきゅあ♥：レコチョク","url":"https://recochoku.jp/song/S1028006418/single","linkType":"digital_purchase","region":"UNKNOWN","verifiedAt":"2026-10-16","availability":"unknown","releaseId":"petitcure-danzen-kawaii-song-digital"},{"platform":"楽天ブックス","label":"♥DANZEN！kawaii！ ぷちきゅあ♥：楽天ブックス","url":"https://books.rakuten.co.jp/rb/18304761/","linkType":"physical_purchase","region":"JP","verifiedAt":"2026-10-16","availability":"unknown","releaseId":"petitcure-theme-song-album-mjsa-01432"},{"platform":"Neowing","label":"♥DANZEN！kawaii！ ぷちきゅあ♥：Neowing","url":"https://www.neowing.co.jp/product/MJSA-1432","linkType":"physical_purchase","region":"JP","verifiedAt":"2026-10-16","availability":"unknown","releaseId":"petitcure-theme-song-album-mjsa-01432"},{"platform":"アニメイト","label":"♥DANZEN！kawaii！ ぷちきゅあ♥：アニメイト","url":"https://www.animate-onlineshop.jp/pn/pd/3177216/","linkType":"physical_purchase","region":"JP","verifiedAt":"2026-10-16","availability":"unknown","releaseId":"petitcure-theme-song-album-mjsa-01432"},{"platform":"ゲーマーズ","label":"♥DANZEN！kawaii！ ぷちきゅあ♥：ゲーマーズ","url":"https://www.gamers.co.jp/pn/pd/10814589/","linkType":"physical_purchase","region":"JP","verifiedAt":"2026-10-16","availability":"unknown","releaseId":"petitcure-theme-song-album-mjsa-01432"}],"lastVerifiedAt":"2026-10-16"}],"verifiedAt":"2026-08-30","metadataVerifiedAt":"2026-08-30"},
   {"anilistId":189716,"id":"curated-189716","slug":"yurukawa-mell-chan","seasonIds":["2025-spring"],"startDate":"2025-04-03","titleJa":"ゆるかわメルちゃん","titleZhHant":"ゆるかわメルちゃん","titleRomaji":"Yurukawa Mell-chan","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b189716-6r2f88YG3XNP.png","editorialWeekday":4,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://www.mellchan.com/","anilistUrl":"https://anilist.co/anime/189716","imageSourceUrl":"https://anilist.co/anime/189716","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/15794"],"themes":[],"verifiedAt":"2026-08-30"},
@@ -394,13 +837,497 @@ export const curated2025SpringSeeds: CuratedCatalogAnimeSeed[] = [
   {"anilistId":185259,"id":"curated-185259","slug":"masuda-kousuke-gekijou-gag-manga-biyori-go","seasonIds":["2025-spring"],"startDate":"2025-04-05","titleJa":"増田こうすけ劇場 ギャグマンガ日和GO","titleZhHant":"搞笑漫畫日和GO （第5期）","titleRomaji":"Masuda Kousuke Gekijou Gag Manga Biyori GO","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185259-h5AnqAcoKH6d.jpg","editorialWeekday":6,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://www.gagbi-go.com/","anilistUrl":"https://anilist.co/anime/185259","imageSourceUrl":"https://anilist.co/anime/185259","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/14851","https://bgm.tv/subject/526567"],"animeThemesUrl":"https://animethemes.moe/anime/masuda_kousuke_gekijou_gag_manga_biyori_go","uzureaUrl":"https://uzurea.net/spring-2025-anime-themes-and-picks/","themes":[{"type":"OP","sequence":1,"titleJa":"Bokutachi no Gag Manga Biyori","artistDisplayName":"Yuuji Ueda"}],"verifiedAt":"2026-08-30"},
   {"anilistId":185584,"id":"curated-185584","slug":"everyday-host","seasonIds":["2025-spring"],"startDate":"2025-04-05","titleJa":"えぶりでいホスト","titleZhHant":"EVERYDAY HOST CLUB 男公關俱樂部的歡樂日常","titleRomaji":"Everyday Host","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185584-a5oABU1uknYX.jpg","editorialWeekday":6,"broadcastLabel":"短篇TV：日本2025-04-05 01:13首播（4/4深夜25:13 JST）；每週六01:13起播出","status":"finished","officialSiteUrl":"https://www.tv-tokyo.co.jp/anime/everydayhost/","anilistUrl":"https://anilist.co/anime/185584","imageSourceUrl":"https://anilist.co/anime/185584","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/14944","https://bgm.tv/subject/529078"],"animeThemesUrl":"https://animethemes.moe/anime/everyday_host","uzureaUrl":"https://uzurea.net/spring-2025-anime-themes-and-picks/","themes":[{"type":"OP","sequence":1,"titleJa":"えぶりでいホスト","artistDisplayName":"EbuHosu Players","youtubeUrl":"https://www.youtube.com/watch?v=EoVjNmLkFEY"},{"type":"ED","sequence":1,"titleJa":"Natsu wa Take-out","artistDisplayName":"Tasuku Hatanaka"},{"type":"ED","sequence":2,"titleJa":"Top of the Tower","artistDisplayName":"Hiro Shimono"},{"type":"ED","sequence":3,"titleJa":"Doutonbori","artistDisplayName":"Hidenobu Kiuchi"},{"type":"ED","sequence":4,"titleJa":"Bou & Ryoku","artistDisplayName":"Nobuhiko Okamoto"},{"type":"ED","sequence":5,"titleJa":"Aporia Inga Sekai","artistDisplayName":"Yuuichirou Umehara"}],"verifiedAt":"2026-08-30","metadataVerifiedAt":"2026-08-30","broadcastTimeJst":"01:13","metadataSources":[{"url":"https://www.tv-tokyo.co.jp/anime/everydayhost/onair/","label":"動畫官方ONAIR：2025原系列TV首播與時段","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://youranimes.tw/animes/5735","label":"YourAnimes：同版4分鐘短篇與首播交叉核對","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-30"}]},
   {"anilistId":185645,"id":"curated-185645","slug":"oshiri-tantei-9","seasonIds":["2025-spring"],"startDate":"2025-04-05","titleJa":"おしりたんてい(第9シリーズ)","titleZhHant":"おしりたんてい(第9シリーズ)","titleRomaji":"Oshiri Tantei 9","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185645-oURiWI3bVWgq.png","editorialWeekday":6,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://oshiri-tantei.com/","anilistUrl":"https://anilist.co/anime/185645","imageSourceUrl":"https://anilist.co/anime/185645","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/14948","https://bgm.tv/subject/529240"],"themes":[],"verifiedAt":"2026-08-30"},
-  {"anilistId":185715,"id":"curated-185715","slug":"shibuya-hachi-part-3","seasonIds":["2025-spring"],"startDate":"2025-04-05","titleJa":"SHIBUYA♡HACHI 第3クール","titleZhHant":"SHIBUYA♡HACHI （第3期）","titleRomaji":"SHIBUYA♡HACHI Part 3","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185715-S5OtxSJTo5k1.png","editorialWeekday":6,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://www.tv-tokyo.co.jp/anime/shibuya-hachi/","anilistUrl":"https://anilist.co/anime/185715","imageSourceUrl":"https://anilist.co/anime/185715","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/14985","https://bgm.tv/subject/541037"],"uzureaUrl":"https://uzurea.net/spring-2025-anime-themes-and-picks/","themes":[{"type":"OP","sequence":1,"titleJa":"Brand New Episode","artistDisplayName":"HACHI","songId":"shibuya-hachi-brand-new-episode-song","seasonIds":["2025-spring"],"sourceMode":"explicit","sources":[{"url":"https://www.nippon-animation.co.jp/news/information/18828/","label":"官方：歌曲、演唱與動畫用途","role":"first_party","language":"ja","verifiedAt":"2026-10-16"},{"url":"https://www.cy.netgamebm.com/animation/view/8667/","label":"歌曲與動畫用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-16"},{"url":"https://hachi-official.jp/","label":"藝人官方：Revealia逐曲詞曲編曲","role":"first_party","language":"ja","verifiedAt":"2026-10-16"},{"url":"https://rkmusic.jp/release/443/","label":"官方歌曲／商品／影片資料","role":"first_party","language":"ja","verifiedAt":"2026-10-16"},{"url":"https://hachi.lnk.to/Brand_New_Episode","label":"官方曲目／專輯入口","role":"first_party","language":"multi","verifiedAt":"2026-10-16"},{"url":"https://www.tv-tokyo.co.jp/anime/shibuya-hachi/news/","label":"官方：2025春第3クール與本曲","role":"first_party","language":"ja","verifiedAt":"2026-10-16"}],"credits":[{"name":"HACHI","role":"vocals"},{"name":"yacco","role":"lyrics"},{"name":"tee tea","role":"composition"},{"name":"SHINTA","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.nippon-animation.co.jp/news/information/18828/","https://www.cy.netgamebm.com/animation/view/8667/"],"verifiedAt":"2026-10-16","targetId":"shibuya-hachi-brand-new-episode-song"},{"target":"song","fields":["credits"],"sourceUrls":["https://hachi-official.jp/"],"verifiedAt":"2026-10-16","targetId":"shibuya-hachi-brand-new-episode-song"},{"target":"recording","fields":["title","format","kind"],"sourceUrls":["https://rkmusic.jp/release/443/"],"verifiedAt":"2026-10-16","targetId":"shibuya-hachi-brand-new-episode-song-original"},{"target":"release","fields":["title","type","artist","tracklist","date","edition"],"sourceUrls":["https://rkmusic.jp/release/443/"],"verifiedAt":"2026-10-16","targetId":"shibuya-hachi-brand-new-episode-song-digital"},{"target":"link","fields":["url"],"sourceUrls":["https://rkmusic.jp/release/443/"],"verifiedAt":"2026-10-16","targetId":"https://hachi.lnk.to/Brand_New_Episode"},{"target":"link","fields":["url"],"sourceUrls":["https://rkmusic.jp/release/443/"],"verifiedAt":"2026-10-16","targetId":"https://www.youtube.com/watch?v=NR6Qa_pb1M0"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://hachi-official.jp/"],"verifiedAt":"2026-10-16","targetId":"hachi-revealia-limited"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://hachi-official.jp/"],"verifiedAt":"2026-10-16","targetId":"hachi-revealia-regular"},{"target":"link","fields":["url"],"sourceUrls":["https://hachi.lnk.to/Brand_New_Episode"],"verifiedAt":"2026-10-16","targetId":"https://music.apple.com/jp/album/1850923766"},{"target":"link","fields":["url"],"sourceUrls":["https://hachi.lnk.to/Brand_New_Episode"],"verifiedAt":"2026-10-16","targetId":"https://open.spotify.com/album/57FSnQI6bjesC9bQTyLzv0"},{"target":"link","fields":["url"],"sourceUrls":["https://hachi.lnk.to/Brand_New_Episode"],"verifiedAt":"2026-10-16","targetId":"https://music.line.me/launch?target=album&item=mb0000000004cd9f67&cc=JP&v=1"},{"target":"link","fields":["url"],"sourceUrls":["https://hachi.lnk.to/Brand_New_Episode"],"verifiedAt":"2026-10-16","targetId":"https://music.youtube.com/playlist?list=OLAK5uy_m82ttw9D9lpLVBSPqWaK1xjnz9DlKDpmk"},{"target":"link","fields":["url"],"sourceUrls":["https://hachi.lnk.to/Brand_New_Episode"],"verifiedAt":"2026-10-16","targetId":"https://mora.jp/package/43000014/NOPA-8302/"},{"target":"link","fields":["url"],"sourceUrls":["https://hachi.lnk.to/Brand_New_Episode"],"verifiedAt":"2026-10-16","targetId":"https://mora.jp/package/43000189/NOPA-8302/"},{"target":"link","fields":["url"],"sourceUrls":["https://hachi.lnk.to/Brand_New_Episode"],"verifiedAt":"2026-10-16","targetId":"https://recochoku.jp/album/A1044717540"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://rkmusic.jp/release/443/","https://www.tv-tokyo.co.jp/anime/shibuya-hachi/news/"],"verifiedAt":"2026-10-16","targetId":"shibuya-hachi-part-3-op-1"},{"target":"video","targetId":"NR6Qa_pb1M0","fields":["title","type","url"],"sourceUrls":["https://rkmusic.jp/release/443/"],"verifiedAt":"2026-10-16"}],"usageLabel":"第3クール OP","releaseDate":"2025-11-21","recordings":[{"id":"shibuya-hachi-brand-new-episode-song-original","title":"Brand New Episode","format":"unknown","kind":"vocal"}],"releases":[{"id":"shibuya-hachi-brand-new-episode-song-digital","title":"Brand New Episode","type":"single","artistDisplayName":"HACHI","tracks":[{"title":"Brand New Episode","position":1,"recordingId":"shibuya-hachi-brand-new-episode-song-original"}],"date":{"value":"2025-11-21","precision":"day"},"edition":"Digital Single"},{"id":"hachi-revealia-limited","title":"Revealia","type":"album","artistDisplayName":"HACHI","tracks":[{"title":"Brand New Episode","position":13}],"date":{"value":"2026-02-11","precision":"day"},"catalogNumber":"KICS-94243","edition":"特別仕様盤 CD","label":"KING RECORDS"},{"id":"hachi-revealia-regular","title":"Revealia","type":"album","artistDisplayName":"HACHI","tracks":[{"title":"Brand New Episode","position":13}],"date":{"value":"2026-02-11","precision":"day"},"catalogNumber":"KICS-4244","edition":"通常盤 CD","label":"KING RECORDS"}],"links":[{"platform":"官方配信","label":"Brand New Episode：官方配信／商品入口","url":"https://hachi.lnk.to/Brand_New_Episode","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-16","availability":"unknown","releaseId":"shibuya-hachi-brand-new-episode-song-digital"},{"platform":"YouTube","label":"Brand New Episode：Official Music Video","url":"https://www.youtube.com/watch?v=NR6Qa_pb1M0","linkType":"direct_track","region":"UNKNOWN","verifiedAt":"2026-10-16","availability":"unknown"},{"platform":"Apple Music","label":"Brand New Episode：Apple Music","url":"https://music.apple.com/jp/album/1850923766","linkType":"direct_album","region":"JP","verifiedAt":"2026-10-16","availability":"unknown","releaseId":"shibuya-hachi-brand-new-episode-song-digital"},{"platform":"Spotify","label":"Brand New Episode：Spotify","url":"https://open.spotify.com/album/57FSnQI6bjesC9bQTyLzv0","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-16","availability":"unknown","releaseId":"shibuya-hachi-brand-new-episode-song-digital"},{"platform":"LINE MUSIC","label":"Brand New Episode：LINE MUSIC","url":"https://music.line.me/launch?target=album&item=mb0000000004cd9f67&cc=JP&v=1","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-16","availability":"unknown","releaseId":"shibuya-hachi-brand-new-episode-song-digital"},{"platform":"YouTube Music","label":"Brand New Episode：YouTube Music","url":"https://music.youtube.com/playlist?list=OLAK5uy_m82ttw9D9lpLVBSPqWaK1xjnz9DlKDpmk","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-16","availability":"unknown","releaseId":"shibuya-hachi-brand-new-episode-song-digital"},{"platform":"mora","label":"Brand New Episode：mora","url":"https://mora.jp/package/43000014/NOPA-8302/","linkType":"digital_purchase","region":"UNKNOWN","verifiedAt":"2026-10-16","availability":"unknown","releaseId":"shibuya-hachi-brand-new-episode-song-digital"},{"platform":"mora","label":"Brand New Episode：mora","url":"https://mora.jp/package/43000189/NOPA-8302/","linkType":"digital_purchase","region":"UNKNOWN","verifiedAt":"2026-10-16","availability":"unknown","releaseId":"shibuya-hachi-brand-new-episode-song-digital"},{"platform":"レコチョク","label":"Brand New Episode：レコチョク","url":"https://recochoku.jp/album/A1044717540","linkType":"digital_purchase","region":"UNKNOWN","verifiedAt":"2026-10-16","availability":"unknown","releaseId":"shibuya-hachi-brand-new-episode-song-digital"}],"lastVerifiedAt":"2026-10-16"}],"verifiedAt":"2026-08-30","metadataVerifiedAt":"2026-08-30"},
+  {"anilistId":185715,"id":"curated-185715","slug":"shibuya-hachi-part-3","seasonIds":["2025-spring"],"startDate":"2025-04-05","titleJa":"SHIBUYA♡HACHI 第3クール","titleZhHant":"SHIBUYA♡HACHI （第3期）","titleRomaji":"SHIBUYA♡HACHI Part 3","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185715-S5OtxSJTo5k1.png","editorialWeekday":6,"broadcastLabel":"番組內TV第3クール：原公告明2025-04-05起在「イニミニマニモ」（每週六07:00）內播出；本作單話分鐘／完整獨立槽仍待核，第4クール與再播另分。","status":"finished","officialSiteUrl":"https://www.tv-tokyo.co.jp/anime/shibuya-hachi/","anilistUrl":"https://anilist.co/anime/185715","imageSourceUrl":"https://anilist.co/anime/185715","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/14985","https://bgm.tv/subject/541037"],"uzureaUrl":"https://uzurea.net/spring-2025-anime-themes-and-picks/","themes":[{"type":"OP","sequence":1,"titleJa":"Brand New Episode","artistDisplayName":"HACHI","songId":"shibuya-hachi-brand-new-episode-song","seasonIds":["2025-spring"],"sourceMode":"explicit","sources":[{"url":"https://www.nippon-animation.co.jp/news/information/18828/","label":"官方：歌曲、演唱與動畫用途","role":"first_party","language":"ja","verifiedAt":"2026-10-16"},{"url":"https://www.cy.netgamebm.com/animation/view/8667/","label":"歌曲與動畫用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-16"},{"url":"https://hachi-official.jp/","label":"藝人官方：Revealia逐曲詞曲編曲","role":"first_party","language":"ja","verifiedAt":"2026-10-16"},{"url":"https://rkmusic.jp/release/443/","label":"官方歌曲／商品／影片資料","role":"first_party","language":"ja","verifiedAt":"2026-10-16"},{"url":"https://hachi.lnk.to/Brand_New_Episode","label":"官方曲目／專輯入口","role":"first_party","language":"multi","verifiedAt":"2026-10-16"},{"url":"https://www.tv-tokyo.co.jp/anime/shibuya-hachi/news/","label":"官方：2025春第3クール與本曲","role":"first_party","language":"ja","verifiedAt":"2026-10-16"}],"credits":[{"name":"HACHI","role":"vocals"},{"name":"yacco","role":"lyrics"},{"name":"tee tea","role":"composition"},{"name":"SHINTA","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.nippon-animation.co.jp/news/information/18828/","https://www.cy.netgamebm.com/animation/view/8667/"],"verifiedAt":"2026-10-16","targetId":"shibuya-hachi-brand-new-episode-song"},{"target":"song","fields":["credits"],"sourceUrls":["https://hachi-official.jp/"],"verifiedAt":"2026-10-16","targetId":"shibuya-hachi-brand-new-episode-song"},{"target":"recording","fields":["title","format","kind"],"sourceUrls":["https://rkmusic.jp/release/443/"],"verifiedAt":"2026-10-16","targetId":"shibuya-hachi-brand-new-episode-song-original"},{"target":"release","fields":["title","type","artist","tracklist","date","edition"],"sourceUrls":["https://rkmusic.jp/release/443/"],"verifiedAt":"2026-10-16","targetId":"shibuya-hachi-brand-new-episode-song-digital"},{"target":"link","fields":["url"],"sourceUrls":["https://rkmusic.jp/release/443/"],"verifiedAt":"2026-10-16","targetId":"https://hachi.lnk.to/Brand_New_Episode"},{"target":"link","fields":["url"],"sourceUrls":["https://rkmusic.jp/release/443/"],"verifiedAt":"2026-10-16","targetId":"https://www.youtube.com/watch?v=NR6Qa_pb1M0"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://hachi-official.jp/"],"verifiedAt":"2026-10-16","targetId":"hachi-revealia-limited"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://hachi-official.jp/"],"verifiedAt":"2026-10-16","targetId":"hachi-revealia-regular"},{"target":"link","fields":["url"],"sourceUrls":["https://hachi.lnk.to/Brand_New_Episode"],"verifiedAt":"2026-10-16","targetId":"https://music.apple.com/jp/album/1850923766"},{"target":"link","fields":["url"],"sourceUrls":["https://hachi.lnk.to/Brand_New_Episode"],"verifiedAt":"2026-10-16","targetId":"https://open.spotify.com/album/57FSnQI6bjesC9bQTyLzv0"},{"target":"link","fields":["url"],"sourceUrls":["https://hachi.lnk.to/Brand_New_Episode"],"verifiedAt":"2026-10-16","targetId":"https://music.line.me/launch?target=album&item=mb0000000004cd9f67&cc=JP&v=1"},{"target":"link","fields":["url"],"sourceUrls":["https://hachi.lnk.to/Brand_New_Episode"],"verifiedAt":"2026-10-16","targetId":"https://music.youtube.com/playlist?list=OLAK5uy_m82ttw9D9lpLVBSPqWaK1xjnz9DlKDpmk"},{"target":"link","fields":["url"],"sourceUrls":["https://hachi.lnk.to/Brand_New_Episode"],"verifiedAt":"2026-10-16","targetId":"https://mora.jp/package/43000014/NOPA-8302/"},{"target":"link","fields":["url"],"sourceUrls":["https://hachi.lnk.to/Brand_New_Episode"],"verifiedAt":"2026-10-16","targetId":"https://mora.jp/package/43000189/NOPA-8302/"},{"target":"link","fields":["url"],"sourceUrls":["https://hachi.lnk.to/Brand_New_Episode"],"verifiedAt":"2026-10-16","targetId":"https://recochoku.jp/album/A1044717540"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://rkmusic.jp/release/443/","https://www.tv-tokyo.co.jp/anime/shibuya-hachi/news/"],"verifiedAt":"2026-10-16","targetId":"shibuya-hachi-part-3-op-1"},{"target":"video","targetId":"NR6Qa_pb1M0","fields":["title","type","url"],"sourceUrls":["https://rkmusic.jp/release/443/"],"verifiedAt":"2026-10-16"}],"usageLabel":"第3クール OP","releaseDate":"2025-11-21","recordings":[{"id":"shibuya-hachi-brand-new-episode-song-original","title":"Brand New Episode","format":"unknown","kind":"vocal"}],"releases":[{"id":"shibuya-hachi-brand-new-episode-song-digital","title":"Brand New Episode","type":"single","artistDisplayName":"HACHI","tracks":[{"title":"Brand New Episode","position":1,"recordingId":"shibuya-hachi-brand-new-episode-song-original"}],"date":{"value":"2025-11-21","precision":"day"},"edition":"Digital Single"},{"id":"hachi-revealia-limited","title":"Revealia","type":"album","artistDisplayName":"HACHI","tracks":[{"title":"Brand New Episode","position":13}],"date":{"value":"2026-02-11","precision":"day"},"catalogNumber":"KICS-94243","edition":"特別仕様盤 CD","label":"KING RECORDS"},{"id":"hachi-revealia-regular","title":"Revealia","type":"album","artistDisplayName":"HACHI","tracks":[{"title":"Brand New Episode","position":13}],"date":{"value":"2026-02-11","precision":"day"},"catalogNumber":"KICS-4244","edition":"通常盤 CD","label":"KING RECORDS"}],"links":[{"platform":"官方配信","label":"Brand New Episode：官方配信／商品入口","url":"https://hachi.lnk.to/Brand_New_Episode","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-16","availability":"unknown","releaseId":"shibuya-hachi-brand-new-episode-song-digital"},{"platform":"YouTube","label":"Brand New Episode：Official Music Video","url":"https://www.youtube.com/watch?v=NR6Qa_pb1M0","linkType":"direct_track","region":"UNKNOWN","verifiedAt":"2026-10-16","availability":"unknown"},{"platform":"Apple Music","label":"Brand New Episode：Apple Music","url":"https://music.apple.com/jp/album/1850923766","linkType":"direct_album","region":"JP","verifiedAt":"2026-10-16","availability":"unknown","releaseId":"shibuya-hachi-brand-new-episode-song-digital"},{"platform":"Spotify","label":"Brand New Episode：Spotify","url":"https://open.spotify.com/album/57FSnQI6bjesC9bQTyLzv0","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-16","availability":"unknown","releaseId":"shibuya-hachi-brand-new-episode-song-digital"},{"platform":"LINE MUSIC","label":"Brand New Episode：LINE MUSIC","url":"https://music.line.me/launch?target=album&item=mb0000000004cd9f67&cc=JP&v=1","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-16","availability":"unknown","releaseId":"shibuya-hachi-brand-new-episode-song-digital"},{"platform":"YouTube Music","label":"Brand New Episode：YouTube Music","url":"https://music.youtube.com/playlist?list=OLAK5uy_m82ttw9D9lpLVBSPqWaK1xjnz9DlKDpmk","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-16","availability":"unknown","releaseId":"shibuya-hachi-brand-new-episode-song-digital"},{"platform":"mora","label":"Brand New Episode：mora","url":"https://mora.jp/package/43000014/NOPA-8302/","linkType":"digital_purchase","region":"UNKNOWN","verifiedAt":"2026-10-16","availability":"unknown","releaseId":"shibuya-hachi-brand-new-episode-song-digital"},{"platform":"mora","label":"Brand New Episode：mora","url":"https://mora.jp/package/43000189/NOPA-8302/","linkType":"digital_purchase","region":"UNKNOWN","verifiedAt":"2026-10-16","availability":"unknown","releaseId":"shibuya-hachi-brand-new-episode-song-digital"},{"platform":"レコチョク","label":"Brand New Episode：レコチョク","url":"https://recochoku.jp/album/A1044717540","linkType":"digital_purchase","region":"UNKNOWN","verifiedAt":"2026-10-16","availability":"unknown","releaseId":"shibuya-hachi-brand-new-episode-song-digital"}],"lastVerifiedAt":"2026-10-16"}],"verifiedAt":"2026-08-30","metadataVerifiedAt":"2026-11-05",
+    "metadataSources": [
+      {
+        "label": "動畫官方網站：作品與播出資料",
+        "url": "https://www.tv-tokyo.co.jp/anime/shibuya-hachi/",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-08-30"
+      },
+      {
+        "label": "AniList：作品識別與公開圖像",
+        "url": "https://anilist.co/anime/185715",
+        "language": "en",
+        "role": "identifier",
+        "verifiedAt": "2026-08-30"
+      },
+      {
+        "label": "繁體中文季度列表交叉對照",
+        "url": "https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+        "language": "zh-Hant",
+        "role": "localized_cross_check",
+        "verifiedAt": "2026-08-30"
+      },
+      {
+        "label": "UZUREA：季度主題曲與官方影片索引",
+        "url": "https://uzurea.net/spring-2025-anime-themes-and-picks/",
+        "language": "ja",
+        "role": "theme_cross_check",
+        "verifiedAt": "2026-08-30"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://annict.com/works/2025-spring?display=list_detailed",
+        "language": "ja",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-08-30"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://annict.com/works/14985",
+        "language": "ja",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-08-30"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://bgm.tv/subject/541037",
+        "language": "zh-Hans",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-08-30"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/anime/shibuya-hachi/news/index.html",
+        "label": "テレビ東京原2025/3/8公告：第3クール4/5起於イニミニマニモ內；未列單話分鐘",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-05"
+      }
+    ]
+},
   {"anilistId":167336,"id":"curated-167336","slug":"lazarus","seasonIds":["2025-spring"],"startDate":"2025-04-06","titleJa":"ラザロ","titleZhHant":"LAZARUS 拉撒路","titleRomaji":"Lazarus","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx167336-KpGIIBie71OX.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/167336-tDasHGggSBcH.jpg","editorialWeekday":7,"broadcastLabel":"日本TV：2025-04-06日曜23:45・テレ東系列；最速見放題配信は24:15","status":"finished","officialSiteUrl":"https://lazarus.aniplex.co.jp/","anilistUrl":"https://anilist.co/anime/167336","imageSourceUrl":"https://anilist.co/anime/167336","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/14300","https://bgm.tv/subject/446296"],"animeThemesUrl":"https://animethemes.moe/anime/lazarus","uzureaUrl":"https://uzurea.net/spring-2025-anime-themes-and-picks/","themes":[{"type":"OP","sequence":1,"titleJa":"Vortex","artistDisplayName":"Kamasi Washington","youtubeUrl":"https://www.youtube.com/watch?v=40hxb3yJdUg","id":"lazarus-op-1","songId":"lazarus-op-1-song","sourceMode":"explicit","sources":[{"label":"MAPPA CHANNEL 官方影片","url":"https://www.youtube.com/watch?v=40hxb3yJdUg","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://lazarus.aniplex.co.jp/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/lazarus","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://lazarus.aniplex.co.jp/music/","label":"官方：本期原名、演唱、歌曲用途與同頁明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"YouTube","label":"官方公開影片","url":"https://www.youtube.com/watch?v=40hxb3yJdUg","linkType":"direct_track","region":"GLOBAL"}],"credits":[{"name":"Kamasi Washington","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://lazarus.aniplex.co.jp/music/"],"verifiedAt":"2026-10-20","targetId":"lazarus-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://lazarus.aniplex.co.jp/music/"],"verifiedAt":"2026-10-20","targetId":"lazarus-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/lazarus"],"verifiedAt":"2026-08-30","targetId":"lazarus-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/lazarus"],"verifiedAt":"2026-08-30","targetId":"lazarus-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"lazarus-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"lazarus-op-1"}],"seasonIds":["2025-spring"],"lastVerifiedAt":"2026-10-20"},{"type":"ED","sequence":1,"titleJa":"Lazarus","artistDisplayName":"The Boo Radleys","youtubeUrl":"https://www.youtube.com/watch?v=6gZB1J7ejhA","id":"lazarus-ed-1","songId":"lazarus-ed-1-song","sourceMode":"explicit","sources":[{"label":"TheBooRadleysVEVO 官方影片","url":"https://www.youtube.com/watch?v=6gZB1J7ejhA","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://lazarus.aniplex.co.jp/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/lazarus","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://lazarus.aniplex.co.jp/music/","label":"官方：本期原名、演唱、歌曲用途與同頁明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"YouTube","label":"官方公開影片","url":"https://www.youtube.com/watch?v=6gZB1J7ejhA","linkType":"direct_track","region":"GLOBAL"}],"credits":[{"name":"The Boo Radleys","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://lazarus.aniplex.co.jp/music/"],"verifiedAt":"2026-10-20","targetId":"lazarus-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://lazarus.aniplex.co.jp/music/"],"verifiedAt":"2026-10-20","targetId":"lazarus-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/lazarus"],"verifiedAt":"2026-08-30","targetId":"lazarus-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/lazarus"],"verifiedAt":"2026-08-30","targetId":"lazarus-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"lazarus-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"lazarus-ed-1"}],"seasonIds":["2025-spring"],"lastVerifiedAt":"2026-10-20"}],"verifiedAt":"2026-08-30","metadataVerifiedAt":"2026-08-30","metadataSources":[{"url":"https://lazarus.aniplex.co.jp/onair/","label":"官方：本期TV首播與時段（與配信、續期及重播分開）","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://youranimes.tw/bangumi/202504","label":"中文作品／季度索引：TV身分、首播與歌曲交叉核對","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"}],"broadcastTimeJst":"23:45"},
   {"anilistId":178052,"id":"curated-178052","slug":"princess-session-orchestra","seasonIds":["2025-spring","2025-summer","2025-fall","2026-winter"],"startDate":"2025-04-06","titleJa":"プリンセッション・オーケストラ","titleZhHant":"Princession Orchestra","titleRomaji":"Princess-Session Orchestra","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178052-igWygf0ZG1gl.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/178052-IF8MMPoHy0DW.jpg","editorialWeekday":7,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://princess-session.com/","anilistUrl":"https://anilist.co/anime/178052","imageSourceUrl":"https://anilist.co/anime/178052","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/13246","https://bgm.tv/subject/499169"],"animeThemesUrl":"https://animethemes.moe/anime/princession_orchestra","uzureaUrl":"https://uzurea.net/spring-2025-anime-themes-and-picks/","themes":[{"type":"OP","sequence":1,"titleJa":"ゼッタイ歌姫宣言ッ！","artistDisplayName":"オルケリア","sources":[{"label":"動畫官方網站","url":"https://princess-session.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/princession_orchestra","language":"en","role":"cross_check","verifiedAt":"2026-10-17"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://www.princess-session.com/music/themesongs/01.html","label":"動畫官方 MUSIC：歌曲、演唱、創作與用途","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://zh.wikipedia.org/wiki/%E7%9A%87%E5%AE%B6%E5%B0%91%E5%A5%B3%E6%A8%82%E5%9C%98","label":"繁中作品資料：歌曲用途、集數及播出日期","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-17"},{"url":"https://news.kingrecords.co.jp/2025/12/48886/","label":"發行方：五人版歌唱與角色對應","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://www.princess-session.com/news/","label":"官方 NEWS：季度續播與歌曲公告","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://www.princess-session.com/music/cd/themesongs-01.html","label":"動畫官方 CD：本曲收錄、曲序及 off vocal version","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://www.princess-session.com/music/cd/album-01.html","label":"官方歌曲／商品／影片資料","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://priorche.lnk.to/1st_THEMESONGS","label":"官方歌曲／商品／影片資料","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://www.takaratomy.co.jp/products/princess-session/movie/","label":"官方影片／確切平台項目來源","role":"first_party","language":"multi","verifiedAt":"2026-10-17"},{"url":"https://news.kingrecords.co.jp/2026/08/58336/","label":"發行方：演唱團隊角色與CV對應","language":"ja","role":"first_party","verifiedAt":"2026-10-17"},{"url":"https://music.apple.com/jp/album/1804310432","label":"Apple Music 授權商品：發行名義、EP／Single分類及日期","role":"cross_check","language":"ja","verifiedAt":"2026-10-17"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.princess-session.com/music/themesongs/01.html","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.princess-session.com/music/themesongs/01.html","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.princess-session.com/music/themesongs/01.html"],"verifiedAt":"2026-10-17"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.princess-session.com/music/themesongs/01.html","https://news.kingrecords.co.jp/2025/12/48886/"],"verifiedAt":"2026-10-17"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.princess-session.com/news/","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-op-1"},{"target":"recording","fields":["title","format","kind","credits"],"sourceUrls":["https://www.princess-session.com/music/themesongs/01.html"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-op-1-song-original"},{"target":"recording","fields":["title","format","kind"],"sourceUrls":["https://www.princess-session.com/music/cd/themesongs-01.html"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-op-1-song-off-vocal"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.princess-session.com/music/cd/themesongs-01.html"],"verifiedAt":"2026-10-17","targetId":"princession-kicm-3386"},{"target":"link","fields":["url"],"sourceUrls":["https://www.princess-session.com/music/cd/themesongs-01.html"],"verifiedAt":"2026-10-17","targetId":"https://priorche.lnk.to/OPED"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.princess-session.com/music/cd/album-01.html"],"verifiedAt":"2026-10-17","targetId":"princession-kica-2647"},{"target":"link","fields":["url"],"sourceUrls":["https://www.princess-session.com/music/cd/album-01.html"],"verifiedAt":"2026-10-17","targetId":"https://priorche.lnk.to/princess_resonance"},{"target":"release","fields":["title","type","artist","tracklist","edition"],"sourceUrls":["https://priorche.lnk.to/1st_THEMESONGS"],"verifiedAt":"2026-10-17","targetId":"princession-first-themes-digital"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/1st_THEMESONGS"],"verifiedAt":"2026-10-17","targetId":"https://priorche.lnk.to/1st_THEMESONGS"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/1st_THEMESONGS"],"verifiedAt":"2026-10-17","targetId":"https://music.apple.com/jp/album/1804310432"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/1st_THEMESONGS"],"verifiedAt":"2026-10-17","targetId":"https://open.spotify.com/album/1rU0vCg4sbikITNRUSGUhu"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/1st_THEMESONGS"],"verifiedAt":"2026-10-17","targetId":"https://music.youtube.com/playlist?list=OLAK5uy_lL9slrpMnRumwds-jHNAWR68cfZ8WlyfI"},{"target":"link","fields":["url"],"sourceUrls":["https://www.takaratomy.co.jp/products/princess-session/movie/"],"verifiedAt":"2026-10-17","targetId":"https://www.youtube.com/watch?v=2390XLZujGg"},{"target":"credits","fields":["credits"],"sourceUrls":["https://news.kingrecords.co.jp/2026/08/58336/"],"verifiedAt":"2026-10-17"},{"target":"release","targetId":"princession-first-themes-digital","fields":["artist","type","date"],"sourceUrls":["https://music.apple.com/jp/album/1804310432"],"verifiedAt":"2026-10-17"}],"credits":[{"name":"プリンセス・リップル（CV.葵あずさ）","role":"vocals"},{"name":"プリンセス・ジール（CV.藤本侑里）","role":"vocals"},{"name":"プリンセス・ミーティア（CV.橘杏咲）","role":"vocals"},{"name":"上松範康(Elements Garden)","role":"lyrics"},{"name":"上松範康(Elements Garden)","role":"composition"},{"name":"菊田大介(Elements Garden)","role":"arrangement"}],"songId":"princess-session-orchestra-op-1-song","seasonIds":["2025-spring","2025-summer","2025-fall"],"usageLabel":"前期 OP（第1話 ED 使用も交叉核對）","sourceMode":"explicit","recordings":[{"id":"princess-session-orchestra-op-1-song-original","title":"ゼッタイ歌姫宣言ッ！","format":"unknown","kind":"character","credits":[{"name":"プリンセス・リップル（CV.葵あずさ）","role":"vocals"},{"name":"プリンセス・ジール（CV.藤本侑里）","role":"vocals"},{"name":"プリンセス・ミーティア（CV.橘杏咲）","role":"vocals"}]},{"id":"princess-session-orchestra-op-1-song-off-vocal","title":"ゼッタイ歌姫宣言ッ！ off vocal version","format":"unknown","kind":"instrumental"}],"releases":[{"id":"princession-kicm-3386","title":"ゼッタイ歌姫宣言ッ！/君とつなぐオーケストラ","type":"single","artistDisplayName":"オルケリア","tracks":[{"title":"ゼッタイ歌姫宣言ッ！","position":1,"recordingId":"princess-session-orchestra-op-1-song-original"},{"title":"ゼッタイ歌姫宣言ッ！ off vocal version","position":3,"recordingId":"princess-session-orchestra-op-1-song-off-vocal"}],"date":{"value":"2025-04-23","precision":"day"},"catalogNumber":"KICM-3386","edition":"CD"},{"id":"princession-kica-2647","title":"PRINCESS RESONANCE","type":"album","artistDisplayName":"オルケリア","tracks":[{"title":"ゼッタイ歌姫宣言ッ！","position":1}],"date":{"value":"2026-04-01","precision":"day"},"catalogNumber":"KICA-2647","edition":"CD"},{"id":"princession-first-themes-digital","title":"ゼッタイ歌姫宣言ッ！/君とつなぐオーケストラ","type":"ep","artistDisplayName":"オルケリア、プリンセッション・オーケストラ","tracks":[{"title":"ゼッタイ歌姫宣言ッ！"}],"edition":"Digital","date":{"value":"2025-04-23","precision":"day"}}],"links":[{"platform":"官方商品","label":"ゼッタイ歌姫宣言ッ！/君とつなぐオーケストラ 官方商品／購買入口","url":"https://priorche.lnk.to/OPED","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-kicm-3386"},{"platform":"官方商品","label":"PRINCESS RESONANCE 官方商品／購買入口","url":"https://priorche.lnk.to/princess_resonance","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-kica-2647"},{"platform":"官方配信","label":"官方配信／商品入口","url":"https://priorche.lnk.to/1st_THEMESONGS","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-first-themes-digital"},{"platform":"Apple Music","label":"ゼッタイ歌姫宣言ッ！ Apple Music 確切項目","url":"https://music.apple.com/jp/album/1804310432","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-first-themes-digital"},{"platform":"Spotify","label":"ゼッタイ歌姫宣言ッ！ Spotify 確切項目","url":"https://open.spotify.com/album/1rU0vCg4sbikITNRUSGUhu","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-first-themes-digital"},{"platform":"YouTube Music","label":"ゼッタイ歌姫宣言ッ！ YouTube Music 確切項目","url":"https://music.youtube.com/playlist?list=OLAK5uy_lL9slrpMnRumwds-jHNAWR68cfZ8WlyfI","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-first-themes-digital"},{"platform":"YouTube","label":"官方オープニングムービー","url":"https://www.youtube.com/watch?v=2390XLZujGg","linkType":"direct_track","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown"}]},{"type":"OP","sequence":2,"titleJa":"FUTURE SESSION","artistDisplayName":"オルケリア","sources":[{"label":"動畫官方網站","url":"https://princess-session.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/princession_orchestra","language":"en","role":"cross_check","verifiedAt":"2026-10-17"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://www.princess-session.com/music/themesongs/03.html","label":"動畫官方 MUSIC：歌曲、演唱、創作與用途","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://zh.wikipedia.org/wiki/%E7%9A%87%E5%AE%B6%E5%B0%91%E5%A5%B3%E6%A8%82%E5%9C%98","label":"繁中作品資料：歌曲用途、集數及播出日期","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-17"},{"url":"https://news.kingrecords.co.jp/2025/12/48886/","label":"發行方：五人版歌唱與角色對應","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://www.princess-session.com/news/","label":"官方 NEWS：季度續播與歌曲公告","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://princess-session.com/music/cd/themesongs-02.html","label":"動畫官方 CD：本曲收錄、曲序及 off vocal version","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://www.princess-session.com/music/cd/album-01.html","label":"官方歌曲／商品／影片資料","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://po-charasong.lnk.to/future-session","label":"官方歌曲／商品／影片資料","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://www.takaratomy.co.jp/products/princess-session/movie/","label":"官方影片／確切平台項目來源","role":"first_party","language":"multi","verifiedAt":"2026-10-17"},{"url":"https://news.kingrecords.co.jp/2026/08/58336/","label":"發行方：演唱團隊角色與CV對應","language":"ja","role":"first_party","verifiedAt":"2026-10-17"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.princess-session.com/music/themesongs/03.html","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-op-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.princess-session.com/music/themesongs/03.html","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-op-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.princess-session.com/music/themesongs/03.html"],"verifiedAt":"2026-10-17"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.princess-session.com/music/themesongs/03.html","https://news.kingrecords.co.jp/2025/12/48886/"],"verifiedAt":"2026-10-17"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.princess-session.com/news/","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-op-2"},{"target":"recording","fields":["title","format","kind","credits"],"sourceUrls":["https://www.princess-session.com/music/themesongs/03.html"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-op-2-song-trio"},{"target":"recording","fields":["title","format","kind"],"sourceUrls":["https://princess-session.com/music/cd/themesongs-02.html"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-op-2-song-off-vocal"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://princess-session.com/music/cd/themesongs-02.html"],"verifiedAt":"2026-10-17","targetId":"princession-kicm-3393"},{"target":"link","fields":["url"],"sourceUrls":["https://princess-session.com/music/cd/themesongs-02.html"],"verifiedAt":"2026-10-17","targetId":"https://priorche.lnk.to/OPED2"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.princess-session.com/music/cd/album-01.html"],"verifiedAt":"2026-10-17","targetId":"princession-kica-2647"},{"target":"link","fields":["url"],"sourceUrls":["https://www.princess-session.com/music/cd/album-01.html"],"verifiedAt":"2026-10-17","targetId":"https://priorche.lnk.to/princess_resonance"},{"target":"release","fields":["title","type","artist","tracklist","edition"],"sourceUrls":["https://po-charasong.lnk.to/future-session"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-op-2-song-digital"},{"target":"link","fields":["url"],"sourceUrls":["https://po-charasong.lnk.to/future-session"],"verifiedAt":"2026-10-17","targetId":"https://po-charasong.lnk.to/future-session"},{"target":"link","fields":["url"],"sourceUrls":["https://po-charasong.lnk.to/future-session"],"verifiedAt":"2026-10-17","targetId":"https://music.apple.com/jp/album/1841874913"},{"target":"link","fields":["url"],"sourceUrls":["https://po-charasong.lnk.to/future-session"],"verifiedAt":"2026-10-17","targetId":"https://open.spotify.com/album/0MTcTRiguvvFIczTwDyESk"},{"target":"link","fields":["url"],"sourceUrls":["https://po-charasong.lnk.to/future-session"],"verifiedAt":"2026-10-17","targetId":"https://music.youtube.com/playlist?list=OLAK5uy_nu7LoMFpxUR5LMpfMpmwNiwtg3Hadk8KU"},{"target":"link","fields":["url"],"sourceUrls":["https://www.takaratomy.co.jp/products/princess-session/movie/"],"verifiedAt":"2026-10-17","targetId":"https://www.youtube.com/watch?v=cZzd9TZfXjI"},{"target":"credits","fields":["credits"],"sourceUrls":["https://news.kingrecords.co.jp/2026/08/58336/"],"verifiedAt":"2026-10-17"}],"credits":[{"name":"プリンセス・リップル（CV.葵あずさ）","role":"vocals"},{"name":"プリンセス・ジール（CV.藤本侑里）","role":"vocals"},{"name":"プリンセス・ミーティア（CV.橘杏咲）","role":"vocals"},{"name":"Spirit Garden","role":"lyrics"},{"name":"菊田大介(Elements Garden)","role":"composition"},{"name":"菊田大介(Elements Garden)","role":"arrangement"}],"songId":"princess-session-orchestra-op-2-song","seasonIds":["2025-fall"],"usageLabel":"後期 OP（三人歌唱）","sourceMode":"explicit","recordings":[{"id":"princess-session-orchestra-op-2-song-trio","title":"FUTURE SESSION","format":"unknown","kind":"character","credits":[{"name":"プリンセス・リップル（CV.葵あずさ）","role":"vocals"},{"name":"プリンセス・ジール（CV.藤本侑里）","role":"vocals"},{"name":"プリンセス・ミーティア（CV.橘杏咲）","role":"vocals"}]},{"id":"princess-session-orchestra-op-2-song-off-vocal","title":"FUTURE SESSION off vocal version","format":"unknown","kind":"instrumental"}],"versionLabel":"三人歌唱版","releases":[{"id":"princession-kicm-3393","title":"FUTURE SESSION/ONENESS HARMONY","type":"single","artistDisplayName":"オルケリア","tracks":[{"title":"FUTURE SESSION","position":1,"recordingId":"princess-session-orchestra-op-2-song-trio"},{"title":"FUTURE SESSION off vocal version","position":3,"recordingId":"princess-session-orchestra-op-2-song-off-vocal"}],"date":{"value":"2025-11-12","precision":"day"},"catalogNumber":"KICM-3393","edition":"CD"},{"id":"princession-kica-2647","title":"PRINCESS RESONANCE","type":"album","artistDisplayName":"オルケリア","tracks":[{"title":"FUTURE SESSION","position":6}],"date":{"value":"2026-04-01","precision":"day"},"catalogNumber":"KICA-2647","edition":"CD"},{"id":"princess-session-orchestra-op-2-song-digital","title":"FUTURE SESSION","type":"single","artistDisplayName":"オルケリア","tracks":[{"title":"FUTURE SESSION"}],"edition":"Digital"}],"links":[{"platform":"官方商品","label":"FUTURE SESSION/ONENESS HARMONY 官方商品／購買入口","url":"https://priorche.lnk.to/OPED2","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-kicm-3393"},{"platform":"官方商品","label":"PRINCESS RESONANCE 官方商品／購買入口","url":"https://priorche.lnk.to/princess_resonance","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-kica-2647"},{"platform":"官方配信","label":"官方配信／商品入口","url":"https://po-charasong.lnk.to/future-session","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princess-session-orchestra-op-2-song-digital"},{"platform":"Apple Music","label":"FUTURE SESSION Apple Music 確切項目","url":"https://music.apple.com/jp/album/1841874913","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princess-session-orchestra-op-2-song-digital"},{"platform":"Spotify","label":"FUTURE SESSION Spotify 確切項目","url":"https://open.spotify.com/album/0MTcTRiguvvFIczTwDyESk","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princess-session-orchestra-op-2-song-digital"},{"platform":"YouTube Music","label":"FUTURE SESSION YouTube Music 確切項目","url":"https://music.youtube.com/playlist?list=OLAK5uy_nu7LoMFpxUR5LMpfMpmwNiwtg3Hadk8KU","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princess-session-orchestra-op-2-song-digital"},{"platform":"YouTube","label":"三人版官方オープニングムービー","url":"https://www.youtube.com/watch?v=cZzd9TZfXjI","linkType":"direct_track","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown"}]},{"type":"OP","sequence":3,"titleJa":"FUTURE SESSION -Ver. Constellation-","artistDisplayName":"オルケリア","sources":[{"label":"動畫官方網站","url":"https://princess-session.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/princession_orchestra","language":"en","role":"cross_check","verifiedAt":"2026-10-17"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://www.princess-session.com/music/themesongs/06.html","label":"動畫官方 MUSIC：歌曲、演唱、創作與用途","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://zh.wikipedia.org/wiki/%E7%9A%87%E5%AE%B6%E5%B0%91%E5%A5%B3%E6%A8%82%E5%9C%98","label":"繁中作品資料：歌曲用途、集數及播出日期","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-17"},{"url":"https://news.kingrecords.co.jp/2025/12/48886/","label":"發行方：五人版歌唱與角色對應","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://www.princess-session.com/news/","label":"官方 NEWS：季度續播與歌曲公告","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://www.princess-session.com/music/cd/album-01.html","label":"官方歌曲／商品／影片資料","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://po-charasong.lnk.to/futuresession-onenessharmony","label":"官方歌曲／商品／影片資料","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://news.kingrecords.co.jp/2026/08/58336/","label":"發行方：演唱團隊角色與CV對應","language":"ja","role":"first_party","verifiedAt":"2026-10-17"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.princess-session.com/music/themesongs/06.html","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-op-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.princess-session.com/music/themesongs/06.html","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-op-3"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.princess-session.com/music/themesongs/06.html"],"verifiedAt":"2026-10-17"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.princess-session.com/music/themesongs/06.html","https://news.kingrecords.co.jp/2025/12/48886/"],"verifiedAt":"2026-10-17"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.princess-session.com/news/","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-op-3"},{"target":"recording","fields":["title","format","kind","credits"],"sourceUrls":["https://www.princess-session.com/music/themesongs/06.html"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-op-2-song-quintet"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.princess-session.com/music/cd/album-01.html"],"verifiedAt":"2026-10-17","targetId":"princession-kica-2647"},{"target":"link","fields":["url"],"sourceUrls":["https://www.princess-session.com/music/cd/album-01.html"],"verifiedAt":"2026-10-17","targetId":"https://priorche.lnk.to/princess_resonance"},{"target":"release","fields":["title","type","artist","tracklist","edition"],"sourceUrls":["https://po-charasong.lnk.to/futuresession-onenessharmony"],"verifiedAt":"2026-10-17","targetId":"princession-constellation-digital"},{"target":"link","fields":["url"],"sourceUrls":["https://po-charasong.lnk.to/futuresession-onenessharmony"],"verifiedAt":"2026-10-17","targetId":"https://po-charasong.lnk.to/futuresession-onenessharmony"},{"target":"link","fields":["url"],"sourceUrls":["https://po-charasong.lnk.to/futuresession-onenessharmony"],"verifiedAt":"2026-10-17","targetId":"https://music.apple.com/jp/album/1856436323"},{"target":"link","fields":["url"],"sourceUrls":["https://po-charasong.lnk.to/futuresession-onenessharmony"],"verifiedAt":"2026-10-17","targetId":"https://open.spotify.com/intl-ja/album/3PAOsKyQogfcMzdKIsgAfU"},{"target":"link","fields":["url"],"sourceUrls":["https://po-charasong.lnk.to/futuresession-onenessharmony"],"verifiedAt":"2026-10-17","targetId":"https://music.youtube.com/playlist?list=OLAK5uy_nOOIsPabHr8Ne4kRnWatrT5sSopg22ws8"},{"target":"link","fields":["url"],"sourceUrls":["https://news.kingrecords.co.jp/2025/12/48886/"],"verifiedAt":"2026-10-17","targetId":"https://www.youtube.com/watch?v=Lrh24AZPl6k"},{"target":"credits","fields":["credits"],"sourceUrls":["https://news.kingrecords.co.jp/2026/08/58336/"],"verifiedAt":"2026-10-17"}],"credits":[{"name":"プリンセス・リップル（CV.葵あずさ）","role":"vocals"},{"name":"プリンセス・ジール（CV.藤本侑里）","role":"vocals"},{"name":"プリンセス・ミーティア（CV.橘杏咲）","role":"vocals"},{"name":"プリンセス・ヴィオラ（CV.鬼頭明里）","role":"vocals"},{"name":"プリンセス・ネージュ（CV.伊藤美来）","role":"vocals"},{"name":"Spirit Garden","role":"lyrics"},{"name":"菊田大介(Elements Garden)","role":"composition"},{"name":"菊田大介(Elements Garden)","role":"arrangement"}],"songId":"princess-session-orchestra-op-2-song","seasonIds":["2025-fall","2026-winter"],"usageLabel":"第36話以降 OP（五人歌唱）","sourceMode":"explicit","recordings":[{"id":"princess-session-orchestra-op-2-song-quintet","title":"FUTURE SESSION -Ver. Constellation-","format":"unknown","kind":"character","credits":[{"name":"プリンセス・リップル（CV.葵あずさ）","role":"vocals"},{"name":"プリンセス・ジール（CV.藤本侑里）","role":"vocals"},{"name":"プリンセス・ミーティア（CV.橘杏咲）","role":"vocals"},{"name":"プリンセス・ヴィオラ（CV.鬼頭明里）","role":"vocals"},{"name":"プリンセス・ネージュ（CV.伊藤美来）","role":"vocals"}]}],"versionLabel":"Ver. Constellation（五人歌唱）","releases":[{"id":"princession-kica-2647","title":"PRINCESS RESONANCE","type":"album","artistDisplayName":"オルケリア","tracks":[{"title":"FUTURE SESSION -Ver. Constellation-","position":10}],"date":{"value":"2026-04-01","precision":"day"},"catalogNumber":"KICA-2647","edition":"CD"},{"id":"princession-constellation-digital","title":"FUTURE SESSION -Ver. Constellation-/ONENESS HARMONY -Ver. Constellation-","type":"single","artistDisplayName":"オルケリア","tracks":[{"title":"FUTURE SESSION -Ver. Constellation-"}],"edition":"Digital（曲目ごとの配信開始日が異なる）"}],"links":[{"platform":"官方商品","label":"PRINCESS RESONANCE 官方商品／購買入口","url":"https://priorche.lnk.to/princess_resonance","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-kica-2647"},{"platform":"官方配信","label":"官方配信／商品入口","url":"https://po-charasong.lnk.to/futuresession-onenessharmony","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-constellation-digital"},{"platform":"Apple Music","label":"FUTURE SESSION -Ver. Constellation- Apple Music 確切項目","url":"https://music.apple.com/jp/album/1856436323","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-constellation-digital"},{"platform":"Spotify","label":"FUTURE SESSION -Ver. Constellation- Spotify 確切項目","url":"https://open.spotify.com/intl-ja/album/3PAOsKyQogfcMzdKIsgAfU","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-constellation-digital"},{"platform":"YouTube Music","label":"FUTURE SESSION -Ver. Constellation- YouTube Music 確切項目","url":"https://music.youtube.com/playlist?list=OLAK5uy_nOOIsPabHr8Ne4kRnWatrT5sSopg22ws8","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-constellation-digital"},{"platform":"YouTube","label":"Ver. Constellation 官方無字幕 OP","url":"https://www.youtube.com/watch?v=Lrh24AZPl6k","linkType":"direct_track","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown"}]},{"type":"ED","sequence":1,"titleJa":"君とつなぐオーケストラ","artistDisplayName":"オルケリア","sources":[{"label":"動畫官方網站","url":"https://princess-session.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/princession_orchestra","language":"en","role":"cross_check","verifiedAt":"2026-10-17"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://www.princess-session.com/music/themesongs/02.html","label":"動畫官方 MUSIC：歌曲、演唱、創作與用途","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://zh.wikipedia.org/wiki/%E7%9A%87%E5%AE%B6%E5%B0%91%E5%A5%B3%E6%A8%82%E5%9C%98","label":"繁中作品資料：歌曲用途、集數及播出日期","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-17"},{"url":"https://news.kingrecords.co.jp/2025/12/48886/","label":"發行方：五人版歌唱與角色對應","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://www.princess-session.com/news/","label":"官方 NEWS：季度續播與歌曲公告","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://www.princess-session.com/music/cd/themesongs-01.html","label":"動畫官方 CD：本曲收錄、曲序及 off vocal version","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://www.princess-session.com/music/cd/album-01.html","label":"官方歌曲／商品／影片資料","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://priorche.lnk.to/1st_THEMESONGS","label":"官方歌曲／商品／影片資料","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://www.takaratomy.co.jp/products/princess-session/movie/","label":"官方影片／確切平台項目來源","role":"first_party","language":"multi","verifiedAt":"2026-10-17"},{"url":"https://news.kingrecords.co.jp/2026/08/58336/","label":"發行方：演唱團隊角色與CV對應","language":"ja","role":"first_party","verifiedAt":"2026-10-17"},{"url":"https://music.apple.com/jp/album/1804310432","label":"Apple Music 授權商品：發行名義、EP／Single分類及日期","role":"cross_check","language":"ja","verifiedAt":"2026-10-17"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.princess-session.com/music/themesongs/02.html","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.princess-session.com/music/themesongs/02.html","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.princess-session.com/music/themesongs/02.html"],"verifiedAt":"2026-10-17"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.princess-session.com/music/themesongs/02.html","https://news.kingrecords.co.jp/2025/12/48886/"],"verifiedAt":"2026-10-17"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.princess-session.com/news/","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-1"},{"target":"recording","fields":["title","format","kind","credits"],"sourceUrls":["https://www.princess-session.com/music/themesongs/02.html"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-1-song-original"},{"target":"recording","fields":["title","format","kind"],"sourceUrls":["https://www.princess-session.com/music/cd/themesongs-01.html"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-1-song-off-vocal"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.princess-session.com/music/cd/themesongs-01.html"],"verifiedAt":"2026-10-17","targetId":"princession-kicm-3386"},{"target":"link","fields":["url"],"sourceUrls":["https://www.princess-session.com/music/cd/themesongs-01.html"],"verifiedAt":"2026-10-17","targetId":"https://priorche.lnk.to/OPED"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.princess-session.com/music/cd/album-01.html"],"verifiedAt":"2026-10-17","targetId":"princession-kica-2647"},{"target":"link","fields":["url"],"sourceUrls":["https://www.princess-session.com/music/cd/album-01.html"],"verifiedAt":"2026-10-17","targetId":"https://priorche.lnk.to/princess_resonance"},{"target":"release","fields":["title","type","artist","tracklist","edition"],"sourceUrls":["https://priorche.lnk.to/1st_THEMESONGS"],"verifiedAt":"2026-10-17","targetId":"princession-first-themes-digital"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/1st_THEMESONGS"],"verifiedAt":"2026-10-17","targetId":"https://priorche.lnk.to/1st_THEMESONGS"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/1st_THEMESONGS"],"verifiedAt":"2026-10-17","targetId":"https://music.apple.com/jp/album/1804310432"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/1st_THEMESONGS"],"verifiedAt":"2026-10-17","targetId":"https://open.spotify.com/album/1rU0vCg4sbikITNRUSGUhu"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/1st_THEMESONGS"],"verifiedAt":"2026-10-17","targetId":"https://music.youtube.com/playlist?list=OLAK5uy_lL9slrpMnRumwds-jHNAWR68cfZ8WlyfI"},{"target":"link","fields":["url"],"sourceUrls":["https://www.takaratomy.co.jp/products/princess-session/movie/"],"verifiedAt":"2026-10-17","targetId":"https://www.youtube.com/watch?v=jZ5wMAXph-k"},{"target":"credits","fields":["credits"],"sourceUrls":["https://news.kingrecords.co.jp/2026/08/58336/"],"verifiedAt":"2026-10-17"},{"target":"release","targetId":"princession-first-themes-digital","fields":["artist","type","date"],"sourceUrls":["https://music.apple.com/jp/album/1804310432"],"verifiedAt":"2026-10-17"}],"credits":[{"name":"プリンセス・リップル（CV.葵あずさ）","role":"vocals"},{"name":"プリンセス・ジール（CV.藤本侑里）","role":"vocals"},{"name":"プリンセス・ミーティア（CV.橘杏咲）","role":"vocals"},{"name":"Spirit Garden","role":"lyrics"},{"name":"菊田大介(Elements Garden)","role":"composition"},{"name":"菊田大介(Elements Garden)","role":"arrangement"}],"songId":"princess-session-orchestra-ed-1-song","seasonIds":["2025-spring","2025-summer","2025-fall"],"usageLabel":"前期 ED","sourceMode":"explicit","recordings":[{"id":"princess-session-orchestra-ed-1-song-original","title":"君とつなぐオーケストラ","format":"unknown","kind":"character","credits":[{"name":"プリンセス・リップル（CV.葵あずさ）","role":"vocals"},{"name":"プリンセス・ジール（CV.藤本侑里）","role":"vocals"},{"name":"プリンセス・ミーティア（CV.橘杏咲）","role":"vocals"}]},{"id":"princess-session-orchestra-ed-1-song-off-vocal","title":"君とつなぐオーケストラ off vocal version","format":"unknown","kind":"instrumental"}],"releases":[{"id":"princession-kicm-3386","title":"ゼッタイ歌姫宣言ッ！/君とつなぐオーケストラ","type":"single","artistDisplayName":"オルケリア","tracks":[{"title":"君とつなぐオーケストラ","position":2,"recordingId":"princess-session-orchestra-ed-1-song-original"},{"title":"君とつなぐオーケストラ off vocal version","position":4,"recordingId":"princess-session-orchestra-ed-1-song-off-vocal"}],"date":{"value":"2025-04-23","precision":"day"},"catalogNumber":"KICM-3386","edition":"CD"},{"id":"princession-kica-2647","title":"PRINCESS RESONANCE","type":"album","artistDisplayName":"オルケリア","tracks":[{"title":"君とつなぐオーケストラ","position":4}],"date":{"value":"2026-04-01","precision":"day"},"catalogNumber":"KICA-2647","edition":"CD"},{"id":"princession-first-themes-digital","title":"ゼッタイ歌姫宣言ッ！/君とつなぐオーケストラ","type":"ep","artistDisplayName":"オルケリア、プリンセッション・オーケストラ","tracks":[{"title":"君とつなぐオーケストラ"}],"edition":"Digital","date":{"value":"2025-04-23","precision":"day"}}],"links":[{"platform":"官方商品","label":"ゼッタイ歌姫宣言ッ！/君とつなぐオーケストラ 官方商品／購買入口","url":"https://priorche.lnk.to/OPED","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-kicm-3386"},{"platform":"官方商品","label":"PRINCESS RESONANCE 官方商品／購買入口","url":"https://priorche.lnk.to/princess_resonance","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-kica-2647"},{"platform":"官方配信","label":"官方配信／商品入口","url":"https://priorche.lnk.to/1st_THEMESONGS","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-first-themes-digital"},{"platform":"Apple Music","label":"君とつなぐオーケストラ Apple Music 確切項目","url":"https://music.apple.com/jp/album/1804310432","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-first-themes-digital"},{"platform":"Spotify","label":"君とつなぐオーケストラ Spotify 確切項目","url":"https://open.spotify.com/album/1rU0vCg4sbikITNRUSGUhu","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-first-themes-digital"},{"platform":"YouTube Music","label":"君とつなぐオーケストラ YouTube Music 確切項目","url":"https://music.youtube.com/playlist?list=OLAK5uy_lL9slrpMnRumwds-jHNAWR68cfZ8WlyfI","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-first-themes-digital"},{"platform":"YouTube","label":"官方エンディングムービー","url":"https://www.youtube.com/watch?v=jZ5wMAXph-k","linkType":"direct_track","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown"}]},{"type":"ED","sequence":2,"titleJa":"人生は流星だ☆彡","artistDisplayName":"一条ながせ（CV.橘杏咲）","sources":[{"label":"動畫官方網站","url":"https://princess-session.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/princession_orchestra","language":"en","role":"cross_check","verifiedAt":"2026-10-17"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://www.princess-session.com/music/insertedsong/03.html","label":"動畫官方 MUSIC：歌曲、演唱、創作與用途","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://zh.wikipedia.org/wiki/%E7%9A%87%E5%AE%B6%E5%B0%91%E5%A5%B3%E6%A8%82%E5%9C%98","label":"繁中作品資料：歌曲用途、集數及播出日期","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-17"},{"url":"https://www.princess-session.com/news/","label":"官方 NEWS：季度續播與歌曲公告","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://priorche.lnk.to/GEKKOU-ITS-ME","label":"官方歌曲／商品／影片資料","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://music.apple.com/jp/album/1815655232","label":"Apple Music 授權商品：發行名義、EP／Single分類及日期","role":"cross_check","language":"ja","verifiedAt":"2026-10-17"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.princess-session.com/music/insertedsong/03.html","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.princess-session.com/music/insertedsong/03.html","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.princess-session.com/music/insertedsong/03.html"],"verifiedAt":"2026-10-17"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.princess-session.com/news/","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-2"},{"target":"recording","fields":["title","format","kind","credits"],"sourceUrls":["https://www.princess-session.com/music/insertedsong/03.html"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-2-song-original"},{"target":"recording","fields":["title","format","kind"],"sourceUrls":["https://www.princess-session.com/news/"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-2-song-off-vocal"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.princess-session.com/news/"],"verifiedAt":"2026-10-17","targetId":"princession-kicm-3389"},{"target":"link","fields":["url"],"sourceUrls":["https://www.princess-session.com/news/"],"verifiedAt":"2026-10-17","targetId":"https://priorche.lnk.to/meteor"},{"target":"release","fields":["title","type","artist","tracklist","edition"],"sourceUrls":["https://priorche.lnk.to/GEKKOU-ITS-ME"],"verifiedAt":"2026-10-17","targetId":"princession-meteor-digital"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/GEKKOU-ITS-ME"],"verifiedAt":"2026-10-17","targetId":"https://priorche.lnk.to/GEKKOU-ITS-ME"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/GEKKOU-ITS-ME"],"verifiedAt":"2026-10-17","targetId":"https://music.apple.com/jp/album/1815655232"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/GEKKOU-ITS-ME"],"verifiedAt":"2026-10-17","targetId":"https://open.spotify.com/album/13UFdLZQCIiLtXoA7VsDHm"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/GEKKOU-ITS-ME"],"verifiedAt":"2026-10-17","targetId":"https://music.youtube.com/playlist?list=OLAK5uy_lixYrY7t8dVJsY0FHpywbEHeWdw0n53vQ"},{"target":"release","targetId":"princession-meteor-digital","fields":["artist","type","date"],"sourceUrls":["https://music.apple.com/jp/album/1815655232"],"verifiedAt":"2026-10-17"}],"credits":[{"name":"一条ながせ（CV.橘杏咲）","role":"vocals"},{"name":"Spirit Garden","role":"lyrics"},{"name":"竹田祐介(Elements Garden)","role":"composition"},{"name":"竹田祐介(Elements Garden)","role":"arrangement"}],"songId":"princess-session-orchestra-ed-2-song","seasonIds":["2025-spring"],"usageLabel":"第5話 特殊 ED（使用集數交叉核對）","sourceMode":"explicit","recordings":[{"id":"princess-session-orchestra-ed-2-song-original","title":"人生は流星だ☆彡","format":"unknown","kind":"character","credits":[{"name":"一条ながせ（CV.橘杏咲）","role":"vocals"}]},{"id":"princess-session-orchestra-ed-2-song-off-vocal","title":"人生は流星だ☆彡 off vocal version","format":"unknown","kind":"instrumental"}],"releases":[{"id":"princession-kicm-3389","title":"激光 It's ME!","type":"single","artistDisplayName":"プリンセス・ミーティア","tracks":[{"title":"人生は流星だ☆彡","position":2,"recordingId":"princess-session-orchestra-ed-2-song-original"},{"title":"人生は流星だ☆彡 off vocal version","position":4,"recordingId":"princess-session-orchestra-ed-2-song-off-vocal"}],"date":{"value":"2025-06-04","precision":"day"},"catalogNumber":"KICM-3389","edition":"CD"},{"id":"princession-meteor-digital","title":"激光 It's ME!","type":"ep","artistDisplayName":"プリンセス・ミーティア（CV.橘杏咲）、プリンセッション・オーケストラ","tracks":[{"title":"人生は流星だ☆彡"}],"edition":"Digital","date":{"value":"2025-06-04","precision":"day"}}],"links":[{"platform":"官方商品","label":"激光 It's ME! 官方商品／購買入口","url":"https://priorche.lnk.to/meteor","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-kicm-3389"},{"platform":"官方配信","label":"官方配信／商品入口","url":"https://priorche.lnk.to/GEKKOU-ITS-ME","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-meteor-digital"},{"platform":"Apple Music","label":"人生は流星だ☆彡 Apple Music 確切項目","url":"https://music.apple.com/jp/album/1815655232","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-meteor-digital"},{"platform":"Spotify","label":"人生は流星だ☆彡 Spotify 確切項目","url":"https://open.spotify.com/album/13UFdLZQCIiLtXoA7VsDHm","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-meteor-digital"},{"platform":"YouTube Music","label":"人生は流星だ☆彡 YouTube Music 確切項目","url":"https://music.youtube.com/playlist?list=OLAK5uy_lixYrY7t8dVJsY0FHpywbEHeWdw0n53vQ","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-meteor-digital"}]},{"type":"ED","sequence":3,"titleJa":"使命は赤きセレナーデ","artistDisplayName":"バンド・スナッチ","sources":[{"label":"動畫官方網站","url":"https://princess-session.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/princession_orchestra","language":"en","role":"cross_check","verifiedAt":"2026-10-17"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://www.princess-session.com/music/battlesong/09.html","label":"動畫官方 MUSIC：歌曲、演唱、創作與用途","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://zh.wikipedia.org/wiki/%E7%9A%87%E5%AE%B6%E5%B0%91%E5%A5%B3%E6%A8%82%E5%9C%98","label":"繁中作品資料：歌曲用途、集數及播出日期","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-17"},{"url":"https://news.kingrecords.co.jp/2025/07/40711/","label":"唱片公司：第13話 ED、配信與實際演唱","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://www.princess-session.com/music/cd/album-02.html","label":"官方Album逐曲表（作編曲與MUSIC頁表記不同，待釐清）","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://www.princess-session.com/news/","label":"官方 NEWS：季度續播與歌曲公告","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://priorche.lnk.to/BAND-SNATCH","label":"官方歌曲／商品／影片資料","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://music.apple.com/jp/album/1821383623","label":"Apple Music 授權商品：發行名義、EP／Single分類及日期","role":"cross_check","language":"ja","verifiedAt":"2026-10-17"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.princess-session.com/music/battlesong/09.html","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-3-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.princess-session.com/music/battlesong/09.html","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-3"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.princess-session.com/music/battlesong/09.html"],"verifiedAt":"2026-10-17"},{"target":"credits","fields":["credits"],"sourceUrls":["https://news.kingrecords.co.jp/2025/07/40711/","https://www.princess-session.com/music/battlesong/09.html"],"verifiedAt":"2026-10-17"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://news.kingrecords.co.jp/2025/07/40711/"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-3"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.princess-session.com/news/","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-3"},{"target":"recording","fields":["title","format","kind","credits"],"sourceUrls":["https://www.princess-session.com/music/battlesong/09.html"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-3-song-original"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.princess-session.com/music/cd/album-02.html"],"verifiedAt":"2026-10-17","targetId":"princession-kica-2648"},{"target":"link","fields":["url"],"sourceUrls":["https://www.princess-session.com/music/cd/album-02.html"],"verifiedAt":"2026-10-17","targetId":"https://priorche.lnk.to/save_the_world"},{"target":"release","fields":["title","type","artist","tracklist","edition"],"sourceUrls":["https://priorche.lnk.to/BAND-SNATCH"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-3-song-digital"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/BAND-SNATCH"],"verifiedAt":"2026-10-17","targetId":"https://priorche.lnk.to/BAND-SNATCH"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/BAND-SNATCH"],"verifiedAt":"2026-10-17","targetId":"https://music.apple.com/jp/album/1821383623"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/BAND-SNATCH"],"verifiedAt":"2026-10-17","targetId":"https://open.spotify.com/album/3q1Srkw3O8BOQoDxk90P0T"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/BAND-SNATCH"],"verifiedAt":"2026-10-17","targetId":"https://music.youtube.com/playlist?list=OLAK5uy_lPYlk2Pna4s0Kvx7xCGbtytIiWAVk6e44"},{"target":"link","fields":["url"],"sourceUrls":["https://news.kingrecords.co.jp/2025/07/40711/"],"verifiedAt":"2026-10-17","targetId":"https://www.youtube.com/watch?v=4804e25aGgg"},{"target":"release","targetId":"princess-session-orchestra-ed-3-song-digital","fields":["artist","type"],"sourceUrls":["https://music.apple.com/jp/album/1821383623"],"verifiedAt":"2026-10-17"}],"credits":[{"name":"カリスト（CV.小林千晃）","role":"vocals"},{"name":"ギータ（CV.千葉翔也）","role":"vocals"},{"name":"ベス（CV.榎木淳弥）","role":"vocals"},{"name":"ドラン（CV.武内駿輔）","role":"vocals"},{"name":"Spirit Garden","role":"lyrics"}],"songId":"princess-session-orchestra-ed-3-song","seasonIds":["2025-summer"],"usageLabel":"第13話 特殊 ED","sourceMode":"explicit","recordings":[{"id":"princess-session-orchestra-ed-3-song-original","title":"使命は赤きセレナーデ","format":"unknown","kind":"character","credits":[{"name":"カリスト（CV.小林千晃）","role":"vocals"},{"name":"ギータ（CV.千葉翔也）","role":"vocals"},{"name":"ベス（CV.榎木淳弥）","role":"vocals"},{"name":"ドラン（CV.武内駿輔）","role":"vocals"}]}],"releases":[{"id":"princession-kica-2648","title":"SAVE THE WORLD","type":"album","artistDisplayName":"プリンセッション・オーケストラ","tracks":[{"title":"使命は赤きセレナーデ","position":3}],"date":{"value":"2026-04-01","precision":"day"},"catalogNumber":"KICA-2648","edition":"CD"},{"id":"princess-session-orchestra-ed-3-song-digital","title":"使命は赤きセレナーデ","type":"single","artistDisplayName":"バンド・スナッチ、プリンセッション・オーケストラ","tracks":[{"title":"使命は赤きセレナーデ"}],"edition":"Digital"}],"links":[{"platform":"官方商品","label":"SAVE THE WORLD 官方商品／購買入口","url":"https://priorche.lnk.to/save_the_world","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-kica-2648"},{"platform":"官方配信","label":"官方配信／商品入口","url":"https://priorche.lnk.to/BAND-SNATCH","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princess-session-orchestra-ed-3-song-digital"},{"platform":"Apple Music","label":"使命は赤きセレナーデ Apple Music 確切項目","url":"https://music.apple.com/jp/album/1821383623","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princess-session-orchestra-ed-3-song-digital"},{"platform":"Spotify","label":"使命は赤きセレナーデ Spotify 確切項目","url":"https://open.spotify.com/album/3q1Srkw3O8BOQoDxk90P0T","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princess-session-orchestra-ed-3-song-digital"},{"platform":"YouTube Music","label":"使命は赤きセレナーデ YouTube Music 確切項目","url":"https://music.youtube.com/playlist?list=OLAK5uy_lPYlk2Pna4s0Kvx7xCGbtytIiWAVk6e44","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princess-session-orchestra-ed-3-song-digital"},{"platform":"YouTube","label":"第13話 官方無字幕特殊 ED","url":"https://www.youtube.com/watch?v=4804e25aGgg","linkType":"direct_track","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown"}]},{"type":"ED","sequence":4,"titleJa":"真紅の荊","artistDisplayName":"赤の女王（CV.水樹奈々）","sources":[{"label":"動畫官方網站","url":"https://princess-session.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/princession_orchestra","language":"en","role":"cross_check","verifiedAt":"2026-10-17"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://www.princess-session.com/music/insertedsong/10.html","label":"動畫官方 MUSIC：歌曲、演唱、創作與用途","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://zh.wikipedia.org/wiki/%E7%9A%87%E5%AE%B6%E5%B0%91%E5%A5%B3%E6%A8%82%E5%9C%98","label":"繁中作品資料：歌曲用途、集數及播出日期","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-17"},{"url":"https://www.princess-session.com/news/","label":"官方 NEWS：季度續播與歌曲公告","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://www.princess-session.com/music/cd/album-02.html","label":"官方歌曲／商品／影片資料","role":"first_party","language":"ja","verifiedAt":"2026-10-17"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.princess-session.com/music/insertedsong/10.html","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-4-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.princess-session.com/music/insertedsong/10.html","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-4"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.princess-session.com/music/insertedsong/10.html"],"verifiedAt":"2026-10-17"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.princess-session.com/news/","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-4"},{"target":"recording","fields":["title","format","kind","credits"],"sourceUrls":["https://www.princess-session.com/music/insertedsong/10.html"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-4-song-original"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.princess-session.com/music/cd/album-02.html"],"verifiedAt":"2026-10-17","targetId":"princession-kica-2648"},{"target":"link","fields":["url"],"sourceUrls":["https://www.princess-session.com/music/cd/album-02.html"],"verifiedAt":"2026-10-17","targetId":"https://priorche.lnk.to/save_the_world"}],"credits":[{"name":"赤の女王（CV.水樹奈々）","role":"vocals"},{"name":"Spirit Garden","role":"lyrics"},{"name":"菊田大介(Elements Garden)","role":"composition"},{"name":"菊田大介(Elements Garden)","role":"arrangement"}],"songId":"princess-session-orchestra-ed-4-song","seasonIds":["2025-summer"],"usageLabel":"第23話 特殊 ED（使用集數交叉核對）","sourceMode":"explicit","recordings":[{"id":"princess-session-orchestra-ed-4-song-original","title":"真紅の荊","format":"unknown","kind":"character","credits":[{"name":"赤の女王（CV.水樹奈々）","role":"vocals"}]}],"releases":[{"id":"princession-kica-2648","title":"SAVE THE WORLD","type":"album","artistDisplayName":"プリンセッション・オーケストラ","tracks":[{"title":"真紅の荊","position":9}],"date":{"value":"2026-04-01","precision":"day"},"catalogNumber":"KICA-2648","edition":"CD"}],"links":[{"platform":"官方商品","label":"SAVE THE WORLD 官方商品／購買入口","url":"https://priorche.lnk.to/save_the_world","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-kica-2648"}]},{"type":"ED","sequence":5,"titleJa":"ONENESS HARMONY","artistDisplayName":"オルケリア","sources":[{"label":"動畫官方網站","url":"https://princess-session.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/princession_orchestra","language":"en","role":"cross_check","verifiedAt":"2026-10-17"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://www.princess-session.com/music/themesongs/04.html","label":"動畫官方 MUSIC：歌曲、演唱、創作與用途","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://zh.wikipedia.org/wiki/%E7%9A%87%E5%AE%B6%E5%B0%91%E5%A5%B3%E6%A8%82%E5%9C%98","label":"繁中作品資料：歌曲用途、集數及播出日期","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-17"},{"url":"https://news.kingrecords.co.jp/2025/12/48886/","label":"發行方：五人版歌唱與角色對應","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://www.princess-session.com/news/","label":"官方 NEWS：季度續播與歌曲公告","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://princess-session.com/music/cd/themesongs-02.html","label":"動畫官方 CD：本曲收錄、曲序及 off vocal version","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://www.princess-session.com/music/cd/album-01.html","label":"官方歌曲／商品／影片資料","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://www.takaratomy.co.jp/products/princess-session/movie/","label":"官方影片／確切平台項目來源","role":"first_party","language":"multi","verifiedAt":"2026-10-17"},{"url":"https://news.kingrecords.co.jp/2026/08/58336/","label":"發行方：演唱團隊角色與CV對應","language":"ja","role":"first_party","verifiedAt":"2026-10-17"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.princess-session.com/music/themesongs/04.html","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-5-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.princess-session.com/music/themesongs/04.html","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-5"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.princess-session.com/music/themesongs/04.html"],"verifiedAt":"2026-10-17"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.princess-session.com/music/themesongs/04.html","https://news.kingrecords.co.jp/2025/12/48886/"],"verifiedAt":"2026-10-17"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.princess-session.com/news/","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-5"},{"target":"recording","fields":["title","format","kind","credits"],"sourceUrls":["https://www.princess-session.com/music/themesongs/04.html"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-5-song-trio"},{"target":"recording","fields":["title","format","kind"],"sourceUrls":["https://princess-session.com/music/cd/themesongs-02.html"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-5-song-off-vocal"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://princess-session.com/music/cd/themesongs-02.html"],"verifiedAt":"2026-10-17","targetId":"princession-kicm-3393"},{"target":"link","fields":["url"],"sourceUrls":["https://princess-session.com/music/cd/themesongs-02.html"],"verifiedAt":"2026-10-17","targetId":"https://priorche.lnk.to/OPED2"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.princess-session.com/music/cd/album-01.html"],"verifiedAt":"2026-10-17","targetId":"princession-kica-2647"},{"target":"link","fields":["url"],"sourceUrls":["https://www.princess-session.com/music/cd/album-01.html"],"verifiedAt":"2026-10-17","targetId":"https://priorche.lnk.to/princess_resonance"},{"target":"link","fields":["url"],"sourceUrls":["https://www.takaratomy.co.jp/products/princess-session/movie/"],"verifiedAt":"2026-10-17","targetId":"https://www.youtube.com/watch?v=DrLJqpdtC60"},{"target":"credits","fields":["credits"],"sourceUrls":["https://news.kingrecords.co.jp/2026/08/58336/"],"verifiedAt":"2026-10-17"}],"credits":[{"name":"プリンセス・リップル（CV.葵あずさ）","role":"vocals"},{"name":"プリンセス・ジール（CV.藤本侑里）","role":"vocals"},{"name":"プリンセス・ミーティア（CV.橘杏咲）","role":"vocals"},{"name":"Spirit Garden","role":"lyrics"},{"name":"笠井雄太(Elements Garden)","role":"composition"},{"name":"笠井雄太(Elements Garden)","role":"arrangement"}],"songId":"princess-session-orchestra-ed-5-song","seasonIds":["2025-fall"],"usageLabel":"後期 ED（三人歌唱）","sourceMode":"explicit","recordings":[{"id":"princess-session-orchestra-ed-5-song-trio","title":"ONENESS HARMONY","format":"unknown","kind":"character","credits":[{"name":"プリンセス・リップル（CV.葵あずさ）","role":"vocals"},{"name":"プリンセス・ジール（CV.藤本侑里）","role":"vocals"},{"name":"プリンセス・ミーティア（CV.橘杏咲）","role":"vocals"}]},{"id":"princess-session-orchestra-ed-5-song-off-vocal","title":"ONENESS HARMONY off vocal version","format":"unknown","kind":"instrumental"}],"versionLabel":"三人歌唱版","releases":[{"id":"princession-kicm-3393","title":"FUTURE SESSION/ONENESS HARMONY","type":"single","artistDisplayName":"オルケリア","tracks":[{"title":"ONENESS HARMONY","position":2,"recordingId":"princess-session-orchestra-ed-5-song-trio"},{"title":"ONENESS HARMONY off vocal version","position":4,"recordingId":"princess-session-orchestra-ed-5-song-off-vocal"}],"date":{"value":"2025-11-12","precision":"day"},"catalogNumber":"KICM-3393","edition":"CD"},{"id":"princession-kica-2647","title":"PRINCESS RESONANCE","type":"album","artistDisplayName":"オルケリア","tracks":[{"title":"ONENESS HARMONY","position":5}],"date":{"value":"2026-04-01","precision":"day"},"catalogNumber":"KICA-2647","edition":"CD"}],"links":[{"platform":"官方商品","label":"FUTURE SESSION/ONENESS HARMONY 官方商品／購買入口","url":"https://priorche.lnk.to/OPED2","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-kicm-3393"},{"platform":"官方商品","label":"PRINCESS RESONANCE 官方商品／購買入口","url":"https://priorche.lnk.to/princess_resonance","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-kica-2647"},{"platform":"YouTube","label":"三人版官方エンディングムービー","url":"https://www.youtube.com/watch?v=DrLJqpdtC60","linkType":"direct_track","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown"}]},{"type":"ED","sequence":6,"titleJa":"ONENESS HARMONY -Ver. Constellation-","artistDisplayName":"オルケリア","sources":[{"label":"動畫官方網站","url":"https://princess-session.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/princession_orchestra","language":"en","role":"cross_check","verifiedAt":"2026-10-17"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://www.princess-session.com/music/themesongs/05.html","label":"動畫官方 MUSIC：歌曲、演唱、創作與用途","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://zh.wikipedia.org/wiki/%E7%9A%87%E5%AE%B6%E5%B0%91%E5%A5%B3%E6%A8%82%E5%9C%98","label":"繁中作品資料：歌曲用途、集數及播出日期","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-17"},{"url":"https://news.kingrecords.co.jp/2025/12/48886/","label":"發行方：五人版歌唱與角色對應","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://www.princess-session.com/news/","label":"官方 NEWS：季度續播與歌曲公告","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://www.princess-session.com/music/cd/album-01.html","label":"官方歌曲／商品／影片資料","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://po-charasong.lnk.to/futuresession-onenessharmony","label":"官方歌曲／商品／影片資料","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://news.kingrecords.co.jp/2026/08/58336/","label":"發行方：演唱團隊角色與CV對應","language":"ja","role":"first_party","verifiedAt":"2026-10-17"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.princess-session.com/music/themesongs/05.html","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-5-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.princess-session.com/music/themesongs/05.html","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-6"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.princess-session.com/music/themesongs/05.html"],"verifiedAt":"2026-10-17"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.princess-session.com/music/themesongs/05.html","https://news.kingrecords.co.jp/2025/12/48886/"],"verifiedAt":"2026-10-17"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.princess-session.com/news/","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-6"},{"target":"recording","fields":["title","format","kind","credits"],"sourceUrls":["https://www.princess-session.com/music/themesongs/05.html"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-5-song-quintet"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.princess-session.com/music/cd/album-01.html"],"verifiedAt":"2026-10-17","targetId":"princession-kica-2647"},{"target":"link","fields":["url"],"sourceUrls":["https://www.princess-session.com/music/cd/album-01.html"],"verifiedAt":"2026-10-17","targetId":"https://priorche.lnk.to/princess_resonance"},{"target":"release","fields":["title","type","artist","tracklist","edition"],"sourceUrls":["https://po-charasong.lnk.to/futuresession-onenessharmony"],"verifiedAt":"2026-10-17","targetId":"princession-constellation-digital"},{"target":"link","fields":["url"],"sourceUrls":["https://po-charasong.lnk.to/futuresession-onenessharmony"],"verifiedAt":"2026-10-17","targetId":"https://po-charasong.lnk.to/futuresession-onenessharmony"},{"target":"link","fields":["url"],"sourceUrls":["https://po-charasong.lnk.to/futuresession-onenessharmony"],"verifiedAt":"2026-10-17","targetId":"https://music.apple.com/jp/album/1856436323"},{"target":"link","fields":["url"],"sourceUrls":["https://po-charasong.lnk.to/futuresession-onenessharmony"],"verifiedAt":"2026-10-17","targetId":"https://open.spotify.com/album/6OQpnPFdq50txTkgjJkrzk"},{"target":"link","fields":["url"],"sourceUrls":["https://po-charasong.lnk.to/futuresession-onenessharmony"],"verifiedAt":"2026-10-17","targetId":"https://music.youtube.com/playlist?list=OLAK5uy_myPfW9tg4Vy8cezQFv9F4ivKsMXKg6hL8"},{"target":"link","fields":["url"],"sourceUrls":["https://news.kingrecords.co.jp/2025/12/48886/"],"verifiedAt":"2026-10-17","targetId":"https://www.youtube.com/watch?v=mn9MF5Nh0Os"},{"target":"credits","fields":["credits"],"sourceUrls":["https://news.kingrecords.co.jp/2026/08/58336/"],"verifiedAt":"2026-10-17"}],"credits":[{"name":"プリンセス・リップル（CV.葵あずさ）","role":"vocals"},{"name":"プリンセス・ジール（CV.藤本侑里）","role":"vocals"},{"name":"プリンセス・ミーティア（CV.橘杏咲）","role":"vocals"},{"name":"プリンセス・ヴィオラ（CV.鬼頭明里）","role":"vocals"},{"name":"プリンセス・ネージュ（CV.伊藤美来）","role":"vocals"},{"name":"Spirit Garden","role":"lyrics"},{"name":"笠井雄太(Elements Garden)","role":"composition"},{"name":"笠井雄太(Elements Garden)","role":"arrangement"}],"songId":"princess-session-orchestra-ed-5-song","seasonIds":["2025-fall","2026-winter"],"usageLabel":"後期 ED（五人歌唱）","sourceMode":"explicit","recordings":[{"id":"princess-session-orchestra-ed-5-song-quintet","title":"ONENESS HARMONY -Ver. Constellation-","format":"unknown","kind":"character","credits":[{"name":"プリンセス・リップル（CV.葵あずさ）","role":"vocals"},{"name":"プリンセス・ジール（CV.藤本侑里）","role":"vocals"},{"name":"プリンセス・ミーティア（CV.橘杏咲）","role":"vocals"},{"name":"プリンセス・ヴィオラ（CV.鬼頭明里）","role":"vocals"},{"name":"プリンセス・ネージュ（CV.伊藤美来）","role":"vocals"}]}],"versionLabel":"Ver. Constellation（五人歌唱）","releases":[{"id":"princession-kica-2647","title":"PRINCESS RESONANCE","type":"album","artistDisplayName":"オルケリア","tracks":[{"title":"ONENESS HARMONY -Ver. Constellation-","position":11}],"date":{"value":"2026-04-01","precision":"day"},"catalogNumber":"KICA-2647","edition":"CD"},{"id":"princession-constellation-digital","title":"FUTURE SESSION -Ver. Constellation-/ONENESS HARMONY -Ver. Constellation-","type":"single","artistDisplayName":"オルケリア","tracks":[{"title":"ONENESS HARMONY -Ver. Constellation-"}],"edition":"Digital（曲目ごとの配信開始日が異なる）"}],"links":[{"platform":"官方商品","label":"PRINCESS RESONANCE 官方商品／購買入口","url":"https://priorche.lnk.to/princess_resonance","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-kica-2647"},{"platform":"官方配信","label":"官方配信／商品入口","url":"https://po-charasong.lnk.to/futuresession-onenessharmony","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-constellation-digital"},{"platform":"Apple Music","label":"ONENESS HARMONY -Ver. Constellation- Apple Music 確切項目","url":"https://music.apple.com/jp/album/1856436323","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-constellation-digital"},{"platform":"Spotify","label":"ONENESS HARMONY -Ver. Constellation- Spotify 確切項目","url":"https://open.spotify.com/album/6OQpnPFdq50txTkgjJkrzk","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-constellation-digital"},{"platform":"YouTube Music","label":"ONENESS HARMONY -Ver. Constellation- YouTube Music 確切項目","url":"https://music.youtube.com/playlist?list=OLAK5uy_myPfW9tg4Vy8cezQFv9F4ivKsMXKg6hL8","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-constellation-digital"},{"platform":"YouTube","label":"Ver. Constellation 官方無字幕 ED","url":"https://www.youtube.com/watch?v=mn9MF5Nh0Os","linkType":"direct_track","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown"}]},{"type":"ED","sequence":7,"titleJa":"QUINTET PULSE","artistDisplayName":"オルケリア","sources":[{"label":"動畫官方網站","url":"https://princess-session.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/princession_orchestra","language":"en","role":"cross_check","verifiedAt":"2026-10-17"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://www.princess-session.com/music/insertedsong/13.html","label":"動畫官方 MUSIC：歌曲、演唱、創作與用途","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://zh.wikipedia.org/wiki/%E7%9A%87%E5%AE%B6%E5%B0%91%E5%A5%B3%E6%A8%82%E5%9C%98","label":"繁中作品資料：歌曲用途、集數及播出日期","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-17"},{"url":"https://news.kingrecords.co.jp/2025/12/48886/","label":"發行方：五人版歌唱與角色對應","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://www.princess-session.com/news/","label":"官方 NEWS：季度續播與歌曲公告","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://www.princess-session.com/music/cd/album-01.html","label":"官方歌曲／商品／影片資料","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://priorche.lnk.to/QUINTET-PULSE","label":"官方歌曲／商品／影片資料","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://news.kingrecords.co.jp/2026/08/58336/","label":"發行方：演唱團隊角色與CV對應","language":"ja","role":"first_party","verifiedAt":"2026-10-17"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.princess-session.com/music/insertedsong/13.html","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-7-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.princess-session.com/music/insertedsong/13.html","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-7"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.princess-session.com/music/insertedsong/13.html"],"verifiedAt":"2026-10-17"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.princess-session.com/music/insertedsong/13.html","https://news.kingrecords.co.jp/2025/12/48886/"],"verifiedAt":"2026-10-17"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.princess-session.com/news/","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-7"},{"target":"recording","fields":["title","format","kind","credits"],"sourceUrls":["https://www.princess-session.com/music/insertedsong/13.html"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-7-song-original"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.princess-session.com/music/cd/album-01.html"],"verifiedAt":"2026-10-17","targetId":"princession-kica-2647"},{"target":"link","fields":["url"],"sourceUrls":["https://www.princess-session.com/music/cd/album-01.html"],"verifiedAt":"2026-10-17","targetId":"https://priorche.lnk.to/princess_resonance"},{"target":"release","fields":["title","type","artist","tracklist","edition"],"sourceUrls":["https://priorche.lnk.to/QUINTET-PULSE"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-7-song-digital"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/QUINTET-PULSE"],"verifiedAt":"2026-10-17","targetId":"https://priorche.lnk.to/QUINTET-PULSE"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/QUINTET-PULSE"],"verifiedAt":"2026-10-17","targetId":"https://music.apple.com/jp/album/1867070165"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/QUINTET-PULSE"],"verifiedAt":"2026-10-17","targetId":"https://open.spotify.com/album/1pU4FNkCNiiIO5fr6OHp5j"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/QUINTET-PULSE"],"verifiedAt":"2026-10-17","targetId":"https://music.youtube.com/playlist?list=OLAK5uy_k4K29bjR7Z1oPybEW7Gfr6fFSTJu49XVY"},{"target":"credits","fields":["credits"],"sourceUrls":["https://news.kingrecords.co.jp/2026/08/58336/"],"verifiedAt":"2026-10-17"}],"credits":[{"name":"プリンセス・リップル（CV.葵あずさ）","role":"vocals"},{"name":"プリンセス・ジール（CV.藤本侑里）","role":"vocals"},{"name":"プリンセス・ミーティア（CV.橘杏咲）","role":"vocals"},{"name":"プリンセス・ヴィオラ（CV.鬼頭明里）","role":"vocals"},{"name":"プリンセス・ネージュ（CV.伊藤美来）","role":"vocals"},{"name":"Spirit Garden","role":"lyrics"},{"name":"竹田祐介(Elements Garden)","role":"composition"},{"name":"竹田祐介(Elements Garden)","role":"arrangement"}],"songId":"princess-session-orchestra-ed-7-song","seasonIds":["2026-winter"],"usageLabel":"第39話 特殊 ED（使用集數交叉核對）","sourceMode":"explicit","recordings":[{"id":"princess-session-orchestra-ed-7-song-original","title":"QUINTET PULSE","format":"unknown","kind":"character","credits":[{"name":"プリンセス・リップル（CV.葵あずさ）","role":"vocals"},{"name":"プリンセス・ジール（CV.藤本侑里）","role":"vocals"},{"name":"プリンセス・ミーティア（CV.橘杏咲）","role":"vocals"},{"name":"プリンセス・ヴィオラ（CV.鬼頭明里）","role":"vocals"},{"name":"プリンセス・ネージュ（CV.伊藤美来）","role":"vocals"}]}],"releases":[{"id":"princession-kica-2647","title":"PRINCESS RESONANCE","type":"album","artistDisplayName":"オルケリア","tracks":[{"title":"QUINTET PULSE","position":12}],"date":{"value":"2026-04-01","precision":"day"},"catalogNumber":"KICA-2647","edition":"CD"},{"id":"princess-session-orchestra-ed-7-song-digital","title":"QUINTET PULSE","type":"single","artistDisplayName":"オルケリア","tracks":[{"title":"QUINTET PULSE"}],"edition":"Digital"}],"links":[{"platform":"官方商品","label":"PRINCESS RESONANCE 官方商品／購買入口","url":"https://priorche.lnk.to/princess_resonance","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-kica-2647"},{"platform":"官方配信","label":"官方配信／商品入口","url":"https://priorche.lnk.to/QUINTET-PULSE","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princess-session-orchestra-ed-7-song-digital"},{"platform":"Apple Music","label":"QUINTET PULSE Apple Music 確切項目","url":"https://music.apple.com/jp/album/1867070165","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princess-session-orchestra-ed-7-song-digital"},{"platform":"Spotify","label":"QUINTET PULSE Spotify 確切項目","url":"https://open.spotify.com/album/1pU4FNkCNiiIO5fr6OHp5j","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princess-session-orchestra-ed-7-song-digital"},{"platform":"YouTube Music","label":"QUINTET PULSE YouTube Music 確切項目","url":"https://music.youtube.com/playlist?list=OLAK5uy_k4K29bjR7Z1oPybEW7Gfr6fFSTJu49XVY","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princess-session-orchestra-ed-7-song-digital"}]},{"type":"ED","sequence":8,"titleJa":"Future Never Ends","artistDisplayName":"オルケリア","sources":[{"label":"動畫官方網站","url":"https://princess-session.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/princession_orchestra","language":"en","role":"cross_check","verifiedAt":"2026-10-17"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://www.princess-session.com/music/battlesong/17.html","label":"動畫官方 MUSIC：歌曲、演唱、創作與用途","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://zh.wikipedia.org/wiki/%E7%9A%87%E5%AE%B6%E5%B0%91%E5%A5%B3%E6%A8%82%E5%9C%98","label":"繁中作品資料：歌曲用途、集數及播出日期","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-17"},{"url":"https://news.kingrecords.co.jp/2025/12/48886/","label":"發行方：五人版歌唱與角色對應","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://www.princess-session.com/news/","label":"官方 NEWS：季度續播與歌曲公告","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://www.princess-session.com/music/cd/album-01.html","label":"官方歌曲／商品／影片資料","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://priorche.lnk.to/Future-Never-Ends","label":"官方歌曲／商品／影片資料","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://news.kingrecords.co.jp/2026/08/58336/","label":"發行方：演唱團隊角色與CV對應","language":"ja","role":"first_party","verifiedAt":"2026-10-17"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.princess-session.com/music/battlesong/17.html","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-8-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.princess-session.com/music/battlesong/17.html","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-8"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.princess-session.com/music/battlesong/17.html"],"verifiedAt":"2026-10-17"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.princess-session.com/music/battlesong/17.html","https://news.kingrecords.co.jp/2025/12/48886/"],"verifiedAt":"2026-10-17"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.princess-session.com/news/","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-8"},{"target":"recording","fields":["title","format","kind","credits"],"sourceUrls":["https://www.princess-session.com/music/battlesong/17.html"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-8-song-original"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.princess-session.com/music/cd/album-01.html"],"verifiedAt":"2026-10-17","targetId":"princession-kica-2647"},{"target":"link","fields":["url"],"sourceUrls":["https://www.princess-session.com/music/cd/album-01.html"],"verifiedAt":"2026-10-17","targetId":"https://priorche.lnk.to/princess_resonance"},{"target":"release","fields":["title","type","artist","tracklist","edition"],"sourceUrls":["https://priorche.lnk.to/Future-Never-Ends"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-8-song-digital"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/Future-Never-Ends"],"verifiedAt":"2026-10-17","targetId":"https://priorche.lnk.to/Future-Never-Ends"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/Future-Never-Ends"],"verifiedAt":"2026-10-17","targetId":"https://music.apple.com/jp/album/1869014161"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/Future-Never-Ends"],"verifiedAt":"2026-10-17","targetId":"https://open.spotify.com/album/7fWoKC2K0PfWAOYLwhEUEQ"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/Future-Never-Ends"],"verifiedAt":"2026-10-17","targetId":"https://music.youtube.com/playlist?list=OLAK5uy_lWQC3bm83J_d-Awc8eS5IVTq-FdEJGYyg"},{"target":"credits","fields":["credits"],"sourceUrls":["https://news.kingrecords.co.jp/2026/08/58336/"],"verifiedAt":"2026-10-17"}],"credits":[{"name":"プリンセス・リップル（CV.葵あずさ）","role":"vocals"},{"name":"プリンセス・ジール（CV.藤本侑里）","role":"vocals"},{"name":"プリンセス・ミーティア（CV.橘杏咲）","role":"vocals"},{"name":"プリンセス・ヴィオラ（CV.鬼頭明里）","role":"vocals"},{"name":"プリンセス・ネージュ（CV.伊藤美来）","role":"vocals"},{"name":"Spirit Garden","role":"lyrics"},{"name":"菊田大介(Elements Garden)","role":"composition"},{"name":"菊田大介(Elements Garden)","role":"arrangement"}],"songId":"princess-session-orchestra-ed-8-song","seasonIds":["2026-winter"],"usageLabel":"第40話 特殊 ED（使用集數交叉核對）","sourceMode":"explicit","recordings":[{"id":"princess-session-orchestra-ed-8-song-original","title":"Future Never Ends","format":"unknown","kind":"character","credits":[{"name":"プリンセス・リップル（CV.葵あずさ）","role":"vocals"},{"name":"プリンセス・ジール（CV.藤本侑里）","role":"vocals"},{"name":"プリンセス・ミーティア（CV.橘杏咲）","role":"vocals"},{"name":"プリンセス・ヴィオラ（CV.鬼頭明里）","role":"vocals"},{"name":"プリンセス・ネージュ（CV.伊藤美来）","role":"vocals"}]}],"releases":[{"id":"princession-kica-2647","title":"PRINCESS RESONANCE","type":"album","artistDisplayName":"オルケリア","tracks":[{"title":"Future Never Ends","position":13}],"date":{"value":"2026-04-01","precision":"day"},"catalogNumber":"KICA-2647","edition":"CD"},{"id":"princess-session-orchestra-ed-8-song-digital","title":"Future Never Ends","type":"single","artistDisplayName":"オルケリア","tracks":[{"title":"Future Never Ends"}],"edition":"Digital"}],"links":[{"platform":"官方商品","label":"PRINCESS RESONANCE 官方商品／購買入口","url":"https://priorche.lnk.to/princess_resonance","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-kica-2647"},{"platform":"官方配信","label":"官方配信／商品入口","url":"https://priorche.lnk.to/Future-Never-Ends","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princess-session-orchestra-ed-8-song-digital"},{"platform":"Apple Music","label":"Future Never Ends Apple Music 確切項目","url":"https://music.apple.com/jp/album/1869014161","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princess-session-orchestra-ed-8-song-digital"},{"platform":"Spotify","label":"Future Never Ends Spotify 確切項目","url":"https://open.spotify.com/album/7fWoKC2K0PfWAOYLwhEUEQ","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princess-session-orchestra-ed-8-song-digital"},{"platform":"YouTube Music","label":"Future Never Ends YouTube Music 確切項目","url":"https://music.youtube.com/playlist?list=OLAK5uy_lWQC3bm83J_d-Awc8eS5IVTq-FdEJGYyg","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princess-session-orchestra-ed-8-song-digital"}]},{"type":"ED","sequence":9,"titleJa":"LEGENDARY REVIVAL","artistDisplayName":"バンド・スナッチ","sources":[{"label":"動畫官方網站","url":"https://princess-session.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/princession_orchestra","language":"en","role":"cross_check","verifiedAt":"2026-10-17"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://www.princess-session.com/music/battlesong/18.html","label":"動畫官方 MUSIC：歌曲、演唱、創作與用途","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://zh.wikipedia.org/wiki/%E7%9A%87%E5%AE%B6%E5%B0%91%E5%A5%B3%E6%A8%82%E5%9C%98","label":"繁中作品資料：歌曲用途、集數及播出日期","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-17"},{"url":"https://news.kingrecords.co.jp/2025/07/40711/","label":"唱片公司：第13話 ED、配信與實際演唱","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://www.princess-session.com/news/","label":"官方 NEWS：季度續播與歌曲公告","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://www.princess-session.com/music/cd/album-02.html","label":"官方歌曲／商品／影片資料","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://priorche.lnk.to/Legendary-revival","label":"官方歌曲／商品／影片資料","role":"first_party","language":"ja","verifiedAt":"2026-10-17"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.princess-session.com/music/battlesong/18.html","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-9-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.princess-session.com/music/battlesong/18.html","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-9"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.princess-session.com/music/battlesong/18.html"],"verifiedAt":"2026-10-17"},{"target":"credits","fields":["credits"],"sourceUrls":["https://news.kingrecords.co.jp/2025/07/40711/","https://www.princess-session.com/music/battlesong/18.html"],"verifiedAt":"2026-10-17"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.princess-session.com/news/","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-9"},{"target":"recording","fields":["title","format","kind","credits"],"sourceUrls":["https://www.princess-session.com/music/battlesong/18.html"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-9-song-original"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.princess-session.com/music/cd/album-02.html"],"verifiedAt":"2026-10-17","targetId":"princession-kica-2648"},{"target":"link","fields":["url"],"sourceUrls":["https://www.princess-session.com/music/cd/album-02.html"],"verifiedAt":"2026-10-17","targetId":"https://priorche.lnk.to/save_the_world"},{"target":"release","fields":["title","type","artist","tracklist","edition"],"sourceUrls":["https://priorche.lnk.to/Legendary-revival"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-9-song-digital"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/Legendary-revival"],"verifiedAt":"2026-10-17","targetId":"https://priorche.lnk.to/Legendary-revival"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/Legendary-revival"],"verifiedAt":"2026-10-17","targetId":"https://music.apple.com/jp/album/1872639241"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/Legendary-revival"],"verifiedAt":"2026-10-17","targetId":"https://open.spotify.com/album/4KXLH4Ck6UuHOBEpQ9lIyR"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/Legendary-revival"],"verifiedAt":"2026-10-17","targetId":"https://music.youtube.com/playlist?list=OLAK5uy_lkKh20bCAfrUjRmOlTxEJi0kI8oPlXYWU"}],"credits":[{"name":"カリスト（CV.小林千晃）","role":"vocals"},{"name":"ギータ（CV.千葉翔也）","role":"vocals"},{"name":"ベス（CV.榎木淳弥）","role":"vocals"},{"name":"ドラン（CV.武内駿輔）","role":"vocals"},{"name":"Spirit Garden","role":"lyrics"},{"name":"菊田大介(Elements Garden)","role":"composition"},{"name":"菊田大介(Elements Garden)","role":"arrangement"}],"songId":"princess-session-orchestra-ed-9-song","seasonIds":["2026-winter"],"usageLabel":"第42話 特殊 ED（使用集數交叉核對）","sourceMode":"explicit","recordings":[{"id":"princess-session-orchestra-ed-9-song-original","title":"LEGENDARY REVIVAL","format":"unknown","kind":"character","credits":[{"name":"カリスト（CV.小林千晃）","role":"vocals"},{"name":"ギータ（CV.千葉翔也）","role":"vocals"},{"name":"ベス（CV.榎木淳弥）","role":"vocals"},{"name":"ドラン（CV.武内駿輔）","role":"vocals"}]}],"releases":[{"id":"princession-kica-2648","title":"SAVE THE WORLD","type":"album","artistDisplayName":"プリンセッション・オーケストラ","tracks":[{"title":"LEGENDARY REVIVAL","position":8}],"date":{"value":"2026-04-01","precision":"day"},"catalogNumber":"KICA-2648","edition":"CD"},{"id":"princess-session-orchestra-ed-9-song-digital","title":"LEGENDARY REVIVAL","type":"single","artistDisplayName":"バンド・スナッチ","tracks":[{"title":"LEGENDARY REVIVAL"}],"edition":"Digital"}],"links":[{"platform":"官方商品","label":"SAVE THE WORLD 官方商品／購買入口","url":"https://priorche.lnk.to/save_the_world","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-kica-2648"},{"platform":"官方配信","label":"官方配信／商品入口","url":"https://priorche.lnk.to/Legendary-revival","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princess-session-orchestra-ed-9-song-digital"},{"platform":"Apple Music","label":"LEGENDARY REVIVAL Apple Music 確切項目","url":"https://music.apple.com/jp/album/1872639241","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princess-session-orchestra-ed-9-song-digital"},{"platform":"Spotify","label":"LEGENDARY REVIVAL Spotify 確切項目","url":"https://open.spotify.com/album/4KXLH4Ck6UuHOBEpQ9lIyR","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princess-session-orchestra-ed-9-song-digital"},{"platform":"YouTube Music","label":"LEGENDARY REVIVAL YouTube Music 確切項目","url":"https://music.youtube.com/playlist?list=OLAK5uy_lkKh20bCAfrUjRmOlTxEJi0kI8oPlXYWU","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princess-session-orchestra-ed-9-song-digital"}]},{"type":"ED","sequence":10,"titleJa":"Luminous Bloom","artistDisplayName":"花の騎士シンシア（CV.鬼頭明里）×花の騎士ピュリティ（CV.伊藤美来）","sources":[{"label":"動畫官方網站","url":"https://princess-session.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/princession_orchestra","language":"en","role":"cross_check","verifiedAt":"2026-10-17"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://www.princess-session.com/music/battlesong/19.html","label":"動畫官方 MUSIC：歌曲、演唱、創作與用途","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://zh.wikipedia.org/wiki/%E7%9A%87%E5%AE%B6%E5%B0%91%E5%A5%B3%E6%A8%82%E5%9C%98","label":"繁中作品資料：歌曲用途、集數及播出日期","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-17"},{"url":"https://www.princess-session.com/news/","label":"官方 NEWS：季度續播與歌曲公告","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://www.princess-session.com/music/cd/album-02.html","label":"官方歌曲／商品／影片資料","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://priorche.lnk.to/Luminous-Bloom","label":"官方歌曲／商品／影片資料","role":"first_party","language":"ja","verifiedAt":"2026-10-17"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.princess-session.com/music/battlesong/19.html","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-10-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.princess-session.com/music/battlesong/19.html","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-10"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.princess-session.com/music/battlesong/19.html"],"verifiedAt":"2026-10-17"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.princess-session.com/news/","https://animethemes.moe/anime/princession_orchestra"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-10"},{"target":"recording","fields":["title","format","kind","credits"],"sourceUrls":["https://www.princess-session.com/music/battlesong/19.html"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-10-song-original"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.princess-session.com/music/cd/album-02.html"],"verifiedAt":"2026-10-17","targetId":"princession-kica-2648"},{"target":"link","fields":["url"],"sourceUrls":["https://www.princess-session.com/music/cd/album-02.html"],"verifiedAt":"2026-10-17","targetId":"https://priorche.lnk.to/save_the_world"},{"target":"release","fields":["title","type","artist","tracklist","edition"],"sourceUrls":["https://priorche.lnk.to/Luminous-Bloom"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-ed-10-song-digital"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/Luminous-Bloom"],"verifiedAt":"2026-10-17","targetId":"https://priorche.lnk.to/Luminous-Bloom"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/Luminous-Bloom"],"verifiedAt":"2026-10-17","targetId":"https://music.apple.com/jp/album/1876808226"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/Luminous-Bloom"],"verifiedAt":"2026-10-17","targetId":"https://open.spotify.com/album/4TpWbb6Pl3Sla8J71Mvosw"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/Luminous-Bloom"],"verifiedAt":"2026-10-17","targetId":"https://music.youtube.com/playlist?list=OLAK5uy_mEU06RdZQTeDCk-S7gjRO_DSUHx3kBop8"}],"credits":[{"name":"花の騎士シンシア（CV.鬼頭明里）","role":"vocals"},{"name":"花の騎士ピュリティ（CV.伊藤美来）","role":"vocals"},{"name":"Spirit Garden","role":"lyrics"},{"name":"菊田大介(Elements Garden)","role":"composition"},{"name":"菊田大介(Elements Garden)","role":"arrangement"}],"songId":"princess-session-orchestra-ed-10-song","seasonIds":["2026-winter"],"usageLabel":"第44話 特殊 ED（使用集數交叉核對）","sourceMode":"explicit","recordings":[{"id":"princess-session-orchestra-ed-10-song-original","title":"Luminous Bloom","format":"unknown","kind":"character","credits":[{"name":"花の騎士シンシア（CV.鬼頭明里）","role":"vocals"},{"name":"花の騎士ピュリティ（CV.伊藤美来）","role":"vocals"}]}],"releases":[{"id":"princession-kica-2648","title":"SAVE THE WORLD","type":"album","artistDisplayName":"プリンセッション・オーケストラ","tracks":[{"title":"Luminous Bloom","position":6}],"date":{"value":"2026-04-01","precision":"day"},"catalogNumber":"KICA-2648","edition":"CD"},{"id":"princess-session-orchestra-ed-10-song-digital","title":"Luminous Bloom","type":"single","artistDisplayName":"花の騎士シンシア（CV.鬼頭明里）×花の騎士ピュリティ（CV.伊藤美来）","tracks":[{"title":"Luminous Bloom"}],"edition":"Digital"}],"links":[{"platform":"官方商品","label":"SAVE THE WORLD 官方商品／購買入口","url":"https://priorche.lnk.to/save_the_world","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-kica-2648"},{"platform":"官方配信","label":"官方配信／商品入口","url":"https://priorche.lnk.to/Luminous-Bloom","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princess-session-orchestra-ed-10-song-digital"},{"platform":"Apple Music","label":"Luminous Bloom Apple Music 確切項目","url":"https://music.apple.com/jp/album/1876808226","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princess-session-orchestra-ed-10-song-digital"},{"platform":"Spotify","label":"Luminous Bloom Spotify 確切項目","url":"https://open.spotify.com/album/4TpWbb6Pl3Sla8J71Mvosw","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princess-session-orchestra-ed-10-song-digital"},{"platform":"YouTube Music","label":"Luminous Bloom YouTube Music 確切項目","url":"https://music.youtube.com/playlist?list=OLAK5uy_mEU06RdZQTeDCk-S7gjRO_DSUHx3kBop8","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princess-session-orchestra-ed-10-song-digital"}]},{"type":"IN","sequence":1,"sources":[{"url":"https://www.princess-session.com/music/battlesong/01.html","label":"動畫官方 MUSIC：歌曲、演唱、創作與用途","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://zh.wikipedia.org/wiki/%E7%9A%87%E5%AE%B6%E5%B0%91%E5%A5%B3%E6%A8%82%E5%9C%98","label":"歌曲、用途與使用集數交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-17"},{"url":"https://www.princess-session.com/news/","label":"動畫官方 CD：本曲收錄、曲序及 off vocal version","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://priorche.lnk.to/INNOCENT-CALL","label":"官方歌曲／商品／影片資料","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://www.takaratomy.co.jp/products/princess-session/movie/","label":"官方影片／確切平台項目來源","role":"first_party","language":"multi","verifiedAt":"2026-10-17"},{"url":"https://music.apple.com/jp/album/1815655639","label":"Apple Music 授權商品：發行名義、EP／Single分類及日期","role":"cross_check","language":"ja","verifiedAt":"2026-10-17"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.princess-session.com/music/battlesong/01.html","https://zh.wikipedia.org/wiki/%E7%9A%87%E5%AE%B6%E5%B0%91%E5%A5%B3%E6%A8%82%E5%9C%98"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-in-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.princess-session.com/music/battlesong/01.html","https://zh.wikipedia.org/wiki/%E7%9A%87%E5%AE%B6%E5%B0%91%E5%A5%B3%E6%A8%82%E5%9C%98"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-in-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.princess-session.com/music/battlesong/01.html"],"verifiedAt":"2026-10-17"},{"target":"recording","fields":["title","format","kind","credits"],"sourceUrls":["https://www.princess-session.com/music/battlesong/01.html"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-in-1-song-original"},{"target":"recording","fields":["title","format","kind"],"sourceUrls":["https://www.princess-session.com/news/"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-in-1-song-off-vocal"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.princess-session.com/news/"],"verifiedAt":"2026-10-17","targetId":"princession-kicm-3387"},{"target":"link","fields":["url"],"sourceUrls":["https://www.princess-session.com/news/"],"verifiedAt":"2026-10-17","targetId":"https://priorche.lnk.to/ripple"},{"target":"release","fields":["title","type","artist","tracklist","edition"],"sourceUrls":["https://priorche.lnk.to/INNOCENT-CALL"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-in-1-song-digital"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/INNOCENT-CALL"],"verifiedAt":"2026-10-17","targetId":"https://priorche.lnk.to/INNOCENT-CALL"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/INNOCENT-CALL"],"verifiedAt":"2026-10-17","targetId":"https://music.apple.com/jp/album/1815655639"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/INNOCENT-CALL"],"verifiedAt":"2026-10-17","targetId":"https://open.spotify.com/album/2QmCQ0VPjhHWro1qVknf4B"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/INNOCENT-CALL"],"verifiedAt":"2026-10-17","targetId":"https://music.youtube.com/playlist?list=OLAK5uy_nC2-BxyLulnnswMrzJIc3D5S0O7iZLVqI"},{"target":"link","fields":["url"],"sourceUrls":["https://www.takaratomy.co.jp/products/princess-session/movie/"],"verifiedAt":"2026-10-17","targetId":"https://www.youtube.com/watch?v=PW9PXlldjLg"},{"target":"release","targetId":"princess-session-orchestra-in-1-song-digital","fields":["artist","type","date"],"sourceUrls":["https://music.apple.com/jp/album/1815655639"],"verifiedAt":"2026-10-17"}],"titleJa":"イノセントコール","artistDisplayName":"プリンセス・リップル（CV.葵あずさ）","credits":[{"name":"プリンセス・リップル（CV.葵あずさ）","role":"vocals"},{"name":"Spirit Garden","role":"lyrics"},{"name":"菊田大介(Elements Garden)","role":"composition"},{"name":"菊田大介(Elements Garden)","role":"arrangement"}],"songId":"princess-session-orchestra-in-1-song","seasonIds":["2025-spring","2025-summer","2026-winter"],"usageLabel":"戦闘曲（2025秋の別歌唱は別途確認待ち）","sourceMode":"explicit","recordings":[{"id":"princess-session-orchestra-in-1-song-original","title":"イノセントコール","format":"unknown","kind":"character","credits":[{"name":"プリンセス・リップル（CV.葵あずさ）","role":"vocals"}]},{"id":"princess-session-orchestra-in-1-song-off-vocal","title":"イノセントコール off vocal version","format":"unknown","kind":"instrumental"}],"releases":[{"id":"princession-kicm-3387","title":"イノセントコール","type":"single","artistDisplayName":"プリンセス・リップル","tracks":[{"title":"イノセントコール","position":1,"recordingId":"princess-session-orchestra-in-1-song-original"},{"title":"イノセントコール off vocal version","position":3,"recordingId":"princess-session-orchestra-in-1-song-off-vocal"}],"date":{"value":"2025-06-04","precision":"day"},"catalogNumber":"KICM-3387","edition":"CD"},{"id":"princess-session-orchestra-in-1-song-digital","title":"イノセントコール","type":"ep","artistDisplayName":"プリンセス・リップル（CV.葵あずさ）、プリンセッション・オーケストラ","tracks":[{"title":"イノセントコール"}],"edition":"Digital","date":{"value":"2025-06-04","precision":"day"}}],"links":[{"platform":"官方商品","label":"イノセントコール 官方商品／購買入口","url":"https://priorche.lnk.to/ripple","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-kicm-3387"},{"platform":"官方配信","label":"官方配信／商品入口","url":"https://priorche.lnk.to/INNOCENT-CALL","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princess-session-orchestra-in-1-song-digital"},{"platform":"Apple Music","label":"イノセントコール Apple Music 確切項目","url":"https://music.apple.com/jp/album/1815655639","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princess-session-orchestra-in-1-song-digital"},{"platform":"Spotify","label":"イノセントコール Spotify 確切項目","url":"https://open.spotify.com/album/2QmCQ0VPjhHWro1qVknf4B","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princess-session-orchestra-in-1-song-digital"},{"platform":"YouTube Music","label":"イノセントコール YouTube Music 確切項目","url":"https://music.youtube.com/playlist?list=OLAK5uy_nC2-BxyLulnnswMrzJIc3D5S0O7iZLVqI","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princess-session-orchestra-in-1-song-digital"},{"platform":"YouTube","label":"イノセントコール 官方 Lyric Video","url":"https://www.youtube.com/watch?v=PW9PXlldjLg","linkType":"direct_track","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown"}]},{"type":"IN","sequence":2,"sources":[{"url":"https://www.princess-session.com/music/battlesong/02.html","label":"動畫官方 MUSIC：歌曲、演唱、創作與用途","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://zh.wikipedia.org/wiki/%E7%9A%87%E5%AE%B6%E5%B0%91%E5%A5%B3%E6%A8%82%E5%9C%98","label":"歌曲、用途與使用集數交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-17"},{"url":"https://www.princess-session.com/news/","label":"動畫官方 CD：本曲收錄、曲序及 off vocal version","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://priorche.lnk.to/OVER-THE-BLAZE","label":"官方歌曲／商品／影片資料","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://www.takaratomy.co.jp/products/princess-session/movie/","label":"官方影片／確切平台項目來源","role":"first_party","language":"multi","verifiedAt":"2026-10-17"},{"url":"https://music.apple.com/jp/album/1815655930","label":"Apple Music 授權商品：發行名義、EP／Single分類及日期","role":"cross_check","language":"ja","verifiedAt":"2026-10-17"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.princess-session.com/music/battlesong/02.html","https://zh.wikipedia.org/wiki/%E7%9A%87%E5%AE%B6%E5%B0%91%E5%A5%B3%E6%A8%82%E5%9C%98"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-in-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.princess-session.com/music/battlesong/02.html","https://zh.wikipedia.org/wiki/%E7%9A%87%E5%AE%B6%E5%B0%91%E5%A5%B3%E6%A8%82%E5%9C%98"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-in-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.princess-session.com/music/battlesong/02.html"],"verifiedAt":"2026-10-17"},{"target":"recording","fields":["title","format","kind","credits"],"sourceUrls":["https://www.princess-session.com/music/battlesong/02.html"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-in-2-song-original"},{"target":"recording","fields":["title","format","kind"],"sourceUrls":["https://www.princess-session.com/news/"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-in-2-song-off-vocal"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.princess-session.com/news/"],"verifiedAt":"2026-10-17","targetId":"princession-kicm-3388"},{"target":"link","fields":["url"],"sourceUrls":["https://www.princess-session.com/news/"],"verifiedAt":"2026-10-17","targetId":"https://priorche.lnk.to/zeal"},{"target":"release","fields":["title","type","artist","tracklist","edition"],"sourceUrls":["https://priorche.lnk.to/OVER-THE-BLAZE"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-in-2-song-digital"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/OVER-THE-BLAZE"],"verifiedAt":"2026-10-17","targetId":"https://priorche.lnk.to/OVER-THE-BLAZE"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/OVER-THE-BLAZE"],"verifiedAt":"2026-10-17","targetId":"https://music.apple.com/jp/album/1815655930"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/OVER-THE-BLAZE"],"verifiedAt":"2026-10-17","targetId":"https://open.spotify.com/album/0xGnFc20YHYyYByfw60NnM"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/OVER-THE-BLAZE"],"verifiedAt":"2026-10-17","targetId":"https://music.youtube.com/playlist?list=OLAK5uy_llS4SF48N34nxhdhsE88LubI5R9nb79Z8"},{"target":"link","fields":["url"],"sourceUrls":["https://www.takaratomy.co.jp/products/princess-session/movie/"],"verifiedAt":"2026-10-17","targetId":"https://www.youtube.com/watch?v=qqRjCPdHxEQ"},{"target":"release","targetId":"princess-session-orchestra-in-2-song-digital","fields":["artist","type","date"],"sourceUrls":["https://music.apple.com/jp/album/1815655930"],"verifiedAt":"2026-10-17"}],"titleJa":"OVER THE BLAZE","artistDisplayName":"プリンセス・ジール（CV.藤本侑里）","credits":[{"name":"プリンセス・ジール（CV.藤本侑里）","role":"vocals"},{"name":"Spirit Garden","role":"lyrics"},{"name":"笠井雄太(Elements Garden)","role":"composition"},{"name":"笠井雄太(Elements Garden)","role":"arrangement"}],"songId":"princess-session-orchestra-in-2-song","seasonIds":["2025-spring","2025-summer","2026-winter"],"usageLabel":"戦闘曲（2025秋の別歌唱は別途確認待ち）","sourceMode":"explicit","recordings":[{"id":"princess-session-orchestra-in-2-song-original","title":"OVER THE BLAZE","format":"unknown","kind":"character","credits":[{"name":"プリンセス・ジール（CV.藤本侑里）","role":"vocals"}]},{"id":"princess-session-orchestra-in-2-song-off-vocal","title":"OVER THE BLAZE off vocal version","format":"unknown","kind":"instrumental"}],"releases":[{"id":"princession-kicm-3388","title":"OVER THE BLAZE","type":"single","artistDisplayName":"プリンセス・ジール","tracks":[{"title":"OVER THE BLAZE","position":1,"recordingId":"princess-session-orchestra-in-2-song-original"},{"title":"OVER THE BLAZE off vocal version","position":3,"recordingId":"princess-session-orchestra-in-2-song-off-vocal"}],"date":{"value":"2025-06-04","precision":"day"},"catalogNumber":"KICM-3388","edition":"CD"},{"id":"princess-session-orchestra-in-2-song-digital","title":"OVER THE BLAZE","type":"ep","artistDisplayName":"プリンセス・ジール（CV.藤本侑里）、プリンセッション・オーケストラ","tracks":[{"title":"OVER THE BLAZE"}],"edition":"Digital","date":{"value":"2025-06-04","precision":"day"}}],"links":[{"platform":"官方商品","label":"OVER THE BLAZE 官方商品／購買入口","url":"https://priorche.lnk.to/zeal","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-kicm-3388"},{"platform":"官方配信","label":"官方配信／商品入口","url":"https://priorche.lnk.to/OVER-THE-BLAZE","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princess-session-orchestra-in-2-song-digital"},{"platform":"Apple Music","label":"OVER THE BLAZE Apple Music 確切項目","url":"https://music.apple.com/jp/album/1815655930","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princess-session-orchestra-in-2-song-digital"},{"platform":"Spotify","label":"OVER THE BLAZE Spotify 確切項目","url":"https://open.spotify.com/album/0xGnFc20YHYyYByfw60NnM","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princess-session-orchestra-in-2-song-digital"},{"platform":"YouTube Music","label":"OVER THE BLAZE YouTube Music 確切項目","url":"https://music.youtube.com/playlist?list=OLAK5uy_llS4SF48N34nxhdhsE88LubI5R9nb79Z8","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princess-session-orchestra-in-2-song-digital"},{"platform":"YouTube","label":"OVER THE BLAZE 官方 Lyric Video","url":"https://www.youtube.com/watch?v=qqRjCPdHxEQ","linkType":"direct_track","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown"}]},{"type":"IN","sequence":3,"sources":[{"url":"https://www.princess-session.com/music/battlesong/03.html","label":"動畫官方 MUSIC：歌曲、演唱、創作與用途","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://zh.wikipedia.org/wiki/%E7%9A%87%E5%AE%B6%E5%B0%91%E5%A5%B3%E6%A8%82%E5%9C%98","label":"歌曲、用途與使用集數交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-17"},{"url":"https://www.princess-session.com/news/","label":"動畫官方 CD：本曲收錄、曲序及 off vocal version","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://priorche.lnk.to/GEKKOU-ITS-ME","label":"官方歌曲／商品／影片資料","role":"first_party","language":"ja","verifiedAt":"2026-10-17"},{"url":"https://www.takaratomy.co.jp/products/princess-session/movie/","label":"官方影片／確切平台項目來源","role":"first_party","language":"multi","verifiedAt":"2026-10-17"},{"url":"https://music.apple.com/jp/album/1815655232","label":"Apple Music 授權商品：發行名義、EP／Single分類及日期","role":"cross_check","language":"ja","verifiedAt":"2026-10-17"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.princess-session.com/music/battlesong/03.html","https://zh.wikipedia.org/wiki/%E7%9A%87%E5%AE%B6%E5%B0%91%E5%A5%B3%E6%A8%82%E5%9C%98"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-in-3-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.princess-session.com/music/battlesong/03.html","https://zh.wikipedia.org/wiki/%E7%9A%87%E5%AE%B6%E5%B0%91%E5%A5%B3%E6%A8%82%E5%9C%98"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-in-3"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.princess-session.com/music/battlesong/03.html"],"verifiedAt":"2026-10-17"},{"target":"recording","fields":["title","format","kind","credits"],"sourceUrls":["https://www.princess-session.com/music/battlesong/03.html"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-in-3-song-original"},{"target":"recording","fields":["title","format","kind"],"sourceUrls":["https://www.princess-session.com/news/"],"verifiedAt":"2026-10-17","targetId":"princess-session-orchestra-in-3-song-off-vocal"},{"target":"release","fields":["title","type","artist","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.princess-session.com/news/"],"verifiedAt":"2026-10-17","targetId":"princession-kicm-3389"},{"target":"link","fields":["url"],"sourceUrls":["https://www.princess-session.com/news/"],"verifiedAt":"2026-10-17","targetId":"https://priorche.lnk.to/meteor"},{"target":"release","fields":["title","type","artist","tracklist","edition"],"sourceUrls":["https://priorche.lnk.to/GEKKOU-ITS-ME"],"verifiedAt":"2026-10-17","targetId":"princession-meteor-digital"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/GEKKOU-ITS-ME"],"verifiedAt":"2026-10-17","targetId":"https://priorche.lnk.to/GEKKOU-ITS-ME"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/GEKKOU-ITS-ME"],"verifiedAt":"2026-10-17","targetId":"https://music.apple.com/jp/album/1815655232"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/GEKKOU-ITS-ME"],"verifiedAt":"2026-10-17","targetId":"https://open.spotify.com/album/13UFdLZQCIiLtXoA7VsDHm"},{"target":"link","fields":["url"],"sourceUrls":["https://priorche.lnk.to/GEKKOU-ITS-ME"],"verifiedAt":"2026-10-17","targetId":"https://music.youtube.com/playlist?list=OLAK5uy_lixYrY7t8dVJsY0FHpywbEHeWdw0n53vQ"},{"target":"link","fields":["url"],"sourceUrls":["https://www.takaratomy.co.jp/products/princess-session/movie/"],"verifiedAt":"2026-10-17","targetId":"https://www.youtube.com/watch?v=aLiPpjjeFO8"},{"target":"release","targetId":"princession-meteor-digital","fields":["artist","type","date"],"sourceUrls":["https://music.apple.com/jp/album/1815655232"],"verifiedAt":"2026-10-17"}],"titleJa":"激光 It's ME!","artistDisplayName":"プリンセス・ミーティア（CV.橘杏咲）","credits":[{"name":"プリンセス・ミーティア（CV.橘杏咲）","role":"vocals"},{"name":"Spirit Garden","role":"lyrics"},{"name":"竹田祐介(Elements Garden)","role":"composition"},{"name":"竹田祐介(Elements Garden)","role":"arrangement"}],"songId":"princess-session-orchestra-in-3-song","seasonIds":["2025-spring","2025-summer","2026-winter"],"usageLabel":"戦闘曲（2025秋の別歌唱は別途確認待ち）","sourceMode":"explicit","recordings":[{"id":"princess-session-orchestra-in-3-song-original","title":"激光 It's ME!","format":"unknown","kind":"character","credits":[{"name":"プリンセス・ミーティア（CV.橘杏咲）","role":"vocals"}]},{"id":"princess-session-orchestra-in-3-song-off-vocal","title":"激光 It's ME! off vocal version","format":"unknown","kind":"instrumental"}],"releases":[{"id":"princession-kicm-3389","title":"激光 It's ME!","type":"single","artistDisplayName":"プリンセス・ミーティア","tracks":[{"title":"激光 It's ME!","position":1,"recordingId":"princess-session-orchestra-in-3-song-original"},{"title":"激光 It's ME! off vocal version","position":3,"recordingId":"princess-session-orchestra-in-3-song-off-vocal"}],"date":{"value":"2025-06-04","precision":"day"},"catalogNumber":"KICM-3389","edition":"CD"},{"id":"princession-meteor-digital","title":"激光 It's ME!","type":"ep","artistDisplayName":"プリンセス・ミーティア（CV.橘杏咲）、プリンセッション・オーケストラ","tracks":[{"title":"激光 It's ME!"}],"edition":"Digital","date":{"value":"2025-06-04","precision":"day"}}],"links":[{"platform":"官方商品","label":"激光 It's ME! 官方商品／購買入口","url":"https://priorche.lnk.to/meteor","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-kicm-3389"},{"platform":"官方配信","label":"官方配信／商品入口","url":"https://priorche.lnk.to/GEKKOU-ITS-ME","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-meteor-digital"},{"platform":"Apple Music","label":"激光 It's ME! Apple Music 確切項目","url":"https://music.apple.com/jp/album/1815655232","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-meteor-digital"},{"platform":"Spotify","label":"激光 It's ME! Spotify 確切項目","url":"https://open.spotify.com/album/13UFdLZQCIiLtXoA7VsDHm","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-meteor-digital"},{"platform":"YouTube Music","label":"激光 It's ME! YouTube Music 確切項目","url":"https://music.youtube.com/playlist?list=OLAK5uy_lixYrY7t8dVJsY0FHpywbEHeWdw0n53vQ","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown","releaseId":"princession-meteor-digital"},{"platform":"YouTube","label":"激光 It's ME! 官方 Lyric Video","url":"https://www.youtube.com/watch?v=aLiPpjjeFO8","linkType":"direct_track","region":"UNKNOWN","verifiedAt":"2026-10-17","availability":"unknown"}]}],"verifiedAt":"2026-08-30","metadataVerifiedAt":"2026-08-30"},
   {"anilistId":178825,"id":"curated-178825","slug":"classic-stars","seasonIds":["2025-spring"],"startDate":"2025-04-06","titleJa":"クラシック★スターズ","titleZhHant":"Classic★Stars – 古典樂★之星","titleRomaji":"CLASSIC★STARS","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178825-F4StA5BbfN9H.png","editorialWeekday":6,"broadcastLabel":"日本TV：2025-04-05土曜25:00（暦日4月6日）・TOKYO MX／BS11；地上波同時配信","status":"finished","officialSiteUrl":"https://classicstars-anime.com/","anilistUrl":"https://anilist.co/anime/178825","imageSourceUrl":"https://anilist.co/anime/178825","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/13586","https://bgm.tv/subject/502036"],"animeThemesUrl":"https://animethemes.moe/anime/classicstars","uzureaUrl":"https://uzurea.net/spring-2025-anime-themes-and-picks/","themes":[{"type":"OP","sequence":1,"titleJa":"シンギュラリスト","artistDisplayName":"内田雄馬","youtubeUrl":"https://www.youtube.com/watch?v=hcJknf3uskY","id":"classic-stars-op-1","songId":"classic-stars-op-1-song","sourceMode":"explicit","sources":[{"label":"「KING AMUSEMENT CREATIVE」公式チャンネル 官方影片","url":"https://www.youtube.com/watch?v=hcJknf3uskY","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://classicstars-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/classicstars","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://classicstars-anime.com/music/","label":"官方：本期原名、演唱、歌曲用途與同頁明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"YouTube","label":"官方公開影片","url":"https://www.youtube.com/watch?v=hcJknf3uskY","linkType":"direct_track","region":"GLOBAL"}],"credits":[{"name":"内田雄馬","role":"vocals"},{"role":"lyrics","name":"上松範康（Elements Garden）"},{"role":"composition","name":"上松範康（Elements Garden）"},{"role":"composition","name":"竹田祐介（Elements Garden）"},{"role":"arrangement","name":"竹田祐介（Elements Garden）"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://classicstars-anime.com/music/"],"verifiedAt":"2026-10-20"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://classicstars-anime.com/music/"],"verifiedAt":"2026-10-20","targetId":"classic-stars-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://classicstars-anime.com/music/"],"verifiedAt":"2026-10-20","targetId":"classic-stars-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/classicstars"],"verifiedAt":"2026-08-30","targetId":"classic-stars-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/classicstars"],"verifiedAt":"2026-08-30","targetId":"classic-stars-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"classic-stars-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"classic-stars-op-1"}],"seasonIds":["2025-spring"],"lastVerifiedAt":"2026-10-20"},{"type":"ED","sequence":1,"titleJa":"BEYOND★CLASSIC","artistDisplayName":"Gran★MyStar （ベートーヴェン・モーツァルト・ショパン・リスト／ CV：内田雄馬・伊東健人・安部 瞬・石毛翔弥）","youtubeUrl":"https://www.youtube.com/watch?v=jxjm_qztjYQ","id":"classic-stars-ed-1","songId":"classic-stars-ed-1-song","sourceMode":"explicit","sources":[{"label":"「KING AMUSEMENT CREATIVE」公式チャンネル 官方影片","url":"https://www.youtube.com/watch?v=jxjm_qztjYQ","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://classicstars-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/classicstars","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://classicstars-anime.com/music/","label":"官方：本期原名、演唱、歌曲用途與同頁明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"YouTube","label":"官方公開影片","url":"https://www.youtube.com/watch?v=jxjm_qztjYQ","linkType":"direct_track","region":"GLOBAL"}],"credits":[{"name":"内田雄馬","role":"vocals"},{"name":"伊東健人","role":"vocals"},{"name":"安部 瞬","role":"vocals"},{"name":"石毛翔弥","role":"vocals"},{"role":"lyrics","name":"上松範康（Elements Garden）"},{"role":"composition","name":"Ludwig van Beethoven"},{"role":"composition","name":"Wolfgang Amadeus Mozart"},{"role":"composition","name":"Frédéric François Chopin"},{"role":"composition","name":"Franz Liszt"},{"role":"composition","name":"上松範康（Elements Garden）"},{"role":"arrangement","name":"藤間仁（Elements Garden）"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://classicstars-anime.com/music/"],"verifiedAt":"2026-10-20"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://classicstars-anime.com/music/"],"verifiedAt":"2026-10-20","targetId":"classic-stars-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://classicstars-anime.com/music/"],"verifiedAt":"2026-10-20","targetId":"classic-stars-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/classicstars"],"verifiedAt":"2026-08-30","targetId":"classic-stars-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/classicstars"],"verifiedAt":"2026-08-30","targetId":"classic-stars-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"classic-stars-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"classic-stars-ed-1"}],"seasonIds":["2025-spring"],"lastVerifiedAt":"2026-10-20"}],"verifiedAt":"2026-08-30","metadataVerifiedAt":"2026-08-30","metadataSources":[{"url":"https://classicstars-anime.com/onair/","label":"官方：本期TV首播與時段（與配信、續期及重播分開）","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://youranimes.tw/bangumi/202504","label":"中文作品／季度索引：TV身分、首播與歌曲交叉核對","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"}],"broadcastTimeJst":"25:00"},
   {"anilistId":180367,"id":"curated-180367","slug":"witch-watch","seasonIds":["2025-spring","2025-summer"],"startDate":"2025-04-06","titleJa":"ウィッチウォッチ","titleZhHant":"WITCH WATCH 魔女守護者","titleRomaji":"Witch Watch","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180367-GlRuB2lG7Kaa.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/180367-Kpxveeh3Q3cm.jpg","editorialWeekday":7,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://witchwatch-anime.com/","anilistUrl":"https://anilist.co/anime/180367","imageSourceUrl":"https://anilist.co/anime/180367","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/13792","https://bgm.tv/subject/506672"],"animeThemesUrl":"https://animethemes.moe/anime/witch_watch","uzureaUrl":"https://uzurea.net/spring-2025-anime-themes-and-picks/","themes":[{"type":"OP","sequence":1,"titleJa":"Watch me!","artistDisplayName":"YOASOBI","credits":[{"name":"YOASOBI","role":"vocals"},{"name":"Ayase","role":"lyrics"},{"name":"Ayase","role":"composition"},{"name":"Ayase","role":"arrangement"},{"name":"ikura","role":"vocals"}],"links":[{"platform":"YouTube","label":"官方公開影片","url":"https://www.youtube.com/watch?v=a_NB6QkfzAM","linkType":"direct_track","region":"GLOBAL"},{"platform":"官方","label":"官方配信入口","url":"https://orcd.co/yoasobi_watch-me","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-18","availability":"unknown"}],"sources":[{"label":"ウィッチウォッチ【TVアニメ公式】 官方影片","url":"https://www.youtube.com/watch?v=a_NB6QkfzAM","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://witchwatch-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/witch_watch","language":"en","role":"cross_check","verifiedAt":"2026-10-18"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://witchwatch-anime.com/music/opening-theme/","label":"官方：歌曲、演唱與動畫用途","role":"first_party","language":"ja","verifiedAt":"2026-10-18"}],"songId":"witch-watch-op-1-song","sourceMode":"explicit","seasonIds":["2025-spring"],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://witchwatch-anime.com/music/opening-theme/","https://animethemes.moe/anime/witch_watch"],"verifiedAt":"2026-10-18","targetId":"witch-watch-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://witchwatch-anime.com/music/opening-theme/","https://animethemes.moe/anime/witch_watch"],"verifiedAt":"2026-10-18","targetId":"witch-watch-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://witchwatch-anime.com/music/opening-theme/"],"verifiedAt":"2026-10-18"},{"target":"credits","fields":["credits"],"sourceUrls":["https://witchwatch-anime.com/music/opening-theme/"],"verifiedAt":"2026-10-18"},{"target":"credits","fields":["credits"],"sourceUrls":["https://witchwatch-anime.com/music/opening-theme/"],"verifiedAt":"2026-10-18"},{"target":"credits","fields":["credits"],"sourceUrls":["https://witchwatch-anime.com/music/opening-theme/"],"verifiedAt":"2026-10-18"},{"target":"recording","fields":["title","format","kind"],"sourceUrls":["https://witchwatch-anime.com/music/opening-theme/"],"verifiedAt":"2026-10-18","targetId":"witch-watch-op-1-song-original"},{"target":"link","fields":["url"],"sourceUrls":["https://witchwatch-anime.com/music/opening-theme/"],"verifiedAt":"2026-10-18","targetId":"https://orcd.co/yoasobi_watch-me"}],"recordings":[{"id":"witch-watch-op-1-song-original","title":"Watch me!","format":"unknown","kind":"vocal"}]},{"type":"OP","sequence":2,"titleJa":"ときはなて！","artistDisplayName":"はしメロ","credits":[{"name":"はしメロ","role":"vocals"},{"name":"はしメロ","role":"lyrics"},{"name":"はしメロ","role":"composition"},{"name":"⌘ハイノミ","role":"arrangement"}],"links":[{"platform":"YouTube","label":"官方公開影片","url":"https://www.youtube.com/watch?v=L9YhOussuh8","linkType":"direct_track","region":"GLOBAL"}],"sources":[{"label":"ウィッチウォッチ【TVアニメ公式】 官方影片","url":"https://www.youtube.com/watch?v=L9YhOussuh8","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://witchwatch-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/witch_watch","language":"en","role":"cross_check","verifiedAt":"2026-10-18"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://witchwatch-anime.com/music/2nd-opening-theme/","label":"官方：歌曲、演唱與動畫用途","role":"first_party","language":"ja","verifiedAt":"2026-10-18"},{"url":"https://witchwatch-anime.com/topics/642/","label":"官方：第13話於6月29日放送","role":"first_party","language":"ja","verifiedAt":"2026-10-18"}],"songId":"witch-watch-op-2-song","sourceMode":"explicit","seasonIds":["2025-spring","2025-summer"],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://witchwatch-anime.com/music/2nd-opening-theme/","https://animethemes.moe/anime/witch_watch"],"verifiedAt":"2026-10-18","targetId":"witch-watch-op-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://witchwatch-anime.com/music/2nd-opening-theme/","https://animethemes.moe/anime/witch_watch"],"verifiedAt":"2026-10-18","targetId":"witch-watch-op-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://witchwatch-anime.com/music/2nd-opening-theme/"],"verifiedAt":"2026-10-18"},{"target":"credits","fields":["credits"],"sourceUrls":["https://witchwatch-anime.com/music/2nd-opening-theme/"],"verifiedAt":"2026-10-18"},{"target":"credits","fields":["credits"],"sourceUrls":["https://witchwatch-anime.com/music/2nd-opening-theme/"],"verifiedAt":"2026-10-18"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://witchwatch-anime.com/topics/642/","https://animethemes.moe/anime/witch_watch"],"verifiedAt":"2026-10-18","targetId":"witch-watch-op-2"},{"target":"recording","fields":["title","format","kind"],"sourceUrls":["https://witchwatch-anime.com/music/2nd-opening-theme/"],"verifiedAt":"2026-10-18","targetId":"witch-watch-op-2-song-original"}],"usageLabel":"第2クール（第13話・第15話起）","recordings":[{"id":"witch-watch-op-2-song-original","title":"ときはなて！","format":"unknown","kind":"vocal"}]},{"type":"OP","sequence":3,"titleJa":"Bitter end","artistDisplayName":"Who-ya Extended","credits":[{"name":"Who-ya Extended","role":"vocals"}],"links":[{"platform":"YouTube","label":"官方公開影片","url":"https://www.youtube.com/watch?v=X3yirXygazg","linkType":"direct_track","region":"GLOBAL"},{"platform":"Apple Music","label":"確切數位Single（Apple Music）","url":"https://music.apple.com/us/album/bitter-end-single/1836469550","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-18","availability":"unknown","releaseId":"witch-watch-op-3-song-digital"}],"sources":[{"label":"ウィッチウォッチ【TVアニメ公式】 官方影片","url":"https://www.youtube.com/watch?v=X3yirXygazg","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://witchwatch-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/witch_watch","language":"en","role":"cross_check","verifiedAt":"2026-10-18"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://witchwatch-anime.com/topics/674/","label":"官方：歌曲、演唱與動畫用途","role":"first_party","language":"ja","verifiedAt":"2026-10-18"},{"url":"https://music.apple.com/us/album/bitter-end-single/1836469550","label":"正版平台：發行品身分及日期","role":"cross_check","language":"ja","verifiedAt":"2026-10-18"}],"songId":"witch-watch-op-3-song","sourceMode":"explicit","seasonIds":["2025-summer"],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://witchwatch-anime.com/topics/674/","https://animethemes.moe/anime/witch_watch"],"verifiedAt":"2026-10-18","targetId":"witch-watch-op-3-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://witchwatch-anime.com/topics/674/","https://animethemes.moe/anime/witch_watch"],"verifiedAt":"2026-10-18","targetId":"witch-watch-op-3"},{"target":"recording","fields":["title","format","kind"],"sourceUrls":["https://witchwatch-anime.com/topics/674/"],"verifiedAt":"2026-10-18","targetId":"witch-watch-op-3-song-original"},{"target":"release","fields":["title","type","artist","tracklist","date","edition"],"sourceUrls":["https://witchwatch-anime.com/topics/674/"],"verifiedAt":"2026-10-18","targetId":"witch-watch-op-3-song-digital"},{"target":"release","fields":["title","type","artist","date","tracklist"],"sourceUrls":["https://witchwatch-anime.com/topics/674/","https://music.apple.com/us/album/bitter-end-single/1836469550"],"verifiedAt":"2026-10-18","targetId":"witch-watch-op-3-song-digital"},{"target":"link","fields":["url"],"sourceUrls":["https://music.apple.com/us/album/bitter-end-single/1836469550"],"verifiedAt":"2026-10-18","targetId":"https://music.apple.com/us/album/bitter-end-single/1836469550"}],"usageLabel":"第14話・劇中作「うろんミラージュ」OP（集數交叉核對）","recordings":[{"id":"witch-watch-op-3-song-original","title":"Bitter end","format":"unknown","kind":"vocal"}],"releases":[{"id":"witch-watch-op-3-song-digital","title":"Bitter end","type":"single","artistDisplayName":"Who-ya Extended","tracks":[{"title":"Bitter end"}],"date":{"value":"2025-09-14","precision":"day"},"edition":"Digital Single"}]},{"type":"ED","sequence":1,"titleJa":"魔法はスパイス","artistDisplayName":"Aooo","credits":[{"name":"Aooo","role":"vocals"},{"name":"すりぃ","role":"lyrics"},{"name":"すりぃ","role":"composition"}],"links":[{"platform":"YouTube","label":"官方公開影片","url":"https://www.youtube.com/watch?v=n9sb98NNmTI","linkType":"direct_track","region":"GLOBAL"}],"sources":[{"label":"ウィッチウォッチ【TVアニメ公式】 官方影片","url":"https://www.youtube.com/watch?v=n9sb98NNmTI","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://witchwatch-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/witch_watch","language":"en","role":"cross_check","verifiedAt":"2026-10-18"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://witchwatch-anime.com/music/ending-theme/","label":"官方：歌曲、演唱與動畫用途","role":"first_party","language":"ja","verifiedAt":"2026-10-18"}],"songId":"witch-watch-ed-1-song","sourceMode":"explicit","seasonIds":["2025-spring"],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://witchwatch-anime.com/music/ending-theme/","https://animethemes.moe/anime/witch_watch"],"verifiedAt":"2026-10-18","targetId":"witch-watch-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://witchwatch-anime.com/music/ending-theme/","https://animethemes.moe/anime/witch_watch"],"verifiedAt":"2026-10-18","targetId":"witch-watch-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://witchwatch-anime.com/music/ending-theme/"],"verifiedAt":"2026-10-18"},{"target":"credits","fields":["credits"],"sourceUrls":["https://witchwatch-anime.com/music/ending-theme/"],"verifiedAt":"2026-10-18"},{"target":"recording","fields":["title","format","kind"],"sourceUrls":["https://witchwatch-anime.com/music/ending-theme/"],"verifiedAt":"2026-10-18","targetId":"witch-watch-ed-1-song-original"}],"recordings":[{"id":"witch-watch-ed-1-song-original","title":"魔法はスパイス","format":"unknown","kind":"vocal"}]},{"type":"ED","sequence":2,"titleJa":"月と私のかくれんぼ","artistDisplayName":"yutori","credits":[{"name":"yutori","role":"vocals"},{"name":"佐藤古都子","role":"lyrics"},{"name":"佐藤古都子","role":"composition"},{"name":"yutori","role":"arrangement"}],"links":[{"platform":"YouTube","label":"官方公開影片","url":"https://www.youtube.com/watch?v=YQ0hXVdBTAQ","linkType":"direct_track","region":"GLOBAL"}],"sources":[{"label":"ウィッチウォッチ【TVアニメ公式】 官方影片","url":"https://www.youtube.com/watch?v=YQ0hXVdBTAQ","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://witchwatch-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/witch_watch","language":"en","role":"cross_check","verifiedAt":"2026-10-18"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://witchwatch-anime.com/music/2nd-ending-theme/","label":"官方：歌曲、演唱與動畫用途","role":"first_party","language":"ja","verifiedAt":"2026-10-18"},{"url":"https://witchwatch-anime.com/topics/642/","label":"官方：第13話於6月29日放送","role":"first_party","language":"ja","verifiedAt":"2026-10-18"}],"songId":"witch-watch-ed-2-song","sourceMode":"explicit","seasonIds":["2025-spring","2025-summer"],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://witchwatch-anime.com/music/2nd-ending-theme/","https://animethemes.moe/anime/witch_watch"],"verifiedAt":"2026-10-18","targetId":"witch-watch-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://witchwatch-anime.com/music/2nd-ending-theme/","https://animethemes.moe/anime/witch_watch"],"verifiedAt":"2026-10-18","targetId":"witch-watch-ed-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://witchwatch-anime.com/music/2nd-ending-theme/"],"verifiedAt":"2026-10-18"},{"target":"credits","fields":["credits"],"sourceUrls":["https://witchwatch-anime.com/music/2nd-ending-theme/"],"verifiedAt":"2026-10-18"},{"target":"credits","fields":["credits"],"sourceUrls":["https://witchwatch-anime.com/music/2nd-ending-theme/"],"verifiedAt":"2026-10-18"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://witchwatch-anime.com/topics/642/","https://animethemes.moe/anime/witch_watch"],"verifiedAt":"2026-10-18","targetId":"witch-watch-ed-2"},{"target":"recording","fields":["title","format","kind"],"sourceUrls":["https://witchwatch-anime.com/music/2nd-ending-theme/"],"verifiedAt":"2026-10-18","targetId":"witch-watch-ed-2-song-original"}],"usageLabel":"第2クール（第13話・第15話起）","recordings":[{"id":"witch-watch-ed-2-song-original","title":"月と私のかくれんぼ","format":"unknown","kind":"vocal"}]},{"type":"ED","sequence":3,"titleJa":"FLASHBACK SYNDROME","artistDisplayName":"ALI","credits":[{"name":"ALI","role":"vocals"},{"name":"LEO","role":"lyrics"},{"name":"MOMONADY","role":"lyrics"},{"name":"LEO","role":"composition"},{"name":"MOMONADY","role":"composition"},{"name":"ALI","role":"arrangement"},{"name":"LEO","role":"vocals"}],"links":[{"platform":"YouTube","label":"官方公開影片","url":"https://www.youtube.com/watch?v=qXjLhh6KZuM","linkType":"direct_track","region":"GLOBAL"}],"sources":[{"label":"ウィッチウォッチ【TVアニメ公式】 官方影片","url":"https://www.youtube.com/watch?v=qXjLhh6KZuM","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://witchwatch-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/witch_watch","language":"en","role":"cross_check","verifiedAt":"2026-10-18"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://witchwatch-anime.com/topics/674/","label":"官方：歌曲、演唱與動畫用途","role":"first_party","language":"ja","verifiedAt":"2026-10-18"},{"url":"https://alienlibertyinternational.com/cate/2415","label":"官方逐曲創作／演唱資料","role":"first_party","language":"ja","verifiedAt":"2026-10-18"}],"songId":"witch-watch-ed-3-song","sourceMode":"explicit","seasonIds":["2025-summer"],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://witchwatch-anime.com/topics/674/","https://animethemes.moe/anime/witch_watch"],"verifiedAt":"2026-10-18","targetId":"witch-watch-ed-3-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://witchwatch-anime.com/topics/674/","https://animethemes.moe/anime/witch_watch"],"verifiedAt":"2026-10-18","targetId":"witch-watch-ed-3"},{"target":"credits","fields":["credits"],"sourceUrls":["https://alienlibertyinternational.com/cate/2415"],"verifiedAt":"2026-10-18"},{"target":"credits","fields":["credits"],"sourceUrls":["https://alienlibertyinternational.com/cate/2415"],"verifiedAt":"2026-10-18"},{"target":"credits","fields":["credits"],"sourceUrls":["https://alienlibertyinternational.com/cate/2415"],"verifiedAt":"2026-10-18"},{"target":"credits","fields":["credits"],"sourceUrls":["https://alienlibertyinternational.com/cate/2415"],"verifiedAt":"2026-10-18"},{"target":"recording","fields":["title","format","kind"],"sourceUrls":["https://witchwatch-anime.com/topics/674/"],"verifiedAt":"2026-10-18","targetId":"witch-watch-ed-3-song-original"},{"target":"release","fields":["title","type","artist","tracklist","catalog_number","edition"],"sourceUrls":["https://alienlibertyinternational.com/cate/2415"],"verifiedAt":"2026-10-18","targetId":"ali-funkin-beautiful-srjl-1147"}],"usageLabel":"第14話・劇中作「うろんミラージュ」ED（集數交叉核對）","recordings":[{"id":"witch-watch-ed-3-song-original","title":"FLASHBACK SYNDROME","format":"unknown","kind":"vocal"}],"releases":[{"id":"ali-funkin-beautiful-srjl-1147","title":"FUNKIN’ BEAUTIFUL","type":"album","artistDisplayName":"ALI","tracks":[{"title":"FLASHBACK SYNDROME","position":3}],"catalogNumber":"SRJL-1147","edition":"完全生産限定盤 LP"}]}],"verifiedAt":"2026-08-30","metadataVerifiedAt":"2026-08-30"},
   {"anilistId":180516,"id":"curated-180516","slug":"uma-musume-cinderella-gray","seasonIds":["2025-spring"],"startDate":"2025-04-06","titleJa":"ウマ娘 シンデレラグレイ","titleZhHant":"賽馬娘 灰髮灰姑娘 （上半）","titleRomaji":"Uma Musume: Cinderella Gray","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180516-lebpoKLkw6E3.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/180516-qxKVBsTW6Czx.jpg","editorialWeekday":7,"broadcastLabel":"日本TV第1クール：2025-04-06日曜16:30・TBS系全国28局ネット；分割第2クールは別用途として区別","status":"finished","officialSiteUrl":"https://anime-cinderellagray.com/","anilistUrl":"https://anilist.co/anime/180516","imageSourceUrl":"https://anilist.co/anime/180516","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/13820","https://bgm.tv/subject/509297"],"animeThemesUrl":"https://animethemes.moe/anime/uma_musume_cinderella_gray","uzureaUrl":"https://uzurea.net/spring-2025-anime-themes-and-picks/","themes":[{"type":"OP","sequence":1,"titleJa":"超える","artistDisplayName":"[Alexandros]","youtubeUrl":"https://www.youtube.com/watch?v=BxUF9WQQZFI","id":"uma-musume-cinderella-gray-op-1","songId":"uma-musume-cinderella-gray-op-1-song","sourceMode":"explicit","sources":[{"label":"ぱかチューブっ!【ウマ娘公式】 官方影片","url":"https://www.youtube.com/watch?v=BxUF9WQQZFI","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://anime-cinderellagray.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/uma_musume_cinderella_gray","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://alexandros.jp/contents/917349","label":"官方：本期原名、演唱、歌曲用途與同頁明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://youranimes.tw/animes/5427","label":"中文作品索引：本期曲名、演唱及OP／ED","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"}],"links":[{"platform":"YouTube","label":"官方公開影片","url":"https://www.youtube.com/watch?v=BxUF9WQQZFI","linkType":"direct_track","region":"GLOBAL"}],"credits":[{"name":"[Alexandros]","role":"vocals"},{"role":"lyrics","name":"川上洋平"},{"role":"composition","name":"川上洋平"},{"role":"arrangement","name":"[Alexandros]"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://alexandros.jp/contents/917349"],"verifiedAt":"2026-10-20"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://alexandros.jp/contents/917349"],"verifiedAt":"2026-10-20","targetId":"uma-musume-cinderella-gray-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://alexandros.jp/contents/917349"],"verifiedAt":"2026-10-20","targetId":"uma-musume-cinderella-gray-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://youranimes.tw/animes/5427"],"verifiedAt":"2026-10-20","targetId":"uma-musume-cinderella-gray-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://youranimes.tw/animes/5427"],"verifiedAt":"2026-10-20","targetId":"uma-musume-cinderella-gray-op-1"}],"seasonIds":["2025-spring"],"lastVerifiedAt":"2026-10-20"},{"type":"ED","sequence":1,"titleJa":"∞","artistDisplayName":"オグリキャップ (CV.高柳知葉)","youtubeUrl":"https://www.youtube.com/watch?v=nJs0rcVwaqw","id":"uma-musume-cinderella-gray-ed-1","songId":"uma-musume-cinderella-gray-ed-1-song","sourceMode":"explicit","sources":[{"label":"ぱかチューブっ!【ウマ娘公式】 官方影片","url":"https://www.youtube.com/watch?v=nJs0rcVwaqw","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://anime-cinderellagray.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/uma_musume_cinderella_gray","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://youranimes.tw/animes/5427","label":"中文作品索引：本期曲名、演唱及OP／ED","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"}],"links":[{"platform":"YouTube","label":"官方公開影片","url":"https://www.youtube.com/watch?v=nJs0rcVwaqw","linkType":"direct_track","region":"GLOBAL"}],"credits":[{"name":"オグリキャップ (CV.高柳知葉)","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.youtube.com/watch?v=nJs0rcVwaqw"],"verifiedAt":"2026-08-30","targetId":"uma-musume-cinderella-gray-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.youtube.com/watch?v=nJs0rcVwaqw"],"verifiedAt":"2026-08-30","targetId":"uma-musume-cinderella-gray-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://youranimes.tw/animes/5427"],"verifiedAt":"2026-10-20","targetId":"uma-musume-cinderella-gray-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://youranimes.tw/animes/5427"],"verifiedAt":"2026-10-20","targetId":"uma-musume-cinderella-gray-ed-1"}],"seasonIds":["2025-spring"],"lastVerifiedAt":"2026-10-20"}],"verifiedAt":"2026-08-30","metadataVerifiedAt":"2026-08-30","metadataSources":[{"url":"https://alexandros.jp/contents/917349","label":"官方：本期TV首播與時段（與配信、續期及重播分開）","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://youranimes.tw/animes/5427","label":"中文作品／季度索引：TV身分、首播與歌曲交叉核對","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"}],"broadcastTimeJst":"16:30"},
-  {"anilistId":180825,"id":"curated-180825","slug":"maebashi-witches","seasonIds":["2025-spring"],"startDate":"2025-04-06","titleJa":"前橋ウィッチーズ","titleZhHant":"前橋魔女","titleRomaji":"Maebashi Witches","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180825-trzjP1VDF19U.jpg","editorialWeekday":7,"broadcastLabel":"日本TV：2025-04-06開始・2025春；劇場版の新曲／再録は別に記録","status":"finished","officialSiteUrl":"https://maebashi-witches.com/","anilistUrl":"https://anilist.co/anime/180825","imageSourceUrl":"https://anilist.co/anime/180825","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/13891","https://bgm.tv/subject/511207"],"animeThemesUrl":"https://animethemes.moe/anime/maebashi_witches","uzureaUrl":"https://uzurea.net/spring-2025-anime-themes-and-picks/","themes":[{"type":"OP","sequence":1,"titleJa":"スゴすぎ前橋ウィッチーズ！","artistDisplayName":"前橋ウィッチーズ","youtubeUrl":"https://www.youtube.com/watch?v=n5M7y9i-30g","id":"maebashi-witches-op-1","songId":"maebashi-witches-op-1-song","sourceMode":"explicit","sources":[{"label":"バンダイナムコフィルムワークス チャンネル 官方影片","url":"https://www.youtube.com/watch?v=n5M7y9i-30g","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://maebashi-witches.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/maebashi_witches","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://www.maebashi-witches.com/music/","label":"官方：本期歌曲原名、演唱、用途與同頁明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"YouTube","label":"官方公開影片","url":"https://www.youtube.com/watch?v=n5M7y9i-30g","linkType":"direct_track","region":"GLOBAL"}],"credits":[{"name":"前橋ウィッチーズ","role":"vocals"},{"name":"つんく♂","role":"lyrics"},{"name":"TORIENA","role":"composition"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://www.maebashi-witches.com/music/"],"verifiedAt":"2026-10-20"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.maebashi-witches.com/music/"],"verifiedAt":"2026-10-20","targetId":"maebashi-witches-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.maebashi-witches.com/music/"],"verifiedAt":"2026-10-20","targetId":"maebashi-witches-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/maebashi_witches"],"verifiedAt":"2026-08-30","targetId":"maebashi-witches-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/maebashi_witches"],"verifiedAt":"2026-08-30","targetId":"maebashi-witches-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"maebashi-witches-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"maebashi-witches-op-1"}],"seasonIds":["2025-spring"],"followUp":[{"fields":["basic_evidence"],"note":"歌曲身分與本期TV用途已確認；現行官網含劇場版或重播資訊，原TV局別／時段公告仍可補充。","resumeWhen":"取得2025年原TV播出公告時補動畫時段第一方證據，不套用劇場版公開日或重播日。","checkedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20"},{"type":"ED","sequence":1,"titleJa":"それぞれのドア","artistDisplayName":"前橋ウィッチーズ","youtubeUrl":"https://www.youtube.com/watch?v=WKrdPYla3GU","id":"maebashi-witches-ed-1","songId":"maebashi-witches-ed-1-song","sourceMode":"explicit","sources":[{"label":"バンダイナムコフィルムワークス チャンネル 官方影片","url":"https://www.youtube.com/watch?v=WKrdPYla3GU","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://maebashi-witches.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/maebashi_witches","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://www.maebashi-witches.com/goods/detail.php?category_id=2&id=954","label":"官方：本期歌曲原名、演唱、用途與同頁明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"YouTube","label":"官方公開影片","url":"https://www.youtube.com/watch?v=WKrdPYla3GU","linkType":"direct_track","region":"GLOBAL"}],"credits":[{"name":"前橋ウィッチーズ","role":"vocals"},{"name":"雲居ハルカ","role":"lyrics"},{"name":"雲居ハルカ","role":"composition"},{"name":"岸田勇気","role":"arrangement"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://www.maebashi-witches.com/goods/detail.php?category_id=2&id=954"],"verifiedAt":"2026-10-20"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.maebashi-witches.com/goods/detail.php?category_id=2&id=954"],"verifiedAt":"2026-10-20","targetId":"maebashi-witches-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.maebashi-witches.com/goods/detail.php?category_id=2&id=954"],"verifiedAt":"2026-10-20","targetId":"maebashi-witches-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/maebashi_witches"],"verifiedAt":"2026-08-30","targetId":"maebashi-witches-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/maebashi_witches"],"verifiedAt":"2026-08-30","targetId":"maebashi-witches-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"maebashi-witches-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"maebashi-witches-ed-1"}],"seasonIds":["2025-spring"],"followUp":[{"fields":["basic_evidence"],"note":"歌曲身分與本期TV用途已確認；現行官網含劇場版或重播資訊，原TV局別／時段公告仍可補充。","resumeWhen":"取得2025年原TV播出公告時補動畫時段第一方證據，不套用劇場版公開日或重播日。","checkedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20"}],"verifiedAt":"2026-08-30","metadataVerifiedAt":"2026-08-30","metadataSources":[{"url":"https://www.maebashi-witches.com/music/","label":"官方：TV作品身分、歌曲與演唱資訊（原放送時段另核）","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://youranimes.tw/bangumi/202504","label":"中文作品／季度索引：本期TV身分與首播資料","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"}]},
+  {
+  "anilistId": 180825,
+  "id": "curated-180825",
+  "slug": "maebashi-witches",
+  "seasonIds": [
+    "2025-spring"
+  ],
+  "startDate": "2025-04-06",
+  "titleJa": "前橋ウィッチーズ",
+  "titleZhHant": "前橋魔女",
+  "titleRomaji": "Maebashi Witches",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180825-trzjP1VDF19U.jpg",
+  "editorialWeekday": 7,
+  "broadcastLabel": "日本TV：2025-04-06開始、2025春；BS11原公告列4/6（日）深夜0:30開始（各局時間不同）。劇場版與重播日期分開。",
+  "status": "finished",
+  "officialSiteUrl": "https://maebashi-witches.com/",
+  "anilistUrl": "https://anilist.co/anime/180825",
+  "imageSourceUrl": "https://anilist.co/anime/180825",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://annict.com/works/2025-spring?display=list_detailed",
+    "https://annict.com/works/13891",
+    "https://bgm.tv/subject/511207",
+    "https://www.bs11.jp/topics/anime/2504-06-anime/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/maebashi_witches",
+  "uzureaUrl": "https://uzurea.net/spring-2025-anime-themes-and-picks/",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "スゴすぎ前橋ウィッチーズ！",
+      "artistDisplayName": "前橋ウィッチーズ",
+      "youtubeUrl": "https://www.youtube.com/watch?v=n5M7y9i-30g",
+      "id": "maebashi-witches-op-1",
+      "songId": "maebashi-witches-op-1-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "label": "バンダイナムコフィルムワークス チャンネル 官方影片",
+          "url": "https://www.youtube.com/watch?v=n5M7y9i-30g",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-08-30"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://maebashi-witches.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-08-30"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/maebashi_witches",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-08-30"
+        },
+        {
+          "label": "UZUREA 主題曲清單",
+          "url": "https://uzurea.net/spring-2025-anime-themes-and-picks/",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-08-30"
+        },
+        {
+          "url": "https://www.maebashi-witches.com/music/",
+          "label": "官方：本期歌曲原名、演唱、用途與同頁明列創作",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-20"
+        }
+      ],
+      "links": [
+        {
+          "platform": "YouTube",
+          "label": "官方公開影片",
+          "url": "https://www.youtube.com/watch?v=n5M7y9i-30g",
+          "linkType": "direct_track",
+          "region": "GLOBAL"
+        }
+      ],
+      "credits": [
+        {
+          "name": "前橋ウィッチーズ",
+          "role": "vocals"
+        },
+        {
+          "name": "つんく♂",
+          "role": "lyrics"
+        },
+        {
+          "name": "TORIENA",
+          "role": "composition"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.maebashi-witches.com/music/"
+          ],
+          "verifiedAt": "2026-10-20"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.maebashi-witches.com/music/"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "maebashi-witches-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.maebashi-witches.com/music/"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "maebashi-witches-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://animethemes.moe/anime/maebashi_witches"
+          ],
+          "verifiedAt": "2026-08-30",
+          "targetId": "maebashi-witches-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animethemes.moe/anime/maebashi_witches"
+          ],
+          "verifiedAt": "2026-08-30",
+          "targetId": "maebashi-witches-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://uzurea.net/spring-2025-anime-themes-and-picks/"
+          ],
+          "verifiedAt": "2026-08-30",
+          "targetId": "maebashi-witches-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://uzurea.net/spring-2025-anime-themes-and-picks/"
+          ],
+          "verifiedAt": "2026-08-30",
+          "targetId": "maebashi-witches-op-1"
+        }
+      ],
+      "seasonIds": [
+        "2025-spring"
+      ],
+      "lastVerifiedAt": "2026-10-20"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "それぞれのドア",
+      "artistDisplayName": "前橋ウィッチーズ",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WKrdPYla3GU",
+      "id": "maebashi-witches-ed-1",
+      "songId": "maebashi-witches-ed-1-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "label": "バンダイナムコフィルムワークス チャンネル 官方影片",
+          "url": "https://www.youtube.com/watch?v=WKrdPYla3GU",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-08-30"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://maebashi-witches.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-08-30"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/maebashi_witches",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-08-30"
+        },
+        {
+          "label": "UZUREA 主題曲清單",
+          "url": "https://uzurea.net/spring-2025-anime-themes-and-picks/",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-08-30"
+        },
+        {
+          "url": "https://www.maebashi-witches.com/goods/detail.php?category_id=2&id=954",
+          "label": "官方：本期歌曲原名、演唱、用途與同頁明列創作",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-20"
+        }
+      ],
+      "links": [
+        {
+          "platform": "YouTube",
+          "label": "官方公開影片",
+          "url": "https://www.youtube.com/watch?v=WKrdPYla3GU",
+          "linkType": "direct_track",
+          "region": "GLOBAL"
+        }
+      ],
+      "credits": [
+        {
+          "name": "前橋ウィッチーズ",
+          "role": "vocals"
+        },
+        {
+          "name": "雲居ハルカ",
+          "role": "lyrics"
+        },
+        {
+          "name": "雲居ハルカ",
+          "role": "composition"
+        },
+        {
+          "name": "岸田勇気",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.maebashi-witches.com/goods/detail.php?category_id=2&id=954"
+          ],
+          "verifiedAt": "2026-10-20"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.maebashi-witches.com/goods/detail.php?category_id=2&id=954"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "maebashi-witches-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.maebashi-witches.com/goods/detail.php?category_id=2&id=954"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "maebashi-witches-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://animethemes.moe/anime/maebashi_witches"
+          ],
+          "verifiedAt": "2026-08-30",
+          "targetId": "maebashi-witches-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animethemes.moe/anime/maebashi_witches"
+          ],
+          "verifiedAt": "2026-08-30",
+          "targetId": "maebashi-witches-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://uzurea.net/spring-2025-anime-themes-and-picks/"
+          ],
+          "verifiedAt": "2026-08-30",
+          "targetId": "maebashi-witches-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://uzurea.net/spring-2025-anime-themes-and-picks/"
+          ],
+          "verifiedAt": "2026-08-30",
+          "targetId": "maebashi-witches-ed-1"
+        }
+      ],
+      "seasonIds": [
+        "2025-spring"
+      ],
+      "lastVerifiedAt": "2026-10-20"
+    }
+  ],
+  "verifiedAt": "2026-08-30",
+  "metadataVerifiedAt": "2026-11-05",
+  "metadataSources": [
+    {
+      "label": "動畫官方網站：作品與播出資料",
+      "url": "https://maebashi-witches.com/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-08-30"
+    },
+    {
+      "label": "AniList：作品識別與公開圖像",
+      "url": "https://anilist.co/anime/180825",
+      "language": "en",
+      "role": "identifier",
+      "verifiedAt": "2026-08-30"
+    },
+    {
+      "label": "繁體中文季度列表交叉對照",
+      "url": "https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+      "language": "zh-Hant",
+      "role": "localized_cross_check",
+      "verifiedAt": "2026-08-30"
+    },
+    {
+      "label": "AnimeThemes：OP／ED 曲目交叉核對",
+      "url": "https://animethemes.moe/anime/maebashi_witches",
+      "language": "en",
+      "role": "theme_cross_check",
+      "verifiedAt": "2026-08-30"
+    },
+    {
+      "label": "UZUREA：季度主題曲與官方影片索引",
+      "url": "https://uzurea.net/spring-2025-anime-themes-and-picks/",
+      "language": "ja",
+      "role": "theme_cross_check",
+      "verifiedAt": "2026-08-30"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://annict.com/works/2025-spring?display=list_detailed",
+      "language": "ja",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-08-30"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://annict.com/works/13891",
+      "language": "ja",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-08-30"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://bgm.tv/subject/511207",
+      "language": "zh-Hans",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-08-30"
+    },
+    {
+      "url": "https://www.maebashi-witches.com/music/",
+      "label": "官方：TV作品身分、歌曲與演唱資訊（此來源不列原TV時段）",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-20"
+    },
+    {
+      "url": "https://youranimes.tw/bangumi/202504",
+      "label": "中文作品／季度索引：本期TV身分與首播資料",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-20"
+    },
+    {
+      "url": "https://www.bs11.jp/topics/anime/2504-06-anime/",
+      "label": "BS11原2025/3/27季度公告：前橋4/6（日）深夜0:30開始（依局別區分）",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    }
+  ]
+},
   {"anilistId":181182,"id":"curated-181182","slug":"shoushimin-series-2nd-season","seasonIds":["2025-spring"],"startDate":"2025-04-06","titleJa":"小市民シリーズ 第2期","titleZhHant":"小市民系列 （第2期）","titleRomaji":"Shoushimin Series 2nd Season","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx181182-lnlfAByYD7X6.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/181182-cQIt0pugtIKE.jpg","editorialWeekday":6,"broadcastLabel":"日本TV第2期：2025-04-05土曜25:30（暦日4月6日）・テレビ朝日系NUMAnimation；ABEMA同時先行","status":"finished","officialSiteUrl":"https://shoshimin-anime.com/","anilistUrl":"https://anilist.co/anime/181182","imageSourceUrl":"https://anilist.co/anime/181182","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/13993","https://bgm.tv/subject/513018"],"animeThemesUrl":"https://animethemes.moe/anime/shoushimin_series_2nd_season","uzureaUrl":"https://uzurea.net/spring-2025-anime-themes-and-picks/","themes":[{"type":"OP","sequence":1,"titleJa":"火星人","artistDisplayName":"ヨルシカ","id":"shoushimin-series-2nd-season-op-1","songId":"shoushimin-series-2nd-season-op-1-song","titleRomaji":"Kaseijin","sourceMode":"explicit","sources":[{"label":"動畫官方網站","url":"https://shoshimin-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/shoushimin_series_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://shoshimin-anime.com/music/index.html","label":"官方：本期原名、演唱、歌曲用途與同頁明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://shoshimin-anime.com/","linkType":"official_landing_page","region":"JP"}],"credits":[{"name":"ヨルシカ","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://shoshimin-anime.com/music/index.html"],"verifiedAt":"2026-10-20","targetId":"shoushimin-series-2nd-season-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://shoshimin-anime.com/music/index.html"],"verifiedAt":"2026-10-20","targetId":"shoushimin-series-2nd-season-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/shoushimin_series_2nd_season"],"verifiedAt":"2026-08-30","targetId":"shoushimin-series-2nd-season-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/shoushimin_series_2nd_season"],"verifiedAt":"2026-08-30","targetId":"shoushimin-series-2nd-season-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"shoushimin-series-2nd-season-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"shoushimin-series-2nd-season-op-1"}],"seasonIds":["2025-spring"],"lastVerifiedAt":"2026-10-20"},{"type":"ED","sequence":1,"titleJa":"SugaRiddle","artistDisplayName":"やなぎなぎ","id":"shoushimin-series-2nd-season-ed-1","songId":"shoushimin-series-2nd-season-ed-1-song","sourceMode":"explicit","sources":[{"label":"動畫官方網站","url":"https://shoshimin-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/shoushimin_series_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://shoshimin-anime.com/music/index.html","label":"官方：本期原名、演唱、歌曲用途與同頁明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://shoshimin-anime.com/","linkType":"official_landing_page","region":"JP"}],"credits":[{"name":"やなぎなぎ","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://shoshimin-anime.com/music/index.html"],"verifiedAt":"2026-10-20","targetId":"shoushimin-series-2nd-season-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://shoshimin-anime.com/music/index.html"],"verifiedAt":"2026-10-20","targetId":"shoushimin-series-2nd-season-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/shoushimin_series_2nd_season"],"verifiedAt":"2026-08-30","targetId":"shoushimin-series-2nd-season-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/shoushimin_series_2nd_season"],"verifiedAt":"2026-08-30","targetId":"shoushimin-series-2nd-season-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"shoushimin-series-2nd-season-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"shoushimin-series-2nd-season-ed-1"}],"seasonIds":["2025-spring"],"lastVerifiedAt":"2026-10-20"}],"verifiedAt":"2026-08-30","metadataVerifiedAt":"2026-08-30","metadataSources":[{"url":"https://shoshimin-anime.com/onair/index.html","label":"官方：本期TV首播與時段（與配信、續期及重播分開）","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://youranimes.tw/bangumi/202504","label":"中文作品／季度索引：TV身分、首播與歌曲交叉核對","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"}],"broadcastTimeJst":"25:30"},
   {"anilistId":182060,"id":"curated-182060","slug":"gorilla-no-kami-kara-kago-sareta-reijou-wa-ouritsu-kishidan-de-kawaigarareru","seasonIds":["2025-spring"],"startDate":"2025-04-06","titleJa":"ゴリラの神から加護された令嬢は王立騎士団で可愛がられる","titleZhHant":"受到猩猩之神庇佑的大小姐受到王立騎士團寵愛","titleRomaji":"Gorilla no Kami kara Kago sareta Reijou wa Ouritsu Kishidan de Kawaigarareru","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182060-r0ihNqhiyvpT.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/182060-DyuMHCaX6Sjw.jpg","editorialWeekday":7,"broadcastLabel":"日本TV：2025-04-06日曜23:30・AT-X最速、地上波24:30；WEB最速24:00","status":"finished","officialSiteUrl":"https://gorillalady-anime.com/","anilistUrl":"https://anilist.co/anime/182060","imageSourceUrl":"https://anilist.co/anime/182060","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/14051","https://bgm.tv/subject/514997"],"animeThemesUrl":"https://animethemes.moe/anime/gorilla_no_kami_kara_kago_sareta_reijou_wa_ouritsu_kishidan_de_kawaigarareru","uzureaUrl":"https://uzurea.net/spring-2025-anime-themes-and-picks/","themes":[{"type":"OP","sequence":1,"titleJa":"イルミネイト","artistDisplayName":"仲村宗悟","youtubeUrl":"https://www.youtube.com/watch?v=4HzcQhk7Rfc","id":"gorilla-no-kami-kara-kago-sareta-reijou-wa-ouritsu-kishidan-de-kawaigarareru-op-1","songId":"gorilla-no-kami-kara-kago-sareta-reijou-wa-ouritsu-kishidan-de-kawaigarareru-op-1-song","sourceMode":"explicit","sources":[{"label":"KADOKAWAanime 官方影片","url":"https://www.youtube.com/watch?v=4HzcQhk7Rfc","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://gorillalady-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/gorilla_no_kami_kara_kago_sareta_reijou_wa_ouritsu_kishidan_de_kawaigarareru","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://gorillalady-anime.com/music/index.html","label":"官方：本期原名、演唱、歌曲用途與同頁明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"YouTube","label":"官方公開影片","url":"https://www.youtube.com/watch?v=4HzcQhk7Rfc","linkType":"direct_track","region":"GLOBAL"}],"credits":[{"name":"仲村宗悟","role":"vocals"},{"role":"lyrics","name":"仲村宗悟"},{"role":"composition","name":"仲村宗悟"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://gorillalady-anime.com/music/index.html"],"verifiedAt":"2026-10-20"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://gorillalady-anime.com/music/index.html"],"verifiedAt":"2026-10-20","targetId":"gorilla-no-kami-kara-kago-sareta-reijou-wa-ouritsu-kishidan-de-kawaigarareru-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://gorillalady-anime.com/music/index.html"],"verifiedAt":"2026-10-20","targetId":"gorilla-no-kami-kara-kago-sareta-reijou-wa-ouritsu-kishidan-de-kawaigarareru-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/gorilla_no_kami_kara_kago_sareta_reijou_wa_ouritsu_kishidan_de_kawaigarareru"],"verifiedAt":"2026-08-30","targetId":"gorilla-no-kami-kara-kago-sareta-reijou-wa-ouritsu-kishidan-de-kawaigarareru-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/gorilla_no_kami_kara_kago_sareta_reijou_wa_ouritsu_kishidan_de_kawaigarareru"],"verifiedAt":"2026-08-30","targetId":"gorilla-no-kami-kara-kago-sareta-reijou-wa-ouritsu-kishidan-de-kawaigarareru-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"gorilla-no-kami-kara-kago-sareta-reijou-wa-ouritsu-kishidan-de-kawaigarareru-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"gorilla-no-kami-kara-kago-sareta-reijou-wa-ouritsu-kishidan-de-kawaigarareru-op-1"}],"seasonIds":["2025-spring"],"lastVerifiedAt":"2026-10-20"},{"type":"ED","sequence":1,"titleJa":"セレンディピティ","artistDisplayName":"緒方恵美","youtubeUrl":"https://www.youtube.com/watch?v=Id-bUdr5LuI","id":"gorilla-no-kami-kara-kago-sareta-reijou-wa-ouritsu-kishidan-de-kawaigarareru-ed-1","songId":"gorilla-no-kami-kara-kago-sareta-reijou-wa-ouritsu-kishidan-de-kawaigarareru-ed-1-song","sourceMode":"explicit","sources":[{"label":"Lantis Channel 官方影片","url":"https://www.youtube.com/watch?v=Id-bUdr5LuI","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://gorillalady-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/gorilla_no_kami_kara_kago_sareta_reijou_wa_ouritsu_kishidan_de_kawaigarareru","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://gorillalady-anime.com/music/index.html","label":"官方：本期原名、演唱、歌曲用途與同頁明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"YouTube","label":"官方公開影片","url":"https://www.youtube.com/watch?v=Id-bUdr5LuI","linkType":"direct_track","region":"GLOBAL"}],"credits":[{"name":"緒方恵美","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://gorillalady-anime.com/music/index.html"],"verifiedAt":"2026-10-20","targetId":"gorilla-no-kami-kara-kago-sareta-reijou-wa-ouritsu-kishidan-de-kawaigarareru-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://gorillalady-anime.com/music/index.html"],"verifiedAt":"2026-10-20","targetId":"gorilla-no-kami-kara-kago-sareta-reijou-wa-ouritsu-kishidan-de-kawaigarareru-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/gorilla_no_kami_kara_kago_sareta_reijou_wa_ouritsu_kishidan_de_kawaigarareru"],"verifiedAt":"2026-08-30","targetId":"gorilla-no-kami-kara-kago-sareta-reijou-wa-ouritsu-kishidan-de-kawaigarareru-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/gorilla_no_kami_kara_kago_sareta_reijou_wa_ouritsu_kishidan_de_kawaigarareru"],"verifiedAt":"2026-08-30","targetId":"gorilla-no-kami-kara-kago-sareta-reijou-wa-ouritsu-kishidan-de-kawaigarareru-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"gorilla-no-kami-kara-kago-sareta-reijou-wa-ouritsu-kishidan-de-kawaigarareru-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"gorilla-no-kami-kara-kago-sareta-reijou-wa-ouritsu-kishidan-de-kawaigarareru-ed-1"}],"seasonIds":["2025-spring"],"lastVerifiedAt":"2026-10-20"}],"verifiedAt":"2026-08-30","metadataVerifiedAt":"2026-08-30","metadataSources":[{"url":"https://gorillalady-anime.com/onair/index.html","label":"官方：本期TV首播與時段（與配信、續期及重播分開）","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://youranimes.tw/bangumi/202504","label":"中文作品／季度索引：TV身分、首播與歌曲交叉核對","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"}],"broadcastTimeJst":"23:30"},
   {"anilistId":183274,"id":"curated-183274","slug":"ore-wa-seikan-kokka-no-akutoku-ryoushu","seasonIds":["2025-spring"],"startDate":"2025-04-06","titleJa":"俺は星間国家の悪徳領主!","titleZhHant":"我是星際國家的惡德領主！","titleRomaji":"Ore wa Seikan Kokka no Akutoku Ryoushu!","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx183274-zqrwevS4PBJF.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/183274-ROUr7oY5imRv.jpg","editorialWeekday":6,"broadcastLabel":"日本TV：2025-04-05土曜26:00（暦日4月6日）・ABCテレビ／テレビ朝日系ANiMAZiNG!!!","status":"finished","officialSiteUrl":"https://seikankokka-anime.com/","anilistUrl":"https://anilist.co/anime/183274","imageSourceUrl":"https://anilist.co/anime/183274","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/14306","https://bgm.tv/subject/520645"],"animeThemesUrl":"https://animethemes.moe/anime/ore_wa_seikan_kokka_no_akutoku_ryoushu","uzureaUrl":"https://uzurea.net/spring-2025-anime-themes-and-picks/","themes":[{"type":"OP","sequence":1,"titleJa":"宇宙的MYSTERY","artistDisplayName":"最終未来少女","youtubeUrl":"https://www.youtube.com/watch?v=Ftw4vkl_V0s","id":"ore-wa-seikan-kokka-no-akutoku-ryoushu-op-1","songId":"ore-wa-seikan-kokka-no-akutoku-ryoushu-op-1-song","sourceMode":"explicit","sources":[{"label":"GREE Entertainment ANIME & GAME【公式】 官方影片","url":"https://www.youtube.com/watch?v=Ftw4vkl_V0s","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://seikankokka-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/ore_wa_seikan_kokka_no_akutoku_ryoushu","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://www.saishumiraishoujo.com/discography/773155af-1980-41da-b50d-1064a5b5efb9","label":"官方：本期歌曲原名、演唱、用途與同頁明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"YouTube","label":"官方公開影片","url":"https://www.youtube.com/watch?v=Ftw4vkl_V0s","linkType":"direct_track","region":"GLOBAL"},{"platform":"YouTube","label":"宇宙的MYSTERY 官方MV","url":"https://www.youtube.com/watch?v=uuKBkpmti9M","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-20","availability":"unknown"}],"credits":[{"name":"最終未来少女","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.saishumiraishoujo.com/discography/773155af-1980-41da-b50d-1064a5b5efb9"],"verifiedAt":"2026-10-20","targetId":"ore-wa-seikan-kokka-no-akutoku-ryoushu-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.saishumiraishoujo.com/discography/773155af-1980-41da-b50d-1064a5b5efb9"],"verifiedAt":"2026-10-20","targetId":"ore-wa-seikan-kokka-no-akutoku-ryoushu-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/ore_wa_seikan_kokka_no_akutoku_ryoushu"],"verifiedAt":"2026-08-30","targetId":"ore-wa-seikan-kokka-no-akutoku-ryoushu-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/ore_wa_seikan_kokka_no_akutoku_ryoushu"],"verifiedAt":"2026-08-30","targetId":"ore-wa-seikan-kokka-no-akutoku-ryoushu-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"ore-wa-seikan-kokka-no-akutoku-ryoushu-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"ore-wa-seikan-kokka-no-akutoku-ryoushu-op-1"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.saishumiraishoujo.com/discography/773155af-1980-41da-b50d-1064a5b5efb9"],"verifiedAt":"2026-10-20","targetId":"https://www.youtube.com/watch?v=uuKBkpmti9M"}],"seasonIds":["2025-spring"],"lastVerifiedAt":"2026-10-20"},{"type":"ED","sequence":1,"titleJa":"なんとなく","artistDisplayName":"藤咲凪","youtubeUrl":"https://www.youtube.com/watch?v=k6pHuMP6ObU","id":"ore-wa-seikan-kokka-no-akutoku-ryoushu-ed-1","songId":"ore-wa-seikan-kokka-no-akutoku-ryoushu-ed-1-song","sourceMode":"explicit","sources":[{"label":"GREE Entertainment ANIME & GAME【公式】 官方影片","url":"https://www.youtube.com/watch?v=k6pHuMP6ObU","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://seikankokka-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/ore_wa_seikan_kokka_no_akutoku_ryoushu","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://www.saishumiraishoujo.com/discography/773155af-1980-41da-b50d-1064a5b5efb9","label":"官方：本期歌曲原名、演唱、用途與同頁明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"YouTube","label":"官方公開影片","url":"https://www.youtube.com/watch?v=k6pHuMP6ObU","linkType":"direct_track","region":"GLOBAL"}],"credits":[{"name":"藤咲凪","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.saishumiraishoujo.com/discography/773155af-1980-41da-b50d-1064a5b5efb9"],"verifiedAt":"2026-10-20","targetId":"ore-wa-seikan-kokka-no-akutoku-ryoushu-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.saishumiraishoujo.com/discography/773155af-1980-41da-b50d-1064a5b5efb9"],"verifiedAt":"2026-10-20","targetId":"ore-wa-seikan-kokka-no-akutoku-ryoushu-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/ore_wa_seikan_kokka_no_akutoku_ryoushu"],"verifiedAt":"2026-08-30","targetId":"ore-wa-seikan-kokka-no-akutoku-ryoushu-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/ore_wa_seikan_kokka_no_akutoku_ryoushu"],"verifiedAt":"2026-08-30","targetId":"ore-wa-seikan-kokka-no-akutoku-ryoushu-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"ore-wa-seikan-kokka-no-akutoku-ryoushu-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"ore-wa-seikan-kokka-no-akutoku-ryoushu-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.saishumiraishoujo.com/discography/773155af-1980-41da-b50d-1064a5b5efb9"],"verifiedAt":"2026-10-20"}],"seasonIds":["2025-spring"],"lastVerifiedAt":"2026-10-20"}],"verifiedAt":"2026-08-30","metadataVerifiedAt":"2026-08-30","metadataSources":[{"url":"https://seikankokka-anime.com/","label":"官方：本期TV首播、時段及配信分別","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://youranimes.tw/bangumi/202504","label":"中文作品／季度索引：本期TV身分與首播資料","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"}],"broadcastTimeJst":"26:00"},
@@ -423,8 +1350,1735 @@ export const curated2025SpringSeeds: CuratedCatalogAnimeSeed[] = [
   {"anilistId":193242,"id":"curated-193242","slug":"chibizenji-sensei-inokori-kougiroku","seasonIds":["2025-spring"],"startDate":"2025-04-08","titleJa":"ちびぜんじ先生 居残り講義録","titleZhHant":"ちびぜんじ先生 居残り講義録","titleRomaji":"Chibizenji-sensei Inokori Kougiroku","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx193242-0pIv8EQ3ijOA.png","editorialWeekday":2,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://chuzenji-anime.jp/special/category/ミニアニメ/","anilistUrl":"https://anilist.co/anime/193242","imageSourceUrl":"https://anilist.co/anime/193242","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/15862"],"themes":[],"verifiedAt":"2026-08-30"},
   {"anilistId":166371,"id":"curated-166371","slug":"hana-doll-reinterpretation-of-flowering","seasonIds":["2025-spring"],"startDate":"2025-04-09","titleJa":"華Doll*-Reinterpretation of Flowering-","titleZhHant":"華Doll* -Reinterpretation of Flowering-","titleRomaji":"HANA-Doll*: Reinterpretation of Flowering","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166371-9YKL41d3r9RS.jpg","editorialWeekday":3,"broadcastLabel":"日本TV初回：2025-04-09水曜22:30・TOKYO MX、BS日テレ23:00；後日の再放送と区別","status":"finished","officialSiteUrl":"https://hanadoll-anime.com/","anilistUrl":"https://anilist.co/anime/166371","imageSourceUrl":"https://anilist.co/anime/166371","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/10929","https://bgm.tv/subject/441888"],"animeThemesUrl":"https://animethemes.moe/anime/hana_doll_reinterpretation_of_flowering","uzureaUrl":"https://uzurea.net/spring-2025-anime-themes-and-picks/","themes":[{"type":"OP","sequence":1,"titleJa":"Clockwork Flowers","artistDisplayName":"Anthos","id":"hana-doll-reinterpretation-of-flowering-op-1","songId":"hana-doll-reinterpretation-of-flowering-op-1-song","sourceMode":"explicit","sources":[{"label":"動畫官方網站","url":"https://hanadoll-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/hana_doll_reinterpretation_of_flowering","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://hanadoll-anime.com/release/cd/op/","label":"官方CD：本期曲名、OP／ED用途及創作名單","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://hanadoll-anime.com/","linkType":"official_landing_page","region":"JP"}],"credits":[{"name":"Anthos","role":"vocals"},{"name":"zakbee","role":"lyrics"},{"name":"zakbee","role":"composition"},{"name":"KAN TAKAHIKO","role":"composition"},{"name":"KAN TAKAHIKO","role":"arrangement"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://hanadoll-anime.com/release/cd/op/"],"verifiedAt":"2026-10-20"},{"target":"song","fields":["title"],"sourceUrls":["https://hanadoll-anime.com/release/cd/op/"],"verifiedAt":"2026-10-20","targetId":"hana-doll-reinterpretation-of-flowering-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://hanadoll-anime.com/release/cd/op/"],"verifiedAt":"2026-10-20","targetId":"hana-doll-reinterpretation-of-flowering-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/hana_doll_reinterpretation_of_flowering"],"verifiedAt":"2026-08-30","targetId":"hana-doll-reinterpretation-of-flowering-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/hana_doll_reinterpretation_of_flowering"],"verifiedAt":"2026-08-30","targetId":"hana-doll-reinterpretation-of-flowering-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"hana-doll-reinterpretation-of-flowering-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"hana-doll-reinterpretation-of-flowering-op-1"},{"target":"song","targetId":"hana-doll-reinterpretation-of-flowering-op-1-song","fields":["artist"],"sourceUrls":["https://hanadoll-anime.com/"],"verifiedAt":"2026-08-30"}],"seasonIds":["2025-spring"],"lastVerifiedAt":"2026-10-20"},{"type":"ED","sequence":1,"titleJa":"Fall leaves after leaves fall","artistDisplayName":"Anthos","id":"hana-doll-reinterpretation-of-flowering-ed-1","songId":"hana-doll-reinterpretation-of-flowering-ed-1-song","sourceMode":"explicit","sources":[{"label":"動畫官方網站","url":"https://hanadoll-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/hana_doll_reinterpretation_of_flowering","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://hanadoll-anime.com/release/cd/ed/","label":"官方CD：本期曲名、OP／ED用途及創作名單","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://hanadoll-anime.com/","linkType":"official_landing_page","region":"JP"}],"credits":[{"name":"Anthos","role":"vocals"},{"name":"INN","role":"lyrics"},{"name":"INN","role":"composition"},{"name":"INN","role":"arrangement"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://hanadoll-anime.com/release/cd/ed/"],"verifiedAt":"2026-10-20"},{"target":"song","fields":["title"],"sourceUrls":["https://hanadoll-anime.com/release/cd/ed/"],"verifiedAt":"2026-10-20","targetId":"hana-doll-reinterpretation-of-flowering-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://hanadoll-anime.com/release/cd/ed/"],"verifiedAt":"2026-10-20","targetId":"hana-doll-reinterpretation-of-flowering-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/hana_doll_reinterpretation_of_flowering"],"verifiedAt":"2026-08-30","targetId":"hana-doll-reinterpretation-of-flowering-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/hana_doll_reinterpretation_of_flowering"],"verifiedAt":"2026-08-30","targetId":"hana-doll-reinterpretation-of-flowering-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"hana-doll-reinterpretation-of-flowering-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"hana-doll-reinterpretation-of-flowering-ed-1"},{"target":"song","targetId":"hana-doll-reinterpretation-of-flowering-ed-1-song","fields":["artist"],"sourceUrls":["https://hanadoll-anime.com/"],"verifiedAt":"2026-08-30"}],"seasonIds":["2025-spring"],"lastVerifiedAt":"2026-10-20"}],"verifiedAt":"2026-08-30","metadataVerifiedAt":"2026-08-30","metadataSources":[{"url":"https://hanadoll-anime.com/onair/","label":"官方：本期TV首播、時段及配信分別","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://youranimes.tw/bangumi/202504","label":"中文作品／季度索引：本期TV身分與首播資料","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"}],"broadcastTimeJst":"22:30"},
   {"anilistId":180675,"id":"curated-180675","slug":"apocalypse-hotel","seasonIds":["2025-spring"],"startDate":"2025-04-09","titleJa":"アポカリプスホテル","titleZhHant":"末日後酒店","titleRomaji":"Apocalypse Hotel","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180675-YEwsxiMsnyvL.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/180675-aZ7hQkNjewa7.jpg","editorialWeekday":2,"broadcastLabel":"日本TV：2025-04-08火曜25:34（暦日4月9日）・日本テレビ；WEB最速26:15","status":"finished","officialSiteUrl":"https://apocalypse-hotel.jp/","anilistUrl":"https://anilist.co/anime/180675","imageSourceUrl":"https://anilist.co/anime/180675","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/13836","https://bgm.tv/subject/509986"],"animeThemesUrl":"https://animethemes.moe/anime/apocalypse_hotel","uzureaUrl":"https://uzurea.net/spring-2025-anime-themes-and-picks/","themes":[{"type":"OP","sequence":1,"titleJa":"skirt","artistDisplayName":"aiko","youtubeUrl":"https://www.youtube.com/watch?v=oHs-XfeUjIU","id":"apocalypse-hotel-op-1","songId":"apocalypse-hotel-op-1-song","sourceMode":"explicit","sources":[{"label":"CyberAgent ANIME 官方影片","url":"https://www.youtube.com/watch?v=oHs-XfeUjIU","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"url":"https://apocalypse-hotel.jp/","label":"官方：本期歌曲原名、演唱、用途與同頁明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/apocalypse_hotel","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"}],"links":[{"platform":"YouTube","label":"官方公開影片","url":"https://www.youtube.com/watch?v=oHs-XfeUjIU","linkType":"direct_track","region":"GLOBAL"}],"credits":[{"name":"aiko","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://apocalypse-hotel.jp/"],"verifiedAt":"2026-10-20","targetId":"apocalypse-hotel-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://apocalypse-hotel.jp/"],"verifiedAt":"2026-10-20","targetId":"apocalypse-hotel-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/apocalypse_hotel"],"verifiedAt":"2026-08-30","targetId":"apocalypse-hotel-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/apocalypse_hotel"],"verifiedAt":"2026-08-30","targetId":"apocalypse-hotel-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"apocalypse-hotel-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"apocalypse-hotel-op-1"}],"seasonIds":["2025-spring"],"lastVerifiedAt":"2026-10-20"},{"type":"ED","sequence":1,"titleJa":"カプセル","artistDisplayName":"aiko","id":"apocalypse-hotel-ed-1","songId":"apocalypse-hotel-ed-1-song","sourceMode":"explicit","sources":[{"url":"https://apocalypse-hotel.jp/","label":"官方：本期歌曲原名、演唱、用途與同頁明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/apocalypse_hotel","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://apocalypse-hotel.jp/","linkType":"official_landing_page","region":"JP"}],"credits":[{"name":"aiko","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://apocalypse-hotel.jp/"],"verifiedAt":"2026-10-20","targetId":"apocalypse-hotel-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://apocalypse-hotel.jp/"],"verifiedAt":"2026-10-20","targetId":"apocalypse-hotel-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/apocalypse_hotel"],"verifiedAt":"2026-08-30","targetId":"apocalypse-hotel-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/apocalypse_hotel"],"verifiedAt":"2026-08-30","targetId":"apocalypse-hotel-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"apocalypse-hotel-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"apocalypse-hotel-ed-1"}],"seasonIds":["2025-spring"],"titleRomaji":"Capsule","lastVerifiedAt":"2026-10-20"},{"type":"ED","sequence":2,"titleJa":"アポカリプス","artistDisplayName":"朴璐美","id":"apocalypse-hotel-ed-2","songId":"apocalypse-hotel-ed-2-song","sourceMode":"explicit","sources":[{"label":"動畫官方網站","url":"https://apocalypse-hotel.jp/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/apocalypse_hotel","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://times.abema.tv/articles/-/10178315","label":"官方：本期歌曲原名、演唱、用途與同頁明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://apocalypse-hotel.jp/news/581/","label":"動畫官方：第6話插曲原名與用途","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://www.mau2.com/anime/apocalypsehotel","label":"逐集TV歌曲交叉索引：第6話特殊ED","role":"cross_check","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://apocalypse-hotel.jp/","linkType":"official_landing_page","region":"JP"}],"credits":[{"name":"朴璐美","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://times.abema.tv/articles/-/10178315"],"verifiedAt":"2026-10-20","targetId":"apocalypse-hotel-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://times.abema.tv/articles/-/10178315"],"verifiedAt":"2026-10-20","targetId":"apocalypse-hotel-ed-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/apocalypse_hotel"],"verifiedAt":"2026-08-30","targetId":"apocalypse-hotel-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/apocalypse_hotel"],"verifiedAt":"2026-08-30","targetId":"apocalypse-hotel-ed-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"apocalypse-hotel-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://uzurea.net/spring-2025-anime-themes-and-picks/"],"verifiedAt":"2026-08-30","targetId":"apocalypse-hotel-ed-2"}],"seasonIds":["2025-spring"],"titleRomaji":"Apocalypse","usageLabel":"第6話特殊ED（同話の挿入歌としても使用）","lastVerifiedAt":"2026-10-20"},{"id":"apocalypse-hotel-in-1","type":"IN","sequence":1,"titleJa":"アポカリプス","artistDisplayName":"朴璐美","songId":"apocalypse-hotel-ed-2-song","seasonIds":["2025-spring"],"sourceMode":"explicit","sources":[{"url":"https://times.abema.tv/articles/-/10178315","label":"正式播出平台報導：本曲、朴璐美及第6話歌唱","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://apocalypse-hotel.jp/news/581/","label":"動畫官方：第6話插曲","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://moegirl.uk/index.php?title=%E6%9C%B4%E7%92%90%E7%BE%8E&variant=zh-hk","label":"中文聲優歌曲公開索引：本曲、演唱及TV插曲（索引內容核對）","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"}],"credits":[{"name":"朴璐美","role":"vocals"}],"links":[],"usageLabel":"第6話挿入歌（同曲另有特殊ED用途）","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://times.abema.tv/articles/-/10178315"],"verifiedAt":"2026-10-20","targetId":"apocalypse-hotel-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://times.abema.tv/articles/-/10178315"],"verifiedAt":"2026-10-20","targetId":"apocalypse-hotel-in-1"},{"target":"song","fields":["title"],"sourceUrls":["https://apocalypse-hotel.jp/news/581/"],"verifiedAt":"2026-10-20","targetId":"apocalypse-hotel-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://apocalypse-hotel.jp/news/581/"],"verifiedAt":"2026-10-20","targetId":"apocalypse-hotel-in-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://moegirl.uk/index.php?title=%E6%9C%B4%E7%92%90%E7%BE%8E&variant=zh-hk"],"verifiedAt":"2026-10-20","targetId":"apocalypse-hotel-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://moegirl.uk/index.php?title=%E6%9C%B4%E7%92%90%E7%BE%8E&variant=zh-hk"],"verifiedAt":"2026-10-20","targetId":"apocalypse-hotel-in-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://times.abema.tv/articles/-/10178315"],"verifiedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20","followUp":[{"fields":["basic_evidence"],"note":"官方及正式播出平台已確認第6話插曲；中文交叉歌曲索引的公開內容已核對，本文可讀性仍待補驗。","resumeWhen":"交叉索引本文可正常讀取或取得其他獨立逐集歌曲資料時，補本文查閱證據；已確認曲名、演唱與用途先保留。","checkedAt":"2026-10-20"}]},{"id":"apocalypse-hotel-in-2","type":"IN","sequence":2,"titleJa":"ぽんぽこうた","artistDisplayName":"ムジナ（CV：榊原良子）","songId":"apocalypse-hotel-in-2-song","seasonIds":["2025-spring"],"sourceMode":"explicit","sources":[{"url":"https://times.abema.tv/articles/-/10181895?page=1","label":"正式播出平台報導：ムジナ／榊原良子、第9話插曲與特殊ED","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://apocalypse-hotel.jp/news/581/","label":"動畫官方：第9話插曲原名與用途","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://www.anisil.com/animes/6253-%E3%82%A2%E3%83%9D%E3%82%AB%E3%83%AA%E3%83%97%E3%82%B9%E3%83%9B%E3%83%86%E3%83%AB","label":"Anisil公開歌曲索引：ぽんぽこうた、ムジナ／榊原良子、第9話IN（索引內容核對）","role":"cross_check","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://www.mau2.com/anime/apocalypsehotel","label":"逐集TV歌曲索引：第9話曲名與特殊ED","role":"cross_check","language":"ja","verifiedAt":"2026-10-20"}],"credits":[{"name":"榊原良子","role":"vocals"}],"links":[],"usageLabel":"第9話挿入歌（同曲另有特殊ED用途）","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://times.abema.tv/articles/-/10181895?page=1"],"verifiedAt":"2026-10-20","targetId":"apocalypse-hotel-in-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://times.abema.tv/articles/-/10181895?page=1"],"verifiedAt":"2026-10-20","targetId":"apocalypse-hotel-in-2"},{"target":"song","fields":["title"],"sourceUrls":["https://apocalypse-hotel.jp/news/581/"],"verifiedAt":"2026-10-20","targetId":"apocalypse-hotel-in-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://apocalypse-hotel.jp/news/581/"],"verifiedAt":"2026-10-20","targetId":"apocalypse-hotel-in-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.anisil.com/animes/6253-%E3%82%A2%E3%83%9D%E3%82%AB%E3%83%AA%E3%83%97%E3%82%B9%E3%83%9B%E3%83%86%E3%83%AB"],"verifiedAt":"2026-10-20","targetId":"apocalypse-hotel-in-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.anisil.com/animes/6253-%E3%82%A2%E3%83%9D%E3%82%AB%E3%83%AA%E3%83%97%E3%82%B9%E3%83%9B%E3%83%86%E3%83%AB"],"verifiedAt":"2026-10-20","targetId":"apocalypse-hotel-in-2"},{"target":"song","fields":["title"],"sourceUrls":["https://www.mau2.com/anime/apocalypsehotel"],"verifiedAt":"2026-10-20","targetId":"apocalypse-hotel-in-2-song"},{"target":"credits","fields":["credits"],"sourceUrls":["https://times.abema.tv/articles/-/10181895?page=1"],"verifiedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20","followUp":[{"fields":["basic_evidence"],"note":"動畫官方與正式播出平台已確認本曲、榊原良子與第9話用途；獨立歌曲索引的公開內容已核對，該索引本文尚未成功讀取。","resumeWhen":"獨立歌曲索引本文可正常讀取或其他獨立用曲報導可查時補本文證據；保留已確認資料，不推定平台地區可用性或音源版本。","checkedAt":"2026-10-20"}]},{"id":"apocalypse-hotel-ed-3","type":"ED","sequence":3,"titleJa":"ぽんぽこうた","artistDisplayName":"ムジナ（CV：榊原良子）","songId":"apocalypse-hotel-in-2-song","seasonIds":["2025-spring"],"sourceMode":"explicit","sources":[{"url":"https://times.abema.tv/articles/-/10181895?page=1","label":"正式播出平台報導：ムジナ／榊原良子、第9話插曲與特殊ED","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://apocalypse-hotel.jp/news/581/","label":"動畫官方：第9話插曲原名與用途","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://www.anisil.com/animes/6253-%E3%82%A2%E3%83%9D%E3%82%AB%E3%83%AA%E3%83%97%E3%82%B9%E3%83%9B%E3%83%86%E3%83%AB","label":"Anisil公開歌曲索引：ぽんぽこうた、ムジナ／榊原良子、第9話IN（索引內容核對）","role":"cross_check","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://www.mau2.com/anime/apocalypsehotel","label":"逐集TV歌曲索引：第9話曲名與特殊ED","role":"cross_check","language":"ja","verifiedAt":"2026-10-20"}],"credits":[{"name":"榊原良子","role":"vocals"}],"links":[],"usageLabel":"第9話特殊ED（同曲另有挿入歌用途）","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://times.abema.tv/articles/-/10181895?page=1"],"verifiedAt":"2026-10-20","targetId":"apocalypse-hotel-in-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://times.abema.tv/articles/-/10181895?page=1"],"verifiedAt":"2026-10-20","targetId":"apocalypse-hotel-ed-3"},{"target":"song","fields":["title"],"sourceUrls":["https://apocalypse-hotel.jp/news/581/"],"verifiedAt":"2026-10-20","targetId":"apocalypse-hotel-in-2-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.anisil.com/animes/6253-%E3%82%A2%E3%83%9D%E3%82%AB%E3%83%AA%E3%83%97%E3%82%B9%E3%83%9B%E3%83%86%E3%83%AB"],"verifiedAt":"2026-10-20","targetId":"apocalypse-hotel-in-2-song"},{"target":"song","fields":["title"],"sourceUrls":["https://www.mau2.com/anime/apocalypsehotel"],"verifiedAt":"2026-10-20","targetId":"apocalypse-hotel-in-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.mau2.com/anime/apocalypsehotel"],"verifiedAt":"2026-10-20","targetId":"apocalypse-hotel-ed-3"},{"target":"credits","fields":["credits"],"sourceUrls":["https://times.abema.tv/articles/-/10181895?page=1"],"verifiedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20","followUp":[{"fields":["basic_evidence"],"note":"動畫官方與正式播出平台已確認本曲、榊原良子與第9話用途；獨立歌曲索引的公開內容已核對，該索引本文尚未成功讀取。","resumeWhen":"獨立歌曲索引本文可正常讀取或其他獨立用曲報導可查時補本文證據；保留已確認資料，不推定平台地區可用性或音源版本。","checkedAt":"2026-10-20"}]}],"verifiedAt":"2026-08-30","metadataVerifiedAt":"2026-08-30","metadataSources":[{"url":"https://apocalypse-hotel.jp/onair/","label":"官方：本期TV首播、時段及配信分別","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://youranimes.tw/bangumi/202504","label":"中文作品／季度索引：本期TV身分與首播資料","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"}],"broadcastTimeJst":"25:34"},
-  {"anilistId":184182,"id":"curated-184182","slug":"zenryoku-usagi-season-2","seasonIds":["2025-spring"],"startDate":"2025-04-09","titleJa":"全力ウサギシーズン2","titleZhHant":"全力兔 （第2期）","titleRomaji":"Zenryoku Usagi Season 2","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184182-1VaS86GSiMOE.png","editorialWeekday":3,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://zenryoku-usagi-anime.com/","anilistUrl":"https://anilist.co/anime/184182","imageSourceUrl":"https://anilist.co/anime/184182","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/14651"],"uzureaUrl":"https://uzurea.net/spring-2025-anime-themes-and-picks/","themes":[],"verifiedAt":"2026-08-30"},
-  {"anilistId":185213,"id":"curated-185213","slug":"kidou-senshi-gundam-gquuuuuux","seasonIds":["2025-spring"],"startDate":"2025-04-09","titleJa":"機動戦士Gundam GQuuuuuuX","titleZhHant":"機動戰士Gundam GQuuuuuuX","titleRomaji":"Kidou Senshi Gundam GQuuuuuuX","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185213-RKQN0qxKlqd6.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/185213-btMTsXAx2y0A.jpg","editorialWeekday":2,"broadcastLabel":"日本TV：2025-04-08火曜24:29（暦日4月9日）・日本テレビ系；劇場先行版の公開日と区別","status":"finished","officialSiteUrl":"https://en.gundam.info/about-gundam/series-pages/gquuuuuux/","anilistUrl":"https://anilist.co/anime/185213","imageSourceUrl":"https://anilist.co/anime/185213","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/14853","https://bgm.tv/subject/526816"],"animeThemesUrl":"https://animethemes.moe/anime/kidou_senshi_gundam_gquuuuuux","uzureaUrl":"https://uzurea.net/spring-2025-anime-themes-and-picks/","themes":[{"type":"OP","sequence":1,"titleJa":"Plazma","artistDisplayName":"米津玄師","id":"kidou-senshi-gundam-gquuuuuux-op-1","songId":"kidou-senshi-gundam-gquuuuuux-op-1-song","sourceMode":"explicit","sources":[{"label":"動畫官方網站","url":"https://en.gundam.info/about-gundam/series-pages/gquuuuuux/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/kidou_senshi_gundam_gquuuuuux","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://gundam-official.com/gquuuuuux/music/theme-song/","label":"官方：本期歌曲原名、演唱、用途與同頁明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX","label":"中文作品音樂索引：曲名、演唱及TV歌曲用途","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://en.gundam.info/about-gundam/series-pages/gquuuuuux/","linkType":"official_landing_page","region":"JP"}],"credits":[{"name":"米津玄師","role":"vocals"},{"name":"米津玄師","role":"lyrics"},{"name":"米津玄師","role":"composition"},{"name":"米津玄師","role":"arrangement"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/theme-song/"],"verifiedAt":"2026-10-20"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/theme-song/"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/theme-song/"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-op-1"}],"seasonIds":["2025-spring"],"followUp":[{"fields":["basic_evidence"],"note":"歌曲身分與本期TV用途已確認；現行官網含劇場版或重播資訊，原TV局別／時段公告仍可補充。","resumeWhen":"取得2025年原TV播出公告時補動畫時段第一方證據，不套用劇場版公開日或重播日。","checkedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20"},{"type":"ED","sequence":1,"titleJa":"もうどうなってもいいや","artistDisplayName":"星街すいせい","id":"kidou-senshi-gundam-gquuuuuux-ed-1","songId":"kidou-senshi-gundam-gquuuuuux-ed-1-song","sourceMode":"explicit","sources":[{"label":"動畫官方網站","url":"https://en.gundam.info/about-gundam/series-pages/gquuuuuux/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/kidou_senshi_gundam_gquuuuuux","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://gundam-official.com/gquuuuuux/music/ending/","label":"官方：本期歌曲原名、演唱、用途與同頁明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX","label":"中文作品音樂索引：曲名、演唱及TV歌曲用途","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://en.gundam.info/about-gundam/series-pages/gquuuuuux/","linkType":"official_landing_page","region":"JP"}],"credits":[{"name":"星街すいせい","role":"vocals"},{"name":"Yuki Tsujimura","role":"lyrics"},{"name":"Naoki Itai","role":"composition"},{"name":"Yuki Tsujimura","role":"composition"},{"name":"Naoki Itai","role":"arrangement"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/ending/"],"verifiedAt":"2026-10-20"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/ending/"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/ending/"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-ed-1"}],"seasonIds":["2025-spring"],"titleRomaji":"Mou Dou Natte mo Ii ya","followUp":[{"fields":["basic_evidence"],"note":"歌曲身分與本期TV用途已確認；現行官網含劇場版或重播資訊，原TV局別／時段公告仍可補充。","resumeWhen":"取得2025年原TV播出公告時補動畫時段第一方證據，不套用劇場版公開日或重播日。","checkedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20"},{"type":"IN","sequence":2,"titleJa":"BEYOND THE TIME ～メビウスの宇宙を越えて～","artistDisplayName":"TM NETWORK","id":"kidou-senshi-gundam-gquuuuuux-ed-2","songId":"kidou-senshi-gundam-gquuuuuux-ed-2-song","sourceMode":"explicit","sources":[{"label":"動畫官方網站","url":"https://en.gundam.info/about-gundam/series-pages/gquuuuuux/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/kidou_senshi_gundam_gquuuuuux","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://gundam-official.com/gquuuuuux/music/insert-song/","label":"官方：本期歌曲原名、演唱、用途與同頁明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX","label":"中文作品音樂索引：曲名、演唱及TV歌曲用途","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://en.gundam.info/about-gundam/series-pages/gquuuuuux/","linkType":"official_landing_page","region":"JP"}],"credits":[{"name":"TM NETWORK","role":"vocals"},{"name":"小室みつ子","role":"lyrics"},{"name":"小室哲哉","role":"composition"},{"name":"小室哲哉","role":"arrangement"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-ed-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-ed-2"}],"seasonIds":["2025-spring"],"usageLabel":"第11話挿入歌（片尾呈現另核）","followUp":[{"fields":["basic_evidence","recordings"],"note":"官方MUSIC明列為挿入歌，原ED型ID及序號保留；其他片尾呈現、重用集數與發行錄音對應仍待逐集官方資料。","resumeWhen":"取得官方逐集credit或具體版本／錄音表時補其他用途及錄音，未由片尾畫面或2025年商品日期推定新歌曲。","checkedAt":"2026-10-20"},{"fields":["basic_evidence"],"note":"歌曲身分與本期TV用途已確認；現行官網含劇場版或重播資訊，原TV局別／時段公告仍可補充。","resumeWhen":"取得2025年原TV播出公告時補動畫時段第一方證據，不套用劇場版公開日或重播日。","checkedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20"},{"type":"IN","sequence":3,"titleJa":"水槽の街から","artistDisplayName":"みきまりあ（NOMELON NOLEMON）","id":"kidou-senshi-gundam-gquuuuuux-ed-3","songId":"kidou-senshi-gundam-gquuuuuux-ed-3-song","sourceMode":"explicit","sources":[{"label":"動畫官方網站","url":"https://en.gundam.info/about-gundam/series-pages/gquuuuuux/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/kidou_senshi_gundam_gquuuuuux","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/spring-2025-anime-themes-and-picks/","language":"ja","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://gundam-official.com/gquuuuuux/music/insert-song/","label":"官方：本期歌曲原名、演唱、用途與同頁明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://youranimes.tw/animes/5608","label":"中文作品音樂索引：曲名、演唱及TV歌曲用途","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://en.gundam.info/about-gundam/series-pages/gquuuuuux/","linkType":"official_landing_page","region":"JP"}],"credits":[{"name":"みきまりあ","role":"vocals"},{"name":"照井順政","role":"lyrics"},{"name":"照井順政","role":"composition"},{"name":"照井順政","role":"arrangement"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-ed-3-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-ed-3"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://youranimes.tw/animes/5608"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-ed-3-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://youranimes.tw/animes/5608"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-ed-3"}],"seasonIds":["2025-spring"],"titleRomaji":"Suisou no Machi Kara","usageLabel":"第5話挿入歌（其他使用及片尾呈現另核）","followUp":[{"fields":["basic_evidence","recordings"],"note":"官方MUSIC明列為挿入歌，原ED型ID及序號保留；其他片尾呈現、重用集數與發行錄音對應仍待逐集官方資料。","resumeWhen":"取得官方逐集credit或具體版本／錄音表時補其他用途及錄音，未由片尾畫面或2025年商品日期推定新歌曲。","checkedAt":"2026-10-20"},{"fields":["basic_evidence"],"note":"歌曲身分與本期TV用途已確認；現行官網含劇場版或重播資訊，原TV局別／時段公告仍可補充。","resumeWhen":"取得2025年原TV播出公告時補動畫時段第一方證據，不套用劇場版公開日或重播日。","checkedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20"},{"id":"kidou-senshi-gundam-gquuuuuux-in-4","type":"IN","sequence":4,"titleJa":"ミッドナイト・リフレクション","artistDisplayName":"NOMELON NOLEMON","songId":"kidou-senshi-gundam-gquuuuuux-in-4-song","seasonIds":["2025-spring"],"sourceMode":"explicit","sources":[{"url":"https://gundam-official.com/gquuuuuux/music/insert-song/","label":"動畫官方：TV插曲、使用話數、演唱及同頁創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX","label":"中文作品音樂索引：本曲演唱、插曲與話數","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"}],"credits":[{"name":"ツミキ","role":"lyrics"},{"name":"ツミキ","role":"composition"},{"name":"ツミキ","role":"arrangement"}],"links":[],"usageLabel":"第1話／第6話挿入歌","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-in-4-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-in-4"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-in-4-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-in-4"},{"target":"credits","fields":["credits"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20"},{"target":"credits","fields":["credits"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20"},{"id":"kidou-senshi-gundam-gquuuuuux-in-5","type":"IN","sequence":5,"titleJa":"夜に咲く","artistDisplayName":"星街すいせい","songId":"kidou-senshi-gundam-gquuuuuux-in-5-song","seasonIds":["2025-spring"],"sourceMode":"explicit","sources":[{"url":"https://gundam-official.com/gquuuuuux/music/insert-song/","label":"動畫官方：TV插曲、使用話數、演唱及同頁創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX","label":"中文作品音樂索引：本曲演唱、插曲與話數","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"}],"credits":[{"name":"星街すいせい","role":"vocals"},{"name":"sakuma.","role":"lyrics"},{"name":"sakuma.","role":"composition"},{"name":"野口大志","role":"composition"},{"name":"野口大志","role":"arrangement"}],"links":[],"usageLabel":"第3話挿入歌","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-in-5-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-in-5"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-in-5-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-in-5"},{"target":"credits","fields":["credits"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20"},{"target":"credits","fields":["credits"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20"},{"id":"kidou-senshi-gundam-gquuuuuux-in-6","type":"IN","sequence":6,"titleJa":"欲しいものすべて","artistDisplayName":"岡地織花","songId":"kidou-senshi-gundam-gquuuuuux-in-6-song","seasonIds":["2025-spring"],"sourceMode":"explicit","sources":[{"url":"https://gundam-official.com/gquuuuuux/music/insert-song/","label":"動畫官方：TV插曲、使用話數、演唱及同頁創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX","label":"中文作品音樂索引：本曲演唱、插曲與話數","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"}],"credits":[{"name":"岡地織花","role":"vocals"},{"name":"照井順政","role":"composition"},{"name":"徳澤青弦","role":"arrangement"}],"links":[],"usageLabel":"第4話挿入歌","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-in-6-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-in-6"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-in-6-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-in-6"},{"target":"credits","fields":["credits"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20"},{"target":"credits","fields":["credits"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20"},{"id":"kidou-senshi-gundam-gquuuuuux-in-7","type":"IN","sequence":7,"titleJa":"夏の現在地","artistDisplayName":"岡地織花","songId":"kidou-senshi-gundam-gquuuuuux-in-7-song","seasonIds":["2025-spring"],"sourceMode":"explicit","sources":[{"url":"https://gundam-official.com/gquuuuuux/music/insert-song/","label":"動畫官方：TV插曲、使用話數、演唱及同頁創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX","label":"中文作品音樂索引：本曲演唱、插曲與話數","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"}],"credits":[{"name":"岡地織花","role":"vocals"},{"name":"照井順政","role":"lyrics"},{"name":"照井順政","role":"composition"},{"name":"照井順政","role":"arrangement"}],"links":[],"usageLabel":"第5話挿入歌","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-in-7-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-in-7"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-in-7-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-in-7"},{"target":"credits","fields":["credits"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20"},{"target":"credits","fields":["credits"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20"},{"id":"kidou-senshi-gundam-gquuuuuux-in-8","type":"IN","sequence":8,"titleJa":"きえない","artistDisplayName":"NOMELON NOLEMON","songId":"kidou-senshi-gundam-gquuuuuux-in-8-song","seasonIds":["2025-spring"],"sourceMode":"explicit","sources":[{"url":"https://gundam-official.com/gquuuuuux/music/insert-song/","label":"動畫官方：TV插曲、使用話數、演唱及同頁創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX","label":"中文作品音樂索引：本曲演唱、插曲與話數","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"}],"credits":[{"name":"ツミキ","role":"lyrics"},{"name":"ツミキ","role":"composition"},{"name":"ツミキ","role":"arrangement"}],"links":[],"usageLabel":"第6話／第7話挿入歌","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-in-8-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-in-8"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-in-8-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-in-8"},{"target":"credits","fields":["credits"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20"},{"target":"credits","fields":["credits"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20"},{"id":"kidou-senshi-gundam-gquuuuuux-in-9","type":"IN","sequence":9,"titleJa":"HALO","artistDisplayName":"NOMELON NOLEMON","songId":"kidou-senshi-gundam-gquuuuuux-in-9-song","seasonIds":["2025-spring"],"sourceMode":"explicit","sources":[{"url":"https://gundam-official.com/gquuuuuux/music/insert-song/","label":"動畫官方：TV插曲、使用話數、演唱及同頁創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX","label":"中文作品音樂索引：本曲演唱、插曲與話數","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"}],"credits":[{"name":"ツミキ","role":"lyrics"},{"name":"ツミキ","role":"composition"},{"name":"ツミキ","role":"arrangement"}],"links":[],"usageLabel":"第7話挿入歌","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-in-9-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-in-9"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-in-9-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-in-9"},{"target":"credits","fields":["credits"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20"},{"target":"credits","fields":["credits"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20"},{"id":"kidou-senshi-gundam-gquuuuuux-in-10","type":"IN","sequence":10,"titleJa":"ビギニング","artistDisplayName":"井上大輔","songId":"kidou-senshi-gundam-gquuuuuux-in-10-song","seasonIds":["2025-spring"],"sourceMode":"explicit","sources":[{"url":"https://gundam-official.com/gquuuuuux/music/insert-song/","label":"動畫官方：TV插曲、使用話數、演唱及同頁創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX","label":"中文作品音樂索引：本曲演唱、插曲與話數","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"}],"credits":[{"name":"井上大輔","role":"vocals"},{"name":"井荻 麟","role":"lyrics"},{"name":"井上大輔","role":"composition"},{"name":"井上大輔","role":"arrangement"}],"links":[],"usageLabel":"第12話挿入歌","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-in-10-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-in-10"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-in-10-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-in-10"},{"target":"credits","fields":["credits"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20"},{"target":"credits","fields":["credits"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20"},{"id":"kidou-senshi-gundam-gquuuuuux-in-11","type":"IN","sequence":11,"titleJa":"Far Beyond the Stars","artistDisplayName":"Shania Yan","songId":"kidou-senshi-gundam-gquuuuuux-in-11-song","seasonIds":["2025-spring"],"sourceMode":"explicit","sources":[{"url":"https://gundam-official.com/gquuuuuux/music/insert-song/","label":"動畫官方：TV插曲、使用話數、演唱及同頁創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX","label":"中文作品音樂索引：本曲演唱、插曲與話數","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"}],"credits":[{"name":"Shania Yan","role":"vocals"},{"name":"照井順政","role":"lyrics"},{"name":"照井順政","role":"composition"},{"name":"徳澤青弦","role":"arrangement"},{"name":"Lynne Hobday","role":"translation"}],"links":[],"usageLabel":"第12話挿入歌","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-in-11-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-in-11"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-in-11-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"],"verifiedAt":"2026-10-20","targetId":"kidou-senshi-gundam-gquuuuuux-in-11"},{"target":"credits","fields":["credits"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20"},{"target":"credits","fields":["credits"],"sourceUrls":["https://gundam-official.com/gquuuuuux/music/insert-song/"],"verifiedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20"}],"verifiedAt":"2026-08-30","metadataVerifiedAt":"2026-08-30","metadataSources":[{"url":"https://gundam-official.com/gquuuuuux/music/theme-song/","label":"官方：TV作品身分、歌曲與演唱資訊（原放送時段另核）","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://youranimes.tw/animes/5608","label":"中文作品／季度索引：本期TV身分與首播資料","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-20"}],"broadcastTimeJst":"24:29"},
+  {"anilistId":184182,"id":"curated-184182","slug":"zenryoku-usagi-season-2","seasonIds":["2025-spring"],"startDate":"2025-04-09","titleJa":"全力ウサギシーズン2","titleZhHant":"全力兔 （第2期）","titleRomaji":"Zenryoku Usagi Season 2","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184182-1VaS86GSiMOE.png","editorialWeekday":3,"broadcastLabel":"日本TV第2期：官方2025年排程列千葉電視4月9日起週三21:55、神奈川週日06:55、埼玉週日17:55；各台起點分列，單話分鐘及完整獨立槽未核。","status":"finished","officialSiteUrl":"https://zenryoku-usagi-anime.com/","anilistUrl":"https://anilist.co/anime/184182","imageSourceUrl":"https://anilist.co/anime/184182","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/14651"],"uzureaUrl":"https://uzurea.net/spring-2025-anime-themes-and-picks/","themes":[],"verifiedAt":"2026-08-30",
+    "metadataSources": [
+      {
+        "label": "官方第2期放送：2025年千葉4/9起及各台起點；未列分鐘或完整槽",
+        "url": "https://zenryoku-usagi-anime.com/",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-11-05"
+      },
+      {
+        "label": "AniList：作品識別與公開圖像",
+        "url": "https://anilist.co/anime/184182",
+        "language": "en",
+        "role": "identifier",
+        "verifiedAt": "2026-08-30"
+      },
+      {
+        "label": "繁體中文季度列表交叉對照",
+        "url": "https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+        "language": "zh-Hant",
+        "role": "localized_cross_check",
+        "verifiedAt": "2026-08-30"
+      },
+      {
+        "label": "UZUREA：季度主題曲與官方影片索引",
+        "url": "https://uzurea.net/spring-2025-anime-themes-and-picks/",
+        "language": "ja",
+        "role": "theme_cross_check",
+        "verifiedAt": "2026-08-30"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://annict.com/works/2025-spring?display=list_detailed",
+        "language": "ja",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-08-30"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://annict.com/works/14651",
+        "language": "ja",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-08-30"
+      }
+    ],
+    "metadataVerifiedAt": "2026-11-05"
+},
+  {
+  "anilistId": 185213,
+  "id": "curated-185213",
+  "slug": "kidou-senshi-gundam-gquuuuuux",
+  "seasonIds": [
+    "2025-spring"
+  ],
+  "startDate": "2025-04-09",
+  "titleJa": "機動戦士Gundam GQuuuuuuX",
+  "titleZhHant": "機動戰士Gundam GQuuuuuuX",
+  "titleRomaji": "Kidou Senshi Gundam GQuuuuuuX",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185213-RKQN0qxKlqd6.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/185213-btMTsXAx2y0A.jpg",
+  "editorialWeekday": 2,
+  "broadcastLabel": "日本TV：2025-04-08起週二24:29（換日後週三00:29），日テレ系30局網。官方原TV公告確認，與劇場先行上映分開。",
+  "status": "finished",
+  "officialSiteUrl": "https://en.gundam.info/about-gundam/series-pages/gquuuuuux/",
+  "anilistUrl": "https://anilist.co/anime/185213",
+  "imageSourceUrl": "https://anilist.co/anime/185213",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://annict.com/works/2025-spring?display=list_detailed",
+    "https://annict.com/works/14853",
+    "https://bgm.tv/subject/526816",
+    "https://gundam-official.com/gquuuuuux/news/video-music/01_16735/",
+    "https://gundam-official.com/gquuuuuux/news/video-music/01_16953/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/kidou_senshi_gundam_gquuuuuux",
+  "uzureaUrl": "https://uzurea.net/spring-2025-anime-themes-and-picks/",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "Plazma",
+      "artistDisplayName": "米津玄師",
+      "id": "kidou-senshi-gundam-gquuuuuux-op-1",
+      "songId": "kidou-senshi-gundam-gquuuuuux-op-1-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://en.gundam.info/about-gundam/series-pages/gquuuuuux/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-08-30"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/kidou_senshi_gundam_gquuuuuux",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-08-30"
+        },
+        {
+          "label": "UZUREA 主題曲清單",
+          "url": "https://uzurea.net/spring-2025-anime-themes-and-picks/",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-08-30"
+        },
+        {
+          "url": "https://gundam-official.com/gquuuuuux/music/theme-song/",
+          "label": "官方：本期歌曲原名、演唱、用途與同頁明列創作",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-20"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX",
+          "label": "中文作品音樂索引：曲名、演唱及TV歌曲用途",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-20"
+        },
+        {
+          "url": "https://gundam-official.com/gquuuuuux/news/video-music/01_16735/",
+          "label": "官方2025/2/23公告：原TV首播、局別與Plazma的TV／劇場主題歌身分",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "links": [
+        {
+          "platform": "作品官網",
+          "label": "作品官方網站",
+          "url": "https://en.gundam.info/about-gundam/series-pages/gquuuuuux/",
+          "linkType": "official_landing_page",
+          "region": "JP"
+        }
+      ],
+      "credits": [
+        {
+          "name": "米津玄師",
+          "role": "vocals"
+        },
+        {
+          "name": "米津玄師",
+          "role": "lyrics"
+        },
+        {
+          "name": "米津玄師",
+          "role": "composition"
+        },
+        {
+          "name": "米津玄師",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/theme-song/"
+          ],
+          "verifiedAt": "2026-10-20"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/theme-song/"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/theme-song/"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-op-1"
+        },
+        {
+          "target": "song",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/news/video-music/01_16735/"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/news/video-music/01_16735/"
+          ],
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "seasonIds": [
+        "2025-spring"
+      ],
+      "lastVerifiedAt": "2026-10-20",
+      "usageLabel": "TV系列主題歌；劇場先行版亦為主題歌"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "もうどうなってもいいや",
+      "artistDisplayName": "星街すいせい",
+      "id": "kidou-senshi-gundam-gquuuuuux-ed-1",
+      "songId": "kidou-senshi-gundam-gquuuuuux-ed-1-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://en.gundam.info/about-gundam/series-pages/gquuuuuux/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-08-30"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/kidou_senshi_gundam_gquuuuuux",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-08-30"
+        },
+        {
+          "label": "UZUREA 主題曲清單",
+          "url": "https://uzurea.net/spring-2025-anime-themes-and-picks/",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-08-30"
+        },
+        {
+          "url": "https://gundam-official.com/gquuuuuux/music/ending/",
+          "label": "官方：本期歌曲原名、演唱、用途與同頁明列創作",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-20"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX",
+          "label": "中文作品音樂索引：曲名、演唱及TV歌曲用途",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-20"
+        },
+        {
+          "url": "https://gundam-official.com/gquuuuuux/news/video-music/01_16953/",
+          "label": "官方2025/3/23公告：原TV首播及ED／劇場插曲身分（不推定錄音版本）",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "links": [
+        {
+          "platform": "作品官網",
+          "label": "作品官方網站",
+          "url": "https://en.gundam.info/about-gundam/series-pages/gquuuuuux/",
+          "linkType": "official_landing_page",
+          "region": "JP"
+        }
+      ],
+      "credits": [
+        {
+          "name": "星街すいせい",
+          "role": "vocals"
+        },
+        {
+          "name": "Yuki Tsujimura",
+          "role": "lyrics"
+        },
+        {
+          "name": "Naoki Itai",
+          "role": "composition"
+        },
+        {
+          "name": "Yuki Tsujimura",
+          "role": "composition"
+        },
+        {
+          "name": "Naoki Itai",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/ending/"
+          ],
+          "verifiedAt": "2026-10-20"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/ending/"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/ending/"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-ed-1"
+        },
+        {
+          "target": "song",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-ed-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/news/video-music/01_16953/"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-ed-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/news/video-music/01_16953/"
+          ],
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "seasonIds": [
+        "2025-spring"
+      ],
+      "titleRomaji": "Mou Dou Natte mo Ii ya",
+      "lastVerifiedAt": "2026-10-20",
+      "usageLabel": "TV系列ED；劇場先行版為插曲"
+    },
+    {
+      "type": "IN",
+      "sequence": 2,
+      "titleJa": "BEYOND THE TIME ～メビウスの宇宙を越えて～",
+      "artistDisplayName": "TM NETWORK",
+      "id": "kidou-senshi-gundam-gquuuuuux-ed-2",
+      "songId": "kidou-senshi-gundam-gquuuuuux-ed-2-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://en.gundam.info/about-gundam/series-pages/gquuuuuux/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-08-30"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/kidou_senshi_gundam_gquuuuuux",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-08-30"
+        },
+        {
+          "label": "UZUREA 主題曲清單",
+          "url": "https://uzurea.net/spring-2025-anime-themes-and-picks/",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-08-30"
+        },
+        {
+          "url": "https://gundam-official.com/gquuuuuux/music/insert-song/",
+          "label": "官方：本期歌曲原名、演唱、用途與同頁明列創作",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-20"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX",
+          "label": "中文作品音樂索引：曲名、演唱及TV歌曲用途",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-20"
+        }
+      ],
+      "links": [
+        {
+          "platform": "作品官網",
+          "label": "作品官方網站",
+          "url": "https://en.gundam.info/about-gundam/series-pages/gquuuuuux/",
+          "linkType": "official_landing_page",
+          "region": "JP"
+        }
+      ],
+      "credits": [
+        {
+          "name": "TM NETWORK",
+          "role": "vocals"
+        },
+        {
+          "name": "小室みつ子",
+          "role": "lyrics"
+        },
+        {
+          "name": "小室哲哉",
+          "role": "composition"
+        },
+        {
+          "name": "小室哲哉",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-ed-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-ed-2"
+        }
+      ],
+      "seasonIds": [
+        "2025-spring"
+      ],
+      "usageLabel": "第11話挿入歌（片尾呈現另核）",
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "recordings"
+          ],
+          "note": "官方MUSIC明列為挿入歌，原ED型ID及序號保留；其他片尾呈現、重用集數與發行錄音對應仍待逐集官方資料。",
+          "resumeWhen": "取得官方逐集credit或具體版本／錄音表時補其他用途及錄音，未由片尾畫面或2025年商品日期推定新歌曲。",
+          "checkedAt": "2026-10-20"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-20"
+    },
+    {
+      "type": "IN",
+      "sequence": 3,
+      "titleJa": "水槽の街から",
+      "artistDisplayName": "みきまりあ（NOMELON NOLEMON）",
+      "id": "kidou-senshi-gundam-gquuuuuux-ed-3",
+      "songId": "kidou-senshi-gundam-gquuuuuux-ed-3-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://en.gundam.info/about-gundam/series-pages/gquuuuuux/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-08-30"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/kidou_senshi_gundam_gquuuuuux",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-08-30"
+        },
+        {
+          "label": "UZUREA 主題曲清單",
+          "url": "https://uzurea.net/spring-2025-anime-themes-and-picks/",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-08-30"
+        },
+        {
+          "url": "https://gundam-official.com/gquuuuuux/music/insert-song/",
+          "label": "官方：本期歌曲原名、演唱、用途與同頁明列創作",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-20"
+        },
+        {
+          "url": "https://youranimes.tw/animes/5608",
+          "label": "中文作品音樂索引：曲名、演唱及TV歌曲用途",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-20"
+        }
+      ],
+      "links": [
+        {
+          "platform": "作品官網",
+          "label": "作品官方網站",
+          "url": "https://en.gundam.info/about-gundam/series-pages/gquuuuuux/",
+          "linkType": "official_landing_page",
+          "region": "JP"
+        }
+      ],
+      "credits": [
+        {
+          "name": "みきまりあ",
+          "role": "vocals"
+        },
+        {
+          "name": "照井順政",
+          "role": "lyrics"
+        },
+        {
+          "name": "照井順政",
+          "role": "composition"
+        },
+        {
+          "name": "照井順政",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-ed-3-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-ed-3"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://youranimes.tw/animes/5608"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-ed-3-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://youranimes.tw/animes/5608"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-ed-3"
+        }
+      ],
+      "seasonIds": [
+        "2025-spring"
+      ],
+      "titleRomaji": "Suisou no Machi Kara",
+      "usageLabel": "第5話挿入歌（其他使用及片尾呈現另核）",
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "recordings"
+          ],
+          "note": "官方MUSIC明列為挿入歌，原ED型ID及序號保留；其他片尾呈現、重用集數與發行錄音對應仍待逐集官方資料。",
+          "resumeWhen": "取得官方逐集credit或具體版本／錄音表時補其他用途及錄音，未由片尾畫面或2025年商品日期推定新歌曲。",
+          "checkedAt": "2026-10-20"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-20"
+    },
+    {
+      "id": "kidou-senshi-gundam-gquuuuuux-in-4",
+      "type": "IN",
+      "sequence": 4,
+      "titleJa": "ミッドナイト・リフレクション",
+      "artistDisplayName": "NOMELON NOLEMON",
+      "songId": "kidou-senshi-gundam-gquuuuuux-in-4-song",
+      "seasonIds": [
+        "2025-spring"
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://gundam-official.com/gquuuuuux/music/insert-song/",
+          "label": "動畫官方：TV插曲、使用話數、演唱及同頁創作",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-20"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX",
+          "label": "中文作品音樂索引：本曲演唱、插曲與話數",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-20"
+        }
+      ],
+      "credits": [
+        {
+          "name": "ツミキ",
+          "role": "lyrics"
+        },
+        {
+          "name": "ツミキ",
+          "role": "composition"
+        },
+        {
+          "name": "ツミキ",
+          "role": "arrangement"
+        }
+      ],
+      "links": [],
+      "usageLabel": "第1話／第6話挿入歌",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-in-4-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-in-4"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-in-4-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-in-4"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-20"
+    },
+    {
+      "id": "kidou-senshi-gundam-gquuuuuux-in-5",
+      "type": "IN",
+      "sequence": 5,
+      "titleJa": "夜に咲く",
+      "artistDisplayName": "星街すいせい",
+      "songId": "kidou-senshi-gundam-gquuuuuux-in-5-song",
+      "seasonIds": [
+        "2025-spring"
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://gundam-official.com/gquuuuuux/music/insert-song/",
+          "label": "動畫官方：TV插曲、使用話數、演唱及同頁創作",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-20"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX",
+          "label": "中文作品音樂索引：本曲演唱、插曲與話數",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-20"
+        }
+      ],
+      "credits": [
+        {
+          "name": "星街すいせい",
+          "role": "vocals"
+        },
+        {
+          "name": "sakuma.",
+          "role": "lyrics"
+        },
+        {
+          "name": "sakuma.",
+          "role": "composition"
+        },
+        {
+          "name": "野口大志",
+          "role": "composition"
+        },
+        {
+          "name": "野口大志",
+          "role": "arrangement"
+        }
+      ],
+      "links": [],
+      "usageLabel": "第3話挿入歌",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-in-5-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-in-5"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-in-5-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-in-5"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-20"
+    },
+    {
+      "id": "kidou-senshi-gundam-gquuuuuux-in-6",
+      "type": "IN",
+      "sequence": 6,
+      "titleJa": "欲しいものすべて",
+      "artistDisplayName": "岡地織花",
+      "songId": "kidou-senshi-gundam-gquuuuuux-in-6-song",
+      "seasonIds": [
+        "2025-spring"
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://gundam-official.com/gquuuuuux/music/insert-song/",
+          "label": "動畫官方：TV插曲、使用話數、演唱及同頁創作",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-20"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX",
+          "label": "中文作品音樂索引：本曲演唱、插曲與話數",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-20"
+        }
+      ],
+      "credits": [
+        {
+          "name": "岡地織花",
+          "role": "vocals"
+        },
+        {
+          "name": "照井順政",
+          "role": "composition"
+        },
+        {
+          "name": "徳澤青弦",
+          "role": "arrangement"
+        }
+      ],
+      "links": [],
+      "usageLabel": "第4話挿入歌",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-in-6-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-in-6"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-in-6-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-in-6"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-20"
+    },
+    {
+      "id": "kidou-senshi-gundam-gquuuuuux-in-7",
+      "type": "IN",
+      "sequence": 7,
+      "titleJa": "夏の現在地",
+      "artistDisplayName": "岡地織花",
+      "songId": "kidou-senshi-gundam-gquuuuuux-in-7-song",
+      "seasonIds": [
+        "2025-spring"
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://gundam-official.com/gquuuuuux/music/insert-song/",
+          "label": "動畫官方：TV插曲、使用話數、演唱及同頁創作",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-20"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX",
+          "label": "中文作品音樂索引：本曲演唱、插曲與話數",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-20"
+        }
+      ],
+      "credits": [
+        {
+          "name": "岡地織花",
+          "role": "vocals"
+        },
+        {
+          "name": "照井順政",
+          "role": "lyrics"
+        },
+        {
+          "name": "照井順政",
+          "role": "composition"
+        },
+        {
+          "name": "照井順政",
+          "role": "arrangement"
+        }
+      ],
+      "links": [],
+      "usageLabel": "第5話挿入歌",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-in-7-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-in-7"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-in-7-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-in-7"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-20"
+    },
+    {
+      "id": "kidou-senshi-gundam-gquuuuuux-in-8",
+      "type": "IN",
+      "sequence": 8,
+      "titleJa": "きえない",
+      "artistDisplayName": "NOMELON NOLEMON",
+      "songId": "kidou-senshi-gundam-gquuuuuux-in-8-song",
+      "seasonIds": [
+        "2025-spring"
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://gundam-official.com/gquuuuuux/music/insert-song/",
+          "label": "動畫官方：TV插曲、使用話數、演唱及同頁創作",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-20"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX",
+          "label": "中文作品音樂索引：本曲演唱、插曲與話數",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-20"
+        }
+      ],
+      "credits": [
+        {
+          "name": "ツミキ",
+          "role": "lyrics"
+        },
+        {
+          "name": "ツミキ",
+          "role": "composition"
+        },
+        {
+          "name": "ツミキ",
+          "role": "arrangement"
+        }
+      ],
+      "links": [],
+      "usageLabel": "第6話／第7話挿入歌",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-in-8-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-in-8"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-in-8-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-in-8"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-20"
+    },
+    {
+      "id": "kidou-senshi-gundam-gquuuuuux-in-9",
+      "type": "IN",
+      "sequence": 9,
+      "titleJa": "HALO",
+      "artistDisplayName": "NOMELON NOLEMON",
+      "songId": "kidou-senshi-gundam-gquuuuuux-in-9-song",
+      "seasonIds": [
+        "2025-spring"
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://gundam-official.com/gquuuuuux/music/insert-song/",
+          "label": "動畫官方：TV插曲、使用話數、演唱及同頁創作",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-20"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX",
+          "label": "中文作品音樂索引：本曲演唱、插曲與話數",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-20"
+        }
+      ],
+      "credits": [
+        {
+          "name": "ツミキ",
+          "role": "lyrics"
+        },
+        {
+          "name": "ツミキ",
+          "role": "composition"
+        },
+        {
+          "name": "ツミキ",
+          "role": "arrangement"
+        }
+      ],
+      "links": [],
+      "usageLabel": "第7話挿入歌",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-in-9-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-in-9"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-in-9-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-in-9"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-20"
+    },
+    {
+      "id": "kidou-senshi-gundam-gquuuuuux-in-10",
+      "type": "IN",
+      "sequence": 10,
+      "titleJa": "ビギニング",
+      "artistDisplayName": "井上大輔",
+      "songId": "kidou-senshi-gundam-gquuuuuux-in-10-song",
+      "seasonIds": [
+        "2025-spring"
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://gundam-official.com/gquuuuuux/music/insert-song/",
+          "label": "動畫官方：TV插曲、使用話數、演唱及同頁創作",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-20"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX",
+          "label": "中文作品音樂索引：本曲演唱、插曲與話數",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-20"
+        }
+      ],
+      "credits": [
+        {
+          "name": "井上大輔",
+          "role": "vocals"
+        },
+        {
+          "name": "井荻 麟",
+          "role": "lyrics"
+        },
+        {
+          "name": "井上大輔",
+          "role": "composition"
+        },
+        {
+          "name": "井上大輔",
+          "role": "arrangement"
+        }
+      ],
+      "links": [],
+      "usageLabel": "第12話挿入歌",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-in-10-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-in-10"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-in-10-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-in-10"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-20"
+    },
+    {
+      "id": "kidou-senshi-gundam-gquuuuuux-in-11",
+      "type": "IN",
+      "sequence": 11,
+      "titleJa": "Far Beyond the Stars",
+      "artistDisplayName": "Shania Yan",
+      "songId": "kidou-senshi-gundam-gquuuuuux-in-11-song",
+      "seasonIds": [
+        "2025-spring"
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://gundam-official.com/gquuuuuux/music/insert-song/",
+          "label": "動畫官方：TV插曲、使用話數、演唱及同頁創作",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-20"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX",
+          "label": "中文作品音樂索引：本曲演唱、插曲與話數",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-20"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Shania Yan",
+          "role": "vocals"
+        },
+        {
+          "name": "照井順政",
+          "role": "lyrics"
+        },
+        {
+          "name": "照井順政",
+          "role": "composition"
+        },
+        {
+          "name": "徳澤青弦",
+          "role": "arrangement"
+        },
+        {
+          "name": "Lynne Hobday",
+          "role": "translation"
+        }
+      ],
+      "links": [],
+      "usageLabel": "第12話挿入歌",
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-in-11-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-in-11"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-in-11-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%88%B0%E5%A3%ABGundam_GQuuuuuuX"
+          ],
+          "verifiedAt": "2026-10-20",
+          "targetId": "kidou-senshi-gundam-gquuuuuux-in-11"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/gquuuuuux/music/insert-song/"
+          ],
+          "verifiedAt": "2026-10-20"
+        }
+      ],
+      "lastVerifiedAt": "2026-10-20"
+    }
+  ],
+  "verifiedAt": "2026-08-30",
+  "metadataVerifiedAt": "2026-11-05",
+  "metadataSources": [
+    {
+      "label": "動畫官方網站：作品與播出資料",
+      "url": "https://en.gundam.info/about-gundam/series-pages/gquuuuuux/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-08-30"
+    },
+    {
+      "label": "AniList：作品識別與公開圖像",
+      "url": "https://anilist.co/anime/185213",
+      "language": "en",
+      "role": "identifier",
+      "verifiedAt": "2026-08-30"
+    },
+    {
+      "label": "繁體中文季度列表交叉對照",
+      "url": "https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+      "language": "zh-Hant",
+      "role": "localized_cross_check",
+      "verifiedAt": "2026-08-30"
+    },
+    {
+      "label": "AnimeThemes：OP／ED 曲目交叉核對",
+      "url": "https://animethemes.moe/anime/kidou_senshi_gundam_gquuuuuux",
+      "language": "en",
+      "role": "theme_cross_check",
+      "verifiedAt": "2026-08-30"
+    },
+    {
+      "label": "UZUREA：季度主題曲與官方影片索引",
+      "url": "https://uzurea.net/spring-2025-anime-themes-and-picks/",
+      "language": "ja",
+      "role": "theme_cross_check",
+      "verifiedAt": "2026-08-30"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://annict.com/works/2025-spring?display=list_detailed",
+      "language": "ja",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-08-30"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://annict.com/works/14853",
+      "language": "ja",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-08-30"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://bgm.tv/subject/526816",
+      "language": "zh-Hans",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-08-30"
+    },
+    {
+      "url": "https://gundam-official.com/gquuuuuux/music/theme-song/",
+      "label": "官方：TV作品身分、歌曲與演唱資訊（原放送時段另核）",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-20"
+    },
+    {
+      "url": "https://youranimes.tw/animes/5608",
+      "label": "中文作品／季度索引：本期TV身分與首播資料",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-20"
+    },
+    {
+      "url": "https://gundam-official.com/gquuuuuux/news/video-music/01_16735/",
+      "label": "官方2025/2/23公告：原TV首播、局別與Plazma的TV／劇場主題歌身分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://gundam-official.com/gquuuuuux/news/video-music/01_16953/",
+      "label": "官方2025/3/23公告：原TV首播及ED／劇場插曲身分（不推定錄音版本）",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    }
+  ],
+  "broadcastTimeJst": "24:29"
+},
   {"anilistId":150654,"id":"curated-150654","slug":"moonrise","seasonIds":["2025-spring"],"startDate":"2025-04-10","titleJa":"ムーンライズ","titleZhHant":"ムーンライズ","titleRomaji":"MOONRISE","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx150654-pgima1BrY7N0.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/150654-wguen10rQctA.jpg","editorialWeekday":4,"broadcastLabel":"WEB・Netflix 全世界獨家配信","status":"finished","officialSiteUrl":"https://about.netflix.com/ja/news/moonrise-premieres-april-10","anilistUrl":"https://anilist.co/anime/150654","imageSourceUrl":"https://anilist.co/anime/150654","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/9693","https://bgm.tv/subject/386728"],"animeThemesUrl":"https://animethemes.moe/anime/moonrise","uzureaUrl":"https://uzurea.net/spring-2025-anime-themes-and-picks/","themes":[{"type":"ED","sequence":1,"titleJa":"Daijoubu","artistDisplayName":"AiNA THE END"}],"verifiedAt":"2026-08-30",
 "metadataSources":[{"label":"動畫官方網站：作品與播出資料","url":"https://about.netflix.com/ja/news/moonrise-premieres-april-10","language":"ja","role":"first_party","verifiedAt":"2026-10-27"}]
 },
@@ -437,12 +3091,148 @@ export const curated2025SpringSeeds: CuratedCatalogAnimeSeed[] = [
   {"anilistId":189602,"id":"curated-189602","slug":"youtunya-3","seasonIds":["2025-spring"],"startDate":"2025-04-15","titleJa":"ユーチューニャー 第3期","titleZhHant":"ユーチューニャー 第3期","titleRomaji":"YouTuNya 3","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx189602-LVMPUosYYjAW.png","editorialWeekday":2,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://youtunya.com/","anilistUrl":"https://anilist.co/anime/189602","imageSourceUrl":"https://anilist.co/anime/189602","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/15842"],"themes":[],"verifiedAt":"2026-08-30"},
   {"anilistId":179706,"id":"curated-179706","slug":"lycoris-recoil-friends-are-thieves-of-time","seasonIds":["2025-spring"],"startDate":"2025-04-16","titleJa":"リコリス・リコイル Friends are thieves of time.","titleZhHant":"リコリス・リコイル Friends are thieves of time.","titleRomaji":"Lycoris Recoil: Friends are thieves of time.","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179706-NvVrmMxnDatB.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/179706-mR1oEVbNT3yQ.jpg","editorialWeekday":3,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://lycoris-recoil.com/shortmovie/","anilistUrl":"https://anilist.co/anime/179706","imageSourceUrl":"https://anilist.co/anime/179706","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/13720","https://bgm.tv/subject/504950"],"animeThemesUrl":"https://animethemes.moe/anime/lycoris_recoil_friends_are_thieves_of_time","uzureaUrl":"https://uzurea.net/spring-2025-anime-themes-and-picks/","themes":[{"type":"ED","sequence":1,"titleJa":"Hana no Tou","artistDisplayName":"Sayuri"}],"verifiedAt":"2026-08-30"},
 
-  {"anilistId":186151,"id":"curated-186151","slug":"yu-gi-oh-card-game-the-chronicles-2025","seasonIds":["2025-spring"],"startDate":"2025-04-21","titleJa":"Yu-Gi-Oh! CARD GAME: THE CHRONICLES (2025)","titleZhHant":"Yu-Gi-Oh! CARD GAME: THE CHRONICLES (2025)","titleRomaji":"Yu-Gi-Oh! CARD GAME: THE CHRONICLES (2025)","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186151-oUFvXQXVBMMP.png","editorialWeekday":1,"broadcastLabel":"日本首播／時間未整理","status":"airing","officialSiteUrl":"https://www.konami.com/yugioh/thechronicles/en/","anilistUrl":"https://anilist.co/anime/186151","imageSourceUrl":"https://anilist.co/anime/186151","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/14976","https://bgm.tv/subject/529751"],"themes":[],"verifiedAt":"2026-08-30"},
-  {"anilistId":193413,"id":"curated-193413","slug":"tsurezure-popipa","seasonIds":["2025-spring"],"startDate":"2025-04-28","titleJa":"つれづれポピパ","titleZhHant":"つれづれポピパ","titleRomaji":"Tsurezure PoPiPa","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx193413-OPcwqduN7GMJ.png","editorialWeekday":1,"broadcastLabel":"日本首播／時間未整理","status":"finished","anilistUrl":"https://anilist.co/anime/193413","imageSourceUrl":"https://anilist.co/anime/193413","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/15945","https://bgm.tv/subject/558831"],"themes":[],"verifiedAt":"2026-08-30"},
+  {"anilistId":186151,"id":"curated-186151","slug":"yu-gi-oh-card-game-the-chronicles-2025","seasonIds":["2025-spring"],"startDate":"2025-04-21","titleJa":"Yu-Gi-Oh! CARD GAME: THE CHRONICLES (2025)","titleZhHant":"Yu-Gi-Oh! CARD GAME: THE CHRONICLES (2025)","titleRomaji":"Yu-Gi-Oh! CARD GAME: THE CHRONICLES (2025)","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186151-oUFvXQXVBMMP.png","editorialWeekday":1,"broadcastLabel":"短篇WEB：KONAMI官方英頁明列宣傳短篇線上系列、官方TCG YouTube更新及2025年4–11月篇章；英頁日期不作日本首播日，單話分鐘及同版TV編排未核。","status":"airing","officialSiteUrl":"https://www.konami.com/yugioh/thechronicles/en/","anilistUrl":"https://anilist.co/anime/186151","imageSourceUrl":"https://anilist.co/anime/186151","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/14976","https://bgm.tv/subject/529751"],"themes":[],"verifiedAt":"2026-08-30",
+    "metadataSources": [
+      {
+        "label": "KONAMI官方英頁：宣傳短篇線上系列、2025年4–11月篇章及官方TCG YouTube",
+        "url": "https://www.konami.com/yugioh/thechronicles/en/",
+        "language": "en",
+        "role": "first_party",
+        "verifiedAt": "2026-11-05"
+      },
+      {
+        "label": "AniList：作品識別與公開圖像",
+        "url": "https://anilist.co/anime/186151",
+        "language": "en",
+        "role": "identifier",
+        "verifiedAt": "2026-08-30"
+      },
+      {
+        "label": "繁體中文季度列表交叉對照",
+        "url": "https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+        "language": "zh-Hant",
+        "role": "localized_cross_check",
+        "verifiedAt": "2026-08-30"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://annict.com/works/2025-spring?display=list_detailed",
+        "language": "ja",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-08-30"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://annict.com/works/14976",
+        "language": "ja",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-08-30"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://bgm.tv/subject/529751",
+        "language": "zh-Hans",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-08-30"
+      }
+    ],
+    "metadataVerifiedAt": "2026-11-05"
+},
+  {"anilistId":193413,"id":"curated-193413","slug":"tsurezure-popipa","seasonIds":["2025-spring"],"startDate":"2025-04-28","titleJa":"つれづれポピパ","titleZhHant":"つれづれポピパ","titleRomaji":"Tsurezure PoPiPa","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx193413-OPcwqduN7GMJ.png","editorialWeekday":1,"broadcastLabel":"短篇WEB公告：官方2025-03-20宣布製作，預定同年4月左右於YouTube「バンドリちゃんねる☆」公開；實際首日及單話分鐘未核。","status":"finished","anilistUrl":"https://anilist.co/anime/193413","imageSourceUrl":"https://anilist.co/anime/193413","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/15945","https://bgm.tv/subject/558831"],"themes":[],"verifiedAt":"2026-08-30",
+    "metadataSources": [
+      {
+        "label": "ブシロード原2025/3/20公告：短篇動畫預定4月頃於官方YouTube公開",
+        "url": "https://bushiroad.com/media/b0383ec4f051ff18",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-11-05"
+      },
+      {
+        "label": "AniList：作品識別與公開圖像",
+        "url": "https://anilist.co/anime/193413",
+        "language": "en",
+        "role": "identifier",
+        "verifiedAt": "2026-08-30"
+      },
+      {
+        "label": "繁體中文季度列表交叉對照",
+        "url": "https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+        "language": "zh-Hant",
+        "role": "localized_cross_check",
+        "verifiedAt": "2026-08-30"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://annict.com/works/2025-spring?display=list_detailed",
+        "language": "ja",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-08-30"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://annict.com/works/15945",
+        "language": "ja",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-08-30"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://bgm.tv/subject/558831",
+        "language": "zh-Hans",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-08-30"
+      }
+    ],
+    "metadataVerifiedAt": "2026-11-05"
+},
   {"anilistId":191689,"id":"curated-191689","slug":"umayuru-pretty-gray","seasonIds":["2025-spring"],"startDate":"2025-04-30","titleJa":"うまゆる ぷりてぃ～ぐれい","titleZhHant":"うまゆる ぷりてぃ～ぐれい","titleRomaji":"Umayuru: Pretty Gray","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx191689-GcPVOgZLgdMa.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/191689-GMftQy2XmUa3.jpg","editorialWeekday":3,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://umamusume.jp/contents/anime/umayuru-prettygray/","anilistUrl":"https://anilist.co/anime/191689","imageSourceUrl":"https://anilist.co/anime/191689","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/15942","https://bgm.tv/subject/555332"],"themes":[],"verifiedAt":"2026-08-30"},
   {"anilistId":185778,"id":"curated-185778","slug":"terra-live","seasonIds":["2025-spring"],"startDate":"2025-05-16","titleJa":"テラライブ","titleZhHant":"テラライブ","titleRomaji":"Terra Live","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185778-Zl01zbfShlCc.jpg","editorialWeekday":5,"broadcastLabel":"日本首播／時間未整理","status":"finished","anilistUrl":"https://anilist.co/anime/185778","imageSourceUrl":"https://anilist.co/anime/185778","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/15943"],"themes":[],"verifiedAt":"2026-08-30"},
   {"anilistId":213459,"id":"curated-213459","slug":"sorotani-no-keibacchi-season-2","seasonIds":["2025-spring"],"startDate":"2025-05-21","titleJa":"そろ谷のけいばっち シーズン2","titleZhHant":"そろ谷のけいばっち シーズン2","titleRomaji":"Sorotani no Keibacchi Season 2","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213459-dJwrhPvuQkJ8.png","editorialWeekday":3,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://www.asahi.co.jp/sp/sorotani/","anilistUrl":"https://anilist.co/anime/213459","imageSourceUrl":"https://anilist.co/anime/213459","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2025-spring?display=list_detailed","https://annict.com/works/16029"],"themes":[],"verifiedAt":"2026-08-30"},
-  {"catalogKey":-405212,"id":"curated-bgm-405212","slug":"to-be-hero-x","seasonIds":["2025-spring","2025-summer"],"startDate":"2025-04-06","titleJa":"TO BE HERO X","editorialWeekday":7,"broadcastTimeJst":"09:30","broadcastLabel":"日本TV首播：2025-04-06 09:30（JST）；フジテレビ等每週日09:30–10:00，春夏播出","status":"finished","officialSiteUrl":"https://tbhx.net/","identifierSource":{"label":"Bangumi：同作識別（日本TV播出另由官方核對）","url":"https://bangumi.tv/subject/405212","language":"zh-Hans"},"sourceReferenceUrls":["https://acgsecrets.hk/bangumi/202504/","https://screenonline.jp/SCREEN_Plus/17789569"],"verifiedAt":"2026-10-30","metadataVerifiedAt":"2026-10-30","metadataSources":[{"url":"https://tbhx.net/","label":"動畫官方：日本TV身分、首播及同一24話系列","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://tbhx.net/story/","label":"動畫官方：日本TV身分、首播及同一24話系列","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://acgsecrets.hk/bangumi/202504/","label":"本作TV身分、首播／最終話日期交叉核對","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-30"},{"url":"https://bangumi.tv/subject/405212","label":"Bangumi：同作識別、24話與日期（配信分類與日本TV分開）","role":"identifier","language":"zh-Hans","verifiedAt":"2026-10-30"},{"url":"https://screenonline.jp/SCREEN_Plus/17789569","label":"本作TV身分、首播／最終話日期交叉核對","role":"broadcast_cross_check","language":"ja","verifiedAt":"2026-10-30"}],"themes":[{"type":"OP","sequence":1,"id":"to-be-hero-x-op-1","songId":"to-be-hero-x-op-1-song","titleJa":"INERTIA","artistDisplayName":"SawanoHiroyuki[nZk]:Rei","seasonIds":["2025-spring"],"credits":[{"name":"SawanoHiroyuki[nZk]:Rei","role":"vocals"},{"name":"Benjamin","role":"lyrics"},{"name":"澤野弘之","role":"composition"},{"name":"澤野弘之","role":"arrangement"}],"sourceMode":"explicit","sources":[{"url":"https://tbhx.net/music/","label":"動畫官方MUSIC：本曲原名、演唱、OP／ED與創作名單","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://acgsecrets.hk/bangumi/202504/","label":"ACG Secrets：本作春季曲名、演唱及OP／ED交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","targetId":"to-be-hero-x-op-1-song","fields":["title","artist"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-op-1","fields":["usage"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-op-1-song","fields":["title","artist"],"sourceUrls":["https://acgsecrets.hk/bangumi/202504/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-op-1","fields":["usage"],"sourceUrls":["https://acgsecrets.hk/bangumi/202504/"],"verifiedAt":"2026-10-30"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"}],"lastVerifiedAt":"2026-10-30","followUp":[{"fields":["use_quarters"],"note":"作品春夏播出已核，本曲春季用途已有第一方及交叉證據；夏季具體話數的逐曲TV用途尚未取得兩類明示，保留已核春季，不由24話、MV或新版片頭畫面推定夏季用途。","resumeWhen":"取得同一TV版夏季具體話數或有日期的第一方逐曲用途正文與交叉時登記2025-summer；普通本曲基本三欄已齊。","checkedAt":"2026-10-30"},{"fields":["recordings","official_video","releases","platform_links"],"note":"基本曲名、演唱名義及用途兩類證據已齊，同頁詞曲編已保存；正式音源、影片、發行品與平台關係未建立，保持未知。","resumeWhen":"詳細階段取得本曲官方音源版本／長度、確切影片、正式發行曲序與正版平台地區明示時，僅補相應欄位。","checkedAt":"2026-10-30"}]},{"type":"ED","sequence":1,"id":"to-be-hero-x-ed-1","songId":"to-be-hero-x-ed-1-song","titleJa":"KONTINUUM","artistDisplayName":"SennaRin","seasonIds":["2025-spring"],"credits":[{"name":"SennaRin","role":"vocals"},{"name":"Benjamin","role":"lyrics"},{"name":"澤野弘之","role":"composition"},{"name":"澤野弘之","role":"arrangement"}],"sourceMode":"explicit","sources":[{"url":"https://tbhx.net/music/","label":"動畫官方MUSIC：本曲原名、演唱、OP／ED與創作名單","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://acgsecrets.hk/bangumi/202504/","label":"ACG Secrets：本作春季曲名、演唱及OP／ED交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","targetId":"to-be-hero-x-ed-1-song","fields":["title","artist"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-ed-1","fields":["usage"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-ed-1-song","fields":["title","artist"],"sourceUrls":["https://acgsecrets.hk/bangumi/202504/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-ed-1","fields":["usage"],"sourceUrls":["https://acgsecrets.hk/bangumi/202504/"],"verifiedAt":"2026-10-30"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"}],"lastVerifiedAt":"2026-10-30","followUp":[{"fields":["use_quarters"],"note":"作品春夏播出已核，本曲春季用途已有第一方及交叉證據；夏季具體話數的逐曲TV用途尚未取得兩類明示，保留已核春季，不由24話、MV或新版片頭畫面推定夏季用途。","resumeWhen":"取得同一TV版夏季具體話數或有日期的第一方逐曲用途正文與交叉時登記2025-summer；普通本曲基本三欄已齊。","checkedAt":"2026-10-30"},{"fields":["recordings","official_video","releases","platform_links"],"note":"基本曲名、演唱名義及用途兩類證據已齊，同頁詞曲編已保存；正式音源、影片、發行品與平台關係未建立，保持未知。","resumeWhen":"詳細階段取得本曲官方音源版本／長度、確切影片、正式發行曲序與正版平台地區明示時，僅補相應欄位。","checkedAt":"2026-10-30"}]},{"type":"IN","sequence":1,"id":"to-be-hero-x-in-1","songId":"to-be-hero-x-in-1-song","titleJa":"PARAGON","artistDisplayName":"Benjamin & mpi","usageLabel":"ナイス編 劇中歌","seasonIds":[],"credits":[{"name":"Benjamin & mpi","role":"vocals"},{"name":"Benjamin","role":"lyrics"},{"name":"澤野弘之","role":"composition"},{"name":"澤野弘之","role":"arrangement"}],"sourceMode":"explicit","sources":[{"url":"https://tbhx.net/music/","label":"動畫官方MUSIC：本曲原名、Vocal、角色篇劇中歌及創作名單","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://en.wikipedia.org/wiki/To_Be_Hero_X","label":"本作逐曲資料：曲名、演唱與劇中歌交叉核對","role":"cross_check","language":"en","verifiedAt":"2026-10-30"},{"url":"https://ja.wikipedia.org/wiki/TO_BE_HERO_X","label":"本作逐曲資料：曲名、演唱與劇中歌交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/","label":"曲名與Vocal輔助核對（商品曲表，不作動畫用途證據）","role":"cross_check","language":"ja","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","targetId":"to-be-hero-x-in-1-song","fields":["title","artist"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-1","fields":["usage"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-1-song","fields":["title","artist"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-1","fields":["usage"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-1-song","fields":["title","artist"],"sourceUrls":["https://ja.wikipedia.org/wiki/TO_BE_HERO_X"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-1","fields":["usage"],"sourceUrls":["https://ja.wikipedia.org/wiki/TO_BE_HERO_X"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-1-song","fields":["title","artist"],"sourceUrls":["https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/"],"verifiedAt":"2026-10-30"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"}],"lastVerifiedAt":"2026-10-30","followUp":[{"fields":["use_quarters"],"note":"動畫官方明示角色篇劇中歌，曲名、Vocal及IN用途的第一方與交叉證據已齊；同一日本TV版的精確採用季度未登記，保持未知，不由角色篇章、交叉集數、影片或發行日推定。","resumeWhen":"待同一日本TV版有日期的第一方逐曲採用說明／正式話數製作名單，並有交叉來源可對照時補用途季度；不以角色篇章、MV、CD或配信日推定。","checkedAt":"2026-10-30"},{"fields":["recordings","official_video","releases","platform_links"],"note":"同頁已明示的詞曲編已保存；正式音源版本、影片、發行品及平台關係未建立，保持未知。","resumeWhen":"詳細階段取得本曲官方音源版本／長度、確切影片、正式發行曲序及正版平台地區明示時，僅補相應欄位。","checkedAt":"2026-10-30"}]},{"type":"IN","sequence":2,"id":"to-be-hero-x-in-2","songId":"to-be-hero-x-in-2-song","titleJa":"NEON RAIN","artistDisplayName":"Eliana","usageLabel":"魂電編 劇中歌","seasonIds":[],"credits":[{"name":"Eliana","role":"vocals"},{"name":"Benjamin","role":"lyrics"},{"name":"ケンモチヒデフミ","role":"composition"},{"name":"ケンモチヒデフミ","role":"arrangement"},{"name":"馬瀬みさき","role":"other"}],"sourceMode":"explicit","sources":[{"url":"https://tbhx.net/music/","label":"動畫官方MUSIC：本曲原名、Vocal、角色篇劇中歌及創作名單","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://en.wikipedia.org/wiki/To_Be_Hero_X","label":"本作逐曲資料：曲名、演唱與劇中歌交叉核對","role":"cross_check","language":"en","verifiedAt":"2026-10-30"},{"url":"https://ja.wikipedia.org/wiki/TO_BE_HERO_X","label":"本作逐曲資料：曲名、演唱與劇中歌交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/","label":"曲名與Vocal輔助核對（商品曲表，不作動畫用途證據）","role":"cross_check","language":"ja","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","targetId":"to-be-hero-x-in-2-song","fields":["title","artist"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-2","fields":["usage"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-2-song","fields":["title","artist"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-2","fields":["usage"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-2-song","fields":["title","artist"],"sourceUrls":["https://ja.wikipedia.org/wiki/TO_BE_HERO_X"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-2","fields":["usage"],"sourceUrls":["https://ja.wikipedia.org/wiki/TO_BE_HERO_X"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-2-song","fields":["title","artist"],"sourceUrls":["https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/"],"verifiedAt":"2026-10-30"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"}],"lastVerifiedAt":"2026-10-30","followUp":[{"fields":["use_quarters"],"note":"動畫官方明示角色篇劇中歌，曲名、Vocal及IN用途的第一方與交叉證據已齊；同一日本TV版的精確採用季度未登記，保持未知，不由角色篇章、交叉集數、影片或發行日推定。","resumeWhen":"待同一日本TV版有日期的第一方逐曲採用說明／正式話數製作名單，並有交叉來源可對照時補用途季度；不以角色篇章、MV、CD或配信日推定。","checkedAt":"2026-10-30"},{"fields":["recordings","official_video","releases","platform_links"],"note":"本曲官網另明示管弦編曲馬瀬みさき，另列其他名單；主要編曲為ケンモチヒデフミ。同頁已明示的詞曲編已保存；正式音源版本、影片、發行品及平台關係未建立，保持未知。","resumeWhen":"詳細階段取得本曲官方音源版本／長度、確切影片、正式發行曲序及正版平台地區明示時，僅補相應欄位。","checkedAt":"2026-10-30"}]},{"type":"IN","sequence":3,"id":"to-be-hero-x-in-3","songId":"to-be-hero-x-in-3-song","titleJa":"SPARX","artistDisplayName":"Robert Taira Wilson","usageLabel":"トラ編 劇中歌","seasonIds":[],"credits":[{"name":"Robert Taira Wilson","role":"vocals"},{"name":"Benjamin","role":"lyrics"},{"name":"KOHTA YAMAMOTO","role":"composition"},{"name":"KOHTA YAMAMOTO","role":"arrangement"}],"sourceMode":"explicit","sources":[{"url":"https://tbhx.net/music/","label":"動畫官方MUSIC：本曲原名、Vocal、角色篇劇中歌及創作名單","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://en.wikipedia.org/wiki/To_Be_Hero_X","label":"本作逐曲資料：曲名、演唱與劇中歌交叉核對","role":"cross_check","language":"en","verifiedAt":"2026-10-30"},{"url":"https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/","label":"曲名與Vocal輔助核對（商品曲表，不作動畫用途證據）","role":"cross_check","language":"ja","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","targetId":"to-be-hero-x-in-3-song","fields":["title","artist"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-3","fields":["usage"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-3-song","fields":["title","artist"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-3","fields":["usage"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-3-song","fields":["title","artist"],"sourceUrls":["https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/"],"verifiedAt":"2026-10-30"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"}],"lastVerifiedAt":"2026-10-30","followUp":[{"fields":["use_quarters"],"note":"動畫官方明示角色篇劇中歌，曲名、Vocal及IN用途的第一方與交叉證據已齊；同一日本TV版的精確採用季度未登記，保持未知，不由角色篇章、交叉集數、影片或發行日推定。","resumeWhen":"待同一日本TV版有日期的第一方逐曲採用說明／正式話數製作名單，並有交叉來源可對照時補用途季度；不以角色篇章、MV、CD或配信日推定。","checkedAt":"2026-10-30"},{"fields":["recordings","official_video","releases","platform_links"],"note":"同頁已明示的詞曲編已保存；正式音源版本、影片、發行品及平台關係未建立，保持未知。","resumeWhen":"詳細階段取得本曲官方音源版本／長度、確切影片、正式發行曲序及正版平台地區明示時，僅補相應欄位。","checkedAt":"2026-10-30"}]},{"type":"IN","sequence":4,"id":"to-be-hero-x-in-4","songId":"to-be-hero-x-in-4-song","titleJa":"Take Off","artistDisplayName":"Lucky Cyan","usageLabel":"ラッキーシアン編 劇中歌","seasonIds":[],"credits":[{"name":"Lucky Cyan","role":"vocals"},{"name":"Shown","role":"lyrics"},{"name":"DAIKI (AWSM.)","role":"composition"},{"name":"DAIKI (AWSM.)","role":"arrangement"}],"sourceMode":"explicit","sources":[{"url":"https://tbhx.net/music/","label":"動畫官方MUSIC：本曲原名、Vocal、角色篇劇中歌及創作名單","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://en.wikipedia.org/wiki/To_Be_Hero_X","label":"本作逐曲資料：曲名、演唱與劇中歌交叉核對","role":"cross_check","language":"en","verifiedAt":"2026-10-30"},{"url":"https://ja.wikipedia.org/wiki/TO_BE_HERO_X","label":"本作逐曲資料：曲名、演唱與劇中歌交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/","label":"曲名與Vocal輔助核對（商品曲表，不作動畫用途證據）","role":"cross_check","language":"ja","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","targetId":"to-be-hero-x-in-4-song","fields":["title","artist"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-4","fields":["usage"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-4-song","fields":["title","artist"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-4","fields":["usage"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-4-song","fields":["title","artist"],"sourceUrls":["https://ja.wikipedia.org/wiki/TO_BE_HERO_X"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-4","fields":["usage"],"sourceUrls":["https://ja.wikipedia.org/wiki/TO_BE_HERO_X"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-4-song","fields":["title","artist"],"sourceUrls":["https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/"],"verifiedAt":"2026-10-30"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"}],"lastVerifiedAt":"2026-10-30","followUp":[{"fields":["use_quarters"],"note":"動畫官方明示角色篇劇中歌，曲名、Vocal及IN用途的第一方與交叉證據已齊；同一日本TV版的精確採用季度未登記，保持未知，不由角色篇章、交叉集數、影片或發行日推定。","resumeWhen":"待同一日本TV版有日期的第一方逐曲採用說明／正式話數製作名單，並有交叉來源可對照時補用途季度；不以角色篇章、MV、CD或配信日推定。","checkedAt":"2026-10-30"},{"fields":["recordings","official_video","releases","platform_links"],"note":"同頁已明示的詞曲編已保存；正式音源版本、影片、發行品及平台關係未建立，保持未知。","resumeWhen":"詳細階段取得本曲官方音源版本／長度、確切影片、正式發行曲序及正版平台地區明示時，僅補相應欄位。","checkedAt":"2026-10-30"}]},{"type":"IN","sequence":5,"id":"to-be-hero-x-in-5","songId":"to-be-hero-x-in-5-song","titleJa":"Candy Mountain","artistDisplayName":"國土佳音","usageLabel":"ロリ編 劇中歌","seasonIds":[],"credits":[{"name":"國土佳音","role":"vocals"},{"name":"nikiie","role":"lyrics"},{"name":"睦月周平","role":"composition"},{"name":"睦月周平","role":"arrangement"}],"sourceMode":"explicit","sources":[{"url":"https://tbhx.net/music/","label":"動畫官方MUSIC：本曲原名、Vocal、角色篇劇中歌及創作名單","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://en.wikipedia.org/wiki/To_Be_Hero_X","label":"本作逐曲資料：曲名、演唱與劇中歌交叉核對","role":"cross_check","language":"en","verifiedAt":"2026-10-30"},{"url":"https://ja.wikipedia.org/wiki/TO_BE_HERO_X","label":"本作逐曲資料：曲名、演唱與劇中歌交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/","label":"曲名與Vocal輔助核對（商品曲表，不作動畫用途證據）","role":"cross_check","language":"ja","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","targetId":"to-be-hero-x-in-5-song","fields":["title","artist"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-5","fields":["usage"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-5-song","fields":["title","artist"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-5","fields":["usage"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-5-song","fields":["title","artist"],"sourceUrls":["https://ja.wikipedia.org/wiki/TO_BE_HERO_X"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-5","fields":["usage"],"sourceUrls":["https://ja.wikipedia.org/wiki/TO_BE_HERO_X"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-5-song","fields":["title","artist"],"sourceUrls":["https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/"],"verifiedAt":"2026-10-30"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"}],"lastVerifiedAt":"2026-10-30","followUp":[{"fields":["use_quarters"],"note":"動畫官方明示角色篇劇中歌，曲名、Vocal及IN用途的第一方與交叉證據已齊；同一日本TV版的精確採用季度未登記，保持未知，不由角色篇章、交叉集數、影片或發行日推定。","resumeWhen":"待同一日本TV版有日期的第一方逐曲採用說明／正式話數製作名單，並有交叉來源可對照時補用途季度；不以角色篇章、MV、CD或配信日推定。","checkedAt":"2026-10-30"},{"fields":["recordings","official_video","releases","platform_links"],"note":"同頁已明示的詞曲編已保存；正式音源版本、影片、發行品及平台關係未建立，保持未知。","resumeWhen":"詳細階段取得本曲官方音源版本／長度、確切影片、正式發行曲序及正版平台地區明示時，僅補相應欄位。","checkedAt":"2026-10-30"}]},{"type":"IN","sequence":6,"id":"to-be-hero-x-in-6","songId":"to-be-hero-x-in-6-song","titleJa":"growL","artistDisplayName":"J.Rio","usageLabel":"リトルジョニー&ビッグジョニー編 劇中歌","seasonIds":[],"credits":[{"name":"J.Rio","role":"vocals"},{"name":"cAnON.","role":"lyrics"},{"name":"馬瀬みさき","role":"composition"},{"name":"馬瀬みさき","role":"arrangement"}],"sourceMode":"explicit","sources":[{"url":"https://tbhx.net/music/","label":"動畫官方MUSIC：本曲原名、Vocal、角色篇劇中歌及創作名單","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://en.wikipedia.org/wiki/To_Be_Hero_X","label":"本作逐曲資料：曲名、演唱與劇中歌交叉核對","role":"cross_check","language":"en","verifiedAt":"2026-10-30"},{"url":"https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/","label":"曲名與Vocal輔助核對（商品曲表，不作動畫用途證據）","role":"cross_check","language":"ja","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","targetId":"to-be-hero-x-in-6-song","fields":["title","artist"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-6","fields":["usage"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-6-song","fields":["title","artist"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-6","fields":["usage"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-6-song","fields":["title","artist"],"sourceUrls":["https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/"],"verifiedAt":"2026-10-30"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"}],"lastVerifiedAt":"2026-10-30","followUp":[{"fields":["use_quarters"],"note":"動畫官方明示角色篇劇中歌，曲名、Vocal及IN用途的第一方與交叉證據已齊；同一日本TV版的精確採用季度未登記，保持未知，不由角色篇章、交叉集數、影片或發行日推定。","resumeWhen":"待同一日本TV版有日期的第一方逐曲採用說明／正式話數製作名單，並有交叉來源可對照時補用途季度；不以角色篇章、MV、CD或配信日推定。","checkedAt":"2026-10-30"},{"fields":["recordings","official_video","releases","platform_links"],"note":"同頁已明示的詞曲編已保存；正式音源版本、影片、發行品及平台關係未建立，保持未知。","resumeWhen":"詳細階段取得本曲官方音源版本／長度、確切影片、正式發行曲序及正版平台地區明示時，僅補相應欄位。","checkedAt":"2026-10-30"}]},{"type":"IN","sequence":7,"id":"to-be-hero-x-in-7","songId":"to-be-hero-x-in-7-song","titleJa":"Because of you","artistDisplayName":"Kris Roche","usageLabel":"黙殺編 劇中歌","seasonIds":[],"credits":[{"name":"Kris Roche","role":"vocals"},{"name":"深澤秀行","role":"lyrics"},{"name":"Kris Roche","role":"lyrics"},{"name":"深澤秀行","role":"composition"},{"name":"深澤秀行","role":"arrangement"}],"sourceMode":"explicit","sources":[{"url":"https://tbhx.net/music/","label":"動畫官方MUSIC：本曲原名、Vocal、角色篇劇中歌及創作名單","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://en.wikipedia.org/wiki/To_Be_Hero_X","label":"本作逐曲資料：曲名、演唱與劇中歌交叉核對","role":"cross_check","language":"en","verifiedAt":"2026-10-30"},{"url":"https://ja.wikipedia.org/wiki/TO_BE_HERO_X","label":"本作逐曲資料：曲名、演唱與劇中歌交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/","label":"曲名與Vocal輔助核對（商品曲表，不作動畫用途證據）","role":"cross_check","language":"ja","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","targetId":"to-be-hero-x-in-7-song","fields":["title","artist"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-7","fields":["usage"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-7-song","fields":["title","artist"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-7","fields":["usage"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-7-song","fields":["title","artist"],"sourceUrls":["https://ja.wikipedia.org/wiki/TO_BE_HERO_X"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-7","fields":["usage"],"sourceUrls":["https://ja.wikipedia.org/wiki/TO_BE_HERO_X"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-7-song","fields":["title","artist"],"sourceUrls":["https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/"],"verifiedAt":"2026-10-30"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"}],"lastVerifiedAt":"2026-10-30","followUp":[{"fields":["use_quarters"],"note":"動畫官方明示角色篇劇中歌，曲名、Vocal及IN用途的第一方與交叉證據已齊；同一日本TV版的精確採用季度未登記，保持未知，不由角色篇章、交叉集數、影片或發行日推定。","resumeWhen":"待同一日本TV版有日期的第一方逐曲採用說明／正式話數製作名單，並有交叉來源可對照時補用途季度；不以角色篇章、MV、CD或配信日推定。","checkedAt":"2026-10-30"},{"fields":["recordings","official_video","releases","platform_links"],"note":"同頁已明示的詞曲編已保存；正式音源版本、影片、發行品及平台關係未建立，保持未知。","resumeWhen":"詳細階段取得本曲官方音源版本／長度、確切影片、正式發行曲序及正版平台地區明示時，僅補相應欄位。","checkedAt":"2026-10-30"}]},{"type":"IN","sequence":8,"id":"to-be-hero-x-in-8","songId":"to-be-hero-x-in-8-song","titleJa":"Scar","artistDisplayName":"AK刘彰","usageLabel":"梁龍編 劇中歌","seasonIds":[],"credits":[{"name":"AK刘彰","role":"vocals"},{"name":"AK刘彰","role":"lyrics"},{"name":"DAIKI (AWSM.)","role":"composition"},{"name":"DAIKI (AWSM.)","role":"arrangement"}],"sourceMode":"explicit","sources":[{"url":"https://tbhx.net/music/","label":"動畫官方MUSIC：本曲原名、Vocal、角色篇劇中歌及創作名單","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://en.wikipedia.org/wiki/To_Be_Hero_X","label":"本作逐曲資料：曲名、演唱與劇中歌交叉核對","role":"cross_check","language":"en","verifiedAt":"2026-10-30"},{"url":"https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/","label":"曲名與Vocal輔助核對（商品曲表，不作動畫用途證據）","role":"cross_check","language":"ja","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","targetId":"to-be-hero-x-in-8-song","fields":["title","artist"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-8","fields":["usage"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-8-song","fields":["title","artist"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-8","fields":["usage"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-8-song","fields":["title","artist"],"sourceUrls":["https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/"],"verifiedAt":"2026-10-30"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"}],"lastVerifiedAt":"2026-10-30","followUp":[{"fields":["use_quarters"],"note":"動畫官方明示角色篇劇中歌，曲名、Vocal及IN用途的第一方與交叉證據已齊；同一日本TV版的精確採用季度未登記，保持未知，不由角色篇章、交叉集數、影片或發行日推定。","resumeWhen":"待同一日本TV版有日期的第一方逐曲採用說明／正式話數製作名單，並有交叉來源可對照時補用途季度；不以角色篇章、MV、CD或配信日推定。","checkedAt":"2026-10-30"},{"fields":["recordings","official_video","releases","platform_links"],"note":"同頁已明示的詞曲編已保存；正式音源版本、影片、發行品及平台關係未建立，保持未知。","resumeWhen":"詳細階段取得本曲官方音源版本／長度、確切影片、正式發行曲序及正版平台地區明示時，僅補相應欄位。","checkedAt":"2026-10-30"}]},{"type":"IN","sequence":9,"id":"to-be-hero-x-in-9","songId":"to-be-hero-x-in-9-song","titleJa":"Queen of the stars","artistDisplayName":"R!N","usageLabel":"クイーン編 劇中歌","seasonIds":[],"credits":[{"name":"R!N","role":"vocals"},{"name":"R!N","role":"lyrics"},{"name":"髙田龍一（MONACA）","role":"composition"},{"name":"髙田龍一（MONACA）","role":"arrangement"}],"sourceMode":"explicit","sources":[{"url":"https://tbhx.net/music/","label":"動畫官方MUSIC：本曲原名、Vocal、角色篇劇中歌及創作名單","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://en.wikipedia.org/wiki/To_Be_Hero_X","label":"本作逐曲資料：曲名、演唱與劇中歌交叉核對","role":"cross_check","language":"en","verifiedAt":"2026-10-30"},{"url":"https://ja.wikipedia.org/wiki/TO_BE_HERO_X","label":"本作逐曲資料：曲名、演唱與劇中歌交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/","label":"曲名與Vocal輔助核對（商品曲表，不作動畫用途證據）","role":"cross_check","language":"ja","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","targetId":"to-be-hero-x-in-9-song","fields":["title","artist"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-9","fields":["usage"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-9-song","fields":["title","artist"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-9","fields":["usage"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-9-song","fields":["title","artist"],"sourceUrls":["https://ja.wikipedia.org/wiki/TO_BE_HERO_X"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-9","fields":["usage"],"sourceUrls":["https://ja.wikipedia.org/wiki/TO_BE_HERO_X"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-9-song","fields":["title","artist"],"sourceUrls":["https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/"],"verifiedAt":"2026-10-30"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"}],"lastVerifiedAt":"2026-10-30","followUp":[{"fields":["use_quarters"],"note":"動畫官方明示角色篇劇中歌，曲名、Vocal及IN用途的第一方與交叉證據已齊；同一日本TV版的精確採用季度未登記，保持未知，不由角色篇章、交叉集數、影片或發行日推定。","resumeWhen":"待同一日本TV版有日期的第一方逐曲採用說明／正式話數製作名單，並有交叉來源可對照時補用途季度；不以角色篇章、MV、CD或配信日推定。","checkedAt":"2026-10-30"},{"fields":["recordings","official_video","releases","platform_links"],"note":"同頁已明示的詞曲編已保存；正式音源版本、影片、發行品及平台關係未建立，保持未知。","resumeWhen":"詳細階段取得本曲官方音源版本／長度、確切影片、正式發行曲序及正版平台地區明示時，僅補相應欄位。","checkedAt":"2026-10-30"}]},{"type":"IN","sequence":10,"id":"to-be-hero-x-in-10","songId":"to-be-hero-x-in-10-song","titleJa":"New Type of Hero","artistDisplayName":"Chatterbox","usageLabel":"X編 劇中歌","seasonIds":[],"credits":[{"name":"Chatterbox","role":"vocals"},{"name":"Griff Clawson","role":"lyrics"},{"name":"Griff Clawson","role":"composition"},{"name":"Griff Clawson","role":"arrangement"}],"sourceMode":"explicit","sources":[{"url":"https://tbhx.net/music/","label":"動畫官方MUSIC：本曲原名、Vocal、角色篇劇中歌及創作名單","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://en.wikipedia.org/wiki/To_Be_Hero_X","label":"本作逐曲資料：曲名、演唱與劇中歌交叉核對","role":"cross_check","language":"en","verifiedAt":"2026-10-30"},{"url":"https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/","label":"曲名與Vocal輔助核對（商品曲表，不作動畫用途證據）","role":"cross_check","language":"ja","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","targetId":"to-be-hero-x-in-10-song","fields":["title","artist"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-10","fields":["usage"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-10-song","fields":["title","artist"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-10","fields":["usage"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-10-song","fields":["title","artist"],"sourceUrls":["https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/"],"verifiedAt":"2026-10-30"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"}],"lastVerifiedAt":"2026-10-30","followUp":[{"fields":["use_quarters"],"note":"動畫官方明示角色篇劇中歌，曲名、Vocal及IN用途的第一方與交叉證據已齊；同一日本TV版的精確採用季度未登記，保持未知，不由角色篇章、交叉集數、影片或發行日推定。","resumeWhen":"待同一日本TV版有日期的第一方逐曲採用說明／正式話數製作名單，並有交叉來源可對照時補用途季度；不以角色篇章、MV、CD或配信日推定。","checkedAt":"2026-10-30"},{"fields":["recordings","official_video","releases","platform_links"],"note":"同頁已明示的詞曲編已保存；正式音源版本、影片、發行品及平台關係未建立，保持未知。","resumeWhen":"詳細階段取得本曲官方音源版本／長度、確切影片、正式發行曲序及正版平台地區明示時，僅補相應欄位。","checkedAt":"2026-10-30"}]}]},
+  {"catalogKey":-405212,"id":"curated-bgm-405212","slug":"to-be-hero-x","seasonIds":["2025-spring","2025-summer"],"startDate":"2025-04-06","titleJa":"TO BE HERO X","editorialWeekday":7,"broadcastTimeJst":"09:30","broadcastLabel":"日本TV首播：2025-04-06 09:30（JST）；フジテレビ等每週日09:30–10:00，春夏播出","status":"finished","officialSiteUrl":"https://tbhx.net/","identifierSource":{"label":"Bangumi：同作識別（日本TV播出另由官方核對）","url":"https://bangumi.tv/subject/405212","language":"zh-Hans"},"sourceReferenceUrls":["https://acgsecrets.hk/bangumi/202504/","https://screenonline.jp/SCREEN_Plus/17789569"],"verifiedAt":"2026-10-30","metadataVerifiedAt":"2026-10-30","metadataSources":[{"url":"https://tbhx.net/","label":"動畫官方：日本TV身分、首播及同一24話系列","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://bangumi.tv/subject/405212","label":"Bangumi：同作識別、24話與日期（配信分類與日本TV分開）","role":"identifier","language":"zh-Hans","verifiedAt":"2026-10-30"},{"url":"https://acgsecrets.hk/bangumi/202504/","label":"本作TV身分、首播／最終話日期交叉核對","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-30"},{"url":"https://screenonline.jp/SCREEN_Plus/17789569","label":"本作TV身分、首播／最終話日期交叉核對","role":"broadcast_cross_check","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://tbhx.net/story/","label":"動畫官方：日本TV身分、首播及同一24話系列","role":"first_party","language":"ja","verifiedAt":"2026-10-30"}],"themes":[{"type":"OP","sequence":1,"id":"to-be-hero-x-op-1","songId":"to-be-hero-x-op-1-song","titleJa":"INERTIA","artistDisplayName":"SawanoHiroyuki[nZk]:Rei","seasonIds":["2025-spring"],"credits":[{"name":"SawanoHiroyuki[nZk]:Rei","role":"vocals"},{"name":"Benjamin","role":"lyrics"},{"name":"澤野弘之","role":"composition"},{"name":"澤野弘之","role":"arrangement"}],"sourceMode":"explicit","sources":[
+  {
+    "url": "https://tbhx.net/music/",
+    "label": "動畫官方MUSIC：本曲原名、演唱、OP／ED與創作名單",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-30"
+  },
+  {
+    "url": "https://acgsecrets.hk/bangumi/202504/",
+    "label": "ACG Secrets：本作春季曲名、演唱及OP／ED交叉核對",
+    "role": "cross_check",
+    "language": "zh-Hant",
+    "verifiedAt": "2026-10-30"
+  },
+  {
+    "url": "https://www.mau2.com/anime/tobeherox/ep/16",
+    "label": "mau2第16話：兩曲OP／ED及所列2025/7/20公開日交叉；原TV夏季第一方仍待核",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-11-05"
+  }
+],"evidence":[{"target":"song","targetId":"to-be-hero-x-op-1-song","fields":["title","artist"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-op-1","fields":["usage"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-op-1-song","fields":["title","artist"],"sourceUrls":["https://acgsecrets.hk/bangumi/202504/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-op-1","fields":["usage"],"sourceUrls":["https://acgsecrets.hk/bangumi/202504/"],"verifiedAt":"2026-10-30"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"}],"lastVerifiedAt":"2026-11-05","followUp":[{"fields":["use_quarters"],"note":"本期春季OP／ED基本證據保持。新逐話交叉mau2第16話「良薬」列本曲及2025/7/20公開日；同一原TV夏季話數的第一方用曲正文仍缺，不能以交叉日期、24話跨季、MV或新版片頭推定夏季用途。本輪兩次定向查找後保留春季。","resumeWhen":"待新可普通讀取的本版夏季具體話數第一方逐曲署名／用曲公告，再與已存第16話交叉核對；不重搜已齊基本或已封頂ver.X，不繞ABEMA地域限制。","checkedAt":"2026-11-05"},{"fields":["recordings","official_video","releases","platform_links"],"note":"基本曲名、演唱名義及用途兩類證據已齊，同頁詞曲編已保存；正式音源、影片、發行品與平台關係未建立，保持未知。","resumeWhen":"詳細階段取得本曲官方音源版本／長度、確切影片、正式發行曲序與正版平台地區明示時，僅補相應欄位。","checkedAt":"2026-10-30"}]},{"type":"ED","sequence":1,"id":"to-be-hero-x-ed-1","songId":"to-be-hero-x-ed-1-song","titleJa":"KONTINUUM","artistDisplayName":"SennaRin","seasonIds":["2025-spring"],"credits":[{"name":"SennaRin","role":"vocals"},{"name":"Benjamin","role":"lyrics"},{"name":"澤野弘之","role":"composition"},{"name":"澤野弘之","role":"arrangement"}],"sourceMode":"explicit","sources":[
+  {
+    "url": "https://tbhx.net/music/",
+    "label": "動畫官方MUSIC：本曲原名、演唱、OP／ED與創作名單",
+    "role": "first_party",
+    "language": "ja",
+    "verifiedAt": "2026-10-30"
+  },
+  {
+    "url": "https://acgsecrets.hk/bangumi/202504/",
+    "label": "ACG Secrets：本作春季曲名、演唱及OP／ED交叉核對",
+    "role": "cross_check",
+    "language": "zh-Hant",
+    "verifiedAt": "2026-10-30"
+  },
+  {
+    "url": "https://www.mau2.com/anime/tobeherox/ep/16",
+    "label": "mau2第16話：兩曲OP／ED及所列2025/7/20公開日交叉；原TV夏季第一方仍待核",
+    "role": "cross_check",
+    "language": "ja",
+    "verifiedAt": "2026-11-05"
+  }
+],"evidence":[{"target":"song","targetId":"to-be-hero-x-ed-1-song","fields":["title","artist"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-ed-1","fields":["usage"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-ed-1-song","fields":["title","artist"],"sourceUrls":["https://acgsecrets.hk/bangumi/202504/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-ed-1","fields":["usage"],"sourceUrls":["https://acgsecrets.hk/bangumi/202504/"],"verifiedAt":"2026-10-30"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"}],"lastVerifiedAt":"2026-11-05","followUp":[{"fields":["use_quarters"],"note":"本期春季OP／ED基本證據保持。新逐話交叉mau2第16話「良薬」列本曲及2025/7/20公開日；同一原TV夏季話數的第一方用曲正文仍缺，不能以交叉日期、24話跨季、MV或新版片頭推定夏季用途。本輪兩次定向查找後保留春季。","resumeWhen":"待新可普通讀取的本版夏季具體話數第一方逐曲署名／用曲公告，再與已存第16話交叉核對；不重搜已齊基本或已封頂ver.X，不繞ABEMA地域限制。","checkedAt":"2026-11-05"},{"fields":["recordings","official_video","releases","platform_links"],"note":"基本曲名、演唱名義及用途兩類證據已齊，同頁詞曲編已保存；正式音源、影片、發行品與平台關係未建立，保持未知。","resumeWhen":"詳細階段取得本曲官方音源版本／長度、確切影片、正式發行曲序與正版平台地區明示時，僅補相應欄位。","checkedAt":"2026-10-30"}]},{"type":"IN","sequence":1,"id":"to-be-hero-x-in-1","songId":"to-be-hero-x-in-1-song","titleJa":"PARAGON","artistDisplayName":"Benjamin & mpi","usageLabel":"ナイス編 劇中歌","seasonIds":[],"credits":[{"name":"Benjamin & mpi","role":"vocals"},{"name":"Benjamin","role":"lyrics"},{"name":"澤野弘之","role":"composition"},{"name":"澤野弘之","role":"arrangement"}],"sourceMode":"explicit","sources":[{"url":"https://tbhx.net/music/","label":"動畫官方MUSIC：本曲原名、Vocal、角色篇劇中歌及創作名單","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://en.wikipedia.org/wiki/To_Be_Hero_X","label":"本作逐曲資料：曲名、演唱與劇中歌交叉核對","role":"cross_check","language":"en","verifiedAt":"2026-10-30"},{"url":"https://ja.wikipedia.org/wiki/TO_BE_HERO_X","label":"本作逐曲資料：曲名、演唱與劇中歌交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/","label":"曲名與Vocal輔助核對（商品曲表，不作動畫用途證據）","role":"cross_check","language":"ja","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","targetId":"to-be-hero-x-in-1-song","fields":["title","artist"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-1","fields":["usage"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-1-song","fields":["title","artist"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-1","fields":["usage"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-1-song","fields":["title","artist"],"sourceUrls":["https://ja.wikipedia.org/wiki/TO_BE_HERO_X"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-1","fields":["usage"],"sourceUrls":["https://ja.wikipedia.org/wiki/TO_BE_HERO_X"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-1-song","fields":["title","artist"],"sourceUrls":["https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/"],"verifiedAt":"2026-10-30"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"}],"lastVerifiedAt":"2026-10-30","followUp":[{"fields":["use_quarters"],"note":"動畫官方明示角色篇劇中歌，曲名、Vocal及IN用途的第一方與交叉證據已齊；同一日本TV版的精確採用季度未登記，保持未知，不由角色篇章、交叉集數、影片或發行日推定。","resumeWhen":"待同一日本TV版有日期的第一方逐曲採用說明／正式話數製作名單，並有交叉來源可對照時補用途季度；不以角色篇章、MV、CD或配信日推定。","checkedAt":"2026-10-30"},{"fields":["recordings","official_video","releases","platform_links"],"note":"同頁已明示的詞曲編已保存；正式音源版本、影片、發行品及平台關係未建立，保持未知。","resumeWhen":"詳細階段取得本曲官方音源版本／長度、確切影片、正式發行曲序及正版平台地區明示時，僅補相應欄位。","checkedAt":"2026-10-30"}]},{"type":"IN","sequence":2,"id":"to-be-hero-x-in-2","songId":"to-be-hero-x-in-2-song","titleJa":"NEON RAIN","artistDisplayName":"Eliana","usageLabel":"魂電編 劇中歌","seasonIds":[],"credits":[{"name":"Eliana","role":"vocals"},{"name":"Benjamin","role":"lyrics"},{"name":"ケンモチヒデフミ","role":"composition"},{"name":"ケンモチヒデフミ","role":"arrangement"},{"name":"馬瀬みさき","role":"other"}],"sourceMode":"explicit","sources":[{"url":"https://tbhx.net/music/","label":"動畫官方MUSIC：本曲原名、Vocal、角色篇劇中歌及創作名單","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://en.wikipedia.org/wiki/To_Be_Hero_X","label":"本作逐曲資料：曲名、演唱與劇中歌交叉核對","role":"cross_check","language":"en","verifiedAt":"2026-10-30"},{"url":"https://ja.wikipedia.org/wiki/TO_BE_HERO_X","label":"本作逐曲資料：曲名、演唱與劇中歌交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/","label":"曲名與Vocal輔助核對（商品曲表，不作動畫用途證據）","role":"cross_check","language":"ja","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","targetId":"to-be-hero-x-in-2-song","fields":["title","artist"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-2","fields":["usage"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-2-song","fields":["title","artist"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-2","fields":["usage"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-2-song","fields":["title","artist"],"sourceUrls":["https://ja.wikipedia.org/wiki/TO_BE_HERO_X"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-2","fields":["usage"],"sourceUrls":["https://ja.wikipedia.org/wiki/TO_BE_HERO_X"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-2-song","fields":["title","artist"],"sourceUrls":["https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/"],"verifiedAt":"2026-10-30"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"}],"lastVerifiedAt":"2026-10-30","followUp":[{"fields":["use_quarters"],"note":"動畫官方明示角色篇劇中歌，曲名、Vocal及IN用途的第一方與交叉證據已齊；同一日本TV版的精確採用季度未登記，保持未知，不由角色篇章、交叉集數、影片或發行日推定。","resumeWhen":"待同一日本TV版有日期的第一方逐曲採用說明／正式話數製作名單，並有交叉來源可對照時補用途季度；不以角色篇章、MV、CD或配信日推定。","checkedAt":"2026-10-30"},{"fields":["recordings","official_video","releases","platform_links"],"note":"本曲官網另明示管弦編曲馬瀬みさき，另列其他名單；主要編曲為ケンモチヒデフミ。同頁已明示的詞曲編已保存；正式音源版本、影片、發行品及平台關係未建立，保持未知。","resumeWhen":"詳細階段取得本曲官方音源版本／長度、確切影片、正式發行曲序及正版平台地區明示時，僅補相應欄位。","checkedAt":"2026-10-30"}]},{"type":"IN","sequence":3,"id":"to-be-hero-x-in-3","songId":"to-be-hero-x-in-3-song","titleJa":"SPARX","artistDisplayName":"Robert Taira Wilson","usageLabel":"トラ編 劇中歌","seasonIds":[],"credits":[{"name":"Robert Taira Wilson","role":"vocals"},{"name":"Benjamin","role":"lyrics"},{"name":"KOHTA YAMAMOTO","role":"composition"},{"name":"KOHTA YAMAMOTO","role":"arrangement"}],"sourceMode":"explicit","sources":[{"url":"https://tbhx.net/music/","label":"動畫官方MUSIC：本曲原名、Vocal、角色篇劇中歌及創作名單","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://en.wikipedia.org/wiki/To_Be_Hero_X","label":"本作逐曲資料：曲名、演唱與劇中歌交叉核對","role":"cross_check","language":"en","verifiedAt":"2026-10-30"},{"url":"https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/","label":"曲名與Vocal輔助核對（商品曲表，不作動畫用途證據）","role":"cross_check","language":"ja","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","targetId":"to-be-hero-x-in-3-song","fields":["title","artist"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-3","fields":["usage"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-3-song","fields":["title","artist"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-3","fields":["usage"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-3-song","fields":["title","artist"],"sourceUrls":["https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/"],"verifiedAt":"2026-10-30"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"}],"lastVerifiedAt":"2026-10-30","followUp":[{"fields":["use_quarters"],"note":"動畫官方明示角色篇劇中歌，曲名、Vocal及IN用途的第一方與交叉證據已齊；同一日本TV版的精確採用季度未登記，保持未知，不由角色篇章、交叉集數、影片或發行日推定。","resumeWhen":"待同一日本TV版有日期的第一方逐曲採用說明／正式話數製作名單，並有交叉來源可對照時補用途季度；不以角色篇章、MV、CD或配信日推定。","checkedAt":"2026-10-30"},{"fields":["recordings","official_video","releases","platform_links"],"note":"同頁已明示的詞曲編已保存；正式音源版本、影片、發行品及平台關係未建立，保持未知。","resumeWhen":"詳細階段取得本曲官方音源版本／長度、確切影片、正式發行曲序及正版平台地區明示時，僅補相應欄位。","checkedAt":"2026-10-30"}]},{"type":"IN","sequence":4,"id":"to-be-hero-x-in-4","songId":"to-be-hero-x-in-4-song","titleJa":"Take Off","artistDisplayName":"Lucky Cyan","usageLabel":"ラッキーシアン編 劇中歌","seasonIds":[],"credits":[{"name":"Lucky Cyan","role":"vocals"},{"name":"Shown","role":"lyrics"},{"name":"DAIKI (AWSM.)","role":"composition"},{"name":"DAIKI (AWSM.)","role":"arrangement"}],"sourceMode":"explicit","sources":[{"url":"https://tbhx.net/music/","label":"動畫官方MUSIC：本曲原名、Vocal、角色篇劇中歌及創作名單","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://en.wikipedia.org/wiki/To_Be_Hero_X","label":"本作逐曲資料：曲名、演唱與劇中歌交叉核對","role":"cross_check","language":"en","verifiedAt":"2026-10-30"},{"url":"https://ja.wikipedia.org/wiki/TO_BE_HERO_X","label":"本作逐曲資料：曲名、演唱與劇中歌交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/","label":"曲名與Vocal輔助核對（商品曲表，不作動畫用途證據）","role":"cross_check","language":"ja","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","targetId":"to-be-hero-x-in-4-song","fields":["title","artist"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-4","fields":["usage"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-4-song","fields":["title","artist"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-4","fields":["usage"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-4-song","fields":["title","artist"],"sourceUrls":["https://ja.wikipedia.org/wiki/TO_BE_HERO_X"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-4","fields":["usage"],"sourceUrls":["https://ja.wikipedia.org/wiki/TO_BE_HERO_X"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-4-song","fields":["title","artist"],"sourceUrls":["https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/"],"verifiedAt":"2026-10-30"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"}],"lastVerifiedAt":"2026-10-30","followUp":[{"fields":["use_quarters"],"note":"動畫官方明示角色篇劇中歌，曲名、Vocal及IN用途的第一方與交叉證據已齊；同一日本TV版的精確採用季度未登記，保持未知，不由角色篇章、交叉集數、影片或發行日推定。","resumeWhen":"待同一日本TV版有日期的第一方逐曲採用說明／正式話數製作名單，並有交叉來源可對照時補用途季度；不以角色篇章、MV、CD或配信日推定。","checkedAt":"2026-10-30"},{"fields":["recordings","official_video","releases","platform_links"],"note":"同頁已明示的詞曲編已保存；正式音源版本、影片、發行品及平台關係未建立，保持未知。","resumeWhen":"詳細階段取得本曲官方音源版本／長度、確切影片、正式發行曲序及正版平台地區明示時，僅補相應欄位。","checkedAt":"2026-10-30"}]},{"type":"IN","sequence":5,"id":"to-be-hero-x-in-5","songId":"to-be-hero-x-in-5-song","titleJa":"Candy Mountain","artistDisplayName":"國土佳音","usageLabel":"ロリ編 劇中歌","seasonIds":[],"credits":[{"name":"國土佳音","role":"vocals"},{"name":"nikiie","role":"lyrics"},{"name":"睦月周平","role":"composition"},{"name":"睦月周平","role":"arrangement"}],"sourceMode":"explicit","sources":[{"url":"https://tbhx.net/music/","label":"動畫官方MUSIC：本曲原名、Vocal、角色篇劇中歌及創作名單","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://en.wikipedia.org/wiki/To_Be_Hero_X","label":"本作逐曲資料：曲名、演唱與劇中歌交叉核對","role":"cross_check","language":"en","verifiedAt":"2026-10-30"},{"url":"https://ja.wikipedia.org/wiki/TO_BE_HERO_X","label":"本作逐曲資料：曲名、演唱與劇中歌交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/","label":"曲名與Vocal輔助核對（商品曲表，不作動畫用途證據）","role":"cross_check","language":"ja","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","targetId":"to-be-hero-x-in-5-song","fields":["title","artist"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-5","fields":["usage"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-5-song","fields":["title","artist"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-5","fields":["usage"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-5-song","fields":["title","artist"],"sourceUrls":["https://ja.wikipedia.org/wiki/TO_BE_HERO_X"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-5","fields":["usage"],"sourceUrls":["https://ja.wikipedia.org/wiki/TO_BE_HERO_X"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-5-song","fields":["title","artist"],"sourceUrls":["https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/"],"verifiedAt":"2026-10-30"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"}],"lastVerifiedAt":"2026-10-30","followUp":[{"fields":["use_quarters"],"note":"動畫官方明示角色篇劇中歌，曲名、Vocal及IN用途的第一方與交叉證據已齊；同一日本TV版的精確採用季度未登記，保持未知，不由角色篇章、交叉集數、影片或發行日推定。","resumeWhen":"待同一日本TV版有日期的第一方逐曲採用說明／正式話數製作名單，並有交叉來源可對照時補用途季度；不以角色篇章、MV、CD或配信日推定。","checkedAt":"2026-10-30"},{"fields":["recordings","official_video","releases","platform_links"],"note":"同頁已明示的詞曲編已保存；正式音源版本、影片、發行品及平台關係未建立，保持未知。","resumeWhen":"詳細階段取得本曲官方音源版本／長度、確切影片、正式發行曲序及正版平台地區明示時，僅補相應欄位。","checkedAt":"2026-10-30"}]},{"type":"IN","sequence":6,"id":"to-be-hero-x-in-6","songId":"to-be-hero-x-in-6-song","titleJa":"growL","artistDisplayName":"J.Rio","usageLabel":"リトルジョニー&ビッグジョニー編 劇中歌","seasonIds":[],"credits":[{"name":"J.Rio","role":"vocals"},{"name":"cAnON.","role":"lyrics"},{"name":"馬瀬みさき","role":"composition"},{"name":"馬瀬みさき","role":"arrangement"}],"sourceMode":"explicit","sources":[{"url":"https://tbhx.net/music/","label":"動畫官方MUSIC：本曲原名、Vocal、角色篇劇中歌及創作名單","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://en.wikipedia.org/wiki/To_Be_Hero_X","label":"本作逐曲資料：曲名、演唱與劇中歌交叉核對","role":"cross_check","language":"en","verifiedAt":"2026-10-30"},{"url":"https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/","label":"曲名與Vocal輔助核對（商品曲表，不作動畫用途證據）","role":"cross_check","language":"ja","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","targetId":"to-be-hero-x-in-6-song","fields":["title","artist"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-6","fields":["usage"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-6-song","fields":["title","artist"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-6","fields":["usage"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-6-song","fields":["title","artist"],"sourceUrls":["https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/"],"verifiedAt":"2026-10-30"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"}],"lastVerifiedAt":"2026-10-30","followUp":[{"fields":["use_quarters"],"note":"動畫官方明示角色篇劇中歌，曲名、Vocal及IN用途的第一方與交叉證據已齊；同一日本TV版的精確採用季度未登記，保持未知，不由角色篇章、交叉集數、影片或發行日推定。","resumeWhen":"待同一日本TV版有日期的第一方逐曲採用說明／正式話數製作名單，並有交叉來源可對照時補用途季度；不以角色篇章、MV、CD或配信日推定。","checkedAt":"2026-10-30"},{"fields":["recordings","official_video","releases","platform_links"],"note":"同頁已明示的詞曲編已保存；正式音源版本、影片、發行品及平台關係未建立，保持未知。","resumeWhen":"詳細階段取得本曲官方音源版本／長度、確切影片、正式發行曲序及正版平台地區明示時，僅補相應欄位。","checkedAt":"2026-10-30"}]},{"type":"IN","sequence":7,"id":"to-be-hero-x-in-7","songId":"to-be-hero-x-in-7-song","titleJa":"Because of you","artistDisplayName":"Kris Roche","usageLabel":"黙殺編 劇中歌","seasonIds":[],"credits":[{"name":"Kris Roche","role":"vocals"},{"name":"深澤秀行","role":"lyrics"},{"name":"Kris Roche","role":"lyrics"},{"name":"深澤秀行","role":"composition"},{"name":"深澤秀行","role":"arrangement"}],"sourceMode":"explicit","sources":[{"url":"https://tbhx.net/music/","label":"動畫官方MUSIC：本曲原名、Vocal、角色篇劇中歌及創作名單","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://en.wikipedia.org/wiki/To_Be_Hero_X","label":"本作逐曲資料：曲名、演唱與劇中歌交叉核對","role":"cross_check","language":"en","verifiedAt":"2026-10-30"},{"url":"https://ja.wikipedia.org/wiki/TO_BE_HERO_X","label":"本作逐曲資料：曲名、演唱與劇中歌交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/","label":"曲名與Vocal輔助核對（商品曲表，不作動畫用途證據）","role":"cross_check","language":"ja","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","targetId":"to-be-hero-x-in-7-song","fields":["title","artist"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-7","fields":["usage"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-7-song","fields":["title","artist"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-7","fields":["usage"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-7-song","fields":["title","artist"],"sourceUrls":["https://ja.wikipedia.org/wiki/TO_BE_HERO_X"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-7","fields":["usage"],"sourceUrls":["https://ja.wikipedia.org/wiki/TO_BE_HERO_X"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-7-song","fields":["title","artist"],"sourceUrls":["https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/"],"verifiedAt":"2026-10-30"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"}],"lastVerifiedAt":"2026-10-30","followUp":[{"fields":["use_quarters"],"note":"動畫官方明示角色篇劇中歌，曲名、Vocal及IN用途的第一方與交叉證據已齊；同一日本TV版的精確採用季度未登記，保持未知，不由角色篇章、交叉集數、影片或發行日推定。","resumeWhen":"待同一日本TV版有日期的第一方逐曲採用說明／正式話數製作名單，並有交叉來源可對照時補用途季度；不以角色篇章、MV、CD或配信日推定。","checkedAt":"2026-10-30"},{"fields":["recordings","official_video","releases","platform_links"],"note":"同頁已明示的詞曲編已保存；正式音源版本、影片、發行品及平台關係未建立，保持未知。","resumeWhen":"詳細階段取得本曲官方音源版本／長度、確切影片、正式發行曲序及正版平台地區明示時，僅補相應欄位。","checkedAt":"2026-10-30"}]},{"type":"IN","sequence":8,"id":"to-be-hero-x-in-8","songId":"to-be-hero-x-in-8-song","titleJa":"Scar","artistDisplayName":"AK刘彰","usageLabel":"梁龍編 劇中歌","seasonIds":[],"credits":[{"name":"AK刘彰","role":"vocals"},{"name":"AK刘彰","role":"lyrics"},{"name":"DAIKI (AWSM.)","role":"composition"},{"name":"DAIKI (AWSM.)","role":"arrangement"}],"sourceMode":"explicit","sources":[{"url":"https://tbhx.net/music/","label":"動畫官方MUSIC：本曲原名、Vocal、角色篇劇中歌及創作名單","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://en.wikipedia.org/wiki/To_Be_Hero_X","label":"本作逐曲資料：曲名、演唱與劇中歌交叉核對","role":"cross_check","language":"en","verifiedAt":"2026-10-30"},{"url":"https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/","label":"曲名與Vocal輔助核對（商品曲表，不作動畫用途證據）","role":"cross_check","language":"ja","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","targetId":"to-be-hero-x-in-8-song","fields":["title","artist"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-8","fields":["usage"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-8-song","fields":["title","artist"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-8","fields":["usage"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-8-song","fields":["title","artist"],"sourceUrls":["https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/"],"verifiedAt":"2026-10-30"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"}],"lastVerifiedAt":"2026-10-30","followUp":[{"fields":["use_quarters"],"note":"動畫官方明示角色篇劇中歌，曲名、Vocal及IN用途的第一方與交叉證據已齊；同一日本TV版的精確採用季度未登記，保持未知，不由角色篇章、交叉集數、影片或發行日推定。","resumeWhen":"待同一日本TV版有日期的第一方逐曲採用說明／正式話數製作名單，並有交叉來源可對照時補用途季度；不以角色篇章、MV、CD或配信日推定。","checkedAt":"2026-10-30"},{"fields":["recordings","official_video","releases","platform_links"],"note":"同頁已明示的詞曲編已保存；正式音源版本、影片、發行品及平台關係未建立，保持未知。","resumeWhen":"詳細階段取得本曲官方音源版本／長度、確切影片、正式發行曲序及正版平台地區明示時，僅補相應欄位。","checkedAt":"2026-10-30"}]},{"type":"IN","sequence":9,"id":"to-be-hero-x-in-9","songId":"to-be-hero-x-in-9-song","titleJa":"Queen of the stars","artistDisplayName":"R!N","usageLabel":"クイーン編 劇中歌","seasonIds":[],"credits":[{"name":"R!N","role":"vocals"},{"name":"R!N","role":"lyrics"},{"name":"髙田龍一（MONACA）","role":"composition"},{"name":"髙田龍一（MONACA）","role":"arrangement"}],"sourceMode":"explicit","sources":[{"url":"https://tbhx.net/music/","label":"動畫官方MUSIC：本曲原名、Vocal、角色篇劇中歌及創作名單","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://en.wikipedia.org/wiki/To_Be_Hero_X","label":"本作逐曲資料：曲名、演唱與劇中歌交叉核對","role":"cross_check","language":"en","verifiedAt":"2026-10-30"},{"url":"https://ja.wikipedia.org/wiki/TO_BE_HERO_X","label":"本作逐曲資料：曲名、演唱與劇中歌交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/","label":"曲名與Vocal輔助核對（商品曲表，不作動畫用途證據）","role":"cross_check","language":"ja","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","targetId":"to-be-hero-x-in-9-song","fields":["title","artist"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-9","fields":["usage"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-9-song","fields":["title","artist"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-9","fields":["usage"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-9-song","fields":["title","artist"],"sourceUrls":["https://ja.wikipedia.org/wiki/TO_BE_HERO_X"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-9","fields":["usage"],"sourceUrls":["https://ja.wikipedia.org/wiki/TO_BE_HERO_X"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-9-song","fields":["title","artist"],"sourceUrls":["https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/"],"verifiedAt":"2026-10-30"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"}],"lastVerifiedAt":"2026-10-30","followUp":[{"fields":["use_quarters"],"note":"動畫官方明示角色篇劇中歌，曲名、Vocal及IN用途的第一方與交叉證據已齊；同一日本TV版的精確採用季度未登記，保持未知，不由角色篇章、交叉集數、影片或發行日推定。","resumeWhen":"待同一日本TV版有日期的第一方逐曲採用說明／正式話數製作名單，並有交叉來源可對照時補用途季度；不以角色篇章、MV、CD或配信日推定。","checkedAt":"2026-10-30"},{"fields":["recordings","official_video","releases","platform_links"],"note":"同頁已明示的詞曲編已保存；正式音源版本、影片、發行品及平台關係未建立，保持未知。","resumeWhen":"詳細階段取得本曲官方音源版本／長度、確切影片、正式發行曲序及正版平台地區明示時，僅補相應欄位。","checkedAt":"2026-10-30"}]},{"type":"IN","sequence":10,"id":"to-be-hero-x-in-10","songId":"to-be-hero-x-in-10-song","titleJa":"New Type of Hero","artistDisplayName":"Chatterbox","usageLabel":"X編 劇中歌","seasonIds":[],"credits":[{"name":"Chatterbox","role":"vocals"},{"name":"Griff Clawson","role":"lyrics"},{"name":"Griff Clawson","role":"composition"},{"name":"Griff Clawson","role":"arrangement"}],"sourceMode":"explicit","sources":[{"url":"https://tbhx.net/music/","label":"動畫官方MUSIC：本曲原名、Vocal、角色篇劇中歌及創作名單","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://en.wikipedia.org/wiki/To_Be_Hero_X","label":"本作逐曲資料：曲名、演唱與劇中歌交叉核對","role":"cross_check","language":"en","verifiedAt":"2026-10-30"},{"url":"https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/","label":"曲名與Vocal輔助核對（商品曲表，不作動畫用途證據）","role":"cross_check","language":"ja","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","targetId":"to-be-hero-x-in-10-song","fields":["title","artist"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-10","fields":["usage"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-10-song","fields":["title","artist"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"to-be-hero-x-in-10","fields":["usage"],"sourceUrls":["https://en.wikipedia.org/wiki/To_Be_Hero_X"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"to-be-hero-x-in-10-song","fields":["title","artist"],"sourceUrls":["https://hiroyukisawano-fansite.com/to-be-hero-x-song-collection-ost/"],"verifiedAt":"2026-10-30"},{"target":"credits","fields":["credits"],"sourceUrls":["https://tbhx.net/music/"],"verifiedAt":"2026-10-30"}],"lastVerifiedAt":"2026-10-30","followUp":[{"fields":["use_quarters"],"note":"動畫官方明示角色篇劇中歌，曲名、Vocal及IN用途的第一方與交叉證據已齊；同一日本TV版的精確採用季度未登記，保持未知，不由角色篇章、交叉集數、影片或發行日推定。","resumeWhen":"待同一日本TV版有日期的第一方逐曲採用說明／正式話數製作名單，並有交叉來源可對照時補用途季度；不以角色篇章、MV、CD或配信日推定。","checkedAt":"2026-10-30"},{"fields":["recordings","official_video","releases","platform_links"],"note":"同頁已明示的詞曲編已保存；正式音源版本、影片、發行品及平台關係未建立，保持未知。","resumeWhen":"詳細階段取得本曲官方音源版本／長度、確切影片、正式發行曲序及正版平台地區明示時，僅補相應欄位。","checkedAt":"2026-10-30"}]}]},
 ];
 
 export const curated2025SpringAnimeIds = [183133, 143598, 178701, 188668, 167142, 177633, 179965, 184279, 189513, 166373, 175872, 179694, 183161, 183275, 188394, 189716, 153554, 178680, 181078, 184989, 186313, 186522, 187998, 188884, 143337, 149118, 177476, 178046, 179054, 179955, 182814, 184289, 184639, 185259, 185584, 185645, 185715, 167336, 178052, 178825, 180367, 180516, 180825, 181182, 182060, 183274, 184470, 185646, 185718, 188661, 189891, 143200, 165445, 177509, 179979, 180829, 182419, 185736, 189832, 158287, 174802, 188131, 193242, 166371, 180675, 184182, 185213, 150654, 177120, 185070, 176702, 176246, 178781, 185939, 189602, 179706, 186151, 193413, 191689, 185778, 213459, 185073, 158871, 142274, 165159, 8687, 966, 6149, 176301, 167742, 173333, 180812, -405212];
