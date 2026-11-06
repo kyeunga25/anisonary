@@ -1007,7 +1007,106 @@ export const curated2022SpringSeeds: CuratedAnimeSeed[] = [
   {"anilistId":174125,"id":"curated-174125","slug":"gugumi-chan","seasonIds":["2022-spring"],"startDate":"2022-05-25","titleJa":"ググミちゃん","titleZhHant":"Gugumi-chan","titleRomaji":"Gugumi-chan","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx174125-voouKzH0JGsG.png","editorialWeekday":3,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://www.mysta.tv/gugumichan/","anilistUrl":"https://anilist.co/anime/174125","imageSourceUrl":"https://anilist.co/anime/174125","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/9433"],"themes":[],"verifiedAt":"2026-09-01"},
   {"anilistId":154173,"id":"curated-154173","slug":"nanamental","seasonIds":["2022-spring"],"startDate":"2022-05-30","titleJa":"ナナメンタル","titleZhHant":"Nanamental","titleRomaji":"Nanamental","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154173-4jfVyk9Rg7P5.jpg","editorialWeekday":1,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://x.com/_nanamental_","anilistUrl":"https://anilist.co/anime/154173","imageSourceUrl":"https://anilist.co/anime/154173","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2022-spring?display=list_detailed"],"themes":[],"verifiedAt":"2026-09-01"},
   {"anilistId":150583,"id":"curated-150583","slug":"yofukashi-no-uta-mini","seasonIds":["2022-spring"],"startDate":"2022-06-06","titleJa":"よふかしのうた ミニ","titleZhHant":"徹夜之歌 迷你動畫","titleRomaji":"Yofukashi no Uta Mini","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx150583-UkGu1k8ecpUr.png","editorialWeekday":1,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://yofukashi-no-uta.com/1st/","anilistUrl":"https://anilist.co/anime/150583","imageSourceUrl":"https://anilist.co/anime/150583","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/9694"],"themes":[],"verifiedAt":"2026-09-01"},
-  {"anilistId":108353,"id":"curated-108353","slug":"spriggan-2022","seasonIds":["2022-spring"],"startDate":"2022-06-18","titleJa":"スプリガン (ONA)","titleZhHant":"轟天高校生","titleRomaji":"SPRIGGAN (ONA)","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108353-f43dOeHJ84r4.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/108353-xmcJGLygTB0I.jpg","editorialWeekday":6,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://spriggan-anime.jp/","anilistUrl":"https://anilist.co/anime/108353","imageSourceUrl":"https://anilist.co/anime/108353","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://youranimes.tw/animes/720"],"animeThemesUrl":"https://animethemes.moe/anime/spriggan_2022","themes":[{"type":"OP","sequence":1,"titleJa":"Seeking the Truth feat. YAHZARAH","artistDisplayName":"岩崎太整 feat. YAHZARAH"},{"type":"ED","sequence":1,"titleJa":"Ancient Creations feat. Shing02","artistDisplayName":"岩崎太整 feat. Shing02"}],"verifiedAt":"2026-09-01"},
+  {
+  "anilistId": 108353,
+  "id": "curated-108353",
+  "slug": "spriggan-2022",
+  "seasonIds": [
+    "2022-spring"
+  ],
+  "startDate": "2022-06-18",
+  "titleJa": "スプリガン (ONA)",
+  "titleZhHant": "轟天高校生",
+  "titleRomaji": "SPRIGGAN (ONA)",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108353-f43dOeHJ84r4.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108353-xmcJGLygTB0I.jpg",
+  "editorialWeekday": 6,
+  "broadcastLabel": "WEB先行：Netflix於2022-06-18配信；TV分割版於2023-07-07（金）25:05起MX播出（曆日7/8）。官方TV集序全12話，與Netflix版另分；同TV版單話片長尚未核對。",
+  "status": "finished",
+  "officialSiteUrl": "https://spriggan-anime.jp/",
+  "anilistUrl": "https://anilist.co/anime/108353",
+  "imageSourceUrl": "https://anilist.co/anime/108353",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/720"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/spriggan_2022",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "Seeking the Truth feat. YAHZARAH",
+      "artistDisplayName": "岩崎太整 feat. YAHZARAH"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "Ancient Creations feat. Shing02",
+      "artistDisplayName": "岩崎太整 feat. Shing02"
+    }
+  ],
+  "verifiedAt": "2026-09-01",
+  "metadataVerifiedAt": "2026-11-05",
+  "metadataSources": [
+    {
+      "label": "動畫官方網站：作品與播出資料",
+      "url": "https://spriggan-anime.jp/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-09-01"
+    },
+    {
+      "label": "AniList：作品識別與公開圖像",
+      "url": "https://anilist.co/anime/108353",
+      "language": "en",
+      "role": "identifier",
+      "verifiedAt": "2026-09-01"
+    },
+    {
+      "label": "繁體中文季度列表交叉對照",
+      "url": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+      "language": "zh-Hant",
+      "role": "localized_cross_check",
+      "verifiedAt": "2026-09-01"
+    },
+    {
+      "label": "AnimeThemes：OP／ED 曲目交叉核對",
+      "url": "https://animethemes.moe/anime/spriggan_2022",
+      "language": "en",
+      "role": "theme_cross_check",
+      "verifiedAt": "2026-09-01"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://youranimes.tw/animes/720",
+      "language": "zh-Hant",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-01"
+    },
+    {
+      "url": "https://spriggan-anime.jp/news/detail/?id=1108354",
+      "label": "官方2023/5/19原公告：7/7金曜25:05起MX地上波，與先行上映分開",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://spriggan-anime.jp/onair/",
+      "label": "官方ONAIR：Netflix2022/6/18配信與2023年7月TV編排分列",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://spriggan-anime.jp/story/tv/",
+      "label": "官方TV STORY：12話前後分割集序，與NETFLIX頁籤分開；未列單話分鐘",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    }
+  ]
+},
 ];
 
 export const curated2022SpringAnimeIds = [...[...curated2022SpringSeeds.map(({ anilistId }) => anilistId), 142274], 8687, 966, 6149];

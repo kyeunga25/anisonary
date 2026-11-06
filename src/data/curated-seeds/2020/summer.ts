@@ -1,4 +1,4 @@
-import type { CuratedAnimeSeed } from "@/data/curated-seeds/types";
+import type { CuratedAnimeSeed, CuratedCatalogAnimeSeed } from "@/data/curated-seeds/types";
 
 type Summer2020SeedInput = Omit<
   CuratedAnimeSeed,
@@ -7366,9 +7366,382 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
   }),
 ];
 
-export const curated2020SummerSeeds: CuratedAnimeSeed[] =
-  curated2020SummerSeedRows;
+export const curated2020SummerSeeds: CuratedCatalogAnimeSeed[] = [
+  ...curated2020SummerSeedRows,
+{
+  "catalogKey": -2020071201,
+  "id": "curated-project-aico-tv-2020",
+  "slug": "aico-incarnation-tv-2020",
+  "seasonIds": [
+    "2020-summer"
+  ],
+  "verifiedAt": "2026-11-05",
+  "metadataVerifiedAt": "2026-11-05",
+  "titleJa": "A.I.C.O. Incarnation",
+  "startDate": "2020-07-12",
+  "editorialWeekday": 7,
+  "broadcastTimeJst": "22:30",
+  "broadcastLabel": "原Netflix全12話配信；日本TV版2020-07-12起TOKYO MX週日22:30（JST），BS11自7/14節目日週二24:00。BS11原表7/21列24:00–24:30獨立常規槽，30分鐘非淨片長；其他季度逐曲用途待核。",
+  "status": "finished",
+  "officialSiteUrl": "https://www.project-aico.com/products/music/",
+  "identifierSource": {
+    "url": "https://www.project-aico.com/news/25.html",
+    "label": "A.I.C.O.官方：原系列全12話與首次日本TV識別",
+    "language": "ja"
+  },
+  "sourceReferenceUrls": [
+    "https://www.project-aico.com/news/25.html",
+    "https://www.bs11.jp/corporate/shubetsu/pdf/shubetsu_202007.pdf",
+    "https://www.animatetimes.com/news/details.php?id=1597653277"
+  ],
+  "metadataSources": [
+    {
+      "url": "https://www.project-aico.com/news/25.html",
+      "label": "原系列全12話與2020日本TV首次播出",
+      "role": "identifier",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://www.project-aico.com/products/music/",
+      "label": "官方MUSIC：OP／ED名義、逐曲歌唱及詞／曲",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://www.bs11.jp/corporate/shubetsu/pdf/shubetsu_202007.pdf",
+      "label": "BS11原2020年7月節目表：本作獨立24:00–24:30槽",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://www.animatetimes.com/news/details.php?id=1597653277",
+      "label": "2020夏OP／ED與曲名、完整名義交叉核對",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    }
+  ],
+  "themes": [
+    {
+      "id": "aico-incarnation-tv-2020-op-1",
+      "songId": "aico-incarnation-tv-2020-op-1-song",
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "A.I.C.O",
+      "artistDisplayName": "TRUE",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "usageLabel": "原系列・2020年日本TV放送版",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.project-aico.com/products/music/",
+          "label": "原系列官方MUSIC：角色名義與逐曲歌唱／詞曲對應",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://www.project-aico.com/news/25.html",
+          "label": "原系列全12話與2020年TV季度：官方公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://www.animatetimes.com/news/details.php?id=1597653277",
+          "label": "2020夏OP／ED原曲與完整演唱名義交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "credits": [
+        {
+          "name": "TRUE",
+          "role": "vocals"
+        },
+        {
+          "name": "唐沢美帆",
+          "role": "lyrics"
+        },
+        {
+          "name": "岩代太郎",
+          "role": "composition"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.project-aico.com/products/music/"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "aico-incarnation-tv-2020-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.project-aico.com/products/music/",
+            "https://www.project-aico.com/news/25.html"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "aico-incarnation-tv-2020-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1597653277"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "aico-incarnation-tv-2020-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1597653277"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "aico-incarnation-tv-2020-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.project-aico.com/products/music/"
+          ],
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters"
+          ],
+          "note": "已核2020夏TV用途；其他季度逐曲延用未核，不由全12話推算終播季度。",
+          "resumeWhen": "有本曲逐話用途及直接日期資料時補其他季度。",
+          "checkedAt": "2026-11-05"
+        },
+        {
+          "fields": [
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "本曲演唱與詞曲有官方逐曲表；編曲、音源、影片、發行品及確切平台尚未整理。",
+          "resumeWhen": "詳細階段有明列本曲角色、音源與發行品／平台目的頁時補入。"
+        }
+      ]
+    },
+    {
+      "id": "aico-incarnation-tv-2020-ed-1",
+      "songId": "aico-incarnation-tv-2020-ed-1-song",
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "未知の彼方",
+      "artistDisplayName": "白石晴香",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "usageLabel": "原系列・2020年日本TV放送版",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.project-aico.com/products/music/",
+          "label": "原系列官方MUSIC：角色名義與逐曲歌唱／詞曲對應",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://www.project-aico.com/news/25.html",
+          "label": "原系列全12話與2020年TV季度：官方公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://www.animatetimes.com/news/details.php?id=1597653277",
+          "label": "2020夏OP／ED原曲與完整演唱名義交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "credits": [
+        {
+          "name": "白石晴香",
+          "role": "vocals"
+        },
+        {
+          "name": "森由里子",
+          "role": "lyrics"
+        },
+        {
+          "name": "岩代太郎",
+          "role": "composition"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.project-aico.com/products/music/"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "aico-incarnation-tv-2020-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.project-aico.com/products/music/",
+            "https://www.project-aico.com/news/25.html"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "aico-incarnation-tv-2020-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1597653277"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "aico-incarnation-tv-2020-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1597653277"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "aico-incarnation-tv-2020-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.project-aico.com/products/music/"
+          ],
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters"
+          ],
+          "note": "已核2020夏TV用途；其他季度逐曲延用未核，不由全12話推算終播季度。",
+          "resumeWhen": "有本曲逐話用途及直接日期資料時補其他季度。",
+          "checkedAt": "2026-11-05"
+        },
+        {
+          "fields": [
+            "arrangement",
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "本曲演唱與詞曲有官方逐曲表；編曲、音源、影片、發行品及確切平台尚未整理。",
+          "resumeWhen": "詳細階段有明列本曲角色、音源與發行品／平台目的頁時補入。"
+        }
+      ]
+    }
+  ]
+},
+{
+  "catalogKey": -2020070201,
+  "id": "curated-pierrot-hero-mask-tv-2020",
+  "slug": "hero-mask-tv-2020",
+  "seasonIds": [
+    "2020-summer"
+  ],
+  "verifiedAt": "2026-11-05",
+  "metadataVerifiedAt": "2026-11-05",
+  "titleJa": "HERO MASK",
+  "startDate": "2020-07-02",
+  "editorialWeekday": 4,
+  "broadcastTimeJst": "23:30",
+  "broadcastLabel": "原PartⅠ第1–15話2018-12-03 Netflix配信；製作方明各話25分鐘。日本TV版2020-07-02起TOKYO MX週四23:30（JST）；TV結束時刻及秋季範圍未核，不把25分鐘當實測TV槽。PartⅡ另列，主題曲待精確第一方資料。",
+  "status": "finished",
+  "themeAvailability": "pending_verification",
+  "officialSiteUrl": "https://pierrot.jp/archive/2015/tv10_37.html",
+  "identifierSource": {
+    "url": "https://pierrot.jp/archive/2015/tv10_37.html",
+    "label": "ぴえろ官方：原PartⅠ識別、15話及各話25分鐘",
+    "language": "ja"
+  },
+  "sourceReferenceUrls": [
+    "https://news.pierrot.jp/onair-heromask/",
+    "https://dengekionline.com/articles/40810/"
+  ],
+  "metadataSources": [
+    {
+      "url": "https://pierrot.jp/archive/2015/tv10_37.html",
+      "label": "原PartⅠ／PartⅡ分列：原配信日期、話數及單話25分鐘",
+      "role": "identifier",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://news.pierrot.jp/onair-heromask/",
+      "label": "製作方原期→2020每週TV播出橋接",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://dengekionline.com/articles/40810/",
+      "label": "PartⅠ第1–15話與2020TV獨立交叉核對",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    }
+  ],
+  "themes": []
+},
+];
 
-export const curated2020SummerAnimeIds = [...curated2020SummerSeeds.map(
+export const curated2020SummerAnimeIds = [...curated2020SummerSeedRows.map(
   ({ anilistId }) => anilistId,
-), 8687, 966, 6149];
+), 8687, 966, 6149, -2020071201, -2020070201];

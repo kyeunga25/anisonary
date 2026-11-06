@@ -159,7 +159,500 @@ export const curated2024FallSeeds: CuratedCatalogAnimeSeed[] = [
   {"anilistId":178084,"id":"curated-178084","slug":"douwa-revengers","seasonIds":["2024-fall"],"startDate":"2024-10-27","titleJa":"童話リベンジャーズ","titleZhHant":"童話リベンジャーズ","titleRomaji":"Douwa Revengers","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178084-uy9FudPATgPM.jpg","editorialWeekday":7,"broadcastLabel":"日本首播／時間未整理","status":"finished","anilistUrl":"https://anilist.co/anime/178084","imageSourceUrl":"https://anilist.co/anime/178084","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2024%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2024-autumn?display=list_detailed"],"themes":[],"verifiedAt":"2026-08-30"},
   {"anilistId":183471,"id":"curated-183471","slug":"kuromi-s-pretty-journey-hacha-mecha-multiverse-daidasshutsu","seasonIds":["2024-fall"],"startDate":"2024-10-31","titleJa":"KUROMI'S PRETTY JOURNEY 〜はちゃめちゃ！マルチバース大脱出！〜","titleZhHant":"KUROMI'S PRETTY JOURNEY（第2期）","titleRomaji":"KUROMI'S PRETTY JOURNEY: Hacha Mecha! Multiverse Daidasshutsu!","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx183471-JsXh7SKt5P7C.png","editorialWeekday":4,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://kuromi.sanrio.co.jp/prettyjourney/","anilistUrl":"https://anilist.co/anime/183471","imageSourceUrl":"https://anilist.co/anime/183471","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2024%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2024-autumn?display=list_detailed","https://bgm.tv/subject/523496"],"themes":[],"verifiedAt":"2026-08-30"},
   {"anilistId":183423,"id":"curated-183423","slug":"one-piece-gyojin-tou-hen","seasonIds":["2024-fall","2025-winter"],"startDate":"2024-11-03","titleJa":"SPECIAL EDITED VERSION『ONE PIECE』魚人島編","titleZhHant":"ONE PIECE 魚人島篇 SPECIAL EDITED VERSION","titleRomaji":"ONE PIECE: Gyojin Tou-hen","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx183423-6Iiu194UDxD0.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/183423-kYnannPuKynK.jpg","editorialWeekday":7,"broadcastLabel":"富士電視台原期週日09:30；2024秋至2025年3月30日，首播日期沿用既有來源","status":"finished","officialSiteUrl":"https://one-piece.com/comicsanime/anime.html","anilistUrl":"https://anilist.co/anime/183423","imageSourceUrl":"https://anilist.co/anime/183423","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2024%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2024-autumn?display=list_detailed","https://annict.com/works/14192"],"animeThemesUrl":"https://animethemes.moe/anime/one_piece_gyojin_tou_hen","themes":[{"type":"OP","sequence":1,"titleJa":"ウィーゴー！","artistDisplayName":"麦わらの一味","id":"one-piece-gyojin-tou-hen-op-1","songId":"one-piece-gyojin-tou-hen-op-1-song","sources":[{"label":"ONE PIECE Official - ENG 官方影片","url":"https://www.youtube.com/watch?v=N5kOymBivr0","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://one-piece.com/comicsanime/anime.html","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/one_piece_gyojin_tou_hen","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://one-piece.com/news/69138/index.html","label":"第一方本曲原名／演唱名義及明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://one-piece.com/news/69189/index.html","label":"第一方本曲原名／演唱名義及明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://one-piece.com/news/70881/index.html","label":"第一方2025年1至3月原TV時段／期別及結束日期；精確首播日沿用既有來源","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://one-piece.com/comicsanime/anime.html","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2024-fall"],"credits":[{"name":"藤林聖子","role":"lyrics"},{"name":"田中公平","role":"composition"},{"name":"麦わらの一味","role":"vocals"}],"titleRomaji":"We go! ~Mugiwara no Ichimi ver.~","usageLabel":"初期OP（麦わらの一味歌唱版）","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://one-piece.com/news/69138/index.html"],"verifiedAt":"2026-10-20","targetId":"one-piece-gyojin-tou-hen-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://one-piece.com/news/69138/index.html","https://one-piece.com/news/70881/index.html"],"verifiedAt":"2026-10-20","targetId":"one-piece-gyojin-tou-hen-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/one_piece_gyojin_tou_hen"],"verifiedAt":"2026-08-30","targetId":"one-piece-gyojin-tou-hen-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/one_piece_gyojin_tou_hen"],"verifiedAt":"2026-08-30","targetId":"one-piece-gyojin-tou-hen-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://one-piece.com/news/69138/index.html","https://one-piece.com/news/69189/index.html"],"verifiedAt":"2026-10-20"}],"followUp":[{"fields":["arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈ウィーゴー！〉：官方逐月公告明列不同歌唱／編曲；1月5日、2月2日及3月2日起的三版OP只列2025冬，Sailing跨秋冬。舊10月27日為預定開播，未據此改掉既有11月3日首播。","resumeWhen":"重用本版官方逐月名單與配信入口補錄音及收錄；HikakinTV與SeikinTV的MV明列有OA以外別版，不當同一錄音或MV即full。11月3日改期的原期第一方公告可讀時補首播證據，不反覆重搜。","checkedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20"},{"type":"OP","sequence":2,"titleJa":"ウィーゴー！～HIKAKIN＆SEIKIN with モンキー・D・ルフィ ver.～","artistDisplayName":"HIKAKIN＆SEIKIN with モンキー・D・ルフィ","id":"one-piece-gyojin-tou-hen-op-2","songId":"one-piece-gyojin-tou-hen-op-2-song","sources":[{"label":"動畫官方網站","url":"https://one-piece.com/comicsanime/anime.html","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/one_piece_gyojin_tou_hen","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://one-piece.com/news/70569/index.html","label":"第一方本曲原名／演唱名義及明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://one-piece.com/news/70881/index.html","label":"第一方2025年1至3月原TV時段／期別及結束日期；精確首播日沿用既有來源","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://one-piece.com/comicsanime/anime.html","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2025-winter"],"credits":[{"name":"藤林聖子","role":"lyrics"},{"name":"田中公平","role":"composition"},{"name":"中村 博","role":"arrangement"},{"name":"HIKAKIN","role":"vocals"},{"name":"SEIKIN","role":"vocals"},{"name":"モンキー・D・ルフィ","role":"vocals"}],"titleRomaji":"We go! ~HIKAKIN & SEIKIN with Monkey D. Luffy ver.~","usageLabel":"2025年1月5日起OP","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://one-piece.com/news/70569/index.html"],"verifiedAt":"2026-10-20","targetId":"one-piece-gyojin-tou-hen-op-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://one-piece.com/news/70569/index.html","https://one-piece.com/news/70881/index.html"],"verifiedAt":"2026-10-20","targetId":"one-piece-gyojin-tou-hen-op-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/one_piece_gyojin_tou_hen"],"verifiedAt":"2026-08-30","targetId":"one-piece-gyojin-tou-hen-op-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/one_piece_gyojin_tou_hen"],"verifiedAt":"2026-08-30","targetId":"one-piece-gyojin-tou-hen-op-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://one-piece.com/news/70569/index.html"],"verifiedAt":"2026-10-20"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈ウィーゴー！～HIKAKIN＆SEIKIN with モンキー・D・ルフィ ver.～〉：官方逐月公告明列不同歌唱／編曲；1月5日、2月2日及3月2日起的三版OP只列2025冬，Sailing跨秋冬。舊10月27日為預定開播，未據此改掉既有11月3日首播。","resumeWhen":"重用本版官方逐月名單與配信入口補錄音及收錄；HikakinTV與SeikinTV的MV明列有OA以外別版，不當同一錄音或MV即full。11月3日改期的原期第一方公告可讀時補首播證據，不反覆重搜。","checkedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20"},{"type":"OP","sequence":3,"titleJa":"ウィーゴー！～白上フブキ、宝鐘マリン、角巻わため with 大槻マキ ver.～","artistDisplayName":"白上フブキ、宝鐘マリン、角巻わため with 大槻マキ","id":"one-piece-gyojin-tou-hen-op-3","songId":"one-piece-gyojin-tou-hen-op-3-song","sources":[{"label":"動畫官方網站","url":"https://one-piece.com/comicsanime/anime.html","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/one_piece_gyojin_tou_hen","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://one-piece.com/news/70881/index.html","label":"第一方2025年1至3月原TV時段／期別及結束日期；精確首播日沿用既有來源","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://one-piece.com/comicsanime/anime.html","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2025-winter"],"credits":[{"name":"藤林聖子","role":"lyrics"},{"name":"田中公平","role":"composition"},{"name":"久下真音","role":"arrangement"},{"name":"白上フブキ","role":"vocals"},{"name":"宝鐘マリン","role":"vocals"},{"name":"角巻わため","role":"vocals"},{"name":"大槻マキ","role":"vocals"}],"titleRomaji":"We go! ~Fubuki Shirakami, Marine Houshou, Watame Tsunomaki with Maki Ootsuki ver.~","usageLabel":"2025年2月2日起OP","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://one-piece.com/news/70881/index.html"],"verifiedAt":"2026-10-20","targetId":"one-piece-gyojin-tou-hen-op-3-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://one-piece.com/news/70881/index.html"],"verifiedAt":"2026-10-20","targetId":"one-piece-gyojin-tou-hen-op-3"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/one_piece_gyojin_tou_hen"],"verifiedAt":"2026-08-30","targetId":"one-piece-gyojin-tou-hen-op-3-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/one_piece_gyojin_tou_hen"],"verifiedAt":"2026-08-30","targetId":"one-piece-gyojin-tou-hen-op-3"},{"target":"credits","fields":["credits"],"sourceUrls":["https://one-piece.com/news/70881/index.html"],"verifiedAt":"2026-10-20"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈ウィーゴー！～白上フブキ、宝鐘マリン、角巻わため with 大槻マキ ver.～〉：官方逐月公告明列不同歌唱／編曲；1月5日、2月2日及3月2日起的三版OP只列2025冬，Sailing跨秋冬。舊10月27日為預定開播，未據此改掉既有11月3日首播。","resumeWhen":"重用本版官方逐月名單與配信入口補錄音及收錄；HikakinTV與SeikinTV的MV明列有OA以外別版，不當同一錄音或MV即full。11月3日改期的原期第一方公告可讀時補首播證據，不反覆重搜。","checkedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20"},{"type":"OP","sequence":4,"titleJa":"ウィーゴー！～小鳥遊キアラ、ハコス・ベールズ、こぼ・かなえる with きただにひろし Ver.～","artistDisplayName":"小鳥遊キアラ、ハコス・ベールズ、こぼ・かなえる with きただにひろし","id":"one-piece-gyojin-tou-hen-op-4","songId":"one-piece-gyojin-tou-hen-op-4-song","sources":[{"label":"動畫官方網站","url":"https://one-piece.com/comicsanime/anime.html","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/one_piece_gyojin_tou_hen","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://one-piece.com/news/70881/index.html","label":"第一方2025年1至3月原TV時段／期別及結束日期；精確首播日沿用既有來源","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://one-piece.com/comicsanime/anime.html","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2025-winter"],"credits":[{"name":"藤林聖子","role":"lyrics"},{"name":"田中公平","role":"composition"},{"name":"TeddyLoid","role":"arrangement"},{"name":"tepe（OTOIRO）","role":"arrangement"},{"name":"小鳥遊キアラ","role":"vocals"},{"name":"ハコス・ベールズ","role":"vocals"},{"name":"こぼ・かなえる","role":"vocals"},{"name":"きただにひろし","role":"vocals"}],"titleRomaji":"We go! ~Kiara Takanashi, Baelz Hakos, Kobo Kanaeru with Hiroshi Kitadani~","usageLabel":"2025年3月2日起OP；原期3月30日結束","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://one-piece.com/news/70881/index.html"],"verifiedAt":"2026-10-20","targetId":"one-piece-gyojin-tou-hen-op-4-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://one-piece.com/news/70881/index.html"],"verifiedAt":"2026-10-20","targetId":"one-piece-gyojin-tou-hen-op-4"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/one_piece_gyojin_tou_hen"],"verifiedAt":"2026-08-30","targetId":"one-piece-gyojin-tou-hen-op-4-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/one_piece_gyojin_tou_hen"],"verifiedAt":"2026-08-30","targetId":"one-piece-gyojin-tou-hen-op-4"},{"target":"credits","fields":["credits"],"sourceUrls":["https://one-piece.com/news/70881/index.html"],"verifiedAt":"2026-10-20"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈ウィーゴー！～小鳥遊キアラ、ハコス・ベールズ、こぼ・かなえる with きただにひろし Ver.～〉：官方逐月公告明列不同歌唱／編曲；1月5日、2月2日及3月2日起的三版OP只列2025冬，Sailing跨秋冬。舊10月27日為預定開播，未據此改掉既有11月3日首播。","resumeWhen":"重用本版官方逐月名單與配信入口補錄音及收錄；HikakinTV與SeikinTV的MV明列有OA以外別版，不當同一錄音或MV即full。11月3日改期的原期第一方公告可讀時補首播證據，不反覆重搜。","checkedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20"},{"type":"ED","sequence":1,"titleJa":"Sailing","artistDisplayName":"BE:FIRST","id":"one-piece-gyojin-tou-hen-ed-1","songId":"one-piece-gyojin-tou-hen-ed-1-song","sources":[{"label":"ONE PIECE Official - ENG 官方影片","url":"https://www.youtube.com/watch?v=1-_B5gioYwA","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"動畫官方網站","url":"https://one-piece.com/comicsanime/anime.html","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/one_piece_gyojin_tou_hen","language":"en","role":"cross_check","verifiedAt":"2026-08-30"},{"url":"https://one-piece.com/news/69189/index.html","label":"第一方本曲原名／演唱名義及明列創作","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://one-piece.com/news/70881/index.html","label":"第一方2025年1至3月原TV時段／期別及結束日期；精確首播日沿用既有來源","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://one-piece.com/comicsanime/anime.html","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2024-fall","2025-winter"],"credits":[{"name":"SKY-HI","role":"lyrics"},{"name":"SOTA","role":"lyrics"},{"name":"SHUNTO","role":"lyrics"},{"name":"RYUHEI","role":"lyrics"},{"name":"Chaki Zulu","role":"lyrics"},{"name":"Chaki Zulu","role":"composition"},{"name":"Satoru Kurihara -Jazzin’park-","role":"composition"},{"name":"Atsushi Inoue","role":"composition"},{"name":"SKY-HI","role":"composition"},{"name":"Chaki Zulu","role":"arrangement"},{"name":"BE:FIRST","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://one-piece.com/news/69189/index.html"],"verifiedAt":"2026-10-20","targetId":"one-piece-gyojin-tou-hen-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://one-piece.com/news/69189/index.html","https://one-piece.com/news/70881/index.html"],"verifiedAt":"2026-10-20","targetId":"one-piece-gyojin-tou-hen-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/one_piece_gyojin_tou_hen"],"verifiedAt":"2026-08-30","targetId":"one-piece-gyojin-tou-hen-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/one_piece_gyojin_tou_hen"],"verifiedAt":"2026-08-30","targetId":"one-piece-gyojin-tou-hen-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://one-piece.com/news/69189/index.html"],"verifiedAt":"2026-10-20"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈Sailing〉：官方逐月公告明列不同歌唱／編曲；1月5日、2月2日及3月2日起的三版OP只列2025冬，Sailing跨秋冬。舊10月27日為預定開播，未據此改掉既有11月3日首播。","resumeWhen":"重用本版官方逐月名單與配信入口補錄音及收錄；HikakinTV與SeikinTV的MV明列有OA以外別版，不當同一錄音或MV即full。11月3日改期的原期第一方公告可讀時補首播證據，不反覆重搜。","checkedAt":"2026-10-20"}],"lastVerifiedAt":"2026-10-20"}],"verifiedAt":"2026-08-30","metadataVerifiedAt":"2026-08-30","metadataSources":[{"url":"https://one-piece.com/news/70881/index.html","label":"第一方原期曲目／逐話日期與用途資料","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://one-piece.com/news/69138/index.html","label":"第一方原期曲目／逐話日期與用途資料","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://one-piece.com/news/69189/index.html","label":"第一方原期曲目／逐話日期與用途資料","role":"first_party","language":"ja","verifiedAt":"2026-10-20"},{"url":"https://one-piece.com/news/70569/index.html","label":"第一方原期曲目／逐話日期與用途資料","role":"first_party","language":"ja","verifiedAt":"2026-10-20"}],"broadcastTimeJst":"09:30"},
-  {"anilistId":185541,"id":"curated-185541","slug":"asatir-2-mirai-no-mukashibanashi","seasonIds":["2024-fall","2025-winter"],"startDate":"2024-11-03","titleJa":"アサティール2 未来の昔ばなし","titleZhHant":"阿薩里爾2 未來的民間故事（第2期）","titleRomaji":"Asatir 2: Mirai no Mukashibanashi","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185541-XaTttukXApVj.jpg","editorialWeekday":7,"broadcastLabel":"日本TV原播：2024-11-03起週日07:00–07:30（JST），テレビ東京系列；全13話至2025-02-02，跨秋冬。","status":"finished","officialSiteUrl":"https://mangaproductions.co.jp/special/anime_asateer2/","anilistUrl":"https://anilist.co/anime/185541","imageSourceUrl":"https://anilist.co/anime/185541","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2024%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2024-autumn?display=list_detailed"],"themes":[{"type":"OP","sequence":1,"id":"asatir-2-mirai-no-mukashibanashi-op-1","songId":"asatir-mirai-no-mukashibanashi-op-1-song","usageLabel":"日本TV版 OP","titleJa":"未来の昔ばなし","artistDisplayName":"渡部沙智子","seasonIds":["2024-fall"],"credits":[{"name":"渡部沙智子","role":"vocals"},{"name":"渡部沙智子","role":"lyrics"},{"name":"Rasha Rizk","role":"composition"},{"name":"Rasha Rizk","role":"arrangement"}],"sourceMode":"explicit","sources":[{"url":"https://www.tv-tokyo.co.jp/anime/asateer2/staff/","label":"第一方：本期原名、正式演唱與OP／ED用途","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://mangaproductions.co.jp/news/20241029/","label":"第一方：本期原名、正式演唱與OP／ED用途","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://www.animatetimes.com/tag/details.php?id=23821","label":"本期逐曲原名、演唱與用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://www.crank-in.net/news/155642/1","label":"本期逐曲原名、演唱與用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%B5%E3%83%86%E3%82%A3%E3%83%BC%E3%83%AB_%E6%9C%AA%E6%9D%A5%E3%81%AE%E6%98%94%E3%81%B0%E3%81%AA%E3%81%97","label":"本期逐曲原名、演唱與用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","targetId":"asatir-mirai-no-mukashibanashi-op-1-song","fields":["title","artist"],"sourceUrls":["https://www.tv-tokyo.co.jp/anime/asateer2/staff/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"asatir-2-mirai-no-mukashibanashi-op-1","fields":["usage"],"sourceUrls":["https://www.tv-tokyo.co.jp/anime/asateer2/staff/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"asatir-mirai-no-mukashibanashi-op-1-song","fields":["title","artist"],"sourceUrls":["https://mangaproductions.co.jp/news/20241029/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"asatir-2-mirai-no-mukashibanashi-op-1","fields":["usage"],"sourceUrls":["https://mangaproductions.co.jp/news/20241029/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"asatir-mirai-no-mukashibanashi-op-1-song","fields":["title","artist"],"sourceUrls":["https://www.animatetimes.com/tag/details.php?id=23821"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"asatir-2-mirai-no-mukashibanashi-op-1","fields":["usage"],"sourceUrls":["https://www.animatetimes.com/tag/details.php?id=23821"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"asatir-mirai-no-mukashibanashi-op-1-song","fields":["title","artist"],"sourceUrls":["https://www.crank-in.net/news/155642/1"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"asatir-2-mirai-no-mukashibanashi-op-1","fields":["usage"],"sourceUrls":["https://www.crank-in.net/news/155642/1"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"asatir-mirai-no-mukashibanashi-op-1-song","fields":["title","artist"],"sourceUrls":["https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%B5%E3%83%86%E3%82%A3%E3%83%BC%E3%83%AB_%E6%9C%AA%E6%9D%A5%E3%81%AE%E6%98%94%E3%81%B0%E3%81%AA%E3%81%97"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"asatir-2-mirai-no-mukashibanashi-op-1","fields":["usage"],"sourceUrls":["https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%B5%E3%83%86%E3%82%A3%E3%83%BC%E3%83%AB_%E6%9C%AA%E6%9D%A5%E3%81%AE%E6%98%94%E3%81%B0%E3%81%AA%E3%81%97"],"verifiedAt":"2026-10-30"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.tv-tokyo.co.jp/anime/asateer2/staff/"],"verifiedAt":"2026-10-30"}],"lastVerifiedAt":"2026-10-30","followUp":[{"fields":["use_quarters"],"note":"作品原播跨2024秋與2025冬已核；本曲先登記已核2024秋，冬季逐曲採用仍待明示，不由13話或作品跨季推定。","resumeWhen":"取得同一TV版相應季度的第一方逐曲／逐話採用說明與播出日期，再與交叉核對後補用途季度；不由作品跨季、重播或其他系列推定。","checkedAt":"2026-10-30"},{"fields":["recordings","official_video","releases","platform_links"],"note":"本第2期曲名、演唱、OP用途及詞曲編已核，系列逐曲表明列兩期共用歌曲，沿既有歌曲記錄；沒有推定相同錄音，2020第一季原用途／季度的未解條件保持，不將本期第一方證據回填舊用途。","resumeWhen":"後續詳細階段取得本曲個別作者分工、正式音源版本／長度、確切影片、發行曲序或正版平台地區明示時，僅補相應欄位。其他尚未列入的本期歌曲須另取得第一方曲名、完整演唱與用途才登記。","checkedAt":"2026-10-30"}]},{"type":"ED","sequence":1,"id":"asatir-2-mirai-no-mukashibanashi-ed-1","songId":"asatir-2-mirai-no-mukashibanashi-ed-1-song","usageLabel":"日本TV版 ED","titleJa":"アサティール 〜未来の星空〜","artistDisplayName":"渡部沙智子","seasonIds":["2024-fall"],"credits":[{"name":"渡部沙智子","role":"vocals"},{"name":"Funta7","role":"lyrics"},{"name":"Funta7","role":"composition"},{"name":"Funta7","role":"arrangement"}],"sourceMode":"explicit","sources":[{"url":"https://www.tv-tokyo.co.jp/anime/asateer2/staff/","label":"第一方：本期原名、正式演唱與OP／ED用途","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://mangaproductions.co.jp/news/20241029/","label":"第一方：本期原名、正式演唱與OP／ED用途","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://www.animatetimes.com/tag/details.php?id=23821","label":"本期逐曲原名、演唱與用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","targetId":"asatir-2-mirai-no-mukashibanashi-ed-1-song","fields":["title","artist"],"sourceUrls":["https://www.tv-tokyo.co.jp/anime/asateer2/staff/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"asatir-2-mirai-no-mukashibanashi-ed-1","fields":["usage"],"sourceUrls":["https://www.tv-tokyo.co.jp/anime/asateer2/staff/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"asatir-2-mirai-no-mukashibanashi-ed-1-song","fields":["title","artist"],"sourceUrls":["https://mangaproductions.co.jp/news/20241029/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"asatir-2-mirai-no-mukashibanashi-ed-1","fields":["usage"],"sourceUrls":["https://mangaproductions.co.jp/news/20241029/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"asatir-2-mirai-no-mukashibanashi-ed-1-song","fields":["title","artist"],"sourceUrls":["https://www.animatetimes.com/tag/details.php?id=23821"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"asatir-2-mirai-no-mukashibanashi-ed-1","fields":["usage"],"sourceUrls":["https://www.animatetimes.com/tag/details.php?id=23821"],"verifiedAt":"2026-10-30"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.tv-tokyo.co.jp/anime/asateer2/staff/"],"verifiedAt":"2026-10-30"}],"lastVerifiedAt":"2026-10-30","followUp":[{"fields":["use_quarters"],"note":"作品原播跨2024秋與2025冬已核；本曲先登記已核2024秋，冬季逐曲採用仍待明示，不由13話或作品跨季推定。","resumeWhen":"取得同一TV版相應季度的第一方逐曲／逐話採用說明與播出日期，再與交叉核對後補用途季度；不由作品跨季、重播或其他系列推定。","checkedAt":"2026-10-30"},{"fields":["recordings","official_video","releases","platform_links"],"note":"本第2期ED原名、演唱、用途及同頁詞曲編已核；正式音源、影片、發行品及平台關係未建立。","resumeWhen":"後續詳細階段取得本曲個別作者分工、正式音源版本／長度、確切影片、發行曲序或正版平台地區明示時，僅補相應欄位。其他尚未列入的本期歌曲須另取得第一方曲名、完整演唱與用途才登記。","checkedAt":"2026-10-30"}]}],"verifiedAt":"2026-08-30","metadataSources":[{"label":"動畫官方網站：作品與播出資料","url":"https://mangaproductions.co.jp/special/anime_asateer2/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AniList：作品識別與公開圖像","url":"https://anilist.co/anime/185541","language":"en","role":"identifier","verifiedAt":"2026-08-30"},{"url":"https://zh.wikipedia.org/wiki/2024%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","label":"繁中日本TV列表：本期原播日期與13話跨冬交叉核對","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-30"},{"label":"季度首播公開來源","url":"https://annict.com/works/2024-autumn?display=list_detailed","language":"ja","role":"broadcast_cross_check","verifiedAt":"2026-08-30"},{"url":"https://mangaproductions.co.jp/news/20241004/","label":"製作方：第二期TV原播、日期與13話","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://www.tv-tokyo.co.jp/anime/asateer2/onair/","label":"テレビ東京：本期原播與週日07:00編排","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://www.tv-tokyo.co.jp/main/yoriyoi/pdf/2024_11_03.pdf","label":"テレビ東京官方節目表：本作獨立07:00–07:30槽","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://www.tv-tokyo.co.jp/anime/asateer2/episodes/","label":"テレビ東京逐話表：本期單話編排與2025冬第13話","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://thetv.jp/program/0001054214/","label":"TheTV：本期週日07:00與秋冬播出日期交叉核對","role":"broadcast_cross_check","language":"ja","verifiedAt":"2026-10-30"}],"broadcastTimeJst":"07:00","metadataVerifiedAt":"2026-10-30","themeAvailability":"documented"},
+  {
+  "anilistId": 185541,
+  "id": "curated-185541",
+  "slug": "asatir-2-mirai-no-mukashibanashi",
+  "seasonIds": [
+    "2024-fall",
+    "2025-winter"
+  ],
+  "startDate": "2024-11-03",
+  "titleJa": "アサティール2 未来の昔ばなし",
+  "titleZhHant": "阿薩里爾2 未來的民間故事（第2期）",
+  "titleRomaji": "Asatir 2: Mirai no Mukashibanashi",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185541-XaTttukXApVj.jpg",
+  "editorialWeekday": 7,
+  "broadcastLabel": "日本TV原播：2024-11-03起週日07:00–07:30（JST），テレビ東京系列；全13話至2025-02-02，跨秋冬。",
+  "status": "finished",
+  "officialSiteUrl": "https://mangaproductions.co.jp/special/anime_asateer2/",
+  "anilistUrl": "https://anilist.co/anime/185541",
+  "imageSourceUrl": "https://anilist.co/anime/185541",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://annict.com/works/2024-autumn?display=list_detailed"
+  ],
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "id": "asatir-2-mirai-no-mukashibanashi-op-1",
+      "songId": "asatir-mirai-no-mukashibanashi-op-1-song",
+      "usageLabel": "日本TV第2期 OP；2024秋／2025冬（原2025/1/19第11話節目音樂欄）",
+      "titleJa": "未来の昔ばなし",
+      "artistDisplayName": "渡部沙智子",
+      "seasonIds": [
+        "2024-fall",
+        "2025-winter"
+      ],
+      "credits": [
+        {
+          "name": "渡部沙智子",
+          "role": "vocals"
+        },
+        {
+          "name": "渡部沙智子",
+          "role": "lyrics"
+        },
+        {
+          "name": "Rasha Rizk",
+          "role": "composition"
+        },
+        {
+          "name": "Rasha Rizk",
+          "role": "arrangement"
+        }
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/asateer2/staff/",
+          "label": "第一方：本期原名、正式演唱與OP／ED用途",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-30"
+        },
+        {
+          "url": "https://mangaproductions.co.jp/news/20241029/",
+          "label": "第一方：本期原名、正式演唱與OP／ED用途",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-30"
+        },
+        {
+          "url": "https://www.animatetimes.com/tag/details.php?id=23821",
+          "label": "本期逐曲原名、演唱與用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-30"
+        },
+        {
+          "url": "https://www.crank-in.net/news/155642/1",
+          "label": "本期逐曲原名、演唱與用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-30"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%B5%E3%83%86%E3%82%A3%E3%83%BC%E3%83%AB_%E6%9C%AA%E6%9D%A5%E3%81%AE%E6%98%94%E3%81%B0%E3%81%AA%E3%81%97",
+          "label": "本期逐曲原名、演唱與用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-30"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202501/28262_202501190700.html",
+          "label": "テレビ東京原2025/1/19第11話節目音樂欄：本第2期OP／ED、演唱與同日播出編排",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "asatir-mirai-no-mukashibanashi-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/asateer2/staff/"
+          ],
+          "verifiedAt": "2026-10-30"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "asatir-2-mirai-no-mukashibanashi-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/asateer2/staff/"
+          ],
+          "verifiedAt": "2026-10-30"
+        },
+        {
+          "target": "song",
+          "targetId": "asatir-mirai-no-mukashibanashi-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://mangaproductions.co.jp/news/20241029/"
+          ],
+          "verifiedAt": "2026-10-30"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "asatir-2-mirai-no-mukashibanashi-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://mangaproductions.co.jp/news/20241029/"
+          ],
+          "verifiedAt": "2026-10-30"
+        },
+        {
+          "target": "song",
+          "targetId": "asatir-mirai-no-mukashibanashi-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/tag/details.php?id=23821"
+          ],
+          "verifiedAt": "2026-10-30"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "asatir-2-mirai-no-mukashibanashi-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/tag/details.php?id=23821"
+          ],
+          "verifiedAt": "2026-10-30"
+        },
+        {
+          "target": "song",
+          "targetId": "asatir-mirai-no-mukashibanashi-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.crank-in.net/news/155642/1"
+          ],
+          "verifiedAt": "2026-10-30"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "asatir-2-mirai-no-mukashibanashi-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.crank-in.net/news/155642/1"
+          ],
+          "verifiedAt": "2026-10-30"
+        },
+        {
+          "target": "song",
+          "targetId": "asatir-mirai-no-mukashibanashi-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%B5%E3%83%86%E3%82%A3%E3%83%BC%E3%83%AB_%E6%9C%AA%E6%9D%A5%E3%81%AE%E6%98%94%E3%81%B0%E3%81%AA%E3%81%97"
+          ],
+          "verifiedAt": "2026-10-30"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "asatir-2-mirai-no-mukashibanashi-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%B5%E3%83%86%E3%82%A3%E3%83%BC%E3%83%AB_%E6%9C%AA%E6%9D%A5%E3%81%AE%E6%98%94%E3%81%B0%E3%81%AA%E3%81%97"
+          ],
+          "verifiedAt": "2026-10-30"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/asateer2/staff/"
+          ],
+          "verifiedAt": "2026-10-30"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "asatir-2-mirai-no-mukashibanashi-op-1",
+          "fields": [
+            "usage",
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202501/28262_202501190700.html"
+          ],
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-05",
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本第2期曲名、演唱、OP用途及詞曲編已核，系列逐曲表明列兩期共用歌曲，沿既有歌曲記錄；沒有推定相同錄音，2020第一季原用途／季度的未解條件保持，不將本期第一方證據回填舊用途。",
+          "resumeWhen": "後續詳細階段取得本曲個別作者分工、正式音源版本／長度、確切影片、發行曲序或正版平台地區明示時，僅補相應欄位。其他尚未列入的本期歌曲須另取得第一方曲名、完整演唱與用途才登記。",
+          "checkedAt": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "id": "asatir-2-mirai-no-mukashibanashi-ed-1",
+      "songId": "asatir-2-mirai-no-mukashibanashi-ed-1-song",
+      "usageLabel": "日本TV第2期 ED；2024秋／2025冬（原2025/1/19第11話節目音樂欄）",
+      "titleJa": "アサティール 〜未来の星空〜",
+      "artistDisplayName": "渡部沙智子",
+      "seasonIds": [
+        "2024-fall",
+        "2025-winter"
+      ],
+      "credits": [
+        {
+          "name": "渡部沙智子",
+          "role": "vocals"
+        },
+        {
+          "name": "Funta7",
+          "role": "lyrics"
+        },
+        {
+          "name": "Funta7",
+          "role": "composition"
+        },
+        {
+          "name": "Funta7",
+          "role": "arrangement"
+        }
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/asateer2/staff/",
+          "label": "第一方：本期原名、正式演唱與OP／ED用途",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-30"
+        },
+        {
+          "url": "https://mangaproductions.co.jp/news/20241029/",
+          "label": "第一方：本期原名、正式演唱與OP／ED用途",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-30"
+        },
+        {
+          "url": "https://www.animatetimes.com/tag/details.php?id=23821",
+          "label": "本期逐曲原名、演唱與用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-30"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202501/28262_202501190700.html",
+          "label": "テレビ東京原2025/1/19第11話節目音樂欄：本第2期OP／ED、演唱與同日播出編排",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "asatir-2-mirai-no-mukashibanashi-ed-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/asateer2/staff/"
+          ],
+          "verifiedAt": "2026-10-30"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "asatir-2-mirai-no-mukashibanashi-ed-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/asateer2/staff/"
+          ],
+          "verifiedAt": "2026-10-30"
+        },
+        {
+          "target": "song",
+          "targetId": "asatir-2-mirai-no-mukashibanashi-ed-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://mangaproductions.co.jp/news/20241029/"
+          ],
+          "verifiedAt": "2026-10-30"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "asatir-2-mirai-no-mukashibanashi-ed-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://mangaproductions.co.jp/news/20241029/"
+          ],
+          "verifiedAt": "2026-10-30"
+        },
+        {
+          "target": "song",
+          "targetId": "asatir-2-mirai-no-mukashibanashi-ed-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/tag/details.php?id=23821"
+          ],
+          "verifiedAt": "2026-10-30"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "asatir-2-mirai-no-mukashibanashi-ed-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/tag/details.php?id=23821"
+          ],
+          "verifiedAt": "2026-10-30"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/asateer2/staff/"
+          ],
+          "verifiedAt": "2026-10-30"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "asatir-2-mirai-no-mukashibanashi-ed-1",
+          "fields": [
+            "usage",
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202501/28262_202501190700.html"
+          ],
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-05",
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links"
+          ],
+          "note": "本第2期ED原名、演唱、用途及同頁詞曲編已核；正式音源、影片、發行品及平台關係未建立。",
+          "resumeWhen": "後續詳細階段取得本曲個別作者分工、正式音源版本／長度、確切影片、發行曲序或正版平台地區明示時，僅補相應欄位。其他尚未列入的本期歌曲須另取得第一方曲名、完整演唱與用途才登記。",
+          "checkedAt": "2026-10-30"
+        }
+      ]
+    }
+  ],
+  "verifiedAt": "2026-08-30",
+  "metadataSources": [
+    {
+      "label": "動畫官方網站：作品與播出資料",
+      "url": "https://mangaproductions.co.jp/special/anime_asateer2/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-08-30"
+    },
+    {
+      "label": "AniList：作品識別與公開圖像",
+      "url": "https://anilist.co/anime/185541",
+      "language": "en",
+      "role": "identifier",
+      "verifiedAt": "2026-08-30"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/2024%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+      "label": "繁中日本TV列表：本期原播日期與13話跨冬交叉核對",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-30"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://annict.com/works/2024-autumn?display=list_detailed",
+      "language": "ja",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-08-30"
+    },
+    {
+      "url": "https://mangaproductions.co.jp/news/20241004/",
+      "label": "製作方：第二期TV原播、日期與13話",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-30"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/anime/asateer2/onair/",
+      "label": "テレビ東京：本期原播與週日07:00編排",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-30"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/main/yoriyoi/pdf/2024_11_03.pdf",
+      "label": "テレビ東京官方節目表：本作獨立07:00–07:30槽",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-30"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/anime/asateer2/episodes/",
+      "label": "テレビ東京逐話表：本期單話編排與2025冬第13話",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-30"
+    },
+    {
+      "url": "https://thetv.jp/program/0001054214/",
+      "label": "TheTV：本期週日07:00與秋冬播出日期交叉核對",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-10-30"
+    }
+  ],
+  "broadcastTimeJst": "07:00",
+  "metadataVerifiedAt": "2026-10-30",
+  "themeAvailability": "documented"
+},
   {"anilistId":177603,"id":"curated-177603","slug":"okaimono-panda","seasonIds":["2024-fall"],"startDate":"2024-11-06","titleJa":"お買いものパンダ！","titleZhHant":"樂天胖達！","titleRomaji":"Okaimono Panda!","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177603-OLyvQoVBW101.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/177603-X4jBNwrUW6i8.jpg","editorialWeekday":3,"broadcastLabel":"短篇TV：日本2024-11-06起・週三21:54–22:00（JST）・TOKYO MX；6分鐘為播出格。","status":"finished","officialSiteUrl":"https://www.rakuten-ipcontent.com/Anime-Okaimonopanda/","anilistUrl":"https://anilist.co/anime/177603","imageSourceUrl":"https://anilist.co/anime/177603","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2024%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2024-autumn?display=list_detailed","https://annict.com/works/12920"],"animeThemesUrl":"https://animethemes.moe/anime/okaimono_panda","themes":[{"type":"OP","sequence":1,"titleJa":"Are wa Okaimono Panda!","artistDisplayName":"Okaimono Panda"}],"verifiedAt":"2026-08-30","metadataSources":[{"label":"動畫官方網站：作品與播出資料","url":"https://www.rakuten-ipcontent.com/Anime-Okaimonopanda/","language":"ja","role":"first_party","verifiedAt":"2026-08-30"},{"label":"AniList：作品識別與公開圖像","url":"https://anilist.co/anime/177603","language":"en","role":"identifier","verifiedAt":"2026-08-30"},{"label":"繁體中文季度列表交叉對照","url":"https://zh.wikipedia.org/wiki/2024%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","language":"zh-Hant","role":"localized_cross_check","verifiedAt":"2026-08-30"},{"label":"AnimeThemes：OP／ED 曲目交叉核對","url":"https://animethemes.moe/anime/okaimono_panda","language":"en","role":"theme_cross_check","verifiedAt":"2026-08-30"},{"label":"季度首播公開來源","url":"https://annict.com/works/2024-autumn?display=list_detailed","language":"ja","role":"broadcast_cross_check","verifiedAt":"2026-08-30"},{"label":"季度首播公開來源","url":"https://annict.com/works/12920","language":"ja","role":"broadcast_cross_check","verifiedAt":"2026-08-30"},{"url":"https://corp.rakuten.co.jp/news/press/2024/1101_01.html","label":"樂天製作方：本TV版2024-11-06週三21:54原播","language":"ja","role":"first_party","verifiedAt":"2026-10-30"},{"url":"https://s.mxtv.jp/company/syubetsu_pdf/koko_syubetsu202412.pdf","label":"TOKYO MX官方節目表：本TV版21:54–22:00獨立槽","language":"ja","role":"first_party","verifiedAt":"2026-10-30"},{"url":"https://acg.gamer.com.tw/acgDetail.php?s=139165","label":"巴哈姆特作品頁：本TV版與11/6日本首播交叉核對","language":"zh-Hant","role":"broadcast_cross_check","verifiedAt":"2026-10-30"}],"metadataVerifiedAt":"2026-10-30","broadcastTimeJst":"21:54"},
   {"anilistId":184099,"id":"curated-184099","slug":"agent-blue","seasonIds":["2024-fall"],"startDate":"2024-11-10","titleJa":"Agent Blue","titleZhHant":"Agent Blue","titleRomaji":"Agent Blue","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx184099-ot601TDXS95O.png","editorialWeekday":7,"broadcastLabel":"日本首播／時間未整理","status":"finished","anilistUrl":"https://anilist.co/anime/184099","imageSourceUrl":"https://anilist.co/anime/184099","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2024%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2024-autumn?display=list_detailed"],"themes":[],"verifiedAt":"2026-08-30"},
   {"anilistId":181776,"id":"curated-181776","slug":"murder-mystery-of-the-dead","seasonIds":["2024-fall"],"startDate":"2024-11-14","titleJa":"マーダーミステリー・オブ・ザ・デッド","titleZhHant":"Murder Mystery of the Dead","titleRomaji":"Murder Mystery of the Dead","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx181776-VRNht9pkb9Ct.jpg","editorialWeekday":4,"broadcastLabel":"日本TV正篇首播：2024-11-14 01:00 JST（11/13水曜25:00）・TOKYO MX；每週木曜01:00。11/6・12/4深夜枠為特別節目，與正篇分開。","status":"finished","officialSiteUrl":"https://of-the-dead.com/","anilistUrl":"https://anilist.co/anime/181776","imageSourceUrl":"https://anilist.co/anime/181776","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2024%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2024-autumn?display=list_detailed","https://annict.com/works/14029"],"themes":[{"type":"OP","sequence":1,"id":"murder-mystery-of-the-dead-op-1","songId":"murder-mystery-of-the-dead-op-1-song","titleJa":"虚像","artistDisplayName":"ミクストガールズ","usageLabel":"TVアニメ OP","seasonIds":["2024-fall"],"credits":[{"name":"ミクストガールズ","role":"vocals"},{"name":"めんま","role":"songwriting"}],"sourceMode":"explicit","sources":[{"url":"https://mixstgirls.com/news/tv%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8C%E3%83%9E%E3%83%BC%E3%83%80%E3%83%BC%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC%E3%83%BB%E3%82%AA%E3%83%96%E3%83%BB%E3%82%B6%E3%83%BB%E3%83%87%E3%83%83%E3%83%89","label":"第一方：本期原名、正式演唱與OP／ED用途","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://anilab-japan.com/production/detail.php?id=12174","label":"本期逐曲原名、演唱與用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","targetId":"murder-mystery-of-the-dead-op-1-song","fields":["title","artist"],"sourceUrls":["https://mixstgirls.com/news/tv%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8C%E3%83%9E%E3%83%BC%E3%83%80%E3%83%BC%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC%E3%83%BB%E3%82%AA%E3%83%96%E3%83%BB%E3%82%B6%E3%83%BB%E3%83%87%E3%83%83%E3%83%89"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"murder-mystery-of-the-dead-op-1","fields":["usage"],"sourceUrls":["https://mixstgirls.com/news/tv%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8C%E3%83%9E%E3%83%BC%E3%83%80%E3%83%BC%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC%E3%83%BB%E3%82%AA%E3%83%96%E3%83%BB%E3%82%B6%E3%83%BB%E3%83%87%E3%83%83%E3%83%89"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"murder-mystery-of-the-dead-op-1-song","fields":["title","artist"],"sourceUrls":["https://anilab-japan.com/production/detail.php?id=12174"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"murder-mystery-of-the-dead-op-1","fields":["usage"],"sourceUrls":["https://anilab-japan.com/production/detail.php?id=12174"],"verifiedAt":"2026-10-30"},{"target":"credits","fields":["credits"],"sourceUrls":["https://mixstgirls.com/news/tv%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8C%E3%83%9E%E3%83%BC%E3%83%80%E3%83%BC%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC%E3%83%BB%E3%82%AA%E3%83%96%E3%83%BB%E3%82%B6%E3%83%BB%E3%83%87%E3%83%83%E3%83%89"],"verifiedAt":"2026-10-30"}],"lastVerifiedAt":"2026-10-30","followUp":[{"fields":["lyrics","composition","arrangement","recordings","official_video","releases","platform_links"],"note":"本期OP曲名、演唱與用途兩類證據已齊；官方合列作詞・作曲めんま，保留詞曲名義，不自行拆分角色或推編曲。本作ED仍缺第一方，未列入公開歌曲；發行預定不當實際發行或音源版本。","resumeWhen":"後續詳細階段取得本曲個別作者分工、正式音源版本／長度、確切影片、發行曲序或正版平台地區明示時，僅補相應欄位。其他尚未列入的本期歌曲須另取得第一方曲名、完整演唱與用途才登記。","checkedAt":"2026-10-30"}]}],"verifiedAt":"2026-08-30","metadataSources":[{"url":"https://of-the-dead.com/","label":"動畫官方：每週TV與11/6、12/4特番分界","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"label":"AniList：作品識別與公開圖像","url":"https://anilist.co/anime/181776","language":"en","role":"identifier","verifiedAt":"2026-08-30"},{"label":"繁體中文季度列表交叉對照","url":"https://zh.wikipedia.org/wiki/2024%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","language":"zh-Hant","role":"localized_cross_check","verifiedAt":"2026-08-30"},{"label":"季度首播公開來源","url":"https://annict.com/works/2024-autumn?display=list_detailed","language":"ja","role":"broadcast_cross_check","verifiedAt":"2026-08-30"},{"label":"季度首播公開來源","url":"https://annict.com/works/14029","language":"ja","role":"broadcast_cross_check","verifiedAt":"2026-08-30"},{"url":"https://tv.apple.com/jp/show/%E3%83%9E%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC%E3%82%AA%E3%83%95%E3%82%B5%E3%83%86%E3%83%83%E3%83%88/umc.cmc.5y68vhmma34m14tvo2lkygukx","label":"Apple TV：同版配信正篇逐話24分鐘，非TV剪輯秒數","role":"first_party","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://thetv.jp/program/0001053708/","label":"TheTV：正篇原播日期與每週30分鐘TV槽","role":"broadcast_cross_check","language":"ja","verifiedAt":"2026-10-30"},{"url":"https://of-the-dead.com/story1","label":"動畫官方：同版正篇第1話識別","role":"first_party","language":"ja","verifiedAt":"2026-10-30"}],"broadcastTimeJst":"01:00","metadataVerifiedAt":"2026-10-30","themeAvailability":"documented"},

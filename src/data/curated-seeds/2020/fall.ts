@@ -138,51 +138,322 @@ const curated2020FallSeedRows: CuratedAnimeSeed[] = [
   {"anilistId":118376,"id":"curated-118376","slug":"kings-raid-ishi-wo-tsugumonotachi","seasonIds":["2020-fall","2021-winter"],"startDate":"2020-10-03","titleJa":"キングスレイド 意志を継ぐものたち","titleZhHant":"王之逆襲: 意志的繼承者","titleRomaji":"King's Raid: Ishi wo Tsugumonotachi","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx118376-V0mSf2LG0OOs.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/118376-7TjzzE1rUmFi.jpg","editorialWeekday":6,"broadcastLabel":"テレビ東京原首話；原標2020年10月2日25時23分","status":"finished","anilistUrl":"https://anilist.co/anime/118376","imageSourceUrl":"https://anilist.co/anime/118376","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://youranimes.tw/animes/607","https://acgsecrets.hk/anime/178/","https://annict.com/works/7499"],"animeThemesUrl":"https://animethemes.moe/anime/kings_raid_ishi_wo_tsugumono_tachi","themes":[{"type":"OP","sequence":1,"titleJa":"legendary future","artistDisplayName":"fripSide","id":"kings-raid-ishi-wo-tsugumonotachi-op-1","songId":"kings-raid-ishi-wo-tsugumonotachi-op-1-song","sources":[{"label":"AnimeThemes","url":"https://animethemes.moe/anime/kings_raid_ishi_wo_tsugumono_tachi","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://nbcuni-music.com/fripside/discography/single/index00380000.html","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202010/26051_202010022523.html","label":"第一方本期逐曲用途；歌曲身分與創作資料依各自來源","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://gnn.gamer.com.tw/detail.php?sn=202771","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"},{"url":"https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%89","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-23"}],"links":[],"sourceMode":"explicit","seasonIds":["2020-fall"],"credits":[],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://nbcuni-music.com/fripside/discography/single/index00380000.html"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://nbcuni-music.com/fripside/discography/single/index00380000.html","https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202010/26051_202010022523.html"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://gnn.gamer.com.tw/detail.php?sn=202771"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://gnn.gamer.com.tw/detail.php?sn=202771"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%89"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%89"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-op-1"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈legendary future〉：本期原名、正式名義及已列用途與季度已核；未推定個別成員演唱或其他錄音版本。","resumeWhen":"待正式錄音、發行品及平台逐曲資料可讀，再補可選欄位。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"OP","sequence":2,"titleJa":"Eclipse","artistDisplayName":"DREAMCATCHER","id":"kings-raid-ishi-wo-tsugumonotachi-op-2","songId":"kings-raid-ishi-wo-tsugumonotachi-op-2-song","sources":[{"label":"AnimeThemes","url":"https://animethemes.moe/anime/kings_raid_ishi_wo_tsugumono_tachi","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://news.ponycanyon.co.jp/2020/12/45668","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://rightscube.co.jp/movies/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%89-%E6%84%8F%E5%BF%97%E3%82%92%E7%B6%99%E3%81%90%E3%82%82%E3%81%AE%E3%81%9F%E3%81%A1-vol-6/","label":"第一方本期逐曲用途；歌曲身分與創作資料依各自來源","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202012/26051_202012252523.html","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://gnn.gamer.com.tw/detail.php?sn=207335","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"},{"url":"https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%89","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-23"}],"links":[],"sourceMode":"explicit","seasonIds":["2020-fall","2021-winter"],"credits":[],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://news.ponycanyon.co.jp/2020/12/45668"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-op-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://news.ponycanyon.co.jp/2020/12/45668","https://rightscube.co.jp/movies/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%89-%E6%84%8F%E5%BF%97%E3%82%92%E7%B6%99%E3%81%90%E3%82%82%E3%81%AE%E3%81%9F%E3%81%A1-vol-6/"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-op-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://gnn.gamer.com.tw/detail.php?sn=207335"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-op-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://gnn.gamer.com.tw/detail.php?sn=207335"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-op-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%89"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-op-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%89"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-op-2"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈Eclipse〉：本期原名、正式名義及已列用途與季度已核；未推定個別成員演唱或其他錄音版本。","resumeWhen":"待正式錄音、發行品及平台逐曲資料可讀，再補可選欄位。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":1,"titleJa":"SticK Out","artistDisplayName":"KOTOKO","id":"kings-raid-ishi-wo-tsugumonotachi-ed-1","songId":"kings-raid-ishi-wo-tsugumonotachi-ed-1-song","sources":[{"label":"AnimeThemes","url":"https://animethemes.moe/anime/kings_raid_ishi_wo_tsugumono_tachi","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://nbcuni-music.com/kotoko/discography/single/index00370000.html","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202010/26051_202010022523.html","label":"第一方本期逐曲用途；歌曲身分與創作資料依各自來源","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://gnn.gamer.com.tw/detail.php?sn=202771","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"},{"url":"https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%89","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-23"}],"links":[],"sourceMode":"explicit","seasonIds":["2020-fall"],"credits":[{"name":"KOTOKO","role":"lyrics"},{"name":"DECO*27","role":"composition"},{"name":"Rockwell","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://nbcuni-music.com/kotoko/discography/single/index00370000.html"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://nbcuni-music.com/kotoko/discography/single/index00370000.html","https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202010/26051_202010022523.html"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://gnn.gamer.com.tw/detail.php?sn=202771"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://gnn.gamer.com.tw/detail.php?sn=202771"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%89"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%89"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://nbcuni-music.com/kotoko/discography/single/index00370000.html"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈SticK Out〉：本期原名、正式名義及已列用途與季度已核；未推定個別成員演唱或其他錄音版本。","resumeWhen":"待正式錄音、發行品及平台逐曲資料可讀，再補可選欄位。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":2,"titleJa":"One Wish","artistDisplayName":"飯田里穂","id":"kings-raid-ishi-wo-tsugumonotachi-ed-2","songId":"kings-raid-ishi-wo-tsugumonotachi-ed-2-song","sources":[{"label":"AnimeThemes","url":"https://animethemes.moe/anime/kings_raid_ishi_wo_tsugumono_tachi","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://iida-riho.com/musics/9996","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://rightscube.co.jp/movies/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%89-%E6%84%8F%E5%BF%97%E3%82%92%E7%B6%99%E3%81%90%E3%82%82%E3%81%AE%E3%81%9F%E3%81%A1-vol-6/","label":"第一方本期逐曲用途；歌曲身分與創作資料依各自來源","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202012/26051_202012252523.html","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://gnn.gamer.com.tw/detail.php?sn=207335","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"},{"url":"https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%89","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-23"}],"links":[],"sourceMode":"explicit","seasonIds":["2021-winter"],"credits":[{"name":"八木沼悟志","role":"lyrics"},{"name":"八木沼悟志","role":"composition"},{"name":"齋藤真也","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://iida-riho.com/musics/9996"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://iida-riho.com/musics/9996","https://rightscube.co.jp/movies/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%89-%E6%84%8F%E5%BF%97%E3%82%92%E7%B6%99%E3%81%90%E3%82%82%E3%81%AE%E3%81%9F%E3%81%A1-vol-6/"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-ed-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://gnn.gamer.com.tw/detail.php?sn=207335"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://gnn.gamer.com.tw/detail.php?sn=207335"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-ed-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%89"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%89"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-ed-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://iida-riho.com/musics/9996"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["use_quarters","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈One Wish〉：本期後半片尾曲與冬季用途已核；12月底首次實際使用仍待逐話直接資料。","resumeWhen":"待原期第13／14話直接片尾名單或官方逐曲換曲公告可讀，再核是否亦用於2020秋；不以12月26日下載日或另一首OP起日推定。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"}],"verifiedAt":"2026-09-02","metadataVerifiedAt":"2026-09-02","metadataSources":[{"url":"https://youranimes.tw/animes/607","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"},{"url":"https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%89","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202010/26051_202010022523.html","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://rightscube.co.jp/movies/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%89%E3%80%80%E6%84%8F%E5%BF%97%E3%82%92%E7%B6%99%E3%81%90%E3%82%82%E3%81%AE%E3%81%9F%E3%81%A1-vol-1/","label":"第一方動畫原名資料；不證季度或精確首日／時分","role":"first_party","language":"ja","verifiedAt":"2026-10-23"}],"broadcastTimeJst":"01:23"},
   {"anilistId":118399,"id":"curated-118399","slug":"hanyou-no-yashahime","seasonIds":["2020-fall","2021-winter"],"startDate":"2020-10-03","titleJa":"半妖の夜叉姫","titleZhHant":"半妖的夜叉姬","titleRomaji":"Hanyou no Yashahime","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx118399-sgHg8NQVQixB.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/118399-4KrsagqbRsgD.jpg","editorialWeekday":6,"broadcastLabel":"読売テレビ原壱の章；本期首播分鐘待直接舊公告","status":"finished","officialSiteUrl":"https://hanyo-yashahime.com/","anilistUrl":"https://anilist.co/anime/118399","imageSourceUrl":"https://anilist.co/anime/118399","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://youranimes.tw/animes/584","https://acgsecrets.hk/anime/176/"],"animeThemesUrl":"https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi","themes":[{"type":"OP","sequence":1,"titleJa":"NEW ERA","artistDisplayName":"SixTONES","id":"hanyou-no-yashahime-op-1","songId":"hanyou-no-yashahime-op-1-song","sources":[{"label":"動畫官方網站","url":"https://hanyo-yashahime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://www.hanyo-yashahime.com/music/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://www.ytv.co.jp/hanyo-yashahime/news/","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://hanyo-yashahime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2020-fall"],"credits":[{"name":"Page Grace","role":"lyrics"},{"name":"Dr. Loui","role":"lyrics"},{"name":"Naoki Itai","role":"lyrics"},{"name":"Naoki Itai","role":"composition"},{"name":"MEG","role":"composition"},{"name":"Naoki Itai","role":"arrangement"},{"name":"MEG","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.hanyo-yashahime.com/music/"],"verifiedAt":"2026-10-23","targetId":"hanyou-no-yashahime-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.hanyo-yashahime.com/music/"],"verifiedAt":"2026-10-23","targetId":"hanyou-no-yashahime-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"],"verifiedAt":"2026-10-23","targetId":"hanyou-no-yashahime-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"],"verifiedAt":"2026-10-23","targetId":"hanyou-no-yashahime-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.hanyo-yashahime.com/music/"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈NEW ERA〉：本期原名、正式名義及已列用途與季度已核；未推定個別成員演唱或其他錄音版本。 原TV最早時分仍待第一方，未補分鐘。","resumeWhen":"待正式錄音、發行品及平台逐曲資料可讀，再補可選欄位。 待2020年原首播公告明本期最早時分可讀，再補分鐘；不移用弐の章或2021年1月時刻。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"OP","sequence":2,"titleJa":"BURN","artistDisplayName":"NEWS","id":"hanyou-no-yashahime-op-2","songId":"hanyou-no-yashahime-op-2-song","sources":[{"label":"動畫官方網站","url":"https://hanyo-yashahime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://www.hanyo-yashahime.com/music/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://www.ytv.co.jp/hanyo-yashahime/news/","label":"第一方本期逐曲用途；歌曲身分與創作資料依各自來源","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://hanyo-yashahime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-winter"],"credits":[{"name":"AKIRA","role":"lyrics"},{"name":"ヒロイズム","role":"lyrics"},{"name":"ヒロイズム","role":"composition"},{"name":"ヒロイズム","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.hanyo-yashahime.com/music/"],"verifiedAt":"2026-10-23","targetId":"hanyou-no-yashahime-op-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.hanyo-yashahime.com/music/","https://www.ytv.co.jp/hanyo-yashahime/news/"],"verifiedAt":"2026-10-23","targetId":"hanyou-no-yashahime-op-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"],"verifiedAt":"2026-10-23","targetId":"hanyou-no-yashahime-op-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"],"verifiedAt":"2026-10-23","targetId":"hanyou-no-yashahime-op-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.hanyo-yashahime.com/music/"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈BURN〉：本期原名、正式名義及已列用途與季度已核；未推定個別成員演唱或其他錄音版本。 原TV最早時分仍待第一方，未補分鐘。","resumeWhen":"待正式錄音、發行品及平台逐曲資料可讀，再補可選欄位。 待2020年原首播公告明本期最早時分可讀，再補分鐘；不移用弐の章或2021年1月時刻。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":1,"titleJa":"Break","artistDisplayName":"Uru","id":"hanyou-no-yashahime-ed-1","songId":"hanyou-no-yashahime-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://hanyo-yashahime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"Uru Official YouTube Channel 官方影片","url":"https://www.youtube.com/watch?v=OUZTFpIqhVk","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://www.hanyo-yashahime.com/music/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://www.ytv.co.jp/hanyo-yashahime/news/","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://hanyo-yashahime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2020-fall"],"credits":[{"name":"Uru","role":"lyrics"},{"name":"Uru","role":"composition"},{"name":"Yaffle","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.hanyo-yashahime.com/music/"],"verifiedAt":"2026-10-23","targetId":"hanyou-no-yashahime-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.hanyo-yashahime.com/music/"],"verifiedAt":"2026-10-23","targetId":"hanyou-no-yashahime-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"],"verifiedAt":"2026-10-23","targetId":"hanyou-no-yashahime-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"],"verifiedAt":"2026-10-23","targetId":"hanyou-no-yashahime-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.hanyo-yashahime.com/music/"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈Break〉：本期原名、正式名義及已列用途與季度已核；未推定個別成員演唱或其他錄音版本。 原TV最早時分仍待第一方，未補分鐘。","resumeWhen":"待正式錄音、發行品及平台逐曲資料可讀，再補可選欄位。 待2020年原首播公告明本期最早時分可讀，再補分鐘；不移用弐の章或2021年1月時刻。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":2,"titleJa":"結証","titleRomaji":"Kesshou","artistDisplayName":"緑黄色社会","id":"hanyou-no-yashahime-ed-2","songId":"hanyou-no-yashahime-ed-2-song","sources":[{"label":"動畫官方網站","url":"https://hanyo-yashahime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"緑黄色社会 官方影片","url":"https://www.youtube.com/watch?v=1422nca02G4","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://www.hanyo-yashahime.com/music/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://www.ytv.co.jp/hanyo-yashahime/news/","label":"第一方本期逐曲用途；歌曲身分與創作資料依各自來源","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://hanyo-yashahime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-winter"],"credits":[{"name":"長屋晴子","role":"lyrics"},{"name":"小林壱誓","role":"composition"},{"name":"soundbreakers","role":"arrangement"},{"name":"緑黄色社会","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.hanyo-yashahime.com/music/"],"verifiedAt":"2026-10-23","targetId":"hanyou-no-yashahime-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.hanyo-yashahime.com/music/","https://www.ytv.co.jp/hanyo-yashahime/news/"],"verifiedAt":"2026-10-23","targetId":"hanyou-no-yashahime-ed-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"],"verifiedAt":"2026-10-23","targetId":"hanyou-no-yashahime-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"],"verifiedAt":"2026-10-23","targetId":"hanyou-no-yashahime-ed-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.hanyo-yashahime.com/music/"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈結証〉：本期原名、正式名義及已列用途與季度已核；未推定個別成員演唱或其他錄音版本。 原TV最早時分仍待第一方，未補分鐘。","resumeWhen":"待正式錄音、發行品及平台逐曲資料可讀，再補可選欄位。 待2020年原首播公告明本期最早時分可讀，再補分鐘；不移用弐の章或2021年1月時刻。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"}],"verifiedAt":"2026-09-02","metadataVerifiedAt":"2026-09-02","metadataSources":[{"url":"https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"},{"url":"https://www.ytv.co.jp/hanyo-yashahime/news/","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-23"}]},
   {
-    anilistId: 112300,
-    id: "curated-112300",
-    slug: "mahouka-koukou-no-rettousei-raihousha-hen",
-    seasonIds: ["2020-fall"],
-    startDate: "2020-10-04",
-    titleJa: "魔法科高校の劣等生 来訪者編",
-    titleZhHant: "魔法科高中的劣等生 第二季：來訪者篇",
-    titleRomaji: "Mahouka Koukou no Rettousei: Raihousha-hen",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112300-I5ucx66OvqWX.png",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112300-qYRRTys8bmeS.jpg",
-    editorialWeekday: 7,
-    broadcastLabel: "日本首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://mahouka.jp/2nd/",
-    anilistUrl: "https://anilist.co/anime/112300",
-    imageSourceUrl: "https://anilist.co/anime/112300",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/601",
-      "https://acgsecrets.hk/anime/72/",
-      "https://annict.com/works/6984",
-    ],
-    animeThemesUrl:
-      "https://animethemes.moe/anime/mahouka_koukou_no_rettousei_raihousha_hen",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "Howling",
-        artistDisplayName: "ASCA",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "名もない花",
-        titleRomaji: "Namonai Hana",
-        artistDisplayName: "佐藤ミキ",
-      },
-    ],
-    verifiedAt: "2026-09-02",
-  },
+  "anilistId": 112300,
+  "id": "curated-112300",
+  "slug": "mahouka-koukou-no-rettousei-raihousha-hen",
+  "seasonIds": [
+    "2020-fall"
+  ],
+  "startDate": "2020-10-04",
+  "titleJa": "魔法科高校の劣等生 来訪者編",
+  "titleZhHant": "魔法科高中的劣等生 第二季：來訪者篇",
+  "titleRomaji": "Mahouka Koukou no Rettousei: Raihousha-hen",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112300-I5ucx66OvqWX.png",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112300-qYRRTys8bmeS.jpg",
+  "editorialWeekday": 7,
+  "broadcastLabel": "日本TV原編排：2020-10-03（土）24:30起MX／BS11等（曆日10/4）；官方所列FOD正版来訪者編逐話23分鐘。配信與再播另分，不套用第1期／追憶編。",
+  "status": "finished",
+  "officialSiteUrl": "https://mahouka.jp/2nd/",
+  "anilistUrl": "https://anilist.co/anime/112300",
+  "imageSourceUrl": "https://anilist.co/anime/112300",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/601",
+    "https://acgsecrets.hk/anime/72/",
+    "https://annict.com/works/6984"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/mahouka_koukou_no_rettousei_raihousha_hen",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "Howling",
+      "artistDisplayName": "ASCA",
+      "id": "mahouka-koukou-no-rettousei-raihousha-hen-op-1",
+      "songId": "mahouka-koukou-no-rettousei-raihousha-hen-op-1-song",
+      "seasonIds": [
+        "2020-fall"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://mahouka.jp/2nd/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/mahouka_koukou_no_rettousei_raihousha_hen",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "ASCA Official YouTube Channel 官方影片",
+          "url": "https://www.youtube.com/watch?v=Cf7piHkO_VU",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://mahouka.jp/2nd/music/",
+          "label": "来訪者編官方MUSIC：Howling OP／名もない花 ED及演唱",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://www.aniplex.co.jp/lineup/mahouka_tv2nd/news/detail/?id=55033",
+          "label": "ANIPLEX原2020/9/5来訪者編公告：兩曲精確OP／ED及演唱",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://www.animatetimes.com/news/details.php?id=1599302060",
+          "label": "Animate Times原2020/9/5報導：本第2期兩曲及原TV季度",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "sourceMode": "explicit",
+      "lastVerifiedAt": "2026-11-05",
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "mahouka-koukou-no-rettousei-raihousha-hen-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.aniplex.co.jp/lineup/mahouka_tv2nd/news/detail/?id=55033"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "mahouka-koukou-no-rettousei-raihousha-hen-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.aniplex.co.jp/lineup/mahouka_tv2nd/news/detail/?id=55033"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "song",
+          "targetId": "mahouka-koukou-no-rettousei-raihousha-hen-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1599302060"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "mahouka-koukou-no-rettousei-raihousha-hen-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1599302060"
+          ],
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "usageLabel": "2020年TV第2期「来訪者編」OP；2020秋，與第1期及追憶編分開"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "名もない花",
+      "titleRomaji": "Namonai Hana",
+      "artistDisplayName": "佐藤ミキ",
+      "id": "mahouka-koukou-no-rettousei-raihousha-hen-ed-1",
+      "songId": "mahouka-koukou-no-rettousei-raihousha-hen-ed-1-song",
+      "seasonIds": [
+        "2020-fall"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://mahouka.jp/2nd/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/mahouka_koukou_no_rettousei_raihousha_hen",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "佐藤ミキ Official YouTube Channel 官方影片",
+          "url": "https://www.youtube.com/watch?v=NcbxaJgPEr0",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://mahouka.jp/2nd/music/",
+          "label": "来訪者編官方MUSIC：Howling OP／名もない花 ED及演唱",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://www.aniplex.co.jp/lineup/mahouka_tv2nd/news/detail/?id=55033",
+          "label": "ANIPLEX原2020/9/5来訪者編公告：兩曲精確OP／ED及演唱",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://www.animatetimes.com/news/details.php?id=1599302060",
+          "label": "Animate Times原2020/9/5報導：本第2期兩曲及原TV季度",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "sourceMode": "explicit",
+      "lastVerifiedAt": "2026-11-05",
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "mahouka-koukou-no-rettousei-raihousha-hen-ed-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.aniplex.co.jp/lineup/mahouka_tv2nd/news/detail/?id=55033"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "mahouka-koukou-no-rettousei-raihousha-hen-ed-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.aniplex.co.jp/lineup/mahouka_tv2nd/news/detail/?id=55033"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "song",
+          "targetId": "mahouka-koukou-no-rettousei-raihousha-hen-ed-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1599302060"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "mahouka-koukou-no-rettousei-raihousha-hen-ed-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1599302060"
+          ],
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "usageLabel": "2020年TV第2期「来訪者編」ED；2020秋，與第1期及追憶編分開"
+    }
+  ],
+  "verifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-11-05",
+  "metadataSources": [
+    {
+      "label": "動畫官方網站：作品與播出資料",
+      "url": "https://mahouka.jp/2nd/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "AniList：作品識別與公開圖像",
+      "url": "https://anilist.co/anime/112300",
+      "language": "en",
+      "role": "identifier",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "繁體中文季度列表交叉對照",
+      "url": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+      "language": "zh-Hant",
+      "role": "localized_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "AnimeThemes：OP／ED 曲目交叉核對",
+      "url": "https://animethemes.moe/anime/mahouka_koukou_no_rettousei_raihousha_hen",
+      "language": "en",
+      "role": "theme_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://youranimes.tw/animes/601",
+      "language": "zh-Hant",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://acgsecrets.hk/anime/72/",
+      "language": "zh-Hant",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://annict.com/works/6984",
+      "language": "ja",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "url": "https://fod.fujitv.co.jp/title/5f05/",
+      "label": "官方所列正版FOD：2020来訪者編逐話23分鐘",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://mahouka.jp/2nd/onair/",
+      "label": "来訪者編原官ON AIR：2020/10/3（土）24:30 MX／BS11等，配信分列",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://www.aniplex.co.jp/lineup/mahouka_tv2nd/news/detail/?id=55033",
+      "label": "ANIPLEX原2020/9/5来訪者編公告：兩曲精確OP／ED及演唱",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    }
+  ]
+},
   {"anilistId":115740,"id":"curated-115740","slug":"kamitachi-ni-hirowareta-otoko","seasonIds":["2020-fall"],"startDate":"2020-10-04","titleJa":"神達に拾われた男","titleZhHant":"眾神眷顧的男人","titleRomaji":"Kamitachi ni Hirowareta Otoko","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115740-IRwSQo96Qs2Q.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/115740-TdrPYy19b8pp.jpg","editorialWeekday":7,"broadcastLabel":"日本原期TOKYO MX／2020年10月4日（日）23:30 JST","status":"finished","officialSiteUrl":"https://kamihiro-anime.com/","anilistUrl":"https://anilist.co/anime/115740","imageSourceUrl":"https://anilist.co/anime/115740","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://youranimes.tw/animes/595","https://acgsecrets.hk/anime/143/","https://annict.com/works/7336"],"animeThemesUrl":"https://animethemes.moe/anime/kami_tachi_ni_hirowareta_otoko","themes":[{"type":"OP","sequence":1,"titleJa":"ヤサシイセカイ","titleRomaji":"Yasashii Sekai","artistDisplayName":"田所あずさ","id":"kamitachi-ni-hirowareta-otoko-op-1","songId":"kamitachi-ni-hirowareta-otoko-op-1-song","sources":[{"label":"動畫官方網站","url":"https://kamihiro-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/kami_tachi_ni_hirowareta_otoko","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://kamihiro-anime.com/1st/music/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://kamihiro-anime.com/1st/onair/","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E7%9C%BE%E7%A5%9E%E7%9C%B7%E9%A1%A7%E7%9A%84%E7%94%B7%E4%BA%BA","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://kamihiro-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2020-fall"],"credits":[],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://kamihiro-anime.com/1st/music/"],"verifiedAt":"2026-10-23","targetId":"kamitachi-ni-hirowareta-otoko-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://kamihiro-anime.com/1st/music/"],"verifiedAt":"2026-10-23","targetId":"kamitachi-ni-hirowareta-otoko-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E7%9C%BE%E7%A5%9E%E7%9C%B7%E9%A1%A7%E7%9A%84%E7%94%B7%E4%BA%BA"],"verifiedAt":"2026-10-23","targetId":"kamitachi-ni-hirowareta-otoko-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E7%9C%BE%E7%A5%9E%E7%9C%B7%E9%A1%A7%E7%9A%84%E7%94%B7%E4%BA%BA"],"verifiedAt":"2026-10-23","targetId":"kamitachi-ni-hirowareta-otoko-op-1"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈ヤサシイセカイ〉：本期原曲名、正式演唱名義及片頭／片尾用途已核；不推個人歌唱或錄音版本。","resumeWhen":"待本曲正式音源、發行與正版平台直接資料可讀，再補可選欄位。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":1,"titleJa":"BLUE ROSE knows","artistDisplayName":"MindaRyn","id":"kamitachi-ni-hirowareta-otoko-ed-1","songId":"kamitachi-ni-hirowareta-otoko-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://kamihiro-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/kami_tachi_ni_hirowareta_otoko","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://kamihiro-anime.com/1st/music/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://kamihiro-anime.com/1st/onair/","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E7%9C%BE%E7%A5%9E%E7%9C%B7%E9%A1%A7%E7%9A%84%E7%94%B7%E4%BA%BA","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://kamihiro-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2020-fall"],"credits":[],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://kamihiro-anime.com/1st/music/"],"verifiedAt":"2026-10-23","targetId":"kamitachi-ni-hirowareta-otoko-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://kamihiro-anime.com/1st/music/"],"verifiedAt":"2026-10-23","targetId":"kamitachi-ni-hirowareta-otoko-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E7%9C%BE%E7%A5%9E%E7%9C%B7%E9%A1%A7%E7%9A%84%E7%94%B7%E4%BA%BA"],"verifiedAt":"2026-10-23","targetId":"kamitachi-ni-hirowareta-otoko-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E7%9C%BE%E7%A5%9E%E7%9C%B7%E9%A1%A7%E7%9A%84%E7%94%B7%E4%BA%BA"],"verifiedAt":"2026-10-23","targetId":"kamitachi-ni-hirowareta-otoko-ed-1"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈BLUE ROSE knows〉：本期原曲名、正式演唱名義及片頭／片尾用途已核；不推個人歌唱或錄音版本。","resumeWhen":"待本曲正式音源、發行與正版平台直接資料可讀，再補可選欄位。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"}],"verifiedAt":"2026-09-02","metadataVerifiedAt":"2026-09-02","metadataSources":[{"url":"https://zh.wikipedia.org/wiki/%E7%9C%BE%E7%A5%9E%E7%9C%B7%E9%A1%A7%E7%9A%84%E7%94%B7%E4%BA%BA","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"},{"url":"https://kamihiro-anime.com/1st/onair/","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-23"}],"broadcastTimeJst":"23:30"},
   {"anilistId":117343,"id":"curated-117343","slug":"munou-na-nana","seasonIds":["2020-fall"],"startDate":"2020-10-04","titleJa":"無能なナナ","titleZhHant":"無能力者娜娜","titleRomaji":"Munou na Nana","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx117343-NgCLZTaxallv.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/117343-w0m2gfOlQphZ.jpg","editorialWeekday":7,"broadcastLabel":"日本原期AT-X／2020年10月4日（日）21:30 JST；地上波TOKYO MX22:00","status":"finished","officialSiteUrl":"https://munounanana.com/","anilistUrl":"https://anilist.co/anime/117343","imageSourceUrl":"https://anilist.co/anime/117343","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://youranimes.tw/animes/585","https://acgsecrets.hk/anime/183/","https://annict.com/works/7473"],"animeThemesUrl":"https://animethemes.moe/anime/munou_na_nana","themes":[{"type":"OP","sequence":1,"titleJa":"Broken Sky","artistDisplayName":"富田美憂","id":"munou-na-nana-op-1","songId":"munou-na-nana-op-1-song","sources":[{"label":"動畫官方網站","url":"https://munounanana.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/munou_na_nana","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"富田美憂 Miyu Tomita -Music Channel- 官方影片","url":"https://www.youtube.com/watch?v=DXL7xIqytMU","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://munounanana.com/music/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://munounanana.com/onair/","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E7%84%A1%E8%83%BD%E5%8A%9B%E8%80%85%E5%A8%9C%E5%A8%9C","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://munounanana.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2020-fall"],"credits":[{"name":"大西洋平","role":"lyrics"},{"name":"VaChee","role":"composition"},{"name":"Ryo Yamazaki","role":"composition"},{"name":"VaChee","role":"arrangement"},{"name":"Ryo Yamazaki","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://munounanana.com/music/"],"verifiedAt":"2026-10-23","targetId":"munou-na-nana-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://munounanana.com/music/"],"verifiedAt":"2026-10-23","targetId":"munou-na-nana-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E7%84%A1%E8%83%BD%E5%8A%9B%E8%80%85%E5%A8%9C%E5%A8%9C"],"verifiedAt":"2026-10-23","targetId":"munou-na-nana-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E7%84%A1%E8%83%BD%E5%8A%9B%E8%80%85%E5%A8%9C%E5%A8%9C"],"verifiedAt":"2026-10-23","targetId":"munou-na-nana-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://munounanana.com/music/"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈Broken Sky〉：本期原曲名、正式演唱名義及片頭／片尾用途已核；不推個人歌唱或錄音版本。","resumeWhen":"待本曲正式音源、發行與正版平台直接資料可讀，再補可選欄位。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":1,"titleJa":"バケモノと呼ばれて","titleRomaji":"Bakemono to Yobarete","artistDisplayName":"藤川千愛","id":"munou-na-nana-ed-1","songId":"munou-na-nana-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://munounanana.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/munou_na_nana","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"Chiai Fujikawa 官方影片","url":"https://www.youtube.com/watch?v=bdQ8JyFhFx4","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://munounanana.com/music/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://munounanana.com/onair/","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E7%84%A1%E8%83%BD%E5%8A%9B%E8%80%85%E5%A8%9C%E5%A8%9C","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://munounanana.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2020-fall"],"credits":[],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://munounanana.com/music/"],"verifiedAt":"2026-10-23","targetId":"munou-na-nana-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://munounanana.com/music/"],"verifiedAt":"2026-10-23","targetId":"munou-na-nana-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E7%84%A1%E8%83%BD%E5%8A%9B%E8%80%85%E5%A8%9C%E5%A8%9C"],"verifiedAt":"2026-10-23","targetId":"munou-na-nana-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E7%84%A1%E8%83%BD%E5%8A%9B%E8%80%85%E5%A8%9C%E5%A8%9C"],"verifiedAt":"2026-10-23","targetId":"munou-na-nana-ed-1"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈バケモノと呼ばれて〉：本期原曲名、正式演唱名義及片頭／片尾用途已核；不推個人歌唱或錄音版本。","resumeWhen":"待本曲正式音源、發行與正版平台直接資料可讀，再補可選欄位。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"}],"verifiedAt":"2026-09-02","metadataVerifiedAt":"2026-09-02","metadataSources":[{"url":"https://zh.wikipedia.org/wiki/%E7%84%A1%E8%83%BD%E5%8A%9B%E8%80%85%E5%A8%9C%E5%A8%9C","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"},{"url":"https://munounanana.com/onair/","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-23"}],"broadcastTimeJst":"21:30"},
   {"anilistId":117757,"id":"curated-117757","slug":"iwa-kakeru-sport-climbing-girls","seasonIds":["2020-fall"],"startDate":"2020-10-04","titleJa":"いわかける！ -Sport Climbing Girls-","titleZhHant":"攀岩少女！","titleRomaji":"Iwa Kakeru!: Sport Climbing Girls","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx117757-FZgl5V5Ae5Ar.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/117757-32FUduKGI249.jpg","editorialWeekday":7,"broadcastLabel":"原TV精確首日／時分待第一方核實；既有首日僅保留為候選。","status":"finished","officialSiteUrl":"https://iwakakeru-anime.com/","anilistUrl":"https://anilist.co/anime/117757","imageSourceUrl":"https://anilist.co/anime/117757","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://youranimes.tw/animes/608","https://acgsecrets.hk/anime/656/","https://annict.com/works/7492"],"animeThemesUrl":"https://animethemes.moe/anime/iwa_kakeru_sport_climbing_girls","themes":[{"type":"OP","sequence":1,"titleJa":"もっと高く","titleRomaji":"Motto Takaku","artistDisplayName":"鈴木愛奈","id":"iwa-kakeru-sport-climbing-girls-op-1","songId":"iwa-kakeru-sport-climbing-girls-op-1-song","sources":[{"label":"動畫官方網站","url":"https://iwakakeru-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/iwa_kakeru_sport_climbing_girls","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://suzukiaina.jp/discography/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://heart-company.co.jp/2020/12/30/2020-heartcompany-summary/","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E6%94%80%E5%B2%A9%EF%BC%81_-Climbing_Girls-","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://iwakakeru-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2020-fall"],"credits":[{"name":"浅田 秀之","role":"lyrics"},{"name":"浅田 秀之","role":"composition"},{"name":"栗山 健太","role":"composition"},{"name":"ＩＫＷ","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://suzukiaina.jp/discography/"],"verifiedAt":"2026-10-23","targetId":"iwa-kakeru-sport-climbing-girls-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://suzukiaina.jp/discography/"],"verifiedAt":"2026-10-23","targetId":"iwa-kakeru-sport-climbing-girls-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%94%80%E5%B2%A9%EF%BC%81_-Climbing_Girls-"],"verifiedAt":"2026-10-23","targetId":"iwa-kakeru-sport-climbing-girls-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%94%80%E5%B2%A9%EF%BC%81_-Climbing_Girls-"],"verifiedAt":"2026-10-23","targetId":"iwa-kakeru-sport-climbing-girls-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://suzukiaina.jp/discography/"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈もっと高く〉：本期原曲名、正式演唱名義及片頭／片尾用途已核；不推個人歌唱或錄音版本。 原TV精確首日／時分仍待第一方，既有首日僅保留為候選；已核季度與歌曲用途分開記錄。","resumeWhen":"待本曲正式音源、發行與正版平台直接資料可讀，再補可選欄位。 待原期播出方首播公告或可直接讀取之2020年10月首週官方節目表，再核首日及深夜換日。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":1,"titleJa":"LET’S CLIMB↑","artistDisplayName":"花宮女子クライミング部","id":"iwa-kakeru-sport-climbing-girls-ed-1","songId":"iwa-kakeru-sport-climbing-girls-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://iwakakeru-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/iwa_kakeru_sport_climbing_girls","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://heart-company.co.jp/2020/12/30/2020-heartcompany-summary/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E6%94%80%E5%B2%A9%EF%BC%81_-Climbing_Girls-","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://iwakakeru-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2020-fall"],"credits":[{"name":"安藤紗々","role":"lyrics"},{"name":"神田ジョン","role":"composition"},{"name":"神田ジョン","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://heart-company.co.jp/2020/12/30/2020-heartcompany-summary/"],"verifiedAt":"2026-10-23","targetId":"iwa-kakeru-sport-climbing-girls-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://heart-company.co.jp/2020/12/30/2020-heartcompany-summary/"],"verifiedAt":"2026-10-23","targetId":"iwa-kakeru-sport-climbing-girls-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%94%80%E5%B2%A9%EF%BC%81_-Climbing_Girls-"],"verifiedAt":"2026-10-23","targetId":"iwa-kakeru-sport-climbing-girls-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%94%80%E5%B2%A9%EF%BC%81_-Climbing_Girls-"],"verifiedAt":"2026-10-23","targetId":"iwa-kakeru-sport-climbing-girls-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://heart-company.co.jp/2020/12/30/2020-heartcompany-summary/"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈LET’S CLIMB↑〉：本期原曲名、正式演唱名義及片頭／片尾用途已核；不推個人歌唱或錄音版本。 原TV精確首日／時分仍待第一方，既有首日僅保留為候選；已核季度與歌曲用途分開記錄。","resumeWhen":"待本曲正式音源、發行與正版平台直接資料可讀，再補可選欄位。 待原期播出方首播公告或可直接讀取之2020年10月首週官方節目表，再核首日及深夜換日。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":2,"titleJa":"LET’S CLIMB↑","artistDisplayName":"上坂すみれ","id":"iwa-kakeru-sport-climbing-girls-ed-2","songId":"iwa-kakeru-sport-climbing-girls-ed-2-song","sources":[{"label":"動畫官方網站","url":"https://iwakakeru-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/iwa_kakeru_sport_climbing_girls","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://heart-company.co.jp/2020/12/30/2020-heartcompany-summary/","label":"第一方僅證本曲原名；正式名義與本期用途待核","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E6%94%80%E5%B2%A9%EF%BC%81_-Climbing_Girls-","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://iwakakeru-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":[],"credits":[],"evidence":[{"target":"song","fields":["title"],"sourceUrls":["https://heart-company.co.jp/2020/12/30/2020-heartcompany-summary/"],"verifiedAt":"2026-10-23","targetId":"iwa-kakeru-sport-climbing-girls-ed-2-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%94%80%E5%B2%A9%EF%BC%81_-Climbing_Girls-"],"verifiedAt":"2026-10-23","targetId":"iwa-kakeru-sport-climbing-girls-ed-2-song"}],"followUp":[{"fields":["basic_evidence","use_quarters","lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈LET’S CLIMB↑〉：同曲獨唱的原期片尾用途與正式歌唱名義仍待直接資料，暫不分派季度。 原TV精確首日／時分仍待第一方，既有首日僅保留為候選；已核季度與歌曲用途分開記錄。","resumeWhen":"待原期對應集數片尾credit或官方逐話獨唱片尾說明可讀，再核名義與使用集數；不以商品獨唱收錄推TV用途。 待原期播出方首播公告或可直接讀取之2020年10月首週官方節目表，再核首日及深夜換日。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":3,"titleJa":"LET’S CLIMB↑","artistDisplayName":"富田美憂","id":"iwa-kakeru-sport-climbing-girls-ed-3","songId":"iwa-kakeru-sport-climbing-girls-ed-3-song","sources":[{"label":"動畫官方網站","url":"https://iwakakeru-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/iwa_kakeru_sport_climbing_girls","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://heart-company.co.jp/2020/12/30/2020-heartcompany-summary/","label":"第一方僅證本曲原名；正式名義與本期用途待核","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E6%94%80%E5%B2%A9%EF%BC%81_-Climbing_Girls-","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://iwakakeru-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":[],"credits":[],"evidence":[{"target":"song","fields":["title"],"sourceUrls":["https://heart-company.co.jp/2020/12/30/2020-heartcompany-summary/"],"verifiedAt":"2026-10-23","targetId":"iwa-kakeru-sport-climbing-girls-ed-3-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%94%80%E5%B2%A9%EF%BC%81_-Climbing_Girls-"],"verifiedAt":"2026-10-23","targetId":"iwa-kakeru-sport-climbing-girls-ed-3-song"}],"followUp":[{"fields":["basic_evidence","use_quarters","lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈LET’S CLIMB↑〉：同曲獨唱的原期片尾用途與正式歌唱名義仍待直接資料，暫不分派季度。 原TV精確首日／時分仍待第一方，既有首日僅保留為候選；已核季度與歌曲用途分開記錄。","resumeWhen":"待原期對應集數片尾credit或官方逐話獨唱片尾說明可讀，再核名義與使用集數；不以商品獨唱收錄推TV用途。 待原期播出方首播公告或可直接讀取之2020年10月首週官方節目表，再核首日及深夜換日。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":4,"titleJa":"LET’S CLIMB↑","artistDisplayName":"石川由依","id":"iwa-kakeru-sport-climbing-girls-ed-4","songId":"iwa-kakeru-sport-climbing-girls-ed-4-song","sources":[{"label":"動畫官方網站","url":"https://iwakakeru-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/iwa_kakeru_sport_climbing_girls","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://heart-company.co.jp/2020/12/30/2020-heartcompany-summary/","label":"第一方僅證本曲原名；正式名義與本期用途待核","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E6%94%80%E5%B2%A9%EF%BC%81_-Climbing_Girls-","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://iwakakeru-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":[],"credits":[],"evidence":[{"target":"song","fields":["title"],"sourceUrls":["https://heart-company.co.jp/2020/12/30/2020-heartcompany-summary/"],"verifiedAt":"2026-10-23","targetId":"iwa-kakeru-sport-climbing-girls-ed-4-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%94%80%E5%B2%A9%EF%BC%81_-Climbing_Girls-"],"verifiedAt":"2026-10-23","targetId":"iwa-kakeru-sport-climbing-girls-ed-4-song"}],"followUp":[{"fields":["basic_evidence","use_quarters","lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈LET’S CLIMB↑〉：同曲獨唱的原期片尾用途與正式歌唱名義仍待直接資料，暫不分派季度。 原TV精確首日／時分仍待第一方，既有首日僅保留為候選；已核季度與歌曲用途分開記錄。","resumeWhen":"待原期對應集數片尾credit或官方逐話獨唱片尾說明可讀，再核名義與使用集數；不以商品獨唱收錄推TV用途。 待原期播出方首播公告或可直接讀取之2020年10月首週官方節目表，再核首日及深夜換日。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":5,"titleJa":"LET’S CLIMB↑","artistDisplayName":"鈴木愛奈","id":"iwa-kakeru-sport-climbing-girls-ed-5","songId":"iwa-kakeru-sport-climbing-girls-ed-5-song","sources":[{"label":"動畫官方網站","url":"https://iwakakeru-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/iwa_kakeru_sport_climbing_girls","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://heart-company.co.jp/2020/12/30/2020-heartcompany-summary/","label":"第一方僅證本曲原名；正式名義與本期用途待核","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E6%94%80%E5%B2%A9%EF%BC%81_-Climbing_Girls-","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://iwakakeru-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":[],"credits":[],"evidence":[{"target":"song","fields":["title"],"sourceUrls":["https://heart-company.co.jp/2020/12/30/2020-heartcompany-summary/"],"verifiedAt":"2026-10-23","targetId":"iwa-kakeru-sport-climbing-girls-ed-5-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%94%80%E5%B2%A9%EF%BC%81_-Climbing_Girls-"],"verifiedAt":"2026-10-23","targetId":"iwa-kakeru-sport-climbing-girls-ed-5-song"}],"followUp":[{"fields":["basic_evidence","use_quarters","lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈LET’S CLIMB↑〉：同曲獨唱的原期片尾用途與正式歌唱名義仍待直接資料，暫不分派季度。 原TV精確首日／時分仍待第一方，既有首日僅保留為候選；已核季度與歌曲用途分開記錄。","resumeWhen":"待原期對應集數片尾credit或官方逐話獨唱片尾說明可讀，再核名義與使用集數；不以商品獨唱收錄推TV用途。 待原期播出方首播公告或可直接讀取之2020年10月首週官方節目表，再核首日及深夜換日。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"}],"verifiedAt":"2026-09-02","metadataVerifiedAt":"2026-09-02","metadataSources":[]},
@@ -546,64 +817,489 @@ const curated2020FallSeedRows: CuratedAnimeSeed[] = [
   },
   {"anilistId":104198,"id":"curated-104198","slug":"gochuumon-wa-usagi-desu-ka-bloom","seasonIds":["2020-fall"],"startDate":"2020-10-10","titleJa":"ご注文はうさぎですか？ BLOOM","titleZhHant":"請問您今天要來點兔子嗎？ BLOOM","titleRomaji":"Gochuumon wa Usagi desu ka? BLOOM","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104198-bT8qBPJWxtiY.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/104198-z44oIGYnR5Zf.jpg","editorialWeekday":6,"broadcastLabel":"日本原期TV首日已證；首播分鐘待核","status":"finished","officialSiteUrl":"https://gochiusa.com/bloom/","anilistUrl":"https://anilist.co/anime/104198","imageSourceUrl":"https://anilist.co/anime/104198","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://youranimes.tw/animes/592","https://acgsecrets.hk/anime/172/","https://annict.com/works/6267"],"animeThemesUrl":"https://animethemes.moe/anime/gochuumon_wa_usagi_desu_ka_bloom","themes":[{"type":"OP","sequence":1,"titleJa":"天空カフェテリア","titleRomaji":"Tenkuu Cafeteria","artistDisplayName":"Petit Rabbit's","id":"gochuumon-wa-usagi-desu-ka-bloom-op-1","songId":"gochuumon-wa-usagi-desu-ka-bloom-op-1-song","sources":[{"label":"動畫官方網站","url":"https://gochiusa.com/bloom/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/gochuumon_wa_usagi_desu_ka_bloom","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"ごちうさ公式チャンネル/ご注文はうさぎですか? 官方影片","url":"https://www.youtube.com/watch?v=mP6PUA0e3oU","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://gochiusa.com/bloom/cd/oped.html","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://gochiusa.com/bloom/news/n00560000.html","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E8%AB%8B%E5%95%8F%E6%82%A8%E4%BB%8A%E5%A4%A9%E8%A6%81%E4%BE%86%E9%BB%9E%E5%85%94%E5%AD%90%E5%97%8E%EF%BC%9F_%28%E5%8B%95%E7%95%AB%29","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://gochiusa.com/bloom/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2020-fall"],"credits":[{"name":"畑亜貴","role":"lyrics"},{"name":"大久保薫","role":"composition"},{"name":"大久保薫","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://gochiusa.com/bloom/cd/oped.html"],"verifiedAt":"2026-10-23","targetId":"gochuumon-wa-usagi-desu-ka-bloom-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://gochiusa.com/bloom/cd/oped.html"],"verifiedAt":"2026-10-23","targetId":"gochuumon-wa-usagi-desu-ka-bloom-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E8%AB%8B%E5%95%8F%E6%82%A8%E4%BB%8A%E5%A4%A9%E8%A6%81%E4%BE%86%E9%BB%9E%E5%85%94%E5%AD%90%E5%97%8E%EF%BC%9F_%28%E5%8B%95%E7%95%AB%29"],"verifiedAt":"2026-10-23","targetId":"gochuumon-wa-usagi-desu-ka-bloom-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E8%AB%8B%E5%95%8F%E6%82%A8%E4%BB%8A%E5%A4%A9%E8%A6%81%E4%BE%86%E9%BB%9E%E5%85%94%E5%AD%90%E5%97%8E%EF%BC%9F_%28%E5%8B%95%E7%95%AB%29"],"verifiedAt":"2026-10-23","targetId":"gochuumon-wa-usagi-desu-ka-bloom-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://gochiusa.com/bloom/cd/oped.html"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈天空カフェテリア〉：原期曲名、團體演唱名義、精確用途及同頁詞曲編已核。 原TV最早時分仍待第一方，未補分鐘。","resumeWhen":"待逐曲正式錄音、發行品與正版平台資料可讀，再補尚缺可選資料；未以團體組成推逐人歌唱。 待2020原期動畫官網或播出方首話時間表正文可讀，再核原首話分鐘；不把目前重播或第三方引述代入。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":1,"titleJa":"なかよし！○！なかよし！","titleRomaji":"Nakayoshi! ○! Nakayoshi!","artistDisplayName":"チマメ隊","id":"gochuumon-wa-usagi-desu-ka-bloom-ed-1","songId":"gochuumon-wa-usagi-desu-ka-bloom-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://gochiusa.com/bloom/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/gochuumon_wa_usagi_desu_ka_bloom","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"NBCUniversal Anime/Music 官方影片","url":"https://www.youtube.com/watch?v=z79m6XWo4VU","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://gochiusa.com/bloom/cd/oped.html","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://gochiusa.com/bloom/news/n00560000.html","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E8%AB%8B%E5%95%8F%E6%82%A8%E4%BB%8A%E5%A4%A9%E8%A6%81%E4%BE%86%E9%BB%9E%E5%85%94%E5%AD%90%E5%97%8E%EF%BC%9F_%28%E5%8B%95%E7%95%AB%29","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://gochiusa.com/bloom/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2020-fall"],"credits":[{"name":"畑亜貴","role":"lyrics"},{"name":"大隅知宇","role":"composition"},{"name":"大隅知宇","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://gochiusa.com/bloom/cd/oped.html"],"verifiedAt":"2026-10-23","targetId":"gochuumon-wa-usagi-desu-ka-bloom-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://gochiusa.com/bloom/cd/oped.html"],"verifiedAt":"2026-10-23","targetId":"gochuumon-wa-usagi-desu-ka-bloom-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E8%AB%8B%E5%95%8F%E6%82%A8%E4%BB%8A%E5%A4%A9%E8%A6%81%E4%BE%86%E9%BB%9E%E5%85%94%E5%AD%90%E5%97%8E%EF%BC%9F_%28%E5%8B%95%E7%95%AB%29"],"verifiedAt":"2026-10-23","targetId":"gochuumon-wa-usagi-desu-ka-bloom-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E8%AB%8B%E5%95%8F%E6%82%A8%E4%BB%8A%E5%A4%A9%E8%A6%81%E4%BE%86%E9%BB%9E%E5%85%94%E5%AD%90%E5%97%8E%EF%BC%9F_%28%E5%8B%95%E7%95%AB%29"],"verifiedAt":"2026-10-23","targetId":"gochuumon-wa-usagi-desu-ka-bloom-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://gochiusa.com/bloom/cd/oped.html"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈なかよし！○！なかよし！〉：原期曲名、團體演唱名義、精確用途及同頁詞曲編已核。 原TV最早時分仍待第一方，未補分鐘。","resumeWhen":"待逐曲正式錄音、發行品與正版平台資料可讀，再補尚缺可選資料；未以團體組成推逐人歌唱。 待2020原期動畫官網或播出方首話時間表正文可讀，再核原首話分鐘；不把目前重播或第三方引述代入。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":2,"titleJa":"ユメ＜ウツツ→ハッピータイム","titleRomaji":"Yume < Utsutsu → Happy Time","artistDisplayName":"Petit Rabbit's","id":"gochuumon-wa-usagi-desu-ka-bloom-ed-2","songId":"gochuumon-wa-usagi-desu-ka-bloom-ed-2-song","sources":[{"label":"動畫官方網站","url":"https://gochiusa.com/bloom/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/gochuumon_wa_usagi_desu_ka_bloom","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://db2.nbcuni.co.jp/contents/hp0004/list.php?AgentProCon=41245&CNo=4","label":"第一方僅證本曲原名；正式名義與本期用途待核","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E8%AB%8B%E5%95%8F%E6%82%A8%E4%BB%8A%E5%A4%A9%E8%A6%81%E4%BE%86%E9%BB%9E%E5%85%94%E5%AD%90%E5%97%8E%EF%BC%9F_%28%E5%8B%95%E7%95%AB%29","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://gochiusa.com/bloom/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":[],"credits":[],"evidence":[{"target":"song","fields":["title"],"sourceUrls":["https://db2.nbcuni.co.jp/contents/hp0004/list.php?AgentProCon=41245&CNo=4"],"verifiedAt":"2026-10-23","targetId":"gochuumon-wa-usagi-desu-ka-bloom-ed-2-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E8%AB%8B%E5%95%8F%E6%82%A8%E4%BB%8A%E5%A4%A9%E8%A6%81%E4%BE%86%E9%BB%9E%E5%85%94%E5%AD%90%E5%97%8E%EF%BC%9F_%28%E5%8B%95%E7%95%AB%29"],"verifiedAt":"2026-10-23","targetId":"gochuumon-wa-usagi-desu-ka-bloom-ed-2-song"}],"followUp":[{"fields":["basic_evidence","use_quarters","lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈ユメ＜ウツツ→ハッピータイム〉：原曲名及正式名義已核；精確片尾用途仍待直接第一方明文。 原TV最早時分仍待第一方，未補分鐘。","resumeWhen":"待官方第12話片尾映像的普通公開文字或原期明確公告可讀，再核片尾用途與季度；不由單曲曲序補用途。 待2020原期動畫官網或播出方首話時間表正文可讀，再核原首話分鐘；不把目前重播或第三方引述代入。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"}],"verifiedAt":"2026-09-02","metadataVerifiedAt":"2026-09-02","metadataSources":[{"url":"https://zh.wikipedia.org/wiki/%E8%AB%8B%E5%95%8F%E6%82%A8%E4%BB%8A%E5%A4%A9%E8%A6%81%E4%BE%86%E9%BB%9E%E5%85%94%E5%AD%90%E5%97%8E%EF%BC%9F_%28%E5%8B%95%E7%95%AB%29","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"},{"url":"https://gochiusa.com/bloom/news/n00560000.html","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-23"}]},
   {
-    anilistId: 110632,
-    id: "curated-110632",
-    slug: "maesetsu",
-    seasonIds: ["2020-fall"],
-    startDate: "2020-10-11",
-    titleJa: "まえせつ！",
-    titleZhHant: "前說！MAESETSU",
-    titleRomaji: "Maesetsu!",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110632-WxTfHGRIZ4BJ.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110632-TabT4x381ad9.jpg",
-    editorialWeekday: 7,
-    broadcastLabel: "日本首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://maesetsu.jp/",
-    anilistUrl: "https://anilist.co/anime/110632",
-    imageSourceUrl: "https://anilist.co/anime/110632",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/610",
-      "https://acgsecrets.hk/anime/145/",
-      "https://annict.com/works/6811",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/maesetsu",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "Sign",
-        artistDisplayName: "五十嵐裕美、中村桜、大空直美、大西亜玖璃",
-      },
-      {
-        type: "OP",
-        sequence: 2,
-        titleJa: "ピッピッピハッピー",
-        titleRomaji: "Pippippi Happy",
-        artistDisplayName: "五十嵐裕美、中村桜、大空直美、大西亜玖璃",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "いかがわしいバイキング",
-        titleRomaji: "Ikagawashii Viking",
-        artistDisplayName: "五十嵐裕美、中村桜、大空直美、大西亜玖璃",
-      },
-      {
-        type: "ED",
-        sequence: 2,
-        titleJa: "静かな戦士",
-        titleRomaji: "Shizukana Senshi",
-        artistDisplayName: "富田純基（Freak!）",
-      },
-    ],
-    verifiedAt: "2026-09-02",
-  },
+  "anilistId": 110632,
+  "id": "curated-110632",
+  "slug": "maesetsu",
+  "seasonIds": [
+    "2020-fall"
+  ],
+  "startDate": "2020-10-11",
+  "titleJa": "まえせつ！",
+  "titleZhHant": "前說！MAESETSU",
+  "titleRomaji": "Maesetsu!",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110632-WxTfHGRIZ4BJ.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110632-TabT4x381ad9.jpg",
+  "editorialWeekday": 7,
+  "broadcastLabel": "日本TV：2020年秋；正版Bandai常規第1～12幕各標示25分鐘。官方10/4起編排含第0幕特番，不當作第1幕日期；MBS第1話原編排10/13，TV與配信另分。",
+  "status": "finished",
+  "officialSiteUrl": "https://maesetsu.jp/",
+  "anilistUrl": "https://anilist.co/anime/110632",
+  "imageSourceUrl": "https://anilist.co/anime/110632",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/610",
+    "https://acgsecrets.hk/anime/145/",
+    "https://annict.com/works/6811"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/maesetsu",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "サイン",
+      "artistDisplayName": "北風ふぶき（CV：大西亜玖璃）、凩まふゆ（CV：大空直美）、新谷りん（CV：五十嵐裕美）、朝生祇なゆた（CV：中村 桜）",
+      "id": "maesetsu-op-1",
+      "sourceMode": "explicit",
+      "lastVerifiedAt": "2026-11-05",
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://maesetsu.jp/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/maesetsu",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://maesetsu.jp/music/",
+          "label": "まえせつ！官方MUSIC：第1話OPサイン、常規OP／ED及四角色CV名義",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://anime-song-info.com/maesetsu-op-ed-20at/",
+          "label": "アニしま：原2020秋三首OP／ED及四角色CV交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "credits": [
+        {
+          "name": "五十嵐裕美、中村桜、大空直美、大西亜玖璃",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "maesetsu-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://maesetsu.jp/music/"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "maesetsu-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://maesetsu.jp/music/"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "song",
+          "targetId": "maesetsu-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://anime-song-info.com/maesetsu-op-ed-20at/"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "maesetsu-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://anime-song-info.com/maesetsu-op-ed-20at/"
+          ],
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "seasonIds": [
+        "2020-fall"
+      ],
+      "songId": "maesetsu-op-1-song",
+      "usageLabel": "原TV第1話OP（官方曲名サイン）；第0幕特番另分"
+    },
+    {
+      "type": "OP",
+      "sequence": 2,
+      "titleJa": "ピッピッピハッピー",
+      "titleRomaji": "Pippippi Happy",
+      "artistDisplayName": "北風ふぶき（CV：大西亜玖璃）、凩まふゆ（CV：大空直美）、新谷りん（CV：五十嵐裕美）、朝生祇なゆた（CV：中村 桜）",
+      "id": "maesetsu-op-2",
+      "sourceMode": "explicit",
+      "lastVerifiedAt": "2026-11-05",
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://maesetsu.jp/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/maesetsu",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://maesetsu.jp/music/",
+          "label": "まえせつ！官方MUSIC：第1話OPサイン、常規OP／ED及四角色CV名義",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://anime-song-info.com/maesetsu-op-ed-20at/",
+          "label": "アニしま：原2020秋三首OP／ED及四角色CV交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "credits": [
+        {
+          "name": "五十嵐裕美、中村桜、大空直美、大西亜玖璃",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "maesetsu-op-2-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://maesetsu.jp/music/"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "maesetsu-op-2",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://maesetsu.jp/music/"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "song",
+          "targetId": "maesetsu-op-2-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://anime-song-info.com/maesetsu-op-ed-20at/"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "maesetsu-op-2",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://anime-song-info.com/maesetsu-op-ed-20at/"
+          ],
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "seasonIds": [
+        "2020-fall"
+      ],
+      "songId": "maesetsu-op-2-song",
+      "usageLabel": "原2020秋TV常規OP；官方MUSIC精確用途，與第0幕特番另分"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "いかがわしいバイキング",
+      "titleRomaji": "Ikagawashii Viking",
+      "artistDisplayName": "北風ふぶき（CV：大西亜玖璃）、凩まふゆ（CV：大空直美）、新谷りん（CV：五十嵐裕美）、朝生祇なゆた（CV：中村 桜）",
+      "id": "maesetsu-ed-1",
+      "sourceMode": "explicit",
+      "lastVerifiedAt": "2026-11-05",
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://maesetsu.jp/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/maesetsu",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://maesetsu.jp/music/",
+          "label": "まえせつ！官方MUSIC：第1話OPサイン、常規OP／ED及四角色CV名義",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://anime-song-info.com/maesetsu-op-ed-20at/",
+          "label": "アニしま：原2020秋三首OP／ED及四角色CV交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "credits": [
+        {
+          "name": "五十嵐裕美、中村桜、大空直美、大西亜玖璃",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "maesetsu-ed-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://maesetsu.jp/music/"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "maesetsu-ed-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://maesetsu.jp/music/"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "song",
+          "targetId": "maesetsu-ed-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://anime-song-info.com/maesetsu-op-ed-20at/"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "maesetsu-ed-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://anime-song-info.com/maesetsu-op-ed-20at/"
+          ],
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "seasonIds": [
+        "2020-fall"
+      ],
+      "songId": "maesetsu-ed-1-song",
+      "usageLabel": "原2020秋TV常規ED；官方MUSIC精確用途，與第0幕特番另分"
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "静かな戦士",
+      "titleRomaji": "Shizukana Senshi",
+      "artistDisplayName": "富田純基（Freak!）",
+      "id": "maesetsu-ed-2",
+      "sourceMode": "explicit",
+      "lastVerifiedAt": "2026-11-05",
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://maesetsu.jp/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/maesetsu",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%BE%E3%81%88%E3%81%9B%E3%81%A4!",
+          "label": "日文維基逐話用途交叉：静かな戦士第5話ED、第10話IN；第7話IN為另一演唱",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "credits": [
+        {
+          "name": "富田純基（Freak!）",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/%E3%81%BE%E3%81%88%E3%81%9B%E3%81%A4!"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "maesetsu-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "maesetsu-ed-2",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/%E3%81%BE%E3%81%88%E3%81%9B%E3%81%A4!"
+          ],
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "seasonIds": [],
+      "usageLabel": "原ED2入口保留：交叉表列静かな戦士第5話ED／第10話IN；第7話IN演唱不同，第一方原ED用途待核",
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters"
+          ],
+          "note": "外部逐話表列富田純基版第5話ED、第10話IN；第7話為朝生祇なゆた（中村桜）版IN。官方MUSIC未逐曲列出本曲，不能以配樂／原聲帶目錄推ED或混合不同演唱。原ID與名義保留，季度暫空，歌曲識別只連結既有資料，沒有新增IN用途。",
+          "resumeWhen": "待原第5話官方片尾字幕或製播方逐曲資料可讀並列本曲ED及完整演唱名義，再補第一方證據與季度；兩輪查找已止，無新直接觸發不重搜。",
+          "checkedAt": "2026-11-05"
+        }
+      ],
+      "songId": "maesetsu-ed-2-song"
+    }
+  ],
+  "verifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-11-05",
+  "metadataSources": [
+    {
+      "label": "動畫官方網站：作品與播出資料",
+      "url": "https://maesetsu.jp/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "AniList：作品識別與公開圖像",
+      "url": "https://anilist.co/anime/110632",
+      "language": "en",
+      "role": "identifier",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "繁體中文季度列表交叉對照",
+      "url": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+      "language": "zh-Hant",
+      "role": "localized_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "AnimeThemes：OP／ED 曲目交叉核對",
+      "url": "https://animethemes.moe/anime/maesetsu",
+      "language": "en",
+      "role": "theme_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://youranimes.tw/animes/610",
+      "language": "zh-Hant",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://acgsecrets.hk/anime/145/",
+      "language": "zh-Hant",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://annict.com/works/6811",
+      "language": "ja",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "url": "https://www.b-ch.com/titles/7069/?ttl_c=7069",
+      "label": "正版Bandai原版：常規第1～12幕，各平台標示25分鐘；第0幕另分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://maesetsu.jp/onair/index.html",
+      "label": "官方原期ON AIR：2020/10/4起的編排包含第0幕，TV與配信分列",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://maesetsu.jp/news/index00430000.html",
+      "label": "官方第0幕特番公告：2020/10/4起各台時間，非第1幕首播日期",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://maesetsu.jp/news/index00490000.html",
+      "label": "官方原期MBS調整公告：第0／1／2話分別10/6、10/13、10/20",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-05"
+    }
+  ]
+},
   {"anilistId":114124,"id":"curated-114124","slug":"yuukoku-no-moriarty","seasonIds":["2020-fall"],"startDate":"2020-10-11","titleJa":"憂国のモリアーティ","titleZhHant":"憂國的莫里亞蒂","titleRomaji":"Yuukoku no Moriarty","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114124-def92qPuIVeK.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/114124-44utnIatIX16.jpg","editorialWeekday":7,"broadcastLabel":"TOKYO MX 2020年10月11日22:30；後半2021年4月及其他台後播不併入本期。","status":"finished","officialSiteUrl":"https://moriarty-anime.com/","anilistUrl":"https://anilist.co/anime/114124","imageSourceUrl":"https://anilist.co/anime/114124","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://youranimes.tw/animes/597","https://acgsecrets.hk/anime/186/","https://annict.com/works/7218"],"animeThemesUrl":"https://animethemes.moe/anime/yuukoku_no_moriarty","themes":[{"type":"OP","sequence":1,"titleJa":"DYING WISH","artistDisplayName":"畠中祐","id":"yuukoku-no-moriarty-op-1","songId":"yuukoku-no-moriarty-op-1-song","sources":[{"label":"動畫官方網站","url":"https://moriarty-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/yuukoku_no_moriarty","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"Tasuku Hantanaka Official Channel 官方影片","url":"https://www.youtube.com/watch?v=hWPfPXLXF-o","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://moriarty-anime.com/goods/?p=286","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://moriarty-anime.com/onair","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://tasuku-hatanaka.lantis.jp/discography/dying-wish%E3%80%90%E9%80%9A%E5%B8%B8%E7%9B%A4%E3%80%91/","label":"第一方本期名義／角色對照補充；未推未列逐曲職位","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E6%86%82%E5%9C%8B%E7%9A%84%E8%8E%AB%E9%87%8C%E4%BA%9E%E8%92%82","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://moriarty-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2020-fall"],"credits":[{"name":"畠中祐","role":"vocals"},{"name":"マイクスギヤマ","role":"lyrics"},{"name":"Rasmus Faber","role":"composition"},{"name":"Rasmus Faber","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://moriarty-anime.com/goods/?p=286"],"verifiedAt":"2026-10-23","targetId":"yuukoku-no-moriarty-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://moriarty-anime.com/goods/?p=286"],"verifiedAt":"2026-10-23","targetId":"yuukoku-no-moriarty-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%86%82%E5%9C%8B%E7%9A%84%E8%8E%AB%E9%87%8C%E4%BA%9E%E8%92%82"],"verifiedAt":"2026-10-23","targetId":"yuukoku-no-moriarty-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%86%82%E5%9C%8B%E7%9A%84%E8%8E%AB%E9%87%8C%E4%BA%9E%E8%92%82"],"verifiedAt":"2026-10-23","targetId":"yuukoku-no-moriarty-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://moriarty-anime.com/goods/?p=286","https://tasuku-hatanaka.lantis.jp/discography/dying-wish%E3%80%90%E9%80%9A%E5%B8%B8%E7%9B%A4%E3%80%91/"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈DYING WISH〉：原名、正式歌唱名義與本期用途已核，使用季度為2020年秋。","resumeWhen":"待本曲尚缺的確切音源、發行品及正版平台資料可正常讀取時補充。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":1,"titleJa":"ALPHA","artistDisplayName":"STEREO DIVE FOUNDATION","id":"yuukoku-no-moriarty-ed-1","songId":"yuukoku-no-moriarty-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://moriarty-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/yuukoku_no_moriarty","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"STEREO DIVE FOUNDATION Official Channel 官方影片","url":"https://www.youtube.com/watch?v=Xe9c85B9Uc8","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://moriarty-anime.com/goods/?p=287","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://moriarty-anime.com/onair","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E6%86%82%E5%9C%8B%E7%9A%84%E8%8E%AB%E9%87%8C%E4%BA%9E%E8%92%82","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://moriarty-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2020-fall"],"credits":[],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://moriarty-anime.com/goods/?p=287"],"verifiedAt":"2026-10-23","targetId":"yuukoku-no-moriarty-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://moriarty-anime.com/goods/?p=287"],"verifiedAt":"2026-10-23","targetId":"yuukoku-no-moriarty-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%86%82%E5%9C%8B%E7%9A%84%E8%8E%AB%E9%87%8C%E4%BA%9E%E8%92%82"],"verifiedAt":"2026-10-23","targetId":"yuukoku-no-moriarty-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%86%82%E5%9C%8B%E7%9A%84%E8%8E%AB%E9%87%8C%E4%BA%9E%E8%92%82"],"verifiedAt":"2026-10-23","targetId":"yuukoku-no-moriarty-ed-1"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈ALPHA〉：官方已核原名、演唱名義與本期片尾用途；不由樂團介紹推逐人歌唱。","resumeWhen":"待本曲尚缺的創作職位及確切音源、發行品及正版平台資料可正常讀取時補充。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"}],"verifiedAt":"2026-09-02","metadataVerifiedAt":"2026-09-02","metadataSources":[{"url":"https://zh.wikipedia.org/wiki/%E6%86%82%E5%9C%8B%E7%9A%84%E8%8E%AB%E9%87%8C%E4%BA%9E%E8%92%82","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"},{"url":"https://moriarty-anime.com/onair","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-23"}],"broadcastTimeJst":"22:30"},
   {"anilistId":118419,"id":"curated-118419","slug":"kamisama-ni-natta-hi","seasonIds":["2020-fall"],"startDate":"2020-10-11","titleJa":"神様になった日","titleZhHant":"成神之日","titleRomaji":"Kamisama ni Natta Hi","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx118419-li8RpQcLgiKK.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/118419-aNKG9YhLhT9h.jpg","editorialWeekday":7,"broadcastLabel":"官方2020年10月10日24:00，換算翌日00:00；非2021重播。","status":"finished","officialSiteUrl":"https://kamisama-day.jp/","anilistUrl":"https://anilist.co/anime/118419","imageSourceUrl":"https://anilist.co/anime/118419","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://youranimes.tw/animes/582","https://acgsecrets.hk/anime/174/","https://annict.com/works/7507"],"animeThemesUrl":"https://animethemes.moe/anime/kamisama_ni_natta_hi","themes":[{"type":"OP","sequence":1,"titleJa":"君という神話","titleRomaji":"Kimi to Iu Shinwa","artistDisplayName":"やなぎなぎ","id":"kamisama-ni-natta-hi-op-1","songId":"kamisama-ni-natta-hi-op-1-song","sources":[{"label":"動畫官方網站","url":"https://kamisama-day.jp/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/kamisama_ni_natta_hi","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://online.aniplex.co.jp/itemaKODOmRS.html","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://www.aniplex.co.jp/lineup/kamisama-day/news/detail/?id=55018","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://www.aniplex.co.jp/news/detail/?id=55096","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E6%88%90%E7%A5%9E%E4%B9%8B%E6%97%A5","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://kamisama-day.jp/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2020-fall"],"credits":[{"name":"やなぎなぎ","role":"vocals"},{"name":"麻枝 准","role":"lyrics"},{"name":"麻枝 准","role":"composition"},{"name":"MANYO","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://online.aniplex.co.jp/itemaKODOmRS.html"],"verifiedAt":"2026-10-23","targetId":"kamisama-ni-natta-hi-op-1-song"},{"target":"song","fields":["title"],"sourceUrls":["https://www.aniplex.co.jp/lineup/kamisama-day/news/detail/?id=55018"],"verifiedAt":"2026-10-23","targetId":"kamisama-ni-natta-hi-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://online.aniplex.co.jp/itemaKODOmRS.html","https://www.aniplex.co.jp/lineup/kamisama-day/news/detail/?id=55018"],"verifiedAt":"2026-10-23","targetId":"kamisama-ni-natta-hi-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%88%90%E7%A5%9E%E4%B9%8B%E6%97%A5"],"verifiedAt":"2026-10-23","targetId":"kamisama-ni-natta-hi-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%88%90%E7%A5%9E%E4%B9%8B%E6%97%A5"],"verifiedAt":"2026-10-23","targetId":"kamisama-ni-natta-hi-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://online.aniplex.co.jp/itemaKODOmRS.html"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈君という神話〉：本曲歌唱為やなぎなぎ；麻枝准×やなぎなぎ是企畫／發行名義，麻枝准另以詞曲職位記錄。","resumeWhen":"待本曲尚缺的確切音源、發行品及正版平台資料可正常讀取時補充。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":1,"titleJa":"Goodbye Seven Seas","artistDisplayName":"やなぎなぎ","id":"kamisama-ni-natta-hi-ed-1","songId":"kamisama-ni-natta-hi-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://kamisama-day.jp/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/kamisama_ni_natta_hi","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://online.aniplex.co.jp/itemaKODOmRS.html","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://www.aniplex.co.jp/lineup/kamisama-day/news/detail/?id=55018","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://www.aniplex.co.jp/news/detail/?id=55096","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E6%88%90%E7%A5%9E%E4%B9%8B%E6%97%A5","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://kamisama-day.jp/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2020-fall"],"credits":[{"name":"やなぎなぎ","role":"vocals"},{"name":"麻枝 准","role":"lyrics"},{"name":"麻枝 准","role":"composition"},{"name":"MANYO","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://online.aniplex.co.jp/itemaKODOmRS.html"],"verifiedAt":"2026-10-23","targetId":"kamisama-ni-natta-hi-ed-1-song"},{"target":"song","fields":["title"],"sourceUrls":["https://www.aniplex.co.jp/lineup/kamisama-day/news/detail/?id=55018"],"verifiedAt":"2026-10-23","targetId":"kamisama-ni-natta-hi-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://online.aniplex.co.jp/itemaKODOmRS.html","https://www.aniplex.co.jp/lineup/kamisama-day/news/detail/?id=55018"],"verifiedAt":"2026-10-23","targetId":"kamisama-ni-natta-hi-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%88%90%E7%A5%9E%E4%B9%8B%E6%97%A5"],"verifiedAt":"2026-10-23","targetId":"kamisama-ni-natta-hi-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%88%90%E7%A5%9E%E4%B9%8B%E6%97%A5"],"verifiedAt":"2026-10-23","targetId":"kamisama-ni-natta-hi-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://online.aniplex.co.jp/itemaKODOmRS.html"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈Goodbye Seven Seas〉：本曲歌唱為やなぎなぎ；麻枝准×やなぎなぎ是企畫／發行名義，麻枝准另以詞曲職位記錄。","resumeWhen":"待本曲尚缺的確切音源、發行品及正版平台資料可正常讀取時補充。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"IN","sequence":2,"titleJa":"宝物になった日","titleRomaji":"Takaramono ni Natta Hi","artistDisplayName":"やなぎなぎ","id":"kamisama-ni-natta-hi-ed-2","songId":"kamisama-ni-natta-hi-ed-2-song","sources":[{"label":"動畫官方網站","url":"https://kamisama-day.jp/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/kamisama_ni_natta_hi","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://www.aniplex.co.jp/news/detail/?id=55560","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://www.aniplex.co.jp/lineup/kamisama-day/news/detail/?id=54985","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://yanaginagi.net/discography/%E5%A4%8F%E5%87%AA%E3%81%8E%EF%BC%8F%E5%AE%9D%E7%89%A9%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F%E6%97%A5/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://yanaginagi.net/information/%E9%BA%BB%E6%9E%9D-%E5%87%86x%E3%82%84%E3%81%AA%E3%81%8E%E3%81%AA%E3%81%8E%EF%BC%8F%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E6%9C%AA%E5%AE%9A-%EF%BD%94%EF%BD%96%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8C/","label":"第一方本期逐曲用途；歌曲身分與創作資料依各自來源","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://www.aniplex.co.jp/news/detail/?id=55096","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E6%88%90%E7%A5%9E%E4%B9%8B%E6%97%A5","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://kamisama-day.jp/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2020-fall"],"credits":[{"name":"やなぎなぎ","role":"vocals"},{"name":"麻枝准","role":"lyrics"},{"name":"麻枝准","role":"composition"},{"name":"MANYO","role":"arrangement"}],"evidence":[{"target":"song","fields":["title"],"sourceUrls":["https://www.aniplex.co.jp/news/detail/?id=55560"],"verifiedAt":"2026-10-23","targetId":"kamisama-ni-natta-hi-ed-2-song"},{"target":"song","fields":["artist"],"sourceUrls":["https://www.aniplex.co.jp/lineup/kamisama-day/news/detail/?id=54985"],"verifiedAt":"2026-10-23","targetId":"kamisama-ni-natta-hi-ed-2-song"},{"target":"song","fields":["title"],"sourceUrls":["https://yanaginagi.net/discography/%E5%A4%8F%E5%87%AA%E3%81%8E%EF%BC%8F%E5%AE%9D%E7%89%A9%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F%E6%97%A5/"],"verifiedAt":"2026-10-23","targetId":"kamisama-ni-natta-hi-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.aniplex.co.jp/news/detail/?id=55560","https://yanaginagi.net/information/%E9%BA%BB%E6%9E%9D-%E5%87%86x%E3%82%84%E3%81%AA%E3%81%8E%E3%81%AA%E3%81%8E%EF%BC%8F%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E6%9C%AA%E5%AE%9A-%EF%BD%94%EF%BD%96%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8C/"],"verifiedAt":"2026-10-23","targetId":"kamisama-ni-natta-hi-ed-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%88%90%E7%A5%9E%E4%B9%8B%E6%97%A5"],"verifiedAt":"2026-10-23","targetId":"kamisama-ni-natta-hi-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%88%90%E7%A5%9E%E4%B9%8B%E6%97%A5"],"verifiedAt":"2026-10-23","targetId":"kamisama-ni-natta-hi-ed-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.aniplex.co.jp/lineup/kamisama-day/news/detail/?id=54985","https://yanaginagi.net/discography/%E5%A4%8F%E5%87%AA%E3%81%8E%EF%BC%8F%E5%AE%9D%E7%89%A9%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F%E6%97%A5/"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈宝物になった日〉：官方明本期第5話插曲，歌唱為やなぎなぎ；麻枝准另記詞曲職位。","resumeWhen":"待本曲確切音源、發行品與正版平台資料可正常讀取時補充；不從商品版本推新錄音。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"id":"kamisama-ni-natta-hi-in-1","songId":"kamisama-ni-natta-hi-in-1-song","type":"IN","sequence":1,"sources":[{"url":"https://yanaginagi.net/information/%E9%BA%BB%E6%9E%9D-%E5%87%86x%E3%82%84%E3%81%AA%E3%81%8E%E3%81%AA%E3%81%8E%EF%BC%8F%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E6%9C%AA%E5%AE%9A-%EF%BD%94%EF%BD%96%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8C/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://yanaginagi.net/discography/%E5%A4%8F%E5%87%AA%E3%81%8E%EF%BC%8F%E5%AE%9D%E7%89%A9%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F%E6%97%A5/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://www.aniplex.co.jp/lineup/kamisama-day/news/detail/?id=54985","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://www.aniplex.co.jp/news/detail/?id=55096","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E6%88%90%E7%A5%9E%E4%B9%8B%E6%97%A5","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[],"credits":[{"name":"やなぎなぎ","role":"vocals"},{"name":"麻枝准","role":"lyrics"},{"name":"麻枝准","role":"composition"},{"name":"MANYO","role":"arrangement"}],"sourceMode":"explicit","titleJa":"夏凪ぎ","artistDisplayName":"やなぎなぎ","seasonIds":["2020-fall"],"evidence":[{"target":"song","fields":["title"],"sourceUrls":["https://yanaginagi.net/information/%E9%BA%BB%E6%9E%9D-%E5%87%86x%E3%82%84%E3%81%AA%E3%81%8E%E3%81%AA%E3%81%8E%EF%BC%8F%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E6%9C%AA%E5%AE%9A-%EF%BD%94%EF%BD%96%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8C/"],"verifiedAt":"2026-10-23","targetId":"kamisama-ni-natta-hi-in-1-song"},{"target":"song","fields":["title"],"sourceUrls":["https://yanaginagi.net/discography/%E5%A4%8F%E5%87%AA%E3%81%8E%EF%BC%8F%E5%AE%9D%E7%89%A9%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F%E6%97%A5/"],"verifiedAt":"2026-10-23","targetId":"kamisama-ni-natta-hi-in-1-song"},{"target":"song","fields":["artist"],"sourceUrls":["https://www.aniplex.co.jp/lineup/kamisama-day/news/detail/?id=54985"],"verifiedAt":"2026-10-23","targetId":"kamisama-ni-natta-hi-in-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://yanaginagi.net/information/%E9%BA%BB%E6%9E%9D-%E5%87%86x%E3%82%84%E3%81%AA%E3%81%8E%E3%81%AA%E3%81%8E%EF%BC%8F%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E6%9C%AA%E5%AE%9A-%EF%BD%94%EF%BD%96%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8C/"],"verifiedAt":"2026-10-23","targetId":"kamisama-ni-natta-hi-in-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%88%90%E7%A5%9E%E4%B9%8B%E6%97%A5"],"verifiedAt":"2026-10-23","targetId":"kamisama-ni-natta-hi-in-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%88%90%E7%A5%9E%E4%B9%8B%E6%97%A5"],"verifiedAt":"2026-10-23","targetId":"kamisama-ni-natta-hi-in-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.aniplex.co.jp/lineup/kamisama-day/news/detail/?id=54985","https://yanaginagi.net/discography/%E5%A4%8F%E5%87%AA%E3%81%8E%EF%BC%8F%E5%AE%9D%E7%89%A9%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F%E6%97%A5/"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈夏凪ぎ〉：官方與交叉來源已明本期插曲及歌唱；僅記歌曲與用途，不從發行版本推新錄音。","resumeWhen":"待本曲確切音源、發行品及正版平台資料可正常讀取時補充。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"}],"verifiedAt":"2026-09-02","metadataVerifiedAt":"2026-09-02","metadataSources":[{"url":"https://zh.wikipedia.org/wiki/%E6%88%90%E7%A5%9E%E4%B9%8B%E6%97%A5","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"},{"url":"https://www.aniplex.co.jp/news/detail/?id=55096","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-23"}],"broadcastTimeJst":"00:00"},
   {"anilistId":122807,"id":"curated-122807","slug":"taisou-zamurai","seasonIds":["2020-fall"],"startDate":"2020-10-11","titleJa":"体操ザムライ","titleZhHant":"體操武士","titleRomaji":"Taisou Zamurai","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx122807-m8jdQLQRSSUI.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/122807-WuQXmiTg70lh.jpg","editorialWeekday":7,"broadcastLabel":"テレビ朝日系官方10月10日土曜深夜1:30，實曆10月11日01:30；配信表亦明25:30。","status":"finished","officialSiteUrl":"https://taiso-samurai.com/","anilistUrl":"https://anilist.co/anime/122807","imageSourceUrl":"https://anilist.co/anime/122807","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://youranimes.tw/animes/594","https://acgsecrets.hk/anime/188/","https://annict.com/works/7644"],"animeThemesUrl":"https://animethemes.moe/anime/taisou_zamurai","themes":[{"type":"OP","sequence":1,"titleJa":"上海ハニー","titleRomaji":"Shangai Honey","artistDisplayName":"荒垣城太郎（CV：浪川大輔）、レオナルド（CV：小野賢章）、南野鉄男（CV：梶裕貴）","id":"taisou-zamurai-op-1","songId":"taisou-zamurai-op-1-song","sources":[{"label":"動畫官方網站","url":"https://taiso-samurai.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/taisou_zamurai","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"MAPPA CHANNEL 官方影片","url":"https://www.youtube.com/watch?v=BudBcWqS9lQ","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://taiso-samurai.com/music/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://taiso-samurai.com/onair/","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E9%AB%94%E6%93%8D%E6%AD%A6%E5%A3%AB","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://taiso-samurai.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2020-fall"],"credits":[{"name":"浪川大輔","role":"vocals"},{"name":"小野賢章","role":"vocals"},{"name":"梶裕貴","role":"vocals"},{"name":"ORANGE RANGE","role":"lyrics"},{"name":"ORANGE RANGE","role":"composition"},{"name":"川崎智哉","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://taiso-samurai.com/music/"],"verifiedAt":"2026-10-23","targetId":"taisou-zamurai-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://taiso-samurai.com/music/"],"verifiedAt":"2026-10-23","targetId":"taisou-zamurai-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E9%AB%94%E6%93%8D%E6%AD%A6%E5%A3%AB"],"verifiedAt":"2026-10-23","targetId":"taisou-zamurai-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E9%AB%94%E6%93%8D%E6%AD%A6%E5%A3%AB"],"verifiedAt":"2026-10-23","targetId":"taisou-zamurai-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://taiso-samurai.com/music/"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈上海ハニー〉：官方本曲以三角色（各CV）名義歌唱；逐人歌唱由同頁歌曲欄及演唱留言核對，非一般配音名單。","resumeWhen":"待本曲尚缺的確切音源、發行品及正版平台資料可正常讀取時補充。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":1,"titleJa":"夢?","titleRomaji":"Yume ja Nai","artistDisplayName":"はてな","id":"taisou-zamurai-ed-1","songId":"taisou-zamurai-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://taiso-samurai.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/taisou_zamurai","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"アニプレックス チャンネル 官方影片","url":"https://www.youtube.com/watch?v=jcjsH0mFkQE","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://taiso-samurai.com/music/ending.html","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://taiso-samurai.com/news/?id=55311","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://taiso-samurai.com/onair/","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E9%AB%94%E6%93%8D%E6%AD%A6%E5%A3%AB","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://taiso-samurai.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2020-fall"],"credits":[{"name":"はてな","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://taiso-samurai.com/music/ending.html"],"verifiedAt":"2026-10-23","targetId":"taisou-zamurai-ed-1-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://taiso-samurai.com/news/?id=55311"],"verifiedAt":"2026-10-23","targetId":"taisou-zamurai-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://taiso-samurai.com/music/ending.html","https://taiso-samurai.com/news/?id=55311"],"verifiedAt":"2026-10-23","targetId":"taisou-zamurai-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E9%AB%94%E6%93%8D%E6%AD%A6%E5%A3%AB"],"verifiedAt":"2026-10-23","targetId":"taisou-zamurai-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E9%AB%94%E6%93%8D%E6%AD%A6%E5%A3%AB"],"verifiedAt":"2026-10-23","targetId":"taisou-zamurai-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://taiso-samurai.com/music/ending.html"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈夢?〉：官方正式曲名為夢?，讀作ゆめじゃない；保留原羅馬字及影音，不另建歌曲。","resumeWhen":"待本曲尚缺的創作職位及確切音源、發行品及正版平台資料可正常讀取時補充。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"}],"verifiedAt":"2026-09-02","metadataVerifiedAt":"2026-09-02","metadataSources":[{"url":"https://zh.wikipedia.org/wiki/%E9%AB%94%E6%93%8D%E6%AD%A6%E5%A3%AB","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"},{"url":"https://taiso-samurai.com/onair/","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-23"}],"broadcastTimeJst":"01:30"},

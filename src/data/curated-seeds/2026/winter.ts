@@ -39,7 +39,977 @@ export const curated2026WinterSeeds: CuratedAnimeSeed[] = [
   {"anilistId":189137,"id":"curated-189137","slug":"douse-koishite-shimaunda-season-2","seasonIds":["2026-winter"],"startDate":"2026-01-09","titleJa":"どうせ、恋してしまうんだ。Season 2","titleZhHant":"終究，與你相戀。 （第2期）","titleRomaji":"Douse, Koishite Shimaunda. Season 2","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx189137-cCXaEiX0bJb4.jpg","editorialWeekday":5,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://koishima-pr.com/","anilistUrl":"https://anilist.co/anime/189137","imageSourceUrl":"https://anilist.co/anime/189137","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2026-winter?display=list_detailed"],"animeThemesUrl":"https://animethemes.moe/anime/douse_koishite_shimaunda_season_2","uzureaUrl":"https://uzurea.net/winter-2026-anime-theme-songs/","themes":[{"type":"OP","titleJa":"LとR","artistDisplayName":"ME:I","sequence":1,"songId":"douse-koishite-shimaunda-season-2-op-1-song","credits":[{"name":"ME:I","role":"vocals"},{"name":"KAHOH","role":"lyrics"},{"name":"YASU","role":"composition"},{"name":"KAHOH","role":"composition"},{"name":"Chris Ding(Bedroom Cinemas)","role":"composition"},{"name":"YASU","role":"arrangement"}],"sources":[{"url":"https://koishima-pr.com/","label":"動畫官網 MUSIC：第二期 LとR／初恋 原名、歌唱及團隊；未混用第一期創作","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/douse_koishite_shimaunda_season_2","language":"en","role":"cross_check","verifiedAt":"2026-07-28"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/winter-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-10-30"},{"url":"https://www.uta-net.com/song/386095/?target=lyricist","label":"歌ネット 授權曲目：第二期 LとR 完整創作交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://me-i.jp/news/detail/1066","label":"ME:I 官方公告：第二期 OP 數位 Single、日期與確切無字幕 OP；音源成員與現編制不同","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.youtube.com/watch?v=kDvjltW21ag","label":"ME:I 官方：LとR 歌曲影片","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://me-i.lnk.to/LR_st","label":"藝人／唱片公司官方配信頁：確切曲目或專輯目的地","role":"first_party","language":"ja","verifiedAt":"2026-10-15"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://koishima-pr.com/"],"verifiedAt":"2026-10-15","targetId":"douse-koishite-shimaunda-season-2-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://koishima-pr.com/"],"verifiedAt":"2026-10-15","targetId":"douse-koishite-shimaunda-season-2-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.uta-net.com/song/386095/?target=lyricist"],"verifiedAt":"2026-10-15"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://me-i.jp/news/detail/1066"],"verifiedAt":"2026-10-15","targetId":"douse-koishite-shimaunda-season-2-op-1-digital"},{"target":"link","fields":["url","type"],"sourceUrls":["https://me-i.jp/news/detail/1066"],"verifiedAt":"2026-10-15","targetId":"https://me-i.jp/news/detail/1066"},{"target":"link","fields":["url","type"],"sourceUrls":["https://me-i.jp/news/detail/1066"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=0Lxu3LIY-m4"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.youtube.com/watch?v=kDvjltW21ag"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=kDvjltW21ag"},{"target":"link","fields":["url","type"],"sourceUrls":["https://me-i.lnk.to/LR_st"],"verifiedAt":"2026-10-15","targetId":"https://me-i.lnk.to/LR_st"},{"target":"link","fields":["url","type"],"sourceUrls":["https://me-i.lnk.to/LR_st"],"verifiedAt":"2026-10-15","targetId":"https://music.apple.com/jp/album/1862061656"},{"target":"link","fields":["url","type"],"sourceUrls":["https://me-i.lnk.to/LR_st"],"verifiedAt":"2026-10-15","targetId":"https://open.spotify.com/album/4g5hgAFN90DBWd6OqVjJJJ"},{"target":"link","fields":["url","type"],"sourceUrls":["https://me-i.lnk.to/LR_st"],"verifiedAt":"2026-10-15","targetId":"https://music.youtube.com/playlist?list=OLAK5uy_l9u2s1n3piqBOT0-_IV-ipJmg8i7U4K24"},{"target":"song","targetId":"douse-koishite-shimaunda-season-2-op-1-song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/winter-2026-anime-theme-songs/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"douse-koishite-shimaunda-season-2-op-1","fields":["usage"],"sourceUrls":["https://uzurea.net/winter-2026-anime-theme-songs/"],"verifiedAt":"2026-10-30"}],"releases":[{"id":"douse-koishite-shimaunda-season-2-op-1-digital","title":"LとR","artistDisplayName":"ME:I","type":"single","tracks":[{"title":"LとR"}],"date":{"value":"2026-01-09","precision":"day"},"edition":"Digital Single"}],"links":[{"platform":"官方配信","label":"LとR 官方商品／配信資料","url":"https://me-i.jp/news/detail/1066","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"douse-koishite-shimaunda-season-2-op-1-digital"},{"platform":"YouTube","label":"LとR 無字幕 OP","url":"https://www.youtube.com/watch?v=0Lxu3LIY-m4","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"YouTube","label":"LとR 官方歌曲影片","url":"https://www.youtube.com/watch?v=kDvjltW21ag","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"官方配信","label":"LとR 官方配信","url":"https://me-i.lnk.to/LR_st","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"Apple Music","label":"LとR Apple Music 確切配信專輯","url":"https://music.apple.com/jp/album/1862061656","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"Spotify","label":"LとR Spotify 確切配信專輯","url":"https://open.spotify.com/album/4g5hgAFN90DBWd6OqVjJJJ","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"YouTube Music","label":"LとR YouTube Music 確切配信專輯","url":"https://music.youtube.com/playlist?list=OLAK5uy_l9u2s1n3piqBOT0-_IV-ipJmg8i7U4K24","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"}],"sourceMode":"explicit"},{"type":"ED","titleJa":"初恋","artistDisplayName":"berry meet","sequence":1,"songId":"douse-koishite-shimaunda-season-2-ed-1-song","credits":[{"name":"berry meet","role":"vocals"},{"name":"Takuto Noro","role":"lyrics"},{"name":"Takuto Noro","role":"composition"},{"name":"村山☆潤","role":"arrangement"},{"name":"berry meet","role":"arrangement"},{"name":"たく","role":"group_member","groupName":"berry meet"},{"name":"たなかり","role":"group_member","groupName":"berry meet"},{"name":"いこたん","role":"group_member","groupName":"berry meet"}],"sources":[{"url":"https://koishima-pr.com/","label":"動畫官網 MUSIC：第二期 LとR／初恋 原名、歌唱及團隊；未混用第一期創作","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/douse_koishite_shimaunda_season_2","language":"en","role":"cross_check","verifiedAt":"2026-07-28"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/winter-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-10-30"},{"url":"https://cal.syoboi.jp/tid/7659/goods","label":"しょぼいカレンダー 公開索引：第二期 初恋 完整創作交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://berrymeet.com/discography/detail/6375/","label":"berry meet 官方 discography：初恋 數位發行與日期","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://berrymeet.lnk.to/hatsukoi","label":"藝人／唱片公司官方配信頁：確切曲目或專輯目的地","role":"first_party","language":"ja","verifiedAt":"2026-10-15"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://koishima-pr.com/"],"verifiedAt":"2026-10-15","targetId":"douse-koishite-shimaunda-season-2-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://koishima-pr.com/"],"verifiedAt":"2026-10-15","targetId":"douse-koishite-shimaunda-season-2-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://cal.syoboi.jp/tid/7659/goods"],"verifiedAt":"2026-10-15"},{"target":"credits","fields":["credits"],"sourceUrls":["https://koishima-pr.com/"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://berrymeet.com/discography/detail/6375/"],"verifiedAt":"2026-10-15","targetId":"https://berrymeet.lnk.to/hatsukoi"},{"target":"link","fields":["url","type"],"sourceUrls":["https://berrymeet.lnk.to/hatsukoi"],"verifiedAt":"2026-10-15","targetId":"https://berrymeet.lnk.to/hatsukoi"},{"target":"link","fields":["url","type"],"sourceUrls":["https://berrymeet.lnk.to/hatsukoi"],"verifiedAt":"2026-10-15","targetId":"https://open.spotify.com/album/0zy2NHCXpNsMGTTLvFhwTX"},{"target":"link","fields":["url","type"],"sourceUrls":["https://berrymeet.lnk.to/hatsukoi"],"verifiedAt":"2026-10-15","targetId":"https://music.apple.com/us/album/1864141749"},{"target":"link","fields":["url","type"],"sourceUrls":["https://berrymeet.lnk.to/hatsukoi"],"verifiedAt":"2026-10-15","targetId":"https://music.youtube.com/playlist?list=OLAK5uy_nzdVeeJdJIpve7XoHaX1en8birXPQn_6k"},{"target":"song","targetId":"douse-koishite-shimaunda-season-2-ed-1-song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/winter-2026-anime-theme-songs/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"douse-koishite-shimaunda-season-2-ed-1","fields":["usage"],"sourceUrls":["https://uzurea.net/winter-2026-anime-theme-songs/"],"verifiedAt":"2026-10-30"}],"links":[{"platform":"官方配信","label":"初恋 官方配信","url":"https://berrymeet.lnk.to/hatsukoi","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"Spotify","label":"初恋 Spotify 確切配信專輯","url":"https://open.spotify.com/album/0zy2NHCXpNsMGTTLvFhwTX","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"Apple Music","label":"初恋 Apple Music 確切配信專輯","url":"https://music.apple.com/us/album/1864141749","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"YouTube Music","label":"初恋 YouTube Music 確切配信專輯","url":"https://music.youtube.com/playlist?list=OLAK5uy_nzdVeeJdJIpve7XoHaX1en8birXPQn_6k","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"}],"sourceMode":"explicit"}],"verifiedAt":"2026-07-28","metadataVerifiedAt":"2026-07-28"},
   {"anilistId":185514,"id":"curated-185514","slug":"champignon-no-majo","seasonIds":["2026-winter"],"startDate":"2026-01-09","titleJa":"シャンピニオンの魔女","titleZhHant":"蘑菇魔女","titleRomaji":"Champignon no Majo","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185514-mfJqhtz22l1Z.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/185514-I19hOYFDzU1X.jpg","editorialWeekday":5,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://champignon-pr.com/","anilistUrl":"https://anilist.co/anime/185514","imageSourceUrl":"https://anilist.co/anime/185514","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2026-winter?display=list_detailed","https://bgm.tv/subject/528434"],"animeThemesUrl":"https://animethemes.moe/anime/champignon_no_majo","uzureaUrl":"https://uzurea.net/winter-2026-anime-theme-songs/","themes":[{"type":"OP","titleJa":"魔法使いの日記","artistDisplayName":"ロス","sequence":1,"songId":"champignon-no-majo-op-1-song","sourceMode":"explicit","sources":[{"label":"動畫官方網站","url":"https://champignon-pr.com/","language":"ja","role":"first_party","verifiedAt":"2026-10-30"},{"label":"巴哈姆特：繁體中文作品名稱及片頭片尾曲交叉核對","url":"https://acg.gamer.com.tw/acgDetail.php?s=145458","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-08-10"},{"label":"TBSアニメ 官方影片","url":"https://www.youtube.com/watch?v=FXq7zmbs1ws","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"ロス 官方影片","url":"https://www.youtube.com/watch?v=Eqp5nUfNYKo","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"官方跨平台數位發行頁","url":"https://rosu.lnk.to/diary","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"Apple Music 台灣","url":"https://music.apple.com/tw/album/wizards-diary/1864141780?i=1864141796","language":"zh-Hant","role":"first_party","verifiedAt":"2026-08-10"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/champignon_no_majo","language":"en","role":"cross_check","verifiedAt":"2026-08-10"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/winter-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","targetId":"champignon-no-majo-op-1-song","fields":["title","artist"],"sourceUrls":["https://champignon-pr.com/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"champignon-no-majo-op-1","fields":["usage"],"sourceUrls":["https://champignon-pr.com/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"champignon-no-majo-op-1-song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/winter-2026-anime-theme-songs/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"champignon-no-majo-op-1","fields":["usage"],"sourceUrls":["https://uzurea.net/winter-2026-anime-theme-songs/"],"verifiedAt":"2026-10-30"}]},{"type":"OP","sequence":2,"titleJa":"Kimi wa","artistDisplayName":"Ms.OOJA"},{"type":"ED","titleJa":"君は","artistDisplayName":"Ms.OOJA","sequence":1,"songId":"champignon-no-majo-ed-1-song","sourceMode":"explicit","sources":[{"label":"動畫官方網站","url":"https://champignon-pr.com/","language":"ja","role":"first_party","verifiedAt":"2026-10-30"},{"label":"巴哈姆特：繁體中文作品名稱及片頭片尾曲交叉核對","url":"https://acg.gamer.com.tw/acgDetail.php?s=145458","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-08-10"},{"label":"TBSアニメ 官方影片","url":"https://www.youtube.com/watch?v=jCP_ZA_ga30","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"MsOOJA Channel 官方影片","url":"https://www.youtube.com/watch?v=nzUr2Px5OfU","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"官方跨平台數位發行頁","url":"https://msooja.lnk.to/justyou","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"Apple Music 台灣","url":"https://music.apple.com/tw/album/just-you/1863324174?i=1863324343","language":"zh-Hant","role":"first_party","verifiedAt":"2026-08-10"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/champignon_no_majo","language":"en","role":"cross_check","verifiedAt":"2026-08-10"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/winter-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","targetId":"champignon-no-majo-ed-1-song","fields":["title","artist"],"sourceUrls":["https://champignon-pr.com/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"champignon-no-majo-ed-1","fields":["usage"],"sourceUrls":["https://champignon-pr.com/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"champignon-no-majo-ed-1-song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/winter-2026-anime-theme-songs/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"champignon-no-majo-ed-1","fields":["usage"],"sourceUrls":["https://uzurea.net/winter-2026-anime-theme-songs/"],"verifiedAt":"2026-10-30"}]},{"type":"ED","sequence":2,"titleJa":"Mahoutsukai no Nikki","artistDisplayName":"Rosu"}],"verifiedAt":"2026-07-28","metadataSources":[{"label":"動畫官方網站：作品與播出資料","url":"https://champignon-pr.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"AniList：作品識別與公開圖像","url":"https://anilist.co/anime/185514","language":"en","role":"identifier","verifiedAt":"2026-08-10"},{"label":"繁體中文季度列表交叉對照","url":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","language":"zh-Hant","role":"localized_cross_check","verifiedAt":"2026-08-10"},{"label":"AnimeThemes：OP／ED 曲目交叉核對","url":"https://animethemes.moe/anime/champignon_no_majo","language":"en","role":"theme_cross_check","verifiedAt":"2026-08-10"},{"label":"UZUREA：季度主題曲與官方影片索引","url":"https://uzurea.net/winter-2026-anime-theme-songs/","language":"ja","role":"theme_cross_check","verifiedAt":"2026-08-10"},{"label":"季度首播公開來源","url":"https://annict.com/works/2026-winter?display=list_detailed","language":"ja","role":"broadcast_cross_check","verifiedAt":"2026-08-10"},{"label":"季度首播公開來源","url":"https://bgm.tv/subject/528434","language":"zh-Hans","role":"broadcast_cross_check","verifiedAt":"2026-08-10"}],"metadataVerifiedAt":"2026-08-10"},
   {"anilistId":172463,"id":"curated-172463","slug":"jujutsu-kaisen-shimetsu-kaiyuu-zenpen","seasonIds":["2026-winter"],"startDate":"2026-01-09","titleJa":"呪術廻戦 死滅回游 前編","titleZhHant":"咒術迴戰 死滅迴游 前篇 （第3期）","titleRomaji":"Jujutsu Kaisen: Shimetsu Kaiyuu - Zenpen","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx172463-LnXqHzt74SJL.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/172463-3J2o3qQZadFJ.jpg","editorialWeekday":5,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://jujutsukaisen.jp/","anilistUrl":"https://anilist.co/anime/172463","imageSourceUrl":"https://anilist.co/anime/172463","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2026-winter?display=list_detailed","https://bgm.tv/subject/472741"],"animeThemesUrl":"https://animethemes.moe/anime/jujutsu_kaisen_shimetsu_kaiyuu_zenpen","uzureaUrl":"https://uzurea.net/winter-2026-anime-theme-songs/","themes":[{"type":"OP","titleJa":"AIZO","artistDisplayName":"King Gnu","youtubeUrl":"https://www.youtube.com/watch?v=Xr032EhUDPw","sequence":1,"songId":"jujutsu-kaisen-shimetsu-kaiyuu-zenpen-op-1-song","sourceMode":"explicit","sources":[{"label":"動畫官方影片頁：第 3 期片頭曲分類","url":"https://jujutsukaisen.jp/movie/index_music.php","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"動畫官方公告：無字幕片頭及片尾影片","url":"https://jujutsukaisen.jp/news/20260109_06.php","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"King Gnu 官方曲目頁：數位發行日與官方串流入口","url":"https://kinggnu.jp/music/AIZO/","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"Sony Music 官方公告：完整音樂錄影帶","url":"https://www.sonymusic.co.jp/artist/kinggnu/info/580344","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"Apple Music 台灣","url":"https://music.apple.com/tw/song/1860538548","language":"zh-Hant","role":"first_party","verifiedAt":"2026-08-11"},{"label":"巴哈姆特：繁體中文作品名稱、片頭曲與創作 credit 交叉核對","url":"https://acg.gamer.com.tw/acgDetail.php?s=137133","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-08-11"},{"label":"TOHO animation チャンネル 官方影片","url":"https://www.youtube.com/watch?v=Xr032EhUDPw","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"King Gnu official YouTube channel 官方影片","url":"https://www.youtube.com/watch?v=zz2a9Q2Wru0","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"官方跨平台數位發行頁","url":"https://kinggnu.lnk.to/AIZO","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"動畫官方網站","url":"https://jujutsukaisen.jp/","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/jujutsu_kaisen_shimetsu_kaiyuu_zenpen","language":"en","role":"cross_check","verifiedAt":"2026-08-11"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/winter-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-08-11"},{"url":"https://jujutsukaisen.jp/music/","label":"動畫官方：本期曲名、藝人名義與用途","language":"ja","role":"first_party","verifiedAt":"2026-10-30"},{"url":"https://zh.wikipedia.org/wiki/%E5%92%92%E8%A1%93%E8%BF%B4%E6%88%B0_(%E5%8B%95%E7%95%AB)","label":"中文維基：本期曲名、藝人名義與用途交叉","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","targetId":"jujutsu-kaisen-shimetsu-kaiyuu-zenpen-op-1-song","fields":["title","artist"],"sourceUrls":["https://jujutsukaisen.jp/music/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"jujutsu-kaisen-shimetsu-kaiyuu-zenpen-op-1","fields":["usage"],"sourceUrls":["https://jujutsukaisen.jp/music/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"jujutsu-kaisen-shimetsu-kaiyuu-zenpen-op-1-song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%92%92%E8%A1%93%E8%BF%B4%E6%88%B0_(%E5%8B%95%E7%95%AB)"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"jujutsu-kaisen-shimetsu-kaiyuu-zenpen-op-1","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%92%92%E8%A1%93%E8%BF%B4%E6%88%B0_(%E5%8B%95%E7%95%AB)"],"verifiedAt":"2026-10-30"}]},{"type":"ED","titleJa":"よあけのうた","artistDisplayName":"jo0ji","youtubeUrl":"https://www.youtube.com/watch?v=-i8LR9-WVps","sequence":1,"songId":"jujutsu-kaisen-shimetsu-kaiyuu-zenpen-ed-1-song","sourceMode":"explicit","sources":[{"label":"動畫官方音樂頁：第 3 期片尾曲分類與正式收錄資料","url":"https://jujutsukaisen.jp/music/","language":"ja","role":"first_party","verifiedAt":"2026-10-30"},{"label":"動畫官方公告：片尾曲、數位發行日與官方串流入口","url":"https://jujutsukaisen.jp/news/20260109_05.php","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"動畫官方公告：無字幕片頭及片尾影片","url":"https://jujutsukaisen.jp/news/20260109_06.php","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"Sony Music 官方公告：完整音樂錄影帶","url":"https://www.sonymusic.co.jp/artist/jo0ji/info/580237","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"台灣索尼音樂：繁體中文曲目與動畫搭配資料","url":"https://sonymusic.com.tw/album/yoake-no-uta/","language":"zh-Hant","role":"first_party","verifiedAt":"2026-08-11"},{"label":"Apple Music 台灣","url":"https://music.apple.com/tw/song/1860793850","language":"zh-Hant","role":"first_party","verifiedAt":"2026-08-11"},{"label":"巴哈姆特：繁體中文作品名稱、片尾曲與創作 credit 交叉核對","url":"https://acg.gamer.com.tw/acgDetail.php?s=137133","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-08-11"},{"label":"TOHO animation チャンネル 官方影片","url":"https://www.youtube.com/watch?v=-i8LR9-WVps","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"jo0ji 官方影片","url":"https://www.youtube.com/watch?v=ufcDIOS1HRo","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"官方跨平台數位發行頁","url":"https://jo0ji.lnk.to/Yoakenouta","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"動畫官方網站","url":"https://jujutsukaisen.jp/","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/jujutsu_kaisen_shimetsu_kaiyuu_zenpen","language":"en","role":"cross_check","verifiedAt":"2026-08-11"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/winter-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-08-11"},{"url":"https://zh.wikipedia.org/wiki/%E5%92%92%E8%A1%93%E8%BF%B4%E6%88%B0_(%E5%8B%95%E7%95%AB)","label":"中文維基：本期曲名、藝人名義與用途交叉","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","targetId":"jujutsu-kaisen-shimetsu-kaiyuu-zenpen-ed-1-song","fields":["title","artist"],"sourceUrls":["https://jujutsukaisen.jp/music/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"jujutsu-kaisen-shimetsu-kaiyuu-zenpen-ed-1","fields":["usage"],"sourceUrls":["https://jujutsukaisen.jp/music/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"jujutsu-kaisen-shimetsu-kaiyuu-zenpen-ed-1-song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%92%92%E8%A1%93%E8%BF%B4%E6%88%B0_(%E5%8B%95%E7%95%AB)"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"jujutsu-kaisen-shimetsu-kaiyuu-zenpen-ed-1","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%92%92%E8%A1%93%E8%BF%B4%E6%88%B0_(%E5%8B%95%E7%95%AB)"],"verifiedAt":"2026-10-30"}]}],"verifiedAt":"2026-07-28","metadataSources":[{"label":"動畫官方網站：作品與播出資料","url":"https://jujutsukaisen.jp/","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"AniList：作品識別與公開圖像","url":"https://anilist.co/anime/172463","language":"en","role":"identifier","verifiedAt":"2026-08-11"},{"label":"繁體中文季度列表交叉對照","url":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","language":"zh-Hant","role":"localized_cross_check","verifiedAt":"2026-08-11"},{"label":"AnimeThemes：OP／ED 曲目交叉核對","url":"https://animethemes.moe/anime/jujutsu_kaisen_shimetsu_kaiyuu_zenpen","language":"en","role":"theme_cross_check","verifiedAt":"2026-08-11"},{"label":"UZUREA：季度主題曲與官方影片索引","url":"https://uzurea.net/winter-2026-anime-theme-songs/","language":"ja","role":"theme_cross_check","verifiedAt":"2026-08-11"},{"label":"季度首播公開來源","url":"https://annict.com/works/2026-winter?display=list_detailed","language":"ja","role":"broadcast_cross_check","verifiedAt":"2026-08-11"},{"label":"季度首播公開來源","url":"https://bgm.tv/subject/472741","language":"zh-Hans","role":"broadcast_cross_check","verifiedAt":"2026-08-11"}],"metadataVerifiedAt":"2026-08-11"},
-  {"anilistId":203296,"id":"curated-203296","slug":"cardfight-vanguard-divinez-genma-seisen-hen","seasonIds":["2026-winter"],"startDate":"2026-01-10","titleJa":"カードファイト!! ヴァンガード Divinez 幻真星戦編","titleZhHant":"卡片戰鬥!! 先導者 Divinez 幻真星戰篇 （第5期）","titleRomaji":"Cardfight!! Vanguard: Divinez - Genma Seisen-hen","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx203296-LYXWSdP4N4YF.jpg","editorialWeekday":6,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://cf-vanguard.com/","anilistUrl":"https://anilist.co/anime/203296","imageSourceUrl":"https://anilist.co/anime/203296","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2026-winter?display=list_detailed","https://bgm.tv/subject/591584"],"animeThemesUrl":"https://animethemes.moe/anime/cardfight_vanguard_divinez_genma_seisenhen","uzureaUrl":"https://uzurea.net/winter-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"幻界","artistDisplayName":"V.W.P","songId":"cardfight-vanguard-divinez-genma-seisen-hen-op-1-song","credits":[{"name":"V.W.P","role":"vocals"},{"name":"みきとP","role":"lyrics"},{"name":"みきとP","role":"composition"},{"name":"みきとP","role":"arrangement"},{"name":"Sosaku Sasaki","role":"arrangement"},{"name":"駄菓子O型","role":"arrangement"}],"titleRomaji":"Genkai","sources":[{"label":"動畫官方網站","url":"https://cf-vanguard.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-28"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/cardfight_vanguard_divinez_genma_seisenhen","language":"en","role":"cross_check","verifiedAt":"2026-07-28"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/winter-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-28"},{"url":"https://mikitop.com/2026/","label":"みきとP 官方作品公告：幻界、歌唱、完整創作及確切影片","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.animatetimes.com/news/details.php?id=1765764479","label":"ブシロード官方發表轉載（AnimateTimes掲載）：幻真星戦編OP曲名、演唱與用途","language":"ja","role":"first_party","verifiedAt":"2026-10-30"},{"url":"https://www.tvguide.or.jp/db/anime/cf_vanguard/divinez_gm/","label":"TVガイド：幻真星戦編本期OP／ED交叉","language":"ja","role":"cross_check","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://mikitop.com/2026/"],"verifiedAt":"2026-10-15","targetId":"cardfight-vanguard-divinez-genma-seisen-hen-op-1-song"},{"target":"credits","fields":["credits"],"sourceUrls":["https://mikitop.com/2026/"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://mikitop.com/2026/"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=zCbiWxWN1dE"},{"target":"song","targetId":"cardfight-vanguard-divinez-genma-seisen-hen-op-1-song","fields":["title","artist"],"sourceUrls":["https://www.animatetimes.com/news/details.php?id=1765764479"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"cardfight-vanguard-divinez-genma-seisen-hen-op-1","fields":["usage"],"sourceUrls":["https://www.animatetimes.com/news/details.php?id=1765764479"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"cardfight-vanguard-divinez-genma-seisen-hen-op-1-song","fields":["title","artist"],"sourceUrls":["https://www.tvguide.or.jp/db/anime/cf_vanguard/divinez_gm/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"cardfight-vanguard-divinez-genma-seisen-hen-op-1","fields":["usage"],"sourceUrls":["https://www.tvguide.or.jp/db/anime/cf_vanguard/divinez_gm/"],"verifiedAt":"2026-10-30"}],"links":[{"platform":"YouTube","label":"幻界 作者官方公開影片","url":"https://www.youtube.com/watch?v=zCbiWxWN1dE","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"}],"sourceMode":"explicit"},{"type":"OP","sequence":2,"titleJa":"ワールズエンドトリガー","artistDisplayName":"青木陽菜","songId":"cardfight-vanguard-divinez-genma-seisen-hen-op-2-song","credits":[{"name":"Ryo'Lefty'Miyata","role":"lyrics"},{"name":"Ryo'Lefty'Miyata","role":"composition"},{"name":"Ryo'Lefty'Miyata","role":"arrangement"},{"name":"青木陽菜","role":"vocals"}],"titleRomaji":"World's End Trigger","sources":[{"url":"https://cf-vanguard.com/","label":"ヴァンガード官方公開索引：幻真星戦編後半 OP 的原名與歌唱","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/cardfight_vanguard_divinez_genma_seisenhen","language":"en","role":"cross_check","verifiedAt":"2026-07-28"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/winter-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-28"},{"url":"https://www.youtube.com/watch?v=xLo4GgN_Jh4","label":"青木陽菜官方 MV：ワールズエンドトリガー 完整創作","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://bm-echoes.com/works/aokihina-blaze/","label":"BM-ECHOES 官方商品公開索引：BLAZE 三個 CD 版、Track 2；普通頁 404","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.qobuz.com/jp-ja/album/blaze/yr14m264bg80f","label":"Qobuz JP 授權 BLAZE：Track 2、青木陽菜及詞曲 credits","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://mantan-web.jp/article/20260710dog00m200064000a.html","label":"MANTANWEB：本期後半OP曲名、演唱與用途","language":"ja","role":"cross_check","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://cf-vanguard.com/"],"verifiedAt":"2026-10-15","targetId":"cardfight-vanguard-divinez-genma-seisen-hen-op-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://cf-vanguard.com/"],"verifiedAt":"2026-10-15","targetId":"cardfight-vanguard-divinez-genma-seisen-hen-op-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.youtube.com/watch?v=xLo4GgN_Jh4"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.youtube.com/watch?v=xLo4GgN_Jh4"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=xLo4GgN_Jh4"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://bm-echoes.com/works/aokihina-blaze/"],"verifiedAt":"2026-10-15","targetId":"aoki-hina-brmm-11057"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://bm-echoes.com/works/aokihina-blaze/"],"verifiedAt":"2026-10-15","targetId":"aoki-hina-brmm-11058"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://bm-echoes.com/works/aokihina-blaze/"],"verifiedAt":"2026-10-15","targetId":"aoki-hina-brmm-11059"},{"target":"link","fields":["url","type"],"sourceUrls":["https://bm-echoes.com/works/aokihina-blaze/"],"verifiedAt":"2026-10-15","targetId":"https://bm-echoes.com/works/aokihina-blaze/"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://www.qobuz.com/jp-ja/album/blaze/yr14m264bg80f"],"verifiedAt":"2026-10-15","targetId":"aoki-hina-blaze-qobuz"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.qobuz.com/jp-ja/album/blaze/yr14m264bg80f"],"verifiedAt":"2026-10-15","targetId":"https://www.qobuz.com/jp-ja/album/blaze/yr14m264bg80f"},{"target":"song","targetId":"cardfight-vanguard-divinez-genma-seisen-hen-op-2-song","fields":["title","artist"],"sourceUrls":["https://mantan-web.jp/article/20260710dog00m200064000a.html"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"cardfight-vanguard-divinez-genma-seisen-hen-op-2","fields":["usage"],"sourceUrls":["https://mantan-web.jp/article/20260710dog00m200064000a.html"],"verifiedAt":"2026-10-30"}],"usageLabel":"後半 OP","links":[{"platform":"YouTube","label":"ワールズエンドトリガー Music Video","url":"https://www.youtube.com/watch?v=xLo4GgN_Jh4","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"官方配信","label":"BLAZE 官方 CD 商品","url":"https://bm-echoes.com/works/aokihina-blaze/","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"Qobuz","label":"BLAZE Qobuz 確切專輯","url":"https://www.qobuz.com/jp-ja/album/blaze/yr14m264bg80f","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"aoki-hina-blaze-qobuz"}],"releases":[{"id":"aoki-hina-brmm-11057","title":"BLAZE","type":"ep","artistDisplayName":"青木陽菜","date":{"value":"2026-07-22","precision":"day"},"edition":"Blu-ray付生産限定盤","region":"JP","tracks":[{"title":"ワールズエンドトリガー","disc":1,"position":2}],"catalogNumber":"BRMM-11057","label":"ブシロードミュージック"},{"id":"aoki-hina-brmm-11058","title":"BLAZE","type":"ep","artistDisplayName":"青木陽菜","date":{"value":"2026-07-22","precision":"day"},"edition":"通常盤Atype","region":"JP","tracks":[{"title":"ワールズエンドトリガー","disc":1,"position":2}],"catalogNumber":"BRMM-11058","label":"ブシロードミュージック"},{"id":"aoki-hina-brmm-11059","title":"BLAZE","type":"ep","artistDisplayName":"青木陽菜","date":{"value":"2026-07-22","precision":"day"},"edition":"通常盤Btype","region":"JP","tracks":[{"title":"ワールズエンドトリガー","disc":1,"position":2}],"catalogNumber":"BRMM-11059","label":"ブシロードミュージック"},{"id":"aoki-hina-blaze-qobuz","title":"BLAZE","type":"ep","artistDisplayName":"青木陽菜","date":{"value":"2026-07-22","precision":"day"},"edition":"Qobuz 配信版","region":"JP","tracks":[{"title":"ワールズエンドトリガー","disc":1,"position":2}],"label":"ブシロードミュージック"}],"sourceMode":"explicit","followUp":[{"fields":["use_quarters"],"note":"本期後半OP的曲名、演唱及用途已有第一方與交叉證據；實際啟用日期與逐曲季度仍待核，7月演出報道日期不等歌曲首用日。","resumeWhen":"取得本期後半首用集、排程或官方音樂啟用公告後核對用途季度；既有作品與用途ID保留，不由商品或報道日期推季度。","checkedAt":"2026-10-30"}]},{"type":"ED","sequence":1,"titleJa":"ギラギラ","artistDisplayName":"RealRomantic","songId":"cardfight-vanguard-divinez-genma-seisen-hen-ed-1-song","credits":[{"name":"RealRomantic","role":"vocals"},{"name":"Kanata Nakamura","role":"lyrics"},{"name":"daraku","role":"composition"},{"name":"daraku","role":"arrangement"},{"name":"KARIN","role":"group_member","groupName":"RealRomantic"},{"name":"RIKKI","role":"group_member","groupName":"RealRomantic"},{"name":"YUI","role":"group_member","groupName":"RealRomantic"},{"name":"HINA","role":"group_member","groupName":"RealRomantic"},{"name":"RIN","role":"group_member","groupName":"RealRomantic"},{"name":"NANA","role":"group_member","groupName":"RealRomantic"},{"name":"SORA","role":"group_member","groupName":"RealRomantic"}],"titleRomaji":"Gira Gira","sources":[{"label":"動畫官方網站","url":"https://cf-vanguard.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-28"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/cardfight_vanguard_divinez_genma_seisenhen","language":"en","role":"cross_check","verifiedAt":"2026-07-28"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/winter-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-28"},{"url":"https://realromantic-official.com/discography/rr_giragira/","label":"RealRomantic 官方商品公開索引：幻真星戦編 ED、兩個 CD Mini Album 版及 Track 1","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.uta-net.com/song/390137/","label":"歌ネット 授權曲目：ギラギラ 作詞、作曲、編曲交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://realromantic-official.com/discography/digital-release-%E3%82%AE%E3%83%A9%E3%82%AE%E3%83%A9/","label":"RealRomantic 官方公開索引：ギラギラ 數位 Single 及先行配信日期","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://prtimes.jp/main/html/rd/p/000009375.000014827.html","label":"ブシロード官方新聞稿：ギラギラ Mini Album 與確切 Music Video","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://realromantic-official.com/profile/","label":"RealRomantic 官方公開 profile：七位團隊成員；未推定本曲個別演唱","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.tvguide.or.jp/db/anime/cf_vanguard/divinez_gm/","label":"TVガイド：幻真星戦編本期OP／ED交叉","language":"ja","role":"cross_check","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://realromantic-official.com/discography/rr_giragira/"],"verifiedAt":"2026-10-15","targetId":"cardfight-vanguard-divinez-genma-seisen-hen-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://realromantic-official.com/discography/rr_giragira/"],"verifiedAt":"2026-10-15","targetId":"cardfight-vanguard-divinez-genma-seisen-hen-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.uta-net.com/song/390137/"],"verifiedAt":"2026-10-15"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://realromantic-official.com/discography/rr_giragira/"],"verifiedAt":"2026-10-15","targetId":"realromantic-giragira-cd-type-a"},{"target":"link","fields":["url","type"],"sourceUrls":["https://realromantic-official.com/discography/rr_giragira/"],"verifiedAt":"2026-10-15","targetId":"https://realromantic-official.com/discography/rr_giragira/"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://realromantic-official.com/discography/rr_giragira/"],"verifiedAt":"2026-10-15","targetId":"realromantic-giragira-cd-type-b"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://realromantic-official.com/discography/digital-release-%E3%82%AE%E3%83%A9%E3%82%AE%E3%83%A9/"],"verifiedAt":"2026-10-15","targetId":"cardfight-vanguard-divinez-genma-seisen-hen-ed-1-digital"},{"target":"link","fields":["url","type"],"sourceUrls":["https://prtimes.jp/main/html/rd/p/000009375.000014827.html"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=9O9Vfw8_wFg"},{"target":"credits","fields":["credits"],"sourceUrls":["https://realromantic-official.com/profile/"],"verifiedAt":"2026-10-15"},{"target":"song","targetId":"cardfight-vanguard-divinez-genma-seisen-hen-ed-1-song","fields":["title","artist"],"sourceUrls":["https://www.tvguide.or.jp/db/anime/cf_vanguard/divinez_gm/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"cardfight-vanguard-divinez-genma-seisen-hen-ed-1","fields":["usage"],"sourceUrls":["https://www.tvguide.or.jp/db/anime/cf_vanguard/divinez_gm/"],"verifiedAt":"2026-10-30"}],"releases":[{"id":"realromantic-giragira-cd-type-a","title":"ギラギラ","artistDisplayName":"RealRomantic","type":"album","tracks":[{"title":"ギラギラ","position":1,"disc":1}],"date":{"value":"2026-03-25","precision":"day"},"edition":"Mini Album CD・TYPE-A"},{"id":"realromantic-giragira-cd-type-b","title":"ギラギラ","artistDisplayName":"RealRomantic","type":"album","tracks":[{"title":"ギラギラ","position":1,"disc":1}],"date":{"value":"2026-03-25","precision":"day"},"edition":"Mini Album CD・TYPE-B"},{"id":"cardfight-vanguard-divinez-genma-seisen-hen-ed-1-digital","title":"ギラギラ","artistDisplayName":"RealRomantic","type":"single","tracks":[{"title":"ギラギラ"}],"date":{"value":"2026-01-17","precision":"day"},"edition":"Digital Release"}],"links":[{"platform":"官方配信","label":"ギラギラ 官方商品／配信資料","url":"https://realromantic-official.com/discography/rr_giragira/","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"realromantic-giragira-cd-type-b"},{"platform":"YouTube","label":"ギラギラ Music Video","url":"https://www.youtube.com/watch?v=9O9Vfw8_wFg","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"}],"sourceMode":"explicit"}],"verifiedAt":"2026-07-28","metadataVerifiedAt":"2026-07-28"},
+  {
+  "anilistId": 203296,
+  "id": "curated-203296",
+  "slug": "cardfight-vanguard-divinez-genma-seisen-hen",
+  "seasonIds": [
+    "2026-winter"
+  ],
+  "startDate": "2026-01-10",
+  "titleJa": "カードファイト!! ヴァンガード Divinez 幻真星戦編",
+  "titleZhHant": "卡片戰鬥!! 先導者 Divinez 幻真星戰篇 （第5期）",
+  "titleRomaji": "Cardfight!! Vanguard: Divinez - Genma Seisen-hen",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx203296-LYXWSdP4N4YF.jpg",
+  "editorialWeekday": 6,
+  "broadcastLabel": "日本首播／時間未整理",
+  "status": "finished",
+  "officialSiteUrl": "https://cf-vanguard.com/",
+  "anilistUrl": "https://anilist.co/anime/203296",
+  "imageSourceUrl": "https://anilist.co/anime/203296",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://annict.com/works/2026-winter?display=list_detailed",
+    "https://bgm.tv/subject/591584"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/cardfight_vanguard_divinez_genma_seisenhen",
+  "uzureaUrl": "https://uzurea.net/winter-2026-anime-theme-songs/",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "幻界",
+      "artistDisplayName": "V.W.P",
+      "songId": "cardfight-vanguard-divinez-genma-seisen-hen-op-1-song",
+      "credits": [
+        {
+          "name": "V.W.P",
+          "role": "vocals"
+        },
+        {
+          "name": "みきとP",
+          "role": "lyrics"
+        },
+        {
+          "name": "みきとP",
+          "role": "composition"
+        },
+        {
+          "name": "みきとP",
+          "role": "arrangement"
+        },
+        {
+          "name": "Sosaku Sasaki",
+          "role": "arrangement"
+        },
+        {
+          "name": "駄菓子O型",
+          "role": "arrangement"
+        }
+      ],
+      "titleRomaji": "Genkai",
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://cf-vanguard.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-07-28"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/cardfight_vanguard_divinez_genma_seisenhen",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-07-28"
+        },
+        {
+          "label": "UZUREA 主題曲清單",
+          "url": "https://uzurea.net/winter-2026-anime-theme-songs/",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-07-28"
+        },
+        {
+          "url": "https://mikitop.com/2026/",
+          "label": "みきとP 官方作品公告：幻界、歌唱、完整創作及確切影片",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-15"
+        },
+        {
+          "url": "https://www.animatetimes.com/news/details.php?id=1765764479",
+          "label": "ブシロード官方發表轉載（AnimateTimes掲載）：幻真星戦編OP曲名、演唱與用途",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-10-30"
+        },
+        {
+          "url": "https://www.tvguide.or.jp/db/anime/cf_vanguard/divinez_gm/",
+          "label": "TVガイド：幻真星戦編本期OP／ED交叉",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-10-30"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://mikitop.com/2026/"
+          ],
+          "verifiedAt": "2026-10-15",
+          "targetId": "cardfight-vanguard-divinez-genma-seisen-hen-op-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://mikitop.com/2026/"
+          ],
+          "verifiedAt": "2026-10-15"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://mikitop.com/2026/"
+          ],
+          "verifiedAt": "2026-10-15",
+          "targetId": "https://www.youtube.com/watch?v=zCbiWxWN1dE"
+        },
+        {
+          "target": "song",
+          "targetId": "cardfight-vanguard-divinez-genma-seisen-hen-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1765764479"
+          ],
+          "verifiedAt": "2026-10-30"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "cardfight-vanguard-divinez-genma-seisen-hen-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1765764479"
+          ],
+          "verifiedAt": "2026-10-30"
+        },
+        {
+          "target": "song",
+          "targetId": "cardfight-vanguard-divinez-genma-seisen-hen-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tvguide.or.jp/db/anime/cf_vanguard/divinez_gm/"
+          ],
+          "verifiedAt": "2026-10-30"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "cardfight-vanguard-divinez-genma-seisen-hen-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tvguide.or.jp/db/anime/cf_vanguard/divinez_gm/"
+          ],
+          "verifiedAt": "2026-10-30"
+        }
+      ],
+      "links": [
+        {
+          "platform": "YouTube",
+          "label": "幻界 作者官方公開影片",
+          "url": "https://www.youtube.com/watch?v=zCbiWxWN1dE",
+          "linkType": "direct_track",
+          "region": "GLOBAL",
+          "verifiedAt": "2026-10-15",
+          "availability": "unknown"
+        }
+      ],
+      "sourceMode": "explicit"
+    },
+    {
+      "type": "OP",
+      "sequence": 2,
+      "titleJa": "ワールズエンドトリガー",
+      "artistDisplayName": "青木陽菜",
+      "songId": "cardfight-vanguard-divinez-genma-seisen-hen-op-2-song",
+      "credits": [
+        {
+          "name": "Ryo'Lefty'Miyata",
+          "role": "lyrics"
+        },
+        {
+          "name": "Ryo'Lefty'Miyata",
+          "role": "composition"
+        },
+        {
+          "name": "Ryo'Lefty'Miyata",
+          "role": "arrangement"
+        },
+        {
+          "name": "青木陽菜",
+          "role": "vocals"
+        }
+      ],
+      "titleRomaji": "World's End Trigger",
+      "sources": [
+        {
+          "url": "https://cf-vanguard.com/",
+          "label": "ヴァンガード官方公開索引：幻真星戦編後半 OP 的原名與歌唱",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-15"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/cardfight_vanguard_divinez_genma_seisenhen",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-07-28"
+        },
+        {
+          "label": "UZUREA 主題曲清單",
+          "url": "https://uzurea.net/winter-2026-anime-theme-songs/",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-07-28"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=xLo4GgN_Jh4",
+          "label": "青木陽菜官方 MV：ワールズエンドトリガー 完整創作",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-15"
+        },
+        {
+          "url": "https://bm-echoes.com/works/aokihina-blaze/",
+          "label": "BM-ECHOES 官方商品公開索引：BLAZE 三個 CD 版、Track 2；普通頁 404",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-15"
+        },
+        {
+          "url": "https://www.qobuz.com/jp-ja/album/blaze/yr14m264bg80f",
+          "label": "Qobuz JP 授權 BLAZE：Track 2、青木陽菜及詞曲 credits",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-15"
+        },
+        {
+          "url": "https://mantan-web.jp/article/20260710dog00m200064000a.html",
+          "label": "MANTANWEB：本期後半OP曲名、演唱與用途",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-10-30"
+        },
+        {
+          "url": "https://bushiroad.com/media/fe1dbaec2704d020",
+          "label": "ブシロード原3/6公告：第7話3/7編排；未列本曲，非OP2啟用日期證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://skream.jp/news/2026/01/aokihina_mini_album_release.php",
+          "label": "Skream原1/10報道：後半OP及2/28當時計畫，非實際首用集證據",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://cf-vanguard.com/"
+          ],
+          "verifiedAt": "2026-10-15",
+          "targetId": "cardfight-vanguard-divinez-genma-seisen-hen-op-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://cf-vanguard.com/"
+          ],
+          "verifiedAt": "2026-10-15",
+          "targetId": "cardfight-vanguard-divinez-genma-seisen-hen-op-2"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=xLo4GgN_Jh4"
+          ],
+          "verifiedAt": "2026-10-15"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=xLo4GgN_Jh4"
+          ],
+          "verifiedAt": "2026-10-15",
+          "targetId": "https://www.youtube.com/watch?v=xLo4GgN_Jh4"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "tracklist",
+            "date",
+            "catalog_number",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://bm-echoes.com/works/aokihina-blaze/"
+          ],
+          "verifiedAt": "2026-10-15",
+          "targetId": "aoki-hina-brmm-11057"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "tracklist",
+            "date",
+            "catalog_number",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://bm-echoes.com/works/aokihina-blaze/"
+          ],
+          "verifiedAt": "2026-10-15",
+          "targetId": "aoki-hina-brmm-11058"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "tracklist",
+            "date",
+            "catalog_number",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://bm-echoes.com/works/aokihina-blaze/"
+          ],
+          "verifiedAt": "2026-10-15",
+          "targetId": "aoki-hina-brmm-11059"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://bm-echoes.com/works/aokihina-blaze/"
+          ],
+          "verifiedAt": "2026-10-15",
+          "targetId": "https://bm-echoes.com/works/aokihina-blaze/"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "tracklist",
+            "date",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.qobuz.com/jp-ja/album/blaze/yr14m264bg80f"
+          ],
+          "verifiedAt": "2026-10-15",
+          "targetId": "aoki-hina-blaze-qobuz"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.qobuz.com/jp-ja/album/blaze/yr14m264bg80f"
+          ],
+          "verifiedAt": "2026-10-15",
+          "targetId": "https://www.qobuz.com/jp-ja/album/blaze/yr14m264bg80f"
+        },
+        {
+          "target": "song",
+          "targetId": "cardfight-vanguard-divinez-genma-seisen-hen-op-2-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://mantan-web.jp/article/20260710dog00m200064000a.html"
+          ],
+          "verifiedAt": "2026-10-30"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "cardfight-vanguard-divinez-genma-seisen-hen-op-2",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://mantan-web.jp/article/20260710dog00m200064000a.html"
+          ],
+          "verifiedAt": "2026-10-30"
+        }
+      ],
+      "usageLabel": "後半OP；首用集與啟用季度待核",
+      "links": [
+        {
+          "platform": "YouTube",
+          "label": "ワールズエンドトリガー Music Video",
+          "url": "https://www.youtube.com/watch?v=xLo4GgN_Jh4",
+          "linkType": "direct_track",
+          "region": "GLOBAL",
+          "verifiedAt": "2026-10-15",
+          "availability": "unknown"
+        },
+        {
+          "platform": "官方配信",
+          "label": "BLAZE 官方 CD 商品",
+          "url": "https://bm-echoes.com/works/aokihina-blaze/",
+          "linkType": "official_landing_page",
+          "region": "UNKNOWN",
+          "verifiedAt": "2026-10-15",
+          "availability": "unknown"
+        },
+        {
+          "platform": "Qobuz",
+          "label": "BLAZE Qobuz 確切專輯",
+          "url": "https://www.qobuz.com/jp-ja/album/blaze/yr14m264bg80f",
+          "linkType": "direct_album",
+          "region": "UNKNOWN",
+          "verifiedAt": "2026-10-15",
+          "availability": "unknown",
+          "releaseId": "aoki-hina-blaze-qobuz"
+        }
+      ],
+      "releases": [
+        {
+          "id": "aoki-hina-brmm-11057",
+          "title": "BLAZE",
+          "type": "ep",
+          "artistDisplayName": "青木陽菜",
+          "date": {
+            "value": "2026-07-22",
+            "precision": "day"
+          },
+          "edition": "Blu-ray付生産限定盤",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ワールズエンドトリガー",
+              "disc": 1,
+              "position": 2
+            }
+          ],
+          "catalogNumber": "BRMM-11057",
+          "label": "ブシロードミュージック"
+        },
+        {
+          "id": "aoki-hina-brmm-11058",
+          "title": "BLAZE",
+          "type": "ep",
+          "artistDisplayName": "青木陽菜",
+          "date": {
+            "value": "2026-07-22",
+            "precision": "day"
+          },
+          "edition": "通常盤Atype",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ワールズエンドトリガー",
+              "disc": 1,
+              "position": 2
+            }
+          ],
+          "catalogNumber": "BRMM-11058",
+          "label": "ブシロードミュージック"
+        },
+        {
+          "id": "aoki-hina-brmm-11059",
+          "title": "BLAZE",
+          "type": "ep",
+          "artistDisplayName": "青木陽菜",
+          "date": {
+            "value": "2026-07-22",
+            "precision": "day"
+          },
+          "edition": "通常盤Btype",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ワールズエンドトリガー",
+              "disc": 1,
+              "position": 2
+            }
+          ],
+          "catalogNumber": "BRMM-11059",
+          "label": "ブシロードミュージック"
+        },
+        {
+          "id": "aoki-hina-blaze-qobuz",
+          "title": "BLAZE",
+          "type": "ep",
+          "artistDisplayName": "青木陽菜",
+          "date": {
+            "value": "2026-07-22",
+            "precision": "day"
+          },
+          "edition": "Qobuz 配信版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ワールズエンドトリガー",
+              "disc": 1,
+              "position": 2
+            }
+          ],
+          "label": "ブシロードミュージック"
+        }
+      ],
+      "sourceMode": "explicit",
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters"
+          ],
+          "note": "基本曲名、演唱及後半OP用途已有原證據；原1/10報道稱後半2/28開始，官方3/6公告只列3/7第7話編排，沒有本曲啟用映射。兩日期均不能作本曲實際首用日；季度明確暫空，避免舊規則沿作品冬季。",
+          "resumeWhen": "待本期官方首用集主題曲明文或明確啟用公告可讀，再對原播日期補用途季度；本輪首用日期兩次定向查找已止，不由演出、MV或商品日期推定。",
+          "checkedAt": "2026-11-05"
+        }
+      ],
+      "id": "cardfight-vanguard-divinez-genma-seisen-hen-op-2",
+      "lastVerifiedAt": "2026-11-05",
+      "seasonIds": []
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "ギラギラ",
+      "artistDisplayName": "RealRomantic",
+      "songId": "cardfight-vanguard-divinez-genma-seisen-hen-ed-1-song",
+      "credits": [
+        {
+          "name": "RealRomantic",
+          "role": "vocals"
+        },
+        {
+          "name": "Kanata Nakamura",
+          "role": "lyrics"
+        },
+        {
+          "name": "daraku",
+          "role": "composition"
+        },
+        {
+          "name": "daraku",
+          "role": "arrangement"
+        },
+        {
+          "name": "KARIN",
+          "role": "group_member",
+          "groupName": "RealRomantic"
+        },
+        {
+          "name": "RIKKI",
+          "role": "group_member",
+          "groupName": "RealRomantic"
+        },
+        {
+          "name": "YUI",
+          "role": "group_member",
+          "groupName": "RealRomantic"
+        },
+        {
+          "name": "HINA",
+          "role": "group_member",
+          "groupName": "RealRomantic"
+        },
+        {
+          "name": "RIN",
+          "role": "group_member",
+          "groupName": "RealRomantic"
+        },
+        {
+          "name": "NANA",
+          "role": "group_member",
+          "groupName": "RealRomantic"
+        },
+        {
+          "name": "SORA",
+          "role": "group_member",
+          "groupName": "RealRomantic"
+        }
+      ],
+      "titleRomaji": "Gira Gira",
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://cf-vanguard.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-07-28"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/cardfight_vanguard_divinez_genma_seisenhen",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-07-28"
+        },
+        {
+          "label": "UZUREA 主題曲清單",
+          "url": "https://uzurea.net/winter-2026-anime-theme-songs/",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-07-28"
+        },
+        {
+          "url": "https://realromantic-official.com/discography/rr_giragira/",
+          "label": "RealRomantic 官方商品公開索引：幻真星戦編 ED、兩個 CD Mini Album 版及 Track 1",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-15"
+        },
+        {
+          "url": "https://www.uta-net.com/song/390137/",
+          "label": "歌ネット 授權曲目：ギラギラ 作詞、作曲、編曲交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-15"
+        },
+        {
+          "url": "https://realromantic-official.com/discography/digital-release-%E3%82%AE%E3%83%A9%E3%82%AE%E3%83%A9/",
+          "label": "RealRomantic 官方公開索引：ギラギラ 數位 Single 及先行配信日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-15"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000009375.000014827.html",
+          "label": "ブシロード官方新聞稿：ギラギラ Mini Album 與確切 Music Video",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-15"
+        },
+        {
+          "url": "https://realromantic-official.com/profile/",
+          "label": "RealRomantic 官方公開 profile：七位團隊成員；未推定本曲個別演唱",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-15"
+        },
+        {
+          "url": "https://www.tvguide.or.jp/db/anime/cf_vanguard/divinez_gm/",
+          "label": "TVガイド：幻真星戦編本期OP／ED交叉",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-10-30"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://realromantic-official.com/discography/rr_giragira/"
+          ],
+          "verifiedAt": "2026-10-15",
+          "targetId": "cardfight-vanguard-divinez-genma-seisen-hen-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://realromantic-official.com/discography/rr_giragira/"
+          ],
+          "verifiedAt": "2026-10-15",
+          "targetId": "cardfight-vanguard-divinez-genma-seisen-hen-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.uta-net.com/song/390137/"
+          ],
+          "verifiedAt": "2026-10-15"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "tracklist",
+            "date",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://realromantic-official.com/discography/rr_giragira/"
+          ],
+          "verifiedAt": "2026-10-15",
+          "targetId": "realromantic-giragira-cd-type-a"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://realromantic-official.com/discography/rr_giragira/"
+          ],
+          "verifiedAt": "2026-10-15",
+          "targetId": "https://realromantic-official.com/discography/rr_giragira/"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "tracklist",
+            "date",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://realromantic-official.com/discography/rr_giragira/"
+          ],
+          "verifiedAt": "2026-10-15",
+          "targetId": "realromantic-giragira-cd-type-b"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "tracklist",
+            "date",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://realromantic-official.com/discography/digital-release-%E3%82%AE%E3%83%A9%E3%82%AE%E3%83%A9/"
+          ],
+          "verifiedAt": "2026-10-15",
+          "targetId": "cardfight-vanguard-divinez-genma-seisen-hen-ed-1-digital"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000009375.000014827.html"
+          ],
+          "verifiedAt": "2026-10-15",
+          "targetId": "https://www.youtube.com/watch?v=9O9Vfw8_wFg"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://realromantic-official.com/profile/"
+          ],
+          "verifiedAt": "2026-10-15"
+        },
+        {
+          "target": "song",
+          "targetId": "cardfight-vanguard-divinez-genma-seisen-hen-ed-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tvguide.or.jp/db/anime/cf_vanguard/divinez_gm/"
+          ],
+          "verifiedAt": "2026-10-30"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "cardfight-vanguard-divinez-genma-seisen-hen-ed-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tvguide.or.jp/db/anime/cf_vanguard/divinez_gm/"
+          ],
+          "verifiedAt": "2026-10-30"
+        }
+      ],
+      "releases": [
+        {
+          "id": "realromantic-giragira-cd-type-a",
+          "title": "ギラギラ",
+          "artistDisplayName": "RealRomantic",
+          "type": "album",
+          "tracks": [
+            {
+              "title": "ギラギラ",
+              "position": 1,
+              "disc": 1
+            }
+          ],
+          "date": {
+            "value": "2026-03-25",
+            "precision": "day"
+          },
+          "edition": "Mini Album CD・TYPE-A"
+        },
+        {
+          "id": "realromantic-giragira-cd-type-b",
+          "title": "ギラギラ",
+          "artistDisplayName": "RealRomantic",
+          "type": "album",
+          "tracks": [
+            {
+              "title": "ギラギラ",
+              "position": 1,
+              "disc": 1
+            }
+          ],
+          "date": {
+            "value": "2026-03-25",
+            "precision": "day"
+          },
+          "edition": "Mini Album CD・TYPE-B"
+        },
+        {
+          "id": "cardfight-vanguard-divinez-genma-seisen-hen-ed-1-digital",
+          "title": "ギラギラ",
+          "artistDisplayName": "RealRomantic",
+          "type": "single",
+          "tracks": [
+            {
+              "title": "ギラギラ"
+            }
+          ],
+          "date": {
+            "value": "2026-01-17",
+            "precision": "day"
+          },
+          "edition": "Digital Release"
+        }
+      ],
+      "links": [
+        {
+          "platform": "官方配信",
+          "label": "ギラギラ 官方商品／配信資料",
+          "url": "https://realromantic-official.com/discography/rr_giragira/",
+          "linkType": "official_landing_page",
+          "region": "UNKNOWN",
+          "verifiedAt": "2026-10-15",
+          "availability": "unknown",
+          "releaseId": "realromantic-giragira-cd-type-b"
+        },
+        {
+          "platform": "YouTube",
+          "label": "ギラギラ Music Video",
+          "url": "https://www.youtube.com/watch?v=9O9Vfw8_wFg",
+          "linkType": "direct_track",
+          "region": "GLOBAL",
+          "verifiedAt": "2026-10-15",
+          "availability": "unknown"
+        }
+      ],
+      "sourceMode": "explicit"
+    }
+  ],
+  "verifiedAt": "2026-07-28",
+  "metadataVerifiedAt": "2026-07-28",
+  "metadataSources": [
+    {
+      "label": "動畫官方網站：作品與播出資料",
+      "url": "https://cf-vanguard.com/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-07-28"
+    },
+    {
+      "label": "AniList：作品識別與公開圖像",
+      "url": "https://anilist.co/anime/203296",
+      "language": "en",
+      "role": "identifier",
+      "verifiedAt": "2026-07-28"
+    },
+    {
+      "label": "繁體中文季度列表交叉對照",
+      "url": "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+      "language": "zh-Hant",
+      "role": "localized_cross_check",
+      "verifiedAt": "2026-07-28"
+    },
+    {
+      "label": "AnimeThemes：OP／ED 曲目交叉核對",
+      "url": "https://animethemes.moe/anime/cardfight_vanguard_divinez_genma_seisenhen",
+      "language": "en",
+      "role": "theme_cross_check",
+      "verifiedAt": "2026-07-28"
+    },
+    {
+      "label": "UZUREA：季度主題曲與官方影片索引",
+      "url": "https://uzurea.net/winter-2026-anime-theme-songs/",
+      "language": "ja",
+      "role": "theme_cross_check",
+      "verifiedAt": "2026-07-28"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://annict.com/works/2026-winter?display=list_detailed",
+      "language": "ja",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-07-28"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://bgm.tv/subject/591584",
+      "language": "zh-Hans",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-07-28"
+    }
+  ]
+},
   {"anilistId":187941,"id":"curated-187941","slug":"tensei-shitara-dragon-no-tamago-datta","seasonIds":["2026-winter"],"startDate":"2026-01-10","titleJa":"転生したらドラゴンの卵だった","titleZhHant":"轉生之後的我變成了龍蛋～目標是世界最強～","titleRomaji":"Tensei Shitara Dragon no Tamago Datta","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187941-ykmc8WRedPpw.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/187941-wdkhGnf4LUH0.jpg","editorialWeekday":6,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://doratama-anime.com/","anilistUrl":"https://anilist.co/anime/187941","imageSourceUrl":"https://anilist.co/anime/187941","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2026-winter?display=list_detailed","https://bgm.tv/subject/544106"],"animeThemesUrl":"https://animethemes.moe/anime/tensei_shitara_dragon_no_tamago_datta","uzureaUrl":"https://uzurea.net/winter-2026-anime-theme-songs/","themes":[{"type":"OP","titleJa":"Gliding Claw","artistDisplayName":"Sizuk","sequence":1,"songId":"tensei-shitara-dragon-no-tamago-datta-op-1-song","credits":[{"name":"畑亜貴","role":"lyrics"},{"name":"俊龍","role":"composition"},{"name":"白戸佑輔","role":"arrangement"},{"name":"AYAME","role":"vocals"}],"sources":[{"label":"動畫官方網站","url":"https://doratama-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-28"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/tensei_shitara_dragon_no_tamago_datta","language":"en","role":"cross_check","verifiedAt":"2026-07-28"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/winter-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-28"},{"url":"https://doratama-anime.com/news/index00120000.html","label":"動畫官方發行公告：OP／ED、實際演唱、完整創作、Digital Single 日期品番及曲序","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://sizuk.lnk.to/GlidingClaw","label":"藝人／唱片公司官方配信頁：確切曲目或專輯目的地","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://anime-song-info.com/doratama-op-ed-26wn/","label":"本期歌曲資料：原名、演唱及OP／ED用途交叉","language":"ja","role":"cross_check","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://doratama-anime.com/news/index00120000.html"],"verifiedAt":"2026-10-15","targetId":"tensei-shitara-dragon-no-tamago-datta-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://doratama-anime.com/news/index00120000.html"],"verifiedAt":"2026-10-15","targetId":"tensei-shitara-dragon-no-tamago-datta-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://doratama-anime.com/news/index00120000.html"],"verifiedAt":"2026-10-15"},{"target":"recording","fields":["title","kind","format"],"sourceUrls":["https://doratama-anime.com/news/index00120000.html"],"verifiedAt":"2026-10-15","targetId":"tensei-shitara-dragon-no-tamago-datta-op-1-instrumental"},{"target":"recording","fields":["title","kind","format"],"sourceUrls":["https://doratama-anime.com/news/index00120000.html"],"verifiedAt":"2026-10-15","targetId":"tensei-shitara-dragon-no-tamago-datta-op-1-tv"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://doratama-anime.com/news/index00120000.html"],"verifiedAt":"2026-10-15","targetId":"tensei-shitara-dragon-no-tamago-datta-op-1-pcsp-7049"},{"target":"link","fields":["url","type"],"sourceUrls":["https://doratama-anime.com/news/index00120000.html"],"verifiedAt":"2026-10-15","targetId":"https://doratama-anime.com/news/index00120000.html"},{"target":"link","fields":["url","type"],"sourceUrls":["https://sizuk.lnk.to/GlidingClaw"],"verifiedAt":"2026-10-15","targetId":"https://sizuk.lnk.to/GlidingClaw"},{"target":"link","fields":["url","type"],"sourceUrls":["https://sizuk.lnk.to/GlidingClaw"],"verifiedAt":"2026-10-15","targetId":"https://music.apple.com/jp/album/1861406332"},{"target":"link","fields":["url","type"],"sourceUrls":["https://sizuk.lnk.to/GlidingClaw"],"verifiedAt":"2026-10-15","targetId":"https://open.spotify.com/album/6LUgFx5hLGzSLwAwmrzrRf"},{"target":"link","fields":["url","type"],"sourceUrls":["https://sizuk.lnk.to/GlidingClaw"],"verifiedAt":"2026-10-15","targetId":"https://music.youtube.com/playlist?list=OLAK5uy_lEZrZ9--mxFl-3tIe5TlYRhTWOMjgSZjU"},{"target":"song","targetId":"tensei-shitara-dragon-no-tamago-datta-op-1-song","fields":["title","artist"],"sourceUrls":["https://anime-song-info.com/doratama-op-ed-26wn/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"tensei-shitara-dragon-no-tamago-datta-op-1","fields":["usage"],"sourceUrls":["https://anime-song-info.com/doratama-op-ed-26wn/"],"verifiedAt":"2026-10-30"}],"recordings":[{"id":"tensei-shitara-dragon-no-tamago-datta-op-1-instrumental","title":"Gliding Claw Instrumental","kind":"instrumental","format":"unknown"},{"id":"tensei-shitara-dragon-no-tamago-datta-op-1-tv","title":"Gliding Claw TV size ver.","kind":"vocal","format":"tv"}],"releases":[{"id":"tensei-shitara-dragon-no-tamago-datta-op-1-pcsp-7049","title":"Gliding Claw","artistDisplayName":"Sizuk","type":"single","tracks":[{"title":"Gliding Claw","position":1},{"title":"Gliding Claw Instrumental","position":2,"recordingId":"tensei-shitara-dragon-no-tamago-datta-op-1-instrumental"},{"title":"Gliding Claw TV size ver.","position":3,"recordingId":"tensei-shitara-dragon-no-tamago-datta-op-1-tv"}],"date":{"value":"2026-01-10","precision":"day"},"catalogNumber":"PCSP-7049","edition":"Digital Single"}],"links":[{"platform":"官方配信","label":"Gliding Claw 官方商品／配信資料","url":"https://doratama-anime.com/news/index00120000.html","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"tensei-shitara-dragon-no-tamago-datta-op-1-pcsp-7049"},{"platform":"官方配信","label":"Gliding Claw 官方配信","url":"https://sizuk.lnk.to/GlidingClaw","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"Apple Music","label":"Gliding Claw Apple Music 確切配信專輯","url":"https://music.apple.com/jp/album/1861406332","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"Spotify","label":"Gliding Claw Spotify 確切配信專輯","url":"https://open.spotify.com/album/6LUgFx5hLGzSLwAwmrzrRf","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"YouTube Music","label":"Gliding Claw YouTube Music 確切配信專輯","url":"https://music.youtube.com/playlist?list=OLAK5uy_lEZrZ9--mxFl-3tIe5TlYRhTWOMjgSZjU","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"}],"sourceMode":"explicit"},{"type":"ED","titleJa":"Sky Clipper","artistDisplayName":"導凰 & 朔雀","sequence":1,"songId":"tensei-shitara-dragon-no-tamago-datta-ed-1-song","credits":[{"name":"JUN","role":"lyrics"},{"name":"導凰","role":"lyrics"},{"name":"朔雀","role":"lyrics"},{"name":"小林樹音（JitteryJackal）","role":"composition"},{"name":"小林樹音（JitteryJackal）","role":"arrangement"},{"name":"導凰","role":"vocals"},{"name":"朔雀","role":"vocals"}],"sources":[{"label":"動畫官方網站","url":"https://doratama-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-28"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/tensei_shitara_dragon_no_tamago_datta","language":"en","role":"cross_check","verifiedAt":"2026-07-28"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/winter-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-28"},{"url":"https://doratama-anime.com/news/index00120000.html","label":"動畫官方發行公告：OP／ED、實際演唱、完整創作、Digital Single 日期品番及曲序","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://lnk.to/TAOSAK_SkyClipper","label":"藝人／唱片公司官方配信頁：確切曲目或專輯目的地","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://news.ponycanyon.co.jp/2026/01/117867","label":"PONY CANYON 官方發行新聞：Sky Clipper 專屬 MV；另列動畫 PV 未當歌曲 MV","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://anime-song-info.com/doratama-op-ed-26wn/","label":"本期歌曲資料：原名、演唱及OP／ED用途交叉","language":"ja","role":"cross_check","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://doratama-anime.com/news/index00120000.html"],"verifiedAt":"2026-10-15","targetId":"tensei-shitara-dragon-no-tamago-datta-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://doratama-anime.com/news/index00120000.html"],"verifiedAt":"2026-10-15","targetId":"tensei-shitara-dragon-no-tamago-datta-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://doratama-anime.com/news/index00120000.html"],"verifiedAt":"2026-10-15"},{"target":"recording","fields":["title","kind","format"],"sourceUrls":["https://doratama-anime.com/news/index00120000.html"],"verifiedAt":"2026-10-15","targetId":"tensei-shitara-dragon-no-tamago-datta-ed-1-instrumental"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://doratama-anime.com/news/index00120000.html"],"verifiedAt":"2026-10-15","targetId":"tensei-shitara-dragon-no-tamago-datta-ed-1-pcsp-7083"},{"target":"link","fields":["url","type"],"sourceUrls":["https://doratama-anime.com/news/index00120000.html"],"verifiedAt":"2026-10-15","targetId":"https://doratama-anime.com/news/index00120000.html"},{"target":"link","fields":["url","type"],"sourceUrls":["https://lnk.to/TAOSAK_SkyClipper"],"verifiedAt":"2026-10-15","targetId":"https://lnk.to/TAOSAK_SkyClipper"},{"target":"link","fields":["url","type"],"sourceUrls":["https://lnk.to/TAOSAK_SkyClipper"],"verifiedAt":"2026-10-15","targetId":"https://open.spotify.com/album/4diNihKZaygxEf5OElCF07"},{"target":"link","fields":["url","type"],"sourceUrls":["https://lnk.to/TAOSAK_SkyClipper"],"verifiedAt":"2026-10-15","targetId":"https://music.apple.com/jp/album/1860810805"},{"target":"link","fields":["url","type"],"sourceUrls":["https://lnk.to/TAOSAK_SkyClipper"],"verifiedAt":"2026-10-15","targetId":"https://music.youtube.com/playlist?list=OLAK5uy_kPXMdjUdD8_6XOmevs3QZIZ19Touypp3Y"},{"target":"link","fields":["url","type"],"sourceUrls":["https://news.ponycanyon.co.jp/2026/01/117867"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=RCC8_YfytmA"},{"target":"song","targetId":"tensei-shitara-dragon-no-tamago-datta-ed-1-song","fields":["title","artist"],"sourceUrls":["https://anime-song-info.com/doratama-op-ed-26wn/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"tensei-shitara-dragon-no-tamago-datta-ed-1","fields":["usage"],"sourceUrls":["https://anime-song-info.com/doratama-op-ed-26wn/"],"verifiedAt":"2026-10-30"}],"recordings":[{"id":"tensei-shitara-dragon-no-tamago-datta-ed-1-instrumental","title":"Sky Clipper (Prod. JitteryJackal) - Instrumental","kind":"instrumental","format":"unknown"}],"releases":[{"id":"tensei-shitara-dragon-no-tamago-datta-ed-1-pcsp-7083","title":"Sky Clipper","artistDisplayName":"導凰 & 朔雀","type":"single","tracks":[{"title":"Sky Clipper (Prod. JitteryJackal)","position":1},{"title":"Sky Clipper (Prod. JitteryJackal) - Instrumental","position":2,"recordingId":"tensei-shitara-dragon-no-tamago-datta-ed-1-instrumental"}],"date":{"value":"2026-01-10","precision":"day"},"catalogNumber":"PCSP-7083","edition":"Digital Single"}],"links":[{"platform":"官方配信","label":"Sky Clipper 官方商品／配信資料","url":"https://doratama-anime.com/news/index00120000.html","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"tensei-shitara-dragon-no-tamago-datta-ed-1-pcsp-7083"},{"platform":"官方配信","label":"Sky Clipper 官方配信","url":"https://lnk.to/TAOSAK_SkyClipper","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"Spotify","label":"Sky Clipper Spotify 確切配信專輯","url":"https://open.spotify.com/album/4diNihKZaygxEf5OElCF07","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"Apple Music","label":"Sky Clipper Apple Music 確切配信專輯","url":"https://music.apple.com/jp/album/1860810805","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"YouTube Music","label":"Sky Clipper YouTube Music 確切配信專輯","url":"https://music.youtube.com/playlist?list=OLAK5uy_kPXMdjUdD8_6XOmevs3QZIZ19Touypp3Y","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"YouTube","label":"Sky Clipper Music Video","url":"https://www.youtube.com/watch?v=RCC8_YfytmA","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"}],"sourceMode":"explicit"}],"verifiedAt":"2026-07-28","metadataVerifiedAt":"2026-07-28"},
   {"anilistId":181443,"id":"curated-181443","slug":"dark-moon-kuro-no-tsuki-tsuki-no-saidan","seasonIds":["2026-winter"],"startDate":"2026-01-10","titleJa":"DARK MOON　-黒の月: 月の祭壇-","titleZhHant":"DARK MOON：月之神壇","titleRomaji":"DARK MOON: Kuro no Tsuki - Tsuki no Saidan","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx181443-Df41Nlf7xjgI.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/181443-Euz60QKDzsLs.jpg","editorialWeekday":6,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://darkmoon-tba.com/","anilistUrl":"https://anilist.co/anime/181443","imageSourceUrl":"https://anilist.co/anime/181443","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2026-winter?display=list_detailed","https://bgm.tv/subject/513361"],"animeThemesUrl":"https://animethemes.moe/anime/dark_moon_kuro_no_tsuki_tsuki_no_saidan","uzureaUrl":"https://uzurea.net/winter-2026-anime-theme-songs/","themes":[{"type":"OP","titleJa":"One In A Billion (Japanese Ver.)","artistDisplayName":"ENHYPEN","sequence":1,"songId":"dark-moon-kuro-no-tsuki-tsuki-no-saidan-op-1-song","credits":[{"name":"ENHYPEN","role":"vocals"},{"name":"Jacob Attwooll","role":"lyrics"},{"name":"Thomas Daniel Bracciale","role":"lyrics"},{"name":"Alex Koste","role":"lyrics"},{"name":"danke","role":"lyrics"},{"name":"Jacob Attwooll","role":"composition"},{"name":"Thomas Daniel Bracciale","role":"composition"},{"name":"Alex Koste","role":"composition"},{"name":"danke","role":"composition"},{"name":"miwaflower","role":"translation"}],"titleRomaji":"One In A Billion (Japanese ver.)","sources":[{"url":"https://darkmoon-tba.com/","label":"動畫官網 MUSIC：ENHYPEN 的日文 OP、兩首原文 ED 及共用 Soundtrack Compilation","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/dark_moon_kuro_no_tsuki_tsuki_no_saidan","language":"en","role":"cross_check","verifiedAt":"2026-07-28"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/winter-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-28"},{"url":"https://music.bugs.co.kr/album/4137858","label":"Bugs 授權 OST：三曲順序、2026-01-12 發行、OP 新日文詞與重新歌唱","role":"first_party","language":"multi","verifiedAt":"2026-10-15"},{"url":"https://soundgraphics.net/works/enhypen-one-in-a-billion-japanese-ver/","label":"Soundgraphics 作者官方作品頁：One In A Billion 日文版原詞曲及日本語作詞","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://enhypen.lnk.to/darkmoon_ost_jpPR","label":"藝人／唱片公司官方配信頁：確切曲目或專輯目的地","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://anime-song-info.com/darkmoon-op-ed-26wn/","label":"本期歌曲資料：原名、演唱及OP／ED用途交叉","language":"ja","role":"cross_check","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://darkmoon-tba.com/"],"verifiedAt":"2026-10-15","targetId":"dark-moon-kuro-no-tsuki-tsuki-no-saidan-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://darkmoon-tba.com/"],"verifiedAt":"2026-10-15","targetId":"dark-moon-kuro-no-tsuki-tsuki-no-saidan-op-1"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://music.bugs.co.kr/album/4137858"],"verifiedAt":"2026-10-15","targetId":"enhypen-darkmoon-the-blood-altar-2026-digital"},{"target":"link","fields":["url","type"],"sourceUrls":["https://darkmoon-tba.com/"],"verifiedAt":"2026-10-15","targetId":"https://enhypen.lnk.to/darkmoon_ost_jpPR"},{"target":"link","fields":["url","type"],"sourceUrls":["https://music.bugs.co.kr/album/4137858"],"verifiedAt":"2026-10-15","targetId":"https://music.bugs.co.kr/album/4137858"},{"target":"credits","fields":["credits"],"sourceUrls":["https://soundgraphics.net/works/enhypen-one-in-a-billion-japanese-ver/"],"verifiedAt":"2026-10-15"},{"target":"recording","fields":["title","kind","format","credits"],"sourceUrls":["https://music.bugs.co.kr/album/4137858"],"verifiedAt":"2026-10-15","targetId":"dark-moon-kuro-no-tsuki-tsuki-no-saidan-op-1-japanese-version"},{"target":"link","fields":["url","type"],"sourceUrls":["https://darkmoon-tba.com/"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=aiAUHgVtGH0"},{"target":"link","fields":["url","type"],"sourceUrls":["https://soundgraphics.net/works/enhypen-one-in-a-billion-japanese-ver/"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=EKrsvC7XxhE"},{"target":"link","fields":["url","type"],"sourceUrls":["https://enhypen.lnk.to/darkmoon_ost_jpPR"],"verifiedAt":"2026-10-15","targetId":"https://enhypen.lnk.to/darkmoon_ost_jpPR"},{"target":"link","fields":["url","type"],"sourceUrls":["https://enhypen.lnk.to/darkmoon_ost_jpPR"],"verifiedAt":"2026-10-15","targetId":"https://music.apple.com/jp/album/1867140575"},{"target":"link","fields":["url","type"],"sourceUrls":["https://enhypen.lnk.to/darkmoon_ost_jpPR"],"verifiedAt":"2026-10-15","targetId":"https://open.spotify.com/intl-ja/album/1C2zN09iNWFEAkSi91PuYr"},{"target":"link","fields":["url","type"],"sourceUrls":["https://enhypen.lnk.to/darkmoon_ost_jpPR"],"verifiedAt":"2026-10-15","targetId":"https://music.youtube.com/playlist?list=OLAK5uy_mFPtHCool4KXAXg9x-UHnBClUzRndgWx8"},{"target":"song","targetId":"dark-moon-kuro-no-tsuki-tsuki-no-saidan-op-1-song","fields":["title","artist"],"sourceUrls":["https://anime-song-info.com/darkmoon-op-ed-26wn/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"dark-moon-kuro-no-tsuki-tsuki-no-saidan-op-1","fields":["usage"],"sourceUrls":["https://anime-song-info.com/darkmoon-op-ed-26wn/"],"verifiedAt":"2026-10-30"}],"releases":[{"id":"enhypen-darkmoon-the-blood-altar-2026-digital","title":"DARK MOON: THE BLOOD ALTAR","artistDisplayName":"ENHYPEN","type":"compilation","tracks":[{"title":"One In A Billion (Japanese Ver.)","position":1}],"date":{"value":"2026-01-12","precision":"day"},"edition":"Digital Soundtrack Compilation"}],"links":[{"platform":"Bugs","label":"DARK MOON Bugs 確切 OST 專輯","url":"https://music.bugs.co.kr/album/4137858","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"enhypen-darkmoon-the-blood-altar-2026-digital"},{"platform":"YouTube","label":"One In A Billion (Japanese Ver.) 動畫官網 OP 影片","url":"https://www.youtube.com/watch?v=aiAUHgVtGH0","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"YouTube","label":"One In A Billion (Japanese Ver.) 作者頁官方影片","url":"https://www.youtube.com/watch?v=EKrsvC7XxhE","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"官方配信","label":"One In A Billion (Japanese Ver.) 官方配信","url":"https://enhypen.lnk.to/darkmoon_ost_jpPR","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"Apple Music","label":"One In A Billion (Japanese Ver.) Apple Music 確切配信專輯","url":"https://music.apple.com/jp/album/1867140575","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"Spotify","label":"One In A Billion (Japanese Ver.) Spotify 確切配信專輯","url":"https://open.spotify.com/intl-ja/album/1C2zN09iNWFEAkSi91PuYr","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"YouTube Music","label":"One In A Billion (Japanese Ver.) YouTube Music 確切配信專輯","url":"https://music.youtube.com/playlist?list=OLAK5uy_mFPtHCool4KXAXg9x-UHnBClUzRndgWx8","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"}],"versionLabel":"Japanese Ver.","recordings":[{"id":"dark-moon-kuro-no-tsuki-tsuki-no-saidan-op-1-japanese-version","title":"One In A Billion (Japanese Ver.)","kind":"vocal","format":"unknown","credits":[{"name":"ENHYPEN","role":"vocals"}]}],"sourceMode":"explicit"},{"type":"ED","titleJa":"CRIMINAL LOVE","artistDisplayName":"ENHYPEN","sequence":1,"songId":"dark-moon-kuro-no-tsuki-tsuki-no-saidan-ed-1-song","credits":[{"name":"ENHYPEN","role":"vocals"},{"name":"Fernstream","role":"lyrics"},{"name":"Anton Eriksson","role":"lyrics"},{"name":"Joseph Feinstein","role":"lyrics"},{"name":"danke","role":"lyrics"},{"name":"이이진","role":"lyrics"},{"name":"김인형 (Jam Factory)","role":"lyrics"},{"name":"강은정","role":"lyrics"},{"name":"Fernstream","role":"composition"},{"name":"Anton Eriksson","role":"composition"},{"name":"Joseph Feinstein","role":"composition"},{"name":"danke","role":"composition"},{"name":"이이진","role":"composition"},{"name":"김인형 (Jam Factory)","role":"composition"},{"name":"강은정","role":"composition"}],"sources":[{"url":"https://darkmoon-tba.com/","label":"動畫官網 MUSIC：ENHYPEN 的日文 OP、兩首原文 ED 及共用 Soundtrack Compilation","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/dark_moon_kuro_no_tsuki_tsuki_no_saidan","language":"en","role":"cross_check","verifiedAt":"2026-07-28"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/winter-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-28"},{"url":"https://music.bugs.co.kr/album/4137858","label":"Bugs 授權 OST：三曲順序、2026-01-12 發行、OP 新日文詞與重新歌唱","role":"first_party","language":"multi","verifiedAt":"2026-10-15"},{"url":"https://music.bugs.co.kr/track/33175544","label":"Bugs 授權 CRIMINAL LOVE：原文逐項作詞／作曲 credits","role":"first_party","language":"multi","verifiedAt":"2026-10-15"},{"url":"https://anime-song-info.com/darkmoon-op-ed-26wn/","label":"本期歌曲資料：原名、演唱及OP／ED用途交叉","language":"ja","role":"cross_check","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://darkmoon-tba.com/"],"verifiedAt":"2026-10-15","targetId":"dark-moon-kuro-no-tsuki-tsuki-no-saidan-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://darkmoon-tba.com/"],"verifiedAt":"2026-10-15","targetId":"dark-moon-kuro-no-tsuki-tsuki-no-saidan-ed-1"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://music.bugs.co.kr/album/4137858"],"verifiedAt":"2026-10-15","targetId":"enhypen-darkmoon-the-blood-altar-2026-digital"},{"target":"link","fields":["url","type"],"sourceUrls":["https://darkmoon-tba.com/"],"verifiedAt":"2026-10-15","targetId":"https://enhypen.lnk.to/darkmoon_ost_jpPR"},{"target":"link","fields":["url","type"],"sourceUrls":["https://music.bugs.co.kr/album/4137858"],"verifiedAt":"2026-10-15","targetId":"https://music.bugs.co.kr/album/4137858"},{"target":"credits","fields":["credits"],"sourceUrls":["https://music.bugs.co.kr/track/33175544"],"verifiedAt":"2026-10-15"},{"target":"song","targetId":"dark-moon-kuro-no-tsuki-tsuki-no-saidan-ed-1-song","fields":["title","artist"],"sourceUrls":["https://anime-song-info.com/darkmoon-op-ed-26wn/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"dark-moon-kuro-no-tsuki-tsuki-no-saidan-ed-1","fields":["usage"],"sourceUrls":["https://anime-song-info.com/darkmoon-op-ed-26wn/"],"verifiedAt":"2026-10-30"}],"releases":[{"id":"enhypen-darkmoon-the-blood-altar-2026-digital","title":"DARK MOON: THE BLOOD ALTAR","artistDisplayName":"ENHYPEN","type":"compilation","tracks":[{"title":"CRIMINAL LOVE","position":2}],"date":{"value":"2026-01-12","precision":"day"},"edition":"Digital Soundtrack Compilation"}],"links":[{"platform":"官方配信","label":"DARK MOON 官方 Soundtrack Compilation 配信","url":"https://enhypen.lnk.to/darkmoon_ost_jpPR","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"enhypen-darkmoon-the-blood-altar-2026-digital"},{"platform":"Bugs","label":"DARK MOON Bugs 確切 OST 專輯","url":"https://music.bugs.co.kr/album/4137858","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"enhypen-darkmoon-the-blood-altar-2026-digital"}],"sourceMode":"explicit"},{"type":"ED","titleJa":"Fatal Trouble","artistDisplayName":"ENHYPEN","sequence":2,"songId":"dark-moon-kuro-no-tsuki-tsuki-no-saidan-ed-2-song","credits":[{"name":"ENHYPEN","role":"vocals"},{"name":"SLOW RABBIT","role":"lyrics"},{"name":"danke","role":"lyrics"},{"name":"Gabriel Brandes","role":"lyrics"},{"name":"Matt Thomson","role":"lyrics"},{"name":"Max Lynedoch Graham","role":"lyrics"},{"name":"이이진","role":"lyrics"},{"name":"MAIZ","role":"lyrics"},{"name":"김인형 (Jam Factory)","role":"lyrics"},{"name":"Pat Kiloran","role":"lyrics"},{"name":"Will Simms","role":"lyrics"},{"name":"강은정","role":"lyrics"},{"name":"HYBE","role":"lyrics"},{"name":"SLOW RABBIT","role":"composition"},{"name":"danke","role":"composition"},{"name":"Gabriel Brandes","role":"composition"},{"name":"Matt Thomson","role":"composition"},{"name":"Max Lynedoch Graham","role":"composition"},{"name":"이이진","role":"composition"},{"name":"MAIZ","role":"composition"},{"name":"김인형 (Jam Factory)","role":"composition"},{"name":"Pat Kiloran","role":"composition"},{"name":"Will Simms","role":"composition"},{"name":"강은정","role":"composition"},{"name":"HYBE","role":"composition"}],"sources":[{"url":"https://darkmoon-tba.com/","label":"動畫官網 MUSIC：ENHYPEN 的日文 OP、兩首原文 ED 及共用 Soundtrack Compilation","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/dark_moon_kuro_no_tsuki_tsuki_no_saidan","language":"en","role":"cross_check","verifiedAt":"2026-07-28"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/winter-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-28"},{"url":"https://music.bugs.co.kr/album/4137858","label":"Bugs 授權 OST：三曲順序、2026-01-12 發行、OP 新日文詞與重新歌唱","role":"first_party","language":"multi","verifiedAt":"2026-10-15"},{"url":"https://music.bugs.co.kr/track/6403880","label":"Bugs 授權 Fatal Trouble：本 OST 曲目逐項作詞／作曲 credits","role":"first_party","language":"multi","verifiedAt":"2026-10-15"},{"url":"https://anime-song-info.com/darkmoon-op-ed-26wn/","label":"本期歌曲資料：原名、演唱及OP／ED用途交叉","language":"ja","role":"cross_check","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://darkmoon-tba.com/"],"verifiedAt":"2026-10-15","targetId":"dark-moon-kuro-no-tsuki-tsuki-no-saidan-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://darkmoon-tba.com/"],"verifiedAt":"2026-10-15","targetId":"dark-moon-kuro-no-tsuki-tsuki-no-saidan-ed-2"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://music.bugs.co.kr/album/4137858"],"verifiedAt":"2026-10-15","targetId":"enhypen-darkmoon-the-blood-altar-2026-digital"},{"target":"link","fields":["url","type"],"sourceUrls":["https://darkmoon-tba.com/"],"verifiedAt":"2026-10-15","targetId":"https://enhypen.lnk.to/darkmoon_ost_jpPR"},{"target":"link","fields":["url","type"],"sourceUrls":["https://music.bugs.co.kr/album/4137858"],"verifiedAt":"2026-10-15","targetId":"https://music.bugs.co.kr/album/4137858"},{"target":"credits","fields":["credits"],"sourceUrls":["https://music.bugs.co.kr/track/6403880"],"verifiedAt":"2026-10-15"},{"target":"song","targetId":"dark-moon-kuro-no-tsuki-tsuki-no-saidan-ed-2-song","fields":["title","artist"],"sourceUrls":["https://anime-song-info.com/darkmoon-op-ed-26wn/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"dark-moon-kuro-no-tsuki-tsuki-no-saidan-ed-2","fields":["usage"],"sourceUrls":["https://anime-song-info.com/darkmoon-op-ed-26wn/"],"verifiedAt":"2026-10-30"}],"releases":[{"id":"enhypen-darkmoon-the-blood-altar-2026-digital","title":"DARK MOON: THE BLOOD ALTAR","artistDisplayName":"ENHYPEN","type":"compilation","tracks":[{"title":"Fatal Trouble","position":3}],"date":{"value":"2026-01-12","precision":"day"},"edition":"Digital Soundtrack Compilation"}],"links":[{"platform":"官方配信","label":"DARK MOON 官方 Soundtrack Compilation 配信","url":"https://enhypen.lnk.to/darkmoon_ost_jpPR","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"enhypen-darkmoon-the-blood-altar-2026-digital"},{"platform":"Bugs","label":"DARK MOON Bugs 確切 OST 專輯","url":"https://music.bugs.co.kr/album/4137858","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"enhypen-darkmoon-the-blood-altar-2026-digital"}],"sourceMode":"explicit"}],"verifiedAt":"2026-07-28","metadataVerifiedAt":"2026-07-28"},
   {"anilistId":185262,"id":"curated-185262","slug":"hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru","seasonIds":["2026-winter"],"startDate":"2026-01-10","titleJa":"ヘルモード ～やり込み好きのゲーマーは廃設定の異世界で無双する～","titleZhHant":"地獄模式 ～喜歡挑戰特殊成就的玩家在廢設定的異世界成為無雙～","titleRomaji":"Hell Mode: Yarikomi-zuki no Gamer wa Haisettei no Isekai de Musou Suru","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185262-95wbx3Y9hCwm.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/185262-6EExIkvGk1dI.jpg","editorialWeekday":6,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://hellmode-anime.com","anilistUrl":"https://anilist.co/anime/185262","imageSourceUrl":"https://anilist.co/anime/185262","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2026-winter?display=list_detailed","https://bgm.tv/subject/526979"],"animeThemesUrl":"https://animethemes.moe/anime/hell_mode_yarikomi_suki_no_gamer_wa_haisettei_no_isekai_de_musou_suru","uzureaUrl":"https://uzurea.net/winter-2026-anime-theme-songs/","themes":[{"type":"OP","titleJa":"ハク","artistDisplayName":"あたらよ","sequence":1,"songId":"hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru-op-1-song","credits":[{"name":"ひとみ","role":"lyrics"},{"name":"ひとみ","role":"composition"},{"name":"ひとみ","role":"vocals"},{"name":"まーしー","role":"arrangement"},{"name":"ひとみ","role":"group_member","groupName":"あたらよ"},{"name":"まーしー","role":"group_member","groupName":"あたらよ"},{"name":"たけお","role":"group_member","groupName":"あたらよ"}],"sources":[{"url":"https://hellmode-anime.com/","label":"動畫官網第一期 MUSIC：ハク／Sanctuary、歌唱與創作；未混用第二期","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/hell_mode_yarikomi_suki_no_gamer_wa_haisettei_no_isekai_de_musou_suru","language":"en","role":"cross_check","verifiedAt":"2026-07-28"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/winter-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-10-30"},{"url":"https://www.uta-net.com/song/386537/?target=kashi","label":"歌ネット 授權曲目：ハク 編曲まーしー交叉補證","role":"cross_check","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://atarayo-jp.com/musics/20268","label":"あたらよ官方公開 discography 索引：ハク Digital Single 及日期","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://atarayo-jp.com/contents/989501?tag=all","label":"あたらよ官方公告：ハク TVサイズ音源公開及歌曲／團隊成員","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://atarayo-jp.com/musics/21060","label":"あたらよ官方商品：私雨に夏の灯を知る 兩版 CD、日期與ハク Track 6","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://avex.lnk.to/watakushiame","label":"藝人／唱片公司官方配信頁：確切曲目／專輯目的地","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://zh.wikipedia.org/wiki/%E5%9C%B0%E7%8D%84%E6%A8%A1%E5%BC%8F_%EF%BD%9E%E5%96%9C%E6%AD%A1%E6%8C%91%E6%88%B0%E7%89%B9%E6%AE%8A%E6%88%90%E5%B0%B1%E7%9A%84%E7%8E%A9%E5%AE%B6%E5%9C%A8%E5%BB%A2%E8%A8%AD%E5%AE%9A%E7%9A%84%E7%95%B0%E4%B8%96%E7%95%8C%E6%88%90%E7%82%BA%E7%84%A1%E9%9B%99%EF%BD%9E","label":"中文維基：本期曲名、演唱及精確歌曲用途交叉","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://hellmode-anime.com/"],"verifiedAt":"2026-10-15","targetId":"hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://hellmode-anime.com/"],"verifiedAt":"2026-10-15","targetId":"hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://hellmode-anime.com/"],"verifiedAt":"2026-10-15"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.uta-net.com/song/386537/?target=kashi"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://hellmode-anime.com/"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=XX3rhQgBpiI"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://atarayo-jp.com/musics/20268"],"verifiedAt":"2026-10-15","targetId":"hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru-op-1-digital"},{"target":"link","fields":["url","type"],"sourceUrls":["https://atarayo-jp.com/musics/20268"],"verifiedAt":"2026-10-15","targetId":"https://atarayo-jp.com/musics/20268"},{"target":"recording","fields":["title","kind","format"],"sourceUrls":["https://atarayo-jp.com/contents/989501?tag=all"],"verifiedAt":"2026-10-15","targetId":"hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru-op-1-tv-announced"},{"target":"credits","fields":["credits"],"sourceUrls":["https://atarayo-jp.com/contents/989501?tag=all"],"verifiedAt":"2026-10-15"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://atarayo-jp.com/musics/21060"],"verifiedAt":"2026-10-15","targetId":"hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru-op-1-rzcb-87217-b"},{"target":"link","fields":["url","type"],"sourceUrls":["https://atarayo-jp.com/musics/21060"],"verifiedAt":"2026-10-15","targetId":"https://atarayo-jp.com/musics/21060"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://atarayo-jp.com/musics/21060"],"verifiedAt":"2026-10-15","targetId":"hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru-op-1-rzcb-87218"},{"target":"link","fields":["url","type"],"sourceUrls":["https://avex.lnk.to/watakushiame"],"verifiedAt":"2026-10-15","targetId":"https://avex.lnk.to/watakushiame"},{"target":"link","fields":["url","type"],"sourceUrls":["https://avex.lnk.to/watakushiame"],"verifiedAt":"2026-10-15","targetId":"https://open.spotify.com/album/6FlrlZM9CuVlztVnO8x6xL"},{"target":"link","fields":["url","type"],"sourceUrls":["https://avex.lnk.to/watakushiame"],"verifiedAt":"2026-10-15","targetId":"https://music.apple.com/jp/album/6793854735"},{"target":"link","fields":["url","type"],"sourceUrls":["https://avex.lnk.to/watakushiame"],"verifiedAt":"2026-10-15","targetId":"https://music.youtube.com/playlist?list=OLAK5uy_kZ4RgrdsCfiemRSB6fXq111H-hv1CKUyc"},{"target":"song","targetId":"hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru-op-1-song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%9C%B0%E7%8D%84%E6%A8%A1%E5%BC%8F_%EF%BD%9E%E5%96%9C%E6%AD%A1%E6%8C%91%E6%88%B0%E7%89%B9%E6%AE%8A%E6%88%90%E5%B0%B1%E7%9A%84%E7%8E%A9%E5%AE%B6%E5%9C%A8%E5%BB%A2%E8%A8%AD%E5%AE%9A%E7%9A%84%E7%95%B0%E4%B8%96%E7%95%8C%E6%88%90%E7%82%BA%E7%84%A1%E9%9B%99%EF%BD%9E"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru-op-1","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%9C%B0%E7%8D%84%E6%A8%A1%E5%BC%8F_%EF%BD%9E%E5%96%9C%E6%AD%A1%E6%8C%91%E6%88%B0%E7%89%B9%E6%AE%8A%E6%88%90%E5%B0%B1%E7%9A%84%E7%8E%A9%E5%AE%B6%E5%9C%A8%E5%BB%A2%E8%A8%AD%E5%AE%9A%E7%9A%84%E7%95%B0%E4%B8%96%E7%95%8C%E6%88%90%E7%82%BA%E7%84%A1%E9%9B%99%EF%BD%9E"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru-op-1-song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/winter-2026-anime-theme-songs/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru-op-1","fields":["usage"],"sourceUrls":["https://uzurea.net/winter-2026-anime-theme-songs/"],"verifiedAt":"2026-10-30"}],"links":[{"platform":"YouTube","label":"ハク 第一期無字幕 OP","url":"https://www.youtube.com/watch?v=XX3rhQgBpiI","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"官方配信","label":"ハク 官方商品／曲目資料","url":"https://atarayo-jp.com/musics/20268","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru-op-1-digital"},{"platform":"官方配信","label":"私雨に夏の灯を知る 官方商品／曲目資料","url":"https://atarayo-jp.com/musics/21060","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru-op-1-rzcb-87218"},{"platform":"官方配信","label":"ハク 官方配信","url":"https://avex.lnk.to/watakushiame","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"Spotify","label":"ハク Spotify 確切配信入口","url":"https://open.spotify.com/album/6FlrlZM9CuVlztVnO8x6xL","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"Apple Music","label":"ハク Apple Music 確切配信入口","url":"https://music.apple.com/jp/album/6793854735","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"YouTube Music","label":"ハク YouTube Music 確切配信入口","url":"https://music.youtube.com/playlist?list=OLAK5uy_kZ4RgrdsCfiemRSB6fXq111H-hv1CKUyc","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"}],"releases":[{"id":"hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru-op-1-digital","title":"ハク","artistDisplayName":"あたらよ","type":"single","tracks":[{"title":"ハク","position":1}],"date":{"value":"2026-01-14","precision":"day"},"edition":"配信シングル"},{"id":"hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru-op-1-rzcb-87217-b","title":"私雨に夏の灯を知る","artistDisplayName":"あたらよ","type":"album","tracks":[{"title":"ハク","disc":1,"position":6}],"date":{"value":"2026-08-19","precision":"day"},"catalogNumber":"RZCB-87217/B","edition":"映像盤（CD＋Blu-ray）"},{"id":"hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru-op-1-rzcb-87218","title":"私雨に夏の灯を知る","artistDisplayName":"あたらよ","type":"album","tracks":[{"title":"ハク","disc":1,"position":6}],"date":{"value":"2026-08-19","precision":"day"},"catalogNumber":"RZCB-87218","edition":"通常盤（CD）"}],"recordings":[{"id":"hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru-op-1-tv-announced","title":"ハク","kind":"vocal","format":"tv"}],"sourceMode":"explicit"},{"type":"ED","titleJa":"Sanctuary","artistDisplayName":"花耶","sequence":1,"songId":"hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru-ed-1-song","credits":[{"name":"花耶","role":"vocals"},{"name":"宮嶋淳子","role":"lyrics"},{"name":"近藤圭一（SUPA LOVE）","role":"composition"},{"name":"近藤圭一（SUPA LOVE）","role":"arrangement"}],"sources":[{"url":"https://hellmode-anime.com/","label":"動畫官網第一期 MUSIC：ハク／Sanctuary、歌唱與創作；未混用第二期","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/hell_mode_yarikomi_suki_no_gamer_wa_haisettei_no_isekai_de_musou_suru","language":"en","role":"cross_check","verifiedAt":"2026-07-28"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/winter-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-10-30"},{"url":"https://kaya-official.jp/news/detail/item-5376/","label":"花耶官方公告：Sanctuary 兩版 CD Single、品番與發行日；本曲曲序未明","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.youtube.com/watch?v=B2j1_hMQWME","label":"花耶官方：Sanctuary Music Video","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://zh.wikipedia.org/wiki/%E5%9C%B0%E7%8D%84%E6%A8%A1%E5%BC%8F_%EF%BD%9E%E5%96%9C%E6%AD%A1%E6%8C%91%E6%88%B0%E7%89%B9%E6%AE%8A%E6%88%90%E5%B0%B1%E7%9A%84%E7%8E%A9%E5%AE%B6%E5%9C%A8%E5%BB%A2%E8%A8%AD%E5%AE%9A%E7%9A%84%E7%95%B0%E4%B8%96%E7%95%8C%E6%88%90%E7%82%BA%E7%84%A1%E9%9B%99%EF%BD%9E","label":"中文維基：本期曲名、演唱及精確歌曲用途交叉","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://hellmode-anime.com/"],"verifiedAt":"2026-10-15","targetId":"hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://hellmode-anime.com/"],"verifiedAt":"2026-10-15","targetId":"hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://hellmode-anime.com/"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://hellmode-anime.com/"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=MQssSfiF7i0"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://kaya-official.jp/news/detail/item-5376/"],"verifiedAt":"2026-10-15","targetId":"hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru-ed-1-eser-069"},{"target":"link","fields":["url","type"],"sourceUrls":["https://kaya-official.jp/news/detail/item-5376/"],"verifiedAt":"2026-10-15","targetId":"https://kaya-official.jp/news/detail/item-5376/"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://kaya-official.jp/news/detail/item-5376/"],"verifiedAt":"2026-10-15","targetId":"hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru-ed-1-eser-070"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.youtube.com/watch?v=B2j1_hMQWME"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=B2j1_hMQWME"},{"target":"song","targetId":"hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru-ed-1-song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%9C%B0%E7%8D%84%E6%A8%A1%E5%BC%8F_%EF%BD%9E%E5%96%9C%E6%AD%A1%E6%8C%91%E6%88%B0%E7%89%B9%E6%AE%8A%E6%88%90%E5%B0%B1%E7%9A%84%E7%8E%A9%E5%AE%B6%E5%9C%A8%E5%BB%A2%E8%A8%AD%E5%AE%9A%E7%9A%84%E7%95%B0%E4%B8%96%E7%95%8C%E6%88%90%E7%82%BA%E7%84%A1%E9%9B%99%EF%BD%9E"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru-ed-1","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%9C%B0%E7%8D%84%E6%A8%A1%E5%BC%8F_%EF%BD%9E%E5%96%9C%E6%AD%A1%E6%8C%91%E6%88%B0%E7%89%B9%E6%AE%8A%E6%88%90%E5%B0%B1%E7%9A%84%E7%8E%A9%E5%AE%B6%E5%9C%A8%E5%BB%A2%E8%A8%AD%E5%AE%9A%E7%9A%84%E7%95%B0%E4%B8%96%E7%95%8C%E6%88%90%E7%82%BA%E7%84%A1%E9%9B%99%EF%BD%9E"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru-ed-1-song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/winter-2026-anime-theme-songs/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru-ed-1","fields":["usage"],"sourceUrls":["https://uzurea.net/winter-2026-anime-theme-songs/"],"verifiedAt":"2026-10-30"}],"links":[{"platform":"YouTube","label":"Sanctuary 第一期無字幕 ED","url":"https://www.youtube.com/watch?v=MQssSfiF7i0","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"官方配信","label":"Sanctuary 官方商品／曲目資料","url":"https://kaya-official.jp/news/detail/item-5376/","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru-ed-1-eser-070"},{"platform":"YouTube","label":"Sanctuary Official Music Video","url":"https://www.youtube.com/watch?v=B2j1_hMQWME","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"}],"releases":[{"id":"hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru-ed-1-eser-069","title":"Sanctuary","artistDisplayName":"花耶","type":"single","tracks":[{"title":"Sanctuary"}],"date":{"value":"2026-01-28","precision":"day"},"catalogNumber":"ESER-069","edition":"初回限定盤（CD＋デジタルフォトブック）"},{"id":"hell-mode-yarikomi-zuki-no-gamer-wa-haisettei-no-isekai-de-musou-suru-ed-1-eser-070","title":"Sanctuary","artistDisplayName":"花耶","type":"single","tracks":[{"title":"Sanctuary"}],"date":{"value":"2026-01-28","precision":"day"},"catalogNumber":"ESER-070","edition":"通常盤（CD）"}],"sourceMode":"explicit"}],"verifiedAt":"2026-07-28","metadataVerifiedAt":"2026-07-28"},
@@ -59,7 +1029,59 @@ export const curated2026WinterSeeds: CuratedAnimeSeed[] = [
   {"anilistId":176370,"id":"curated-176370","slug":"hime-sama-goumon-no-jikan-desu-2nd-season","seasonIds":["2026-winter"],"startDate":"2026-01-12","titleJa":"姫様“拷問”の時間です 第2期","titleZhHant":"公主殿下，「拷問」的時間到了 （第2期）","titleRomaji":"Hime-sama, \"Goumon\" no Jikan desu 2nd Season","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx176370-hz2H4TUeyGgt.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/176370-rTxiCqbzG0DQ.jpg","editorialWeekday":1,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://himesama-goumon.com/","anilistUrl":"https://anilist.co/anime/176370","imageSourceUrl":"https://anilist.co/anime/176370","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2026-winter?display=list_detailed","https://bgm.tv/subject/486763"],"animeThemesUrl":"https://animethemes.moe/anime/himesama_goumon_no_jikan_desu_2nd_season","uzureaUrl":"https://uzurea.net/winter-2026-anime-theme-songs/","themes":[{"type":"OP","titleJa":"Sunday Morning","artistDisplayName":"ILLIT","sequence":1,"songId":"hime-sama-goumon-no-jikan-desu-2nd-season-op-1-song","credits":[{"name":"ILLIT","role":"vocals"},{"name":"Mega Shinnosuke","role":"lyrics"},{"name":"Mega Shinnosuke","role":"composition"},{"name":"Mega Shinnosuke","role":"arrangement"}],"sources":[{"url":"https://himesama-goumon.com/","label":"動畫官網 MUSIC：第二期 Sunday Morning／お姫様にはなれない；未採第一期創作","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/himesama_goumon_no_jikan_desu_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-07-28"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/winter-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-28"},{"url":"https://megashinnosuke.com/profile","label":"Mega Shinnosuke 官方作品說明：Sunday Morning 明示作詞／作曲／編曲","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://megashinnosuke.com/news/1777.html","label":"作者官方：ILLIT Japan 2nd Digital Single Sunday Morning、配信日、第二期 OP 及 MV","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://illit.lnk.to/Sunday-Morning","label":"藝人／唱片公司官方配信頁：確切曲目／專輯目的地","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://zh.wikipedia.org/wiki/%E5%85%AC%E4%B8%BB%E6%AE%BF%E4%B8%8B%EF%BC%8C%E2%80%9C%E6%8B%B7%E9%97%AE%E2%80%9D%E7%9A%84%E6%97%B6%E9%97%B4%E5%88%B0%E4%BA%86","label":"中文維基：本期曲名、演唱及OP／ED用途交叉","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://himesama-goumon.com/"],"verifiedAt":"2026-10-15","targetId":"hime-sama-goumon-no-jikan-desu-2nd-season-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://himesama-goumon.com/"],"verifiedAt":"2026-10-15","targetId":"hime-sama-goumon-no-jikan-desu-2nd-season-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://megashinnosuke.com/profile"],"verifiedAt":"2026-10-15"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://megashinnosuke.com/news/1777.html"],"verifiedAt":"2026-10-15","targetId":"hime-sama-goumon-no-jikan-desu-2nd-season-op-1-digital"},{"target":"link","fields":["url","type"],"sourceUrls":["https://megashinnosuke.com/news/1777.html"],"verifiedAt":"2026-10-15","targetId":"https://megashinnosuke.com/news/1777.html"},{"target":"link","fields":["url","type"],"sourceUrls":["https://megashinnosuke.com/news/1777.html"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=-01oDwXKSuE"},{"target":"link","fields":["url","type"],"sourceUrls":["https://illit.lnk.to/Sunday-Morning"],"verifiedAt":"2026-10-15","targetId":"https://illit.lnk.to/Sunday-Morning"},{"target":"link","fields":["url","type"],"sourceUrls":["https://illit.lnk.to/Sunday-Morning"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=-01oDwXKSuE"},{"target":"link","fields":["url","type"],"sourceUrls":["https://illit.lnk.to/Sunday-Morning"],"verifiedAt":"2026-10-15","targetId":"https://open.spotify.com/track/6rjpIfWNWwzg7hd1KxDK5f"},{"target":"link","fields":["url","type"],"sourceUrls":["https://illit.lnk.to/Sunday-Morning"],"verifiedAt":"2026-10-15","targetId":"https://music.apple.com/jp/album/1861749531"},{"target":"link","fields":["url","type"],"sourceUrls":["https://illit.lnk.to/Sunday-Morning"],"verifiedAt":"2026-10-15","targetId":"https://music.youtube.com/watch?v=m5JAnsvvqTk"},{"target":"song","targetId":"hime-sama-goumon-no-jikan-desu-2nd-season-op-1-song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%85%AC%E4%B8%BB%E6%AE%BF%E4%B8%8B%EF%BC%8C%E2%80%9C%E6%8B%B7%E9%97%AE%E2%80%9D%E7%9A%84%E6%97%B6%E9%97%B4%E5%88%B0%E4%BA%86"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"hime-sama-goumon-no-jikan-desu-2nd-season-op-1","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%85%AC%E4%B8%BB%E6%AE%BF%E4%B8%8B%EF%BC%8C%E2%80%9C%E6%8B%B7%E9%97%AE%E2%80%9D%E7%9A%84%E6%97%B6%E9%97%B4%E5%88%B0%E4%BA%86"],"verifiedAt":"2026-10-30"}],"releases":[{"id":"hime-sama-goumon-no-jikan-desu-2nd-season-op-1-digital","title":"Sunday Morning","artistDisplayName":"ILLIT","type":"single","tracks":[{"title":"Sunday Morning"}],"date":{"value":"2026-01-13","precision":"day"},"edition":"Japan 2nd Digital Single"}],"links":[{"platform":"官方配信","label":"Sunday Morning 官方商品／曲目資料","url":"https://megashinnosuke.com/news/1777.html","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"hime-sama-goumon-no-jikan-desu-2nd-season-op-1-digital"},{"platform":"YouTube","label":"Sunday Morning Music Video","url":"https://www.youtube.com/watch?v=-01oDwXKSuE","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"官方配信","label":"Sunday Morning 官方配信","url":"https://illit.lnk.to/Sunday-Morning","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"Spotify","label":"Sunday Morning Spotify 確切配信入口","url":"https://open.spotify.com/track/6rjpIfWNWwzg7hd1KxDK5f","linkType":"direct_track","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"Apple Music","label":"Sunday Morning Apple Music 確切配信入口","url":"https://music.apple.com/jp/album/1861749531","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"YouTube Music","label":"Sunday Morning YouTube Music 確切配信入口","url":"https://music.youtube.com/watch?v=m5JAnsvvqTk","linkType":"direct_track","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"}],"sourceMode":"explicit"},{"type":"ED","titleJa":"お姫様にはなれない","artistDisplayName":"『ユイカ』","sequence":1,"songId":"hime-sama-goumon-no-jikan-desu-2nd-season-ed-1-song","credits":[{"name":"『ユイカ』","role":"vocals"},{"name":"『ユイカ』","role":"lyrics"},{"name":"『ユイカ』","role":"composition"},{"name":"小名川高弘","role":"arrangement"}],"sources":[{"url":"https://himesama-goumon.com/","label":"動畫官網 MUSIC：第二期 Sunday Morning／お姫様にはなれない；未採第一期創作","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/himesama_goumon_no_jikan_desu_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-07-28"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/winter-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-07-28"},{"url":"https://www.youtube.com/watch?v=7gnccTguR-Y","label":"『ユイカ』官方藝人頻道：お姫様にはなれない 完整創作、第二期 ED 及配信日","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://yuika.lnk.to/ohimesamaID","label":"藝人／唱片公司官方配信頁：確切曲目／專輯目的地","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://zh.wikipedia.org/wiki/%E5%85%AC%E4%B8%BB%E6%AE%BF%E4%B8%8B%EF%BC%8C%E2%80%9C%E6%8B%B7%E9%97%AE%E2%80%9D%E7%9A%84%E6%97%B6%E9%97%B4%E5%88%B0%E4%BA%86","label":"中文維基：本期曲名、演唱及OP／ED用途交叉","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://himesama-goumon.com/"],"verifiedAt":"2026-10-15","targetId":"hime-sama-goumon-no-jikan-desu-2nd-season-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://himesama-goumon.com/"],"verifiedAt":"2026-10-15","targetId":"hime-sama-goumon-no-jikan-desu-2nd-season-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.youtube.com/watch?v=7gnccTguR-Y"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.youtube.com/watch?v=7gnccTguR-Y"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=7gnccTguR-Y"},{"target":"song","fields":["date"],"sourceUrls":["https://www.youtube.com/watch?v=7gnccTguR-Y"],"verifiedAt":"2026-10-15","targetId":"hime-sama-goumon-no-jikan-desu-2nd-season-ed-1-song"},{"target":"link","fields":["url","type"],"sourceUrls":["https://yuika.lnk.to/ohimesamaID"],"verifiedAt":"2026-10-15","targetId":"https://yuika.lnk.to/ohimesamaID"},{"target":"link","fields":["url","type"],"sourceUrls":["https://yuika.lnk.to/ohimesamaID"],"verifiedAt":"2026-10-15","targetId":"https://music.apple.com/jp/album/1872348313"},{"target":"link","fields":["url","type"],"sourceUrls":["https://yuika.lnk.to/ohimesamaID"],"verifiedAt":"2026-10-15","targetId":"https://open.spotify.com/album/7k6CVndNeJFm3imC3vEDhT"},{"target":"link","fields":["url","type"],"sourceUrls":["https://yuika.lnk.to/ohimesamaID"],"verifiedAt":"2026-10-15","targetId":"https://music.youtube.com/playlist?list=OLAK5uy_nKOO1S068tF_FSrDc4jSpN-DpKLE-lHg8"},{"target":"song","targetId":"hime-sama-goumon-no-jikan-desu-2nd-season-ed-1-song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%85%AC%E4%B8%BB%E6%AE%BF%E4%B8%8B%EF%BC%8C%E2%80%9C%E6%8B%B7%E9%97%AE%E2%80%9D%E7%9A%84%E6%97%B6%E9%97%B4%E5%88%B0%E4%BA%86"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"hime-sama-goumon-no-jikan-desu-2nd-season-ed-1","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%85%AC%E4%B8%BB%E6%AE%BF%E4%B8%8B%EF%BC%8C%E2%80%9C%E6%8B%B7%E9%97%AE%E2%80%9D%E7%9A%84%E6%97%B6%E9%97%B4%E5%88%B0%E4%BA%86"],"verifiedAt":"2026-10-30"}],"links":[{"platform":"YouTube","label":"お姫様にはなれない 官方歌曲影片","url":"https://www.youtube.com/watch?v=7gnccTguR-Y","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"官方配信","label":"お姫様にはなれない 官方配信","url":"https://yuika.lnk.to/ohimesamaID","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"Apple Music","label":"お姫様にはなれない Apple Music 確切配信入口","url":"https://music.apple.com/jp/album/1872348313","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"Spotify","label":"お姫様にはなれない Spotify 確切配信入口","url":"https://open.spotify.com/album/7k6CVndNeJFm3imC3vEDhT","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"YouTube Music","label":"お姫様にはなれない YouTube Music 確切配信入口","url":"https://music.youtube.com/playlist?list=OLAK5uy_nKOO1S068tF_FSrDc4jSpN-DpKLE-lHg8","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"}],"releaseDate":"2026-02-09","sourceMode":"explicit"}],"verifiedAt":"2026-07-28","metadataVerifiedAt":"2026-07-28"},
   {"anilistId":203939,"id":"curated-203939","slug":"yami-shibai-16","seasonIds":["2026-winter"],"startDate":"2026-01-12","titleJa":"闇芝居 十六期","titleZhHant":"闇芝居 （第16期）","titleRomaji":"Yami Shibai 16","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx203939-F8YG2X9LgfAX.png","editorialWeekday":1,"broadcastLabel":"日本TV十六期：官方節目日2026-01-11週日深夜起，首回為換日後1/12週一02:20；節目日與實曆分開。完整常規槽及本期正版正文分鐘未知，不借其他期片長。","status":"finished","officialSiteUrl":"https://www.tv-tokyo.co.jp/anime/yamishibai16/","anilistUrl":"https://anilist.co/anime/203939","imageSourceUrl":"https://anilist.co/anime/203939","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2026-winter?display=list_detailed","https://bgm.tv/subject/615739"],"animeThemesUrl":"https://animethemes.moe/anime/yami_shibai_16","uzureaUrl":"https://uzurea.net/winter-2026-anime-theme-songs/","themes":[{"type":"ED","titleJa":"マスカレイドナイト","artistDisplayName":"yosugala","sequence":1,"songId":"yami-shibai-16-ed-1-song","credits":[{"name":"yosugala","role":"vocals"},{"name":"法橋昂広","role":"lyrics"},{"name":"niwaca","role":"lyrics"},{"name":"平地孝次","role":"composition"},{"name":"平地孝次","role":"arrangement"},{"name":"汐見まとい","role":"group_member","groupName":"yosugala"},{"name":"黒坂未来","role":"group_member","groupName":"yosugala"},{"name":"未白ちあ","role":"group_member","groupName":"yosugala"},{"name":"君島凪","role":"group_member","groupName":"yosugala"}],"sources":[{"url":"https://www.youtube.com/watch?v=jA99aTT6S58","label":"yosugala 官方藝人頻道：マスカレイドナイト MusicVideo、完整創作及團隊","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.toysfactory.co.jp/artist/yosugala/news/detail/7069","label":"TOY’S FACTORY 官方：No Border EP 六個 CD 版、品番及共通 Track 2","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://natalie.mu/music/pp/yosugala03/page/2","label":"音樂 Natalie 正式訪談商品資料：No Border EP 發行日期交叉補證","role":"cross_check","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://tf.lnk.to/masuqueradenight","label":"藝人／唱片公司官方配信頁：確切曲目／專輯目的地","role":"first_party","language":"ja","verifiedAt":"2026-10-15"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://www.youtube.com/watch?v=jA99aTT6S58"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.youtube.com/watch?v=jA99aTT6S58"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=jA99aTT6S58"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.toysfactory.co.jp/artist/yosugala/news/detail/7069","https://natalie.mu/music/pp/yosugala03/page/2"],"verifiedAt":"2026-10-15","targetId":"yosugala-no-border-tfcc-89804"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.toysfactory.co.jp/artist/yosugala/news/detail/7069"],"verifiedAt":"2026-10-15","targetId":"https://www.toysfactory.co.jp/artist/yosugala/news/detail/7069"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.toysfactory.co.jp/artist/yosugala/news/detail/7069","https://natalie.mu/music/pp/yosugala03/page/2"],"verifiedAt":"2026-10-15","targetId":"yosugala-no-border-tfcc-89805"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.toysfactory.co.jp/artist/yosugala/news/detail/7069","https://natalie.mu/music/pp/yosugala03/page/2"],"verifiedAt":"2026-10-15","targetId":"yosugala-no-border-tfcc-89806"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.toysfactory.co.jp/artist/yosugala/news/detail/7069","https://natalie.mu/music/pp/yosugala03/page/2"],"verifiedAt":"2026-10-15","targetId":"yosugala-no-border-tfcc-89807"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.toysfactory.co.jp/artist/yosugala/news/detail/7069","https://natalie.mu/music/pp/yosugala03/page/2"],"verifiedAt":"2026-10-15","targetId":"yosugala-no-border-tfcc-89808"},{"target":"release","fields":["title","type","tracklist","date","catalog_number","edition"],"sourceUrls":["https://www.toysfactory.co.jp/artist/yosugala/news/detail/7069","https://natalie.mu/music/pp/yosugala03/page/2"],"verifiedAt":"2026-10-15","targetId":"yosugala-no-border-tfcc-89809"},{"target":"link","fields":["url","type"],"sourceUrls":["https://tf.lnk.to/masuqueradenight"],"verifiedAt":"2026-10-15","targetId":"https://tf.lnk.to/masuqueradenight"},{"target":"link","fields":["url","type"],"sourceUrls":["https://tf.lnk.to/masuqueradenight"],"verifiedAt":"2026-10-15","targetId":"https://music.apple.com/jp/album/1858500360"},{"target":"link","fields":["url","type"],"sourceUrls":["https://tf.lnk.to/masuqueradenight"],"verifiedAt":"2026-10-15","targetId":"https://open.spotify.com/album/229HtOIq3iBjBPAdKeNaIB"},{"target":"link","fields":["url","type"],"sourceUrls":["https://tf.lnk.to/masuqueradenight"],"verifiedAt":"2026-10-15","targetId":"https://music.youtube.com/playlist?list=OLAK5uy_kvOxhVRe59joQhixLbTw2fJiR0ffsMwxM"}],"links":[{"platform":"YouTube","label":"マスカレイドナイト MusicVideo","url":"https://www.youtube.com/watch?v=jA99aTT6S58","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"官方配信","label":"No Border 官方商品／曲目資料","url":"https://www.toysfactory.co.jp/artist/yosugala/news/detail/7069","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"yosugala-no-border-tfcc-89809"},{"platform":"官方配信","label":"マスカレイドナイト 官方配信","url":"https://tf.lnk.to/masuqueradenight","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"Apple Music","label":"マスカレイドナイト Apple Music 確切配信入口","url":"https://music.apple.com/jp/album/1858500360","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"Spotify","label":"マスカレイドナイト Spotify 確切配信入口","url":"https://open.spotify.com/album/229HtOIq3iBjBPAdKeNaIB","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"YouTube Music","label":"マスカレイドナイト YouTube Music 確切配信入口","url":"https://music.youtube.com/playlist?list=OLAK5uy_kvOxhVRe59joQhixLbTw2fJiR0ffsMwxM","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"}],"releases":[{"id":"yosugala-no-border-tfcc-89804","title":"No Border","artistDisplayName":"yosugala","type":"ep","tracks":[{"title":"マスカレイドナイト","position":2}],"date":{"value":"2026-03-18","precision":"day"},"catalogNumber":"TFCC-89804","edition":"初回生産限定盤（豪華ブックレット＋透明スリーブ）"},{"id":"yosugala-no-border-tfcc-89805","title":"No Border","artistDisplayName":"yosugala","type":"ep","tracks":[{"title":"マスカレイドナイト","position":2}],"date":{"value":"2026-03-18","precision":"day"},"catalogNumber":"TFCC-89805","edition":"黒坂未来盤"},{"id":"yosugala-no-border-tfcc-89806","title":"No Border","artistDisplayName":"yosugala","type":"ep","tracks":[{"title":"マスカレイドナイト","position":2}],"date":{"value":"2026-03-18","precision":"day"},"catalogNumber":"TFCC-89806","edition":"君島凪盤"},{"id":"yosugala-no-border-tfcc-89807","title":"No Border","artistDisplayName":"yosugala","type":"ep","tracks":[{"title":"マスカレイドナイト","position":2}],"date":{"value":"2026-03-18","precision":"day"},"catalogNumber":"TFCC-89807","edition":"汐見まとい盤"},{"id":"yosugala-no-border-tfcc-89808","title":"No Border","artistDisplayName":"yosugala","type":"ep","tracks":[{"title":"マスカレイドナイト","position":2}],"date":{"value":"2026-03-18","precision":"day"},"catalogNumber":"TFCC-89808","edition":"未白ちあ盤"},{"id":"yosugala-no-border-tfcc-89809","title":"No Border","artistDisplayName":"yosugala","type":"ep","tracks":[{"title":"マスカレイドナイト","position":2}],"date":{"value":"2026-03-18","precision":"day"},"catalogNumber":"TFCC-89809","edition":"通常盤"}],"followUp":[{"fields":["basic_evidence"],"note":"第十六期日本TV的完整常規播出時段及本期正版單集片長仍待確認，歌曲用途尚未完成核對。","resumeWhen":"待第十六期官方節目表列出完整、獨立的常規播出起訖，或正版平台公開本期單集片長、官方明示本期短篇形式後，再確認形式與相關歌曲資料。","checkedAt":"2026-10-31"}]}],"verifiedAt":"2026-07-28","metadataVerifiedAt":"2026-07-28","metadataSources":[{"label":"本十六期日本TV及週日深夜編排身分（不借其他期長度）：テレ東本十六期官方網站（發表／資料提供；刊載：テレビ東京）","url":"https://www.tv-tokyo.co.jp/anime/yamishibai16/","language":"ja","role":"first_party","verifiedAt":"2026-10-31"},{"label":"AniList：作品識別與公開圖像","url":"https://anilist.co/anime/203939","language":"en","role":"identifier","verifiedAt":"2026-07-28"},{"label":"繁體中文季度列表交叉對照","url":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","language":"zh-Hant","role":"localized_cross_check","verifiedAt":"2026-07-28"},{"label":"AnimeThemes：OP／ED 曲目交叉核對","url":"https://animethemes.moe/anime/yami_shibai_16","language":"en","role":"theme_cross_check","verifiedAt":"2026-07-28"},{"label":"UZUREA：季度主題曲與官方影片索引","url":"https://uzurea.net/winter-2026-anime-theme-songs/","language":"ja","role":"theme_cross_check","verifiedAt":"2026-07-28"},{"label":"季度首播公開來源","url":"https://annict.com/works/2026-winter?display=list_detailed","language":"ja","role":"broadcast_cross_check","verifiedAt":"2026-07-28"},{"label":"季度首播公開來源","url":"https://bgm.tv/subject/615739","language":"zh-Hans","role":"broadcast_cross_check","verifiedAt":"2026-07-28"},{"url":"https://www.tv-tokyo.co.jp/anime/yamishibai16/news/index.html","label":"本十六期官方節目日1/11週日深夜、首回實曆1/12週一02:20（完整槽／分鐘未知）：テレ東本十六期官方NEWS（發表／資料提供；刊載：テレビ東京）","role":"first_party","language":"ja","verifiedAt":"2026-10-31"}]},
   {"anilistId":182587,"id":"curated-182587","slug":"oshi-no-ko-3rd-season","seasonIds":["2026-winter"],"startDate":"2026-01-14","titleJa":"【推しの子】第3期","titleZhHant":"【我推的孩子】 （第3期）","titleRomaji":"[Oshi no Ko] 3rd Season","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182587-fsU8LOjmd7oj.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/182587-SLNmuinewbUF.jpg","editorialWeekday":3,"broadcastLabel":"日本標準TV第3期：2026-01-14起每週三23:00 TOKYO MX；ABEMA同時、其他平台翌日配信另列。LiTV已見本期第34話24分鐘，非TV槽或全季片長。","status":"finished","officialSiteUrl":"https://ichigoproduction.com/","anilistUrl":"https://anilist.co/anime/182587","imageSourceUrl":"https://anilist.co/anime/182587","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2026-winter?display=list_detailed","https://bgm.tv/subject/517057"],"animeThemesUrl":"https://animethemes.moe/anime/oshi_no_ko_3rd_season","uzureaUrl":"https://uzurea.net/winter-2026-anime-theme-songs/","themes":[{"type":"OP","titleJa":"TEST ME","artistDisplayName":"ちゃんみな","youtubeUrl":"https://www.youtube.com/watch?v=QgIQbeRzkkc","sequence":1,"songId":"oshi-no-ko-3rd-season-op-1-song","sourceMode":"explicit","sources":[{"label":"動畫官方音樂頁：第 3 期唯一片頭曲與演唱者","url":"https://ichigoproduction.com/Season3/music/","language":"ja","role":"first_party","verifiedAt":"2026-10-31"},{"label":"動畫官方公告：第 3 期片頭曲發表","url":"https://ichigoproduction.com/Season3/news/index00670000.html","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"台灣索尼音樂：繁體中文曲目、動畫用途與藝名對照","url":"https://sonymusic.com.tw/album/test-me/","language":"zh-Hant","role":"first_party","verifiedAt":"2026-08-10"},{"label":"Apple Music 台灣","url":"https://music.apple.com/tw/album/test-me/1866862251?i=1866862252","language":"zh-Hant","role":"first_party","verifiedAt":"2026-08-10"},{"label":"ABEMA TIMES 繁體中文版：無字幕片頭與片尾分類交叉核對","url":"https://times.abema.tv/zt/articles/-/10221525","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-08-10"},{"label":"Anime 【OSHI NO KO】 Official Channel 官方影片","url":"https://www.youtube.com/watch?v=QgIQbeRzkkc","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"ちゃんみな [CHANMINA] 官方影片","url":"https://www.youtube.com/watch?v=hQ4-H-nNNz4","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"官方跨平台數位發行頁","url":"https://nolabel.lnk.to/TEST_ME","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"動畫官方網站","url":"https://ichigoproduction.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/oshi_no_ko_3rd_season","language":"en","role":"cross_check","verifiedAt":"2026-08-10"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/winter-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-08-10"},{"url":"https://youranimes.tw/animes/5505","label":"TEST ME：曲名／演唱／動畫用途：YourAnimes本第3期作品頁（發表／資料提供；刊載：YourAnimes）","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-31"}],"evidence":[{"target":"song","targetId":"oshi-no-ko-3rd-season-op-1-song","fields":["title","artist"],"sourceUrls":["https://ichigoproduction.com/Season3/music/"],"verifiedAt":"2026-10-31"},{"target":"anime_use","targetId":"oshi-no-ko-3rd-season-op-1","fields":["usage"],"sourceUrls":["https://ichigoproduction.com/Season3/music/"],"verifiedAt":"2026-10-31"},{"target":"song","targetId":"oshi-no-ko-3rd-season-op-1-song","fields":["title","artist"],"sourceUrls":["https://youranimes.tw/animes/5505"],"verifiedAt":"2026-10-31"},{"target":"anime_use","targetId":"oshi-no-ko-3rd-season-op-1","fields":["usage"],"sourceUrls":["https://youranimes.tw/animes/5505"],"verifiedAt":"2026-10-31"}]},{"type":"OP","sequence":2,"titleJa":"TEST ME","artistDisplayName":"CHANMINA"},{"type":"ED","titleJa":"セレナーデ","artistDisplayName":"なとり","youtubeUrl":"https://www.youtube.com/watch?v=ZWvFR00t-NE","sequence":1,"songId":"oshi-no-ko-3rd-season-ed-1-song","sourceMode":"explicit","sources":[{"label":"動畫官方音樂頁：第 3 期唯一片尾曲與演唱者","url":"https://ichigoproduction.com/Season3/music/","language":"ja","role":"first_party","verifiedAt":"2026-10-31"},{"label":"動畫官方公告：第 3 期片尾曲發表","url":"https://ichigoproduction.com/Season3/news/index00560000.html","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"Sony Music 官方公告：片尾曲分類","url":"https://www.sonymusic.co.jp/artist/natori/info/578563","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"Sony Music 官方發行公告：共同編曲與實體發行日","url":"https://www.sonymusic.co.jp/artist/natori/info/580062","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"Apple Music 台灣","url":"https://music.apple.com/tw/album/%E3%82%BB%E3%83%AC%E3%83%8A%E3%83%BC%E3%83%87/1871971722?i=1871971723","language":"zh-Hant","role":"first_party","verifiedAt":"2026-08-10"},{"label":"ABEMA TIMES 繁體中文版：無字幕片頭與片尾分類交叉核對","url":"https://times.abema.tv/zt/articles/-/10221525","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-08-10"},{"label":"Anime 【OSHI NO KO】 Official Channel 官方影片","url":"https://www.youtube.com/watch?v=ZWvFR00t-NE","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"なとり / natori 官方影片","url":"https://www.youtube.com/watch?v=gNg2Qw5R-Q4","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"官方跨平台數位發行頁","url":"https://natori.lnk.to/Serenade","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"官方實體單曲訂購頁","url":"https://natori.lnk.to/Serenade_PKG","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"動畫官方網站","url":"https://ichigoproduction.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/oshi_no_ko_3rd_season","language":"en","role":"cross_check","verifiedAt":"2026-08-10"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/winter-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-08-10"},{"url":"https://youranimes.tw/animes/5505","label":"セレナーデ：曲名／演唱／動畫用途：YourAnimes本第3期作品頁（發表／資料提供；刊載：YourAnimes）","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-31"}],"evidence":[{"target":"song","targetId":"oshi-no-ko-3rd-season-ed-1-song","fields":["title","artist"],"sourceUrls":["https://ichigoproduction.com/Season3/music/"],"verifiedAt":"2026-10-31"},{"target":"anime_use","targetId":"oshi-no-ko-3rd-season-ed-1","fields":["usage"],"sourceUrls":["https://ichigoproduction.com/Season3/music/"],"verifiedAt":"2026-10-31"},{"target":"song","targetId":"oshi-no-ko-3rd-season-ed-1-song","fields":["title","artist"],"sourceUrls":["https://youranimes.tw/animes/5505"],"verifiedAt":"2026-10-31"},{"target":"anime_use","targetId":"oshi-no-ko-3rd-season-ed-1","fields":["usage"],"sourceUrls":["https://youranimes.tw/animes/5505"],"verifiedAt":"2026-10-31"}]}],"verifiedAt":"2026-07-28","metadataSources":[{"label":"動畫官方網站：作品與播出資料","url":"https://ichigoproduction.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"AniList：作品識別與公開圖像","url":"https://anilist.co/anime/182587","language":"en","role":"identifier","verifiedAt":"2026-08-10"},{"label":"繁體中文季度列表交叉對照","url":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","language":"zh-Hant","role":"localized_cross_check","verifiedAt":"2026-08-10"},{"label":"AnimeThemes：OP／ED 曲目交叉核對","url":"https://animethemes.moe/anime/oshi_no_ko_3rd_season","language":"en","role":"theme_cross_check","verifiedAt":"2026-08-10"},{"label":"UZUREA：季度主題曲與官方影片索引","url":"https://uzurea.net/winter-2026-anime-theme-songs/","language":"ja","role":"theme_cross_check","verifiedAt":"2026-08-10"},{"label":"季度首播公開來源","url":"https://annict.com/works/2026-winter?display=list_detailed","language":"ja","role":"broadcast_cross_check","verifiedAt":"2026-08-10"},{"label":"季度首播公開來源","url":"https://bgm.tv/subject/517057","language":"zh-Hans","role":"broadcast_cross_check","verifiedAt":"2026-08-10"},{"url":"https://ichigoproduction.com/Season3/onair/index.html","label":"同第3期日本TV起點與配信分列（不是完整槽）：本期動畫官方ON AIR（發表／資料提供；刊載：ichigoproduction.com）","role":"first_party","language":"ja","verifiedAt":"2026-10-31"},{"url":"https://www.litv.tv/comic/watch/VOD00388275","label":"同本期正版第34話24分鐘（平台交叉；累計35非本季集數）：LiTV正版公開單話metadata（發表／資料提供；刊載：LiTV立視線上影視）","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-31"}],"metadataVerifiedAt":"2026-08-10"},
-  {"anilistId":202955,"id":"curated-202955","slug":"prism-rondo","seasonIds":["2026-winter"],"startDate":"2026-01-15","titleJa":"プリズム輪舞曲","titleZhHant":"稜鏡戀曲","titleRomaji":"Prism Rondo","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b202955-TFyTd1zFT1v7.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/202955-NGyGdH5wvSpB.jpg","editorialWeekday":4,"broadcastLabel":"日本首播／時間未整理","status":"finished","anilistUrl":"https://anilist.co/anime/202955","imageSourceUrl":"https://anilist.co/anime/202955","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2026-winter?display=list_detailed","https://bgm.tv/subject/611089","https://about.netflix.com/ja/news/love-through-a-prism"],"uzureaUrl":"https://uzurea.net/winter-2026-anime-theme-songs/","themes":[{"type":"TS","sequence":1,"titleJa":"star flower","artistDisplayName":"Chilli Beans.","songId":"prism-rondo-ed-1-song","credits":[{"name":"Chilli Beans.","role":"vocals"},{"name":"Chilli Beans.","role":"lyrics"},{"name":"Chilli Beans.","role":"composition"},{"name":"Chilli Beans.","role":"arrangement"}],"id":"prism-rondo-ed-1","usageLabel":"主題歌（公式表記）","sources":[{"url":"https://www.youtube.com/watch?v=hGtHJqFd98A","label":"Netflix Japan 官方：star flower 明示主題歌；未明示 OP／ED 細分","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.uta-net.com/song/387039/","label":"歌ネット 授權曲目：star flower 完整創作交叉補證","role":"cross_check","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://chilli-beans.com/discography/detail/6423/","label":"Chilli Beans. 官方：star flower Digital Single 日期及確切配信","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://chilli-beans.com/news/detail/69251","label":"Chilli Beans. 官方：star flower 專屬 Official Music Video","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://asab.lnk.to/CB_starflower","label":"藝人／唱片公司官方配信頁：確切曲目／專輯目的地","role":"first_party","language":"ja","verifiedAt":"2026-10-15"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.youtube.com/watch?v=hGtHJqFd98A"],"verifiedAt":"2026-10-15","targetId":"prism-rondo-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.youtube.com/watch?v=hGtHJqFd98A"],"verifiedAt":"2026-10-15","targetId":"prism-rondo-ed-1"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.youtube.com/watch?v=hGtHJqFd98A"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=hGtHJqFd98A"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.uta-net.com/song/387039/"],"verifiedAt":"2026-10-15"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://chilli-beans.com/discography/detail/6423/"],"verifiedAt":"2026-10-15","targetId":"prism-rondo-ed-1-digital"},{"target":"link","fields":["url","type"],"sourceUrls":["https://chilli-beans.com/discography/detail/6423/"],"verifiedAt":"2026-10-15","targetId":"https://chilli-beans.com/discography/detail/6423/"},{"target":"link","fields":["url","type"],"sourceUrls":["https://chilli-beans.com/news/detail/69251"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=Qkbwzbhy75g"},{"target":"link","fields":["url","type"],"sourceUrls":["https://asab.lnk.to/CB_starflower"],"verifiedAt":"2026-10-15","targetId":"https://asab.lnk.to/CB_starflower"},{"target":"link","fields":["url","type"],"sourceUrls":["https://asab.lnk.to/CB_starflower"],"verifiedAt":"2026-10-15","targetId":"https://music.apple.com/jp/album/1861425884"},{"target":"link","fields":["url","type"],"sourceUrls":["https://asab.lnk.to/CB_starflower"],"verifiedAt":"2026-10-15","targetId":"https://open.spotify.com/album/4aM9vov58lJbJQRYwKDtAc"}],"links":[{"platform":"YouTube","label":"star flower Netflix 官方主題歌影片","url":"https://www.youtube.com/watch?v=hGtHJqFd98A","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"官方配信","label":"star flower 官方商品／曲目資料","url":"https://chilli-beans.com/discography/detail/6423/","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"prism-rondo-ed-1-digital"},{"platform":"YouTube","label":"star flower Official Music Video","url":"https://www.youtube.com/watch?v=Qkbwzbhy75g","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"官方配信","label":"star flower 官方配信","url":"https://asab.lnk.to/CB_starflower","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"Apple Music","label":"star flower Apple Music 確切配信入口","url":"https://music.apple.com/jp/album/1861425884","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"Spotify","label":"star flower Spotify 確切配信入口","url":"https://open.spotify.com/album/4aM9vov58lJbJQRYwKDtAc","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"}],"releases":[{"id":"prism-rondo-ed-1-digital","title":"star flower","artistDisplayName":"Chilli Beans.","type":"single","tracks":[{"title":"star flower"}],"date":{"value":"2026-01-21","precision":"day"},"edition":"Digital Single"}]}],"verifiedAt":"2026-07-28","officialSiteUrl":"https://www.netflix.com/jp/title/81498882","metadataVerifiedAt":"2026-07-28"},
+  {"anilistId":202955,"id":"curated-202955","slug":"prism-rondo","seasonIds":["2026-winter"],"startDate":"2026-01-15","titleJa":"プリズム輪舞曲","titleZhHant":"稜鏡戀曲","titleRomaji":"Prism Rondo","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b202955-TFyTd1zFT1v7.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/202955-NGyGdH5wvSpB.jpg","editorialWeekday":4,"broadcastLabel":"Netflix原配信公告：2026-01-15全球獨家配信，全20話、每話約20分鐘（製作公告約值）；同版日本TV編排未核。","status":"finished","anilistUrl":"https://anilist.co/anime/202955","imageSourceUrl":"https://anilist.co/anime/202955","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2026-winter?display=list_detailed","https://bgm.tv/subject/611089","https://about.netflix.com/ja/news/love-through-a-prism"],"uzureaUrl":"https://uzurea.net/winter-2026-anime-theme-songs/","themes":[{"type":"TS","sequence":1,"titleJa":"star flower","artistDisplayName":"Chilli Beans.","songId":"prism-rondo-ed-1-song","credits":[{"name":"Chilli Beans.","role":"vocals"},{"name":"Chilli Beans.","role":"lyrics"},{"name":"Chilli Beans.","role":"composition"},{"name":"Chilli Beans.","role":"arrangement"}],"id":"prism-rondo-ed-1","usageLabel":"主題歌（公式表記）","sources":[{"url":"https://www.youtube.com/watch?v=hGtHJqFd98A","label":"Netflix Japan 官方：star flower 明示主題歌；未明示 OP／ED 細分","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.uta-net.com/song/387039/","label":"歌ネット 授權曲目：star flower 完整創作交叉補證","role":"cross_check","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://chilli-beans.com/discography/detail/6423/","label":"Chilli Beans. 官方：star flower Digital Single 日期及確切配信","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://chilli-beans.com/news/detail/69251","label":"Chilli Beans. 官方：star flower 專屬 Official Music Video","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://asab.lnk.to/CB_starflower","label":"藝人／唱片公司官方配信頁：確切曲目／專輯目的地","role":"first_party","language":"ja","verifiedAt":"2026-10-15"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.youtube.com/watch?v=hGtHJqFd98A"],"verifiedAt":"2026-10-15","targetId":"prism-rondo-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.youtube.com/watch?v=hGtHJqFd98A"],"verifiedAt":"2026-10-15","targetId":"prism-rondo-ed-1"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.youtube.com/watch?v=hGtHJqFd98A"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=hGtHJqFd98A"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.uta-net.com/song/387039/"],"verifiedAt":"2026-10-15"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://chilli-beans.com/discography/detail/6423/"],"verifiedAt":"2026-10-15","targetId":"prism-rondo-ed-1-digital"},{"target":"link","fields":["url","type"],"sourceUrls":["https://chilli-beans.com/discography/detail/6423/"],"verifiedAt":"2026-10-15","targetId":"https://chilli-beans.com/discography/detail/6423/"},{"target":"link","fields":["url","type"],"sourceUrls":["https://chilli-beans.com/news/detail/69251"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=Qkbwzbhy75g"},{"target":"link","fields":["url","type"],"sourceUrls":["https://asab.lnk.to/CB_starflower"],"verifiedAt":"2026-10-15","targetId":"https://asab.lnk.to/CB_starflower"},{"target":"link","fields":["url","type"],"sourceUrls":["https://asab.lnk.to/CB_starflower"],"verifiedAt":"2026-10-15","targetId":"https://music.apple.com/jp/album/1861425884"},{"target":"link","fields":["url","type"],"sourceUrls":["https://asab.lnk.to/CB_starflower"],"verifiedAt":"2026-10-15","targetId":"https://open.spotify.com/album/4aM9vov58lJbJQRYwKDtAc"}],"links":[{"platform":"YouTube","label":"star flower Netflix 官方主題歌影片","url":"https://www.youtube.com/watch?v=hGtHJqFd98A","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"官方配信","label":"star flower 官方商品／曲目資料","url":"https://chilli-beans.com/discography/detail/6423/","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"prism-rondo-ed-1-digital"},{"platform":"YouTube","label":"star flower Official Music Video","url":"https://www.youtube.com/watch?v=Qkbwzbhy75g","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"官方配信","label":"star flower 官方配信","url":"https://asab.lnk.to/CB_starflower","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"Apple Music","label":"star flower Apple Music 確切配信入口","url":"https://music.apple.com/jp/album/1861425884","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"Spotify","label":"star flower Spotify 確切配信入口","url":"https://open.spotify.com/album/4aM9vov58lJbJQRYwKDtAc","linkType":"direct_album","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"}],"releases":[{"id":"prism-rondo-ed-1-digital","title":"star flower","artistDisplayName":"Chilli Beans.","type":"single","tracks":[{"title":"star flower"}],"date":{"value":"2026-01-21","precision":"day"},"edition":"Digital Single"}]}],"verifiedAt":"2026-07-28","officialSiteUrl":"https://www.netflix.com/jp/title/81498882","metadataVerifiedAt":"2026-11-05",
+    "metadataSources": [
+      {
+        "label": "動畫官方網站：作品與播出資料",
+        "url": "https://www.netflix.com/jp/title/81498882",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-07-28"
+      },
+      {
+        "label": "AniList：作品識別與公開圖像",
+        "url": "https://anilist.co/anime/202955",
+        "language": "en",
+        "role": "identifier",
+        "verifiedAt": "2026-07-28"
+      },
+      {
+        "label": "繁體中文季度列表交叉對照",
+        "url": "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+        "language": "zh-Hant",
+        "role": "localized_cross_check",
+        "verifiedAt": "2026-07-28"
+      },
+      {
+        "label": "UZUREA：季度主題曲與官方影片索引",
+        "url": "https://uzurea.net/winter-2026-anime-theme-songs/",
+        "language": "ja",
+        "role": "theme_cross_check",
+        "verifiedAt": "2026-07-28"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://annict.com/works/2026-winter?display=list_detailed",
+        "language": "ja",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-07-28"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://bgm.tv/subject/611089",
+        "language": "zh-Hans",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-07-28"
+      },
+      {
+        "label": "Netflix原2025/11/26公告：2026/1/15全球配信、全20話及每話約20分鐘（製作公告值）",
+        "url": "https://about.netflix.com/ja/news/love-through-a-prism",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-11-05"
+      }
+    ]
+},
   {"anilistId":182255,"id":"curated-182255","slug":"sousou-no-frieren-2nd-season","seasonIds":["2026-winter"],"startDate":"2026-01-16","titleJa":"葬送のフリーレン 第2期","titleZhHant":"葬送的芙莉蓮 （第2期）","titleRomaji":"Sousou no Frieren 2nd Season","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182255-butzrqd4I0aC.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/182255-wyHvp6zJbWsO.jpg","editorialWeekday":5,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://frieren-anime.jp/","anilistUrl":"https://anilist.co/anime/182255","imageSourceUrl":"https://anilist.co/anime/182255","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2026-winter?display=list_detailed","https://bgm.tv/subject/515759"],"animeThemesUrl":"https://animethemes.moe/anime/sousou_no_frieren_2nd_season","uzureaUrl":"https://uzurea.net/winter-2026-anime-theme-songs/","themes":[{"type":"OP","titleJa":"lulu.","artistDisplayName":"Mrs. GREEN APPLE","sequence":1,"songId":"sousou-no-frieren-2nd-season-op-1-song","sourceMode":"explicit","sources":[{"label":"動畫官方音樂頁：第 2 期唯一片頭曲、創作 credit 與數位發行日","url":"https://frieren-anime.jp/music/2nd/","language":"ja","role":"first_party","verifiedAt":"2026-10-30"},{"label":"動畫官方公告：無字幕片頭與片尾分類","url":"https://frieren-anime.jp/news/4710/","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"Apple Music 台灣","url":"https://music.apple.com/tw/album/lulu/1867354077?i=1867354081","language":"zh-Hant","role":"first_party","verifiedAt":"2026-08-10"},{"label":"巴哈姆特：繁體中文作品名稱及片頭片尾曲交叉核對","url":"https://acg.gamer.com.tw/acgDetail.php?s=141647","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-08-10"},{"label":"TOHO animation チャンネル 官方影片","url":"https://www.youtube.com/watch?v=C0BG3B7aksU","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"TOHO animation チャンネル 官方影片","url":"https://www.youtube.com/watch?v=-kpHrSd2wOc","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"Mrs. GREEN APPLE 官方影片","url":"https://www.youtube.com/watch?v=MjeiIal1ZR0","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"官方跨平台數位發行頁","url":"https://lnk.to/MGA_lulu_0112","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"動畫官方網站","url":"https://frieren-anime.jp/","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/sousou_no_frieren_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-08-10"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/winter-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","targetId":"sousou-no-frieren-2nd-season-op-1-song","fields":["title","artist"],"sourceUrls":["https://frieren-anime.jp/music/2nd/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"sousou-no-frieren-2nd-season-op-1","fields":["usage"],"sourceUrls":["https://frieren-anime.jp/music/2nd/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"sousou-no-frieren-2nd-season-op-1-song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/winter-2026-anime-theme-songs/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"sousou-no-frieren-2nd-season-op-1","fields":["usage"],"sourceUrls":["https://uzurea.net/winter-2026-anime-theme-songs/"],"verifiedAt":"2026-10-30"}]},{"type":"OP","titleJa":"lulu.","artistDisplayName":"Mrs. GREEN APPLE スペシャルPV","youtubeUrl":"https://www.youtube.com/watch?v=-kpHrSd2wOc","sequence":2},{"type":"ED","titleJa":"The Story of Us","artistDisplayName":"milet","sequence":1,"songId":"sousou-no-frieren-2nd-season-ed-1-song","sourceMode":"explicit","sources":[{"label":"動畫官方音樂頁：第 2 期片尾曲、創作 credit 與數位發行日","url":"https://frieren-anime.jp/music/2nd/","language":"ja","role":"first_party","verifiedAt":"2026-10-30"},{"label":"動畫官方公告：無字幕片頭與片尾分類","url":"https://frieren-anime.jp/news/4710/","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"台灣索尼音樂：繁體中文曲目與片尾分類","url":"https://www.sonymusic.com.tw/album/the-story-of-us/","language":"zh-Hant","role":"first_party","verifiedAt":"2026-08-10"},{"label":"Apple Music 台灣","url":"https://music.apple.com/tw/album/the-story-of-us/1863631186?i=1863631485","language":"zh-Hant","role":"first_party","verifiedAt":"2026-08-10"},{"label":"歌ネット：完整作詞、作曲、編曲 credit 交叉核對","url":"https://www.uta-net.com/song/386441/","language":"ja","role":"cross_check","verifiedAt":"2026-08-10"},{"label":"巴哈姆特：繁體中文作品名稱及片頭片尾曲交叉核對","url":"https://acg.gamer.com.tw/acgDetail.php?s=141647","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-08-10"},{"label":"TOHO animation チャンネル 官方影片","url":"https://www.youtube.com/watch?v=FY4Bx2qtkRM","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"TOHO animation チャンネル 官方影片","url":"https://www.youtube.com/watch?v=vQ8cH94ty3Y","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"milet Official YouTube Channel 官方影片","url":"https://www.youtube.com/watch?v=_1NbGbYG4qg","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"官方跨平台數位發行頁","url":"https://milet.lnk.to/TheStoryofUs","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"動畫官方網站","url":"https://frieren-anime.jp/","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/sousou_no_frieren_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-08-10"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/winter-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","targetId":"sousou-no-frieren-2nd-season-ed-1-song","fields":["title","artist"],"sourceUrls":["https://frieren-anime.jp/music/2nd/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"sousou-no-frieren-2nd-season-ed-1","fields":["usage"],"sourceUrls":["https://frieren-anime.jp/music/2nd/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"sousou-no-frieren-2nd-season-ed-1-song","fields":["title","artist"],"sourceUrls":["https://uzurea.net/winter-2026-anime-theme-songs/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"sousou-no-frieren-2nd-season-ed-1","fields":["usage"],"sourceUrls":["https://uzurea.net/winter-2026-anime-theme-songs/"],"verifiedAt":"2026-10-30"}]},{"type":"ED","sequence":2,"titleJa":"Trace","artistDisplayName":"milet","songId":"sousou-no-frieren-2nd-season-ed-2-song","sourceMode":"explicit","sources":[{"label":"動畫官方公告：第 38 話特別片尾分類與使用情境","url":"https://frieren-anime.jp/news/5419/","language":"ja","role":"first_party","verifiedAt":"2026-10-30"},{"label":"動畫官方公告：第 38 話特別片尾無字幕映像","url":"https://frieren-anime.jp/news/5471/","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"Sony Music 官方公告：特別片尾分類與發行資料","url":"https://www.sonymusic.co.jp/artist/milet_music/info/582150","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"Apple Music 台灣","url":"https://music.apple.com/tw/album/trace/1878095288?i=1878095294","language":"zh-Hant","role":"first_party","verifiedAt":"2026-08-10"},{"label":"歌ネット：完整作詞、作曲、編曲與片尾分類交叉核對","url":"https://www.uta-net.com/song/388882/","language":"ja","role":"cross_check","verifiedAt":"2026-08-10"},{"label":"TOHO animation チャンネル 官方影片","url":"https://www.youtube.com/watch?v=R5cBm08p_jE","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"官方跨平台數位發行頁","url":"https://milet.lnk.to/TheStoryofUs_SG","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"動畫官方網站","url":"https://frieren-anime.jp/","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/sousou_no_frieren_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-08-10"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/winter-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-08-10"},{"url":"https://mantan-web.jp/article/20260327dog00m200137000a.html","label":"MANTANWEB：第2期最終第38話Trace特殊ED交叉","language":"ja","role":"cross_check","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","targetId":"sousou-no-frieren-2nd-season-ed-2-song","fields":["title","artist"],"sourceUrls":["https://frieren-anime.jp/news/5419/"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"sousou-no-frieren-2nd-season-ed-2","fields":["usage"],"sourceUrls":["https://frieren-anime.jp/news/5419/"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"sousou-no-frieren-2nd-season-ed-2-song","fields":["title","artist"],"sourceUrls":["https://mantan-web.jp/article/20260327dog00m200137000a.html"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"sousou-no-frieren-2nd-season-ed-2","fields":["usage"],"sourceUrls":["https://mantan-web.jp/article/20260327dog00m200137000a.html"],"verifiedAt":"2026-10-30"}]}],"verifiedAt":"2026-07-28","metadataSources":[{"label":"動畫官方網站：作品與播出資料","url":"https://frieren-anime.jp/","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"AniList：作品識別與公開圖像","url":"https://anilist.co/anime/182255","language":"en","role":"identifier","verifiedAt":"2026-08-10"},{"label":"繁體中文季度列表交叉對照","url":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","language":"zh-Hant","role":"localized_cross_check","verifiedAt":"2026-08-10"},{"label":"AnimeThemes：OP／ED 曲目交叉核對","url":"https://animethemes.moe/anime/sousou_no_frieren_2nd_season","language":"en","role":"theme_cross_check","verifiedAt":"2026-08-10"},{"label":"UZUREA：季度主題曲與官方影片索引","url":"https://uzurea.net/winter-2026-anime-theme-songs/","language":"ja","role":"theme_cross_check","verifiedAt":"2026-08-10"},{"label":"季度首播公開來源","url":"https://annict.com/works/2026-winter?display=list_detailed","language":"ja","role":"broadcast_cross_check","verifiedAt":"2026-08-10"},{"label":"季度首播公開來源","url":"https://bgm.tv/subject/515759","language":"zh-Hans","role":"broadcast_cross_check","verifiedAt":"2026-08-10"}],"metadataVerifiedAt":"2026-08-10"},
   {"anilistId":204698,"id":"curated-204698","slug":"gelpiyo","seasonIds":["2026-winter"],"startDate":"2026-01-21","titleJa":"ゲルぴよ","titleZhHant":"果凍小雞","titleRomaji":"GelPiyo","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx204698-6v7aAq92mKFl.png","editorialWeekday":3,"broadcastLabel":"TOKYO MX1 毎週水曜日21:54〜22:00（ショートアニメ；6分鐘番組槽）","status":"finished","officialSiteUrl":"https://s.mxtv.jp/anime/gelpiyo/","anilistUrl":"https://anilist.co/anime/204698","imageSourceUrl":"https://anilist.co/anime/204698","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2026-winter?display=list_detailed","https://bgm.tv/subject/618661"],"uzureaUrl":"https://uzurea.net/winter-2026-anime-theme-songs/","themes":[],"verifiedAt":"2026-07-28","metadataVerifiedAt":"2026-08-10","metadataSources":[{"label":"動畫官方網站：作品與播出資料","url":"https://s.mxtv.jp/anime/gelpiyo/","language":"ja","role":"first_party","verifiedAt":"2026-08-10"},{"label":"AniList：作品識別與公開圖像","url":"https://anilist.co/anime/204698","language":"en","role":"identifier","verifiedAt":"2026-08-10"},{"label":"繁體中文季度列表交叉對照","url":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","language":"zh-Hant","role":"localized_cross_check","verifiedAt":"2026-08-10"},{"label":"UZUREA：季度主題曲與官方影片索引","url":"https://uzurea.net/winter-2026-anime-theme-songs/","language":"ja","role":"theme_cross_check","verifiedAt":"2026-08-10"},{"label":"季度首播公開來源","url":"https://annict.com/works/2026-winter?display=list_detailed","language":"ja","role":"broadcast_cross_check","verifiedAt":"2026-08-10"},{"label":"季度首播公開來源","url":"https://bgm.tv/subject/618661","language":"zh-Hans","role":"broadcast_cross_check","verifiedAt":"2026-08-10"},{"url":"https://s.mxtv.jp/company/press/20251224_l54794fsajakig0y3g7oug588a0l6t.pdf","label":"動畫／播出方官方：本期媒體形式與播出資料","role":"first_party","language":"ja","verifiedAt":"2026-10-30"}]},
   {"anilistId":189275,"id":"curated-189275","slug":"medalist-2nd-season","seasonIds":["2026-winter"],"startDate":"2026-01-25","titleJa":"メダリスト 第2期","titleZhHant":"金牌得主 （第2期）","titleRomaji":"Medalist 2nd Season","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx189275-eHsK0lNnFfXH.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/189275-WreT2tChg3a0.jpg","editorialWeekday":7,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://medalist-pr.com/","anilistUrl":"https://anilist.co/anime/189275","imageSourceUrl":"https://anilist.co/anime/189275","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/2026-winter?display=list_detailed","https://bgm.tv/subject/548818"],"animeThemesUrl":"https://animethemes.moe/anime/medalist_2nd_season","uzureaUrl":"https://uzurea.net/winter-2026-anime-theme-songs/","themes":[{"type":"OP","titleJa":"Cold Night","artistDisplayName":"HANA","sequence":1,"songId":"medalist-2nd-season-op-1-song","credits":[{"name":"HANA","role":"vocals"},{"name":"CHANMINA","role":"lyrics"},{"name":"CHANMINA","role":"composition"},{"name":"SANGWOO","role":"composition"}],"sources":[{"label":"動畫官方音樂頁：第 2 期片頭曲、創作 credit、數位發行日與串流入口","url":"https://medalist-pr.com/music.html","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"動畫官方新聞頁：第 2 期無字幕片頭及片尾影片","url":"https://medalist-pr.com/news.html","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"url":"https://hana.b-rave.tokyo/music/coldnight/","label":"HANA 官方：Cold Night 第二期 OP、1月24日配信及1月28日 CD；未明示編曲","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"label":"HANA 官方影片頁：完整音樂錄影帶","url":"https://hana.b-rave.tokyo/movie/mv/","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"Apple Music 台灣","url":"https://music.apple.com/tw/album/cold-night-single/1867687784?i=1867687787","language":"zh-Hant","role":"first_party","verifiedAt":"2026-08-11"},{"label":"巴哈姆特：繁體中文作品名稱與片頭曲交叉核對","url":"https://acg.gamer.com.tw/acgDetail.php?s=144542","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-08-11"},{"label":"TVアニメ『メダリスト』公式チャンネル 官方影片","url":"https://www.youtube.com/watch?v=-hPpXrlgncE","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"HANA official 官方影片","url":"https://www.youtube.com/watch?v=y0buouJde-g","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"官方跨平台數位發行頁","url":"https://hana-brave.lnk.to/Cold_Night_DG","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"動畫官方網站","url":"https://medalist-pr.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/medalist_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-08-11"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/winter-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-08-11"},{"url":"https://www.sonymusic.com.tw/album/hana/","label":"台灣 Sony Music 官方：首張同名專輯 HANA 明示收錄 Cold Night","role":"first_party","language":"zh-Hant","verifiedAt":"2026-10-15"},{"url":"https://zh.wikipedia.org/wiki/%E9%87%91%E7%89%8C%E5%BE%97%E4%B8%BB","label":"中文維基：本期曲名、演唱與用途交叉","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://hana.b-rave.tokyo/music/coldnight/"],"verifiedAt":"2026-10-15","targetId":"medalist-2nd-season-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://hana.b-rave.tokyo/music/coldnight/"],"verifiedAt":"2026-10-15","targetId":"medalist-2nd-season-op-1"},{"target":"song","fields":["date"],"sourceUrls":["https://hana.b-rave.tokyo/music/coldnight/"],"verifiedAt":"2026-10-15","targetId":"medalist-2nd-season-op-1-song"},{"target":"link","fields":["url","type"],"sourceUrls":["https://hana.b-rave.tokyo/music/coldnight/"],"verifiedAt":"2026-10-15","targetId":"https://hana-brave.lnk.to/Cold_Night"},{"target":"release","fields":["title","type","tracklist"],"sourceUrls":["https://www.sonymusic.com.tw/album/hana/"],"verifiedAt":"2026-10-15","targetId":"hana-first-album-official-tw"},{"target":"link","fields":["url","type"],"sourceUrls":["https://www.sonymusic.com.tw/album/hana/"],"verifiedAt":"2026-10-15","targetId":"https://www.sonymusic.com.tw/album/hana/"},{"target":"song","targetId":"medalist-2nd-season-op-1-song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E9%87%91%E7%89%8C%E5%BE%97%E4%B8%BB"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"medalist-2nd-season-op-1","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E9%87%91%E7%89%8C%E5%BE%97%E4%B8%BB"],"verifiedAt":"2026-10-30"}],"releaseDate":"2026-01-24","links":[{"platform":"官方配信","label":"Cold Night 官方 CD／配信入口","url":"https://hana-brave.lnk.to/Cold_Night","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown"},{"platform":"官方配信","label":"HANA 官方商品／曲目資料","url":"https://www.sonymusic.com.tw/album/hana/","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-10-15","availability":"unknown","releaseId":"hana-first-album-official-tw"}],"releases":[{"id":"hana-first-album-official-tw","title":"HANA","artistDisplayName":"HANA","type":"album","tracks":[{"title":"Cold Night"}]}],"sourceMode":"explicit"},{"type":"ED","titleJa":"Rookies","artistDisplayName":"Conton Candy","sequence":1,"songId":"medalist-2nd-season-ed-1-song","sourceMode":"explicit","sources":[{"label":"動畫官方音樂頁：第 2 期片尾曲、數位發行日與串流入口","url":"https://medalist-pr.com/music.html","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"動畫官方新聞頁：第 2 期無字幕片頭及片尾影片","url":"https://medalist-pr.com/news.html","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"Conton Candy 官方公告：數位發行與無字幕片尾影片","url":"https://contoncandy.fanpla.jp/news/detail/67612","language":"ja","role":"first_party","verifiedAt":"2026-10-30"},{"label":"Conton Candy 官方公告：完整音樂錄影帶","url":"https://contoncandy.fanpla.jp/news/detail/68276","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"Conton Candy 官方曲目頁：數位發行日與串流入口","url":"https://contoncandy.fanpla.jp/discography/detail/6283/","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"歌ネット：作詞、作曲與編曲 credit 交叉核對","url":"https://www.uta-net.com/song/387322/","language":"ja","role":"cross_check","verifiedAt":"2026-08-11"},{"label":"Apple Music 台灣","url":"https://music.apple.com/tw/song/1867415955","language":"zh-Hant","role":"first_party","verifiedAt":"2026-08-11"},{"label":"巴哈姆特：繁體中文作品名稱與片尾曲交叉核對","url":"https://acg.gamer.com.tw/acgDetail.php?s=144542","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-08-11"},{"label":"TVアニメ『メダリスト』公式チャンネル 官方影片","url":"https://www.youtube.com/watch?v=o076YrFjZsA","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"Conton Candy 官方影片","url":"https://www.youtube.com/watch?v=8_zBmELClV8","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"官方跨平台數位發行頁","url":"https://contoncandy.lnk.to/Rookies","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"動畫官方網站","url":"https://medalist-pr.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/medalist_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-08-11"},{"label":"UZUREA 主題曲清單","url":"https://uzurea.net/winter-2026-anime-theme-songs/","language":"ja","role":"cross_check","verifiedAt":"2026-08-11"},{"url":"https://zh.wikipedia.org/wiki/%E9%87%91%E7%89%8C%E5%BE%97%E4%B8%BB","label":"中文維基：本期曲名、演唱與用途交叉","language":"zh-Hant","role":"cross_check","verifiedAt":"2026-10-30"}],"evidence":[{"target":"song","targetId":"medalist-2nd-season-ed-1-song","fields":["title","artist"],"sourceUrls":["https://contoncandy.fanpla.jp/news/detail/67612"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"medalist-2nd-season-ed-1","fields":["usage"],"sourceUrls":["https://contoncandy.fanpla.jp/news/detail/67612"],"verifiedAt":"2026-10-30"},{"target":"song","targetId":"medalist-2nd-season-ed-1-song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E9%87%91%E7%89%8C%E5%BE%97%E4%B8%BB"],"verifiedAt":"2026-10-30"},{"target":"anime_use","targetId":"medalist-2nd-season-ed-1","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E9%87%91%E7%89%8C%E5%BE%97%E4%B8%BB"],"verifiedAt":"2026-10-30"}]}],"verifiedAt":"2026-07-28","metadataVerifiedAt":"2026-08-11","metadataSources":[{"label":"動畫官方網站：作品與播出資料","url":"https://medalist-pr.com/","language":"ja","role":"first_party","verifiedAt":"2026-08-11"},{"label":"AniList：作品識別與公開圖像","url":"https://anilist.co/anime/189275","language":"en","role":"identifier","verifiedAt":"2026-08-11"},{"label":"繁體中文季度列表交叉對照","url":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","language":"zh-Hant","role":"localized_cross_check","verifiedAt":"2026-08-11"},{"label":"AnimeThemes：OP／ED 曲目交叉核對","url":"https://animethemes.moe/anime/medalist_2nd_season","language":"en","role":"theme_cross_check","verifiedAt":"2026-08-11"},{"label":"UZUREA：季度主題曲與官方影片索引","url":"https://uzurea.net/winter-2026-anime-theme-songs/","language":"ja","role":"theme_cross_check","verifiedAt":"2026-08-11"},{"label":"季度首播公開來源","url":"https://annict.com/works/2026-winter?display=list_detailed","language":"ja","role":"broadcast_cross_check","verifiedAt":"2026-08-11"},{"label":"季度首播公開來源","url":"https://bgm.tv/subject/548818","language":"zh-Hans","role":"broadcast_cross_check","verifiedAt":"2026-08-11"}]},

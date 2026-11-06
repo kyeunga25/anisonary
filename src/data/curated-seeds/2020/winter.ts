@@ -17102,63 +17102,287 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
     verifiedAt: "2026-09-02",
   },
   {
-    anilistId: 101634,
-    id: "curated-101634",
-    slug: "bang-dream-3rd-season",
-    seasonIds: ["2020-winter"],
-    startDate: "2020-01-23",
-    titleJa: "BanG Dream! 3rd Season",
-    titleZhHant: "BanG Dream！第三季",
-    titleRomaji: "BanG Dream! 3rd Season",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101634-4PSQAU2bw7s3.png",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101634-hyXv3NNQ1XnL.jpg",
-    editorialWeekday: 4,
-    broadcastLabel: "日本首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://anime.bang-dream.com/3rd/",
-    anilistUrl: "https://anilist.co/anime/101634",
-    imageSourceUrl: "https://anilist.co/anime/101634",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: [
-      "https://youranimes.tw/animes/216",
-      "https://acgsecrets.hk/anime/54/",
-      "https://annict.com/works/6039",
-    ],
-    animeThemesUrl: "https://animethemes.moe/anime/bang_dream_3rd_season",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "Initial",
-        artistDisplayName: "Poppin'Party",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "夢を撃ち抜く瞬間に！",
-        titleRomaji: "Yume o Uchinuku Shunkan ni!",
-        artistDisplayName: "Poppin'Party",
-      },
-      {
-        type: "ED",
-        sequence: 2,
-        titleJa: "FIRE BIRD",
-        artistDisplayName: "Roselia",
-      },
-      {
-        type: "ED",
-        sequence: 3,
-        titleJa: "夢を撃ち抜く瞬間に！",
-        titleRomaji: "Yume o Uchinuku Shunkan ni!",
-        artistDisplayName: "Poppin'Party×Roselia×RAISE A SUILEN",
-      },
-    ],
-    verifiedAt: "2026-09-02",
-  },
+  "anilistId": 101634,
+  "id": "curated-101634",
+  "slug": "bang-dream-3rd-season",
+  "seasonIds": [
+    "2020-winter"
+  ],
+  "startDate": "2020-01-23",
+  "titleJa": "BanG Dream! 3rd Season",
+  "titleZhHant": "BanG Dream！第三季",
+  "titleRomaji": "BanG Dream! 3rd Season",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101634-4PSQAU2bw7s3.png",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101634-hyXv3NNQ1XnL.jpg",
+  "editorialWeekday": 4,
+  "broadcastLabel": "日本首播／時間未整理",
+  "status": "finished",
+  "officialSiteUrl": "https://anime.bang-dream.com/3rd/",
+  "anilistUrl": "https://anilist.co/anime/101634",
+  "imageSourceUrl": "https://anilist.co/anime/101634",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/216",
+    "https://acgsecrets.hk/anime/54/",
+    "https://annict.com/works/6039",
+    "https://www.e-muse.com/zh/animation/202010-bang-dream-s03/"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/bang_dream_3rd_season",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "イニシャル",
+      "artistDisplayName": "Poppin'Party",
+      "id": "bang-dream-3rd-season-op-1",
+      "songId": "bang-dream-3rd-season-op-1-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://anime.bang-dream.com/3rd/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/bang_dream_3rd_season",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "Poppin'Party 授權影片",
+          "url": "https://www.youtube.com/watch?v=Yb9FzUPpk0Y",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.e-muse.com/zh/animation/202010-bang-dream-s03/",
+          "label": "木棉花版權代理：本曲原名、演唱及常規用途",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://dengekionline.com/articles/20540/",
+          "label": "電撃原期發表會：僅支持OP原名與用途，未列演唱",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.e-muse.com/zh/animation/202010-bang-dream-s03/"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "bang-dream-3rd-season-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.e-muse.com/zh/animation/202010-bang-dream-s03/"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "bang-dream-3rd-season-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://dengekionline.com/articles/20540/"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "bang-dream-3rd-season-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://dengekionline.com/articles/20540/"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "bang-dream-3rd-season-op-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence"
+          ],
+          "note": "已補常規曲第一方原名、演唱及用途；本期完整單話本體分鐘與完整獨立逐欄交叉證據仍待核，保留原形式補審。",
+          "resumeWhen": "有同版正版完整單話正文分鐘及本曲缺失交叉欄位的直接資料時續查；不以排檔槽或系列標籤代本體長度。",
+          "checkedAt": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "夢を撃ち抜く瞬間に！",
+      "titleRomaji": "Yume o Uchinuku Shunkan ni!",
+      "artistDisplayName": "Poppin'Party",
+      "id": "bang-dream-3rd-season-ed-1",
+      "songId": "bang-dream-3rd-season-ed-1-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://anime.bang-dream.com/3rd/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/bang_dream_3rd_season",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "Poppin'Party 授權影片",
+          "url": "https://www.youtube.com/watch?v=Y8-nQ9ehgZE",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.e-muse.com/zh/animation/202010-bang-dream-s03/",
+          "label": "木棉花版權代理：本曲原名、演唱及常規用途",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.e-muse.com/zh/animation/202010-bang-dream-s03/"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "bang-dream-3rd-season-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.e-muse.com/zh/animation/202010-bang-dream-s03/"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "bang-dream-3rd-season-ed-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence"
+          ],
+          "note": "已補常規曲第一方原名、演唱及用途；本期完整單話本體分鐘與完整獨立逐欄交叉證據仍待核，保留原形式補審。",
+          "resumeWhen": "有同版正版完整單話正文分鐘及本曲缺失交叉欄位的直接資料時續查；不以排檔槽或系列標籤代本體長度。",
+          "checkedAt": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "FIRE BIRD",
+      "artistDisplayName": "Roselia"
+    },
+    {
+      "type": "ED",
+      "sequence": 3,
+      "titleJa": "夢を撃ち抜く瞬間に！",
+      "titleRomaji": "Yume o Uchinuku Shunkan ni!",
+      "artistDisplayName": "Poppin'Party×Roselia×RAISE A SUILEN"
+    }
+  ],
+  "verifiedAt": "2026-09-02",
+  "metadataSources": [
+    {
+      "label": "動畫官方網站：作品與播出資料",
+      "url": "https://anime.bang-dream.com/3rd/",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "AniList：作品識別與公開圖像",
+      "url": "https://anilist.co/anime/101634",
+      "language": "en",
+      "role": "identifier",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "繁體中文季度列表交叉對照",
+      "url": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+      "language": "zh-Hant",
+      "role": "localized_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "AnimeThemes：OP／ED 曲目交叉核對",
+      "url": "https://animethemes.moe/anime/bang_dream_3rd_season",
+      "language": "en",
+      "role": "theme_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://youranimes.tw/animes/216",
+      "language": "zh-Hant",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://acgsecrets.hk/anime/54/",
+      "language": "zh-Hant",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://annict.com/works/6039",
+      "language": "ja",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "url": "https://www.e-muse.com/zh/animation/202010-bang-dream-s03/",
+      "label": "木棉花版權代理：原第三季與兩首常規主題曲",
+      "role": "first_party",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-11-05"
+    }
+  ],
+  "metadataVerifiedAt": "2026-11-05"
+},
   {
     anilistId: 114448,
     id: "curated-114448",
@@ -19335,7 +19559,9 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
   "seasonIds": [
     "2020-winter",
     "2020-summer",
-    "2021-winter"
+    "2021-winter",
+    "2020-spring",
+    "2020-fall"
   ],
   "verifiedAt": "2026-10-31",
   "metadataVerifiedAt": "2026-10-31",
@@ -19576,6 +19802,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
       "titleJa": "Stories",
       "artistDisplayName": "Snow Man",
       "seasonIds": [
+        "2020-spring",
         "2020-summer"
       ],
       "sourceMode": "explicit",
@@ -19592,7 +19819,28 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "原版第11クールOP曲名、演唱名義、用途交叉核對：中文維基百科",
           "role": "cross_check",
           "language": "multi",
-          "verifiedAt": "2026-10-31"
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://mentrecording.jp/snowman/news/detail.php?id=1082699",
+          "label": "Snow Man官方原2020/4/3公告：Stories自4/7起TV OP",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://www.animatetimes.com/news/details.php?id=1585876846",
+          "label": "Animate Times原2020/4/3報導：4/7第129話起Stories／アンサー為OP／ED",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/bclover/episodes/index_3.html",
+          "label": "テレビ東京原逐話：第141話9/1、第142話9/8、第146～150話秋季（日期證據）",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
         }
       ],
       "evidence": [
@@ -19641,19 +19889,67 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)"
           ],
           "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "black-clover-2017-op-11-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://mentrecording.jp/snowman/news/detail.php?id=1082699"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "black-clover-2017-op-11",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://mentrecording.jp/snowman/news/detail.php?id=1082699"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "song",
+          "targetId": "black-clover-2017-op-11-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1585876846"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "black-clover-2017-op-11",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1585876846"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "black-clover-2017-op-11",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/bclover/episodes/index_3.html"
+          ],
+          "verifiedAt": "2026-11-05"
         }
       ],
-      "lastVerifiedAt": "2026-10-31",
-      "followUp": [
-        {
-          "fields": [
-            "use_quarters"
-          ],
-          "note": "已確認2020年夏季片頭用途；原春季啟用與完整跨季使用範圍仍待核對。",
-          "resumeWhen": "取得原版春季啟用或其他季度逐話用曲及播出日期資料後，再補相應季度。",
-          "checkedAt": "2026-10-31"
-        }
-      ]
+      "lastVerifiedAt": "2026-11-05",
+      "usageLabel": "原TV OP11（第129～141話）；2020-04-07編排啟用，末話原播2020-09-01"
     },
     {
       "id": "black-clover-2017-ed-11",
@@ -19662,7 +19958,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
       "sequence": 11,
       "titleJa": "アンサー",
       "artistDisplayName": "花譜",
-      "seasonIds": [],
+      "seasonIds": [
+        "2020-spring",
+        "2020-summer"
+      ],
       "sourceMode": "explicit",
       "sources": [
         {
@@ -19677,7 +19976,21 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "原版第11クールED曲名、演唱名義、用途交叉核對：中文維基百科",
           "role": "cross_check",
           "language": "multi",
-          "verifiedAt": "2026-10-31"
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://www.animatetimes.com/news/details.php?id=1585876846",
+          "label": "Animate Times原2020/4/3報導：4/7第129話起Stories／アンサー為OP／ED",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_4.html",
+          "label": "テレビ東京原逐話：第133～140話為2020/7/7～8/25（日期證據）",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
         }
       ],
       "evidence": [
@@ -19726,19 +20039,44 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)"
           ],
           "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "black-clover-2017-ed-11-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1585876846"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "black-clover-2017-ed-11",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1585876846"
+          ],
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "black-clover-2017-ed-11",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_4.html"
+          ],
+          "verifiedAt": "2026-11-05"
         }
       ],
-      "lastVerifiedAt": "2026-10-31",
-      "followUp": [
-        {
-          "fields": [
-            "use_quarters"
-          ],
-          "note": "歌曲與原版片尾用途已確認，實際使用季度仍待逐話用曲及播出日期資料。",
-          "resumeWhen": "取得原版相應話數的歌曲署名與播出日期後，逐季補充本曲用途。",
-          "checkedAt": "2026-10-31"
-        }
-      ]
+      "lastVerifiedAt": "2026-11-05",
+      "usageLabel": "原TV ED11（第129～140話）；2020-04-07編排啟用，第140話原播2020-08-25"
     },
     {
       "id": "black-clover-2017-op-12",
@@ -19748,7 +20086,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
       "titleJa": "永遠に光れ(Everlasting Shine)",
       "artistDisplayName": "TOMORROW X TOGETHER",
       "seasonIds": [
-        "2020-summer"
+        "2020-summer",
+        "2020-fall"
       ],
       "sourceMode": "explicit",
       "sources": [
@@ -19764,7 +20103,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "原版第12クールOP演唱名義、用途交叉核對：中文維基百科",
           "role": "cross_check",
           "language": "multi",
-          "verifiedAt": "2026-10-31"
+          "verifiedAt": "2026-11-05"
         },
         {
           "url": "https://www.mau2.com/anime/blackclover-3",
@@ -19772,6 +20111,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/bclover/episodes/index_3.html",
+          "label": "テレビ東京原逐話：第141話9/1、第142話9/8、第146～150話秋季（日期證據）",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/bclover/episodes/index_2.html",
+          "label": "テレビ東京原逐話：第157話2020/12/22，與158話2021/1/5分開（日期證據）",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
         }
       ],
       "evidence": [
@@ -19830,19 +20183,22 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "https://www.mau2.com/anime/blackclover-3"
           ],
           "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "black-clover-2017-op-12",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/bclover/episodes/index_3.html",
+            "https://www.tv-tokyo.co.jp/anime/bclover/episodes/index_2.html"
+          ],
+          "verifiedAt": "2026-11-05"
         }
       ],
-      "lastVerifiedAt": "2026-10-31",
-      "followUp": [
-        {
-          "fields": [
-            "use_quarters"
-          ],
-          "note": "已確認2020年夏季9月啟用；其後跨季延用範圍仍待逐話核對。",
-          "resumeWhen": "取得原版後續話數的歌曲署名與播出日期後，再補相應季度；已確認的夏季用途保留。",
-          "checkedAt": "2026-10-31"
-        }
-      ]
+      "lastVerifiedAt": "2026-11-05",
+      "usageLabel": "原TV OP12（第142～157話）；原播話數2020-09-08～2020-12-22"
     },
     {
       "id": "black-clover-2017-ed-12",
@@ -19852,7 +20208,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
       "titleJa": "A Walk",
       "artistDisplayName": "梶原岳人",
       "seasonIds": [
-        "2020-summer"
+        "2020-summer",
+        "2020-fall"
       ],
       "sourceMode": "explicit",
       "sources": [
@@ -19868,7 +20225,21 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "原版第12クールED曲名、演唱名義、用途交叉核對：中文維基百科",
           "role": "cross_check",
           "language": "multi",
-          "verifiedAt": "2026-10-31"
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/bclover/episodes/index_3.html",
+          "label": "テレビ東京原逐話：第141話9/1、第142話9/8、第146～150話秋季（日期證據）",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/bclover/episodes/index_2.html",
+          "label": "テレビ東京原逐話：第157話2020/12/22，與158話2021/1/5分開（日期證據）",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-05"
         }
       ],
       "evidence": [
@@ -19917,19 +20288,22 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)"
           ],
           "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "black-clover-2017-ed-12",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/bclover/episodes/index_3.html",
+            "https://www.tv-tokyo.co.jp/anime/bclover/episodes/index_2.html"
+          ],
+          "verifiedAt": "2026-11-05"
         }
       ],
-      "lastVerifiedAt": "2026-10-31",
-      "followUp": [
-        {
-          "fields": [
-            "use_quarters"
-          ],
-          "note": "已確認2020年夏季9月啟用；其後跨季延用範圍仍待逐話核對。",
-          "resumeWhen": "取得原版後續話數的歌曲署名與播出日期後，再補相應季度；已確認的夏季用途保留。",
-          "checkedAt": "2026-10-31"
-        }
-      ]
+      "lastVerifiedAt": "2026-11-05",
+      "usageLabel": "原TV ED12（第141～157話）；原播話數2020-09-01～2020-12-22"
     },
     {
       "id": "black-clover-2017-op-13",
@@ -20087,9 +20461,292 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
     }
   ]
 },
+{
+  "catalogKey": -2020011401,
+  "id": "curated-gonzo-7seeds-tv-2020",
+  "slug": "7seeds-tv-2020",
+  "seasonIds": [
+    "2020-winter"
+  ],
+  "verifiedAt": "2026-11-05",
+  "metadataVerifiedAt": "2026-11-05",
+  "titleJa": "7SEEDS",
+  "startDate": "2020-01-14",
+  "editorialWeekday": 2,
+  "broadcastTimeJst": "23:00",
+  "broadcastLabel": "原第1期第1–12話2019-06-28先於Netflix配信；日本TV自2020-01-14起TOKYO MX週二23:00（JST）、BSフジ節目日週二24:00。此入口日期為首次TV；同第1期官方重播表明列12個獨立30分鐘槽，1月首輪結束時刻與淨片長仍待核；與第2期分開。",
+  "status": "finished",
+  "officialSiteUrl": "https://www.gonzo.co.jp/works/7seeds/index.html",
+  "identifierSource": {
+    "url": "https://www.gonzo.co.jp/works/7seeds/index.html",
+    "label": "GONZO官方：7SEEDS原第1期作品識別及音樂",
+    "language": "ja"
+  },
+  "sourceReferenceUrls": [
+    "https://flowers.shogakukan.co.jp/migration/news/news_20191228b.html",
+    "https://7seeds.jp/news/38.php",
+    "https://www.animatetimes.com/news/details.php?id=1574831139"
+  ],
+  "metadataSources": [
+    {
+      "url": "https://www.gonzo.co.jp/works/7seeds/index.html",
+      "label": "GONZO官方：原第1期作品、音樂與2019配信資料",
+      "language": "ja",
+      "role": "identifier",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://flowers.shogakukan.co.jp/migration/news/news_20191228b.html",
+      "label": "小学館官方：第1期第1–12話與2020首次TV對應",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://7seeds.jp/news/38.php",
+      "label": "動畫官方：同第1期12個獨立30分鐘重播槽；不作1月首輪結束時刻",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://www.animatetimes.com/news/details.php?id=1574831139",
+      "label": "第1期2020 TV開始日期／時刻及音樂交叉核對",
+      "language": "ja",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-11-05"
+    }
+  ],
+  "themes": [
+    {
+      "id": "7seeds-tv-2020-op-1",
+      "songId": "7seeds-tv-2020-op-1-song",
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "Ark",
+      "artistDisplayName": "天月-あまつき-",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "usageLabel": "原系列第1期・2020年日本TV放送版",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.gonzo.co.jp/works/7seeds/index.html",
+          "label": "第1期官方音樂：曲名、演唱及OP／ED用途",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://www.animatetimes.com/news/details.php?id=1574831139",
+          "label": "2020 TV原系列曲名、完整演唱名義及OP／ED交叉核對",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://flowers.shogakukan.co.jp/migration/news/news_20191228b.html",
+          "label": "原系列與2020年TV播出對應：第一方公告",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "credits": [
+        {
+          "name": "天月-あまつき-",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.gonzo.co.jp/works/7seeds/index.html"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "7seeds-tv-2020-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.gonzo.co.jp/works/7seeds/index.html",
+            "https://flowers.shogakukan.co.jp/migration/news/news_20191228b.html"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "7seeds-tv-2020-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1574831139"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "7seeds-tv-2020-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1574831139"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "7seeds-tv-2020-op-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters"
+          ],
+          "note": "已確認所列2020 TV首播季度；其他季度逐曲用途尚未核對，不由集數、重播或商品日期擴張。",
+          "resumeWhen": "有第一方逐話日期及本曲實際用途，或明確續用公告時補入其他季度。",
+          "checkedAt": "2026-11-05"
+        },
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "本次核對曲名、演唱與TV用途；音源版本、影片形式、完整發行品及確切正版平台仍未整理。",
+          "resumeWhen": "進入詳細資料階段後，依本曲正式音源、影片、發行品及平台目的頁補入。"
+        }
+      ]
+    },
+    {
+      "id": "7seeds-tv-2020-ed-1",
+      "songId": "7seeds-tv-2020-ed-1-song",
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "WISH",
+      "artistDisplayName": "majiko",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "usageLabel": "原系列第1期・2020年日本TV放送版",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.gonzo.co.jp/works/7seeds/index.html",
+          "label": "第1期官方音樂：曲名、演唱及OP／ED用途",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://www.animatetimes.com/news/details.php?id=1574831139",
+          "label": "2020 TV原系列曲名、完整演唱名義及OP／ED交叉核對",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://flowers.shogakukan.co.jp/migration/news/news_20191228b.html",
+          "label": "原系列與2020年TV播出對應：第一方公告",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-05"
+        }
+      ],
+      "credits": [
+        {
+          "name": "majiko",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.gonzo.co.jp/works/7seeds/index.html"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "7seeds-tv-2020-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.gonzo.co.jp/works/7seeds/index.html",
+            "https://flowers.shogakukan.co.jp/migration/news/news_20191228b.html"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "7seeds-tv-2020-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1574831139"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "7seeds-tv-2020-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1574831139"
+          ],
+          "verifiedAt": "2026-11-05",
+          "targetId": "7seeds-tv-2020-ed-1"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters"
+          ],
+          "note": "已確認所列2020 TV首播季度；其他季度逐曲用途尚未核對，不由集數、重播或商品日期擴張。",
+          "resumeWhen": "有第一方逐話日期及本曲實際用途，或明確續用公告時補入其他季度。",
+          "checkedAt": "2026-11-05"
+        },
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "releases",
+            "platform_links",
+            "platform_availability"
+          ],
+          "note": "本次核對曲名、演唱與TV用途；音源版本、影片形式、完整發行品及確切正版平台仍未整理。",
+          "resumeWhen": "進入詳細資料階段後，依本曲正式音源、影片、發行品及平台目的頁補入。"
+        }
+      ]
+    }
+  ]
+},
 ];
 
 export const curated2020WinterSeeds: CuratedCatalogAnimeSeed[] =
   curated2020WinterSeedRows;
 
-export const curated2020WinterAnimeIds = [113472,112625,108092,105190,114417,104051,110090,113469,101350,104461,109298,110350,114657,101367,112293,113397,113851,114656,106479,108628,113463,98515,101168,106863,107420,108450,111951,113470,104391,104462,108463,108617,109964,99807,104936,106625,107067,110495,110613,111501,107201,105228,110615,107651,110178,113932,101634,114448,112033,112748,109586,117280,115794,110354,115519,112686,116979,131459,8687,966,6149,-201723701];
+export const curated2020WinterAnimeIds = [113472,112625,108092,105190,114417,104051,110090,113469,101350,104461,109298,110350,114657,101367,112293,113397,113851,114656,106479,108628,113463,98515,101168,106863,107420,108450,111951,113470,104391,104462,108463,108617,109964,99807,104936,106625,107067,110495,110613,111501,107201,105228,110615,107651,110178,113932,101634,114448,112033,112748,109586,117280,115794,110354,115519,112686,116979,131459,8687,966,6149,-201723701,-2020011401];

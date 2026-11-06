@@ -7424,13 +7424,13 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
       "2026-fall"
     ],
     "verifiedAt": "2026-10-19",
-    "metadataVerifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-11-05",
     "startDate": "2026-10-14",
     "titleJa": "DARK MACHINE THE ANIMATION",
     "titleRomaji": "DARK MACHINE: The Animation",
     "editorialWeekday": 2,
     "broadcastTimeJst": "25:45",
-    "broadcastLabel": "2026-10-14 起・TV・25:45（JST）・フジテレビ・節目表10月13日深夜（實際10月14日）",
+    "broadcastLabel": "日本TV：富士電視台週二25:45–26:15（JST）。首回編排10月13日深夜，曆日2026年10月14日01:45",
     "status": "airing",
     "officialSiteUrl": "https://www.fujitv.co.jp/darkmachine_anime/",
     "anilistUrl": "https://anilist.co/anime/179876",
@@ -7565,6 +7565,133 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
             "verifiedAt": "2026-10-19"
           }
         ]
+      },
+      {
+        "id": "dark-machine-the-animation-in-1",
+        "songId": "dark-machine-the-animation-in-1-song",
+        "type": "IN",
+        "sequence": 1,
+        "titleJa": "Pitch Black",
+        "artistDisplayName": "STELLATUS",
+        "sourceMode": "explicit",
+        "seasonIds": [],
+        "sources": [
+          {
+            "url": "https://sugizo.com/contents/451817",
+            "label": "原聲帶製作方公告：本作插曲、演唱與三名參與歌手",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-05"
+          },
+          {
+            "url": "https://mikiki.tokyo.jp/articles/-/46388",
+            "label": "Mikiki：插曲曲名、STELLATUS演唱及用途交叉核對",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-11-05"
+          }
+        ],
+        "credits": [
+          {
+            "name": "東山奈央",
+            "role": "vocals"
+          },
+          {
+            "name": "中島怜",
+            "role": "vocals"
+          },
+          {
+            "name": "大渕野々花",
+            "role": "vocals"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-05",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "dark-machine-the-animation-in-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://sugizo.com/contents/451817",
+              "https://mikiki.tokyo.jp/articles/-/46388"
+            ],
+            "verifiedAt": "2026-11-05"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "dark-machine-the-animation-in-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://sugizo.com/contents/451817",
+              "https://mikiki.tokyo.jp/articles/-/46388"
+            ],
+            "verifiedAt": "2026-11-05"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://sugizo.com/contents/451817",
+              "https://mikiki.tokyo.jp/articles/-/46388"
+            ],
+            "verifiedAt": "2026-11-05"
+          }
+        ],
+        "usageLabel": "插曲",
+        "followUp": [
+          {
+            "fields": [
+              "use_quarters"
+            ],
+            "note": "2026年10月14日原聲帶公告已確認本曲為本作插曲，實際使用話數及播出日期待核。",
+            "resumeWhen": "官方逐話音樂欄或本版原片字幕明列採用話數後，再核同話首播及用途季度。",
+            "checkedAt": "2026-11-05"
+          }
+        ]
+      }
+    ],
+    "metadataSources": [
+      {
+        "label": "動畫官方網站：作品與播出資料",
+        "url": "https://www.fujitv.co.jp/darkmachine_anime/",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "label": "AniList：作品識別與公開圖像",
+        "url": "https://anilist.co/anime/179876",
+        "language": "en",
+        "role": "identifier",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "url": "https://www.fujitv.co.jp/fujitv/news/20260949.html",
+        "label": "富士電視台：日本TV初回與通常30分鐘節目槽",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-11-05"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://youranimes.tw/bangumi/202610",
+        "language": "zh-Hant",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://mikiki.tokyo.jp/articles/-/46275",
+        "language": "ja",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-10-19"
       }
     ]
   },
@@ -10464,8 +10591,563 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
     ],
     "themeAvailability": "pending_verification",
     "themes": []
+  },
+  {
+    "catalogKey": -3000029315,
+    "identifierSource": {
+      "url": "https://www.tv-tokyo.co.jp/anime/aikatsu/",
+      "language": "ja",
+      "label": "東京電視台：2026安可放送版識別"
+    },
+    "id": "curated-tvtokyo-aikatsu-encore-2026",
+    "slug": "aikatsu-encore-2026",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-11-05",
+    "metadataVerifiedAt": "2026-11-05",
+    "startDate": "2026-10-09",
+    "titleJa": "アイカツ！アンコール",
+    "editorialWeekday": 5,
+    "broadcastTimeJst": "18:25",
+    "broadcastLabel": "日本TV安可放送版：2026年10月9日起週五18:25（JST），東京電視台系。首回18:25–18:55。2012年首季重播另配全新OP／ED",
+    "status": "airing",
+    "officialSiteUrl": "https://www.aikatsu.net/01/encore/index.html",
+    "sourceReferenceUrls": [
+      "https://www.animatetimes.com/news/details.php?id=1788226662"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://www.aikatsu.net/01/encore/index.html",
+        "label": "作品官方：原作安可放送與新OP／ED",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-11-05"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202610/29315_202610091825.html",
+        "label": "東京電視台：安可版第1話日期與30分鐘節目槽",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-11-05"
+      }
+    ],
+    "themes": [
+      {
+        "id": "aikatsu-encore-2026-op-1",
+        "songId": "aikatsu-encore-2026-op-1-song",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "AIKATSU！× AIKATSU！",
+        "artistDisplayName": "わか・ふうり・ゆな",
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sources": [
+          {
+            "url": "https://www.aikatsu.net/01/encore/index.html",
+            "label": "作品官方：安可版專用曲名、演唱及創作",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-05"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202610/29315_202610091825.html",
+            "label": "東京電視台：安可版第1話的OP／ED與播出日",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-05"
+          },
+          {
+            "url": "https://www.animatetimes.com/news/details.php?id=1788226662",
+            "label": "Animate Times：安可版曲名、名義及用途交叉核對",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-11-05"
+          }
+        ],
+        "credits": [
+          {
+            "name": "わか",
+            "role": "vocals"
+          },
+          {
+            "name": "ふうり",
+            "role": "vocals"
+          },
+          {
+            "name": "ゆな",
+            "role": "vocals"
+          },
+          {
+            "name": "こだまさおり",
+            "role": "lyrics"
+          },
+          {
+            "name": "石濱 翔",
+            "role": "composition"
+          },
+          {
+            "name": "石濱 翔",
+            "role": "arrangement"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-05",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "aikatsu-encore-2026-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.aikatsu.net/01/encore/index.html",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202610/29315_202610091825.html",
+              "https://www.animatetimes.com/news/details.php?id=1788226662"
+            ],
+            "verifiedAt": "2026-11-05"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "aikatsu-encore-2026-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.aikatsu.net/01/encore/index.html",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202610/29315_202610091825.html",
+              "https://www.animatetimes.com/news/details.php?id=1788226662"
+            ],
+            "verifiedAt": "2026-11-05"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "aikatsu-encore-2026-op-1",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202610/29315_202610091825.html"
+            ],
+            "verifiedAt": "2026-11-05"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.aikatsu.net/01/encore/index.html"
+            ],
+            "verifiedAt": "2026-11-05"
+          }
+        ]
+      },
+      {
+        "id": "aikatsu-encore-2026-ed-1",
+        "songId": "aikatsu-encore-2026-ed-1-song",
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "アイカツ！INVITATION",
+        "artistDisplayName": "わか・ふうり・ゆな・れみ・えり・りすこ",
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sources": [
+          {
+            "url": "https://www.aikatsu.net/01/encore/index.html",
+            "label": "作品官方：安可版專用曲名、演唱及創作",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-05"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202610/29315_202610091825.html",
+            "label": "東京電視台：安可版第1話的OP／ED與播出日",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-05"
+          },
+          {
+            "url": "https://www.animatetimes.com/news/details.php?id=1788226662",
+            "label": "Animate Times：安可版曲名、名義及用途交叉核對",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-11-05"
+          }
+        ],
+        "credits": [
+          {
+            "name": "わか",
+            "role": "vocals"
+          },
+          {
+            "name": "ふうり",
+            "role": "vocals"
+          },
+          {
+            "name": "ゆな",
+            "role": "vocals"
+          },
+          {
+            "name": "れみ",
+            "role": "vocals"
+          },
+          {
+            "name": "えり",
+            "role": "vocals"
+          },
+          {
+            "name": "りすこ",
+            "role": "vocals"
+          },
+          {
+            "name": "只野菜摘",
+            "role": "lyrics"
+          },
+          {
+            "name": "瀬尾祥太郎",
+            "role": "composition"
+          },
+          {
+            "name": "瀬尾祥太郎",
+            "role": "arrangement"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-05",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "aikatsu-encore-2026-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.aikatsu.net/01/encore/index.html",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202610/29315_202610091825.html",
+              "https://www.animatetimes.com/news/details.php?id=1788226662"
+            ],
+            "verifiedAt": "2026-11-05"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "aikatsu-encore-2026-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.aikatsu.net/01/encore/index.html",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202610/29315_202610091825.html",
+              "https://www.animatetimes.com/news/details.php?id=1788226662"
+            ],
+            "verifiedAt": "2026-11-05"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "aikatsu-encore-2026-ed-1",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202610/29315_202610091825.html"
+            ],
+            "verifiedAt": "2026-11-05"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.aikatsu.net/01/encore/index.html"
+            ],
+            "verifiedAt": "2026-11-05"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "catalogKey": -3000027702,
+    "identifierSource": {
+      "url": "https://www.fujitv.co.jp/b_hp/digimon_selection/index.html",
+      "language": "ja",
+      "label": "富士電視台：2026數碼寶貝精選版識別"
+    },
+    "id": "curated-fujitv-digimon-best-adventure-selection",
+    "slug": "digimon-best-adventure-selection",
+    "seasonIds": [
+      "2026-fall"
+    ],
+    "verifiedAt": "2026-11-05",
+    "metadataVerifiedAt": "2026-11-05",
+    "startDate": "2026-10-04",
+    "titleJa": "僕らが選んだベストアドベンチャー",
+    "editorialWeekday": 7,
+    "broadcastTimeJst": "09:00",
+    "broadcastLabel": "日本TV重製精選版：2026年10月4日起週日09:00–09:30（JST），富士電視台。歷代篇章選集另配本節目專用OP／ED",
+    "status": "airing",
+    "sourceReferenceUrls": [
+      "https://www.animatetimes.com/news/details.php?id=1791108615"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://www.fujitv.co.jp/fujitv/news/20260950.html",
+        "label": "富士電視台：重製精選版原公告及30分鐘節目槽",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-05"
+      },
+      {
+        "url": "https://prtimes.jp/main/html/rd/p/000000126.000160365.html",
+        "label": "東映動畫：精選節目與原系列的版本關係",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-05"
+      }
+    ],
+    "themes": [
+      {
+        "id": "digimon-best-adventure-selection-op-1",
+        "songId": "digimon-best-adventure-selection-op-1-song",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "SHAKARIKI!!",
+        "artistDisplayName": "宮﨑歩・谷本貴義",
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sources": [
+          {
+            "url": "https://www.fujitv.co.jp/fujitv/news/20260950.html",
+            "label": "富士電視台：精選版TV節目槽及OP／ED",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-05"
+          },
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000000126.000160365.html",
+            "label": "東映動畫10月4日公告：精選版主題曲及創作名單",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-05"
+          },
+          {
+            "url": "https://columbia.jp/prod-info/COKM-46927/",
+            "label": "日本哥倫比亞：兩首TV size及正式演唱名義",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-05"
+          },
+          {
+            "url": "https://www.animatetimes.com/news/details.php?id=1791108615",
+            "label": "Animate Times：播出及兩首主題曲交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-05"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-05",
+        "credits": [
+          {
+            "name": "宮﨑歩",
+            "role": "vocals"
+          },
+          {
+            "name": "谷本貴義",
+            "role": "vocals"
+          },
+          {
+            "name": "山田ひろし",
+            "role": "lyrics"
+          },
+          {
+            "name": "太田美知彦",
+            "role": "composition"
+          },
+          {
+            "name": "谷本貴義",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "digimon-best-adventure-selection-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.fujitv.co.jp/fujitv/news/20260950.html",
+              "https://columbia.jp/prod-info/COKM-46927/",
+              "https://www.animatetimes.com/news/details.php?id=1791108615"
+            ],
+            "verifiedAt": "2026-11-05"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "digimon-best-adventure-selection-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.fujitv.co.jp/fujitv/news/20260950.html",
+              "https://prtimes.jp/main/html/rd/p/000000126.000160365.html",
+              "https://www.animatetimes.com/news/details.php?id=1791108615"
+            ],
+            "verifiedAt": "2026-11-05"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "digimon-best-adventure-selection-op-1",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.fujitv.co.jp/fujitv/news/20260950.html",
+              "https://prtimes.jp/main/html/rd/p/000000126.000160365.html"
+            ],
+            "verifiedAt": "2026-11-05"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000000126.000160365.html",
+              "https://columbia.jp/prod-info/COKM-46927/"
+            ],
+            "verifiedAt": "2026-11-05"
+          }
+        ]
+      },
+      {
+        "id": "digimon-best-adventure-selection-ed-1",
+        "songId": "digimon-best-adventure-selection-ed-1-song",
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "Limitless Dreams",
+        "artistDisplayName": "宮﨑歩・谷本貴義",
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sources": [
+          {
+            "url": "https://www.fujitv.co.jp/fujitv/news/20260950.html",
+            "label": "富士電視台：精選版TV節目槽及OP／ED",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-05"
+          },
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000000126.000160365.html",
+            "label": "東映動畫10月4日公告：精選版主題曲及創作名單",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-05"
+          },
+          {
+            "url": "https://columbia.jp/prod-info/COKM-46927/",
+            "label": "日本哥倫比亞：兩首TV size及正式演唱名義",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-05"
+          },
+          {
+            "url": "https://www.animatetimes.com/news/details.php?id=1791108615",
+            "label": "Animate Times：播出及兩首主題曲交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-05"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-05",
+        "credits": [
+          {
+            "name": "宮﨑歩",
+            "role": "vocals"
+          },
+          {
+            "name": "谷本貴義",
+            "role": "vocals"
+          },
+          {
+            "name": "山田ひろし",
+            "role": "lyrics"
+          },
+          {
+            "name": "太田美知彦",
+            "role": "composition"
+          },
+          {
+            "name": "谷本貴義",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "digimon-best-adventure-selection-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.fujitv.co.jp/fujitv/news/20260950.html",
+              "https://columbia.jp/prod-info/COKM-46927/",
+              "https://www.animatetimes.com/news/details.php?id=1791108615"
+            ],
+            "verifiedAt": "2026-11-05"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "digimon-best-adventure-selection-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.fujitv.co.jp/fujitv/news/20260950.html",
+              "https://prtimes.jp/main/html/rd/p/000000126.000160365.html",
+              "https://www.animatetimes.com/news/details.php?id=1791108615"
+            ],
+            "verifiedAt": "2026-11-05"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "digimon-best-adventure-selection-ed-1",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.fujitv.co.jp/fujitv/news/20260950.html",
+              "https://prtimes.jp/main/html/rd/p/000000126.000160365.html"
+            ],
+            "verifiedAt": "2026-11-05"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000000126.000160365.html",
+              "https://columbia.jp/prod-info/COKM-46927/"
+            ],
+            "verifiedAt": "2026-11-05"
+          }
+        ]
+      }
+    ]
   }
 ];
 
 // Continuing works retain their original seed and public identity.
-export const curated2026FallAnimeIds: number[] = [...([191788, 189123, 205909, 199426, 206401, 159042, 172192, 185756, 187402, 195604, 213805, 176314, 209502, 206949, 160803, 152677, 180894, 209872, 178868, 207191, 191656, 202250, 209463, 187316, 205896, 186742, 178083, 169581, 186541, 200455, 202079, 211778, 209499, 204389, 195571, 216557, 212888, 204011, 212799, 195516, 179876, 187990, 199007, 199068, 199594, 200294, 204650, 207329, 209562, 212503, 213068, 206814, 177634, 178749, 182578, 180082, 180136, 203490, 209219, 166443, 216895, -559080, 188034, 203473, 206523, -2000017136, 235, 202957, 158871, 142274, 8687, 966, 6149]), 176509];
+export const curated2026FallAnimeIds: number[] = [...([191788, 189123, 205909, 199426, 206401, 159042, 172192, 185756, 187402, 195604, 213805, 176314, 209502, 206949, 160803, 152677, 180894, 209872, 178868, 207191, 191656, 202250, 209463, 187316, 205896, 186742, 178083, 169581, 186541, 200455, 202079, 211778, 209499, 204389, 195571, 216557, 212888, 204011, 212799, 195516, 179876, 187990, 199007, 199068, 199594, 200294, 204650, 207329, 209562, 212503, 213068, 206814, 177634, 178749, 182578, 180082, 180136, 203490, 209219, 166443, 216895, -559080, 188034, 203473, 206523, -2000017136, 235, 202957, 158871, 142274, 8687, 966, 6149]), 176509, -3000029315, -3000027702, 182616, 210031];
