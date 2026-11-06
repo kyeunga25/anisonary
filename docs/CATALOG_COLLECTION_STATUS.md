@@ -11,13 +11,13 @@
 | 長期目標 | 收集近二十年的動畫歌曲、創作團隊、音源版本、來源、官方影片、收錄發行品與正版平台資訊 |
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED，已確認插曲一併記錄；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2020–2026標準季度TV的動畫及歌曲基本資料優先，按2026 → 2020、各年秋 → 夏 → 春 → 冬補漏。先處理可快速核實的原名、季度／首播、演唱名義、OP／ED用途及來源；創作、影片、音源、發行品及平台集中深化留待下一階段。約24分鐘、常見12／24集，13／26集及同類續播納入；長篇以2020–2026的TV用曲季度盤點，不以作品首播年自動排除；短WEB、泡麵番、短篇TV及特殊番延後，既有成果保留 |
-| 本輪目標 | 第285批優先核對《クレバテスⅡ》《花織さんは転生しても喧嘩がしたい》《天は赤い河のほとり》等2026夏季標準TV作品，依同版完整編成、歌曲及實際用途證據補缺；固定2007–2026及2026-10-14資料截止日。 |
-| 下批位置 | 第286批接續2026夏《ぐらんぶる Season 3》與《片田舎のおっさん、剣聖になるII》。已定位U-NEXT同版正片及BS朝日完整原播時段，續核歌曲及用途；其他封頂項目仍須直接新證據。 |
+| 本輪目標 | 第286批核對《ぐらんぶる Season 3》《片田舎のおっさん、剣聖になるII》及有新直接證據的2026夏季標準TV作品，補原播、同版正片、OP／ED和已證實的逐話用途。固定2007–2026及2026-10-14資料截止日。 |
+| 下批位置 | 第287批先核《名探偵コナン》OP第61／62首的夏季逐話輪替，並對帳《文豪ストレイドッグス わん！2》同版片長。其後續查2026春《お隣の天使様》第2期及《自動販売機》第3期，已有正版同版及獨立曲表線索。 |
 | 完成條件 | 各季有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替；基本資料經公開JSON、頁面及必要檢查驗證，歌單與詳情保持易瀏覽；每筆用途保存現有欄位狀態、未記錄項目及已知續查條件，與完整收齊及來源日期分開。詳細欄位缺少不阻擋基本資料。作品聯集未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件；2020–2026基本盤點及缺口對帳完成後，按季度倒序接續2019–2007，再依已登記缺口分階段深化詳細欄位。未解必要缺口仍標示未完成，不宣稱所有動畫種類或詳細資料齊備 |
-| 執行狀態 | 第285批已本機驗證，待發布集合20／100。正式歌曲資料與網站基線仍為第284批。標準TV基本、詳細及長期目標未完成。 |
+| 執行狀態 | 第286批已本機驗證，待發布集合38／100。正式歌曲資料與網站基線為第284批。標準TV基本、詳細及長期目標未完成。 |
 | 接續位置 | 正式歌曲資料及網站基線 `c366098696c7130992c18ac3e42981686ce39d5f`／`batch284-basics`／[PR #275](https://github.com/kyeunga25/anisonary/pull/275)。 |
 | 發布提交 | 第284批正式 Workers 版本 `0b636d9f-dc06-4700-8aaf-4dbb89262419`；預覽與正式環境各2,103份JSON及90項路由／標頭檢查通過，GitHub quality、Workers Builds、瀏覽器及正式API契約通過。以下舊發布前記錄保留為歷史。 |
-| 本機提交 | 第285批補齊6部作品的14筆既有片頭／片尾基本證據，新增6筆已證實插曲。保留既有ID，保存分類提交及可還原備份。 |
+| 本機提交 | 第286批補齊8部標準TV作品16筆既有主題曲，新增一筆特殊片尾及一筆插曲，另核定一部短篇。保留原有ID，保存分類提交與可還原備份。 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
 執行狀態使用「未開始／執行中／已暫停／已完成／已取消」；無法繼續時另記具體阻礙及仍未完成部分，不自動標記完成。長期目標與本次工作量分開，未指定本次工作量時先完成下一批。
@@ -15490,3 +15490,26 @@ WEP的[官方原期STREAMING](https://wonder-egg-priority.com/streaming/)明dア
 本機27項單元、型別與建置、CSP、Service Worker、統計及公開邊界通過。其餘2,066部作品、28季JSON雜湊相同。瀏覽器核對20張展開歌曲卡、夏秋兩季40個歌單納入／排除結果、秋季作品海報、6次手機鍵盤海報導覽及同意前零YouTube請求。第三方海報使用測試替身。
 
 本機名冊2,072作、4,999用途、4,293歌曲ID、2,707季度引用。基本待補1,122、僅季度待核293，共1,415筆必需用途待辦。動畫待補1,021作，其中663作已有用途待補、358作尚待收錄或分類，另2作不設獨立OP／ED。20筆實質用途更新均計入第284批正式基線之後的待發布集合。
+
+### 第286批：2026夏季八部標準TV、兩筆特殊用途與短篇核定（2026-11-07）
+
+固定2007–2026及2026-10-14資料截止。16筆既有OP／ED補齊基本證據，保留作品、歌曲及用途ID。正片時間、TV編成、配信及不同版本分開記錄。
+
+| 作品 ID | 用途 ID（前綴） | 核對結果 |
+| --- | --- | --- |
+| `curated-199111` | `grand-blue-season-3` | U-NEXT第3期首三話各24分鐘。OP-1〈夏子〉／FUNKY MONKEY BΛBY'S、ED-1〈裸のマーメード〉／豆柴の大群，第12話亦列兩首。[正版片長](https://www.video.unext.jp/title/SID0305815)、[第3期放送](https://grandblue-anime.com/news/index00700000.html)、[第12話曲表](https://www.mau2.com/anime/guranburu-3/ep/12) |
+| `curated-194829` | `katainaka-no-ossan-kensei-ni-naru-ii` | BS朝日第3至12話週日23:30–24:00，9月27日列最終話。OP-1〈クレナイノハ〉／ユニコーン、ED-1〈未完成〉／BLUE ENCOUNT。[BS朝日](https://www.bs-asahi.co.jp/ossan-kensei/lineup/)、[官方曲表](https://www.ossan-kensei.com/music/index.html) |
+| `curated-187260` | `kimi-ga-shinu-made-koi-wo-shitai` | Hulu同版首三話各23分鐘。OP-1〈Amore〉／ReoNa、ED-1〈エテルネル〉／sajou no hana。另一版片頭動畫沿用同一首〈Amore〉，沿用原歌曲及用途。[正版片長](https://www.hulu.jp/i-want-to-love-you-till-your-dying-day/assets)、[製作方曲表](https://prtimes.jp/main/html/rd/p/000000163.000086721.html)、[另一版片頭](https://www.kimishinu-anime.com/story/op2/) |
+| `curated-196356` | `ibitte-konai-gibo-to-gishi` | BS朝日首話及常規週日25:00–25:30，部分話數調動另保留。OP-1〈雨宿りの憧憬〉／Lia、ED-1〈クレール〉／AVAM。[BS朝日逐話](https://www.bs-asahi.co.jp/ibikona-anime/lineup/)、[官方曲表](https://ibikona-anime.com/) |
+| `curated-169583` | `tenkousaki-no-seiso-karen-na-bishoujo-ga-mukashi-danshi-to-omotte-issho-ni-asonda-osananaj` | U-NEXT同版首三話各24分鐘。OP-1〈夏に重ねて〉／DIALOGUE＋、ED-1〈Tilt〉／harmoe。[正版片長](https://www.video.unext.jp/title/SID0305838)、[官方曲表](https://tenbin-anime.asmik-ace.co.jp/music/) |
+| `curated-188525` | `kore-kaite-shine` | Hulu同版第1話22分鐘，第2、3話各23分鐘。OP-1〈遺書〉／キタニタツヤ、ED-1〈コニファー〉／リーガルリリー。[正版片長](https://www.hulu.jp/draw-this-then-die/assets)、[VAP官方曲表](https://www.vap.co.jp/korekaite-shine/music/) |
+| `curated-169582` | `saikyou-degarashi-ouji` | U-NEXT同版首三話各24分鐘，首播與先行配信分列。OP-1〈Script〉／BUDDiiS、ED-1〈素敵なかんちがい〉／くらわん。沿用既有短網址及用途ID。[正版片長](https://www.video.unext.jp/title/SID0305837)、[官方片頭片尾公告](https://degarashiouji.com/91/) |
+| `curated-188139` | `futsutsuka-na-akujo-de-wa-gozaimasu-ga-suuguu-chouso-torikae-den` | 東京電視台首兩話週日23:45–24:15，播前特番另計。OP-1〈Sunny〉／milet、ED-1〈ホウキボシ〉／ロクデナシ。[第1話編成及曲表](https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202607/29209_202607122345.html)、[第2話編成](https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202607/29209_202607192345.html) |
+
+- 新增 `kimi-ga-shinu-made-koi-wo-shitai-ed-2`〈スターチス〉，リジィ・セイラン（CV：瀬戸麻沙美）、モード・アリ（CV：石川由依），第7、8話特殊片尾；新增 `kimi-ga-shinu-made-koi-wo-shitai-in-1`〈Cookie＆Cream〉，トツキ・シーナ（CV：高橋李依）、カガリ・ミミ（CV：日高里菜），第12話插曲。兩筆各新增歌曲ID。採官方故事頁的原名及角色署名，錄音、發行關係及媒體留待深化。[官方特殊片尾](https://www.kimishinu-anime.com/story/ed2/)、[官方插曲](https://www.kimishinu-anime.com/story/is/)、[逐話用曲索引](https://cal.syoboi.jp/tid/7910)
+- `curated-207674`《うしろの正面カムイさん》Hulu放送版首三話各12分鐘，列為短篇。既有OP／ED和兩筆基本待核保留，與其他版本及迷你動畫分列。本項只有分類與播出說明，排除於發布門檻。[正版放送版片長](https://www.hulu.jp/kamui-hes-behind-you/assets)
+- 《ぐらんぶる Season 3》最終話另有劇中歌曲線索。待直接可回查的正式逐曲用途及演唱／演奏署名，版本未知。
+
+本機27項單元、型別、靜態建置、CSP、Service Worker、公開邊界與統計通過。其餘2,063部作品及29季JSON雜湊相同。瀏覽器核對18張展開歌曲卡、36個夏秋歌單納入／排除結果、9次手機鍵盤海報導覽及同意前零YouTube請求。第三方海報使用測試替身。
+
+本機名冊2,072作、5,001用途、4,295歌曲ID、2,707季度引用。基本待補1,106、僅季度待核293，共1,399筆必需用途待辦。動畫待補1,013作，其中655作已有用途待補、358作尚待收錄或分類，另2作不設獨立OP／ED。18筆實質用途更新納入待發布集合，20→38／100。
