@@ -1521,6 +1521,24 @@ export const curated2025SummerThemeVideos = {
       officialStatus: "official",
       embeddable: true,
     },
+    {
+      youtubeVideoId: "EFtH1vL2TZM",
+      title: "TVアニメ『うたごえはミルフィーユ』ノンクレジットオープニング映像",
+      type: "creditless_op",
+      channelName: "うたごえはミルフィーユ",
+      officialStatus: "official",
+      embeddable: false,
+    },
+  ],
+  "166215:IN:1": [
+    {
+      youtubeVideoId: "RnTKXH9sSuI",
+      title: "TVアニメ『うたごえはミルフィーユ』第6話ガーネット アカペラ収録風景",
+      type: "other",
+      channelName: "うたごえはミルフィーユ",
+      officialStatus: "official",
+      embeddable: false,
+    },
   ],
   "183128:OP:1": [
     {
@@ -2456,6 +2474,16 @@ export const curated2025SummerThemeVideos = {
       channelName: "汐れいら",
       officialStatus: "official",
       embeddable: true,
+    },
+  ],
+  "181444:IN:2": [
+    {
+      youtubeVideoId: "PvU2WPw6DoI",
+      title: "TVアニメ『薫る花は凛と咲く』最終話放送記念スペシャルムービー",
+      type: "other",
+      channelName: "アニプレックス チャンネル",
+      officialStatus: "official",
+      embeddable: false,
     },
   ],
   "178025:OP:1": [

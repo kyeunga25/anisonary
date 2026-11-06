@@ -346,7 +346,7 @@ export const curated2023FallSeeds: CuratedAnimeSeed[] = [
   }
 ],
     "id": "beyblade-x-ed-3"
-},{"type":"OP","sequence":4,"titleJa":"Invincible","artistDisplayName":"i-dle","sourceMode":"explicit","sources":[{"label":"動畫官方網站","url":"https://beyblade.takaratomy.co.jp/anime/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/beyblade_x","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://beyblade.takaratomy.co.jp/anime/music/","label":"動畫官方MUSIC：OP／ED、演唱與原文創作署名","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://www.tv-tokyo.co.jp/anime/beyblade/news/index.html","label":"テレビ東京官方：TV新系列及播出季度","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://zh.wikipedia.org/wiki/%E7%88%86%E6%97%8B%E9%99%80%E8%9E%BAX","label":"中文歌曲／TV集數索引：用途及輪替期間","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-31"},{"url":"https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202510/28807_202510311825.html","label":"Invincible：曲名／演唱／動畫用途：テレビ東京放送節目資訊（發表／資料提供；刊載：tv-tokyo.co.jp）","role":"first_party","language":"ja","verifiedAt":"2026-10-31"}],"seasonIds":["2025-fall","2026-winter","2026-summer"],"songId":"beyblade-x-op-4-song","evidence":[{"target":"anime_use","fields":["usage"],"sourceUrls":["https://beyblade.takaratomy.co.jp/anime/music/","https://www.tv-tokyo.co.jp/anime/beyblade/news/index.html","https://zh.wikipedia.org/wiki/%E7%88%86%E6%97%8B%E9%99%80%E8%9E%BAX"],"verifiedAt":"2026-10-19","targetId":"beyblade-x-op-4"},{"target":"credits","fields":["credits"],"sourceUrls":["https://beyblade.takaratomy.co.jp/anime/music/"],"verifiedAt":"2026-10-19"},{"target":"song","targetId":"beyblade-x-op-4-song","fields":["title","artist"],"sourceUrls":["https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202510/28807_202510311825.html"],"verifiedAt":"2026-10-31"},{"target":"anime_use","targetId":"beyblade-x-op-4","fields":["usage"],"sourceUrls":["https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202510/28807_202510311825.html"],"verifiedAt":"2026-10-31"},{"target":"song","targetId":"beyblade-x-op-4-song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E7%88%86%E6%97%8B%E9%99%80%E8%9E%BAX"],"verifiedAt":"2026-10-31"},{"target":"anime_use","targetId":"beyblade-x-op-4","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E7%88%86%E6%97%8B%E9%99%80%E8%9E%BAX"],"verifiedAt":"2026-10-31"}],"lastVerifiedAt":"2026-10-19","credits":[{"name":"i-dle","role":"vocals"},{"name":"Jamil Kazmi","role":"lyrics"},{"name":"Kona Rose Jackson","role":"lyrics"},{"name":"Hayato Yamamoto","role":"lyrics"},{"name":"Kona Rose Jackson","role":"composition"},{"name":"Hayato Yamamoto","role":"composition"},{"name":"Jamil Kazmi","role":"composition"},{"name":"Soma Genda","role":"composition"},{"name":"Hayato Yamamoto","role":"arrangement"},{"name":"Soma Genda","role":"arrangement"}],"usageLabel":"日本TV版 第3期／真・未来編 OP","followUp":[{"fields":["use_quarters"],"note":"本筆先保存已確認的日本TV用途季度；配信先行版及秋季新配信篇章按媒體範圍另行核對，不把配信日當作TV首播或新錄音。","resumeWhen":"進入WEB階段時，依官方配信篇章與實際用曲補用途季度／標籤；TV曲目及既有ID保留。","checkedAt":"2026-10-19"}]},{"type":"ED","sequence":4,"titleJa":"渦","artistDisplayName":"imase","sourceMode":"explicit","sources":[{"label":"動畫官方網站","url":"https://beyblade.takaratomy.co.jp/anime/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/beyblade_x","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://beyblade.takaratomy.co.jp/anime/music/","label":"動畫官方MUSIC：OP／ED、演唱與原文創作署名","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://www.tv-tokyo.co.jp/anime/beyblade/news/index.html","label":"テレビ東京官方：TV新系列及播出季度","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://zh.wikipedia.org/wiki/%E7%88%86%E6%97%8B%E9%99%80%E8%9E%BAX","label":"中文歌曲／TV集數索引：用途及輪替期間","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-19"}],"seasonIds":["2025-fall","2026-winter"],"songId":"beyblade-x-ed-4-song","evidence":[{"target":"anime_use","fields":["usage"],"sourceUrls":["https://beyblade.takaratomy.co.jp/anime/music/","https://www.tv-tokyo.co.jp/anime/beyblade/news/index.html","https://zh.wikipedia.org/wiki/%E7%88%86%E6%97%8B%E9%99%80%E8%9E%BAX"],"verifiedAt":"2026-10-19","targetId":"beyblade-x-ed-4"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://beyblade.takaratomy.co.jp/anime/music/","https://zh.wikipedia.org/wiki/%E7%88%86%E6%97%8B%E9%99%80%E8%9E%BAX"],"verifiedAt":"2026-10-19","targetId":"beyblade-x-ed-4-song"},{"target":"credits","fields":["credits"],"sourceUrls":["https://beyblade.takaratomy.co.jp/anime/music/"],"verifiedAt":"2026-10-19"}],"lastVerifiedAt":"2026-10-19","titleRomaji":"Uzu","credits":[{"name":"imase","role":"vocals"},{"name":"imase","role":"songwriting"},{"name":"小西遼","role":"arrangement"}],"usageLabel":"日本TV版 ED4"},{"type":"ED","sequence":5,"titleJa":"Youth","artistDisplayName":"aoen","sourceMode":"explicit","sources":[{"label":"動畫官方網站","url":"https://beyblade.takaratomy.co.jp/anime/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/beyblade_x","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://beyblade.takaratomy.co.jp/anime/music/","label":"官方MUSIC：Youth曲名與ED；演唱文字aeon與既有aoen拼字待核","role":"first_party","language":"ja","verifiedAt":"2026-11-05"},{"url":"https://www.tv-tokyo.co.jp/anime/beyblade/news/index.html","label":"テレビ東京官方：TV新系列及播出季度","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://zh.wikipedia.org/wiki/%E7%88%86%E6%97%8B%E9%99%80%E8%9E%BAX","label":"繁中逐曲表：Youth／aoen與ED；原TV季度沿既有證據","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-11-05"}],"seasonIds":["2026-summer"],"songId":"beyblade-x-ed-5-song","evidence":[
+},{"type":"OP","sequence":4,"titleJa":"Invincible","artistDisplayName":"i-dle","sourceMode":"explicit","sources":[{"label":"動畫官方網站","url":"https://beyblade.takaratomy.co.jp/anime/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/beyblade_x","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://beyblade.takaratomy.co.jp/anime/music/","label":"動畫官方MUSIC：OP／ED、演唱與原文創作署名","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://www.tv-tokyo.co.jp/anime/beyblade/news/index.html","label":"テレビ東京官方：TV新系列及播出季度","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://zh.wikipedia.org/wiki/%E7%88%86%E6%97%8B%E9%99%80%E8%9E%BAX","label":"中文歌曲／TV集數索引：用途及輪替期間","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-31"},{"url":"https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202510/28807_202510311825.html","label":"Invincible：曲名／演唱／動畫用途：テレビ東京放送節目資訊（發表／資料提供；刊載：tv-tokyo.co.jp）","role":"first_party","language":"ja","verifiedAt":"2026-10-31"}],"seasonIds":["2025-fall","2026-winter","2026-summer"],"songId":"beyblade-x-op-4-song","evidence":[{"target":"anime_use","fields":["usage"],"sourceUrls":["https://beyblade.takaratomy.co.jp/anime/music/","https://www.tv-tokyo.co.jp/anime/beyblade/news/index.html","https://zh.wikipedia.org/wiki/%E7%88%86%E6%97%8B%E9%99%80%E8%9E%BAX"],"verifiedAt":"2026-10-19","targetId":"beyblade-x-op-4"},{"target":"credits","fields":["credits"],"sourceUrls":["https://beyblade.takaratomy.co.jp/anime/music/"],"verifiedAt":"2026-10-19"},{"target":"song","targetId":"beyblade-x-op-4-song","fields":["title","artist"],"sourceUrls":["https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202510/28807_202510311825.html"],"verifiedAt":"2026-10-31"},{"target":"anime_use","targetId":"beyblade-x-op-4","fields":["usage"],"sourceUrls":["https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202510/28807_202510311825.html"],"verifiedAt":"2026-10-31"},{"target":"song","targetId":"beyblade-x-op-4-song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E7%88%86%E6%97%8B%E9%99%80%E8%9E%BAX"],"verifiedAt":"2026-10-31"},{"target":"anime_use","targetId":"beyblade-x-op-4","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E7%88%86%E6%97%8B%E9%99%80%E8%9E%BAX"],"verifiedAt":"2026-10-31"}],"lastVerifiedAt":"2026-10-19","credits":[{"name":"i-dle","role":"vocals"},{"name":"Jamil Kazmi","role":"lyrics"},{"name":"Kona Rose Jackson","role":"lyrics"},{"name":"Hayato Yamamoto","role":"lyrics"},{"name":"Kona Rose Jackson","role":"composition"},{"name":"Hayato Yamamoto","role":"composition"},{"name":"Jamil Kazmi","role":"composition"},{"name":"Soma Genda","role":"composition"},{"name":"Hayato Yamamoto","role":"arrangement"},{"name":"Soma Genda","role":"arrangement"}],"usageLabel":"日本TV版 第3期／真・未来編 OP","followUp":[{"fields":["use_quarters"],"note":"本筆先保存已確認的日本TV用途季度；配信先行版及秋季新配信篇章按媒體範圍另行核對，不把配信日當作TV首播或新錄音。","resumeWhen":"進入WEB階段時，依官方配信篇章與實際用曲補用途季度／標籤；TV曲目及既有ID保留。","checkedAt":"2026-10-19"}]},{"type":"ED","sequence":4,"titleJa":"渦","artistDisplayName":"imase","sourceMode":"explicit","sources":[{"label":"動畫官方網站","url":"https://beyblade.takaratomy.co.jp/anime/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/beyblade_x","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://beyblade.takaratomy.co.jp/anime/music/","label":"動畫官方MUSIC：OP／ED、演唱與原文創作署名","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://www.tv-tokyo.co.jp/anime/beyblade/news/index.html","label":"テレビ東京官方：TV新系列及播出季度","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://zh.wikipedia.org/wiki/%E7%88%86%E6%97%8B%E9%99%80%E8%9E%BAX","label":"中文歌曲／TV集數索引：用途及輪替期間","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-19"}],"seasonIds":["2025-fall","2026-winter"],"songId":"beyblade-x-ed-4-song","evidence":[{"target":"anime_use","fields":["usage"],"sourceUrls":["https://beyblade.takaratomy.co.jp/anime/music/","https://www.tv-tokyo.co.jp/anime/beyblade/news/index.html","https://zh.wikipedia.org/wiki/%E7%88%86%E6%97%8B%E9%99%80%E8%9E%BAX"],"verifiedAt":"2026-10-19","targetId":"beyblade-x-ed-4"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://beyblade.takaratomy.co.jp/anime/music/","https://zh.wikipedia.org/wiki/%E7%88%86%E6%97%8B%E9%99%80%E8%9E%BAX"],"verifiedAt":"2026-10-19","targetId":"beyblade-x-ed-4-song"},{"target":"credits","fields":["credits"],"sourceUrls":["https://beyblade.takaratomy.co.jp/anime/music/"],"verifiedAt":"2026-10-19"}],"lastVerifiedAt":"2026-10-19","titleRomaji":"Uzu","credits":[{"name":"imase","role":"vocals"},{"name":"imase","role":"songwriting"},{"name":"小西遼","role":"arrangement"}],"usageLabel":"日本TV版 ED4"},{"type":"ED","sequence":5,"titleJa":"Youth","artistDisplayName":"aoen","sourceMode":"explicit","sources":[{"label":"動畫官方網站","url":"https://beyblade.takaratomy.co.jp/anime/","language":"ja","role":"first_party","verifiedAt":"2026-09-01"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/beyblade_x","language":"en","role":"cross_check","verifiedAt":"2026-09-01"},{"url":"https://beyblade.takaratomy.co.jp/anime/music/","label":"官方MUSIC：Youth曲名與ED；演唱文字aeon與既有aoen拼字待核","role":"first_party","language":"ja","verifiedAt":"2026-11-05"},{"url":"https://www.tv-tokyo.co.jp/anime/beyblade/news/index.html","label":"テレビ東京官方：TV新系列及播出季度","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://zh.wikipedia.org/wiki/%E7%88%86%E6%97%8B%E9%99%80%E8%9E%BAX","label":"繁中逐曲表：Youth／aoen與ED；原TV季度沿既有證據","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-11-05"},{"url":"https://aoen-official.jp/news/d2c5a87e3fc6","label":"aoen 官方：〈Youth〉演唱及真・未来編片尾用途","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://www.universal-music.co.jp/aoen/products/up1as-03394/","label":"Universal Music Japan：原版〈Youth〉數位單曲及發行日","role":"first_party","language":"ja","verifiedAt":"2026-11-07"}],"seasonIds":["2026-summer"],"songId":"beyblade-x-ed-5-song","evidence":[
   {
     "target": "anime_use",
     "fields": [
@@ -392,8 +392,48 @@ export const curated2023FallSeeds: CuratedAnimeSeed[] = [
       "https://zh.wikipedia.org/wiki/%E7%88%86%E6%97%8B%E9%99%80%E8%9E%BAX"
     ],
     "verifiedAt": "2026-11-05"
+  },
+  {
+    "target": "song",
+    "targetId": "beyblade-x-ed-5-song",
+    "fields": [
+      "title",
+      "artist"
+    ],
+    "sourceUrls": [
+      "https://aoen-official.jp/news/d2c5a87e3fc6",
+      "https://www.universal-music.co.jp/aoen/products/up1as-03394/"
+    ],
+    "verifiedAt": "2026-11-07"
+  },
+  {
+    "target": "anime_use",
+    "targetId": "beyblade-x-ed-5",
+    "fields": [
+      "usage"
+    ],
+    "sourceUrls": [
+      "https://aoen-official.jp/news/d2c5a87e3fc6"
+    ],
+    "verifiedAt": "2026-11-07"
+  },
+  {
+    "target": "release",
+    "targetId": "beyblade-x-ed-5-up1as-03394",
+    "fields": [
+      "title",
+      "artist",
+      "type",
+      "date",
+      "edition",
+      "tracklist"
+    ],
+    "sourceUrls": [
+      "https://www.universal-music.co.jp/aoen/products/up1as-03394/"
+    ],
+    "verifiedAt": "2026-11-07"
   }
-],"lastVerifiedAt":"2026-11-05","credits":[{"name":"aoen","role":"vocals"},{"name":"KOHKI","role":"lyrics"},{"name":"BreadBeat","role":"composition"},{"name":"YOUNG2BEAT","role":"composition"},{"name":"SHITOKO","role":"composition"},{"name":"KOHKI","role":"composition"},{"name":"BreadBeat","role":"arrangement"},{"name":"YOUNG2BEAT","role":"arrangement"},{"name":"SHITOKO","role":"arrangement"}],"usageLabel":"日本TV版 真・未来編 ED（2026-07-10開始放送）","followUp":[
+],"lastVerifiedAt":"2026-11-07","credits":[{"name":"aoen","role":"vocals"},{"name":"KOHKI","role":"lyrics"},{"name":"BreadBeat","role":"composition"},{"name":"YOUNG2BEAT","role":"composition"},{"name":"SHITOKO","role":"composition"},{"name":"KOHKI","role":"composition"},{"name":"BreadBeat","role":"arrangement"},{"name":"YOUNG2BEAT","role":"arrangement"},{"name":"SHITOKO","role":"arrangement"}],"usageLabel":"日本TV版 真・未来編 ED（2026-07-10開始放送）","followUp":[
   {
     "fields": [
       "use_quarters"
@@ -401,17 +441,9 @@ export const curated2023FallSeeds: CuratedAnimeSeed[] = [
     "note": "本筆先保存已確認的日本TV用途季度；配信先行版及秋季新配信篇章按媒體範圍另行核對，不把配信日當作TV首播或新錄音。",
     "resumeWhen": "進入WEB階段時，依官方配信篇章與實際用曲補用途季度／標籤；TV曲目及既有ID保留。",
     "checkedAt": "2026-10-19"
-  },
-  {
-    "fields": [
-      "basic_evidence"
-    ],
-    "note": "Youth曲名已補第一方與交叉引用，aoen演唱有中文逐曲交叉。官方MUSIC的演唱alt及影片標題寫aeon；原song-by圖片本輪未能取回，官方新聞只列新ED藝人aoen而未同列Youth，未作本曲精確演唱正證。保留既有aoen名義，第一方拼字仍待核；原2026夏TV用途不變。",
-    "resumeWhen": "待可普通讀取且同列Youth與aoen的第一方逐曲明文或清楚官方圖像，再補本曲演唱引用；不由一般新ED藝人公告、其他章曲目或圖片替代文字推定。",
-    "checkedAt": "2026-11-05"
   }
 ],
-  "id": "beyblade-x-ed-5"
+  "id": "beyblade-x-ed-5","releases":[{"id":"beyblade-x-ed-5-up1as-03394","title":"Youth","artistDisplayName":"aoen","type":"single","date":{"value":"2026-04-15","precision":"day"},"region":"JP","edition":"Digital Single","tracks":[{"title":"Youth","position":1}]}]
 }],"verifiedAt":"2026-09-01","metadataVerifiedAt":"2026-11-05","metadataSources":[
   {
     "label": "動畫官方網站：作品與播出資料",
