@@ -11,13 +11,13 @@
 | 長期目標 | 收集近二十年的動畫歌曲、創作團隊、音源版本、來源、官方影片、收錄發行品與正版平台資訊 |
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED，已確認插曲一併記錄；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2020–2026標準季度TV的動畫及歌曲基本資料優先，按2026 → 2020、各年秋 → 夏 → 春 → 冬補漏。先處理可快速核實的原名、季度／首播、演唱名義、OP／ED用途及來源；創作、影片、音源、發行品及平台集中深化留待下一階段。約24分鐘、常見12／24集，13／26集及同類續播納入；長篇以2020–2026的TV用曲季度盤點，不以作品首播年自動排除；短WEB、泡麵番、短篇TV及特殊番延後，既有成果保留 |
-| 本輪目標 | 第288批核對2026春《クジマ歌えば家ほろろ》同版片長及主題曲，並整理已有新證據的標準TV片尾版本與基本欄位。固定2007–2026及2026-10-14資料截止日。 |
-| 下批位置 | 第289批優先核對《MAO》《黄泉のツガイ》春夏兩 cour 的 OP／ED，並對帳《マリッジトキシン》及《最強の職業は勇者でも賢者でもなく鑑定士（仮）らしいですよ？》同版正版片長及曲目。季度與不同錄音分開。 |
+| 本輪目標 | 第289批核對《MAO》《黄泉のツガイ》春夏兩 cour 的主題曲，及2026春標準TV同版片長和基本用途。固定2007–2026及2026-10-14資料截止日。 |
+| 下批位置 | 第290批先核對《本好きの下剋上 領主の養女》春夏兩 cour、《異世界のんびり農家2》、《おねがいアイプリ》各季及《魔入りました！入間くん》第4系列的逐話用曲；續查《女神「異世界転生何になりたいですか」俺「勇者の肋骨で」》同版片長。有足夠實質用途後，按門檻核對集中發布集合。 |
 | 完成條件 | 各季有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替；基本資料經公開JSON、頁面及必要檢查驗證，歌單與詳情保持易瀏覽；每筆用途保存現有欄位狀態、未記錄項目及已知續查條件，與完整收齊及來源日期分開。詳細欄位缺少不阻擋基本資料。作品聯集未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件；2020–2026基本盤點及缺口對帳完成後，按季度倒序接續2019–2007，再依已登記缺口分階段深化詳細欄位。未解必要缺口仍標示未完成，不宣稱所有動畫種類或詳細資料齊備 |
-| 執行狀態 | 第288批已本機驗證，待發布集合65／100。正式歌曲資料與網站基線為第284批。標準TV基本、詳細及長期目標未完成。 |
+| 執行狀態 | 第289批已本機驗證，待發布集合89／100。正式歌曲資料與網站基線為第284批。標準TV基本、詳細及長期目標未完成。 |
 | 接續位置 | 正式歌曲資料及網站基線 `c366098696c7130992c18ac3e42981686ce39d5f`／`batch284-basics`／[PR #275](https://github.com/kyeunga25/anisonary/pull/275)。 |
 | 發布提交 | 第284批正式 Workers 版本 `0b636d9f-dc06-4700-8aaf-4dbb89262419`；預覽與正式環境各2,103份JSON及90項路由／標頭檢查通過，GitHub quality、Workers Builds、瀏覽器及正式API契約通過。以下舊發布前記錄保留為歷史。 |
-| 本機提交 | 第288批在6部標準TV作品補齊14筆既有用途，另新增2筆插曲用途及相應歌曲ID。保留原有ID，已知逐話用曲差異留續查條件。 |
+| 本機提交 | 第289批在8部標準TV作品補齊23筆既有用途，另新增第10話插曲〈Silver 30〉。保留原有作品及用途ID。 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
 執行狀態使用「未開始／執行中／已暫停／已完成／已取消」；無法繼續時另記具體阻礙及仍未完成部分，不自動標記完成。長期目標與本次工作量分開，未指定本次工作量時先完成下一批。
@@ -15546,3 +15546,24 @@ WEP的[官方原期STREAMING](https://wonder-egg-priority.com/streaming/)明dア
 本機27項單元、型別、靜態建置、CSP、Service Worker、公開邊界與統計通過。2,066部其他作品及29季的公開JSON逐位元組相同。瀏覽器核對16張展開歌曲卡、28項春夏歌單納入／排除結果、6次手機鍵盤海報導覽與同意前零YouTube請求。第三方海報使用測試替身。
 
 本機名冊2,072作、5,003用途、4,297歌曲ID、2,707季度引用。基本待補1,082、僅季度待核293，共1,375筆用途待辦。動畫待補1,003作，其中645作已有用途待補、358作尚待收錄或分類，另2作不設獨立OP／ED。16筆實質用途更新納入待發布集合，49→65／100。
+
+### 第289批：2026春夏八部標準TV的主題曲及插曲（2026-11-07）
+
+固定2007–2026及2026-10-14資料截止。本批補齊23筆既有OP／ED，新增1筆插曲及1個歌曲ID。作品、既有用途、發行品與歷史錨點維持原ID。
+
+| 作品 ID | 用途 ID（前綴） | 核對結果 |
+| --- | --- | --- |
+| `curated-196012` | `mao` | OP-1〈HEARTLOUD〉／Kis-My-Ft2、ED-1〈呪愛〉／TRUE為第1–13話；OP-2〈僕らが上書きする世界〉／20th Century、ED-2〈揺蕩う〉／上田麗奈為第14–26話。維持前半春季、後半夏季。[官網曲表](https://www.anime-mao.com/music/)、[逐話交叉](https://cal.syoboi.jp/tid/7772) |
+| `curated-195600` | `yomi-no-tsugai` | 第2–12話OP-1〈飛ぶ時〉／Vaundy、ED-1〈飛ぼうよ〉／yama；第13–24話OP-2〈back shot〉／音田雅則、ED-2〈孔雀〉／菅原圭。交換演唱沿用原音源關係。第1話片尾位置的用曲有交叉線索，待取得第一方逐話證據再判定特殊用途。[第1 cour曲表](https://yominotsugai.com/music/cour1.html)、[第2 cour曲表](https://yominotsugai.com/music/cour2.html)、[逐話交叉](https://cal.syoboi.jp/tid/7800) |
+| `curated-199547` | `marriagetoxin` | 關西電視台春季第1話，Hulu同版首三話各23分鐘。OP-1〈Kill or Kiss〉／平手友梨奈、ED-1〈シャケナベイベー〉／AKASAKI。4月首播、配信及10月再放送分列。[關西電視台](https://www.ktv.jp/marriagetoxin/260407/)、[正版片長](https://www.hulu.jp/marriagetoxin/assets)、[官網曲表](https://www.marriagetoxin-anime.com/music/index.html) |
+| `curated-200769` | `saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo` | Hulu同版首三話各23分鐘，4月1日先行WEB分列。OP-1〈コンパスは透明〉／緑仙、ED-1〈もーいーかい？〉／ファントムシータ。[正版片長](https://www.hulu.jp/the-strongest-job-is-apparently-not-a-hero-or-a-sage-but-an-appraiser-provisional/assets)、[官網曲表](https://kanteishikari-anime.com/) |
+| `curated-190704` | `kanan-sama-wa-akumade-choroi` | Hulu同版首三話各23分鐘。OP-1〈初恋モーメント〉／Faulieu.、ED-1〈ポップ・スナック・ジャンクなHUNNY〉／あおぎり高校。[正版片長](https://www.hulu.jp/mistress-kanan-is-devilishly-easy/assets)、[曲目交叉](https://www.animatetimes.com/news/details.php?id=1768368652) |
+| `curated-189987` | `ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi` | Hulu同版首三話各23分鐘。OP-1〈ヒトリゴト〉／osage、ED-1〈部屋とガラクタと私〉／ミーマイナー。[正版片長](https://www.hulu.jp/the-klutzy-class-monitor-and-the-girl-with-the-short-skirt-project/assets)、[官方曲目公告](https://ponsuka.com/news/index00130000.html) |
+| `curated-197754` | `liar-game` | テレ東第1話獨立節目槽為24:00–24:30，欄位記節目時段。前半OP-1〈あぶく〉／ヨルシカ、ED-1〈朝日〉／Lucky Kilimanjaro，後半兩首維持原季度。[第1話節目表](https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202604/28984_202604062400.html)、[官方前半用曲](https://www.liargame-anime.com/news/post-35) |
+| `curated-202102` | `needy-girl-overdose` | Hulu同TV版第1、3話各24分鐘，第2話23分鐘。OP-1〈INTERNET ANGEL〉、ED-1〈れびてーしょん〉、第3話ED-2〈INTERNET OVERDOSE (Anime version)〉、第5話ED-3〈罪と罰〉與第13話ED-4〈Galge〉補齊基本證據。保留 Aiobahn +81 的原藝術家名義，另標超てんちゃん及 KOTOKO 的歌唱。新增IN-1〈Silver 30〉／カラマーゾフ，第10話插曲，記三名角色歌唱與作詞、作曲、編曲。[正版片長](https://www.hulu.jp/needy-girl-overdose/assets)、[官方曲表](https://needygirl-anime.com/music/)、[第10話團體曲](https://needygirl-anime.com/news/?id=70567)、[逐話交叉](https://cal.syoboi.jp/tid/7795) |
+
+《NEEDY GIRL OVERDOSE》第10話再用〈INTERNET OVERDOSE (Anime version)〉、第12話〈INTERNET YAMERO (Anime version)〉及第13話〈EZ DO DANCE〉有逐話線索。待同版正片 credits 或第一方音樂公告明列用途及所用錄音，再分別登記；保持現有遊戲與動畫版關係。
+
+本機27項單元、型別、靜態建置、CSP、Service Worker、公開邊界與統計通過。2,064部其他作品和28季公開JSON逐位元組相同。瀏覽器核對24張展開歌曲卡、69項春夏秋歌單納入／排除、8次手機鍵盤海報導覽與同意前零YouTube請求。第三方海報使用測試替身。
+
+本機名冊2,072作、5,004用途、4,298歌曲ID、2,707季度引用。基本待補1,059、僅季度待核293，共1,352筆用途待辦。動畫待補995作，其中637作已有用途待補、358作尚待收錄或分類，另2作不設獨立OP／ED。24筆實質用途更新納入待發布集合，65→89／100。
