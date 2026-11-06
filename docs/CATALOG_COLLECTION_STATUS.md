@@ -11,13 +11,13 @@
 | 長期目標 | 收集近二十年的動畫歌曲、創作團隊、音源版本、來源、官方影片、收錄發行品與正版平台資訊 |
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED，已確認插曲一併記錄；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2020–2026標準季度TV的動畫及歌曲基本資料優先，按2026 → 2020、各年秋 → 夏 → 春 → 冬補漏。先處理可快速核實的原名、季度／首播、演唱名義、OP／ED用途及來源；創作、影片、音源、發行品及平台集中深化留待下一階段。約24分鐘、常見12／24集，13／26集及同類續播納入；長篇以2020–2026的TV用曲季度盤點，不以作品首播年自動排除；短WEB、泡麵番、短篇TV及特殊番延後，既有成果保留 |
-| 本輪目標 | 第284批核對8部2026夏季標準TV作品的播出形式、既有OP／ED及已證實的續播季度。沿用2007–2026固定範圍及2026-10-14資料截止日。 |
-| 下批位置 | 完成第255–284批集中發布後，下一批由2026夏未解作品接續。優先核對官方同版逐話資料；已封頂項目等到電視台、正版平台或製作方的新正文再重開。 |
+| 本輪目標 | 第290批核對2026春夏秋標準TV的逐話主題曲、演唱及同版片長，達門檻後驗證集中發布集合。固定2007–2026及2026-10-14資料截止日。 |
+| 下批位置 | 第285–290批集中發布及正式驗收後，第291批續核2026春仍待第一方逐話證據的用途，先看《ニワトリ・ファイター》《オタクに優しいギャルはいない！？》有無新觸發；封頂缺口保持，並接續2026冬標準TV盤點。 |
 | 完成條件 | 各季有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替；基本資料經公開JSON、頁面及必要檢查驗證，歌單與詳情保持易瀏覽；每筆用途保存現有欄位狀態、未記錄項目及已知續查條件，與完整收齊及來源日期分開。詳細欄位缺少不阻擋基本資料。作品聯集未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件；2020–2026基本盤點及缺口對帳完成後，按季度倒序接續2019–2007，再依已登記缺口分階段深化詳細欄位。未解必要缺口仍標示未完成，不宣稱所有動畫種類或詳細資料齊備 |
-| 執行狀態 | 第284批已本機驗證，第255–284批有104個不重複實質用途更新，達集中發布門檻。合併與正式環境驗收以本次發布記錄為準；標準TV基本、詳細及長期目標未完成。 |
-| 接續位置 | 正式歌曲資料基線 `23a34b897b6ca6ba54b77f5ebfab6c7a135cf1f3`／`batch254-basics`／[PR #273](https://github.com/kyeunga25/anisonary/pull/273)。第253–254批已正式驗收；現行網站main `ec637a0bff37aba376eafa05dd8b3d9f61327a9a`／[PR #274](https://github.com/kyeunga25/anisonary/pull/274)另發布日期標籤及文件。 |
-| 發布提交 | 第254批正式版本 `979b9bc7-c92f-4a98-b325-887400e1ffd4`；PR／main quality與Workers Builds成功，固定預覽及正式站各116 HTTP、19瀏覽器流程通過，正式完整API契約通過。以下舊發布前記錄保留為歷史。 |
-| 本機提交 | 第284批補齊8部作品的16筆既有主題曲基本證據，其中2筆確認跨至2026秋。第255–284批共104個不重複實質用途變更，依交付流程集中發布。 |
+| 執行狀態 | 第290批本機驗證完成；第285–290批集中集合103筆達發布門檻。以下發布前記錄以實際 PR、tag 與 Workers 正式驗收交叉核對。 |
+| 接續位置 | 正式歌曲資料及網站基線 `c366098696c7130992c18ac3e42981686ce39d5f`／`batch284-basics`／[PR #275](https://github.com/kyeunga25/anisonary/pull/275)。 |
+| 發布提交 | 第284批正式 Workers 版本 `0b636d9f-dc06-4700-8aaf-4dbb89262419`；預覽與正式環境各2,103份JSON及90項路由／標頭檢查通過，GitHub quality、Workers Builds、瀏覽器及正式API契約通過。以下舊發布前記錄保留為歷史。 |
+| 本機提交 | 第290批在5部標準TV作品補齊13筆既有用途，新增1筆共用原歌曲ID的插曲用途；核定1部續播作品及其後半兩首歌的秋季收錄。 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
 執行狀態使用「未開始／執行中／已暫停／已完成／已取消」；無法繼續時另記具體阻礙及仍未完成部分，不自動標記完成。長期目標與本次工作量分開，未指定本次工作量時先完成下一批。
@@ -15469,3 +15469,117 @@ WEP的[官方原期STREAMING](https://wonder-egg-priority.com/streaming/)明dア
 本輪單元27項、型別、靜態建置、CSP、Service Worker、統計及公開邊界通過。逐份雜湊確認其餘2,064部作品、28季JSON相同。瀏覽器確認16張直接展開的歌曲卡、兩季32個歌單納入／排除結果、8次手機鍵盤海報導覽、兩筆「播出日期」證據及同意前零YouTube請求；第三方海報使用測試替身。
 
 本機名冊2,072作、4,993用途、4,287歌曲ID、2,706季度引用。基本待補1,136、僅季度待核293，合計1,429筆必需用途待辦。動畫待補1,027作，其中669作已有用途待補、358作尚待收錄或分類，另2作不設獨立OP／ED。16筆實質用途變更納入發布集合，88→104。正式發布狀態以合併記錄、Workers Builds及正式站驗收結果為準。
+
+### 第285批：六部2026夏季TV作品、跨季用途與插曲（2026-11-07）
+
+固定2007–2026及2026-10-14資料截止。補齊14筆既有OP／ED基本證據，保留既有ID。原播編成、聯播、正片片長及配信分列。
+
+| 作品 ID | 用途 ID（前綴） | 核對結果 |
+| --- | --- | --- |
+| `curated-198946` | `clevatess-ii-majuu-no-ou-to-itsuwari-no-yuusha-denshou` | BS日テレ每週三24:30–25:00，9月30日原播完結。OP-1〈Foreshadow〉／前島麻由，ED-1〈Awake Anew〉／MYTH & ROID。[BS日テレ](https://www.bs4.jp/clevatess2/)、[完結公告](https://www.clevatess.com/news/news260930.php)、[AniHK曲表](https://anihk.com/anime/clevatess-season-2) |
+| `curated-199066` | `hanaori-san-wa-tensei-shite-mo-kenka-ga-shitai` | ABC／テレビ朝日系7月11日週六26:00–26:30首播，即7月12日02:00–02:30。BS日テレ7月13日起週一23:00–23:30，先行配信26:30另計。OP-1〈ハイメンテナンスガール〉／オーイシマサヨシ，ED-1〈ベリーグッド・エンカウント〉／内田真礼。[官方放送](https://hanaorisan-anime.com/onair/)、[Pony Canyon曲表](https://news.ponycanyon.co.jp/2026/06/122392) |
+| `curated-207809` | `sora-wa-akai-kawa-no-hotori` | BS日テレ週三24:00–24:30。OP-1〈暁の空〉／七海ひろき、ED-1〈Reunion〉／清水美依紗只列夏季。OP-2〈暁の星〉／水樹奈々、ED-2〈flow feat. 安藤裕子〉／Ryu Matsuyama均自9月29日第13話使用，10月6日第14話進入秋季，作品與後兩用途加入秋季。[BS日テレ](https://www.bs4.jp/sorahaakaikawanohotori/)、[VAP公告](https://www.vap.co.jp/sorahaakaikawanohotori/news/20260925.html)、[第14話及歌曲](https://www.animatetimes.com/news/details.php?id=1790745469)、[逐話用曲索引](https://cal.syoboi.jp/tid/7939) |
+| `curated-198376` | `bang-dream-yume-mita` | BS日テレ首三話連播，第4話起週四24:00–24:30。OP-1〈これはぼくたちの生存のあらすじ〉及ED-1〈うちゅうのふしぎ〉由夢限大みゅーたいぷ演唱。[BS日テレ節目及曲表](https://www.bs4.jp/yumemita/) |
+| `curated-128757` | `tai-ari-deshita-ojou-sama-wa-kakutou-game-nante-shinai` | BS日テレ週二23:30–24:00。OP-1〈命短し対する乙女よ〉／花冷え。，ED-1〈NEW GAME〉／halca。[BS日テレ](https://www.bs4.jp/taiari/)、[官方曲表](https://taiari-anime.com/music/) |
+| `curated-159309` | `otomege-sekai-wa-mob-ni-kibishii-sekai-desu-2` | BS日テレ7月9日起週四25:00–25:30。OP-1〈人生エンドロール〉／Ando，ED-1〈あしたはあしたのけせらせら！〉／名称非公開，後者是官方演唱團名。[BS日テレ](https://www.bs4.jp/mobseka2/)、[官方曲表](https://mobseka.com/news/20260617-02/) |
+
+《バンドリ！ ゆめ∞みた》新增 `bang-dream-yume-mita-in-1` 至 `bang-dream-yume-mita-in-6`，依次為第7話〈TearJerker〉、〈Face The Next〉、第8話〈一番のひかり〉、第11話〈夢はトゥルーエンド！〉、第13話〈in my words〉、〈愛は衝動〉。演唱欄採Bushiroad Music正式發行名義「夢限大みゅーたいぷ」，用途只標已核話數。新增6個歌曲ID，音源版本、發行實體及影片留待深化。[TearJerker](https://bushiroad-music.com/musics/tearjerker/)、[Face The Next](https://bushiroad-music.com/musics/facethenext/)、[一番のひかり](https://bushiroad-music.com/musics/mybrightestlight/)、[夢はトゥルーエンド！](https://bushiroad-music.com/musics/yumemita_dreams/)、[第13話兩首](https://bushiroad-music.com/topics/23069/)、[逐話曲表](https://cal.syoboi.jp/tid/7919)
+
+《対ありでした。》最終話另有插曲線索，待核可直接回查的第一方用途及音源版本。《バンドリ！ ゆめ∞みた》其餘劇中曲待有明確第一方逐曲用途與演唱證據再收錄。
+
+本機27項單元、型別與建置、CSP、Service Worker、統計及公開邊界通過。其餘2,066部作品、28季JSON雜湊相同。瀏覽器核對20張展開歌曲卡、夏秋兩季40個歌單納入／排除結果、秋季作品海報、6次手機鍵盤海報導覽及同意前零YouTube請求。第三方海報使用測試替身。
+
+本機名冊2,072作、4,999用途、4,293歌曲ID、2,707季度引用。基本待補1,122、僅季度待核293，共1,415筆必需用途待辦。動畫待補1,021作，其中663作已有用途待補、358作尚待收錄或分類，另2作不設獨立OP／ED。20筆實質用途更新均計入第284批正式基線之後的待發布集合。
+
+### 第286批：2026夏季八部標準TV、兩筆特殊用途與短篇核定（2026-11-07）
+
+固定2007–2026及2026-10-14資料截止。16筆既有OP／ED補齊基本證據，保留作品、歌曲及用途ID。正片時間、TV編成、配信及不同版本分開記錄。
+
+| 作品 ID | 用途 ID（前綴） | 核對結果 |
+| --- | --- | --- |
+| `curated-199111` | `grand-blue-season-3` | U-NEXT第3期首三話各24分鐘。OP-1〈夏子〉／FUNKY MONKEY BΛBY'S、ED-1〈裸のマーメード〉／豆柴の大群，第12話亦列兩首。[正版片長](https://www.video.unext.jp/title/SID0305815)、[第3期放送](https://grandblue-anime.com/news/index00700000.html)、[第12話曲表](https://www.mau2.com/anime/guranburu-3/ep/12) |
+| `curated-194829` | `katainaka-no-ossan-kensei-ni-naru-ii` | BS朝日第3至12話週日23:30–24:00，9月27日列最終話。OP-1〈クレナイノハ〉／ユニコーン、ED-1〈未完成〉／BLUE ENCOUNT。[BS朝日](https://www.bs-asahi.co.jp/ossan-kensei/lineup/)、[官方曲表](https://www.ossan-kensei.com/music/index.html) |
+| `curated-187260` | `kimi-ga-shinu-made-koi-wo-shitai` | Hulu同版首三話各23分鐘。OP-1〈Amore〉／ReoNa、ED-1〈エテルネル〉／sajou no hana。另一版片頭動畫沿用同一首〈Amore〉，沿用原歌曲及用途。[正版片長](https://www.hulu.jp/i-want-to-love-you-till-your-dying-day/assets)、[製作方曲表](https://prtimes.jp/main/html/rd/p/000000163.000086721.html)、[另一版片頭](https://www.kimishinu-anime.com/story/op2/) |
+| `curated-196356` | `ibitte-konai-gibo-to-gishi` | BS朝日首話及常規週日25:00–25:30，部分話數調動另保留。OP-1〈雨宿りの憧憬〉／Lia、ED-1〈クレール〉／AVAM。[BS朝日逐話](https://www.bs-asahi.co.jp/ibikona-anime/lineup/)、[官方曲表](https://ibikona-anime.com/) |
+| `curated-169583` | `tenkousaki-no-seiso-karen-na-bishoujo-ga-mukashi-danshi-to-omotte-issho-ni-asonda-osananaj` | U-NEXT同版首三話各24分鐘。OP-1〈夏に重ねて〉／DIALOGUE＋、ED-1〈Tilt〉／harmoe。[正版片長](https://www.video.unext.jp/title/SID0305838)、[官方曲表](https://tenbin-anime.asmik-ace.co.jp/music/) |
+| `curated-188525` | `kore-kaite-shine` | Hulu同版第1話22分鐘，第2、3話各23分鐘。OP-1〈遺書〉／キタニタツヤ、ED-1〈コニファー〉／リーガルリリー。[正版片長](https://www.hulu.jp/draw-this-then-die/assets)、[VAP官方曲表](https://www.vap.co.jp/korekaite-shine/music/) |
+| `curated-169582` | `saikyou-degarashi-ouji` | U-NEXT同版首三話各24分鐘，首播與先行配信分列。OP-1〈Script〉／BUDDiiS、ED-1〈素敵なかんちがい〉／くらわん。沿用既有短網址及用途ID。[正版片長](https://www.video.unext.jp/title/SID0305837)、[官方片頭片尾公告](https://degarashiouji.com/91/) |
+| `curated-188139` | `futsutsuka-na-akujo-de-wa-gozaimasu-ga-suuguu-chouso-torikae-den` | 東京電視台首兩話週日23:45–24:15，播前特番另計。OP-1〈Sunny〉／milet、ED-1〈ホウキボシ〉／ロクデナシ。[第1話編成及曲表](https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202607/29209_202607122345.html)、[第2話編成](https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202607/29209_202607192345.html) |
+
+- 新增 `kimi-ga-shinu-made-koi-wo-shitai-ed-2`〈スターチス〉，リジィ・セイラン（CV：瀬戸麻沙美）、モード・アリ（CV：石川由依），第7、8話特殊片尾；新增 `kimi-ga-shinu-made-koi-wo-shitai-in-1`〈Cookie＆Cream〉，トツキ・シーナ（CV：高橋李依）、カガリ・ミミ（CV：日高里菜），第12話插曲。兩筆各新增歌曲ID。採官方故事頁的原名及角色署名，錄音、發行關係及媒體留待深化。[官方特殊片尾](https://www.kimishinu-anime.com/story/ed2/)、[官方插曲](https://www.kimishinu-anime.com/story/is/)、[逐話用曲索引](https://cal.syoboi.jp/tid/7910)
+- `curated-207674`《うしろの正面カムイさん》Hulu放送版首三話各12分鐘，列為短篇。既有OP／ED和兩筆基本待核保留，與其他版本及迷你動畫分列。本項只有分類與播出說明，排除於發布門檻。[正版放送版片長](https://www.hulu.jp/kamui-hes-behind-you/assets)
+- 《ぐらんぶる Season 3》最終話另有劇中歌曲線索。待直接可回查的正式逐曲用途及演唱／演奏署名，版本未知。
+
+本機27項單元、型別、靜態建置、CSP、Service Worker、公開邊界與統計通過。其餘2,063部作品及29季JSON雜湊相同。瀏覽器核對18張展開歌曲卡、36個夏秋歌單納入／排除結果、9次手機鍵盤海報導覽及同意前零YouTube請求。第三方海報使用測試替身。
+
+本機名冊2,072作、5,001用途、4,295歌曲ID、2,707季度引用。基本待補1,106、僅季度待核293，共1,399筆必需用途待辦。動畫待補1,013作，其中655作已有用途待補、358作尚待收錄或分類，另2作不設獨立OP／ED。18筆實質用途更新納入待發布集合，20→38／100。
+
+### 第287批：2026春三部作品基本資料與夏季 OP 輪替（2026-11-07）
+
+固定2007–2026及2026-10-14資料截止。本批10筆既有用途補齊基本證據，1筆已完成的 OP 確認起始話數。沒有新增作品、用途或歌曲ID。
+
+| 作品 ID | 用途 ID（前綴） | 核對結果 |
+| --- | --- | --- |
+| `curated-235` | `meitantei-conan` | OP-61〈Heaven Knows〉／B'z 自1月10日起至6月27日第1205話，維持冬、春。7月4日停播。OP-62〈愛のFIRE〉／新浜レオン自7月11日第1206話起，維持夏、秋。[OP-61公告](https://www.ytv.co.jp/topics/articles/escao7rrp5fngsnk.html)、[第1205話](https://www.ytv.co.jp/conan/archive/k20260627.html)、[第1206話](https://www.ytv.co.jp/conan/archive/k20260711.html)、[逐話用曲交叉](https://beika-dept.com/episodes/) |
+| `curated-198939` | `jidou-hanbaiki-ni-umarekawatta-ore-wa-meikyuu-wo-samayou-3rd-season` | OP-1〈ジハンキズム〉／ビバラッシュ、ED-1〈めくるめくランデヴー〉／FUWAMOCO，補齊同版曲名、演唱及用途交叉證據。[官方曲表](https://jihanki-anime.com/)、[獨立曲表](https://animemusicranking.com/ja/anime/6989/) |
+| `curated-196974` | `kuroneko-to-majo-no-kyoushitsu` | 第1 cour OP-1〈Cusp〉／ASCA、ED-1〈ちゅーんあっぷ☆〉／スピラ・スピカ，與夏季第2 cour 兩首分列。第一話特殊片尾線索待正式逐話來源確認。[官方曲表](https://witch-classroom.com/)、[香港獨立曲表](https://anihk.com/en/anime/the-classroom-of-the-black-cat-and-a-witch) |
+| `curated-170019` | `otonari-no-tenshi-sama-ni-itsunomanika-dame-ningen-ni-sareteita-ken-2nd-season` | ひかりTV第2期同版各話25分鐘起。OP-1〈君は恋人〉／オーイシマサヨシ；ED-1〈うれしい！たのしい！大好き！〉用於第1–4、6–8、10–11話；ED-2〈夏祭り〉用於第5話；ED-3〈ヘビーローテーション〉用於第9話；ED-4〈明日への扉〉用於第12話。ED-3分開列兩名主唱及三名和聲，維持原發行名義。[正版片長](https://www.hikaritv-docomo.jp/sources/all/pdf/user/guide_htv_202606.pdf)、[官方曲表](https://otonarino-tenshisama.jp/music/)、[第9話官方歌唱名單](https://www.youtube.com/watch?v=w0f3phG9oGg)、[獨立逐話曲表](https://cal.syoboi.jp/tid/7745) |
+| `curated-201667` | `bungou-stray-dogs-wan-2` | Hulu第2期首三話各11分鐘，列為短篇TV。既有ED及錄音保留，待短篇階段取得同版第一方及獨立用曲證據。此項排除於實質用途發布門檻。[官方放送](https://wan2.bungo-stray-dogs-wan.com/onair/)、[正版片長](https://www.hulu.jp/bungo-stray-dogs-wan-2/assets) |
+
+本機27項單元、型別、靜態建置、CSP、Service Worker、公開邊界與統計通過。2,067部其他作品和28季的公開JSON逐位元組相同。瀏覽器核對11張展開歌曲卡、33項季度歌單納入／排除、5次手機鍵盤海報導覽、2筆OP播出證據及同意前零YouTube請求。第三方海報使用測試替身。
+
+本機名冊2,072作、5,001用途、4,295歌曲ID、2,707季度引用。基本待補1,096、僅季度待核293，共1,389筆用途待辦。動畫待補1,009作，其中651作已有用途待補、358作尚待收錄或分類，另2作不設獨立OP／ED。11筆實質用途更新納入待發布集合，38→49／100。
+
+### 第288批：2026春六部標準TV的既有主題曲及插曲（2026-11-07）
+
+固定2007–2026及2026-10-14資料截止。本批14筆既有OP／ED補齊基本證據，新增2筆插曲與2個歌曲ID，既有作品、用途、歌曲及發行品ID保留。
+
+| 作品 ID | 用途 ID（前綴） | 核對結果 |
+| --- | --- | --- |
+| `curated-177508` | `kujima-utaeba-ie-hororo` | Hulu同版首三話各23分鐘。OP-1〈木漏れ日坂〉／Galileo Galilei，ED-1〈ほろろ逍遥〉／角銅真実。新增IN-1〈人は渡り鳥〉／Galileo Galilei，與OP共用既有單曲VTCL-35394的發行ID，插曲列曲序2。插曲使用話數及所用音源版本留空；OP編曲在官網摘要與商品表署名不同，維持原待核。[正版片長](https://www.hulu.jp/kujima-why-sing-when-you-can-warble/assets)、[官方曲表](https://kujima-anime.com/)、[FlyingDog 曲序](https://www.jvcmusic.co.jp/-/News/A029943/11.html)、[獨立曲表](https://animecca.jp/ja/works/kujimautaebaiehororo) |
+| `curated-194393` | `aishiteru-game-wo-owarasetai` | Hulu同版首三話各23分鐘。OP-1〈君のせいで愛してる〉／CHiCO with HoneyWorks，ED-1〈リトルワールド〉／PompadollS。首播及先行配信分列。[正版片長](https://www.hulu.jp/i-want-to-end-this-love-game/assets)、[官方曲表](https://www.aishiteru-game.com/music.html)、[中文交叉](https://zh.wikipedia.org/wiki/%E6%83%B3%E7%B5%90%E6%9D%9F%E9%80%99%E5%A0%B4%E3%80%8C%E6%88%91%E6%84%9B%E4%BD%A0%E3%80%8D%E7%9A%84%E9%81%8A%E6%88%B2) |
+| `curated-185211` | `yowa-yowa-sensei` | U-NEXT明列オンエアver.第1–10話各24分鐘，AT-X的超よわよわver.另分。OP-1〈COMIT COMET〉／Daoko，ED-1〈よわよわ つよつよ みにみに こわこわ〉的三名角色及聲優名義均已交叉。[正版放送版](https://www.video.unext.jp/title/SID0284836)、[官方曲表](https://www.yowayowasensei-anime.com/music.html)、[獨立曲目報導](https://www.animatetimes.com/news/details.php?id=1773839900) |
+| `curated-180228` | `ganbare-nakamura-kun` | ED-4〈負けるもんか〉／バービーボーイズ，ED-6〈世界でいちばん熱い夏（平成レコーディング）〉／PRINCESS PRINCESS，ED-7〈蠟人形の館〉／聖飢魔II，ED-8〈Runner〉／爆風スランプ。保留官方原署名與既有版本關係。[官方逐話曲表](https://nakamura-kun.love/music/?id=ed)、[第4話名義交叉](https://mantan-web.jp/article/20260409dog00m200087000a.html)、[逐話交叉](https://www.anisil.com/animes/6615-%E3%82%AC%E3%83%B3%E3%83%90%E3%83%AC%EF%BC%81%E4%B8%AD%E6%9D%91%E3%81%8F%E3%82%93%21%21) |
+| `curated-195333` | `haibara-kun-no-tsuyokute-seishun-new-game` | ED-1〈ドラマチック逃避行〉／愛美，ED-2〈大切なもの〉／灰原夏希（CV：上村祐翔）為第10話特殊片尾。新增IN-1〈決意の朝に〉／同一角色，限於第3話已確認的卡拉OK場景。第3話是否另作正式片尾、常規ED的完整話數，以及第12話的逐曲演唱名義留待同版正片 credits 或正式逐話曲表。[官方主題曲](https://haibarakun-anime.com/topics/106/)、[第10話原作者](https://note.com/amamiya5235/n/n9fbb4fe635b1)、[第3話原作者](https://note.com/amamiya5235/n/n259a0e8be8b6)、[聲優訪談](https://webnewtype.com/report/cast/entry-47000.html)、[獨立逐話曲表](https://cal.syoboi.jp/tid/7798) |
+| `curated-202508` | `kami-no-shizuku` | 第1 cour OP-1〈hate you? love you?〉／HOKUTO、ED-1〈カミノシズク〉／内田真礼，常規使用第2–12話。第1話的片尾位置用曲待同版第一方證據，維持第1 cour ED既有相容錨點。[官方曲表](https://dropsofgod-anime.com/music/)、[獨立逐話曲表](https://cal.syoboi.jp/tid/7776) |
+
+本機27項單元、型別、靜態建置、CSP、Service Worker、公開邊界與統計通過。2,066部其他作品及29季的公開JSON逐位元組相同。瀏覽器核對16張展開歌曲卡、28項春夏歌單納入／排除結果、6次手機鍵盤海報導覽與同意前零YouTube請求。第三方海報使用測試替身。
+
+本機名冊2,072作、5,003用途、4,297歌曲ID、2,707季度引用。基本待補1,082、僅季度待核293，共1,375筆用途待辦。動畫待補1,003作，其中645作已有用途待補、358作尚待收錄或分類，另2作不設獨立OP／ED。16筆實質用途更新納入待發布集合，49→65／100。
+
+### 第289批：2026春夏八部標準TV的主題曲及插曲（2026-11-07）
+
+固定2007–2026及2026-10-14資料截止。本批補齊23筆既有OP／ED，新增1筆插曲及1個歌曲ID。作品、既有用途、發行品與歷史錨點維持原ID。
+
+| 作品 ID | 用途 ID（前綴） | 核對結果 |
+| --- | --- | --- |
+| `curated-196012` | `mao` | OP-1〈HEARTLOUD〉／Kis-My-Ft2、ED-1〈呪愛〉／TRUE為第1–13話；OP-2〈僕らが上書きする世界〉／20th Century、ED-2〈揺蕩う〉／上田麗奈為第14–26話。維持前半春季、後半夏季。[官網曲表](https://www.anime-mao.com/music/)、[逐話交叉](https://cal.syoboi.jp/tid/7772) |
+| `curated-195600` | `yomi-no-tsugai` | 第2–12話OP-1〈飛ぶ時〉／Vaundy、ED-1〈飛ぼうよ〉／yama；第13–24話OP-2〈back shot〉／音田雅則、ED-2〈孔雀〉／菅原圭。交換演唱沿用原音源關係。第1話片尾位置的用曲有交叉線索，待取得第一方逐話證據再判定特殊用途。[第1 cour曲表](https://yominotsugai.com/music/cour1.html)、[第2 cour曲表](https://yominotsugai.com/music/cour2.html)、[逐話交叉](https://cal.syoboi.jp/tid/7800) |
+| `curated-199547` | `marriagetoxin` | 關西電視台春季第1話，Hulu同版首三話各23分鐘。OP-1〈Kill or Kiss〉／平手友梨奈、ED-1〈シャケナベイベー〉／AKASAKI。4月首播、配信及10月再放送分列。[關西電視台](https://www.ktv.jp/marriagetoxin/260407/)、[正版片長](https://www.hulu.jp/marriagetoxin/assets)、[官網曲表](https://www.marriagetoxin-anime.com/music/index.html) |
+| `curated-200769` | `saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo` | Hulu同版首三話各23分鐘，4月1日先行WEB分列。OP-1〈コンパスは透明〉／緑仙、ED-1〈もーいーかい？〉／ファントムシータ。[正版片長](https://www.hulu.jp/the-strongest-job-is-apparently-not-a-hero-or-a-sage-but-an-appraiser-provisional/assets)、[官網曲表](https://kanteishikari-anime.com/) |
+| `curated-190704` | `kanan-sama-wa-akumade-choroi` | Hulu同版首三話各23分鐘。OP-1〈初恋モーメント〉／Faulieu.、ED-1〈ポップ・スナック・ジャンクなHUNNY〉／あおぎり高校。[正版片長](https://www.hulu.jp/mistress-kanan-is-devilishly-easy/assets)、[曲目交叉](https://www.animatetimes.com/news/details.php?id=1768368652) |
+| `curated-189987` | `ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi` | Hulu同版首三話各23分鐘。OP-1〈ヒトリゴト〉／osage、ED-1〈部屋とガラクタと私〉／ミーマイナー。[正版片長](https://www.hulu.jp/the-klutzy-class-monitor-and-the-girl-with-the-short-skirt-project/assets)、[官方曲目公告](https://ponsuka.com/news/index00130000.html) |
+| `curated-197754` | `liar-game` | テレ東第1話獨立節目槽為24:00–24:30，欄位記節目時段。前半OP-1〈あぶく〉／ヨルシカ、ED-1〈朝日〉／Lucky Kilimanjaro，後半兩首維持原季度。[第1話節目表](https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202604/28984_202604062400.html)、[官方前半用曲](https://www.liargame-anime.com/news/post-35) |
+| `curated-202102` | `needy-girl-overdose` | Hulu同TV版第1、3話各24分鐘，第2話23分鐘。OP-1〈INTERNET ANGEL〉、ED-1〈れびてーしょん〉、第3話ED-2〈INTERNET OVERDOSE (Anime version)〉、第5話ED-3〈罪と罰〉與第13話ED-4〈Galge〉補齊基本證據。保留 Aiobahn +81 的原藝術家名義，另標超てんちゃん及 KOTOKO 的歌唱。新增IN-1〈Silver 30〉／カラマーゾフ，第10話插曲，記三名角色歌唱與作詞、作曲、編曲。[正版片長](https://www.hulu.jp/needy-girl-overdose/assets)、[官方曲表](https://needygirl-anime.com/music/)、[第10話團體曲](https://needygirl-anime.com/news/?id=70567)、[逐話交叉](https://cal.syoboi.jp/tid/7795) |
+
+《NEEDY GIRL OVERDOSE》第10話再用〈INTERNET OVERDOSE (Anime version)〉、第12話〈INTERNET YAMERO (Anime version)〉及第13話〈EZ DO DANCE〉有逐話線索。待同版正片 credits 或第一方音樂公告明列用途及所用錄音，再分別登記；保持現有遊戲與動畫版關係。
+
+本機27項單元、型別、靜態建置、CSP、Service Worker、公開邊界與統計通過。2,064部其他作品和28季公開JSON逐位元組相同。瀏覽器核對24張展開歌曲卡、69項春夏秋歌單納入／排除、8次手機鍵盤海報導覽與同意前零YouTube請求。第三方海報使用測試替身。
+
+本機名冊2,072作、5,004用途、4,298歌曲ID、2,707季度引用。基本待補1,059、僅季度待核293，共1,352筆用途待辦。動畫待補995作，其中637作已有用途待補、358作尚待收錄或分類，另2作不設獨立OP／ED。24筆實質用途更新納入待發布集合，65→89／100。
+
+### 第290批：2026春夏秋主題曲及末集跨季核對（2026-11-07）
+
+固定2007–2026及2026-10-14資料截止。補齊13筆既有OP／ED，新增1筆與既有特殊片尾共用歌曲ID的插曲用途。保留所有既有ID，秋季增加1筆作品引用。
+
+| 作品 ID | 用途 ID（前綴） | 核對結果 |
+| --- | --- | --- |
+| `curated-171110` | `honzuki-no-gekokujou-ryoushu-no-youjo` | 前半OP-1〈Pages〉／Little Glee Monster、ED-1〈今も、ありがとう〉／生田絵梨花。後半OP-2〈Power of Love〉／西野カナ、ED-2〈Wanna me〉／adieu。2026-10-03第24話仍使用後半兩曲，作品及兩用途加入秋季，春夏舊收錄保留。[官方曲表](https://booklove-anime.jp/music/)、[末集同版商品](https://victor-store.jp/item/109464)、[末集用曲及日期交叉](https://www.mau2.com/anime/honzukinogekokujou-4/ep/24) |
+| `curated-206523` | `onegai-aipri` | OP-1〈おねがいアイプリ！〉／おねがいかなえ隊、ED-1〈放課後のおねがい！〉／いぎなり東北産用至9月27日第26話；10月4日第27話起轉用OP-2〈かなえてキセキのエール！〉及ED-2〈おねがいテレパシー〉，各沿用原演唱團體。秋季兩用途分列。[官方曲表](https://aipri.jp/anime/staff-cast/)、[第26話編成](https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202609/29062_202609270930.html)、[第27話編成](https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202610/29062_202610040930.html)、[獨立曲表](https://animecca.jp/ja/works/onegaiaipuri) |
+| `curated-197824` | `isekai-nonbiri-nouka-2` | OP-1〈It’s a beautiful story〉由ルールーシー＝ルー（CV：下地紫野）與ティア（CV：洲崎綾）合唱；ED-1〈Sunny Steps〉／緋月ゆい。原合唱名義、個別版本與發行品關係分開。[官方曲目及署名](https://nonbiri-nouka2.com/news/information/219/)、[獨立曲表](https://cal.syoboi.jp/tid/7803) |
+| `curated-184492` | `mairimashita-iruma-kun-4` | 第7話ED-2〈リリス・カーペット〉／問題児クラス補齊基本證據；同話劇中音樂祭另建IN-1，沿用ED-2的歌曲ID。是否同一錄音仍待核對。[官方第7話演出](https://www.nhk-character.com/chara/iruma/news/watchparty.html)、[逐話用途交叉](https://www.mau2.com/anime/mairimasitairumakun-4/ep/7) |
+| `curated-206951` | `megami-isekai-tensei-nani-ni-naritai-desu-ka-ore-yuusha-no-rokkotsu-de` | Hulu同版首三話各22分鐘，U-NEXT同版首兩話各23分鐘，分平台記錄。OP-1〈転生願望〉／終活クラブ、ED-1〈何なんですか？〉／shallm。[Hulu片長](https://www.hulu.jp/my-ribdiculous-reincarnation/assets)、[U-NEXT片長](https://www.video.unext.jp/title/SID0282799)、[官方曲表](https://rokkotsu-anime.com/music/) |
+
+本機27項單元、型別、靜態建置、CSP、Service Worker、公開邊界與統計通過。2,067部其他作品及27季的公開JSON逐位元組相同。瀏覽器核對14張展開歌曲卡、42項歌單收錄／排除、6次手機鍵盤海報導覽（含秋季新增入口）、6筆歌曲的播出日期證據，及同意前零YouTube請求。第三方海報使用測試替身。
+
+本機名冊2,072作、5,005用途、4,298歌曲ID、2,708季度引用。基本待補1,046、僅季度待核293，共1,339筆用途待辦。動畫待補990作，其中632作已有用途待補、358作尚待收錄或分類，另2作不設獨立OP／ED。14筆實質用途更新使第285–290批集合由89增至103筆。
