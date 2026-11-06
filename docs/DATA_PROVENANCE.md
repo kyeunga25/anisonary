@@ -31,9 +31,9 @@ API、資料庫、商標或媒體重用權。完整授權邊界見
 
 `first_party` 表示動畫製作／發行方、唱片公司、藝人官方渠道、官方影片或正式播出機構的公開頁面。`cross_check` 表示用於發現缺口及交叉比對的公開索引。兩種角色都是來源分類，不代表數值信心或內容評分。
 
-2019 夏季目前整理 38 套 TV 作品及 4 套網絡連載，其他作品與特殊歌曲仍待核對；`coverageNote` 會在季度頁及 API 公開說明本季範圍。
+各季度的 `coverageNote` 會在頁面及 API 說明整理範圍，未解缺口與接續位置見[收集進度](./CATALOG_COLLECTION_STATUS.md)。目前本機數量由[目錄統計](./CATALOG_STATS.md)產生，不在治理規則重抄，也不把本機統計當作正式站或全季收齊的證明。
 
-目前二十八季快照的 season references、1,917 個作品及 4,229 筆 OP／ED 都有結構化 provenance；4,229 筆歌曲全部至少保留一個 `first_party` 與一個 `cross_check` 來源。`tests/unit/curated-catalog.test.ts` 將全量資料送入公開 API 契約與跨 endpoint gate，檢查來源角色、語言、HTTPS、核對日期與 ledger 一致性，並確認作品、季度歸屬和搜尋索引沒有遺漏；不重抄固定數量、日期或逐首歌曲內容。
+已審閱快照的 season references、作品及歌曲用途均保留結構化 provenance。`tests/unit/curated-catalog.test.ts` 將全量資料送入公開 API 契約與跨 endpoint gate，檢查來源角色、語言、HTTPS、核對日期與 ledger 一致性，並確認作品、季度歸屬和搜尋索引沒有遺漏；不重抄固定數量、日期或逐首歌曲內容。
 
 ## 欄位決策
 
@@ -47,6 +47,8 @@ API、資料庫、商標或媒體重用權。完整授權邊界見
 - 沒有已核對的繁中來源時，可省略 authoring 欄位 `wikipediaUrl`；公開 ledger 不生成 `localized_cross_check`，既有記錄的來源保持相容。正式配信名義與個別演唱 credits 分開核對，不能由前者自動推定後者。
 - 不生成曲名、譯名、credits、來源或影片；衝突未解決時保留原有 reviewed record 或不發布新欄位。
 - `sourceLabels`／`lastVerifiedAt` 暫留於 API v1 作相容欄位，不供新 UI 作唯一證據。
+
+當以逐話原播日期補用途季度時，可用 `anime_use` 的 `fields: ["date"]` 保存日期證據；它須配合已核歌曲用途及適用話數範圍，不能單憑節目日期頁推定該話使用某曲。介面依證據實體顯示日期含義：動畫用途為「播出日期」，發行品為「發行日期」，兩者沿用同一資料欄位。Air-date evidence supports timing and remains separate from song identity and usage evidence.
 
 ## 圖像與影片
 
@@ -66,6 +68,6 @@ API、資料庫、商標或媒體重用權。完整授權邊界見
 4. 一批資料收尾執行 `npm test`、`npm run build` 與 `npm run public:check`；前兩者已包含目錄、型別及 artifact gate。新季度、contract 或展示行為變更再跑 browser gate。
 5. 更新 [`收集進度`](./CATALOG_COLLECTION_STATUS.md)，保留可接續位置；正式發布時經 PR review 後合併，production API 再用同一 public contract 讀回驗收。
 
-完整歌曲收集、音源／發行品關係及按變更安排的驗證見 [`SONG_COLLECTION_WORKFLOW.md`](./SONG_COLLECTION_WORKFLOW.md)。每歌來源可保存獨立核對日期及欄位證據；局部深化沿用舊證據日期，只有實際查閱的來源更新日期。動畫 metadata 目前仍共用作品日期，歌曲深化以 `metadataVerifiedAt` 保留原有作品審閱時間。
+完整歌曲收集、音源／發行品關係及按變更安排的驗證見 [`SONG_COLLECTION_WORKFLOW.md`](./SONG_COLLECTION_WORKFLOW.md)。每歌來源可保存獨立核對日期及欄位證據；局部深化沿用舊證據日期，只有實際查閱的來源更新日期。動畫 metadata 可用 `metadataSources` 保留各 URL 的核對日期，`metadataVerifiedAt` 提供 authoring 預設；歌曲修正不刷新未重新查閱的作品或圖像來源。
 
 公開資料修正表單：<https://github.com/kyeunga25/anisonary/issues/new?template=catalog-correction.yml>
