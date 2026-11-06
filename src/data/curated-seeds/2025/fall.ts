@@ -13,7 +13,7 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
     "titleZhHant": "SPY×FAMILY Season 3",
     "titleRomaji": "SPY×FAMILY Season 3",
     "editorialWeekday": 6,
-    "broadcastLabel": "日本首播／詳細時間未整理",
+    "broadcastLabel": "日本TV第3期：テレビ東京系2025年10月4日（六）23:00起；第50話12月27日改於23:15開始。",
     "status": "finished",
     "officialSiteUrl": "https://spy-family.net/tvseries/",
     "anilistUrl": "https://anilist.co/anime/177937",
@@ -613,9 +613,272 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
             "availability": "unknown"
           }
         ]
+      },
+      {
+        "id": "spy-family-season-3-in-1",
+        "songId": "spy-family-season-3-in-1-song",
+        "type": "IN",
+        "sequence": 1,
+        "titleJa": "Bus Stop",
+        "artistDisplayName": "(K)NoW_NAME",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "usageLabel": "MISSION:46 插曲（2025-11-29）",
+        "lastVerifiedAt": "2026-11-07",
+        "credits": [
+          {
+            "name": "NIKIIE",
+            "role": "vocals"
+          },
+          {
+            "name": "NIKIIE",
+            "role": "lyrics"
+          },
+          {
+            "name": "NIKIIE",
+            "role": "composition"
+          },
+          {
+            "name": "Makoto Miyazaki",
+            "role": "arrangement"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=Z3YjXXfuuUg",
+            "label": "TOHO animation：第46話插曲、歌唱及創作署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://times.abema.tv/articles/-/10018463",
+            "label": "ABEMA Times：第46、50話插曲、場景及個別演唱",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202511/28752_202511292300.html",
+            "label": "テレビ東京：第46話日本首播編排",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "spy-family-season-3-in-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=Z3YjXXfuuUg",
+              "https://times.abema.tv/articles/-/10018463"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "spy-family-season-3-in-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=Z3YjXXfuuUg",
+              "https://times.abema.tv/articles/-/10018463"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "spy-family-season-3-in-1",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202511/28752_202511292300.html"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=Z3YjXXfuuUg"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "link",
+            "targetId": "https://www.youtube.com/watch?v=Z3YjXXfuuUg",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=Z3YjXXfuuUg"
+            ],
+            "verifiedAt": "2026-11-07"
+          }
+        ],
+        "links": [
+          {
+            "platform": "YouTube",
+            "label": "TOHO animation 第46話插曲影片",
+            "url": "https://www.youtube.com/watch?v=Z3YjXXfuuUg",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-07"
+          }
+        ]
+      },
+      {
+        "id": "spy-family-season-3-in-2",
+        "songId": "spy-family-season-3-in-2-song",
+        "type": "IN",
+        "sequence": 2,
+        "titleJa": "Break a Neck",
+        "artistDisplayName": "(K)NoW_NAME",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "usageLabel": "MISSION:50 插曲（2025-12-27）",
+        "lastVerifiedAt": "2026-11-07",
+        "credits": [
+          {
+            "name": "Ayaka Tachibana",
+            "role": "vocals"
+          },
+          {
+            "name": "AIJ",
+            "role": "lyrics"
+          },
+          {
+            "name": "Makoto Miyazaki",
+            "role": "composition"
+          },
+          {
+            "name": "Makoto Miyazaki",
+            "role": "arrangement"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=_hNuyQPQ6p8",
+            "label": "TOHO animation：第50話插曲、歌唱及創作署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://times.abema.tv/articles/-/10018463",
+            "label": "ABEMA Times：第46、50話插曲、場景及個別演唱",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202512/28752_202512272315.html",
+            "label": "テレビ東京：第50話日本首播編排",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "spy-family-season-3-in-2-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=_hNuyQPQ6p8",
+              "https://times.abema.tv/articles/-/10018463"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "spy-family-season-3-in-2",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=_hNuyQPQ6p8",
+              "https://times.abema.tv/articles/-/10018463"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "spy-family-season-3-in-2",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202512/28752_202512272315.html"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=_hNuyQPQ6p8"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "link",
+            "targetId": "https://www.youtube.com/watch?v=_hNuyQPQ6p8",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=_hNuyQPQ6p8"
+            ],
+            "verifiedAt": "2026-11-07"
+          }
+        ],
+        "links": [
+          {
+            "platform": "YouTube",
+            "label": "TOHO animation 第50話插曲影片",
+            "url": "https://www.youtube.com/watch?v=_hNuyQPQ6p8",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-07"
+          }
+        ]
       }
     ],
-    "verifiedAt": "2026-10-16"
+    "verifiedAt": "2026-10-16",
+    "metadataVerifiedAt": "2026-10-16",
+    "broadcastTimeJst": "23:00",
+    "metadataSources": [
+      {
+        "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202510/28752_202510042300.html",
+        "label": "テレビ東京：第38話、2025-10-04 23:00–23:30",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-07"
+      }
+    ]
   },
   {
     "anilistId": 170577,
@@ -7690,7 +7953,8 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
     "id": "curated-195153",
     "slug": "towa-no-yuugure",
     "seasonIds": [
-      "2025-fall"
+      "2025-fall",
+      "2025-summer"
     ],
     "verifiedAt": "2026-10-16",
     "startDate": "2025-09-26",
@@ -7698,7 +7962,7 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
     "titleZhHant": "永久のユウグレ",
     "titleRomaji": "Towa no Yuugure",
     "editorialWeekday": 5,
-    "broadcastLabel": "日本首播：第0話9月25日(木)24:26／第1話10月2日(木)24:26",
+    "broadcastLabel": "日本TV：MBS／TBS系第0話2025年9月25日（木）24:26（曆日9月26日）；第1話10月2日（木）24:26（曆日10月3日）。",
     "status": "finished",
     "officialSiteUrl": "https://towanoyuugure.com/",
     "anilistUrl": "https://anilist.co/anime/195153",
@@ -9160,16 +9424,17 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
         "artistDisplayName": "Hana Hope",
         "songId": "towa-no-yuugure-ed-2-song",
         "seasonIds": [
+          "2025-summer",
           "2025-fall"
         ],
         "sourceMode": "explicit",
         "sources": [
           {
             "url": "https://towanoyuugure.com/news/287/",
-            "label": "動畫官方：歌曲、演唱與用途",
+            "label": "動畫官方：Hana Hope〈星紡ぎ〉、第0話末段及雙片尾",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-10-16"
+            "verifiedAt": "2026-11-07"
           },
           {
             "url": "https://anison.online/anime/5424",
@@ -9191,6 +9456,27 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://towanoyuugure.com/news/89/",
+            "label": "動畫官方：日本TV自9月25日節目日24:26全國同步首播",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.4gamer.net/games/338/G033856/20251203036/",
+            "label": "4Gamer：〈星紡ぎ〉用於第0話及第9話片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.animatetimes.com/news/details.php?id=1758806592",
+            "label": "Animate Times：第0話及第1話TV編排與第0話用曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
           }
         ],
         "credits": [
@@ -9328,9 +9614,33 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
               "https://utaten.com/artist/lyric/48178"
             ],
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "towa-no-yuugure-ed-2",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://towanoyuugure.com/news/287/",
+              "https://www.4gamer.net/games/338/G033856/20251203036/"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "towa-no-yuugure-ed-2",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://towanoyuugure.com/news/89/",
+              "https://www.animatetimes.com/news/details.php?id=1758806592"
+            ],
+            "verifiedAt": "2026-11-07"
           }
         ],
-        "usageLabel": "ダブルED（第0話でも使用）",
+        "usageLabel": "雙片尾之一；第0話、第9話使用",
         "releaseDate": "2025-12-17",
         "recordings": [
           {
@@ -9391,7 +9701,24 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
         ]
       }
     ],
-    "broadcastTimeJst": "00:26"
+    "broadcastTimeJst": "00:26",
+    "metadataVerifiedAt": "2026-10-16",
+    "metadataSources": [
+      {
+        "url": "https://towanoyuugure.com/news/89/",
+        "label": "動畫官方：日本TV自9月25日節目日24:26全國同步首播",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-07"
+      },
+      {
+        "url": "https://www.animatetimes.com/news/details.php?id=1758806592",
+        "label": "Animate Times：第0話及第1話TV編排與第0話用曲",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-07"
+      }
+    ]
   },
   {
     "anilistId": 179992,
@@ -11820,6 +12147,13 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
             "role": "first_party",
             "language": "multi",
             "verifiedAt": "2026-10-16"
+          },
+          {
+            "url": "https://www.heroaca.com/news/25397/",
+            "label": "動畫官方：〈THE REVO〉自第162話改用Type-2片頭畫面",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
           }
         ],
         "credits": [
@@ -12104,6 +12438,17 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-10-16",
             "targetId": "https://mora.jp/package/43000087/SEXX03064B00Z/"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "boku-no-hero-academia-final-season-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.heroaca.com/news/25397/"
+            ],
+            "verifiedAt": "2026-11-07"
           }
         ],
         "recordings": [
@@ -12279,7 +12624,8 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
             "edition": "通常盤",
             "label": "SME Records"
           }
-        ]
+        ],
+        "usageLabel": "FINAL SEASON片頭曲；第3話（通算第162話）起改用Type-2片頭畫面"
       },
       {
         "type": "ED",
@@ -12515,7 +12861,8 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
         ]
       }
     ],
-    "broadcastTimeJst": "17:30"
+    "broadcastTimeJst": "17:30",
+    "metadataVerifiedAt": "2026-10-16"
   },
   {
     "anilistId": 162890,
@@ -14462,9 +14809,428 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
             "availability": "unknown"
           }
         ]
+      },
+      {
+        "id": "wandance-in-2",
+        "songId": "wandance-in-2-song",
+        "type": "IN",
+        "sequence": 2,
+        "titleJa": "くじら",
+        "artistDisplayName": "Yaffle feat. Sahnya",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "usageLabel": "第3話劇中歌",
+        "credits": [],
+        "lastVerifiedAt": "2026-11-07",
+        "releases": [
+          {
+            "id": "wandance-ost-rbcp-3618",
+            "title": "TVアニメ「ワンダンス」サウンドトラック",
+            "type": "soundtrack",
+            "artistDisplayName": "Various Artists",
+            "tracks": [
+              {
+                "title": "くじら",
+                "position": 8
+              }
+            ],
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "catalogNumber": "RBCP-3618",
+            "edition": "CD",
+            "label": "ランブリング・レコーズ"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://wandance.asmik-ace.co.jp/music",
+            "label": "動畫官方：劇中歌原名、名義及RBCP-3618曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.rambling.ne.jp/catalog/wandance/",
+            "label": "Rambling RECORDS：原聲帶劇中歌與正式曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://minkara.carview.co.jp/userid/207128/blog/48726321/",
+            "label": "第3話片尾曲目署名交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.mau2.com/anime/wandance",
+            "label": "Mau2：第3話劇中歌曲表",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "wandance-in-2-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://wandance.asmik-ace.co.jp/music",
+              "https://www.rambling.ne.jp/catalog/wandance/",
+              "https://minkara.carview.co.jp/userid/207128/blog/48726321/"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "wandance-in-2",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://wandance.asmik-ace.co.jp/music",
+              "https://www.rambling.ne.jp/catalog/wandance/",
+              "https://minkara.carview.co.jp/userid/207128/blog/48726321/",
+              "https://www.mau2.com/anime/wandance"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "release",
+            "targetId": "wandance-ost-rbcp-3618",
+            "fields": [
+              "title",
+              "type",
+              "date",
+              "catalog_number",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://wandance.asmik-ace.co.jp/music",
+              "https://www.rambling.ne.jp/catalog/wandance/"
+            ],
+            "verifiedAt": "2026-11-07"
+          }
+        ]
+      },
+      {
+        "id": "wandance-in-3",
+        "songId": "wandance-in-3-song",
+        "type": "IN",
+        "sequence": 3,
+        "titleJa": "Show Me",
+        "artistDisplayName": "Alisa",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "usageLabel": "第3話劇中歌",
+        "credits": [
+          {
+            "name": "Alisa",
+            "role": "vocals"
+          },
+          {
+            "name": "Alisa",
+            "role": "lyrics"
+          },
+          {
+            "name": "KAY",
+            "role": "arrangement"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-07",
+        "releases": [
+          {
+            "id": "wandance-ost-rbcp-3618",
+            "title": "TVアニメ「ワンダンス」サウンドトラック",
+            "type": "soundtrack",
+            "artistDisplayName": "Various Artists",
+            "tracks": [
+              {
+                "title": "Show Me",
+                "position": 7
+              }
+            ],
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "catalogNumber": "RBCP-3618",
+            "edition": "CD",
+            "label": "ランブリング・レコーズ"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://wandance.asmik-ace.co.jp/music",
+            "label": "動畫官方：劇中歌原名、名義及RBCP-3618曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.rambling.ne.jp/catalog/wandance/",
+            "label": "Rambling RECORDS：原聲帶劇中歌與正式曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://minkara.carview.co.jp/userid/207128/blog/48726321/",
+            "label": "第3話片尾曲目署名交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.mau2.com/anime/wandance",
+            "label": "Mau2：第3話劇中歌曲表",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.alisamusic.live/profile.html",
+            "label": "Alisa 官方：兩首原聲帶曲目及作詞、編曲",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-07"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "wandance-in-3-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://wandance.asmik-ace.co.jp/music",
+              "https://www.rambling.ne.jp/catalog/wandance/",
+              "https://minkara.carview.co.jp/userid/207128/blog/48726321/"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "wandance-in-3",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://wandance.asmik-ace.co.jp/music",
+              "https://www.rambling.ne.jp/catalog/wandance/",
+              "https://minkara.carview.co.jp/userid/207128/blog/48726321/",
+              "https://www.mau2.com/anime/wandance"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "release",
+            "targetId": "wandance-ost-rbcp-3618",
+            "fields": [
+              "title",
+              "type",
+              "date",
+              "catalog_number",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://wandance.asmik-ace.co.jp/music",
+              "https://www.rambling.ne.jp/catalog/wandance/"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.alisamusic.live/profile.html"
+            ],
+            "verifiedAt": "2026-11-07"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "composition",
+              "recording_format"
+            ],
+            "note": "藝人簡介與發行署名對共同作曲者的記載有出入，現保存兩方一致的作詞及編曲；實際播出音源與商品版關係待核。",
+            "resumeWhen": "待製作方或唱片公司提供可核對的同版完整創作及音源版本資料。",
+            "checkedAt": "2026-11-07"
+          }
+        ]
+      },
+      {
+        "id": "wandance-in-4",
+        "songId": "wandance-in-4-song",
+        "type": "IN",
+        "sequence": 4,
+        "titleJa": "Easy Breathing",
+        "artistDisplayName": "Alisa",
+        "seasonIds": [
+          "2025-fall"
+        ],
+        "sourceMode": "explicit",
+        "usageLabel": "第3話劇中歌",
+        "credits": [
+          {
+            "name": "Alisa",
+            "role": "vocals"
+          },
+          {
+            "name": "Alisa",
+            "role": "lyrics"
+          },
+          {
+            "name": "KAY",
+            "role": "arrangement"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-07",
+        "releases": [
+          {
+            "id": "wandance-ost-rbcp-3618",
+            "title": "TVアニメ「ワンダンス」サウンドトラック",
+            "type": "soundtrack",
+            "artistDisplayName": "Various Artists",
+            "tracks": [
+              {
+                "title": "Easy Breathing",
+                "position": 9
+              }
+            ],
+            "date": {
+              "value": "2025-12-24",
+              "precision": "day"
+            },
+            "catalogNumber": "RBCP-3618",
+            "edition": "CD",
+            "label": "ランブリング・レコーズ"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://wandance.asmik-ace.co.jp/music",
+            "label": "動畫官方：劇中歌原名、名義及RBCP-3618曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.rambling.ne.jp/catalog/wandance/",
+            "label": "Rambling RECORDS：原聲帶劇中歌與正式曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://minkara.carview.co.jp/userid/207128/blog/48726321/",
+            "label": "第3話片尾曲目署名交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.mau2.com/anime/wandance",
+            "label": "Mau2：第3話劇中歌曲表",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.alisamusic.live/profile.html",
+            "label": "Alisa 官方：兩首原聲帶曲目及作詞、編曲",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-07"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "wandance-in-4-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://wandance.asmik-ace.co.jp/music",
+              "https://www.rambling.ne.jp/catalog/wandance/",
+              "https://minkara.carview.co.jp/userid/207128/blog/48726321/"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "wandance-in-4",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://wandance.asmik-ace.co.jp/music",
+              "https://www.rambling.ne.jp/catalog/wandance/",
+              "https://minkara.carview.co.jp/userid/207128/blog/48726321/",
+              "https://www.mau2.com/anime/wandance"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "release",
+            "targetId": "wandance-ost-rbcp-3618",
+            "fields": [
+              "title",
+              "type",
+              "date",
+              "catalog_number",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://wandance.asmik-ace.co.jp/music",
+              "https://www.rambling.ne.jp/catalog/wandance/"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.alisamusic.live/profile.html"
+            ],
+            "verifiedAt": "2026-11-07"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "composition",
+              "recording_format"
+            ],
+            "note": "藝人簡介與發行署名對共同作曲者的記載有出入，現保存兩方一致的作詞及編曲；實際播出音源與商品版關係待核。",
+            "resumeWhen": "待製作方或唱片公司提供可核對的同版完整創作及音源版本資料。",
+            "checkedAt": "2026-11-07"
+          }
+        ]
       }
     ],
-    "broadcastTimeJst": "23:45"
+    "broadcastTimeJst": "23:45",
+    "metadataVerifiedAt": "2026-10-16"
   },
   {
     "anilistId": 195240,
@@ -47870,10 +48636,10 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
           },
           {
             "url": "https://si-vis.live/music/discography/album02.html",
-            "label": "動畫官方：第二季度歌曲原名、收錄及演唱",
+            "label": "SI-VIS官方：PACEM 通常盤 CD 發行日期、品番及曲序",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-10-19"
+            "verifiedAt": "2026-11-07"
           },
           {
             "url": "https://www.lisani.jp/0000302983/",
@@ -47888,6 +48654,13 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://si-vis.live/music/discography/album02-limited.html",
+            "label": "SI-VIS官方：PACEM 初回生産限定盤 CD＋Blu-ray 發行日期、品番及曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
           }
         ],
         "lastVerifiedAt": "2026-10-19",
@@ -47920,6 +48693,38 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
               "https://anison.online/artist/SI-VIS"
             ],
             "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "release",
+            "targetId": "sivis-pacem-vvcl2896",
+            "fields": [
+              "title",
+              "type",
+              "date",
+              "edition",
+              "catalog_number",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album02.html"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "release",
+            "targetId": "sivis-pacem-vvcl2894",
+            "fields": [
+              "title",
+              "type",
+              "date",
+              "edition",
+              "catalog_number",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album02-limited.html"
+            ],
+            "verifiedAt": "2026-11-07"
           }
         ],
         "usageLabel": "第2クール OP",
@@ -47932,6 +48737,44 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
             "note": "官方PACEM另列SI-VIS ALL STARS bonus表記；本筆先記錄TV歌曲基本用途，未合併或拆分未核對錄音。",
             "resumeWhen": "詳細深化時核對演唱名義、音源差異及實際收錄對應。",
             "checkedAt": "2026-10-19"
+          }
+        ],
+        "releases": [
+          {
+            "id": "sivis-pacem-vvcl2896",
+            "title": "PACEM",
+            "artistDisplayName": "SI-VIS",
+            "type": "ep",
+            "date": {
+              "value": "2026-03-25",
+              "precision": "day"
+            },
+            "edition": "通常盤 CD",
+            "catalogNumber": "VVCL-2896",
+            "tracks": [
+              {
+                "title": "スーパーノヴァ",
+                "position": 1
+              }
+            ]
+          },
+          {
+            "id": "sivis-pacem-vvcl2894",
+            "title": "PACEM",
+            "artistDisplayName": "SI-VIS",
+            "type": "ep",
+            "date": {
+              "value": "2026-03-25",
+              "precision": "day"
+            },
+            "edition": "初回生産限定盤 CD＋Blu-ray",
+            "catalogNumber": "VVCL-2894〜2895",
+            "tracks": [
+              {
+                "title": "スーパーノヴァ",
+                "position": 1
+              }
+            ]
           }
         ]
       },
@@ -47955,10 +48798,10 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
           },
           {
             "url": "https://si-vis.live/music/discography/album02.html",
-            "label": "動畫官方：第二季度歌曲原名、收錄及演唱",
+            "label": "SI-VIS官方：PACEM 通常盤 CD 發行日期、品番及曲序",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-10-19"
+            "verifiedAt": "2026-11-07"
           },
           {
             "url": "https://www.lisani.jp/0000302983/",
@@ -47973,6 +48816,41 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://si-vis.live/news/?id=69550",
+            "label": "SI-VIS 官方正文：第二季度片尾 Boys side 及演唱角色",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://si-vis.live/news/?id=69719",
+            "label": "SI-VIS 官方正文：第二季度片尾 Girls side 及演唱角色",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.mau2.com/anime/sivisthesoundofheroes",
+            "label": "Mau2：SI-VIS逐話歌曲用途",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://seesaawiki.jp/w/radioi_34/d/SI-VIS%3A%20The%20Sound%20of%20Heroes",
+            "label": "逐話片尾字幕交叉：片尾曲名及版本輪替",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://si-vis.live/music/discography/album02-limited.html",
+            "label": "SI-VIS官方：PACEM 初回生産限定盤 CD＋Blu-ray 發行日期、品番及曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
           }
         ],
         "lastVerifiedAt": "2026-10-19",
@@ -48005,9 +48883,81 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
               "https://anison.online/artist/SI-VIS"
             ],
             "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "si-vis-the-sound-of-heroes-ed-2",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=69550",
+              "https://si-vis.live/news/?id=69719",
+              "https://www.mau2.com/anime/sivisthesoundofheroes",
+              "https://seesaawiki.jp/w/radioi_34/d/SI-VIS%3A%20The%20Sound%20of%20Heroes"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "recording",
+            "targetId": "si-vis-the-sound-of-heroes-ed-2-boys-side",
+            "fields": [
+              "title",
+              "artist",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=69550"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "recording",
+            "targetId": "si-vis-the-sound-of-heroes-ed-2-girls-side",
+            "fields": [
+              "title",
+              "artist",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/news/?id=69719"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "release",
+            "targetId": "sivis-pacem-vvcl2896",
+            "fields": [
+              "title",
+              "type",
+              "date",
+              "edition",
+              "catalog_number",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album02.html"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "release",
+            "targetId": "sivis-pacem-vvcl2894",
+            "fields": [
+              "title",
+              "type",
+              "date",
+              "edition",
+              "catalog_number",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album02-limited.html"
+            ],
+            "verifiedAt": "2026-11-07"
           }
         ],
-        "usageLabel": "第2クール ED",
+        "usageLabel": "第2季度片尾曲；第15–17話 Boys side、第18–20話 Girls side",
         "followUp": [
           {
             "fields": [
@@ -48018,6 +48968,114 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
             "note": "官方另列Boys side、Girls side及SI-VIS ALL STARS表記；保留為同曲待深化項目，不由影片或專輯筆數新增歌曲。",
             "resumeWhen": "詳細深化時按官方曲目及演唱資料核對各版錄音和TV使用。",
             "checkedAt": "2026-10-19"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "si-vis-the-sound-of-heroes-ed-2-boys-side",
+            "title": "Singing Over -Boys side-",
+            "kind": "character",
+            "format": "unknown",
+            "credits": [
+              {
+                "name": "キョウヤ",
+                "role": "vocals"
+              },
+              {
+                "name": "ソウジ",
+                "role": "vocals"
+              },
+              {
+                "name": "JUNE",
+                "role": "vocals"
+              }
+            ]
+          },
+          {
+            "id": "si-vis-the-sound-of-heroes-ed-2-girls-side",
+            "title": "Singing Over -Girls side-",
+            "kind": "character",
+            "format": "unknown",
+            "credits": [
+              {
+                "name": "凪",
+                "role": "vocals"
+              },
+              {
+                "name": "セイレーン",
+                "role": "vocals"
+              },
+              {
+                "name": "μ",
+                "role": "vocals"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "sivis-pacem-vvcl2896",
+            "title": "PACEM",
+            "artistDisplayName": "SI-VIS",
+            "type": "ep",
+            "date": {
+              "value": "2026-03-25",
+              "precision": "day"
+            },
+            "edition": "通常盤 CD",
+            "catalogNumber": "VVCL-2896",
+            "tracks": [
+              {
+                "title": "Singing Over",
+                "position": 8
+              },
+              {
+                "title": "Singing Over BOYS SIDE",
+                "position": 9,
+                "recordingId": "si-vis-the-sound-of-heroes-ed-2-boys-side"
+              },
+              {
+                "title": "Singing Over GIRLS SIDE",
+                "position": 10,
+                "recordingId": "si-vis-the-sound-of-heroes-ed-2-girls-side"
+              },
+              {
+                "title": "Singing Over SI-VIS ALL STARS",
+                "position": 12
+              }
+            ]
+          },
+          {
+            "id": "sivis-pacem-vvcl2894",
+            "title": "PACEM",
+            "artistDisplayName": "SI-VIS",
+            "type": "ep",
+            "date": {
+              "value": "2026-03-25",
+              "precision": "day"
+            },
+            "edition": "初回生産限定盤 CD＋Blu-ray",
+            "catalogNumber": "VVCL-2894〜2895",
+            "tracks": [
+              {
+                "title": "Singing Over",
+                "position": 8
+              },
+              {
+                "title": "Singing Over BOYS SIDE",
+                "position": 9,
+                "recordingId": "si-vis-the-sound-of-heroes-ed-2-boys-side"
+              },
+              {
+                "title": "Singing Over GIRLS SIDE",
+                "position": 10,
+                "recordingId": "si-vis-the-sound-of-heroes-ed-2-girls-side"
+              },
+              {
+                "title": "Singing Over SI-VIS ALL STARS",
+                "position": 12
+              }
+            ]
           }
         ]
       },
@@ -48034,10 +49092,10 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
         "sources": [
           {
             "url": "https://si-vis.live/music/discography/album02.html",
-            "label": "動畫官方：第二季度劇中歌曲目",
+            "label": "SI-VIS官方：PACEM 通常盤 CD 發行日期、品番及曲序",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-10-19"
+            "verifiedAt": "2026-11-07"
           },
           {
             "url": "https://si-vis.live/news/?id=69824",
@@ -48052,6 +49110,27 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://www.aniplex.co.jp/lineup/si-vis/news/detail/?id=69553",
+            "label": "Aniplex：第14話插曲及詞曲編署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.mau2.com/anime/sivisthesoundofheroes",
+            "label": "Mau2：SI-VIS逐話歌曲用途",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://si-vis.live/music/discography/album02-limited.html",
+            "label": "SI-VIS官方：PACEM 初回生産限定盤 CD＋Blu-ray 發行日期、品番及曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
           }
         ],
         "lastVerifiedAt": "2026-10-19",
@@ -48082,9 +49161,115 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
               "https://anison.online/artist/SI-VIS"
             ],
             "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "si-vis-the-sound-of-heroes-in-7",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.aniplex.co.jp/lineup/si-vis/news/detail/?id=69553",
+              "https://www.mau2.com/anime/sivisthesoundofheroes"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.aniplex.co.jp/lineup/si-vis/news/detail/?id=69553"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "release",
+            "targetId": "sivis-pacem-vvcl2896",
+            "fields": [
+              "title",
+              "type",
+              "date",
+              "edition",
+              "catalog_number",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album02.html"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "release",
+            "targetId": "sivis-pacem-vvcl2894",
+            "fields": [
+              "title",
+              "type",
+              "date",
+              "edition",
+              "catalog_number",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album02-limited.html"
+            ],
+            "verifiedAt": "2026-11-07"
           }
         ],
-        "usageLabel": "第2クール 劇中歌"
+        "usageLabel": "第14話插曲",
+        "credits": [
+          {
+            "name": "上坂梨紗",
+            "role": "lyrics"
+          },
+          {
+            "name": "YOMA",
+            "role": "composition"
+          },
+          {
+            "name": "YOMA",
+            "role": "arrangement"
+          }
+        ],
+        "releases": [
+          {
+            "id": "sivis-pacem-vvcl2896",
+            "title": "PACEM",
+            "artistDisplayName": "SI-VIS",
+            "type": "ep",
+            "date": {
+              "value": "2026-03-25",
+              "precision": "day"
+            },
+            "edition": "通常盤 CD",
+            "catalogNumber": "VVCL-2896",
+            "tracks": [
+              {
+                "title": "On the Highway",
+                "position": 2
+              }
+            ]
+          },
+          {
+            "id": "sivis-pacem-vvcl2894",
+            "title": "PACEM",
+            "artistDisplayName": "SI-VIS",
+            "type": "ep",
+            "date": {
+              "value": "2026-03-25",
+              "precision": "day"
+            },
+            "edition": "初回生産限定盤 CD＋Blu-ray",
+            "catalogNumber": "VVCL-2894〜2895",
+            "tracks": [
+              {
+                "title": "On the Highway",
+                "position": 2
+              }
+            ]
+          }
+        ]
       },
       {
         "type": "IN",
@@ -48099,10 +49284,10 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
         "sources": [
           {
             "url": "https://si-vis.live/music/discography/album02.html",
-            "label": "動畫官方：第二季度劇中歌曲目",
+            "label": "SI-VIS官方：PACEM 通常盤 CD 發行日期、品番及曲序",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-10-19"
+            "verifiedAt": "2026-11-07"
           },
           {
             "url": "https://si-vis.live/news/?id=69824",
@@ -48117,6 +49302,27 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://www.aniplex.co.jp/lineup/si-vis/news/detail/?id=69551",
+            "label": "Aniplex：第15話插曲及詞曲編署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.mau2.com/anime/sivisthesoundofheroes",
+            "label": "Mau2：SI-VIS逐話歌曲用途",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://si-vis.live/music/discography/album02-limited.html",
+            "label": "SI-VIS官方：PACEM 初回生産限定盤 CD＋Blu-ray 發行日期、品番及曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
           }
         ],
         "lastVerifiedAt": "2026-10-19",
@@ -48147,9 +49353,115 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
               "https://anison.online/artist/SI-VIS"
             ],
             "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "si-vis-the-sound-of-heroes-in-8",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.aniplex.co.jp/lineup/si-vis/news/detail/?id=69551",
+              "https://www.mau2.com/anime/sivisthesoundofheroes"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.aniplex.co.jp/lineup/si-vis/news/detail/?id=69551"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "release",
+            "targetId": "sivis-pacem-vvcl2896",
+            "fields": [
+              "title",
+              "type",
+              "date",
+              "edition",
+              "catalog_number",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album02.html"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "release",
+            "targetId": "sivis-pacem-vvcl2894",
+            "fields": [
+              "title",
+              "type",
+              "date",
+              "edition",
+              "catalog_number",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album02-limited.html"
+            ],
+            "verifiedAt": "2026-11-07"
           }
         ],
-        "usageLabel": "第2クール 劇中歌"
+        "usageLabel": "第15話插曲",
+        "credits": [
+          {
+            "name": "上坂梨紗",
+            "role": "lyrics"
+          },
+          {
+            "name": "戸嶋友祐",
+            "role": "composition"
+          },
+          {
+            "name": "戸嶋友祐",
+            "role": "arrangement"
+          }
+        ],
+        "releases": [
+          {
+            "id": "sivis-pacem-vvcl2896",
+            "title": "PACEM",
+            "artistDisplayName": "SI-VIS",
+            "type": "ep",
+            "date": {
+              "value": "2026-03-25",
+              "precision": "day"
+            },
+            "edition": "通常盤 CD",
+            "catalogNumber": "VVCL-2896",
+            "tracks": [
+              {
+                "title": "Trust me",
+                "position": 3
+              }
+            ]
+          },
+          {
+            "id": "sivis-pacem-vvcl2894",
+            "title": "PACEM",
+            "artistDisplayName": "SI-VIS",
+            "type": "ep",
+            "date": {
+              "value": "2026-03-25",
+              "precision": "day"
+            },
+            "edition": "初回生産限定盤 CD＋Blu-ray",
+            "catalogNumber": "VVCL-2894〜2895",
+            "tracks": [
+              {
+                "title": "Trust me",
+                "position": 3
+              }
+            ]
+          }
+        ]
       },
       {
         "type": "IN",
@@ -48164,10 +49476,10 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
         "sources": [
           {
             "url": "https://si-vis.live/music/discography/album02.html",
-            "label": "動畫官方：第二季度劇中歌曲目",
+            "label": "SI-VIS官方：PACEM 通常盤 CD 發行日期、品番及曲序",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-10-19"
+            "verifiedAt": "2026-11-07"
           },
           {
             "url": "https://si-vis.live/news/?id=69824",
@@ -48182,6 +49494,27 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://www.aniplex.co.jp/lineup/si-vis/news/detail/?id=69552",
+            "label": "Aniplex：第15話插曲及詞曲編署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.mau2.com/anime/sivisthesoundofheroes",
+            "label": "Mau2：SI-VIS逐話歌曲用途",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://si-vis.live/music/discography/album02-limited.html",
+            "label": "SI-VIS官方：PACEM 初回生産限定盤 CD＋Blu-ray 發行日期、品番及曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
           }
         ],
         "lastVerifiedAt": "2026-10-19",
@@ -48212,9 +49545,115 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
               "https://anison.online/artist/SI-VIS"
             ],
             "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "si-vis-the-sound-of-heroes-in-9",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.aniplex.co.jp/lineup/si-vis/news/detail/?id=69552",
+              "https://www.mau2.com/anime/sivisthesoundofheroes"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.aniplex.co.jp/lineup/si-vis/news/detail/?id=69552"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "release",
+            "targetId": "sivis-pacem-vvcl2896",
+            "fields": [
+              "title",
+              "type",
+              "date",
+              "edition",
+              "catalog_number",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album02.html"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "release",
+            "targetId": "sivis-pacem-vvcl2894",
+            "fields": [
+              "title",
+              "type",
+              "date",
+              "edition",
+              "catalog_number",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album02-limited.html"
+            ],
+            "verifiedAt": "2026-11-07"
           }
         ],
-        "usageLabel": "第2クール 劇中歌"
+        "usageLabel": "第15話插曲",
+        "credits": [
+          {
+            "name": "辻井りと",
+            "role": "lyrics"
+          },
+          {
+            "name": "戸嶋友祐",
+            "role": "composition"
+          },
+          {
+            "name": "戸嶋友祐",
+            "role": "arrangement"
+          }
+        ],
+        "releases": [
+          {
+            "id": "sivis-pacem-vvcl2896",
+            "title": "PACEM",
+            "artistDisplayName": "SI-VIS",
+            "type": "ep",
+            "date": {
+              "value": "2026-03-25",
+              "precision": "day"
+            },
+            "edition": "通常盤 CD",
+            "catalogNumber": "VVCL-2896",
+            "tracks": [
+              {
+                "title": "Benedictio canticum",
+                "position": 4
+              }
+            ]
+          },
+          {
+            "id": "sivis-pacem-vvcl2894",
+            "title": "PACEM",
+            "artistDisplayName": "SI-VIS",
+            "type": "ep",
+            "date": {
+              "value": "2026-03-25",
+              "precision": "day"
+            },
+            "edition": "初回生産限定盤 CD＋Blu-ray",
+            "catalogNumber": "VVCL-2894〜2895",
+            "tracks": [
+              {
+                "title": "Benedictio canticum",
+                "position": 4
+              }
+            ]
+          }
+        ]
       },
       {
         "type": "IN",
@@ -48236,10 +49675,10 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
           },
           {
             "url": "https://si-vis.live/music/discography/album02.html",
-            "label": "動畫官方：第二季度劇中歌曲目",
+            "label": "SI-VIS官方：PACEM 通常盤 CD 發行日期、品番及曲序",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-10-19"
+            "verifiedAt": "2026-11-07"
           },
           {
             "url": "https://si-vis.live/news/?id=69824",
@@ -48254,6 +49693,13 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://si-vis.live/music/discography/album02-limited.html",
+            "label": "SI-VIS官方：PACEM 初回生産限定盤 CD＋Blu-ray 發行日期、品番及曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
           }
         ],
         "lastVerifiedAt": "2026-10-19",
@@ -48296,6 +49742,38 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
               "https://www.aniplex.co.jp/lineup/si-vis/news/detail/?id=69718"
             ],
             "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "release",
+            "targetId": "sivis-pacem-vvcl2896",
+            "fields": [
+              "title",
+              "type",
+              "date",
+              "edition",
+              "catalog_number",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album02.html"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "release",
+            "targetId": "sivis-pacem-vvcl2894",
+            "fields": [
+              "title",
+              "type",
+              "date",
+              "edition",
+              "catalog_number",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album02-limited.html"
+            ],
+            "verifiedAt": "2026-11-07"
           }
         ],
         "usageLabel": "第18話 劇中歌",
@@ -48316,6 +49794,44 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
             "name": "塩野海",
             "role": "arrangement"
           }
+        ],
+        "releases": [
+          {
+            "id": "sivis-pacem-vvcl2896",
+            "title": "PACEM",
+            "artistDisplayName": "SI-VIS",
+            "type": "ep",
+            "date": {
+              "value": "2026-03-25",
+              "precision": "day"
+            },
+            "edition": "通常盤 CD",
+            "catalogNumber": "VVCL-2896",
+            "tracks": [
+              {
+                "title": "Destination of Life",
+                "position": 5
+              }
+            ]
+          },
+          {
+            "id": "sivis-pacem-vvcl2894",
+            "title": "PACEM",
+            "artistDisplayName": "SI-VIS",
+            "type": "ep",
+            "date": {
+              "value": "2026-03-25",
+              "precision": "day"
+            },
+            "edition": "初回生産限定盤 CD＋Blu-ray",
+            "catalogNumber": "VVCL-2894〜2895",
+            "tracks": [
+              {
+                "title": "Destination of Life",
+                "position": 5
+              }
+            ]
+          }
         ]
       },
       {
@@ -48331,10 +49847,10 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
         "sources": [
           {
             "url": "https://si-vis.live/music/discography/album02.html",
-            "label": "動畫官方：第二季度劇中歌曲目",
+            "label": "SI-VIS官方：PACEM 通常盤 CD 發行日期、品番及曲序",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-10-19"
+            "verifiedAt": "2026-11-07"
           },
           {
             "url": "https://si-vis.live/news/?id=69824",
@@ -48349,6 +49865,27 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://www.aniplex.co.jp/lineup/si-vis/news/detail/?id=70027",
+            "label": "Aniplex：第21話插曲及詞曲編署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.mau2.com/anime/sivisthesoundofheroes",
+            "label": "Mau2：SI-VIS逐話歌曲用途",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://si-vis.live/music/discography/album02-limited.html",
+            "label": "SI-VIS官方：PACEM 初回生産限定盤 CD＋Blu-ray 發行日期、品番及曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
           }
         ],
         "lastVerifiedAt": "2026-10-19",
@@ -48379,9 +49916,115 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
               "https://anison.online/artist/SI-VIS"
             ],
             "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "si-vis-the-sound-of-heroes-in-11",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.aniplex.co.jp/lineup/si-vis/news/detail/?id=70027",
+              "https://www.mau2.com/anime/sivisthesoundofheroes"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.aniplex.co.jp/lineup/si-vis/news/detail/?id=70027"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "release",
+            "targetId": "sivis-pacem-vvcl2896",
+            "fields": [
+              "title",
+              "type",
+              "date",
+              "edition",
+              "catalog_number",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album02.html"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "release",
+            "targetId": "sivis-pacem-vvcl2894",
+            "fields": [
+              "title",
+              "type",
+              "date",
+              "edition",
+              "catalog_number",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album02-limited.html"
+            ],
+            "verifiedAt": "2026-11-07"
           }
         ],
-        "usageLabel": "第2クール 劇中歌"
+        "usageLabel": "第21話插曲",
+        "credits": [
+          {
+            "name": "辻井りと",
+            "role": "lyrics"
+          },
+          {
+            "name": "YOSHIHIRO(KEYTONE)",
+            "role": "composition"
+          },
+          {
+            "name": "YOSHIHIRO(KEYTONE)",
+            "role": "arrangement"
+          }
+        ],
+        "releases": [
+          {
+            "id": "sivis-pacem-vvcl2896",
+            "title": "PACEM",
+            "artistDisplayName": "SI-VIS",
+            "type": "ep",
+            "date": {
+              "value": "2026-03-25",
+              "precision": "day"
+            },
+            "edition": "通常盤 CD",
+            "catalogNumber": "VVCL-2896",
+            "tracks": [
+              {
+                "title": "Bless",
+                "position": 6
+              }
+            ]
+          },
+          {
+            "id": "sivis-pacem-vvcl2894",
+            "title": "PACEM",
+            "artistDisplayName": "SI-VIS",
+            "type": "ep",
+            "date": {
+              "value": "2026-03-25",
+              "precision": "day"
+            },
+            "edition": "初回生産限定盤 CD＋Blu-ray",
+            "catalogNumber": "VVCL-2894〜2895",
+            "tracks": [
+              {
+                "title": "Bless",
+                "position": 6
+              }
+            ]
+          }
+        ]
       },
       {
         "type": "IN",
@@ -48396,10 +50039,10 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
         "sources": [
           {
             "url": "https://si-vis.live/music/discography/album02.html",
-            "label": "動畫官方：第二季度劇中歌曲目",
+            "label": "SI-VIS官方：PACEM 通常盤 CD 發行日期、品番及曲序",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-10-19"
+            "verifiedAt": "2026-11-07"
           },
           {
             "url": "https://si-vis.live/news/?id=69824",
@@ -48414,6 +50057,27 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://www.aniplex.co.jp/lineup/si-vis/news/detail/?id=70031",
+            "label": "Aniplex：第23話插曲及詞曲編署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.mau2.com/anime/sivisthesoundofheroes",
+            "label": "Mau2：SI-VIS逐話歌曲用途",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://si-vis.live/music/discography/album02-limited.html",
+            "label": "SI-VIS官方：PACEM 初回生産限定盤 CD＋Blu-ray 發行日期、品番及曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
           }
         ],
         "lastVerifiedAt": "2026-10-19",
@@ -48444,9 +50108,223 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
               "https://anison.online/artist/SI-VIS"
             ],
             "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "si-vis-the-sound-of-heroes-in-12",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.aniplex.co.jp/lineup/si-vis/news/detail/?id=70031",
+              "https://www.mau2.com/anime/sivisthesoundofheroes"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.aniplex.co.jp/lineup/si-vis/news/detail/?id=70031"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "release",
+            "targetId": "sivis-pacem-vvcl2896",
+            "fields": [
+              "title",
+              "type",
+              "date",
+              "edition",
+              "catalog_number",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album02.html"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "release",
+            "targetId": "sivis-pacem-vvcl2894",
+            "fields": [
+              "title",
+              "type",
+              "date",
+              "edition",
+              "catalog_number",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://si-vis.live/music/discography/album02-limited.html"
+            ],
+            "verifiedAt": "2026-11-07"
           }
         ],
-        "usageLabel": "第2クール 劇中歌"
+        "usageLabel": "第23話插曲",
+        "credits": [
+          {
+            "name": "上坂梨紗",
+            "role": "lyrics"
+          },
+          {
+            "name": "RyosukeMatsuzaki",
+            "role": "composition"
+          },
+          {
+            "name": "YUUforYOU",
+            "role": "composition"
+          },
+          {
+            "name": "RyosukeMatsuzaki",
+            "role": "arrangement"
+          },
+          {
+            "name": "YUUforYOU",
+            "role": "arrangement"
+          }
+        ],
+        "releases": [
+          {
+            "id": "sivis-pacem-vvcl2896",
+            "title": "PACEM",
+            "artistDisplayName": "SI-VIS",
+            "type": "ep",
+            "date": {
+              "value": "2026-03-25",
+              "precision": "day"
+            },
+            "edition": "通常盤 CD",
+            "catalogNumber": "VVCL-2896",
+            "tracks": [
+              {
+                "title": "MISSION",
+                "position": 7
+              }
+            ]
+          },
+          {
+            "id": "sivis-pacem-vvcl2894",
+            "title": "PACEM",
+            "artistDisplayName": "SI-VIS",
+            "type": "ep",
+            "date": {
+              "value": "2026-03-25",
+              "precision": "day"
+            },
+            "edition": "初回生産限定盤 CD＋Blu-ray",
+            "catalogNumber": "VVCL-2894〜2895",
+            "tracks": [
+              {
+                "title": "MISSION",
+                "position": 7
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "si-vis-the-sound-of-heroes-ed-3",
+        "songId": "si-vis-the-sound-of-heroes-in-3-song",
+        "type": "ED",
+        "sequence": 3,
+        "titleJa": "Braver Dreamer",
+        "artistDisplayName": "SI-VIS",
+        "seasonIds": [
+          "2026-winter"
+        ],
+        "sourceMode": "explicit",
+        "usageLabel": "第24話片尾（SI-VIS ALL STARS）",
+        "lastVerifiedAt": "2026-11-07",
+        "credits": [
+          {
+            "name": "SI-VIS",
+            "role": "vocals"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.aniplex.co.jp/lineup/si-vis/products/detail/?id=5400",
+            "label": "Aniplex：第24話無字幕片尾〈Braver Dreamer (SI-VIS ALL STARS)〉",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://seesaawiki.jp/w/radioi_34/d/SI-VIS%3A%20The%20Sound%20of%20Heroes",
+            "label": "逐話片尾字幕交叉：片尾曲名及版本輪替",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.fujitv.co.jp/b_hp/si-vis_live/index.html",
+            "label": "フジテレビ：2026-03-29播畢",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "si-vis-the-sound-of-heroes-in-3-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.aniplex.co.jp/lineup/si-vis/products/detail/?id=5400",
+              "https://seesaawiki.jp/w/radioi_34/d/SI-VIS%3A%20The%20Sound%20of%20Heroes"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "si-vis-the-sound-of-heroes-ed-3",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.aniplex.co.jp/lineup/si-vis/products/detail/?id=5400",
+              "https://seesaawiki.jp/w/radioi_34/d/SI-VIS%3A%20The%20Sound%20of%20Heroes"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "si-vis-the-sound-of-heroes-ed-3",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.fujitv.co.jp/b_hp/si-vis_live/index.html"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "recording",
+            "targetId": "si-vis-the-sound-of-heroes-ed-3-all-stars",
+            "fields": [
+              "title"
+            ],
+            "sourceUrls": [
+              "https://www.aniplex.co.jp/lineup/si-vis/products/detail/?id=5400"
+            ],
+            "verifiedAt": "2026-11-07"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "si-vis-the-sound-of-heroes-ed-3-all-stars",
+            "title": "Braver Dreamer (SI-VIS ALL STARS)",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ]
       }
     ],
     "metadataVerifiedAt": "2026-10-16",
@@ -67146,7 +69024,8 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
       "titleJa": "WE ARE MADE",
       "artistDisplayName": "Hazel Fernandes",
       "seasonIds": [
-        "2025-fall"
+        "2025-fall",
+        "2026-winter"
       ],
       "sourceMode": "explicit",
       "sources": [
@@ -67159,10 +69038,24 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
         },
         {
           "url": "https://www.anisil.com/animes/6471-%E9%BE%8D%E6%97%8FII%20-The%20Mourner's%20Eyes-",
-          "label": "アニシル：日本語版第2期OP／ED交叉資料",
+          "label": "アニシル：日本語吹替版曲名、名義及逐話用途",
           "role": "cross_check",
           "language": "ja",
-          "verifiedAt": "2026-10-31"
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://ryuzoku-anime.com/story/?id=24",
+          "label": "日本語吹替版官網：第24話",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.anisil.com/animes/6471/episodes",
+          "label": "アニシル：日本語吹替版冬季播出日期",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
         }
       ],
       "evidence": [
@@ -67231,10 +69124,32 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
             "https://www.anisil.com/animes/6471-%E9%BE%8D%E6%97%8FII%20-The%20Mourner's%20Eyes-"
           ],
           "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "ryuzoku-2-japanese-tv-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.anisil.com/animes/6471-%E9%BE%8D%E6%97%8FII%20-The%20Mourner's%20Eyes-"
+          ],
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "ryuzoku-2-japanese-tv-op-1",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.anisil.com/animes/6471/episodes"
+          ],
+          "verifiedAt": "2026-11-07"
         }
       ],
-      "lastVerifiedAt": "2026-10-31",
-      "usageLabel": "日本語吹替版オープニング主題歌",
+      "lastVerifiedAt": "2026-11-07",
+      "usageLabel": "日本語吹替版片頭曲，第3–24話（逐話曲表）",
       "credits": [
         {
           "name": "Mike Wyzgowski",
@@ -67250,14 +69165,6 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
         }
       ],
       "followUp": [
-        {
-          "fields": [
-            "use_quarters"
-          ],
-          "note": "已確認2025年秋季用途；2026年冬季逐曲使用情況仍待核對。",
-          "resumeWhen": "取得本日本語吹替第2期逐話用曲與播出日期的直接資料後，補充2026年冬季用途。",
-          "checkedAt": "2026-10-31"
-        },
         {
           "fields": [
             "recordings",
@@ -67281,7 +69188,8 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
       "titleJa": "Giver",
       "artistDisplayName": "ASCA",
       "seasonIds": [
-        "2025-fall"
+        "2025-fall",
+        "2026-winter"
       ],
       "sourceMode": "explicit",
       "sources": [
@@ -67294,10 +69202,31 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
         },
         {
           "url": "https://www.anisil.com/animes/6471-%E9%BE%8D%E6%97%8FII%20-The%20Mourner's%20Eyes-",
-          "label": "アニシル：日本語版第2期OP／ED交叉資料",
+          "label": "アニシル：日本語吹替版曲名、名義及逐話用途",
           "role": "cross_check",
           "language": "ja",
-          "verifiedAt": "2026-10-31"
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://ryuzoku-anime.com/story/?id=23",
+          "label": "日本語吹替版官網：第23話",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.anisil.com/animes/6471/episodes",
+          "label": "アニシル：日本語吹替版冬季播出日期",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/asca/info/580001",
+          "label": "Sony Music：〈Giver〉三款單曲、TV Size及曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
         }
       ],
       "evidence": [
@@ -67346,19 +69275,105 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
             "https://www.anisil.com/animes/6471-%E9%BE%8D%E6%97%8FII%20-The%20Mourner's%20Eyes-"
           ],
           "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "ryuzoku-2-japanese-tv-ed-3",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.anisil.com/animes/6471-%E9%BE%8D%E6%97%8FII%20-The%20Mourner's%20Eyes-"
+          ],
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "ryuzoku-2-japanese-tv-ed-3",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.anisil.com/animes/6471/episodes"
+          ],
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "recording",
+          "targetId": "ryuzoku-2-japanese-tv-ed-3-tv-size",
+          "fields": [
+            "title",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/asca/info/580001"
+          ],
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "recording",
+          "targetId": "ryuzoku-2-japanese-tv-ed-3-instrumental",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/asca/info/580001"
+          ],
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "release",
+          "targetId": "ryuzoku-2-japanese-tv-ed-3-vvcl-2838",
+          "fields": [
+            "title",
+            "artist",
+            "date",
+            "edition",
+            "catalog_number",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/asca/info/580001"
+          ],
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "release",
+          "targetId": "ryuzoku-2-japanese-tv-ed-3-vvcl-2840",
+          "fields": [
+            "title",
+            "artist",
+            "date",
+            "edition",
+            "catalog_number",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/asca/info/580001"
+          ],
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "release",
+          "targetId": "ryuzoku-2-japanese-tv-ed-3-vvcl-2841",
+          "fields": [
+            "title",
+            "artist",
+            "date",
+            "edition",
+            "catalog_number",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/asca/info/580001"
+          ],
+          "verifiedAt": "2026-11-07"
         }
       ],
-      "lastVerifiedAt": "2026-10-31",
-      "usageLabel": "日本語版片尾曲；序號依交叉曲表",
+      "lastVerifiedAt": "2026-11-07",
+      "usageLabel": "日本語吹替版片尾曲，第3–23話；序號及話數依逐話曲表",
       "followUp": [
-        {
-          "fields": [
-            "use_quarters"
-          ],
-          "note": "官方確定本曲為片尾曲，交叉曲表列為ED3。已確認2025年秋季用途，2026年冬季逐曲使用情況仍待核對；其他特殊片尾曲仍待第一方逐曲資料。",
-          "resumeWhen": "取得本日本語吹替第2期逐話用曲與播出日期的直接資料後，補充2026年冬季用途。",
-          "checkedAt": "2026-10-31"
-        },
         {
           "fields": [
             "lyrics",
@@ -67371,16 +69386,104 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
         },
         {
           "fields": [
-            "recordings",
             "recording_format",
             "video_metadata",
-            "releases",
             "platform_links",
             "platform_availability"
           ],
-          "note": "音源版本、影片、發行品及正版平台資料仍待核對。",
-          "resumeWhen": "進入詳細資料整理時，取得對應版本、影片、發行品或平台的直接資料後補充。",
-          "checkedAt": "2026-10-31"
+          "note": "已核三款CD、TV Size及Instrumental。主曲的音源格式、影片資訊及正版平台仍待核對。",
+          "resumeWhen": "取得單曲主曲的明確長度／格式或正式影片及平台項目後補充。",
+          "checkedAt": "2026-11-07"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "ryuzoku-2-japanese-tv-ed-3-tv-size",
+          "title": "Giver (TV Size)",
+          "kind": "vocal",
+          "format": "tv"
+        },
+        {
+          "id": "ryuzoku-2-japanese-tv-ed-3-instrumental",
+          "title": "Giver (Instrumental)",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "ryuzoku-2-japanese-tv-ed-3-vvcl-2838",
+          "title": "Giver",
+          "artistDisplayName": "ASCA",
+          "type": "single",
+          "date": {
+            "value": "2026-02-04",
+            "precision": "day"
+          },
+          "edition": "初回生産限定盤 CD＋BD",
+          "catalogNumber": "VVCL-2838～9",
+          "tracks": [
+            {
+              "title": "Giver",
+              "position": 1
+            },
+            {
+              "title": "Giver (Instrumental)",
+              "recordingId": "ryuzoku-2-japanese-tv-ed-3-instrumental",
+              "position": 3
+            }
+          ]
+        },
+        {
+          "id": "ryuzoku-2-japanese-tv-ed-3-vvcl-2840",
+          "title": "Giver",
+          "artistDisplayName": "ASCA",
+          "type": "single",
+          "date": {
+            "value": "2026-02-04",
+            "precision": "day"
+          },
+          "edition": "通常盤 CD",
+          "catalogNumber": "VVCL-2840",
+          "tracks": [
+            {
+              "title": "Giver",
+              "position": 1
+            },
+            {
+              "title": "Giver (Instrumental)",
+              "recordingId": "ryuzoku-2-japanese-tv-ed-3-instrumental",
+              "position": 3
+            }
+          ]
+        },
+        {
+          "id": "ryuzoku-2-japanese-tv-ed-3-vvcl-2841",
+          "title": "Giver",
+          "artistDisplayName": "ASCA",
+          "type": "single",
+          "date": {
+            "value": "2026-02-04",
+            "precision": "day"
+          },
+          "edition": "期間生産限定盤 CD＋BD",
+          "catalogNumber": "VVCL-2841～2",
+          "tracks": [
+            {
+              "title": "Giver",
+              "position": 1
+            },
+            {
+              "title": "Giver (TV Size)",
+              "recordingId": "ryuzoku-2-japanese-tv-ed-3-tv-size",
+              "position": 3
+            },
+            {
+              "title": "Giver (Instrumental)",
+              "recordingId": "ryuzoku-2-japanese-tv-ed-3-instrumental",
+              "position": 4
+            }
+          ]
         }
       ]
     }
@@ -67390,7 +69493,7 @@ export const curated2025FallSeeds: CuratedCatalogAnimeSeed[] = [
     "https://www.aniplex.co.jp/lineup/ryuzoku_2/",
     "https://thetv.jp/program/0001064529/"
   ],
-  "broadcastLabel": "日本語吹替第2期：2025-10-08（水）24:30開播，實曆為10月9日週四00:30；常規完整播出槽00:30–01:00，30分鐘為節目槽、非淨片長，配信01:00另列。作品播出季度為2025秋與2026冬；已核兩首用曲只登記2025秋，冬季逐曲用途仍待核對，與2024第一期及原語WEB版分開。",
+  "broadcastLabel": "日本語吹替第2期：2025-10-08（水）24:30開播，實曆為10月9日週四00:30；常規完整播出槽00:30–01:00，30分鐘為節目槽、非淨片長，配信01:00另列。作品播出季度為2025秋與2026冬；日本語吹替版片頭及常規片尾均有兩季用曲證據。與2024第一期及原語WEB版分開。",
   "identifierSource": {
     "label": "アニプレックス：日本語版第2期作品識別與播出",
     "url": "https://www.aniplex.co.jp/lineup/ryuzoku_2/",
