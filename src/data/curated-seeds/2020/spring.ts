@@ -4751,12 +4751,52 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "en",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Xc8r6A710C8",
+          "label": "ラッシュデュエルTV公式｜無字幕片頭及本人詞曲編",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ZUxvmzUUwdg",
+          "label": "Marvelous 官方 MV｜兩個日本單曲版本及曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/10027/",
+          "label": "Marvelous 官方原聲帶｜第一片頭 TV 尺寸",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.saekiyouthk.jp/6th-single",
+          "label": "佐伯ユウスケ官方唱片目錄｜兩種單曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
         }
       ],
       "credits": [
         {
           "name": "佐伯ユウスケ",
           "role": "vocals"
+        },
+        {
+          "name": "佐伯ユウスケ",
+          "role": "lyrics"
+        },
+        {
+          "name": "佐伯ユウスケ",
+          "role": "composition"
+        },
+        {
+          "name": "佐伯ユウスケ",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -4805,24 +4845,249 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "yugioh-sevens-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=Xc8r6A710C8"
+          ],
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "format",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/10027/"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "yugioh-sevens-op-1-ost-one-tv"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "edition",
+            "catalog_number",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://www.saekiyouthk.jp/6th-single",
+            "https://www.youtube.com/watch?v=ZUxvmzUUwdg"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "yugioh-sevens-jp-mjss-09265-6"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "edition",
+            "catalog_number",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://www.saekiyouthk.jp/6th-single",
+            "https://www.youtube.com/watch?v=ZUxvmzUUwdg"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "yugioh-sevens-jp-mjss-09267"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "edition",
+            "catalog_number",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/10027/"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "yugioh-sevens-jp-mjsa-01301"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=Xc8r6A710C8"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "Xc8r6A710C8"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=ZUxvmzUUwdg"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "ZUxvmzUUwdg"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.saekiyouthk.jp/6th-single"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "https://www.saekiyouthk.jp/6th-single"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/10027/"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "https://www.marv.jp/titles/mc/10027/"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "lyrics",
-            "composition",
             "arrangement",
-            "recordings",
-            "releases",
+            "composition",
+            "lyrics",
             "platform_links"
           ],
-          "note": "原曲名、正式名義及所列原TV用途季度已核；保既有ID、歌曲關係與影音。",
-          "resumeWhen": "待本曲直接音源／發行／平台資料再補可選欄位，不推新錄音或其他用途。",
-          "checkedAt": "2026-10-24"
+          "note": "逐曲收錄、音源原標及官方影片保存；其他音源規格、個別實唱或地區播放未有直接資料時留空。校歌版本的實際原TV署名與商品收錄分開。",
+          "resumeWhen": "原權利方新的逐曲音源、實唱、影片或地區播放資料可讀時補相應欄位。",
+          "checkedAt": "2026-11-07"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-07",
+      "recordings": [
+        {
+          "id": "yugioh-sevens-op-1-ost-one-tv",
+          "title": "ナナナナナナナ（TVサイズ）",
+          "format": "tv",
+          "kind": "vocal"
+        }
+      ],
+      "releases": [
+        {
+          "id": "yugioh-sevens-jp-mjss-09265-6",
+          "title": "ナナナナナナナ",
+          "type": "single",
+          "artistDisplayName": "佐伯ユウスケ",
+          "date": {
+            "value": "2020-09-09",
+            "precision": "day"
+          },
+          "catalogNumber": "MJSS-09265～6",
+          "label": "マーベラス",
+          "edition": "アーティスト盤 CD+DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ナナナナナナナ",
+              "position": 1,
+              "disc": 1
+            },
+            {
+              "title": "ナナナナナナナ（オリジナル・カラオケ）",
+              "position": 3,
+              "disc": 1
+            }
+          ]
+        },
+        {
+          "id": "yugioh-sevens-jp-mjss-09267",
+          "title": "ナナナナナナナ",
+          "type": "single",
+          "artistDisplayName": "佐伯ユウスケ",
+          "date": {
+            "value": "2020-09-09",
+            "precision": "day"
+          },
+          "catalogNumber": "MJSS-09267",
+          "label": "マーベラス",
+          "edition": "アニメ盤 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ナナナナナナナ",
+              "position": 1,
+              "disc": 1
+            },
+            {
+              "title": "ナナナナナナナ（オリジナル・カラオケ）",
+              "position": 3,
+              "disc": 1
+            }
+          ]
+        },
+        {
+          "id": "yugioh-sevens-jp-mjsa-01301",
+          "title": "『遊☆戯☆王SEVENS』オリジナル・サウンドトラック SOUND RUSH ONE!!",
+          "type": "soundtrack",
+          "artistDisplayName": "川﨑龍 他",
+          "date": {
+            "value": "2021-04-07",
+            "precision": "day"
+          },
+          "catalogNumber": "MJSA-01301",
+          "label": "マーベラス",
+          "edition": "日本 CD+DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ナナナナナナナ（TVサイズ）",
+              "recordingId": "yugioh-sevens-op-1-ost-one-tv"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "官方資料",
+          "label": "佐伯ユウスケ官方唱片目錄",
+          "url": "https://www.saekiyouthk.jp/6th-single",
+          "linkType": "official_landing_page",
+          "region": "JP",
+          "verifiedAt": "2026-11-07",
+          "availability": "unknown"
+        },
+        {
+          "platform": "官方資料",
+          "label": "Marvelous 原聲帶商品",
+          "url": "https://www.marv.jp/titles/mc/10027/",
+          "linkType": "official_landing_page",
+          "region": "JP",
+          "verifiedAt": "2026-11-07",
+          "availability": "unknown",
+          "releaseId": "yugioh-sevens-jp-mjsa-01301"
+        }
+      ]
     },
     {
       "type": "OP",
@@ -4901,6 +5166,27 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/10225/",
+          "label": "Marvelous 官方商品｜SOUND RUSH THREE!!",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://tower.jp/item/5299848",
+          "label": "Tower Records｜原商品曲序、完整版本標示與逐曲署名",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=YqOU93OW1Ao",
+          "label": "The Brow Beat 官方完整 MV",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
         }
       ],
       "credits": [
@@ -5004,21 +5290,119 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "https://www.tv-tokyo.co.jp/anime/yugioh-sevens/staff/"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "format",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/10225/",
+            "https://tower.jp/item/5299848"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "yugioh-sevens-op-2-ost-three-tv"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "edition",
+            "catalog_number",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/10225/",
+            "https://tower.jp/item/5299848"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "yugioh-sevens-jp-mjsa-01332-3"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=YqOU93OW1Ao"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "YqOU93OW1Ao"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/10225/"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "https://www.marv.jp/titles/mc/10225/"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "recordings",
-            "releases",
             "platform_links"
           ],
-          "note": "原曲名、正式名義及所列原TV用途季度已核；保既有ID、歌曲關係與影音。",
-          "resumeWhen": "待本曲直接音源／發行／平台資料再補可選欄位，不推新錄音或其他用途。",
-          "checkedAt": "2026-10-24"
+          "note": "逐曲收錄、音源原標及官方影片保存；其他音源規格、個別實唱或地區播放未有直接資料時留空。校歌版本的實際原TV署名與商品收錄分開。",
+          "resumeWhen": "原權利方新的逐曲音源、實唱、影片或地區播放資料可讀時補相應欄位。",
+          "checkedAt": "2026-11-07"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-07",
+      "recordings": [
+        {
+          "id": "yugioh-sevens-op-2-ost-three-tv",
+          "title": "ハレヴタイ (TV Size Ver.)",
+          "format": "tv",
+          "kind": "vocal"
+        }
+      ],
+      "releases": [
+        {
+          "id": "yugioh-sevens-jp-mjsa-01332-3",
+          "title": "『遊☆戯☆王SEVENS』オリジナル・サウンドトラック SOUND RUSH THREE!!",
+          "type": "soundtrack",
+          "artistDisplayName": "川﨑龍 他",
+          "date": {
+            "value": "2022-03-16",
+            "precision": "day"
+          },
+          "catalogNumber": "MJSA-01332~3",
+          "label": "マーベラス",
+          "edition": "日本 2CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ハレヴタイ (TV Size Ver.)",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "yugioh-sevens-op-2-ost-three-tv"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "官方資料",
+          "label": "Marvelous 原聲帶商品",
+          "url": "https://www.marv.jp/titles/mc/10225/",
+          "linkType": "official_landing_page",
+          "region": "JP",
+          "verifiedAt": "2026-11-07",
+          "availability": "unknown",
+          "releaseId": "yugioh-sevens-jp-mjsa-01332-3"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -5060,7 +5444,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-07"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E9%81%8A%E6%88%B2%E7%8E%8BSEVENS",
@@ -5082,6 +5466,13 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/10027/",
+          "label": "Marvelous 官方原聲帶｜三人版校歌 TV 尺寸",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
         }
       ],
       "credits": [
@@ -5170,21 +5561,166 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "https://www.marv.jp/titles/mc/9909/"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "edition",
+            "catalog_number",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9909/"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "yugioh-sevens-jp-mjss-09268"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "edition",
+            "catalog_number",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/10027/"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "yugioh-sevens-jp-mjsa-01301"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "format",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/10027/"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "yugioh-sevens-ed-1-ost-one-tv"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9909/"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "https://www.marv.jp/titles/mc/9909/"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/10027/"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "https://www.marv.jp/titles/mc/10027/"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "recordings",
-            "releases",
             "platform_links"
           ],
-          "note": "原曲名、正式名義及所列原TV用途季度已核；保既有ID、歌曲關係與影音。",
-          "resumeWhen": "待本曲直接音源／發行／平台資料再補可選欄位，不推新錄音或其他用途。",
-          "checkedAt": "2026-10-24"
+          "note": "逐曲收錄、音源原標及官方影片保存；其他音源規格、個別實唱或地區播放未有直接資料時留空。校歌版本的實際原TV署名與商品收錄分開。",
+          "resumeWhen": "原權利方新的逐曲音源、實唱、影片或地區播放資料可讀時補相應欄位。",
+          "checkedAt": "2026-11-07"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-07",
+      "recordings": [
+        {
+          "id": "yugioh-sevens-ed-1-ost-one-tv",
+          "title": "ゴーハ第七小学校校歌（TVサイズ）",
+          "format": "tv",
+          "kind": "character"
+        }
+      ],
+      "releases": [
+        {
+          "id": "yugioh-sevens-jp-mjss-09268",
+          "title": "ゴーハ第7小学校校歌",
+          "type": "single",
+          "artistDisplayName": "遊我（CV：石橋陽彩）、ルーク（CV：八代拓）、ガクト（CV：花江夏樹）",
+          "date": {
+            "value": "2020-09-09",
+            "precision": "day"
+          },
+          "catalogNumber": "MJSS-09268",
+          "label": "マーベラス",
+          "edition": "日本 CD+DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ゴーハ第7小学校校歌",
+              "position": 1,
+              "disc": 1
+            },
+            {
+              "title": "ゴーハ第7小学校校歌（オリジナル・カラオケ）",
+              "position": 3,
+              "disc": 1
+            }
+          ]
+        },
+        {
+          "id": "yugioh-sevens-jp-mjsa-01301",
+          "title": "『遊☆戯☆王SEVENS』オリジナル・サウンドトラック SOUND RUSH ONE!!",
+          "type": "soundtrack",
+          "artistDisplayName": "川﨑龍 他",
+          "date": {
+            "value": "2021-04-07",
+            "precision": "day"
+          },
+          "catalogNumber": "MJSA-01301",
+          "label": "マーベラス",
+          "edition": "日本 CD+DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ゴーハ第七小学校校歌（TVサイズ）",
+              "recordingId": "yugioh-sevens-ed-1-ost-one-tv"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "官方資料",
+          "label": "Marvelous ED 單曲商品",
+          "url": "https://www.marv.jp/titles/mc/9909/",
+          "linkType": "official_landing_page",
+          "region": "JP",
+          "verifiedAt": "2026-11-07",
+          "availability": "unknown",
+          "releaseId": "yugioh-sevens-jp-mjss-09268"
+        },
+        {
+          "platform": "官方資料",
+          "label": "Marvelous 原聲帶商品",
+          "url": "https://www.marv.jp/titles/mc/10027/",
+          "linkType": "official_landing_page",
+          "region": "JP",
+          "verifiedAt": "2026-11-07",
+          "availability": "unknown",
+          "releaseId": "yugioh-sevens-jp-mjsa-01301"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -5224,7 +5760,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-07"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E9%81%8A%E6%88%B2%E7%8E%8BSEVENS",
@@ -5246,6 +5782,13 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/yugioh-sevens/episodes/index_8.html",
+          "label": "テレビ東京｜第13話2020-08-29原播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
         }
       ],
       "credits": [
@@ -5326,21 +5869,89 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "https://www.marv.jp/titles/mc/9909/"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "edition",
+            "catalog_number",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9909/"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "yugioh-sevens-jp-mjss-09268"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9909/"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "https://www.marv.jp/titles/mc/9909/"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "recordings",
-            "releases",
-            "platform_links"
+            "platform_links",
+            "recordings"
           ],
-          "note": "原曲名、正式名義及所列原TV用途季度已核；保既有ID、歌曲關係與影音。",
-          "resumeWhen": "待本曲直接音源／發行／平台資料再補可選欄位，不推新錄音或其他用途。",
-          "checkedAt": "2026-10-24"
+          "note": "逐曲收錄、音源原標及官方影片保存；其他音源規格、個別實唱或地區播放未有直接資料時留空。校歌版本的實際原TV署名與商品收錄分開。",
+          "resumeWhen": "原權利方新的逐曲音源、實唱、影片或地區播放資料可讀時補相應欄位。",
+          "checkedAt": "2026-11-07"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-07",
+      "usageLabel": "第13話特殊片尾曲",
+      "releases": [
+        {
+          "id": "yugioh-sevens-jp-mjss-09268",
+          "title": "ゴーハ第7小学校校歌",
+          "type": "single",
+          "artistDisplayName": "遊我（CV：石橋陽彩）、ルーク（CV：八代拓）、ガクト（CV：花江夏樹）",
+          "date": {
+            "value": "2020-09-09",
+            "precision": "day"
+          },
+          "catalogNumber": "MJSS-09268",
+          "label": "マーベラス",
+          "edition": "日本 CD+DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ミニスケープ",
+              "position": 2,
+              "disc": 1
+            },
+            {
+              "title": "ミニスケープ（オリジナル・カラオケ）",
+              "position": 4,
+              "disc": 1
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "官方資料",
+          "label": "Marvelous 第13話特殊片尾收錄 CD",
+          "url": "https://www.marv.jp/titles/mc/9909/",
+          "linkType": "official_landing_page",
+          "region": "JP",
+          "verifiedAt": "2026-11-07",
+          "availability": "unknown",
+          "releaseId": "yugioh-sevens-jp-mjss-09268"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -5511,6 +6122,20 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.marv.jp/titles/av/10181/",
+          "label": "Marvelous 官方原聲帶｜track35 四人版 TV 尺寸",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://musicbrainz.org/release/0cfbc41a-56a1-47fb-8f35-c2250600b42e",
+          "label": "MusicBrainz｜同品番與曲序交叉",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
         }
       ],
       "credits": [
@@ -5543,26 +6168,117 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "yugioh-sevens-ed-4-song"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "edition",
+            "catalog_number",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/av/10181/",
+            "https://musicbrainz.org/release/0cfbc41a-56a1-47fb-8f35-c2250600b42e"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "yugioh-sevens-jp-mjsa-01316"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "format",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/av/10181/",
+            "https://musicbrainz.org/release/0cfbc41a-56a1-47fb-8f35-c2250600b42e"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "yugioh-sevens-ed-4-ost-two-tv"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/av/10181/"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "https://www.marv.jp/titles/av/10181/"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "lyrics",
-            "composition",
-            "arrangement",
-            "recordings",
-            "releases",
-            "platform_links",
             "basic_evidence",
             "use_quarters"
           ],
           "note": "本版本曲名及演唱名義有交叉資料；原期動畫實際使用及季度待確認。",
           "resumeWhen": "待原期官方逐話資料明列本版本用途及播出集數，並取得權利方對本曲名與演唱名義的直接資料後，再核對原播出日期與季度。",
           "checkedAt": "2026-10-24"
+        },
+        {
+          "fields": [
+            "arrangement",
+            "composition",
+            "lyrics",
+            "platform_links"
+          ],
+          "note": "逐曲收錄、音源原標及官方影片保存；其他音源規格、個別實唱或地區播放未有直接資料時留空。校歌版本的實際原TV署名與商品收錄分開。",
+          "resumeWhen": "原權利方新的逐曲音源、實唱、影片或地區播放資料可讀時補相應欄位。",
+          "checkedAt": "2026-11-07"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-07",
+      "recordings": [
+        {
+          "id": "yugioh-sevens-ed-4-ost-two-tv",
+          "title": "ゴーハ第７小学校校歌（4人合唱ver.・TVサイズ）",
+          "format": "tv",
+          "kind": "character"
+        }
+      ],
+      "releases": [
+        {
+          "id": "yugioh-sevens-jp-mjsa-01316",
+          "title": "『遊☆戯☆王SEVENS』オリジナル・サウンドトラック SOUND RUSH TWO!!",
+          "type": "soundtrack",
+          "artistDisplayName": "川﨑龍 他",
+          "date": {
+            "value": "2021-10-06",
+            "precision": "day"
+          },
+          "catalogNumber": "MJSA-01316",
+          "label": "マーベラス",
+          "edition": "日本 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ゴーハ第７小学校校歌（4人合唱ver.・TVサイズ）",
+              "position": 35,
+              "recordingId": "yugioh-sevens-ed-4-ost-two-tv"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "官方資料",
+          "label": "Marvelous 四人合唱 TV サイズ原聲帶",
+          "url": "https://www.marv.jp/titles/av/10181/",
+          "linkType": "official_landing_page",
+          "region": "JP",
+          "verifiedAt": "2026-11-07",
+          "availability": "unknown",
+          "releaseId": "yugioh-sevens-jp-mjsa-01316"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -5938,7 +6654,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-07"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E9%81%8A%E6%88%B2%E7%8E%8BSEVENS",
@@ -5981,6 +6697,13 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=62MrBZTKJFc",
+          "label": "シズクノメ官方影片｜片尾、完整逐曲詞曲編及 CD 品番",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
         }
       ],
       "credits": [
@@ -6103,22 +6826,153 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "https://www.tv-tokyo.co.jp/anime/yugioh-sevens/staff/"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "edition",
+            "catalog_number",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/10151/",
+            "https://www.youtube.com/watch?v=62MrBZTKJFc"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "yugioh-sevens-jp-mjss-09299"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "format",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/10151/"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "yugioh-sevens-ed-8-single-tv"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "format",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/10151/"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "yugioh-sevens-ed-8-single-instrumental"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/10151/",
+            "https://www.youtube.com/watch?v=62MrBZTKJFc"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "62MrBZTKJFc"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/10151/"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "https://www.marv.jp/titles/mc/10151/"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "recordings",
-            "releases",
             "platform_links"
           ],
-          "note": "原曲名、正式名義及所列原TV用途季度已核；保既有ID、歌曲關係與影音。",
-          "resumeWhen": "待本曲直接音源／發行／平台資料再補可選欄位，不推新錄音或其他用途。",
-          "checkedAt": "2026-10-24"
+          "note": "逐曲收錄、音源原標及官方影片保存；其他音源規格、個別實唱或地區播放未有直接資料時留空。校歌版本的實際原TV署名與商品收錄分開。",
+          "resumeWhen": "原權利方新的逐曲音源、實唱、影片或地區播放資料可讀時補相應欄位。",
+          "checkedAt": "2026-11-07"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-07",
+      "recordings": [
+        {
+          "id": "yugioh-sevens-ed-8-single-tv",
+          "title": "Never Looking Back（TV edit.）",
+          "format": "tv",
+          "kind": "vocal"
+        },
+        {
+          "id": "yugioh-sevens-ed-8-single-instrumental",
+          "title": "Never Looking Back（インストゥルメンタル）",
+          "format": "unknown",
+          "kind": "instrumental"
+        }
+      ],
+      "releases": [
+        {
+          "id": "yugioh-sevens-jp-mjss-09299",
+          "title": "Never Looking Back",
+          "type": "single",
+          "artistDisplayName": "シズクノメ",
+          "date": {
+            "value": "2021-07-28",
+            "precision": "day"
+          },
+          "catalogNumber": "MJSS-09299",
+          "label": "マーベラス",
+          "edition": "日本 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Never Looking Back",
+              "position": 1,
+              "disc": 1
+            },
+            {
+              "title": "Never Looking Back（TV edit.）",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "yugioh-sevens-ed-8-single-tv"
+            },
+            {
+              "title": "Never Looking Back（インストゥルメンタル）",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "yugioh-sevens-ed-8-single-instrumental"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "官方資料",
+          "label": "Marvelous 官方 ED 單曲商品",
+          "url": "https://www.marv.jp/titles/mc/10151/",
+          "linkType": "official_landing_page",
+          "region": "JP",
+          "verifiedAt": "2026-11-07",
+          "availability": "unknown",
+          "releaseId": "yugioh-sevens-jp-mjss-09299"
+        }
+      ]
     }
+  ,
+    {"id":"yugioh-sevens-ed-9","songId":"yugioh-sevens-are-you-red-song","sourceMode":"explicit","type":"ED","sequence":9,"titleJa":"Are You Re:D?","artistDisplayName":"霧島ロミン（CV：楠木ともり）","usageLabel":"第87話特殊片尾曲","seasonIds":["2022-winter"],"credits":[{"name":"霧島ロミン（CV：楠木ともり）","role":"vocals"},{"name":"楠木ともり","role":"lyrics"},{"name":"馬渕直純","role":"composition"},{"name":"馬渕直純","role":"arrangement"}],"releases":[{"id":"yugioh-sevens-jp-mjsa-01332-3","title":"『遊☆戯☆王SEVENS』オリジナル・サウンドトラック SOUND RUSH THREE!!","type":"soundtrack","artistDisplayName":"川﨑龍 他","date":{"value":"2022-03-16","precision":"day"},"catalogNumber":"MJSA-01332~3","label":"マーベラス","edition":"日本 2CD","region":"JP","tracks":[{"title":"Are You Re:D? (87話エンディング フルサイズ)","position":1,"disc":2}]}],"links":[{"platform":"官方資料","label":"Marvelous 原聲帶商品","url":"https://www.marv.jp/titles/mc/10225/","linkType":"official_landing_page","region":"JP","verifiedAt":"2026-11-07","availability":"unknown","releaseId":"yugioh-sevens-jp-mjsa-01332-3"},{"platform":"Tower Records","label":"Tower Records 日本原聲帶","url":"https://tower.jp/item/5299848","linkType":"physical_purchase","region":"JP","verifiedAt":"2026-11-07","availability":"unknown","releaseId":"yugioh-sevens-jp-mjsa-01332-3"}],"sources":[{"url":"https://prtimes.jp/main/html/rd/p/000001110.000016719.html","label":"Marvelous 原公告｜歌曲名義、插曲與2022-02-20特殊片尾","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://www.tv-tokyo.co.jp/anime/yugioh-sevens/episodes/","label":"テレビ東京｜第87話2022-02-20原播日期","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://www.joqr.co.jp/ic/article/41136/","label":"文化放送原期節目報道｜插曲、特別片尾與藝人親述","role":"cross_check","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://kagamidori-yugiohblog.com/yugioh-sevens87/","label":"日文原播回顧｜第87話曲名、名義與劇中段落","role":"cross_check","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://www.youtube.com/watch?v=aP5FTJp0Utg","label":"Marvelous 官方試聽｜本曲音源公開","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://www.anisil.com/animes/4746-%E9%81%8A%E2%98%86%E6%88%AF%E2%98%86%E7%8E%8BSEVENS","label":"アニシル｜第87話ED逐話交叉","role":"cross_check","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://www.marv.jp/titles/mc/10225/","label":"Marvelous 官方商品｜SOUND RUSH THREE!!","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://tower.jp/item/5299848","label":"Tower Records｜原商品曲序、完整版本標示與逐曲署名","role":"cross_check","language":"ja","verifiedAt":"2026-11-07"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://prtimes.jp/main/html/rd/p/000001110.000016719.html","https://www.youtube.com/watch?v=aP5FTJp0Utg"],"verifiedAt":"2026-11-07","targetId":"yugioh-sevens-are-you-red-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.joqr.co.jp/ic/article/41136/","https://kagamidori-yugiohblog.com/yugioh-sevens87/"],"verifiedAt":"2026-11-07","targetId":"yugioh-sevens-are-you-red-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://prtimes.jp/main/html/rd/p/000001110.000016719.html","https://www.tv-tokyo.co.jp/anime/yugioh-sevens/episodes/"],"verifiedAt":"2026-11-07","targetId":"yugioh-sevens-ed-9"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.joqr.co.jp/ic/article/41136/","https://kagamidori-yugiohblog.com/yugioh-sevens87/","https://www.anisil.com/animes/4746-%E9%81%8A%E2%98%86%E6%88%AF%E2%98%86%E7%8E%8BSEVENS"],"verifiedAt":"2026-11-07","targetId":"yugioh-sevens-ed-9"},{"target":"credits","fields":["credits"],"sourceUrls":["https://prtimes.jp/main/html/rd/p/000001110.000016719.html","https://tower.jp/item/5299848"],"verifiedAt":"2026-11-07"},{"target":"release","fields":["title","type","artist","date","edition","catalog_number","tracklist"],"sourceUrls":["https://prtimes.jp/main/html/rd/p/000001110.000016719.html","https://www.marv.jp/titles/mc/10225/","https://tower.jp/item/5299848"],"verifiedAt":"2026-11-07","targetId":"yugioh-sevens-jp-mjsa-01332-3"},{"target":"video","fields":["title","type","url"],"sourceUrls":["https://prtimes.jp/main/html/rd/p/000001110.000016719.html","https://www.youtube.com/watch?v=aP5FTJp0Utg"],"verifiedAt":"2026-11-07","targetId":"aP5FTJp0Utg"},{"target":"link","fields":["url"],"sourceUrls":["https://www.marv.jp/titles/mc/10225/"],"verifiedAt":"2026-11-07","targetId":"https://www.marv.jp/titles/mc/10225/"},{"target":"link","fields":["url"],"sourceUrls":["https://tower.jp/item/5299848"],"verifiedAt":"2026-11-07","targetId":"https://tower.jp/item/5299848"}],"lastVerifiedAt":"2026-11-07"},
+    {"id":"yugioh-sevens-in-1","songId":"yugioh-sevens-are-you-red-song","sourceMode":"explicit","type":"IN","sequence":1,"titleJa":"Are You Re:D?","artistDisplayName":"霧島ロミン（CV：楠木ともり）","usageLabel":"TV 插曲","seasonIds":["2022-winter"],"credits":[{"name":"霧島ロミン（CV：楠木ともり）","role":"vocals"},{"name":"楠木ともり","role":"lyrics"},{"name":"馬渕直純","role":"composition"},{"name":"馬渕直純","role":"arrangement"}],"releases":[{"id":"yugioh-sevens-jp-mjsa-01332-3","title":"『遊☆戯☆王SEVENS』オリジナル・サウンドトラック SOUND RUSH THREE!!","type":"soundtrack","artistDisplayName":"川﨑龍 他","date":{"value":"2022-03-16","precision":"day"},"catalogNumber":"MJSA-01332~3","label":"マーベラス","edition":"日本 2CD","region":"JP","tracks":[{"title":"Are You Re:D? (87話エンディング フルサイズ)","position":1,"disc":2}]}],"links":[{"platform":"官方資料","label":"Marvelous 原聲帶商品","url":"https://www.marv.jp/titles/mc/10225/","linkType":"official_landing_page","region":"JP","verifiedAt":"2026-11-07","availability":"unknown","releaseId":"yugioh-sevens-jp-mjsa-01332-3"},{"platform":"Tower Records","label":"Tower Records 日本原聲帶","url":"https://tower.jp/item/5299848","linkType":"physical_purchase","region":"JP","verifiedAt":"2026-11-07","availability":"unknown","releaseId":"yugioh-sevens-jp-mjsa-01332-3"}],"sources":[{"url":"https://prtimes.jp/main/html/rd/p/000001110.000016719.html","label":"Marvelous 原公告｜歌曲名義、插曲與2022-02-20特殊片尾","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://www.tv-tokyo.co.jp/anime/yugioh-sevens/episodes/","label":"テレビ東京｜第87話2022-02-20原播日期","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://www.joqr.co.jp/ic/article/41136/","label":"文化放送原期節目報道｜插曲、特別片尾與藝人親述","role":"cross_check","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://kagamidori-yugiohblog.com/yugioh-sevens87/","label":"日文原播回顧｜第87話曲名、名義與劇中段落","role":"cross_check","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://www.youtube.com/watch?v=aP5FTJp0Utg","label":"Marvelous 官方試聽｜本曲音源公開","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://forum.gamer.com.tw/Co.php?bPage=0&bsn=44842&sn=49274&subbsn=4","label":"巴哈姆特原作觀眾回顧｜第87話劇中用歌及片尾","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-11-07"},{"url":"https://www.marv.jp/titles/mc/10225/","label":"Marvelous 官方商品｜SOUND RUSH THREE!!","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://tower.jp/item/5299848","label":"Tower Records｜原商品曲序、完整版本標示與逐曲署名","role":"cross_check","language":"ja","verifiedAt":"2026-11-07"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://prtimes.jp/main/html/rd/p/000001110.000016719.html","https://www.youtube.com/watch?v=aP5FTJp0Utg"],"verifiedAt":"2026-11-07","targetId":"yugioh-sevens-are-you-red-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.joqr.co.jp/ic/article/41136/","https://kagamidori-yugiohblog.com/yugioh-sevens87/"],"verifiedAt":"2026-11-07","targetId":"yugioh-sevens-are-you-red-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://prtimes.jp/main/html/rd/p/000001110.000016719.html"],"verifiedAt":"2026-11-07","targetId":"yugioh-sevens-in-1"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.joqr.co.jp/ic/article/41136/","https://kagamidori-yugiohblog.com/yugioh-sevens87/","https://forum.gamer.com.tw/Co.php?bPage=0&bsn=44842&sn=49274&subbsn=4"],"verifiedAt":"2026-11-07","targetId":"yugioh-sevens-in-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://prtimes.jp/main/html/rd/p/000001110.000016719.html","https://tower.jp/item/5299848"],"verifiedAt":"2026-11-07"},{"target":"release","fields":["title","type","artist","date","edition","catalog_number","tracklist"],"sourceUrls":["https://prtimes.jp/main/html/rd/p/000001110.000016719.html","https://www.marv.jp/titles/mc/10225/","https://tower.jp/item/5299848"],"verifiedAt":"2026-11-07","targetId":"yugioh-sevens-jp-mjsa-01332-3"},{"target":"video","fields":["title","type","url"],"sourceUrls":["https://prtimes.jp/main/html/rd/p/000001110.000016719.html","https://www.youtube.com/watch?v=aP5FTJp0Utg"],"verifiedAt":"2026-11-07","targetId":"aP5FTJp0Utg"},{"target":"link","fields":["url"],"sourceUrls":["https://www.marv.jp/titles/mc/10225/"],"verifiedAt":"2026-11-07","targetId":"https://www.marv.jp/titles/mc/10225/"},{"target":"link","fields":["url"],"sourceUrls":["https://tower.jp/item/5299848"],"verifiedAt":"2026-11-07","targetId":"https://tower.jp/item/5299848"}],"lastVerifiedAt":"2026-11-07"}
   ],
   "metadataVerifiedAt": "2026-09-02",
   "metadataSources": [

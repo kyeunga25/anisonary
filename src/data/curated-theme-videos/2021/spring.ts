@@ -699,4 +699,5 @@ export const curated2021SpringThemeVideos = {
   "130584:ED:2": [{"youtubeVideoId":"2XgSOvT7yG0","title":"祭nine.「ROOTS」Music Video","type":"music_video","channelName":"UNIVERSAL MUSIC JAPAN","officialStatus":"official","embeddable":false}],
   "130584:ED:3": [{"youtubeVideoId":"s163vCJiSLI","title":"MV 上月せれな みんなといる世界（TVアニメ「デュエル・マスターズ キング！」エンディングテーマ）","type":"music_video","channelName":"上月せれな（せれちゅ）","officialStatus":"official","embeddable":false}],
   "130584:OP:2": [{"youtubeVideoId":"z4W1Tcq31ag","title":"New Single 「Sinners」","type":"music_video","channelName":"NIGHTMARE OFFICIAL CHANNEL","officialStatus":"official","embeddable":false}],
+  "119675:ED:6": [{"youtubeVideoId":"3HXMlwkkK6M","title":"TVアニメ『SHAMAN KING』第4弾ノンクレジットエンディング","type":"creditless_ed","channelName":"「KING AMUSEMENT CREATIVE」公式チャンネル","officialStatus":"official","embeddable":false}],
 } satisfies CuratedThemeVideoOverrideMap;

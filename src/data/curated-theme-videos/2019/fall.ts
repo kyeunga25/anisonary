@@ -646,4 +646,6 @@ export const curated2019FallThemeVideos = {
       embeddable: true,
     },
   ],
+  "110788:OP:1": [{"youtubeVideoId":"uZm6X60vttk","title":"Ivy to Fraudulent Game ”blue blue blue” MUSIC VIDEO","type":"music_video","channelName":"Ivy to Fraudulent Game","officialStatus":"official","embeddable":false}],
+  "110788:OP:2": [{"youtubeVideoId":"5dv7cnisrB8","title":"MAGIC OF LiFE - 『Player』OFFICIAL MUSIC VIDEO(テレビ東京系TVアニメ\"ゾイドワイルドZERO\"オープニング主題歌)","type":"music_video","channelName":"MAGIC OF LiFE official","officialStatus":"official","embeddable":false}],
 } satisfies CuratedThemeVideoOverrideMap;

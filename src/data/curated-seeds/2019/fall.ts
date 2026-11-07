@@ -2747,833 +2747,1534 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
 ],
 },
   {
-    anilistId: 110788,
-    slug: "zoids-wild-zero",
-    startDate: "2019-10-04",
-    titleJa: "ゾイドワイルド ZERO",
-    titleZhHant: "機獸戰記 狂野爆發 ZERO",
-    titleRomaji: "Zoids Wild ZERO",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110788-2CGGh39Z2yUJ.png",
-    broadcastLabel: "2019年日本原TV版，10月4日起週五17:55播出；同本2020年9月正常單話17:55–18:25為完整30分槽，非淨長；正篇延長與逐曲季度分開待核。",
-    officialSiteUrl:
-      "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/",
-    animeThemesUrl: "https://animethemes.moe/anime/zoids_wild_zero",
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "blue blue blue",
-        artistDisplayName: "Ivy to Fraudulent Game",
-"followUp": [
-  {
-    "fields": [
-      "use_quarters"
-    ],
-    "note": "已核部分使用季度；跨年或延長播出邊界的實際用曲日期仍待核對。",
-    "resumeWhen": "取得同版本逐話用曲與日本原播日期的直接資料後，補充尚未確認的季度。",
-    "checkedAt": "2026-10-31"
-  }
-],
-"sourceMode": "explicit",
-"sources": [
-  {
-    "label": "動畫官方網站",
-    "url": "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AnimeThemes",
-    "url": "https://animethemes.moe/anime/zoids_wild_zero",
-    "language": "en",
-    "role": "cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "url": "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/news/111/",
-    "label": "第一方曲目資料：タカラトミー：ゾイドワイルドZERO公式",
-    "role": "first_party",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://animemusicranking.com/ja/anime/88/",
-    "label": "歌曲交叉資料：アニソンチャート",
-    "role": "cross_check",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD",
-    "label": "歌曲交叉資料：維基百科",
-    "role": "cross_check",
-    "language": "multi",
-    "verifiedAt": "2026-10-31"
-  }
-],
-"lastVerifiedAt": "2026-10-31",
-"seasonIds": [
-  "2019-fall"
-],
-"songId": "zoids-wild-zero-op-1-song",
-"evidence": [
-  {
-    "target": "song",
-    "targetId": "zoids-wild-zero-op-1-song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/news/111/"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "zoids-wild-zero-op-1",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/news/111/"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "song",
-    "targetId": "zoids-wild-zero-op-1-song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://animemusicranking.com/ja/anime/88/"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "zoids-wild-zero-op-1",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://animemusicranking.com/ja/anime/88/"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "song",
-    "targetId": "zoids-wild-zero-op-1-song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "zoids-wild-zero-op-1",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD"
-    ],
-    "verifiedAt": "2026-10-31"
-  }
-],
-      },
-      {
-        type: "OP",
-        sequence: 2,
-        titleJa: "Player",
-        artistDisplayName: "MAGIC OF LiFE",
-"followUp": [
-  {
-    "fields": [
-      "use_quarters"
-    ],
-    "note": "已核本曲與第25話起的用途；實際日本播出日期及使用季度仍待核對。",
-    "resumeWhen": "取得本版第25話起逐話用曲及日本原播日期的直接資料後補充，公告相對日期先保留待核。",
-    "checkedAt": "2026-10-31"
-  }
-],
-"sourceMode": "explicit",
-"sources": [
-  {
-    "label": "動畫官方網站",
-    "url": "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AnimeThemes",
-    "url": "https://animethemes.moe/anime/zoids_wild_zero",
-    "language": "en",
-    "role": "cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "url": "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/news/458/",
-    "label": "第一方曲目資料：タカラトミー：ゾイドワイルドZERO公式",
-    "role": "first_party",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://animemusicranking.com/ja/anime/88/",
-    "label": "歌曲交叉資料：アニソンチャート",
-    "role": "cross_check",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD",
-    "label": "歌曲交叉資料：維基百科",
-    "role": "cross_check",
-    "language": "multi",
-    "verifiedAt": "2026-10-31"
-  }
-],
-"lastVerifiedAt": "2026-10-31",
-"seasonIds": [],
-"songId": "zoids-wild-zero-op-2-song",
-"evidence": [
-  {
-    "target": "song",
-    "targetId": "zoids-wild-zero-op-2-song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/news/458/"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "zoids-wild-zero-op-2",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/news/458/"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "song",
-    "targetId": "zoids-wild-zero-op-2-song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://animemusicranking.com/ja/anime/88/"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "zoids-wild-zero-op-2",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://animemusicranking.com/ja/anime/88/"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "song",
-    "targetId": "zoids-wild-zero-op-2-song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "zoids-wild-zero-op-2",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD"
-    ],
-    "verifiedAt": "2026-10-31"
-  }
-],
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "ヒカリ",
-        artistDisplayName: "千田葉月",
-"followUp": [
-  {
-    "fields": [
-      "use_quarters"
-    ],
-    "note": "已核部分使用季度；跨年或延長播出邊界的實際用曲日期仍待核對。",
-    "resumeWhen": "取得同版本逐話用曲與日本原播日期的直接資料後，補充尚未確認的季度。",
-    "checkedAt": "2026-10-31"
-  }
-],
-"sourceMode": "explicit",
-"sources": [
-  {
-    "label": "動畫官方網站",
-    "url": "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AnimeThemes",
-    "url": "https://animethemes.moe/anime/zoids_wild_zero",
-    "language": "en",
-    "role": "cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "url": "https://linkco.re/az9BGAUf?lang=ja",
-    "label": "第一方曲目資料：千田葉月發行頁／TuneCore Japan",
-    "role": "first_party",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://animemusicranking.com/ja/anime/88/",
-    "label": "歌曲交叉資料：アニソンチャート",
-    "role": "cross_check",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD",
-    "label": "歌曲交叉資料：維基百科",
-    "role": "cross_check",
-    "language": "multi",
-    "verifiedAt": "2026-10-31"
-  }
-],
-"lastVerifiedAt": "2026-10-31",
-"seasonIds": [
-  "2019-fall"
-],
-"songId": "zoids-wild-zero-ed-1-song",
-"evidence": [
-  {
-    "target": "song",
-    "targetId": "zoids-wild-zero-ed-1-song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://linkco.re/az9BGAUf?lang=ja"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "zoids-wild-zero-ed-1",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://linkco.re/az9BGAUf?lang=ja"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "song",
-    "targetId": "zoids-wild-zero-ed-1-song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://animemusicranking.com/ja/anime/88/"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "zoids-wild-zero-ed-1",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://animemusicranking.com/ja/anime/88/"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "song",
-    "targetId": "zoids-wild-zero-ed-1-song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "zoids-wild-zero-ed-1",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "credits",
-    "fields": [
-      "credits"
-    ],
-    "sourceUrls": [
-      "https://linkco.re/az9BGAUf?lang=ja"
-    ],
-    "verifiedAt": "2026-10-31"
-  }
-],
-"credits": [
-  {
-    "name": "千田葉月",
-    "role": "vocals"
-  },
-  {
-    "name": "柊木七音",
-    "role": "lyrics"
-  },
-  {
-    "name": "廣中トキワ",
-    "role": "composition"
-  },
-  {
-    "name": "廣中トキワ",
-    "role": "arrangement"
-  }
-],
-      },
-      {
-        type: "ED",
-        sequence: 2,
-        titleJa: "DOOR",
-        artistDisplayName: "荒井麻珠",
-"followUp": [
-  {
-    "fields": [
-      "basic_evidence"
-    ],
-    "note": "本曲在本版TV的精確演唱名義及片尾用途仍待第一方資料核對。",
-    "resumeWhen": "取得同版本逐話或逐曲第一方資料，明示原曲名、完整演唱名義及用途後補充。",
-    "checkedAt": "2026-10-31"
-  },
-  {
-    "fields": [
-      "use_quarters"
-    ],
-    "note": "本曲在本版TV的使用季度仍待核對，暫不列入季度歌曲清單。",
-    "resumeWhen": "取得同版本明確用曲及日本原播日期的直接資料後補充使用季度。",
-    "checkedAt": "2026-10-31"
-  }
-],
-"seasonIds": [],
-      },
-      {
-        type: "ED",
-        sequence: 3,
-        titleJa: "夢の轍",
-        artistDisplayName: "H△G",
-"followUp": [
-  {
-    "fields": [
-      "use_quarters"
-    ],
-    "note": "已核本曲與第25話起的用途；實際日本播出日期及使用季度仍待核對。",
-    "resumeWhen": "取得本版第25話起逐話用曲及日本原播日期的直接資料後補充，公告相對日期先保留待核。",
-    "checkedAt": "2026-10-31"
-  }
-],
-"sourceMode": "explicit",
-"sources": [
-  {
-    "label": "動畫官方網站",
-    "url": "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AnimeThemes",
-    "url": "https://animethemes.moe/anime/zoids_wild_zero",
-    "language": "en",
-    "role": "cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "url": "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/news/457/",
-    "label": "第一方曲目資料：タカラトミー：ゾイドワイルドZERO公式",
-    "role": "first_party",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://animemusicranking.com/ja/anime/88/",
-    "label": "歌曲交叉資料：アニソンチャート",
-    "role": "cross_check",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD",
-    "label": "歌曲交叉資料：維基百科",
-    "role": "cross_check",
-    "language": "multi",
-    "verifiedAt": "2026-10-31"
-  }
-],
-"lastVerifiedAt": "2026-10-31",
-"seasonIds": [],
-"songId": "zoids-wild-zero-ed-3-song",
-"evidence": [
-  {
-    "target": "song",
-    "targetId": "zoids-wild-zero-ed-3-song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/news/457/"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "zoids-wild-zero-ed-3",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/news/457/"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "song",
-    "targetId": "zoids-wild-zero-ed-3-song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://animemusicranking.com/ja/anime/88/"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "zoids-wild-zero-ed-3",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://animemusicranking.com/ja/anime/88/"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "song",
-    "targetId": "zoids-wild-zero-ed-3-song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "zoids-wild-zero-ed-3",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD"
-    ],
-    "verifiedAt": "2026-10-31"
-  }
-],
-      },
-      {
-        type: "ED",
-        sequence: 4,
-        titleJa: "名もなき旅",
-        artistDisplayName: "千田葉月",
-"followUp": [
-  {
-    "fields": [
-      "use_quarters"
-    ],
-    "note": "已核部分使用季度；跨年或延長播出邊界的實際用曲日期仍待核對。",
-    "resumeWhen": "取得同版本逐話用曲與日本原播日期的直接資料後，補充尚未確認的季度。",
-    "checkedAt": "2026-10-31"
-  }
-],
-"sourceMode": "explicit",
-"sources": [
-  {
-    "label": "動畫官方網站",
-    "url": "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AnimeThemes",
-    "url": "https://animethemes.moe/anime/zoids_wild_zero",
-    "language": "en",
-    "role": "cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "url": "https://prtimes.jp/main/html/rd/p/000000003.000047206.html",
-    "label": "第一方曲目資料：ゾイドワイルド ZERO製作委員会",
-    "role": "first_party",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://prtimes.jp/a/?c=47206&f=d47206-3-pdf-0.pdf&r=3",
-    "label": "第一方曲目資料：ゾイドワイルド ZERO製作委員会",
-    "role": "first_party",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://animemusicranking.com/ja/anime/88/",
-    "label": "歌曲交叉資料：アニソンチャート",
-    "role": "cross_check",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD",
-    "label": "歌曲交叉資料：維基百科",
-    "role": "cross_check",
-    "language": "multi",
-    "verifiedAt": "2026-10-31"
-  }
-],
-"lastVerifiedAt": "2026-10-31",
-"seasonIds": [
-  "2020-summer"
-],
-"songId": "zoids-wild-zero-ed-4-song",
-"evidence": [
-  {
-    "target": "song",
-    "targetId": "zoids-wild-zero-ed-4-song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://prtimes.jp/main/html/rd/p/000000003.000047206.html"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "zoids-wild-zero-ed-4",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://prtimes.jp/main/html/rd/p/000000003.000047206.html"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "song",
-    "targetId": "zoids-wild-zero-ed-4-song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://prtimes.jp/a/?c=47206&f=d47206-3-pdf-0.pdf&r=3"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "zoids-wild-zero-ed-4",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://prtimes.jp/a/?c=47206&f=d47206-3-pdf-0.pdf&r=3"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "song",
-    "targetId": "zoids-wild-zero-ed-4-song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://animemusicranking.com/ja/anime/88/"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "zoids-wild-zero-ed-4",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://animemusicranking.com/ja/anime/88/"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "song",
-    "targetId": "zoids-wild-zero-ed-4-song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "zoids-wild-zero-ed-4",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "credits",
-    "fields": [
-      "credits"
-    ],
-    "sourceUrls": [
-      "https://prtimes.jp/a/?c=47206&f=d47206-3-pdf-0.pdf&r=3"
-    ],
-    "verifiedAt": "2026-10-31"
-  }
-],
-"credits": [
-  {
-    "name": "千田葉月",
-    "role": "vocals"
-  },
-  {
-    "name": "柊木七音",
-    "role": "lyrics"
-  },
-  {
-    "name": "廣中トキワ",
-    "role": "composition"
-  },
-  {
-    "name": "廣中トキワ",
-    "role": "arrangement"
-  }
-],
-      },
-    ],
-"metadataSources": [
-  {
-    "url": "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/",
-    "label": "第一方作品與播出資料：タカラトミー：ゾイドワイルドZERO公式",
-    "role": "first_party",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "label": "AniList：作品識別與公開圖像",
-    "url": "https://anilist.co/anime/110788",
-    "language": "en",
-    "role": "identifier",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "繁體中文季度列表交叉對照",
-    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    "language": "zh-Hant",
-    "role": "localized_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AnimeThemes：OP／ED 曲目交叉核對",
-    "url": "https://animethemes.moe/anime/zoids_wild_zero",
-    "language": "en",
-    "role": "theme_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "季度首播公開來源",
-    "url": "https://acgsecrets.hk/bangumi/201910/",
-    "language": "zh-Hant",
-    "role": "broadcast_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "季度首播公開來源",
-    "url": "https://www.kansou.me/archive/2019_autumn.html",
-    "language": "ja",
-    "role": "broadcast_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202009/25574_202009181755.html",
-    "label": "第一方作品與播出資料：テレビ東京",
-    "role": "first_party",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  }
-],
-"seasonIds": [
-  "2019-fall",
-  "2020-summer"
-],
-  },
+  "anilistId": 110788,
+  "slug": "zoids-wild-zero",
+  "startDate": "2019-10-04",
+  "titleJa": "ゾイドワイルド ZERO",
+  "titleZhHant": "機獸戰記 狂野爆發 ZERO",
+  "titleRomaji": "Zoids Wild ZERO",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110788-2CGGh39Z2yUJ.png",
+  "broadcastLabel": "日本原播 2019-10-04 至 2020-10-16，東京電視網週五 17:55–18:25 JST（全50話）",
+  "broadcastTimeJst": "17:55",
+  "officialSiteUrl": "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/",
+  "animeThemesUrl": "https://animethemes.moe/anime/zoids_wild_zero",
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "blue blue blue",
+      "artistDisplayName": "Ivy to Fraudulent Game",
+      "followUp": [],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/zoids_wild_zero",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/news/111/",
+          "label": "第一方曲目資料：タカラトミー：ゾイドワイルドZERO公式",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://animemusicranking.com/ja/anime/88/",
+          "label": "歌曲交叉資料：アニソンチャート",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD",
+          "label": "歌曲交叉資料：維基百科",
+          "role": "cross_check",
+          "language": "multi",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://www.ttmnet.co.jp/theme/2020-1/",
+          "label": "テレビ東京音樂表 2020.1：本曲OP及演唱；同頁ED欄不作證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5448",
+          "label": "原TV逐話曲目輪替交叉",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.mau2.com/anime/zoidswildzero",
+          "label": "原TV逐話聲優資料庫：主題曲輪替及特別用曲交叉",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/zoidswild-zero/episodes/index_3.html",
+          "label": "原TV第24話 2020-03-27、第25話 2020-04-03 日期；未列歌曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/zoidswild-zero/episodes/index_4.html",
+          "label": "原TV第12話 2019-12-27、第13話 2020-01-10 日期；未列歌曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/zoidswild-zero/episodes/index_5.html",
+          "label": "原TV第1話 2019-10-04、第2話 2019-10-11 日期；未列歌曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=uZm6X60vttk",
+          "label": "原演出者官方MV；YouTube oEmbed 核片名與頻道",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-07",
+      "seasonIds": [
+        "2019-fall",
+        "2020-winter"
+      ],
+      "songId": "zoids-wild-zero-op-1-song",
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "zoids-wild-zero-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/news/111/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "zoids-wild-zero-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/news/111/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "zoids-wild-zero-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://animemusicranking.com/ja/anime/88/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "zoids-wild-zero-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animemusicranking.com/ja/anime/88/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "zoids-wild-zero-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "zoids-wild-zero-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.ttmnet.co.jp/theme/2020-1/",
+            "https://cal.syoboi.jp/tid/5448"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "zoids-wild-zero-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ttmnet.co.jp/theme/2020-1/",
+            "https://cal.syoboi.jp/tid/5448",
+            "https://www.mau2.com/anime/zoidswildzero"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "zoids-wild-zero-op-1"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "url",
+            "title",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/news/111/",
+            "https://www.youtube.com/watch?v=uZm6X60vttk"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "uZm6X60vttk"
+        }
+      ],
+      "usageLabel": "第2–24話片頭曲"
+    },
+    {
+      "type": "OP",
+      "sequence": 2,
+      "titleJa": "Player",
+      "artistDisplayName": "MAGIC OF LiFE",
+      "followUp": [],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/zoids_wild_zero",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/news/458/",
+          "label": "第一方曲目資料：タカラトミー：ゾイドワイルドZERO公式",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://animemusicranking.com/ja/anime/88/",
+          "label": "歌曲交叉資料：アニソンチャート",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD",
+          "label": "歌曲交叉資料：維基百科",
+          "role": "cross_check",
+          "language": "multi",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://www.ttmnet.co.jp/theme/2020-4/",
+          "label": "テレビ東京音樂表 2020.4：本曲OP及演唱",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.ttmnet.co.jp/theme/2020-7/",
+          "label": "テレビ東京音樂表 2020.7：本曲OP及演唱",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5448",
+          "label": "原TV逐話曲目輪替交叉",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.mau2.com/anime/zoidswildzero",
+          "label": "原TV逐話聲優資料庫：主題曲輪替及特別用曲交叉",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/zoidswild-zero/episodes/",
+          "label": "原TV第48話 2020-10-02、第49話 2020-10-09、第50話 2020-10-16 日期；未列歌曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/zoidswild-zero/episodes/index_2.html",
+          "label": "原TV第33話 2020-06-19、第35話 2020-07-03、第37話 2020-07-17、第38話 2020-07-24 日期；未列歌曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/zoidswild-zero/episodes/index_3.html",
+          "label": "原TV第24話 2020-03-27、第25話 2020-04-03 日期；未列歌曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://magicoflife.jp/discography.php?id=2",
+          "label": "MAGIC OF LiFE官方專輯曲序與發行",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=5dv7cnisrB8",
+          "label": "原演出者官方MV；YouTube oEmbed 核片名與頻道",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-07",
+      "seasonIds": [
+        "2020-spring",
+        "2020-summer",
+        "2020-fall"
+      ],
+      "songId": "zoids-wild-zero-op-2-song",
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "zoids-wild-zero-op-2-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/news/458/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "zoids-wild-zero-op-2",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/news/458/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "zoids-wild-zero-op-2-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://animemusicranking.com/ja/anime/88/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "zoids-wild-zero-op-2",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animemusicranking.com/ja/anime/88/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "zoids-wild-zero-op-2-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "zoids-wild-zero-op-2",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/news/458/",
+            "https://cal.syoboi.jp/tid/5448"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "zoids-wild-zero-op-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/news/458/",
+            "https://www.ttmnet.co.jp/theme/2020-4/",
+            "https://www.ttmnet.co.jp/theme/2020-7/",
+            "https://cal.syoboi.jp/tid/5448",
+            "https://www.mau2.com/anime/zoidswildzero"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "zoids-wild-zero-op-2"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "catalog_number",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://magicoflife.jp/discography.php?id=2"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "zoids-wild-zero-magic-jp-ddcz-2265"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://magicoflife.jp/discography.php?id=2"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "https://magicoflife.jp/discography.php?id=2"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "url",
+            "title",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/news/458/",
+            "https://www.youtube.com/watch?v=5dv7cnisrB8"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "5dv7cnisrB8"
+        }
+      ],
+      "usageLabel": "第25–50話片頭曲",
+      "releases": [
+        {
+          "id": "zoids-wild-zero-magic-jp-ddcz-2265",
+          "title": "MAGIC",
+          "type": "album",
+          "artistDisplayName": "MAGIC OF LiFE",
+          "date": {
+            "value": "2020-12-16",
+            "precision": "day"
+          },
+          "region": "JP",
+          "catalogNumber": "DDCZ-2265",
+          "tracks": [
+            {
+              "title": "Player",
+              "disc": 1,
+              "position": 4
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "url": "https://magicoflife.jp/discography.php?id=2",
+          "platform": "官方專輯資料",
+          "label": "MAGIC OF LiFE 官方專輯曲目",
+          "linkType": "official_landing_page",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-07",
+          "releaseId": "zoids-wild-zero-magic-jp-ddcz-2265"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "ヒカリ",
+      "artistDisplayName": "千田葉月",
+      "followUp": [],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/zoids_wild_zero",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://linkco.re/az9BGAUf?lang=ja",
+          "label": "第一方曲目資料：千田葉月發行頁／TuneCore Japan",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://animemusicranking.com/ja/anime/88/",
+          "label": "歌曲交叉資料：アニソンチャート",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD",
+          "label": "歌曲交叉資料：維基百科",
+          "role": "cross_check",
+          "language": "multi",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://www.ttmnet.co.jp/theme/2019-10/",
+          "label": "テレビ東京音樂表 2019.10：原期ED及演唱",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5448",
+          "label": "原TV逐話曲目輪替交叉",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.mau2.com/anime/zoidswildzero",
+          "label": "原TV逐話聲優資料庫：主題曲輪替及特別用曲交叉",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/zoidswild-zero/episodes/index_4.html",
+          "label": "原TV第12話 2019-12-27、第13話 2020-01-10 日期；未列歌曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/zoidswild-zero/episodes/index_5.html",
+          "label": "原TV第1話 2019-10-04、第2話 2019-10-11 日期；未列歌曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-07",
+      "seasonIds": [
+        "2019-fall"
+      ],
+      "songId": "zoids-wild-zero-ed-1-song",
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "zoids-wild-zero-ed-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://linkco.re/az9BGAUf?lang=ja"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "zoids-wild-zero-ed-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://linkco.re/az9BGAUf?lang=ja"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "zoids-wild-zero-ed-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://animemusicranking.com/ja/anime/88/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "zoids-wild-zero-ed-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animemusicranking.com/ja/anime/88/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "zoids-wild-zero-ed-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "zoids-wild-zero-ed-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://linkco.re/az9BGAUf?lang=ja"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.ttmnet.co.jp/theme/2019-10/",
+            "https://cal.syoboi.jp/tid/5448"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "zoids-wild-zero-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ttmnet.co.jp/theme/2019-10/",
+            "https://cal.syoboi.jp/tid/5448",
+            "https://www.mau2.com/anime/zoidswildzero"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "zoids-wild-zero-ed-1"
+        }
+      ],
+      "credits": [
+        {
+          "name": "千田葉月",
+          "role": "vocals"
+        },
+        {
+          "name": "柊木七音",
+          "role": "lyrics"
+        },
+        {
+          "name": "廣中トキワ",
+          "role": "composition"
+        },
+        {
+          "name": "廣中トキワ",
+          "role": "arrangement"
+        }
+      ],
+      "usageLabel": "第1–12話片尾曲"
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "DOOR",
+      "artistDisplayName": "荒井麻珠",
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "official_video",
+            "platform_availability"
+          ],
+          "note": "動畫版與全長由獨占發行方分別明示，沒有按片長或封面猜測。編曲和詞曲未取得唱片方／原片字幕逐曲署名；不採有相互矛盾角色標示的非官方表。已確認MV製作存在，但未核到可直接掛接的正式影片。 AWA發行保留曲名與曲序，未把Orimyu與AWA條目掛成同一母帶。",
+          "resumeWhen": "取得本曲原片或唱片逐曲署名、官方MV固定網址及可播放狀態後再補。",
+          "checkedAt": "2026-11-07"
+        }
+      ],
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "url": "https://music.orimyu.com/php/special/Special.php?pcd=ivaraimaju_doortvsize&trc_cd=PC5049",
+          "label": "授權獨占首發：荒井麻珠本曲為同版TV ED的動畫長度版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://music.orimyu.com/php/special/Special.php?pcd=ivaraimaju_doorfl&trc_cd=PC5049",
+          "label": "授權獨占首發：同版TV新ED正式原名、演唱與全長發行",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://s.mxtv.jp/drama/ojikoi/music.html",
+          "label": "TOKYO MX 官網演出者履歷：DOOR為東京電視台原期ED",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5448",
+          "label": "原TV逐話曲目輪替交叉",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.mau2.com/anime/zoidswildzero",
+          "label": "原TV逐話聲優資料庫：主題曲輪替及特別用曲交叉",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/zoidswild-zero/episodes/index_3.html",
+          "label": "原TV第24話 2020-03-27、第25話 2020-04-03 日期；未列歌曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/zoidswild-zero/episodes/index_4.html",
+          "label": "原TV第12話 2019-12-27、第13話 2020-01-10 日期；未列歌曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://utaten.com/specialArticle/index/4899",
+          "label": "第13話起及曲名／歌手／ED交叉",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.uta-net.com/song/280067/",
+          "label": "動畫版詞曲與日期交叉；非原播日依據",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://music.orimyu.com/php/music/MusicTop.php?music=7261746",
+          "label": "授權配信商本曲動畫版單曲品項",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://music.orimyu.com/php/music/MusicTop.php?music=7404742",
+          "label": "授權配信商本曲全長品項",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://s.awa.fm/album/948848a8c377cfc9ee19",
+          "label": "AWA供應的同名動畫版1軌發行及日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://music.orimyu.com/php/special/Special.php?pcd=ivaraimaju_doorfl&trc_cd=PC5049",
+            "https://music.orimyu.com/php/special/Special.php?pcd=ivaraimaju_doortvsize&trc_cd=PC5049",
+            "https://cal.syoboi.jp/tid/5448"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "zoids-wild-zero-ed-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://music.orimyu.com/php/special/Special.php?pcd=ivaraimaju_doortvsize&trc_cd=PC5049",
+            "https://music.orimyu.com/php/special/Special.php?pcd=ivaraimaju_doorfl&trc_cd=PC5049",
+            "https://s.mxtv.jp/drama/ojikoi/music.html",
+            "https://cal.syoboi.jp/tid/5448",
+            "https://www.mau2.com/anime/zoidswildzero"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "zoids-wild-zero-ed-2"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://music.orimyu.com/php/special/Special.php?pcd=ivaraimaju_doortvsize&trc_cd=PC5049",
+            "https://s.awa.fm/album/948848a8c377cfc9ee19"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "zoids-wild-zero-door-anime-size"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://music.orimyu.com/php/special/Special.php?pcd=ivaraimaju_doorfl&trc_cd=PC5049"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "zoids-wild-zero-door-full"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "artist",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://s.awa.fm/album/948848a8c377cfc9ee19",
+            "https://music.orimyu.com/php/special/Special.php?pcd=ivaraimaju_doortvsize&trc_cd=PC5049"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "zoids-wild-zero-door-anime-size-20200110"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.orimyu.com/php/music/MusicTop.php?music=7261746"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "https://music.orimyu.com/php/music/MusicTop.php?music=7261746"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.orimyu.com/php/music/MusicTop.php?music=7404742"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "https://music.orimyu.com/php/music/MusicTop.php?music=7404742"
+        }
+      ],
+      "songId": "zoids-wild-zero-ed-2-song",
+      "usageLabel": "第13–24話片尾曲",
+      "recordings": [
+        {
+          "id": "zoids-wild-zero-door-anime-size",
+          "title": "DOOR(ゾイドワイルド ZERO Ver.)",
+          "format": "tv",
+          "kind": "vocal"
+        },
+        {
+          "id": "zoids-wild-zero-door-full",
+          "title": "DOOR",
+          "format": "full",
+          "kind": "vocal"
+        }
+      ],
+      "releases": [
+        {
+          "id": "zoids-wild-zero-door-anime-size-20200110",
+          "title": "DOOR(ゾイドワイルド ZERO Ver.)",
+          "type": "single",
+          "artistDisplayName": "荒井麻珠",
+          "date": {
+            "value": "2020-01-10",
+            "precision": "day"
+          },
+          "region": "JP",
+          "edition": "動畫版數位發行",
+          "tracks": [
+            {
+              "title": "DOOR(ゾイドワイルド ZERO Ver.)",
+              "position": 1
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "url": "https://music.orimyu.com/php/music/MusicTop.php?music=7261746",
+          "platform": "Orimyu Store",
+          "label": "DOOR 動畫版（日本數位曲目）",
+          "linkType": "digital_purchase",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-07",
+          "recordingId": "zoids-wild-zero-door-anime-size"
+        },
+        {
+          "url": "https://music.orimyu.com/php/music/MusicTop.php?music=7404742",
+          "platform": "Orimyu Store",
+          "label": "DOOR 全長版（日本數位曲目）",
+          "linkType": "digital_purchase",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-07",
+          "recordingId": "zoids-wild-zero-door-full"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-07"
+    },
+    {
+      "type": "ED",
+      "sequence": 3,
+      "titleJa": "夢の轍",
+      "artistDisplayName": "H△G",
+      "followUp": [],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/zoids_wild_zero",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/news/457/",
+          "label": "第一方曲目資料：タカラトミー：ゾイドワイルドZERO公式",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://animemusicranking.com/ja/anime/88/",
+          "label": "歌曲交叉資料：アニソンチャート",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD",
+          "label": "歌曲交叉資料：維基百科",
+          "role": "cross_check",
+          "language": "multi",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://www.ttmnet.co.jp/theme/2020-4/",
+          "label": "テレビ東京音樂表 2020.4：本曲ED及演唱",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.ttmnet.co.jp/theme/2020-7/",
+          "label": "テレビ東京音樂表 2020.7：月中以前使用的本曲ED",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5448",
+          "label": "原TV逐話曲目輪替交叉",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.mau2.com/anime/zoidswildzero",
+          "label": "原TV逐話聲優資料庫：主題曲輪替及特別用曲交叉",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/zoidswild-zero/episodes/index_2.html",
+          "label": "原TV第33話 2020-06-19、第35話 2020-07-03、第37話 2020-07-17、第38話 2020-07-24 日期；未列歌曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/zoidswild-zero/episodes/index_3.html",
+          "label": "原TV第24話 2020-03-27、第25話 2020-04-03 日期；未列歌曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-07",
+      "seasonIds": [
+        "2020-spring",
+        "2020-summer"
+      ],
+      "songId": "zoids-wild-zero-ed-3-song",
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "zoids-wild-zero-ed-3-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/news/457/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "zoids-wild-zero-ed-3",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/news/457/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "zoids-wild-zero-ed-3-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://animemusicranking.com/ja/anime/88/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "zoids-wild-zero-ed-3",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animemusicranking.com/ja/anime/88/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "zoids-wild-zero-ed-3-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "zoids-wild-zero-ed-3",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/news/457/",
+            "https://cal.syoboi.jp/tid/5448"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "zoids-wild-zero-ed-3-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/news/457/",
+            "https://www.ttmnet.co.jp/theme/2020-4/",
+            "https://www.ttmnet.co.jp/theme/2020-7/",
+            "https://cal.syoboi.jp/tid/5448",
+            "https://www.mau2.com/anime/zoidswildzero"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "zoids-wild-zero-ed-3"
+        }
+      ],
+      "usageLabel": "第25–37話片尾曲"
+    },
+    {
+      "type": "ED",
+      "sequence": 4,
+      "titleJa": "名もなき旅",
+      "artistDisplayName": "千田葉月",
+      "followUp": [
+        {
+          "fields": [
+            "recordings"
+          ],
+          "note": "第50話無人聲版僅有逐話交叉，暫不加錄音或用途。已核一般歌唱ED在10月第48、49話仍使用。",
+          "resumeWhen": "取得第50話原TV第一方片尾字幕或正式逐曲資料再核最後一話。",
+          "checkedAt": "2026-11-07"
+        }
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/zoids_wild_zero",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000003.000047206.html",
+          "label": "第一方曲目資料：ゾイドワイルド ZERO製作委員会",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://prtimes.jp/a/?c=47206&f=d47206-3-pdf-0.pdf&r=3",
+          "label": "第一方曲目資料：ゾイドワイルド ZERO製作委員会",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://animemusicranking.com/ja/anime/88/",
+          "label": "歌曲交叉資料：アニソンチャート",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD",
+          "label": "歌曲交叉資料：維基百科",
+          "role": "cross_check",
+          "language": "multi",
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5448",
+          "label": "原TV逐話曲目輪替交叉",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.mau2.com/anime/zoidswildzero",
+          "label": "原TV逐話聲優資料庫：主題曲輪替及特別用曲交叉",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/zoidswild-zero/episodes/",
+          "label": "原TV第48話 2020-10-02、第49話 2020-10-09、第50話 2020-10-16 日期；未列歌曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/zoidswild-zero/episodes/index_2.html",
+          "label": "原TV第33話 2020-06-19、第35話 2020-07-03、第37話 2020-07-17、第38話 2020-07-24 日期；未列歌曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-07",
+      "seasonIds": [
+        "2020-summer",
+        "2020-fall"
+      ],
+      "songId": "zoids-wild-zero-ed-4-song",
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "zoids-wild-zero-ed-4-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000000003.000047206.html"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "zoids-wild-zero-ed-4",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000000003.000047206.html"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "zoids-wild-zero-ed-4-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/a/?c=47206&f=d47206-3-pdf-0.pdf&r=3"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "zoids-wild-zero-ed-4",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/a/?c=47206&f=d47206-3-pdf-0.pdf&r=3"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "zoids-wild-zero-ed-4-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://animemusicranking.com/ja/anime/88/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "zoids-wild-zero-ed-4",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://animemusicranking.com/ja/anime/88/"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "targetId": "zoids-wild-zero-ed-4-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "zoids-wild-zero-ed-4",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E7%B4%A2%E6%96%AF%E6%A9%9F%E6%A2%B0%E7%8D%B8WILD"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/a/?c=47206&f=d47206-3-pdf-0.pdf&r=3"
+          ],
+          "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000000003.000047206.html",
+            "https://cal.syoboi.jp/tid/5448"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "zoids-wild-zero-ed-4-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000000003.000047206.html",
+            "https://cal.syoboi.jp/tid/5448",
+            "https://www.mau2.com/anime/zoidswildzero"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "zoids-wild-zero-ed-4"
+        }
+      ],
+      "credits": [
+        {
+          "name": "千田葉月",
+          "role": "vocals"
+        },
+        {
+          "name": "柊木七音",
+          "role": "lyrics"
+        },
+        {
+          "name": "廣中トキワ",
+          "role": "composition"
+        },
+        {
+          "name": "廣中トキワ",
+          "role": "arrangement"
+        }
+      ],
+      "usageLabel": "第38–49話片尾曲"
+    }
+  ],
+  "metadataSources": [
+    {
+      "url": "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/",
+      "label": "第一方作品與播出資料：タカラトミー：ゾイドワイルドZERO公式",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "label": "AniList：作品識別與公開圖像",
+      "url": "https://anilist.co/anime/110788",
+      "language": "en",
+      "role": "identifier",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "繁體中文季度列表交叉對照",
+      "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+      "language": "zh-Hant",
+      "role": "localized_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "AnimeThemes：OP／ED 曲目交叉核對",
+      "url": "https://animethemes.moe/anime/zoids_wild_zero",
+      "language": "en",
+      "role": "theme_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://acgsecrets.hk/bangumi/201910/",
+      "language": "zh-Hant",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "label": "季度首播公開來源",
+      "url": "https://www.kansou.me/archive/2019_autumn.html",
+      "language": "ja",
+      "role": "broadcast_cross_check",
+      "verifiedAt": "2026-09-02"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202009/25574_202009181755.html",
+      "label": "第一方作品與播出資料：テレビ東京",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/anime/zoidswild-zero/episodes/index_5.html",
+      "label": "日本原TV逐話播出日期及常規17:55時段",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-07"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/anime/zoidswild-zero/episodes/index_4.html",
+      "label": "日本原TV逐話播出日期及常規17:55時段",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-07"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/anime/zoidswild-zero/episodes/index_3.html",
+      "label": "日本原TV逐話播出日期及常規17:55時段",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-07"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/anime/zoidswild-zero/episodes/index_2.html",
+      "label": "日本原TV逐話播出日期及常規17:55時段",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-07"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/anime/zoidswild-zero/episodes/",
+      "label": "日本原TV逐話播出日期及常規17:55時段",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-07"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202010/25574_202010161755.html",
+      "label": "日本原TV逐話播出日期及常規17:55時段",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-07"
+    }
+  ],
+  "seasonIds": [
+    "2019-fall",
+    "2020-summer",
+    "2020-winter",
+    "2020-spring",
+    "2020-fall"
+  ]
+},
   {
     anilistId: 110789,
     slug: "null-peta",
