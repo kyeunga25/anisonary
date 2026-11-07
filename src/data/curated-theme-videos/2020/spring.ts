@@ -588,7 +588,7 @@ export const curated2020SpringThemeVideos = {
       youtubeVideoId: "weZIhAQZRm0",
       title: "No Rain, No Rainbow",
       type: "other",
-      channelName: "水樹奈々",
+      channelName: "Nana Mizuki - Topic",
       officialStatus: "official",
       embeddable: true,
     },
@@ -619,7 +619,7 @@ export const curated2020SpringThemeVideos = {
       youtubeVideoId: "Dn9pFk43SZ8",
       title:
         "佐々木李子 「スタート！」MV  （テレビアニメ「デュエル・マスターズ キング」ED）",
-      type: "other",
+      type: "music_video",
       channelName: "佐々木李子",
       officialStatus: "official",
       embeddable: true,

@@ -27,4 +27,8 @@ export const curated2022WinterThemeVideos = {
   "137378:ED:1": [{ youtubeVideoId: "bmjHr4xFFeM", title: "angela「ひとひらの未来」Music Clip", type: "full_music_video", channelName: "angela Official Channel", officialStatus: "official", embeddable: true }],
   "140502:OP:1": [{ youtubeVideoId: "FWrwNuuJm-w", title: "Novelbright - The Warrior [Official Music Video]", type: "full_music_video", channelName: "Novelbright", officialStatus: "official", embeddable: true }],
   "109820:OP:1": [{ youtubeVideoId: "FLWRgeh2dRs", title: "アニメ「錆色のアーマ-黎明-」オープニングテーマ「Faith / 孫一（CV.佐藤大樹）、織田三郎信長（CV.増田俊樹）、ルシオ（CV.佐藤流司）」（アニメMV）", type: "full_music_video", channelName: "Victor Entertainment", officialStatus: "official", embeddable: true }],
+  "142080:ED:1": [{"youtubeVideoId":"1v8n-lEGnq4","title":"「デリシャスパーティ♡プリキュア」エンディング主題歌「DELICIOUS HAPPY DAYS♪」(ノンテロップver)","type":"creditless_ed","channelName":"プリキュア公式YouTubeチャンネル","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "142080:ED:2": [{"youtubeVideoId":"LpDFmqOBU5s","title":"「デリシャスパーティ♡プリキュア」後期エンディング主題歌「ココロデリシャス」(ノンテロップver)","type":"creditless_ed","channelName":"プリキュア公式YouTubeチャンネル","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "142080:ED:3": [{"youtubeVideoId":"nsjxNeod4n0","title":"【主題歌PV】『映画デリシャスパーティ♡プリキュア 夢みる♡お子さまランチ！』／大ヒット上映中！","type":"pv","channelName":"プリキュア公式YouTubeチャンネル","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "142080:OP:1": [{"youtubeVideoId":"XXB6_KvfJuM","title":"「デリシャスパーティ♡プリキュア」オープニング主題歌「Cheers！デリシャスパーティ♡プリキュア」(ノンテロップver)","type":"creditless_op","channelName":"プリキュア公式YouTubeチャンネル","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
 } satisfies CuratedThemeVideoOverrideMap;

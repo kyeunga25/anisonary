@@ -126,4 +126,5 @@ export const curated2024WinterThemeVideos = {
   "171030:ED:4": [{"youtubeVideoId":"Z4UX7UMU1LU","title":"Happy≒Future","type":"official_audio","channelName":"Moeha Nochimoto - Topic","officialStatus":"official","embeddable":true}],
   "171030:ED:5": [{"youtubeVideoId":"cx5AyxuJcwU","title":"Wonderful Smile","type":"official_audio","channelName":"Ami Ishii - Topic","officialStatus":"official","embeddable":true}],
   "171030:OP:1": [{"youtubeVideoId":"wfB-OvWKCvc","title":"「わんだふるぷりきゅあ！」オープニング主題歌「わんだふるぷりきゅあ！evolution!!」(ノンテロップver)","type":"creditless_op","channelName":"プリキュア公式YouTubeチャンネル","officialStatus":"official","embeddable":true}],
+  "171030:ED:3": [{"youtubeVideoId":"PcB85sPseZA","title":"しあわせえぼりゅ～しょん♡ ～ユキ＆まゆVer.～ (TVサイズ)","type":"official_audio","channelName":"Ami Ishii - Topic","officialStatus":"official","embeddable":false}],
 } satisfies CuratedThemeVideoOverrideMap;

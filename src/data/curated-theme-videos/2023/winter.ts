@@ -56,5 +56,8 @@ export const curated2023WinterThemeVideos = {
     channelName: "サンリオキャラクターズ【公式】",
     officialStatus: "official",
     embeddable: true
-  }]
+  }],
+  "157883:ED:1": [{"youtubeVideoId":"t8UtEPaq2Og","title":"「ひろがるスカイ！プリキュア」エンディング主題歌「ヒロガリズム」(ノンテロップver)","type":"creditless_ed","channelName":"プリキュア公式YouTubeチャンネル","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "157883:ED:2": [{"youtubeVideoId":"tRe0cu2YPXk","title":"「ひろがるスカイ！プリキュア」後期エンディング主題歌「Dear Shine Sky」(ノンテロップver)","type":"creditless_ed","channelName":"プリキュア公式YouTubeチャンネル","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "157883:OP:1": [{"youtubeVideoId":"PuJMfePEKr4","title":"「ひろがるスカイ！プリキュア」オープニング主題歌「ひろがるスカイ！プリキュア ～Hero Girls～」(ノンテロップver)","type":"creditless_op","channelName":"プリキュア公式YouTubeチャンネル","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
 } satisfies CuratedThemeVideoOverrideMap;

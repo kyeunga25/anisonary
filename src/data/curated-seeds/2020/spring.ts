@@ -13741,7 +13741,8 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
       "songId": "duel-masters-king-2020-op-2-song",
       "sourceMode": "explicit",
       "seasonIds": [
-        "2020-fall"
+        "2020-fall",
+        "2021-winter"
       ],
       "sources": [
         {
@@ -13763,7 +13764,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "url": "https://www.youtube.com/watch?v=weZIhAQZRm0",
           "language": "ja",
           "role": "first_party",
-          "verifiedAt": "2026-09-02"
+          "verifiedAt": "2026-11-07"
         },
         {
           "url": "https://cnt.kingrecords.co.jp/high-resolution/anime/13537.html",
@@ -13784,7 +13785,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "本曲逐欄交叉資料；未明欄位不作證",
           "role": "cross_check",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-07"
         },
         {
           "url": "https://www.mau2.com/anime/duelmastersking",
@@ -13792,12 +13793,59 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.ttmnet.co.jp/theme/2021-1-2/",
+          "label": "TV TOKYO Music｜2021年1月原期OP／ED名義及週日08:30–09:00",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.mau2.com/anime/duelmastersking/ep/47",
+          "label": "獨立逐話記錄｜47話OP／ED及2021-03-28日期",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/dm_king/episodes/",
+          "label": "テレビ東京原期逐話｜38–47話實播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.mizukinana.jp/discography/single40.html",
+          "label": "水樹奈々官方｜40th單曲曲序、日期、詞曲編及本作OP",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.kingrecords.co.jp/cs/g/gKICM-2063/",
+          "label": "King Records｜KICM-2063及逐曲創作署名",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
         }
       ],
       "credits": [
         {
           "name": "水樹奈々",
           "role": "vocals"
+        },
+        {
+          "name": "ヨシダタクミ（saji）",
+          "role": "lyrics"
+        },
+        {
+          "name": "ヨシダタクミ（saji）",
+          "role": "composition"
+        },
+        {
+          "name": "藤間 仁（Elements Garden）",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -13869,25 +13917,151 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "duel-masters-king-2020-op-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.ttmnet.co.jp/theme/2021-1-2/"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "duel-masters-king-2020-op-2-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.joysound.com/web/search/title/28131"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "duel-masters-king-2020-op-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ttmnet.co.jp/theme/2021-1-2/"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "duel-masters-king-2020-op-2"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/duelmastersking/ep/47"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "duel-masters-king-2020-op-2"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.mizukinana.jp/discography/single40.html",
+            "https://www.kingrecords.co.jp/cs/g/gKICM-2063/"
+          ],
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "date",
+            "edition",
+            "catalog_number",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://www.mizukinana.jp/discography/single40.html",
+            "https://www.kingrecords.co.jp/cs/g/gKICM-2063/"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "duel-masters-king-2020-op-2-jp-kicm-2063"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.mizukinana.jp/discography/single40.html"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "https://www.mizukinana.jp/discography/single40.html"
+        },
+        {
+          "target": "video",
+          "targetId": "weZIhAQZRm0",
+          "fields": [
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=weZIhAQZRm0"
+          ],
+          "verifiedAt": "2026-11-07"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "use_quarters",
-            "recordings",
-            "releases",
-            "platform_links",
-            "lyrics",
-            "composition",
-            "arrangement"
+            "recording_format",
+            "platform_availability"
           ],
-          "note": "本曲秋季原TV用途已由2020/10月別第一方與獨立交叉確認；2021冬延用仍待原期直接逐曲資料。",
-          "resumeWhen": "待2021冬原期播出單位月別曲目或逐話官方credit直接列本曲，再補冬季；不以47話完結日推全曲跨季。",
-          "checkedAt": "2026-10-24"
+          "note": "已核對日本單曲收錄。正式錄音長度、跨發行母帶及平台地區供應狀態待直接資料。",
+          "resumeWhen": "唱片方明列相應音源版本，或正版平台公開可核對的地區播放狀態。",
+          "checkedAt": "2026-11-07"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-07",
+      "releases": [
+        {
+          "id": "duel-masters-king-2020-op-2-jp-kicm-2063",
+          "title": "FIRE SCREAM / No Rain, No Rainbow",
+          "type": "single",
+          "date": {
+            "value": "2020-10-07",
+            "precision": "day"
+          },
+          "region": "JP",
+          "edition": "日本CD Single",
+          "catalogNumber": "KICM-2063",
+          "artistDisplayName": "水樹奈々",
+          "label": "KING RECORDS",
+          "tracks": [
+            {
+              "title": "No Rain, No Rainbow",
+              "disc": 1,
+              "position": 2
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "水樹奈々官方",
+          "label": "FIRE SCREAM / No Rain, No Rainbow（日本CD）",
+          "url": "https://www.mizukinana.jp/discography/single40.html",
+          "linkType": "official_landing_page",
+          "region": "JP",
+          "releaseId": "duel-masters-king-2020-op-2-jp-kicm-2063",
+          "verifiedAt": "2026-11-07",
+          "availability": "unknown"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -14202,7 +14376,8 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
       "songId": "duel-masters-king-2020-ed-3-song",
       "sourceMode": "explicit",
       "seasonIds": [
-        "2020-fall"
+        "2020-fall",
+        "2021-winter"
       ],
       "sources": [
         {
@@ -14224,14 +14399,14 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "url": "https://www.youtube.com/watch?v=Dn9pFk43SZ8",
           "language": "ja",
           "role": "first_party",
-          "verifiedAt": "2026-09-02"
+          "verifiedAt": "2026-11-07"
         },
         {
           "url": "https://sasakirico.com/schedule_detail.html?id=787",
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-07"
         },
         {
           "url": "https://www.ttmnet.co.jp/theme/2020-10/",
@@ -14245,7 +14420,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "本曲逐欄交叉資料；未明欄位不作證",
           "role": "cross_check",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-07"
         },
         {
           "url": "https://www.mau2.com/anime/duelmastersking",
@@ -14253,6 +14428,34 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.ttmnet.co.jp/theme/2021-1-2/",
+          "label": "TV TOKYO Music｜2021年1月原期OP／ED名義及週日08:30–09:00",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.mau2.com/anime/duelmastersking/ep/47",
+          "label": "獨立逐話記錄｜47話OP／ED及2021-03-28日期",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/dm_king/episodes/",
+          "label": "テレビ東京原期逐話｜38–47話實播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://sasakirico.com/discography.html",
+          "label": "佐々木李子官方｜スタート！三種CD版日期、品番與本曲曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
         }
       ],
       "credits": [
@@ -14263,6 +14466,14 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
         {
           "name": "佐々木李子",
           "role": "lyrics"
+        },
+        {
+          "name": "ygarshy",
+          "role": "composition"
+        },
+        {
+          "name": "Numa",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -14344,24 +14555,235 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "https://sasakirico.com/schedule_detail.html?id=787"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.ttmnet.co.jp/theme/2021-1-2/"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "duel-masters-king-2020-ed-3-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.joysound.com/web/search/title/28131"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "duel-masters-king-2020-ed-3-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ttmnet.co.jp/theme/2021-1-2/"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "duel-masters-king-2020-ed-3"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/duelmastersking/ep/47"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "duel-masters-king-2020-ed-3"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=Dn9pFk43SZ8"
+          ],
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=Dn9pFk43SZ8"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "duel-masters-king-2020-ed-3-song"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "date",
+            "edition",
+            "catalog_number",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://sasakirico.com/discography.html",
+            "https://sasakirico.com/schedule_detail.html?id=787"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "duel-masters-king-2020-ed-3-jp-akcy-58073"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "date",
+            "edition",
+            "catalog_number",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://sasakirico.com/discography.html",
+            "https://sasakirico.com/schedule_detail.html?id=787"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "duel-masters-king-2020-ed-3-jp-akcy-58074-b"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "date",
+            "edition",
+            "catalog_number",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://sasakirico.com/discography.html",
+            "https://sasakirico.com/schedule_detail.html?id=787"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "duel-masters-king-2020-ed-3-jp-akcy-58075"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://sasakirico.com/discography.html"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "https://sasakirico.com/discography.html"
+        },
+        {
+          "target": "video",
+          "targetId": "Dn9pFk43SZ8",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=Dn9pFk43SZ8",
+            "https://sasakirico.com/discography.html"
+          ],
+          "verifiedAt": "2026-11-07"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "use_quarters",
-            "recordings",
-            "releases",
-            "platform_links",
-            "composition",
-            "arrangement"
+            "recording_format",
+            "platform_availability"
           ],
-          "note": "本曲秋季原TV用途已由2020/10月別第一方與獨立交叉確認；2021冬延用仍待原期直接逐曲資料。",
-          "resumeWhen": "待2021冬原期播出單位月別曲目或逐話官方credit直接列本曲，再補冬季；不以47話完結日推全曲跨季。",
-          "checkedAt": "2026-10-24"
+          "note": "已核對日本單曲收錄。正式錄音長度、跨發行母帶及平台地區供應狀態待直接資料。",
+          "resumeWhen": "唱片方明列相應音源版本，或正版平台公開可核對的地區播放狀態。",
+          "checkedAt": "2026-11-07"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-07",
+      "releases": [
+        {
+          "id": "duel-masters-king-2020-ed-3-jp-akcy-58073",
+          "title": "スタート！",
+          "type": "single",
+          "date": {
+            "value": "2020-11-10",
+            "precision": "day"
+          },
+          "region": "JP",
+          "edition": "日本アニメ盤（CD）",
+          "catalogNumber": "AKCY-58073",
+          "artistDisplayName": "佐々木李子",
+          "tracks": [
+            {
+              "title": "スタート！",
+              "disc": 1,
+              "position": 1
+            }
+          ]
+        },
+        {
+          "id": "duel-masters-king-2020-ed-3-jp-akcy-58074-b",
+          "title": "スタート！",
+          "type": "single",
+          "date": {
+            "value": "2020-11-10",
+            "precision": "day"
+          },
+          "region": "JP",
+          "edition": "日本アーティスト盤＋DVD（CD+DVD）",
+          "catalogNumber": "AKCY-58074/B",
+          "artistDisplayName": "佐々木李子",
+          "tracks": [
+            {
+              "title": "スタート！",
+              "disc": 1,
+              "position": 1
+            }
+          ]
+        },
+        {
+          "id": "duel-masters-king-2020-ed-3-jp-akcy-58075",
+          "title": "スタート！",
+          "type": "single",
+          "date": {
+            "value": "2020-11-10",
+            "precision": "day"
+          },
+          "region": "JP",
+          "edition": "日本アーティスト盤＋フォトブック（CD+フォトブック）",
+          "catalogNumber": "AKCY-58075",
+          "artistDisplayName": "佐々木李子",
+          "tracks": [
+            {
+              "title": "スタート！",
+              "disc": 1,
+              "position": 1
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "佐々木李子官方",
+          "label": "スタート！三種CD版發行資料",
+          "url": "https://sasakirico.com/discography.html",
+          "linkType": "official_landing_page",
+          "region": "JP",
+          "verifiedAt": "2026-11-07",
+          "availability": "unknown"
+        }
+      ]
     }
   ],
   "metadataVerifiedAt": "2026-09-02",
