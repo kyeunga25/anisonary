@@ -557,4 +557,7 @@ export const curated2021WinterThemeVideos = {
       embeddable: true,
     },
   ],
+  "126905:ED:1": [{"youtubeVideoId":"5oFA5iwNkXs","title":"「トロピカル～ジュ！プリキュア」エンディング主題歌「トロピカ Ｉ・Ｎ・Ｇ」（ノンテロップver)","type":"creditless_ed","channelName":"プリキュア公式YouTubeチャンネル","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "126905:ED:2": [{"youtubeVideoId":"gLGe8w0vuNg","title":"「トロピカル～ジュ！プリキュア」後期エンディング主題歌「あこがれ Go My Way!!」（ノンテロップver)","type":"creditless_ed","channelName":"プリキュア公式YouTubeチャンネル","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "126905:OP:1": [{"youtubeVideoId":"jZk_rwLgsC4","title":"「トロピカル～ジュ！プリキュア」オープニング主題歌「Viva! Spark!トロピカル～ジュ！プリキュア」（ノンテロップver)","type":"creditless_op","channelName":"プリキュア公式YouTubeチャンネル","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
 } satisfies CuratedThemeVideoOverrideMap;
