@@ -11,13 +11,13 @@
 | 長期目標 | 收集近二十年的動畫歌曲、創作團隊、音源版本、來源、官方影片、收錄發行品與正版平台資訊 |
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED，已確認插曲一併記錄；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2020–2026標準季度TV的動畫及歌曲基本資料優先，按2026 → 2020、各年秋 → 夏 → 春 → 冬補漏。先處理可快速核實的原名、季度／首播、演唱名義、OP／ED用途及來源；創作、影片、音源、發行品及平台集中深化留待下一階段。約24分鐘、常見12／24集，13／26集及同類續播納入；長篇以2020–2026的TV用曲季度盤點，不以作品首播年自動排除；短WEB、泡麵番、短篇TV及特殊番延後，既有成果保留 |
-| 本輪目標 | 第365批續查2023年夏季標準TV，核對 `curated-148465`、`curated-139435`、`curated-139606`、`curated-154643`、`curated-163263`、`curated-150972`、`curated-153344`、`curated-143653` 的角色插曲、期末輪替及續播跨季用途。既有封頂缺口只在新第一方證據出現時續查。 固定2007–2026，資料截止2026-10-14。 |
-| 下批位置 | 第366批接續2023年春夏交界標準TV，核對 `curated-128893`、`curated-157295`、`curated-148048`、`curated-151801`、`curated-130588`、`curated-155783`、`curated-144932`、`curated-151189` 的原期延播、逐話用曲及電視／串流先行差異。既有封頂缺口只在新第一方證據出現時續查。 |
+| 本輪目標 | 第369批接續2023年春季標準TV。核對 `curated-131518`、`curated-149028`、`curated-146234`、`curated-148109`、`curated-155070`、`curated-134131`、`curated-141208`、`curated-154412` 的首末話、已知插曲、季度及正式發行。保留無新證據的既有封頂缺口。 固定2007–2026，資料截止2026-10-14。 |
+| 下批位置 | 第370批接續2023年春季標準TV的 `curated-146975`《アイドルマスター シンデレラガールズ U149》。核對既有27筆用途的角色演唱版本、逐話對照與正式收錄曲序，保留無新第一方證據的既有封頂缺口。 |
 | 完成條件 | 各季有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替；基本資料經公開JSON、頁面及必要檢查驗證，歌單與詳情保持易瀏覽；每筆用途保存現有欄位狀態、未記錄項目及已知續查條件，與完整收齊及來源日期分開。詳細欄位缺少不阻擋基本資料。作品聯集未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件；2020–2026基本盤點及缺口對帳完成後，按季度倒序接續2019–2007，再依已登記缺口分階段深化詳細欄位。未解必要缺口仍標示未完成，不宣稱所有動畫種類或詳細資料齊備 |
-| 執行狀態 | 第365批完成本機驗證；相對第360批正式基線，累計104筆不同用途，已達集中發布門檻。 |
-| 接續位置 | 正式基線 `7bb616ef152a78c2fb534dcd46db75c749221404`／`batch360-basics`／[PR #286](https://github.com/kyeunga25/anisonary/pull/286)。 |
-| 發布提交 | 第360批 Workers 版本 `ed30a16d-d792-4052-9518-f8948e5c22ce`。第357–360批共101筆用途已發布；預覽及正式各2,103份API、103項HTTP與101張歌曲卡通過，正式API契約及2,148頁資料驅動建置通過。 |
-| 本機提交 | 第365批八部作品新增3筆插曲用途（3個歌曲ID），更新19筆既有用途，補一筆已確認夏季片尾用途。 |
+| 執行狀態 | 第369批完成本機驗證。第366–369批累計101筆不同用途已達集中發布門檻，正式發布以發布標記和驗收紀錄為準。 |
+| 接續位置 | 正式基線 `78edce0c68d6798785b1bd27e27a1aecacaf8e40`／`batch365-basics`／[PR #287](https://github.com/kyeunga25/anisonary/pull/287)。 |
+| 發布提交 | 第365批 Workers 版本 `4f218de3-0706-4cf8-ad63-a6175dc8958a`。第361–365批共104筆用途已發布，正式站2,103份API、117項HTTP、104張歌曲卡、35次手機鍵盤海報牆導覽、正式API契約及2,148頁資料驅動建置驗收通過。 |
+| 本機提交 | 第369批八部作品新增2筆插曲用途（2個歌曲ID），更新19筆既有用途及1部作品的首播分類。 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
 執行狀態使用「未開始／執行中／已暫停／已完成／已取消」；無法繼續時另記具體阻礙及仍未完成部分，不自動標記完成。長期目標與本次工作量分開，未指定本次工作量時先完成下一批。
@@ -16811,3 +16811,83 @@ WEP的[官方原期STREAMING](https://wonder-egg-priority.com/streaming/)明dア
 27項單元測試、9項E2E、2,148頁建置及公開邊界檢查通過。Chromium核對22張展開歌曲卡、65項發行曲序、29次季度歌單查詢及8次手機鍵盤海報牆導覽。同意前無YouTube請求。其餘2,064份動畫及28季JSON逐位元組相同。
 
 本機目錄為2,072部動畫、5,214筆用途、4,477個歌曲ID及2,720筆季度作品引用。基本待補1,013筆，僅季度待核289筆，合共1,302筆；970部作品待補或分類。相對第360批正式基線，累計104筆不同用途達集中發布門檻。2020–2026基本盤點及2007–2026長期目標仍在進行。
+
+
+## 第366批／2023年春夏交界、原期播出與正式發行
+
+固定範圍2007–2026，資料截止2026-10-14。八部作品新增2筆有基本逐欄證據的插曲用途、更新19筆既有用途。新增36個音源ID、33個發行ID、40筆用途與發行品關聯及5支官方影片。既有作品、用途及歌曲ID保留。
+
+| 作品 ID | 核對結果 |
+| --- | --- |
+| `curated-128893` | 《地獄楽》補〈W●RK〉單曲兩版與官方MV／無字幕片頭，補〈紙一重〉數位單曲、動畫盤及伴奏。既有第13話夏季用途維持。 [Sony Music 片頭曲序](https://www.sonymusic.co.jp/Music/Info/millenniumparade/shoplist/230517/) · [Uru 動畫盤](https://uru-official.com/discography/detail/54/) |
+| `curated-157295` | 《事情を知らない転校生がグイグイくる。》將ABEMA 4月2日22:00先行與TOKYO MX 4月9日22:00原TV分列，海報牆列先行串流。補兩首單曲、伴奏及原聲帶第1、32軌。7月2日原TV末話的兩首逐曲用途仍待第一方。 [ABEMA](https://times.abema.tv/articles/-/10069745) · [日本コロムビア曲序](https://columbia.jp/prod-info/COCX-42022/) |
+| `curated-148048` | 《神無き世界のカミサマ活動》補第9話〈TOGETHER!!〉及第10話〈救世御霊教歌〉，另補〈I wish〉創作署名及三版CD、〈Steppin' Up Life!〉單曲與伴奏。dアニメストア原期較TOKYO MX早一小時，海報牆列先行串流。第12話兩首插曲與常規OP／ED的夏季用途仍待第一方逐曲署名。 [官方播出表](https://kamikatsu-anime.jp/onair/) · [片尾單曲](https://kamikatsu-anime.jp/music/ending.php) · [官方原聲帶](https://kamikatsu-anime.jp/music/soundtrack.php) |
+| `curated-151801` | 《マッシュル-MASHLE-》第1期兩首補正式CD曲序與TV剪輯，〈Knock Out〉另列岡崎体育自混版。ABEMA確認第12話與地上波同步於6月30日24:00，即7月1日00:00；末話逐曲第一方仍待核。 [ABEMA 末話](https://sayyoutoyoasobi.com/2023/06/%E3%80%8E%E5%A3%B0%E5%84%AA%E3%81%A8%E5%A4%9C%E3%81%82%E3%81%9D%E3%81%B3%E3%80%8Fx%E3%80%8E%E3%83%9E%E3%83%83%E3%82%B7%E3%83%A5%E3%83%AB-mashle-%E3%80%8F%E3%82%B3%E3%83%A9%E3%83%9Cweek/) · [Sony Music 片頭曲序](https://www.sonymusic.co.jp/artist/okazakitaiiku/info/551247) |
+| `curated-130588` | 《魔王学院の不適合者Ⅱ》前半確認1月8日00:30原首播與7月9日00:30由第1話恢復，保留冬夏用途。補〈SEIEN〉CD、〈エソア〉先行與CD，以及《白猫浪漫》第2軌原版、第13軌Ballad版。第9話Ballad版另有9月3日數位單曲，沿用既有共同歌曲ID。 [Aniplex 原首播](https://www.aniplex.co.jp/news/detail/?id=62067) · [恢復播出](https://www.aniplex.co.jp/lineup/maougakuin02/news/detail/?id=63189) · [Sony Music 專輯](https://www.sonymusic.co.jp/artist/momosu/info/558470) |
+| `curated-155783` | 《天国大魔境》補BiSH數位單曲、ASOBI同盟片尾三版CD及版本曲序。第8話特別編曲維持獨立用途、共用歌曲ID。 [官方數位單曲](https://tdm-anime.com/bluraycd/detail.php?id=1019718) · [官方CD](https://tdm-anime.com/bluraycd/detail.php?id=1019716) |
+| `curated-144932` | 《EDENS ZERO》第2期補〈Never say Never〉兩版CD、伴奏及MV，另補〈械物〉與〈my star〉藝人官方MV。第50話10月1日的逐曲第一方證據仍待核，後段兩首維持夏季。 [Sony Music](https://www.sonymusic.co.jp/artist/takanorinishikawa/info/551083) · [動畫官方](https://edens-zero.net/anime/) |
+| `curated-151189` | 《マイホームヒーロー》補兩首正式音源、專輯及原聲帶第1、40軌的TV剪輯，分開記錄3月29日〈愛の歌〉原版與〈Decided (TV Ver.)〉的數位先行日期。 [動畫原聲帶](https://myhomehero-anime.com/music/) · [日本コロムビア先行公告](https://prtimes.jp/main/html/rd/p/000003026.000019470.html) |
+
+27項單元測試、9項E2E、2,148頁建置及公開邊界檢查通過。Chromium核對21張展開歌曲卡、61項發行曲序、40次季度歌單查詢、8次手機鍵盤海報牆導覽及4筆播出分類。同意前無YouTube請求。其餘2,064份動畫及27季JSON逐位元組相同。
+
+本機目錄為2,072部動畫、5,216筆用途、4,479個歌曲ID及2,720筆季度作品引用。基本待補1,013筆；僅季度待核291筆，其中本批兩首已確認春季插曲仍待核第12話夏季使用。用途待補聯集1,304筆，970部作品待補或分類。相對第365批正式基線，累計21筆不同用途待發布。2020–2026基本盤點及2007–2026長期目標仍在進行。
+
+
+## 第367批／2023年春季逐話插曲、特殊片尾與原播
+
+固定範圍2007–2026，資料截止2026-10-14。八部作品新增13筆有基本證據的插曲用途、更新22筆既有用途。新插曲增加12個歌曲ID，其中《東京ミュウミュウ にゅ〜♡》第15話插曲與既有特殊片尾共用歌曲。新增53個音源ID、29個發行ID、55筆用途與發行品關聯及5支官方影片。保留既有作品、用途及歌曲ID。
+
+| 作品 ID | 核對結果 |
+| --- | --- |
+| `curated-147571` | 《異世界はスマートフォンとともに。2》補雙主題曲CD第1–6軌相關音源，分列〈イセカイジュエリー〉三人、六人、九人歌唱及共用伴奏。三人、六人版實際片尾話數仍待第一方逐話署名，歌曲詳情保留，季度歌單沿用已核用途。 [Pony Canyon 曲序](https://www.ponycanyon.co.jp/music/PCCG000002241) |
+| `curated-154876` | 《東京ミュウミュウ にゅ〜♡》第2期補第14、15、16、17及19話共5筆插曲，並按官方第6卷恢復第24話〈my sweet heart（にゅ～♡ver.）〉春季特殊片尾，更新桃宮いちご（CV：天麻ゆうき）的名義及署名。第15話〈MAGICAL☆CARNIVAL〉分別記錄插曲與特殊ED。補主題曲三版CD、原聲帶TV剪輯和官方本編片段。 [第15話官網公告](https://tokyo-mew-mew.com/news/article_097.html) · [第24話官方收錄](https://tokyo-mew-mew.com/package_second.html?cat=vol06) · [劇中歌曲序](https://tokyo-mew-mew.com/music05.html) |
+| `curated-144188` | 《アリス・ギア・アイギス Expansion》確認4月3日21:00串流先於原TV的25:05，海報牆歸入先行串流。補〈Dash and Go!〉三版CD及〈Just a little bit〉單曲與伴奏。第6話候選〈中野慕情〉仍待第一方片尾署名。 [COLOPL 原播](https://colopl.co.jp/news/pressrelease/2023040301.php) · [動畫音樂](https://colopl.co.jp/alicegearaegis/tv-anime/music/) |
+| `curated-146678` | 《Opus.COLORs》補〈SHINY〉單曲及伴奏，並依《SIDE GRADER》首碟第8、9軌分別記錄〈New frame〉與〈Clear〉。〈Clear〉待第一方逐話用途。 [NBCUniversal](https://nbcuni-music.com/urashimasakatasen/discography/shiny.html) · [動畫官網曲序](https://opus-colors.com/cd/?id=tab6) |
+| `curated-151606` | 《BIRDIE WING》第2季確認東京電視台第14話4月7日25:23，即4月8日01:23首播。補片頭〈Venus Line〉與片尾〈君がいるから〉的數位發行，以及後者官方MV。Acoustic版仍待正式第25話逐曲名單。 [東京電視台首話](https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202304/26862_202304072523.html) · [Victor 片尾發行](https://www.jvcmusic.co.jp/-/News/A026697/37.html) |
+| `curated-157765` | 《ワールドダイスター》新增第3、6、7、12話共8筆劇中歌，保留個別角色歌唱與TV Size先行／專輯曲序。〈夢見月夜〉本批只錄第3話カトリナ版，〈Masquerade〉只錄第12話合唱版。〈名もなき恋人よ〉已補專輯與TV Size，是否用作第8話片尾仍待原播署名。 [劇中歌專輯](https://www.world-dai-star.com/product/893) · [第12話劇中歌先行](https://world-dai-star.com/news/1691) |
+| `curated-160442` | 《六道の悪女たち》補〈ENDLESS LABYRINTH〉迷你專輯兩版、伴奏及《ROUND & ROUND》第9軌〈Love Will Find A Way〉全長。 [HIAN 曲序](https://hian.co.jp/news/2596) · [LDH 曲序](https://m.tribe-m.jp/news/detail?news_id=41850) |
+| `curated-157198` | 《デッドマウント・デスプレイ》補前半〈ネロ〉與〈アイオライト〉正式發行，維持與10月後半分列。 [原期動畫音樂](https://dmdp-anime.jp/music/01.html) · [King Records](https://www.kingrecords.co.jp/cs/g/gKICM-2128/) |
+
+27項單元測試、9項E2E、2,148頁建置及公開邊界檢查通過。Chromium核對35張展開歌曲卡、72項發行曲序、35次季度歌單查詢、8次手機鍵盤海報牆導覽及2筆播出分類。同意前無YouTube請求。其餘2,064份動畫及29季JSON逐位元組相同。
+
+本機目錄為2,072部動畫、5,229筆用途、4,491個歌曲ID及2,720筆季度作品引用。基本待補1,012筆，僅季度待核291筆，合共1,303筆；969部作品待補或分類。相對第365批正式基線，累計56筆不同用途待發布。2020–2026基本盤點及2007–2026長期目標仍在進行。
+
+
+## 第368批／2023年春季插曲、主題曲版本與先行串流
+
+固定範圍2007–2026，資料截止2026-10-14。八部作品新增8筆有基本證據的插曲用途及6個歌曲ID，更新16筆既有用途。新增42個音源ID、32個發行ID、39筆用途與發行品關聯及11支官方影片。保留既有作品、用途及歌曲ID。
+
+| 作品 ID | 核對結果 |
+| --- | --- |
+| `curated-153152` | 《僕の心のヤバイやつ》第一期補〈斜陽〉及〈数センチメンタル〉數位單曲和官方無字幕影片。首話片尾若有不同用曲，待正式片尾署名或官方逐話曲表再補。 [ヨルシカ發行](https://yorushika.com/discography/detail/31/) · [シンエイ動画片尾](https://shin-ei-animation.jp/2023/04/news_230412/) · [OTOTOY 片尾發行日](https://ototoy.jp/_/default/p/1603644) |
+| `curated-154965` | 《山田くんとLv999の恋をする》補片頭的《恋愛至上主義》兩版、官方MV與無字幕片頭，片尾分列CD原曲、伴奏、TV Size與無字幕片尾。 [KANA-BOON 專輯](https://sp.kanaboon.jp/discography/detail/45/) · [清 竜人單曲](https://www.sonymusic.co.jp/artist/ryujinkiyoshi/discography/ESCL-5830) · [片尾曲序](https://www.lisani.jp/0000230862/2/) |
+| `curated-141911` | 《スキップとローファー》補兩首主題曲數位發行、官方MV及《Ghost Pop》兩版的片頭曲序。第12話曲表沒有可辨識的額外插曲，待原播署名或官方逐話曲表再查。 [Warner Music Japan](https://wmg.jp/suda-keina/news/88659) · [逢田梨香子發行](https://rikakoaida.com/discography/1050/) |
+| `curated-154364` | 《魔法使いの嫁 SEASON2》前半的〈Dear〉及〈無伴奏〉補原發行及原聲帶第2、29軌的TV剪輯。後半用曲歸其原季度。 [FlyingDog 原聲帶](https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025927/VTCL-60577.html) |
+| `curated-150075` | 《この素晴らしい世界に爆焔を！》ABEMA／dアニメストア在4月6日00:00先行，TOKYO MX在01:00開始，海報牆歸入串流先行。補主題曲單曲、角色獨唱、伴奏與雙碟原聲帶的TV版本。角色獨唱的逐話片尾用途待原播署名。 [官方播出表](https://konosuba.com/bakuen/onair/) · [主題曲及原聲帶曲序](https://konosuba.com/bakuen/music/) |
+| `curated-150957` | 《江戸前エルフ》片頭分列原曲、笹川真生重混、伴奏與TV Size，並補片尾EP及官方MV／無字幕影片。 [動畫官網](https://edomae-elf.com/music.html) · [Sony Music Artists EP](https://www.sma.co.jp/s/sma/news/detail/102638?link=ROBO004) |
+| `curated-153452` | 《王様ランキング 勇気の宝箱》補〈GOLD〉三版CD及〈あてもなく〉三版CD和數位先行發行。 [PEOPLE 1 發行](https://ppppeople1.com/contents/632411) · [Sony Music 先行配信](https://www.sonymusic.co.jp/artist/aimer/info/551644) |
+| `curated-150672` | 《【推しの子】》第一季新增第1、5、9、11話共8筆插曲。〈STAR☆T☆RAIN〉及〈サインはB〉各共用歌曲ID，アイ獨唱與新生B小町重編分作音源和用途；角色歌CD在7月發行，已證實動畫用途維持春季。〈HEART's♡KISS〉新生B小町版的CD收錄不增加第11話用途。另補片頭的原曲、英語版、Anime Edit、伴奏，以及片尾兩版CD。 [動畫官網角色歌曲序](https://ichigoproduction.com/Season1/music/) · [ABEMA 逐話用曲](https://times.abema.tv/articles/-/10070713?page=1) |
+
+27項單元測試、9項E2E、2,148頁建置及公開邊界檢查通過。Chromium核對24張展開歌曲卡、58項發行曲序、24次季度歌單查詢、8次手機鍵盤海報牆導覽及1筆播出分類。同意前無YouTube請求。其餘2,064份動畫及29季JSON逐位元組相同。
+
+本機目錄為2,072部動畫、5,237筆用途、4,497個歌曲ID及2,720筆季度作品引用。基本待補1,012筆，僅季度待核291筆，合共1,303筆；969部作品待補或分類。相對第365批正式基線，累計80筆不同用途待發布。2020–2026基本盤點及2007–2026長期目標仍在進行。
+
+
+## 第369批／2023年春季插曲、主題曲版本與先行串流
+
+固定範圍2007–2026，資料截止2026-10-14。八部作品新增2筆有基本證據的插曲用途及2個歌曲ID，更新19筆既有用途。新增39個音源ID、36個發行ID、41筆用途與發行品關聯及8支官方影片。保留既有作品、用途及歌曲ID。
+
+| 作品 ID | 核對結果 |
+| --- | --- |
+| `curated-131518` | 《Dr.STONE NEW WORLD》前半補〈ワスレガタキ〉數位先行與兩版CD，並分列〈Where Do We Go?〉原曲、TV edit、伴奏及先行發行。首話的片尾／劇中用法待第一方逐話署名。 [動畫官網發行公告](https://dr-stone.jp/news/4298/) |
+| `curated-149028` | 《私の百合はお仕事です！》補《秘密♡Melody》三版、動畫盤收錄的雙人片尾及各自伴奏，並補兩首的原聲帶 TV Size。 [日本 Columbia 動畫盤](https://columbia.jp/artist-info/ogurayui/discography/COCC-18109.html) · [動畫官網原聲帶](https://watayuri-anime.com/music/) |
+| `curated-146234` | 《異世界ワンターンキル姉さん》補 TrySail 雙片頭CD、VALIS 片尾數位單曲、無字幕影片及第11話〈メグリメグッテ〉單曲。ABEMA 比電視首播早一天，海報牆歸入串流先行。〈Follow You！〉是否另有第12話插曲用途待原播署名。 [官方播出表](https://onekillsister.com/onair/) · [動畫官網曲目](https://onekillsister.com/music/) |
+| `curated-148109` | 《勇者が死んだ！》補〈死んだ！〉數位先行及兩版CD的TV Size／伴奏、〈可愛くって意地悪しちゃう〉三版CD。 [官方片頭](https://heroisdead.com/product/music/op/) · [官方片尾](https://heroisdead.com/product/music/ed/) |
+| `curated-155070` | 《カワイスギクライシス》補超学生數位片頭與 DIALOGUE＋ 片尾兩版CD，分列原曲、TV Size與伴奏。 [Pony Canyon 發行](https://news.ponycanyon.co.jp/2023/03/82938) · [DIALOGUE＋ 曲序](https://dialogue-music.jp/discography/18_nyanbory/) |
+| `curated-134131` | 《魔法少女マジカルデストロイヤーズ》新增第8話〈暴走少女愛伝茶茶〉，補同話〈Everything Happens for a reason〉發行與創作名單，並補片頭CD及片尾兩版、TV Size和伴奏。 [官方第8話曲目及配信](https://magical-mad.com/news/) · [官方主題曲](https://www.magical-mad.com/music/) |
+| `curated-141208` | 《トニカクカワイイ》第2季補兩首數位發行與無字幕片尾。〈Tsukasa’s♪Kitchen〉的官方出處為早期特別篇相關MV，沒有歸入第二季逐話用曲。 [官方發行公告](https://tonikawa.com/news/news-72/) · [特別篇官方公告](https://tonikawa.com/news/news-68/) |
+| `curated-154412` | 《女神のカフェテラス》新增第5話〈My Standard〉、現場片段、原曲及劇中剪輯；同一角色歌CD其餘曲目待第一方逐話署名。補片頭、片尾的先行與實體發行。 [Marvelous 第5話及唱片](https://www.marv.jp/titles/mc/10595/) · [Sony Music 片尾](https://www.sonymusic.co.jp/artist/satomiki/info/551200) |
+
+27項單元測試、9項E2E、2,148頁建置及公開邊界檢查通過。Chromium核對21張展開歌曲卡、68項發行曲序、21次季度歌單查詢、8次手機鍵盤海報牆導覽及1筆播出分類。同意前無YouTube請求。其餘2,064份動畫及29季JSON逐位元組相同。
+
+本機目錄為2,072部動畫、5,239筆用途、4,499個歌曲ID及2,720筆季度作品引用。基本待補1,012筆，僅季度待核291筆，合共1,303筆；969部作品待補或分類。相對第365批正式基線，累計101筆不同用途達集中發布門檻。2020–2026基本盤點及2007–2026長期目標仍在進行。
