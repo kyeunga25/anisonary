@@ -99,4 +99,11 @@ export const curated2023SpringThemeVideos = {
   "146975:ED:9": [{"youtubeVideoId":"mPfIZjPIg_Q","title":"【アニメ】「アイドルマスター シンデレラガールズ U149」第9話ノンクレジットエンディング「ひまわりマークをさがせ！」【アイドルマスター】","channelName":"アイドルマスターチャンネル","type":"creditless_ed","officialStatus":"official","embeddable":false,"recordingId":"the-idolm-at-ster-cinderella-girls-u149-ed-9-song-tv"}],
   "146975:IN:16": [{"youtubeVideoId":"FDso2RlJsyI","title":"ハイファイ☆デイズ (GAME Version)","channelName":"Release - Topic","type":"art_track","officialStatus":"official","embeddable":false,"recordingId":"the-idolm-at-ster-cinderella-girls-u149-in-16-song-game"}],
   "146975:OP:1": [{"youtubeVideoId":"7hOZPtgp6_A","title":"【アニメ】「アイドルマスター シンデレラガールズ U149」ノンクレジットオープニング「Shine In The Sky☆」【アイドルマスター】","channelName":"アイドルマスターチャンネル","type":"creditless_op","officialStatus":"official","embeddable":false,"recordingId":"the-idolm-at-ster-cinderella-girls-u149-op-1-song-tv"}],
+  "127550:OP:1": [{"youtubeVideoId":"gv0fUpBqnjQ","title":"和氣あず未「キミトノミライ」Music Video","channelName":"和氣あず未 Music Channel","type":"music_video","officialStatus":"official","embeddable":false}],
+  "145139:IN:1": [{"youtubeVideoId":"l_HS7x_2REE","title":"「竈門禰豆子のうた」配信告知CM","channelName":"アニプレックス チャンネル","type":"pv","officialStatus":"official","embeddable":false}],
+  "151847:ED:2": [{"youtubeVideoId":"49mSqHdSy5A","title":"MindaRyn「Fireworks」第6話片尾 Lyric Video","channelName":"MindaRyn _","type":"lyric_video","officialStatus":"official","embeddable":false}],
+  "153332:ED:1": [{"youtubeVideoId":"IVwmUfAapvo","title":"「七色の絵の具で」ノンクレジットED映像","channelName":"日本コロムビア 公式YouTubeチャンネル","type":"creditless_ed","officialStatus":"official","embeddable":false}],
+  "153845:ED:1": [{"youtubeVideoId":"19yFDqvVnN8","title":"「ハチミツ」ノンテロップエンディング映像","channelName":"KADOKAWAanime","type":"creditless_ed","officialStatus":"official","embeddable":false}],
+  "156896:IN:1": [{"youtubeVideoId":"C9aG5CkSiLA","title":"Kizuna AI「Linx」官方MV","channelName":"Alleles Project / アリルズプロジェクト","type":"music_video","officialStatus":"official","embeddable":false}],
+  "156896:IN:2": [{"youtubeVideoId":"Ynf0OU20sLk","title":"PathTLive「SHININGi」第12話演出影片","channelName":"Alleles Project / アリルズプロジェクト","type":"music_video","officialStatus":"official","embeddable":false}],
 } satisfies CuratedThemeVideoOverrideMap;
