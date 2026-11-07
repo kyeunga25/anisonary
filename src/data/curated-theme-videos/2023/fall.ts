@@ -16,5 +16,9 @@ export const curated2023FallThemeVideos = {
     channelName: "Netflix Japan",
     officialStatus: "official",
     embeddable: true
-  }]
+  }],
+  "163024:OP:1": [{"youtubeVideoId":"fyB-4_wotbg","title":"WEST. 「AS ONE」Official Music Video [YouTube Ver.]","channelName":"WEST.","type":"music_video","officialStatus":"official","embeddable":false}],
+  "163024:OP:3": [{"youtubeVideoId":"rRcVpC-sfAM","title":"WEST. 「ハート」Official Music Video","channelName":"WEST.","type":"music_video","officialStatus":"official","embeddable":false}],
+  "165159:ED:1": [{"youtubeVideoId":"V4WuFN9F1ts","title":"ZOOM ZOOM 官方無字幕ED","channelName":"BEYBLADE X","type":"creditless_ed","officialStatus":"official","embeddable":false}],
+  "165159:OP:1": [{"youtubeVideoId":"eaUWfrHNq4U","title":"Prove 官方無字幕OP","channelName":"BEYBLADE X","type":"creditless_op","officialStatus":"official","embeddable":false}],
 } satisfies CuratedThemeVideoOverrideMap;

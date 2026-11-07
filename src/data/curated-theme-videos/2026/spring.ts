@@ -172,4 +172,5 @@ export const curated2026SpringThemeVideos = {
       embeddable: true,
     },
   ],
+  "6149:OP:1": [{"youtubeVideoId":"ovrRdVce9Mc","title":"おどるポンポコリン 官方動畫MV","channelName":"Momoiro Clover Z Channel","type":"music_video","officialStatus":"official","embeddable":false}],
 } satisfies CuratedThemeVideoOverrideMap;
