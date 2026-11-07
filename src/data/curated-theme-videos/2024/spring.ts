@@ -166,4 +166,5 @@ export const curated2024SpringThemeVideos = {
   "153288:IN:3": [{"youtubeVideoId":"r8eQDtOnUsY","title":"アニメ『怪獣８号』第10話劇中歌「Never Break Down」リリックビデオ","channelName":"TOHO animation チャンネル","type":"lyric_video","officialStatus":"official","embeddable":false}],
   "159039:IN:2": [{"youtubeVideoId":"McLmefFVs7E","title":"佐藤由美子(CV:伊藤美来) / 君と指を絡めて(TVアニメ「声優ラジオのウラオモテ」挿入歌)","type":"other","channelName":"日本コロムビア 公式YouTubeチャンネル","officialStatus":"official","embeddable":false}],
   "160181:OP:1": [{"youtubeVideoId":"T2J1Fr_KPSA","title":"SSGIRLS（歌：笹倉かな）「Follow your arrows」-Music Video-（TVアニメ「ささやくように恋を唄う」OPテーマ）","type":"music_video","channelName":"笹倉かな Official YouTube channel / Kana Sasakura","officialStatus":"official","embeddable":false}],
+  "166910:ED:2": [{"youtubeVideoId":"SSShzbSGnkY","title":"BEYOND feat. MaRI Music Video","channelName":"ALI","type":"music_video","officialStatus":"official","embeddable":false}],
 } satisfies CuratedThemeVideoOverrideMap;
