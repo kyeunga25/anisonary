@@ -281,4 +281,7 @@ export const curated2022SummerThemeVideos = {
       embeddable: true,
     },
   ],
+  "135806:ED:1": [{"youtubeVideoId":"pCb0C5K78fo","title":"異世界おじさん ノンクレジットED 井口裕香「一番星ソノリティ」","channelName":"KADOKAWAanime","type":"creditless_ed","officialStatus":"official","embeddable":false}],
+  "135806:OP:1": [{"youtubeVideoId":"NFS7ZvqOO_A","title":"異世界おじさん ノンクレジットOP 前島麻由「story」","channelName":"KADOKAWAanime","type":"creditless_op","officialStatus":"official","embeddable":false}],
+  "153412:ED:1": [{"youtubeVideoId":"YkGDN1-KSs4","title":"上月せれな WINNING ROAD (デュエル・マスターズ WIN ED)","channelName":"上月せれな（せれちゅ）","type":"music_video","officialStatus":"official","embeddable":false}],
 } satisfies CuratedThemeVideoOverrideMap;
