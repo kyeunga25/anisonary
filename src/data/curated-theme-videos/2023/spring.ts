@@ -33,14 +33,7 @@ export const curated2023SpringThemeVideos = {
     officialStatus: "official",
     embeddable: true
   }],
-  "158871:ED:13": [{
-    youtubeVideoId: "Pq3RedHvV-A",
-    title: "【公式】アニメ「ポケットモンスター　テラスタルデビュー」エンディングテーマ「Let me battle」",
-    type: "other",
-    channelName: "ポケモン公式YouTubeチャンネル",
-    officialStatus: "official",
-    embeddable: true
-  }],
+  "158871:ED:13": [{"youtubeVideoId":"Pq3RedHvV-A","title":"【公式】アニメ「ポケットモンスター　テラスタルデビュー」エンディングテーマ「Let me battle」","type":"creditless_ed","channelName":"ポケモン公式YouTubeチャンネル","officialStatus":"official","embeddable":true},{"youtubeVideoId":"whTcBozYrOo","title":"Let me battle 官方MV","channelName":"9Lana","type":"music_video","officialStatus":"official","embeddable":false}],
   "158871:ED:14": [{
     youtubeVideoId: "iKuLBnTU1dE",
     title: "【公式】アニメ「ポケットモンスター レックウザ ライジング」エンディングテーマ「ピッカーン！」",
@@ -58,4 +51,5 @@ export const curated2023SpringThemeVideos = {
   "159560:ED:7": [{"youtubeVideoId":"sk19KXYkWCo","title":"TVアニメ「逃走中 グレートミッション」ノンクレジット エンディング映像第７弾【高嶺のなでしこ / アドレナリンゲーム】","type":"creditless_ed","channelName":"逃走中 グレートミッション【アニメサンデー9 チャンネル】","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},{"youtubeVideoId":"n_8LTS92LXE","title":"【MV】アドレナリンゲーム／高嶺のなでしこ【HoneyWorks】","type":"music_video","channelName":"高嶺のなでしこ Official","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
   "159560:ED:8": [{"youtubeVideoId":"v1OgjGuqIP4","title":"TVアニメ「逃走中 グレートミッション」ノンクレジット エンディング映像第８弾【ALL IN / 自分キログラム】","type":"creditless_ed","channelName":"逃走中 グレートミッション【アニメサンデー9 チャンネル】","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
   "159560:OP:1": [{"youtubeVideoId":"E4zxTqpj2Ms","title":"TVアニメ「逃走中 グレートミッション」ノンクレジットオープニング映像【fhána / Runaway World】","type":"creditless_op","channelName":"逃走中 グレートミッション【アニメサンデー9 チャンネル】","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},{"youtubeVideoId":"JUqcrn89ouo","title":"TVアニメ「逃走中 グレートミッション」ノンクレジット新オープニング映像【fhána / Runaway World】","type":"creditless_op","channelName":"逃走中 グレートミッション【アニメサンデー9 チャンネル】","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},{"youtubeVideoId":"6CNyPjxyqDg","title":"fhána - Runaway World (TVアニメ『逃走中 グレートミッション』OP主題歌) - MUSIC VIDEO","type":"music_video","channelName":"fhána Official Channel","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "158871:OP:3": [{"youtubeVideoId":"eGurVNjEELY","title":"Will 官方動畫片頭","channelName":"ポケモン公式YouTubeチャンネル","type":"other","officialStatus":"official","embeddable":false}],
 } satisfies CuratedThemeVideoOverrideMap;
