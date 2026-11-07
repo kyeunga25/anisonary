@@ -27,4 +27,6 @@ export const curated2022SpringThemeVideos = {
   "132010:ED:1": [{ youtubeVideoId: "MF3CJXEytLY", title: "TVアニメ「恋は世界征服のあとで」ノンテロップED ／ DIALOGUE+「恋は世界定理と共に」", type: "creditless_ed", channelName: "ハピネット【アニメ公式】", officialStatus: "official", embeddable: true }],
   "133412:OP:1": [{ youtubeVideoId: "49UDf5sTfMU", title: "オリジナルTVアニメ「ヒーラー・ガール」オープニング映像", type: "creditless_op", channelName: "ヒーラーガールズ Official", officialStatus: "official", embeddable: true }],
   "148819:OP:1": [{ youtubeVideoId: "PT6h9ea-zHA", title: "[MV] 呂布カルマ - Lucky Boy, Lucky Girl ( アニメ『 なならき 〜 Seven Lucky Gods 〜 』主題歌 )", type: "full_music_video", channelName: "なならき〜Seven Lucky Gods〜公式チャンネル【アニメ】", officialStatus: "official", embeddable: true }],
+  "142842:ED:5": [{"youtubeVideoId":"uzXxSjW4DRQ","title":"七瀬彩夏『STAR RUSH』Official Music Video","type":"music_video","channelName":"アニメ 音楽 2.5次元舞台 - マーベラス公式チャンネル","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "142842:ED:6": [{"youtubeVideoId":"ebwGfHJmvKQ","title":"七瀬彩夏2ndシングル『サヨナラにはならない』Official Music Video","type":"music_video","channelName":"アニメ 音楽 2.5次元舞台 - マーベラス公式チャンネル","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
 } satisfies CuratedThemeVideoOverrideMap;
