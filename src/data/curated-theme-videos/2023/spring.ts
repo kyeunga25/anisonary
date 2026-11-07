@@ -106,4 +106,7 @@ export const curated2023SpringThemeVideos = {
   "153845:ED:1": [{"youtubeVideoId":"19yFDqvVnN8","title":"「ハチミツ」ノンテロップエンディング映像","channelName":"KADOKAWAanime","type":"creditless_ed","officialStatus":"official","embeddable":false}],
   "156896:IN:1": [{"youtubeVideoId":"C9aG5CkSiLA","title":"Kizuna AI「Linx」官方MV","channelName":"Alleles Project / アリルズプロジェクト","type":"music_video","officialStatus":"official","embeddable":false}],
   "156896:IN:2": [{"youtubeVideoId":"Ynf0OU20sLk","title":"PathTLive「SHININGi」第12話演出影片","channelName":"Alleles Project / アリルズプロジェクト","type":"music_video","officialStatus":"official","embeddable":false}],
+  "140754:ED:1": [{"youtubeVideoId":"SQx3EhYK5p8","title":"TVアニメ『異世界召喚は二度目です』ノンクレジットED【メイビーME「Be ambitious!!!」】","channelName":"ABC Animation Channel","type":"creditless_ed","officialStatus":"official","embeddable":false}],
+  "140754:OP:1": [{"youtubeVideoId":"z4NS2yqor-o","title":"TVアニメ『異世界召喚は二度目です』ノンクレジットOP【秘密結社ニルヴァージュ∀「Continue Distortion」】","channelName":"ABC Animation Channel","type":"creditless_op","officialStatus":"official","embeddable":false}],
+  "148098:ED:1": [{"youtubeVideoId":"sHFXbXDH83M","title":"TVアニメ「おとなりに銀河」ノンクレジットED / 五色しおり(CV.和久井優)「Near Stella」","channelName":"「KING AMUSEMENT CREATIVE」公式チャンネル","type":"creditless_ed","officialStatus":"official","embeddable":false}],
 } satisfies CuratedThemeVideoOverrideMap;

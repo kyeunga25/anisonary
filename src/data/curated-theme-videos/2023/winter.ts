@@ -60,4 +60,9 @@ export const curated2023WinterThemeVideos = {
   "157883:ED:1": [{"youtubeVideoId":"t8UtEPaq2Og","title":"「ひろがるスカイ！プリキュア」エンディング主題歌「ヒロガリズム」(ノンテロップver)","type":"creditless_ed","channelName":"プリキュア公式YouTubeチャンネル","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
   "157883:ED:2": [{"youtubeVideoId":"tRe0cu2YPXk","title":"「ひろがるスカイ！プリキュア」後期エンディング主題歌「Dear Shine Sky」(ノンテロップver)","type":"creditless_ed","channelName":"プリキュア公式YouTubeチャンネル","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
   "157883:OP:1": [{"youtubeVideoId":"PuJMfePEKr4","title":"「ひろがるスカイ！プリキュア」オープニング主題歌「ひろがるスカイ！プリキュア ～Hero Girls～」(ノンテロップver)","type":"creditless_op","channelName":"プリキュア公式YouTubeチャンネル","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "142853:ED:1": [{"youtubeVideoId":"VmafNGBrXHg","title":"TVアニメ『東京リベンジャーズ』聖夜決戦編 ノンクレジットED【ツユ「傷つけど、愛してる。」】","channelName":"TVアニメ『東京リベンジャーズ』チャンネル","type":"creditless_ed","officialStatus":"official","embeddable":false}],
+  "142853:OP:1": [{"youtubeVideoId":"keFRueltLIU","title":"TVアニメ『東京リベンジャーズ』聖夜決戦編 ノンクレジットOP【Official髭男dism「ホワイトノイズ」】","channelName":"TVアニメ『東京リベンジャーズ』チャンネル","type":"creditless_op","officialStatus":"official","embeddable":false}],
+  "154969:IN:1": [{"youtubeVideoId":"erMXw8G38ZQ","title":"「Unite up!」アニメ最終話ライブ×AnimeJapanステージ スペシャル映像","channelName":"UniteUp! Official YouTube Channel","type":"live","officialStatus":"official","embeddable":false}],
+  "154969:OP:1": [{"youtubeVideoId":"0cmcG8-CkDk","title":"TVアニメ『UniteUp!』ノンクレジットOPムービー｜「Unite up!」UniteUp!","channelName":"UniteUp! Official YouTube Channel","type":"creditless_op","officialStatus":"official","embeddable":false}],
+  "155907:OP:1": [{"youtubeVideoId":"-7PplA_ykNk","title":"TVアニメ「Buddy Daddies」ノンテロップOPムービー｜Ayase「SHOCK!」","channelName":"アニプレックス チャンネル","type":"creditless_op","officialStatus":"official","embeddable":false}],
 } satisfies CuratedThemeVideoOverrideMap;
