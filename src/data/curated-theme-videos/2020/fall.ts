@@ -657,4 +657,8 @@ export const curated2020FallThemeVideos = {
       embeddable: true,
     },
   ],
+  "114099:ED:2": [{"youtubeVideoId":"BNT636RN570","title":"XIIX「アカシ」MV","type":"music_video","channelName":"TenTwenty","officialStatus":"official","embeddable":false}],
+  "114099:ED:3": [{"youtubeVideoId":"vQ-IyrZYSyw","title":"ハンブレッダーズ「名前」Music Video","type":"music_video","channelName":"ハンブレッダーズ","officialStatus":"official","embeddable":false}],
+  "114099:ED:4": [{"youtubeVideoId":"3HMprhMq--A","title":"ミテイノハナシ - 飛ぶ鳥は（Music Video）","type":"music_video","channelName":"ミテイノハナシ / Aru.","officialStatus":"official","embeddable":false}],
+  "114099:OP:2": [{"youtubeVideoId":"BBAkeBMlMrg","title":"向井太一 / Bravest (Official Music Video)","type":"music_video","channelName":"向井太一 / TAIL","officialStatus":"official","embeddable":false}],
 } satisfies CuratedThemeVideoOverrideMap;

@@ -2604,166 +2604,763 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
     ],
     "themes": [
       {
-  "type": "OP",
-  "sequence": 1,
-  "titleJa": "リスポーン!!",
-  "artistDisplayName": "角巻わため",
-  "seasonIds": [
-    "2026-fall"
-  ],
-  "sourceMode": "explicit",
-  "songId": "kyouran-reijou-nia-liston-op-1-song",
-  "sources": [
-    {
-      "label": "官方：曲名、演唱名義與動畫用途",
-      "url": "https://kyoranreijo-pr.com/",
-      "language": "ja",
-      "role": "first_party",
-      "verifiedAt": "2026-10-19"
-    },
-    {
-      "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
-      "url": "https://utaten.com/specialArticle/index/10195",
-      "language": "ja",
-      "role": "cross_check",
-      "verifiedAt": "2026-10-27"
-    }
-  ],
-  "lastVerifiedAt": "2026-10-19",
-  "evidence": [
-    {
-      "target": "song",
-      "targetId": "kyouran-reijou-nia-liston-op-1-song",
-      "fields": [
-        "title",
-        "artist"
-      ],
-      "sourceUrls": [
-        "https://kyoranreijo-pr.com/"
-      ],
-      "verifiedAt": "2026-10-19"
-    },
-    {
-      "target": "anime_use",
-      "targetId": "kyouran-reijou-nia-liston-op-1",
-      "fields": [
-        "usage"
-      ],
-      "sourceUrls": [
-        "https://kyoranreijo-pr.com/"
-      ],
-      "verifiedAt": "2026-10-19"
-    },
-    {
-      "target": "song",
-      "targetId": "kyouran-reijou-nia-liston-op-1-song",
-      "fields": [
-        "title",
-        "artist"
-      ],
-      "sourceUrls": [
-        "https://utaten.com/specialArticle/index/10195"
-      ],
-      "verifiedAt": "2026-10-27"
-    },
-    {
-      "target": "anime_use",
-      "targetId": "kyouran-reijou-nia-liston-op-1",
-      "fields": [
-        "usage"
-      ],
-      "sourceUrls": [
-        "https://utaten.com/specialArticle/index/10195"
-      ],
-      "verifiedAt": "2026-10-27"
-    }
-  ]
-},
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "リスポーン!!",
+        "artistDisplayName": "角巻わため",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "kyouran-reijou-nia-liston-op-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://kyoranreijo-pr.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+            "url": "https://utaten.com/specialArticle/index/10195",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-27"
+          },
+          {
+            "url": "https://kyoranreijo-pr.com/60/",
+            "label": "作品官網原公告｜堀江晶太詞曲編與正式OP",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000000210.000034440.html",
+            "label": "VAP 原期發行公告｜10/7先行配信",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://dengekionline.com/article/202609/88852",
+            "label": "電撃オンライン｜原期片頭、演唱及先行配信交叉",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://news.mynavi.jp/article/20261007-5088455/",
+            "label": "マイナビニュース｜10/6原播及片頭公開交叉",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=-FXID0KhCm0",
+            "label": "MBS 官方片頭畫面｜2026-10-06公開",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=yhJ1yAqATmQ",
+            "label": "角巻わため官方動畫MV｜2026-10-07公開與詞曲編",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://lnk.to/RESPAWN_Tsunomaki.Watame",
+            "label": "VAP 官方先行配信入口",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/respawn-single/6813373403",
+            "label": "Apple Music 日本｜10/7實際配信商品",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/6813373404",
+            "label": "Apple Music 日本｜主曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/6813373405",
+            "label": "Apple Music 日本｜Instrumental 曲目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-07",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "kyouran-reijou-nia-liston-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://kyoranreijo-pr.com/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "kyouran-reijou-nia-liston-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://kyoranreijo-pr.com/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "song",
+            "targetId": "kyouran-reijou-nia-liston-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://utaten.com/specialArticle/index/10195"
+            ],
+            "verifiedAt": "2026-10-27"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "kyouran-reijou-nia-liston-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://utaten.com/specialArticle/index/10195"
+            ],
+            "verifiedAt": "2026-10-27"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://kyoranreijo-pr.com/60/",
+              "https://www.youtube.com/watch?v=-FXID0KhCm0"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "kyouran-reijou-nia-liston-op-1-song"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://dengekionline.com/article/202609/88852",
+              "https://news.mynavi.jp/article/20261007-5088455/"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "kyouran-reijou-nia-liston-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://kyoranreijo-pr.com/60/",
+              "https://kyoranreijo-pr.com/",
+              "https://www.youtube.com/watch?v=-FXID0KhCm0"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "kyouran-reijou-nia-liston-op-1"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://news.mynavi.jp/article/20261007-5088455/"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "kyouran-reijou-nia-liston-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://kyoranreijo-pr.com/60/",
+              "https://www.youtube.com/watch?v=yhJ1yAqATmQ"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/6813373405"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "kyouran-reijou-nia-liston-op-1-digital-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000000210.000034440.html",
+              "https://music.apple.com/jp/album/respawn-single/6813373403",
+              "https://music.apple.com/jp/song/6813373404",
+              "https://music.apple.com/jp/song/6813373405"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "kyouran-reijou-nia-liston-op-1-jp-digital-20261007"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kyoranreijo-pr.com/",
+              "https://www.youtube.com/watch?v=-FXID0KhCm0"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "-FXID0KhCm0"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=yhJ1yAqATmQ"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "yhJ1yAqATmQ"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/RESPAWN_Tsunomaki.Watame"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "https://lnk.to/RESPAWN_Tsunomaki.Watame"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/album/respawn-single/6813373403"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "https://music.apple.com/jp/album/respawn-single/6813373403"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/6813373404"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "https://music.apple.com/jp/song/6813373404"
+          }
+        ],
+        "usageLabel": "原TV片頭曲",
+        "followUp": [
+          {
+            "fields": [
+              "recording_format",
+              "platform_availability"
+            ],
+            "note": "原期片頭畫面及作者動畫MV已核。日本先行單曲及伴奏已核，完整或TV音源規格與跨平台母帶仍未明。",
+            "resumeWhen": "待權利方直接標示已發行音源格式，或其他地區的確切合法曲目可核。",
+            "checkedAt": "2026-11-07"
+          }
+        ],
+        "credits": [
+          {
+            "name": "角巻わため",
+            "role": "vocals"
+          },
+          {
+            "name": "堀江晶太",
+            "role": "lyrics"
+          },
+          {
+            "name": "堀江晶太",
+            "role": "composition"
+          },
+          {
+            "name": "堀江晶太",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kyouran-reijou-nia-liston-op-1-digital-instrumental",
+            "title": "リスポーン!! (Instrumental)",
+            "format": "unknown",
+            "kind": "instrumental"
+          }
+        ],
+        "releases": [
+          {
+            "id": "kyouran-reijou-nia-liston-op-1-jp-digital-20261007",
+            "title": "リスポーン!!",
+            "type": "single",
+            "artistDisplayName": "角巻わため",
+            "date": {
+              "value": "2026-10-07",
+              "precision": "day"
+            },
+            "edition": "日本數碼單曲",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "リスポーン!!",
+                "position": 1
+              },
+              {
+                "title": "リスポーン!! (Instrumental)",
+                "position": 2,
+                "recordingId": "kyouran-reijou-nia-liston-op-1-digital-instrumental"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "VAP",
+            "label": "VAP 先行配信入口",
+            "url": "https://lnk.to/RESPAWN_Tsunomaki.Watame",
+            "linkType": "official_landing_page",
+            "region": "JP",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-07",
+            "releaseId": "kyouran-reijou-nia-liston-op-1-jp-digital-20261007"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Apple Music 日本單曲",
+            "url": "https://music.apple.com/jp/album/respawn-single/6813373403",
+            "linkType": "direct_album",
+            "region": "JP",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-07",
+            "releaseId": "kyouran-reijou-nia-liston-op-1-jp-digital-20261007"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Apple Music 日本主曲",
+            "url": "https://music.apple.com/jp/song/6813373404",
+            "linkType": "direct_track",
+            "region": "JP",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-07",
+            "releaseId": "kyouran-reijou-nia-liston-op-1-jp-digital-20261007"
+          }
+        ]
+      },
       {
-  "type": "ED",
-  "sequence": 1,
-  "titleJa": "ときめきアン・ドゥ・トロワ♪",
-  "artistDisplayName": "魔法映像（マジックビジョン）ひろめ隊",
-  "seasonIds": [
-    "2026-fall"
-  ],
-  "sourceMode": "explicit",
-  "songId": "kyouran-reijou-nia-liston-ed-1-song",
-  "sources": [
-    {
-      "label": "官方：曲名、演唱名義與動畫用途",
-      "url": "https://kyoranreijo-pr.com/",
-      "language": "ja",
-      "role": "first_party",
-      "verifiedAt": "2026-10-19"
-    },
-    {
-      "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
-      "url": "https://utaten.com/specialArticle/index/10195",
-      "language": "ja",
-      "role": "cross_check",
-      "verifiedAt": "2026-10-27"
-    }
-  ],
-  "lastVerifiedAt": "2026-10-19",
-  "evidence": [
-    {
-      "target": "song",
-      "targetId": "kyouran-reijou-nia-liston-ed-1-song",
-      "fields": [
-        "title",
-        "artist"
-      ],
-      "sourceUrls": [
-        "https://kyoranreijo-pr.com/"
-      ],
-      "verifiedAt": "2026-10-19"
-    },
-    {
-      "target": "anime_use",
-      "targetId": "kyouran-reijou-nia-liston-ed-1",
-      "fields": [
-        "usage"
-      ],
-      "sourceUrls": [
-        "https://kyoranreijo-pr.com/"
-      ],
-      "verifiedAt": "2026-10-19"
-    },
-    {
-      "target": "song",
-      "targetId": "kyouran-reijou-nia-liston-ed-1-song",
-      "fields": [
-        "title"
-      ],
-      "sourceUrls": [
-        "https://utaten.com/specialArticle/index/10195"
-      ],
-      "verifiedAt": "2026-10-27"
-    },
-    {
-      "target": "anime_use",
-      "targetId": "kyouran-reijou-nia-liston-ed-1",
-      "fields": [
-        "usage"
-      ],
-      "sourceUrls": [
-        "https://utaten.com/specialArticle/index/10195"
-      ],
-      "verifiedAt": "2026-10-27"
-    }
-  ],
-  "followUp": [
-    {
-      "fields": [
-        "basic_evidence"
-      ],
-      "note": "獨立表演唱名義的讀音括號字形與既有顯示不同，演唱名義逐字交叉證據未補齊；曲名與本期ED用途已核，原名義不變。",
-      "resumeWhen": "待獨立本期正文列出「魔法映像（マジックビジョン）ひろめ隊」完整名義字形，或提供兩種括號呈現為同一名義的明確說明後，續核演唱名義交叉欄；本次兩輪後停止重搜。",
-      "checkedAt": "2026-10-27"
-    }
-  ]
-}
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "ときめきアン・ドゥ・トロワ♪",
+        "artistDisplayName": "魔法映像（マジックビジョン）ひろめ隊",
+        "seasonIds": [
+          "2026-fall"
+        ],
+        "sourceMode": "explicit",
+        "songId": "kyouran-reijou-nia-liston-ed-1-song",
+        "sources": [
+          {
+            "label": "官方：曲名、演唱名義與動畫用途",
+            "url": "https://kyoranreijo-pr.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "label": "UtaTen：季度曲名、演唱與OP／ED交叉核對",
+            "url": "https://utaten.com/specialArticle/index/10195",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-27"
+          },
+          {
+            "url": "https://kyoranreijo-pr.com/104/",
+            "label": "作品官網原公告｜片尾主題曲、三名實唱及詞曲編",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://dengekionline.com/article/202609/88852",
+            "label": "電撃オンライン原期報道｜全形括號完整正式演唱名義",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://realsound.jp/movie/2026/10/post-2552172.html",
+            "label": "Real Sound｜第2話片尾與10/14數碼配信交叉",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.animatetimes.com/news/details.php?id=1791894132",
+            "label": "アニメイトタイムズ｜10/13無字幕片尾及配信",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://thetv.jp/program/0001077762/2/",
+            "label": "WEBザテレビジョン｜第2話10/13原TV",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=FGhd4D_h9xc",
+            "label": "MBS 官方無字幕片尾｜10/13公開、署名及翌日配信",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://vap.lnk.to/Tokimeki_Un.Deux.Trois",
+            "label": "VAP 官方配信入口",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/tokimeki-un-deux-trois-single/6816815403",
+            "label": "Apple Music 日本｜10/14實際配信商品",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/6816815404",
+            "label": "Apple Music 日本｜本曲直接項目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-07",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "kyouran-reijou-nia-liston-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://kyoranreijo-pr.com/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "kyouran-reijou-nia-liston-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://kyoranreijo-pr.com/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "song",
+            "targetId": "kyouran-reijou-nia-liston-ed-1-song",
+            "fields": [
+              "title"
+            ],
+            "sourceUrls": [
+              "https://utaten.com/specialArticle/index/10195"
+            ],
+            "verifiedAt": "2026-10-27"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "kyouran-reijou-nia-liston-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://utaten.com/specialArticle/index/10195"
+            ],
+            "verifiedAt": "2026-10-27"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://kyoranreijo-pr.com/104/",
+              "https://kyoranreijo-pr.com/",
+              "https://www.youtube.com/watch?v=FGhd4D_h9xc"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "kyouran-reijou-nia-liston-ed-1-song"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://dengekionline.com/article/202609/88852"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "kyouran-reijou-nia-liston-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://kyoranreijo-pr.com/104/",
+              "https://www.youtube.com/watch?v=FGhd4D_h9xc"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "kyouran-reijou-nia-liston-ed-1"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://dengekionline.com/article/202609/88852",
+              "https://realsound.jp/movie/2026/10/post-2552172.html",
+              "https://thetv.jp/program/0001077762/2/"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "kyouran-reijou-nia-liston-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://kyoranreijo-pr.com/104/",
+              "https://www.youtube.com/watch?v=FGhd4D_h9xc"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=FGhd4D_h9xc",
+              "https://music.apple.com/jp/album/tokimeki-un-deux-trois-single/6816815403",
+              "https://music.apple.com/jp/song/6816815404"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "kyouran-reijou-nia-liston-ed-1-jp-digital-20261014"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://kyoranreijo-pr.com/",
+              "https://www.youtube.com/watch?v=FGhd4D_h9xc",
+              "https://realsound.jp/movie/2026/10/post-2552172.html"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "FGhd4D_h9xc"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://vap.lnk.to/Tokimeki_Un.Deux.Trois"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "https://vap.lnk.to/Tokimeki_Un.Deux.Trois"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/album/tokimeki-un-deux-trois-single/6816815403"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "https://music.apple.com/jp/album/tokimeki-un-deux-trois-single/6816815403"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/6816815404"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "https://music.apple.com/jp/song/6816815404"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "recording_format",
+              "platform_availability"
+            ],
+            "note": "已由電撃オンライン逐字確認全形括號讀音名義，三名實唱及詞曲編已核。日本數碼單曲有明確曲目，但未定其錄音與無字幕ED或未來商品的同一性。",
+            "resumeWhen": "待權利方明列已發行音源規格，或其他地區的確切合法曲目可核。",
+            "checkedAt": "2026-11-07"
+          }
+        ],
+        "usageLabel": "第2話已確認片尾曲",
+        "credits": [
+          {
+            "name": "魔法映像（マジックビジョン）ひろめ隊",
+            "role": "vocals"
+          },
+          {
+            "name": "井上ほの花",
+            "role": "vocals"
+          },
+          {
+            "name": "本泉莉奈",
+            "role": "vocals"
+          },
+          {
+            "name": "日高里菜",
+            "role": "vocals"
+          },
+          {
+            "name": "味醂いろは",
+            "role": "lyrics"
+          },
+          {
+            "name": "味醂いろは",
+            "role": "composition"
+          },
+          {
+            "name": "tmy",
+            "role": "composition"
+          },
+          {
+            "name": "tmy",
+            "role": "arrangement"
+          }
+        ],
+        "releases": [
+          {
+            "id": "kyouran-reijou-nia-liston-ed-1-jp-digital-20261014",
+            "title": "ときめきアン・ドゥ・トロワ♪",
+            "type": "single",
+            "artistDisplayName": "魔法映像ひろめ隊",
+            "date": {
+              "value": "2026-10-14",
+              "precision": "day"
+            },
+            "edition": "日本數碼單曲",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ときめきアン・ドゥ・トロワ♪",
+                "position": 1
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "VAP",
+            "label": "VAP 配信入口",
+            "url": "https://vap.lnk.to/Tokimeki_Un.Deux.Trois",
+            "linkType": "official_landing_page",
+            "region": "JP",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-07",
+            "releaseId": "kyouran-reijou-nia-liston-ed-1-jp-digital-20261014"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Apple Music 日本單曲",
+            "url": "https://music.apple.com/jp/album/tokimeki-un-deux-trois-single/6816815403",
+            "linkType": "direct_album",
+            "region": "JP",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-07",
+            "releaseId": "kyouran-reijou-nia-liston-ed-1-jp-digital-20261014"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Apple Music 日本曲目",
+            "url": "https://music.apple.com/jp/song/6816815404",
+            "linkType": "direct_track",
+            "region": "JP",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-07",
+            "releaseId": "kyouran-reijou-nia-liston-ed-1-jp-digital-20261014"
+          }
+        ]
+      }
     ]
   },
   {
@@ -10185,7 +10782,7 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
     ],
     "themes": [
       {
-        "type": "TS",
+        "type": "OP",
         "sequence": 1,
         "titleJa": "僕らの未来へ",
         "artistDisplayName": "影山ヒロノブ＆奥井雅美",
@@ -10200,7 +10797,7 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
             "label": "官方：曲名、演唱名義與用途",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-10-19"
+            "verifiedAt": "2026-11-07"
           },
           {
             "url": "https://eeo.today/media/2026/09/24/398682/",
@@ -10208,9 +10805,79 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://highwaystar.co.jp/news/202609246562/",
+            "label": "演唱者事務所原期主題歌公告，曲名、歌唱、用途及詞曲編",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://acgsecrets.hk/anime/2338/",
+            "label": "香港動畫資料庫獨立核對曲名、歌唱及用途",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://animecca.jp/ja/works/aokidenshouwerushusheda",
+            "label": "動畫媒體的作品介紹核對常規片頭、片尾及演唱名義",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://earkth.co.jp/releases/erkd-0084/",
+            "label": "發行商曲目表、歌唱與發行資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://kageyamahironobu.lnk.to/wnsoped",
+            "label": "發行商所連官方 Streaming／Download 入口",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/%E5%83%95%E3%82%89%E3%81%AE%E6%9C%AA%E6%9D%A5%E3%81%B8-%E3%82%AA%E3%83%A0%E3%83%AC%E3%83%84-single/6818375353",
+            "label": "Apple Music 日本官方發行品頁",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://open.spotify.com/album/4z5qceED2NbWeH4IQJGPGw",
+            "label": "官方入口所連 Spotify 發行品頁",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=2lagwnrCMRk",
+            "label": "藝人官方 YouTube，公開 oEmbed 核對曲名與頻道",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://yutura.net/channel/102490/latest/",
+            "label": "公開影片目錄交叉核對公開日期",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://mantan-web.jp/article/20260924dog00m200052000a.html",
+            "label": "MANTANWEB 原期報道，歌曲、演唱名義及片頭交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
           }
         ],
-        "lastVerifiedAt": "2026-10-19",
+        "lastVerifiedAt": "2026-11-07",
         "evidence": [
           {
             "target": "song",
@@ -10246,6 +10913,171 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
               "https://welshandshedar-anime.com/"
             ],
             "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "song",
+            "targetId": "aoki-denshou-welsh-and-shedar-ts-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://highwaystar.co.jp/news/202609246562/",
+              "https://welshandshedar-anime.com/",
+              "https://acgsecrets.hk/anime/2338/",
+              "https://animecca.jp/ja/works/aokidenshouwerushusheda"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "aoki-denshou-welsh-and-shedar-ts-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://highwaystar.co.jp/news/202609246562/",
+              "https://acgsecrets.hk/anime/2338/",
+              "https://animecca.jp/ja/works/aokidenshouwerushusheda"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://highwaystar.co.jp/news/202609246562/",
+              "https://welshandshedar-anime.com/",
+              "https://earkth.co.jp/releases/erkd-0084/"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "recording",
+            "targetId": "aoki-denshou-welsh-and-shedar-ts-1-song-erkd-0084-vocal",
+            "fields": [
+              "title",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://earkth.co.jp/releases/erkd-0084/"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "release",
+            "targetId": "aoki-denshou-welsh-and-shedar-erkd-0084",
+            "fields": [
+              "title",
+              "artist",
+              "date",
+              "edition",
+              "catalog_number",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://earkth.co.jp/releases/erkd-0084/"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "release",
+            "targetId": "aoki-denshou-welsh-and-shedar-erkd-0084",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/album/%E5%83%95%E3%82%89%E3%81%AE%E6%9C%AA%E6%9D%A5%E3%81%B8-%E3%82%AA%E3%83%A0%E3%83%AC%E3%83%84-single/6818375353",
+              "https://open.spotify.com/album/4z5qceED2NbWeH4IQJGPGw"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "video",
+            "targetId": "2lagwnrCMRk",
+            "fields": [
+              "title",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=2lagwnrCMRk"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "video",
+            "targetId": "2lagwnrCMRk",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://yutura.net/channel/102490/latest/"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "link",
+            "targetId": "https://kageyamahironobu.lnk.to/wnsoped",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://kageyamahironobu.lnk.to/wnsoped"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/jp/album/%E5%83%95%E3%82%89%E3%81%AE%E6%9C%AA%E6%9D%A5%E3%81%B8-%E3%82%AA%E3%83%A0%E3%83%AC%E3%83%84-single/6818375353",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/album/%E5%83%95%E3%82%89%E3%81%AE%E6%9C%AA%E6%9D%A5%E3%81%B8-%E3%82%AA%E3%83%A0%E3%83%AC%E3%83%84-single/6818375353"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "link",
+            "targetId": "https://open.spotify.com/album/4z5qceED2NbWeH4IQJGPGw",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/album/4z5qceED2NbWeH4IQJGPGw"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "song",
+            "targetId": "aoki-denshou-welsh-and-shedar-ts-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://highwaystar.co.jp/news/202609246562/",
+              "https://mantan-web.jp/article/20260924dog00m200052000a.html"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "aoki-denshou-welsh-and-shedar-ts-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://highwaystar.co.jp/news/202609246562/",
+              "https://mantan-web.jp/article/20260924dog00m200052000a.html"
+            ],
+            "verifiedAt": "2026-11-07"
           }
         ],
         "credits": [
@@ -10269,11 +11101,95 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
         "followUp": [
           {
             "fields": [
-              "basic_evidence"
+              "recording_format",
+              "platform_availability"
             ],
-            "note": "官網列為主題歌，先依此保存；OP的明確第一方分類尚待補證。",
-            "resumeWhen": "官方音樂／藝人公告或正片用曲資料明示OP時，沿原ID更正用途，不建立重複歌曲。",
-            "checkedAt": "2026-10-19"
+            "note": "已核對同一數位單曲的兩首曲目。現有來源未標示音源剪輯長度或跨地區播放狀態。",
+            "resumeWhen": "發行方明列音源格式或正版平台公開可核對的地區播放狀態時續查。",
+            "checkedAt": "2026-11-07"
+          }
+        ],
+        "id": "aoki-denshou-welsh-and-shedar-ts-1",
+        "usageLabel": "片頭曲",
+        "recordings": [
+          {
+            "id": "aoki-denshou-welsh-and-shedar-ts-1-song-erkd-0084-vocal",
+            "title": "僕らの未来へ",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "name": "影山ヒロノブ＆奥井雅美",
+                "role": "vocals"
+              },
+              {
+                "name": "影山ヒロノブ",
+                "role": "lyrics"
+              },
+              {
+                "name": "影山ヒロノブ",
+                "role": "composition"
+              },
+              {
+                "name": "寺田志保",
+                "role": "arrangement"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "aoki-denshou-welsh-and-shedar-erkd-0084",
+            "title": "僕らの未来へ / オムレツ",
+            "type": "single",
+            "artistDisplayName": "影山ヒロノブ",
+            "date": {
+              "value": "2026-10-10",
+              "precision": "day"
+            },
+            "label": "HS Record",
+            "region": "JP",
+            "edition": "デジタル",
+            "catalogNumber": "ERKD-0084",
+            "tracks": [
+              {
+                "title": "僕らの未来へ",
+                "position": 1,
+                "recordingId": "aoki-denshou-welsh-and-shedar-ts-1-song-erkd-0084-vocal"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "url": "https://kageyamahironobu.lnk.to/wnsoped",
+            "platform": "官方配信",
+            "label": "日本官方配信入口",
+            "linkType": "official_landing_page",
+            "region": "JP",
+            "availability": "unknown",
+            "releaseId": "aoki-denshou-welsh-and-shedar-erkd-0084",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/%E5%83%95%E3%82%89%E3%81%AE%E6%9C%AA%E6%9D%A5%E3%81%B8-%E3%82%AA%E3%83%A0%E3%83%AC%E3%83%84-single/6818375353",
+            "platform": "Apple Music",
+            "label": "日本 Apple Music 發行品",
+            "linkType": "direct_album",
+            "region": "JP",
+            "availability": "unknown",
+            "releaseId": "aoki-denshou-welsh-and-shedar-erkd-0084",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://open.spotify.com/album/4z5qceED2NbWeH4IQJGPGw",
+            "platform": "Spotify",
+            "label": "日本官方入口所連 Spotify 發行品",
+            "linkType": "direct_album",
+            "region": "JP",
+            "availability": "unknown",
+            "releaseId": "aoki-denshou-welsh-and-shedar-erkd-0084",
+            "verifiedAt": "2026-11-07"
           }
         ]
       },
@@ -10293,7 +11209,7 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
             "label": "官方：曲名、演唱名義與用途",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-10-19"
+            "verifiedAt": "2026-11-07"
           },
           {
             "url": "https://eeo.today/media/2026/09/24/398682/",
@@ -10301,9 +11217,72 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://highwaystar.co.jp/news/202609246562/",
+            "label": "演唱者事務所原期主題歌公告，曲名、歌唱、用途及詞曲編",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://acgsecrets.hk/anime/2338/",
+            "label": "香港動畫資料庫獨立核對曲名、歌唱及用途",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://animecca.jp/ja/works/aokidenshouwerushusheda",
+            "label": "動畫媒體的作品介紹核對常規片頭、片尾及演唱名義",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://earkth.co.jp/releases/erkd-0084/",
+            "label": "發行商曲目表、歌唱與發行資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://kageyamahironobu.lnk.to/wnsoped",
+            "label": "發行商所連官方 Streaming／Download 入口",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/%E5%83%95%E3%82%89%E3%81%AE%E6%9C%AA%E6%9D%A5%E3%81%B8-%E3%82%AA%E3%83%A0%E3%83%AC%E3%83%84-single/6818375353",
+            "label": "Apple Music 日本官方發行品頁",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://open.spotify.com/album/4z5qceED2NbWeH4IQJGPGw",
+            "label": "官方入口所連 Spotify 發行品頁",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=p8eyR81MR6g",
+            "label": "藝人官方 YouTube，公開 oEmbed 核對曲名與頻道",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://yutura.net/channel/102490/latest/",
+            "label": "公開影片目錄交叉核對公開日期",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-07"
           }
         ],
-        "lastVerifiedAt": "2026-10-19",
+        "lastVerifiedAt": "2026-11-07",
         "evidence": [
           {
             "target": "song",
@@ -10339,6 +11318,148 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
               "https://welshandshedar-anime.com/"
             ],
             "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "song",
+            "targetId": "aoki-denshou-welsh-and-shedar-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://highwaystar.co.jp/news/202609246562/",
+              "https://welshandshedar-anime.com/",
+              "https://acgsecrets.hk/anime/2338/",
+              "https://animecca.jp/ja/works/aokidenshouwerushusheda"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "aoki-denshou-welsh-and-shedar-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://highwaystar.co.jp/news/202609246562/",
+              "https://welshandshedar-anime.com/",
+              "https://acgsecrets.hk/anime/2338/",
+              "https://animecca.jp/ja/works/aokidenshouwerushusheda"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://highwaystar.co.jp/news/202609246562/",
+              "https://welshandshedar-anime.com/",
+              "https://earkth.co.jp/releases/erkd-0084/"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "recording",
+            "targetId": "aoki-denshou-welsh-and-shedar-ed-1-song-erkd-0084-vocal",
+            "fields": [
+              "title",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://earkth.co.jp/releases/erkd-0084/",
+              "https://highwaystar.co.jp/news/202609246562/"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "release",
+            "targetId": "aoki-denshou-welsh-and-shedar-erkd-0084",
+            "fields": [
+              "title",
+              "artist",
+              "date",
+              "edition",
+              "catalog_number",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://earkth.co.jp/releases/erkd-0084/"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "release",
+            "targetId": "aoki-denshou-welsh-and-shedar-erkd-0084",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/album/%E5%83%95%E3%82%89%E3%81%AE%E6%9C%AA%E6%9D%A5%E3%81%B8-%E3%82%AA%E3%83%A0%E3%83%AC%E3%83%84-single/6818375353",
+              "https://open.spotify.com/album/4z5qceED2NbWeH4IQJGPGw"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "video",
+            "targetId": "p8eyR81MR6g",
+            "fields": [
+              "title",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=p8eyR81MR6g"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "video",
+            "targetId": "p8eyR81MR6g",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://yutura.net/channel/102490/latest/"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "link",
+            "targetId": "https://kageyamahironobu.lnk.to/wnsoped",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://kageyamahironobu.lnk.to/wnsoped"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/jp/album/%E5%83%95%E3%82%89%E3%81%AE%E6%9C%AA%E6%9D%A5%E3%81%B8-%E3%82%AA%E3%83%A0%E3%83%AC%E3%83%84-single/6818375353",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/album/%E5%83%95%E3%82%89%E3%81%AE%E6%9C%AA%E6%9D%A5%E3%81%B8-%E3%82%AA%E3%83%A0%E3%83%AC%E3%83%84-single/6818375353"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "link",
+            "targetId": "https://open.spotify.com/album/4z5qceED2NbWeH4IQJGPGw",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/album/4z5qceED2NbWeH4IQJGPGw"
+            ],
+            "verifiedAt": "2026-11-07"
           }
         ],
         "credits": [
@@ -10357,6 +11478,99 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
           {
             "name": "須藤賢一",
             "role": "arrangement"
+          }
+        ],
+        "usageLabel": "片尾曲",
+        "followUp": [
+          {
+            "fields": [
+              "recording_format",
+              "platform_availability"
+            ],
+            "note": "已核對同一數位單曲的兩首曲目。現有來源未標示音源剪輯長度或跨地區播放狀態。",
+            "resumeWhen": "發行方明列音源格式或正版平台公開可核對的地區播放狀態時續查。",
+            "checkedAt": "2026-11-07"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "aoki-denshou-welsh-and-shedar-ed-1-song-erkd-0084-vocal",
+            "title": "オムレツ",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "name": "影山ヒロノブ",
+                "role": "vocals"
+              },
+              {
+                "name": "影山ヒロノブ",
+                "role": "lyrics"
+              },
+              {
+                "name": "影山ヒロノブ",
+                "role": "composition"
+              },
+              {
+                "name": "須藤賢一",
+                "role": "arrangement"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "aoki-denshou-welsh-and-shedar-erkd-0084",
+            "title": "僕らの未来へ / オムレツ",
+            "type": "single",
+            "artistDisplayName": "影山ヒロノブ",
+            "date": {
+              "value": "2026-10-10",
+              "precision": "day"
+            },
+            "label": "HS Record",
+            "region": "JP",
+            "edition": "デジタル",
+            "catalogNumber": "ERKD-0084",
+            "tracks": [
+              {
+                "title": "オムレツ",
+                "position": 2,
+                "recordingId": "aoki-denshou-welsh-and-shedar-ed-1-song-erkd-0084-vocal"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "url": "https://kageyamahironobu.lnk.to/wnsoped",
+            "platform": "官方配信",
+            "label": "日本官方配信入口",
+            "linkType": "official_landing_page",
+            "region": "JP",
+            "availability": "unknown",
+            "releaseId": "aoki-denshou-welsh-and-shedar-erkd-0084",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/%E5%83%95%E3%82%89%E3%81%AE%E6%9C%AA%E6%9D%A5%E3%81%B8-%E3%82%AA%E3%83%A0%E3%83%AC%E3%83%84-single/6818375353",
+            "platform": "Apple Music",
+            "label": "日本 Apple Music 發行品",
+            "linkType": "direct_album",
+            "region": "JP",
+            "availability": "unknown",
+            "releaseId": "aoki-denshou-welsh-and-shedar-erkd-0084",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://open.spotify.com/album/4z5qceED2NbWeH4IQJGPGw",
+            "platform": "Spotify",
+            "label": "日本官方入口所連 Spotify 發行品",
+            "linkType": "direct_album",
+            "region": "JP",
+            "availability": "unknown",
+            "releaseId": "aoki-denshou-welsh-and-shedar-erkd-0084",
+            "verifiedAt": "2026-11-07"
           }
         ]
       }
@@ -10537,8 +11751,11 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
       "https://gup-mottolovelove.jp/onair/",
       "https://youranimes.tw/bangumi/202610"
     ],
-    "themeAvailability": "pending_verification",
-    "themes": []
+    "themeAvailability": "documented",
+    "themes": [
+    {"id":"girls-und-panzer-motto-love-love-sakusen-desu-op-1","songId":"girls-und-panzer-motto-love-love-sakusen-desu-op-1-song","sourceMode":"explicit","type":"OP","sequence":1,"titleJa":"Nonstop Daydream","artistDisplayName":"ChouCho×佐咲紗花","usageLabel":"2026年10月TV放送版片頭曲","seasonIds":["2026-fall"],"credits":[{"name":"ChouCho","role":"vocals"},{"name":"佐咲紗花","role":"vocals"},{"name":"佐咲紗花","role":"lyrics"},{"name":"ChouCho","role":"composition"},{"name":"村山☆潤","role":"arrangement"}],"sources":[{"url":"https://pylonport.bandainamcomusiclive.co.jp/more/891","label":"唱片公司：2026秋TV放送的OP／ED","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://gup-mottolovelove.jp/post-727/","label":"作品官方：原曲名、演唱與詞曲編","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://gup-mottolovelove.jp/article-tv/","label":"作品官方：2026年10月8日起TV放送","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://pylonport.bandainamcomusiclive.co.jp/more/471","label":"唱片公司：2025年12月26日兩曲數位發行","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://anime-song-info.com/gup-mottolovelove-op-ed-26at/","label":"アニしま10月9日：本版TV曲名、演唱及用途","role":"cross_check","language":"ja","verifiedAt":"2026-11-07"}],"evidence":[{"target":"song","targetId":"girls-und-panzer-motto-love-love-sakusen-desu-op-1-song","fields":["title","artist"],"sourceUrls":["https://pylonport.bandainamcomusiclive.co.jp/more/891","https://gup-mottolovelove.jp/post-727/","https://anime-song-info.com/gup-mottolovelove-op-ed-26at/"],"verifiedAt":"2026-11-07"},{"target":"anime_use","targetId":"girls-und-panzer-motto-love-love-sakusen-desu-op-1","fields":["usage"],"sourceUrls":["https://pylonport.bandainamcomusiclive.co.jp/more/891","https://gup-mottolovelove.jp/article-tv/","https://anime-song-info.com/gup-mottolovelove-op-ed-26at/"],"verifiedAt":"2026-11-07"},{"target":"credits","fields":["credits"],"sourceUrls":["https://gup-mottolovelove.jp/post-727/"],"verifiedAt":"2026-11-07"},{"target":"release","targetId":"gup-motto-love-love-nonstop-daydream-digital-20251226","fields":["title","artist","date","tracklist"],"sourceUrls":["https://pylonport.bandainamcomusiclive.co.jp/more/471","https://gup-mottolovelove.jp/post-727/"],"verifiedAt":"2026-11-07"}],"releases":[{"id":"gup-motto-love-love-nonstop-daydream-digital-20251226","title":"Nonstop Daydream / おやすみなさいの続きです！","type":"single","artistDisplayName":"ChouCho、佐咲紗花、西住みほ（CV.渕上 舞）","edition":"數位配信","date":{"value":"2025-12-26","precision":"day"},"tracks":[{"title":"Nonstop Daydream"}]}],"followUp":[{"fields":["recordings","official_video","platform_links"],"note":"歌曲發行及2026年10月TV使用分別核對。各集是否沿用與TV編輯音源版本仍待逐話證據。","resumeWhen":"取得TV版逐話歌曲署名或版方明列音源格式、官方影片及正版曲目。","checkedAt":"2026-11-07"}],"links":[],"lastVerifiedAt":"2026-11-07"},
+    {"id":"girls-und-panzer-motto-love-love-sakusen-desu-ed-1","songId":"girls-und-panzer-motto-love-love-sakusen-desu-ed-1-song","sourceMode":"explicit","type":"ED","sequence":1,"titleJa":"おやすみなさいの続きです！","artistDisplayName":"西住みほ（CV.渕上 舞）","usageLabel":"2026年10月TV放送版片尾曲","seasonIds":["2026-fall"],"credits":[{"name":"渕上 舞","role":"vocals"},{"name":"松井洋平","role":"lyrics"},{"name":"脇 眞富（Arte Refact）","role":"composition"},{"name":"脇 眞富（Arte Refact）","role":"arrangement"}],"sources":[{"url":"https://pylonport.bandainamcomusiclive.co.jp/more/891","label":"唱片公司：2026秋TV放送的OP／ED","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://gup-mottolovelove.jp/post-727/","label":"作品官方：原曲名、演唱與詞曲編","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://gup-mottolovelove.jp/article-tv/","label":"作品官方：2026年10月8日起TV放送","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://pylonport.bandainamcomusiclive.co.jp/more/471","label":"唱片公司：2025年12月26日兩曲數位發行","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://anime-song-info.com/gup-mottolovelove-op-ed-26at/","label":"アニしま10月9日：本版TV曲名、演唱及用途","role":"cross_check","language":"ja","verifiedAt":"2026-11-07"}],"evidence":[{"target":"song","targetId":"girls-und-panzer-motto-love-love-sakusen-desu-ed-1-song","fields":["title","artist"],"sourceUrls":["https://pylonport.bandainamcomusiclive.co.jp/more/891","https://gup-mottolovelove.jp/post-727/","https://anime-song-info.com/gup-mottolovelove-op-ed-26at/"],"verifiedAt":"2026-11-07"},{"target":"anime_use","targetId":"girls-und-panzer-motto-love-love-sakusen-desu-ed-1","fields":["usage"],"sourceUrls":["https://pylonport.bandainamcomusiclive.co.jp/more/891","https://gup-mottolovelove.jp/article-tv/","https://anime-song-info.com/gup-mottolovelove-op-ed-26at/"],"verifiedAt":"2026-11-07"},{"target":"credits","fields":["credits"],"sourceUrls":["https://gup-mottolovelove.jp/post-727/"],"verifiedAt":"2026-11-07"},{"target":"release","targetId":"gup-motto-love-love-nonstop-daydream-digital-20251226","fields":["title","artist","date","tracklist"],"sourceUrls":["https://pylonport.bandainamcomusiclive.co.jp/more/471","https://gup-mottolovelove.jp/post-727/"],"verifiedAt":"2026-11-07"}],"releases":[{"id":"gup-motto-love-love-nonstop-daydream-digital-20251226","title":"Nonstop Daydream / おやすみなさいの続きです！","type":"single","artistDisplayName":"ChouCho、佐咲紗花、西住みほ（CV.渕上 舞）","edition":"數位配信","date":{"value":"2025-12-26","precision":"day"},"tracks":[{"title":"おやすみなさいの続きです！"}]}],"followUp":[{"fields":["recordings","official_video","platform_links"],"note":"歌曲發行及2026年10月TV使用分別核對。各集是否沿用與TV編輯音源版本仍待逐話證據。","resumeWhen":"取得TV版逐話歌曲署名或版方明列音源格式、官方影片及正版曲目。","checkedAt":"2026-11-07"}],"links":[],"lastVerifiedAt":"2026-11-07"}
+  ]
   },
   {
     "anilistId": 203473,
@@ -10562,8 +11779,10 @@ export const curated2026FallSeeds: CuratedAnimeSeed[] = [
       "https://www.nhk-character.com/chara/kyoufucollector/",
       "https://youranimes.tw/animes/6165"
     ],
-    "themeAvailability": "pending_verification",
-    "themes": []
+    "themeAvailability": "documented",
+    "themes": [
+    {"id":"kyoufu-collector-op-1","songId":"kyoufu-collector-op-1-song","sourceMode":"explicit","type":"OP","sequence":1,"titleJa":"カゲボウシ","artistDisplayName":"スガ シカオ","usageLabel":"原TV片頭曲（第1話已確認）","seasonIds":["2026-fall"],"credits":[{"name":"スガ シカオ","role":"vocals"},{"name":"スガ シカオ","role":"lyrics"},{"name":"スガ シカオ","role":"composition"},{"name":"ミト（クラムボン）","role":"arrangement"}],"sources":[{"url":"https://www.nhk-character.com/chara/kyoufucollector/news/20261023_95.html","label":"NHK Enterprises：原TV片頭曲及詞曲編、歌唱署名","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://www.animatetimes.com/news/details.php?id=1791427847","label":"10月7日試映會：原演唱者說明片頭採用90秒","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://www.tvguide.or.jp/db/anime/horrorcollector/season1/episode1/","label":"TVガイドWeb：原TV第1話片頭用曲","role":"cross_check","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://mantan-web.jp/article/20260918dog00m200026000a.html","label":"9月18日報道：片頭曲與10月10日NHK首播編排","role":"cross_check","language":"ja","verifiedAt":"2026-11-07"}],"evidence":[{"target":"song","targetId":"kyoufu-collector-op-1-song","fields":["title","artist"],"sourceUrls":["https://www.nhk-character.com/chara/kyoufucollector/news/20261023_95.html","https://www.tvguide.or.jp/db/anime/horrorcollector/season1/episode1/","https://mantan-web.jp/article/20260918dog00m200026000a.html"],"verifiedAt":"2026-11-07"},{"target":"anime_use","targetId":"kyoufu-collector-op-1","fields":["usage"],"sourceUrls":["https://www.nhk-character.com/chara/kyoufucollector/news/20261023_95.html","https://www.animatetimes.com/news/details.php?id=1791427847","https://www.tvguide.or.jp/db/anime/horrorcollector/season1/episode1/","https://mantan-web.jp/article/20260918dog00m200026000a.html"],"verifiedAt":"2026-11-07"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.nhk-character.com/chara/kyoufucollector/news/20261023_95.html"],"verifiedAt":"2026-11-07"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links"],"note":"原TV首回片頭已確認，官方署名用於核對原用曲。無字幕影片及數位單曲發行在2026-10-14之後。","resumeWhen":"擴展資料截止日後按原公告補音源、發行及官方影片。","checkedAt":"2026-11-07"}],"links":[],"lastVerifiedAt":"2026-11-07"}
+  ]
   },
   {
     "catalogKey": -2000017136,

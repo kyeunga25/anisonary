@@ -1071,4 +1071,9 @@ export const curated2020SpringThemeVideos = {
       embeddable: true,
     },
   ],
+  "114072:ED:8": [{"youtubeVideoId":"62MrBZTKJFc","title":"シズクノメ - Never Looking Back ［Official Video］","type":"music_video","channelName":"シズクノメ【思い出チャンネル】","officialStatus":"official","embeddable":false}],
+  "114072:ED:9": [{"youtubeVideoId":"aP5FTJp0Utg","title":"【再投稿】ロミン（CV,楠木ともり）が歌うTVアニメ『遊☆戯☆王ＳＥＶＥＮＳ』挿入歌「Are You Re:D?」音源解禁！サウンドトラック第３弾に収録！","type":"other","channelName":"アニメ 音楽 2.5次元舞台 - マーベラス公式チャンネル","officialStatus":"official","embeddable":false}],
+  "114072:IN:1": [{"youtubeVideoId":"aP5FTJp0Utg","title":"【再投稿】ロミン（CV,楠木ともり）が歌うTVアニメ『遊☆戯☆王ＳＥＶＥＮＳ』挿入歌「Are You Re:D?」音源解禁！サウンドトラック第３弾に収録！","type":"other","channelName":"アニメ 音楽 2.5次元舞台 - マーベラス公式チャンネル","officialStatus":"official","embeddable":false}],
+  "114072:OP:1": [{"youtubeVideoId":"Xc8r6A710C8","title":"【公式】TVアニメ『遊☆戯☆王SEVENS』OP/ナナナナナナナ（佐伯ユウスケ）","type":"creditless_op","channelName":"【公式】遊戯王ラッシュデュエルTV","officialStatus":"official","embeddable":false},{"youtubeVideoId":"ZUxvmzUUwdg","title":"佐伯ユウスケ『ナナナナナナナ』MV / TVアニメ『遊☆戯☆王SEVENS』オープニング主題歌","type":"music_video","channelName":"アニメ 音楽 2.5次元舞台 - マーベラス公式チャンネル","officialStatus":"official","embeddable":false}],
+  "114072:OP:2": [{"youtubeVideoId":"YqOU93OW1Ao","title":"The Brow Beat 「ハレヴタイ」【Official Music Video [Full Ver.] 】","type":"full_music_video","channelName":"The Brow Beat Official YouTube Channel","officialStatus":"official","embeddable":false}],
 } satisfies CuratedThemeVideoOverrideMap;

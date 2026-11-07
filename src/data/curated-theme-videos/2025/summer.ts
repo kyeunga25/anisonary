@@ -2563,6 +2563,14 @@ export const curated2025SummerThemeVideos = {
       officialStatus: "official",
       embeddable: true,
     },
+    {
+      "youtubeVideoId": "VfKibNHP2CM",
+      "title": "カラノア - 番(Live Film Ver.) 【TV Anime “GACHIAKUTA”2nd ED Theme Song “BAN”】",
+      "channelName": "カラノア",
+      "type": "live",
+      "officialStatus": "official",
+      "embeddable": false
+    },
   ],
   "184237:OP:1": [
     {
@@ -2984,4 +2992,6 @@ export const curated2025SummerThemeVideos = {
   "159483:IN:1": [{"youtubeVideoId":"OAbz23P09Rs","title":"ZAQ「幾星霜」(TVアニメ『Turkey!』挿入歌)","type":"music_video","channelName":"ZAQ Official Channel","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
   "179541:OP:1": [{"youtubeVideoId":"4nBzqU0ruag","title":"「白豚貴族ですが前世の記憶が生えたのでひよこな弟育てます」OP映像 ｜ 4月からABEMAで独占・無料配信中！","type":"other","channelName":"日活アニメチャンネル","officialStatus":"official","embeddable":true}],
   "179541:ED:1": [{"youtubeVideoId":"JC5NZ8oGdfE","title":"「白豚貴族ですが前世の記憶が生えたのでひよこな弟育てます」ノンクレジットED ｜ 4月からABEMAで独占・無料配信中！","type":"creditless_ed","channelName":"日活アニメチャンネル","officialStatus":"official","embeddable":true}],
+  "178025:IN:1": [{"youtubeVideoId":"bXfbaeeKqaY","title":"【MV】Rivals and Equals - Mori Calliope (TVアニメ『ガチアクタ』第18話挿入歌)","channelName":"Mori Calliope Ch. hololive","type":"music_video","officialStatus":"official","embeddable":false}],
+  "178025:IN:2": [{"youtubeVideoId":"ek-jQSgbQXA","title":"Paledusk / SUPER NATURAL HIGH feat.唾奇 (Official Music Video)","channelName":"Paledusk","type":"music_video","officialStatus":"official","embeddable":false}],
 } satisfies CuratedThemeVideoOverrideMap;
