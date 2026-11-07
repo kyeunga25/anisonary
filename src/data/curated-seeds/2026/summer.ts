@@ -28554,7 +28554,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
           "label": "第一方本曲原名、演唱名義與已列資料",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-22"
+          "verifiedAt": "2026-11-07"
         },
         {
           "url": "https://www.ytv.co.jp/besthits/conan/",
@@ -28583,6 +28583,20 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://mai-kuraki.com/information/20240422_00.html",
+          "label": "倉木麻衣 forever for YOU 曲目及版次",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.tvguide.or.jp/db/anime/conan/season29/episode31/",
+          "label": "TVガイドWeb 第1139話用曲對照",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-11-07"
         }
       ],
       "links": [],
@@ -28684,26 +28698,264 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-22",
           "targetId": "meitantei-conan-op-58"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://mai-kuraki.com/information/20240422_00.html"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "meitantei-conan-op-58-song-original"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "tracklist",
+            "catalog_number",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://mai-kuraki.com/information/20240422_00.html"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "bzone-vncm-9066"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "tracklist",
+            "catalog_number",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://mai-kuraki.com/information/20240422_00.html"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "bzone-vncm-9067"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "tracklist",
+            "catalog_number",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://mai-kuraki.com/information/20240422_00.html"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "bzone-vncm-9068"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "tracklist",
+            "catalog_number",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://mai-kuraki.com/information/20240422_00.html"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "bzone-vncm-9069"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "tracklist",
+            "catalog_number",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://mai-kuraki.com/information/20240422_00.html"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "bzone-vncm-9070"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "tracklist",
+            "catalog_number",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://mai-kuraki.com/information/20240422_00.html"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "bzone-vncf-9017"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "lyrics",
-            "composition",
-            "arrangement",
-            "recordings",
-            "official_video",
-            "releases",
-            "platform_links",
+            "recording_format",
             "platform_availability"
           ],
-          "note": "〈Unraveling Love ～少しの勇気～〉：読売テレビ官方歷代OP／ED表普通搜尋索引逐項明本曲原名與正式名義；中文原期曲表明OP58／第1102～1147話。季度依本曲實際原TV播出期間交叉核對，不由發售、MV、NC上傳日或整部續播推。 另列一方原公告／作品表直接支持本曲用途，依各頁實際支持欄位分工。 一方原名採Unraveling Love ～少しの勇気～；2023秋起至2024秋由逐曲TV期間交叉，不套2023數碼單曲發行日。",
-          "resumeWhen": "詳細階段沿已核原期來源，待一方逐曲明示尚缺詞曲編／個別實唱、錄音full／TV版本、官方影片形式、發行收錄與正版平台再補；歷代影片與商品不自動造新歌曲或錄音。",
-          "checkedAt": "2026-10-22"
+          "note": "保留已核對的發行與音源；平台入口及有無另外發行的電視剪輯分開記錄。",
+          "resumeWhen": "唱片公司公布本曲另行發行的TV剪輯，或正版平台有可直接核對的地區曲目時續補。",
+          "checkedAt": "2026-11-07"
         }
       ],
-      "lastVerifiedAt": "2026-10-22"
+      "lastVerifiedAt": "2026-11-07",
+      "recordings": [
+        {
+          "id": "meitantei-conan-op-58-song-original",
+          "title": "Unraveling Love ～少しの勇気～",
+          "format": "unknown",
+          "kind": "vocal"
+        }
+      ],
+      "releases": [
+        {
+          "id": "bzone-vncm-9066",
+          "title": "forever for YOU",
+          "type": "ep",
+          "artistDisplayName": "倉木麻衣",
+          "date": {
+            "value": "2024-07-03",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "Unraveling Love ～少しの勇気～",
+              "recordingId": "meitantei-conan-op-58-song-original",
+              "position": 2,
+              "disc": 1
+            }
+          ],
+          "catalogNumber": "VNCM-9066",
+          "edition": "名探偵コナン盤A"
+        },
+        {
+          "id": "bzone-vncm-9067",
+          "title": "forever for YOU",
+          "type": "ep",
+          "artistDisplayName": "倉木麻衣",
+          "date": {
+            "value": "2024-07-03",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "Unraveling Love ～少しの勇気～",
+              "recordingId": "meitantei-conan-op-58-song-original",
+              "position": 2,
+              "disc": 1
+            }
+          ],
+          "catalogNumber": "VNCM-9067",
+          "edition": "名探偵コナン盤B"
+        },
+        {
+          "id": "bzone-vncm-9068",
+          "title": "forever for YOU",
+          "type": "ep",
+          "artistDisplayName": "倉木麻衣",
+          "date": {
+            "value": "2024-07-03",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "Unraveling Love ～少しの勇気～",
+              "recordingId": "meitantei-conan-op-58-song-original",
+              "position": 2,
+              "disc": 1
+            }
+          ],
+          "catalogNumber": "VNCM-9068",
+          "edition": "初回限定盤A"
+        },
+        {
+          "id": "bzone-vncm-9069",
+          "title": "forever for YOU",
+          "type": "ep",
+          "artistDisplayName": "倉木麻衣",
+          "date": {
+            "value": "2024-07-03",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "Unraveling Love ～少しの勇気～",
+              "recordingId": "meitantei-conan-op-58-song-original",
+              "position": 2,
+              "disc": 1
+            }
+          ],
+          "catalogNumber": "VNCM-9069",
+          "edition": "初回限定盤B"
+        },
+        {
+          "id": "bzone-vncm-9070",
+          "title": "forever for YOU",
+          "type": "ep",
+          "artistDisplayName": "倉木麻衣",
+          "date": {
+            "value": "2024-07-03",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "Unraveling Love ～少しの勇気～",
+              "recordingId": "meitantei-conan-op-58-song-original",
+              "position": 2,
+              "disc": 1
+            }
+          ],
+          "catalogNumber": "VNCM-9070",
+          "edition": "通常盤"
+        },
+        {
+          "id": "bzone-vncf-9017",
+          "title": "forever for YOU",
+          "type": "ep",
+          "artistDisplayName": "倉木麻衣",
+          "date": {
+            "value": "2024-07-03",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "Unraveling Love ～少しの勇気～",
+              "recordingId": "meitantei-conan-op-58-song-original",
+              "position": 2,
+              "disc": 1
+            }
+          ],
+          "catalogNumber": "VNCF-9017",
+          "edition": "FC＆Musing盤"
+        }
+      ]
     },
     {
       "id": "meitantei-conan-op-57",
@@ -30386,7 +30638,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
           "label": "第一方本曲原名、演唱名義與已列資料",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-22"
+          "verifiedAt": "2026-11-07"
         },
         {
           "url": "https://www.ytv.co.jp/besthits/conan/",
@@ -30422,6 +30674,20 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hans",
           "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://mai-kuraki.com/information/20240422_00.html",
+          "label": "倉木麻衣 forever for YOU 曲目及版次",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.tvguide.or.jp/db/anime/conan/season29/episode31/",
+          "label": "TVガイドWeb 第1139話用曲對照",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-11-07"
         }
       ],
       "links": [],
@@ -30543,26 +30809,264 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-22",
           "targetId": "meitantei-conan-ed-70"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://mai-kuraki.com/information/20240422_00.html"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "meitantei-conan-ed-70-song-original"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "tracklist",
+            "catalog_number",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://mai-kuraki.com/information/20240422_00.html"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "bzone-vncm-9066"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "tracklist",
+            "catalog_number",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://mai-kuraki.com/information/20240422_00.html"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "bzone-vncm-9067"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "tracklist",
+            "catalog_number",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://mai-kuraki.com/information/20240422_00.html"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "bzone-vncm-9068"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "tracklist",
+            "catalog_number",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://mai-kuraki.com/information/20240422_00.html"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "bzone-vncm-9069"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "tracklist",
+            "catalog_number",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://mai-kuraki.com/information/20240422_00.html"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "bzone-vncm-9070"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "tracklist",
+            "catalog_number",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://mai-kuraki.com/information/20240422_00.html"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "bzone-vncf-9017"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "lyrics",
-            "composition",
-            "arrangement",
-            "recordings",
-            "official_video",
-            "releases",
-            "platform_links",
+            "recording_format",
             "platform_availability"
           ],
-          "note": "〈Y☺︎u & I〉：読売テレビ官方歷代OP／ED表普通搜尋索引逐項明本曲原名與正式名義；中文原期曲表明ED70／第1105～1131話。季度依本曲實際原TV播出期間交叉核對，不由發售、MV、NC上傳日或整部續播推。 另列一方原公告／作品表直接支持本曲用途，依各頁實際支持欄位分工。 原名依YTV歷代原文Y☺︎u & I；中文表簡寫You & I僅作同曲／用途交叉，不反改原名。 補查已讀中文ED70曲目專頁，正文同列You & I與Y☺u & I數位單曲，交叉原名及演唱；官方原名綴字保留。",
-          "resumeWhen": "詳細階段沿已核原期來源，待一方逐曲明示尚缺詞曲編／個別實唱、錄音full／TV版本、官方影片形式、發行收錄與正版平台再補；歷代影片與商品不自動造新歌曲或錄音。",
-          "checkedAt": "2026-10-22"
+          "note": "保留已核對的發行與音源；平台入口及有無另外發行的電視剪輯分開記錄。",
+          "resumeWhen": "唱片公司公布本曲另行發行的TV剪輯，或正版平台有可直接核對的地區曲目時續補。",
+          "checkedAt": "2026-11-07"
         }
       ],
-      "lastVerifiedAt": "2026-10-22"
+      "lastVerifiedAt": "2026-11-07",
+      "recordings": [
+        {
+          "id": "meitantei-conan-ed-70-song-original",
+          "title": "Y☺︎u & I",
+          "format": "unknown",
+          "kind": "vocal"
+        }
+      ],
+      "releases": [
+        {
+          "id": "bzone-vncm-9066",
+          "title": "forever for YOU",
+          "type": "ep",
+          "artistDisplayName": "倉木麻衣",
+          "date": {
+            "value": "2024-07-03",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "Y☺︎u & I",
+              "recordingId": "meitantei-conan-ed-70-song-original",
+              "position": 3,
+              "disc": 1
+            }
+          ],
+          "catalogNumber": "VNCM-9066",
+          "edition": "名探偵コナン盤A"
+        },
+        {
+          "id": "bzone-vncm-9067",
+          "title": "forever for YOU",
+          "type": "ep",
+          "artistDisplayName": "倉木麻衣",
+          "date": {
+            "value": "2024-07-03",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "Y☺︎u & I",
+              "recordingId": "meitantei-conan-ed-70-song-original",
+              "position": 3,
+              "disc": 1
+            }
+          ],
+          "catalogNumber": "VNCM-9067",
+          "edition": "名探偵コナン盤B"
+        },
+        {
+          "id": "bzone-vncm-9068",
+          "title": "forever for YOU",
+          "type": "ep",
+          "artistDisplayName": "倉木麻衣",
+          "date": {
+            "value": "2024-07-03",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "Y☺︎u & I",
+              "recordingId": "meitantei-conan-ed-70-song-original",
+              "position": 3,
+              "disc": 1
+            }
+          ],
+          "catalogNumber": "VNCM-9068",
+          "edition": "初回限定盤A"
+        },
+        {
+          "id": "bzone-vncm-9069",
+          "title": "forever for YOU",
+          "type": "ep",
+          "artistDisplayName": "倉木麻衣",
+          "date": {
+            "value": "2024-07-03",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "Y☺︎u & I",
+              "recordingId": "meitantei-conan-ed-70-song-original",
+              "position": 3,
+              "disc": 1
+            }
+          ],
+          "catalogNumber": "VNCM-9069",
+          "edition": "初回限定盤B"
+        },
+        {
+          "id": "bzone-vncm-9070",
+          "title": "forever for YOU",
+          "type": "ep",
+          "artistDisplayName": "倉木麻衣",
+          "date": {
+            "value": "2024-07-03",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "Y☺︎u & I",
+              "recordingId": "meitantei-conan-ed-70-song-original",
+              "position": 3,
+              "disc": 1
+            }
+          ],
+          "catalogNumber": "VNCM-9070",
+          "edition": "通常盤"
+        },
+        {
+          "id": "bzone-vncf-9017",
+          "title": "forever for YOU",
+          "type": "ep",
+          "artistDisplayName": "倉木麻衣",
+          "date": {
+            "value": "2024-07-03",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "Y☺︎u & I",
+              "recordingId": "meitantei-conan-ed-70-song-original",
+              "position": 3,
+              "disc": 1
+            }
+          ],
+          "catalogNumber": "VNCF-9017",
+          "edition": "FC＆Musing盤"
+        }
+      ]
     },
     {
       "id": "meitantei-conan-ed-69",
