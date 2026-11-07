@@ -17610,6 +17610,34 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/9969/",
+          "label": "Marvelous｜ボーカルベスト正式曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.neowing.co.jp/product/MJSA-1310",
+          "label": "Neowing｜MJSA-01310 曲序交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/9799/",
+          "label": "Marvelous｜原聲帶1 TVサイズ正式曲序與歌唱創作",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.neowing.co.jp/product/MJSA-1284",
+          "label": "Neowing｜MJSA-01284 TVサイズ曲序交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
         }
       ],
       "credits": [
@@ -17732,6 +17760,101 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "https://www.toei-anim.co.jp/tv/healingood_precure/music/"
           ],
           "verifiedAt": "2026-10-26"
+        },
+        {
+          "target": "release",
+          "targetId": "healin-good-precure-jp-mjsa-01310",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "edition",
+            "catalog_number",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9969/",
+            "https://www.neowing.co.jp/product/MJSA-1310"
+          ],
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "recording",
+          "targetId": "healin-good-precure-op-1-ost1-tv",
+          "fields": [
+            "title",
+            "format",
+            "kind",
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9799/",
+            "https://www.neowing.co.jp/product/MJSA-1284"
+          ],
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "release",
+          "targetId": "healin-good-precure-jp-mjsa-01284",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "edition",
+            "catalog_number",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9799/",
+            "https://www.neowing.co.jp/product/MJSA-1284"
+          ],
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "link",
+          "targetId": "https://www.marv.jp/titles/mc/9969/",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9969/"
+          ],
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "link",
+          "targetId": "https://www.neowing.co.jp/product/MJSA-1310",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.neowing.co.jp/product/MJSA-1310"
+          ],
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "link",
+          "targetId": "https://www.marv.jp/titles/mc/9799/",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9799/"
+          ],
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "link",
+          "targetId": "https://www.neowing.co.jp/product/MJSA-1284",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.neowing.co.jp/product/MJSA-1284"
+          ],
+          "verifiedAt": "2026-11-07"
         }
       ],
       "followUp": [
@@ -17747,7 +17870,120 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-10-26"
         }
       ],
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-11-07",
+      "recordings": [
+        {
+          "id": "healin-good-precure-op-1-ost1-tv",
+          "title": "ヒーリングっど♥プリキュア Touch!!（TVサイズ）",
+          "format": "tv",
+          "kind": "vocal",
+          "credits": [
+            {
+              "name": "北川理恵",
+              "role": "vocals"
+            },
+            {
+              "name": "こだまさおり",
+              "role": "lyrics"
+            },
+            {
+              "name": "高取ヒデアキ",
+              "role": "composition"
+            },
+            {
+              "name": "籠島裕昌",
+              "role": "arrangement"
+            }
+          ]
+        }
+      ],
+      "releases": [
+        {
+          "id": "healin-good-precure-jp-mjsa-01310",
+          "title": "ヒーリングっど♥プリキュア ボーカルベストアルバム ～We are Alive～",
+          "type": "compilation",
+          "artistDisplayName": "Various Artists",
+          "date": {
+            "value": "2021-02-17",
+            "precision": "day"
+          },
+          "catalogNumber": "MJSA-01310",
+          "edition": "CD",
+          "label": "マーベラス",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ヒーリングっど♥プリキュア Touch!!",
+              "disc": 1,
+              "position": 1
+            }
+          ]
+        },
+        {
+          "id": "healin-good-precure-jp-mjsa-01284",
+          "title": "ヒーリングっど♥プリキュア オリジナル・サウンドトラック１ プリキュア・サウンド・ガーデン!!",
+          "type": "soundtrack",
+          "artistDisplayName": "寺田志保",
+          "date": {
+            "value": "2020-05-27",
+            "precision": "day"
+          },
+          "catalogNumber": "MJSA-01284",
+          "edition": "CD",
+          "label": "マーベラス",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ヒーリングっど♥プリキュア Touch!!（TVサイズ）",
+              "disc": 1,
+              "position": 2,
+              "recordingId": "healin-good-precure-op-1-ost1-tv"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "官方商品",
+          "label": "官方商品頁",
+          "url": "https://www.marv.jp/titles/mc/9969/",
+          "releaseId": "healin-good-precure-jp-mjsa-01310",
+          "linkType": "official_landing_page",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "platform": "Neowing",
+          "label": "日本 CD 商品",
+          "url": "https://www.neowing.co.jp/product/MJSA-1310",
+          "releaseId": "healin-good-precure-jp-mjsa-01310",
+          "linkType": "physical_purchase",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "platform": "官方商品",
+          "label": "官方商品頁",
+          "url": "https://www.marv.jp/titles/mc/9799/",
+          "releaseId": "healin-good-precure-jp-mjsa-01284",
+          "linkType": "official_landing_page",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "platform": "Neowing",
+          "label": "日本 CD 商品",
+          "url": "https://www.neowing.co.jp/product/MJSA-1284",
+          "releaseId": "healin-good-precure-jp-mjsa-01284",
+          "linkType": "physical_purchase",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-07"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -17812,6 +18048,34 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/9969/",
+          "label": "Marvelous｜ボーカルベスト正式曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.neowing.co.jp/product/MJSA-1310",
+          "label": "Neowing｜MJSA-01310 曲序交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/9799/",
+          "label": "Marvelous｜原聲帶1 TVサイズ正式曲序與歌唱創作",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.neowing.co.jp/product/MJSA-1284",
+          "label": "Neowing｜MJSA-01284 TVサイズ曲序交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
         }
       ],
       "credits": [
@@ -17934,6 +18198,101 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "https://www.toei-anim.co.jp/tv/healingood_precure/music/"
           ],
           "verifiedAt": "2026-10-26"
+        },
+        {
+          "target": "release",
+          "targetId": "healin-good-precure-jp-mjsa-01310",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "edition",
+            "catalog_number",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9969/",
+            "https://www.neowing.co.jp/product/MJSA-1310"
+          ],
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "recording",
+          "targetId": "healin-good-precure-ed-1-ost1-tv",
+          "fields": [
+            "title",
+            "format",
+            "kind",
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9799/",
+            "https://www.neowing.co.jp/product/MJSA-1284"
+          ],
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "release",
+          "targetId": "healin-good-precure-jp-mjsa-01284",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "edition",
+            "catalog_number",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9799/",
+            "https://www.neowing.co.jp/product/MJSA-1284"
+          ],
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "link",
+          "targetId": "https://www.marv.jp/titles/mc/9969/",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9969/"
+          ],
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "link",
+          "targetId": "https://www.neowing.co.jp/product/MJSA-1310",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.neowing.co.jp/product/MJSA-1310"
+          ],
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "link",
+          "targetId": "https://www.marv.jp/titles/mc/9799/",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9799/"
+          ],
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "link",
+          "targetId": "https://www.neowing.co.jp/product/MJSA-1284",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.neowing.co.jp/product/MJSA-1284"
+          ],
+          "verifiedAt": "2026-11-07"
         }
       ],
       "followUp": [
@@ -17949,7 +18308,120 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-10-26"
         }
       ],
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-11-07",
+      "recordings": [
+        {
+          "id": "healin-good-precure-ed-1-ost1-tv",
+          "title": "ミラクルっと♥Link Ring！（TVサイズ）",
+          "format": "tv",
+          "kind": "vocal",
+          "credits": [
+            {
+              "name": "Machico",
+              "role": "vocals"
+            },
+            {
+              "name": "eNu",
+              "role": "lyrics"
+            },
+            {
+              "name": "大橋莉子",
+              "role": "composition"
+            },
+            {
+              "name": "KOH",
+              "role": "arrangement"
+            }
+          ]
+        }
+      ],
+      "releases": [
+        {
+          "id": "healin-good-precure-jp-mjsa-01310",
+          "title": "ヒーリングっど♥プリキュア ボーカルベストアルバム ～We are Alive～",
+          "type": "compilation",
+          "artistDisplayName": "Various Artists",
+          "date": {
+            "value": "2021-02-17",
+            "precision": "day"
+          },
+          "catalogNumber": "MJSA-01310",
+          "edition": "CD",
+          "label": "マーベラス",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ミラクルっと♥Link Ring！",
+              "disc": 1,
+              "position": 2
+            }
+          ]
+        },
+        {
+          "id": "healin-good-precure-jp-mjsa-01284",
+          "title": "ヒーリングっど♥プリキュア オリジナル・サウンドトラック１ プリキュア・サウンド・ガーデン!!",
+          "type": "soundtrack",
+          "artistDisplayName": "寺田志保",
+          "date": {
+            "value": "2020-05-27",
+            "precision": "day"
+          },
+          "catalogNumber": "MJSA-01284",
+          "edition": "CD",
+          "label": "マーベラス",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ミラクルっと♥Link Ring！（TVサイズ）",
+              "disc": 1,
+              "position": 39,
+              "recordingId": "healin-good-precure-ed-1-ost1-tv"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "官方商品",
+          "label": "官方商品頁",
+          "url": "https://www.marv.jp/titles/mc/9969/",
+          "releaseId": "healin-good-precure-jp-mjsa-01310",
+          "linkType": "official_landing_page",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "platform": "Neowing",
+          "label": "日本 CD 商品",
+          "url": "https://www.neowing.co.jp/product/MJSA-1310",
+          "releaseId": "healin-good-precure-jp-mjsa-01310",
+          "linkType": "physical_purchase",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "platform": "官方商品",
+          "label": "官方商品頁",
+          "url": "https://www.marv.jp/titles/mc/9799/",
+          "releaseId": "healin-good-precure-jp-mjsa-01284",
+          "linkType": "official_landing_page",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "platform": "Neowing",
+          "label": "日本 CD 商品",
+          "url": "https://www.neowing.co.jp/product/MJSA-1284",
+          "releaseId": "healin-good-precure-jp-mjsa-01284",
+          "linkType": "physical_purchase",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-07"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -18000,6 +18472,48 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/9969/",
+          "label": "Marvelous｜ボーカルベスト正式曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.neowing.co.jp/product/MJSA-1310",
+          "label": "Neowing｜MJSA-01310 曲序交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/9869/",
+          "label": "Marvelous｜後期主題歌單曲 通常盤 CD",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.neowing.co.jp/product/MJSS-9258",
+          "label": "Neowing｜MJSS-09258 版本曲序交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/9867/",
+          "label": "Marvelous｜後期主題歌單曲 CD+DVD",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.neowing.co.jp/product/MJSS-9256",
+          "label": "Neowing｜MJSS-09256～7 版本曲序交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
         }
       ],
       "credits": [
@@ -18076,6 +18590,166 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "https://www.toei-anim.co.jp/tv/healingood_precure/music/"
           ],
           "verifiedAt": "2026-10-26"
+        },
+        {
+          "target": "release",
+          "targetId": "healin-good-precure-jp-mjsa-01310",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "edition",
+            "catalog_number",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9969/",
+            "https://www.neowing.co.jp/product/MJSA-1310"
+          ],
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "recording",
+          "targetId": "healin-good-precure-ed-2-single-vocal",
+          "fields": [
+            "title",
+            "kind",
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9869/",
+            "https://www.neowing.co.jp/product/MJSS-9258"
+          ],
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "recording",
+          "targetId": "healin-good-precure-ed-2-single-karaoke",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9869/",
+            "https://www.neowing.co.jp/product/MJSS-9258"
+          ],
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "release",
+          "targetId": "healin-good-precure-jp-mjss-09258",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "edition",
+            "catalog_number",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9869/",
+            "https://www.neowing.co.jp/product/MJSS-9258"
+          ],
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "recording",
+          "targetId": "healin-good-precure-ed-2-single-melody-karaoke",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9867/",
+            "https://www.neowing.co.jp/product/MJSS-9256"
+          ],
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "release",
+          "targetId": "healin-good-precure-jp-mjss-09256-7",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "edition",
+            "catalog_number",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9867/",
+            "https://www.neowing.co.jp/product/MJSS-9256"
+          ],
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "link",
+          "targetId": "https://www.marv.jp/titles/mc/9969/",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9969/"
+          ],
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "link",
+          "targetId": "https://www.neowing.co.jp/product/MJSA-1310",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.neowing.co.jp/product/MJSA-1310"
+          ],
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "link",
+          "targetId": "https://www.marv.jp/titles/mc/9869/",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9869/"
+          ],
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "link",
+          "targetId": "https://www.neowing.co.jp/product/MJSS-9258",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.neowing.co.jp/product/MJSS-9258"
+          ],
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "link",
+          "targetId": "https://www.marv.jp/titles/mc/9867/",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9867/"
+          ],
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "link",
+          "targetId": "https://www.neowing.co.jp/product/MJSS-9256",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.neowing.co.jp/product/MJSS-9256"
+          ],
+          "verifiedAt": "2026-11-07"
         }
       ],
       "followUp": [
@@ -18091,7 +18765,185 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-10-26"
         }
       ],
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-11-07",
+      "recordings": [
+        {
+          "id": "healin-good-precure-ed-2-single-karaoke",
+          "title": "エビバディ☆ヒーリングッデイ！（オリジナル・カラオケ）",
+          "format": "unknown",
+          "kind": "instrumental"
+        },
+        {
+          "id": "healin-good-precure-ed-2-single-vocal",
+          "title": "エビバディ☆ヒーリングッデイ！",
+          "format": "unknown",
+          "kind": "vocal",
+          "credits": [
+            {
+              "name": "宮本佳那子",
+              "role": "vocals"
+            },
+            {
+              "name": "藤本記子",
+              "role": "lyrics"
+            },
+            {
+              "name": "ANDW",
+              "role": "composition"
+            },
+            {
+              "name": "立山秋航",
+              "role": "arrangement"
+            }
+          ]
+        },
+        {
+          "id": "healin-good-precure-ed-2-single-melody-karaoke",
+          "title": "エビバディ☆ヒーリングッデイ！（オリジナル・メロディ・カラオケ）",
+          "format": "unknown",
+          "kind": "instrumental"
+        }
+      ],
+      "releases": [
+        {
+          "id": "healin-good-precure-jp-mjsa-01310",
+          "title": "ヒーリングっど♥プリキュア ボーカルベストアルバム ～We are Alive～",
+          "type": "compilation",
+          "artistDisplayName": "Various Artists",
+          "date": {
+            "value": "2021-02-17",
+            "precision": "day"
+          },
+          "catalogNumber": "MJSA-01310",
+          "edition": "CD",
+          "label": "マーベラス",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "エビバディ☆ヒーリングッデイ！",
+              "disc": 1,
+              "position": 3
+            }
+          ]
+        },
+        {
+          "id": "healin-good-precure-jp-mjss-09258",
+          "title": "ヒーリングっど♥プリキュア 後期主題歌シングル",
+          "type": "single",
+          "artistDisplayName": "宮本佳那子・北川理恵・Machico",
+          "date": {
+            "value": "2020-09-09",
+            "precision": "day"
+          },
+          "catalogNumber": "MJSS-09258",
+          "edition": "通常盤 CD",
+          "label": "マーベラス",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "エビバディ☆ヒーリングッデイ！",
+              "disc": 1,
+              "position": 1,
+              "recordingId": "healin-good-precure-ed-2-single-vocal"
+            },
+            {
+              "title": "エビバディ☆ヒーリングッデイ！（オリジナル・カラオケ）",
+              "disc": 1,
+              "position": 3,
+              "recordingId": "healin-good-precure-ed-2-single-karaoke"
+            }
+          ]
+        },
+        {
+          "id": "healin-good-precure-jp-mjss-09256-7",
+          "title": "ヒーリングっど♥プリキュア 後期主題歌シングル",
+          "type": "single",
+          "artistDisplayName": "宮本佳那子・北川理恵・Machico",
+          "date": {
+            "value": "2020-09-09",
+            "precision": "day"
+          },
+          "catalogNumber": "MJSS-09256～7",
+          "edition": "CD+DVD",
+          "label": "マーベラス",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "エビバディ☆ヒーリングッデイ！",
+              "disc": 1,
+              "position": 1
+            },
+            {
+              "title": "エビバディ☆ヒーリングッデイ！（オリジナル・メロディ・カラオケ）",
+              "disc": 1,
+              "position": 3,
+              "recordingId": "healin-good-precure-ed-2-single-melody-karaoke"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "官方商品",
+          "label": "官方商品頁",
+          "url": "https://www.marv.jp/titles/mc/9969/",
+          "releaseId": "healin-good-precure-jp-mjsa-01310",
+          "linkType": "official_landing_page",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "platform": "Neowing",
+          "label": "日本 CD 商品",
+          "url": "https://www.neowing.co.jp/product/MJSA-1310",
+          "releaseId": "healin-good-precure-jp-mjsa-01310",
+          "linkType": "physical_purchase",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "platform": "官方商品",
+          "label": "官方商品頁",
+          "url": "https://www.marv.jp/titles/mc/9869/",
+          "releaseId": "healin-good-precure-jp-mjss-09258",
+          "linkType": "official_landing_page",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "platform": "Neowing",
+          "label": "日本 CD 商品",
+          "url": "https://www.neowing.co.jp/product/MJSS-9258",
+          "releaseId": "healin-good-precure-jp-mjss-09258",
+          "linkType": "physical_purchase",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "platform": "官方商品",
+          "label": "官方商品頁",
+          "url": "https://www.marv.jp/titles/mc/9867/",
+          "releaseId": "healin-good-precure-jp-mjss-09256-7",
+          "linkType": "official_landing_page",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "platform": "Neowing",
+          "label": "日本 CD 商品",
+          "url": "https://www.neowing.co.jp/product/MJSS-9256",
+          "releaseId": "healin-good-precure-jp-mjss-09256-7",
+          "linkType": "physical_purchase",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-07"
+        }
+      ]
     }
   ],
   "verifiedAt": "2026-09-02",
