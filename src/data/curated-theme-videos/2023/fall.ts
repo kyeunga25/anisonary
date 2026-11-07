@@ -16,5 +16,7 @@ export const curated2023FallThemeVideos = {
     channelName: "Netflix Japan",
     officialStatus: "official",
     embeddable: true
-  }]
+  }],
+  "163024:OP:1": [{"youtubeVideoId":"fyB-4_wotbg","title":"WEST. 「AS ONE」Official Music Video [YouTube Ver.]","channelName":"WEST.","type":"music_video","officialStatus":"official","embeddable":false}],
+  "163024:OP:3": [{"youtubeVideoId":"rRcVpC-sfAM","title":"WEST. 「ハート」Official Music Video","channelName":"WEST.","type":"music_video","officialStatus":"official","embeddable":false}],
 } satisfies CuratedThemeVideoOverrideMap;
