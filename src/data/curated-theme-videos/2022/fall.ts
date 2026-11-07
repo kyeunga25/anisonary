@@ -227,6 +227,14 @@ export const curated2022FallThemeVideos = {
       "channelName": "YOASOBI",
       "officialStatus": "official",
       "embeddable": true
+    },
+    {
+      "youtubeVideoId": "aU8ruUe7UlE",
+      "title": "水星の魔女 オープニング映像（ノンクレジット）｜YOASOBI「祝福」",
+      "channelName": "ガンダムチャンネル",
+      "type": "creditless_op",
+      "officialStatus": "official",
+      "embeddable": false
     }
   ],
   "139274:ED:1": [
@@ -237,6 +245,14 @@ export const curated2022FallThemeVideos = {
       "channelName": "シユイ",
       "officialStatus": "official",
       "embeddable": true
+    },
+    {
+      "youtubeVideoId": "OdfFUJUzNTY",
+      "title": "水星の魔女 エンディング映像（ノンクレジット）｜シユイ「君よ 気高くあれ」",
+      "channelName": "ガンダムチャンネル",
+      "type": "creditless_ed",
+      "officialStatus": "official",
+      "embeddable": false
     }
   ],
   "140439:OP:1": [
@@ -278,5 +294,14 @@ export const curated2022FallThemeVideos = {
       "officialStatus": "official",
       "embeddable": true
     }
-  ]
+  ],
+  "139630:OP:2": [{"youtubeVideoId":"bzNXDsfqfVs","title":"僕のヒーローアカデミア 6期第2クールノンクレジットOP「ぼくらの」","channelName":"TOHO animation チャンネル","type":"creditless_op","officialStatus":"official","embeddable":false}],
+  "142481:ED:1": [{"youtubeVideoId":"TjaveTiZtLY","title":"Novelbright「PRIDE」MV（弱虫ペダル LIMIT BREAK）","channelName":"TOHO animation チャンネル","type":"music_video","officialStatus":"official","embeddable":false}],
+  "142481:ED:2": [{"youtubeVideoId":"8WFJTdYY5nI","title":"山下大輝 with 佐伯ユウスケ「アクション」Music Video","channelName":"山下大輝 / Daiki Yamashita Official YouTube Channel","type":"music_video","officialStatus":"official","embeddable":false}],
+  "142481:OP:2": [{"youtubeVideoId":"VjCrzyTN5Ls","title":"Novelbright「ラストシーン」MV（弱虫ペダル LIMIT BREAK）","channelName":"TOHO animation チャンネル","type":"music_video","officialStatus":"official","embeddable":false}],
+  "130298:ED:1": [{"youtubeVideoId":"FeCUTTZ_clQ","title":"【アルファ/CV:瀬戸麻沙美 Ver.】ノンクレED「Darling in the Night」","channelName":"KADOKAWAanime","type":"creditless_ed","officialStatus":"official","embeddable":false}],
+  "130298:OP:1": [{"youtubeVideoId":"xT7EkRCGO8I","title":"陰の実力者になりたくて！ ノンクレジットOP：OxT「HIGHEST」","channelName":"KADOKAWAanime","type":"creditless_op","officialStatus":"official","embeddable":false}],
+  "137822:OP:1": [{"youtubeVideoId":"_2hwblQ_I20","title":"UNISON SQUARE GARDEN「カオスが極まる」ブルーロック Animation MV","channelName":"unisonsgofficial","type":"music_video","officialStatus":"official","embeddable":false}],
+  "143277:ED:2": [{"youtubeVideoId":"DBCIuVopaGA","title":"うる星やつら ノンクレジットED｜MAISONdes「アイタリナイ feat. yama, ニト。」","channelName":"【フジテレビ】アニメ公式チャンネル","type":"creditless_ed","officialStatus":"official","embeddable":false}],
+  "143277:OP:2": [{"youtubeVideoId":"stb-BpPpJ7U","title":"うる星やつら ノンクレジットOP｜MAISONdes「アイワナムチュー feat. asmi, すりぃ」","channelName":"【フジテレビ】アニメ公式チャンネル","type":"creditless_op","officialStatus":"official","embeddable":false}],
 } satisfies CuratedThemeVideoOverrideMap;
