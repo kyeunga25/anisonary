@@ -109,4 +109,7 @@ export const curated2025SpringThemeVideos = {
   "167336:IN:3": [{"youtubeVideoId":"vOqtvURkHug","title":"Kamasi Washington – Lazarus | Lazarus (Adult Swim Original Series Soundtrack) Prison Break Scene","channelName":"Milan Records","type":"other","officialStatus":"official","embeddable":false}],
   "143337:ED:2": [{"youtubeVideoId":"RK00jWx3VVg","title":"第12話エンディングテーマ「生まれ変わろうと」アズサ（CV:悠木 碧）","channelName":"スライム倒して300年、知らないうちにレベルMAXになってました","type":"other","officialStatus":"official","embeddable":false}],
   "143337:IN:1": [{"youtubeVideoId":"3xxOmLlXMAA","title":"挿入歌「MAD ODD WOO」歌：ペコラ（CV:田村ゆかり）","channelName":"スライム倒して300年、知らないうちにレベルMAXになってました","type":"other","officialStatus":"official","embeddable":false}],
+  "143200:ED:1": [{"youtubeVideoId":"dD8acaodHRk","title":"TVアニメ『Summer Pockets』ノンクレジットED映像","type":"creditless_ed","channelName":"ShoProアニメチャンネル","officialStatus":"official","embeddable":false}],
+  "143200:ED:2": [{"youtubeVideoId":"sQh2Fp8YWEI","title":"TVアニメ『Summer Pockets』2nd EDノンクレジット映像","type":"creditless_ed","channelName":"ShoProアニメチャンネル","officialStatus":"official","embeddable":false}],
+  "143200:ED:3": [{"youtubeVideoId":"5DHHEBwxzhs","title":"Key『Summer Pockets』ALKA編エンディングテーマ｜水谷瑠奈(NanosizeMir)「羽のゆりかご」","type":"other","channelName":"ビジュアルアーツ【公式】","officialStatus":"official","embeddable":false}],
 } satisfies CuratedThemeVideoOverrideMap;
