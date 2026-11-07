@@ -173,4 +173,6 @@ export const curated2026SpringThemeVideos = {
     },
   ],
   "6149:OP:1": [{"youtubeVideoId":"ovrRdVce9Mc","title":"おどるポンポコリン 官方動畫MV","channelName":"Momoiro Clover Z Channel","type":"music_video","officialStatus":"official","embeddable":false}],
+  "8687:OP:1": [{"youtubeVideoId":"Wt5AhyH6BRE","title":"ドラえもん 官方無字幕OP","channelName":"ドラえもん公式YouTubeチャンネル","type":"creditless_op","officialStatus":"official","embeddable":false},{"youtubeVideoId":"ypRTzt1KrF8","title":"ドラえもん 官方MV","channelName":"Gen Hoshino","type":"music_video","officialStatus":"official","embeddable":false}],
+  "966:OP:2": [{"youtubeVideoId":"xFFdgK7gvlc","title":"スーパースター 官方MV","channelName":"ケツメイシ","type":"music_video","officialStatus":"official","embeddable":false}],
 } satisfies CuratedThemeVideoOverrideMap;
