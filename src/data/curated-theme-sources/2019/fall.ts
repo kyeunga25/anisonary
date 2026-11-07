@@ -132,7 +132,7 @@ function sourcesFor(
 
 export const curated2019FallThemeSources = Object.fromEntries(
   curated2019FallSeeds.flatMap((seed) =>
-    seed.themes.map((theme) => [
+    seed.themes.filter((theme) => theme.type === "OP" || theme.type === "ED").map((theme) => [
       `${seed.anilistId}:${theme.type}:${theme.sequence}`,
       sourcesFor(seed, theme),
     ]),

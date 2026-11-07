@@ -13681,7 +13681,31 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
   "titleRomaji": "Pocket Monsters (2019)",
   "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112153-LK1lpFz3vlvl.png",
   "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112153-01RDuvgGTXjp.jpg",
-  "broadcastLabel": "日本首播／時間未整理",
+  "broadcastLabel": "日本原TV週日18:00；首回2019/11/17為17:30特別節目；2020/10/9起改週五18:55。",
+  "broadcastTimeJst": "18:00",
+  "metadataSources": [
+    {
+      "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201911/25680_201911241800.html",
+      "label": "テレビ東京：第2話2019/11/24（日）18:00原播與OP名義",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-07"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201911/25680_201911171730.html",
+      "label": "テレビ東京：首回2019/11/17為17:30特別節目",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-07"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/anime/pocketmonster/news/index_17.html",
+      "label": "テレビ東京：2020/10/9起週五18:55改檔公告",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-07"
+    }
+  ],
   "officialSiteUrl": "https://www.tv-tokyo.co.jp/anime/pocketmonster/",
   "animeThemesUrl": "https://animethemes.moe/anime/pokemon_2019",
   "themes": [
@@ -13741,6 +13765,20 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201911/25680_201911241800.html",
+          "label": "原期逐話 OP 名義與日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5501",
+          "label": "原期逐話使用及演唱交叉",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
         }
       ],
       "links": [
@@ -13754,6 +13792,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
       ],
       "sourceMode": "explicit",
       "seasonIds": [
+        "2019-fall",
         "2020-winter",
         "2020-spring",
         "2020-summer"
@@ -13887,6 +13926,18 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             "https://uni-mafumafu.jp/discography/76/"
           ],
           "verifiedAt": "2026-10-22"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201911/25680_201911241800.html",
+            "https://cal.syoboi.jp/tid/5501"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "pocket-monsters-2019-op-1"
         }
       ],
       "followUp": [
@@ -13903,7 +13954,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           "checkedAt": "2026-10-22"
         }
       ],
-      "lastVerifiedAt": "2026-10-22"
+      "lastVerifiedAt": "2026-11-07"
     },
     {
       "type": "OP",
@@ -14610,7 +14661,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           "label": "第一方本曲原名、演唱名義與已列資料",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-22"
+          "verifiedAt": "2026-11-07"
         },
         {
           "url": "https://www.sonymusic.co.jp/PR/pokemon/info/544028",
@@ -14639,6 +14690,20 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5501",
+          "label": "原期逐話使用及演唱交叉",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201911/25680_201911241800.html",
+          "label": "原TV第2話2019-11-24日期；本頁未列ED",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
         }
       ],
       "links": [
@@ -14652,6 +14717,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
       ],
       "sourceMode": "explicit",
       "seasonIds": [
+        "2019-fall",
         "2020-winter",
         "2020-fall",
         "2021-winter",
@@ -14782,6 +14848,19 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             "https://www.pasoconongaku.club/works/pokemonshiritori1/"
           ],
           "verifiedAt": "2026-10-22"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.pasoconongaku.club/works/pokemonshiritori1/",
+            "https://cal.syoboi.jp/tid/5501",
+            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201911/25680_201911241800.html"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "pocket-monsters-2019-ed-1"
         }
       ],
       "followUp": [
@@ -14798,7 +14877,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           "checkedAt": "2026-10-22"
         }
       ],
-      "lastVerifiedAt": "2026-10-22"
+      "lastVerifiedAt": "2026-11-07"
     },
     {
       "type": "ED",
@@ -15396,6 +15475,9 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
       ],
       "lastVerifiedAt": "2026-10-22"
     }
+  ,
+    {"id":"pocket-monsters-2019-ed-5","songId":"pocket-monsters-2019-ed-5-song","sourceMode":"explicit","type":"ED","sequence":5,"titleJa":"ふしぎなふしぎな生きもの","artistDisplayName":"トータス松本（ウルフルズ）","usageLabel":"第48–54話片尾曲（東京電視台原TV播出版）","seasonIds":["2020-fall","2021-winter"],"credits":[{"name":"トータス松本","role":"vocals"},{"name":"岡崎体育","role":"lyrics"},{"name":"岡崎体育","role":"composition"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://www.tv-tokyo.co.jp/anime/pocketmonster/","linkType":"official_landing_page","region":"JP"}],"sources":[{"url":"https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202012/25680_202012041855.html","label":"原TV2020-12-04第48話ED曲名與演唱","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202102/25680_202102051855.html","label":"原TV2021-02-05第54話ED曲名與演唱","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://www.pokemon-movie.jp/song/index.php","label":"電影官方同曲創作及實唱；非TV用途依據","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://cal.syoboi.jp/tid/5501","label":"原TV#48–54 ED及名義交叉","role":"cross_check","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://w.atwiki.jp/nitendo/pages/4073.html","label":"原TV版ED與配信差異交叉","role":"cross_check","language":"ja","verifiedAt":"2026-11-07"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202012/25680_202012041855.html","https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202102/25680_202102051855.html","https://cal.syoboi.jp/tid/5501"],"verifiedAt":"2026-11-07","targetId":"pocket-monsters-2019-ed-5-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202012/25680_202012041855.html","https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202102/25680_202102051855.html","https://cal.syoboi.jp/tid/5501"],"verifiedAt":"2026-11-07","targetId":"pocket-monsters-2019-ed-5"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.pokemon-movie.jp/song/index.php"],"verifiedAt":"2026-11-07"}],"followUp":[{"fields":["arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"原TV與配信ED有差異；原第50話EPG仍沿通用ポケモンしりとり欄，不據此否定第48、54話的具名更換。#48–54整段另由兩交叉支持。第一方未見編曲直接逐曲署名，未搬入交叉單方野村陽一郎。","resumeWhen":"取得逐曲第一方編曲、音源版本與商品曲序再補。","checkedAt":"2026-11-07"}],"lastVerifiedAt":"2026-11-07"},
+    {"id":"pocket-monsters-2019-in-1","songId":"pocket-monsters-2019-in-1-song","sourceMode":"explicit","type":"IN","sequence":1,"titleJa":"めざせポケモンマスター","artistDisplayName":"松本梨香","usageLabel":"第132話插曲（1997年原演唱版）","seasonIds":["2022-fall"],"credits":[{"name":"松本梨香","role":"vocals"}],"links":[],"sources":[{"url":"https://www.oricon.co.jp/news/2256639/full/","label":"松本梨香本人公開發言：原25年前錄音於本篇播放；ORICON引述載體","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://www.sonymusic.co.jp/PR/pokemon/info/546687","label":"Sony歷代曲表：原版曲名及松本梨香","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202211/25680_202211111855.html","label":"原TV第132話2022-11-11播出日期與場景","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://www.oricon.co.jp/news/2256729/full/","label":"原TV第132話插曲獨立新聞報導","role":"cross_check","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://bulbapedia.bulbagarden.net/wiki/JN132","label":"日語原版第132話1997原版插曲交叉","role":"cross_check","language":"en","verifiedAt":"2026-11-07"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.sonymusic.co.jp/PR/pokemon/info/546687","https://www.oricon.co.jp/news/2256639/full/","https://www.oricon.co.jp/news/2256729/full/"],"verifiedAt":"2026-11-07","targetId":"pocket-monsters-2019-in-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.oricon.co.jp/news/2256639/full/","https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202211/25680_202211111855.html","https://www.oricon.co.jp/news/2256729/full/","https://bulbapedia.bulbagarden.net/wiki/JN132"],"verifiedAt":"2026-11-07","targetId":"pocket-monsters-2019-in-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.oricon.co.jp/news/2256639/full/","https://www.sonymusic.co.jp/PR/pokemon/info/546687"],"verifiedAt":"2026-11-07"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"本人發言由ORICON具名直接引述；原X連結可定位但web未能取回，不虛稱已讀原帖。採本人原錄音回顧、Sony身分及獨立逐話交叉；不是2023 with my friends或2017重錄版。尚未把2023精選CD當作該TV音軌同母帶。","resumeWhen":"取得原錄音逐曲創作、版本及實體／平台音源明示後再補。","checkedAt":"2026-11-07"}],"lastVerifiedAt":"2026-11-07"}
   ],
   "metadataVerifiedAt": "2026-09-02",
   "seasonIds": [
