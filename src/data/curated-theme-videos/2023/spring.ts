@@ -58,4 +58,8 @@ export const curated2023SpringThemeVideos = {
   "163256:ED:1": [{"youtubeVideoId":"SgIjog093T8","title":"放課後ギュッと 官方MV","channelName":"原因は自分にある。Official","type":"music_video","officialStatus":"official","embeddable":false}],
   "163256:ED:2": [{"youtubeVideoId":"Qe0xqIQUrQc","title":"BRAND NEW MOMENT 官方MV","channelName":"上月せれな（せれちゅ）","type":"music_video","officialStatus":"official","embeddable":false}],
   "155158:IN:1": [{"youtubeVideoId":"VVHFza7HlRU","title":"宝石の日々 官方 MV","channelName":"アイナ・ジ・エンド Official","type":"music_video","officialStatus":"official","embeddable":false}],
+  "143653:ED:1": [{"youtubeVideoId":"918yC2flY3I","title":"ラプス 官方無字幕片尾","channelName":"ぽにきゃん-Anime PONY CANYON","type":"creditless_ed","officialStatus":"official","embeddable":false}],
+  "143653:ED:2": [{"youtubeVideoId":"RKCAhfN5e90","title":"ヘルツ 官方無字幕片尾","channelName":"ぽにきゃん-Anime PONY CANYON","type":"creditless_ed","officialStatus":"official","embeddable":false}],
+  "143653:OP:1": [{"youtubeVideoId":"XmZLBmssp80","title":"いつ逢えたら 官方動畫合作影片","channelName":"ぽにきゃん-Anime PONY CANYON","type":"other","officialStatus":"official","embeddable":false}],
+  "153344:OP:2": [{"youtubeVideoId":"gL-GHcztT9g","title":"アマリリス 官方無字幕片頭","channelName":"【ytv animation】読売テレビ アニメ公式","type":"creditless_op","officialStatus":"official","embeddable":false}],
 } satisfies CuratedThemeVideoOverrideMap;
