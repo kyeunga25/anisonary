@@ -349,4 +349,6 @@ export const curated2022FallThemeVideos = {
   "139092:OP:1": [{"youtubeVideoId":"Ntp2QOukvb4","title":"魔入りました！入間くん S3 ノンクレジットOP｜ギリギリRide it out","channelName":"アニメ「魔入りました!入間くん」公式Anime OFFICIAL","type":"creditless_op","officialStatus":"official","embeddable":false}],
   "146233:ED:1": [{"youtubeVideoId":"pahYwxwEqso","title":"栗林みな実「シュガー・シュガー・スパイス」MUSIC CLIP","channelName":"Lantis Channel","type":"music_video","officialStatus":"official","embeddable":false}],
   "146233:OP:1": [{"youtubeVideoId":"yVK4nWIgtUg","title":"佐咲紗花｜『Never the Fever!!』MV Full size","channelName":"佐咲紗花 Official Channel","type":"full_music_video","officialStatus":"official","embeddable":false}],
+  "125910:OP:1": [{"youtubeVideoId":"tmkvgAVdCNI","title":"「VAZZROCK THE ANIMATION」OPムービー①VAZZY「Fly High」","channelName":"ツキノ芸能プロダクション","type":"creditless_op","officialStatus":"official","embeddable":false}],
+  "125910:OP:2": [{"youtubeVideoId":"sXT1W-FwBNM","title":"「VAZZROCK THE ANIMATION」OPムービー②ROCK DOWN「Asterism⁂」","channelName":"ツキノ芸能プロダクション","type":"creditless_op","officialStatus":"official","embeddable":false}],
 } satisfies CuratedThemeVideoOverrideMap;
