@@ -11,13 +11,13 @@
 | 長期目標 | 收集近二十年的動畫歌曲、創作團隊、音源版本、來源、官方影片、收錄發行品與正版平台資訊 |
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED，已確認插曲一併記錄；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2020–2026標準季度TV的動畫及歌曲基本資料優先，按2026 → 2020、各年秋 → 夏 → 春 → 冬補漏。先處理可快速核實的原名、季度／首播、演唱名義、OP／ED用途及來源；創作、影片、音源、發行品及平台集中深化留待下一階段。約24分鐘、常見12／24集，13／26集及同類續播納入；長篇以2020–2026的TV用曲季度盤點，不以作品首播年自動排除；短WEB、泡麵番、短篇TV及特殊番延後，既有成果保留 |
-| 本輪目標 | 第386批核對2022年秋季、夏秋及秋冬續播8部動畫的逐話歌曲用途與原期發行。固定2007–2026，資料截止2026-10-14。 |
-| 下批位置 | 第387批接續2022年秋季標準TV，優先核對已取得新第一方來源的角色版與跨季用曲，再對帳2022年秋季尚未列入的標準TV作品；短篇與WEB延後。 |
+| 本輪目標 | 第391批核對2022年夏標準TV《Prima Doll》、《夜更一族》及《影宅》第二季的原期用曲、發行及官方影片。固定2007–2026，資料截止2026-10-14。 |
+| 下批位置 | 第392批續查2022年夏標準TV《Lycoris Recoil》及其他仍有明確原期用曲缺口的作品。 |
 | 完成條件 | 各季有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替；基本資料經公開JSON、頁面及必要檢查驗證，歌單與詳情保持易瀏覽；每筆用途保存現有欄位狀態、未記錄項目及已知續查條件，與完整收齊及來源日期分開。詳細欄位缺少不阻擋基本資料。作品聯集未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件；2020–2026基本盤點及缺口對帳完成後，按季度倒序接續2019–2007，再依已登記缺口分階段深化詳細欄位。未解必要缺口仍標示未完成，不宣稱所有動畫種類或詳細資料齊備 |
-| 執行狀態 | 第386批本機驗證完成。相對第382批正式基線累計105筆不同用途，已達集中發布門檻。 |
-| 接續位置 | 正式基線 `3a2ab9349826dc1cbc8cd1cedd92ebb435b80803`／`batch382-basics`／[PR #291](https://github.com/kyeunga25/anisonary/pull/291)。 |
-| 發布提交 | 第382批 Workers 版本 `68377ae7-0b34-4095-a39d-d9c6a93e5c64`。第379–382批102筆用途已發布，正式站2,103份API、103項HTTP、102張歌曲卡、21次手機海報牆導覽、正式API契約及2,148頁資料驅動建置均通過。 |
-| 本機提交 | 第386批更新24筆既有用途及新增5筆已證劇中曲。第385批資料 `29461cd`、進度 `88c33c7`。 |
+| 執行狀態 | 第391批本機驗證完成。相對第386批正式基線累計114筆不同用途，已達集中發布門檻。 |
+| 接續位置 | 正式基線 `262d5923ef951ee163d66b18ac792ba41f01e041`／`batch386-basics`／[PR #292](https://github.com/kyeunga25/anisonary/pull/292)。 |
+| 發布提交 | 第386批 Workers 版本 `dba9356e-3132-415b-a7e5-bc4b386e145f`。第383–386批105筆用途已發布，正式站2,103份API、111項HTTP、105張歌曲卡、29次手機海報牆導覽、正式API契約及2,148頁資料驅動建置均通過。 |
+| 本機提交 | 第391批資料 `790ae14`，更新20筆既有用途。 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
 執行狀態使用「未開始／執行中／已暫停／已完成／已取消」；無法繼續時另記具體阻礙及仍未完成部分，不自動標記完成。長期目標與本次工作量分開，未指定本次工作量時先完成下一批。
@@ -17211,3 +17211,73 @@ WEP的[官方原期STREAMING](https://wonder-egg-priority.com/streaming/)明dア
 27項單元測試、9項E2E、2,148頁建置及公開邊界檢查通過。Chromium核對29張展開歌曲卡、20項發行曲目、50次季度歌單查詢及8次手機鍵盤海報牆導覽。同意前無YouTube請求。其餘2,064份動畫及27季JSON逐位元組相同。
 
 本機目錄為2,072部動畫、5,264筆用途、4,519個歌曲ID及2,722筆季度作品引用。基本待補999筆，僅季度待核287筆，合共1,286筆；964部作品待補或分類。相對第382批正式基線，第383–386批累計105筆不同用途待發布。2020–2026基本盤點及2007–2026長期目標仍在進行。
+
+## 第387批／2022秋角色版、特典編曲與播出界線
+
+固定範圍2007–2026，資料截止2026-10-14。核對4部作品，更新25筆既有用途，新增15個音源ID、9個發行ID、17筆用途與發行品關聯、6個日本Apple Music曲目直連及2支官方片頭外連。所有作品、用途、歌曲ID及用途季度維持現有對應。
+
+| 作品 ID | 核對結果 |
+| --- | --- |
+| `curated-125910` | 《VAZZROCK THE ANIMATION》補〈Fly High〉、〈Asterism⁂〉官方片頭映像。影碟第1–6卷附錄CD的12首片尾編曲與原單曲off vocal分列，保存附錄曲序與影碟品番。〈月花神楽〉兩版的官方發行及動畫企劃關係已查到，仍待製播方逐話署名確認兩版的實際使用位置。 [官方映像](https://www.vazzrock-anime.com/movie/) · [影碟第1–3卷](https://tsukino-pro.com/vazzrock/release/page/2/) · [影碟第4–6卷](https://tsukino-pro.com/vazzrock/release/) · [月花神楽發行](https://tsukino-pro.com/release_info/tkpr-308/) |
+| `curated-131182` | 《前進吧！登山少女 Next Summit》補常規片頭、片尾及兩個獨唱版的正版曲目。〈スタッカート・デイズ〉補原名、原期二重唱、詞曲編及2013年單曲。第5、9話獨唱與第12話片尾已有逐話交叉來源；三筆仍待本期製播方確認使用署名及錄音版本，留在動畫頁待核。 [官方單曲](https://yamanosusume-ns.com/music/) · [第5、9話交叉](https://yamap.com/magazine/42578) · [第12話交叉](https://yamap.com/magazine/42936) · [原發行商](https://www.earthstar.co.jp/service/detail/item-5415/) |
+| `curated-112640` | 《傳頌之物 二人的白皇》兩首常規曲補2024年精選輯曲序；〈ヌエドリ〉、〈夢想歌 2016〉補2016年歌集收錄及原錄音身分，後者補創作署名。兩筆特殊用法仍待2022年製播方逐話署名；〈人なんだ〉及〈百日草〉秋季用法沿原續查。 [唱片方精選輯](https://fixrecords.com/kiga39-40/) · [原期歌曲集](https://fixrecords.com/kiga29/) |
+| `curated-135806` | 《異世界歸來的舅舅》補〈story〉與〈一番星ソノリティ〉的日本正版曲目。10月重播第1話與11月新播第8話分開，秋／冬實際用曲沿原續查。 [放送再開公告](https://isekaiojisan.com/news/index00650000.html) · [片頭曲目](https://music.apple.com/jp/song/1634718776) · [片尾曲目](https://music.apple.com/jp/song/1634719681) |
+
+從原期TOKYO MX節目表及中文新番表比對候選。兩部未收錄的日本語電視播出版先分開記錄。《羅小黒戦記 ぼくが選ぶ未来》是劇場版五話分割，《万聖街》為原短篇EP1–36的六集日語電視編排。兩者留待相應媒體階段，本批未新增標準TV作品；整季聯集仍開放。 [TOKYO MX原期表](https://s.mxtv.jp/company/syubetsu_pdf/kihon_bangumihyo202210.pdf) · [中文新番表](https://youranimes.tw/bangumi/202210) · [羅小黒戦記發行方](https://www.sonymusic.co.jp/artist/LMYK/info/544492) · [万聖街發行方](https://www.aniplex.co.jp/news/detail/?id=63665)
+
+`npm run verify:batch`通過27項單元測試、2,148頁建置及公開邊界。Chromium核對25張展開歌曲卡、17個發行曲目、6個正版曲目入口、33次季度歌單查詢及4次手機鍵盤海報牆導覽；載入詳情及瀏覽歌單時無YouTube請求。其餘2,068份動畫及29份季度JSON逐位元組相同。
+
+本機目錄為2,072部動畫、5,264筆用途、4,519個歌曲ID。999筆基本待補及287筆僅用途季度待核，合共1,286筆；964部作品待補或分類。本批有25筆已驗證實質更新，正式基線仍是第386批。2020–2026基本盤點及2007–2026長期目標仍在進行。
+
+## 第388批／2022秋長篇原播及劇中曲
+
+固定範圍2007–2026，資料截止2026-10-14。兩部作品新增13筆劇中曲用途、12個歌曲ID，更新8筆既有用途，新增20個音源ID、4個發行ID、22筆用途與發行品關聯及2支官方影片。作品及季度會員不變。
+
+| 作品 ID | 核對結果 |
+| --- | --- |
+| `curated-136119` | 《星光魔法》按avex的TV正片演出曲目、授權數位發行及テレビ東京原播表，新增 `waccha-primagi-in-1`、`-in-2`、`-in-4` 至 `-in-14`，包含〈Believe〉、〈Starlight!〉、〈Lux Aeterna〉及〈ワッチャ！プリーズ！マジック！〉五人、六人版。兩版共用歌曲ID，分列演唱、音源與用途。聲優確認〈マジ・ワッチャパレード〉為劇中曲，原 `waccha-primagi-ed-3` 改列IN，保持公開ID及第3序號。第50話不同歌唱組合、第51話另作片尾的說法及〈Believe〉末話合唱仍待原播署名。五首常規OP／ED補音樂合輯，只有明標TV size的三首片頭記為TV版。 [avex合輯與正片曲目](https://avex.jp/primagi/news/detail.php?id=1106355) · [原播日期](https://www.tv-tokyo.co.jp/anime/primagi/episodes/) · [小池理子訪談](https://www.animatetimes.com/news/details.php?id=1633679119&p=2) |
+| `curated-140085` | 《影之詩F》的〈Tick-Tock〉與〈STAR〉按官方主題曲期別、2023年冬原播表及逐話核對補冬季。〈Tick-Tock〉補第3季度官方PV，〈STAR〉補官方MV與兩款單曲，保留TV音源與各地平台缺口。 [主題曲期別](https://anime.shadowverse.jp/music/) · [第41–50話原播](https://www.tv-tokyo.co.jp/anime/shadowverse-f/episodes/index_6.html) · [第41話及第4季度核對](https://www.at-s.com/media/anime/shadowverse/season2/episode41/) · [STAR單曲](https://avex.jp/cho-tokisen/star/) |
+
+`npm run verify:batch`通過27項單元測試、2,148頁建置及公開邊界。Chromium核對21張展開歌曲卡、25個發行曲目、103次季度歌單查詢及2次手機鍵盤海報牆導覽。查看更新後的舊歌曲錨點時維持原ID，載入頁面未觸發YouTube請求。
+
+本機目錄為2,072部動畫、5,277筆用途、4,531個歌曲ID。解除1筆基本待補與另外2筆僅季度待核。現有998筆基本待補、285筆僅季度待核，合共1,283筆；963部作品待補或分類。本批有21筆已驗證實質更新，第387–388批累計46筆。2020–2026基本盤點及2007–2026長期目標仍在進行。
+
+## 第389批／2022夏劇中曲及角色版唱片
+
+固定範圍2007–2026，資料截止2026-10-14。兩部作品新增12筆劇中曲用途及12個歌曲ID，更新14筆既有用途。補26個音源ID、10個發行ID、40筆用途與發行品關聯及3支官方影片外連。
+
+| 作品 ID | 核對結果 |
+| --- | --- |
+| `curated-145001` | 《Extreme Hearts》依原期劇中曲公告及逐曲音樂頁新增 `extreme-hearts-in-1` 至 `-in-12`，補作品用途、演唱及詞曲編。兩版《BEST 4 U》收錄這12首及原片尾〈SUNRISE（ver.RISE）〉，沿用原片尾ID。〈インフィニット〉補《BLOOMING》兩版曲序及官方MV。〈青空に逢えるよ〉收錄原唱獨唱，第9話合唱線索和其餘輪替片尾仍待第一方原播署名。 [劇中曲公告](https://exhearts.com/news/20220925_04.html) · [逐曲音樂](https://exhearts.com/music/charactersong.html) · [角色歌曲專輯](https://exhearts.com/cd/) · [片頭專輯](https://www.okasakimiho.com/discography/) |
+| `curated-103118` | 《ルミナスウィッチーズ》在 `renmei-kuugun-koukuu-mahou-ongakutai-luminous-witches-op-1` 及 `-ed-1` 至 `-ed-11` 補兩張主題曲單曲、三張角色歌曲CD及2020年〈Flying Skyhigh〉原單曲曲序。官方無字幕影片連到常規片頭與團體片尾。九個標有話數的唱片片尾版本仍待原播署名，〈Flying Skyhigh〉的原期TV用途仍待核，保留空季度及舊ID。片尾 ep4 詞曲編續待逐曲明列。 [片頭單曲](https://w-witch.jp/luminous/discography/?id=op&mode=detail) · [片尾單曲](https://www.w-witch.jp/luminous/discography/?id=ed&mode=detail) · [角色歌曲CD 1](https://w-witch.jp/luminous/discography/?id=chara_song1&mode=detail) · [角色歌曲CD 2](https://w-witch.jp/luminous/discography/?id=chara_song2&mode=detail) · [角色歌曲CD 3](https://w-witch.jp/luminous/discography/?id=chara_song3&mode=detail) · [原單曲](https://w-witch.jp/luminous/discography/?id=flyingskyhigh&mode=detail) |
+
+`npm run verify:batch` 通過27項單元測試、2,148頁建置及公開邊界。Chromium核對26張展開歌曲卡、40個發行曲目、26次季度歌單查詢及2次手機鍵盤海報牆導覽。載入頁面未向YouTube發出請求。其餘2,070份動畫及29份季度JSON逐位元組相同。
+
+本機目錄為2,072部動畫、5,289筆用途、4,543個歌曲ID及2,722筆季度作品引用。998筆基本待補、285筆只待用途季度核對，合共1,283筆。963部作品待補或分類。本批有26筆已驗證實質更新，第387–389批累計72筆。2020–2026基本盤點及2007–2026長期目標仍在進行。
+
+## 第390批／2022夏逐話用曲及發行版本
+
+固定範圍2007–2026，資料截止2026-10-14。兩部作品新增1筆劇中曲用途及1個歌曲ID，更新21筆既有用途。補53個音源ID、9個發行ID及14支官方影片外連，補連四筆既有單曲的演唱版與伴奏曲目。
+
+| 作品 ID | 核對結果 |
+| --- | --- |
+| `curated-142095` | 《神クズ☆アイドル》由官方片尾單曲確認〈二人三脚☆宣言〉在第10話演出，新增 `kami-kuzu-idol-in-5`，歸2022夏。為原有12筆用途補原期配信及無字幕／劇中映像、實體單曲及影碟隨附CD。原期公告明示的 TV Size、full、神ver. 及伴奏各有對應；專輯〈ZING UP〉按分碟曲序連結已確認版本。〈Hero's〉與〈MORNING〉的逐話演出、〈Portulaca〉的實際原播用途及未明詞曲編仍待可核的逐曲來源。 [原期配信](https://kami-kuzu.com/news/detail.php?id=1100939) · [官方映像](https://kami-kuzu.com/news/detail.php?id=1100955) · [最終話單曲](https://kami-kuzu.com/discography/detail.php?id=1019229) · [專輯](https://kami-kuzu.com/discography/detail.php?id=1019463) |
+| `curated-140642` | 《Love Live! Superstar!!》第二季以官方第2話片尾映像和原聲帶演唱名義交叉確認 `love-live-superstar-2nd-season-ed-2` 的桜小路きな子獨唱版，恢復2022夏。〈WE WILL!!〉、團體片尾及兩首ウィーン・マルガレーテ劇中曲補原單曲曲目和伴奏。〈ビタミンSUMMER！〉與〈Sing！Shine！Smile！〉補官方正片演出映像，〈Chance Day, Chance Way！〉及〈未来の音が聴こえる〉補詞曲編。其餘七筆角色片尾與團體OP／ED秋季實際使用沿原播署名續查。 [第2話官方片尾](https://www.youtube.com/watch?v=1DK_oVU9X1M) · [發行方原聲帶](https://catalog.bandainamcomusiclive.co.jp/release/70388/) · [ウィーン單曲](https://www.asmart.jp/a-onstore/shop/yuigaoka/product/10034566) · [第12話盤](https://www.asmart.jp/shop/liella_club/product/10033258) |
+
+`npm run verify:batch` 通過27項單元測試、2,148頁建置及公開邊界。Chromium核對22張展開歌曲卡、49個發行曲目、31次季度歌單查詢及2次手機鍵盤海報牆導覽。載入頁面未向YouTube發出請求。其餘2,070份動畫及29份季度JSON逐位元組相同。
+
+本機目錄為2,072部動畫、5,290筆用途、4,544個歌曲ID及2,722筆季度作品引用。解除同一筆用途的基本及季度待辦，現有997筆基本待補及285筆只待用途季度核對，合共1,282筆。963部作品待補或分類。本批有22筆已驗證實質更新，第387–390批累計94筆。2020–2026基本盤點及2007–2026長期目標仍在進行。
+
+## 第391批／2022夏原期映像及發行版本
+
+固定範圍2007–2026，資料截止2026-10-14。三部作品更新20筆既有用途，補27個音源ID、15個發行ID、32筆用途與發行品關聯及18支官方影片。原作品、用途、歌曲ID及季度對應保留。
+
+| 作品 ID | 核對結果 |
+| --- | --- |
+| `curated-144509` | 《Prima Doll》15筆用途補官方片頭、逐話片尾及劇中映像，並核對《Tin Toy Melody》《SHOW UP》《ON STAGE》及《CURTAIN FALL》。〈カミツレの歌〉第1話三人演唱與唱片的千代獨唱分開記錄。〈時のゆりかご〉補原聲帶第2碟第20曲。未明示的錄音長度類型與相鄰話數留待逐曲查證。 [原期映像](https://primadoll.jp/special_movie.html) · [官方發行](https://primadoll.jp/music.html) · [授權原聲帶](https://ototoy.jp/_/default/p/1363607) |
+| `curated-141391` | 《夜更一族》補《堕天》原期單曲及《アンサンブル・プレイ》各版曲序，分列片尾〈よふかしのうた〉在單曲上的 Remastered 音源及片頭伴奏。〈ロスタイム〉按原期公告確認第2夜插曲並補官方歌詞影片，其他話數及TV使用的確切音源版本仍待逐話證據。 [單曲](https://www.sonymusic.co.jp/artist/creepynuts/info/544205) · [各版專輯](https://www.sonymusic.co.jp/artist/creepynuts/info/544021) · [第2夜原期公告](https://yofukashi-no-uta.com/1st/news/archives/331) |
+| `curated-139093` | 《影宅》第二季的〈シャル・ウィ・ダンス？〉及〈Masquerade〉各補三版單曲、伴奏、明示的TV版本及藝人官方MV；無字幕片頭及片尾沿用既有條目。補齊〈シャル・ウィ・ダンス？〉的詞曲編。 [片頭單曲](https://www.sonymusic.co.jp/artist/ReoNa/info/542490) · [片尾單曲](https://www.sonymusic.co.jp/artist/claris/info/544231) · [MV公告](https://www.sonymusic.co.jp/artist/ReoNa/info/543035) |
+
+`npm run verify:batch` 通過27項單元測試、2,148頁建置及公開邊界。Chromium核對20張展開歌曲卡、41個發行曲目、20次季度歌單查詢及3次手機鍵盤海報牆導覽。載入頁面未向YouTube發出請求。其餘2,069份動畫及30份季度JSON逐位元組相同。
+
+本機目錄為2,072部動畫、5,290筆用途、4,544個歌曲ID及2,722筆季度作品引用。現有997筆基本待補、285筆只待用途季度核對，合共1,282筆。963部作品待補或分類。本批有20筆已驗證實質更新，第387–391批累計114筆。2020–2026基本盤點及2007–2026長期目標仍在進行。

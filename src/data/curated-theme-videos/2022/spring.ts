@@ -29,4 +29,6 @@ export const curated2022SpringThemeVideos = {
   "148819:OP:1": [{ youtubeVideoId: "PT6h9ea-zHA", title: "[MV] 呂布カルマ - Lucky Boy, Lucky Girl ( アニメ『 なならき 〜 Seven Lucky Gods 〜 』主題歌 )", type: "full_music_video", channelName: "なならき〜Seven Lucky Gods〜公式チャンネル【アニメ】", officialStatus: "official", embeddable: true }],
   "142842:ED:5": [{"youtubeVideoId":"uzXxSjW4DRQ","title":"七瀬彩夏『STAR RUSH』Official Music Video","type":"music_video","channelName":"アニメ 音楽 2.5次元舞台 - マーベラス公式チャンネル","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
   "142842:ED:6": [{"youtubeVideoId":"ebwGfHJmvKQ","title":"七瀬彩夏2ndシングル『サヨナラにはならない』Official Music Video","type":"music_video","channelName":"アニメ 音楽 2.5次元舞台 - マーベラス公式チャンネル","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "140085:ED:2": [{"youtubeVideoId":"iwnSWdF82G4","title":"超ときめき♡宣伝部 / 「STAR」Music Video","channelName":"超ときめき♡宣伝部サブチャンネル","type":"music_video","officialStatus":"official","embeddable":false}],
+  "140085:OP:2": [{"youtubeVideoId":"xXiEzNxI3Zo","title":"TVアニメ「シャドウバースＦ」第3クール『シャドバ部対抗編』PV","channelName":"アニメ「シャドウバース」公式チャンネル","type":"pv","officialStatus":"official","embeddable":false}],
 } satisfies CuratedThemeVideoOverrideMap;
