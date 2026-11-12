@@ -34,4 +34,9 @@ export const curated2022WinterThemeVideos = {
   "142274:ED:7": [{"youtubeVideoId":"iVKKHNG0CzE","title":"白昼きみとドロン 官方MV","channelName":"ポップしなないで","type":"music_video","officialStatus":"official","embeddable":false}],
   "142274:OP:2": [{"youtubeVideoId":"D5LF3WChRrA","title":"一心同体 官方MV","channelName":"きゃりーぱみゅぱみゅ","type":"music_video","officialStatus":"official","embeddable":false}],
   "142274:OP:3": [{"youtubeVideoId":"HGsbmT1pLaQ","title":"OEDOEDO 官方歌詞影片","channelName":"きゃりーぱみゅぱみゅ","type":"lyric_video","officialStatus":"official","embeddable":false}],
+  "142274:ED:1": [{"youtubeVideoId":"Gd0ckwFwAvw","title":"ウォルピスカーター MV『ニンジャライクニンジャ』","channelName":"ウォルピス社","type":"music_video","officialStatus":"official","embeddable":false}],
+  "142274:ED:2": [{"youtubeVideoId":"mpe2Js3iLD8","title":"TVアニメ 『ニンジャラ』 ノンテロップED映像 【Wienners/SHINOBI TOP SECRET】","channelName":"日本コロムビア 公式YouTubeチャンネル","type":"creditless_ed","officialStatus":"official","embeddable":false},{"youtubeVideoId":"cv8Yijj4cIw","title":"Wienners『SHINOBI TOP SECRET』Music Video (TVアニメ「ニンジャラ」EDテーマ)","channelName":"Wienners","type":"music_video","officialStatus":"official","embeddable":false}],
+  "142274:ED:3": [{"youtubeVideoId":"nRgeGgdpOiQ","title":"【MV】ファンタスティック☆パイセン - 友情的行進","channelName":"ファンタスティック⭐️パイセン","type":"music_video","officialStatus":"official","embeddable":false}],
+  "142274:OP:1": [{"youtubeVideoId":"0l2R1kB0KBM","title":"Kyary Pamyu Pamyu - Maybe Baby (きゃりーぱみゅぱみゅ - メイビーベイビー) TVアニメ #ニンジャラ ノンテロップOP映像","channelName":"Kyary Pamyu Pamyu ( きゃりーぱみゅぱみゅ )","type":"creditless_op","officialStatus":"official","embeddable":false}],
+  "125682:ED:5": [{"youtubeVideoId":"srGaouBMMmg","title":"【AiRBLUE】「ミライキャンバス」MV　CUE! 01 album 「Talk about everything」より (full size)","channelName":"CUE!","type":"full_music_video","officialStatus":"official","embeddable":false}],
 } satisfies CuratedThemeVideoOverrideMap;
