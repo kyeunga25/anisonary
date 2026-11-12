@@ -10,6 +10,14 @@ export const curated2022SummerThemeVideos = {
       officialStatus: "official",
       embeddable: true,
     },
+    {
+      "youtubeVideoId": "Vi-1402wYtI",
+      "title": "ClariS 『ALIVE』Music Video 【TVアニメ「リコリス・リコイル」オープニングテーマ】",
+      "channelName": "ClariS Official YouTube Channel",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false
+    },
   ],
   "143270:ED:1": [
     {
@@ -178,6 +186,14 @@ export const curated2022SummerThemeVideos = {
       officialStatus: "official",
       embeddable: true,
     },
+    {
+      "youtubeVideoId": "oWZcgeXOecE",
+      "title": "石原夏織 \"Abracada-Boo\" Music Video",
+      "channelName": "石原夏織 YouTube Official Channel",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false
+    },
   ],
   "146210:ED:1": [
     {
@@ -188,6 +204,14 @@ export const curated2022SummerThemeVideos = {
       officialStatus: "official",
       embeddable: true,
     },
+    {
+      "youtubeVideoId": "7M1CrzVdxyA",
+      "title": "Mili/ Mortal With You（TVアニメ「金装のヴェルメイユ」EDテーマ）視聴動画",
+      "channelName": "ぽにきゃん-Anime PONY CANYON",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false
+    },
   ],
   "117196:OP:1": [
     {
@@ -197,6 +221,14 @@ export const curated2022SummerThemeVideos = {
       channelName: "東京ミュウミュウチャンネル",
       officialStatus: "official",
       embeddable: true,
+    },
+    {
+      "youtubeVideoId": "fGSQc2uuDnY",
+      "title": "【東京ミュウミュウ にゅ〜♡ OP主題歌】Smewthie「Cat!!してSuperGirls」Music Video",
+      "channelName": "東京ミュウミュウチャンネル",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false
     },
   ],
   "117196:ED:1": [
@@ -257,6 +289,14 @@ export const curated2022SummerThemeVideos = {
       channelName: "ハピネット【アニメ公式】",
       officialStatus: "official",
       embeddable: true,
+    },
+    {
+      "youtubeVideoId": "E-e5M9S9y3k",
+      "title": "【harmoe】『ふたりピノキオ』Music Video Full ver.【4thシングル】",
+      "channelName": "harmoeオフィシャルYouTubeチャンネル",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": false
     },
   ],
   "131912:OP:1": [
@@ -360,4 +400,42 @@ export const curated2022SummerThemeVideos = {
   "144509:IN:5": [{"youtubeVideoId":"-u5L61_zjxM","title":"TVアニメ『プリマドール』第10話劇中歌映像「アイスクリームの歌／灰桜（CV. 和氣あず未）、千代（CV. 久野美咲）」","channelName":"プリマドール公式channel","type":"other","officialStatus":"official","embeddable":false}],
   "144509:IN:6": [{"youtubeVideoId":"JDJ2GnLNfZY","title":"TVアニメ『プリマドール』第11話劇中歌映像「時のゆりかご／桜花（CV. 中原麻衣）」","channelName":"プリマドール公式channel","type":"other","officialStatus":"official","embeddable":false}],
   "144509:IN:7": [{"youtubeVideoId":"pka-tBWvoik","title":"TVアニメ『プリマドール』第12話劇中歌映像「機械仕掛けの賛歌／シャノワール（灰桜（和氣あず未）、鴉羽（楠木ともり）、月下（富田美憂）、箒星（中島由貴）、レーツェル（鬼頭明里）)」","channelName":"プリマドール公式channel","type":"other","officialStatus":"official","embeddable":false}],
+  "136707:ED:1": [{"youtubeVideoId":"F1OUCSwpzWg","title":"リトルブラックドレス「白雨」MUSIC VIDEO Full Ver.","channelName":"Little Black Dress","type":"full_music_video","officialStatus":"official","embeddable":false},{"youtubeVideoId":"iFmkusnNKXQ","title":"TVアニメ『異世界薬局』 ノンクレジットED","channelName":"KADOKAWAanime","type":"creditless_ed","officialStatus":"official","embeddable":false}],
+  "146668:IN:1": [{"youtubeVideoId":"IHjrBV0zVUY","title":"Void_Chords ‐ Capabilities Unseen(feat. L)(RWBY 氷雪帝国/RWBY:Ice Queendom EP1 Insert Song)[XR LIVE MV]","channelName":"Void_Chords a.k.a. Ryo Takahashi","type":"live","officialStatus":"official","embeddable":false}],
+  "146668:OP:1": [{"youtubeVideoId":"h5PcCMEuT3E","title":"Void_Chords - Beyond Selves (feat.L) (RWBY 氷雪帝国/RWBY: Ice Queendom OP) [Full MV]","channelName":"Void_Chords a.k.a. Ryo Takahashi","type":"full_music_video","officialStatus":"official","embeddable":false}],
+  "117196:IN:1": [{"youtubeVideoId":"ydki3FHza9M","title":"【東京ミュウミュウ にゅ〜♡】藤原ざくろキャラソン「I Believe」【本編映像】","channelName":"東京ミュウミュウチャンネル","type":"other","officialStatus":"official","embeddable":false}],
+  "117196:IN:2": [{"youtubeVideoId":"FvZc0eJxaZI","title":"【東京ミュウミュウ にゅ〜♡】藤原ざくろキャラソン「私を呼ぶ声」【本編映像】","channelName":"東京ミュウミュウチャンネル","type":"other","officialStatus":"official","embeddable":false}],
+  "117196:IN:3": [{"youtubeVideoId":"Iq_n58k48Ak","title":"【東京ミュウミュウ にゅ〜♡】桃宮いちご「my sweet heart（にゅ～♡ver.）」【本編映像】","channelName":"東京ミュウミュウチャンネル","type":"other","officialStatus":"official","embeddable":false}],
+  "124410:ED:1": [{"youtubeVideoId":"7O_scwtJiXI","title":"言えない feat.asmi / MIMiNARI：Music Video（TVアニメ『彼女、お借りします』第2期エンディングテーマ）","channelName":"MIMiNARI Official","type":"music_video","officialStatus":"official","embeddable":false},{"youtubeVideoId":"L0WJcLVqsRk","title":"『彼女、お借りします』第2期　MIMiNARI「言えない feat.asmi」｜ノンクレジットエンディング","channelName":"DMM pictures","type":"creditless_ed","officialStatus":"official","embeddable":false}],
+  "124410:IN:1": [{"youtubeVideoId":"PdbpDEOj7gI","title":"TVアニメ「彼女、お借りします」七海麻美キャラクターソング『まみラップ』スペシャルPV","channelName":"DMM pictures","type":"pv","officialStatus":"official","embeddable":false}],
+  "124410:OP:1": [{"youtubeVideoId":"QymnTfHHC7c","title":"ヒミツ恋ゴコロ／CHiCO with HoneyWorks","channelName":"CHiCO / CHiCO with HoneyWorks","type":"music_video","officialStatus":"official","embeddable":false},{"youtubeVideoId":"uwICTsL_ijw","title":"『彼女、お借りします』第2期　CHiCO with HoneyWorks「ヒミツ恋ゴコロ」｜ノンクレジットオープニング","channelName":"DMM pictures","type":"creditless_op","officialStatus":"official","embeddable":false}],
+  "129196:ED:1": [{"youtubeVideoId":"MkHaKj-P7jA","title":"早見沙織「Guide」Music Video（DanMachi season Ⅳ New Chapter:The Labyrinth Arc ED）","channelName":"早見沙織 Official YouTube Channel","type":"music_video","officialStatus":"official","embeddable":false}],
+  "129196:OP:1": [{"youtubeVideoId":"AwUqgyHGy00","title":"sajou no hana「天灯」（Music Video）","channelName":"sajou no hana Official Channel","type":"music_video","officialStatus":"official","embeddable":false},{"youtubeVideoId":"UEox7fMLW_0","title":"【在地下城尋求邂逅是否搞錯了什麼 第四季 新章 迷宮篇 OP】sajou no hana「天灯」中日歌詞｜Muse木棉花","channelName":"Muse木棉花-TW","type":"lyric_video","officialStatus":"official","embeddable":false}],
+  "145545:ED:1": [{"youtubeVideoId":"RgRaL6z5mbY","title":"渕上 舞「人芝居」MV Short Ver.／TVアニメ『ようこそ実力至上主義の教室へ 2nd Season』エンディングテーマ","channelName":"渕上 舞Official Channel","type":"music_video","officialStatus":"official","embeddable":false}],
+  "145545:OP:1": [{"youtubeVideoId":"Zm24Y_f6qQk","title":"ZAQ / Dance In The Game -Lyric video full size- TVアニメ『ようこそ実力至上主義の教室へ 2nd Season』オープニングテーマ","channelName":"ZAQ Official Channel","type":"lyric_video","officialStatus":"official","embeddable":false}],
+  "129192:ED:1": [{"youtubeVideoId":"0FOXaGdpK_I","title":"TVアニメ「転生賢者の異世界ライフ」ノンクレジットED ｜スラちゃんず△『ごはんだヨッ！ダダダダン！！』","channelName":"ぽにきゃん-Anime PONY CANYON","type":"creditless_ed","officialStatus":"official","embeddable":false}],
+  "129192:OP:1": [{"youtubeVideoId":"yBreQoKQXws","title":"TVアニメ「転生賢者の異世界ライフ」ノンクレジットOP ｜Non Stop Rabbit『無自覚の天才』","channelName":"ぽにきゃん-Anime PONY CANYON","type":"creditless_op","officialStatus":"official","embeddable":false},{"youtubeVideoId":"zQhHfdMolqo","title":"Non Stop Rabbit 『無自覚の天才』 official music video 【TVアニメ-転生賢者の異世界ライフ-OP主題歌】【ノンラビ】","channelName":"Non Stop Rabbit","type":"music_video","officialStatus":"official","embeddable":false}],
+  "130592:ED:1": [{"youtubeVideoId":"i-GVE4lpKkU","title":"堀内まり菜「水鏡の世界」Music Video（Full ver.）","channelName":"堀内まり菜チャンネル","type":"full_music_video","officialStatus":"official","embeddable":false}],
+  "130592:OP:1": [{"youtubeVideoId":"p1qPZOQoDuw","title":"栗林みな実「WITH」MUSIC CLIP","channelName":"Lantis Channel","type":"music_video","officialStatus":"official","embeddable":false}],
+  "138882:ED:1": [{"youtubeVideoId":"K_13ALbcAV4","title":"TVアニメ『組長娘と世話係』ノンクレジットEDムービー｜EDテーマ：渋谷ハル「かえりみちの色」","channelName":"TVアニメ「組長娘と世話係」公式","type":"creditless_ed","officialStatus":"official","embeddable":false},{"youtubeVideoId":"ZvOqFiiIPCI","title":"渋谷ハル「かえりみちの色」Music Video","channelName":"渋谷ハル","type":"music_video","officialStatus":"official","embeddable":false}],
+  "138882:OP:1": [{"youtubeVideoId":"KWXryj9OypQ","title":"TVアニメ『組長娘と世話係』ノンクレジットOPムービー｜OPテーマ：タケヤキ翔「未来のヒーローたちへ」","channelName":"TVアニメ「組長娘と世話係」公式","type":"creditless_op","officialStatus":"official","embeddable":false},{"youtubeVideoId":"lBYl7lfB3TE","title":"【MV】未来のヒーローたちへ/タケヤキ翔【組長娘と世話係OP主題歌】","channelName":"タケヤキ翔","type":"music_video","officialStatus":"official","embeddable":false}],
+  "146650:ED:1": [{"youtubeVideoId":"ZeyaZYOSp9k","title":"オリジナルTVアニメ「ブッチギレ！」ノンクレジットED｜ 自象存在name-less「断罪デモクラシー」","channelName":"TWIN ENGINE","type":"creditless_ed","officialStatus":"official","embeddable":false}],
+  "146650:OP:1": [{"youtubeVideoId":"pgP27kZN9-8","title":"オリジナルTVアニメ「ブッチギレ！」ノンクレジットOP｜ 西川貴教「一番光れ！-ブッチギレ-」","channelName":"TWIN ENGINE","type":"creditless_op","officialStatus":"official","embeddable":false},{"youtubeVideoId":"MgG9ktArz4A","title":"西川貴教 - 一番光れ！-ブッチギレ-｜Official Music Video","channelName":"西川貴教","type":"music_video","officialStatus":"official","embeddable":false}],
+  "128223:ED:1": [{"youtubeVideoId":"gLEakT1FdX0","title":"TVアニメ『それでも歩は寄せてくる』EDテーマ「50センチ」／八乙女うるし（CV:中村カンナ）Music Video","channelName":"ぽにきゃん-Anime PONY CANYON","type":"music_video","officialStatus":"official","embeddable":false}],
+  "128223:OP:1": [{"youtubeVideoId":"icPUzparjEw","title":"花澤香菜「駆け引きはポーカーフェイス」Music Video","channelName":"花澤香菜","type":"music_video","officialStatus":"official","embeddable":false}],
+  "146637:ED:1": [{"youtubeVideoId":"S0R2QLAFkG4","title":"梶原岳人 / 色違いの糸束（official music video）","channelName":"梶原岳人","type":"full_music_video","officialStatus":"official","embeddable":false},{"youtubeVideoId":"pj__isRtim4","title":"梶原岳人「色違いの糸束」7/20(水)Release／TVアニメ「オリエント」淡路島激闘編ノンテロップED","channelName":"梶原岳人","type":"creditless_ed","officialStatus":"official","embeddable":false}],
+  "146637:OP:1": [{"youtubeVideoId":"NJELX1zr1k8","title":"花村想太 & Lil’ Fang / 「Break it down」（TVアニメ「オリエント」淡路島激闘編 OPテーマ）Lyric Video","channelName":"Da-iCE","type":"lyric_video","officialStatus":"official","embeddable":false}],
+  "141775:ED:1": [{"youtubeVideoId":"gWoVE-VKUgU","title":"all at once「RIVALS」","channelName":"all at once official channel","type":"music_video","officialStatus":"official","embeddable":false}],
+  "141775:OP:1": [{"youtubeVideoId":"2b8avaXe-fc","title":"宮川愛李 MV「アオレイド」","channelName":"宮川愛李 公式チャンネル","type":"music_video","officialStatus":"official","embeddable":false}],
+  "124641:ED:1": [{"youtubeVideoId":"Kua1N1PJD6k","title":"【組曲】花譜×可不 (Prod.Hi-Fi P) # 102「流線形メーデー」【オリジナルMV】","channelName":"花譜 -KAF-","type":"music_video","officialStatus":"official","embeddable":false}],
+  "124641:ED:2": [{"youtubeVideoId":"GQSX6jbTw2g","title":"「サンキュードロップキック！（邪神ちゃん＆初音ミク）」Jashin-Chan & Hatsune Miku -     Thank You Drop Kick!","channelName":"【公式】邪神ちゃんねる【切り抜きOK】","type":"music_video","officialStatus":"official","embeddable":false}],
+  "124641:OP:1": [{"youtubeVideoId":"Ya9Tn-8mxZg","title":"halca 『あれこれドラスティック feat. 鈴木愛奈』Music Video（TVアニメ『邪神ちゃんドロップキックX』OP）","channelName":"halca Official YouTube Channel","type":"music_video","officialStatus":"official","embeddable":false}],
+  "143417:ED:1": [{"youtubeVideoId":"1Ka_Z9_mb7c","title":"TVアニメ「てっぺんっ!!!!!!!!!!!!!!!」ED主題歌「あはっててっぺんっ／May’n」ノンクレジットVer","channelName":"ブシロード公式チャンネル","type":"creditless_ed","officialStatus":"official","embeddable":false}],
+  "143417:OP:1": [{"youtubeVideoId":"sWrtx1O2UHY","title":"TVアニメ「てっぺんっ!!!!!!!!!!!!!!!」OP主題歌「てっぺんっ天国 ～TOP OF THE LAUGH!!!～」ノンクレジットVer","channelName":"ブシロード公式チャンネル","type":"creditless_op","officialStatus":"official","embeddable":false}],
+  "144858:ED:1": [{"youtubeVideoId":"fzcxyhM0gKQ","title":"TVアニメ「ちみも」ノンクレジットED映像【小松未可子「なんだなんなんだ！」】","channelName":"松竹チャンネル/SHOCHIKUch","type":"creditless_ed","officialStatus":"official","embeddable":false}],
+  "144858:OP:1": [{"youtubeVideoId":"vpOf2peaMeA","title":"【最新曲】眉村ちあき「マルコッパ」（TVアニメ「ちみも」オープニング主題歌）(Official Audio)","channelName":"Channel眉村ちあき","type":"official_audio","officialStatus":"official","embeddable":false},{"youtubeVideoId":"zsJpBtM7dh4","title":"TVアニメ「ちみも」ノンクレジットOP映像【眉村ちあき「マルコッパ」】","channelName":"松竹チャンネル/SHOCHIKUch","type":"creditless_op","officialStatus":"official","embeddable":false}],
+  "145260:ED:1": [{"youtubeVideoId":"ckL5MkHQYkY","title":"鈴木みのり - Wherever（Lyric Video）","channelName":"鈴木みのり","type":"lyric_video","officialStatus":"official","embeddable":false},{"youtubeVideoId":"bWXjhfCjk4Y","title":"TVアニメ「黒の召喚士」ノンクレジットED【鈴木みのり「Wherever」】","channelName":"オーバーラップチャンネル","type":"creditless_ed","officialStatus":"official","embeddable":false}],
+  "145260:OP:1": [{"youtubeVideoId":"UQgv8MBxCuU","title":"「頭ん中DEAD END」レトベア（unknown Vo：10fu） ××Official Video××","channelName":"レトベア Official / RetBear","type":"music_video","officialStatus":"official","embeddable":false}],
+  "149874:ED:1": [{"youtubeVideoId":"PztDR2TxDq4","title":"TV 『咲うアルスノトリア すんっ！』ノンクレジットED／cluppo(くるっぽ)「With you」","channelName":"ぽにきゃん-Anime PONY CANYON","type":"creditless_ed","officialStatus":"official","embeddable":false},{"youtubeVideoId":"FylOWS13RTg","title":"cluppo / With you (Official Music Video)","channelName":"cluppo Official YouTube","type":"music_video","officialStatus":"official","embeddable":false}],
+  "149874:OP:1": [{"youtubeVideoId":"jVrr2OkCJsI","title":"TV 『咲うアルスノトリア すんっ！』ノンクレジットOP／ハナウタ（第五寮）「はじまりへと続く場所」","channelName":"ぽにきゃん-Anime PONY CANYON","type":"creditless_op","officialStatus":"official","embeddable":false}],
 } satisfies CuratedThemeVideoOverrideMap;
