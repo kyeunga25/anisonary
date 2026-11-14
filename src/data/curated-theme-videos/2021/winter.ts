@@ -171,6 +171,16 @@ export const curated2021WinterThemeVideos = {
       embeddable: true
     }
   ],
+  "113476:OP:1": [
+    {"youtubeVideoId":"ChhTdSVUi2s","title":"ドレミファSTARS!!｜官方無字幕片頭","type":"creditless_op","channelName":"SHOW BY ROCK!!公式チャンネル","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},
+    {"youtubeVideoId":"KQA8_NyjTZ0","title":"ドレミファSTARS!!｜唱片方 Art Track","type":"art_track","channelName":"Plasmagica - Topic","officialStatus":"official","embeddable":false,"embedAvailability":"unknown","recordingId":"show-by-rock-stars-op-1-song-released-vocal"},
+  ],
+  "113476:ED:1": [
+    {"youtubeVideoId":"-3651XUJOlQ","title":"星空ライトストーリー｜唱片方 Art Track","type":"art_track","channelName":"Mashumairesh!! - Topic","officialStatus":"official","embeddable":false,"embedAvailability":"unknown","recordingId":"show-by-rock-stars-ed-1-song-released-vocal"},
+  ],
+  "113476:IN:8": [
+    {"youtubeVideoId":"lXfk7Wh0mEI","title":"OBENTO MAGNUM｜伊東健人官方錄音室演出","type":"live","channelName":"SHOW BY ROCK!!公式チャンネル","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},
+  ],
   "113814:OP:1": [
     {
       youtubeVideoId: "v43luL5KAYI",
@@ -181,6 +191,7 @@ export const curated2021WinterThemeVideos = {
       officialStatus: "official",
       embeddable: true,
     },
+    {"youtubeVideoId":"kIZe_4gpf58","title":"IDOLY PRIDE｜TVアニメ公式OP映像","type":"creditless_op","channelName":"IDOLY PRIDE アイドリープライド（アイプラ）","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},
   ],
   "113814:ED:1": [
     {
@@ -192,6 +203,39 @@ export const curated2021WinterThemeVideos = {
       officialStatus: "official",
       embeddable: true,
     },
+    {"youtubeVideoId":"Y5EoVaaUhG8","title":"The Sun, Moon and Stars｜TVアニメ公式ED映像","type":"creditless_ed","channelName":"IDOLY PRIDE アイドリープライド（アイプラ）","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},
+  ],
+  "113814:ED:2": [
+    {"youtubeVideoId":"CL0g7ovJb2c","title":"The Last Chance（莉央＆葵ver.）｜TVアニメ公式ED映像","type":"creditless_ed","channelName":"IDOLY PRIDE アイドリープライド（アイプラ）","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},
+    {"youtubeVideoId":"jzuhI-Ll7TE","title":"The Last Chance｜LizNoir四人版公式MV","type":"music_video","channelName":"IDOLY PRIDE アイドリープライド（アイプラ）","officialStatus":"official","embeddable":false,"embedAvailability":"unknown","recordingId":"idoly-pride-ed-2-song-quartet-version"},
+  ],
+  "113814:ED:3": [
+    {"youtubeVideoId":"l9_FyqJUiss","title":"réaliser｜TVアニメ公式ED映像","type":"creditless_ed","channelName":"IDOLY PRIDE アイドリープライド（アイプラ）","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},
+  ],
+  "113814:ED:4": [
+    {"youtubeVideoId":"kUxiVUDw-Qg","title":"Shining Days｜TVアニメ公式ED映像","type":"creditless_ed","channelName":"IDOLY PRIDE アイドリープライド（アイプラ）","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},
+  ],
+  "113814:ED:5": [
+    {"youtubeVideoId":"aAAvyf3-RqI","title":"Daytime Moon｜TVアニメ公式ED映像","type":"creditless_ed","channelName":"IDOLY PRIDE アイドリープライド（アイプラ）","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},
+    {"youtubeVideoId":"a5SXuwsylJk","title":"Daytime Moon｜月のテンペスト公式MV","type":"music_video","channelName":"IDOLY PRIDE アイドリープライド（アイプラ）","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},
+  ],
+  "113814:ED:6": [
+    {"youtubeVideoId":"7bPgTVea4Fo","title":"song for you（サニーピースver.）｜公式MV","type":"music_video","channelName":"IDOLY PRIDE アイドリープライド（アイプラ）","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},
+  ],
+  "113814:ED:7": [
+    {"youtubeVideoId":"f-kBPXH_VAY","title":"Pray for you｜星見プロダクション公式MV","type":"music_video","channelName":"IDOLY PRIDE アイドリープライド（アイプラ）","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},
+  ],
+  "113814:IN:1": [
+    {"youtubeVideoId":"_DBwAjUilIo","title":"First Step｜長瀬麻奈公式アニメーションMV","type":"music_video","channelName":"IDOLY PRIDE アイドリープライド（アイプラ）","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},
+  ],
+  "113814:IN:9": [
+    {"youtubeVideoId":"x_nXHAT3uQE","title":"EVERYDAY! SUNNYDAY!｜公式ゲーム3Dライブ映像","type":"other","channelName":"IDOLY PRIDE アイドリープライド（アイプラ）","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},
+  ],
+  "113814:IN:11": [
+    {"youtubeVideoId":"9xiRsOieWtU","title":"The One and Only｜公式ゲーム3Dライブ映像（ショートver.）","type":"other","channelName":"IDOLY PRIDE アイドリープライド（アイプラ）","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},
+  ],
+  "113814:IN:13": [
+    {"youtubeVideoId":"aNzLrPyqLI0","title":"サヨナラから始まる物語｜星見プロダクション公式アニメーションMV","type":"music_video","channelName":"IDOLY PRIDE アイドリープライド（アイプラ）","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},
   ],
   "116944:OP:1": [
     {
@@ -253,11 +297,39 @@ export const curated2021WinterThemeVideos = {
       officialStatus: "official",
       embeddable: true,
     },
+    {
+      youtubeVideoId: "qufNCifidT8",
+      title: "Rude-α 『Paradise』",
+      type: "music_video",
+      channelName: "Rude-a YouTube Channel (Sony Music Labels)",
+      officialStatus: "official",
+      embeddable: true,
+    },
   ],
   "124153:ED:1": [
     {
       youtubeVideoId: "2b2v45EmOR8",
       title: "【EDは優里が担当】TVアニメ「SK∞ エスケーエイト」ED解禁映像",
+      type: "other",
+      channelName: "アニプレックス チャンネル",
+      officialStatus: "official",
+      embeddable: true,
+    },
+  ],
+  "124153:IN:1": [
+    {
+      youtubeVideoId: "G-yZMHstQ3U",
+      title: "Dimensions of the Wind",
+      type: "art_track",
+      channelName: "ASH DA HERO - Topic",
+      officialStatus: "official",
+      embeddable: true,
+    },
+  ],
+  "124153:IN:3": [
+    {
+      youtubeVideoId: "vSP_xHdsJb0",
+      title: "TVアニメ「SK∞ エスケーエイト」Blu-ray&DVDシリーズ CM",
       type: "other",
       channelName: "アニプレックス チャンネル",
       officialStatus: "official",
@@ -274,7 +346,10 @@ export const curated2021WinterThemeVideos = {
       officialStatus: "official",
       embeddable: true,
     },
+    {"youtubeVideoId":"9-Y5XOasyLw","title":"TVアニメ「オルタンシア・サーガ」ノンクレジットOPアニメーション（LEADER）","type":"creditless_op","channelName":"アニプレックス チャンネル","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},
   ],
+  "114301:ED:1": [{"youtubeVideoId":"v7msWgko0jE","title":"TVアニメ「オルタンシア・サーガ」ノンクレジットEDアニメーション（夜想と白昼夢）","type":"creditless_ed","channelName":"アニプレックス チャンネル","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "114301:ED:2": [{"youtubeVideoId":"upi05FfVv40","title":"TVアニメ「オルタンシア・サーガ」第8章EDテーマ「VEIL」Music Video","type":"music_video","channelName":"アニプレックス チャンネル","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
   "118375:OP:1": [
     {
       youtubeVideoId: "_MKg3ELCkPA",
@@ -285,6 +360,7 @@ export const curated2021WinterThemeVideos = {
       embeddable: true,
     },
   ],
+  "118375:ED:1": [{"youtubeVideoId":"kmpmajC2hjc","title":"コアラモード． 『ネモフィラ』","type":"music_video","channelName":"コアラモード．","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},{"youtubeVideoId":"zwprDDcju3o","title":"コアラモード．『ネモフィラ 』STUDIO ACT","type":"live","channelName":"コアラモード．","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},{"youtubeVideoId":"LAuF6RZYTc0","title":"TVアニメ『俺だけ入れる隠しダンジョン』PV第2弾","type":"pv","channelName":"DMM pictures","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
   "123779:OP:1": [
     {
       youtubeVideoId: "doNEFpU5fL4",
@@ -294,16 +370,21 @@ export const curated2021WinterThemeVideos = {
       officialStatus: "official",
       embeddable: true,
     },
+    {"youtubeVideoId":"uyq81CJ8-Zg","title":"【OP】TVアニメ『怪病医ラムネ』","type":"creditless_op","channelName":"「KING AMUSEMENT CREATIVE」公式チャンネル","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},
+    {"youtubeVideoId":"KnI-kE4xEqI","title":"内田雄馬「SHAKE！SHAKE！SHAKE！」Dance Shot ver.","type":"music_video","channelName":"内田雄馬 OFFICIAL","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},
+    {"youtubeVideoId":"ox58tKRx7RU","title":"内田雄馬「SHAKE！SHAKE！SHAKE！」（YUMA UCHIDA LIVE 2021「Equal Sign」）","type":"live","channelName":"内田雄馬 OFFICIAL","officialStatus":"official","embeddable":false,"embedAvailability":"unknown","recordingId":"kai-byoui-ramune-op-1-song-equal-sign-2021"},
   ],
   "123779:ED:1": [
     {
       youtubeVideoId: "qMynXxkkrSI",
       title: "【ED】TVアニメ『怪病医ラムネ』",
-      type: "other",
+      type: "creditless_ed",
       channelName: "「KING AMUSEMENT CREATIVE」公式チャンネル",
       officialStatus: "official",
       embeddable: true,
     },
+    {"youtubeVideoId":"wdLjo2vCaGs","title":"saji - 「アルカシア」MUSIC VIDEO","type":"music_video","channelName":"saji","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},
+    {"youtubeVideoId":"qckLEw_kXnE","title":"アルカシア","type":"art_track","channelName":"saji - Topic","officialStatus":"official","embeddable":false,"embedAvailability":"unknown","recordingId":"kai-byoui-ramune-ed-1-song-released-vocal"},
   ],
   "103632:OP:1": [
     {
@@ -311,6 +392,14 @@ export const curated2021WinterThemeVideos = {
       title:
         "安月名莉子「keep weaving your spider way」MV（TVアニメ「蜘蛛ですが、なにか？」OPテーマ）",
       type: "full_music_video",
+      channelName: "KADOKAWAanime",
+      officialStatus: "official",
+      embeddable: true,
+    },
+    {
+      youtubeVideoId: "tHJvb5iW4QY",
+      title: "TVアニメ「蜘蛛ですが、なにか？」アニメノンクレジット視聴動画／OPテーマ「keep weaving your spider way」歌：安月名莉子",
+      type: "creditless_op",
       channelName: "KADOKAWAanime",
       officialStatus: "official",
       embeddable: true,
@@ -326,6 +415,42 @@ export const curated2021WinterThemeVideos = {
       officialStatus: "official",
       embeddable: true,
     },
+    {
+      youtubeVideoId: "X5pQ_sGcNg4",
+      title: "TVアニメ「蜘蛛ですが、なにか？」EDテーマ「がんばれ！蜘蛛子さんのテーマ」歌：「私」(CV：悠木碧)",
+      type: "other",
+      channelName: "KADOKAWAanime",
+      officialStatus: "official",
+      embeddable: true,
+    },
+  ],
+  "103632:ED:2": [
+    {
+      youtubeVideoId: "VpWX6pWz_0M",
+      title: "TVアニメ「蜘蛛ですが、なにか？」アニメノンクレジット視聴動画／後期EDテーマ「現実凸撃ヒエラルキー」歌：「私」（CV:悠木碧）",
+      type: "creditless_ed",
+      channelName: "KADOKAWAanime",
+      officialStatus: "official",
+      embeddable: true,
+    },
+  ],
+  "103632:OP:2": [
+    {
+      youtubeVideoId: "4x1PJljsiyM",
+      title: "TVアニメ「蜘蛛ですが、なにか？」アニメノンクレジット視聴動画／後期OPテーマ「Bursty Greedy Spider」歌：鈴木このみ",
+      type: "creditless_op",
+      channelName: "KADOKAWAanime",
+      officialStatus: "official",
+      embeddable: true,
+    },
+    {
+      youtubeVideoId: "oDhY1lpLhu4",
+      title: "鈴木このみ「Bursty Greedy Spider」MV（TVアニメ「蜘蛛ですが、なにか？」後期OPテーマ）",
+      type: "music_video",
+      channelName: "KADOKAWAanime",
+      officialStatus: "official",
+      embeddable: true,
+    },
   ],
   "109261:OP:1": [
     {
@@ -337,6 +462,22 @@ export const curated2021WinterThemeVideos = {
       officialStatus: "official",
       embeddable: true,
     },
+    {
+      youtubeVideoId: "Z6D_zJ2gyg0",
+      title: "「五等分のカタチ」Music Video Full size (歌:中野家の五つ子)",
+      type: "full_music_video",
+      channelName: "ぽにきゃん-Anime PONY CANYON",
+      officialStatus: "official",
+      embeddable: true,
+    },
+    {
+      youtubeVideoId: "f0veKLMX1oA",
+      title: "TVアニメ『五等分の花嫁∬』ノンクレジットOP",
+      type: "creditless_op",
+      channelName: "TBSアニメ",
+      officialStatus: "official",
+      embeddable: true,
+    },
   ],
   "109261:ED:1": [
     {
@@ -344,6 +485,16 @@ export const curated2021WinterThemeVideos = {
       title: "TVアニメ『五等分の花嫁∬』ノンクレジットED",
       type: "creditless_ed",
       channelName: "TBSアニメ",
+      officialStatus: "official",
+      embeddable: true,
+    },
+  ],
+  "109261:ED:2": [
+    {
+      youtubeVideoId: "FnhT-yfZ7Xs",
+      title: "五等分の気持ち",
+      type: "art_track",
+      channelName: "Nakanoke no Itsutsugo - Topic",
       officialStatus: "official",
       embeddable: true,
     },
@@ -453,6 +604,8 @@ export const curated2021WinterThemeVideos = {
       officialStatus: "official",
       embeddable: true,
     },
+    {"youtubeVideoId":"B0Fwa9E1qaE","title":"麻痺（Jazz Arrange Ver.）","type":"art_track","channelName":"yama - Topic","officialStatus":"official","embeddable":false,"embedAvailability":"unknown","recordingId":"2-43-seiin-koukou-danshi-volley-bu-op-1-song-jazz-arrange"},
+    {"youtubeVideoId":"5Uu_Lf8IyzY","title":"麻痺 - From THE FIRST TAKE","type":"art_track","channelName":"yama - Topic","officialStatus":"official","embeddable":false,"embedAvailability":"unknown","recordingId":"2-43-seiin-koukou-danshi-volley-bu-op-1-song-first-take"},
   ],
   "113231:ED:1": [
     {
@@ -463,12 +616,13 @@ export const curated2021WinterThemeVideos = {
       officialStatus: "official",
       embeddable: true,
     },
+    {"youtubeVideoId":"oHMWUq4MoVs","title":"崎山蒼志が崎山蒼志を弾いてみた！～Undulation～","type":"live","channelName":"崎山蒼志","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},
   ],
   "117533:OP:1": [
     {
       youtubeVideoId: "_mqAuncADow",
       title: "POLYSICS 『走れ！ with ヤマサキセイヤ（キュウソネコカミ）』",
-      type: "other",
+      type: "music_video",
       channelName: "POLYSICS Official YouTube Channel",
       officialStatus: "official",
       embeddable: true,
@@ -486,6 +640,14 @@ export const curated2021WinterThemeVideos = {
   ],
   "108631:ED:1": [
     {
+      youtubeVideoId: "kAmi3qSJHIU",
+      title: "ClariS『Fight!!』Music Video【TVアニメ『はたらく細胞!!』エンディングテーマ】",
+      type: "music_video",
+      channelName: "ClariS Official YouTube Channel",
+      officialStatus: "official",
+      embeddable: true,
+    },
+    {
       youtubeVideoId: "cI6GbZdOgAw",
       title: "「はたらく細胞!!」WEB番宣［ED版］/2021年1月9日放送開始",
       type: "other",
@@ -493,6 +655,66 @@ export const curated2021WinterThemeVideos = {
       officialStatus: "official",
       embeddable: true,
     },
+  ],
+  "108631:IN:1": [
+    {
+      youtubeVideoId: "qIxD7kw152A",
+      title: "「はたらく細胞!!」OPテーマカップリング曲「ばんばん!ばばーん!」ショートMV│1月13日発売!!",
+      type: "music_video",
+      channelName: "アニプレックス チャンネル",
+      officialStatus: "official",
+      embeddable: true
+    }
+  ],
+  "117533:ED:1": [
+    {
+      youtubeVideoId: "j8ykOJ3jXQ8",
+      title: "上を向いて運ぼう",
+      type: "art_track",
+      channelName: "POLYSICS - Topic",
+      officialStatus: "official",
+      embeddable: true
+    }
+  ],
+  "109403:OP:1": [
+    {
+      youtubeVideoId: "HeedvFzagSk",
+      title: "つぎはぎもよう",
+      type: "art_track",
+      channelName: "nano.RIPE - Topic",
+      officialStatus: "official",
+      embeddable: true
+    }
+  ],
+  "109403:ED:1": [
+    {
+      youtubeVideoId: "efJ9ZlYZZ6A",
+      title: "ただいま",
+      type: "art_track",
+      channelName: "宮内れんげ (CV.小岩井ことり)、一条 蛍 (CV.村川梨衣)、越谷夏海 (CV.佐倉綾音)、越谷小鞠 (CV.阿澄佳奈) - Topic",
+      officialStatus: "official",
+      embeddable: true
+    }
+  ],
+  "114085:OP:1": [
+    {
+      youtubeVideoId: "W3jjWd8T-WY",
+      title: "小野大輔 - ケモノミチ（TVアニメ「怪物事変」オープニング主題歌）",
+      type: "music_video",
+      channelName: "小野大輔 Official Artist Channel",
+      officialStatus: "official",
+      embeddable: true
+    }
+  ],
+  "114085:ED:1": [
+    {
+      youtubeVideoId: "Wrn7R4XE19M",
+      title: "佐咲紗花｜ 『－標－』MV Full size",
+      type: "music_video",
+      channelName: "佐咲紗花 Official Channel",
+      officialStatus: "official",
+      embeddable: true
+    }
   ],
   "114307:OP:1": [
     {
@@ -514,6 +736,42 @@ export const curated2021WinterThemeVideos = {
       embeddable: true,
     },
   ],
+  "114307:OP:2": [
+    {
+      youtubeVideoId: "FLuFszuT8xM",
+      title: "藍井エイル「鼓動」 Music Video (TVアニメ「バック・アロウ」2ndオープニングテーマ）",
+      type: "music_video",
+      channelName: "藍井エイル Official YouTube Channel",
+      officialStatus: "official",
+      embeddable: true,
+    },
+    {
+      youtubeVideoId: "EkU64o7MMKs",
+      title: "藍井エイル「鼓動」／ TVアニメ『バック・アロウ』ノンクレジットオープニング（2ndクール）【期間限定公開】",
+      type: "creditless_op",
+      channelName: "アニプレックス チャンネル",
+      officialStatus: "official",
+      embeddable: true,
+    },
+  ],
+  "114307:ED:2": [
+    {
+      youtubeVideoId: "Vy9cRFN1DtI",
+      title: "FLOW 『United Sparrows』MUSIC VIDEO",
+      type: "music_video",
+      channelName: "FLOW Official YouTube Channel",
+      officialStatus: "official",
+      embeddable: true,
+    },
+    {
+      youtubeVideoId: "u9f8-rSKm9Y",
+      title: "【期間限定公開】TVアニメ『バック・アロウ』ノンクレジットエンディング（2ndクール）／FLOW「United Sparrows」",
+      type: "creditless_ed",
+      channelName: "アニプレックス チャンネル",
+      officialStatus: "official",
+      embeddable: true,
+    },
+  ],
   "114194:OP:1": [
     {
       youtubeVideoId: "LJBHySglLXU",
@@ -524,6 +782,14 @@ export const curated2021WinterThemeVideos = {
       officialStatus: "official",
       embeddable: true,
     },
+    {
+      youtubeVideoId: "dy90tA3TT1c",
+      title: "YOASOBI「怪物」Official Music Video　(YOASOBI - Monster)",
+      type: "full_music_video",
+      channelName: "YOASOBI",
+      officialStatus: "official",
+      embeddable: true,
+    },
   ],
   "114194:ED:1": [
     {
@@ -531,6 +797,24 @@ export const curated2021WinterThemeVideos = {
       title:
         "TVアニメ「BEASTARS」 第2期エンディング　ノンクレジット版／YOASOBI　『優しい彗星』",
       type: "creditless_ed",
+      channelName: "TOHO animation チャンネル",
+      officialStatus: "official",
+      embeddable: true,
+    },
+    {
+      youtubeVideoId: "VyvhvlYvRnc",
+      title: "YOASOBI「優しい彗星」Official Music Video　(YOASOBI - Comet)",
+      type: "full_music_video",
+      channelName: "YOASOBI",
+      officialStatus: "official",
+      embeddable: true,
+    },
+  ],
+  "114194:ED:2": [
+    {
+      youtubeVideoId: "XRJLdDGzPgA",
+      title: "TVアニメ「BEASTARS」 第2期 YOASOBI 『怪物』スペシャルエンディング",
+      type: "other",
       channelName: "TOHO animation チャンネル",
       officialStatus: "official",
       embeddable: true,
@@ -547,6 +831,26 @@ export const curated2021WinterThemeVideos = {
       embeddable: true,
     },
   ],
+  "108465:OP:1": [
+    {
+      youtubeVideoId: "hZ6TnKvB2rc",
+      title: "旅人の唄",
+      type: "art_track",
+      channelName: "Yuiko Ohara - Topic",
+      officialStatus: "official",
+      embeddable: true,
+    },
+  ],
+  "108465:OP:2": [
+    {
+      youtubeVideoId: "NEh3-Qmq1LE",
+      title: "目覚めの唄",
+      type: "art_track",
+      channelName: "Yuiko Ohara - Topic",
+      officialStatus: "official",
+      embeddable: true,
+    },
+  ],
   "108465:ED:1": [
     {
       youtubeVideoId: "3mLWoJF17U4",
@@ -554,6 +858,14 @@ export const curated2021WinterThemeVideos = {
         "『無職転生 ～異世界行ったら本気だす～』ノンクレジットEDムービー／EDテーマ：「オンリー」大原ゆい子",
       type: "creditless_ed",
       channelName: "TOHO animation チャンネル",
+      officialStatus: "official",
+      embeddable: true,
+    },
+    {
+      youtubeVideoId: "ebaaWokWIo4",
+      title: "オンリー",
+      type: "art_track",
+      channelName: "Yuiko Ohara - Topic",
       officialStatus: "official",
       embeddable: true,
     },
@@ -567,6 +879,22 @@ export const curated2021WinterThemeVideos = {
       officialStatus: "official",
       embeddable: true,
     },
+    {
+      youtubeVideoId: "YfXVuKr6AjM",
+      title: "秋山黄色『アイデンティティ』",
+      type: "music_video",
+      channelName: "秋山黄色",
+      officialStatus: "official",
+      embeddable: true,
+    },
+    {
+      youtubeVideoId: "wEd2_jvpFW4",
+      title: "秋山黄色 『アイデンティティ』 Lyric Video (short ver.)",
+      type: "lyric_video",
+      channelName: "秋山黄色",
+      officialStatus: "official",
+      embeddable: true,
+    },
   ],
   "108725:ED:1": [
     {
@@ -574,6 +902,30 @@ export const curated2021WinterThemeVideos = {
       title: "TVアニメ「約束のネバーランド」Season2 ノンクレジットエンディング",
       type: "creditless_ed",
       channelName: "アニプレックス チャンネル",
+      officialStatus: "official",
+      embeddable: true,
+    },
+    {
+      youtubeVideoId: "l5MOVg9eMe4",
+      title: "Myuk - 魔法 (Official Audio / Lyric Video)",
+      type: "lyric_video",
+      channelName: "Myuk",
+      officialStatus: "official",
+      embeddable: true,
+    },
+    {
+      youtubeVideoId: "7l3iMvB9ELQ",
+      title: "Myuk – 魔法 (TVアニメ「約束のネバーランド」Season 2 Collaboration Music Video)",
+      type: "music_video",
+      channelName: "Myuk",
+      officialStatus: "official",
+      embeddable: true,
+    },
+    {
+      youtubeVideoId: "wWO6bdVrmak",
+      title: "Myuk – 魔法 (Official Video) / Waboku × A-1 Pictures “BATEN KAITOS”",
+      type: "music_video",
+      channelName: "Myuk",
       officialStatus: "official",
       embeddable: true,
     },
@@ -622,12 +974,107 @@ export const curated2021WinterThemeVideos = {
       embeddable: true,
     },
   ],
+  "113936:OP:1": [
+    {
+      youtubeVideoId: "34wlhlQpidc",
+      title: "ＴＶアニメ 「Ｄｒ．ＳＴＯＮＥ」 第2期OP＜楽園＞ノンクレジット映像【毎週木曜日 好評放送＆配信中！】",
+      type: "creditless_op",
+      channelName: "TOHO animation チャンネル",
+      officialStatus: "official",
+      embeddable: true,
+    },
+    {
+      youtubeVideoId: "TzlecLbdo-s",
+      title: "フジファブリック 『楽園』(TVアニメ「Ｄｒ．ＳＴＯＮＥ」第2期オープニングテーマ)",
+      type: "full_music_video",
+      channelName: "フジファブリック Official Channel",
+      officialStatus: "official",
+      embeddable: true,
+    },
+  ],
+  "113936:ED:1": [
+    {
+      youtubeVideoId: "-DjXNR6oIjY",
+      title: "ＴＶアニメ 「Ｄｒ．ＳＴＯＮＥ」 第2期ED＜声?＞ノンクレジット映像【毎週木曜日 好評放送＆配信中！】",
+      type: "creditless_ed",
+      channelName: "TOHO animation チャンネル",
+      officialStatus: "official",
+      embeddable: true,
+    },
+    {
+      youtubeVideoId: "08uZkbpF1N8",
+      title: "はてな「声?」（こえだけが）Music Video（フル）TVアニメ「Ｄｒ．ＳＴＯＮＥ」エンディングテーマ",
+      type: "full_music_video",
+      channelName: "はてな Official YouTube Channel",
+      officialStatus: "official",
+      embeddable: true,
+    },
+    {
+      youtubeVideoId: "hug2ob0VNiQ",
+      title: "はてな「声?」（こえだけが）-Remix ver.- Music Video（フル）",
+      type: "full_music_video",
+      channelName: "はてな Official YouTube Channel",
+      officialStatus: "official",
+      embeddable: true,
+      recordingId: "dr-stone-stone-wars-ed-1-song-remix",
+    },
+  ],
+  "113936:IN:1": [
+    {
+      youtubeVideoId: "DwrBN5gNGXo",
+      title: "「One Small Step」〜ＴＶアニメ 「Ｄｒ．ＳＴＯＮＥ」 オリジナルサウンドトラック２　発売予告〜",
+      type: "pv",
+      channelName: "TOHO animation チャンネル",
+      officialStatus: "official",
+      embeddable: true,
+    },
+  ],
+  "113936:IN:2": [
+    {
+      youtubeVideoId: "iOQawGuWnIQ",
+      title: "PELICAN FANCLUB 『三原色』Music Video",
+      type: "full_music_video",
+      channelName: "PELICAN FANCLUB OFFICIAL",
+      officialStatus: "official",
+      embeddable: true,
+    },
+  ],
+  "113936:IN:3": [
+    {
+      youtubeVideoId: "6uv_H2-xucY",
+      title: "The Plan",
+      type: "art_track",
+      channelName: "Chica - Topic",
+      officialStatus: "official",
+      embeddable: true,
+      recordingId: "dr-stone-stone-wars-in-3-song-ost3",
+    },
+  ],
   "114862:OP:1": [
     {
       youtubeVideoId: "edlLhh8qVxM",
       title: "BAND-MAID / Different (Official Music Video)",
       type: "full_music_video",
       channelName: "BAND-MAID",
+      officialStatus: "official",
+      embeddable: true,
+    },
+    {
+      youtubeVideoId: "zjYoCChnNjw",
+      title: "Different (89sec Ver.)",
+      type: "art_track",
+      channelName: "BAND-MAID - Topic",
+      officialStatus: "official",
+      embeddable: true,
+      recordingId: "log-horizon-entaku-houkai-op-1-song-89sec",
+    },
+  ],
+  "114862:ED:1": [
+    {
+      youtubeVideoId: "sozLISPTRos",
+      title: "大城美友「ブルー・ホライズン」MUSIC VIDEO",
+      type: "music_video",
+      channelName: "crownrecord",
       officialStatus: "official",
       embeddable: true,
     },
@@ -643,6 +1090,17 @@ export const curated2021WinterThemeVideos = {
       embeddable: true,
     },
   ],
+  "124845:IN:1": [
+    {
+      youtubeVideoId: "xvrCpR_keJg",
+      title: "アネモネリア『anemos』-Short Music Video-",
+      type: "music_video",
+      channelName: "Sony Music (Japan)",
+      officialStatus: "official",
+      embeddable: false,
+      embedAvailability: "unknown",
+    },
+  ],
   "121681:OP:1": [
     {
       youtubeVideoId: "dJG6unzlXJk",
@@ -654,6 +1112,34 @@ export const curated2021WinterThemeVideos = {
       embeddable: true,
     },
   ],
+  "114087:OP:1": [
+    {
+      youtubeVideoId: "sEu3GWw-TbI",
+      title: "アニメ「ワールドトリガー」2ndシーズン オープニング ノンテロップ映像（曲：TOMORROW X TOGETHER「Force」）",
+      type: "creditless_op",
+      channelName: "東映アニメーション公式YouTubeチャンネル",
+      officialStatus: "official",
+      embeddable: true,
+    },
+    {
+      youtubeVideoId: "KCEohrmozm0",
+      title: "Force",
+      type: "art_track",
+      channelName: "TOMORROW BY TOGETHER - Topic",
+      officialStatus: "official",
+      embeddable: true,
+      recordingId: "world-trigger-2nd-season-op-1-song-digital",
+    },
+    {
+      youtubeVideoId: "isk0R5G0rio",
+      title: "TOMORROW X TOGETHER - Force  / THE FIRST TAKE",
+      type: "live",
+      channelName: "THE FIRST TAKE",
+      officialStatus: "official",
+      embeddable: true,
+      recordingId: "world-trigger-2nd-season-op-1-song-the-first-take",
+    },
+  ],
   "114087:ED:1": [
     {
       youtubeVideoId: "Z0H9Ce3ZzAk",
@@ -661,6 +1147,14 @@ export const curated2021WinterThemeVideos = {
         "アニメ「ワールドトリガー」2ndシーズン エンディング ノンテロップ映像（曲：神はサイコロを振らない「未来永劫」）",
       type: "creditless_ed",
       channelName: "東映アニメーション公式YouTubeチャンネル",
+      officialStatus: "official",
+      embeddable: true,
+    },
+    {
+      youtubeVideoId: "iqq0odSeyy4",
+      title: "神はサイコロを振らない - 「未来永劫」【Official Music Video】",
+      type: "music_video",
+      channelName: "KAMISAIVEVO",
       officialStatus: "official",
       embeddable: true,
     },
