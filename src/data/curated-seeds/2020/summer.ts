@@ -2984,18 +2984,18 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
           "verifiedAt": "2026-09-02"
         },
         {
-          "label": "KADOKAWAanime 官方影片",
           "url": "https://www.youtube.com/watch?v=uaRnwnmqrws",
-          "language": "ja",
+          "label": "KADOKAWA 官方完整MV及發行資料",
           "role": "first_party",
-          "verifiedAt": "2026-09-02"
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://re-zero-anime.jp/tv/music/tv2.html",
-          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "label": "第2期官網主題曲、發行及逐曲音樂資料",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/Re%3A%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B%E7%9A%84%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB_%28%E5%8B%95%E7%95%AB%29",
@@ -3010,6 +3010,34 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.konomi-suzuki.net/posts/discography/haybwp",
+          "label": "鈴木このみ官網日本CD曲序及品番",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1523974305",
+          "label": "Apple Music 香港區發行日期及曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1523974306",
+          "label": "Apple Music 香港區曲目頁",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1523974308",
+          "label": "Apple Music 香港區曲目頁",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
@@ -3098,21 +3126,187 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
             "https://re-zero-anime.jp/tv/music/tv2.html"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.konomi-suzuki.net/posts/discography/haybwp"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "re-zero-kara-hajimeru-isekai-seikatsu-2nd-season-op-1-song-single"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.konomi-suzuki.net/posts/discography/haybwp"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "re-zero-kara-hajimeru-isekai-seikatsu-2nd-season-op-1-song-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.konomi-suzuki.net/posts/discography/haybwp"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "zmcz-14011"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1523974306"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1523974306"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1523974308"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1523974308"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.konomi-suzuki.net/posts/discography/haybwp",
+            "https://music.apple.com/hk/album/1523974305"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1523974305"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "recordings",
-            "releases",
-            "platform_links"
+            "recording_format",
+            "platform_availability"
           ],
-          "note": "本期常規用途、原名與正式名義已核，確認2020夏；創作資料依同頁逐職位記錄。",
-          "resumeWhen": "待本曲可直接核對的音源、發行品及平台資料到位再補，不由現有影片推錄音版本或刷新未讀日期。",
-          "checkedAt": "2026-10-24"
+          "note": "原單曲和伴奏已按曲序登記。後半第40、41話的同曲用途另在後半動畫頁列出。",
+          "resumeWhen": "待權利方確認原播剪輯與各發行音源的關係，或平台提供地區播放資料。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "recordings": [
+        {
+          "id": "re-zero-kara-hajimeru-isekai-seikatsu-2nd-season-op-1-song-single",
+          "title": "Realize",
+          "kind": "vocal",
+          "format": "unknown"
+        },
+        {
+          "id": "re-zero-kara-hajimeru-isekai-seikatsu-2nd-season-op-1-song-instrumental",
+          "title": "Realize (instrumental)",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "zmcz-14011",
+          "title": "Realize",
+          "type": "single",
+          "date": {
+            "value": "2020-08-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "鈴木このみ",
+          "edition": "日本版 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Realize",
+              "position": 1,
+              "recordingId": "re-zero-kara-hajimeru-isekai-seikatsu-2nd-season-op-1-song-single"
+            },
+            {
+              "title": "Realize (instrumental)",
+              "position": 3,
+              "recordingId": "re-zero-kara-hajimeru-isekai-seikatsu-2nd-season-op-1-song-instrumental"
+            }
+          ],
+          "label": "KADOKAWA",
+          "catalogNumber": "ZMCZ-14011"
+        },
+        {
+          "id": "apple-hk-1523974305",
+          "title": "TVアニメ「Re:ゼロから始める異世界生活」2nd seasonオープニングテーマ「Realize」",
+          "type": "ep",
+          "date": {
+            "value": "2020-08-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "鈴木このみ",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Realize",
+              "position": 1,
+              "recordingId": "re-zero-kara-hajimeru-isekai-seikatsu-2nd-season-op-1-song-single"
+            },
+            {
+              "title": "Realize (Instrumental)",
+              "position": 3,
+              "recordingId": "re-zero-kara-hajimeru-isekai-seikatsu-2nd-season-op-1-song-instrumental"
+            }
+          ],
+          "label": "KADOKAWA"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Apple Music 香港｜Realize",
+          "url": "https://music.apple.com/hk/song/1523974306",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1523974305",
+          "verifiedAt": "2026-11-15",
+          "availability": "unknown",
+          "recordingId": "re-zero-kara-hajimeru-isekai-seikatsu-2nd-season-op-1-song-single"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "Apple Music 香港｜Realize (Instrumental)",
+          "url": "https://music.apple.com/hk/song/1523974308",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1523974305",
+          "verifiedAt": "2026-11-15",
+          "availability": "unknown",
+          "recordingId": "re-zero-kara-hajimeru-isekai-seikatsu-2nd-season-op-1-song-instrumental"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -3149,10 +3343,10 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
         },
         {
           "url": "https://re-zero-anime.jp/tv/music/tv2.html",
-          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "label": "第2期官網主題曲、發行及逐曲音樂資料",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/Re%3A%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B%E7%9A%84%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB_%28%E5%8B%95%E7%95%AB%29",
@@ -3167,6 +3361,48 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://open.spotify.com/intl-ja/album/2zSO9g5QFpENCG5u11WaOF",
+          "label": "首版曲序與伴奏資料交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-14"
+        },
+        {
+          "url": "https://musicbrainz.org/cdtoc/rWXc04MGv4hFLlwQB2CF8zh.Nxg-",
+          "label": "ZMCZ-14012 實體CD曲序交叉核對",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1523975119",
+          "label": "Apple Music 香港區發行日期及曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1523975120",
+          "label": "Apple Music 香港區曲目頁",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1523975122",
+          "label": "Apple Music 香港區曲目頁",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=PN0Nu9oDAJw",
+          "label": "KADOKAWA 官方動畫版MV，影片剪輯不推定為電視音源",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
@@ -3243,24 +3479,214 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
             "https://re-zero-anime.jp/tv/music/tv2.html"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://re-zero-anime.jp/tv/music/tv2.html"
+          ],
+          "verifiedAt": "2026-11-14",
+          "targetId": "re-zero-kara-hajimeru-isekai-seikatsu-2nd-season-part-2-ed-1-song-single"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://re-zero-anime.jp/tv/music/tv2.html",
+            "https://open.spotify.com/intl-ja/album/2zSO9g5QFpENCG5u11WaOF"
+          ],
+          "verifiedAt": "2026-11-14",
+          "targetId": "zmcz-14012"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://re-zero-anime.jp/tv/music/tv2.html",
+            "https://musicbrainz.org/cdtoc/rWXc04MGv4hFLlwQB2CF8zh.Nxg-"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "re-zero-kara-hajimeru-isekai-seikatsu-2nd-season-part-2-ed-1-song-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://re-zero-anime.jp/tv/music/tv2.html",
+            "https://musicbrainz.org/cdtoc/rWXc04MGv4hFLlwQB2CF8zh.Nxg-"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "zmcz-14012"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1523975120"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1523975120"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1523975122"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1523975122"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://re-zero-anime.jp/tv/music/tv2.html",
+            "https://music.apple.com/hk/album/1523975119"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1523975119"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=PN0Nu9oDAJw"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "PN0Nu9oDAJw"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "recordings",
-            "releases",
-            "platform_links"
+            "recording_format",
+            "platform_availability"
           ],
-          "note": "本期常規用途、原名與正式名義已核，確認2020夏；創作資料依同頁逐職位記錄。",
-          "resumeWhen": "待本曲可直接核對的音源、發行品及平台資料到位再補，不由現有影片推錄音版本或刷新未讀日期。",
-          "checkedAt": "2026-10-24"
+          "note": "第二季前後半沿用 nonoc 同曲與已核發行資料；原播剪輯仍待音源對照。",
+          "resumeWhen": "待權利方確認原播剪輯與各發行音源的關係，或平台提供地區播放資料。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "recordings": [
+        {
+          "id": "re-zero-kara-hajimeru-isekai-seikatsu-2nd-season-part-2-ed-1-song-single",
+          "title": "Memento",
+          "kind": "vocal",
+          "format": "unknown"
+        },
+        {
+          "id": "re-zero-kara-hajimeru-isekai-seikatsu-2nd-season-part-2-ed-1-song-instrumental",
+          "title": "Memento (instrumental)",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "zmcz-14012",
+          "title": "Memento",
+          "type": "single",
+          "artistDisplayName": "nonoc",
+          "date": {
+            "value": "2020-09-02",
+            "precision": "day"
+          },
+          "region": "JP",
+          "edition": "單曲CD",
+          "tracks": [
+            {
+              "title": "Memento",
+              "position": 1,
+              "recordingId": "re-zero-kara-hajimeru-isekai-seikatsu-2nd-season-part-2-ed-1-song-single"
+            },
+            {
+              "title": "Memento (instrumental)",
+              "position": 3,
+              "recordingId": "re-zero-kara-hajimeru-isekai-seikatsu-2nd-season-part-2-ed-1-song-instrumental"
+            }
+          ],
+          "label": "KADOKAWA",
+          "catalogNumber": "ZMCZ-14012"
+        },
+        {
+          "id": "apple-hk-1523975119",
+          "title": "TVアニメ「Re:ゼロから始める異世界生活」2nd seasonエンディングテーマ「Memento」",
+          "type": "ep",
+          "date": {
+            "value": "2020-09-02",
+            "precision": "day"
+          },
+          "artistDisplayName": "nonoc",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Memento",
+              "position": 1,
+              "recordingId": "re-zero-kara-hajimeru-isekai-seikatsu-2nd-season-part-2-ed-1-song-single"
+            },
+            {
+              "title": "Memento(instrumental)",
+              "position": 3,
+              "recordingId": "re-zero-kara-hajimeru-isekai-seikatsu-2nd-season-part-2-ed-1-song-instrumental"
+            }
+          ],
+          "label": "KADOKAWA"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Apple Music 香港｜Memento",
+          "url": "https://music.apple.com/hk/song/1523975120",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1523975119",
+          "verifiedAt": "2026-11-15",
+          "availability": "unknown",
+          "recordingId": "re-zero-kara-hajimeru-isekai-seikatsu-2nd-season-part-2-ed-1-song-single"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "Apple Music 香港｜Memento(instrumental)",
+          "url": "https://music.apple.com/hk/song/1523975122",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1523975119",
+          "verifiedAt": "2026-11-15",
+          "availability": "unknown",
+          "recordingId": "re-zero-kara-hajimeru-isekai-seikatsu-2nd-season-part-2-ed-1-song-instrumental"
+        }
+      ]
     }
   ],
-  "metadataVerifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-11-15",
   "metadataSources": [
     {
       "url": "https://re-zero-anime.jp/tv/news/index_3.html",
@@ -3275,6 +3701,13 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
       "role": "broadcast_cross_check",
       "language": "zh-Hant",
       "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://www.linetv.tw/drama/11389/eps/1",
+      "label": "台灣授權平台的繁中作品名及第二季集數",
+      "role": "localized_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-11-15"
     }
   ],
   "editorialWeekday": 3,

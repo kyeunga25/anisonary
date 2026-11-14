@@ -256,13 +256,13 @@ const reviewedThemeSources: readonly ReviewedThemeSource[] = [
   {
     key: "119123:OP:1",
     label: "《裝甲娘戰機》第一方歌曲資料：OP1 用途與演唱者",
-    firstPartyUrl: "https://soukou-musume-senki.com/",
+    firstPartyUrl: "https://rikakoaida.com/news/645/",
     crossCheckUrl: "https://animethemes.moe/anime/soukou_musume_senki",
   },
   {
     key: "119123:ED:1",
     label: "《裝甲娘戰機》第一方歌曲資料：ED1 用途與演唱者",
-    firstPartyUrl: "https://soukou-musume-senki.com/",
+    firstPartyUrl: "https://www.teichiku.co.jp/artist/kano/discography/TEI-170.html",
     crossCheckUrl: "https://animethemes.moe/anime/soukou_musume_senki",
   },
   {

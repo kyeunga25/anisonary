@@ -601,6 +601,7 @@ export const curated2020FallThemeVideos = {
     },
   ],
   "115069:OP:1": [
+    {"youtubeVideoId":"_wcGvZuF2AE","title":"「D4DJ First Mix」OPENING (No Credits)","type":"creditless_op","channelName":"D4DJ English Channel","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},
     {
       youtubeVideoId: "S20dhvVyKDc",
       title: "TVアニメ「D4DJ First Mix」OP　『ぐるぐるDJ TURN!!』",
@@ -611,6 +612,7 @@ export const curated2020FallThemeVideos = {
     },
   ],
   "115069:ED:1": [
+    {"youtubeVideoId":"jESQyxjhzb8","title":"D4DJ First Mix - Ending | WOW WAR TONIGHT ~Toki ni wa Okose yo Movement~","type":"other","channelName":"Crunchyroll","officialStatus":"licensed","embeddable":false,"embedAvailability":"unknown"},
     {
       youtubeVideoId: "Y6sQxvrQMEc",
       title:
@@ -621,6 +623,23 @@ export const curated2020FallThemeVideos = {
       embeddable: true,
     },
   ],
+  "115069:ED:2": [{"youtubeVideoId":"rPOnNIIZvL4","title":"「D4DJ First Mix」Ending Performance｜終回片尾串燒","type":"other","channelName":"D4DJ English Channel","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "115069:ED:3": [{"youtubeVideoId":"rPOnNIIZvL4","title":"「D4DJ First Mix」Ending Performance｜終回片尾串燒","type":"other","channelName":"D4DJ English Channel","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "115069:ED:4": [{"youtubeVideoId":"rPOnNIIZvL4","title":"「D4DJ First Mix」Ending Performance｜終回片尾串燒","type":"other","channelName":"D4DJ English Channel","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "115069:IN:1": [{"youtubeVideoId":"TDo2ntweRcM","title":"Happy Around!「HONEST -happy a word-」from「D4DJ First Mix」","type":"other","channelName":"D4DJ English Channel","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "115069:IN:2": [{"youtubeVideoId":"rPOnNIIZvL4","title":"「D4DJ First Mix」Ending Performance｜終回演出署名","type":"other","channelName":"D4DJ English Channel","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},{"youtubeVideoId":"iRwKU_ZhBsM","title":"ABSOLUTE｜第13話官方獨立演出","type":"other","channelName":"D4DJ English Channel","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "115069:IN:3": [{"youtubeVideoId":"Y6sQxvrQMEc","title":"WOW WAR TONIGHT｜官方劇中演出","type":"other","channelName":"D4DJ English Channel","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "115069:IN:4": [{"youtubeVideoId":"Zi7Dt4Gdicg","title":"電乱★カウントダウン｜第1話官方演出","type":"other","channelName":"D4DJチャンネル","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "115069:IN:6": [{"youtubeVideoId":"NyoHG9rrWlk","title":"Feeling Good ↑↑｜D4DJ官方動畫演出","type":"other","channelName":"D4DJ English Channel","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "115069:IN:7": [{"youtubeVideoId":"43z-3ZzOgyA","title":"Make My Style｜第6話官方演出","type":"other","channelName":"D4DJチャンネル","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "115069:IN:8": [{"youtubeVideoId":"W4OKfLQlw2Y","title":"ぎぶみーAwesome!!!!｜第5話官方演出","type":"other","channelName":"D4DJチャンネル","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "115069:IN:10": [{"youtubeVideoId":"Wb_5wR68uPA","title":"Happy Around Days｜第8話官方演出","type":"other","channelName":"D4DJチャンネル","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "115069:IN:13": [{"youtubeVideoId":"CkRVv3ZbYR0","title":"Brand New World｜第10話官方演出","type":"other","channelName":"D4DJ English Channel","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "115069:IN:9": [{"youtubeVideoId":"h1ZcgoiJYss","title":"Let’s do the ‘Big-Bang!’ feat. RINKU｜第7話官方演出","type":"other","channelName":"D4DJ English Channel","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "115069:IN:12": [{"youtubeVideoId":"OenYcMoYSVE","title":"Here’s the light｜第9話官方演出","type":"other","channelName":"D4DJチャンネル","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "115069:IN:14": [{"youtubeVideoId":"9mrC93tL0uk","title":"暁｜第10話官方演出","type":"other","channelName":"D4DJチャンネル","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "115069:IN:15": [{"youtubeVideoId":"MbP-XtqlMQY","title":"暁 (Fruits Mix)｜第11話官方演出","type":"other","channelName":"D4DJ English Channel","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "115069:IN:16": [{"youtubeVideoId":"0cXmQ5vlHQY","title":"HONEST -conflict01-｜第12話官方演出","type":"other","channelName":"D4DJ English Channel","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
   "110277:OP:1": [
     {
       youtubeVideoId: "6TolbTZXDjI",
