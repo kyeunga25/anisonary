@@ -4779,6 +4779,13 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/9907/",
+          "label": "マーベラス原單曲：創作、歌唱及卡拉OK曲位",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-14"
         }
       ],
       "credits": [
@@ -4969,28 +4976,71 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-07",
           "targetId": "https://www.marv.jp/titles/mc/10027/"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9907/"
+          ],
+          "verifiedAt": "2026-11-14",
+          "targetId": "yugioh-sevens-op-1-song-cd-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9907/"
+          ],
+          "verifiedAt": "2026-11-14",
+          "targetId": "yugioh-sevens-op-1-song-cd-karaoke"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9907/"
+          ],
+          "verifiedAt": "2026-11-14"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "arrangement",
-            "composition",
-            "lyrics",
-            "platform_links"
+            "recording_format",
+            "platform_links",
+            "platform_availability"
           ],
-          "note": "逐曲收錄、音源原標及官方影片保存；其他音源規格、個別實唱或地區播放未有直接資料時留空。校歌版本的實際原TV署名與商品收錄分開。",
-          "resumeWhen": "原權利方新的逐曲音源、實唱、影片或地區播放資料可讀時補相應欄位。",
-          "checkedAt": "2026-11-07"
+          "note": "原CD歌唱與伴奏已配對；既有TV剪輯保留。",
+          "resumeWhen": "權利方明示逐版長度或平台資料時再補。",
+          "checkedAt": "2026-11-14"
         }
       ],
-      "lastVerifiedAt": "2026-11-07",
+      "lastVerifiedAt": "2026-11-14",
       "recordings": [
         {
           "id": "yugioh-sevens-op-1-ost-one-tv",
           "title": "ナナナナナナナ（TVサイズ）",
           "format": "tv",
           "kind": "vocal"
+        },
+        {
+          "id": "yugioh-sevens-op-1-song-cd-vocal",
+          "title": "ナナナナナナナ",
+          "format": "unknown",
+          "kind": "vocal"
+        },
+        {
+          "id": "yugioh-sevens-op-1-song-cd-karaoke",
+          "title": "ナナナナナナナ（オリジナル・カラオケ）",
+          "format": "unknown",
+          "kind": "instrumental"
         }
       ],
       "releases": [
@@ -5011,12 +5061,14 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             {
               "title": "ナナナナナナナ",
               "position": 1,
-              "disc": 1
+              "disc": 1,
+              "recordingId": "yugioh-sevens-op-1-song-cd-vocal"
             },
             {
               "title": "ナナナナナナナ（オリジナル・カラオケ）",
               "position": 3,
-              "disc": 1
+              "disc": 1,
+              "recordingId": "yugioh-sevens-op-1-song-cd-karaoke"
             }
           ]
         },
@@ -5037,12 +5089,14 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             {
               "title": "ナナナナナナナ",
               "position": 1,
-              "disc": 1
+              "disc": 1,
+              "recordingId": "yugioh-sevens-op-1-song-cd-vocal"
             },
             {
               "title": "ナナナナナナナ（オリジナル・カラオケ）",
               "position": 3,
-              "disc": 1
+              "disc": 1,
+              "recordingId": "yugioh-sevens-op-1-song-cd-karaoke"
             }
           ]
         },
@@ -5441,10 +5495,10 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
         },
         {
           "url": "https://www.marv.jp/titles/mc/9909/",
-          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "label": "マーベラス原單曲：創作、歌唱及卡拉OK曲位",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-07"
+          "verifiedAt": "2026-11-14"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E9%81%8A%E6%88%B2%E7%8E%8BSEVENS",
@@ -5473,6 +5527,13 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=WHM8Iasi3WE",
+          "label": "權利方公開歌曲影片",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-14"
         }
       ],
       "credits": [
@@ -5630,6 +5691,41 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-07",
           "targetId": "https://www.marv.jp/titles/mc/10027/"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9909/"
+          ],
+          "verifiedAt": "2026-11-14",
+          "targetId": "yugioh-sevens-ed-1-song-cd-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9909/"
+          ],
+          "verifiedAt": "2026-11-14",
+          "targetId": "yugioh-sevens-ed-1-song-cd-karaoke"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=WHM8Iasi3WE",
+            "https://www.marv.jp/titles/mc/9909/"
+          ],
+          "verifiedAt": "2026-11-14",
+          "targetId": "WHM8Iasi3WE"
         }
       ],
       "followUp": [
@@ -5649,6 +5745,18 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "title": "ゴーハ第七小学校校歌（TVサイズ）",
           "format": "tv",
           "kind": "character"
+        },
+        {
+          "id": "yugioh-sevens-ed-1-song-cd-vocal",
+          "title": "ゴーハ第7小学校校歌",
+          "format": "unknown",
+          "kind": "character"
+        },
+        {
+          "id": "yugioh-sevens-ed-1-song-cd-karaoke",
+          "title": "ゴーハ第7小学校校歌（オリジナル・カラオケ）",
+          "format": "unknown",
+          "kind": "instrumental"
         }
       ],
       "releases": [
@@ -5669,12 +5777,14 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             {
               "title": "ゴーハ第7小学校校歌",
               "position": 1,
-              "disc": 1
+              "disc": 1,
+              "recordingId": "yugioh-sevens-ed-1-song-cd-vocal"
             },
             {
               "title": "ゴーハ第7小学校校歌（オリジナル・カラオケ）",
               "position": 3,
-              "disc": 1
+              "disc": 1,
+              "recordingId": "yugioh-sevens-ed-1-song-cd-karaoke"
             }
           ]
         },
@@ -5757,10 +5867,10 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
         },
         {
           "url": "https://www.marv.jp/titles/mc/9909/",
-          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "label": "マーベラス原單曲：第13話特殊片尾及演唱／伴奏曲位",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-07"
+          "verifiedAt": "2026-11-14"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E9%81%8A%E6%88%B2%E7%8E%8BSEVENS",
@@ -5897,20 +6007,44 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-07",
           "targetId": "https://www.marv.jp/titles/mc/9909/"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9909/"
+          ],
+          "verifiedAt": "2026-11-14",
+          "targetId": "yugioh-sevens-ed-2-song-single-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9909/"
+          ],
+          "verifiedAt": "2026-11-14",
+          "targetId": "yugioh-sevens-ed-2-song-single-karaoke"
         }
       ],
       "followUp": [
         {
           "fields": [
+            "recording_format",
+            "official_video",
             "platform_links",
-            "recordings"
+            "platform_availability"
           ],
-          "note": "逐曲收錄、音源原標及官方影片保存；其他音源規格、個別實唱或地區播放未有直接資料時留空。校歌版本的實際原TV署名與商品收錄分開。",
-          "resumeWhen": "原權利方新的逐曲音源、實唱、影片或地區播放資料可讀時補相應欄位。",
-          "checkedAt": "2026-11-07"
+          "note": "原單曲兩個曲位分別連至演唱與卡拉OK；第13話剪輯待核。",
+          "resumeWhen": "權利方明示原播剪輯或合規入口時再補。",
+          "checkedAt": "2026-11-14"
         }
       ],
-      "lastVerifiedAt": "2026-11-07",
+      "lastVerifiedAt": "2026-11-14",
       "usageLabel": "第13話特殊片尾曲",
       "releases": [
         {
@@ -5930,12 +6064,14 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             {
               "title": "ミニスケープ",
               "position": 2,
-              "disc": 1
+              "disc": 1,
+              "recordingId": "yugioh-sevens-ed-2-song-single-vocal"
             },
             {
               "title": "ミニスケープ（オリジナル・カラオケ）",
               "position": 4,
-              "disc": 1
+              "disc": 1,
+              "recordingId": "yugioh-sevens-ed-2-song-single-karaoke"
             }
           ]
         }
@@ -5950,6 +6086,20 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "verifiedAt": "2026-11-07",
           "availability": "unknown",
           "releaseId": "yugioh-sevens-jp-mjss-09268"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "yugioh-sevens-ed-2-song-single-vocal",
+          "title": "ミニスケープ",
+          "format": "unknown",
+          "kind": "character"
+        },
+        {
+          "id": "yugioh-sevens-ed-2-song-single-karaoke",
+          "title": "ミニスケープ（オリジナル・カラオケ）",
+          "format": "unknown",
+          "kind": "instrumental"
         }
       ]
     },
@@ -6011,12 +6161,70 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/9909/",
+          "label": "マーベラス原校歌曲名與詞曲編",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-14"
+        },
+        {
+          "url": "https://www.marv.jp/titles/av/10225/",
+          "label": "マーベラス《SOUND RUSH THREE!!》發行、品番及唱片資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-14"
+        },
+        {
+          "url": "https://tower.jp/item/5299848",
+          "label": "CD通路Disc 2獨唱曲位、聲優及詞曲編",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-14"
+        },
+        {
+          "url": "https://www.mau2.com/anime/yuugiousevens",
+          "label": "獨立逐話曲表，原播片尾使用仍待直接核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-14"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/yugioh-sevens/episodes/index_7.html",
+          "label": "テレビ東京原期逐話播出日",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-14"
+        },
+        {
+          "url": "https://s.awa.fm/track/b204e9949ebb0e335652",
+          "label": "AWA日本區獨唱音源及演唱名義",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-14"
         }
       ],
       "credits": [
         {
           "name": "ルーク（CV：八代拓）",
           "role": "vocals"
+        },
+        {
+          "name": "八代拓",
+          "role": "vocals"
+        },
+        {
+          "name": "佐伯ユウスケ",
+          "role": "lyrics"
+        },
+        {
+          "name": "佐伯ユウスケ",
+          "role": "composition"
+        },
+        {
+          "name": "佐伯ユウスケ",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -6043,26 +6251,150 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "yugioh-sevens-ed-3-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://tower.jp/item/5299848",
+            "https://s.awa.fm/track/b204e9949ebb0e335652"
+          ],
+          "verifiedAt": "2026-11-14",
+          "targetId": "yugioh-sevens-ed-3-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9909/",
+            "https://tower.jp/item/5299848"
+          ],
+          "verifiedAt": "2026-11-14"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/av/10225/"
+          ],
+          "verifiedAt": "2026-11-14",
+          "targetId": "yugioh-sevens-ed-3-song-ost-three-character"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://tower.jp/item/5299848",
+            "https://s.awa.fm/track/b204e9949ebb0e335652"
+          ],
+          "verifiedAt": "2026-11-14",
+          "targetId": "yugioh-sevens-ed-3-song-ost-three-character"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/av/10225/"
+          ],
+          "verifiedAt": "2026-11-14",
+          "targetId": "yugioh-sevens-jp-mjsa-01332-3"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://tower.jp/item/5299848"
+          ],
+          "verifiedAt": "2026-11-14",
+          "targetId": "yugioh-sevens-jp-mjsa-01332-3"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://s.awa.fm/track/b204e9949ebb0e335652"
+          ],
+          "verifiedAt": "2026-11-14",
+          "targetId": "https://s.awa.fm/track/b204e9949ebb0e335652"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "lyrics",
-            "composition",
-            "arrangement",
-            "recordings",
-            "releases",
-            "platform_links",
             "basic_evidence",
-            "use_quarters"
+            "use_quarters",
+            "recording_format",
+            "official_video",
+            "platform_availability"
           ],
-          "note": "本版本曲名及演唱名義有交叉資料；原期動畫實際使用及季度待確認。",
-          "resumeWhen": "待原期官方逐話資料明列本版本用途及播出集數，並取得權利方對本曲名與演唱名義的直接資料後，再核對原播出日期與季度。",
-          "checkedAt": "2026-10-24"
+          "note": "已核原聲帶獨唱曲位及歌唱；保留原期片尾用途與季度待核。",
+          "resumeWhen": "取得日本原播正片署名或製播方具名逐話曲目後再確認輪替季度及剪輯。",
+          "checkedAt": "2026-11-14"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-14",
+      "recordings": [
+        {
+          "id": "yugioh-sevens-ed-3-song-ost-three-character",
+          "title": "ゴーハ第7小学校校歌（ルーク ver.）",
+          "format": "unknown",
+          "kind": "character"
+        }
+      ],
+      "releases": [
+        {
+          "id": "yugioh-sevens-jp-mjsa-01332-3",
+          "title": "遊☆戯☆王SEVENS オリジナル・サウンドトラック SOUND RUSH THREE!!",
+          "date": {
+            "value": "2022-03-16",
+            "precision": "day"
+          },
+          "type": "soundtrack",
+          "artistDisplayName": "川﨑龍・志村絵麻",
+          "edition": "CD2枚組",
+          "tracks": [
+            {
+              "title": "ゴーハ第7小学校校歌（ルーク ver.）",
+              "recordingId": "yugioh-sevens-ed-3-song-ost-three-character",
+              "position": 26,
+              "disc": 2
+            }
+          ],
+          "region": "JP",
+          "catalogNumber": "MJSA-01332~3",
+          "label": "マーベラス"
+        }
+      ],
+      "links": [
+        {
+          "platform": "AWA",
+          "label": "ゴーハ第7小学校校歌（ルーク ver.）",
+          "url": "https://s.awa.fm/track/b204e9949ebb0e335652",
+          "linkType": "direct_track",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-14"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -6136,12 +6468,68 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/10181/",
+          "label": "マーベラス原聲帶第35軌：四人合唱TV Size",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-14"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/9909/",
+          "label": "マーベラス原校歌曲名與詞曲編",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-14"
+        },
+        {
+          "url": "https://www.mau2.com/anime/yuugiousevens",
+          "label": "逐話交叉曲表：四人版歌唱者及輪替",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-14"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5611",
+          "label": "獨立曲表：四人版歌唱及作詞、作曲、編曲",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-14"
         }
       ],
       "credits": [
         {
           "name": "遊我（CV：石橋陽彩）、ルーク（CV：八代拓）、ガクト（CV：花江夏樹）、ロミン（CV：楠木ともり）",
           "role": "vocals"
+        },
+        {
+          "name": "石橋陽彩",
+          "role": "vocals"
+        },
+        {
+          "name": "八代拓",
+          "role": "vocals"
+        },
+        {
+          "name": "花江夏樹",
+          "role": "vocals"
+        },
+        {
+          "name": "楠木ともり",
+          "role": "vocals"
+        },
+        {
+          "name": "佐伯ユウスケ",
+          "role": "lyrics"
+        },
+        {
+          "name": "佐伯ユウスケ",
+          "role": "composition"
+        },
+        {
+          "name": "佐伯ユウスケ",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -6211,31 +6599,58 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-07",
           "targetId": "https://www.marv.jp/titles/av/10181/"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9909/",
+            "https://www.mau2.com/anime/yuugiousevens",
+            "https://cal.syoboi.jp/tid/5611"
+          ],
+          "verifiedAt": "2026-11-14"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/10181/"
+          ],
+          "verifiedAt": "2026-11-14",
+          "targetId": "yugioh-sevens-jp-mjsa-01316"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/10181/"
+          ],
+          "verifiedAt": "2026-11-14",
+          "targetId": "yugioh-sevens-ed-4-ost-two-tv"
         }
       ],
       "followUp": [
         {
           "fields": [
             "basic_evidence",
-            "use_quarters"
+            "use_quarters",
+            "official_video",
+            "platform_links",
+            "platform_availability"
           ],
-          "note": "本版本曲名及演唱名義有交叉資料；原期動畫實際使用及季度待確認。",
-          "resumeWhen": "待原期官方逐話資料明列本版本用途及播出集數，並取得權利方對本曲名與演唱名義的直接資料後，再核對原播出日期與季度。",
-          "checkedAt": "2026-10-24"
-        },
-        {
-          "fields": [
-            "arrangement",
-            "composition",
-            "lyrics",
-            "platform_links"
-          ],
-          "note": "逐曲收錄、音源原標及官方影片保存；其他音源規格、個別實唱或地區播放未有直接資料時留空。校歌版本的實際原TV署名與商品收錄分開。",
-          "resumeWhen": "原權利方新的逐曲音源、實唱、影片或地區播放資料可讀時補相應欄位。",
-          "checkedAt": "2026-11-07"
+          "note": "唱片方確認四人合唱TV Size及第35軌；各話片尾仍待第一方逐話證據。",
+          "resumeWhen": "待日本原播正片署名或製播方逐話曲目可讀後補輪替季度。",
+          "checkedAt": "2026-11-14"
         }
       ],
-      "lastVerifiedAt": "2026-11-07",
+      "lastVerifiedAt": "2026-11-14",
       "recordings": [
         {
           "id": "yugioh-sevens-ed-4-ost-two-tv",
@@ -6338,12 +6753,70 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/9909/",
+          "label": "マーベラス原校歌曲名與詞曲編",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-14"
+        },
+        {
+          "url": "https://www.marv.jp/titles/av/10225/",
+          "label": "マーベラス《SOUND RUSH THREE!!》發行、品番及唱片資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-14"
+        },
+        {
+          "url": "https://tower.jp/item/5299848",
+          "label": "CD通路Disc 2獨唱曲位、聲優及詞曲編",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-14"
+        },
+        {
+          "url": "https://www.mau2.com/anime/yuugiousevens",
+          "label": "獨立逐話曲表，原播片尾使用仍待直接核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-14"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/yugioh-sevens/episodes/index_7.html",
+          "label": "テレビ東京原期逐話播出日",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-14"
+        },
+        {
+          "url": "https://s.awa.fm/track/987a9949773ccf805b51",
+          "label": "AWA日本區獨唱音源及演唱名義",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-14"
         }
       ],
       "credits": [
         {
           "name": "遊我（CV：石橋陽彩）",
           "role": "vocals"
+        },
+        {
+          "name": "石橋陽彩",
+          "role": "vocals"
+        },
+        {
+          "name": "佐伯ユウスケ",
+          "role": "lyrics"
+        },
+        {
+          "name": "佐伯ユウスケ",
+          "role": "composition"
+        },
+        {
+          "name": "佐伯ユウスケ",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -6370,26 +6843,150 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "yugioh-sevens-ed-5-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://tower.jp/item/5299848",
+            "https://s.awa.fm/track/987a9949773ccf805b51"
+          ],
+          "verifiedAt": "2026-11-14",
+          "targetId": "yugioh-sevens-ed-5-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9909/",
+            "https://tower.jp/item/5299848"
+          ],
+          "verifiedAt": "2026-11-14"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/av/10225/"
+          ],
+          "verifiedAt": "2026-11-14",
+          "targetId": "yugioh-sevens-ed-5-song-ost-three-character"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://tower.jp/item/5299848",
+            "https://s.awa.fm/track/987a9949773ccf805b51"
+          ],
+          "verifiedAt": "2026-11-14",
+          "targetId": "yugioh-sevens-ed-5-song-ost-three-character"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/av/10225/"
+          ],
+          "verifiedAt": "2026-11-14",
+          "targetId": "yugioh-sevens-jp-mjsa-01332-3"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://tower.jp/item/5299848"
+          ],
+          "verifiedAt": "2026-11-14",
+          "targetId": "yugioh-sevens-jp-mjsa-01332-3"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://s.awa.fm/track/987a9949773ccf805b51"
+          ],
+          "verifiedAt": "2026-11-14",
+          "targetId": "https://s.awa.fm/track/987a9949773ccf805b51"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "lyrics",
-            "composition",
-            "arrangement",
-            "recordings",
-            "releases",
-            "platform_links",
             "basic_evidence",
-            "use_quarters"
+            "use_quarters",
+            "recording_format",
+            "official_video",
+            "platform_availability"
           ],
-          "note": "本版本曲名及演唱名義有交叉資料；原期動畫實際使用及季度待確認。",
-          "resumeWhen": "待原期官方逐話資料明列本版本用途及播出集數，並取得權利方對本曲名與演唱名義的直接資料後，再核對原播出日期與季度。",
-          "checkedAt": "2026-10-24"
+          "note": "已核原聲帶獨唱曲位及歌唱；保留原期片尾用途與季度待核。",
+          "resumeWhen": "取得日本原播正片署名或製播方具名逐話曲目後再確認輪替季度及剪輯。",
+          "checkedAt": "2026-11-14"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-14",
+      "recordings": [
+        {
+          "id": "yugioh-sevens-ed-5-song-ost-three-character",
+          "title": "ゴーハ第7小学校校歌（遊我 ver.）",
+          "format": "unknown",
+          "kind": "character"
+        }
+      ],
+      "releases": [
+        {
+          "id": "yugioh-sevens-jp-mjsa-01332-3",
+          "title": "遊☆戯☆王SEVENS オリジナル・サウンドトラック SOUND RUSH THREE!!",
+          "date": {
+            "value": "2022-03-16",
+            "precision": "day"
+          },
+          "type": "soundtrack",
+          "artistDisplayName": "川﨑龍・志村絵麻",
+          "edition": "CD2枚組",
+          "tracks": [
+            {
+              "title": "ゴーハ第7小学校校歌（遊我 ver.）",
+              "recordingId": "yugioh-sevens-ed-5-song-ost-three-character",
+              "position": 25,
+              "disc": 2
+            }
+          ],
+          "region": "JP",
+          "catalogNumber": "MJSA-01332~3",
+          "label": "マーベラス"
+        }
+      ],
+      "links": [
+        {
+          "platform": "AWA",
+          "label": "ゴーハ第7小学校校歌（遊我 ver.）",
+          "url": "https://s.awa.fm/track/987a9949773ccf805b51",
+          "linkType": "direct_track",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-14"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -6449,12 +7046,70 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/9909/",
+          "label": "マーベラス原校歌曲名與詞曲編",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-14"
+        },
+        {
+          "url": "https://www.marv.jp/titles/av/10225/",
+          "label": "マーベラス《SOUND RUSH THREE!!》發行、品番及唱片資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-14"
+        },
+        {
+          "url": "https://tower.jp/item/5299848",
+          "label": "CD通路Disc 2獨唱曲位、聲優及詞曲編",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-14"
+        },
+        {
+          "url": "https://www.mau2.com/anime/yuugiousevens",
+          "label": "獨立逐話曲表，原播片尾使用仍待直接核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-14"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/yugioh-sevens/episodes/index_7.html",
+          "label": "テレビ東京原期逐話播出日",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-14"
+        },
+        {
+          "url": "https://s.awa.fm/track/960be458bbc193104a53",
+          "label": "AWA日本區獨唱音源及演唱名義",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-14"
         }
       ],
       "credits": [
         {
           "name": "ガクト（CV：花江夏樹）",
           "role": "vocals"
+        },
+        {
+          "name": "花江夏樹",
+          "role": "vocals"
+        },
+        {
+          "name": "佐伯ユウスケ",
+          "role": "lyrics"
+        },
+        {
+          "name": "佐伯ユウスケ",
+          "role": "composition"
+        },
+        {
+          "name": "佐伯ユウスケ",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -6481,26 +7136,150 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "yugioh-sevens-ed-6-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://tower.jp/item/5299848",
+            "https://s.awa.fm/track/960be458bbc193104a53"
+          ],
+          "verifiedAt": "2026-11-14",
+          "targetId": "yugioh-sevens-ed-6-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9909/",
+            "https://tower.jp/item/5299848"
+          ],
+          "verifiedAt": "2026-11-14"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/av/10225/"
+          ],
+          "verifiedAt": "2026-11-14",
+          "targetId": "yugioh-sevens-ed-6-song-ost-three-character"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://tower.jp/item/5299848",
+            "https://s.awa.fm/track/960be458bbc193104a53"
+          ],
+          "verifiedAt": "2026-11-14",
+          "targetId": "yugioh-sevens-ed-6-song-ost-three-character"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/av/10225/"
+          ],
+          "verifiedAt": "2026-11-14",
+          "targetId": "yugioh-sevens-jp-mjsa-01332-3"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://tower.jp/item/5299848"
+          ],
+          "verifiedAt": "2026-11-14",
+          "targetId": "yugioh-sevens-jp-mjsa-01332-3"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://s.awa.fm/track/960be458bbc193104a53"
+          ],
+          "verifiedAt": "2026-11-14",
+          "targetId": "https://s.awa.fm/track/960be458bbc193104a53"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "lyrics",
-            "composition",
-            "arrangement",
-            "recordings",
-            "releases",
-            "platform_links",
             "basic_evidence",
-            "use_quarters"
+            "use_quarters",
+            "recording_format",
+            "official_video",
+            "platform_availability"
           ],
-          "note": "本版本曲名及演唱名義有交叉資料；原期動畫實際使用及季度待確認。",
-          "resumeWhen": "待原期官方逐話資料明列本版本用途及播出集數，並取得權利方對本曲名與演唱名義的直接資料後，再核對原播出日期與季度。",
-          "checkedAt": "2026-10-24"
+          "note": "已核原聲帶獨唱曲位及歌唱；保留原期片尾用途與季度待核。",
+          "resumeWhen": "取得日本原播正片署名或製播方具名逐話曲目後再確認輪替季度及剪輯。",
+          "checkedAt": "2026-11-14"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-14",
+      "recordings": [
+        {
+          "id": "yugioh-sevens-ed-6-song-ost-three-character",
+          "title": "ゴーハ第7小学校校歌（ガクト ver.）",
+          "format": "unknown",
+          "kind": "character"
+        }
+      ],
+      "releases": [
+        {
+          "id": "yugioh-sevens-jp-mjsa-01332-3",
+          "title": "遊☆戯☆王SEVENS オリジナル・サウンドトラック SOUND RUSH THREE!!",
+          "date": {
+            "value": "2022-03-16",
+            "precision": "day"
+          },
+          "type": "soundtrack",
+          "artistDisplayName": "川﨑龍・志村絵麻",
+          "edition": "CD2枚組",
+          "tracks": [
+            {
+              "title": "ゴーハ第7小学校校歌（ガクト ver.）",
+              "recordingId": "yugioh-sevens-ed-6-song-ost-three-character",
+              "position": 27,
+              "disc": 2
+            }
+          ],
+          "region": "JP",
+          "catalogNumber": "MJSA-01332~3",
+          "label": "マーベラス"
+        }
+      ],
+      "links": [
+        {
+          "platform": "AWA",
+          "label": "ゴーハ第7小学校校歌（ガクト ver.）",
+          "url": "https://s.awa.fm/track/960be458bbc193104a53",
+          "linkType": "direct_track",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-14"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -6560,12 +7339,70 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/9909/",
+          "label": "マーベラス原校歌曲名與詞曲編",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-14"
+        },
+        {
+          "url": "https://www.marv.jp/titles/av/10225/",
+          "label": "マーベラス《SOUND RUSH THREE!!》發行、品番及唱片資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-14"
+        },
+        {
+          "url": "https://tower.jp/item/5299848",
+          "label": "CD通路Disc 2獨唱曲位、聲優及詞曲編",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-14"
+        },
+        {
+          "url": "https://www.mau2.com/anime/yuugiousevens",
+          "label": "獨立逐話曲表，原播片尾使用仍待直接核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-14"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/yugioh-sevens/episodes/index_7.html",
+          "label": "テレビ東京原期逐話播出日",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-14"
+        },
+        {
+          "url": "https://s.awa.fm/track/19ee1916ebd38b719354",
+          "label": "AWA日本區獨唱音源及演唱名義",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-14"
         }
       ],
       "credits": [
         {
           "name": "ロミン（CV：楠木ともり）",
           "role": "vocals"
+        },
+        {
+          "name": "楠木ともり",
+          "role": "vocals"
+        },
+        {
+          "name": "佐伯ユウスケ",
+          "role": "lyrics"
+        },
+        {
+          "name": "佐伯ユウスケ",
+          "role": "composition"
+        },
+        {
+          "name": "佐伯ユウスケ",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -6592,26 +7429,150 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "yugioh-sevens-ed-7-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://tower.jp/item/5299848",
+            "https://s.awa.fm/track/19ee1916ebd38b719354"
+          ],
+          "verifiedAt": "2026-11-14",
+          "targetId": "yugioh-sevens-ed-7-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9909/",
+            "https://tower.jp/item/5299848"
+          ],
+          "verifiedAt": "2026-11-14"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/av/10225/"
+          ],
+          "verifiedAt": "2026-11-14",
+          "targetId": "yugioh-sevens-ed-7-song-ost-three-character"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://tower.jp/item/5299848",
+            "https://s.awa.fm/track/19ee1916ebd38b719354"
+          ],
+          "verifiedAt": "2026-11-14",
+          "targetId": "yugioh-sevens-ed-7-song-ost-three-character"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/av/10225/"
+          ],
+          "verifiedAt": "2026-11-14",
+          "targetId": "yugioh-sevens-jp-mjsa-01332-3"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://tower.jp/item/5299848"
+          ],
+          "verifiedAt": "2026-11-14",
+          "targetId": "yugioh-sevens-jp-mjsa-01332-3"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://s.awa.fm/track/19ee1916ebd38b719354"
+          ],
+          "verifiedAt": "2026-11-14",
+          "targetId": "https://s.awa.fm/track/19ee1916ebd38b719354"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "lyrics",
-            "composition",
-            "arrangement",
-            "recordings",
-            "releases",
-            "platform_links",
             "basic_evidence",
-            "use_quarters"
+            "use_quarters",
+            "recording_format",
+            "official_video",
+            "platform_availability"
           ],
-          "note": "本版本曲名及演唱名義有交叉資料；原期動畫實際使用及季度待確認。",
-          "resumeWhen": "待原期官方逐話資料明列本版本用途及播出集數，並取得權利方對本曲名與演唱名義的直接資料後，再核對原播出日期與季度。",
-          "checkedAt": "2026-10-24"
+          "note": "已核原聲帶獨唱曲位及歌唱；保留原期片尾用途與季度待核。",
+          "resumeWhen": "取得日本原播正片署名或製播方具名逐話曲目後再確認輪替季度及剪輯。",
+          "checkedAt": "2026-11-14"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-14",
+      "recordings": [
+        {
+          "id": "yugioh-sevens-ed-7-song-ost-three-character",
+          "title": "ゴーハ第7小学校校歌（ロミン ver.）",
+          "format": "unknown",
+          "kind": "character"
+        }
+      ],
+      "releases": [
+        {
+          "id": "yugioh-sevens-jp-mjsa-01332-3",
+          "title": "遊☆戯☆王SEVENS オリジナル・サウンドトラック SOUND RUSH THREE!!",
+          "date": {
+            "value": "2022-03-16",
+            "precision": "day"
+          },
+          "type": "soundtrack",
+          "artistDisplayName": "川﨑龍・志村絵麻",
+          "edition": "CD2枚組",
+          "tracks": [
+            {
+              "title": "ゴーハ第7小学校校歌（ロミン ver.）",
+              "recordingId": "yugioh-sevens-ed-7-song-ost-three-character",
+              "position": 28,
+              "disc": 2
+            }
+          ],
+          "region": "JP",
+          "catalogNumber": "MJSA-01332~3",
+          "label": "マーベラス"
+        }
+      ],
+      "links": [
+        {
+          "platform": "AWA",
+          "label": "ゴーハ第7小学校校歌（ロミン ver.）",
+          "url": "https://s.awa.fm/track/19ee1916ebd38b719354",
+          "linkType": "direct_track",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-14"
+        }
+      ]
     },
     {
       "type": "ED",
