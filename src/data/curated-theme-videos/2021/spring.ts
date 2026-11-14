@@ -1,6 +1,56 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2021SpringThemeVideos = {
+  "114535:OP:1": [
+    {
+      youtubeVideoId: "U_Ry2dM0B34",
+      title: "宇多田ヒカル『PINK BLOOD』",
+      type: "full_music_video",
+      channelName: "Hikaru Utada",
+      officialStatus: "official",
+      embeddable: true
+    }
+  ],
+  "121962:OP:1": [
+    {
+      youtubeVideoId: "LKvJhHQN4Y8",
+      title: "ZEAL of proud",
+      type: "art_track",
+      channelName: "Roselia - Topic",
+      officialStatus: "official",
+      embeddable: true,
+    },
+  ],
+  "121962:ED:2": [
+    {
+      youtubeVideoId: "EZom4ijJdgo",
+      title: "BREAK IT DOWN",
+      type: "art_track",
+      channelName: "GYROAXIA - Topic",
+      officialStatus: "official",
+      embeddable: true,
+    },
+  ],
+  "116338:OP:1": [
+    {
+      youtubeVideoId: "wXh0dGklS7A",
+      title: "DA PUMP / No! No! Satisfaction! (TV OP EDIT version)",
+      type: "music_video",
+      channelName: "avex",
+      officialStatus: "official",
+      embeddable: true,
+    },
+  ],
+  "116338:ED:1": [
+    {
+      youtubeVideoId: "iwIZpIK4UFU",
+      title: "【MV】ココロショータイム ／ 天月-あまつき-  魔入りました！入間くん",
+      type: "music_video",
+      channelName: "天月-あまつき-YouTube Official Channel",
+      officialStatus: "official",
+      embeddable: true,
+    },
+  ],
   "120697:OP:1": [
     {
       youtubeVideoId: "x-AHnwQPf9s",
@@ -244,9 +294,17 @@ export const curated2021SpringThemeVideos = {
   ],
   "125038:ED:1": [
     {
+      youtubeVideoId: "M8LwhRkNaSQ",
+      title: "ReoNa 『ないない』-Music Video-",
+      type: "full_music_video",
+      channelName: "ReoNa official YouTube channel",
+      officialStatus: "official",
+      embeddable: true,
+    },
+    {
       youtubeVideoId: "dUlo9T1UQVo",
       title: "TVアニメ「シャドーハウス」本PV｜2021年4月10日（土）より放送",
-      type: "other",
+      type: "pv",
       channelName: "アニプレックス チャンネル",
       officialStatus: "official",
       embeddable: true,
@@ -284,7 +342,7 @@ export const curated2021SpringThemeVideos = {
       embeddable: true,
     },
   ],
-  "120376:OP:1": [
+  "120376:OP:2": [
     {
       youtubeVideoId: "_str7hOMHd8",
       title: "「すばらしきこのせかい The Animation」ノンクレジットOP映像",
@@ -295,6 +353,14 @@ export const curated2021SpringThemeVideos = {
     },
   ],
   "120376:ED:1": [
+    {
+      youtubeVideoId: "PZ7d28HV9Ew",
+      title: "ASCA 『カルペディエム』Music Video（すばらしきこのせかい The Animation EDテーマ）",
+      type: "music_video",
+      channelName: "ASCA Official YouTube Channel",
+      officialStatus: "official",
+      embeddable: true,
+    },
     {
       youtubeVideoId: "Xd0wjNcZPks",
       title:
@@ -474,12 +540,52 @@ export const curated2021SpringThemeVideos = {
       embeddable: true,
     },
   ],
+  "113359:OP:1": [
+    {
+      youtubeVideoId: "mft3q1Y71HM",
+      title: "The theme of the NOMAD",
+      type: "art_track",
+      channelName: "mabanua - Topic",
+      officialStatus: "official",
+      embeddable: true,
+    },
+  ],
+  "113359:ED:1": [
+    {
+      youtubeVideoId: "PBk9I6ic4EA",
+      title: "El Canto del Colibrí",
+      type: "art_track",
+      channelName: "mabanua - Topic",
+      officialStatus: "official",
+      embeddable: true,
+    },
+  ],
+  "113359:ED:2": [
+    {
+      youtubeVideoId: "5X9o1oHw9DA",
+      title: "Rise Up / Diamond in the Sky (feat. 稲泉 りん)",
+      type: "art_track",
+      channelName: "mabanua - Topic",
+      officialStatus: "official",
+      embeddable: true,
+    },
+  ],
+  "120534:ED:2": [
+    {
+      youtubeVideoId: "jljcxqKE_Ow",
+      title: "明星かなた(CV:諸星すみれ) / Tsubasa(TVアニメ「バトルアスリーテス大運動会 ReSTART!」最終話エンディング・テーマ)",
+      type: "other",
+      channelName: "日本コロムビア 公式YouTubeチャンネル",
+      officialStatus: "official",
+      embeddable: true,
+    },
+  ],
   "120534:OP:1": [
     {
       youtubeVideoId: "PQRFWymy-go",
       title:
         "諏訪ななか / コバルトの鼓動(Short Ver.)(TVアニメ「バトルアスリーテス大運動会 ReSTART!」オープニングテーマ)",
-      type: "other",
+      type: "music_video",
       channelName: "諏訪ななか Music Channel",
       officialStatus: "official",
       embeddable: true,
@@ -490,7 +596,7 @@ export const curated2021SpringThemeVideos = {
       youtubeVideoId: "rMVkIbcq7iY",
       title:
         "近藤玲奈 / 桜舞い散る夜に(TVアニメ「バトルアスリーテス大運動会 ReSTART!」エンディングテーマ)",
-      type: "other",
+      type: "music_video",
       channelName: "近藤玲奈 Official Music Channel",
       officialStatus: "official",
       embeddable: true,

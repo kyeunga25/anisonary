@@ -1,6 +1,176 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2021WinterThemeVideos = {
+  "112443:OP:1": [
+    {
+      youtubeVideoId: "HkdlCumLSpg",
+      title: "DIALOGUE＋「人生イージー？」Music Video Full ver.【2nd Single】",
+      type: "full_music_video",
+      channelName: "DIALOGUE＋Official Channel",
+      officialStatus: "official",
+      embeddable: true
+    }
+  ],
+  "112443:ED:1": [
+    {
+      youtubeVideoId: "PomsMwiBgsw",
+      title: "DIALOGUE＋「あやふわアスタリスク」Music Video Full ver.【3rd Single】",
+      type: "full_music_video",
+      channelName: "DIALOGUE＋Official Channel",
+      officialStatus: "official",
+      embeddable: true
+    }
+  ],
+  "112443:ED:6": [
+    {
+      youtubeVideoId: "HkdlCumLSpg",
+      title: "DIALOGUE＋「人生イージー？」Music Video Full ver.【2nd Single】",
+      type: "full_music_video",
+      channelName: "DIALOGUE＋Official Channel",
+      officialStatus: "official",
+      embeddable: true
+    }
+  ],
+  "109010:OP:2": [
+    {
+      youtubeVideoId: "_IVfKltOUI4",
+      title: "TVアニメ『アイ★チュウ』ノンクレジットオープニング「Rainbow☆Harmony」毎週水曜23時～TOKYO MXにて好評放送中！",
+      type: "creditless_op",
+      channelName: "TWIN ENGINE",
+      officialStatus: "official",
+      embeddable: true
+    }
+  ],
+  "109010:ED:1": [
+    {
+      youtubeVideoId: "bXHscyLtpZU",
+      title: "TVアニメ『アイ★チュウ』ノンクレジットエンディング「Singing!Swinging!」　毎週水曜23時～TOKYO MXにて好評放送中！",
+      type: "creditless_ed",
+      channelName: "TWIN ENGINE",
+      officialStatus: "official",
+      embeddable: true
+    }
+  ],
+  "116944:ED:1": [
+    {
+      youtubeVideoId: "6MWO6XOJY-M",
+      title: "♪「はんぱない☆ディストラクション」/うちゅうのはじまり　TVアニメ『WIXOSS DIVA(A)LIVE』",
+      type: "other",
+      channelName: "Warner Bros. Japan Anime",
+      officialStatus: "official",
+      embeddable: true
+    }
+  ],
+  "116944:ED:2": [
+    {
+      youtubeVideoId: "u9j5RBGjIvk",
+      title: "♪「ENDLESS-PUNCHLINE」/Card Jocky　TVアニメ『WIXOSS DIVA(A)LIVE』",
+      type: "other",
+      channelName: "Warner Bros. Japan Anime",
+      officialStatus: "official",
+      embeddable: true
+    }
+  ],
+  "116944:ED:3": [
+    {
+      youtubeVideoId: "qeGqKiUDLAI",
+      title: "♪「salvage the future」/DIAGRAM　TVアニメ『WIXOSS DIVA(A)LIVE』",
+      type: "other",
+      channelName: "Warner Bros. Japan Anime",
+      officialStatus: "official",
+      embeddable: true
+    }
+  ],
+  "116944:ED:5": [
+    {
+      youtubeVideoId: "A3CiP1E9zMo",
+      title: "♪「TRIGGER OF VICTORY」/ デウス・エクス・マキナ　TVアニメ『WIXOSS DIVA(A)LIVE』",
+      type: "other",
+      channelName: "Warner Bros. Japan Anime",
+      officialStatus: "official",
+      embeddable: true
+    }
+  ],
+  "116944:ED:6": [
+    {
+      youtubeVideoId: "j7cRdVJuVBI",
+      title: "♪「D-(A)LIVE!!」/ 夢限少女　TVアニメ『WIXOSS DIVA(A)LIVE』",
+      type: "other",
+      channelName: "Warner Bros. Japan Anime",
+      officialStatus: "official",
+      embeddable: true
+    }
+  ],
+  "119661:ED:1": [
+    {
+      youtubeVideoId: "jfvB3DPJ4FU",
+      title: "TVアニメ「Re:ゼロから始める異世界生活」2nd season EDテーマ「Memento」MV(full size)",
+      type: "full_music_video",
+      channelName: "KADOKAWAanime",
+      officialStatus: "official",
+      embeddable: true
+    }
+  ],
+  "124131:ED:1": [
+    {
+      youtubeVideoId: "SFcYxg6xcFk",
+      title: "TVアニメ「ゲキドル」キャラクターソングMV｜『キズナ』 各務あいり（CV.持田千妃来）",
+      type: "music_video",
+      channelName: "ゲキドル公式チャンネル",
+      officialStatus: "official",
+      embeddable: true
+    }
+  ],
+  "124131:ED:2": [
+    {
+      youtubeVideoId: "KgbgXHC3CFo",
+      title: "TVアニメ「ゲキドル」キャラクターソングMV｜『制服DOLL』ドール（CV.M・A・O）",
+      type: "music_video",
+      channelName: "ゲキドル公式チャンネル",
+      officialStatus: "official",
+      embeddable: true
+    }
+  ],
+  "124131:ED:3": [
+    {
+      youtubeVideoId: "BCT8mJVYrf8",
+      title: "TVアニメ「ゲキドル」キャラクターソングMV｜『トーキョーロンリーガール』雛咲いずみ（CV.諏訪彩花）",
+      type: "music_video",
+      channelName: "ゲキドル公式チャンネル",
+      officialStatus: "official",
+      embeddable: true
+    }
+  ],
+  "124131:ED:4": [
+    {
+      youtubeVideoId: "Gqg3OWRfBD8",
+      title: "TVアニメ「ゲキドル」キャラクターソングMV｜『ダンデライオンガール』 守野せりあ（CV.赤尾ひかる）",
+      type: "music_video",
+      channelName: "ゲキドル公式チャンネル",
+      officialStatus: "official",
+      embeddable: true
+    }
+  ],
+  "124080:OP:1": [
+    {
+      youtubeVideoId: "kQYLHjgUh_g",
+      title: "神山羊 - 色香水【Music Video】/ Yoh Kamiyama - Irokousui",
+      type: "music_video",
+      channelName: "神山羊 / Yoh Kamiyama",
+      officialStatus: "official",
+      embeddable: true
+    }
+  ],
+  "124080:ED:1": [
+    {
+      youtubeVideoId: "fd1jD7-XX5g",
+      title: "フレンズ「約束」（TVアニメ『ホリミヤ』エンディングテーマ）",
+      type: "music_video",
+      channelName: "フレンズOfficial YouTube Channel",
+      officialStatus: "official",
+      embeddable: true
+    }
+  ],
   "113814:OP:1": [
     {
       youtubeVideoId: "v43luL5KAYI",
