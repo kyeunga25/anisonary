@@ -1,6 +1,24 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2020FallThemeVideos = {
+  "120851:OP:3": [
+    {
+      youtubeVideoId: "i8fPPQZcXgg",
+      title: "６つ子の魂ナユタまで",
+      type: "art_track",
+      channelName: "AOP - Topic",
+      officialStatus: "official",
+      embeddable: true,
+    },
+    {
+      youtubeVideoId: "mLc-1doS8U0",
+      title: "【3/25 ファイナルライブ映像】６つ子の魂ナユタまで【A応P】",
+      type: "live",
+      channelName: "A応P",
+      officialStatus: "official",
+      embeddable: true,
+    },
+  ],
   "122632:OP:1": [
     {
       youtubeVideoId: "R_ikYBHPdqg",

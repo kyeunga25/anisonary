@@ -5,6 +5,8 @@ import { themeVideoAnchor } from "@/utils/youtube";
 
 interface Props { theme: PublicTheme; }
 const { theme } = Astro.props;
+// Keep existing fragments and namespace "sk-" IDs to avoid matching credential prefixes.
+const anchorBase = theme.id.startsWith("sk-") ? `theme_${theme.id}` : theme.id;
 const formats = { full: "完整音源 · Full", tv: "TV Size", short: "短版 · Short", unknown: "長度分類待確認" };
 const kinds = { vocal: "演唱版", instrumental: "Instrumental", rearrangement: "重新編曲", character: "角色版", live: "Live", remix: "Remix" };
 const releaseTypes = { single: "Single", album: "Album", ep: "EP／Mini Album", compilation: "合輯", soundtrack: "OST" };
@@ -32,14 +34,14 @@ const targetName = (evidence: PublicFieldEvidence) => {
       <h4>音源版本 <small lang="en">Recordings</small></h4>
       <ul class="recording-list">
         {theme.recordings.map((recording) => (
-          <li id={`${theme.id}-recording-${recording.id}`}>
+          <li id={`${anchorBase}-recording-${recording.id}`}>
             <strong lang="ja">{recording.title}</strong>
             <span>{kinds[recording.kind]} · {formats[recording.format]}</span>
             {recording.credits && <p>{recording.credits.map((credit) => `${creditRoleLabel(credit.role)}：${credit.name}`).join(" · ")}</p>}
             <div class="relation-links">
               {theme.videos.filter((video) => video.recordingId === recording.id).map((video) => <a href={`#${themeVideoAnchor(theme, video.youtubeVideoId)}`}>{video.title}</a>)}
               {theme.links.filter((link) => link.recordingId === recording.id).map((link) => <a href={link.url} target="_blank" rel="noopener noreferrer external">{link.label}</a>)}
-              {theme.releases?.filter((release) => release.tracks.some((track) => track.recordingId === recording.id)).map((release) => <a href={`#${theme.id}-release-${release.id}`}>{release.title} · {release.edition ?? releaseTypes[release.type]}</a>)}
+              {theme.releases?.filter((release) => release.tracks.some((track) => track.recordingId === recording.id)).map((release) => <a href={`#${anchorBase}-release-${release.id}`}>{release.title} · {release.edition ?? releaseTypes[release.type]}</a>)}
             </div>
           </li>
         ))}
@@ -51,14 +53,14 @@ const targetName = (evidence: PublicFieldEvidence) => {
       <h4>收錄發行品 <small lang="en">Releases</small></h4>
       <ul class="release-list">
         {theme.releases.map((release) => (
-          <li id={`${theme.id}-release-${release.id}`}>
+          <li id={`${anchorBase}-release-${release.id}`}>
             <strong lang="ja">{release.title}</strong>
             <p>{[releaseTypes[release.type], release.artistDisplayName, release.edition, release.catalogNumber, release.date?.value, release.label, release.region && release.region !== "UNKNOWN" ? release.region : undefined].filter(Boolean).join(" · ")}</p>
             <ul aria-label="此發行品收錄的本曲音源">
               {release.tracks.map((track) => (
                 <li>
                   <span>{track.disc ? `Disc ${track.disc} · ` : ""}{track.position ? `Track ${track.position} · ` : ""}</span>
-                  {track.recordingId ? <a href={`#${theme.id}-recording-${track.recordingId}`}>{track.title}</a> : <>{track.title} · 音源對應待確認</>}
+                  {track.recordingId ? <a href={`#${anchorBase}-recording-${track.recordingId}`}>{track.title}</a> : <>{track.title} · 音源對應待確認</>}
                 </li>
               ))}
             </ul>
