@@ -1,6 +1,7 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2020SpringThemeVideos = {
+  "114072:ED:1": [{"youtubeVideoId":"WHM8Iasi3WE","title":"【公式】ゴーハ第7小学校校歌","type":"creditless_ed","channelName":"遊戯王ラッシュデュエルTV","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
   "117096:OP:1": [
     {
       youtubeVideoId: "wcQklA1wXRA",
