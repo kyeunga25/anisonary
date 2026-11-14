@@ -163,6 +163,17 @@ export const curated2021SummerThemeVideos = {
       embeddable: true
     }
   ],
+  "132126:ED:1": [
+    {
+      youtubeVideoId: "7VYqcCLIx0s",
+      title: "銀杏BOYZ - 少年少女 (Music Video)",
+      type: "music_video",
+      channelName: "GINGNANGBOYZofficial",
+      officialStatus: "official",
+      embeddable: false,
+      embedAvailability: "unknown"
+    }
+  ],
   "122052:OP:1": [
     {
       youtubeVideoId: "M1zeI98AYSk",
@@ -171,16 +182,65 @@ export const curated2021SummerThemeVideos = {
       channelName: "JUNNA - Topic",
       officialStatus: "licensed",
       embeddable: true
+    },
+    {
+      youtubeVideoId: "oSelDT-60kA",
+      title: "JUNNA - 海と真珠（Music Video Full ver.）",
+      type: "full_music_video",
+      channelName: "Junna_Official",
+      officialStatus: "official",
+      embeddable: false,
+      embedAvailability: "unknown"
+    },
+    {
+      youtubeVideoId: "Zhwzq_KXnC8",
+      title: "Fena: Pirate Princess - Opening | Umi to Shinju",
+      type: "other",
+      channelName: "Crunchyroll",
+      officialStatus: "licensed",
+      embeddable: false,
+      embedAvailability: "unknown"
     }
   ],
   "122052:ED:1": [
     {
       youtubeVideoId: "2MV6zW5Tlc8",
       title: "鈴木みのり - サイハテ（1 Chorus Ver.）",
-      type: "full_music_video",
+      type: "music_video",
       channelName: "鈴木みのり",
       officialStatus: "official",
       embeddable: true
+    },
+    {
+      youtubeVideoId: "SlrKbzCTvNM",
+      title: "鈴木みのり - サイハテ（Official Video）",
+      type: "full_music_video",
+      channelName: "鈴木みのり",
+      officialStatus: "official",
+      embeddable: false,
+      embedAvailability: "unknown"
+    },
+    {
+      youtubeVideoId: "OyGez-laCqY",
+      title: "Fena: Pirate Princess - Ending | Saihate",
+      type: "other",
+      channelName: "Crunchyroll",
+      officialStatus: "licensed",
+      embeddable: false,
+      embedAvailability: "unknown"
+    }
+  ],
+  "122052:ED:2": [
+    {
+      youtubeVideoId: "5u5eSzsl7oo",
+      title: "太陽の航路",
+      type: "art_track",
+      channelName: "Junna_Official",
+      officialStatus: "licensed",
+      embeddable: false,
+      embedAvailability: "unknown",
+      recordingId: "kaizoku-oujo-ed-2-song-original",
+      releaseId: "ve3wa-19400"
     }
   ],
   "122434:OP:1": [
@@ -557,6 +617,16 @@ export const curated2021SummerThemeVideos = {
       embeddable: true
     }
   ],
+  "131149:OP:1": [
+    {
+      youtubeVideoId: "exR2g4XiLGw",
+      title: "彩音-『Analogy』MVショートver／TVアニメ「ひぐらしのなく頃に 卒」OP",
+      type: "music_video",
+      channelName: "AniTone Music Channel",
+      officialStatus: "official",
+      embeddable: true
+    }
+  ],
   "131149:ED:1": [
     {
       youtubeVideoId: "vtuxTWxQ_cc",
@@ -648,11 +718,12 @@ export const curated2021SummerThemeVideos = {
       embeddable: true
     }
   ],
-  "114979:ED:1": [
+  "114979:ED:2": [
     {
       youtubeVideoId: "A1bleJVhZeY",
       title: "【限定公開】未来は風のように / Liella!【TVアニメ『ラブライブ！スーパースター!!』ED主題歌 第2話ver.】",
-      type: "full_music_video",
+      type: "other",
+      recordingId: "love-live-superstar-ed-1-song-episode-2",
       channelName: "(Love Live! series)ラブライブ！シリーズ公式チャンネル",
       officialStatus: "official",
       embeddable: true
