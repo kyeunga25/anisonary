@@ -14963,7 +14963,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
   "titleRomaji": "Mewkledreamy",
   "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111310-KTLldElz3BSp.png",
   "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/111310-5MdRG9K0IGkZ.jpg",
-  "broadcastLabel": "日本TV原首話：テレビ東京2020-04-05（日）10:30–11:00，30分鐘獨立節目槽（非動畫淨片長）。2020原版與「みっくす」另分。",
+  "broadcastLabel": "日本原TV 東京電視台系列週日10:30；2020/4/5首播，5/3至5/24重播第1–4話，5/31恢復新集，2021/4/4第48話完結。",
   "officialSiteUrl": "https://www.tv-tokyo.co.jp/anime/mewkledreamy/",
   "sourceReferenceUrls": [
     "https://youranimes.tw/animes/2994",
@@ -14978,14 +14978,14 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
       "artistDisplayName": "澤田真里愛",
       "id": "mewkledreamy-op-1",
       "sourceMode": "explicit",
-      "lastVerifiedAt": "2026-11-05",
+      "lastVerifiedAt": "2026-11-15",
       "sources": [
         {
           "label": "《夢夢貓》第一方歌曲資料：曲名與演唱者",
           "url": "https://www.tv-tokyo.co.jp/anime/mewkledreamy/staff/",
           "language": "ja",
           "role": "first_party",
-          "verifiedAt": "2026-09-02"
+          "verifiedAt": "2026-11-15"
         },
         {
           "label": "AnimeThemes",
@@ -14995,11 +14995,11 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "verifiedAt": "2026-09-02"
         },
         {
-          "label": "ミュークルドリーミー 官方影片",
           "url": "https://www.youtube.com/watch?v=Dwx78HouB60",
-          "language": "ja",
+          "label": "權利方官方影片及簡介",
           "role": "first_party",
-          "verifiedAt": "2026-09-02"
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         },
         {
           "label": "動畫官方網站",
@@ -15013,7 +15013,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "テレビ東京原首話：2020/4/5 10:30–11:00獨立節目槽及兩曲OP／ED、澤田真里愛",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-05"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://www.billboard-japan.com/goods/detail/646420",
@@ -15021,12 +15021,248 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202104/25858_202104041030.html",
+          "label": "東京電視台終回節目與兩首主題曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/mewkledreamy",
+          "label": "原TV逐話歌曲交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/9843/",
+          "label": "唱片公司通常盤曲序與原唱",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.marv.jp/titles/av/9841/",
+          "label": "唱片公司CD＋DVD盤曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000194.000037629.html",
+          "label": "權利方先行配信與主題曲公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1502685651",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1514121025",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1514121029",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1514121405",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1514121025",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1514121029",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1514121405",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1502685653",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1502685651",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1502685653",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/9863/",
+          "label": "唱片公司原聲帶與TV尺寸曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1520557979",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1520558752",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1520557979",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1520558752",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/9879/",
+          "label": "角色歌專輯曲序與片頭／片尾特別音源",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.marv.jp/titles/av/10029/",
+          "label": "唱片公司原聲帶與長前奏短版曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1558441635",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1558441640",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1558441635",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1558441640",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1524609142",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1524609389",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1524609476",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1524609142",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1524609389",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1524609476",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
         {
           "name": "澤田真里愛",
           "role": "vocals"
+        },
+        {
+          "name": "畑亜貴",
+          "role": "lyrics"
+        },
+        {
+          "name": "EFFY",
+          "role": "composition"
+        },
+        {
+          "name": "EFFY",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -15075,21 +15311,1087 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "https://www.billboard-japan.com/goods/detail/646420"
           ],
           "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/mewkledreamy/staff/",
+            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202004/25858_202004051030.html",
+            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202104/25858_202104041030.html",
+            "https://www.mau2.com/anime/mewkledreamy"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mewkledreamy-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/mewkledreamy/staff/"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9843/",
+            "https://prtimes.jp/main/html/rd/p/000000194.000037629.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mewkledreamy-op-1-song-single-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9843/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mewkledreamy-op-1-song-single-karaoke"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9843/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mjss-09264"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/av/9841/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mjss-09262-3"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000000194.000037629.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mewkledreamy-op-1-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1502685651",
+            "https://www.marv.jp/titles/av/9841/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mewkledreamy-op-1-song-digital-single-tv"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1514121029"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1514121029"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1514121405"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1514121405"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9843/",
+            "https://music.apple.com/hk/album/1514121025"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1514121025"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1514121029"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1514121029"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1514121405"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1514121405"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9843/",
+            "https://music.apple.com/jp/album/1514121025"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1514121025"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1502685653"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1502685653"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/av/9841/",
+            "https://music.apple.com/hk/album/1502685651"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1502685651"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1502685653"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1502685653"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/av/9841/",
+            "https://music.apple.com/jp/album/1502685651"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1502685651"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9863/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mewkledreamy-op-1-song-soundtrack-tv"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9863/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mjsa-01295-6"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1520558752"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1520558752"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9863/",
+            "https://music.apple.com/hk/album/1520557979"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1520557979"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1520558752"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1520558752"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9863/",
+            "https://music.apple.com/jp/album/1520557979"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1520557979"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=Dwx78HouB60",
+            "https://www.marv.jp/titles/av/9841/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "Dwx78HouB60"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9879/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mewkledreamy-op-1-song-long-intro-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9879/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mewkledreamy-op-1-song-long-intro-karaoke"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/av/10029/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mewkledreamy-op-1-song-long-intro-short"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/av/10029/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mjsa-01299-1300"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1558441640"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1558441640"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/av/10029/",
+            "https://music.apple.com/hk/album/1558441635"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1558441635"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1558441640"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1558441640"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/av/10029/",
+            "https://music.apple.com/jp/album/1558441635"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1558441635"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9879/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mjsa-01297-8"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1524609389"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1524609389"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1524609476"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1524609476"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9879/",
+            "https://music.apple.com/hk/album/1524609142"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1524609142"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1524609389"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1524609389"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1524609476"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1524609476"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9879/",
+            "https://music.apple.com/jp/album/1524609142"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1524609142"
         }
       ],
       "seasonIds": [
-        "2020-spring"
+        "2020-spring",
+        "2020-summer",
+        "2020-fall",
+        "2021-winter",
+        "2021-spring"
       ],
       "songId": "mewkledreamy-op-1-song",
-      "usageLabel": "原2020年TV OP；2020-04-05首話已核，後續跨季逐曲用途另核",
+      "usageLabel": "第1–48話原TV片頭｜2020春至2021春",
       "followUp": [
         {
           "fields": [
-            "use_quarters"
+            "recordings",
+            "video_metadata",
+            "platform_availability"
           ],
-          "note": "原2020版首話及2020春用途已核。長篇後續2020夏／秋與2021冬的逐曲延用尚待原期證據，不由全劇期間推算。",
-          "resumeWhen": "待原期後續季度的節目音樂欄、逐話片尾或製播方逐曲公告可讀，再逐季補用曲範圍；不套用「みっくす」。",
-          "checkedAt": "2026-11-05"
+          "note": "已核公開主題曲影片及唱片曲序。逐話剪輯與各同名TV尺寸音軌的對應待核。",
+          "resumeWhen": "待可辨識的原播片段或權利方剪輯對照；地區完整播放另驗。",
+          "checkedAt": "2026-11-15"
+        }
+      ],
+      "releaseDate": "2020-03-23",
+      "recordings": [
+        {
+          "id": "mewkledreamy-op-1-song-single-full",
+          "title": "ミライくるくるユメくるる！",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "mewkledreamy-op-1-song-single-karaoke",
+          "title": "ミライくるくるユメくるる！（オリジナル・カラオケ）",
+          "kind": "instrumental",
+          "format": "unknown"
+        },
+        {
+          "id": "mewkledreamy-op-1-song-digital-single-tv",
+          "title": "ミライくるくるユメくるる！（TVサイズ）",
+          "kind": "vocal",
+          "format": "tv"
+        },
+        {
+          "id": "mewkledreamy-op-1-song-soundtrack-tv",
+          "title": "ミライくるくるユメくるる！（TVサイズ）",
+          "kind": "vocal",
+          "format": "tv"
+        },
+        {
+          "id": "mewkledreamy-op-1-song-long-intro-full",
+          "title": "ミライくるくるユメくるる！（ロングイントロバージョン）",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "mewkledreamy-op-1-song-long-intro-karaoke",
+          "title": "ミライくるくるユメくるる！（ロングイントロバージョン・オリジナル・カラオケ）",
+          "kind": "instrumental",
+          "format": "unknown"
+        },
+        {
+          "id": "mewkledreamy-op-1-song-long-intro-short",
+          "title": "ミライくるくるユメくるる！（ロングイントロ・バージョン・ショートサイズ）",
+          "kind": "vocal",
+          "format": "short"
+        }
+      ],
+      "releases": [
+        {
+          "id": "mjss-09264",
+          "title": "ミライくるくるユメくるる！",
+          "type": "single",
+          "date": {
+            "value": "2020-06-03",
+            "precision": "day"
+          },
+          "artistDisplayName": "澤田真里愛",
+          "edition": "通常盤（CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ミライくるくるユメくるる！",
+              "position": 1,
+              "recordingId": "mewkledreamy-op-1-song-single-full"
+            },
+            {
+              "title": "ミライくるくるユメくるる！（オリジナル・カラオケ）",
+              "position": 3,
+              "recordingId": "mewkledreamy-op-1-song-single-karaoke"
+            }
+          ],
+          "label": "マーベラス",
+          "catalogNumber": "MJSS-09264"
+        },
+        {
+          "id": "mjss-09262-3",
+          "title": "ミライくるくるユメくるる！",
+          "type": "single",
+          "date": {
+            "value": "2020-06-03",
+            "precision": "day"
+          },
+          "artistDisplayName": "澤田真里愛",
+          "edition": "CD＋DVD盤",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ミライくるくるユメくるる！",
+              "position": 1,
+              "recordingId": "mewkledreamy-op-1-song-single-full"
+            },
+            {
+              "title": "ミライくるくるユメくるる！（オリジナル・カラオケ）",
+              "position": 3,
+              "recordingId": "mewkledreamy-op-1-song-single-karaoke"
+            }
+          ],
+          "label": "マーベラス",
+          "catalogNumber": "MJSS-09262～3"
+        },
+        {
+          "id": "apple-hk-1514121025",
+          "title": "ミライくるくるユメくるる！",
+          "type": "single",
+          "date": {
+            "value": "2020-06-03",
+            "precision": "day"
+          },
+          "artistDisplayName": "澤田真里愛",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ミライくるくるユメくるる！",
+              "position": 1,
+              "recordingId": "mewkledreamy-op-1-song-single-full"
+            },
+            {
+              "title": "ミライくるくるユメくるる！（オリジナル・カラオケ）",
+              "position": 3,
+              "recordingId": "mewkledreamy-op-1-song-single-karaoke"
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "apple-jp-1514121025",
+          "title": "ミライくるくるユメくるる！",
+          "type": "single",
+          "date": {
+            "value": "2020-06-03",
+            "precision": "day"
+          },
+          "artistDisplayName": "澤田真里愛",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ミライくるくるユメくるる！",
+              "position": 1,
+              "recordingId": "mewkledreamy-op-1-song-single-full"
+            },
+            {
+              "title": "ミライくるくるユメくるる！（オリジナル・カラオケ）",
+              "position": 3,
+              "recordingId": "mewkledreamy-op-1-song-single-karaoke"
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "apple-hk-1502685651",
+          "title": "ミライくるくるユメくるる！（TVサイズ）",
+          "type": "single",
+          "date": {
+            "value": "2020-04-05",
+            "precision": "day"
+          },
+          "artistDisplayName": "澤田真里愛",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ミライくるくるユメくるる！（TVサイズ）",
+              "position": 1,
+              "recordingId": "mewkledreamy-op-1-song-digital-single-tv"
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "apple-jp-1502685651",
+          "title": "ミライくるくるユメくるる！（TVサイズ）",
+          "type": "single",
+          "date": {
+            "value": "2020-04-05",
+            "precision": "day"
+          },
+          "artistDisplayName": "澤田真里愛",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ミライくるくるユメくるる！（TVサイズ）",
+              "position": 1,
+              "recordingId": "mewkledreamy-op-1-song-digital-single-tv"
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "mjsa-01295-6",
+          "title": "ミュークルドリーミー オリジナルサウンドトラック くるくる♪みゅーじっくこれくしょん -1-",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-07-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "CD＋DVD盤",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ミライくるくるユメくるる！（TVサイズ）",
+              "position": 27,
+              "recordingId": "mewkledreamy-op-1-song-soundtrack-tv"
+            }
+          ],
+          "label": "マーベラス",
+          "catalogNumber": "MJSA-01295～6"
+        },
+        {
+          "id": "apple-hk-1520557979",
+          "title": "ミュークルドリーミー オリジナルサウンドトラック くるくる♪みゅーじっくこれくしょん -1-",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-07-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ミライくるくるユメくるる！（TVサイズ）",
+              "position": 27,
+              "recordingId": "mewkledreamy-op-1-song-soundtrack-tv"
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "apple-jp-1520557979",
+          "title": "ミュークルドリーミー オリジナルサウンドトラック くるくる♪みゅーじっくこれくしょん -1-",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-07-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ミライくるくるユメくるる！（TVサイズ）",
+              "position": 27,
+              "recordingId": "mewkledreamy-op-1-song-soundtrack-tv"
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "mjsa-01299-1300",
+          "title": "ミュークルドリーミー オリジナルサウンドトラック くるくる♪みゅーじっくこれくしょん -2-",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-03-24",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "CD＋DVD盤",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ミライくるくるユメくるる！（ロングイントロ・バージョン・ショートサイズ）",
+              "position": 2,
+              "recordingId": "mewkledreamy-op-1-song-long-intro-short"
+            }
+          ],
+          "label": "マーベラス",
+          "catalogNumber": "MJSA-01299～1300"
+        },
+        {
+          "id": "apple-hk-1558441635",
+          "title": "ミュークルドリーミー オリジナルサウンドトラック くるくる♪みゅーじっくこれくしょん -2-",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-03-24",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ミライくるくるユメくるる！（ロングイントロ・バージョン・ショートサイズ）",
+              "position": 2,
+              "recordingId": "mewkledreamy-op-1-song-long-intro-short"
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "apple-jp-1558441635",
+          "title": "ミュークルドリーミー オリジナルサウンドトラック くるくる♪みゅーじっくこれくしょん -2-",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-03-24",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ミライくるくるユメくるる！（ロングイントロ・バージョン・ショートサイズ）",
+              "position": 2,
+              "recordingId": "mewkledreamy-op-1-song-long-intro-short"
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "mjsa-01297-8",
+          "title": "ミュークルドリーミー キャラクターソングアルバム ひらいて☆ミュージックゲート",
+          "type": "album",
+          "date": {
+            "value": "2020-08-05",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "CD＋DVD盤",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ミライくるくるユメくるる！（ロングイントロバージョン）",
+              "position": 7,
+              "recordingId": "mewkledreamy-op-1-song-long-intro-full"
+            },
+            {
+              "title": "ミライくるくるユメくるる！（ロングイントロバージョン・オリジナル・カラオケ）",
+              "position": 17,
+              "recordingId": "mewkledreamy-op-1-song-long-intro-karaoke"
+            }
+          ],
+          "label": "マーベラス",
+          "catalogNumber": "MJSA-01297～8"
+        },
+        {
+          "id": "apple-hk-1524609142",
+          "title": "ミュークルドリーミー キャラクターソングアルバム ひらいて☆ミュージックゲート",
+          "type": "album",
+          "date": {
+            "value": "2020-08-05",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ミライくるくるユメくるる！（ロングイントロバージョン）",
+              "position": 7,
+              "recordingId": "mewkledreamy-op-1-song-long-intro-full"
+            },
+            {
+              "title": "ミライくるくるユメくるる！（ロングイントロバージョン・オリジナル・カラオケ）",
+              "position": 17,
+              "recordingId": "mewkledreamy-op-1-song-long-intro-karaoke"
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "apple-jp-1524609142",
+          "title": "ミュークルドリーミー キャラクターソングアルバム ひらいて☆ミュージックゲート",
+          "type": "album",
+          "date": {
+            "value": "2020-08-05",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ミライくるくるユメくるる！（ロングイントロバージョン）",
+              "position": 7,
+              "recordingId": "mewkledreamy-op-1-song-long-intro-full"
+            },
+            {
+              "title": "ミライくるくるユメくるる！（ロングイントロバージョン・オリジナル・カラオケ）",
+              "position": 17,
+              "recordingId": "mewkledreamy-op-1-song-long-intro-karaoke"
+            }
+          ],
+          "label": "マーベラス"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "ミライくるくるユメくるる！｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1514121029",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1514121025",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "mewkledreamy-op-1-song-single-full"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ミライくるくるユメくるる！（オリジナル・カラオケ）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1514121405",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1514121025",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "mewkledreamy-op-1-song-single-karaoke"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ミライくるくるユメくるる！｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1514121029",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1514121025",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "mewkledreamy-op-1-song-single-full"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ミライくるくるユメくるる！（オリジナル・カラオケ）｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1514121405",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1514121025",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "mewkledreamy-op-1-song-single-karaoke"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ミライくるくるユメくるる！（TVサイズ）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1502685653",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1502685651",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "mewkledreamy-op-1-song-digital-single-tv"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ミライくるくるユメくるる！（TVサイズ）｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1502685653",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1502685651",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "mewkledreamy-op-1-song-digital-single-tv"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ミライくるくるユメくるる！（TVサイズ）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1520558752",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1520557979",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "mewkledreamy-op-1-song-soundtrack-tv"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ミライくるくるユメくるる！（TVサイズ）｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1520558752",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1520557979",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "mewkledreamy-op-1-song-soundtrack-tv"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ミライくるくるユメくるる！（ロングイントロ・バージョン・ショートサイズ）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1558441640",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1558441635",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "mewkledreamy-op-1-song-long-intro-short"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ミライくるくるユメくるる！（ロングイントロ・バージョン・ショートサイズ）｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1558441640",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1558441635",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "mewkledreamy-op-1-song-long-intro-short"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ミライくるくるユメくるる！（ロングイントロバージョン）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1524609389",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1524609142",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "mewkledreamy-op-1-song-long-intro-full"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ミライくるくるユメくるる！（ロングイントロバージョン・オリジナル・カラオケ）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1524609476",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1524609142",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "mewkledreamy-op-1-song-long-intro-karaoke"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ミライくるくるユメくるる！（ロングイントロバージョン）｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1524609389",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1524609142",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "mewkledreamy-op-1-song-long-intro-full"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ミライくるくるユメくるる！（ロングイントロバージョン・オリジナル・カラオケ）｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1524609476",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1524609142",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "mewkledreamy-op-1-song-long-intro-karaoke"
         }
       ]
     },
@@ -15100,14 +16402,14 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
       "artistDisplayName": "澤田真里愛",
       "id": "mewkledreamy-ed-1",
       "sourceMode": "explicit",
-      "lastVerifiedAt": "2026-11-05",
+      "lastVerifiedAt": "2026-11-15",
       "sources": [
         {
           "label": "《夢夢貓》第一方歌曲資料：曲名與演唱者",
           "url": "https://www.tv-tokyo.co.jp/anime/mewkledreamy/staff/",
           "language": "ja",
           "role": "first_party",
-          "verifiedAt": "2026-09-02"
+          "verifiedAt": "2026-11-15"
         },
         {
           "label": "AnimeThemes",
@@ -15117,11 +16419,11 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "verifiedAt": "2026-09-02"
         },
         {
-          "label": "ミュークルドリーミー 官方影片",
           "url": "https://www.youtube.com/watch?v=0_DemCGTn-U",
-          "language": "ja",
+          "label": "權利方官方影片及簡介",
           "role": "first_party",
-          "verifiedAt": "2026-09-02"
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         },
         {
           "label": "動畫官方網站",
@@ -15135,7 +16437,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "テレビ東京原首話：2020/4/5 10:30–11:00獨立節目槽及兩曲OP／ED、澤田真里愛",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-05"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://www.billboard-japan.com/goods/detail/646420",
@@ -15143,12 +16445,203 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-05"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202104/25858_202104041030.html",
+          "label": "東京電視台終回節目與兩首主題曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/mewkledreamy",
+          "label": "原TV逐話歌曲交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/9843/",
+          "label": "唱片公司通常盤曲序與原唱",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.marv.jp/titles/av/9841/",
+          "label": "唱片公司CD＋DVD盤曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000194.000037629.html",
+          "label": "權利方先行配信與主題曲公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1502685651",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1514121025",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1514121401",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1514121412",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1514121025",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1514121401",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1514121412",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1502685654",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1502685651",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1502685654",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/9863/",
+          "label": "唱片公司原聲帶與TV尺寸曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1520557979",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1520558756",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1520557979",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1520558756",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/9879/",
+          "label": "角色歌專輯曲序與片頭／片尾特別音源",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1524609142",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1524609464",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1524609142",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1524609464",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
         {
           "name": "澤田真里愛",
           "role": "vocals"
+        },
+        {
+          "name": "畑亜貴",
+          "role": "lyrics"
+        },
+        {
+          "name": "Motokiyo",
+          "role": "composition"
+        },
+        {
+          "name": "Motokiyo",
+          "role": "arrangement"
+        },
+        {
+          "name": "菊谷知樹",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -15197,26 +16690,1731 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "https://www.billboard-japan.com/goods/detail/646420"
           ],
           "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/mewkledreamy/staff/",
+            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202004/25858_202004051030.html",
+            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202104/25858_202104041030.html",
+            "https://www.mau2.com/anime/mewkledreamy"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mewkledreamy-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/mewkledreamy/staff/"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9843/",
+            "https://prtimes.jp/main/html/rd/p/000000194.000037629.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mewkledreamy-ed-1-song-single-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9843/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mewkledreamy-ed-1-song-single-karaoke"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9843/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mjss-09264"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/av/9841/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mjss-09262-3"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000000194.000037629.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mewkledreamy-ed-1-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1502685651",
+            "https://www.marv.jp/titles/av/9841/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mewkledreamy-ed-1-song-digital-single-tv"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1514121401"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1514121401"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1514121412"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1514121412"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9843/",
+            "https://music.apple.com/hk/album/1514121025"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1514121025"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1514121401"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1514121401"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1514121412"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1514121412"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9843/",
+            "https://music.apple.com/jp/album/1514121025"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1514121025"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1502685654"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1502685654"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/av/9841/",
+            "https://music.apple.com/hk/album/1502685651"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1502685651"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1502685654"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1502685654"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/av/9841/",
+            "https://music.apple.com/jp/album/1502685651"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1502685651"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9863/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mewkledreamy-ed-1-song-soundtrack-tv"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9863/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mjsa-01295-6"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1520558756"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1520558756"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9863/",
+            "https://music.apple.com/hk/album/1520557979"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1520557979"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1520558756"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1520558756"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9863/",
+            "https://music.apple.com/jp/album/1520557979"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1520557979"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=0_DemCGTn-U",
+            "https://www.marv.jp/titles/av/9841/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "0_DemCGTn-U"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9879/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mewkledreamy-ed-1-song-dance-lesson-tv"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9879/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mjsa-01297-8"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1524609464"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1524609464"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9879/",
+            "https://music.apple.com/hk/album/1524609142"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1524609142"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1524609464"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1524609464"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9879/",
+            "https://music.apple.com/jp/album/1524609142"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1524609142"
         }
       ],
       "seasonIds": [
-        "2020-spring"
+        "2020-spring",
+        "2020-summer",
+        "2020-fall",
+        "2021-winter",
+        "2021-spring"
       ],
       "songId": "mewkledreamy-ed-1-song",
-      "usageLabel": "原2020年TV ED；2020-04-05首話已核，後續跨季逐曲用途另核",
+      "usageLabel": "第1–48話原TV片尾｜2020春至2021春",
       "followUp": [
         {
           "fields": [
-            "use_quarters"
+            "recordings",
+            "video_metadata",
+            "platform_availability"
           ],
-          "note": "原2020版首話及2020春用途已核。長篇後續2020夏／秋與2021冬的逐曲延用尚待原期證據，不由全劇期間推算。",
-          "resumeWhen": "待原期後續季度的節目音樂欄、逐話片尾或製播方逐曲公告可讀，再逐季補用曲範圍；不套用「みっくす」。",
-          "checkedAt": "2026-11-05"
+          "note": "已核公開主題曲影片及唱片曲序。逐話剪輯與各同名TV尺寸音軌的對應待核。",
+          "resumeWhen": "待可辨識的原播片段或權利方剪輯對照；地區完整播放另驗。",
+          "checkedAt": "2026-11-15"
+        }
+      ],
+      "releaseDate": "2020-03-23",
+      "recordings": [
+        {
+          "id": "mewkledreamy-ed-1-song-single-full",
+          "title": "トキメキコレクター",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "mewkledreamy-ed-1-song-single-karaoke",
+          "title": "トキメキコレクター（オリジナル・カラオケ）",
+          "kind": "instrumental",
+          "format": "unknown"
+        },
+        {
+          "id": "mewkledreamy-ed-1-song-digital-single-tv",
+          "title": "トキメキコレクター（TVサイズ）",
+          "kind": "vocal",
+          "format": "tv"
+        },
+        {
+          "id": "mewkledreamy-ed-1-song-soundtrack-tv",
+          "title": "トキメキコレクター（TVサイズ）",
+          "kind": "vocal",
+          "format": "tv"
+        },
+        {
+          "id": "mewkledreamy-ed-1-song-dance-lesson-tv",
+          "title": "トキメキコレクター（TV size・ダンスレッスントラック）",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "releases": [
+        {
+          "id": "mjss-09264",
+          "title": "ミライくるくるユメくるる！",
+          "type": "single",
+          "date": {
+            "value": "2020-06-03",
+            "precision": "day"
+          },
+          "artistDisplayName": "澤田真里愛",
+          "edition": "通常盤（CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "トキメキコレクター",
+              "position": 2,
+              "recordingId": "mewkledreamy-ed-1-song-single-full"
+            },
+            {
+              "title": "トキメキコレクター（オリジナル・カラオケ）",
+              "position": 4,
+              "recordingId": "mewkledreamy-ed-1-song-single-karaoke"
+            }
+          ],
+          "label": "マーベラス",
+          "catalogNumber": "MJSS-09264"
+        },
+        {
+          "id": "mjss-09262-3",
+          "title": "ミライくるくるユメくるる！",
+          "type": "single",
+          "date": {
+            "value": "2020-06-03",
+            "precision": "day"
+          },
+          "artistDisplayName": "澤田真里愛",
+          "edition": "CD＋DVD盤",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "トキメキコレクター",
+              "position": 2,
+              "recordingId": "mewkledreamy-ed-1-song-single-full"
+            },
+            {
+              "title": "トキメキコレクター（オリジナル・カラオケ）",
+              "position": 4,
+              "recordingId": "mewkledreamy-ed-1-song-single-karaoke"
+            }
+          ],
+          "label": "マーベラス",
+          "catalogNumber": "MJSS-09262～3"
+        },
+        {
+          "id": "apple-hk-1514121025",
+          "title": "ミライくるくるユメくるる！",
+          "type": "single",
+          "date": {
+            "value": "2020-06-03",
+            "precision": "day"
+          },
+          "artistDisplayName": "澤田真里愛",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "トキメキコレクター",
+              "position": 2,
+              "recordingId": "mewkledreamy-ed-1-song-single-full"
+            },
+            {
+              "title": "トキメキコレクター（オリジナル・カラオケ）",
+              "position": 4,
+              "recordingId": "mewkledreamy-ed-1-song-single-karaoke"
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "apple-jp-1514121025",
+          "title": "ミライくるくるユメくるる！",
+          "type": "single",
+          "date": {
+            "value": "2020-06-03",
+            "precision": "day"
+          },
+          "artistDisplayName": "澤田真里愛",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "トキメキコレクター",
+              "position": 2,
+              "recordingId": "mewkledreamy-ed-1-song-single-full"
+            },
+            {
+              "title": "トキメキコレクター（オリジナル・カラオケ）",
+              "position": 4,
+              "recordingId": "mewkledreamy-ed-1-song-single-karaoke"
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "apple-hk-1502685651",
+          "title": "ミライくるくるユメくるる！（TVサイズ）",
+          "type": "single",
+          "date": {
+            "value": "2020-04-05",
+            "precision": "day"
+          },
+          "artistDisplayName": "澤田真里愛",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "トキメキコレクター（TVサイズ）",
+              "position": 2,
+              "recordingId": "mewkledreamy-ed-1-song-digital-single-tv"
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "apple-jp-1502685651",
+          "title": "ミライくるくるユメくるる！（TVサイズ）",
+          "type": "single",
+          "date": {
+            "value": "2020-04-05",
+            "precision": "day"
+          },
+          "artistDisplayName": "澤田真里愛",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "トキメキコレクター（TVサイズ）",
+              "position": 2,
+              "recordingId": "mewkledreamy-ed-1-song-digital-single-tv"
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "mjsa-01295-6",
+          "title": "ミュークルドリーミー オリジナルサウンドトラック くるくる♪みゅーじっくこれくしょん -1-",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-07-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "CD＋DVD盤",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "トキメキコレクター（TVサイズ）",
+              "position": 28,
+              "recordingId": "mewkledreamy-ed-1-song-soundtrack-tv"
+            }
+          ],
+          "label": "マーベラス",
+          "catalogNumber": "MJSA-01295～6"
+        },
+        {
+          "id": "apple-hk-1520557979",
+          "title": "ミュークルドリーミー オリジナルサウンドトラック くるくる♪みゅーじっくこれくしょん -1-",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-07-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "トキメキコレクター（TVサイズ）",
+              "position": 28,
+              "recordingId": "mewkledreamy-ed-1-song-soundtrack-tv"
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "apple-jp-1520557979",
+          "title": "ミュークルドリーミー オリジナルサウンドトラック くるくる♪みゅーじっくこれくしょん -1-",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-07-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "トキメキコレクター（TVサイズ）",
+              "position": 28,
+              "recordingId": "mewkledreamy-ed-1-song-soundtrack-tv"
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "mjsa-01297-8",
+          "title": "ミュークルドリーミー キャラクターソングアルバム ひらいて☆ミュージックゲート",
+          "type": "album",
+          "date": {
+            "value": "2020-08-05",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "CD＋DVD盤",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "トキメキコレクター（TV size・ダンスレッスントラック）",
+              "position": 10,
+              "recordingId": "mewkledreamy-ed-1-song-dance-lesson-tv"
+            }
+          ],
+          "label": "マーベラス",
+          "catalogNumber": "MJSA-01297～8"
+        },
+        {
+          "id": "apple-hk-1524609142",
+          "title": "ミュークルドリーミー キャラクターソングアルバム ひらいて☆ミュージックゲート",
+          "type": "album",
+          "date": {
+            "value": "2020-08-05",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "トキメキコレクター（TV size・ダンスレッスントラック）",
+              "position": 10,
+              "recordingId": "mewkledreamy-ed-1-song-dance-lesson-tv"
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "apple-jp-1524609142",
+          "title": "ミュークルドリーミー キャラクターソングアルバム ひらいて☆ミュージックゲート",
+          "type": "album",
+          "date": {
+            "value": "2020-08-05",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "トキメキコレクター（TV size・ダンスレッスントラック）",
+              "position": 10,
+              "recordingId": "mewkledreamy-ed-1-song-dance-lesson-tv"
+            }
+          ],
+          "label": "マーベラス"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "トキメキコレクター｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1514121401",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1514121025",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "mewkledreamy-ed-1-song-single-full"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "トキメキコレクター（オリジナル・カラオケ）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1514121412",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1514121025",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "mewkledreamy-ed-1-song-single-karaoke"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "トキメキコレクター｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1514121401",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1514121025",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "mewkledreamy-ed-1-song-single-full"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "トキメキコレクター（オリジナル・カラオケ）｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1514121412",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1514121025",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "mewkledreamy-ed-1-song-single-karaoke"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "トキメキコレクター（TVサイズ）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1502685654",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1502685651",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "mewkledreamy-ed-1-song-digital-single-tv"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "トキメキコレクター（TVサイズ）｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1502685654",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1502685651",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "mewkledreamy-ed-1-song-digital-single-tv"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "トキメキコレクター（TVサイズ）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1520558756",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1520557979",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "mewkledreamy-ed-1-song-soundtrack-tv"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "トキメキコレクター（TVサイズ）｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1520558756",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1520557979",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "mewkledreamy-ed-1-song-soundtrack-tv"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "トキメキコレクター（TV size・ダンスレッスントラック）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1524609464",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1524609142",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "mewkledreamy-ed-1-song-dance-lesson-tv"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "トキメキコレクター（TV size・ダンスレッスントラック）｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1524609464",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1524609142",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "mewkledreamy-ed-1-song-dance-lesson-tv"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 1,
+      "id": "mewkledreamy-in-1",
+      "songId": "mewkledreamy-yukai-hajimare-song",
+      "titleJa": "ユカイハジマレ",
+      "artistDisplayName": "ゆに（釘宮理恵）",
+      "sourceMode": "explicit",
+      "lastVerifiedAt": "2026-11-15",
+      "sources": [
+        {
+          "url": "https://www.marv.jp/titles/mc/9879/",
+          "label": "權利方歌曲或原播分話資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/mewkledreamy/episodes/index_4.html",
+          "label": "權利方歌曲或原播分話資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/mewkledreamy",
+          "label": "原TV劇中用曲交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9879/",
+            "https://www.mau2.com/anime/mewkledreamy"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mewkledreamy-yukai-hajimare-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9879/",
+            "https://www.tv-tokyo.co.jp/anime/mewkledreamy/episodes/index_4.html",
+            "https://www.mau2.com/anime/mewkledreamy"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mewkledreamy-in-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9879/"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9879/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mewkledreamy-yukai-hajimare-song-character-single"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9879/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mewkledreamy-yukai-hajimare-song-original-karaoke"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9879/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mjsa-01297-8"
+        }
+      ],
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "usageLabel": "第14話劇中歌",
+      "credits": [
+        {
+          "name": "釘宮理恵",
+          "role": "vocals"
+        },
+        {
+          "name": "畑亜貴",
+          "role": "lyrics"
+        },
+        {
+          "name": "Motokiyo",
+          "role": "composition"
+        },
+        {
+          "name": "Motokiyo",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "mewkledreamy-yukai-hajimare-song-character-single",
+          "title": "ユカイハジマレ",
+          "kind": "character",
+          "format": "unknown"
+        },
+        {
+          "id": "mewkledreamy-yukai-hajimare-song-original-karaoke",
+          "title": "ユカイハジマレ（オリジナル・カラオケ）",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "mjsa-01297-8",
+          "title": "ミュークルドリーミー キャラクターソングアルバム ひらいて☆ミュージックゲート",
+          "type": "album",
+          "date": {
+            "value": "2020-08-05",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "CD＋DVD盤",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ユカイハジマレ",
+              "position": 4,
+              "recordingId": "mewkledreamy-yukai-hajimare-song-character-single"
+            },
+            {
+              "title": "ユカイハジマレ（オリジナル・カラオケ）",
+              "position": 14,
+              "recordingId": "mewkledreamy-yukai-hajimare-song-original-karaoke"
+            }
+          ],
+          "label": "マーベラス",
+          "catalogNumber": "MJSA-01297～8"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 2,
+      "id": "mewkledreamy-in-2",
+      "songId": "mewkledreamy-mewkle-march-song",
+      "titleJa": "ラララ♪ミュークルマーチ（4人いっしょにバージョン）",
+      "artistDisplayName": "みゅー（豊崎愛生）、ぺこ（久保ユリカ）、すう（金元寿子）、ねね（高野麻里佳）",
+      "sourceMode": "explicit",
+      "lastVerifiedAt": "2026-11-15",
+      "sources": [
+        {
+          "url": "https://www.marv.jp/titles/mc/9879/",
+          "label": "權利方歌曲或原播分話資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/mewkledreamy/episodes/index_2.html",
+          "label": "權利方歌曲或原播分話資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/mewkledreamy",
+          "label": "原TV劇中用曲交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9879/",
+            "https://www.mau2.com/anime/mewkledreamy"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mewkledreamy-mewkle-march-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9879/",
+            "https://www.tv-tokyo.co.jp/anime/mewkledreamy/episodes/index_2.html",
+            "https://www.mau2.com/anime/mewkledreamy"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mewkledreamy-in-2"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9879/"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9879/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mewkledreamy-mewkle-march-song-four-character"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9879/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mewkledreamy-mewkle-march-song-three-character-short"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9879/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mjsa-01297-8"
+        }
+      ],
+      "seasonIds": [
+        "2020-fall"
+      ],
+      "usageLabel": "第29話劇中歌・四人版",
+      "credits": [
+        {
+          "name": "豊崎愛生",
+          "role": "vocals"
+        },
+        {
+          "name": "久保ユリカ",
+          "role": "vocals"
+        },
+        {
+          "name": "金元寿子",
+          "role": "vocals"
+        },
+        {
+          "name": "高野麻里佳",
+          "role": "vocals"
+        },
+        {
+          "name": "畑亜貴",
+          "role": "lyrics"
+        },
+        {
+          "name": "三好啓太",
+          "role": "composition"
+        },
+        {
+          "name": "三好啓太",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "mewkledreamy-mewkle-march-song-four-character",
+          "title": "ラララ♪ミュークルマーチ（4人いっしょにバージョン）",
+          "kind": "character",
+          "format": "unknown"
+        },
+        {
+          "id": "mewkledreamy-mewkle-march-song-three-character-short",
+          "title": "ラララ♪ミュークルマーチ（Short ver.）",
+          "kind": "character",
+          "format": "short"
+        }
+      ],
+      "releases": [
+        {
+          "id": "mjsa-01297-8",
+          "title": "ミュークルドリーミー キャラクターソングアルバム ひらいて☆ミュージックゲート",
+          "type": "album",
+          "date": {
+            "value": "2020-08-05",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "CD＋DVD盤",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ラララ♪ミュークルマーチ（4人いっしょにバージョン）",
+              "position": 1,
+              "recordingId": "mewkledreamy-mewkle-march-song-four-character"
+            },
+            {
+              "title": "ラララ♪ミュークルマーチ（Short ver.）",
+              "position": 9,
+              "recordingId": "mewkledreamy-mewkle-march-song-three-character-short"
+            },
+            {
+              "title": "ラララ♪ミュークルマーチ（オリジナル・カラオケ）",
+              "position": 11
+            }
+          ],
+          "label": "マーベラス",
+          "catalogNumber": "MJSA-01297～8"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 3,
+      "id": "mewkledreamy-in-3",
+      "songId": "mewkledreamy-rock-rock-rock-song",
+      "titleJa": "ロック！ロック！ロック！",
+      "artistDisplayName": "ロック・ペブル＆ストーンズ",
+      "sourceMode": "explicit",
+      "lastVerifiedAt": "2026-11-15",
+      "sources": [
+        {
+          "url": "https://www.marv.jp/titles/av/10029/",
+          "label": "權利方歌曲或原播分話資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202101/25858_202101311030.html",
+          "label": "權利方歌曲或原播分話資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/mewkledreamy",
+          "label": "原TV劇中用曲交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%AF%E3%83%AB%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9F%E3%83%BC",
+          "label": "原TV劇中用曲交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/av/10029/",
+            "https://www.mau2.com/anime/mewkledreamy",
+            "https://ja.wikipedia.org/wiki/%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%AF%E3%83%AB%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9F%E3%83%BC"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mewkledreamy-rock-rock-rock-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/av/10029/",
+            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202101/25858_202101311030.html",
+            "https://www.mau2.com/anime/mewkledreamy",
+            "https://ja.wikipedia.org/wiki/%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%AF%E3%83%AB%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9F%E3%83%BC"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mewkledreamy-in-3"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/av/10029/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mewkledreamy-rock-rock-rock-song-soundtrack-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/av/10029/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mjsa-01299-1300"
+        }
+      ],
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "usageLabel": "第39話劇中歌；劇中樂團名義",
+      "recordings": [
+        {
+          "id": "mewkledreamy-rock-rock-rock-song-soundtrack-instrumental",
+          "title": "ロック！ロック！ロック！（伴奏のみ）",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "mjsa-01299-1300",
+          "title": "ミュークルドリーミー オリジナルサウンドトラック くるくる♪みゅーじっくこれくしょん -2-",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-03-24",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "CD＋DVD盤",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ロック！ロック！ロック！（伴奏のみ）",
+              "position": 15,
+              "recordingId": "mewkledreamy-rock-rock-rock-song-soundtrack-instrumental"
+            }
+          ],
+          "label": "マーベラス",
+          "catalogNumber": "MJSA-01299～1300"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recordings"
+          ],
+          "note": "已確認劇中樂團名義及唱片的伴奏版本。",
+          "resumeWhen": "待原播歌曲署名或權利方曲表確認主唱、詞曲編與另有無人聲發行。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 4,
+      "id": "mewkledreamy-in-4",
+      "songId": "mewkledreamy-yume-no-hana-song",
+      "titleJa": "ゆめのはな",
+      "artistDisplayName": "一五学園合唱部",
+      "sourceMode": "explicit",
+      "lastVerifiedAt": "2026-11-15",
+      "sources": [
+        {
+          "url": "https://www.marv.jp/titles/mc/9879/",
+          "label": "權利方歌曲或原播分話資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/mewkledreamy/episodes/",
+          "label": "權利方歌曲或原播分話資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/mewkledreamy/episodes/index_4.html",
+          "label": "權利方歌曲或原播分話資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/mewkledreamy",
+          "label": "原TV劇中用曲交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://zh.moegirl.org.cn/zh-tw/%E7%94%9C%E6%A2%A6%E7%8C%AB",
+          "label": "原TV劇中用曲交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://hisonobi.hatenablog.com/entry/mewkledreamy-episode48-kansou",
+          "label": "原TV劇中用曲交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.marv.jp/titles/av/10029/",
+          "label": "唱片公司原聲帶與純伴奏曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9879/",
+            "https://www.mau2.com/anime/mewkledreamy",
+            "https://zh.moegirl.org.cn/zh-tw/%E7%94%9C%E6%A2%A6%E7%8C%AB",
+            "https://hisonobi.hatenablog.com/entry/mewkledreamy-episode48-kansou"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mewkledreamy-yume-no-hana-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9879/",
+            "https://www.tv-tokyo.co.jp/anime/mewkledreamy/episodes/",
+            "https://www.tv-tokyo.co.jp/anime/mewkledreamy/episodes/index_4.html",
+            "https://www.mau2.com/anime/mewkledreamy",
+            "https://zh.moegirl.org.cn/zh-tw/%E7%94%9C%E6%A2%A6%E7%8C%AB",
+            "https://hisonobi.hatenablog.com/entry/mewkledreamy-episode48-kansou"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mewkledreamy-in-4"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9879/"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9879/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mewkledreamy-yume-no-hana-song-sawada-solo"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9879/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mewkledreamy-yume-no-hana-song-original-karaoke"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9879/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mjsa-01297-8"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/av/10029/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mewkledreamy-yume-no-hana-song-soundtrack-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/av/10029/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mjsa-01299-1300"
+        }
+      ],
+      "seasonIds": [
+        "2020-summer",
+        "2021-spring"
+      ],
+      "usageLabel": "第14、48話劇中歌；一五学園合唱部",
+      "credits": [
+        {
+          "name": "金杉弘子",
+          "role": "lyrics"
+        },
+        {
+          "name": "川田瑠夏",
+          "role": "composition"
+        },
+        {
+          "name": "川田瑠夏",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "mewkledreamy-yume-no-hana-song-sawada-solo",
+          "title": "ゆめのはな（澤田真里愛・独唱）",
+          "kind": "vocal",
+          "format": "unknown"
+        },
+        {
+          "id": "mewkledreamy-yume-no-hana-song-original-karaoke",
+          "title": "ゆめのはな（オリジナル・カラオケ）",
+          "kind": "instrumental",
+          "format": "unknown"
+        },
+        {
+          "id": "mewkledreamy-yume-no-hana-song-soundtrack-instrumental",
+          "title": "ゆめのはな（伴奏のみ）",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "mjsa-01297-8",
+          "title": "ミュークルドリーミー キャラクターソングアルバム ひらいて☆ミュージックゲート",
+          "type": "album",
+          "date": {
+            "value": "2020-08-05",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "CD＋DVD盤",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ゆめのはな（澤田真里愛・独唱）",
+              "position": 8,
+              "recordingId": "mewkledreamy-yume-no-hana-song-sawada-solo"
+            },
+            {
+              "title": "ゆめのはな（オリジナル・カラオケ）",
+              "position": 18,
+              "recordingId": "mewkledreamy-yume-no-hana-song-original-karaoke"
+            }
+          ],
+          "label": "マーベラス",
+          "catalogNumber": "MJSA-01297～8"
+        },
+        {
+          "id": "mjsa-01299-1300",
+          "title": "ミュークルドリーミー オリジナルサウンドトラック くるくる♪みゅーじっくこれくしょん -2-",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-03-24",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "CD＋DVD盤",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ゆめのはな（伴奏のみ）",
+              "position": 29,
+              "recordingId": "mewkledreamy-yume-no-hana-song-soundtrack-instrumental"
+            }
+          ],
+          "label": "マーベラス",
+          "catalogNumber": "MJSA-01299～1300"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings"
+          ],
+          "note": "商業獨唱版與劇中合唱用法分開登記。",
+          "resumeWhen": "待原播片尾署名或權利方錄音資料確認合唱成員及各段剪輯。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 5,
+      "id": "mewkledreamy-in-5",
+      "songId": "mewkledreamy-ed-1-song",
+      "titleJa": "トキメキコレクター",
+      "artistDisplayName": "澤田真里愛",
+      "sourceMode": "explicit",
+      "lastVerifiedAt": "2026-11-15",
+      "sources": [
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/mewkledreamy/staff/",
+          "label": "權利方歌曲或原播分話資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202104/25858_202104041030.html",
+          "label": "權利方歌曲或原播分話資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%AF%E3%83%AB%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9F%E3%83%BC",
+          "label": "原TV劇中用曲交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/mewkledreamy/staff/",
+            "https://ja.wikipedia.org/wiki/%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%AF%E3%83%AB%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9F%E3%83%BC"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mewkledreamy-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/mewkledreamy/staff/",
+            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202104/25858_202104041030.html",
+            "https://ja.wikipedia.org/wiki/%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%AF%E3%83%AB%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9F%E3%83%BC"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mewkledreamy-in-5"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/mewkledreamy/staff/"
+          ],
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "seasonIds": [
+        "2021-spring"
+      ],
+      "usageLabel": "第48話劇中亦使用當期片尾曲",
+      "credits": [
+        {
+          "name": "澤田真里愛",
+          "role": "vocals"
+        },
+        {
+          "name": "畑亜貴",
+          "role": "lyrics"
+        },
+        {
+          "name": "Motokiyo",
+          "role": "composition"
+        },
+        {
+          "name": "Motokiyo",
+          "role": "arrangement"
+        },
+        {
+          "name": "菊谷知樹",
+          "role": "arrangement"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings"
+          ],
+          "note": "同期片尾曲的劇中使用另列。",
+          "resumeWhen": "待可核對的原播聲畫明示劇中片段剪輯及演唱版本。",
+          "checkedAt": "2026-11-15"
         }
       ]
     }
   ],
-  "metadataVerifiedAt": "2026-11-05",
+  "metadataVerifiedAt": "2026-11-15",
   "metadataSources": [
     {
       "label": "動畫官方網站：作品與播出資料",
@@ -15266,9 +18464,51 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
       "role": "first_party",
       "language": "ja",
       "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/anime/mewkledreamy/episodes/",
+      "label": "東京電視台後段分話、播出日期與完結",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/anime/mewkledreamy/episodes/index_5.html",
+      "label": "東京電視台首段分話與播出日期",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.coms-auth.hk/filemanager/en/content_1662/TVB_Positive_Programmes_2022.pdf",
+      "label": "TVB 香港正式播映名稱",
+      "role": "first_party",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.bilibili.com/bangumi/media/md28228433",
+      "label": "Bilibili 中國大陸正版番劇頁及播映名稱",
+      "role": "first_party",
+      "language": "zh-Hans",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/anime/mewkledreamy/news/",
+      "label": "東京電視台延播與恢復新集公告",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
     }
   ],
-  "broadcastTimeJst": "10:30"
+  "broadcastTimeJst": "10:30",
+  "seasonIds": [
+    "2020-spring",
+    "2020-summer",
+    "2020-fall",
+    "2021-winter",
+    "2021-spring"
+  ]
 }),
   spring2020Seed({
   "anilistId": 111323,
@@ -27968,7 +31208,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
   "titleZhHant": "先鋒飛車 極速合體 地球防衛隊",
   "titleRomaji": "Tomica Kizuna Gattai: Earth Granner",
   "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114717-BrI8RVqye7Sd.jpg",
-  "broadcastLabel": "テレビ大阪・テレビ東京系列原期初回",
+  "broadcastLabel": "テレビ大阪／テレビ東京系列週日09:30原播；第51話於2021年3月28日播出",
   "officialSiteUrl": "https://www.tv-osaka.co.jp/ip4/earth-granner/",
   "sourceReferenceUrls": [
     "https://youranimes.tw/animes/333",
@@ -28006,11 +31246,11 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "verifiedAt": "2026-09-02"
         },
         {
-          "label": "Masayoshi Oishi 官方影片",
           "url": "https://www.youtube.com/watch?v=MbFyOtpwx5s",
-          "language": "ja",
+          "label": "權利方官方影片及簡介",
           "role": "first_party",
-          "verifiedAt": "2026-09-02"
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         },
         {
           "label": "動畫官方網站",
@@ -28032,6 +31272,97 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.mau2.com/anime/earthgranner",
+          "label": "第1–51話逐話片頭及片尾曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.ttmnet.co.jp/theme/2020-10/",
+          "label": "播出方2020秋主題曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.ttmnet.co.jp/theme/2021-2-2/",
+          "label": "播出方2021冬主題曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.ponycanyon.co.jp/music/PCCG000001907",
+          "label": "唱片公司通常盤與實際發行日",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://news.ponycanyon.co.jp/2020/05/38113",
+          "label": "唱片公司兩版單曲及原曲、TV edit、伴奏曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.014014.jp/news/2916",
+          "label": "藝人發行公告及初回盤曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://news.ponycanyon.co.jp/2020/05/38232",
+          "label": "唱片公司先行配信日期及官方MV",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1510918317",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1510918318",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1510918776",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1510918779",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=_IyOaaTOo7c",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=azs3z2xZiXs",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
@@ -28108,27 +31439,344 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "https://www.tv-osaka.co.jp/ip4/earth-granner/news/1883527_13022.html"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/earthgranner",
+            "https://www.ttmnet.co.jp/theme/2020-10/",
+            "https://www.ttmnet.co.jp/theme/2021-2-2/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "tomica-kizuna-gattai-earth-granner-op-1"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.ponycanyon.co.jp/music/PCCG000001907",
+            "https://news.ponycanyon.co.jp/2020/05/38232"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "tomica-kizuna-gattai-earth-granner-op-1-song-single-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://news.ponycanyon.co.jp/2020/05/38113"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "tomica-kizuna-gattai-earth-granner-op-1-song-tv-edit"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://news.ponycanyon.co.jp/2020/05/38113"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "tomica-kizuna-gattai-earth-granner-op-1-song-karaoke"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.014014.jp/news/2916",
+            "https://news.ponycanyon.co.jp/2020/05/38113"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "earth-oishi-pccg-01906"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.ponycanyon.co.jp/music/PCCG000001907",
+            "https://news.ponycanyon.co.jp/2020/05/38113"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "earth-oishi-pccg-01907"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1510918318"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1510918318"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1510918776"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1510918776"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1510918779"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1510918779"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.ponycanyon.co.jp/music/PCCG000001907",
+            "https://music.apple.com/hk/album/1510918317"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1510918317"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=MbFyOtpwx5s",
+            "https://news.ponycanyon.co.jp/2020/05/38232"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "MbFyOtpwx5s"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=_IyOaaTOo7c",
+            "https://www.ponycanyon.co.jp/music/PCCG000001907"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "_IyOaaTOo7c"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=azs3z2xZiXs",
+            "https://www.ponycanyon.co.jp/music/PCCG000001907"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "azs3z2xZiXs"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "本期歌曲身分、用途與逐曲季度已核；未新增個別歌唱或音源版本。",
-          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
-          "checkedAt": "2026-10-24"
+          "note": "已核同單曲的原曲、TV edit與伴奏。原TV剪輯與官方MV的母帶關係待核。",
+          "resumeWhen": "待原播片頭與CD音軌或唱片方版本說明；平台完整播放需依地區另驗。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第1–51話原TV片頭｜2020春至2021冬",
+      "recordings": [
+        {
+          "id": "tomica-kizuna-gattai-earth-granner-op-1-song-single-full",
+          "title": "世界が君を必要とする時が来たんだ",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "tomica-kizuna-gattai-earth-granner-op-1-song-tv-edit",
+          "title": "世界が君を必要とする時が来たんだ (TV edit.)",
+          "kind": "vocal",
+          "format": "tv"
+        },
+        {
+          "id": "tomica-kizuna-gattai-earth-granner-op-1-song-karaoke",
+          "title": "世界が君を必要とする時が来たんだ (KARAOKE)",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "earth-oishi-pccg-01906",
+          "title": "世界が君を必要とする時が来たんだ／英雄の歌",
+          "type": "single",
+          "date": {
+            "value": "2020-06-03",
+            "precision": "day"
+          },
+          "artistDisplayName": "オーイシマサヨシ",
+          "edition": "初回限定盤（CD＋Blu-ray）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "世界が君を必要とする時が来たんだ",
+              "position": 1,
+              "recordingId": "tomica-kizuna-gattai-earth-granner-op-1-song-single-full"
+            },
+            {
+              "title": "世界が君を必要とする時が来たんだ (TV edit.)",
+              "position": 3,
+              "recordingId": "tomica-kizuna-gattai-earth-granner-op-1-song-tv-edit"
+            },
+            {
+              "title": "世界が君を必要とする時が来たんだ (KARAOKE)",
+              "position": 4,
+              "recordingId": "tomica-kizuna-gattai-earth-granner-op-1-song-karaoke"
+            }
+          ],
+          "label": "PONY CANYON",
+          "catalogNumber": "PCCG-01906"
+        },
+        {
+          "id": "earth-oishi-pccg-01907",
+          "title": "世界が君を必要とする時が来たんだ／英雄の歌",
+          "type": "single",
+          "date": {
+            "value": "2020-06-03",
+            "precision": "day"
+          },
+          "artistDisplayName": "オーイシマサヨシ",
+          "edition": "通常盤（CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "世界が君を必要とする時が来たんだ",
+              "position": 1,
+              "recordingId": "tomica-kizuna-gattai-earth-granner-op-1-song-single-full"
+            },
+            {
+              "title": "世界が君を必要とする時が来たんだ (TV edit.)",
+              "position": 3,
+              "recordingId": "tomica-kizuna-gattai-earth-granner-op-1-song-tv-edit"
+            },
+            {
+              "title": "世界が君を必要とする時が来たんだ (KARAOKE)",
+              "position": 4,
+              "recordingId": "tomica-kizuna-gattai-earth-granner-op-1-song-karaoke"
+            }
+          ],
+          "label": "PONY CANYON",
+          "catalogNumber": "PCCG-01907"
+        },
+        {
+          "id": "apple-hk-1510918317",
+          "title": "世界が君を必要とする時が来たんだ／英雄の歌",
+          "type": "single",
+          "date": {
+            "value": "2020-06-03",
+            "precision": "day"
+          },
+          "artistDisplayName": "オーイシマサヨシ",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "世界が君を必要とする時が来たんだ",
+              "position": 1,
+              "recordingId": "tomica-kizuna-gattai-earth-granner-op-1-song-single-full"
+            },
+            {
+              "title": "世界が君を必要とする時が来たんだ (TV edit.)",
+              "position": 3,
+              "recordingId": "tomica-kizuna-gattai-earth-granner-op-1-song-tv-edit"
+            },
+            {
+              "title": "世界が君を必要とする時が来たんだ (KARAOKE)",
+              "position": 4,
+              "recordingId": "tomica-kizuna-gattai-earth-granner-op-1-song-karaoke"
+            }
+          ],
+          "label": "PONY CANYON"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "世界が君を必要とする時が来たんだ｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1510918318",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1510918317",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "tomica-kizuna-gattai-earth-granner-op-1-song-single-full"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "世界が君を必要とする時が来たんだ (TV edit.)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1510918776",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1510918317",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "tomica-kizuna-gattai-earth-granner-op-1-song-tv-edit"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "世界が君を必要とする時が来たんだ (KARAOKE)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1510918779",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1510918317",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "tomica-kizuna-gattai-earth-granner-op-1-song-karaoke"
+        }
+      ]
     },
     {
       "type": "ED",
       "sequence": 1,
       "titleJa": "僕らがヒーロー",
-      "artistDisplayName": "ダ・ヴィンチ：ポワロ(凛＋原田謙太)",
+      "artistDisplayName": "ダ・ヴィンチ：ポワロ（凛、原田謙太）",
       "id": "tomica-kizuna-gattai-earth-granner-ed-1",
       "songId": "tomica-kizuna-gattai-earth-granner-ed-1-song",
       "sourceMode": "explicit",
@@ -28154,11 +31802,11 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "verifiedAt": "2026-09-02"
         },
         {
-          "label": "ぽにきゃん-Anime PONY CANYON 官方影片",
           "url": "https://www.youtube.com/watch?v=D_D2hSzf0C0",
-          "language": "ja",
+          "label": "權利方官方影片及簡介",
           "role": "first_party",
-          "verifiedAt": "2026-09-02"
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         },
         {
           "label": "動畫官方網站",
@@ -28180,13 +31828,58 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.mau2.com/anime/earthgranner",
+          "label": "第1–51話逐話片頭及片尾曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.ttmnet.co.jp/theme/2020-10/",
+          "label": "播出方2020秋主題曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.ttmnet.co.jp/theme/2021-2-2/",
+          "label": "播出方2021冬主題曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://news.ponycanyon.co.jp/2020/05/38362",
+          "label": "唱片公司片尾曲、發行與製作名單",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://note.com/t_shimazaki/n/n99acc20e6618",
+          "label": "歌曲製作人公開發行及MV資訊",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1514742244",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1514742428",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
-        {
-          "name": "ダ・ヴィンチ：ポワロ(凛＋原田謙太)",
-          "role": "vocals"
-        },
         {
           "name": "島崎貴光",
           "role": "lyrics"
@@ -28198,6 +31891,14 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
         {
           "name": "島崎貴光",
           "role": "arrangement"
+        },
+        {
+          "name": "凛",
+          "role": "vocals"
+        },
+        {
+          "name": "原田謙太",
+          "role": "vocals"
         }
       ],
       "evidence": [
@@ -28256,24 +31957,158 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "https://prtimes.jp/main/html/rd/p/000000674.000020945.html"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/earthgranner",
+            "https://www.ttmnet.co.jp/theme/2020-10/",
+            "https://www.ttmnet.co.jp/theme/2021-2-2/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "tomica-kizuna-gattai-earth-granner-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://news.ponycanyon.co.jp/2020/05/38362",
+            "https://note.com/t_shimazaki/n/n99acc20e6618"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "tomica-kizuna-gattai-earth-granner-ed-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://news.ponycanyon.co.jp/2020/05/38362",
+            "https://note.com/t_shimazaki/n/n99acc20e6618"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://news.ponycanyon.co.jp/2020/05/38362",
+            "https://note.com/t_shimazaki/n/n99acc20e6618"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "tomica-kizuna-gattai-earth-granner-ed-1-song-digital-single"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1514742428"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1514742428"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://news.ponycanyon.co.jp/2020/05/38362",
+            "https://note.com/t_shimazaki/n/n99acc20e6618",
+            "https://music.apple.com/hk/album/1514742244"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1514742244"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=D_D2hSzf0C0",
+            "https://note.com/t_shimazaki/n/n99acc20e6618"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "D_D2hSzf0C0"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "releases",
-            "platform_links"
+            "video_metadata",
+            "platform_availability"
           ],
-          "note": "本期歌曲身分、用途與逐曲季度已核；未新增個別歌唱或音源版本。",
-          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
-          "checkedAt": "2026-10-24"
+          "note": "已核原唱數位版及官方MV；原播片尾剪輯與發行版關係待核。",
+          "resumeWhen": "待可辨識原播片尾與獨立TV版音軌或權利方說明；平台完整播放需依地區另驗。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第1–51話原TV片尾｜2020春至2021冬",
+      "recordings": [
+        {
+          "id": "tomica-kizuna-gattai-earth-granner-ed-1-song-digital-single",
+          "title": "僕らがヒーロー",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "僕らがヒーロー｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1514742428",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1514742244",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "tomica-kizuna-gattai-earth-granner-ed-1-song-digital-single"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1514742244",
+          "title": "僕らがヒーロー",
+          "type": "single",
+          "date": {
+            "value": "2020-06-03",
+            "precision": "day"
+          },
+          "artistDisplayName": "ダ・ヴィンチ：ポワロ（凛、原田謙太）",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "僕らがヒーロー",
+              "position": 1,
+              "recordingId": "tomica-kizuna-gattai-earth-granner-ed-1-song-digital-single"
+            }
+          ],
+          "label": "PONY CANYON"
+        }
+      ]
     }
   ],
-  "metadataVerifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-11-15",
   "metadataSources": [
     {
       "url": "https://prtimes.jp/main/html/rd/p/000000674.000020945.html",
@@ -28288,6 +32123,27 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
       "role": "broadcast_cross_check",
       "language": "ja",
       "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202004/25854_202004050930.html",
+      "label": "電視台第1話原播時段",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.tv-osaka.co.jp/ip4/earth-granner/story/index,1,list1,3.html",
+      "label": "電視台2020年末及2021年初逐集播出",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202103/25854_202103280930.html",
+      "label": "電視台終回首播時段",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
     }
   ],
   "editorialWeekday": 7,
@@ -28304,15 +32160,16 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
   "slug": "digimon-adventure-2020",
   "startDate": "2020-04-05",
   "titleJa": "デジモンアドベンチャー:",
-  "titleZhHant": "數碼寶貝：",
+  "titleZhHant": "數碼暴龍：重啟之戰",
   "titleRomaji": "Digimon Adventure:",
   "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114811-SLZ6cMMhx6Im.jpg",
   "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/114811-0vsPGTLAOKPu.jpg",
-  "broadcastLabel": "日本首播／時間未整理",
+  "broadcastLabel": "富士電視台週日09:00原播；2020年6月28日恢復新集；2021年9月26日完結",
   "officialSiteUrl": "https://www.toei-anim.co.jp/tv/digimon/",
   "sourceReferenceUrls": [
     "https://youranimes.tw/animes/55",
-    "https://acgsecrets.hk/bangumi/202004/"
+    "https://acgsecrets.hk/bangumi/202004/",
+    "https://www.ttv.com.tw/drama21/DigimonAdventure/default.asp"
   ],
   "animeThemesUrl": "https://animethemes.moe/anime/digimon_adventure_2020",
   "themes": [
@@ -28348,11 +32205,11 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "verifiedAt": "2026-09-02"
         },
         {
-          "label": "東映アニメーション公式YouTubeチャンネル 官方影片",
           "url": "https://www.youtube.com/watch?v=aPPCXVBHPhw",
-          "language": "ja",
+          "label": "權利方官方影片及簡介",
           "role": "first_party",
-          "verifiedAt": "2026-09-02"
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://www.toei-anim.co.jp/tv/digimon/about/",
@@ -28367,6 +32224,139 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.mau2.com/anime/digimonadventure-r2",
+          "label": "原TV逐話主題曲及劇中曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.toei-anim.co.jp/tv/digimon/news/2020082301.php",
+          "label": "第一方原播關聯與歌曲公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.fujitv.co.jp/b_hp/digimon/",
+          "label": "第一方原播與用曲補充",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://columbia.jp/artist-info/tanimototakayoshi/discography/COKM-42717.html",
+          "label": "唱片方2020年4月TV Size配信",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://columbia.jp/artist-info/tanimototakayoshi/discography/COCC-17780.html",
+          "label": "唱片方單曲原版及伴奏",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://columbia.jp/artist-info/tanimototakayoshi/info/71788.html",
+          "label": "唱片方完整版MV公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.cdjapan.co.jp/product/COCX-41254",
+          "label": "實體曲目位置交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1505439375",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1505439376",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1527203770",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1527203771",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1527203779",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://columbia.jp/artist-info/tanimototakayoshi/discography/COKM-42914.html",
+          "label": "唱片方精選輯及兩個曲位",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1527207620",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1527207621",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1527207622",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.toei-anim.co.jp/tv/digimon/movie/",
+          "label": "權利方影片說明或專區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://columbia.jp/artist-info/tanimototakayoshi/movie/",
+          "label": "權利方影片說明或專區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=5WEKOTQVRDM",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
@@ -28443,21 +32433,432 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "https://www.toei-anim.co.jp/tv/digimon/about/"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/news/2020082301.php",
+            "https://www.fujitv.co.jp/b_hp/digimon/",
+            "https://www.mau2.com/anime/digimonadventure-r2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-op-1"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/tanimototakayoshi/discography/COCC-17780.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-op-1-song-single-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/tanimototakayoshi/discography/COKM-42717.html",
+            "https://www.toei-anim.co.jp/tv/digimon/news/2020082301.php"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-op-1-song-tv-size"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/tanimototakayoshi/discography/COCC-17780.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-op-1-song-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/tanimototakayoshi/discography/COCC-17780.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "cocc-17780"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/news/2020082301.php",
+            "https://www.cdjapan.co.jp/product/COCX-41254"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "cocx-41254"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1505439376"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1505439376"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/tanimototakayoshi/discography/COKM-42717.html",
+            "https://music.apple.com/jp/album/1505439375"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1505439375"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1527203771"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1527203771"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1527203779"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1527203779"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/tanimototakayoshi/discography/COCC-17780.html",
+            "https://music.apple.com/jp/album/1527203770"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1527203770"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1527207621"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1527207621"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1527207622"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1527207622"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/tanimototakayoshi/discography/COKM-42914.html",
+            "https://music.apple.com/hk/album/1527207620"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1527207620"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=aPPCXVBHPhw",
+            "https://www.toei-anim.co.jp/tv/digimon/movie/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "aPPCXVBHPhw"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=5WEKOTQVRDM",
+            "https://columbia.jp/artist-info/tanimototakayoshi/movie/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "5WEKOTQVRDM"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/tanimototakayoshi/discography/COKM-42717.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-op-1-song"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "本期歌曲身分、用途與逐曲季度已核；未新增個別歌唱或音源版本。",
-          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
-          "checkedAt": "2026-10-24"
+          "note": "收錄已核錄音及發行曲位。原播剪輯與個別發行版的母帶對應待核。",
+          "resumeWhen": "待可比對的原播音軌或權利方版本對照，完整平台播放另按地區覆核。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第1–67話原TV片頭｜2020春至2021夏",
+      "recordings": [
+        {
+          "id": "digimon-adventure-2020-op-1-song-single-full",
+          "title": "未確認飛行船",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "digimon-adventure-2020-op-1-song-tv-size",
+          "title": "未確認飛行船 (TVサイズ)",
+          "kind": "vocal",
+          "format": "tv"
+        },
+        {
+          "id": "digimon-adventure-2020-op-1-song-instrumental",
+          "title": "未確認飛行船 (オリジナル・カラオケ)",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "cocc-17780",
+          "title": "未確認飛行船",
+          "type": "single",
+          "date": {
+            "value": "2020-08-19",
+            "precision": "day"
+          },
+          "artistDisplayName": "谷本貴義",
+          "edition": "日本CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "未確認飛行船",
+              "position": 1,
+              "recordingId": "digimon-adventure-2020-op-1-song-single-full"
+            },
+            {
+              "title": "未確認飛行船 (オリジナル・カラオケ)",
+              "position": 4,
+              "recordingId": "digimon-adventure-2020-op-1-song-instrumental"
+            }
+          ],
+          "label": "日本コロムビア",
+          "catalogNumber": "COCC-17780"
+        },
+        {
+          "id": "cocx-41254",
+          "title": "TVアニメ「デジモンアドベンチャー：」オリジナルサウンドトラック vol.1",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-09-30",
+            "precision": "day"
+          },
+          "artistDisplayName": "佐橋俊彦",
+          "edition": "日本CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "未確認飛行船 (TVサイズ)",
+              "position": 2,
+              "recordingId": "digimon-adventure-2020-op-1-song-tv-size"
+            }
+          ],
+          "label": "日本コロムビア",
+          "catalogNumber": "COCX-41254"
+        },
+        {
+          "id": "apple-jp-1505439375",
+          "title": "未確認飛行船 (TVサイズ)",
+          "type": "single",
+          "date": {
+            "value": "2020-04-06",
+            "precision": "day"
+          },
+          "artistDisplayName": "谷本貴義",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "未確認飛行船 (TVサイズ)",
+              "position": 1,
+              "recordingId": "digimon-adventure-2020-op-1-song-tv-size"
+            }
+          ],
+          "label": "日本コロムビア"
+        },
+        {
+          "id": "apple-jp-1527203770",
+          "title": "未確認飛行船",
+          "type": "single",
+          "date": {
+            "value": "2020-08-19",
+            "precision": "day"
+          },
+          "artistDisplayName": "谷本貴義",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "未確認飛行船",
+              "position": 1,
+              "recordingId": "digimon-adventure-2020-op-1-song-single-full"
+            },
+            {
+              "title": "未確認飛行船 (オリジナル・カラオケ)",
+              "position": 4,
+              "recordingId": "digimon-adventure-2020-op-1-song-instrumental"
+            }
+          ],
+          "label": "日本コロムビア"
+        },
+        {
+          "id": "apple-hk-1527207620",
+          "title": "Career along",
+          "type": "compilation",
+          "date": {
+            "value": "2020-08-19",
+            "precision": "day"
+          },
+          "artistDisplayName": "谷本貴義",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "未確認飛行船",
+              "position": 1
+            },
+            {
+              "title": "未確認飛行船 (オリジナル・カラオケ)",
+              "position": 2
+            }
+          ],
+          "label": "日本コロムビア"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "未確認飛行船 (TVサイズ)｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1505439376",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1505439375",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "digimon-adventure-2020-op-1-song-tv-size"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "未確認飛行船｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1527203771",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1527203770",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "digimon-adventure-2020-op-1-song-single-full"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "未確認飛行船 (オリジナル・カラオケ)｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1527203779",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1527203770",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "digimon-adventure-2020-op-1-song-instrumental"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "未確認飛行船｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1527207621",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1527207620",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "未確認飛行船 (オリジナル・カラオケ)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1527207622",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1527207620",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "releaseDate": "2020-04-06"
     },
     {
       "type": "ED",
@@ -28487,11 +32888,11 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "verifiedAt": "2026-09-02"
         },
         {
-          "label": "Chiai Fujikawa 官方影片",
           "url": "https://www.youtube.com/watch?v=ZLtg9XI01Hc",
-          "language": "ja",
+          "label": "權利方官方影片及簡介",
           "role": "first_party",
-          "verifiedAt": "2026-09-02"
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://www.toei-anim.co.jp/tv/digimon/about/",
@@ -28506,6 +32907,69 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.mau2.com/anime/digimonadventure-r2",
+          "label": "原TV逐話主題曲及劇中曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.toei-anim.co.jp/tv/digimon/news/2020082301.php",
+          "label": "第一方原播關聯與歌曲公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://columbia.jp/artist-info/fujikawachiai/discography/COCP-41115.html",
+          "label": "通常盤CD及曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000861.000019470.html",
+          "label": "唱片方4月5日先行與MV",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://columbia.jp/artist-info/fujikawachiai/discography/COZP-1695-6.html",
+          "label": "唱片方初回盤Blu-ray現場演出收錄",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://columbia.jp/artist-info/fujikawachiai/info/70068.html",
+          "label": "權利方實體發行日期及曲目",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.cdjapan.co.jp/product/COCX-41254",
+          "label": "實體曲目位置交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1504181632",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1504181638",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
@@ -28582,21 +33046,324 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "https://www.toei-anim.co.jp/tv/digimon/about/"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/news/2020082301.php",
+            "https://www.mau2.com/anime/digimonadventure-r2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-ed-1"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/fujikawachiai/discography/COCP-41115.html",
+            "https://prtimes.jp/main/html/rd/p/000000861.000019470.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-ed-1-song-album-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/news/2020082301.php"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-ed-1-song-tv-size"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/fujikawachiai/discography/COZP-1695-6.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-ed-1-song-2020-06-06-live"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/fujikawachiai/discography/COCP-41115.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "cocp-41115"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/fujikawachiai/info/70068.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "cozp-1647-8"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/fujikawachiai/discography/COZP-1695-6.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "cozp-1695-6"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/news/2020082301.php",
+            "https://www.cdjapan.co.jp/product/COCX-41254"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "cocx-41254"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1504181638"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1504181638"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/fujikawachiai/discography/COCP-41115.html",
+            "https://music.apple.com/hk/album/1504181632"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1504181632"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=ZLtg9XI01Hc",
+            "https://prtimes.jp/main/html/rd/p/000000861.000019470.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "ZLtg9XI01Hc"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000000861.000019470.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-ed-1-song"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "本期歌曲身分、用途與逐曲季度已核；未新增個別歌唱或音源版本。",
-          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
-          "checkedAt": "2026-10-24"
+          "note": "收錄已核錄音及發行曲位。原播剪輯與個別發行版的母帶對應待核。",
+          "resumeWhen": "待可比對的原播音軌或權利方版本對照，完整平台播放另按地區覆核。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第1–13話原TV片尾",
+      "recordings": [
+        {
+          "id": "digimon-adventure-2020-ed-1-song-album-full",
+          "title": "悔しさは種",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "digimon-adventure-2020-ed-1-song-tv-size",
+          "title": "悔しさは種 (TVサイズ)",
+          "kind": "vocal",
+          "format": "tv"
+        },
+        {
+          "id": "digimon-adventure-2020-ed-1-song-2020-06-06-live",
+          "title": "悔しさは種（2020-06-06 YouTube Live）",
+          "kind": "live",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "cocp-41115",
+          "title": "愛はヘッドフォンから",
+          "type": "album",
+          "date": {
+            "value": "2020-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "藤川千愛",
+          "edition": "通常盤（CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "悔しさは種",
+              "position": 6,
+              "recordingId": "digimon-adventure-2020-ed-1-song-album-full"
+            }
+          ],
+          "label": "日本コロムビア",
+          "catalogNumber": "COCP-41115"
+        },
+        {
+          "id": "cozp-1647-8",
+          "title": "愛はヘッドフォンから",
+          "type": "album",
+          "date": {
+            "value": "2020-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "藤川千愛",
+          "edition": "初回限定盤（CD＋DVD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "悔しさは種",
+              "position": 6,
+              "disc": 1,
+              "recordingId": "digimon-adventure-2020-ed-1-song-album-full"
+            }
+          ],
+          "label": "日本コロムビア",
+          "catalogNumber": "COZP-1647-8"
+        },
+        {
+          "id": "cozp-1695-6",
+          "title": "HiKiKoMoRi",
+          "type": "album",
+          "date": {
+            "value": "2020-11-24",
+            "precision": "day"
+          },
+          "artistDisplayName": "藤川千愛",
+          "edition": "初回限定盤（CD＋Blu-ray）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "悔しさは種（2020-06-06 YouTube Live）",
+              "position": 6,
+              "disc": 2,
+              "recordingId": "digimon-adventure-2020-ed-1-song-2020-06-06-live"
+            }
+          ],
+          "label": "日本コロムビア",
+          "catalogNumber": "COZP-1695-6"
+        },
+        {
+          "id": "cocx-41254",
+          "title": "TVアニメ「デジモンアドベンチャー：」オリジナルサウンドトラック vol.1",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-09-30",
+            "precision": "day"
+          },
+          "artistDisplayName": "佐橋俊彦",
+          "edition": "日本CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "悔しさは種 (TVサイズ)",
+              "position": 33,
+              "recordingId": "digimon-adventure-2020-ed-1-song-tv-size"
+            }
+          ],
+          "label": "日本コロムビア",
+          "catalogNumber": "COCX-41254"
+        },
+        {
+          "id": "apple-hk-1504181632",
+          "title": "愛はヘッドフォンから",
+          "type": "album",
+          "date": {
+            "value": "2020-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "藤川千愛",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "悔しさは種",
+              "position": 6,
+              "recordingId": "digimon-adventure-2020-ed-1-song-album-full"
+            }
+          ],
+          "label": "日本コロムビア"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "悔しさは種｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1504181638",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1504181632",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "digimon-adventure-2020-ed-1-song-album-full"
+        }
+      ],
+      "releaseDate": "2020-04-05"
     },
     {
       "type": "ED",
@@ -28626,11 +33393,11 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "verifiedAt": "2026-09-02"
         },
         {
-          "label": "東映アニメーション公式YouTubeチャンネル 官方影片",
           "url": "https://www.youtube.com/watch?v=ks-KJWs_3uk",
-          "language": "ja",
+          "label": "權利方官方影片及簡介",
           "role": "first_party",
-          "verifiedAt": "2026-09-02"
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://www.toei-anim.co.jp/tv/digimon/about/",
@@ -28652,6 +33419,104 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.mau2.com/anime/digimonadventure-r2",
+          "label": "原TV逐話主題曲及劇中曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.toei-anim.co.jp/tv/digimon/news/2020090601.php",
+          "label": "第一方原播關聯與歌曲公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.jvcmusic.co.jp/-/Discography/A025153/VE3WA-18928.html",
+          "label": "唱片方首發單曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.jvcmusic.co.jp/-/Discography/A025153/VICL-65587.html",
+          "label": "唱片方專輯及曲位",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000001825.000019470.html",
+          "label": "唱片方實體原聲帶TV Size曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1597857993",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1597858206",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1536361648",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1536361650",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.toei-anim.co.jp/tv/digimon/movie/",
+          "label": "權利方影片說明或專區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://reol.jp/feature/history_of_reol",
+          "label": "權利方影片說明或專區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=oBTxxpYre3g",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=UDIpXGdM0eY",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=VU0oh638H_0",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
@@ -28755,21 +33620,320 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "https://www.toei-anim.co.jp/tv/digimon/about/"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/news/2020090601.php",
+            "https://www.mau2.com/anime/digimonadventure-r2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-ed-2"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/-/Discography/A025153/VE3WA-18928.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-ed-2-song-single-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000001825.000019470.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-ed-2-song-tv-size"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/-/Discography/A025153/VICL-65587.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "vicl-65587"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1597858206"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1597858206"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/-/Discography/A025153/VICL-65587.html",
+            "https://music.apple.com/hk/album/1597857993"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1597857993"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1536361650"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1536361650"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/-/Discography/A025153/VE3WA-18928.html",
+            "https://music.apple.com/hk/album/1536361648"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1536361648"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000001825.000019470.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "cocx-41552"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=ks-KJWs_3uk",
+            "https://www.toei-anim.co.jp/tv/digimon/movie/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "ks-KJWs_3uk"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=oBTxxpYre3g",
+            "https://reol.jp/feature/history_of_reol"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "oBTxxpYre3g"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=UDIpXGdM0eY",
+            "https://www.jvcmusic.co.jp/-/Discography/A025153/VE3WA-18928.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "UDIpXGdM0eY"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=VU0oh638H_0",
+            "https://www.jvcmusic.co.jp/-/Discography/A025153/VICL-65587.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "VU0oh638H_0"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/-/Discography/A025153/VE3WA-18928.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-ed-2-song"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "本期歌曲身分、用途與逐曲季度已核；未新增個別歌唱或音源版本。",
-          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
-          "checkedAt": "2026-10-24"
+          "note": "收錄已核錄音及發行曲位。原播剪輯與個別發行版的母帶對應待核。",
+          "resumeWhen": "待可比對的原播音軌或權利方版本對照，完整平台播放另按地區覆核。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第14–26話原TV片尾",
+      "recordings": [
+        {
+          "id": "digimon-adventure-2020-ed-2-song-single-full",
+          "title": "Q?",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "digimon-adventure-2020-ed-2-song-tv-size",
+          "title": "Q? (TVサイズ)",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "releases": [
+        {
+          "id": "vicl-65587",
+          "title": "第六感",
+          "type": "album",
+          "date": {
+            "value": "2021-12-15",
+            "precision": "day"
+          },
+          "artistDisplayName": "Reol",
+          "edition": "通常盤（CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Q?",
+              "position": 2
+            }
+          ],
+          "label": "Victor Entertainment",
+          "catalogNumber": "VICL-65587"
+        },
+        {
+          "id": "apple-hk-1597857993",
+          "title": "第六感",
+          "type": "album",
+          "date": {
+            "value": "2021-12-15",
+            "precision": "day"
+          },
+          "artistDisplayName": "Reol",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Q?",
+              "position": 2
+            }
+          ],
+          "label": "Victor Entertainment"
+        },
+        {
+          "id": "apple-hk-1536361648",
+          "title": "Q?",
+          "type": "single",
+          "date": {
+            "value": "2020-11-04",
+            "precision": "day"
+          },
+          "artistDisplayName": "Reol",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Q?",
+              "position": 1,
+              "recordingId": "digimon-adventure-2020-ed-2-song-single-full"
+            }
+          ],
+          "label": "Victor Entertainment"
+        },
+        {
+          "id": "cocx-41552",
+          "title": "TVアニメ「デジモンアドベンチャー：」オリジナルサウンドトラック vol.2",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-08-25",
+            "precision": "day"
+          },
+          "artistDisplayName": "佐橋俊彦",
+          "edition": "日本CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Q? (TVサイズ)",
+              "position": 29,
+              "recordingId": "digimon-adventure-2020-ed-2-song-tv-size"
+            }
+          ],
+          "label": "日本コロムビア",
+          "catalogNumber": "COCX-41552"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Q?｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1597858206",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1597857993",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "Q?｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1536361650",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1536361648",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "digimon-adventure-2020-ed-2-song-single-full"
+        }
+      ],
+      "releaseDate": "2020-11-04"
     },
     {
       "type": "ED",
@@ -28799,11 +33963,11 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "verifiedAt": "2026-09-02"
         },
         {
-          "label": "東映アニメーション公式YouTubeチャンネル 官方影片",
           "url": "https://www.youtube.com/watch?v=sdQwCfi90DE",
-          "language": "ja",
+          "label": "權利方官方影片及簡介",
           "role": "first_party",
-          "verifiedAt": "2026-09-02"
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://www.toei-anim.co.jp/tv/digimon/about/",
@@ -28817,7 +33981,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A",
@@ -28825,12 +33989,119 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.mau2.com/anime/digimonadventure-r2",
+          "label": "原TV逐話主題曲及劇中曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://maica-official.jp/disco.html",
+          "label": "唱片方首發單曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.jvcmusic.co.jp/-/Discography/A026499/VICL-65470.html",
+          "label": "唱片方專輯及曲位",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000001825.000019470.html",
+          "label": "唱片方實體原聲帶TV Size曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1550540807",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1550540823",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1540527994",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1540527995",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.toei-anim.co.jp/tv/digimon/movie/",
+          "label": "權利方影片說明或專區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://maica-official.jp/movie.html",
+          "label": "權利方影片說明或專區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=yZEI5AfDxK8",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=XP_mMvPliZo",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.qobuz.com/jp-ja/album/mind-game-maica-n/qokoejwhy3rfc",
+          "label": "日本正式單曲的編曲署名",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
         {
           "name": "Maica_n",
           "role": "vocals"
+        },
+        {
+          "name": "Faith",
+          "role": "lyrics"
+        },
+        {
+          "name": "Maica_n",
+          "role": "lyrics"
+        },
+        {
+          "name": "Maica_n",
+          "role": "composition"
+        },
+        {
+          "name": "根岸孝旨",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -28902,24 +34173,319 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "digimon-adventure-2020-ed-3"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/news/2020111301.php",
+            "https://www.mau2.com/anime/digimonadventure-r2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-ed-3"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://maica-official.jp/disco.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-ed-3-song-single-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000001825.000019470.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-ed-3-song-tv-size"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/-/Discography/A026499/VICL-65470.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "vicl-65470"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1550540823"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1550540823"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/-/Discography/A026499/VICL-65470.html",
+            "https://music.apple.com/hk/album/1550540807"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1550540807"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1540527995"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1540527995"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://maica-official.jp/disco.html",
+            "https://music.apple.com/hk/album/1540527994"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1540527994"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000001825.000019470.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "cocx-41552"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=sdQwCfi90DE",
+            "https://www.toei-anim.co.jp/tv/digimon/movie/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "sdQwCfi90DE"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=yZEI5AfDxK8",
+            "https://maica-official.jp/movie.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "yZEI5AfDxK8"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=XP_mMvPliZo",
+            "https://www.jvcmusic.co.jp/-/Discography/A026499/VICL-65470.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "XP_mMvPliZo"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://maica-official.jp/disco.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-ed-3-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000001825.000019470.html",
+            "https://www.qobuz.com/jp-ja/album/mind-game-maica-n/qokoejwhy3rfc"
+          ],
+          "verifiedAt": "2026-11-15"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "lyrics",
-            "composition",
-            "arrangement",
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "本期歌曲身分、用途與逐曲季度已核；未新增個別歌唱或音源版本。",
-          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
-          "checkedAt": "2026-10-24"
+          "note": "收錄已核錄音及發行曲位。原播剪輯與個別發行版的母帶對應待核。",
+          "resumeWhen": "待可比對的原播音軌或權利方版本對照，完整平台播放另按地區覆核。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第27–38話原TV片尾",
+      "recordings": [
+        {
+          "id": "digimon-adventure-2020-ed-3-song-single-full",
+          "title": "Mind game",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "digimon-adventure-2020-ed-3-song-tv-size",
+          "title": "Mind game (TVサイズ)",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "releases": [
+        {
+          "id": "vicl-65470",
+          "title": "replica",
+          "type": "album",
+          "date": {
+            "value": "2021-02-17",
+            "precision": "day"
+          },
+          "artistDisplayName": "Maica_n",
+          "edition": "通常盤（CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Mind game",
+              "position": 14
+            }
+          ],
+          "label": "Victor Entertainment",
+          "catalogNumber": "VICL-65470"
+        },
+        {
+          "id": "apple-hk-1550540807",
+          "title": "replica",
+          "type": "album",
+          "date": {
+            "value": "2021-02-17",
+            "precision": "day"
+          },
+          "artistDisplayName": "Maica_n",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Mind game",
+              "position": 14
+            }
+          ],
+          "label": "Victor Entertainment"
+        },
+        {
+          "id": "apple-hk-1540527994",
+          "title": "Mind game",
+          "type": "single",
+          "date": {
+            "value": "2020-12-06",
+            "precision": "day"
+          },
+          "artistDisplayName": "Maica_n",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Mind game",
+              "position": 1,
+              "recordingId": "digimon-adventure-2020-ed-3-song-single-full"
+            }
+          ],
+          "label": "Victor Entertainment"
+        },
+        {
+          "id": "cocx-41552",
+          "title": "TVアニメ「デジモンアドベンチャー：」オリジナルサウンドトラック vol.2",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-08-25",
+            "precision": "day"
+          },
+          "artistDisplayName": "佐橋俊彦",
+          "edition": "日本CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Mind game (TVサイズ)",
+              "position": 30,
+              "recordingId": "digimon-adventure-2020-ed-3-song-tv-size"
+            }
+          ],
+          "label": "日本コロムビア",
+          "catalogNumber": "COCX-41552"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Mind game｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1550540823",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1550540807",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "Mind game｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1540527995",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1540527994",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "digimon-adventure-2020-ed-3-song-single-full"
+        }
+      ],
+      "releaseDate": "2020-12-06"
     },
     {
       "type": "ED",
@@ -28949,11 +34515,11 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "verifiedAt": "2026-09-02"
         },
         {
-          "label": "東映アニメーション公式YouTubeチャンネル 官方影片",
           "url": "https://www.youtube.com/watch?v=srExFEuO2OU",
-          "language": "ja",
+          "label": "權利方官方影片及簡介",
           "role": "first_party",
-          "verifiedAt": "2026-09-02"
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://www.toei-anim.co.jp/tv/digimon/about/",
@@ -28967,7 +34533,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://www.toei-anim.co.jp/tv/digimon/news/2021031001.php",
@@ -28982,6 +34548,90 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000001825.000019470.html",
+          "label": "唱片方實體原聲帶TV Size曲號",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/digimonadventure-r2",
+          "label": "原TV逐話主題曲及劇中曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://columbia.jp/artist-info/wolpiscarter/discography/COKM-43154.html",
+          "label": "唱片方數位單曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://columbia.jp/artist-info/wolpiscarter/discography/COCP-41481.html",
+          "label": "唱片方EP主曲及伴奏",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://wolpiscarter.com/OverseasHighway/",
+          "label": "藝人EP及詞曲編署名",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1555661228",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1555661229",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1566820361",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1566820362",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1566820367",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.toei-anim.co.jp/tv/digimon/movie/",
+          "label": "權利方影片說明或專區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=jDhxCfpJEI8",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
@@ -29108,21 +34758,346 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "https://www.toei-anim.co.jp/tv/digimon/news/2021031001.php"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/news/2021022601.php",
+            "https://www.mau2.com/anime/digimonadventure-r2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-ed-4"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/wolpiscarter/discography/COKM-43154.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-ed-4-song-single-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/wolpiscarter/discography/COCP-41481.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-ed-4-song-instrumental"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000001825.000019470.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-ed-4-song-tv-size"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/wolpiscarter/discography/COCP-41481.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "cocp-41481"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1555661229"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1555661229"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/wolpiscarter/discography/COKM-43154.html",
+            "https://music.apple.com/hk/album/1555661228"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1555661228"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1566820362"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1566820362"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1566820367"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1566820367"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/wolpiscarter/discography/COCP-41481.html",
+            "https://music.apple.com/hk/album/1566820361"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1566820361"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000001825.000019470.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "cocx-41552"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=srExFEuO2OU",
+            "https://www.toei-anim.co.jp/tv/digimon/movie/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "srExFEuO2OU"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=jDhxCfpJEI8",
+            "https://wolpiscarter.com/OverseasHighway/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "jDhxCfpJEI8"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/wolpiscarter/discography/COKM-43154.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-ed-4-song"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "本期歌曲身分、用途與逐曲季度已核；未新增個別歌唱或音源版本。",
-          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
-          "checkedAt": "2026-10-24"
+          "note": "收錄已核錄音及發行曲位。原播剪輯與個別發行版的母帶對應待核。",
+          "resumeWhen": "待可比對的原播音軌或權利方版本對照，完整平台播放另按地區覆核。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第39–54話原TV片尾",
+      "recordings": [
+        {
+          "id": "digimon-adventure-2020-ed-4-song-single-full",
+          "title": "オーバーシーズ・ハイウェイ",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "digimon-adventure-2020-ed-4-song-instrumental",
+          "title": "オーバーシーズ・ハイウェイ (Instrumental)",
+          "kind": "instrumental",
+          "format": "unknown"
+        },
+        {
+          "id": "digimon-adventure-2020-ed-4-song-tv-size",
+          "title": "オーバーシーズ・ハイウェイ (TVサイズ)",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "releases": [
+        {
+          "id": "cocp-41481",
+          "title": "Overseas Highway",
+          "type": "ep",
+          "date": {
+            "value": "2021-05-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "ウォルピスカーター",
+          "edition": "日本CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "オーバーシーズ・ハイウェイ",
+              "position": 1
+            },
+            {
+              "title": "オーバーシーズ・ハイウェイ (Instrumental)",
+              "position": 6,
+              "recordingId": "digimon-adventure-2020-ed-4-song-instrumental"
+            }
+          ],
+          "label": "日本コロムビア",
+          "catalogNumber": "COCP-41481"
+        },
+        {
+          "id": "apple-hk-1555661228",
+          "title": "オーバーシーズ・ハイウェイ",
+          "type": "single",
+          "date": {
+            "value": "2021-03-10",
+            "precision": "day"
+          },
+          "artistDisplayName": "ウォルピスカーター",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "オーバーシーズ・ハイウェイ",
+              "position": 1,
+              "recordingId": "digimon-adventure-2020-ed-4-song-single-full"
+            }
+          ],
+          "label": "日本コロムビア"
+        },
+        {
+          "id": "apple-hk-1566820361",
+          "title": "Overseas Highway",
+          "type": "ep",
+          "date": {
+            "value": "2021-05-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "ウォルピスカーター",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "オーバーシーズ・ハイウェイ",
+              "position": 1
+            },
+            {
+              "title": "オーバーシーズ・ハイウェイ (Instrumental)",
+              "position": 6,
+              "recordingId": "digimon-adventure-2020-ed-4-song-instrumental"
+            }
+          ],
+          "label": "日本コロムビア"
+        },
+        {
+          "id": "cocx-41552",
+          "title": "TVアニメ「デジモンアドベンチャー：」オリジナルサウンドトラック vol.2",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-08-25",
+            "precision": "day"
+          },
+          "artistDisplayName": "佐橋俊彦",
+          "edition": "日本CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "オーバーシーズ・ハイウェイ (TVサイズ)",
+              "position": 31,
+              "recordingId": "digimon-adventure-2020-ed-4-song-tv-size"
+            }
+          ],
+          "label": "日本コロムビア",
+          "catalogNumber": "COCX-41552"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "オーバーシーズ・ハイウェイ｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1555661229",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1555661228",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "digimon-adventure-2020-ed-4-song-single-full"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "オーバーシーズ・ハイウェイ｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1566820362",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1566820361",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "オーバーシーズ・ハイウェイ (Instrumental)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1566820367",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1566820361",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "digimon-adventure-2020-ed-4-song-instrumental"
+        }
+      ],
+      "releaseDate": "2021-03-10"
     },
     {
       "type": "ED",
@@ -29151,11 +35126,11 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "verifiedAt": "2026-09-02"
         },
         {
-          "label": "東映アニメーション公式YouTubeチャンネル 官方影片",
           "url": "https://www.youtube.com/watch?v=D2m-evQN6jM",
-          "language": "ja",
+          "label": "權利方官方影片及簡介",
           "role": "first_party",
-          "verifiedAt": "2026-09-02"
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://www.toei-anim.co.jp/tv/digimon/about/",
@@ -29177,12 +35152,112 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.mau2.com/anime/digimonadventure-r2",
+          "label": "原TV逐話主題曲及劇中曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.toei-anim.co.jp/tv/digimon/news/2021070401.php",
+          "label": "第一方原播關聯與歌曲公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://columbia.jp/artist-info/ateez/info/75446.html",
+          "label": "唱片方四盤實體規格與曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://columbia.jp/artist-info/ateez/info/75737.html",
+          "label": "唱片方7月12日先行配信",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.fujipacific.co.jp/repertoire?page=45",
+          "label": "音樂出版方作詞作曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://ateez-official.jp/contents/444122",
+          "label": "藝人官方數位發行",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1574275183",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1574275182",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1574275186",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.toei-anim.co.jp/tv/digimon/movie/",
+          "label": "權利方影片說明或專區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=yBz5vMI5i8E",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=BCBa-2jFyT4",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
         {
           "name": "ATEEZ",
           "role": "vocals"
+        },
+        {
+          "name": "SUNNY BOY",
+          "role": "lyrics"
+        },
+        {
+          "name": "KENTZ",
+          "role": "composition"
+        },
+        {
+          "name": "Phoenix Storm",
+          "role": "composition"
+        },
+        {
+          "name": "KENTZ",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -29254,24 +35329,390 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "digimon-adventure-2020-ed-5"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/news/2021070401.php",
+            "https://www.mau2.com/anime/digimonadventure-r2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-ed-5"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.fujipacific.co.jp/repertoire?page=45",
+            "https://music.apple.com/hk/song/1574275183"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/ateez/info/75446.html",
+            "https://columbia.jp/artist-info/ateez/info/75737.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-ed-5-song-single-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/ateez/info/75446.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-ed-5-song-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/ateez/info/75446.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "coza-1787-8"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/ateez/info/75446.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "coza-1789-90"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/ateez/info/75446.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "coca-17907"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/ateez/info/75446.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "coza-1791-2"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1574275183"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1574275183"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1574275186"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1574275186"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://ateez-official.jp/contents/444122",
+            "https://music.apple.com/hk/album/1574275182"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1574275182"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=D2m-evQN6jM",
+            "https://www.toei-anim.co.jp/tv/digimon/movie/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "D2m-evQN6jM"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=yBz5vMI5i8E",
+            "https://ateez-official.jp/contents/444122"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "yBz5vMI5i8E"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=BCBa-2jFyT4",
+            "https://columbia.jp/artist-info/ateez/info/75446.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "BCBa-2jFyT4"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/ateez/info/75737.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-ed-5-song"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "lyrics",
-            "composition",
-            "arrangement",
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "本期歌曲身分、用途與逐曲季度已核；未新增個別歌唱或音源版本。",
-          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
-          "checkedAt": "2026-10-24"
+          "note": "收錄已核錄音及發行曲位。原播剪輯與個別發行版的母帶對應待核。",
+          "resumeWhen": "待可比對的原播音軌或權利方版本對照，完整平台播放另按地區覆核。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第55–67話原TV片尾",
+      "recordings": [
+        {
+          "id": "digimon-adventure-2020-ed-5-song-single-full",
+          "title": "Dreamers",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "digimon-adventure-2020-ed-5-song-instrumental",
+          "title": "Dreamers (Instrumental)",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "coza-1787-8",
+          "title": "Dreamers",
+          "type": "single",
+          "date": {
+            "value": "2021-07-28",
+            "precision": "day"
+          },
+          "artistDisplayName": "ATEEZ",
+          "edition": "TYPE-A（CD＋DVD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Dreamers",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "digimon-adventure-2020-ed-5-song-single-full"
+            },
+            {
+              "title": "Dreamers (Instrumental)",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "digimon-adventure-2020-ed-5-song-instrumental"
+            }
+          ],
+          "label": "日本コロムビア",
+          "catalogNumber": "COZA-1787-8"
+        },
+        {
+          "id": "coza-1789-90",
+          "title": "Dreamers",
+          "type": "single",
+          "date": {
+            "value": "2021-07-28",
+            "precision": "day"
+          },
+          "artistDisplayName": "ATEEZ",
+          "edition": "TYPE-B（CD＋DVD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Dreamers",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "digimon-adventure-2020-ed-5-song-single-full"
+            },
+            {
+              "title": "Dreamers (Instrumental)",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "digimon-adventure-2020-ed-5-song-instrumental"
+            }
+          ],
+          "label": "日本コロムビア",
+          "catalogNumber": "COZA-1789-90"
+        },
+        {
+          "id": "coca-17907",
+          "title": "Dreamers",
+          "type": "single",
+          "date": {
+            "value": "2021-07-28",
+            "precision": "day"
+          },
+          "artistDisplayName": "ATEEZ",
+          "edition": "通常盤（CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Dreamers",
+              "position": 1,
+              "recordingId": "digimon-adventure-2020-ed-5-song-single-full"
+            },
+            {
+              "title": "Dreamers (Instrumental)",
+              "position": 4,
+              "recordingId": "digimon-adventure-2020-ed-5-song-instrumental"
+            }
+          ],
+          "label": "日本コロムビア",
+          "catalogNumber": "COCA-17907"
+        },
+        {
+          "id": "coza-1791-2",
+          "title": "Dreamers",
+          "type": "single",
+          "date": {
+            "value": "2021-07-28",
+            "precision": "day"
+          },
+          "artistDisplayName": "ATEEZ",
+          "edition": "ATINY盤（CD＋DVD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Dreamers",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "digimon-adventure-2020-ed-5-song-single-full"
+            },
+            {
+              "title": "Dreamers (Instrumental)",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "digimon-adventure-2020-ed-5-song-instrumental"
+            }
+          ],
+          "label": "日本コロムビア",
+          "catalogNumber": "COZA-1791-2"
+        },
+        {
+          "id": "apple-hk-1574275182",
+          "title": "Dreamers",
+          "type": "ep",
+          "date": {
+            "value": "2021-07-28",
+            "precision": "day"
+          },
+          "artistDisplayName": "ATEEZ",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Dreamers",
+              "position": 1,
+              "recordingId": "digimon-adventure-2020-ed-5-song-single-full"
+            },
+            {
+              "title": "Dreamers (Instrumental)",
+              "position": 4,
+              "recordingId": "digimon-adventure-2020-ed-5-song-instrumental"
+            }
+          ],
+          "label": "日本コロムビア"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Dreamers｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1574275183",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1574275182",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "digimon-adventure-2020-ed-5-song-single-full"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "Dreamers (Instrumental)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1574275186",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1574275182",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "digimon-adventure-2020-ed-5-song-instrumental"
+        }
+      ],
+      "releaseDate": "2021-07-12"
     },
     {
       "id": "digimon-adventure-2020-in-1",
@@ -29279,8 +35720,58 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
       "sequence": 1,
       "titleJa": "Be The Winners",
       "artistDisplayName": "谷本貴義",
-      "credits": [],
-      "links": [],
+      "credits": [
+        {
+          "name": "谷本貴義",
+          "role": "vocals"
+        },
+        {
+          "name": "森由里子",
+          "role": "lyrics"
+        },
+        {
+          "name": "馬渕直純",
+          "role": "composition"
+        },
+        {
+          "name": "設楽哲也",
+          "role": "arrangement"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Be The Winners｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1527203775",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1527203770",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "digimon-adventure-2020-in-1-song-single-full"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "Be The Winners (オリジナル・カラオケ)｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1527203781",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1527203770",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "digimon-adventure-2020-in-1-song-instrumental"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "Be The Winners｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1740073774",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1740073773",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
       "songId": "digimon-adventure-2020-in-1-song",
       "sourceMode": "explicit",
       "seasonIds": [
@@ -29297,14 +35788,98 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A",
           "label": "本曲逐欄交叉資料；未明欄位不作證",
           "role": "cross_check",
           "language": "zh-Hant",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/digimonadventure-r2",
+          "label": "原TV逐話主題曲及劇中曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://ameblo.jp/luke2016/entry-12607429572.html",
+          "label": "第一方原播關聯與歌曲公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000001073.000019470.html",
+          "label": "第一方原播與用曲補充",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://shop.columbia.jp/shop/g/gS2750/",
+          "label": "唱片方插曲詞曲編",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://columbia.jp/artist-info/tanimototakayoshi/discography/COKM-44798.html",
+          "label": "唱片方2024精選輯曲位",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1527203770",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1527203775",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1527203781",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1740073773",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1740073774",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.toei-anim.co.jp/tv/digimon/movie/",
+          "label": "權利方影片說明或專區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=-7tPqyv0CaM",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "evidence": [
@@ -29353,24 +35928,259 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "digimon-adventure-2020-in-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://ameblo.jp/luke2016/entry-12607429572.html",
+            "https://prtimes.jp/main/html/rd/p/000001073.000019470.html",
+            "https://www.mau2.com/anime/digimonadventure-r2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-in-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000001073.000019470.html",
+            "https://www.mau2.com/anime/digimonadventure-r2",
+            "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-in-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://shop.columbia.jp/shop/g/gS2750/",
+            "https://columbia.jp/artist-info/tanimototakayoshi/discography/COCC-17780.html"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/tanimototakayoshi/discography/COCC-17780.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-in-1-song-single-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/tanimototakayoshi/discography/COCC-17780.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-in-1-song-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/tanimototakayoshi/discography/COCC-17780.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "cocc-17780"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1527203775"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1527203775"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1527203781"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1527203781"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/tanimototakayoshi/discography/COCC-17780.html",
+            "https://music.apple.com/jp/album/1527203770"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1527203770"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1740073774"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1740073774"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/tanimototakayoshi/discography/COKM-44798.html",
+            "https://music.apple.com/hk/album/1740073773"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1740073773"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=-7tPqyv0CaM",
+            "https://www.toei-anim.co.jp/tv/digimon/movie/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "-7tPqyv0CaM"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "lyrics",
-            "composition",
-            "arrangement",
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "本曲的原名、演唱名義、本期插曲用途與已確認季度均已核對；創作署名、音源版本、官方影片及發行品資料仍待補齊。",
-          "resumeWhen": "待權利方公開本曲創作署名及正式發行資料後，補核音源規格、官方影片與各正版平台的對應項目。",
-          "checkedAt": "2026-10-24"
+          "note": "收錄已核錄音及發行曲位。原播剪輯與個別發行版的母帶對應待核。",
+          "resumeWhen": "待可比對的原播音軌或權利方版本對照，完整平台播放另按地區覆核。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第4–11、13、19、25、29、32、39、40、42、65話｜成熟期進化插曲",
+      "recordings": [
+        {
+          "id": "digimon-adventure-2020-in-1-song-single-full",
+          "title": "Be The Winners",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "digimon-adventure-2020-in-1-song-instrumental",
+          "title": "Be The Winners (オリジナル・カラオケ)",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "cocc-17780",
+          "title": "未確認飛行船",
+          "type": "single",
+          "date": {
+            "value": "2020-08-19",
+            "precision": "day"
+          },
+          "artistDisplayName": "谷本貴義",
+          "edition": "日本CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Be The Winners",
+              "position": 2,
+              "recordingId": "digimon-adventure-2020-in-1-song-single-full"
+            },
+            {
+              "title": "Be The Winners (オリジナル・カラオケ)",
+              "position": 5,
+              "recordingId": "digimon-adventure-2020-in-1-song-instrumental"
+            }
+          ],
+          "label": "日本コロムビア",
+          "catalogNumber": "COCC-17780"
+        },
+        {
+          "id": "apple-jp-1527203770",
+          "title": "未確認飛行船",
+          "type": "single",
+          "date": {
+            "value": "2020-08-19",
+            "precision": "day"
+          },
+          "artistDisplayName": "谷本貴義",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Be The Winners",
+              "position": 2,
+              "recordingId": "digimon-adventure-2020-in-1-song-single-full"
+            },
+            {
+              "title": "Be The Winners (オリジナル・カラオケ)",
+              "position": 5,
+              "recordingId": "digimon-adventure-2020-in-1-song-instrumental"
+            }
+          ],
+          "label": "日本コロムビア"
+        },
+        {
+          "id": "apple-hk-1740073773",
+          "title": "Face to Fate",
+          "type": "compilation",
+          "date": {
+            "value": "2024-04-24",
+            "precision": "day"
+          },
+          "artistDisplayName": "谷本貴義",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Be The Winners",
+              "position": 1
+            }
+          ],
+          "label": "日本コロムビア"
+        }
+      ]
     },
     {
       "id": "digimon-adventure-2020-in-2",
@@ -29378,8 +36188,58 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
       "sequence": 2,
       "titleJa": "X-treme Fight",
       "artistDisplayName": "谷本貴義",
-      "credits": [],
-      "links": [],
+      "credits": [
+        {
+          "name": "谷本貴義",
+          "role": "vocals"
+        },
+        {
+          "name": "森由里子",
+          "role": "lyrics"
+        },
+        {
+          "name": "谷本貴義",
+          "role": "composition"
+        },
+        {
+          "name": "宮崎誠",
+          "role": "arrangement"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "X-treme Fight｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1527203777",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1527203770",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "digimon-adventure-2020-in-2-song-single-full"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "X-treme Fight (オリジナル・カラオケ)｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1527203783",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1527203770",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "digimon-adventure-2020-in-2-song-instrumental"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "X-treme Fight｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1740073778",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1740073773",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
       "songId": "digimon-adventure-2020-in-2-song",
       "sourceMode": "explicit",
       "seasonIds": [
@@ -29395,14 +36255,91 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A",
           "label": "本曲逐欄交叉資料；未明欄位不作證",
           "role": "cross_check",
           "language": "zh-Hant",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/digimonadventure-r2",
+          "label": "原TV逐話主題曲及劇中曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000001073.000019470.html",
+          "label": "第一方原播關聯與歌曲公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://shop.columbia.jp/shop/g/gS2750/",
+          "label": "唱片方插曲詞曲編",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://columbia.jp/artist-info/tanimototakayoshi/discography/COKM-44798.html",
+          "label": "唱片方2024精選輯曲位",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1527203770",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1527203777",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1527203783",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1740073773",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1740073778",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.toei-anim.co.jp/tv/digimon/movie/",
+          "label": "權利方影片說明或專區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=wVVVg5jQocA",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "evidence": [
@@ -29451,24 +36388,258 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "digimon-adventure-2020-in-2"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000001073.000019470.html",
+            "https://www.mau2.com/anime/digimonadventure-r2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-in-2"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000001073.000019470.html",
+            "https://www.mau2.com/anime/digimonadventure-r2",
+            "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-in-2"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://shop.columbia.jp/shop/g/gS2750/",
+            "https://columbia.jp/artist-info/tanimototakayoshi/discography/COCC-17780.html"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/tanimototakayoshi/discography/COCC-17780.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-in-2-song-single-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/tanimototakayoshi/discography/COCC-17780.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-in-2-song-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/tanimototakayoshi/discography/COCC-17780.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "cocc-17780"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1527203777"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1527203777"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1527203783"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1527203783"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/tanimototakayoshi/discography/COCC-17780.html",
+            "https://music.apple.com/jp/album/1527203770"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1527203770"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1740073778"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1740073778"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/tanimototakayoshi/discography/COKM-44798.html",
+            "https://music.apple.com/hk/album/1740073773"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1740073773"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=wVVVg5jQocA",
+            "https://www.toei-anim.co.jp/tv/digimon/movie/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "wVVVg5jQocA"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "lyrics",
-            "composition",
-            "arrangement",
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "本曲的原名、演唱名義、本期插曲用途與已確認季度均已核對；創作署名、音源版本、官方影片及發行品資料仍待補齊。",
-          "resumeWhen": "待權利方公開本曲創作署名及正式發行資料後，補核音源規格、官方影片與各正版平台的對應項目。",
-          "checkedAt": "2026-10-24"
+          "note": "收錄已核錄音及發行曲位。原播剪輯與個別發行版的母帶對應待核。",
+          "resumeWhen": "待可比對的原播音軌或權利方版本對照，完整平台播放另按地區覆核。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第10–17、20–23、26、27、35、38、53、66話｜完全體進化插曲",
+      "recordings": [
+        {
+          "id": "digimon-adventure-2020-in-2-song-single-full",
+          "title": "X-treme Fight",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "digimon-adventure-2020-in-2-song-instrumental",
+          "title": "X-treme Fight (オリジナル・カラオケ)",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "cocc-17780",
+          "title": "未確認飛行船",
+          "type": "single",
+          "date": {
+            "value": "2020-08-19",
+            "precision": "day"
+          },
+          "artistDisplayName": "谷本貴義",
+          "edition": "日本CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "X-treme Fight",
+              "position": 3,
+              "recordingId": "digimon-adventure-2020-in-2-song-single-full"
+            },
+            {
+              "title": "X-treme Fight (オリジナル・カラオケ)",
+              "position": 6,
+              "recordingId": "digimon-adventure-2020-in-2-song-instrumental"
+            }
+          ],
+          "label": "日本コロムビア",
+          "catalogNumber": "COCC-17780"
+        },
+        {
+          "id": "apple-jp-1527203770",
+          "title": "未確認飛行船",
+          "type": "single",
+          "date": {
+            "value": "2020-08-19",
+            "precision": "day"
+          },
+          "artistDisplayName": "谷本貴義",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "X-treme Fight",
+              "position": 3,
+              "recordingId": "digimon-adventure-2020-in-2-song-single-full"
+            },
+            {
+              "title": "X-treme Fight (オリジナル・カラオケ)",
+              "position": 6,
+              "recordingId": "digimon-adventure-2020-in-2-song-instrumental"
+            }
+          ],
+          "label": "日本コロムビア"
+        },
+        {
+          "id": "apple-hk-1740073773",
+          "title": "Face to Fate",
+          "type": "compilation",
+          "date": {
+            "value": "2024-04-24",
+            "precision": "day"
+          },
+          "artistDisplayName": "谷本貴義",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "X-treme Fight",
+              "position": 4
+            }
+          ],
+          "label": "日本コロムビア"
+        }
+      ]
     },
     {
       "id": "digimon-adventure-2020-in-3",
@@ -29488,9 +36659,35 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
         {
           "name": "谷本貴義",
           "role": "arrangement"
+        },
+        {
+          "name": "谷本貴義",
+          "role": "vocals"
         }
       ],
-      "links": [],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Break the chain｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1562623615",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1562623614",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "digimon-adventure-2020-in-3-song-digital-full"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "Break the chain｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1740073775",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1740073773",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
       "songId": "digimon-adventure-2020-in-3-song",
       "sourceMode": "explicit",
       "seasonIds": [
@@ -29512,7 +36709,98 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "本曲逐欄交叉資料；未明欄位不作證",
           "role": "cross_check",
           "language": "zh-Hant",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/digimonadventure-r2",
+          "label": "原TV逐話主題曲及劇中曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000066.000059287.html",
+          "label": "第一方原播關聯與歌曲公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.toei-anim.co.jp/tv/digimon/episode/summary/30/",
+          "label": "第一方原播與用曲補充",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://twitter.com/digimonweb_net/status/1342991083400265730",
+          "label": "萬代播出當日明列第30話新插曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://columbia.jp/artist-info/tanimototakayoshi/discography/COKM-43149.html",
+          "label": "唱片方商業單曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://columbia.jp/artist-info/tanimototakayoshi/info/74629.html",
+          "label": "唱片方第45話用曲及首發",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000001825.000019470.html",
+          "label": "唱片方實體原聲帶曲目",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://columbia.jp/artist-info/tanimototakayoshi/discography/COKM-44798.html",
+          "label": "唱片方2024精選輯曲位",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1562623614",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1562623615",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1740073773",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1740073775",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=lb4ZO0p1t8Q",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "evidence": [
@@ -29571,25 +36859,1053 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "https://www.toei-anim.co.jp/tv/digimon/news/2021042401.php"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000000066.000059287.html",
+            "https://www.toei-anim.co.jp/tv/digimon/episode/summary/30/",
+            "https://www.mau2.com/anime/digimonadventure-r2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-in-3"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://twitter.com/digimonweb_net/status/1342991083400265730",
+            "https://www.mau2.com/anime/digimonadventure-r2",
+            "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A",
+            "https://columbia.jp/artist-info/tanimototakayoshi/info/74629.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-in-3"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000000066.000059287.html",
+            "https://columbia.jp/artist-info/tanimototakayoshi/info/74629.html"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/tanimototakayoshi/discography/COKM-43149.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-in-3-song-digital-full"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1562623615"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1562623615"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/tanimototakayoshi/discography/COKM-43149.html",
+            "https://music.apple.com/hk/album/1562623614"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1562623614"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000001825.000019470.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "cocx-41552"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1740073775"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1740073775"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/tanimototakayoshi/discography/COKM-44798.html",
+            "https://music.apple.com/hk/album/1740073773"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1740073773"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=lb4ZO0p1t8Q",
+            "https://prtimes.jp/main/html/rd/p/000000066.000059287.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "lb4ZO0p1t8Q"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/tanimototakayoshi/discography/COKM-43149.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-in-3-song"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "本曲的原名、演唱名義、本期插曲用途、已確認季度及三項創作署名均已核對；音源版本、官方影片及發行品資料仍待補齊。",
-          "resumeWhen": "待權利方公開本曲正式音源規格、官方影片、發行品及正版平台項目後，補齊對應欄位。",
-          "checkedAt": "2026-10-24"
+          "note": "收錄已核錄音及發行曲位。原播剪輯與個別發行版的母帶對應待核。",
+          "resumeWhen": "待可比對的原播音軌或權利方版本對照，完整平台播放另按地區覆核。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第30、31、33、36、41、45、48、50、52、55–57、59–61、64、65話｜究極體進化插曲",
+      "recordings": [
+        {
+          "id": "digimon-adventure-2020-in-3-song-digital-full",
+          "title": "Break the chain",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1562623614",
+          "title": "Break the chain",
+          "type": "single",
+          "date": {
+            "value": "2021-04-25",
+            "precision": "day"
+          },
+          "artistDisplayName": "谷本貴義",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Break the chain",
+              "position": 1,
+              "recordingId": "digimon-adventure-2020-in-3-song-digital-full"
+            }
+          ],
+          "label": "日本コロムビア"
+        },
+        {
+          "id": "cocx-41552",
+          "title": "TVアニメ「デジモンアドベンチャー：」オリジナルサウンドトラック vol.2",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-08-25",
+            "precision": "day"
+          },
+          "artistDisplayName": "佐橋俊彦",
+          "edition": "日本CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Break the chain",
+              "position": 28
+            }
+          ],
+          "label": "日本コロムビア",
+          "catalogNumber": "COCX-41552"
+        },
+        {
+          "id": "apple-hk-1740073773",
+          "title": "Face to Fate",
+          "type": "compilation",
+          "date": {
+            "value": "2024-04-24",
+            "precision": "day"
+          },
+          "artistDisplayName": "谷本貴義",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Break the chain",
+              "position": 2
+            }
+          ],
+          "label": "日本コロムビア"
+        }
+      ],
+      "releaseDate": "2021-04-25"
+    },
+    {
+      "type": "IN",
+      "sequence": 4,
+      "titleJa": "未確認飛行船",
+      "artistDisplayName": "谷本貴義",
+      "id": "digimon-adventure-2020-in-4",
+      "songId": "digimon-adventure-2020-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2021-spring"
+      ],
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.toei-anim.co.jp/tv/digimon/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/digimon_adventure_2020",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=aPPCXVBHPhw",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.toei-anim.co.jp/tv/digimon/about/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/digimonadventure-r2",
+          "label": "原TV逐話主題曲及劇中曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.toei-anim.co.jp/tv/digimon/news/2020082301.php",
+          "label": "第一方原播關聯與歌曲公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.fujitv.co.jp/b_hp/digimon/",
+          "label": "第一方原播與用曲補充",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://columbia.jp/artist-info/tanimototakayoshi/discography/COKM-42717.html",
+          "label": "唱片方2020年4月TV Size配信",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://columbia.jp/artist-info/tanimototakayoshi/discography/COCC-17780.html",
+          "label": "唱片方單曲原版及伴奏",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://columbia.jp/artist-info/tanimototakayoshi/info/71788.html",
+          "label": "唱片方完整版MV公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.cdjapan.co.jp/product/COCX-41254",
+          "label": "實體曲目位置交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1505439375",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1505439376",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1527203770",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1527203771",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1527203779",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://columbia.jp/artist-info/tanimototakayoshi/discography/COKM-42914.html",
+          "label": "唱片方精選輯及兩個曲位",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1527207620",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1527207621",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1527207622",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.toei-anim.co.jp/tv/digimon/movie/",
+          "label": "權利方影片說明或專區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://columbia.jp/artist-info/tanimototakayoshi/movie/",
+          "label": "權利方影片說明或專區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=5WEKOTQVRDM",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.toei-anim.co.jp/tv/digimon/episode/summary/50/",
+          "label": "東映第50話原播及劇情",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://lostintranslationmon.com/digimon-adventure-2020-episode-50/",
+          "label": "同期觀演記錄確認戰鬥場面使用片頭歌曲",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "credits": [
+        {
+          "name": "谷本貴義",
+          "role": "vocals"
+        },
+        {
+          "name": "森由里子",
+          "role": "lyrics"
+        },
+        {
+          "name": "馬渕直純",
+          "role": "composition"
+        },
+        {
+          "name": "馬渕直純",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/about/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "digimon-adventure-2020-op-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/about/"
+          ],
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/tanimototakayoshi/discography/COCC-17780.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-op-1-song-single-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/tanimototakayoshi/discography/COKM-42717.html",
+            "https://www.toei-anim.co.jp/tv/digimon/news/2020082301.php"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-op-1-song-tv-size"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/tanimototakayoshi/discography/COCC-17780.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-op-1-song-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/tanimototakayoshi/discography/COCC-17780.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "cocc-17780"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/news/2020082301.php",
+            "https://www.cdjapan.co.jp/product/COCX-41254"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "cocx-41254"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1505439376"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1505439376"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/tanimototakayoshi/discography/COKM-42717.html",
+            "https://music.apple.com/jp/album/1505439375"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1505439375"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1527203771"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1527203771"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1527203779"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1527203779"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/tanimototakayoshi/discography/COCC-17780.html",
+            "https://music.apple.com/jp/album/1527203770"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1527203770"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1527207621"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1527207621"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1527207622"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1527207622"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/tanimototakayoshi/discography/COKM-42914.html",
+            "https://music.apple.com/hk/album/1527207620"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1527207620"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/tanimototakayoshi/discography/COKM-42717.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/digimon/episode/summary/50/",
+            "https://columbia.jp/artist-info/tanimototakayoshi/discography/COCC-17780.html",
+            "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A",
+            "https://lostintranslationmon.com/digimon-adventure-2020-episode-50/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-in-4"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings"
+          ],
+          "note": "第50話有片頭之外的劇中使用交叉記錄，並保留該話通常片頭用途。",
+          "resumeWhen": "待可辨識原播聲畫核對播放剪輯及播出版；唱片音軌為已核商業曲目。",
+          "checkedAt": "2026-11-15"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第50話另作劇中插曲",
+      "recordings": [
+        {
+          "id": "digimon-adventure-2020-op-1-song-single-full",
+          "title": "未確認飛行船",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "digimon-adventure-2020-op-1-song-tv-size",
+          "title": "未確認飛行船 (TVサイズ)",
+          "kind": "vocal",
+          "format": "tv"
+        },
+        {
+          "id": "digimon-adventure-2020-op-1-song-instrumental",
+          "title": "未確認飛行船 (オリジナル・カラオケ)",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "cocc-17780",
+          "title": "未確認飛行船",
+          "type": "single",
+          "date": {
+            "value": "2020-08-19",
+            "precision": "day"
+          },
+          "artistDisplayName": "谷本貴義",
+          "edition": "日本CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "未確認飛行船",
+              "position": 1,
+              "recordingId": "digimon-adventure-2020-op-1-song-single-full"
+            },
+            {
+              "title": "未確認飛行船 (オリジナル・カラオケ)",
+              "position": 4,
+              "recordingId": "digimon-adventure-2020-op-1-song-instrumental"
+            }
+          ],
+          "label": "日本コロムビア",
+          "catalogNumber": "COCC-17780"
+        },
+        {
+          "id": "cocx-41254",
+          "title": "TVアニメ「デジモンアドベンチャー：」オリジナルサウンドトラック vol.1",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-09-30",
+            "precision": "day"
+          },
+          "artistDisplayName": "佐橋俊彦",
+          "edition": "日本CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "未確認飛行船 (TVサイズ)",
+              "position": 2,
+              "recordingId": "digimon-adventure-2020-op-1-song-tv-size"
+            }
+          ],
+          "label": "日本コロムビア",
+          "catalogNumber": "COCX-41254"
+        },
+        {
+          "id": "apple-jp-1505439375",
+          "title": "未確認飛行船 (TVサイズ)",
+          "type": "single",
+          "date": {
+            "value": "2020-04-06",
+            "precision": "day"
+          },
+          "artistDisplayName": "谷本貴義",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "未確認飛行船 (TVサイズ)",
+              "position": 1,
+              "recordingId": "digimon-adventure-2020-op-1-song-tv-size"
+            }
+          ],
+          "label": "日本コロムビア"
+        },
+        {
+          "id": "apple-jp-1527203770",
+          "title": "未確認飛行船",
+          "type": "single",
+          "date": {
+            "value": "2020-08-19",
+            "precision": "day"
+          },
+          "artistDisplayName": "谷本貴義",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "未確認飛行船",
+              "position": 1,
+              "recordingId": "digimon-adventure-2020-op-1-song-single-full"
+            },
+            {
+              "title": "未確認飛行船 (オリジナル・カラオケ)",
+              "position": 4,
+              "recordingId": "digimon-adventure-2020-op-1-song-instrumental"
+            }
+          ],
+          "label": "日本コロムビア"
+        },
+        {
+          "id": "apple-hk-1527207620",
+          "title": "Career along",
+          "type": "compilation",
+          "date": {
+            "value": "2020-08-19",
+            "precision": "day"
+          },
+          "artistDisplayName": "谷本貴義",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "未確認飛行船",
+              "position": 1
+            },
+            {
+              "title": "未確認飛行船 (オリジナル・カラオケ)",
+              "position": 2
+            }
+          ],
+          "label": "日本コロムビア"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "未確認飛行船 (TVサイズ)｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1505439376",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1505439375",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "digimon-adventure-2020-op-1-song-tv-size"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "未確認飛行船｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1527203771",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1527203770",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "digimon-adventure-2020-op-1-song-single-full"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "未確認飛行船 (オリジナル・カラオケ)｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1527203779",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1527203770",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "digimon-adventure-2020-op-1-song-instrumental"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "未確認飛行船｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1527207621",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1527207620",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "未確認飛行船 (オリジナル・カラオケ)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1527207622",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1527207620",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "releaseDate": "2020-04-06"
+    },
+    {
+      "id": "digimon-adventure-2020-in-5",
+      "type": "IN",
+      "sequence": 5,
+      "titleJa": "Break the chain naked zero",
+      "songId": "digimon-adventure-2020-in-3-song",
+      "artistDisplayName": "谷本貴義",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://twitter.com/digimon_tv/status/1441688930382909441",
+          "label": "製作方公告為決戰製作的特別版",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000066.000059287.html",
+          "label": "製作方確認相同歌曲的演唱名義",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/digimonadventure-r2/ep/67",
+          "label": "第67話逐集片尾與插曲署名",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A",
+          "label": "中文逐話表確認終回版本與演唱",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://twitter.com/digimon_tv/status/1441688930382909441",
+            "https://prtimes.jp/main/html/rd/p/000000066.000059287.html",
+            "https://www.mau2.com/anime/digimonadventure-r2/ep/67",
+            "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-in-3-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000000066.000059287.html",
+            "https://zh.wikipedia.org/wiki/%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E5%A4%A7%E5%86%92%E9%99%A9%EF%BC%9A"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://twitter.com/digimon_tv/status/1441688930382909441",
+            "https://www.mau2.com/anime/digimonadventure-r2/ep/67"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-in-5"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://twitter.com/digimon_tv/status/1441688930382909441",
+            "https://www.mau2.com/anime/digimonadventure-r2/ep/67"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "digimon-adventure-2020-in-3-song-naked-zero"
+        }
+      ],
+      "credits": [
+        {
+          "name": "谷本貴義",
+          "role": "vocals"
+        }
+      ],
+      "seasonIds": [
+        "2021-summer"
+      ],
+      "usageLabel": "第67話終回決戰插曲｜naked zero 特別版",
+      "lastVerifiedAt": "2026-11-15",
+      "recordings": [
+        {
+          "id": "digimon-adventure-2020-in-3-song-naked-zero",
+          "title": "Break the chain naked zero",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recording_format",
+            "releases",
+            "official_video",
+            "platform_links"
+          ],
+          "note": "終回特別版有實際使用及製作證據，完整獨立音源與發行未確認。",
+          "resumeWhen": "待唱片方獨立發行、附曲序的實體收錄，或權利方清楚標明該版本的影片。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
     }
   ],
-  "metadataVerifiedAt": "2026-09-02",
-  "metadataSources": [],
+  "metadataVerifiedAt": "2026-11-15",
+  "metadataSources": [
+    {
+      "url": "https://img.tvb.com/ti_img/event/static/programmeconnect2021/pdf/file_path_20210610185553000_79697848.pdf",
+      "label": "TVB同期節目表的香港播映名稱",
+      "role": "first_party",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.ttv.com.tw/drama21/DigimonAdventure/default.asp",
+      "label": "台視正式節目名稱《數碼寶貝大冒險：》",
+      "role": "first_party",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://columbia.jp/artist-info/tanimototakayoshi/info/71085.html",
+      "label": "日本原TV首播日期及時段",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.toei-anim.co.jp/kitaro/season6/news/2020042001.php",
+      "label": "東映原時段臨時重播公告",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://lineup.toei-anim.co.jp/ja/tv/digimon/episode/4/",
+      "label": "東映第4話新集復播",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.fujitv.co.jp/b_hp/digimon/",
+      "label": "富士電視台完結日期",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    }
+  ],
   "seasonIds": [
     "2020-spring",
     "2020-summer",
@@ -29597,7 +37913,9 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
     "2021-winter",
     "2021-spring",
     "2021-summer"
-  ]
+  ],
+  "broadcastTimeJst": "09:00",
+  "editorialWeekday": 7
 }),
   spring2020Seed({
   "anilistId": 116793,
@@ -37864,6 +46182,57 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-15",
           "targetId": "apple-hk-1683425552"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/penguinresearch/info/517989"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "shadowverse-op-1-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/penguinresearch/info/517989"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "shadowverse-op-1-song-digital-single"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/penguinresearch/info/517989",
+            "https://music.apple.com/hk/song/1537913669",
+            "https://music.apple.com/hk/album/1537913667"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1537913667"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/penguinresearch/info/551431"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "vvcl-2233"
         }
       ],
       "lastVerifiedAt": "2026-11-15",
@@ -37877,7 +46246,8 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "region": "HK",
           "releaseId": "apple-hk-1537913667",
           "availability": "unknown",
-          "verifiedAt": "2026-11-15"
+          "verifiedAt": "2026-11-15",
+          "recordingId": "shadowverse-op-1-song-digital-single"
         },
         {
           "platform": "Apple Music",
@@ -37905,7 +46275,8 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "tracks": [
             {
               "title": "キリフダ",
-              "position": 1
+              "position": 1,
+              "recordingId": "shadowverse-op-1-song-digital-single"
             }
           ],
           "label": "SACRA MUSIC"
@@ -37928,6 +46299,47 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             }
           ],
           "label": "SACRA MUSIC"
+        },
+        {
+          "id": "vvcl-2233",
+          "title": "逆光備忘録",
+          "type": "album",
+          "date": {
+            "value": "2023-05-10",
+            "precision": "day"
+          },
+          "artistDisplayName": "PENGUIN RESEARCH",
+          "edition": "通常盤（CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "キリフダ",
+              "position": 4,
+              "disc": 1
+            }
+          ],
+          "label": "SACRA MUSIC",
+          "catalogNumber": "VVCL-2233"
+        }
+      ],
+      "releaseDate": "2020-04-27",
+      "recordings": [
+        {
+          "id": "shadowverse-op-1-song-digital-single",
+          "title": "キリフダ",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "收錄原單曲與2023專輯曲位。原播剪輯與專輯錄音關係待核。",
+          "resumeWhen": "待權利方版本對照或原播剪輯可辨識，並按地區確認完整播放。",
+          "checkedAt": "2026-11-15"
         }
       ]
     },
@@ -39347,14 +47759,14 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
         },
         {
           "url": "https://music.apple.com/hk/album/1537913667",
-          "label": "Apple Music指定地區發行資料",
+          "label": "Apple Music HK 區發行與曲序",
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://music.apple.com/hk/song/1537913669",
-          "label": "Apple Music指定地區曲目",
+          "label": "Apple Music HK 區曲目",
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-11-15"
@@ -39446,13 +47858,154 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-15",
           "targetId": "shadowverse-ed-3"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/penguinresearch/info/517989"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "shadowverse-op-1-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/penguinresearch/info/517989"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "shadowverse-op-1-song-digital-single"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1537913669"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1537913669"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/penguinresearch/info/517989",
+            "https://music.apple.com/hk/album/1537913667"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1537913667"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/penguinresearch/info/551431"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "vvcl-2233"
         }
       ],
       "seasonIds": [
         "2020-spring"
       ],
       "usageLabel": "第1話片尾曲",
-      "lastVerifiedAt": "2026-11-15"
+      "lastVerifiedAt": "2026-11-15",
+      "releaseDate": "2020-04-27",
+      "recordings": [
+        {
+          "id": "shadowverse-op-1-song-digital-single",
+          "title": "キリフダ",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "キリフダ｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1537913669",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1537913667",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "shadowverse-op-1-song-digital-single"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1537913667",
+          "title": "キリフダ",
+          "type": "single",
+          "date": {
+            "value": "2020-04-27",
+            "precision": "day"
+          },
+          "artistDisplayName": "PENGUIN RESEARCH",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "キリフダ",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "shadowverse-op-1-song-digital-single"
+            }
+          ],
+          "label": "SACRA MUSIC"
+        },
+        {
+          "id": "vvcl-2233",
+          "title": "逆光備忘録",
+          "type": "album",
+          "date": {
+            "value": "2023-05-10",
+            "precision": "day"
+          },
+          "artistDisplayName": "PENGUIN RESEARCH",
+          "edition": "通常盤（CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "キリフダ",
+              "position": 4,
+              "disc": 1
+            }
+          ],
+          "label": "SACRA MUSIC",
+          "catalogNumber": "VVCL-2233"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "收錄原單曲與2023專輯曲位。原播剪輯與專輯錄音關係待核。",
+          "resumeWhen": "待權利方版本對照或原播剪輯可辨識，並按地區確認完整播放。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
     },
     {
       "songId": "shadowverse-op-2-song",
@@ -39719,6 +48272,14 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
         {
           "name": "黒羽アリス（CV 小倉唯）",
           "role": "vocals"
+        },
+        {
+          "name": "磯崎輪太郎",
+          "role": "lyrics"
+        },
+        {
+          "name": "川崎智哉",
+          "role": "composition"
         }
       ],
       "sources": [
@@ -39741,6 +48302,20 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "繁體中文逐話交叉資料",
           "role": "cross_check",
           "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kingrecords.co.jp/cs/g/gKICM-92048/",
+          "label": "唱片公司曲序及不同音源的人聲與演出版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=bcUQr7fhumQ",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
           "verifiedAt": "2026-11-15"
         }
       ],
@@ -39798,6 +48373,67 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-15",
           "targetId": "shadowverse-alice-in-wonderland-song-cyrc-0007"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.kingrecords.co.jp/cs/g/gKICM-92048/"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kingrecords.co.jp/cs/g/gKICM-92048/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "shadowverse-alice-in-wonderland-song-ogura-dance-music-edition"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kingrecords.co.jp/cs/g/gKICM-92048/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "shadowverse-alice-in-wonderland-song-ogura-dance-music-edition-off-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.kingrecords.co.jp/cs/g/gKICM-92048/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kicm-92048"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=bcUQr7fhumQ",
+            "https://www.kingrecords.co.jp/cs/g/gKICM-92048/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "bcUQr7fhumQ"
         }
       ],
       "seasonIds": [
@@ -39812,6 +48448,28 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "id": "shadowverse-alice-in-wonderland-song-soundtrack",
           "title": "瞳の国のアリス",
           "kind": "character",
+          "format": "unknown"
+        },
+        {
+          "id": "shadowverse-alice-in-wonderland-song-ogura-dance-music-edition",
+          "title": "瞳の国のアリス -Dance Music Edition-",
+          "kind": "rearrangement",
+          "format": "unknown",
+          "credits": [
+            {
+              "name": "小倉唯",
+              "role": "vocals"
+            },
+            {
+              "name": "SHIBU",
+              "role": "arrangement"
+            }
+          ]
+        },
+        {
+          "id": "shadowverse-alice-in-wonderland-song-ogura-dance-music-edition-off-vocal",
+          "title": "瞳の国のアリス -Dance Music Edition-（off vocal ver）",
+          "kind": "instrumental",
           "format": "unknown"
         }
       ],
@@ -39837,19 +48495,855 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "label": "Cygames",
           "catalogNumber": "CYRC-0007"
+        },
+        {
+          "id": "kicm-92048",
+          "title": "ハピネス*センセーション",
+          "type": "single",
+          "date": {
+            "value": "2020-06-10",
+            "precision": "day"
+          },
+          "artistDisplayName": "小倉唯",
+          "edition": "期間限定盤（CD＋DVD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "瞳の国のアリス -Dance Music Edition-",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "shadowverse-alice-in-wonderland-song-ogura-dance-music-edition"
+            },
+            {
+              "title": "瞳の国のアリス -Dance Music Edition-（off vocal ver）",
+              "position": 6,
+              "disc": 1,
+              "recordingId": "shadowverse-alice-in-wonderland-song-ogura-dance-music-edition-off-vocal"
+            }
+          ],
+          "label": "KING RECORDS",
+          "catalogNumber": "KICM-92048"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "lyrics",
-            "composition",
+            "recordings",
             "arrangement",
             "platform_links"
           ],
-          "note": "原聲帶第2碟第41軌；第8話和未編號特別篇仍待同一原播版確認。",
-          "resumeWhen": "待權利方歌曲署名、指定區域曲目及原版影片可查時補。",
+          "note": "角色原聲與小倉唯的另編舞曲分開。第8話、特別篇2有逐話線索，未取得可核對原播版本。",
+          "resumeWhen": "待可辨識原播分話片段或權利方逐話曲表；角色原聲的編曲與正版直達曲目待核。",
           "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 2,
+      "id": "shadowverse-in-2",
+      "songId": "shadowverse-op-1-song",
+      "titleJa": "キリフダ",
+      "artistDisplayName": "PENGUIN RESEARCH",
+      "sourceMode": "explicit",
+      "lastVerifiedAt": "2026-11-15",
+      "sources": [
+        {
+          "url": "https://anime.shadowverse.jp/archive/1st/music/",
+          "label": "權利方歌曲、正式發行或原播分話證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/shadowverse/episodes/",
+          "label": "權利方歌曲、正式發行或原播分話證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/penguinresearch/info/551431",
+          "label": "權利方歌曲、正式發行或原播分話證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/shadowverse/ep/48",
+          "label": "原TV逐話歌曲及場景交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5625/goods",
+          "label": "原TV逐話歌曲及場景交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tadahome.info/entry/2021_winter_kids",
+          "label": "原TV逐話歌曲及場景交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/penguinresearch/info/517989",
+          "label": "藝人單曲2020年4月27日開始配信",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1537913667",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1537913669",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://anime.shadowverse.jp/archive/1st/music/",
+            "https://www.mau2.com/anime/shadowverse/ep/48"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "shadowverse-op-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://anime.shadowverse.jp/archive/1st/music/"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://anime.shadowverse.jp/archive/1st/music/",
+            "https://www.tv-tokyo.co.jp/anime/shadowverse/episodes/",
+            "https://www.sonymusic.co.jp/artist/penguinresearch/info/551431",
+            "https://www.mau2.com/anime/shadowverse/ep/48",
+            "https://cal.syoboi.jp/tid/5625/goods",
+            "https://www.tadahome.info/entry/2021_winter_kids"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "shadowverse-in-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/penguinresearch/info/517989"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "shadowverse-op-1-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/penguinresearch/info/517989"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "shadowverse-op-1-song-digital-single"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1537913669"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1537913669"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/penguinresearch/info/517989",
+            "https://music.apple.com/hk/album/1537913667"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1537913667"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/penguinresearch/info/551431"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "vvcl-2233"
+        }
+      ],
+      "credits": [
+        {
+          "name": "PENGUIN RESEARCH",
+          "role": "vocals"
+        },
+        {
+          "name": "堀江晶太",
+          "role": "lyrics"
+        },
+        {
+          "name": "堀江晶太",
+          "role": "composition"
+        },
+        {
+          "name": "堀江晶太",
+          "role": "arrangement"
+        },
+        {
+          "name": "PENGUIN RESEARCH",
+          "role": "arrangement"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "キリフダ｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1537913669",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1537913667",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "shadowverse-op-1-song-digital-single"
+        }
+      ],
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "usageLabel": "第48話劇中歌｜最後對戰",
+      "followUp": [
+        {
+          "fields": [
+            "recordings"
+          ],
+          "note": "已核原播用途及商業音源。原播片段的音軌與單曲或原聲帶對應待核。",
+          "resumeWhen": "待具名逐話字幕或可辨識的合法原播片段。",
+          "checkedAt": "2026-11-15"
+        }
+      ],
+      "releaseDate": "2020-04-27",
+      "recordings": [
+        {
+          "id": "shadowverse-op-1-song-digital-single",
+          "title": "キリフダ",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1537913667",
+          "title": "キリフダ",
+          "type": "single",
+          "date": {
+            "value": "2020-04-27",
+            "precision": "day"
+          },
+          "artistDisplayName": "PENGUIN RESEARCH",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "キリフダ",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "shadowverse-op-1-song-digital-single"
+            }
+          ],
+          "label": "SACRA MUSIC"
+        },
+        {
+          "id": "vvcl-2233",
+          "title": "逆光備忘録",
+          "type": "album",
+          "date": {
+            "value": "2023-05-10",
+            "precision": "day"
+          },
+          "artistDisplayName": "PENGUIN RESEARCH",
+          "edition": "通常盤（CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "キリフダ",
+              "position": 4,
+              "disc": 1
+            }
+          ],
+          "label": "SACRA MUSIC",
+          "catalogNumber": "VVCL-2233"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 3,
+      "id": "shadowverse-in-3",
+      "songId": "shadowverse-you-are-in-my-eyes-song",
+      "titleJa": "You are in my eyes",
+      "artistDisplayName": "天宮ミモリ（CV 本渡楓）",
+      "sourceMode": "explicit",
+      "lastVerifiedAt": "2026-11-15",
+      "sources": [
+        {
+          "url": "https://anime.shadowverse.jp/archive/1st/news/1597/",
+          "label": "權利方歌曲、正式發行或原播分話證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/shadowverse/episodes/",
+          "label": "權利方歌曲、正式發行或原播分話證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/shadowverse/episodes/index_2.html",
+          "label": "權利方歌曲、正式發行或原播分話證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/shadowverse?cast=cv",
+          "label": "原TV逐話歌曲及場景交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E9%97%87%E5%BD%B1%E8%A9%A9%E7%AB%A0_%28%E5%8B%95%E7%95%AB%29",
+          "label": "原TV逐話歌曲及場景交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://yterapokemon.hatenablog.com/entry/anime_shadowverse_37",
+          "label": "原TV逐話歌曲及場景交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1559498309",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1559498461",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/you-are-in-my-eyes/1559498461",
+          "label": "日本Apple Music 正式歌詞及作曲署名",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://recochoku.jp/song/S1011161114",
+          "label": "日本レコチョク直接曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://anime.shadowverse.jp/archive/1st/news/1597/",
+            "https://www.mau2.com/anime/shadowverse?cast=cv"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "shadowverse-you-are-in-my-eyes-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://anime.shadowverse.jp/archive/1st/news/1597/"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://anime.shadowverse.jp/archive/1st/news/1597/",
+            "https://www.tv-tokyo.co.jp/anime/shadowverse/episodes/",
+            "https://www.tv-tokyo.co.jp/anime/shadowverse/episodes/index_2.html",
+            "https://www.mau2.com/anime/shadowverse?cast=cv",
+            "https://zh.wikipedia.org/wiki/%E9%97%87%E5%BD%B1%E8%A9%A9%E7%AB%A0_%28%E5%8B%95%E7%95%AB%29",
+            "https://yterapokemon.hatenablog.com/entry/anime_shadowverse_37"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "shadowverse-in-3"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://anime.shadowverse.jp/archive/1st/news/1597/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "shadowverse-you-are-in-my-eyes-song-soundtrack"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://anime.shadowverse.jp/archive/1st/news/1597/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "shadowverse-you-are-in-my-eyes-song-cyrc-0007"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1559498461"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1559498461"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://anime.shadowverse.jp/archive/1st/news/1597/",
+            "https://music.apple.com/jp/album/1559498309"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1559498309"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://anime.shadowverse.jp/archive/1st/news/1597/",
+            "https://music.apple.com/jp/song/you-are-in-my-eyes/1559498461"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://recochoku.jp/song/S1011161114"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://recochoku.jp/song/S1011161114"
+        }
+      ],
+      "credits": [
+        {
+          "name": "本渡楓",
+          "role": "vocals"
+        },
+        {
+          "name": "磯崎輪太郎",
+          "role": "lyrics"
+        },
+        {
+          "name": "長門千晴",
+          "role": "composition"
+        },
+        {
+          "name": "伊禮完",
+          "role": "composition"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "You are in my eyes｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1559498461",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1559498309",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "shadowverse-you-are-in-my-eyes-song-soundtrack"
+        },
+        {
+          "platform": "レコチョク",
+          "label": "You are in my eyes｜日本區曲目",
+          "url": "https://recochoku.jp/song/S1011161114",
+          "linkType": "direct_track",
+          "region": "JP",
+          "recordingId": "shadowverse-you-are-in-my-eyes-song-soundtrack",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "usageLabel": "第37、39、40、41話劇中歌",
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "arrangement",
+            "platform_availability"
+          ],
+          "note": "原聲帶、正版詞曲署名及逐話劇中使用已核；未掌握明確編曲署名及播出剪輯關係。",
+          "resumeWhen": "待原播署名或唱片公司補充編曲，並以可辨識的播出音軌核對版本。",
+          "checkedAt": "2026-11-15"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "shadowverse-you-are-in-my-eyes-song-soundtrack",
+          "title": "You are in my eyes",
+          "kind": "character",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "shadowverse-you-are-in-my-eyes-song-cyrc-0007",
+          "title": "TVアニメ「シャドウバース」Original Soundtracks",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-03-30",
+            "precision": "day"
+          },
+          "artistDisplayName": "天宮ミモリ（CV 本渡楓）",
+          "edition": "原聲帶數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "You are in my eyes",
+              "position": 42,
+              "disc": 2,
+              "recordingId": "shadowverse-you-are-in-my-eyes-song-soundtrack"
+            }
+          ],
+          "label": "Cygames",
+          "catalogNumber": "CYRC-0007"
+        },
+        {
+          "id": "apple-jp-1559498309",
+          "title": "TVアニメ「シャドウバース」Original Soundtracks",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-03-30",
+            "precision": "day"
+          },
+          "artistDisplayName": "池頼広",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "You are in my eyes",
+              "position": 42,
+              "disc": 2,
+              "recordingId": "shadowverse-you-are-in-my-eyes-song-soundtrack"
+            }
+          ],
+          "label": "Cygames"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 4,
+      "id": "shadowverse-in-4",
+      "songId": "shadowverse-ed-2-song",
+      "titleJa": "心誰にも",
+      "artistDisplayName": "ゲーム実況者わくわくバンド",
+      "sourceMode": "explicit",
+      "lastVerifiedAt": "2026-11-15",
+      "sources": [
+        {
+          "url": "https://anime.shadowverse.jp/archive/1st/music/",
+          "label": "權利方歌曲、正式發行或原播分話證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/shadowverse/episodes/",
+          "label": "權利方歌曲、正式發行或原播分話證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/shadowverse?cast=cv",
+          "label": "原TV逐話歌曲及場景交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://yterapokemon.hatenablog.com/entry/anime_shadowverse_39",
+          "label": "原TV逐話歌曲及場景交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/wakuwakuband/discography/SRCL-11660",
+          "label": "權利方曲目與發行音源說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1535762019",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1535762031",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://anime.shadowverse.jp/archive/1st/music/",
+            "https://www.mau2.com/anime/shadowverse?cast=cv"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "shadowverse-ed-2-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://anime.shadowverse.jp/archive/1st/music/"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://anime.shadowverse.jp/archive/1st/music/",
+            "https://www.tv-tokyo.co.jp/anime/shadowverse/episodes/",
+            "https://www.mau2.com/anime/shadowverse?cast=cv",
+            "https://yterapokemon.hatenablog.com/entry/anime_shadowverse_39"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "shadowverse-in-4"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/wakuwakuband/discography/SRCL-11660"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "shadowverse-ed-2-song-single-full"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1535762031"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1535762031"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/wakuwakuband/discography/SRCL-11660",
+            "https://music.apple.com/hk/album/1535762019"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1535762019"
+        }
+      ],
+      "credits": [
+        {
+          "name": "ゲーム実況者わくわくバンド",
+          "role": "vocals"
+        },
+        {
+          "name": "ゲーム実況者わくわくバンド",
+          "role": "lyrics"
+        },
+        {
+          "name": "せらみかる",
+          "role": "composition"
+        },
+        {
+          "name": "ゲーム実況者わくわくバンド",
+          "role": "arrangement"
+        },
+        {
+          "name": "黒沢ダイスケ",
+          "role": "arrangement"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "心誰にも｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1535762031",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1535762019",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "shadowverse-ed-2-song-single-full"
+        }
+      ],
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "usageLabel": "第39話劇中用曲｜ミモリ決定性抽牌場景",
+      "followUp": [
+        {
+          "fields": [
+            "recordings"
+          ],
+          "note": "兩份逐話記錄支持劇中用曲。第39話的片尾字幕切點仍待核。",
+          "resumeWhen": "待可辨識原播畫面釐清有無同曲兼播片尾及音軌剪輯。",
+          "checkedAt": "2026-11-15"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "shadowverse-ed-2-song-single-full",
+          "title": "心誰にも",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1535762019",
+          "title": "心誰にも",
+          "type": "single",
+          "date": {
+            "value": "2020-10-28",
+            "precision": "day"
+          },
+          "artistDisplayName": "ゲーム実況者わくわくバンド",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "心誰にも",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "shadowverse-ed-2-song-single-full"
+            }
+          ],
+          "label": "Sony Music Records"
         }
       ]
     }

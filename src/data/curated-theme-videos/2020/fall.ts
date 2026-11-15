@@ -1,6 +1,52 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2020FallThemeVideos = {
+  "118399:OP:2": [
+    {
+      "youtubeVideoId": "V1l3knlckOI",
+      "title": "BURN｜官方Music Clip",
+      "channelName": "NEWS",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "118399:OP:1": [
+    {
+      "youtubeVideoId": "UoHzt2sJ0MQ",
+      "title": "NEW ERA｜YouTube剪輯MV",
+      "channelName": "SixTONES",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "122632:IN:8": [{"youtubeVideoId":"h7Qkj-F7wWk","title":"闇夜突風（Ver.邪）｜唱片方官方音軌","channelName":"Release - Topic","type":"art_track","officialStatus":"official","embeddable":false,"embedAvailability":"unknown","recordingId":"kamizmode-yamiya-toppu-ja-song-beat-collection"}],
+  "122632:IN:10": [{"youtubeVideoId":"B8tLek_JfPE","title":"I’m With You｜萬代官方MV","channelName":"BANDAI OFFICIAL","type":"music_video","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "122632:IN:11": [{"youtubeVideoId":"3IduVLhqslA","title":"愛を仕舞わないで｜唱片方官方音軌","channelName":"Release - Topic","type":"art_track","officialStatus":"official","embeddable":false,"embedAvailability":"unknown","recordingId":"kamizmode-ai-wo-shimawanaide-song-beat-collection"}],
+  "122632:IN:12": [{"youtubeVideoId":"JWG1i3NkMas","title":"レインマジック（Ver.邪）｜唱片方官方音軌","channelName":"Release - Topic","type":"art_track","officialStatus":"official","embeddable":false,"embedAvailability":"unknown","recordingId":"kamizmode-rain-magic-ja-song-beat-collection"}],
+  "122632:IN:13": [{"youtubeVideoId":"LmaR706wH7o","title":"RanRanRan！（Ver.邪）｜唱片方官方音軌","channelName":"Release - Topic","type":"art_track","officialStatus":"official","embeddable":false,"embedAvailability":"unknown","recordingId":"kamizmode-ran-ran-ran-ja-song-beat-collection"}],
+  "122632:IN:15": [{"youtubeVideoId":"bGC4Ig2SN4Y","title":"ドンガラ太鼓｜萬代官方MV","channelName":"BANDAI OFFICIAL","type":"music_video","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},{"youtubeVideoId":"aFIAvBD0xqE","title":"ドンガラ太鼓｜唱片方官方音軌","channelName":"Release - Topic","type":"art_track","officialStatus":"official","embeddable":false,"embedAvailability":"unknown","recordingId":"kamizmode-dongara-daiko-song-beat-collection"}],
+  "122632:IN:19": [{"youtubeVideoId":"TimSThtHG-0","title":"Set The Fire！｜萬代官方MV","channelName":"BANDAI OFFICIAL","type":"music_video","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "122632:IN:25": [{"youtubeVideoId":"IS8ax2zutN0","title":"キミ＆フォーエバー｜萬代官方MV","channelName":"BANDAI OFFICIAL","type":"music_video","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "122632:IN:27": [{"youtubeVideoId":"Pmux3RAqDAE","title":"もう一回｜萬代官方MV","channelName":"BANDAI OFFICIAL","type":"music_video","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "122632:IN:31": [{"youtubeVideoId":"OlTeN3fEzW8","title":"Punch You!｜萬代官方MV","channelName":"BANDAI OFFICIAL","type":"music_video","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "122632:IN:32": [{"youtubeVideoId":"El7tPKgzq_0","title":"ナニモカモ｜萬代官方MV","channelName":"BANDAI OFFICIAL","type":"music_video","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "122632:IN:6": [{"youtubeVideoId":"f_Y1GW456Co","title":"ミチカケ Stupid Gazer｜萬代官方MV","channelName":"BANDAI OFFICIAL","type":"music_video","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "122632:IN:5": [{"youtubeVideoId":"GdlvA07gBvY","title":"Last Winner｜萬代官方MV","channelName":"BANDAI OFFICIAL","type":"music_video","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "122632:ED:22": [{"youtubeVideoId":"pd7GtaJSqvQ","title":"闇を壊して（Ver.ピュアモンスーン）｜萬代官方MV","channelName":"BANDAI OFFICIAL","type":"music_video","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "122632:ED:21": [{"youtubeVideoId":"El7tPKgzq_0","title":"ナニモカモ｜萬代官方MV","channelName":"BANDAI OFFICIAL","type":"music_video","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "122632:ED:18": [{"youtubeVideoId":"OlTeN3fEzW8","title":"Punch You!｜萬代官方MV","channelName":"BANDAI OFFICIAL","type":"music_video","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "122632:ED:16": [{"youtubeVideoId":"Pmux3RAqDAE","title":"もう一回｜萬代官方MV","channelName":"BANDAI OFFICIAL","type":"music_video","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "122632:ED:15": [{"youtubeVideoId":"IS8ax2zutN0","title":"キミ＆フォーエバー｜萬代官方MV","channelName":"BANDAI OFFICIAL","type":"music_video","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "122632:ED:13": [{"youtubeVideoId":"B8tLek_JfPE","title":"I’m With You｜萬代官方MV","channelName":"BANDAI OFFICIAL","type":"music_video","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "122632:ED:9": [{"youtubeVideoId":"TimSThtHG-0","title":"Set The Fire！｜萬代官方MV","channelName":"BANDAI OFFICIAL","type":"music_video","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "122632:IN:3": [{"youtubeVideoId":"SUzjzqAKAu4","title":"夢（Ver.KAMIZMODE）｜官方角色MV","channelName":"BANDAI OFFICIAL","type":"music_video","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "122632:ED:3": [{"youtubeVideoId":"SUzjzqAKAu4","title":"夢（Ver.KAMIZMODE）｜官方角色MV","channelName":"BANDAI OFFICIAL","type":"music_video","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "122632:IN:2": [{"youtubeVideoId":"spfA9CIHm08","title":"虹（Ver.KAMIZMODE）｜官方角色MV","channelName":"BANDAI OFFICIAL","type":"music_video","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "122632:ED:2": [{"youtubeVideoId":"spfA9CIHm08","title":"虹（Ver.KAMIZMODE）｜官方角色MV","channelName":"BANDAI OFFICIAL","type":"music_video","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
   "118376:OP:1": [{"youtubeVideoId":"xxA6NPMy9gA","title":"legendary future｜官方MV短版","channelName":"fripSide Official YouTube Channel","type":"music_video","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
   "118376:OP:2": [{"youtubeVideoId":"1BelV64JDis","title":"Eclipse｜動畫官方片頭影片","channelName":"【公式】キンスレ[KING's RAID]チャンネル","type":"other","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},{"youtubeVideoId":"mU2ok2aTeFk","title":"Eclipse TV Size｜官方音源","channelName":"Dreamcatcher - Topic","type":"art_track","officialStatus":"official","embeddable":false,"embedAvailability":"unknown","recordingId":"kings-raid-ishi-wo-tsugumonotachi-op-2-song-tv-size"},{"youtubeVideoId":"b9UxVkTfkVg","title":"Eclipse｜官方MV","channelName":"Dreamcatcher official","type":"music_video","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
   "118376:ED:1": [{"youtubeVideoId":"6FxvWQJ2xTY","title":"SticK Out｜官方音源","channelName":"KOTOKO Official YouTube Channel","type":"official_audio","officialStatus":"official","embeddable":false,"embedAvailability":"unknown","recordingId":"kings-raid-ishi-wo-tsugumonotachi-ed-1-song-single"}],
@@ -23,17 +69,7 @@ export const curated2020FallThemeVideos = {
       embeddable: true,
     },
   ],
-  "122632:OP:1": [
-    {
-      youtubeVideoId: "R_ikYBHPdqg",
-      title:
-        "「カ！カ！カ！カミズモード！」完全版MV（アニメ『最響カミズモード！』OPテーマ）",
-      type: "full_music_video",
-      channelName: "SUNRISE Music",
-      officialStatus: "official",
-      embeddable: true,
-    },
-  ],
+  "122632:OP:1": [{"youtubeVideoId":"R_ikYBHPdqg","title":"カ！カ！カ！カミズモード！｜官方完整版MV","channelName":"SUNRISE Music","type":"full_music_video","officialStatus":"official","embeddable":true}],
   "114446:OP:1": [
     {
       youtubeVideoId: "KFHxOryOgls",
@@ -340,25 +376,23 @@ export const curated2020FallThemeVideos = {
   ],
   "118399:ED:1": [
     {
-      youtubeVideoId: "OUZTFpIqhVk",
-      title:
-        "【Official】Uru 『Break』読売テレビ・日本テレビ系TVアニメ「半妖の夜叉姫」EDテーマ",
-      type: "full_music_video",
-      channelName: "Uru Official YouTube Channel",
-      officialStatus: "official",
-      embeddable: true,
-    },
+      "youtubeVideoId": "OUZTFpIqhVk",
+      "title": "Uru「Break」｜官方MV",
+      "channelName": "Uru Official YouTube Channel",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": true
+    }
   ],
   "118399:ED:2": [
     {
-      youtubeVideoId: "1422nca02G4",
-      title:
-        "緑黄色社会 『結証』Music Video（TVアニメ『半妖の夜叉姫』1月クールEDテーマ / Yashahime: Princess Half-Demon",
-      type: "full_music_video",
-      channelName: "緑黄色社会",
-      officialStatus: "official",
-      embeddable: true,
-    },
+      "youtubeVideoId": "1422nca02G4",
+      "title": "緑黄色社会「結証」｜官方MV",
+      "channelName": "緑黄色社会",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": true
+    }
   ],
   "112300:OP:1": [
     {

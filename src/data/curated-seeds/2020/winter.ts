@@ -20098,12 +20098,12 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
   ],
   "startDate": "2020-02-02",
   "titleJa": "ヒーリングっど♥プリキュア",
-  "titleZhHant": "元氣魔法 ♥ 光之美少女",
+  "titleZhHant": "元氣魔法光之美少女",
   "titleRomaji": "Healin' Good♥Precure",
   "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112748-UU9yEob7meZj.jpg",
   "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112748-dT6g0pgTY5u1.jpg",
   "editorialWeekday": 7,
-  "broadcastLabel": "ABCテレビ・テレビ朝日系列 原日本TV首播／週日08:30",
+  "broadcastLabel": "日本原TV 週日08:30（ABC・テレビ朝日系）；2020/2/2首播，4/26起重播，6/28以第13話恢復新集，2021/2/21第45話完結。",
   "status": "finished",
   "officialSiteUrl": "https://www.toei-anim.co.jp/tv/healingood_precure/",
   "anilistUrl": "https://anilist.co/anime/112748",
@@ -20160,7 +20160,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-26"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://machi.co/contents/288052",
@@ -20188,7 +20188,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "Marvelous｜ボーカルベスト正式曲序",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-07"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://www.neowing.co.jp/product/MJSA-1310",
@@ -20202,7 +20202,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "Marvelous｜原聲帶1 TVサイズ正式曲序與歌唱創作",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-07"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://www.neowing.co.jp/product/MJSA-1284",
@@ -20210,6 +20210,272 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.asahi.co.jp/precure/healingood/story/",
+          "label": "朝日放送逐話原播集數與日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/healingoodprecure",
+          "label": "日本原TV逐話主題曲與插曲交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5575/subtitle",
+          "label": "原TV歌曲輪替與兩話插曲交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/9759/",
+          "label": "唱片公司原發行規格、曲序與版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/9757/",
+          "label": "唱片公司原發行規格、曲序與版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1495283294",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1513156370",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1513156372",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1513156370",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1513156372",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/9937/",
+          "label": "唱片公司原聲帶第二輯片頭TV尺寸",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1543690832",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1543691018",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1543690832",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1543691018",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1500528542",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1500528543",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1500528545",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1500528542",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1500528543",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1500528545",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1495283295",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1495283294",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1495283295",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=drHHMRJnOzY",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/9859/",
+          "label": "唱片公司初發片頭四位聲優角色翻唱版",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/9925/",
+          "label": "唱片公司北川理恵精選輯及DVD完整MV收錄資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1540062144",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1540062152",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1540062144",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1540062152",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1551823448",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1551823449",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1551823453",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1551823448",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1551823449",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1551823453",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.marv.jp/titles/av/10521/",
+          "label": "唱片公司實體發行日期及曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
@@ -20427,22 +20693,564 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "https://www.neowing.co.jp/product/MJSA-1284"
           ],
           "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/healingood_precure/music/",
+            "https://www.asahi.co.jp/precure/healingood/story/",
+            "https://www.mau2.com/anime/healingoodprecure",
+            "https://cal.syoboi.jp/tid/5575/subtitle"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1495283294"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-op-1-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9759/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-op-1-song-single-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9759/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-op-1-song-single-karaoke"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9757/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-op-1-song-single-melody-karaoke"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9759/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-jp-mjss-09254"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9757/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-jp-mjss-09252-3"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1513156372"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1513156372"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9799/",
+            "https://music.apple.com/hk/album/1513156370"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1513156370"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1513156372"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1513156372"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9799/",
+            "https://music.apple.com/jp/album/1513156370"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1513156370"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9937/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-jp-mjsa-01302"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1543691018"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1543691018"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9937/",
+            "https://music.apple.com/hk/album/1543690832"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1543690832"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1543691018"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1543691018"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9937/",
+            "https://music.apple.com/jp/album/1543690832"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1543690832"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1500528543"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1500528543"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1500528545"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1500528545"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9759/",
+            "https://music.apple.com/hk/album/1500528542"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1500528542"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1500528543"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1500528543"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1500528545"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1500528545"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9759/",
+            "https://music.apple.com/jp/album/1500528542"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1500528542"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1495283295"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1495283295"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9757/",
+            "https://music.apple.com/hk/album/1495283294"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1495283294"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1495283295"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1495283295"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9757/",
+            "https://music.apple.com/jp/album/1495283294"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1495283294"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=drHHMRJnOzY",
+            "https://www.marv.jp/titles/mc/9759/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "drHHMRJnOzY"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9859/",
+            "https://www.marv.jp/titles/mc/9969/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-op-1-song-four-character-cover"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9859/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-jp-mjss-09255"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9969/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-jp-mjsa-01310"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9925/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-jp-mjsa-01303-4"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1540062152"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1540062152"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9925/",
+            "https://music.apple.com/hk/album/1540062144"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1540062144"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1540062152"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1540062152"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9925/",
+            "https://music.apple.com/jp/album/1540062144"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1540062144"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1551823449"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1551823449"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1551823453"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1551823453"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9969/",
+            "https://music.apple.com/hk/album/1551823448"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1551823448"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1551823449"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1551823449"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1551823453"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1551823453"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9969/",
+            "https://music.apple.com/jp/album/1551823448"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1551823448"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/av/10521/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-jp-mjsa-01361-66"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "official_video",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "原期曲名、演唱名義與OP／ED用途已核；既有影音及用途序號保留。",
-          "resumeWhen": "待本曲音源、發行品或單曲平台有直接證據再補，不由影片推新錄音。",
-          "checkedAt": "2026-10-26"
+          "note": "已核原單曲、電視尺寸與官方音軌。實播個別剪輯和同名再收錄的母帶關係待核。",
+          "resumeWhen": "待權利方逐話剪輯或再版錄音對照；各地區完整播放另驗。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-11-07",
+      "lastVerifiedAt": "2026-11-15",
       "recordings": [
         {
           "id": "healin-good-precure-op-1-ost1-tv",
@@ -20467,6 +21275,48 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
               "role": "arrangement"
             }
           ]
+        },
+        {
+          "id": "healin-good-precure-op-1-song-single-vocal",
+          "title": "ヒーリングっど♥プリキュア Touch!!",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "healin-good-precure-op-1-song-single-karaoke",
+          "title": "ヒーリングっど♥プリキュア Touch!!（オリジナル・カラオケ）",
+          "kind": "instrumental",
+          "format": "unknown"
+        },
+        {
+          "id": "healin-good-precure-op-1-song-single-melody-karaoke",
+          "title": "ヒーリングっど♥プリキュア Touch!!（オリジナル・メロディ・カラオケ）",
+          "kind": "instrumental",
+          "format": "unknown"
+        },
+        {
+          "id": "healin-good-precure-op-1-song-four-character-cover",
+          "title": "ヒーリングっど♥プリキュア Touch!! ～Precure Quartet Ver.～",
+          "kind": "character",
+          "format": "unknown",
+          "credits": [
+            {
+              "name": "悠木碧",
+              "role": "vocals"
+            },
+            {
+              "name": "依田菜津",
+              "role": "vocals"
+            },
+            {
+              "name": "河野ひより",
+              "role": "vocals"
+            },
+            {
+              "name": "三森すずこ",
+              "role": "vocals"
+            }
+          ]
         }
       ],
       "releases": [
@@ -20488,6 +21338,12 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
               "title": "ヒーリングっど♥プリキュア Touch!!",
               "disc": 1,
               "position": 1
+            },
+            {
+              "title": "ヒーリングっど♥プリキュア Touch!! ～Precure Quartet Ver.～",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "healin-good-precure-op-1-song-four-character-cover"
             }
           ]
         },
@@ -20512,6 +21368,420 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
               "recordingId": "healin-good-precure-op-1-ost1-tv"
             }
           ]
+        },
+        {
+          "id": "healin-good-precure-jp-mjss-09254",
+          "title": "ヒーリングっど♥プリキュア 主題歌シングル",
+          "type": "single",
+          "date": {
+            "value": "2020-03-25",
+            "precision": "day"
+          },
+          "artistDisplayName": "北川理恵、Machico",
+          "edition": "通常盤 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ヒーリングっど♥プリキュア Touch!!",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "healin-good-precure-op-1-song-single-vocal"
+            },
+            {
+              "title": "ヒーリングっど♥プリキュア Touch!!（オリジナル・カラオケ）",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "healin-good-precure-op-1-song-single-karaoke"
+            }
+          ],
+          "label": "マーベラス",
+          "catalogNumber": "MJSS-09254"
+        },
+        {
+          "id": "healin-good-precure-jp-mjss-09252-3",
+          "title": "ヒーリングっど♥プリキュア 主題歌シングル",
+          "type": "single",
+          "date": {
+            "value": "2020-03-25",
+            "precision": "day"
+          },
+          "artistDisplayName": "北川理恵、Machico",
+          "edition": "CD＋DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ヒーリングっど♥プリキュア Touch!!",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "healin-good-precure-op-1-song-single-vocal"
+            },
+            {
+              "title": "ヒーリングっど♥プリキュア Touch!!（オリジナル・メロディ・カラオケ）",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "healin-good-precure-op-1-song-single-melody-karaoke"
+            }
+          ],
+          "label": "マーベラス",
+          "catalogNumber": "MJSS-09252～3"
+        },
+        {
+          "id": "apple-hk-1513156370",
+          "title": "ヒーリングっど♥プリキュア オリジナル・サウンドトラック１ プリキュア・サウンド・ガーデン!!",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-05-27",
+            "precision": "day"
+          },
+          "artistDisplayName": "寺田志保",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ヒーリングっど♥プリキュア Touch!!（TVサイズ）",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "healin-good-precure-op-1-ost1-tv"
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "apple-jp-1513156370",
+          "title": "ヒーリングっど♥プリキュア オリジナル・サウンドトラック１ プリキュア・サウンド・ガーデン!!",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-05-27",
+            "precision": "day"
+          },
+          "artistDisplayName": "寺田志保",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ヒーリングっど♥プリキュア Touch!!（TVサイズ）",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "healin-good-precure-op-1-ost1-tv"
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "healin-good-precure-jp-mjsa-01302",
+          "title": "ヒーリングっど♥プリキュア オリジナル・サウンドトラック２ プリキュア・サウンド・オアシス!!",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-12-23",
+            "precision": "day"
+          },
+          "artistDisplayName": "寺田志保",
+          "edition": "CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ヒーリングっど♥プリキュア Touch!!（TVサイズ）",
+              "position": 3,
+              "disc": 1
+            }
+          ],
+          "label": "マーベラス",
+          "catalogNumber": "MJSA-01302"
+        },
+        {
+          "id": "apple-hk-1543690832",
+          "title": "ヒーリングっど♥プリキュア オリジナル・サウンドトラック２ プリキュア・サウンド・オアシス!!",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-12-23",
+            "precision": "day"
+          },
+          "artistDisplayName": "寺田志保",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ヒーリングっど♥プリキュア Touch!!（TVサイズ）",
+              "position": 3,
+              "disc": 1
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "apple-jp-1543690832",
+          "title": "ヒーリングっど♥プリキュア オリジナル・サウンドトラック２ プリキュア・サウンド・オアシス!!",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-12-23",
+            "precision": "day"
+          },
+          "artistDisplayName": "寺田志保",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ヒーリングっど♥プリキュア Touch!!（TVサイズ）",
+              "position": 3,
+              "disc": 1
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "apple-hk-1500528542",
+          "title": "ヒーリングっど♥プリキュア 主題歌シングル",
+          "type": "single",
+          "date": {
+            "value": "2020-03-25",
+            "precision": "day"
+          },
+          "artistDisplayName": "北川理恵、Machico",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ヒーリングっど♥プリキュア Touch!!",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "healin-good-precure-op-1-song-single-vocal"
+            },
+            {
+              "title": "ヒーリングっど♥プリキュア Touch!!（オリジナル・カラオケ）",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "healin-good-precure-op-1-song-single-karaoke"
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "apple-jp-1500528542",
+          "title": "ヒーリングっど♥プリキュア 主題歌シングル",
+          "type": "single",
+          "date": {
+            "value": "2020-03-25",
+            "precision": "day"
+          },
+          "artistDisplayName": "北川理恵、Machico",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ヒーリングっど♥プリキュア Touch!!",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "healin-good-precure-op-1-song-single-vocal"
+            },
+            {
+              "title": "ヒーリングっど♥プリキュア Touch!!（オリジナル・カラオケ）",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "healin-good-precure-op-1-song-single-karaoke"
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "apple-hk-1495283294",
+          "title": "ヒーリングっど♥プリキュア 主題歌シングル（TVサイズ）",
+          "type": "single",
+          "date": {
+            "value": "2020-02-02",
+            "precision": "day"
+          },
+          "artistDisplayName": "北川理恵、Machico",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ヒーリングっど♥プリキュア Touch!!（TVサイズ）",
+              "position": 1,
+              "disc": 1
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "apple-jp-1495283294",
+          "title": "ヒーリングっど♥プリキュア 主題歌シングル（TVサイズ）",
+          "type": "single",
+          "date": {
+            "value": "2020-02-02",
+            "precision": "day"
+          },
+          "artistDisplayName": "北川理恵、Machico",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ヒーリングっど♥プリキュア Touch!!（TVサイズ）",
+              "position": 1,
+              "disc": 1
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "healin-good-precure-jp-mjss-09255",
+          "title": "ヒーリングっど♥プリキュア キャラクターシングル ～響き合う4つの声～",
+          "type": "single",
+          "date": {
+            "value": "2020-07-22",
+            "precision": "day"
+          },
+          "artistDisplayName": "悠木碧、依田菜津、河野ひより、三森すずこ",
+          "edition": "CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ヒーリングっど♥プリキュア Touch!! ～Precure Quartet Ver.～",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "healin-good-precure-op-1-song-four-character-cover"
+            }
+          ],
+          "label": "マーベラス",
+          "catalogNumber": "MJSS-09255"
+        },
+        {
+          "id": "healin-good-precure-jp-mjsa-01303-4",
+          "title": "MY toybox ～Rie Kitagawa プリキュアソングコレクション～",
+          "type": "compilation",
+          "date": {
+            "value": "2020-11-25",
+            "precision": "day"
+          },
+          "artistDisplayName": "北川理恵",
+          "edition": "CD＋DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ヒーリングっど♥プリキュア Touch!!",
+              "position": 3,
+              "disc": 1
+            }
+          ],
+          "label": "マーベラス",
+          "catalogNumber": "MJSA-01303～4"
+        },
+        {
+          "id": "apple-hk-1540062144",
+          "title": "MY toybox ～Rie Kitagawa プリキュアソングコレクション～",
+          "type": "compilation",
+          "date": {
+            "value": "2020-11-25",
+            "precision": "day"
+          },
+          "artistDisplayName": "北川理恵",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ヒーリングっど♥プリキュア Touch!!",
+              "position": 3,
+              "disc": 1
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "apple-jp-1540062144",
+          "title": "MY toybox ～Rie Kitagawa プリキュアソングコレクション～",
+          "type": "compilation",
+          "date": {
+            "value": "2020-11-25",
+            "precision": "day"
+          },
+          "artistDisplayName": "北川理恵",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ヒーリングっど♥プリキュア Touch!!",
+              "position": 3,
+              "disc": 1
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "apple-hk-1551823448",
+          "title": "ヒーリングっど♥プリキュア ボーカルベストアルバム ～We are Alive～",
+          "type": "compilation",
+          "date": {
+            "value": "2021-02-17",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ヒーリングっど♥プリキュア Touch!!",
+              "position": 1,
+              "disc": 1
+            },
+            {
+              "title": "ヒーリングっど♥プリキュア Touch!! ～Precure Quartet Ver.～",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "healin-good-precure-op-1-song-four-character-cover"
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "apple-jp-1551823448",
+          "title": "ヒーリングっど♥プリキュア ボーカルベストアルバム ～We are Alive～",
+          "type": "compilation",
+          "date": {
+            "value": "2021-02-17",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ヒーリングっど♥プリキュア Touch!!",
+              "position": 1,
+              "disc": 1
+            },
+            {
+              "title": "ヒーリングっど♥プリキュア Touch!! ～Precure Quartet Ver.～",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "healin-good-precure-op-1-song-four-character-cover"
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "healin-good-precure-jp-mjsa-01361-66",
+          "title": "プリキュア ボーカルベストBOX 2018-2023",
+          "type": "compilation",
+          "date": {
+            "value": "2023-11-29",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "完全生產限定 CD＋DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ヒーリングっど♥プリキュア Touch!!",
+              "position": 1,
+              "disc": 3
+            },
+            {
+              "title": "ヒーリングっど♥プリキュア Touch!! ～Precure Quartet Ver.～",
+              "position": 15,
+              "disc": 3
+            }
+          ],
+          "label": "マーベラス",
+          "catalogNumber": "MJSA-01361～66"
         }
       ],
       "links": [
@@ -20554,8 +21824,178 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "region": "JP",
           "availability": "unknown",
           "verifiedAt": "2026-11-07"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ヒーリングっど♥プリキュア Touch!!（TVサイズ）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1513156372",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1513156370",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "healin-good-precure-op-1-ost1-tv"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ヒーリングっど♥プリキュア Touch!!（TVサイズ）｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1513156372",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1513156370",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "healin-good-precure-op-1-ost1-tv"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ヒーリングっど♥プリキュア Touch!!（TVサイズ）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1543691018",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1543690832",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ヒーリングっど♥プリキュア Touch!!（TVサイズ）｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1543691018",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1543690832",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ヒーリングっど♥プリキュア Touch!!｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1500528543",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1500528542",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "healin-good-precure-op-1-song-single-vocal"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ヒーリングっど♥プリキュア Touch!!（オリジナル・カラオケ）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1500528545",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1500528542",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "healin-good-precure-op-1-song-single-karaoke"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ヒーリングっど♥プリキュア Touch!!｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1500528543",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1500528542",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "healin-good-precure-op-1-song-single-vocal"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ヒーリングっど♥プリキュア Touch!!（オリジナル・カラオケ）｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1500528545",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1500528542",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "healin-good-precure-op-1-song-single-karaoke"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ヒーリングっど♥プリキュア Touch!!（TVサイズ）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1495283295",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1495283294",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ヒーリングっど♥プリキュア Touch!!（TVサイズ）｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1495283295",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1495283294",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ヒーリングっど♥プリキュア Touch!!｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1540062152",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1540062144",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ヒーリングっど♥プリキュア Touch!!｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1540062152",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1540062144",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ヒーリングっど♥プリキュア Touch!!｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1551823449",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1551823448",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ヒーリングっど♥プリキュア Touch!! ～Precure Quartet Ver.～｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1551823453",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1551823448",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "healin-good-precure-op-1-song-four-character-cover"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ヒーリングっど♥プリキュア Touch!!｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1551823449",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1551823448",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ヒーリングっど♥プリキュア Touch!! ～Precure Quartet Ver.～｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1551823453",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1551823448",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "healin-good-precure-op-1-song-four-character-cover"
         }
-      ]
+      ],
+      "usageLabel": "第1–45話原TV片頭｜2020冬至2021冬",
+      "releaseDate": "2020-02-02"
     },
     {
       "type": "ED",
@@ -20598,7 +22038,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-26"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://machi.co/contents/288052",
@@ -20626,7 +22066,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "Marvelous｜ボーカルベスト正式曲序",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-07"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://www.neowing.co.jp/product/MJSA-1310",
@@ -20640,7 +22080,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "Marvelous｜原聲帶1 TVサイズ正式曲序與歌唱創作",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-07"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://www.neowing.co.jp/product/MJSA-1284",
@@ -20648,6 +22088,195 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.asahi.co.jp/precure/healingood/story/",
+          "label": "朝日放送逐話原播集數與日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.toei-anim.co.jp/tv/healingood_precure/special/",
+          "label": "東映官方片頭及片尾影片",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/healingoodprecure",
+          "label": "日本原TV逐話主題曲與插曲交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5575/subtitle",
+          "label": "原TV歌曲輪替與兩話插曲交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/9759/",
+          "label": "唱片公司原發行規格、曲序與版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/9757/",
+          "label": "唱片公司原發行規格、曲序與版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1495283294",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1513156370",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1513156869",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1513156370",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1513156869",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1500528542",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1500528544",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1500528756",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1500528542",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1500528544",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1500528756",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1495283296",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1495283294",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1495283296",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=4mjIYYJM_eU",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1551823448",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1551823450",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1551823448",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1551823450",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.marv.jp/titles/av/10521/",
+          "label": "唱片公司實體發行日期及曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=hoHbjdNU_uY",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
@@ -20865,22 +22494,381 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "https://www.neowing.co.jp/product/MJSA-1284"
           ],
           "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/healingood_precure/music/",
+            "https://www.asahi.co.jp/precure/healingood/story/",
+            "https://www.mau2.com/anime/healingoodprecure",
+            "https://cal.syoboi.jp/tid/5575/subtitle"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1495283294"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-ed-1-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9759/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-ed-1-song-single-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9759/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-ed-1-song-single-karaoke"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9757/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-ed-1-song-single-melody-karaoke"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9759/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-jp-mjss-09254"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9757/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-jp-mjss-09252-3"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1513156869"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1513156869"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9799/",
+            "https://music.apple.com/hk/album/1513156370"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1513156370"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1513156869"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1513156869"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9799/",
+            "https://music.apple.com/jp/album/1513156370"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1513156370"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1500528544"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1500528544"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1500528756"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1500528756"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9759/",
+            "https://music.apple.com/hk/album/1500528542"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1500528542"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1500528544"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1500528544"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1500528756"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1500528756"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9759/",
+            "https://music.apple.com/jp/album/1500528542"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1500528542"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1495283296"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1495283296"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9757/",
+            "https://music.apple.com/hk/album/1495283294"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1495283294"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1495283296"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1495283296"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9757/",
+            "https://music.apple.com/jp/album/1495283294"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1495283294"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=4mjIYYJM_eU",
+            "https://www.marv.jp/titles/mc/9759/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "4mjIYYJM_eU"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1551823450"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1551823450"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9969/",
+            "https://music.apple.com/hk/album/1551823448"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1551823448"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1551823450"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1551823450"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9969/",
+            "https://music.apple.com/jp/album/1551823448"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1551823448"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/av/10521/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-jp-mjsa-01361-66"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=hoHbjdNU_uY",
+            "https://www.toei-anim.co.jp/tv/healingood_precure/special/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "hoHbjdNU_uY"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "official_video",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "原期曲名、演唱名義與OP／ED用途已核；既有影音及用途序號保留。",
-          "resumeWhen": "待本曲音源、發行品或單曲平台有直接證據再補，不由影片推新錄音。",
-          "checkedAt": "2026-10-26"
+          "note": "已核原單曲、電視尺寸與官方音軌。實播個別剪輯和同名再收錄的母帶關係待核。",
+          "resumeWhen": "待權利方逐話剪輯或再版錄音對照；各地區完整播放另驗。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-11-07",
+      "lastVerifiedAt": "2026-11-15",
       "recordings": [
         {
           "id": "healin-good-precure-ed-1-ost1-tv",
@@ -20905,6 +22893,24 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
               "role": "arrangement"
             }
           ]
+        },
+        {
+          "id": "healin-good-precure-ed-1-song-single-vocal",
+          "title": "ミラクルっと♥Link Ring！",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "healin-good-precure-ed-1-song-single-karaoke",
+          "title": "ミラクルっと♥Link Ring！（オリジナル・カラオケ）",
+          "kind": "instrumental",
+          "format": "unknown"
+        },
+        {
+          "id": "healin-good-precure-ed-1-song-single-melody-karaoke",
+          "title": "ミラクルっと♥Link Ring！（オリジナル・メロディ・カラオケ）",
+          "kind": "instrumental",
+          "format": "unknown"
         }
       ],
       "releases": [
@@ -20950,6 +22956,259 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
               "recordingId": "healin-good-precure-ed-1-ost1-tv"
             }
           ]
+        },
+        {
+          "id": "healin-good-precure-jp-mjss-09254",
+          "title": "ヒーリングっど♥プリキュア 主題歌シングル",
+          "type": "single",
+          "date": {
+            "value": "2020-03-25",
+            "precision": "day"
+          },
+          "artistDisplayName": "北川理恵、Machico",
+          "edition": "通常盤 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ミラクルっと♥Link Ring！",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "healin-good-precure-ed-1-song-single-vocal"
+            },
+            {
+              "title": "ミラクルっと♥Link Ring！（オリジナル・カラオケ）",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "healin-good-precure-ed-1-song-single-karaoke"
+            }
+          ],
+          "label": "マーベラス",
+          "catalogNumber": "MJSS-09254"
+        },
+        {
+          "id": "healin-good-precure-jp-mjss-09252-3",
+          "title": "ヒーリングっど♥プリキュア 主題歌シングル",
+          "type": "single",
+          "date": {
+            "value": "2020-03-25",
+            "precision": "day"
+          },
+          "artistDisplayName": "北川理恵、Machico",
+          "edition": "CD＋DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ミラクルっと♥Link Ring！",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "healin-good-precure-ed-1-song-single-vocal"
+            },
+            {
+              "title": "ミラクルっと♥Link Ring！（オリジナル・メロディ・カラオケ）",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "healin-good-precure-ed-1-song-single-melody-karaoke"
+            }
+          ],
+          "label": "マーベラス",
+          "catalogNumber": "MJSS-09252～3"
+        },
+        {
+          "id": "apple-hk-1513156370",
+          "title": "ヒーリングっど♥プリキュア オリジナル・サウンドトラック１ プリキュア・サウンド・ガーデン!!",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-05-27",
+            "precision": "day"
+          },
+          "artistDisplayName": "寺田志保",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ミラクルっと♥Link Ring！（TVサイズ）",
+              "position": 39,
+              "disc": 1,
+              "recordingId": "healin-good-precure-ed-1-ost1-tv"
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "apple-jp-1513156370",
+          "title": "ヒーリングっど♥プリキュア オリジナル・サウンドトラック１ プリキュア・サウンド・ガーデン!!",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-05-27",
+            "precision": "day"
+          },
+          "artistDisplayName": "寺田志保",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ミラクルっと♥Link Ring！（TVサイズ）",
+              "position": 39,
+              "disc": 1,
+              "recordingId": "healin-good-precure-ed-1-ost1-tv"
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "apple-hk-1500528542",
+          "title": "ヒーリングっど♥プリキュア 主題歌シングル",
+          "type": "single",
+          "date": {
+            "value": "2020-03-25",
+            "precision": "day"
+          },
+          "artistDisplayName": "北川理恵、Machico",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ミラクルっと♥Link Ring！",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "healin-good-precure-ed-1-song-single-vocal"
+            },
+            {
+              "title": "ミラクルっと♥Link Ring！（オリジナル・カラオケ）",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "healin-good-precure-ed-1-song-single-karaoke"
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "apple-jp-1500528542",
+          "title": "ヒーリングっど♥プリキュア 主題歌シングル",
+          "type": "single",
+          "date": {
+            "value": "2020-03-25",
+            "precision": "day"
+          },
+          "artistDisplayName": "北川理恵、Machico",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ミラクルっと♥Link Ring！",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "healin-good-precure-ed-1-song-single-vocal"
+            },
+            {
+              "title": "ミラクルっと♥Link Ring！（オリジナル・カラオケ）",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "healin-good-precure-ed-1-song-single-karaoke"
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "apple-hk-1495283294",
+          "title": "ヒーリングっど♥プリキュア 主題歌シングル（TVサイズ）",
+          "type": "single",
+          "date": {
+            "value": "2020-02-02",
+            "precision": "day"
+          },
+          "artistDisplayName": "北川理恵、Machico",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ミラクルっと♥Link Ring！（TVサイズ）",
+              "position": 2,
+              "disc": 1
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "apple-jp-1495283294",
+          "title": "ヒーリングっど♥プリキュア 主題歌シングル（TVサイズ）",
+          "type": "single",
+          "date": {
+            "value": "2020-02-02",
+            "precision": "day"
+          },
+          "artistDisplayName": "北川理恵、Machico",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ミラクルっと♥Link Ring！（TVサイズ）",
+              "position": 2,
+              "disc": 1
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "apple-hk-1551823448",
+          "title": "ヒーリングっど♥プリキュア ボーカルベストアルバム ～We are Alive～",
+          "type": "compilation",
+          "date": {
+            "value": "2021-02-17",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ミラクルっと♥Link Ring！",
+              "position": 2,
+              "disc": 1
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "apple-jp-1551823448",
+          "title": "ヒーリングっど♥プリキュア ボーカルベストアルバム ～We are Alive～",
+          "type": "compilation",
+          "date": {
+            "value": "2021-02-17",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ミラクルっと♥Link Ring！",
+              "position": 2,
+              "disc": 1
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "healin-good-precure-jp-mjsa-01361-66",
+          "title": "プリキュア ボーカルベストBOX 2018-2023",
+          "type": "compilation",
+          "date": {
+            "value": "2023-11-29",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "完全生產限定 CD＋DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ミラクルっと♥Link Ring！",
+              "position": 7,
+              "disc": 3
+            }
+          ],
+          "label": "マーベラス",
+          "catalogNumber": "MJSA-01361～66"
         }
       ],
       "links": [
@@ -20992,8 +23251,116 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "region": "JP",
           "availability": "unknown",
           "verifiedAt": "2026-11-07"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ミラクルっと♥Link Ring！（TVサイズ）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1513156869",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1513156370",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "healin-good-precure-ed-1-ost1-tv"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ミラクルっと♥Link Ring！（TVサイズ）｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1513156869",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1513156370",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "healin-good-precure-ed-1-ost1-tv"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ミラクルっと♥Link Ring！｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1500528544",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1500528542",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "healin-good-precure-ed-1-song-single-vocal"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ミラクルっと♥Link Ring！（オリジナル・カラオケ）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1500528756",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1500528542",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "healin-good-precure-ed-1-song-single-karaoke"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ミラクルっと♥Link Ring！｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1500528544",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1500528542",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "healin-good-precure-ed-1-song-single-vocal"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ミラクルっと♥Link Ring！（オリジナル・カラオケ）｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1500528756",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1500528542",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "healin-good-precure-ed-1-song-single-karaoke"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ミラクルっと♥Link Ring！（TVサイズ）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1495283296",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1495283294",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ミラクルっと♥Link Ring！（TVサイズ）｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1495283296",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1495283294",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ミラクルっと♥Link Ring！｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1551823450",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1551823448",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ミラクルっと♥Link Ring！｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1551823450",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1551823448",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
         }
-      ]
+      ],
+      "usageLabel": "第1–19話原TV片尾｜2020冬至2020夏",
+      "releaseDate": "2020-02-02"
     },
     {
       "type": "ED",
@@ -21036,7 +23403,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-26"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E5%85%83%E6%B0%A3%E9%AD%94%E6%B3%95%E5%85%89%E4%B9%8B%E7%BE%8E%E5%B0%91%E5%A5%B3",
@@ -21050,7 +23417,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "Marvelous｜ボーカルベスト正式曲序",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-07"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://www.neowing.co.jp/product/MJSA-1310",
@@ -21064,7 +23431,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "Marvelous｜後期主題歌單曲 通常盤 CD",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-07"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://www.neowing.co.jp/product/MJSS-9258",
@@ -21078,7 +23445,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "Marvelous｜後期主題歌單曲 CD+DVD",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-07"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://www.neowing.co.jp/product/MJSS-9256",
@@ -21086,6 +23453,209 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.asahi.co.jp/precure/healingood/story/",
+          "label": "朝日放送逐話原播集數與日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.toei-anim.co.jp/tv/healingood_precure/special/",
+          "label": "東映官方片頭及片尾影片",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/healingoodprecure",
+          "label": "日本原TV逐話主題曲與插曲交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5575/subtitle",
+          "label": "原TV歌曲輪替與兩話插曲交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.asahi.co.jp/precure/healingood/news/20200622_song.html",
+          "label": "朝日放送後期片尾換曲公告與歌手",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.asahi.co.jp/precure/healingood/story/backnum_20.html",
+          "label": "朝日放送第20話原播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/9937/",
+          "label": "唱片公司原發行規格、曲序與版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1525847629",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1528959523",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=EH3Zk7g1eG8",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1543690832",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1543691296",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1543690832",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1543691296",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1528959522",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1528959531",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1528959522",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1528959523",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1528959531",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1525847631",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1525847629",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1525847631",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=HIUMZO2KUG8",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1551823448",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1551823451",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1551823448",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1551823451",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.marv.jp/titles/av/10521/",
+          "label": "唱片公司實體發行日期及曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=9Rum6AdpfaY",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
@@ -21322,22 +23892,382 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "https://www.neowing.co.jp/product/MJSS-9256"
           ],
           "verifiedAt": "2026-11-07"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.toei-anim.co.jp/tv/healingood_precure/music/",
+            "https://www.asahi.co.jp/precure/healingood/story/",
+            "https://www.mau2.com/anime/healingoodprecure",
+            "https://cal.syoboi.jp/tid/5575/subtitle",
+            "https://www.asahi.co.jp/precure/healingood/news/20200622_song.html",
+            "https://www.asahi.co.jp/precure/healingood/story/backnum_20.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-ed-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1525847629"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-ed-2-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9869/",
+            "https://music.apple.com/hk/song/1528959523"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-ed-2-single-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9937/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-ed-2-song-ost2-tv"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9937/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-jp-mjsa-01302"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.asahi.co.jp/precure/healingood/news/20200622_song.html",
+            "https://www.youtube.com/watch?v=EH3Zk7g1eG8"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-ed-2-song-digital-single-tv"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1543691296"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1543691296"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9937/",
+            "https://music.apple.com/hk/album/1543690832"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1543690832"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1543691296"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1543691296"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9937/",
+            "https://music.apple.com/jp/album/1543690832"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1543690832"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1528959523"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1528959523"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1528959531"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1528959531"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9869/",
+            "https://music.apple.com/hk/album/1528959522"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1528959522"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1528959523"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1528959523"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1528959531"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1528959531"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9869/",
+            "https://music.apple.com/jp/album/1528959522"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1528959522"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1525847631"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1525847631"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.asahi.co.jp/precure/healingood/news/20200622_song.html",
+            "https://music.apple.com/hk/album/1525847629"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1525847629"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1525847631"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1525847631"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.asahi.co.jp/precure/healingood/news/20200622_song.html",
+            "https://music.apple.com/jp/album/1525847629"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1525847629"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=HIUMZO2KUG8",
+            "https://www.marv.jp/titles/mc/9869/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "HIUMZO2KUG8"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=EH3Zk7g1eG8",
+            "https://www.asahi.co.jp/precure/healingood/news/20200622_song.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "EH3Zk7g1eG8"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1551823451"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1551823451"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9969/",
+            "https://music.apple.com/hk/album/1551823448"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1551823448"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1551823451"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1551823451"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9969/",
+            "https://music.apple.com/jp/album/1551823448"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1551823448"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/av/10521/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-jp-mjsa-01361-66"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=9Rum6AdpfaY",
+            "https://www.toei-anim.co.jp/tv/healingood_precure/special/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "9Rum6AdpfaY"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "official_video",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "原期曲名、演唱名義與OP／ED用途已核；既有影音及用途序號保留。",
-          "resumeWhen": "待本曲音源、發行品或單曲平台有直接證據再補，不由影片推新錄音。",
-          "checkedAt": "2026-10-26"
+          "note": "已核原單曲、電視尺寸與官方音軌。實播個別剪輯和同名再收錄的母帶關係待核。",
+          "resumeWhen": "待權利方逐話剪輯或再版錄音對照；各地區完整播放另驗。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-11-07",
+      "lastVerifiedAt": "2026-11-15",
       "recordings": [
         {
           "id": "healin-good-precure-ed-2-single-karaoke",
@@ -21348,7 +24278,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         {
           "id": "healin-good-precure-ed-2-single-vocal",
           "title": "エビバディ☆ヒーリングッデイ！",
-          "format": "unknown",
+          "format": "full",
           "kind": "vocal",
           "credits": [
             {
@@ -21374,6 +24304,18 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "title": "エビバディ☆ヒーリングッデイ！（オリジナル・メロディ・カラオケ）",
           "format": "unknown",
           "kind": "instrumental"
+        },
+        {
+          "id": "healin-good-precure-ed-2-song-ost2-tv",
+          "title": "エビバディ☆ヒーリングッデイ！（TVサイズ）",
+          "kind": "vocal",
+          "format": "tv"
+        },
+        {
+          "id": "healin-good-precure-ed-2-song-digital-single-tv",
+          "title": "エビバディ☆ヒーリングッデイ！（TVサイズ）",
+          "kind": "vocal",
+          "format": "tv"
         }
       ],
       "releases": [
@@ -21452,6 +24394,227 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
               "recordingId": "healin-good-precure-ed-2-single-melody-karaoke"
             }
           ]
+        },
+        {
+          "id": "healin-good-precure-jp-mjsa-01302",
+          "title": "ヒーリングっど♥プリキュア オリジナル・サウンドトラック２ プリキュア・サウンド・オアシス!!",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-12-23",
+            "precision": "day"
+          },
+          "artistDisplayName": "寺田志保",
+          "edition": "CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "エビバディ☆ヒーリングッデイ！（TVサイズ）",
+              "position": 40,
+              "disc": 1,
+              "recordingId": "healin-good-precure-ed-2-song-ost2-tv"
+            }
+          ],
+          "label": "マーベラス",
+          "catalogNumber": "MJSA-01302"
+        },
+        {
+          "id": "apple-hk-1543690832",
+          "title": "ヒーリングっど♥プリキュア オリジナル・サウンドトラック２ プリキュア・サウンド・オアシス!!",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-12-23",
+            "precision": "day"
+          },
+          "artistDisplayName": "寺田志保",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "エビバディ☆ヒーリングッデイ！（TVサイズ）",
+              "position": 40,
+              "disc": 1,
+              "recordingId": "healin-good-precure-ed-2-song-ost2-tv"
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "apple-jp-1543690832",
+          "title": "ヒーリングっど♥プリキュア オリジナル・サウンドトラック２ プリキュア・サウンド・オアシス!!",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-12-23",
+            "precision": "day"
+          },
+          "artistDisplayName": "寺田志保",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "エビバディ☆ヒーリングッデイ！（TVサイズ）",
+              "position": 40,
+              "disc": 1,
+              "recordingId": "healin-good-precure-ed-2-song-ost2-tv"
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "apple-hk-1528959522",
+          "title": "ヒーリングっど♥プリキュア 後期主題歌シングル",
+          "type": "single",
+          "date": {
+            "value": "2020-09-09",
+            "precision": "day"
+          },
+          "artistDisplayName": "宮本佳那子、北川理恵、Machico",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "エビバディ☆ヒーリングッデイ！",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "healin-good-precure-ed-2-single-vocal"
+            },
+            {
+              "title": "エビバディ☆ヒーリングッデイ！（オリジナル・カラオケ）",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "healin-good-precure-ed-2-single-karaoke"
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "apple-jp-1528959522",
+          "title": "ヒーリングっど♥プリキュア 後期主題歌シングル",
+          "type": "single",
+          "date": {
+            "value": "2020-09-09",
+            "precision": "day"
+          },
+          "artistDisplayName": "宮本佳那子、北川理恵、Machico",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "エビバディ☆ヒーリングッデイ！",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "healin-good-precure-ed-2-single-vocal"
+            },
+            {
+              "title": "エビバディ☆ヒーリングッデイ！（オリジナル・カラオケ）",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "healin-good-precure-ed-2-single-karaoke"
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "apple-hk-1525847629",
+          "title": "ヒーリングっど♥プリキュア 後期主題歌シングル（TVサイズ）",
+          "type": "single",
+          "date": {
+            "value": "2020-08-16",
+            "precision": "day"
+          },
+          "artistDisplayName": "宮本佳那子、北川理恵、Machico",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "エビバディ☆ヒーリングッデイ！（TVサイズ）",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "healin-good-precure-ed-2-song-digital-single-tv"
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "apple-jp-1525847629",
+          "title": "ヒーリングっど♥プリキュア 後期主題歌シングル（TVサイズ）",
+          "type": "single",
+          "date": {
+            "value": "2020-08-16",
+            "precision": "day"
+          },
+          "artistDisplayName": "宮本佳那子、北川理恵、Machico",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "エビバディ☆ヒーリングッデイ！（TVサイズ）",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "healin-good-precure-ed-2-song-digital-single-tv"
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "apple-hk-1551823448",
+          "title": "ヒーリングっど♥プリキュア ボーカルベストアルバム ～We are Alive～",
+          "type": "compilation",
+          "date": {
+            "value": "2021-02-17",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "エビバディ☆ヒーリングッデイ！",
+              "position": 3,
+              "disc": 1
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "apple-jp-1551823448",
+          "title": "ヒーリングっど♥プリキュア ボーカルベストアルバム ～We are Alive～",
+          "type": "compilation",
+          "date": {
+            "value": "2021-02-17",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "エビバディ☆ヒーリングッデイ！",
+              "position": 3,
+              "disc": 1
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "healin-good-precure-jp-mjsa-01361-66",
+          "title": "プリキュア ボーカルベストBOX 2018-2023",
+          "type": "compilation",
+          "date": {
+            "value": "2023-11-29",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "完全生產限定 CD＋DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "エビバディ☆ヒーリングッデイ！",
+              "position": 14,
+              "disc": 3
+            }
+          ],
+          "label": "マーベラス",
+          "catalogNumber": "MJSA-01361～66"
         }
       ],
       "links": [
@@ -21514,12 +24677,852 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "region": "JP",
           "availability": "unknown",
           "verifiedAt": "2026-11-07"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "エビバディ☆ヒーリングッデイ！（TVサイズ）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1543691296",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1543690832",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "healin-good-precure-ed-2-song-ost2-tv"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "エビバディ☆ヒーリングッデイ！（TVサイズ）｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1543691296",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1543690832",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "healin-good-precure-ed-2-song-ost2-tv"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "エビバディ☆ヒーリングッデイ！｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1528959523",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1528959522",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "healin-good-precure-ed-2-single-vocal"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "エビバディ☆ヒーリングッデイ！（オリジナル・カラオケ）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1528959531",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1528959522",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "healin-good-precure-ed-2-single-karaoke"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "エビバディ☆ヒーリングッデイ！｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1528959523",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1528959522",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "healin-good-precure-ed-2-single-vocal"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "エビバディ☆ヒーリングッデイ！（オリジナル・カラオケ）｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1528959531",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1528959522",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "healin-good-precure-ed-2-single-karaoke"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "エビバディ☆ヒーリングッデイ！（TVサイズ）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1525847631",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1525847629",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "healin-good-precure-ed-2-song-digital-single-tv"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "エビバディ☆ヒーリングッデイ！（TVサイズ）｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1525847631",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1525847629",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "healin-good-precure-ed-2-song-digital-single-tv"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "エビバディ☆ヒーリングッデイ！｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1551823451",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1551823448",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "エビバディ☆ヒーリングッデイ！｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1551823451",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1551823448",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "usageLabel": "第20–45話原TV片尾｜2020年8月16日起",
+      "releaseDate": "2020-08-16"
+    },
+    {
+      "type": "IN",
+      "sequence": 1,
+      "id": "healin-good-precure-in-1",
+      "songId": "healin-good-precure-ed-1-song",
+      "titleJa": "ミラクルっと♥Link Ring！",
+      "artistDisplayName": "Machico",
+      "sourceMode": "explicit",
+      "lastVerifiedAt": "2026-11-15",
+      "sources": [
+        {
+          "url": "https://www.marv.jp/titles/mc/9759/",
+          "label": "唱片公司正式曲名、演唱及詞曲編",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.asahi.co.jp/precure/healingood/story/backnum_44.html",
+          "label": "朝日放送原播日期及場景",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/healingoodprecure",
+          "label": "原播逐話劇中歌曲表",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://irohaxx25.livedoor.blog/archives/8070476.html",
+          "label": "同期原播觀播場景與用曲",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://shirubania.hatenablog.jp/entry/2021/02/14/100732",
+          "label": "播出當日插曲署名交叉",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5575/subtitle",
+          "label": "逐話劇中用途及常規片尾交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1500528542",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1500528544",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1500528542",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1500528544",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9759/",
+            "https://www.mau2.com/anime/healingoodprecure"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-ed-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9759/"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9759/",
+            "https://www.asahi.co.jp/precure/healingood/story/backnum_44.html",
+            "https://www.mau2.com/anime/healingoodprecure",
+            "https://irohaxx25.livedoor.blog/archives/8070476.html",
+            "https://cal.syoboi.jp/tid/5575/subtitle"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-in-1"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9759/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-ed-1-song-single-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9759/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-jp-mjss-09254"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1500528544"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1500528544"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9759/",
+            "https://music.apple.com/hk/album/1500528542"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1500528542"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1500528544"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1500528544"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9759/",
+            "https://music.apple.com/jp/album/1500528542"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1500528542"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Machico",
+          "role": "vocals"
+        },
+        {
+          "name": "eNu",
+          "role": "lyrics"
+        },
+        {
+          "name": "大橋莉子",
+          "role": "composition"
+        },
+        {
+          "name": "KOH",
+          "role": "arrangement"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "ミラクルっと♥Link Ring！｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1500528544",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1500528542",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "healin-good-precure-ed-1-song-single-vocal"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ミラクルっと♥Link Ring！｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1500528544",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1500528542",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "healin-good-precure-ed-1-song-single-vocal"
+        }
+      ],
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "usageLabel": "第44話劇中歌｜告別場面",
+      "followUp": [
+        {
+          "fields": [
+            "recordings"
+          ],
+          "note": "已核劇中場景及唱片發行；原播片段的音軌關係待核。",
+          "resumeWhen": "待合法公開的分話聲畫或權利方對照以確認劇中剪輯。",
+          "checkedAt": "2026-11-15"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "healin-good-precure-ed-1-song-single-vocal",
+          "title": "ミラクルっと♥Link Ring！",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "releases": [
+        {
+          "id": "healin-good-precure-jp-mjss-09254",
+          "title": "ヒーリングっど♥プリキュア 主題歌シングル",
+          "type": "single",
+          "date": {
+            "value": "2020-03-25",
+            "precision": "day"
+          },
+          "artistDisplayName": "北川理恵、Machico",
+          "edition": "通常盤 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ミラクルっと♥Link Ring！",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "healin-good-precure-ed-1-song-single-vocal"
+            }
+          ],
+          "label": "マーベラス",
+          "catalogNumber": "MJSS-09254"
+        },
+        {
+          "id": "apple-hk-1500528542",
+          "title": "ヒーリングっど♥プリキュア 主題歌シングル",
+          "type": "single",
+          "date": {
+            "value": "2020-03-25",
+            "precision": "day"
+          },
+          "artistDisplayName": "北川理恵、Machico",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ミラクルっと♥Link Ring！",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "healin-good-precure-ed-1-song-single-vocal"
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "apple-jp-1500528542",
+          "title": "ヒーリングっど♥プリキュア 主題歌シングル",
+          "type": "single",
+          "date": {
+            "value": "2020-03-25",
+            "precision": "day"
+          },
+          "artistDisplayName": "北川理恵、Machico",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ミラクルっと♥Link Ring！",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "healin-good-precure-ed-1-song-single-vocal"
+            }
+          ],
+          "label": "マーベラス"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 2,
+      "id": "healin-good-precure-in-2",
+      "songId": "healin-good-precure-we-are-alive-song",
+      "titleJa": "We are Alive!!",
+      "artistDisplayName": "北川理恵",
+      "sourceMode": "explicit",
+      "lastVerifiedAt": "2026-11-15",
+      "sources": [
+        {
+          "url": "https://www.marv.jp/titles/mc/9969/",
+          "label": "唱片公司正式曲名、演唱及詞曲編",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.asahi.co.jp/precure/healingood/story/backnum_45.html",
+          "label": "朝日放送原播日期及場景",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/healingoodprecure",
+          "label": "原播逐話劇中歌曲表",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://irohaxx25.livedoor.blog/archives/8104613.html",
+          "label": "同期原播觀播場景與用曲",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5575/subtitle",
+          "label": "逐話劇中用途及常規片尾交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1551823448",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1551823462",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1551823448",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1551823462",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.marv.jp/titles/av/10521/",
+          "label": "唱片公司實體發行日期及曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=LaTuI49fV5A",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9969/",
+            "https://www.mau2.com/anime/healingoodprecure"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-we-are-alive-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9969/"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9969/",
+            "https://www.asahi.co.jp/precure/healingood/story/backnum_45.html",
+            "https://www.mau2.com/anime/healingoodprecure",
+            "https://irohaxx25.livedoor.blog/archives/8104613.html",
+            "https://cal.syoboi.jp/tid/5575/subtitle"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-in-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9969/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-we-are-alive-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9969/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-we-are-alive-song-vocal-best"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9969/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-jp-mjsa-01310"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1551823462"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1551823462"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9969/",
+            "https://music.apple.com/hk/album/1551823448"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1551823448"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1551823462"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1551823462"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9969/",
+            "https://music.apple.com/jp/album/1551823448"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1551823448"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/av/10521/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "healin-good-precure-jp-mjsa-01361-66"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=LaTuI49fV5A",
+            "https://www.marv.jp/titles/mc/9969/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "LaTuI49fV5A"
+        }
+      ],
+      "credits": [
+        {
+          "name": "北川理恵",
+          "role": "vocals"
+        },
+        {
+          "name": "こだまさおり",
+          "role": "lyrics"
+        },
+        {
+          "name": "森いづみ",
+          "role": "composition"
+        },
+        {
+          "name": "森いづみ",
+          "role": "arrangement"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "We are Alive!!｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1551823462",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1551823448",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "healin-good-precure-we-are-alive-song-vocal-best"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "We are Alive!!｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1551823462",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1551823448",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "healin-good-precure-we-are-alive-song-vocal-best"
+        }
+      ],
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "usageLabel": "第45話劇中歌｜終回最後場景",
+      "followUp": [
+        {
+          "fields": [
+            "recordings"
+          ],
+          "note": "已核劇中場景及唱片發行；原播片段的音軌關係待核。",
+          "resumeWhen": "待合法公開的分話聲畫或權利方對照以確認劇中剪輯。",
+          "checkedAt": "2026-11-15"
+        }
+      ],
+      "releaseDate": "2021-02-17",
+      "recordings": [
+        {
+          "id": "healin-good-precure-we-are-alive-song-vocal-best",
+          "title": "We are Alive!!",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "healin-good-precure-jp-mjsa-01310",
+          "title": "ヒーリングっど♥プリキュア ボーカルベストアルバム ～We are Alive～",
+          "type": "compilation",
+          "date": {
+            "value": "2021-02-17",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "We are Alive!!",
+              "position": 11,
+              "disc": 1,
+              "recordingId": "healin-good-precure-we-are-alive-song-vocal-best"
+            }
+          ],
+          "label": "マーベラス",
+          "catalogNumber": "MJSA-01310"
+        },
+        {
+          "id": "apple-hk-1551823448",
+          "title": "ヒーリングっど♥プリキュア ボーカルベストアルバム ～We are Alive～",
+          "type": "compilation",
+          "date": {
+            "value": "2021-02-17",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "We are Alive!!",
+              "position": 11,
+              "disc": 1,
+              "recordingId": "healin-good-precure-we-are-alive-song-vocal-best"
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "apple-jp-1551823448",
+          "title": "ヒーリングっど♥プリキュア ボーカルベストアルバム ～We are Alive～",
+          "type": "compilation",
+          "date": {
+            "value": "2021-02-17",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "We are Alive!!",
+              "position": 11,
+              "disc": 1,
+              "recordingId": "healin-good-precure-we-are-alive-song-vocal-best"
+            }
+          ],
+          "label": "マーベラス"
+        },
+        {
+          "id": "healin-good-precure-jp-mjsa-01361-66",
+          "title": "プリキュア ボーカルベストBOX 2018-2023",
+          "type": "compilation",
+          "date": {
+            "value": "2023-11-29",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "完全生產限定 CD＋DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "We are Alive!!",
+              "position": 12,
+              "disc": 3
+            }
+          ],
+          "label": "マーベラス",
+          "catalogNumber": "MJSA-01361～66"
         }
       ]
     }
   ],
   "verifiedAt": "2026-09-02",
-  "metadataVerifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-11-15",
   "metadataSources": [
     {
       "url": "https://machi.co/contents/288052",
@@ -21541,6 +25544,41 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
       "role": "broadcast_cross_check",
       "language": "zh-Hant",
       "verifiedAt": "2026-10-26"
+    },
+    {
+      "url": "https://www.asahi.co.jp/precure/healingood/story/",
+      "label": "朝日放送原播逐話日期",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.asahi.co.jp/precure/healingood/news/20200420_news.html",
+      "label": "朝日放送延期與重播公告",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.asahi.co.jp/precure/healingood/news/20200621_news.html",
+      "label": "朝日放送6月28日恢復新集公告",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.coms-auth.hk/filemanager/en/content_1588/HKTVE_Positive_Programmes_2021.pdf",
+      "label": "ViuTV 報表的香港播映名稱",
+      "role": "first_party",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=YPOYvtpmNzs",
+      "label": "東映動畫亞洲的 ViuTV 播映宣傳",
+      "role": "first_party",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-11-15"
     }
   ],
   "broadcastTimeJst": "08:30"

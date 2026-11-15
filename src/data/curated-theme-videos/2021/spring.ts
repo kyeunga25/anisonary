@@ -1,6 +1,64 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2021SpringThemeVideos = {
+  "130777:OP:1": [
+    {
+      "youtubeVideoId": "uh_BZuH3OsQ",
+      "title": "フレー！フレー！ドリーミージャンプ｜動畫片頭",
+      "channelName": "ミュークルドリーミー",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "i1IrhB27GPc",
+      "title": "フレー！フレー！ドリーミージャンプ｜完整版 MV",
+      "channelName": "いちなるといっしょ! ボンボンアカデミー",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "kUs8fxN26uU",
+      "title": "フレー！フレー！ドリーミージャンプ｜ボンボンアカデミー版 MV",
+      "channelName": "ボンボンアカデミー",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "130777:ED:1": [
+    {
+      "youtubeVideoId": "3Er4JeLSlCw",
+      "title": "ダイスキセカイ｜動畫片尾",
+      "channelName": "ミュークルドリーミー",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "FQQpN4cj4aM",
+      "title": "ダイスキセカイ｜完整版 MV",
+      "channelName": "いちなるといっしょ! ボンボンアカデミー",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "2xNtVE6UM6c",
+      "title": "ダイスキセカイ｜ボンボンアカデミー版 MV",
+      "channelName": "ボンボンアカデミー",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
   "114535:OP:1": [
     {
       youtubeVideoId: "U_Ry2dM0B34",
