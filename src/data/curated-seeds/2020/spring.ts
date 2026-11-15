@@ -3937,7 +3937,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
   "titleRomaji": "Major 2nd Season 2",
   "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112302-VZZnJ1NY0waA.jpg",
   "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112302-kbVmGx7EgmCg.jpg",
-  "broadcastLabel": "2020年4月4日–11月7日 NHK Eテレ週六17:35；第5話5月30日復播、第8話7月11日復播",
+  "broadcastLabel": "4/4–11/7 NHK Eテレ週六17:35 JST首播25話。5/2–23重播第1–4話，5/30新播第5話；6/20–7/4重播第5–7話，7/11新播第8話；8/22第14話換片頭片尾。",
   "officialSiteUrl": "https://www.shopro.co.jp/tv/major2nd/",
   "sourceReferenceUrls": [
     "https://youranimes.tw/animes/427",
@@ -4851,6 +4851,20 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/she-s/news/2020-05-01/",
+          "label": "權利方影片上架及形式說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=lMEByegO77o",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
@@ -5003,6 +5017,43 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-15",
           "targetId": "Yl0gWzSSKrA"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/she-s/news/2020-04-05/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "major-2nd-season-2-ed-1-song"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/she-s/news/2020-04-05/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "major-2nd-season-2-ed-1-song-2020-jp-digital-single"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=lMEByegO77o",
+            "https://www.universal-music.co.jp/she-s/news/2020-05-01/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "lMEByegO77o"
         }
       ],
       "lastVerifiedAt": "2026-11-15",
@@ -5054,6 +5105,26 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             }
           ],
           "label": "Universal Music"
+        },
+        {
+          "id": "major-2nd-season-2-ed-1-song-2020-jp-digital-single",
+          "title": "One",
+          "type": "single",
+          "date": {
+            "value": "2020-04-05",
+            "precision": "day"
+          },
+          "artistDisplayName": "SHE'S",
+          "edition": "日本配信限定",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "One",
+              "disc": 1,
+              "position": 1
+            }
+          ],
+          "label": "Universal Music Japan"
         }
       ],
       "links": [
@@ -5066,6 +5137,18 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "releaseId": "apple-hk-1499771701",
           "availability": "unknown",
           "verifiedAt": "2026-11-15"
+        }
+      ],
+      "releaseDate": "2020-04-05",
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "日本4/5單曲先行、7/1專輯曲位及動漫短預告分列。日本原先行配信曲目ID與原播剪輯仍待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
         }
       ]
     },
@@ -5329,6 +5412,32 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-15",
           "targetId": "qjNpryRu6tQ"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/-/Discography/A024831/VE3WA-18843.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "major-2nd-season-2-ed-2-song"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/-/Discography/A024831/VE3WA-18843.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "major-2nd-season-2-ed-2-song-ve3wa-18843"
         }
       ],
       "lastVerifiedAt": "2026-11-15",
@@ -5413,19 +5522,41 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             }
           ],
           "label": "Victor Entertainment"
+        },
+        {
+          "id": "major-2nd-season-2-ed-2-song-ve3wa-18843",
+          "title": "IDENTITY",
+          "type": "single",
+          "date": {
+            "value": "2020-08-28",
+            "precision": "day"
+          },
+          "artistDisplayName": "雨のパレード",
+          "edition": "日本配信限定",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "IDENTITY",
+              "disc": 1,
+              "position": 1
+            }
+          ],
+          "label": "Victor Entertainment",
+          "catalogNumber": "VE3WA-18843"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "releases"
+            "platform_availability"
           ],
-          "note": "數位單曲與專輯曲目長度有別，另有配信演唱會的特典 CD。",
-          "resumeWhen": "待權利方說明音源關係及特典曲序後補。",
+          "note": "第24、25話片尾畫面有更換，逐話曲表仍列同曲。第25話劇中另有未具名哼唱，待可辨原播掛字或曲名。單曲與專輯商品音源長度有異，母帶關係待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
           "checkedAt": "2026-11-15"
         }
-      ]
+      ],
+      "releaseDate": "2020-08-28"
     }
   ],
   "metadataVerifiedAt": "2026-11-15",
@@ -5471,13 +5602,50 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
       "role": "broadcast_cross_check",
       "language": "ja",
       "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.shopro.co.jp/tv/major2nd/news.html",
+      "label": "製作方原播時段及8/22第14話後半起點",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.universal-music.co.jp/kamishiraishi-mone/news/2020-07-23/",
+      "label": "第14話片頭換曲公告",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000000271.000002610.html",
+      "label": "製作方公開後半片尾公告",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://cal.syoboi.jp/tid/5613/time?Filter=ChAll",
+      "label": "25話首播及7次原時段重播",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.mau2.com/anime/major2nd-2",
+      "label": "逐話片頭和片尾",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
     }
   ],
   "seasonIds": [
     "2020-spring",
     "2020-summer",
     "2020-fall"
-  ]
+  ],
+  "editorialWeekday": 6,
+  "broadcastTimeJst": "17:35"
 }),
   spring2020Seed({
   "anilistId": 112353,
@@ -11714,7 +11882,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
   "titleZhHant": "文豪與鍊金術師 ～審判的齒輪～",
   "titleRomaji": "Bungou to Alchemist: Shinpan no Haguruma",
   "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114411-PnXaweOf99xA.jpg",
-  "broadcastLabel": "2020年4月4日01:23 テレビ東京原首播（公告4/3金曜深夜換日）；3/28先行配信另列",
+  "broadcastLabel": "4/4起テレビ東京週六01:23 JST（台帳週五25:23）。4/25、5/2重播第2、3話；5/9新播第4話。6月換檔四週，7/4新播第8話，8/8第13話完結。3/28 20:00あにてれ單次先行第1話。",
   "officialSiteUrl": "https://www.tv-tokyo.co.jp/anime/bungo-alchemist/",
   "sourceReferenceUrls": [
     "https://youranimes.tw/animes/183",
@@ -11731,7 +11899,8 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
       "songId": "bungou-to-alchemist-shinpan-no-haguruma-op-1-song",
       "sourceMode": "explicit",
       "seasonIds": [
-        "2020-spring"
+        "2020-spring",
+        "2020-summer"
       ],
       "sources": [
         {
@@ -11767,7 +11936,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E6%96%87%E8%B1%AA%E8%88%87%E9%8D%8A%E9%87%91%E8%A1%93%E5%B8%AB",
@@ -11796,12 +11965,115 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202007/25811_202007172523.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://nbcuni-music.com/urashimasakatasen/news/index00480000.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/bungoutoalchemist",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://anitubu.com/archives/post-39654.html",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://haku.blue/bunaru-matome/",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://nbcuni-music.com/urashimasakatasen/discography/love.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1801706855",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1801706856",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1801713562",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1801713586",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1801710510",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1801711602",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.getchu.com/item/1091042/",
+          "label": "日本實體原聲帶編號及發行日期",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
         {
           "name": "浦島坂田船",
           "role": "vocals"
+        },
+        {
+          "name": "イシイジロウ",
+          "role": "lyrics"
+        },
+        {
+          "name": "渡辺翔",
+          "role": "composition"
+        },
+        {
+          "name": "坂本英城",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -11873,25 +12145,326 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "bungou-to-alchemist-shinpan-no-haguruma-op-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202007/25811_202007172523.html",
+            "https://nbcuni-music.com/urashimasakatasen/news/index00480000.html",
+            "https://www.mau2.com/anime/bungoutoalchemist",
+            "https://anitubu.com/archives/post-39654.html",
+            "https://haku.blue/bunaru-matome/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "bungou-to-alchemist-shinpan-no-haguruma-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202007/25811_202007172523.html",
+            "https://nbcuni-music.com/urashimasakatasen/discography/love.html",
+            "https://www.mau2.com/anime/bungoutoalchemist"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "bungou-to-alchemist-shinpan-no-haguruma-op-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://nbcuni-music.com/urashimasakatasen/discography/love.html",
+            "https://nbcuni-music.com/news/index00950000.html"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://nbcuni-music.com/urashimasakatasen/news/index00480000.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "bungou-to-alchemist-shinpan-no-haguruma-op-1-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://nbcuni-music.com/urashimasakatasen/news/index00480000.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "bungou-to-alchemist-shinpan-no-haguruma-op-1-song-2020-digital-single"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1801706856"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1801706856"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://nbcuni-music.com/urashimasakatasen/news/index00480000.html",
+            "https://music.apple.com/hk/album/1801706855"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1801706855"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1801713586"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1801713586"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://nbcuni-music.com/urashimasakatasen/discography/love.html",
+            "https://music.apple.com/hk/album/1801713562"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1801713562"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://nbcuni-music.com/news/index00950000.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "bungou-to-alchemist-shinpan-no-haguruma-op-1-song-2020-soundtrack-tv-size"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://nbcuni-music.com/news/index00950000.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "gnca-1573"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1801711602"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1801711602"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://nbcuni-music.com/news/index00950000.html",
+            "https://music.apple.com/hk/album/1801710510"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1801710510"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "lyrics",
-            "composition",
-            "arrangement",
-            "use_quarters",
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "原期OP／ED身分、名義與春季用途已核；延播至夏季的逐曲使用尚待直接話數署名。",
-          "resumeWhen": "待2020年7–8月原期逐話OP／ED信用或權利方明示延用本曲，再補夏季；不以全作延播推每曲跨季。",
-          "checkedAt": "2026-10-24"
+          "note": "香港先行完整版、正式原聲帶TV size及後發專輯曲位分列。第13話實際剪輯與正式TV音源是否同版待原播確認。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "2020春、夏片頭；第13話換用特別畫面，沿用同一首歌",
+      "releaseDate": "2020-04-07",
+      "recordings": [
+        {
+          "id": "bungou-to-alchemist-shinpan-no-haguruma-op-1-song-2020-digital-single",
+          "title": "グッド・バイ",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "bungou-to-alchemist-shinpan-no-haguruma-op-1-song-2020-soundtrack-tv-size",
+          "title": "グッド・バイ（TVsize）",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "グッド・バイ｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1801706856",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1801706855",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "bungou-to-alchemist-shinpan-no-haguruma-op-1-song-2020-digital-single"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "グッド・バイ｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1801713586",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1801713562",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "グッド・バイ（TVsize）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1801711602",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1801710510",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "bungou-to-alchemist-shinpan-no-haguruma-op-1-song-2020-soundtrack-tv-size"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1801706855",
+          "title": "グッド・バイ",
+          "type": "single",
+          "date": {
+            "value": "2020-04-07",
+            "precision": "day"
+          },
+          "artistDisplayName": "浦島坂田船",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "グッド・バイ",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "bungou-to-alchemist-shinpan-no-haguruma-op-1-song-2020-digital-single"
+            }
+          ],
+          "label": "NBCUniversal Entertainment Japan"
+        },
+        {
+          "id": "apple-hk-1801713562",
+          "title": "L∞VE",
+          "type": "album",
+          "date": {
+            "value": "2021-07-07",
+            "precision": "day"
+          },
+          "artistDisplayName": "浦島坂田船",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "グッド・バイ",
+              "position": 16,
+              "disc": 1
+            }
+          ],
+          "label": "NBCUniversal Entertainment Japan"
+        },
+        {
+          "id": "gnca-1573",
+          "title": "TVアニメ「文豪とアルケミスト ～審判ノ歯車～」劇伴音樂集",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-06-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "坂本英城",
+          "edition": "2CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "グッド・バイ（TVsize）",
+              "position": 23,
+              "disc": 2,
+              "recordingId": "bungou-to-alchemist-shinpan-no-haguruma-op-1-song-2020-soundtrack-tv-size"
+            }
+          ],
+          "label": "NBCUniversal Entertainment Japan",
+          "catalogNumber": "GNCA-1573"
+        },
+        {
+          "id": "apple-hk-1801710510",
+          "title": "TVアニメ「文豪とアルケミスト ～審判ノ歯車～」劇伴音樂集",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-06-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "坂本英城",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "グッド・バイ（TVsize）",
+              "position": 23,
+              "disc": 2,
+              "recordingId": "bungou-to-alchemist-shinpan-no-haguruma-op-1-song-2020-soundtrack-tv-size"
+            }
+          ],
+          "label": "NBCUniversal Entertainment Japan"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -11902,7 +12475,8 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
       "songId": "bungou-to-alchemist-shinpan-no-haguruma-ed-1-song",
       "sourceMode": "explicit",
       "seasonIds": [
-        "2020-spring"
+        "2020-spring",
+        "2020-summer"
       ],
       "sources": [
         {
@@ -11938,7 +12512,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E6%96%87%E8%B1%AA%E8%88%87%E9%8D%8A%E9%87%91%E8%A1%93%E5%B8%AB",
@@ -11967,12 +12541,136 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202007/25811_202007172523.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://nbcuni-music.com/yoshino_nanjo/discography/index00250000.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/bungoutoalchemist",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://anitubu.com/archives/post-39654.html",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://haku.blue/bunaru-matome/",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1804678079",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1804678080",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1804678085",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1804674766",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1804675045",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ZDUUBrt1_2s",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://wmg.jp/yoshino-nanjo/news/91039",
+          "label": "權利方影片上架及形式說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=GDF5SAJMsT4",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1801710510",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1801711605",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.getchu.com/item/1091042/",
+          "label": "日本實體原聲帶編號及發行日期",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
         {
           "name": "南條愛乃",
           "role": "vocals"
+        },
+        {
+          "name": "イシイジロウ",
+          "role": "lyrics"
+        },
+        {
+          "name": "藤間仁",
+          "role": "composition"
+        },
+        {
+          "name": "藤間仁",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -12044,25 +12742,477 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "bungou-to-alchemist-shinpan-no-haguruma-ed-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202007/25811_202007172523.html",
+            "https://nbcuni-music.com/yoshino_nanjo/discography/index00250000.html",
+            "https://www.mau2.com/anime/bungoutoalchemist",
+            "https://anitubu.com/archives/post-39654.html",
+            "https://haku.blue/bunaru-matome/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "bungou-to-alchemist-shinpan-no-haguruma-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202007/25811_202007172523.html",
+            "https://nbcuni-music.com/yoshino_nanjo/discography/index00250000.html",
+            "https://www.mau2.com/anime/bungoutoalchemist"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "bungou-to-alchemist-shinpan-no-haguruma-ed-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://nbcuni-music.com/yoshino_nanjo/discography/index00250000.html"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://nbcuni-music.com/yoshino_nanjo/discography/index00250000.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "bungou-to-alchemist-shinpan-no-haguruma-ed-1-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://nbcuni-music.com/yoshino_nanjo/discography/index00250000.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "bungou-to-alchemist-shinpan-no-haguruma-ed-1-song-2020-original-single"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://nbcuni-music.com/yoshino_nanjo/discography/index00250000.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "bungou-to-alchemist-shinpan-no-haguruma-ed-1-song-single-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://nbcuni-music.com/yoshino_nanjo/discography/index00250000.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "gnca-0610"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://nbcuni-music.com/yoshino_nanjo/discography/index00250000.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "gnca-0611"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1804678080"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1804678080"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1804678085"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1804678085"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://nbcuni-music.com/yoshino_nanjo/discography/index00250000.html",
+            "https://music.apple.com/hk/album/1804678079"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1804678079"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1804675045"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1804675045"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://nbcuni-music.com/yoshino_nanjo/discography/index00250000.html",
+            "https://music.apple.com/hk/album/1804674766"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1804674766"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=ZDUUBrt1_2s"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "ZDUUBrt1_2s"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=GDF5SAJMsT4",
+            "https://wmg.jp/yoshino-nanjo/news/91039"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "GDF5SAJMsT4"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://nbcuni-music.com/news/index00950000.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "bungou-to-alchemist-shinpan-no-haguruma-ed-1-song-2020-soundtrack-tv-size"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://nbcuni-music.com/news/index00950000.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "gnca-1573"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1801711605"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1801711605"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://nbcuni-music.com/news/index00950000.html",
+            "https://music.apple.com/hk/album/1801710510"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1801710510"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "lyrics",
-            "composition",
-            "arrangement",
-            "use_quarters",
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "原期OP／ED身分、名義與春季用途已核；延播至夏季的逐曲使用尚待直接話數署名。",
-          "resumeWhen": "待2020年7–8月原期逐話OP／ED信用或權利方明示延用本曲，再補夏季；不以全作延播推每曲跨季。",
-          "checkedAt": "2026-10-24"
+          "note": "香港完整版、伴奏及正式TV size分列。香港單曲商品日期與曲目及權利方資料不一致，商品日期留空。第13話畫面有變，片尾確切剪輯及母帶待原播比對。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "2020春、夏片尾；第13話換用特別畫面，沿用同一首歌",
+      "releaseDate": "2020-04-29",
+      "recordings": [
+        {
+          "id": "bungou-to-alchemist-shinpan-no-haguruma-ed-1-song-2020-original-single",
+          "title": "藪の中のジンテーゼ",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "bungou-to-alchemist-shinpan-no-haguruma-ed-1-song-single-instrumental",
+          "title": "藪の中のジンテーゼ（Instrumental）",
+          "kind": "instrumental",
+          "format": "unknown"
+        },
+        {
+          "id": "bungou-to-alchemist-shinpan-no-haguruma-ed-1-song-2020-soundtrack-tv-size",
+          "title": "藪の中のジンテーゼ（TVsize）",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "releases": [
+        {
+          "id": "gnca-0610",
+          "title": "藪の中のジンテーゼ",
+          "type": "single",
+          "date": {
+            "value": "2020-04-29",
+            "precision": "day"
+          },
+          "artistDisplayName": "南條愛乃",
+          "edition": "初回限定盤CD+DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "藪の中のジンテーゼ",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "bungou-to-alchemist-shinpan-no-haguruma-ed-1-song-2020-original-single"
+            },
+            {
+              "title": "藪の中のジンテーゼ（Instrumental）",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "bungou-to-alchemist-shinpan-no-haguruma-ed-1-song-single-instrumental"
+            }
+          ],
+          "label": "NBCUniversal Entertainment Japan",
+          "catalogNumber": "GNCA-0610"
+        },
+        {
+          "id": "gnca-0611",
+          "title": "藪の中のジンテーゼ",
+          "type": "single",
+          "date": {
+            "value": "2020-04-29",
+            "precision": "day"
+          },
+          "artistDisplayName": "南條愛乃",
+          "edition": "通常盤CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "藪の中のジンテーゼ",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "bungou-to-alchemist-shinpan-no-haguruma-ed-1-song-2020-original-single"
+            },
+            {
+              "title": "藪の中のジンテーゼ（Instrumental）",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "bungou-to-alchemist-shinpan-no-haguruma-ed-1-song-single-instrumental"
+            }
+          ],
+          "label": "NBCUniversal Entertainment Japan",
+          "catalogNumber": "GNCA-0611"
+        },
+        {
+          "id": "apple-hk-1804678079",
+          "title": "藪の中のジンテーゼ",
+          "type": "ep",
+          "date": {
+            "value": "2020-04-29",
+            "precision": "day"
+          },
+          "artistDisplayName": "南條愛乃",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "藪の中のジンテーゼ",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "bungou-to-alchemist-shinpan-no-haguruma-ed-1-song-2020-original-single"
+            },
+            {
+              "title": "藪の中のジンテーゼ（Instrumental）",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "bungou-to-alchemist-shinpan-no-haguruma-ed-1-song-single-instrumental"
+            }
+          ],
+          "label": "NBCUniversal Entertainment Japan"
+        },
+        {
+          "id": "apple-hk-1804674766",
+          "title": "藪の中のジンテーゼ",
+          "type": "single",
+          "artistDisplayName": "南條愛乃",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "藪の中のジンテーゼ",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "bungou-to-alchemist-shinpan-no-haguruma-ed-1-song-2020-original-single"
+            }
+          ],
+          "label": "NBCUniversal Entertainment Japan"
+        },
+        {
+          "id": "gnca-1573",
+          "title": "TVアニメ「文豪とアルケミスト ～審判ノ歯車～」劇伴音樂集",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-06-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "坂本英城",
+          "edition": "2CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "藪の中のジンテーゼ（TVsize）",
+              "position": 24,
+              "disc": 2,
+              "recordingId": "bungou-to-alchemist-shinpan-no-haguruma-ed-1-song-2020-soundtrack-tv-size"
+            }
+          ],
+          "label": "NBCUniversal Entertainment Japan",
+          "catalogNumber": "GNCA-1573"
+        },
+        {
+          "id": "apple-hk-1801710510",
+          "title": "TVアニメ「文豪とアルケミスト ～審判ノ歯車～」劇伴音樂集",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-06-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "坂本英城",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "藪の中のジンテーゼ（TVsize）",
+              "position": 24,
+              "disc": 2,
+              "recordingId": "bungou-to-alchemist-shinpan-no-haguruma-ed-1-song-2020-soundtrack-tv-size"
+            }
+          ],
+          "label": "NBCUniversal Entertainment Japan"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "藪の中のジンテーゼ｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1804678080",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1804678079",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "bungou-to-alchemist-shinpan-no-haguruma-ed-1-song-2020-original-single"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "藪の中のジンテーゼ（Instrumental）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1804678085",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1804678079",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "bungou-to-alchemist-shinpan-no-haguruma-ed-1-song-single-instrumental"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "藪の中のジンテーゼ｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1804675045",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1804674766",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "bungou-to-alchemist-shinpan-no-haguruma-ed-1-song-2020-original-single"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "藪の中のジンテーゼ（TVsize）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1801711605",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1801710510",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "bungou-to-alchemist-shinpan-no-haguruma-ed-1-song-2020-soundtrack-tv-size"
+        }
+      ]
     }
   ],
   "metadataVerifiedAt": "2026-09-02",
@@ -12072,14 +13222,14 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
       "label": "第一方原期TV播出日期資料；僅日期時分",
       "role": "first_party",
       "language": "ja",
-      "verifiedAt": "2026-10-24"
+      "verifiedAt": "2026-11-15"
     },
     {
       "url": "https://www.tv-tokyo.co.jp/anime/bungo-alchemist/news/",
       "label": "第一方原期TV播出日期資料；僅日期時分",
       "role": "first_party",
       "language": "ja",
-      "verifiedAt": "2026-10-24"
+      "verifiedAt": "2026-11-15"
     },
     {
       "url": "https://ja.wikipedia.org/wiki/%E6%96%87%E8%B1%AA%E3%81%A8%E3%82%A2%E3%83%AB%E3%82%B1%E3%83%9F%E3%82%B9%E3%83%88",
@@ -12087,6 +13237,41 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
       "role": "broadcast_cross_check",
       "language": "ja",
       "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/anime/bungo-alchemist/episodes/",
+      "label": "原台分集和終回日期",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202007/25811_202007172523.html",
+      "label": "7月逐話原台節目表",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://cal.syoboi.jp/tid/5615/time",
+      "label": "原台25:23逐話時刻",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://thetv.jp/program/0000983805/",
+      "label": "6月四週替代節目",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://sabajanee233.dokkoisho.com/hensei2020.html",
+      "label": "原播放送編成對照",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
     }
   ],
   "editorialWeekday": 6,
@@ -48283,7 +49468,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
   "titleRomaji": "Houkago Teibou Nisshi",
   "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109019-xlrVQRdo1EQi.jpg",
   "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/109019-CI5tlvudZ3zS.jpg",
-  "broadcastLabel": "日本首播／受疫情影響曾延期或停播",
+  "broadcastLabel": "4/7–4/21，AT-X週二22:00 JST首播第1–3話後延期；7/7起同時段從首話重播，7/28新播第4話，9/22第12話完結。第4話起dアニメストア週三00:00先於TOKYO MX。",
   "officialSiteUrl": "https://teibotv.com/",
   "sourceReferenceUrls": [
     "https://youranimes.tw/animes/367",
@@ -48323,7 +49508,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://teibotv.com/music.html",
@@ -48345,6 +49530,69 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://times.abema.tv/articles/-/7050270?page=1",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=OsJKNZfNgqo",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/houkagoteibounissi",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://deraturiblog.com/fishing-diary/houkagoteibounisshi-anime-1/",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026685/VTZL-169.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1507732374?i=1507732378",
+          "label": "權利方本曲最早已核商業發行",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1507732374",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1507732378",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=tVhJk1pPh5U",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
@@ -48467,21 +49715,281 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026685/VTCL-35318.html"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026685/VTCL-35318.html",
+            "https://times.abema.tv/articles/-/7050270?page=1",
+            "https://www.youtube.com/watch?v=OsJKNZfNgqo",
+            "https://www.mau2.com/anime/houkagoteibounissi",
+            "https://deraturiblog.com/fishing-diary/houkagoteibounisshi-anime-1/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "houkago-teibou-nisshi-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026685/VTCL-35318.html",
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026685/VTZL-169.html",
+            "https://www.mau2.com/anime/houkagoteibounissi"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "houkago-teibou-nisshi-op-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026685/VTCL-35318.html"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1507732374?i=1507732378"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "houkago-teibou-nisshi-op-1-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026685/VTCL-35318.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "houkago-teibou-nisshi-op-1-song-2020-original-single"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026685/VTCL-35318.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "houkago-teibou-nisshi-op-1-song-single-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026685/VTCL-35318.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "vtcl-35318"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026685/VTZL-169.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "vtzl-169"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1507732378"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1507732378"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1507732374?i=1507732378",
+            "https://music.apple.com/hk/album/1507732374"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1507732374"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=OsJKNZfNgqo"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "OsJKNZfNgqo"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=tVhJk1pPh5U"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "tVhJk1pPh5U"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "本期歌曲身分、用途與逐曲季度已核；未新增個別歌唱或音源版本。",
-          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
-          "checkedAt": "2026-10-24"
+          "note": "4/29香港先行雙曲、7/22日本實體含各自伴奏；官方片頭片尾映像另列；與影碟無字幕版本的剪輯關係、獨立TV音源及實播混音仍待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第2–12話片頭；第1話省略片頭",
+      "releaseDate": "2020-04-29",
+      "recordings": [
+        {
+          "id": "houkago-teibou-nisshi-op-1-song-2020-original-single",
+          "title": "SEA HORIZON",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "houkago-teibou-nisshi-op-1-song-single-instrumental",
+          "title": "SEA HORIZON（Instrumental）",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "vtcl-35318",
+          "title": "SEA HORIZON / 釣りの世界へ",
+          "type": "single",
+          "date": {
+            "value": "2020-07-22",
+            "precision": "day"
+          },
+          "artistDisplayName": "海野高校ていぼう部（高尾奏音、川井田夏海、篠原侑、明坂聡美）",
+          "edition": "通常盤CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "SEA HORIZON",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "houkago-teibou-nisshi-op-1-song-2020-original-single"
+            },
+            {
+              "title": "SEA HORIZON（Instrumental）",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "houkago-teibou-nisshi-op-1-song-single-instrumental"
+            }
+          ],
+          "label": "FlyingDog",
+          "catalogNumber": "VTCL-35318"
+        },
+        {
+          "id": "vtzl-169",
+          "title": "SEA HORIZON / 釣りの世界へ",
+          "type": "single",
+          "date": {
+            "value": "2020-07-22",
+            "precision": "day"
+          },
+          "artistDisplayName": "海野高校ていぼう部（高尾奏音、川井田夏海、篠原侑、明坂聡美）",
+          "edition": "初回限定盤CD+DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "SEA HORIZON",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "houkago-teibou-nisshi-op-1-song-2020-original-single"
+            },
+            {
+              "title": "SEA HORIZON（Instrumental）",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "houkago-teibou-nisshi-op-1-song-single-instrumental"
+            }
+          ],
+          "label": "FlyingDog",
+          "catalogNumber": "VTZL-169"
+        },
+        {
+          "id": "apple-hk-1507732374",
+          "title": "SEA HORIZON / 釣りの世界へ",
+          "type": "single",
+          "date": {
+            "value": "2020-04-29",
+            "precision": "day"
+          },
+          "artistDisplayName": "海野高校ていぼう部（高尾奏音、川井田夏海、篠原侑、明坂聡美）",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "SEA HORIZON",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "houkago-teibou-nisshi-op-1-song-2020-original-single"
+            }
+          ],
+          "label": "FlyingDog"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "SEA HORIZON｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1507732378",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1507732374",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "houkago-teibou-nisshi-op-1-song-2020-original-single"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -48515,7 +50023,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://teibotv.com/music.html",
@@ -48537,6 +50045,55 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=_Maiqyj7MN8",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/houkagoteibounissi",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://deraturiblog.com/fishing-diary/houkagoteibounisshi-anime-1/",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026685/VTZL-169.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1507732374?i=1507732380",
+          "label": "權利方本曲最早已核商業發行",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1507732374",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1507732380",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
@@ -48659,29 +50216,308 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026685/VTCL-35318.html"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026685/VTCL-35318.html",
+            "https://www.youtube.com/watch?v=_Maiqyj7MN8",
+            "https://www.mau2.com/anime/houkagoteibounissi",
+            "https://deraturiblog.com/fishing-diary/houkagoteibounisshi-anime-1/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "houkago-teibou-nisshi-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026685/VTCL-35318.html",
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026685/VTZL-169.html",
+            "https://www.mau2.com/anime/houkagoteibounissi"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "houkago-teibou-nisshi-ed-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026685/VTCL-35318.html"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1507732374?i=1507732380"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "houkago-teibou-nisshi-ed-1-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026685/VTCL-35318.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "houkago-teibou-nisshi-ed-1-song-2020-original-single"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026685/VTCL-35318.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "houkago-teibou-nisshi-ed-1-song-single-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026685/VTCL-35318.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "vtcl-35318"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026685/VTZL-169.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "vtzl-169"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1507732380"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1507732380"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1507732374?i=1507732380",
+            "https://music.apple.com/hk/album/1507732374"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1507732374"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=_Maiqyj7MN8"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "_Maiqyj7MN8"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "本期歌曲身分、用途與逐曲季度已核；未新增個別歌唱或音源版本。",
-          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
-          "checkedAt": "2026-10-24"
+          "note": "4/29香港先行雙曲、7/22日本實體含各自伴奏；官方片頭片尾映像另列；與影碟無字幕版本的剪輯關係、獨立TV音源及實播混音仍待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第1–12話片尾",
+      "releaseDate": "2020-04-29",
+      "recordings": [
+        {
+          "id": "houkago-teibou-nisshi-ed-1-song-2020-original-single",
+          "title": "釣りの世界へ",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "houkago-teibou-nisshi-ed-1-song-single-instrumental",
+          "title": "釣りの世界へ（Instrumental）",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "vtcl-35318",
+          "title": "SEA HORIZON / 釣りの世界へ",
+          "type": "single",
+          "date": {
+            "value": "2020-07-22",
+            "precision": "day"
+          },
+          "artistDisplayName": "海野高校ていぼう部（高尾奏音、川井田夏海、篠原侑、明坂聡美）",
+          "edition": "通常盤CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "釣りの世界へ",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "houkago-teibou-nisshi-ed-1-song-2020-original-single"
+            },
+            {
+              "title": "釣りの世界へ（Instrumental）",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "houkago-teibou-nisshi-ed-1-song-single-instrumental"
+            }
+          ],
+          "label": "FlyingDog",
+          "catalogNumber": "VTCL-35318"
+        },
+        {
+          "id": "vtzl-169",
+          "title": "SEA HORIZON / 釣りの世界へ",
+          "type": "single",
+          "date": {
+            "value": "2020-07-22",
+            "precision": "day"
+          },
+          "artistDisplayName": "海野高校ていぼう部（高尾奏音、川井田夏海、篠原侑、明坂聡美）",
+          "edition": "初回限定盤CD+DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "釣りの世界へ",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "houkago-teibou-nisshi-ed-1-song-2020-original-single"
+            },
+            {
+              "title": "釣りの世界へ（Instrumental）",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "houkago-teibou-nisshi-ed-1-song-single-instrumental"
+            }
+          ],
+          "label": "FlyingDog",
+          "catalogNumber": "VTZL-169"
+        },
+        {
+          "id": "apple-hk-1507732374",
+          "title": "SEA HORIZON / 釣りの世界へ",
+          "type": "single",
+          "date": {
+            "value": "2020-04-29",
+            "precision": "day"
+          },
+          "artistDisplayName": "海野高校ていぼう部（高尾奏音、川井田夏海、篠原侑、明坂聡美）",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "釣りの世界へ",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "houkago-teibou-nisshi-ed-1-song-2020-original-single"
+            }
+          ],
+          "label": "FlyingDog"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "釣りの世界へ｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1507732380",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1507732374",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "houkago-teibou-nisshi-ed-1-song-2020-original-single"
+        }
+      ]
     }
   ],
   "metadataVerifiedAt": "2026-09-02",
-  "metadataSources": [],
+  "metadataSources": [
+    {
+      "url": "https://teibotv.com/news.html",
+      "label": "原期停播、復播與終回公告",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://teibotv.com/onair.html",
+      "label": "AT-X原播與日本配信時段",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.at-x.com/pdf/program/8bb4c555df8c49649eee5c94c376b179.pdf",
+      "label": "AT-X節目表第12話終回時段",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=195425",
+      "label": "繁中同期停播報導",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-11-15"
+    }
+  ],
   "seasonIds": [
     "2020-spring",
     "2020-summer"
-  ]
+  ],
+  "editorialWeekday": 2,
+  "broadcastTimeJst": "22:00"
 }),
   spring2020Seed({
   "anilistId": 111762,
@@ -48692,7 +50528,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
   "titleRomaji": "Fruits Basket: 2nd Season",
   "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111762-C8TNf5uRlVNQ.jpg",
   "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/111762-VvlNooo9xZa4.jpg",
-  "broadcastLabel": "テレビ東京 原2nd初回",
+  "broadcastLabel": "4/7–9/22，テレビ東京／テレビ愛知週二01:30 JST原播25話（台帳週一25:30）；第13話6/30延至01:44，第14話7/7回到01:30並換曲。あにてれ等首批串流週二12:00。",
   "officialSiteUrl": "https://fruba.jp/",
   "sourceReferenceUrls": [
     "https://youranimes.tw/animes/114",
@@ -48738,7 +50574,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E6%B0%B4%E6%9E%9C%E7%B1%83",
@@ -48746,6 +50582,69 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://fruba.jp/news/detail.php?id=1082551",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/fruitsbasket-r2-2",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/fruitsbasket-r2-2/ep/12",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017528&season=2",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1504221973",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1504221974",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1018735",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=qEIeyDGV_6c",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=RM2OEFjKCuk",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
@@ -48772,6 +50671,10 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
         {
           "name": "AmPm",
           "role": "arrangement"
+        },
+        {
+          "name": "みゆな",
+          "role": "vocals"
         }
       ],
       "evidence": [
@@ -48830,21 +50733,249 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "https://www.tms-e.co.jp/alltitles/2020s/745102.html"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/news/detail.php?id=1082551",
+            "https://www.tms-e.co.jp/alltitles/2020s/745102.html",
+            "https://www.mau2.com/anime/fruitsbasket-r2-2",
+            "https://www.mau2.com/anime/fruitsbasket-r2-2/ep/12"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fruits-basket-2nd-season-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/news/detail.php?id=1082551",
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017528&season=2",
+            "https://www.mau2.com/anime/fruitsbasket-r2-2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fruits-basket-2nd-season-op-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.tms-e.co.jp/alltitles/2020s/745102.html",
+            "https://www.mau2.com/anime/fruitsbasket-r2-2"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017528&season=2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fruits-basket-2nd-season-op-1-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017528&season=2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fruits-basket-2nd-season-op-1-song-2020-digital-single"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1504221974"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1504221974"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017528&season=2",
+            "https://music.apple.com/hk/album/1504221973"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1504221973"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1018735"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "eyca-13618-b"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1018735"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "eyca-13619"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=qEIeyDGV_6c"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "qEIeyDGV_6c"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=RM2OEFjKCuk"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "RM2OEFjKCuk"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "本期歌曲身分、用途與逐曲季度已核；未新增個別歌唱或音源版本。",
-          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
-          "checkedAt": "2026-10-24"
+          "note": "香港原單曲與日本後發主題曲精選各列曲位。各話實播剪輯及合輯母帶待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第1–10、13話片頭；第11、12話省略片頭，第11話同曲移至片尾",
+      "releaseDate": "2020-04-08",
+      "recordings": [
+        {
+          "id": "fruits-basket-2nd-season-op-1-song-2020-digital-single",
+          "title": "プリズム",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "プリズム｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1504221974",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1504221973",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "fruits-basket-2nd-season-op-1-song-2020-digital-single"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1504221973",
+          "title": "プリズム",
+          "type": "single",
+          "date": {
+            "value": "2020-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "AmPm feat. みゆな",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "プリズム",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "fruits-basket-2nd-season-op-1-song-2020-digital-single"
+            }
+          ],
+          "label": "A.S.A.B"
+        },
+        {
+          "id": "eyca-13618-b",
+          "title": "フルーツバスケット 主題歌ベスト",
+          "type": "compilation",
+          "date": {
+            "value": "2022-02-16",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "CD+DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "プリズム",
+              "position": 5,
+              "disc": 1
+            }
+          ],
+          "label": "avex pictures",
+          "catalogNumber": "EYCA-13618-B"
+        },
+        {
+          "id": "eyca-13619",
+          "title": "フルーツバスケット 主題歌ベスト",
+          "type": "compilation",
+          "date": {
+            "value": "2022-02-16",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "プリズム",
+              "position": 5,
+              "disc": 1
+            }
+          ],
+          "label": "avex pictures",
+          "catalogNumber": "EYCA-13619"
+        }
+      ]
     },
     {
       "type": "OP",
@@ -48884,7 +51015,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E6%B0%B4%E6%9E%9C%E7%B1%83",
@@ -48892,6 +51023,69 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://fruba.jp/news/detail.php?id=1084433",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/fruitsbasket-r2-2",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/fruitsbasket-r2-2/ep/23",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017630&season=2",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1519145031",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1519145032",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1018735",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ik0GKdDJgH0",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ti62cJ_3oEM",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
@@ -48968,21 +51162,249 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "https://www.tms-e.co.jp/alltitles/2020s/745102.html"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/news/detail.php?id=1084433",
+            "https://www.tms-e.co.jp/alltitles/2020s/745102.html",
+            "https://www.mau2.com/anime/fruitsbasket-r2-2",
+            "https://www.mau2.com/anime/fruitsbasket-r2-2/ep/23"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fruits-basket-2nd-season-op-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/news/detail.php?id=1084433",
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017630&season=2",
+            "https://www.mau2.com/anime/fruitsbasket-r2-2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fruits-basket-2nd-season-op-2-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.tms-e.co.jp/alltitles/2020s/745102.html",
+            "https://www.mau2.com/anime/fruitsbasket-r2-2"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017630&season=2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fruits-basket-2nd-season-op-2-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017630&season=2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fruits-basket-2nd-season-op-2-song-2020-digital-single"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1519145032"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1519145032"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017630&season=2",
+            "https://music.apple.com/hk/album/1519145031"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1519145031"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1018735"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "eyca-13618-b"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1018735"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "eyca-13619"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=ik0GKdDJgH0"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "ik0GKdDJgH0"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=ti62cJ_3oEM"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "ti62cJ_3oEM"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "本期歌曲身分、用途與逐曲季度已核；未新增個別歌唱或音源版本。",
-          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
-          "checkedAt": "2026-10-24"
+          "note": "香港原單曲與日本後發主題曲精選各列曲位。各話實播剪輯及合輯母帶待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第14–22、24–25話片頭；第23話省略片頭",
+      "releaseDate": "2020-07-07",
+      "recordings": [
+        {
+          "id": "fruits-basket-2nd-season-op-2-song-2020-digital-single",
+          "title": "HOME",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "HOME｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1519145032",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1519145031",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "fruits-basket-2nd-season-op-2-song-2020-digital-single"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1519145031",
+          "title": "HOME",
+          "type": "single",
+          "date": {
+            "value": "2020-07-07",
+            "precision": "day"
+          },
+          "artistDisplayName": "土岐麻子",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "HOME",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "fruits-basket-2nd-season-op-2-song-2020-digital-single"
+            }
+          ],
+          "label": "A.S.A.B"
+        },
+        {
+          "id": "eyca-13618-b",
+          "title": "フルーツバスケット 主題歌ベスト",
+          "type": "compilation",
+          "date": {
+            "value": "2022-02-16",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "CD+DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "HOME",
+              "position": 7,
+              "disc": 1
+            }
+          ],
+          "label": "avex pictures",
+          "catalogNumber": "EYCA-13618-B"
+        },
+        {
+          "id": "eyca-13619",
+          "title": "フルーツバスケット 主題歌ベスト",
+          "type": "compilation",
+          "date": {
+            "value": "2022-02-16",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "HOME",
+              "position": 7,
+              "disc": 1
+            }
+          ],
+          "label": "avex pictures",
+          "catalogNumber": "EYCA-13619"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -49022,14 +51444,14 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://fruba.jp/news/detail.php?id=1084108",
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E6%B0%B4%E6%9E%9C%E7%B1%83",
@@ -49037,6 +51459,83 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://fruba.jp/news/detail.php?id=1082551",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/fruitsbasket-r2-2",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/fruitsbasket-r2-2/ep/12",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017533&season=2",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1504059977",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1504059978",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1531287635",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1531287729",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1018735",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Qwd4oXZ5HS0",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=MTgTdDTzUYM",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
@@ -49128,21 +51627,327 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "https://www.tms-e.co.jp/alltitles/2020s/745102.html"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/news/detail.php?id=1082551",
+            "https://fruba.jp/news/detail.php?id=1084108",
+            "https://www.mau2.com/anime/fruitsbasket-r2-2",
+            "https://www.mau2.com/anime/fruitsbasket-r2-2/ep/12"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fruits-basket-2nd-season-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/news/detail.php?id=1082551",
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017533&season=2",
+            "https://www.mau2.com/anime/fruitsbasket-r2-2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fruits-basket-2nd-season-ed-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.tms-e.co.jp/alltitles/2020s/745102.html",
+            "https://www.mau2.com/anime/fruitsbasket-r2-2"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017533&season=2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fruits-basket-2nd-season-ed-1-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017533&season=2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fruits-basket-2nd-season-ed-1-song-2020-digital-single"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1504059978"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1504059978"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017533&season=2",
+            "https://music.apple.com/hk/album/1504059977"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1504059977"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/news/detail.php?id=1084108"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fruits-basket-2nd-season-ed-1-song-acoustic-mix"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1531287729"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1531287729"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/news/detail.php?id=1084108",
+            "https://music.apple.com/jp/album/1531287635"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1531287635"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1018735"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "eyca-13618-b"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1018735"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "eyca-13619"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=Qwd4oXZ5HS0"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "Qwd4oXZ5HS0"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=MTgTdDTzUYM"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "MTgTdDTzUYM"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "保原TV展示ad meliora；官方2020公告acoustic mix用於BD/後續配信，回顧頁名稱不據以確認原TV音源版本。",
-          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
-          "checkedAt": "2026-10-24"
+          "note": "日本原播採原曲；影碟第1–3卷與7/7起日本配信另採acoustic mix，逐平台生效日期及香港acoustic商品待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第1–6、8–10、12–13話原播片尾；影碟及7/7起部分配信更換acoustic mix",
+      "releaseDate": "2020-04-07",
+      "recordings": [
+        {
+          "id": "fruits-basket-2nd-season-ed-1-song-2020-digital-single",
+          "title": "ad meliora",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "fruits-basket-2nd-season-ed-1-song-acoustic-mix",
+          "title": "ad meliora (acoustic mix)",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "ad meliora｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1504059978",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1504059977",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "fruits-basket-2nd-season-ed-1-song-2020-digital-single"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ad meliora (acoustic mix)｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1531287729",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1531287635",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "fruits-basket-2nd-season-ed-1-song-acoustic-mix"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1504059977",
+          "title": "ad meliora",
+          "type": "single",
+          "date": {
+            "value": "2020-04-07",
+            "precision": "day"
+          },
+          "artistDisplayName": "THE CHARM PARK",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ad meliora",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "fruits-basket-2nd-season-ed-1-song-2020-digital-single"
+            }
+          ],
+          "label": "A.S.A.B"
+        },
+        {
+          "id": "apple-jp-1531287635",
+          "title": "Naked Vol.1",
+          "type": "ep",
+          "date": {
+            "value": "2020-09-23",
+            "precision": "day"
+          },
+          "artistDisplayName": "THE CHARM PARK",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ad meliora (acoustic mix)",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "fruits-basket-2nd-season-ed-1-song-acoustic-mix"
+            }
+          ],
+          "label": "A.S.A.B"
+        },
+        {
+          "id": "eyca-13618-b",
+          "title": "フルーツバスケット 主題歌ベスト",
+          "type": "compilation",
+          "date": {
+            "value": "2022-02-16",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "CD+DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ad meliora (acoustic mix)",
+              "position": 6,
+              "disc": 1,
+              "recordingId": "fruits-basket-2nd-season-ed-1-song-acoustic-mix"
+            }
+          ],
+          "label": "avex pictures",
+          "catalogNumber": "EYCA-13618-B"
+        },
+        {
+          "id": "eyca-13619",
+          "title": "フルーツバスケット 主題歌ベスト",
+          "type": "compilation",
+          "date": {
+            "value": "2022-02-16",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ad meliora (acoustic mix)",
+              "position": 6,
+              "disc": 1,
+              "recordingId": "fruits-basket-2nd-season-ed-1-song-acoustic-mix"
+            }
+          ],
+          "label": "avex pictures",
+          "catalogNumber": "EYCA-13619"
+        }
+      ]
     },
     {
       "type": "IN",
@@ -49153,7 +51958,6 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
       "songId": "fruits-basket-2nd-season-ed-2-song",
       "sourceMode": "explicit",
       "seasonIds": [
-        "2020-spring",
         "2020-summer"
       ],
       "sources": [
@@ -49190,7 +51994,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E6%B0%B4%E6%9E%9C%E7%B1%83",
@@ -49204,7 +52008,49 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "本曲逐欄交叉資料；未明欄位不作證",
           "role": "cross_check",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017552&season=2",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/fruitsbasket-r2-2",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.reddit.com/r/FruitsBasket/comments/i3dahm",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1544186521",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1544186522",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=O6H2ehdKtqE",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
@@ -49325,21 +52171,240 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "https://note.com/ena_note0415/n/nf04b897ddd00"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017552&season=2",
+            "https://note.com/ena_note0415/n/nf04b897ddd00",
+            "https://www.mau2.com/anime/fruitsbasket-r2-2",
+            "https://www.reddit.com/r/FruitsBasket/comments/i3dahm"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fruits-basket-2nd-season-ed-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017552&season=2",
+            "https://note.com/ena_note0415/n/nf04b897ddd00",
+            "https://www.mau2.com/anime/fruitsbasket-r2-2/ep/7"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fruits-basket-2nd-season-ed-2-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://note.com/ena_note0415/n/nf04b897ddd00",
+            "https://www.mau2.com/anime/fruitsbasket-r2-2/ep/7"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017552&season=2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fruits-basket-2nd-season-ed-2-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017552&season=2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fruits-basket-2nd-season-ed-2-song-2020-sound-collection"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017552&season=2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "eyxa-13035"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017552&season=2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "eyba-13029"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1544186522"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1544186522"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017552&season=2",
+            "https://music.apple.com/jp/album/1544186521"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1544186521"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=O6H2ehdKtqE",
+            "https://note.com/ena_note0415/n/nf04b897ddd00"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "O6H2ehdKtqE"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "原用途保同一ID與序號；直接官方本曲插曲及逐話交叉支持用途更正，無新歌曲或錄音。",
-          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
-          "checkedAt": "2026-10-24"
+          "note": "第7話的插入式片尾另列。第25話只找到器樂動機觀察，待原播掛字或權利方對應；第18話剪輯及香港曲目待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第18話（8/4）劇中人聲插曲，然後播放常規〈Eden〉片尾",
+      "releaseDate": "2020-12-25",
+      "recordings": [
+        {
+          "id": "fruits-basket-2nd-season-ed-2-song-2020-sound-collection",
+          "title": "Haseru Mirai ～馳せる未来～",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "eyxa-13035",
+          "title": "フルーツバスケット 2nd season オリジナル・サウンドコレクション",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-12-25",
+            "precision": "day"
+          },
+          "artistDisplayName": "横山克",
+          "edition": "第6卷初回Blu-ray附CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Haseru Mirai ～馳せる未来～",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "fruits-basket-2nd-season-ed-2-song-2020-sound-collection"
+            }
+          ],
+          "label": "avex pictures",
+          "catalogNumber": "EYXA-13035"
+        },
+        {
+          "id": "eyba-13029",
+          "title": "フルーツバスケット 2nd season オリジナル・サウンドコレクション",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-12-25",
+            "precision": "day"
+          },
+          "artistDisplayName": "横山克",
+          "edition": "第6卷初回DVD附CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Haseru Mirai ～馳せる未来～",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "fruits-basket-2nd-season-ed-2-song-2020-sound-collection"
+            }
+          ],
+          "label": "avex pictures",
+          "catalogNumber": "EYBA-13029"
+        },
+        {
+          "id": "apple-jp-1544186521",
+          "title": "フルーツバスケット 2nd season オリジナル・サウンドコレクション",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-12-25",
+            "precision": "day"
+          },
+          "artistDisplayName": "横山克",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Haseru Mirai ～馳せる未来～",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "fruits-basket-2nd-season-ed-2-song-2020-sound-collection"
+            }
+          ],
+          "label": "avex pictures"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Haseru Mirai ～馳せる未来～｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1544186522",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1544186521",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "fruits-basket-2nd-season-ed-2-song-2020-sound-collection"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -49379,7 +52444,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E6%B0%B4%E6%9E%9C%E7%B1%83",
@@ -49387,6 +52452,69 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://fruba.jp/news/detail.php?id=1084433",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/fruitsbasket-r2-2",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.reddit.com/r/FruitsBasket/comments/i3dahm",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017631&season=2",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1519300701",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1519300702",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1018735",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://avexnet.jp/contents/MONKE-XXXX-XXXX/news/1084430",
+          "label": "權利方影片上架及形式說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=xi2cefj5pOU",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
@@ -49471,22 +52599,837 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "https://www.tms-e.co.jp/alltitles/2020s/745102.html"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/news/detail.php?id=1084433",
+            "https://www.tms-e.co.jp/alltitles/2020s/745102.html",
+            "https://www.mau2.com/anime/fruitsbasket-r2-2",
+            "https://www.reddit.com/r/FruitsBasket/comments/i3dahm"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fruits-basket-2nd-season-ed-3"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/news/detail.php?id=1084433",
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017631&season=2",
+            "https://www.mau2.com/anime/fruitsbasket-r2-2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fruits-basket-2nd-season-ed-3-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.tms-e.co.jp/alltitles/2020s/745102.html",
+            "https://www.mau2.com/anime/fruitsbasket-r2-2"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017631&season=2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fruits-basket-2nd-season-ed-3-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017631&season=2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fruits-basket-2nd-season-ed-3-song-2020-digital-single"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1519300702"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1519300702"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017631&season=2",
+            "https://music.apple.com/hk/album/1519300701"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1519300701"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1018735"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "eyca-13618-b"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1018735"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "eyca-13619"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=xi2cefj5pOU",
+            "https://avexnet.jp/contents/MONKE-XXXX-XXXX/news/1084430"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "xi2cefj5pOU"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "arrangement",
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "本期歌曲身分、用途與逐曲季度已核；未新增個別歌唱或音源版本。",
-          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
-          "checkedAt": "2026-10-24"
+          "note": "香港原單曲與日本後發主題曲精選各列曲位。各話實播剪輯及合輯母帶待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第14–25話片尾；第18話另有劇中插曲",
+      "releaseDate": "2020-07-07",
+      "recordings": [
+        {
+          "id": "fruits-basket-2nd-season-ed-3-song-2020-digital-single",
+          "title": "Eden",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Eden｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1519300702",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1519300701",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "fruits-basket-2nd-season-ed-3-song-2020-digital-single"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1519300701",
+          "title": "Eden",
+          "type": "single",
+          "date": {
+            "value": "2020-07-07",
+            "precision": "day"
+          },
+          "artistDisplayName": "MONKEY MAJIK",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Eden",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "fruits-basket-2nd-season-ed-3-song-2020-digital-single"
+            }
+          ],
+          "label": "A.S.A.B"
+        },
+        {
+          "id": "eyca-13618-b",
+          "title": "フルーツバスケット 主題歌ベスト",
+          "type": "compilation",
+          "date": {
+            "value": "2022-02-16",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "CD+DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Eden",
+              "position": 8,
+              "disc": 1
+            }
+          ],
+          "label": "avex pictures",
+          "catalogNumber": "EYCA-13618-B"
+        },
+        {
+          "id": "eyca-13619",
+          "title": "フルーツバスケット 主題歌ベスト",
+          "type": "compilation",
+          "date": {
+            "value": "2022-02-16",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Eden",
+              "position": 8,
+              "disc": 1
+            }
+          ],
+          "label": "avex pictures",
+          "catalogNumber": "EYCA-13619"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 4,
+      "id": "fruits-basket-2nd-season-ed-4",
+      "titleJa": "馳せる未来",
+      "artistDisplayName": "ウタ・アリィ",
+      "songId": "fruits-basket-2nd-season-ed-2-song",
+      "sources": [
+        {
+          "url": "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017552&season=2",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://note.com/ena_note0415/n/nf04b897ddd00",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/fruitsbasket-r2-2/ep/7",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/fruitsbasket-r2-2",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1544186521",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1544186522",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Haseru Mirai ～馳せる未来～｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1544186522",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1544186521",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "fruits-basket-2nd-season-ed-2-song-2020-sound-collection"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017552&season=2",
+            "https://note.com/ena_note0415/n/nf04b897ddd00",
+            "https://www.mau2.com/anime/fruitsbasket-r2-2/ep/7",
+            "https://www.mau2.com/anime/fruitsbasket-r2-2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fruits-basket-2nd-season-ed-4"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017552&season=2",
+            "https://note.com/ena_note0415/n/nf04b897ddd00",
+            "https://www.mau2.com/anime/fruitsbasket-r2-2/ep/7"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fruits-basket-2nd-season-ed-2-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://note.com/ena_note0415/n/nf04b897ddd00",
+            "https://www.mau2.com/anime/fruitsbasket-r2-2/ep/7"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017552&season=2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fruits-basket-2nd-season-ed-2-song-2020-sound-collection"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017552&season=2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "eyxa-13035"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017552&season=2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "eyba-13029"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1544186522"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1544186522"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017552&season=2",
+            "https://music.apple.com/jp/album/1544186521"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1544186521"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "usageLabel": "第7話（5/19）插入式特別片尾；第18話劇中用途另列",
+      "lastVerifiedAt": "2026-11-15",
+      "credits": [
+        {
+          "name": "ENA☆",
+          "role": "lyrics"
+        },
+        {
+          "name": "横山克",
+          "role": "composition"
+        },
+        {
+          "name": "横山克",
+          "role": "arrangement"
+        },
+        {
+          "name": "ウタ・アリィ",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "fruits-basket-2nd-season-ed-2-song-2020-sound-collection",
+          "title": "Haseru Mirai ～馳せる未来～",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "eyxa-13035",
+          "title": "フルーツバスケット 2nd season オリジナル・サウンドコレクション",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-12-25",
+            "precision": "day"
+          },
+          "artistDisplayName": "横山克",
+          "edition": "第6卷初回Blu-ray附CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Haseru Mirai ～馳せる未来～",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "fruits-basket-2nd-season-ed-2-song-2020-sound-collection"
+            }
+          ],
+          "label": "avex pictures",
+          "catalogNumber": "EYXA-13035"
+        },
+        {
+          "id": "eyba-13029",
+          "title": "フルーツバスケット 2nd season オリジナル・サウンドコレクション",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-12-25",
+            "precision": "day"
+          },
+          "artistDisplayName": "横山克",
+          "edition": "第6卷初回DVD附CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Haseru Mirai ～馳せる未来～",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "fruits-basket-2nd-season-ed-2-song-2020-sound-collection"
+            }
+          ],
+          "label": "avex pictures",
+          "catalogNumber": "EYBA-13029"
+        },
+        {
+          "id": "apple-jp-1544186521",
+          "title": "フルーツバスケット 2nd season オリジナル・サウンドコレクション",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-12-25",
+            "precision": "day"
+          },
+          "artistDisplayName": "横山克",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Haseru Mirai ～馳せる未来～",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "fruits-basket-2nd-season-ed-2-song-2020-sound-collection"
+            }
+          ],
+          "label": "avex pictures"
+        }
+      ],
+      "releaseDate": "2020-12-25",
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "逐話掛字同時列片尾與插入歌。此話實播剪輯與已發行原聲母帶的對應待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 5,
+      "id": "fruits-basket-2nd-season-ed-5",
+      "titleJa": "プリズム",
+      "artistDisplayName": "AmPm feat. みゆな",
+      "songId": "fruits-basket-2nd-season-op-1-song",
+      "sources": [
+        {
+          "url": "https://fruba.jp/news/detail.php?id=1082551",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/fruba2/episodes/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/fruitsbasket-r2-2",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.reddit.com/r/FruitsBasket/comments/kjm085/",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tms-e.co.jp/alltitles/2020s/745102.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017528&season=2",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1504221973",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1504221974",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1018735",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "プリズム｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1504221974",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1504221973",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "fruits-basket-2nd-season-op-1-song-2020-digital-single"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/news/detail.php?id=1082551",
+            "https://www.tv-tokyo.co.jp/anime/fruba2/episodes/",
+            "https://www.mau2.com/anime/fruitsbasket-r2-2",
+            "https://www.reddit.com/r/FruitsBasket/comments/kjm085/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fruits-basket-2nd-season-ed-5"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/news/detail.php?id=1082551",
+            "https://www.tms-e.co.jp/alltitles/2020s/745102.html",
+            "https://www.mau2.com/anime/fruitsbasket-r2-2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fruits-basket-2nd-season-op-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.tms-e.co.jp/alltitles/2020s/745102.html",
+            "https://www.mau2.com/anime/fruitsbasket-r2-2"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017528&season=2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fruits-basket-2nd-season-op-1-song-2020-digital-single"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1504221974"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1504221974"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1017528&season=2",
+            "https://music.apple.com/hk/album/1504221973"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1504221973"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1018735"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "eyca-13618-b"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://fruba.jp/blu-ray_dvd_cd/detail.php?id=1018735"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "eyca-13619"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "usageLabel": "第11話（6/16）移至結尾的特別片尾；該話省略常規片頭",
+      "lastVerifiedAt": "2026-11-15",
+      "credits": [
+        {
+          "name": "みゆな",
+          "role": "lyrics"
+        },
+        {
+          "name": "みゆな",
+          "role": "vocals"
+        },
+        {
+          "name": "AmPm",
+          "role": "composition"
+        },
+        {
+          "name": "Kris Roche",
+          "role": "composition"
+        },
+        {
+          "name": "Yoshinori Ito",
+          "role": "composition"
+        },
+        {
+          "name": "AmPm",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "fruits-basket-2nd-season-op-1-song-2020-digital-single",
+          "title": "プリズム",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1504221973",
+          "title": "プリズム",
+          "type": "single",
+          "date": {
+            "value": "2020-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "AmPm feat. みゆな",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "プリズム",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "fruits-basket-2nd-season-op-1-song-2020-digital-single"
+            }
+          ],
+          "label": "A.S.A.B"
+        },
+        {
+          "id": "eyca-13618-b",
+          "title": "フルーツバスケット 主題歌ベスト",
+          "type": "compilation",
+          "date": {
+            "value": "2022-02-16",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "CD+DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "プリズム",
+              "position": 5,
+              "disc": 1
+            }
+          ],
+          "label": "avex pictures",
+          "catalogNumber": "EYCA-13618-B"
+        },
+        {
+          "id": "eyca-13619",
+          "title": "フルーツバスケット 主題歌ベスト",
+          "type": "compilation",
+          "date": {
+            "value": "2022-02-16",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "プリズム",
+              "position": 5,
+              "disc": 1
+            }
+          ],
+          "label": "avex pictures",
+          "catalogNumber": "EYCA-13619"
+        }
+      ],
+      "releaseDate": "2020-04-08",
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "確切片尾剪輯與正式商品版關係待原播或權利方版本資料。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
     }
   ],
   "metadataVerifiedAt": "2026-09-02",
@@ -49496,7 +53439,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
       "label": "第一方原期TV播出日期資料；僅日期時分",
       "role": "first_party",
       "language": "ja",
-      "verifiedAt": "2026-10-24"
+      "verifiedAt": "2026-11-15"
     },
     {
       "url": "https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E6%B0%B4%E6%9E%9C%E7%B1%83",
@@ -49504,6 +53447,41 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
       "role": "broadcast_cross_check",
       "language": "zh-Hant",
       "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/anime/fruba2/episodes/",
+      "label": "原台逐話及終回",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://fruba.jp/news/detail.php?id=1084260",
+      "label": "第13話官方14分鐘延後",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://fruba.jp/news/detail.php?id=1084433",
+      "label": "第14話及夏期曲目",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/main/yoriyoi/pdf/2020_09_03.pdf",
+      "label": "東京原編成9月終回",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://gigazine.net/news/20200330-anime-2020spring/",
+      "label": "同期日本首批配信時段",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
     }
   ],
   "editorialWeekday": 2,
@@ -53148,7 +57126,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
   "titleZhHant": "鋼彈創鬥者 潛網大戰 Re:RISE 第二季",
   "titleRomaji": "Gundam Build Divers Re:RISE 2nd Season",
   "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114233-FUlAGLqFOVrT.jpg",
-  "broadcastLabel": "2020年4月11日19:00 BS11原TV首話；4月9日20:00為先行網絡配信",
+  "broadcastLabel": "第14–26話，ガンダムチャンネル4/9起週四20:00 JST首發；BS11自4/11週六19:00首播，TOKYO MX自4/28週二22:29。第19話7/9 20:00復配、BS11 7/11與MX 7/14復播。第24話8/12誤提早上架、第25話8/20延至21:00，8/27配信完結，BS11 8/29播畢。",
   "sourceReferenceUrls": [
     "https://youranimes.tw/animes/145",
     "https://acgsecrets.hk/bangumi/202004/"
@@ -53189,17 +57167,120 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/penguinresearch/info/517988",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bs11.jp/anime/gundam-bd-rerise/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/gundambuilddiversrerise-2",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://gundam.wiki.cre.jp/wiki/%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%93%E3%83%AB%E3%83%89%E3%83%80%E3%82%A4%E3%83%90%E3%83%BC%E3%82%BARe%3ARISE",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Mdu9Zgp-QRc",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://tower.jp/item/6182242",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1537913746",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1537913747",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/spiraspica/info/555989",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=UW1a3h9Hlf4",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
-      "links": [],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "HATENA｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1537913747",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1537913746",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "gundam-build-divers-rerise-2-op-1-song-2020-digital-single"
+        }
+      ],
       "id": "gundam-build-divers-rerise-2-op-1",
       "songId": "gundam-build-divers-rerise-2-op-1-song",
       "seasonIds": [
-        "2020-spring"
+        "2020-spring",
+        "2020-summer"
       ],
       "credits": [
         {
           "name": "PENGUIN RESEARCH",
+          "role": "vocals"
+        },
+        {
+          "name": "堀江晶太",
+          "role": "lyrics"
+        },
+        {
+          "name": "堀江晶太",
+          "role": "composition"
+        },
+        {
+          "name": "堀江晶太",
+          "role": "arrangement"
+        },
+        {
+          "name": "PENGUIN RESEARCH",
+          "role": "arrangement"
+        },
+        {
+          "name": "生田鷹司",
           "role": "vocals"
         }
       ],
@@ -53272,26 +57353,200 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "gundam-build-divers-rerise-2-op-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/penguinresearch/info/517988",
+            "https://www.bs11.jp/anime/gundam-bd-rerise/",
+            "https://www.mau2.com/anime/gundambuilddiversrerise-2",
+            "https://gundam.wiki.cre.jp/wiki/%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%93%E3%83%AB%E3%83%89%E3%83%80%E3%82%A4%E3%83%90%E3%83%BC%E3%82%BARe%3ARISE"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "gundam-build-divers-rerise-2-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/penguinresearch/info/517988",
+            "https://www.youtube.com/watch?v=Mdu9Zgp-QRc",
+            "https://www.mau2.com/anime/gundambuilddiversrerise-2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "gundam-build-divers-rerise-2-op-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=Mdu9Zgp-QRc",
+            "https://tower.jp/item/6182242"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/penguinresearch/info/517988"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "gundam-build-divers-rerise-2-op-1-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/penguinresearch/info/517988"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "gundam-build-divers-rerise-2-op-1-song-2020-digital-single"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1537913747"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1537913747"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/penguinresearch/info/517988",
+            "https://music.apple.com/hk/album/1537913746"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1537913746"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/spiraspica/info/555989"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "srml-1061-3"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=Mdu9Zgp-QRc"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "Mdu9Zgp-QRc"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=UW1a3h9Hlf4"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "UW1a3h9Hlf4"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "lyrics",
-            "composition",
-            "arrangement",
             "recordings",
-            "official_video",
-            "releases",
-            "platform_links",
-            "use_quarters"
+            "platform_availability"
           ],
-          "note": "已證春季本曲OP；夏季逐曲延用缺直接原期分段證據，暫不由整作結束日補滿。",
-          "resumeWhen": "待夏季原期官方逐話OP署名或明示延用公告。",
-          "checkedAt": "2026-10-24"
+          "note": "原單曲與後發收錄分列。舊官方無字幕影片目前無法從公開影片中核對；各話實播剪輯與母帶待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第14–21、23–24、26話片頭；第22、25話移入劇中",
+      "releaseDate": "2020-04-20",
+      "recordings": [
+        {
+          "id": "gundam-build-divers-rerise-2-op-1-song-2020-digital-single",
+          "title": "HATENA",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1537913746",
+          "title": "HATENA",
+          "type": "single",
+          "date": {
+            "value": "2020-04-20",
+            "precision": "day"
+          },
+          "artistDisplayName": "PENGUIN RESEARCH",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "HATENA",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "gundam-build-divers-rerise-2-op-1-song-2020-digital-single"
+            }
+          ],
+          "label": "SACRA MUSIC"
+        },
+        {
+          "id": "srml-1061-3",
+          "title": "「ガンダムビルドシリーズ」10周年BEST Collection",
+          "type": "compilation",
+          "date": {
+            "value": "2023-11-29",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "3CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "HATENA",
+              "position": 7,
+              "disc": 2
+            }
+          ],
+          "label": "SUNRISE Music Label",
+          "catalogNumber": "SRML-1061-3"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -53327,9 +57582,120 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.sma.co.jp/s/sma/news/detail/88927?ima=0000",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://gundam-official.com/news/i/news/video-music/01_1792",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/gundambuilddiversrerise-2",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://gundam.wiki.cre.jp/wiki/%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%93%E3%83%AB%E3%83%89%E3%83%80%E3%82%A4%E3%83%90%E3%83%BC%E3%82%BARe%3ARISE",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/spiraspica/info/555989",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://tower.jp/item/6182242",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1537913599",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1537913600",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1537917066",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1537917067",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1537917071",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
         }
       ],
-      "links": [],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Twinkle｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1537913600",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1537913599",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "gundam-build-divers-rerise-2-ed-1-song-2020-original-single"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "Twinkle｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1537917067",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1537917066",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "gundam-build-divers-rerise-2-ed-1-song-2020-original-single"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "Twinkle (TV ver.)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1537917071",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1537917066",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "gundam-build-divers-rerise-2-ed-1-song-ep-tv-version"
+        }
+      ],
       "id": "gundam-build-divers-rerise-2-ed-1",
       "songId": "gundam-build-divers-rerise-2-ed-1-song",
       "seasonIds": [
@@ -53340,6 +57706,22 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
         {
           "name": "スピラ・スピカ",
           "role": "vocals"
+        },
+        {
+          "name": "幹葉",
+          "role": "lyrics"
+        },
+        {
+          "name": "樹",
+          "role": "lyrics"
+        },
+        {
+          "name": "渡辺翔",
+          "role": "composition"
+        },
+        {
+          "name": "If I",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -53411,25 +57793,311 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "gundam-build-divers-rerise-2-ed-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.sma.co.jp/s/sma/news/detail/88927?ima=0000",
+            "https://gundam-official.com/news/i/news/video-music/01_1792",
+            "https://www.mau2.com/anime/gundambuilddiversrerise-2",
+            "https://gundam.wiki.cre.jp/wiki/%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%93%E3%83%AB%E3%83%89%E3%83%80%E3%82%A4%E3%83%90%E3%83%BC%E3%82%BARe%3ARISE"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "gundam-build-divers-rerise-2-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.sma.co.jp/s/sma/news/detail/88927?ima=0000",
+            "https://gundam-official.com/news/i/news/video-music/01_1792",
+            "https://www.mau2.com/anime/gundambuilddiversrerise-2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "gundam-build-divers-rerise-2-ed-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/spiraspica/info/555989",
+            "https://tower.jp/item/6182242"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.sma.co.jp/s/sma/news/detail/88927?ima=0000"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "gundam-build-divers-rerise-2-ed-1-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.sma.co.jp/s/sma/news/detail/88927?ima=0000"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "gundam-build-divers-rerise-2-ed-1-song-2020-original-single"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/news/i/news/video-music/01_1792"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "gundam-build-divers-rerise-2-ed-1-song-ep-tv-version"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1537913600"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1537913600"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.sma.co.jp/s/sma/news/detail/88927?ima=0000",
+            "https://music.apple.com/hk/album/1537913599"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1537913599"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1537917067"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1537917067"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1537917071"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1537917071"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/news/i/news/video-music/01_1792",
+            "https://music.apple.com/hk/album/1537917066"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1537917066"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/news/i/news/video-music/01_1792"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "vvcl-1626-1627"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/news/i/news/video-music/01_1792"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "vvcl-1628"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "lyrics",
-            "composition",
-            "arrangement",
             "recordings",
-            "official_video",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "原名與正式名義、動畫用途已核；詞曲編無同頁逐項署名，留空。",
-          "resumeWhen": "待權利方同曲逐人詞曲編原文後補可選欄位。",
-          "checkedAt": "2026-10-24"
+          "note": "原單曲、EP正式TV ver.與動畫實播分列；無字幕片尾現行官方入口及各話剪輯待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第14–19、21–25話片尾；第20、26話另換曲",
+      "releaseDate": "2020-04-17",
+      "recordings": [
+        {
+          "id": "gundam-build-divers-rerise-2-ed-1-song-2020-original-single",
+          "title": "Twinkle",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "gundam-build-divers-rerise-2-ed-1-song-ep-tv-version",
+          "title": "Twinkle (TV ver.)",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1537913599",
+          "title": "Twinkle",
+          "type": "single",
+          "date": {
+            "value": "2020-04-17",
+            "precision": "day"
+          },
+          "artistDisplayName": "スピラ・スピカ",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Twinkle",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "gundam-build-divers-rerise-2-ed-1-song-2020-original-single"
+            }
+          ],
+          "label": "SACRA MUSIC"
+        },
+        {
+          "id": "apple-hk-1537917066",
+          "title": "Re:RISE -e.p.- 2",
+          "type": "ep",
+          "date": {
+            "value": "2020-08-05",
+            "precision": "day"
+          },
+          "artistDisplayName": "スピラ・スピカ",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Twinkle",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "gundam-build-divers-rerise-2-ed-1-song-2020-original-single"
+            },
+            {
+              "title": "Twinkle (TV ver.)",
+              "position": 5,
+              "disc": 1,
+              "recordingId": "gundam-build-divers-rerise-2-ed-1-song-ep-tv-version"
+            }
+          ],
+          "label": "SACRA MUSIC"
+        },
+        {
+          "id": "vvcl-1626-1627",
+          "title": "Re:RISE -e.p.- 2",
+          "type": "ep",
+          "date": {
+            "value": "2020-08-05",
+            "precision": "day"
+          },
+          "artistDisplayName": "スピラ・スピカ",
+          "edition": "初回生産限定盤CD+DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Twinkle",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "gundam-build-divers-rerise-2-ed-1-song-2020-original-single"
+            },
+            {
+              "title": "Twinkle (TV ver.)",
+              "position": 5,
+              "disc": 1,
+              "recordingId": "gundam-build-divers-rerise-2-ed-1-song-ep-tv-version"
+            }
+          ],
+          "label": "SACRA MUSIC",
+          "catalogNumber": "VVCL-1626-1627"
+        },
+        {
+          "id": "vvcl-1628",
+          "title": "Re:RISE -e.p.- 2",
+          "type": "ep",
+          "date": {
+            "value": "2020-08-05",
+            "precision": "day"
+          },
+          "artistDisplayName": "スピラ・スピカ",
+          "edition": "通常盤CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Twinkle",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "gundam-build-divers-rerise-2-ed-1-song-2020-original-single"
+            },
+            {
+              "title": "Twinkle (TV ver.)",
+              "position": 5,
+              "disc": 1,
+              "recordingId": "gundam-build-divers-rerise-2-ed-1-song-ep-tv-version"
+            }
+          ],
+          "label": "SACRA MUSIC",
+          "catalogNumber": "VVCL-1628"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -53457,7 +58125,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E9%81%94%E5%89%B5%E6%88%B0%E6%BD%9B%E8%A1%8C%E8%80%85Re:RISE",
@@ -53472,9 +58140,84 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://gundam-official.com/news/i/news/video-music/01_1792",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/gundambuilddiversrerise-2",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://gundam.wiki.cre.jp/wiki/%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%93%E3%83%AB%E3%83%89%E3%83%80%E3%82%A4%E3%83%90%E3%83%BC%E3%82%BARe%3ARISE",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/spiraspica/info/555989",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://tower.jp/item/6182242",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1537917066",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1537917068",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.sunrise-world.net/news/news.php?id=18143",
+          "label": "權利方影片上架及形式說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=vhpECHtZTlM",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
-      "links": [],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "ハートフル｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1537917068",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1537917066",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "gundam-build-divers-rerise-2-ed-2-song-2020-original-ep"
+        }
+      ],
       "id": "gundam-build-divers-rerise-2-ed-2",
       "songId": "gundam-build-divers-rerise-2-ed-2-song",
       "seasonIds": [
@@ -53484,6 +58227,18 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
         {
           "name": "スピラ・スピカ",
           "role": "vocals"
+        },
+        {
+          "name": "幹葉",
+          "role": "lyrics"
+        },
+        {
+          "name": "Saku",
+          "role": "composition"
+        },
+        {
+          "name": "Saku",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -53555,25 +58310,228 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "gundam-build-divers-rerise-2-ed-2"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.sunrise-inc.co.jp/work/news.php?id=17972",
+            "https://gundam-official.com/news/i/news/video-music/01_1792",
+            "https://www.mau2.com/anime/gundambuilddiversrerise-2",
+            "https://gundam.wiki.cre.jp/wiki/%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%93%E3%83%AB%E3%83%89%E3%83%80%E3%82%A4%E3%83%90%E3%83%BC%E3%82%BARe%3ARISE"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "gundam-build-divers-rerise-2-ed-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.sunrise-inc.co.jp/work/news.php?id=17972",
+            "https://gundam-official.com/news/i/news/video-music/01_1792",
+            "https://www.mau2.com/anime/gundambuilddiversrerise-2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "gundam-build-divers-rerise-2-ed-2-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/spiraspica/info/555989",
+            "https://tower.jp/item/6182242"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/news/i/news/video-music/01_1792"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "gundam-build-divers-rerise-2-ed-2-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/news/i/news/video-music/01_1792"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "gundam-build-divers-rerise-2-ed-2-song-2020-original-ep"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/news/i/news/video-music/01_1792"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "vvcl-1626-1627"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/news/i/news/video-music/01_1792"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "vvcl-1628"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1537917068"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1537917068"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://gundam-official.com/news/i/news/video-music/01_1792",
+            "https://music.apple.com/hk/album/1537917066"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1537917066"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=vhpECHtZTlM",
+            "https://www.sunrise-world.net/news/news.php?id=18143"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "vhpECHtZTlM"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "lyrics",
-            "composition",
-            "arrangement",
             "recordings",
-            "official_video",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "原名與正式名義、動畫用途已核；詞曲編無同頁逐項署名，留空。",
-          "resumeWhen": "待權利方同曲逐人詞曲編原文後補可選欄位。",
-          "checkedAt": "2026-10-24"
+          "note": "系列官方確認第20話特別片尾，另有動畫素材特別PV。PV與本話片尾實際剪輯關係待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第20話特別片尾（7/16配信、7/18 BS11）",
+      "releaseDate": "2020-08-05",
+      "recordings": [
+        {
+          "id": "gundam-build-divers-rerise-2-ed-2-song-2020-original-ep",
+          "title": "ハートフル",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "releases": [
+        {
+          "id": "vvcl-1626-1627",
+          "title": "Re:RISE -e.p.- 2",
+          "type": "ep",
+          "date": {
+            "value": "2020-08-05",
+            "precision": "day"
+          },
+          "artistDisplayName": "スピラ・スピカ",
+          "edition": "初回生産限定盤CD+DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ハートフル",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "gundam-build-divers-rerise-2-ed-2-song-2020-original-ep"
+            }
+          ],
+          "label": "SACRA MUSIC",
+          "catalogNumber": "VVCL-1626-1627"
+        },
+        {
+          "id": "vvcl-1628",
+          "title": "Re:RISE -e.p.- 2",
+          "type": "ep",
+          "date": {
+            "value": "2020-08-05",
+            "precision": "day"
+          },
+          "artistDisplayName": "スピラ・スピカ",
+          "edition": "通常盤CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ハートフル",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "gundam-build-divers-rerise-2-ed-2-song-2020-original-ep"
+            }
+          ],
+          "label": "SACRA MUSIC",
+          "catalogNumber": "VVCL-1628"
+        },
+        {
+          "id": "apple-hk-1537917066",
+          "title": "Re:RISE -e.p.- 2",
+          "type": "ep",
+          "date": {
+            "value": "2020-08-05",
+            "precision": "day"
+          },
+          "artistDisplayName": "スピラ・スピカ",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ハートフル",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "gundam-build-divers-rerise-2-ed-2-song-2020-original-ep"
+            }
+          ],
+          "label": "SACRA MUSIC"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -53609,16 +58567,130 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/spiraspica/discography/buy/VVCL-1537",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.sunrise-world.net/news/news_ttl.php?offset=30&title_id=501",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.lisani.jp/0000185457/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/gundambuilddiversrerise-2",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://gundam.wiki.cre.jp/wiki/%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%93%E3%83%AB%E3%83%89%E3%83%80%E3%82%A4%E3%83%90%E3%83%BC%E3%82%BARe%3ARISE",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tadahome.info/entry/gundam_bd26",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/spiraspica/info/555989",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://tower.jp/item/6182242",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1537904093",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1537904094",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1537904097",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
         }
       ],
-      "links": [],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "リライズ｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1537904094",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1537904093",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "gundam-build-divers-rerise-2-ed-3-song-2019-original-single"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "リライズ -TV ver.-｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1537904097",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1537904093",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "gundam-build-divers-rerise-2-ed-3-song-single-tv-ver"
+        }
+      ],
       "id": "gundam-build-divers-rerise-2-ed-3",
       "songId": "gundam-build-divers-rerise-2-ed-3-song",
-      "seasonIds": [],
+      "seasonIds": [
+        "2020-summer"
+      ],
       "credits": [
         {
           "name": "スピラ・スピカ",
           "role": "vocals"
+        },
+        {
+          "name": "幹葉",
+          "role": "lyrics"
+        },
+        {
+          "name": "鈴木静那",
+          "role": "composition"
+        },
+        {
+          "name": "If I",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -53645,27 +58717,512 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "gundam-build-divers-rerise-2-ed-3-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/spiraspica/discography/buy/VVCL-1537",
+            "https://www.sunrise-world.net/news/news_ttl.php?offset=30&title_id=501",
+            "https://www.lisani.jp/0000185457/",
+            "https://www.mau2.com/anime/gundambuilddiversrerise-2",
+            "https://gundam.wiki.cre.jp/wiki/%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%93%E3%83%AB%E3%83%89%E3%83%80%E3%82%A4%E3%83%90%E3%83%BC%E3%82%BARe%3ARISE",
+            "https://www.tadahome.info/entry/gundam_bd26"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "gundam-build-divers-rerise-2-ed-3"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/spiraspica/discography/buy/VVCL-1537",
+            "https://www.sonymusic.co.jp/artist/spiraspica/info/555989",
+            "https://www.mau2.com/anime/gundambuilddiversrerise-2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "gundam-build-divers-rerise-2-ed-3-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/spiraspica/info/555989",
+            "https://tower.jp/item/6182242"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/spiraspica/discography/buy/VVCL-1537"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "gundam-build-divers-rerise-2-ed-3-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/spiraspica/discography/buy/VVCL-1537"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "gundam-build-divers-rerise-2-ed-3-song-2019-original-single"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/spiraspica/discography/buy/VVCL-1537"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "gundam-build-divers-rerise-2-ed-3-song-single-tv-ver"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/spiraspica/discography/buy/VVCL-1537"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "vvcl-1537"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1537904094"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1537904094"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1537904097"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1537904097"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/spiraspica/discography/buy/VVCL-1537",
+            "https://music.apple.com/hk/album/1537904093"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1537904093"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "lyrics",
-            "composition",
-            "arrangement",
             "recordings",
-            "official_video",
-            "releases",
-            "platform_links",
-            "basic_evidence",
-            "use_quarters"
+            "platform_availability"
           ],
-          "note": "第一方目前只證本曲為1st Season OP；交叉列第26話ED，尚缺第一方最終話ED用途。",
-          "resumeWhen": "待原期官方最終話音樂署名或明示本曲作第26話ED的公告；保留既有ID與序號。",
-          "checkedAt": "2026-10-24"
+          "note": "正式TV ver.在首季單曲，終回實播與首季商品剪輯的關係仍待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第26話終回片尾（8/27配信、8/29 BS11）；沿用第1部分片頭",
+      "releaseDate": "2019-10-23",
+      "recordings": [
+        {
+          "id": "gundam-build-divers-rerise-2-ed-3-song-2019-original-single",
+          "title": "リライズ",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "gundam-build-divers-rerise-2-ed-3-song-single-tv-ver",
+          "title": "リライズ -TV ver.-",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "releases": [
+        {
+          "id": "vvcl-1537",
+          "title": "Re:RISE -e.p.-",
+          "type": "ep",
+          "date": {
+            "value": "2019-10-23",
+            "precision": "day"
+          },
+          "artistDisplayName": "スピラ・スピカ",
+          "edition": "通常盤CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "リライズ",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "gundam-build-divers-rerise-2-ed-3-song-2019-original-single"
+            },
+            {
+              "title": "リライズ -TV ver.-",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "gundam-build-divers-rerise-2-ed-3-song-single-tv-ver"
+            }
+          ],
+          "label": "SACRA MUSIC",
+          "catalogNumber": "VVCL-1537"
+        },
+        {
+          "id": "apple-hk-1537904093",
+          "title": "Re:RISE -e.p.-",
+          "type": "ep",
+          "date": {
+            "value": "2019-10-23",
+            "precision": "day"
+          },
+          "artistDisplayName": "スピラ・スピカ",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "リライズ",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "gundam-build-divers-rerise-2-ed-3-song-2019-original-single"
+            },
+            {
+              "title": "リライズ -TV ver.-",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "gundam-build-divers-rerise-2-ed-3-song-single-tv-ver"
+            }
+          ],
+          "label": "SACRA MUSIC"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 1,
+      "id": "gundam-build-divers-rerise-2-in-1",
+      "titleJa": "HATENA",
+      "artistDisplayName": "PENGUIN RESEARCH",
+      "songId": "gundam-build-divers-rerise-2-op-1-song",
+      "sources": [
+        {
+          "url": "https://www.sonymusic.co.jp/artist/penguinresearch/info/517988",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.b-ch.com/titles/6739/025",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/gundambuilddiversrerise-2",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://gundam.wiki.cre.jp/wiki/%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%93%E3%83%AB%E3%83%89%E3%83%80%E3%82%A4%E3%83%90%E3%83%BC%E3%82%BARe%3ARISE",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.reddit.com/r/Gundam/comments/i0k93a",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.reddit.com/r/anime/comments/1abvmiz",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Mdu9Zgp-QRc",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://tower.jp/item/6182242",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1537913746",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1537913747",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/spiraspica/info/555989",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "HATENA｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1537913747",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1537913746",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "gundam-build-divers-rerise-2-op-1-song-2020-digital-single"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/penguinresearch/info/517988",
+            "https://www.b-ch.com/titles/6739/025",
+            "https://www.mau2.com/anime/gundambuilddiversrerise-2",
+            "https://gundam.wiki.cre.jp/wiki/%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%93%E3%83%AB%E3%83%89%E3%83%80%E3%82%A4%E3%83%90%E3%83%BC%E3%82%BARe%3ARISE",
+            "https://www.reddit.com/r/Gundam/comments/i0k93a",
+            "https://www.reddit.com/r/anime/comments/1abvmiz"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "gundam-build-divers-rerise-2-in-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/penguinresearch/info/517988",
+            "https://www.youtube.com/watch?v=Mdu9Zgp-QRc",
+            "https://www.mau2.com/anime/gundambuilddiversrerise-2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "gundam-build-divers-rerise-2-op-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=Mdu9Zgp-QRc",
+            "https://tower.jp/item/6182242"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/penguinresearch/info/517988"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "gundam-build-divers-rerise-2-op-1-song-2020-digital-single"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1537913747"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1537913747"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/penguinresearch/info/517988",
+            "https://music.apple.com/hk/album/1537913746"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1537913746"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/spiraspica/info/555989"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "srml-1061-3"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "usageLabel": "第22、25話的戰鬥場景插曲，兩話省略常規片頭",
+      "lastVerifiedAt": "2026-11-15",
+      "credits": [
+        {
+          "name": "堀江晶太",
+          "role": "lyrics"
+        },
+        {
+          "name": "堀江晶太",
+          "role": "composition"
+        },
+        {
+          "name": "堀江晶太",
+          "role": "arrangement"
+        },
+        {
+          "name": "PENGUIN RESEARCH",
+          "role": "arrangement"
+        },
+        {
+          "name": "生田鷹司",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "gundam-build-divers-rerise-2-op-1-song-2020-digital-single",
+          "title": "HATENA",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1537913746",
+          "title": "HATENA",
+          "type": "single",
+          "date": {
+            "value": "2020-04-20",
+            "precision": "day"
+          },
+          "artistDisplayName": "PENGUIN RESEARCH",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "HATENA",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "gundam-build-divers-rerise-2-op-1-song-2020-digital-single"
+            }
+          ],
+          "label": "SACRA MUSIC"
+        },
+        {
+          "id": "srml-1061-3",
+          "title": "「ガンダムビルドシリーズ」10周年BEST Collection",
+          "type": "compilation",
+          "date": {
+            "value": "2023-11-29",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "3CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "HATENA",
+              "position": 7,
+              "disc": 2
+            }
+          ],
+          "label": "SUNRISE Music Label",
+          "catalogNumber": "SRML-1061-3"
+        }
+      ],
+      "releaseDate": "2020-04-20",
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "維持同一歌曲及已核發行資料。兩話實播剪輯與完整母帶對應待權利方或原版掛字。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
     }
   ],
   "metadataVerifiedAt": "2026-09-02",
@@ -53683,6 +59240,48 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
       "role": "broadcast_cross_check",
       "language": "ja",
       "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/9699?entry_id=6772",
+      "label": "製作方公布網路主首發、BS11與TOKYO MX起點",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.bs11.jp/anime/gundam-bd-rerise/",
+      "label": "原BS11節目與分集",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.sunrise-inc.co.jp/work/topics.php?id=17904",
+      "label": "第19話日本配信及兩台復播",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.sunrise-world.net/news/news.php?id=18044",
+      "label": "第24話意外先上架",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.sunrise-world.net/news/news_ttl.php?offset=30&title_id=501",
+      "label": "第25話配信延時與第26話配信及電視完結",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://mantan-web.jp/article/20200625dog00m200069000c.html",
+      "label": "同期復播及電視槽交叉",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
     }
   ],
   "editorialWeekday": 6,
@@ -53690,7 +59289,8 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
   "seasonIds": [
     "2020-spring",
     "2020-summer"
-  ]
+  ],
+  "officialSiteUrl": "https://www.bs11.jp/anime/gundam-bd-rerise/"
 }),
   spring2020Seed({
   "anilistId": 112444,
@@ -53701,7 +59301,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
   "titleRomaji": "Appare-Ranman!",
   "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112444-S7bhKskrAqSI.jpg",
   "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112444-jl2dffsH64I7.jpg",
-  "broadcastLabel": "2020年4月10日21:30 AT-X原TV首話；7月重啟另列",
+  "broadcastLabel": "4/10–4/24 AT-X週五21:30 JST首播第1–3話後延期；7/3起週五21:00重播，7/24新播第4話，9/25第13話完結。3/21起有首兩話先行場；dアニメストア夏季第4話起21:30先於TOKYO MX。",
   "officialSiteUrl": "https://appareranman.com/",
   "sourceReferenceUrls": [
     "https://youranimes.tw/animes/304",
@@ -53737,18 +59337,18 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "verifiedAt": "2026-09-02"
         },
         {
-          "label": "Lantis Channel 官方影片",
           "url": "https://www.youtube.com/watch?v=sQTd5GZmR3A",
-          "language": "ja",
+          "label": "權利方官方影片及簡介",
           "role": "first_party",
-          "verifiedAt": "2026-09-02"
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://appareranman.com/music.html",
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://anime-song-info.com/appareranman-op-ed-202004-spring/",
@@ -53756,6 +59356,55 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.lantis.jp/artist/Mia_REGINA/news_1585875599.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.animatetimes.com/news/details.php?id=1597653277",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%A4%A9%E6%99%B4%E7%83%82%E6%BC%AB%EF%BC%81",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://moegirl.uk/index.php?title=%E5%A4%A9%E6%99%B4%E7%83%82%E6%BC%AB%EF%BC%81&variant=zh-hk",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1508247030",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1508247032",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=f56Rv8D0mrc",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
@@ -53770,6 +59419,10 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
         {
           "name": "神田ジョン",
           "role": "composition"
+        },
+        {
+          "name": "神田ジョン",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -53828,22 +59481,239 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "https://appareranman.com/music.html"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://appareranman.com/music.html",
+            "https://www.lantis.jp/artist/Mia_REGINA/news_1585875599.html",
+            "https://www.animatetimes.com/news/details.php?id=1597653277",
+            "https://zh.wikipedia.org/wiki/%E5%A4%A9%E6%99%B4%E7%83%82%E6%BC%AB%EF%BC%81",
+            "https://moegirl.uk/index.php?title=%E5%A4%A9%E6%99%B4%E7%83%82%E6%BC%AB%EF%BC%81&variant=zh-hk"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "appare-ranman-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://appareranman.com/music.html",
+            "https://www.lantis.jp/artist/Mia_REGINA/news_1585875599.html",
+            "https://www.animatetimes.com/news/details.php?id=1597653277"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "appare-ranman-op-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/artist/Mia_REGINA/news_1585875599.html",
+            "https://appareranman.com/music.html"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/artist/Mia_REGINA/news_1585875599.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "appare-ranman-op-1-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/artist/Mia_REGINA/news_1585875599.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "appare-ranman-op-1-song-2020-original-single"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/artist/Mia_REGINA/news_1585875599.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "appare-ranman-op-1-song-single-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/artist/Mia_REGINA/news_1585875599.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "lacm-14993"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1508247032"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1508247032"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/artist/Mia_REGINA/news_1585875599.html",
+            "https://music.apple.com/jp/album/1508247030"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1508247030"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=sQTd5GZmR3A"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "sQTd5GZmR3A"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=f56Rv8D0mrc"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "f56Rv8D0mrc"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "releases",
-            "platform_links",
-            "arrangement"
+            "platform_availability"
           ],
-          "note": "本期原曲名、正式演唱名義與OPED用途已核；未讀來源及既有影音保持原狀。",
-          "resumeWhen": "待權利方同曲明確詞曲編署名或可用正式版本資料，再補尚缺欄位。",
-          "checkedAt": "2026-10-24"
+          "note": "已核日本原單曲和伴奏。第5話劇中用曲只見一份具名記錄，待可辨原播或權利方逐話曲表；香港直接商品與獨立TV音源待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "2020春、夏常規片頭；第13話同曲片尾另列",
+      "releaseDate": "2020-04-22",
+      "recordings": [
+        {
+          "id": "appare-ranman-op-1-song-2020-original-single",
+          "title": "I got it!",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "appare-ranman-op-1-song-single-instrumental",
+          "title": "I got it!（Instrumental）",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "lacm-14993",
+          "title": "I got it!",
+          "type": "single",
+          "date": {
+            "value": "2020-04-22",
+            "precision": "day"
+          },
+          "artistDisplayName": "Mia REGINA",
+          "edition": "CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "I got it!",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "appare-ranman-op-1-song-2020-original-single"
+            },
+            {
+              "title": "I got it!（Instrumental）",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "appare-ranman-op-1-song-single-instrumental"
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACM-14993"
+        },
+        {
+          "id": "apple-jp-1508247030",
+          "title": "I got it!",
+          "type": "single",
+          "date": {
+            "value": "2020-04-22",
+            "precision": "day"
+          },
+          "artistDisplayName": "Mia REGINA",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "I got it!",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "appare-ranman-op-1-song-2020-original-single"
+            }
+          ],
+          "label": "Lantis"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "I got it!｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1508247032",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1508247030",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "appare-ranman-op-1-song-2020-original-single"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -53873,18 +59743,18 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "verifiedAt": "2026-09-02"
         },
         {
-          "label": "Lantis Channel 官方影片",
           "url": "https://www.youtube.com/watch?v=HSaLtkKk-GE",
-          "language": "ja",
+          "label": "權利方官方影片及簡介",
           "role": "first_party",
-          "verifiedAt": "2026-09-02"
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://appareranman.com/music.html",
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://anime-song-info.com/appareranman-op-ed-202004-spring/",
@@ -53892,12 +59762,94 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.lantis.jp/release-item/LACM-24001.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.animatetimes.com/news/details.php?id=1597653277",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%A4%A9%E6%99%B4%E7%83%82%E6%BC%AB%EF%BC%81",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://moegirl.uk/index.php?title=%E5%A4%A9%E6%99%B4%E7%83%82%E6%BC%AB%EF%BC%81&variant=zh-hk",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1512899078",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1512899079",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://morikuboshowtaro.lantis.jp/discography/x-fade/",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1838422085",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1838422088",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Hn0xzD14A7Y",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
         {
           "name": "森久保祥太郎",
           "role": "vocals"
+        },
+        {
+          "name": "森久保祥太郎",
+          "role": "lyrics"
+        },
+        {
+          "name": "井上日徳",
+          "role": "composition"
+        },
+        {
+          "name": "井上日徳",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -53946,24 +59898,593 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "appare-ranman-ed-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://appareranman.com/music.html",
+            "https://www.lantis.jp/release-item/LACM-24001.html",
+            "https://www.animatetimes.com/news/details.php?id=1597653277",
+            "https://zh.wikipedia.org/wiki/%E5%A4%A9%E6%99%B4%E7%83%82%E6%BC%AB%EF%BC%81",
+            "https://moegirl.uk/index.php?title=%E5%A4%A9%E6%99%B4%E7%83%82%E6%BC%AB%EF%BC%81&variant=zh-hk"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "appare-ranman-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://appareranman.com/music.html",
+            "https://www.lantis.jp/release-item/LACM-24001.html",
+            "https://www.animatetimes.com/news/details.php?id=1597653277"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "appare-ranman-ed-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/release-item/LACM-24001.html"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=HSaLtkKk-GE"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "appare-ranman-ed-1-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=HSaLtkKk-GE"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "appare-ranman-ed-1-song-2020-digital-single"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1512899079"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1512899079"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=HSaLtkKk-GE",
+            "https://music.apple.com/jp/album/1512899078"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1512899078"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/release-item/LACM-24001.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "lacm-24001"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://morikuboshowtaro.lantis.jp/discography/x-fade/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "laca-25012"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1838422088"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1838422088"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://morikuboshowtaro.lantis.jp/discography/x-fade/",
+            "https://music.apple.com/hk/album/1838422085"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1838422085"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=HSaLtkKk-GE"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "HSaLtkKk-GE"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=Hn0xzD14A7Y"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "Hn0xzD14A7Y"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "releases",
-            "platform_links",
-            "lyrics",
-            "composition",
-            "arrangement"
+            "platform_availability"
           ],
-          "note": "本期原曲名、正式演唱名義與OPED用途已核；未讀來源及既有影音保持原狀。",
-          "resumeWhen": "待權利方同曲明確詞曲編署名或可用正式版本資料，再補尚缺欄位。",
-          "checkedAt": "2026-10-24"
+          "note": "5/27先行數位、7/22改期實體及香港X-FADE分列。原播剪輯、TV音源及後發專輯母帶關係待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第1–12話常規片尾；第13話改用〈I got it!〉",
+      "releaseDate": "2020-05-27",
+      "recordings": [
+        {
+          "id": "appare-ranman-ed-1-song-2020-digital-single",
+          "title": "I'm Nobody",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "I'm Nobody｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1512899079",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1512899078",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "appare-ranman-ed-1-song-2020-digital-single"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "I'm Nobody｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1838422088",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1838422085",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-jp-1512899078",
+          "title": "I'm Nobody",
+          "type": "single",
+          "date": {
+            "value": "2020-05-27",
+            "precision": "day"
+          },
+          "artistDisplayName": "森久保祥太郎",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "I'm Nobody",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "appare-ranman-ed-1-song-2020-digital-single"
+            }
+          ],
+          "label": "Lantis"
+        },
+        {
+          "id": "lacm-24001",
+          "title": "I'm Nobody",
+          "type": "single",
+          "date": {
+            "value": "2020-07-22",
+            "precision": "day"
+          },
+          "artistDisplayName": "森久保祥太郎",
+          "edition": "CD+Blu-ray",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "I'm Nobody",
+              "position": 1,
+              "disc": 1
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACM-24001"
+        },
+        {
+          "id": "laca-25012",
+          "title": "X-FADE",
+          "type": "album",
+          "date": {
+            "value": "2022-11-30",
+            "precision": "day"
+          },
+          "artistDisplayName": "森久保祥太郎",
+          "edition": "CD+Blu-ray",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "I'm Nobody",
+              "position": 3,
+              "disc": 1
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACA-25012"
+        },
+        {
+          "id": "apple-hk-1838422085",
+          "title": "X-FADE",
+          "type": "album",
+          "date": {
+            "value": "2022-11-30",
+            "precision": "day"
+          },
+          "artistDisplayName": "森久保祥太郎",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "I'm Nobody",
+              "position": 3,
+              "disc": 1
+            }
+          ],
+          "label": "Lantis"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "id": "appare-ranman-ed-2",
+      "titleJa": "I got it!",
+      "artistDisplayName": "Mia REGINA",
+      "songId": "appare-ranman-op-1-song",
+      "sources": [
+        {
+          "url": "https://www.crunchyroll.com/es/watch/GX9UQZXV9/over-the-moon",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://appareranman.com/music.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%A4%A9%E6%99%B4%E7%83%82%E6%BC%AB%EF%BC%81",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://moegirl.uk/index.php?title=%E5%A4%A9%E6%99%B4%E7%83%82%E6%BC%AB%EF%BC%81&variant=zh-hk",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.reddit.com/r/anime/comments/izjigl/appare_ranman_episode_13_discussion_final/",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.lantis.jp/artist/Mia_REGINA/news_1585875599.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1508247030",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1508247032",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "I got it!｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1508247032",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1508247030",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "appare-ranman-op-1-song-2020-original-single"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.crunchyroll.com/es/watch/GX9UQZXV9/over-the-moon",
+            "https://appareranman.com/music.html",
+            "https://zh.wikipedia.org/wiki/%E5%A4%A9%E6%99%B4%E7%83%82%E6%BC%AB%EF%BC%81",
+            "https://moegirl.uk/index.php?title=%E5%A4%A9%E6%99%B4%E7%83%82%E6%BC%AB%EF%BC%81&variant=zh-hk",
+            "https://www.reddit.com/r/anime/comments/izjigl/appare_ranman_episode_13_discussion_final/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "appare-ranman-ed-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://appareranman.com/music.html",
+            "https://www.lantis.jp/artist/Mia_REGINA/news_1585875599.html",
+            "https://zh.wikipedia.org/wiki/%E5%A4%A9%E6%99%B4%E7%83%82%E6%BC%AB%EF%BC%81"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "appare-ranman-op-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/artist/Mia_REGINA/news_1585875599.html",
+            "https://appareranman.com/music.html"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/artist/Mia_REGINA/news_1585875599.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "appare-ranman-op-1-song-2020-original-single"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/artist/Mia_REGINA/news_1585875599.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "appare-ranman-op-1-song-single-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/artist/Mia_REGINA/news_1585875599.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "lacm-14993"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1508247032"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1508247032"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/artist/Mia_REGINA/news_1585875599.html",
+            "https://music.apple.com/jp/album/1508247030"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1508247030"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "usageLabel": "第13話（2020/9/25）片尾",
+      "lastVerifiedAt": "2026-11-15",
+      "credits": [
+        {
+          "name": "Mia REGINA",
+          "role": "vocals"
+        },
+        {
+          "name": "ささかまリス子",
+          "role": "lyrics"
+        },
+        {
+          "name": "神田ジョン",
+          "role": "composition"
+        },
+        {
+          "name": "神田ジョン",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "appare-ranman-op-1-song-2020-original-single",
+          "title": "I got it!",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "appare-ranman-op-1-song-single-instrumental",
+          "title": "I got it!（Instrumental）",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "lacm-14993",
+          "title": "I got it!",
+          "type": "single",
+          "date": {
+            "value": "2020-04-22",
+            "precision": "day"
+          },
+          "artistDisplayName": "Mia REGINA",
+          "edition": "CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "I got it!",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "appare-ranman-op-1-song-2020-original-single"
+            },
+            {
+              "title": "I got it!（Instrumental）",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "appare-ranman-op-1-song-single-instrumental"
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACM-14993"
+        },
+        {
+          "id": "apple-jp-1508247030",
+          "title": "I got it!",
+          "type": "single",
+          "date": {
+            "value": "2020-04-22",
+            "precision": "day"
+          },
+          "artistDisplayName": "Mia REGINA",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "I got it!",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "appare-ranman-op-1-song-2020-original-single"
+            }
+          ],
+          "label": "Lantis"
+        }
+      ],
+      "releaseDate": "2020-04-22",
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "逐話資料一致列本曲為終回片尾。同期觀眾記錄有回顧片尾，原播掛字及確切音源剪輯待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
     }
   ],
   "metadataVerifiedAt": "2026-09-02",
@@ -53988,6 +60509,55 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
       "role": "broadcast_cross_check",
       "language": "ja",
       "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://appareranman.com/news.html#n010",
+      "label": "四月各台正式首播",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://appareranman.com/news.html#n013",
+      "label": "第1、2話先行場",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://appareranman.com/news.html#n020",
+      "label": "春季停播公告",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://appareranman.com/news.html#n022",
+      "label": "七月從首話復播",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://appareranman.com/onair.html",
+      "label": "AT-X復播與日本配信時段",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.at-x.com/pdf/program/8bb4c555df8c49649eee5c94c376b179.pdf",
+      "label": "AT-X九月表與終回",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://cal.syoboi.jp/tid/5623/time",
+      "label": "春夏各話原播與重播交叉",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
     }
   ],
   "editorialWeekday": 5,
@@ -54048,8 +60618,8 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
   "titleRomaji": "Fugou Keiji: Balance:UNLIMITED",
   "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114888-lgecUF3O1AWS.png",
   "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/114888-YVXJvMnuWCDb.jpg",
-  "broadcastLabel": "2020年4月9日25:10（實曆4月10日01:10）フジテレビ原TV首話",
-  "officialSiteUrl": "https://www.fugoukeiji-bul.com/",
+  "broadcastLabel": "日本フジテレビ「ノイタミナ」週五00:55 JST（節目表週四24:55）。第1話4/10為01:10、第2話4/17；停播後7/17同時刻01:10由第1話重播，第3話7/31首播、第11話9/25播畢。FOD與dアニメストア原配信安排為週五04:00。",
+  "officialSiteUrl": "https://fugoukeiji-bul.com/",
   "sourceReferenceUrls": [
     "https://youranimes.tw/animes/113",
     "https://acgsecrets.hk/bangumi/202004/"
@@ -54088,14 +60658,14 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://fugoukeiji-bul.com/news/?id=54004",
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E5%AF%8C%E8%B1%AA%E5%88%91%E4%BA%8B_Balance:UNLIMITED",
@@ -54103,11 +60673,219 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.sixtones.jp/discography/002/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/fugoukeiji",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://animeanime.jp/article/2020/07/16/55045_2.html",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.qobuz.com/jp-ja/album/navigator-sixtones/oidkqitlfmica",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1811949787",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.uta-net.com/song/288252/",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.sixtones.jp/news/046/",
+          "label": "權利方曲目與發行音源說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.sixtones.jp/1st/1st/",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.sixtones.jp/discography/d004/",
+          "label": "權利方曲目與發行音源說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.sixtones.jp/news/414/",
+          "label": "權利方配信日期及版本說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1811949786",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/single-collection/1863884085",
+          "label": "權利方配信日期及版本說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1863884085",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1863884087",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/navigator-instrumental/1863618044?i=1863618047",
+          "label": "權利方曲目與發行音源說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1863618044",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1863618047",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.sixtones.jp/news/048/",
+          "label": "權利方影片上架及形式說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=VUrSsrAnq8M",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.sixtones.jp/news/067/",
+          "label": "權利方影片上架及形式說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=DrW38T_v6tI",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=lmzETi6GsB0",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.sixtones.jp/news/054/",
+          "label": "權利方影片上架及形式說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=GpPHTvQ10gg",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
         {
           "name": "SixTONES",
+          "role": "vocals"
+        },
+        {
+          "name": "高木誠司",
+          "role": "lyrics"
+        },
+        {
+          "name": "高木誠司",
+          "role": "composition"
+        },
+        {
+          "name": "高慶“CO-K”卓史",
+          "role": "composition"
+        },
+        {
+          "name": "高慶“CO-K”卓史",
+          "role": "arrangement"
+        },
+        {
+          "name": "ジェシー",
+          "role": "vocals"
+        },
+        {
+          "name": "京本大我",
+          "role": "vocals"
+        },
+        {
+          "name": "松村北斗",
+          "role": "vocals"
+        },
+        {
+          "name": "髙地優吾",
+          "role": "vocals"
+        },
+        {
+          "name": "森本慎太郎",
+          "role": "vocals"
+        },
+        {
+          "name": "田中樹",
           "role": "vocals"
         }
       ],
@@ -54180,25 +60958,635 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "fugou-keiji-balance-unlimited-op-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://fugoukeiji-bul.com/music/",
+            "https://fugoukeiji-bul.com/news/?id=54004",
+            "https://www.sixtones.jp/discography/002/",
+            "https://www.mau2.com/anime/fugoukeiji",
+            "https://animeanime.jp/article/2020/07/16/55045_2.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fugou-keiji-balance-unlimited-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://fugoukeiji-bul.com/music/",
+            "https://fugoukeiji-bul.com/news/?id=54004",
+            "https://www.sixtones.jp/discography/002/",
+            "https://www.mau2.com/anime/fugoukeiji"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fugou-keiji-balance-unlimited-op-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.qobuz.com/jp-ja/album/navigator-sixtones/oidkqitlfmica",
+            "https://music.apple.com/hk/song/1811949787",
+            "https://www.uta-net.com/song/288252/"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.sixtones.jp/discography/002/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fugou-keiji-balance-unlimited-op-1-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.sixtones.jp/discography/002/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fugou-keiji-balance-unlimited-op-1-song-original-single"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.sixtones.jp/news/046/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fugou-keiji-balance-unlimited-op-1-song-single-tv-edit"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sixtones.jp/discography/002/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "secj-6-7"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sixtones.jp/discography/002/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "secj-8-9"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sixtones.jp/discography/002/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "secj-10"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sixtones.jp/1st/1st/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "secj-16-17"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sixtones.jp/1st/1st/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "secj-18-19"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sixtones.jp/1st/1st/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "secj-20"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.sixtones.jp/discography/d004/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fugou-keiji-balance-unlimited-op-1-song-h-zettrio-crossover"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sixtones.jp/discography/d004/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "secj-15"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1811949787"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1811949787"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.sixtones.jp/news/414/",
+            "https://music.apple.com/hk/album/1811949786"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1811949786"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1863884087"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1863884087"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/single-collection/1863884085",
+            "https://music.apple.com/hk/album/1863884085"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1863884085"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/navigator-instrumental/1863618044?i=1863618047"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fugou-keiji-balance-unlimited-op-1-song-single-collection-instrumental"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1863618047"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1863618047"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/navigator-instrumental/1863618044?i=1863618047",
+            "https://music.apple.com/hk/album/1863618044"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1863618044"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=VUrSsrAnq8M",
+            "https://www.sixtones.jp/news/048/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "VUrSsrAnq8M"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=DrW38T_v6tI",
+            "https://www.sixtones.jp/news/067/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "DrW38T_v6tI"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=lmzETi6GsB0",
+            "https://www.sixtones.jp/news/067/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "lmzETi6GsB0"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=GpPHTvQ10gg",
+            "https://www.sixtones.jp/news/054/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "GpPHTvQ10gg"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "official_video",
-            "releases",
-            "platform_links",
-            "lyrics",
-            "composition",
-            "arrangement"
+            "platform_availability"
           ],
-          "note": "本期原曲名、正式演唱名義與OPED用途已核；未讀來源及既有影音保持原狀。",
-          "resumeWhen": "待權利方同曲明確詞曲編署名或可用正式版本資料，再補尚缺欄位。",
-          "checkedAt": "2026-10-24"
+          "note": "商品TV edit及無字幕DVD已核；各話聲軌剪輯、TV edit與數位母帶對應待原字幕或唱片方資料。個別補充伴奏編曲署名依原版掛字或內頁再核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第1–11話片頭；初次播出第1話時未揭露演唱署名",
+      "releaseDate": "2020-07-22",
+      "recordings": [
+        {
+          "id": "fugou-keiji-balance-unlimited-op-1-song-original-single",
+          "title": "NAVIGATOR",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "fugou-keiji-balance-unlimited-op-1-song-single-tv-edit",
+          "title": "NAVIGATOR -TV edit-",
+          "kind": "vocal",
+          "format": "tv"
+        },
+        {
+          "id": "fugou-keiji-balance-unlimited-op-1-song-h-zettrio-crossover",
+          "title": "NAVIGATOR (H ZETTRIO Crossover Rearrange)",
+          "kind": "remix",
+          "format": "unknown"
+        },
+        {
+          "id": "fugou-keiji-balance-unlimited-op-1-song-single-collection-instrumental",
+          "title": "NAVIGATOR (Instrumental)",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "secj-6-7",
+          "title": "NAVIGATOR",
+          "type": "single",
+          "date": {
+            "value": "2020-07-22",
+            "precision": "day"
+          },
+          "artistDisplayName": "SixTONES",
+          "edition": "初回盤CD+DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "NAVIGATOR",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "fugou-keiji-balance-unlimited-op-1-song-original-single"
+            }
+          ],
+          "label": "Sony Music Labels Inc.",
+          "catalogNumber": "SECJ-6-7"
+        },
+        {
+          "id": "secj-8-9",
+          "title": "NAVIGATOR",
+          "type": "single",
+          "date": {
+            "value": "2020-07-22",
+            "precision": "day"
+          },
+          "artistDisplayName": "SixTONES",
+          "edition": "期間限定盤CD+DVD，DVD收錄動畫無字幕片頭",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "NAVIGATOR",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "fugou-keiji-balance-unlimited-op-1-song-original-single"
+            },
+            {
+              "title": "NAVIGATOR -TV edit-",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "fugou-keiji-balance-unlimited-op-1-song-single-tv-edit"
+            }
+          ],
+          "label": "Sony Music Labels Inc.",
+          "catalogNumber": "SECJ-8-9"
+        },
+        {
+          "id": "secj-10",
+          "title": "NAVIGATOR",
+          "type": "single",
+          "date": {
+            "value": "2020-07-22",
+            "precision": "day"
+          },
+          "artistDisplayName": "SixTONES",
+          "edition": "通常盤CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "NAVIGATOR",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "fugou-keiji-balance-unlimited-op-1-song-original-single"
+            }
+          ],
+          "label": "Sony Music Labels Inc.",
+          "catalogNumber": "SECJ-10"
+        },
+        {
+          "id": "secj-16-17",
+          "title": "1ST",
+          "type": "album",
+          "date": {
+            "value": "2021-01-06",
+            "precision": "day"
+          },
+          "artistDisplayName": "SixTONES",
+          "edition": "原石盤CD+DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "NAVIGATOR",
+              "position": 2,
+              "disc": 1
+            }
+          ],
+          "label": "Sony Music Labels Inc.",
+          "catalogNumber": "SECJ-16-17"
+        },
+        {
+          "id": "secj-18-19",
+          "title": "1ST",
+          "type": "album",
+          "date": {
+            "value": "2021-01-06",
+            "precision": "day"
+          },
+          "artistDisplayName": "SixTONES",
+          "edition": "音色盤CD+DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "NAVIGATOR",
+              "position": 2,
+              "disc": 1
+            }
+          ],
+          "label": "Sony Music Labels Inc.",
+          "catalogNumber": "SECJ-18-19"
+        },
+        {
+          "id": "secj-20",
+          "title": "1ST",
+          "type": "album",
+          "date": {
+            "value": "2021-01-06",
+            "precision": "day"
+          },
+          "artistDisplayName": "SixTONES",
+          "edition": "通常盤CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "NAVIGATOR",
+              "position": 2,
+              "disc": 1
+            }
+          ],
+          "label": "Sony Music Labels Inc.",
+          "catalogNumber": "SECJ-20"
+        },
+        {
+          "id": "secj-15",
+          "title": "NEW ERA",
+          "type": "single",
+          "date": {
+            "value": "2020-11-11",
+            "precision": "day"
+          },
+          "artistDisplayName": "SixTONES",
+          "edition": "通常盤CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "NAVIGATOR (H ZETTRIO Crossover Rearrange)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "fugou-keiji-balance-unlimited-op-1-song-h-zettrio-crossover"
+            }
+          ],
+          "label": "Sony Music Labels Inc.",
+          "catalogNumber": "SECJ-15"
+        },
+        {
+          "id": "apple-hk-1811949786",
+          "title": "NAVIGATOR",
+          "type": "single",
+          "date": {
+            "value": "2020-07-22",
+            "precision": "day"
+          },
+          "artistDisplayName": "SixTONES",
+          "edition": "香港區Apple Music；2025/5/17開放配信",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "NAVIGATOR",
+              "position": 1,
+              "disc": 1
+            }
+          ],
+          "label": "Sony Music Labels Inc."
+        },
+        {
+          "id": "apple-hk-1863884085",
+          "title": "Single Collection",
+          "type": "compilation",
+          "date": {
+            "value": "2026-01-14",
+            "precision": "day"
+          },
+          "artistDisplayName": "SixTONES",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "NAVIGATOR",
+              "position": 2,
+              "disc": 1
+            }
+          ],
+          "label": "Sony Music Labels Inc."
+        },
+        {
+          "id": "apple-hk-1863618044",
+          "title": "Single Collection -inSTrumentals-",
+          "type": "compilation",
+          "date": {
+            "value": "2026-01-07",
+            "precision": "day"
+          },
+          "artistDisplayName": "SixTONES",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "NAVIGATOR (Instrumental)",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "fugou-keiji-balance-unlimited-op-1-song-single-collection-instrumental"
+            }
+          ],
+          "label": "Sony Music Labels Inc."
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "NAVIGATOR｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1811949787",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1811949786",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "NAVIGATOR｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1863884087",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1863884085",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "NAVIGATOR (Instrumental)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1863618047",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1863618044",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "fugou-keiji-balance-unlimited-op-1-song-single-collection-instrumental"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -54232,7 +61620,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://prtimes.jp/main/html/rd/p/000002215.000016356.html",
@@ -54247,11 +61635,143 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://okamotos.net/special/wmf/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/fugoukeiji",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=AWxk7ZsB54c",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.uta-net.com/song/288703/",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1527037470",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1527037466",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.okamotos.net/special/kno_where/",
+          "label": "權利方曲目與發行音源說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1580714678",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1580715445",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/okamotos/info/535121",
+          "label": "權利方曲目與發行音源說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1592224667",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1592224669",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=djcRSEmnvZ8",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=bd-O2NzTPhY",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=js05ruSiGZU",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=KGD4VU9PbTk",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
         {
           "name": "OKAMOTO'S",
+          "role": "vocals"
+        },
+        {
+          "name": "オカモトショウ",
+          "role": "lyrics"
+        },
+        {
+          "name": "オカモトショウ",
+          "role": "composition"
+        },
+        {
+          "name": "オカモトコウキ",
+          "role": "composition"
+        },
+        {
+          "name": "OKAMOTO'S",
+          "role": "arrangement"
+        },
+        {
+          "name": "オカモトショウ",
           "role": "vocals"
         }
       ],
@@ -54324,25 +61844,703 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "fugou-keiji-balance-unlimited-ed-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://fugoukeiji-bul.com/music/",
+            "https://okamotos.net/special/wmf/",
+            "https://www.mau2.com/anime/fugoukeiji"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fugou-keiji-balance-unlimited-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://fugoukeiji-bul.com/music/",
+            "https://okamotos.net/special/wmf/",
+            "https://www.mau2.com/anime/fugoukeiji"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fugou-keiji-balance-unlimited-ed-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=AWxk7ZsB54c",
+            "https://okamotos.net/special/wmf/",
+            "https://www.uta-net.com/song/288703/"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1527037470"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fugou-keiji-balance-unlimited-ed-1-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://okamotos.net/special/wmf/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fugou-keiji-balance-unlimited-ed-1-song-2020-welcome-my-friend-ep"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://okamotos.net/special/wmf/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "bvcl-1097-1098"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://okamotos.net/special/wmf/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "bvcl-1099"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1527037470"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1527037470"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://okamotos.net/special/wmf/",
+            "https://music.apple.com/hk/album/1527037466"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1527037466"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.okamotos.net/special/kno_where/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fugou-keiji-balance-unlimited-ed-1-song-2021-kno-where-track"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1580715445"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1580715445"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.okamotos.net/special/kno_where/",
+            "https://music.apple.com/hk/album/1580714678"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1580714678"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/okamotos/info/535121"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fugou-keiji-balance-unlimited-ed-1-song-the-first-take-fes"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1592224669"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1592224669"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/okamotos/info/535121",
+            "https://music.apple.com/hk/album/1592224667"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1592224667"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=djcRSEmnvZ8",
+            "https://okamotos.net/special/wmf/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "djcRSEmnvZ8"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=bd-O2NzTPhY"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "bd-O2NzTPhY"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=AWxk7ZsB54c"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "AWxk7ZsB54c"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=js05ruSiGZU"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "js05ruSiGZU"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=KGD4VU9PbTk"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "KGD4VU9PbTk"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "official_video",
-            "releases",
-            "platform_links",
-            "lyrics",
-            "composition",
-            "arrangement"
+            "platform_availability"
           ],
-          "note": "本期原曲名、正式演唱名義與OPED用途已核；未讀來源及既有影音保持原狀。",
-          "resumeWhen": "待權利方同曲明確詞曲編署名或可用正式版本資料，再補尚缺欄位。",
-          "checkedAt": "2026-10-24"
+          "note": "正式EP、專輯曲與現場配信曲序已核；原播片尾剪輯或其獨立TV商品音源待權利方資料。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第1–11話片尾",
+      "releaseDate": "2020-07-16",
+      "recordings": [
+        {
+          "id": "fugou-keiji-balance-unlimited-ed-1-song-2020-welcome-my-friend-ep",
+          "title": "Welcome My Friend",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "fugou-keiji-balance-unlimited-ed-1-song-2021-kno-where-track",
+          "title": "Welcome My Friend（KNO WHERE收錄）",
+          "kind": "vocal",
+          "format": "unknown"
+        },
+        {
+          "id": "fugou-keiji-balance-unlimited-ed-1-song-the-first-take-fes",
+          "title": "Welcome My Friend - From THE FIRST TAKE",
+          "kind": "live",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "bvcl-1097-1098",
+          "title": "Welcome My Friend",
+          "type": "ep",
+          "date": {
+            "value": "2020-08-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "OKAMOTO'S",
+          "edition": "初回生産限定盤CD+BD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Welcome My Friend",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "fugou-keiji-balance-unlimited-ed-1-song-2020-welcome-my-friend-ep"
+            }
+          ],
+          "label": "Sony Music Labels Inc.",
+          "catalogNumber": "BVCL-1097-1098"
+        },
+        {
+          "id": "bvcl-1099",
+          "title": "Welcome My Friend",
+          "type": "ep",
+          "date": {
+            "value": "2020-08-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "OKAMOTO'S",
+          "edition": "通常盤CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Welcome My Friend",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "fugou-keiji-balance-unlimited-ed-1-song-2020-welcome-my-friend-ep"
+            }
+          ],
+          "label": "Sony Music Labels Inc.",
+          "catalogNumber": "BVCL-1099"
+        },
+        {
+          "id": "apple-hk-1527037466",
+          "title": "Welcome My Friend",
+          "type": "ep",
+          "date": {
+            "value": "2020-08-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "OKAMOTO'S",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Welcome My Friend",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "fugou-keiji-balance-unlimited-ed-1-song-2020-welcome-my-friend-ep"
+            }
+          ],
+          "label": "Sony Music Labels Inc."
+        },
+        {
+          "id": "apple-hk-1580714678",
+          "title": "KNO WHERE",
+          "type": "album",
+          "date": {
+            "value": "2021-09-29",
+            "precision": "day"
+          },
+          "artistDisplayName": "OKAMOTO'S",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Welcome My Friend（KNO WHERE收錄）",
+              "position": 16,
+              "disc": 1,
+              "recordingId": "fugou-keiji-balance-unlimited-ed-1-song-2021-kno-where-track"
+            }
+          ],
+          "label": "Sony Music Labels Inc."
+        },
+        {
+          "id": "apple-hk-1592224667",
+          "title": "Welcome My Friend - From THE FIRST TAKE",
+          "type": "single",
+          "date": {
+            "value": "2021-11-16",
+            "precision": "day"
+          },
+          "artistDisplayName": "OKAMOTO'S",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Welcome My Friend - From THE FIRST TAKE",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "fugou-keiji-balance-unlimited-ed-1-song-the-first-take-fes"
+            }
+          ],
+          "label": "THE FIRST TAKE MUSIC"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Welcome My Friend｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1527037470",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1527037466",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "fugou-keiji-balance-unlimited-ed-1-song-2020-welcome-my-friend-ep"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "Welcome My Friend（KNO WHERE收錄）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1580715445",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1580714678",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "fugou-keiji-balance-unlimited-ed-1-song-2021-kno-where-track"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "Welcome My Friend - From THE FIRST TAKE｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1592224669",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1592224667",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "fugou-keiji-balance-unlimited-ed-1-song-the-first-take-fes"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 1,
+      "id": "fugou-keiji-balance-unlimited-in-1",
+      "titleJa": "フェスティバル・ナイト",
+      "artistDisplayName": "横恋慕スターライツ",
+      "songId": "fugou-keiji-balance-unlimited-festival-night-song",
+      "sources": [
+        {
+          "url": "https://fugoukeiji-bul.com/news/?id=54728",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://mirtomo.com/fugoukeiji-bul-episode3/",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/fugoukeiji/ep/3",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://anison.online/artist/%E6%A8%AA%E6%81%8B%E6%85%95%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%84",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1535803011",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1535803013",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://fugoukeiji-bul.com/music/",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "フェスティバル・ナイト｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1535803013",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1535803011",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "fugou-keiji-balance-unlimited-festival-night-song-2020-digital-single"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://fugoukeiji-bul.com/news/?id=54728",
+            "https://mirtomo.com/fugoukeiji-bul-episode3/",
+            "https://www.mau2.com/anime/fugoukeiji/ep/3"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fugou-keiji-balance-unlimited-in-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://fugoukeiji-bul.com/news/?id=54728",
+            "https://anison.online/artist/%E6%A8%AA%E6%81%8B%E6%85%95%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%84"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fugou-keiji-balance-unlimited-festival-night-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://fugoukeiji-bul.com/news/?id=54728"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://fugoukeiji-bul.com/news/?id=54728"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fugou-keiji-balance-unlimited-festival-night-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://fugoukeiji-bul.com/news/?id=54728"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "fugou-keiji-balance-unlimited-festival-night-song-2020-digital-single"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1535803013"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1535803013"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://fugoukeiji-bul.com/news/?id=54728",
+            "https://music.apple.com/jp/album/1535803011"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1535803011"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://fugoukeiji-bul.com/music/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "svwc-70479-70480"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "usageLabel": "第3話插曲（日本初播2020/7/31），劇中團體登台演唱",
+      "lastVerifiedAt": "2026-11-15",
+      "credits": [
+        {
+          "name": "横恋慕スターライツ",
+          "role": "vocals"
+        },
+        {
+          "name": "伊藤智彦",
+          "role": "lyrics"
+        },
+        {
+          "name": "岸本 卓",
+          "role": "lyrics"
+        },
+        {
+          "name": "菅野祐悟",
+          "role": "composition"
+        },
+        {
+          "name": "菅野祐悟",
+          "role": "arrangement"
+        }
+      ],
+      "releaseDate": "2020-07-31",
+      "recordings": [
+        {
+          "id": "fugou-keiji-balance-unlimited-festival-night-song-2020-digital-single",
+          "title": "フェスティバル・ナイト",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-jp-1535803011",
+          "title": "フェスティバル・ナイト",
+          "type": "single",
+          "date": {
+            "value": "2020-07-31",
+            "precision": "day"
+          },
+          "artistDisplayName": "菅野祐悟",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "フェスティバル・ナイト",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "fugou-keiji-balance-unlimited-festival-night-song-2020-digital-single"
+            }
+          ],
+          "label": "Aniplex"
+        },
+        {
+          "id": "svwc-70479-70480",
+          "title": "富豪刑事 Balance:UNLIMITED オリジナル・サウンドトラック",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-09-09",
+            "precision": "day"
+          },
+          "artistDisplayName": "菅野祐悟",
+          "edition": "2CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "フェスティバル・ナイト",
+              "position": 21,
+              "disc": 2
+            }
+          ],
+          "label": "Aniplex",
+          "catalogNumber": "SVWC-70479-70480"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "劇中演唱團名及正式商品作曲人商品名義已核。實際聲演人員、原聲帶與數位單曲母帶及香港直接曲目待權利方資料。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
     }
   ],
   "metadataVerifiedAt": "2026-09-02",
@@ -54366,7 +62564,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
       "label": "第一方原期TV播出日期資料；僅日期時分",
       "role": "first_party",
       "language": "ja",
-      "verifiedAt": "2026-10-24"
+      "verifiedAt": "2026-11-15"
     },
     {
       "url": "https://zh.wikipedia.org/wiki/%E5%AF%8C%E8%B1%AA%E5%88%91%E4%BA%8B_Balance:UNLIMITED",
@@ -54374,6 +62572,41 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
       "role": "broadcast_cross_check",
       "language": "zh-Hant",
       "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://fugoukeiji-bul.com/news/?id=54038",
+      "label": "停播後由首話重新播映",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://fugoukeiji-bul.com/news/?id=53946",
+      "label": "2020/4/10第1話原TV時段",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.fujitv.co.jp/company/action/pdf/202009.pdf",
+      "label": "フジテレビ終回原節目表",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.bilibili.com/bangumi/play/ss33083",
+      "label": "港澳台正版劇集標題與全11話",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.mau2.com/anime/fugoukeiji",
+      "label": "4月原播及7–9月逐話曲表",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
     }
   ],
   "editorialWeekday": 5,
@@ -55393,8 +63626,8 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
   "titleRomaji": "Shokugeki no Souma: Gou no Sara",
   "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114043-QkgiycojrojN.jpg",
   "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/114043-5RRtoLPrzQ0P.jpg",
-  "broadcastLabel": "日本首播／受疫情影響曾延期或停播",
-  "officialSiteUrl": "https://www.lantis.jp/title/shokugeki/disco_all.html",
+  "broadcastLabel": "4/11起TOKYO MX／BS11週六00:30 JST與ABEMA同步；春季播第1、2話後延期。7/4起從首話重播，7/18新播第3話，9/26第13話完結。",
+  "officialSiteUrl": "https://www.bs11.jp/anime/shokugekinosoma-5/",
   "sourceReferenceUrls": [
     "https://youranimes.tw/animes/74",
     "https://acgsecrets.hk/bangumi/202004/"
@@ -55441,12 +63674,108 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.bs11.jp/anime/shokugekinosoma-5/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://catalog.bandainamcomusiclive.co.jp/release/68889/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/shokugekinosoma-6",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5609/goods",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=x5mDp8V15ug",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.lantis.jp/artist/nanoripe/news_1586095200.html",
+          "label": "權利方本曲最早已核商業發行",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/6818493608",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/6818493609",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://catalog.bandainamcomusiclive.co.jp/release/70368/",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1809702405",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1809702629",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=I9bXbD-TpnU",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
         {
           "name": "nano.RIPE",
           "role": "vocals"
+        },
+        {
+          "name": "きみコ",
+          "role": "lyrics"
+        },
+        {
+          "name": "佐々木淳",
+          "role": "composition"
+        },
+        {
+          "name": "山下洋介",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -55495,26 +63824,305 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "shokugeki-no-souma-gou-no-sara-op-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bs11.jp/anime/shokugekinosoma-5/",
+            "https://catalog.bandainamcomusiclive.co.jp/release/68889/",
+            "https://www.mau2.com/anime/shokugekinosoma-6",
+            "https://cal.syoboi.jp/tid/5609/goods"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "shokugeki-no-souma-gou-no-sara-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.bs11.jp/anime/shokugekinosoma-5/",
+            "https://catalog.bandainamcomusiclive.co.jp/release/68889/",
+            "https://www.mau2.com/anime/shokugekinosoma-6"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "shokugeki-no-souma-gou-no-sara-op-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=x5mDp8V15ug"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/artist/nanoripe/news_1586095200.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "shokugeki-no-souma-gou-no-sara-op-1-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://catalog.bandainamcomusiclive.co.jp/release/68889/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "shokugeki-no-souma-gou-no-sara-op-1-song-2020-original-single"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://catalog.bandainamcomusiclive.co.jp/release/68889/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "lacm-14995"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/6818493609"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/6818493609"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://catalog.bandainamcomusiclive.co.jp/release/68889/",
+            "https://music.apple.com/hk/album/6818493608"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-6818493608"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://catalog.bandainamcomusiclive.co.jp/release/70368/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "laca-25018"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1809702629"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1809702629"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://catalog.bandainamcomusiclive.co.jp/release/70368/",
+            "https://music.apple.com/hk/album/1809702405"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1809702405"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=x5mDp8V15ug"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "x5mDp8V15ug"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=I9bXbD-TpnU"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "I9bXbD-TpnU"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "releases",
-            "platform_links",
-            "lyrics",
-            "composition",
-            "arrangement",
-            "official_video",
-            "video_metadata"
+            "platform_availability"
           ],
-          "note": "原名、演唱名義、本期用途與已確認季度已核對；音源、官方影片與發行品的逐項對應仍待補。",
-          "resumeWhen": "待權利方公開本曲可對應的音源、影片及發行項目後補核可選欄位。",
-          "checkedAt": "2026-10-24"
+          "note": "已核先行日、香港商品標示日期及其曲序。第13話片尾與常規片頭的實際剪輯及專輯母帶待比對。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第1–12話片頭；第13話改用於片尾",
+      "releaseDate": "2020-04-10",
+      "recordings": [
+        {
+          "id": "shokugeki-no-souma-gou-no-sara-op-1-song-2020-original-single",
+          "title": "ラストチャプター",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "releases": [
+        {
+          "id": "lacm-14995",
+          "title": "ラストチャプター",
+          "type": "single",
+          "date": {
+            "value": "2020-04-22",
+            "precision": "day"
+          },
+          "artistDisplayName": "nano.RIPE",
+          "edition": "CD+Blu-ray",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ラストチャプター",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "shokugeki-no-souma-gou-no-sara-op-1-song-2020-original-single"
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACM-14995"
+        },
+        {
+          "id": "apple-hk-6818493608",
+          "title": "ラストチャプター",
+          "type": "single",
+          "date": {
+            "value": "2020-04-22",
+            "precision": "day"
+          },
+          "artistDisplayName": "nano.RIPE",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ラストチャプター",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "shokugeki-no-souma-gou-no-sara-op-1-song-2020-original-single"
+            }
+          ],
+          "label": "Lantis"
+        },
+        {
+          "id": "laca-25018",
+          "title": "不眠症のネコと夜",
+          "type": "album",
+          "date": {
+            "value": "2022-10-12",
+            "precision": "day"
+          },
+          "artistDisplayName": "nano.RIPE",
+          "edition": "CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ラストチャプター",
+              "position": 13,
+              "disc": 1
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACA-25018"
+        },
+        {
+          "id": "apple-hk-1809702405",
+          "title": "不眠症のネコと夜",
+          "type": "album",
+          "date": {
+            "value": "2022-10-12",
+            "precision": "day"
+          },
+          "artistDisplayName": "nano.RIPE",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ラストチャプター",
+              "position": 13,
+              "disc": 1
+            }
+          ],
+          "label": "Lantis"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "ラストチャプター｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/6818493609",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-6818493608",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "shokugeki-no-souma-gou-no-sara-op-1-song-2020-original-single"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ラストチャプター｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1809702629",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1809702405",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -55548,7 +64156,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E9%A3%9F%E6%88%9F%E4%B9%8B%E9%9D%88_%28%E5%8B%95%E7%95%AB%29",
@@ -55556,6 +64164,55 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.bs11.jp/anime/shokugekinosoma-5/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/shokugekinosoma-6",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5609/goods",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1507869564",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1507869565",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=b58RjUp_Ie0",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=wWzdUEPWnD8",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
@@ -55581,6 +64238,10 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
         },
         {
           "name": "小高光太郎",
+          "role": "arrangement"
+        },
+        {
+          "name": "山本慶太朗",
           "role": "arrangement"
         }
       ],
@@ -55640,23 +64301,947 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "https://mai-fuchigami.lantis.jp/discography/crossing-road/"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bs11.jp/anime/shokugekinosoma-5/",
+            "https://mai-fuchigami.lantis.jp/discography/crossing-road/",
+            "https://www.mau2.com/anime/shokugekinosoma-6",
+            "https://cal.syoboi.jp/tid/5609/goods"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "shokugeki-no-souma-gou-no-sara-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.bs11.jp/anime/shokugekinosoma-5/",
+            "https://mai-fuchigami.lantis.jp/discography/crossing-road/",
+            "https://www.mau2.com/anime/shokugekinosoma-6"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "shokugeki-no-souma-gou-no-sara-ed-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://mai-fuchigami.lantis.jp/discography/crossing-road/"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://mai-fuchigami.lantis.jp/discography/crossing-road/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "shokugeki-no-souma-gou-no-sara-ed-1-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://mai-fuchigami.lantis.jp/discography/crossing-road/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "shokugeki-no-souma-gou-no-sara-ed-1-song-2020-original-single"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://mai-fuchigami.lantis.jp/discography/crossing-road/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "shokugeki-no-souma-gou-no-sara-ed-1-song-single-off-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://mai-fuchigami.lantis.jp/discography/crossing-road/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "lacm-14996"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1507869565"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1507869565"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://mai-fuchigami.lantis.jp/discography/crossing-road/",
+            "https://music.apple.com/jp/album/1507869564"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1507869564"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=b58RjUp_Ie0"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "b58RjUp_Ie0"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=wWzdUEPWnD8"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "wWzdUEPWnD8"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "releases",
-            "platform_links",
-            "official_video",
-            "video_metadata"
+            "platform_availability"
           ],
-          "note": "原名、演唱名義、本期用途與已確認季度已核對；音源、官方影片與發行品的逐項對應仍待補。",
-          "resumeWhen": "待權利方公開本曲可對應的音源、影片及發行項目後補核可選欄位。",
-          "checkedAt": "2026-10-24"
+          "note": "已核日本數位原曲與實體Off Vocal；香港曲目、TV剪輯與原播母帶待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第1–12話片尾",
+      "releaseDate": "2020-04-29",
+      "recordings": [
+        {
+          "id": "shokugeki-no-souma-gou-no-sara-ed-1-song-2020-original-single",
+          "title": "Crossing Road",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "shokugeki-no-souma-gou-no-sara-ed-1-song-single-off-vocal",
+          "title": "Crossing Road (Off Vocal)",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "lacm-14996",
+          "title": "Crossing Road",
+          "type": "single",
+          "date": {
+            "value": "2020-04-29",
+            "precision": "day"
+          },
+          "artistDisplayName": "渕上舞",
+          "edition": "CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Crossing Road",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "shokugeki-no-souma-gou-no-sara-ed-1-song-2020-original-single"
+            },
+            {
+              "title": "Crossing Road (Off Vocal)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "shokugeki-no-souma-gou-no-sara-ed-1-song-single-off-vocal"
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACM-14996"
+        },
+        {
+          "id": "apple-jp-1507869564",
+          "title": "Crossing Road",
+          "type": "single",
+          "date": {
+            "value": "2020-04-29",
+            "precision": "day"
+          },
+          "artistDisplayName": "渕上舞",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Crossing Road",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "shokugeki-no-souma-gou-no-sara-ed-1-song-2020-original-single"
+            }
+          ],
+          "label": "Lantis"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Crossing Road｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1507869565",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1507869564",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "shokugeki-no-souma-gou-no-sara-ed-1-song-2020-original-single"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "id": "shokugeki-no-souma-gou-no-sara-ed-2",
+      "titleJa": "ラストチャプター",
+      "artistDisplayName": "nano.RIPE",
+      "songId": "shokugeki-no-souma-gou-no-sara-op-1-song",
+      "sources": [
+        {
+          "url": "https://abema.tv/channels/abema-anime/slots/DHNLGNDjYBTG6s",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://catalog.bandainamcomusiclive.co.jp/release/68889/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/shokugekinosoma-6",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5609/goods",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://anitubu.com/archives/post-41102.html",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=x5mDp8V15ug",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/6818493608",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/6818493609",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://catalog.bandainamcomusiclive.co.jp/release/70368/",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1809702405",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1809702629",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "ラストチャプター｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/6818493609",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-6818493608",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "shokugeki-no-souma-gou-no-sara-op-1-song-2020-original-single"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ラストチャプター｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1809702629",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1809702405",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://abema.tv/channels/abema-anime/slots/DHNLGNDjYBTG6s",
+            "https://catalog.bandainamcomusiclive.co.jp/release/68889/",
+            "https://www.mau2.com/anime/shokugekinosoma-6",
+            "https://cal.syoboi.jp/tid/5609/goods",
+            "https://anitubu.com/archives/post-41102.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "shokugeki-no-souma-gou-no-sara-ed-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://catalog.bandainamcomusiclive.co.jp/release/68889/",
+            "https://www.youtube.com/watch?v=x5mDp8V15ug",
+            "https://www.mau2.com/anime/shokugekinosoma-6"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "shokugeki-no-souma-gou-no-sara-op-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=x5mDp8V15ug"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://catalog.bandainamcomusiclive.co.jp/release/68889/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "shokugeki-no-souma-gou-no-sara-op-1-song-2020-original-single"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://catalog.bandainamcomusiclive.co.jp/release/68889/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "lacm-14995"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/6818493609"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/6818493609"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://catalog.bandainamcomusiclive.co.jp/release/68889/",
+            "https://music.apple.com/hk/album/6818493608"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-6818493608"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://catalog.bandainamcomusiclive.co.jp/release/70368/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "laca-25018"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1809702629"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1809702629"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://catalog.bandainamcomusiclive.co.jp/release/70368/",
+            "https://music.apple.com/hk/album/1809702405"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1809702405"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "usageLabel": "第13話（2020/9/26）片尾；該話省略常規片頭",
+      "lastVerifiedAt": "2026-11-15",
+      "credits": [
+        {
+          "name": "nano.RIPE",
+          "role": "vocals"
+        },
+        {
+          "name": "きみコ",
+          "role": "lyrics"
+        },
+        {
+          "name": "佐々木淳",
+          "role": "composition"
+        },
+        {
+          "name": "山下洋介",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "shokugeki-no-souma-gou-no-sara-op-1-song-2020-original-single",
+          "title": "ラストチャプター",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "releases": [
+        {
+          "id": "lacm-14995",
+          "title": "ラストチャプター",
+          "type": "single",
+          "date": {
+            "value": "2020-04-22",
+            "precision": "day"
+          },
+          "artistDisplayName": "nano.RIPE",
+          "edition": "CD+Blu-ray",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ラストチャプター",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "shokugeki-no-souma-gou-no-sara-op-1-song-2020-original-single"
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACM-14995"
+        },
+        {
+          "id": "apple-hk-6818493608",
+          "title": "ラストチャプター",
+          "type": "single",
+          "date": {
+            "value": "2020-04-22",
+            "precision": "day"
+          },
+          "artistDisplayName": "nano.RIPE",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ラストチャプター",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "shokugeki-no-souma-gou-no-sara-op-1-song-2020-original-single"
+            }
+          ],
+          "label": "Lantis"
+        },
+        {
+          "id": "laca-25018",
+          "title": "不眠症のネコと夜",
+          "type": "album",
+          "date": {
+            "value": "2022-10-12",
+            "precision": "day"
+          },
+          "artistDisplayName": "nano.RIPE",
+          "edition": "CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ラストチャプター",
+              "position": 13,
+              "disc": 1
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACA-25018"
+        },
+        {
+          "id": "apple-hk-1809702405",
+          "title": "不眠症のネコと夜",
+          "type": "album",
+          "date": {
+            "value": "2022-10-12",
+            "precision": "day"
+          },
+          "artistDisplayName": "nano.RIPE",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ラストチャプター",
+              "position": 13,
+              "disc": 1
+            }
+          ],
+          "label": "Lantis"
+        }
+      ],
+      "releaseDate": "2020-04-10",
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "串流節目頁沿用全季常規主題曲欄，原播同期的作詞者及觀眾記錄支持實際用曲，待原播掛字或完整音軌核對剪輯。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 1,
+      "id": "shokugeki-no-souma-gou-no-sara-in-1",
+      "titleJa": "スノードロップ",
+      "artistDisplayName": "nano.RIPE",
+      "songId": "shokugeki-no-souma-gou-no-sara-snowdrop-song",
+      "sources": [
+        {
+          "url": "https://www.lantis.jp/release-item/LACM-14517.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://abema.tv/channels/abema-anime/slots/Dnpg7HVhcjoisy",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/shokugekinosoma-6/ep/12",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5609/goods",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://anitubu.com/archives/post-40920.html",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ZiR6LEHPoJI",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://catalog.bandainamcomusiclive.co.jp/release/66917/",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/6818485639",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/6818485642",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "スノードロップ｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/6818485642",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-6818485639",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "shokugeki-no-souma-gou-no-sara-snowdrop-song-2016-original-single"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/release-item/LACM-14517.html",
+            "https://abema.tv/channels/abema-anime/slots/Dnpg7HVhcjoisy",
+            "https://www.mau2.com/anime/shokugekinosoma-6/ep/12",
+            "https://cal.syoboi.jp/tid/5609/goods",
+            "https://anitubu.com/archives/post-40920.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "shokugeki-no-souma-gou-no-sara-in-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/release-item/LACM-14517.html",
+            "https://www.youtube.com/watch?v=ZiR6LEHPoJI",
+            "https://www.mau2.com/anime/shokugekinosoma-6/ep/12"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "shokugeki-no-souma-gou-no-sara-snowdrop-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/release-item/LACM-14517.html",
+            "https://cal.syoboi.jp/tid/5609/goods"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/release-item/LACM-14517.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "shokugeki-no-souma-gou-no-sara-snowdrop-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/release-item/LACM-14517.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "shokugeki-no-souma-gou-no-sara-snowdrop-song-2016-original-single"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/release-item/LACM-14517.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "lacm-14517"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://catalog.bandainamcomusiclive.co.jp/release/66917/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "lacm-34517"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/6818485642"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/6818485642"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://catalog.bandainamcomusiclive.co.jp/release/66917/",
+            "https://music.apple.com/hk/album/6818485639"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-6818485639"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=ZiR6LEHPoJI"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "ZiR6LEHPoJI"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "usageLabel": "第12話（2020/9/19）劇中插曲；原為《食戟之靈 貳之皿》片尾",
+      "lastVerifiedAt": "2026-11-15",
+      "credits": [
+        {
+          "name": "nano.RIPE",
+          "role": "vocals"
+        },
+        {
+          "name": "きみコ",
+          "role": "lyrics"
+        },
+        {
+          "name": "佐々木淳",
+          "role": "composition"
+        },
+        {
+          "name": "nano.RIPE",
+          "role": "arrangement"
+        },
+        {
+          "name": "福富雅之",
+          "role": "arrangement"
+        }
+      ],
+      "releaseDate": "2016-08-03",
+      "recordings": [
+        {
+          "id": "shokugeki-no-souma-gou-no-sara-snowdrop-song-2016-original-single",
+          "title": "スノードロップ",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "releases": [
+        {
+          "id": "lacm-14517",
+          "title": "スノードロップ",
+          "type": "single",
+          "date": {
+            "value": "2016-08-03",
+            "precision": "day"
+          },
+          "artistDisplayName": "nano.RIPE",
+          "edition": "通常盤CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "スノードロップ",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "shokugeki-no-souma-gou-no-sara-snowdrop-song-2016-original-single"
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACM-14517"
+        },
+        {
+          "id": "lacm-34517",
+          "title": "スノードロップ",
+          "type": "single",
+          "date": {
+            "value": "2016-08-03",
+            "precision": "day"
+          },
+          "artistDisplayName": "nano.RIPE",
+          "edition": "初回限定盤CD+DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "スノードロップ",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "shokugeki-no-souma-gou-no-sara-snowdrop-song-2016-original-single"
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACM-34517"
+        },
+        {
+          "id": "apple-hk-6818485639",
+          "title": "スノードロップ",
+          "type": "single",
+          "date": {
+            "value": "2016-08-03",
+            "precision": "day"
+          },
+          "artistDisplayName": "nano.RIPE",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "スノードロップ",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "shokugeki-no-souma-gou-no-sara-snowdrop-song-2016-original-single"
+            }
+          ],
+          "label": "Earkth / HS Record"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "第12話插曲由作詞者同期記錄與逐話資料交叉確認；錄音品以已核2016單曲登記，實播剪輯與母帶對應待比對。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
     }
   ],
   "metadataVerifiedAt": "2026-09-02",
@@ -55667,12 +65252,63 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
       "role": "broadcast_cross_check",
       "language": "zh-Hant",
       "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://www.bs11.jp/anime/shokugekinosoma-5/",
+      "label": "BS11原期節目及片頭片尾署名",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=AS61_hprRVg",
+      "label": "Warner Bros. Japan原期復播預告",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://abema.tv/channels/abema-anime/slots/Eo4yPrWvgqKK3M",
+      "label": "ABEMA同步重播首話時刻",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://abema.tv/channels/abema-anime/slots/DHNLGNDjYBTG6s",
+      "label": "ABEMA同步末話時刻",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://cal.syoboi.jp/tid/5609/time",
+      "label": "原播、停播及復播逐話日曆",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.animatetimes.com/news/details.php?id=1590759149",
+      "label": "同期復播報導",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://ani.gamer.com.tw/animeVideo.php?sn=15285",
+      "label": "巴哈姆特授權繁中名稱及首話上架",
+      "role": "first_party",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-11-15"
     }
   ],
   "seasonIds": [
     "2020-spring",
     "2020-summer"
-  ]
+  ],
+  "editorialWeekday": 6,
+  "broadcastTimeJst": "00:30"
 }),
   spring2020Seed({
   "anilistId": 114402,
