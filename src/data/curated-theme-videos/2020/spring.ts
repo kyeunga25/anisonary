@@ -1,6 +1,512 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2020SpringThemeVideos = {
+  "109856:ED:11": [
+    {
+      "youtubeVideoId": "r7IVr5DSGmQ",
+      "title": "Listeners｜第12話官方無字幕片尾",
+      "channelName": "DMM pictures",
+      "type": "creditless_ed",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "109856:ED:10": [
+    {
+      "youtubeVideoId": "J_YiPZC2f5o",
+      "title": "Love song｜第11話官方無字幕片尾",
+      "channelName": "DMM pictures",
+      "type": "creditless_ed",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "109856:ED:9": [
+    {
+      "youtubeVideoId": "8tpiHuWzY4g",
+      "title": "Slumber｜第10話官方無字幕片尾",
+      "channelName": "DMM pictures",
+      "type": "creditless_ed",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "109856:ED:8": [
+    {
+      "youtubeVideoId": "wyO84L_QH_Y",
+      "title": "Fairy tale｜第9話官方無字幕片尾",
+      "channelName": "DMM pictures",
+      "type": "creditless_ed",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "109856:ED:7": [
+    {
+      "youtubeVideoId": "CHjh8Xzvwu0",
+      "title": "Dilemma｜第8話官方無字幕片尾",
+      "channelName": "DMM pictures",
+      "type": "creditless_ed",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "109856:ED:6": [
+    {
+      "youtubeVideoId": "SqLMF2Z2u20",
+      "title": "Trauma｜第7話官方無字幕片尾",
+      "channelName": "DMM pictures",
+      "type": "creditless_ed",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "109856:ED:5": [
+    {
+      "youtubeVideoId": "nizspDDEA3Y",
+      "title": "Top of ocean｜第6話官方無字幕片尾",
+      "channelName": "DMM pictures",
+      "type": "creditless_ed",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "109856:ED:4": [
+    {
+      "youtubeVideoId": "IG49Ljf8-5c",
+      "title": "Rainy lain｜第5話官方無字幕片尾",
+      "channelName": "DMM pictures",
+      "type": "creditless_ed",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "109856:ED:3": [
+    {
+      "youtubeVideoId": "sAx-bOxbV2A",
+      "title": "Slip out!｜第4話官方無字幕片尾",
+      "channelName": "DMM pictures",
+      "type": "creditless_ed",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "109856:ED:2": [
+    {
+      "youtubeVideoId": "a0Gi4gMzntc",
+      "title": "Borders｜第3話官方無字幕片尾",
+      "channelName": "DMM pictures",
+      "type": "creditless_ed",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "109856:ED:1": [
+    {
+      "youtubeVideoId": "EMt2B5wyP4Y",
+      "title": "Muse｜第2話官方無字幕片尾",
+      "channelName": "DMM pictures",
+      "type": "creditless_ed",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "109856:OP:1": [
+    {
+      "youtubeVideoId": "_IS6dBZvNUQ",
+      "title": "『LISTENERS リスナーズ』オープニング映像",
+      "channelName": "DMM pictures",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "KFJCF9MFA5g",
+      "title": "Into the blue’s｜官方歌詞影片",
+      "channelName": "DMM pictures",
+      "type": "lyric_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "-fn8-wBo_y0",
+      "title": "Into the blue's｜ACCAMER 官方 MV",
+      "channelName": "ACCAMER",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "112353:ED:2": [
+    {
+      "youtubeVideoId": "-WorMk30q-A",
+      "title": "Believe In Myself｜官方 Art Track",
+      "channelName": "遥海",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "nami-yo-kiitekure-ed-2-song-original-full"
+    }
+  ],
+  "107294:IN:4": [
+    {
+      "youtubeVideoId": "0sZzJX13gRQ",
+      "title": "神保町哀歌｜官方全六章影片",
+      "channelName": "[official]DROPKICK ON MY DEVIL!",
+      "type": "official_audio",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "104647:IN:1": [
+    {
+      "youtubeVideoId": "ZQ8miPz63fs",
+      "title": "君の影、オレンジの空｜原數位單曲 Art Track",
+      "channelName": "angela Official Channel",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "111500:IN:2": [
+    {
+      "youtubeVideoId": "3hMB3SwNioA",
+      "title": "スタァ誕生 花組ver.",
+      "channelName": "Release - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "shin-sakura-taisen-the-animation-star-tanjou-hanagumi-song-hanagumi-full"
+    }
+  ],
+  "111500:IN:1": [
+    {
+      "youtubeVideoId": "T2GNMVvy7FE",
+      "title": "凍てつく魂",
+      "channelName": "Release - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "shin-sakura-taisen-the-animation-itetsuku-tamashii-song-animation-full"
+    }
+  ],
+  "97938:ED:14": [
+    {
+      "youtubeVideoId": "L0wERe1CZVs",
+      "title": "坂口有望〈セントラル〉官方MV",
+      "channelName": "坂口有望(さかぐちあみ)",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "97938:ED:13": [
+    {
+      "youtubeVideoId": "Wtx0m3oOic0",
+      "title": "Seven Billion Dots〈Maybe I〉官方MV",
+      "channelName": "Seven Billion Dots",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "HLUNlWfnlIo",
+      "title": "〈Maybe I〉官方歌詞影片",
+      "channelName": "Seven Billion Dots",
+      "type": "lyric_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "97938:OP:7": [
+    {
+      "youtubeVideoId": "ZfC9stCbkJs",
+      "title": "サンボマスター〈はじまっていく たかまっていく〉官方MV",
+      "channelName": "サンボマスター",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "oj4ONqLUyww",
+      "title": "〈はじまっていく たかまっていく〉官方短版MV",
+      "channelName": "サンボマスター",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "97938:OP:6": [
+    {
+      "youtubeVideoId": "6981M5lGeYo",
+      "title": "miwa〈ティーンエイジドリーム〉官方短版MV",
+      "channelName": "miwa official YouTube channel",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "110349:IN:2": [
+    {
+      "youtubeVideoId": "VVAPTAXbn5U",
+      "title": "〈Someday ft. Emarie〉官方動畫特別MV",
+      "channelName": "TOHO animation チャンネル",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "110349:ED:1": [
+    {
+      "youtubeVideoId": "ug0Mc94Ye1I",
+      "title": "〈The Great Pretender〉官方無字幕片尾",
+      "channelName": "TOHO animation チャンネル",
+      "type": "creditless_ed",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "mLRjFWDGs1g",
+      "title": "Freddie Mercury〈The Great Pretender〉官方MV重製版",
+      "channelName": "Freddie Mercury",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "110349:OP:1": [
+    {
+      "youtubeVideoId": "Yjv_yFgHYc0",
+      "title": "〈G.P.〉官方無字幕片頭",
+      "channelName": "TOHO animation チャンネル",
+      "type": "creditless_op",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "113051:IN:9": [
+    {
+      "youtubeVideoId": "xkuMcJJKMZo",
+      "title": "第10話〈AGAIN〉官方劇中演出",
+      "channelName": "ARGONAVIS ch.",
+      "type": "live",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "113051:IN:8": [
+    {
+      "youtubeVideoId": "ANc_EbOEojg",
+      "title": "第9話〈Starry Line〉官方劇中演出",
+      "channelName": "ARGONAVIS ch.",
+      "type": "live",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "113051:IN:7": [
+    {
+      "youtubeVideoId": "XWAEc29C8gQ",
+      "title": "第8話〈STARTING OVER feat. 旭 那由多〉官方劇中演出",
+      "channelName": "ARGONAVIS ch.",
+      "type": "live",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "113051:IN:6": [
+    {
+      "youtubeVideoId": "heK0pg3qOzI",
+      "title": "第6話〈流星雨 Acoustic Ver.〉官方劇中演出",
+      "channelName": "ARGONAVIS ch.",
+      "type": "live",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "113051:IN:5": [
+    {
+      "youtubeVideoId": "6VHdQyaGKzU",
+      "title": "第4話〈Steady Goes!〉官方劇中演出",
+      "channelName": "ARGONAVIS ch.",
+      "type": "live",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "113051:IN:3": [
+    {
+      "youtubeVideoId": "OS8xeWEtx6g",
+      "title": "第1話七星蓮〈超夢宙閃隊〉官方劇中片段",
+      "channelName": "ARGONAVIS ch.",
+      "type": "live",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "113051:IN:2": [
+    {
+      "youtubeVideoId": "oPGn9pJxrU4",
+      "title": "第5話〈SCATTER〉官方劇中演出",
+      "channelName": "ARGONAVIS ch.",
+      "type": "live",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "113051:IN:1": [
+    {
+      "youtubeVideoId": "731JCAPBGBI",
+      "title": "第2話〈ゴールライン〉官方劇中演出",
+      "channelName": "ARGONAVIS ch.",
+      "type": "live",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "exoGcMA-nS0",
+      "title": "第12話〈ゴールライン〉官方劇中演出",
+      "channelName": "ARGONAVIS ch.",
+      "type": "live",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "113051:ED:4": [
+    {
+      "youtubeVideoId": "k3eQd6iGGpQ",
+      "title": "〈MANIFESTO〉企劃官方MV",
+      "channelName": "ARGONAVIS ch.",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "113051:ED:2": [
+    {
+      "youtubeVideoId": "u4DoJjCVt5c",
+      "title": "第3話〈ゴールライン〉官方劇中演出",
+      "channelName": "ARGONAVIS ch.",
+      "type": "live",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "113051:OP:2": [
+    {
+      "youtubeVideoId": "TffBBsY0ZGs",
+      "title": "〈SCATTER〉官方動畫片頭",
+      "channelName": "ARGONAVIS ch.",
+      "type": "creditless_op",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "113051:OP:1": [
+    {
+      "youtubeVideoId": "UyMplaC2wZg",
+      "title": "〈星がはじまる〉官方動畫片頭",
+      "channelName": "ARGONAVIS ch.",
+      "type": "creditless_op",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "108522:ED:1": [
+    {
+      "youtubeVideoId": "316Fc2yyQ88",
+      "title": "〈DEAD STROKE〉動畫官方無字幕片尾",
+      "channelName": "TMSアニメ公式チャンネル",
+      "type": "creditless_ed",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "108522:OP:1": [
+    {
+      "youtubeVideoId": "lb66JJsGdGc",
+      "title": "〈情熱は覚えている〉動畫官方無字幕片頭",
+      "channelName": "TMSアニメ公式チャンネル",
+      "type": "creditless_op",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "OHQ4Iz-xwtE",
+      "title": "GRANRODEO〈情熱は覚えている〉官方MV",
+      "channelName": "GRANRODEO",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "124341:ED:1": [
+    {
+      "youtubeVideoId": "Y_sZrVkPz0c",
+      "title": "〈朝焼けアプローチ〉官方無字幕片尾",
+      "channelName": "Stray Cats OFFICIAL CHANNEL",
+      "type": "creditless_ed",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "124341:OP:1": [
+    {
+      "youtubeVideoId": "FkRD-GTr2Vo",
+      "title": "〈ORATIO〉官方無字幕片頭",
+      "channelName": "Stray Cats OFFICIAL CHANNEL",
+      "type": "creditless_op",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
   "111762:IN:2": [
     {
       "youtubeVideoId": "O6H2ehdKtqE",
@@ -366,24 +872,33 @@ export const curated2020SpringThemeVideos = {
   ],
   "110547:ED:1": [
     {
-      youtubeVideoId: "FECc7J4RWkg",
-      title:
-        "TVアニメ「アルテ」ノンテロップED　毎週土曜22:00からTOKYO MXほかにて好評放送中！",
-      type: "creditless_ed",
-      channelName: "Asmik Ace",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "FECc7J4RWkg",
+      "title": "TVアニメ「アルテ」ノンテロップED　毎週土曜22:00からTOKYO MXほかにて好評放送中！",
+      "type": "creditless_ed",
+      "channelName": "Asmik Ace",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "ZexORQ38LRQ",
+      "title": "安野希世乃 「晴れ模様」Music Video",
+      "channelName": "安野希世乃",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "109020:ED:1": [
     {
-      youtubeVideoId: "5CklZVlT7Hs",
-      title: "YOURNESS「籠の中に鳥」TVアニメ『イエスタデイをうたって』主題歌",
-      type: "other",
-      channelName: "YOURNESS",
-      officialStatus: "official",
-      embeddable: true,
-    },
+      "youtubeVideoId": "5CklZVlT7Hs",
+      "title": "ユアネス「籠の中に鳥」動畫 MV",
+      "type": "full_music_video",
+      "channelName": "YOURNESS",
+      "officialStatus": "official",
+      "embeddable": true,
+      "recordingId": "yesterday-wo-utatte-ed-1-song-original-full"
+    }
   ],
   "104647:OP:1": [
     {
@@ -398,14 +913,22 @@ export const curated2020SpringThemeVideos = {
   ],
   "104647:ED:1": [
     {
-      youtubeVideoId: "_OkkUm7wW9I",
-      title:
-        "【はめふら】TV アニメ「乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまった…」ノンテロップED",
-      type: "creditless_ed",
-      channelName: "Asmik Ace",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "_OkkUm7wW9I",
+      "title": "【はめふら】TV アニメ「乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまった…」ノンテロップED",
+      "type": "creditless_ed",
+      "channelName": "Asmik Ace",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "LYurwo-Q8Rc",
+      "title": "蒼井翔太「BAD END」Short ver. 官方MV",
+      "channelName": "蒼井翔太 Official YouTube Channel",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "115656:OP:1": [
     {
@@ -419,13 +942,22 @@ export const curated2020SpringThemeVideos = {
   ],
   "115656:ED:1": [
     {
-      youtubeVideoId: "1IQQ8vcYab4",
-      title: "Gonna be right",
-      type: "other",
-      channelName: "Peaky P-key",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "1IQQ8vcYab4",
+      "title": "Gonna be right",
+      "type": "other",
+      "channelName": "Peaky P-key",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "-37XmUQuwyA",
+      "title": "Peaky P-key〈Gonna be right〉D4DJ D4 FES. 官方現場",
+      "channelName": "D4DJチャンネル",
+      "type": "live",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "115656:ED:2": [
     {
@@ -439,23 +971,41 @@ export const curated2020SpringThemeVideos = {
   ],
   "113311:OP:1": [
     {
-      youtubeVideoId: "cHYeFFGcjdc",
-      title: "TVアニメ『かくしごと』ノンテロップOP映像",
-      type: "creditless_op",
-      channelName: "avex pictures",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "cHYeFFGcjdc",
+      "title": "TVアニメ『かくしごと』ノンテロップOP映像",
+      "type": "creditless_op",
+      "channelName": "avex pictures",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "XVDG299bB34",
+      "title": "flumpool「ちいさな日々」Music Video",
+      "channelName": "flumpool",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "113311:ED:1": [
     {
-      youtubeVideoId: "tOv4k7wmzoE",
-      title: "TVアニメ『かくしごと』ノンテロップED映像",
-      type: "creditless_ed",
-      channelName: "avex pictures",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "tOv4k7wmzoE",
+      "title": "TVアニメ『かくしごと』ノンテロップED映像",
+      "type": "creditless_ed",
+      "channelName": "avex pictures",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "L-hyY-1luHs",
+      "title": "大滝詠一「君は天然色」Music Video (40th Anniversary Version)",
+      "channelName": "Sony Music (Japan)",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "112641:OP:1": [
     {
@@ -609,23 +1159,24 @@ export const curated2020SpringThemeVideos = {
   ],
   "108241:OP:1": [
     {
-      youtubeVideoId: "IRlkL36RCu0",
-      title: "H-el-ical//「Altern-ate-」MV Short ver.",
-      type: "tv_size",
-      channelName: "NBCUniversal Anime/Music",
-      officialStatus: "official",
-      embeddable: true,
-    },
+      "youtubeVideoId": "IRlkL36RCu0",
+      "title": "H-el-ical//「Altern-ate-」MV Short ver.",
+      "type": "music_video",
+      "channelName": "NBCUniversal Anime/Music",
+      "officialStatus": "official",
+      "embeddable": true
+    }
   ],
   "108241:ED:1": [
     {
-      youtubeVideoId: "HrkFQAQyFGc",
-      title: "Ame to Taieki to Nioi",
-      type: "other",
-      channelName: "Mili",
-      officialStatus: "official",
-      embeddable: true,
-    },
+      "youtubeVideoId": "HrkFQAQyFGc",
+      "title": "Ame to Taieki to Nioi",
+      "type": "art_track",
+      "channelName": "MILI - Topic",
+      "officialStatus": "official",
+      "embeddable": true,
+      "recordingId": "gleipnir-ed-1-song-original-full"
+    }
   ],
   "106154:OP:1": [
     {
@@ -649,56 +1200,80 @@ export const curated2020SpringThemeVideos = {
   ],
   "107294:OP:1": [
     {
-      youtubeVideoId: "kEQ3tEGKUa0",
-      title:
-        "【放送前解禁】TVアニメ『邪神ちゃんドロップキック‘』OP「時としてバイオレンス（halca）」",
-      type: "tv_size",
-      channelName: "[official]DROPKICK ON MY DEVIL!",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "kEQ3tEGKUa0",
+      "title": "時としてバイオレンス｜動畫官方先行片頭",
+      "type": "creditless_op",
+      "channelName": "[official]DROPKICK ON MY DEVIL!",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "2kThMJgbfpc",
+      "title": "時としてバイオレンス｜halca官方MV",
+      "channelName": "halca Official YouTube Channel",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "107294:ED:1": [
     {
-      youtubeVideoId: "TyL3euwKPXM",
-      title:
-        "【放送前解禁】TVアニメ『邪神ちゃんドロップキック‘』ED「Love Satisfaction（ZAMB）」",
-      type: "tv_size",
-      channelName: "[official]DROPKICK ON MY DEVIL!",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "TyL3euwKPXM",
+      "title": "Love Satisfaction｜動畫官方先行片尾",
+      "type": "creditless_ed",
+      "channelName": "[official]DROPKICK ON MY DEVIL!",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "MsZehZcrIwA",
+      "title": "Love Satisfaction｜ZAMB官方MV short ver.",
+      "channelName": "ZAMB Official",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "107294:ED:2": [
     {
-      youtubeVideoId: "Jkf6Rq3i8e4",
-      title: "ＣＨＩ☆ＴＯ☆ＳＥ愛歌",
-      type: "tv_size",
-      channelName: "[official]DROPKICK ON MY DEVIL!",
-      officialStatus: "official",
-      embeddable: true,
-    },
+      "youtubeVideoId": "Jkf6Rq3i8e4",
+      "title": "ＣＨＩ☆ＴＯ☆ＳＥ愛歌",
+      "type": "other",
+      "channelName": "[official]DROPKICK ON MY DEVIL!",
+      "officialStatus": "official",
+      "embeddable": true
+    }
   ],
   "113570:OP:1": [
     {
-      youtubeVideoId: "cfS98EgeJe0",
-      title:
-        "TVアニメ「社長、バトルの時間です！」OPテーマ「Hurry Love」視聴動画",
-      type: "tv_size",
-      channelName: "KADOKAWAanime",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "cfS98EgeJe0",
+      "title": "TVアニメ「社長、バトルの時間です！」OPテーマ「Hurry Love」視聴動画",
+      "type": "other",
+      "channelName": "KADOKAWAanime",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "u4DgqbdJ5PE",
+      "title": "和氣あず未「Hurry Love」官方MV",
+      "channelName": "和氣あず未 Music Channel",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "113570:ED:1": [
     {
-      youtubeVideoId: "9cMvQgjVRr4",
-      title: "TVアニメ「社長、バトルの時間です！」EDテーマ「おやすみ」視聴動画",
-      type: "tv_size",
-      channelName: "KADOKAWAanime",
-      officialStatus: "official",
-      embeddable: true,
-    },
+      "youtubeVideoId": "9cMvQgjVRr4",
+      "title": "TVアニメ「社長、バトルの時間です！」EDテーマ「おやすみ」視聴動画",
+      "type": "other",
+      "channelName": "KADOKAWAanime",
+      "officialStatus": "official",
+      "embeddable": true
+    }
   ],
   "112325:OP:1": [
     {
@@ -792,76 +1367,79 @@ export const curated2020SpringThemeVideos = {
   ],
   "111500:OP:1": [
     {
-      youtubeVideoId: "fEtFsUvgDMk",
-      title: "『新サクラ大戦 The Animation』オープニング",
-      type: "tv_size",
-      channelName: "ponycanyon",
-      officialStatus: "official",
-      embeddable: true,
-    },
+      "youtubeVideoId": "fEtFsUvgDMk",
+      "title": "『新サクラ大戦 The Animation』オープニング",
+      "type": "other",
+      "channelName": "ponycanyon",
+      "officialStatus": "official",
+      "embeddable": true
+    }
   ],
   "111500:ED:1": [
     {
-      youtubeVideoId: "sYW5Htp9w3g",
-      title: "桜夢見し",
-      type: "official_audio",
-      channelName:
-        "Teikokukagekidan hanagumi&Ellis,Lancelot,Yui Ayane Sakura(Sakura Amam... - Topic",
-      officialStatus: "licensed",
-      embeddable: true,
-    },
+      "youtubeVideoId": "sYW5Htp9w3g",
+      "title": "桜夢見し",
+      "type": "art_track",
+      "channelName": "Teikokukagekidan hanagumi&Ellis,Lancelot,Yui Ayane Sakura(Sakura Amam... - Topic",
+      "officialStatus": "official",
+      "embeddable": true,
+      "recordingId": "shin-sakura-taisen-the-animation-ed-1-song-ensemble-full"
+    }
   ],
   "111500:ED:2": [
     {
-      youtubeVideoId: "prEwkptn98s",
-      title: "スタァ誕生 花組ver. (with クラーラ)",
-      type: "official_audio",
-      channelName: "Release - Topic",
-      officialStatus: "licensed",
-      embeddable: true,
-    },
+      "youtubeVideoId": "prEwkptn98s",
+      "title": "スタァ誕生 花組ver. (with クラーラ)",
+      "type": "art_track",
+      "channelName": "Release - Topic",
+      "officialStatus": "official",
+      "embeddable": true,
+      "recordingId": "shin-sakura-taisen-the-animation-ed-2-song-with-clara-full"
+    }
   ],
   "110130:OP:1": [
     {
-      youtubeVideoId: "RaX0jcouyzw",
-      title: "Never Let You Go!",
-      type: "official_audio",
-      channelName: "Naho - Topic",
-      officialStatus: "licensed",
-      embeddable: true,
-    },
+      "youtubeVideoId": "RaX0jcouyzw",
+      "title": "Never Let You Go!",
+      "type": "art_track",
+      "channelName": "Naho - Topic",
+      "officialStatus": "licensed",
+      "embeddable": true,
+      "recordingId": "tamayomi-op-1-song-original-full"
+    }
   ],
   "110130:ED:1": [
     {
-      youtubeVideoId: "4Sz9gSjs-nA",
-      title: "プラスマイナスゼロの法則",
-      type: "official_audio",
-      channelName: "Release - Topic",
-      officialStatus: "licensed",
-      embeddable: true,
-    },
+      "youtubeVideoId": "4Sz9gSjs-nA",
+      "title": "プラスマイナスゼロの法則",
+      "type": "art_track",
+      "channelName": "Release - Topic",
+      "officialStatus": "licensed",
+      "embeddable": true,
+      "recordingId": "tamayomi-ed-1-song-team-full"
+    }
   ],
   "108266:OP:1": [
     {
-      youtubeVideoId: "6x20QE4cNew",
-      title:
-        "【MV】A応P「風吹けば月夜の果てに」FULL Ver.（TVアニメ『継つぐもも』オープニング主題歌)",
-      type: "full_music_video",
-      channelName: "A応P",
-      officialStatus: "official",
-      embeddable: true,
-    },
+      "youtubeVideoId": "6x20QE4cNew",
+      "title": "A応P「風吹けば月夜の果てに」FULL Ver.",
+      "type": "full_music_video",
+      "channelName": "A応P",
+      "officialStatus": "official",
+      "embeddable": true,
+      "recordingId": "tsugu-tsugumomo-op-1-song-original-full"
+    }
   ],
   "108266:ED:1": [
     {
-      youtubeVideoId: "S-Pu7IqW8II",
-      title:
-        "東城陽奏(Haruka Tojo)【春、奏で】MV FULL  (TVアニメ「継つぐもも」EDテーマ）",
-      type: "full_music_video",
-      channelName: "東城陽奏 Official YouTube Channel",
-      officialStatus: "official",
-      embeddable: true,
-    },
+      "youtubeVideoId": "S-Pu7IqW8II",
+      "title": "東城陽奏「春、奏で」MV FULL",
+      "type": "full_music_video",
+      "channelName": "東城陽奏 Official YouTube Channel",
+      "officialStatus": "official",
+      "embeddable": true,
+      "recordingId": "tsugu-tsugumomo-ed-1-song-original-full"
+    }
   ],
   "114811:OP:1": [{"youtubeVideoId":"aPPCXVBHPhw","title":"未確認飛行船｜東映無字幕片頭","channelName":"東映アニメーション公式YouTubeチャンネル","type":"creditless_op","officialStatus":"official","embeddable":true},{"youtubeVideoId":"5WEKOTQVRDM","title":"未確認飛行船｜唱片方完整版MV","channelName":"日本コロムビア 公式YouTubeチャンネル","type":"full_music_video","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
   "114811:ED:1": [{"youtubeVideoId":"ZLtg9XI01Hc","title":"悔しさは種｜藝人官方MV","channelName":"Chiai Fujikawa","type":"full_music_video","officialStatus":"official","embeddable":true}],
@@ -1015,35 +1593,33 @@ export const curated2020SpringThemeVideos = {
   ],
   "114402:OP:1": [
     {
-      youtubeVideoId: "eDhCT2sd4Nk",
-      title: "奥田民生 - サテスハクション [Official Lyric Video]",
-      type: "tv_size",
-      channelName: "奥田民生(RAMEN CURRY MUSIC RECORDS)",
-      officialStatus: "official",
-      embeddable: true,
-    },
+      "youtubeVideoId": "eDhCT2sd4Nk",
+      "title": "奥田民生〈サテスハクション〉官方歌詞影片",
+      "type": "lyric_video",
+      "channelName": "奥田民生(RAMEN CURRY MUSIC RECORDS)",
+      "officialStatus": "official",
+      "embeddable": true
+    }
   ],
   "114402:ED:1": [
     {
-      youtubeVideoId: "dz-P_ke5dFg",
-      title:
-        "フレンズ「あくびをすれば」 / 読売テレビ・日本テレビ系TVアニメ『ハクション大魔王２０２０』エンディングテーマ",
-      type: "other",
-      channelName: "フレンズOfficial YouTube Channel",
-      officialStatus: "official",
-      embeddable: true,
-    },
+      "youtubeVideoId": "dz-P_ke5dFg",
+      "title": "フレンズ〈あくびをすれば〉官方MV",
+      "type": "music_video",
+      "channelName": "フレンズOfficial YouTube Channel",
+      "officialStatus": "official",
+      "embeddable": true
+    }
   ],
   "114402:ED:2": [
     {
-      youtubeVideoId: "lqiYU4Q8RLY",
-      title:
-        "中川翔子 『フレフレ』music video ※TVアニメ『ハクション大魔王２０２０』EDテーマ",
-      type: "full_music_video",
-      channelName: "Shoko Nakagawa OFFICIAL YouTube CHANNEL",
-      officialStatus: "official",
-      embeddable: true,
-    },
+      "youtubeVideoId": "lqiYU4Q8RLY",
+      "title": "中川翔子〈フレフレ〉官方MV",
+      "type": "full_music_video",
+      "channelName": "Shoko Nakagawa OFFICIAL YouTube CHANNEL",
+      "officialStatus": "official",
+      "embeddable": true
+    }
   ],
   "106319:OP:1": [
     {
@@ -1067,35 +1643,60 @@ export const curated2020SpringThemeVideos = {
   ],
   "107871:OP:1": [
     {
-      youtubeVideoId: "ti4UkmHI94M",
-      title:
-        "アニメ「プリンセスコネクト！Re:Dive」オープニング・テーマ「Lost Princess」ノンテロップ映像",
-      type: "tv_size",
-      channelName: "プリンセスコネクト!Re:Dive チャンネル",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "ti4UkmHI94M",
+      "title": "Lost Princess｜第1期官方無字幕片頭",
+      "type": "creditless_op",
+      "channelName": "プリンセスコネクト!Re:Dive チャンネル",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "p5wzqguKBqQ",
+      "title": "Lost Princess [Official Audio]",
+      "channelName": "日本コロムビア 公式YouTubeチャンネル",
+      "type": "official_audio",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "107871:ED:1": [
     {
-      youtubeVideoId: "Ldw0DCsTt6U",
-      title:
-        "アニメ「プリンセスコネクト！Re:Dive」エンディング・テーマ「それでもともに歩いていく」ノンテロップ映像",
-      type: "tv_size",
-      channelName: "プリンセスコネクト!Re:Dive チャンネル",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "Ldw0DCsTt6U",
+      "title": "それでもともに歩いていく｜第1期官方無字幕片尾",
+      "type": "creditless_ed",
+      "channelName": "プリンセスコネクト!Re:Dive チャンネル",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "pnjXMrcQdPk",
+      "title": "それでもともに歩いていく [Official Audio]",
+      "channelName": "日本コロムビア 公式YouTubeチャンネル",
+      "type": "official_audio",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "107871:ED:2": [
     {
-      youtubeVideoId: "0rcl2mrhmLg",
-      title: "【視聴動画】Connecting Happy!!【プリンセスコネクト！Re:Dive】",
-      type: "tv_size",
-      channelName: "プリンセスコネクト!Re:Dive チャンネル",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "0rcl2mrhmLg",
+      "title": "【視聴動画】Connecting Happy!!【プリンセスコネクト！Re:Dive】",
+      "type": "other",
+      "channelName": "プリンセスコネクト!Re:Dive チャンネル",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "xSR_iQjUYEc",
+      "title": "Connecting Happy!! [Official Audio]",
+      "channelName": "日本コロムビア 公式YouTubeチャンネル",
+      "type": "official_audio",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "116786:OP:1": [
     {
@@ -1371,13 +1972,23 @@ export const curated2020SpringThemeVideos = {
   ],
   "109020:ED:2": [
     {
-      youtubeVideoId: "zHi6AeKaH2U",
-      title: "Aoibridge",
-      type: "other",
-      channelName: "酸欠少女 さユり(Sanketsu-girl Sayuri)",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "zHi6AeKaH2U",
+      "title": "Aoibridge",
+      "type": "other",
+      "channelName": "酸欠少女 さユり(Sanketsu-girl Sayuri)",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "daW3QAvRtZU",
+      "title": "葵橋｜さユり官方發行音源",
+      "channelName": "酸欠少女 さユり(Sanketsu-girl Sayuri)",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "yesterday-wo-utatte-ed-2-song-original-full"
+    }
   ],
   "114717:OP:1": [{"youtubeVideoId":"MbFyOtpwx5s","title":"世界が君を必要とする時が来たんだ｜官方MV","channelName":"Masayoshi Oishi","type":"full_music_video","officialStatus":"official","embeddable":true},{"youtubeVideoId":"_IyOaaTOo7c","title":"世界が君を必要とする時が来たんだ｜官方音軌","channelName":"Masayoshi Oishi","type":"art_track","officialStatus":"official","embeddable":false,"embedAvailability":"unknown","recordingId":"tomica-kizuna-gattai-earth-granner-op-1-song-single-full"},{"youtubeVideoId":"azs3z2xZiXs","title":"世界が君を必要とする時が来たんだ (TV edit)｜官方音軌","channelName":"Masayoshi Oishi","type":"art_track","officialStatus":"official","embeddable":false,"embedAvailability":"unknown","recordingId":"tomica-kizuna-gattai-earth-granner-op-1-song-tv-edit"}],
   "114411:OP:1": [
