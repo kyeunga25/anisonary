@@ -1,6 +1,10 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2020FallThemeVideos = {
+  "118376:OP:1": [{"youtubeVideoId":"xxA6NPMy9gA","title":"legendary future｜官方MV短版","channelName":"fripSide Official YouTube Channel","type":"music_video","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "118376:OP:2": [{"youtubeVideoId":"1BelV64JDis","title":"Eclipse｜動畫官方片頭影片","channelName":"【公式】キンスレ[KING's RAID]チャンネル","type":"other","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},{"youtubeVideoId":"mU2ok2aTeFk","title":"Eclipse TV Size｜官方音源","channelName":"Dreamcatcher - Topic","type":"art_track","officialStatus":"official","embeddable":false,"embedAvailability":"unknown","recordingId":"kings-raid-ishi-wo-tsugumonotachi-op-2-song-tv-size"},{"youtubeVideoId":"b9UxVkTfkVg","title":"Eclipse｜官方MV","channelName":"Dreamcatcher official","type":"music_video","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "118376:ED:1": [{"youtubeVideoId":"6FxvWQJ2xTY","title":"SticK Out｜官方音源","channelName":"KOTOKO Official YouTube Channel","type":"official_audio","officialStatus":"official","embeddable":false,"embedAvailability":"unknown","recordingId":"kings-raid-ishi-wo-tsugumonotachi-ed-1-song-single"}],
+  "118376:ED:2": [{"youtubeVideoId":"kB98BFBgEFI","title":"One Wish｜動畫官方片尾影片","channelName":"NBCUniversal Anime/Music","type":"other","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},{"youtubeVideoId":"ZKe0ICRbwYg","title":"One Wish｜官方MV","channelName":"NBCUniversal Anime/Music","type":"music_video","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
   "120851:OP:3": [
     {
       youtubeVideoId: "i8fPPQZcXgg",
@@ -698,4 +702,6 @@ export const curated2020FallThemeVideos = {
   "114099:ED:3": [{"youtubeVideoId":"vQ-IyrZYSyw","title":"ハンブレッダーズ「名前」Music Video","type":"music_video","channelName":"ハンブレッダーズ","officialStatus":"official","embeddable":false}],
   "114099:ED:4": [{"youtubeVideoId":"3HMprhMq--A","title":"ミテイノハナシ - 飛ぶ鳥は（Music Video）","type":"music_video","channelName":"ミテイノハナシ / Aru.","officialStatus":"official","embeddable":false}],
   "114099:OP:2": [{"youtubeVideoId":"BBAkeBMlMrg","title":"向井太一 / Bravest (Official Music Video)","type":"music_video","channelName":"向井太一 / TAIL","officialStatus":"official","embeddable":false}],
+  "117757:OP:1": [{"youtubeVideoId":"GOf00D1B99Q","title":"鈴木愛奈 - もっと高く《Aina Suzuki - MottoTakaku》","channelName":"鈴木愛奈 Official Channel","type":"music_video","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "120851:ED:4": [{"youtubeVideoId":"MRyhUth7vLw","title":"「おそ松さん」第3期第2クールED「Amazing Intelligence ～クズは最高!!!!!!!!!!!!!♡♡△△～ 」TVCM","channelName":"TVアニメ「おそ松さん」公式","type":"pv","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
 } satisfies CuratedThemeVideoOverrideMap;

@@ -342,6 +342,7 @@ export const curated2021WinterThemeVideos = {
     },
   ],
   "124153:ED:1": [
+    {"youtubeVideoId":"RIYkcdC03iA","title":"インフィニティ｜官方音源","type":"art_track","channelName":"YURi - Topic","officialStatus":"official","embeddable":false,"embedAvailability":"unknown","recordingId":"sk-ed-1-song-single"},
     {
       youtubeVideoId: "2b2v45EmOR8",
       title: "【EDは優里が担当】TVアニメ「SK∞ エスケーエイト」ED解禁映像",
@@ -352,6 +353,7 @@ export const curated2021WinterThemeVideos = {
     },
   ],
   "124153:IN:1": [
+    {"youtubeVideoId":"FEtbbQyUv-4","title":"Dimensions of the Wind -Langa version-｜Aniplex官方音源","type":"art_track","channelName":"Release - Topic","officialStatus":"official","embeddable":false,"embedAvailability":"unknown","recordingId":"sk-in-1-song-ost-langa"},
     {
       youtubeVideoId: "G-yZMHstQ3U",
       title: "Dimensions of the Wind",
@@ -361,6 +363,7 @@ export const curated2021WinterThemeVideos = {
       embeddable: true,
     },
   ],
+  "124153:IN:2": [{"youtubeVideoId":"bmioIv8qT7g","title":"Seize the Moment!! -Reki version-｜Aniplex官方音源","type":"art_track","channelName":"Tasuku Hatanaka - Topic","officialStatus":"official","embeddable":false,"embedAvailability":"unknown","recordingId":"sk-in-2-song-ost-reki"}],
   "124153:IN:3": [
     {
       youtubeVideoId: "vSP_xHdsJb0",

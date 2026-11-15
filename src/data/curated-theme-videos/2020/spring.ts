@@ -385,7 +385,7 @@ export const curated2020SpringThemeVideos = {
       youtubeVideoId: "Kb3ZA4zmMdg",
       title:
         "アニメ「シャドウバース」オープニングテーマ「キリフダ」ノンテロップ映像",
-      type: "tv_size",
+      type: "creditless_op",
       channelName: "アニメ「シャドウバース」公式チャンネル",
       officialStatus: "official",
       embeddable: true,
@@ -401,16 +401,32 @@ export const curated2020SpringThemeVideos = {
       officialStatus: "official",
       embeddable: true,
     },
+    {
+      "youtubeVideoId": "sMwp6mcLuCU",
+      "title": "FLOW「新世界」｜官方短版 MV",
+      "channelName": "FLOW Official YouTube Channel",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": true
+    },
   ],
   "112325:ED:1": [
     {
       youtubeVideoId: "qHrqsnHXxBo",
       title:
         "アニメ「シャドウバース」エンディングテーマ「ハピネス*センセーション」ノンテロップ映像",
-      type: "tv_size",
+      type: "creditless_ed",
       channelName: "アニメ「シャドウバース」公式チャンネル",
       officialStatus: "official",
       embeddable: true,
+    },
+    {
+      "youtubeVideoId": "OXWrK3pZW4E",
+      "title": "小倉 唯「ハピネス*センセーション」MUSIC VIDEO",
+      "channelName": "小倉 唯 YouTube OFFICIAL CHANNEL",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": true
     },
   ],
   "112325:ED:2": [
@@ -422,6 +438,14 @@ export const curated2020SpringThemeVideos = {
       channelName: "アニメ「シャドウバース」公式チャンネル",
       officialStatus: "official",
       embeddable: true,
+    },
+    {
+      "youtubeVideoId": "2du0NVF73fM",
+      "title": "ゲーム実況者わくわくバンド『心誰にも』MV",
+      "channelName": "わくバンチャンネル",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": true
     },
   ],
   "110458:OP:1": [
@@ -588,10 +612,19 @@ export const curated2020SpringThemeVideos = {
     {
       youtubeVideoId: "weZIhAQZRm0",
       title: "No Rain, No Rainbow",
-      type: "other",
+      type: "art_track",
       channelName: "Nana Mizuki - Topic",
       officialStatus: "official",
       embeddable: true,
+    },
+    {
+      "youtubeVideoId": "bD3aXLjGPus",
+      "title": "No Rain, No Rainbow (NANA ACOUSTIC ONLINE Ver.)｜官方 Art Track",
+      "channelName": "水樹奈々",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": true,
+      "recordingId": "duel-masters-king-2020-op-2-song-nana-acoustic-online"
     },
   ],
   "118630:ED:1": [
@@ -599,20 +632,47 @@ export const curated2020SpringThemeVideos = {
       youtubeVideoId: "cnylWKjeAsA",
       title:
         "MV 上月せれな ともだちだから（TVアニメ「デュエル・マスターズ キング」エンディングテーマ）",
-      type: "tv_size",
+      type: "music_video",
       channelName: "上月せれな（せれちゅ）",
       officialStatus: "official",
       embeddable: true,
+    },
+    {
+      "youtubeVideoId": "34E0Nejy96E",
+      "title": "ともだちだから｜官方 Art Track",
+      "channelName": "Serena Kozuki - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": true,
+      "recordingId": "duel-masters-king-2020-ed-1-song-single-vocal"
+    },
+    {
+      "youtubeVideoId": "j-33kUHBgrc",
+      "title": "ともだちだから（TVサイズ）｜官方 Art Track",
+      "channelName": "Serena Kozuki - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": true,
+      "recordingId": "duel-masters-king-2020-ed-1-song-single-tv"
     },
   ],
   "118630:ED:2": [
     {
       youtubeVideoId: "I8ozQow48As",
       title: "Hyakka Ryouran Kokoromoyou (TV Version)",
-      type: "official_audio",
+      type: "art_track",
       channelName: "Wawawa - Topic",
       officialStatus: "licensed",
       embeddable: true,
+    },
+    {
+      "youtubeVideoId": "pFWMvBPS0mI",
+      "title": "百花繚乱ココロモヨウ｜官方 Art Track",
+      "channelName": "Wawawa - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": true,
+      "recordingId": "duel-masters-king-2020-ed-2-song-single-vocal"
     },
   ],
   "118630:ED:3": [
@@ -912,20 +972,37 @@ export const curated2020SpringThemeVideos = {
       youtubeVideoId: "ZrQuao0qp_M",
       title:
         "上白石萌音「白い泥」MV (ショートVer.) & 8/26発売Album「note」トレーラー映像",
-      type: "tv_size",
+      type: "music_video",
       channelName: "UNIVERSAL MUSIC JAPAN",
       officialStatus: "official",
       embeddable: true,
+    },
+    {
+      "youtubeVideoId": "4KkigyeJhkI",
+      "title": "白い泥｜官方 Art Track",
+      "channelName": "Mone Kamishiraishi - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": true
     },
   ],
   "112302:ED:1": [
     {
       youtubeVideoId: "swxyb2OhCY0",
       title: "SHE'S - One【MV】",
-      type: "other",
+      type: "music_video",
       channelName: "SHE'S Channel",
       officialStatus: "official",
       embeddable: true,
+    },
+    {
+      "youtubeVideoId": "Yl0gWzSSKrA",
+      "title": "SHE'S - One【Official Audio】",
+      "channelName": "SHE'S Channel",
+      "type": "official_audio",
+      "officialStatus": "official",
+      "embeddable": true,
+      "recordingId": "major-2nd-season-2-ed-1-song-official-audio"
     },
   ],
   "112302:ED:2": [
@@ -937,13 +1014,21 @@ export const curated2020SpringThemeVideos = {
       officialStatus: "official",
       embeddable: true,
     },
+    {
+      "youtubeVideoId": "qjNpryRu6tQ",
+      "title": "IDENTITY｜官方 Art Track",
+      "channelName": "ame_no_parade - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": true
+    },
   ],
   "116793:OP:1": [
     {
       youtubeVideoId: "iUlEnyuu3wg",
       title:
         "TVアニメ『もっと！まじめにふまじめ かいけつゾロリ』OPテーマ「もっと！もっと！かいけつゾロリ」ノンクレジット映像",
-      type: "tv_size",
+      type: "creditless_op",
       channelName: "【公式】BN Picturesチャンネル",
       officialStatus: "official",
       embeddable: true,
@@ -958,35 +1043,70 @@ export const curated2020SpringThemeVideos = {
       officialStatus: "official",
       embeddable: true,
     },
+    {
+      "youtubeVideoId": "u9_0gqh5adA",
+      "title": "ONEPIXCEL「シャラララ」Choreography Movie",
+      "channelName": "ONEPIXCEL",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": true
+    },
   ],
   "113990:OP:1": [
     {
       youtubeVideoId: "2JJ5a_hG3IU",
       title: "Run Girls, Run！ / イルミナージュ・ランド short ver.",
-      type: "tv_size",
+      type: "other",
       channelName: "avex pictures",
       officialStatus: "official",
       embeddable: true,
+    },
+    {
+      "youtubeVideoId": "C9sPy5C-vqA",
+      "title": "イルミナージュ・ランド｜官方 Art Track",
+      "channelName": "Run Girls, Run! - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": true,
+      "recordingId": "kiratto-prichan-season-3-op-1-song-studio"
     },
   ],
   "113990:OP:2": [
     {
       youtubeVideoId: "SrMkx_P9cgw",
       title: "Run Girls, Run！ / ルミナンスプリンセス",
-      type: "other",
+      type: "music_video",
       channelName: "avex",
       officialStatus: "official",
       embeddable: true,
+    },
+    {
+      "youtubeVideoId": "oQeB3Xefua0",
+      "title": "ルミナンスプリンセス｜官方 Art Track",
+      "channelName": "Run Girls, Run! - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": true,
+      "recordingId": "kiratto-prichan-season-3-op-2-song-studio"
     },
   ],
   "113990:OP:3": [
     {
       youtubeVideoId: "q9WpV51PRSs",
       title: "Run Girls, Run！ / ドリーミング☆チャンネル！",
-      type: "other",
+      type: "music_video",
       channelName: "avex",
       officialStatus: "official",
       embeddable: true,
+    },
+    {
+      "youtubeVideoId": "ZHelHe7O8bA",
+      "title": "ドリーミング☆チャンネル! instrumental｜官方 Art Track",
+      "channelName": "Run Girls, Run! - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": true,
+      "recordingId": "kiratto-prichan-season-3-op-3-song-instrumental"
     },
   ],
   "109020:ED:2": [
@@ -1077,4 +1197,24 @@ export const curated2020SpringThemeVideos = {
   "114072:IN:1": [{"youtubeVideoId":"aP5FTJp0Utg","title":"【再投稿】ロミン（CV,楠木ともり）が歌うTVアニメ『遊☆戯☆王ＳＥＶＥＮＳ』挿入歌「Are You Re:D?」音源解禁！サウンドトラック第３弾に収録！","type":"other","channelName":"アニメ 音楽 2.5次元舞台 - マーベラス公式チャンネル","officialStatus":"official","embeddable":false}],
   "114072:OP:1": [{"youtubeVideoId":"Xc8r6A710C8","title":"【公式】TVアニメ『遊☆戯☆王SEVENS』OP/ナナナナナナナ（佐伯ユウスケ）","type":"creditless_op","channelName":"【公式】遊戯王ラッシュデュエルTV","officialStatus":"official","embeddable":false},{"youtubeVideoId":"ZUxvmzUUwdg","title":"佐伯ユウスケ『ナナナナナナナ』MV / TVアニメ『遊☆戯☆王SEVENS』オープニング主題歌","type":"music_video","channelName":"アニメ 音楽 2.5次元舞台 - マーベラス公式チャンネル","officialStatus":"official","embeddable":false}],
   "114072:OP:2": [{"youtubeVideoId":"YqOU93OW1Ao","title":"The Brow Beat 「ハレヴタイ」【Official Music Video [Full Ver.] 】","type":"full_music_video","channelName":"The Brow Beat Official YouTube Channel","officialStatus":"official","embeddable":false}],
+  "114072:ED:7": [
+    {
+      "youtubeVideoId": "v2IpUqTgxBk",
+      "title": "ゴーハ第７小学校校歌（ロミンver.）",
+      "channelName": "Tomori Kusunoki - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "VF6TrcLHdLQ",
+      "title": "ゴーハ第７小学校校歌（ロミンver.・TVサイズ）",
+      "channelName": "Tomori Kusunoki - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
 } satisfies CuratedThemeVideoOverrideMap;

@@ -452,4 +452,193 @@ export const curated2020WinterThemeVideos = {
       embeddable: true,
     },
   ],
+  "113472:OP:2": [
+    {
+      "youtubeVideoId": "Q60Xbp1BSCc",
+      "title": "「妖怪学園Y ～Nとの遭遇～」オープニングテーマ『大宇宙ランデブー』",
+      "type": "other",
+      "channelName": "LEVEL5ch【公式】",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "sB7X6EtVtgo",
+      "title": "【妖怪学園Y】大宇宙ランデブー／すとぷり【ナユタン星人】",
+      "type": "music_video",
+      "channelName": "すとぷりちゃんねる",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "113472:OP:3": [
+    {
+      "youtubeVideoId": "LWAxX3Mi4Go",
+      "title": "「妖怪学園Y ～Nとの遭遇～」オープニングテーマ『いにしえロマンティック』",
+      "type": "other",
+      "channelName": "LEVEL5ch【公式】",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "ip1Jk6ahD1k",
+      "title": "【妖怪学園Y】いにしえロマンティック/P丸様。feat.YSPクラブ【ナユタン星人】",
+      "type": "music_video",
+      "channelName": "P丸様。",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "113472:ED:10": [
+    {
+      "youtubeVideoId": "7pLcL_FKUIg",
+      "title": "「妖怪学園Y ～Nとの遭遇～」エンディングテーマ『宇宙神秘ブギ』",
+      "type": "creditless_ed",
+      "channelName": "LEVEL5ch【公式】",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "L2NknelL6mE",
+      "title": "【妖怪学園Y】宇宙神秘ブギ／莉犬",
+      "type": "music_video",
+      "channelName": "莉犬くん【すとぷり】",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "113472:ED:11": [
+    {
+      "youtubeVideoId": "B44jbby77wc",
+      "title": "「妖怪学園Y ～Nとの遭遇～」エンディングテーマ『ＹＳＰ！』",
+      "type": "other",
+      "channelName": "LEVEL5ch【公式】",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "113472:OP:1": [
+    {
+      "youtubeVideoId": "clh2UXayN_I",
+      "title": "「妖怪学園Y ～Nとの遭遇～」オープニングテーマ『ギンギラ銀河』",
+      "type": "other",
+      "channelName": "LEVEL5ch【公式】",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "H_rd_qjk6sI",
+      "title": "【妖怪ウォッチOP】ギンギラ銀河／すとぷり【ナユタン星人】",
+      "type": "music_video",
+      "channelName": "すとぷりちゃんねる",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "113472:ED:2": [
+    {
+      "youtubeVideoId": "LyB2gFCd6eo",
+      "title": "【映画 妖怪学園Y】Y学園へ行こう ワイワイ編【ろん】",
+      "type": "music_video",
+      "channelName": "LEVEL5ch【公式】",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "113472:ED:3": [
+    {
+      "youtubeVideoId": "PZkwcpPg0FI",
+      "title": "【映画 妖怪学園Y】Y学園へ行こう 疾走編【96猫】",
+      "type": "music_video",
+      "channelName": "LEVEL5ch【公式】",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "113472:ED:4": [
+    {
+      "youtubeVideoId": "5VGHV9BBoJ8",
+      "title": "【映画 妖怪学園Y】Y学園へ行こう 青春ロック編【＋α／あるふぁきゅん。】",
+      "type": "music_video",
+      "channelName": "LEVEL5ch【公式】",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "113472:ED:5": [
+    {
+      "youtubeVideoId": "NB2hlxugyaU",
+      "title": "【映画 妖怪学園Y】Y学園へ行こう 学園ドタバタ編【莉犬】",
+      "type": "music_video",
+      "channelName": "LEVEL5ch【公式】",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "113472:ED:6": [
+    {
+      "youtubeVideoId": "OkitvMxxs40",
+      "title": "「妖怪学園Y ～Nとの遭遇～」エンディングテーマ『リターントゥ地球』",
+      "type": "other",
+      "channelName": "LEVEL5ch【公式】",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "113472:ED:7": [
+    {
+      "youtubeVideoId": "WTvG6Zkath4",
+      "title": "【映画 妖怪学園Y】Y学園へ行こう 8bit編【そらる】",
+      "type": "music_video",
+      "channelName": "LEVEL5ch【公式】",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "113472:ED:8": [
+    {
+      "youtubeVideoId": "d4pV_eRj770",
+      "title": "「妖怪学園Y ～Nとの遭遇～」エンディングテーマ『侵略魔少女エルゼメキア』",
+      "type": "other",
+      "channelName": "LEVEL5ch【公式】",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "vB7DGvJhui8",
+      "title": "侵略魔少女エルゼメキア",
+      "type": "art_track",
+      "channelName": "Pmarusama - Topic",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-8-song-sunny-album"
+    }
+  ],
+  "113472:ED:9": [
+    {
+      "youtubeVideoId": "jF9nFneYqzc",
+      "title": "「妖怪学園Y ～Nとの遭遇～」エンディングテーマ『キラボシ共和国国歌』",
+      "type": "other",
+      "channelName": "LEVEL5ch【公式】",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
 } satisfies CuratedThemeVideoOverrideMap;
